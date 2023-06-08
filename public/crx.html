@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <script src='/assets/chrome-extension/purify.min.js'></script>
+    <script src='/assets/chrome-extension/template-web.js'></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-04Y2JYQ32T" data-nscript="afterInteractive"></script>
+    <script id="gtag-init" data-nscript="afterInteractive">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-04Y2JYQ32T', {
+            page_path: window.location.pathname,
+            cookie_flags: 'max-age=7200;secure;samesite=none',
+        });
+    </script>
+</head>
+<body>
+<script>
+window.onload=function(){"use strict";window.addEventListener("message",e=>{const{data:r={},event:t}=e.data;if("renderTemplate"===t)try{const t=DOMPurify.sanitize(template.render(r.template||"",r.variables||{},{escape:!1}));e.source.postMessage({event:"renderTemplateResponse",taskId:r.taskId,data:t.toString(),error:null,success:!0},e.origin)}catch(t){console.error("error :\t",t),e.source.postMessage({event:"renderTemplateResponse",taskId:r.taskId,data:null,error:"renderTemplate error"+(t.message||t).toString(),success:!1},e.origin)}})};
+</script>
+</body>
+</html>

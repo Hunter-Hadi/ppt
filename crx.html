@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+    <script src='/assets/chrome-extension/purify.min.js'></script>
+    <script src='/assets/chrome-extension/template-web.js'></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-04Y2JYQ32T" data-nscript="afterInteractive"></script>
+    <script id="gtag-init" data-nscript="afterInteractive">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-04Y2JYQ32T', {
+            page_path: window.location.pathname,
+            cookie_flags: 'max-age=7200;secure;samesite=none',
+        });
+    </script>
+</head>
+<body>
+<script>
+window.onload = function () {
+    (function() {
+        "use strict";
+        window.addEventListener("message", (originalEvent) => {
+            const {data = {}, event} = originalEvent.data
+            if (event === 'renderTemplate') {
+                try {
+                    const result = DOMPurify.sanitize(template.render(data.template || '',data.variables || {}, {escape: false}))
+                    originalEvent.source.postMessage({
+                        event: 'renderTemplateResponse',
+                        taskId: data.taskId,
+                        data: result.toString(),
+                        error: null,
+                        success: true
+                    }, originalEvent.origin)
+                } catch (e) {
+                    console.error('error :\t', e)
+                    originalEvent.source.postMessage({
+                        event: 'renderTemplateResponse',
+                        taskId: data.taskId,
+                        data: null,
+                        error: 'renderTemplate error' + (e.message || e).toString(),
+                        success: false
+                    }, originalEvent.origin)
+                }
+            }
+        });
+    })();
+}
+</script>
+</body>
+</html>
