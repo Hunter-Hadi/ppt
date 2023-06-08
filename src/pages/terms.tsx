@@ -24,7 +24,7 @@ const TermsPage: FC = () => {
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
           {`These Terms of Use (the "Terms") are a binding contract between you and MaxAI.me ("MaxAI.me", "we" and "us"). If you have any questions, comments, or concerns regarding these Terms or the Services, please contact us at `}
-          <ProLink href={'mailto:hello@maxai.me'}>hello@maxai.me.</ProLink>
+          <ProLink href={'mailto:hello@maxai.me'}>hello@maxai.me</ProLink>.
         </Typography>
         <Typography variant='body2' gutterBottom>
           {`You must agree to and accept all of the Terms, or you don't have the right to use the Services. Your using the Services in any way means that you agree to all of these Terms, and these Terms will remain in effect while you use the services. These Terms include the provisions in this document, as well as those in the Privacy Policy.`}
