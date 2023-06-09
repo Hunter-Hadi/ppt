@@ -27,7 +27,7 @@ const TwitterFollowButton = () => {
         fontSize: 14,
         gap: 0.5,
         justifyContent: 'center',
-        minWidth: 200,
+        // minWidth: 200,
       }}
     >
       <TwitterIcon sx={{ fontSize: 18 }} />
