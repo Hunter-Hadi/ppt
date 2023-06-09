@@ -24,7 +24,7 @@ const PromptsPage = () => {
         socialImage={'https://www.maxai.me/prompts-social.png'}
       />
       <Stack mt={4} alignItems={'center'} spacing={2} mb={2}>
-        <Typography variant={'h1'}>Useful ChatGPT prompts</Typography>
+        <Typography variant={'h1'}>One-Click ChatGPT Prompts</Typography>
         <PromptTagSelector onLoaded={() => setLoaded(true)} />
       </Stack>
       {loaded && <PromptListLayout />}
