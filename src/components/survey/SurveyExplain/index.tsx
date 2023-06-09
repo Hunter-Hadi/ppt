@@ -328,8 +328,9 @@ const SurveyExplain: FC<IProps> = (props) => {
         <Typography variant={'body2'} textAlign='center'>
           Free AI Copilot for the Web.
           <br />
-          MaxAI.me (Plugins & GPT-4), Bard, Bing Chat, and Claude on any website
-          without copy-pasting.
+          Use ChatGPT (Plugins & GPT-4), Bard, Bing Chat, and Claude on any
+          website without copy-pasting. Write, rewrite, summarize, translate,
+          explain, or reply to any text everywhere with one click.
           <br />
           Write, rewrite, summarize, translate, explain, or reply to any text
           everywhere with one click.

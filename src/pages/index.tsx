@@ -10,7 +10,6 @@ import ProLink from '@/components/ProLink';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import {
-  APP_EXTERNAL_LINKS,
   INSTALL_LINK,
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
 } from '@/global_constants';
@@ -67,9 +66,9 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
         <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 28 }} /> Claude
       </Typography>
       <Typography variant={'body1'} fontSize={20} textAlign='center'>
-        MaxAI.me (Plugins & GPT-4), Bard, Bing Chat, and Claude on any website
-        without copy-pasting. Write, rewrite, summarize, translate, explain, or
-        reply to any text everywhere with one click.
+        Use ChatGPT (Plugins & GPT-4), Bard, Bing Chat, and Claude on any
+        website without copy-pasting. Write, rewrite, summarize, translate,
+        explain, or reply to any text everywhere with one click.
       </Typography>
 
       <ProLink
@@ -163,7 +162,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     <Typography variant={'h2'} pt={7} fontSize={22}>
       <span>{`Why is `}</span>
       <ProLink
-        href={installLink ?? APP_EXTERNAL_LINKS.CHROME_EXTENSION}
+        href={installLink ?? `${INSTALL_LINK}?ref=homepage`}
         sx={{ color: 'inherit' }}
         target='_blank'
         underline={'always'}
@@ -264,7 +263,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     <Typography variant={'body1'} fontSize={20}>
       <span>{`1. Install `}</span>
       <ProLink
-        href={installLink ?? APP_EXTERNAL_LINKS.CHROME_EXTENSION}
+        href={installLink ?? `${INSTALL_LINK}?ref=homepage`}
         sx={{ color: 'inherit' }}
         underline={'always'}
         target='_blank'
