@@ -25,8 +25,6 @@ const AppHeader: FC = () => {
 
   const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
 
-  console.log('isNotHeader', isNotHeader);
-
   if (isNotHeader) {
     return null;
   }

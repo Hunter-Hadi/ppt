@@ -69,7 +69,7 @@ const PromptDetailPage: FC<{
   const renderedTemplatePrompt = useRecoilValue(RenderedTemplatePromptAtom);
 
   const copyRenderedTemplatePromptMemo = useMemo(() => {
-    if (window) {
+    if (typeof window !== 'undefined') {
       const div = document.createElement('div');
       div.innerHTML = renderedTemplatePrompt;
       return div.innerText;
