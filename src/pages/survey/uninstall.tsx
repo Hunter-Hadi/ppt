@@ -1,5 +1,6 @@
 import { Typography } from '@mui/material';
 import dayjs from 'dayjs';
+import { useRouter } from 'next/router';
 import React, { FC, useEffect, useState } from 'react';
 import { UAParser } from 'ua-parser-js';
 
@@ -12,9 +13,40 @@ import { post } from '@/utils/request';
 const { getBrowser } = new UAParser();
 
 const InstallPage: FC = () => {
+  const router = useRouter();
   const [domLoaded, setDomLoaded] = useState(false);
   useEffect(() => {
     setDomLoaded(true);
+  }, []);
+  const openUrlLinkRef = React.useRef(
+    'https://api.usechatgpt.ai/app/zmo?ref=maxai',
+  );
+  useEffect(() => {
+    if (router.query.from && router.query.from === 'crx') {
+      const openWindow = window.open(openUrlLinkRef.current, '_blank');
+      if (openWindow) {
+        openUrlLinkRef.current = '';
+      }
+      router.replace({
+        pathname: router.pathname,
+        query: {},
+      });
+    }
+  }, [router.query]);
+  useEffect(() => {
+    const keyboardOrMouseEventListener = () => {
+      if (openUrlLinkRef.current) {
+        window.open(openUrlLinkRef.current, '_blank');
+        openUrlLinkRef.current = '';
+        return;
+      }
+    };
+    window.addEventListener('keydown', keyboardOrMouseEventListener);
+    window.addEventListener('mousedown', keyboardOrMouseEventListener);
+    return () => {
+      window.removeEventListener('keydown', keyboardOrMouseEventListener);
+      window.removeEventListener('mousedown', keyboardOrMouseEventListener);
+    };
   }, []);
   return (
     <AppContainer sx={{ bgcolor: '#fff', pt: 4, pb: 10 }}>
