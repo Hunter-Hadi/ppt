@@ -69,9 +69,13 @@ const PromptDetailPage: FC<{
   const renderedTemplatePrompt = useRecoilValue(RenderedTemplatePromptAtom);
 
   const copyRenderedTemplatePromptMemo = useMemo(() => {
-    const div = document.createElement('div');
-    div.innerHTML = renderedTemplatePrompt;
-    return div.innerText;
+    if (window) {
+      const div = document.createElement('div');
+      div.innerHTML = renderedTemplatePrompt;
+      return div.innerText;
+    } else {
+      return '';
+    }
   }, [renderedTemplatePrompt]);
 
   const [shareMenuAnchorEl, setShareMenuAnchorEl] =
