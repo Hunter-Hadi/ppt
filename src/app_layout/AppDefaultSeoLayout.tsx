@@ -30,8 +30,8 @@ const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
         images: [{ url: socialImage ?? 'https://www.maxai.me/social.png' }],
       },
       twitter: {
-        handle: '@UseChatGPT_AI',
-        site: '@UseChatGPT_AI',
+        handle: '@MaxAI_HQ',
+        site: '@MaxAI_HQ',
         cardType: 'summary_large_image',
       },
       additionalLinkTags: [

@@ -2,6 +2,7 @@ import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import { Box, Grid, Paper, SxProps } from '@mui/material';
 import isRegExp from 'lodash/isRegExp';
 import { useRouter } from 'next/router';
@@ -14,6 +15,7 @@ const footerBlackList = ['/terms', '/privacy', '/404', '/zmo'];
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 
 import CustomIcon from '@/components/CustomIcon';
+import { APP_EXTERNAL_LINKS } from '@/global_constants';
 interface IProps {
   title?: React.ReactNode | string;
   hideTitle?: boolean;
@@ -71,7 +73,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
             <Grid
               item
               xs={12}
-              sm={4}
+              sm={3}
               display={'flex'}
               justifyContent={{ xs: 'flex-start', sx: 'center' }}
             >
@@ -91,7 +93,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                 ]}
               />
             </Grid>
-            {/* <Grid
+            <Grid
               item
               xs={12}
               sm={3}
@@ -109,11 +111,11 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                   },
                 ]}
               />
-            </Grid> */}
+            </Grid>
             <Grid
               item
               xs={12}
-              sm={4}
+              sm={3}
               display={'flex'}
               justifyContent={{ xs: 'flex-start', sx: 'center' }}
             >
@@ -136,7 +138,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
             <Grid
               item
               xs={12}
-              sm={4}
+              sm={3}
               display={'flex'}
               justifyContent={{ xs: 'flex-start', sx: 'center' }}
             >

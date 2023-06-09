@@ -8,7 +8,7 @@ export const GUEST_USER_MODE = 'GUEST_USER_MODE';
 // External Links
 export const APP_EXTERNAL_LINKS = {
   QUORA: 'https://www.quora.com/profile/Simply-Trends',
-  TWITTER: 'https://twitter.com/UseChatGPT_AI',
+  TWITTER: 'https://twitter.com/MaxAI_HQ',
   FACEBOOK: 'https://www.facebook.com/SimplyTrendsOfficial',
   FACEBOOK_GROUP: 'https://www.facebook.com/groups/448979866591588',
   INSTAGRAM: 'https://www.instagram.com/simplytrendsofficial',
@@ -20,7 +20,7 @@ export const APP_EXTERNAL_LINKS = {
     'https://chrome.google.com/webstore/detail/use-chatgpt-gpt-4-chatgpt/mhnlakgilnojmhinhkckjpncpbhabphi',
 
   TWITTER_FOLLOW_UP_LINK:
-    'https://twitter.com/intent/follow?screen_name=UseChatGPT_AI',
+    'https://twitter.com/intent/follow?screen_name=MaxAI_HQ',
 };
 
 // S3

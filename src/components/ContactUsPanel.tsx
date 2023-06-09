@@ -31,7 +31,7 @@ const TwitterFollowButton = () => {
       }}
     >
       <TwitterIcon sx={{ fontSize: 18 }} />
-      Follow @UseChatGPT_AI
+      Follow @MaxAI_HQ
     </ProLink>
   );
 };
@@ -60,12 +60,12 @@ const ContactUsPanel = () => {
         />{' '}
         .
       </Typography>
-      {/* <Stack direction={'row'} gap={1} flexWrap='wrap'>
+      <Stack direction={'row'} gap={1} flexWrap='wrap'>
         <Typography variant='body2' component={'div'}>
           👉 Follow us on Twitter for the latest updates and tips:{' '}
         </Typography>
         <TwitterFollowButton />
-      </Stack> */}
+      </Stack>
       <Typography variant='body2' component={'div'}>
         🙏 Support us by rating ★★★★★ on{' '}
         <ProLink
