@@ -180,8 +180,8 @@ const SurveyExplain: FC<IProps> = (props) => {
             You can easily hide the text-select-popup with a few clicks.
           </Typography>
           <ResponsiveImage
-            width={656}
-            height={268}
+            width={1312}
+            height={536}
             alt={surveyName}
             src='/assets/survey/3.png'
           />

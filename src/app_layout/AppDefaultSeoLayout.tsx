@@ -37,31 +37,31 @@ const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
       additionalLinkTags: [
         {
           rel: 'icon',
-          href: 'https://www.maxai.me/usechatgpt.png',
+          href: 'https://www.maxai.me/maxai.png',
         },
         {
           rel: 'apple-touch-icon',
-          href: 'https://www.maxai.me/usechatgpt_152.png',
+          href: 'https://www.maxai.me/maxai_152.png',
           sizes: '152x152',
         },
         {
           rel: 'apple-touch-icon',
-          href: 'https://www.maxai.me/usechatgpt_60.png',
+          href: 'https://www.maxai.me/maxai_60.png',
           sizes: '60x60',
         },
         {
           rel: 'apple-touch-icon',
-          href: 'https://www.maxai.me/usechatgpt_76.png',
+          href: 'https://www.maxai.me/maxai_76.png',
           sizes: '76x76',
         },
         {
           rel: 'apple-touch-icon',
-          href: 'https://www.maxai.me/usechatgpt_120.png',
+          href: 'https://www.maxai.me/maxai_120.png',
           sizes: '120x120',
         },
         {
           rel: 'mask-icon',
-          href: 'https://www.maxai.me/usechatgpt_500.png',
+          href: 'https://www.maxai.me/maxai_500.png',
           color: '#1D56D7',
         },
       ],
