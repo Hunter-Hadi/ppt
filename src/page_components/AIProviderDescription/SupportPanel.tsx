@@ -23,7 +23,7 @@ const SupportPanel: FC<{ sx?: SxProps }> = ({ sx }) => {
         MaxAI.me on any website without copy-pasting.
       </Typography>
       <Typography variant='body1' mb={2}>
-        We support all popular AI Provders to power the extension.
+        We support all popular AI Providers to power the extension.
       </Typography>
       <AIProviderDescription />
     </Stack>
