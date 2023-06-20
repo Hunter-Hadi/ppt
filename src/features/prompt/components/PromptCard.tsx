@@ -7,6 +7,7 @@ import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 import { FC } from 'react';
 
+import EllipsisTextWithTooltip from '@/components/EllipsisTextWithTooltip';
 import ProLink from '@/components/ProLink';
 import {
   DEFAULT_PROMPT_AUTHOR,
@@ -154,22 +155,15 @@ const PromptCard: FC<{
           </>
         )}
       </Stack>
-      <Typography
+
+      <EllipsisTextWithTooltip
         variant={'custom'}
         color={'text.secondary'}
         fontSize={16}
+        tip={prompt.teaser}
         sx={{
-          MozBoxOrient: 'vertical',
-          WebkitBoxOrient: 'vertical',
-          WebkitLineClamp: `3`,
-          boxOrient: 'vertical',
-          lineClamp: `3`,
-          display: '-webkit-box',
-          overflow: 'hidden',
-          textOverflow: 'ellipsis',
           whiteSpace: 'normal',
           wordBreak: 'break-word',
-          minHeight: 60,
         }}
       >
         {isLiveCrawlingFlag && (
@@ -189,7 +183,7 @@ const PromptCard: FC<{
           </Typography>
         )}
         {prompt.teaser}
-      </Typography>
+      </EllipsisTextWithTooltip>
       <Stack></Stack>
       {/* <Stack
         direction={'row'}
