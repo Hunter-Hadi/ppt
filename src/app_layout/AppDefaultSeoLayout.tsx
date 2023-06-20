@@ -37,7 +37,7 @@ const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
       additionalLinkTags: [
         {
           rel: 'icon',
-          href: 'https://www.maxai.me/maxai.png',
+          href: 'https://www.maxai.me/favicon.ico',
         },
         {
           rel: 'apple-touch-icon',
