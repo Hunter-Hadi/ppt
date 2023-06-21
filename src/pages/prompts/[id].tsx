@@ -22,10 +22,12 @@ import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import CopyTypography from '@/components/CopyTypography';
 import ProLink from '@/components/ProLink';
 import { PromptCardTag, useSharePromptLinks } from '@/features/prompt';
+import LiveCrawlingFlag from '@/features/prompt/components/LiveCrawlingFlag';
 import RunPromptSettingSelector from '@/features/prompt/components/RunPromptSettingSelector';
 import { RENDERED_TEMPLATE_PROMPT_DOM_ID } from '@/features/prompt/constant';
 import { RenderedTemplatePromptAtom } from '@/features/prompt/store/runPromptSettings';
 import { IPromptCardData, IPromptDetailData } from '@/features/prompt/types';
+import { isLiveCrawling } from '@/features/prompt/utils';
 import { RESOURCES_URL } from '@/global_constants';
 import Custom404 from '@/pages/404';
 import { PROMPT_API } from '@/utils/api';
@@ -83,6 +85,8 @@ const PromptDetailPage: FC<{
 
   const { shareLink, twitterShareLink, emailShareLink, facobookShareLink } =
     useSharePromptLinks(promptDetail?.id, promptDetail?.prompt_title);
+
+  const isLiveCrawlingFlag = isLiveCrawling(promptDetail?.variables);
 
   const shareMenuList = useMemo(() => {
     return [
@@ -159,6 +163,7 @@ const PromptDetailPage: FC<{
   if (notFound || (loaded && !promptDetail)) {
     return <Custom404 />;
   }
+
   return (
     <Stack
       sx={{
@@ -235,6 +240,7 @@ const PromptDetailPage: FC<{
                 wordBreak: 'break-word',
               }}
             >
+              {isLiveCrawlingFlag && <LiveCrawlingFlag />}
               {promptDetail?.teaser}
             </Typography>
             <Stack direction={'row'} alignItems={'center'} spacing={1}>

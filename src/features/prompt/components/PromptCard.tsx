@@ -17,6 +17,7 @@ import { IPromptCardData } from '@/features/prompt/types';
 import { APP_PROJECT_LINK } from '@/global_constants';
 
 import { isLiveCrawling } from '../utils';
+import LiveCrawlingFlag from './LiveCrawlingFlag';
 dayjs.extend(utc);
 
 const PromptCard: FC<{
@@ -166,22 +167,7 @@ const PromptCard: FC<{
           wordBreak: 'break-word',
         }}
       >
-        {isLiveCrawlingFlag && (
-          <Typography
-            variant={'custom'}
-            sx={{
-              fontSize: 14,
-              color: 'primary.main',
-              bgcolor: 'rgba(118, 1, 211, 0.08)',
-              px: 0.5,
-              py: '1px',
-              mr: 1,
-              borderRadius: 1,
-            }}
-          >
-            Live Crawling
-          </Typography>
-        )}
+        {isLiveCrawlingFlag && <LiveCrawlingFlag />}
         {prompt.teaser}
       </EllipsisTextWithTooltip>
       <Stack></Stack>
