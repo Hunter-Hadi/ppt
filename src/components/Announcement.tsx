@@ -14,7 +14,7 @@ import {
   setLocalStorage,
 } from '@/utils/localStorage';
 
-const TWEET_URL = 'https://twitter.com/MaxAI_HQ';
+const TWEET_URL = 'https://twitter.com/MaxAI_HQ/status/1673665954062954500';
 
 const REBRAND_ANNOUNCEMENT_HIDDEN_SAVE_KEY =
   'REBRAND_ANNOUNCEMENT_HIDDEN_SAVE_KEY' as ILocalStorageKeyType;
