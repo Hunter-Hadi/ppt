@@ -14,7 +14,6 @@ import { RecoilRoot } from 'recoil';
 
 import AppFooter from '@/app_layout/AppFooter';
 import AppHeader from '@/app_layout/AppHeader';
-import Announcement from '@/components/Announcement';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
 import { GA_TRACKING_ID } from '@/pages/_document';
@@ -144,7 +143,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <QueryClientProvider client={queryClient}>
               <ReactQueryDevtools initialIsOpen={false} />
               <AppInit />
-              <Announcement />
+              {/* <Announcement /> */}
               <AppHeader />
               <Component {...pageProps} />
               <AppFooter />
