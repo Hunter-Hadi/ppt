@@ -271,7 +271,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     </Stack>
 
     <Typography variant={'h2'} pt={10} fontSize={22}>
-      One more free tool: One-Click ChatGPT Prompts
+      🎁 Perk: One-Click ChatGPT Prompts
     </Typography>
 
     <Typography variant={'body1'} fontSize={20}>
@@ -287,11 +287,11 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
       variant='outlined'
       href='/prompts'
       sx={{
-        width: 220,
+        width: 'max-content',
         height: 56,
       }}
     >
-      MaxAI.me/prompts
+      Get it for free on MaxAI.me/prompts
     </Button>
   </Stack>
 );

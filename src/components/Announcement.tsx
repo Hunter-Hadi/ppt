@@ -50,7 +50,7 @@ const Announcement = () => {
         fontSize={16}
         alignItems='center'
         justifyContent='center'
-        maxWidth={395}
+        maxWidth={400}
         mx={'auto'}
       >
         <Link
