@@ -275,10 +275,9 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     </Typography>
 
     <Typography variant={'body1'} fontSize={20}>
-      1. Revolutionize your everyday tasks with One-Click ChatGPT Prompts
-    </Typography>
-    <Typography variant={'body1'} fontSize={20}>
-      2. Turn hours-long tasks into minutes using our expanding collection of
+      Revolutionize your everyday tasks with One-Click ChatGPT Prompts.
+      <br />
+      Turn hours-long tasks into minutes using our expanding collection of
       prompts for marketing, sales, operations, productivity, and customer
       support prompts.
     </Typography>
@@ -289,6 +288,8 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
       sx={{
         width: 'max-content',
         height: 56,
+        fontSize: 18,
+        fontWeight: 600,
       }}
     >
       Get it for free on MaxAI.me/prompts
