@@ -58,17 +58,18 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
         variant='h1'
         fontSize={42}
         mt={'8px !important'}
+        textAlign={'center'}
       >
-        Supports{` `}
+        Powered by{` `}
         <CustomIcon icon='ChatGPTLogo' sx={{ fontSize: 28 }} /> ChatGPT ,{' '}
         <CustomIcon icon='BardLogo' sx={{ fontSize: 28 }} /> Bard ,{' '}
-        <CustomIcon icon='BingLogo' sx={{ fontSize: 28 }} /> Bing ,{' '}
+        <CustomIcon icon='BingLogo' sx={{ fontSize: 28 }} /> Bing AI , <br />
         <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 28 }} /> Claude
       </Typography>
       <Typography variant={'body1'} fontSize={20} textAlign='center'>
-        Use ChatGPT (Plugins & GPT-4), Bard, Bing Chat, and Claude on any
-        website without copy-pasting. Write, rewrite, summarize, translate,
-        explain, or reply to any text everywhere with one click.
+        Use AI on any website without copy-pasting. Compose, improve writing,
+        summarize, explain, fix spelling & grammar, translate, or reply to any
+        text everywhere with one click.
       </Typography>
 
       <ProLink
@@ -96,7 +97,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     />
 
     <Typography variant={'h2'} pt={10} id={'how-to-use'} fontSize={22}>
-      {`Fastest way to access ChatGPT, Bard, Bing Chat, and Claude`}
+      {`Fastest way to access ChatGPT, Bard, Bing AI, and Claude`}
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
       1. Simply press Cmd/Alt + J
@@ -113,6 +114,17 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     />
 
     <Typography variant={'h2'} pt={10} fontSize={22}>
+      Compose with AI anywhere
+    </Typography>
+
+    <Typography variant={'body1'} fontSize={20}>
+      1. Press Cmd/Alt+J in any doc or textbox
+    </Typography>
+    <Typography variant={'body1'} fontSize={20}>
+      2. Let AI handle the first draft
+    </Typography>
+
+    <Typography variant={'h2'} pt={10} fontSize={22}>
       {`Write better with confidence`}
     </Typography>
 
@@ -120,7 +132,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
       1. Select any text on any website
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
-      2. Rewrite in one click
+      2. Improve writing, fix spelling & grammar, or change tone in one click
     </Typography>
     <ResponsiveImage
       width={800}
@@ -134,7 +146,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
 
     <Typography variant={'body1'}>1. Select any text on any website</Typography>
     <Typography variant={'body1'}>
-      2. Summarize, translate, or explain in one click
+      2. Summarize, explain, translate, or list key takeaways in seconds
     </Typography>
     <ResponsiveImage
       width={800}
@@ -214,7 +226,16 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
         </Box>
         <span style={{ whiteSpace: 'nowrap' }}>
           Supports all popular AI Providers: ChatGPT, OpenAI API key, Google
-          Bard, Bing Chat, Claude.
+          Bard, Bing AI, Claude.
+        </span>
+      </Typography>
+      <Typography variant={'body1'} component={'div'} fontSize={20}>
+        <Box>
+          <CheckIcon />
+        </Box>
+        <span>
+          Insert or replace selected text with AI-generated content in one
+          click.
         </span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
@@ -227,16 +248,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
         <Box>
           <CheckIcon />
         </Box>
-        <span>Robust connection to your ChatGPT account.</span>
-      </Typography>
-      <Typography variant={'body1'} component={'div'} fontSize={20}>
-        <Box>
-          <CheckIcon />
-        </Box>
-        <span style={{ whiteSpace: 'nowrap' }}>
-          Ask questions. Chat to refine results. Get comprehensive answers and
-          creative inspiration.
-        </span>
+        <span>Ask follow-up questions, or chat to refine results. </span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
         <Box>
@@ -257,43 +269,30 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
         <span>100% privacy friendly.</span>
       </Typography>
     </Stack>
+
     <Typography variant={'h2'} pt={10} fontSize={22}>
-      {`How to use on any website`}
+      One more free tool: One-Click ChatGPT Prompts
+    </Typography>
+
+    <Typography variant={'body1'} fontSize={20}>
+      1. Revolutionize your everyday tasks with One-Click ChatGPT Prompts
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
-      <span>{`1. Install `}</span>
-      <ProLink
-        href={installLink ?? `${INSTALL_LINK}?ref=homepage`}
-        sx={{ color: 'inherit' }}
-        underline={'always'}
-        target='_blank'
-      >
-        {`MaxAI.me`}
-      </ProLink>
-      <span>{` Chrome extension.`}</span>
+      2. Turn hours-long tasks into minutes using our expanding collection of
+      prompts for marketing, sales, operations, productivity, and customer
+      support prompts.
     </Typography>
-    <Typography variant={'body1'} fontSize={20}>
-      {`2. Select any text on any page.`}
-    </Typography>
-    <Typography variant={'body1'} fontSize={20}>
-      3. One-click rewrite, summarize, translate, explain, or reply to the
-      selected text.
-    </Typography>
-    <ResponsiveImage
-      width={800}
-      height={450}
-      src={'/assets/chrome-extension/5.png'}
-      alt={'MaxAI.me chrome-extension all site useage 1'}
-    />
-    <Typography variant={'body1'} fontSize={20}>
-      {`4. Chat to ask further questions or refine results if you'd like.`}
-    </Typography>
-    <ResponsiveImage
-      width={800}
-      height={630}
-      src={'/assets/chrome-extension/6.png'}
-      alt={'MaxAI.me chrome-extension all site useage 2'}
-    />
+
+    <Button
+      variant='outlined'
+      href='/prompts'
+      sx={{
+        width: 220,
+        height: 56,
+      }}
+    >
+      MaxAI.me/prompts
+    </Button>
   </Stack>
 );
 
