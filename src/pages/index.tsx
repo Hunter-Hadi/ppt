@@ -118,7 +118,7 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     </Typography>
 
     <Typography variant={'body1'} fontSize={20}>
-      1. Press Cmd/Alt+J in any doc or textbox
+      1. Press Cmd/Alt+J in any doc or text box
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
       2. Let AI handle the first draft
