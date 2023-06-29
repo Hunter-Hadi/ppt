@@ -276,17 +276,17 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     </Stack>
 
     <Box pt={10} />
-    <Stack bgcolor='#f5f5f5' p={2} borderRadius={1} spacing={1}>
+    <Stack bgcolor='#f5f5f5' p={2} borderRadius={1} spacing={2}>
       <Typography variant={'h2'} fontSize={24}>
         🎁 Perk: One-Click ChatGPT Prompts
       </Typography>
-      <Stack spacing={1} pl={3.4}>
+      <Stack spacing={2} pl={3.4}>
         <Typography variant={'body1'} fontSize={20}>
           Revolutionize your everyday tasks with One-Click ChatGPT Prompts.
-          <br />
+          <Box mt={1} />
           Turn hours-long tasks into minutes using our expanding collection of
-          prompts for marketing, sales, operations, productivity, and customer
-          support prompts.
+          prompts for marketing, sales, copywriting, operations, productivity,
+          and customer support prompts.
         </Typography>
 
         <Button
