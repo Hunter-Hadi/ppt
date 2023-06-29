@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import { useEffect, useRef, useState } from 'react';
 
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import useEffectOnce from '@/hooks/useEffectOnce';
 import { HomePageContent } from '@/pages';
 
@@ -25,6 +26,7 @@ const EmbedIntroduction = () => {
 
   return (
     <Box ref={contentRef}>
+      <AppDefaultSeoLayout />
       <HomePageContent />
     </Box>
   );
