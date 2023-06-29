@@ -98,6 +98,18 @@ const RunPromptSettingSelector: FC<IProps> = ({
 
   const isLiveCrawlingFlag = isLiveCrawling(variables);
 
+  const handleEnterRunPrompt = (input: HTMLInputElement) => {
+    if (input) {
+      // fix hacker
+      // 避免插件获取到当前 input 先 disabled，等模拟 selection 动作结束后，恢复
+      input.disabled = true;
+      handleRunPrompt();
+      setTimeout(() => {
+        input.disabled = false;
+      }, 1000);
+    }
+  };
+
   const handleRunPrompt = async () => {
     if (!originalPromptTemplate) {
       console.error('template is empty');
@@ -267,6 +279,12 @@ const RunPromptSettingSelector: FC<IProps> = ({
                     value={variable.value}
                     onChange={(e) => {
                       handleUpdateVariableValue(index, `${e.target.value}`);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' && e.target) {
+                        (e.target as any).blur();
+                        handleEnterRunPrompt(e.target as HTMLInputElement);
+                      }
                     }}
                     inputProps={{
                       color: colorInput ? variable.color : undefined,
