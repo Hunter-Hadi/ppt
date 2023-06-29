@@ -13,7 +13,6 @@ const EmbedIntroduction = () => {
 
   useEffect(() => {
     if (loaded && window.parent) {
-      console.log('window.parent', window.parent, window.parent === window);
       window.parent.postMessage(
         {
           type: 'embed',
