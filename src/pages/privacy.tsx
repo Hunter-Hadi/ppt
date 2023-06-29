@@ -19,7 +19,7 @@ const PrivacyPage: FC = () => {
           Privacy Policy
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          Last Updated: April 24, 2023
+          Last Updated: June 29, 2023
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
           {`Welcome to the Privacy Policy for the MaxAI.me Chrome extension

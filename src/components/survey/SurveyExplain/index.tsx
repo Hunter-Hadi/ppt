@@ -328,12 +328,11 @@ const SurveyExplain: FC<IProps> = (props) => {
         <Typography variant={'body2'} textAlign='center'>
           Free AI Copilot for the Web.
           <br />
-          Use ChatGPT (Plugins & GPT-4), Bard, Bing Chat, and Claude on any
-          website without copy-pasting. Write, rewrite, summarize, translate,
-          explain, or reply to any text everywhere with one click.
+          Powered by ChatGPT, Bard, Bing AI, Claude.
           <br />
-          Write, rewrite, summarize, translate, explain, or reply to any text
-          everywhere with one click.
+          Use AI on any website without copy-pasting. Compose, improve writing,
+          summarize, explain, fix spelling & grammar, change tone, translate, or
+          reply to any text everywhere with one click.
         </Typography>
       </>
     );

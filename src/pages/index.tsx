@@ -116,13 +116,18 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
     <Typography variant={'h2'} pt={10} fontSize={22}>
       Compose with AI anywhere
     </Typography>
-
     <Typography variant={'body1'} fontSize={20}>
       1. Press Cmd/Alt+J in any doc or text box
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
       2. Let AI handle the first draft
     </Typography>
+    <ResponsiveImage
+      width={1600}
+      height={1020}
+      src={'/assets/chrome-extension/5.png'}
+      alt={'Compose with AI anywhere'}
+    />
 
     <Typography variant={'h2'} pt={10} fontSize={22}>
       {`Write better with confidence`}
@@ -270,30 +275,33 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
       </Typography>
     </Stack>
 
-    <Typography variant={'h2'} pt={10} fontSize={22}>
-      🎁 Perk: One-Click ChatGPT Prompts
-    </Typography>
+    <Box pt={10} />
+    <Stack bgcolor='#f5f5f5' p={2} borderRadius={1} spacing={1}>
+      <Typography variant={'h2'} fontSize={24}>
+        🎁 Perk: One-Click ChatGPT Prompts
+      </Typography>
+      <Stack spacing={1} pl={3.4}>
+        <Typography variant={'body1'} fontSize={20}>
+          Revolutionize your everyday tasks with One-Click ChatGPT Prompts.
+          <br />
+          Turn hours-long tasks into minutes using our expanding collection of
+          prompts for marketing, sales, operations, productivity, and customer
+          support prompts.
+        </Typography>
 
-    <Typography variant={'body1'} fontSize={20}>
-      Revolutionize your everyday tasks with One-Click ChatGPT Prompts.
-      <br />
-      Turn hours-long tasks into minutes using our expanding collection of
-      prompts for marketing, sales, operations, productivity, and customer
-      support prompts.
-    </Typography>
-
-    <Button
-      variant='outlined'
-      href='/prompts'
-      sx={{
-        width: 'max-content',
-        height: 56,
-        fontSize: 18,
-        fontWeight: 600,
-      }}
-    >
-      Get it for free on MaxAI.me/prompts
-    </Button>
+        <Button
+          variant='outlined'
+          href='/prompts'
+          sx={{
+            width: 'max-content',
+            fontSize: 18,
+            fontWeight: 600,
+          }}
+        >
+          Get it for free on MaxAI.me/prompts
+        </Button>
+      </Stack>
+    </Stack>
   </Stack>
 );
 
