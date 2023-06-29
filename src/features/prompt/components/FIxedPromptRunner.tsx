@@ -76,8 +76,11 @@ const FIxedPromptRunner: FC<IProps> = ({
         />
         <Typography
           id={RENDERED_TEMPLATE_PROMPT_DOM_ID}
-          width={0}
-          height={0}
+          sx={{
+            width: '1px',
+            height: '1px',
+            zIndex: -1,
+          }}
           overflow='hidden'
           dangerouslySetInnerHTML={{
             __html: renderedTemplatePrompt,
