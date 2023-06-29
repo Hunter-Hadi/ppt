@@ -280,15 +280,17 @@ export const HomePageContent: FC<{ installLink?: string }> = ({
       <Typography variant={'h2'} fontSize={24}>
         🎁 Perk: One-Click ChatGPT Prompts
       </Typography>
-      <Stack spacing={2} pl={3.4}>
-        <Typography variant={'body1'} fontSize={20}>
-          Revolutionize your everyday tasks with One-Click ChatGPT Prompts.
-          <Box mt={1} />
-          Turn hours-long tasks into minutes using our expanding collection of
-          prompts for marketing, sales, copywriting, operations, productivity,
-          and customer support prompts.
-        </Typography>
-
+      <Stack pl={3.4} spacing={2}>
+        <Stack spacing={1}>
+          <Typography variant={'body1'} fontSize={20}>
+            Revolutionize your everyday tasks with One-Click ChatGPT Prompts.
+          </Typography>
+          <Typography variant={'body1'} fontSize={20}>
+            Turn hours-long tasks into minutes using our expanding collection of
+            prompts for marketing, sales, copywriting, operations, productivity,
+            and customer support prompts.
+          </Typography>
+        </Stack>
         <Button
           variant='outlined'
           href='/prompts'

@@ -1,13 +1,18 @@
 import { Box } from '@mui/material';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
+import useEffectOnce from '@/hooks/useEffectOnce';
 import { HomePageContent } from '@/pages';
 
 const EmbedIntroduction = () => {
+  const [loaded, setLoaded] = useState(false);
   const contentRef = useRef<any>(null);
 
+  useEffectOnce(() => setLoaded(true));
+
   useEffect(() => {
-    if (window.parent) {
+    if (loaded && window.parent) {
+      console.log('window.parent', window.parent, window.parent === window);
       window.parent.postMessage(
         {
           type: 'embed',
@@ -16,7 +21,7 @@ const EmbedIntroduction = () => {
         '*',
       );
     }
-  }, []);
+  }, [loaded]);
 
   return (
     <Box ref={contentRef}>
