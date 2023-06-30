@@ -13,6 +13,12 @@ import {
 } from '@/global_constants';
 import ProducthuntHonor from '@/page_components/landing_page/ProducthuntHonor';
 
+/**
+ * NOTE:
+ * 修改这个组件时需要注意渲染后的 body 高度
+ * 是否和 maxai_app LandingPageEmbedBox 组件中声明的 STATIC_LANDING_HEIGHT 是否一致
+ * @links: https://github.com/simplyfuture/maxai_app/blob/prod/src/components/LandingPageEmbedBox.tsx
+ */
 const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
   <Stack spacing={2} mx={'auto'} maxWidth={800} my={{ xs: 4, sm: 7 }}>
     <Box
