@@ -7,9 +7,9 @@ interface IAppDefaultSeoProps extends DefaultSeoProps {
 }
 
 const DEFAULT_TITLE =
-  'MaxAI.me: Free AI Copilot for the Web (ChatGPT, Bard, Bing, Claude)';
+  'MaxAI.me: Free AI Copilot for the Web (ChatGPT, Bard, Bing AI, Claude)';
 const DEFAULT_DESCRIPTION =
-  'Use ChatGPT (Plugins & GPT-4), Bard, Bing Chat, and Claude on any website without copy-pasting. Write, rewrite, summarize, translate, explain, or reply to any text everywhere with one click.';
+  'Use AI on any website without copy-pasting. Compose, improve writing, summarize, explain, fix spelling & grammar, translate, or reply to any text everywhere with one click.';
 
 const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
   const router = useRouter();
