@@ -1,4 +1,5 @@
 import CheckIcon from '@mui/icons-material/Check';
+import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
 import { Box, Button, Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
 
@@ -12,13 +13,35 @@ import {
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
 } from '@/global_constants';
 import ProducthuntHonor from '@/page_components/landing_page/ProducthuntHonor';
-
 /**
  * NOTE:
- * 修改这个组件时需要注意渲染后的 body 高度
+ * 修改这个组件时需要注意渲染后的 body 高度 (获取高度的方式可以访问当前项目的路由 /embed/introduction)
  * 是否和 maxai_app LandingPageEmbedBox 组件中声明的 STATIC_LANDING_HEIGHT 是否一致
- * @links: https://github.com/simplyfuture/maxai_app/blob/prod/src/components/LandingPageEmbedBox.tsx
+ * @links:
+ *  1. https://github.com/simplyfuture/maxai_app/blob/prod/src/components/LandingPageEmbedBox.tsx
+ *  2. https://github.com/simplyfuture/usechatgpt_www/blob/prod-zmo-tool/src/page_components/landing_page/LandingPageEmbedBox.tsx
  */
+
+const SocialProof = () => {
+  const count = 5;
+  return (
+    <Stack direction='row' alignItems='center'>
+      {Array.from({ length: count }).map((_, index) => (
+        <GradeRoundedIcon
+          key={index}
+          sx={{
+            color: '#F5A523',
+          }}
+        />
+      ))}
+
+      <Typography variant={'body1'} fontSize={20} textAlign='center' pl={0.8}>
+        Trusted by 400,000+ users
+      </Typography>
+    </Stack>
+  );
+};
+
 const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
   <Stack spacing={2} mx={'auto'} maxWidth={800} my={{ xs: 4, sm: 7 }}>
     <Box
@@ -73,6 +96,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
         summarize, explain, fix spelling & grammar, translate, or reply to any
         text everywhere with one click.
       </Typography>
+      <SocialProof />
 
       <ProLink
         target={'_blank'}
