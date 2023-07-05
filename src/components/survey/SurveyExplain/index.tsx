@@ -55,7 +55,7 @@ const SurveyExplain: FC<IProps> = (props) => {
           </Typography>
           <ResponsiveImage
             width={656}
-            height={382}
+            height={420}
             alt={surveyName}
             src='/assets/survey/1.png'
           />
