@@ -134,7 +134,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
 
     <ResponsiveImage
       width={800}
-      height={418}
+      height={450}
       src={'/assets/chrome-extension/4.png'}
       alt={'Fastest access to ChatGPT'}
     />
