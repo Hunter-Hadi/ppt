@@ -14,9 +14,9 @@ export type IAIProviderTabType =
   | 'claude';
 
 const AIProviderList: IAIProviderTabType[] = [
-  'chatgpt',
-  'openai-api',
   'free-ai',
+  'openai-api',
+  'chatgpt',
   'bard',
   'bing',
   'claude',
@@ -25,7 +25,7 @@ const AIProviderList: IAIProviderTabType[] = [
 // const BATA_TYPE: IAIProviderTabType[] = ['bing', 'bard'];
 
 const AIProviderDescription = () => {
-  const [tabActive, setTabActive] = useState<IAIProviderTabType>('chatgpt');
+  const [tabActive, setTabActive] = useState<IAIProviderTabType>('free-ai');
 
   return (
     <Box
@@ -93,11 +93,11 @@ const ProviderTabLabel: FC<{ type: IAIProviderTabType; isActive: boolean }> = ({
 
   const label = useMemo(() => {
     if (type === 'chatgpt') {
-      return 'ChatGPT';
+      return 'ChatGPT web app';
     }
 
     if (type === 'free-ai') {
-      return 'Free AI';
+      return 'ChatGPT';
     }
 
     if (type === 'openai-api') {

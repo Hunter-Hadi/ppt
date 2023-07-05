@@ -4,7 +4,6 @@ import React, { FC, useMemo } from 'react';
 import CopyTypography from '@/components/CopyTypography';
 import CustomIcon, { ICustomIconType } from '@/components/CustomIcon';
 import ProLink from '@/components/ProLink';
-import { APP_PROJECT_LINK, QUOTA_TEXT } from '@/global_constants';
 
 // import { routerToSettingPage } from '@/features/extension/utils';
 import { IAIProviderTabType } from '.';
@@ -68,7 +67,7 @@ const ChatGPT = () => {
   return (
     <Stack p={2}>
       <Typography variant='h6' mb={1}>
-        Use your own ChatGPT to power the extension.
+        Use your own ChatGPT web app to power the extension.
       </Typography>
       <Typography variant='body2' mb={3}>
         You need to log into your own ChatGPT account, and keep the pinned
@@ -156,19 +155,10 @@ const FreeAI = () => {
   return (
     <Stack p={2}>
       <Typography variant='h6' mb={1}>
-        Use our OpenAI API key (GPT-3.5-turbo) for free behind the scenes to
-        power the extension.
+        Use our OpenAI API key to power the extension.
       </Typography>
       <Typography variant='body2' mb={3}>
-        To get more {QUOTA_TEXT}, all you need to do is{' '}
-        <ProLink
-          href={`${APP_PROJECT_LINK}/referral`}
-          target='_blank'
-          underline='always'
-        >
-          share your referral link and invite your friends to join us
-        </ProLink>
-        .
+        Powered by gpt-3.5-turbo.
       </Typography>
 
       <Stack p={2} bgcolor={'#0000000A'} borderRadius={1}>
@@ -216,7 +206,10 @@ const OpenAI = () => {
         Most are unaware that all ChatGPT users can easily obtain their own API
         key for free trial usage from OpenAI. To create your OpenAI API key,
         refer to the instructions provided on our{' '}
-        <CopyTypography wrapperMode text='chrome://extensions/shortcuts'>
+        <CopyTypography
+          wrapperMode
+          text='chrome-extension://mhnlakgilnojmhinhkckjpncpbhabphi/pages/options/index.html#chatgpt-api-settings'
+        >
           <Typography
             variant='body2'
             component={'span'}
@@ -301,13 +294,17 @@ const Bing = () => {
   return (
     <Stack p={2}>
       <Typography variant='h6' mb={1}>
-        Use your own New Bing Chat to power the extension.
+        Use your own Bing AI to power the extension.
       </Typography>
       <Typography variant='body2' mb={3}>
         You need to log into your own Microsoft account that has access to the
         New Bing Chat. If your Microsoft account does not have access to the New
-        Bing Chat, you can enable it instantly on{' '}
-        <ProLink href='https://bing.com/chat' target='_blank'>
+        Bing Chat, you can join the waitlist at{' '}
+        <ProLink
+          href='https://bing.com/chat'
+          target='_blank'
+          underline='always'
+        >
           bing.com/chat
         </ProLink>
         .
@@ -360,9 +357,13 @@ const Bard = () => {
       </Typography>
       <Typography variant='body2' mb={3}>
         You need to log into your own Google account that has access to Bard. If
-        your Google account does not have access to Bard, you can enable it
-        instantly on{' '}
-        <ProLink href='https://bard.google.com' target='_blank'>
+        your Google account does not have access to Bard, you can join the
+        waitlist at{' '}
+        <ProLink
+          href='https://bard.google.com'
+          target='_blank'
+          underline='always'
+        >
           bard.google.com
         </ProLink>
         .
@@ -406,12 +407,7 @@ const Claude = () => {
     },
     {
       icon: 'Done',
-      text: (
-        <>
-          Limited access to <br />
-          Claude-instant-100k and Claude+
-        </>
-      ),
+      text: <>Limited access to Claude-instant-100k and Claude+</>,
     },
   ];
 
@@ -424,7 +420,7 @@ const Claude = () => {
         {`You need to log into your own Poe account that has access to
         Claude-instant, Claude-instant-100k, Claude+. If you don't have a Poe
         account yet, you can easily get one for free on `}
-        <ProLink href='https://poe.com/' target='_blank'>
+        <ProLink href='https://poe.com/' target='_blank' underline='always'>
           poe.com
         </ProLink>
         {`.`}
