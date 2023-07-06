@@ -45,7 +45,8 @@ const SocialProof = () => {
 const AIPowerPanel = () => {
   return (
     <Stack
-      p={2}
+      px={4}
+      py={3}
       bgcolor='#F5F6F7'
       spacing={2.5}
       alignItems='center'
@@ -97,7 +98,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
     >
       <ProducthuntHonor noDay sx={{ mb: { xs: 4, sm: 0 } }} />
     </Box>
-    <Stack alignItems='center' spacing={3} pb={2}>
+    <Stack alignItems='center' spacing={4} pb={4}>
       <ProLink
         href={{
           pathname: '/',
@@ -120,8 +121,8 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
       </ProLink>
       <Typography
         variant={'custom'}
-        fontSize={64}
-        fontWeight={700}
+        fontSize={56}
+        fontWeight={900}
         textAlign='center'
       >
         The Fastest Way To Use AI Anywhere Online
@@ -137,7 +138,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
           variant={'contained'}
           sx={{
             width: { xs: '100%', sm: 300 },
-            height: 56,
+            height: 64,
             fontSize: 18,
             fontWeight: 600,
           }}
