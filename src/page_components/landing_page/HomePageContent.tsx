@@ -65,19 +65,19 @@ const AIPowerPanel = () => {
         <Typography variant={'h5'} color='text.secondary' flexShrink={0}>
           Powered by
         </Typography>
-        <Stack direction='row' spacing={1}>
+        <Stack direction='row' spacing={1} flexShrink={0}>
           <CustomIcon icon='AILogo' sx={{ fontSize: 32 }} />
           <Typography variant={'h5'}>ChatGPT</Typography>
         </Stack>
-        <Stack direction='row' spacing={1}>
+        <Stack direction='row' spacing={1} flexShrink={0}>
           <CustomIcon icon='BardLogo' sx={{ fontSize: 32 }} />
           <Typography variant={'h5'}>Bard</Typography>
         </Stack>
-        <Stack direction='row' spacing={1}>
+        <Stack direction='row' spacing={1} flexShrink={0}>
           <CustomIcon icon='BingLogo' sx={{ fontSize: 32 }} />
           <Typography variant={'h5'}>Bing AI</Typography>
         </Stack>
-        <Stack direction='row' spacing={1}>
+        <Stack direction='row' spacing={1} flexShrink={0}>
           <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 32 }} />
           <Typography variant={'h5'}>Claude</Typography>
         </Stack>
