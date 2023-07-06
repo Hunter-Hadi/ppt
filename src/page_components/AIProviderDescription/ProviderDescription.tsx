@@ -155,10 +155,11 @@ const FreeAI = () => {
   return (
     <Stack p={2}>
       <Typography variant='h6' mb={1}>
-        Use our OpenAI API key to power the extension.
+        Use ChatGPT to power the extension.
       </Typography>
       <Typography variant='body2' mb={3}>
-        Powered by gpt-3.5-turbo.
+        As fast as ChatGPT Plus. No country restrictions. Powered by
+        gpt-3.5-turbo.
       </Typography>
 
       <Stack p={2} bgcolor={'#0000000A'} borderRadius={1}>
