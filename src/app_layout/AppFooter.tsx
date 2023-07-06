@@ -81,7 +81,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                 title={'Products'}
                 data={[
                   {
-                    label: 'Free Chrome extension',
+                    label: 'MaxAI for Chrome',
                     icon: <CustomIcon icon='Chrome' />,
                     link: '/',
                   },
