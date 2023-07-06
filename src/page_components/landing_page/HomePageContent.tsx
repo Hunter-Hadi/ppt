@@ -121,7 +121,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
       <Typography
         variant={'custom'}
         fontSize={64}
-        font-weight={700}
+        fontWeight={700}
         textAlign='center'
       >
         The Fastest Way To Use AI Anywhere Online
