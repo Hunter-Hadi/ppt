@@ -15,7 +15,7 @@ const footerBlackList = ['/terms', '/privacy', '/404', '/zmo'];
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 
 import CustomIcon from '@/components/CustomIcon';
-import { APP_EXTERNAL_LINKS } from '@/global_constants';
+import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
 interface IProps {
   title?: React.ReactNode | string;
   hideTitle?: boolean;
@@ -125,7 +125,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                   {
                     label: 'How to use',
                     icon: <HelpOutlineIcon />,
-                    link: '/extension-installed',
+                    link: `${APP_PROJECT_LINK}/get-started`,
                   },
                   {
                     label: 'Contact Us',

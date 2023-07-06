@@ -95,7 +95,7 @@ const AppHeader: FC = () => {
                 fontWeight: 600,
               }}
             >
-              {`Add to Chrome — It's free`}
+              {`Add to Chrome for free`}
             </Button>
           </ProLink>
         </Stack>

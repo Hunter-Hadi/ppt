@@ -142,7 +142,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
             fontWeight: 600,
           }}
         >
-          {`Add to Chrome — It's free`}
+          {`Add to Chrome for free`}
         </Button>
       </ProLink>
     </Stack>
@@ -279,15 +279,15 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
         <Box>
           <CheckIcon />
         </Box>
-        <span>Works literally everywhere - ANY text on ANY website.</span>
+        <span>The fastest way to use AI anywhere online.</span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
         <Box>
           <CheckIcon />
         </Box>
-        <span style={{ whiteSpace: 'nowrap' }}>
-          Supports all popular AI Providers: ChatGPT, OpenAI API key, Google
-          Bard, Bing AI, Claude.
+        <span>
+          Works literally everywhere - ANY text on ANY website, even local PDF
+          files.
         </span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
@@ -295,33 +295,47 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
           <CheckIcon />
         </Box>
         <span>
-          Insert or replace selected text with AI-generated content in one
-          click.
+          One-click to insert or replace selected text with AI-generated
+          content.
         </span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
         <Box>
           <CheckIcon />
         </Box>
-        <span>Supports ChatGPT Plus: Plugins & GPT-4.</span>
+        <span>Chat to ask follow-up questions or refine results. </span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
         <Box>
           <CheckIcon />
         </Box>
-        <span>Ask follow-up questions, or chat to refine results. </span>
+        <span>
+          Supports all popular AI Providers: ChatGPT, Google Bard, New Bing Chat
+          AI, Claude.
+        </span>
+      </Typography>
+      <Typography variant={'body1'} component={'div'} fontSize={20}>
+        <Box>
+          <CheckIcon />
+        </Box>
+        <span>
+          Supports GPT-4 and Plugins through your ChatGPT Plus account.
+        </span>
+      </Typography>
+      <Typography variant={'body1'} component={'div'} fontSize={20}>
+        <Box>
+          <CheckIcon />
+        </Box>
+        <span>
+          Supports GPT-4, GPT-3.5-turbo-16k, GPT-4-32k using your OpenAI API
+          key.
+        </span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
         <Box>
           <CheckIcon />
         </Box>
         <span>All languages are supported.</span>
-      </Typography>
-      <Typography variant={'body1'} component={'div'} fontSize={20}>
-        <Box>
-          <CheckIcon />
-        </Box>
-        <span>Absolutely free.</span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>
         <Box>

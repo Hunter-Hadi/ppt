@@ -82,7 +82,7 @@ const ChromeExtensionDetector = () => {
                   height: 56,
                 }}
               >
-                {`Add to Chrome — It's free`}
+                {`Add to Chrome for free`}
               </Button>
             </ProLink>
             {promptCopyLink && (
