@@ -66,7 +66,7 @@ const AIPowerPanel = () => {
           Powered by
         </Typography>
         <Stack direction='row' spacing={1}>
-          <CustomIcon icon='ChatGPTLogo' sx={{ fontSize: 32 }} />
+          <CustomIcon icon='AILogo' sx={{ fontSize: 32 }} />
           <Typography variant={'h5'}>ChatGPT</Typography>
         </Stack>
         <Stack direction='row' spacing={1}>
@@ -113,7 +113,8 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
             variant='caption'
             component='h1'
             fontSize={48}
-            fontWeight={800}
+            fontWeight={700}
+            pr={0.5}
           >
             MaxAI.me
           </Typography>
@@ -166,7 +167,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
     <ResponsiveImage
       width={800}
       height={418}
-      src={'/assets/chrome-extension/4.png'}
+      src={'/assets/chrome-extension/1.png'}
       alt={'Fastest access to ChatGPT'}
     />
 
@@ -182,7 +183,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
     <ResponsiveImage
       width={1600}
       height={1020}
-      src={'/assets/chrome-extension/5.png'}
+      src={'/assets/chrome-extension/2.png'}
       alt={'Compose with AI anywhere'}
     />
 
@@ -197,9 +198,9 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
       2. Improve writing, fix spelling & grammar, or change tone in one click
     </Typography>
     <ResponsiveImage
-      width={800}
-      height={392}
-      src={'/assets/chrome-extension/2.png'}
+      width={1600}
+      height={784}
+      src={'/assets/chrome-extension/3.png'}
       alt={'Write better with confidence'}
     />
     <Typography variant={'h2'} pt={10} fontSize={22}>
@@ -211,9 +212,9 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
       2. Summarize, explain, translate, or list key takeaways in seconds
     </Typography>
     <ResponsiveImage
-      width={800}
-      height={418}
-      src={'/assets/chrome-extension/3.png'}
+      width={1600}
+      height={836}
+      src={'/assets/chrome-extension/4.png'}
       alt={'Read easier and faster'}
     />
 
@@ -227,9 +228,9 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
       2. Generate effective and personalized reply in one click
     </Typography>
     <ResponsiveImage
-      width={800}
-      height={418}
-      src={'/assets/chrome-extension/7.png'}
+      width={1600}
+      height={836}
+      src={'/assets/chrome-extension/5.png'}
       alt={'Reply to any text in seconds'}
     />
 
