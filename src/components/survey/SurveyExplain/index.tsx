@@ -54,8 +54,8 @@ const SurveyExplain: FC<IProps> = (props) => {
             Provider at the top of the sidebar.`}
           </Typography>
           <ResponsiveImage
-            width={656}
-            height={382}
+            width={1312}
+            height={844}
             alt={surveyName}
             src='/assets/survey/1.png'
           />
