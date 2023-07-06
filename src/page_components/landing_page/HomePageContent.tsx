@@ -1,6 +1,6 @@
 import CheckIcon from '@mui/icons-material/Check';
 import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
-import { Box, Button, Stack, Typography } from '@mui/material';
+import { Box, Button, Divider, Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
@@ -42,6 +42,49 @@ const SocialProof = () => {
   );
 };
 
+const AIPowerPanel = () => {
+  return (
+    <Stack
+      p={2}
+      bgcolor='#F5F6F7'
+      spacing={2.5}
+      alignItems='center'
+      width={'100%'}
+      boxSizing='border-box'
+    >
+      <Typography variant='h5' textAlign='center'>
+        Your AI-powered copilot for the web
+      </Typography>
+      <Divider
+        sx={{
+          width: '100%',
+        }}
+      />
+      <Stack spacing={4} direction='row'>
+        <Typography variant={'h5'} color='text.secondary' flexShrink={0}>
+          Powered by
+        </Typography>
+        <Stack direction='row' spacing={1}>
+          <CustomIcon icon='ChatGPTLogo' sx={{ fontSize: 32 }} />
+          <Typography variant={'h5'}>ChatGPT</Typography>
+        </Stack>
+        <Stack direction='row' spacing={1}>
+          <CustomIcon icon='BardLogo' sx={{ fontSize: 32 }} />
+          <Typography variant={'h5'}>Bard</Typography>
+        </Stack>
+        <Stack direction='row' spacing={1}>
+          <CustomIcon icon='BingLogo' sx={{ fontSize: 32 }} />
+          <Typography variant={'h5'}>Bing AI</Typography>
+        </Stack>
+        <Stack direction='row' spacing={1}>
+          <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 32 }} />
+          <Typography variant={'h5'}>Claude</Typography>
+        </Stack>
+      </Stack>
+    </Stack>
+  );
+};
+
 const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
   <Stack spacing={2} mx={'auto'} maxWidth={800} my={{ xs: 4, sm: 7 }}>
     <Box
@@ -54,7 +97,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
     >
       <ProducthuntHonor noDay sx={{ mb: { xs: 4, sm: 0 } }} />
     </Box>
-    <Stack alignItems='center' spacing={4} pb={2}>
+    <Stack alignItems='center' spacing={3} pb={2}>
       <ProLink
         href={{
           pathname: '/',
@@ -68,36 +111,23 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
             color='text.primary'
             variant='caption'
             component='h1'
-            fontSize={40}
+            fontSize={48}
             fontWeight={800}
           >
             MaxAI.me
           </Typography>
         </Stack>
       </ProLink>
-      <Typography variant={'h1'} fontSize={32}>
-        Free AI Copilot for the Web <br />
-      </Typography>
       <Typography
-        component='h1'
-        variant='h1'
-        fontSize={42}
-        mt={'8px !important'}
-        textAlign={'center'}
+        variant={'custom'}
+        fontSize={64}
+        font-weight={700}
+        textAlign='center'
       >
-        Powered by{` `}
-        <CustomIcon icon='ChatGPTLogo' sx={{ fontSize: 28 }} /> ChatGPT ,{' '}
-        <CustomIcon icon='BardLogo' sx={{ fontSize: 28 }} /> Bard ,{' '}
-        <CustomIcon icon='BingLogo' sx={{ fontSize: 28 }} /> Bing AI , <br />
-        <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 28 }} /> Claude
+        The Fastest Way To Use AI Anywhere Online
       </Typography>
-      <Typography variant={'body1'} fontSize={20} textAlign='center'>
-        Use AI on any website without copy-pasting. Compose, improve writing,
-        summarize, explain, fix spelling & grammar, translate, or reply to any
-        text everywhere with one click.
-      </Typography>
+      <AIPowerPanel />
       <SocialProof />
-
       <ProLink
         target={'_blank'}
         href={installLink ?? `${INSTALL_LINK}?ref=homepage`}
