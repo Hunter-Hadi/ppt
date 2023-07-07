@@ -155,7 +155,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
     />
 
     <Typography variant={'h2'} pt={10} id={'how-to-use'} fontSize={22}>
-      {`Fastest way to access ChatGPT, Bard, Bing AI, and Claude`}
+      {`Fastest access to ChatGPT, Bard, Bing AI, and Claude`}
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
       1. Simply press Cmd/Alt + J
