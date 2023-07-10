@@ -1,6 +1,6 @@
 import CheckIcon from '@mui/icons-material/Check';
 import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
-import { Box, Button, Stack, Typography } from '@mui/material';
+import { Box, Button, Divider, Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
@@ -45,43 +45,52 @@ const SocialProof = () => {
 const AIPowerPanel = () => {
   return (
     <Stack
-      px={4}
-      py={3}
+      p={2}
       bgcolor='#F5F6F7'
-      spacing={2.5}
+      spacing={2}
       alignItems='center'
       width={'100%'}
       boxSizing='border-box'
+      borderRadius={1}
     >
-      {/* <Typography variant='h5' textAlign='center'>
-        Your AI-powered copilot for the web
+      <Typography variant={'h5'} flexShrink={0}>
+        Powered by
       </Typography>
-      <Divider
-        sx={{
-          width: '100%',
-        }}
-      /> */}
-      <Stack spacing={4} direction='row'>
-        <Typography variant={'h5'} color='text.secondary' flexShrink={0}>
-          Powered by
-        </Typography>
-        <Stack direction='row' spacing={1} flexShrink={0}>
-          <CustomIcon icon='AILogo' sx={{ fontSize: 32 }} />
-          <Typography variant={'h5'}>ChatGPT</Typography>
+      <Box bgcolor='white' width='100%' boxSizing={'border-box'} p={2}>
+        <Stack
+          direction='row'
+          spacing={1.5}
+          alignItems='center'
+          mb={3}
+          justifyContent='center'
+        >
+          <CustomIcon icon='AILogo' sx={{ fontSize: 64 }} />
+          <Typography variant={'custom'} fontSize={48} fontWeight={700}>
+            ChatGPT
+          </Typography>
         </Stack>
-        <Stack direction='row' spacing={1} flexShrink={0}>
-          <CustomIcon icon='BardLogo' sx={{ fontSize: 32 }} />
-          <Typography variant={'h5'}>Bard</Typography>
+        <Stack spacing={4} direction='row' justifyContent={'center'}>
+          <Stack direction='row' spacing={1}>
+            <CustomIcon icon='BardLogo' sx={{ fontSize: 32 }} />
+            <Typography variant={'h5'}>Bard</Typography>
+          </Stack>
+          <Divider orientation='vertical' flexItem />
+          <Stack direction='row' spacing={1}>
+            <CustomIcon icon='BingLogo' sx={{ fontSize: 32 }} />
+            <Typography variant={'h5'}>Bing AI</Typography>
+          </Stack>
+          <Divider orientation='vertical' flexItem />
+          <Stack direction='row' spacing={1}>
+            <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 32 }} />
+            <Typography variant={'h5'}>Claude</Typography>
+          </Stack>
+          <Divider orientation='vertical' flexItem />
+          <Stack direction='row' spacing={1}>
+            <CustomIcon icon='ChatGPTLogoOutLine' sx={{ fontSize: 32 }} />
+            <Typography variant={'h5'}>OpenAI API</Typography>
+          </Stack>
         </Stack>
-        <Stack direction='row' spacing={1} flexShrink={0}>
-          <CustomIcon icon='BingLogo' sx={{ fontSize: 32 }} />
-          <Typography variant={'h5'}>Bing AI</Typography>
-        </Stack>
-        <Stack direction='row' spacing={1} flexShrink={0}>
-          <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 32 }} />
-          <Typography variant={'h5'}>Claude</Typography>
-        </Stack>
-      </Stack>
+      </Box>
     </Stack>
   );
 };
