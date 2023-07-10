@@ -6,10 +6,9 @@ interface IAppDefaultSeoProps extends DefaultSeoProps {
   socialImage?: string;
 }
 
-const DEFAULT_TITLE =
-  'MaxAI.me: Free AI Copilot for the Web (ChatGPT, Bard, Bing AI, Claude)';
+const DEFAULT_TITLE = 'MaxAI.me: Use AI Anywhere (ChatGPT, Bard, Bing, Claude)';
 const DEFAULT_DESCRIPTION =
-  'Use AI on any website without copy-pasting. Compose, improve writing, summarize, explain, fix spelling & grammar, translate, or reply to any text everywhere with one click.';
+  'The fastest way to use AI anywhere online. One click to compose, improve writing, summarize, explain, fix spelling & grammar, change tone, translate, or reply to any text.';
 
 const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
   const router = useRouter();

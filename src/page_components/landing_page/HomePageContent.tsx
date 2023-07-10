@@ -1,6 +1,6 @@
 import CheckIcon from '@mui/icons-material/Check';
 import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
-import { Box, Button, Divider, Stack, Typography } from '@mui/material';
+import { Box, Button, Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
@@ -53,14 +53,14 @@ const AIPowerPanel = () => {
       width={'100%'}
       boxSizing='border-box'
     >
-      <Typography variant='h5' textAlign='center'>
+      {/* <Typography variant='h5' textAlign='center'>
         Your AI-powered copilot for the web
       </Typography>
       <Divider
         sx={{
           width: '100%',
         }}
-      />
+      /> */}
       <Stack spacing={4} direction='row'>
         <Typography variant={'h5'} color='text.secondary' flexShrink={0}>
           Powered by
@@ -86,7 +86,10 @@ const AIPowerPanel = () => {
   );
 };
 
-const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
+const HomePageContent: FC<{ installLink?: string; showLogo?: boolean }> = ({
+  installLink,
+  showLogo = true,
+}) => (
   <Stack spacing={2} mx={'auto'} maxWidth={800} my={{ xs: 4, sm: 7 }}>
     <Box
       sx={{
@@ -99,27 +102,29 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
       <ProducthuntHonor noDay sx={{ mb: { xs: 4, sm: 0 } }} />
     </Box>
     <Stack alignItems='center' spacing={4} pb={4}>
-      <ProLink
-        href={{
-          pathname: '/',
-        }}
-        target={'_self'}
-        muiLinkProps={{ title: 'MaxAI.me' }}
-      >
-        <Stack direction={'row'} alignItems={'center'} gap={1}>
-          <CustomImageBox width={64} height={64} src={'/logo.svg'} />
-          <Typography
-            color='text.primary'
-            variant='caption'
-            component='h1'
-            fontSize={48}
-            fontWeight={700}
-            pr={0.5}
-          >
-            MaxAI.me
-          </Typography>
-        </Stack>
-      </ProLink>
+      {showLogo && (
+        <ProLink
+          href={{
+            pathname: '/',
+          }}
+          target={'_self'}
+          muiLinkProps={{ title: 'MaxAI.me' }}
+        >
+          <Stack direction={'row'} alignItems={'center'} gap={1}>
+            <CustomImageBox width={64} height={64} src={'/logo.svg'} />
+            <Typography
+              color='text.primary'
+              variant='caption'
+              component='h1'
+              fontSize={48}
+              fontWeight={700}
+              pr={0.5}
+            >
+              MaxAI.me
+            </Typography>
+          </Stack>
+        </ProLink>
+      )}
       <Typography
         variant={'custom'}
         fontSize={56}
@@ -155,10 +160,10 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
     />
 
     <Typography variant={'h2'} pt={10} id={'how-to-use'} fontSize={22}>
-      {`Fastest access to ChatGPT, Bard, Bing AI, and Claude`}
+      {`Ask AI anything in the sidebar`}
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
-      1. Simply press Cmd/Alt + J
+      1. Press ⌘/Alt + J anywhere
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
       2. The AI chat sidebar will show up on the right
@@ -175,7 +180,7 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
       Compose with AI anywhere
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
-      1. Press Cmd/Alt+J in any doc or text box
+      1. Press ⌘/Alt+J in any doc or text box
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
       2. Let AI handle the first draft
@@ -321,7 +326,8 @@ const HomePageContent: FC<{ installLink?: string }> = ({ installLink }) => (
           <CheckIcon />
         </Box>
         <span>
-          Supports GPT-4 and Plugins through your ChatGPT Plus account.
+          Supports GPT-4, Web Browsing, Code Interpreter, and Plugins through
+          your ChatGPT Plus account.
         </span>
       </Typography>
       <Typography variant={'body1'} component={'div'} fontSize={20}>

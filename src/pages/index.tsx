@@ -18,7 +18,7 @@ const ChromeExtensionPage = () => {
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout />
-      <HomePageContent />
+      <HomePageContent showLogo={false} />
     </AppContainer>
   );
 };
