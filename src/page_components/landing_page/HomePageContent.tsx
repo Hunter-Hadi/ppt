@@ -172,7 +172,7 @@ const HomePageContent: FC<{ installLink?: string; showLogo?: boolean }> = ({
       {`Ask AI anything in the sidebar`}
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
-      1. Press ⌘/Alt + J anywhere
+      1. Press ⌘/Alt+J anywhere
     </Typography>
     <Typography variant={'body1'} fontSize={20}>
       2. The AI chat sidebar will show up on the right
