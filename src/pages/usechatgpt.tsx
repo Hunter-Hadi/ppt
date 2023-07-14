@@ -4,7 +4,7 @@ import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import HomePageContent from '@/page_components/landing_page/HomePageContent';
 
-const ChromeExtensionPage = () => {
+const UsechatgptPage = () => {
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
@@ -30,4 +30,4 @@ const ChromeExtensionPage = () => {
     </AppContainer>
   );
 };
-export default ChromeExtensionPage;
+export default UsechatgptPage;
