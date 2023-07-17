@@ -71,7 +71,7 @@ const InstallPage: FC = () => {
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout
         title={'Install | MaxAI.me'}
-        canonical={'https://maxai.me/install'}
+        canonical={'https://www.maxai.me/install'}
       />
       <Card
         elevation={0}

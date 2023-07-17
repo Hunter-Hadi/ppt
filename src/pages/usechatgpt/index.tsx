@@ -17,14 +17,12 @@ const UsechatgptPage = () => {
   }, []);
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
-      <AppDefaultSeoLayout />
-
       <AppDefaultSeoLayout
         title={'UseChatGPT.AI: Use AI Anywhere (ChatGPT, Bard, Bing, Claude)'}
         description={
           'The fastest way to use AI anywhere online. One click to compose, improve writing, summarize, explain, fix spelling & grammar, change tone, translate, or reply to any text.'
         }
-        canonical={'https://maxai.me/usechatgpt'}
+        canonical={'https://www.maxai.me/usechatgpt'}
       />
       <HomePageContent showLogo={false} />
     </AppContainer>
