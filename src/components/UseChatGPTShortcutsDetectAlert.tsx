@@ -92,10 +92,10 @@ const UseChatGPTShortcutsDetectAlert: FC = () => {
         <Alert severity={'error'}>
           <Stack spacing={2}>
             <Typography variant={'h1'}>
-              Your Cmd/Alt + J shortcut is not responding
+              Your ⌘/Alt+J shortcut is not responding
             </Typography>
             <Typography variant={'body1'}>
-              {`Please perform a force reconfiguration of the Cmd/Alt+J shortcut on `}
+              {`Please perform a force reconfiguration of the ⌘/Alt+J  shortcut on `}
               <ProLink
                 href={'/'}
                 underline={'always'}
