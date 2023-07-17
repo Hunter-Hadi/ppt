@@ -5,36 +5,31 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import React, { useState } from 'react';
+import { atom, useRecoilState } from 'recoil';
 
 import { WWW_PROJECT_LINK } from '@/global_constants';
 import useEffectOnce from '@/hooks/useEffectOnce';
-import {
-  getLocalStorage,
-  ILocalStorageKeyType,
-  setLocalStorage,
-} from '@/utils/localStorage';
 
 const TWEET_URL = 'https://twitter.com/MaxAI_HQ/status/1673665954062954500';
 
-const REBRAND_ANNOUNCEMENT_HIDDEN_SAVE_KEY =
-  'REBRAND_ANNOUNCEMENT_HIDDEN_SAVE_KEY' as ILocalStorageKeyType;
+const AnnouncementShowAtom = atom({
+  key: 'AnnouncementShowAtom',
+  default: true,
+});
 
 const Announcement = () => {
   const [loaded, setLoaded] = useState(false);
-  const [hide, setHide] = useState(false);
+  const [show, setShow] = useRecoilState(AnnouncementShowAtom);
 
   const updateFlag = async (flag: boolean) => {
-    setHide(flag);
-    setLocalStorage(REBRAND_ANNOUNCEMENT_HIDDEN_SAVE_KEY, flag);
+    setShow(flag);
   };
 
   useEffectOnce(() => {
-    const flag = getLocalStorage(REBRAND_ANNOUNCEMENT_HIDDEN_SAVE_KEY);
-    setHide(flag === 'true');
     setLoaded(true);
   });
 
-  if (!loaded || hide) return null;
+  if (!loaded || !show) return null;
 
   return (
     <Stack
@@ -97,7 +92,7 @@ const Announcement = () => {
       </Stack>
       <IconButton
         sx={{ flexShrink: 0, ml: 0.5, color: 'inherit' }}
-        onClick={() => updateFlag(true)}
+        onClick={() => updateFlag(false)}
       >
         <CloseIcon sx={{ fontSize: '24px' }} />
       </IconButton>
