@@ -42,7 +42,10 @@ const Announcement = () => {
       <Stack
         direction='row'
         flex={1}
-        fontSize={16}
+        fontSize={{
+          xs: 14,
+          sm: 16,
+        }}
         alignItems='center'
         justifyContent='center'
         maxWidth={400}
@@ -57,7 +60,14 @@ const Announcement = () => {
           href={'https://www.usechatgpt.ai'}
           target={'_blank'}
         >
-          <Typography variant='caption' fontSize={16} fontWeight={500}>
+          <Typography
+            variant='caption'
+            fontSize={{
+              xs: 14,
+              sm: 16,
+            }}
+            fontWeight={500}
+          >
             UseChatGPT.AI
           </Typography>
         </Link>
@@ -71,7 +81,14 @@ const Announcement = () => {
           href={WWW_PROJECT_LINK}
           target={'_blank'}
         >
-          <Typography variant='caption' fontSize={16} fontWeight={500}>
+          <Typography
+            variant='caption'
+            fontSize={{
+              xs: 14,
+              sm: 16,
+            }}
+            fontWeight={500}
+          >
             MaxAI.me
           </Typography>
         </Link>
@@ -85,6 +102,10 @@ const Announcement = () => {
             ml: 'auto !important',
             color: 'inherit',
             borderColor: 'inherit',
+            px: {
+              xs: '5px',
+              sm: 2,
+            },
           }}
         >
           Read More

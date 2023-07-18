@@ -66,7 +66,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
               xs: 2,
             },
             pt: 4,
-            pb: 5,
+            pb: 16,
           }}
         >
           <Grid container spacing={3}>

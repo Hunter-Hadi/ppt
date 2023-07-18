@@ -3,7 +3,7 @@ import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
 import { Box, Button, Divider, Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
 
-import CustomIcon from '@/components/CustomIcon';
+import CustomIcon, { ICustomIconType } from '@/components/CustomIcon';
 import { CustomImageBox } from '@/components/CustomImage';
 import ProLink from '@/components/ProLink';
 import ResponsiveImage from '@/components/ResponsiveImage';
@@ -43,6 +43,24 @@ const SocialProof = () => {
 };
 
 const AIPowerPanel = () => {
+  const providersList = [
+    {
+      icon: 'BardLogo',
+      text: 'Bard',
+    },
+    {
+      icon: 'BingLogo',
+      text: 'Bing AI',
+    },
+    {
+      icon: 'ClaudeLogo',
+      text: 'Claude',
+    },
+    {
+      icon: 'ChatGPTLogoOutLine',
+      text: 'OpenAI API',
+    },
+  ];
   return (
     <Stack
       p={2}
@@ -64,31 +82,90 @@ const AIPowerPanel = () => {
           mb={3}
           justifyContent='center'
         >
-          <CustomIcon icon='AILogo' sx={{ fontSize: 64 }} />
-          <Typography variant={'custom'} fontSize={48} fontWeight={700}>
+          <CustomIcon
+            icon='AILogo'
+            sx={{
+              fontSize: {
+                xs: 40,
+                sm: 64,
+              },
+            }}
+          />
+          <Typography
+            variant={'custom'}
+            fontSize={{
+              xs: 32,
+              sm: 48,
+            }}
+            fontWeight={700}
+          >
             ChatGPT
           </Typography>
         </Stack>
-        <Stack spacing={4} direction='row' justifyContent={'center'}>
-          <Stack direction='row' spacing={1}>
-            <CustomIcon icon='BardLogo' sx={{ fontSize: 32 }} />
-            <Typography variant={'h5'}>Bard</Typography>
-          </Stack>
-          <Divider orientation='vertical' flexItem />
-          <Stack direction='row' spacing={1}>
-            <CustomIcon icon='BingLogo' sx={{ fontSize: 32 }} />
-            <Typography variant={'h5'}>Bing AI</Typography>
-          </Stack>
-          <Divider orientation='vertical' flexItem />
-          <Stack direction='row' spacing={1}>
-            <CustomIcon icon='ClaudeLogo' sx={{ fontSize: 32 }} />
-            <Typography variant={'h5'}>Claude</Typography>
-          </Stack>
-          <Divider orientation='vertical' flexItem />
-          <Stack direction='row' spacing={1}>
-            <CustomIcon icon='ChatGPTLogoOutLine' sx={{ fontSize: 32 }} />
-            <Typography variant={'h5'}>OpenAI API</Typography>
-          </Stack>
+        <Stack
+          direction={'row'}
+          justifyContent={'center'}
+          flexWrap={'wrap'}
+          spacing={{
+            xs: null,
+            sm: 4,
+          }}
+        >
+          {providersList.map((provider, index) => (
+            <>
+              <Stack
+                direction='row'
+                spacing={1}
+                alignItems='center'
+                sx={{
+                  justifyContent: 'center',
+                  width: {
+                    xs: '50%',
+                    sm: 'auto',
+                  },
+                  mb: {
+                    xs: index < 2 ? 2 : 0,
+                    sm: 0,
+                  },
+                  // ml: {
+                  //   xs: 0,
+                  //   sm: 4,
+                  // },
+                }}
+              >
+                <CustomIcon
+                  icon={provider.icon as ICustomIconType}
+                  sx={{
+                    fontSize: {
+                      xs: 24,
+                      sm: 32,
+                    },
+                  }}
+                />
+                <Typography
+                  variant={'caption'}
+                  fontSize={{
+                    xs: 18,
+                    sm: 20,
+                  }}
+                >
+                  {provider.text}
+                </Typography>
+              </Stack>
+              {index !== providersList.length - 1 && (
+                <Divider
+                  orientation='vertical'
+                  flexItem
+                  sx={{
+                    display: {
+                      xs: 'none',
+                      sm: 'block',
+                    },
+                  }}
+                />
+              )}
+            </>
+          ))}
         </Stack>
       </Box>
     </Stack>
@@ -382,8 +459,14 @@ const HomePageContent: FC<{ installLink?: string; showLogo?: boolean }> = ({
           variant='outlined'
           href='/prompts'
           sx={{
-            width: 'max-content',
-            fontSize: 18,
+            width: {
+              sm: 'max-content',
+              xs: '100%',
+            },
+            fontSize: {
+              xs: 16,
+              sm: 18,
+            },
             fontWeight: 600,
           }}
         >
