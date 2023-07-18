@@ -451,8 +451,8 @@ const HomePageContent: FC<{ installLink?: string; showLogo?: boolean }> = ({
           </Typography>
           <Typography variant={'body1'} fontSize={20}>
             Turn hours-long tasks into minutes using our expanding collection of
-            prompts for marketing, sales, copywriting, operations, productivity,
-            and customer support prompts.
+            prompts for marketing, sales, copywriting, operation, productivity,
+            and customer support.
           </Typography>
         </Stack>
         <Button
