@@ -59,3 +59,5 @@ export const EXTENSION_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/maxai-ext';
 export const MAXAI_WWW_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/maxai-web';
+export const MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK =
+  'https://api.maxai.me/app/prompts-web';

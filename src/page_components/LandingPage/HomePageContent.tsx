@@ -8,7 +8,10 @@ import { CustomImageBox } from '@/components/CustomImage';
 import ProLink from '@/components/ProLink';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
-import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/global_constants';
+import {
+  MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK,
+  PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
+} from '@/global_constants';
 import useShareTrackerLink from '@/hooks/useShareTrackerLink';
 import ProducthuntHonor from '@/page_components/LandingPage/ProducthuntHonor';
 /**
@@ -183,27 +186,35 @@ const HomePageContent: FC<IProps> = ({
   annoyingButton,
   iniFrame,
 }) => {
-  const { extensionLink, maxaiWebLink } = useShareTrackerLink({
+  const { extensionLink, maxaiWebLink, ref } = useShareTrackerLink({
     queryRefEnable: true,
     pathnameRefEnable: false,
     defaultRef: 'homepage',
   });
 
   const CtaBtn = () => (
-    <ProLink target={'_blank'} href={extensionLink}>
-      <Button
-        startIcon={<CustomIcon icon={'Chrome'} />}
-        variant={'contained'}
+    <Box textAlign='center' pt={2}>
+      <ProLink
+        target={'_blank'}
+        href={extensionLink}
         sx={{
-          width: { xs: '100%', sm: 300 },
-          height: 64,
-          fontSize: 18,
-          fontWeight: 600,
+          width: '100%',
         }}
       >
-        {`Add to Chrome for free`}
-      </Button>
-    </ProLink>
+        <Button
+          startIcon={<CustomIcon icon={'Chrome'} />}
+          variant={'contained'}
+          sx={{
+            width: { xs: '100%' },
+            height: 64,
+            fontSize: 18,
+            fontWeight: 600,
+          }}
+        >
+          {`Add to Chrome for free`}
+        </Button>
+      </ProLink>
+    </Box>
   );
 
   return (
@@ -250,7 +261,20 @@ const HomePageContent: FC<IProps> = ({
         </Typography>
         <AIPowerPanel />
         <SocialProof />
-        <CtaBtn />
+        <ProLink target={'_blank'} href={extensionLink}>
+          <Button
+            startIcon={<CustomIcon icon={'Chrome'} />}
+            variant={'contained'}
+            sx={{
+              width: { xs: '100%', sm: 300 },
+              height: 64,
+              fontSize: 18,
+              fontWeight: 600,
+            }}
+          >
+            {`Add to Chrome for free`}
+          </Button>
+        </ProLink>
       </Stack>
 
       <YoutubePlayerBox
@@ -477,7 +501,7 @@ const HomePageContent: FC<IProps> = ({
           </Stack>
           <Button
             variant='outlined'
-            href='/prompts'
+            href={`${MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK}?ref=${ref}`}
             target={iniFrame ? '_blank' : '_self'}
             sx={{
               width: {
