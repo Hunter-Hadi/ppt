@@ -2,6 +2,7 @@
  * 如果你改了这个文件
  * 记得执行一下 minify-js，并且将打包后的文件提交到 git
  */
+import dayjs from 'dayjs';
 const PRESET_HEIGHT = 6400;
 const scriptSrc = document.currentScript.src;
 const scriptURL = new URL(scriptSrc);
@@ -46,7 +47,7 @@ if (!ref) {
       window.MAXAI_EMBED.post(window.MAXAI_EMBED.recordApi, {
         data: {
           ref: `[iframe]_${window.MAXAI_EMBED.ref}`,
-          date: new Date().toString(),
+          date: dayjs().format('YYYY-MM-DD HH:mm:ss'),
         },
       });
     },
@@ -139,7 +140,7 @@ if (!ref) {
   };
 
   // if (!manual) {
-  //   window.MAXAI_EMBED.startRender();
+  window.MAXAI_EMBED.startRender();
   // }
 
   console.log(`script onload`);
@@ -147,7 +148,7 @@ if (!ref) {
     window.MAXAI_EMBED.post(window.MAXAI_EMBED.recordApi, {
       data: {
         ref: `[script]_${window.MAXAI_EMBED.ref}`,
-        date: new Date().toString(),
+        date: dayjs().format('YYYY-MM-DD HH:mm:ss'),
       },
     });
   } catch (error) {}

@@ -8,7 +8,7 @@
     "start": "next start",
     "serve": "serve out -p 3001",
     "lint": "next lint",
-    "minify-js": "esbuild scripts/*.js --outdir=public/assets/js/ --allow-overwrite --minify --drop:debugger --drop:console"
+    "minify-js": "esbuild scripts/*.js --outdir=public/assets/js/ --allow-overwrite --bundle --minify --drop:debugger --drop:console "
   },
   "dependencies": {
     "@babel/core": "^7.20.12",
