@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router';
 import { useMemo } from 'react';
 
-import { INSTALL_LINK } from '@/global_constants';
+import { EXTENSION_SHARE_TRACKER_LINK } from '@/global_constants';
 
 const DEFAULT_APP_HEADER_TOPBAR = 'topbar';
 
 const useInstallChromeExtensionLink = (isTopbar = false) => {
   const { query, pathname, isReady } = useRouter();
-  const prefix = INSTALL_LINK;
+  const prefix = EXTENSION_SHARE_TRACKER_LINK;
   const installChromeExtensionLink = useMemo(() => {
     let defaultRef =
       (isTopbar ? DEFAULT_APP_HEADER_TOPBAR : '') +
@@ -30,4 +30,5 @@ const useInstallChromeExtensionLink = (isTopbar = false) => {
     loading: !isReady,
   };
 };
+
 export { useInstallChromeExtensionLink };

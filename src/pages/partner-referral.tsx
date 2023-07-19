@@ -1,10 +1,9 @@
 import dayjs from 'dayjs';
 import { useRouter } from 'next/router';
-import React, { useCallback, useEffect, useMemo, useRef } from 'react';
+import React, { useCallback, useEffect, useRef } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import { INSTALL_LINK } from '@/global_constants';
 import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 import { APP_API } from '@/utils/api';
 import { sendLarkBotMessage } from '@/utils/larkBot';
@@ -16,10 +15,6 @@ const PartnerReferral = () => {
   const router = useRouter();
   const { query, isReady } = router;
   const loading = useRef(false);
-
-  const shareInstallLink = useMemo(() => {
-    return `${INSTALL_LINK}?ref=${query.ref || 'default'}`;
-  }, [query.ref]);
 
   const sendMessage = useCallback(async () => {
     if (loading.current) return;
@@ -83,7 +78,7 @@ const PartnerReferral = () => {
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout />
-      <HomePageContent installLink={shareInstallLink} />
+      <HomePageContent />
     </AppContainer>
   );
 };

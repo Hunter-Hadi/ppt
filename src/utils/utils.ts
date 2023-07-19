@@ -340,3 +340,12 @@ export const routerToShortcutsPage = () => {
     }
   }
 };
+
+export const isInIframe = () => {
+  if (typeof window === 'undefined') return false;
+  try {
+    return window.self !== window.top;
+  } catch (e) {
+    return false;
+  }
+};

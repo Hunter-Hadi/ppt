@@ -4,7 +4,7 @@ import { Stack, Typography } from '@mui/material';
 
 import {
   APP_EXTERNAL_LINKS,
-  INSTALL_LINK,
+  EXTENSION_SHARE_TRACKER_LINK,
   SIMPLY_TRENDS_APP_EMAIL,
 } from '@/global_constants';
 
@@ -69,7 +69,7 @@ const ContactUsPanel = () => {
       <Typography variant='body2' component={'div'}>
         🙏 Support us by rating ★★★★★ on{' '}
         <ProLink
-          href={`${INSTALL_LINK}?ref=support-us`}
+          href={`${EXTENSION_SHARE_TRACKER_LINK}?ref=support-us`}
           sx={{ color: 'inherit' }}
           target={'_blank'}
           underline='always'
@@ -90,7 +90,7 @@ const ContactUsPanel = () => {
         <Typography variant='body2' component={'div'}>
           🎁 Help others by sharing this extension:{' '}
           <ProLink
-            href={`${INSTALL_LINK}?ref=share`}
+            href={`${EXTENSION_SHARE_TRACKER_LINK}?ref=share`}
             sx={{ color: 'inherit' }}
             target={'_blank'}
             underline='always'
@@ -99,7 +99,7 @@ const ContactUsPanel = () => {
           </ProLink>
           {` `}
           <CopyTypography
-            text={`${INSTALL_LINK}?ref=share`}
+            text={`${EXTENSION_SHARE_TRACKER_LINK}?ref=share`}
             sx={{ p: 0, minWidth: 20, color: 'rgba(0, 0, 0, 0.38)' }}
           />
           {` `}.

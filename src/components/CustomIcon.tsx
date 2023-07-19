@@ -1543,7 +1543,7 @@ const ChatGPTLogo: FC<SvgIconProps> = (props) => {
   return (
     <SvgIcon viewBox='0 0 24 24' sx={props.sx}>
       <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-        <g clip-path='url(#clip0_4133_35972)'>
+        <g clipPath='url(#clip0_4133_35972)'>
           <path
             d='M20 0H4C1.79086 0 0 1.79086 0 4V20C0 22.2091 1.79086 24 4 24H20C22.2091 24 24 22.2091 24 20V4C24 1.79086 22.2091 0 20 0Z'
             fill='black'
@@ -1597,7 +1597,7 @@ const AILogo: FC<SvgIconProps> = (props) => {
   return (
     <SvgIcon viewBox='0 0 20 20' sx={props.sx}>
       <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-        <g clip-path='url(#clip0_4133_35975)'>
+        <g clipPath='url(#clip0_4133_35975)'>
           <path
             d='M20 0H4C1.79086 0 0 1.79086 0 4V20C0 22.2091 1.79086 24 4 24H20C22.2091 24 24 22.2091 24 20V4C24 1.79086 22.2091 0 20 0Z'
             fill='#0FA47F'
