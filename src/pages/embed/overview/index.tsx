@@ -5,7 +5,8 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import useEffectOnce from '@/hooks/useEffectOnce';
 import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 
-const EmbedIntroduction = () => {
+// 用于外部嵌入的 overview 页面
+const EmbedOverview = () => {
   const [loaded, setLoaded] = useState(false);
   const contentRef = useRef<any>(null);
 
@@ -37,4 +38,4 @@ const EmbedIntroduction = () => {
   );
 };
 
-export default EmbedIntroduction;
+export default EmbedOverview;
