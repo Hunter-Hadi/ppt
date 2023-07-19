@@ -5,9 +5,9 @@
 const PRESET_HEIGHT = 6400;
 const scriptSrc = document.currentScript.src;
 const scriptURL = new URL(scriptSrc);
-const searchParmas = scriptURL.searchParams;
-const manual = searchParmas.get('manual') === '1';
-const ref = searchParmas.get('ref');
+const searchParams = scriptURL.searchParams;
+// const manual = searchParams.get('manual') === '1';
+const ref = searchParams.get('ref');
 
 if (!ref) {
   console.error(`MaxAI embed log: ref is required`);
@@ -85,8 +85,8 @@ if (!ref) {
     },
     async initialization() {
       // reset containerId
-      if (searchParmas.has('containerId')) {
-        this.containerId = searchParmas.get('containerId');
+      if (searchParams.has('containerId')) {
+        this.containerId = searchParams.get('containerId');
       }
 
       const setContainerFlag = await this.setContainerDom(this.containerId);
@@ -127,20 +127,20 @@ if (!ref) {
         return false;
       }
     },
-    async createEmbed(containerId) {
-      if (!containerId) {
-        console.error(`MaxAI embed log: createEmbed containerId is required`);
-        return false;
-      }
-      this.containerId = containerId;
-      const success = await this.startRender();
-      return success;
-    },
+    // async createEmbed(containerId) {
+    //   if (!containerId) {
+    //     console.error(`MaxAI embed log: createEmbed containerId is required`);
+    //     return false;
+    //   }
+    //   this.containerId = containerId;
+    //   const success = await this.startRender();
+    //   return success;
+    // },
   };
 
-  if (!manual) {
-    window.MAXAI_EMBED.startRender();
-  }
+  // if (!manual) {
+  //   window.MAXAI_EMBED.startRender();
+  // }
 
   console.log(`script onload`);
   try {
