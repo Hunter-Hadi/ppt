@@ -5,7 +5,7 @@ import React, { useCallback, useEffect, useMemo, useRef } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import { INSTALL_LINK } from '@/global_constants';
-import HomePageContent from '@/page_components/landing_page/HomePageContent';
+import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 import { APP_API } from '@/utils/api';
 import { sendLarkBotMessage } from '@/utils/larkBot';
 import { post } from '@/utils/request';

@@ -8,7 +8,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import { APP_EXTERNAL_LINKS } from '@/global_constants';
-import ProducthuntHonor from '@/page_components/landing_page/ProducthuntHonor';
+import ProducthuntHonor from '@/page_components/LandingPage/ProducthuntHonor';
 import { APP_API } from '@/utils/api';
 import { sendLarkBotMessage } from '@/utils/larkBot';
 import { post } from '@/utils/request';

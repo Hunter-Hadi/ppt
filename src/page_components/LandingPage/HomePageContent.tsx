@@ -12,7 +12,7 @@ import {
   INSTALL_LINK,
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
 } from '@/global_constants';
-import ProducthuntHonor from '@/page_components/landing_page/ProducthuntHonor';
+import ProducthuntHonor from '@/page_components/LandingPage/ProducthuntHonor';
 /**
  * NOTE:
  * 修改这个组件时需要注意渲染后的 body 高度 (获取高度的方式可以访问当前项目的路由 /embed/introduction)

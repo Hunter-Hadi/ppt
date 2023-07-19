@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import useEffectOnce from '@/hooks/useEffectOnce';
-import HomePageContent from '@/page_components/landing_page/HomePageContent';
+import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 
 const EmbedIntroduction = () => {
   const [loaded, setLoaded] = useState(false);

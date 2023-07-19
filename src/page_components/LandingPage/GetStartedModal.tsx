@@ -6,7 +6,7 @@ import AppPaperCardLayout from '@/app_layout/AppPaperCardLayout';
 import CustomModal from '@/components/CustomModal';
 import EmailTextField from '@/components/EmailTextField';
 import { useGetStarted } from '@/features/user';
-import GoMailBoxModal from '@/page_components/landing_page/GoMailBoxModal';
+import GoMailBoxModal from '@/page_components/LandingPage/GoMailBoxModal';
 
 const GetStartedModal: FC<{
   show: boolean;

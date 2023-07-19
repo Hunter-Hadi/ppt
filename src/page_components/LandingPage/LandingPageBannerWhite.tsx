@@ -5,11 +5,10 @@ import { FC, useState } from 'react';
 import EmailTextField from '@/components/EmailTextField';
 import VideoPlayer from '@/components/VideoPlayer';
 import { useGetStarted } from '@/features/user';
-import GoMailBoxModal from '@/page_components/landing_page/GoMailBoxModal';
-import HeadingWords from '@/page_components/landing_page/HeadingWords';
+import GoMailBoxModal from '@/page_components/LandingPage/GoMailBoxModal';
 
-const LandingPageBanner: FC<{
-  title?: string | React.ReactNode;
+const LandingPageBannerWhite: FC<{
+  title?: string;
   textAlign?: string;
   withVideo?: boolean;
 }> = (props) => {
@@ -18,6 +17,7 @@ const LandingPageBanner: FC<{
   const [showModal, setShowModal] = useState(false);
   const [validate, setValidate] = useState(0);
   const { sendEmail, loading } = useGetStarted(inputValue);
+  const isMdScreen = useMediaQuery('(max-width:1280px)');
   const isSmScreen = useMediaQuery('(max-width:768px)');
 
   return (
@@ -40,12 +40,19 @@ const LandingPageBanner: FC<{
           xs: 2,
           md: 0,
         },
-        pb: {
-          md: 4,
-        },
       }}
     >
-      <Grid item xs={12} md={12} columnSpacing={3}>
+      <Grid
+        item
+        xs={12}
+        md={12}
+        columnSpacing={3}
+        sx={{
+          mt: {
+            lg: -6,
+          },
+        }}
+      >
         <Stack
           spacing={{
             xs: 2,
@@ -60,17 +67,12 @@ const LandingPageBanner: FC<{
             component={'h2'}
             sx={{
               fontSize: {
-                xs: 32,
-                sm: 36,
-                md: 48,
-                lg: 56,
+                xs: 36,
+                sm: 48,
+                md: 56,
               },
               fontWeight: 700,
               lineHeight: 1.14,
-              color: 'white',
-              mt: {
-                lg: -8,
-              },
             }}
           >
             <Box
@@ -82,15 +84,16 @@ const LandingPageBanner: FC<{
                   xs: '100%',
                   md: 'unset',
                 },
-                lineHeight: 1.3,
-                bgcolor: 'primary.main',
+                display: {
+                  xs: 'inline-flex',
+                  sm: 'unset',
+                },
               }}
             >
               {title}
             </Box>
             {textAlign === 'left' && (
               <>
-                <HeadingWords />
                 <Box
                   component={'span'}
                   sx={{
@@ -99,15 +102,18 @@ const LandingPageBanner: FC<{
                     zIndex: 1,
                     width: '100%',
                     display: 'inline-block',
-                    bgcolor: 'primary.main',
                   }}
                 >
-                  {`10X faster `}
+                  {`with `}
                   <Box
                     component={'span'}
                     sx={{
                       display: 'inline-block',
-                      backgroundPosition: '50% 50%',
+                      backgroundPosition: isSmScreen
+                        ? '50% 55%'
+                        : isMdScreen
+                        ? '50% 60%'
+                        : '50% 50%',
                       backgroundSize: '80%',
                       backgroundRepeat: 'no-repeat',
                       backgroundImage:
@@ -117,8 +123,13 @@ const LandingPageBanner: FC<{
                         md: '3.5rem',
                         lg: '5rem',
                       },
-                      px: {
-                        xs: '1.5rem',
+                      pl: {
+                        xs: '1.2rem',
+                        md: '2rem',
+                        lg: '3rem',
+                      },
+                      pr: {
+                        xs: '0rem',
                         md: '2rem',
                         lg: '3rem',
                       },
@@ -135,22 +146,38 @@ const LandingPageBanner: FC<{
                     }}
                   >
                     {' '}
-                    with AI
+                    pre-filled drafts
                   </Box>
+                </Box>
+                <Box
+                  component={'span'}
+                  sx={{
+                    position: 'relative',
+                    top: 16,
+                    pb: 2,
+                    zIndex: 1,
+                    width: {
+                      xs: '100%',
+                      md: 'unset',
+                    },
+                    display: 'inline-block',
+                  }}
+                >
+                  using AI
                 </Box>
               </>
             )}
           </Typography>
           {textAlign === 'left' && (
-            <Typography variant={'body1'} color={'#fff'} maxWidth={'sm'}>
-              EzMail is the AI-powered email drafting tool that pre-fills
-              responses as if they were written by you, enabling you to reply to
-              emails 10X faster.
+            <Typography variant={'body1'} color={'#000'} maxWidth={'sm'}>
+              EzMail.AI pre-fills personalized responses for you, enabling 10X
+              faster email replies on Gmail, especially for repetitive or
+              similar messages.
             </Typography>
           )}
           <Stack
             sx={{
-              justifyContent: textAlign === 'center' ? 'center' : 'flex-start',
+              justifyContent: textAlign === 'center' ? 'center' : 'center',
               alignItems: textAlign === 'center' ? 'center' : 'flex-start',
               flexDirection: {
                 xs: 'column',
@@ -160,6 +187,7 @@ const LandingPageBanner: FC<{
             }}
           >
             <EmailTextField
+              whiteMode={false}
               validate={validate}
               onEnter={async () => {
                 const emailRegex =
@@ -185,19 +213,10 @@ const LandingPageBanner: FC<{
               variant={'contained'}
               sx={{
                 lineHeight: 32,
-                height: 48,
+                height: 56,
                 width: {
-                  sm: 162,
+                  sm: 200,
                   xs: '100%',
-                },
-                bgcolor: 'white',
-                fontWeight: 700,
-                color: 'primary.main',
-                '&:hover': {
-                  bgcolor: '#ECF4FF',
-                },
-                '&.Mui-disabled': {
-                  bgcolor: '#ECF4FF',
                 },
               }}
             >
@@ -218,33 +237,20 @@ const LandingPageBanner: FC<{
           <Box
             position={'relative'}
             mx={'auto'}
+            boxSizing={'border-box'}
             width={{
-              lg: 800,
-              md: 600,
-              sm: 400,
+              sm: 720,
               xs: '100%',
             }}
             height={{
-              lg: 800,
-              md: 600,
-              sm: 400,
+              sm: 720,
               xs: '100vw',
             }}
             sx={{
+              borderRadius: 1,
               overflow: 'hidden',
             }}
           >
-            {/*// TODO*/}
-            <Box
-              sx={{
-                position: 'absolute',
-                top: 0,
-                right: 0,
-                width: '10px',
-                height: '100%',
-                zIndex: 1,
-              }}
-            />
             <VideoPlayer
               muted
               loop
@@ -263,4 +269,4 @@ const LandingPageBanner: FC<{
     </Grid>
   );
 };
-export default LandingPageBanner;
+export default LandingPageBannerWhite;
