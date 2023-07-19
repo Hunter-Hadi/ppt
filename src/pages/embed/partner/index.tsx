@@ -6,7 +6,7 @@ import useEffectOnce from '@/hooks/useEffectOnce';
 import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 
 // 用于外部嵌入的 overview 页面
-const EmbedOverview = () => {
+const EmbedPartner = () => {
   const [loaded, setLoaded] = useState(false);
   const contentRef = useRef<any>(null);
 
@@ -38,4 +38,4 @@ const EmbedOverview = () => {
   );
 };
 
-export default EmbedOverview;
+export default EmbedPartner;
