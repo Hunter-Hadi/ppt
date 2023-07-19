@@ -11,7 +11,6 @@ import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/global_constants';
 import useShareTrackerLink from '@/hooks/useShareTrackerLink';
 import ProducthuntHonor from '@/page_components/LandingPage/ProducthuntHonor';
-import { isInIframe } from '@/utils/utils';
 /**
  * NOTE:
  * 修改这个组件时需要注意渲染后的 body 高度 (获取高度的方式可以访问当前项目的路由 /embed/introduction)
@@ -174,10 +173,16 @@ const AIPowerPanel = () => {
 interface IProps {
   showLogo?: boolean;
 
+  iniFrame?: boolean;
+
   // 临时的参数，主要是为了在 每个板块下面都有一个 cta button
   annoyingButton?: boolean;
 }
-const HomePageContent: FC<IProps> = ({ showLogo = true, annoyingButton }) => {
+const HomePageContent: FC<IProps> = ({
+  showLogo = true,
+  annoyingButton,
+  iniFrame,
+}) => {
   const { extensionLink, maxaiWebLink } = useShareTrackerLink({
     queryRefEnable: true,
     pathnameRefEnable: false,
@@ -217,7 +222,7 @@ const HomePageContent: FC<IProps> = ({ showLogo = true, annoyingButton }) => {
         {showLogo && (
           <ProLink
             href={maxaiWebLink}
-            target={isInIframe() ? '_blank' : '_self'}
+            target={iniFrame ? '_blank' : '_self'}
             muiLinkProps={{ title: 'MaxAI.me' }}
           >
             <Stack direction={'row'} alignItems={'center'} gap={1}>
@@ -473,7 +478,7 @@ const HomePageContent: FC<IProps> = ({ showLogo = true, annoyingButton }) => {
           <Button
             variant='outlined'
             href='/prompts'
-            target={isInIframe() ? '_blank' : '_self'}
+            target={iniFrame ? '_blank' : '_self'}
             sx={{
               width: {
                 sm: 'max-content',

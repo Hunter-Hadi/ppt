@@ -32,7 +32,7 @@ const EmbedIntroduction = () => {
       }}
     >
       <AppDefaultSeoLayout />
-      <HomePageContent annoyingButton />
+      <HomePageContent annoyingButton iniFrame />
     </Box>
   );
 };

@@ -26,7 +26,7 @@ const EmbedIntroduction = () => {
   return (
     <Box ref={contentRef}>
       <AppDefaultSeoLayout />
-      <HomePageContent />
+      <HomePageContent iniFrame />
     </Box>
   );
 };
