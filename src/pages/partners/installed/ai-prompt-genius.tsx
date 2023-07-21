@@ -4,10 +4,11 @@ import React from 'react';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 import LandingPageEmbedBox from '@/page_components/LandingPage/LandingPageEmbedBox';
+import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
 const AIPromptGenius = () => {
   return (
-    <Box sx={{ bgcolor: '#fff' }}>
+    <Box sx={{ bgcolor: '#fff', position: 'relative' }}>
       <AppDefaultSeoLayout />
       <Stack
         height={336}
@@ -38,7 +39,25 @@ const AIPromptGenius = () => {
           to view the first part of the tutorial.
         </Typography>
       </Stack>
-      <LandingPageEmbedBox linkRef='aipromptgenius' />
+      <Box position='relative'>
+        <Box
+          sx={{
+            position: 'absolute',
+            top: -24,
+            left: '50%',
+            bgcolor: '#F4EBFB',
+            transform: 'translateX(-50%)',
+            borderRadius: 99,
+            px: 2,
+            py: 1,
+            whiteSpace: 'nowrap',
+          }}
+        >
+          <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
+        </Box>
+        <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef='aipromptgenius' />
+      </Box>
+      <FixedCtaButton />
     </Box>
   );
 };

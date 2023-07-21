@@ -7,8 +7,8 @@ const DEFAULT_APP_HEADER_TOPBAR = 'topbar';
 
 const useInstallChromeExtensionLink = (isTopbar = false) => {
   const { query, pathname, isReady } = useRouter();
-  const prefix = EXTENSION_SHARE_TRACKER_LINK;
-  const installChromeExtensionLink = useMemo(() => {
+
+  const ref = useMemo(() => {
     let defaultRef =
       (isTopbar ? DEFAULT_APP_HEADER_TOPBAR : '') +
       pathname.replace(/\//g, '_');
@@ -17,15 +17,14 @@ const useInstallChromeExtensionLink = (isTopbar = false) => {
       defaultRef = defaultRef.slice(1);
     }
 
-    if (pathname === '/partner-referral') {
-      return `${prefix}?ref=${query.ref || defaultRef}`;
-    } else if (pathname.startsWith('/prompts')) {
-      return `${prefix}?ref=${query.ref || defaultRef}`;
-    } else {
-      return `${prefix}?ref=${defaultRef}`;
-    }
-  }, [query.ref, pathname, isTopbar, prefix]);
+    return query.ref ?? defaultRef;
+  }, [query.ref, isTopbar, pathname]);
+
+  const installChromeExtensionLink = useMemo(() => {
+    return `${EXTENSION_SHARE_TRACKER_LINK}?ref=${ref}`;
+  }, [ref]);
   return {
+    ref,
     installChromeExtensionLink,
     loading: !isReady,
   };
