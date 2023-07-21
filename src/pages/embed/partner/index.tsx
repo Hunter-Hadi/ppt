@@ -1,4 +1,4 @@
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { useEffect, useRef, useState } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
@@ -33,6 +33,24 @@ const EmbedPartner = () => {
       }}
     >
       <AppDefaultSeoLayout />
+      <Box
+        sx={{
+          position: 'relative',
+          top: {
+            xs: 24,
+            sm: 42,
+          },
+          width: 'max-content',
+          mx: 'auto',
+          bgcolor: '#F4EBFB',
+          borderRadius: 99,
+          px: 2,
+          py: 1,
+          whiteSpace: 'nowrap',
+        }}
+      >
+        <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
+      </Box>
       <HomePageContent annoyingButton iniFrame />
     </Box>
   );
