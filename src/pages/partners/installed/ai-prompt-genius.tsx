@@ -39,6 +39,9 @@ const AIPromptGenius = () => {
         <Typography>
           To get started,{' '}
           <ProLink
+            muiLinkProps={{
+              rel: 'noopener nofollow',
+            }}
             href='https://docs.aipromptgenius.app/tutorial/01-create-edit-and-use-prompts/'
             underline='always'
             target={'_blank'}

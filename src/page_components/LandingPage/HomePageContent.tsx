@@ -46,16 +46,16 @@ const SocialProof = () => {
 const AIPowerPanel = () => {
   const providersList = [
     {
+      icon: 'ClaudeLogo',
+      text: 'Claude',
+    },
+    {
       icon: 'BardLogo',
       text: 'Bard',
     },
     {
       icon: 'BingLogo',
       text: 'Bing AI',
-    },
-    {
-      icon: 'ClaudeLogo',
-      text: 'Claude',
     },
     {
       icon: 'ChatGPTLogoOutLine',
