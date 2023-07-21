@@ -6,7 +6,7 @@ interface IAppDefaultSeoProps extends DefaultSeoProps {
   socialImage?: string;
 }
 
-const DEFAULT_TITLE = 'MaxAI.me: Use AI Anywhere (ChatGPT, Bard, Bing, Claude)';
+const DEFAULT_TITLE = 'MaxAI.me: Use AI Anywhere (ChatGPT, Claude, Bard, Bing)';
 const DEFAULT_DESCRIPTION =
   'The fastest way to use AI anywhere online. One click to compose, improve writing, summarize, explain, fix spelling & grammar, change tone, translate, or reply to any text.';
 
