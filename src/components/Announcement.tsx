@@ -4,6 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { atom, useRecoilState } from 'recoil';
 
@@ -12,14 +13,19 @@ import useEffectOnce from '@/hooks/useEffectOnce';
 
 const TWEET_URL = 'https://twitter.com/MaxAI_HQ/status/1673665954062954500';
 
+const NOT_HEADER_PATH = ['/partners/installed'];
+
 const AnnouncementShowAtom = atom({
   key: 'AnnouncementShowAtom',
   default: true,
 });
 
 const Announcement = () => {
+  const { pathname } = useRouter();
   const [loaded, setLoaded] = useState(false);
   const [show, setShow] = useRecoilState(AnnouncementShowAtom);
+
+  const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
 
   const updateFlag = async (flag: boolean) => {
     setShow(flag);
@@ -30,6 +36,10 @@ const Announcement = () => {
   });
 
   if (!loaded || !show) return null;
+
+  if (isNotHeader) {
+    return null;
+  }
 
   return (
     <Stack

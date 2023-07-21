@@ -10,7 +10,13 @@ import React, { FC, useMemo } from 'react';
 
 import FooterList from '@/components/Footerlist';
 
-const footerBlackList = ['/terms', '/privacy', '/404', '/zmo'];
+const footerBlackList = [
+  '/terms',
+  '/privacy',
+  '/404',
+  '/zmo',
+  /\/partners\/installed/,
+];
 
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 

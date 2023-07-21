@@ -16,7 +16,7 @@ import ProLink from '@/components/ProLink';
 import { useInstallChromeExtensionLink } from '@/hooks';
 
 // const NOT_CTA_BUTTON_PATH = ['/chrome-extension'];
-const NOT_HEADER_PATH = ['/zmo'];
+const NOT_HEADER_PATH = ['/zmo', '/partners/installed'];
 
 const AppHeader: FC = () => {
   const { installChromeExtensionLink } = useInstallChromeExtensionLink(true);
