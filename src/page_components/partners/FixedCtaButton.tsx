@@ -4,13 +4,18 @@ import React, { FC } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
 import ProLink from '@/components/ProLink';
-import { MAXAI_WWW_SHARE_TRACKER_LINK } from '@/global_constants';
+import {
+  EXTENSION_SHARE_TRACKER_LINK,
+  MAXAI_WWW_SHARE_TRACKER_LINK,
+} from '@/global_constants';
 import { useInstallChromeExtensionLink } from '@/hooks';
 
-interface IProps {}
+interface IProps {
+  propRef?: string;
+}
 
-const FixedCtaButton: FC<IProps> = () => {
-  const { installChromeExtensionLink, ref } = useInstallChromeExtensionLink();
+const FixedCtaButton: FC<IProps> = ({ propRef }) => {
+  const { ref: pathnameRef } = useInstallChromeExtensionLink();
 
   return (
     <Stack
@@ -29,7 +34,10 @@ const FixedCtaButton: FC<IProps> = () => {
         zIndex: 1201,
       }}
     >
-      <ProLink target={'_blank'} href={installChromeExtensionLink}>
+      <ProLink
+        target={'_blank'}
+        href={`${EXTENSION_SHARE_TRACKER_LINK}?ref=${propRef ?? pathnameRef}`}
+      >
         <Button
           startIcon={<CustomIcon icon={'Chrome'} />}
           variant={'contained'}
@@ -44,7 +52,7 @@ const FixedCtaButton: FC<IProps> = () => {
         </Button>
       </ProLink>
       <ProLink
-        href={`${MAXAI_WWW_SHARE_TRACKER_LINK}?ref=${ref}`}
+        href={`${MAXAI_WWW_SHARE_TRACKER_LINK}?ref=${propRef ?? pathnameRef}`}
         target='_blank'
       >
         <Typography

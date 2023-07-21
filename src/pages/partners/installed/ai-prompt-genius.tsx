@@ -57,7 +57,7 @@ const AIPromptGenius = () => {
         </Box>
         <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef='aipromptgenius' />
       </Box>
-      <FixedCtaButton />
+      <FixedCtaButton propRef='aipromptgenius' />
     </Box>
   );
 };
