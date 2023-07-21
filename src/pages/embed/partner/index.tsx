@@ -30,6 +30,10 @@ const EmbedPartner = () => {
       sx={{
         position: 'relative',
         pb: 10,
+        px: {
+          xs: 2,
+          sm: 0,
+        },
       }}
     >
       <AppDefaultSeoLayout />
