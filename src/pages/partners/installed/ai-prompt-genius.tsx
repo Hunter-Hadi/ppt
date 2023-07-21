@@ -8,7 +8,12 @@ import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
 const AIPromptGenius = () => {
   return (
-    <Box sx={{ bgcolor: '#fff', position: 'relative' }}>
+    <Box
+      sx={{
+        bgcolor: '#fff',
+        position: 'relative',
+      }}
+    >
       <AppDefaultSeoLayout />
       <Stack
         height={336}
@@ -16,6 +21,10 @@ const AIPromptGenius = () => {
         alignItems={'center'}
         justifyContent={'center'}
         spacing={2}
+        px={{
+          xs: 2,
+          sm: 0,
+        }}
       >
         <Typography
           component='h2'
