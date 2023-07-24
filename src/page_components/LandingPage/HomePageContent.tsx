@@ -253,11 +253,11 @@ const HomePageContent: FC<IProps> = ({
         )}
         <Typography
           variant={'custom'}
-          fontSize={56}
+          fontSize={64}
           fontWeight={900}
           textAlign='center'
         >
-          The Fastest Way To Use AI Anywhere Online
+          Use AI Anywhere Online
         </Typography>
         <AIPowerPanel />
         <SocialProof />
