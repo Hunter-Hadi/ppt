@@ -90,7 +90,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                     link: '/',
                   },
                   {
-                    label: 'One-Click ChatGPT Prompts',
+                    label: 'One-Click Prompts',
                     icon: <CustomIcon icon='PromptLogo' />,
                     link: '/prompts',
                   },

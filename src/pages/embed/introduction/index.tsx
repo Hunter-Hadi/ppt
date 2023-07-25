@@ -12,8 +12,6 @@ const EmbedIntroduction = () => {
   const [loaded, setLoaded] = useState(false);
   const contentRef = useRef<any>(null);
 
-  console.log(`query`, query);
-
   const showLogo = useMemo(() => {
     if (query.logo) {
       return query.logo === '0' ? false : true;
