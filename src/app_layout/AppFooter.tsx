@@ -18,8 +18,6 @@ const footerBlackList = [
   /\/partners\/installed/,
 ];
 
-import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
-
 import CustomIcon from '@/components/CustomIcon';
 import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
 interface IProps {
@@ -92,8 +90,8 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                     link: '/',
                   },
                   {
-                    label: 'One-Click ChatGPT Prompts',
-                    icon: <ChatOutlinedIcon />,
+                    label: 'One-Click Prompts',
+                    icon: <CustomIcon icon='PromptLogo' />,
                     link: '/prompts',
                   },
                 ]}
