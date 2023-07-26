@@ -1,8 +1,7 @@
 import { Button, ButtonProps, SxProps } from '@mui/material';
-import React, { FC, HTMLAttributeAnchorTarget } from 'react';
+import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
-import ProLink from '@/components/ProLink';
 import useShareTrackerLink, {
   IUseShareTrackerLinkProps,
 } from '@/hooks/useShareTrackerLink';
@@ -14,6 +13,7 @@ interface IProps {
   variant?: ButtonProps['variant'];
   showAgent?: 'Edge' | 'Chrome';
   trackerLinkProps?: IUseShareTrackerLinkProps;
+  iconSize?: number;
 }
 
 const CTAInstallButton: FC<IProps> = ({
@@ -22,6 +22,7 @@ const CTAInstallButton: FC<IProps> = ({
   variant = 'outlined',
   showAgent,
   trackerLinkProps = {},
+  iconSize = 36,
 }) => {
   const { extensionLink, links, ref } = useShareTrackerLink({
     ...trackerLinkProps,
@@ -34,36 +35,45 @@ const CTAInstallButton: FC<IProps> = ({
   const label =
     agent === 'Edge' ? 'Add to Edge for free' : 'Add to Chrome for free';
 
+  const href = useMemo(() => {
+    if (agent === 'Edge') {
+      return (
+        links[agent] + `?ref=${agent === 'Edge' ? '[maxai-edge]_' : ''}${ref}`
+      );
+    }
+
+    return extensionLink;
+  }, [extensionLink, agent, links, ref]);
+
+  const sxCache = useMemo(() => {
+    return {
+      // width: { xs: '100%', sm: 300 },
+      height: 64,
+      fontSize: 20,
+      fontWeight: 600,
+      px: 3,
+      py: 1.5,
+      ...sx,
+    };
+  }, [sx]);
+
   return (
-    <ProLink
+    <Button
+      href={href}
       target={target}
-      href={
-        showAgent === 'Edge' ? links[showAgent] + `?ref=${ref}` : extensionLink
+      startIcon={
+        <CustomIcon
+          icon={iconName}
+          sx={{
+            fontSize: `${iconSize}px !important`,
+          }}
+        />
       }
+      variant={variant}
+      sx={sxCache}
     >
-      <Button
-        startIcon={
-          <CustomIcon
-            icon={iconName}
-            sx={{
-              fontSize: '36px !important',
-            }}
-          />
-        }
-        variant={variant}
-        sx={{
-          // width: { xs: '100%', sm: 300 },
-          height: 64,
-          fontSize: 20,
-          fontWeight: 600,
-          px: 3,
-          py: 1.5,
-          ...sx,
-        }}
-      >
-        {label}
-      </Button>
-    </ProLink>
+      {label}
+    </Button>
   );
 };
 

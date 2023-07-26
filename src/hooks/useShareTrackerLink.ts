@@ -51,15 +51,6 @@ const useShareTrackerLink = (props?: IUseShareTrackerLinkProps) => {
     }
   }, [queryRefEnable, query]);
 
-  // prefix edge ref
-  useEffect(() => {
-    if (agent === 'Edge') {
-      if (!ref.includes('[maxai-edge]')) {
-        setRef(`[maxai-edge]${ref}`);
-      }
-    }
-  }, [agent, ref]);
-
   const extensionLink = useMemo(() => {
     if (agent && links[agent]) {
       return `${links[agent]}?ref=${ref}`;
@@ -75,7 +66,6 @@ const useShareTrackerLink = (props?: IUseShareTrackerLinkProps) => {
 
   return {
     ref,
-    originalRef: ref.replace(/\[maxai-edge\]/g, ''),
     extensionLink,
     maxaiWebLink,
     links,

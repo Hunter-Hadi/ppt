@@ -189,7 +189,7 @@ const HomePageContent: FC<IProps> = ({
   annoyingButton,
   iniFrame,
 }) => {
-  const { extensionLink, maxaiWebLink, originalRef } = useShareTrackerLink({
+  const { extensionLink, maxaiWebLink, ref } = useShareTrackerLink({
     queryRefEnable: true,
     pathnameRefEnable: false,
     defaultRef: 'homepage',
@@ -255,7 +255,15 @@ const HomePageContent: FC<IProps> = ({
         <AIPowerPanel />
         <SocialProof />
 
-        <Stack direction='row' spacing={2}>
+        <Stack
+          direction={{
+            xs: 'column',
+            sm: 'row',
+          }}
+          spacing={2}
+          alignItems={'center'}
+          justifyContent={'center'}
+        >
           <CTAInstallButton
             showAgent='Chrome'
             variant={agent === 'Chrome' ? 'contained' : 'outlined'}
@@ -272,6 +280,12 @@ const HomePageContent: FC<IProps> = ({
               defaultRef: 'homepage',
               queryRefEnable: true,
               pathnameRefEnable: false,
+            }}
+            sx={{
+              width: {
+                xs: '100%',
+                sm: 'auto',
+              },
             }}
           />
         </Stack>
@@ -501,7 +515,7 @@ const HomePageContent: FC<IProps> = ({
           </Stack>
           <Button
             variant='outlined'
-            href={`${MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK}?ref=${originalRef}`}
+            href={`${MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK}?ref=${ref}`}
             target={iniFrame ? '_blank' : '_self'}
             sx={{
               width: {
@@ -519,6 +533,25 @@ const HomePageContent: FC<IProps> = ({
           </Button>
         </Stack>
       </Stack>
+
+      <Box textAlign='center' pt={10} pb={12}>
+        <CTAInstallButton
+          variant={'contained'}
+          trackerLinkProps={{
+            queryRefEnable: true,
+            pathnameRefEnable: false,
+            defaultRef: 'homepage',
+          }}
+          iconSize={80}
+          sx={{
+            width: { xs: '100%', sm: 800 },
+            height: { xs: '100%', sm: 128 },
+            flexWrap: 'wrap',
+
+            fontSize: 48,
+          }}
+        />
+      </Box>
     </Stack>
   );
 };
