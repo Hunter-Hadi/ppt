@@ -1,7 +1,6 @@
 import {
   AppBar,
   Box,
-  Button,
   Divider,
   Stack,
   Toolbar,
@@ -10,17 +9,14 @@ import {
 import { useRouter } from 'next/router';
 import React, { FC } from 'react';
 
-import CustomIcon from '@/components/CustomIcon';
 import { CustomImageBox } from '@/components/CustomImage';
 import ProLink from '@/components/ProLink';
-import { useInstallChromeExtensionLink } from '@/hooks';
+import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 // const NOT_CTA_BUTTON_PATH = ['/chrome-extension'];
 const NOT_HEADER_PATH = ['/zmo', '/partners/installed'];
 
 const AppHeader: FC = () => {
-  const { installChromeExtensionLink } = useInstallChromeExtensionLink(true);
-
   const { pathname } = useRouter();
 
   const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
@@ -84,20 +80,20 @@ const AppHeader: FC = () => {
           </ProLink>
         </Box>
         <Stack direction={'row'}>
-          <ProLink target={'_blank'} href={installChromeExtensionLink}>
-            <Button
-              startIcon={<CustomIcon icon={'Chrome'} />}
-              variant={'contained'}
-              sx={{
-                width: 300,
-                height: { xs: 48, sm: 56 },
-                fontSize: 18,
-                fontWeight: 600,
-              }}
-            >
-              {`Add to Chrome for free`}
-            </Button>
-          </ProLink>
+          <CTAInstallButton
+            sx={{
+              width: 300,
+              height: { xs: 48, sm: 56 },
+              fontSize: 18,
+              fontWeight: 600,
+            }}
+            trackerLinkProps={{
+              queryRefEnable: false,
+              pathnameRefEnable: true,
+              pathnameRefPrefix: 'topbar',
+            }}
+            variant={'contained'}
+          />
         </Stack>
       </Toolbar>
       <Divider />

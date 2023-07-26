@@ -15,9 +15,11 @@ export const APP_EXTERNAL_LINKS = {
   YOUTUBE: 'https://www.youtube.com/channel/UC26w7hjL5_FPeMUt2Dz_uDg',
   PINTEREST: 'https://www.pinterest.com/SimplyTrendsOfficial/',
   TIKTOK: 'https://www.tiktok.com/@simplytrendsofficial',
-  // TODO
   CHROME_EXTENSION:
     'https://chrome.google.com/webstore/detail/use-chatgpt-gpt-4-chatgpt/mhnlakgilnojmhinhkckjpncpbhabphi',
+
+  EDGE_EXTENSION:
+    'https://microsoftedge.microsoft.com/addons/detail/maxaime-use-chatgpt-ai-/ngphehpfehdmjellohmlojkplilekadg',
 
   TWITTER_FOLLOW_UP_LINK:
     'https://twitter.com/intent/follow?screen_name=MaxAI_HQ',
@@ -57,6 +59,8 @@ export const QUOTA_TEXT = 'Free AI without a daily limit';
 
 export const EXTENSION_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/maxai-ext';
+export const EXTENSION_EDGE_SHARE_TRACKER_LINK =
+  'https://api.maxai.me/app/maxai-edge';
 export const MAXAI_WWW_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/maxai-web';
 export const MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK =

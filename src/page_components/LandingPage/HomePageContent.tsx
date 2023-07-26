@@ -14,6 +14,9 @@ import {
 } from '@/global_constants';
 import useShareTrackerLink from '@/hooks/useShareTrackerLink';
 import ProducthuntHonor from '@/page_components/LandingPage/ProducthuntHonor';
+import { getBrowserAgent } from '@/utils/utils';
+
+import CTAInstallButton from '../CTAInstallButton';
 /**
  * NOTE:
  * 修改这个组件时需要注意渲染后的 body 高度 (获取高度的方式可以访问当前项目的路由 /embed/introduction)
@@ -186,34 +189,24 @@ const HomePageContent: FC<IProps> = ({
   annoyingButton,
   iniFrame,
 }) => {
-  const { extensionLink, maxaiWebLink, ref } = useShareTrackerLink({
+  const { extensionLink, maxaiWebLink, originalRef } = useShareTrackerLink({
     queryRefEnable: true,
     pathnameRefEnable: false,
     defaultRef: 'homepage',
   });
 
+  const agent = getBrowserAgent();
+
   const CtaBtn = () => (
     <Box textAlign='center' pt={2}>
-      <ProLink
-        target={'_blank'}
-        href={extensionLink}
-        sx={{
-          width: '100%',
+      <CTAInstallButton
+        trackerLinkProps={{
+          queryRefEnable: true,
+          pathnameRefEnable: false,
+          defaultRef: 'homepage',
         }}
-      >
-        <Button
-          startIcon={<CustomIcon icon={'Chrome'} />}
-          variant={'contained'}
-          sx={{
-            width: { xs: '100%' },
-            height: 64,
-            fontSize: 18,
-            fontWeight: 600,
-          }}
-        >
-          {`Add to Chrome for free`}
-        </Button>
-      </ProLink>
+        variant={'contained'}
+      />
     </Box>
   );
 
@@ -229,7 +222,7 @@ const HomePageContent: FC<IProps> = ({
       >
         <ProducthuntHonor noDay sx={{ mb: { xs: 4, sm: 0 } }} />
       </Box>
-      <Stack alignItems='center' spacing={4} pb={4}>
+      <Stack alignItems='center' spacing={4} pt={2} pb={14}>
         {showLogo && (
           <ProLink
             href={maxaiWebLink}
@@ -261,20 +254,27 @@ const HomePageContent: FC<IProps> = ({
         </Typography>
         <AIPowerPanel />
         <SocialProof />
-        <ProLink target={'_blank'} href={extensionLink}>
-          <Button
-            startIcon={<CustomIcon icon={'Chrome'} />}
-            variant={'contained'}
-            sx={{
-              width: { xs: '100%', sm: 300 },
-              height: 64,
-              fontSize: 18,
-              fontWeight: 600,
+
+        <Stack direction='row' spacing={2}>
+          <CTAInstallButton
+            showAgent='Chrome'
+            variant={agent === 'Chrome' ? 'contained' : 'outlined'}
+            trackerLinkProps={{
+              defaultRef: 'homepage',
+              queryRefEnable: true,
+              pathnameRefEnable: false,
             }}
-          >
-            {`Add to Chrome for free`}
-          </Button>
-        </ProLink>
+          />
+          <CTAInstallButton
+            showAgent='Edge'
+            variant={agent === 'Edge' ? 'contained' : 'outlined'}
+            trackerLinkProps={{
+              defaultRef: 'homepage',
+              queryRefEnable: true,
+              pathnameRefEnable: false,
+            }}
+          />
+        </Stack>
       </Stack>
 
       <YoutubePlayerBox
@@ -501,7 +501,7 @@ const HomePageContent: FC<IProps> = ({
           </Stack>
           <Button
             variant='outlined'
-            href={`${MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK}?ref=${ref}`}
+            href={`${MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK}?ref=${originalRef}`}
             target={iniFrame ? '_blank' : '_self'}
             sx={{
               width: {
