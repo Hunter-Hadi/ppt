@@ -350,28 +350,28 @@ export const isInIframe = () => {
   }
 };
 
-export const getBrowserAgent = () => {
-  try {
-    if (typeof window === 'undefined') return 'Chrome';
+// export const getBrowserAgent = () => {
+//   try {
+//     if (typeof window === 'undefined') return 'Chrome';
 
-    // edge
-    const isEdge =
-      window.navigator.userAgent.indexOf('Edge') > -1 ||
-      window.navigator.userAgent.indexOf('Edg') !== -1;
+//     // edge
+//     const isEdge =
+//       window.navigator.userAgent.indexOf('Edge') > -1 ||
+//       window.navigator.userAgent.indexOf('Edg') !== -1;
 
-    if (isEdge) {
-      return 'Edge';
-    }
+//     if (isEdge) {
+//       return 'Edge';
+//     }
 
-    // firefox
-    const isFirefox = window.navigator.userAgent.indexOf('Firefox') > -1;
-    if (isFirefox) {
-      return 'Firefox';
-    }
+//     // firefox
+//     const isFirefox = window.navigator.userAgent.indexOf('Firefox') > -1;
+//     if (isFirefox) {
+//       return 'Firefox';
+//     }
 
-    // default Chrome
-    return 'Chrome';
-  } catch (error) {
-    return 'Chrome';
-  }
-};
+//     // default Chrome
+//     return 'Chrome';
+//   } catch (error) {
+//     return 'Chrome';
+//   }
+// };

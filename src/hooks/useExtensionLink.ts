@@ -5,9 +5,8 @@ import {
   EXTENSION_EDGE_SHARE_TRACKER_LINK,
   EXTENSION_SHARE_TRACKER_LINK,
 } from '@/global_constants';
-import { getBrowserAgent } from '@/utils/utils';
 
-import useEffectOnce from './useEffectOnce';
+import useBrowserAgent from './useBrowserAgent';
 
 const useExtensionLink = (isTrackLink = true) => {
   const chromeLink = isTrackLink
@@ -17,7 +16,7 @@ const useExtensionLink = (isTrackLink = true) => {
     ? EXTENSION_EDGE_SHARE_TRACKER_LINK
     : APP_EXTERNAL_LINKS.EDGE_EXTENSION;
   const [extensionLink, setExtensionLink] = useState(chromeLink);
-  const [agent, setAgent] = useState<string>('Chrome');
+  const { browserAgent: agent } = useBrowserAgent();
 
   const links = useMemo(
     () => ({
@@ -26,11 +25,6 @@ const useExtensionLink = (isTrackLink = true) => {
     }),
     [edgeLInk, chromeLink],
   );
-
-  useEffectOnce(() => {
-    const agent = getBrowserAgent();
-    setAgent(agent);
-  });
 
   useEffect(() => {
     switch (agent) {

@@ -12,9 +12,9 @@ import {
   MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK,
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
 } from '@/global_constants';
+import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink from '@/hooks/useShareTrackerLink';
 import ProducthuntHonor from '@/page_components/LandingPage/ProducthuntHonor';
-import { getBrowserAgent } from '@/utils/utils';
 
 import CTAInstallButton from '../CTAInstallButton';
 /**
@@ -195,7 +195,7 @@ const HomePageContent: FC<IProps> = ({
     defaultRef: 'homepage',
   });
 
-  const agent = getBrowserAgent();
+  const { browserAgent: agent } = useBrowserAgent();
 
   const CtaBtn = () => (
     <Box textAlign='center' pt={2}>

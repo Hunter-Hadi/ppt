@@ -1910,11 +1910,7 @@ const ChromeColor: FC<SvgIconProps> = (props) => {
 const EdgeColor: FC<SvgIconProps> = (props) => {
   return (
     <SvgIcon viewBox='0 0 20 20' sx={props.sx}>
-      <svg
-        xmlns='http://www.w3.org/2000/svg'
-        viewBox='0 0 48 48'
-        fill='none'
-      >
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' fill='none'>
         <path
           d='M40.8701 34.2064C40.3089 34.4999 39.7302 34.7585 39.1372 34.9808C37.2497 35.687 35.2502 36.0468 33.2349 36.0429C25.4551 36.0429 18.6781 30.6914 18.6781 23.824C18.6881 22.9029 18.9437 22.0012 19.4186 21.2119C19.8934 20.4226 20.5703 19.7743 21.3794 19.334C14.3427 19.6299 12.5342 26.9626 12.5342 31.2586C12.5342 43.4051 23.7288 44.6365 26.1407 44.6365C27.4411 44.6365 29.4025 44.2584 30.5797 43.8868L30.7951 43.8145C35.325 42.2485 39.1867 39.1869 41.7447 35.1337C41.8231 35.0103 41.8581 34.8642 41.8441 34.7187C41.8302 34.5731 41.7682 34.4364 41.6679 34.33C41.5676 34.2237 41.4347 34.1538 41.2902 34.1314C41.1457 34.109 40.9979 34.1354 40.8701 34.2064Z'
           fill='url(#paint0_linear_5830_54282)'
@@ -1950,8 +1946,8 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
             y2='31.9885'
             gradientUnits='userSpaceOnUse'
           >
-            <stop stop-color='#0C59A4' />
-            <stop offset='1' stop-color='#114A8B' />
+            <stop stopColor='#0C59A4' />
+            <stop offset='1' stopColor='#114A8B' />
           </linearGradient>
           <radialGradient
             id='paint1_radial_5830_54282'
@@ -1961,8 +1957,8 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
             gradientUnits='userSpaceOnUse'
             gradientTransform='translate(28.7285 32.2196) scale(15.6813 14.8973)'
           >
-            <stop offset='0.72' stop-opacity='0' />
-            <stop offset='0.95' stop-opacity='0.53' />
+            <stop offset='0.72' stopOpacity='0' />
+            <stop offset='0.95' stopOpacity='0.53' />
             <stop offset='1' />
           </radialGradient>
           <linearGradient
@@ -1973,10 +1969,10 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
             y2='39.2175'
             gradientUnits='userSpaceOnUse'
           >
-            <stop stop-color='#1B9DE2' />
-            <stop offset='0.16' stop-color='#1595DF' />
-            <stop offset='0.67' stop-color='#0680D7' />
-            <stop offset='1' stop-color='#0078D4' />
+            <stop stopColor='#1B9DE2' />
+            <stop offset='0.16' stopColor='#1595DF' />
+            <stop offset='0.67' stopColor='#0680D7' />
+            <stop offset='1' stopColor='#0078D4' />
           </linearGradient>
           <radialGradient
             id='paint3_radial_5830_54282'
@@ -1986,8 +1982,8 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
             gradientUnits='userSpaceOnUse'
             gradientTransform='translate(14.4866 35.5985) rotate(-81.3844) scale(23.5805 19.0507)'
           >
-            <stop offset='0.76' stop-opacity='0' />
-            <stop offset='0.95' stop-opacity='0.5' />
+            <stop offset='0.76' stopOpacity='0' />
+            <stop offset='0.95' stopOpacity='0.5' />
             <stop offset='1' />
           </radialGradient>
           <radialGradient
@@ -1998,11 +1994,11 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
             gradientUnits='userSpaceOnUse'
             gradientTransform='translate(7.13191 10.6691) rotate(92.2906) scale(33.3079 70.939)'
           >
-            <stop stop-color='#35C1F1' />
-            <stop offset='0.11' stop-color='#34C1ED' />
-            <stop offset='0.23' stop-color='#2FC2DF' />
-            <stop offset='0.31' stop-color='#2BC3D2' />
-            <stop offset='0.67' stop-color='#36C752' />
+            <stop stopColor='#35C1F1' />
+            <stop offset='0.11' stopColor='#34C1ED' />
+            <stop offset='0.23' stopColor='#2FC2DF' />
+            <stop offset='0.31' stopColor='#2BC3D2' />
+            <stop offset='0.67' stopColor='#36C752' />
           </radialGradient>
           <radialGradient
             id='paint5_radial_5830_54282'
@@ -2012,8 +2008,8 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
             gradientUnits='userSpaceOnUse'
             gradientTransform='translate(42.3499 15.6061) rotate(73.7398) scale(16.0036 13.0141)'
           >
-            <stop stop-color='#66EB6E' />
-            <stop offset='1' stop-color='#66EB6E' stop-opacity='0' />
+            <stop stopColor='#66EB6E' />
+            <stop offset='1' stopColor='#66EB6E' stopOpacity='0' />
           </radialGradient>
         </defs>
       </svg>

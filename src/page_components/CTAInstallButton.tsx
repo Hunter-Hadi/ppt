@@ -2,10 +2,10 @@ import { Button, ButtonProps, SxProps } from '@mui/material';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
+import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink, {
   IUseShareTrackerLinkProps,
 } from '@/hooks/useShareTrackerLink';
-import { getBrowserAgent } from '@/utils/utils';
 
 interface IProps {
   sx?: SxProps;
@@ -28,7 +28,9 @@ const CTAInstallButton: FC<IProps> = ({
     ...trackerLinkProps,
     agent: showAgent,
   });
-  const agent = showAgent ?? getBrowserAgent();
+  const { browserAgent } = useBrowserAgent();
+
+  const agent = showAgent ?? browserAgent;
 
   const iconName = agent === 'Edge' ? 'EdgeColor' : 'ChromeColor';
 
