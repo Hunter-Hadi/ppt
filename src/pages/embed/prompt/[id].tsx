@@ -195,7 +195,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       seo: {
         title: 'Prompt | MaxAI.me',
         description:
-          'Easy to MaxAI.me prompt templates curated by prompt engineering experts.',
+          'Complete your everyday tasks with Prompt Management and One-Click Prompts in minutes that used to take hours.',
       },
       updatedAt: Date.now(),
     },
