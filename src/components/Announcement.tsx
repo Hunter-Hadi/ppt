@@ -58,7 +58,7 @@ const Announcement = () => {
         }}
         alignItems='center'
         justifyContent='center'
-        maxWidth={400}
+        maxWidth={402}
         mx={'auto'}
       >
         <Link
