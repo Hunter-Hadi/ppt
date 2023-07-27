@@ -1,14 +1,12 @@
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
-import { Button, Stack, Typography } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
 
-import CustomIcon from '@/components/CustomIcon';
 import ProLink from '@/components/ProLink';
-import {
-  EXTENSION_SHARE_TRACKER_LINK,
-  MAXAI_WWW_SHARE_TRACKER_LINK,
-} from '@/global_constants';
+import { MAXAI_WWW_SHARE_TRACKER_LINK } from '@/global_constants';
 import { useInstallChromeExtensionLink } from '@/hooks';
+
+import CTAInstallButton from '../CTAInstallButton';
 
 interface IProps {
   propRef?: string;
@@ -34,23 +32,20 @@ const FixedCtaButton: FC<IProps> = ({ propRef }) => {
         zIndex: 1201,
       }}
     >
-      <ProLink
-        target={'_blank'}
-        href={`${EXTENSION_SHARE_TRACKER_LINK}?ref=${propRef ?? pathnameRef}`}
-      >
-        <Button
-          startIcon={<CustomIcon icon={'Chrome'} />}
-          variant={'contained'}
-          sx={{
-            width: { xs: '100%', sm: 354 },
-            height: 56,
-            fontSize: 18,
-            fontWeight: 600,
-          }}
-        >
-          {`Install MaxAI.me for free`}
-        </Button>
-      </ProLink>
+      <CTAInstallButton
+        variant={'contained'}
+        sx={{
+          width: { xs: '100%', sm: 354 },
+          height: 56,
+          fontSize: 18,
+          fontWeight: 600,
+        }}
+        trackerLinkProps={{
+          queryRefEnable: false,
+          pathnameRefEnable: false,
+          defaultRef: propRef,
+        }}
+      />
       <ProLink
         href={`${MAXAI_WWW_SHARE_TRACKER_LINK}?ref=${propRef ?? pathnameRef}`}
         target='_blank'
