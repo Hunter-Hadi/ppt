@@ -82,7 +82,7 @@ const AppHeader: FC = () => {
         <Stack direction={'row'}>
           <CTAInstallButton
             sx={{
-              width: 300,
+              width: 'max-content',
               height: { xs: 48, sm: 56 },
               fontSize: 18,
               fontWeight: 600,

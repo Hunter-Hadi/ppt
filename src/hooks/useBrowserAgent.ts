@@ -22,11 +22,11 @@ const useBrowserAgent = () => {
       }
 
       // firefox
-      const isFirefox = window.navigator.userAgent.indexOf('Firefox') > -1;
-      if (isFirefox) {
-        setBrowserAgent('Firefox');
-        return;
-      }
+      // const isFirefox = window.navigator.userAgent.indexOf('Firefox') > -1;
+      // if (isFirefox) {
+      //   setBrowserAgent('Firefox');
+      //   return;
+      // }
 
       // default Chrome
       setBrowserAgent('Chrome');
