@@ -19,7 +19,7 @@ const PromptsPage = () => {
       <AppDefaultSeoLayout
         title='Prompts | MaxAI.me'
         description={
-          'Easy to MaxAI.me prompt templates curated by prompt engineering experts.'
+          'Complete your everyday tasks with Prompt Management and One-Click Prompts in minutes that used to take hours.'
         }
         socialImage={'https://www.maxai.me/prompts-social.png'}
       />
