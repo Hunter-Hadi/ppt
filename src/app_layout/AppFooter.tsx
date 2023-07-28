@@ -90,6 +90,11 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                     link: '/',
                   },
                   {
+                    label: 'MaxAI for Edge',
+                    icon: <CustomIcon icon='Edge' />,
+                    link: `/`,
+                  },
+                  {
                     label: 'One-Click Prompts',
                     icon: <CustomIcon icon='PromptLogo' />,
                     link: '/prompts',

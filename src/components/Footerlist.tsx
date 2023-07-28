@@ -31,7 +31,7 @@ const FooterList: FC<{
           >
             <Stack
               direction={'row'}
-              spacing={0.5}
+              spacing={1}
               component='span'
               alignItems='center'
               key={link}
