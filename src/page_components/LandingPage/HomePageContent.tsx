@@ -324,7 +324,7 @@ const HomePageContent: FC<IProps> = ({
       </Typography>
       <ResponsiveImage
         width={1600}
-        height={1020}
+        height={1120}
         src={'/assets/chrome-extension/2.png'}
         alt={'Compose with AI anywhere'}
       />
@@ -342,7 +342,7 @@ const HomePageContent: FC<IProps> = ({
       </Typography>
       <ResponsiveImage
         width={1600}
-        height={784}
+        height={1120}
         src={'/assets/chrome-extension/3.png'}
         alt={'Write better with confidence'}
       />
@@ -359,7 +359,7 @@ const HomePageContent: FC<IProps> = ({
       </Typography>
       <ResponsiveImage
         width={1600}
-        height={836}
+        height={1120}
         src={'/assets/chrome-extension/4.png'}
         alt={'Read easier and faster'}
       />
@@ -376,7 +376,7 @@ const HomePageContent: FC<IProps> = ({
       </Typography>
       <ResponsiveImage
         width={1600}
-        height={836}
+        height={1120}
         src={'/assets/chrome-extension/5.png'}
         alt={'Reply to any text in seconds'}
       />
