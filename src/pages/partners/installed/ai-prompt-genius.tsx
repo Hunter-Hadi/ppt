@@ -67,9 +67,12 @@ const AIPromptGenius = () => {
         >
           <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
         </Box>
-        <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef='aipromptgenius' />
+        <LandingPageEmbedBox
+          sx={{ pt: 2, pb: 10 }}
+          linkRef='installed-ai-prompt-genius'
+        />
       </Box>
-      <FixedCtaButton propRef='aipromptgenius' />
+      <FixedCtaButton propRef='installed-ai-prompt-genius' />
     </Box>
   );
 };

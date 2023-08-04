@@ -11,7 +11,7 @@ interface IProps {
 
 // 静态声明 landing page 的高度
 // 要随着 https://www.maxai.me/embed/introduction 页面实际高度的修改 去更新
-const STATIC_LANDING_HEIGHT = 5700;
+const STATIC_LANDING_HEIGHT = 6600;
 
 const LandingPageEmbedBox: FC<IProps> = ({ sx, linkRef }) => {
   // debugger

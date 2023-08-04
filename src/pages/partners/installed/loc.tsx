@@ -2,11 +2,10 @@ import { Box, Stack, Typography } from '@mui/material';
 import React from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ProLink from '@/components/ProLink';
 import LandingPageEmbedBox from '@/page_components/LandingPage/LandingPageEmbedBox';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
-const ChatgptToNotion = () => {
+const LocPartners = () => {
   return (
     <Box
       sx={{
@@ -16,7 +15,7 @@ const ChatgptToNotion = () => {
     >
       <AppDefaultSeoLayout />
       <Stack
-        height={336}
+        height={240}
         bgcolor={'#F8F9FA'}
         alignItems={'center'}
         justifyContent={'center'}
@@ -32,11 +31,9 @@ const ChatgptToNotion = () => {
           textAlign={'center'}
           fontSize={48}
         >
-          🎉 ChatGPT to Notion
-          <br />
-          has been installed
+          🎉 L.O.C has been installed
         </Typography>
-        <Typography>
+        {/* <Typography>
           To get started,{' '}
           <ProLink
             muiLinkProps={{
@@ -49,7 +46,7 @@ const ChatgptToNotion = () => {
             click here
           </ProLink>{' '}
           .
-        </Typography>
+        </Typography> */}
       </Stack>
       <Box position='relative'>
         <Box
@@ -67,13 +64,10 @@ const ChatgptToNotion = () => {
         >
           <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
         </Box>
-        <LandingPageEmbedBox
-          sx={{ pt: 2, pb: 10 }}
-          linkRef='installed-chatgpt-to-notion'
-        />
+        <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef='installed-loc' />
       </Box>
-      <FixedCtaButton propRef='installed-chatgpt-to-notion' />
+      <FixedCtaButton propRef='installed-loc' />
     </Box>
   );
 };
-export default ChatgptToNotion;
+export default LocPartners;
