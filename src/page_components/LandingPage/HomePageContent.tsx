@@ -40,7 +40,7 @@ const SocialProof = () => {
       ))}
 
       <Typography variant={'body1'} fontSize={20} textAlign='center' pl={0.8}>
-        Trusted by 400,000+ users
+        Trusted by 500,000+ users
       </Typography>
     </Stack>
   );
