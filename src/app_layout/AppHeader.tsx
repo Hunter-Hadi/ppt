@@ -14,7 +14,7 @@ import ProLink from '@/components/ProLink';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 // const NOT_CTA_BUTTON_PATH = ['/chrome-extension'];
-const NOT_HEADER_PATH = ['/zmo', '/partners/installed'];
+const NOT_HEADER_PATH = ['/zmo', '/partners/'];
 
 const AppHeader: FC = () => {
   const { pathname } = useRouter();

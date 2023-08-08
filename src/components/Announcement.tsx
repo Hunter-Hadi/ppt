@@ -13,7 +13,7 @@ import useEffectOnce from '@/hooks/useEffectOnce';
 
 const TWEET_URL = 'https://twitter.com/MaxAI_HQ/status/1673665954062954500';
 
-const NOT_HEADER_PATH = ['/partners/installed'];
+const NOT_HEADER_PATH = ['/partners/'];
 
 const AnnouncementShowAtom = atom({
   key: 'AnnouncementShowAtom',

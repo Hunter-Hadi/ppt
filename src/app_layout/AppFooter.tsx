@@ -10,13 +10,7 @@ import React, { FC, useMemo } from 'react';
 
 import FooterList from '@/components/Footerlist';
 
-const footerBlackList = [
-  '/terms',
-  '/privacy',
-  '/404',
-  '/zmo',
-  /\/partners\/installed/,
-];
+const footerBlackList = ['/terms', '/privacy', '/404', '/zmo', /\/partners\//];
 
 import CustomIcon from '@/components/CustomIcon';
 import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
