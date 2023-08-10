@@ -150,6 +150,31 @@ const TermsPage: FC = () => {
 
       <Box sx={{ mt: 4 }}>
         <Typography variant='h2' sx={{ mb: 2 }}>
+          Paid Accounts
+        </Typography>
+        <Typography variant='body2' gutterBottom>
+          {`Billing: You can enjoy our premium features and services by upgrading
+          to a Paid Account. We'll automatically bill you from the date you
+          convert to a Paid Account and on each periodic renewal until
+          cancellation. You're responsible for all applicable taxes, and we'll
+          charge tax when required to do so. Some countries have mandatory local
+          laws regarding your cancellation rights, and this paragraph doesn't
+          override these laws.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          {`Cancellation: You may cancel your Paid Account at any time. However,
+          please be aware that we practice a no-refund policy, with the
+          exception of when it's mandated by law.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          Changes: We may change the fees in effect on renewal of your
+          subscription, to reflect factors such as changes to our product
+          offerings, changes to our business, or changes in economic conditions.
+        </Typography>
+      </Box>
+
+      <Box sx={{ mt: 4 }}>
+        <Typography variant='h2' sx={{ mb: 2 }}>
           Miscellaneous
         </Typography>
         <Typography variant='body2' gutterBottom>
