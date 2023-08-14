@@ -12,8 +12,9 @@ export const DEFAULT_TEMPLATE_RESERVED_VARIABLE = [
     name: 'TARGET_LANGUAGE',
     title: 'Variable for target language',
     hint: '',
+    type: 'text',
   },
-];
+] as const;
 
 export const PROMPT_COLORS = ['#5D5FEF', '#FF6154', '#008000', '#FFA500'];
 
