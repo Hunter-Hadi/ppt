@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
 import SendIcon from '@mui/icons-material/Send';
 import {
   Box,
@@ -8,12 +9,14 @@ import {
   Stack,
   SxProps,
   TextField,
+  Typography,
 } from '@mui/material';
 import { cloneDeep, differenceBy } from 'lodash';
 import React, { FC, useEffect, useState } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
+import CustomModal from '@/components/CustomModal';
 import {
   DEFAULT_TEMPLATE_RESERVED_VARIABLE,
   RENDERED_TEMPLATE_PROMPT_DOM_ID,
@@ -30,6 +33,7 @@ import {
   isLiveCrawling,
   renderTemplate,
 } from '@/features/prompt/utils';
+import { APP_EXTERNAL_LINKS } from '@/global_constants';
 import { ChromeExtensionDetectorState } from '@/store';
 import { checkIsDomain } from '@/utils/dataHelper/stringHelper';
 
@@ -110,12 +114,25 @@ const RunPromptSettingSelector: FC<IProps> = ({
     }
   };
 
+  const [runInterceptModalOpen, setRunInterceptModalOpen] = useState(false);
+
   const handleRunPrompt = async () => {
     if (!originalPromptTemplate) {
       console.error('template is empty');
       return;
     }
     if (!checkIsInstalled()) {
+      return;
+    }
+
+    // 20230810 由于网页版不支持跑 livecrawling、websearch 类型的prompt，所以都引导到webchatgpt插件里运行
+    // 需求：https://ikjt09m6ta.larksuite.com/docx/KAAidHvq5oInKmxHLqEu0S7dsWh
+    if (
+      promptDetail.variable_types?.some(
+        (type) => type === 'livecrawling' || type === 'websearch',
+      )
+    ) {
+      setRunInterceptModalOpen(true);
       return;
     }
 
@@ -317,6 +334,40 @@ const RunPromptSettingSelector: FC<IProps> = ({
             </Button>
           </Stack>
         )}
+        <CustomModal
+          width={500}
+          height={'max-content'}
+          sx={{
+            mt: '25vh',
+          }}
+          show={runInterceptModalOpen}
+          onClose={() => {
+            setRunInterceptModalOpen(false);
+          }}
+        >
+          <Stack p={4} spacing={2} alignItems='flex-start'>
+            <Typography>
+              Complete the following steps to run this special prompt on
+              ChatGPT:
+            </Typography>
+            <Button
+              variant='outlined'
+              endIcon={<LaunchOutlinedIcon />}
+              target={'_blank'}
+              href={APP_EXTERNAL_LINKS.WEBCHATGPT_CHROME_EXTENSION}
+            >
+              Step 1: Install WebChatGPT if not already
+            </Button>
+            <Button
+              variant='outlined'
+              endIcon={<LaunchOutlinedIcon />}
+              target={'_blank'}
+              href={APP_EXTERNAL_LINKS.CHATGPT}
+            >
+              Step 2: Open ChatGPT
+            </Button>
+          </Stack>
+        </CustomModal>
       </Stack>
     </AppLoadingLayout>
   );

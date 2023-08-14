@@ -23,6 +23,11 @@ export const APP_EXTERNAL_LINKS = {
 
   TWITTER_FOLLOW_UP_LINK:
     'https://twitter.com/intent/follow?screen_name=MaxAI_HQ',
+
+  CHATGPT: 'https://chat.openai.com/',
+
+  WEBCHATGPT_CHROME_EXTENSION:
+    'https://chrome.google.com/webstore/detail/webchatgpt-chatgpt-with-i/lpfemeioodjbpieminkklglpmhlngfcn',
 };
 
 // S3

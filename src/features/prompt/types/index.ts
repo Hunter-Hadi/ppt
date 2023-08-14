@@ -29,6 +29,7 @@ export interface IPromptDetailData {
   user_input: string;
 
   variables?: IPromptVariable[];
+  variable_types?: IPromptVariableType[];
 }
 export interface IPromptCategoryApiData {
   category: string;
@@ -47,8 +48,14 @@ export interface IPromptVariable {
   name: string;
   hint?: string;
   color?: string;
-  type?: 'livecrawling' | 'text';
+  type: IPromptVariableType;
 }
+
+export type IPromptVariableType =
+  | 'livecrawling'
+  | 'websearch'
+  | 'system'
+  | 'text';
 
 export type IPromptActionKey = 'see' | 'delete' | 'edit' | 'favorite';
 
