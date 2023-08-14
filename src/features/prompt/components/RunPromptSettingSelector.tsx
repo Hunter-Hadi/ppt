@@ -398,7 +398,7 @@ const RunPromptSettingSelector: FC<IProps> = ({
               variant='outlined'
               endIcon={<LaunchOutlinedIcon />}
               target={'_blank'}
-              href={APP_EXTERNAL_LINKS.WEBCHATGPT_CHROME_EXTENSION}
+              href={'https://www.webchatgpt.app/'}
             >
               Step 1: Install WebChatGPT if not already
             </Button>
