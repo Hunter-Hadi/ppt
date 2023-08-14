@@ -12,7 +12,7 @@ import {
   Typography,
 } from '@mui/material';
 import { cloneDeep, differenceBy } from 'lodash';
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC, useEffect, useMemo, useState } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
@@ -29,7 +29,9 @@ import {
 } from '@/features/prompt/store/runPromptSettings';
 import { IPromptDetailData, IPromptVariable } from '@/features/prompt/types';
 import {
+  checkIsDefaultVariable,
   generateVariableHtmlContent,
+  handleVariableTypeWithInputVariable,
   isLiveCrawling,
   renderTemplate,
 } from '@/features/prompt/utils';
@@ -98,21 +100,30 @@ const RunPromptSettingSelector: FC<IProps> = ({
   const [promptInputError, setPromptInputError] = useState('');
 
   const originalPromptTemplate = promptDetail?.prompt_template;
-  const variables = promptDetail?.variables;
+  // const variables = promptDetail?.variables;
+
+  const variables = useMemo(() => {
+    return promptDetail?.variables && promptDetail?.variable_types
+      ? handleVariableTypeWithInputVariable(
+          promptDetail?.variables,
+          promptDetail?.variable_types,
+        )
+      : promptDetail?.variables;
+  }, [promptDetail]);
 
   const isLiveCrawlingFlag = isLiveCrawling(variables);
 
-  const handleEnterRunPrompt = (input: HTMLInputElement) => {
-    if (input) {
-      // fix hacker
-      // 避免插件获取到当前 input 先 disabled，等模拟 selection 动作结束后，恢复
-      input.disabled = true;
-      handleRunPrompt();
-      setTimeout(() => {
-        input.disabled = false;
-      }, 1000);
-    }
-  };
+  // const handleEnterRunPrompt = (input: HTMLInputElement) => {
+  //   if (input) {
+  //     // fix hacker
+  //     // 避免插件获取到当前 input 先 disabled，等模拟 selection 动作结束后，恢复
+  //     input.disabled = true;
+  //     handleRunPrompt();
+  //     setTimeout(() => {
+  //       input.disabled = false;
+  //     }, 1000);
+  //   }
+  // };
 
   const [runInterceptModalOpen, setRunInterceptModalOpen] = useState(false);
 
@@ -170,10 +181,13 @@ const RunPromptSettingSelector: FC<IProps> = ({
     }
   };
 
-  const handleUpdateVariableValue = (index: number, value: string) => {
+  const handleUpdateVariableValue = (name: string, value: string) => {
     setRunPromptSettings((preValue) => {
       const newVariables = cloneDeep(preValue.variables);
-      newVariables[index].value = value;
+      const index = newVariables.findIndex((item) => item.name === name);
+      if (index !== -1) {
+        newVariables[index].value = value;
+      }
       return {
         ...preValue,
         variables: newVariables,
@@ -247,6 +261,27 @@ const RunPromptSettingSelector: FC<IProps> = ({
     setPromptInputError('');
   }, [promptId]);
 
+  const checkIsNotNeedShowVariable = (variable: IPromptVariable) => {
+    // 不需要显示出来的变量
+    const hiddenVariables = [
+      'Live Crawling Crawled Text',
+      'Live Crawling Crawled Html',
+      'Web Search Results',
+      'System Current Date',
+    ];
+
+    return (
+      checkIsDefaultVariable(variable) &&
+      hiddenVariables.includes(variable.name)
+    );
+  };
+
+  const renderRunPromptVariables = useMemo(() => {
+    return runPromptSettings.variables.filter(
+      (item) => !checkIsNotNeedShowVariable(item),
+    );
+  }, [runPromptSettings.variables]);
+
   // console.log('runPromptSettings', runPromptSettings);
 
   return (
@@ -288,36 +323,45 @@ const RunPromptSettingSelector: FC<IProps> = ({
         {promptId && (
           <Box>
             <Grid container rowSpacing={2} columnSpacing={2}>
-              {runPromptSettings.variables.map((variable, index) => (
-                <Grid item key={variable.name} xs={6}>
-                  <CssTextField
-                    label={variable.name}
-                    placeholder={variable.hint || variable.name}
-                    value={variable.value}
-                    onChange={(e) => {
-                      handleUpdateVariableValue(index, `${e.target.value}`);
-                    }}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' && e.target) {
-                        (e.target as any).blur();
-                        handleEnterRunPrompt(e.target as HTMLInputElement);
-                      }
-                    }}
-                    inputProps={{
-                      color: colorInput ? variable.color : undefined,
-                    }}
-                    sx={{
-                      width: '100%',
-                      minHeight: '100%',
-                    }}
-                    size={'small'}
-                    variant='outlined'
-                    error={!!promptInputError}
-                    helperText={!!promptInputError && promptInputError}
-                    FormHelperTextProps={{ sx: { ml: 0 } }}
-                  />
-                </Grid>
-              ))}
+              {renderRunPromptVariables.map((variable, index) => {
+                const length = renderRunPromptVariables.length;
+                const xs = length % 2 !== 0 && index + 1 === length ? 12 : 6;
+
+                return (
+                  <Grid item key={variable.name} xs={xs}>
+                    <CssTextField
+                      label={variable.name}
+                      placeholder={variable.hint || variable.name}
+                      value={variable.value}
+                      onChange={(e) => {
+                        handleUpdateVariableValue(
+                          variable.name,
+                          `${e.target.value}`,
+                        );
+                      }}
+                      onKeyDown={(e) => {
+                        setPromptInputError('');
+
+                        if (e.key === 'Enter') {
+                          handleRunPrompt();
+                        }
+                      }}
+                      inputProps={{
+                        color: colorInput ? variable.color : undefined,
+                      }}
+                      sx={{
+                        width: '100%',
+                        minHeight: '100%',
+                      }}
+                      size={'small'}
+                      variant='outlined'
+                      error={!!promptInputError}
+                      helperText={!!promptInputError && promptInputError}
+                      FormHelperTextProps={{ sx: { ml: 0 } }}
+                    />
+                  </Grid>
+                );
+              })}
             </Grid>
           </Box>
         )}

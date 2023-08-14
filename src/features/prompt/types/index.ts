@@ -49,6 +49,7 @@ export interface IPromptVariable {
   hint?: string;
   color?: string;
   type: IPromptVariableType;
+  isSystemVariable?: boolean;
 }
 
 export type IPromptVariableType =
