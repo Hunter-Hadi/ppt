@@ -16,6 +16,7 @@ export interface IPromptCardData {
 
   // api response types
   variables?: IPromptVariable[];
+  variable_types?: IPromptVariableType[];
 }
 export interface IPromptDetailData {
   id: string;

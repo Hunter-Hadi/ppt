@@ -17,7 +17,7 @@ import { IPromptCardData } from '@/features/prompt/types';
 import { APP_PROJECT_LINK } from '@/global_constants';
 
 import { isLiveCrawling } from '../utils';
-import LiveCrawlingFlag from './LiveCrawlingFlag';
+import PromptTypeList from './PromptTypeList';
 dayjs.extend(utc);
 
 const PromptCard: FC<{
@@ -167,7 +167,10 @@ const PromptCard: FC<{
           wordBreak: 'break-word',
         }}
       >
-        {isLiveCrawlingFlag && <LiveCrawlingFlag />}
+        <PromptTypeList
+          typeList={prompt.variable_types}
+          variables={prompt.variables}
+        />
         {prompt.teaser}
       </EllipsisTextWithTooltip>
       <Stack></Stack>
