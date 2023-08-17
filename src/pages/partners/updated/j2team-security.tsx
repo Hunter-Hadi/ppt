@@ -16,7 +16,7 @@ const J2teamSecurityUpdated = () => {
     >
       <AppDefaultSeoLayout />
       <Stack
-        height={280}
+        height={240}
         bgcolor={'#F8F9FA'}
         alignItems={'center'}
         justifyContent={'center'}
