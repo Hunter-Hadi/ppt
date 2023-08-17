@@ -16,6 +16,7 @@ import { ParsedUrlQuery } from 'querystring';
 import React, { FC, useEffect, useMemo, useState } from 'react';
 import { useRecoilValue } from 'recoil';
 import sanitizeHtml from 'sanitize-html';
+import sanitize from 'sanitize-html';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
@@ -35,6 +36,13 @@ import { PROMPT_API } from '@/utils/api';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
 import { IResponseData, post } from '@/utils/request';
 import { PaginatedData } from '@/utils/usePaginatedQuery';
+
+const sanitizeHtmlOptions = {
+  allowedTags: [],
+  allowedAttributes: false,
+  nonBooleanAttributes: [],
+  disallowedTagsMode: 'recursiveEscape',
+} as sanitize.IOptions;
 
 const PromptDetailPage: FC<{
   id?: string;
@@ -61,12 +69,7 @@ const PromptDetailPage: FC<{
           const promptDetail = result.data;
           promptDetail.prompt_template = sanitizeHtml(
             promptDetail.prompt_template,
-            {
-              allowedTags: [],
-              allowedAttributes: false,
-              nonBooleanAttributes: [],
-              disallowedTagsMode: 'recursiveEscape',
-            },
+            sanitizeHtmlOptions,
           );
           setPromptDetail(promptDetail);
         }
@@ -417,12 +420,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       const promptDetail = result.data;
       promptDetail.prompt_template = sanitizeHtml(
         promptDetail.prompt_template,
-        {
-          allowedTags: [],
-          allowedAttributes: false,
-          nonBooleanAttributes: [],
-          disallowedTagsMode: 'recursiveEscape',
-        },
+        sanitizeHtmlOptions,
       );
       console.log(JSON.stringify(promptDetail));
       return {
