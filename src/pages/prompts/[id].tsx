@@ -15,6 +15,7 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import React, { FC, useEffect, useMemo, useState } from 'react';
 import { useRecoilValue } from 'recoil';
+import sanitizeHtml from 'sanitize-html';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
@@ -58,6 +59,14 @@ const PromptDetailPage: FC<{
       .then((result) => {
         if (result.data && result.data.prompt_title) {
           const promptDetail = result.data;
+          promptDetail.prompt_template = sanitizeHtml(
+            promptDetail.prompt_template,
+            {
+              allowedTags: [],
+              allowedAttributes: false,
+              disallowedTagsMode: 'recursiveEscape',
+            },
+          );
           setPromptDetail(promptDetail);
         }
       })
@@ -405,6 +414,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
     );
     if (result.data && result.data.prompt_title) {
       const promptDetail = result.data;
+      promptDetail.prompt_template = sanitizeHtml(
+        promptDetail.prompt_template,
+        {
+          allowedTags: [],
+          allowedAttributes: false,
+          disallowedTagsMode: 'recursiveEscape',
+        },
+      );
       console.log(JSON.stringify(promptDetail));
       return {
         props: {
