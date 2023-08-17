@@ -64,6 +64,7 @@ const PromptDetailPage: FC<{
             {
               allowedTags: [],
               allowedAttributes: false,
+              nonBooleanAttributes: [],
               disallowedTagsMode: 'recursiveEscape',
             },
           );
@@ -419,6 +420,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         {
           allowedTags: [],
           allowedAttributes: false,
+          nonBooleanAttributes: [],
           disallowedTagsMode: 'recursiveEscape',
         },
       );
