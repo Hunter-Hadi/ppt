@@ -97,7 +97,18 @@ const InstallPage: FC = () => {
               ).get('version') || 'unknown';
             // submitData.reasons.browserName = browserName;
             // submitData.reasons.browserVersion = browserVersion;
-            // submitData.reasons.chromeExtensionVersion = browserVersion;
+            // submitData.reasons.chromeExtensionVersion = chromeExtensionVersion;
+
+            const reasons = submitData.reasons;
+            // 遍历 reasons 对象, 给每个key 加上prefix
+            Object.keys(reasons).forEach((key) => {
+              const browserNamePrefix =
+                browserName === 'unknown' ? 'Other' : browserName;
+              reasons[
+                `[${browserNamePrefix}]-${key}`
+              ] = `[${browserNamePrefix}]-${reasons[key]}`;
+              delete reasons[key];
+            });
             await post(USER_API.SAVE_SURVEY_DATA, {
               survey_name: 'UninstallSurvey',
               survey_data: submitData,

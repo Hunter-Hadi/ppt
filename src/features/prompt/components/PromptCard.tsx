@@ -16,7 +16,7 @@ import {
 import { IPromptCardData } from '@/features/prompt/types';
 import { APP_PROJECT_LINK } from '@/global_constants';
 
-import { isLiveCrawling } from '../utils';
+// import { isLiveCrawling } from '../utils';
 import PromptTypeList from './PromptTypeList';
 dayjs.extend(utc);
 
@@ -30,7 +30,7 @@ const PromptCard: FC<{
   const author = prompt?.author || DEFAULT_PROMPT_AUTHOR;
   const authorLink = prompt?.author_url || DEFAULT_PROMPT_AUTHOR_LINK;
 
-  const isLiveCrawlingFlag = isLiveCrawling(prompt.variables);
+  // const isLiveCrawlingFlag = isLiveCrawling(prompt.variables);
 
   return (
     <Stack
