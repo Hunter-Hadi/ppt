@@ -326,13 +326,10 @@ const SurveyExplain: FC<IProps> = (props) => {
           </ProLink>
         </Box>
         <Typography variant={'body2'} textAlign='center'>
-          Free AI Copilot for the Web.
+          Use AI anywhere online.
           <br />
-          Powered by ChatGPT, Bard, Bing AI, Claude.
-          <br />
-          Use AI on any website without copy-pasting. Compose, improve writing,
-          summarize, explain, fix spelling & grammar, change tone, translate, or
-          reply to any text everywhere with one click.
+          Access ChatGPT + Claude + Bard + Bing instantly with one click on any
+          webpages and PDF files.
         </Typography>
       </>
     );

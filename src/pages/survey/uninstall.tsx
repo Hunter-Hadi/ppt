@@ -28,7 +28,7 @@ const InstallPage: FC = () => {
       }
       useInitUrlLinkRef.current = true;
       openUrlLinkRef.current =
-          'https://api.usechatgpt.ai/app/zmo?ref=webchatgpt';
+        'https://api.usechatgpt.ai/app/zmo?ref=webchatgpt';
       const openWindow = window.open(openUrlLinkRef.current, '_blank');
       // NOTE: 因为现在用户有负面反馈，所以先不管用户是否打开了新窗口，都把点击跳转的逻辑删掉
       if (openWindow || true) {
@@ -74,17 +74,17 @@ const InstallPage: FC = () => {
           surveyType={'checkbox'}
           cancelText={''}
           options={[
-            `I don't have a ChatGPT account`,
-            `I have privacy concerns`,
+            // `I don't have a ChatGPT account`,
+            // `I have privacy concerns`,
             `It wasn't useful for me`,
             `I don't know how to use it`,
-            'Text-select-popup shows too often',
+            // 'Text-select-popup shows too often',
             'Too many ChatGPT interruptions/re-logins',
-            `Cmd/Alt+J or Text-select-popup isn't working`,
+            // `Cmd/Alt+J or Text-select-popup isn't working`,
             'It slows down my ChatGPT/browser',
-            `It's not free`,
+            // `It's not free`,
             `I use other AI extensions`,
-            `Login is required`,
+            // `Login is required`,
           ]}
           disabledInValid
           submitButtonProps={{ width: 400 }}
