@@ -150,6 +150,39 @@ const TermsPage: FC = () => {
 
       <Box sx={{ mt: 4 }}>
         <Typography variant='h2' sx={{ mb: 2 }}>
+          Usage Requirements
+        </Typography>
+        <Typography variant='body2' gutterBottom>
+          {`(a) Use of Services. You may access, and we grant you a non-exclusive
+          right to use, the Services in accordance with these Terms. You will
+          comply with these Terms and all applicable laws when using the
+          Services. We and our affiliates own all rights, title, and interest in
+          and to the Services.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          {`(b) Feedback. We appreciate feedback, comments, ideas, proposals and
+          suggestions for improvements. If you provide any of these things, we
+          may use it without restriction or compensation to you.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          {`(c) Restrictions. You may not (i) use the Services in a way that
+          infringes, misappropriates or violates any person's rights; (ii)
+          reverse assemble, reverse compile, decompile, translate or otherwise
+          attempt to discover the source code or underlying components of
+          models, algorithms, and systems of the Services (except to the extent
+          such restrictions are contrary to applicable law); (iii) share your
+          account with others to avoid or bypass our set limitations; (iv) use
+          any automated or programmatic method to extract data or output from
+          the Services, including scraping, web harvesting, or web data
+          extraction; (v), send us any personal information of children under 13
+          or the applicable age of digital consent. The Services is designed for
+          individual human use. You will comply with any rate limits and other
+          requirements in our documentation. You may use Services only in
+          geographies currently supported by us.`}
+        </Typography>
+      </Box>
+      <Box sx={{ mt: 4 }}>
+        <Typography variant='h2' sx={{ mb: 2 }}>
           Paid Accounts
         </Typography>
         <Typography variant='body2' gutterBottom>
