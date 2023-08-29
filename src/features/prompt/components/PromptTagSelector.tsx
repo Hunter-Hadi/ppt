@@ -12,7 +12,7 @@ import {
   TextField,
 } from '@mui/material';
 import { useRouter } from 'next/router';
-import { FC, useEffect, useState } from 'react';
+import { FC, useCallback, useEffect, useRef } from 'react';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import { BaseSelect } from '@/components/select/BaseSelect';
@@ -59,11 +59,13 @@ const PromptTagSelector: FC<{
     setCurrentCategory,
   } = usePromptCategories();
 
-  const [searchValue, setSearchValue] = useState<string | null>('');
+  const inputTimer = useRef<number | null>(null);
+  const searchValue = useRef<string | null>(null);
 
   useEffect(() => {
     if (!loaded) return;
-    setSearchValue(searchKeyword);
+    searchValue.current = searchKeyword;
+
     onLoaded && onLoaded();
   }, [loaded, onLoaded, searchKeyword]);
   useEffect(() => {
@@ -80,8 +82,8 @@ const PromptTagSelector: FC<{
     }
   }, [loaded, currentUseCase, currentCategory, searchKeyword]);
 
-  const handleDoSearch = () => {
-    const value = searchValue;
+  const handleDoSearch = useCallback(() => {
+    const value = searchValue.current;
     if (value !== null && value !== '' && value.length <= 2) {
       // 解析失败报错显示错误提示
       snackNotifications.warning('Enter at least 3 characters to search.', {
@@ -93,7 +95,18 @@ const PromptTagSelector: FC<{
       return;
     }
     setSearchKeyword(value);
-  };
+  }, [setSearchKeyword]);
+
+  const startInputSearchTimer = useCallback(() => {
+    if (inputTimer.current) {
+      clearTimeout(inputTimer.current);
+    }
+    inputTimer.current = window.setTimeout(() => {
+      if (searchValue.current && searchValue.current?.length >= 3) {
+        handleDoSearch();
+      }
+    }, 600);
+  }, [handleDoSearch]);
 
   return (
     <Stack
@@ -152,8 +165,12 @@ const PromptTagSelector: FC<{
             width: 220,
             ml: 'auto',
           }}
-          onChange={(event) => {
-            setSearchValue(event.target.value);
+          onChange={(event: any) => {
+            const value = event.target.value;
+            searchValue.current = value;
+            if (value === '' || value.length > 2) {
+              startInputSearchTimer();
+            }
           }}
           onKeyDown={(event) => {
             if (event.key === 'Enter') {
