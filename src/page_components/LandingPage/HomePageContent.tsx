@@ -297,7 +297,7 @@ const HomePageContent: FC<IProps> = ({
       />
 
       <Typography variant={'h2'} pt={10} id={'how-to-use'} fontSize={22}>
-        {`Ask AI anything in the sidebar`}
+        Ask AI anything in the sidebar
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
         1. Press ⌘/Alt+J anywhere
@@ -308,32 +308,14 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1160}
-        src={'/assets/chrome-extension/1.png'}
+        src={'/assets/chrome-extension/homepage/1.png'}
         alt={'Fastest access to ChatGPT'}
-      />
-      {annoyingButton && <CtaBtn />}
-
-      <Typography variant={'h2'} pt={10} fontSize={22}>
-        Compose with AI anywhere
-      </Typography>
-      <Typography variant={'body1'} fontSize={20}>
-        1. Press ⌘/Alt+J in any doc or text box
-      </Typography>
-      <Typography variant={'body1'} fontSize={20}>
-        2. Let AI handle the first draft
-      </Typography>
-      <ResponsiveImage
-        width={1600}
-        height={1120}
-        src={'/assets/chrome-extension/2.png'}
-        alt={'Compose with AI anywhere'}
       />
       {annoyingButton && <CtaBtn />}
 
       <Typography variant={'h2'} pt={10} fontSize={22}>
         {`Write better with confidence`}
       </Typography>
-
       <Typography variant={'body1'} fontSize={20}>
         1. Select any text on any website
       </Typography>
@@ -343,7 +325,7 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/3.png'}
+        src={'/assets/chrome-extension/homepage/3.png'}
         alt={'Write better with confidence'}
       />
       {annoyingButton && <CtaBtn />}
@@ -355,12 +337,12 @@ const HomePageContent: FC<IProps> = ({
         1. Select any text on any website
       </Typography>
       <Typography variant={'body1'}>
-        2. Summarize, explain, translate, or list key takeaways in seconds
+        2. Summarize, explain, or translate in seconds
       </Typography>
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/4.png'}
+        src={'/assets/chrome-extension/homepage/4.png'}
         alt={'Read easier and faster'}
       />
       {annoyingButton && <CtaBtn />}
@@ -377,8 +359,43 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/5.png'}
+        src={'/assets/chrome-extension/homepage/5.png'}
         alt={'Reply to any text in seconds'}
+      />
+      {annoyingButton && <CtaBtn />}
+
+      <Typography variant={'h2'} pt={10} fontSize={22}>
+        Summarize & chat with any page
+      </Typography>
+      <Typography variant={'body1'} fontSize={20}>
+        1. Open any webpage, PDF, email, or YouTube video
+      </Typography>
+      <Typography variant={'body1'} fontSize={20}>
+        {`2. Click 'Summary' in the sidebar to summarize and chat with the content`}
+      </Typography>
+      <ResponsiveImage
+        width={1600}
+        height={1120}
+        src={'/assets/chrome-extension/homepage/6.png'}
+        alt={'Compose with AI anywhere'}
+      />
+
+      {annoyingButton && <CtaBtn />}
+
+      <Typography variant={'h2'} pt={10} fontSize={22}>
+        Compose with AI anywhere
+      </Typography>
+      <Typography variant={'body1'} fontSize={20}>
+        1. Press ⌘/Alt+J in any doc or text box
+      </Typography>
+      <Typography variant={'body1'} fontSize={20}>
+        2. Let AI handle the first draft
+      </Typography>
+      <ResponsiveImage
+        width={1600}
+        height={1120}
+        src={'/assets/chrome-extension/homepage/2.png'}
+        alt={'Compose with AI anywhere'}
       />
       {annoyingButton && <CtaBtn />}
 
