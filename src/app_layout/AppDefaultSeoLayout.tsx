@@ -65,7 +65,7 @@ const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
         },
       ],
     };
-  }, [title, description]);
+  }, [title, description, socialImage, rest.canonical]);
   const canonicalUrl = rest.canonical
     ? rest.canonical
     : `${defaultSeoConfig.canonical}${
