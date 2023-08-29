@@ -325,7 +325,7 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/homepage/3.png'}
+        src={'/assets/chrome-extension/homepage/2.png'}
         alt={'Write better with confidence'}
       />
       {annoyingButton && <CtaBtn />}
@@ -342,7 +342,7 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/homepage/4.png'}
+        src={'/assets/chrome-extension/homepage/3.png'}
         alt={'Read easier and faster'}
       />
       {annoyingButton && <CtaBtn />}
@@ -359,7 +359,7 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/homepage/5.png'}
+        src={'/assets/chrome-extension/homepage/4.png'}
         alt={'Reply to any text in seconds'}
       />
       {annoyingButton && <CtaBtn />}
@@ -376,7 +376,7 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/homepage/6.png'}
+        src={'/assets/chrome-extension/homepage/5.png'}
         alt={'Compose with AI anywhere'}
       />
 
@@ -394,7 +394,7 @@ const HomePageContent: FC<IProps> = ({
       <ResponsiveImage
         width={1600}
         height={1120}
-        src={'/assets/chrome-extension/homepage/2.png'}
+        src={'/assets/chrome-extension/homepage/6.png'}
         alt={'Compose with AI anywhere'}
       />
       {annoyingButton && <CtaBtn />}
