@@ -104,6 +104,8 @@ const PromptTagSelector: FC<{
     inputTimer.current = window.setTimeout(() => {
       if (searchValue.current && searchValue.current?.length >= 3) {
         handleDoSearch();
+      } else if (searchValue.current === '') {
+        handleDoSearch();
       }
     }, 600);
   }, [handleDoSearch]);
