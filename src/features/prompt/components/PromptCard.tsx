@@ -5,6 +5,7 @@ import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import { Box, IconButton, Stack, Tooltip, Typography } from '@mui/material';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
+import { useRouter } from 'next/router';
 import { FC } from 'react';
 
 import EllipsisTextWithTooltip from '@/components/EllipsisTextWithTooltip';
@@ -26,6 +27,8 @@ const PromptCard: FC<{
   onPromptClick?: (prompt: IPromptCardData) => void;
 }> = ({ active, prompt, onPromptClick }) => {
   // href={`/prompts/${prompt.id}`}
+  const router = useRouter();
+  const query = router.query;
 
   const author = prompt?.author || DEFAULT_PROMPT_AUTHOR;
   const authorLink = prompt?.author_url || DEFAULT_PROMPT_AUTHOR_LINK;
@@ -98,7 +101,18 @@ const PromptCard: FC<{
               size='small'
               onClick={(e) => {
                 e.stopPropagation();
-                location.href = `${APP_PROJECT_LINK}/prompts?favoritesId=${prompt.id}`;
+                let newLink = `${APP_PROJECT_LINK}/prompts?favoritesId=${prompt.id}`;
+
+                if (query.current) {
+                  newLink += `&current=${query.current}`;
+                }
+
+                if (query.pageSize) {
+                  newLink += `&pageSize=${query.pageSize}`;
+                }
+
+                console.log(`newLink`, newLink);
+                // location.href =newLink
               }}
             >
               <FavoriteBorderOutlinedIcon

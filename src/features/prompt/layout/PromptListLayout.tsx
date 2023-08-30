@@ -51,13 +51,15 @@ const PromptListLayout: FC = () => {
     [router.query],
   );
 
-  const handleonPageSizeChange = useCallback(
+  const handleOnPageSizeChange = useCallback(
     (newPageSize) => {
       setPageSize(newPageSize);
+      setCurrent(0);
       router.replace({
         query: {
           ...router.query,
           pageSize: newPageSize,
+          current: 0,
         },
       });
     },
@@ -81,7 +83,7 @@ const PromptListLayout: FC = () => {
         sx={{ justifyContent: 'flex-end', pt: 0 }}
         paginationProps={paginationProps}
         onChange={handlePageChange}
-        onPageSizeChange={handleonPageSizeChange}
+        onPageSizeChange={handleOnPageSizeChange}
       />
       <Grid container spacing={2}>
         <AppLoadingLayout loading={isFetching}>
@@ -109,7 +111,7 @@ const PromptListLayout: FC = () => {
         sx={{ justifyContent: 'flex-end', pt: 0 }}
         paginationProps={paginationProps}
         onChange={handlePageChange}
-        onPageSizeChange={handleonPageSizeChange}
+        onPageSizeChange={handleOnPageSizeChange}
       />
 
       <FIxedPromptRunner

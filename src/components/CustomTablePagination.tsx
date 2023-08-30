@@ -79,7 +79,6 @@ const CustomTablePagination: FC<ICustomTablePaginationProps> = ({
   ) => {
     const value = event.target.value;
     onPageSizeChange && onPageSizeChange(Number(value));
-    onChange && onChange(null, 0);
   };
 
   return (
