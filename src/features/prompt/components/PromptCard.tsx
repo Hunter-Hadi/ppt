@@ -112,7 +112,7 @@ const PromptCard: FC<{
                 }
 
                 console.log(`newLink`, newLink);
-                // location.href =newLink
+                location.href = newLink;
               }}
             >
               <FavoriteBorderOutlinedIcon
