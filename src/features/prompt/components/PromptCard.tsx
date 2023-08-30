@@ -98,7 +98,7 @@ const PromptCard: FC<{
               size='small'
               onClick={(e) => {
                 e.stopPropagation();
-                location.href = `${APP_PROJECT_LINK}/prompts?tab_active=Favorites&favoritesId=${prompt.id}`;
+                location.href = `${APP_PROJECT_LINK}/prompts?favoritesId=${prompt.id}`;
               }}
             >
               <FavoriteBorderOutlinedIcon
