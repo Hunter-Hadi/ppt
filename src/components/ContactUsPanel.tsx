@@ -4,6 +4,7 @@ import { Stack, Typography } from '@mui/material';
 
 import {
   APP_EXTERNAL_LINKS,
+  EXTENSION_INSTALL_TRACKER_LINK,
   EXTENSION_SHARE_TRACKER_LINK,
   SIMPLY_TRENDS_APP_EMAIL,
 } from '@/global_constants';
@@ -69,12 +70,12 @@ const ContactUsPanel = () => {
       <Typography variant='body2' component={'div'}>
         🙏 Support us by rating ★★★★★ on{' '}
         <ProLink
-          href={`${EXTENSION_SHARE_TRACKER_LINK}?ref=support-us`}
+          href={`${EXTENSION_INSTALL_TRACKER_LINK}?ref=support-us`}
           sx={{ color: 'inherit' }}
           target={'_blank'}
           underline='always'
         >
-          Chrome Web Store{' '}
+          Extension web store{' '}
           <OpenInNewIcon
             sx={{
               position: 'relative',
@@ -90,7 +91,7 @@ const ContactUsPanel = () => {
         <Typography variant='body2' component={'div'}>
           🎁 Help others by sharing this extension:{' '}
           <ProLink
-            href={`${EXTENSION_SHARE_TRACKER_LINK}?ref=share`}
+            href={`${EXTENSION_INSTALL_TRACKER_LINK}?ref=share`}
             sx={{ color: 'inherit' }}
             target={'_blank'}
             underline='always'

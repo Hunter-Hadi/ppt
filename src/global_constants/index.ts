@@ -62,6 +62,7 @@ export const PRIMARY_YOUTUBE_VIDEO_EMBED_URL =
 
 export const QUOTA_TEXT = 'Free AI without a daily limit';
 
+export const EXTENSION_INSTALL_TRACKER_LINK = `https://api.maxai.me/app/install`;
 export const EXTENSION_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/maxai-ext';
 export const EXTENSION_EDGE_SHARE_TRACKER_LINK =
