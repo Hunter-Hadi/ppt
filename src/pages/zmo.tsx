@@ -13,7 +13,6 @@ import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 import { APP_API } from '@/utils/api';
-import { sendLarkBotMessage } from '@/utils/larkBot';
 import { post } from '@/utils/request';
 //
 // async function fetchWithTimeout(url: string) {
@@ -64,9 +63,6 @@ const ZmoInstallPage: FC = () => {
         ref: prefixRef,
         date,
       },
-    });
-    sendLarkBotMessage('Install', `ref: ${prefixRef}\ndate: ${date}\n`, {
-      uuid: 'bc237ff0-3593-41a5-bc52-c14ae2489113',
     });
     setTimeout(() => {
       location.href = routerPath;

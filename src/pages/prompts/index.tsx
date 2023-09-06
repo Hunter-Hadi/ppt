@@ -4,15 +4,9 @@ import React from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import { PromptListLayout, PromptTagSelector } from '@/features/prompt';
-import { useSendRef } from '@/hooks';
 
 const PromptsPage = () => {
   const [loaded, setLoaded] = React.useState(false);
-
-  useSendRef({
-    featureName: 'prompts',
-    uuid: 'cf5170a7-3126-47cb-b988-c361cba9c1cd',
-  });
 
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>

@@ -32,7 +32,7 @@ export const useSendRef = (
         `[${featureName}]`,
         `ref: ${ref || 'default'}\ndate: ${date}\n`,
         {
-          uuid: uuid || '0d862c50-2985-48ca-91cf-d325c596e1f9',
+          uuid: uuid,
         },
       );
     }
