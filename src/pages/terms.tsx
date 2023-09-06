@@ -195,9 +195,7 @@ const TermsPage: FC = () => {
           override these laws.`}
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
-          {`Cancellation: You may cancel your Paid Account at any time. However,
-          please be aware that we practice a no-refund policy, with the
-          exception of when it's mandated by law.`}
+          {`Cancellation: You may cancel your Paid Account at any time. However, please be aware that we practice a no-refund policy.`}
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
           Changes: We may change the fees in effect on renewal of your
