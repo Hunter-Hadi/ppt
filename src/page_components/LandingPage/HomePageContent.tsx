@@ -386,7 +386,7 @@ const HomePageContent: FC<IProps> = ({
         Compose with AI anywhere
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        1. Press ⌘/Alt+J in any doc or text box
+        1. Press ⌘/Alt+I in any doc or text box
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
         2. Let AI handle the first draft
