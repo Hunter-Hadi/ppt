@@ -111,7 +111,18 @@ const PromptCard: FC<{
                   newLink += `&pageSize=${query.pageSize}`;
                 }
 
-                console.log(`newLink`, newLink);
+                if (query.category) {
+                  newLink += `&category=${query.category}`;
+                }
+
+                if (query.use_case) {
+                  newLink += `&use_case=${query.use_case}`;
+                }
+
+                if (query.keyword) {
+                  newLink += `&keyword=${query.keyword}`;
+                }
+
                 location.href = newLink;
               }}
             >
