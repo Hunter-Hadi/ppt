@@ -21,7 +21,7 @@ import {
   DEFAULT_TEMPLATE_RESERVED_VARIABLE,
   RENDERED_TEMPLATE_PROMPT_DOM_ID,
 } from '@/features/prompt/constant';
-import { useRunThisPrompt, useRunThisPromptV2 } from '@/features/prompt/hooks';
+import { useRunThisPromptV2 } from '@/features/prompt/hooks';
 import usePromptVariableController from '@/features/prompt/hooks/usePromptVariableController';
 import {
   RenderedTemplatePromptAtom,
@@ -84,8 +84,7 @@ const RunPromptSettingSelector: FC<IProps> = ({
   colorInput = true,
   promptDetail,
 }) => {
-  const { runThisPrompt: V1 } = useRunThisPrompt();
-  const { runThisPrompt: V2 } = useRunThisPromptV2();
+  const { runThisPrompt } = useRunThisPromptV2();
 
   const { checkIsInstalled } = useRecoilValue(ChromeExtensionDetectorState);
 
@@ -163,13 +162,18 @@ const RunPromptSettingSelector: FC<IProps> = ({
       setPromptInputError('');
 
       if (!liveCrawlingVariable) {
-        await V1(`#${RENDERED_TEMPLATE_PROMPT_DOM_ID}`);
+        const promptTemplate = document.querySelector(
+          `#${RENDERED_TEMPLATE_PROMPT_DOM_ID}`,
+        )?.textContent;
+        if (promptTemplate) {
+          await runThisPrompt(promptTemplate);
+        }
       } else {
         const templatePromptEl = document.querySelector(
           `#${RENDERED_TEMPLATE_PROMPT_DOM_ID}`,
         );
         if (templatePromptEl && templatePromptEl.textContent) {
-          await V2(
+          await runThisPrompt(
             originalPromptTemplate,
             {
               PROMPT: liveCrawlingVariable?.value,

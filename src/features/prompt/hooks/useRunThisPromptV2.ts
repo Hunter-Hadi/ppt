@@ -83,7 +83,7 @@ export const useRunThisPromptV2 = () => {
   };
   const runThisPrompt = async (
     template: string,
-    parameters: any,
+    parameters?: any,
     liveCrawlingVariable?: IPromptVariable,
   ) => {
     // 判断是否需要联网
@@ -97,7 +97,7 @@ export const useRunThisPromptV2 = () => {
         '{{PAGE_CONTENT}}',
       );
     }
-    if (needBrowsing) {
+    if (needBrowsing && parameters?.PROMPT) {
       actions = [
         {
           type: 'URL',
