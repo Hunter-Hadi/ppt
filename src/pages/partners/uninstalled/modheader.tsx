@@ -2,12 +2,11 @@ import { Box, Stack, Typography } from '@mui/material';
 import React from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ProLink from '@/components/ProLink';
 import LandingPageEmbedBox from '@/page_components/LandingPage/LandingPageEmbedBox';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
-const AIPromptGenius = () => {
-  const propRef = 'installed-ai-prompt-genius';
+const ModHeader = () => {
+  const propRef = 'uninstalled-modheader';
   return (
     <Box
       sx={{
@@ -17,7 +16,7 @@ const AIPromptGenius = () => {
     >
       <AppDefaultSeoLayout />
       <Stack
-        height={336}
+        height={280}
         bgcolor={'#F8F9FA'}
         alignItems={'center'}
         justifyContent={'center'}
@@ -33,23 +32,8 @@ const AIPromptGenius = () => {
           textAlign={'center'}
           fontSize={48}
         >
-          🎉 AI Prompt Genius
-          <br />
-          has been installed
-        </Typography>
-        <Typography>
-          To get started,{' '}
-          <ProLink
-            muiLinkProps={{
-              rel: 'noopener nofollow',
-            }}
-            href='https://docs.aipromptgenius.app/tutorial/01-create-edit-and-use-prompts/'
-            underline='always'
-            target={'_blank'}
-          >
-            click here
-          </ProLink>{' '}
-          to view the first part of the tutorial.
+          🎉 ModHeader <br />
+          has been uninstalled
         </Typography>
       </Stack>
       <Box position='relative'>
@@ -74,4 +58,4 @@ const AIPromptGenius = () => {
     </Box>
   );
 };
-export default AIPromptGenius;
+export default ModHeader;

@@ -6,8 +6,7 @@ import ProLink from '@/components/ProLink';
 import LandingPageEmbedBox from '@/page_components/LandingPage/LandingPageEmbedBox';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
-const AIPromptGenius = () => {
-  const propRef = 'installed-ai-prompt-genius';
+const ModHeader = () => {
   return (
     <Box
       sx={{
@@ -33,7 +32,7 @@ const AIPromptGenius = () => {
           textAlign={'center'}
           fontSize={48}
         >
-          🎉 AI Prompt Genius
+          🎉 ModHeader
           <br />
           has been installed
         </Typography>
@@ -43,13 +42,12 @@ const AIPromptGenius = () => {
             muiLinkProps={{
               rel: 'noopener nofollow',
             }}
-            href='https://docs.aipromptgenius.app/tutorial/01-create-edit-and-use-prompts/'
+            href='https://modheader.com/'
             underline='always'
             target={'_blank'}
           >
             click here
-          </ProLink>{' '}
-          to view the first part of the tutorial.
+          </ProLink>
         </Typography>
       </Stack>
       <Box position='relative'>
@@ -68,10 +66,13 @@ const AIPromptGenius = () => {
         >
           <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
         </Box>
-        <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef={propRef} />
+        <LandingPageEmbedBox
+          sx={{ pt: 2, pb: 10 }}
+          linkRef='installed-modheader'
+        />
       </Box>
-      <FixedCtaButton propRef={propRef} />
+      <FixedCtaButton propRef='installed-modheader' />
     </Box>
   );
 };
-export default AIPromptGenius;
+export default ModHeader;
