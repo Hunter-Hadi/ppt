@@ -32,7 +32,7 @@ const ModHeader = () => {
           textAlign={'center'}
           fontSize={48}
         >
-          🎉 ModHeader <br />
+          ModHeader <br />
           has been uninstalled
         </Typography>
       </Stack>
