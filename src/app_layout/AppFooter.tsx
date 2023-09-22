@@ -126,7 +126,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                 title={'Help'}
                 data={[
                   {
-                    label: 'How to use',
+                    label: 'How To Use',
                     icon: <HelpOutlineIcon />,
                     link: `${APP_PROJECT_LINK}/get-started`,
                   },
