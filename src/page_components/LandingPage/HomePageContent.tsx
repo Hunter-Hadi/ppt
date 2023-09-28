@@ -29,18 +29,38 @@ import CTAInstallButton from '../CTAInstallButton';
 const SocialProof = () => {
   const count = 5;
   return (
-    <Stack direction='row' alignItems='center'>
-      {Array.from({ length: count }).map((_, index) => (
-        <GradeRoundedIcon
-          key={index}
-          sx={{
-            color: '#F5A523',
-          }}
-        />
-      ))}
+    <Stack
+      direction={{
+        xs: 'column',
+        sm: 'row',
+      }}
+      alignItems='center'
+      justifyContent={'center'}
+    >
+      <Stack direction={'row'} alignItems='center'>
+        {Array.from({ length: count }).map((_, index) => (
+          <GradeRoundedIcon
+            key={index}
+            sx={{
+              color: '#F5A523',
+              fontSize: 40,
+            }}
+          />
+        ))}
+      </Stack>
 
-      <Typography variant={'body1'} fontSize={20} textAlign='center' pl={0.8}>
-        Trusted by 800,000+ users
+      <Typography
+        variant={'custom'}
+        fontSize={{
+          xs: 36,
+          sm: 48,
+        }}
+        color='rgba(0, 0, 0, 0.60)'
+        fontWeight={700}
+        textAlign='center'
+        pl={0.8}
+      >
+        Loved by 800,000+ users
       </Typography>
     </Stack>
   );
@@ -90,16 +110,16 @@ const AIPowerPanel = () => {
             icon='AILogo'
             sx={{
               fontSize: {
-                xs: 40,
-                sm: 64,
+                xs: 32,
+                sm: 52,
               },
             }}
           />
           <Typography
             variant={'custom'}
             fontSize={{
-              xs: 32,
-              sm: 48,
+              xs: 28,
+              sm: 40,
             }}
             fontWeight={700}
           >
@@ -150,7 +170,7 @@ const AIPowerPanel = () => {
                 variant={'caption'}
                 fontSize={{
                   xs: 18,
-                  sm: 20,
+                  sm: 24,
                 }}
               >
                 {provider.text}
