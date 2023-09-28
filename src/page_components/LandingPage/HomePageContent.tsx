@@ -36,6 +36,7 @@ const SocialProof = () => {
       }}
       alignItems='center'
       justifyContent={'center'}
+      mt={'64px !important'}
     >
       <Stack direction={'row'} alignItems='center'>
         {Array.from({ length: count }).map((_, index) => (
@@ -231,7 +232,7 @@ const HomePageContent: FC<IProps> = ({
   );
 
   return (
-    <Stack spacing={2} mx={'auto'} maxWidth={800} my={{ xs: 4, sm: 7 }}>
+    <Stack spacing={2} mx={'auto'} maxWidth={800} mb={{ xs: 4, sm: 7 }} pt={6}>
       <Box
         sx={{
           position: 'fixed',
@@ -242,7 +243,7 @@ const HomePageContent: FC<IProps> = ({
       >
         <ProducthuntHonor noDay sx={{ mb: { xs: 4, sm: 0 } }} />
       </Box>
-      <Stack alignItems='center' spacing={4} pt={2} pb={14}>
+      <Stack alignItems='center' spacing={4} pb={6}>
         {showLogo && (
           <ProLink
             href={maxaiWebLink}
