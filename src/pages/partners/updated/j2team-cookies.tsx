@@ -5,8 +5,8 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import LandingPageEmbedBox from '@/page_components/LandingPage/LandingPageEmbedBox';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
-const LocPartners = () => {
-  const linkRef = 'installed-loc';
+const J2teamCookiesUpdated = () => {
+  const propRef = 'updated-j2team-cookies';
   return (
     <Box
       sx={{
@@ -32,7 +32,7 @@ const LocPartners = () => {
           textAlign={'center'}
           fontSize={48}
         >
-          🎉 L.O.C has been installed
+          🎉 J2TEAM Cookies has been updated
         </Typography>
         {/* <Typography>
           To get started,{' '}
@@ -65,10 +65,10 @@ const LocPartners = () => {
         >
           <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
         </Box>
-        <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef={linkRef} />
+        <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef={propRef} />
       </Box>
-      <FixedCtaButton propRef={linkRef} />
+      <FixedCtaButton propRef={propRef} />
     </Box>
   );
 };
-export default LocPartners;
+export default J2teamCookiesUpdated;
