@@ -9,6 +9,7 @@ import ProLink from '@/components/ProLink';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import {
+  LOVED_BY_NUM,
   MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK,
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
 } from '@/global_constants';
@@ -61,7 +62,7 @@ const SocialProof = () => {
         textAlign='center'
         pl={0.8}
       >
-        Loved by 800,000+ users
+        Loved by {LOVED_BY_NUM} users
       </Typography>
     </Stack>
   );
