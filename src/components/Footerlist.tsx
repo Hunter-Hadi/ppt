@@ -27,7 +27,7 @@ const FooterList: FC<{
               value: label,
               link: link,
             })}
-            key={link}
+            key={link + label}
           >
             <Stack
               direction={'row'}
