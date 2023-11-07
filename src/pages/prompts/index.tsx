@@ -19,7 +19,7 @@ const PromptsPage = () => {
       />
       <Stack mt={4} alignItems={'center'} spacing={4} mb={2}>
         <Stack alignItems={'center'} spacing={1}>
-          <Typography variant={'h1'}>One-Click Prompts</Typography>
+          <Typography variant={'h1'}>1-Click Prompts</Typography>
           <Typography variant={'body2'} color='text.secondary'>
             for ChatGPT, Claude, Bard
           </Typography>

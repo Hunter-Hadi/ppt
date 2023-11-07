@@ -272,7 +272,7 @@ const HomePageContent: FC<IProps> = ({
           fontWeight={900}
           textAlign='center'
         >
-          Use AI Anywhere Online
+          Use 1-Click AI Anywhere
         </Typography>
         <AIPowerPanel />
         <SocialProof />
@@ -539,7 +539,7 @@ const HomePageContent: FC<IProps> = ({
       <Box pt={10} />
       <Stack bgcolor='#f5f5f5' p={2} borderRadius={1} spacing={2}>
         <Typography variant={'h2'} fontSize={24}>
-          🎁 Perk: One-Click ChatGPT Prompts
+          🎁 Perk: 1-Click ChatGPT Prompts
         </Typography>
         <Stack pl={3.4} spacing={2}>
           <Stack spacing={1}>
