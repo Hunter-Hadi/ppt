@@ -195,7 +195,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       seo: {
         title: 'Prompt | MaxAI.me',
         description:
-          'Complete your everyday tasks with Prompt Management and One-Click Prompts in minutes that used to take hours.',
+          'Complete your everyday tasks with Prompt Management and 1-Click Prompts in minutes that used to take hours.',
       },
       updatedAt: Date.now(),
     },

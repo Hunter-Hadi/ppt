@@ -490,7 +490,7 @@ const HomePageContent: FC<IProps> = ({
             <CheckIcon />
           </Box>
           <span>
-            One-click to insert or replace selected text with AI-generated
+            1-click to insert or replace selected text with AI-generated
             content.
           </span>
         </Typography>
@@ -553,7 +553,7 @@ const HomePageContent: FC<IProps> = ({
         <Stack pl={3.4} spacing={2}>
           <Stack spacing={1}>
             <Typography variant={'body1'} fontSize={20}>
-              Revolutionize your everyday tasks with One-Click ChatGPT Prompts.
+              Revolutionize your everyday tasks with 1-Click ChatGPT Prompts.
             </Typography>
             <Typography variant={'body1'} fontSize={20}>
               Turn hours-long tasks into minutes using our expanding collection

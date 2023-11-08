@@ -89,7 +89,7 @@ const AppFooterLayout: FC<IProps> = ({ sx }) => {
                     link: `/`,
                   },
                   {
-                    label: 'One-Click Prompts',
+                    label: '1-Click Prompts',
                     icon: <CustomIcon icon='PromptLogo' />,
                     link: '/prompts',
                   },
