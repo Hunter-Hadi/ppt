@@ -318,23 +318,7 @@ const HomePageContent: FC<IProps> = ({
         youtubeLink={PRIMARY_YOUTUBE_VIDEO_EMBED_URL}
       />
 
-      <Typography variant={'h2'} pt={10} id={'how-to-use'} fontSize={22}>
-        Ask AI anything in the sidebar
-      </Typography>
-      <Typography variant={'body1'} fontSize={20}>
-        1. Press ⌘/Alt+J anywhere
-      </Typography>
-      <Typography variant={'body1'} fontSize={20}>
-        2. The AI chat sidebar will show up on the right
-      </Typography>
-      <ResponsiveImage
-        width={1600}
-        height={1160}
-        src={'/assets/chrome-extension/homepage/1.png'}
-        alt={'Fastest access to ChatGPT'}
-      />
-      {annoyingButton && <CtaBtn />}
-
+      {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
         {`Write better with confidence`}
       </Typography>
@@ -352,6 +336,7 @@ const HomePageContent: FC<IProps> = ({
       />
       {annoyingButton && <CtaBtn />}
 
+      {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
         {`Read easier and faster`}
       </Typography>
@@ -369,6 +354,7 @@ const HomePageContent: FC<IProps> = ({
       />
       {annoyingButton && <CtaBtn />}
 
+      {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
         {`Reply to any text in seconds`}
       </Typography>
@@ -386,6 +372,7 @@ const HomePageContent: FC<IProps> = ({
       />
       {annoyingButton && <CtaBtn />}
 
+      {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
         Summarize & chat with any page
       </Typography>
@@ -399,11 +386,11 @@ const HomePageContent: FC<IProps> = ({
         width={1600}
         height={1120}
         src={'/assets/chrome-extension/homepage/5.png'}
-        alt={'Compose with AI anywhere'}
+        alt={`Summarize & chat with any page`}
       />
-
       {annoyingButton && <CtaBtn />}
 
+      {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
         Compose with AI anywhere
       </Typography>
@@ -421,6 +408,25 @@ const HomePageContent: FC<IProps> = ({
       />
       {annoyingButton && <CtaBtn />}
 
+      {/* panel */}
+      <Typography variant={'h2'} pt={10} id={'how-to-use'} fontSize={22}>
+        Ask AI anything in the sidebar
+      </Typography>
+      <Typography variant={'body1'} fontSize={20}>
+        1. Press ⌘/Alt+J anywhere
+      </Typography>
+      <Typography variant={'body1'} fontSize={20}>
+        2. The AI chat sidebar will show up on the right
+      </Typography>
+      <ResponsiveImage
+        width={1600}
+        height={1160}
+        src={'/assets/chrome-extension/homepage/1.png'}
+        alt={'Fastest access to ChatGPT'}
+      />
+      {annoyingButton && <CtaBtn />}
+
+      {/* panel */}
       <Typography variant={'h2'} pt={7} fontSize={22}>
         <span>{`Why is `}</span>
         <ProLink
@@ -536,7 +542,10 @@ const HomePageContent: FC<IProps> = ({
       </Stack>
       {annoyingButton && <CtaBtn />}
 
+      {/* placeholder */}
       <Box pt={10} />
+
+      {/* panel */}
       <Stack bgcolor='#f5f5f5' p={2} borderRadius={1} spacing={2}>
         <Typography variant={'h2'} fontSize={24}>
           🎁 Perk: 1-Click ChatGPT Prompts
