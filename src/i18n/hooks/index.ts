@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useRecoilValue } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 
 import { PreferredLanguageAtom } from '@/i18n/store';
 
@@ -36,5 +36,21 @@ export const useInitI18n = () => {
         }
       });
     }
-  }, [preferredLanguage]);
+  }, [preferredLanguage, i18n]);
+};
+
+export const usePreferredLanguage = () => {
+  const [preferredLanguage, setPreferredLanguage] = useRecoilState(
+    PreferredLanguageAtom,
+  );
+
+  const changeLanguage = useCallback(
+    (newLang: string) => setPreferredLanguage(newLang),
+    [setPreferredLanguage],
+  );
+
+  return {
+    currentLanguage: preferredLanguage,
+    changeLanguage,
+  };
 };

@@ -2,6 +2,7 @@ import CheckIcon from '@mui/icons-material/Check';
 import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
 import { Box, Button, Divider, Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import CustomIcon, { ICustomIconType } from '@/components/CustomIcon';
 import { CustomImageBox } from '@/components/CustomImage';
@@ -28,6 +29,8 @@ import CTAInstallButton from '../CTAInstallButton';
  */
 
 const SocialProof = () => {
+  const { t } = useTranslation('pages');
+
   const count = 5;
   return (
     <Stack
@@ -62,13 +65,15 @@ const SocialProof = () => {
         textAlign='center'
         pl={0.8}
       >
-        Loved by {LOVED_BY_NUM} users
+        {t('home_page__loved_by_users', { num: LOVED_BY_NUM })}
       </Typography>
     </Stack>
   );
 };
 
 const AIPowerPanel = () => {
+  const { t } = useTranslation('pages');
+
   const providersList = [
     {
       icon: 'ClaudeLogo',
@@ -98,7 +103,7 @@ const AIPowerPanel = () => {
       borderRadius={1}
     >
       <Typography variant={'h5'} flexShrink={0}>
-        Powered by
+        {t('home_page__powered_by')}
       </Typography>
       <Box bgcolor='white' width='100%' boxSizing={'border-box'} p={2}>
         <Stack
@@ -211,6 +216,7 @@ const HomePageContent: FC<IProps> = ({
   annoyingButton,
   iniFrame,
 }) => {
+  const { t } = useTranslation('pages');
   const { extensionLink, maxaiWebLink, ref } = useShareTrackerLink({
     queryRefEnable: true,
     pathnameRefEnable: false,
@@ -272,7 +278,7 @@ const HomePageContent: FC<IProps> = ({
           fontWeight={900}
           textAlign='center'
         >
-          Use 1-Click AI Anywhere
+          {t('home_page__title')}
         </Typography>
         <AIPowerPanel />
         <SocialProof />
@@ -320,13 +326,13 @@ const HomePageContent: FC<IProps> = ({
 
       {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
-        {`Write better with confidence`}
+        {t('home_page__write_better_with_confidence')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        1. Select any text on any website
+        1. {t('home_page__write_better_with_confidence__item1')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        2. Improve writing, fix spelling & grammar, or change tone in one click
+        2. {t('home_page__write_better_with_confidence__item2')}
       </Typography>
       <ResponsiveImage
         width={1600}
@@ -338,13 +344,13 @@ const HomePageContent: FC<IProps> = ({
 
       {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
-        {`Read easier and faster`}
+        {t('home_page__read_easier_and_faster')}
       </Typography>
       <Typography variant={'body1'}>
-        1. Select any text on any website
+        1. {t('home_page__read_easier_and_faster__item1')}
       </Typography>
       <Typography variant={'body1'}>
-        2. Summarize, explain, or translate in seconds
+        2. {t('home_page__read_easier_and_faster__item2')}
       </Typography>
       <ResponsiveImage
         width={1600}
@@ -356,13 +362,13 @@ const HomePageContent: FC<IProps> = ({
 
       {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
-        {`Reply to any text in seconds`}
+        {t('home_page__reply_to_any_text_in_seconds')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        1. Select any text on any website
+        1. {t('home_page__reply_to_any_text_in_seconds__item1')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        2. Generate effective and personalized reply in one click
+        2. {t('home_page__reply_to_any_text_in_seconds__item2')}
       </Typography>
       <ResponsiveImage
         width={1600}
@@ -374,13 +380,13 @@ const HomePageContent: FC<IProps> = ({
 
       {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
-        Summarize & chat with any page
+        {t('home_page__summarize_chat_with_any_page')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        1. Open any webpage, PDF, email, or YouTube video
+        1. {t('home_page__summarize_chat_with_any_page__item1')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        {`2. Click 'Summary' in the sidebar to summarize and chat with the content`}
+        2. {t('home_page__summarize_chat_with_any_page__item2')}
       </Typography>
       <ResponsiveImage
         width={1600}
@@ -392,13 +398,13 @@ const HomePageContent: FC<IProps> = ({
 
       {/* panel */}
       <Typography variant={'h2'} pt={10} fontSize={22}>
-        Compose with AI anywhere
+        {t('home_page__compose_with_AI_anywhere')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        1. Press ⌘/Alt+I in any doc or text box
+        1. {t('home_page__compose_with_AI_anywhere__item1')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        2. Let AI handle the first draft
+        2. {t('home_page__compose_with_AI_anywhere__item2')}
       </Typography>
       <ResponsiveImage
         width={1600}
@@ -410,13 +416,13 @@ const HomePageContent: FC<IProps> = ({
 
       {/* panel */}
       <Typography variant={'h2'} pt={10} id={'how-to-use'} fontSize={22}>
-        Ask AI anything in the sidebar
+        {t('home_page__ask_aI_anything_in_the_sidebar')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        1. Press ⌘/Alt+J anywhere
+        1. {t('home_page__ask_aI_anything_in_the_sidebar__item1')}
       </Typography>
       <Typography variant={'body1'} fontSize={20}>
-        2. The AI chat sidebar will show up on the right
+        2. {t('home_page__ask_aI_anything_in_the_sidebar__item2')}
       </Typography>
       <ResponsiveImage
         width={1600}
@@ -428,7 +434,7 @@ const HomePageContent: FC<IProps> = ({
 
       {/* panel */}
       <Typography variant={'h2'} pt={7} fontSize={22}>
-        <span>{`Why is `}</span>
+        <span>{t('home_page__why_is')} </span>
         <ProLink
           href={extensionLink}
           sx={{ color: 'inherit' }}
@@ -437,7 +443,7 @@ const HomePageContent: FC<IProps> = ({
         >
           {`MaxAI.me`}
         </ProLink>
-        <span>{` Chrome extension the best?`}</span>
+        <span>{` ${t('home_page__is_best_extension')}`}</span>
       </Typography>
       <Stack
         pt={2}
@@ -474,70 +480,55 @@ const HomePageContent: FC<IProps> = ({
           <Box>
             <CheckIcon />
           </Box>
-          <span>The fastest way to use AI anywhere online.</span>
+          <span>{t('home_page__best_extension__reason1')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>
-            Works literally everywhere - ANY text on ANY website, even local PDF
-            files.
-          </span>
+          <span>{t('home_page__best_extension__reason2')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>
-            1-click to insert or replace selected text with AI-generated
-            content.
-          </span>
+          <span>{t('home_page__best_extension__reason3')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>Chat to ask follow-up questions or refine results. </span>
+          <span>{t('home_page__best_extension__reason4')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>
-            Supports all popular AI Providers: ChatGPT, Google Bard, New Bing
-            Chat AI, Claude.
-          </span>
+          <span>{t('home_page__best_extension__reason5')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>
-            Supports GPT-4, Web Browsing, Code Interpreter, and Plugins through
-            your ChatGPT Plus account.
-          </span>
+          <span>{t('home_page__best_extension__reason6')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>
-            Supports GPT-4, GPT-3.5-turbo-16k, GPT-4-32k using your OpenAI API
-            key.
-          </span>
+          <span>{t('home_page__best_extension__reason7')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>All languages are supported.</span>
+          <span>{t('home_page__best_extension__reason8')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
           <Box>
             <CheckIcon />
           </Box>
-          <span>100% privacy friendly.</span>
+          <span>{t('home_page__best_extension__reason9')}</span>
         </Typography>
       </Stack>
       {annoyingButton && <CtaBtn />}
@@ -548,17 +539,15 @@ const HomePageContent: FC<IProps> = ({
       {/* panel */}
       <Stack bgcolor='#f5f5f5' p={2} borderRadius={1} spacing={2}>
         <Typography variant={'h2'} fontSize={24}>
-          🎁 Perk: 1-Click ChatGPT Prompts
+          🎁 {t('home_page__perk__title')}
         </Typography>
         <Stack pl={3.4} spacing={2}>
           <Stack spacing={1}>
             <Typography variant={'body1'} fontSize={20}>
-              Revolutionize your everyday tasks with 1-Click ChatGPT Prompts.
+              {t('home_page__perk__desc1')}
             </Typography>
             <Typography variant={'body1'} fontSize={20}>
-              Turn hours-long tasks into minutes using our expanding collection
-              of prompts for marketing, sales, copywriting, operation,
-              productivity, and customer support.
+              {t('home_page__perk__desc2')}
             </Typography>
           </Stack>
           <Button
@@ -577,7 +566,7 @@ const HomePageContent: FC<IProps> = ({
               fontWeight: 600,
             }}
           >
-            Get it for free on MaxAI.me/prompts
+            {`${t('home_page__perk__get_it_for_free')} MaxAI.me/prompts`}
           </Button>
         </Stack>
       </Stack>

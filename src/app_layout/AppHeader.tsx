@@ -1,6 +1,7 @@
 import {
   AppBar,
   Box,
+  Button,
   Divider,
   Stack,
   Toolbar,
@@ -11,6 +12,7 @@ import React, { FC } from 'react';
 
 import { CustomImageBox } from '@/components/CustomImage';
 import ProLink from '@/components/ProLink';
+import { usePreferredLanguage } from '@/i18n/hooks';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 // const NOT_CTA_BUTTON_PATH = ['/chrome-extension'];
@@ -18,6 +20,8 @@ const NOT_HEADER_PATH = ['/zmo', '/partners/'];
 
 const AppHeader: FC = () => {
   const { pathname } = useRouter();
+
+  const { currentLanguage, changeLanguage } = usePreferredLanguage();
 
   const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
 
@@ -79,7 +83,23 @@ const AppHeader: FC = () => {
             </Stack>
           </ProLink>
         </Box>
-        <Stack direction={'row'}>
+        <Stack direction={'row'} spacing={1}>
+          <p>current: {currentLanguage}</p>
+          <Button
+            onClick={() => {
+              changeLanguage('zh_CN');
+            }}
+          >
+            to zh_CN
+          </Button>
+          <Button
+            onClick={() => {
+              changeLanguage('en');
+            }}
+          >
+            to en
+          </Button>
+
           <CTAInstallButton
             sx={{
               width: 'max-content',

@@ -1,4 +1,4 @@
-import { sumBy } from 'lodash';
+import { sumBy } from 'lodash-es';
 
 import { hasData } from '@/utils/utils';
 

@@ -1,5 +1,5 @@
 import { Box, SxProps } from '@mui/material';
-import { random } from 'lodash';
+import { random } from 'lodash-es';
 import Image from 'next/image';
 import React, { FC, useEffect, useRef, useState } from 'react';
 
