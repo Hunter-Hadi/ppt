@@ -1,4 +1,10 @@
-import { Autocomplete, SxProps, TextField } from '@mui/material';
+import {
+  Autocomplete,
+  AutocompleteRenderInputParams,
+  InputLabelProps,
+  SxProps,
+  TextField,
+} from '@mui/material';
 import React, { FC } from 'react';
 
 const WRITING_STYLES_OPTIONS = [
@@ -74,7 +80,9 @@ const WritingStyleSelect: FC<IWritingStyleSelectProps> = (props) => {
       filterOptions={filterOptions}
       renderInput={(params) => (
         <TextField
-          {...params}
+          {...(params as AutocompleteRenderInputParams & {
+            InputLabelProps: React.PropsWithChildren<InputLabelProps>;
+          })}
           label={label}
           inputProps={{
             ...params.inputProps,

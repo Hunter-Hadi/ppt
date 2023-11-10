@@ -1,4 +1,10 @@
-import { Autocomplete, SxProps, TextField } from '@mui/material';
+import {
+  Autocomplete,
+  AutocompleteRenderInputParams,
+  InputLabelProps,
+  SxProps,
+  TextField,
+} from '@mui/material';
 import React, { FC } from 'react';
 
 const TONE_OPTIONS = [
@@ -74,7 +80,9 @@ const ToneSelect: FC<toneSelectProps> = (props) => {
       filterOptions={filterOptions}
       renderInput={(params) => (
         <TextField
-          {...params}
+          {...(params as AutocompleteRenderInputParams & {
+            InputLabelProps: React.PropsWithChildren<InputLabelProps>;
+          })}
           label={label}
           inputProps={{
             ...params.inputProps,

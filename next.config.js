@@ -1,3 +1,5 @@
+const { i18n } = require('./next-i18next.config');
+
 const WebpackObfuscatorPlugin = require('webpack-obfuscator');
 /** @type {import('next').NextConfig} */
 
@@ -31,6 +33,7 @@ const obfuscatorOptions = {
   unicodeEscapeSequence: false,
 };
 const nextConfig = {
+  i18n,
   trailingSlash: false,
   reactStrictMode: true,
   images: {
