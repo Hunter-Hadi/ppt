@@ -1,6 +1,4 @@
 import { Box, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React, { FC } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
@@ -8,14 +6,8 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 
 const TermsPage: FC = () => {
-  const { t } = useTranslation();
-
   return (
     <AppContainer sx={{ wordBreak: 'break-word', py: 4 }}>
-      <p>current language: {'123'}</p>
-      <h1>common:test : {t('common:test')}</h1>
-      <h1>page:test1 : {t('page:test1')}</h1>
-      <h1>page:test2 : {t('page:test2')}</h1>
       <AppDefaultSeoLayout
         title={'Terms of Service | MaxAI.me'}
         description={'Read the MaxAI.me terms of service.'}
@@ -242,11 +234,3 @@ const TermsPage: FC = () => {
 };
 
 export default TermsPage;
-
-export async function getStaticProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale)),
-    },
-  };
-}
