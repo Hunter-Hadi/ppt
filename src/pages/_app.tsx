@@ -29,58 +29,13 @@ const queryClient = new QueryClient();
 function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const notistackRef = React.useRef(null);
+
+  const isEmbedPage = router.pathname.startsWith('/embed');
+
   useEffect(() => {
     initFingerPrint();
   }, []);
-  if (router.pathname.startsWith('/embed')) {
-    return (
-      <>
-        <Head>
-          <meta
-            name='viewport'
-            content='initial-scale=1.0, width=device-width'
-          />
-        </Head>
-        <style jsx global>{`
-          html {
-            font-family: ${globalFont.style.fontFamily}, sans-serif,
-              -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-              Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue !important;
-          }
-        `}</style>
-        {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <Script
-          strategy='afterInteractive'
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-        />
-        <Script
-          id='gtag-init'
-          strategy='afterInteractive'
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-              cookie_flags: 'max-age=7200;secure;samesite=none',
-            });
-          `,
-          }}
-        ></Script>
-        <RecoilRoot>
-          <SnackbarUtilsConfigurator />
-          <ThemeProvider theme={customMuiTheme}>
-            <QueryClientProvider client={queryClient}>
-              <ReactQueryDevtools initialIsOpen={false} />
-              <AppInit />
-              <Component {...pageProps} />
-            </QueryClientProvider>
-          </ThemeProvider>
-        </RecoilRoot>
-      </>
-    );
-  }
+
   return (
     <>
       <Head>
@@ -145,9 +100,9 @@ function App({ Component, pageProps }: AppProps) {
             <QueryClientProvider client={queryClient}>
               <ReactQueryDevtools initialIsOpen={false} />
               <AppInit />
-              <AppHeader />
+              {!isEmbedPage && <AppHeader />}
               <Component {...pageProps} />
-              <AppFooter />
+              {!isEmbedPage && <AppFooter />}
             </QueryClientProvider>
           </ThemeProvider>
         </SnackbarProvider>
