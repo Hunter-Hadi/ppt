@@ -4,7 +4,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Box, Grid, Paper, SxProps } from '@mui/material';
-import isRegExp from 'lodash/isRegExp';
+import isRegExp from 'lodash-es/isRegExp';
 import { useRouter } from 'next/router';
 import React, { FC, useMemo } from 'react';
 

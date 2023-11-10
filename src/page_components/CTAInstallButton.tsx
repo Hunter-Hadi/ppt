@@ -1,5 +1,6 @@
 import { Button, ButtonProps, SxProps } from '@mui/material';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import CustomIcon from '@/components/CustomIcon';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
@@ -24,18 +25,26 @@ const CTAInstallButton: FC<IProps> = ({
   trackerLinkProps = {},
   iconSize = 36,
 }) => {
+  const { t } = useTranslation('button');
+
   const { extensionLink, links, ref } = useShareTrackerLink({
     ...trackerLinkProps,
     agent: showAgent,
   });
+
   const { browserAgent } = useBrowserAgent();
 
   const agent = showAgent ?? browserAgent;
 
   const iconName = agent === 'Edge' ? 'EdgeColor' : 'ChromeColor';
 
-  const label =
-    agent === 'Edge' ? 'Add to Edge for free' : 'Add to Chrome for free';
+  const label = useMemo(
+    () =>
+      agent === 'Edge'
+        ? t('add_to_edge_for_free')
+        : t('add_to_chrome_for_free'),
+    [agent, t],
+  );
 
   const href = useMemo(() => {
     if (agent === 'Edge') {

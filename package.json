@@ -33,7 +33,7 @@
     "eslint-config-next": "13.1.6",
     "i18next": "^23.6.0",
     "isomorphic-unfetch": "^4.0.2",
-    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "markdown-to-jsx": "^7.1.9",
     "next": "13.1.6",
     "next-seo": "^5.15.0",
@@ -43,7 +43,7 @@
     "react": "18.2.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.2.0",
-    "react-i18next": "^13.3.1",
+    "react-i18next": "^11.18.0",
     "react-query": "^3.39.3",
     "react-text-transition": "^3.0.2",
     "recharts": "^2.3.2",
@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",
-    "@types/lodash": "^4.14.191",
+    "@types/lodash-es": "^4.17.6",
     "@types/sanitize-html": "^2.9.0",
     "@types/sm-crypto": "^0.3.0",
     "@types/ua-parser-js": "^0.7.36",
@@ -70,6 +70,10 @@
     "prettier": "2.8.3",
     "serve": "^14.2.0",
     "webpack": "^5.75.0",
-    "webpack-obfuscator": "^3.5.1"
+    "webpack-obfuscator": "^3.5.1",
+    "chatgpt": "^5.2.5",
+    "gpt-3-encoder": "^1.1.4",
+    "https-proxy-agent": "^7.0.1",
+    "node-fetch": "^3.3.2"
   }
 }

@@ -1,9 +1,88 @@
 {
   "common": {
-    "test": "this is a test"
+    "log_out": "Log out",
+    "help": "Help",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "delete": "Delete",
+    "add": "Add",
+    "edit": "Edit",
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto",
+    "system": "System",
+    "visible": "Visible",
+    "hidden": "Hidden",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "settings": "Settings",
+    "contact_us": "Contact us",
+    "visibility": "Visibility",
+    "mode": "Mode",
+    "or": "OR",
+    "model": "Model",
+    "provider": "Provider",
+    "language": "Language",
+    "learn_more": "Learn more",
+    "read_more": "Read more",
+    "try_again": "Try again",
+    "stop": "Stop",
+    "copy": "Copy",
+    "copy_to_clipboard": "Copy to clipboard",
+    "copied": "Copied",
+    "paste": "Paste",
+    "loading": "Loading...",
+    "no_options": "No options"
   },
-  "page": {
-    "test1": "this is page test 1",
-    "test2": "this is page test 2"
+  "button": {
+    "add_to_chrome_for_free": "Add to Chrome for free",
+    "add_to_edge_for_free": "Add to Edge for free"
+  },
+  "pages": {
+    "home_page__title": "Use 1-Click AI Anywhere",
+    "home_page__powered_by": "Powered by",
+    "home_page__loved_by_users": "Loved by {{num}} users",
+    "home_page__write_better_with_confidence": "Write better with confidence",
+    "home_page__write_better_with_confidence__item1": "Select any text on any website",
+    "home_page__write_better_with_confidence__item2": "Improve writing, fix spelling & grammar, or change tone in one click",
+
+    "home_page__read_easier_and_faster": "Read easier and faster",
+    "home_page__read_easier_and_faster__item1": "Select any text on any website",
+    "home_page__read_easier_and_faster__item2": "Summarize, explain, or translate in seconds",
+
+    "home_page__reply_to_any_text_in_seconds": "Reply to any text in seconds",
+    "home_page__reply_to_any_text_in_seconds__item1": "Select any text on any website",
+    "home_page__reply_to_any_text_in_seconds__item2": "Generate effective and personalized reply in one clicks",
+
+    "home_page__summarize_chat_with_any_page": "Summarize & chat with any page",
+    "home_page__summarize_chat_with_any_page__item1": "Open any webpage, PDF, email, or YouTube video",
+    "home_page__summarize_chat_with_any_page__item2": "Click 'Summary' in the sidebar to summarize and chat with the content",
+
+    "home_page__compose_with_AI_anywhere": "Compose with AI anywhere",
+    "home_page__compose_with_AI_anywhere__item1": "Press ⌘/Alt+I in any doc or text box",
+    "home_page__compose_with_AI_anywhere__item2": "Let AI handle the first draft",
+
+    "home_page__ask_aI_anything_in_the_sidebar": "Ask AI anything in the sidebar",
+    "home_page__ask_aI_anything_in_the_sidebar__item1": "Press ⌘/Alt+J anywhere",
+    "home_page__ask_aI_anything_in_the_sidebar__item2": "The AI chat sidebar will show up on the right",
+
+    "home_page__why_is": "Why is",
+    "home_page__is_best_extension": "Chrome extension the best",
+    "home_page__best_extension__reason1": "The fastest way to use AI anywhere online.",
+    "home_page__best_extension__reason2": "Works literally everywhere - ANY text on ANY website, even local PDF files.",
+    "home_page__best_extension__reason3": "1-click to insert or replace selected text with AI-generated content.",
+    "home_page__best_extension__reason4": "Chat to ask follow-up questions or refine results.",
+    "home_page__best_extension__reason5": "Supports all popular AI Providers: ChatGPT, Google Bard, New Bing Chat AI, Claude.",
+    "home_page__best_extension__reason6": "Supports GPT-4, Web Browsing, Code Interpreter, and Plugins through your ChatGPT Plus account.",
+    "home_page__best_extension__reason7": "Supports GPT-4, GPT-3.5-turbo-16k, GPT-4-32k using your OpenAI API key.",
+    "home_page__best_extension__reason8": "All languages are supported.",
+    "home_page__best_extension__reason9": "100% privacy friendly.",
+
+    "home_page__perk__title": "Perk: 1-Click ChatGPT Prompts",
+    "home_page__perk__desc1": "Revolutionize your everyday tasks with 1-Click ChatGPT Prompts.",
+    "home_page__perk__desc2": "Turn hours-long tasks into minutes using our expanding collection of prompts for marketing, sales, copywriting, operation, productivity, and customer support.",
+    "home_page__perk__get_it_for_free": "Get it for free on"
   }
 }

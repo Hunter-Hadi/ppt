@@ -9,7 +9,7 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import { shuffle } from 'lodash';
+import { shuffle } from 'lodash-es';
 import React, { FC, useMemo, useState } from 'react';
 
 import { list2Options } from '@/utils/dataHelper/arrayHelper';

@@ -11,7 +11,7 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import { cloneDeep, differenceBy } from 'lodash';
+import { cloneDeep, differenceBy } from 'lodash-es';
 import React, { FC, useEffect, useMemo, useState } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 

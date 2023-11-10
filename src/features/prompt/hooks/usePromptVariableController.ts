@@ -1,4 +1,4 @@
-import { unionBy } from 'lodash';
+import { unionBy } from 'lodash-es';
 import { useCallback } from 'react';
 import { useRecoilState } from 'recoil';
 

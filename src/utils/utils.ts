@@ -1,8 +1,8 @@
 import CryptoJS from 'crypto-js';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
-import { sum } from 'lodash';
-import size from 'lodash/size';
+import { sum } from 'lodash-es';
+import size from 'lodash-es/size';
 import { useEffect, useId, useRef } from 'react';
 import { sm3 } from 'sm-crypto';
 
