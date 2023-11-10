@@ -186,6 +186,7 @@ export const LANGUAGE_CODE_MAP = {
   he_IL: { label: 'עברית (ישראל)', en_label: 'Hebrew (Israel)' },
   hi: { label: 'हिन्दी', en_label: 'Hindi' },
   hr: { label: 'Hrvatski', en_label: 'Croatian' },
+  hy: { label: 'Հայերեն', en_label: 'Armenian' },
   hu: { label: 'Magyar', en_label: 'Hungarian' },
   in: { label: 'Bahasa Indonesia', en_label: 'Indonesian' },
   id: { label: 'Indonesia', en_label: 'Indonesian' },
@@ -296,12 +297,13 @@ const updateI18nJson = async (
   await Promise.all(
     needUpdateLanguages.map(async ({ name }) => {
       const dirName = name;
-      const { en_label: languageName } = LANGUAGE_CODE_MAP[dirName];
-      if (!languageName) {
+      const languageCodeData = LANGUAGE_CODE_MAP[dirName];
+      if (!languageCodeData) {
         console.log(`[${dirName}]语言包不存在`);
         errorLanguages.push(dirName);
         return;
       }
+      const languageName = languageCodeData.en_label;
       let removeUnusedKeyCount = 0;
       let modifyKeyCount = 0;
       let addKeyCount = 0;

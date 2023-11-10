@@ -582,9 +582,9 @@ const HomePageContent: FC<IProps> = ({
           iconSize={80}
           sx={{
             width: { xs: '100%', sm: 800 },
-            height: { xs: '100%', sm: 128 },
+            height: '100%',
+            minHeight: { xs: '100%', sm: 128 },
             flexWrap: 'wrap',
-
             fontSize: 48,
           }}
         />

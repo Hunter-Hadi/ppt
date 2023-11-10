@@ -1,7 +1,6 @@
 import {
   AppBar,
   Box,
-  Button,
   Divider,
   Stack,
   Toolbar,
@@ -12,6 +11,7 @@ import React, { FC } from 'react';
 
 import { CustomImageBox } from '@/components/CustomImage';
 import ProLink from '@/components/ProLink';
+import LanguageSelect from '@/components/select/LanguageSelect';
 import { usePreferredLanguage } from '@/i18n/hooks';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
@@ -19,11 +19,13 @@ import CTAInstallButton from '@/page_components/CTAInstallButton';
 const NOT_HEADER_PATH = ['/zmo', '/partners/'];
 
 const AppHeader: FC = () => {
-  const { pathname } = useRouter();
+  const { pathname, query } = useRouter();
 
   const { currentLanguage, changeLanguage } = usePreferredLanguage();
 
   const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
+
+  const showDev = query.dev === '6b5e5b7d-4964-4a53-9349-6a57646bd86c';
 
   if (isNotHeader) {
     return null;
@@ -83,23 +85,16 @@ const AppHeader: FC = () => {
             </Stack>
           </ProLink>
         </Box>
-        <Stack direction={'row'} spacing={1}>
-          <p>current: {currentLanguage}</p>
-          <Button
-            onClick={() => {
-              changeLanguage('zh_CN');
-            }}
-          >
-            to zh_CN
-          </Button>
-          <Button
-            onClick={() => {
-              changeLanguage('en');
-            }}
-          >
-            to en
-          </Button>
-
+        <Stack direction={'row'} alignItems='center' spacing={1}>
+          {showDev && (
+            <LanguageSelect
+              sx={{
+                minWidth: 220,
+              }}
+              defaultValue={currentLanguage}
+              onChange={changeLanguage}
+            />
+          )}
           <CTAInstallButton
             sx={{
               width: 'max-content',
