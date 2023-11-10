@@ -1,4 +1,6 @@
 import '@/styles/globals.css';
+// init i18n
+import '@/i18n';
 
 import CloseIcon from '@mui/icons-material/Close';
 import { IconButton, ThemeProvider } from '@mui/material';
@@ -6,7 +8,6 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import { appWithTranslation } from 'next-i18next';
 import { SnackbarKey, SnackbarProvider } from 'notistack';
 import React, { useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
@@ -21,6 +22,7 @@ import { GA_TRACKING_ID } from '@/pages/_document';
 import AppInit from '@/utils/AppInit';
 import { initFingerPrint } from '@/utils/fingerPrint';
 import { SnackbarUtilsConfigurator } from '@/utils/globalSnackbar';
+
 // Create a client
 const queryClient = new QueryClient();
 
@@ -153,4 +155,4 @@ function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
-export default appWithTranslation(App);
+export default App;

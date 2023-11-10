@@ -1,0 +1,8 @@
+{
+  "common": {
+    "test": "这是一个测试"
+  },
+  "page": {
+    "test1": "这是page的test key1"
+  }
+}

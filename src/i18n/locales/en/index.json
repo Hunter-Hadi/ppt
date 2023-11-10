@@ -1,0 +1,9 @@
+{
+  "common": {
+    "test": "this is a test"
+  },
+  "page": {
+    "test1": "this is page test 1",
+    "test2": "this is page test 2"
+  }
+}

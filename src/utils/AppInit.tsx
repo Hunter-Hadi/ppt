@@ -15,6 +15,7 @@ import CustomModal from '@/components/CustomModal';
 import ProLink from '@/components/ProLink';
 import { useInitInviteCode } from '@/features/user';
 import { useInstallChromeExtensionLink } from '@/hooks';
+import { useInitI18n } from '@/i18n/hooks';
 import { AppState, ChromeExtensionDetectorState } from '@/store';
 
 const ChromeExtensionDetector = () => {
@@ -147,7 +148,9 @@ const AppGlobalBackdrop = () => {
 };
 
 const AppInit = () => {
+  useInitI18n();
   useInitInviteCode();
+
   return (
     <>
       <ChromeExtensionDetector />

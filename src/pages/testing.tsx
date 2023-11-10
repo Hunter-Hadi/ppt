@@ -1,25 +1,24 @@
 import Button from '@mui/material/Button';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React, { FC, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { useRecoilState } from 'recoil';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import { PreferredLanguageAtom } from '@/i18n/store';
 import { PROMPT_API } from '@/utils/api';
 import { post } from '@/utils/request';
 
 const TestIngPage: FC = () => {
-  const { t, i18n } = useTranslation();
-  const router = useRouter();
+  const { t } = useTranslation();
 
-  const handleChange = (newLocale: string) => {
-    const { pathname, asPath, query } = router;
-    i18n.changeLanguage(newLocale);
-    router.push({ pathname, query }, asPath, { locale: newLocale });
+  const [preferredLanguage, setPreferredLanguage] = useRecoilState(
+    PreferredLanguageAtom,
+  );
+
+  const handleChange = (lang: string) => {
+    setPreferredLanguage(lang);
   };
-
-  console.log(`i18n`, i18n);
 
   const [data, setData] = React.useState<any>(null);
 
@@ -36,7 +35,7 @@ const TestIngPage: FC = () => {
     <AppContainer sx={{ wordBreak: 'break-word', py: 4 }}>
       <AppDefaultSeoLayout title={'Testing | MaxAI.me'} />
 
-      <p>current language: {i18n.language}</p>
+      <p>current language: {preferredLanguage}</p>
       <h1>common:test : {t('common:test')}</h1>
       <h1>page:test1 : {t('page:test1')}</h1>
       <h1>page:test2 : {t('page:test2')}</h1>
@@ -62,11 +61,3 @@ const TestIngPage: FC = () => {
 };
 
 export default TestIngPage;
-
-export async function getStaticProps({ locale }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale)),
-    },
-  };
-}
