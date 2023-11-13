@@ -27,11 +27,6 @@ const AppHeader: FC = () => {
 
   const showDev = query.dev === '6b5e5b7d-4964-4a53-9349-6a57646bd86c';
 
-  const handleLanguageChange = (value: string) => {
-    // 用户手动
-    changeLanguage(value);
-  };
-
   if (isNotHeader) {
     return null;
   }
