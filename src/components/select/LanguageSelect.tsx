@@ -10,7 +10,7 @@ import { LANGUAGE_CODE_MAP } from '@/i18n/types';
 // value 是 key，label 是 value
 const LANGUAGES_OPTIONS = Object.keys(LANGUAGE_CODE_MAP).map((key) => ({
   value: key,
-  label: LANGUAGE_CODE_MAP[key].en_label,
+  label: LANGUAGE_CODE_MAP[key].label,
   origin: LANGUAGE_CODE_MAP[key],
 }));
 

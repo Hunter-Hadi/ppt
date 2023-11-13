@@ -33,7 +33,7 @@ export const LANGUAGE_CODE_MAP: {
   hr: { label: 'Hrvatski', en_label: 'Croatian' },
   hy: { label: 'Հայերեն', en_label: 'Armenian' },
   hu: { label: 'Magyar', en_label: 'Hungarian' },
-  in: { label: 'Bahasa Indonesia', en_label: 'Indonesian' },
+  in: { label: 'Bahasa Indonesia', en_label: 'Bahasa Indonesia' },
   id: { label: 'Indonesia', en_label: 'Indonesian' },
   it: { label: 'Italiano', en_label: 'Italian' },
   ja: { label: '日本語', en_label: 'Japanese' },

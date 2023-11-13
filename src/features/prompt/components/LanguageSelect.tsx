@@ -1,10 +1,4 @@
-import {
-  Autocomplete,
-  AutocompleteRenderInputParams,
-  InputLabelProps,
-  SxProps,
-  TextField,
-} from '@mui/material';
+import { Autocomplete, SxProps, TextField } from '@mui/material';
 import React, { FC } from 'react';
 
 const LANGUAGES_OPTIONS = [
@@ -161,9 +155,7 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
       filterOptions={filterOptions}
       renderInput={(params) => (
         <TextField
-          {...(params as AutocompleteRenderInputParams & {
-            InputLabelProps: React.PropsWithChildren<InputLabelProps>;
-          })}
+          {...params}
           label={label}
           inputProps={{
             ...params.inputProps,

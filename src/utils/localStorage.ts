@@ -1,3 +1,4 @@
+import { ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY } from '@/recoil/constants';
 import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint';
 
 export type ILocalStorageKeyType =
@@ -14,7 +15,8 @@ export type ILocalStorageKeyType =
   | 'CHART_TIME_SELECT_SAVE_DATA'
   | typeof FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY
   //记录是否在插件保存过 useid
-  | 'EXTENSION_SAVED_USER_ID_FLAG';
+  | 'EXTENSION_SAVED_USER_ID_FLAG'
+  | typeof ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY;
 export const setLocalStorage = (
   key: ILocalStorageKeyType,
   value: unknown,
