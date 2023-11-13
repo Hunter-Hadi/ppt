@@ -375,3 +375,7 @@ export const isInIframe = () => {
 //     return 'Chrome';
 //   }
 // };
+
+export function getBrowserLanguage() {
+  return navigator.language || navigator.languages[0];
+}
