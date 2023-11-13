@@ -259,9 +259,12 @@ const updateI18nJson = async (
   // 添加common, settings, client前缀
   const updateKeys = originUpdateKeys.map((key) => {
     if (lodash.get(sourceJson, `common.${key}`)) {
+      return `common.${key}`;
+    }
+    if (lodash.get(sourceJson, `pages.${key}`)) {
       return `pages.${key}`;
     }
-    if (lodash.get(sourceJson, `settings.${key}`)) {
+    if (lodash.get(sourceJson, `button.${key}`)) {
       return `button.${key}`;
     }
     return key;
