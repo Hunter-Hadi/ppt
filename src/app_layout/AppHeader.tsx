@@ -19,13 +19,11 @@ import CTAInstallButton from '@/page_components/CTAInstallButton';
 const NOT_HEADER_PATH = ['/zmo', '/partners/'];
 
 const AppHeader: FC = () => {
-  const { pathname, query } = useRouter();
+  const { pathname } = useRouter();
 
   const { currentLanguage, changeLanguage } = usePreferredLanguage();
 
   const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
-
-  const showDev = query.dev === '6b5e5b7d-4964-4a53-9349-6a57646bd86c';
 
   if (isNotHeader) {
     return null;
@@ -86,15 +84,13 @@ const AppHeader: FC = () => {
           </ProLink>
         </Box>
         <Stack direction={'row'} alignItems='center' spacing={1}>
-          {showDev && (
-            <LanguageSelect
-              sx={{
-                minWidth: 220,
-              }}
-              defaultValue={currentLanguage}
-              onChange={changeLanguage}
-            />
-          )}
+          <LanguageSelect
+            sx={{
+              minWidth: 220,
+            }}
+            defaultValue={currentLanguage}
+            onChange={changeLanguage}
+          />
           <CTAInstallButton
             sx={{
               width: 'max-content',
