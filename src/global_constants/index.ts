@@ -58,7 +58,7 @@ export const AD_BLOG_CHROME_EXTENSION_PNG =
 
 // youtube video
 export const PRIMARY_YOUTUBE_VIDEO_EMBED_URL =
-  'https://www.youtube.com/embed/Wv8iG7i6zMA';
+  'https://www.youtube.com/embed/d-c0YA56khg';
 
 export const QUOTA_TEXT = 'Free AI without a daily limit';
 
