@@ -26,7 +26,10 @@ function filterOptions(options: any[], { inputValue }: any) {
     const label = option.label.toLowerCase();
     const value = option.value.toLowerCase();
     const input = inputValue.toLowerCase();
-    return label.includes(input) || value.includes(input);
+    const enLabel = option.origin?.en_label?.toLowerCase() || '';
+    return (
+      label.includes(input) || value.includes(input) || enLabel.includes(input)
+    );
   });
 }
 
