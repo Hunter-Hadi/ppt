@@ -480,6 +480,12 @@ const HomePageContent: FC<IProps> = ({
           <Box>
             <CheckIcon />
           </Box>
+          <span>{t('home_page__best_extension__reason9')}</span>
+        </Typography>
+        <Typography variant={'body1'} component={'div'} fontSize={20}>
+          <Box>
+            <CheckIcon />
+          </Box>
           <span>{t('home_page__best_extension__reason1')}</span>
         </Typography>
         <Typography variant={'body1'} component={'div'} fontSize={20}>
@@ -523,12 +529,6 @@ const HomePageContent: FC<IProps> = ({
             <CheckIcon />
           </Box>
           <span>{t('home_page__best_extension__reason8')}</span>
-        </Typography>
-        <Typography variant={'body1'} component={'div'} fontSize={20}>
-          <Box>
-            <CheckIcon />
-          </Box>
-          <span>{t('home_page__best_extension__reason9')}</span>
         </Typography>
       </Stack>
       {annoyingButton && <CtaBtn />}
