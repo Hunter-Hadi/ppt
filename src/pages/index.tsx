@@ -48,7 +48,7 @@ const LandingPage = () => {
             zIndex: -1,
             pointerEvents: 'none',
           }}
-          src={`${APP_PROJECT_LINK}/landing?ref=${ref}`}
+          src={`${APP_PROJECT_LINK}/embed/refCache?ref=${ref}`}
           // src={`http://localhost:3000/landing?ref=${ref}`}
         />
       ) : null}
