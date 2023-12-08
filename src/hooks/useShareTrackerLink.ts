@@ -40,7 +40,7 @@ const useShareTrackerLink = (props?: IUseShareTrackerLinkProps) => {
   // pathname ref
   useEffect(() => {
     if (pathnameRefEnable) {
-      setRef(pathnameRefPrefix + pathname.replace(/\//g, '_'));
+      setRef(pathnameRefPrefix + pathname.slice(1).replace(/\//g, '_'));
     }
   }, [pathnameRefEnable, pathname, pathnameRefPrefix]);
 

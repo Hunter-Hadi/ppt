@@ -1,30 +1,25 @@
-import {
-  Backdrop,
-  Button,
-  CircularProgress,
-  Stack,
-  Typography,
-} from '@mui/material';
+import { Backdrop, CircularProgress, Stack, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
 import React, { useEffect, useMemo, useState } from 'react';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 
 import CopyTypography from '@/components/CopyTypography';
-import CustomIcon from '@/components/CustomIcon';
 import CustomModal from '@/components/CustomModal';
-import ProLink from '@/components/ProLink';
 import { useInitInviteCode } from '@/features/user';
-import { useInstallChromeExtensionLink } from '@/hooks';
+import useBrowserAgent from '@/hooks/useBrowserAgent';
 import { useInitI18n } from '@/i18n/hooks';
+import CTAInstallButton from '@/page_components/CTAInstallButton';
 import { AppState, ChromeExtensionDetectorState } from '@/store';
 
 const ChromeExtensionDetector = () => {
   const router = useRouter();
-  const { installChromeExtensionLink } = useInstallChromeExtensionLink();
   const [showModal, setShowModal] = useState(false);
   const setChromeExtensionDetector = useSetRecoilState(
     ChromeExtensionDetectorState,
   );
+
+  const { browserAgent } = useBrowserAgent();
+
   // 检测弹窗的方法.
   const handleCheckPopup = () => {
     // 检测逻辑
@@ -67,25 +62,9 @@ const ChromeExtensionDetector = () => {
         >
           <Stack spacing={2} p={4}>
             <Typography variant={'h5'}>
-              Install MaxAI.me Chrome extension to continue.
+              Install MaxAI.me {browserAgent} extension to continue.
             </Typography>
-            <ProLink
-              target={'_blank'}
-              href={installChromeExtensionLink}
-              sx={{ width: '100%' }}
-            >
-              <Button
-                fullWidth
-                variant={'contained'}
-                color={'primary'}
-                startIcon={<CustomIcon icon={'Chrome'} />}
-                sx={{
-                  height: 56,
-                }}
-              >
-                {`Add to Chrome for free`}
-              </Button>
-            </ProLink>
+            <CTAInstallButton variant='contained' />
             {promptCopyLink && (
               <Stack
                 direction={'row'}
