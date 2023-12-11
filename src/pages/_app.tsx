@@ -4,14 +4,13 @@ import '@/i18n';
 
 import CloseIcon from '@mui/icons-material/Close';
 import { IconButton, ThemeProvider } from '@mui/material';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 import { SnackbarKey, SnackbarProvider } from 'notistack';
 import React, { useEffect } from 'react';
-import { QueryClient, QueryClientProvider } from 'react-query';
-import { ReactQueryDevtools } from 'react-query/devtools';
 import { RecoilRoot } from 'recoil';
 
 import AppFooter from '@/app_layout/AppFooter';
@@ -98,7 +97,6 @@ function App({ Component, pageProps }: AppProps) {
           <SnackbarUtilsConfigurator />
           <ThemeProvider theme={customMuiTheme}>
             <QueryClientProvider client={queryClient}>
-              <ReactQueryDevtools initialIsOpen={false} />
               <AppInit />
               {!isEmbedPage && <AppHeader />}
               <Component {...pageProps} />

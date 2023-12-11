@@ -1,13 +1,24 @@
 import { Stack, Typography } from '@mui/material';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useRecoilValue } from 'recoil';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import { PromptListLayout, PromptTagSelector } from '@/features/prompt';
+import PromptLibrary from '@/features/prompt_library/components/PromptLibrary';
+import usePromptLibrary from '@/features/prompt_library/hooks/usePromptLibrary';
+import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
+import { ChromeExtensionDetectorState } from '@/store';
 
 const PromptsPage = () => {
-  const [loaded, setLoaded] = React.useState(false);
-
+  const { initPromptLibrary } = usePromptLibrary();
+  const { setMaxAIChromeExtensionInstallHandler } = usePromptLibraryAuth();
+  const { checkIsInstalled } = useRecoilValue(ChromeExtensionDetectorState);
+  useEffect(() => {
+    initPromptLibrary({});
+    setMaxAIChromeExtensionInstallHandler(async () => {
+      return checkIsInstalled();
+    });
+  }, [checkIsInstalled]);
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout
@@ -24,9 +35,15 @@ const PromptsPage = () => {
             for ChatGPT, Claude, Bard
           </Typography>
         </Stack>
-        <PromptTagSelector onLoaded={() => setLoaded(true)} />
       </Stack>
-      {loaded && <PromptListLayout />}
+      <PromptLibrary
+        runtime={'WebPage'}
+        sx={{
+          '.maxai__prompt_library__title': {
+            display: 'none',
+          },
+        }}
+      />
     </AppContainer>
   );
 };

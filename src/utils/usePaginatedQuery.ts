@@ -1,6 +1,6 @@
+import { keepPreviousData, useQuery } from '@tanstack/react-query';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { useQuery } from 'react-query';
 
 export interface PaginatedData<T> {
   data: T[];
@@ -52,19 +52,17 @@ const usePaginatedQuery = <T>(
   const { data, isLoading, isError, error, isFetching } = useQuery<
     PaginatedData<T>,
     unknown
-  >(
-    [...queryKey, current, pageSize],
-    async () => {
+  >({
+    queryKey: [...queryKey, current, pageSize],
+    queryFn: async () => {
       const result = await fetchFunction(current, pageSize);
       setTotal(result.total);
       return result;
     },
-    {
-      enabled,
-      keepPreviousData: true,
-      refetchOnWindowFocus: false,
-    },
-  );
+    enabled,
+    refetchOnWindowFocus: false,
+    placeholderData: keepPreviousData,
+  });
   const hasNextPage = current + 1 < Math.ceil(total / pageSize);
   const hasPrevPage = current > 0;
   useEffect(() => {

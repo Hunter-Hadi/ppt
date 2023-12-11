@@ -1,3 +1,6 @@
+import isArray from 'lodash-es/isArray'
+import mergeWith from 'lodash-es/mergeWith'
+
 export const objectFilterEmpty = (obj: any, filterEmptyString = true) => {
   const result: any = {};
   Object.keys(obj).forEach((key) => {
@@ -14,3 +17,11 @@ export const objectFilterEmpty = (obj: any, filterEmptyString = true) => {
   });
   return result;
 };
+export const mergeWithObject = (objects: any[]) => {
+  return mergeWith({}, ...objects, (objValue: any, srcValue: any) => {
+    if (isArray(srcValue)) {
+      return srcValue
+    }
+    return undefined
+  })
+}

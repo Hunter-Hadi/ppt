@@ -1,7 +1,7 @@
+import { useQuery } from '@tanstack/react-query';
 import { uniqBy } from 'lodash-es';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { useQuery } from 'react-query';
 
 import { IOptionType } from '@/components/select/BaseSelect';
 import {
@@ -31,18 +31,16 @@ const usePromptCategories = ({
     null,
   );
   const [searchKeyword, setSearchKeyword] = useState<string | null>(null);
-  const { isFetching, data } = useQuery(
-    [PROMPT_API.PROMPT_CATEGORY],
-    () =>
+  const { isFetching, data } = useQuery({
+    queryKey: [PROMPT_API.PROMPT_CATEGORY],
+    queryFn: () =>
       get<{
         status: string;
         data: IPromptCategoryApiData[];
         msg: string;
       }>(PROMPT_API.PROMPT_CATEGORY, {}),
-    {
-      refetchOnWindowFocus: false,
-    },
-  );
+    refetchOnWindowFocus: false,
+  });
   const setCategoryAndUseCase = (
     category: IOptionType,
     useCaseValue?: string,
