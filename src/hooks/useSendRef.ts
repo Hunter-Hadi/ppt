@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef } from 'react';
 
 import { APP_API } from '@/utils/api';
 import { botUuid, sendLarkBotMessage } from '@/utils/larkBot';
-import { post } from '@/utils/request';
+import { webappPost } from '@/utils/request';
 
 export const useSendRef = (
   options: {
@@ -21,7 +21,7 @@ export const useSendRef = (
     const ref = router.query.ref
       ? `${formatPrefix}${router.query.ref}`
       : `${formatPrefix}default`;
-    post(APP_API.REF_COUNT, {
+    webappPost(APP_API.REF_COUNT, {
       data: {
         ref,
         date,

@@ -9,7 +9,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import SingleSurvey from '@/components/survey/SingleSurvey';
 import { USER_API } from '@/utils/api';
 import { sendLarkBotMessage } from '@/utils/larkBot';
-import { post } from '@/utils/request';
+import { webappPost } from '@/utils/request';
 const { getBrowser } = new UAParser();
 
 const InstallPage: FC = () => {
@@ -109,7 +109,7 @@ const InstallPage: FC = () => {
               ] = `[${browserNamePrefix}]-${reasons[key]}`;
               delete reasons[key];
             });
-            await post(USER_API.SAVE_SURVEY_DATA, {
+            await webappPost(USER_API.SAVE_SURVEY_DATA, {
               survey_name: 'UninstallSurvey',
               survey_data: submitData,
             });

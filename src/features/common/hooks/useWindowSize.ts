@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react';
 
 interface WindowSize {
-  width: number | undefined
-  height: number | undefined
-  scrollHeight: number | undefined
-  scrollWidth: number | undefined
+  width: number | undefined;
+  height: number | undefined;
+  scrollHeight: number | undefined;
+  scrollWidth: number | undefined;
 }
 
 const useWindowSize = (): WindowSize => {
@@ -13,7 +13,7 @@ const useWindowSize = (): WindowSize => {
     height: undefined,
     scrollHeight: undefined,
     scrollWidth: undefined,
-  })
+  });
 
   useEffect(() => {
     const handleResize = () => {
@@ -22,22 +22,22 @@ const useWindowSize = (): WindowSize => {
         height: window.innerHeight,
         scrollHeight: document.body.scrollHeight,
         scrollWidth: document.body.scrollWidth,
-      })
-    }
+      });
+    };
 
     // 初次加载时获取窗口尺寸
-    handleResize()
+    handleResize();
 
     // 监听窗口尺寸变化
-    window.addEventListener('resize', handleResize)
+    window.addEventListener('resize', handleResize);
 
     // 组件卸载时移除事件监听
     return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [])
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
-  return windowSize
-}
+  return windowSize;
+};
 
-export default useWindowSize
+export default useWindowSize;

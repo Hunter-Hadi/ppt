@@ -6,53 +6,53 @@ import {
   Select,
   SelectProps,
   SxProps,
-} from '@mui/material'
-import React, { FC, useEffect, useMemo, useState } from 'react'
+} from '@mui/material';
+import React, { FC, useEffect, useMemo, useState } from 'react';
 
-import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
-import EmptyContent from '@/features/common/components/select/BaseSelect/EmptyContent'
-import { hasData } from '@/features/common/utils'
+import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
+import EmptyContent from '@/features/common/components/select/BaseSelect/EmptyContent';
+import { hasData } from '@/features/common/utils';
 
-type IOptionValueType = string | number
+type IOptionValueType = string | number;
 export type IOptionType = {
-  label: string
-  value: IOptionValueType
+  label: string;
+  value: IOptionValueType;
   // eslint-disable-next-line
-  origin?: any
-}
+  origin?: any;
+};
 type renderLabelFunctionType = (
   value: string | number,
   option: IOptionType,
   index: number,
-) => React.ReactNode
+) => React.ReactNode;
 export interface IBaseSelectProps
   extends Omit<Partial<SelectProps>, 'onChange'> {
-  defaultValue?: IOptionValueType
-  emptyText?: string
-  options: IOptionType[]
-  renderLabel?: renderLabelFunctionType
-  sx?: SxProps
+  defaultValue?: IOptionValueType;
+  emptyText?: string;
+  options: IOptionType[];
+  renderLabel?: renderLabelFunctionType;
+  sx?: SxProps;
   onChange?: (
     value: string | number,
     option: IOptionType,
     index: number,
-  ) => void
-  loading?: boolean
-  renderHeader?: React.ReactNode
-  renderFooter?: React.ReactNode
+  ) => void;
+  loading?: boolean;
+  renderHeader?: React.ReactNode;
+  renderFooter?: React.ReactNode;
 }
 
 const findCurrentOption = (options: IOptionType[], value: IOptionValueType) => {
-  let findIndex = 0
+  let findIndex = 0;
   const findOption = options.find((option, index) => {
     if (option.value === value) {
-      findIndex = index
-      return true
+      findIndex = index;
+      return true;
     }
-    return false
-  })
-  return [value, findOption, findIndex] as Parameters<renderLabelFunctionType>
-}
+    return false;
+  });
+  return [value, findOption, findIndex] as Parameters<renderLabelFunctionType>;
+};
 
 const BaseSelect: FC<IBaseSelectProps> = ({
   defaultValue,
@@ -69,45 +69,45 @@ const BaseSelect: FC<IBaseSelectProps> = ({
   label,
   ...props
 }) => {
-  const [selectValue, setSelectValue] = useState(defaultValue || '')
+  const [selectValue, setSelectValue] = useState(defaultValue || '');
   const isEmptyDataCache = useMemo(() => {
-    return !hasData(options) && !loading
-  }, [options, loading])
+    return !hasData(options) && !loading;
+  }, [options, loading]);
   const renderDom = (
     value: IOptionValueType,
     option: IOptionType,
     index: number,
   ) => {
     if (renderLabel) {
-      return renderLabel(value, option || {}, index)
+      return renderLabel(value, option || {}, index);
     }
-    return <ListItemText primary={option.label} />
-  }
+    return <ListItemText primary={option.label} />;
+  };
   useEffect(() => {
     if (!selectValue && defaultValue) {
-      setSelectValue(defaultValue)
+      setSelectValue(defaultValue);
     }
-  }, [defaultValue])
+  }, [defaultValue]);
   useEffect(() => {
     if (options.length && !loading && selectValue) {
       const selectOption = options.find(
         (option) => option.value === selectValue,
-      )
+      );
       if (!selectOption) {
-        setSelectValue('')
+        setSelectValue('');
       }
     }
-  }, [options, selectValue, loading])
+  }, [options, selectValue, loading]);
   const optionsRenderCache = useMemo(() => {
     return options.map((option, index) => (
       <MenuItem key={index} value={option.value}>
         {renderDom(option.value, option, index)}
       </MenuItem>
-    ))
-  }, [options, selectValue, renderDom])
+    ));
+  }, [options, selectValue, renderDom]);
   return (
     <FormControl>
-      {label && <InputLabel id="demo-simple-select-label">{label}</InputLabel>}
+      {label && <InputLabel id='demo-simple-select-label'>{label}</InputLabel>}
       <Select
         label={label}
         sx={{
@@ -123,17 +123,17 @@ const BaseSelect: FC<IBaseSelectProps> = ({
         }}
         value={selectValue}
         onChange={(event) => {
-          setSelectValue(event.target.value as string)
+          setSelectValue(event.target.value as string);
           onChange &&
             onChange(
               ...findCurrentOption(options, event.target.value as string),
-            )
+            );
         }}
         renderValue={(value) => {
           if ((!value && placeholder) || options.length === 0) {
-            return <em>{placeholder}</em>
+            return <em>{placeholder}</em>;
           }
-          return renderDom(...findCurrentOption(options, value as string))
+          return renderDom(...findCurrentOption(options, value as string));
         }}
         MenuProps={MenuProps}
         displayEmpty
@@ -146,6 +146,6 @@ const BaseSelect: FC<IBaseSelectProps> = ({
         {isEmptyDataCache && <EmptyContent emptyText={emptyText} />}
       </Select>
     </FormControl>
-  )
-}
-export default BaseSelect
+  );
+};
+export default BaseSelect;

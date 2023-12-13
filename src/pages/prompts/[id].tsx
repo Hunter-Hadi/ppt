@@ -34,7 +34,7 @@ import { RESOURCES_URL } from '@/global_constants';
 import Custom404 from '@/pages/404';
 import { PROMPT_API } from '@/utils/api';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
-import { IResponseData, post } from '@/utils/request';
+import { IResponseData, webappPost } from '@/utils/request';
 import { PaginatedData } from '@/utils/usePaginatedQuery';
 
 const sanitizeHtmlOptions = {
@@ -61,7 +61,7 @@ const PromptDetailPage: FC<{
     defaultPromptDetail,
   );
   useEffect(() => {
-    post<IResponseData<IPromptDetailData>>(PROMPT_API.GET_PROMPT_DETAIL, {
+    webappPost<IResponseData<IPromptDetailData>>(PROMPT_API.GET_PROMPT_DETAIL, {
       id,
     })
       .then((result) => {
@@ -381,7 +381,7 @@ export const listApiGetAllData = async (
 export const getStaticPaths: GetStaticPaths = async () => {
   const list = await listApiGetAllData(
     (page, page_size) =>
-      post<PaginatedData<IPromptCardData>>(
+      webappPost<PaginatedData<IPromptCardData>>(
         PROMPT_API.SEARCH_PROMPT,
         objectFilterEmpty({
           page,
@@ -412,7 +412,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         notFound: true,
       };
     }
-    const result = await post<IResponseData<IPromptDetailData>>(
+    const result = await webappPost<IResponseData<IPromptDetailData>>(
       PROMPT_API.GET_PROMPT_DETAIL,
       { id },
     );

@@ -1,23 +1,24 @@
-import React, { FC } from 'react'
-import Stack from '@mui/material/Stack'
-import { IPromptActionKey } from '@/features/prompt_library/types'
-import Skeleton from '@mui/material/Skeleton'
+import Skeleton from '@mui/material/Skeleton';
+import Stack from '@mui/material/Stack';
+import React, { FC } from 'react';
+
+import { IPromptActionKey } from '@/features/prompt_library/types';
 
 const PromptLibraryCardSkeleton: FC<{
-  actionKeys: IPromptActionKey[]
+  actionKeys: IPromptActionKey[];
 }> = (props) => {
-  const { actionKeys } = props
+  const { actionKeys } = props;
   return (
     <Stack
       p={2}
       spacing={1.5}
       onClick={() => {}}
       sx={(t) => {
-        const isDark = t.palette.mode === 'dark'
-        const normalBgcolor = isDark ? '#3E3F4C' : '#fff'
+        const isDark = t.palette.mode === 'dark';
+        const normalBgcolor = isDark ? '#3E3F4C' : '#fff';
         const shadowColor = isDark
           ? 'rgba(255, 255, 255, 0.08)'
-          : 'rgba(0, 0, 0, 0.16)'
+          : 'rgba(0, 0, 0, 0.16)';
 
         return {
           position: 'relative',
@@ -34,10 +35,10 @@ const PromptLibraryCardSkeleton: FC<{
           '&:hover': {
             boxShadow: `0px 4px 8px ${shadowColor}`,
           },
-        }
+        };
       }}
     >
-      <Stack direction="row" spacing={1.5} justifyContent="space-between">
+      <Stack direction='row' spacing={1.5} justifyContent='space-between'>
         <Skeleton
           variant={'rectangular'}
           width={0}
@@ -47,7 +48,7 @@ const PromptLibraryCardSkeleton: FC<{
             flex: 1,
           }}
         />
-        <Stack direction="row" fontSize={16} height="max-content" spacing={0.5}>
+        <Stack direction='row' fontSize={16} height='max-content' spacing={0.5}>
           {actionKeys.map((action) => {
             return (
               <Skeleton
@@ -56,7 +57,7 @@ const PromptLibraryCardSkeleton: FC<{
                 height={24}
                 key={action}
               />
-            )
+            );
           })}
         </Stack>
       </Stack>
@@ -103,6 +104,6 @@ const PromptLibraryCardSkeleton: FC<{
         />
       </Stack>
     </Stack>
-  )
-}
-export default PromptLibraryCardSkeleton
+  );
+};
+export default PromptLibraryCardSkeleton;

@@ -10,7 +10,7 @@ import {
 } from '@/features/prompt/types';
 import { PROMPT_API } from '@/utils/api';
 import { list2Options } from '@/utils/dataHelper/arrayHelper';
-import { get } from '@/utils/request';
+import { webappGet } from '@/utils/request';
 
 const usePromptCategories = ({
   defaultCategory,
@@ -34,7 +34,7 @@ const usePromptCategories = ({
   const { isFetching, data } = useQuery({
     queryKey: [PROMPT_API.PROMPT_CATEGORY],
     queryFn: () =>
-      get<{
+      webappGet<{
         status: string;
         data: IPromptCategoryApiData[];
         msg: string;

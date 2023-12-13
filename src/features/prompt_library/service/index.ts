@@ -1,14 +1,15 @@
-import { get, post } from '@/utils/request'
+import uniq from 'lodash-es/uniq';
+
 import {
-  IPromptLibraryCardData,
-  IPromptCategoryApiData,
-  IPromptLibraryListParametersState,
   IFavoritePromptListResponse,
   IOwnPromptListResponse,
+  IPromptCategoryApiData,
+  IPromptLibraryCardData,
   IPromptLibraryCardDetailData,
-} from '@/features/prompt_library/types'
-import uniq from 'lodash-es/uniq'
-import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper'
+  IPromptLibraryListParametersState,
+} from '@/features/prompt_library/types';
+import { get, post } from '@/utils/crx_request';
+import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
 
 export const PROMPT_LIBRARY_API = {
   GET_FAVOURITE_PROMPTS: '/prompt/get_favourite_prompts',
@@ -22,15 +23,15 @@ export const PROMPT_LIBRARY_API = {
   REMOVE_FAVOURITE_PROMPT: '/prompt/remove_favourite_prompt',
   DELETE_PROMPT: '/prompt/remove_own_prompt',
   EDIT_OWN_PROMPT: '/prompt/update_own_prompt',
-}
+};
 
 interface PaginatedData<T> {
-  data: T[]
-  current_page_size: number
-  total: number
-  current_page: number
-  msg: string
-  status: string
+  data: T[];
+  current_page_size: number;
+  total: number;
+  current_page: number;
+  msg: string;
+  status: string;
 }
 
 export default class PromptLibraryService {
@@ -42,26 +43,26 @@ export default class PromptLibraryService {
   static async getCategoryOptions(): Promise<IPromptCategoryApiData[]> {
     const response = await get<IPromptCategoryApiData[]>(
       PROMPT_LIBRARY_API.PROMPT_CATEGORY,
-    )
+    );
     if (response.status === 'OK' && response.data?.length) {
       // 因为数据库的问题，需要合并相同的category的use_case数组
-      const categoryMap = new Map<string, IPromptCategoryApiData>()
+      const categoryMap = new Map<string, IPromptCategoryApiData>();
       response.data.forEach((item) => {
         if (categoryMap.has(item.category)) {
-          const category = categoryMap.get(item.category)
+          const category = categoryMap.get(item.category);
           if (category) {
             category.use_cases = uniq([
               ...category.use_cases,
               ...item.use_cases,
-            ])
+            ]);
           }
         } else {
-          categoryMap.set(item.category, item)
+          categoryMap.set(item.category, item);
         }
-      })
-      return Array.from(categoryMap.values())
+      });
+      return Array.from(categoryMap.values());
     }
-    return []
+    return [];
   }
 
   /**
@@ -78,11 +79,11 @@ export default class PromptLibraryService {
         use_case: params.use_case === 'All' ? '' : params.use_case,
         keyword: params.query,
       }),
-    )
+    );
     if (response.status === 'OK') {
-      return response as PaginatedData<IPromptLibraryCardData>
+      return response as PaginatedData<IPromptLibraryCardData>;
     }
-    return undefined
+    return undefined;
   }
 
   /**
@@ -92,8 +93,8 @@ export default class PromptLibraryService {
     const res = await post<IFavoritePromptListResponse>(
       PROMPT_LIBRARY_API.GET_FAVOURITE_PROMPTS,
       {},
-    )
-    return (res.data?.favourite_prompts || []) as IPromptLibraryCardData[]
+    );
+    return (res.data?.favourite_prompts || []) as IPromptLibraryCardData[];
   }
 
   /**
@@ -106,8 +107,8 @@ export default class PromptLibraryService {
       {
         id,
       },
-    )
-    return response.status === 'OK'
+    );
+    return response.status === 'OK';
   }
 
   /**
@@ -120,8 +121,8 @@ export default class PromptLibraryService {
       {
         id,
       },
-    )
-    return res.status === 'OK'
+    );
+    return res.status === 'OK';
   }
 
   /**
@@ -131,8 +132,8 @@ export default class PromptLibraryService {
     const res = await post<IOwnPromptListResponse>(
       PROMPT_LIBRARY_API.GET_OWN_PROMPTS,
       {},
-    )
-    return (res.data?.own_prompts || []) as IPromptLibraryCardData[]
+    );
+    return (res.data?.own_prompts || []) as IPromptLibraryCardData[];
   }
 
   /**
@@ -145,8 +146,8 @@ export default class PromptLibraryService {
       {
         id,
       },
-    )
-    return result.data
+    );
+    return result.data;
   }
 
   /**
@@ -159,8 +160,8 @@ export default class PromptLibraryService {
       {
         id,
       },
-    )
-    return result.data
+    );
+    return result.data;
   }
   /**
    * 添加私有Prompt
@@ -171,8 +172,8 @@ export default class PromptLibraryService {
       ...promptData,
       prompt_hint: '_',
       id: '',
-    })
-    return result.data
+    });
+    return result.data;
   }
   /**
    * 编辑私有Prompt
@@ -185,8 +186,8 @@ export default class PromptLibraryService {
         ...promptData,
         prompt_hint: promptData.prompt_hint || '_',
       },
-    )
-    return result.data
+    );
+    return result.data;
   }
 
   /**
@@ -199,7 +200,7 @@ export default class PromptLibraryService {
       {
         id,
       },
-    )
-    return result.status === 'OK'
+    );
+    return result.status === 'OK';
   }
 }

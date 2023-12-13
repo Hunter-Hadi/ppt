@@ -1,20 +1,21 @@
-import Box from '@mui/material/Box'
-import CircularProgress from '@mui/material/CircularProgress'
-import Typography from '@mui/material/Typography'
-import React, { FC } from 'react'
-import { SxProps } from '@mui/material/styles'
-import { useTranslation } from 'react-i18next'
+import Box from '@mui/material/Box';
+import CircularProgress from '@mui/material/CircularProgress';
+import { SxProps } from '@mui/material/styles';
+import Typography from '@mui/material/Typography';
+import React, { FC } from 'react';
+import { useTranslation } from 'react-i18next';
+
 const AppLoadingLayout: FC<{
-  loading: boolean
-  loadingText?: string
-  size?: number
-  sx?: SxProps
-  children?: React.ReactNode
+  loading: boolean;
+  loadingText?: string;
+  size?: number;
+  sx?: SxProps;
+  children?: React.ReactNode;
 }> = ({ loading, loadingText, size = 20, sx, children }) => {
-  const { t } = useTranslation(['common'])
+  const { t } = useTranslation(['common']);
   const loadingTextMemo = React.useMemo(() => {
-    return loadingText || t('common:loading')
-  }, [loadingText, t])
+    return loadingText || t('common:loading');
+  }, [loadingText, t]);
   return (
     <React.Fragment>
       {loading ? (
@@ -35,7 +36,7 @@ const AppLoadingLayout: FC<{
           {loadingTextMemo && (
             <Typography
               mt={1.5}
-              variant="body2"
+              variant='body2'
               fontWeight={400}
               fontSize={'16px'}
               lineHeight={1.25}
@@ -49,6 +50,6 @@ const AppLoadingLayout: FC<{
         children
       )}
     </React.Fragment>
-  )
-}
-export default AppLoadingLayout
+  );
+};
+export default AppLoadingLayout;

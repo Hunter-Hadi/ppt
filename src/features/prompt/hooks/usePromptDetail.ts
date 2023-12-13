@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 
 import { IPromptDetailData } from '@/features/prompt/types';
 import { PROMPT_API } from '@/utils/api';
-import { IResponseData, post } from '@/utils/request';
+import { IResponseData, webappPost } from '@/utils/request';
 
 const usePromptDetail = (id?: string) => {
   return useQuery({
@@ -11,7 +11,7 @@ const usePromptDetail = (id?: string) => {
       if (!id) {
         return null;
       }
-      return post<IResponseData<IPromptDetailData>>(
+      return webappPost<IResponseData<IPromptDetailData>>(
         PROMPT_API.GET_PROMPT_DETAIL,
         {
           id,

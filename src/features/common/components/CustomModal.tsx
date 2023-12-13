@@ -1,21 +1,21 @@
-import CloseIcon from '@mui/icons-material/Close'
-import Box from '@mui/material/Box'
-import Fade from '@mui/material/Fade'
-import IconButton from '@mui/material/IconButton'
-import Paper from '@mui/material/Paper'
-import { SxProps, lighten } from '@mui/material/styles'
-import Modal, { ModalProps } from '@mui/material/Modal'
-import React, { FC } from 'react'
+import CloseIcon from '@mui/icons-material/Close';
+import Box from '@mui/material/Box';
+import Fade from '@mui/material/Fade';
+import IconButton from '@mui/material/IconButton';
+import Modal, { ModalProps } from '@mui/material/Modal';
+import Paper from '@mui/material/Paper';
+import { lighten, SxProps } from '@mui/material/styles';
+import React, { FC } from 'react';
 
 interface IProps extends Omit<ModalProps, 'children' | 'onClose' | 'open'> {
-  show: boolean
-  onClose?: (reason?: string) => void
-  sx?: SxProps
-  bgTransparent?: boolean
-  maxWidth?: string | number
-  width?: string | number
-  height?: string | number
-  children?: JSX.Element
+  show: boolean;
+  onClose?: (reason?: string) => void;
+  sx?: SxProps;
+  bgTransparent?: boolean;
+  maxWidth?: string | number;
+  width?: string | number;
+  height?: string | number;
+  children?: JSX.Element;
 }
 
 const CustomModal: FC<IProps> = ({
@@ -30,8 +30,8 @@ const CustomModal: FC<IProps> = ({
   ...restProps
 }) => {
   const handleClose = (event: any, reason: string) => {
-    if (onClose) onClose(reason)
-  }
+    if (onClose) onClose(reason);
+  };
 
   return (
     <Modal open={show} onClose={handleClose} disablePortal {...restProps}>
@@ -40,7 +40,7 @@ const CustomModal: FC<IProps> = ({
       <>
         <Fade in={show}>
           <Paper
-            id="mui-modal"
+            id='mui-modal'
             sx={[
               {
                 width: width ?? '90vw',
@@ -70,7 +70,7 @@ const CustomModal: FC<IProps> = ({
             <Box sx={{ position: 'fixed', top: 16, left: 16 }}>
               <IconButton
                 onClick={() => {
-                  onClose && onClose('closeBtn')
+                  onClose && onClose('closeBtn');
                 }}
                 sx={{
                   color: 'white',
@@ -88,7 +88,7 @@ const CustomModal: FC<IProps> = ({
         </Fade>
       </>
     </Modal>
-  )
-}
+  );
+};
 
-export default CustomModal
+export default CustomModal;

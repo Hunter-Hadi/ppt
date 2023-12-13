@@ -1,19 +1,19 @@
-import { OptionsObject, SnackbarMessage } from 'notistack'
+import { OptionsObject, SnackbarMessage } from 'notistack';
 
-import { getMaxAISidebarRootElement } from '@/features/common/utils'
-import { DEFAULT_PROMPT_VARIABLE } from '@/features/prompt_library/constant'
-import { IPromptLibraryCardDetailVariable } from '@/features/prompt_library/types'
-import Toast from '@/utils/globalSnackbar'
+import { getMaxAISidebarRootElement } from '@/features/common/utils';
+import { DEFAULT_PROMPT_VARIABLE } from '@/features/prompt_library/constant';
+import { IPromptLibraryCardDetailVariable } from '@/features/prompt_library/types';
+import Toast from '@/utils/globalSnackbar';
 
 /**
  * 渲染需要portal container的地方的根级容器
  */
 export const getPromptLibraryPortalContainerRoot = () => {
-  return getMaxAISidebarRootElement()
-}
+  return getMaxAISidebarRootElement();
+};
 export const promptActionToast = {
   success: (msg: SnackbarMessage, options: OptionsObject = {}) =>
-    Toast.success(msg, {
+    Toast.success(msg as string, {
       anchorOrigin: {
         vertical: 'bottom',
         horizontal: 'left',
@@ -21,7 +21,7 @@ export const promptActionToast = {
       ...options,
     }),
   warning: (msg: SnackbarMessage, options: OptionsObject = {}) =>
-    Toast.warning(msg, {
+    Toast.warning(msg as string, {
       anchorOrigin: {
         vertical: 'bottom',
         horizontal: 'left',
@@ -29,7 +29,7 @@ export const promptActionToast = {
       ...options,
     }),
   info: (msg: SnackbarMessage, options: OptionsObject = {}) =>
-    Toast.info(msg, {
+    Toast.info(msg as string, {
       anchorOrigin: {
         vertical: 'bottom',
         horizontal: 'left',
@@ -37,56 +37,57 @@ export const promptActionToast = {
       ...options,
     }),
   error: (msg: SnackbarMessage, options: OptionsObject = {}) =>
-    Toast.error(msg, {
+    Toast.error(msg as string, {
       anchorOrigin: {
         vertical: 'bottom',
         horizontal: 'left',
       },
       ...options,
     }),
-}
+};
 export const isLiveCrawling = (
   variables?: IPromptLibraryCardDetailVariable[],
 ) => {
   if (!variables) {
-    return false
+    return false;
   }
-  return variables.some((variable) => variable.type === 'livecrawling')
-}
+  return variables.some((variable) => variable.type === 'livecrawling');
+};
 
 const variableTypeWithInputVariable: Record<string, string[]> = {
   livecrawling: ['Live Crawling Target URL'],
   websearch: ['Web Search Query'],
-}
+};
 // 1. 如果 variable_types 包含了系统预设变量的类型，但是又没有该变量类型的 input variable（比如url、query），则需要添加一个
 export const handleVariableTypeWithInputVariable = (
   variables: IPromptLibraryCardDetailVariable[],
   variableTypes: string[],
 ) => {
   if (variableTypes.length > 0 && variables) {
-    const withInputVariableTypes = Object.keys(variableTypeWithInputVariable)
+    const withInputVariableTypes = Object.keys(variableTypeWithInputVariable);
     variableTypes.forEach((type) => {
       if (withInputVariableTypes.includes(type)) {
-        const currentTypeInputVariables: IPromptLibraryCardDetailVariable[] = []
+        const currentTypeInputVariables: IPromptLibraryCardDetailVariable[] =
+          [];
         variableTypeWithInputVariable[type].forEach((withTypeVariable) => {
           const inputVariable = DEFAULT_PROMPT_VARIABLE.find(
             (item) => item.name === withTypeVariable,
-          )
-          inputVariable && currentTypeInputVariables.push(inputVariable)
-        })
+          );
+          inputVariable && currentTypeInputVariables.push(inputVariable);
+        });
         if (currentTypeInputVariables.length > 0) {
           const newInsertInputVariables = currentTypeInputVariables?.filter(
             (variable) => {
-              return !variables?.some((item) => item.name === variable.name)
+              return !variables?.some((item) => item.name === variable.name);
             },
-          )
+          );
           if (newInsertInputVariables && newInsertInputVariables.length > 0) {
-            variables = variables?.concat(newInsertInputVariables)
+            variables = variables?.concat(newInsertInputVariables);
           }
         }
       }
-    })
+    });
   }
 
-  return variables
-}
+  return variables;
+};
