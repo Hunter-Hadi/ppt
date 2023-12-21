@@ -1,6 +1,7 @@
 import {
   AppBar,
   Box,
+  buttonClasses,
   Divider,
   Stack,
   Toolbar,
@@ -86,10 +87,20 @@ const AppHeader: FC = () => {
         <Stack direction={'row'} alignItems='center' spacing={1}>
           <LanguageSelect
             sx={{
-              minWidth: 220,
+              // minWidth: 220,
+              width: {
+                xs: 80,
+                sm: 160,
+              },
+              '& .MuiAutocomplete-popper': {
+                bgcolor: 'red',
+              },
             }}
             defaultValue={currentLanguage}
             onChange={changeLanguage}
+            popperSx={{
+              width: '160px !important',
+            }}
           />
           <CTAInstallButton
             sx={{
@@ -97,6 +108,12 @@ const AppHeader: FC = () => {
               height: { xs: 48, sm: 56 },
               fontSize: 18,
               fontWeight: 600,
+              [`& .${buttonClasses.startIcon}`]: {
+                display: {
+                  xs: 'none',
+                  sm: 'inherit',
+                },
+              },
             }}
             trackerLinkProps={{
               queryRefEnable: false,

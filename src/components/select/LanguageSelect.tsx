@@ -1,3 +1,4 @@
+import { Popper } from '@mui/material';
 import Autocomplete from '@mui/material/Autocomplete';
 import { SxProps } from '@mui/material/styles';
 import TextField from '@mui/material/TextField';
@@ -19,6 +20,7 @@ interface LanguageSelectProps {
   defaultValue?: string;
   onChange?: (value: string) => void;
   sx?: SxProps;
+  popperSx?: SxProps;
 }
 
 function filterOptions(options: any[], { inputValue }: any) {
@@ -41,6 +43,7 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
       console.log(value);
     },
     sx,
+    popperSx,
   } = props;
   const { t } = useTranslation(['common']);
   const [value, setValue] = React.useState<{ label: string; value: string }>(
@@ -76,6 +79,11 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
             autoComplete: 'off', // disable autocomplete and autofill
           }}
         />
+      )}
+      PopperComponent={({ children, ...props }) => (
+        <Popper {...props} sx={popperSx}>
+          {children}
+        </Popper>
       )}
     />
   );
