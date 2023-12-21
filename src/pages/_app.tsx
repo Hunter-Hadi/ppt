@@ -4,7 +4,7 @@ import '@/i18n';
 
 import CloseIcon from '@mui/icons-material/Close';
 import { IconButton, ThemeProvider } from '@mui/material';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
@@ -68,6 +68,7 @@ function App({ Component, pageProps }: AppProps) {
         }}
       ></Script>
       <RecoilRoot>
+        {/*// @ts-ignore*/}
         <SnackbarProvider
           maxSnack={3}
           preventDuplicate
@@ -99,6 +100,7 @@ function App({ Component, pageProps }: AppProps) {
             <QueryClientProvider client={queryClient}>
               <AppInit />
               {!isEmbedPage && <AppHeader />}
+              {/*// @ts-ignore*/}
               <Component {...pageProps} />
               {!isEmbedPage && <AppFooter />}
             </QueryClientProvider>
