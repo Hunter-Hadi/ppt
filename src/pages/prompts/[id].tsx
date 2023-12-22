@@ -16,6 +16,7 @@ import { useTheme } from '@mui/material/styles';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import React, { FC, useEffect, useMemo, useState } from 'react';
+import { useRecoilValue } from 'recoil';
 import sanitizeHtml from 'sanitize-html';
 import sanitize from 'sanitize-html';
 
@@ -38,9 +39,11 @@ import {
   isLiveCrawling,
   renderTemplate,
 } from '@/features/prompt/utils';
+import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
 import { promptLibraryCardDetailDataToActions } from '@/features/shortcuts/utils/promptInterpreter';
 import { RESOURCES_URL } from '@/global_constants';
 import Custom404 from '@/pages/404';
+import { ChromeExtensionDetectorState } from '@/store';
 import { PROMPT_API } from '@/utils/api';
 import { generateRandomColorWithTheme } from '@/utils/dataHelper/colorHelper';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
@@ -65,6 +68,16 @@ const PromptDetailPage: FC<{
 }> = (props) => {
   const theme = useTheme();
   const { seo, defaultPromptDetail, notFound, id } = props;
+  const {
+    checkMaxAIChromeExtensionInstall,
+    setMaxAIChromeExtensionInstallHandler,
+  } = usePromptLibraryAuth();
+  const { checkIsInstalled } = useRecoilValue(ChromeExtensionDetectorState);
+  useEffect(() => {
+    setMaxAIChromeExtensionInstallHandler(async () => {
+      return checkIsInstalled();
+    });
+  }, [checkIsInstalled]);
   const [loaded, setLoaded] = useState<boolean>(
     defaultPromptDetail?.prompt_template !== undefined,
   );
@@ -296,11 +309,13 @@ const PromptDetailPage: FC<{
                 variant={'contained'}
                 color={'primary'}
                 startIcon={<SendIcon fontSize={'inherit'} />}
-                onClick={() => {
+                onClick={async () => {
                   if (promptDetail) {
-                    webPageRunMaxAIShortcuts(
-                      promptLibraryCardDetailDataToActions(promptDetail),
-                    );
+                    if (await checkMaxAIChromeExtensionInstall()) {
+                      webPageRunMaxAIShortcuts(
+                        promptLibraryCardDetailDataToActions(promptDetail),
+                      );
+                    }
                   }
                 }}
               >

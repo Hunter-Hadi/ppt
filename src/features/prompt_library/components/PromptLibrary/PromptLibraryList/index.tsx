@@ -9,6 +9,7 @@ import PromptLibraryCard from '@/features/prompt_library/components/PromptLibrar
 import PromptLibraryCardSkeleton from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard/PromptLibraryCardSkeleton';
 import PromptLibraryPagination from '@/features/prompt_library/components/PromptLibrary/PromptLibraryHeader/PrompLibraryPagination';
 import AddOwnPromptCard from '@/features/prompt_library/components/PromptLibrary/PromptLibraryList/AddOwnPromptCard';
+import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
 import usePromptLibraryBreakpoint from '@/features/prompt_library/hooks/usePromptLibraryBreakpoint';
 import usePromptLibraryList from '@/features/prompt_library/hooks/usePromptLibraryList';
 import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
@@ -23,6 +24,7 @@ const PromptLibraryList: FC<{
   onClick?: (promptLibraryCard?: IPromptLibraryCardData) => void;
 }> = (props) => {
   const { onClick } = props;
+  const { checkMaxAIChromeExtensionInstall } = usePromptLibraryAuth();
   const { promptLibraryRuntime } = useContext(PromptLibraryRuntimeContext)!;
   const { data, isLoading, isFetching } = usePromptLibraryList();
   const { activeTab, promptLibraryListParameters } =
@@ -73,12 +75,14 @@ const PromptLibraryList: FC<{
             <PromptLibraryCard
               actionButton={actionButton}
               prompt={prompt}
-              onClick={(promptData) => {
+              onClick={async (promptData) => {
                 if (promptLibraryRuntime === 'WebPage') {
                   if (promptData) {
-                    webPageRunMaxAIShortcuts(
-                      promptLibraryCardDetailDataToActions(promptData),
-                    );
+                    if (await checkMaxAIChromeExtensionInstall()) {
+                      webPageRunMaxAIShortcuts(
+                        promptLibraryCardDetailDataToActions(promptData),
+                      );
+                    }
                   } else {
                     webPageCloseSidebar();
                   }
