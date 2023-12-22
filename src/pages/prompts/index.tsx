@@ -13,9 +13,8 @@ import { ChromeExtensionDetectorState } from '@/store';
 
 const PromptsPage = () => {
   const router = useRouter();
-  const { initPromptLibrary, promptLibrary } = usePromptLibrary();
-  const { promptLibraryListParameters, updatePromptLibraryListParameters } =
-    usePromptLibraryParameters();
+  const { initPromptLibrary } = usePromptLibrary();
+  const { promptLibraryListParameters } = usePromptLibraryParameters();
   const { setMaxAIChromeExtensionInstallHandler } = usePromptLibraryAuth();
   const { checkIsInstalled } = useRecoilValue(ChromeExtensionDetectorState);
   useEffect(() => {

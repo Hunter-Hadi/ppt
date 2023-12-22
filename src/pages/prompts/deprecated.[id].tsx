@@ -2,7 +2,6 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';
-import SendIcon from '@mui/icons-material/Send';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import {
   Breadcrumbs,
@@ -12,10 +11,10 @@ import {
   Stack,
   Typography,
 } from '@mui/material';
-import { useTheme } from '@mui/material/styles';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import React, { FC, useEffect, useMemo, useState } from 'react';
+import { useRecoilValue } from 'recoil';
 import sanitizeHtml from 'sanitize-html';
 import sanitize from 'sanitize-html';
 
@@ -24,25 +23,16 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import CopyTypography from '@/components/CopyTypography';
 import ProLink from '@/components/ProLink';
-import { webPageRunMaxAIShortcuts } from '@/features/common/utils/postMessageToCRX';
 import { PromptCardTag, useSharePromptLinks } from '@/features/prompt';
 import LiveCrawlingFlag from '@/features/prompt/components/LiveCrawlingFlag';
+import RunPromptSettingSelector from '@/features/prompt/components/RunPromptSettingSelector';
 import { RENDERED_TEMPLATE_PROMPT_DOM_ID } from '@/features/prompt/constant';
-import {
-  IPromptCardData,
-  IPromptDetailData,
-  IPromptVariable,
-} from '@/features/prompt/types';
-import {
-  generateVariableHtmlContent,
-  isLiveCrawling,
-  renderTemplate,
-} from '@/features/prompt/utils';
-import { promptLibraryCardDetailDataToActions } from '@/features/shortcuts/utils/promptInterpreter';
+import { RenderedTemplatePromptAtom } from '@/features/prompt/store/runPromptSettings';
+import { IPromptCardData, IPromptDetailData } from '@/features/prompt/types';
+import { isLiveCrawling } from '@/features/prompt/utils';
 import { RESOURCES_URL } from '@/global_constants';
 import Custom404 from '@/pages/404';
 import { PROMPT_API } from '@/utils/api';
-import { generateRandomColorWithTheme } from '@/utils/dataHelper/colorHelper';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
 import { IResponseData, webappPost } from '@/utils/request';
 import { PaginatedData } from '@/utils/usePaginatedQuery';
@@ -54,6 +44,11 @@ const sanitizeHtmlOptions = {
   disallowedTagsMode: 'recursiveEscape',
 } as sanitize.IOptions;
 
+/**
+ * @deprecated
+ * @param props
+ * @constructor
+ */
 const PromptDetailPage: FC<{
   id?: string;
   seo: {
@@ -63,7 +58,6 @@ const PromptDetailPage: FC<{
   notFound?: boolean;
   defaultPromptDetail: IPromptDetailData | null;
 }> = (props) => {
-  const theme = useTheme();
   const { seo, defaultPromptDetail, notFound, id } = props;
   const [loaded, setLoaded] = useState<boolean>(
     defaultPromptDetail?.prompt_template !== undefined,
@@ -92,29 +86,17 @@ const PromptDetailPage: FC<{
         setLoaded(true);
       });
   }, [id]);
+  const renderedTemplatePrompt = useRecoilValue(RenderedTemplatePromptAtom);
 
   const copyRenderedTemplatePromptMemo = useMemo(() => {
-    const { prompt_template = '', variables = [] } = promptDetail || {};
-
-    const moreVariables = variables.reduce((pre, cur) => {
-      pre[cur.name] = generateVariableHtmlContent(
-        {
-          name: `{{${cur.name}}}`,
-          color: generateRandomColorWithTheme(
-            cur.name,
-            theme.palette.mode === 'dark',
-          ),
-        } as IPromptVariable,
-        false,
-        false,
-      );
-      return pre;
-    }, {} as Record<string, any>);
-    const result = renderTemplate(prompt_template, {
-      ...moreVariables,
-    });
-    return result.data;
-  }, [promptDetail, theme.palette.mode]);
+    if (typeof window !== 'undefined') {
+      const div = document.createElement('div');
+      div.innerHTML = renderedTemplatePrompt;
+      return div.innerText;
+    } else {
+      return '';
+    }
+  }, [renderedTemplatePrompt]);
 
   const [shareMenuAnchorEl, setShareMenuAnchorEl] =
     useState<null | HTMLElement>(null);
@@ -286,37 +268,16 @@ const PromptDetailPage: FC<{
                 }`}
               />
             </Stack>
-            <Stack
-              direction={'row'}
-              alignItems={'center'}
-              justifyContent={'end'}
-            >
-              <Button
-                sx={{ flexShrink: 0, height: 45 }}
-                variant={'contained'}
-                color={'primary'}
-                startIcon={<SendIcon fontSize={'inherit'} />}
-                onClick={() => {
-                  if (promptDetail) {
-                    webPageRunMaxAIShortcuts(
-                      promptLibraryCardDetailDataToActions(promptDetail),
-                    );
-                  }
-                }}
-              >
-                Run this prompt
-              </Button>
-            </Stack>
+
+            <Stack sx={{ height: '16px' }} />
+            <RunPromptSettingSelector
+              promptDetail={promptDetail}
+              promptId={id as string}
+            />
           </Stack>
-          {/*<Stack>*/}
-          {/*  <p>language: {language}</p>*/}
-          {/*  <p>tone: {tone}</p>*/}
-          {/*  <p>writingStyle: {writingStyle}</p>*/}
-          {/*  <p>prompt: {prompt}</p>*/}
-          {/*</Stack>*/}
         </AppContainer>
         <AppContainer>
-          {promptDetail?.prompt_template && (
+          {renderedTemplatePrompt && (
             <Stack my={1} mb={4} position={'relative'}>
               <Stack
                 direction={'row'}
@@ -384,7 +345,7 @@ const PromptDetailPage: FC<{
               >
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: copyRenderedTemplatePromptMemo,
+                    __html: renderedTemplatePrompt,
                   }}
                 ></div>
               </Typography>
