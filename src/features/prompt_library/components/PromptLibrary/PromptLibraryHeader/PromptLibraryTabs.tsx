@@ -1,21 +1,22 @@
-import styled from '@emotion/styled'
-import FavoriteIcon from '@mui/icons-material/Favorite'
-import Box from '@mui/material/Box'
-import { buttonBaseClasses } from '@mui/material/ButtonBase'
-import { Theme } from '@mui/material/styles'
-import Tab, { tabClasses } from '@mui/material/Tab'
-import Tabs, { tabsClasses, TabsProps } from '@mui/material/Tabs'
-import React, { FC, useContext } from 'react'
-import { useTranslation } from 'react-i18next'
+import styled from '@emotion/styled';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import Box from '@mui/material/Box';
+import { buttonBaseClasses } from '@mui/material/ButtonBase';
+import { Theme } from '@mui/material/styles';
+import Tab, { tabClasses } from '@mui/material/Tab';
+import Tabs, { tabsClasses, TabsProps } from '@mui/material/Tabs';
+import React, { FC, useContext } from 'react';
+import { useTranslation } from 'react-i18next';
 
-import { webPageOpenMaxAIImmersiveChat } from '@/features/common/utils/postMessageToCRX'
-import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters'
-import { PromptLibraryRuntimeContext } from '@/features/prompt_library/store'
+import { webPageOpenMaxAIImmersiveChat } from '@/features/common/utils/postMessageToCRX';
+import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
+import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
+import { PromptLibraryRuntimeContext } from '@/features/prompt_library/store';
 
 const CustomTabs = styled(({ ...props }: TabsProps) => <Tabs {...props} />)(
   ({ theme }) => {
-    const t = theme as Theme
-    const isDark = t.palette.mode === 'dark'
+    const t = theme as Theme;
+    const isDark = t.palette.mode === 'dark';
     return {
       '&': {
         // background: '#f00',
@@ -38,30 +39,33 @@ const CustomTabs = styled(({ ...props }: TabsProps) => <Tabs {...props} />)(
       [`.${buttonBaseClasses.root}`]: {
         fontSize: '16px',
       },
-    }
+    };
   },
-)
+);
 
 /**
  * PromptLibrary的Tabs组件
  * @constructor
  */
 const PromptLibraryTabs: FC = () => {
-  const { t } = useTranslation(['prompt_library'])
-  const { activeTab, updateActiveTab } = usePromptLibraryParameters()
-  const { promptLibraryRuntime } = useContext(PromptLibraryRuntimeContext)!
+  const { t } = useTranslation(['prompt_library']);
+  const { activeTab, updateActiveTab } = usePromptLibraryParameters();
+  const { checkMaxAIChromeExtensionInstall } = usePromptLibraryAuth();
+  const { promptLibraryRuntime } = useContext(PromptLibraryRuntimeContext)!;
   return (
     <Box flex={1} flexBasis={'100%'}>
       <CustomTabs
         value={activeTab}
-        variant="fullWidth"
-        onChange={(event, newValue) => {
+        variant='fullWidth'
+        onChange={async (event, newValue) => {
           if (newValue !== 'Public' && promptLibraryRuntime === 'WebPage') {
-            // 跳转去ImmersiveChat
-            webPageOpenMaxAIImmersiveChat()
-            return
+            if (await checkMaxAIChromeExtensionInstall()) {
+              // 跳转去ImmersiveChat
+              webPageOpenMaxAIImmersiveChat();
+            }
+            return;
           }
-          updateActiveTab(newValue)
+          updateActiveTab(newValue);
         }}
       >
         <Tab
@@ -72,7 +76,7 @@ const PromptLibraryTabs: FC = () => {
               }}
             />
           }
-          iconPosition="start"
+          iconPosition='start'
           value={'Favorites'}
           label={t('prompt_library:tab__favorites__title')}
         />
@@ -80,6 +84,6 @@ const PromptLibraryTabs: FC = () => {
         <Tab value={'Own'} label={t('prompt_library:tab__own__title')} />
       </CustomTabs>
     </Box>
-  )
-}
-export default PromptLibraryTabs
+  );
+};
+export default PromptLibraryTabs;
