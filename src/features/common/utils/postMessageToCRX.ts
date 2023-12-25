@@ -43,13 +43,13 @@ const postMessageToCRX = async <T>(
   });
 };
 
-export const webPageOpenMaxAIImmersiveChat = () => {
+export const webPageOpenMaxAIImmersiveChat = (query: string = '') => {
   return postMessageToCRX(
     window,
     'OPEN_URL',
     {
       key: 'immersive_chat',
-      query: '',
+      query,
       active: true,
     },
     '*',
