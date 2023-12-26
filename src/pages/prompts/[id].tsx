@@ -16,6 +16,7 @@ import { useTheme } from '@mui/material/styles';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import React, { FC, useEffect, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useRecoilValue } from 'recoil';
 import sanitizeHtml from 'sanitize-html';
 import sanitize from 'sanitize-html';
@@ -67,6 +68,7 @@ const PromptDetailPage: FC<{
   defaultPromptDetail: IPromptDetailData | null;
 }> = (props) => {
   const theme = useTheme();
+  const { t } = useTranslation(['pages']);
   const { seo, defaultPromptDetail, notFound, id } = props;
   const {
     checkMaxAIChromeExtensionInstall,
@@ -145,7 +147,9 @@ const PromptDetailPage: FC<{
           <CopyTypography wrapperMode text={shareLink}>
             <Stack direction='row' alignItems='center' gap={1} fontSize={16}>
               <ContentCopyIcon fontSize={'inherit'} />
-              <Typography variant='body2'>Copy link</Typography>
+              <Typography variant='body2'>
+                {t('pages:prompt_detail_page__button__copy_link')}
+              </Typography>
             </Stack>
           </CopyTypography>
         ),
@@ -203,7 +207,7 @@ const PromptDetailPage: FC<{
         ),
       },
     ];
-  }, [shareLink, twitterShareLink, emailShareLink, facobookShareLink]);
+  }, [shareLink, twitterShareLink, emailShareLink, facobookShareLink, t]);
 
   const handleShareMenuClose = () => {
     setShareMenuAnchorEl(null);
@@ -319,7 +323,7 @@ const PromptDetailPage: FC<{
                   }
                 }}
               >
-                Run this prompt
+                {t('pages:prompt_detail_page__button__run_this_prompt')}
               </Button>
             </Stack>
           </Stack>
@@ -361,7 +365,7 @@ const PromptDetailPage: FC<{
                     color={'primary'}
                     startIcon={<ContentCopyIcon fontSize={'inherit'} />}
                   >
-                    Copy prompt
+                    {t('pages:prompt_detail_page__button__copy_prompt')}
                   </Button>
                 </CopyTypography>
                 <Button
@@ -370,7 +374,7 @@ const PromptDetailPage: FC<{
                   startIcon={<IosShareOutlinedIcon fontSize={'inherit'} />}
                   onClick={(e) => setShareMenuAnchorEl(e.currentTarget)}
                 >
-                  Share prompt
+                  {t('pages:prompt_detail_page__button__share_prompt')}
                 </Button>
                 <Menu
                   anchorEl={shareMenuAnchorEl}

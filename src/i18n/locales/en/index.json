@@ -83,7 +83,12 @@
     "home_page__perk__title": "Perk: 1-Click ChatGPT Prompts",
     "home_page__perk__desc1": "Revolutionize your everyday tasks with 1-Click ChatGPT Prompts.",
     "home_page__perk__desc2": "Turn hours-long tasks into minutes using our expanding collection of prompts for marketing, sales, copywriting, operation, productivity, and customer support.",
-    "home_page__perk__get_it_for_free": "Get it for free on"
+    "home_page__perk__get_it_for_free": "Get it for free on",
+
+    "prompt_detail_page__button__run_this_prompt": "Run this prompt",
+    "prompt_detail_page__button__copy_prompt": "Copy prompt",
+    "prompt_detail_page__button__share_prompt": "Share prompt",
+    "prompt_detail_page__button__copy_link": "Copy link"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
