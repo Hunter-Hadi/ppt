@@ -65,6 +65,13 @@ const PromptsPage = () => {
         </Stack>
       </Stack>
       <PromptLibrary
+        PromptLibraryHeaderProps={{
+          sx: {
+            top: 64,
+            zIndex: 1,
+            bgcolor: 'background.paper',
+          },
+        }}
         runtime={'WebPage'}
         sx={{
           '.maxai__prompt_library__title': {

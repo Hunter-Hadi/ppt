@@ -1,32 +1,33 @@
-import { Stack, SxProps } from '@mui/material'
-import { svgIconClasses } from '@mui/material/SvgIcon'
+import { Stack, SxProps } from '@mui/material';
+import { svgIconClasses } from '@mui/material/SvgIcon';
 import TablePagination, {
   tablePaginationClasses,
   TablePaginationProps,
-} from '@mui/material/TablePagination'
-import React, { FC } from 'react'
+} from '@mui/material/TablePagination';
+import React, { FC, useContext } from 'react';
 
-import { getPromptLibraryPortalContainerRoot } from '@/features/prompt_library/utils'
+import { getMaxAISidebarRootElement } from '@/features/common/utils';
+import { PromptLibraryRuntimeContext } from '@/features/prompt_library/store';
 
 interface ICustomTablePaginationProps {
   /**
    * <item>总数量
    */
-  total: string | number
+  total: string | number;
   /**
    * 每页<item>数量
    */
-  pageSize: string | number | undefined
+  pageSize: string | number | undefined;
   /**
    * 当前页数
    */
-  current: string | number | undefined
-  maxPage?: string | number | undefined
-  onChange?: (event: MouseEvent | null, value: number) => void
-  onPageSizeChange?: (newPageSize: number) => void
-  sx?: SxProps
+  current: string | number | undefined;
+  maxPage?: string | number | undefined;
+  onChange?: (event: MouseEvent | null, value: number) => void;
+  onPageSizeChange?: (newPageSize: number) => void;
+  sx?: SxProps;
 
-  paginationProps?: Partial<TablePaginationProps>
+  paginationProps?: Partial<TablePaginationProps>;
 }
 
 /**
@@ -44,37 +45,38 @@ const CustomTablePagination: FC<ICustomTablePaginationProps> = ({
   onChange,
   onPageSizeChange,
 }) => {
+  const { promptLibraryRuntime } = useContext(PromptLibraryRuntimeContext)!;
   if (!total || (!current && current !== 0) || !pageSize) {
-    return null
+    return null;
   }
-  const numTotal = Number(total)
-  const numCurrent = Number(current)
-  const numPageSize = Number(pageSize)
-  const numMaxSize = Number(maxPage)
+  const numTotal = Number(total);
+  const numCurrent = Number(current);
+  const numPageSize = Number(pageSize);
+  const numMaxSize = Number(maxPage);
   const coverCurrentPage = (): number => {
     if (numMaxSize) {
       if (numCurrent > numMaxSize) {
-        return numMaxSize
+        return numMaxSize;
       }
     }
-    return numCurrent
-  }
+    return numCurrent;
+  };
 
   const handleChange = (event: any, value: number) => {
-    onChange && onChange(event, value)
-  }
+    onChange && onChange(event, value);
+  };
 
   const handleChangeRowsPerPage = (event: any) => {
-    const value = event.target?.value
-    onPageSizeChange && onPageSizeChange(Number(value))
-    onChange && onChange(null, 0)
-  }
+    const value = event.target?.value;
+    onPageSizeChange && onPageSizeChange(Number(value));
+    onChange && onChange(null, 0);
+  };
 
   return (
     <div>
       {numTotal > numPageSize ? (
         <Stack
-          direction="row"
+          direction='row'
           sx={{ justifyContent: 'center', px: 2, pt: 4, ...sx }}
         >
           <TablePagination
@@ -109,7 +111,10 @@ const CustomTablePagination: FC<ICustomTablePaginationProps> = ({
             onRowsPerPageChange={handleChangeRowsPerPage}
             SelectProps={{
               MenuProps: {
-                container: getPromptLibraryPortalContainerRoot(),
+                container:
+                  promptLibraryRuntime === 'WebPage'
+                    ? document.body
+                    : getMaxAISidebarRootElement(),
                 // disablePortal: true,
               },
             }}
@@ -118,7 +123,7 @@ const CustomTablePagination: FC<ICustomTablePaginationProps> = ({
         </Stack>
       ) : null}
     </div>
-  )
-}
+  );
+};
 
-export default CustomTablePagination
+export default CustomTablePagination;

@@ -1,3 +1,4 @@
+import { SxProps } from '@mui/material';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import React, { FC } from 'react';
@@ -10,12 +11,24 @@ import PromptLibraryPagination from '@/features/prompt_library/components/Prompt
 import PromptLibraryTabs from '@/features/prompt_library/components/PromptLibrary/PromptLibraryHeader/PromptLibraryTabs';
 import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
 
-const PromptLibraryHeader: FC = () => {
+export interface IPromptLibraryHeaderProps {
+  sx?: SxProps;
+}
+const PromptLibraryHeader: FC<IPromptLibraryHeaderProps> = (props) => {
+  const { sx } = props;
   const { t } = useTranslation(['prompt_library']);
   const { activeTab, promptLibraryListParameters } =
     usePromptLibraryParameters();
   return (
-    <Stack width={'100%'} gap={2} position={'sticky'} top={0}>
+    <Stack
+      width={'100%'}
+      gap={2}
+      position={'sticky'}
+      top={0}
+      sx={{
+        ...sx,
+      }}
+    >
       <AppLoadingLayout loading={!promptLibraryListParameters.enabled}>
         <Typography
           fontSize={'24px'}
