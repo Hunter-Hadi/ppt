@@ -108,7 +108,7 @@ const PromptDetailPage: FC<{
       });
   }, [id]);
 
-  const copyRenderedTemplatePromptMemo = useMemo(() => {
+  const renderedTemplatePromptMemo = useMemo(() => {
     const { prompt_template = '', variables = [] } = promptDetail || {};
 
     const moreVariables = variables.reduce((pre, cur) => {
@@ -356,10 +356,7 @@ const PromptDetailPage: FC<{
                 }}
                 spacing={1}
               >
-                <CopyTypography
-                  wrapperMode
-                  text={copyRenderedTemplatePromptMemo}
-                >
+                <CopyTypography wrapperMode text={promptDetail.prompt_template}>
                   <Button
                     variant={'outlined'}
                     color={'primary'}
@@ -403,7 +400,7 @@ const PromptDetailPage: FC<{
               >
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: copyRenderedTemplatePromptMemo,
+                    __html: renderedTemplatePromptMemo,
                   }}
                 ></div>
               </Typography>
