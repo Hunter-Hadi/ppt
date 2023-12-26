@@ -212,6 +212,7 @@ const PromptLibraryCard: FC<{
         )}
       </Stack>
       <EllipsisTextWithTooltip
+        resizeListener
         variant={'custom'}
         tip={prompt.teaser}
         color={'text.secondary'}

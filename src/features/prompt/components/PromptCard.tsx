@@ -183,6 +183,7 @@ const PromptCard: FC<{
       </Stack>
 
       <EllipsisTextWithTooltip
+        resizeListener
         variant={'custom'}
         color={'text.secondary'}
         fontSize={16}
