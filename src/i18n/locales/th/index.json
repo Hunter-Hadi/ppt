@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "เทมเพลตสำหรับ ChatGPT\nเทมเพลตสามารถรวมตัวแปรต่อไปนี้ได้หลายตัว:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "คุณแน่ใจหรือไม่ว่าต้องการลบเทมเพลตนี้?",
     "delete_prompt__action__confirm__title": "ลบ",
-    "delete_prompt__cancel__confirm__title": "ยกเลิก"
+    "delete_prompt__cancel__confirm__title": "ยกเลิก",
+    "add_favorite__tooltip": "เพิ่มในรายการโปรด",
+    "remove_favorite__tooltip": "ลบออกจากรายการโปรด",
+    "view_details__tooltip": "ดูรายละเอียดของคำสั่ง",
+    "delete_prompt__tooltip": "ลบคำสั่ง",
+    "edit_prompt__tooltip": "แก้ไขคำสั่ง"
   }
 }

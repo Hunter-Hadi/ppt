@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Predložak za ChatGPT.\nPredložak može sadržavati bilo koji broj sljedećih varijabli:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Jeste li sigurni da želite izbrisati ovaj predložak za prompt?",
     "delete_prompt__action__confirm__title": "Izbriši",
-    "delete_prompt__cancel__confirm__title": "Odustani"
+    "delete_prompt__cancel__confirm__title": "Odustani",
+    "add_favorite__tooltip": "Dodaj u favorite",
+    "remove_favorite__tooltip": "Ukloni iz favorita",
+    "view_details__tooltip": "Pogledaj detalje",
+    "delete_prompt__tooltip": "Izbriši zadatak",
+    "edit_prompt__tooltip": "Uredi zadatak"
   }
 }

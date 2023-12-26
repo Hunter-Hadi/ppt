@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Ehdotuspohja ChatGPT:lle.\nPohja voi sisältää minkä tahansa määrän seuraavia muuttujia:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Haluatko varmasti poistaa tämän ehdotuspohjan?",
     "delete_prompt__action__confirm__title": "Poista",
-    "delete_prompt__cancel__confirm__title": "Peruuta"
+    "delete_prompt__cancel__confirm__title": "Peruuta",
+    "add_favorite__tooltip": "Lisää suosikkeihin",
+    "remove_favorite__tooltip": "Poista suosikeista",
+    "view_details__tooltip": "Näytä kysymyksen tiedot",
+    "delete_prompt__tooltip": "Poista kysymys",
+    "edit_prompt__tooltip": "Muokkaa kysymystä"
   }
 }

@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "ChatGPT için ipucu şablonu.\nŞablon, aşağıdaki değişkenlerden herhangi bir sayıda içerebilir:\n{{SEÇİLİ_METİN}}\n{{MEVCUT_WEB_SİTESİ_ALANI}}\n{{SİSTEM_MEVCUT_TARİH}}",
     "delete_prompt__title": "Bu ipucu şablonunu silmek istediğinizden emin misiniz?",
     "delete_prompt__action__confirm__title": "Sil",
-    "delete_prompt__cancel__confirm__title": "İptal"
+    "delete_prompt__cancel__confirm__title": "İptal",
+    "add_favorite__tooltip": "Favorilere Ekle",
+    "remove_favorite__tooltip": "Favorilerden Kaldır",
+    "view_details__tooltip": "Prompt Detaylarını Görüntüle",
+    "delete_prompt__tooltip": "Prompt'u Sil",
+    "edit_prompt__tooltip": "Prompt'u Düzenle"
   }
 }

@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Vzor podnetu pre ChatGPT.\nVzor môže obsahovať ľubovoľné množstvo nasledujúcich premenných:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Ste si istý, že chcete odstrániť tento vzor podnetu?",
     "delete_prompt__action__confirm__title": "Odstrániť",
-    "delete_prompt__cancel__confirm__title": "Zrušiť"
+    "delete_prompt__cancel__confirm__title": "Zrušiť",
+    "add_favorite__tooltip": "Pridať do obľúbených",
+    "remove_favorite__tooltip": "Odstrániť z obľúbených",
+    "view_details__tooltip": "Zobraziť detaily promptu",
+    "delete_prompt__tooltip": "Vymazať prompt",
+    "edit_prompt__tooltip": "Upraviť prompt"
   }
 }

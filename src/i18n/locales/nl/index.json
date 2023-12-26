@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "De prompt sjabloon voor ChatGPT.\nDe sjabloon kan een willekeurig aantal van de volgende variabelen bevatten:\n{{GEMARKEERDE_TEKST}}\n{{HUIDIGE_WEBSITE_DOMEIN}}\n{{SYSTEEM_HUIDIGE_DATUM}}",
     "delete_prompt__title": "Weet u zeker dat u deze prompt sjabloon wilt verwijderen?",
     "delete_prompt__action__confirm__title": "Verwijderen",
-    "delete_prompt__cancel__confirm__title": "Annuleren"
+    "delete_prompt__cancel__confirm__title": "Annuleren",
+    "add_favorite__tooltip": "Toevoegen aan Favorieten",
+    "remove_favorite__tooltip": "Verwijderen uit Favorieten",
+    "view_details__tooltip": "Bekijk promptdetails",
+    "delete_prompt__tooltip": "Prompt verwijderen",
+    "edit_prompt__tooltip": "Prompt bewerken"
   }
 }

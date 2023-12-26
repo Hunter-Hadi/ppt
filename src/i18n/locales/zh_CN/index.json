@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "ChatGPT的提示模板。\n模板可以包含以下任意数量的变量：\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "您确定要删除此提示模板吗？",
     "delete_prompt__action__confirm__title": "删除",
-    "delete_prompt__cancel__confirm__title": "取消"
+    "delete_prompt__cancel__confirm__title": "取消",
+    "add_favorite__tooltip": "添加到收藏夹",
+    "remove_favorite__tooltip": "从收藏夹中移除",
+    "view_details__tooltip": "查看提示详细信息",
+    "delete_prompt__tooltip": "删除提示",
+    "edit_prompt__tooltip": "编辑提示"
   }
 }

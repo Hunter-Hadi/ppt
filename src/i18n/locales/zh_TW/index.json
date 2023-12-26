@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "ChatGPT 的提示範本。\n範本可以包含以下任意數量的變數：\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "您確定要刪除此提示範本嗎？",
     "delete_prompt__action__confirm__title": "刪除",
-    "delete_prompt__cancel__confirm__title": "取消"
+    "delete_prompt__cancel__confirm__title": "取消",
+    "add_favorite__tooltip": "加入收藏",
+    "remove_favorite__tooltip": "從收藏中移除",
+    "view_details__tooltip": "查看提示詳情",
+    "delete_prompt__tooltip": "刪除提示",
+    "edit_prompt__tooltip": "編輯提示"
   }
 }

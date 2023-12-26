@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Kielelezo cha kichwa cha mazungumzo.\nKielelezo kinaweza kuwa na idadi yoyote ya vipengele vifuatavyo:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Una uhakika unataka kufuta kichwa hiki cha vichocheo?",
     "delete_prompt__action__confirm__title": "Futa",
-    "delete_prompt__cancel__confirm__title": "Ghairi"
+    "delete_prompt__cancel__confirm__title": "Ghairi",
+    "add_favorite__tooltip": "Ongeza kwenye Pendwa",
+    "remove_favorite__tooltip": "Ondoa kutoka Pendwa",
+    "view_details__tooltip": "Angalia maelezo ya prompt",
+    "delete_prompt__tooltip": "Futa prompt",
+    "edit_prompt__tooltip": "Hariri prompt"
   }
 }

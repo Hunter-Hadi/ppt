@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "الگوی پیام برای ChatGPT.\nاین الگو می‌تواند شامل هر تعداد متغیر زیر باشد:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "آیا از حذف این الگوی پیام اطمینان دارید؟",
     "delete_prompt__action__confirm__title": "حذف",
-    "delete_prompt__cancel__confirm__title": "لغو"
+    "delete_prompt__cancel__confirm__title": "لغو",
+    "add_favorite__tooltip": "افزودن به علاقه‌مندی‌ها",
+    "remove_favorite__tooltip": "حذف از علاقه‌مندی‌ها",
+    "view_details__tooltip": "مشاهده جزئیات پیام",
+    "delete_prompt__tooltip": "حذف پیام",
+    "edit_prompt__tooltip": "ویرایش پیام"
   }
 }

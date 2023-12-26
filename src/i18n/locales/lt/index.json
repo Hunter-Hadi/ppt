@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Užduoties šablonas ChatGPT.\nŠablonas gali apimti bet kokį kiekį šių kintamųjų:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Ar tikrai norite ištrinti šį užduoties šabloną?",
     "delete_prompt__action__confirm__title": "Ištrinti",
-    "delete_prompt__cancel__confirm__title": "Atšaukti"
+    "delete_prompt__cancel__confirm__title": "Atšaukti",
+    "add_favorite__tooltip": "Pridėti prie mėgstamų",
+    "remove_favorite__tooltip": "Pašalinti iš mėgstamų",
+    "view_details__tooltip": "Peržiūrėti užduoties informaciją",
+    "delete_prompt__tooltip": "Ištrinti užduotį",
+    "edit_prompt__tooltip": "Redaguoti užduotį"
   }
 }

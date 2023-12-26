@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Modelul de prompt pentru ChatGPT.\nȘablonul poate include orice număr de variabile următoarele:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Sigur doriți să ștergeți acest model de prompt?",
     "delete_prompt__action__confirm__title": "Ștergeți",
-    "delete_prompt__cancel__confirm__title": "Anulați"
+    "delete_prompt__cancel__confirm__title": "Anulați",
+    "add_favorite__tooltip": "Adaugă la Favorite",
+    "remove_favorite__tooltip": "Elimină din Favorite",
+    "view_details__tooltip": "Vezi detalii prompt",
+    "delete_prompt__tooltip": "Șterge prompt",
+    "edit_prompt__tooltip": "Editează prompt"
   }
 }

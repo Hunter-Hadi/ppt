@@ -2,10 +2,11 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
 import CircularProgress from '@mui/material/CircularProgress';
 import IconButton from '@mui/material/IconButton';
-import Tooltip from '@mui/material/Tooltip';
 import React, { FC, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL } from '@/features/common/constants';
+import PromptLibraryTooltip from '@/features/prompt_library/components/PromptLibrary/PromptLibraryTooltip';
 import useFavoritePrompts from '@/features/prompt_library/hooks/useFavoritePrompts';
 import usePromptActions from '@/features/prompt_library/hooks/usePromptActions';
 import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
@@ -15,6 +16,7 @@ export const FavoriteIconButton: FC<{
 }> = ({ promptId }) => {
   const { addFavoritePromptMutation, removeFavoritePromptMutation } =
     usePromptActions();
+  const { t } = useTranslation(['prompt_library']);
   const { checkMaxAIChromeExtensionInstall, checkAuthSync } =
     usePromptLibraryAuth();
   const { data } = useFavoritePrompts();
@@ -44,8 +46,11 @@ export const FavoriteIconButton: FC<{
   );
 
   const tooltipTitle = useMemo(
-    () => (isFavorite ? 'Remove from Favorites' : 'Add to Favorites'),
-    [isFavorite],
+    () =>
+      isFavorite
+        ? t('prompt_library:remove_favorite__tooltip')
+        : t('prompt_library:add_favorite__tooltip'),
+    [isFavorite, t],
   );
 
   const buttonCom = (
@@ -70,7 +75,7 @@ export const FavoriteIconButton: FC<{
       removeFavoritePromptMutation.isPending ? (
         <CircularProgress size={16} />
       ) : (
-        <Tooltip title={tooltipTitle}>{Icon}</Tooltip>
+        <PromptLibraryTooltip title={tooltipTitle}>{Icon}</PromptLibraryTooltip>
       )}
     </IconButton>
   );

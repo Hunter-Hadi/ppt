@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Vihje mall ChatGPT jaoks.\nMall võib sisaldada järgmisi muutujaid:\n{{VALITUD_TEKST}}\n{{SÜSTEEMI_PRAEGUNE_KUUPÄEV}}",
     "delete_prompt__title": "Olete kindel, et soovite selle vihje malli kustutada?",
     "delete_prompt__action__confirm__title": "Kustuta",
-    "delete_prompt__cancel__confirm__title": "Tühista"
+    "delete_prompt__cancel__confirm__title": "Tühista",
+    "add_favorite__tooltip": "Lisa lemmikutesse",
+    "remove_favorite__tooltip": "Eemalda lemmikutest",
+    "view_details__tooltip": "Vaata üksikasju",
+    "delete_prompt__tooltip": "Kustuta küsimus",
+    "edit_prompt__tooltip": "Muuda küsimust"
   }
 }

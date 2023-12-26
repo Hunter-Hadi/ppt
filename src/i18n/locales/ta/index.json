@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "ChatGPT க்கான புரோம்ட் வார்ப்புரு.\nவார்ப்புருக்கு பின்னர் உள்ள எண்ணிக்கையில் ஏதேனும் எண்களை அடிப்படையாக அடிப்படையாக உள்ளிடலாம்:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "இந்த புரோம்ட் வார்ப்புரை நீக்க விரும்புகிறீர்களா?",
     "delete_prompt__action__confirm__title": "நீக்கு",
-    "delete_prompt__cancel__confirm__title": "ரத்துசெய்"
+    "delete_prompt__cancel__confirm__title": "ரத்துசெய்",
+    "add_favorite__tooltip": "பிடித்தமானதுக்கு சேர்க்கவும்",
+    "remove_favorite__tooltip": "பிடித்தமானதிலிருந்து அகற்று",
+    "view_details__tooltip": "புள்ளிவிவரங்களைக் காண்க",
+    "delete_prompt__tooltip": "புள்ளியை நீக்கு",
+    "edit_prompt__tooltip": "புள்ளியைத் திருத்து"
   }
 }

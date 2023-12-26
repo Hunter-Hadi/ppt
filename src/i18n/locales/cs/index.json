@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Šablona nápovědy pro ChatGPT.\nŠablona může obsahovat libovolné množství následujících proměnných:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Opravdu chcete smazat tuto šablonu nápovědy?",
     "delete_prompt__action__confirm__title": "Smazat",
-    "delete_prompt__cancel__confirm__title": "Zrušit"
+    "delete_prompt__cancel__confirm__title": "Zrušit",
+    "add_favorite__tooltip": "Přidat do oblíbených",
+    "remove_favorite__tooltip": "Odebrat z oblíbených",
+    "view_details__tooltip": "Zobrazit podrobnosti o promptu",
+    "delete_prompt__tooltip": "Smazat prompt",
+    "edit_prompt__tooltip": "Upravit prompt"
   }
 }

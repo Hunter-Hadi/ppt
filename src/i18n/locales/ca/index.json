@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "La plantilla de prompt per a ChatGPT.\nLa plantilla pot incloure qualsevol nombre de les variables següents:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Esteu segur que voleu eliminar aquesta plantilla de prompt?",
     "delete_prompt__action__confirm__title": "Elimina",
-    "delete_prompt__cancel__confirm__title": "Cancel·la"
+    "delete_prompt__cancel__confirm__title": "Cancel·la",
+    "add_favorite__tooltip": "Afegir als preferits",
+    "remove_favorite__tooltip": "Eliminar dels preferits",
+    "view_details__tooltip": "Veure detalls de la indicació",
+    "delete_prompt__tooltip": "Eliminar indicació",
+    "edit_prompt__tooltip": "Editar indicació"
   }
 }

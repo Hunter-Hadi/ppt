@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Il modello di prompt per ChatGPT.\nIl modello può includere qualsiasi numero delle seguenti variabili:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Sei sicuro di voler eliminare questo modello di prompt?",
     "delete_prompt__action__confirm__title": "Elimina",
-    "delete_prompt__cancel__confirm__title": "Annulla"
+    "delete_prompt__cancel__confirm__title": "Annulla",
+    "add_favorite__tooltip": "Aggiungi ai Preferiti",
+    "remove_favorite__tooltip": "Rimuovi dai Preferiti",
+    "view_details__tooltip": "Visualizza dettagli prompt",
+    "delete_prompt__tooltip": "Elimina prompt",
+    "edit_prompt__tooltip": "Modifica prompt"
   }
 }

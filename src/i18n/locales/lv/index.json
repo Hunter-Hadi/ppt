@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Pamudinājuma veidne ChatGPT.\nVeidnē var iekļaut jebkuru skaitu sekojošo mainīgo:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Vai tiešām vēlaties dzēst šo pamudinājuma veidni?",
     "delete_prompt__action__confirm__title": "Dzēst",
-    "delete_prompt__cancel__confirm__title": "Atcelt"
+    "delete_prompt__cancel__confirm__title": "Atcelt",
+    "add_favorite__tooltip": "Pievienot izlasei",
+    "remove_favorite__tooltip": "Noņemt no izlases",
+    "view_details__tooltip": "Skatīt uzdevuma detaļas",
+    "delete_prompt__tooltip": "Dzēst uzdevumu",
+    "edit_prompt__tooltip": "Rediģēt uzdevumu"
   }
 }

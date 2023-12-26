@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "ChatGPT માટેનું પ્રોમ્પ્ટ્સ ટેમ્પ્લેટ.\nઆ ટેમ્પ્લેટ નીચેના વેરિએબલ્સમાંથી કોઈપણ સંખ્યામાં શામેલ કરી શકે છે:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "શું તમે ખરેખર આ પ્રોમ્પ્ટ્સ ટેમ્પ્લેટ કાઢવા માંગો છો?",
     "delete_prompt__action__confirm__title": "કાઢી નાંખો",
-    "delete_prompt__cancel__confirm__title": "રદ કરો"
+    "delete_prompt__cancel__confirm__title": "રદ કરો",
+    "add_favorite__tooltip": "મનપસંદ માં ઉમેરો",
+    "remove_favorite__tooltip": "મનપસંદ થી કાઢી નાખો",
+    "view_details__tooltip": "પ્રોમ્પ્ટ વિગતો જુઓ",
+    "delete_prompt__tooltip": "પ્રોમ્પ્ટ કાઢો",
+    "edit_prompt__tooltip": "પ્રોમ્પ્ટ સંપાદિત કરો"
   }
 }

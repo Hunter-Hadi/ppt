@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "A ChatGPT promp sablonja.\nA sablon tartalmazhat bármennyi a következő változóból:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Biztosan törölni szeretnéd ezt a promp sablont?",
     "delete_prompt__action__confirm__title": "Törlés",
-    "delete_prompt__cancel__confirm__title": "Mégse"
+    "delete_prompt__cancel__confirm__title": "Mégse",
+    "add_favorite__tooltip": "Hozzáadás a Kedvencekhez",
+    "remove_favorite__tooltip": "Eltávolítás a Kedvencekből",
+    "view_details__tooltip": "Feladat részleteinek megtekintése",
+    "delete_prompt__tooltip": "Feladat törlése",
+    "edit_prompt__tooltip": "Feladat szerkesztése"
   }
 }

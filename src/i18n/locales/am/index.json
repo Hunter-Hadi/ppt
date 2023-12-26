@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "የChatGPT ሪካ ቅጥፍ፣\nበተጨማሪ የተሻሻለ ችግር ይሁኑ:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "እርስዎ የሪካ ቅጥፍን ማስወገድ ይፈልጋሉ?",
     "delete_prompt__action__confirm__title": "ሰርዝ",
-    "delete_prompt__cancel__confirm__title": "ተወው"
+    "delete_prompt__cancel__confirm__title": "ተወው",
+    "add_favorite__tooltip": "ምድብ አስወግድ",
+    "remove_favorite__tooltip": "ምድብ ከሰርቨሩ አስወግድ",
+    "view_details__tooltip": "የመግለጫ ዝርዝር ይመልከቱ",
+    "delete_prompt__tooltip": "መሰረዝ ይሰረዝ",
+    "edit_prompt__tooltip": "መለየት ይሰረዝ"
   }
 }

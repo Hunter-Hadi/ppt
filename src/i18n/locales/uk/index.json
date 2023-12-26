@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "چیٹ جی پی ٹی کے لئے پرومپٹ ٹیمپلیٹ۔\nٹیمپلیٹ میں مندرجہ ذیل متغیرات کی کوئی بھی تعداد شامل کی جا سکتی ہے:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "کیا آپ واقعی اس پرومپٹ ٹیمپلیٹ کو حذف کرنا چاہتے ہیں؟",
     "delete_prompt__action__confirm__title": "حذف کریں",
-    "delete_prompt__cancel__confirm__title": "منسوخ کریں"
+    "delete_prompt__cancel__confirm__title": "منسوخ کریں",
+    "add_favorite__tooltip": "پسندیدہ میں شامل کریں",
+    "remove_favorite__tooltip": "پسندیدہ سے ہٹائیں",
+    "view_details__tooltip": "پرومپٹ کی تفصیلات دیکھیں",
+    "delete_prompt__tooltip": "پرومپٹ حذف کریں",
+    "edit_prompt__tooltip": "پرومپٹ میں ترمیم کریں"
   }
 }

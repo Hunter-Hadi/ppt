@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Шаблон підказки для ChatGPT.\nШаблон може містити будь-яку кількість наступних змінних:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Ви впевнені, що хочете видалити цей шаблон підказки?",
     "delete_prompt__action__confirm__title": "Видалити",
-    "delete_prompt__cancel__confirm__title": "Скасувати"
+    "delete_prompt__cancel__confirm__title": "Скасувати",
+    "add_favorite__tooltip": "Додати до обраного",
+    "remove_favorite__tooltip": "Видалити з обраного",
+    "view_details__tooltip": "Переглянути деталі промпта",
+    "delete_prompt__tooltip": "Видалити промпт",
+    "edit_prompt__tooltip": "Редагувати промпт"
   }
 }

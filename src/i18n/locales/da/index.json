@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Prompt skabelonen til ChatGPT.\nSkabelonen kan indeholde et hvilket som helst antal af følgende variabler:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Er du sikker på, at du vil slette denne prompt skabelon?",
     "delete_prompt__action__confirm__title": "Slet",
-    "delete_prompt__cancel__confirm__title": "Annuller"
+    "delete_prompt__cancel__confirm__title": "Annuller",
+    "add_favorite__tooltip": "Tilføj til Favoritter",
+    "remove_favorite__tooltip": "Fjern fra Favoritter",
+    "view_details__tooltip": "Se prompt detaljer",
+    "delete_prompt__tooltip": "Slet prompt",
+    "edit_prompt__tooltip": "Rediger prompt"
   }
 }

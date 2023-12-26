@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Predloga za ChatGPT.\nPredloga lahko vključuje poljubno število naslednjih spremenljivk:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Ali ste prepričani, da želite izbrisati to predlogo predloge?",
     "delete_prompt__action__confirm__title": "Izbriši",
-    "delete_prompt__cancel__confirm__title": "Prekliči"
+    "delete_prompt__cancel__confirm__title": "Prekliči",
+    "add_favorite__tooltip": "Dodaj v Priljubljene",
+    "remove_favorite__tooltip": "Odstrani iz Priljubljenih",
+    "view_details__tooltip": "Poglej podrobnosti o spodbudi",
+    "delete_prompt__tooltip": "Izbriši spodbudo",
+    "edit_prompt__tooltip": "Uredi spodbudo"
   }
 }

@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Mẫu gợi ý cho ChatGPT.\nMẫu có thể bao gồm bất kỳ số lượng biến sau đây:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Bạn có chắc chắn muốn xóa mẫu gợi ý này?",
     "delete_prompt__action__confirm__title": "Xóa",
-    "delete_prompt__cancel__confirm__title": "Hủy"
+    "delete_prompt__cancel__confirm__title": "Hủy",
+    "add_favorite__tooltip": "Thêm vào Mục yêu thích",
+    "remove_favorite__tooltip": "Xóa khỏi Mục yêu thích",
+    "view_details__tooltip": "Xem chi tiết gợi ý",
+    "delete_prompt__tooltip": "Xóa gợi ý",
+    "edit_prompt__tooltip": "Chỉnh sửa gợi ý"
   }
 }

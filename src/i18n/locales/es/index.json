@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "La plantilla de prompt para ChatGPT.\nLa plantilla puede incluir cualquier número de las siguientes variables:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "¿Estás seguro de que quieres eliminar esta plantilla de prompt?",
     "delete_prompt__action__confirm__title": "Eliminar",
-    "delete_prompt__cancel__confirm__title": "Cancelar"
+    "delete_prompt__cancel__confirm__title": "Cancelar",
+    "add_favorite__tooltip": "Agregar a Favoritos",
+    "remove_favorite__tooltip": "Eliminar de Favoritos",
+    "view_details__tooltip": "Ver detalles de la sugerencia",
+    "delete_prompt__tooltip": "Eliminar sugerencia",
+    "edit_prompt__tooltip": "Editar sugerencia"
   }
 }

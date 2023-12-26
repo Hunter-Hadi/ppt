@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "قالب النص لـ ChatGPT.\nيمكن أن يتضمن القالب أي عدد من المتغيرات التالية:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "هل أنت متأكد أنك تريد حذف قالب النص هذا؟",
     "delete_prompt__action__confirm__title": "حذف",
-    "delete_prompt__cancel__confirm__title": "إلغاء"
+    "delete_prompt__cancel__confirm__title": "إلغاء",
+    "add_favorite__tooltip": "أضف إلى المفضلة",
+    "remove_favorite__tooltip": "إزالة من المفضلة",
+    "view_details__tooltip": "عرض تفاصيل الاقتراح",
+    "delete_prompt__tooltip": "حذف الاقتراح",
+    "edit_prompt__tooltip": "تحرير الاقتراح"
   }
 }

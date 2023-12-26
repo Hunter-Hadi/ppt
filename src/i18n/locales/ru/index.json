@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Шаблон подсказки для ChatGPT.\nШаблон может включать любое количество следующих переменных:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Вы уверены, что хотите удалить этот шаблон подсказки?",
     "delete_prompt__action__confirm__title": "Удалить",
-    "delete_prompt__cancel__confirm__title": "Отмена"
+    "delete_prompt__cancel__confirm__title": "Отмена",
+    "add_favorite__tooltip": "Добавить в Избранное",
+    "remove_favorite__tooltip": "Удалить из Избранного",
+    "view_details__tooltip": "Просмотреть детали подсказки",
+    "delete_prompt__tooltip": "Удалить подсказку",
+    "edit_prompt__tooltip": "Редактировать подсказку"
   }
 }

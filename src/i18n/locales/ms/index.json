@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Templat pemula untuk ChatGPT.\nTemplat boleh mengandungi sebarang bilangan pemboleh ubah berikut:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Adakah anda pasti ingin memadam templat pemula ini?",
     "delete_prompt__action__confirm__title": "Padam",
-    "delete_prompt__cancel__confirm__title": "Batal"
+    "delete_prompt__cancel__confirm__title": "Batal",
+    "add_favorite__tooltip": "Tambah ke Kegemaran",
+    "remove_favorite__tooltip": "Buang dari Kegemaran",
+    "view_details__tooltip": "Lihat butiran prompt",
+    "delete_prompt__tooltip": "Padam prompt",
+    "edit_prompt__tooltip": "Edit prompt"
   }
 }

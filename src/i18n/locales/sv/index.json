@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "Förslagsmallen för ChatGPT.\nMallen kan inkludera ett valfritt antal av följande variabler:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "Är du säker på att du vill ta bort denna förslagsmall?",
     "delete_prompt__action__confirm__title": "Ta bort",
-    "delete_prompt__cancel__confirm__title": "Avbryt"
+    "delete_prompt__cancel__confirm__title": "Avbryt",
+    "add_favorite__tooltip": "Lägg till i favoriter",
+    "remove_favorite__tooltip": "Ta bort från favoriter",
+    "view_details__tooltip": "Visa detaljer för prompt",
+    "delete_prompt__tooltip": "Radera prompt",
+    "edit_prompt__tooltip": "Redigera prompt"
   }
 }

@@ -111,6 +111,11 @@
     "edit_prompt__template__placeholder": "ChatGPT ಗಾಗಿ ಪ್ರಾಂಪ್ಟ್ ಟೆಂಪ್ಲೇಟ್.\nಟೆಂಪ್ಲೇಟ್ ಈ ವಿನಂತಿಗಳಲ್ಲಿ ಯಾವುದೇ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿರಬಹುದು:\n{{SELECTED_TEXT}}\n{{CURRENT_WEBSITE_DOMAIN}}\n{{SYSTEM_CURRENT_DATE}}",
     "delete_prompt__title": "ಈ ಪ್ರಾಂಪ್ಟ್ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ನಿರ್ಮಿಸಲು ನಿಮಗೆ ಖಚಿತವಾಗಿ ಬೇಕಾಗಿದೆ?",
     "delete_prompt__action__confirm__title": "ಅಳಿಸಿ",
-    "delete_prompt__cancel__confirm__title": "ರದ್ದುಗೊಳಿಸಿ"
+    "delete_prompt__cancel__confirm__title": "ರದ್ದುಗೊಳಿಸಿ",
+    "add_favorite__tooltip": "ಮೆಚ್ಚುಗೆಯಲ್ಲಿ ಸೇರಿಸಿ",
+    "remove_favorite__tooltip": "ಮೆಚ್ಚುಗೆಯಿಂದ ತೆಗೆದುಹಾಕಿ",
+    "view_details__tooltip": "ಪ್ರಮ್ಪ್ಟ್ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    "delete_prompt__tooltip": "ಪ್ರಮ್ಪ್ಟ್ ಅಳಿಸಿ",
+    "edit_prompt__tooltip": "ಪ್ರಮ್ಪ್ಟ್ ಬದಲಾಯಿಸಿ"
   }
 }
