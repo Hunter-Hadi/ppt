@@ -10,7 +10,7 @@ import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 
 const EmbedIntroduction = () => {
   const router = useRouter();
-  const { query } = router;
+  const { query, isReady } = router;
   const [loaded, setLoaded] = useState(false);
   const contentRef = useRef<any>(null);
 
@@ -28,16 +28,19 @@ const EmbedIntroduction = () => {
   useEffectOnce(() => setLoaded(true));
 
   useEffect(() => {
-    if (loaded && window.parent) {
+    const isEmbed = window !== window.parent;
+    if (loaded && isReady && isEmbed) {
+      const msgHeight = contentRef.current?.offsetHeight;
+      console.log(`message height`, msgHeight);
       window.parent.postMessage(
         {
           type: 'embed',
-          height: contentRef.current?.offsetHeight,
+          height: msgHeight,
         },
         '*',
       );
     }
-  }, [loaded]);
+  }, [loaded, isReady]);
 
   return (
     <Box ref={contentRef}>
