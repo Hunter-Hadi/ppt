@@ -1,3 +1,4 @@
+import { useCallback } from 'react';
 import { useRecoilState } from 'recoil';
 
 import { ExtensionUpdateRemindDialogState } from '@/features/extension/store';
@@ -11,21 +12,22 @@ const useExtensionUpdateRemindDialogState = () => {
   ] = useRecoilState(ExtensionUpdateRemindDialogState);
 
   // 判断当前浏览器安装的插件是否 大于要求的版本号
-  const isExtensionVersionGreaterThanRequiredVersion = (
-    requiredVersion: string,
-  ) => {
-    const currentVersion = getMaxAIExtensionVersion() || '0';
-    const currentVersionStr = Number(currentVersion.replace(/\./g, ''));
-    const requiredVersionStr = Number(requiredVersion.replace(/\./g, ''));
+  const isExtensionVersionGreaterThanRequiredVersion = useCallback(
+    (requiredVersion: string) => {
+      const currentVersion = getMaxAIExtensionVersion() || '0';
+      const currentVersionStr = Number(currentVersion.replace(/\./g, ''));
+      const requiredVersionStr = Number(requiredVersion.replace(/\./g, ''));
 
-    return currentVersionStr > requiredVersionStr;
-  };
+      return currentVersionStr > requiredVersionStr;
+    },
+    [],
+  );
 
-  const openUpdateRemindDialog = () => {
+  const openUpdateRemindDialog = useCallback(() => {
     setExtensionUpdateRemindDialogState({
       show: true,
     });
-  };
+  }, []);
 
   return {
     show: extensionUpdateRemindDialogState.show,

@@ -82,9 +82,19 @@ const PromptDetailPage: FC<{
   } = useExtensionUpdateRemindDialogState();
   useEffect(() => {
     setMaxAIChromeExtensionInstallHandler(async () => {
+      if (!isExtensionVersionGreaterThanRequiredVersion('2.4.7')) {
+        // 2.4.7 版本以上的插件才支持这个功能
+        openUpdateRemindDialog();
+        return false;
+      }
+
       return checkIsInstalled();
     });
-  }, [checkIsInstalled]);
+  }, [
+    checkIsInstalled,
+    isExtensionVersionGreaterThanRequiredVersion,
+    openUpdateRemindDialog,
+  ]);
   const [loaded, setLoaded] = useState<boolean>(
     defaultPromptDetail?.prompt_template !== undefined,
   );
@@ -321,14 +331,6 @@ const PromptDetailPage: FC<{
                 onClick={async () => {
                   if (promptDetail) {
                     if (await checkMaxAIChromeExtensionInstall()) {
-                      if (
-                        !isExtensionVersionGreaterThanRequiredVersion('2.4.7')
-                      ) {
-                        // 2.4.7 版本以上的插件才支持这个功能
-                        openUpdateRemindDialog();
-                        return;
-                      }
-
                       webPageRunMaxAIShortcuts(
                         promptLibraryCardDetailDataToActions(promptDetail),
                       );
