@@ -80,12 +80,8 @@ const AIPowerPanel = () => {
       text: 'Claude',
     },
     {
-      icon: 'BardLogo',
-      text: 'Bard',
-    },
-    {
-      icon: 'BingLogo',
-      text: 'Bing AI',
+      icon: 'Gemini',
+      text: 'Gemini',
     },
     {
       icon: 'ChatGPTLogoOutLine',
