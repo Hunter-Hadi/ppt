@@ -45,7 +45,9 @@ const ExtensionUpdateRemindDialog = () => {
         >
           <Stack spacing={2} p={4}>
             <Typography variant={'h5'}>
-              Update MaxAI.me extension to continue.
+              Update MaxAI.me extension,
+              <br />
+              refresh the web page to continue
             </Typography>
             <Button
               variant='contained'
