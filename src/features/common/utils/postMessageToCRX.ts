@@ -56,6 +56,18 @@ export const webPageOpenMaxAIImmersiveChat = (query: string = '') => {
   );
 };
 
+export const webPageOpenMaxAIExtensionPage = () => {
+  return postMessageToCRX(
+    window,
+    'OPEN_URL',
+    {
+      key: 'manage_extension',
+      active: true,
+    },
+    '*',
+  );
+};
+
 export const webPageRunMaxAIShortcuts = (actions: ISetActionsType) => {
   return postMessageToCRX(
     window,

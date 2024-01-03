@@ -63,15 +63,6 @@ export const useRunThisPromptV2 = () => {
   const runShortCuts = async (actions: any[]) => {
     try {
       if (await ping()) {
-        // hacker fix
-        // remove when release extension v1.0.3
-        const sidebarEl = document.querySelector('#USE_CHAT_GPT_AI_ROOT');
-        if (sidebarEl && !sidebarEl.classList.contains('open')) {
-          // add class open
-          sidebarEl.classList.remove('close');
-          sidebarEl.classList.add('open');
-        }
-
         setRunning(true);
         await sendShortCuts(actions);
       }

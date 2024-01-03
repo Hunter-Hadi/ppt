@@ -1,5 +1,6 @@
 import { useSetRecoilState } from 'recoil';
 
+import { MAXAI_EXTENSION_ROOT_ID } from '@/features/extension/constant';
 import { AppState } from '@/store';
 
 export const intervalFindHtmlElement = (
@@ -108,7 +109,7 @@ export const useRunThisPrompt = () => {
           selection?.removeAllRanges();
           selection?.addRange(range);
           const shadowRoot = document.getElementById(
-            'USE_CHAT_GPT_AI_ROOT_Context_Menu',
+            `${MAXAI_EXTENSION_ROOT_ID}_Context_Menu`,
           )?.shadowRoot;
           // find contextMenu click button in 2000ms
           if (shadowRoot) {

@@ -5,10 +5,12 @@ import {
   webPageCloseSidebar,
   webPageRunMaxAIShortcuts,
 } from '@/features/common/utils/postMessageToCRX';
+import useExtensionUpdateRemindDialogState from '@/features/extension/hooks/useExtensionUpdateRemindDialog';
 import PromptLibraryCard from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard';
 import PromptLibraryCardSkeleton from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard/PromptLibraryCardSkeleton';
 import PromptLibraryPagination from '@/features/prompt_library/components/PromptLibrary/PromptLibraryHeader/PrompLibraryPagination';
 import AddOwnPromptCard from '@/features/prompt_library/components/PromptLibrary/PromptLibraryList/AddOwnPromptCard';
+import usePromptLibrary from '@/features/prompt_library/hooks/usePromptLibrary';
 import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
 import usePromptLibraryBreakpoint from '@/features/prompt_library/hooks/usePromptLibraryBreakpoint';
 import usePromptLibraryList from '@/features/prompt_library/hooks/usePromptLibraryList';
@@ -30,6 +32,14 @@ const PromptLibraryList: FC<{
   const { activeTab, promptLibraryListParameters } =
     usePromptLibraryParameters();
   const currentBreakpoint = usePromptLibraryBreakpoint();
+
+  const {
+    isExtensionVersionGreaterThanRequiredVersion,
+    openUpdateRemindDialog,
+  } = useExtensionUpdateRemindDialogState();
+
+  const { cancelSelectPromptLibraryCard } = usePromptLibrary();
+
   const itemWidth = useMemo(() => {
     if (currentBreakpoint === 'xs') {
       return 12;
@@ -79,6 +89,14 @@ const PromptLibraryList: FC<{
                 if (promptLibraryRuntime === 'WebPage') {
                   if (promptData) {
                     if (await checkMaxAIChromeExtensionInstall()) {
+                      if (
+                        !isExtensionVersionGreaterThanRequiredVersion('2.4.7')
+                      ) {
+                        // 2.4.7 版本以上的插件才支持这个功能
+                        openUpdateRemindDialog();
+                        cancelSelectPromptLibraryCard();
+                      }
+
                       webPageRunMaxAIShortcuts(
                         promptLibraryCardDetailDataToActions(promptData),
                       );

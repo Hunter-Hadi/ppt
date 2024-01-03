@@ -6,6 +6,7 @@ import AppPaperCardLayout from '@/app_layout/AppPaperCardLayout';
 import CustomModal from '@/components/CustomModal';
 import ProLink from '@/components/ProLink';
 import VideoPlayer from '@/components/VideoPlayer';
+import { MAXAI_EXTENSION_ROOT_ID } from '@/features/extension/constant';
 import { sendLarkBotMessage } from '@/utils/larkBot';
 import { routerToShortcutsPage } from '@/utils/utils';
 
@@ -24,7 +25,7 @@ const UseChatGPTShortcutsDetectAlert: FC = () => {
         }, 1000);
         setTimeout(() => {
           const useChatGPTChromeExtensionElement = document.getElementById(
-            'USE_CHAT_GPT_AI_ROOT',
+            MAXAI_EXTENSION_ROOT_ID,
           );
           if (useChatGPTChromeExtensionElement) {
             if (useChatGPTChromeExtensionElement.classList.contains('open')) {
@@ -131,7 +132,7 @@ const UseChatGPTShortcutsDetectAlert: FC = () => {
                 event.preventDefault();
                 event.stopPropagation();
                 const appRoot = document.getElementById(
-                  'USE_CHAT_GPT_AI_ROOT',
+                  MAXAI_EXTENSION_ROOT_ID,
                 )?.shadowRoot;
                 if (appRoot) {
                   const jumpLink = appRoot.querySelector(
@@ -141,7 +142,7 @@ const UseChatGPTShortcutsDetectAlert: FC = () => {
                     jumpLink.click();
                   } else {
                     const jumpButton = document
-                      .getElementById('USE_CHAT_GPT_AI_ROOT')
+                      .getElementById(MAXAI_EXTENSION_ROOT_ID)
                       ?.shadowRoot?.querySelector(
                         '#usechatgpt-www-to-shortcuts',
                       ) as HTMLButtonElement;

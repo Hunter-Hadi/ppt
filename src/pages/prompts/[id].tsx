@@ -27,6 +27,7 @@ import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import CopyTypography from '@/components/CopyTypography';
 import ProLink from '@/components/ProLink';
 import { webPageRunMaxAIShortcuts } from '@/features/common/utils/postMessageToCRX';
+import useExtensionUpdateRemindDialogState from '@/features/extension/hooks/useExtensionUpdateRemindDialog';
 import { PromptCardTag, useSharePromptLinks } from '@/features/prompt';
 import LiveCrawlingFlag from '@/features/prompt/components/LiveCrawlingFlag';
 import { RENDERED_TEMPLATE_PROMPT_DOM_ID } from '@/features/prompt/constant';
@@ -75,6 +76,10 @@ const PromptDetailPage: FC<{
     setMaxAIChromeExtensionInstallHandler,
   } = usePromptLibraryAuth();
   const { checkIsInstalled } = useRecoilValue(ChromeExtensionDetectorState);
+  const {
+    isExtensionVersionGreaterThanRequiredVersion,
+    openUpdateRemindDialog,
+  } = useExtensionUpdateRemindDialogState();
   useEffect(() => {
     setMaxAIChromeExtensionInstallHandler(async () => {
       return checkIsInstalled();
@@ -316,6 +321,14 @@ const PromptDetailPage: FC<{
                 onClick={async () => {
                   if (promptDetail) {
                     if (await checkMaxAIChromeExtensionInstall()) {
+                      if (
+                        !isExtensionVersionGreaterThanRequiredVersion('2.4.7')
+                      ) {
+                        // 2.4.7 版本以上的插件才支持这个功能
+                        openUpdateRemindDialog();
+                        return;
+                      }
+
                       webPageRunMaxAIShortcuts(
                         promptLibraryCardDetailDataToActions(promptDetail),
                       );
