@@ -23,7 +23,7 @@ const CTAInstallButton: FC<IProps> = ({
   variant = 'outlined',
   showAgent,
   trackerLinkProps = {},
-  iconSize = 36,
+  iconSize = 32,
 }) => {
   const { t } = useTranslation('button');
 
@@ -60,7 +60,7 @@ const CTAInstallButton: FC<IProps> = ({
     return {
       // width: { xs: '100%', sm: 300 },
       height: 64,
-      fontSize: 20,
+      fontSize: 16,
       fontWeight: 600,
       px: 3,
       py: 1.5,

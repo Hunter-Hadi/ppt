@@ -1,8 +1,10 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useRecoilState, useRecoilValue } from 'recoil';
 
 import { PreferredLanguageAtom } from '@/i18n/store';
+
+import { LANGUAGE_CODE_MAP } from '../types';
 
 export const useLazyLoadI18nResources = () => {
   const preferredLanguage = useRecoilValue(PreferredLanguageAtom);
@@ -49,7 +51,12 @@ export const usePreferredLanguage = () => {
     [setPreferredLanguage],
   );
 
+  const languageLabel = useMemo(() => {
+    return LANGUAGE_CODE_MAP[preferredLanguage].label;
+  }, [preferredLanguage]);
+
   return {
+    languageLabel,
     currentLanguage: preferredLanguage,
     changeLanguage,
   };

@@ -15,7 +15,7 @@ const FooterList: FC<{
 }> = ({ title, data }) => {
   return (
     <Box>
-      <Typography variant='h5' component={'p'} mb={3} fontWeight={800}>
+      <Typography variant='h6' component={'p'} mb={3} fontWeight={800}>
         {title}
       </Typography>
       <Stack spacing={1.5}>
@@ -31,12 +31,12 @@ const FooterList: FC<{
           >
             <Stack
               direction={'row'}
-              spacing={1}
+              spacing={1.5}
               component='span'
               alignItems='center'
               key={link}
             >
-              <Box height={24} color={'text.secondary'}>
+              <Box height={24} color={'text.main'}>
                 {icon}
               </Box>
               <ProLink

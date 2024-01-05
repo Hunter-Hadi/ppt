@@ -1,9 +1,16 @@
-import { Box, CircularProgress, Stack } from '@mui/material';
+import { Box, CircularProgress, Stack, SxProps } from '@mui/material';
 import React, { FC, useState } from 'react';
 
-const YoutubePlayerBox: FC<{ youtubeLink: string; borderRadius?: number }> = ({
+interface IProps {
+  youtubeLink: string;
+  borderRadius?: number;
+  sx?: SxProps;
+}
+
+const YoutubePlayerBox: FC<IProps> = ({
   youtubeLink,
   borderRadius = 16,
+  sx,
 }) => {
   const [loading, setLoading] = useState(true);
 
@@ -25,6 +32,7 @@ const YoutubePlayerBox: FC<{ youtubeLink: string; borderRadius?: number }> = ({
           width: '100%',
           height: '100%',
         },
+        ...sx,
       }}
     >
       {loading && (

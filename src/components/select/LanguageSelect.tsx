@@ -1,3 +1,5 @@
+import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
+import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 import { Popper } from '@mui/material';
 import Autocomplete from '@mui/material/Autocomplete';
 import { SxProps } from '@mui/material/styles';
@@ -46,6 +48,7 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
     popperSx,
   } = props;
   const { t } = useTranslation(['common']);
+  const [isOpen, setIsOpen] = React.useState(false);
   const [value, setValue] = React.useState<{ label: string; value: string }>(
     () => {
       return (
@@ -60,6 +63,13 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
       noOptionsText={t('common:no_options')}
       disableClearable
       value={value}
+      open={isOpen}
+      onOpen={() => {
+        setIsOpen(true);
+      }}
+      onClose={() => {
+        setIsOpen(false);
+      }}
       size={'small'}
       sx={{ width: 160, ...sx }}
       autoHighlight
@@ -74,6 +84,14 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
         <TextField
           {...params}
           label={label}
+          InputProps={{
+            ...params.InputProps,
+            endAdornment: isOpen ? (
+              <KeyboardArrowUpOutlinedIcon />
+            ) : (
+              <KeyboardArrowDownOutlinedIcon />
+            ),
+          }}
           inputProps={{
             ...params.inputProps,
             autoComplete: 'off', // disable autocomplete and autofill

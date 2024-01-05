@@ -18,3 +18,8 @@ export const AppState = atom<{
     globalLoading: false,
   },
 });
+
+export const AppHeaderHeightState = atom<number>({
+  key: 'AppHeaderHeightState',
+  default: 0,
+});

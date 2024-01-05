@@ -16,7 +16,6 @@ import {
 } from '@/global_constants';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink from '@/hooks/useShareTrackerLink';
-import ProducthuntHonor from '@/page_components/LandingPage/ProducthuntHonor';
 
 import CTAInstallButton from '../CTAInstallButton';
 /**
@@ -236,16 +235,6 @@ const HomePageContent: FC<IProps> = ({
 
   return (
     <Stack spacing={2} mx={'auto'} maxWidth={800} mb={{ xs: 4, sm: 7 }} pt={6}>
-      <Box
-        sx={{
-          position: 'fixed',
-          bottom: 16,
-          right: 16,
-          zIndex: 1201,
-        }}
-      >
-        <ProducthuntHonor noDay sx={{ mb: { xs: 4, sm: 0 } }} />
-      </Box>
       <Stack alignItems='center' spacing={4} pb={6}>
         {showLogo && (
           <ProLink

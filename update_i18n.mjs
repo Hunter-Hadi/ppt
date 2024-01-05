@@ -480,7 +480,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [];
+  const keys = ['home_page__loved_by_users'];
   const retryLanguageCodes = [];
   await updateKeys(keys, false, retryLanguageCodes);
 }

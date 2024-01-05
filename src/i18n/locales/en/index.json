@@ -43,7 +43,7 @@
   "pages": {
     "home_page__title": "Use 1-Click AI Anywhere",
     "home_page__powered_by": "Powered by",
-    "home_page__loved_by_users": "Loved by {{num}} users",
+    "home_page__loved_by_users": "Loved by {{num}} professionals",
     "home_page__write_better_with_confidence": "Write better with confidence",
     "home_page__write_better_with_confidence__item1": "Select any text on any website",
     "home_page__write_better_with_confidence__item2": "Improve writing, fix spelling & grammar, or change tone in one click",
@@ -84,5 +84,20 @@
     "home_page__perk__desc1": "Revolutionize your everyday tasks with 1-Click ChatGPT Prompts.",
     "home_page__perk__desc2": "Turn hours-long tasks into minutes using our expanding collection of prompts for marketing, sales, copywriting, operation, productivity, and customer support.",
     "home_page__perk__get_it_for_free": "Get it for free on"
+  },
+  "modules": {
+    "footer__title": "All-in-one AI Magic Tools",
+    "footer__desc": "MaxAI.me is a Chrome extension for writing, summarizing, spellchecking, altering tone, translating, or replying to text on websites.",
+
+    "footer__products": "Products",
+    "footer__chatGPT_copilot_on_chrome": "ChatGPT Copilot on Chrome",
+    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__follow_us": "Follow Us",
+    "footer__help": "Help",
+    "footer__how_to_use": "How to use",
+    "footer__contact_us": "Contact us",
+
+    "hero_section__title": "Unleash 1-Click AI Magic on Any Webpage",
+    "hero_section__desc": "MaxAI.me is a generative AI browser tool that lets you use personalized AI power at your fingertips, right on any webpage and PDF. Join MaxAI.me and make your browser smarter than ever before!"
   }
 }

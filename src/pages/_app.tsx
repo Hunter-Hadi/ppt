@@ -15,9 +15,10 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { RecoilRoot } from 'recoil';
 
 import AppFooter from '@/app_layout/AppFooter';
-import AppHeader from '@/app_layout/AppHeader';
+import AppHeader from '@/app_layout/AppHeader/index';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
+import GlobalVideoPopup from '@/features/videoPopup/components/GlobalVideoPopup';
 import { GA_TRACKING_ID } from '@/pages/_document';
 import AppInit from '@/utils/AppInit';
 import { initFingerPrint } from '@/utils/fingerPrint';
@@ -103,6 +104,7 @@ function App({ Component, pageProps }: AppProps) {
               {!isEmbedPage && <AppHeader />}
               <Component {...pageProps} />
               {!isEmbedPage && <AppFooter />}
+              <GlobalVideoPopup />
             </QueryClientProvider>
           </ThemeProvider>
         </SnackbarProvider>
