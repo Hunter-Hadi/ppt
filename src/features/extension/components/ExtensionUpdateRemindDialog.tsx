@@ -2,7 +2,8 @@ import { Button, Stack, Typography } from '@mui/material';
 import { useRecoilState } from 'recoil';
 
 import CustomModal from '@/components/CustomModal';
-import { webPageOpenMaxAIExtensionPage } from '@/features/common/utils/postMessageToCRX';
+import ResponsiveImage from '@/components/ResponsiveImage';
+import { webPageOpenMaxAIImmersiveChat } from '@/features/common/utils/postMessageToCRX';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 
 import { ExtensionUpdateRemindDialogState } from '../store';
@@ -25,7 +26,7 @@ const ExtensionUpdateRemindDialog = () => {
   };
 
   const handleClickRouteToExtensionPage = () => {
-    webPageOpenMaxAIExtensionPage();
+    webPageOpenMaxAIImmersiveChat();
   };
 
   return (
@@ -40,20 +41,24 @@ const ExtensionUpdateRemindDialog = () => {
             mt: '20%',
             height: 'unset',
             width: '90%',
-            maxWidth: 464,
+            maxWidth: 400,
           }}
         >
-          <Stack spacing={2} p={4}>
+          <Stack spacing={2} p={4} bgcolor='white'>
             <Typography variant={'h5'}>
-              Update MaxAI.me extension,
-              <br />
-              refresh the web page to continue
+              {`To run this prompt, access the '1-click prompts' feature in 'Immersive chat'.`}
             </Typography>
+            <ResponsiveImage
+              alt='1-click-prompt-btn'
+              src='/assets/extension/1-click-prompt-btn.jpg'
+              width={1772}
+              height={862}
+            />
             <Button
               variant='contained'
               onClick={handleClickRouteToExtensionPage}
             >
-              Updated now
+              {`Open 'Immersive chat'`}
             </Button>
           </Stack>
         </CustomModal>
