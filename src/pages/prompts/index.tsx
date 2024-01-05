@@ -1,13 +1,73 @@
 import { Stack, Typography } from '@mui/material';
-import React from 'react';
+import { useRouter } from 'next/router';
+import React, { useEffect } from 'react';
+import { useRecoilValue } from 'recoil';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import { PromptListLayout, PromptTagSelector } from '@/features/prompt';
+import useExtensionUpdateRemindDialogState from '@/features/extension/hooks/useExtensionUpdateRemindDialog';
+import PromptLibrary from '@/features/prompt_library/components/PromptLibrary';
+import usePromptLibrary from '@/features/prompt_library/hooks/usePromptLibrary';
+import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
+import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
+import { ChromeExtensionDetectorState } from '@/store';
 
 const PromptsPage = () => {
-  const [loaded, setLoaded] = React.useState(false);
+  const router = useRouter();
+  const { initPromptLibrary } = usePromptLibrary();
+  const { promptLibraryListParameters } = usePromptLibraryParameters();
+  const { setMaxAIChromeExtensionInstallHandler } = usePromptLibraryAuth();
+  const { checkIsInstalled } = useRecoilValue(ChromeExtensionDetectorState);
 
+  const {
+    isExtensionVersionGreaterThanRequiredVersion,
+    openUpdateRemindDialog,
+  } = useExtensionUpdateRemindDialogState();
+
+  const { cancelSelectPromptLibraryCard } = usePromptLibrary();
+
+  useEffect(() => {
+    setMaxAIChromeExtensionInstallHandler(async () => {
+      if (!isExtensionVersionGreaterThanRequiredVersion('2.4.7')) {
+        // 2.4.7 版本以上的插件才支持这个功能
+        openUpdateRemindDialog();
+        cancelSelectPromptLibraryCard();
+        return false;
+      }
+
+      return checkIsInstalled();
+    });
+  }, [
+    checkIsInstalled,
+    openUpdateRemindDialog,
+    isExtensionVersionGreaterThanRequiredVersion,
+  ]);
+
+  useEffect(() => {
+    if (router.isReady) {
+      initPromptLibrary({
+        query: (router.query.query as string) || '',
+        page_size: Number(router.query.page_size as string) || 12,
+        page: Number(router.query.page as string) || 0,
+        use_case: (router.query.use_case as string) || 'All',
+        category: (router.query.category as string) || 'All',
+      });
+    }
+  }, [router.isReady]);
+  useEffect(() => {
+    if (promptLibraryListParameters.enabled) {
+      router.push({
+        pathname: '/prompts',
+        query: {
+          query: promptLibraryListParameters.query,
+          page_size: promptLibraryListParameters.page_size,
+          page: promptLibraryListParameters.page,
+          use_case: promptLibraryListParameters.use_case,
+          category: promptLibraryListParameters.category,
+        },
+      });
+    }
+  }, [promptLibraryListParameters]);
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout
@@ -24,9 +84,22 @@ const PromptsPage = () => {
             for ChatGPT, Claude, Bard
           </Typography>
         </Stack>
-        <PromptTagSelector onLoaded={() => setLoaded(true)} />
       </Stack>
-      {loaded && <PromptListLayout />}
+      <PromptLibrary
+        PromptLibraryHeaderProps={{
+          sx: {
+            top: 64,
+            zIndex: 1,
+            bgcolor: 'background.paper',
+          },
+        }}
+        runtime={'WebPage'}
+        sx={{
+          '.maxai__prompt_library__title': {
+            display: 'none',
+          },
+        }}
+      />
     </AppContainer>
   );
 };

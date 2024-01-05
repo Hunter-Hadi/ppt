@@ -1,0 +1,15 @@
+type URLSearchEngine =
+  | 'amazon'
+  | 'baidu'
+  | 'bing'
+  | 'google'
+  | 'reddit'
+  | 'twitter'
+  | 'yahoo'
+  | 'youtube'
+  | 'duckduckgo'
+  | 'sogou'
+  | 'brave'
+  | 'yandex'
+  | 'naver'
+export default URLSearchEngine

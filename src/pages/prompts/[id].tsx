@@ -2,6 +2,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';
+import SendIcon from '@mui/icons-material/Send';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import {
   Breadcrumbs,
@@ -11,9 +12,11 @@ import {
   Stack,
   Typography,
 } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import React, { FC, useEffect, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useRecoilValue } from 'recoil';
 import sanitizeHtml from 'sanitize-html';
 import sanitize from 'sanitize-html';
@@ -23,18 +26,30 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import CopyTypography from '@/components/CopyTypography';
 import ProLink from '@/components/ProLink';
+import { webPageRunMaxAIShortcuts } from '@/features/common/utils/postMessageToCRX';
+import useExtensionUpdateRemindDialogState from '@/features/extension/hooks/useExtensionUpdateRemindDialog';
 import { PromptCardTag, useSharePromptLinks } from '@/features/prompt';
 import LiveCrawlingFlag from '@/features/prompt/components/LiveCrawlingFlag';
-import RunPromptSettingSelector from '@/features/prompt/components/RunPromptSettingSelector';
 import { RENDERED_TEMPLATE_PROMPT_DOM_ID } from '@/features/prompt/constant';
-import { RenderedTemplatePromptAtom } from '@/features/prompt/store/runPromptSettings';
-import { IPromptCardData, IPromptDetailData } from '@/features/prompt/types';
-import { isLiveCrawling } from '@/features/prompt/utils';
+import {
+  IPromptCardData,
+  IPromptDetailData,
+  IPromptVariable,
+} from '@/features/prompt/types';
+import {
+  generateVariableHtmlContent,
+  isLiveCrawling,
+  renderTemplate,
+} from '@/features/prompt/utils';
+import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
+import { promptLibraryCardDetailDataToActions } from '@/features/shortcuts/utils/promptInterpreter';
 import { RESOURCES_URL } from '@/global_constants';
 import Custom404 from '@/pages/404';
+import { ChromeExtensionDetectorState } from '@/store';
 import { PROMPT_API } from '@/utils/api';
+import { generateRandomColorWithTheme } from '@/utils/dataHelper/colorHelper';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
-import { IResponseData, post } from '@/utils/request';
+import { IResponseData, webappPost } from '@/utils/request';
 import { PaginatedData } from '@/utils/usePaginatedQuery';
 
 const sanitizeHtmlOptions = {
@@ -53,7 +68,33 @@ const PromptDetailPage: FC<{
   notFound?: boolean;
   defaultPromptDetail: IPromptDetailData | null;
 }> = (props) => {
+  const theme = useTheme();
+  const { t } = useTranslation(['pages']);
   const { seo, defaultPromptDetail, notFound, id } = props;
+  const {
+    checkMaxAIChromeExtensionInstall,
+    setMaxAIChromeExtensionInstallHandler,
+  } = usePromptLibraryAuth();
+  const { checkIsInstalled } = useRecoilValue(ChromeExtensionDetectorState);
+  const {
+    isExtensionVersionGreaterThanRequiredVersion,
+    openUpdateRemindDialog,
+  } = useExtensionUpdateRemindDialogState();
+  useEffect(() => {
+    setMaxAIChromeExtensionInstallHandler(async () => {
+      if (!isExtensionVersionGreaterThanRequiredVersion('2.4.7')) {
+        // 2.4.7 版本以上的插件才支持这个功能
+        openUpdateRemindDialog();
+        return false;
+      }
+
+      return checkIsInstalled();
+    });
+  }, [
+    checkIsInstalled,
+    isExtensionVersionGreaterThanRequiredVersion,
+    openUpdateRemindDialog,
+  ]);
   const [loaded, setLoaded] = useState<boolean>(
     defaultPromptDetail?.prompt_template !== undefined,
   );
@@ -61,7 +102,7 @@ const PromptDetailPage: FC<{
     defaultPromptDetail,
   );
   useEffect(() => {
-    post<IResponseData<IPromptDetailData>>(PROMPT_API.GET_PROMPT_DETAIL, {
+    webappPost<IResponseData<IPromptDetailData>>(PROMPT_API.GET_PROMPT_DETAIL, {
       id,
     })
       .then((result) => {
@@ -81,17 +122,29 @@ const PromptDetailPage: FC<{
         setLoaded(true);
       });
   }, [id]);
-  const renderedTemplatePrompt = useRecoilValue(RenderedTemplatePromptAtom);
 
-  const copyRenderedTemplatePromptMemo = useMemo(() => {
-    if (typeof window !== 'undefined') {
-      const div = document.createElement('div');
-      div.innerHTML = renderedTemplatePrompt;
-      return div.innerText;
-    } else {
-      return '';
-    }
-  }, [renderedTemplatePrompt]);
+  const renderedTemplatePromptMemo = useMemo(() => {
+    const { prompt_template = '', variables = [] } = promptDetail || {};
+
+    const moreVariables = variables.reduce((pre, cur) => {
+      pre[cur.name] = generateVariableHtmlContent(
+        {
+          name: `{{${cur.name}}}`,
+          color: generateRandomColorWithTheme(
+            cur.name,
+            theme.palette.mode === 'dark',
+          ),
+        } as IPromptVariable,
+        false,
+        false,
+      );
+      return pre;
+    }, {} as Record<string, any>);
+    const result = renderTemplate(prompt_template, {
+      ...moreVariables,
+    });
+    return result.data;
+  }, [promptDetail, theme.palette.mode]);
 
   const [shareMenuAnchorEl, setShareMenuAnchorEl] =
     useState<null | HTMLElement>(null);
@@ -109,7 +162,9 @@ const PromptDetailPage: FC<{
           <CopyTypography wrapperMode text={shareLink}>
             <Stack direction='row' alignItems='center' gap={1} fontSize={16}>
               <ContentCopyIcon fontSize={'inherit'} />
-              <Typography variant='body2'>Copy link</Typography>
+              <Typography variant='body2'>
+                {t('pages:prompt_detail_page__button__copy_link')}
+              </Typography>
             </Stack>
           </CopyTypography>
         ),
@@ -167,7 +222,7 @@ const PromptDetailPage: FC<{
         ),
       },
     ];
-  }, [shareLink, twitterShareLink, emailShareLink, facobookShareLink]);
+  }, [shareLink, twitterShareLink, emailShareLink, facobookShareLink, t]);
 
   const handleShareMenuClose = () => {
     setShareMenuAnchorEl(null);
@@ -263,12 +318,29 @@ const PromptDetailPage: FC<{
                 }`}
               />
             </Stack>
-
-            <Stack sx={{ height: '16px' }} />
-            <RunPromptSettingSelector
-              promptDetail={promptDetail}
-              promptId={id as string}
-            />
+            <Stack
+              direction={'row'}
+              alignItems={'center'}
+              justifyContent={'end'}
+            >
+              <Button
+                sx={{ flexShrink: 0, height: 45 }}
+                variant={'contained'}
+                color={'primary'}
+                startIcon={<SendIcon fontSize={'inherit'} />}
+                onClick={async () => {
+                  if (promptDetail) {
+                    if (await checkMaxAIChromeExtensionInstall()) {
+                      webPageRunMaxAIShortcuts(
+                        promptLibraryCardDetailDataToActions(promptDetail),
+                      );
+                    }
+                  }
+                }}
+              >
+                {t('pages:prompt_detail_page__button__run_this_prompt')}
+              </Button>
+            </Stack>
           </Stack>
           {/*<Stack>*/}
           {/*  <p>language: {language}</p>*/}
@@ -278,7 +350,7 @@ const PromptDetailPage: FC<{
           {/*</Stack>*/}
         </AppContainer>
         <AppContainer>
-          {renderedTemplatePrompt && (
+          {promptDetail?.prompt_template && (
             <Stack my={1} mb={4} position={'relative'}>
               <Stack
                 direction={'row'}
@@ -299,16 +371,13 @@ const PromptDetailPage: FC<{
                 }}
                 spacing={1}
               >
-                <CopyTypography
-                  wrapperMode
-                  text={copyRenderedTemplatePromptMemo}
-                >
+                <CopyTypography wrapperMode text={promptDetail.prompt_template}>
                   <Button
                     variant={'outlined'}
                     color={'primary'}
                     startIcon={<ContentCopyIcon fontSize={'inherit'} />}
                   >
-                    Copy prompt
+                    {t('pages:prompt_detail_page__button__copy_prompt')}
                   </Button>
                 </CopyTypography>
                 <Button
@@ -317,7 +386,7 @@ const PromptDetailPage: FC<{
                   startIcon={<IosShareOutlinedIcon fontSize={'inherit'} />}
                   onClick={(e) => setShareMenuAnchorEl(e.currentTarget)}
                 >
-                  Share prompt
+                  {t('pages:prompt_detail_page__button__share_prompt')}
                 </Button>
                 <Menu
                   anchorEl={shareMenuAnchorEl}
@@ -346,7 +415,7 @@ const PromptDetailPage: FC<{
               >
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: renderedTemplatePrompt,
+                    __html: renderedTemplatePromptMemo,
                   }}
                 ></div>
               </Typography>
@@ -381,7 +450,7 @@ export const listApiGetAllData = async (
 export const getStaticPaths: GetStaticPaths = async () => {
   const list = await listApiGetAllData(
     (page, page_size) =>
-      post<PaginatedData<IPromptCardData>>(
+      webappPost<PaginatedData<IPromptCardData>>(
         PROMPT_API.SEARCH_PROMPT,
         objectFilterEmpty({
           page,
@@ -412,7 +481,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         notFound: true,
       };
     }
-    const result = await post<IResponseData<IPromptDetailData>>(
+    const result = await webappPost<IResponseData<IPromptDetailData>>(
       PROMPT_API.GET_PROMPT_DETAIL,
       { id },
     );

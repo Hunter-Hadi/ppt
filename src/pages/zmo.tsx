@@ -13,7 +13,7 @@ import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 import { APP_API } from '@/utils/api';
-import { post } from '@/utils/request';
+import { webappPost } from '@/utils/request';
 //
 // async function fetchWithTimeout(url: string) {
 //   const timeout = 1000;
@@ -58,7 +58,7 @@ const ZmoInstallPage: FC = () => {
       // debugger;
     } catch (e) {}
     const prefixRef = `[tozmo]-${ref}`;
-    post(APP_API.REF_COUNT, {
+    webappPost(APP_API.REF_COUNT, {
       data: {
         ref: prefixRef,
         date,

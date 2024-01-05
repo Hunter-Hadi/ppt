@@ -6,6 +6,7 @@ import size from 'lodash-es/size';
 import { useEffect, useId, useRef } from 'react';
 import { sm3 } from 'sm-crypto';
 
+import { MAXAI_EXTENSION_ROOT_ID } from '@/features/extension/constant';
 import { USER_AGENT } from '@/global_constants';
 import { COUNTRIES_MAP } from '@/utils/staticData';
 
@@ -323,7 +324,7 @@ export const renderTemplate = (
 };
 
 export const routerToShortcutsPage = () => {
-  const appRoot = document.getElementById('USE_CHAT_GPT_AI_ROOT')?.shadowRoot;
+  const appRoot = document.getElementById(MAXAI_EXTENSION_ROOT_ID)?.shadowRoot;
   if (appRoot) {
     const jumpLink = appRoot.querySelector(
       'a[href="chrome://extensions/shortcuts"]',
@@ -332,7 +333,7 @@ export const routerToShortcutsPage = () => {
       jumpLink.click();
     } else {
       const jumpButton = document
-        .getElementById('USE_CHAT_GPT_AI_ROOT')
+        .getElementById(MAXAI_EXTENSION_ROOT_ID)
         ?.shadowRoot?.querySelector(
           '#usechatgpt-www-to-shortcuts',
         ) as HTMLButtonElement;

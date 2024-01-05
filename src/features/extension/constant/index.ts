@@ -1,0 +1,1 @@
+export const MAXAI_EXTENSION_ROOT_ID = 'USE_CHAT_GPT_AI_ROOT';

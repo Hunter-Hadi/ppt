@@ -15,7 +15,7 @@ import { IPromptDetailData } from '@/features/prompt/types';
 import Custom404 from '@/pages/404';
 import { ChromeExtensionDetectorState } from '@/store';
 import { PROMPT_API } from '@/utils/api';
-import { IResponseData, post } from '@/utils/request';
+import { IResponseData, webappPost } from '@/utils/request';
 import { renderTemplate } from '@/utils/utils';
 const PromptDetailPage: FC<{
   seo: {
@@ -167,7 +167,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         notFound: true,
       };
     }
-    const result = await post<IResponseData<IPromptDetailData>>(
+    const result = await webappPost<IResponseData<IPromptDetailData>>(
       PROMPT_API.GET_PROMPT_DETAIL,
       { id },
     );

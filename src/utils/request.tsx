@@ -31,7 +31,7 @@ const ErrorNetworkTips = (
 console.log('NODE_ENV:', process.env.NODE_ENV);
 const GUEST_USER_MODE = 'GUEST_USER_MODE';
 
-const appAxios = axios.create({
+export const appAxios = axios.create({
   baseURL: process.env.NEXT_PUBLIC_BASE_URL,
   timeout: 20000,
 });
@@ -243,7 +243,39 @@ type ResponseDataType = <T>(
   config?: AxiosRequestConfig,
 ) => Promise<T>;
 
-export const get: ResponseDataType = (
+export const getBlob = (url: string) => {
+  return new Promise((resolve, reject) => {
+    axios({
+      method: 'get',
+      url,
+      responseType: 'blob',
+    })
+      .then((data) => {
+        resolve(data.data);
+      })
+      .catch((error) => {
+        reject(error.toString());
+      });
+  });
+};
+
+export const qspost: ResponseDataType = (
+  url: string,
+  params?: Record<string, unknown>,
+  config?: AxiosRequestConfig,
+) => {
+  return new Promise((resolve, reject) => {
+    appAxios
+      .post(url, JSON.stringify({ ...params }), {
+        ...config,
+      })
+      .then((res) => resolve(res.data))
+      .catch((err) => {
+        reject(err);
+      });
+  });
+};
+export const webappGet: ResponseDataType = (
   url: string,
   params?: Record<string, unknown>,
   config?: AxiosRequestConfig,
@@ -265,23 +297,7 @@ export const get: ResponseDataType = (
   });
 };
 
-export const getBlob = (url: string) => {
-  return new Promise((resolve, reject) => {
-    axios({
-      method: 'get',
-      url,
-      responseType: 'blob',
-    })
-      .then((data) => {
-        resolve(data.data);
-      })
-      .catch((error) => {
-        reject(error.toString());
-      });
-  });
-};
-
-export const post: ResponseDataType = (
+export const webappPost: ResponseDataType = (
   url: string,
   params?: Record<string, unknown>,
   config?: AxiosRequestConfig,
@@ -291,22 +307,5 @@ export const post: ResponseDataType = (
       .post(url, params, { ...config })
       .then((res) => resolve(res.data))
       .catch((err) => reject(err));
-  });
-};
-
-export const qspost: ResponseDataType = (
-  url: string,
-  params?: Record<string, unknown>,
-  config?: AxiosRequestConfig,
-) => {
-  return new Promise((resolve, reject) => {
-    appAxios
-      .post(url, JSON.stringify({ ...params }), {
-        ...config,
-      })
-      .then((res) => resolve(res.data))
-      .catch((err) => {
-        reject(err);
-      });
   });
 };
