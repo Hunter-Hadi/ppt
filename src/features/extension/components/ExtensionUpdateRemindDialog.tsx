@@ -38,7 +38,7 @@ const ExtensionUpdateRemindDialog = () => {
           }}
           show={show}
           sx={{
-            mt: '20%',
+            mt: '10vh',
             height: 'unset',
             width: '90%',
             maxWidth: 400,
