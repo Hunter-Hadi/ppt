@@ -112,7 +112,7 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
   const cacheSx = useMemo(
     () => ({
       color,
-      sx,
+      ...sx,
     }),
     [color, sx],
   );

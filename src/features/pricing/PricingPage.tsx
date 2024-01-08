@@ -17,7 +17,16 @@ const PricingPage = () => {
     <Stack maxWidth={1312} mx={'auto'} pt={8} pb={15} spacing={8}>
       <Stack spacing={4}>
         <Stack>
-          <Typography variant='h1' component={'h3'} textAlign={'center'} mb={4}>
+          <Typography
+            variant='custom'
+            component={'h3'}
+            textAlign={'center'}
+            mb={4}
+            fontSize={{
+              xs: 32,
+              md: 48,
+            }}
+          >
             {t('pricing__title')}
           </Typography>
           <PlanFeaturesTable popularPlan={'elite'} />
