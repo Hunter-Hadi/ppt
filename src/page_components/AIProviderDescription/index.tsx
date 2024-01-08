@@ -69,11 +69,11 @@ const ProviderTabLabel: FC<{ type: IAIProviderTabType; isActive: boolean }> = ({
 }) => {
   const icon = useMemo(() => {
     if (type === 'chatgpt') {
-      return 'ChatGPTLogo';
+      return 'ChatGPTLogoBlack';
     }
 
     if (type === 'free-ai') {
-      return 'AILogo';
+      return 'ChatGPTLogo';
     }
 
     if (type === 'openai-api') {

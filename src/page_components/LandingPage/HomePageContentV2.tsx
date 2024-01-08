@@ -6,6 +6,8 @@ import HeroSection from './HeroSection';
 import LoveByUser from './LoveByUser';
 import OneClickMagic from './OneClickMagic';
 import ProfessionalAbility from './ProfessionalAbility';
+import UserComment from './UserComment';
+import WhyMe from './WhyMe';
 
 const HomePageContent = () => {
   return (
@@ -21,7 +23,9 @@ const HomePageContent = () => {
       {/* professional ability */}
       <ProfessionalAbility />
       {/* Why is MaxAI.me Chrome extension the best */}
+      <WhyMe />
       {/* Comment 1M+ professionals choose MaxAI.me */}
+      <UserComment />
       {/* call to action section */}
     </Stack>
   );

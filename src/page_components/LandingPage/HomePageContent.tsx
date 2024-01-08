@@ -109,7 +109,7 @@ const AIPowerPanel = () => {
           justifyContent='center'
         >
           <CustomIcon
-            icon='AILogo'
+            icon='ChatGPTLogo'
             sx={{
               fontSize: {
                 xs: 32,
