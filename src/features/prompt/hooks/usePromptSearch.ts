@@ -3,7 +3,7 @@ import { useSearchParams } from 'next/navigation';
 import { IPromptCardData } from '@/features/prompt/types';
 import { PROMPT_API } from '@/utils/api';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
-import { post } from '@/utils/request';
+import { webappPost } from '@/utils/request';
 import usePaginatedQuery, { PaginatedData } from '@/utils/usePaginatedQuery';
 
 const usePromptSearch = (defaultPageSize = 12) => {
@@ -23,7 +23,7 @@ const usePromptSearch = (defaultPageSize = 12) => {
       if (postUseCase === 'All') {
         postUseCase = '';
       }
-      return post<PaginatedData<IPromptCardData>>(
+      return webappPost<PaginatedData<IPromptCardData>>(
         PROMPT_API.SEARCH_PROMPT,
         objectFilterEmpty({
           page,

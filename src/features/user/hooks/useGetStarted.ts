@@ -5,7 +5,7 @@ import { useRecoilValue } from 'recoil';
 import { userInviteState } from '@/features/user';
 import { USER_API } from '@/utils/api';
 import { sendLarkBotMessage } from '@/utils/larkBot';
-import { post } from '@/utils/request';
+import { webappPost } from '@/utils/request';
 
 const useGetStarted = (email: string) => {
   const userInvite = useRecoilValue(userInviteState);
@@ -14,7 +14,7 @@ const useGetStarted = (email: string) => {
   const sendEmail = async () => {
     setLoading(true);
     try {
-      const response = await post<{
+      const response = await webappPost<{
         status: string;
         was_in_waitlist: boolean;
       }>(USER_API.JOIN_WAITING_LIST, {

@@ -10,6 +10,7 @@ export const ChromeExtensionDetectorState = atom<{
     },
   },
 });
+
 export const AppState = atom<{
   globalLoading: boolean;
 }>({

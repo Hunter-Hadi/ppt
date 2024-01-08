@@ -5,6 +5,7 @@ export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID;
 export default function Document() {
   return (
     <Html lang='en'>
+      {/* @ts-ignore */}
       <Head>
         <script
           id='google-tag-manager'
@@ -23,6 +24,7 @@ export default function Document() {
           }}
         />
         <Main />
+        {/* @ts-ignore */}
         <NextScript />
       </body>
     </Html>

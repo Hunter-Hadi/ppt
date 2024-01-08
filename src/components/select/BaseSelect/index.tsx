@@ -44,12 +44,13 @@ export interface IBaseSelectProps
 
 const findCurrentOption = (options: IOptionType[], value: IOptionValueType) => {
   let findIndex = 0;
-  const findOption = options.find((option, index) => {
-    if (option.value === value) {
-      findIndex = index;
-      return true;
-    }
-  });
+  const findOption =
+    options.find((option, index) => {
+      if (option.value === value) {
+        findIndex = index;
+        return true;
+      }
+    }) || options[0];
   return [value, findOption, findIndex] as Parameters<renderLabelFunctionType>;
 };
 

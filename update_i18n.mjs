@@ -267,6 +267,15 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `button.${key}`)) {
       return `button.${key}`;
     }
+    if (_.get(sourceJson, `prompt.${key}`)) {
+      return `prompt.${key}`;
+    }
+    if (_.get(sourceJson, `prompt_editor.${key}`)) {
+      return `prompt_editor.${key}`;
+    }
+    if (_.get(sourceJson, `prompt_library.${key}`)) {
+      return `prompt_library.${key}`;
+    }
     return key;
   });
   let needUpdateLanguages = i18nDirs;

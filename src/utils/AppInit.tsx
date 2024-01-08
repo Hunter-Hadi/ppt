@@ -5,6 +5,8 @@ import { useRecoilValue, useSetRecoilState } from 'recoil';
 
 import CopyTypography from '@/components/CopyTypography';
 import CustomModal from '@/components/CustomModal';
+import ExtensionUpdateRemindDialog from '@/features/extension/components/ExtensionUpdateRemindDialog';
+import { MAXAI_EXTENSION_ROOT_ID } from '@/features/extension/constant';
 import { useInitInviteCode } from '@/features/user';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import { useInitI18n } from '@/i18n/hooks';
@@ -24,7 +26,7 @@ const ChromeExtensionDetector = () => {
   const handleCheckPopup = () => {
     // 检测逻辑
     const chromeExtensionInstalled = document.getElementById(
-      'USE_CHAT_GPT_AI_ROOT',
+      MAXAI_EXTENSION_ROOT_ID,
     );
     if (!chromeExtensionInstalled) {
       setShowModal(true);
@@ -133,6 +135,7 @@ const AppInit = () => {
   return (
     <>
       <ChromeExtensionDetector />
+      <ExtensionUpdateRemindDialog />
       <AppGlobalBackdrop />
     </>
   );
