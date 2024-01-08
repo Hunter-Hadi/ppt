@@ -22,6 +22,7 @@ export interface IProLinkProps {
   onClick?: MuiLinkProps['onClick'];
   children?: React.ReactNode;
   sx?: SxProps;
+  color?: string;
 }
 // TODO - add current url to white list
 const WHITE_LIST_DOMAINS: string[] = [
@@ -100,12 +101,22 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
     muiLinkProps,
     sx,
     children,
+    color,
   } = props;
   const router = useRouter();
   const targetMixin = useMemo(
     () => forceTarget ?? safeTarget(target),
     [forceTarget, target],
   );
+
+  const cacheSx = useMemo(
+    () => ({
+      color,
+      sx,
+    }),
+    [color, sx],
+  );
+
   if (!router && typeof href === 'string') {
     return (
       <MyMuiLink
@@ -113,7 +124,7 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
         target={targetMixin}
         underline={underline}
         onClick={onClick}
-        sx={sx}
+        sx={cacheSx}
         {...muiLinkProps}
       >
         {children}
@@ -126,7 +137,7 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
         target={targetMixin}
         underline={underline}
         onClick={onClick}
-        sx={sx}
+        sx={cacheSx}
         {...muiLinkProps}
       >
         {children}

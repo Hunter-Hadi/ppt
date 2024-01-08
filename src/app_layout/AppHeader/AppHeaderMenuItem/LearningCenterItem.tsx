@@ -14,6 +14,9 @@ const LearningCenterItem: FC<IProps> = ({ mini }) => {
       fontSize={16}
       lineHeight={1.5}
       fontWeight={500}
+      sx={{
+        cursor: 'pointer',
+      }}
     >
       Learning-center
     </Typography>

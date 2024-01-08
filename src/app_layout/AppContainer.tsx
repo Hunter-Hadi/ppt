@@ -1,9 +1,11 @@
-import { Container, Stack, SxProps } from '@mui/material';
+import { Box, Stack, SxProps } from '@mui/material';
 import React, { FC } from 'react';
 
-const AppContainer: FC<{ children: React.ReactNode; sx?: SxProps }> = (
-  props,
-) => {
+const AppContainer: FC<{
+  children: React.ReactNode;
+  sx?: SxProps;
+  maxWidth?: string | number;
+}> = ({ children, sx, maxWidth = 'lg' }) => {
   return (
     <Stack
       direction='row'
@@ -12,10 +14,20 @@ const AppContainer: FC<{ children: React.ReactNode; sx?: SxProps }> = (
         flex: 1,
         minHeight: `calc(100% - 65px)`,
         bgcolor: 'pageBackground',
-        ...props.sx,
+        ...sx,
       }}
     >
-      <Container maxWidth={'lg'}>{props.children}</Container>
+      <Box
+        sx={{
+          boxSizing: 'border-box',
+          width: '100%',
+          mx: 'auto',
+          px: 2,
+          maxWidth: maxWidth,
+        }}
+      >
+        {children}
+      </Box>
     </Stack>
   );
 };

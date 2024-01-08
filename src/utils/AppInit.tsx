@@ -7,6 +7,7 @@ import CopyTypography from '@/components/CopyTypography';
 import CustomModal from '@/components/CustomModal';
 import ExtensionUpdateRemindDialog from '@/features/extension/components/ExtensionUpdateRemindDialog';
 import { MAXAI_EXTENSION_ROOT_ID } from '@/features/extension/constant';
+import useInitExtensionStatus from '@/features/extension/hooks/useInitExtensionStatus';
 import { useInitInviteCode } from '@/features/user';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import { useInitI18n } from '@/i18n/hooks';
@@ -130,6 +131,7 @@ const AppGlobalBackdrop = () => {
 
 const AppInit = () => {
   useInitI18n();
+  useInitExtensionStatus();
   useInitInviteCode();
 
   return (

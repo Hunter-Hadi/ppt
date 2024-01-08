@@ -1,0 +1,893 @@
+interface IPlanFeaturesType {
+  title: string;
+  desc?: string;
+  planStatus: Record<string, IFeaturesPlanStatus>;
+  icon?: string;
+  tooltip?: {
+    title?: string;
+    desc?: string;
+    imageLink?: string;
+    videoUrl?: string;
+  };
+  youtube?: {
+    time: string;
+    link: string;
+  };
+}
+interface IFeaturesPlanStatus {
+  status: 'all' | 'limit' | 'none';
+  statusText: string;
+}
+
+export const PLAN_FEATURES_CATEGORY: {
+  name: string;
+  icon?: string;
+  features: IPlanFeaturesType[];
+}[] = [
+  // Use 1-click AI anywhere
+  {
+    name: 'plan_features_table__use_one_click_ai_anywhere',
+    icon: '1ClickAIIcon',
+    features: [
+      {
+        title: 'plan_features_table__mini_menu_on_text_selection',
+        icon: 'MiniMenuIcon',
+        planStatus: {
+          free: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+
+        // tooltip: {
+        //   videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        //   imageLink: `/assets/images/upgrade/chatgpt.png`,
+        //   desc: 'As fast as ChatGPT Plus. No country restrictions. Powered by gpt-3.5-turbo.',
+        // },
+        // youtube: {
+        //   link: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        //   time: '0:29',
+        // },
+      },
+      {
+        title: 'plan_features_table__set_up_your_own_prompts',
+        icon: 'MyOwnPromptIcon',
+        planStatus: {
+          free: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/CkFKtcZw5xY',
+          imageLink: `/assets/images/upgrade/custom-prompt.png`,
+          desc: 'plan_features_table__set_up_your_own_prompts__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/CkFKtcZw5xY',
+          time: '0:47',
+        },
+      },
+    ],
+  },
+  // AI providers
+  {
+    name: 'plan_features_table__all_the_best_ai_models',
+    icon: 'Providers',
+    features: [
+      {
+        title: 'ChatGPT',
+        icon: 'ChatGPTIcon',
+        planStatus: {
+          free: {
+            status: 'limit',
+            statusText: 'plan_features_table__daily_limit_applies',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+          imageLink: `/assets/images/upgrade/chatgpt.png`,
+          desc: 'plan_features_table__chatgpt__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+          time: '0:29',
+        },
+      },
+      {
+        title: 'GPT-4-turbo',
+        icon: 'ChatGPTBlackIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'limit',
+            statusText: 'plan_features_table__600_queries_month',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/mAi1D9cbGos',
+          imageLink: `/assets/images/upgrade/max-ai-paid-model-gpt4.png`,
+          desc: 'plan_features_table__chatgpt_4__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/mAi1D9cbGos',
+          time: '0:56',
+        },
+      },
+      {
+        title: 'ChatGPT-16k',
+        icon: 'ChatGPTIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'limit',
+            statusText: 'plan_features_table__600_queries_month',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/QA4gxm3xtLE',
+          imageLink: `/assets/images/upgrade/max-ai-paid-model-gpt3-5-16k.png`,
+          desc: 'plan_features_table__chatgpt_16k__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/QA4gxm3xtLE',
+          time: '0:56',
+        },
+      },
+      {
+        title: 'Claude-instant-100k',
+        icon: 'ClaudeIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'limit',
+            statusText: 'plan_features_table__600_queries_month',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/qwFVrq3Epcs',
+          imageLink: `/assets/images/upgrade/claude-instant-100k.png`,
+          desc: 'plan_features_table__claude__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/qwFVrq3Epcs',
+          time: '0:52',
+        },
+      },
+      {
+        title: 'Claude-2-100k',
+        icon: 'ClaudeBlackIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'limit',
+            statusText: 'plan_features_table__600_queries_month',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/3hHrqmIU284',
+          imageLink: `/assets/images/upgrade/claude-2-100k.png`,
+          desc: 'plan_features_table__claude_2__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/3hHrqmIU284',
+          time: '0:52',
+        },
+      },
+      {
+        title: 'Gemini beta',
+        icon: 'GeminiIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+      },
+      {
+        title: 'plan_features_table__more_ai_providers',
+        icon: 'MoreAIProvidersIcon',
+        planStatus: {
+          free: {
+            status: 'limit',
+            statusText: 'plan_features_table__daily_limit_applies',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+      },
+    ],
+  },
+  // Summarize & Research & WebAccess
+  {
+    name: 'plan_features_table__summarize_research_web_access',
+    icon: 'Research',
+    features: [
+      {
+        title: 'plan_features_table__summarize_chat_with_any_webpage',
+        icon: 'SummaryChatIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/72UM1jMaJhY',
+          imageLink: `/assets/images/upgrade/page-summary.png`,
+          desc: 'plan_features_table__summarize_chat_with_any_webpage__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/72UM1jMaJhY',
+          time: '0:43',
+        },
+      },
+      {
+        title: 'plan_features_table__summarize_chat_with_youTube',
+        icon: 'YouTube',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/P60_lPz5yIU',
+          imageLink: `/assets/images/upgrade/page-summary.png`,
+          desc: 'plan_features_table__summarize_chat_with_youTube__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/P60_lPz5yIU',
+          time: '0:14',
+        },
+      },
+      {
+        title: 'plan_features_table__ai_powered_search',
+        icon: 'AIPowerSearchIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/1uZuyqqySO0',
+          imageLink: `/assets/images/upgrade/ai-powered-search.png`,
+          desc: 'plan_features_table__ai_powered_search__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/1uZuyqqySO0',
+          time: '1:30',
+        },
+      },
+      {
+        title: 'plan_features_table__search_with_AI',
+        icon: 'SearchWithAIIcon',
+        planStatus: {
+          free: {
+            status: 'limit',
+            statusText: 'plan_features_table__limited_access',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/kgO6OnurRpQ',
+          imageLink: `/assets/images/upgrade/search-with-ai.png`,
+          desc: 'plan_features_table__search_with_AI__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/kgO6OnurRpQ',
+          time: '0:58',
+        },
+      },
+
+      {
+        title: 'plan_features_table__summarize_chat_with_pdf',
+        icon: 'PDFViewerIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/72UM1jMaJhY',
+          imageLink: `/assets/images/upgrade/page-summary.png`,
+          desc: 'plan_features_table__summarize_chat_with_pdf__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/72UM1jMaJhY',
+          time: '0:44',
+        },
+      },
+      {
+        title: 'plan_features_table__summarize_chat_with_email',
+        icon: 'EmailIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/fwaqJyTwefI',
+          imageLink: `/assets/images/upgrade/input-assistant-email.png`,
+          desc: 'plan_features_table__summarize_chat_with_email__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/fwaqJyTwefI',
+          time: '1:20',
+        },
+      },
+
+      {
+        title: 'plan_features_table__pdf_ai_viewer',
+        icon: 'PDFViewerIcon',
+        planStatus: {
+          free: {
+            status: 'limit',
+            statusText: 'plan_features_table__limited_access',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/eYO5Dh6Ruic',
+          imageLink: `/assets/images/upgrade/pdf.png`,
+          desc: 'plan_features_table__pdf_ai_viewer__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/eYO5Dh6Ruic',
+          time: '0:54',
+        },
+      },
+    ],
+  },
+
+  // Help me write
+  {
+    name: 'plan_features_table__help_me_write_everywhere',
+    icon: 'Help me write',
+    features: [
+      {
+        title: 'plan_features_table__gmail_writing_assistant',
+        icon: 'Gmail',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/fwaqJyTwefI',
+          imageLink: `/assets/images/upgrade/input-assistant-email.png`,
+          desc: 'plan_features_table__gmail_writing_assistant__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/fwaqJyTwefI',
+          time: '1:20',
+        },
+      },
+      {
+        title: 'plan_features_table__facebook_writing_assistant',
+        icon: 'Facebook',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/zmNGKFyw3pU',
+          imageLink: `/assets/images/upgrade/social-media-posts.png`,
+          desc: 'plan_features_table__facebook_writing_assistant__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/zmNGKFyw3pU',
+          time: '1:19',
+        },
+      },
+      {
+        title: 'plan_features_table__linkedIn_writing_assistant',
+        icon: 'LinkedIn',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/55IqqmQIBw0',
+          imageLink: `/assets/images/upgrade/social-media-posts.png`,
+          desc: 'plan_features_table__linkedIn_writing_assistant__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/55IqqmQIBw0',
+          time: '1:28',
+        },
+      },
+      {
+        title: 'plan_features_table__xtwitter_writing_assistant',
+        icon: 'TwitterX',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/3UQaOm8sWVI',
+          imageLink: `/assets/images/upgrade/social-media-posts.png`,
+          desc: 'plan_features_table__xtwitter_writing_assistant__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/3UQaOm8sWVI',
+          time: '1:06',
+        },
+      },
+      {
+        title: 'plan_features_table__youtube_writing_assistant',
+        icon: 'YouTube',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/D4Acc0rpR3o',
+          imageLink: `/assets/images/upgrade/social-media-posts.png`,
+          desc: 'plan_features_table__youtube_writing_assistant__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/D4Acc0rpR3o',
+          time: '1:39',
+        },
+      },
+      {
+        title: 'plan_features_table__outlook_writing_assistant',
+        icon: 'Outlook',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/Y2yZ4wWQDno',
+          imageLink: `/assets/images/upgrade/input-assistant-email.png`,
+          desc: 'plan_features_table__outlook_writing_assistant__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/Y2yZ4wWQDno',
+          time: '1:16',
+        },
+      },
+      {
+        title: 'plan_features_table__instagram_writing_assistant',
+        icon: 'Instagram',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/OnRPaGn_4Ds',
+          imageLink: `/assets/images/upgrade/social-media-posts.png`,
+          desc: 'plan_features_table__instagram_writing_assistant__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/OnRPaGn_4Ds',
+          time: '1:33',
+        },
+      },
+    ],
+  },
+
+  // Personalized AI
+  {
+    name: 'plan_features_table__truly_personalized_ai',
+    icon: 'Personalized',
+    features: [
+      {
+        title: 'plan_features_table__one_click_prompts',
+        icon: 'OneClickPromptIcon',
+        planStatus: {
+          free: {
+            status: 'limit',
+            statusText: 'plan_features_table__limited_access',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          imageLink: `/assets/images/upgrade/one-click-prompt.png`,
+          desc: 'plan_features_table__one_click_prompts__tooltip_desc',
+        },
+      },
+      {
+        title: 'plan_features_table__ai_response_language',
+        icon: 'LanguageIcon',
+        planStatus: {
+          free: {
+            status: 'limit',
+            statusText: 'plan_features_table__english_only',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__any_language',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__any_language',
+          },
+        },
+        tooltip: {
+          imageLink: `/assets/images/upgrade/preferred-language.png`,
+          title: 'Upgrade to change AI response language',
+          desc: 'plan_features_table__ai_response_language__tooltip_desc',
+        },
+      },
+
+      {
+        title: 'plan_features_table__chatgpt_temperature',
+        icon: 'ChatGPTTemperatureIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__full_control',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__full_control',
+          },
+        },
+        tooltip: {
+          imageLink: `/assets/images/upgrade/max-ai-temperature.png`,
+          desc: 'plan_features_table__chatgpt_temperature__tooltip_desc',
+        },
+      },
+    ],
+  },
+  // ChatGPT enhanced with WebChatGPT
+  {
+    name: 'plan_features_table__chatgpt_enhanced_with_webchatgpt',
+    icon: 'ChatGPTEnhancedIcon',
+    features: [
+      {
+        title: 'plan_features_table__web_access_copilot',
+        desc: 'plan_features_table__web_access_copilot__desc',
+        icon: 'WebAccessCopilotIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/uDMJNf841dc',
+          imageLink: `/assets/images/upgrade/web-access-full-insights.png`,
+          desc: 'plan_features_table__web_access_copilot__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/uDMJNf841dc',
+          time: '1:03',
+        },
+      },
+      {
+        title: 'plan_features_table__web_access_advanced',
+        icon: 'WebAccessAdvancedIcon',
+        planStatus: {
+          free: {
+            status: 'limit',
+            statusText: 'plan_features_table__limited_access',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_access',
+          },
+        },
+        tooltip: {
+          imageLink: `/assets/images/upgrade/advanced-options.png`,
+          title: 'Upgrade to access all advanced options',
+          desc: 'plan_features_table__web_access_advanced__tooltip_desc',
+        },
+      },
+    ],
+  },
+  // New features
+  {
+    name: 'plan_features_table__new_and_upcoming_features',
+    icon: 'MaxAILogo',
+    features: [
+      {
+        title: 'plan_features_table__tiktok_writing_assistant',
+        icon: 'TikTok',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+        },
+      },
+      {
+        title: 'plan_features_table__google_ads_assistant',
+        icon: 'GoogleAds',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+        },
+      },
+      {
+        title: 'plan_features_table__facebook_ads_assistant',
+        icon: 'FacebookAds',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+        },
+      },
+      {
+        title: 'plan_features_table__shopify_assistant',
+        icon: 'Shopify',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__available_soon',
+          },
+        },
+      },
+      {
+        title: 'plan_features_table__other_new_features',
+        icon: 'NewFeaturesIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'all',
+            statusText: 'plan_features_table__priority_access',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__priority_access',
+          },
+        },
+      },
+    ],
+  },
+];

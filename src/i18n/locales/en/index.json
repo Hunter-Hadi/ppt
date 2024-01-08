@@ -1,5 +1,6 @@
 {
   "common": {
+    "sign_in": "Sign in",
     "log_out": "Log out",
     "help": "Help",
     "save": "Save",
@@ -40,7 +41,11 @@
     "add_to_chrome_for_free": "Add to Chrome for free",
     "add_to_chrome_for_free__mini": "Add to Chrome",
     "add_to_edge_for_free": "Add to Edge for free",
-    "add_to_edge_for_free__mini": "Add to Edge"
+    "add_to_edge_for_free__mini": "Add to Edge",
+
+    "upgrade_to": "Upgrade to {{plan}}",
+    "start_for": "Start for {{plan}}",
+    "cancel_anytime": "Cancel anytime."
   },
   "pages": {
     "home_page__title": "Use 1-Click AI Anywhere",
@@ -94,7 +99,11 @@
     "home_page__hero_section__title__part1": "1-click AI anywhere,",
     "home_page__hero_section__title__part2": "Less time,",
     "home_page__hero_section__title__part3": "Better results.",
-    "home_page__hero_section__desc": "MaxAI.me is a generative AI browser tool that lets you use personalized AI power at your fingertips, right on any webpage and PDF. Join MaxAI.me and make your browser smarter than ever before!"
+    "home_page__hero_section__desc": "MaxAI.me is a generative AI browser tool that lets you use personalized AI power at your fingertips, right on any webpage and PDF. Join MaxAI.me and make your browser smarter than ever before!",
+
+    "pricing__title": "Compare plans & features",
+
+    "faq__title": "FAQs"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -142,6 +151,114 @@
     "footer__follow_us": "Follow Us",
     "footer__help": "Help",
     "footer__how_to_use": "How to use",
-    "footer__contact_us": "Contact us"
+    "footer__contact_us": "Contact us",
+
+    "payment_type_switch__yearly": "Yearly",
+    "payment_type_switch__monthly": "Monthly",
+    "payment_type_switch__tooltip1": "Pay yearly",
+    "payment_type_switch__tooltip2": "and save {{num}}%",
+    "plan_payment_info__per_month": "per month",
+    "plan_payment_info__billed_yearly": "billed yearly",
+    "plan_payment_info__free_desc": "Best for occasional users",
+    "plan_payment_info__pro_desc": "Best for power users",
+    "plan_payment_info__elite_desc": "Best for elite professionals",
+
+    "plan_features_table__use_one_click_ai_anywhere": "Use 1-click AI anywhere",
+    "plan_features_table__mini_menu_on_text_selection": "Mini menu on text selection",
+    "plan_features_table__set_up_your_own_prompts": "Set up your own prompts",
+    "plan_features_table__set_up_your_own_prompts__tooltip_desc": "Use your own prompts to speed up repetitive tasks as you work.",
+
+    "plan_features_table__all_the_best_ai_models": "All the best AI models",
+    "plan_features_table__chatgpt__tooltip_desc": "As fast as ChatGPT Plus. No country restrictions. Powered by gpt-3.5-turbo.",
+    "plan_features_table__chatgpt_4__tooltip_desc": "OpenAI's most capable model, great at tasks that require creativity and advanced reasoning.",
+    "plan_features_table__chatgpt_16k__tooltip_desc": "Enhanced version of ChatGPT with 4x context window than its predecessors.",
+    "plan_features_table__claude__tooltip_desc": "Anthropic's fastest model, 100K context window, great for very long document and code analysis, summarization, and comprehension.",
+    "plan_features_table__claude_2__tooltip_desc": "Anthropic's 2nd iteration of model for enhanced capabilities, 100K context window, great for tasks ranging from sophisticated dialogue and creative content generation to detailed instruction.",
+    "plan_features_table__more_ai_providers": "More AI providers",
+
+    "plan_features_table__summarize_research_web_access": "Summarize & Research & Web access",
+    "plan_features_table__summarize_chat_with_any_webpage": "Summarize & chat with any webpage",
+    "plan_features_table__summarize_chat_with_any_webpage__tooltip_desc": "Chat with AI about any webpages: The AI understands the page context, allows you to get summaries, ask specific questions, and delve into details seamlessly.",
+    "plan_features_table__summarize_chat_with_youTube": "Summarize & chat with YouTube",
+    "plan_features_table__summarize_chat_with_youTube__tooltip_desc": "Chat with AI about any Youtube videos: The AI understands the video context, allows you to get summaries, ask specific questions, and delve into details seamlessly.",
+    "plan_features_table__ai_powered_search": "AI-powered search",
+    "plan_features_table__ai_powered_search__tooltip_desc": "Query or search as you would in Google, and let our AI automatically refine queries, sift through search results, and deliver concise answers by combining and inferring answers from multiple sources for you.",
+    "plan_features_table__search_with_AI": "Search with AI",
+    "plan_features_table__search_with_AI__tooltip_desc": "Enhance your Google search: Let AI combine and infer answers directly from search results, offering you clear insights without browsing through each link yourself.",
+    "plan_features_table__summarize_chat_with_pdf": "Summarize & chat with PDF",
+    "plan_features_table__summarize_chat_with_pdf__tooltip_desc": "Chat with AI about any PDF files: The AI understands the file context, allows you to get summaries, ask specific questions, and delve into details seamlessly.",
+    "plan_features_table__summarize_chat_with_email": "Summarize & chat with email",
+    "plan_features_table__summarize_chat_with_email__tooltip_desc": "Chat with AI about any email threads: The AI understands the file context, allows you to get summaries, ask specific questions, and delve into details seamlessly.",
+    "plan_features_table__pdf_ai_viewer": "PDF AI viewer",
+    "plan_features_table__pdf_ai_viewer__tooltip_desc": "Interact with PDFs by chatting with AI: Get summaries, ask questions, and seamlessly access context-rich information.",
+
+    "plan_features_table__help_me_write_everywhere": "Help me write everywhere",
+    "plan_features_table__gmail_writing_assistant": "Gmail writing assistant",
+    "plan_features_table__gmail_writing_assistant__tooltip_desc": "Let AI generate entire email drafts and replies for you in seconds, and perfect your Gmail draft & reply in one click.",
+    "plan_features_table__facebook_writing_assistant": "Facebook writing assistant",
+    "plan_features_table__facebook_writing_assistant__tooltip_desc": "Enhance your Facebook posts and replies with AI-driven drafts and suggestions, ensuring your content resonates with your Facebook followers.",
+    "plan_features_table__linkedIn_writing_assistant": "LinkedIn writing assistant",
+    "plan_features_table__linkedIn_writing_assistant__tooltip_desc": "Boost your LinkedIn professional interactions using AI-enhanced, context-sensitive drafts and rapid responses.",
+    "plan_features_table__xtwitter_writing_assistant": "X/Twitter writing assistant",
+    "plan_features_table__xtwitter_writing_assistant__tooltip_desc": "Craft compelling tweets or reply to posts with instant AI-generated content tailored for your needs on X/Twitter.",
+    "plan_features_table__youtube_writing_assistant": "YouTube writing assistant",
+    "plan_features_table__youtube_writing_assistant__tooltip_desc": "Quickly reply to comments using AI-assisted drafts in your YouTube Studio, making channel management more efficient!",
+    "plan_features_table__outlook_writing_assistant": "Outlook writing assistant",
+    "plan_features_table__outlook_writing_assistant__tooltip_desc": "Let AI generate entire email drafts and replies for you in seconds, and perfect your Outlook draft & reply in one click.",
+    "plan_features_table__instagram_writing_assistant": "Instagram writing assistant",
+    "plan_features_table__instagram_writing_assistant__tooltip_desc": "Enhance your posts and replies with AI-driven drafts and suggestions, ensuring your Instagram content resonates with your followers.",
+
+    "plan_features_table__truly_personalized_ai": "Truly personalized AI",
+    "plan_features_table__one_click_prompts": "1-click prompts",
+    "plan_features_table__one_click_prompts__tooltip_desc": "Turn your hours-long everyday tasks into minutes with our expanding collection of ready-to-use prompts.",
+    "plan_features_table__ai_response_language": "AI response language",
+    "plan_features_table__ai_response_language__tooltip_desc": "Set AI to always reply in your chosen language.",
+    "plan_features_table__chatgpt_temperature": "ChatGPT temperature",
+    "plan_features_table__chatgpt_temperature__tooltip_desc": "Control AI response randomness. A lower temperature makes AI responses less random, more deterministic, and repetitive.",
+
+    "plan_features_table__chatgpt_enhanced_with_webchatgpt": "ChatGPT enhanced with WebChatGPT",
+    "plan_features_table__web_access_copilot": "Web access copilot",
+    "plan_features_table__web_access_copilot__desc": "ChatGPT enhanced",
+    "plan_features_table__web_access_copilot__tooltip_desc": "Get answers to the hardest questions with comprehensive web insights.",
+    "plan_features_table__web_access_advanced": "Web access advanced",
+    "plan_features_table__web_access_advanced__tooltip_desc": "Choose from the world's top search engines, get more search results, specify search time range and region, and select AI response language with Web Access.",
+
+    "plan_features_table__new_and_upcoming_features": "New and upcoming features",
+    "plan_features_table__tiktok_writing_assistant": "TikTok writing assistant",
+    "plan_features_table__google_ads_assistant": "Google Ads assistant",
+    "plan_features_table__facebook_ads_assistant": "Facebook Ads assistant",
+    "plan_features_table__shopify_assistant": "Shopify assistant",
+    "plan_features_table__other_new_features": "Other New features",
+
+    "plan_features_table__unlimited_access": "Unlimited access",
+    "plan_features_table__daily_limit_applies": "Daily limit applies",
+    "plan_features_table__not_available": "Not available",
+    "plan_features_table__unlimited_queries": "Unlimited queries",
+    "plan_features_table__600_queries_month": "600+ queries/month",
+    "plan_features_table__900_queries_month": "900+ queries/month",
+    "plan_features_table__limited_access": "Limited access",
+    "plan_features_table__english_only": "English only",
+    "plan_features_table__any_language": "Any language",
+    "plan_features_table__full_control": "Full control",
+    "plan_features_table__available_soon": "Available Soon",
+    "plan_features_table__priority_access": "Priority access",
+    "plan_features_table__most_popular": "Most popular",
+
+    "plan_features_list__title": "MaxAI {{plan}} includes:",
+
+    "faq_list__my_plan": "My Plan",
+    "faq_list__terms_of_service": "Terms of Service",
+    "faq_list__question1__title": "Is MaxAI free to use?",
+    "faq_list__question1__desc": "The basic features of MaxAI are free, including a daily limit on AI requests. For access to advanced features, an upgrade is required.",
+    "faq_list__question2__title": "How do I cancel my paid plan?",
+    "faq_list__question2__desc1": "You can visit",
+    "faq_list__question2__desc2": "and click 'Manage my subscription' to cancel your subscription.",
+    "faq_list__question3__title": "Do the model request limits of the paid plan apply to my own API key?",
+    "faq_list__question3__desc": "No, these usage limits are specific to models like GPT-4 that are directly operated by MaxAI. If you're on a paid plan and using your own API key, you can use any models linked with it without any usage limits set by MaxAI. For more details on usage limits, please see our",
+    "faq_list__question4__title": "Where can I use MaxAI.me?",
+    "faq_list__question4__desc": "You can use MaxAI.me on any website on any Chromium-based browsers (like Chrome and Edge) to compose, improve writing, summarize, explain, fix spelling & grammar, translate, or reply to any text.",
+
+    "faq_list__disclaimer_part1": "By subscribing, you are enrolling in automatic payments. Cancel or manage your subscription through Stripe's customer portal from \"My Plan\". All services are delivered according to the ",
+    "faq_list__disclaimer_part2": " you confirm with your sign-up."
   }
 }

@@ -8,3 +8,14 @@ export const ExtensionUpdateRemindDialogState = atom<{
     show: false,
   },
 });
+
+export const ExtensionState = atom<{
+  loaded: boolean;
+  hasExtension: boolean;
+}>({
+  key: 'ExtensionState',
+  default: {
+    loaded: false,
+    hasExtension: false,
+  },
+});

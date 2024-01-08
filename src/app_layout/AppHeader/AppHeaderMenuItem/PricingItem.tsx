@@ -14,6 +14,9 @@ const PricingItem: FC<IProps> = ({ mini = false }) => {
       fontSize={16}
       lineHeight={1.5}
       fontWeight={500}
+      sx={{
+        cursor: 'pointer',
+      }}
     >
       Pricing
     </Typography>
