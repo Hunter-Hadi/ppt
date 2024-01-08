@@ -38,7 +38,9 @@
   },
   "button": {
     "add_to_chrome_for_free": "Add to Chrome for free",
-    "add_to_edge_for_free": "Add to Edge for free"
+    "add_to_chrome_for_free__mini": "Add to Chrome",
+    "add_to_edge_for_free": "Add to Edge for free",
+    "add_to_edge_for_free__mini": "Add to Edge"
   },
   "pages": {
     "home_page__title": "Use 1-Click AI Anywhere",
@@ -87,7 +89,12 @@
     "prompt_detail_page__button__run_this_prompt": "Run this prompt",
     "prompt_detail_page__button__copy_prompt": "Copy prompt",
     "prompt_detail_page__button__share_prompt": "Share prompt",
-    "prompt_detail_page__button__copy_link": "Copy link"
+    "prompt_detail_page__button__copy_link": "Copy link",
+
+    "home_page__hero_section__title__part1": "1-click AI anywhere,",
+    "home_page__hero_section__title__part2": "Less time,",
+    "home_page__hero_section__title__part3": "Better results.",
+    "home_page__hero_section__desc": "MaxAI.me is a generative AI browser tool that lets you use personalized AI power at your fingertips, right on any webpage and PDF. Join MaxAI.me and make your browser smarter than ever before!"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -135,9 +142,6 @@
     "footer__follow_us": "Follow Us",
     "footer__help": "Help",
     "footer__how_to_use": "How to use",
-    "footer__contact_us": "Contact us",
-
-    "hero_section__title": "Unleash 1-Click AI Magic on Any Webpage",
-    "hero_section__desc": "MaxAI.me is a generative AI browser tool that lets you use personalized AI power at your fingertips, right on any webpage and PDF. Join MaxAI.me and make your browser smarter than ever before!"
+    "footer__contact_us": "Contact us"
   }
 }

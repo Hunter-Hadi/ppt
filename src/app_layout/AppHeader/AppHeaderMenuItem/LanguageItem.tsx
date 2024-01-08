@@ -1,11 +1,15 @@
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import { Box, Stack } from '@mui/material';
-import React, { useEffect, useRef } from 'react';
+import React, { FC, useEffect, useRef } from 'react';
 
 import LanguageSelect from '@/components/select/LanguageSelect';
 import { usePreferredLanguage } from '@/i18n/hooks';
 
-const LanguageItem = () => {
+interface IProps {
+  mini?: boolean;
+}
+
+const LanguageItem: FC<IProps> = ({ mini }) => {
   const { currentLanguage, changeLanguage, languageLabel } =
     usePreferredLanguage();
 
@@ -20,7 +24,15 @@ const LanguageItem = () => {
   }, [languageLabel]);
 
   return (
-    <Stack direction='row' spacing={0} alignItems='center'>
+    <Stack
+      direction='row'
+      spacing={0}
+      alignItems='center'
+      sx={{
+        px: mini ? 2 : 0,
+        py: mini ? 0.75 : 0,
+      }}
+    >
       <Box
         ref={templateLanguageRef}
         sx={{

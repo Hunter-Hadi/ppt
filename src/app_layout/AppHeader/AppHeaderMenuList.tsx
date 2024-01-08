@@ -1,6 +1,6 @@
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import { Box, Drawer, IconButton, Stack } from '@mui/material';
+import { Box, Drawer, IconButton, MenuList, Stack } from '@mui/material';
 import React, { FC } from 'react';
 
 import useAppHeaderState from '@/hooks/useAppHeaderState';
@@ -8,14 +8,14 @@ import useAppHeaderState from '@/hooks/useAppHeaderState';
 import AppHeaderMenuItem from './AppHeaderMenuItem';
 
 const APP_HEADER_MENU_LIST = [
-  {
-    key: 'Industries',
-    label: 'Industries',
-  },
-  {
-    key: 'Features',
-    label: 'Features',
-  },
+  // {
+  //   key: 'Industries',
+  //   label: 'Industries',
+  // },
+  // {
+  //   key: 'Features',
+  //   label: 'Features',
+  // },
   {
     key: 'Pricing',
     label: 'Pricing',
@@ -56,15 +56,18 @@ const AppHeaderMenuList: FC<IProps> = ({ mini = false }) => {
             },
           }}
         >
-          {/* <Stack></Stack> */}
-          <h1>{appHeaderHeight}</h1>
+          <MenuList>
+            {APP_HEADER_MENU_LIST.map((item) => (
+              <AppHeaderMenuItem key={item.key} menuKey={item.key} mini />
+            ))}
+          </MenuList>
         </Drawer>
       </Box>
     );
   }
 
   return (
-    <Stack direction={'row'} spacing={2}>
+    <Stack direction={'row'} spacing={2} alignItems='center'>
       {APP_HEADER_MENU_LIST.map((item) => (
         <AppHeaderMenuItem key={item.key} menuKey={item.key} />
       ))}

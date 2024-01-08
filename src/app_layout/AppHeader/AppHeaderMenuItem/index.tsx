@@ -8,27 +8,28 @@ import PricingItem from './PricingItem';
 
 interface IProps {
   menuKey: string;
+  mini?: boolean;
 }
 
-const AppHeaderMenuItem: FC<IProps> = ({ menuKey }) => {
+const AppHeaderMenuItem: FC<IProps> = ({ menuKey, mini }) => {
   if (menuKey === 'Industries') {
-    return <IndustriesItem />;
+    return <IndustriesItem mini={mini} />;
   }
 
   if (menuKey === 'Features') {
-    return <FeaturesItem />;
+    return <FeaturesItem mini={mini} />;
   }
 
   if (menuKey === 'Pricing') {
-    return <PricingItem />;
+    return <PricingItem mini={mini} />;
   }
 
   if (menuKey === 'Learning-center') {
-    return <LearningCenterItem />;
+    return <LearningCenterItem mini={mini} />;
   }
 
   if (menuKey === 'Language') {
-    return <LanguageItem />;
+    return <LanguageItem mini={mini} />;
   }
 
   return null;

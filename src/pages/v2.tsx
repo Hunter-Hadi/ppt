@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import HomePageContent from '@/page_components/LandingPage/HomePageContentV2';
+import HomePageContent from '@/features/landing/components/HomePageContent';
 
 const LandingPageV2 = () => {
   useEffect(() => {

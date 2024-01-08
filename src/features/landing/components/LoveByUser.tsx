@@ -1,11 +1,11 @@
-import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
 import { Box, Stack, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { LOVED_BY_NUM } from '@/global_constants';
 
-import ProducthuntHonor from '../ProducthuntHonor';
+import ProducthuntHonor from '../../../page_components/ProducthuntHonor';
+import Stars from './Stars';
 
 const LoveByUser = () => {
   const { t } = useTranslation('pages');
@@ -32,17 +32,7 @@ const LoveByUser = () => {
             spacing={4}
             flexWrap='wrap'
           >
-            <Stack direction={'row'} alignItems='center'>
-              {Array.from({ length: 5 }).map((_, index) => (
-                <GradeRoundedIcon
-                  key={index}
-                  sx={{
-                    color: '#F5A523',
-                    fontSize: 40,
-                  }}
-                />
-              ))}
-            </Stack>
+            <Stars count={5} size={40} />
             <Typography
               variant={'custom'}
               fontSize={{

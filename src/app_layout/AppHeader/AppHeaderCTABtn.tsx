@@ -24,6 +24,7 @@ const AppHeaderCTABtn = () => {
         pathnameRefPrefix: 'topbar',
       }}
       variant={'contained'}
+      adaptiveLabel
     />
   );
 };

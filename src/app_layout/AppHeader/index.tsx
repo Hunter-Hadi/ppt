@@ -11,7 +11,6 @@ import { useRouter } from 'next/router';
 import React, { FC, useEffect } from 'react';
 
 import useAppHeaderState from '@/hooks/useAppHeaderState';
-import { usePreferredLanguage } from '@/i18n/hooks';
 import AppLogo from '@/page_components/AppLogo';
 
 import AppHeaderCTABtn from './AppHeaderCTABtn';
@@ -26,15 +25,13 @@ const AppHeader: FC = () => {
   const { pathname } = useRouter();
 
   const theme = useTheme();
-  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
   const isMiniMenu = useMediaQuery('(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
 
-  const { currentLanguage, changeLanguage } = usePreferredLanguage();
-
   const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
 
-  const { updateAppHeaderHeight, appHeaderHeight } = useAppHeaderState();
+  const { updateAppHeaderHeight } = useAppHeaderState();
 
   useEffect(() => {
     // 监听 窗口 变化, 更新 app header height state

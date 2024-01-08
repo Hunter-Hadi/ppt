@@ -1,7 +1,11 @@
 import { Stack, Typography } from '@mui/material';
-import React from 'react';
+import React, { FC } from 'react';
 
-const IndustriesItem = () => {
+interface IProps {
+  mini?: boolean;
+}
+
+const IndustriesItem: FC<IProps> = ({ mini }) => {
   return (
     <Stack py={1.5} px={2}>
       <Typography

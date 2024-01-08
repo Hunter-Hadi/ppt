@@ -2,6 +2,7 @@ import { Stack } from '@mui/material';
 import React from 'react';
 
 import AIPower from './AIPower';
+import CallToActionSection from './CallToActionSection';
 import HeroSection from './HeroSection';
 import LoveByUser from './LoveByUser';
 import OneClickMagic from './OneClickMagic';
@@ -27,6 +28,7 @@ const HomePageContent = () => {
       {/* Comment 1M+ professionals choose MaxAI.me */}
       <UserComment />
       {/* call to action section */}
+      <CallToActionSection />
     </Stack>
   );
 };

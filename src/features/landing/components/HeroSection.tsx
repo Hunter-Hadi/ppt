@@ -6,7 +6,7 @@ import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/global_constants';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 
-import CTAInstallButton from '../CTAInstallButton';
+import CTAInstallButton from '../../../page_components/CTAInstallButton';
 
 const HeroSection = () => {
   const { browserAgent: agent } = useBrowserAgent();
@@ -14,9 +14,18 @@ const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <Box bgcolor='white' pt={10} pb={7} px={2} overflow='hidden'>
+    <Box
+      bgcolor='white'
+      pt={{
+        xs: 6,
+        md: 10,
+      }}
+      pb={7}
+      px={2}
+      overflow='hidden'
+    >
       <Box maxWidth={1312} mx='auto'>
-        <Grid container spacing={4}>
+        <Grid container rowSpacing={3} spacing={2}>
           <Grid item xs={12} sm={12} md={6}>
             <Stack
               p={{
@@ -28,7 +37,7 @@ const HeroSection = () => {
               <Typography
                 variant='custom'
                 fontSize={{
-                  xs: 32,
+                  xs: 40,
                   sm: 48,
                   lg: 64,
                 }}
@@ -36,10 +45,14 @@ const HeroSection = () => {
                 fontWeight={700}
                 mb={3}
               >
-                {t('modules:hero_section__title')}
+                {t('pages:home_page__hero_section__title__part1')}
+                <br />
+                {t('pages:home_page__hero_section__title__part2')}
+                <br />
+                {t('pages:home_page__hero_section__title__part3')}
               </Typography>
               <Typography variant='body2' mb={4}>
-                {t('modules:hero_section__desc')}
+                {t('pages:home_page__hero_section__desc')}
               </Typography>
               <Stack
                 direction={{
