@@ -10,7 +10,16 @@ import LearningCenterSideMenu from '@/page_components/LearningCenter/LearningCen
 
 const LearningCenter = () => {
   return (
-    <AppContainer sx={{ bgcolor: '#fff', py: 10 }} maxWidth={1312}>
+    <AppContainer
+      sx={{
+        bgcolor: '#fff',
+        py: {
+          xs: 5,
+          md: 10,
+        },
+      }}
+      maxWidth={1312}
+    >
       <AppDefaultSeoLayout title={'Learning Center | MaxAI.me'} />
       <Stack direction='row' width={'100%'}>
         {/* sideMenu */}

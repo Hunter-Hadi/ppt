@@ -13,9 +13,13 @@ const AppHeaderCTABtn = () => {
   const cacheSx = useMemo(() => {
     return {
       width: 'max-content',
-      height: { xs: 48, sm: 56 },
+      height: {
+        xs: 48,
+        sm: 56,
+      },
       fontSize: 18,
       fontWeight: 600,
+      borderRadius: 2,
       [`& .${buttonClasses.startIcon}`]: {
         display: {
           xs: 'none',
@@ -27,7 +31,11 @@ const AppHeaderCTABtn = () => {
 
   if (hasExtension) {
     return (
-      <Button variant='contained' sx={cacheSx} href={APP_PROJECT_LINK}>
+      <Button
+        variant='contained'
+        sx={{ ...cacheSx, px: 3 }}
+        href={APP_PROJECT_LINK}
+      >
         {t('common:sign_in')}
       </Button>
     );

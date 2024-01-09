@@ -65,7 +65,7 @@ const WhyMe = () => {
             sm: 32,
             lg: 48,
           }}
-          mb={4}
+          mb={6}
         >
           Why is{' '}
           <ProLink
@@ -92,7 +92,7 @@ const WhyMe = () => {
                 <Paper
                   elevation={0}
                   sx={{
-                    borderRadius: 1,
+                    borderRadius: 2,
                     border: '1px solid rgba(0, 0, 0, 0.16)',
                     height: '100%',
                   }}

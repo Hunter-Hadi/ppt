@@ -76,6 +76,10 @@ const AppHeader: FC = () => {
           maxWidth: 1312,
           mx: 'auto',
           px: 2,
+          py: {
+            xs: 1,
+            sm: 2,
+          },
         }}
       >
         <AppLogo />

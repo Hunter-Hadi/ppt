@@ -14,7 +14,7 @@ import React, { useEffect } from 'react';
 import { RecoilRoot } from 'recoil';
 
 import AppFooter from '@/app_layout/AppFooter';
-import AppHeader from '@/app_layout/AppHeader/index';
+import AppHeader from '@/app_layout/AppHeader';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
 import GlobalVideoPopup from '@/features/videoPopup/components/GlobalVideoPopup';

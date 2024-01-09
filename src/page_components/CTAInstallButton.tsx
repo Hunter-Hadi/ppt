@@ -91,6 +91,7 @@ const CTAInstallButton: FC<IProps> = ({
         sm: 3,
       },
       py: 1.5,
+      borderRadius: 2,
       ...sx,
     };
   }, [sx]);
