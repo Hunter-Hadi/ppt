@@ -1,26 +1,29 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
 
 const VIDEOS_LIST = [
   {
-    title: 'Basic Usage: Text Highlight & MiniMenu',
+    title: 'pages:learning_center__basic_usage__item1__title',
     videoLink: 'https://www.youtube.com/embed/E_ZlK-07pv8',
   },
   {
-    title: 'Basic Usage: Activating the Sidebar',
+    title: 'pages:learning_center__basic_usage__item2__title',
     videoLink: 'https://www.youtube.com/embed/ty2LCSGfeKo',
   },
   {
-    title: 'Basic Usage: Adjust Setting',
+    title: 'pages:learning_center__basic_usage__item3__title',
     videoLink: 'https://www.youtube.com/embed/5TeKcFgfgmQ',
   },
 ];
 
 const BasicUsage = () => {
   const { openVideoPopup } = useVideoPopupController();
+
+  const { t } = useTranslation();
 
   return (
     <Stack spacing={6} alignItems='center' data-testid='basic-usage'>
@@ -33,7 +36,7 @@ const BasicUsage = () => {
           md: 40,
         }}
       >
-        Basic Usage
+        {t('pages:learning_center__basic_usage__title')}
       </Typography>
       <Box>
         <Grid container rowGap={6} columnSpacing={4}>
@@ -65,7 +68,7 @@ const BasicUsage = () => {
                   fontWeight={700}
                   lineHeight={1.4}
                 >
-                  {videoItem.title}
+                  {t(videoItem.title)}
                 </Typography>
               </Stack>
             </Grid>

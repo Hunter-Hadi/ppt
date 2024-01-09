@@ -17,24 +17,24 @@ const LearningCenterSideMenu = () => {
 
   const { isReady, asPath } = useRouter();
 
-  const { t } = useTranslation('modules');
+  const { t } = useTranslation();
 
   const MENU_LIST: IMenuItem[] = useMemo(
     () => [
       {
-        label: 'MaxAI 101: Introduction',
+        label: t('pages:learning_center__introduction__title'),
         id: 'introduction',
       },
       {
-        label: 'Basic Usage',
+        label: t('pages:learning_center__basic_usage__title'),
         id: 'basic-usage',
       },
       {
-        label: 'Features',
+        label: t('pages:learning_center__features__title'),
         id: 'features',
         children: PLAN_FEATURES_CATEGORY.map((categoryItem) => ({
-          label: t(categoryItem.name),
-          id: t(categoryItem.name),
+          label: t(`modules:${categoryItem.name}`),
+          id: t(`modules:${categoryItem.name}`),
         })),
       },
     ],

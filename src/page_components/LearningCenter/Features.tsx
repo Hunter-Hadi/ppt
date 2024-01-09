@@ -23,7 +23,7 @@ const Features = () => {
           md: 40,
         }}
       >
-        Features
+        {t('pages:learning_center__features__title')}
       </Typography>
 
       {PLAN_FEATURES_CATEGORY.map((category) => (

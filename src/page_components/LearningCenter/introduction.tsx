@@ -1,5 +1,6 @@
 import { Box, Stack, Typography } from '@mui/material';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
@@ -9,6 +10,8 @@ import CTAInstallButton from '../CTAInstallButton';
 
 const Introduction = () => {
   const { openVideoPopup } = useVideoPopupController();
+
+  const { t } = useTranslation();
 
   return (
     <Stack spacing={6} alignItems='center' data-testid='introduction'>
@@ -21,7 +24,7 @@ const Introduction = () => {
           md: 48,
         }}
       >
-        Learning center
+        {t('pages:learning_center__title')}
       </Typography>
       <Typography
         variant='custom'
@@ -32,7 +35,7 @@ const Introduction = () => {
           md: 40,
         }}
       >
-        MaxAI 101: Introduction
+        {t('pages:learning_center__introduction__title')}
       </Typography>
       <Box
         width={{
@@ -67,7 +70,7 @@ const Introduction = () => {
           minWidth: 320,
           fontSize: 18,
         }}
-        text={'Install Now'}
+        text={t('button:install_now')}
       />
     </Stack>
   );

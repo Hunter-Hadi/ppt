@@ -42,7 +42,7 @@
     "add_to_chrome_for_free__mini": "Add to Chrome",
     "add_to_edge_for_free": "Add to Edge for free",
     "add_to_edge_for_free__mini": "Add to Edge",
-
+    "install_now": "Install now",
     "upgrade_to": "Upgrade to {{plan}}",
     "start_for": "Start for {{plan}}",
     "cancel_anytime": "Cancel anytime."
@@ -92,7 +92,6 @@
     "home_page__professional_ability__item8__desc": "Engineers and technicians use MaxAI for its sophisticated analytics, aiding in efficient, innovative solution development. It supports data analysis and efficient communications, improving accuracy and productivity in technical fields.",
     "home_page__professional_ability__item9__title": "Other Professions",
     "home_page__professional_ability__item9__desc": "MaxAI adapts to diverse roles, offering quick research and efficient communication across various industries. Its versatility makes it a valuable asset for tasks beyond conventional categories, enhancing productivity and innovation in any field.",
-
     "home_page__why_me__title__part1": "Why is",
     "home_page__why_me__title__part2": "Chrome extension the best",
     "home_page__why_me__reason1__desc": "100% privacy friendly.",
@@ -104,11 +103,20 @@
     "home_page__why_me__reason7__desc": "Supports GPT-4, Web Browsing, Code Interpreter, and Plugins through your ChatGPT Plus account.",
     "home_page__why_me__reason8__desc": "Supports GPT-4, GPT-3.5-turbo-16k, GPT-4-32k using your OpenAI API key.",
     "home_page__why_me__reason9__desc": "All languages are supported.",
-
     "home_page__user_comment__title": "1M+ professionals choose MaxAI.me",
-
     "home_page__call_to_action__title": "Use 1-Click AI Anywhere",
     "home_page__call_to_action__sub_title": "The fastest way to use AI anywhere online.",
+
+    "learning_center__title": "Learning center",
+
+    "learning_center__introduction__title": "MaxAI 101: Introduction",
+
+    "learning_center__basic_usage__title": "Basic Usage",
+    "learning_center__basic_usage__item1__title": "Basic Usage: Text Highlight & MiniMenu",
+    "learning_center__basic_usage__item2__title": "Basic Usage: Activating the Sidebar",
+    "learning_center__basic_usage__item3__title": "Basic Usage: Adjust Setting",
+
+    "learning_center__features__title": "Features",
 
     "pricing__title": "Compare plans & features",
 
