@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Kur galiu naudoti MaxAI.me?",
     "faq_list__question4__desc": "Galite naudoti MaxAI.me bet kurioje svetainėje, naudodami bet kokius Chromium pagrindinius naršykles (pvz., „Chrome“ ir „Edge“), kad sudarytumėte, pagerintumėte rašymą, santraukotumėte, paaiškintumėte, ištaisytumėte rašybą ir gramatiką, verstumėte ar atsakytumėte į bet kokį tekstą.",
     "faq_list__disclaimer_part1": "Prenumeruodami sutinkate su automatiniais mokėjimais. Atšaukti ar valdyti prenumeratą galite per Stripe kliento portalą skiltyje „Mano planas“. Visos paslaugos teikiamos pagal",
-    "faq_list__disclaimer_part2": ", su kuriomis sutinkate užsiregistravę."
+    "faq_list__disclaimer_part2": ", su kuriomis sutinkate užsiregistravę.",
+    "plan_features_table__gemini_tooltip_desc": "Google patikimiausias ir universalus modelis. Sukurtas nuo nulio daugiamodalumui. Gemini MaxAI yra beta fazėje ir šiuo metu palaiko tik tekstą ir kodą, netrukus bus pridėta palaikymas vaizdams, vaizdo įrašams ir garso įrašams."
   }
 }

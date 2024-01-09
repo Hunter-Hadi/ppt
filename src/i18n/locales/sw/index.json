@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Ninaweza kutumia MaxAI.me wapi?",
     "faq_list__question4__desc": "Unaweza kutumia MaxAI.me kwenye wavuti yoyote kwenye vivinjari vyovyote vinavyotegemea Chromium (kama Chrome na Edge) ili kuandika, kuboresha uandishi, kufupisha, kuelezea, kusahihisha sarufi na kisarufi, kutafsiri, au kujibu maandishi yoyote.",
     "faq_list__disclaimer_part1": "Kwa kujiandikisha, unajiandikisha kwa malipo ya moja kwa moja. Futa au dhibiti usajili wako kupitia kituo cha wateja cha Stripe kutoka kwa \"Mpango Wangu\". Huduma zote zinatolewa kulingana na ",
-    "faq_list__disclaimer_part2": " unayothibitisha na usajili wako."
+    "faq_list__disclaimer_part2": " unayothibitisha na usajili wako.",
+    "plan_features_table__gemini_tooltip_desc": "Mfano mwenye uwezo na jumla zaidi wa Google. Imejengwa kutoka mwanzo kwa ajili ya multimodality. Gemini kwenye MaxAI iko katika hatua ya beta, inasaidia tu maandishi na nambari, hivi karibuni itaongeza usaidizi kwa picha, video, na sauti."
   }
 }

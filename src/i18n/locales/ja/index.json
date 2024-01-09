@@ -260,6 +260,7 @@
     "faq_list__question4__title": "MaxAI.meはどこで使用できますか？",
     "faq_list__question4__desc": "MaxAI.meは、任意のテキストに対して作成、改善、要約、説明、スペルと文法の修正、翻訳、または返信するために、任意のChromiumベースのブラウザ（ChromeやEdgeなど）上の任意のウェブサイトで使用できます。",
     "faq_list__disclaimer_part1": "購読することで、自動支払いに登録されます。Stripeの顧客ポータルから「マイプラン」でサブスクリプションをキャンセルまたは管理できます。すべてのサービスは、",
-    "faq_list__disclaimer_part2": " で確認したものに従って提供されます。"
+    "faq_list__disclaimer_part2": " で確認したものに従って提供されます。",
+    "plan_features_table__gemini_tooltip_desc": "Googleの最も能力があり、汎用性のあるモデル。マルチモダリティに対応するために一から作られました。MaxAI上のGeminiは現在ベータフェーズで、テキストとコードのみをサポートしていますが、近々画像、動画、音声のサポートも追加されます。"
   }
 }

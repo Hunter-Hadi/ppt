@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Di mana saya bisa menggunakan MaxAI.me?",
     "faq_list__question4__desc": "Anda dapat menggunakan MaxAI.me di situs web apa pun pada browser berbasis Chromium (seperti Chrome dan Edge) untuk membuat, meningkatkan tulisan, merangkum, menjelaskan, memperbaiki ejaan & tata bahasa, menerjemahkan, atau membalas teks apa pun.",
     "faq_list__disclaimer_part1": "Dengan berlangganan, Anda mendaftar untuk pembayaran otomatis. Batalkan atau kelola langganan Anda melalui portal pelanggan Stripe dari \"Rencana Saya\". Semua layanan disampaikan sesuai dengan",
-    "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar."
+    "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar.",
+    "plan_features_table__gemini_tooltip_desc": "Model tercanggih dan umum dari Google. Dibangun dari awal untuk multimodalitas. Gemini di MaxAI saat ini dalam fase beta, hanya mendukung teks dan kode, akan segera menambahkan dukungan untuk gambar, video, dan audio."
   }
 }

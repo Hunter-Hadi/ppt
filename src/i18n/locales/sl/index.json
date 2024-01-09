@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Kje lahko uporabljam MaxAI.me?",
     "faq_list__question4__desc": "MaxAI.me lahko uporabljate na kateri koli spletni strani v katerem koli brskalniku, ki temelji na Chromiumu (kot sta Chrome in Edge), za sestavljanje, izboljšanje pisanja, povzetke, pojasnjevanje, popravljanje črkovanja in slovnice, prevajanje ali odgovarjanje na katero koli besedilo.",
     "faq_list__disclaimer_part1": "S prijavo se prijavljate na samodejna plačila. Naročnino lahko prekličete ali upravljate prek portala za stranke Stripe v razdelku »Moj načrt«. Vse storitve se izvajajo v skladu z ",
-    "faq_list__disclaimer_part2": ", s katerimi ste se strinjali ob prijavi."
+    "faq_list__disclaimer_part2": ", s katerimi ste se strinjali ob prijavi.",
+    "plan_features_table__gemini_tooltip_desc": "Najbolj zmogljiv in splošen model Googla. Zgrajen od začetka za multimodalnost. Gemini na MaxAI je trenutno v beta fazi, podpira samo besedilo in kodo, kmalu pa bo dodana podpora za slike, videoposnetke in zvok."
   }
 }

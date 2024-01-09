@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Unde pot utiliza MaxAI.me?",
     "faq_list__question4__desc": "Puteți utiliza MaxAI.me pe orice site web pe orice browser bazat pe Chromium (cum ar fi Chrome și Edge) pentru a compune, îmbunătăți scrierea, rezuma, explica, corecta greșeli de ortografie și gramatică, traduce sau răspunde la orice text.",
     "faq_list__disclaimer_part1": "Prin abonare, vă înregistrați în plăți automate. Anulați sau gestionați abonamentul prin portalul clienților Stripe din „Planul meu”. Toate serviciile sunt furnizate conform",
-    "faq_list__disclaimer_part2": " cu care ați confirmat la înregistrare."
+    "faq_list__disclaimer_part2": " cu care ați confirmat la înregistrare.",
+    "plan_features_table__gemini_tooltip_desc": "Cel mai capabil și general model al Google. Construit de la zero pentru multimodalitate. Gemini pe MaxAI se află în prezent în faza beta, oferind suport doar pentru text și cod, va adăuga în curând suport pentru imagini, videoclipuri și audio."
   }
 }

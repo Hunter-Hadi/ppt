@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Saan ko magagamit ang MaxAI.me?",
     "faq_list__question4__desc": "Maaari mong gamitin ang MaxAI.me sa anumang website sa anumang Chromium-based na mga browser (tulad ng Chrome at Edge) upang magsulat, mapabuti ang pagsusulat, magbuod, ipaliwanag, ayusin ang pagbaybay at gramatika, isalin, o tumugon sa anumang teksto.",
     "faq_list__disclaimer_part1": "Sa pamamagitan ng pag-subscribe, ikaw ay nag-eenroll sa automatic na mga pagbabayad. I-kansela o pamahalaan ang iyong subscription sa pamamagitan ng customer portal ng Stripe mula sa \"Aking Plano\". Ang lahat ng serbisyo ay ibinibigay ayon sa ",
-    "faq_list__disclaimer_part2": " na iyong kinumpirma sa iyong pag-sign up."
+    "faq_list__disclaimer_part2": " na iyong kinumpirma sa iyong pag-sign up.",
+    "plan_features_table__gemini_tooltip_desc": "Ang pinakamahusay at pangkalahatang modelo ng Google. Binuo mula sa simula para sa multimodality. Ang Gemini sa MaxAI ay kasalukuyang nasa beta phase, suportado lamang ang teksto at code, malapit na magdagdag ng suporta para sa mga imahe, bidyo, at audio."
   }
 }

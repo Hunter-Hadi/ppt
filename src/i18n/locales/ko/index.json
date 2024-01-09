@@ -260,6 +260,7 @@
     "faq_list__question4__title": "MaxAI.me를 어디에서 사용할 수 있나요?",
     "faq_list__question4__desc": "MaxAI.me는 Chromium 기반 브라우저(Chrome 및 Edge 등)의 모든 웹사이트에서 텍스트 작성, 글쓰기 개선, 요약, 설명, 맞춤법 및 문법 수정, 번역 또는 답변을 작성하는 데 사용할 수 있습니다.",
     "faq_list__disclaimer_part1": "구독하면 자동 결제에 등록됩니다. 구독을 취소하거나 관리하려면 \"내 요금제\"에서 Stripe의 고객 포털을 통해 처리하세요. 모든 서비스는 ",
-    "faq_list__disclaimer_part2": "에 따라 제공됩니다."
+    "faq_list__disclaimer_part2": "에 따라 제공됩니다.",
+    "plan_features_table__gemini_tooltip_desc": "Google의 가장 능력있고 일반적인 모델입니다. 다중 기능을 위해 처음부터 구축되었습니다. Gemini on MaxAI는 현재 베타 단계로, 텍스트와 코드만 지원하며 곧 이미지, 비디오 및 오디오를 지원할 예정입니다."
   }
 }

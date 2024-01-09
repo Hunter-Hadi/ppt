@@ -260,6 +260,7 @@
     "faq_list__question4__title": "¿Dónde puedo usar MaxAI.me?",
     "faq_list__question4__desc": "Puedes usar MaxAI.me en cualquier sitio web en cualquier navegador basado en Chromium (como Chrome y Edge) para componer, mejorar la escritura, resumir, explicar, corregir ortografía y gramática, traducir o responder cualquier texto.",
     "faq_list__disclaimer_part1": "Al suscribirte, te estás inscribiendo en pagos automáticos. Cancela o administra tu suscripción a través del portal de clientes de Stripe desde \"Mi plan\". Todos los servicios se entregan de acuerdo con los",
-    "faq_list__disclaimer_part2": " que confirmas al registrarte."
+    "faq_list__disclaimer_part2": " que confirmas al registrarte.",
+    "plan_features_table__gemini_tooltip_desc": "El modelo más capaz y general de Google. Construido desde cero para la multimodalidad. Gemini en MaxAI está actualmente en fase beta, admitiendo solo texto y código, pronto agregará soporte para imágenes, videos y audio."
   }
 }

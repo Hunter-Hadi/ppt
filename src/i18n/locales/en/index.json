@@ -200,6 +200,8 @@
     "plan_features_table__claude_2__tooltip_desc": "Anthropic's 2nd iteration of model for enhanced capabilities, 100K context window, great for tasks ranging from sophisticated dialogue and creative content generation to detailed instruction.",
     "plan_features_table__more_ai_providers": "More AI providers",
 
+    "plan_features_table__gemini_tooltip_desc": "Google's most capable and general model. Built from the ground up for multimodality. Gemini on MaxAI is currently in the beta phase, supporting only text and code, will soon add support for images, videos, and audio.",
+
     "plan_features_table__summarize_research_web_access": "Summarize & Research & Web access",
     "plan_features_table__summarize_chat_with_any_webpage": "Summarize & chat with any webpage",
     "plan_features_table__summarize_chat_with_any_webpage__tooltip_desc": "Chat with AI about any webpages: The AI understands the page context, allows you to get summaries, ask specific questions, and delve into details seamlessly.",

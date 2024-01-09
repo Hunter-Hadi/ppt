@@ -194,7 +194,7 @@ const AppFooter = () => {
             />
 
             <Stack direction={'row'} alignItems='center' spacing={3}>
-              <Typography variant='caption'>© 2023 MaxAI.me</Typography>
+              <Typography variant='caption'>© 2024 MaxAI.me</Typography>
 
               <ProLink
                 href={'/privacy'}

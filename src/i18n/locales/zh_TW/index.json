@@ -260,6 +260,7 @@
     "faq_list__question4__title": "在哪裡可以使用MaxAI.me？",
     "faq_list__question4__desc": "您可以在任何基於Chromium的瀏覽器（如Chrome和Edge）上的任何網站上使用MaxAI.me來撰寫、改進寫作、摘要、解釋、修正拼寫和語法、翻譯或回覆任何文本。",
     "faq_list__disclaimer_part1": "訂閱即表示您正在自動付款。通過Stripe的客戶門戶從“我的計劃”取消或管理訂閱。所有服務均根據您在",
-    "faq_list__disclaimer_part2": "中確認的內容提供。"
+    "faq_list__disclaimer_part2": "中確認的內容提供。",
+    "plan_features_table__gemini_tooltip_desc": "Google最強大且通用的模型。從頭開始為多模態而建立。Gemini在MaxAI上目前處於測試階段，僅支援文字和程式碼，將很快添加對圖片、視頻和音頻的支援。"
   }
 }

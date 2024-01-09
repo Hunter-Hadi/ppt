@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Missä voin käyttää MaxAI.me-palvelua?",
     "faq_list__question4__desc": "Voit käyttää MaxAI.me-palvelua millä tahansa verkkosivustolla millä tahansa Chromium-pohjaisella selaimella (kuten Chrome ja Edge) tekstien kirjoittamiseen, parantamiseen, tiivistämiseen, selittämiseen, oikeinkirjoituksen ja kieliopin korjaamiseen, kääntämiseen tai vastaamiseen.",
     "faq_list__disclaimer_part1": "Tilaamalla hyväksyt automaattiset maksut. Peruuta tai hallitse tilaustasi Stripesin asiakasportaalissa kohdasta \"Oma suunnitelmani\". Kaikki palvelut toimitetaan ",
-    "faq_list__disclaimer_part2": " kanssa, johon vahvistat liittyväsi rekisteröityessäsi."
+    "faq_list__disclaimer_part2": " kanssa, johon vahvistat liittyväsi rekisteröityessäsi.",
+    "plan_features_table__gemini_tooltip_desc": "Googlen kyvykkäin ja yleisin malli. Rakennettu alusta asti monimuotoisuutta varten. Gemini MaxAI:ssa on tällä hetkellä beetavaihe, joka tukee vain tekstiä ja koodia, mutta pian lisätään tuki kuvien, videoiden ja äänen käytölle."
   }
 }

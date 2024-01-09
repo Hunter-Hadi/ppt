@@ -250,6 +250,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           imageLink: `/assets/chrome-extension/upgrade/gemini.png`,
+          desc: 'plan_features_table__gemini_tooltip_desc',
         },
       },
       {

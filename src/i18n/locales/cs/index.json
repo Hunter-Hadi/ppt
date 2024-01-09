@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Kde mohu použít MaxAI.me?",
     "faq_list__question4__desc": "MaxAI.me můžete používat na libovolném webu v libovolném prohlížeči založeném na Chromium (například Chrome a Edge) k psaní, zlepšování psaní, shrnutí, vysvětlení, opravě pravopisu a gramatiky, překladu nebo odpovídání na libovolný text.",
     "faq_list__disclaimer_part1": "Přihlášením se přihlašujete k automatickým platbám. Předplatné můžete zrušit nebo spravovat prostřednictvím portálu zákazníka Stripe v sekci „Můj plán“. Všechny služby jsou poskytovány v souladu s ",
-    "faq_list__disclaimer_part2": ", se kterými souhlasíte při registraci."
+    "faq_list__disclaimer_part2": ", se kterými souhlasíte při registraci.",
+    "plan_features_table__gemini_tooltip_desc": "Nejvýkonnější a nejobecnější model od Googlu. Postavený od základů pro multimodalitu. Gemini na MaxAI je v současné době ve fázi beta verze, podporuje pouze text a kód a brzy přidá podporu pro obrázky, videa a zvuk."
   }
 }

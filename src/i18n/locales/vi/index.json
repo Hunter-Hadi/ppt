@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Tôi có thể sử dụng MaxAI.me ở đâu?",
     "faq_list__question4__desc": "Bạn có thể sử dụng MaxAI.me trên bất kỳ trang web nào trên bất kỳ trình duyệt dựa trên Chromium nào (như Chrome và Edge) để soạn thảo, cải thiện viết, tóm tắt, giải thích, sửa chính tả và ngữ pháp, dịch hoặc trả lời bất kỳ văn bản nào.",
     "faq_list__disclaimer_part1": "Bằng cách đăng ký, bạn đang đăng ký thanh toán tự động. Hủy hoặc quản lý đăng ký của bạn thông qua cổng khách hàng của Stripe từ \"Kế hoạch của tôi\". Tất cả các dịch vụ được cung cấp theo",
-    "faq_list__disclaimer_part2": " bạn xác nhận khi đăng ký."
+    "faq_list__disclaimer_part2": " bạn xác nhận khi đăng ký.",
+    "plan_features_table__gemini_tooltip_desc": "Mô hình phổ biến và linh hoạt nhất của Google. Được xây dựng từ đầu cho đa chức năng. Gemini trên MaxAI hiện đang ở giai đoạn beta, chỉ hỗ trợ văn bản và mã, sẽ sớm thêm hỗ trợ cho hình ảnh, video và âm thanh."
   }
 }

@@ -260,6 +260,7 @@
     "faq_list__question4__title": "Var kan jag använda MaxAI.me?",
     "faq_list__question4__desc": "Du kan använda MaxAI.me på vilken webbplats som helst i vilken Chromium-baserad webbläsare som helst (som Chrome och Edge) för att komponera, förbättra skrivande, sammanfatta, förklara, fixa stavning och grammatik, översätta eller svara på valfri text.",
     "faq_list__disclaimer_part1": "Genom att prenumerera deltar du i automatiska betalningar. Avbryt eller hantera din prenumeration via Stripes kundportal från \"Mitt plan\". Alla tjänster levereras enligt ",
-    "faq_list__disclaimer_part2": " du bekräftar vid din registrering."
+    "faq_list__disclaimer_part2": " du bekräftar vid din registrering.",
+    "plan_features_table__gemini_tooltip_desc": "Googles mest kapabla och allmänna modell. Byggd från grunden för multimodalitet. Gemini på MaxAI är för närvarande i betafasen och stöder endast text och kod, kommer snart att lägga till stöd för bilder, videor och ljud."
   }
 }
