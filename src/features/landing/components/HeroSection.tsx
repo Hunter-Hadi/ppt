@@ -3,6 +3,7 @@ import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
+import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/global_constants';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 
@@ -12,6 +13,8 @@ const HeroSection = () => {
   const { browserAgent: agent } = useBrowserAgent();
 
   const { t } = useTranslation();
+
+  const { openVideoPopup } = useVideoPopupController();
 
   return (
     <Box
@@ -133,13 +136,25 @@ const HeroSection = () => {
                   },
                 }}
               />
-              <YoutubePlayerBox
-                borderRadius={16}
-                youtubeLink={PRIMARY_YOUTUBE_VIDEO_EMBED_URL}
-                sx={{
-                  boxShadow: '0px 4px 16px 0px rgba(118, 1, 211, 0.08)',
+              <Box
+                onClick={() => {
+                  openVideoPopup(PRIMARY_YOUTUBE_VIDEO_EMBED_URL);
                 }}
-              />
+                sx={{
+                  cursor: 'pointer',
+                  boxShadow: '0px 4px 16px 0px rgba(118, 1, 211, 0.08)',
+                  borderRadius: 2,
+                  overflow: 'hidden',
+                }}
+              >
+                <YoutubePlayerBox
+                  borderRadius={0}
+                  youtubeLink={PRIMARY_YOUTUBE_VIDEO_EMBED_URL}
+                  sx={{
+                    pointerEvents: 'none',
+                  }}
+                />
+              </Box>
             </Stack>
           </Grid>
         </Grid>
