@@ -24,6 +24,11 @@ const AIPower = () => {
   return (
     <Box bgcolor='white' py={5} id='homepage-ai-power'>
       <Box maxWidth={1312} mx='auto'>
+        <Box width='100%' textAlign='center' mb={4}>
+          <Typography variant='custom' fontSize={24}>
+            Powered by
+          </Typography>
+        </Box>
         <Grid
           container
           px={{
