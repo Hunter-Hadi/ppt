@@ -86,8 +86,8 @@ const Features = () => {
                         >
                           <ResponsiveImage
                             src={image}
-                            width={608}
-                            height={280}
+                            width={945}
+                            height={532}
                             alt={t(featureItem.title)}
                           />
                         </Box>

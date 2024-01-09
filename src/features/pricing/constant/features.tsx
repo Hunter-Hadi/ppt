@@ -49,7 +49,7 @@ export const PLAN_FEATURES_CATEGORY: {
 
         // tooltip: {
         //   videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-        //   imageLink: `/assets/upgrade/chatgpt.png`,
+        //   imageLink: `/assets/chrome-extension/upgrade/chatgpt.png`,
         //   desc: 'As fast as ChatGPT Plus. No country restrictions. Powered by gpt-3.5-turbo.',
         // },
         // youtube: {
@@ -76,7 +76,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/CkFKtcZw5xY',
-          imageLink: `/assets/upgrade/custom-prompt.png`,
+          imageLink: `/assets/chrome-extension/upgrade/custom-prompt.png`,
           desc: 'plan_features_table__set_up_your_own_prompts__tooltip_desc',
         },
         youtube: {
@@ -110,7 +110,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-          imageLink: `/assets/upgrade/chatgpt.png`,
+          imageLink: `/assets/chrome-extension/upgrade/chatgpt.png`,
           desc: 'plan_features_table__chatgpt__tooltip_desc',
         },
         youtube: {
@@ -137,7 +137,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/mAi1D9cbGos',
-          imageLink: `/assets/upgrade/max-ai-paid-model-gpt4.png`,
+          imageLink: `/assets/chrome-extension/upgrade/max-ai-paid-model-gpt4.png`,
           desc: 'plan_features_table__chatgpt_4__tooltip_desc',
         },
         youtube: {
@@ -164,7 +164,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/QA4gxm3xtLE',
-          imageLink: `/assets/upgrade/max-ai-paid-model-gpt3-5-16k.png`,
+          imageLink: `/assets/chrome-extension/upgrade/max-ai-paid-model-gpt3-5-16k.png`,
           desc: 'plan_features_table__chatgpt_16k__tooltip_desc',
         },
         youtube: {
@@ -191,7 +191,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/qwFVrq3Epcs',
-          imageLink: `/assets/upgrade/claude-instant-100k.png`,
+          imageLink: `/assets/chrome-extension/upgrade/claude-instant-100k.png`,
           desc: 'plan_features_table__claude__tooltip_desc',
         },
         youtube: {
@@ -218,7 +218,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/3hHrqmIU284',
-          imageLink: `/assets/upgrade/claude-2-100k.png`,
+          imageLink: `/assets/chrome-extension/upgrade/claude-2-100k.png`,
           desc: 'plan_features_table__claude_2__tooltip_desc',
         },
         youtube: {
@@ -288,7 +288,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/72UM1jMaJhY',
-          imageLink: `/assets/upgrade/page-summary.png`,
+          imageLink: `/assets/chrome-extension/upgrade/page-summary.png`,
           desc: 'plan_features_table__summarize_chat_with_any_webpage__tooltip_desc',
         },
         youtube: {
@@ -315,7 +315,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/P60_lPz5yIU',
-          imageLink: `/assets/upgrade/page-summary.png`,
+          imageLink: `/assets/chrome-extension/upgrade/page-summary.png`,
           desc: 'plan_features_table__summarize_chat_with_youTube__tooltip_desc',
         },
         youtube: {
@@ -342,7 +342,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/1uZuyqqySO0',
-          imageLink: `/assets/upgrade/ai-powered-search.png`,
+          imageLink: `/assets/chrome-extension/upgrade/ai-powered-search.png`,
           desc: 'plan_features_table__ai_powered_search__tooltip_desc',
         },
         youtube: {
@@ -369,7 +369,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/kgO6OnurRpQ',
-          imageLink: `/assets/upgrade/search-with-ai.png`,
+          imageLink: `/assets/chrome-extension/upgrade/search-with-ai.png`,
           desc: 'plan_features_table__search_with_AI__tooltip_desc',
         },
         youtube: {
@@ -397,7 +397,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/72UM1jMaJhY',
-          imageLink: `/assets/upgrade/page-summary.png`,
+          imageLink: `/assets/chrome-extension/upgrade/page-summary.png`,
           desc: 'plan_features_table__summarize_chat_with_pdf__tooltip_desc',
         },
         youtube: {
@@ -424,7 +424,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/fwaqJyTwefI',
-          imageLink: `/assets/upgrade/input-assistant-email.png`,
+          imageLink: `/assets/chrome-extension/upgrade/input-assistant-email.png`,
           desc: 'plan_features_table__summarize_chat_with_email__tooltip_desc',
         },
         youtube: {
@@ -452,7 +452,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/eYO5Dh6Ruic',
-          imageLink: `/assets/upgrade/pdf.png`,
+          imageLink: `/assets/chrome-extension/upgrade/pdf.png`,
           desc: 'plan_features_table__pdf_ai_viewer__tooltip_desc',
         },
         youtube: {
@@ -487,7 +487,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/fwaqJyTwefI',
-          imageLink: `/assets/upgrade/input-assistant-email.png`,
+          imageLink: `/assets/chrome-extension/upgrade/input-assistant-email.png`,
           desc: 'plan_features_table__gmail_writing_assistant__tooltip_desc',
         },
         youtube: {
@@ -514,7 +514,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/zmNGKFyw3pU',
-          imageLink: `/assets/upgrade/social-media-posts.png`,
+          imageLink: `/assets/chrome-extension/upgrade/social-media-posts.png`,
           desc: 'plan_features_table__facebook_writing_assistant__tooltip_desc',
         },
         youtube: {
@@ -541,7 +541,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/55IqqmQIBw0',
-          imageLink: `/assets/upgrade/social-media-posts.png`,
+          imageLink: `/assets/chrome-extension/upgrade/social-media-posts.png`,
           desc: 'plan_features_table__linkedIn_writing_assistant__tooltip_desc',
         },
         youtube: {
@@ -568,7 +568,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/3UQaOm8sWVI',
-          imageLink: `/assets/upgrade/social-media-posts.png`,
+          imageLink: `/assets/chrome-extension/upgrade/social-media-posts.png`,
           desc: 'plan_features_table__xtwitter_writing_assistant__tooltip_desc',
         },
         youtube: {
@@ -595,7 +595,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/D4Acc0rpR3o',
-          imageLink: `/assets/upgrade/social-media-posts.png`,
+          imageLink: `/assets/chrome-extension/upgrade/social-media-posts.png`,
           desc: 'plan_features_table__youtube_writing_assistant__tooltip_desc',
         },
         youtube: {
@@ -622,7 +622,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/Y2yZ4wWQDno',
-          imageLink: `/assets/upgrade/input-assistant-email.png`,
+          imageLink: `/assets/chrome-extension/upgrade/input-assistant-email.png`,
           desc: 'plan_features_table__outlook_writing_assistant__tooltip_desc',
         },
         youtube: {
@@ -649,7 +649,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/OnRPaGn_4Ds',
-          imageLink: `/assets/upgrade/social-media-posts.png`,
+          imageLink: `/assets/chrome-extension/upgrade/social-media-posts.png`,
           desc: 'plan_features_table__instagram_writing_assistant__tooltip_desc',
         },
         youtube: {
@@ -683,7 +683,7 @@ export const PLAN_FEATURES_CATEGORY: {
           },
         },
         tooltip: {
-          imageLink: `/assets/upgrade/one-click-prompt.png`,
+          imageLink: `/assets/chrome-extension/upgrade/one-click-prompt.png`,
           desc: 'plan_features_table__one_click_prompts__tooltip_desc',
         },
       },
@@ -705,7 +705,7 @@ export const PLAN_FEATURES_CATEGORY: {
           },
         },
         tooltip: {
-          imageLink: `/assets/upgrade/preferred-language.png`,
+          imageLink: `/assets/chrome-extension/upgrade/preferred-language.png`,
           title: 'Upgrade to change AI response language',
           desc: 'plan_features_table__ai_response_language__tooltip_desc',
         },
@@ -729,7 +729,7 @@ export const PLAN_FEATURES_CATEGORY: {
           },
         },
         tooltip: {
-          imageLink: `/assets/upgrade/max-ai-temperature.png`,
+          imageLink: `/assets/chrome-extension/upgrade/max-ai-temperature.png`,
           desc: 'plan_features_table__chatgpt_temperature__tooltip_desc',
         },
       },
@@ -760,7 +760,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
         tooltip: {
           videoUrl: 'https://www.youtube.com/embed/uDMJNf841dc',
-          imageLink: `/assets/upgrade/web-access-full-insights.png`,
+          imageLink: `/assets/chrome-extension/upgrade/web-access-full-insights.png`,
           desc: 'plan_features_table__web_access_copilot__tooltip_desc',
         },
         youtube: {
@@ -786,7 +786,7 @@ export const PLAN_FEATURES_CATEGORY: {
           },
         },
         tooltip: {
-          imageLink: `/assets/upgrade/advanced-options.png`,
+          imageLink: `/assets/chrome-extension/upgrade/advanced-options.png`,
           title: 'Upgrade to access all advanced options',
           desc: 'plan_features_table__web_access_advanced__tooltip_desc',
         },
