@@ -489,7 +489,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = ['home_page__hero_section__desc'];
+  const keys = [''];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }
