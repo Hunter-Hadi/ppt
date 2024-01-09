@@ -267,13 +267,13 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `button.${key}`)) {
       return `button.${key}`;
     }
-    if (_.get(sourceJson, `prompt.${key}`)) {
+    if (lodash.get(sourceJson, `prompt.${key}`)) {
       return `prompt.${key}`;
     }
-    if (_.get(sourceJson, `prompt_editor.${key}`)) {
+    if (lodash.get(sourceJson, `prompt_editor.${key}`)) {
       return `prompt_editor.${key}`;
     }
-    if (_.get(sourceJson, `prompt_library.${key}`)) {
+    if (lodash.get(sourceJson, `prompt_library.${key}`)) {
       return `prompt_library.${key}`;
     }
     return key;
@@ -489,7 +489,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = ['home_page__why_me__reason6__desc'];
+  const keys = ['home_page__why_me__reason8__desc'];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }

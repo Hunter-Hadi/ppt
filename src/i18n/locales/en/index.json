@@ -101,7 +101,7 @@
     "home_page__why_me__reason5__desc": "Chat to ask follow-up questions or refine results.",
     "home_page__why_me__reason6__desc": "Supports all popular AI models: ChatGPT, Claude, Gemini, Google Bard, New Bing Chat AI.",
     "home_page__why_me__reason7__desc": "Supports GPT-4, Web Browsing, Code Interpreter, and Plugins through your ChatGPT Plus account.",
-    "home_page__why_me__reason8__desc": "Supports GPT-4, GPT-3.5-turbo-16k, GPT-4-32k using your OpenAI API key.",
+    "home_page__why_me__reason8__desc": "Supports GPT-4-turbo, GPT-4, GPT-3.5-turbo-16k, GPT-3.5-turbo using your OpenAI API key.",
     "home_page__why_me__reason9__desc": "All languages are supported.",
     "home_page__user_comment__title": "1M+ professionals choose MaxAI.me",
     "home_page__call_to_action__title": "Use 1-Click AI Anywhere",
@@ -165,10 +165,9 @@
     "header__menu__learning_center": "Learning-center",
 
     "footer__title": "All-in-one AI Magic Tools",
-    "footer__desc": "MaxAI.me is a Chrome extension for writing, summarizing, spellchecking, altering tone, translating, or replying to text on websites.",
+    "footer__desc": "MaxAI.me is a browser extension for AI-powered chat, writing, quick reply, grammar check, explanation, summary, search, prompt management, and more, on any webpage.",
 
     "footer__products": "Products",
-    "footer__chatGPT_copilot_on_chrome": "ChatGPT Copilot on Chrome",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "Follow Us",
     "footer__help": "Help",

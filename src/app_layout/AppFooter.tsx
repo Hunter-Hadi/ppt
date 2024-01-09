@@ -122,7 +122,7 @@ const AppFooter = () => {
                   title={t('modules:footer__products')}
                   data={[
                     {
-                      label: t('modules:footer__chatGPT_copilot_on_chrome'),
+                      label: 'MaxAI for Chrome',
                       icon: <CustomIcon icon='Chrome' />,
                       link: '/',
                     },
