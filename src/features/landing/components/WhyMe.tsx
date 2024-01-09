@@ -28,7 +28,7 @@ const WHT_ME_REASON = [
     desc: 'home_page__why_me__reason5__desc',
   },
   {
-    iconsType: ['chatgpt', 'claude', 'bard', 'bing'],
+    iconsType: ['chatgpt', 'claude', 'gemini', 'bard', 'bing'],
     desc: 'home_page__why_me__reason6__desc',
   },
   {
@@ -543,6 +543,28 @@ const WhyMeIconRender: FC<{ type: string }> = ({ type }) => {
             </defs>
           </svg>
         </SvgIcon>
+      );
+    }
+    if (type === 'gemini') {
+      return (
+        <Box
+          sx={{
+            boxSizing: 'border-box',
+            borderRadius: 1,
+            bgcolor: '#040404',
+            p: 1,
+          }}
+        >
+          <CustomIcon
+            icon='Gemini'
+            sx={{
+              fontSize: {
+                xs: 32,
+                md: 48,
+              },
+            }}
+          />
+        </Box>
       );
     }
 
