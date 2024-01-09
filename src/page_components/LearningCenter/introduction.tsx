@@ -58,7 +58,6 @@ const Introduction = () => {
         />
       </Box>
       <CTAInstallButton
-        showAgent='Chrome'
         variant={'contained'}
         trackerLinkProps={{
           defaultRef: 'learning-center',
