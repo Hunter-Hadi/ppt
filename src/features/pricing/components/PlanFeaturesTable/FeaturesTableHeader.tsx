@@ -18,7 +18,7 @@ import {
 } from '.';
 
 interface IProps {
-  headerElRef?: React.RefObject<HTMLElement>;
+  headerElRef?: React.RefObject<HTMLDivElement>;
   sx?: SxProps;
   showPaymentTypeSwitch?: boolean;
   variant: IFeatureTableVariant;
@@ -89,11 +89,7 @@ const FeaturesTableHeader: FC<IProps> = ({
           </Stack>
         ) : (
           <Box mt='auto'>
-            <PlanButton
-              renderType={paymentPlanType}
-              feedback={<Box height={84} />}
-              btnDesc
-            />
+            <PlanButton renderType={paymentPlanType} btnDesc />
           </Box>
         )}
       </>

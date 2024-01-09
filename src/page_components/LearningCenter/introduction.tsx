@@ -35,7 +35,10 @@ const Introduction = () => {
         MaxAI 101: Introduction
       </Typography>
       <Box
-        width={640}
+        width={{
+          xs: '100%',
+          sm: 640,
+        }}
         onClick={() => {
           openVideoPopup(PRIMARY_YOUTUBE_VIDEO_EMBED_URL);
         }}
