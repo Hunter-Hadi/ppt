@@ -49,7 +49,7 @@ const Features = () => {
             <Grid container rowSpacing={6} columnSpacing={4}>
               {category.features.map((featureItem) => {
                 const image = featureItem.tooltip?.imageLink;
-                const videoLink = featureItem.tooltip?.videoUrl;
+                const videoLink = featureItem.youtube?.link;
                 const desc = featureItem.tooltip?.desc;
 
                 return (
@@ -62,7 +62,7 @@ const Features = () => {
                           }}
                           sx={{
                             cursor: 'pointer',
-                            boxShadow: '0px 0px 5px rgba(0, 0, 0, 0.1)',
+                            boxShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.6)',
                             borderRadius: 2,
                             overflow: 'hidden',
                           }}
@@ -79,7 +79,7 @@ const Features = () => {
                       {!videoLink && image ? (
                         <Box
                           sx={{
-                            boxShadow: '0px 0px 5px rgba(0, 0, 0, 0.1)',
+                            boxShadow: '0px 0px 1px 0px rgba(0, 0, 0, 0.6)',
                             borderRadius: 2,
                             overflow: 'hidden',
                           }}

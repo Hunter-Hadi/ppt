@@ -47,6 +47,11 @@ export const PLAN_FEATURES_CATEGORY: {
           },
         },
 
+        tooltip: {
+          // videoUrl: 'https://www.youtube.com/embed/CkFKtcZw5xY',
+          imageLink: `/assets/chrome-extension/upgrade/use-one-click-ai-anywhere.png`,
+        },
+
         // tooltip: {
         //   videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         //   imageLink: `/assets/chrome-extension/upgrade/chatgpt.png`,
@@ -243,6 +248,9 @@ export const PLAN_FEATURES_CATEGORY: {
             statusText: 'plan_features_table__unlimited_queries',
           },
         },
+        tooltip: {
+          imageLink: `/assets/chrome-extension/upgrade/gemini.png`,
+        },
       },
       {
         title: 'plan_features_table__more_ai_providers',
@@ -260,6 +268,10 @@ export const PLAN_FEATURES_CATEGORY: {
             status: 'all',
             statusText: 'plan_features_table__unlimited_queries',
           },
+        },
+
+        tooltip: {
+          imageLink: `/assets/chrome-extension/upgrade/more-ai-provider.png`,
         },
       },
     ],
@@ -815,6 +827,9 @@ export const PLAN_FEATURES_CATEGORY: {
             statusText: 'plan_features_table__available_soon',
           },
         },
+        tooltip: {
+          imageLink: `/assets/chrome-extension/upgrade/tiktok-writing.png`,
+        },
       },
       {
         title: 'plan_features_table__google_ads_assistant',
@@ -832,6 +847,9 @@ export const PLAN_FEATURES_CATEGORY: {
             status: 'all',
             statusText: 'plan_features_table__available_soon',
           },
+        },
+        tooltip: {
+          imageLink: `/assets/chrome-extension/upgrade/google-ads.png`,
         },
       },
       {
@@ -851,6 +869,9 @@ export const PLAN_FEATURES_CATEGORY: {
             statusText: 'plan_features_table__available_soon',
           },
         },
+        tooltip: {
+          imageLink: `/assets/chrome-extension/upgrade/facebook-ads.png`,
+        },
       },
       {
         title: 'plan_features_table__shopify_assistant',
@@ -869,6 +890,9 @@ export const PLAN_FEATURES_CATEGORY: {
             statusText: 'plan_features_table__available_soon',
           },
         },
+        tooltip: {
+          imageLink: `/assets/chrome-extension/upgrade/shopify-assistant.png`,
+        },
       },
       {
         title: 'plan_features_table__other_new_features',
@@ -886,6 +910,9 @@ export const PLAN_FEATURES_CATEGORY: {
             status: 'all',
             statusText: 'plan_features_table__priority_access',
           },
+        },
+        tooltip: {
+          imageLink: `/assets/chrome-extension/upgrade/other-new-features.png`,
         },
       },
     ],
