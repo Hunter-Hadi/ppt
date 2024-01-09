@@ -168,7 +168,7 @@ const AppFooter = () => {
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
                 <FooterList
-                  title={t('modules:help')}
+                  title={t('modules:footer__help')}
                   data={[
                     {
                       label: t('modules:footer__how_to_use'),
