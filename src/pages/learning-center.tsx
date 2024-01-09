@@ -4,6 +4,7 @@ import React from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import BasicUsage from '@/page_components/LearningCenter/BasicUsage';
+import Features from '@/page_components/LearningCenter/Features';
 import Introduction from '@/page_components/LearningCenter/introduction';
 import LearningCenterSideMenu from '@/page_components/LearningCenter/LearningCenterSideMenu';
 
@@ -22,6 +23,9 @@ const LearningCenter = () => {
 
           {/* basic usage */}
           <BasicUsage />
+
+          {/* features */}
+          <Features />
         </Stack>
       </Stack>
     </AppContainer>

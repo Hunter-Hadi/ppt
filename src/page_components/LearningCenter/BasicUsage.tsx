@@ -23,7 +23,7 @@ const BasicUsage = () => {
   const { openVideoPopup } = useVideoPopupController();
 
   return (
-    <Stack spacing={6} alignItems='center' id='basic-usage'>
+    <Stack spacing={6} alignItems='center' data-testid='basic-usage'>
       <Typography
         variant='custom'
         component={'h2'}

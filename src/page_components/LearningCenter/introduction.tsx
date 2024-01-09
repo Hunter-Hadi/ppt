@@ -11,7 +11,7 @@ const Introduction = () => {
   const { openVideoPopup } = useVideoPopupController();
 
   return (
-    <Stack spacing={6} alignItems='center' id='introduction'>
+    <Stack spacing={6} alignItems='center' data-testid='introduction'>
       <Typography
         variant='custom'
         component={'h1'}
