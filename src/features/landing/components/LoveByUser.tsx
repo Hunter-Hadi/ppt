@@ -12,6 +12,7 @@ const LoveByUser = () => {
 
   return (
     <Box
+      id='homepage-love-by-user'
       py={{
         xs: 4,
         sm: 7,

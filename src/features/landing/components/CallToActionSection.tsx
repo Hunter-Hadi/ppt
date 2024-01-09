@@ -6,6 +6,7 @@ import CTAInstallButton from '@/page_components/CTAInstallButton';
 const CallToActionSection = () => {
   return (
     <Box
+      id='homepage-call-to-action'
       py={{
         xs: 7,
         md: 14,

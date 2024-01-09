@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import HomePageContent from '@/page_components/LandingPage/HomePageContent';
+import HomePageContent from '@/features/landing/components/HomePageContent';
 
 const UsechatgptPage = () => {
   useEffect(() => {
@@ -24,7 +24,7 @@ const UsechatgptPage = () => {
         }
         canonical={'https://www.maxai.me/usechatgpt'}
       />
-      <HomePageContent showLogo={false} />
+      <HomePageContent />
     </AppContainer>
   );
 };

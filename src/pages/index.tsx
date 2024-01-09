@@ -1,10 +1,9 @@
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
-import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import HomePageContent from '@/features/landing/components/HomePageContent';
 import { APP_PROJECT_LINK } from '@/global_constants';
-import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 
 const LandingPage = () => {
   const router = useRouter();
@@ -17,20 +16,10 @@ const LandingPage = () => {
     }
   }, [router.query]);
 
-  useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      const id = hash.replace('#', '');
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView();
-      }
-    }
-  }, []);
   return (
-    <AppContainer sx={{ bgcolor: '#fff' }}>
+    <>
       <AppDefaultSeoLayout />
-      <HomePageContent showLogo={false} />
+      <HomePageContent />
 
       {/* 如果有 ref 传入，通过加载 iframe 来保存 ref 到 app */}
       {ref ? (
@@ -52,7 +41,7 @@ const LandingPage = () => {
           // src={`http://localhost:3000/landing?ref=${ref}`}
         />
       ) : null}
-    </AppContainer>
+    </>
   );
 };
 export default LandingPage;

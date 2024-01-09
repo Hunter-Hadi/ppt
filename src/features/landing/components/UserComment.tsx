@@ -39,6 +39,7 @@ const UserComment = () => {
 
   return (
     <Box
+      id='homepage-user-comment'
       py={{
         xs: 7,
         md: 14,

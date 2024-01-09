@@ -15,6 +15,7 @@ const HeroSection = () => {
 
   return (
     <Box
+      id='homepage-hero-section'
       bgcolor='white'
       pt={{
         xs: 6,
@@ -30,8 +31,7 @@ const HeroSection = () => {
             <Stack
               p={{
                 xs: 0,
-                sm: 2,
-                md: 3,
+                sm: 1.5,
               }}
             >
               <Typography
@@ -103,7 +103,7 @@ const HeroSection = () => {
               <Star
                 sx={{
                   position: 'absolute',
-                  top: 0,
+                  top: '8%',
                   left: 0,
                   fontSize: {
                     xs: 0,

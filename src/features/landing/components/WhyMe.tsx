@@ -47,6 +47,7 @@ const WHT_ME_REASON = [
 const WhyMe = () => {
   return (
     <Box
+      id='homepage-why-me'
       py={{
         xs: 7,
         md: 14,

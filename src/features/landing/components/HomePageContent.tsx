@@ -1,5 +1,6 @@
 import { Stack } from '@mui/material';
-import React from 'react';
+import { useRouter } from 'next/router';
+import React, { useEffect } from 'react';
 
 import AIPower from './AIPower';
 import CallToActionSection from './CallToActionSection';
@@ -11,6 +12,18 @@ import UserComment from './UserComment';
 import WhyMe from './WhyMe';
 
 const HomePageContent = () => {
+  const { isReady, asPath } = useRouter();
+
+  useEffect(() => {
+    if (isReady && asPath) {
+      const hash = asPath.split('#')[1];
+      const element = document.getElementById(`homepage-${hash}`);
+      if (element) {
+        element.scrollIntoView();
+      }
+    }
+  }, [isReady, asPath]);
+
   return (
     <Stack>
       {/* heroSection */}

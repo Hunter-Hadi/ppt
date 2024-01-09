@@ -18,15 +18,14 @@ const MAGIC_FEATURES = [
   {
     title: 'Use 1-click AI anywhere',
     desc: "Enhance your browsing with '1-click AI': Highlight text to access a context-sensitive AI menu with various tools. Set up custom prompts to streamline repetitive tasks and boost your efficiency.",
-    // videoLink: 'https://www.youtube.com/embed/dXIdHNdxPdw?si=vZWhCv38JDb3LQDF',
+    // videoLink: 'https://www.youtube.com/embed/dXIdHNdxPdw',
     videoLink: '',
     imageLink: '/assets/landing/one-click-magic1.png',
   },
   {
     title: 'AI-Powered Search Optimization',
     desc: 'Revolutionize your online searches with our AI-powered search optimization.Query like you would on Google, and our AI refines it, delivering concise, combined answers from various sources. This enhances your searches with clear insights, eliminating the need to individually browse each link.',
-    videoLink: 'https://www.youtube.com/embed/dXIdHNdxPdw?si=vZWhCv38JDb3LQDF',
-    // videoLink: '',
+    videoLink: '',
     imageLink: '/assets/landing/one-click-magic2.png',
   },
   {
@@ -67,6 +66,7 @@ const OneClickMagic = () => {
 
   return (
     <Box
+      id='homepage-one-click-magic'
       py={{
         xs: 7,
         md: 14,

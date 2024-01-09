@@ -22,7 +22,7 @@ const AI_POWER_LIST = [
 
 const AIPower = () => {
   return (
-    <Box bgcolor='white' py={5}>
+    <Box bgcolor='white' py={5} id='homepage-ai-power'>
       <Box maxWidth={1312} mx='auto'>
         <Grid
           container

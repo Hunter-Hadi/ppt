@@ -2,8 +2,8 @@ import { Box, Typography } from '@mui/material';
 import { useEffect, useRef, useState } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import HomePageContent from '@/features/landing/components/HomePageContent';
 import useEffectOnce from '@/hooks/useEffectOnce';
-import HomePageContent from '@/page_components/LandingPage/HomePageContent';
 
 // 用于外部嵌入的 overview 页面
 const EmbedPartner = () => {
@@ -55,7 +55,7 @@ const EmbedPartner = () => {
       >
         <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
       </Box>
-      <HomePageContent annoyingButton iniFrame />
+      <HomePageContent />
     </Box>
   );
 };
