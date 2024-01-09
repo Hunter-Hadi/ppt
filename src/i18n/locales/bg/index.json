@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Добави в Edge",
     "upgrade_to": "Надгради на {{plan}}",
     "start_for": "Започни за {{plan}}",
-    "cancel_anytime": "Откажи по всяко време."
+    "cancel_anytime": "Откажи по всяко време.",
+    "install_now": "Инсталирай сега"
   },
   "pages": {
     "home_page__loved_by_users": "Обичан от {{num}} професионалисти",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Използвайте 1-клик ИИ навсякъде",
     "home_page__call_to_action__sub_title": "Най-бързият начин да използвате ИИ навсякъде онлайн.",
     "pricing__title": "Сравнете плановете и функциите",
-    "faq__title": "ЧЗВ"
+    "faq__title": "ЧЗВ",
+    "learning_center__title": "Център за обучение",
+    "learning_center__introduction__title": "MaxAI 101: Въведение",
+    "learning_center__basic_usage__title": "Основно използване",
+    "learning_center__basic_usage__item1__title": "Основно използване: Маркиране на текст и МиниМеню",
+    "learning_center__basic_usage__item2__title": "Основно използване: Активиране на страничната лента",
+    "learning_center__basic_usage__item3__title": "Основно използване: Настройка на настройките",
+    "learning_center__features__title": "Функционалности"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",

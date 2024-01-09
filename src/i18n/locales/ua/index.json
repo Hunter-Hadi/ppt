@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Додати до Edge",
     "upgrade_to": "Оновити до {{plan}}",
     "start_for": "Почати за {{plan}}",
-    "cancel_anytime": "Скасувати в будь-який час."
+    "cancel_anytime": "Скасувати в будь-який час.",
+    "install_now": "Встановити зараз"
   },
   "pages": {
     "home_page__loved_by_users": "Улюблено {{num}} фахівцями",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Використовуйте 1-клік ШІ скрізь",
     "home_page__call_to_action__sub_title": "Найшвидший спосіб використання ШІ в будь-якому місці в Інтернеті.",
     "pricing__title": "Порівняйте плани та функції",
-    "faq__title": "Часті запитання"
+    "faq__title": "Часті запитання",
+    "learning_center__title": "Центр навчання",
+    "learning_center__introduction__title": "MaxAI 101: Вступ",
+    "learning_center__basic_usage__title": "Основне використання",
+    "learning_center__basic_usage__item1__title": "Основне використання: Підсвітка тексту та МініМеню",
+    "learning_center__basic_usage__item2__title": "Основне використання: Активація бічної панелі",
+    "learning_center__basic_usage__item3__title": "Основне використання: Налаштування",
+    "learning_center__features__title": "Особливості"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",

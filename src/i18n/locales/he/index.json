@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "הוסף לאדג'",
     "upgrade_to": "שדרג ל{{plan}}",
     "start_for": "התחל ב-{{plan}}",
-    "cancel_anytime": "ביטול בכל עת."
+    "cancel_anytime": "ביטול בכל עת.",
+    "install_now": "התקן עכשיו"
   },
   "pages": {
     "home_page__loved_by_users": "נאהב על ידי {{num}} מקצוענים",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "השתמש ב-AI בלחיצה אחת בכל מקום",
     "home_page__call_to_action__sub_title": "הדרך המהירה ביותר להשתמש ב-AI בכל מקום באינטרנט.",
     "pricing__title": "השווה בין תוכניות ותכונות",
-    "faq__title": "שאלות נפוצות"
+    "faq__title": "שאלות נפוצות",
+    "learning_center__title": "מרכז למידה",
+    "learning_center__introduction__title": "MaxAI 101: היכרות",
+    "learning_center__basic_usage__title": "שימוש בסיסי",
+    "learning_center__basic_usage__item1__title": "שימוש בסיסי: הדגשת טקסט ותפריט מיני",
+    "learning_center__basic_usage__item2__title": "שימוש בסיסי: הפעלת הסרגל הצדי",
+    "learning_center__basic_usage__item3__title": "שימוש בסיסי: התאמת הגדרות",
+    "learning_center__features__title": "תכונות"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

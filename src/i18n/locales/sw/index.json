@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Ongeza kwa Edge",
     "upgrade_to": "Nenda kwenye {{plan}}",
     "start_for": "Anza kwa {{plan}}",
-    "cancel_anytime": "Ghairi wakati wowote."
+    "cancel_anytime": "Ghairi wakati wowote.",
+    "install_now": "Sakinisha sasa"
   },
   "pages": {
     "home_page__loved_by_users": "Inapendwa na wataalamu {{num}}",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Tumia AI ya Kubofya Moja Popote",
     "home_page__call_to_action__sub_title": "Njia ya haraka zaidi ya kutumia AI mtandaoni popote.",
     "pricing__title": "Fananisha mipango na huduma",
-    "faq__title": "Maswali Yanayoulizwa Mara kwa Mara"
+    "faq__title": "Maswali Yanayoulizwa Mara kwa Mara",
+    "learning_center__title": "Kituo cha Kujifunza",
+    "learning_center__introduction__title": "MaxAI 101: Utangulizi",
+    "learning_center__basic_usage__title": "Matumizi ya Msingi",
+    "learning_center__basic_usage__item1__title": "Matumizi ya Msingi: Kusisitiza Nakala & Menyu Ndogo",
+    "learning_center__basic_usage__item2__title": "Matumizi ya Msingi: Kuwezesha Upau wa Upande",
+    "learning_center__basic_usage__item3__title": "Matumizi ya Msingi: Kubadilisha Mipangilio",
+    "learning_center__features__title": "Vipengele"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",

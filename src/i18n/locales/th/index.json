@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "เพิ่มไปยัง Edge",
     "upgrade_to": "อัปเกรดเป็น {{plan}}",
     "start_for": "เริ่มต้นใช้งานสำหรับ {{plan}}",
-    "cancel_anytime": "ยกเลิกได้ทุกเมื่อ"
+    "cancel_anytime": "ยกเลิกได้ทุกเมื่อ",
+    "install_now": "ติดตั้งเดี๋ยวนี้"
   },
   "pages": {
     "home_page__loved_by_users": "ได้รับความนิยมจาก {{num}} ผู้เชี่ยวชาญ",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "ใช้ AI แบบ 1 คลิกทุกที่",
     "home_page__call_to_action__sub_title": "วิธีที่เร็วที่สุดในการใช้ AI ทุกที่ออนไลน์",
     "pricing__title": "เปรียบเทียบแผนและคุณสมบัติ",
-    "faq__title": "คำถามที่พบบ่อย"
+    "faq__title": "คำถามที่พบบ่อย",
+    "learning_center__title": "ศูนย์การเรียนรู้",
+    "learning_center__introduction__title": "MaxAI 101: แนะนำ",
+    "learning_center__basic_usage__title": "การใช้งานพื้นฐาน",
+    "learning_center__basic_usage__item1__title": "การใช้งานพื้นฐาน: เน้นข้อความและเมนูย่อย",
+    "learning_center__basic_usage__item2__title": "การใช้งานพื้นฐาน: เปิดใช้งานแถบด้านข้าง",
+    "learning_center__basic_usage__item3__title": "การใช้งานพื้นฐาน: ปรับการตั้งค่า",
+    "learning_center__features__title": "คุณสมบัติ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",

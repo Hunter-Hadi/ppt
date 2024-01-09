@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Adaugă în Edge",
     "upgrade_to": "Upgrade la {{plan}}",
     "start_for": "Începe pentru {{plan}}",
-    "cancel_anytime": "Anulează oricând."
+    "cancel_anytime": "Anulează oricând.",
+    "install_now": "Instalează acum"
   },
   "pages": {
     "home_page__loved_by_users": "Apreciat de {{num}} profesioniști",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Utilizați AI cu un singur clic oriunde",
     "home_page__call_to_action__sub_title": "Cel mai rapid mod de a utiliza AI oriunde online.",
     "pricing__title": "Comparați planurile și funcțiile",
-    "faq__title": "Întrebări frecvente"
+    "faq__title": "Întrebări frecvente",
+    "learning_center__title": "Centrul de învățare",
+    "learning_center__introduction__title": "MaxAI 101: Introducere",
+    "learning_center__basic_usage__title": "Utilizare de bază",
+    "learning_center__basic_usage__item1__title": "Utilizare de bază: Evidențierea textului și MiniMenu",
+    "learning_center__basic_usage__item2__title": "Utilizare de bază: Activarea panoului lateral",
+    "learning_center__basic_usage__item3__title": "Utilizare de bază: Ajustarea setărilor",
+    "learning_center__features__title": "Caracteristici"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",

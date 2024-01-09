@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "ఎడ్జ్‌కు జోడించండి",
     "upgrade_to": "{{plan}} కు అప్గ్రేడ్ చేయండి",
     "start_for": "{{plan}} తో ప్రారంభించండి",
-    "cancel_anytime": "ఏదేమీ సమయంలో రద్దు చేయండి."
+    "cancel_anytime": "ఏదేమీ సమయంలో రద్దు చేయండి.",
+    "install_now": "ఇప్పుడు ఇన్స్టాల్ చేయండి"
   },
   "pages": {
     "home_page__loved_by_users": "ప్రొఫెషనల్స్ ద్వారా ఇష్టపడించబడుతున్నది {{num}}",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "1-క్లిక్ AI ఎక్కువవలె ఉపయోగించండి",
     "home_page__call_to_action__sub_title": "ఆన్‌లైన్ ఎక్కువవలె AI ఉపయోగించడానికి త్వరగా మారుతుంది.",
     "pricing__title": "ప్రణాళికలను & అంశాలను సరికొంటే",
-    "faq__title": "FAQs"
+    "faq__title": "FAQs",
+    "learning_center__title": "అభ్యాస కేంద్రం",
+    "learning_center__introduction__title": "MaxAI 101: పరిచయం",
+    "learning_center__basic_usage__title": "ప్రాథమిక ఉపయోగం",
+    "learning_center__basic_usage__item1__title": "ప్రాథమిక ఉపయోగం: టెక్స్ట్ హైలైట్ & మినీమెను",
+    "learning_center__basic_usage__item2__title": "ప్రాథమిక ఉపయోగం: సైడ్‌బార్ ప్రారంభించడం",
+    "learning_center__basic_usage__item3__title": "ప్రాథమిక ఉపయోగం: సెట్టింగ్‌ను సరిచేయడం",
+    "learning_center__features__title": "లక్షణాలు"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",

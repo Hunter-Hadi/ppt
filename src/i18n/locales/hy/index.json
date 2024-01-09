@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Ավելացնել Edge-ին",
     "upgrade_to": "Թարմացնել {{plan}}",
     "start_for": "Սկսել {{plan}}",
-    "cancel_anytime": "Չեղարկել ցանկացած ժամանակ:"
+    "cancel_anytime": "Չեղարկել ցանկացած ժամանակ:",
+    "install_now": "Կարգավորել հիմա"
   },
   "pages": {
     "home_page__loved_by_users": "Սիրված {{num}} մասնակցի կողմից",
@@ -101,7 +102,16 @@
     "home_page__why_me__reason9__desc": "Աջակցում է բոլոր լեզուներին:",
     "home_page__user_comment__title": "1M+ մասնագետները ընտրում են MaxAI.me-ն",
     "home_page__call_to_action__title": "Օգտագործեք 1-կտակ AI ամբողջությամբ",
-    "home_page__call_to_action__sub_title": "Արագացնելու ենթակա ճանապարհը օնլայն օգտագործելու AI-ն:"
+    "home_page__call_to_action__sub_title": "Արագացնելու ենթակա ճանապարհը օնլայն օգտագործելու AI-ն:",
+    "learning_center__title": "Իմանալու կենտրոն",
+    "learning_center__introduction__title": "MaxAI 101: Ներածություն",
+    "learning_center__basic_usage__title": "Հիմնական օգտագործում",
+    "learning_center__basic_usage__item1__title": "Հիմնական օգտագործում: Տեքստի նշումը և MiniMenu-ի միջոցով",
+    "learning_center__basic_usage__item2__title": "Հիմնական օգտագործում: Սահմանափակման սահմանաչափը",
+    "learning_center__basic_usage__item3__title": "Հիմնական օգտագործում: Կարգավորել պարամետրերը",
+    "learning_center__features__title": "Հատկություններ",
+    "pricing__title": "Համեմատեք պլաները և հատկությունները",
+    "faq__title": "ՀՏՀ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -139,8 +149,6 @@
     "delete_prompt__tooltip": "Ջնջել հավատարմագրությունը",
     "edit_prompt__tooltip": "Խմբագրել հավատարմագրությունը"
   },
-  "pricing__title": "Համեմատեք պլանները և հատկացվածքները",
-  "faq__title": "ՀՏՀ",
   "modules": {
     "header__menu__industries": "Գործնականություններ",
     "header__menu__features": "Հատկություններ",

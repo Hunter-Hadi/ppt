@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "ಎಜ್‌ಗೆ ಸೇರಿಸಿ",
     "upgrade_to": "{{plan}} ಗೆ ಅಪ್ಗ್ರೇಡ್ ಮಾಡಿ",
     "start_for": "{{plan}} ಗೆ ಪ್ರಾರಂಭಿಸಿ",
-    "cancel_anytime": "ಯಾವಾಗಲೂ ರದ್ದು ಮಾಡಿ."
+    "cancel_anytime": "ಯಾವಾಗಲೂ ರದ್ದು ಮಾಡಿ.",
+    "install_now": "ಈಗ ಸ್ಥಾಪಿಸಿ"
   },
   "pages": {
     "home_page__loved_by_users": "{{num}} ಪ್ರೊಫೆಶನಲ್‌ಗಳ ಪ್ರೀತಿಸುತ್ತದೆ",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "ಎಲ್ಲಾ ಸ್ಥಳದಲ್ಲಿ 1-ಕ್ಲಿಕ್ ಏಐ ಬಳಸಿ",
     "home_page__call_to_action__sub_title": "ಆನ್‌ಲೈನ್ ಎಲ್ಲಾ ಸ್ಥಳದಲ್ಲಿ ಏಐ ಬಳಸುವ ಅತ್ಯುತ್ತಮ ಮಾರ್ಗ.",
     "pricing__title": "ಯೋಜನೆಗಳನ್ನು ಹೋಲಿಕೆಗೆ ತಂದುಕೊಳ್ಳಿ",
-    "faq__title": "ಪ್ರಶ್ನೆಗಳು"
+    "faq__title": "ಪ್ರಶ್ನೆಗಳು",
+    "learning_center__title": "ಕಲಿಯುವ ಕೇಂದ್ರ",
+    "learning_center__introduction__title": "MaxAI 101: ಪರಿಚಯ",
+    "learning_center__basic_usage__title": "ಆಧಾರಿಕ ಬಳಕೆ",
+    "learning_center__basic_usage__item1__title": "ಆಧಾರಿಕ ಬಳಕೆ: ಪಠ್ಯ ಹೈಲೈಟ್ ಮತ್ತು ಮಿನಿಮೀನು",
+    "learning_center__basic_usage__item2__title": "ಆಧಾರಿಕ ಬಳಕೆ: ಸೈಡ್‌ಬಾರ್ ಸಕ್ರಿಯಗೊಳಿಸುವುದು",
+    "learning_center__basic_usage__item3__title": "ಆಧಾರಿಕ ಬಳಕೆ: ಸೆಟ್ಟಿಂಗ್ ಸರಿಪಡಿಸುವುದು",
+    "learning_center__features__title": "ವೈಶಿಷ್ಟ್ಯಗಳು"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",

@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Pievienot Edge",
     "upgrade_to": "Jaunināt uz {{plan}}",
     "start_for": "Sākt ar {{plan}}",
-    "cancel_anytime": "Atcelt jebkurā laikā."
+    "cancel_anytime": "Atcelt jebkurā laikā.",
+    "install_now": "Instalēt tagad"
   },
   "pages": {
     "home_page__loved_by_users": "Mīlēts no {{num}} profesionāļiem",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Izmantojiet 1-klikšķa AI jebkur",
     "home_page__call_to_action__sub_title": "Ātrākais veids, kā izmantot AI jebkur tiešsaistē.",
     "pricing__title": "Salīdziniet plānus un funkcijas",
-    "faq__title": "Bieži uzdotie jautājumi"
+    "faq__title": "Bieži uzdotie jautājumi",
+    "learning_center__title": "Mācību centrs",
+    "learning_center__introduction__title": "MaxAI 101: Ievads",
+    "learning_center__basic_usage__title": "Pamata lietošana",
+    "learning_center__basic_usage__item1__title": "Pamata lietošana: Teksta izcelšana un MiniMenu",
+    "learning_center__basic_usage__item2__title": "Pamata lietošana: Sānjoslas aktivizēšana",
+    "learning_center__basic_usage__item3__title": "Pamata lietošana: Iestatījumu pielāgošana",
+    "learning_center__features__title": "Funkcijas"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",

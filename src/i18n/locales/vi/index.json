@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Thêm vào Edge",
     "upgrade_to": "Nâng cấp lên {{plan}}",
     "start_for": "Bắt đầu với {{plan}}",
-    "cancel_anytime": "Hủy bất kỳ lúc nào."
+    "cancel_anytime": "Hủy bất kỳ lúc nào.",
+    "install_now": "Cài đặt ngay"
   },
   "pages": {
     "home_page__loved_by_users": "Được yêu thích bởi {{num}} chuyên gia",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Sử dụng 1-Click AI Mọi Nơi",
     "home_page__call_to_action__sub_title": "Cách nhanh nhất để sử dụng AI mọi nơi trực tuyến.",
     "pricing__title": "So sánh gói & tính năng",
-    "faq__title": "Câu hỏi thường gặp"
+    "faq__title": "Câu hỏi thường gặp",
+    "learning_center__title": "Trung tâm học tập",
+    "learning_center__introduction__title": "MaxAI 101: Giới thiệu",
+    "learning_center__basic_usage__title": "Sử dụng cơ bản",
+    "learning_center__basic_usage__item1__title": "Sử dụng cơ bản: Tô sáng văn bản & MiniMenu",
+    "learning_center__basic_usage__item2__title": "Sử dụng cơ bản: Kích hoạt thanh bên",
+    "learning_center__basic_usage__item3__title": "Sử dụng cơ bản: Điều chỉnh cài đặt",
+    "learning_center__features__title": "Tính năng"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",

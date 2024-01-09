@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Idagdag sa Edge",
     "upgrade_to": "Mag-upgrade sa {{plan}}",
     "start_for": "Simulan para sa {{plan}}",
-    "cancel_anytime": "Kanselahin anumang oras."
+    "cancel_anytime": "Kanselahin anumang oras.",
+    "install_now": "I-install ngayon"
   },
   "pages": {
     "home_page__loved_by_users": "Minamahal ng {{num}} mga propesyonal",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Gamitin ang 1-Click AI Kahit Saan",
     "home_page__call_to_action__sub_title": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan online.",
     "pricing__title": "Ihambing ang mga plano at mga tampok",
-    "faq__title": "Mga Madalas Itanong"
+    "faq__title": "Mga Madalas Itanong",
+    "learning_center__title": "Learning center",
+    "learning_center__introduction__title": "MaxAI 101: Pagsisimula",
+    "learning_center__basic_usage__title": "Pangunahing Paggamit",
+    "learning_center__basic_usage__item1__title": "Pangunahing Paggamit: I-highlight ang Teksto at MiniMenu",
+    "learning_center__basic_usage__item2__title": "Pangunahing Paggamit: Pagpapagana ng Sidebar",
+    "learning_center__basic_usage__item3__title": "Pangunahing Paggamit: Ayusin ang Setting",
+    "learning_center__features__title": "Mga Tampok"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",

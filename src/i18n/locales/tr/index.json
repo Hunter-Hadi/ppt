@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Edge'e Ekle",
     "upgrade_to": "{{plan}}'a Yükselt",
     "start_for": "{{plan}} ile Başla",
-    "cancel_anytime": "Her zaman iptal edebilirsin."
+    "cancel_anytime": "Her zaman iptal edebilirsin.",
+    "install_now": "Şimdi Yükle"
   },
   "pages": {
     "home_page__loved_by_users": "Profesyoneller tarafından sevilen {{num}}",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Her Yerde 1 Tıklamayla AI Kullanın",
     "home_page__call_to_action__sub_title": "Çevrimiçi her yerde AI kullanmanın en hızlı yolu.",
     "pricing__title": "Planları ve Özellikleri Karşılaştırın",
-    "faq__title": "SSS"
+    "faq__title": "SSS",
+    "learning_center__title": "Öğrenme Merkezi",
+    "learning_center__introduction__title": "MaxAI 101: Giriş",
+    "learning_center__basic_usage__title": "Temel Kullanım",
+    "learning_center__basic_usage__item1__title": "Temel Kullanım: Metin Vurgulama ve Mini Menü",
+    "learning_center__basic_usage__item2__title": "Temel Kullanım: Kenar Çubuğunu Etkinleştirme",
+    "learning_center__basic_usage__item3__title": "Temel Kullanım: Ayarları Ayarlama",
+    "learning_center__features__title": "Özellikler"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",

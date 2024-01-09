@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Dodaj u Edge",
     "upgrade_to": "Nadogradi na {{plan}}",
     "start_for": "Počni za {{plan}}",
-    "cancel_anytime": "Otkaži u bilo koje vreme."
+    "cancel_anytime": "Otkaži u bilo koje vreme.",
+    "install_now": "Instaliraj sada"
   },
   "pages": {
     "home_page__loved_by_users": "Omiljeno od strane {{num}} profesionalaca",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Koristite 1-Klik AI Bilo Gde",
     "home_page__call_to_action__sub_title": "Najbrži način da koristite AI bilo gde online.",
     "pricing__title": "Uporedite planove i funkcije",
-    "faq__title": "Često postavljana pitanja"
+    "faq__title": "Često postavljana pitanja",
+    "learning_center__title": "Centar za učenje",
+    "learning_center__introduction__title": "MaxAI 101: Uvod",
+    "learning_center__basic_usage__title": "Osnovna upotreba",
+    "learning_center__basic_usage__item1__title": "Osnovna upotreba: Isticanje teksta i MiniMeni",
+    "learning_center__basic_usage__item2__title": "Osnovna upotreba: Aktiviranje bočne trake",
+    "learning_center__basic_usage__item3__title": "Osnovna upotreba: Podešavanje",
+    "learning_center__features__title": "Funkcionalnosti"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",

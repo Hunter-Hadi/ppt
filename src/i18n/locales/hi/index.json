@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Edge में जोड़ें",
     "upgrade_to": "{{plan}} में अपग्रेड करें",
     "start_for": "{{plan}} पर शुरू करें",
-    "cancel_anytime": "किसी भी समय रद्द करें।"
+    "cancel_anytime": "किसी भी समय रद्द करें।",
+    "install_now": "अभी इंस्टॉल करें"
   },
   "pages": {
     "home_page__loved_by_users": "पेशेवरों द्वारा प्यार किया गया {{num}}",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "कहीं भी 1-क्लिक AI का उपयोग करें",
     "home_page__call_to_action__sub_title": "ऑनलाइन कहीं भी AI का उपयोग करने का सबसे तेज़ तरीका।",
     "pricing__title": "योजनाएँ और सुविधाएँ तुलना करें",
-    "faq__title": "सामान्य प्रश्न"
+    "faq__title": "सामान्य प्रश्न",
+    "learning_center__title": "सीखने का केंद्र",
+    "learning_center__introduction__title": "MaxAI 101: परिचय",
+    "learning_center__basic_usage__title": "मूल उपयोग",
+    "learning_center__basic_usage__item1__title": "मूल उपयोग: पाठ हाइलाइट और मिनीमेनू",
+    "learning_center__basic_usage__item2__title": "मूल उपयोग: साइडबार सक्रिय करना",
+    "learning_center__basic_usage__item3__title": "मूल उपयोग: सेटिंग समायोजित करना",
+    "learning_center__features__title": "विशेषताएं"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

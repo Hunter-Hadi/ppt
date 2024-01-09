@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "எட்ஜில் சேர்க்கவும்",
     "upgrade_to": "{{plan}} க்கு மேம்படுத்துக",
     "start_for": "{{plan}} க்கு தொடங்குக",
-    "cancel_anytime": "எப்போதும் ரத்து செய்யலாம்."
+    "cancel_anytime": "எப்போதும் ரத்து செய்யலாம்.",
+    "install_now": "இப்போது நிறுவு"
   },
   "pages": {
     "home_page__loved_by_users": "{{num}} பொழுதுகளாக விருப்பப்படுகின்றன",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "1-கிளிக் AI எவ்வேனும் பயன்படுத்துங்கள்",
     "home_page__call_to_action__sub_title": "இணையத்தில் எவ்வேனும் இடத்தில் AI ஐ பயன்படுத்துவதின் விரைவான முறை.",
     "pricing__title": "மேலதிகமாக பயன்பாடுகளை ஒப்பிடுங்கள் & அம்சங்களை ஒப்பிடுங்கள்",
-    "faq__title": "கேள்விகள்"
+    "faq__title": "கேள்விகள்",
+    "learning_center__title": "கற்றல் மையம்",
+    "learning_center__introduction__title": "MaxAI 101: அறிமுகம்",
+    "learning_center__basic_usage__title": "அடிப்படை பயன்பாடு",
+    "learning_center__basic_usage__item1__title": "அடிப்படை பயன்பாடு: உரை மென்பொருள் & மினி மெனு",
+    "learning_center__basic_usage__item2__title": "அடிப்படை பயன்பாடு: பக்கப்பட்டியலை செயலாக்குதல்",
+    "learning_center__basic_usage__item3__title": "அடிப்படை பயன்பாடு: அமைப்பை சரிசெய்தல்",
+    "learning_center__features__title": "அம்சங்கள்"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",

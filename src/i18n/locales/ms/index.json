@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Tambah ke Edge",
     "upgrade_to": "Naik taraf kepada {{plan}}",
     "start_for": "Mula untuk {{plan}}",
-    "cancel_anytime": "Batal pada bila-bila masa."
+    "cancel_anytime": "Batal pada bila-bila masa.",
+    "install_now": "Pasang sekarang"
   },
   "pages": {
     "home_page__loved_by_users": "Dikasihi oleh {{num}} profesional",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Guna AI 1-Klik Di Mana-mana",
     "home_page__call_to_action__sub_title": "Cara terpantas untuk menggunakan AI di mana-mana dalam talian.",
     "pricing__title": "Bandingkan pelan & ciri",
-    "faq__title": "Soalan Lazim"
+    "faq__title": "Soalan Lazim",
+    "learning_center__title": "Pusat Pembelajaran",
+    "learning_center__introduction__title": "MaxAI 101: Pengenalan",
+    "learning_center__basic_usage__title": "Penggunaan Asas",
+    "learning_center__basic_usage__item1__title": "Penggunaan Asas: Sorot Teks & MiniMenu",
+    "learning_center__basic_usage__item2__title": "Penggunaan Asas: Mengaktifkan Sidebar",
+    "learning_center__basic_usage__item3__title": "Penggunaan Asas: Tetapan Penyesuaian",
+    "learning_center__features__title": "Ciri-ciri"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",

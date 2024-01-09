@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Hozzáadás az Edge-hez",
     "upgrade_to": "Frissítés erre: {{plan}}",
     "start_for": "Kezdés erre: {{plan}}",
-    "cancel_anytime": "Bármikor lemondható."
+    "cancel_anytime": "Bármikor lemondható.",
+    "install_now": "Telepítés most"
   },
   "pages": {
     "home_page__loved_by_users": "Szeretik a(z) {{num}} szakemberek",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Használjon 1 kattintásos AI-t bárhol",
     "home_page__call_to_action__sub_title": "A leggyorsabb módja az AI használatának online bárhol.",
     "pricing__title": "Tervek és funkciók összehasonlítása",
-    "faq__title": "GYIK"
+    "faq__title": "GYIK",
+    "learning_center__title": "Tanulási központ",
+    "learning_center__introduction__title": "MaxAI 101: Bevezetés",
+    "learning_center__basic_usage__title": "Alapvető használat",
+    "learning_center__basic_usage__item1__title": "Alapvető használat: Szövegkiemelés és MiniMenü",
+    "learning_center__basic_usage__item2__title": "Alapvető használat: Az oldalsáv aktiválása",
+    "learning_center__basic_usage__item3__title": "Alapvető használat: Beállítások módosítása",
+    "learning_center__features__title": "Funkciók"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Toevoegen aan Edge",
     "upgrade_to": "Upgraden naar {{plan}}",
     "start_for": "Beginnen voor {{plan}}",
-    "cancel_anytime": "Altijd annuleren."
+    "cancel_anytime": "Altijd annuleren.",
+    "install_now": "Nu installeren"
   },
   "pages": {
     "home_page__loved_by_users": "Geliefd door {{num}} professionals",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Gebruik 1-Klik AI Overal",
     "home_page__call_to_action__sub_title": "De snelste manier om overal online AI te gebruiken.",
     "pricing__title": "Vergelijk plannen en functies",
-    "faq__title": "Veelgestelde vragen"
+    "faq__title": "Veelgestelde vragen",
+    "learning_center__title": "Leercentrum",
+    "learning_center__introduction__title": "MaxAI 101: Introductie",
+    "learning_center__basic_usage__title": "Basisgebruik",
+    "learning_center__basic_usage__item1__title": "Basisgebruik: Tekst markeren en MiniMenu",
+    "learning_center__basic_usage__item2__title": "Basisgebruik: De zijbalk activeren",
+    "learning_center__basic_usage__item3__title": "Basisgebruik: Instellingen aanpassen",
+    "learning_center__features__title": "Functies"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",

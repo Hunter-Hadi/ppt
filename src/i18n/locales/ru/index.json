@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Добавить в Edge",
     "upgrade_to": "Перейти на {{plan}}",
     "start_for": "Начать за {{plan}}",
-    "cancel_anytime": "Отменить в любое время."
+    "cancel_anytime": "Отменить в любое время.",
+    "install_now": "Установить сейчас"
   },
   "pages": {
     "home_page__loved_by_users": "Понравилось {{num}} специалистам",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Используйте 1-клик ИИ везде",
     "home_page__call_to_action__sub_title": "Самый быстрый способ использования ИИ в Интернете.",
     "pricing__title": "Сравните планы и функции",
-    "faq__title": "Часто задаваемые вопросы"
+    "faq__title": "Часто задаваемые вопросы",
+    "learning_center__title": "Центр обучения",
+    "learning_center__introduction__title": "MaxAI 101: Введение",
+    "learning_center__basic_usage__title": "Основное использование",
+    "learning_center__basic_usage__item1__title": "Основное использование: Выделение текста и мини-меню",
+    "learning_center__basic_usage__item2__title": "Основное использование: Активация боковой панели",
+    "learning_center__basic_usage__item3__title": "Основное использование: Настройка параметров",
+    "learning_center__features__title": "Функции"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",

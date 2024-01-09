@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "أضف إلى Edge",
     "upgrade_to": "الترقية إلى {{plan}}",
     "start_for": "ابدأ بـ {{plan}}",
-    "cancel_anytime": "إلغاء في أي وقت."
+    "cancel_anytime": "إلغاء في أي وقت.",
+    "install_now": "قم بالتثبيت الآن"
   },
   "pages": {
     "home_page__loved_by_users": "محبوب من قبل {{num}} محترف",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "استخدم الذكاء الاصطناعي بنقرة واحدة في أي مكان",
     "home_page__call_to_action__sub_title": "أسرع طريقة لاستخدام الذكاء الاصطناعي عبر الإنترنت.",
     "pricing__title": "قارن الخطط والميزات",
-    "faq__title": "الأسئلة الشائعة"
+    "faq__title": "الأسئلة الشائعة",
+    "learning_center__title": "مركز التعلم",
+    "learning_center__introduction__title": "MaxAI 101: المقدمة",
+    "learning_center__basic_usage__title": "استخدام أساسي",
+    "learning_center__basic_usage__item1__title": "استخدام أساسي: تمييز النص والقائمة المصغرة",
+    "learning_center__basic_usage__item2__title": "استخدام أساسي: تفعيل الشريط الجانبي",
+    "learning_center__basic_usage__item3__title": "استخدام أساسي: ضبط الإعدادات",
+    "learning_center__features__title": "الميزات"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",

@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "എഡ്ജിലേക്ക് ചേർക്കുക",
     "upgrade_to": "{{plan}}ലേക്ക് അപ്ഗ്രേഡ് ചെയ്യുക",
     "start_for": "{{plan}}ലേക്ക് ആരംഭിക്കുക",
-    "cancel_anytime": "ഏതെങ്കിലും സമയത്ത് റദ്ദാക്കുക."
+    "cancel_anytime": "ഏതെങ്കിലും സമയത്ത് റദ്ദാക്കുക.",
+    "install_now": "ഇപ്പോൾ ഇൻസ്റ്റാൾ ചെയ്യുക"
   },
   "pages": {
     "home_page__loved_by_users": "പ്രൊഫഷണലുകളുടെ ഇഷ്ടപ്പെട്ടത് {{num}}",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "ഏതെങ്കിലും വെബ്‌സൈറ്റിലെയും ഓൺലൈനിലെയും AI ഉപയോഗിക്കുക",
     "home_page__call_to_action__sub_title": "ഓൺലൈനിലെയും ഏതെങ്കിലും സ്ഥലത്ത് AI ഉപയോഗിക്കാൻ ഏറ്റവും വേഗത്തിൽ.",
     "pricing__title": "പ്രമാണങ്ങൾ & സവിശേഷതകൾ പരിശോധിക്കുക",
-    "faq__title": "പതിപ്പുകൾ"
+    "faq__title": "പതിപ്പുകൾ",
+    "learning_center__title": "പഠന കേന്ദ്രം",
+    "learning_center__introduction__title": "MaxAI 101: പരിചയം",
+    "learning_center__basic_usage__title": "അടിസ്ഥാന ഉപയോഗം",
+    "learning_center__basic_usage__item1__title": "അടിസ്ഥാന ഉപയോഗം: ടെക്സ്റ്റ് ഹൈലൈറ്റ് & മിനിമെനു",
+    "learning_center__basic_usage__item2__title": "അടിസ്ഥാന ഉപയോഗം: സൈഡ്ബാർ സജ്ജമാക്കൽ",
+    "learning_center__basic_usage__item3__title": "അടിസ്ഥാന ഉപയോഗം: ക്രമീകരണം അനുയോജ്യമാക്കൽ",
+    "learning_center__features__title": "സവിശേഷതകൾ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",

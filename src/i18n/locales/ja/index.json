@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Edgeに追加",
     "upgrade_to": "{{plan}}にアップグレード",
     "start_for": "{{plan}}で開始",
-    "cancel_anytime": "いつでもキャンセル"
+    "cancel_anytime": "いつでもキャンセル",
+    "install_now": "今すぐインストール"
   },
   "pages": {
     "home_page__loved_by_users": "プロフェッショナル{{num}}人に愛されています",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "どこでも1クリックAIを使用",
     "home_page__call_to_action__sub_title": "オンラインでAIを使用する最速の方法。",
     "pricing__title": "プランと機能を比較",
-    "faq__title": "よくある質問"
+    "faq__title": "よくある質問",
+    "learning_center__title": "学習センター",
+    "learning_center__introduction__title": "MaxAI 101：イントロダクション",
+    "learning_center__basic_usage__title": "基本的な使用方法",
+    "learning_center__basic_usage__item1__title": "基本的な使用方法：テキストのハイライトとミニメニュー",
+    "learning_center__basic_usage__item2__title": "基本的な使用方法：サイドバーのアクティベート",
+    "learning_center__basic_usage__item3__title": "基本的な使用方法：設定の調整",
+    "learning_center__features__title": "特徴"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",

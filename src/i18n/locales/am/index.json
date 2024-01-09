@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "ለ Edge ጨርቅ አክል",
     "upgrade_to": "{{plan}} ይዘት ይግዙ",
     "start_for": "{{plan}} እንዴት እንደጀመረ እንዳለው እንዴት እንደጀመረ እንዳለው",
-    "cancel_anytime": "ማንኛውንም ጠቅላላ."
+    "cancel_anytime": "ማንኛውንም ጠቅላላ.",
+    "install_now": "አስገባ"
   },
   "pages": {
     "home_page__loved_by_users": "በ{{num}} ሰዎች ተወዳጅ",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "1-ጁልክ AI በሩቅ እንዴት እንደጀመረ እንዴት እንደጀመረ",
     "home_page__call_to_action__sub_title": "የግል AI በሩቅ በቀጥል የሚገኙ የግል AI ተግባራዊ የሆነ የግል ዓይነት ዝርዝሮችን ያስተርሱ።",
     "pricing__title": "የግልጽ ዕድሳት & ተግባራዊ መስኮቶች",
-    "faq__title": "FAQs"
+    "faq__title": "FAQs",
+    "learning_center__title": "ትምህርት ማስተዳደር",
+    "learning_center__introduction__title": "MaxAI 101: መጀመሪያ",
+    "learning_center__basic_usage__title": "የተጠቃሚ ጠቀሜታ",
+    "learning_center__basic_usage__item1__title": "የተጠቃሚ ጠቀሜታ: የጽሁፍ ማሳያ & ሚኒሚኒ",
+    "learning_center__basic_usage__item2__title": "የተጠቃሚ ጠቀሜታ: የስልክ ገጽ አናውት",
+    "learning_center__basic_usage__item3__title": "የተጠቃሚ ጠቀሜታ: የማያውቅ ችግር",
+    "learning_center__features__title": "ተግባራዊ አማራጭ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",

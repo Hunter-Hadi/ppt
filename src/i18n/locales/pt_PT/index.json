@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Adicionar ao Edge",
     "upgrade_to": "Atualizar para {{plan}}",
     "start_for": "Começar por {{plan}}",
-    "cancel_anytime": "Cancelar a qualquer momento."
+    "cancel_anytime": "Cancelar a qualquer momento.",
+    "install_now": "Instalar agora"
   },
   "pages": {
     "home_page__loved_by_users": "Adorado por {{num}} profissionais",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Use a IA de 1 Clique em Qualquer Lugar",
     "home_page__call_to_action__sub_title": "A maneira mais rápida de usar IA em qualquer lugar online.",
     "pricing__title": "Comparar planos e recursos",
-    "faq__title": "Perguntas frequentes"
+    "faq__title": "Perguntas frequentes",
+    "learning_center__title": "Centro de aprendizagem",
+    "learning_center__introduction__title": "MaxAI 101: Introdução",
+    "learning_center__basic_usage__title": "Uso básico",
+    "learning_center__basic_usage__item1__title": "Uso básico: Destaque de texto e MiniMenu",
+    "learning_center__basic_usage__item2__title": "Uso básico: Ativar a barra lateral",
+    "learning_center__basic_usage__item3__title": "Uso básico: Ajustar configuração",
+    "learning_center__features__title": "Recursos"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts de 1 Clique",

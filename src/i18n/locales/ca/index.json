@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Afegir a Edge",
     "upgrade_to": "Actualitza a {{plan}}",
     "start_for": "Comença per {{plan}}",
-    "cancel_anytime": "Cancel·la en qualsevol moment."
+    "cancel_anytime": "Cancel·la en qualsevol moment.",
+    "install_now": "Instal·la ara"
   },
   "pages": {
     "home_page__loved_by_users": "Estimat per {{num}} professionals",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Utilitza l'IA d'un clic en qualsevol lloc",
     "home_page__call_to_action__sub_title": "La manera més ràpida d'utilitzar IA en línia.",
     "pricing__title": "Compara plans i funcions",
-    "faq__title": "Preguntes freqüents"
+    "faq__title": "Preguntes freqüents",
+    "learning_center__title": "Centre d'aprenentatge",
+    "learning_center__introduction__title": "MaxAI 101: Introducció",
+    "learning_center__basic_usage__title": "Ús bàsic",
+    "learning_center__basic_usage__item1__title": "Ús bàsic: Resaltat de text i MiniMenu",
+    "learning_center__basic_usage__item2__title": "Ús bàsic: Activació de la barra lateral",
+    "learning_center__basic_usage__item3__title": "Ús bàsic: Ajustar configuració",
+    "learning_center__features__title": "Funcionalitats"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",

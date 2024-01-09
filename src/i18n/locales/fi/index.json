@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Lisää Edgeen",
     "upgrade_to": "Päivitä {{plan}}:iin",
     "start_for": "Aloita {{plan}}:lla",
-    "cancel_anytime": "Peruuta milloin tahansa."
+    "cancel_anytime": "Peruuta milloin tahansa.",
+    "install_now": "Asenna nyt"
   },
   "pages": {
     "home_page__loved_by_users": "Suosikki {{num}} ammattilaisen",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Käytä 1-Klikkauksen tekoälyä missä tahansa",
     "home_page__call_to_action__sub_title": "Nopein tapa käyttää tekoälyä missä tahansa verkossa.",
     "pricing__title": "Vertaa suunnitelmia ja ominaisuuksia",
-    "faq__title": "Usein kysytyt kysymykset"
+    "faq__title": "Usein kysytyt kysymykset",
+    "learning_center__title": "Oppimiskeskus",
+    "learning_center__introduction__title": "MaxAI 101: Johdanto",
+    "learning_center__basic_usage__title": "Peruskäyttö",
+    "learning_center__basic_usage__item1__title": "Peruskäyttö: Tekstin korostus ja MiniMenu",
+    "learning_center__basic_usage__item2__title": "Peruskäyttö: Sivupalkin aktivointi",
+    "learning_center__basic_usage__item3__title": "Peruskäyttö: Asetusten säätäminen",
+    "learning_center__features__title": "Ominaisuudet"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",

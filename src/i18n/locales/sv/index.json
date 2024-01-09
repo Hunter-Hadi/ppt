@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Lägg till i Edge",
     "upgrade_to": "Uppgradera till {{plan}}",
     "start_for": "Börja för {{plan}}",
-    "cancel_anytime": "Avbryt när som helst."
+    "cancel_anytime": "Avbryt när som helst.",
+    "install_now": "Installera nu"
   },
   "pages": {
     "home_page__loved_by_users": "Älskad av {{num}} yrkesverksamma",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Använd 1-Klicks AI var som helst",
     "home_page__call_to_action__sub_title": "Det snabbaste sättet att använda AI var som helst online.",
     "pricing__title": "Jämför planer och funktioner",
-    "faq__title": "Vanliga frågor"
+    "faq__title": "Vanliga frågor",
+    "learning_center__title": "Lärandecenter",
+    "learning_center__introduction__title": "MaxAI 101: Introduktion",
+    "learning_center__basic_usage__title": "Grundläggande användning",
+    "learning_center__basic_usage__item1__title": "Grundläggande användning: Textmarkering och MiniMeny",
+    "learning_center__basic_usage__item2__title": "Grundläggande användning: Aktivera sidofältet",
+    "learning_center__basic_usage__item3__title": "Grundläggande användning: Justera inställningar",
+    "learning_center__features__title": "Funktioner"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",

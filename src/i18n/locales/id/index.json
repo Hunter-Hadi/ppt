@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Tambahkan ke Edge",
     "upgrade_to": "Tingkatkan ke {{plan}}",
     "start_for": "Mulai untuk {{plan}}",
-    "cancel_anytime": "Batal kapan saja."
+    "cancel_anytime": "Batal kapan saja.",
+    "install_now": "Pasang sekarang"
   },
   "pages": {
     "home_page__loved_by_users": "Disukai oleh {{num}} profesional",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Gunakan AI 1-Klik di Mana Saja",
     "home_page__call_to_action__sub_title": "Cara tercepat untuk menggunakan AI di mana saja secara online.",
     "pricing__title": "Bandingkan rencana & fitur",
-    "faq__title": "FAQ"
+    "faq__title": "FAQ",
+    "learning_center__title": "Pusat Pembelajaran",
+    "learning_center__introduction__title": "MaxAI 101: Pengenalan",
+    "learning_center__basic_usage__title": "Penggunaan Dasar",
+    "learning_center__basic_usage__item1__title": "Penggunaan Dasar: Sorot Teks & MiniMenu",
+    "learning_center__basic_usage__item2__title": "Penggunaan Dasar: Mengaktifkan Sidebar",
+    "learning_center__basic_usage__item3__title": "Penggunaan Dasar: Menyesuaikan Pengaturan",
+    "learning_center__features__title": "Fitur-fitur"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

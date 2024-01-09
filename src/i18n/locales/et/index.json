@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Lisa Edge'i",
     "upgrade_to": "Täienda {{plan}}-ks",
     "start_for": "Alusta {{plan}}-ga",
-    "cancel_anytime": "Iga hetk tühistatav."
+    "cancel_anytime": "Iga hetk tühistatav.",
+    "install_now": "Paigalda kohe"
   },
   "pages": {
     "home_page__loved_by_users": "Armastatud {{num}} spetsialisti poolt",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Kasutage 1-kliki AI-d igal pool",
     "home_page__call_to_action__sub_title": "Kõige kiirem viis AI kasutamiseks veebis.",
     "pricing__title": "Võrdle plaane ja funktsioone",
-    "faq__title": "KKK"
+    "faq__title": "KKK",
+    "learning_center__title": "Õppekeskus",
+    "learning_center__introduction__title": "MaxAI 101: Sissejuhatus",
+    "learning_center__basic_usage__title": "Põhikasutus",
+    "learning_center__basic_usage__item1__title": "Põhikasutus: Teksti esiletõstmine ja MiniMenu",
+    "learning_center__basic_usage__item2__title": "Põhikasutus: Küljeriba aktiveerimine",
+    "learning_center__basic_usage__item3__title": "Põhikasutus: Seadete kohandamine",
+    "learning_center__features__title": "Omadused"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",

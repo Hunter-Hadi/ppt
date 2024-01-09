@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "افزودن به اج",
     "upgrade_to": "ارتقا به {{plan}}",
     "start_for": "شروع برای {{plan}}",
-    "cancel_anytime": "هر زمان لغو کنید."
+    "cancel_anytime": "هر زمان لغو کنید.",
+    "install_now": "نصب کنید"
   },
   "pages": {
     "home_page__loved_by_users": "مورد علاقه {{num}} حرفه‌ای",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "از هوش مصنوعی با یک کلیک در هر جایی استفاده کنید",
     "home_page__call_to_action__sub_title": "سریعترین راه برای استفاده از هوش مصنوعی در هر جایی آنلاین.",
     "pricing__title": "مقایسه طرح ها و ویژگی ها",
-    "faq__title": "سوالات متداول"
+    "faq__title": "سوالات متداول",
+    "learning_center__title": "مرکز یادگیری",
+    "learning_center__introduction__title": "MaxAI 101: معرفی",
+    "learning_center__basic_usage__title": "استفاده اولیه",
+    "learning_center__basic_usage__item1__title": "استفاده اولیه: برجسته کردن متن و منوی کوچک",
+    "learning_center__basic_usage__item2__title": "استفاده اولیه: فعال کردن نوار کناری",
+    "learning_center__basic_usage__item3__title": "استفاده اولیه: تنظیمات تنظیم",
+    "learning_center__features__title": "ویژگی ها"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

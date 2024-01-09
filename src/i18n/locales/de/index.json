@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Zu Edge hinzufügen",
     "upgrade_to": "Upgrade auf {{plan}}",
     "start_for": "Starte für {{plan}}",
-    "cancel_anytime": "Jederzeit kündigen."
+    "cancel_anytime": "Jederzeit kündigen.",
+    "install_now": "Jetzt installieren"
   },
   "pages": {
     "home_page__loved_by_users": "Von {{num}} Fachleuten geliebt",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Nutzen Sie KI mit nur einem Klick überall",
     "home_page__call_to_action__sub_title": "Der schnellste Weg, KI überall online zu nutzen.",
     "pricing__title": "Vergleichen Sie Pläne und Funktionen",
-    "faq__title": "FAQs"
+    "faq__title": "FAQs",
+    "learning_center__title": "Lernzentrum",
+    "learning_center__introduction__title": "MaxAI 101: Einführung",
+    "learning_center__basic_usage__title": "Grundlegende Verwendung",
+    "learning_center__basic_usage__item1__title": "Grundlegende Verwendung: Text hervorheben & MiniMenu",
+    "learning_center__basic_usage__item2__title": "Grundlegende Verwendung: Aktivieren der Seitenleiste",
+    "learning_center__basic_usage__item3__title": "Grundlegende Verwendung: Einstellungen anpassen",
+    "learning_center__features__title": "Funktionen"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",

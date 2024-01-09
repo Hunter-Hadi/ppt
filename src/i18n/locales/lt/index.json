@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Pridėti prie „Edge“",
     "upgrade_to": "Atnaujinti į {{plan}}",
     "start_for": "Pradėti su {{plan}}",
-    "cancel_anytime": "Atšaukti bet kada."
+    "cancel_anytime": "Atšaukti bet kada.",
+    "install_now": "Įdiegti dabar"
   },
   "pages": {
     "home_page__loved_by_users": "Mėgstama {{num}} profesionalų",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Naudokite vieno paspaudimo dirbtinį intelektą bet kur",
     "home_page__call_to_action__sub_title": "Greičiausias būdas naudoti dirbtinį intelektą bet kur internete.",
     "pricing__title": "Palyginkite planus ir funkcijas",
-    "faq__title": "DUK"
+    "faq__title": "DUK",
+    "learning_center__title": "Mokymo centras",
+    "learning_center__introduction__title": "MaxAI 101: Įvadas",
+    "learning_center__basic_usage__title": "Pagrindinis naudojimas",
+    "learning_center__basic_usage__item1__title": "Pagrindinis naudojimas: Teksto paryškinimas ir MiniMeniu",
+    "learning_center__basic_usage__item2__title": "Pagrindinis naudojimas: Šoninės juostos aktyvavimas",
+    "learning_center__basic_usage__item3__title": "Pagrindinis naudojimas: Nustatymų keitimas",
+    "learning_center__features__title": "Funkcijos"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",

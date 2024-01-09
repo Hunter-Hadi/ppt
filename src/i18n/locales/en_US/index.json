@@ -42,6 +42,7 @@
     "add_to_chrome_for_free__mini": "Add to Chrome",
     "add_to_edge_for_free": "Add to Edge for free",
     "add_to_edge_for_free__mini": "Add to Edge",
+    "install_now": "Install now",
     "upgrade_to": "Upgrade to {{plan}}",
     "start_for": "Start for {{plan}}",
     "cancel_anytime": "Cancel anytime."
@@ -102,6 +103,13 @@
     "home_page__user_comment__title": "1M+ professionals choose MaxAI.me",
     "home_page__call_to_action__title": "Use 1-Click AI Anywhere",
     "home_page__call_to_action__sub_title": "The fastest way to use AI anywhere online.",
+    "learning_center__title": "Learning center",
+    "learning_center__introduction__title": "MaxAI 101: Introduction",
+    "learning_center__basic_usage__title": "Basic Usage",
+    "learning_center__basic_usage__item1__title": "Basic Usage: Text Highlight & MiniMenu",
+    "learning_center__basic_usage__item2__title": "Basic Usage: Activating the Sidebar",
+    "learning_center__basic_usage__item3__title": "Basic Usage: Adjust Setting",
+    "learning_center__features__title": "Features",
     "pricing__title": "Compare plans & features",
     "faq__title": "FAQs"
   },

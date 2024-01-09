@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Προσθήκη στο Edge",
     "upgrade_to": "Αναβάθμιση σε {{plan}}",
     "start_for": "Έναρξη για {{plan}}",
-    "cancel_anytime": "Ακύρωση οποιαδήποτε στιγμή."
+    "cancel_anytime": "Ακύρωση οποιαδήποτε στιγμή.",
+    "install_now": "Εγκατάσταση τώρα"
   },
   "pages": {
     "home_page__loved_by_users": "Αγαπημένο από {{num}} επαγγελματίες",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Χρησιμοποιήστε το 1-Κλικ AI Οπουδήποτε",
     "home_page__call_to_action__sub_title": "Ο γρηγορότερος τρόπος να χρησιμοποιήσετε AI οπουδήποτε στο διαδίκτυο.",
     "pricing__title": "Σύγκριση πλάνων και χαρακτηριστικών",
-    "faq__title": "Συχνές Ερωτήσεις"
+    "faq__title": "Συχνές Ερωτήσεις",
+    "learning_center__title": "Κέντρο μάθησης",
+    "learning_center__introduction__title": "MaxAI 101: Εισαγωγή",
+    "learning_center__basic_usage__title": "Βασική χρήση",
+    "learning_center__basic_usage__item1__title": "Βασική χρήση: Επισήμανση κειμένου & MiniMenu",
+    "learning_center__basic_usage__item2__title": "Βασική χρήση: Ενεργοποίηση της πλευρικής γραμμής",
+    "learning_center__basic_usage__item3__title": "Βασική χρήση: Ρύθμιση παραμέτρων",
+    "learning_center__features__title": "Χαρακτηριστικά"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Κλικ Προτροπές",

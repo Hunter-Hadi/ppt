@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "ایج میں شامل کریں",
     "upgrade_to": "{{plan}} پر اپ گریڈ کریں",
     "start_for": "{{plan}} سے شروع کریں",
-    "cancel_anytime": "کسی بھی وقت منسوخ کریں."
+    "cancel_anytime": "کسی بھی وقت منسوخ کریں.",
+    "install_now": "ابھی انسٹال کریں"
   },
   "pages": {
     "home_page__loved_by_users": "پیشے کے {{num}} پیشہ وران کی طرف سے پسندیدہ",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "کہیں بھی 1-کلک AI استعمال کریں",
     "home_page__call_to_action__sub_title": "آن لائن کہیں بھی AI استعمال کرنے کا سب سے تیز طریقہ.",
     "pricing__title": "منصوبے اور خصوصیات کا موازنہ کریں",
-    "faq__title": "عمومی سوالات"
+    "faq__title": "عمومی سوالات",
+    "learning_center__title": "سیکھنے کا مرکز",
+    "learning_center__introduction__title": "میکس اے آئی 101: تعارف",
+    "learning_center__basic_usage__title": "بنیادی استعمال",
+    "learning_center__basic_usage__item1__title": "بنیادی استعمال: ٹیکسٹ ہائی لائٹ اور منی مینو",
+    "learning_center__basic_usage__item2__title": "بنیادی استعمال: سائڈبار کو فعال کرنا",
+    "learning_center__basic_usage__item3__title": "بنیادی استعمال: ترتیب ترمیم کرنا",
+    "learning_center__features__title": "خصوصیات"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",

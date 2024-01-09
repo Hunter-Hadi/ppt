@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Dodaj v Edge",
     "upgrade_to": "Nadgradi na {{plan}}",
     "start_for": "Začni za {{plan}}",
-    "cancel_anytime": "Kadarkoli prekliči."
+    "cancel_anytime": "Kadarkoli prekliči.",
+    "install_now": "Namesti zdaj"
   },
   "pages": {
     "home_page__loved_by_users": "Priljubljeno med {{num}} strokovnjaki",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Uporabite 1-klik AI kjerkoli",
     "home_page__call_to_action__sub_title": "Najhitrejši način uporabe AI kjerkoli na spletu.",
     "pricing__title": "Primerjajte načrte in funkcije",
-    "faq__title": "Pogosta vprašanja"
+    "faq__title": "Pogosta vprašanja",
+    "learning_center__title": "Učni center",
+    "learning_center__introduction__title": "MaxAI 101: Uvod",
+    "learning_center__basic_usage__title": "Osnovna uporaba",
+    "learning_center__basic_usage__item1__title": "Osnovna uporaba: Poudarjanje besedila in MiniMenu",
+    "learning_center__basic_usage__item2__title": "Osnovna uporaba: Aktiviranje stranske vrstice",
+    "learning_center__basic_usage__item3__title": "Osnovna uporaba: Prilagajanje nastavitev",
+    "learning_center__features__title": "Funkcije"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",

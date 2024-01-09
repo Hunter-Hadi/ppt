@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Edge-এ যুক্ত করুন",
     "upgrade_to": "{{plan}}-এ আপগ্রেড করুন",
     "start_for": "{{plan}}-এ শুরু করুন",
-    "cancel_anytime": "যে কোনও সময় বাতিল করুন।"
+    "cancel_anytime": "যে কোনও সময় বাতিল করুন।",
+    "install_now": "এখন ইনস্টল করুন"
   },
   "pages": {
     "home_page__loved_by_users": "পেশাদারদের পছন্দ",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "যেকোনো জায়গায় 1-ক্লিক এআই ব্যবহার করুন",
     "home_page__call_to_action__sub_title": "অনলাইনে যেকোনো জায়গায় এআই ব্যবহারের সবচেয়ে দ্রুত উপায়।",
     "pricing__title": "পরিমাণ এবং বৈশিষ্ট্য তুলনা করুন",
-    "faq__title": "প্রশ্নগুলি"
+    "faq__title": "প্রশ্নগুলি",
+    "learning_center__title": "শেখার কেন্দ্র",
+    "learning_center__introduction__title": "ম্যাক্সএআই 101: পরিচিতি",
+    "learning_center__basic_usage__title": "বেসিক ব্যবহার",
+    "learning_center__basic_usage__item1__title": "বেসিক ব্যবহার: টেক্সট হাইলাইট এবং মিনিমেনু",
+    "learning_center__basic_usage__item2__title": "বেসিক ব্যবহার: সাইডবার সক্রিয় করা",
+    "learning_center__basic_usage__item3__title": "বেসিক ব্যবহার: সেটিং সমন্বয় করা",
+    "learning_center__features__title": "বৈশিষ্ট্যসমূহ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",

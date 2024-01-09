@@ -94,7 +94,14 @@
     "home_page__call_to_action__title": "随处使用1点击AI",
     "home_page__call_to_action__sub_title": "在任何在线场景中使用AI的最快方式。",
     "pricing__title": "比较计划和功能",
-    "faq__title": "常见问题"
+    "faq__title": "常见问题",
+    "learning_center__title": "学习中心",
+    "learning_center__introduction__title": "MaxAI 101：介绍",
+    "learning_center__basic_usage__title": "基本使用",
+    "learning_center__basic_usage__item1__title": "基本使用：文本高亮和迷你菜单",
+    "learning_center__basic_usage__item2__title": "基本使用：激活侧边栏",
+    "learning_center__basic_usage__item3__title": "基本使用：调整设置",
+    "learning_center__features__title": "功能"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -103,7 +110,8 @@
     "add_to_edge_for_free__mini": "添加到Edge",
     "upgrade_to": "升级至{{plan}}",
     "start_for": "开始使用{{plan}}",
-    "cancel_anytime": "随时取消。"
+    "cancel_anytime": "随时取消。",
+    "install_now": "立即安装"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click提示",

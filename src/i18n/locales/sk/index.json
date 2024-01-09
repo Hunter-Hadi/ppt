@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Pridať do Edge",
     "upgrade_to": "Vylepšiť na {{plan}}",
     "start_for": "Začať za {{plan}}",
-    "cancel_anytime": "Kedykoľvek zrušiť."
+    "cancel_anytime": "Kedykoľvek zrušiť.",
+    "install_now": "Inštalovať teraz"
   },
   "pages": {
     "home_page__loved_by_users": "Obľúbené {{num}} profesionálov",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Použite 1-Klikovú AI kdekoľvek",
     "home_page__call_to_action__sub_title": "Najrýchlejší spôsob, ako používať AI online kdekoľvek.",
     "pricing__title": "Porovnajte plány a funkcie",
-    "faq__title": "Často kladené otázky"
+    "faq__title": "Často kladené otázky",
+    "learning_center__title": "Centrum vzdelávania",
+    "learning_center__introduction__title": "MaxAI 101: Úvod",
+    "learning_center__basic_usage__title": "Základné použitie",
+    "learning_center__basic_usage__item1__title": "Základné použitie: Zvýraznenie textu a MiniMenu",
+    "learning_center__basic_usage__item2__title": "Základné použitie: Aktivácia bočného panela",
+    "learning_center__basic_usage__item3__title": "Základné použitie: Nastavenie úpravy",
+    "learning_center__features__title": "Funkcie"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",

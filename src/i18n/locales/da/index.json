@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "Tilføj til Edge",
     "upgrade_to": "Opgrader til {{plan}}",
     "start_for": "Start for {{plan}}",
-    "cancel_anytime": "Annuller når som helst."
+    "cancel_anytime": "Annuller når som helst.",
+    "install_now": "Installer nu"
   },
   "pages": {
     "home_page__loved_by_users": "Elsket af {{num}} fagfolk",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "Brug 1-Klik AI Overalt",
     "home_page__call_to_action__sub_title": "Den hurtigste måde at bruge AI hvor som helst online.",
     "pricing__title": "Sammenlign planer og funktioner",
-    "faq__title": "Ofte stillede spørgsmål"
+    "faq__title": "Ofte stillede spørgsmål",
+    "learning_center__title": "Læringscenter",
+    "learning_center__introduction__title": "MaxAI 101: Introduktion",
+    "learning_center__basic_usage__title": "Grundlæggende brug",
+    "learning_center__basic_usage__item1__title": "Grundlæggende brug: Tekstmarkering og MiniMenu",
+    "learning_center__basic_usage__item2__title": "Grundlæggende brug: Aktivering af sidepanelet",
+    "learning_center__basic_usage__item3__title": "Grundlæggende brug: Justering af indstillinger",
+    "learning_center__features__title": "Funktioner"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

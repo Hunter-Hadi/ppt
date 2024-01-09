@@ -44,7 +44,8 @@
     "add_to_edge_for_free__mini": "加到 Edge",
     "upgrade_to": "升級至 {{plan}}",
     "start_for": "開始使用 {{plan}}",
-    "cancel_anytime": "隨時取消。"
+    "cancel_anytime": "隨時取消。",
+    "install_now": "立即安裝"
   },
   "pages": {
     "home_page__loved_by_users": "受到{{num}}位專業人士的喜愛",
@@ -103,7 +104,14 @@
     "home_page__call_to_action__title": "在任何地方使用 1-按即可使用 AI",
     "home_page__call_to_action__sub_title": "在線上使用 AI 的最快方式。",
     "pricing__title": "比較方案和功能",
-    "faq__title": "常見問題"
+    "faq__title": "常見問題",
+    "learning_center__title": "學習中心",
+    "learning_center__introduction__title": "MaxAI 101：介紹",
+    "learning_center__basic_usage__title": "基本使用方法",
+    "learning_center__basic_usage__item1__title": "基本使用方法：文字醒目顯示和迷你選單",
+    "learning_center__basic_usage__item2__title": "基本使用方法：啟用側邊欄",
+    "learning_center__basic_usage__item3__title": "基本使用方法：調整設定",
+    "learning_center__features__title": "功能"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
