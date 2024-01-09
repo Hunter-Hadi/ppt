@@ -1,5 +1,6 @@
 import { Box, Grid, Paper, Stack, SvgIcon, Typography } from '@mui/material';
 import React, { FC, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import CustomIcon from '@/components/CustomIcon';
 import ProLink from '@/components/ProLink';
@@ -8,43 +9,45 @@ import { isInIframe } from '@/utils/utils';
 const WHT_ME_REASON = [
   {
     iconsType: ['privacy'],
-    desc: '100% privacy friendly.',
+    desc: 'home_page__why_me__reason1__desc',
   },
   {
     iconsType: ['fastest'],
-    desc: 'The fastest way to use AI anywhere online.',
+    desc: 'home_page__why_me__reason2__desc',
   },
   {
     iconsType: ['network', 'pdf'],
-    desc: 'Works literally everywhere - ANY text on ANY website, even local PDF files.',
+    desc: 'home_page__why_me__reason3__desc',
   },
   {
     iconsType: ['1-click'],
-    desc: '1-click to insert or replace selected text with AI-generated content.',
+    desc: 'home_page__why_me__reason4__desc',
   },
   {
     iconsType: ['message'],
-    desc: 'Chat to ask follow-up questions or refine results.',
+    desc: 'home_page__why_me__reason5__desc',
   },
   {
     iconsType: ['chatgpt', 'claude', 'bard', 'bing'],
-    desc: 'Supports all popular AI Providers: ChatGPT, Google Bard, New Bing Chat AI, Claude.',
+    desc: 'home_page__why_me__reason6__desc',
   },
   {
     iconsType: ['chatgpt-black'],
-    desc: 'Supports GPT-4, Web Browsing, Code Interpreter, and Plugins through your ChatGPT Plus account.',
+    desc: 'home_page__why_me__reason7__desc',
   },
   {
     iconsType: ['chatgpt-outline'],
-    desc: 'Supports GPT-4, GPT-3.5-turbo-16k, GPT-4-32k using your OpenAI API key.',
+    desc: 'home_page__why_me__reason8__desc',
   },
   {
     iconsType: ['language'],
-    desc: 'All languages are supported.',
+    desc: 'home_page__why_me__reason9__desc',
   },
 ];
 
 const WhyMe = () => {
+  const { t } = useTranslation('pages');
+
   return (
     <Box
       id='homepage-why-me'
@@ -67,7 +70,7 @@ const WhyMe = () => {
           }}
           mb={6}
         >
-          Why is{' '}
+          {t('home_page__why_me__title__part1')}{' '}
           <ProLink
             href={{
               pathname: '/',
@@ -82,7 +85,7 @@ const WhyMe = () => {
           >
             MaxAI.me
           </ProLink>{' '}
-          Chrome extension the best
+          {t('home_page__why_me__title__part2')}
         </Typography>
 
         <Grid container spacing={4} direction='row' alignItems='stretch'>
@@ -112,7 +115,7 @@ const WhyMe = () => {
                         <WhyMeIconRender key={iconType} type={iconType} />
                       ))}
                     </Stack>
-                    <Typography>{reasonItem.desc}</Typography>
+                    <Typography>{t(reasonItem.desc)}</Typography>
                   </Stack>
                 </Paper>
               </Grid>
@@ -465,12 +468,21 @@ const WhyMeIconRender: FC<{ type: string }> = ({ type }) => {
     }
     if (type === 'chatgpt-black') {
       return (
-        <CustomIcon
-          icon='ChatGPTLogoBlack'
+        <Box
           sx={{
-            fontSize: 'inherit',
+            boxSizing: 'border-box',
+            borderRadius: 1,
+            bgcolor: 'black',
+            p: 1.25,
           }}
-        />
+        >
+          <CustomIcon
+            icon='ChatGPTLogoBlack'
+            sx={{
+              fontSize: { xs: 28, md: 44 },
+            }}
+          />
+        </Box>
       );
     }
     if (type === 'chatgpt-outline') {

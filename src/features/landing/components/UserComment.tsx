@@ -11,6 +11,7 @@ import {
   useTheme,
 } from '@mui/material';
 import React, { useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 // import required modules
 import { Autoplay, FreeMode } from 'swiper/modules';
 // Import Swiper React components
@@ -20,6 +21,7 @@ import { USER_COMMENTS } from '../constants/userComment';
 import Stars from './Stars';
 
 const UserComment = () => {
+  const { t } = useTranslation('pages')
   const commentPart1 = USER_COMMENTS.slice(0, USER_COMMENTS.length / 2);
   const commentPart2 = USER_COMMENTS.slice(USER_COMMENTS.length / 2);
 
@@ -58,7 +60,7 @@ const UserComment = () => {
         }}
         mb={6}
       >
-        1M+ professionals choose MaxAI.me
+        {t('home_page__user_comment__title')}
       </Typography>
 
       <Box

@@ -1,9 +1,12 @@
 import { Box, buttonClasses, Stack, Typography } from '@mui/material';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 const CallToActionSection = () => {
+  const { t } = useTranslation('pages');
+
   return (
     <Box
       id='homepage-call-to-action'
@@ -29,7 +32,7 @@ const CallToActionSection = () => {
             fontWeight={700}
             lineHeight={1.2}
           >
-            Use 1-Click AI Anywhere
+            {t('home_page__call_to_action__title')}
           </Typography>
           <Typography
             variant='custom'
@@ -40,7 +43,7 @@ const CallToActionSection = () => {
             textAlign={'center'}
             lineHeight={1.5}
           >
-            The fastest way to use AI anywhere online.
+            {t('home_page__call_to_action__sub_title')}
           </Typography>
 
           <CTAInstallButton

@@ -1,7 +1,9 @@
 import { Box, Grid, Stack, SvgIcon, Typography } from '@mui/material';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ProfessionalAbility = () => {
+  const { t } = useTranslation('pages');
   return (
     <Box
       id='homepage-professional-ability'
@@ -26,7 +28,7 @@ const ProfessionalAbility = () => {
           }}
           mb={6}
         >
-          Smart Gear, for Smart Users
+          {t('home_page__professional_ability__title')}
         </Typography>
 
         <Grid container columnSpacing={4} rowSpacing={6}>
@@ -50,7 +52,7 @@ const ProfessionalAbility = () => {
                     fontWeight={700}
                     lineHeight={1.4}
                   >
-                    {abilityItem.title}
+                    {t(abilityItem.title)}
                   </Typography>
 
                   <Typography
@@ -61,7 +63,7 @@ const ProfessionalAbility = () => {
                     }}
                     lineHeight={1.5}
                   >
-                    {abilityItem.desc}
+                    {t(abilityItem.desc)}
                   </Typography>
                 </Stack>
               </Stack>
@@ -75,8 +77,8 @@ const ProfessionalAbility = () => {
 
 const ABILITY_LIST = [
   {
-    title: 'Executives and Business Owners',
-    desc: 'Executives and business owners use MaxAI for quick, informed decision-making with its rapid research and market insights. Its efficient communication tools also streamline internal and external interactions, enhancing leadership and business growth.',
+    title: 'home_page__professional_ability__item1__title',
+    desc: 'home_page__professional_ability__item1__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <ellipse
@@ -111,8 +113,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Marketing & Customer Relations',
-    desc: 'In marketing and customer relations, MaxAI boosts engagement and content creation with fast market research and consumer insights. Furthermore, its fast AI composing function enhances customer interactions and feedback, ensuring a more personalized and responsive consumer experience.',
+    title: 'home_page__professional_ability__item2__title',
+    desc: 'home_page__professional_ability__item2__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path
@@ -176,8 +178,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Education',
-    desc: 'MaxAI is used in education for tasks like curriculum development, generating interactive learning materials, and assisting with administrative duties. It enhances the efficiency of educators and offers innovative ways to engage students.',
+    title: 'home_page__professional_ability__item3__title',
+    desc: 'home_page__professional_ability__item3__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path
@@ -219,8 +221,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Consulting',
-    desc: 'In consulting, MaxAI aids in drafting reports, preparing presentations, and analyzing market trends. It streamlines the process of gathering and interpreting data, which is crucial for consultants to provide informed advice to clients.',
+    title: 'home_page__professional_ability__item4__title',
+    desc: 'home_page__professional_ability__item4__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path
@@ -290,8 +292,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Human Resources',
-    desc: 'HR professionals utilize MaxAI for managing employee records, automating routine inquiries, and facilitating the recruitment process. It improves efficiency in handling employee-related tasks and assists in maintaining organizational compliance.',
+    title: 'home_page__professional_ability__item5__title',
+    desc: 'home_page__professional_ability__item5__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path
@@ -331,8 +333,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Financial Services',
-    desc: 'Executives in financial services use MaxAI for risk analysis, market forecasting, and financial reporting. It provides deep insights into market trends and supports informed decision-making in financial planning and investments.',
+    title: 'home_page__professional_ability__item6__title',
+    desc: 'home_page__professional_ability__item6__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path
@@ -417,8 +419,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Real Estate',
-    desc: 'Realtors benefit from MaxAI in creating property listings, conducting market analysis, and communicating with clients. It enhances the effectiveness of marketing strategies and assists in providing personalized services to clients.',
+    title: 'home_page__professional_ability__item7__title',
+    desc: 'home_page__professional_ability__item7__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path
@@ -468,8 +470,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Technical and Engineering',
-    desc: 'Engineers and technicians use MaxAI for its sophisticated analytics, aiding in efficient, innovative solution development. It supports data analysis and efficient communications, improving accuracy and productivity in technical fields.',
+    title: 'home_page__professional_ability__item8__title',
+    desc: 'home_page__professional_ability__item8__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path
@@ -519,8 +521,8 @@ const ABILITY_LIST = [
     ),
   },
   {
-    title: 'Other Professions',
-    desc: 'MaxAI adapts to diverse roles, offering quick research and efficient communication across various industries. Its versatility makes it a valuable asset for tasks beyond conventional categories, enhancing productivity and innovation in any field.',
+    title: 'home_page__professional_ability__item9__title',
+    desc: 'home_page__professional_ability__item9__desc',
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none'>
         <path

@@ -1,5 +1,6 @@
 import { MenuItem, Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { isInIframe } from '@/utils/utils';
 
@@ -8,6 +9,8 @@ interface IProps {
 }
 
 const PricingItem: FC<IProps> = ({ mini = false }) => {
+  const { t } = useTranslation('modules');
+
   const textRender = () => (
     <Typography
       variant='custom'
@@ -18,7 +21,7 @@ const PricingItem: FC<IProps> = ({ mini = false }) => {
         cursor: 'pointer',
       }}
     >
-      Pricing
+      {t('header__menu__pricing')}
     </Typography>
   );
 

@@ -206,7 +206,7 @@ const AppFooter = () => {
                   ml: 'auto !important',
                 }}
               >
-                Privacy Policy
+                {t('modules:footer__privacy_policy')}
               </ProLink>
               <ProLink
                 href={'/terms'}
@@ -217,7 +217,7 @@ const AppFooter = () => {
                   textDecorationColor: 'inherit',
                 }}
               >
-                Terms of Service
+                {t('modules:footer__terms_of_service')}
               </ProLink>
             </Stack>
           </Box>
