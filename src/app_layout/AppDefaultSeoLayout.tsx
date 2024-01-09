@@ -7,9 +7,9 @@ interface IAppDefaultSeoProps extends DefaultSeoProps {
 }
 
 const DEFAULT_TITLE =
-  'MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Bard, Bing)';
+  'MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)';
 const DEFAULT_DESCRIPTION =
-  'The fastest way to use AI anywhere online. One click to compose, improve writing, summarize, explain, fix spelling & grammar, change tone, translate, or reply to any text.';
+  'The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more.';
 
 const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
   const router = useRouter();
