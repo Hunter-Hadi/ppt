@@ -21,6 +21,7 @@ interface IProps {
   showAgent?: 'Edge' | 'Chrome';
   trackerLinkProps?: IUseShareTrackerLinkProps;
   iconSize?: number;
+  text?: string;
 
   // 是否开启 label 自适应长度（屏幕宽度变小，文本变短）
   adaptiveLabel?: boolean;
@@ -33,6 +34,7 @@ const CTAInstallButton: FC<IProps> = ({
   showAgent,
   trackerLinkProps = {},
   iconSize = 32,
+  text,
 
   adaptiveLabel = false,
 }) => {
@@ -53,6 +55,10 @@ const CTAInstallButton: FC<IProps> = ({
   const iconName = agent === 'Edge' ? 'EdgeColor' : 'ChromeColor';
 
   const label = useMemo(() => {
+    if (text) {
+      return text;
+    }
+
     if (adaptiveLabel && isDownSm) {
       return agent === 'Edge'
         ? t('add_to_edge_for_free__mini')
@@ -62,7 +68,7 @@ const CTAInstallButton: FC<IProps> = ({
     return agent === 'Edge'
       ? t('add_to_edge_for_free')
       : t('add_to_chrome_for_free');
-  }, [agent, t, adaptiveLabel, isDownSm]);
+  }, [agent, t, adaptiveLabel, isDownSm, text]);
 
   const href = useMemo(() => {
     if (agent === 'Edge') {
