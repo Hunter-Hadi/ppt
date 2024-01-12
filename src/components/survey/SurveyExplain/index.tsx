@@ -7,7 +7,7 @@ import { CustomImageBox } from '@/components/CustomImage';
 import ProLink from '@/components/ProLink';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
-import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/global_constants';
+import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
 import { useInstallChromeExtensionLink } from '@/hooks';
 import AIProviderDescription from '@/page_components/AIProviderDescription';
 

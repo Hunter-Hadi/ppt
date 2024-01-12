@@ -2,9 +2,8 @@ import { Box, Stack, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { LOVED_BY_NUM } from '@/global_constants';
-
 import ProducthuntHonor from '../../../page_components/ProducthuntHonor';
+import { LOVED_BY_NUM } from '../constants';
 import Stars from './Stars';
 
 const LoveByUser = () => {

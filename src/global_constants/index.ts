@@ -56,10 +56,6 @@ export const AD_BLOG_SIMPLY_TRENDS_PNG =
 export const AD_BLOG_CHROME_EXTENSION_PNG =
   'https://images.simplytrends.co/assets/images/ad/blog/chrome_extension.png';
 
-// youtube video
-export const PRIMARY_YOUTUBE_VIDEO_EMBED_URL =
-  'https://www.youtube.com/embed/d-c0YA56khg';
-
 export const QUOTA_TEXT = 'Free AI without a daily limit';
 
 export const EXTENSION_INSTALL_TRACKER_LINK = `https://api.maxai.me/app/install`;
@@ -71,5 +67,3 @@ export const MAXAI_WWW_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/maxai-web';
 export const MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/prompts-web';
-
-export const LOVED_BY_NUM = '1M+';

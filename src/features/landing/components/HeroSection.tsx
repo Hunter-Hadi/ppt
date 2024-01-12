@@ -4,10 +4,10 @@ import { useTranslation } from 'react-i18next';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
-import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/global_constants';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 
 import CTAInstallButton from '../../../page_components/CTAInstallButton';
+import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '../constants';
 
 const HeroSection = () => {
   const { browserAgent: agent } = useBrowserAgent();

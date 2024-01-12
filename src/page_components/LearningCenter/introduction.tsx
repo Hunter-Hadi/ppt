@@ -3,8 +3,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
+import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
 import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
-import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/global_constants';
 
 import CTAInstallButton from '../CTAInstallButton';
 
