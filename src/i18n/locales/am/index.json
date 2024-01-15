@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}} ይዘት ይግዙ",
     "start_for": "{{plan}} እንዴት እንደጀመረ እንዳለው እንዴት እንደጀመረ እንዳለው",
     "cancel_anytime": "ማንኛውንም ጠቅላላ.",
-    "install_now": "አስገባ"
+    "install_now": "አስገባ",
+    "external_add_to_chrome_for_free": "ለነፃ በክሮም ያንብቡ MaxAI",
+    "external_add_to_chrome_for_free__mini": "ለነፃ በክሮም ያንብቡ MaxAI",
+    "external_add_to_edge_for_free": "ለነፃ በኤግ ያንብቡ MaxAI",
+    "external_add_to_edge_for_free__mini": "ለነፃ በኤግ ያንብቡ MaxAI"
   },
   "pages": {
     "home_page__loved_by_users": "በ{{num}} ሰዎች ተወዳጅ",

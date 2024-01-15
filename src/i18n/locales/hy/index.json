@@ -45,7 +45,11 @@
     "upgrade_to": "Թարմացնել {{plan}}",
     "start_for": "Սկսել {{plan}}",
     "cancel_anytime": "Չեղարկել ցանկացած ժամանակ:",
-    "install_now": "Կարգավորել հիմա"
+    "install_now": "Կարգավորել հիմա",
+    "external_add_to_chrome_for_free": "Ավելացնել MaxAI-ն Chrome-ին անվճար",
+    "external_add_to_chrome_for_free__mini": "Ավելացնել MaxAI-ն Chrome-ին",
+    "external_add_to_edge_for_free": "Ավելացնել MaxAI-ն Edge-ին անվճար",
+    "external_add_to_edge_for_free__mini": "Ավելացնել MaxAI-ն Edge-ին"
   },
   "pages": {
     "home_page__loved_by_users": "Սիրված {{num}} մասնակցի կողմից",

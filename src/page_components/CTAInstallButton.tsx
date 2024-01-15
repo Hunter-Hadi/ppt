@@ -5,6 +5,7 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
+import { useRouter } from 'next/router';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -38,6 +39,8 @@ const CTAInstallButton: FC<IProps> = ({
 
   adaptiveLabel = false,
 }) => {
+  const route = useRouter();
+  const isEmbedMode = route.pathname === '/embed/introduction';
   const theme = useTheme();
   const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
@@ -58,17 +61,26 @@ const CTAInstallButton: FC<IProps> = ({
     if (text) {
       return text;
     }
-
-    if (adaptiveLabel && isDownSm) {
+    if (isEmbedMode) {
+      if (adaptiveLabel && isDownSm) {
+        return agent === 'Edge'
+          ? t('external_add_to_edge_for_free__mini')
+          : t('external_add_to_chrome_for_free__mini');
+      }
       return agent === 'Edge'
-        ? t('add_to_edge_for_free__mini')
-        : t('add_to_chrome_for_free__mini');
+        ? t('external_add_to_edge_for_free')
+        : t('external_add_to_chrome_for_free');
+    } else {
+      if (adaptiveLabel && isDownSm) {
+        return agent === 'Edge'
+          ? t('add_to_edge_for_free__mini')
+          : t('add_to_chrome_for_free__mini');
+      }
+      return agent === 'Edge'
+        ? t('add_to_edge_for_free')
+        : t('add_to_chrome_for_free');
     }
-
-    return agent === 'Edge'
-      ? t('add_to_edge_for_free')
-      : t('add_to_chrome_for_free');
-  }, [agent, t, adaptiveLabel, isDownSm, text]);
+  }, [agent, t, adaptiveLabel, isDownSm, text, isEmbedMode]);
 
   const href = useMemo(() => {
     if (agent === 'Edge') {
@@ -81,6 +93,9 @@ const CTAInstallButton: FC<IProps> = ({
   }, [extensionLink, agent, links, ref]);
 
   const sxCache = useMemo(() => {
+    if (isEmbedMode && (sx as any)?.fontSize?.xs === 32) {
+      (sx as any).fontSize.xs = 26;
+    }
     return {
       // width: { xs: '100%', sm: 300 },
       height: 64,
@@ -94,7 +109,7 @@ const CTAInstallButton: FC<IProps> = ({
       borderRadius: 2,
       ...sx,
     };
-  }, [sx]);
+  }, [sx, isEmbedMode]);
 
   return (
     <Button

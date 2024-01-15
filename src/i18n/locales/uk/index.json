@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}} پر اپ گریڈ کریں",
     "start_for": "{{plan}} سے شروع کریں",
     "cancel_anytime": "کسی بھی وقت منسوخ کریں.",
-    "install_now": "ابھی انسٹال کریں"
+    "install_now": "ابھی انسٹال کریں",
+    "external_add_to_chrome_for_free": "مفت میں کروم میں MaxAI شامل کریں",
+    "external_add_to_chrome_for_free__mini": "کروم میں MaxAI شامل کریں",
+    "external_add_to_edge_for_free": "مفت میں ایج پر MaxAI شامل کریں",
+    "external_add_to_edge_for_free__mini": "ایج پر MaxAI شامل کریں"
   },
   "pages": {
     "home_page__loved_by_users": "پیشے کے {{num}} پیشہ وران کی طرف سے پسندیدہ",

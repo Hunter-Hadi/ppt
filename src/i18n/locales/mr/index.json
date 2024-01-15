@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}} वर अपग्रेड करा",
     "start_for": "{{plan}} सुरू करा",
     "cancel_anytime": "कोणत्याही वेळेस रद्द करा.",
-    "install_now": "आता स्थापित करा"
+    "install_now": "आता स्थापित करा",
+    "external_add_to_chrome_for_free": "मोफत मध्ये MaxAI च्रोमवर जोडा",
+    "external_add_to_chrome_for_free__mini": "MaxAI च्रोमवर जोडा",
+    "external_add_to_edge_for_free": "मोफत मध्ये MaxAI एजवर जोडा",
+    "external_add_to_edge_for_free__mini": "MaxAI एजवर जोडा"
   },
   "pages": {
     "home_page__loved_by_users": "पेशेवरांनी प्रेम केलेले {{num}}",

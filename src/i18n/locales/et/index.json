@@ -45,7 +45,11 @@
     "upgrade_to": "Täienda {{plan}}-ks",
     "start_for": "Alusta {{plan}}-ga",
     "cancel_anytime": "Iga hetk tühistatav.",
-    "install_now": "Paigalda kohe"
+    "install_now": "Paigalda kohe",
+    "external_add_to_chrome_for_free": "Lisa MaxAI tasuta Chrome'ile",
+    "external_add_to_chrome_for_free__mini": "Lisa MaxAI Chrome'ile",
+    "external_add_to_edge_for_free": "Lisa MaxAI tasuta Edge'ile",
+    "external_add_to_edge_for_free__mini": "Lisa MaxAI Edge'ile"
   },
   "pages": {
     "home_page__loved_by_users": "Armastatud {{num}} spetsialisti poolt",

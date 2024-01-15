@@ -45,7 +45,11 @@
     "upgrade_to": "Mag-upgrade sa {{plan}}",
     "start_for": "Simulan para sa {{plan}}",
     "cancel_anytime": "Kanselahin anumang oras.",
-    "install_now": "I-install ngayon"
+    "install_now": "I-install ngayon",
+    "external_add_to_chrome_for_free": "I-install ang MaxAI sa Chrome nang libre",
+    "external_add_to_chrome_for_free__mini": "I-install ang MaxAI sa Chrome",
+    "external_add_to_edge_for_free": "I-install ang MaxAI sa Edge nang libre",
+    "external_add_to_edge_for_free__mini": "I-install ang MaxAI sa Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Minamahal ng {{num}} mga propesyonal",

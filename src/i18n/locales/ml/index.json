@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}}ലേക്ക് അപ്ഗ്രേഡ് ചെയ്യുക",
     "start_for": "{{plan}}ലേക്ക് ആരംഭിക്കുക",
     "cancel_anytime": "ഏതെങ്കിലും സമയത്ത് റദ്ദാക്കുക.",
-    "install_now": "ഇപ്പോൾ ഇൻസ്റ്റാൾ ചെയ്യുക"
+    "install_now": "ഇപ്പോൾ ഇൻസ്റ്റാൾ ചെയ്യുക",
+    "external_add_to_chrome_for_free": "സൗജന്യമായി ക്രോംക്ക് മാക്സ്‌എയി ചേർക്കുക",
+    "external_add_to_chrome_for_free__mini": "ക്രോംക്കിലേക്ക് മാക്സ്‌എയി ചേർക്കുക",
+    "external_add_to_edge_for_free": "സൗജന്യമായി ഈഡ്ജിലേക്ക് മാക്സ്‌എയി ചേർക്കുക",
+    "external_add_to_edge_for_free__mini": "ഈഡ്ജിലേക്ക് മാക്സ്‌എയി ചേർക്കുക"
   },
   "pages": {
     "home_page__loved_by_users": "പ്രൊഫഷണലുകളുടെ ഇഷ്ടപ്പെട്ടത് {{num}}",

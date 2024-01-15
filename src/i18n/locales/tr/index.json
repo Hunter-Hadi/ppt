@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}}'a Yükselt",
     "start_for": "{{plan}} ile Başla",
     "cancel_anytime": "Her zaman iptal edebilirsin.",
-    "install_now": "Şimdi Yükle"
+    "install_now": "Şimdi Yükle",
+    "external_add_to_chrome_for_free": "MaxAI'yı ücretsiz olarak Chrome'a ekle",
+    "external_add_to_chrome_for_free__mini": "MaxAI'yı Chrome'a ekle",
+    "external_add_to_edge_for_free": "MaxAI'yı ücretsiz olarak Edge'e ekle",
+    "external_add_to_edge_for_free__mini": "MaxAI'yı Edge'e ekle"
   },
   "pages": {
     "home_page__loved_by_users": "Profesyoneller tarafından sevilen {{num}}",

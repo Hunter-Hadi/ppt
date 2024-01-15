@@ -111,7 +111,11 @@
     "upgrade_to": "升级至{{plan}}",
     "start_for": "开始使用{{plan}}",
     "cancel_anytime": "随时取消。",
-    "install_now": "立即安装"
+    "install_now": "立即安装",
+    "external_add_to_chrome_for_free": "免费将MaxAI添加到Chrome",
+    "external_add_to_chrome_for_free__mini": "将MaxAI添加到Chrome",
+    "external_add_to_edge_for_free": "免费将MaxAI添加到Edge",
+    "external_add_to_edge_for_free__mini": "将MaxAI添加到Edge"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click提示",

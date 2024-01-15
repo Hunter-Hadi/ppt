@@ -45,7 +45,11 @@
     "upgrade_to": "Nadgradi na {{plan}}",
     "start_for": "Začni za {{plan}}",
     "cancel_anytime": "Kadarkoli prekliči.",
-    "install_now": "Namesti zdaj"
+    "install_now": "Namesti zdaj",
+    "external_add_to_chrome_for_free": "Dodaj MaxAI v Chrome brezplačno",
+    "external_add_to_chrome_for_free__mini": "Dodaj MaxAI v Chrome",
+    "external_add_to_edge_for_free": "Dodaj MaxAI v Edge brezplačno",
+    "external_add_to_edge_for_free__mini": "Dodaj MaxAI v Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Priljubljeno med {{num}} strokovnjaki",

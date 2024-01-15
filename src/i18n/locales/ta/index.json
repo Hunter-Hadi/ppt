@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}} க்கு மேம்படுத்துக",
     "start_for": "{{plan}} க்கு தொடங்குக",
     "cancel_anytime": "எப்போதும் ரத்து செய்யலாம்.",
-    "install_now": "இப்போது நிறுவு"
+    "install_now": "இப்போது நிறுவு",
+    "external_add_to_chrome_for_free": "இலவசமாக மேக்ஸ் ஐயை Chrome-க்கு சேர்க்கவும்",
+    "external_add_to_chrome_for_free__mini": "மேக்ஸ் ஐயை Chrome-க்கு சேர்க்கவும்",
+    "external_add_to_edge_for_free": "இலவசமாக மேக்ஸ் ஐயை Edge-க்கு சேர்க்கவும்",
+    "external_add_to_edge_for_free__mini": "மேக்ஸ் ஐயை Edge-க்கு சேர்க்கவும்"
   },
   "pages": {
     "home_page__loved_by_users": "{{num}} பொழுதுகளாக விருப்பப்படுகின்றன",

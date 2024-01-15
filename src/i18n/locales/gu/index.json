@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}} માટે અપગ્રેડ કરો",
     "start_for": "{{plan}} માટે શરૂ કરો",
     "cancel_anytime": "કોઈપણ સમયે રદ કરો.",
-    "install_now": "હવે સ્થાપિત કરો"
+    "install_now": "હવે સ્થાપિત કરો",
+    "external_add_to_chrome_for_free": "મફત માટે ક્રોમમાં મેક્સએઆઈ ઉમેરો",
+    "external_add_to_chrome_for_free__mini": "ક્રોમમાં મેક્સએઆઈ ઉમેરો",
+    "external_add_to_edge_for_free": "મફત માટે એજ માં મેક્સએઆઈ ઉમેરો",
+    "external_add_to_edge_for_free__mini": "એજ માં મેક્સએઆઈ ઉમેરો"
   },
   "pages": {
     "home_page__loved_by_users": "પ્રોફેશનલ્સ દ્વારા આપતું {{num}} પ્રેમ",

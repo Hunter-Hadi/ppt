@@ -45,7 +45,11 @@
     "upgrade_to": "Vylepšiť na {{plan}}",
     "start_for": "Začať za {{plan}}",
     "cancel_anytime": "Kedykoľvek zrušiť.",
-    "install_now": "Inštalovať teraz"
+    "install_now": "Inštalovať teraz",
+    "external_add_to_chrome_for_free": "Pridať MaxAI do Chrome zadarmo",
+    "external_add_to_chrome_for_free__mini": "Pridať MaxAI do Chrome",
+    "external_add_to_edge_for_free": "Pridať MaxAI do Edge zadarmo",
+    "external_add_to_edge_for_free__mini": "Pridať MaxAI do Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Obľúbené {{num}} profesionálov",

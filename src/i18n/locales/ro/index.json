@@ -45,7 +45,11 @@
     "upgrade_to": "Upgrade la {{plan}}",
     "start_for": "Începe pentru {{plan}}",
     "cancel_anytime": "Anulează oricând.",
-    "install_now": "Instalează acum"
+    "install_now": "Instalează acum",
+    "external_add_to_chrome_for_free": "Adăugați MaxAI la Chrome gratuit",
+    "external_add_to_chrome_for_free__mini": "Adăugați MaxAI la Chrome",
+    "external_add_to_edge_for_free": "Adăugați MaxAI la Edge gratuit",
+    "external_add_to_edge_for_free__mini": "Adăugați MaxAI la Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Apreciat de {{num}} profesioniști",

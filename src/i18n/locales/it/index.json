@@ -45,7 +45,11 @@
     "upgrade_to": "Passa a {{plan}}",
     "start_for": "Inizia per {{plan}}",
     "cancel_anytime": "Annulla in qualsiasi momento.",
-    "install_now": "Installa ora"
+    "install_now": "Installa ora",
+    "external_add_to_chrome_for_free": "Aggiungi MaxAI a Chrome gratuitamente",
+    "external_add_to_chrome_for_free__mini": "Aggiungi MaxAI a Chrome",
+    "external_add_to_edge_for_free": "Aggiungi MaxAI a Edge gratuitamente",
+    "external_add_to_edge_for_free__mini": "Aggiungi MaxAI a Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Amato da {{num}} professionisti",

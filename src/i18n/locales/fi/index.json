@@ -45,7 +45,11 @@
     "upgrade_to": "Päivitä {{plan}}:iin",
     "start_for": "Aloita {{plan}}:lla",
     "cancel_anytime": "Peruuta milloin tahansa.",
-    "install_now": "Asenna nyt"
+    "install_now": "Asenna nyt",
+    "external_add_to_chrome_for_free": "Lisää MaxAI Chromeen ilmaiseksi",
+    "external_add_to_chrome_for_free__mini": "Lisää MaxAI Chromeen",
+    "external_add_to_edge_for_free": "Lisää MaxAI Edgeen ilmaiseksi",
+    "external_add_to_edge_for_free__mini": "Lisää MaxAI Edgeen"
   },
   "pages": {
     "home_page__loved_by_users": "Suosikki {{num}} ammattilaisen",

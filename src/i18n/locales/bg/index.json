@@ -45,7 +45,11 @@
     "upgrade_to": "Надгради на {{plan}}",
     "start_for": "Започни за {{plan}}",
     "cancel_anytime": "Откажи по всяко време.",
-    "install_now": "Инсталирай сега"
+    "install_now": "Инсталирай сега",
+    "external_add_to_chrome_for_free": "Добавете MaxAI към Chrome безплатно",
+    "external_add_to_chrome_for_free__mini": "Добавете MaxAI към Chrome",
+    "external_add_to_edge_for_free": "Добавете MaxAI към Edge безплатно",
+    "external_add_to_edge_for_free__mini": "Добавете MaxAI към Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Обичан от {{num}} професионалисти",

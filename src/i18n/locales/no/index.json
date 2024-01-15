@@ -45,7 +45,11 @@
     "upgrade_to": "Oppgrader til {{plan}}",
     "start_for": "Start for {{plan}}",
     "cancel_anytime": "Kanseller når som helst.",
-    "install_now": "Installer nå"
+    "install_now": "Installer nå",
+    "external_add_to_chrome_for_free": "Legg til MaxAI i Chrome gratis",
+    "external_add_to_chrome_for_free__mini": "Legg til MaxAI i Chrome",
+    "external_add_to_edge_for_free": "Legg til MaxAI i Edge gratis",
+    "external_add_to_edge_for_free__mini": "Legg til MaxAI i Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Elsket av {{num}} fagpersoner",

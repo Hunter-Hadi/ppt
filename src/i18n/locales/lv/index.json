@@ -45,7 +45,11 @@
     "upgrade_to": "Jaunināt uz {{plan}}",
     "start_for": "Sākt ar {{plan}}",
     "cancel_anytime": "Atcelt jebkurā laikā.",
-    "install_now": "Instalēt tagad"
+    "install_now": "Instalēt tagad",
+    "external_add_to_chrome_for_free": "Pievienot MaxAI bez maksas Chrome",
+    "external_add_to_chrome_for_free__mini": "Pievienot MaxAI Chrome",
+    "external_add_to_edge_for_free": "Pievienot MaxAI bez maksas Edge",
+    "external_add_to_edge_for_free__mini": "Pievienot MaxAI Edge"
   },
   "pages": {
     "home_page__loved_by_users": "Mīlēts no {{num}} profesionāļiem",

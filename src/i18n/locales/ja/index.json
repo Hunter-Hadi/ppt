@@ -45,7 +45,11 @@
     "upgrade_to": "{{plan}}にアップグレード",
     "start_for": "{{plan}}で開始",
     "cancel_anytime": "いつでもキャンセル",
-    "install_now": "今すぐインストール"
+    "install_now": "今すぐインストール",
+    "external_add_to_chrome_for_free": "無料でMaxAIをChromeに追加",
+    "external_add_to_chrome_for_free__mini": "MaxAIをChromeに追加",
+    "external_add_to_edge_for_free": "無料でMaxAIをEdgeに追加",
+    "external_add_to_edge_for_free__mini": "MaxAIをEdgeに追加"
   },
   "pages": {
     "home_page__loved_by_users": "プロフェッショナル{{num}}人に愛されています",
