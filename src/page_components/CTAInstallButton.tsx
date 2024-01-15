@@ -99,7 +99,10 @@ const CTAInstallButton: FC<IProps> = ({
     return {
       // width: { xs: '100%', sm: 300 },
       height: 64,
-      fontSize: 16,
+      fontSize: {
+        xs: 16,
+        lg: isEmbedMode ? 14 : 16,
+      },
       fontWeight: 600,
       px: {
         xs: 1.5,
