@@ -42,7 +42,8 @@ const CTAInstallButton: FC<IProps> = ({
   const route = useRouter();
   const isEmbedMode = route.pathname === '/embed/introduction';
   const theme = useTheme();
-  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  const isDownLg = useMediaQuery(theme.breakpoints.down('lg')); // 屏幕宽度小于 1280 时为 true
 
   const { t } = useTranslation('button');
 
@@ -62,7 +63,7 @@ const CTAInstallButton: FC<IProps> = ({
       return text;
     }
     if (isEmbedMode) {
-      if (adaptiveLabel && isDownSm) {
+      if (isDownLg) {
         return agent === 'Edge'
           ? t('external_add_to_edge_for_free__mini')
           : t('external_add_to_chrome_for_free__mini');
@@ -71,7 +72,7 @@ const CTAInstallButton: FC<IProps> = ({
         ? t('external_add_to_edge_for_free')
         : t('external_add_to_chrome_for_free');
     } else {
-      if (adaptiveLabel && isDownSm) {
+      if (adaptiveLabel && isDownLg) {
         return agent === 'Edge'
           ? t('add_to_edge_for_free__mini')
           : t('add_to_chrome_for_free__mini');
@@ -80,7 +81,7 @@ const CTAInstallButton: FC<IProps> = ({
         ? t('add_to_edge_for_free')
         : t('add_to_chrome_for_free');
     }
-  }, [agent, t, adaptiveLabel, isDownSm, text, isEmbedMode]);
+  }, [agent, t, adaptiveLabel, isDownLg, text, isEmbedMode]);
 
   const href = useMemo(() => {
     if (agent === 'Edge') {
@@ -100,13 +101,13 @@ const CTAInstallButton: FC<IProps> = ({
       // width: { xs: '100%', sm: 300 },
       height: 64,
       fontSize: {
-        xs: 16,
+        xs: 14,
         lg: isEmbedMode ? 14 : 16,
       },
       fontWeight: 600,
       px: {
         xs: 1.5,
-        sm: 3,
+        lg: 3,
       },
       py: 1.5,
       borderRadius: 2,
