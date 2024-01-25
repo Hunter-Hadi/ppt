@@ -68,14 +68,22 @@ const ReleaseNotes = () => {
                           >
                             {item.lists.map((item) => {
                               return (
-                                <Box key={item.module} component='li'>
+                                <Box
+                                  key={item.module + item.desc}
+                                  component='li'
+                                >
                                   <Typography
                                     variant='custom'
                                     fontSize={16}
                                     fontWeight={400}
                                     lineHeight={1.5}
                                   >
-                                    <b>{item.module}</b>: {item.desc}
+                                    {item.module ? (
+                                      <>
+                                        <b>{item.module}</b>:{' '}
+                                      </>
+                                    ) : null}
+                                    {item.desc}
                                   </Typography>
                                 </Box>
                               );
