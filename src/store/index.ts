@@ -1,16 +1,5 @@
 import { atom } from 'recoil';
 
-export const ChromeExtensionDetectorState = atom<{
-  checkIsInstalled: () => boolean;
-}>({
-  key: 'ChromeExtensionDetectorState',
-  default: {
-    checkIsInstalled: () => {
-      return false;
-    },
-  },
-});
-
 export const AppState = atom<{
   globalLoading: boolean;
 }>({

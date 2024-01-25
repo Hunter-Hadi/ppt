@@ -28,6 +28,7 @@ import CopyTypography from '@/components/CopyTypography';
 import ProLink from '@/components/ProLink';
 import { webPageRunMaxAIShortcuts } from '@/features/common/utils/postMessageToCRX';
 import useExtensionUpdateRemindDialogState from '@/features/extension/hooks/useExtensionUpdateRemindDialog';
+import { ChromeExtensionDetectorState } from '@/features/extension/store';
 import { PromptCardTag, useSharePromptLinks } from '@/features/prompt';
 import LiveCrawlingFlag from '@/features/prompt/components/LiveCrawlingFlag';
 import { RENDERED_TEMPLATE_PROMPT_DOM_ID } from '@/features/prompt/constant';
@@ -45,7 +46,6 @@ import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibra
 import { promptLibraryCardDetailDataToActions } from '@/features/shortcuts/utils/promptInterpreter';
 import { RESOURCES_URL } from '@/global_constants';
 import Custom404 from '@/pages/404';
-import { ChromeExtensionDetectorState } from '@/store';
 import { PROMPT_API } from '@/utils/api';
 import { generateRandomColorWithTheme } from '@/utils/dataHelper/colorHelper';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';

@@ -6,9 +6,9 @@ import { useSetRecoilState } from 'recoil';
 import CopyTypography from '@/components/CopyTypography';
 import CustomModal from '@/components/CustomModal';
 import { MAXAI_EXTENSION_ROOT_ID } from '@/features/extension/constant';
+import { ChromeExtensionDetectorState } from '@/features/extension/store';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
-import { ChromeExtensionDetectorState } from '@/store';
 
 const ChromeExtensionDetector = () => {
   const router = useRouter();

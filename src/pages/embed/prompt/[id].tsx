@@ -9,11 +9,11 @@ import { useRecoilValue } from 'recoil';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import CopyTypography from '@/components/CopyTypography';
+import { ChromeExtensionDetectorState } from '@/features/extension/store';
 import { useRunThisPrompt } from '@/features/prompt';
 import { RENDERED_TEMPLATE_PROMPT_DOM_ID } from '@/features/prompt/constant';
 import { IPromptDetailData } from '@/features/prompt/types';
 import Custom404 from '@/pages/404';
-import { ChromeExtensionDetectorState } from '@/store';
 import { PROMPT_API } from '@/utils/api';
 import { IResponseData, webappPost } from '@/utils/request';
 import { renderTemplate } from '@/utils/utils';

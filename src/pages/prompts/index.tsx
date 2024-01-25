@@ -6,11 +6,11 @@ import { useRecoilValue } from 'recoil';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import useExtensionUpdateRemindDialogState from '@/features/extension/hooks/useExtensionUpdateRemindDialog';
+import { ChromeExtensionDetectorState } from '@/features/extension/store';
 import PromptLibrary from '@/features/prompt_library/components/PromptLibrary';
 import usePromptLibrary from '@/features/prompt_library/hooks/usePromptLibrary';
 import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';
 import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
-import { ChromeExtensionDetectorState } from '@/store';
 
 const PromptsPage = () => {
   const router = useRouter();

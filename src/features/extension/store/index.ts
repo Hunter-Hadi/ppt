@@ -19,3 +19,14 @@ export const ExtensionState = atom<{
     hasExtension: false,
   },
 });
+
+export const ChromeExtensionDetectorState = atom<{
+  checkIsInstalled: () => boolean;
+}>({
+  key: 'ChromeExtensionDetectorState',
+  default: {
+    checkIsInstalled: () => {
+      return false;
+    },
+  },
+});
