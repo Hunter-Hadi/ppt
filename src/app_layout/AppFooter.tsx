@@ -13,7 +13,14 @@ import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
 import AppLogo from '@/page_components/AppLogo';
 import ProducthuntHonor from '@/page_components/ProducthuntHonor';
 
-const footerBlackList = ['/terms', '/privacy', '/404', '/zmo', /\/partners\//];
+const footerBlackList = [
+  '/terms',
+  '/privacy',
+  '/404',
+  '/zmo',
+  /\/partners\//,
+  '/release-notes',
+];
 
 export const APP_FOOTER_ID = 'app-footer';
 
