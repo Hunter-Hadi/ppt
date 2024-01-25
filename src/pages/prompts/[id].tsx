@@ -82,13 +82,21 @@ const PromptDetailPage: FC<{
   } = useExtensionUpdateRemindDialogState();
   useEffect(() => {
     setMaxAIChromeExtensionInstallHandler(async () => {
-      if (!isExtensionVersionGreaterThanRequiredVersion('2.4.7')) {
-        // 2.4.7 版本以上的插件才支持这个功能
-        openUpdateRemindDialog();
+      // 1. 先判断是否安装了插件
+      // 2. 如果安装了插件，判断插件的版本是否大于 2.4.7
+      // 3. 如果大于 2.4.7 ，返回 true
+      // 4. 如果小于 2.4.7 ，弹出提示框，返回 false
+      const isInstallExtension = checkIsInstalled();
+      if (isInstallExtension) {
+        if (isExtensionVersionGreaterThanRequiredVersion('2.4.7')) {
+          return true;
+        } else {
+          openUpdateRemindDialog();
+          return false;
+        }
+      } else {
         return false;
       }
-
-      return checkIsInstalled();
     });
   }, [
     checkIsInstalled,
