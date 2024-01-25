@@ -1,14 +1,30 @@
 import { Box, Divider, Stack, Typography } from '@mui/material';
 import dayjs from 'dayjs';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import { MAXAI_RELEASE_NOTES } from '@/global_constants/releaseNotes';
 
-const PageComponent = () => {
+const ReleaseNotes = () => {
+  // 需要支持从 url 中获取 样式参数
+  const { query, isReady } = useRouter();
+
+  console.log(`query`, query);
+
+  if (!isReady) {
+    return null;
+  }
+
   return (
-    <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={'unset'}>
+    <AppContainer
+      sx={{
+        bgcolor: query.bgcolor ?? 'background.paper',
+        color: query.color ?? 'text.primary',
+      }}
+      maxWidth={'unset'}
+    >
       <AppDefaultSeoLayout title={'Release notes | MaxAI.me'} />
       <Stack
         pt={2.5}
@@ -71,7 +87,12 @@ const PageComponent = () => {
                   })
                 : null}
 
-              <Divider flexItem />
+              <Divider
+                flexItem
+                sx={{
+                  borderColor: query.divider ?? 'divider',
+                }}
+              />
             </Stack>
           );
         })}
@@ -80,4 +101,4 @@ const PageComponent = () => {
   );
 };
 
-export default PageComponent;
+export default ReleaseNotes;
