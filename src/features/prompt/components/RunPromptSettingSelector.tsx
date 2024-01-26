@@ -17,6 +17,7 @@ import { useRecoilState, useRecoilValue } from 'recoil';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import CustomModal from '@/components/CustomModal';
+import { ChromeExtensionDetectorState } from '@/features/extension/store';
 import {
   DEFAULT_TEMPLATE_RESERVED_VARIABLE,
   RENDERED_TEMPLATE_PROMPT_DOM_ID,
@@ -36,7 +37,6 @@ import {
   renderTemplate,
 } from '@/features/prompt/utils';
 import { APP_EXTERNAL_LINKS } from '@/global_constants';
-import { ChromeExtensionDetectorState } from '@/store';
 import { checkIsDomain } from '@/utils/dataHelper/stringHelper';
 
 import { LanguageSelect } from './LanguageSelect';
