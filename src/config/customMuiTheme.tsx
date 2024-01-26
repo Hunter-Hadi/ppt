@@ -4,6 +4,31 @@ import React, { forwardRef } from 'react';
 
 import globalFont from '@/config/font';
 
+type CustomColor = {
+  main: React.CSSProperties['color'];
+  hoverColor: React.CSSProperties['color'];
+  borderColor: React.CSSProperties['color'];
+  background: React.CSSProperties['color'];
+  paperBackground: React.CSSProperties['color'];
+  secondaryBackground: React.CSSProperties['color'];
+};
+
+export const customColor = {
+  main: '#9065B0',
+  hoverColor: '#73518D',
+  lightBorderColor: 'rgba(0,0,0,0.08)',
+  lightBackground: '#fff',
+  lightPaperBackground: '#fff',
+  lightSecondaryBackground: '#F4F4F4',
+
+  darkMain: '#9065B0',
+  darkBorderColor: 'rgba(255, 255, 255, 0.08)',
+  darkBackground: '#202124',
+  darkPaperBackground: '#2c2c2c',
+  darkSecondaryBackground: '#3B3D3E',
+  darkHoverColor: '#A684C0',
+};
+
 const getIsDarkMode = () => {
   // 20221121 强制 light mode
   return false;
@@ -14,19 +39,6 @@ const LinkBehaviour = forwardRef<HTMLAnchorElement, LinkProps>(
     return <NextLink ref={ref} {...props} />;
   },
 );
-type CustomColor = {
-  main: React.CSSProperties['color'];
-  lightBackground: React.CSSProperties['color'];
-  darkBackground: React.CSSProperties['color'];
-  darkPaperBackground: React.CSSProperties['color'];
-};
-
-export const customColor = {
-  main: '#7601D3',
-  lightBackground: '#f7f9fd',
-  darkBackground: '#14162a',
-  darkPaperBackground: '#292b42',
-};
 
 declare module '@mui/material/styles' {
   interface Palette {
@@ -185,7 +197,24 @@ const customMuiTheme = responsiveFontSizes(
       pageBackground: getIsDarkMode()
         ? customColor.darkBackground
         : customColor.lightBackground,
-      customColor: customColor,
+      customColor: {
+        main: customColor.main,
+        borderColor: getIsDarkMode()
+          ? customColor.darkBorderColor
+          : customColor.lightBorderColor,
+        background: getIsDarkMode()
+          ? customColor.darkBackground
+          : customColor.lightBackground,
+        paperBackground: getIsDarkMode()
+          ? customColor.darkPaperBackground
+          : customColor.lightPaperBackground,
+        secondaryBackground: getIsDarkMode()
+          ? customColor.darkSecondaryBackground
+          : customColor.lightSecondaryBackground,
+        hoverColor: getIsDarkMode()
+          ? customColor.darkHoverColor
+          : customColor.hoverColor,
+      },
       table: {
         title: getIsDarkMode() ? customColor.darkBackground : '#f5f5f5',
         column: getIsDarkMode() ? customColor.darkPaperBackground : '#ffffff',
