@@ -58,8 +58,7 @@ const CallToActionSection = () => {
             sx={{
               height: 'max-content',
               width: '100%',
-              background:
-                'linear-gradient(90deg, #AB57FF 0.03%, #7601D3 99.98%)',
+              background: 'primary.main',
               py: {
                 xs: 3,
                 lg: 6,

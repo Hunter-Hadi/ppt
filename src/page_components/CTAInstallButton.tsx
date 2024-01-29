@@ -123,6 +123,7 @@ const CTAInstallButton: FC<IProps> = ({
         <CustomIcon
           icon={iconName}
           sx={{
+            filter: 'drop-shadow(0px 0px 4px #403d3d8c)',
             fontSize: `${iconSize}px !important`,
           }}
         />
