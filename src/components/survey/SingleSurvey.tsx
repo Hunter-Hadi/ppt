@@ -163,7 +163,13 @@ const SingleSurvey: FC<{
     }
   };
   return (
-    <Stack direction='row' spacing={8}>
+    <Stack
+      direction='row'
+      spacing={{
+        xs: 0,
+        sm: 8,
+      }}
+    >
       {explain && (
         <Box
           flex={1}
@@ -180,7 +186,7 @@ const SingleSurvey: FC<{
           <SurveyExplain surveyName={currentClickValue} />
         </Box>
       )}
-      <Stack flex={1} width={'50%'} flexBasis={'50%'} flexShrink={0} pt={1}>
+      <Stack flex={1} width={'50%'} flexBasis={'50%'} pt={1}>
         <Typography
           fontWeight={700}
           fontSize={16}

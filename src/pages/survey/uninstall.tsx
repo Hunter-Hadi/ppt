@@ -1,6 +1,5 @@
 import { Typography } from '@mui/material';
 import dayjs from 'dayjs';
-import { useRouter } from 'next/router';
 import React, { FC, useEffect, useState } from 'react';
 import { UAParser } from 'ua-parser-js';
 
@@ -13,33 +12,33 @@ import { webappPost } from '@/utils/request';
 const { getBrowser } = new UAParser();
 
 const InstallPage: FC = () => {
-  const router = useRouter();
+  // const router = useRouter();
   const [domLoaded, setDomLoaded] = useState(false);
   useEffect(() => {
     setDomLoaded(true);
   }, []);
   const openUrlLinkRef = React.useRef('');
-  const useInitUrlLinkRef = React.useRef(false);
-  useEffect(() => {
-    // TODO 不管query.from是什么，都打开
-    if ((router.query.from && router.query.from === 'crx') || true) {
-      if (useInitUrlLinkRef.current) {
-        return;
-      }
-      useInitUrlLinkRef.current = true;
-      openUrlLinkRef.current =
-        'https://api.usechatgpt.ai/app/zmo?ref=webchatgpt';
-      const openWindow = window.open(openUrlLinkRef.current, '_blank');
-      // NOTE: 因为现在用户有负面反馈，所以先不管用户是否打开了新窗口，都把点击跳转的逻辑删掉
-      if (openWindow || true) {
-        openUrlLinkRef.current = '';
-      }
-      router.replace({
-        pathname: router.pathname,
-        query: {},
-      });
-    }
-  }, [router.query]);
+  // const useInitUrlLinkRef = React.useRef(false);
+  // useEffect(() => {
+  //   // TODO 不管query.from是什么，都打开
+  //   if ((router.query.from && router.query.from === 'crx') || true) {
+  //     if (useInitUrlLinkRef.current) {
+  //       return;
+  //     }
+  //     useInitUrlLinkRef.current = true;
+  //     openUrlLinkRef.current =
+  //       'https://api.usechatgpt.ai/app/zmo?ref=webchatgpt';
+  //     const openWindow = window.open(openUrlLinkRef.current, '_blank');
+  //     // NOTE: 因为现在用户有负面反馈，所以先不管用户是否打开了新窗口，都把点击跳转的逻辑删掉
+  //     if (openWindow || true) {
+  //       openUrlLinkRef.current = '';
+  //     }
+  //     router.replace({
+  //       pathname: router.pathname,
+  //       query: {},
+  //     });
+  //   }
+  // }, [router.query]);
   useEffect(() => {
     const keyboardOrMouseEventListener = () => {
       if (openUrlLinkRef.current) {
