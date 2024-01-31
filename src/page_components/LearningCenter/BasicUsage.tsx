@@ -16,7 +16,7 @@ const VIDEOS_LIST = [
   },
   {
     title: 'pages:learning_center__basic_usage__item3__title',
-    videoLink: 'https://www.youtube.com/embed/5TeKcFgfgmQ',
+    videoLink: 'https://www.youtube.com/embed/KyYvXzh8vPE',
   },
 ];
 
