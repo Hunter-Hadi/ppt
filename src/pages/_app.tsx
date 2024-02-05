@@ -1,3 +1,8 @@
+// Import Swiper React components
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import '@/styles/globals.css';
 // init i18n
 import '@/i18n';

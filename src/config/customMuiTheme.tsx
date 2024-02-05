@@ -147,6 +147,7 @@ const customMuiTheme = responsiveFontSizes(
         },
         styleOverrides: {
           root: {
+            borderRadius: 8,
             textTransform: 'none',
           },
         },
