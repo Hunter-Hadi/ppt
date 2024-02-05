@@ -99,7 +99,13 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
         />
       )}
       PopperComponent={({ children, ...props }) => (
-        <Popper {...props} sx={popperSx}>
+        <Popper
+          nonce={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}
+          {...props}
+          sx={popperSx}
+        >
           {children}
         </Popper>
       )}
