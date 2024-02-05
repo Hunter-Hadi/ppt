@@ -1,13 +1,12 @@
 import { useTranslation } from 'react-i18next';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-
-import Abilities from './components/Abilities';
-import Banner from './components/Banner';
-import CommentSwiper from './components/CommentSwiper';
-import Description from './components/Description';
-import InstallInChrome from './components/InstallInChrome';
-import TakeBackTime from './components/TakeBackTime';
+import Abilities from '@/page_components/UseCasesComponents/Abilities';
+import Banner from '@/page_components/UseCasesComponents/Banner';
+import CommentSwiper from '@/page_components/UseCasesComponents/CommentSwiper';
+import Description from '@/page_components/UseCasesComponents/Description';
+import InstallInChrome from '@/page_components/UseCasesComponents/InstallInChrome';
+import TakeBackTime from '@/page_components/UseCasesComponents/TakeBackTime';
 // import PricingPage from '@/features/pricing/PricingPage';
 
 const Executives = () => {
