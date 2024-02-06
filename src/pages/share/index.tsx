@@ -1,19 +1,24 @@
 import { AppBar, Box, Button, Divider, Stack, Toolbar } from '@mui/material';
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import ShareConversationCopyLInk from '@/features/share_conversation/components/ShareConversationCopyLInk';
 import SidebarChatBoxMessageListContainer from '@/features/share_conversation/components/SidebarChatBoxMessageListContainer';
 import AppLogo from '@/page_components/AppLogo';
 
-const ShareChatHistory = () => {
+interface IProps {
+  conversationId: string;
+}
+
+const ShareChatHistory: FC<IProps> = () => {
   const router = useRouter();
   const { t } = useTranslation();
 
   const { isReady, query } = router;
 
   const conversationId = query.id as string;
+  // const { conversationId } = props;
 
   if (!isReady) {
     return null;

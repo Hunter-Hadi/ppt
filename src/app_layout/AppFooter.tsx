@@ -18,7 +18,7 @@ const footerBlackList = [
   '/404',
   '/zmo',
   /\/partners\//,
-  /\/share\//,
+  /\/share/,
   '/release-notes',
 ];
 
