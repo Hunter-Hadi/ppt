@@ -73,7 +73,6 @@ import { SxProps } from '@mui/material/styles';
 import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
 import React, { FC, useMemo } from 'react';
 
-import { EzMailAIIcon } from '@/components/CustomIcon';
 export const CONTEXT_MENU_ICONS = [
   'AutoFix',
   'Done',
@@ -242,8 +241,6 @@ const ContextMenuIcon: FC<{
       return <SchoolOutlinedIcon sx={sxMemo} />;
     case 'SmartToy':
       return <SmartToyOutlinedIcon sx={sxMemo} />;
-    case 'EzMail':
-      return <EzMailAIIcon sx={sxMemo} />;
     case 'ThumbUp':
       return <ThumbUpOutlinedIcon sx={sxMemo} />;
     case 'ThumbDown':
@@ -270,6 +267,7 @@ const ContextMenuIcon: FC<{
       return <EmojiEventsOutlinedIcon sx={sxMemo} />;
     case 'RemoveRedEye':
       return <RemoveRedEyeOutlinedIcon sx={sxMemo} />;
+
     case 'Share':
       return <ShareOutlinedIcon sx={sxMemo} />;
     case 'Email':
