@@ -26,7 +26,7 @@ const HomePageContent = () => {
   }, [isReady, asPath]);
 
   return (
-    <Stack>
+    <Stack color='text.primary'>
       {/* heroSection */}
       <HeroSection />
       {/* ai power */}
