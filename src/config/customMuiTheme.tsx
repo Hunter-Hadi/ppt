@@ -87,7 +87,7 @@ const customMuiTheme = responsiveFontSizes(
       allVariants: {
         fontFamily: `${globalFont.style.fontFamily}, sans-serif, -apple-system,
             BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-            Fira Sans, Droid Sans, Helvetica Neue !important;`,
+            Fira Sans, Droid Sans, Helvetica Neue;`,
       },
       h1: {
         fontSize: 32,

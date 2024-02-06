@@ -1,0 +1,1 @@
+export const SHARE_CONVERSATION_MIN_WIDTH = 900;

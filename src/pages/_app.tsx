@@ -6,6 +6,7 @@ import 'swiper/css/scrollbar';
 import '@/styles/globals.css';
 // init i18n
 import '@/i18n';
+import '@/features/share_conversation/styles/markdown.css';
 
 import CloseIcon from '@mui/icons-material/Close';
 import { IconButton, ThemeProvider } from '@mui/material';
