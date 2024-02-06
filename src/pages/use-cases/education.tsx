@@ -11,7 +11,6 @@ import TakeBackTime from '@/page_components/UseCasesComponents/TakeBackTime';
 
 const Education = () => {
   const { t } = useTranslation('pages');
-
   return (
     <>
       <AppDefaultSeoLayout title={'Education | MaxAI.me'} />

@@ -27,6 +27,7 @@ const Banner: FC<IBannerProps> = ({
         maxWidth: 1312,
         margin: '0 auto',
         display: 'flex',
+        flexDirection: { xs: 'column-reverse', md: 'row' },
       }}
     >
       <Box
@@ -53,20 +54,6 @@ const Banner: FC<IBannerProps> = ({
         >
           {title}
         </Typography>
-
-        <Box
-          component='img'
-          mt='24px'
-          src={iconPath}
-          alt={''}
-          sx={{
-            width: '100%',
-            display: {
-              xs: 'block',
-              md: 'none',
-            },
-          }}
-        />
 
         <Typography
           fontSize={'18px'}
@@ -109,10 +96,6 @@ const Banner: FC<IBannerProps> = ({
       <Box
         sx={{
           flex: 1,
-          display: {
-            xs: 'none',
-            md: 'block',
-          },
         }}
       >
         <Box
@@ -122,6 +105,10 @@ const Banner: FC<IBannerProps> = ({
           sx={{
             width: '100%',
             height: '100%',
+            mb: {
+              xs: 2,
+              md: 0,
+            },
           }}
         />
       </Box>

@@ -31,7 +31,7 @@ const Abilities: FC<IAbilitiesProps> = ({ title, data }) => {
           variant='custom'
           textAlign='center'
           sx={{
-            mb: 4,
+            pb: 4,
             fontWeight: 700,
             fontSize: {
               xs: 32,
@@ -46,7 +46,7 @@ const Abilities: FC<IAbilitiesProps> = ({ title, data }) => {
       <Grid
         container
         spacing={{
-          xs: 4,
+          xs: 6,
         }}
         justifyContent='center'
       >
