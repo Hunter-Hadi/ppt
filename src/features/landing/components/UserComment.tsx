@@ -21,7 +21,7 @@ import { USER_COMMENTS } from '../constants/userComment';
 import Stars from './Stars';
 
 const UserComment = () => {
-  const { t } = useTranslation('pages')
+  const { t } = useTranslation('pages');
   const commentPart1 = USER_COMMENTS.slice(0, USER_COMMENTS.length / 2);
   const commentPart2 = USER_COMMENTS.slice(USER_COMMENTS.length / 2);
 
@@ -84,7 +84,7 @@ const UserComment = () => {
           slidesPerView={slidesPerView}
           spaceBetween={isDownSm ? 16 : 32}
           freeMode={true}
-          navigation={true}
+          navigation={false}
           loop={true}
           autoplay={{
             delay: 1,
