@@ -1,156 +1,492 @@
-import { Box, Typography } from '@mui/material';
-import React, { FC } from 'react';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import MoneyOffOutlinedIcon from '@mui/icons-material/MoneyOffOutlined';
+import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
+import { Box, Grid, Typography } from '@mui/material';
+import { FC, useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 
 const PrivacyPage: FC = () => {
-  // const { customTheme } = useCustomTheme();
+  const { t } = useTranslation('privacy');
+
+  const [activePolicyIndex, setActivePolicyIndex] = useState(0);
+  const privacyPolicyRef = useRef<HTMLHeadingElement>(null);
+  const informationWeDoNotCollectRef = useRef<HTMLHeadingElement>(null);
+  const informationWeCollectRef = useRef<HTMLHeadingElement>(null);
+  const howWeUseYourInformationRef = useRef<HTMLHeadingElement>(null);
+  const informationSecurityRef = useRef<HTMLHeadingElement>(null);
+  const marketingAndAdvertisingRef = useRef<HTMLHeadingElement>(null);
+  const changesToThePrivacyPolicyRef = useRef<HTMLHeadingElement>(null);
+  const contactUsRef = useRef<HTMLHeadingElement>(null);
+
+  /**
+   * 滚动时处理侧边栏的highlight状态
+   */
+  const scrollHandler = () => {
+    [
+      privacyPolicyRef,
+      informationWeDoNotCollectRef,
+      informationWeCollectRef,
+      howWeUseYourInformationRef,
+      informationSecurityRef,
+      marketingAndAdvertisingRef,
+      changesToThePrivacyPolicyRef,
+      contactUsRef,
+    ].forEach((item, index) => {
+      if (Math.abs(window.scrollY + 100 - item.current!.offsetTop) < 50) {
+        setActivePolicyIndex(index);
+      }
+    });
+  };
+
+  /**
+   * 点击侧边栏滚动到指定区域
+   */
+  const handlePrivacyItemClick = (index: number) => {
+    window.scrollTo({
+      top:
+        [
+          privacyPolicyRef,
+          informationWeDoNotCollectRef,
+          informationWeCollectRef,
+          howWeUseYourInformationRef,
+          informationSecurityRef,
+          marketingAndAdvertisingRef,
+          changesToThePrivacyPolicyRef,
+          contactUsRef,
+        ][index].current!.offsetTop - 100,
+      behavior: 'smooth', // 使用平滑滚动
+    });
+  };
+
+  useEffect(() => {
+    document.addEventListener('scroll', scrollHandler);
+    return () => {
+      document.removeEventListener('scroll', scrollHandler);
+    };
+  }, []);
 
   return (
-    <AppContainer sx={{ wordBreak: 'break-word', py: 4 }}>
+    <>
       <AppDefaultSeoLayout
         description={'Read the MaxAI.me privacy policy.'}
         title={'Privacy Policy | MaxAI.me'}
       />
-      <Box>
-        <Typography variant='h1' component={'h1'} gutterBottom sx={{ mb: 2 }}>
-          Privacy Policy
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          Last Updated: June 29, 2023
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          {`Welcome to the Privacy Policy for the MaxAI.me Chrome extension
-          (hereinafter referred to as "MaxAI", "MaxAI.me", "we", "us",
-          or "our"). We understand the importance of your privacy, and we are
-          committed to protecting your personal information. This Privacy Policy
-          outlines the types of information we collect, how we use it, and the
-          measures we take to protect your data.`}
-        </Typography>
-        <Typography variant='body2' gutterBottom>
-          {`By using the MaxAI Chrome extension, you acknowledge and agree to the terms and conditions of this Privacy Policy. If you do not agree with any part of this Privacy Policy, please do not use or install the MaxAI Chrome extension.`}
-        </Typography>
-      </Box>
-      <Box sx={{ mt: 4 }}>
-        <Typography variant='h2' component={'h2'} gutterBottom sx={{ mb: 2 }}>
-          Information We Do Not Collect
-        </Typography>
-        <Typography variant='h3' gutterBottom sx={{ mb: 2 }}>
-          Personal Information
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          We take your privacy seriously and only collect your email and name to
-          identify you when you log in, helping to sync your settings across
-          different browsers and devices. Other than that, we do not collect any
-          other personal information. The MaxAI Chrome extension operates
-          without requiring any additional personal data from you, and we do not
-          store such information.
-        </Typography>
-      </Box>
-      <Box sx={{ mt: 4 }}>
-        <Typography variant='h2' component={'h2'} gutterBottom sx={{ mb: 2 }}>
-          Information We Collect
-        </Typography>
-        <Typography variant='h3' gutterBottom sx={{ mb: 2 }}>
-          Chrome Extension Automatically Generated Reports
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          One of the types of information we collect from users is the Chrome
-          extension automatically generated report. This information is used for
-          the sole purpose of improving the functionality of the MaxAI Chrome
-          extension and understanding the usage patterns of our users. The
-          collected data may include technical information such as browser
-          version, extension version, and operating system.
-        </Typography>
-        <Typography variant='h3' gutterBottom sx={{ mb: 2 }}>
-          Google Analytics
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          {`The second type of information we collect is default information about
-          user interactions with the MaxAI Chrome extension through the use
-          of Google Analytics, a web analytics service provided by Google Inc.
-          ("Google"). Google Analytics uses cookies to help us analyze how users
-          use the extension. The information generated by the cookies about your
-          use of the extension (including your IP address) will be transmitted
-          to and stored by Google on servers in the United States.`}
-        </Typography>
-      </Box>
-      <Box sx={{ mt: 4 }}>
-        <Typography variant='h2' component={'h2'} gutterBottom sx={{ mb: 2 }}>
-          How we use your information
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          We use the information we collect, including Chrome extension
-          automatically generated reports, to:
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          1) {`Improve the MaxAI Chrome extension's functionality.`}
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          2) Analyze usage patterns to better understand user preferences.
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          3) Identify and troubleshoot issues with the Chrome extension.
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          4) Improve the overall user experience.
-        </Typography>
-      </Box>
-      <Box sx={{ mt: 4 }}>
-        <Typography variant='h2' component={'h2'} gutterBottom sx={{ mb: 2 }}>
-          Information Security
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          We take appropriate measures to protect the limited information we
-          collect from unauthorized access, disclosure, alteration, or
-          destruction. We follow industry-standard practices to ensure the
-          security of the data we manage.
-        </Typography>
-      </Box>
-      <Box sx={{ mt: 4 }}>
-        <Typography variant='h2' component={'h2'} gutterBottom sx={{ mb: 2 }}>
-          Marketing and advertising
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          Where required by law we will only send you marketing information,
-          including sending you updates and information about our new products
-          and services, upcoming events or other promotions or news, including
-          by email or push notification, as permitted by law. You may opt-out of
-          receiving such emails by following the instructions in each
-          promotional email we send you or by updating your user settings. In
-          addition, if at any time you wish not to receive future communications
-          or you wish to have your name deleted from our mailing lists, please
-          contact us at{' '}
-          <ProLink href={'mailto:hello@maxai.me'}>hello@maxai.me</ProLink>. We
-          will continue to contact you via email regarding the provision of our
-          Services and to respond to your requests.
-        </Typography>
-      </Box>
-      <Box sx={{ mt: 4 }}>
-        <Typography variant='h2' component={'h2'} gutterBottom sx={{ mb: 2 }}>
-          Changes to the Privacy Policy
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          {`We may update our Privacy Policy from time to time. Any changes to
-          this Privacy Policy will be posted on this page, and the "Last
-          Updated" date at the top will be revised accordingly. Your continued
-          use of the MaxAI Chrome extension after any changes to the
-          Privacy Policy constitutes your acceptance of the updated policy.`}
-        </Typography>
-      </Box>
-      <Box sx={{ mt: 4 }}>
-        <Typography variant='h2' component={'h2'} gutterBottom sx={{ mb: 2 }}>
-          Contact Us
-        </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mb: 2 }}>
-          If you have any questions or concerns about our Privacy Policy, please
-          feel free to contact us at{' '}
-          <ProLink href={'mailto:hello@maxai.me'}>hello@maxai.me</ProLink>
-        </Typography>
-      </Box>
-    </AppContainer>
+
+      <AppContainer
+        sx={{
+          bgcolor: 'primary.main',
+          py: {
+            xs: 6,
+            md: 8,
+          },
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            maxWidth: 864,
+            margin: '0 auto',
+            px: 2,
+          }}
+        >
+          <Typography
+            variant='custom'
+            component='h2'
+            sx={{
+              fontSize: {
+                xs: 32,
+                sm: 48,
+              },
+              color: '#fff',
+              pb: 3,
+              fontWeight: 700,
+            }}
+          >
+            {t('banner__title')}
+          </Typography>
+
+          <Typography
+            variant='body1'
+            color='#fff'
+            sx={{
+              textAlign: {
+                sx: 'left',
+                sm: 'center',
+              },
+            }}
+          >
+            {t('banner__content')}
+          </Typography>
+        </Box>
+      </AppContainer>
+
+      <AppContainer
+        sx={{
+          wordBreak: 'break-word',
+          py: 4,
+        }}
+      >
+        <Grid container spacing={4} sx={{ pt: 2, pb: 8 }}>
+          <Grid item xs={12} md={4}>
+            <Box
+              sx={{
+                width: 64,
+                height: 64,
+                backgroundColor: '#DFF1E3',
+                borderRadius: '8px',
+                margin: '0 auto',
+                mb: 2,
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+            >
+              <LockOutlinedIcon
+                sx={{ color: '#34A853', width: 32, height: 32 }}
+              />
+            </Box>
+
+            <Typography
+              variant='h5'
+              sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
+            >
+              {t('summary_1__title')}
+            </Typography>
+
+            <Typography
+              variant='body2'
+              sx={{ color: 'rgba(0,0,0,0.6)', textAlign: 'center' }}
+            >
+              {t('summary_1__content')}
+            </Typography>
+          </Grid>
+
+          <Grid item xs={12} md={4}>
+            <Box
+              sx={{
+                width: 64,
+                height: 64,
+                backgroundColor: '#F9E1DF',
+                borderRadius: '8px',
+                margin: '0 auto',
+                mb: 2,
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+            >
+              <VisibilityOffOutlinedIcon
+                sx={{ color: '#DB4437', width: 32, height: 32 }}
+              />
+            </Box>
+
+            <Typography
+              variant='h5'
+              sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
+            >
+              {t('summary_2__title')}
+            </Typography>
+
+            <Typography
+              variant='body2'
+              sx={{ color: 'rgba(0,0,0,0.6)', textAlign: 'center' }}
+            >
+              {t('summary_2__content')}{' '}
+            </Typography>
+          </Grid>
+
+          <Grid item xs={12} md={4}>
+            <Box
+              sx={{
+                width: 64,
+                height: 64,
+                backgroundColor: '#FDF6D9',
+                borderRadius: '8px',
+                margin: '0 auto',
+                mb: 2,
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+            >
+              <MoneyOffOutlinedIcon
+                sx={{ color: '#F2C511', width: 32, height: 32 }}
+              />
+            </Box>
+
+            <Typography
+              variant='h5'
+              sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
+            >
+              {t('summary_3__title')}
+            </Typography>
+
+            <Typography
+              variant='body2'
+              sx={{ color: 'rgba(0,0,0,0.6)', textAlign: 'center' }}
+            >
+              {t('summary_3__content')}
+            </Typography>
+          </Grid>
+        </Grid>
+
+        <Box sx={{ backgroundColor: '#9065B014', p: 4, borderRadius: '8px' }}>
+          <Typography
+            variant='body1'
+            sx={{ margin: '0 auto', textAlign: 'center', maxWidth: 864 }}
+          >
+            {t('section_1__part1')}
+            <Typography
+              variant='custom'
+              component='span'
+              sx={{
+                fontSize: {
+                  xs: 24,
+                  sm: 32,
+                },
+                fontWeight: 700,
+                color: 'primary.main',
+                fontStyle: 'italic',
+              }}
+            >
+              {t('section_1__strong')}
+            </Typography>
+            {t('section_1__part2')}
+          </Typography>
+        </Box>
+
+        <Box
+          sx={{
+            display: 'flex',
+            py: {
+              xs: 4,
+              sm: 8,
+            },
+            alignItems: 'flex-start',
+          }}
+        >
+          <Box
+            sx={{
+              pr: 8,
+              position: 'sticky',
+              top: '100px',
+              display: {
+                xs: 'none',
+                md: 'block',
+              },
+            }}
+          >
+            {[
+              t('privacy_policy__title'),
+              t('information_we_do_not_collect__title'),
+              t('information_we_collect__title'),
+              t('how_we_use_your_information__title'),
+              t('information_security__title'),
+              t('marketing_and_advertising__title'),
+              t('changes_to_the_privacy_policy__title'),
+              t('contact_us__title'),
+            ].map((item, index) => (
+              <Typography
+                key={item}
+                variant='body2'
+                onClick={() => handlePrivacyItemClick(index)}
+                sx={{
+                  width: 272,
+                  height: 48,
+                  lineHeight: '48px',
+                  bgcolor:
+                    activePolicyIndex === index ? '#F4F4F4' : 'transparent',
+                  px: 2,
+                }}
+              >
+                {item}
+              </Typography>
+            ))}
+          </Box>
+
+          <Box sx={{ flex: 1 }}>
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='custom'
+                component={'h1'}
+                sx={{ mb: 2, fontSize: 48 }}
+                ref={privacyPolicyRef}
+              >
+                {t('privacy_policy__title')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('privacy_policy__update_time')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('privacy_policy__description_1')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('privacy_policy__description_2')}
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                sx={{ pb: 2, fontWeight: 700 }}
+                ref={informationWeDoNotCollectRef}
+              >
+                {t('information_we_do_not_collect__title')}
+              </Typography>
+
+              <Typography
+                variant='custom'
+                component='h3'
+                sx={{ pb: 2, pt: 3, fontSize: 24 }}
+              >
+                {t('personal_information__title')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ pb: 2 }}>
+                {t('personal_information__content')}
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                ref={informationWeCollectRef}
+                sx={{ pb: 2, fontWeight: 700 }}
+              >
+                {t('information_we_collect__title')}
+              </Typography>
+
+              <Typography
+                variant='custom'
+                component='h3'
+                sx={{ pb: 2, pt: 3, fontSize: 24 }}
+              >
+                {t('chrome_extension_automatically_generated_reports__title')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ pb: 2 }}>
+                {t('chrome_extension_automatically_generated_reports__content')}
+              </Typography>
+
+              <Typography
+                variant='custom'
+                component='h3'
+                sx={{ pb: 2, pt: 3, fontSize: 24 }}
+              >
+                {t('google_analytics_title')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('google_analytics_content')}
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                ref={howWeUseYourInformationRef}
+                sx={{ pb: 2, fontWeight: 700 }}
+              >
+                {t('how_we_use_your_information__title')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('how_we_use_your_information__sub_title')}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                1) {t('how_we_use_your_information__list_1')}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                2) {t('how_we_use_your_information__list_2')}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                3) {t('how_we_use_your_information__list_3')}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                4) {t('how_we_use_your_information__list_4')}
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                ref={informationSecurityRef}
+                sx={{ pb: 2, fontWeight: 700 }}
+              >
+                {t('information_security__title')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('information_security__content')}
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                ref={marketingAndAdvertisingRef}
+                sx={{ pb: 2, fontWeight: 700 }}
+              >
+                {t('marketing_and_advertising__title')}
+              </Typography>
+
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('marketing_and_advertising__content_part_1')}
+                <ProLink
+                  href={'mailto:hello@maxai.me'}
+                  sx={{ textDecoration: 'underline' }}
+                >
+                  hello@maxai.me
+                </ProLink>
+                {t('marketing_and_advertising__content_part_2')}
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                ref={changesToThePrivacyPolicyRef}
+                sx={{ pb: 2, fontWeight: 700 }}
+              >
+                {t('changes_to_the_privacy_policy__title')}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {t('changes_to_the_privacy_policy__content')}
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                ref={contactUsRef}
+                sx={{ pb: 2, fontWeight: 700 }}
+              >
+                {t('contact_us__title')}
+              </Typography>
+              <Typography variant='body2' sx={{ pb: 2 }}>
+                {t('contact_us__content')}
+                <ProLink
+                  href={'mailto:hello@maxai.me'}
+                  sx={{ textDecoration: 'underline' }}
+                >
+                  hello@maxai.me
+                </ProLink>
+              </Typography>
+            </Box>
+          </Box>
+        </Box>
+      </AppContainer>
+    </>
   );
 };
 

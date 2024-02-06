@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import { debounce } from 'lodash-es';
 import { useRouter } from 'next/router';
-import React, { FC, useEffect } from 'react';
+import { FC, useEffect } from 'react';
 
 import useAppHeaderState from '@/hooks/useAppHeaderState';
 import AppLogo from '@/page_components/AppLogo';
