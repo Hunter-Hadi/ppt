@@ -1,4 +1,5 @@
 import { AppBar, Box, Button, Divider, Stack, Toolbar } from '@mui/material';
+import { GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -13,8 +14,7 @@ const ShareChatHistory = () => {
 
   const { isReady, query } = router;
 
-  const conversationId =
-    'b97f88fb49c34102d73474230cf4c1d4b019c1ddb15b9e7fa97484bb';
+  const conversationId = query.id as string;
 
   if (!isReady) {
     return null;
@@ -86,3 +86,9 @@ const ShareChatHistory = () => {
 };
 
 export default ShareChatHistory;
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  return {
+    props: {},
+  };
+};
