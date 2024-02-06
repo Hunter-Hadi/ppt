@@ -9,7 +9,7 @@ import '@/i18n';
 import '@/features/share_conversation/styles/markdown.css';
 
 import CloseIcon from '@mui/icons-material/Close';
-import { IconButton, ThemeProvider } from '@mui/material';
+import { Button, IconButton, ThemeProvider } from '@mui/material';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
@@ -105,6 +105,10 @@ function App({ Component, pageProps }: AppProps) {
           <SnackbarUtilsConfigurator />
           <ThemeProvider theme={customMuiTheme}>
             <QueryClientProvider client={queryClient}>
+              <Button href='/share/b97f88fb49c34102d73474230cf4c1d4b019c1ddb15b9e7fa97484bb'>
+                span
+              </Button>
+
               <AppInit />
               {!isEmbedPage && <AppHeader />}
               {/*// @ts-ignore*/}
