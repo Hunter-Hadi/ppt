@@ -489,7 +489,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = ['ml', 'el', 'am'];
+  const keys = ['he', 'he_IL', 'el', 'ml', 'mr'];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }

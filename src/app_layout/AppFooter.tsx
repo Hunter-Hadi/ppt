@@ -3,7 +3,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
 import isRegExp from 'lodash-es/isRegExp';
 import { useRouter } from 'next/router';
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import CustomIcon from '@/components/CustomIcon';
@@ -15,7 +15,6 @@ import ProducthuntHonor from '@/page_components/ProducthuntHonor';
 
 const footerBlackList = [
   '/terms',
-  '/privacy',
   '/404',
   '/zmo',
   /\/partners\//,

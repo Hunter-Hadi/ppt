@@ -3,10 +3,11 @@ import { Button, Menu, MenuItem } from '@mui/material';
 import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
-import { useRouter } from 'next/router';
 import * as React from 'react';
 import { FC, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+
+import { isInIframe } from '@/utils/utils';
 
 interface IProps {
   mini?: boolean;
@@ -16,7 +17,6 @@ const IndustriesItem: FC<IProps> = ({ mini }) => {
   const { t } = useTranslation('modules');
   const { t: tIndustry } = useTranslation('industry');
 
-  const router = useRouter();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const industries = [
     tIndustry('executives__title'),
@@ -36,6 +36,7 @@ const IndustriesItem: FC<IProps> = ({ mini }) => {
 
   const handleClose = () => {
     setAnchorEl(null);
+    // setExpanded(false);
   };
 
   const handleSelectIndustry = (index: number) => {
@@ -43,28 +44,31 @@ const IndustriesItem: FC<IProps> = ({ mini }) => {
 
     switch (index) {
       case 0:
-        router.push('/use-cases/executives');
+        window.open('/use-cases/executives', isInIframe() ? '_blank' : '_self');
         break;
       case 1:
-        router.push('/use-cases/marketing');
+        window.open('/use-cases/marketing', isInIframe() ? '_blank' : '_self');
         break;
       case 2:
-        router.push('/use-cases/education');
+        window.open('/use-cases/education', isInIframe() ? '_blank' : '_self');
         break;
       case 3:
-        router.push('/use-cases/consulting');
+        window.open('/use-cases/consulting', isInIframe() ? '_blank' : '_self');
         break;
       case 4:
-        router.push('/use-cases/hr');
+        window.open('/use-cases/hr', isInIframe() ? '_blank' : '_self');
         break;
       case 5:
-        router.push('/use-cases/finance');
+        window.open('/use-cases/finance', isInIframe() ? '_blank' : '_self');
         break;
       case 6:
-        router.push('/use-cases/real-estate');
+        window.open(
+          '/use-cases/real-estate',
+          isInIframe() ? '_blank' : '_self',
+        );
         break;
       case 7:
-        router.push('/use-cases/tech');
+        window.open('/use-cases/tech', isInIframe() ? '_blank' : '_self');
         break;
       default:
         break;
@@ -76,6 +80,8 @@ const IndustriesItem: FC<IProps> = ({ mini }) => {
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
+      console.log('newExpanded ===> ', newExpanded);
+
       setExpanded(newExpanded ? panel : false);
     };
 
