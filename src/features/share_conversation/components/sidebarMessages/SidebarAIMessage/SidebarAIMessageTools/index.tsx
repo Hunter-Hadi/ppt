@@ -45,7 +45,6 @@ const SidebarAIMessageTools: FC<{
             }
             setIsCoping(true);
             try {
-              debugger;
               const newImage = new Image();
               newImage.src = image.src;
               await new Promise((resolve) => {
