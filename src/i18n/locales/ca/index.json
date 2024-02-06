@@ -35,7 +35,13 @@
     "paste": "Enganxa",
     "loading": "Carregant...",
     "no_options": "Sense opcions",
-    "sign_in": "Inicia sessió"
+    "sign_in": "Inicia sessió",
+    "copy_with_formatting": "Copia amb format",
+    "copy_as_plain_text": "Copia com a text pla",
+    "download_image": "Descarrega la imatge",
+    "copy_image": "Copia la imatge",
+    "share": "Comparteix",
+    "link_copied": "Enllaç copiat"
   },
   "button": {
     "add_to_chrome_for_free": "Afegeix a Chrome de franc",
@@ -499,5 +505,8 @@
     "finance__title": "Serveis Financers",
     "real_estate__title": "Béns Immobles",
     "technical__title": "Tècnic i Enginyeria"
+  },
+  "share_conversion": {
+    "footer__start_with": "Comença amb MaxAI"
   }
 }

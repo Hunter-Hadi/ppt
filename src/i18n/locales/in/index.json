@@ -35,7 +35,13 @@
     "paste": "Tempel",
     "loading": "Memuat...",
     "no_options": "Tidak ada pilihan",
-    "sign_in": "Masuk"
+    "sign_in": "Masuk",
+    "copy_with_formatting": "Salin dengan pemformatan",
+    "copy_as_plain_text": "Salin sebagai teks biasa",
+    "download_image": "Unduh gambar",
+    "copy_image": "Salin gambar",
+    "share": "Bagikan",
+    "link_copied": "Tautan disalin"
   },
   "button": {
     "add_to_chrome_for_free": "Tambahkan ke Chrome secara gratis",
@@ -499,5 +505,8 @@
     "finance__title": "Layanan Keuangan",
     "real_estate__title": "Properti",
     "technical__title": "Teknis dan Rekayasa"
+  },
+  "share_conversion": {
+    "footer__start_with": "Mulai dengan MaxAI"
   }
 }

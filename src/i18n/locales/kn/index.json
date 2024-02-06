@@ -35,7 +35,13 @@
     "paste": "ಹಚ್ಚಿಕೊಳ್ಳಿ",
     "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
     "no_options": "ಯಾವುದೇ ಆಯ್ಕೆಗಳಿಲ್ಲ",
-    "sign_in": "ಸೈನ್ ಇನ್"
+    "sign_in": "ಸೈನ್ ಇನ್",
+    "copy_with_formatting": "ಬೆಲೆ ಹೊಂದಿರುವ ಪ್ರತಿಗಳೊಂದಿಗೆ ನಕಲಿಸಿ",
+    "copy_as_plain_text": "ಸರಳ ಪಠ್ಯವನ್ನು ನಕಲಿಸಿ",
+    "download_image": "ಚಿತ್ರವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "copy_image": "ಚಿತ್ರವನ್ನು ನಕಲಿಸಿ",
+    "share": "ಹಂಚಿಕೊಳ್ಳಿ",
+    "link_copied": "ಲಿಂಕ್ ನಕಲಿಸಲಾಗಿದೆ"
   },
   "button": {
     "add_to_chrome_for_free": "ಉಚಿತವಾಗಿ Chrome-ಗೆ ಸೇರಿಸಿ",
@@ -499,5 +505,8 @@
     "finance__title": "ಆರ್ಥಿಕ ಸೇವೆಗಳು",
     "real_estate__title": "ರಿಯಲ್ ಎಸ್ಟೇಟ್",
     "technical__title": "ತಾಂತ್ರಿಕ ಮತ್ತು ಇಂಜಿನಿಯರಿಂಗ್"
+  },
+  "share_conversion": {
+    "footer__start_with": "MaxAI ನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ"
   }
 }

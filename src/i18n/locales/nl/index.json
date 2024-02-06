@@ -35,7 +35,13 @@
     "paste": "Plakken",
     "loading": "Laden...",
     "no_options": "Geen opties",
-    "sign_in": "Inloggen"
+    "sign_in": "Inloggen",
+    "copy_with_formatting": "Kopiëren met opmaak",
+    "copy_as_plain_text": "Kopiëren als platte tekst",
+    "download_image": "Afbeelding downloaden",
+    "copy_image": "Afbeelding kopiëren",
+    "share": "Delen",
+    "link_copied": "Link gekopieerd"
   },
   "button": {
     "add_to_chrome_for_free": "Gratis toevoegen aan Chrome",
@@ -499,5 +505,8 @@
     "finance__title": "Financiële Diensten",
     "real_estate__title": "Vastgoed",
     "technical__title": "Technisch en Engineering"
+  },
+  "share_conversion": {
+    "footer__start_with": "Begin met MaxAI"
   }
 }

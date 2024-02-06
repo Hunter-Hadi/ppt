@@ -35,7 +35,13 @@
     "paste": "पेस्ट करें",
     "loading": "लोड हो रहा है...",
     "no_options": "कोई विकल्प नहीं",
-    "sign_in": "साइन इन करें"
+    "sign_in": "साइन इन करें",
+    "copy_with_formatting": "स्वरूपण के साथ प्रतिलिपि",
+    "copy_as_plain_text": "सादा पाठ के रूप में प्रतिलिपि",
+    "download_image": "छवि डाउनलोड करें",
+    "copy_image": "छवि की प्रतिलिपि बनाएं",
+    "share": "साझा करें",
+    "link_copied": "लिंक कॉपी किया गया"
   },
   "button": {
     "add_to_chrome_for_free": "मुफ्त में Chrome में जोड़ें",
@@ -499,5 +505,8 @@
     "finance__title": "वित्तीय सेवाएं",
     "real_estate__title": "रियल एस्टेट",
     "technical__title": "तकनीकी और इंजीनियरिंग"
+  },
+  "share_conversion": {
+    "footer__start_with": "MaxAI के साथ शुरू करें"
   }
 }

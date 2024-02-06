@@ -35,7 +35,13 @@
     "paste": "పేస్ట్",
     "loading": "లోడ్ అవుతోంది...",
     "no_options": "ఎంచుకోలేదు",
-    "sign_in": "సైన్ ఇన్"
+    "sign_in": "సైన్ ఇన్",
+    "copy_with_formatting": "ఫార్మాటింగ్ తో కాపీ",
+    "copy_as_plain_text": "సరళ వచనంతో కాపీ",
+    "download_image": "చిత్రం డౌన్లోడ్ చేయండి",
+    "copy_image": "చిత్రం కాపీ చేయండి",
+    "share": "షేర్ చేయండి",
+    "link_copied": "లింక్ కాపీ చేయబడింది"
   },
   "button": {
     "add_to_chrome_for_free": "ఉచితంగా క్రోమ్‌కు జోడించండి",
@@ -499,5 +505,8 @@
     "finance__title": "ఆర్థిక సేవలు",
     "real_estate__title": "రియల్ ఎస్టేట్",
     "technical__title": "టెక్నికల్ మరియు ఇంజనీరింగ్"
+  },
+  "share_conversion": {
+    "footer__start_with": "MaxAI తో ప్రారంభించండి"
   }
 }

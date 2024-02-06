@@ -276,6 +276,9 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `prompt_library.${key}`)) {
       return `prompt_library.${key}`;
     }
+    if (lodash.get(sourceJson, `share_conversion.${key}`)) {
+      return `share_conversion.${key}`;
+    }
     return key;
   });
   let needUpdateLanguages = i18nDirs;
@@ -489,7 +492,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = ['he', 'he_IL', 'el', 'ml', 'mr'];
+  const keys = [];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }

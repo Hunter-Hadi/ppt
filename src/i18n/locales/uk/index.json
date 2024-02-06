@@ -35,7 +35,13 @@
     "paste": "پیسٹ کریں",
     "loading": "لوڈ ہو رہا ہے...",
     "no_options": "کوئی اختیارات نہیں",
-    "sign_in": "سائن ان کریں"
+    "sign_in": "سائن ان کریں",
+    "copy_with_formatting": "فارمیٹنگ کے ساتھ کاپی کریں",
+    "copy_as_plain_text": "سادہ متن کے طور پر کاپی کریں",
+    "download_image": "تصویر ڈاؤن لوڈ کریں",
+    "copy_image": "تصویر کاپی کریں",
+    "share": "شیئر کریں",
+    "link_copied": "لنک کاپی ہوگئی"
   },
   "button": {
     "add_to_chrome_for_free": "مفت میں کروم میں شامل کریں",
@@ -499,5 +505,8 @@
     "finance__title": "مالی خدمات",
     "real_estate__title": "ریل اسٹیٹ",
     "technical__title": "ٹیکنیکل اور انجینئرنگ"
+  },
+  "share_conversion": {
+    "footer__start_with": "میکس اے آئی کے ساتھ شروع کریں"
   }
 }

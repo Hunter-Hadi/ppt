@@ -35,7 +35,13 @@
     "paste": "لصق",
     "loading": "جار التحميل...",
     "no_options": "لا توجد خيارات",
-    "sign_in": "تسجيل الدخول"
+    "sign_in": "تسجيل الدخول",
+    "copy_with_formatting": "نسخ مع التنسيق",
+    "copy_as_plain_text": "نسخ كنص عادي",
+    "download_image": "تحميل الصورة",
+    "copy_image": "نسخ الصورة",
+    "share": "مشاركة",
+    "link_copied": "تم نسخ الرابط"
   },
   "button": {
     "add_to_chrome_for_free": "أضف إلى Chrome مجانًا",
@@ -499,5 +505,8 @@
     "finance__title": "الخدمات المالية",
     "real_estate__title": "العقارات",
     "technical__title": "التقنية والهندسة"
+  },
+  "share_conversion": {
+    "footer__start_with": "ابدأ باستخدام MaxAI"
   }
 }

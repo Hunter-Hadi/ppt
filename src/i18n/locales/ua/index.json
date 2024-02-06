@@ -35,7 +35,13 @@
     "paste": "Вставити",
     "loading": "Завантаження...",
     "no_options": "Немає варіантів",
-    "sign_in": "Увійти"
+    "sign_in": "Увійти",
+    "copy_with_formatting": "Копіювати з форматуванням",
+    "copy_as_plain_text": "Копіювати як простий текст",
+    "download_image": "Завантажити зображення",
+    "copy_image": "Копіювати зображення",
+    "share": "Поділитися",
+    "link_copied": "Посилання скопійовано"
   },
   "button": {
     "add_to_chrome_for_free": "Додати безкоштовно до Chrome",
@@ -499,5 +505,8 @@
     "finance__title": "Фінансові послуги",
     "real_estate__title": "Нерухомість",
     "technical__title": "Технічні та інженерні"
+  },
+  "share_conversion": {
+    "footer__start_with": "Почніть з MaxAI"
   }
 }

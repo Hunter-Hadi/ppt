@@ -35,7 +35,13 @@
     "paste": "貼上",
     "loading": "載入中...",
     "no_options": "無選項",
-    "sign_in": "登入"
+    "sign_in": "登入",
+    "copy_with_formatting": "複製並保留格式",
+    "copy_as_plain_text": "複製為純文字",
+    "download_image": "下載圖片",
+    "copy_image": "複製圖片",
+    "share": "分享",
+    "link_copied": "連結已複製"
   },
   "button": {
     "add_to_chrome_for_free": "免費加入 Chrome",
@@ -499,5 +505,8 @@
     "finance__title": "金融服務",
     "real_estate__title": "房地產",
     "technical__title": "技術和工程"
+  },
+  "share_conversion": {
+    "footer__start_with": "開始使用MaxAI"
   }
 }

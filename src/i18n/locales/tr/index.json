@@ -35,7 +35,13 @@
     "paste": "Yapıştır",
     "loading": "Yükleniyor...",
     "no_options": "Seçenek yok",
-    "sign_in": "Giriş yap"
+    "sign_in": "Giriş yap",
+    "copy_with_formatting": "Biçimlendirmeyle Kopyala",
+    "copy_as_plain_text": "Düz Metin Olarak Kopyala",
+    "download_image": "Resmi İndir",
+    "copy_image": "Resmi Kopyala",
+    "share": "Paylaş",
+    "link_copied": "Bağlantı kopyalandı"
   },
   "button": {
     "add_to_chrome_for_free": "Ücretsiz olarak Chrome'a ekle",
@@ -499,5 +505,8 @@
     "finance__title": "Finansal Hizmetler",
     "real_estate__title": "Gayrimenkul",
     "technical__title": "Teknik ve Mühendislik"
+  },
+  "share_conversion": {
+    "footer__start_with": "MaxAI ile başlayın"
   }
 }

@@ -35,7 +35,13 @@
     "paste": "Ielīmēt",
     "loading": "Ielādē...",
     "no_options": "Nav variantu",
-    "sign_in": "Pierakstīties"
+    "sign_in": "Pierakstīties",
+    "copy_with_formatting": "Kopēt ar formatēšanu",
+    "copy_as_plain_text": "Kopēt kā vienkāršu tekstu",
+    "download_image": "Lejupielādēt attēlu",
+    "copy_image": "Kopēt attēlu",
+    "share": "Dalīties",
+    "link_copied": "Saite nokopēta"
   },
   "button": {
     "add_to_chrome_for_free": "Pievienot bez maksas Chrome",
@@ -499,5 +505,8 @@
     "finance__title": "Finanšu pakalpojumi",
     "real_estate__title": "Nekustamais īpašums",
     "technical__title": "Tehniskie un inženierzinātnes"
+  },
+  "share_conversion": {
+    "footer__start_with": "Sāciet ar MaxAI"
   }
 }

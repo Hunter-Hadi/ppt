@@ -35,7 +35,13 @@
     "paste": "Įklijuoti",
     "loading": "Įkeliama...",
     "no_options": "Nėra pasirinkimų",
-    "sign_in": "Prisijungti"
+    "sign_in": "Prisijungti",
+    "copy_with_formatting": "Kopijuoti su formatavimu",
+    "copy_as_plain_text": "Kopijuoti kaip paprastą tekstą",
+    "download_image": "Atsisiųsti paveikslėlį",
+    "copy_image": "Kopijuoti paveikslėlį",
+    "share": "Dalintis",
+    "link_copied": "Nuoroda nukopijuota"
   },
   "button": {
     "add_to_chrome_for_free": "Pridėti nemokamai į „Chrome“",
@@ -499,5 +505,8 @@
     "finance__title": "Finansų paslaugos",
     "real_estate__title": "Nekilnojamasis turtas",
     "technical__title": "Techninė ir inžinerinė"
+  },
+  "share_conversion": {
+    "footer__start_with": "Pradėkite naudotis MaxAI"
   }
 }

@@ -32,10 +32,16 @@
     "stop": "Stop",
     "copy": "Copy",
     "copy_to_clipboard": "Copy to clipboard",
+    "copy_with_formatting": "Copy with formatting",
+    "copy_as_plain_text": "Copy as plain text",
     "copied": "Copied",
     "paste": "Paste",
     "loading": "Loading...",
-    "no_options": "No options"
+    "no_options": "No options",
+    "download_image": "Download image",
+    "copy_image": "Copy image",
+    "share": "Share",
+    "link_copied": "Link copied"
   },
   "button": {
     "add_to_chrome_for_free": "Add to Chrome for free",
@@ -499,5 +505,8 @@
     "finance__title": "Financial Services",
     "real_estate__title": "Real Estate",
     "technical__title": "Technical and Engineering"
+  },
+  "share_conversion": {
+    "footer__start_with": "Get started with MaxAI"
   }
 }

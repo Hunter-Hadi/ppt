@@ -35,7 +35,13 @@
     "paste": "Klistra in",
     "loading": "Laddar...",
     "no_options": "Inga alternativ",
-    "sign_in": "Logga in"
+    "sign_in": "Logga in",
+    "copy_with_formatting": "Kopiera med formatering",
+    "copy_as_plain_text": "Kopiera som ren text",
+    "download_image": "Ladda ner bild",
+    "copy_image": "Kopiera bild",
+    "share": "Dela",
+    "link_copied": "Länk kopierad"
   },
   "button": {
     "add_to_chrome_for_free": "Lägg till i Chrome gratis",
@@ -500,5 +506,7 @@
     "real_estate__title": "Fastigheter",
     "technical__title": "Teknik och ingenjörsvetenskap"
   },
-  "": ""
+  "share_conversion": {
+    "footer__start_with": "Kom igång med MaxAI"
+  }
 }

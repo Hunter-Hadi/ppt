@@ -35,7 +35,13 @@
     "paste": "Beillesztés",
     "loading": "Betöltés...",
     "no_options": "Nincsenek lehetőségek",
-    "sign_in": "Bejelentkezés"
+    "sign_in": "Bejelentkezés",
+    "copy_with_formatting": "Másolás formázással",
+    "copy_as_plain_text": "Másolás sima szövegként",
+    "download_image": "Kép letöltése",
+    "copy_image": "Kép másolása",
+    "share": "Megosztás",
+    "link_copied": "Link másolva"
   },
   "button": {
     "add_to_chrome_for_free": "Hozzáadás a Chrome-hoz ingyen",
@@ -499,5 +505,8 @@
     "finance__title": "Pénzügyi szolgáltatások",
     "real_estate__title": "Ingatlan",
     "technical__title": "Műszaki és mérnöki"
+  },
+  "share_conversion": {
+    "footer__start_with": "Kezdj el MaxAI-val"
   }
 }

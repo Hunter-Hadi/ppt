@@ -35,7 +35,13 @@
     "paste": "Liitä",
     "loading": "Ladataan...",
     "no_options": "Ei vaihtoehtoja",
-    "sign_in": "Kirjaudu sisään"
+    "sign_in": "Kirjaudu sisään",
+    "copy_with_formatting": "Kopioi muotoilulla",
+    "copy_as_plain_text": "Kopioi pelkkänä tekstinä",
+    "download_image": "Lataa kuva",
+    "copy_image": "Kopioi kuva",
+    "share": "Jaa",
+    "link_copied": "Linkki kopioitu"
   },
   "button": {
     "add_to_chrome_for_free": "Lisää Chromeen ilmaiseksi",
@@ -499,5 +505,8 @@
     "finance__title": "Rahoituspalvelut",
     "real_estate__title": "Kiinteistöala",
     "technical__title": "Tekninen ja insinööritoiminta"
+  },
+  "share_conversion": {
+    "footer__start_with": "Aloita MaxAI:lla"
   }
 }

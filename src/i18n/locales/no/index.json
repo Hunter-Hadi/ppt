@@ -35,7 +35,13 @@
     "paste": "Lim inn",
     "loading": "Laster...",
     "no_options": "Ingen alternativer",
-    "sign_in": "Logg inn"
+    "sign_in": "Logg inn",
+    "copy_with_formatting": "Kopier med formatering",
+    "copy_as_plain_text": "Kopier som ren tekst",
+    "download_image": "Last ned bilde",
+    "copy_image": "Kopier bilde",
+    "share": "Del",
+    "link_copied": "Lenke kopiert"
   },
   "button": {
     "add_to_chrome_for_free": "Legg til i Chrome gratis",
@@ -500,5 +506,7 @@
     "real_estate__title": "Eiendom",
     "technical__title": "Teknisk og ingeniørfaglig"
   },
-  "": ""
+  "share_conversion": {
+    "footer__start_with": "Kom i gang med MaxAI"
+  }
 }

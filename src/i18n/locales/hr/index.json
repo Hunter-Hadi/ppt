@@ -35,7 +35,13 @@
     "paste": "Zalijepi",
     "loading": "Učitavanje...",
     "no_options": "Nema opcija",
-    "sign_in": "Prijavi se"
+    "sign_in": "Prijavi se",
+    "copy_with_formatting": "Kopiraj s formatiranjem",
+    "copy_as_plain_text": "Kopiraj kao običan tekst",
+    "download_image": "Preuzmi sliku",
+    "copy_image": "Kopiraj sliku",
+    "share": "Podijeli",
+    "link_copied": "Link kopiran"
   },
   "button": {
     "add_to_chrome_for_free": "Dodajte besplatno u Chrome",
@@ -499,5 +505,8 @@
     "finance__title": "Financijske usluge",
     "real_estate__title": "Nekretnine",
     "technical__title": "Tehnički i inženjerski"
+  },
+  "share_conversion": {
+    "footer__start_with": "Započnite s MaxAI"
   }
 }

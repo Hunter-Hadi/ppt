@@ -35,7 +35,13 @@
     "paste": "Lipire",
     "loading": "Se încarcă...",
     "no_options": "Nicio opțiune",
-    "sign_in": "Conectare"
+    "sign_in": "Conectare",
+    "copy_with_formatting": "Copiază cu formatare",
+    "copy_as_plain_text": "Copiază ca text simplu",
+    "download_image": "Descarcă imaginea",
+    "copy_image": "Copiază imaginea",
+    "share": "Partajează",
+    "link_copied": "Link copiat"
   },
   "button": {
     "add_to_chrome_for_free": "Adăugați în Chrome gratuit",
@@ -499,5 +505,8 @@
     "finance__title": "Servicii Financiare",
     "real_estate__title": "Imobiliare",
     "technical__title": "Tehnic și Inginerie"
+  },
+  "share_conversion": {
+    "footer__start_with": "Începeți cu MaxAI"
   }
 }

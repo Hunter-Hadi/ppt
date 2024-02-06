@@ -35,7 +35,13 @@
     "paste": "ஒட்டு",
     "loading": "ஏற்றுகின்றது...",
     "no_options": "விருப்பங்கள் இல்லை",
-    "sign_in": "உள்நுழைக"
+    "sign_in": "உள்நுழைக",
+    "copy_with_formatting": "வடிவமைப்புடன் நகலெடு",
+    "copy_as_plain_text": "சாதாரண உரையாக நகலெடு",
+    "download_image": "படத்தைப் பதிவிறக்கு",
+    "copy_image": "படத்தை நகலெடு",
+    "share": "பகிர்",
+    "link_copied": "இணைப்பு நகலெடு"
   },
   "button": {
     "add_to_chrome_for_free": "இலவசமாக குரோமில் சேர்க்கவும்",
@@ -499,5 +505,8 @@
     "finance__title": "நிதி சேவைகள்",
     "real_estate__title": "உண்மையில் மனைகள்",
     "technical__title": "தொழில்நுட்ப மற்றும் பொறியியல்"
+  },
+  "share_conversion": {
+    "footer__start_with": "MaxAI-யுடன் தொடங்குங்கள்"
   }
 }

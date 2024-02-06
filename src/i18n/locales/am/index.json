@@ -35,7 +35,13 @@
     "paste": "ጣት",
     "loading": "በመጫን ላይ...",
     "no_options": "ምንም አማራጭ የለም",
-    "sign_in": "ይግቡ"
+    "sign_in": "ይግቡ",
+    "copy_with_formatting": "በፎርማቲንግ የተጻፈ መጽሐፍ",
+    "copy_as_plain_text": "በቀላሉ የተጻፈ መጽሐፍ",
+    "download_image": "ምስል ወደላኩ",
+    "copy_image": "ምስልን ይጫኑ",
+    "share": "አጋራ",
+    "link_copied": "አገናኝ የተጻፈ"
   },
   "button": {
     "add_to_chrome_for_free": "በነፃ በ Chrome ውስጥ ጨምር",
@@ -499,5 +505,8 @@
     "finance__title": "የንግድ አገልግሎቶች",
     "real_estate__title": "የእንግድ እና የእርስዎ አገልግሎቶች",
     "technical__title": "ቴክኒክሽንና ኢንጂነሪንግ"
+  },
+  "share_conversion": {
+    "footer__start_with": "እንዴት እንደጀመረ ይጀምሩ MaxAI"
   }
 }

@@ -35,7 +35,13 @@
     "paste": "Dán",
     "loading": "Đang tải...",
     "no_options": "Không có tùy chọn",
-    "sign_in": "Đăng nhập"
+    "sign_in": "Đăng nhập",
+    "copy_with_formatting": "Sao chép với định dạng",
+    "copy_as_plain_text": "Sao chép dưới dạng văn bản thuần",
+    "download_image": "Tải xuống hình ảnh",
+    "copy_image": "Sao chép hình ảnh",
+    "share": "Chia sẻ",
+    "link_copied": "Đã sao chép liên kết"
   },
   "button": {
     "add_to_chrome_for_free": "Thêm vào Chrome miễn phí",
@@ -499,5 +505,8 @@
     "finance__title": "Dịch vụ Tài chính",
     "real_estate__title": "Bất động sản",
     "technical__title": "Kỹ thuật và Kỹ sư"
+  },
+  "share_conversion": {
+    "footer__start_with": "Bắt đầu với MaxAI"
   }
 }

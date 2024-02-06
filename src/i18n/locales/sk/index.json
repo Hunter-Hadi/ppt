@@ -35,7 +35,13 @@
     "paste": "Vložiť",
     "loading": "Načítava sa...",
     "no_options": "Žiadne možnosti",
-    "sign_in": "Prihlásiť sa"
+    "sign_in": "Prihlásiť sa",
+    "copy_with_formatting": "Kopírovať s formátovaním",
+    "copy_as_plain_text": "Kopírovať ako čistý text",
+    "download_image": "Stiahnuť obrázok",
+    "copy_image": "Kopírovať obrázok",
+    "share": "Zdieľať",
+    "link_copied": "Odkaz skopírovaný"
   },
   "button": {
     "add_to_chrome_for_free": "Pridať do Chrome zadarmo",
@@ -499,5 +505,8 @@
     "finance__title": "Finančné služby",
     "real_estate__title": "Nehnuteľnosti",
     "technical__title": "Technické a inžinierske"
+  },
+  "share_conversion": {
+    "footer__start_with": "Začnite s MaxAI"
   }
 }

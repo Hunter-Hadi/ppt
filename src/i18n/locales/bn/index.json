@@ -35,7 +35,13 @@
     "paste": "পেস্ট করুন",
     "loading": "লোড হচ্ছে...",
     "no_options": "কোন বিকল্প নেই",
-    "sign_in": "সাইন ইন"
+    "sign_in": "সাইন ইন",
+    "copy_with_formatting": "ফরম্যাটিং সহ কপি করুন",
+    "copy_as_plain_text": "সাধারণ টেক্সট হিসাবে কপি করুন",
+    "download_image": "ছবি ডাউনলোড করুন",
+    "copy_image": "ছবি কপি করুন",
+    "share": "শেয়ার করুন",
+    "link_copied": "লিংক কপি করা হয়েছে"
   },
   "button": {
     "add_to_chrome_for_free": "ফ্রি তে Chrome-এ যোগ করুন",
@@ -499,5 +505,8 @@
     "finance__title": "আর্থিক সেবা",
     "real_estate__title": "রিয়েল এস্টেট",
     "technical__title": "প্রযুক্তিগত এবং প্রকৌশল"
+  },
+  "share_conversion": {
+    "footer__start_with": "ম্যাক্সএআই দিয়ে শুরু করুন"
   }
 }

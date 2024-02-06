@@ -35,7 +35,13 @@
     "paste": "چسباندن",
     "loading": "در حال بارگذاری...",
     "no_options": "گزینه‌ای وجود ندارد",
-    "sign_in": "ورود"
+    "sign_in": "ورود",
+    "copy_with_formatting": "کپی با قالب‌بندی",
+    "copy_as_plain_text": "کپی به عنوان متن ساده",
+    "download_image": "دانلود تصویر",
+    "copy_image": "کپی تصویر",
+    "share": "اشتراک‌گذاری",
+    "link_copied": "لینک کپی شد"
   },
   "button": {
     "add_to_chrome_for_free": "افزودن به Chrome رایگان",
@@ -499,5 +505,8 @@
     "finance__title": "خدمات مالی",
     "real_estate__title": "املاک و مستغلات",
     "technical__title": "فنی و مهندسی"
+  },
+  "share_conversion": {
+    "footer__start_with": "شروع کنید با MaxAI"
   }
 }

@@ -35,7 +35,13 @@
     "paste": "Tampal",
     "loading": "Memuatkan...",
     "no_options": "Tiada pilihan",
-    "sign_in": "Log masuk"
+    "sign_in": "Log masuk",
+    "copy_with_formatting": "Salin dengan pemformatan",
+    "copy_as_plain_text": "Salin sebagai teks biasa",
+    "download_image": "Muat turun imej",
+    "copy_image": "Salin imej",
+    "share": "Kongsi",
+    "link_copied": "Pautan disalin"
   },
   "button": {
     "add_to_chrome_for_free": "Tambah ke Chrome secara percuma",
@@ -499,5 +505,8 @@
     "finance__title": "Perkhidmatan Kewangan",
     "real_estate__title": "Hartanah",
     "technical__title": "Teknikal dan Kejuruteraan"
+  },
+  "share_conversion": {
+    "footer__start_with": "Mula dengan MaxAI"
   }
 }

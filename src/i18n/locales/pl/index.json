@@ -35,7 +35,13 @@
     "paste": "Wklej",
     "loading": "Ładowanie...",
     "no_options": "Brak opcji",
-    "sign_in": "Zaloguj się"
+    "sign_in": "Zaloguj się",
+    "copy_with_formatting": "Kopiuj z formatowaniem",
+    "copy_as_plain_text": "Kopiuj jako zwykły tekst",
+    "download_image": "Pobierz obraz",
+    "copy_image": "Kopiuj obraz",
+    "share": "Udostępnij",
+    "link_copied": "Skopiowano link"
   },
   "button": {
     "add_to_chrome_for_free": "Dodaj za darmo do Chrome",
@@ -499,5 +505,8 @@
     "finance__title": "Usługi finansowe",
     "real_estate__title": "Nieruchomości",
     "technical__title": "Techniczne i inżynieryjne"
+  },
+  "share_conversion": {
+    "footer__start_with": "Rozpocznij korzystanie z MaxAI"
   }
 }

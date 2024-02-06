@@ -35,7 +35,13 @@
     "paste": "Bandika",
     "loading": "Inapakia...",
     "no_options": "Hakuna chaguo",
-    "sign_in": "Ingia"
+    "sign_in": "Ingia",
+    "copy_with_formatting": "Nakili na muundo",
+    "copy_as_plain_text": "Nakili kama maandishi ya kawaida",
+    "download_image": "Pakua picha",
+    "copy_image": "Nakili picha",
+    "share": "Shiriki",
+    "link_copied": "Kiungo kimenukuliwa"
   },
   "button": {
     "add_to_chrome_for_free": "Ongeza kwa Chrome bure",
@@ -499,5 +505,8 @@
     "finance__title": "Huduma za Fedha",
     "real_estate__title": "Mali Isiyohamishika",
     "technical__title": "Kiufundi na Uhandisi"
+  },
+  "share_conversion": {
+    "footer__start_with": "Anza na MaxAI"
   }
 }

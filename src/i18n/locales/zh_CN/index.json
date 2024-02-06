@@ -35,7 +35,13 @@
     "read_more": "阅读更多",
     "no_options": "没有选项",
     "auto": "自动",
-    "sign_in": "登录"
+    "sign_in": "登录",
+    "copy_with_formatting": "带格式复制",
+    "copy_as_plain_text": "纯文本复制",
+    "download_image": "下载图片",
+    "copy_image": "复制图片",
+    "share": "分享",
+    "link_copied": "链接已复制"
   },
   "pages": {
     "home_page__loved_by_users": "受{{num}}位专业人士喜爱",
@@ -499,5 +505,8 @@
     "finance__title": "金融服务",
     "real_estate__title": "房地产",
     "technical__title": "技术与工程"
+  },
+  "share_conversion": {
+    "footer__start_with": "开始使用MaxAI"
   }
 }

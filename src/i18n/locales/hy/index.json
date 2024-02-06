@@ -35,7 +35,13 @@
     "paste": "Կպեք",
     "loading": "Բեռնվում է...",
     "no_options": "Ոչ մի տարբերակ",
-    "sign_in": "Մուտք"
+    "sign_in": "Մուտք",
+    "copy_with_formatting": "Պատճենեք ձևաչափվածը",
+    "copy_as_plain_text": "Պատճենեք պարզ տեքստով",
+    "download_image": "Ներբեռնեք պատկերը",
+    "copy_image": "Պատճենեք պատկերը",
+    "share": "Կիսվեք",
+    "link_copied": "Հղումը պատճենված է"
   },
   "button": {
     "add_to_chrome_for_free": "Ավելացնել Chrome-ին անվճար",
@@ -499,5 +505,8 @@
     "finance__title": "Ֆինանսական Սպասարկում",
     "real_estate__title": "Անշարժ Գույք",
     "technical__title": "Տեխնիկական և Շինարարական"
+  },
+  "share_conversion": {
+    "footer__start_with": "Սկսեք MaxAI-ով"
   }
 }

@@ -35,7 +35,13 @@
     "paste": "วาง",
     "loading": "กำลังโหลด...",
     "no_options": "ไม่มีตัวเลือก",
-    "sign_in": "เข้าสู่ระบบ"
+    "sign_in": "เข้าสู่ระบบ",
+    "copy_with_formatting": "คัดลอกพร้อมการจัดรูปแบบ",
+    "copy_as_plain_text": "คัดลอกเป็นข้อความธรรมดา",
+    "download_image": "ดาวน์โหลดรูปภาพ",
+    "copy_image": "คัดลอกรูปภาพ",
+    "share": "แชร์",
+    "link_copied": "คัดลอกลิงก์"
   },
   "button": {
     "add_to_chrome_for_free": "เพิ่มใน Chrome ฟรี",
@@ -499,5 +505,8 @@
     "finance__title": "บริการทางการเงิน",
     "real_estate__title": "อสังหาริมทรัพย์",
     "technical__title": "เทคนิคและวิศวกรรม"
+  },
+  "share_conversion": {
+    "footer__start_with": "เริ่มต้นกับ MaxAI"
   }
 }

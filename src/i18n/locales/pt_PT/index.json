@@ -35,7 +35,13 @@
     "paste": "Colar",
     "loading": "A carregar...",
     "no_options": "Sem opções",
-    "sign_in": "Iniciar sessão"
+    "sign_in": "Iniciar sessão",
+    "copy_with_formatting": "Copiar com formatação",
+    "copy_as_plain_text": "Copiar como texto simples",
+    "download_image": "Transferir imagem",
+    "copy_image": "Copiar imagem",
+    "share": "Partilhar",
+    "link_copied": "Link copiado"
   },
   "button": {
     "add_to_chrome_for_free": "Adicionar ao Chrome gratuitamente",
@@ -500,5 +506,7 @@
     "real_estate__title": "Imobiliária",
     "technical__title": "Técnico e Engenharia"
   },
-  "": ""
+  "share_conversion": {
+    "footer__start_with": "Comece com MaxAI"
+  }
 }

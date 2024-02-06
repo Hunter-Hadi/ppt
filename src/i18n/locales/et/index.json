@@ -35,7 +35,13 @@
     "paste": "Kleebi",
     "loading": "Laadimine...",
     "no_options": "Valikuid pole",
-    "sign_in": "Logi sisse"
+    "sign_in": "Logi sisse",
+    "copy_with_formatting": "Kopeeri vormindusega",
+    "copy_as_plain_text": "Kopeeri tavalise tekstina",
+    "download_image": "Laadi pilt alla",
+    "copy_image": "Kopeeri pilt",
+    "share": "Jaga",
+    "link_copied": "Link kopeeritud"
   },
   "button": {
     "add_to_chrome_for_free": "Lisa tasuta Chrome'ile",
@@ -499,5 +505,8 @@
     "finance__title": "Finantsteenused",
     "real_estate__title": "Kinnisvara",
     "technical__title": "Tehniline ja inseneriteadus"
+  },
+  "share_conversion": {
+    "footer__start_with": "Alusta MaxAI-ga"
   }
 }
