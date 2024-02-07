@@ -10,7 +10,12 @@ import snackNotifications from '@/utils/globalSnackbar';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 import { api_signature_manager } from '@/utils/utils';
 
-const ErrorNetworkTips = (
+// 扩展AxiosRequestConfig以包含自定义配置
+export interface CustomAxiosRequestConfig extends AxiosRequestConfig {
+  hideNotifications?: boolean;
+}
+
+export const ErrorNetworkTips = (
   title: string,
   msg: string,
   key: SnackbarKey,
@@ -122,9 +127,9 @@ appAxios.interceptors.response.use(
       return Promise.reject(error);
     }
     if (errorObj?.status === 500 || errorObj?.status === 404) {
+      const hideNotifications = error.config.hideNotifications;
       try {
-        const requestData = JSON.parse(errorObj?.config?.data);
-        if (!requestData?.hideNotifications) {
+        if (!hideNotifications) {
           snackNotifications.error(msgBody, {
             variant: 'warning',
             persist: true,
@@ -278,7 +283,7 @@ export const qspost: ResponseDataType = (
 export const webappGet: ResponseDataType = (
   url: string,
   params?: Record<string, unknown>,
-  config?: AxiosRequestConfig,
+  config?: CustomAxiosRequestConfig,
 ) => {
   return new Promise((resolve, reject) => {
     appAxios
@@ -300,7 +305,7 @@ export const webappGet: ResponseDataType = (
 export const webappPost: ResponseDataType = (
   url: string,
   params?: Record<string, unknown>,
-  config?: AxiosRequestConfig,
+  config?: CustomAxiosRequestConfig,
 ) => {
   return new Promise((resolve, reject) => {
     appAxios
