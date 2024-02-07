@@ -132,10 +132,10 @@ const SidebarAIMessageImageContent: FC<{
       mt={1}
       minHeight={'16px'}
       width={'60%'}
-      minWidth={{
-        xs: '100%',
-        sm: SHARE_CONVERSATION_MIN_WIDTH - 16 - 16,
-      }}
+      // minWidth={{
+      //   xs: '100%',
+      //   sm: SHARE_CONVERSATION_MIN_WIDTH - 16 - 16,
+      // }}
       sx={{
         position: 'relative',
       }}

@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 import ShareConversationCopyLInk from '@/features/share_conversation/components/ShareConversationCopyLInk';
 import SidebarChatBoxMessageListContainer from '@/features/share_conversation/components/SidebarChatBoxMessageListContainer';
+import { SHARE_CONVERSATION_MIN_WIDTH } from '@/features/share_conversation/constants';
 import AppLogo from '@/page_components/AppLogo';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
@@ -67,7 +68,7 @@ const ShareChatHistory: FC<IProps> = () => {
       <SidebarChatBoxMessageListContainer
         conversationId={conversationId}
         sx={{
-          maxWidth: 900,
+          maxWidth: SHARE_CONVERSATION_MIN_WIDTH,
           width: '100%',
           py: 1,
           mx: 'auto',
