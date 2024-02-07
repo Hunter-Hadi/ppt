@@ -5,7 +5,7 @@ export const MAXAI_RELEASE_NOTES = [
 
     content: [
       {
-        title: 'Introducing the new MaxAI',
+        title: 'A better user interface',
         lists: [
           {
             module: 'Brand new design',
@@ -14,8 +14,12 @@ export const MAXAI_RELEASE_NOTES = [
         ],
       },
       {
-        title: 'Exciting new features',
+        title: 'More powerful new features',
         lists: [
+          {
+            module: 'Faster AI model switcher',
+            desc: 'The newly designed AI model switcher provides a much faster and smoother experience, allowing you to easily switch between various AI models for different purposes.',
+          },
           {
             module: 'Ask on any image',
             desc: 'Utilize the most advanced GPT-4 Vision model to explain, analyze, and creatively engage with any image you upload, or simply take an AI screenshot.',
@@ -27,10 +31,6 @@ export const MAXAI_RELEASE_NOTES = [
           {
             module: 'Shared Link',
             desc: 'Shared link allows you to create and share your chat/search/art conversations with others.',
-          },
-          {
-            module: 'The new AI model switcher',
-            desc: 'The newly designed AI model switcher provides a much faster and smoother experience, allowing you to easily switch between various AI models for different purposes.',
           },
         ],
       },
