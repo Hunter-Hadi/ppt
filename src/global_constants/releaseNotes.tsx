@@ -24,6 +24,14 @@ export const MAXAI_RELEASE_NOTES = [
             module: 'AI art',
             desc: '10x your creativity and productivity with the most advanced AI art models. Rapidly turn your visions into stunning images. Simple, powerful, transformative.',
           },
+          {
+            module: 'Shared Link',
+            desc: 'Shared link allows you to create and share your chat/search/art conversations with others.',
+          },
+          {
+            module: 'The new AI model switcher',
+            desc: 'The newly designed AI model switcher provides a much faster and smoother experience, allowing you to easily switch between various AI models for different purposes.',
+          },
         ],
       },
     ],
