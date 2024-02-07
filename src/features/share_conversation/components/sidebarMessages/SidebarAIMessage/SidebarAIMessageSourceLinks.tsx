@@ -117,7 +117,7 @@ const SidebarAIMessageCopilotStep: FC<{
                 setExpandAll(true);
               }}
             >
-              <Card variant='outlined'>
+              <Card variant='outlined' sx={{ height: '100%' }}>
                 <Link href={'#'} underline='none'>
                   <Stack p={1} spacing={1}>
                     <Stack direction={'row'} spacing={1}>
