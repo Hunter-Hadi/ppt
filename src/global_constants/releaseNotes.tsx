@@ -32,6 +32,10 @@ export const MAXAI_RELEASE_NOTES = [
             module: 'Shared Link',
             desc: 'Shared link allows you to create and share your chat/search/art conversations with others.',
           },
+          {
+            module: 'Chat history in sidebar',
+            desc: 'Easily view and select any previous chat/search/art conversations in the sidebar to conveniently switch between them.',
+          },
         ],
       },
     ],
