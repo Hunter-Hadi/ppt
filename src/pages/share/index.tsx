@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Divider, Stack, Toolbar } from '@mui/material';
+import { AppBar, Box, Divider, Stack, Toolbar } from '@mui/material';
 import { useRouter } from 'next/router';
 import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import ShareConversationCopyLInk from '@/features/share_conversation/components/ShareConversationCopyLInk';
 import SidebarChatBoxMessageListContainer from '@/features/share_conversation/components/SidebarChatBoxMessageListContainer';
 import AppLogo from '@/page_components/AppLogo';
+import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
   conversationId: string;
@@ -67,6 +68,7 @@ const ShareChatHistory: FC<IProps> = () => {
         conversationId={conversationId}
         sx={{
           maxWidth: 900,
+          width: '100%',
           py: 1,
           mx: 'auto',
         }}
@@ -81,9 +83,22 @@ const ShareChatHistory: FC<IProps> = () => {
         borderTop={`1px solid`}
         borderColor='divider'
       >
-        <Button variant='contained' href='/' target='_blank'>
-          {t('share_conversion:footer__start_with')}
-        </Button>
+        <CTAInstallButton
+          variant='contained'
+          iconSize={0}
+          text={t('share_conversion:footer__get_for_free')}
+          sx={{
+            px: 2,
+            py: 1,
+            minHeight: 'unset',
+            height: 'max-content',
+          }}
+          trackerLinkProps={{
+            pathnameRefEnable: false,
+            queryRefEnable: false,
+            defaultRef: 'share-link',
+          }}
+        />
       </Stack>
     </Stack>
   );
