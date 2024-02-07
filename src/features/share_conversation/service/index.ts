@@ -58,7 +58,7 @@ export default class ShareConversationService {
         content: ((key: string) =>
           ErrorNetworkTips(
             `Cannot view this thread`,
-            `Sorry, we couldn't find this thread, or it might be private. Please check the link or contact the administrator if you believe this is an error.`,
+            `This thread cannot be found, or it might be private. Please double-check the link or contact our support team if you believe this is an error.`,
             key,
           )) as any,
       });
