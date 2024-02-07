@@ -48,8 +48,6 @@ const SidebarChatBoxMessageListContainer: FC<IProps> = (props) => {
     },
   );
 
-  console.log(`slicedMessageList`, data);
-
   const loading = useMemo(
     () => isLoading || isFetching,
     [isLoading, isFetching],

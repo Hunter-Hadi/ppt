@@ -1,4 +1,9 @@
-import { webappPost } from '@/utils/request';
+import snackNotifications from '@/utils/globalSnackbar';
+import {
+  CustomAxiosRequestConfig,
+  ErrorNetworkTips,
+  webappPost,
+} from '@/utils/request';
 
 import { IChatMessage } from '../types';
 
@@ -30,12 +35,33 @@ export default class ShareConversationService {
   static async getConverSationMessageByShareId(
     parameters: IConverSationMessageByShareIdParameters,
   ): Promise<IGetConverSationMessageByShareIdResponse | null> {
-    const response = await webappPost<IGetConverSationMessageByShareIdResponse>(
-      SHARE_CONVERSATION_API.GET_CONVERSATION_MESSAGE,
-      parameters as any,
-    );
-    if (response.status === 'OK' && response.data?.length) {
-      return response;
+    try {
+      const response =
+        await webappPost<IGetConverSationMessageByShareIdResponse>(
+          SHARE_CONVERSATION_API.GET_CONVERSATION_MESSAGE,
+          parameters as any,
+          {
+            hideNotifications: true,
+          } as CustomAxiosRequestConfig,
+        );
+      if (response.status === 'OK' && response.data?.length) {
+        return response;
+      }
+    } catch (error) {
+      snackNotifications.error(``, {
+        variant: 'warning',
+        persist: true,
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'center',
+        },
+        content: ((key: string) =>
+          ErrorNetworkTips(
+            `Cannot view this thread`,
+            `Sorry, we couldn't find this thread, or it might be private. Please check the link or contact the administrator if you believe this is an error.`,
+            key,
+          )) as any,
+      });
     }
     return null;
   }
