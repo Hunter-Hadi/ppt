@@ -1,8 +1,7 @@
-import { createTheme, responsiveFontSizes } from '@mui/material';
-import NextLink, { LinkProps } from 'next/link';
-import React, { forwardRef } from 'react';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
+import React from 'react';
 
-import globalFont from '@/config/font';
+import { getIsDarkMode } from '@/config/customMuiTheme';
 
 type CustomColor = {
   main: React.CSSProperties['color'];
@@ -12,36 +11,27 @@ type CustomColor = {
   paperBackground: React.CSSProperties['color'];
   secondaryBackground: React.CSSProperties['color'];
 };
-
-export const customColor = {
+const customColor = {
   main: '#9065B0',
+  darkMain: '#9065B0',
+
   hoverColor: '#73518D',
+  darkHoverColor: '#A684C0',
+
   lightBorderColor: 'rgba(0,0,0,0.08)',
   lightBackground: '#fff',
   lightPaperBackground: '#fff',
   lightSecondaryBackground: '#F4F4F4',
 
-  darkMain: '#9065B0',
   darkBorderColor: 'rgba(255, 255, 255, 0.08)',
   darkBackground: '#202124',
   darkPaperBackground: '#2c2c2c',
   darkSecondaryBackground: '#3B3D3E',
-  darkHoverColor: '#A684C0',
 };
-
-export const getIsDarkMode = () => {
-  // 20221121 强制 light mode
-  return false;
-};
-
-const LinkBehaviour = forwardRef<HTMLAnchorElement, LinkProps>(
-  function LinkBehaviour(props, ref) {
-    return <NextLink ref={ref} {...props} />;
-  },
-);
 
 declare module '@mui/material/styles' {
   interface Palette {
+    neutral: Palette['primary'];
     table: {
       title: React.CSSProperties['color'];
       column: React.CSSProperties['color'];
@@ -50,6 +40,7 @@ declare module '@mui/material/styles' {
     pageBackground: React.CSSProperties['color'];
   }
   interface PaletteOptions {
+    neutral: PaletteOptions['primary'];
     table: {
       title: React.CSSProperties['color'];
       column: React.CSSProperties['color'];
@@ -58,19 +49,14 @@ declare module '@mui/material/styles' {
     pageBackground: React.CSSProperties['color'];
   }
   interface TypographyVariants {
-    bulleted: React.CSSProperties;
-    numbered: React.CSSProperties;
     custom: React.CSSProperties;
-    buttonText: React.CSSProperties;
   }
   // allow configuration using `createTheme`
   interface TypographyVariantsOptions {
-    bulleted?: React.CSSProperties;
-    numbered?: React.CSSProperties;
     custom?: React.CSSProperties;
-    buttonText?: React.CSSProperties;
   }
 }
+
 // Update the Typography's variant prop options
 declare module '@mui/material/Typography' {
   interface TypographyPropsVariantOverrides {
@@ -81,76 +67,71 @@ declare module '@mui/material/Typography' {
   }
 }
 
-const customMuiTheme = responsiveFontSizes(
+declare module '@mui/material/Button' {
+  interface ButtonPropsVariantOverrides {
+    secondary: true;
+    normalOutlined: true;
+  }
+}
+
+const isDarkMode = getIsDarkMode();
+
+const ConversationCustomTheme = responsiveFontSizes(
   createTheme({
-    typography: {
-      allVariants: {
-        fontFamily: `${globalFont.style.fontFamily}, sans-serif, -apple-system,
-            BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-            Fira Sans, Droid Sans, Helvetica Neue;`,
-      },
-      h1: {
-        fontSize: 32,
-        fontWeight: 900,
-        lineHeight: 1.25,
-        letterSpacing: -0.51,
-      },
-      h2: {
-        fontSize: 22,
-        fontWeight: 800,
-        lineHeight: 1.272,
-      },
-      h3: {
-        fontSize: 20,
-        fontWeight: 800,
-        lineHeight: 1.2,
-      },
-      body1: {
-        fontSize: 20,
-        fontWeight: 400,
-        lineHeight: 1.6,
-        letterSpacing: -0.06,
-        paragraphSpacing: 32,
-      },
-      body2: {
-        fontSize: 16,
-        fontWeight: 400,
-        lineHeight: 1.5,
-      },
-      caption: {
-        fontSize: 14,
-        fontWeight: 400,
-        lineHeight: 1.428,
-      },
-      bulleted: {
-        fontSize: 20,
-        fontWeight: 400,
-        lineHeight: 1.4,
-        letterSpacing: -0.06,
-      },
-      numbered: {
-        fontSize: 16,
-        fontWeight: 400,
-        lineHeight: 1.4,
-        letterSpacing: -0.06,
-      },
-      buttonText: {
-        fontSize: 16,
-        fontWeight: 700,
-        lineHeight: 1.5,
-      },
-    },
     components: {
+      MuiTooltip: {
+        defaultProps: {},
+      },
       MuiButton: {
         defaultProps: {
           disableElevation: true,
         },
         styleOverrides: {
           root: {
-            borderRadius: 8,
+            fontSize: '14px',
             textTransform: 'none',
           },
         },
+        variants: [
+          {
+            props: { variant: 'secondary' },
+            style: {
+              backgroundColor: isDarkMode
+                ? 'rgba(255, 255, 255, 0.12)'
+                : 'rgba(0, 0, 0, 0.08)',
+              color: isDarkMode
+                ? 'rgba(255, 255, 255, 0.3)'
+                : 'rgba(0, 0, 0, 0.38)',
+              '&:hover': {
+                backgroundColor: isDarkMode
+                  ? 'rgba(255, 255, 255, 0.2)'
+                  : 'rgba(0, 0, 0, 0.1)',
+                color: isDarkMode
+                  ? 'rgba(255, 255, 255, 0.3)'
+                  : 'rgba(0, 0, 0, 0.38)',
+              },
+            },
+          },
+          {
+            props: { variant: 'normalOutlined' },
+            style: {
+              backgroundColor: 'transparent',
+              border: '1px solid',
+              color: isDarkMode
+                ? 'rgba(255, 255, 255, 1)'
+                : 'rgba(0, 0, 0, 0.87)',
+              borderColor: isDarkMode
+                ? 'rgba(255, 255, 255, 0.23)'
+                : 'rgba(0, 0, 0, 0.23)',
+              '&:hover': {
+                backgroundColor: 'transparent',
+                borderColor: isDarkMode
+                  ? 'rgba(255, 255, 255, 1)'
+                  : 'rgba(0, 0, 0, 0.87)',
+              },
+            },
+          },
+        ],
       },
       MuiTab: {
         styleOverrides: {
@@ -180,39 +161,42 @@ const customMuiTheme = responsiveFontSizes(
           },
         },
       },
-      MuiButtonBase: {
+      MuiPopover: {
         defaultProps: {
-          LinkComponent: LinkBehaviour,
+          sx: {
+            fontSize: '14px',
+          },
         },
       },
     },
     palette: {
       primary: {
-        main: customColor.main,
+        main: isDarkMode ? customColor.darkMain : customColor.main,
       },
-      mode: getIsDarkMode() ? 'dark' : 'light',
+      mode: isDarkMode ? 'dark' : 'light',
       background: {
-        paper: getIsDarkMode() ? customColor.darkPaperBackground : '#ffffff',
-        default: getIsDarkMode() ? customColor.darkBackground : '#ffffff',
-      },
-      pageBackground: getIsDarkMode()
-        ? customColor.darkBackground
-        : customColor.lightBackground,
-      customColor: {
-        main: customColor.main,
-        borderColor: getIsDarkMode()
-          ? customColor.darkBorderColor
-          : customColor.lightBorderColor,
-        background: getIsDarkMode()
-          ? customColor.darkBackground
-          : customColor.lightBackground,
-        paperBackground: getIsDarkMode()
+        paper: isDarkMode
           ? customColor.darkPaperBackground
           : customColor.lightPaperBackground,
-        secondaryBackground: getIsDarkMode()
+        default: isDarkMode
+          ? customColor.darkBackground
+          : customColor.lightBackground,
+      },
+      customColor: {
+        main: customColor.main,
+        borderColor: isDarkMode
+          ? customColor.darkBorderColor
+          : customColor.lightBorderColor,
+        background: isDarkMode
+          ? customColor.darkBackground
+          : customColor.lightBackground,
+        paperBackground: isDarkMode
+          ? customColor.darkPaperBackground
+          : customColor.lightPaperBackground,
+        secondaryBackground: isDarkMode
           ? customColor.darkSecondaryBackground
           : customColor.lightSecondaryBackground,
-        hoverColor: getIsDarkMode()
+        hoverColor: isDarkMode
           ? customColor.darkHoverColor
           : customColor.hoverColor,
       },
@@ -221,9 +205,12 @@ const customMuiTheme = responsiveFontSizes(
         contrastText: 'rgba(0, 0, 0, 0.6)',
       },
       table: {
-        title: getIsDarkMode() ? customColor.darkBackground : '#f5f5f5',
-        column: getIsDarkMode() ? customColor.darkPaperBackground : '#ffffff',
+        title: isDarkMode ? customColor.darkBackground : '#f5f5f5',
+        column: isDarkMode ? customColor.darkPaperBackground : '#ffffff',
       },
+      pageBackground: isDarkMode
+        ? customColor.darkBackground
+        : customColor.lightBackground,
     },
     breakpoints: {
       values: {
@@ -237,4 +224,4 @@ const customMuiTheme = responsiveFontSizes(
   }),
 );
 
-export default customMuiTheme;
+export default ConversationCustomTheme;

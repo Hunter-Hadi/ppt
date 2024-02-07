@@ -1,4 +1,11 @@
-import { AppBar, Box, Divider, Stack, Toolbar } from '@mui/material';
+import {
+  AppBar,
+  Box,
+  Divider,
+  Stack,
+  ThemeProvider,
+  Toolbar,
+} from '@mui/material';
 import { useRouter } from 'next/router';
 import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -6,6 +13,7 @@ import { useTranslation } from 'react-i18next';
 import ShareConversationCopyLInk from '@/features/share_conversation/components/ShareConversationCopyLInk';
 import SidebarChatBoxMessageListContainer from '@/features/share_conversation/components/SidebarChatBoxMessageListContainer';
 import { SHARE_CONVERSATION_MIN_WIDTH } from '@/features/share_conversation/constants';
+import ConversationCustomTheme from '@/features/share_conversation/utils/ConversationCustomTheme';
 import AppLogo from '@/page_components/AppLogo';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
@@ -27,81 +35,83 @@ const ShareChatHistory: FC<IProps> = () => {
   }
 
   return (
-    <Stack flex={1} maxHeight='100vh'>
-      {/* share header */}
-      <AppBar
-        component={'header'}
-        position={'relative'}
-        sx={{
-          bgcolor: 'background.paper',
-          zIndex: (t) => t.zIndex.drawer + 10,
-          boxShadow: (t) => (t.palette.mode === 'dark' ? 1 : 'none'),
-        }}
-      >
-        <Toolbar
-          disableGutters
+    <ThemeProvider theme={ConversationCustomTheme}>
+      <Stack flex={1} maxHeight='100vh'>
+        {/* share header */}
+        <AppBar
+          component={'header'}
+          position={'relative'}
           sx={{
-            boxSizing: 'border-box',
-            color: 'text.primary',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            maxWidth: 1312,
-            mx: 'auto',
-            px: 2,
-            py: {
-              xs: 1,
-              sm: 2,
-            },
+            bgcolor: 'background.paper',
+            zIndex: (t) => t.zIndex.drawer + 10,
+            boxShadow: (t) => (t.palette.mode === 'dark' ? 1 : 'none'),
           }}
         >
-          <AppLogo />
+          <Toolbar
+            disableGutters
+            sx={{
+              boxSizing: 'border-box',
+              color: 'text.primary',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              maxWidth: 1312,
+              mx: 'auto',
+              px: 2,
+              py: {
+                xs: 1,
+                sm: 2,
+              },
+            }}
+          >
+            <AppLogo />
 
-          <Box flex={1} />
+            <Box flex={1} />
 
-          <ShareConversationCopyLInk />
-        </Toolbar>
-        <Divider />
-      </AppBar>
+            <ShareConversationCopyLInk />
+          </Toolbar>
+          <Divider />
+        </AppBar>
 
-      {/* share conversation */}
-      <SidebarChatBoxMessageListContainer
-        conversationId={conversationId}
-        sx={{
-          maxWidth: SHARE_CONVERSATION_MIN_WIDTH,
-          width: '100%',
-          py: 1,
-          mx: 'auto',
-        }}
-      />
-
-      {/* share footer */}
-      <Stack
-        alignItems={'center'}
-        justifyContent='center'
-        py={2}
-        bgcolor='background.paper'
-        borderTop={`1px solid`}
-        borderColor='divider'
-      >
-        <CTAInstallButton
-          variant='contained'
-          iconSize={0}
-          text={t('share_conversion:footer__get_for_free')}
+        {/* share conversation */}
+        <SidebarChatBoxMessageListContainer
+          conversationId={conversationId}
           sx={{
-            px: 2,
+            maxWidth: SHARE_CONVERSATION_MIN_WIDTH,
+            width: '100%',
             py: 1,
-            minHeight: 'unset',
-            height: 'max-content',
-          }}
-          trackerLinkProps={{
-            pathnameRefEnable: false,
-            queryRefEnable: false,
-            defaultRef: 'share-link',
+            mx: 'auto',
           }}
         />
+
+        {/* share footer */}
+        <Stack
+          alignItems={'center'}
+          justifyContent='center'
+          py={2}
+          bgcolor='background.paper'
+          borderTop={`1px solid`}
+          borderColor='divider'
+        >
+          <CTAInstallButton
+            variant='contained'
+            iconSize={0}
+            text={t('share_conversion:footer__get_for_free')}
+            sx={{
+              px: 2,
+              py: 1,
+              minHeight: 'unset',
+              height: 'max-content',
+            }}
+            trackerLinkProps={{
+              pathnameRefEnable: false,
+              queryRefEnable: false,
+              defaultRef: 'share-link',
+            }}
+          />
+        </Stack>
       </Stack>
-    </Stack>
+    </ThemeProvider>
   );
 };
 
