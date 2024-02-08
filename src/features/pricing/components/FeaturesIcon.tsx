@@ -474,6 +474,9 @@ const FeaturesIcon: FC<{ name: string } & IFeatureIconProps> = ({
       case 'GeminiIcon': {
         return <CustomIcon icon='Gemini' {...restProps} />;
       }
+      case 'DALLE': {
+        return <CustomIcon icon='DALLE' {...restProps} />;
+      }
       default: {
         return null;
       }

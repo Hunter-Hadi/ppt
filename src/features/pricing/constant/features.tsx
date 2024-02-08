@@ -124,7 +124,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
       },
       {
-        title: 'GPT-4-turbo',
+        title: 'GPT-4-turbo vision',
         icon: 'ChatGPTBlackIcon',
         planStatus: {
           free: {
@@ -232,7 +232,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
       },
       {
-        title: 'Gemini beta',
+        title: 'Gemini-pro',
         icon: 'GeminiIcon',
         planStatus: {
           free: {
@@ -251,6 +251,24 @@ export const PLAN_FEATURES_CATEGORY: {
         tooltip: {
           imageLink: `/assets/chrome-extension/upgrade/gemini.png`,
           desc: 'plan_features_table__gemini_tooltip_desc',
+        },
+      },
+      {
+        title: 'DALL·E 3',
+        icon: 'DALLE',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
         },
       },
       {
