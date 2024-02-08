@@ -10,6 +10,7 @@ import { useRouter } from 'next/router';
 import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ShareConversationCopyLInk from '@/features/share_conversation/components/ShareConversationCopyLInk';
 import SidebarChatBoxMessageListContainer from '@/features/share_conversation/components/SidebarChatBoxMessageListContainer';
 import { SHARE_CONVERSATION_MIN_WIDTH } from '@/features/share_conversation/constants';
@@ -36,6 +37,7 @@ const ShareChatHistory: FC<IProps> = () => {
 
   return (
     <ThemeProvider theme={ConversationCustomTheme}>
+      <AppDefaultSeoLayout title={'Share Conversation | MaxAI.me'} />
       <Stack flex={1} maxHeight='100vh'>
         {/* share header */}
         <AppBar

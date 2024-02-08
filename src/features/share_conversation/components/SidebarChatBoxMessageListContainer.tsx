@@ -3,6 +3,7 @@ import { SxProps } from '@mui/material/styles';
 import { useRouter } from 'next/router';
 import React, { FC, useEffect, useMemo, useRef } from 'react';
 
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import Custom404 from '@/components/Custom404';
 import SidebarChatBoxMessageItem from '@/features/share_conversation/components/SidebarChatBoxMessageItem';
@@ -10,6 +11,8 @@ import useMessageListPaginator from '@/features/share_conversation/hooks/useMess
 import useShareConversationPaginator from '@/features/share_conversation/hooks/useShareConversationPaginator';
 
 import useShareConversationParameters from '../hooks/useShareConversationParameters';
+import { IAIResponseMessage, IUserChatMessage } from '../types';
+import { isAIMessage, isUserMessage } from '../utils/chatMessageUtils';
 export const messageListContainerId = 'message-list-scroll-container';
 
 interface IProps {
@@ -21,6 +24,11 @@ const SidebarChatBoxMessageListContainer: FC<IProps> = (props) => {
   const { conversationId, sx } = props;
 
   const { isReady } = useRouter();
+
+  const [seoInfo, setSeoInfo] = React.useState({
+    title: '',
+    description: '',
+  });
 
   const scrollContainerRef = useRef<HTMLElement | null>(null);
 
@@ -74,6 +82,53 @@ const SidebarChatBoxMessageListContainer: FC<IProps> = (props) => {
     }
   }, [isReady, loading, data]);
 
+  useEffect(() => {
+    const sliceStr = (str: string, length: number) => {
+      return str.length > length ? str.slice(0, length) : str;
+    };
+
+    let title = '';
+    let description = '';
+    if (slicedMessageList && slicedMessageList.length > 0) {
+      console.log(`firstMessage`, slicedMessageList);
+      const firstMessage = slicedMessageList[0];
+      if (isAIMessage(firstMessage)) {
+        const aiMessage = firstMessage as IAIResponseMessage;
+        title = aiMessage.originalMessage?.metadata?.title?.title || '';
+
+        description =
+          aiMessage.originalMessage?.content?.text || aiMessage.text || '';
+
+        if (aiMessage.originalMessage?.content?.contentType === 'image') {
+          description =
+            aiMessage.originalMessage?.metadata?.artTextToImagePrompt || '';
+        }
+      }
+
+      if (isUserMessage(firstMessage)) {
+        const userMessage = firstMessage as IUserChatMessage;
+        title = userMessage.text;
+
+        const answerMessage = slicedMessageList.find(
+          (message) =>
+            isAIMessage(message) &&
+            message.parentMessageId === userMessage.messageId,
+        ) as IAIResponseMessage;
+
+        if (answerMessage) {
+          description = answerMessage.text;
+        }
+      }
+
+      if (title && description) {
+        setSeoInfo({
+          title: `${sliceStr(title, 50)} | MaxAI.me`,
+          description: sliceStr(description, 150),
+        });
+      }
+    }
+  }, [slicedMessageList]);
+
   return (
     <Box
       ref={scrollContainerRef}
@@ -86,6 +141,12 @@ const SidebarChatBoxMessageListContainer: FC<IProps> = (props) => {
         ...sx,
       }}
     >
+      {seoInfo.description && seoInfo.title && (
+        <AppDefaultSeoLayout
+          title={seoInfo.title}
+          description={seoInfo.description}
+        />
+      )}
       {/* <Box position={'fixed'} left={16}>
         <h4>page: {shareConversationParameters.page}</h4>
         <h4>total: {shareConversationParameters.total}</h4>
