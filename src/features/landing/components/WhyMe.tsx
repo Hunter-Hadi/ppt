@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import CustomIcon from '@/components/CustomIcon';
 import ProLink from '@/components/ProLink';
+import { WWW_PROJECT_LINK } from '@/global_constants';
 import { isInIframe } from '@/utils/utils';
 
 const WHT_ME_REASON = [
@@ -45,7 +46,11 @@ const WHT_ME_REASON = [
   },
 ];
 
-const WhyMe = () => {
+interface IProps {
+  propRef?: string;
+}
+
+const WhyMe: FC<IProps> = ({ propRef }) => {
   const { t } = useTranslation('pages');
 
   return (
@@ -72,9 +77,7 @@ const WhyMe = () => {
         >
           {t('home_page__why_me__title__part1')}{' '}
           <ProLink
-            href={{
-              pathname: '/',
-            }}
+            href={`${WWW_PROJECT_LINK}?ref=${propRef}`}
             target={isInIframe() ? '_blank' : '_self'}
             muiLinkProps={{ title: 'MaxAI.me' }}
             underline='always'

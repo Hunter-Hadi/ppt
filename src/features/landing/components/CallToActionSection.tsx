@@ -1,10 +1,14 @@
 import { Box, buttonClasses, Stack, Typography } from '@mui/material';
-import React from 'react';
+import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
-const CallToActionSection = () => {
+interface IProps {
+  propRef?: string;
+}
+
+const CallToActionSection: FC<IProps> = ({ propRef }) => {
   const { t } = useTranslation('pages');
 
   return (
@@ -49,7 +53,7 @@ const CallToActionSection = () => {
           <CTAInstallButton
             variant={'contained'}
             trackerLinkProps={{
-              defaultRef: 'homepage',
+              defaultRef: propRef ?? 'homepage',
               queryRefEnable: true,
               pathnameRefEnable: false,
             }}

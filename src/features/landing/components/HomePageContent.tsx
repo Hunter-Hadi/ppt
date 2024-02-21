@@ -1,6 +1,6 @@
 import { Stack } from '@mui/material';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { FC, useEffect } from 'react';
 
 import AIPower from './AIPower';
 import CallToActionSection from './CallToActionSection';
@@ -12,7 +12,11 @@ import ProfessionalAbility from './ProfessionalAbility';
 import UserComment from './UserComment';
 import WhyMe from './WhyMe';
 
-const HomePageContent = () => {
+interface IProps {
+  propRef?: string;
+}
+
+const HomePageContent: FC<IProps> = ({ propRef }) => {
   const { isReady, asPath } = useRouter();
 
   useEffect(() => {
@@ -28,7 +32,7 @@ const HomePageContent = () => {
   return (
     <Stack color='text.primary'>
       {/* heroSection */}
-      <HeroSection />
+      <HeroSection propRef={propRef} />
       {/* ai power */}
       <AIPower />
       {/* love by user */}
@@ -38,13 +42,13 @@ const HomePageContent = () => {
       {/* professional ability */}
       <ProfessionalAbility />
       {/* Why is MaxAI.me Chrome extension the best */}
-      <WhyMe />
+      <WhyMe propRef={propRef} />
       {/* Comment 1M+ professionals choose MaxAI.me */}
       <UserComment />
       {/* navigate to privacy page section */}
       <NavigateToPrivacyPage />
       {/* call to action section */}
-      <CallToActionSection />
+      <CallToActionSection propRef={propRef} />
     </Stack>
   );
 };

@@ -9,7 +9,11 @@ import useBrowserAgent from '@/hooks/useBrowserAgent';
 import CTAInstallButton from '../../../page_components/CTAInstallButton';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '../constants';
 
-const HeroSection = () => {
+interface IProps {
+  propRef?: string;
+}
+
+const HeroSection: FC<IProps> = ({ propRef }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
   const { t } = useTranslation();
@@ -72,7 +76,7 @@ const HeroSection = () => {
                   showAgent='Chrome'
                   variant={agent === 'Chrome' ? 'contained' : 'outlined'}
                   trackerLinkProps={{
-                    defaultRef: 'homepage',
+                    defaultRef: propRef ?? 'homepage',
                     queryRefEnable: true,
                     pathnameRefEnable: false,
                   }}
@@ -84,7 +88,7 @@ const HeroSection = () => {
                   showAgent='Edge'
                   variant={agent === 'Edge' ? 'contained' : 'outlined'}
                   trackerLinkProps={{
-                    defaultRef: 'homepage',
+                    defaultRef: propRef ?? 'homepage',
                     queryRefEnable: true,
                     pathnameRefEnable: false,
                   }}

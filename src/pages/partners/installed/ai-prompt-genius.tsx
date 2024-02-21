@@ -3,7 +3,7 @@ import React from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
-import LandingPageEmbedBox from '@/page_components/LandingPage/LandingPageEmbedBox';
+import HomePageContent from '@/features/landing/components/HomePageContent';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
 const AIPromptGenius = () => {
@@ -13,6 +13,7 @@ const AIPromptGenius = () => {
       sx={{
         bgcolor: '#fff',
         position: 'relative',
+        pb: 10,
       }}
     >
       <AppDefaultSeoLayout />
@@ -68,7 +69,7 @@ const AIPromptGenius = () => {
         >
           <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
         </Box>
-        <LandingPageEmbedBox sx={{ pt: 2, pb: 10 }} linkRef={propRef} />
+        <HomePageContent propRef={propRef} />
       </Box>
       <FixedCtaButton propRef={propRef} />
     </Box>
