@@ -232,6 +232,24 @@ export const PLAN_FEATURES_CATEGORY: {
         },
       },
       {
+        title: 'Claude-2.1-200k',
+        icon: 'ClaudeIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+      },
+      {
         title: 'Gemini-pro',
         icon: 'GeminiIcon',
         planStatus: {
