@@ -5,10 +5,10 @@ import { useTranslation } from 'react-i18next';
 import { isInIframe } from '@/utils/utils';
 
 interface IProps {
-  mini?: boolean;
+  isSmallScreen?: boolean;
 }
 
-const PricingItem: FC<IProps> = ({ mini = false }) => {
+const PricingItem: FC<IProps> = ({ isSmallScreen = false }) => {
   const { t } = useTranslation('modules');
 
   const textRender = () => (
@@ -29,7 +29,7 @@ const PricingItem: FC<IProps> = ({ mini = false }) => {
     window.open('/pricing', isInIframe() ? '_blank' : '_self');
   };
 
-  if (mini) {
+  if (isSmallScreen) {
     return <MenuItem onClick={handleClick}>{textRender()}</MenuItem>;
   }
 

@@ -92,7 +92,7 @@ const AppHeader: FC = () => {
 
         <AppHeaderCTABtn />
 
-        {isMiniMenu ? <AppHeaderMenuList mini /> : null}
+        {isMiniMenu ? <AppHeaderMenuList isSmallScreen /> : null}
       </Toolbar>
       <Divider />
     </AppBar>

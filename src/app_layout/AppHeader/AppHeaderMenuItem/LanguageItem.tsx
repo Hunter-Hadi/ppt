@@ -6,10 +6,10 @@ import LanguageSelect from '@/components/select/LanguageSelect';
 import { usePreferredLanguage } from '@/i18n/hooks';
 
 interface IProps {
-  mini?: boolean;
+  isSmallScreen?: boolean;
 }
 
-const LanguageItem: FC<IProps> = ({ mini }) => {
+const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
   const { currentLanguage, changeLanguage, languageLabel } =
     usePreferredLanguage();
 
@@ -29,8 +29,8 @@ const LanguageItem: FC<IProps> = ({ mini }) => {
       spacing={0}
       alignItems='center'
       sx={{
-        px: mini ? 2 : 0,
-        py: mini ? 0.75 : 0,
+        px: isSmallScreen ? 2 : 0,
+        py: isSmallScreen ? 0.75 : 0,
       }}
     >
       <Box

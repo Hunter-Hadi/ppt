@@ -5,10 +5,10 @@ import { useTranslation } from 'react-i18next';
 import { isInIframe } from '@/utils/utils';
 
 interface IProps {
-  mini?: boolean;
+  isSmallScreen?: boolean;
 }
 
-const LearningCenterItem: FC<IProps> = ({ mini }) => {
+const LearningCenterItem: FC<IProps> = ({ isSmallScreen }) => {
   const { t } = useTranslation('modules');
 
   const textRender = () => (
@@ -29,7 +29,7 @@ const LearningCenterItem: FC<IProps> = ({ mini }) => {
     window.open('/learning-center', isInIframe() ? '_blank' : '_self');
   };
 
-  if (mini) {
+  if (isSmallScreen) {
     return <MenuItem onClick={handleClick}>{textRender()}</MenuItem>;
   }
 

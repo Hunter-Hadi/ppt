@@ -31,15 +31,15 @@ const APP_HEADER_MENU_LIST = [
 ];
 
 interface IProps {
-  mini?: boolean;
+  isSmallScreen?: boolean;
 }
 
-const AppHeaderMenuList: FC<IProps> = ({ mini = false }) => {
+const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
   const [open, setOpen] = React.useState(false);
 
   const { appHeaderHeight } = useAppHeaderState();
 
-  if (mini) {
+  if (isSmallScreen) {
     return (
       <Box ml={2}>
         <IconButton onClick={() => setOpen((pre) => !pre)}>
@@ -58,7 +58,11 @@ const AppHeaderMenuList: FC<IProps> = ({ mini = false }) => {
         >
           <MenuList>
             {APP_HEADER_MENU_LIST.map((item) => (
-              <AppHeaderMenuItem key={item.key} menuKey={item.key} mini />
+              <AppHeaderMenuItem
+                key={item.key}
+                menuKey={item.key}
+                isSmallScreen
+              />
             ))}
           </MenuList>
         </Drawer>

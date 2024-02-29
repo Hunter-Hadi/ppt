@@ -10,10 +10,10 @@ import { useTranslation } from 'react-i18next';
 import { isInIframe } from '@/utils/utils';
 
 interface IProps {
-  mini?: boolean;
+  isSmallScreen?: boolean;
 }
 
-const IndustriesItem: FC<IProps> = ({ mini }) => {
+const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
   const { t } = useTranslation('modules');
   const { t: tIndustry } = useTranslation('industry');
 

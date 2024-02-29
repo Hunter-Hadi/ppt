@@ -8,28 +8,28 @@ import PricingItem from './PricingItem';
 
 interface IProps {
   menuKey: string;
-  mini?: boolean;
+  isSmallScreen?: boolean;
 }
 
-const AppHeaderMenuItem: FC<IProps> = ({ menuKey, mini }) => {
+const AppHeaderMenuItem: FC<IProps> = ({ menuKey, isSmallScreen }) => {
   if (menuKey === 'Industries') {
-    return <IndustriesItem mini={mini} />;
+    return <IndustriesItem isSmallScreen={isSmallScreen} />;
   }
 
   if (menuKey === 'Features') {
-    return <FeaturesItem mini={mini} />;
+    return <FeaturesItem isSmallScreen={isSmallScreen} />;
   }
 
   if (menuKey === 'Pricing') {
-    return <PricingItem mini={mini} />;
+    return <PricingItem isSmallScreen={isSmallScreen} />;
   }
 
   if (menuKey === 'Learning-center') {
-    return <LearningCenterItem mini={mini} />;
+    return <LearningCenterItem isSmallScreen={isSmallScreen} />;
   }
 
   if (menuKey === 'Language') {
-    return <LanguageItem mini={mini} />;
+    return <LanguageItem isSmallScreen={isSmallScreen} />;
   }
 
   return null;

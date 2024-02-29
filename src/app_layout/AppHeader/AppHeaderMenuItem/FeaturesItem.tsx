@@ -3,10 +3,10 @@ import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface IProps {
-  mini?: boolean;
+  isSmallScreen?: boolean;
 }
 
-const FeaturesItem: FC<IProps> = ({ mini }) => {
+const FeaturesItem: FC<IProps> = ({ isSmallScreen }) => {
   const { t } = useTranslation('modules');
 
   return (
