@@ -16,13 +16,23 @@ const LandingPage = () => {
     }
   }, [router.query]);
 
+  const [rewardfulId, setRewardfulId] = useState('');
+
+  useEffect(() => {
+    const windowClone = window as any;
+    windowClone.rewardful('ready', function () {
+      if (windowClone.Rewardful.referral) {
+        setRewardfulId(windowClone.Rewardful.referral);
+      }
+    });
+  }, []);
   return (
     <>
       <AppDefaultSeoLayout />
       <HomePageContent />
 
       {/* 如果有 ref 传入，通过加载 iframe 来保存 ref 到 app */}
-      {ref ? (
+      {ref || rewardfulId ? (
         <iframe
           id='app-landing-page-iframe'
           style={{
@@ -37,7 +47,7 @@ const LandingPage = () => {
             zIndex: -1,
             pointerEvents: 'none',
           }}
-          src={`${APP_PROJECT_LINK}/embed/refCache?ref=${ref}`}
+          src={`${APP_PROJECT_LINK}/embed/refCache?ref=${ref}&rewardfulId=${rewardfulId}`}
           // src={`http://localhost:3000/landing?ref=${ref}`}
         />
       ) : null}
