@@ -128,6 +128,11 @@ const SidebarChatBoxMessageListContainer: FC<IProps> = (props) => {
     }
   }, [slicedMessageList]);
 
+  // 当接口报错，又没有数据时，显示到 404 页面
+  if (isError && slicedMessageList.length <= 0) {
+    return <Custom404 />;
+  }
+
   return (
     <Box
       ref={scrollContainerRef}
@@ -152,7 +157,7 @@ const SidebarChatBoxMessageListContainer: FC<IProps> = (props) => {
         <h4>isLoading: {`${isLoading}`}</h4>
         <h4>isFetching: {`${isFetching}`}</h4>
       </Box> */}
-      {isError && <Custom404 />}
+      {/* {isError && <Custom404 />} */}
 
       {loading && <AppLoadingLayout loading />}
       {slicedMessageList &&

@@ -13,7 +13,7 @@ const ShareConversationParametersState =
     default: {
       page: 0,
       page_size: 10,
-      sort: 'asc',
+      sort: 'desc',
       total: 0,
     },
   });

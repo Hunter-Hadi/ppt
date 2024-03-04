@@ -44,7 +44,7 @@ export default class ShareConversationService {
             hideNotifications: true,
           } as CustomAxiosRequestConfig,
         );
-      if (response.status === 'OK' && response.data?.length) {
+      if (response.status === 'OK' && response.data) {
         return response;
       }
     } catch (error) {

@@ -57,8 +57,9 @@ const useShareConversationPaginator = (share_id: string) => {
           );
         });
         return paginationData.data;
+      } else {
+        throw new Error('Network error. Please try again.');
       }
-      throw new Error('Network error. Please try again.');
     },
     placeholderData: keepPreviousData,
     enabled: isReady,
