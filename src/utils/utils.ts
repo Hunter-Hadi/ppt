@@ -42,13 +42,13 @@ const api_params_signature = (params: {
   const hash_key = CryptoJS.SHA224(hash_str).toString();
   const sm3_hash_str = `${apiTime}${hash_key}`;
   const sign = sm3(sm3_hash_str);
-  console.log(
-    `sign: ${sign}\n`,
-    `apiTime: ${apiTime}\n`,
-    `hash_key: ${hash_key}\n`,
-    `sm3_hash_str: ${sm3_hash_str}\n`,
-    `hash_str: ${hash_str}\n`,
-  );
+  // console.log(
+  //   `sign: ${sign}\n`,
+  //   `apiTime: ${apiTime}\n`,
+  //   `hash_key: ${hash_key}\n`,
+  //   `sm3_hash_str: ${sm3_hash_str}\n`,
+  //   `hash_str: ${hash_str}\n`,
+  // );
   // 这里名字越短越好，增加逆向搜索难度
   const headers = {
     b: '',

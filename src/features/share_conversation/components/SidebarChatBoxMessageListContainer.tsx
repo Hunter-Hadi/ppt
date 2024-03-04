@@ -90,7 +90,6 @@ const SidebarChatBoxMessageListContainer: FC<IProps> = (props) => {
     let title = '';
     let description = '';
     if (slicedMessageList && slicedMessageList.length > 0) {
-      console.log(`firstMessage`, slicedMessageList);
       const firstMessage = slicedMessageList[0];
       if (isAIMessage(firstMessage)) {
         const aiMessage = firstMessage as IAIResponseMessage;

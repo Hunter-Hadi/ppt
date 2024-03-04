@@ -66,8 +66,6 @@ const useShareConversationPaginator = (share_id: string) => {
     retry: 1,
   });
 
-  console.log(`useQueryResponse`, useQueryResponse);
-
   return {
     ...useQueryResponse,
     data: shareConversationData,

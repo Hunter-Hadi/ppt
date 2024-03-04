@@ -187,12 +187,6 @@ const useMessageListPaginator = (
     // 当 list.length 变化时，代表滚动加载了
     // 需要把滚动位置移动到 lastTimeObserverTarget.current 的位置
     const scrollContainer = getScrollContainerElement();
-    console.log(`zztest scrollTop.current`, scrollTop.current);
-    console.log(`zztest currentScrollHeight`, scrollContainer?.scrollHeight);
-    console.log(
-      `zztest originalScrollHeight.current`,
-      originalScrollHeight.current,
-    );
     if (scrollContainer && scrollTop.current >= 0) {
       const currentScrollHeight = scrollContainer.scrollHeight;
       scrollContainer.scrollTop =
