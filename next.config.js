@@ -57,6 +57,9 @@ const nextConfig = {
     // Defaults to 50MB
     // isrMemoryCacheSize: 0,
   },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
 };
 
 module.exports = nextConfig;
