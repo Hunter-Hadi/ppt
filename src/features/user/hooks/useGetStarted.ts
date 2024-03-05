@@ -4,7 +4,7 @@ import { useRecoilValue } from 'recoil';
 
 import { userInviteState } from '@/features/user';
 import { USER_API } from '@/utils/api';
-import { sendLarkBotMessage } from '@/utils/larkBot';
+import { sendNotification } from '@/utils/larkBot';
 import { webappPost } from '@/utils/request';
 
 const useGetStarted = (email: string) => {
@@ -24,15 +24,13 @@ const useGetStarted = (email: string) => {
       if (response.status !== 'OK') {
         return false;
       }
-      await sendLarkBotMessage(
-        '[Get Started] Survey',
-        `user: [${email || ''}] click [Get Started] button.\ninvite code: [${
+      await sendNotification('Get Started Survey', {
+        message: `user: [${
+          email || ''
+        }] click [Get Started] button.\ninvite code: [${
           userInvite.inviteCode || ''
         }]\ndate: [${dayjs().format('YYYY-MM-DD HH:mm:ss')}]`,
-        {
-          uuid: '956022cb-e2e9-42b4-aff2-03bd3edaa8f5',
-        },
-      );
+      });
       setWasInWaitlist(response.was_in_waitlist || false);
       return true;
     } catch (error) {

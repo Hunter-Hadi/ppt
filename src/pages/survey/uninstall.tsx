@@ -7,7 +7,7 @@ import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import SingleSurvey from '@/components/survey/SingleSurvey';
 import { USER_API } from '@/utils/api';
-import { sendLarkBotMessage } from '@/utils/larkBot';
+import { sendNotification } from '@/utils/larkBot';
 import { webappPost } from '@/utils/request';
 const { getBrowser } = new UAParser();
 
@@ -119,15 +119,12 @@ const InstallPage: FC = () => {
                 ? submitData._Email
                 : '';
             if (reasonString) {
-              await sendLarkBotMessage(
-                'UninstallSurvey',
-                `Date: ${dayjs().format('YYYY-MM-DD HH:mm:ss')}${
-                  email ? `\nEmail: ${email}` : ''
-                }\nReason: ${reasonString}\nBrowser: ${browserName}-${browserVersion}\nChrome Extension: ${chromeExtensionVersion}`,
-                {
-                  uuid: '5bddd049-128a-497f-a26a-343849140779',
-                },
-              );
+              await sendNotification('UninstallSurvey', {
+                date: `${dayjs().format('YYYY-MM-DD HH:mm:ss')}`,
+                email: email || '',
+                reason: reasonString,
+                extensionVersion: chromeExtensionVersion,
+              });
             }
             location.href = 'https://www.maxai.me';
           }}

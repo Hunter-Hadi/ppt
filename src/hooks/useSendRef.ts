@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useCallback, useEffect, useRef } from 'react';
 
 import { APP_API } from '@/utils/api';
-import { botUuid, sendLarkBotMessage } from '@/utils/larkBot';
+import { botUuid, sendNotification } from '@/utils/larkBot';
 import { webappPost } from '@/utils/request';
 
 export const useSendRef = (
@@ -28,13 +28,9 @@ export const useSendRef = (
       },
     });
     if (featureName) {
-      sendLarkBotMessage(
-        `[${featureName}]`,
-        `ref: ${ref || 'default'}\ndate: ${date}\n`,
-        {
-          uuid: uuid,
-        },
-      );
+      sendNotification(`${featureName}`, {
+        ref: `${ref || 'default'}\ndate: ${date}\n`,
+      });
     }
   }, [router.query.ref, options]);
   useEffect(() => {

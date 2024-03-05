@@ -7,7 +7,7 @@ import CustomModal from '@/components/CustomModal';
 import ProLink from '@/components/ProLink';
 import VideoPlayer from '@/components/VideoPlayer';
 import { MAXAI_EXTENSION_ROOT_ID } from '@/features/extension/constant';
-import { sendLarkBotMessage } from '@/utils/larkBot';
+import { sendNotification } from '@/utils/larkBot';
 import { routerToShortcutsPage } from '@/utils/utils';
 
 const UseChatGPTShortcutsDetectAlert: FC = () => {
@@ -46,15 +46,11 @@ const UseChatGPTShortcutsDetectAlert: FC = () => {
   useEffect(() => {
     if (modalShow && !isSendBot.current) {
       isSendBot.current = true;
-      sendLarkBotMessage(
-        '[Extension Installed]',
-        `Cmd/Alt + J shortcut is not responding\ndate: [${dayjs().format(
+      sendNotification('Extension Installed', {
+        message: `Cmd/Alt + J shortcut is not responding\ndate: [${dayjs().format(
           'YYYY-MM-DD HH:mm:ss',
         )}]`,
-        {
-          uuid: 'dd385931-45f4-4de1-8e48-8145561b0f9d',
-        },
-      );
+      });
     }
     const listener = () => {
       if (modalShow) {
