@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaxAI.me</title>
+  </head>
+  <body>
+    <script>
+      const CHROME_EXTENSION =
+        'https://chrome.google.com/webstore/detail/use-chatgpt-gpt-4-chatgpt/mhnlakgilnojmhinhkckjpncpbhabphi';
+      const EDGE_EXTENSION =
+        'https://microsoftedge.microsoft.com/addons/detail/maxaime-use-chatgpt-ai-/ngphehpfehdmjellohmlojkplilekadg';
+
+      function detectBrowser() {
+        const userAgent = navigator.userAgent;
+        if (userAgent.includes('Edg') || userAgent.includes('Edge')) {
+          return 'Edge';
+        } else if (userAgent.includes('Chrome')) {
+          return 'Chrome';
+        } else {
+          return 'Unknown';
+        }
+      }
+
+      function redirectExtensionInstallPage() {
+        const browser = detectBrowser();
+        if (browser === 'Edge') {
+          location.href = EDGE_EXTENSION;
+          // alert(CHROME_EXTENSION)
+          return;
+        }
+
+        location.href = CHROME_EXTENSION;
+        // alert(CHROME_EXTENSION)
+      }
+
+      function getUrlParams() {
+        const params = {};
+        const queryString = window.location.search.substring(1); // 移除URL中的'?'字符
+        const urlSearchParams = new URLSearchParams(queryString);
+        let obj = {};
+        for (let [key, value] of urlSearchParams.entries()) {
+          obj[key] = value;
+        }
+        return obj;
+      }
+
+      function main() {
+        const urlParams = getUrlParams();
+        const newRef = urlParams.ref;
+
+        if (newRef) {
+          const oldRef = localStorage.getItem('LANDING_PAGE_REF') ?? '';
+
+          const refArr = oldRef
+            .split(',')
+            .concat(newRef.split(','))
+            .filter(Boolean);
+
+          // 针对 refArr 去重
+          const refSet = new Set(refArr);
+          const refArrUnique = Array.from(refSet);
+          const refUniqueStr = refArrUnique.join(',');
+
+          localStorage.setItem('LANDING_PAGE_REF', refUniqueStr);
+        }
+
+        redirectExtensionInstallPage();
+      }
+
+      try {
+        main();
+      } catch (error) {
+        redirectExtensionInstallPage();
+      }
+    </script>
+  </body>
+</html>
