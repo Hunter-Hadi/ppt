@@ -21,7 +21,7 @@ import { RecoilRoot } from 'recoil';
 
 import AppFooter from '@/app_layout/AppFooter';
 import AppHeader from '@/app_layout/AppHeader';
-import CacheRefAndRewardfulId from '@/components/cacheRefAndRewardfulId';
+import CacheRefAndRewardfulId from '@/components/CacheRefAndRewardfulId';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
 import GlobalVideoPopup from '@/features/videoPopup/components/GlobalVideoPopup';
