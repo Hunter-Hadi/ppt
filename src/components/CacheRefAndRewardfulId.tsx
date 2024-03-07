@@ -1,6 +1,8 @@
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
+import { APP_PROJECT_LINK } from '@/global_constants';
+
 const CacheRefAndRewardfulId = () => {
   const router = useRouter();
 
@@ -45,8 +47,8 @@ const CacheRefAndRewardfulId = () => {
             zIndex: -1,
             pointerEvents: 'none',
           }}
-          // src={`${APP_PROJECT_LINK}/embed/refCache?ref=${ref}&rewardfulId=${rewardfulId}`}
-          src={`http://localhost:3000/landing?ref=${ref}&rewardfulId=${rewardfulId}`}
+          src={`${APP_PROJECT_LINK}/embed/refCache?ref=${ref}&rewardfulId=${rewardfulId}`}
+          // src={`http://localhost:3000/landing?ref=${ref}&rewardfulId=${rewardfulId}`}
         />
       ) : null}
     </>
