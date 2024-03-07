@@ -21,6 +21,7 @@ import { RecoilRoot } from 'recoil';
 
 import AppFooter from '@/app_layout/AppFooter';
 import AppHeader from '@/app_layout/AppHeader';
+import CacheRefAndRewardfulId from '@/components/cacheRefAndRewardfulId';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
 import GlobalVideoPopup from '@/features/videoPopup/components/GlobalVideoPopup';
@@ -111,6 +112,7 @@ function App({ Component, pageProps }: AppProps) {
               <Component {...pageProps} />
               {!isEmbedPage && <AppFooter />}
               <GlobalVideoPopup />
+              <CacheRefAndRewardfulId />
             </QueryClientProvider>
           </ThemeProvider>
         </SnackbarProvider>
