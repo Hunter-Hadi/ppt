@@ -1,5 +1,6 @@
 import {
   Button,
+  buttonClasses,
   ButtonProps,
   SxProps,
   useMediaQuery,
@@ -26,6 +27,9 @@ interface IProps {
 
   // 是否开启 label 自适应长度（屏幕宽度变小，文本变短）
   adaptiveLabel?: boolean;
+
+  startIcon?: ButtonProps['startIcon'];
+  endIcon?: ButtonProps['endIcon'];
 }
 
 const CTAInstallButton: FC<IProps> = ({
@@ -38,6 +42,9 @@ const CTAInstallButton: FC<IProps> = ({
   text,
 
   adaptiveLabel = false,
+
+  startIcon,
+  endIcon,
 }) => {
   const route = useRouter();
   const isEmbedMode = route.pathname === '/embed/introduction';
@@ -59,7 +66,7 @@ const CTAInstallButton: FC<IProps> = ({
   const iconName = agent === 'Edge' ? 'EdgeColor' : 'ChromeColor';
 
   const label = useMemo(() => {
-    if (text) {
+    if (text || text === '') {
       return text;
     }
     if (isEmbedMode) {
@@ -102,7 +109,7 @@ const CTAInstallButton: FC<IProps> = ({
       height: 64,
       fontSize: {
         xs: 14,
-        lg: isEmbedMode ? 14 : 16,
+        lg: isEmbedMode ? 14 : 18,
       },
       fontWeight: 600,
       px: {
@@ -111,23 +118,39 @@ const CTAInstallButton: FC<IProps> = ({
       },
       py: 1.5,
       borderRadius: 2,
+
+      [`.${buttonClasses.startIcon}`]:
+        label.length <= 0
+          ? {
+              m: 0,
+            }
+          : {
+              mr: 1.5,
+            },
+
       ...sx,
     };
-  }, [sx, isEmbedMode]);
+  }, [sx, isEmbedMode, label]);
 
   return (
     <Button
       href={href}
       target={target}
       startIcon={
-        <CustomIcon
-          icon={iconName}
-          sx={{
-            filter: 'drop-shadow(0px 0px 4px #403d3d8c)',
-            fontSize: `${iconSize}px !important`,
-          }}
-        />
+        startIcon ? (
+          startIcon
+        ) : (
+          <CustomIcon
+            icon={iconName}
+            sx={{
+              filter: 'drop-shadow(0px 0px 4px #403d3d8c)',
+              fontSize: `${iconSize}px !important`,
+              color: 'red',
+            }}
+          />
+        )
       }
+      endIcon={endIcon}
       variant={variant}
       sx={sxCache}
     >

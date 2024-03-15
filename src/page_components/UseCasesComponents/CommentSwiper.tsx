@@ -18,7 +18,7 @@ import {
 } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import Stars from '@/features/landing/components/Stars';
+import Stars from '@/features/landing/components/UserComment/Stars';
 register();
 
 const COMMENTS = [

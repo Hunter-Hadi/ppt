@@ -2,15 +2,13 @@ import { Stack } from '@mui/material';
 import { useRouter } from 'next/router';
 import { FC, useEffect } from 'react';
 
-import AIPower from './AIPower';
+import FeaturesCarousel from '@/features/landing/components/FeaturesCarousel';
+
 import CallToActionSection from './CallToActionSection';
 import HeroSection from './HeroSection';
-import LoveByUser from './LoveByUser';
-import NavigateToPrivacyPage from './NavigateToPrivacyPage';
-import OneClickMagic from './OneClickMagic';
-import ProfessionalAbility from './ProfessionalAbility';
+import MaxAIInNumbers from './MaxAIInNumbers';
+import TrustedBy from './TrustedBy';
 import UserComment from './UserComment';
-import WhyMe from './WhyMe';
 
 interface IProps {
   propRef?: string;
@@ -33,20 +31,19 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
     <Stack color='text.primary'>
       {/* heroSection */}
       <HeroSection propRef={propRef} />
-      {/* ai power */}
-      <AIPower />
-      {/* love by user */}
-      <LoveByUser />
-      {/* One click magic */}
-      <OneClickMagic />
-      {/* professional ability */}
-      <ProfessionalAbility />
-      {/* Why is MaxAI.me Chrome extension the best */}
-      <WhyMe propRef={propRef} />
-      {/* Comment 1M+ professionals choose MaxAI.me */}
+
+      {/* feature carousel */}
+      <FeaturesCarousel />
+
+      {/* trusted by */}
+      <TrustedBy />
+
+      {/* maxai in numbers */}
+      <MaxAIInNumbers />
+
+      {/* user comment */}
       <UserComment />
-      {/* navigate to privacy page section */}
-      <NavigateToPrivacyPage />
+
       {/* call to action section */}
       <CallToActionSection propRef={propRef} />
     </Stack>

@@ -19,8 +19,14 @@ const CallToActionSection: FC<IProps> = ({ propRef }) => {
         md: 14,
       }}
       px={4}
-      bgcolor='#202124'
       color='white'
+      bgcolor='#f9f5ff'
+      sx={{
+        backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
+
+        backgroundSize: 'cover',
+        backgroundPositionY: '-20px',
+      }}
     >
       <Box maxWidth={1312} mx='auto'>
         <Stack spacing={3}>
@@ -35,6 +41,7 @@ const CallToActionSection: FC<IProps> = ({ propRef }) => {
             textAlign={'center'}
             fontWeight={700}
             lineHeight={1.2}
+            color='text.primary'
           >
             {t('home_page__call_to_action__title')}
           </Typography>
@@ -46,6 +53,7 @@ const CallToActionSection: FC<IProps> = ({ propRef }) => {
             }}
             textAlign={'center'}
             lineHeight={1.5}
+            color='text.secondary'
           >
             {t('home_page__call_to_action__sub_title')}
           </Typography>
