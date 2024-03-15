@@ -19,8 +19,6 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
     );
   }, [activeCommentType]);
 
-  console.log(`comments`, activeCommentType, comments);
-
   return (
     <Box
       sx={{
