@@ -33,7 +33,7 @@ const MaxAIInNumbers = () => {
           }}
           mb={6}
         >
-          {t('pages:home_page__features_carousel__title')}
+          {t('pages:home_page__in_numbers__title')}
         </Typography>
 
         <Grid container spacing={4}>
