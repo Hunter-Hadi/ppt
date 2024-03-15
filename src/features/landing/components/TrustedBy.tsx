@@ -2,7 +2,7 @@
 import 'swiper/css';
 import 'swiper/css/free-mode';
 
-import { Box, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Autoplay, FreeMode } from 'swiper/modules';
@@ -98,8 +98,6 @@ const TRUSTED_BY_UNIVERSITY = [
 
 const TrustedBy = () => {
   const { t } = useTranslation();
-  const theme = useTheme();
-  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
   return (
     <Box bgcolor='white' py={5} px={2} id='homepage-trusted-by'>
@@ -139,7 +137,7 @@ const TrustedBy = () => {
           {/* company */}
           <Swiper
             speed={8000}
-            slidesPerView={isDownSm ? 3 : 5}
+            slidesPerView={'auto'}
             spaceBetween={16}
             freeMode={true}
             navigation={false}
@@ -148,6 +146,7 @@ const TrustedBy = () => {
               delay: 1,
               disableOnInteraction: false,
               pauseOnMouseEnter: false,
+              reverseDirection: true,
             }}
             modules={[FreeMode, Autoplay]}
           >
@@ -175,7 +174,7 @@ const TrustedBy = () => {
           {/* university */}
           <Swiper
             speed={8000}
-            slidesPerView={isDownSm ? 3 : 5}
+            slidesPerView={'auto'}
             spaceBetween={16}
             freeMode={true}
             navigation={false}
@@ -184,7 +183,7 @@ const TrustedBy = () => {
               delay: 1,
               disableOnInteraction: false,
               pauseOnMouseEnter: false,
-              reverseDirection: true,
+              reverseDirection: false,
             }}
             modules={[FreeMode, Autoplay]}
           >
