@@ -1,6 +1,6 @@
 import { Box, Grid, Typography, useMediaQuery } from '@mui/material';
-import { t } from 'i18next';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
@@ -10,6 +10,8 @@ import PrivacyFriendlyNumbersBox from './PrivacyFriendlyNumbersBox';
 
 const MaxAIInNumbers = () => {
   const isDown600 = useMediaQuery('(max-width:600px)'); // 小于 600px 时为 true
+
+  const { t } = useTranslation();
 
   return (
     <Box
