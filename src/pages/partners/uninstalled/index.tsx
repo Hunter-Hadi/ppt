@@ -4,6 +4,7 @@ import React, { useEffect, useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import HomePageContent from '@/features/landing/components/HomePageContent';
+import { useSendRefCount } from '@/hooks/useSendRefCount';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
 const PartnersUnInstallPage = () => {
@@ -12,6 +13,8 @@ const PartnersUnInstallPage = () => {
   const name = router.query?.name as string;
 
   const propRef = name;
+
+  useSendRefCount(propRef, 'partners-uninstalled');
 
   const partnersName = useMemo(() => {
     if (!name) {

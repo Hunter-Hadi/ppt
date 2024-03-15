@@ -4,6 +4,7 @@ import React, { useEffect, useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import HomePageContent from '@/features/landing/components/HomePageContent';
+import { useSendRefCount } from '@/hooks/useSendRefCount';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
 
 const PartnersUpdatedPage = () => {
@@ -12,6 +13,8 @@ const PartnersUpdatedPage = () => {
   const name = router.query?.name as string;
 
   const propRef = name;
+
+  useSendRefCount(propRef, 'partners-updated');
 
   const partnersName = useMemo(() => {
     if (!name) {
