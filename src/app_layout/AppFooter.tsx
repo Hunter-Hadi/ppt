@@ -131,12 +131,14 @@ const AppFooter = () => {
                     {
                       label: 'MaxAI for Chrome',
                       icon: <CustomIcon icon='Chrome' />,
-                      link: '/',
+                      target: '_blank',
+                      link: APP_EXTERNAL_LINKS.CHROME_EXTENSION,
                     },
                     {
                       label: 'MaxAI for Edge',
                       icon: <CustomIcon icon='Edge' />,
-                      link: `/`,
+                      target: '_blank',
+                      link: APP_EXTERNAL_LINKS.EDGE_EXTENSION,
                     },
                     {
                       label: t('modules:footer__1_click_prompts'),
