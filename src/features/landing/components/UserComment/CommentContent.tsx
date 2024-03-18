@@ -22,7 +22,11 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
   return (
     <Box
       sx={{
-        px: 6,
+        px: {
+          xs: 2,
+          sm: 4,
+          md: 6,
+        },
         bgcolor: '#F9FAFB',
 
         '.swiper': {
@@ -45,8 +49,15 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
         justifyContent={'center'}
         alignItems={'center'}
         spacing={2}
-        px={6}
-        py={6}
+        px={{
+          xs: 2,
+          sm: 4,
+          md: 6,
+        }}
+        py={{
+          xs: 4,
+          sm: 6,
+        }}
         sx={{
           cursor: 'default',
           minHeight: 400,
@@ -54,7 +65,11 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
       >
         <Typography
           variant='custom'
-          fontSize={36}
+          fontSize={{
+            xs: 24,
+            sm: 28,
+            md: 36,
+          }}
           fontWeight={700}
           textAlign={'center'}
           mb={2}
@@ -65,42 +80,6 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
         <Typography>{comments[0].name}</Typography>
         <Stars count={5} size={20} />
       </Stack>
-
-      {/* <Swiper
-        navigation={true}
-        pagination={true}
-        modules={[Navigation, Pagination]}
-      >
-        {comments.map((comment) => {
-          return (
-            <SwiperSlide key={comment.avatar}>
-              <Stack
-                justifyContent={'center'}
-                alignItems={'center'}
-                spacing={2}
-                px={6}
-                py={6}
-                sx={{
-                  cursor: 'default',
-                }}
-              >
-                <Typography
-                  variant='custom'
-                  fontSize={36}
-                  fontWeight={700}
-                  textAlign={'center'}
-                  mb={2}
-                >
-                  {comment.content}
-                </Typography>
-                <Avatar alt={comment.name} src={comment.avatar} />
-                <Typography>{comment.name}</Typography>
-                <Stars count={5} size={20} />
-              </Stack>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper> */}
     </Box>
   );
 };
