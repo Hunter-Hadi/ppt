@@ -155,7 +155,7 @@ const TrustedBy = () => {
                 <Stack
                   justifyContent={'center'}
                   alignItems='center'
-                  height={50}
+                  height={60}
                   p={1}
                 >
                   <img

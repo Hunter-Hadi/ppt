@@ -2,7 +2,7 @@
 import 'swiper/css';
 import 'swiper/css/free-mode';
 
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -18,6 +18,9 @@ import CommentTypeSelector from './CommentTypeSelector';
 
 const UserComment = () => {
   const { t } = useTranslation('pages');
+
+  const theme = useTheme();
+  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
   const commentSelectorScrollContainerRef = React.useRef<HTMLDivElement>(null);
 
@@ -120,9 +123,17 @@ const UserComment = () => {
             return (
               <Box
                 key={commentTypeItem.type}
+                onMouseEnter={() => {
+                  if (!isDownSm) {
+                    setActiveFeature(commentTypeItem.type);
+                    scrollToCenter(commentTypeItem.type);
+                  }
+                }}
                 onClick={() => {
-                  setActiveFeature(commentTypeItem.type);
-                  scrollToCenter(commentTypeItem.type);
+                  if (isDownSm) {
+                    setActiveFeature(commentTypeItem.type);
+                    scrollToCenter(commentTypeItem.type);
+                  }
                 }}
                 id={`feature-carousel-${commentTypeItem.type}`}
               >

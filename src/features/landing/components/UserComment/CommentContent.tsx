@@ -27,6 +27,7 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
           sm: 4,
           md: 6,
         },
+        borderRadius: 4,
         bgcolor: '#F9FAFB',
 
         '.swiper': {

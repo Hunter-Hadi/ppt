@@ -4,6 +4,7 @@ import React, { FC, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
+import usePreloadImages from '@/features/common/hooks/usePreloadImages';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 import { IFeaturesCarouselItemKey } from '.';
@@ -185,6 +186,16 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
     );
   }, [activeFeatureItem, t]);
 
+  usePreloadImages([
+    '/assets/landing/feature-carousel/chat.png',
+    '/assets/landing/feature-carousel/rewriter.png',
+    '/assets/landing/feature-carousel/reply.png',
+    '/assets/landing/feature-carousel/summary.png',
+    '/assets/landing/feature-carousel/search.png',
+    '/assets/landing/feature-carousel/art.png',
+    '/assets/landing/feature-carousel/translator.png',
+  ]);
+
   const imageSrc = useMemo(() => {
     if (activeFeatureItem === 'Chat') {
       return '/assets/landing/feature-carousel/chat.png';
@@ -221,7 +232,7 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
         bgcolor: 'white',
         boxShadow: '0px 8px 16px -8px #00000014',
         border: '1px solid #9065B03D',
-        borderRadius: 2,
+        borderRadius: 4,
       }}
     >
       <Grid container spacing={{ xs: 3, sm: 7 }}>

@@ -1,5 +1,5 @@
 import { Box, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import FeaturesCarouselContent from './FeaturesCarouselContent';
@@ -88,6 +88,30 @@ const FeaturesCarousel = () => {
     }
   };
 
+  const timer = React.useRef<number | null>(null);
+  const stopAutoPlay = React.useRef(false);
+  useEffect(() => {
+    // 计时器，自动去更新 activeFeature， 每次更新至 USER_COMMENT_TYPES 下一个，超出长度回到第一个
+    timer.current = window.setInterval(() => {
+      if (stopAutoPlay.current) {
+        return;
+      }
+
+      const currentIndex = FEATURES_CAROUSEL_LIST.findIndex(
+        (featureCarouselItem) => featureCarouselItem.value === activeFeature,
+      );
+      const nextIndex = (currentIndex + 1) % FEATURES_CAROUSEL_LIST.length;
+      setActiveFeature(FEATURES_CAROUSEL_LIST[nextIndex].value);
+      scrollToCenter(FEATURES_CAROUSEL_LIST[nextIndex].value);
+    }, 3500);
+
+    return () => {
+      if (timer.current) {
+        clearInterval(timer.current);
+      }
+    };
+  }, [activeFeature]);
+
   return (
     <Box
       id='homepage-features-carousel'
@@ -98,7 +122,16 @@ const FeaturesCarousel = () => {
       px={2}
       bgcolor='white'
     >
-      <Box maxWidth={1312} mx='auto'>
+      <Box
+        maxWidth={1312}
+        mx='auto'
+        onMouseEnter={() => {
+          stopAutoPlay.current = true;
+        }}
+        onMouseLeave={() => {
+          stopAutoPlay.current = false;
+        }}
+      >
         <Typography
           variant='custom'
           component='h2'
