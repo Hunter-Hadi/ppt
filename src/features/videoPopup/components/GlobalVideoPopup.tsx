@@ -31,6 +31,7 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
       width={videoWidth}
       height={'auto'}
       sx={{
+        position: 'relative',
         my: 0,
         height: '100vh',
         bgcolor: 'transparent',
@@ -38,7 +39,17 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
         ...sx,
       }}
     >
-      <Stack height={'100%'} justifyContent='center'>
+      <Stack
+        height={'100%'}
+        justifyContent='center'
+        sx={{
+          position: 'absolute',
+          height: 'auto',
+          width: '100%',
+          top: '50%',
+          transform: 'translateY(-50%)',
+        }}
+      >
         <Box
           id={VIDEO_POPUP_CONTAINER_ID}
           width={videoWidth}
