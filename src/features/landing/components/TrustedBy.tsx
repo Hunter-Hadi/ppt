@@ -162,7 +162,7 @@ const TrustedBy = () => {
                     alt={companyData.name}
                     src={companyData.src}
                     width='100%'
-                    height='48'
+                    height='100%'
                   />
                 </Stack>
               </SwiperSlide>
