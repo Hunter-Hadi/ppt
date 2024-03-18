@@ -1,4 +1,4 @@
-import { Box, SxProps } from '@mui/material';
+import { Box, Stack, SxProps } from '@mui/material';
 import React, { FC } from 'react';
 
 import CustomModal from '@/components/CustomModal';
@@ -31,19 +31,22 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
       width={videoWidth}
       height={'auto'}
       sx={{
-        mt: '20vh',
-        maxWidth: '800px',
+        my: 0,
+        height: '100vh',
         bgcolor: 'transparent',
+        maxWidth: 'calc(80vh * 16 / 9)',
         ...sx,
       }}
     >
-      <Box
-        id={VIDEO_POPUP_CONTAINER_ID}
-        width={videoWidth}
-        height={videoHeight}
-      >
-        <YoutubePlayerBox borderRadius={4} youtubeLink={videoSrc} />
-      </Box>
+      <Stack height={'100%'} justifyContent='center'>
+        <Box
+          id={VIDEO_POPUP_CONTAINER_ID}
+          width={videoWidth}
+          height={videoHeight}
+        >
+          <YoutubePlayerBox borderRadius={4} youtubeLink={videoSrc} />
+        </Box>
+      </Stack>
     </CustomModal>
   );
 };
