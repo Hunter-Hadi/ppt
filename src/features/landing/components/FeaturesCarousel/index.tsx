@@ -116,24 +116,24 @@ const FeaturesCarousel = () => {
       setActiveFeature(hash);
       scrollToCenter(hash);
 
-      if (window && window.scrollTo) {
-        const featureCarouseTitle = document.querySelector(
-          '#homepage-features-carousel > div > h2',
-        );
+      // if (window && window.scrollTo) {
+      //   const featureCarouseTitle = document.querySelector(
+      //     '#homepage-features-carousel > div > h2',
+      //   );
 
-        if (featureCarouseTitle) {
-          const needToScrollHeight =
-            featureCarouseTitle.getBoundingClientRect().top;
+      //   if (featureCarouseTitle) {
+      //     const needToScrollHeight =
+      //       featureCarouseTitle.getBoundingClientRect().top;
 
-          const currentScrollTop =
-            window.pageYOffset || document.documentElement.scrollTop;
-          window.scrollTo({
-            top: currentScrollTop + (needToScrollHeight - appHeaderHeight),
-            behavior: 'smooth',
-          });
-          isScrollIntoFeature.current = true;
-        }
-      }
+      //     const currentScrollTop =
+      //       window.pageYOffset || document.documentElement.scrollTop;
+      //     window.scrollTo({
+      //       top: currentScrollTop + (needToScrollHeight - appHeaderHeight),
+      //       behavior: 'smooth',
+      //     });
+      //   }
+      // }
+      isScrollIntoFeature.current = true;
     }
   }, [asPath, isReady, appHeaderHeight]);
 
