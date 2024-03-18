@@ -18,7 +18,7 @@ const MaxAIInNumbers = () => {
       id='homepage-features-carousel'
       py={{
         xs: 7,
-        md: 14,
+        md: 12,
       }}
       px={2}
       bgcolor='white'

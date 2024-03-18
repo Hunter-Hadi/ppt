@@ -100,7 +100,15 @@ const TrustedBy = () => {
   const { t } = useTranslation();
 
   return (
-    <Box bgcolor='white' py={5} px={2} id='homepage-trusted-by'>
+    <Box
+      bgcolor='white'
+      py={{
+        xs: 7,
+        md: 12,
+      }}
+      px={2}
+      id='homepage-trusted-by'
+    >
       <Box maxWidth={1312} mx='auto'>
         <Typography
           variant='custom'
