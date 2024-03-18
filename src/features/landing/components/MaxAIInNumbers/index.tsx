@@ -29,9 +29,8 @@ const MaxAIInNumbers = () => {
           component='h2'
           textAlign={'center'}
           fontSize={{
-            xs: 24,
-            sm: 32,
-            lg: 48,
+            xs: 36,
+            sm: 48,
           }}
           mb={6}
         >

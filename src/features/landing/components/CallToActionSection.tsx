@@ -33,9 +33,8 @@ const CallToActionSection: FC<IProps> = ({ propRef }) => {
           <Typography
             variant='custom'
             fontSize={{
-              xs: 24,
-              md: 32,
-              lg: 48,
+              xs: 36,
+              sm: 48,
             }}
             component={'h2'}
             textAlign={'center'}
