@@ -75,7 +75,9 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
           textAlign={'center'}
           mb={2}
         >
+          {`"`}
           {comments[0].content}
+          {`"`}
         </Typography>
         <Avatar alt={comments[0].name} src={comments[0].avatar} />
         <Typography>{comments[0].name}</Typography>

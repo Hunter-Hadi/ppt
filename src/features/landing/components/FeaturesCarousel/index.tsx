@@ -1,4 +1,4 @@
-import { Box, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -78,30 +78,49 @@ const FeaturesCarousel = () => {
 
   const { appHeaderHeight } = useAppHeaderState();
 
-  const theme = useTheme();
-  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  // const theme = useTheme();
+  // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
   const featuresSelectorScrollContainerRef = React.useRef<HTMLDivElement>(null);
 
   const [activeFeature, setActiveFeature] =
     React.useState<IFeaturesCarouselItemKey>(FEATURES_CAROUSEL_LIST[0].value);
 
-  const scrollToCenter = (value: IFeaturesCarouselItemKey) => {
+  const scrollToView = (value: IFeaturesCarouselItemKey) => {
     const container = featuresSelectorScrollContainerRef.current;
 
     const featureCarouselItem = document.getElementById(
       `feature-carousel-${value}`,
     );
     if (container && featureCarouselItem) {
-      const itemLeft = featureCarouselItem.offsetLeft; // 子元素的左边距
-      const itemWidth = featureCarouselItem.offsetWidth; // 子元素的宽度
-      const containerWidth = container.offsetWidth; // 容器的宽度
+      const itemReact = featureCarouselItem.getBoundingClientRect();
+      const containerRect = container.getBoundingClientRect();
 
-      // 计算容器需要滚动的距离：子元素左边距 + 子元素宽度一半 - 容器宽度一半
-      const scrollLeft = itemLeft + itemWidth / 2 - containerWidth / 2;
+      // 子元素左侧相对于容器左侧的位置
+      const elemLeftRelativeToContainer = itemReact.left - containerRect.left;
 
-      // 执行滚动动画
-      container.scroll({ left: scrollLeft, behavior: 'smooth' });
+      // 子元素右侧相对于容器左侧的位置
+      const elemRightRelativeToContainer =
+        itemReact.right - containerRect.left + container.scrollLeft;
+
+      if (elemLeftRelativeToContainer < container.scrollLeft) {
+        // 子元素的最左侧在容器的可视范围左侧之外，需要向左滚动
+        container.scrollBy({
+          left: elemLeftRelativeToContainer,
+          behavior: 'smooth',
+        });
+      } else if (
+        elemRightRelativeToContainer >
+        container.scrollLeft + containerRect.width
+      ) {
+        // 子元素的最右侧在容器的可视范围右侧之外，需要向右滚动
+        // 计算滚动的目标位置：元素最右侧相对于容器左侧的位置减去容器的宽度
+
+        container.scrollBy({
+          left: elemRightRelativeToContainer - containerRect.width,
+          behavior: 'smooth',
+        });
+      }
     }
   };
 
@@ -114,7 +133,7 @@ const FeaturesCarousel = () => {
     const hash = asPath.split('#')[1] as IFeaturesCarouselItemKey;
     if (WHITE_LIST_FEATURES_ITEM_KEY.includes(hash)) {
       setActiveFeature(hash);
-      scrollToCenter(hash);
+      scrollToView(hash);
 
       // if (window && window.scrollTo) {
       //   const featureCarouseTitle = document.querySelector(
@@ -155,7 +174,7 @@ const FeaturesCarousel = () => {
       );
       const nextIndex = (currentIndex + 1) % FEATURES_CAROUSEL_LIST.length;
       setActiveFeature(FEATURES_CAROUSEL_LIST[nextIndex].value);
-      scrollToCenter(FEATURES_CAROUSEL_LIST[nextIndex].value);
+      scrollToView(FEATURES_CAROUSEL_LIST[nextIndex].value);
     }, 3500);
 
     return () => {
@@ -215,17 +234,17 @@ const FeaturesCarousel = () => {
             return (
               <Box
                 key={featuresCarouselItem.value}
-                onMouseEnter={() => {
-                  if (!isDownSm) {
-                    setActiveFeature(featuresCarouselItem.value);
-                    scrollToCenter(featuresCarouselItem.value);
-                  }
-                }}
+                // onMouseEnter={() => {
+                //   if (!isDownSm) {
+                //     setActiveFeature(featuresCarouselItem.value);
+                //     scrollToView(featuresCarouselItem.value);
+                //   }
+                // }}
                 onClick={() => {
-                  if (isDownSm) {
-                    setActiveFeature(featuresCarouselItem.value);
-                    scrollToCenter(featuresCarouselItem.value);
-                  }
+                  // if (isDownSm) {
+                  setActiveFeature(featuresCarouselItem.value);
+                  scrollToView(featuresCarouselItem.value);
+                  // }
                 }}
                 id={`feature-carousel-${featuresCarouselItem.value}`}
               >

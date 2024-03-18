@@ -44,72 +44,65 @@ export const USER_COMMENTS = [
   {
     type: 'Executives',
     label: 'Executives',
-    avatar: '/assets/landing/user-comment/10.png',
-    name: 'James Festini',
+    avatar: '/assets/landing/user-comment/1.png',
+    name: 'Idan Dalal',
     content:
-      '"hands down the best AI add on to my browser I went deep and loaded about 30 of these and tested all varieties and this was the best."',
+      'The most accessible way to automate repetitive stuff I do on Chrome! Feels too good to be free XD',
   },
 
   {
     type: 'Marketing',
     label: 'Marketing',
-    avatar: '/assets/landing/user-comment/19.png',
-    name: 'Saleh Eddine Touil',
-    content:
-      '"This was the best AI extension I found.Helped me be more formal on emails and Linkedin posts."',
+    avatar: '/assets/landing/user-comment/2.png',
+    name: 'Kaleigh Weaver',
+    content: `Maxai.me has changed my productivity every day for my content creation and has absolutely fast-tracked my goals in so many ways. It's absolutely wonderful!!!`,
   },
 
   {
     type: 'Education',
     label: 'Education',
-    avatar: '/assets/landing/user-comment/21.png',
-    name: 'Professor Escobar',
-    content:
-      '"This is a must have app extension. I cant say enough on how convenient it is to use an extension that can go between different AI models. Great job in creating this extension."',
+    avatar: '/assets/landing/user-comment/3.png',
+    name: 'Nile Stanton',
+    content: `MaxAI.me kicks butt big time! - As a teacher, researcher, curious person, I deeply appreciate it. As the person wrote below, Max is THE best and easy to use as well. Great job creating this gem. ------------------- THANKS!`,
   },
 
   {
     type: 'Consulting',
     label: 'Consulting',
-    avatar: '/assets/landing/user-comment/7.png',
-    name: 'Lori',
-    content:
-      '"MaxAI has done so much for me. Not only has he created content but has written emails for me. It saves me a lot of time which I can spend with my family."',
+    avatar: '/assets/landing/user-comment/4.png',
+    name: 'Gregg Maynard',
+    content: `Of the many ChatGPT extensions on the Chrome Web Store, this is my all-time fave. A complete solution and I absolutely love the one-click prompt library. I can even add and customize my own prompts right from the settings. 5-star extension, for sure.`,
   },
 
   {
     type: 'HR',
     label: 'HR',
-    avatar: '/assets/landing/user-comment/15.png',
-    name: 'Chelsea Myers',
-    content:
-      '"I use this software to help me technicians write invoice summaries that are shown to the customer. I am the HVAC Service Manager for a Service-based company. It help with grammar, spelling, and writing information in a clear concise way that customers can understand."',
+    avatar: '/assets/landing/user-comment/5.png',
+    name: 'Saleh Eddine Touil',
+    content: `This was the best AI extension I found. It helped me be more formal in emails and LinkedIn posts.`,
   },
 
   {
     type: 'Financial-Services',
     label: 'Financial Services',
-    avatar: '/assets/landing/user-comment/11.png',
-    name: 'Justin Terry',
-    content:
-      '"Integrated AI at its infancy and it has skipped walking and is on to running.  The uses of this extension are limitless, changed my web habits virtually overnight."',
+    avatar: '/assets/landing/user-comment/6.png',
+    name: 'Kylah Cruz',
+    content: `I found this application to be incredibly useful! I have been using it for researching articles and blogs, and it has provided me with references and sources that other AI-powered assistants can't. Highly recommend it for anyone who needs reliable information.`,
   },
 
   {
     type: 'Real-Estate',
     label: 'Real Estate',
-    avatar: '/assets/landing/user-comment/5.png',
-    name: 'Kaleigh Weaver',
-    content:
-      '"Maxai .me has changed my productivity everyday for my conntent creation and has absololutley fasttracked my goals in so many ways. Its absoloty wonderful!!"',
+    avatar: '/assets/landing/user-comment/7.png',
+    name: 'Lori',
+    content: `MaxAI has done so much for me. Not only has it created content, but it has also written emails for me. It saves me a lot of time, which I can spend with my family.`,
   },
 
   {
     type: 'Technical',
     label: 'Technical',
-    avatar: '/assets/landing/user-comment/12.png',
-    name: 'Gopinath M',
-    content:
-      '"MaxAI.me is a robust AI platform featuring a wide array of services including language processing, translation, code generation, and productivity tools. It caters to developers, businesses, and individuals, offering user-friendly AI tools that streamline workflows, automate tasks, and bolster productivity."',
+    avatar: '/assets/landing/user-comment/8.png',
+    name: 'Дмитрий Рыжов',
+    content: `It's an amazing browser extension that really makes my life on the Internet more convenient and productive. Thanks to this intelligent assistant, I can easily and quickly find the information I need, get ideas and recommendations. MaxAI.me helps me save time and effort by providing the information and tips I need right during my online searches. I appreciate the convenience and ease of use of this extension.`,
   },
 ];
