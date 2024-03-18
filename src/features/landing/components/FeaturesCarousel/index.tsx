@@ -1,9 +1,22 @@
 import { Box, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import useAppHeaderState from '@/hooks/useAppHeaderState';
+
 import FeaturesCarouselContent from './FeaturesCarouselContent';
 import FeaturesSelector from './FeaturesSelector';
+
+const WHITE_LIST_FEATURES_ITEM_KEY: IFeaturesCarouselItemKey[] = [
+  'Chat',
+  'Rewriter',
+  'Quick-Reply',
+  'Summary',
+  'Search',
+  'Art',
+  'Translator',
+];
 
 export type IFeaturesCarouselItemKey =
   | 'Chat'
@@ -61,6 +74,10 @@ const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
 const FeaturesCarousel = () => {
   const { t } = useTranslation();
 
+  const { asPath, isReady } = useRouter();
+
+  const { appHeaderHeight } = useAppHeaderState();
+
   const theme = useTheme();
   const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
@@ -88,9 +105,45 @@ const FeaturesCarousel = () => {
     }
   };
 
+  // 判断是否根据 hash 滚动到 feature 模块
+  const isScrollIntoFeature = React.useRef(false);
+  useEffect(() => {
+    if (!isReady) {
+      return;
+    }
+    const hash = asPath.split('#')[1] as IFeaturesCarouselItemKey;
+    if (WHITE_LIST_FEATURES_ITEM_KEY.includes(hash)) {
+      setActiveFeature(hash);
+      scrollToCenter(hash);
+
+      if (window && window.scrollTo) {
+        const featureCarouseTitle = document.querySelector(
+          '#homepage-features-carousel > div > h2',
+        );
+
+        if (featureCarouseTitle) {
+          const needToScrollHeight =
+            featureCarouseTitle.getBoundingClientRect().top;
+
+          const currentScrollTop =
+            window.pageYOffset || document.documentElement.scrollTop;
+          window.scrollTo({
+            top: currentScrollTop + (needToScrollHeight - appHeaderHeight),
+            behavior: 'smooth',
+          });
+          isScrollIntoFeature.current = true;
+        }
+      }
+    }
+  }, [asPath, isReady, appHeaderHeight]);
+
   const timer = React.useRef<number | null>(null);
   const stopAutoPlay = React.useRef(false);
   useEffect(() => {
+    if (isScrollIntoFeature.current) {
+      // 如果根据 hash 滚动到了 feature 模块，不需要自动播放
+      return;
+    }
     // 计时器，自动去更新 activeFeature， 每次更新至 USER_COMMENT_TYPES 下一个，超出长度回到第一个
     timer.current = window.setInterval(() => {
       if (stopAutoPlay.current) {
@@ -110,7 +163,7 @@ const FeaturesCarousel = () => {
         clearInterval(timer.current);
       }
     };
-  }, [activeFeature]);
+  }, [activeFeature, isReady]);
 
   return (
     <Box
