@@ -29,16 +29,17 @@ const HeroSection: FC<IProps> = ({ propRef }) => {
       id='homepage-hero-section'
       bgcolor='#f9f5ff'
       pt={{
-        xs: 6,
-        md: 10,
+        xs: 4,
+        md: 7,
+      }}
+      pb={9}
+      px={2}
+      overflow='hidden'
+      sx={{
         backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
-
         backgroundSize: 'cover',
         backgroundPositionY: '-40px',
       }}
-      pb={7}
-      px={2}
-      overflow='hidden'
     >
       <Box maxWidth={1312} mx='auto'>
         <Grid container rowSpacing={3} spacing={4}>
@@ -230,10 +231,12 @@ const HeroSection: FC<IProps> = ({ propRef }) => {
           <Grid item xs={12} sm={12} md={6}>
             <Stack
               position='relative'
-              p={{
-                xs: 0,
-                sm: 6,
-              }}
+              justifyContent={'center'}
+              height='100%'
+              // p={{
+              //   xs: 0,
+              //   sm: 6,
+              // }}
             >
               <Box
                 onClick={() => {
