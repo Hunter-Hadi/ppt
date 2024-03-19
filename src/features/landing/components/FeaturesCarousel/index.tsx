@@ -74,7 +74,7 @@ const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
 const FeaturesCarousel = () => {
   const { t } = useTranslation();
 
-  const { asPath, isReady } = useRouter();
+  const { asPath, isReady, query } = useRouter();
 
   const { appHeaderHeight } = useAppHeaderState();
 
@@ -124,16 +124,17 @@ const FeaturesCarousel = () => {
     }
   };
 
-  // 判断是否根据 hash 滚动到 feature 模块
+  // 判断是否根据 query 滚动到 feature 模块
   const isScrollIntoFeature = React.useRef(false);
   useEffect(() => {
     if (!isReady) {
       return;
     }
-    const hash = asPath.split('#')[1] as IFeaturesCarouselItemKey;
-    if (WHITE_LIST_FEATURES_ITEM_KEY.includes(hash)) {
-      setActiveFeature(hash);
-      scrollToView(hash);
+    const queryFeature = (query.feature?.toString() ??
+      '') as IFeaturesCarouselItemKey;
+    if (WHITE_LIST_FEATURES_ITEM_KEY.includes(queryFeature)) {
+      setActiveFeature(queryFeature);
+      scrollToView(queryFeature);
 
       // if (window && window.scrollTo) {
       //   const featureCarouseTitle = document.querySelector(
@@ -154,13 +155,13 @@ const FeaturesCarousel = () => {
       // }
       isScrollIntoFeature.current = true;
     }
-  }, [asPath, isReady, appHeaderHeight]);
+  }, [asPath, isReady, appHeaderHeight, query]);
 
   const timer = React.useRef<number | null>(null);
   const stopAutoPlay = React.useRef(false);
   useEffect(() => {
     if (isScrollIntoFeature.current) {
-      // 如果根据 hash 滚动到了 feature 模块，不需要自动播放
+      // 如果根据 query 滚动到了 feature 模块，不需要自动播放
       return;
     }
     // 计时器，自动去更新 activeFeature， 每次更新至 USER_COMMENT_TYPES 下一个，超出长度回到第一个
