@@ -6,6 +6,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import { useSendRefCount } from '@/hooks/useSendRefCount';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
+import TryExtensionButton from '@/page_components/TryExtensionButton';
 
 const PartnersUpdatedPage = () => {
   const router = useRouter();
@@ -81,21 +82,7 @@ const PartnersUpdatedPage = () => {
         </Typography> */}
       </Stack>
       <Box position='relative'>
-        <Box
-          sx={{
-            position: 'absolute',
-            top: -24,
-            left: '50%',
-            bgcolor: '#F4EBFB',
-            transform: 'translateX(-50%)',
-            borderRadius: 99,
-            px: 2,
-            py: 1,
-            whiteSpace: 'nowrap',
-          }}
-        >
-          <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
-        </Box>
+        <TryExtensionButton propRef={propRef} />
         <HomePageContent propRef={propRef} />
       </Box>
       <FixedCtaButton propRef={propRef} />

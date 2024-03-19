@@ -4,6 +4,7 @@ import React from 'react';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
+import TryExtensionButton from '@/page_components/TryExtensionButton';
 
 const J2teamSecurity = () => {
   const linkRef = 'installed-j2team-security';
@@ -51,21 +52,7 @@ const J2teamSecurity = () => {
         </Typography> */}
       </Stack>
       <Box position='relative'>
-        <Box
-          sx={{
-            position: 'absolute',
-            top: -24,
-            left: '50%',
-            bgcolor: '#F4EBFB',
-            transform: 'translateX(-50%)',
-            borderRadius: 99,
-            px: 2,
-            py: 1,
-            whiteSpace: 'nowrap',
-          }}
-        >
-          <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
-        </Box>
+        <TryExtensionButton propRef={linkRef} />
         <HomePageContent propRef={linkRef} />
       </Box>
       <FixedCtaButton propRef={linkRef} />
