@@ -178,7 +178,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
       },
       {
-        title: 'Claude-instant-100k',
+        title: 'Claude-3-opus',
         icon: 'ClaudeIcon',
         planStatus: {
           free: {
@@ -186,22 +186,67 @@ export const PLAN_FEATURES_CATEGORY: {
             statusText: 'plan_features_table__not_available',
           },
           pro: {
-            status: 'limit',
-            statusText: 'plan_features_table__600_queries_month',
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
           },
           elite: {
             status: 'all',
             statusText: 'plan_features_table__unlimited_queries',
           },
         },
-        tooltip: {
-          videoUrl: 'https://www.youtube.com/embed/qwFVrq3Epcs',
-          imageLink: `/assets/chrome-extension/upgrade/claude-instant-100k.png`,
-          desc: 'plan_features_table__claude__tooltip_desc',
+      },
+      {
+        title: 'Claude-3-sonnet',
+        icon: 'ClaudeIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
         },
-        youtube: {
-          link: 'https://www.youtube.com/embed/qwFVrq3Epcs',
-          time: '0:52',
+      },
+      {
+        title: 'Claude-3-haiku',
+        icon: 'ClaudeIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
+        },
+      },
+      {
+        title: 'Claude-2.1-200k',
+        icon: 'ClaudeIcon',
+        planStatus: {
+          free: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          pro: {
+            status: 'none',
+            statusText: 'plan_features_table__not_available',
+          },
+          elite: {
+            status: 'all',
+            statusText: 'plan_features_table__unlimited_queries',
+          },
         },
       },
       {
@@ -232,7 +277,7 @@ export const PLAN_FEATURES_CATEGORY: {
         },
       },
       {
-        title: 'Claude-2.1-200k',
+        title: 'Claude-instant-100k',
         icon: 'ClaudeIcon',
         planStatus: {
           free: {
@@ -240,13 +285,22 @@ export const PLAN_FEATURES_CATEGORY: {
             statusText: 'plan_features_table__not_available',
           },
           pro: {
-            status: 'none',
-            statusText: 'plan_features_table__not_available',
+            status: 'limit',
+            statusText: 'plan_features_table__600_queries_month',
           },
           elite: {
             status: 'all',
             statusText: 'plan_features_table__unlimited_queries',
           },
+        },
+        tooltip: {
+          videoUrl: 'https://www.youtube.com/embed/qwFVrq3Epcs',
+          imageLink: `/assets/chrome-extension/upgrade/claude-instant-100k.png`,
+          desc: 'plan_features_table__claude__tooltip_desc',
+        },
+        youtube: {
+          link: 'https://www.youtube.com/embed/qwFVrq3Epcs',
+          time: '0:52',
         },
       },
       {
