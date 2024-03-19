@@ -160,13 +160,13 @@ const PlanFeaturesTable: FC<IProps> = ({
             sx={{
               position: 'fixed',
               top: appHeaderHeight,
-              zIndex: 1,
+              zIndex: (t) => t.zIndex.drawer + 10,
               left: fixedHeaderLeft,
               right: 0,
               width: fixedHeaderWidth,
               // mx: 'auto',
 
-              overflow: 'hidden',
+              // overflow: 'hidden',
 
               /* Chrome/Safari/Opera */
               '&::-webkit-scrollbar': {
@@ -183,7 +183,8 @@ const PlanFeaturesTable: FC<IProps> = ({
               variant={variant}
               showPaymentTypeSwitch
               assignRenderPlan={assignRenderPlanPrefix}
-              // popularPlan={popularPlan}
+              popularPlan={popularPlan}
+              popularStyle={'badge'}
               sx={{
                 borderTopLeftRadius: 0,
                 borderTopRightRadius: 0,

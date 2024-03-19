@@ -24,6 +24,7 @@ interface IProps {
   variant: IFeatureTableVariant;
   assignRenderPlan?: RENDER_PLAN_TYPE[];
   popularPlan?: IFeatureColumn;
+  popularStyle?: 'badge' | 'tag';
 }
 
 const FeaturesTableHeader: FC<IProps> = ({
@@ -33,6 +34,7 @@ const FeaturesTableHeader: FC<IProps> = ({
   showPaymentTypeSwitch,
   assignRenderPlan = [],
   popularPlan,
+  popularStyle = 'tag',
 }) => {
   const { t } = useTranslation();
   const paymentType = useRecoilValue(PricingPaymentTypeAtom);
@@ -166,25 +168,47 @@ const FeaturesTableHeader: FC<IProps> = ({
                     borderTopRightRadius: 2,
                   }}
                 />
-                <Stack
-                  justifyContent={'center'}
-                  alignItems={'center'}
-                  sx={{
-                    position: 'absolute',
-                    top: -34,
-                    height: 28,
-                    left: -1,
-                    right: -1,
-                    // width: '100%',
-                    px: 1,
-                    py: 0.5,
-                    color: '#fff',
-                    borderRadius: '8px 8px 0px 0px',
-                    bgcolor: 'primary.main',
-                  }}
-                >
-                  {t('modules:plan_features_table__most_popular')}
-                </Stack>
+                {popularStyle === 'tag' && (
+                  <Stack
+                    justifyContent={'center'}
+                    alignItems={'center'}
+                    sx={{
+                      position: 'absolute',
+                      top: -34,
+                      height: 28,
+                      left: -1,
+                      right: -1,
+                      // width: '100%',
+                      px: 1,
+                      py: 0.5,
+                      color: '#fff',
+                      borderRadius: '8px 8px 0px 0px',
+                      bgcolor: 'primary.main',
+                    }}
+                  >
+                    {t('modules:plan_features_table__most_popular')}
+                  </Stack>
+                )}
+                {popularStyle === 'badge' && (
+                  <Stack
+                    justifyContent={'center'}
+                    alignItems={'center'}
+                    sx={{
+                      position: 'absolute',
+                      top: 0,
+                      width: 110,
+                      height: 32,
+                      right: 0,
+                      color: '#fff',
+                      bgcolor: 'primary.main',
+                      borderBottomLeftRadius: 16,
+                      fontSize: 14,
+                      textAlign: 'center',
+                    }}
+                  >
+                    {t('modules:plan_features_table__most_popular')}
+                  </Stack>
+                )}
               </>
             )}
 
