@@ -31,19 +31,38 @@ const UserComment = () => {
   const scrollToCenter = (value: IUserCommentType) => {
     const container = commentSelectorScrollContainerRef.current;
 
-    const featureCarouselItem = document.getElementById(
-      `feature-carousel-${value}`,
+    const userCommentItem = document.getElementById(
+      `user-comment-type-${value}`,
     );
-    if (container && featureCarouselItem) {
-      const itemLeft = featureCarouselItem.offsetLeft; // 子元素的左边距
-      const itemWidth = featureCarouselItem.offsetWidth; // 子元素的宽度
-      const containerWidth = container.offsetWidth; // 容器的宽度
+    if (container && userCommentItem) {
+      const itemReact = userCommentItem.getBoundingClientRect();
+      const containerRect = container.getBoundingClientRect();
 
-      // 计算容器需要滚动的距离：子元素左边距 + 子元素宽度一半 - 容器宽度一半
-      const scrollLeft = itemLeft + itemWidth / 2 - containerWidth / 2;
+      // 子元素左侧相对于容器左侧的位置
+      const elemLeftRelativeToContainer = itemReact.left - containerRect.left;
 
-      // 执行滚动动画
-      container.scroll({ left: scrollLeft, behavior: 'smooth' });
+      // 子元素右侧相对于容器左侧的位置
+      const elemRightRelativeToContainer =
+        itemReact.right - containerRect.left + container.scrollLeft;
+
+      if (elemLeftRelativeToContainer < container.scrollLeft) {
+        // 子元素的最左侧在容器的可视范围左侧之外，需要向左滚动
+        container.scrollBy({
+          left: elemLeftRelativeToContainer,
+          behavior: 'smooth',
+        });
+      } else if (
+        elemRightRelativeToContainer >
+        container.scrollLeft + containerRect.width
+      ) {
+        // 子元素的最右侧在容器的可视范围右侧之外，需要向右滚动
+        // 计算滚动的目标位置：元素最右侧相对于容器左侧的位置减去容器的宽度
+
+        container.scrollBy({
+          left: elemRightRelativeToContainer - containerRect.width,
+          behavior: 'smooth',
+        });
+      }
     }
   };
 
@@ -134,7 +153,7 @@ const UserComment = () => {
                     scrollToCenter(commentTypeItem.type);
                   }
                 }}
-                id={`feature-carousel-${commentTypeItem.type}`}
+                id={`user-comment-type-${commentTypeItem.type}`}
               >
                 <CommentTypeSelector
                   active={activeFeature === commentTypeItem.type}
