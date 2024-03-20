@@ -195,6 +195,9 @@ const AffiliateHeroSection = () => {
                 mt: 6,
                 fontSize: 18,
                 mx: 'auto',
+                '&:hover': {
+                  bgcolor: '#000',
+                },
               }}
               endIcon={<CallMadeOutlinedIcon />}
             >
