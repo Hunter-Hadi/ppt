@@ -8,7 +8,7 @@ export const MAXAI_RELEASE_NOTES = [
         title: 'Summarize any page in your way',
         lists: [
           {
-            module: 'Choose your preferred method of summarizing anything',
+            module: 'Summarize in your preferred method',
             desc: 'We are offering more options when summarizing any page, PDF, video, or email - such as TL;DR, Key Takeaways, or both. You name it.',
           },
           {
