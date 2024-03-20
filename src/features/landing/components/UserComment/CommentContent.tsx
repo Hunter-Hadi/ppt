@@ -61,7 +61,7 @@ const CommentContent: FC<IProps> = ({ activeCommentType }) => {
         }}
         sx={{
           cursor: 'default',
-          minHeight: 400,
+          minHeight: 570,
         }}
       >
         <Typography

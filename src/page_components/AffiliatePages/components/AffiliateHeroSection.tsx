@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 import { A16zIcon } from '@/features/landing/components/HeroSection';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
+import { AFFILIATE_PROGRAM_LINK } from '@/page_components/AffiliatePages/constant';
 import IndicatorDecorator from '@/page_components/IndicatorDecorator';
 import { safeOpenUrl } from '@/utils/location';
 
@@ -142,9 +143,12 @@ const AffiliateHeroSection = () => {
           pt={9}
           pb={12}
           sx={{
-            bgcolor: 'primary.main',
+            bgcolor: '#7e3bc1',
             color: '#fff',
             borderRadius: 4,
+            backgroundImage: 'url(/assets/affiliate/hero-section-bg.png)',
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
           }}
         >
           <Stack>
@@ -186,6 +190,8 @@ const AffiliateHeroSection = () => {
             </Typography>
 
             <Button
+              href={AFFILIATE_PROGRAM_LINK}
+              target='_blank'
               variant='contained'
               sx={{
                 width: 260,
