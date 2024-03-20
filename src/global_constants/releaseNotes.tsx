@@ -1,5 +1,34 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.1.0',
+    date: '2024-03-20',
+
+    content: [
+      {
+        title: 'Summarize any page in your way',
+        lists: [
+          {
+            module: 'Choose your preferred method of summarizing anything',
+            desc: 'We are offering more options when summarizing any page, PDF, video, or email - such as TL;DR, Key Takeaways, or both. You name it.',
+          },
+          {
+            module: 'Summarize YouTube video comments',
+            desc: 'Get a summary of the top comments to quickly understand the main opinions and overall sentiment shared by viewers with just one click.',
+          },
+        ],
+      },
+      {
+        title: 'Create AI art and images like a pro',
+        lists: [
+          {
+            module: 'Introducing Pro Art mode',
+            desc: 'Have full control over art generation without AI-powered art prompts optimization.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.0.9',
     date: '2024-03-15',
 
@@ -30,6 +59,10 @@ export const MAXAI_RELEASE_NOTES = [
           {
             module: 'Claude-3-sonnet with vision',
             desc: 'Strikes the ideal balance between intelligence and speed -particularly for high-volume tasks. For the vast majority of workloads, Sonnet is 2x faster than Claude 2 and Claude 2.1 with higher levels of intelligence.',
+          },
+          {
+            module: 'Claude-3-haiku with vision',
+            desc: 'The fastest model by Anthropic in its intelligence class. Haiku is a versatile solution for a wide range of everyday tasks.',
           },
         ],
       },
