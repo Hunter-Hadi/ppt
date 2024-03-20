@@ -1,5 +1,21 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.0.9',
+    date: '2024-03-15',
+
+    content: [
+      {
+        title: 'Gemini now has vision',
+        lists: [
+          {
+            module: 'Gemini-pro with vision',
+            desc: 'Built from the ground up for multimodality by Google, Gemini on MaxAI now supports image understanding.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.0.8',
     date: '2024-03-09',
 
