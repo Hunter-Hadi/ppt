@@ -7,12 +7,13 @@ import {
   AccordionSummaryProps,
   Box,
   Paper,
+  paperClasses,
   styled,
   Typography,
 } from '@mui/material';
 import { useRouter } from 'next/router';
 import React, { FC, useState } from 'react';
-import { TFunction, useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 import AppPaperCardLayout from '@/app_layout/AppPaperCardLayout';
 import { GaContent, gaEvent } from '@/utils/gtag';
@@ -56,8 +57,8 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 export type IFAQItem = {
   key: string;
-  title: (t: TFunction<['modules']>) => React.ReactNode;
-  description: (t: TFunction<['modules']>) => React.ReactNode;
+  title: (t: any) => React.ReactNode;
+  description: (t: any) => React.ReactNode;
 };
 export interface IFAQListProps {
   title?: React.ReactNode;
@@ -75,7 +76,7 @@ const FAQList: FC<IFAQListProps> = ({
   defaultExpands,
   onChange,
 }) => {
-  const { t } = useTranslation('modules');
+  const { t } = useTranslation();
   const router = useRouter();
 
   const [expandKeys, setExpandKeys] = useState(() => {
@@ -105,7 +106,13 @@ const FAQList: FC<IFAQListProps> = ({
     onChange && onChange(newKeys);
   };
   return (
-    <Box>
+    <Box
+      sx={{
+        [`& > .${paperClasses.root}`]: {
+          mb: 2,
+        },
+      }}
+    >
       {title && (
         <AppPaperCardLayout
           sx={{ mb: 1, border: '1px solid rgba(0, 0, 0, 0.12)' }}

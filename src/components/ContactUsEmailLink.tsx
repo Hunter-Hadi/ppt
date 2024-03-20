@@ -19,7 +19,7 @@ const ContactUsEmailLink: FC<IContactUsEmailLinkProps> = ({
   });
   return (
     <ProLink
-      href={SIMPLY_TRENDS_APP_EMAIL}
+      href={`mailto:${SIMPLY_TRENDS_APP_EMAIL}`}
       underline='hover'
       muiLinkProps={{ title: 'hello@maxai.me' }}
       onClick={() => {
