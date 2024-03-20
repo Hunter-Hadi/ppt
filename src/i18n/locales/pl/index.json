@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Płatności będą śledzone i wysyłane do wszystkich partnerów 15. każdego miesiąca.",
     "faq__question4__description__part2": "Przetworzenie płatności może zająć kilka dni, więc proszę poczekać 3-5 dni, aby zobaczyć środki na koncie.",
     "faq__question5__title": "Jak mogę śledzić wyniki poleceń?",
-    "faq__question5__description": "Możesz zalogować się do swojego konta partnerskiego na maxai.getrewardful.com, aby śledzić wyniki poleceń.",
     "faq__question6__title": "Gdzie mogę promować MaxAI?",
     "faq__question6__description": "Na swoich kanałach mediów społecznościowych, blogach, grupach społecznościowych, liście mailingowej, aplikacjach internetowych, aplikacjach mobilnych lub wszędzie tam, gdzie uważasz, że MaxAI może przynieść korzyści publiczności.",
     "faq__question7__title": "Czy mogę promować mój link partnerski za pomocą płatnej reklamy?",
     "faq__question7__description__part1": "Nie możesz używać swojego linku partnerskiego w żadnej płatnej reklamie ani płatnych mediach. Dotyczy to reklam w wyszukiwarkach, reklam na Facebooku, reklam TikTok itp., które konkurują z marketingiem MaxAI i powodują zamieszanie potencjalnych klientów.",
-    "faq__question7__description__part2": "Nadużycia, oszustwa i naruszenia zasad spowodują zablokowanie twojego konta i utratę istniejących i przyszłych prowizji."
+    "faq__question7__description__part2": "Nadużycia, oszustwa i naruszenia zasad spowodują zablokowanie twojego konta i utratę istniejących i przyszłych prowizji.",
+    "faq__question5__description__part1": "Możesz zalogować się na swoje konto partnerskie na",
+    "faq__question5__description__part2": ", aby śledzić wyniki poleceń."
   }
 }

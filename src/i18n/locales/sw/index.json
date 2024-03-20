@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Malipo yatafuatiliwa na kutumwa kwa washirika wote tarehe 15 ya kila mwezi.",
     "faq__question4__description__part2": "Inaweza kuchukua siku chache kusindika malipo, kwa hivyo tafadhali toa siku 3-5 kuona pesa zinazoingia kwenye akaunti yako.",
     "faq__question5__title": "Ninawezaje kufuatilia utendaji wa rufaa yangu?",
-    "faq__question5__description": "Unaweza kuingia kwenye akaunti yako ya washirika kwenye maxai.getrewardful.com ili kufuatilia utendaji wa rufaa yako.",
     "faq__question6__title": "Ninaweza kuhamasisha MaxAI wapi?",
     "faq__question6__description": "Vituo vyako vya media ya kijamii, blogi, vikundi vya kijamii, orodha ya barua, programu za wavuti, programu za rununu, au mahali popote unafikiri MaxAI inaweza kuwanufaisha hadhira.",
     "faq__question7__title": "Je, naweza kuhamasisha kiunga changu cha washirika na matangazo ya kulipwa?",
     "faq__question7__description__part1": "Huwezi kutumia kiunga chako cha washirika katika matangazo yoyote ya kulipwa au vyombo vya habari vilivyolipwa. Hii ni pamoja na matangazo ya injini ya utaftaji, matangazo ya Facebook, matangazo ya TikTok, au chochote kinachofanana ambacho kingeshindana na uuzaji wa MaxAI na kusababisha mkanganyiko kwa wateja watarajiwa.",
-    "faq__question7__description__part2": "Matumizi mabaya, udanganyifu, na uvunjaji wa sera utasababisha akaunti yako kufungiwa na tume zilizopo na zijazo kufutwa."
+    "faq__question7__description__part2": "Matumizi mabaya, udanganyifu, na uvunjaji wa sera utasababisha akaunti yako kufungiwa na tume zilizopo na zijazo kufutwa.",
+    "faq__question5__description__part1": "Unaweza kuingia kwenye akaunti yako ya ushirika kwenye",
+    "faq__question5__description__part2": "kufuatilia utendaji wako wa rufaa."
   }
 }

@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Maksājumi tiks sekoti un nosūtīti visiem partneriem katru mēneša 15. dienu.",
     "faq__question4__description__part2": "Maksājuma apstrāde var aizņemt dažas dienas, tāpēc lūdzu, ļauj tam 3-5 dienas, lai redzētu naudu savā kontā.",
     "faq__question5__title": "Kā es varu sekot līdzi maniem ieteikumu rezultātiem?",
-    "faq__question5__description": "Tu vari pieteikties savā partnera kontā vietnē maxai.getrewardful.com, lai sekotu līdzi savam ieteikumu rezultātam.",
     "faq__question6__title": "Kur es varu reklamēt MaxAI?",
     "faq__question6__description": "Tavos sociālo mediju kanālos, blogos, sociālajās grupās, sūtīšanas sarakstos, tīmekļa lietotnēs, mobilajās lietotnēs vai jebkur citur, kur tu uzskati, ka MaxAI varētu noderēt auditorijai.",
     "faq__question7__title": "Vai es varu reklamēt savu partnera saiti ar maksas reklāmu?",
     "faq__question7__description__part1": "Tu nedrīksti izmantot savu partnera saiti nevienā maksas reklāmā vai maksas medijā. Tas ietver meklētājmeklētāja reklāmas, Facebook reklāmas, TikTok reklāmas vai jebko līdzīgu, kas konkurētu ar MaxAI mārketingu un radītu neskaidrību potenciālajiem klientiem.",
-    "faq__question7__description__part2": "Nesankcionēta izmantošana, ļaunprātīga izmantošana un politikas pārkāpumi rezultēs tavas konta bloķēšanā un jebkuru esošo un turpmāko komisiju anulēšanā."
+    "faq__question7__description__part2": "Nesankcionēta izmantošana, ļaunprātīga izmantošana un politikas pārkāpumi rezultēs tavas konta bloķēšanā un jebkuru esošo un turpmāko komisiju anulēšanā.",
+    "faq__question5__description__part1": "Jūs varat pieteikties savā filiāles kontā vietnē",
+    "faq__question5__description__part2": "lai sekotu līdzi jūsu ieteikumu veiktspējai."
   }
 }

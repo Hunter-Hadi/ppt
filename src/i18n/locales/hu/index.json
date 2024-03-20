@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "A kifizetéseket minden hónap 15-én követjük és küldjük el az összes partnernek.",
     "faq__question4__description__part2": "A kifizetés feldolgozása néhány napig is eltarthat, ezért kérjük, adjon 3-5 napot a pénz megérkezéséhez a számlájára.",
     "faq__question5__title": "Hogyan követhetem nyomon az ajánlásaim teljesítményét?",
-    "faq__question5__description": "Bejelentkezhet az affiliate fiókjába a maxai.getrewardful.com weboldalon, hogy nyomon kövesse az ajánlásainak teljesítményét.",
     "faq__question6__title": "Hol promótálhatom a MaxAI-t?",
     "faq__question6__description": "A közösségi média csatornáin, blogokon, közösségi csoportokban, e-mailes listákon, webes alkalmazásokban, mobilalkalmazásokban vagy bárhol, ahol úgy gondolja, hogy a MaxAI hasznos lehet a közönségnek.",
     "faq__question7__title": "Promótálhatom az affiliate linkemet fizetett hirdetésekkel?",
     "faq__question7__description__part1": "Nem használhatja az affiliate linkjét semmilyen fizetett hirdetésben vagy fizetett médiában. Ide tartoznak a keresőmotor hirdetések, a Facebook hirdetések, a TikTok hirdetések vagy bármilyen más hasonló tevékenység, amely versenyezne a MaxAI marketingjével és zavarba ejtené a potenciális ügyfeleket.",
-    "faq__question7__description__part2": "Az visszaélés, a játékosság és a szabályszegések eredményeként az Ön fiókjának felfüggesztése és minden meglévő és jövőbeli jutalékának elvesztése következik be."
+    "faq__question7__description__part2": "Az visszaélés, a játékosság és a szabályszegések eredményeként az Ön fiókjának felfüggesztése és minden meglévő és jövőbeli jutalékának elvesztése következik be.",
+    "faq__question5__description__part1": "Bejelentkezhetsz az affiliate fiókodba a következő oldalon:",
+    "faq__question5__description__part2": "ahhoz, hogy nyomon követhesd a hivatkozási teljesítményedet."
   }
 }

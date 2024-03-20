@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Ödemeler her ayın 15'inde takip edilir ve tüm ortaklara gönderilir.",
     "faq__question4__description__part2": "Ödemeyi işleme koymak birkaç gün sürebilir, bu yüzden hesabınıza fonların geçmesini görmek için 3-5 gün bekleyin.",
     "faq__question5__title": "Yönlendirme performansımı nasıl takip edebilirim?",
-    "faq__question5__description": "Yönlendirme performansınızı takip etmek için maxai.getrewardful.com adresindeki ortaklık hesabınıza giriş yapabilirsiniz.",
     "faq__question6__title": "MaxAI'yi nerede tanıtabilirim?",
     "faq__question6__description": "Sosyal medya kanallarınız, bloglarınız, sosyal gruplarınız, posta listeleriniz, web uygulamalarınız, mobil uygulamalarınız veya MaxAI'nin hedef kitlesine fayda sağlayabileceğinizi düşündüğünüz herhangi bir yerde.",
     "faq__question7__title": "Ortaklık bağlantımı ücretli reklamlarda kullanabilir miyim?",
     "faq__question7__description__part1": "Ortaklık bağlantınızı ücretli reklamlarda veya ücretli medyada kullanamazsınız. Bu, arama motoru reklamları, Facebook reklamları, TikTok reklamları veya MaxAI'nin pazarlamasıyla rekabet eden ve potansiyel müşteriler için kafa karışıklığı yaratan herhangi bir benzer şeyi içerir.",
-    "faq__question7__description__part2": "Kötüye kullanım, oyun ve politika ihlalleri hesabınızın yasaklanmasına ve mevcut ve gelecekteki komisyonların iptal edilmesine neden olacaktır."
+    "faq__question7__description__part2": "Kötüye kullanım, oyun ve politika ihlalleri hesabınızın yasaklanmasına ve mevcut ve gelecekteki komisyonların iptal edilmesine neden olacaktır.",
+    "faq__question5__description__part1": "Bağlı kuruluş hesabınıza giriş yapabilirsiniz",
+    "faq__question5__description__part2": "bağlantı performansınızı takip etmek için."
   }
 }

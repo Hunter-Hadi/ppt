@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Betalinger vil bli sporet og sendt til alle tilknyttede den 15. i hver måned.",
     "faq__question4__description__part2": "Det kan ta noen dager å behandle betalingen, så vennligst gi det 3-5 dager før pengene vises på kontoen din.",
     "faq__question5__title": "Hvordan kan jeg spore henvisningsytelsen min?",
-    "faq__question5__description": "Du kan logge inn på din tilknyttede konto på maxai.getrewardful.com for å spore henvisningsytelsen din.",
     "faq__question6__title": "Hvor kan jeg markedsføre MaxAI?",
     "faq__question6__description": "Dine sosiale mediekanaler, blogger, sosiale grupper, e-postliste, webapper, mobilapper eller hvor som helst du tror MaxAI kan være til nytte for publikummet.",
     "faq__question7__title": "Kan jeg markedsføre min tilknyttede lenke med betalt annonsering?",
     "faq__question7__description__part1": "Du kan ikke bruke din tilknyttede lenke i noen form for betalt annonsering eller betalt media. Dette inkluderer søkemotorannonser, Facebook-annonser, TikTok-annonser eller noe lignende som ville konkurrere med MaxAI sin markedsføring og forvirre potensielle kunder.",
-    "faq__question7__description__part2": "Misbruk, juks og brudd på retningslinjene vil resultere i at kontoen din blir utestengt og eventuelle eksisterende og fremtidige provisjoner blir inndratt."
+    "faq__question7__description__part2": "Misbruk, juks og brudd på retningslinjene vil resultere i at kontoen din blir utestengt og eventuelle eksisterende og fremtidige provisjoner blir inndratt.",
+    "faq__question5__description__part1": "Du kan logge inn på din tilknyttede konto på",
+    "faq__question5__description__part2": "for å spore ytelsen til henvisningene dine."
   }
 }

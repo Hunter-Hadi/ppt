@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "每月15日跟踪并向所有联盟会员发送付款。",
     "faq__question4__description__part2": "处理付款可能需要几天时间，请给予3-5天时间查看资金是否到账。",
     "faq__question5__title": "如何跟踪我的推荐表现？",
-    "faq__question5__description": "您可以登录maxai.getrewardful.com上的联盟账户来跟踪您的推荐表现。",
     "faq__question6__title": "我可以在哪里推广MaxAI？",
     "faq__question6__description": "您的社交媒体渠道、博客、社交群组、邮件列表、网络应用程序、移动应用程序或任何您认为MaxAI可能受益的地方。",
     "faq__question7__title": "我可以通过付费广告推广我的联盟链接吗？",
     "faq__question7__description__part1": "您不得在任何付费广告或付费媒体中使用您的联盟链接。这包括搜索引擎广告、Facebook广告、TikTok广告或任何类似的会与MaxAI的营销竞争并给潜在客户带来困惑的广告。",
-    "faq__question7__description__part2": "滥用、操纵和违反政策将导致您的账户被封禁，并且现有和未来的佣金将被取消。"
+    "faq__question7__description__part2": "滥用、操纵和违反政策将导致您的账户被封禁，并且现有和未来的佣金将被取消。",
+    "faq__question5__description__part1": "您可以登录您的联盟账户",
+    "faq__question5__description__part2": "来跟踪您的推荐表现。"
   }
 }

@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Platby budou sledovány a odesílány všem partnerům 15. každého měsíce.",
     "faq__question4__description__part2": "Zpracování platby může trvat několik dní, takže prosím dejte jí 3-5 dní, abyste viděli příchozí finanční prostředky na svém účtu.",
     "faq__question5__title": "Jak mohu sledovat výkon mého doporučení?",
-    "faq__question5__description": "Můžete se přihlásit do svého partnerského účtu na maxai.getrewardful.com a sledovat výkon vašeho doporučení.",
     "faq__question6__title": "Kde mohu propagovat MaxAI?",
     "faq__question6__description": "Vaše sociální média, blogy, sociální skupiny, mailing list, webové aplikace, mobilní aplikace nebo kdekoli, kde si myslíte, že by MaxAI mohl prospět publiku.",
     "faq__question7__title": "Mohu propagovat svůj partnerský odkaz placenou reklamou?",
     "faq__question7__description__part1": "Nesmíte používat svůj partnerský odkaz v žádné placené reklamě nebo placených médiích. To zahrnuje reklamy ve vyhledávačích, reklamy na Facebooku, reklamy na TikToku nebo cokoli podobného, co by konkurovalo marketingu MaxAI a způsobovalo zmatek potenciálním zákazníkům.",
-    "faq__question7__description__part2": "Zneužívání, manipulace a porušování pravidel povede k zablokování vašeho účtu a ztrátě stávajících i budoucích provizí."
+    "faq__question7__description__part2": "Zneužívání, manipulace a porušování pravidel povede k zablokování vašeho účtu a ztrátě stávajících i budoucích provizí.",
+    "faq__question5__description__part1": "Můžete se přihlásit do svého partnerského účtu na",
+    "faq__question5__description__part2": "pro sledování výkonu vašeho doporučení."
   }
 }

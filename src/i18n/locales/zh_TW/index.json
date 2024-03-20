@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "每月 15 日將跟踪並向所有聯盟成員發送付款。",
     "faq__question4__description__part2": "處理付款可能需要幾天時間，所以請給予 3-5 天時間，以便看到資金進入您的帳戶。",
     "faq__question5__title": "如何追踪我的轉介表現？",
-    "faq__question5__description": "您可以登錄 maxai.getrewardful.com 上的聯盟帳戶來追踪您的轉介表現。",
     "faq__question6__title": "我可以在哪裡推廣 MaxAI？",
     "faq__question6__description": "您的社交媒體渠道、博客、社交群組、郵件列表、網絡應用程序、移動應用程序或任何您認為 MaxAI 可能受眾受益的地方。",
     "faq__question7__title": "我可以通過付費廣告推廣我的聯盟連結嗎？",
     "faq__question7__description__part1": "您不得在任何付費廣告或付費媒體中使用您的聯盟連結。這包括搜索引擎廣告、Facebook 廣告、TikTok 廣告或任何類似的可能與 MaxAI 的營銷競爭並對潛在客戶造成困惑的廣告。",
-    "faq__question7__description__part2": "濫用、遊戲和政策違規將導致您的帳戶被禁止並且任何現有和未來的佣金被沒收。"
+    "faq__question7__description__part2": "濫用、遊戲和政策違規將導致您的帳戶被禁止並且任何現有和未來的佣金被沒收。",
+    "faq__question5__description__part1": "您可以在",
+    "faq__question5__description__part2": "登入您的聯盟帳戶以追蹤您的推薦表現。"
   }
 }

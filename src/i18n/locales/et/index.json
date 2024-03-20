@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Makseid jälgitakse ja saadetakse kõigile sidusettevõtetele igakuiselt 15. kuupäeval.",
     "faq__question4__description__part2": "Makse töötlemine võib võtta paar päeva, seega palun andke selleks 3-5 päeva, et näha raha oma kontole laekumas.",
     "faq__question5__title": "Kuidas saan jälgida oma viitamise tulemuslikkust?",
-    "faq__question5__description": "Saate sisse logida oma sidusprogrammi kontole aadressil maxai.getrewardful.com, et jälgida oma viitamise tulemuslikkust.",
     "faq__question6__title": "Kus saan MaxAI-d reklaamida?",
     "faq__question6__description": "Teie sotsiaalmeedia kanalid, blogid, sotsiaalsed grupid, meililistid, veebirakendused, mobiilirakendused või kõikjal, kus arvate, et MaxAI võib kasuks tulla sihtrühmadele.",
     "faq__question7__title": "Kas ma võin oma siduslingiga teha tasulisi reklaame?",
     "faq__question7__description__part1": "Te ei tohi oma siduslinki kasutada üheski tasulises reklaamis ega tasulises meedias. See hõlmab otsingumootori reklaame, Facebooki reklaame, TikToki reklaame või midagi sarnast, mis konkureeriks MaxAI turundusega ja tekitaks potentsiaalsetele klientidele segadust.",
-    "faq__question7__description__part2": "Konto keelamine ja olemasolevate ning tulevaste komisjonitasude tühistamine on kuritarvitamise, mängimise ja poliitikavastaste rikkumiste tagajärg."
+    "faq__question7__description__part2": "Konto keelamine ja olemasolevate ning tulevaste komisjonitasude tühistamine on kuritarvitamise, mängimise ja poliitikavastaste rikkumiste tagajärg.",
+    "faq__question5__description__part1": "Saate sisse logida oma sidusettevõtte kontole",
+    "faq__question5__description__part2": "oma viitamise tulemuste jälgimiseks."
   }
 }

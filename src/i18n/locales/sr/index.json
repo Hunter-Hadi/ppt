@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Plaćanja će biti praćena i poslata svim saradnicima 15. u mesecu.",
     "faq__question4__description__part2": "Može biti potrebno nekoliko dana da se obradi plaćanje, zato molimo sačekaj 3-5 dana da vidiš sredstva na svom računu.",
     "faq__question5__title": "Kako mogu pratiti performanse preporuka?",
-    "faq__question5__description": "Možeš se prijaviti na svoj partnerski nalog na maxai.getrewardful.com da pratiš performanse tvojih preporuka.",
     "faq__question6__title": "Gde mogu promovisati MaxAI?",
     "faq__question6__description": "Tvoji kanali društvenih mreža, blogovi, društvene grupe, mailing lista, web aplikacije, mobilne aplikacije ili bilo gde gde veruješ da bi MaxAI mogao koristiti publici.",
     "faq__question7__title": "Da li mogu promovisati svoj partnerski link putem plaćenog oglašavanja?",
     "faq__question7__description__part1": "Ne možeš koristiti svoj partnerski link u bilo kojem plaćenom oglašavanju ili plaćenim medijima. To uključuje oglase na pretraživačima, Facebook oglase, TikTok oglase ili bilo šta slično što bi konkurisalo MaxAI-jevom marketingu i izazvalo zabunu potencijalnih kupaca.",
-    "faq__question7__description__part2": "Zloupotreba, manipulacija i kršenje pravila će rezultirati zabranom tvog naloga i gubitkom postojeće i buduće provizije."
+    "faq__question7__description__part2": "Zloupotreba, manipulacija i kršenje pravila će rezultirati zabranom tvog naloga i gubitkom postojeće i buduće provizije.",
+    "faq__question5__description__part1": "Možete se prijaviti na svoj partnerski nalog na",
+    "faq__question5__description__part2": "da pratite performanse vaših preporuka."
   }
 }

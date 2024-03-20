@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "支払いは毎月15日に追跡され、すべてのアフィリエイトに送信されます。",
     "faq__question4__description__part2": "支払いの処理には数日かかる場合がありますので、3〜5日かかることをご了承ください。",
     "faq__question5__title": "紹介パフォーマンスをどのように追跡できますか？",
-    "faq__question5__description": "maxai.getrewardful.comでアフィリエイトアカウントにログインして、紹介パフォーマンスを追跡することができます。",
     "faq__question6__title": "MaxAIをどこで宣伝できますか？",
     "faq__question6__description": "ソーシャルメディアチャンネル、ブログ、ソーシャルグループ、メーリングリスト、Webアプリ、モバイルアプリ、またはMaxAIがオーディエンスに利益をもたらすと考える場所などで宣伝できます。",
     "faq__question7__title": "有料広告でアフィリエイトリンクを宣伝できますか？",
     "faq__question7__description__part1": "アフィリエイトリンクを有料広告や有料メディアで使用することはできません。これには、検索エンジン広告、Facebook広告、TikTok広告などが含まれます。これらはMaxAIのマーケティングと競合し、潜在的な顧客に混乱を引き起こす可能性があります。",
-    "faq__question7__description__part2": "不正使用、ゲーミング、ポリシー違反は、アカウントの禁止および既存および将来の報酬の喪失につながります。"
+    "faq__question7__description__part2": "不正使用、ゲーミング、ポリシー違反は、アカウントの禁止および既存および将来の報酬の喪失につながります。",
+    "faq__question5__description__part1": "アフィリエイトアカウントにログインできます。",
+    "faq__question5__description__part2": "紹介のパフォーマンスを追跡するために。"
   }
 }

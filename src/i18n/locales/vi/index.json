@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Thanh toán sẽ được theo dõi và gửi cho tất cả các liên kết vào ngày 15 của mỗi tháng.",
     "faq__question4__description__part2": "Có thể mất vài ngày để xử lý thanh toán, vì vậy hãy cho nó từ 3-5 ngày để thấy tiền vào tài khoản của bạn.",
     "faq__question5__title": "Làm thế nào để tôi theo dõi hiệu suất giới thiệu của mình?",
-    "faq__question5__description": "Bạn có thể đăng nhập vào tài khoản liên kết của mình trên maxai.getrewardful.com để theo dõi hiệu suất giới thiệu của bạn.",
     "faq__question6__title": "Tôi có thể quảng cáo MaxAI ở đâu?",
     "faq__question6__description": "Các kênh truyền thông xã hội của bạn, blog, nhóm xã hội, danh sách gửi thư, ứng dụng web, ứng dụng di động hoặc bất kỳ nơi nào bạn tin rằng MaxAI có thể mang lại lợi ích cho khán giả.",
     "faq__question7__title": "Tôi có thể quảng cáo liên kết liên kết của mình bằng quảng cáo trả tiền không?",
     "faq__question7__description__part1": "Bạn không được sử dụng liên kết liên kết của mình trong bất kỳ quảng cáo trả tiền hoặc phương tiện trả tiền nào. Điều này bao gồm quảng cáo trên công cụ tìm kiếm, quảng cáo Facebook, quảng cáo TikTok hoặc bất kỳ thứ gì tương tự có thể cạnh tranh với chiến lược tiếp thị của MaxAI và gây nhầm lẫn cho khách hàng tiềm năng.",
-    "faq__question7__description__part2": "Lạm dụng, chơi game và vi phạm chính sách sẽ dẫn đến việc bị cấm tài khoản và mất hoa hồng hiện tại và tương lai."
+    "faq__question7__description__part2": "Lạm dụng, chơi game và vi phạm chính sách sẽ dẫn đến việc bị cấm tài khoản và mất hoa hồng hiện tại và tương lai.",
+    "faq__question5__description__part1": "Bạn có thể đăng nhập vào tài khoản liên kết của mình trên",
+    "faq__question5__description__part2": "để theo dõi hiệu suất giới thiệu của bạn."
   }
 }

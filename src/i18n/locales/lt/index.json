@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Mokėjimai bus stebimi ir išsiųsti visiems afiliatams kiekvieno mėnesio 15 dieną.",
     "faq__question4__description__part2": "Gali užtrukti kelias dienas apdoroti mokėjimą, todėl prašome palaukti 3-5 dienas, kad pamatytumėte pinigus savo sąskaitoje.",
     "faq__question5__title": "Kaip galiu stebėti savo nuorodos veiklą?",
-    "faq__question5__description": "Galite prisijungti prie savo afiliacijos paskyros adresu maxai.getrewardful.com ir stebėti savo nuorodos veiklą.",
     "faq__question6__title": "Kur galiu reklamuoti MaxAI?",
     "faq__question6__description": "Jūsų socialiniuose tinkluose, tinklaraščiuose, socialinėse grupėse, pašto sąraše, internetinėse programose, mobiliuosiuose programose ar bet kur, kur manote, kad MaxAI gali būti naudingas auditorijai.",
     "faq__question7__title": "Ar galiu reklamuoti savo afiliacijos nuorodą su mokama reklama?",
     "faq__question7__description__part1": "Negalite naudoti savo afiliacijos nuorodos jokioje mokamoje reklamoje ar mokamose žiniasklaidos priemonėse. Tai apima paieškos variklio reklamas, „Facebook“ reklamas, „TikTok“ reklamas ar bet ką panašaus, kas konkuruotų su MaxAI rinkodara ir sukeltų painiavą potencialiems klientams.",
-    "faq__question7__description__part2": "Piktnaudžiavimas, manipuliavimas ir taisyklių pažeidimai rezultuos jūsų paskyros uždraudimu ir visų esamų ir būsimų komisinių atsisakymu."
+    "faq__question7__description__part2": "Piktnaudžiavimas, manipuliavimas ir taisyklių pažeidimai rezultuos jūsų paskyros uždraudimu ir visų esamų ir būsimų komisinių atsisakymu.",
+    "faq__question5__description__part1": "Jūs galite prisijungti prie savo partnerių sąskaitos",
+    "faq__question5__description__part2": "sekti savo nuorodų veiklą."
   }
 }

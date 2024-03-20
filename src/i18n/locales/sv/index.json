@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Betalningar spåras och skickas till alla affiliates den 15:e varje månad.",
     "faq__question4__description__part2": "Det kan ta några dagar att behandla betalningen, så ge det 3-5 dagar innan pengarna syns på ditt konto.",
     "faq__question5__title": "Hur kan jag följa mina hänvisningsresultat?",
-    "faq__question5__description": "Du kan logga in på ditt affiliate-konto på maxai.getrewardful.com för att följa dina hänvisningsresultat.",
     "faq__question6__title": "Var kan jag marknadsföra MaxAI?",
     "faq__question6__description": "Dina sociala mediekanaler, bloggar, sociala grupper, e-postlista, webbappar, mobilappar eller var som helst där du tror att MaxAI kan gynna publiken.",
     "faq__question7__title": "Kan jag marknadsföra min affiliate-länk med betald reklam?",
     "faq__question7__description__part1": "Du får inte använda din affiliate-länk i någon betald reklam eller betald media. Det inkluderar sökmotorannonser, Facebook-annonser, TikTok-annonser eller något liknande som skulle konkurrera med MaxAIs marknadsföring och skapa förvirring för potentiella kunder.",
-    "faq__question7__description__part2": "Missbruk, manipulering och policyöverträdelser kommer att resultera i att ditt konto stängs av och alla befintliga och framtida provisioner förverkas."
+    "faq__question7__description__part2": "Missbruk, manipulering och policyöverträdelser kommer att resultera i att ditt konto stängs av och alla befintliga och framtida provisioner förverkas.",
+    "faq__question5__description__part1": "Du kan logga in på ditt affiliate-konto på",
+    "faq__question5__description__part2": "för att följa din remissprestation."
   }
 }

@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Plačila bodo sledena in poslana vsem afiliatom 15. dne vsakega meseca.",
     "faq__question4__description__part2": "Obdelava plačila lahko traja nekaj dni, zato prosimo, da počakate 3-5 dni, da vidite sredstva na svojem računu.",
     "faq__question5__title": "Kako lahko spremljam uspešnost napotitev?",
-    "faq__question5__description": "Prijavite se v svoj afiliacijski račun na maxai.getrewardful.com in spremljajte uspešnost vaših napotitev.",
     "faq__question6__title": "Kje lahko promoviram MaxAI?",
     "faq__question6__description": "Na svojih družbenih omrežjih, blogih, socialnih skupinah, seznamih za e-pošto, spletnih aplikacijah, mobilnih aplikacijah ali kjerkoli verjamete, da bi MaxAI koristil občinstvu.",
     "faq__question7__title": "Ali lahko promoviram svojo afiliacijsko povezavo s plačanim oglaševanjem?",
     "faq__question7__description__part1": "Vaše afiliacijske povezave ne smete uporabljati v nobenem plačanem oglaševanju ali plačanih medijih. To vključuje oglase na iskalnikih, oglase na Facebooku, oglase na TikToku ali karkoli podobnega, kar bi konkuriralo trženju MaxAI in povzročilo zmedo potencialnim strankam.",
-    "faq__question7__description__part2": "Zloraba, manipulacija in kršitve pravil bodo povzročile blokado vašega računa in preklic vseh obstoječih in prihodnjih provizij."
+    "faq__question7__description__part2": "Zloraba, manipulacija in kršitve pravil bodo povzročile blokado vašega računa in preklic vseh obstoječih in prihodnjih provizij.",
+    "faq__question5__description__part1": "Na svoj partnerski račun se lahko prijavite na",
+    "faq__question5__description__part2": "za sledenje vaši napotitveni uspešnosti."
   }
 }

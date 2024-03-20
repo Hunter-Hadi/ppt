@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Os pagamentos serão rastreados e enviados a todos os afiliados no dia 15 de cada mês.",
     "faq__question4__description__part2": "Pode levar alguns dias para processar o pagamento, então por favor aguarde de 3 a 5 dias para ver os fundos em sua conta.",
     "faq__question5__title": "Como posso acompanhar o desempenho das minhas indicações?",
-    "faq__question5__description": "Você pode fazer login na sua conta de afiliado em maxai.getrewardful.com para acompanhar o desempenho das suas indicações.",
     "faq__question6__title": "Onde posso promover o MaxAI?",
     "faq__question6__description": "Seus canais de mídia social, blogs, grupos sociais, lista de emails, aplicativos web, aplicativos móveis ou qualquer lugar onde você acredite que o MaxAI possa beneficiar o público.",
     "faq__question7__title": "Posso promover meu link de afiliado com publicidade paga?",
     "faq__question7__description__part1": "Você não pode usar seu link de afiliado em nenhuma publicidade paga ou mídia paga. Isso inclui anúncios em mecanismos de busca, anúncios no Facebook, anúncios no TikTok ou qualquer coisa semelhante que possa competir com o marketing do MaxAI e causar confusão para os potenciais clientes.",
-    "faq__question7__description__part2": "Abuso, manipulação e violações das políticas resultarão na exclusão da sua conta e na perda de comissões existentes e futuras."
+    "faq__question7__description__part2": "Abuso, manipulação e violações das políticas resultarão na exclusão da sua conta e na perda de comissões existentes e futuras.",
+    "faq__question5__description__part1": "Você pode fazer login na sua conta de afiliado em",
+    "faq__question5__description__part2": "para acompanhar o desempenho das suas indicações."
   }
 }

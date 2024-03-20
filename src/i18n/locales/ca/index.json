@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Els pagaments es faran seguiment i s'enviaran a tots els afiliats el dia 15 de cada mes.",
     "faq__question4__description__part2": "Pot trigar uns dies a processar el pagament, així que si us plau, espera 3-5 dies per veure els fons al teu compte.",
     "faq__question5__title": "Com puc fer seguiment del rendiment de les meves referències?",
-    "faq__question5__description": "Pots iniciar sessió al teu compte d'afiliat a maxai.getrewardful.com per fer seguiment del rendiment de les teves referències.",
     "faq__question6__title": "On puc promocionar MaxAI?",
     "faq__question6__description": "Als teus canals de xarxes socials, blogs, grups socials, llistes de correu, aplicacions web, aplicacions mòbils o en qualsevol lloc on creguis que MaxAI pot beneficiar a l'audiència.",
     "faq__question7__title": "Puc promocionar el meu enllaç d'afiliat amb publicitat de pagament?",
     "faq__question7__description__part1": "No pots utilitzar el teu enllaç d'afiliat en cap publicitat o mitjans de pagament. Això inclou anuncis en motors de cerca, anuncis a Facebook, anuncis a TikTok o qualsevol cosa similar que competiria amb el màrqueting de MaxAI i causaria confusió als possibles clients.",
-    "faq__question7__description__part2": "L'abús, l'engany i les violacions de les polítiques resultaran en la prohibició del teu compte i la pèrdua de les comissions existents i futures."
+    "faq__question7__description__part2": "L'abús, l'engany i les violacions de les polítiques resultaran en la prohibició del teu compte i la pèrdua de les comissions existents i futures.",
+    "faq__question5__description__part1": "Pots iniciar sessió al teu compte d'afiliat a",
+    "faq__question5__description__part2": "per fer un seguiment del teu rendiment de referència."
   }
 }

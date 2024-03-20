@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Zahlungen werden am 15. eines jeden Monats erfasst und an alle Partner gesendet.",
     "faq__question4__description__part2": "Die Bearbeitung der Zahlung kann einige Tage dauern. Bitte geben Sie ihr 3-5 Tage Zeit, um die Zahlung auf Ihrem Konto zu sehen.",
     "faq__question5__title": "Wie kann ich die Leistung meiner Empfehlungen verfolgen?",
-    "faq__question5__description": "Sie können sich in Ihrem Partnerkonto unter maxai.getrewardful.com einloggen, um die Leistung Ihrer Empfehlungen zu verfolgen.",
     "faq__question6__title": "Wo kann ich MaxAI bewerben?",
     "faq__question6__description": "In Ihren sozialen Medien, Blogs, sozialen Gruppen, Mailinglisten, Web-Apps, mobilen Apps oder überall dort, wo Sie glauben, dass MaxAI den Zielgruppen zugutekommen kann.",
     "faq__question7__title": "Kann ich meinen Partnerlink mit bezahlter Werbung bewerben?",
     "faq__question7__description__part1": "Sie dürfen Ihren Partnerlink nicht in bezahlter Werbung oder bezahlten Medien verwenden. Dies umfasst Suchmaschinenanzeigen, Facebook-Anzeigen, TikTok-Anzeigen oder ähnliches, das mit dem Marketing von MaxAI konkurrieren und potenzielle Kunden verwirren würde.",
-    "faq__question7__description__part2": "Missbrauch, Manipulation und Verstoß gegen Richtlinien führen zur Sperrung Ihres Kontos und zum Verlust aller bestehenden und zukünftigen Provisionen."
+    "faq__question7__description__part2": "Missbrauch, Manipulation und Verstoß gegen Richtlinien führen zur Sperrung Ihres Kontos und zum Verlust aller bestehenden und zukünftigen Provisionen.",
+    "faq__question5__description__part1": "Sie können sich in Ihr Partnerkonto einloggen, um",
+    "faq__question5__description__part2": "Ihre Empfehlungsleistung zu verfolgen."
   }
 }

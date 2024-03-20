@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Maksut seurataan ja lähetetään kaikille kumppaneille joka kuun 15. päivä.",
     "faq__question4__description__part2": "Maksun käsittely voi kestää muutaman päivän, joten anna sen kestää 3-5 päivää nähdäksesi varat tililläsi.",
     "faq__question5__title": "Kuinka voin seurata suosittelujeni suorituskykyä?",
-    "faq__question5__description": "Voit kirjautua sisään kumppanitilillesi osoitteessa maxai.getrewardful.com ja seurata suosittelujesi suorituskykyä.",
     "faq__question6__title": "Missä voin mainostaa MaxAI:ta?",
     "faq__question6__description": "Sosiaalisen median kanavissasi, blogeissa, sosiaalisissa ryhmissä, postituslistoilla, verkkosovelluksissa, mobiilisovelluksissa tai missä tahansa uskot MaxAI:n hyödyttävän yleisöä.",
     "faq__question7__title": "Voinko mainostaa kumppanilinkkiäni maksullisella mainonnalla?",
     "faq__question7__description__part1": "Et saa käyttää kumppanilinkkiäsi minkäänlaisessa maksullisessa mainonnassa tai maksetussa mediassa. Tähän kuuluvat hakukoneiden mainokset, Facebook-mainokset, TikTok-mainokset tai mikä tahansa vastaava, joka kilpailisi MaxAI:n markkinoinnin kanssa ja aiheuttaisi sekaannusta potentiaalisille asiakkaille.",
-    "faq__question7__description__part2": "Väärinkäytökset, väärinkäyttö ja sääntöjen rikkomukset johtavat tilisi sulkemiseen ja kaikkien olemassa olevien ja tulevien provisioiden menettämiseen."
+    "faq__question7__description__part2": "Väärinkäytökset, väärinkäyttö ja sääntöjen rikkomukset johtavat tilisi sulkemiseen ja kaikkien olemassa olevien ja tulevien provisioiden menettämiseen.",
+    "faq__question5__description__part1": "Voit kirjautua sisään kumppanitilillesi osoitteessa",
+    "faq__question5__description__part2": "seurataksesi suosittelutoimintaasi."
   }
 }

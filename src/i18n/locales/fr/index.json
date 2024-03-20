@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "Les paiements seront suivis et envoyés à tous les affiliés le 15 de chaque mois.",
     "faq__question4__description__part2": "Le traitement du paiement peut prendre quelques jours, veuillez donc attendre 3 à 5 jours pour voir les fonds arriver sur votre compte.",
     "faq__question5__title": "Comment puis-je suivre les performances de mes recommandations ?",
-    "faq__question5__description": "Vous pouvez vous connecter à votre compte d'affilié sur maxai.getrewardful.com pour suivre les performances de vos recommandations.",
     "faq__question6__title": "Où puis-je promouvoir MaxAI ?",
     "faq__question6__description": "Sur vos réseaux sociaux, blogs, groupes sociaux, listes de diffusion, applications web, applications mobiles ou partout où vous pensez que MaxAI peut bénéficier à votre public.",
     "faq__question7__title": "Puis-je promouvoir mon lien d'affiliation avec de la publicité payante ?",
     "faq__question7__description__part1": "Vous ne pouvez pas utiliser votre lien d'affiliation dans des publicités payantes ou des médias payants. Cela inclut les annonces sur les moteurs de recherche, les annonces Facebook, les annonces TikTok ou tout autre moyen similaire qui entrerait en concurrence avec le marketing de MaxAI et causerait de la confusion pour les clients potentiels.",
-    "faq__question7__description__part2": "Les abus, les manipulations et les violations des règles entraîneront la suspension de votre compte et la perte de toutes les commissions existantes et futures."
+    "faq__question7__description__part2": "Les abus, les manipulations et les violations des règles entraîneront la suspension de votre compte et la perte de toutes les commissions existantes et futures.",
+    "faq__question5__description__part1": "Vous pouvez vous connecter à votre compte d'affilié sur",
+    "faq__question5__description__part2": "pour suivre vos performances de parrainage."
   }
 }

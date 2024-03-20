@@ -572,11 +572,12 @@
     "faq__question4__description__part1": "I pagamenti saranno monitorati e inviati a tutti gli affiliati il 15 di ogni mese.",
     "faq__question4__description__part2": "Potrebbe essere necessario qualche giorno per elaborare il pagamento, quindi ti preghiamo di aspettare da 3 a 5 giorni per vedere i fondi accreditati sul tuo account.",
     "faq__question5__title": "Come posso monitorare le prestazioni dei miei referral?",
-    "faq__question5__description": "Puoi accedere al tuo account di affiliazione su maxai.getrewardful.com per monitorare le prestazioni dei tuoi referral.",
     "faq__question6__title": "Dove posso promuovere MaxAI?",
     "faq__question6__description": "I tuoi canali di social media, blog, gruppi sociali, elenco di invio, app web, app mobili o ovunque tu creda che MaxAI possa beneficiare il pubblico.",
     "faq__question7__title": "Posso promuovere il mio link di affiliazione con la pubblicità a pagamento?",
     "faq__question7__description__part1": "Non puoi utilizzare il tuo link di affiliazione in alcuna pubblicità a pagamento o media a pagamento. Ciò include annunci sui motori di ricerca, annunci su Facebook, annunci su TikTok o qualsiasi altra cosa simile che competerebbe con il marketing di MaxAI e causerebbe confusione ai potenziali clienti.",
-    "faq__question7__description__part2": "Abusi, manipolazioni e violazioni delle politiche comporteranno la sospensione del tuo account e la perdita di commissioni esistenti e future."
+    "faq__question7__description__part2": "Abusi, manipolazioni e violazioni delle politiche comporteranno la sospensione del tuo account e la perdita di commissioni esistenti e future.",
+    "faq__question5__description__part1": "Puoi accedere al tuo account affiliato su",
+    "faq__question5__description__part2": "per monitorare le tue prestazioni di riferimento."
   }
 }
