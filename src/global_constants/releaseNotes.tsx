@@ -1,5 +1,25 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.0.8',
+    date: '2024-03-09',
+
+    content: [
+      {
+        title: 'Claude 3 is here',
+        lists: [
+          {
+            module: 'Claude-3-opus with vision',
+            desc: 'The most intelligent model offered by Anthropic, as well as the most capable model in the world on a wide range of benchmarks. It sets a new market standard, offering top-level performance on highly complex tasks, and showing us the frontier of generative AI possibilities.',
+          },
+          {
+            module: 'Claude-3-sonnet with vision',
+            desc: 'Strikes the ideal balance between intelligence and speed -particularly for high-volume tasks. For the vast majority of workloads, Sonnet is 2x faster than Claude 2 and Claude 2.1 with higher levels of intelligence.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.0.6',
     date: '2024-03-07',
 
