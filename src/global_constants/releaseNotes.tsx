@@ -18,11 +18,29 @@ export const MAXAI_RELEASE_NOTES = [
         ],
       },
       {
+        title: 'More about Claude 3',
+        lists: [
+          {
+            module: 'Claude-3-haiku with vision',
+            desc: 'The fastest model by Anthropic in its intelligence class. Haiku is a versatile solution for a wide range of everyday tasks.',
+          },
+        ],
+      },
+      {
         title: 'Create AI art and images like a pro',
         lists: [
           {
             module: 'Introducing Pro Art mode',
             desc: 'Have full control over art generation without AI-powered art prompts optimization.',
+          },
+        ],
+      },
+      {
+        title: 'An even faster way to reply on email and social media',
+        lists: [
+          {
+            module: 'Quick reply button enhanced',
+            desc: 'You will now find the MaxAI quick reply button right next to the default Reply button on email and social media. This means you can reply even faster with one less click.',
           },
         ],
       },
@@ -34,7 +52,7 @@ export const MAXAI_RELEASE_NOTES = [
 
     content: [
       {
-        title: 'Gemini now has vision',
+        title: 'Gemini on MaxAI now has vision',
         lists: [
           {
             module: 'Gemini-pro with vision',
@@ -59,10 +77,6 @@ export const MAXAI_RELEASE_NOTES = [
           {
             module: 'Claude-3-sonnet with vision',
             desc: 'Strikes the ideal balance between intelligence and speed -particularly for high-volume tasks. For the vast majority of workloads, Sonnet is 2x faster than Claude 2 and Claude 2.1 with higher levels of intelligence.',
-          },
-          {
-            module: 'Claude-3-haiku with vision',
-            desc: 'The fastest model by Anthropic in its intelligence class. Haiku is a versatile solution for a wide range of everyday tasks.',
           },
         ],
       },
