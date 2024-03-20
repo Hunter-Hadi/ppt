@@ -1,5 +1,37 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.0.6',
+    date: '2024-03-07',
+
+    content: [
+      {
+        title: 'Understand the context of every prompt you use',
+        lists: [
+          {
+            module: 'Quoted context',
+            desc: 'Easily identify the specific context included in each AI prompt you use, and conveniently copy and paste this context for future use whenever needed.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '3.0.4',
+    date: '2024-02-28',
+
+    content: [
+      {
+        title: 'The best translation experience yet',
+        lists: [
+          {
+            module: 'Immersive AI translator',
+            desc: 'Enable bilingual reading with a single click to improve information retrieval efficiency.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.0.0',
     date: '2024-02-09',
 
