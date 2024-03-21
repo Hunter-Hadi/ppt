@@ -1,6 +1,7 @@
 {
   "common": {
     "sign_in": "Sign in",
+    "sign_up": "Sign up",
     "log_out": "Log out",
     "help": "Help",
     "save": "Save",
@@ -545,16 +546,16 @@
   "affiliate": {
     "main_keywords": "affiliate program",
     "call_to_action__text": "Join affiliate program",
-    "hero_section__indicator__label": "Product of the Week",
+    "hero_section__indicator__label": "#1 Product of the Week",
     "hero_section__title": "Get paid with MaxAI",
     "hero_section__description__part1": "Join our affiliate program and earn",
     "hero_section__description__part2": "commission for sharing MaxAI!",
     "how_it_works__title": "How it works",
     "how_it_works__step__label": "STEP",
     "how_it_works__step1__title": "Join",
-    "how_it_works__step1__description": "Sign up for the affiliate program and get your exclusive affiliate link.",
+    "how_it_works__step1__description": "<0>Sign up</0> for the affiliate program and get your exclusive affiliate link.",
     "how_it_works__step2__title": "Share",
-    "how_it_works__step2__description": "Share your unique link with your audience and track the performance in real-time via Rewardful.",
+    "how_it_works__step2__description": "Share your unique link with your audience and track the performance in real-time via <1>Rewardful</1>.",
     "how_it_works__step3__title": "Get Paid!",
     "how_it_works__step3__description": "Earn 25% recurring commission through the first year of each new subscriber that you refer to MaxAI!",
     "call_to_action__title": "Join the program and start earning",

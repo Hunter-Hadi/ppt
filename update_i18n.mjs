@@ -279,6 +279,9 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `share_conversion.${key}`)) {
       return `share_conversion.${key}`;
     }
+    if (lodash.get(sourceJson, `affiliate.${key}`)) {
+      return `affiliate.${key}`;
+    }
     return key;
   });
   let needUpdateLanguages = i18nDirs;
