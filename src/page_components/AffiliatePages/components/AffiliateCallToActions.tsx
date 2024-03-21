@@ -37,8 +37,12 @@ const AffiliateCallToActions = () => {
           sx={{
             width: '100%',
             height: 160,
-            fontSize: 48,
+            fontSize: {
+              xs: 36,
+              sm: 48,
+            },
             mb: 8,
+            textAlign: 'center',
           }}
         >
           {t('affiliate:call_to_action__text')}
