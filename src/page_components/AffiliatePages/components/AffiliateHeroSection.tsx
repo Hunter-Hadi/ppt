@@ -5,9 +5,8 @@ import { useTranslation } from 'react-i18next';
 
 import { A16zIcon } from '@/features/landing/components/HeroSection';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
-import { AFFILIATE_PROGRAM_LINK } from '@/page_components/AffiliatePages/constant';
+import { AFFILIATE_PROGRAM_SIGN_UP_LINK } from '@/page_components/AffiliatePages/constant';
 import IndicatorDecorator from '@/page_components/IndicatorDecorator';
-import { safeOpenUrl } from '@/utils/location';
 
 const AffiliateHeroSection = () => {
   const { t } = useTranslation();
@@ -27,17 +26,18 @@ const AffiliateHeroSection = () => {
         >
           <IndicatorDecorator>
             <Stack
+              component={'a'}
+              href={'https://a16z.com/100-gen-ai-apps/'}
+              target={'_blank'}
               justifyContent={'center'}
               alignItems='center'
               sx={{
+                color: 'text.primary',
                 '&:hover': {
                   color: 'primary.main',
                   cursor: 'pointer',
                   transition: 'color 0.3s ease',
                 },
-              }}
-              onClick={() => {
-                safeOpenUrl('https://a16z.com/100-gen-ai-apps/', '_blank');
               }}
             >
               <Stack direction={'row'} alignItems='center' spacing={1}>
@@ -115,7 +115,14 @@ const AffiliateHeroSection = () => {
             </Stack>
           </IndicatorDecorator>
           <IndicatorDecorator>
-            <Stack justifyContent={'center'} alignItems='center'>
+            <Stack
+              justifyContent={'center'}
+              alignItems='center'
+              component={'a'}
+              href={'https://www.producthunt.com/posts/use-chatgpt'}
+              target={'_blank'}
+              color='text.primary'
+            >
               <Typography
                 variant='custom'
                 fontSize={{
@@ -125,7 +132,7 @@ const AffiliateHeroSection = () => {
                 fontWeight={700}
                 color='primary.main'
               >
-                #1 {t('affiliate:hero_section__indicator__label')}
+                {t('affiliate:hero_section__indicator__label')}
               </Typography>
               <Typography
                 variant='custom'
@@ -190,12 +197,12 @@ const AffiliateHeroSection = () => {
             </Typography>
 
             <Button
-              href={AFFILIATE_PROGRAM_LINK}
+              href={AFFILIATE_PROGRAM_SIGN_UP_LINK}
               target='_blank'
               variant='contained'
               sx={{
                 width: 260,
-                height: 60,
+                height: 64,
                 bgcolor: '#000',
                 color: '#fff',
                 mt: 6,

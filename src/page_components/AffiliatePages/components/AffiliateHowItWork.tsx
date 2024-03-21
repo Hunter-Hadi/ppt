@@ -1,19 +1,49 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
+
+import ProLink from '@/components/ProLink';
+import {
+  AFFILIATE_PROGRAM_LINK,
+  AFFILIATE_PROGRAM_SIGN_UP_LINK,
+} from '@/page_components/AffiliatePages/constant';
 
 const HOW_IT_WORKS_LIST = [
   {
     title: 'affiliate:how_it_works__step1__title',
-    description: 'affiliate:how_it_works__step1__description',
+    description: () => (
+      <Trans i18nKey='affiliate:how_it_works__step1__description'>
+        <ProLink
+          href={AFFILIATE_PROGRAM_SIGN_UP_LINK}
+          target='_blank'
+          underline='always'
+        >
+          Sign up
+        </ProLink>{' '}
+        for the affiliate program and get your exclusive affiliate link.
+      </Trans>
+    ),
   },
   {
     title: 'affiliate:how_it_works__step2__title',
-    description: 'affiliate:how_it_works__step2__description',
+    description: () => (
+      <Trans i18nKey='affiliate:how_it_works__step2__description'>
+        Share your unique link with your audience and track the performance in
+        real-time via
+        <ProLink
+          href={AFFILIATE_PROGRAM_LINK}
+          target='_blank'
+          underline='always'
+        >
+          Rewardful
+        </ProLink>
+        .
+      </Trans>
+    ),
   },
   {
     title: 'affiliate:how_it_works__step3__title',
-    description: 'affiliate:how_it_works__step3__description',
+    description: (t) => <>{t('affiliate:how_it_works__step3__description')}</>,
   },
 ];
 
@@ -38,10 +68,10 @@ const AffiliateHowItWork = () => {
         {HOW_IT_WORKS_LIST.map((workItem, index) => {
           return (
             <Grid key={index} item xs={12} sm={6} md={4}>
-              <Box display={'flex'} minHeight={280}>
+              <Box display={'flex'} minHeight={280} height='100%'>
                 <HowItWorkStepItem
                   title={t(workItem.title)}
-                  description={t(workItem.description)}
+                  description={workItem.description(t)}
                   step={index + 1}
                 />
               </Box>

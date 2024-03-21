@@ -37,7 +37,7 @@ const AffiliateFAQ = () => {
           />
         </Typography>
         <Box mt={7} textAlign='left'>
-          <FAQList expandAll faqList={AFFILIATE_FAQ} />
+          <FAQList faqList={AFFILIATE_FAQ} />
         </Box>
       </Box>
     </Box>
