@@ -1,5 +1,3 @@
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
 import { capitalize } from 'lodash-es';
 import isRegExp from 'lodash-es/isRegExp';
@@ -7,7 +5,6 @@ import { useRouter } from 'next/router';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import CustomIcon from '@/components/CustomIcon';
 import FooterList from '@/components/Footerlist';
 import ProLink from '@/components/ProLink';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
@@ -125,19 +122,22 @@ const AppFooter = () => {
                   data={[
                     {
                       label: 'MaxAI for Chrome',
-                      icon: <CustomIcon icon='Chrome' />,
+                      // icon: <CustomIcon icon='Chrome' />,
+                      icon: null,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.CHROME_EXTENSION,
                     },
                     {
                       label: 'MaxAI for Edge',
-                      icon: <CustomIcon icon='Edge' />,
+                      // icon: <CustomIcon icon='Edge' />,
+                      icon: null,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.EDGE_EXTENSION,
                     },
                     {
                       label: t('modules:footer__1_click_prompts'),
-                      icon: <CustomIcon icon='PromptLogo' />,
+                      // icon: <CustomIcon icon='PromptLogo' />,
+                      icon: null,
                       link: '/prompts',
                     },
                   ]}
@@ -177,7 +177,8 @@ const AppFooter = () => {
                     {
                       label: 'X/Twitter',
                       target: '_blank',
-                      icon: <CustomIcon icon='TwitterX' />,
+                      // icon: <CustomIcon icon='TwitterX' />,
+                      icon: null,
                       link: APP_EXTERNAL_LINKS.TWITTER_FOLLOW_UP_LINK,
                     },
                   ]}
@@ -196,12 +197,14 @@ const AppFooter = () => {
                   data={[
                     {
                       label: t('modules:footer__how_to_use'),
-                      icon: <HelpOutlineIcon />,
+                      // icon: <HelpOutlineIcon />,
+                      icon: null,
                       link: `${APP_PROJECT_LINK}/get-started`,
                     },
                     {
                       label: t('modules:footer__contact_us'),
-                      icon: <MailOutlineIcon />,
+                      // icon: <MailOutlineIcon />,
+                      icon: null,
                       link: '/contact-us',
                     },
                   ]}

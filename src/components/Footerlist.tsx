@@ -8,7 +8,7 @@ const FooterList: FC<{
   title: string;
   data: {
     label: string;
-    icon: React.ReactNode;
+    icon?: React.ReactNode;
     link: string;
     target?: React.HTMLAttributeAnchorTarget;
   }[];
