@@ -156,7 +156,7 @@ const AppFooter = () => {
                   data={[
                     {
                       label: capitalize(t('affiliate:main_keywords')),
-                      icon: <CustomIcon icon='AffiliateProgram' />,
+                      icon: null,
                       target: '_self',
                       link: '/affiliate',
                     },

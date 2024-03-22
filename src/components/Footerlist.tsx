@@ -36,9 +36,11 @@ const FooterList: FC<{
               alignItems='center'
               key={link}
             >
-              <Box height={24} color={'text.main'}>
-                {icon}
-              </Box>
+              {icon && (
+                <Box height={24} color={'text.main'}>
+                  {icon}
+                </Box>
+              )}
               <ProLink
                 href={link}
                 underline='hover'
