@@ -41,7 +41,8 @@
     "download_image": "Tải xuống hình ảnh",
     "copy_image": "Sao chép hình ảnh",
     "share": "Chia sẻ",
-    "link_copied": "Đã sao chép liên kết"
+    "link_copied": "Đã sao chép liên kết",
+    "sign_up": "Đăng ký"
   },
   "button": {
     "add_to_chrome_for_free": "Thêm vào Chrome miễn phí",
@@ -381,8 +382,8 @@
     "header__menu__features": "Tính năng",
     "header__menu__pricing": "Giá cả",
     "header__menu__learning_center": "Trung tâm học tập",
-    "footer__title": "Công cụ AI toàn diện Magic",
-    "footer__desc": "MaxAI.me là một tiện ích Chrome mở rộng để viết, tóm tắt, kiểm tra chính tả, thay đổi ngữ điệu, dịch hoặc trả lời văn bản trên các trang web.",
+    "footer__title": "Công cụ năng suất AI",
+    "footer__desc": "Cách nhanh nhất để sử dụng AI 1-click cá nhân hóa bất kỳ đâu để tiết kiệm hàng giờ mỗi ngày. Được cung cấp bởi ChatGPT, Claude, Gemini và nhiều hơn nữa.",
     "footer__products": "Sản phẩm",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "Theo dõi chúng tôi",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Bạn có thể sử dụng MaxAI.me trên bất kỳ trang web nào trên bất kỳ trình duyệt dựa trên Chromium nào (như Chrome và Edge) để soạn thảo, cải thiện viết, tóm tắt, giải thích, sửa chính tả và ngữ pháp, dịch hoặc trả lời bất kỳ văn bản nào.",
     "faq_list__disclaimer_part1": "Bằng cách đăng ký, bạn đang đăng ký thanh toán tự động. Hủy hoặc quản lý đăng ký của bạn thông qua cổng khách hàng của Stripe từ \"Kế hoạch của tôi\". Tất cả các dịch vụ được cung cấp theo",
     "faq_list__disclaimer_part2": " bạn xác nhận khi đăng ký.",
-    "plan_features_table__gemini_tooltip_desc": "Mô hình phổ biến và linh hoạt nhất của Google. Được xây dựng từ đầu cho đa chức năng. Gemini trên MaxAI hiện đang ở giai đoạn beta, chỉ hỗ trợ văn bản và mã, sẽ sớm thêm hỗ trợ cho hình ảnh, video và âm thanh."
+    "plan_features_table__gemini_tooltip_desc": "Mô hình phổ biến và linh hoạt nhất của Google. Được xây dựng từ đầu cho đa chức năng. Gemini trên MaxAI hiện đang ở giai đoạn beta, chỉ hỗ trợ văn bản và mã, sẽ sớm thêm hỗ trợ cho hình ảnh, video và âm thanh.",
+    "footer__resources": "Tài nguyên"
   },
   "privacy": {
     "banner__title": "Cam kết bảo mật của chúng tôi",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Chia sẻ",
     "how_it_works__step2__description": "Chia sẻ liên kết độc quyền của bạn với khán giả của bạn và theo dõi hiệu suất trong thời gian thực qua <1>Rewardful</1>.",
     "how_it_works__step3__title": "Nhận tiền!",
-    "how_it_works__step3__description": "Kiếm được 25% hoa hồng định kỳ trong năm đầu tiên của mỗi người đăng ký mới mà bạn giới thiệu cho MaxAI!",
+    "how_it_works__step3__description": "Kiếm <1>25%</1> hoa hồng định kỳ trong năm đầu tiên từ mỗi người đăng ký mới mà bạn giới thiệu cho MaxAI!",
     "call_to_action__title": "Tham gia chương trình và bắt đầu kiếm tiền",
     "faq__title": "Câu hỏi, được trả lời!",
     "faq__sub_title": "Câu trả lời cho những câu hỏi thường gặp. Không tìm thấy điều bạn đang tìm kiếm? Email cho chúng tôi tại",

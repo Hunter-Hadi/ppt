@@ -41,7 +41,8 @@
     "download_image": "Afbeelding downloaden",
     "copy_image": "Afbeelding kopiëren",
     "share": "Delen",
-    "link_copied": "Link gekopieerd"
+    "link_copied": "Link gekopieerd",
+    "sign_up": "Aanmelden"
   },
   "button": {
     "add_to_chrome_for_free": "Gratis toevoegen aan Chrome",
@@ -381,8 +382,8 @@
     "header__menu__features": "Functies",
     "header__menu__pricing": "Prijzen",
     "header__menu__learning_center": "Leercentrum",
-    "footer__title": "All-in-one AI Magic Tools",
-    "footer__desc": "MaxAI.me is een Chrome-extensie voor het schrijven, samenvatten, spellingscontrole, toonverandering, vertalen of reageren op tekst op websites.",
+    "footer__title": "AI productiviteitstool",
+    "footer__desc": "De snelste manier om gepersonaliseerde 1-klik AI overal te gebruiken om elke dag uren te besparen. Aangedreven door ChatGPT, Claude, Gemini en meer.",
     "footer__products": "Producten",
     "footer__1_click_prompts": "1-Klik prompts",
     "footer__follow_us": "Volg ons",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Je kunt MaxAI.me gebruiken op elke website in elke Chromium-gebaseerde browser (zoals Chrome en Edge) om tekst te componeren, schrijven te verbeteren, samen te vatten, uit te leggen, spelling en grammatica te corrigeren, te vertalen of te reageren op elke tekst.",
     "faq_list__disclaimer_part1": "Door je te abonneren, schrijf je je in voor automatische betalingen. Annuleer of beheer je abonnement via het klantenportaal van Stripe onder \"Mijn Plan\". Alle diensten worden geleverd volgens de ",
     "faq_list__disclaimer_part2": " waar je mee akkoord gaat bij je aanmelding.",
-    "plan_features_table__gemini_tooltip_desc": "Het meest capabele en algemene model van Google. Vanaf de basis opgebouwd voor multimodaliteit. Gemini op MaxAI bevindt zich momenteel in de bètafase en ondersteunt alleen tekst en code, binnenkort wordt ondersteuning toegevoegd voor afbeeldingen, video's en audio."
+    "plan_features_table__gemini_tooltip_desc": "Het meest capabele en algemene model van Google. Vanaf de basis opgebouwd voor multimodaliteit. Gemini op MaxAI bevindt zich momenteel in de bètafase en ondersteunt alleen tekst en code, binnenkort wordt ondersteuning toegevoegd voor afbeeldingen, video's en audio.",
+    "footer__resources": "Bronnen"
   },
   "privacy": {
     "banner__title": "Onze toewijding aan uw privacy",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Deel",
     "how_it_works__step2__description": "Deel je unieke link met je publiek en volg de prestaties in realtime via <1>Rewardful</1>.",
     "how_it_works__step3__title": "Word betaald!",
-    "how_it_works__step3__description": "Verdien 25% terugkerende commissie gedurende het eerste jaar van elke nieuwe abonnee die je doorverwijst naar MaxAI!",
+    "how_it_works__step3__description": "Verdien <1>25%</1> terugkerende commissie gedurende het eerste jaar van elke nieuwe abonnee die je doorverwijst naar MaxAI!",
     "call_to_action__title": "Doe mee aan het programma en begin met verdienen",
     "faq__title": "Vragen, beantwoord!",
     "faq__sub_title": "Antwoorden op veelgestelde vragen. Kun je niet vinden wat je zoekt? E-mail ons op",

@@ -41,7 +41,8 @@
     "download_image": "画像をダウンロード",
     "copy_image": "画像をコピー",
     "share": "共有",
-    "link_copied": "リンクがコピーされました"
+    "link_copied": "リンクがコピーされました",
+    "sign_up": "登録"
   },
   "button": {
     "add_to_chrome_for_free": "無料でChromeに追加",
@@ -381,8 +382,8 @@
     "header__menu__features": "特徴",
     "header__menu__pricing": "価格",
     "header__menu__learning_center": "学習センター",
-    "footer__title": "オールインワンAIマジックツール",
-    "footer__desc": "MaxAI.meは、ウェブサイト上のテキストを書き込み、要約し、スペルチェックし、トーンを変更し、翻訳し、または返信するためのChrome拡張機能です。",
+    "footer__title": "AI生産性ツール",
+    "footer__desc": "毎日数時間を節約するためのパーソナライズされた1クリックAIをどこでも最速で使用する方法。ChatGPT、Claude、Geminiなどによって提供されています。",
     "footer__products": "製品",
     "footer__1_click_prompts": "1クリックプロンプト",
     "footer__follow_us": "フォローする",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "MaxAI.meは、任意のテキストに対して作成、改善、要約、説明、スペルと文法の修正、翻訳、または返信するために、任意のChromiumベースのブラウザ（ChromeやEdgeなど）上の任意のウェブサイトで使用できます。",
     "faq_list__disclaimer_part1": "購読することで、自動支払いに登録されます。Stripeの顧客ポータルから「マイプラン」でサブスクリプションをキャンセルまたは管理できます。すべてのサービスは、",
     "faq_list__disclaimer_part2": " で確認したものに従って提供されます。",
-    "plan_features_table__gemini_tooltip_desc": "Googleの最も能力があり、汎用性のあるモデル。マルチモダリティに対応するために一から作られました。MaxAI上のGeminiは現在ベータフェーズで、テキストとコードのみをサポートしていますが、近々画像、動画、音声のサポートも追加されます。"
+    "plan_features_table__gemini_tooltip_desc": "Googleの最も能力があり、汎用性のあるモデル。マルチモダリティに対応するために一から作られました。MaxAI上のGeminiは現在ベータフェーズで、テキストとコードのみをサポートしていますが、近々画像、動画、音声のサポートも追加されます。",
+    "footer__resources": "リソース"
   },
   "privacy": {
     "banner__title": "プライバシーへの取り組み",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "共有する",
     "how_it_works__step2__description": "ユニークなリンクをオーディエンスと共有し、リアルタイムでパフォーマンスを追跡するには<1>Rewardful</1>を使用してください。",
     "how_it_works__step3__title": "報酬を受け取る！",
-    "how_it_works__step3__description": "MaxAIへの紹介者ごとの新規加入者の最初の1年間について、25%の継続的な報酬を受け取りましょう！",
+    "how_it_works__step3__description": "MaxAIを紹介した新規加入者の最初の1年間について、<1>25%</1>の継続的な手数料を獲得しましょう！",
     "call_to_action__title": "プログラムに参加して報酬を得る",
     "faq__title": "よくある質問",
     "faq__sub_title": "よくある質問への回答です。お探しの情報が見つからない場合は、以下のメールアドレスまでお問い合わせください。",

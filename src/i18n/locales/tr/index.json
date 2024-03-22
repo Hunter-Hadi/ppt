@@ -41,7 +41,8 @@
     "download_image": "Resmi İndir",
     "copy_image": "Resmi Kopyala",
     "share": "Paylaş",
-    "link_copied": "Bağlantı kopyalandı"
+    "link_copied": "Bağlantı kopyalandı",
+    "sign_up": "Kaydol"
   },
   "button": {
     "add_to_chrome_for_free": "Ücretsiz olarak Chrome'a ekle",
@@ -381,8 +382,8 @@
     "header__menu__features": "Özellikler",
     "header__menu__pricing": "Fiyatlandırma",
     "header__menu__learning_center": "Öğrenme Merkezi",
-    "footer__title": "Hepsi bir arada AI Sihirli Araçlar",
-    "footer__desc": "MaxAI.me, web sitelerindeki metni yazma, özetleme, yazım denetimi yapma, tonu değiştirme, çeviri yapma veya yanıtlama için bir Chrome eklentisidir.",
+    "footer__title": "AI üretkenlik aracı",
+    "footer__desc": "Her gün saatlerce zaman kazanmak için kişiselleştirilmiş 1 tıklama yapay zeka kullanmanın en hızlı yolu. ChatGPT, Claude, Gemini ve daha fazlası tarafından desteklenmektedir.",
     "footer__products": "Ürünler",
     "footer__1_click_prompts": "1-Tıklamayla İpucu",
     "footer__follow_us": "Bizi Takip Edin",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Herhangi bir Chromium tabanlı tarayıcıda (Chrome ve Edge gibi) herhangi bir web sitesinde MaxAI.me'yi kullanabilirsiniz. Metin yazmak, yazmayı geliştirmek, özetlemek, açıklamak, yazım ve dilbilgisi hatalarını düzeltmek, çevirmek veya yanıtlamak için kullanabilirsiniz.",
     "faq_list__disclaimer_part1": "Abone olduğunuzda otomatik ödemelere kaydoluyorsunuz. Aboneliğinizi \"Planım\" bölümünden Stripe müşteri portalı aracılığıyla iptal edebilir veya yönetebilirsiniz. Tüm hizmetler ",
     "faq_list__disclaimer_part2": " ile sağlanır.",
-    "plan_features_table__gemini_tooltip_desc": "Google'ın en yetenekli ve genel modeli. Çoklu işlevsellik için baştan aşağıya inşa edildi. Gemini on MaxAI şu anda beta aşamasında olup, yalnızca metin ve kod desteği sağlamaktadır. Yakında resimler, videolar ve sesler için de destek ekleyecektir."
+    "plan_features_table__gemini_tooltip_desc": "Google'ın en yetenekli ve genel modeli. Çoklu işlevsellik için baştan aşağıya inşa edildi. Gemini on MaxAI şu anda beta aşamasında olup, yalnızca metin ve kod desteği sağlamaktadır. Yakında resimler, videolar ve sesler için de destek ekleyecektir.",
+    "footer__resources": "Kaynaklar"
   },
   "privacy": {
     "banner__title": "Gizliliğinize olan taahhüdümüz",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Paylaşın",
     "how_it_works__step2__description": "Benzersiz bağlantınızı kitleyle paylaşın ve performansı gerçek zamanlı olarak <1>Rewardful</1> üzerinden takip edin.",
     "how_it_works__step3__title": "Para Kazanın!",
-    "how_it_works__step3__description": "MaxAI'ye yönlendirdiğiniz her yeni abonenin ilk yılında %25 tekrarlayan komisyon kazanın!",
+    "how_it_works__step3__description": "MaxAI'ye yönlendirdiğiniz her yeni abonenin ilk yıl boyunca <1>%25</1> tekrarlayan komisyonunu kazanın!",
     "call_to_action__title": "Programa katılın ve kazanmaya başlayın",
     "faq__title": "Sorular, cevaplar!",
     "faq__sub_title": "Sıkça sorulan soruların cevapları. Aradığınızı bulamıyor musunuz? Bize şu adrese e-posta gönderin:",

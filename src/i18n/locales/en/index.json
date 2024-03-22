@@ -410,8 +410,8 @@
     "header__menu__pricing": "Pricing",
     "header__menu__learning_center": "Learning-center",
 
-    "footer__title": "All-in-One AI Magic Tools",
-    "footer__desc": "MaxAI.me is a browser extension for AI-powered chat, writing, quick reply, grammar check, explanation, summary, search, prompt management, and more, on any webpage.",
+    "footer__title": "AI productivity tool",
+    "footer__desc": "The fastest way to use personalized 1-click AI anywhere to save hours every day. Powered by ChatGPT, Claude, Gemini, and more.",
 
     "footer__products": "Products",
     "footer__1_click_prompts": "1-Click Prompts",
@@ -421,6 +421,7 @@
     "footer__contact_us": "Contact us",
     "footer__privacy_policy": "Privacy Policy",
     "footer__terms_of_service": "Terms of Service",
+    "footer__resources": "Resources",
 
     "payment_type_switch__yearly": "Yearly",
     "payment_type_switch__monthly": "Monthly",
@@ -601,7 +602,7 @@
     "how_it_works__step2__title": "Share",
     "how_it_works__step2__description": "Share your unique link with your audience and track the performance in real-time via <1>Rewardful</1>.",
     "how_it_works__step3__title": "Get Paid!",
-    "how_it_works__step3__description": "Earn 25% recurring commission through the first year of each new subscriber that you refer to MaxAI!",
+    "how_it_works__step3__description": "Earn <1>25%</1> recurring commission through the first year of each new subscriber that you refer to MaxAI!",
 
     "call_to_action__title": "Join the program and start earning",
 
