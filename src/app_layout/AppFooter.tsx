@@ -1,6 +1,7 @@
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
+import { capitalize } from 'lodash-es';
 import isRegExp from 'lodash-es/isRegExp';
 import { useRouter } from 'next/router';
 import { useMemo } from 'react';
@@ -9,9 +10,9 @@ import { useTranslation } from 'react-i18next';
 import CustomIcon from '@/components/CustomIcon';
 import FooterList from '@/components/Footerlist';
 import ProLink from '@/components/ProLink';
+import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
 import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
 import AppLogo from '@/page_components/AppLogo';
-import ProducthuntHonor from '@/page_components/ProducthuntHonor';
 
 const footerBlackList = [
   '/terms',
@@ -107,13 +108,7 @@ const AppFooter = () => {
                   {t('modules:footer__desc')}
                 </Typography>
               </Stack>
-              <ProducthuntHonor
-                sx={{
-                  flexDirection: 'column',
-                  alignItems: 'flex-start',
-                  gap: 1,
-                }}
-              />
+              <A16zTop50AppsBadge />
             </Stack>
 
             <Grid container spacing={4}>
@@ -121,7 +116,7 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={4}
+                lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -152,7 +147,27 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={4}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+              >
+                <FooterList
+                  title={t('modules:footer__resources')}
+                  data={[
+                    {
+                      label: capitalize(t('affiliate:main_keywords')),
+                      icon: <CustomIcon icon='AffiliateProgram' />,
+                      target: '_self',
+                      link: '/affiliate',
+                    },
+                  ]}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                sm={6}
+                lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -172,7 +187,7 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={4}
+                lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
