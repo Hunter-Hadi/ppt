@@ -3,8 +3,8 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 
 import { Box, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import { Autoplay, FreeMode } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 

@@ -1,6 +1,6 @@
 import { MenuItem, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { isInIframe } from '@/utils/utils';
 
@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const LearningCenterItem: FC<IProps> = ({ isSmallScreen }) => {
-  const { t } = useTranslation('modules');
+  const { t } = useTranslation();
 
   const textRender = () => (
     <Typography
@@ -21,7 +21,7 @@ const LearningCenterItem: FC<IProps> = ({ isSmallScreen }) => {
         cursor: 'pointer',
       }}
     >
-      {t('header__menu__learning_center')}
+      {t('modules:header__menu__learning_center')}
     </Typography>
   );
 

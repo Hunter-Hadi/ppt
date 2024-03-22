@@ -1,8 +1,9 @@
 import { Box, Grid, Stack, SvgIcon, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
+import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 import {
   LOVED_BY_NUM,
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
@@ -11,7 +12,6 @@ import {
 import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
-import IndicatorDecorator from '@/page_components/IndicatorDecorator';
 import { safeOpenUrl } from '@/utils/location';
 
 interface IProps {

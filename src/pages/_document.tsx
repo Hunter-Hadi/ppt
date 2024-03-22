@@ -1,10 +1,13 @@
 /* eslint-disable @next/next/next-script-for-ga */
 import { Head, Html, Main, NextScript } from 'next/document';
 export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID;
+import i18nextConfig from '../../next-i18next.config';
 
-export default function Document() {
+export default function Document(props: any) {
+  const currentLocale =
+    props.__NEXT_DATA__.query.locale || i18nextConfig.i18n.defaultLocale;
   return (
-    <Html lang='en'>
+    <Html lang={currentLocale}>
       {/* @ts-ignore */}
       <Head>
         <script

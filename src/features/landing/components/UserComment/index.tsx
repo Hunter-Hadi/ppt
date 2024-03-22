@@ -3,8 +3,8 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 
 import { Box, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 
 // import required modules
 // Import Swiper React components
@@ -17,7 +17,7 @@ import CommentContent from './CommentContent';
 import CommentTypeSelector from './CommentTypeSelector';
 
 const UserComment = () => {
-  const { t } = useTranslation('pages');
+  const { t } = useTranslation();
 
   const theme = useTheme();
   const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
@@ -121,7 +121,7 @@ const UserComment = () => {
           }}
           mb={6}
         >
-          {t('home_page__user_comment__title')}
+          {t('pages:home_page__user_comment__title')}
         </Typography>
 
         <Stack

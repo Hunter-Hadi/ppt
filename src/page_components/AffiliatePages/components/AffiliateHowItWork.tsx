@@ -1,6 +1,6 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
+import { Trans, useTranslation } from 'next-i18next';
 import React from 'react';
-import { Trans, useTranslation } from 'react-i18next';
 
 import ProLink from '@/components/ProLink';
 import {

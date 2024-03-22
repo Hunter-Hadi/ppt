@@ -4,8 +4,9 @@ import React from 'react';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 import HomePageContent from '@/features/landing/components/HomePageContent';
-import FixedCtaButton from '@/page_components/partners/FixedCtaButton';
-import TryExtensionButton from '@/page_components/TryExtensionButton';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
+import TryExtensionButton from '@/page_components/partners_components/TryExtensionButton';
 
 const AIPromptGenius = () => {
   const propRef = 'installed-ai-prompt-genius';
@@ -63,3 +64,6 @@ const AIPromptGenius = () => {
   );
 };
 export default AIPromptGenius;
+
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

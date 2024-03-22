@@ -1,9 +1,9 @@
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { IconButtonProps } from '@mui/material/IconButton';
 import { SxProps } from '@mui/material/styles';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { useTranslation } from 'react-i18next';
 
 import TooltipIconButton from '@/features/share_conversation/components/TooltipIconButton';
 
@@ -15,7 +15,7 @@ interface ITooltipIconButton extends IconButtonProps {
 }
 const CopyTooltipIconButton: FC<ITooltipIconButton> = (props) => {
   const { copyText, onCopy, sx } = props;
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation();
   const [isCopied, setIsCopied] = useState(false);
   const title = useMemo(() => {
     if (isCopied) {

@@ -5,8 +5,8 @@ import { buttonBaseClasses } from '@mui/material/ButtonBase';
 import { Theme } from '@mui/material/styles';
 import Tab, { tabClasses } from '@mui/material/Tab';
 import Tabs, { tabsClasses, TabsProps } from '@mui/material/Tabs';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useContext } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { webPageOpenMaxAIImmersiveChat } from '@/features/common/utils/postMessageToCRX';
 import usePromptLibraryAuth from '@/features/prompt_library/hooks/usePromptLibraryAuth';

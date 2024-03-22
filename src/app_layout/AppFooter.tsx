@@ -3,8 +3,8 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
 import isRegExp from 'lodash-es/isRegExp';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import { useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import CustomIcon from '@/components/CustomIcon';
 import FooterList from '@/components/Footerlist';

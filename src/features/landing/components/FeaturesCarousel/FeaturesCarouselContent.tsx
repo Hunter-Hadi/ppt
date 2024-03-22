@@ -1,7 +1,7 @@
 import EastOutlinedIcon from '@mui/icons-material/EastOutlined';
 import { Box, Divider, Grid, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import usePreloadImages from '@/features/common/hooks/usePreloadImages';

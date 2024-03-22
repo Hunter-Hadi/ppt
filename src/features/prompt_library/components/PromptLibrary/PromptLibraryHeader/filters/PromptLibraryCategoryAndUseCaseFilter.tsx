@@ -1,25 +1,23 @@
-import { formControlClasses } from '@mui/material/FormControl'
-import { inputBaseClasses } from '@mui/material/InputBase'
-import Stack from '@mui/material/Stack'
-import { SxProps } from '@mui/material/styles'
-import React, { FC, useMemo } from 'react'
-import { useTranslation } from 'react-i18next'
+import { formControlClasses } from '@mui/material/FormControl';
+import { inputBaseClasses } from '@mui/material/InputBase';
+import Stack from '@mui/material/Stack';
+import { SxProps } from '@mui/material/styles';
+import { useTranslation } from 'next-i18next';
+import React, { FC, useMemo } from 'react';
 
-import BaseSelect from '@/features/common/components/select/BaseSelect'
-import usePromptLibraryBreakpoint from '@/features/prompt_library/hooks/usePromptLibraryBreakpoint'
-import usePromptLibraryCategory from '@/features/prompt_library/hooks/usePromptLibraryCategory'
-import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters'
+import BaseSelect from '@/features/common/components/select/BaseSelect';
+import usePromptLibraryBreakpoint from '@/features/prompt_library/hooks/usePromptLibraryBreakpoint';
+import usePromptLibraryCategory from '@/features/prompt_library/hooks/usePromptLibraryCategory';
+import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
 
 const PromptLibraryCategoryAndUseCaseFilter: FC = () => {
-  const { t } = useTranslation(['prompt_library'])
-  const {
-    promptLibraryListParameters,
-    updatePromptLibraryListParameters,
-  } = usePromptLibraryParameters()
+  const { t } = useTranslation(['prompt_library']);
+  const { promptLibraryListParameters, updatePromptLibraryListParameters } =
+    usePromptLibraryParameters();
   const { categoryOptions, useCaseOptions, loading } = usePromptLibraryCategory(
     promptLibraryListParameters.category,
-  )
-  const currentBreakpoint = usePromptLibraryBreakpoint()
+  );
+  const currentBreakpoint = usePromptLibraryBreakpoint();
   const memoSx = useMemo(() => {
     const computedSx: SxProps = {
       width:
@@ -44,10 +42,10 @@ const PromptLibraryCategoryAndUseCaseFilter: FC = () => {
             ? '100%'
             : '220px',
       },
-    }
+    };
 
-    return computedSx
-  }, [currentBreakpoint])
+    return computedSx;
+  }, [currentBreakpoint]);
   return (
     <Stack
       direction={'row'}
@@ -72,7 +70,7 @@ const PromptLibraryCategoryAndUseCaseFilter: FC = () => {
             category: value as string,
             use_case: 'All',
             page: 0,
-          })
+          });
         }}
       />
       <BaseSelect
@@ -90,10 +88,10 @@ const PromptLibraryCategoryAndUseCaseFilter: FC = () => {
           updatePromptLibraryListParameters({
             use_case: value as string,
             page: 0,
-          })
+          });
         }}
       />
     </Stack>
-  )
-}
-export default PromptLibraryCategoryAndUseCaseFilter
+  );
+};
+export default PromptLibraryCategoryAndUseCaseFilter;

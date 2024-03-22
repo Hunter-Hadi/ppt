@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
 import ContactUsEmailLink from '@/components/ContactUsEmailLink';
 import AFFILIATE_FAQ from '@/page_components/AffiliatePages/constant/affiliateFAQ';

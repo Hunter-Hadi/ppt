@@ -1,6 +1,6 @@
 import Stack from '@mui/material/Stack';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { ContextMenuIcon } from '@/features/share_conversation/components/ContextMenuIcon';
 import SidebarCopyButton from '@/features/share_conversation/components/SidebarCopyButton';
@@ -15,7 +15,7 @@ const SidebarAIMessageTools: FC<{
   message: IAIResponseMessage;
 }> = (props) => {
   const { message } = props;
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation();
   const [isCoping, setIsCoping] = useState(false);
   const messageContentType =
     message.originalMessage?.content?.contentType || 'text';

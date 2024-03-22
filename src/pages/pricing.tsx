@@ -1,16 +1,7 @@
-import React from 'react';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import PricingPages from '@/page_components/PricingPages';
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import PricingPage from '@/features/pricing/PricingPage';
+export default PricingPages;
 
-const Pricing = () => {
-  return (
-    <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={1312}>
-      <AppDefaultSeoLayout title={'Pricing | MaxAI.me'} />
-      <PricingPage />
-    </AppContainer>
-  );
-};
-
-export default Pricing;
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

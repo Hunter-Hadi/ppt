@@ -3,9 +3,9 @@ import { Button, Menu, MenuItem } from '@mui/material';
 import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
+import { useTranslation } from 'next-i18next';
 import * as React from 'react';
 import { FC, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { isInIframe } from '@/utils/utils';
 
@@ -14,19 +14,18 @@ interface IProps {
 }
 
 const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
-  const { t } = useTranslation('modules');
-  const { t: tIndustry } = useTranslation('industry');
+  const { t } = useTranslation();
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const industries = [
-    tIndustry('executives__title'),
-    tIndustry('marketing__title'),
-    tIndustry('education__title'),
-    tIndustry('consulting__title'),
-    tIndustry('hr__title'),
-    tIndustry('finance__title'),
-    tIndustry('real_estate__title'),
-    tIndustry('technical__title'),
+    t('industry:executives__title'),
+    t('industry:marketing__title'),
+    t('industry:education__title'),
+    t('industry:consulting__title'),
+    t('industry:hr__title'),
+    t('industry:finance__title'),
+    t('industry:real_estate__title'),
+    t('industry:technical__title'),
   ];
   const open = Boolean(anchorEl);
 
@@ -118,7 +117,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
               justifyContent: 'space-between',
             }}
           >
-            {t('header__menu__industries')}
+            {t('modules:header__menu__industries')}
 
             <ExpandLessIcon
               sx={{
@@ -189,7 +188,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
           />
         }
       >
-        {t('header__menu__industries')}
+        {t('modules:header__menu__industries')}
       </Button>
 
       <Menu

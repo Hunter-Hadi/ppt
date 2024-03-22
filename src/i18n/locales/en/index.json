@@ -366,7 +366,10 @@
     "use_cases__tech_page__abilities_6__content": "A vast collection of ready-to-use prompts for quick task completion. AI response in your preferred language.Control over AI response randomness for consistent outputs.",
     "use_cases__tech_page__take_time__button_text": "Start saving time with MaxAI",
     "use_cases__tech_page__take_time__title": "Ready to Reclaim Your Time with MaxAI?",
-    "use_cases__tech_page__take_time__content": "Imagine what you can achieve with more hours in your day. MaxAI not only simplifies your workload but also opens doors to innovative solutions in technical and engineering fields. Get ready to reclaim your time and focus on what truly matters in your profession."
+    "use_cases__tech_page__take_time__content": "Imagine what you can achieve with more hours in your day. MaxAI not only simplifies your workload but also opens doors to innovative solutions in technical and engineering fields. Get ready to reclaim your time and focus on what truly matters in your profession.",
+    "email_unsubscribe_success__title": "Unsubscribed successfully",
+    "email_unsubscribe_success__content": "Your email address has been successfully removed from our newsletter list. You will no longer receive future updates. We're sorry to see you go, but you're welcome back anytime to catch up with the latest content!",
+    "languages__title": "Choose Your Country or Region"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

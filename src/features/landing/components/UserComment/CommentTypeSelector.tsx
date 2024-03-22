@@ -1,6 +1,6 @@
 import { Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { IUserCommentType } from '@/features/landing/constants/userComment';
 

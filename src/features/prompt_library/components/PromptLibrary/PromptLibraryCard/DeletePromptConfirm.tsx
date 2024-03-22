@@ -1,17 +1,17 @@
-import { LoadingButton } from '@mui/lab'
-import { Button, Stack, Typography } from '@mui/material'
-import Paper from '@mui/material/Paper'
-import React, { FC } from 'react'
-import { useTranslation } from 'react-i18next'
+import { LoadingButton } from '@mui/lab';
+import { Button, Stack, Typography } from '@mui/material';
+import Paper from '@mui/material/Paper';
+import { useTranslation } from 'next-i18next';
+import React, { FC } from 'react';
 
-import CustomModal from '@/features/common/components/CustomModal'
+import CustomModal from '@/features/common/components/CustomModal';
 
 interface IProps {
-  show: boolean
-  loading: boolean
-  promptTitle?: string
-  onCancel?: () => void
-  onConfirm?: () => void
+  show: boolean;
+  loading: boolean;
+  promptTitle?: string;
+  onCancel?: () => void;
+  onConfirm?: () => void;
 }
 
 const DeletePromptConfirm: FC<IProps> = ({
@@ -21,7 +21,7 @@ const DeletePromptConfirm: FC<IProps> = ({
   onCancel,
   onConfirm,
 }) => {
-  const { t } = useTranslation(['prompt_library'])
+  const { t } = useTranslation(['prompt_library']);
   return (
     <CustomModal
       show={show}
@@ -42,24 +42,24 @@ const DeletePromptConfirm: FC<IProps> = ({
       >
         <Stack spacing={2}>
           <Typography>{t('prompt_library:delete_prompt__title')}</Typography>
-          <Stack direction="row" spacing={1} justifyContent="flex-end">
+          <Stack direction='row' spacing={1} justifyContent='flex-end'>
             <LoadingButton
               loading={loading}
               onClick={(event) => {
-                event.stopPropagation()
-                event.preventDefault()
-                onConfirm?.()
+                event.stopPropagation();
+                event.preventDefault();
+                onConfirm?.();
               }}
             >
               {t('prompt_library:delete_prompt__action__confirm__title')}
             </LoadingButton>
             <Button
-              variant="contained"
-              type="submit"
+              variant='contained'
+              type='submit'
               onClick={(event) => {
-                event.stopPropagation()
-                event.preventDefault()
-                onCancel?.()
+                event.stopPropagation();
+                event.preventDefault();
+                onCancel?.();
               }}
             >
               {t('prompt_library:delete_prompt__cancel__confirm__title')}
@@ -68,7 +68,7 @@ const DeletePromptConfirm: FC<IProps> = ({
         </Stack>
       </Paper>
     </CustomModal>
-  )
-}
+  );
+};
 
-export default DeletePromptConfirm
+export default DeletePromptConfirm;

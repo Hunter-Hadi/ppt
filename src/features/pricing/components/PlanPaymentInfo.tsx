@@ -1,7 +1,7 @@
 import { Stack, SxProps, Typography } from '@mui/material';
 import { capitalize } from 'lodash-es';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
 
@@ -62,7 +62,7 @@ const fontSxMap = {
 };
 
 const PlanPaymentInfo: FC<IProps> = (props) => {
-  const { t } = useTranslation(['modules']);
+  const { t } = useTranslation();
   const {
     type = 'free',
     sx,
@@ -94,8 +94,8 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
               ${PLAN_PRICE_MAP[type]}
             </Typography>
             <Typography variant='custom' color='grey' sx={fontSx.paymentInfo}>
-              {t('plan_payment_info__per_month')} <br />
-              {t('plan_payment_info__billed_yearly')}
+              {t('modules:plan_payment_info__per_month')} <br />
+              {t('modules:plan_payment_info__billed_yearly')}
             </Typography>
           </Stack>
         );
@@ -111,7 +111,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
               pt={1}
               sx={fontSx.paymentInfo}
             >
-              {t('plan_payment_info__per_month')}
+              {t('modules:plan_payment_info__per_month')}
             </Typography>
           </Stack>
         );
@@ -128,15 +128,15 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
 
   const desc = useMemo(() => {
     if (type == 'pro' || type === 'pro_yearly') {
-      return t('plan_payment_info__pro_desc');
+      return t('modules:plan_payment_info__pro_desc');
     }
 
     if (type == 'elite' || type === 'elite_yearly') {
-      return t('plan_payment_info__elite_desc');
+      return t('modules:plan_payment_info__elite_desc');
     }
 
     // free
-    return t('plan_payment_info__free_desc');
+    return t('modules:plan_payment_info__free_desc');
   }, [type, t]);
 
   if (variant === 'mini') {

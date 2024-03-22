@@ -1,23 +1,6 @@
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import PartnerReferralPages from '@/page_components/PartnerReferralPages';
+export default PartnerReferralPages;
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-
-const PartnerReferral = () => {
-  const router = useRouter();
-  useEffect(() => {
-    router.replace({
-      pathname: '/',
-    });
-  }, []);
-
-  return (
-    <AppLoadingLayout
-      loading
-      sx={{
-        height: '50vh',
-      }}
-    />
-  );
-};
-export default PartnerReferral;
+const getStaticProps = makeStaticProps();
+export { getStaticProps };
