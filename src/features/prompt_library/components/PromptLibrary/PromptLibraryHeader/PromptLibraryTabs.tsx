@@ -48,7 +48,7 @@ const CustomTabs = styled(({ ...props }: TabsProps) => <Tabs {...props} />)(
  * @constructor
  */
 const PromptLibraryTabs: FC = () => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const { activeTab, updateActiveTab } = usePromptLibraryParameters();
   const { checkMaxAIChromeExtensionInstall } = usePromptLibraryAuth();
   const { promptLibraryRuntime } = useContext(PromptLibraryRuntimeContext)!;

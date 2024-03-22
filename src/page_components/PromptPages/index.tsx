@@ -65,7 +65,9 @@ const PromptsPages = () => {
   useEffect(() => {
     if (promptLibraryListParameters.enabled) {
       router.push({
-        pathname: '/prompts',
+        pathname: router.query.locale
+          ? `/${router.query.locale}/prompts`
+          : '/prompts',
         query: {
           query: promptLibraryListParameters.query,
           page_size: promptLibraryListParameters.page_size,
@@ -75,7 +77,7 @@ const PromptsPages = () => {
         },
       });
     }
-  }, [promptLibraryListParameters]);
+  }, [promptLibraryListParameters, router]);
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout

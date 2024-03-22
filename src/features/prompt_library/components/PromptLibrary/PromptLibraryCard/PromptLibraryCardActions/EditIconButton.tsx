@@ -19,7 +19,7 @@ const EditIcon: FC<SvgIconProps> = (props) => {
 };
 
 export const EditIconButton: FC<{ onClick: () => void }> = ({ onClick }) => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   return (
     <PromptLibraryTooltip title={t('prompt_library:edit_prompt__tooltip')}>
       <IconButton

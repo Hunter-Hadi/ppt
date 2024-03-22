@@ -12,7 +12,7 @@ import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromp
 import snackNotifications from '@/utils/globalSnackbar';
 
 const PromptLibrarySearch: FC = () => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const { searchQuery, updateSearchQuery } = usePromptLibraryParameters();
   const inputTimer = useRef<number | null>(null);
   const searchValue = useRef<string | null>(null);

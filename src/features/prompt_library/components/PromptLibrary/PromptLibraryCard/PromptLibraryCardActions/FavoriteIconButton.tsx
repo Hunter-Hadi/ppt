@@ -16,7 +16,7 @@ export const FavoriteIconButton: FC<{
 }> = ({ promptId }) => {
   const { addFavoritePromptMutation, removeFavoritePromptMutation } =
     usePromptActions();
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const { checkMaxAIChromeExtensionInstall, checkAuthSync } =
     usePromptLibraryAuth();
   const { data } = useFavoritePrompts();

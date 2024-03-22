@@ -32,8 +32,13 @@ const LanguagesPages = () => {
                 <LanguageSwitchLink
                   locale={locale}
                   href={redirectUrl}
-                  color='text.primary'
                   underline='hover'
+                  sx={{
+                    color: 'text.primary',
+                    '&:hover': {
+                      color: 'text.secondary',
+                    },
+                  }}
                 >
                   {languageCodeMap[locale].label}
                 </LanguageSwitchLink>

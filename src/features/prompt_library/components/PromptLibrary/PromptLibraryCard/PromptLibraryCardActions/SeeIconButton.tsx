@@ -6,7 +6,7 @@ import React, { FC } from 'react';
 import PromptLibraryTooltip from '@/features/prompt_library/components/PromptLibrary/PromptLibraryTooltip';
 
 export const SeeIconButton: FC<{ detailLink: string }> = ({ detailLink }) => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   return (
     <PromptLibraryTooltip title={t('prompt_library:view_details__tooltip')}>
       <IconButton

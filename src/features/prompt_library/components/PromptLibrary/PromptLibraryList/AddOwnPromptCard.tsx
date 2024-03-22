@@ -7,7 +7,7 @@ import React, { FC } from 'react';
 import usePromptActions from '@/features/prompt_library/hooks/usePromptActions';
 
 const AddOwnPromptCard: FC = () => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const { openPromptLibraryEditForm } = usePromptActions();
   return (
     <Stack

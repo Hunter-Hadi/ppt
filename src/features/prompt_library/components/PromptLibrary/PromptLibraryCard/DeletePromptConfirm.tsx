@@ -21,7 +21,7 @@ const DeletePromptConfirm: FC<IProps> = ({
   onCancel,
   onConfirm,
 }) => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   return (
     <CustomModal
       show={show}

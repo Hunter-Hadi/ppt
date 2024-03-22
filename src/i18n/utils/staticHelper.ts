@@ -18,9 +18,10 @@ export function makeStaticProps() {
 
 export const makeStaticPaths = () => {
   return async function getStaticPaths() {
+    const popularLanguages = ['en'];
     return {
-      fallback: false,
-      paths: i18nLocales.map((lang) => ({
+      fallback: 'blocking',
+      paths: popularLanguages.map((lang) => ({
         params: {
           locale: lang,
         },

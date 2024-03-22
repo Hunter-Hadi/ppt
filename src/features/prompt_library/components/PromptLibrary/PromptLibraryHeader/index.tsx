@@ -16,7 +16,7 @@ export interface IPromptLibraryHeaderProps {
 }
 const PromptLibraryHeader: FC<IPromptLibraryHeaderProps> = (props) => {
   const { sx } = props;
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const { activeTab, promptLibraryListParameters } =
     usePromptLibraryParameters();
   return (

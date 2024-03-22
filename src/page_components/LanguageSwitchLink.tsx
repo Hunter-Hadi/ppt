@@ -1,11 +1,12 @@
+import { Link as MuiLink, LinkProps as MuiLinkProps } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
 import { useRouter } from 'next/router';
 import React, { FC, useMemo } from 'react';
 
-import ProLink, { IProLinkProps } from '@/components/ProLink';
+import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper';
 import { fixLocalePathname } from '@/i18n/utils';
 
-interface IProps extends Omit<IProLinkProps, 'href'> {
+interface IProps extends Omit<MuiLinkProps, 'href'> {
   locale: string;
   children: React.ReactNode;
   href?: string;
@@ -26,16 +27,19 @@ const LanguageSwitchLink: FC<IProps> = (props) => {
       delete queryClone.locale;
     }
 
-    return {
-      pathname: `/${locale}${href ? href : fixLocalePathname(router.pathname)}`,
-      query: queryClone,
-    };
+    const queryString = objectToQueryString(queryClone);
+
+    const fixedHref = href ? href : fixLocalePathname(router.pathname);
+
+    const fixedQueryString = queryString.length > 0 ? `?${queryString}` : '';
+
+    return `/${locale}${fixedHref}${fixedQueryString}`;
   }, [router, locale, href]);
 
   return (
-    <ProLink href={coverHref} {...resetProps}>
+    <MuiLink href={coverHref} {...resetProps}>
       {children}
-    </ProLink>
+    </MuiLink>
   );
 };
 

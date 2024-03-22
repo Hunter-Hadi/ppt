@@ -28,7 +28,7 @@ export const DeleteIconButton: FC<{
 }> = ({ promptId, promptTitle }) => {
   const { deletePromptLibraryCardMutation, removeFavoritePromptMutation } =
     usePromptActions();
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const [deleteConfirmShow, setDeleteConfirmShow] = useState(false);
   const { data } = useFavoritePrompts();
   const favouritePromptIds = useMemo(() => {

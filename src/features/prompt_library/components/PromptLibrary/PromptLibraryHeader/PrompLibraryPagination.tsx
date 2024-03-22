@@ -5,7 +5,7 @@ import CustomTablePagination from '@/features/prompt_library/components/PromptLi
 import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
 
 const PromptLibraryPagination: FC = () => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const {
     activeTab,
     promptLibraryListParameters,
