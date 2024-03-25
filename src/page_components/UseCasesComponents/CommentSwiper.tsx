@@ -35,19 +35,19 @@ const COMMENTS = [
       'This is a must have app extension. I cant say enough on how convenient it is to use an extension that can go between different AI models. Great job in creating this extension.',
   },
   {
-    avatar: '/assets/landing/user-comment/3.png',
+    avatar: '/assets/landing/user-comment/9.png',
     name: 'Kassidy Carswell',
     content:
       "Super helpful when my mom brain kicks in and I can't make words make sense. Allows me to speed up communications and decreases my work emails by 65% probably!!",
   },
   {
-    avatar: '/assets/landing/user-comment/4.png',
+    avatar: '/assets/landing/user-comment/10.png',
     name: 'Richard Appleton',
     content:
       'Incredibly useful. AI from your browser using just one click. This extension helps me solve my problems one prompt at time. One of the best Plugins yet!',
   },
   {
-    avatar: '/assets/landing/user-comment/5.png',
+    avatar: '/assets/landing/user-comment/2.png',
     name: 'Kaleigh Weaver',
     content:
       'Maxai .me has changed my productivity everyday for my conntent creation and has absololutley fasttracked my goals in so many ways. Its absoloty wonderful!!',
