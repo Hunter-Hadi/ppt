@@ -45,14 +45,17 @@ export const getStaticPaths: GetStaticPaths = async () => {
   );
   const promptIds: string[] = list.map((item) => item.id);
   console.log('promptIds', promptIds.length, promptIds[0], promptIds[1]);
-  return makeI18nStaticPathsWithOriginalParams({
-    paths: promptIds.map((id) => ({
-      params: {
-        id,
-      },
-    })),
-    fallback: false,
-  });
+  return makeI18nStaticPathsWithOriginalParams(
+    {
+      paths: promptIds.map((id) => ({
+        params: {
+          id,
+        },
+      })),
+      fallback: false,
+    },
+    true,
+  );
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
