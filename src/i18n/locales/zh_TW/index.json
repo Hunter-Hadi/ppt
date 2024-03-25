@@ -41,7 +41,8 @@
     "download_image": "下載圖片",
     "copy_image": "複製圖片",
     "share": "分享",
-    "link_copied": "連結已複製"
+    "link_copied": "連結已複製",
+    "sign_up": "註冊"
   },
   "button": {
     "add_to_chrome_for_free": "免費加入 Chrome",
@@ -381,8 +382,8 @@
     "header__menu__features": "功能",
     "header__menu__pricing": "價格",
     "header__menu__learning_center": "學習中心",
-    "footer__title": "全能AI魔法工具",
-    "footer__desc": "MaxAI.me是一款Chrome擴展，可在網站上進行寫作、摘要、拼寫檢查、調整語氣、翻譯或回覆文本。",
+    "footer__title": "AI 生產力工具",
+    "footer__desc": "使用個人化的一鍵 AI，以最快速度在任何地方節省每天數小時。由 ChatGPT、Claude、Gemini 等提供動力。",
     "footer__products": "產品",
     "footer__1_click_prompts": "一鍵提示",
     "footer__follow_us": "關注我們",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "您可以在任何基於Chromium的瀏覽器（如Chrome和Edge）上的任何網站上使用MaxAI.me來撰寫、改進寫作、摘要、解釋、修正拼寫和語法、翻譯或回覆任何文本。",
     "faq_list__disclaimer_part1": "訂閱即表示您正在自動付款。通過Stripe的客戶門戶從“我的計劃”取消或管理訂閱。所有服務均根據您在",
     "faq_list__disclaimer_part2": "中確認的內容提供。",
-    "plan_features_table__gemini_tooltip_desc": "Google最強大且通用的模型。從頭開始為多模態而建立。Gemini在MaxAI上目前處於測試階段，僅支援文字和程式碼，將很快添加對圖片、視頻和音頻的支援。"
+    "plan_features_table__gemini_tooltip_desc": "Google最強大且通用的模型。從頭開始為多模態而建立。Gemini在MaxAI上目前處於測試階段，僅支援文字和程式碼，將很快添加對圖片、視頻和音頻的支援。",
+    "footer__resources": "資源"
   },
   "privacy": {
     "banner__title": "我們對您的隱私承諾",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 本週最佳產品",
     "hero_section__title": "與 MaxAI 一起賺錢",
     "hero_section__description__part1": "加入我們的聯盟計劃並賺取",
-    "hero_section__description__part2": "分享 MaxAI 可獲得佣金！",
+    "hero_section__description__part2": "分享MaxAI，獲得持續佣金！",
     "how_it_works__title": "如何運作",
     "how_it_works__step__label": "步驟",
     "how_it_works__step1__title": "加入",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "分享",
     "how_it_works__step2__description": "與您的觀眾分享您的獨特連結，並透過<1>Rewardful</1>即時追蹤效能。",
     "how_it_works__step3__title": "獲得報酬！",
-    "how_it_works__step3__description": "通過每位轉介至 MaxAI 的新訂閱者在第一年中的 25% 循環佣金賺取報酬！",
+    "how_it_works__step3__description": "透過推薦新訂閱者給MaxAI，您可以獲得每位新訂閱者首年的<1>25%</1>回饋佣金！",
     "call_to_action__title": "加入計劃並開始賺錢",
     "faq__title": "問題解答！",
     "faq__sub_title": "常見問題的答案。找不到您要找的內容？請發送電子郵件至",

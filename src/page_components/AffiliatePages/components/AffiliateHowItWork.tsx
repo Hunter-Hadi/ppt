@@ -43,7 +43,22 @@ const HOW_IT_WORKS_LIST = [
   },
   {
     title: 'affiliate:how_it_works__step3__title',
-    description: (t) => <>{t('affiliate:how_it_works__step3__description')}</>,
+    description: () => (
+      <Trans i18nKey='affiliate:how_it_works__step3__description'>
+        Earn
+        <Typography
+          variant='custom'
+          fontSize={28}
+          fontWeight={900}
+          fontStyle={'italic'}
+          color='primary.main'
+        >
+          25%
+        </Typography>
+        recurring commission through the first year of each new subscriber that
+        you refer to MaxAI!
+      </Trans>
+    ),
   },
 ];
 
@@ -71,7 +86,7 @@ const AffiliateHowItWork = () => {
               <Box display={'flex'} minHeight={280} height='100%'>
                 <HowItWorkStepItem
                   title={t(workItem.title)}
-                  description={workItem.description(t)}
+                  description={workItem.description()}
                   step={index + 1}
                 />
               </Box>

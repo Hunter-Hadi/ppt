@@ -41,7 +41,8 @@
     "download_image": "Descarcă imaginea",
     "copy_image": "Copiază imaginea",
     "share": "Partajează",
-    "link_copied": "Link copiat"
+    "link_copied": "Link copiat",
+    "sign_up": "Înregistrare"
   },
   "button": {
     "add_to_chrome_for_free": "Adăugați în Chrome gratuit",
@@ -381,8 +382,8 @@
     "header__menu__features": "Caracteristici",
     "header__menu__pricing": "Prețuri",
     "header__menu__learning_center": "Centrul de învățare",
-    "footer__title": "Instrumente magice AI All-in-one",
-    "footer__desc": "MaxAI.me este o extensie Chrome pentru scriere, rezumare, corectare ortografică, modificare tonalitate, traducere sau răspuns la text pe site-uri web.",
+    "footer__title": "Instrument de productivitate AI",
+    "footer__desc": "Cel mai rapid mod de a utiliza Inteligența Artificială personalizată cu un singur clic oriunde pentru a economisi ore în fiecare zi. Alimentat de ChatGPT, Claude, Gemini și altele.",
     "footer__products": "Produse",
     "footer__1_click_prompts": "Prompts cu un singur clic",
     "footer__follow_us": "Urmărește-ne",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Puteți utiliza MaxAI.me pe orice site web pe orice browser bazat pe Chromium (cum ar fi Chrome și Edge) pentru a compune, îmbunătăți scrierea, rezuma, explica, corecta greșeli de ortografie și gramatică, traduce sau răspunde la orice text.",
     "faq_list__disclaimer_part1": "Prin abonare, vă înregistrați în plăți automate. Anulați sau gestionați abonamentul prin portalul clienților Stripe din „Planul meu”. Toate serviciile sunt furnizate conform",
     "faq_list__disclaimer_part2": " cu care ați confirmat la înregistrare.",
-    "plan_features_table__gemini_tooltip_desc": "Cel mai capabil și general model al Google. Construit de la zero pentru multimodalitate. Gemini pe MaxAI se află în prezent în faza beta, oferind suport doar pentru text și cod, va adăuga în curând suport pentru imagini, videoclipuri și audio."
+    "plan_features_table__gemini_tooltip_desc": "Cel mai capabil și general model al Google. Construit de la zero pentru multimodalitate. Gemini pe MaxAI se află în prezent în faza beta, oferind suport doar pentru text și cod, va adăuga în curând suport pentru imagini, videoclipuri și audio.",
+    "footer__resources": "Resurse"
   },
   "privacy": {
     "banner__title": "Angajamentul nostru față de confidențialitatea dvs.",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produsul Săptămânii",
     "hero_section__title": "Fii plătit cu MaxAI",
     "hero_section__description__part1": "Alătură-te programului nostru de afiliere și câștigă",
-    "hero_section__description__part2": "comision pentru partajarea MaxAI!",
+    "hero_section__description__part2": "comision recurent pentru partajarea MaxAI!",
     "how_it_works__title": "Cum funcționează",
     "how_it_works__step__label": "PASUL",
     "how_it_works__step1__title": "Alătură-te",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Partajează",
     "how_it_works__step2__description": "Distribuie link-ul tău unic către audiența ta și urmărește performanța în timp real prin intermediul <1>Rewardful</1>.",
     "how_it_works__step3__title": "Fii Plătit!",
-    "how_it_works__step3__description": "Câștigă un comision recurent de 25% pe parcursul primului an pentru fiecare abonat nou pe care îl recomanzi către MaxAI!",
+    "how_it_works__step3__description": "Câștigați o comisionare recurentă de <1>25%</1> pe tot parcursul primului an pentru fiecare abonat nou pe care îl recomandați la MaxAI!",
     "call_to_action__title": "Alătură-te programului și începe să câștigi",
     "faq__title": "Întrebări, răspunsuri!",
     "faq__sub_title": "Răspunsuri la întrebări frecvente. Nu găsești ce cauți? Trimite-ne un email la",

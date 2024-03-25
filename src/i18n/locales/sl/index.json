@@ -41,7 +41,8 @@
     "download_image": "Prenesi sliko",
     "copy_image": "Kopiraj sliko",
     "share": "Deli",
-    "link_copied": "Povezava kopirana"
+    "link_copied": "Povezava kopirana",
+    "sign_up": "Registracija"
   },
   "button": {
     "add_to_chrome_for_free": "Brezplačno dodaj v Chrome",
@@ -381,8 +382,8 @@
     "header__menu__features": "Funkcije",
     "header__menu__pricing": "Cene",
     "header__menu__learning_center": "Učni center",
-    "footer__title": "Vse-v-enem AI orodja",
-    "footer__desc": "MaxAI.me je Chrome razširitev za pisanje, povzemanje, preverjanje črkovanja, spreminjanje tona, prevajanje ali odgovarjanje na besedilo na spletnih mestih.",
+    "footer__title": "Orodje za produktivnost AI",
+    "footer__desc": "Najhitrejši način uporabe personalizirane 1-klikovne umetne inteligence kjerkoli, da prihranite ure vsak dan. Poganja ga ChatGPT, Claude, Gemini in več.",
     "footer__products": "Izdelki",
     "footer__1_click_prompts": "1-klik Prompts",
     "footer__follow_us": "Sledi nam",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "MaxAI.me lahko uporabljate na kateri koli spletni strani v katerem koli brskalniku, ki temelji na Chromiumu (kot sta Chrome in Edge), za sestavljanje, izboljšanje pisanja, povzetke, pojasnjevanje, popravljanje črkovanja in slovnice, prevajanje ali odgovarjanje na katero koli besedilo.",
     "faq_list__disclaimer_part1": "S prijavo se prijavljate na samodejna plačila. Naročnino lahko prekličete ali upravljate prek portala za stranke Stripe v razdelku »Moj načrt«. Vse storitve se izvajajo v skladu z ",
     "faq_list__disclaimer_part2": ", s katerimi ste se strinjali ob prijavi.",
-    "plan_features_table__gemini_tooltip_desc": "Najbolj zmogljiv in splošen model Googla. Zgrajen od začetka za multimodalnost. Gemini na MaxAI je trenutno v beta fazi, podpira samo besedilo in kodo, kmalu pa bo dodana podpora za slike, videoposnetke in zvok."
+    "plan_features_table__gemini_tooltip_desc": "Najbolj zmogljiv in splošen model Googla. Zgrajen od začetka za multimodalnost. Gemini na MaxAI je trenutno v beta fazi, podpira samo besedilo in kodo, kmalu pa bo dodana podpora za slike, videoposnetke in zvok.",
+    "footer__resources": "Vir"
   },
   "privacy": {
     "banner__title": "Naša zaveza vaši zasebnosti",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Izdelek tedna",
     "hero_section__title": "Plačajte z MaxAI",
     "hero_section__description__part1": "Pridružite se našemu afiliacijskemu programu in zaslužite",
-    "hero_section__description__part2": "provizijo za deljenje MaxAI!",
+    "hero_section__description__part2": "ponavljajoča provizija za deljenje MaxAI!",
     "how_it_works__title": "Kako deluje",
     "how_it_works__step__label": "KORAK",
     "how_it_works__step1__title": "Pridruži se",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Delite",
     "how_it_works__step2__description": "Delite svojo edinstveno povezavo s svojo publiko in spremljajte uspešnost v realnem času preko <1>Rewardful</1>.",
     "how_it_works__step3__title": "Prejmi plačilo!",
-    "how_it_works__step3__description": "Zaslužite 25% ponavljajoče provizije skozi prvo leto vsakega novega naročnika, ki ga napotite na MaxAI!",
+    "how_it_works__step3__description": "Zaslužite <1>25%</1> ponavljajočo provizijo skozi prvo leto vsakega novega naročnika, ki ga napotite na MaxAI!",
     "call_to_action__title": "Pridružite se programu in začnite zaslužiti",
     "faq__title": "Vprašanja, odgovori!",
     "faq__sub_title": "Odgovori na pogosta vprašanja. Ne najdete tistega, kar iščete? Pišite nam na",

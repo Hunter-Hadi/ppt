@@ -1,17 +1,15 @@
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
+import { capitalize } from 'lodash-es';
 import isRegExp from 'lodash-es/isRegExp';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { useMemo } from 'react';
 
-import CustomIcon from '@/components/CustomIcon';
 import FooterList from '@/components/Footerlist';
 import ProLink from '@/components/ProLink';
+import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
 import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
 import AppLogo from '@/page_components/AppLogo';
-import ProducthuntHonor from '@/page_components/ProducthuntHonor';
 
 const footerBlackList = [
   '/terms',
@@ -107,13 +105,7 @@ const AppFooter = () => {
                   {t('modules:footer__desc')}
                 </Typography>
               </Stack>
-              <ProducthuntHonor
-                sx={{
-                  flexDirection: 'column',
-                  alignItems: 'flex-start',
-                  gap: 1,
-                }}
-              />
+              <A16zTop50AppsBadge />
             </Stack>
 
             <Grid container spacing={4}>
@@ -121,7 +113,7 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={4}
+                lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -130,19 +122,22 @@ const AppFooter = () => {
                   data={[
                     {
                       label: 'MaxAI for Chrome',
-                      icon: <CustomIcon icon='Chrome' />,
+                      // icon: <CustomIcon icon='Chrome' />,
+                      icon: null,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.CHROME_EXTENSION,
                     },
                     {
                       label: 'MaxAI for Edge',
-                      icon: <CustomIcon icon='Edge' />,
+                      // icon: <CustomIcon icon='Edge' />,
+                      icon: null,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.EDGE_EXTENSION,
                     },
                     {
                       label: t('modules:footer__1_click_prompts'),
-                      icon: <CustomIcon icon='PromptLogo' />,
+                      // icon: <CustomIcon icon='PromptLogo' />,
+                      icon: null,
                       link: '/prompts',
                     },
                   ]}
@@ -152,7 +147,27 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={4}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+              >
+                <FooterList
+                  title={t('modules:footer__resources')}
+                  data={[
+                    {
+                      label: capitalize(t('affiliate:main_keywords')),
+                      icon: null,
+                      target: '_self',
+                      link: '/affiliate',
+                    },
+                  ]}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                sm={6}
+                lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -162,7 +177,8 @@ const AppFooter = () => {
                     {
                       label: 'X/Twitter',
                       target: '_blank',
-                      icon: <CustomIcon icon='TwitterX' />,
+                      // icon: <CustomIcon icon='TwitterX' />,
+                      icon: null,
                       link: APP_EXTERNAL_LINKS.TWITTER_FOLLOW_UP_LINK,
                     },
                   ]}
@@ -172,7 +188,7 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={4}
+                lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -181,12 +197,14 @@ const AppFooter = () => {
                   data={[
                     {
                       label: t('modules:footer__how_to_use'),
-                      icon: <HelpOutlineIcon />,
+                      // icon: <HelpOutlineIcon />,
+                      icon: null,
                       link: `${APP_PROJECT_LINK}/get-started`,
                     },
                     {
                       label: t('modules:footer__contact_us'),
-                      icon: <MailOutlineIcon />,
+                      // icon: <MailOutlineIcon />,
+                      icon: null,
                       link: '/contact-us',
                     },
                   ]}

@@ -41,7 +41,8 @@
     "download_image": "Lataa kuva",
     "copy_image": "Kopioi kuva",
     "share": "Jaa",
-    "link_copied": "Linkki kopioitu"
+    "link_copied": "Linkki kopioitu",
+    "sign_up": "Rekisteröidy"
   },
   "button": {
     "add_to_chrome_for_free": "Lisää Chromeen ilmaiseksi",
@@ -381,8 +382,8 @@
     "header__menu__features": "Ominaisuudet",
     "header__menu__pricing": "Hinnoittelu",
     "header__menu__learning_center": "Oppimiskeskus",
-    "footer__title": "Kaikki yhdessä AI Magic -työkalut",
-    "footer__desc": "MaxAI.me on Chrome-laajennus, joka kirjoittaa, tiivistää, tarkistaa oikeinkirjoituksen, muuttaa sävyä, kääntää tai vastaa tekstiin verkkosivustoilla.",
+    "footer__title": "AI-tuottavuustyökalu",
+    "footer__desc": "Nopein tapa käyttää personoituja 1-klikkauksen tekoälyjä missä tahansa säästääksesi tunteja joka päivä. Toimii ChatGPT:n, Clauden, Geminin ja muiden avulla.",
     "footer__products": "Tuotteet",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "Seuraa meitä",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Voit käyttää MaxAI.me-palvelua millä tahansa verkkosivustolla millä tahansa Chromium-pohjaisella selaimella (kuten Chrome ja Edge) tekstien kirjoittamiseen, parantamiseen, tiivistämiseen, selittämiseen, oikeinkirjoituksen ja kieliopin korjaamiseen, kääntämiseen tai vastaamiseen.",
     "faq_list__disclaimer_part1": "Tilaamalla hyväksyt automaattiset maksut. Peruuta tai hallitse tilaustasi Stripesin asiakasportaalissa kohdasta \"Oma suunnitelmani\". Kaikki palvelut toimitetaan ",
     "faq_list__disclaimer_part2": " kanssa, johon vahvistat liittyväsi rekisteröityessäsi.",
-    "plan_features_table__gemini_tooltip_desc": "Googlen kyvykkäin ja yleisin malli. Rakennettu alusta asti monimuotoisuutta varten. Gemini MaxAI:ssa on tällä hetkellä beetavaihe, joka tukee vain tekstiä ja koodia, mutta pian lisätään tuki kuvien, videoiden ja äänen käytölle."
+    "plan_features_table__gemini_tooltip_desc": "Googlen kyvykkäin ja yleisin malli. Rakennettu alusta asti monimuotoisuutta varten. Gemini MaxAI:ssa on tällä hetkellä beetavaihe, joka tukee vain tekstiä ja koodia, mutta pian lisätään tuki kuvien, videoiden ja äänen käytölle.",
+    "footer__resources": "Resurssit"
   },
   "privacy": {
     "banner__title": "Sitoutumisemme yksityisyyteesi",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Viikon tuote",
     "hero_section__title": "Saat palkkaa MaxAI:lla",
     "hero_section__description__part1": "Liity kumppaniohjelmaamme ja ansaitse",
-    "hero_section__description__part2": "provisiota jakamalla MaxAI!",
+    "hero_section__description__part2": "toistuva komissio MaxAI:n jakamisesta!",
     "how_it_works__title": "Kuinka se toimii",
     "how_it_works__step__label": "Vaihe",
     "how_it_works__step1__title": "Liity",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Jaa",
     "how_it_works__step2__description": "Jaa ainutlaatuinen linkkisi yleisösi kanssa ja seuraa suoritusta reaaliajassa <1>Rewardful</1>-palvelun avulla.",
     "how_it_works__step3__title": "Saat palkkaa!",
-    "how_it_works__step3__description": "Ansaitse 25% jatkuvaa provisiota jokaisesta uudesta tilaajasta, jonka ohjaat MaxAI:lle ensimmäisen vuoden aikana!",
+    "how_it_works__step3__description": "Ansaitse <1>25%</1> jatkuvaa komissiota jokaisesta uudesta tilaajasta, jonka ohjaat MaxAI:lle ensimmäisen vuoden ajan!",
     "call_to_action__title": "Liity ohjelmaan ja aloita ansaitseminen",
     "faq__title": "Kysymyksiä, vastauksia!",
     "faq__sub_title": "Vastauksia yleisiin kysymyksiin. Et löydä etsimääsi? Lähetä meille sähköpostia osoitteeseen",

@@ -41,7 +41,8 @@
     "download_image": "Muat turun imej",
     "copy_image": "Salin imej",
     "share": "Kongsi",
-    "link_copied": "Pautan disalin"
+    "link_copied": "Pautan disalin",
+    "sign_up": "Daftar"
   },
   "button": {
     "add_to_chrome_for_free": "Tambah ke Chrome secara percuma",
@@ -381,8 +382,8 @@
     "header__menu__features": "Ciri-ciri",
     "header__menu__pricing": "Harga",
     "header__menu__learning_center": "Pusat Pembelajaran",
-    "footer__title": "Alat Sihir AI All-in-One",
-    "footer__desc": "MaxAI.me adalah sambungan Chrome untuk menulis, merangkum, memeriksa ejaan, mengubah nada, menterjemah, atau membalas teks di laman web.",
+    "footer__title": "Alat produktiviti AI",
+    "footer__desc": "Cara terpantas untuk menggunakan AI peribadi 1-klik di mana-mana untuk menjimatkan berjam-jam setiap hari. Dikuasakan oleh ChatGPT, Claude, Gemini, dan banyak lagi.",
     "footer__products": "Produk",
     "footer__1_click_prompts": "1-Klik Prompts",
     "footer__follow_us": "Ikuti Kami",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Anda boleh menggunakan MaxAI.me pada mana-mana laman web pada mana-mana pelayar berasaskan Chromium (seperti Chrome dan Edge) untuk menghasilkan, meningkatkan penulisan, merangkum, menjelaskan, memperbetulkan ejaan & tatabahasa, menterjemah, atau menjawab teks apa pun.",
     "faq_list__disclaimer_part1": "Dengan melanggan, anda mendaftar untuk pembayaran automatik. Batalkan atau urus langganan anda melalui portal pelanggan Stripe dari \"Rancangan Saya\". Semua perkhidmatan disampaikan mengikut",
     "faq_list__disclaimer_part2": " yang anda sahkan semasa pendaftaran.",
-    "plan_features_table__gemini_tooltip_desc": "Model paling cekap dan umum Google. Dibina dari bawah ke atas untuk multimodaliti. Gemini di MaxAI kini dalam fasa beta, hanya menyokong teks dan kod, akan segera menambah sokongan untuk imej, video, dan audio."
+    "plan_features_table__gemini_tooltip_desc": "Model paling cekap dan umum Google. Dibina dari bawah ke atas untuk multimodaliti. Gemini di MaxAI kini dalam fasa beta, hanya menyokong teks dan kod, akan segera menambah sokongan untuk imej, video, dan audio.",
+    "footer__resources": "Sumber"
   },
   "privacy": {
     "banner__title": "Komitmen Kami terhadap Privasi Anda",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produk Minggu Ini",
     "hero_section__title": "Dapatkan bayaran dengan MaxAI",
     "hero_section__description__part1": "Sertai program rakan kongsi kami dan dapatkan",
-    "hero_section__description__part2": "komisen untuk berkongsi MaxAI!",
+    "hero_section__description__part2": "komisen berulang untuk berkongsi MaxAI!",
     "how_it_works__title": "Bagaimana ia berfungsi",
     "how_it_works__step__label": "LANGKAH",
     "how_it_works__step1__title": "Sertai",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Kongsi",
     "how_it_works__step2__description": "Kongsi pautan unik anda dengan audiens anda dan pantau prestasi secara langsung melalui <1>Rewardful</1>.",
     "how_it_works__step3__title": "Dapatkan Bayaran!",
-    "how_it_works__step3__description": "Dapatkan komisen berulang sebanyak 25% sepanjang tahun pertama setiap pelanggan baru yang anda rujuk ke MaxAI!",
+    "how_it_works__step3__description": "Dapatkan komisen berulang <1>25%</1> sepanjang tahun pertama setiap pelanggan baru yang anda rujuk ke MaxAI!",
     "call_to_action__title": "Sertai program ini dan mulakan pendapatan",
     "faq__title": "Soalan, dijawab!",
     "faq__sub_title": "Jawapan kepada soalan-soalan biasa. Tidak dapat mencari apa yang anda cari? E-mel kami di",

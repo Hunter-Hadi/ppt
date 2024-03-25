@@ -41,7 +41,8 @@
     "download_image": "I-download ang imahe",
     "copy_image": "Kopyahin ang imahe",
     "share": "Ibahagi",
-    "link_copied": "Nakopya ang link"
+    "link_copied": "Nakopya ang link",
+    "sign_up": "Mag-sign up"
   },
   "button": {
     "add_to_chrome_for_free": "Idagdag sa Chrome nang libre",
@@ -381,8 +382,8 @@
     "header__menu__features": "Mga Tampok",
     "header__menu__pricing": "Presyo",
     "header__menu__learning_center": "Learning Center",
-    "footer__title": "Lahat-sa-isa AI Magic Tools",
-    "footer__desc": "Ang MaxAI.me ay isang Chrome extension para sa pagsusulat, pag-uulit-ulit, spellchecking, pagbabago ng tono, pagsasalin, o pagsasagot sa teksto sa mga website.",
+    "footer__title": "AI tool para sa produktibidad",
+    "footer__desc": "Ang pinakamabilis na paraan upang gamitin ang personalisadong 1-click AI kahit saan upang makatipid ng oras araw-araw. Pinapagana ng ChatGPT, Claude, Gemini, at iba pa.",
     "footer__products": "Mga Produkto",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "Sundan Kami",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Maaari mong gamitin ang MaxAI.me sa anumang website sa anumang Chromium-based na mga browser (tulad ng Chrome at Edge) upang magsulat, mapabuti ang pagsusulat, magbuod, ipaliwanag, ayusin ang pagbaybay at gramatika, isalin, o tumugon sa anumang teksto.",
     "faq_list__disclaimer_part1": "Sa pamamagitan ng pag-subscribe, ikaw ay nag-eenroll sa automatic na mga pagbabayad. I-kansela o pamahalaan ang iyong subscription sa pamamagitan ng customer portal ng Stripe mula sa \"Aking Plano\". Ang lahat ng serbisyo ay ibinibigay ayon sa ",
     "faq_list__disclaimer_part2": " na iyong kinumpirma sa iyong pag-sign up.",
-    "plan_features_table__gemini_tooltip_desc": "Ang pinakamahusay at pangkalahatang modelo ng Google. Binuo mula sa simula para sa multimodality. Ang Gemini sa MaxAI ay kasalukuyang nasa beta phase, suportado lamang ang teksto at code, malapit na magdagdag ng suporta para sa mga imahe, bidyo, at audio."
+    "plan_features_table__gemini_tooltip_desc": "Ang pinakamahusay at pangkalahatang modelo ng Google. Binuo mula sa simula para sa multimodality. Ang Gemini sa MaxAI ay kasalukuyang nasa beta phase, suportado lamang ang teksto at code, malapit na magdagdag ng suporta para sa mga imahe, bidyo, at audio.",
+    "footer__resources": "Mga Mapagkukunan"
   },
   "privacy": {
     "banner__title": "Ang Aming Pangako sa Iyong Privacy",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produkto ng Linggo",
     "hero_section__title": "Kumita gamit ang MaxAI",
     "hero_section__description__part1": "Sumali sa aming programa ng affiliate at kumita",
-    "hero_section__description__part2": "ng komisyon sa pamamagitan ng pagbahagi ng MaxAI!",
+    "hero_section__description__part2": "komisyon na paulit-ulit para sa pagbabahagi ng MaxAI!",
     "how_it_works__title": "Paano Ito Gumagana",
     "how_it_works__step__label": "HAKBANG",
     "how_it_works__step1__title": "Sumali",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Ibahagi",
     "how_it_works__step2__description": "Ibahagi ang iyong natatanging link sa iyong audience at subaybayan ang pagganap nito sa real-time gamit ang <1>Rewardful</1>.",
     "how_it_works__step3__title": "Kumita!",
-    "how_it_works__step3__description": "Kumita ng 25% recurring commission sa unang taon ng bawat bagong subscriber na iyong maire-refer sa MaxAI!",
+    "how_it_works__step3__description": "Kumita ng <1>25%</1> na recurring commission sa unang taon ng bawat bagong subscriber na iyong i-refer sa MaxAI!",
     "call_to_action__title": "Sumali sa programa at magsimulang kumita",
     "faq__title": "Mga Tanong, Nasagot!",
     "faq__sub_title": "Mga sagot sa mga karaniwang tanong. Hindi makahanap ng hinahanap mo? I-email kami sa",

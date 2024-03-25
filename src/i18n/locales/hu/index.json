@@ -41,7 +41,8 @@
     "download_image": "Kép letöltése",
     "copy_image": "Kép másolása",
     "share": "Megosztás",
-    "link_copied": "Link másolva"
+    "link_copied": "Link másolva",
+    "sign_up": "Regisztráció"
   },
   "button": {
     "add_to_chrome_for_free": "Hozzáadás a Chrome-hoz ingyen",
@@ -381,8 +382,8 @@
     "header__menu__features": "Funkciók",
     "header__menu__pricing": "Árak",
     "header__menu__learning_center": "Tanulási központ",
-    "footer__title": "Mindent egyben AI Varázseszközök",
-    "footer__desc": "A MaxAI.me egy Chrome bővítmény, amely lehetővé teszi weboldalakon található szövegek írását, összefoglalását, helyesírás-ellenőrzését, hangvétel módosítását, fordítását vagy válaszadást.",
+    "footer__title": "AI termelékenységi eszköz",
+    "footer__desc": "A személyre szabott 1 kattintásos mesterséges intelligenciát használó leggyorsabb módja annak, hogy minden nap órákat takarítson meg. ChatGPT, Claude, Gemini és mások által támogatva.",
     "footer__products": "Termékek",
     "footer__1_click_prompts": "1 kattintásos segédletek",
     "footer__follow_us": "Kövess minket",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "A MaxAI.me-t bármely webhelyen, bármilyen Chromium-alapú böngészőben (pl. Chrome és Edge) használhatod szövegírásra, írásfejlesztésre, összefoglalásra, magyarázatra, helyesírás és nyelvtan javítására, fordításra vagy válaszadásra.",
     "faq_list__disclaimer_part1": "Az előfizetéssel automatikus fizetéseket vállalsz. A feliratkozást a Stripe ügyfélportálján keresztül a „Saját tervem” menüpontban tudod lemondani vagy kezelni. Az összes szolgáltatást a ",
     "faq_list__disclaimer_part2": " szerint nyújtjuk, amit az előfizetéssel megerősítesz.",
-    "plan_features_table__gemini_tooltip_desc": "Google legképzettebb és általános modellje. A multimodalitásra épült alapoktól kezdve. A Gemini a MaxAI-n jelenleg béta fázisban van, csak szöveget és kódot támogat, hamarosan képeket, videókat és hangot is hozzáad."
+    "plan_features_table__gemini_tooltip_desc": "Google legképzettebb és általános modellje. A multimodalitásra épült alapoktól kezdve. A Gemini a MaxAI-n jelenleg béta fázisban van, csak szöveget és kódot támogat, hamarosan képeket, videókat és hangot is hozzáad.",
+    "footer__resources": "Erőforrások"
   },
   "privacy": {
     "banner__title": "Elkötelezettségünk a magánéleted iránt",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 A hét terméke",
     "hero_section__title": "Fizetést kapjon a MaxAI-val",
     "hero_section__description__part1": "Csatlakozzon partnerprogramunkhoz és keressen",
-    "hero_section__description__part2": "jutalékot a MaxAI megosztásáért!",
+    "hero_section__description__part2": "ismétlődő jutalék a MaxAI megosztásáért!",
     "how_it_works__title": "Hogyan működik",
     "how_it_works__step__label": "LÉPÉS",
     "how_it_works__step1__title": "Csatlakozás",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Megosztás",
     "how_it_works__step2__description": "Oszd meg egyedi linkedet a közönségeddel és kövesd nyomon az eredményeket valós időben a <1>Rewardful</1> segítségével.",
     "how_it_works__step3__title": "Kapjon fizetést!",
-    "how_it_works__step3__description": "25% ismétlődő jutalékot szerezzen minden új előfizető után az első évben, akiket a MaxAI-hoz ajánlott!",
+    "how_it_works__step3__description": "Tegyen szert <1>25%</1> ismétlődő jutalékra minden új előfizető után az első évben, akiket MaxAI-hoz irányít!",
     "call_to_action__title": "Csatlakozzon a programhoz és kezdjen el keresni",
     "faq__title": "Kérdések, válaszok!",
     "faq__sub_title": "Válaszok a gyakori kérdésekre. Nem találja, amit keres? Írjon nekünk az alábbi e-mail címre:",

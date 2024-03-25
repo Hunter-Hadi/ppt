@@ -41,7 +41,8 @@
     "download_image": "ചിത്രം ഡൗൺലോഡുചെയ്യുക",
     "copy_image": "ചിത്രം പകർത്തുക",
     "share": "പങ്കിടുക",
-    "link_copied": "ലിങ്ക് പകർത്തപ്പെട്ടു"
+    "link_copied": "ലിങ്ക് പകർത്തപ്പെട്ടു",
+    "sign_up": "സൈൻ അപ്പ്"
   },
   "button": {
     "add_to_chrome_for_free": "സൗജന്യമായി Chrome-ലേക്ക് ചേർക്കുക",
@@ -381,8 +382,8 @@
     "header__menu__features": "സവിശേഷതകൾ",
     "header__menu__pricing": "വിലകൾ",
     "header__menu__learning_center": "പഠന കേന്ദ്രം",
-    "footer__title": "ഒരു അഖിലേന്ത്യാനികൾ AI മാജിക് ഉപകരണങ്ങൾ",
-    "footer__desc": "MaxAI.me ഒരു Chrome എക്സ്റ്റെൻഷൻ ആണ്, വെബ്സൈറ്റുകളിൽ ടെക്സ്റ്റ് എഴുതുക, സംഗ്രഹിക്കുക, സ്പെൽചെക്കുചെയ്യുക, ടോൺ മാറ്റുക, പരിഭാഷ ചെയ്യുക, അല്ലെങ്കിൽ ടെക്സ്റ്റ് പ്രതികരിക്കുകയും ചെയ്യുന്നതിന്.",
+    "footer__title": "എ.ഐ. ഉപയോഗ്യതാ ഉപകരണം",
+    "footer__desc": "ദിവസങ്ങളുടെ മേഘങ്ങള്‍ സംരക്ഷിക്കാന്‍ പേഴ്‌സണലൈസ്ഡ് 1-ക്ലിക്ക് എ.ഐ. എല്ലാവര്‍ക്കും ഉപയോഗിക്കാവുന്ന ഏറ്റവും വേഗത്തിലേക്ക് ഉപയോഗിക്കാന്‍ അനുവദിക്കുന്നു. ChatGPT, Claude, Gemini എന്നിവര്‍ പ്രവര്‍ത്തിക്കുന്നതായിരിക്കുന്നു.",
     "footer__products": "ഉത്പാദനങ്ങൾ",
     "footer__1_click_prompts": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",
     "footer__follow_us": "ഞങ്ങളെ പിന്തുടരുക",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Anda boleh menggunakan MaxAI.me pada mana-mana laman web pada pelayar berasaskan Chromium (seperti Chrome dan Edge) untuk menghasilkan, meningkatkan penulisan, merangkum, menjelaskan, memperbetulkan ejaan & tatabahasa, menterjemah, atau membalas teks apa pun.",
     "faq_list__disclaimer_part1": "Dengan melanggan, anda mendaftar untuk pembayaran automatik. Batalkan atau urus langganan anda melalui portal pelanggan Stripe dari \"Rancangan Saya\". Semua perkhidmatan disampaikan mengikut",
     "faq_list__disclaimer_part2": "yang anda sahkan dengan pendaftaran anda.",
-    "plan_features_table__gemini_tooltip_desc": "ഗൂഗിളിന്റെ ഏറ്റവും യോഗ്യമായ ഒരു സാധാരണ മോഡൽ. ബഹുമുഖത്തില്‍ ഉള്ളതായി അടയാളപ്പെടുത്തിയത്. ജെമിനി മാക്സ്‌എയിയില്‍ ഇപ്പോഴും ബീറ്റാ ഘട്ടത്തിലാണ്, പഠനങ്ങളും കോഡും മാത്രമേ പിന്തുണയ്ക്കുന്നു. ശീഘ്രം ചിത്രങ്ങളും, വീഡിയോകളും, ഓഡിയോകളും പിന്തുണയ്ക്കുന്നതാക്കും."
+    "plan_features_table__gemini_tooltip_desc": "ഗൂഗിളിന്റെ ഏറ്റവും യോഗ്യമായ ഒരു സാധാരണ മോഡൽ. ബഹുമുഖത്തില്‍ ഉള്ളതായി അടയാളപ്പെടുത്തിയത്. ജെമിനി മാക്സ്‌എയിയില്‍ ഇപ്പോഴും ബീറ്റാ ഘട്ടത്തിലാണ്, പഠനങ്ങളും കോഡും മാത്രമേ പിന്തുണയ്ക്കുന്നു. ശീഘ്രം ചിത്രങ്ങളും, വീഡിയോകളും, ഓഡിയോകളും പിന്തുണയ്ക്കുന്നതാക്കും.",
+    "footer__resources": "വളരെക്കാഴ്ചകൾ"
   },
   "privacy": {
     "banner__title": "നിങ്ങളുടെ പ്രൈവസിക്ക് ഞങ്ങളുടെ പ്രതിജ്ഞ",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 ആഴ്ചയുടെ ഉത്പന്നം",
     "hero_section__title": "മാക്സ്‌എയിയുടെ മൂല്യം പണമാക്കൂ",
     "hero_section__description__part1": "ഞങ്ങളുടെ അഫിലിയേറ്റ് പ്രോഗ്രാമിലേക്ക് ചേരുകയും ലഭിക്കുകയും ചെയ്യുക",
-    "hero_section__description__part2": "മാക്സ്‌എയിയുമായി പങ്കുവെക്കുന്നതിന് കമ്മീഷൻ ലഭിക്കും!",
+    "hero_section__description__part2": "മാക്സ് എ.ഐ. പങ്കിടുന്നതിന് പുനരാവര്‍ത്തന കമ്മീഷന്‍!",
     "how_it_works__title": "ഇതെങ്ങനെ പ്രവർത്തിക്കും",
     "how_it_works__step__label": "ഘടകം",
     "how_it_works__step1__title": "ചേർക്കുക",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "പങ്കിടുക",
     "how_it_works__step2__description": "നിങ്ങളുടെ പ്രത്യേക ലിങ്ക് നിങ്ങളുടെ പുരുഷസമൂഹത്തോടും പ്രദർശിപ്പിക്കുക, പ്രത്യേക ലിങ്കിലൂടെ പ്രദർശനം ട്രാക്ക് ചെയ്യുക, പ്രത്യേക ലിങ്കിലൂടെ പ്രദർശനം ട്രാക്ക് ചെയ്യുക <1>Rewardful</1>.",
     "how_it_works__step3__title": "പണം ലഭിക്കുക!",
-    "how_it_works__step3__description": "മാക്സ്‌എയിയിലേക്ക് നിങ്ങൾ ഉപയോഗിച്ചുവരുന്ന ഓരോ പുതിയ സബ്സ്ക്രൈബർക്കും ആദ്യ വർഷത്തിനുള്ളിൽ 25% പുനർനിർദ്ദേശിക്കുന്ന കമ്മീഷൻ ലഭിക്കും!",
+    "how_it_works__step3__description": "മാക്സ്‌എയിയിലേക്ക് നിങ്ങൾ പരിഷ്ക്കരിച്ചതിന് പുതിയ ഉപഭോക്താവിനെ നിങ്ങൾ പരിഗണിക്കുന്നതിന് ആദ്യ വർഷത്തിനുള്ളിൽ <1>25%</1> പുനർനിർദ്ദേശം നൽകുക!",
     "call_to_action__title": "പ്രോഗ്രാമിലേക്ക് ചേരുകയും പണം സംഭാവനചെയ്യുക",
     "faq__title": "ചോദ്യങ്ങൾ, ഉത്തരങ്ങൾ!",
     "faq__sub_title": "സാധാരണ ചോദ്യങ്ങളിലേക്ക് ഉത്തരങ്ങൾ. നിങ്ങൾ തിരഞ്ഞെടുത്തത് കണ്ടെത്താൻ കഴിയാതെ? ഞങ്ങളെ ഇമെയിൽ ചെയ്യുക",

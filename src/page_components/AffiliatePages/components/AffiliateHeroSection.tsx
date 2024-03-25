@@ -3,7 +3,7 @@ import { Box, Button, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 
-import { A16zIcon } from '@/features/landing/components/HeroSection';
+import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
 import { AFFILIATE_PROGRAM_SIGN_UP_LINK } from '@/page_components/AffiliatePages/constant';
@@ -24,48 +24,7 @@ const AffiliateHeroSection = () => {
           }}
           mb={4}
         >
-          <IndicatorDecorator>
-            <Stack
-              component={'a'}
-              href={'https://a16z.com/100-gen-ai-apps/'}
-              target={'_blank'}
-              justifyContent={'center'}
-              alignItems='center'
-              sx={{
-                color: 'text.primary',
-                '&:hover': {
-                  color: 'primary.main',
-                  cursor: 'pointer',
-                  transition: 'color 0.3s ease',
-                },
-              }}
-            >
-              <Stack direction={'row'} alignItems='center' spacing={1}>
-                <A16zIcon />
-                <Typography
-                  variant='custom'
-                  fontSize={{
-                    xs: 20,
-                    sm: 24,
-                  }}
-                  fontWeight={700}
-                  color='primary.main'
-                >
-                  2024
-                </Typography>
-              </Stack>
-              <Typography
-                variant='custom'
-                color='inherit'
-                fontSize={{
-                  xs: 14,
-                  sm: 16,
-                }}
-              >
-                {t('pages:home_page__hero_section__indicator1_label')}
-              </Typography>
-            </Stack>
-          </IndicatorDecorator>
+          <A16zTop50AppsBadge />
           <IndicatorDecorator>
             <Stack justifyContent={'center'} alignItems='center'>
               <Typography
@@ -188,7 +147,13 @@ const AffiliateHeroSection = () => {
                 variant='custom'
                 fontSize={{ xs: 20, sm: 24 }}
                 fontWeight={700}
-                fontStyle='italic'
+                sx={{
+                  px: 0.8,
+                  borderRadius: 2,
+                  bgcolor: '#FACE1C',
+                  color: 'text.primary',
+                  lineHeight: 1.5,
+                }}
               >
                 25%
               </Typography>

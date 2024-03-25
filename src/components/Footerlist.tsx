@@ -8,7 +8,7 @@ const FooterList: FC<{
   title: string;
   data: {
     label: string;
-    icon: React.ReactNode;
+    icon?: React.ReactNode;
     link: string;
     target?: React.HTMLAttributeAnchorTarget;
   }[];
@@ -36,9 +36,11 @@ const FooterList: FC<{
               alignItems='center'
               key={link}
             >
-              <Box height={24} color={'text.main'}>
-                {icon}
-              </Box>
+              {icon && (
+                <Box height={24} color={'text.main'}>
+                  {icon}
+                </Box>
+              )}
               <ProLink
                 href={link}
                 underline='hover'

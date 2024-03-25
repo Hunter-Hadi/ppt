@@ -41,7 +41,8 @@
     "download_image": "이미지 다운로드",
     "copy_image": "이미지 복사",
     "share": "공유",
-    "link_copied": "링크 복사됨"
+    "link_copied": "링크 복사됨",
+    "sign_up": "가입하기"
   },
   "button": {
     "add_to_chrome_for_free": "무료로 Chrome에 추가",
@@ -381,8 +382,8 @@
     "header__menu__features": "기능",
     "header__menu__pricing": "가격",
     "header__menu__learning_center": "학습 센터",
-    "footer__title": "올인원 AI 매직 도구",
-    "footer__desc": "MaxAI.me은 웹사이트에서 텍스트를 작성, 요약, 철자 확인, 톤 변경, 번역 또는 답장하는 크롬 확장 프로그램입니다.",
+    "footer__title": "AI 생산성 도구",
+    "footer__desc": "맞춤형 1-클릭 AI를 어디서든 사용하여 매일 수십 시간을 절약하는 가장 빠른 방법입니다. ChatGPT, Claude, Gemini 등의 기술로 구동됩니다.",
     "footer__products": "제품",
     "footer__1_click_prompts": "1-클릭 프롬프트",
     "footer__follow_us": "팔로우하기",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "MaxAI.me는 Chromium 기반 브라우저(Chrome 및 Edge 등)의 모든 웹사이트에서 텍스트 작성, 글쓰기 개선, 요약, 설명, 맞춤법 및 문법 수정, 번역 또는 답변을 작성하는 데 사용할 수 있습니다.",
     "faq_list__disclaimer_part1": "구독하면 자동 결제에 등록됩니다. 구독을 취소하거나 관리하려면 \"내 요금제\"에서 Stripe의 고객 포털을 통해 처리하세요. 모든 서비스는 ",
     "faq_list__disclaimer_part2": "에 따라 제공됩니다.",
-    "plan_features_table__gemini_tooltip_desc": "Google의 가장 능력있고 일반적인 모델입니다. 다중 기능을 위해 처음부터 구축되었습니다. Gemini on MaxAI는 현재 베타 단계로, 텍스트와 코드만 지원하며 곧 이미지, 비디오 및 오디오를 지원할 예정입니다."
+    "plan_features_table__gemini_tooltip_desc": "Google의 가장 능력있고 일반적인 모델입니다. 다중 기능을 위해 처음부터 구축되었습니다. Gemini on MaxAI는 현재 베타 단계로, 텍스트와 코드만 지원하며 곧 이미지, 비디오 및 오디오를 지원할 예정입니다.",
+    "footer__resources": "자료"
   },
   "privacy": {
     "banner__title": "당신의 개인 정보에 대한 약속",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 이번 주 제품",
     "hero_section__title": "MaxAI로 수익 창출하기",
     "hero_section__description__part1": "저희 제휴 프로그램에 가입하고",
-    "hero_section__description__part2": "MaxAI를 공유하여 커미션을 받으세요!",
+    "hero_section__description__part2": "MaxAI를 공유하여 반복 수수료를 받으세요!",
     "how_it_works__title": "작동 방식",
     "how_it_works__step__label": "단계",
     "how_it_works__step1__title": "가입하기",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "공유하기",
     "how_it_works__step2__description": "고유한 링크를 대중과 공유하고 실시간으로 성과를 <1>Rewardful</1>에서 추적하세요.",
     "how_it_works__step3__title": "수익 창출!",
-    "how_it_works__step3__description": "MaxAI로 언제든지 새 구독자를 추천하면 첫 해 동안 재발생하는 수익의 25%를 받으세요!",
+    "how_it_works__step3__description": "맥스AI에게 추천한 각 신규 가입자의 첫 해 동안 <1>25%</1> 재발생 수수료를 획득하세요!",
     "call_to_action__title": "프로그램에 가입하고 수익 창출 시작하기",
     "faq__title": "질문에 대한 답변!",
     "faq__sub_title": "자주 묻는 질문에 대한 답변입니다. 원하는 정보를 찾을 수 없나요? 이메일로 문의하세요.",

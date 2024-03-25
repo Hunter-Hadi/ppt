@@ -41,7 +41,8 @@
     "download_image": "Last ned bilde",
     "copy_image": "Kopier bilde",
     "share": "Del",
-    "link_copied": "Lenke kopiert"
+    "link_copied": "Lenke kopiert",
+    "sign_up": "Registrer deg"
   },
   "button": {
     "add_to_chrome_for_free": "Legg til i Chrome gratis",
@@ -381,8 +382,8 @@
     "header__menu__features": "Funksjoner",
     "header__menu__pricing": "Priser",
     "header__menu__learning_center": "Læringsenter",
-    "footer__title": "Alt-i-ett AI-magiske verktøy",
-    "footer__desc": "MaxAI.me er en Chrome-utvidelse for å skrive, oppsummere, stavekontrollere, endre tone, oversette eller svare på tekst på nettsider.",
+    "footer__title": "AI produktivitetsverktøy",
+    "footer__desc": "Den raskeste måten å bruke personlig tilpasset AI med 1-klikk hvor som helst for å spare timer hver dag. Drevet av ChatGPT, Claude, Gemini og mer.",
     "footer__products": "Produkter",
     "footer__1_click_prompts": "1-Klikk-prompter",
     "footer__follow_us": "Følg oss",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Du kan bruke MaxAI.me på hvilken som helst nettside i hvilken som helst Chromium-basert nettleser (som Chrome og Edge) for å komponere, forbedre skriving, oppsummere, forklare, rette stave- og grammatikkfeil, oversette eller svare på hvilken som helst tekst.",
     "faq_list__disclaimer_part1": "Ved å abonnere, melder du deg på automatisk betaling. Avbryt eller administrer abonnementet ditt gjennom Stripes kundeportal fra \"Min plan\". Alle tjenester leveres i henhold til ",
     "faq_list__disclaimer_part2": " du bekrefter med din påmelding.",
-    "plan_features_table__gemini_tooltip_desc": "Googles mest kapable og generelle modell. Bygget fra grunnen av for multimodalitet. Gemini på MaxAI er for øyeblikket i betafasen, og støtter bare tekst og kode, vil snart legge til støtte for bilder, videoer og lyd."
+    "plan_features_table__gemini_tooltip_desc": "Googles mest kapable og generelle modell. Bygget fra grunnen av for multimodalitet. Gemini på MaxAI er for øyeblikket i betafasen, og støtter bare tekst og kode, vil snart legge til støtte for bilder, videoer og lyd.",
+    "footer__resources": "Ressurser"
   },
   "privacy": {
     "banner__title": "Vårt løfte om personvern",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produktet i uken",
     "hero_section__title": "Få betalt med MaxAI",
     "hero_section__description__part1": "Bli med i vårt tilknyttede program og tjen",
-    "hero_section__description__part2": "provisjon for å dele MaxAI!",
+    "hero_section__description__part2": "gjentakende provisjon for å dele MaxAI!",
     "how_it_works__title": "Slik fungerer det",
     "how_it_works__step__label": "TRINN",
     "how_it_works__step1__title": "Bli med",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Del",
     "how_it_works__step2__description": "Del din unike lenke med publikummet ditt og følg ytelsen i sanntid via <1>Rewardful</1>.",
     "how_it_works__step3__title": "Få betalt!",
-    "how_it_works__step3__description": "Tjen 25% gjentakende provisjon gjennom det første året for hver ny abonnent du henviser til MaxAI!",
+    "how_it_works__step3__description": "Tjen <1>25%</1> gjentakende provisjon gjennom det første året for hver ny abonnent du henviser til MaxAI!",
     "call_to_action__title": "Bli med i programmet og begynn å tjene",
     "faq__title": "Spørsmål, besvart!",
     "faq__sub_title": "Svar på vanlige spørsmål. Kan ikke finne det du leter etter? Send oss en e-post på",

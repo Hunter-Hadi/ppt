@@ -41,7 +41,8 @@
     "download_image": "Baixar imagem",
     "copy_image": "Copiar imagem",
     "share": "Compartilhar",
-    "link_copied": "Link copiado"
+    "link_copied": "Link copiado",
+    "sign_up": "Cadastre-se"
   },
   "button": {
     "add_to_chrome_for_free": "Adicionar ao Chrome gratuitamente",
@@ -381,8 +382,8 @@
     "header__menu__features": "Recursos",
     "header__menu__pricing": "Preços",
     "header__menu__learning_center": "Centro de Aprendizado",
-    "footer__title": "Ferramentas Mágicas de IA Tudo-em-Um",
-    "footer__desc": "MaxAI.me é uma extensão do Chrome para escrever, resumir, corrigir ortografia, alterar tom, traduzir ou responder a texto em sites.",
+    "footer__title": "Ferramenta de produtividade de IA",
+    "footer__desc": "A maneira mais rápida de usar IA personalizada de 1 clique em qualquer lugar para economizar horas todos os dias. Alimentado por ChatGPT, Claude, Gemini e muito mais.",
     "footer__products": "Produtos",
     "footer__1_click_prompts": "Prompts de 1 Clique",
     "footer__follow_us": "Siga-nos",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Você pode usar o MaxAI.me em qualquer site nos navegadores baseados em Chromium (como Chrome e Edge) para compor, melhorar a escrita, resumir, explicar, corrigir ortografia e gramática, traduzir ou responder a qualquer texto.",
     "faq_list__disclaimer_part1": "Ao se inscrever, você está se cadastrando em pagamentos automáticos. Cancele ou gerencie sua assinatura por meio do portal do cliente da Stripe em \"Meu Plano\". Todos os serviços são entregues de acordo com os ",
     "faq_list__disclaimer_part2": " que você confirma ao se inscrever.",
-    "plan_features_table__gemini_tooltip_desc": "O modelo mais capaz e geral do Google. Construído desde o início para multimodalidade. O Gemini no MaxAI está atualmente na fase beta, suportando apenas texto e código, em breve adicionará suporte para imagens, vídeos e áudio."
+    "plan_features_table__gemini_tooltip_desc": "O modelo mais capaz e geral do Google. Construído desde o início para multimodalidade. O Gemini no MaxAI está atualmente na fase beta, suportando apenas texto e código, em breve adicionará suporte para imagens, vídeos e áudio.",
+    "footer__resources": "Recursos"
   },
   "privacy": {
     "banner__title": "Nosso Compromisso com Sua Privacidade",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produto da Semana",
     "hero_section__title": "Receba pagamento com MaxAI",
     "hero_section__description__part1": "Junte-se ao nosso programa de afiliados e ganhe",
-    "hero_section__description__part2": "comissão por compartilhar MaxAI!",
+    "hero_section__description__part2": "comissão recorrente por compartilhar o MaxAI!",
     "how_it_works__title": "Como funciona",
     "how_it_works__step__label": "PASSO",
     "how_it_works__step1__title": "Junte-se",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Compartilhe",
     "how_it_works__step2__description": "Compartilhe seu link exclusivo com sua audiência e acompanhe o desempenho em tempo real através do <1>Rewardful</1>.",
     "how_it_works__step3__title": "Receba pagamento!",
-    "how_it_works__step3__description": "Ganhe 25% de comissão recorrente durante o primeiro ano de cada novo assinante que você indicar para o MaxAI!",
+    "how_it_works__step3__description": "Ganhe <1>25%</1> de comissão recorrente durante o primeiro ano de cada novo assinante que você indicar para o MaxAI!",
     "call_to_action__title": "Junte-se ao programa e comece a ganhar",
     "faq__title": "Perguntas, respondidas!",
     "faq__sub_title": "Respostas para perguntas comuns. Não encontrou o que procura? Envie um email para nós em",

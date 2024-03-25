@@ -41,7 +41,8 @@
     "download_image": "Pakua picha",
     "copy_image": "Nakili picha",
     "share": "Shiriki",
-    "link_copied": "Kiungo kimenukuliwa"
+    "link_copied": "Kiungo kimenukuliwa",
+    "sign_up": "Jisajili"
   },
   "button": {
     "add_to_chrome_for_free": "Ongeza kwa Chrome bure",
@@ -381,8 +382,8 @@
     "header__menu__features": "Vipengele",
     "header__menu__pricing": "Bei",
     "header__menu__learning_center": "Kituo cha Kujifunza",
-    "footer__title": "Zana za AI zote katika sehemu moja",
-    "footer__desc": "MaxAI.me ni kifaa cha Chrome kinachotumika kuandika, kusawazisha, kuhakiki sarufi, kubadilisha sauti, kutafsiri, au kujibu maandishi kwenye tovuti.",
+    "footer__title": "Zana ya Ufanisi wa AI",
+    "footer__desc": "Njia ya haraka zaidi ya kutumia AI ya kipekee ya 1-bonyeza mahali popote ili kuokoa masaa kila siku. Inayoendeshwa na ChatGPT, Claude, Gemini, na zingine.",
     "footer__products": "Bidhaa",
     "footer__1_click_prompts": "Majedwali ya Bonyeza 1",
     "footer__follow_us": "Tufuate",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Unaweza kutumia MaxAI.me kwenye wavuti yoyote kwenye vivinjari vyovyote vinavyotegemea Chromium (kama Chrome na Edge) ili kuandika, kuboresha uandishi, kufupisha, kuelezea, kusahihisha sarufi na kisarufi, kutafsiri, au kujibu maandishi yoyote.",
     "faq_list__disclaimer_part1": "Kwa kujiandikisha, unajiandikisha kwa malipo ya moja kwa moja. Futa au dhibiti usajili wako kupitia kituo cha wateja cha Stripe kutoka kwa \"Mpango Wangu\". Huduma zote zinatolewa kulingana na ",
     "faq_list__disclaimer_part2": " unayothibitisha na usajili wako.",
-    "plan_features_table__gemini_tooltip_desc": "Mfano mwenye uwezo na jumla zaidi wa Google. Imejengwa kutoka mwanzo kwa ajili ya multimodality. Gemini kwenye MaxAI iko katika hatua ya beta, inasaidia tu maandishi na nambari, hivi karibuni itaongeza usaidizi kwa picha, video, na sauti."
+    "plan_features_table__gemini_tooltip_desc": "Mfano mwenye uwezo na jumla zaidi wa Google. Imejengwa kutoka mwanzo kwa ajili ya multimodality. Gemini kwenye MaxAI iko katika hatua ya beta, inasaidia tu maandishi na nambari, hivi karibuni itaongeza usaidizi kwa picha, video, na sauti.",
+    "footer__resources": "Vifaa vya kujifunza"
   },
   "privacy": {
     "banner__title": "Ahadi Yetu kwa Faragha Yako",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Bidhaa ya Wiki",
     "hero_section__title": "Lipwa na MaxAI",
     "hero_section__description__part1": "Jiunge na mpango wetu wa washirika na upate",
-    "hero_section__description__part2": "tume kwa kushiriki MaxAI!",
+    "hero_section__description__part2": "tume ya mara kwa mara kwa kushiriki MaxAI!",
     "how_it_works__title": "Inafanyaje kazi",
     "how_it_works__step__label": "HATUA",
     "how_it_works__step1__title": "Jiunge",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Shiriki",
     "how_it_works__step2__description": "Shiriki kiungo chako cha kipekee na hadhira yako na fuatilia utendaji kwa wakati halisi kupitia <1>Rewardful</1>.",
     "how_it_works__step3__title": "Lipwa!",
-    "how_it_works__step3__description": "Pata tume ya 25% inayorudiwa kila mwaka ya kila mteja mpya unayemtaja kwa MaxAI!",
+    "how_it_works__step3__description": "Pata tume ya kurudia ya <1>25%</1> kwa mwaka wa kwanza kwa kila mteja mpya unayemtambulisha kwa MaxAI!",
     "call_to_action__title": "Jiunge na mpango na anza kupata",
     "faq__title": "Maswali, majibu!",
     "faq__sub_title": "Majibu ya maswali yanayoulizwa mara kwa mara. Hupati unachotafuta? Tutumie barua pepe kwa",

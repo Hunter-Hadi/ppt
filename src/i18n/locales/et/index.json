@@ -41,7 +41,8 @@
     "download_image": "Laadi pilt alla",
     "copy_image": "Kopeeri pilt",
     "share": "Jaga",
-    "link_copied": "Link kopeeritud"
+    "link_copied": "Link kopeeritud",
+    "sign_up": "Registreeru"
   },
   "button": {
     "add_to_chrome_for_free": "Lisa tasuta Chrome'ile",
@@ -381,8 +382,8 @@
     "header__menu__features": "Omadused",
     "header__menu__pricing": "Hinnakujundus",
     "header__menu__learning_center": "Õppekeskus",
-    "footer__title": "Kõik-ühes AI maagilised tööriistad",
-    "footer__desc": "MaxAI.me on Chrome'i laiendus, mis võimaldab teksti kirjutada, kokku võtta, õigekirja kontrollida, tooni muuta, tõlkida või vastata veebisaitidel.",
+    "footer__title": "AI tootlikkuse tööriist",
+    "footer__desc": "Kiireim viis isikupärastatud 1-kliki AI kasutamiseks igal pool, et säästa tunde igapäevaselt. Töötab ChatGPT, Claude, Gemini ja palju muuga.",
     "footer__products": "Tooted",
     "footer__1_click_prompts": "1-kliki vihjed",
     "footer__follow_us": "Jälgi meid",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Saate kasutada MaxAI.me-d mis tahes veebisaidil, mis töötab Chromium-põhistel brauseritel (nagu Chrome ja Edge), et luua, parandada kirjutamist, kokku võtta, selgitada, parandada õigekirja ja grammatikat, tõlkida või vastata mis tahes tekstile.",
     "faq_list__disclaimer_part1": "Tellides registreerute automaatsetele maksetele. Tühistage või haldage tellimust Stripe'i kliendiportaali kaudu osas „Minu plaan“. Kõik teenused osutatakse vastavalt ",
     "faq_list__disclaimer_part2": " millega te oma registreerimisel nõustute.",
-    "plan_features_table__gemini_tooltip_desc": "Google'i võimsaim ja üldisem mudel. Ehitatud mitmekülgsuseks algusest peale. Gemini MaxAI-s on praegu beetaversioon, toetades ainult teksti ja koodi, lisatakse varsti tugi piltidele, videotele ja helile."
+    "plan_features_table__gemini_tooltip_desc": "Google'i võimsaim ja üldisem mudel. Ehitatud mitmekülgsuseks algusest peale. Gemini MaxAI-s on praegu beetaversioon, toetades ainult teksti ja koodi, lisatakse varsti tugi piltidele, videotele ja helile.",
+    "footer__resources": "Materjalid"
   },
   "privacy": {
     "banner__title": "Meie pühendumus teie privaatsusele",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Nädala toode",
     "hero_section__title": "Teenige raha MaxAI-ga",
     "hero_section__description__part1": "Liituge meie sidusprogrammiga ja teenige",
-    "hero_section__description__part2": "komisjonit MaxAI jagamise eest!",
+    "hero_section__description__part2": "korduv komisjon MaxAI jagamise eest!",
     "how_it_works__title": "Kuidas see töötab",
     "how_it_works__step__label": "Samm",
     "how_it_works__step1__title": "Liitu",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Jaga",
     "how_it_works__step2__description": "Jaga oma unikaalset linki oma sihtrühmaga ja jälgi tulemusi reaalajas läbi <1>Rewardful</1>.",
     "how_it_works__step3__title": "Teenige raha!",
-    "how_it_works__step3__description": "Teenige 25% püsikomisjoni igal uuel tellijal, keda MaxAI-le suunate, esimese aasta jooksul!",
+    "how_it_works__step3__description": "Teenige <1>25%</1> korduvat komisjonitasu igal uuel tellijal, keda MaxAI-le suunate!",
     "call_to_action__title": "Liitu programmiga ja hakka teenima",
     "faq__title": "Küsimused, vastused!",
     "faq__sub_title": "Vastused levinud küsimustele. Ei leia seda, mida otsite? Kirjutage meile aadressil",

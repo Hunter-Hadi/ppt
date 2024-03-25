@@ -41,7 +41,8 @@
     "download_image": "Descarrega la imatge",
     "copy_image": "Copia la imatge",
     "share": "Comparteix",
-    "link_copied": "Enllaç copiat"
+    "link_copied": "Enllaç copiat",
+    "sign_up": "Registra't"
   },
   "button": {
     "add_to_chrome_for_free": "Afegeix a Chrome de franc",
@@ -381,8 +382,8 @@
     "header__menu__features": "Característiques",
     "header__menu__pricing": "Preus",
     "header__menu__learning_center": "Centre d'aprenentatge",
-    "footer__title": "Eines màgiques d'IA tot en un",
-    "footer__desc": "MaxAI.me és una extensió de Chrome per escriure, resumir, corregir l'ortografia, canviar el to, traduir o respondre a textos en llocs web.",
+    "footer__title": "Eina de productivitat d'IA",
+    "footer__desc": "La manera més ràpida d'utilitzar IA personalitzada amb un sol clic en qualsevol lloc per estalviar hores cada dia. Impulsat per ChatGPT, Claude, Gemini i més.",
     "footer__products": "Productes",
     "footer__1_click_prompts": "Prompts d'un clic",
     "footer__follow_us": "Segueix-nos",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Pots utilitzar MaxAI.me en qualsevol lloc web en qualsevol navegador basat en Chromium (com Chrome i Edge) per compondre, millorar l'escriptura, resumir, explicar, corregir ortografia i gramàtica, traduir o respondre a qualsevol text.",
     "faq_list__disclaimer_part1": "En subscriure't, t'estàs inscrivint en pagaments automàtics. Cancel·la o gestiona la teva subscripció a través del portal de clients de Stripe des de \"El meu pla\". Tots els serveis es lliuren segons els ",
     "faq_list__disclaimer_part2": " amb el qual confirmes el teu registre.",
-    "plan_features_table__gemini_tooltip_desc": "El model més capaç i general de Google. Construït des de zero per a la multimodalitat. Gemini a MaxAI es troba actualment en fase beta, suportant només text i codi, aviat afegirà suport per a imatges, vídeos i àudio."
+    "plan_features_table__gemini_tooltip_desc": "El model més capaç i general de Google. Construït des de zero per a la multimodalitat. Gemini a MaxAI es troba actualment en fase beta, suportant només text i codi, aviat afegirà suport per a imatges, vídeos i àudio.",
+    "footer__resources": "Recursos"
   },
   "privacy": {
     "banner__title": "El nostre compromís amb la teva privadesa",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Producte de la Setmana",
     "hero_section__title": "Guanyeu amb MaxAI",
     "hero_section__description__part1": "Uneix-te al nostre programa d'afiliació i guanya",
-    "hero_section__description__part2": "comissions per compartir MaxAI!",
+    "hero_section__description__part2": "comissió recurrent per compartir MaxAI!",
     "how_it_works__title": "Com funciona",
     "how_it_works__step__label": "PAS",
     "how_it_works__step1__title": "Uneix-te",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Comparteix",
     "how_it_works__step2__description": "Comparteix el teu enllaç únic amb el teu públic i segueix el rendiment en temps real a través de <1>Rewardful</1>.",
     "how_it_works__step3__title": "Cobra!",
-    "how_it_works__step3__description": "Guanya una comissió recurrent del 25% durant el primer any de cada nou subscriptor que referencis a MaxAI!",
+    "how_it_works__step3__description": "Guanya un <1>25%</1> de comissió recurrent durant el primer any de cada nou subscriptor que refereixis a MaxAI!",
     "call_to_action__title": "Uneix-te al programa i comença a guanyar",
     "faq__title": "Preguntes, respostes!",
     "faq__sub_title": "Respostes a preguntes freqüents. No trobes el que busques? Envia'ns un correu electrònic a",

@@ -41,7 +41,8 @@
     "download_image": "Bild herunterladen",
     "copy_image": "Bild kopieren",
     "share": "Teilen",
-    "link_copied": "Link kopiert"
+    "link_copied": "Link kopiert",
+    "sign_up": "Registrieren"
   },
   "button": {
     "add_to_chrome_for_free": "Kostenlos zu Chrome hinzufügen",
@@ -381,8 +382,8 @@
     "header__menu__features": "Funktionen",
     "header__menu__pricing": "Preise",
     "header__menu__learning_center": "Lernzentrum",
-    "footer__title": "All-in-One KI-Magie-Tools",
-    "footer__desc": "MaxAI.me ist eine Chrome-Erweiterung zum Schreiben, Zusammenfassen, Rechtschreibprüfen, Tonändern, Übersetzen oder Beantworten von Text auf Websites.",
+    "footer__title": "KI-Produktivitätstool",
+    "footer__desc": "Der schnellste Weg, personalisierte KI mit nur einem Klick überall zu nutzen und täglich Stunden zu sparen. Angetrieben von ChatGPT, Claude, Gemini und mehr.",
     "footer__products": "Produkte",
     "footer__1_click_prompts": "1-Klick-Prompts",
     "footer__follow_us": "Folge uns",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Sie können MaxAI.me auf jeder Website in jedem Chromium-basierten Browser (wie Chrome und Edge) verwenden, um Texte zu verfassen, zu verbessern, zusammenzufassen, zu erklären, Rechtschreib- und Grammatikfehler zu korrigieren, zu übersetzen oder zu antworten.",
     "faq_list__disclaimer_part1": "Mit Ihrer Anmeldung abonnieren Sie automatische Zahlungen. Kündigen oder verwalten Sie Ihr Abonnement über das Kundenportal von Stripe unter \"Mein Plan\". Alle Dienstleistungen werden gemäß den ",
     "faq_list__disclaimer_part2": " erbracht, die Sie bei Ihrer Anmeldung bestätigen.",
-    "plan_features_table__gemini_tooltip_desc": "Googles leistungsfähigstes und vielseitigstes Modell. Von Grund auf für Multimodalität entwickelt. Gemini auf MaxAI befindet sich derzeit in der Beta-Phase und unterstützt nur Text und Code. In Kürze wird die Unterstützung für Bilder, Videos und Audio hinzugefügt."
+    "plan_features_table__gemini_tooltip_desc": "Googles leistungsfähigstes und vielseitigstes Modell. Von Grund auf für Multimodalität entwickelt. Gemini auf MaxAI befindet sich derzeit in der Beta-Phase und unterstützt nur Text und Code. In Kürze wird die Unterstützung für Bilder, Videos und Audio hinzugefügt.",
+    "footer__resources": "Ressourcen"
   },
   "privacy": {
     "banner__title": "Unser Engagement für Ihre Privatsphäre",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produkt der Woche",
     "hero_section__title": "Verdienen Sie mit MaxAI",
     "hero_section__description__part1": "Treten Sie unserem Partnerprogramm bei und verdienen Sie",
-    "hero_section__description__part2": "Provision für das Teilen von MaxAI!",
+    "hero_section__description__part2": "wiederkehrende Provision für das Teilen von MaxAI!",
     "how_it_works__title": "So funktioniert es",
     "how_it_works__step__label": "SCHRITT",
     "how_it_works__step1__title": "Beitreten",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Teilen",
     "how_it_works__step2__description": "Teile deinen einzigartigen Link mit deinem Publikum und verfolge die Leistung in Echtzeit über <1>Rewardful</1>.",
     "how_it_works__step3__title": "Bezahlt werden!",
-    "how_it_works__step3__description": "Verdienen Sie eine wiederkehrende Provision von 25% im ersten Jahr für jeden neuen Abonnenten, den Sie an MaxAI vermitteln!",
+    "how_it_works__step3__description": "Verdienen Sie eine wiederkehrende Provision von <1>25%</1> im ersten Jahr für jeden neuen Abonnenten, den Sie an MaxAI verweisen!",
     "call_to_action__title": "Treten Sie dem Programm bei und fangen Sie an zu verdienen",
     "faq__title": "Fragen, beantwortet!",
     "faq__sub_title": "Antworten auf häufig gestellte Fragen. Finden Sie nicht, wonach Sie suchen? Schreiben Sie uns eine E-Mail an",

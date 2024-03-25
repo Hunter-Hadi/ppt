@@ -41,7 +41,8 @@
     "download_image": "تحميل الصورة",
     "copy_image": "نسخ الصورة",
     "share": "مشاركة",
-    "link_copied": "تم نسخ الرابط"
+    "link_copied": "تم نسخ الرابط",
+    "sign_up": "التسجيل"
   },
   "button": {
     "add_to_chrome_for_free": "أضف إلى Chrome مجانًا",
@@ -381,8 +382,8 @@
     "header__menu__features": "الميزات",
     "header__menu__pricing": "الأسعار",
     "header__menu__learning_center": "مركز التعلم",
-    "footer__title": "أدوات الذكاء الاصطناعي المتكاملة",
-    "footer__desc": "MaxAI.me هو إضافة لمتصفح Chrome للكتابة وتلخيص وفحص الإملاء وتغيير النبرة والترجمة أو الرد على النصوص على مواقع الويب.",
+    "footer__title": "أداة إنتاجية للذكاء الاصطناعي",
+    "footer__desc": "أسرع طريقة لاستخدام الذكاء الاصطناعي المخصص بنقرة واحدة في أي مكان لتوفير ساعات كل يوم. مدعوم من ChatGPT و Claude و Gemini والمزيد.",
     "footer__products": "المنتجات",
     "footer__1_click_prompts": "مشروعات بنقرة واحدة",
     "footer__follow_us": "تابعنا",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "يمكنك استخدام MaxAI.me على أي موقع ويب على أي متصفحات تعتمد على Chromium (مثل Chrome و Edge) للتأليف وتحسين الكتابة وتلخيصها وشرحها وإصلاح الإملاء والقواعد النحوية والترجمة أو الرد على أي نص.",
     "faq_list__disclaimer_part1": "من خلال الاشتراك، فإنك تشترك في المدفوعات التلقائية. يمكنك إلغاء اشتراكك أو إدارته من خلال بوابة العملاء الخاصة بـ Stripe في \"خطتي\". يتم تقديم جميع الخدمات وفقًا لـ ",
     "faq_list__disclaimer_part2": " الذي تؤكده عند التسجيل.",
-    "plan_features_table__gemini_tooltip_desc": "النموذج الأكثر قدرة وعام من Google. تم بناؤه من الألف إلى الياء للتعددية. يعمل Gemini على MaxAI حاليًا في المرحلة التجريبية، ويدعم فقط النصوص والشفرات، وسيتم دعم الصور ومقاطع الفيديو والصوت قريبًا."
+    "plan_features_table__gemini_tooltip_desc": "النموذج الأكثر قدرة وعام من Google. تم بناؤه من الألف إلى الياء للتعددية. يعمل Gemini على MaxAI حاليًا في المرحلة التجريبية، ويدعم فقط النصوص والشفرات، وسيتم دعم الصور ومقاطع الفيديو والصوت قريبًا.",
+    "footer__resources": "الموارد"
   },
   "privacy": {
     "banner__title": "التزامنا بخصوصيتك",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 منتج لهذا الأسبوع",
     "hero_section__title": "احصل على أجر من MaxAI",
     "hero_section__description__part1": "انضم إلى برنامج الشراكة لدينا واربح",
-    "hero_section__description__part2": "عمولة عند مشاركة MaxAI!",
+    "hero_section__description__part2": "عمولة متكررة لمشاركة MaxAI!",
     "how_it_works__title": "كيف يعمل",
     "how_it_works__step__label": "الخطوة",
     "how_it_works__step1__title": "انضم",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "شارك",
     "how_it_works__step2__description": "شارك الرابط الفريد الخاص بك مع جمهورك وتتبع الأداء في الوقت الحقيقي عبر <1>Rewardful</1>.",
     "how_it_works__step3__title": "احصل على أجر!",
-    "how_it_works__step3__description": "اكسب عمولة مستمرة بنسبة 25٪ خلال السنة الأولى لكل مشترك جديد تحيله إلى MaxAI!",
+    "how_it_works__step3__description": "اكسب <1>25%</1> عمولة مستمرة طوال السنة الأولى من كل مشترك جديد تحيله إلى MaxAI!",
     "call_to_action__title": "انضم إلى البرنامج وابدأ الربح",
     "faq__title": "الأسئلة المجابة!",
     "faq__sub_title": "إجابات على الأسئلة الشائعة. لا يمكنك العثور على ما تبحث عنه؟ أرسل لنا بريدًا إلكترونيًا على",

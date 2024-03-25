@@ -41,7 +41,8 @@
     "download_image": "Lejupielādēt attēlu",
     "copy_image": "Kopēt attēlu",
     "share": "Dalīties",
-    "link_copied": "Saite nokopēta"
+    "link_copied": "Saite nokopēta",
+    "sign_up": "Reģistrēties"
   },
   "button": {
     "add_to_chrome_for_free": "Pievienot bez maksas Chrome",
@@ -381,8 +382,8 @@
     "header__menu__features": "Iespējas",
     "header__menu__pricing": "Cenas",
     "header__menu__learning_center": "Mācību centrs",
-    "footer__title": "Viss vienā AI maģiskajā rīku komplektā",
-    "footer__desc": "MaxAI.me ir Chrome paplašinājums, kas ļauj rakstīt, apkopot, pārbaudīt pareizrakstību, mainīt toni, tulko vai atbildēt uz tekstu tīmekļa vietnēs.",
+    "footer__title": "AI produktivitātes rīks",
+    "footer__desc": "Ātrākais veids, kā izmantot personalizētu 1-klikšķa AI jebkur, lai ietaupītu stundas katru dienu. Darbojas ar ChatGPT, Claude, Gemini un citiem.",
     "footer__products": "Produkti",
     "footer__1_click_prompts": "1-klikšķa pamudinājumi",
     "footer__follow_us": "Seko mums",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Jūs varat izmantot MaxAI.me jebkurā tīmekļa vietnē jebkurā Chromium pamatotā pārlūkprogrammā (piemēram, Chrome un Edge), lai sastādītu, uzlabotu rakstīšanu, apkopotu, skaidrotu, labotu pareizrakstību un gramatiku, tulkojiet vai atbildiet uz jebkuru tekstu.",
     "faq_list__disclaimer_part1": "Abonējot, jūs reģistrējaties automātiskajiem maksājumiem. Atceliet vai pārvaldiet abonementu, izmantojot Stripe klienta portālu sadaļā \"Mans plāns\". Visas pakalpojumu sniegšanas nosacījumi ir atbilstoši",
     "faq_list__disclaimer_part2": " ar kuru jūs piekrītat, reģistrējoties.",
-    "plan_features_table__gemini_tooltip_desc": "Google visvairāk spējīgais un vispārīgākais modelis. Izveidots no nulles multimodalitātei. Gemini uz MaxAI pašlaik ir beta fāzē, atbalstot tikai tekstu un kodu, drīzumā tiks pievienots atbalsts attēliem, video un audio."
+    "plan_features_table__gemini_tooltip_desc": "Google visvairāk spējīgais un vispārīgākais modelis. Izveidots no nulles multimodalitātei. Gemini uz MaxAI pašlaik ir beta fāzē, atbalstot tikai tekstu un kodu, drīzumā tiks pievienots atbalsts attēliem, video un audio.",
+    "footer__resources": "Resursi"
   },
   "privacy": {
     "banner__title": "Mūsu apņemšanās attiecībā uz jūsu privātumu",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produkts nedēļā",
     "hero_section__title": "Saņem maksājumu ar MaxAI",
     "hero_section__description__part1": "Pievienojies mūsu partneru programmai un nopelni",
-    "hero_section__description__part2": "komisiju, daloties ar MaxAI!",
+    "hero_section__description__part2": "atkārtota komisija par MaxAI kopīgošanu!",
     "how_it_works__title": "Kā tas darbojas",
     "how_it_works__step__label": "SOĻI",
     "how_it_works__step1__title": "Pievienojies",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Dalies",
     "how_it_works__step2__description": "Dalieties ar savu unikālo saiti ar savu auditoriju un sekotiet veiktspējai reāllaikā, izmantojot <1>Rewardful</1>.",
     "how_it_works__step3__title": "Saņem maksājumu!",
-    "how_it_works__step3__description": "Gūsti 25% atkārtotu komisiju katru jauno abonementu pirmajā gadā, ko tu ieteic MaxAI!",
+    "how_it_works__step3__description": "Pelniet <1>25%</1> atkārtotu komisiju pirmajā abonenta gada laikā, ko jūs ieteicat MaxAI!",
     "call_to_action__title": "Pievienojies programmā un sāc pelnīt",
     "faq__title": "Jautājumi, atbildes!",
     "faq__sub_title": "Atbildes uz bieži uzdotiem jautājumiem. Nevari atrast to, ko meklē? Sazinies ar mums pa e-pastu",

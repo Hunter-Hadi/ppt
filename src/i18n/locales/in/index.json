@@ -41,7 +41,8 @@
     "download_image": "Unduh gambar",
     "copy_image": "Salin gambar",
     "share": "Bagikan",
-    "link_copied": "Tautan disalin"
+    "link_copied": "Tautan disalin",
+    "sign_up": "Daftar"
   },
   "button": {
     "add_to_chrome_for_free": "Tambahkan ke Chrome secara gratis",
@@ -381,8 +382,8 @@
     "header__menu__features": "Fitur",
     "header__menu__pricing": "Harga",
     "header__menu__learning_center": "Pusat Pembelajaran",
-    "footer__title": "Semua-in-satu Alat AI Ajaib",
-    "footer__desc": "MaxAI.me adalah ekstensi Chrome untuk menulis, merangkum, memeriksa ejaan, mengubah nada, menerjemahkan, atau membalas teks di situs web.",
+    "footer__title": "Alat produktivitas AI",
+    "footer__desc": "Cara tercepat untuk menggunakan AI 1-klik yang dipersonalisasi di mana saja untuk menghemat waktu setiap hari. Didukung oleh ChatGPT, Claude, Gemini, dan lainnya.",
     "footer__products": "Produk",
     "footer__1_click_prompts": "1-Klik Prompts",
     "footer__follow_us": "Ikuti Kami",
@@ -487,7 +488,8 @@
     "faq_list__question4__desc": "Anda dapat menggunakan MaxAI.me di situs web apa pun pada browser berbasis Chromium (seperti Chrome dan Edge) untuk membuat, meningkatkan tulisan, merangkum, menjelaskan, memperbaiki ejaan & tata bahasa, menerjemahkan, atau membalas teks apa pun.",
     "faq_list__disclaimer_part1": "Dengan berlangganan, Anda mendaftar untuk pembayaran otomatis. Batalkan atau kelola langganan Anda melalui portal pelanggan Stripe dari \"Rencana Saya\". Semua layanan disampaikan sesuai dengan",
     "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar.",
-    "plan_features_table__gemini_tooltip_desc": "Model tercanggih dan umum dari Google. Dibangun dari awal untuk multimodalitas. Gemini di MaxAI saat ini dalam fase beta, hanya mendukung teks dan kode, akan segera menambahkan dukungan untuk gambar, video, dan audio."
+    "plan_features_table__gemini_tooltip_desc": "Model tercanggih dan umum dari Google. Dibangun dari awal untuk multimodalitas. Gemini di MaxAI saat ini dalam fase beta, hanya mendukung teks dan kode, akan segera menambahkan dukungan untuk gambar, video, dan audio.",
+    "footer__resources": "Sumber Daya"
   },
   "privacy": {
     "banner__title": "Komitmen Kami terhadap Privasi Anda",
@@ -548,7 +550,7 @@
     "hero_section__indicator__label": "#1 Produk Minggu Ini",
     "hero_section__title": "Dapatkan bayaran dengan MaxAI",
     "hero_section__description__part1": "Bergabunglah dengan program afiliasi kami dan dapatkan",
-    "hero_section__description__part2": "komisi untuk berbagi MaxAI!",
+    "hero_section__description__part2": "komisi berulang untuk berbagi MaxAI!",
     "how_it_works__title": "Bagaimana cara kerjanya",
     "how_it_works__step__label": "LANGKAH",
     "how_it_works__step1__title": "Gabung",
@@ -556,7 +558,7 @@
     "how_it_works__step2__title": "Bagikan",
     "how_it_works__step2__description": "Bagikan tautan unik Anda kepada audiens Anda dan lacak performanya secara real-time melalui <1>Rewardful</1>.",
     "how_it_works__step3__title": "Dapatkan Bayaran!",
-    "how_it_works__step3__description": "Dapatkan komisi berulang sebesar 25% selama tahun pertama setiap pelanggan baru yang Anda referensikan ke MaxAI!",
+    "how_it_works__step3__description": "Dapatkan komisi berulang <1>25%</1> sepanjang tahun pertama setiap pelanggan baru yang Anda referensikan ke MaxAI!",
     "call_to_action__title": "Gabung program ini dan mulai menghasilkan",
     "faq__title": "Pertanyaan, dijawab!",
     "faq__sub_title": "Jawaban untuk pertanyaan umum. Tidak menemukan yang Anda cari? Email kami di",
