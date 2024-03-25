@@ -33,8 +33,8 @@ const LearningCenterSideMenu = () => {
         label: t('pages:learning_center__features__title'),
         id: 'features',
         children: PLAN_FEATURES_CATEGORY.map((categoryItem) => ({
-          label: t(`modules:${categoryItem.name}`),
-          id: t(`modules:${categoryItem.name}`),
+          label: t(`${categoryItem.name}`),
+          id: t(`${categoryItem.name}`),
         })),
       },
     ],

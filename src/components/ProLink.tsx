@@ -17,12 +17,19 @@ export interface IProLinkProps {
   underline?: 'none' | 'hover' | 'always';
   linkProps?: Partial<Omit<LinkProps, 'href' | 'passHref'>>;
   muiLinkProps?: Partial<
-    Omit<MuiLinkProps, 'target' | 'underline' | 'onClick'>
+    Omit<MuiLinkProps, 'target' | 'underline' | 'onClick' | 'href'>
   >;
   onClick?: MuiLinkProps['onClick'];
   children?: React.ReactNode;
   sx?: SxProps;
   color?: string;
+  locale?: string;
+
+  // 在路由跳转时是否强制刷新页面
+  hardRefresh?: boolean;
+
+  // 默认开启 locale 的自适应（会为 href 添加 locale 环境）
+  adaptiveLocale?: boolean;
 }
 // TODO - add current url to white list
 const WHITE_LIST_DOMAINS: string[] = [
@@ -102,6 +109,9 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
     sx,
     children,
     color,
+    locale: propLocale,
+    hardRefresh = false,
+    adaptiveLocale = true,
   } = props;
   const router = useRouter();
   const targetMixin = useMemo(
@@ -117,6 +127,36 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
     [color, sx],
   );
 
+  const coverHref = useMemo(() => {
+    if (!adaptiveLocale) {
+      return href;
+    }
+
+    const fixHrefLocale = (originalHref: string) => {
+      // 只有在href是相对路径的时候才需要加上 locale 的 fix
+      if (originalHref.startsWith('/')) {
+        if (propLocale) {
+          return `/${propLocale}${originalHref}`;
+        } else if (router.query.locale) {
+          return `/${router.query.locale}${originalHref}`;
+        } else {
+          return originalHref;
+        }
+      }
+
+      return originalHref;
+    };
+
+    if (typeof href === 'string') {
+      return fixHrefLocale(href);
+    } else if (href.pathname) {
+      return fixHrefLocale(href.pathname);
+    }
+
+    // default return
+    return href;
+  }, [href, router.query.locale, propLocale, adaptiveLocale]);
+
   if (!router && typeof href === 'string') {
     return (
       <MyMuiLink
@@ -131,8 +171,34 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
       </MyMuiLink>
     );
   }
+
+  // 当需要强制刷新页面时，且 href 是相对路径时，直接使用 mui link 的 a 标签
+  if (
+    hardRefresh &&
+    typeof coverHref === 'string' &&
+    coverHref.startsWith('/')
+  ) {
+    return (
+      <MyMuiLink
+        target={targetMixin}
+        underline={underline}
+        onClick={onClick}
+        sx={cacheSx}
+        {...muiLinkProps}
+        href={coverHref}
+      >
+        {children}
+      </MyMuiLink>
+    );
+  }
+
   return (
-    <NextLink href={href} passHref={passHref} {...linkProps} legacyBehavior>
+    <NextLink
+      href={coverHref}
+      passHref={passHref}
+      {...linkProps}
+      legacyBehavior
+    >
       <MyMuiLink
         target={targetMixin}
         underline={underline}

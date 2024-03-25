@@ -1,5 +1,5 @@
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import { Stack } from '@mui/material';
+import { MenuItem, Stack } from '@mui/material';
 import React, { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
@@ -12,15 +12,25 @@ interface IProps {
 const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
   const { languageLabel, routerToLanguagesPagesLink } = useLanguages();
 
-  return (
-    <ProLink href={routerToLanguagesPagesLink} underline='hover'>
+  const textRender = () => (
+    <ProLink
+      href={routerToLanguagesPagesLink}
+      underline='hover'
+      adaptiveLocale={false}
+      sx={{
+        width: '100%',
+        py: isSmallScreen ? 1 : 0,
+        px: isSmallScreen ? 2 : 0,
+      }}
+    >
       <Stack
         direction='row'
         alignItems='center'
         sx={{
-          px: isSmallScreen ? 2 : 0,
-          py: isSmallScreen ? 0.75 : 0,
           color: 'text.primary',
+          fontSize: 16,
+          lineHeight: 1.6,
+          fontWeight: 500,
         }}
       >
         <LanguageOutlinedIcon
@@ -33,6 +43,20 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
       </Stack>
     </ProLink>
   );
+
+  if (isSmallScreen) {
+    return (
+      <MenuItem
+        sx={{
+          p: 0,
+        }}
+      >
+        {textRender()}
+      </MenuItem>
+    );
+  }
+
+  return <Stack px={0}>{textRender()}</Stack>;
 };
 
 export default LanguageItem;
