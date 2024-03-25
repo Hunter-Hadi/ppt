@@ -77,7 +77,7 @@ const PromptsPages = () => {
         },
       });
     }
-  }, [promptLibraryListParameters, router]);
+  }, [promptLibraryListParameters, router.query.locale]);
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout
