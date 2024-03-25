@@ -22,7 +22,7 @@ export const makeStaticPaths = () => {
   return async function getStaticPaths() {
     return {
       fallback: 'blocking',
-      paths: POPULAR_LANGUAGE_LOCALE.map((lang) => ({
+      paths: i18nLocales.map((lang) => ({
         params: {
           locale: lang,
         },
