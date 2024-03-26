@@ -45,6 +45,14 @@ const LanguageSwitchLink: FC<IProps> = (props) => {
       basePath = hitBasePath;
     }
 
+    if (fixedHref === '/') {
+      fixedHref = '';
+    }
+
+    if (fixedHref.endsWith('/')) {
+      fixedHref = fixedHref.slice(0, -1);
+    }
+
     return `${basePath}/${locale}${fixedHref}${fixedQueryString}`;
   }, [router, locale, href]);
 

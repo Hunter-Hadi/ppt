@@ -12,7 +12,8 @@ export const removeLocaleInPathname = (pathname: string) => {
     return pathname.replace(`/${locale}`, '');
   }
   if (pathname.startsWith('/[locale]')) {
-    return pathname.replace(`/[locale]`, '');
+    const fixedPathname = pathname.replace('/[locale]', '');
+    return fixedPathname === '' ? '/' : fixedPathname;
   }
   return pathname;
 };
