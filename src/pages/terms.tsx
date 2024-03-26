@@ -173,7 +173,7 @@ const TermsPage: FC = () => {
           such restrictions are contrary to applicable law); (iii) share your
           account with others to avoid or bypass our set limitations; (iv) use
           any automated or programmatic method to extract data or output from
-          the Services, including scraping, web harvesting, or web data
+          the Services, including but not limited to scraping, web harvesting, or web data
           extraction; (v), send us any personal information of children under 13
           or the applicable age of digital consent. The Services is designed for
           individual human use. You will comply with any rate limits and other
