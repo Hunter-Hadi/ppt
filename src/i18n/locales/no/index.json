@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Nei, disse bruksbegrensningene gjelder spesifikke modeller som GPT-4 som driftes direkte av MaxAI. Hvis du har en betalt plan og bruker din egen API-nøkkel, kan du bruke hvilke som helst modeller som er koblet til den uten noen bruksbegrensninger satt av MaxAI. For mer informasjon om bruksbegrensninger, se våre",
     "faq_list__question4__title": "Hvor kan jeg bruke MaxAI.me?",
     "faq_list__question4__desc": "Du kan bruke MaxAI.me på hvilken som helst nettside i hvilken som helst Chromium-basert nettleser (som Chrome og Edge) for å komponere, forbedre skriving, oppsummere, forklare, rette stave- og grammatikkfeil, oversette eller svare på hvilken som helst tekst.",
-    "faq_list__disclaimer_part1": "Ved å abonnere, melder du deg på automatisk betaling. Avbryt eller administrer abonnementet ditt gjennom Stripes kundeportal fra \"Min plan\". Alle tjenester leveres i henhold til ",
-    "faq_list__disclaimer_part2": " du bekrefter med din påmelding.",
+    "faq_list__disclaimer_part1": "Ved å abonnere, melder du deg på automatisk betaling. Avbryt eller administrer abonnementet ditt gjennom Stripe's kundesenter fra \"Min Plan\". Alle tjenester leveres i henhold til ",
+    "faq_list__disclaimer_part2": " du bekrefter ved påmelding. Vær oppmerksom på at denne tjenesten er kun for menneskelig, normal bruk. Du kan ikke dele kontoen med andre personer eller bruke programvaremetoder for å få tilgang til tjenesten, og omgå den offisielle brukergrensesnittet. Hvis brudd på vilkårene for tjenesten fører til økonomiske eller andre skader, forbeholder vi oss retten til å ta rettslige skritt og kreve passende kompensasjon.",
     "plan_features_table__gemini_tooltip_desc": "Googles mest kapable og generelle modell. Bygget fra grunnen av for multimodalitet. Gemini på MaxAI er for øyeblikket i betafasen, og støtter bare tekst og kode, vil snart legge til støtte for bilder, videoer og lyd.",
     "footer__resources": "Ressurser"
   },

@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Nu, aceste limite de utilizare sunt specifice modelelor precum GPT-4 care sunt operate direct de MaxAI. Dacă sunteți într-un plan plătit și utilizați propria cheie API, puteți utiliza orice modele asociate fără nicio limită de utilizare impusă de MaxAI. Pentru mai multe detalii despre limitele de utilizare, consultați",
     "faq_list__question4__title": "Unde pot utiliza MaxAI.me?",
     "faq_list__question4__desc": "Puteți utiliza MaxAI.me pe orice site web pe orice browser bazat pe Chromium (cum ar fi Chrome și Edge) pentru a compune, îmbunătăți scrierea, rezuma, explica, corecta greșeli de ortografie și gramatică, traduce sau răspunde la orice text.",
-    "faq_list__disclaimer_part1": "Prin abonare, vă înregistrați în plăți automate. Anulați sau gestionați abonamentul prin portalul clienților Stripe din „Planul meu”. Toate serviciile sunt furnizate conform",
-    "faq_list__disclaimer_part2": " cu care ați confirmat la înregistrare.",
+    "faq_list__disclaimer_part1": "Prin abonare, te înscrii în plăți automate. Anulează sau gestionează abonamentul prin portalul clienților Stripe din „Planul meu”. Toate serviciile sunt livrate conform ",
+    "faq_list__disclaimer_part2": " pe care le confirmi la înregistrare. Te rugăm să reții că acest serviciu este destinat utilizării umane și normale. Nu poți partaja contul cu alte persoane sau utiliza metode programatice pentru a accesa serviciul, evitând interfața oficială a utilizatorului. În cazul în care încălcările Termenilor de utilizare rezultă în daune financiare sau alte prejudicii, ne rezervăm dreptul de a iniția acțiuni legale și de a solicita compensații adecvate.",
     "plan_features_table__gemini_tooltip_desc": "Cel mai capabil și general model al Google. Construit de la zero pentru multimodalitate. Gemini pe MaxAI se află în prezent în faza beta, oferind suport doar pentru text și cod, va adăuga în curând suport pentru imagini, videoclipuri și audio.",
     "footer__resources": "Resurse"
   },

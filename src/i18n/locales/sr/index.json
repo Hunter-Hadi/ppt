@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Ne, ova ograničenja korišćenja su specifična za modele poput GPT-4 koji direktno operiše MaxAI. Ako koristite sopstveni API ključ i imate plaćeni plan, možete koristiti bilo koje modele povezane sa njim bez ikakvih ograničenja korišćenja postavljenih od strane MaxAI. Za više detalja o ograničenjima korišćenja, pogledajte naše",
     "faq_list__question4__title": "Gde mogu koristiti MaxAI.me?",
     "faq_list__question4__desc": "Možete koristiti MaxAI.me na bilo kojoj veb lokaciji na bilo kom Chromium baziranom pregledaču (kao što su Chrome i Edge) za sastavljanje, poboljšanje pisanja, sažimanje, objašnjavanje, ispravljanje pravopisa i gramatike, prevod ili odgovaranje na bilo koji tekst.",
-    "faq_list__disclaimer_part1": "Pretplatom se prijavljujete za automatska plaćanja. Otkažite ili upravljajte svojom pretplatom putem Stripe-ovog korisničkog portala u odeljku \"Moj plan\". Sve usluge se isporučuju u skladu sa ",
-    "faq_list__disclaimer_part2": " kojima ste se složili prilikom prijave.",
+    "faq_list__disclaimer_part1": "Pretplatom se prijavljujete za automatske uplate. Otkažite ili upravljajte svojom pretplatom putem korisničkog portala Stripe-a u odeljku \"Moji planovi\". Sve usluge se isporučuju u skladu sa ",
+    "faq_list__disclaimer_part2": " kojima ste se složili prilikom prijave. Napomena: ova usluga je namenjena samo ljudskoj, normalnoj upotrebi. Ne smete deliti nalog sa drugim osobama ili koristiti programatske metode za pristup usluzi, zaobilazeći zvanični korisnički interfejs. U slučaju da kršenje Uslova korišćenja rezultira finansijskim ili drugim štetama, zadržavamo pravo da pokrenemo pravne postupke i tražimo odgovarajuću nadoknadu.",
     "plan_features_table__gemini_tooltip_desc": "Najmoćniji i najopštiji model kompanije Google. Izgrađen od nule za multimodalnost. Gemini na MaxAI trenutno je u beta fazi, podržava samo tekst i kod, uskoro će dodati podršku za slike, video zapise i audio.",
     "footer__resources": "Resursi"
   },

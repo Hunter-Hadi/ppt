@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "No, aquests límits d'ús són específics dels models com GPT-4 que estan directament operats per MaxAI. Si tens un pla de pagament i utilitzes la teva pròpia clau d'API, pots utilitzar qualsevol model vinculat amb ella sense cap límit d'ús establert per MaxAI. Per obtenir més detalls sobre els límits d'ús, consulta els nostres",
     "faq_list__question4__title": "On puc utilitzar MaxAI.me?",
     "faq_list__question4__desc": "Pots utilitzar MaxAI.me en qualsevol lloc web en qualsevol navegador basat en Chromium (com Chrome i Edge) per compondre, millorar l'escriptura, resumir, explicar, corregir ortografia i gramàtica, traduir o respondre a qualsevol text.",
-    "faq_list__disclaimer_part1": "En subscriure't, t'estàs inscrivint en pagaments automàtics. Cancel·la o gestiona la teva subscripció a través del portal de clients de Stripe des de \"El meu pla\". Tots els serveis es lliuren segons els ",
-    "faq_list__disclaimer_part2": " amb el qual confirmes el teu registre.",
+    "faq_list__disclaimer_part1": "En subscriure't, t'estàs inscrivint en pagaments automàtics. Cancel·la o gestiona la teva subscripció a través del portal de clients de Stripe des de \"El meu pla\". Tots els serveis es lliuren segons el ",
+    "faq_list__disclaimer_part2": " que confirmes amb la teva inscripció. Tingues en compte que aquest servei és només per a ús humà i normal. No pots compartir el compte amb altres persones ni utilitzar mètodes programàtics per accedir al servei, evitant la interfície d'usuari oficial. En cas que les infraccions dels Termes del Servei comportin danys financers o altres, ens reservem el dret de prendre accions legals i buscar una compensació adequada.",
     "plan_features_table__gemini_tooltip_desc": "El model més capaç i general de Google. Construït des de zero per a la multimodalitat. Gemini a MaxAI es troba actualment en fase beta, suportant només text i codi, aviat afegirà suport per a imatges, vídeos i àudio.",
     "footer__resources": "Recursos"
   },

@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Hapana, vizuizi hivi vya matumizi ni maalum kwa mifano kama GPT-4 ambayo inaendeshwa moja kwa moja na MaxAI. Ikiwa una mpango uliolipwa na unatumia ufunguo wako wa API, unaweza kutumia mifano yoyote iliyounganishwa nayo bila vizuizi vya matumizi vilivyowekwa na MaxAI. Kwa maelezo zaidi juu ya vizuizi vya matumizi, tafadhali angalia",
     "faq_list__question4__title": "Ninaweza kutumia MaxAI.me wapi?",
     "faq_list__question4__desc": "Unaweza kutumia MaxAI.me kwenye wavuti yoyote kwenye vivinjari vyovyote vinavyotegemea Chromium (kama Chrome na Edge) ili kuandika, kuboresha uandishi, kufupisha, kuelezea, kusahihisha sarufi na kisarufi, kutafsiri, au kujibu maandishi yoyote.",
-    "faq_list__disclaimer_part1": "Kwa kujiandikisha, unajiandikisha kwa malipo ya moja kwa moja. Futa au dhibiti usajili wako kupitia kituo cha wateja cha Stripe kutoka kwa \"Mpango Wangu\". Huduma zote zinatolewa kulingana na ",
-    "faq_list__disclaimer_part2": " unayothibitisha na usajili wako.",
+    "faq_list__disclaimer_part1": "Kwa kujiandikisha, unajiunga na malipo ya moja kwa moja. Futa au simamia usajili wako kupitia kituo cha wateja cha Stripe kutoka kwenye \"Mpango Wangu\". Huduma zote zinatolewa kulingana na ",
+    "faq_list__disclaimer_part2": " uliyokubaliana nayo wakati wa usajili. Tafadhali kumbuka kuwa huduma hii ni kwa matumizi ya binadamu tu. Huwezi kushiriki akaunti na watu wengine au kutumia njia za programu kuifikia huduma, kwa kuepuka interface rasmi ya mtumiaji. Katika tukio ambalo uvunjaji wa Masharti ya Huduma unapelekea hasara za kifedha au nyingine, tunahifadhi haki ya kuchukua hatua za kisheria na kutafuta fidia inayofaa.",
     "plan_features_table__gemini_tooltip_desc": "Mfano mwenye uwezo na jumla zaidi wa Google. Imejengwa kutoka mwanzo kwa ajili ya multimodality. Gemini kwenye MaxAI iko katika hatua ya beta, inasaidia tu maandishi na nambari, hivi karibuni itaongeza usaidizi kwa picha, video, na sauti.",
     "footer__resources": "Vifaa vya kujifunza"
   },

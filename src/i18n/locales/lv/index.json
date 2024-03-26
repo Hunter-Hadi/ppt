@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Nē, šie lietojuma ierobežojumi attiecas tikai uz modeļiem, piemēram, GPT-4, kas tiek tieši darbināti ar MaxAI. Ja esat maksas plānā un izmantojat savu API atslēgu, varat izmantot jebkurus ar to saistītos modeļus bez jebkādiem lietojuma ierobežojumiem, ko noteic MaxAI. Plašākai informācijai par lietojuma ierobežojumiem lūdzu, apmeklējiet mūsu",
     "faq_list__question4__title": "Kur varu izmantot MaxAI.me?",
     "faq_list__question4__desc": "Jūs varat izmantot MaxAI.me jebkurā tīmekļa vietnē jebkurā Chromium pamatotā pārlūkprogrammā (piemēram, Chrome un Edge), lai sastādītu, uzlabotu rakstīšanu, apkopotu, skaidrotu, labotu pareizrakstību un gramatiku, tulkojiet vai atbildiet uz jebkuru tekstu.",
-    "faq_list__disclaimer_part1": "Abonējot, jūs reģistrējaties automātiskajiem maksājumiem. Atceliet vai pārvaldiet abonementu, izmantojot Stripe klienta portālu sadaļā \"Mans plāns\". Visas pakalpojumu sniegšanas nosacījumi ir atbilstoši",
-    "faq_list__disclaimer_part2": " ar kuru jūs piekrītat, reģistrējoties.",
+    "faq_list__disclaimer_part1": "Abonējot, jūs piesakāties automātiskajiem maksājumiem. Atceliet vai pārvaldiet abonementu caur Stripe klienta portālu sadaļā \"Mans plāns\". Visas pakalpojumu sniedz atbilstoši ",
+    "faq_list__disclaimer_part2": " ar kuru jūs piekrītat reģistrēšanās laikā. Lūdzu, ņemiet vērā, ka šis pakalpojums ir paredzēts tikai cilvēkiem un normālai lietošanai. Jūs nedrīkstat dalīties kontā ar citiem cilvēkiem vai izmantot programmēšanas metodes, lai piekļūtu pakalpojumam, apietot oficiālo lietotāja saskarni. Ja noteikumu pārkāpumi rezultē finansiālās vai citās zaudējumos, mēs paturam tiesības uzsākt juridiskus pasākumus un prasīt atbilstošu kompensāciju.",
     "plan_features_table__gemini_tooltip_desc": "Google visvairāk spējīgais un vispārīgākais modelis. Izveidots no nulles multimodalitātei. Gemini uz MaxAI pašlaik ir beta fāzē, atbalstot tikai tekstu un kodu, drīzumā tiks pievienots atbalsts attēliem, video un audio.",
     "footer__resources": "Resursi"
   },

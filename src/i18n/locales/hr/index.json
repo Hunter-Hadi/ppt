@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Ne, ta ograničenja upotrebe specifična su za modele poput GPT-4 koji su izravno operirani od strane MaxAI-a. Ako koristite vlastiti API ključ i imate plaćeni plan, možete koristiti bilo koje modele povezane s njim bez ikakvih ograničenja upotrebe postavljenih od strane MaxAI-a. Za više detalja o ograničenjima upotrebe, pogledajte naše",
     "faq_list__question4__title": "Gdje mogu koristiti MaxAI.me?",
     "faq_list__question4__desc": "Možete koristiti MaxAI.me na bilo kojoj web stranici na bilo kojem pregledniku temeljenom na Chromiumu (poput Chromea i Edgea) za sastavljanje, poboljšanje pisanja, sažimanje, objašnjavanje, ispravljanje pravopisa i gramatike, prevođenje ili odgovaranje na bilo koji tekst.",
-    "faq_list__disclaimer_part1": "Pretplatom se prijavljujete za automatske uplate. Pretplatu možete otkazati ili upravljati njome putem Stripeovog korisničkog portala u odjeljku \"Moj plan\". Sve usluge se isporučuju sukladno ",
-    "faq_list__disclaimer_part2": " s kojima ste se složili prilikom prijave.",
+    "faq_list__disclaimer_part1": "Pretplatom se prijavljujete na automatske uplate. Otkažite ili upravljajte svojom pretplatom putem korisničkog portala Stripea u odjeljku \"Moj plan\". Sve usluge se isporučuju prema ",
+    "faq_list__disclaimer_part2": " koju potvrđujete prilikom prijave. Imajte na umu da je ova usluga namijenjena samo ljudskoj, normalnoj upotrebi. Ne smijete dijeliti račun s drugim osobama niti koristiti programatske metode za pristup usluzi, zaobilazeći službeno korisničko sučelje. U slučaju kršenja uvjeta korištenja koji rezultiraju financijskim ili drugim štetama, zadržavamo pravo poduzimanja pravnih radnji i traženja odgovarajuće naknade.",
     "plan_features_table__gemini_tooltip_desc": "Najmoćniji i najopćenitiji model tvrtke Google. Izgrađen od nule za multimodalnost. Gemini na MaxAI trenutno je u beta fazi, podržava samo tekst i kod, uskoro će dodati podršku za slike, videozapise i zvuk.",
     "footer__resources": "Resursi"
   },

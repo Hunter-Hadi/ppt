@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Tidak, had penggunaan ini adalah khusus untuk model seperti GPT-4 yang dioperasikan secara langsung oleh MaxAI. Jika anda menggunakan rancangan berbayar dan menggunakan kunci API anda sendiri, anda boleh menggunakan mana-mana model yang dikaitkan dengannya tanpa sebarang had penggunaan yang ditetapkan oleh MaxAI. Untuk maklumat lanjut mengenai had penggunaan, sila lihat",
     "faq_list__question4__title": "Di mana saya boleh menggunakan MaxAI.me?",
     "faq_list__question4__desc": "Anda boleh menggunakan MaxAI.me pada mana-mana laman web pada mana-mana pelayar berasaskan Chromium (seperti Chrome dan Edge) untuk menghasilkan, meningkatkan penulisan, merangkum, menjelaskan, memperbetulkan ejaan & tatabahasa, menterjemah, atau menjawab teks apa pun.",
-    "faq_list__disclaimer_part1": "Dengan melanggan, anda mendaftar untuk pembayaran automatik. Batalkan atau urus langganan anda melalui portal pelanggan Stripe dari \"Rancangan Saya\". Semua perkhidmatan disampaikan mengikut",
-    "faq_list__disclaimer_part2": " yang anda sahkan semasa pendaftaran.",
+    "faq_list__disclaimer_part1": "Dengan melanggan, anda sedang mendaftar untuk pembayaran automatik. Batal atau urus langganan anda melalui portal pelanggan Stripe dari \"Rancangan Saya\". Semua perkhidmatan disampaikan mengikut ",
+    "faq_list__disclaimer_part2": " yang anda sahkan semasa pendaftaran. Sila ambil perhatian bahawa perkhidmatan ini hanya untuk penggunaan manusia biasa. Anda tidak boleh berkongsi akaun dengan orang lain atau menggunakan kaedah program untuk mengakses perkhidmatan ini, melanggar antara muka pengguna rasmi. Sekiranya pelanggaran Terma Perkhidmatan menyebabkan kerugian kewangan atau lain-lain, kami berhak untuk mengambil tindakan undang-undang dan mencari pampasan yang sewajarnya.",
     "plan_features_table__gemini_tooltip_desc": "Model paling cekap dan umum Google. Dibina dari bawah ke atas untuk multimodaliti. Gemini di MaxAI kini dalam fasa beta, hanya menyokong teks dan kod, akan segera menambah sokongan untuk imej, video, dan audio.",
     "footer__resources": "Sumber"
   },

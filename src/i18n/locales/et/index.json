@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Ei, need kasutuspiirangud kehtivad ainult MaxAI poolt otse käitatavatele mudelitele, nagu GPT-4. Kui olete tasulise plaani kasutaja ja kasutate oma API võtit, saate seda seostada mis tahes mudelitega ilma MaxAI seatud kasutuspiiranguteta. Lisateabe saamiseks kasutuspiirangute kohta vaadake meie",
     "faq_list__question4__title": "Kus saan MaxAI.me-d kasutada?",
     "faq_list__question4__desc": "Saate kasutada MaxAI.me-d mis tahes veebisaidil, mis töötab Chromium-põhistel brauseritel (nagu Chrome ja Edge), et luua, parandada kirjutamist, kokku võtta, selgitada, parandada õigekirja ja grammatikat, tõlkida või vastata mis tahes tekstile.",
-    "faq_list__disclaimer_part1": "Tellides registreerute automaatsetele maksetele. Tühistage või haldage tellimust Stripe'i kliendiportaali kaudu osas „Minu plaan“. Kõik teenused osutatakse vastavalt ",
-    "faq_list__disclaimer_part2": " millega te oma registreerimisel nõustute.",
+    "faq_list__disclaimer_part1": "Tellimuse esitamisega registreerute automaatsete maksete jaoks. Tühistage või haldage tellimust Stripe'i kliendiportaali kaudu osas „Minu plaan“. Kõik teenused osutatakse vastavalt ",
+    "faq_list__disclaimer_part2": " mida te oma registreerimisel kinnitate. Pange tähele, et see teenus on mõeldud ainult inimestele tavaliseks kasutamiseks. Te ei tohi kontot jagada teiste inimestega ega kasutada teenusele juurdepääsuks ametliku kasutajaliidese möödaviimiseks programmeerilisi meetodeid. Teenusetingimuste rikkumise korral, mis põhjustavad finants- või muud kahju, jätame endale õiguse algatada õiguslikke samme ja nõuda asjakohast hüvitist.",
     "plan_features_table__gemini_tooltip_desc": "Google'i võimsaim ja üldisem mudel. Ehitatud mitmekülgsuseks algusest peale. Gemini MaxAI-s on praegu beetaversioon, toetades ainult teksti ja koodi, lisatakse varsti tugi piltidele, videotele ja helile.",
     "footer__resources": "Materjalid"
   },

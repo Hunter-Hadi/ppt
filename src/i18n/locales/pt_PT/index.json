@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Não, esses limites de uso são específicos para modelos como o GPT-4 que são operados diretamente pelo MaxAI. Se você estiver em um plano pago e usando sua própria chave de API, poderá usar qualquer modelo vinculado a ela sem nenhum limite de uso definido pelo MaxAI. Para mais detalhes sobre os limites de uso, consulte nossos",
     "faq_list__question4__title": "Onde posso usar o MaxAI.me?",
     "faq_list__question4__desc": "Você pode usar o MaxAI.me em qualquer site nos navegadores baseados em Chromium (como Chrome e Edge) para compor, melhorar a escrita, resumir, explicar, corrigir ortografia e gramática, traduzir ou responder a qualquer texto.",
-    "faq_list__disclaimer_part1": "Ao se inscrever, você está se cadastrando em pagamentos automáticos. Cancele ou gerencie sua assinatura por meio do portal do cliente da Stripe em \"Meu Plano\". Todos os serviços são entregues de acordo com os ",
-    "faq_list__disclaimer_part2": " que você confirma ao se inscrever.",
+    "faq_list__disclaimer_part1": "Ao subscrever, está a inscrever-se em pagamentos automáticos. Cancelar ou gerir a sua subscrição através do portal de cliente da Stripe em \"O Meu Plano\". Todos os serviços são entregues de acordo com o ",
+    "faq_list__disclaimer_part2": " que confirmou ao registar-se. Por favor, note que este serviço destina-se apenas a uso humano e normal. Não pode partilhar a conta com outras pessoas nem utilizar métodos programáticos para aceder ao serviço, contornando a interface de utilizador oficial. No caso de violações dos Termos de Serviço resultarem em danos financeiros ou outros, reservamo-nos o direito de intentar ações legais e procurar a compensação adequada.",
     "plan_features_table__gemini_tooltip_desc": "O modelo mais capaz e geral do Google. Construído desde o início para multimodalidade. O Gemini no MaxAI está atualmente na fase beta, suportando apenas texto e código, em breve adicionará suporte para imagens, vídeos e áudio.",
     "footer__resources": "Recursos"
   },

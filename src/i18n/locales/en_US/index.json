@@ -158,6 +158,7 @@
     "learning_center__basic_usage__item3__title": "Basic Usage: Adjust Setting",
     "learning_center__features__title": "Features",
     "pricing__title": "Compare plans & features",
+    "pricing__productivity": "Productivity",
     "pricing__save_up_to": "Save {{NUM}}%",
     "faq__title": "FAQs",
     "use_cases__common__install__title": "Reclaim Your Billable Hours",
@@ -490,7 +491,7 @@
     "faq_list__question4__title": "Where can I use MaxAI.me?",
     "faq_list__question4__desc": "You can use MaxAI.me on any website on any Chromium-based browsers (like Chrome and Edge) to compose, improve writing, summarize, explain, fix spelling & grammar, translate, or reply to any text.",
     "faq_list__disclaimer_part1": "By subscribing, you are enrolling in automatic payments. Cancel or manage your subscription through Stripe's customer portal from \"My Plan\". All services are delivered according to the ",
-    "faq_list__disclaimer_part2": " you confirm with your sign-up."
+    "faq_list__disclaimer_part2": " you confirm with your sign-up. Please note that this service is for human, normal use only. You may not share the account with other people or use programmatic methods to access the service, bypassing the official user interface. In the event that violations of the Terms of Service result in financial or other damages, we reserve the right to pursue legal action and seek appropriate compensation."
   },
   "privacy": {
     "banner__title": "Our Commitment to Your Privacy",

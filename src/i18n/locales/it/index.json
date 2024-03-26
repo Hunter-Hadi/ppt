@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "No, questi limiti di utilizzo sono specifici per modelli come GPT-4 che sono direttamente gestiti da MaxAI. Se hai un piano a pagamento e stai usando la tua chiave API personale, puoi utilizzare tutti i modelli collegati ad essa senza alcun limite di utilizzo impostato da MaxAI. Per ulteriori dettagli sui limiti di utilizzo, consulta il nostro",
     "faq_list__question4__title": "Dove posso utilizzare MaxAI.me?",
     "faq_list__question4__desc": "Puoi utilizzare MaxAI.me su qualsiasi sito web su qualsiasi browser basato su Chromium (come Chrome e Edge) per comporre, migliorare la scrittura, riassumere, spiegare, correggere errori di ortografia e grammatica, tradurre o rispondere a qualsiasi testo.",
-    "faq_list__disclaimer_part1": "Sottoscrivendo, ti stai iscrivendo ai pagamenti automatici. Annulla o gestisci la tua sottoscrizione tramite il portale clienti di Stripe da \"Il mio piano\". Tutti i servizi vengono forniti in conformità con i ",
-    "faq_list__disclaimer_part2": " che hai confermato con la tua registrazione.",
+    "faq_list__disclaimer_part1": "Iscrivendoti, ti stai iscrivendo ai pagamenti automatici. Annulla o gestisci la tua iscrizione tramite il portale clienti di Stripe da \"Il mio piano\". Tutti i servizi vengono forniti in base ai ",
+    "faq_list__disclaimer_part2": " che confermi con la tua registrazione. Si prega di notare che questo servizio è solo per uso umano normale. Non puoi condividere l'account con altre persone o utilizzare metodi programmatici per accedere al servizio, bypassando l'interfaccia utente ufficiale. Nel caso in cui violazioni dei Termini di servizio comportino danni finanziari o altri, ci riserviamo il diritto di intraprendere azioni legali e richiedere un'adeguata compensazione.",
     "plan_features_table__gemini_tooltip_desc": "Il modello più capace e generale di Google. Costruito da zero per la multimodalità. Gemini su MaxAI è attualmente nella fase beta, supportando solo testo e codice, presto aggiungerà il supporto per immagini, video e audio.",
     "footer__resources": "Risorse"
   },

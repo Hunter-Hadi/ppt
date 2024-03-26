@@ -487,8 +487,8 @@
     "faq_list__question3__desc": "Tidak, batasan penggunaan ini khusus untuk model seperti GPT-4 yang dioperasikan langsung oleh MaxAI. Jika Anda menggunakan kunci API Anda sendiri dalam rencana berlangganan dan menggunakan model apa pun yang terhubung dengannya, tidak ada batasan penggunaan yang ditetapkan oleh MaxAI. Untuk lebih detail tentang batasan penggunaan, silakan lihat",
     "faq_list__question4__title": "Di mana saya bisa menggunakan MaxAI.me?",
     "faq_list__question4__desc": "Anda dapat menggunakan MaxAI.me di situs web apa pun pada browser berbasis Chromium (seperti Chrome dan Edge) untuk membuat, meningkatkan tulisan, merangkum, menjelaskan, memperbaiki ejaan & tata bahasa, menerjemahkan, atau membalas teks apa pun.",
-    "faq_list__disclaimer_part1": "Dengan berlangganan, Anda mendaftar untuk pembayaran otomatis. Batalkan atau kelola langganan Anda melalui portal pelanggan Stripe dari \"Rencana Saya\". Semua layanan disampaikan sesuai dengan",
-    "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar.",
+    "faq_list__disclaimer_part1": "Dengan berlangganan, Anda akan terdaftar dalam pembayaran otomatis. Batalkan atau kelola langganan Anda melalui portal pelanggan Stripe dari \"Rencana Saya\". Semua layanan disampaikan sesuai dengan ",
+    "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar. Harap dicatat bahwa layanan ini hanya untuk penggunaan manusia biasa. Anda tidak boleh membagikan akun dengan orang lain atau menggunakan metode programatik untuk mengakses layanan ini, dengan cara melewati antarmuka pengguna resmi. Jika pelanggaran Ketentuan Layanan mengakibatkan kerugian keuangan atau lainnya, kami berhak untuk menempuh tindakan hukum dan mencari kompensasi yang sesuai.",
     "plan_features_table__gemini_tooltip_desc": "Model tercanggih dan umum dari Google. Dibangun dari awal untuk multimodalitas. Gemini di MaxAI saat ini dalam fase beta, hanya mendukung teks dan kode, akan segera menambahkan dukungan untuk gambar, video, dan audio.",
     "footer__resources": "Sumber Daya"
   },
