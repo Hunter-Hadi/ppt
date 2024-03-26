@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "الموارد البشرية",
     "home_page__user_comment__type_financial_services__label": "الخدمات المالية",
     "home_page__user_comment__type_real_estate__label": "العقارات",
-    "home_page__user_comment__type_technical__label": "التقنية"
+    "home_page__user_comment__type_technical__label": "التقنية",
+    "pricing__save_up_to": "احفظ {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "سنويًا",
     "payment_type_switch__monthly": "شهريًا",
     "payment_type_switch__tooltip1": "ادفع سنويًا",
-    "payment_type_switch__tooltip2": "ووفر {{num}}%",
+    "payment_type_switch__tooltip2": "ووفر حتى {{num}}%",
     "plan_payment_info__per_month": "شهريًا",
     "plan_payment_info__billed_yearly": "مفوترة سنويًا",
     "plan_payment_info__free_desc": "الأفضل للمستخدمين العرضيين",

@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Serbisyong Pinansyal",
     "home_page__user_comment__type_real_estate__label": "Real Estate",
-    "home_page__user_comment__type_technical__label": "Teknikal"
+    "home_page__user_comment__type_technical__label": "Teknikal",
+    "pricing__save_up_to": "I-save ang {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Taun-taon",
     "payment_type_switch__monthly": "Buwanan",
     "payment_type_switch__tooltip1": "Magbayad taun-taon",
-    "payment_type_switch__tooltip2": "at makatipid ng {{num}}%",
+    "payment_type_switch__tooltip2": "at makatipid ng hanggang {{num}}%",
     "plan_payment_info__per_month": "kada buwan",
     "plan_payment_info__billed_yearly": "binabayaran taun-taon",
     "plan_payment_info__free_desc": "Pinakamahusay para sa mga di-pangkaraniwang gumagamit",

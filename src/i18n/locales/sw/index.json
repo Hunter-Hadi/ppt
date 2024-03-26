@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Rasilimali Watu",
     "home_page__user_comment__type_financial_services__label": "Huduma za Fedha",
     "home_page__user_comment__type_real_estate__label": "Mali Isiyohamishika",
-    "home_page__user_comment__type_technical__label": "Kiufundi"
+    "home_page__user_comment__type_technical__label": "Kiufundi",
+    "pricing__save_up_to": "Hifadhi {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Kila mwaka",
     "payment_type_switch__monthly": "Kila mwezi",
     "payment_type_switch__tooltip1": "Lipa kila mwaka",
-    "payment_type_switch__tooltip2": "na uokoe {{num}}%",
+    "payment_type_switch__tooltip2": "na uokoe hadi {{num}}%",
     "plan_payment_info__per_month": "kwa mwezi",
     "plan_payment_info__billed_yearly": "biliwa kila mwaka",
     "plan_payment_info__free_desc": "Bora kwa watumiaji wa mara kwa mara",

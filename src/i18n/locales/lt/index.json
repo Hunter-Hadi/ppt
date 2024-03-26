@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Finansinės paslaugos",
     "home_page__user_comment__type_real_estate__label": "Nekilnojamas turtas",
-    "home_page__user_comment__type_technical__label": "Techninis"
+    "home_page__user_comment__type_technical__label": "Techninis",
+    "pricing__save_up_to": "Sutaupykite {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Metinis",
     "payment_type_switch__monthly": "Mėnesinis",
     "payment_type_switch__tooltip1": "Mokėkite kasmet",
-    "payment_type_switch__tooltip2": "ir sutaupykite {{num}}%",
+    "payment_type_switch__tooltip2": "ir sutaupykite iki {{num}}%",
     "plan_payment_info__per_month": "per mėnesį",
     "plan_payment_info__billed_yearly": "sąskaita išrašoma kasmet",
     "plan_payment_info__free_desc": "Geriausia retiems naudotojams",

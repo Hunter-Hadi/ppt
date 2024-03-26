@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "RH",
     "home_page__user_comment__type_financial_services__label": "Serviços Financeiros",
     "home_page__user_comment__type_real_estate__label": "Imóveis",
-    "home_page__user_comment__type_technical__label": "Técnico"
+    "home_page__user_comment__type_technical__label": "Técnico",
+    "pricing__save_up_to": "Economize {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts em 1 Clique",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Anual",
     "payment_type_switch__monthly": "Mensal",
     "payment_type_switch__tooltip1": "Pague anualmente",
-    "payment_type_switch__tooltip2": "e economize {{num}}%",
+    "payment_type_switch__tooltip2": "e economize até {{num}}%",
     "plan_payment_info__per_month": "por mês",
     "plan_payment_info__billed_yearly": "cobrado anualmente",
     "plan_payment_info__free_desc": "Melhor para usuários ocasionais",

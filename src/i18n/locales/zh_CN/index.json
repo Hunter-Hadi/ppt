@@ -325,7 +325,8 @@
     "home_page__user_comment__type_hr__label": "人力资源",
     "home_page__user_comment__type_financial_services__label": "金融服务",
     "home_page__user_comment__type_real_estate__label": "房地产",
-    "home_page__user_comment__type_technical__label": "技术"
+    "home_page__user_comment__type_technical__label": "技术",
+    "pricing__save_up_to": "节省{{NUM}}%"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

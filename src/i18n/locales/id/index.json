@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "SDM",
     "home_page__user_comment__type_financial_services__label": "Layanan Keuangan",
     "home_page__user_comment__type_real_estate__label": "Properti",
-    "home_page__user_comment__type_technical__label": "Teknis"
+    "home_page__user_comment__type_technical__label": "Teknis",
+    "pricing__save_up_to": "Simpan {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Tahunan",
     "payment_type_switch__monthly": "Bulanan",
     "payment_type_switch__tooltip1": "Bayar tahunan",
-    "payment_type_switch__tooltip2": "dan hemat {{num}}%",
+    "payment_type_switch__tooltip2": "dan hemat hingga {{num}}%",
     "plan_payment_info__per_month": "per bulan",
     "plan_payment_info__billed_yearly": "dibayar setahun",
     "plan_payment_info__free_desc": "Terbaik untuk pengguna sesekali",

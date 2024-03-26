@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Finansiella tjänster",
     "home_page__user_comment__type_real_estate__label": "Fastigheter",
-    "home_page__user_comment__type_technical__label": "Teknisk"
+    "home_page__user_comment__type_technical__label": "Teknisk",
+    "pricing__save_up_to": "Spara {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Årligen",
     "payment_type_switch__monthly": "Månadsvis",
     "payment_type_switch__tooltip1": "Betala årligen",
-    "payment_type_switch__tooltip2": "och spara {{num}}%",
+    "payment_type_switch__tooltip2": "och spara upp till {{num}}%",
     "plan_payment_info__per_month": "per månad",
     "plan_payment_info__billed_yearly": "faktureras årligen",
     "plan_payment_info__free_desc": "Bäst för tillfälliga användare",

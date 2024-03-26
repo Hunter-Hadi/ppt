@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Finanšu pakalpojumi",
     "home_page__user_comment__type_real_estate__label": "Nekustamais īpašums",
-    "home_page__user_comment__type_technical__label": "Tehniskais"
+    "home_page__user_comment__type_technical__label": "Tehniskais",
+    "pricing__save_up_to": "Ietaupi {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Katru gadu",
     "payment_type_switch__monthly": "Katru mēnesi",
     "payment_type_switch__tooltip1": "Maksā katru gadu",
-    "payment_type_switch__tooltip2": "un ietaupi {{num}}%",
+    "payment_type_switch__tooltip2": "un ietaupi līdz {{num}}%",
     "plan_payment_info__per_month": "mēnesī",
     "plan_payment_info__billed_yearly": "apmaksāts katru gadu",
     "plan_payment_info__free_desc": "Vislabāk piemērots ikdienas lietotājiem",

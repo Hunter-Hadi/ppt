@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Personalwesen",
     "home_page__user_comment__type_financial_services__label": "Finanzdienstleistungen",
     "home_page__user_comment__type_real_estate__label": "Immobilien",
-    "home_page__user_comment__type_technical__label": "Technisch"
+    "home_page__user_comment__type_technical__label": "Technisch",
+    "pricing__save_up_to": "Sparen Sie {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Jährlich",
     "payment_type_switch__monthly": "Monatlich",
     "payment_type_switch__tooltip1": "Jährlich bezahlen",
-    "payment_type_switch__tooltip2": "und {{num}}% sparen",
+    "payment_type_switch__tooltip2": "und bis zu {{num}}% sparen",
     "plan_payment_info__per_month": "pro Monat",
     "plan_payment_info__billed_yearly": "jährlich abgerechnet",
     "plan_payment_info__free_desc": "Am besten für gelegentliche Benutzer",

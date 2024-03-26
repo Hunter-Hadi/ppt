@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Sumber Manusia",
     "home_page__user_comment__type_financial_services__label": "Perkhidmatan Kewangan",
     "home_page__user_comment__type_real_estate__label": "Hartanah",
-    "home_page__user_comment__type_technical__label": "Teknikal"
+    "home_page__user_comment__type_technical__label": "Teknikal",
+    "pricing__save_up_to": "Jimat {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Tahunan",
     "payment_type_switch__monthly": "Bulanan",
     "payment_type_switch__tooltip1": "Bayar tahunan",
-    "payment_type_switch__tooltip2": "dan jimat {{num}}%",
+    "payment_type_switch__tooltip2": "dan jimat sehingga {{num}}%",
     "plan_payment_info__per_month": "sebulan",
     "plan_payment_info__billed_yearly": "dibayar setahun",
     "plan_payment_info__free_desc": "Terbaik untuk pengguna sesekali",

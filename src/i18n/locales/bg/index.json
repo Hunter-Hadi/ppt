@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Човешки ресурси",
     "home_page__user_comment__type_financial_services__label": "Финансови услуги",
     "home_page__user_comment__type_real_estate__label": "Недвижими имоти",
-    "home_page__user_comment__type_technical__label": "Технически"
+    "home_page__user_comment__type_technical__label": "Технически",
+    "pricing__save_up_to": "Спестете {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Годишно",
     "payment_type_switch__monthly": "Месечно",
     "payment_type_switch__tooltip1": "Платете годишно",
-    "payment_type_switch__tooltip2": "и спестете {{num}}%",
+    "payment_type_switch__tooltip2": "и спестете до {{num}}%",
     "plan_payment_info__per_month": "на месец",
     "plan_payment_info__billed_yearly": "с годишно фактуриране",
     "plan_payment_info__free_desc": "Най-добро за случайни потребители",

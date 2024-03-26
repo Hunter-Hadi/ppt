@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "인사",
     "home_page__user_comment__type_financial_services__label": "금융 서비스",
     "home_page__user_comment__type_real_estate__label": "부동산",
-    "home_page__user_comment__type_technical__label": "기술"
+    "home_page__user_comment__type_technical__label": "기술",
+    "pricing__save_up_to": "절약 {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "연간",
     "payment_type_switch__monthly": "월간",
     "payment_type_switch__tooltip1": "연간 결제",
-    "payment_type_switch__tooltip2": "절약 {{num}}%",
+    "payment_type_switch__tooltip2": "그리고 최대 {{num}}%까지 절약하세요",
     "plan_payment_info__per_month": "월당",
     "plan_payment_info__billed_yearly": "연간 청구",
     "plan_payment_info__free_desc": "가끔 사용자에게 적합",

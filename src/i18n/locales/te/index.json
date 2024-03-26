@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "హ్యూమన్ రిసోర్సీస్",
     "home_page__user_comment__type_financial_services__label": "ఆర్థిక సేవలు",
     "home_page__user_comment__type_real_estate__label": "రియల్ ఎస్టేట్",
-    "home_page__user_comment__type_technical__label": "టెక్నికల్"
+    "home_page__user_comment__type_technical__label": "టెక్నికల్",
+    "pricing__save_up_to": "సేవ్ చేయండి {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",

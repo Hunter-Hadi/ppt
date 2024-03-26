@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Personalijuhtimine",
     "home_page__user_comment__type_financial_services__label": "Finantsteenused",
     "home_page__user_comment__type_real_estate__label": "Kinnisvara",
-    "home_page__user_comment__type_technical__label": "Tehniline"
+    "home_page__user_comment__type_technical__label": "Tehniline",
+    "pricing__save_up_to": "Säästa {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Aastane",
     "payment_type_switch__monthly": "Kuine",
     "payment_type_switch__tooltip1": "Maksa aastas",
-    "payment_type_switch__tooltip2": "ja säästa {{num}}%",
+    "payment_type_switch__tooltip2": "ja säästa kuni {{num}}%",
     "plan_payment_info__per_month": "kuus",
     "plan_payment_info__billed_yearly": "aastane arve",
     "plan_payment_info__free_desc": "Parim juhuslike kasutajate jaoks",

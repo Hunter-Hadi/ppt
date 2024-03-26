@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Henkilöstöhallinto",
     "home_page__user_comment__type_financial_services__label": "Rahoituspalvelut",
     "home_page__user_comment__type_real_estate__label": "Kiinteistö",
-    "home_page__user_comment__type_technical__label": "Tekninen"
+    "home_page__user_comment__type_technical__label": "Tekninen",
+    "pricing__save_up_to": "Säästä {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Vuosi",
     "payment_type_switch__monthly": "Kuukausi",
     "payment_type_switch__tooltip1": "Maksa vuosittain",
-    "payment_type_switch__tooltip2": "ja säästä {{num}}%",
+    "payment_type_switch__tooltip2": "ja säästä jopa {{num}}%",
     "plan_payment_info__per_month": "kuukaudessa",
     "plan_payment_info__billed_yearly": "laskutetaan vuosittain",
     "plan_payment_info__free_desc": "Paras satunnaisille käyttäjille",

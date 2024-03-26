@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Resurse Umane",
     "home_page__user_comment__type_financial_services__label": "Servicii Financiare",
     "home_page__user_comment__type_real_estate__label": "Imobiliare",
-    "home_page__user_comment__type_technical__label": "Tehnic"
+    "home_page__user_comment__type_technical__label": "Tehnic",
+    "pricing__save_up_to": "Economisiți {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Anual",
     "payment_type_switch__monthly": "Lunar",
     "payment_type_switch__tooltip1": "Plătește anual",
-    "payment_type_switch__tooltip2": "și economisește {{num}}%",
+    "payment_type_switch__tooltip2": "și economisește până la {{num}}%",
     "plan_payment_info__per_month": "pe lună",
     "plan_payment_info__billed_yearly": "facturat anual",
     "plan_payment_info__free_desc": "Cel mai bun pentru utilizatorii ocazionali",

@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Financiële Diensten",
     "home_page__user_comment__type_real_estate__label": "Vastgoed",
-    "home_page__user_comment__type_technical__label": "Technisch"
+    "home_page__user_comment__type_technical__label": "Technisch",
+    "pricing__save_up_to": "Bespaar {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Jaarlijks",
     "payment_type_switch__monthly": "Maandelijks",
     "payment_type_switch__tooltip1": "Betaal jaarlijks",
-    "payment_type_switch__tooltip2": "en bespaar {{num}}%",
+    "payment_type_switch__tooltip2": "en bespaar tot {{num}}%",
     "plan_payment_info__per_month": "per maand",
     "plan_payment_info__billed_yearly": "jaarlijks gefactureerd",
     "plan_payment_info__free_desc": "Beste voor incidentele gebruikers",

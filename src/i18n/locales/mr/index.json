@@ -339,7 +339,8 @@
     "use_cases__real_estate_page__take_time__button_text": "आता वेळ बचवा सुरू करा",
     "use_cases__tech_page__button_text": "मोफत MaxAI स्थापित करा",
     "use_cases__tech_page__description__button_text": "आपली प्रभावशीलता वाढवा",
-    "use_cases__tech_page__take_time__button_text": "आता वेळ बचवा सुरू करा"
+    "use_cases__tech_page__take_time__button_text": "आता वेळ बचवा सुरू करा",
+    "pricing__save_up_to": "बचत करा {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "वार्षिक",
     "payment_type_switch__monthly": "मासिक",
     "payment_type_switch__tooltip1": "वार्षिक भरा",
-    "payment_type_switch__tooltip2": "आणि {{num}}% बचत करा",
+    "payment_type_switch__tooltip2": "आणि {{num}}% वरील कमी करा",
     "plan_payment_info__per_month": "प्रति महिना",
     "plan_payment_info__billed_yearly": "वार्षिक बिल केले जाते",
     "plan_payment_info__free_desc": "केवळ वेळवाळ्यांसाठी सर्वोत्तम",

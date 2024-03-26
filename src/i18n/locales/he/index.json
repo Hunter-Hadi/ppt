@@ -284,7 +284,7 @@
     "payment_type_switch__yearly": "שנתי",
     "payment_type_switch__monthly": "חודשי",
     "payment_type_switch__tooltip1": "שלם בשנתיות",
-    "payment_type_switch__tooltip2": "וחסוך {{num}}%",
+    "payment_type_switch__tooltip2": "וחסוך עד {{num}}%",
     "plan_payment_info__per_month": "לחודש",
     "plan_payment_info__billed_yearly": "בחיוב שנתי",
     "plan_payment_info__free_desc": "מתאים ביותר למשתמשים מדי פעם",

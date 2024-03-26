@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "ทรัพยากรบุคคล",
     "home_page__user_comment__type_financial_services__label": "บริการทางการเงิน",
     "home_page__user_comment__type_real_estate__label": "อสังหาริมทรัพย์",
-    "home_page__user_comment__type_technical__label": "เทคนิค"
+    "home_page__user_comment__type_technical__label": "เทคนิค",
+    "pricing__save_up_to": "ประหยัด {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "รายปี",
     "payment_type_switch__monthly": "รายเดือน",
     "payment_type_switch__tooltip1": "ชำระเงินรายปี",
-    "payment_type_switch__tooltip2": "และประหยัด {{num}}%",
+    "payment_type_switch__tooltip2": "และประหยัดสูงสุด {{num}}%",
     "plan_payment_info__per_month": "ต่อเดือน",
     "plan_payment_info__billed_yearly": "เรียกเก็บค่าบริการรายปี",
     "plan_payment_info__free_desc": "เหมาะสำหรับผู้ใช้ที่ใช้บางครั้ง",

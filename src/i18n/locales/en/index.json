@@ -175,6 +175,7 @@
     "learning_center__features__title": "Features",
 
     "pricing__title": "Compare plans & features",
+    "pricing__save_up_to": "Save {{NUM}}%",
 
     "faq__title": "FAQs",
 
@@ -426,7 +427,7 @@
     "payment_type_switch__yearly": "Yearly",
     "payment_type_switch__monthly": "Monthly",
     "payment_type_switch__tooltip1": "Pay yearly",
-    "payment_type_switch__tooltip2": "and save {{num}}%",
+    "payment_type_switch__tooltip2": "and save up to {{num}}%",
     "plan_payment_info__per_month": "per month",
     "plan_payment_info__billed_yearly": "billed yearly",
     "plan_payment_info__free_desc": "Best for occasional users",

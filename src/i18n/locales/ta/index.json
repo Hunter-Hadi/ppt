@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "மனித வளம்",
     "home_page__user_comment__type_financial_services__label": "நிதி சேவைகள்",
     "home_page__user_comment__type_real_estate__label": "உண்மையான சொத்து",
-    "home_page__user_comment__type_technical__label": "தொழில்நுட்ப"
+    "home_page__user_comment__type_technical__label": "தொழில்நுட்ப",
+    "pricing__save_up_to": "சேமிக்க {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "வாராந்திர ஆண்டுவரை",
     "payment_type_switch__monthly": "மாதாந்திர ஆண்டுவரை",
     "payment_type_switch__tooltip1": "வாராந்திர செலுத்துங்கள்",
-    "payment_type_switch__tooltip2": "மற்றும் {{num}}% சேமிக்கவும்",
+    "payment_type_switch__tooltip2": "மாற்றுப் பொருட்கள் மூலம் சேமிக்கவும் {{num}}% சேமிக்கலாம்",
     "plan_payment_info__per_month": "ஒரு மாதத்திற்கு",
     "plan_payment_info__billed_yearly": "வாராந்திர பில்லிங்",
     "plan_payment_info__free_desc": "நினைவுக்குரிய பயனாளர்களுக்கு சிறந்தது",

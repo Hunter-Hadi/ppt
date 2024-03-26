@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "İK",
     "home_page__user_comment__type_financial_services__label": "Finansal Hizmetler",
     "home_page__user_comment__type_real_estate__label": "Gayrimenkul",
-    "home_page__user_comment__type_technical__label": "Teknik"
+    "home_page__user_comment__type_technical__label": "Teknik",
+    "pricing__save_up_to": "Tasarruf Et {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Yıllık",
     "payment_type_switch__monthly": "Aylık",
     "payment_type_switch__tooltip1": "Yıllık ödeyin",
-    "payment_type_switch__tooltip2": "ve %{{num}} tasarruf edin",
+    "payment_type_switch__tooltip2": "ve %{{num}}'e kadar tasarruf edin",
     "plan_payment_info__per_month": "aylık",
     "plan_payment_info__billed_yearly": "yıllık faturalandırılır",
     "plan_payment_info__free_desc": "Ara sıra kullanıcılar için en iyisi",

@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Finansijske usluge",
     "home_page__user_comment__type_real_estate__label": "Nekretnine",
-    "home_page__user_comment__type_technical__label": "Tehnički"
+    "home_page__user_comment__type_technical__label": "Tehnički",
+    "pricing__save_up_to": "Uštedite {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Godišnje",
     "payment_type_switch__monthly": "Mesečno",
     "payment_type_switch__tooltip1": "Plaćanje godišnje",
-    "payment_type_switch__tooltip2": "i uštedite {{num}}%",
+    "payment_type_switch__tooltip2": "i uštedite do {{num}}%",
     "plan_payment_info__per_month": "mesečno",
     "plan_payment_info__billed_yearly": "obračunato godišnje",
     "plan_payment_info__free_desc": "Najbolje za povremene korisnike",

@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "માનવ સંસાધન",
     "home_page__user_comment__type_financial_services__label": "આર્થિક સેવાઓ",
     "home_page__user_comment__type_real_estate__label": "રિયલ એસ્ટેટ",
-    "home_page__user_comment__type_technical__label": "ટેકનિકલ"
+    "home_page__user_comment__type_technical__label": "ટેકનિકલ",
+    "pricing__save_up_to": "સેવ કરો {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "વાર્ષિક",
     "payment_type_switch__monthly": "માસિક",
     "payment_type_switch__tooltip1": "વાર્ષિક ચુકવો",
-    "payment_type_switch__tooltip2": "અને {{num}}% બચાવો",
+    "payment_type_switch__tooltip2": "અને સુધારો કરો {{num}}%",
     "plan_payment_info__per_month": "પ્રતિ મહિને",
     "plan_payment_info__billed_yearly": "વાર્ષિક ચુકવેલ",
     "plan_payment_info__free_desc": "ઓકેઝનલ ઉપયોગકર્તાઓ માટે સૌથી શ્રેષ્ઠ",

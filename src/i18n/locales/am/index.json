@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "ሰራተኞች",
     "home_page__user_comment__type_financial_services__label": "የንግድ አገልግሎቶች",
     "home_page__user_comment__type_real_estate__label": "የእንግድ እቃዎች",
-    "home_page__user_comment__type_technical__label": "ቴክኒክ"
+    "home_page__user_comment__type_technical__label": "ቴክኒክ",
+    "pricing__save_up_to": "ቅና {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "በዓመት",
     "payment_type_switch__monthly": "በወር",
     "payment_type_switch__tooltip1": "በዓመት ክፍያ",
-    "payment_type_switch__tooltip2": "እና {{num}}% ደረጃ ይቀላቀሉ",
+    "payment_type_switch__tooltip2": "እና ምንም በ{{num}}% ደርቆ ተጠቅመው ይታያል",
     "plan_payment_info__per_month": "በወር የተጠቀምሁ",
     "plan_payment_info__billed_yearly": "በዓመት የተጠቀምሁ",
     "plan_payment_info__free_desc": "ለባህሪ ጠቀምሁልኝ",

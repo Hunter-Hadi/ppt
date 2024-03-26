@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "RRHH",
     "home_page__user_comment__type_financial_services__label": "Serveis Financers",
     "home_page__user_comment__type_real_estate__label": "Béns Immobles",
-    "home_page__user_comment__type_technical__label": "Tècnic"
+    "home_page__user_comment__type_technical__label": "Tècnic",
+    "pricing__save_up_to": "Estalvia un {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Anualment",
     "payment_type_switch__monthly": "Mensualment",
     "payment_type_switch__tooltip1": "Paga anualment",
-    "payment_type_switch__tooltip2": "i estalvia un {{num}}%",
+    "payment_type_switch__tooltip2": "i estalvia fins a {{num}}%",
     "plan_payment_info__per_month": "al mes",
     "plan_payment_info__billed_yearly": "facturat anualment",
     "plan_payment_info__free_desc": "Millor per a usuaris ocasionals",

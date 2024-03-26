@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Nhân sự",
     "home_page__user_comment__type_financial_services__label": "Dịch vụ tài chính",
     "home_page__user_comment__type_real_estate__label": "Bất động sản",
-    "home_page__user_comment__type_technical__label": "Kỹ thuật"
+    "home_page__user_comment__type_technical__label": "Kỹ thuật",
+    "pricing__save_up_to": "Tiết kiệm {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Hàng năm",
     "payment_type_switch__monthly": "Hàng tháng",
     "payment_type_switch__tooltip1": "Thanh toán hàng năm",
-    "payment_type_switch__tooltip2": "và tiết kiệm {{num}}%",
+    "payment_type_switch__tooltip2": "và tiết kiệm lên đến {{num}}%",
     "plan_payment_info__per_month": "mỗi tháng",
     "plan_payment_info__billed_yearly": "được thanh toán hàng năm",
     "plan_payment_info__free_desc": "Phù hợp nhất cho người dùng cơ bản",

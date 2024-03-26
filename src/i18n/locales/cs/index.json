@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Finanční služby",
     "home_page__user_comment__type_real_estate__label": "Realitní služby",
-    "home_page__user_comment__type_technical__label": "Technické"
+    "home_page__user_comment__type_technical__label": "Technické",
+    "pricing__save_up_to": "Ušetřete {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Ročně",
     "payment_type_switch__monthly": "Měsíčně",
     "payment_type_switch__tooltip1": "Plaťte ročně",
-    "payment_type_switch__tooltip2": "a ušetřete {{num}}%",
+    "payment_type_switch__tooltip2": "a ušetřete až {{num}}%",
     "plan_payment_info__per_month": "za měsíc",
     "plan_payment_info__billed_yearly": "fakturováno ročně",
     "plan_payment_info__free_desc": "Nejlepší pro příležitostné uživatele",

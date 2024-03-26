@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "人力資源",
     "home_page__user_comment__type_financial_services__label": "金融服務",
     "home_page__user_comment__type_real_estate__label": "房地產",
-    "home_page__user_comment__type_technical__label": "技術"
+    "home_page__user_comment__type_technical__label": "技術",
+    "pricing__save_up_to": "節省 {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",

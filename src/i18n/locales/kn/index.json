@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "ಮಾನವ ಸಂಪನ್ಮೂಲ",
     "home_page__user_comment__type_financial_services__label": "ಆರ್ಥಿಕ ಸೇವೆಗಳು",
     "home_page__user_comment__type_real_estate__label": "ರಿಯಲ್ ಎಸ್ಟೇಟ್",
-    "home_page__user_comment__type_technical__label": "ತಾಂತ್ರಿಕ"
+    "home_page__user_comment__type_technical__label": "ತಾಂತ್ರಿಕ",
+    "pricing__save_up_to": "ಹೆಚ್ಚುವರಿ {{NUM}}% ಉಳಿಸಿ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "ವಾರ್ಷಿಕ",
     "payment_type_switch__monthly": "ಮಾಸಿಕ",
     "payment_type_switch__tooltip1": "ವಾರ್ಷಿಕ ಪಾವತಿ",
-    "payment_type_switch__tooltip2": "ಮತ್ತು {{num}}% ಉಳಿದುಕೊಳ್ಳಿ",
+    "payment_type_switch__tooltip2": "ಮತ್ತು ಉಳಿದುಕೊಳ್ಳಿ {{num}}% ಹೆಚ್ಚಿನ ಖರ್ಚು ಮಾಡದೆ",
     "plan_payment_info__per_month": "ಪ್ರತಿ ತಿಂಗಳು",
     "plan_payment_info__billed_yearly": "ವಾರ್ಷಿಕ ಬಿಲ್ಲಿಂಗ್",
     "plan_payment_info__free_desc": "ಅವಕಾಶವಿರುವ ಬಳಕೆದಾರರಿಗೆ ಅತ್ಯುತ್ತಮ",

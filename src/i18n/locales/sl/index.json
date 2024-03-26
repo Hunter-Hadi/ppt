@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Kadrovska služba",
     "home_page__user_comment__type_financial_services__label": "Finančne storitve",
     "home_page__user_comment__type_real_estate__label": "Nepremičnine",
-    "home_page__user_comment__type_technical__label": "Tehnično"
+    "home_page__user_comment__type_technical__label": "Tehnično",
+    "pricing__save_up_to": "Prihranite {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Letno",
     "payment_type_switch__monthly": "Mesečno",
     "payment_type_switch__tooltip1": "Plačaj letno",
-    "payment_type_switch__tooltip2": "in prihrani {{num}}%",
+    "payment_type_switch__tooltip2": "in prihranite do {{num}}%",
     "plan_payment_info__per_month": "na mesec",
     "plan_payment_info__billed_yearly": "obračunano letno",
     "plan_payment_info__free_desc": "Najboljše za občasne uporabnike",

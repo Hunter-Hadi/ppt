@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "人事",
     "home_page__user_comment__type_financial_services__label": "金融サービス",
     "home_page__user_comment__type_real_estate__label": "不動産",
-    "home_page__user_comment__type_technical__label": "技術"
+    "home_page__user_comment__type_technical__label": "技術",
+    "pricing__save_up_to": "最大{{NUM}}%オフ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "年間",
     "payment_type_switch__monthly": "月間",
     "payment_type_switch__tooltip1": "年間支払い",
-    "payment_type_switch__tooltip2": "{{num}}%節約",
+    "payment_type_switch__tooltip2": "最大{{num}}%割引",
     "plan_payment_info__per_month": "月額",
     "plan_payment_info__billed_yearly": "年間請求",
     "plan_payment_info__free_desc": "たまに使う方に最適",

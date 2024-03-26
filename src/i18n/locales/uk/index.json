@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "انسانی وسائل",
     "home_page__user_comment__type_financial_services__label": "مالی خدمات",
     "home_page__user_comment__type_real_estate__label": "حقیقی اسٹیٹ",
-    "home_page__user_comment__type_technical__label": "ٹیکنیکل"
+    "home_page__user_comment__type_technical__label": "ٹیکنیکل",
+    "pricing__save_up_to": "تک {{NUM}}% بچائیں"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "سالانہ",
     "payment_type_switch__monthly": "ماہانہ",
     "payment_type_switch__tooltip1": "سالانہ ادائیگی",
-    "payment_type_switch__tooltip2": "اور {{num}}% بچائیں",
+    "payment_type_switch__tooltip2": "اور {{num}}٪ تک بچائیں",
     "plan_payment_info__per_month": "فی ماہ",
     "plan_payment_info__billed_yearly": "سالانہ بل",
     "plan_payment_info__free_desc": "بہترین برائے عارضی صارفین",

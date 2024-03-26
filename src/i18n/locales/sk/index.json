@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "Ľudské zdroje",
     "home_page__user_comment__type_financial_services__label": "Finančné služby",
     "home_page__user_comment__type_real_estate__label": "Nehnuteľnosti",
-    "home_page__user_comment__type_technical__label": "Technické"
+    "home_page__user_comment__type_technical__label": "Technické",
+    "pricing__save_up_to": "Ušetrite {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Ročne",
     "payment_type_switch__monthly": "Mesačne",
     "payment_type_switch__tooltip1": "Platba ročne",
-    "payment_type_switch__tooltip2": "a ušetrite {{num}}%",
+    "payment_type_switch__tooltip2": "a ušetrite až {{num}}%",
     "plan_payment_info__per_month": "za mesiac",
     "plan_payment_info__billed_yearly": "účtované ročne",
     "plan_payment_info__free_desc": "Najlepšie pre príležitostných používateľov",

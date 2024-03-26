@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Pénzügyi szolgáltatások",
     "home_page__user_comment__type_real_estate__label": "Ingatlan",
-    "home_page__user_comment__type_technical__label": "Műszaki"
+    "home_page__user_comment__type_technical__label": "Műszaki",
+    "pricing__save_up_to": "Mentés {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Éves",
     "payment_type_switch__monthly": "Havi",
     "payment_type_switch__tooltip1": "Éves fizetés",
-    "payment_type_switch__tooltip2": "és {{num}}% megtakarítás",
+    "payment_type_switch__tooltip2": "és akár {{num}}%-ot takaríthat meg",
     "plan_payment_info__per_month": "havonta",
     "plan_payment_info__billed_yearly": "éves számlázás",
     "plan_payment_info__free_desc": "Legjobb alkalmi felhasználóknak",

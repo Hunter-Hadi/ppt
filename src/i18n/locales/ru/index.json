@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "HR",
     "home_page__user_comment__type_financial_services__label": "Финансовые услуги",
     "home_page__user_comment__type_real_estate__label": "Недвижимость",
-    "home_page__user_comment__type_technical__label": "Технический"
+    "home_page__user_comment__type_technical__label": "Технический",
+    "pricing__save_up_to": "Сэкономьте {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "Ежегодно",
     "payment_type_switch__monthly": "Ежемесячно",
     "payment_type_switch__tooltip1": "Оплатить ежегодно",
-    "payment_type_switch__tooltip2": "и сэкономьте {{num}}%",
+    "payment_type_switch__tooltip2": "и сэкономьте до {{num}}%",
     "plan_payment_info__per_month": "в месяц",
     "plan_payment_info__billed_yearly": "ежегодно",
     "plan_payment_info__free_desc": "Лучший для случайных пользователей",

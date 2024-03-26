@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "মানব সম্পদ",
     "home_page__user_comment__type_financial_services__label": "আর্থিক সেবা",
     "home_page__user_comment__type_real_estate__label": "রিয়েল এস্টেট",
-    "home_page__user_comment__type_technical__label": "প্রযুক্তিগত"
+    "home_page__user_comment__type_technical__label": "প্রযুক্তিগত",
+    "pricing__save_up_to": "সর্বাধিক {{NUM}}% সংরক্ষণ করুন"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "বার্ষিক",
     "payment_type_switch__monthly": "মাসিক",
     "payment_type_switch__tooltip1": "বার্ষিক পরিশোধ",
-    "payment_type_switch__tooltip2": "এবং {{num}}% বাঁচান",
+    "payment_type_switch__tooltip2": "এবং {{num}}% সঞ্চয় করুন",
     "plan_payment_info__per_month": "প্রতি মাসে",
     "plan_payment_info__billed_yearly": "বার্ষিক বিল করা হয়েছে",
     "plan_payment_info__free_desc": "অক্ষম্য ব্যবহারকারীদের জন্য সেরা",

@@ -339,7 +339,8 @@
     "home_page__user_comment__type_hr__label": "مدیریت منابع انسانی",
     "home_page__user_comment__type_financial_services__label": "خدمات مالی",
     "home_page__user_comment__type_real_estate__label": "املاک و مستغلات",
-    "home_page__user_comment__type_technical__label": "فنی"
+    "home_page__user_comment__type_technical__label": "فنی",
+    "pricing__save_up_to": "صرفه جویی {{NUM}}%"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -395,7 +396,7 @@
     "payment_type_switch__yearly": "سالانه",
     "payment_type_switch__monthly": "ماهانه",
     "payment_type_switch__tooltip1": "سالانه پرداخت کنید",
-    "payment_type_switch__tooltip2": "و {{num}}٪ صرفه‌جویی کنید",
+    "payment_type_switch__tooltip2": "و تا {{num}}% صرفه‌جویی کنید",
     "plan_payment_info__per_month": "در ماه",
     "plan_payment_info__billed_yearly": "سالانه پرداخت شود",
     "plan_payment_info__free_desc": "بهترین گزینه برای کاربران گاه به گاه",
