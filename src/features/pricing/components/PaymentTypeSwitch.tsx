@@ -57,7 +57,7 @@ const PaymentTypeSwitch: FC<{
       <br />
       {t('payment_type_switch__tooltip2', {
         num: Math.round(
-          (1 - PLAN_PRICE_MAP['pro_yearly'] / PLAN_PRICE_MAP['pro']) * 100,
+          (1 - PLAN_PRICE_MAP['elite_yearly'] / PLAN_PRICE_MAP['elite']) * 100,
         ),
       })}
     </Typography>

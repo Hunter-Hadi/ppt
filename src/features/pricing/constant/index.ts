@@ -8,7 +8,7 @@ export const PLAN_PRICE_MAP: Record<RENDER_PLAN_TYPE, number> = {
   pro: 19,
   pro_yearly: 12,
   elite: 39,
-  elite_yearly: 25,
+  elite_yearly: 18,
 };
 
 export * from './features';

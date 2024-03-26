@@ -156,9 +156,36 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
 
   return (
     <Stack spacing={1} sx={sx}>
-      <Typography variant='custom' sx={fontSx.title}>
-        {title}
-      </Typography>
+      <Stack
+        direction={'row'}
+        alignItems='center'
+        justifyContent='space-between'
+      >
+        <Typography variant='custom' sx={fontSx.title}>
+          {title}
+        </Typography>
+        {/* 付费的plan，并且年付的才显示 */}
+        {type !== 'free' && type.includes('_yearly') ? (
+          <Typography
+            variant='custom'
+            fontSize={16}
+            lineHeight={1.2}
+            fontWeight={900}
+            color='primary.main'
+          >
+            {t('pages:pricing__save_up_to', {
+              NUM: Math.round(
+                (1 -
+                  PLAN_PRICE_MAP[type] /
+                    PLAN_PRICE_MAP[
+                      type.replace('_yearly', '') as RENDER_PLAN_TYPE
+                    ]) *
+                  100,
+              ),
+            })}
+          </Typography>
+        ) : null}
+      </Stack>
       {renderPayInfo()}
       {showDesc && (
         <Typography variant='custom' sx={fontSx.desc}>
