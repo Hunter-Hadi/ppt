@@ -13,7 +13,7 @@ export function makeStaticProps() {
       props: {
         ...(await serverSideTranslations(locale)),
       },
-      revalidate: 86400, // 24 hours
+      // revalidate: 86400, // 24 hours
     };
   };
 }

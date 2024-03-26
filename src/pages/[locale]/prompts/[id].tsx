@@ -1,15 +1,13 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ParsedUrlQuery } from 'querystring';
-import sanitizeHtml from 'sanitize-html';
-import sanitize from 'sanitize-html';
 
-import { IPromptCardData, IPromptDetailData } from '@/features/prompt/types';
+import { IPromptCardData } from '@/features/prompt/types';
 import { makeI18nStaticPathsWithOriginalParams } from '@/i18n/utils/staticHelper';
 import PromptDetailPages from '@/page_components/PromptPages/PromptDetailPages';
 import { PROMPT_API } from '@/utils/api';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
-import { IResponseData, webappPost } from '@/utils/request';
+import { webappPost } from '@/utils/request';
 import { PaginatedData } from '@/utils/usePaginatedQuery';
 export default PromptDetailPages;
 
@@ -68,37 +66,13 @@ export const getStaticProps: GetStaticProps = async (context) => {
         notFound: true,
       };
     }
-    const result = await webappPost<IResponseData<IPromptDetailData>>(
-      PROMPT_API.GET_PROMPT_DETAIL,
-      { id },
-    );
-    if (result.data && result.data.prompt_title) {
-      const promptDetail = result.data;
-      promptDetail.prompt_template = sanitizeHtml(
-        promptDetail.prompt_template,
-        {
-          allowedTags: [],
-          allowedAttributes: false,
-          nonBooleanAttributes: [],
-          disallowedTagsMode: 'recursiveEscape',
-        } as sanitize.IOptions,
-      );
-      console.log(JSON.stringify(promptDetail));
-
-      return {
-        props: {
-          seo: {
-            title: `Prompt "${promptDetail.prompt_title}" | MaxAI.me`,
-            description: promptDetail.teaser,
-          },
-          id,
-          defaultPromptDetail: promptDetail,
-          updatedAt: Date.now(),
-
-          ...translationData,
-        },
-      };
-    }
+    return {
+      props: {
+        id,
+        updatedAt: Date.now(),
+        ...translationData,
+      },
+    };
   } catch (e) {
     console.log(e);
   }
@@ -106,12 +80,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
       id: context.params?.id,
-      defaultPromptDetail: null,
-      seo: {
-        title: 'Prompt | MaxAI.me',
-        description:
-          'Complete your everyday tasks with Prompt Management and 1-Click Prompts in minutes that used to take hours.',
-      },
       updatedAt: Date.now(),
 
       ...translationData,
