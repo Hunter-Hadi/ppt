@@ -5,7 +5,7 @@ import React, { FC, useMemo } from 'react';
 
 import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper';
 import { SUPPORT_PROXY_BASE_PATHS } from '@/global_constants';
-import { fixLocalePathname } from '@/i18n/utils';
+import { removeLocaleInPathname } from '@/i18n/utils';
 
 interface IProps extends Omit<MuiLinkProps, 'href'> {
   locale: string;
@@ -30,7 +30,7 @@ const LanguageSwitchLink: FC<IProps> = (props) => {
 
     const queryString = objectToQueryString(queryClone);
 
-    let fixedHref = href ? href : fixLocalePathname(router.pathname);
+    let fixedHref = href ? href : removeLocaleInPathname(router.pathname);
 
     const fixedQueryString = queryString.length > 0 ? `?${queryString}` : '';
 

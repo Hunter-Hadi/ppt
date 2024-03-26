@@ -5,7 +5,7 @@ import { useMemo } from 'react';
 import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper';
 import languageCodeMap from '@/i18n/types/languageCodeMap.json';
 
-import { fixLocalePathname } from '../utils';
+import { removeLocaleInPathname } from '../utils';
 
 export const useLanguages = () => {
   const router = useRouter();
@@ -15,7 +15,7 @@ export const useLanguages = () => {
   }, [router.query]);
 
   const routerToLanguagesPagesLink = useMemo(() => {
-    const targetPathname = fixLocalePathname(router.pathname);
+    const targetPathname = removeLocaleInPathname(router.pathname);
 
     const cloneQuery = cloneDeep(router.query);
 

@@ -134,17 +134,22 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
 
     const fixHrefLocale = (originalHref: string) => {
       // 只有在href是相对路径的时候才需要加上 locale 的 fix
-      if (originalHref.startsWith('/')) {
+      let fixedHref = originalHref;
+      if (fixedHref.startsWith('/')) {
         if (propLocale) {
-          return `/${propLocale}${originalHref}`;
+          fixedHref = `/${propLocale}${originalHref}`;
         } else if (router.query.locale) {
-          return `/${router.query.locale}${originalHref}`;
+          fixedHref = `/${router.query.locale}${originalHref}`;
         } else {
-          return originalHref;
+          fixedHref = originalHref;
         }
       }
 
-      return originalHref;
+      if (fixedHref.endsWith('/') && fixedHref !== '/') {
+        fixedHref = fixedHref.slice(0, -1);
+      }
+
+      return fixedHref;
     };
 
     if (typeof href === 'string') {
