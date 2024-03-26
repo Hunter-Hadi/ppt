@@ -6,6 +6,10 @@ import React, { FC, useMemo } from 'react';
 import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper';
 import { fixLocalePathname } from '@/i18n/utils';
 
+// 需要针对被代理的 basePath 进行处理
+// 如果检测到是被代理的 basePath，则需要将 basePath 放在 locale 之前
+const SUPPORT_BASE_PATHS = ['/prompt-library', '/test-prompts'];
+
 interface IProps extends Omit<MuiLinkProps, 'href'> {
   locale: string;
   children: React.ReactNode;
@@ -29,11 +33,21 @@ const LanguageSwitchLink: FC<IProps> = (props) => {
 
     const queryString = objectToQueryString(queryClone);
 
-    const fixedHref = href ? href : fixLocalePathname(router.pathname);
+    let fixedHref = href ? href : fixLocalePathname(router.pathname);
 
     const fixedQueryString = queryString.length > 0 ? `?${queryString}` : '';
 
-    return `/${locale}${fixedHref}${fixedQueryString}`;
+    // 针对 basePath 进行处理
+    const hitBasePath = SUPPORT_BASE_PATHS.find((basePath) =>
+      fixedHref.startsWith(basePath),
+    );
+    let basePath = '';
+    if (hitBasePath) {
+      fixedHref = fixedHref.replace(hitBasePath, '');
+      basePath = hitBasePath;
+    }
+
+    return `${basePath}/${locale}${fixedHref}${fixedQueryString}`;
   }, [router, locale, href]);
 
   return (
