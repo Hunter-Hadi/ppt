@@ -19,16 +19,20 @@ const PromptDetailPages: FC<{
     if (notFound) {
       router.push('/404');
     } else if (id) {
+      const cloneQuery = { ...router.query };
+
       let prefixHref = PROMPT_LIBRARY_PROXY_BASE_PATH_TEST;
 
-      let queryString = '';
-      if (Object.keys(router.query).length > 0) {
-        queryString = '?' + objectToQueryString(router.query);
+      if (cloneQuery.locale) {
+        prefixHref += `/${cloneQuery.locale}`;
+        delete cloneQuery.locale;
       }
 
-      if (router.query.locale) {
-        prefixHref += `/${router.query.locale}`;
+      let queryString = '';
+      if (Object.keys(cloneQuery).length > 0) {
+        queryString = '?' + objectToQueryString(cloneQuery);
       }
+
       router.push(`${prefixHref}/library/${id}${queryString}`);
     } else {
       router.push('/');
