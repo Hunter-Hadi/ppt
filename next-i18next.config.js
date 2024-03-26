@@ -11,7 +11,9 @@ module.exports = {
   debug: process.env.NODE_ENV === 'development',
   i18n: {
     defaultLocale: 'en',
-    locales: Object.keys(languageCodeMap),
+    // locales: Object.keys(languageCodeMap),
+    // debugger
+    locales: ['en', 'zh_CN', 'fr'],
   },
   /** To avoid issues when deploying to some paas (vercel...) */
   localePath:
