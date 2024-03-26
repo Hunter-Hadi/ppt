@@ -138,7 +138,7 @@ const AppFooter = () => {
                       label: t('modules:footer__1_click_prompts'),
                       // icon: <CustomIcon icon='PromptLogo' />,
                       icon: null,
-                      link: '/prompts',
+                      link: '/prompts/library',
                     },
                   ]}
                 />
