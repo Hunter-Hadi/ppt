@@ -65,9 +65,12 @@ const FeaturesTableHeader: FC<IProps> = ({
       ) : null;
     }
 
+    const isPopularColumn = column === popularPlan;
+
     return (
       <>
         <PlanPaymentInfo
+          isPopular={isPopularColumn}
           size='mini'
           variant={variant}
           type={paymentPlanType}

@@ -1,18 +1,30 @@
-import { Stack, SxProps, Typography } from '@mui/material';
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import { Box, Stack, SxProps, Typography } from '@mui/material';
 import { capitalize } from 'lodash-es';
 import React, { FC, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useRecoilValue } from 'recoil';
 
+import { PLAN_PRICE_MAP } from '@/features/pricing/constant';
+import { PricingPaymentTypeAtom } from '@/features/pricing/store';
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
 
-import { PLAN_PRICE_MAP } from '../constant';
 interface IProps {
   type?: RENDER_PLAN_TYPE;
   showDesc?: boolean;
   sx?: SxProps;
   size?: 'normal' | 'mini';
   variant?: 'normal' | 'mini';
+  isPopular?: boolean;
 }
+
+const PlanProductivity = {
+  free: 1,
+  pro: 3,
+  elite: 5,
+  pro_yearly: 3,
+  elite_yearly: 5,
+};
 
 const fontSxMap = {
   normal: {
@@ -69,7 +81,10 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
     showDesc,
     size = 'normal',
     variant = 'normal',
+    isPopular,
   } = props;
+
+  const paymentType = useRecoilValue(PricingPaymentTypeAtom);
 
   const fontSx = useMemo(() => fontSxMap[size], [size]);
 
@@ -156,22 +171,30 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
 
   return (
     <Stack spacing={1} sx={sx}>
-      <Stack
-        direction={'row'}
-        alignItems='center'
-        justifyContent='space-between'
-      >
-        <Typography variant='custom' sx={fontSx.title}>
-          {title}
-        </Typography>
-        {/* 付费的plan，并且年付的才显示 */}
-        {type !== 'free' && type.includes('_yearly') ? (
+      {/* 付费的plan，并且年付的才显示 */}
+      {type !== 'free' && paymentType === 'yearly' ? (
+        <Stack
+          direction={'row'}
+          alignItems='center'
+          justifyContent='space-between'
+          sx={{
+            width: 'max-content',
+            borderRadius: 2,
+            px: 1,
+            py: '1px',
+            border: '1px solid',
+            borderColor: isPopular ? '#34A853' : '#ABEFC6',
+            bgcolor: isPopular ? '#34A853' : '#DCFAE6',
+            color: isPopular ? '#fff' : '#067647',
+            boxSizing: 'border-box',
+          }}
+        >
           <Typography
             variant='custom'
             fontSize={16}
-            lineHeight={1.2}
-            fontWeight={900}
-            color='primary.main'
+            lineHeight={1.5}
+            fontWeight={500}
+            color='inherit'
           >
             {t('pages:pricing__save_up_to', {
               NUM: Math.round(
@@ -184,7 +207,29 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
               ),
             })}
           </Typography>
-        ) : null}
+        </Stack>
+      ) : null}
+      {/* 免费用户用占位符 */}
+      {type === 'free' && paymentType === 'yearly' ? (
+        <Box
+          sx={{
+            height: 28,
+          }}
+        />
+      ) : null}
+      <Typography variant='custom' sx={fontSx.title}>
+        {title}
+      </Typography>
+      <Stack direction={'row'} alignItems='center' spacing={0.5}>
+        <Typography
+          variant='custom'
+          fontSize={16}
+          lineHeight={1.5}
+          color='primary.main'
+        >
+          {t('pages:pricing__productivity')}
+        </Typography>
+        <ProductivityValue value={PlanProductivity[type]} />
       </Stack>
       {renderPayInfo()}
       {showDesc && (
@@ -192,6 +237,21 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
           {desc}
         </Typography>
       )}
+    </Stack>
+  );
+};
+
+const ProductivityValue: FC<{ value: number }> = ({ value }) => {
+  return (
+    <Stack direction={'row'} alignItems='center' spacing={0.4}>
+      {Array.from({ length: value }).map((_, index) => {
+        return (
+          <RocketLaunchIcon
+            key={index}
+            sx={{ color: 'primary.main', fontSize: 18 }}
+          />
+        );
+      })}
     </Stack>
   );
 };
