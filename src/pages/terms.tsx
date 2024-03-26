@@ -166,24 +166,21 @@ const TermsPage: FC = () => {
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
           {`(c) Restrictions. The Services are intended for human use only. By
-          using the Services, you agree to the following restrictions: (i) You
-          shall not use the Services in any manner that infringes,
-          misappropriates, or violates the intellectual property rights or other
-          rights of any third party. `}
+          using the Services, you agree to the following restrictions: `}
         </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
           {`(i) You shall not use the Services in any manner that infringes, misappropriates, or violates the intellectual property rights or other rights of any third party.`}
         </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
           {`(ii) You shall not reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code, underlying components, or algorithms of the Services, except to the extent such restrictions are expressly prohibited by applicable law.`}
         </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
           {`(iii) You shall not share your account with multiple individuals or entities to circumvent or exceed the limitations set forth by us.`}
         </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
           {`(iv) You shall not employ any automated or programmatic methods, including but not limited to scraping, web harvesting, or data extraction, to access the Services, extract data, or bypass the official user interface.`}
         </Typography>
-        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
           {`(v) You shall not provide us with any personal information of children under the age of 13 or the applicable age of digital consent in your jurisdiction.`}
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
