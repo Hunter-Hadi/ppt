@@ -256,6 +256,7 @@ const PrivacyPages: FC = () => {
               a privacy-centric tool that respects you and your digital
               boundaries.
             </Typography>
+            {` `}
             {`We're in the business of innovation, not information selling. Your digital journey should be yours to control, and with MaxAI, we ensure it stays that way.`}
           </Typography>
         </Box>
