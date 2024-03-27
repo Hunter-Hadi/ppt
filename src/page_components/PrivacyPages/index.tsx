@@ -2,7 +2,6 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import MoneyOffOutlinedIcon from '@mui/icons-material/MoneyOffOutlined';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
 import { Box, Grid, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useRef, useState } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
@@ -10,8 +9,6 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 
 const PrivacyPages: FC = () => {
-  const { t } = useTranslation();
-
   const [activePolicyIndex, setActivePolicyIndex] = useState(0);
   const privacyPolicyRef = useRef<HTMLHeadingElement>(null);
   const informationWeDoNotCollectRef = useRef<HTMLHeadingElement>(null);
@@ -109,7 +106,7 @@ const PrivacyPages: FC = () => {
               fontWeight: 700,
             }}
           >
-            {t('privacy:banner__title')}
+            Our Commitment to Your Privacy
           </Typography>
 
           <Typography
@@ -122,7 +119,7 @@ const PrivacyPages: FC = () => {
               },
             }}
           >
-            {t('privacy:banner__content')}
+            {`At MaxAI, your privacy is not just a priority; it's a principle. In the era where digital footprints are extensively tracked, we take a different path with the MaxAI.me Chrome extension. We're not here to monetize your personal information; we're here to enhance your digital experience, securely and privately.`}
           </Typography>
         </Box>
       </AppContainer>
@@ -157,14 +154,14 @@ const PrivacyPages: FC = () => {
               variant='h5'
               sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
             >
-              {t('privacy:summary_1__title')}
+              {`We Only Know What's Necessary`}
             </Typography>
 
             <Typography
               variant='body2'
               sx={{ color: 'rgba(0,0,0,0.6)', textAlign: 'center' }}
             >
-              {t('privacy:summary_1__content')}
+              {`We don't collect a dossier on you. The extent of our knowledge is your email and name—just enough to recognize you across devices and sync your settings. Beyond that, your personal life remains just that: personal.`}
             </Typography>
           </Grid>
 
@@ -191,14 +188,14 @@ const PrivacyPages: FC = () => {
               variant='h5'
               sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
             >
-              {t('privacy:summary_2__title')}
+              {`We Don't See Your Browsing/Chatting Data`}
             </Typography>
 
             <Typography
               variant='body2'
               sx={{ color: 'rgba(0,0,0,0.6)', textAlign: 'center' }}
             >
-              {t('privacy:summary_2__content')}{' '}
+              {`Your browsing and chatting habits are your own. The MaxAI Chrome extension operates without intruding into your personal activities online. We collect no information on the sites you visit or the content you engage with. Our focus is solely on improving your experience without compromising your privacy.`}
             </Typography>
           </Grid>
 
@@ -225,14 +222,14 @@ const PrivacyPages: FC = () => {
               variant='h5'
               sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
             >
-              {t('privacy:summary_3__title')}
+              {`We Don't Monetize Your Trust`}
             </Typography>
 
             <Typography
               variant='body2'
               sx={{ color: 'rgba(0,0,0,0.6)', textAlign: 'center' }}
             >
-              {t('privacy:summary_3__content')}
+              {`We believe in earning and keeping your trust, not selling it. Your data isn't a commodity to us. Therefore, we don't sell any information to third parties. Our business model revolves around providing a superior product, not leveraging user data for profit.`}
             </Typography>
           </Grid>
         </Grid>
@@ -242,7 +239,7 @@ const PrivacyPages: FC = () => {
             variant='body1'
             sx={{ margin: '0 auto', textAlign: 'center', maxWidth: 864 }}
           >
-            {t('privacy:section_1__part1')}
+            Our mission with MaxAI is simple: to offer{` `}
             <Typography
               variant='custom'
               component='span'
@@ -256,9 +253,10 @@ const PrivacyPages: FC = () => {
                 fontStyle: 'italic',
               }}
             >
-              {t('privacy:section_1__strong')}
+              a privacy-centric tool that respects you and your digital
+              boundaries.
             </Typography>
-            {t('privacy:section_1__part2')}
+            {`We're in the business of innovation, not information selling. Your digital journey should be yours to control, and with MaxAI, we ensure it stays that way.`}
           </Typography>
         </Box>
 
@@ -284,14 +282,14 @@ const PrivacyPages: FC = () => {
             }}
           >
             {[
-              t('privacy:privacy_policy__title'),
-              t('privacy:information_we_do_not_collect__title'),
-              t('privacy:information_we_collect__title'),
-              t('privacy:how_we_use_your_information__title'),
-              t('privacy:information_security__title'),
-              t('privacy:marketing_and_advertising__title'),
-              t('privacy:changes_to_the_privacy_policy__title'),
-              t('privacy:contact_us__title'),
+              'Privacy Policy',
+              'Information We Do Not Collect',
+              'Information We Collect',
+              'How we use your information',
+              'Information Security',
+              'Marketing and advertising',
+              'Changes to the Privacy Policy',
+              'Contact Us',
             ].map((item, index) => (
               <Typography
                 key={item}
@@ -319,19 +317,22 @@ const PrivacyPages: FC = () => {
                 sx={{ mb: 2, fontSize: 48 }}
                 ref={privacyPolicyRef}
               >
-                {t('privacy:privacy_policy__title')}
+                Privacy Policy
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:privacy_policy__update_time')}
+                Last Updated: June 29, 2023
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:privacy_policy__description_1')}
+                {`Welcome to the Privacy Policy for the MaxAI.me Chrome extension (hereinafter referred to as "MaxAI", "MaxAI.me", "we", "us", or "our"). We understand the importance of your privacy, and we are committed to protecting your personal information. This Privacy Policy outlines the types of information we collect, how we use it, and the measures we take to protect your data.`}
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:privacy_policy__description_2')}
+                By using the MaxAI Chrome extension, you acknowledge and agree
+                to the terms and conditions of this Privacy Policy. If you do
+                not agree with any part of this Privacy Policy, please do not
+                use or install the MaxAI Chrome extension.
               </Typography>
             </Box>
 
@@ -341,7 +342,7 @@ const PrivacyPages: FC = () => {
                 sx={{ pb: 2, fontWeight: 700 }}
                 ref={informationWeDoNotCollectRef}
               >
-                {t('privacy:information_we_do_not_collect__title')}
+                Information We Do Not Collect
               </Typography>
 
               <Typography
@@ -349,11 +350,16 @@ const PrivacyPages: FC = () => {
                 component='h3'
                 sx={{ pb: 2, pt: 3, fontSize: 24 }}
               >
-                {t('privacy:personal_information__title')}
+                Personal Information
               </Typography>
 
               <Typography variant='body2' sx={{ pb: 2 }}>
-                {t('privacy:personal_information__content')}
+                We take your privacy seriously and only collect your email and
+                name to identify you when you log in, helping to sync your
+                settings across different browsers and devices. Other than that,
+                we do not collect any other personal information. The MaxAI
+                Chrome extension operates without requiring any additional
+                personal data from you, and we do not store such information.
               </Typography>
             </Box>
 
@@ -363,7 +369,7 @@ const PrivacyPages: FC = () => {
                 ref={informationWeCollectRef}
                 sx={{ pb: 2, fontWeight: 700 }}
               >
-                {t('privacy:information_we_collect__title')}
+                Information We Collect
               </Typography>
 
               <Typography
@@ -371,15 +377,17 @@ const PrivacyPages: FC = () => {
                 component='h3'
                 sx={{ pb: 2, pt: 3, fontSize: 24 }}
               >
-                {t(
-                  'privacy:chrome_extension_automatically_generated_reports__title',
-                )}
+                Chrome Extension Automatically Generated Reports
               </Typography>
 
               <Typography variant='body2' sx={{ pb: 2 }}>
-                {t(
-                  'privacy:chrome_extension_automatically_generated_reports__content',
-                )}
+                One of the types of information we collect from users is the
+                Chrome extension automatically generated report. This
+                information is used for the sole purpose of improving the
+                functionality of the MaxAI Chrome extension and understanding
+                the usage patterns of our users. The collected data may include
+                technical information such as browser version, extension
+                version, and operating system.
               </Typography>
 
               <Typography
@@ -387,11 +395,18 @@ const PrivacyPages: FC = () => {
                 component='h3'
                 sx={{ pb: 2, pt: 3, fontSize: 24 }}
               >
-                {t('privacy:google_analytics_title')}
+                Google Analytics
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:google_analytics_content')}
+                {`The second type of information we collect is default information
+                about user interactions with the MaxAI Chrome extension through
+                the use of Google Analytics, a web analytics service provided by
+                Google Inc. ("Google"). Google Analytics uses cookies to help
+                us analyze how users use the extension. The information
+                generated by the cookies about your use of the extension
+                (including your IP address) will be transmitted to and stored by
+                Google on servers in the United States.`}
               </Typography>
             </Box>
 
@@ -401,23 +416,24 @@ const PrivacyPages: FC = () => {
                 ref={howWeUseYourInformationRef}
                 sx={{ pb: 2, fontWeight: 700 }}
               >
-                {t('privacy:how_we_use_your_information__title')}
+                How we use your information
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:how_we_use_your_information__sub_title')}
+                We use the information we collect, including Chrome extension
+                automatically generated reports, to:
               </Typography>
               <Typography variant='body2' sx={{ mb: 2 }}>
-                1) {t('privacy:how_we_use_your_information__list_1')}
+                {`1) Improve the MaxAI Chrome extension's functionality.`}
               </Typography>
               <Typography variant='body2' sx={{ mb: 2 }}>
-                2) {t('privacy:how_we_use_your_information__list_2')}
+                {`2) Analyze usage patterns to better understand user preferences.`}
               </Typography>
               <Typography variant='body2' sx={{ mb: 2 }}>
-                3) {t('privacy:how_we_use_your_information__list_3')}
+                {`3) Identify and troubleshoot issues with the Chrome extension.`}
               </Typography>
               <Typography variant='body2' sx={{ mb: 2 }}>
-                4) {t('privacy:how_we_use_your_information__list_4')}
+                {`4) Improve the overall user experience.`}
               </Typography>
             </Box>
 
@@ -427,11 +443,14 @@ const PrivacyPages: FC = () => {
                 ref={informationSecurityRef}
                 sx={{ pb: 2, fontWeight: 700 }}
               >
-                {t('privacy:information_security__title')}
+                Information Security
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:information_security__content')}
+                We take appropriate measures to protect the limited information
+                we collect from unauthorized access, disclosure, alteration, or
+                destruction. We follow industry-standard practices to ensure the
+                security of the data we manage
               </Typography>
             </Box>
 
@@ -441,18 +460,29 @@ const PrivacyPages: FC = () => {
                 ref={marketingAndAdvertisingRef}
                 sx={{ pb: 2, fontWeight: 700 }}
               >
-                {t('privacy:marketing_and_advertising__title')}
+                Marketing and advertising
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:marketing_and_advertising__content_part_1')}
+                Where required by law we will only send you marketing
+                information, including sending you updates and information about
+                our new products and services, upcoming events or other
+                promotions or news, including by email or push notification, as
+                permitted by law. You may opt-out of receiving such emails by
+                following the instructions in each promotional email we send you
+                or by updating your user settings. In addition, if at any time
+                you wish not to receive future communications or you wish to
+                have your name deleted from our mailing lists, please contact us
+                at{` `}
                 <ProLink
                   href={'mailto:hello@maxai.me'}
                   sx={{ textDecoration: 'underline' }}
                 >
                   hello@maxai.me
                 </ProLink>
-                {t('privacy:marketing_and_advertising__content_part_2')}
+                {` `}
+                We will continue to contact you via email regarding the
+                provision of our Services and to respond to your requests.
               </Typography>
             </Box>
 
@@ -462,10 +492,15 @@ const PrivacyPages: FC = () => {
                 ref={changesToThePrivacyPolicyRef}
                 sx={{ pb: 2, fontWeight: 700 }}
               >
-                {t('privacy:changes_to_the_privacy_policy__title')}
+                Changes to the Privacy Policy
               </Typography>
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {t('privacy:changes_to_the_privacy_policy__content')}
+                {`We may update our Privacy Policy from time to time. Any changes
+                to this Privacy Policy will be posted on this page, and the
+                "Last Updated" date at the top will be revised accordingly.
+                Your continued use of the MaxAI Chrome extension after any
+                changes to the Privacy Policy constitutes your acceptance of the
+                updated policy.`}
               </Typography>
             </Box>
 
@@ -475,10 +510,11 @@ const PrivacyPages: FC = () => {
                 ref={contactUsRef}
                 sx={{ pb: 2, fontWeight: 700 }}
               >
-                {t('privacy:contact_us__title')}
+                Contact Us
               </Typography>
               <Typography variant='body2' sx={{ pb: 2 }}>
-                {t('privacy:contact_us__content')}
+                If you have any questions or concerns about our Privacy Policy,
+                please feel free to contact us at{` `}
                 <ProLink
                   href={'mailto:hello@maxai.me'}
                   sx={{ textDecoration: 'underline' }}
