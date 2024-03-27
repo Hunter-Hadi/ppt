@@ -8,7 +8,11 @@ import { useMemo } from 'react';
 import FooterList from '@/components/Footerlist';
 import ProLink from '@/components/ProLink';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
-import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
+import {
+  APP_EXTERNAL_LINKS,
+  APP_PROJECT_LINK,
+  PROMPT_LIBRARY_PROXY_BASE_PATH_TEST,
+} from '@/global_constants';
 import AppLogo from '@/page_components/AppLogo';
 
 const footerBlackList = [
@@ -138,7 +142,7 @@ const AppFooter = () => {
                       label: t('modules:footer__1_click_prompts'),
                       // icon: <CustomIcon icon='PromptLogo' />,
                       icon: null,
-                      link: '/prompts/library',
+                      link: `${PROMPT_LIBRARY_PROXY_BASE_PATH_TEST}/library`,
                     },
                   ]}
                 />
