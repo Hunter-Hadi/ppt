@@ -7,6 +7,7 @@ import NextLink, { LinkProps } from 'next/link';
 import { useRouter } from 'next/router';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
+import { PROMPT_LIBRARY_PROXY_BASE_PATH_TEST } from '@/global_constants';
 import { safeTarget } from '@/utils/location';
 
 export interface IProLinkProps {
