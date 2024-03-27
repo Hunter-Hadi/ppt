@@ -295,17 +295,17 @@ const updateI18nJson = async (
   }
   // 去掉en语言包
   needUpdateLanguages = needUpdateLanguages.filter((dir) => {
-    return dir.name !== 'en' && dir.name !== 'en_GB' && dir.name !== 'en_US';
+    return dir.name !== 'en' && dir.name !== 'en-GB' && dir.name !== 'en-US';
   });
   fs.writeFileSync(
-    join(jsonDir, `/en_GB/index.json`),
+    join(jsonDir, `/en-GB/index.json`),
     JSON.stringify(sourceJson, null, 2),
   );
   fs.writeFileSync(
-    join(jsonDir, `/en_US/index.json`),
+    join(jsonDir, `/en-US/index.json`),
     JSON.stringify(sourceJson, null, 2),
   );
-  // 覆盖en的json给en_GB和en_US
+  // 覆盖en的json给en-GB和en_US
   console.log('i18n 需要更新的语言包总数: ', needUpdateLanguages.length);
   if (updateKeys.length > 0) {
     console.log('i18n 本次需要更新的key总数:', updateKeys.length);
