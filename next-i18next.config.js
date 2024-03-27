@@ -13,7 +13,7 @@ module.exports = {
     defaultLocale: 'en',
     // locales: Object.keys(languageCodeMap),
     // debugger
-    locales: ['en', 'zh_CN', 'fr'],
+    locales: ['en', 'zh-CN', 'fr'],
   },
   /** To avoid issues when deploying to some paas (vercel...) */
   localePath:

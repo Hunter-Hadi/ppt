@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import { i18nLocales } from '@/i18n/utils';
 
-const POPULAR_LANGUAGE_LOCALE = ['en', 'zh_CN', 'fr'];
+const POPULAR_LANGUAGE_LOCALE = ['en', 'zh-CN', 'fr'];
 
 export function makeStaticProps() {
   return async function getStaticProps(ctx) {

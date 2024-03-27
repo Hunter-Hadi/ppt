@@ -1,6 +1,6 @@
 // export const i18nLocales = Object.keys(languageCodeMap);
 // debugger
-export const i18nLocales = ['en', 'zh_CN', 'fr'];
+export const i18nLocales = ['en', 'zh-CN', 'fr'];
 
 // 为了修复类似 /[locale]/languages pathname
 // 需要删除 /[locale] 前缀，返回 剩下的原始 pathname

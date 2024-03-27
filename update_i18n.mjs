@@ -169,10 +169,10 @@ export const LANGUAGE_CODE_MAP = {
   de: { label: 'Deutsch', en_label: 'German' },
   el: { label: 'Ελληνικά', en_label: 'Greek' },
   en: { label: 'English', en_label: 'English' },
-  en_GB: { label: 'English (UK)', en_label: 'English (UK)' },
-  en_US: { label: 'English (US)', en_label: 'English (US)' },
+  'en-GB': { label: 'English (UK)', en_label: 'English (UK)' },
+  'en-US': { label: 'English (US)', en_label: 'English (US)' },
   es: { label: 'Español', en_label: 'Spanish' },
-  es_419: {
+  'es-419': {
     label: 'Español (Latinoamérica)',
     en_label: 'Spanish (Latin America)',
   },
@@ -183,7 +183,7 @@ export const LANGUAGE_CODE_MAP = {
   fr: { label: 'Français', en_label: 'French' },
   gu: { label: 'ગુજરાતી', en_label: 'Gujarati' },
   he: { label: 'עברית', en_label: 'Hebrew' },
-  he_IL: { label: 'עברית (ישראל)', en_label: 'Hebrew (Israel)' },
+  'he-IL': { label: 'עברית (ישראל)', en_label: 'Hebrew (Israel)' },
   hi: { label: 'हिन्दी', en_label: 'Hindi' },
   hr: { label: 'Hrvatski', en_label: 'Croatian' },
   hy: { label: 'Հայերեն', en_label: 'Armenian' },
@@ -202,8 +202,8 @@ export const LANGUAGE_CODE_MAP = {
   nl: { label: 'Nederlands', en_label: 'Dutch' },
   no: { label: 'Norsk', en_label: 'Norwegian' },
   pl: { label: 'Polski', en_label: 'Polish' },
-  pt_BR: { label: 'Português (Brasil)', en_label: 'Portuguese (Brazil)' },
-  pt_PT: { label: 'Português (Portugal)', en_label: 'Portuguese (Portugal)' },
+  'pt-BR': { label: 'Português (Brasil)', en_label: 'Portuguese (Brazil)' },
+  'pt-PT': { label: 'Português (Portugal)', en_label: 'Portuguese (Portugal)' },
   ro: { label: 'Română', en_label: 'Romanian' },
   ru: { label: 'Русский', en_label: 'Russian' },
   sk: { label: 'Slovenčina', en_label: 'Slovak' },
@@ -218,8 +218,8 @@ export const LANGUAGE_CODE_MAP = {
   ua: { label: 'Українська', en_label: 'Ukrainian' },
   uk: { label: 'اردو', en_label: 'Urdu' },
   vi: { label: 'Tiếng Việt', en_label: 'Vietnamese' },
-  zh_CN: { label: '简体中文', en_label: 'SimplifiedChinese' },
-  zh_TW: { label: '繁体中文', en_label: 'TraditionalChinese' },
+  'zh-CN': { label: '简体中文', en_label: 'SimplifiedChinese' },
+  'zh-TW': { label: '繁体中文', en_label: 'TraditionalChinese' },
 };
 
 const generateKeyPathFromObject = (object) => {
