@@ -1,12 +1,15 @@
 import { Box } from '@mui/material';
 import { useRouter } from 'next/router';
-import React, { FC } from 'react';
+import React, { FC, useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import useEffectOnce from '@/features/common/hooks/useEffectOnce';
 import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper';
-import { PROMPT_LIBRARY_PROXY_BASE_PATH } from '@/global_constants';
+import {
+  PROMPT_LIBRARY_PROXY_BASE_PATH,
+  WWW_PROJECT_LINK,
+} from '@/global_constants';
 
 const PromptDetailPages: FC<{
   id?: string;
@@ -14,6 +17,16 @@ const PromptDetailPages: FC<{
 }> = (props) => {
   const router = useRouter();
   const { notFound, id } = props;
+
+  const canonicalLink = useMemo(() => {
+    const locale = router.query.locale;
+    let fullHref = `${WWW_PROJECT_LINK}${PROMPT_LIBRARY_PROXY_BASE_PATH}`;
+    if (locale) {
+      fullHref = `${fullHref}${locale ? `/${locale}` : ''}`;
+    }
+
+    return `${fullHref}/library`;
+  }, [router.query.locale]);
 
   useEffectOnce(() => {
     if (notFound) {
@@ -41,8 +54,20 @@ const PromptDetailPages: FC<{
 
   return (
     <Box height={'50vh'}>
-      <AppDefaultSeoLayout />
-      <AppLoadingLayout loading />
+      <AppDefaultSeoLayout
+        title='Prompts | MaxAI.me'
+        description={
+          'Complete your everyday tasks with Prompt Management and 1-Click Prompts in minutes that used to take hours.'
+        }
+        socialImage={'https://www.maxai.me/prompts-social.png'}
+        canonical={canonicalLink}
+      />
+      <AppLoadingLayout
+        loading
+        sx={{
+          height: '50vh',
+        }}
+      />
     </Box>
   );
 };
