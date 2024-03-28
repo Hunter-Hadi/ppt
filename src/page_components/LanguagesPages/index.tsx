@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { useMemo } from 'react';
 
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import languageCodeMap from '@/i18n/types/languageCodeMap.json';
 import { i18nLocales } from '@/i18n/utils';
 import LanguageSwitchLink from '@/page_components/LanguageSwitchLink';
@@ -21,6 +22,7 @@ const LanguagesPages = () => {
 
   return (
     <Box pt={5} pb={10}>
+      <AppDefaultSeoLayout />
       <Box maxWidth={1312} mx='auto' px={4}>
         <Typography variant='h5' mb={4}>
           {t('pages:languages__title')}
