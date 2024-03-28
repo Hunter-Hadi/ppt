@@ -2,8 +2,8 @@ import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import { SxProps } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 const AppLoadingLayout: FC<{
   loading: boolean;
@@ -12,7 +12,7 @@ const AppLoadingLayout: FC<{
   sx?: SxProps;
   children?: React.ReactNode;
 }> = ({ loading, loadingText, size = 20, sx, children }) => {
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation();
   const loadingTextMemo = React.useMemo(() => {
     return loadingText || t('common:loading');
   }, [loadingText, t]);

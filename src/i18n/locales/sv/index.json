@@ -42,7 +42,8 @@
     "copy_image": "Kopiera bild",
     "share": "Dela",
     "link_copied": "Länk kopierad",
-    "sign_up": "Registrera"
+    "sign_up": "Registrera",
+    "follow": "Följ"
   },
   "button": {
     "add_to_chrome_for_free": "Lägg till i Chrome gratis",
@@ -340,7 +341,16 @@
     "home_page__user_comment__type_financial_services__label": "Finansiella tjänster",
     "home_page__user_comment__type_real_estate__label": "Fastigheter",
     "home_page__user_comment__type_technical__label": "Teknisk",
-    "pricing__save_up_to": "Spara {{NUM}}%"
+    "pricing__save_up_to": "Spara {{NUM}}%",
+    "email_unsubscribe_success__title": "Avslutat prenumerationen",
+    "email_unsubscribe_success__content": "Din e-postadress har tagits bort från vår nyhetsbrevslista. Du kommer inte längre att få framtida uppdateringar. Vi beklagar att du lämnar oss, men du är alltid välkommen tillbaka för att ta del av det senaste innehållet!",
+    "languages__title": "Välj ditt land eller region",
+    "pricing__productivity": "Produktivitet",
+    "contact_us__item1": "För frågor eller förslag, skicka oss en rad på",
+    "contact_us__item2": "Följ oss på Twitter för de senaste uppdateringarna och tipsen:",
+    "contact_us__item3": "Stöd oss genom att betygsätta ★★★★★ på",
+    "contact_us__item3__store": "Webbutik för tillägg",
+    "contact_us__item4": "Hjälp andra genom att dela detta tillägg:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -492,46 +502,7 @@
     "plan_features_table__gemini_tooltip_desc": "Googles mest kapabla och allmänna modell. Byggd från grunden för multimodalitet. Gemini på MaxAI är för närvarande i betafasen och stöder endast text och kod, kommer snart att lägga till stöd för bilder, videor och ljud.",
     "footer__resources": "Resurser"
   },
-  "privacy": {
-    "banner__title": "Vårt åtagande för din integritet",
-    "banner__content": "På MaxAI är din integritet inte bara en prioritet; det är en princip. I en era där digitala fotspår spåras omfattande, tar vi en annan väg med MaxAI.me Chrome-tillägget. Vi är inte här för att monetarisera din personliga information; vi är här för att förbättra din digitala upplevelse, säkert och privat.",
-    "summary_1__title": "Vi vet bara vad som är nödvändigt",
-    "summary_1__content": "Vi samlar inte in en dossier om dig. Vår kunskap sträcker sig till din e-postadress och namn - tillräckligt för att känna igen dig på olika enheter och synkronisera dina inställningar. Utöver det förblir ditt personliga liv just det: personligt.",
-    "summary_2__title": "Vi ser inte din surfning / chattdata",
-    "summary_2__content": "Dina surf- och chattvanor är dina egna. MaxAI Chrome-tillägget fungerar utan att tränga in i dina personliga aktiviteter online. Vi samlar ingen information om de webbplatser du besöker eller innehållet du engagerar dig med. Vårt fokus ligger helt på att förbättra din upplevelse utan att kompromissa med din integritet.",
-    "summary_3__title": "Vi monetiserar inte ditt förtroende",
-    "summary_3__content": "Vi tror på att tjäna och behålla ditt förtroende, inte sälja det. Dina data är inte en handelsvara för oss. Därför säljer vi ingen information till tredje part. Vår affärsmodell bygger på att erbjuda en överlägsen produkt, inte att utnyttja användardata för vinst.",
-    "section_1__part1": "Vår mission med MaxAI är enkel: att erbjuda ",
-    "section_1__strong": "ett verktyg som respekterar din integritet och dina digitala gränser.",
-    "section_1__part2": "Vi är i innovationsbranschen, inte informationsförsäljning. Din digitala resa bör vara din att kontrollera, och med MaxAI ser vi till att det förblir så.",
-    "privacy_policy__title": "Integritetspolicy",
-    "privacy_policy__update_time": "Senast uppdaterad: 29 juni 2023",
-    "privacy_policy__description_1": "Välkommen till Integritetspolicyn för MaxAI.me Chrome-tillägget (nedan kallat \"MaxAI\", \"MaxAI.me\", \"vi\", \"oss\" eller \"vår\"). Vi förstår vikten av din integritet och vi åtar oss att skydda din personliga information. Denna Integritetspolicy beskriver vilken typ av information vi samlar in, hur vi använder den och de åtgärder vi vidtar för att skydda dina data.",
-    "privacy_policy__description_2": "Genom att använda MaxAI Chrome-tillägget erkänner du och samtycker till villkoren i denna Integritetspolicy. Om du inte godkänner någon del av denna Integritetspolicy, använd eller installera inte MaxAI Chrome-tillägget.",
-    "information_we_do_not_collect__title": "Information vi inte samlar in",
-    "personal_information__title": "Personlig information",
-    "personal_information__content": "Vi tar din integritet på allvar och samlar endast in din e-postadress och namn för att identifiera dig när du loggar in, vilket hjälper till att synkronisera dina inställningar mellan olika webbläsare och enheter. Förutom det samlar vi inte in någon annan personlig information. MaxAI Chrome-tillägget fungerar utan att kräva ytterligare personuppgifter från dig, och vi lagrar inte sådan information.",
-    "information_we_collect__title": "Information vi samlar in",
-    "chrome_extension_automatically_generated_reports__title": "Automatiskt genererade rapporter från Chrome-tillägget",
-    "chrome_extension_automatically_generated_reports__content": "En av de typer av information vi samlar in från användare är automatiskt genererade rapporter från Chrome-tillägget. Denna information används enbart för att förbättra funktionaliteten hos MaxAI Chrome-tillägget och förstå användningsmönster hos våra användare. Den insamlade datan kan inkludera teknisk information som webbläsarversion, tilläggsversionsnummer och operativsystem.",
-    "google_analytics_title": "Google Analytics",
-    "google_analytics_content": "Den andra typen av information vi samlar in är standardinformation om användarinteraktioner med MaxAI Chrome-tillägget genom användning av Google Analytics, en webbanalystjänst tillhandahållen av Google Inc. (\"Google\"). Google Analytics använder cookies för att hjälpa oss analysera hur användare använder tillägget. Informationen som genereras av cookies om din användning av tillägget (inklusive din IP-adress) kommer att överföras till och lagras av Google på servrar i USA.",
-    "how_we_use_your_information__title": "Hur vi använder din information",
-    "how_we_use_your_information__sub_title": "Vi använder den information vi samlar in, inklusive automatiskt genererade rapporter från Chrome-tillägget, för att:",
-    "how_we_use_your_information__list_1": "Förbättra MaxAI Chrome-tilläggets funktionalitet.",
-    "how_we_use_your_information__list_2": "Analysera användningsmönster för att bättre förstå användarpreferenser.",
-    "how_we_use_your_information__list_3": "Identifiera och åtgärda problem med Chrome-tillägget.",
-    "how_we_use_your_information__list_4": "Förbättra den övergripande användarupplevelsen.",
-    "information_security__title": "Informationssäkerhet",
-    "information_security__content": "Vi vidtar lämpliga åtgärder för att skydda den begränsade information vi samlar in från obehörig åtkomst, avslöjande, ändring eller förstörelse. Vi följer branschstandarder för att säkerställa säkerheten för de data vi hanterar.",
-    "marketing_and_advertising__title": "Marknadsföring och annonsering",
-    "marketing_and_advertising__content_part_1": "Enligt lag kommer vi endast att skicka dig marknadsföringsinformation, inklusive uppdateringar och information om våra nya produkter och tjänster, kommande evenemang eller andra kampanjer eller nyheter, inklusive via e-post eller push-meddelanden, enligt tillåtelse av lagen. Du kan välja att inte ta emot sådana e-postmeddelanden genom att följa anvisningarna i varje kampanjmejl som vi skickar till dig eller genom att uppdatera dina användarinställningar. Dessutom, om du någonsin inte vill ta emot framtida kommunikationer eller om du vill ha ditt namn borttaget från våra utskickslistor, vänligen kontakta oss på ",
-    "marketing_and_advertising__content_part_2": " Vi kommer fortsätta att kontakta dig via e-post angående tillhandahållandet av våra tjänster och för att svara på dina förfrågningar.",
-    "changes_to_the_privacy_policy__title": "Ändringar i integritetspolicyn",
-    "changes_to_the_privacy_policy__content": "Vi kan uppdatera vår integritetspolicy från tid till annan. Alla ändringar i denna integritetspolicy kommer att publiceras på denna sida och datumet för \"Senast uppdaterad\" längst upp kommer att revideras därefter. Din fortsatta användning av MaxAI Chrome-tillägget efter eventuella ändringar i integritetspolicyn innebär att du accepterar den uppdaterade policyn.",
-    "contact_us__title": "Kontakta oss",
-    "contact_us__content": "Om du har några frågor eller funderingar om vår integritetspolicy är du välkommen att kontakta oss på "
-  },
+  "privacy": {},
   "industry": {
     "executives__title": "Chefer och företagsägare",
     "marketing__title": "Marknadsföring och kundrelationer",
@@ -582,5 +553,9 @@
     "faq__question7__description__part2": "Missbruk, manipulering och policyöverträdelser kommer att resultera i att ditt konto stängs av och alla befintliga och framtida provisioner förverkas.",
     "faq__question5__description__part1": "Du kan logga in på ditt affiliate-konto på",
     "faq__question5__description__part2": "för att följa din remissprestation."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Använd 1-klicks AI var som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Det snabbaste sättet att använda AI var som helst: AI-chatt, skrivande, grammatikkontroll, förklaring, sammanfattning, sökning, hantering av uppmaningar och mer."
   }
 }

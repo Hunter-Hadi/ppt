@@ -1,16 +1,16 @@
-import React, { FC, useMemo } from 'react'
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'next-i18next';
+import React, { FC, useMemo } from 'react';
 
-import CustomTablePagination from '@/features/prompt_library/components/PromptLibrary/PromptLibraryList/CustomTablePagination'
-import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters'
+import CustomTablePagination from '@/features/prompt_library/components/PromptLibrary/PromptLibraryList/CustomTablePagination';
+import usePromptLibraryParameters from '@/features/prompt_library/hooks/usePromptLibraryParameters';
 
 const PromptLibraryPagination: FC = () => {
-  const { t } = useTranslation(['prompt_library'])
+  const { t } = useTranslation();
   const {
     activeTab,
     promptLibraryListParameters,
     updatePromptLibraryListParameters,
-  } = usePromptLibraryParameters()
+  } = usePromptLibraryParameters();
   const paginationProps = useMemo(
     () => ({
       labelRowsPerPage: t(
@@ -19,9 +19,9 @@ const PromptLibraryPagination: FC = () => {
       rowsPerPageOptions: [8, 12, 16, 20],
     }),
     [t],
-  )
+  );
   if (activeTab !== 'Public') {
-    return null
+    return null;
   }
   return (
     <CustomTablePagination
@@ -33,14 +33,14 @@ const PromptLibraryPagination: FC = () => {
       onChange={(event, value) => {
         updatePromptLibraryListParameters({
           page: value,
-        })
+        });
       }}
       onPageSizeChange={(value) => {
         updatePromptLibraryListParameters({
           page_size: value,
-        })
+        });
       }}
     />
-  )
-}
-export default PromptLibraryPagination
+  );
+};
+export default PromptLibraryPagination;

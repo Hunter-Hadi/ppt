@@ -1,8 +1,8 @@
 import { Stack, SvgIcon, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
-import IndicatorDecorator from '@/page_components/IndicatorDecorator';
+import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 
 const A16zTop50AppsBadge = () => {
   const { t } = useTranslation();

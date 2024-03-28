@@ -47,7 +47,7 @@ const CacheRefAndRewardfulId = () => {
             zIndex: -1,
             pointerEvents: 'none',
           }}
-          src={`${APP_PROJECT_LINK}/embed/refCache?ref=${ref}&rewardfulId=${rewardfulId}`}
+          src={`${APP_PROJECT_LINK}/embed/ref-cache?ref=${ref}&rewardfulId=${rewardfulId}`}
           // src={`http://localhost:3000/landing?ref=${ref}&rewardfulId=${rewardfulId}`}
         />
       ) : null}

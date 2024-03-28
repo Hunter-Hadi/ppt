@@ -1,7 +1,7 @@
 import { Box, Stack, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import useAppHeaderState from '@/hooks/useAppHeaderState';
 

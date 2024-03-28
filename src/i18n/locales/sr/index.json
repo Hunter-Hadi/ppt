@@ -42,7 +42,8 @@
     "copy_image": "Kopiraj sliku",
     "share": "Podeli",
     "link_copied": "Link kopiran",
-    "sign_up": "Registruj se"
+    "sign_up": "Registruj se",
+    "follow": "Prati"
   },
   "button": {
     "add_to_chrome_for_free": "Dodaj besplatno u Chrome",
@@ -340,7 +341,16 @@
     "home_page__user_comment__type_financial_services__label": "Finansijske usluge",
     "home_page__user_comment__type_real_estate__label": "Nekretnine",
     "home_page__user_comment__type_technical__label": "Tehnički",
-    "pricing__save_up_to": "Uštedite {{NUM}}%"
+    "pricing__save_up_to": "Uštedite {{NUM}}%",
+    "email_unsubscribe_success__title": "Uspešno ste se odjavili",
+    "email_unsubscribe_success__content": "Vaša email adresa je uspešno uklonjena sa naše liste za novosti. Više nećete primati buduće ažuriranja. Žao nam je što vas vidimo odlazite, ali uvek ste dobrodošli da se vratite i pratite najnoviji sadržaj!",
+    "languages__title": "Izaberite svoju zemlju ili region",
+    "pricing__productivity": "Produktivnost",
+    "contact_us__item1": "Za sva pitanja ili sugestije, javite nam se na",
+    "contact_us__item2": "Pratite nas na Twitteru za najnovije vesti i savete:",
+    "contact_us__item3": "Podržite nas ocenom ★★★★★ na",
+    "contact_us__item3__store": "Prodavnica proširenja",
+    "contact_us__item4": "Pomozite drugima tako što ćete deliti ovo proširenje:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",
@@ -492,46 +502,7 @@
     "plan_features_table__gemini_tooltip_desc": "Najmoćniji i najopštiji model kompanije Google. Izgrađen od nule za multimodalnost. Gemini na MaxAI trenutno je u beta fazi, podržava samo tekst i kod, uskoro će dodati podršku za slike, video zapise i audio.",
     "footer__resources": "Resursi"
   },
-  "privacy": {
-    "banner__title": "Naša posvećenost vašoj privatnosti",
-    "banner__content": "Kod MaxAI, vaša privatnost nije samo prioritet; to je princip. U doba kada se digitalni tragovi temeljno prate, mi idemo drugim putem sa MaxAI.me Chrome ekstenzijom. Nismo ovde da monetizujemo vaše lične informacije; ovde smo da unapredimo vaše digitalno iskustvo, sigurno i privatno.",
-    "summary_1__title": "Znamo samo ono što je neophodno",
-    "summary_1__content": "Ne prikupljamo dosije o vama. Obim našeg znanja je vaša e-pošta i ime - dovoljno da vas prepoznamo na različitim uređajima i sinhronizujemo vaše podešavanja. Osim toga, vaš lični život ostaje upravo takav: ličan.",
-    "summary_2__title": "Ne vidimo vaše podatke o pregledanju/razgovoru",
-    "summary_2__content": "Vaše navike pregledanja i razgovora su vaše. MaxAI Chrome ekstenzija funkcioniše bez uplitanja u vaše lične aktivnosti na mreži. Ne prikupljamo informacije o sajtovima koje posećujete ili sadržaju s kojim se angažujete. Naš fokus je isključivo na poboljšanju vašeg iskustva bez ugrožavanja vaše privatnosti.",
-    "summary_3__title": "Ne monetizujemo vaše poverenje",
-    "summary_3__content": "Verujemo u sticanje i očuvanje vašeg poverenja, a ne prodaju istog. Vaši podaci nisu roba za nas. Stoga ne prodajemo nikakve informacije trećim stranama. Naš poslovni model se vrti oko pružanja vrhunskog proizvoda, a ne iskorišćavanja korisničkih podataka u cilju profita.",
-    "section_1__part1": "Naša misija sa MaxAI je jednostavna: ponuditi ",
-    "section_1__strong": "alat koji poštuje vašu privatnost i digitalne granice.",
-    "section_1__part2": "Bavimo se inovacijama, a ne prodajom informacija. Vaše digitalno putovanje treba da bude pod vašom kontrolom, a sa MaxAI, mi se pobrinemo da tako i ostane.",
-    "privacy_policy__title": "Politika privatnosti",
-    "privacy_policy__update_time": "Poslednje ažuriranje: 29. jun 2023.",
-    "privacy_policy__description_1": "Dobrodošli na Politiku privatnosti za MaxAI.me Chrome ekstenziju (u daljem tekstu \"MaxAI\", \"MaxAI.me\", \"mi\", \"nas\" ili \"naš\"). Razumemo važnost vaše privatnosti i obavezujemo se da ćemo zaštititi vaše lične informacije. Ova Politika privatnosti opisuje vrste informacija koje prikupljamo, kako ih koristimo i mere koje preduzimamo da bismo zaštitili vaše podatke.",
-    "privacy_policy__description_2": "Korišćenjem MaxAI Chrome ekstenzije, priznajete i slažete se sa uslovima ove Politike privatnosti. Ako se ne slažete sa bilo kojim delom ove Politike privatnosti, molimo vas da ne koristite ili instalirate MaxAI Chrome ekstenziju.",
-    "information_we_do_not_collect__title": "Informacije koje ne prikupljamo",
-    "personal_information__title": "Lične informacije",
-    "personal_information__content": "Ozbiljno shvatamo vašu privatnost i prikupljamo samo vašu e-poštu i ime kako bismo vas identifikovali prilikom prijavljivanja i sinhronizovali vaša podešavanja na različitim pregledačima i uređajima. Osim toga, ne prikupljamo nikakve druge lične informacije. MaxAI Chrome ekstenzija funkcioniše bez potrebe za dodatnim ličnim podacima od vas i mi takve informacije ne čuvamo.",
-    "information_we_collect__title": "Informacije koje prikupljamo",
-    "chrome_extension_automatically_generated_reports__title": "Automatski generisani izveštaji Chrome ekstenzije",
-    "chrome_extension_automatically_generated_reports__content": "Jedna od vrsta informacija koje prikupljamo od korisnika su automatski generisani izveštaji Chrome ekstenzije. Ove informacije se koriste isključivo u svrhu poboljšanja funkcionalnosti MaxAI Chrome ekstenzije i razumevanja obrasca korišćenja naših korisnika. Prikupljeni podaci mogu obuhvatati tehničke informacije kao što su verzija pregledača, verzija ekstenzije i operativni sistem.",
-    "google_analytics_title": "Google Analytics",
-    "google_analytics_content": "Druga vrsta informacija koje prikupljamo je podrazumevane informacije o interakcijama korisnika sa MaxAI Chrome ekstenzijom putem upotrebe Google Analytics-a, usluge veb analitike koju pruža Google Inc. (\"Google\"). Google Analytics koristi kolačiće kako bi nam pomogao da analiziramo način na koji korisnici koriste ekstenziju. Informacije generisane kolačićima o vašoj upotrebi ekstenzije (uključujući vašu IP adresu) biće prenete i sačuvane od strane Google-a na serverima u Sjedinjenim Američkim Državama.",
-    "how_we_use_your_information__title": "Kako koristimo vaše informacije",
-    "how_we_use_your_information__sub_title": "Koristimo informacije koje prikupljamo, uključujući automatski generisane izveštaje Chrome ekstenzije, kako bismo:",
-    "how_we_use_your_information__list_1": "Poboljšali funkcionalnost MaxAI Chrome ekstenzije.",
-    "how_we_use_your_information__list_2": "Analizirali obrasce korišćenja kako bismo bolje razumeli korisničke preference.",
-    "how_we_use_your_information__list_3": "Identifikovali i rešavali probleme sa Chrome ekstenzijom.",
-    "how_we_use_your_information__list_4": "Poboljšali ukupno korisničko iskustvo.",
-    "information_security__title": "Bezbednost informacija",
-    "information_security__content": "Preduzimamo odgovarajuće mere kako bismo zaštitili ograničene informacije koje prikupljamo od neovlašćenog pristupa, otkrivanja, izmene ili uništenja. Pratimo industrijske standarde kako bismo obezbedili sigurnost podataka koje upravljamo.",
-    "marketing_and_advertising__title": "Marketing i oglašavanje",
-    "marketing_and_advertising__content_part_1": "Gde je to zakonom propisano, šaljemo vam samo marketinške informacije, uključujući ažuriranja i informacije o našim novim proizvodima i uslugama, nadolazećim događajima ili drugim promocijama ili vestima, putem e-pošte ili push obaveštenja, kako je dozvoljeno zakonom. Možete se odjaviti od primanja takvih e-poruka prateći uputstva u svakoj promotivnoj e-poruci koju vam šaljemo ili ažuriranjem vaših korisničkih podešavanja. Pored toga, ako u bilo kom trenutku ne želite da primate buduće komunikacije ili želite da izbrišete svoje ime sa naše mailing liste, molimo vas da nas kontaktirate na ",
-    "marketing_and_advertising__content_part_2": " Nastavićemo da vas kontaktiramo putem e-pošte u vezi pružanja naših usluga i odgovora na vaše zahteve.",
-    "changes_to_the_privacy_policy__title": "Promene u Politici privatnosti",
-    "changes_to_the_privacy_policy__content": "Možemo povremeno ažurirati našu Politiku privatnosti. Sve promene u ovoj Politici privatnosti biće objavljene na ovoj stranici, a datum \"Poslednje ažuriranje\" na vrhu će biti revidiran u skladu s tim. Vaše dalje korišćenje MaxAI Chrome ekstenzije nakon bilo kakvih promena u Politici privatnosti predstavlja vaše prihvatanje ažurirane politike.",
-    "contact_us__title": "Kontaktirajte nas",
-    "contact_us__content": "Ako imate bilo kakva pitanja ili brige u vezi sa našom Politikom privatnosti, slobodno nas kontaktirajte na "
-  },
+  "privacy": {},
   "industry": {
     "executives__title": "Izvršni direktori i vlasnici preduzeća",
     "marketing__title": "Marketing i odnosi sa korisnicima",
@@ -582,5 +553,9 @@
     "faq__question7__description__part2": "Zloupotreba, manipulacija i kršenje pravila će rezultirati zabranom tvog naloga i gubitkom postojeće i buduće provizije.",
     "faq__question5__description__part1": "Možete se prijaviti na svoj partnerski nalog na",
     "faq__question5__description__part2": "da pratite performanse vaših preporuka."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Koristite 1-klik AI bilo gde (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Najbrži način za korišćenje AI bilo gde: AI chat, pisanje, provera gramatike, objašnjenje, rezime, pretraga, upravljanje zadacima i još mnogo toga."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Kopijuoti paveikslėlį",
     "share": "Dalintis",
     "link_copied": "Nuoroda nukopijuota",
-    "sign_up": "Registruotis"
+    "sign_up": "Registruotis",
+    "follow": "Sekti"
   },
   "button": {
     "add_to_chrome_for_free": "Pridėti nemokamai į „Chrome“",
@@ -340,7 +341,16 @@
     "home_page__user_comment__type_financial_services__label": "Finansinės paslaugos",
     "home_page__user_comment__type_real_estate__label": "Nekilnojamas turtas",
     "home_page__user_comment__type_technical__label": "Techninis",
-    "pricing__save_up_to": "Sutaupykite {{NUM}}%"
+    "pricing__save_up_to": "Sutaupykite {{NUM}}%",
+    "email_unsubscribe_success__title": "Sėkmingai atsisakėte prenumeratos",
+    "email_unsubscribe_success__content": "Jūsų el. pašto adresas sėkmingai pašalintas iš mūsų naujienlaiškių sąrašo. Jūs daugiau negausite ateities atnaujinimų. Gaila, kad jūs išeinate, bet visada galite sugrįžti ir sekti naujausią turinį!",
+    "languages__title": "Pasirinkite savo šalį ar regioną",
+    "pricing__productivity": "Produktyvumas",
+    "contact_us__item1": "Turite klausimų ar pasiūlymų? Parašykite mums",
+    "contact_us__item2": "Sekite mus Twitter'e, kad gautumėte naujausius atnaujinimus ir patarimus:",
+    "contact_us__item3": "Palaikykite mus įvertindami ★★★★★",
+    "contact_us__item3__store": "Plėtinio internetinėje parduotuvėje",
+    "contact_us__item4": "Padėkite kitiems dalindamiesi šiuo plėtiniu:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -492,46 +502,7 @@
     "plan_features_table__gemini_tooltip_desc": "Google patikimiausias ir universalus modelis. Sukurtas nuo nulio daugiamodalumui. Gemini MaxAI yra beta fazėje ir šiuo metu palaiko tik tekstą ir kodą, netrukus bus pridėta palaikymas vaizdams, vaizdo įrašams ir garso įrašams.",
     "footer__resources": "Šaltiniai"
   },
-  "privacy": {
-    "banner__title": "Mūsų įsipareigojimas jūsų privatumui",
-    "banner__content": "MaxAI, jūsų privatumas nėra tik prioritetas; tai principas. Eraje, kai skaitmeniniai pėdsakai yra plačiai stebimi, mes pasirenkame kitą kelią su MaxAI.me Chrome plėtiniu. Mes čia ne tam, kad monetizuotume jūsų asmeninę informaciją; mes čia tam, kad pagerintume jūsų skaitmeninį patyrimą, saugiai ir privačiai.",
-    "summary_1__title": "Mes žinome tik tai, kas būtina",
-    "summary_1__content": "Mes nerenkame jūsų apie jus sudaryto dosjė. Mūsų žinojimas apima tik jūsų el. paštą ir vardą - pakankamai, kad atpažintume jus per įrenginius ir sinchronizuotume jūsų nustatymus. Be to, jūsų asmeninis gyvenimas lieka tik jūsų asmeninis.",
-    "summary_2__title": "Mes nematome jūsų naršymo/pokalbių duomenų",
-    "summary_2__content": "Jūsų naršymo ir pokalbių įpročiai yra jūsų asmeniniai. MaxAI Chrome plėtinys veikia be kišimosi į jūsų asmenines veiklas internete. Mes nerenkame jokios informacijos apie lankomus tinklalapius ar turinį, su kuriuo bendraujate. Mūsų dėmesys yra tik pagerinti jūsų patirtį, nekompromituojant jūsų privatumo.",
-    "summary_3__title": "Mes nemonetizuojame jūsų pasitikėjimo",
-    "summary_3__content": "Mes tikime, kad uždirbti ir išlaikyti jūsų pasitikėjimą, o ne parduoti jį. Jūsų duomenys mums nėra prekė. Todėl mes neperduodame jokios informacijos trečiosioms šalims. Mūsų verslo modelis grindžiamas aukštesnio lygio produkto teikimu, o ne vartotojų duomenų naudojimu pelnui gauti.",
-    "section_1__part1": "Mūsų misija su MaxAI yra paprasta: siūlyti ",
-    "section_1__strong": "privatumą gerbiantį įrankį, kuris gerbia jus ir jūsų skaitmeninius ribojimus.",
-    "section_1__part2": "Mes esame inovacijų versle, o ne informacijos pardavime. Jūsų skaitmeninis kelias turėtų būti jūsų valdomas, ir su MaxAI mes užtikriname, kad taip ir išliktų.",
-    "privacy_policy__title": "Privatumo politika",
-    "privacy_policy__update_time": "Paskutinį kartą atnaujinta: 2023 m. birželio 29 d.",
-    "privacy_policy__description_1": "Sveiki atvykę į privatumo politiką skirtą MaxAI.me Chrome plėtiniui (toliau vadinamą „MaxAI“, „MaxAI.me“, „mes“, „mūsų“ arba „mus“). Mes suprantame jūsų privatumo svarbą ir įsipareigojame apsaugoti jūsų asmeninę informaciją. Šioje privatumo politikoje pateikiami informacijos rūšys, kurias renkame, kaip jas naudojame ir kokias priemones taikome jūsų duomenims apsaugoti.",
-    "privacy_policy__description_2": "Naudodamiesi MaxAI Chrome plėtiniu, jūs patvirtinate ir sutinkate su šios privatumo politikos sąlygomis. Jei nesutinkate su šios privatumo politikos dalimi, prašome neįdiegti arba naudoti MaxAI Chrome plėtinio.",
-    "information_we_do_not_collect__title": "Informacijos, kurią mes nerenkame",
-    "personal_information__title": "Asmeninė informacija",
-    "personal_information__content": "Mes rimtai vertiname jūsų privatumą ir renkame tik jūsų el. paštą ir vardą, kad galėtume jūsų atpažinti prisijungus ir sinchronizuoti jūsų nustatymus skirtingose naršyklėse ir įrenginiuose. Be to, mes nerenkame jokios kitos asmeninės informacijos. MaxAI Chrome plėtinys veikia be papildomų jūsų asmeninių duomenų reikalavimo, ir mes tokios informacijos nesaugome.",
-    "information_we_collect__title": "Informacija, kurią mes renkame",
-    "chrome_extension_automatically_generated_reports__title": "Chrome plėtinio automatiškai generuojami pranešimai",
-    "chrome_extension_automatically_generated_reports__content": "Viena iš informacijos rūšių, kurią renkame iš vartotojų, yra Chrome plėtinio automatiškai generuojamas pranešimas. Šią informaciją naudojame tik tam, kad pagerintume MaxAI Chrome plėtinio funkcionalumą ir suprastume mūsų vartotojų naudojimo modelius. Surinkti duomenys gali apimti techninę informaciją, tokia kaip naršyklės versija, plėtinio versija ir operacinė sistema.",
-    "google_analytics_title": "Google Analytics",
-    "google_analytics_content": "Antra informacijos rūšis, kurią renkame, yra numatyta informacija apie vartotojų sąveiką su MaxAI Chrome plėtiniu naudojant „Google Analytics“, interneto analizės paslaugą, teikiamą „Google Inc.“ („Google“). „Google Analytics“ naudoja slapukus, padedančius mums analizuoti, kaip vartotojai naudoja plėtinį. Slapukų pagalba generuojama informacija apie jūsų plėtinio naudojimą (įskaitant jūsų IP adresą), kuri bus perduodama ir saugoma „Google“ serveriuose Jungtinėse Valstijose.",
-    "how_we_use_your_information__title": "Kaip mes naudojame jūsų informaciją",
-    "how_we_use_your_information__sub_title": "Mes naudojame renkamą informaciją, įskaitant Chrome plėtinio automatiškai generuojamus pranešimus, kad:",
-    "how_we_use_your_information__list_1": "Pagerintume MaxAI Chrome plėtinio funkcionalumą.",
-    "how_we_use_your_information__list_2": "Analizuotume naudojimo modelius, kad geriau suprastume vartotojų pageidavimus.",
-    "how_we_use_your_information__list_3": "Nustatytume ir išspręstume problemas su Chrome plėtiniu.",
-    "how_we_use_your_information__list_4": "Pagerintume bendrą vartotojo patirtį.",
-    "information_security__title": "Informacijos saugumas",
-    "information_security__content": "Imame tinkamas priemones apsaugoti ribotą informaciją, kurią renkame, nuo neleistino prieigos, atskleidimo, pakeitimo ar sunaikinimo. Laikomės pramonės standartų, kad užtikrintume duomenų, kuriuos tvarkome, saugumą",
-    "marketing_and_advertising__title": "Rinkodara ir reklama",
-    "marketing_and_advertising__content_part_1": "Kur reikia pagal įstatymus, mes jums siųsime tik rinkodaros informaciją, įskaitant naujienų ir informacijos apie mūsų naujus produktus ir paslaugas, artėjančius renginius ar kitas akcijas ar naujienas, įskaitant el. paštu ar spustelėjimo pranešimais, kaip leidžia įstatymai. Galite atsisakyti gauti tokius el. laiškus, vadovaudamiesi instrukcijomis kiekviename mūsų siunčiamame reklaminėje el. pašto žinutėje arba atnaujindami savo naudotojo nustatymus. Be to, jei bet kuriuo metu nenorite gauti ateities pranešimų ar norite, kad jūsų vardas būtų ištrintas iš mūsų pašto sąrašų, prašome susisiekti su mumis adresu ",
-    "marketing_and_advertising__content_part_2": " Mes ir toliau susisieksime su jumis el. paštu dėl mūsų paslaugų teikimo ir atsakant į jūsų užklausas.",
-    "changes_to_the_privacy_policy__title": "Pakeitimai privatumo politikoje",
-    "changes_to_the_privacy_policy__content": "Gali būti, kad laikui bėgant atnaujinsime savo privatumo politiką. Bet kokie šios privatumo politikos pakeitimai bus paskelbti šiame puslapyje, o viršuje esantis „Paskutinį kartą atnaujinta“ data bus peržiūrėta atitinkamai. Tęsdami naudojimąsi MaxAI Chrome plėtiniu po bet kokių privatumo politikos pakeitimų, jūs sutinkate su atnaujinta politika.",
-    "contact_us__title": "Susisiekite su mumis",
-    "contact_us__content": "Jei turite klausimų arba susirūpinimų dėl mūsų privatumo politikos, prašome nedvejodami susisiekti su mumis adresu "
-  },
+  "privacy": {},
   "industry": {
     "executives__title": "Vykdančioji valdžia ir verslo savininkai",
     "marketing__title": "Rinkodara ir klientų ryšiai",
@@ -582,5 +553,9 @@
     "faq__question7__description__part2": "Piktnaudžiavimas, manipuliavimas ir taisyklių pažeidimai rezultuos jūsų paskyros uždraudimu ir visų esamų ir būsimų komisinių atsisakymu.",
     "faq__question5__description__part1": "Jūs galite prisijungti prie savo partnerių sąskaitos",
     "faq__question5__description__part2": "sekti savo nuorodų veiklą."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Naudokite 1 paspaudimą AI bet kur (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Greičiausias būdas naudoti AI bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau."
   }
 }

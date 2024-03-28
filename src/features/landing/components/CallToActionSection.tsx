@@ -1,6 +1,6 @@
 import { Box, buttonClasses, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const CallToActionSection: FC<IProps> = ({ propRef }) => {
-  const { t } = useTranslation('pages');
+  const { t } = useTranslation();
 
   return (
     <Box
@@ -42,7 +42,7 @@ const CallToActionSection: FC<IProps> = ({ propRef }) => {
             lineHeight={1.2}
             color='text.primary'
           >
-            {t('home_page__call_to_action__title')}
+            {t('pages:home_page__call_to_action__title')}
           </Typography>
           <Typography
             variant='custom'
@@ -54,7 +54,7 @@ const CallToActionSection: FC<IProps> = ({ propRef }) => {
             lineHeight={1.5}
             color='text.secondary'
           >
-            {t('home_page__call_to_action__sub_title')}
+            {t('pages:home_page__call_to_action__sub_title')}
           </Typography>
 
           <CTAInstallButton

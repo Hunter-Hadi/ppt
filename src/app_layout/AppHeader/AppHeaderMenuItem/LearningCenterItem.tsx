@@ -1,7 +1,8 @@
 import { MenuItem, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
+import ProLink from '@/components/ProLink';
 import { isInIframe } from '@/utils/utils';
 
 interface IProps {
@@ -9,35 +10,47 @@ interface IProps {
 }
 
 const LearningCenterItem: FC<IProps> = ({ isSmallScreen }) => {
-  const { t } = useTranslation('modules');
+  const { t } = useTranslation();
 
   const textRender = () => (
-    <Typography
-      variant='custom'
-      fontSize={16}
-      lineHeight={1.5}
-      fontWeight={500}
+    <ProLink
+      href='/learning-center'
+      hardRefresh
+      color='inherit'
+      target={isInIframe() ? '_blank' : '_self'}
       sx={{
-        cursor: 'pointer',
+        width: '100%',
+        py: isSmallScreen ? 1 : 0,
+        px: isSmallScreen ? 2 : 0,
       }}
     >
-      {t('header__menu__learning_center')}
-    </Typography>
+      <Typography
+        variant='custom'
+        fontSize={16}
+        lineHeight={1.5}
+        fontWeight={500}
+        sx={{
+          cursor: 'pointer',
+        }}
+      >
+        {t('modules:header__menu__learning_center')}
+      </Typography>
+    </ProLink>
   );
-
-  const handleClick = () => {
-    window.open('/learning-center', isInIframe() ? '_blank' : '_self');
-  };
 
   if (isSmallScreen) {
-    return <MenuItem onClick={handleClick}>{textRender()}</MenuItem>;
+    return (
+      <MenuItem
+        sx={{
+          p: 0,
+        }}
+      >
+        {textRender()}
+      </MenuItem>
+    );
   }
 
-  return (
-    <Stack px={2} onClick={handleClick}>
-      {textRender()}
-    </Stack>
-  );
+  return <Stack px={2}>{textRender()}</Stack>;
 };
 
 export default LearningCenterItem;

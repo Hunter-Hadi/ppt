@@ -12,8 +12,8 @@ import {
   Typography,
 } from '@mui/material';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import AppPaperCardLayout from '@/app_layout/AppPaperCardLayout';
 import { GaContent, gaEvent } from '@/utils/gtag';

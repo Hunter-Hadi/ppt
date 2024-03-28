@@ -1,6 +1,7 @@
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 
 import {
   APP_EXTERNAL_LINKS,
@@ -13,6 +14,7 @@ import CopyTypography from './CopyTypography';
 import ProLink from './ProLink';
 
 const TwitterFollowButton = () => {
+  const { t } = useTranslation();
   return (
     <ProLink
       href={APP_EXTERNAL_LINKS.TWITTER_FOLLOW_UP_LINK}
@@ -32,16 +34,17 @@ const TwitterFollowButton = () => {
       }}
     >
       <TwitterIcon sx={{ fontSize: 18 }} />
-      Follow @MaxAI_HQ
+      {t('common:follow')} @MaxAI_HQ
     </ProLink>
   );
 };
 
 const ContactUsPanel = () => {
+  const { t } = useTranslation();
   return (
     <Stack bgcolor='#E2E8F0' spacing={2} p={2} borderRadius={1}>
       <Typography variant='body2' component={'div'}>
-        💬 For any questions or suggestions, drop us a line at{' '}
+        💬 {t('pages:contact_us__item1')}{' '}
         <ProLink
           href={`mailto:${SIMPLY_TRENDS_APP_EMAIL}?subject=I have a question about MaxAI.me Chrome extension`}
           sx={{ color: 'inherit' }}
@@ -63,19 +66,19 @@ const ContactUsPanel = () => {
       </Typography>
       <Stack direction={'row'} gap={1} flexWrap='wrap'>
         <Typography variant='body2' component={'div'}>
-          👉 Follow us on Twitter for the latest updates and tips:{' '}
+          👉 {t('pages:contact_us__item2')}{' '}
         </Typography>
         <TwitterFollowButton />
       </Stack>
       <Typography variant='body2' component={'div'}>
-        🙏 Support us by rating ★★★★★ on{' '}
+        🙏 {t('pages:contact_us__item3')}{' '}
         <ProLink
           href={`${EXTENSION_INSTALL_TRACKER_LINK}?ref=support-us`}
           sx={{ color: 'inherit' }}
           target={'_blank'}
           underline='always'
         >
-          Extension web store{' '}
+          {t('pages:contact_us__item3__store')}{' '}
           <OpenInNewIcon
             sx={{
               position: 'relative',
@@ -89,7 +92,7 @@ const ContactUsPanel = () => {
       </Typography>
       <Stack direction={'row'} gap={0.5}>
         <Typography variant='body2' component={'div'}>
-          🎁 Help others by sharing this extension:{' '}
+          🎁 {t('pages:contact_us__item4')}{' '}
           <ProLink
             href={`${EXTENSION_INSTALL_TRACKER_LINK}?ref=share`}
             sx={{ color: 'inherit' }}

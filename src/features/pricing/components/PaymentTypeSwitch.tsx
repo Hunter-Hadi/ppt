@@ -8,8 +8,8 @@ import {
   TooltipProps,
   Typography,
 } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { useRecoilState } from 'recoil';
 
 import { IOptionType } from '@/components/select/BaseSelect';
@@ -35,11 +35,11 @@ const ColorTooltip = styled(({ className, ...props }: TooltipProps) => (
 
 const PAYMENT_TYPES = [
   {
-    label: 'payment_type_switch__yearly',
+    label: 'modules:payment_type_switch__yearly',
     value: 'yearly',
   },
   {
-    label: 'payment_type_switch__monthly',
+    label: 'modules:payment_type_switch__monthly',
     value: 'monthly',
   },
 ];
@@ -47,15 +47,15 @@ const PAYMENT_TYPES = [
 const PaymentTypeSwitch: FC<{
   onChange?: (newValue: IOptionType) => void;
 }> = ({ onChange }) => {
-  const { t } = useTranslation(['modules']);
+  const { t } = useTranslation();
   const [tooltipOpen, setTooltipOpen] = useState(false);
   const [paymentType, setPaymentType] = useRecoilState(PricingPaymentTypeAtom);
 
   const YearlyTooltip = (
     <Typography variant='caption'>
-      {t('payment_type_switch__tooltip1')}
+      {t('modules:payment_type_switch__tooltip1')}
       <br />
-      {t('payment_type_switch__tooltip2', {
+      {t('modules:payment_type_switch__tooltip2', {
         num: Math.round(
           (1 - PLAN_PRICE_MAP['elite_yearly'] / PLAN_PRICE_MAP['elite']) * 100,
         ),

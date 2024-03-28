@@ -5,9 +5,9 @@ import ListItem from '@mui/material/ListItem';
 import Popover from '@mui/material/Popover';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { useTranslation } from 'react-i18next';
 
 import { ContextMenuIcon } from '@/features/share_conversation/components/ContextMenuIcon';
 import TooltipIconButton from '@/features/share_conversation/components/TooltipIconButton';
@@ -23,7 +23,7 @@ const SidebarCopyButton: FC<{
   onCopy?: () => void;
 }> = (props) => {
   const { message, onCopy } = props;
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation();
   const memoCopyText = useMemo(() => {
     return formatAIMessageContent(message);
   }, [message]);

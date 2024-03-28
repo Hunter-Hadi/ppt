@@ -1,14 +1,6 @@
-import React from 'react';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import LandingPages from '@/page_components/LandingPages';
+export default LandingPages;
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import HomePageContent from '@/features/landing/components/HomePageContent';
-
-const LandingPage = () => {
-  return (
-    <>
-      <AppDefaultSeoLayout />
-      <HomePageContent />
-    </>
-  );
-};
-export default LandingPage;
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

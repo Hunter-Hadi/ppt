@@ -42,7 +42,8 @@
     "copy_image": "Sao chép hình ảnh",
     "share": "Chia sẻ",
     "link_copied": "Đã sao chép liên kết",
-    "sign_up": "Đăng ký"
+    "sign_up": "Đăng ký",
+    "follow": "Theo dõi"
   },
   "button": {
     "add_to_chrome_for_free": "Thêm vào Chrome miễn phí",
@@ -340,7 +341,16 @@
     "home_page__user_comment__type_financial_services__label": "Dịch vụ tài chính",
     "home_page__user_comment__type_real_estate__label": "Bất động sản",
     "home_page__user_comment__type_technical__label": "Kỹ thuật",
-    "pricing__save_up_to": "Tiết kiệm {{NUM}}%"
+    "pricing__save_up_to": "Tiết kiệm {{NUM}}%",
+    "email_unsubscribe_success__title": "Hủy đăng ký thành công",
+    "email_unsubscribe_success__content": "Địa chỉ email của bạn đã được gỡ bỏ khỏi danh sách bản tin của chúng tôi. Bạn sẽ không nhận được cập nhật trong tương lai nữa. Chúng tôi rất tiếc khi thấy bạn ra đi, nhưng bạn luôn được chào đón trở lại bất cứ lúc nào để cập nhật nội dung mới nhất!",
+    "languages__title": "Chọn Quốc gia hoặc Vùng lãnh thổ của bạn",
+    "pricing__productivity": "Hiệu suất",
+    "contact_us__item1": "Đối với bất kỳ câu hỏi hoặc gợi ý nào, hãy để lại cho chúng tôi một dòng tại",
+    "contact_us__item2": "Theo dõi chúng tôi trên Twitter để cập nhật và nhận các mẹo mới nhất:",
+    "contact_us__item3": "Hỗ trợ chúng tôi bằng cách đánh giá ★★★★★ trên",
+    "contact_us__item3__store": "Cửa hàng tiện ích mở rộng",
+    "contact_us__item4": "Giúp đỡ người khác bằng cách chia sẻ tiện ích này:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -492,46 +502,7 @@
     "plan_features_table__gemini_tooltip_desc": "Mô hình phổ biến và linh hoạt nhất của Google. Được xây dựng từ đầu cho đa chức năng. Gemini trên MaxAI hiện đang ở giai đoạn beta, chỉ hỗ trợ văn bản và mã, sẽ sớm thêm hỗ trợ cho hình ảnh, video và âm thanh.",
     "footer__resources": "Tài nguyên"
   },
-  "privacy": {
-    "banner__title": "Cam kết bảo mật của chúng tôi",
-    "banner__content": "Tại MaxAI, sự riêng tư của bạn không chỉ là ưu tiên; nó là một nguyên tắc. Trong thời đại mà dấu vết kỹ thuật số được theo dõi rộng rãi, chúng tôi đi một con đường khác với tiện ích MaxAI.me Chrome. Chúng tôi không muốn thương mại hóa thông tin cá nhân của bạn; chúng tôi muốn nâng cao trải nghiệm kỹ thuật số của bạn một cách an toàn và riêng tư.",
-    "summary_1__title": "Chúng tôi chỉ biết những gì cần thiết",
-    "summary_1__content": "Chúng tôi không thu thập hồ sơ về bạn. Mức độ hiểu biết của chúng tôi chỉ là email và tên của bạn - đủ để nhận ra bạn trên các thiết bị khác nhau và đồng bộ cài đặt của bạn. Ngoài ra, cuộc sống cá nhân của bạn vẫn chỉ là cá nhân.",
-    "summary_2__title": "Chúng tôi không xem dữ liệu duyệt web/trò chuyện của bạn",
-    "summary_2__content": "Thói quen duyệt web và trò chuyện của bạn là riêng tư. Tiện ích MaxAI Chrome hoạt động mà không xâm phạm vào các hoạt động cá nhân trực tuyến của bạn. Chúng tôi không thu thập thông tin về các trang web bạn truy cập hoặc nội dung bạn tương tác. Trọng tâm của chúng tôi hoàn toàn là cải thiện trải nghiệm của bạn mà không đánh đổi sự riêng tư của bạn.",
-    "summary_3__title": "Chúng tôi không thương mại hóa niềm tin của bạn",
-    "summary_3__content": "Chúng tôi tin rằng việc kiếm và giữ niềm tin của bạn, không phải bán nó. Dữ liệu của bạn không phải là hàng hóa đối với chúng tôi. Do đó, chúng tôi không bán bất kỳ thông tin nào cho bên thứ ba. Mô hình kinh doanh của chúng tôi xoay quanh việc cung cấp một sản phẩm vượt trội, không sử dụng dữ liệu người dùng để kiếm lợi nhuận.",
-    "section_1__part1": "Sứ mệnh của chúng tôi với MaxAI rất đơn giản: cung cấp ",
-    "section_1__strong": "một công cụ tập trung vào sự riêng tư tôn trọng bạn và ranh giới kỹ thuật số của bạn.",
-    "section_1__part2": "Chúng tôi hoạt động trong lĩnh vực đổi mới, không phải bán thông tin. Hành trình kỹ thuật số của bạn nên do bạn kiểm soát, và với MaxAI, chúng tôi đảm bảo nó vẫn như vậy.",
-    "privacy_policy__title": "Chính sách bảo mật",
-    "privacy_policy__update_time": "Cập nhật lần cuối: 29 tháng 6, 2023",
-    "privacy_policy__description_1": "Chào mừng bạn đến với Chính sách bảo mật cho tiện ích MaxAI.me Chrome (sau đây được gọi là \"MaxAI\", \"MaxAI.me\", \"chúng tôi\", \"chúng tôi\" hoặc \"của chúng tôi\"). Chúng tôi hiểu tầm quan trọng của sự riêng tư của bạn và cam kết bảo vệ thông tin cá nhân của bạn. Chính sách bảo mật này chỉ ra các loại thông tin chúng tôi thu thập, cách chúng tôi sử dụng nó và các biện pháp chúng tôi thực hiện để bảo vệ dữ liệu của bạn.",
-    "privacy_policy__description_2": "Bằng cách sử dụng tiện ích MaxAI Chrome, bạn xác nhận và đồng ý với các điều khoản và điều kiện của Chính sách bảo mật này. Nếu bạn không đồng ý với bất kỳ phần nào của Chính sách bảo mật này, vui lòng không sử dụng hoặc cài đặt tiện ích MaxAI Chrome.",
-    "information_we_do_not_collect__title": "Thông tin chúng tôi không thu thập",
-    "personal_information__title": "Thông tin cá nhân",
-    "personal_information__content": "Chúng tôi coi trọng sự riêng tư của bạn và chỉ thu thập email và tên của bạn để xác định bạn khi bạn đăng nhập, giúp đồng bộ cài đặt của bạn trên các trình duyệt và thiết bị khác nhau. Ngoài ra, chúng tôi không thu thập bất kỳ thông tin cá nhân khác nào. Tiện ích MaxAI Chrome hoạt động mà không yêu cầu bất kỳ dữ liệu cá nhân bổ sung nào từ bạn, và chúng tôi không lưu trữ thông tin đó.",
-    "information_we_collect__title": "Thông tin chúng tôi thu thập",
-    "chrome_extension_automatically_generated_reports__title": "Báo cáo tự động được tạo ra bởi tiện ích MaxAI Chrome",
-    "chrome_extension_automatically_generated_reports__content": "Một trong các loại thông tin chúng tôi thu thập từ người dùng là báo cáo tự động được tạo ra bởi tiện ích MaxAI Chrome. Thông tin này được sử dụng với mục đích duy nhất là cải thiện tính năng của tiện ích MaxAI Chrome và hiểu biết về các mẫu sử dụng của người dùng. Dữ liệu thu thập có thể bao gồm thông tin kỹ thuật như phiên bản trình duyệt, phiên bản tiện ích và hệ điều hành.",
-    "google_analytics_title": "Google Analytics",
-    "google_analytics_content": "Loại thông tin thứ hai chúng tôi thu thập là thông tin mặc định về tương tác của người dùng với tiện ích MaxAI Chrome thông qua việc sử dụng Google Analytics, một dịch vụ phân tích web do Google Inc. (\"Google\") cung cấp. Google Analytics sử dụng cookie để giúp chúng tôi phân tích cách người dùng sử dụng tiện ích. Thông tin được tạo ra bởi cookie về việc sử dụng tiện ích (bao gồm địa chỉ IP của bạn) sẽ được truyền và lưu trữ bởi Google trên các máy chủ tại Hoa Kỳ.",
-    "how_we_use_your_information__title": "Chúng tôi sử dụng thông tin của bạn như thế nào",
-    "how_we_use_your_information__sub_title": "Chúng tôi sử dụng thông tin chúng tôi thu thập, bao gồm báo cáo tự động được tạo ra bởi tiện ích MaxAI Chrome, để:",
-    "how_we_use_your_information__list_1": "Cải thiện tính năng của tiện ích MaxAI Chrome.",
-    "how_we_use_your_information__list_2": "Phân tích các mẫu sử dụng để hiểu rõ hơn về sở thích của người dùng.",
-    "how_we_use_your_information__list_3": "Xác định và khắc phục sự cố với tiện ích MaxAI Chrome.",
-    "how_we_use_your_information__list_4": "Cải thiện trải nghiệm người dùng tổng thể.",
-    "information_security__title": "Bảo mật thông tin",
-    "information_security__content": "Chúng tôi áp dụng các biện pháp thích hợp để bảo vệ thông tin hạn chế mà chúng tôi thu thập khỏi việc truy cập, tiết lộ, thay đổi hoặc phá hủy trái phép. Chúng tôi tuân theo các quy trình tiêu chuẩn ngành để đảm bảo an ninh dữ liệu chúng tôi quản lý",
-    "marketing_and_advertising__title": "Marketing và quảng cáo",
-    "marketing_and_advertising__content_part_1": "Theo yêu cầu của pháp luật, chúng tôi chỉ gửi cho bạn thông tin tiếp thị, bao gồm cập nhật và thông tin về sản phẩm và dịch vụ mới của chúng tôi, sự kiện sắp tới hoặc các khuyến mãi hoặc tin tức khác, bằng email hoặc thông báo đẩy, theo quy định của pháp luật. Bạn có thể từ chối nhận email như vậy bằng cách làm theo hướng dẫn trong mỗi email quảng cáo mà chúng tôi gửi cho bạn hoặc cập nhật cài đặt người dùng của bạn. Ngoài ra, nếu bạn không muốn nhận thông tin liên lạc trong tương lai hoặc muốn xóa tên của bạn khỏi danh sách gửi thư của chúng tôi, vui lòng liên hệ với chúng tôi tại ",
-    "marketing_and_advertising__content_part_2": " Chúng tôi sẽ tiếp tục liên hệ với bạn qua email liên quan đến việc cung cấp Dịch vụ của chúng tôi và để đáp ứng yêu cầu của bạn.",
-    "changes_to_the_privacy_policy__title": "Thay đổi Chính sách Bảo mật",
-    "changes_to_the_privacy_policy__content": "Chúng tôi có thể cập nhật Chính sách Bảo mật của chúng tôi từ thời gian này sang thời gian khác. Mọi thay đổi về Chính sách Bảo mật này sẽ được đăng trên trang này, và ngày \"Cập nhật lần cuối\" ở đầu trang sẽ được điều chỉnh tương ứng. Việc bạn tiếp tục sử dụng tiện ích MaxAI Chrome sau bất kỳ thay đổi nào về Chính sách Bảo mật đều tượng trưng cho việc bạn chấp nhận Chính sách cập nhật.",
-    "contact_us__title": "Liên hệ chúng tôi",
-    "contact_us__content": "Nếu bạn có bất kỳ câu hỏi hoặc quan ngại nào về Chính sách Bảo mật của chúng tôi, xin vui lòng liên hệ với chúng tôi tại "
-  },
+  "privacy": {},
   "industry": {
     "executives__title": "Giám đốc và Chủ doanh nghiệp",
     "marketing__title": "Tiếp thị & Quan hệ Khách hàng",
@@ -582,5 +553,9 @@
     "faq__question7__description__part2": "Lạm dụng, chơi game và vi phạm chính sách sẽ dẫn đến việc bị cấm tài khoản và mất hoa hồng hiện tại và tương lai.",
     "faq__question5__description__part1": "Bạn có thể đăng nhập vào tài khoản liên kết của mình trên",
     "faq__question5__description__part2": "để theo dõi hiệu suất giới thiệu của bạn."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Sử dụng AI chỉ với 1 cú nhấp (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Cách nhanh nhất để sử dụng AI bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn thế nữa."
   }
 }

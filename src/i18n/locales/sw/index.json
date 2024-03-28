@@ -42,7 +42,8 @@
     "copy_image": "Nakili picha",
     "share": "Shiriki",
     "link_copied": "Kiungo kimenukuliwa",
-    "sign_up": "Jisajili"
+    "sign_up": "Jisajili",
+    "follow": "Fuata"
   },
   "button": {
     "add_to_chrome_for_free": "Ongeza kwa Chrome bure",
@@ -340,7 +341,16 @@
     "home_page__user_comment__type_financial_services__label": "Huduma za Fedha",
     "home_page__user_comment__type_real_estate__label": "Mali Isiyohamishika",
     "home_page__user_comment__type_technical__label": "Kiufundi",
-    "pricing__save_up_to": "Hifadhi {{NUM}}%"
+    "pricing__save_up_to": "Hifadhi {{NUM}}%",
+    "email_unsubscribe_success__title": "Kujiondoa kwa mafanikio",
+    "email_unsubscribe_success__content": "Anwani yako ya barua pepe imeondolewa kwa mafanikio kutoka kwenye orodha yetu ya jarida la habari. Hautapokea sasisho za baadaye tena. Tunasikitika kuona unakwenda, lakini karibu wakati wowote kurudi na kupata maudhui ya hivi karibuni!",
+    "languages__title": "Chagua Nchi au Mkoa Wako",
+    "pricing__productivity": "Ufanisi",
+    "contact_us__item1": "Kwa maswali au mapendekezo, tuma ujumbe kwetu kwa",
+    "contact_us__item2": "Tufuate kwenye Twitter kwa habari na vidokezo vya hivi karibuni:",
+    "contact_us__item3": "Tusaidie kwa kuipa alama ★★★★★ kwenye",
+    "contact_us__item3__store": "Duka la programu la upanuzi",
+    "contact_us__item4": "Wasaidie wengine kwa kushiriki upanuzi huu:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -492,46 +502,7 @@
     "plan_features_table__gemini_tooltip_desc": "Mfano mwenye uwezo na jumla zaidi wa Google. Imejengwa kutoka mwanzo kwa ajili ya multimodality. Gemini kwenye MaxAI iko katika hatua ya beta, inasaidia tu maandishi na nambari, hivi karibuni itaongeza usaidizi kwa picha, video, na sauti.",
     "footer__resources": "Vifaa vya kujifunza"
   },
-  "privacy": {
-    "banner__title": "Ahadi Yetu kwa Faragha Yako",
-    "banner__content": "Kwenye MaxAI, faragha yako si tu kipaumbele; ni kanuni. Katika enzi ambapo alama za kidigitali zinafuatiliwa sana, tunachukua njia tofauti na Kifaa cha MaxAI.me Chrome. Hatupo hapa kwa ajili ya kufanya biashara na habari yako binafsi; tupo hapa kuboresha uzoefu wako wa kidigitali, kwa usalama na faragha.",
-    "summary_1__title": "Tunajua tu kinachohitajika",
-    "summary_1__content": "Hatukusanyi habari kamili kukuhusu. Ujuzi wetu ni barua pepe yako na jina lako - vya kutosha tu kukutambua kwenye vifaa tofauti na kusawazisha mipangilio yako. Zaidi ya hapo, maisha yako binafsi yanabaki kuwa binafsi.",
-    "summary_2__title": "Hatutazami Data Yako ya Kuvinjari/Mazungumzo",
-    "summary_2__content": "Tabia zako za kuvinjari na mazungumzo ni zako pekee. Kifaa cha MaxAI Chrome kinatumika bila kuingilia shughuli zako binafsi mtandaoni. Hatukusanyi habari kuhusu tovuti unazotembelea au yaliyomo unayoshiriki. Fikira yetu ni kuboresha uzoefu wako bila kuhatarisha faragha yako.",
-    "summary_3__title": "Hatutumii Imani Yako Kwa Biashara",
-    "summary_3__content": "Tunaamini katika kupata na kudumisha imani yako, sio kuiuza. Data yako sio bidhaa kwetu. Kwa hiyo, hatuuzi habari yoyote kwa watu wengine. Mfano wetu wa biashara unazingatia kutoa bidhaa bora, sio kutumia data ya mtumiaji kwa faida.",
-    "section_1__part1": "Dhamira yetu na MaxAI ni rahisi: kutoa ",
-    "section_1__strong": "zana inayozingatia faragha ambayo inakuheshimu wewe na mipaka yako ya kidigitali.",
-    "section_1__part2": "Tuko katika biashara ya ubunifu, sio kuuza habari. Safari yako ya kidigitali inapaswa kuwa yako ya kudhibiti, na na MaxAI, tunahakikisha inabaki hivyo.",
-    "privacy_policy__title": "Sera ya Faragha",
-    "privacy_policy__update_time": "Imesasishwa mwisho: Juni 29, 2023",
-    "privacy_policy__description_1": "Karibu kwenye Sera ya Faragha ya Kifaa cha MaxAI.me Chrome (hapa baadaye inaitwa \"MaxAI\", \"MaxAI.me\", \"sisi\", \"sisi\", au \"yetu\"). Tunaelewa umuhimu wa faragha yako, na tumejitolea kulinda taarifa yako binafsi. Sera hii ya Faragha inaelezea aina za taarifa tunazokusanya, jinsi tunavyozitumia, na hatua tunazochukua kulinda data yako.",
-    "privacy_policy__description_2": "Kwa kutumia Kifaa cha MaxAI Chrome, unakubali na kukubaliana na masharti ya sera hii ya faragha. Ikiwa hukubaliani na sehemu yoyote ya sera hii ya faragha, tafadhali usitumie au sakinisha Kifaa cha MaxAI Chrome.",
-    "information_we_do_not_collect__title": "Taarifa Hatukusanyi",
-    "personal_information__title": "Taarifa Binafsi",
-    "personal_information__content": "Tunachukua faragha yako kwa umakini na tunakusanya barua pepe yako na jina lako tu ili kukutambulisha unapojiunga, kusaidia kusawazisha mipangilio yako kwenye vivinjari na vifaa tofauti. Zaidi ya hapo, hatukusanyi taarifa binafsi nyingine yoyote. Kifaa cha MaxAI Chrome kinatumika bila kuhitaji data binafsi zaidi kutoka kwako, na hatuhifadhi habari kama hizo.",
-    "information_we_collect__title": "Taarifa Tunazokusanya",
-    "chrome_extension_automatically_generated_reports__title": "Ripoti Zinazotengenezwa Moja kwa Moja na Kifaa cha Chrome",
-    "chrome_extension_automatically_generated_reports__content": "Moja ya aina za taarifa tunazokusanya kutoka kwa watumiaji ni ripoti zinazotengenezwa moja kwa moja na Kifaa cha Chrome. Taarifa hii hutumiwa kwa lengo la kuboresha utendaji wa Kifaa cha MaxAI Chrome na kuelewa mifumo ya matumizi ya watumiaji wetu. Data iliyokusanywa inaweza kuwa ni pamoja na taarifa za kiufundi kama toleo la kivinjari, toleo la kifaa cha Chrome, na mfumo wa uendeshaji.",
-    "google_analytics_title": "Google Analytics",
-    "google_analytics_content": "Aina ya pili ya taarifa tunayokusanya ni taarifa ya chaguo-msingi kuhusu mwingiliano wa mtumiaji na Kifaa cha MaxAI Chrome kupitia matumizi ya Google Analytics, huduma ya takwimu za wavuti inayotolewa na Google Inc. (\"Google\"). Google Analytics hutumia vidakuzi kutusaidia kuchambua jinsi watumiaji wanavyotumia kifaa cha nyongeza. Taarifa zinazozalishwa na vidakuzi kuhusu matumizi yako ya kifaa cha nyongeza (ikiwa ni pamoja na anwani yako ya IP) zitatumiwa na kuhifadhiwa na Google kwenye seva zilizoko Marekani.",
-    "how_we_use_your_information__title": "Jinsi tunavyotumia taarifa yako",
-    "how_we_use_your_information__sub_title": "Tunatumia taarifa tunazokusanya, ikiwa ni pamoja na ripoti zinazotengenezwa moja kwa moja na Kifaa cha Chrome, kwa:",
-    "how_we_use_your_information__list_1": "Kuboresha utendaji wa Kifaa cha MaxAI Chrome.",
-    "how_we_use_your_information__list_2": "Kuchambua mifumo ya matumizi ili kuelewa mapendeleo ya watumiaji.",
-    "how_we_use_your_information__list_3": "Kutambua na kutatua matatizo ya Kifaa cha Chrome.",
-    "how_we_use_your_information__list_4": "Kuboresha uzoefu wa jumla wa mtumiaji.",
-    "information_security__title": "Usalama wa Taarifa",
-    "information_security__content": "Tunachukua hatua sahihi kulinda taarifa tuliyokusanya dhidi ya ufikiaji usioidhinishwa, ufichuzi, ubadilishaji, au uharibifu. Tunafuata mazoea yanayokubalika katika tasnia ili kuhakikisha usalama wa data tunayosimamia",
-    "marketing_and_advertising__title": "Masoko na Matangazo",
-    "marketing_and_advertising__content_part_1": "Pale inapohitajika kisheria tutakutumia taarifa za masoko, ikiwa ni pamoja na kukutumia sasisho na taarifa kuhusu bidhaa na huduma zetu mpya, matukio yanayokuja au matangazo mengine au habari, ikiwa ni pamoja na kupitia barua pepe au arifa ya kubonyeza, kama inavyoruhusiwa na sheria. Unaweza kuchagua kutopokea barua pepe hizo kwa kufuata maagizo katika kila barua pepe ya matangazo tunayokutumia au kwa kusasisha mipangilio yako ya mtumiaji. Aidha, ikiwa wakati wowote unataka kutopokea mawasiliano ya baadaye au unataka jina lako liondolewe kutoka kwenye orodha yetu ya barua pepe, tafadhali wasiliana nasi kwa ",
-    "marketing_and_advertising__content_part_2": " Tutakuendelea kuwasiliana nawe kupitia barua pepe kuhusu utoaji wa Huduma zetu na kujibu maombi yako.",
-    "changes_to_the_privacy_policy__title": "Mabadiliko kwenye Sera ya Faragha",
-    "changes_to_the_privacy_policy__content": "Tunaweza kusasisha Sera yetu ya Faragha mara kwa mara. Mabadiliko yoyote kwenye Sera hii ya Faragha yatachapishwa kwenye ukurasa huu, na tarehe ya \"Imesasishwa Mwisho\" juu itarekebishwa ipasavyo. Matumizi yako endelevu ya Kifaa cha MaxAI Chrome baada ya mabadiliko yoyote kwenye Sera ya Faragha yanathibitisha kukubali kwako sera iliyosasishwa.",
-    "contact_us__title": "Wasiliana Nasi",
-    "contact_us__content": "Ikiwa una maswali au wasiwasi wowote kuhusu Sera yetu ya Faragha, tafadhali jisikie huru kuwasiliana nasi kwa "
-  },
+  "privacy": {},
   "industry": {
     "executives__title": "Viongozi na Wamiliki wa Biashara",
     "marketing__title": "Masoko & Uhusiano na Wateja",
@@ -582,5 +553,9 @@
     "faq__question7__description__part2": "Matumizi mabaya, udanganyifu, na uvunjaji wa sera utasababisha akaunti yako kufungiwa na tume zilizopo na zijazo kufutwa.",
     "faq__question5__description__part1": "Unaweza kuingia kwenye akaunti yako ya ushirika kwenye",
     "faq__question5__description__part2": "kufuatilia utendaji wako wa rufaa."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Tumia AI kwa Bofya Moja Popote (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Njia ya haraka zaidi ya kutumia AI popote: mazungumzo ya AI, kuandika, ukaguzi wa sarufi, ufafanuzi, muhtasari, utafutaji, usimamizi wa maoni, na zaidi."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Bild kopieren",
     "share": "Teilen",
     "link_copied": "Link kopiert",
-    "sign_up": "Registrieren"
+    "sign_up": "Registrieren",
+    "follow": "Folgen"
   },
   "button": {
     "add_to_chrome_for_free": "Kostenlos zu Chrome hinzufügen",
@@ -340,7 +341,16 @@
     "home_page__user_comment__type_financial_services__label": "Finanzdienstleistungen",
     "home_page__user_comment__type_real_estate__label": "Immobilien",
     "home_page__user_comment__type_technical__label": "Technisch",
-    "pricing__save_up_to": "Sparen Sie {{NUM}}%"
+    "pricing__save_up_to": "Sparen Sie {{NUM}}%",
+    "email_unsubscribe_success__title": "Erfolgreich abgemeldet",
+    "email_unsubscribe_success__content": "Ihre E-Mail-Adresse wurde erfolgreich von unserer Newsletter-Liste entfernt. Sie werden keine zukünftigen Updates mehr erhalten. Es tut uns leid, dass Sie gehen, aber Sie sind jederzeit herzlich willkommen, um den neuesten Inhalt nachzuholen!",
+    "languages__title": "Wählen Sie Ihr Land oder Ihre Region",
+    "pricing__productivity": "Produktivität",
+    "contact_us__item1": "Für Fragen oder Anregungen schreiben Sie uns eine Zeile an",
+    "contact_us__item2": "Folgen Sie uns auf Twitter für die neuesten Updates und Tipps:",
+    "contact_us__item3": "Unterstützen Sie uns, indem Sie ★★★★★ bewerten auf",
+    "contact_us__item3__store": "Erweiterung Webshop",
+    "contact_us__item4": "Helfen Sie anderen, indem Sie diese Erweiterung teilen:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
@@ -492,46 +502,7 @@
     "plan_features_table__gemini_tooltip_desc": "Googles leistungsfähigstes und vielseitigstes Modell. Von Grund auf für Multimodalität entwickelt. Gemini auf MaxAI befindet sich derzeit in der Beta-Phase und unterstützt nur Text und Code. In Kürze wird die Unterstützung für Bilder, Videos und Audio hinzugefügt.",
     "footer__resources": "Ressourcen"
   },
-  "privacy": {
-    "banner__title": "Unser Engagement für Ihre Privatsphäre",
-    "banner__content": "Bei MaxAI ist Ihre Privatsphäre nicht nur eine Priorität, sondern ein Prinzip. In einer Zeit, in der digitale Spuren umfassend verfolgt werden, gehen wir mit der MaxAI.me Chrome-Erweiterung einen anderen Weg. Wir sind nicht hier, um Ihre persönlichen Informationen zu monetarisieren; wir sind hier, um Ihre digitale Erfahrung sicher und privat zu verbessern.",
-    "summary_1__title": "Wir wissen nur, was notwendig ist",
-    "summary_1__content": "Wir erstellen keine Akte über Sie. Unser Wissen beschränkt sich auf Ihre E-Mail-Adresse und Ihren Namen - gerade genug, um Sie auf verschiedenen Geräten zu erkennen und Ihre Einstellungen zu synchronisieren. Darüber hinaus bleibt Ihr persönliches Leben genau das: persönlich.",
-    "summary_2__title": "Wir sehen Ihre Browser-/Chatdaten nicht",
-    "summary_2__content": "Ihre Browser- und Chatgewohnheiten gehören Ihnen. Die MaxAI Chrome-Erweiterung funktioniert ohne Eingriffe in Ihre persönlichen Aktivitäten online. Wir sammeln keine Informationen über die von Ihnen besuchten Websites oder den von Ihnen genutzten Inhalt. Unser Fokus liegt ausschließlich darauf, Ihre Erfahrung zu verbessern, ohne Ihre Privatsphäre zu beeinträchtigen.",
-    "summary_3__title": "Wir monetarisieren Ihr Vertrauen nicht",
-    "summary_3__content": "Wir glauben daran, Ihr Vertrauen zu verdienen und zu bewahren, nicht es zu verkaufen. Ihre Daten sind für uns keine Ware. Daher verkaufen wir keinerlei Informationen an Dritte. Unser Geschäftsmodell basiert darauf, ein überlegenes Produkt anzubieten, nicht darauf, Benutzerdaten für Gewinn zu nutzen.",
-    "section_1__part1": "Unsere Mission mit MaxAI ist einfach: ",
-    "section_1__strong": "ein datenschutzorientiertes Tool anzubieten, das Sie und Ihre digitalen Grenzen respektiert.",
-    "section_1__part2": "Wir sind im Geschäft der Innovation, nicht des Informationsverkaufs. Ihre digitale Reise sollte von Ihnen kontrolliert werden, und mit MaxAI stellen wir sicher, dass dies so bleibt.",
-    "privacy_policy__title": "Datenschutzrichtlinie",
-    "privacy_policy__update_time": "Zuletzt aktualisiert: 29. Juni 2023",
-    "privacy_policy__description_1": "Willkommen bei der Datenschutzrichtlinie für die MaxAI.me Chrome-Erweiterung (im Folgenden als \"MaxAI\", \"MaxAI.me\", \"wir\", \"uns\" oder \"unser\" bezeichnet). Wir verstehen die Bedeutung Ihrer Privatsphäre und sind bestrebt, Ihre persönlichen Informationen zu schützen. Diese Datenschutzrichtlinie beschreibt die Arten von Informationen, die wir sammeln, wie wir sie verwenden und welche Maßnahmen wir ergreifen, um Ihre Daten zu schützen.",
-    "privacy_policy__description_2": "Durch die Verwendung der MaxAI Chrome-Erweiterung erkennen Sie die Bedingungen dieser Datenschutzrichtlinie an und stimmen ihnen zu. Wenn Sie mit einem Teil dieser Datenschutzrichtlinie nicht einverstanden sind, verwenden Sie bitte die MaxAI Chrome-Erweiterung nicht.",
-    "information_we_do_not_collect__title": "Informationen, die wir nicht sammeln",
-    "personal_information__title": "Persönliche Informationen",
-    "personal_information__content": "Wir nehmen Ihren Datenschutz ernst und erfassen nur Ihre E-Mail-Adresse und Ihren Namen, um Sie bei der Anmeldung zu identifizieren und Ihre Einstellungen auf verschiedenen Browsern und Geräten zu synchronisieren. Ansonsten erfassen wir keine weiteren persönlichen Informationen. Die MaxAI Chrome-Erweiterung funktioniert ohne zusätzliche personenbezogene Daten von Ihnen, und wir speichern solche Informationen nicht.",
-    "information_we_collect__title": "Informationen, die wir sammeln",
-    "chrome_extension_automatically_generated_reports__title": "Automatisch generierte Berichte der Chrome-Erweiterung",
-    "chrome_extension_automatically_generated_reports__content": "Eine der Arten von Informationen, die wir von Benutzern sammeln, sind automatisch generierte Berichte der Chrome-Erweiterung. Diese Informationen dienen ausschließlich dazu, die Funktionalität der MaxAI Chrome-Erweiterung zu verbessern und das Nutzungsverhalten unserer Benutzer zu verstehen. Die gesammelten Daten können technische Informationen wie Browserversion, Erweiterungsversion und Betriebssystem umfassen.",
-    "google_analytics_title": "Google Analytics",
-    "google_analytics_content": "Die zweite Art von Informationen, die wir sammeln, sind Standardinformationen über die Interaktionen der Benutzer mit der MaxAI Chrome-Erweiterung durch die Verwendung von Google Analytics, einem Webanalysedienst von Google Inc. (\"Google\"). Google Analytics verwendet Cookies, um uns bei der Analyse der Nutzung der Erweiterung durch die Benutzer zu unterstützen. Die durch die Cookies erzeugten Informationen über Ihre Nutzung der Erweiterung (einschließlich Ihrer IP-Adresse) werden an Server von Google in den USA übertragen und dort gespeichert.",
-    "how_we_use_your_information__title": "Wie wir Ihre Informationen verwenden",
-    "how_we_use_your_information__sub_title": "Wir verwenden die von uns gesammelten Informationen, einschließlich automatisch generierter Berichte der Chrome-Erweiterung, um:",
-    "how_we_use_your_information__list_1": "Die Funktionalität der MaxAI Chrome-Erweiterung verbessern.",
-    "how_we_use_your_information__list_2": "Nutzungsmuster analysieren, um Benutzerpräferenzen besser zu verstehen.",
-    "how_we_use_your_information__list_3": "Probleme mit der Chrome-Erweiterung identifizieren und beheben.",
-    "how_we_use_your_information__list_4": "Das allgemeine Benutzererlebnis verbessern.",
-    "information_security__title": "Informationssicherheit",
-    "information_security__content": "Wir ergreifen angemessene Maßnahmen, um die begrenzten Informationen, die wir sammeln, vor unbefugtem Zugriff, Offenlegung, Änderung oder Zerstörung zu schützen. Wir folgen branchenüblichen Praktiken, um die Sicherheit der von uns verwalteten Daten zu gewährleisten.",
-    "marketing_and_advertising__title": "Marketing und Werbung",
-    "marketing_and_advertising__content_part_1": "Wo es gesetzlich vorgeschrieben ist, senden wir Ihnen nur Marketinginformationen zu, einschließlich Updates und Informationen über unsere neuen Produkte und Dienstleistungen, bevorstehende Veranstaltungen oder andere Werbeaktionen oder Neuigkeiten, per E-Mail oder Push-Benachrichtigung, wie es das Gesetz erlaubt. Sie können den Erhalt solcher E-Mails abbestellen, indem Sie den Anweisungen in jeder Werbe-E-Mail folgen, die wir Ihnen senden, oder indem Sie Ihre Benutzereinstellungen aktualisieren. Darüber hinaus, wenn Sie zu einem beliebigen Zeitpunkt keine zukünftigen Kommunikationen erhalten möchten oder Ihren Namen aus unseren Mailinglisten entfernen möchten, kontaktieren Sie uns bitte unter ",
-    "marketing_and_advertising__content_part_2": " Wir werden Sie weiterhin per E-Mail bezüglich der Bereitstellung unserer Dienstleistungen kontaktieren und auf Ihre Anfragen antworten.",
-    "changes_to_the_privacy_policy__title": "Änderungen der Datenschutzrichtlinie",
-    "changes_to_the_privacy_policy__content": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Alle Änderungen an dieser Datenschutzrichtlinie werden auf dieser Seite veröffentlicht und das Datum \"Zuletzt aktualisiert\" oben wird entsprechend überarbeitet. Ihre fortgesetzte Nutzung der MaxAI Chrome-Erweiterung nach Änderungen an der Datenschutzrichtlinie stellt Ihre Zustimmung zur aktualisierten Richtlinie dar.",
-    "contact_us__title": "Kontaktieren Sie uns",
-    "contact_us__content": "Wenn Sie Fragen oder Bedenken zu unserer Datenschutzrichtlinie haben, können Sie uns gerne unter "
-  },
+  "privacy": {},
   "industry": {
     "executives__title": "Führungskräfte und Geschäftsinhaber",
     "marketing__title": "Marketing & Kundenservice",
@@ -582,5 +553,9 @@
     "faq__question7__description__part2": "Missbrauch, Manipulation und Verstoß gegen Richtlinien führen zur Sperrung Ihres Kontos und zum Verlust aller bestehenden und zukünftigen Provisionen.",
     "faq__question5__description__part1": "Sie können sich in Ihr Partnerkonto einloggen, um",
     "faq__question5__description__part2": "Ihre Empfehlungsleistung zu verfolgen."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Überall KI mit nur einem Klick nutzen (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Der schnellste Weg, KI überall zu nutzen: KI-Chat, Schreiben, Grammatikprüfung, Erklärung, Zusammenfassung, Suche, Prompt-Verwaltung und mehr."
   }
 }

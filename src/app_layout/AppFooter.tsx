@@ -2,13 +2,17 @@ import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
 import { capitalize } from 'lodash-es';
 import isRegExp from 'lodash-es/isRegExp';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import { useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import FooterList from '@/components/Footerlist';
 import ProLink from '@/components/ProLink';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
-import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
+import {
+  APP_EXTERNAL_LINKS,
+  APP_PROJECT_LINK,
+  PROMPT_LIBRARY_PROXY_BASE_PATH,
+} from '@/global_constants';
 import AppLogo from '@/page_components/AppLogo';
 
 const footerBlackList = [
@@ -138,7 +142,7 @@ const AppFooter = () => {
                       label: t('modules:footer__1_click_prompts'),
                       // icon: <CustomIcon icon='PromptLogo' />,
                       icon: null,
-                      link: '/prompts',
+                      link: `${PROMPT_LIBRARY_PROXY_BASE_PATH}/library`,
                     },
                   ]}
                 />

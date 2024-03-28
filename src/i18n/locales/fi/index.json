@@ -42,7 +42,8 @@
     "copy_image": "Kopioi kuva",
     "share": "Jaa",
     "link_copied": "Linkki kopioitu",
-    "sign_up": "Rekisteröidy"
+    "sign_up": "Rekisteröidy",
+    "follow": "Seuraa"
   },
   "button": {
     "add_to_chrome_for_free": "Lisää Chromeen ilmaiseksi",
@@ -340,7 +341,16 @@
     "home_page__user_comment__type_financial_services__label": "Rahoituspalvelut",
     "home_page__user_comment__type_real_estate__label": "Kiinteistö",
     "home_page__user_comment__type_technical__label": "Tekninen",
-    "pricing__save_up_to": "Säästä {{NUM}}%"
+    "pricing__save_up_to": "Säästä {{NUM}}%",
+    "email_unsubscribe_success__title": "Poistuminen onnistui",
+    "email_unsubscribe_success__content": "Sähköpostiosoitteesi on poistettu onnistuneesti uutiskirjelistaltamme. Et enää vastaanota tulevia päivityksiä. Pahoittelemme, että lähdet, mutta olet aina tervetullut takaisin tutustumaan uusimpaan sisältöön!",
+    "languages__title": "Valitse maasi tai alueesi",
+    "pricing__productivity": "Tuottavuus",
+    "contact_us__item1": "Jos sinulla on kysyttävää tai ehdotuksia, lähetä meille viesti osoitteeseen",
+    "contact_us__item2": "Seuraa meitä Twitterissä uusimpien päivitysten ja vinkkien saamiseksi:",
+    "contact_us__item3": "Tukeaksesi meitä, anna arvio ★★★★★",
+    "contact_us__item3__store": "Laajennuksen verkkokaupassa",
+    "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -492,46 +502,7 @@
     "plan_features_table__gemini_tooltip_desc": "Googlen kyvykkäin ja yleisin malli. Rakennettu alusta asti monimuotoisuutta varten. Gemini MaxAI:ssa on tällä hetkellä beetavaihe, joka tukee vain tekstiä ja koodia, mutta pian lisätään tuki kuvien, videoiden ja äänen käytölle.",
     "footer__resources": "Resurssit"
   },
-  "privacy": {
-    "banner__title": "Sitoutumisemme yksityisyyteesi",
-    "banner__content": "MaxAI:ssa yksityisyytesi ei ole vain etusijalla; se on periaate. Digitaalisten jalanjälkien laajasti seuratessa otamme MaxAI.me Chrome-laajennuksella erilaisen lähestymistavan. Emme pyri hyödyntämään henkilökohtaisia tietojasi taloudellisesti, vaan parantamaan digitaalista kokemustasi turvallisesti ja yksityisesti.",
-    "summary_1__title": "Tiedämme vain tarpeellisen",
-    "summary_1__content": "Emme kerää sinusta kokoelmaa. Tiedämme vain sähköpostiosoitteesi ja nimesi - riittävästi tunnistaaksemme sinut eri laitteilla ja synkronoidaksemme asetuksesi. Sen lisäksi henkilökohtainen elämäsi pysyy juuri sellaisena: henkilökohtaisena.",
-    "summary_2__title": "Emme näe selaus-/keskustelutietojasi",
-    "summary_2__content": "Selaus- ja keskustelutottumuksesi ovat omiasi. MaxAI Chrome-laajennus toimii ilman puuttumista henkilökohtaisiin toimintoihisi verkossa. Emme kerää tietoja käymistäsi sivustoista tai vuorovaikutuksestasi sisällön kanssa. Tavoitteenamme on parantaa kokemustasi kompromisoimatta yksityisyyttäsi.",
-    "summary_3__title": "Emme hyödynnä luottamustasi taloudellisesti",
-    "summary_3__content": "Uskomme ansaitsevamme ja säilyttävämme luottamuksesi, emme myy sitä. Tietosi eivät ole meille kauppatavaraa. Liiketoimintamallimme perustuu erinomaisen tuotteen tarjoamiseen, ei käyttäjätietojen hyödyntämiseen voiton tavoittelussa.",
-    "section_1__part1": "Missiomme MaxAI:n kanssa on yksinkertainen: tarjota ",
-    "section_1__strong": "yksityisyyteen keskittyvä työkalu, joka kunnioittaa sinua ja digitaalisia rajojasi.",
-    "section_1__part2": "Olemme innovaation liiketoiminnassa, emme tiedon myynnissä. Digitaalinen matkasi tulisi olla sinun hallinnassasi, ja MaxAI:n avulla varmistamme, että se pysyy niin.",
-    "privacy_policy__title": "Tietosuojakäytäntö",
-    "privacy_policy__update_time": "Päivitetty viimeksi: 29. kesäkuuta 2023",
-    "privacy_policy__description_1": "Tervetuloa MaxAI.me Chrome-laajennuksen tietosuojakäytäntöön (jäljempänä \"MaxAI\", \"MaxAI.me\", \"me\", \"meitä\" tai \"meidän\"). Ymmärrämme yksityisyytesi tärkeyden ja sitoudumme suojaamaan henkilökohtaisia tietojasi. Tämä tietosuojakäytäntö kuvaa, mitä tietoja keräämme, miten käytämme niitä ja mitä toimenpiteitä toteutamme tietojesi suojaamiseksi.",
-    "privacy_policy__description_2": "Käyttämällä MaxAI Chrome-laajennusta hyväksyt tämän tietosuojakäytännön ehdot ja edellytykset. Jos et hyväksy tämän tietosuojakäytännön osaa, älä käytä tai asenna MaxAI Chrome-laajennusta.",
-    "information_we_do_not_collect__title": "Emme kerää seuraavia tietoja",
-    "personal_information__title": "Henkilökohtaiset tiedot",
-    "personal_information__content": "Otamme yksityisyytesi vakavasti ja keräämme vain sähköpostiosoitteesi ja nimesi tunnistamaan sinut kirjautuessasi sisään ja synkronoimaan asetuksesi eri selaimissa ja laitteissa. Emme kerää muita henkilökohtaisia tietoja. MaxAI Chrome-laajennus toimii ilman tarvetta lisätä sinulta muita henkilötietoja, emmekä tallenna sellaisia tietoja.",
-    "information_we_collect__title": "Keräämämme tiedot",
-    "chrome_extension_automatically_generated_reports__title": "Chrome-laajennuksen automaattisesti luodut raportit",
-    "chrome_extension_automatically_generated_reports__content": "Yksi käyttäjiltä keräämistämme tiedoista on Chrome-laajennuksen automaattisesti luotu raportti. Tätä tietoa käytetään yksinomaan MaxAI Chrome-laajennuksen toiminnallisuuden parantamiseen ja käyttötapojen ymmärtämiseen. Kerätyt tiedot voivat sisältää teknisiä tietoja, kuten selaimen version, laajennuksen version ja käyttöjärjestelmän.",
-    "google_analytics_title": "Google Analytics",
-    "google_analytics_content": "Toinen keräämämme tietotyyppi on oletustiedot käyttäjien vuorovaikutuksesta MaxAI Chrome-laajennuksen kanssa Google Analyticsin avulla. Google Analytics käyttää evästeitä auttaakseen meitä analysoimaan käyttäjien laajennuksen käyttöä. Evästeiden avulla luotuja tietoja käytöstäsi (mukaan lukien IP-osoitteesi) siirretään ja tallennetaan Googlelle Yhdysvalloissa sijaitseville palvelimille.",
-    "how_we_use_your_information__title": "Miten käytämme tietojasi",
-    "how_we_use_your_information__sub_title": "Käytämme keräämiämme tietoja, mukaan lukien Chrome-laajennuksen automaattisesti luodut raportit, seuraaviin tarkoituksiin:",
-    "how_we_use_your_information__list_1": "Paranna MaxAI Chrome-laajennuksen toiminnallisuutta.",
-    "how_we_use_your_information__list_2": "Analysoi käyttötapoja ymmärtääksemme paremmin käyttäjien mieltymyksiä.",
-    "how_we_use_your_information__list_3": "Tunnista ja korjaa ongelmia laajennuksessa.",
-    "how_we_use_your_information__list_4": "Paranna kokonaisvaltaista käyttäjäkokemusta.",
-    "information_security__title": "Tietoturva",
-    "information_security__content": "Käytämme asianmukaisia toimenpiteitä rajoitetusti kerättyjen tietojen suojaamiseksi luvattomalta pääsyltä, paljastumiselta, muuttamiselta tai tuhoamiselta. Noudatamme alan standardeja varmistaaksemme hallinnoimiemme tietojen turvallisuuden",
-    "marketing_and_advertising__title": "Markkinointi ja mainonta",
-    "marketing_and_advertising__content_part_1": "Lakisääteisesti lähetämme sinulle markkinointitietoja, mukaan lukien päivitykset ja tiedot uusista tuotteistamme ja palveluistamme, tulevista tapahtumista tai muista tarjouksista tai uutisista, mukaan lukien sähköpostitse tai push-ilmoituksina, lain sallimissa rajoissa. Voit peruuttaa tilauksen vastaanottamasta tällaisia sähköposteja noudattamalla ohjeita jokaisessa lähettämässämme mainossähköpostissa tai päivittämällä käyttäjäasetuksiasi. Lisäksi, jos haluat olla vastaanottamatta tulevia viestintöjä tai haluat poistaa nimesi postituslistaltamme, ota meihin yhteyttä osoitteessa ",
-    "marketing_and_advertising__content_part_2": " Jatkamme sinulle sähköpostitse yhteydenpitoa liittyen palveluidemme tarjoamiseen ja vastataksemme pyyntöihisi.",
-    "changes_to_the_privacy_policy__title": "Muutokset tietosuojakäytäntöön",
-    "changes_to_the_privacy_policy__content": "Voimme päivittää tietosuojakäytäntöämme aika ajoin. Kaikki muutokset tähän tietosuojakäytäntöön julkaistaan tällä sivulla, ja \"Päivitetty\" -päivämäärä ylhäällä päivitetään vastaavasti. Jatkamalla MaxAI Chrome -laajennuksen käyttöä muutosten jälkeen hyväksyt päivitetyn käytännön.",
-    "contact_us__title": "Ota yhteyttä",
-    "contact_us__content": "Jos sinulla on kysyttävää tai huolenaiheita tietosuojakäytännöstämme, ota rohkeasti yhteyttä meihin osoitteessa "
-  },
+  "privacy": {},
   "industry": {
     "executives__title": "Johtajat ja liiketoiminnan omistajat",
     "marketing__title": "Markkinointi ja asiakassuhteet",
@@ -582,5 +553,9 @@
     "faq__question7__description__part2": "Väärinkäytökset, väärinkäyttö ja sääntöjen rikkomukset johtavat tilisi sulkemiseen ja kaikkien olemassa olevien ja tulevien provisioiden menettämiseen.",
     "faq__question5__description__part1": "Voit kirjautua sisään kumppanitilillesi osoitteessa",
     "faq__question5__description__part2": "seurataksesi suosittelutoimintaasi."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Käytä 1-Click AI missä tahansa (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Nopein tapa käyttää tekoälyä missä tahansa: AI-keskustelu, kirjoittaminen, kieliopintarkistus, selitys, yhteenveto, haku, aloitteen hallinta ja paljon muuta."
   }
 }

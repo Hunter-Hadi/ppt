@@ -1,9 +1,10 @@
 import ArrowOutwardOutlinedIcon from '@mui/icons-material/ArrowOutwardOutlined';
 import { Box, Stack, SxProps, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
+import ProLink from '@/components/ProLink';
 import ResponsiveImage from '@/components/ResponsiveImage';
 
 interface IProps {
@@ -52,27 +53,30 @@ const PrivacyFriendlyNumbersBox: FC<IProps> = ({ sx }) => {
           {t('pages:home_page__in_numbers__privacy_friendly__description')}
         </Typography>
 
-        <Stack
-          direction={'row'}
-          alignItems='center'
-          spacing={1}
+        <Box
           sx={{
             pb: 1,
             width: 'fit-content',
             borderBottom: '1px solid',
             borderColor: 'text.primary',
-            cursor: 'pointer',
-          }}
-          onClick={() => {
-            router.push('/privacy');
           }}
         >
-          <Typography variant='custom' fontSize={16} lineHeight={1.5}>
-            {t('pages:home_page__in_numbers__privacy_friendly__explore')}
-          </Typography>
+          <ProLink
+            href='/privacy'
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              color: 'text.primary',
+              gap: 1,
+            }}
+          >
+            <Typography variant='custom' fontSize={16} lineHeight={1.5}>
+              {t('pages:home_page__in_numbers__privacy_friendly__explore')}
+            </Typography>
 
-          <ArrowOutwardOutlinedIcon />
-        </Stack>
+            <ArrowOutwardOutlinedIcon />
+          </ProLink>
+        </Box>
       </Stack>
       <Box p={2}>
         <ResponsiveImage

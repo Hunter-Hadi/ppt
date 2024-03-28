@@ -2,8 +2,8 @@ import CircularProgress from '@mui/material/CircularProgress';
 import { SxProps } from '@mui/material/styles';
 import saveAs from 'file-saver';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { promiseTimeout } from '@/features/common/utils/promiseUtils';
 import { ContextMenuIcon } from '@/features/share_conversation/components/ContextMenuIcon';
@@ -21,7 +21,7 @@ const SidebarAIMessageAttachmentsDownloadButton: FC<{
   message: IChatMessage;
   sx?: SxProps;
 }> = (props) => {
-  const { t } = useTranslation(['common', 'client']);
+  const { t } = useTranslation();
   const [downloading, setDownloading] = useState(false);
   const { message, sx } = props;
   const attachments = getChatMessageAttachments(message);

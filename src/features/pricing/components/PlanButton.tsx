@@ -1,8 +1,8 @@
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 import { Box, Button, ButtonProps, Stack, Typography } from '@mui/material';
 import { capitalize } from 'lodash-es';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
 import { APP_PROJECT_LINK } from '@/global_constants';
@@ -27,7 +27,7 @@ const PlanButton: FC<IPlanButtonProps> = (props) => {
     ...resetProps
   } = props;
 
-  const { t } = useTranslation(['button']);
+  const { t } = useTranslation();
 
   const planName = useMemo(() => {
     return renderTypeToName(renderType);
@@ -39,10 +39,10 @@ const PlanButton: FC<IPlanButtonProps> = (props) => {
     }
 
     if (planName === 'free') {
-      return t('start_for', { plan: capitalize(planName) });
+      return t('button:start_for', { plan: capitalize(planName) });
     }
 
-    return t('upgrade_to', { plan: capitalize(planName) });
+    return t('button:upgrade_to', { plan: capitalize(planName) });
     // return `Start your 3-day free trial`;
   }, [btnText, planName, t]);
 
@@ -88,7 +88,7 @@ const PlanButton: FC<IPlanButtonProps> = (props) => {
           />
 
           <Typography variant='caption' color='text.primary'>
-            {t('cancel_anytime')}
+            {t('button:cancel_anytime')}
           </Typography>
         </Stack>
       )}

@@ -4,8 +4,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import '@/styles/globals.css';
-// init i18n
-import '@/i18n';
 import '@/features/share_conversation/styles/markdown.css';
 
 import CloseIcon from '@mui/icons-material/Close';
@@ -15,6 +13,8 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
+import { appWithTranslation } from 'next-i18next';
+import nextI18nextConfig from 'next-i18next.config';
 import { SnackbarKey, SnackbarProvider } from 'notistack';
 import React, { useEffect } from 'react';
 import { RecoilRoot } from 'recoil';
@@ -120,4 +120,5 @@ function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
-export default App;
+
+export default appWithTranslation(App, nextI18nextConfig);

@@ -1,9 +1,10 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
+import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 import {
   LOVED_BY_NUM,
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
@@ -12,7 +13,6 @@ import {
 import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
-import IndicatorDecorator from '@/page_components/IndicatorDecorator';
 
 interface IProps {
   propRef?: string;

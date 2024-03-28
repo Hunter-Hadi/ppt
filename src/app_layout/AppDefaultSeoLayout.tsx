@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import { DefaultSeo, DefaultSeoProps } from 'next-seo';
 import React, { FC, useMemo } from 'react';
 
@@ -6,18 +7,16 @@ interface IAppDefaultSeoProps extends DefaultSeoProps {
   socialImage?: string;
 }
 
-const DEFAULT_TITLE =
-  'MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)';
-const DEFAULT_DESCRIPTION =
-  'The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more.';
-
 const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
   const router = useRouter();
+  const { t } = useTranslation();
   const { title, description, openGraph, socialImage, ...rest } = props;
   /**
    * SEO默认值
    */
   const defaultSeoConfig: DefaultSeoProps = useMemo(() => {
+    const DEFAULT_TITLE = t('seo:default__title');
+    const DEFAULT_DESCRIPTION = t('seo:default__description');
     return {
       title: title ?? DEFAULT_TITLE,
       description: description ?? DEFAULT_DESCRIPTION,
@@ -66,7 +65,7 @@ const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
         },
       ],
     };
-  }, [title, description, socialImage, rest.canonical]);
+  }, [title, description, socialImage, rest.canonical, t]);
   const canonicalUrl = rest.canonical
     ? rest.canonical
     : `${defaultSeoConfig.canonical}${

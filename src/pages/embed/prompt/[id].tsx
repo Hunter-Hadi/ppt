@@ -3,6 +3,7 @@ import SendIcon from '@mui/icons-material/Send';
 import { Button, Stack, Typography } from '@mui/material';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ParsedUrlQuery } from 'querystring';
 import React, { FC, useEffect, useState } from 'react';
 import { useRecoilValue } from 'recoil';
@@ -158,6 +159,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
+  const locale = context?.params?.locale?.toString() || 'en';
+  const translationData = await serverSideTranslations(locale);
   try {
     const params = context.params as ParsedUrlQuery;
     const id = params?.id;
@@ -182,6 +185,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
           },
           promptDetail,
           updatedAt: Date.now(),
+          ...translationData,
         },
         revalidate: 86400,
       };
@@ -198,6 +202,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
           'Complete your everyday tasks with Prompt Management and 1-Click Prompts in minutes that used to take hours.',
       },
       updatedAt: Date.now(),
+
+      ...translationData,
     },
     revalidate: 1,
   };
