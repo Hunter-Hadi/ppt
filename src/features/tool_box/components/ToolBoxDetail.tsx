@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import { FC, useMemo, useState } from 'react';
+import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
@@ -8,7 +8,9 @@ import ToolBoxBanner from '@/features/tool_box/components/ToolBoxBanner';
 import ToolBoxIcon from '@/features/tool_box/components/ToolBoxIcon';
 import { IToolUrkKeyType, toolBoxObjData } from '@/features/tool_box/constant';
 
-import ToolBoxFunctionalityPdfToImg from './ToolBoxFunctionality/ToolBoxFunctionalityPdfToImg';
+const ToolBoxFunctionalityPdfToImg = lazy(
+  () => import('./ToolBoxFunctionality/ToolBoxFunctionalityPdfToImg'),
+);
 
 interface IToolBoxDetailProps {
   urlKey: IToolUrkKeyType;
@@ -65,8 +67,13 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
             </Typography>
           </UploadButton>
         )}
-        {urlKey === 'pdf-to-png' && fileList && (
-          <ToolBoxFunctionalityPdfToImg fileList={fileList} />
+        {urlKey === 'pdf-to-png' && fileList && fileList?.length > 0 && (
+          <Suspense fallback={<div>Loading...</div>}>
+            <ToolBoxFunctionalityPdfToImg
+              fileList={fileList}
+              onRemoveFile={() => setFileList(null)}
+            />
+          </Suspense>
         )}
       </Box>
     </AppContainer>
