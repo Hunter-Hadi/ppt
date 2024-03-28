@@ -22,10 +22,7 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
         margin: '0 auto',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: {
-          xs: 'center',
-          md: 'center',
-        },
+        alignItems: 'center',
       }}
     >
       <Typography
@@ -33,7 +30,7 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
         variant='custom'
         sx={{
           fontSize: {
-            xs: 40,
+            xs: 35,
             lg: 48,
           },
           fontWeight: 700,
@@ -43,9 +40,11 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
       </Typography>
 
       <Typography
-        fontSize={'18px'}
         sx={{
-          fontSize: '16px',
+          fontSize: {
+            xs: 15,
+            lg: 20,
+          },
         }}
         mt='24px'
       >

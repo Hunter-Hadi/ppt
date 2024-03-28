@@ -4,6 +4,7 @@ export interface IToolData {
   title: string;
   description: string;
   urlKey: IToolUrkKeyType;
+  accept: string;
 }
 
 export const toolBoxObjData: { [key in IToolUrkKeyType]: IToolData } = {
@@ -12,5 +13,6 @@ export const toolBoxObjData: { [key in IToolUrkKeyType]: IToolData } = {
     title: 'PDF to PNG',
     description: '将 pdf 转换为 png 并将每个页面下载为图像',
     urlKey: 'pdf-to-png',
+    accept: 'application/pdf',
   },
 };
