@@ -556,6 +556,8 @@
   },
   "seo": {
     "default__title": "MaxAI.me: የአንድ-ጊዜ AI በማንኛውም አቅርቦት (ChatGPT, Claude, Gemini, Bard, Bing) ይጠቀሙ",
-    "default__description": "AI በማንኛውም አቅርቦት: AI ውይይት, መጻፍ, ግራጫ ማስተማር, መግለጫ, ጥቅምት, ፍለጋ አሳሽ እና ተጨማሪ ግምገማ እና ተጨማሪ መፍጠሪያ"
+    "default__description": "AI በማንኛውም አቅርቦት: AI ውይይት, መጻፍ, ግራጫ ማስተማር, መግለጫ, ጥቅምት, ፍለጋ አሳሽ እና ተጨማሪ ግምገማ እና ተጨማሪ መፍጠሪያ",
+    "maintain__title": "በስርዓት ላይ | MaxAI.me",
+    "affiliate__title": "አፍሪቃውን ፕሮግራም | MaxAI.me"
   }
 }

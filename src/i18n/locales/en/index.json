@@ -602,6 +602,51 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)",
-    "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more."
+    "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more.",
+    
+    "maintain__title": "In maintenance | MaxAI.me",
+
+    "affiliate__title": "Affiliate Program | MaxAI.me",
+    "affiliate__description": "Get paid with MaxAI affiliate program. Join our affiliate program and earn 25% commission for sharing MaxAI!",
+    
+    "contact_us__title": "Contact Us | MaxAI.me",
+    
+    "email_unsubscribe_success__title": "Email unsubscribe success | MaxAI.me",
+    
+    "learning_center__title": "Learning Center | MaxAI.me",
+    
+    "pricing__title": "Pricing | MaxAI.me",
+    
+    "privacy__title": "Privacy Policy | MaxAI.me",
+    "privacy__description": "Read the MaxAI.me privacy policy.",
+
+    "prompts__title": "Prompts | MaxAI.me",
+    "prompts__description": "Complete your everyday tasks with Prompt Management and 1-Click Prompts in minutes that used to take hours.",
+
+    "release_notes__title": "Release notes | MaxAI.me",
+
+    "share_conversation__title":"Share Conversation | MaxAI.me",
+
+    "uninstall__title": "Uninstall | MaxAI.me",
+
+    "terms__title": "Terms of Service | MaxAI.me",
+    "terms__description": "Read the MaxAI.me terms of service.",
+
+    "use_cases__consulting__title": "Consulting | MaxAI.me",
+    "use_cases__education__title": "Education | MaxAI.me",
+    "use_cases__executives__title": "Executives | MaxAI.me",
+    "use_cases__finance__title": "Finance | MaxAI.me",
+    "use_cases__hr__title": "HR | MaxAI.me",
+    "use_cases__marketing__title": "Marketing | MaxAI.me",
+    "use_cases__real_estate__title": "Real-estate | MaxAI.me",
+    "use_cases__tech__title": "Tech | MaxAI.me",
+
+    "usechatgpt__title": "UseChatGPT.AI: Use AI Anywhere (ChatGPT, Gemini, Bing, Claude)",
+    "usechatgpt__description": "The fastest way to use AI anywhere online. One click to compose, improve writing, summarize, explain, fix spelling & grammar, change tone, translate, or reply to any text.",
+
+    "install__title": "Install | MaxAI.me",
+
+    "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
+    "zmo__description": "Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life."
   }
 }
