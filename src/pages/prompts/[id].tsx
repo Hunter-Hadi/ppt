@@ -42,13 +42,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
   );
   const promptIds: string[] = list.map((item) => item.id);
   console.log('promptIds', promptIds.length, promptIds[0], promptIds[1]);
-  // debugger
-  const testBuildPromptIds = [
-    '093f99337ff362a46a39d3bec58667d1af95e8b1',
-    'de6e82e904df3d8cba10477fc9f844d70bdf2d74',
-  ];
   return {
-    paths: testBuildPromptIds.map((id) => ({
+    paths: promptIds.map((id) => ({
       params: {
         id,
       },
