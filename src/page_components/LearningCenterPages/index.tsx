@@ -1,4 +1,5 @@
 import { Stack } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
@@ -9,6 +10,7 @@ import Introduction from '@/page_components/LearningCenterPages/introduction';
 import LearningCenterSideMenu from '@/page_components/LearningCenterPages/LearningCenterSideMenu';
 
 const LearningCenterPages = () => {
+  const { t } = useTranslation();
   return (
     <AppContainer
       sx={{
@@ -20,7 +22,7 @@ const LearningCenterPages = () => {
       }}
       maxWidth={1312}
     >
-      <AppDefaultSeoLayout title={'Learning Center | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:learning_center__title')} />
       <Stack direction='row' width={'100%'}>
         {/* sideMenu */}
         <LearningCenterSideMenu />

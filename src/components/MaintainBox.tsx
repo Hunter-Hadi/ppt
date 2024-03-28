@@ -1,13 +1,15 @@
 import { Box, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 
 const MaintainBox = () => {
+  const { t } = useTranslation();
   return (
     <AppContainer>
-      <AppDefaultSeoLayout title={'In maintenance | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:maintain__title')} />
       <Box
         sx={{
           height: '100%',

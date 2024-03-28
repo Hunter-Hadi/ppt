@@ -1,5 +1,6 @@
 import { Typography } from '@mui/material';
 import dayjs from 'dayjs';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useState } from 'react';
 import { UAParser } from 'ua-parser-js';
 
@@ -13,6 +14,7 @@ const { getBrowser } = new UAParser();
 
 const UninstallPages: FC = () => {
   // const router = useRouter();
+  const { t } = useTranslation();
   const [domLoaded, setDomLoaded] = useState(false);
   useEffect(() => {
     setDomLoaded(true);
@@ -56,7 +58,7 @@ const UninstallPages: FC = () => {
   }, []);
   return (
     <AppContainer sx={{ bgcolor: '#fff', pt: 4, pb: 10 }}>
-      <AppDefaultSeoLayout title={'Uninstall | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:uninstall__title')} />
       <Typography variant={'h1'} mb={2} textAlign='center'>
         Help us improve
       </Typography>

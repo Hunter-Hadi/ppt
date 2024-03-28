@@ -16,7 +16,7 @@ const EmailUnsubscribeSuccessPages = () => {
         pb: 40,
       }}
     >
-      <AppDefaultSeoLayout title={'Email unsubscribe success | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:email_unsubscribe_success__title')} />
       <Stack
         width={'100%'}
         alignItems='center'

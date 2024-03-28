@@ -13,7 +13,7 @@ const EducationPages = () => {
   const { t } = useTranslation();
   return (
     <>
-      <AppDefaultSeoLayout title={'Education | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:use_cases__education__title')} />
 
       <Banner
         title={t('pages:use_cases__education_page__banner__title')}

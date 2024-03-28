@@ -2,6 +2,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import MoneyOffOutlinedIcon from '@mui/icons-material/MoneyOffOutlined';
 import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
 import { Box, Grid, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useRef, useState } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
@@ -9,6 +10,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 
 const PrivacyPages: FC = () => {
+  const { t } = useTranslation();
   const [activePolicyIndex, setActivePolicyIndex] = useState(0);
   const privacyPolicyRef = useRef<HTMLHeadingElement>(null);
   const informationWeDoNotCollectRef = useRef<HTMLHeadingElement>(null);
@@ -69,8 +71,8 @@ const PrivacyPages: FC = () => {
   return (
     <>
       <AppDefaultSeoLayout
-        description={'Read the MaxAI.me privacy policy.'}
-        title={'Privacy Policy | MaxAI.me'}
+        title={t('seo:privacy__title')}
+        description={t('seo:privacy__description')}
       />
 
       <AppContainer

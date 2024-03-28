@@ -14,7 +14,7 @@ const MarketingPages = () => {
 
   return (
     <>
-      <AppDefaultSeoLayout title={'Marketing | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:use_cases__marketing__title')} />
 
       <Banner
         title={t('pages:use_cases__marketing_page__banner__title')}

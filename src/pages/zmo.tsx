@@ -1,6 +1,7 @@
 import { Card, CardContent, Stack, Typography } from '@mui/material';
 import dayjs from 'dayjs';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, {
   FC,
   useCallback,
@@ -29,7 +30,7 @@ import { webappPost } from '@/utils/request';
 
 const ZmoInstallPage: FC = () => {
   const ZMO_URL = 'https://imgcreator.zmo.ai/';
-
+  const { t } = useTranslation();
   const router = useRouter();
   const { query, isReady } = router;
   const loading = useRef(false);
@@ -77,10 +78,8 @@ const ZmoInstallPage: FC = () => {
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout
-        title={
-          'All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI'
-        }
-        description={`Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life.`}
+        title={t('seo:zmo__title')}
+        description={t('seo:zmo__description')}
         canonical={ZMO_URL}
       />
       <Card

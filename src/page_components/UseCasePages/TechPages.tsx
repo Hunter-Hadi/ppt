@@ -13,7 +13,7 @@ const TechPages = () => {
 
   return (
     <>
-      <AppDefaultSeoLayout title={'Tech | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:use_cases__tech__title')} />
 
       <Banner
         title={t('pages:use_cases__tech_page__banner__title')}
