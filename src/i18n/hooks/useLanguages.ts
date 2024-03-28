@@ -57,7 +57,8 @@ export const useLanguages = () => {
   }, [router.pathname, router.query]);
 
   return {
-    languageLabel: languageCodeMap[currentLocale].label,
+    languageLabel:
+      languageCodeMap[currentLocale]?.label ?? languageCodeMap['en'].label,
     currentLocale: currentLocale,
     routerToLanguagesPagesLink,
   };
