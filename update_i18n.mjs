@@ -285,6 +285,9 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `modules.${key}`)) {
       return `modules.${key}`;
     }
+    if (lodash.get(sourceJson, `seo.${key}`)) {
+      return `seo.${key}`;
+    }
     return key;
   });
   let needUpdateLanguages = i18nDirs;
