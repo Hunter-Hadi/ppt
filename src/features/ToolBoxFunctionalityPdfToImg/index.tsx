@@ -1,180 +1,77 @@
+import { Box, Typography } from '@mui/material';
+import { FC, lazy, Suspense, useMemo, useState } from 'react';
+
+import UploadButton from '@/features/common/components/UploadButton';
+import ToolBoxIcon from '@/page_components/ToolBoxPages/components/ToolBoxIcon';
 import {
-  Box,
-  Button,
-  CircularProgress,
-  Grid,
-  ImageList,
-  ImageListItem,
-} from '@mui/material';
-import FileSaver from 'file-saver';
-import JSZip from 'jszip';
-import { debounce } from 'lodash-es';
-import { FC, useEffect, useMemo, useState } from 'react';
-import { pdfjs } from 'react-pdf';
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();
-interface IToolBoxFunctionalityPdfToImgProps {
-  fileList: FileList;
-  onRemoveFile?: () => void;
+  IToolUrkKeyType,
+  toolBoxObjData,
+} from '@/page_components/ToolBoxPages/constant';
+
+const ToolBoxFunctionalityPdfToImg = lazy(
+  () =>
+    import(
+      '@/features/ToolBoxFunctionalityPdfToImg/components/ToolBoxFunctionalityPdfToImgDetail'
+    ),
+);
+
+interface IToolBoxDetailProps {
+  urlKey: IToolUrkKeyType;
 }
-const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
-  fileList,
-  onRemoveFile,
-}) => {
-  const [imageStrList, setImageStrList] = useState<string[]>([]);
-  const [isLoad, setIsLoad] = useState<boolean>(false);
-  const [numPages, setNumPages] = useState<number>(0);
-  const [currentActionNum, setCurrentActionNum] = useState<number>(0);
 
-  const readPdfToImage = debounce(async (file: File) => {
-    if (!file) {
-      return;
-    }
-    setIsLoad(true);
-    const buff = await file.arrayBuffer(); // Uint8Array
-    const pdfDoc = await pdfjs.getDocument(buff).promise;
-    console.log('simply pdfDoc', pdfDoc);
-    setNumPages(pdfDoc._pdfInfo.numPages);
-    for (let pageNum = 1; pageNum <= pdfDoc._pdfInfo.numPages; pageNum++) {
-      console.log('simply pageNum', pageNum, pdfDoc._pdfInfo.numPages);
-      setCurrentActionNum(pageNum);
-      const scale = 1.0;
-      const page = await pdfDoc.getPage(pageNum);
-      const viewport = page.getViewport({ scale });
-      const canvas = document.createElement('canvas');
-      const context = canvas.getContext('2d');
-      canvas.width = viewport.width;
-      canvas.height = viewport.height;
-      const renderContext = {
-        canvasContext: context!,
-        viewport: viewport,
-      };
-      await page.render(renderContext).promise;
-      const imageDataUrl = canvas.toDataURL('image/png');
-      console.log('simply imageDataUrl', imageDataUrl);
-      setImageStrList((prev) => [...prev, imageDataUrl]);
-      if (pageNum === pdfDoc._pdfInfo.numPages - 1) {
-        setIsLoad(false);
-      }
-      //balabala
-    }
-  }, 200);
-  useEffect(() => {
-    if (fileList.length > 0) {
-      readPdfToImage(fileList[0]);
-    }
-    return () => {
-      // 在这里可以执行清理操作，比如取消订阅、清除定时器等
-    };
-  }, [fileList]);
-  const dataURLtoBlob = async (base64Str: string) => {
-    let arr = base64Str.split(','),
-      mime = arr?.[0].match(/:(.*?);/)?.[1],
-      bstr = atob(arr[1]),
-      n = bstr.length,
-      u8arr = new Uint8Array(n);
-    while (n--) {
-      u8arr[n] = bstr.charCodeAt(n);
-    }
-    return new Blob([u8arr], {
-      type: mime,
-    });
+const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
+  const currentToolData = useMemo(() => toolBoxObjData[urlKey], [urlKey]);
+  const [fileList, setFileList] = useState<FileList | null>(null);
+  const onChangeFile = (fileList: FileList) => {
+    setFileList(fileList);
   };
-  const downLoadImageZip = async () => {
-    const zip = new JSZip();
-    var images = zip.folder('images');
-    console.log('simply imageStrList', imageStrList);
-    for (let i = 0; i < imageStrList.length; i++) {
-      images?.file('image-' + i + '.jpg', dataURLtoBlob(imageStrList[i]), {
-        base64: true,
-      });
-    }
-    zip.generateAsync({ type: 'blob' }).then((content) => {
-      FileSaver.saveAs(content, 'image.zip');
-    });
-  };
-
-  const getImageCols = useMemo(() => {
-    if (imageStrList.length <= 5) {
-      return imageStrList.length;
-    } else {
-      return 5;
-    }
-  }, [imageStrList]);
   return (
-    <Box>
-      <Grid
-        container
-        direction='row'
-        justifyContent='center'
-        alignItems='center'
-        spacing={2}
-      >
-        <Grid item xs={3}>
-          <Button
-            sx={{ width: '100%' }}
-            disabled={isLoad}
-            variant='contained'
-            onClick={downLoadImageZip}
-          >
-            下载
-          </Button>
-        </Grid>
-        <Grid item xs={3}>
-          <Button
-            sx={{ width: '100%' }}
-            disabled={isLoad}
-            variant='outlined'
-            onClick={() => onRemoveFile && onRemoveFile()}
-          >
-            删除
-          </Button>
-        </Grid>
-      </Grid>
-      <Box
-        sx={{
-          py: 5,
-          position: 'relative',
-        }}
-      >
-        <ImageList
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        pb: 5,
+      }}
+    >
+      {!fileList && (
+        <UploadButton
           sx={{
-            width: 1000,
-            height: 500,
+            display: 'flex',
+            flexDirection: 'column',
+            height: 240,
+            width: 226,
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
-          cols={getImageCols}
-          gap={1}
+          variant='outlined'
+          isDrag={true}
+          onChange={onChangeFile}
+          accept={currentToolData.accept}
         >
-          {imageStrList.map((item, index) => (
-            <ImageListItem key={index}>
-              <img srcSet={item} src={item} loading='lazy' />
-            </ImageListItem>
-          ))}
-        </ImageList>
-        {isLoad && (
-          <Box
+          <ToolBoxIcon name='CloudUploadIcon' />
+          <Typography
             sx={{
-              position: 'absolute',
-              top: 15,
-              left: 15,
-              right: 15,
-              bottom: 15,
-              bgcolor: 'rgba(255,255,255,0.3)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
+              fontSize: {
+                xs: 12,
+                lg: 13,
+              },
             }}
           >
-            <CircularProgress />
-            {`${currentActionNum}/${numPages}`}
-          </Box>
-        )}
-      </Box>
+            Click to upload or drag and drop
+          </Typography>
+        </UploadButton>
+      )}
+      {urlKey === 'pdf-to-png' && fileList && fileList?.length > 0 && (
+        <Suspense fallback={<div>Loading...</div>}>
+          <ToolBoxFunctionalityPdfToImg
+            fileList={fileList}
+            onRemoveFile={() => setFileList(null)}
+          />
+        </Suspense>
+      )}
     </Box>
   );
 };
-
-export default ToolBoxFunctionalityPdfToImg;
+export default ToolBoxDetail;
