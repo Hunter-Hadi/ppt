@@ -7,6 +7,7 @@ import AppFooter from '@/app_layout/AppFooter';
 import AppHeader from '@/app_layout/AppHeader';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import useEffectOnce from '@/hooks/useEffectOnce';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
 
 const EmbedIntroduction = () => {
   const router = useRouter();
@@ -53,3 +54,6 @@ const EmbedIntroduction = () => {
 };
 
 export default EmbedIntroduction;
+
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

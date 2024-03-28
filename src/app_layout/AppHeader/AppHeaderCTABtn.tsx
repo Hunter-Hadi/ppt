@@ -1,6 +1,6 @@
 import { Button, buttonClasses } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
 import { APP_PROJECT_LINK } from '@/global_constants';

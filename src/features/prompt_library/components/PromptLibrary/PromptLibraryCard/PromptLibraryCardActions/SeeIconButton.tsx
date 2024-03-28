@@ -1,12 +1,12 @@
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import IconButton from '@mui/material/IconButton';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import PromptLibraryTooltip from '@/features/prompt_library/components/PromptLibrary/PromptLibraryTooltip';
 
 export const SeeIconButton: FC<{ detailLink: string }> = ({ detailLink }) => {
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   return (
     <PromptLibraryTooltip title={t('prompt_library:view_details__tooltip')}>
       <IconButton

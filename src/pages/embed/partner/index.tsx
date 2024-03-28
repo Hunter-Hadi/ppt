@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import useEffectOnce from '@/hooks/useEffectOnce';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
 
 // 用于外部嵌入的 overview 页面
 const EmbedPartner = () => {
@@ -61,3 +62,6 @@ const EmbedPartner = () => {
 };
 
 export default EmbedPartner;
+
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

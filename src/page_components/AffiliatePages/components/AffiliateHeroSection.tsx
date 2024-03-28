@@ -1,12 +1,12 @@
 import CallMadeOutlinedIcon from '@mui/icons-material/CallMadeOutlined';
 import { Box, Button, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
+import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
 import { AFFILIATE_PROGRAM_SIGN_UP_LINK } from '@/page_components/AffiliatePages/constant';
-import IndicatorDecorator from '@/page_components/IndicatorDecorator';
 
 const AffiliateHeroSection = () => {
   const { t } = useTranslation();

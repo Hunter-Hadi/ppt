@@ -2,8 +2,8 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
 import CircularProgress from '@mui/material/CircularProgress';
 import IconButton from '@mui/material/IconButton';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL } from '@/features/common/constants';
 import PromptLibraryTooltip from '@/features/prompt_library/components/PromptLibrary/PromptLibraryTooltip';
@@ -16,7 +16,7 @@ export const FavoriteIconButton: FC<{
 }> = ({ promptId }) => {
   const { addFavoritePromptMutation, removeFavoritePromptMutation } =
     usePromptActions();
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const { checkMaxAIChromeExtensionInstall, checkAuthSync } =
     usePromptLibraryAuth();
   const { data } = useFavoritePrompts();

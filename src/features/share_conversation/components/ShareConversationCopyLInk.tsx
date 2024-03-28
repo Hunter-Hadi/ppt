@@ -1,9 +1,9 @@
 import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';
 import { Button, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { useTranslation } from 'react-i18next';
 
 import Toast from '@/utils/globalSnackbar';
 

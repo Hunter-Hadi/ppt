@@ -1,6 +1,6 @@
 import { Box, Grid, Typography, useMediaQuery } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';

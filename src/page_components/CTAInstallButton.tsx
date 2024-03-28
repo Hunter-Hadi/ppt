@@ -7,8 +7,8 @@ import {
   useTheme,
 } from '@mui/material';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import CustomIcon from '@/components/CustomIcon';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
@@ -52,7 +52,7 @@ const CTAInstallButton: FC<IProps> = ({
   // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
   const isDownLg = useMediaQuery(theme.breakpoints.down('lg')); // 屏幕宽度小于 1280 时为 true
 
-  const { t } = useTranslation('button');
+  const { t } = useTranslation();
 
   const { extensionLink, links, ref } = useShareTrackerLink({
     ...trackerLinkProps,
@@ -72,21 +72,21 @@ const CTAInstallButton: FC<IProps> = ({
     if (isEmbedMode) {
       if (isDownLg) {
         return agent === 'Edge'
-          ? t('external_add_to_edge_for_free__mini')
-          : t('external_add_to_chrome_for_free__mini');
+          ? t('button:external_add_to_edge_for_free__mini')
+          : t('button:external_add_to_chrome_for_free__mini');
       }
       return agent === 'Edge'
-        ? t('external_add_to_edge_for_free')
-        : t('external_add_to_chrome_for_free');
+        ? t('button:external_add_to_edge_for_free')
+        : t('button:external_add_to_chrome_for_free');
     } else {
       if (adaptiveLabel && isDownLg) {
         return agent === 'Edge'
-          ? t('add_to_edge_for_free__mini')
-          : t('add_to_chrome_for_free__mini');
+          ? t('button:add_to_edge_for_free__mini')
+          : t('button:add_to_chrome_for_free__mini');
       }
       return agent === 'Edge'
-        ? t('add_to_edge_for_free')
-        : t('add_to_chrome_for_free');
+        ? t('button:add_to_edge_for_free')
+        : t('button:add_to_chrome_for_free');
     }
   }, [agent, t, adaptiveLabel, isDownLg, text, isEmbedMode]);
 

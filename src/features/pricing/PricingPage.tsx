@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
 import ProLink from '@/components/ProLink';
 import { WWW_PROJECT_LINK } from '@/global_constants';
@@ -11,7 +11,7 @@ import PlanCtaButton from './components/PlanCtaButton';
 import PlanFeaturesTable from './components/PlanFeaturesTable';
 
 const PricingPage = () => {
-  const { t } = useTranslation(['pages']);
+  const { t } = useTranslation();
 
   return (
     <Stack maxWidth={1312} mx={'auto'} pt={8} pb={15} spacing={8}>
@@ -27,7 +27,7 @@ const PricingPage = () => {
               md: 48,
             }}
           >
-            {t('pricing__title')}
+            {t('pages:pricing__title')}
           </Typography>
           <PlanFeaturesTable popularPlan={'elite'} />
         </Stack>
@@ -57,7 +57,7 @@ const PricingPage = () => {
           mb={4}
           id='FAQs'
         >
-          {t('faq__title')}
+          {t('pages:faq__title')}
         </Typography>
         <FAQList faqList={FAQ_PRICING} />
         <Box mb={5} />

@@ -2,8 +2,8 @@ import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 import ClearOutlinedIcon from '@mui/icons-material/ClearOutlined';
 import PlayCircleFilledWhiteOutlinedIcon from '@mui/icons-material/PlayCircleFilledWhiteOutlined';
 import { Stack, SvgIcon, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import WikiText from '@/components/text/WikiText';
 import { PLAN_FEATURES_CATEGORY } from '@/features/pricing/constant';
@@ -24,7 +24,7 @@ interface IProps {
 
 const FeaturesTableContent: FC<IProps> = ({ variant, assignRenderPlan }) => {
   const { openVideoPopup } = useVideoPopupController();
-  const { t } = useTranslation(['modules']);
+  const { t } = useTranslation();
 
   const canRenderPlan = (plan: RENDER_PLAN_TYPE) => {
     // 当 assignRenderPlan 为空时，默认全部渲染

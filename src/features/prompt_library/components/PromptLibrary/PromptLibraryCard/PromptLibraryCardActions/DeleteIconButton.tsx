@@ -1,8 +1,8 @@
 import CircularProgress from '@mui/material/CircularProgress';
 import IconButton from '@mui/material/IconButton';
 import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import DeletePromptConfirm from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard/DeletePromptConfirm';
 import PromptLibraryTooltip from '@/features/prompt_library/components/PromptLibrary/PromptLibraryTooltip';
@@ -28,7 +28,7 @@ export const DeleteIconButton: FC<{
 }> = ({ promptId, promptTitle }) => {
   const { deletePromptLibraryCardMutation, removeFavoritePromptMutation } =
     usePromptActions();
-  const { t } = useTranslation(['prompt_library']);
+  const { t } = useTranslation();
   const [deleteConfirmShow, setDeleteConfirmShow] = useState(false);
   const { data } = useFavoritePrompts();
   const favouritePromptIds = useMemo(() => {

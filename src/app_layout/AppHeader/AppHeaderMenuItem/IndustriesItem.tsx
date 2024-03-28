@@ -3,31 +3,33 @@ import { Button, Menu, MenuItem } from '@mui/material';
 import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
+import { useTranslation } from 'next-i18next';
 import * as React from 'react';
 import { FC, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
+import ProLink from '@/components/ProLink';
 import { isInIframe } from '@/utils/utils';
 
 interface IProps {
   isSmallScreen?: boolean;
 }
 
+const INDUSTRIES_MENU_LIST = [
+  { label: 'industry:executives__title', href: '/use-cases/executives' },
+  { label: 'industry:marketing__title', href: '/use-cases/marketing' },
+  { label: 'industry:education__title', href: '/use-cases/education' },
+  { label: 'industry:consulting__title', href: '/use-cases/consulting' },
+  { label: 'industry:hr__title', href: '/use-cases/hr' },
+  { label: 'industry:finance__title', href: '/use-cases/finance' },
+  { label: 'industry:real_estate__title', href: '/use-cases/real-estate' },
+  { label: 'industry:technical__title', href: '/use-cases/tech' },
+];
+
 const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
-  const { t } = useTranslation('modules');
-  const { t: tIndustry } = useTranslation('industry');
+  const { t } = useTranslation();
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-  const industries = [
-    tIndustry('executives__title'),
-    tIndustry('marketing__title'),
-    tIndustry('education__title'),
-    tIndustry('consulting__title'),
-    tIndustry('hr__title'),
-    tIndustry('finance__title'),
-    tIndustry('real_estate__title'),
-    tIndustry('technical__title'),
-  ];
+
   const open = Boolean(anchorEl);
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -118,7 +120,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
               justifyContent: 'space-between',
             }}
           >
-            {t('header__menu__industries')}
+            {t('modules:header__menu__industries')}
 
             <ExpandLessIcon
               sx={{
@@ -130,22 +132,31 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
             />
           </MenuItem>
         </MuiAccordionSummary>
-
         <MuiAccordionDetails sx={{ padding: '0 16px 8px 16px' }}>
-          {industries.map((item, index) => (
+          {INDUSTRIES_MENU_LIST.map((industriesItem) => (
             <MenuItem
-              key={item}
-              onClick={() => handleSelectIndustry(index)}
+              key={industriesItem.href}
               sx={{
                 borderRadius: '8px',
-                py: 1,
-                px: 2,
                 fontSize: 16,
                 fontWeight: 600,
                 mb: 1,
+                p: 0,
               }}
             >
-              {item}
+              <ProLink
+                href={industriesItem.href}
+                target={isInIframe() ? '_blank' : '_self'}
+                color='inherit'
+                hardRefresh
+                sx={{
+                  width: '100%',
+                  py: 1,
+                  px: 2,
+                }}
+              >
+                {t(industriesItem.label)}
+              </ProLink>
             </MenuItem>
           ))}
         </MuiAccordionDetails>
@@ -189,7 +200,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
           />
         }
       >
-        {t('header__menu__industries')}
+        {t('modules:header__menu__industries')}
       </Button>
 
       <Menu
@@ -226,20 +237,30 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
           },
         }}
       >
-        {industries.map((item, index) => (
+        {INDUSTRIES_MENU_LIST.map((industriesItem) => (
           <MenuItem
-            key={item}
-            onClick={() => handleSelectIndustry(index)}
+            key={industriesItem.href}
             sx={{
               borderRadius: '8px',
-              py: 1,
-              px: 2,
               fontSize: '16px !important',
               fontWeight: 600,
               mb: 2,
+              p: 0,
             }}
           >
-            {item}
+            <ProLink
+              href={industriesItem.href}
+              target={isInIframe() ? '_blank' : '_self'}
+              color='inherit'
+              hardRefresh
+              sx={{
+                width: '100%',
+                py: 1,
+                px: 2,
+              }}
+            >
+              {t(industriesItem.label)}
+            </ProLink>
           </MenuItem>
         ))}
       </Menu>

@@ -6,7 +6,6 @@ import ChromeExtensionDetector from '@/features/extension/components/ChromeExten
 import ExtensionUpdateRemindDialog from '@/features/extension/components/ExtensionUpdateRemindDialog';
 import useInitExtensionStatus from '@/features/extension/hooks/useInitExtensionStatus';
 import { useInitInviteCode } from '@/features/user';
-import { useInitI18n } from '@/i18n/hooks';
 import { AppState } from '@/store';
 
 const AppGlobalBackdrop = () => {
@@ -45,7 +44,6 @@ const AppGlobalBackdrop = () => {
 };
 
 const AppInit = () => {
-  useInitI18n();
   useInitExtensionStatus();
   useInitInviteCode();
 
