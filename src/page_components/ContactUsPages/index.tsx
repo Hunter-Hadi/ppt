@@ -1,9 +1,38 @@
 import { Box, Stack, SvgIcon, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ContactUsPanel from '@/components/ContactUsPanel';
+
+const ContactUsPages = () => {
+  // const isSmScreen = useMediaQuery('(min-width:600px)');
+  const { t } = useTranslation();
+  return (
+    <AppContainer sx={{ bgcolor: '#fff' }}>
+      <AppDefaultSeoLayout title='Contact Us | MaxAI.me' />
+
+      <Box
+        sx={{
+          maxWidth: 800,
+          margin: '0 auto',
+          py: 4,
+        }}
+      >
+        <Stack direction={'row'} alignItems='center' mb={4} gap={1}>
+          <ContactUsIcon />
+          <Typography variant='h2' pt={1}>
+            {t('common:contact_us')}
+          </Typography>
+        </Stack>
+
+        <ContactUsPanel />
+      </Box>
+    </AppContainer>
+  );
+};
+export default ContactUsPages;
 
 const ContactUsIcon = () => (
   <SvgIcon viewBox='0 0 60 40' sx={{ width: 60, height: 40 }}>
@@ -76,30 +105,3 @@ const ContactUsIcon = () => (
     </defs>
   </SvgIcon>
 );
-
-const ContactUsPages = () => {
-  // const isSmScreen = useMediaQuery('(min-width:600px)');
-  return (
-    <AppContainer sx={{ bgcolor: '#fff' }}>
-      <AppDefaultSeoLayout title='Contact Us | MaxAI.me' />
-
-      <Box
-        sx={{
-          maxWidth: 800,
-          margin: '0 auto',
-          py: 4,
-        }}
-      >
-        <Stack direction={'row'} alignItems='center' mb={4} gap={1}>
-          <ContactUsIcon />
-          <Typography variant='h2' pt={1}>
-            Contact Us
-          </Typography>
-        </Stack>
-
-        <ContactUsPanel />
-      </Box>
-    </AppContainer>
-  );
-};
-export default ContactUsPages;
