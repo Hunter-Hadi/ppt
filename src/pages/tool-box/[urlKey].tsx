@@ -1,35 +1,30 @@
-import { Box, CircularProgress } from '@mui/material';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { GetStaticPaths } from 'next/types';
 
-import ToolBoxDetail from '@/features/tool_box/components/ToolBoxDetail';
-import { IToolUrkKeyType, toolBoxObjData } from '@/features/tool_box/constant';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import ToolBoxDetail from '@/page_components/ToolBoxPages/components/ToolBoxDetail';
+import {
+  IToolUrkKeyType,
+  toolBoxObjData,
+} from '@/page_components/ToolBoxPages/constant';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const toolList = Object.keys(toolBoxObjData).map((key) => key);
+  return {
+    paths: toolList.map((toolUrlKey) => ({
+      params: { urlKey: toolUrlKey },
+    })),
+    fallback: false,
+  };
+};
 
 const UrlKeyToolBoxDetail = () => {
   const router = useRouter();
-  const { urlKey } = router.query as { urlKey?: IToolUrkKeyType };
-  //通过匹配进入虽然可以，但是会延迟加载，是否要优化掉待定
-  useEffect(() => {
-    if (urlKey && !toolBoxObjData[urlKey]) {
-      router.replace('/404');
-    }
-  }, [urlKey, router]);
+  const { urlKey } = router.query as { urlKey: IToolUrkKeyType };
 
-  if (urlKey && toolBoxObjData[urlKey]) {
-    return <ToolBoxDetail urlKey={urlKey} />;
-  } else {
-    return (
-      <Box
-        sx={{
-          height: '50vh',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        <CircularProgress />
-      </Box>
-    );
-  }
+  return <ToolBoxDetail urlKey={urlKey} />;
 };
 export default UrlKeyToolBoxDetail;
+
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

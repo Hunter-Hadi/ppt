@@ -1,13 +1,7 @@
-import { useRouter } from 'next/router';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import ToolBoxPages from '@/page_components/ToolBoxPages';
 
-import ToolBoxHome from '@/features/tool_box/components/ToolBoxHome';
-import { IToolUrkKeyType } from '@/features/tool_box/constant';
+export default ToolBoxPages;
 
-const ToolBox = () => {
-  const router = useRouter();
-  const onClickKey = (key: IToolUrkKeyType) => {
-    router.push(`/tool-box/${key}`);
-  };
-  return <ToolBoxHome onClickKey={onClickKey} />;
-};
-export default ToolBox;
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

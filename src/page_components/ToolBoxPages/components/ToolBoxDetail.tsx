@@ -4,12 +4,15 @@ import { FC, lazy, Suspense, useMemo, useState } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import UploadButton from '@/features/common/components/UploadButton';
-import ToolBoxBanner from '@/features/tool_box/components/ToolBoxBanner';
-import ToolBoxIcon from '@/features/tool_box/components/ToolBoxIcon';
-import { IToolUrkKeyType, toolBoxObjData } from '@/features/tool_box/constant';
+import ToolBoxBanner from '@/page_components/ToolBoxPages/components/ToolBoxBanner';
+import ToolBoxIcon from '@/page_components/ToolBoxPages/components/ToolBoxIcon';
+import {
+  IToolUrkKeyType,
+  toolBoxObjData,
+} from '@/page_components/ToolBoxPages/constant';
 
 const ToolBoxFunctionalityPdfToImg = lazy(
-  () => import('./ToolBoxFunctionality/ToolBoxFunctionalityPdfToImg'),
+  () => import('@/features/ToolBoxFunctionalityPdfToImg'),
 );
 
 interface IToolBoxDetailProps {

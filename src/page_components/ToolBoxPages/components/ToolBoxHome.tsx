@@ -2,9 +2,12 @@ import { FC, useMemo } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ToolBoxBanner from '@/features/tool_box/components/ToolBoxBanner';
-import ToolBoxCards from '@/features/tool_box/components/ToolBoxCards';
-import { IToolUrkKeyType, toolBoxObjData } from '@/features/tool_box/constant';
+import ToolBoxBanner from '@/page_components/ToolBoxPages/components/ToolBoxBanner';
+import ToolBoxCards from '@/page_components/ToolBoxPages/components/ToolBoxCards';
+import {
+  IToolUrkKeyType,
+  toolBoxObjData,
+} from '@/page_components/ToolBoxPages/constant';
 
 interface IToolBoxHomeProps {
   onClickKey?: (key: IToolUrkKeyType) => void;

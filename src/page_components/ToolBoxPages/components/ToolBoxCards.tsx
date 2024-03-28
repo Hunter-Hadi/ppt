@@ -1,8 +1,11 @@
 import { Card, CardContent, Grid, Typography } from '@mui/material';
 import { FC } from 'react';
 
-import ToolBoxIcon from '@/features/tool_box/components/ToolBoxIcon';
-import { IToolData, IToolUrkKeyType } from '@/features/tool_box/constant';
+import ToolBoxIcon from '@/page_components/ToolBoxPages/components/ToolBoxIcon';
+import {
+  IToolData,
+  IToolUrkKeyType,
+} from '@/page_components/ToolBoxPages/constant';
 
 interface IToolBoxCardsProps {
   list: IToolData[];
