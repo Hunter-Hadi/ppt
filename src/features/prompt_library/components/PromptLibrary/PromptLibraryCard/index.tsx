@@ -4,6 +4,7 @@ import { Box, Stack, Typography } from '@mui/material';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import utc from 'dayjs/plugin/utc';
+import { useRouter } from 'next/router';
 import React, { FC, useMemo } from 'react';
 
 import EllipsisTextWithTooltip from '@/features/common/components/EllipsisTextWithTooltip';
@@ -29,6 +30,7 @@ import {
   IPromptActionKey,
   IPromptLibraryCardData,
 } from '@/features/prompt_library/types';
+import { i18nLocales } from '@/i18n/utils';
 dayjs.extend(relativeTime);
 dayjs.extend(utc);
 
@@ -37,6 +39,7 @@ const PromptLibraryCard: FC<{
   prompt: IPromptLibraryCardData;
   onClick?: (promptData?: IPromptLibraryCardData) => void;
 }> = ({ prompt, actionButton = ['see', 'favorite'], onClick }) => {
+  const router = useRouter();
   const { openPromptLibraryEditForm } = usePromptActions();
   const {
     selectedPromptLibraryCard,
@@ -53,10 +56,32 @@ const PromptLibraryCard: FC<{
     )
       ? MAXAI_CHROME_EXTENSION_WWW_HOMEPAGE_URL
       : MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL;
-    return prompt.type === 'private'
-      ? `${currentHost}/prompts/own/${prompt.id}`
-      : `${currentHost}/prompts/${prompt.id}`;
-  }, [prompt]);
+
+    if (currentHost === MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL) {
+      if (prompt.type === 'private') {
+        return `${currentHost}/prompts/own/${prompt.id}`;
+      }
+
+      return `${currentHost}/prompts/${prompt.id}`;
+    }
+
+    // currentHost === MAXAI_CHROME_EXTENSION_WW_HOMEPAGE_URL
+    let fullHref = `${currentHost}`;
+    if (router.basePath) {
+      fullHref += router.basePath;
+    }
+
+    if (
+      router.query.locale &&
+      i18nLocales.includes(router.query?.locale?.toString())
+    ) {
+      fullHref += `/${router.query.locale}`;
+    }
+
+    fullHref += `/library/${prompt.id}`;
+
+    return fullHref;
+  }, [prompt, router.basePath, router.query.locale]);
 
   const actionBtnList = () => {
     const btnList: React.ReactNode[] = [];
