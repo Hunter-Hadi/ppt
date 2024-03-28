@@ -42,7 +42,8 @@
     "copy_image": "이미지 복사",
     "share": "공유",
     "link_copied": "링크 복사됨",
-    "sign_up": "가입하기"
+    "sign_up": "가입하기",
+    "follow": "팔로우"
   },
   "button": {
     "add_to_chrome_for_free": "무료로 Chrome에 추가",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "절약 {{NUM}}%",
     "email_unsubscribe_success__title": "성공적으로 구독 취소됨",
     "email_unsubscribe_success__content": "귀하의 이메일 주소가 성공적으로 우리의 뉴스레터 목록에서 제거되었습니다. 앞으로 업데이트를 받지 않게 됩니다. 이별은 언제나 아쉽지만, 최신 콘텐츠를 확인하러 언제든 다시 돌아오실 수 있습니다!",
-    "languages__title": "국가 또는 지역 선택"
+    "languages__title": "국가 또는 지역 선택",
+    "pricing__productivity": "생산성",
+    "contact_us__item1": "질문이나 제안 사항이 있으시면 저희에게 연락주세요",
+    "contact_us__item2": "최신 업데이트와 팁을 얻으려면 트위터에서 팔로우하세요:",
+    "contact_us__item3": "★★★★★ 평가로 저희를 지원해주세요",
+    "contact_us__item3__store": "확장 프로그램 웹 스토어",
+    "contact_us__item4": "이 확장 프로그램을 공유하여 다른 사람들을 도와주세요:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "남용, 게임 플레이 및 정책 위반은 계정이 차단되고 기존 및 미래 수수료가 모두 소멸됩니다.",
     "faq__question5__description__part1": "제휴 계정으로 로그인하면",
     "faq__question5__description__part2": "추천 성과를 추적할 수 있습니다."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: 어디서나 1-클릭 AI 사용하기 (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "AI 채팅, 글쓰기, 문법 체크, 설명, 요약, 검색, 프롬프트 관리 등을 위한 가장 빠른 방법."
   }
 }

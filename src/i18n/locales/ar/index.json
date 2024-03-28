@@ -42,7 +42,8 @@
     "copy_image": "نسخ الصورة",
     "share": "مشاركة",
     "link_copied": "تم نسخ الرابط",
-    "sign_up": "التسجيل"
+    "sign_up": "التسجيل",
+    "follow": "تابع"
   },
   "button": {
     "add_to_chrome_for_free": "أضف إلى Chrome مجانًا",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "احفظ {{NUM}}%",
     "email_unsubscribe_success__title": "تم الغاء الاشتراك بنجاح",
     "email_unsubscribe_success__content": "تمت إزالة عنوان بريدك الإلكتروني بنجاح من قائمة النشرة الإخبارية لدينا. لن تتلقى تحديثات مستقبلية. نأسف لرؤيتك ترحل، ولكن نرحب بك في أي وقت للاطلاع على آخر المحتوى!",
-    "languages__title": "اختر بلدك أو منطقتك"
+    "languages__title": "اختر بلدك أو منطقتك",
+    "pricing__productivity": "الإنتاجية",
+    "contact_us__item1": "لأي أسئلة أو اقتراحات، اتصل بنا على",
+    "contact_us__item2": "تابعنا على تويتر للحصول على آخر التحديثات والنصائح:",
+    "contact_us__item3": "ساعدنا بتقييم ★★★★★ على",
+    "contact_us__item3__store": "متجر الإضافات على الويب",
+    "contact_us__item4": "ساعد الآخرين عن طريق مشاركة هذه الإضافة:"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "سوف يؤدي الاستغلال والتلاعب وانتهاك السياسات إلى حظر حسابك وضياع أي عمولات قائمة ومستقبلية.",
     "faq__question5__description__part1": "يمكنك تسجيل الدخول إلى حساب الشريك التابع لديك على",
     "faq__question5__description__part2": "لتتبع أداء الإحالة الخاص بك."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: استخدم الذكاء الاصطناعي بنقرة واحدة في أي مكان (ChatGPT، Claude، Gemini، Bard، Bing)",
+    "default__description": "أسرع طريقة لاستخدام الذكاء الاصطناعي في أي مكان: دردشة ذكية، كتابة، فحص قواعد اللغة، شرح، ملخص، بحث، إدارة الاقتراحات، وأكثر من ذلك."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Kopēt attēlu",
     "share": "Dalīties",
     "link_copied": "Saite nokopēta",
-    "sign_up": "Reģistrēties"
+    "sign_up": "Reģistrēties",
+    "follow": "Sekot"
   },
   "button": {
     "add_to_chrome_for_free": "Pievienot bez maksas Chrome",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Ietaupi {{NUM}}%",
     "email_unsubscribe_success__title": "Veiksmīgi atsauktas abonēšanas",
     "email_unsubscribe_success__content": "Jūsu e-pasta adrese ir veiksmīgi noņemta no mūsu jaunumu saraksta. Jūs vairs nesaņemsiet turpmākus atjauninājumus. Mums žēl, ka jūs aizgājāt, bet jūs vienmēr esat laipni gaidīts atpakaļ, lai iepazītos ar jaunāko saturu!",
-    "languages__title": "Izvēlieties savu valsti vai reģionu"
+    "languages__title": "Izvēlieties savu valsti vai reģionu",
+    "pricing__productivity": "Produktivitāte",
+    "contact_us__item1": "Ja ir jautājumi vai ieteikumi, rakstiet mums:",
+    "contact_us__item2": "Seko mums Twitterī, lai saņemtu jaunākās atjaunināšanas un padomus:",
+    "contact_us__item3": "Atbalstiet mūs, novērtējot ★★★★★",
+    "contact_us__item3__store": "Paplašinājumu veikalu",
+    "contact_us__item4": "Palīdziet citiem, daloties ar šo paplašinājumu:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Nesankcionēta izmantošana, ļaunprātīga izmantošana un politikas pārkāpumi rezultēs tavas konta bloķēšanā un jebkuru esošo un turpmāko komisiju anulēšanā.",
     "faq__question5__description__part1": "Jūs varat pieteikties savā filiāles kontā vietnē",
     "faq__question5__description__part2": "lai sekotu līdzi jūsu ieteikumu veiktspējai."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Izmantojiet 1-Click AI jebkur (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Ātrākais veids, kā izmantot AI jebkur: AI tērzēšana, rakstīšana, gramatikas pārbaude, skaidrojumi, kopsavilkums, meklēšana, uzdevumu pārvaldība un vairāk."
   }
 }

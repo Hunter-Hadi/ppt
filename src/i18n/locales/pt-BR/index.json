@@ -42,7 +42,8 @@
     "copy_image": "Copiar imagem",
     "share": "Compartilhar",
     "link_copied": "Link copiado",
-    "sign_up": "Cadastre-se"
+    "sign_up": "Cadastre-se",
+    "follow": "Seguir"
   },
   "button": {
     "add_to_chrome_for_free": "Adicionar ao Chrome gratuitamente",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Economize {{NUM}}%",
     "email_unsubscribe_success__title": "Cancelamento bem-sucedido",
     "email_unsubscribe_success__content": "Seu endereço de e-mail foi removido com sucesso da nossa lista de boletins informativos. Você não receberá mais atualizações futuras. Sentimos muito por vê-lo partir, mas você é bem-vindo a voltar a qualquer momento para acompanhar o conteúdo mais recente!",
-    "languages__title": "Escolha seu país ou região"
+    "languages__title": "Escolha seu país ou região",
+    "pricing__productivity": "Produtividade",
+    "contact_us__item1": "Para qualquer pergunta ou sugestão, nos envie uma mensagem em",
+    "contact_us__item2": "Siga-nos no Twitter para as últimas atualizações e dicas:",
+    "contact_us__item3": "Apoie-nos avaliando ★★★★★ em",
+    "contact_us__item3__store": "Loja de extensões web",
+    "contact_us__item4": "Ajude outras pessoas compartilhando esta extensão:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts em 1 Clique",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Abuso, manipulação e violações das políticas resultarão na exclusão da sua conta e na perda de comissões existentes e futuras.",
     "faq__question5__description__part1": "Você pode fazer login na sua conta de afiliado em",
     "faq__question5__description__part2": "para acompanhar o desempenho das suas indicações."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Use IA em 1 clique em qualquer lugar (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "A maneira mais rápida de usar IA em qualquer lugar: chat de IA, escrita, verificação gramatical, explicação, resumo, pesquisa, gerenciamento de prompts e muito mais."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Sao chép hình ảnh",
     "share": "Chia sẻ",
     "link_copied": "Đã sao chép liên kết",
-    "sign_up": "Đăng ký"
+    "sign_up": "Đăng ký",
+    "follow": "Theo dõi"
   },
   "button": {
     "add_to_chrome_for_free": "Thêm vào Chrome miễn phí",
@@ -341,10 +342,15 @@
     "home_page__user_comment__type_real_estate__label": "Bất động sản",
     "home_page__user_comment__type_technical__label": "Kỹ thuật",
     "pricing__save_up_to": "Tiết kiệm {{NUM}}%",
-    "home_page__user_comment__type_technical__label": "Kỹ thuật",
     "email_unsubscribe_success__title": "Hủy đăng ký thành công",
     "email_unsubscribe_success__content": "Địa chỉ email của bạn đã được gỡ bỏ khỏi danh sách bản tin của chúng tôi. Bạn sẽ không nhận được cập nhật trong tương lai nữa. Chúng tôi rất tiếc khi thấy bạn ra đi, nhưng bạn luôn được chào đón trở lại bất cứ lúc nào để cập nhật nội dung mới nhất!",
-    "languages__title": "Chọn Quốc gia hoặc Vùng lãnh thổ của bạn"
+    "languages__title": "Chọn Quốc gia hoặc Vùng lãnh thổ của bạn",
+    "pricing__productivity": "Hiệu suất",
+    "contact_us__item1": "Đối với bất kỳ câu hỏi hoặc gợi ý nào, hãy để lại cho chúng tôi một dòng tại",
+    "contact_us__item2": "Theo dõi chúng tôi trên Twitter để cập nhật và nhận các mẹo mới nhất:",
+    "contact_us__item3": "Hỗ trợ chúng tôi bằng cách đánh giá ★★★★★ trên",
+    "contact_us__item3__store": "Cửa hàng tiện ích mở rộng",
+    "contact_us__item4": "Giúp đỡ người khác bằng cách chia sẻ tiện ích này:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -547,5 +553,9 @@
     "faq__question7__description__part2": "Lạm dụng, chơi game và vi phạm chính sách sẽ dẫn đến việc bị cấm tài khoản và mất hoa hồng hiện tại và tương lai.",
     "faq__question5__description__part1": "Bạn có thể đăng nhập vào tài khoản liên kết của mình trên",
     "faq__question5__description__part2": "để theo dõi hiệu suất giới thiệu của bạn."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Sử dụng AI chỉ với 1 cú nhấp (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Cách nhanh nhất để sử dụng AI bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn thế nữa."
   }
 }

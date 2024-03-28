@@ -42,7 +42,8 @@
     "copy_image": "Kopiuj obraz",
     "share": "Udostępnij",
     "link_copied": "Skopiowano link",
-    "sign_up": "Zarejestruj się"
+    "sign_up": "Zarejestruj się",
+    "follow": "Obserwuj"
   },
   "button": {
     "add_to_chrome_for_free": "Dodaj za darmo do Chrome",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Oszczędź {{NUM}}%",
     "email_unsubscribe_success__title": "Pomyślnie anulowano subskrypcję",
     "email_unsubscribe_success__content": "Twój adres e-mail został pomyślnie usunięty z naszej listy newsletterów. Nie będziesz już otrzymywać przyszłych aktualizacji. Przykro nam, że odchodzisz, ale zawsze możesz wrócić, aby nadrobić zaległości z najnowszymi treściami!",
-    "languages__title": "Wybierz swój kraj lub region"
+    "languages__title": "Wybierz swój kraj lub region",
+    "pricing__productivity": "Produktywność",
+    "contact_us__item1": "Jeśli masz jakiekolwiek pytania lub sugestie, napisz do nas",
+    "contact_us__item2": "Śledź nas na Twitterze, aby być na bieżąco z najnowszymi aktualizacjami i wskazówkami:",
+    "contact_us__item3": "Wesprzyj nas oceniając ★★★★★ na",
+    "contact_us__item3__store": "Sklepie z rozszerzeniami",
+    "contact_us__item4": "Pomóż innym, udostępniając to rozszerzenie:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Nadużycia, oszustwa i naruszenia zasad spowodują zablokowanie twojego konta i utratę istniejących i przyszłych prowizji.",
     "faq__question5__description__part1": "Możesz zalogować się na swoje konto partnerskie na",
     "faq__question5__description__part2": ", aby śledzić wyniki poleceń."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Użyj sztucznej inteligencji w jednym kliknięciu (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Najszybszy sposób na korzystanie z AI w dowolnym miejscu: czat AI, pisanie, sprawdzanie gramatyki, wyjaśnienia, podsumowania, wyszukiwanie, zarządzanie promptami i wiele więcej."
   }
 }

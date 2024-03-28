@@ -42,7 +42,8 @@
     "copy_image": "Kép másolása",
     "share": "Megosztás",
     "link_copied": "Link másolva",
-    "sign_up": "Regisztráció"
+    "sign_up": "Regisztráció",
+    "follow": "Követés"
   },
   "button": {
     "add_to_chrome_for_free": "Hozzáadás a Chrome-hoz ingyen",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Mentés {{NUM}}%",
     "email_unsubscribe_success__title": "Sikeres leiratkozás",
     "email_unsubscribe_success__content": "Az email címed sikeresen eltávolításra került a hírlevél listánkról. További frissítéseket nem fogsz kapni. Sajnáljuk, hogy elmész, de bármikor visszajöhetsz, hogy naprakész legyél a legújabb tartalmakkal!",
-    "languages__title": "Válassza ki az országát vagy régióját"
+    "languages__title": "Válassza ki az országát vagy régióját",
+    "pricing__productivity": "Termelékenység",
+    "contact_us__item1": "Bármilyen kérdés vagy javaslat esetén írj nekünk a következő címre:",
+    "contact_us__item2": "Kövess minket a Twitteren a legfrissebb frissítésekért és tippekért:",
+    "contact_us__item3": "Támogass minket ★★★★★ értékeléssel a",
+    "contact_us__item3__store": "Bővítmény webáruházban",
+    "contact_us__item4": "Segíts másoknak ezzel a bővítménnyel való megosztással:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Az visszaélés, a játékosság és a szabályszegések eredményeként az Ön fiókjának felfüggesztése és minden meglévő és jövőbeli jutalékának elvesztése következik be.",
     "faq__question5__description__part1": "Bejelentkezhetsz az affiliate fiókodba a következő oldalon:",
     "faq__question5__description__part2": "ahhoz, hogy nyomon követhesd a hivatkozási teljesítményedet."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Használja az AI-t 1 kattintással bárhol (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Az AI bárhol történő használatának leggyorsabb módja: AI chat, írás, helyesírás-ellenőrzés, magyarázat, összefoglaló, keresés, prompt kezelés és még sok más."
   }
 }

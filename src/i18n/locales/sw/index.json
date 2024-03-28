@@ -42,7 +42,8 @@
     "copy_image": "Nakili picha",
     "share": "Shiriki",
     "link_copied": "Kiungo kimenukuliwa",
-    "sign_up": "Jisajili"
+    "sign_up": "Jisajili",
+    "follow": "Fuata"
   },
   "button": {
     "add_to_chrome_for_free": "Ongeza kwa Chrome bure",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Hifadhi {{NUM}}%",
     "email_unsubscribe_success__title": "Kujiondoa kwa mafanikio",
     "email_unsubscribe_success__content": "Anwani yako ya barua pepe imeondolewa kwa mafanikio kutoka kwenye orodha yetu ya jarida la habari. Hautapokea sasisho za baadaye tena. Tunasikitika kuona unakwenda, lakini karibu wakati wowote kurudi na kupata maudhui ya hivi karibuni!",
-    "languages__title": "Chagua Nchi au Mkoa Wako"
+    "languages__title": "Chagua Nchi au Mkoa Wako",
+    "pricing__productivity": "Ufanisi",
+    "contact_us__item1": "Kwa maswali au mapendekezo, tuma ujumbe kwetu kwa",
+    "contact_us__item2": "Tufuate kwenye Twitter kwa habari na vidokezo vya hivi karibuni:",
+    "contact_us__item3": "Tusaidie kwa kuipa alama ★★★★★ kwenye",
+    "contact_us__item3__store": "Duka la programu la upanuzi",
+    "contact_us__item4": "Wasaidie wengine kwa kushiriki upanuzi huu:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Matumizi mabaya, udanganyifu, na uvunjaji wa sera utasababisha akaunti yako kufungiwa na tume zilizopo na zijazo kufutwa.",
     "faq__question5__description__part1": "Unaweza kuingia kwenye akaunti yako ya ushirika kwenye",
     "faq__question5__description__part2": "kufuatilia utendaji wako wa rufaa."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Tumia AI kwa Bofya Moja Popote (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Njia ya haraka zaidi ya kutumia AI popote: mazungumzo ya AI, kuandika, ukaguzi wa sarufi, ufafanuzi, muhtasari, utafutaji, usimamizi wa maoni, na zaidi."
   }
 }

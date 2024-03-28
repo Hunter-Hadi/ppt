@@ -42,7 +42,8 @@
     "copy_image": "Copiar imagen",
     "share": "Compartir",
     "link_copied": "Enlace copiado",
-    "sign_up": "Registrarse"
+    "sign_up": "Registrarse",
+    "follow": "Seguir"
   },
   "button": {
     "add_to_chrome_for_free": "Agregar a Chrome gratis",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Ahorra {{NUM}}%",
     "email_unsubscribe_success__title": "Desuscripción exitosa",
     "email_unsubscribe_success__content": "Tu dirección de correo electrónico ha sido eliminada con éxito de nuestra lista de boletines. Ya no recibirás actualizaciones futuras. ¡Lamentamos verte ir, pero siempre eres bienvenido/a para ponerte al día con el contenido más reciente!",
-    "languages__title": "Elige tu país o región"
+    "languages__title": "Elige tu país o región",
+    "pricing__productivity": "Productividad",
+    "contact_us__item1": "Para cualquier pregunta o sugerencia, escríbenos a",
+    "contact_us__item2": "Síguenos en Twitter para obtener las últimas actualizaciones y consejos:",
+    "contact_us__item3": "Apóyanos calificando ★★★★★ en",
+    "contact_us__item3__store": "Tienda de extensiones web",
+    "contact_us__item4": "Ayuda a otros compartiendo esta extensión:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "El abuso, el fraude y las violaciones de políticas resultarán en la prohibición de tu cuenta y la pérdida de comisiones existentes y futuras.",
     "faq__question5__description__part1": "Puedes iniciar sesión en tu cuenta de afiliado en",
     "faq__question5__description__part2": "para hacer un seguimiento de tu rendimiento de referidos."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Usa IA con un solo clic en cualquier lugar (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "La forma más rápida de usar IA en cualquier lugar: chat de IA, escritura, corrección gramatical, explicación, resumen, búsqueda, gestión de sugerencias y más."
   }
 }

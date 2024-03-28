@@ -42,7 +42,8 @@
     "copy_image": "Kopiera bild",
     "share": "Dela",
     "link_copied": "Länk kopierad",
-    "sign_up": "Registrera"
+    "sign_up": "Registrera",
+    "follow": "Följ"
   },
   "button": {
     "add_to_chrome_for_free": "Lägg till i Chrome gratis",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Spara {{NUM}}%",
     "email_unsubscribe_success__title": "Avslutat prenumerationen",
     "email_unsubscribe_success__content": "Din e-postadress har tagits bort från vår nyhetsbrevslista. Du kommer inte längre att få framtida uppdateringar. Vi beklagar att du lämnar oss, men du är alltid välkommen tillbaka för att ta del av det senaste innehållet!",
-    "languages__title": "Välj ditt land eller region"
+    "languages__title": "Välj ditt land eller region",
+    "pricing__productivity": "Produktivitet",
+    "contact_us__item1": "För frågor eller förslag, skicka oss en rad på",
+    "contact_us__item2": "Följ oss på Twitter för de senaste uppdateringarna och tipsen:",
+    "contact_us__item3": "Stöd oss genom att betygsätta ★★★★★ på",
+    "contact_us__item3__store": "Webbutik för tillägg",
+    "contact_us__item4": "Hjälp andra genom att dela detta tillägg:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Missbruk, manipulering och policyöverträdelser kommer att resultera i att ditt konto stängs av och alla befintliga och framtida provisioner förverkas.",
     "faq__question5__description__part1": "Du kan logga in på ditt affiliate-konto på",
     "faq__question5__description__part2": "för att följa din remissprestation."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Använd 1-klicks AI var som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Det snabbaste sättet att använda AI var som helst: AI-chatt, skrivande, grammatikkontroll, förklaring, sammanfattning, sökning, hantering av uppmaningar och mer."
   }
 }

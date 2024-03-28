@@ -42,7 +42,8 @@
     "download_image": "הורד תמונה",
     "copy_image": "העתק תמונה",
     "share": "שתף",
-    "link_copied": "הקישור הועתק"
+    "link_copied": "הקישור הועתק",
+    "follow": "עקוב"
   },
   "button": {
     "add_to_chrome_for_free": "הוסף לכרום בחינם",
@@ -342,7 +343,14 @@
     "use_cases__tech_page__take_time__button_text": "התחל לחסוך זמן עם MaxAI",
     "email_unsubscribe_success__title": "בוטלה הרשמה בהצלחה",
     "email_unsubscribe_success__content": "כתובת האימייל שלך הוסרה בהצלחה מרשימת הדיוור שלנו. לא תקבל עוד עדכונים עתידיים. אנחנו מצטערים לראותך עוזב, אך אתה מוזמן לחזור בכל עת כדי להתעדכן בתוכן העדכני ביותר!",
-    "languages__title": "בחר את המדינה או האזור שלך"
+    "languages__title": "בחר את המדינה או האזור שלך",
+    "pricing__productivity": "יעילות",
+    "pricing__save_up_to": "חסוך {{NUM}}%",
+    "contact_us__item1": "לכל שאלה או הצעה, נשמע גרם לנו ב:",
+    "contact_us__item2": "עקבו אחרינו בטוויטר לעדכונים וטיפים האחרונים:",
+    "contact_us__item3": "תמכו בנו על ידי דירוג ★★★★★ ב-",
+    "contact_us__item3__store": "חנות הרחבה ברשת",
+    "contact_us__item4": "עזרו לאחרים על ידי שיתוף הרחבה זו:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -544,5 +552,9 @@
   },
   "share_conversion": {
     "footer__get_for_free": "קבל את MaxAI בחינם"
+  },
+  "seo": {
+    "default__title": "MaxAI.me: השתמש באינטיליגנציה מלאה בלחיצה אחת (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "הדרך המהירה ביותר להשתמש באינטיליגנציה בכל מקום: צ'אט AI, כתיבה, בדיקת דקדוק, הסבר, סיכום, חיפוש, ניהול פרומפטים ועוד."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Resmi Kopyala",
     "share": "Paylaş",
     "link_copied": "Bağlantı kopyalandı",
-    "sign_up": "Kaydol"
+    "sign_up": "Kaydol",
+    "follow": "Takip Et"
   },
   "button": {
     "add_to_chrome_for_free": "Ücretsiz olarak Chrome'a ekle",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Tasarruf Et {{NUM}}%",
     "email_unsubscribe_success__title": "Başarıyla abonelikten çıkarıldı",
     "email_unsubscribe_success__content": "E-posta adresiniz başarıyla bülten listemizden kaldırıldı. Artık gelecekte güncellemeler almayacaksınız. Gidişinizi üzücü buluyoruz, ancak her zaman en son içerikle ilgili bilgilere erişmek için tekrar bekleriz!",
-    "languages__title": "Ülkenizi veya Bölgenizi Seçin"
+    "languages__title": "Ülkenizi veya Bölgenizi Seçin",
+    "pricing__productivity": "Verimlilik",
+    "contact_us__item1": "Herhangi bir soru veya öneriniz için bize bir satır bırakın:",
+    "contact_us__item2": "En son güncellemeler ve ipuçları için bizi Twitter'da takip edin:",
+    "contact_us__item3": "Lütfen ★★★★★ derecelendirme yaparak bize destek olun:",
+    "contact_us__item3__store": "Uzantı web mağazası",
+    "contact_us__item4": "Bu uzantıyı paylaşarak diğerlerine yardımcı olun:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -491,7 +498,7 @@
     "faq_list__question4__title": "MaxAI.me'yi nerede kullanabilirim?",
     "faq_list__question4__desc": "Herhangi bir Chromium tabanlı tarayıcıda (Chrome ve Edge gibi) herhangi bir web sitesinde MaxAI.me'yi kullanabilirsiniz. Metin yazmak, yazmayı geliştirmek, özetlemek, açıklamak, yazım ve dilbilgisi hatalarını düzeltmek, çevirmek veya yanıtlamak için kullanabilirsiniz.",
     "faq_list__disclaimer_part1": "Abonelik yaparak otomatik ödemelere kaydoluyorsunuz. \"Planım\" bölümünden Stripe müşteri portalı aracılığıyla aboneliğinizi iptal edebilir veya yönetebilirsiniz. Tüm hizmetler, kaydolduğunuzda onayladığınız şekilde sunulmaktadır. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak hizmete programatik yöntemlerle erişemezsiniz. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara yol açarsa, yasal işlem yapma ve uygun tazminat talep etme hakkını saklı tutarız.",
-    "faq_list__disclaimer_part2": "",
+    "faq_list__disclaimer_part2": "kaydolmanızla onaylarsınız. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak hizmete programatik yöntemlerle erişemezsiniz. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara neden olursa, yasal işlem yapma ve uygun tazminat talep etme hakkımız saklıdır.",
     "plan_features_table__gemini_tooltip_desc": "Google'ın en yetenekli ve genel modeli. Çoklu işlevsellik için baştan aşağıya inşa edildi. Gemini on MaxAI şu anda beta aşamasında olup, yalnızca metin ve kod desteği sağlamaktadır. Yakında resimler, videolar ve sesler için de destek ekleyecektir.",
     "footer__resources": "Kaynaklar"
   },
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Kötüye kullanım, oyun ve politika ihlalleri hesabınızın yasaklanmasına ve mevcut ve gelecekteki komisyonların iptal edilmesine neden olacaktır.",
     "faq__question5__description__part1": "Bağlı kuruluş hesabınıza giriş yapabilirsiniz",
     "faq__question5__description__part2": "bağlantı performansınızı takip etmek için."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Her Yerde 1 Tıkla AI Kullanın (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "AI'nin her yerde kullanmanın en hızlı yolu: AI sohbeti, yazma, dilbilgisi kontrolü, açıklama, özetleme, arama, ipucu yönetimi ve daha fazlası."
   }
 }

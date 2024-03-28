@@ -42,7 +42,8 @@
     "copy_image": "Kopyahin ang imahe",
     "share": "Ibahagi",
     "link_copied": "Nakopya ang link",
-    "sign_up": "Mag-sign up"
+    "sign_up": "Mag-sign up",
+    "follow": "Sundan"
   },
   "button": {
     "add_to_chrome_for_free": "Idagdag sa Chrome nang libre",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "I-save ang {{NUM}}%",
     "email_unsubscribe_success__title": "Matagumpay na hindi na-subscribe",
     "email_unsubscribe_success__content": "Matagumpay na tinanggal ang iyong email address mula sa aming listahan ng newsletter. Hindi ka na tatanggap ng mga susunod na update. Nalulungkot kami na ikaw ay umalis, pero malugod kang binabati na bumalik kahit kailan upang makasabay sa pinakabagong nilalaman!",
-    "languages__title": "Pumili ng Iyong Bansa o Rehiyon"
+    "languages__title": "Pumili ng Iyong Bansa o Rehiyon",
+    "pricing__productivity": "Produktibidad",
+    "contact_us__item1": "Para sa anumang mga tanong o mungkahi, mag-iwan ng mensahe sa amin sa",
+    "contact_us__item2": "Sundan kami sa Twitter para sa pinakabagong mga update at tips:",
+    "contact_us__item3": "Suportahan kami sa pamamagitan ng pagbibigay ng ★★★★★ na rating sa",
+    "contact_us__item3__store": "Tindahan ng web extension",
+    "contact_us__item4": "Tulungan ang iba sa pamamagitan ng pagbahagi ng extension na ito:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Ang pang-aabuso, paglalaro, at paglabag sa patakaran ay magreresulta sa pagkakabawal ng iyong account at ng anumang kasalukuyang at hinaharap na komisyon.",
     "faq__question5__description__part1": "Maaari kang mag-log in sa iyong affiliate account sa",
     "faq__question5__description__part2": "upang ma-track ang iyong referral performance."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Gamitin ang AI sa Isang Click Kahit Saan (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan: AI chat, pagsusulat, pagsuri ng grammar, pagsasalarawan, buod, paghahanap, pamamahala ng prompt, at higit pa."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Kopírovat obrázek",
     "share": "Sdílet",
     "link_copied": "Odkaz zkopírován",
-    "sign_up": "Registrovat se"
+    "sign_up": "Registrovat se",
+    "follow": "Sledovat"
   },
   "button": {
     "add_to_chrome_for_free": "Přidat do Chrome zdarma",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Ušetřete {{NUM}}%",
     "email_unsubscribe_success__title": "Úspěšně odhlášeno",
     "email_unsubscribe_success__content": "Váš e-mail byl úspěšně odebrán z našeho seznamu novinek. Už nebudete dostávat budoucí aktualizace. Je nám líto, že vás vidíme odcházet, ale kdykoliv se můžete vrátit a dozvědět se o nejnovějším obsahu!",
-    "languages__title": "Vyberte si svou zemi nebo region"
+    "languages__title": "Vyberte si svou zemi nebo region",
+    "pricing__productivity": "Produktivita",
+    "contact_us__item1": "Pokud máte nějaké otázky nebo návrhy, napište nám",
+    "contact_us__item2": "Sledujte nás na Twitteru pro nejnovější aktualizace a tipy:",
+    "contact_us__item3": "Podpořte nás hodnocením ★★★★★ na",
+    "contact_us__item3__store": "Obchod s rozšířeními",
+    "contact_us__item4": "Pomozte ostatním sdílením tohoto rozšíření:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Zneužívání, manipulace a porušování pravidel povede k zablokování vašeho účtu a ztrátě stávajících i budoucích provizí.",
     "faq__question5__description__part1": "Můžete se přihlásit do svého partnerského účtu na",
     "faq__question5__description__part2": "pro sledování výkonu vašeho doporučení."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Použijte 1-Kliknutí AI Kdekoli (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Nejrychlejší způsob, jak používat AI kdekoli: AI chat, psaní, kontrola gramatiky, vysvětlení, shrnutí, vyhledávání, správa podnětů a další."
   }
 }

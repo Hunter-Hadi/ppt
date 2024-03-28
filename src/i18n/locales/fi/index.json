@@ -42,7 +42,8 @@
     "copy_image": "Kopioi kuva",
     "share": "Jaa",
     "link_copied": "Linkki kopioitu",
-    "sign_up": "Rekisteröidy"
+    "sign_up": "Rekisteröidy",
+    "follow": "Seuraa"
   },
   "button": {
     "add_to_chrome_for_free": "Lisää Chromeen ilmaiseksi",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Säästä {{NUM}}%",
     "email_unsubscribe_success__title": "Poistuminen onnistui",
     "email_unsubscribe_success__content": "Sähköpostiosoitteesi on poistettu onnistuneesti uutiskirjelistaltamme. Et enää vastaanota tulevia päivityksiä. Pahoittelemme, että lähdet, mutta olet aina tervetullut takaisin tutustumaan uusimpaan sisältöön!",
-    "languages__title": "Valitse maasi tai alueesi"
+    "languages__title": "Valitse maasi tai alueesi",
+    "pricing__productivity": "Tuottavuus",
+    "contact_us__item1": "Jos sinulla on kysyttävää tai ehdotuksia, lähetä meille viesti osoitteeseen",
+    "contact_us__item2": "Seuraa meitä Twitterissä uusimpien päivitysten ja vinkkien saamiseksi:",
+    "contact_us__item3": "Tukeaksesi meitä, anna arvio ★★★★★",
+    "contact_us__item3__store": "Laajennuksen verkkokaupassa",
+    "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Väärinkäytökset, väärinkäyttö ja sääntöjen rikkomukset johtavat tilisi sulkemiseen ja kaikkien olemassa olevien ja tulevien provisioiden menettämiseen.",
     "faq__question5__description__part1": "Voit kirjautua sisään kumppanitilillesi osoitteessa",
     "faq__question5__description__part2": "seurataksesi suosittelutoimintaasi."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Käytä 1-Click AI missä tahansa (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Nopein tapa käyttää tekoälyä missä tahansa: AI-keskustelu, kirjoittaminen, kieliopintarkistus, selitys, yhteenveto, haku, aloitteen hallinta ja paljon muuta."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Copier l'image",
     "share": "Partager",
     "link_copied": "Lien copié",
-    "sign_up": "S'inscrire"
+    "sign_up": "S'inscrire",
+    "follow": "Suivre"
   },
   "button": {
     "add_to_chrome_for_free": "Ajouter à Chrome gratuitement",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Économisez {{NUM}}%",
     "email_unsubscribe_success__title": "Désinscription réussie",
     "email_unsubscribe_success__content": "Votre adresse e-mail a été supprimée avec succès de notre liste de diffusion. Vous ne recevrez plus de mises à jour futures. Nous sommes désolés de vous voir partir, mais vous êtes toujours le bienvenu pour vous mettre à jour avec les derniers contenus !",
-    "languages__title": "Choisissez votre pays ou région"
+    "languages__title": "Choisissez votre pays ou région",
+    "pricing__productivity": "Productivité",
+    "contact_us__item1": "Pour toutes questions ou suggestions, envoyez-nous un message à",
+    "contact_us__item2": "Suivez-nous sur Twitter pour les dernières mises à jour et astuces:",
+    "contact_us__item3": "Soutenez-nous en donnant une note de ★★★★★ sur",
+    "contact_us__item3__store": "la boutique d'extensions web",
+    "contact_us__item4": "Aidez les autres en partageant cette extension:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Les abus, les manipulations et les violations des règles entraîneront la suspension de votre compte et la perte de toutes les commissions existantes et futures.",
     "faq__question5__description__part1": "Vous pouvez vous connecter à votre compte d'affilié sur",
     "faq__question5__description__part2": "pour suivre vos performances de parrainage."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Utilisez l'IA en un clic partout (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Le moyen le plus rapide d'utiliser l'IA n'importe où : chat IA, écriture, vérification de grammaire, explication, résumé, recherche, gestion des suggestions et plus encore."
   }
 }

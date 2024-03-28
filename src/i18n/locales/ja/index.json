@@ -42,7 +42,8 @@
     "copy_image": "画像をコピー",
     "share": "共有",
     "link_copied": "リンクがコピーされました",
-    "sign_up": "登録"
+    "sign_up": "登録",
+    "follow": "フォロー"
   },
   "button": {
     "add_to_chrome_for_free": "無料でChromeに追加",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "最大{{NUM}}%オフ",
     "email_unsubscribe_success__title": "正常に登録解除されました",
     "email_unsubscribe_success__content": "お客様のメールアドレスは、ニュースレターリストから正常に削除されました。今後の更新情報は受け取れなくなります。お帰りいただくことをお待ちしておりますが、最新コンテンツをご覧いただくためにいつでもお戻りいただけます！",
-    "languages__title": "国または地域を選択してください"
+    "languages__title": "国または地域を選択してください",
+    "pricing__productivity": "生産性",
+    "contact_us__item1": "質問や提案がある場合は、以下にご連絡ください",
+    "contact_us__item2": "最新のアップデートとヒントを得るために、Twitterでフォローしてください",
+    "contact_us__item3": "★★★★★で評価していただくことで、私たちをサポートしてください",
+    "contact_us__item3__store": "拡張機能ウェブストア",
+    "contact_us__item4": "この拡張機能を共有することで、他の人を助けてください"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "不正使用、ゲーミング、ポリシー違反は、アカウントの禁止および既存および将来の報酬の喪失につながります。",
     "faq__question5__description__part1": "アフィリエイトアカウントにログインできます。",
     "faq__question5__description__part2": "紹介のパフォーマンスを追跡するために。"
+  },
+  "seo": {
+    "default__title": "MaxAI.me：どこでも1クリックでAIを利用（ChatGPT、Claude、Gemini、Bard、Bing）",
+    "default__description": "AIをどこでも最速で利用する方法：AIチャット、文章作成、文法チェック、説明、要約、検索、プロンプト管理など"
   }
 }

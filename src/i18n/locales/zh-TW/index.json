@@ -42,7 +42,8 @@
     "copy_image": "複製圖片",
     "share": "分享",
     "link_copied": "連結已複製",
-    "sign_up": "註冊"
+    "sign_up": "註冊",
+    "follow": "追蹤"
   },
   "button": {
     "add_to_chrome_for_free": "免費加入 Chrome",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "節省 {{NUM}}%",
     "email_unsubscribe_success__title": "成功取消訂閱",
     "email_unsubscribe_success__content": "您的電子郵件地址已成功從我們的通訊列表中刪除。您將不再收到未來的更新。我們很遺憾見到您離開，但隨時歡迎您回來了解最新內容！",
-    "languages__title": "選擇您的國家或地區"
+    "languages__title": "選擇您的國家或地區",
+    "pricing__productivity": "生產力",
+    "contact_us__item1": "如有任何問題或建議，請給我們留言",
+    "contact_us__item2": "在 Twitter 上關注我們以獲取最新的更新和提示：",
+    "contact_us__item3": "通過給我們評分 ★★★★★ 支持我們",
+    "contact_us__item3__store": "擴展程式商店",
+    "contact_us__item4": "通過分享此擴展程式來幫助他人："
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "濫用、遊戲和政策違規將導致您的帳戶被禁止並且任何現有和未來的佣金被沒收。",
     "faq__question5__description__part1": "您可以在",
     "faq__question5__description__part2": "登入您的聯盟帳戶以追蹤您的推薦表現。"
+  },
+  "seo": {
+    "default__title": "MaxAI.me：隨處使用1-Click AI（ChatGPT、Claude、Gemini、Bard、Bing）",
+    "default__description": "隨處使用AI的最快方式：AI聊天、寫作、文法檢查、解釋、摘要、搜索、提示管理等。"
   }
 }

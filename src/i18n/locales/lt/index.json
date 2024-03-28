@@ -42,7 +42,8 @@
     "copy_image": "Kopijuoti paveikslėlį",
     "share": "Dalintis",
     "link_copied": "Nuoroda nukopijuota",
-    "sign_up": "Registruotis"
+    "sign_up": "Registruotis",
+    "follow": "Sekti"
   },
   "button": {
     "add_to_chrome_for_free": "Pridėti nemokamai į „Chrome“",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Sutaupykite {{NUM}}%",
     "email_unsubscribe_success__title": "Sėkmingai atsisakėte prenumeratos",
     "email_unsubscribe_success__content": "Jūsų el. pašto adresas sėkmingai pašalintas iš mūsų naujienlaiškių sąrašo. Jūs daugiau negausite ateities atnaujinimų. Gaila, kad jūs išeinate, bet visada galite sugrįžti ir sekti naujausią turinį!",
-    "languages__title": "Pasirinkite savo šalį ar regioną"
+    "languages__title": "Pasirinkite savo šalį ar regioną",
+    "pricing__productivity": "Produktyvumas",
+    "contact_us__item1": "Turite klausimų ar pasiūlymų? Parašykite mums",
+    "contact_us__item2": "Sekite mus Twitter'e, kad gautumėte naujausius atnaujinimus ir patarimus:",
+    "contact_us__item3": "Palaikykite mus įvertindami ★★★★★",
+    "contact_us__item3__store": "Plėtinio internetinėje parduotuvėje",
+    "contact_us__item4": "Padėkite kitiems dalindamiesi šiuo plėtiniu:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Piktnaudžiavimas, manipuliavimas ir taisyklių pažeidimai rezultuos jūsų paskyros uždraudimu ir visų esamų ir būsimų komisinių atsisakymu.",
     "faq__question5__description__part1": "Jūs galite prisijungti prie savo partnerių sąskaitos",
     "faq__question5__description__part2": "sekti savo nuorodų veiklą."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Naudokite 1 paspaudimą AI bet kur (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Greičiausias būdas naudoti AI bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau."
   }
 }

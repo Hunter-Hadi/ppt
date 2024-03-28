@@ -42,7 +42,8 @@
     "copy_image": "Kopiraj sliko",
     "share": "Deli",
     "link_copied": "Povezava kopirana",
-    "sign_up": "Registracija"
+    "sign_up": "Registracija",
+    "follow": "Sledi"
   },
   "button": {
     "add_to_chrome_for_free": "Brezplačno dodaj v Chrome",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Prihranite {{NUM}}%",
     "email_unsubscribe_success__title": "Uspešno odjavljeni",
     "email_unsubscribe_success__content": "Vaš e-poštni naslov je bil uspešno odstranjen s seznama naših novic. Ne boste več prejemali prihodnjih posodobitev. Žal nam je, da vas vidimo oditi, vendar ste vedno dobrodošli nazaj, da se seznanite z najnovejšo vsebino!",
-    "languages__title": "Izberite svojo državo ali regijo"
+    "languages__title": "Izberite svojo državo ali regijo",
+    "pricing__productivity": "Produktivnost",
+    "contact_us__item1": "Za vsa vprašanja ali predloge nam pišite na",
+    "contact_us__item2": "Sledite nam na Twitterju za najnovejše posodobitve in nasvete:",
+    "contact_us__item3": "Podprite nas z oceno ★★★★★ na",
+    "contact_us__item3__store": "Razširitev spletnega trgovca",
+    "contact_us__item4": "Pomagajte drugim tako, da delite to razširitev:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Zloraba, manipulacija in kršitve pravil bodo povzročile blokado vašega računa in preklic vseh obstoječih in prihodnjih provizij.",
     "faq__question5__description__part1": "Na svoj partnerski račun se lahko prijavite na",
     "faq__question5__description__part2": "za sledenje vaši napotitveni uspešnosti."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Uporabite umetno inteligenco s samo 1 klikom (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Najhitrejši način uporabe umetne inteligence kjerkoli: klepet z AI, pisanje, preverjanje slovnice, pojasnilo, povzetek, iskanje, upravljanje spodbud in še več."
   }
 }

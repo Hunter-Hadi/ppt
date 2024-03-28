@@ -42,7 +42,8 @@
     "copy_image": "Salin imej",
     "share": "Kongsi",
     "link_copied": "Pautan disalin",
-    "sign_up": "Daftar"
+    "sign_up": "Daftar",
+    "follow": "Ikuti"
   },
   "button": {
     "add_to_chrome_for_free": "Tambah ke Chrome secara percuma",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Jimat {{NUM}}%",
     "email_unsubscribe_success__title": "Berjaya dibatalkan",
     "email_unsubscribe_success__content": "Alamat emel anda telah berjaya dikeluarkan daripada senarai bahan bacaan kami. Anda tidak akan menerima kemas kini pada masa hadapan. Kami rasa sedih melihat anda pergi, tetapi anda dialu-alukan kembali pada bila-bila masa untuk mengetahui kandungan terkini!",
-    "languages__title": "Pilih Negara atau Kawasan Anda"
+    "languages__title": "Pilih Negara atau Kawasan Anda",
+    "pricing__productivity": "Produktiviti",
+    "contact_us__item1": "Untuk sebarang soalan atau cadangan, tinggalkan pesanan kepada kami di",
+    "contact_us__item2": "Ikuti kami di Twitter untuk mendapatkan kemas kini dan tip terkini:",
+    "contact_us__item3": "Sokong kami dengan memberikan penilaian ★★★★★ di",
+    "contact_us__item3__store": "Kedai web Sambungan",
+    "contact_us__item4": "Bantu orang lain dengan berkongsi sambungan ini:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Penyalahgunaan, penipuan, dan pelanggaran dasar akan mengakibatkan akaun anda dilarang dan komisen sedia ada dan akan datang dirampas.",
     "faq__question5__description__part1": "Anda boleh log masuk ke akaun rakan kongsi anda di",
     "faq__question5__description__part2": "untuk mengesan prestasi rujukan anda."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Gunakan AI 1-Klik Di Mana Saja (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Cara terpantas untuk menggunakan AI di mana-mana: perbualan AI, penulisan, semakan tatabahasa, penjelasan, ringkasan, carian, pengurusan prompt, dan banyak lagi."
   }
 }

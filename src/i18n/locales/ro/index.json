@@ -42,7 +42,8 @@
     "copy_image": "Copiază imaginea",
     "share": "Partajează",
     "link_copied": "Link copiat",
-    "sign_up": "Înregistrare"
+    "sign_up": "Înregistrare",
+    "follow": "Urmărește"
   },
   "button": {
     "add_to_chrome_for_free": "Adăugați în Chrome gratuit",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Economisiți {{NUM}}%",
     "email_unsubscribe_success__title": "Dezabonare reușită",
     "email_unsubscribe_success__content": "Adresa dvs. de email a fost eliminată cu succes din lista noastră de newslettere. Nu veți mai primi actualizări viitoare. Ne pare rău să vă vedem plecând, dar sunteți întotdeauna binevenit să vă puneți la curent cu cele mai recente conținuturi!",
-    "languages__title": "Alegeți țara sau regiunea"
+    "languages__title": "Alegeți țara sau regiunea",
+    "pricing__productivity": "Productivitate",
+    "contact_us__item1": "Pentru orice întrebări sau sugestii, lăsați-ne un mesaj la",
+    "contact_us__item2": "Urmăriți-ne pe Twitter pentru cele mai recente actualizări și sfaturi:",
+    "contact_us__item3": "Susțineți-ne prin acordarea a ★★★★★ pe",
+    "contact_us__item3__store": "Magazinul web al extensiei",
+    "contact_us__item4": "Ajutați-i pe alții distribuind această extensie:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Abuzul, manipularea și încălcările politicii vor duce la interzicerea contului tău și la pierderea comisioanelor existente și viitoare.",
     "faq__question5__description__part1": "Puteți vă autentifica în contul dvs. de afiliat pe",
     "faq__question5__description__part2": "pentru a urmări performanța referințelor dvs."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Utilizați AI cu un singur clic oriunde (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Cel mai rapid mod de a utiliza AI oriunde: chat AI, scriere, verificare gramaticală, explicații, rezumat, căutare, gestionarea prompt-urilor și multe altele."
   }
 }

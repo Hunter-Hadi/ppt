@@ -42,7 +42,8 @@
     "copy_image": "Kopier billede",
     "share": "Del",
     "link_copied": "Link kopieret",
-    "sign_up": "Tilmeld dig"
+    "sign_up": "Tilmeld dig",
+    "follow": "Følg"
   },
   "button": {
     "add_to_chrome_for_free": "Tilføj gratis til Chrome",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Spar {{NUM}}%",
     "email_unsubscribe_success__title": "Afmeldt med succes",
     "email_unsubscribe_success__content": "Din e-mailadresse er blevet fjernet fra vores nyhedsbrevsliste. Du vil ikke længere modtage fremtidige opdateringer. Vi beklager at se dig gå, men du er altid velkommen tilbage for at følge med i det seneste indhold!",
-    "languages__title": "Vælg dit land eller region"
+    "languages__title": "Vælg dit land eller region",
+    "pricing__productivity": "Produktivitet",
+    "contact_us__item1": "Hvis du har spørgsmål eller forslag, så skriv til os på",
+    "contact_us__item2": "Følg os på Twitter for de seneste opdateringer og tips:",
+    "contact_us__item3": "Støt os ved at give ★★★★★ i bedømmelse på",
+    "contact_us__item3__store": "Webbutikken for udvidelser",
+    "contact_us__item4": "Hjælp andre ved at dele denne udvidelse:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Misbrug, manipulation og overtrædelse af politikken vil resultere i, at din konto bliver blokeret, og eventuelle eksisterende og fremtidige provisioner bortfalder.",
     "faq__question5__description__part1": "Du kan logge ind på din affiliate-konto på",
     "faq__question5__description__part2": "for at følge din henvisningspræstation."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Brug 1-klik AI Overalt (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Den hurtigste måde at bruge AI overalt: AI chat, skrivning, grammatikkontrol, forklaring, opsummering, søgning, prompthåndtering og mere."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "复制图片",
     "share": "分享",
     "link_copied": "链接已复制",
-    "sign_up": "注册"
+    "sign_up": "注册",
+    "follow": "关注"
   },
   "pages": {
     "prompt_detail_page__button__run_this_prompt": "运行此提示",
@@ -329,7 +330,13 @@
     "pricing__save_up_to": "节省{{NUM}}%",
     "email_unsubscribe_success__title": "成功取消订阅",
     "email_unsubscribe_success__content": "您的电子邮件地址已成功从我们的通讯列表中删除。您将不再收到未来的更新。很遗憾看到您离开，但随时欢迎您回来了解最新内容！",
-    "languages__title": "选择您的国家或地区"
+    "languages__title": "选择您的国家或地区",
+    "pricing__productivity": "效率",
+    "contact_us__item1": "如有任何问题或建议，请给我们留言：",
+    "contact_us__item2": "在 Twitter 上关注我们以获取最新的更新和技巧：",
+    "contact_us__item3": "通过给我们评分 ★★★★★ 来支持我们：",
+    "contact_us__item3__store": "扩展程序商店",
+    "contact_us__item4": "通过分享此扩展来帮助他人："
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "滥用、操纵和违反政策将导致您的账户被封禁，并且现有和未来的佣金将被取消。",
     "faq__question5__description__part1": "您可以登录您的联盟账户",
     "faq__question5__description__part2": "来跟踪您的推荐表现。"
+  },
+  "seo": {
+    "default__title": "MaxAI.me：随处使用1-Click AI（ChatGPT，Claude，Gemini，Bard，Bing）",
+    "default__description": "随时随地使用AI的最快方式：AI聊天，写作，语法检查，解释，摘要，搜索，提示管理等。"
   }
 }

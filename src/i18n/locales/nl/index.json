@@ -42,7 +42,8 @@
     "copy_image": "Afbeelding kopiëren",
     "share": "Delen",
     "link_copied": "Link gekopieerd",
-    "sign_up": "Aanmelden"
+    "sign_up": "Aanmelden",
+    "follow": "Volgen"
   },
   "button": {
     "add_to_chrome_for_free": "Gratis toevoegen aan Chrome",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Bespaar {{NUM}}%",
     "email_unsubscribe_success__title": "Succesvol afgemeld",
     "email_unsubscribe_success__content": "Je e-mailadres is succesvol verwijderd uit onze nieuwsbrieflijst. Je ontvangt geen toekomstige updates meer. We vinden het jammer dat je weggaat, maar je bent altijd welkom om bij te blijven met de nieuwste inhoud!",
-    "languages__title": "Kies je land of regio"
+    "languages__title": "Kies je land of regio",
+    "pricing__productivity": "Productiviteit",
+    "contact_us__item1": "Voor vragen of suggesties, stuur ons een bericht op",
+    "contact_us__item2": "Volg ons op Twitter voor de laatste updates en tips:",
+    "contact_us__item3": "Ondersteun ons door ★★★★★ te beoordelen op",
+    "contact_us__item3__store": "de webwinkel van de extensie",
+    "contact_us__item4": "Help anderen door deze extensie te delen:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Misbruik, manipulatie en schending van beleid zullen resulteren in het verbannen van je account en het verbeuren van bestaande en toekomstige commissies.",
     "faq__question5__description__part1": "U kunt inloggen op uw affiliate-account op",
     "faq__question5__description__part2": "om uw verwijzingsprestaties bij te houden."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Gebruik 1-Click AI Overal (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "De snelste manier om AI overal te gebruiken: AI-chat, schrijven, grammaticacontrole, uitleg, samenvatting, zoeken, promptbeheer en meer."
   }
 }

@@ -42,7 +42,8 @@
     "copy_image": "Bild kopieren",
     "share": "Teilen",
     "link_copied": "Link kopiert",
-    "sign_up": "Registrieren"
+    "sign_up": "Registrieren",
+    "follow": "Folgen"
   },
   "button": {
     "add_to_chrome_for_free": "Kostenlos zu Chrome hinzufügen",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Sparen Sie {{NUM}}%",
     "email_unsubscribe_success__title": "Erfolgreich abgemeldet",
     "email_unsubscribe_success__content": "Ihre E-Mail-Adresse wurde erfolgreich von unserer Newsletter-Liste entfernt. Sie werden keine zukünftigen Updates mehr erhalten. Es tut uns leid, dass Sie gehen, aber Sie sind jederzeit herzlich willkommen, um den neuesten Inhalt nachzuholen!",
-    "languages__title": "Wählen Sie Ihr Land oder Ihre Region"
+    "languages__title": "Wählen Sie Ihr Land oder Ihre Region",
+    "pricing__productivity": "Produktivität",
+    "contact_us__item1": "Für Fragen oder Anregungen schreiben Sie uns eine Zeile an",
+    "contact_us__item2": "Folgen Sie uns auf Twitter für die neuesten Updates und Tipps:",
+    "contact_us__item3": "Unterstützen Sie uns, indem Sie ★★★★★ bewerten auf",
+    "contact_us__item3__store": "Erweiterung Webshop",
+    "contact_us__item4": "Helfen Sie anderen, indem Sie diese Erweiterung teilen:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Missbrauch, Manipulation und Verstoß gegen Richtlinien führen zur Sperrung Ihres Kontos und zum Verlust aller bestehenden und zukünftigen Provisionen.",
     "faq__question5__description__part1": "Sie können sich in Ihr Partnerkonto einloggen, um",
     "faq__question5__description__part2": "Ihre Empfehlungsleistung zu verfolgen."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Überall KI mit nur einem Klick nutzen (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Der schnellste Weg, KI überall zu nutzen: KI-Chat, Schreiben, Grammatikprüfung, Erklärung, Zusammenfassung, Suche, Prompt-Verwaltung und mehr."
   }
 }

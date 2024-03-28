@@ -42,7 +42,8 @@
     "copy_image": "Kopier bilde",
     "share": "Del",
     "link_copied": "Lenke kopiert",
-    "sign_up": "Registrer deg"
+    "sign_up": "Registrer deg",
+    "follow": "Følg"
   },
   "button": {
     "add_to_chrome_for_free": "Legg til i Chrome gratis",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Spar {{NUM}}%",
     "email_unsubscribe_success__title": "Avsluttet abonnement",
     "email_unsubscribe_success__content": "E-postadressen din er blitt fjernet fra nyhetsbrevlisten vår. Du vil ikke lenger motta fremtidige oppdateringer. Vi beklager at du forlater oss, men du er alltid velkommen tilbake for å holde deg oppdatert med det siste innholdet!",
-    "languages__title": "Velg ditt land eller region"
+    "languages__title": "Velg ditt land eller region",
+    "pricing__productivity": "Produktivitet",
+    "contact_us__item1": "For spørsmål eller forslag, send oss en melding på",
+    "contact_us__item2": "Følg oss på Twitter for de siste oppdateringene og tipsene:",
+    "contact_us__item3": "Støtt oss ved å gi ★★★★★ vurdering på",
+    "contact_us__item3__store": "Utvidelsesnettbutikk",
+    "contact_us__item4": "Hjelp andre ved å dele denne utvidelsen:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Misbruk, juks og brudd på retningslinjene vil resultere i at kontoen din blir utestengt og eventuelle eksisterende og fremtidige provisjoner blir inndratt.",
     "faq__question5__description__part1": "Du kan logge inn på din tilknyttede konto på",
     "faq__question5__description__part2": "for å spore ytelsen til henvisningene dine."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Bruk AI med 1 klikk hvor som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Den raskeste måten å bruke AI hvor som helst: AI-chat, skriving, grammatikk sjekk, forklaring, oppsummering, søk, håndtering av forslag og mer."
   }
 }

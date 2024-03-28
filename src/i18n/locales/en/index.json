@@ -599,6 +599,9 @@
     "faq__question7__title": "Can I promote my affiliate link with paid advertising?",
     "faq__question7__description__part1": "You may not use your affiliate link in any paid advertising or paid media. This includes search engine ads, Facebook ads, TikTok ads, or anything similar that would compete with MaxAI's marketing and cause confusion for potential customers.",
     "faq__question7__description__part2": "Abuse, gaming, and policy violations will result in having your account banned and any existing and future commissions forfeited."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more."
   }
-  
 }

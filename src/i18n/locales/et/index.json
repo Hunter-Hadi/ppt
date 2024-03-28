@@ -42,7 +42,8 @@
     "copy_image": "Kopeeri pilt",
     "share": "Jaga",
     "link_copied": "Link kopeeritud",
-    "sign_up": "Registreeru"
+    "sign_up": "Registreeru",
+    "follow": "Jälgi"
   },
   "button": {
     "add_to_chrome_for_free": "Lisa tasuta Chrome'ile",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Säästa {{NUM}}%",
     "email_unsubscribe_success__title": "Edukalt loobutud",
     "email_unsubscribe_success__content": "Teie e-posti aadress on edukalt eemaldatud meie uudiskirja nimekirjast. Te ei saa enam tulevasi värskendusi. Meil on kahju, et te lahkute, kuid olete alati teretulnud, et tutvuda viimaste sisuga!",
-    "languages__title": "Valige oma riik või piirkond"
+    "languages__title": "Valige oma riik või piirkond",
+    "pricing__productivity": "Tootlikkus",
+    "contact_us__item1": "Küsimuste või ettepanekute korral kirjutage meile aadressil",
+    "contact_us__item2": "Jälgige meid Twitteris viimaste uuenduste ja näpunäidete saamiseks:",
+    "contact_us__item3": "Toetage meid hindega ★★★★★",
+    "contact_us__item3__store": "Laienduse veebipood",
+    "contact_us__item4": "Aidake teisi, jagades seda laiendust:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "Konto keelamine ja olemasolevate ning tulevaste komisjonitasude tühistamine on kuritarvitamise, mängimise ja poliitikavastaste rikkumiste tagajärg.",
     "faq__question5__description__part1": "Saate sisse logida oma sidusettevõtte kontole",
     "faq__question5__description__part2": "oma viitamise tulemuste jälgimiseks."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Kasutage 1-klõpsuga AI-d kõikjal (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "Kõige kiirem viis kasutada AI-d kõikjal: AI vestlus, kirjutamine, grammatika kontroll, selgitus, kokkuvõte, otsing, ülesannete haldamine ja palju muud."
   }
 }

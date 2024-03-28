@@ -42,7 +42,8 @@
     "copy_image": "Copia la imatge",
     "share": "Comparteix",
     "link_copied": "Enllaç copiat",
-    "sign_up": "Registra't"
+    "sign_up": "Registra't",
+    "follow": "Segueix"
   },
   "button": {
     "add_to_chrome_for_free": "Afegeix a Chrome de franc",
@@ -343,7 +344,13 @@
     "pricing__save_up_to": "Estalvia un {{NUM}}%",
     "email_unsubscribe_success__title": "S'ha donat de baixa amb èxit",
     "email_unsubscribe_success__content": "La seva adreça de correu electrònic s'ha eliminat correctament de la nostra llista de butlletins. Ja no rebrà actualitzacions futures. Ens sap greu veure que marxa, però sempre serà benvingut per posar-se al dia amb el contingut més recent!",
-    "languages__title": "Trieu el vostre país o regió"
+    "languages__title": "Trieu el vostre país o regió",
+    "pricing__productivity": "Productivitat",
+    "contact_us__item1": "Per a qualsevol pregunta o suggeriment, envieu-nos un missatge a",
+    "contact_us__item2": "Segueix-nos a Twitter per a les últimes actualitzacions i consells:",
+    "contact_us__item3": "Donau suport valorant ★★★★★ a",
+    "contact_us__item3__store": "Botiga d'extensions web",
+    "contact_us__item4": "Ajuda altres compartint aquesta extensió:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -546,5 +553,9 @@
     "faq__question7__description__part2": "L'abús, l'engany i les violacions de les polítiques resultaran en la prohibició del teu compte i la pèrdua de les comissions existents i futures.",
     "faq__question5__description__part1": "Pots iniciar sessió al teu compte d'afiliat a",
     "faq__question5__description__part2": "per fer un seguiment del teu rendiment de referència."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: Utilitza l'IA amb un sol clic a qualsevol lloc (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "La manera més ràpida d'utilitzar l'IA en qualsevol lloc: xat d'IA, escriptura, correcció gramatical, explicació, resum, cerca, gestió de suggeriments i més."
   }
 }
