@@ -42,7 +42,8 @@
     "download_image": "Download image",
     "copy_image": "Copy image",
     "share": "Share",
-    "link_copied": "Link copied"
+    "link_copied": "Link copied",
+    "follow": "Follow"
   },
   "button": {
     "add_to_chrome_for_free": "Add to Chrome for free",
@@ -369,7 +370,13 @@
     "use_cases__tech_page__take_time__content": "Imagine what you can achieve with more hours in your day. MaxAI not only simplifies your workload but also opens doors to innovative solutions in technical and engineering fields. Get ready to reclaim your time and focus on what truly matters in your profession.",
     "email_unsubscribe_success__title": "Unsubscribed successfully",
     "email_unsubscribe_success__content": "Your email address has been successfully removed from our newsletter list. You will no longer receive future updates. We're sorry to see you go, but you're welcome back anytime to catch up with the latest content!",
-    "languages__title": "Choose Your Country or Region"
+    "languages__title": "Choose Your Country or Region",
+
+    "contact_us__item1": "For any questions or suggestions, drop us a line at",
+    "contact_us__item2": "Follow us on Twitter for the latest updates and tips:",
+    "contact_us__item3": "Support us by rating ★★★★★ on",
+    "contact_us__item3__store": "Extension web store",
+    "contact_us__item4": "Help others by sharing this extension:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -591,4 +598,5 @@
     "faq__question7__description__part1": "You may not use your affiliate link in any paid advertising or paid media. This includes search engine ads, Facebook ads, TikTok ads, or anything similar that would compete with MaxAI's marketing and cause confusion for potential customers.",
     "faq__question7__description__part2": "Abuse, gaming, and policy violations will result in having your account banned and any existing and future commissions forfeited."
   }
+  
 }
