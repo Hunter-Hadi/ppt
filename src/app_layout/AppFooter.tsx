@@ -11,7 +11,7 @@ import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTo
 import {
   APP_EXTERNAL_LINKS,
   APP_PROJECT_LINK,
-  PROMPT_LIBRARY_PROXY_BASE_PATH_TEST,
+  PROMPT_LIBRARY_PROXY_BASE_PATH,
 } from '@/global_constants';
 import AppLogo from '@/page_components/AppLogo';
 
@@ -142,7 +142,7 @@ const AppFooter = () => {
                       label: t('modules:footer__1_click_prompts'),
                       // icon: <CustomIcon icon='PromptLogo' />,
                       icon: null,
-                      link: `${PROMPT_LIBRARY_PROXY_BASE_PATH_TEST}/library`,
+                      link: `${PROMPT_LIBRARY_PROXY_BASE_PATH}/library`,
                     },
                   ]}
                 />

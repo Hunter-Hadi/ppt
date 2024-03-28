@@ -69,11 +69,9 @@ export const MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/prompts-web';
 
 // prompt library 代理容器的 base path
-export const PROMPT_LIBRARY_PROXY_BASE_PATH = '/prompts';
-export const PROMPT_LIBRARY_PROXY_BASE_PATH_TEST = '/test-prompts';
+export const PROMPT_LIBRARY_PROXY_BASE_PATH = '/prompt';
 
 // 需要针对被代理的 basePath 进行处理
 export const SUPPORT_PROXY_BASE_PATHS = [
   PROMPT_LIBRARY_PROXY_BASE_PATH,
-  PROMPT_LIBRARY_PROXY_BASE_PATH_TEST,
 ] as const;

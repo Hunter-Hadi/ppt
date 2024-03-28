@@ -7,7 +7,7 @@ import NextLink, { LinkProps } from 'next/link';
 import { useRouter } from 'next/router';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
-import { PROMPT_LIBRARY_PROXY_BASE_PATH_TEST } from '@/global_constants';
+import { PROMPT_LIBRARY_PROXY_BASE_PATH } from '@/global_constants';
 import { safeTarget } from '@/utils/location';
 
 export interface IProLinkProps {
@@ -140,10 +140,10 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
 
       if (fixedHref.startsWith('/')) {
         if (newLocale) {
-          if (fixedHref.startsWith(PROMPT_LIBRARY_PROXY_BASE_PATH_TEST)) {
+          if (fixedHref.startsWith(PROMPT_LIBRARY_PROXY_BASE_PATH)) {
             fixedHref = fixedHref.replace(
-              PROMPT_LIBRARY_PROXY_BASE_PATH_TEST,
-              `${PROMPT_LIBRARY_PROXY_BASE_PATH_TEST}/${newLocale}`,
+              PROMPT_LIBRARY_PROXY_BASE_PATH,
+              `${PROMPT_LIBRARY_PROXY_BASE_PATH}/${newLocale}`,
             );
           } else {
             fixedHref = `/${newLocale}${fixedHref}`;

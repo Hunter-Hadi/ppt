@@ -6,7 +6,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import useEffectOnce from '@/features/common/hooks/useEffectOnce';
 import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper';
-import { PROMPT_LIBRARY_PROXY_BASE_PATH_TEST } from '@/global_constants';
+import { PROMPT_LIBRARY_PROXY_BASE_PATH } from '@/global_constants';
 
 const PromptDetailPages: FC<{
   id?: string;
@@ -21,7 +21,7 @@ const PromptDetailPages: FC<{
     } else if (id) {
       const cloneQuery = { ...router.query };
 
-      let prefixHref = PROMPT_LIBRARY_PROXY_BASE_PATH_TEST;
+      let prefixHref = PROMPT_LIBRARY_PROXY_BASE_PATH;
 
       if (cloneQuery.locale) {
         prefixHref += `/${cloneQuery.locale}`;
