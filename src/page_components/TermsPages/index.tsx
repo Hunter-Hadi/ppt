@@ -165,20 +165,29 @@ const TermsPages: FC = () => {
           may use it without restriction or compensation to you.`}
         </Typography>
         <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
-          {`(c) Restrictions. You may not (i) use the Services in a way that
-          infringes, misappropriates or violates any person's rights; (ii)
-          reverse assemble, reverse compile, decompile, translate or otherwise
-          attempt to discover the source code or underlying components of
-          models, algorithms, and systems of the Services (except to the extent
-          such restrictions are contrary to applicable law); (iii) share your
-          account with others to avoid or bypass our set limitations; (iv) use
-          any automated or programmatic method to extract data or output from
-          the Services, including scraping, web harvesting, or web data
-          extraction; (v), send us any personal information of children under 13
-          or the applicable age of digital consent. The Services is designed for
-          individual human use. You will comply with any rate limits and other
-          requirements in our documentation. You may use Services only in
-          geographies currently supported by us.`}
+          {`(c) Restrictions. The Services are intended for human use only. By
+          using the Services, you agree to the following restrictions: `}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          {`(i) You shall not use the Services in any manner that infringes, misappropriates, or violates the intellectual property rights or other rights of any third party.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          {`(ii) You shall not reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code, underlying components, or algorithms of the Services, except to the extent such restrictions are expressly prohibited by applicable law.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          {`(iii) You shall not share your account with multiple individuals or entities to circumvent or exceed the limitations set forth by us.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          {`(iv) You shall not employ any automated or programmatic methods, including but not limited to scraping, web harvesting, or data extraction, to access the Services, extract data, or bypass the official user interface.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          {`(v) You shall not provide us with any personal information of children under the age of 13 or the applicable age of digital consent in your jurisdiction.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          {`You agree to adhere to any rate limits and other requirements specified in our documentation. The Services may only be accessed and used in geographies currently supported by us.`}
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          {`In the event that you violate these terms of normal usage, we reserve the right, at our sole discretion, to suspend or terminate your account. Furthermore, if your violation results in actual losses or damages, we reserve the right to pursue legal action and seek appropriate compensation to the fullest extent permitted by law.`}
         </Typography>
       </Box>
       <Box sx={{ mt: 4 }}>
