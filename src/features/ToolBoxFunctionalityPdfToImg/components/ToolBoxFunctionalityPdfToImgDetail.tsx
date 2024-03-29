@@ -8,7 +8,7 @@ import {
   ImageListItem,
   Typography,
 } from '@mui/material';
-import { FC, useCallback, useEffect, useState } from 'react';
+import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
 import usePdfToImgsTool from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImgsTool';
@@ -21,13 +21,17 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 interface IToolBoxFunctionalityPdfToImgProps {
   fileList: FileList;
+  toType: 'jpg' | 'png';
   onRemoveFile?: () => void;
 }
 const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   fileList,
   onRemoveFile,
+  toType,
 }) => {
   const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5);
+  const [selectSizeIndex, setSelectSizeIndex] = useState<number>(0);
+
   const {
     pdfImageList,
     pdfIsLoad,
@@ -39,7 +43,8 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
     onSwitchSelect,
     pdfIsSelectAll,
     onSwitchAllSelect,
-  } = usePdfToImgsTool();
+    defaultSize,
+  } = usePdfToImgsTool(toType);
 
   useEffect(() => {
     if (fileList.length > 0) {
@@ -48,11 +53,12 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   }, [fileList]);
 
   useEffect(() => {
-    // 限制初始化一行最大展示 6 页
-    if (pdfNumPages < 6) {
-      setCurrentShowPageCors(pdfNumPages);
+    // 初始化期间，将一行中显示的最大页数限制为6，最小为2，为1会太大
+    const maxPagesPerRow = 6;
+    if (pdfNumPages < maxPagesPerRow) {
+      setCurrentShowPageCors(Math.max(pdfNumPages, 2));
     } else {
-      setCurrentShowPageCors(6);
+      setCurrentShowPageCors(maxPagesPerRow);
     }
   }, [pdfNumPages]);
   const changeCurrentShowPageCors = useCallback(
@@ -67,6 +73,23 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
     },
     [],
   );
+
+  const imgSizeList = useMemo(() => {
+    return [
+      defaultSize,
+      {
+        width: defaultSize.width * 4,
+        height: defaultSize.height * 4,
+      },
+    ];
+  }, [defaultSize]);
+  const downloadPdfImagesZip = () => {
+    //1 * 1.6 * 4,是因为onReadPdfToImages默认的图片就是1.6倍
+    onDownloadPdfImagesZip(
+      selectSizeIndex === 0 ? undefined : 1 * 1.6 * 4,
+      fileList[0],
+    );
+  };
   return (
     <Box sx={{ width: '100%' }}>
       <Grid
@@ -92,7 +115,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             sx={{ width: '100%' }}
             disabled={pdfIsLoad}
             variant='contained'
-            onClick={onDownloadPdfImagesZip}
+            onClick={() => downloadPdfImagesZip()}
           >
             下载
           </Button>
@@ -231,13 +254,62 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         direction='row'
         justifyContent='center'
         alignItems='center'
+        gap={2}
+      >
+        {imgSizeList.map((imgSize, index) => (
+          <Box
+            key={index}
+            onClick={() => setSelectSizeIndex(index)}
+            sx={{
+              border: `1px solid ${
+                selectSizeIndex === index ? '#000' : '#e5e7eb'
+              }`,
+              padding: 2,
+              borderRadius: 2,
+              cursor: 'pointer',
+              '&:hover': {
+                bgcolor: '#f3f4f6',
+              },
+            }}
+          >
+            <Typography
+              sx={{
+                fontSize: {
+                  xs: 12,
+                  lg: 18,
+                },
+                color: selectSizeIndex === index ? '#000' : '#4b5563',
+              }}
+            >
+              {index === 0 ? 'Normal Quality' : 'High Quality'}
+            </Typography>
+            <Typography
+              sx={{
+                fontSize: {
+                  xs: 12,
+                  lg: 15,
+                },
+                color: selectSizeIndex === index ? '#000' : '#6b7280',
+              }}
+            >
+              {imgSize.width} * {imgSize.height}
+            </Typography>
+          </Box>
+        ))}
+      </Grid>
+      <Grid
+        container
+        direction='row'
+        justifyContent='center'
+        alignItems='center'
+        sx={{ mt: 2 }}
       >
         <Grid xs={10} md={3}>
           <Button
             sx={{ width: '100%' }}
             disabled={pdfIsLoad}
             variant='contained'
-            onClick={onDownloadPdfImagesZip}
+            onClick={() => downloadPdfImagesZip()}
           >
             下载
           </Button>

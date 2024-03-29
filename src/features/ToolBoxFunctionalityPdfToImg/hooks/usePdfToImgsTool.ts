@@ -1,7 +1,7 @@
 import FileSaver from 'file-saver';
 import JSZip from 'jszip';
 import { debounce } from 'lodash-es';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
@@ -11,35 +11,44 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
-let isCancel = false;
-const usePdfToImgsTool = () => {
+const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
+  const isCancel = useRef(false);
   const [pdfImageList, setPdfImageList] = useState<
-    { id: string; imgString: string; isSelect: boolean }[]
+    { id: string; imgString: string; isSelect: boolean; definedIndex: number }[]
   >([]);
-  const [pdfIsLoad, setPdfIsLoad] = useState<boolean>(true);
-  const [pdfIsSelectAll, setPdfIsSelectAll] = useState<boolean>(true);
+  const [pdfIsLoad, setPdfIsLoad] = useState<boolean>(true); //是否加载中
+  const [pdfIsSelectAll, setPdfIsSelectAll] = useState<boolean>(true); //是否全选
 
-  const [pdfNumPages, pdfPdfNumPages] = useState<number>(0);
-  const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0);
+  const [pdfNumPages, pdfPdfNumPages] = useState<number>(0); //总页数/总下载页书
+  const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数/当前下载页书进度
+  const [defaultSize, setDefaultSize] = useState<{
+    width: number;
+    height: number;
+  }>({ width: 500, height: 1000 }); //默认尺寸
+
   const onReadPdfToImages = debounce(async (file: File) => {
     if (!file) {
       return;
     }
-    isCancel = false;
+    isCancel.current = false;
     setPdfIsLoad(true);
     const buff = await file.arrayBuffer(); // Uint8Array
     const pdfDoc = await pdfjs.getDocument(buff).promise;
     pdfPdfNumPages(pdfDoc._pdfInfo.numPages);
     for (let pageNum = 1; pageNum <= pdfDoc._pdfInfo.numPages; pageNum++) {
-      if (isCancel) return;
+      if (isCancel.current) return;
       setCurrentPdfActionNum(pageNum);
-      const scale = 1.0;
+      const scale = 1.6;
       const page = await pdfDoc.getPage(pageNum);
       const viewport = page.getViewport({ scale });
       const canvas = document.createElement('canvas');
       const context = canvas.getContext('2d');
       canvas.width = viewport.width;
       canvas.height = viewport.height;
+      setDefaultSize({
+        width: Math.floor(viewport.width),
+        height: Math.floor(viewport.height),
+      });
       const renderContext = {
         canvasContext: context!,
         viewport: viewport,
@@ -52,6 +61,7 @@ const usePdfToImgsTool = () => {
           id: uuidV4(),
           imgString: imageDataUrl,
           isSelect: true,
+          definedIndex: pageNum,
         },
       ]);
       if (pageNum === pdfDoc._pdfInfo.numPages) {
@@ -60,25 +70,57 @@ const usePdfToImgsTool = () => {
     }
   }, 200);
   const onCancelPdfToImgs = () => {
-    isCancel = true;
+    isCancel.current = true;
     setPdfIsLoad(false);
   };
-  const onDownloadPdfImagesZip = async () => {
+  const onDownloadPdfImagesZip = async (scale?: number, file?: File) => {
+    console.log('simply scale', scale);
     const zip = new JSZip();
     const images = zip.folder('images');
-    let ishaveFile = 0;
     const selectedImages = pdfImageList.filter((image) => image.isSelect);
+    const buff = await file?.arrayBuffer(); // Uint8Array
+    const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
+    //进行下载进度显示
+    setCurrentPdfActionNum(0);
+    pdfPdfNumPages(selectedImages.length);
+    setPdfIsLoad(true);
+    isCancel.current = false;
+    //开始处理单个文件
     for (let i = 0; i < selectedImages.length; i++) {
-      ishaveFile += 1;
-      images?.file(
-        `image-${i + 1}.png`,
-        dataURLtoBlob(selectedImages[i].imgString),
-        {
+      if (isCancel.current) return;
+      if (!scale) {
+        images?.file(
+          `image-${i + 1}.${toType}`,
+          dataURLtoBlob(selectedImages[i].imgString),
+          {
+            base64: true,
+          },
+        );
+      } else if (pdfDoc && scale) {
+        const page = await pdfDoc.getPage(selectedImages[0].definedIndex);
+        const viewport = page.getViewport({ scale });
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+        const renderContext = {
+          canvasContext: context!,
+          viewport: viewport,
+        };
+        await page.render(renderContext).promise;
+        const imageDataUrl = canvas.toDataURL(
+          `image/${toType === 'jpg' ? 'jpeg' : toType}`,
+        );
+        images?.file(`image-${i + 1}.${toType}`, dataURLtoBlob(imageDataUrl), {
           base64: true,
-        },
-      );
+        });
+      }
+      setCurrentPdfActionNum(i + 1);
     }
-    if (ishaveFile > 0) {
+    console.log('simply ok');
+    setPdfIsLoad(false);
+    if (isCancel.current) return;
+    if (selectedImages.length > 0) {
       zip.generateAsync({ type: 'blob' }).then((content) => {
         FileSaver.saveAs(content, 'images(MaxAI.me).zip');
       });
@@ -129,6 +171,7 @@ const usePdfToImgsTool = () => {
     onSwitchSelect,
     pdfIsSelectAll,
     onSwitchAllSelect,
+    defaultSize,
   };
 };
 

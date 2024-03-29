@@ -25,6 +25,14 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
   const onChangeFile = (fileList: FileList) => {
     setFileList(fileList);
   };
+  const toImgType = useMemo(() => {
+    switch (urlKey) {
+      case 'pdf-to-jpg':
+        return 'jpg';
+      case 'pdf-to-png':
+        return 'png';
+    }
+  }, [urlKey]);
   return (
     <Box
       sx={{
@@ -47,7 +55,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
             justifyContent: 'center',
           }}
           variant='outlined'
-          isDrag={true}
+          isDrag={false}
           onChange={onChangeFile}
           accept={currentToolData.accept}
         >
@@ -64,10 +72,11 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
           </Typography>
         </UploadButton>
       )}
-      {urlKey === 'pdf-to-png' && fileList && fileList?.length > 0 && (
+      {fileList && fileList?.length > 0 && toImgType && (
         <Suspense fallback={<div>Loading...</div>}>
           <ToolBoxFunctionalityPdfToImg
             fileList={fileList}
+            toType={toImgType}
             onRemoveFile={() => setFileList(null)}
           />
         </Suspense>

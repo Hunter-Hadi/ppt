@@ -1,18 +1,12 @@
-import { FC, useMemo } from 'react';
+import { useMemo } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ToolBoxBanner from '@/page_components/ToolBoxPages/components/ToolBoxBanner';
 import ToolBoxCards from '@/page_components/ToolBoxPages/components/ToolBoxCards';
-import {
-  IToolUrkKeyType,
-  toolBoxObjData,
-} from '@/page_components/ToolBoxPages/constant';
+import { toolBoxObjData } from '@/page_components/ToolBoxPages/constant';
 
-interface IToolBoxHomeProps {
-  onClickKey?: (key: IToolUrkKeyType) => void;
-}
-const ToolBoxHome: FC<IToolBoxHomeProps> = ({ onClickKey }) => {
+const ToolBoxHome = () => {
   const toolList = useMemo(
     () => Object.keys(toolBoxObjData).map((key) => toolBoxObjData[key]),
     [],
@@ -24,7 +18,7 @@ const ToolBoxHome: FC<IToolBoxHomeProps> = ({ onClickKey }) => {
         title='AI 工具箱'
         description='所有工具都在您的浏览器中运行，以获得完全的隐私。'
       />
-      <ToolBoxCards list={toolList} onClickKey={onClickKey} />
+      <ToolBoxCards list={toolList} />
     </AppContainer>
   );
 };

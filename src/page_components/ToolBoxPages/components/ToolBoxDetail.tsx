@@ -37,7 +37,9 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
           title={currentToolData.title}
           description={currentToolData.description}
         />
-        <ToolBoxFunctionalityPdfToImg urlKey={urlKey} />
+        {(urlKey === 'pdf-to-jpg' || urlKey === 'pdf-to-png') && (
+          <ToolBoxFunctionalityPdfToImg urlKey={urlKey} />
+        )}
       </Box>
     </AppContainer>
   );

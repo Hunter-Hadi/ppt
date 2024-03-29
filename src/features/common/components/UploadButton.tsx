@@ -51,22 +51,27 @@ const UploadButton: FC<IUploadButtonProps> = (props) => {
       : {};
   }, [isDrag]);
   return (
-    <Button
-      {...dragMap}
-      component='label'
-      variant={variant}
-      {...(restProps as any)}
-    >
-      {!isSidebarDragOver && children}
-      {isSidebarDragOver && <div>Drop here</div>}
-      <VisuallyHiddenInput
-        type='file'
-        accept={accept}
-        onChange={(event) => {
-          event.target.files && onChange && onChange(event.target.files);
+    <div>
+      <Button
+        {...dragMap}
+        component='label'
+        variant={variant}
+        sx={{
+          position: 'relative',
         }}
-      />
-    </Button>
+        {...(restProps as any)}
+      >
+        {!isSidebarDragOver && children}
+        {isSidebarDragOver && <div>Drop here</div>}
+        <VisuallyHiddenInput
+          type='file'
+          accept={accept}
+          onChange={(event) =>
+            event.target.files && onChange && onChange(event.target.files)
+          }
+        />
+      </Button>
+    </div>
   );
 };
 
