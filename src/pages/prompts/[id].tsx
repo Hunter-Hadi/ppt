@@ -1,8 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ParsedUrlQuery } from 'querystring';
 
 import { IPromptCardData } from '@/features/prompt/types';
+import { makeI18nStaticPropsWithOriginalParams } from '@/i18n/utils/staticHelper';
 import PromptDetailPages from '@/page_components/PromptPages/PromptDetailPages';
 import { PROMPT_API } from '@/utils/api';
 import { objectFilterEmpty } from '@/utils/dataHelper/objectHelper';
@@ -54,7 +54,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const locale = context?.params?.locale?.toString() || 'en';
-  const translationData = await serverSideTranslations(locale);
   try {
     const params = context.params as ParsedUrlQuery;
 
@@ -65,23 +64,20 @@ export const getStaticProps: GetStaticProps = async (context) => {
         notFound: true,
       };
     }
-    return {
+    return makeI18nStaticPropsWithOriginalParams(locale, {
       props: {
         id,
         updatedAt: Date.now(),
-        ...translationData,
       },
-    };
+    });
   } catch (e) {
     console.log(e);
   }
   console.log('not data found', context.params?.id);
-  return {
+  return makeI18nStaticPropsWithOriginalParams(locale, {
     props: {
       id: context.params?.id,
       updatedAt: Date.now(),
-
-      ...translationData,
     },
-  };
+  });
 };
