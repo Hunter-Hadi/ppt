@@ -1,5 +1,33 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.1.4',
+    date: '2024-03-15',
+
+    content: [
+      {
+        title: 'More ways to summarize any YouTube video',
+        lists: [
+          {
+            module: 'Summarize video',
+            desc: 'Get the classic video AI summary, including a TL;DR and key takeaways.',
+          },
+          {
+            module: 'Timestamped summary',
+            desc: 'Navigate YouTube videos effortlessly using summarized paragraphs with timestamped breakdowns.',
+          },
+          {
+            module: 'Summarize comments',
+            desc: 'Understand the main points of what people think about a YouTube video fast by reading a short AI summary of the top comments.',
+          },
+          {
+            module: 'Show transcript',
+            desc: 'The fastest and easiest way to review the original transcript of any YouTube video.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.1.0',
     date: '2024-03-20',
 
