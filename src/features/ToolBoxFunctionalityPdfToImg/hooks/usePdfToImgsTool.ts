@@ -55,6 +55,7 @@ const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
       return;
     }
     isCancel.current = false;
+
     setPdfIsLoad(true);
     const buff = await file.arrayBuffer(); // Uint8Array
     const pdfDoc = await pdfjs.getDocument(buff).promise;

@@ -259,7 +259,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         {imgSizeList.map((imgSize, index) => (
           <Box
             key={index}
-            onClick={() => setSelectSizeIndex(index)}
+            onClick={() => !pdfIsLoad && setSelectSizeIndex(index)}
             sx={{
               border: `1px solid ${
                 selectSizeIndex === index ? '#000' : '#e5e7eb'
