@@ -1,5 +1,5 @@
 import AES from 'crypto-js/aes';
-import { i18n } from 'i18next';
+import { i18n, ResourceKey, ResourceLanguage } from 'i18next';
 import { debounce } from 'lodash-es';
 import React, { useCallback, useEffect } from 'react';
 import { UAParser } from 'ua-parser-js';
@@ -171,17 +171,21 @@ export const useTrackUserInteractions = (i18nInstance: i18n) => {
         try {
           // 通过按钮文案去找到对应的i18n key
           let currentLanguageResource =
-            i18nInstance.options.resources[i18nInstance.language];
-
+            i18nInstance.options?.resources?.[i18nInstance.language] ?? {};
           if (APP_NAME === 'maxai_www') {
             // 由于 www 使用的 next-i18next，命名空间 需要多一层
-            currentLanguageResource = currentLanguageResource['index'];
+            currentLanguageResource = currentLanguageResource[
+              'index'
+            ] as ResourceLanguage;
           }
           const namespaces = Object.keys(currentLanguageResource);
           let currentI18nKey = '';
           for (const namespace of namespaces) {
             const namespaceResource = currentLanguageResource[namespace];
-            for (const key in namespaceResource) {
+            for (const key in namespaceResource as Record<
+              string,
+              ResourceKey
+            >) {
               if (namespaceResource[key] === buttonText) {
                 currentI18nKey = namespace + ':' + key;
                 break;
