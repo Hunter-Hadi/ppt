@@ -105,7 +105,6 @@ const useMessageListPaginator = (
             // 因为只监听某个item 所以只有一个
             const monitorEl = entries[0];
             if (monitorEl.isIntersecting) {
-              console.log('zztest trigger loadMore', target);
               loadMoreRef.current();
             }
           };

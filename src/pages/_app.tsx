@@ -7,13 +7,13 @@ import '@/styles/globals.css';
 import '@/features/share_conversation/styles/markdown.css';
 
 import CloseIcon from '@mui/icons-material/Close';
-import { IconButton, ThemeProvider } from '@mui/material';
+import { IconButton, Stack, ThemeProvider } from '@mui/material';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
-import { appWithTranslation } from 'next-i18next';
+import { appWithTranslation, useTranslation } from 'next-i18next';
 import nextI18nextConfig from 'next-i18next.config';
 import { SnackbarKey, SnackbarProvider } from 'notistack';
 import React, { useEffect } from 'react';
@@ -24,7 +24,14 @@ import AppHeader from '@/app_layout/AppHeader';
 import CacheRefAndRewardfulId from '@/components/CacheRefAndRewardfulId';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
+import ClientUserIdGenerator from '@/features/track_user_interactions/components/ClientUserIdGenerator';
+import { CACHE_CLIENT_USER_ID_PAGE_PATHNAME } from '@/features/track_user_interactions/constant';
+import {
+  trackUserInteraction,
+  useTrackUserInteractions,
+} from '@/features/track_user_interactions/utils';
 import GlobalVideoPopup from '@/features/videoPopup/components/GlobalVideoPopup';
+import { APP_PROJECT_LINK } from '@/global_constants';
 import { GA_TRACKING_ID } from '@/pages/_document';
 import AppInit from '@/utils/AppInit';
 import { initFingerPrint } from '@/utils/fingerPrint';
@@ -37,11 +44,33 @@ function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const notistackRef = React.useRef(null);
 
+  const { i18n } = useTranslation();
+
   const isEmbedPage = router.pathname.startsWith('/embed');
+
+  useTrackUserInteractions(i18n);
+
+  useEffect(() => {
+    if (CACHE_CLIENT_USER_ID_PAGE_PATHNAME === router.pathname) {
+      return;
+    }
+
+    trackUserInteraction('page_load', {
+      id: router.pathname,
+    });
+  }, [router.pathname]);
 
   useEffect(() => {
     initFingerPrint();
   }, []);
+
+  if (CACHE_CLIENT_USER_ID_PAGE_PATHNAME === router.pathname) {
+    return (
+      <Stack>
+        <Component {...pageProps} />
+      </Stack>
+    );
+  }
 
   return (
     <>
@@ -108,6 +137,7 @@ function App({ Component, pageProps }: AppProps) {
             <QueryClientProvider client={queryClient}>
               <AppInit />
               {!isEmbedPage && <AppHeader />}
+              <ClientUserIdGenerator targetHost={APP_PROJECT_LINK} />
               {/*// @ts-ignore*/}
               <Component {...pageProps} />
               {!isEmbedPage && <AppFooter />}
