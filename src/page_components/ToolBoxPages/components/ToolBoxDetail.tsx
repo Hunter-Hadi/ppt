@@ -21,7 +21,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
   const currentToolData = useMemo(() => toolBoxObjData[urlKey], [urlKey]);
 
   return (
-    <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={1312}>
+    <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
       <AppDefaultSeoLayout title={'ToolBox | MaxAI.me'} />
       <Box
         sx={{
@@ -30,6 +30,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
           alignItems: 'center',
           justifyContent: 'center',
           pb: 5,
+          width: '100%',
         }}
       >
         <ToolBoxBanner

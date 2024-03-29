@@ -62,9 +62,9 @@ const UploadButton: FC<IUploadButtonProps> = (props) => {
       <VisuallyHiddenInput
         type='file'
         accept={accept}
-        onChange={(event) =>
-          event.target.files && onChange && onChange(event.target.files)
-        }
+        onChange={(event) => {
+          event.target.files && onChange && onChange(event.target.files);
+        }}
       />
     </Button>
   );

@@ -33,6 +33,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
         alignItems: 'center',
         justifyContent: 'center',
         pb: 5,
+        width: '100%',
       }}
     >
       {!fileList && (
@@ -41,7 +42,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
             display: 'flex',
             flexDirection: 'column',
             height: 240,
-            width: 226,
+            width: 230,
             alignItems: 'center',
             justifyContent: 'center',
           }}
@@ -50,12 +51,12 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
           onChange={onChangeFile}
           accept={currentToolData.accept}
         >
-          <ToolBoxIcon name='CloudUploadIcon' />
+          <ToolBoxIcon sx={{ fontSize: 35 }} name='CloudUploadIcon' />
           <Typography
             sx={{
               fontSize: {
                 xs: 12,
-                lg: 13,
+                lg: 18,
               },
             }}
           >

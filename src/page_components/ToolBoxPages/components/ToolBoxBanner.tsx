@@ -12,7 +12,7 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
       sx={{
         pt: {
           xs: 6,
-          md: 10,
+          md: 6,
         },
         pb: {
           xs: 2,
