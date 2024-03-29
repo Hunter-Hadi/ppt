@@ -1,10 +1,9 @@
 import { useRouter } from 'next/router';
-import { GetStaticPaths } from 'next/types';
+import { GetStaticPaths, GetStaticProps } from 'next/types';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { ParsedUrlQuery } from 'querystring';
 
-import {
-  makeI18nStaticPathsWithOriginalParams,
-  makeStaticProps,
-} from '@/i18n/utils/staticHelper';
+import { makeI18nStaticPathsWithOriginalParams } from '@/i18n/utils/staticHelper';
 import ToolBoxDetail from '@/page_components/ToolBoxPages/components/ToolBoxDetail';
 import {
   IToolUrkKeyType,
@@ -20,13 +19,41 @@ export const getStaticPaths: GetStaticPaths = async () => {
     fallback: false,
   });
 };
-
 const UrlKeyToolBoxDetail = () => {
   const router = useRouter();
   const { urlKey } = router.query as { urlKey: IToolUrkKeyType };
-  console.log('simply urlKey', urlKey);
   return <ToolBoxDetail urlKey={urlKey} />;
 };
 export default UrlKeyToolBoxDetail;
 
-export const getStaticProps = makeStaticProps();
+export const getStaticProps: GetStaticProps = async (context) => {
+  const locale = context?.params?.locale?.toString() || 'en';
+  const translationData = await serverSideTranslations(locale);
+  const { urlKey } = context?.params as ParsedUrlQuery;
+
+  try {
+    console.log('simply context 1', context);
+    if (!urlKey) {
+      // jump to 404
+      return {
+        notFound: true,
+      };
+    }
+    return {
+      props: {
+        urlKey,
+        updatedAt: Date.now(),
+        ...translationData,
+      },
+    };
+  } catch (e) {
+    console.log(e);
+    return {
+      props: {
+        urlKey,
+        updatedAt: Date.now(),
+        ...translationData,
+      },
+    };
+  }
+};

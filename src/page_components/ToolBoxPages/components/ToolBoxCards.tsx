@@ -25,7 +25,6 @@ const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
           <Grid key={toolData.urlKey} item xs={12} sm={6} md={4}>
             <ProLink
               href={`/tool-box/${toolData.urlKey}`}
-              hardRefresh
               color='inherit'
               target='_self'
               sx={{

@@ -11,6 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
+
 const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
   const isCancel = useRef(false);
   const [pdfImageList, setPdfImageList] = useState<
@@ -25,7 +26,30 @@ const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
     width: number;
     height: number;
   }>({ width: 500, height: 1000 }); //默认尺寸
-
+  const generatePdfToImage = async (
+    pdfDoc: any,
+    pageNum: number,
+    scale: number = 1.6,
+  ) => {
+    const page = await pdfDoc.getPage(pageNum);
+    const viewport = page.getViewport({ scale });
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    canvas.width = viewport.width;
+    canvas.height = viewport.height;
+    const renderContext = {
+      canvasContext: context!,
+      viewport: viewport,
+    };
+    await page.render(renderContext).promise;
+    const imageDataUrl = canvas.toDataURL(
+      `image/${toType === 'jpg' ? 'jpeg' : toType}`,
+    );
+    return {
+      imageDataUrl,
+      viewport,
+    };
+  };
   const onReadPdfToImages = debounce(async (file: File) => {
     if (!file) {
       return;
@@ -38,23 +62,16 @@ const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
     for (let pageNum = 1; pageNum <= pdfDoc._pdfInfo.numPages; pageNum++) {
       if (isCancel.current) return;
       setCurrentPdfActionNum(pageNum);
-      const scale = 1.6;
-      const page = await pdfDoc.getPage(pageNum);
-      const viewport = page.getViewport({ scale });
-      const canvas = document.createElement('canvas');
-      const context = canvas.getContext('2d');
-      canvas.width = viewport.width;
-      canvas.height = viewport.height;
+      const { imageDataUrl, viewport } = await generatePdfToImage(
+        pdfDoc,
+        pageNum,
+        1.6,
+      );
       setDefaultSize({
         width: Math.floor(viewport.width),
         height: Math.floor(viewport.height),
       });
-      const renderContext = {
-        canvasContext: context!,
-        viewport: viewport,
-      };
-      await page.render(renderContext).promise;
-      const imageDataUrl = canvas.toDataURL('image/png');
+
       setPdfImageList((prev) => [
         ...prev,
         {
@@ -73,11 +90,17 @@ const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
     isCancel.current = true;
     setPdfIsLoad(false);
   };
+
+  /**
+   * 下载图片的zip格式文件
+   * @param scale - 代表多少倍放大
+   * @param file - 传入file原文件，不会用base64来放大操作，应该拿取图片的源文件操作放大，不让图片损失
+   */
   const onDownloadPdfImagesZip = async (scale?: number, file?: File) => {
-    console.log('simply scale', scale);
     const zip = new JSZip();
     const images = zip.folder('images');
     const selectedImages = pdfImageList.filter((image) => image.isSelect);
+    //如果有file则会执行PDFJS
     const buff = await file?.arrayBuffer(); // Uint8Array
     const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
     //进行下载进度显示
@@ -97,20 +120,12 @@ const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
           },
         );
       } else if (pdfDoc && scale) {
-        const page = await pdfDoc.getPage(selectedImages[0].definedIndex);
-        const viewport = page.getViewport({ scale });
-        const canvas = document.createElement('canvas');
-        const context = canvas.getContext('2d');
-        canvas.width = viewport.width;
-        canvas.height = viewport.height;
-        const renderContext = {
-          canvasContext: context!,
-          viewport: viewport,
-        };
-        await page.render(renderContext).promise;
-        const imageDataUrl = canvas.toDataURL(
-          `image/${toType === 'jpg' ? 'jpeg' : toType}`,
+        const { imageDataUrl } = await generatePdfToImage(
+          pdfDoc,
+          selectedImages[0].definedIndex,
+          scale,
         );
+
         images?.file(`image-${i + 1}.${toType}`, dataURLtoBlob(imageDataUrl), {
           base64: true,
         });
@@ -133,6 +148,7 @@ const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
       });
     }
   };
+
   const dataURLtoBlob = async (base64Str: string) => {
     const arr = base64Str.split(',');
     const mime = arr?.[0].match(/:(.*?);/)?.[1];
