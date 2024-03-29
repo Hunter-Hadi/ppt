@@ -4,7 +4,7 @@ import React from 'react';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
-import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 
 import CTAInstallButton from '../CTAInstallButton';
 

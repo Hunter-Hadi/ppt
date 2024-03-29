@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
-import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 
 const VIDEOS_LIST = [
   {

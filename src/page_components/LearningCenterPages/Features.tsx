@@ -5,7 +5,7 @@ import React from 'react';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import { PLAN_FEATURES_CATEGORY } from '@/features/pricing/constant';
-import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 
 const Features = () => {
   const { openVideoPopup } = useVideoPopupController();

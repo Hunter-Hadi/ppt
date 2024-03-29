@@ -30,7 +30,7 @@ import {
   trackUserInteraction,
   useTrackUserInteractions,
 } from '@/features/track_user_interactions/utils';
-import GlobalVideoPopup from '@/features/videoPopup/components/GlobalVideoPopup';
+import GlobalVideoPopup from '@/features/video_popup/components/GlobalVideoPopup';
 import { APP_PROJECT_LINK } from '@/global_constants';
 import { GA_TRACKING_ID } from '@/pages/_document';
 import AppInit from '@/utils/AppInit';
