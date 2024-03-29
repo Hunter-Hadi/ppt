@@ -9,7 +9,7 @@ import {
 import { FC, useEffect, useMemo } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import usePdfToImgTool from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImgTool';
+import usePdfToImgsTool from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImgsTool';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -24,13 +24,13 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   onRemoveFile,
 }) => {
   const {
-    imageStrList,
-    isLoad,
+    pdfImageList,
+    pdfIsLoad,
     readPdfToImages,
-    downloadImageZip,
-    numPages,
-    currentActionNum,
-  } = usePdfToImgTool();
+    downloadPdfImagesZip,
+    pdfNumPages,
+    currentPdfActionNum,
+  } = usePdfToImgsTool();
 
   useEffect(() => {
     if (fileList.length > 0) {
@@ -39,12 +39,12 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   }, [fileList]);
 
   const getImageCols = useMemo(() => {
-    if (imageStrList.length <= 5) {
-      return imageStrList.length;
+    if (pdfImageList.length <= 5) {
+      return pdfImageList.length;
     } else {
       return 5;
     }
-  }, [imageStrList]);
+  }, [pdfImageList]);
   return (
     <Box>
       <Grid
@@ -57,9 +57,9 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         <Grid item xs={3}>
           <Button
             sx={{ width: '100%' }}
-            disabled={isLoad}
+            disabled={pdfIsLoad}
             variant='contained'
-            onClick={downloadImageZip}
+            onClick={downloadPdfImagesZip}
           >
             下载
           </Button>
@@ -67,7 +67,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         <Grid item xs={3}>
           <Button
             sx={{ width: '100%' }}
-            disabled={isLoad}
+            disabled={pdfIsLoad}
             variant='outlined'
             onClick={() => onRemoveFile && onRemoveFile()}
           >
@@ -89,13 +89,20 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           cols={getImageCols}
           gap={1}
         >
-          {imageStrList.map((item, index) => (
-            <ImageListItem key={index}>
-              <img srcSet={item} src={item} loading='lazy' />
+          {pdfImageList.map((image) => (
+            <ImageListItem key={image.id}>
+              <img
+                style={{
+                  objectFit: 'contain',
+                }}
+                srcSet={image.imgString}
+                src={image.imgString}
+                loading='lazy'
+              />
             </ImageListItem>
           ))}
         </ImageList>
-        {isLoad && (
+        {pdfIsLoad && (
           <Box
             sx={{
               position: 'absolute',
@@ -111,7 +118,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             }}
           >
             <CircularProgress />
-            {`${currentActionNum}/${numPages}`}
+            {`${currentPdfActionNum}/${pdfNumPages}`}
           </Box>
         )}
       </Box>
