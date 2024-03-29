@@ -1,7 +1,7 @@
 export const MAXAI_RELEASE_NOTES = [
   {
     version: '3.1.4',
-    date: '2024-03-15',
+    date: '2024-03-29',
 
     content: [
       {
