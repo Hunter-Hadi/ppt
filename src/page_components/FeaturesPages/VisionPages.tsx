@@ -2,6 +2,7 @@ import Stack from '@mui/material/Stack';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import CallToActionSection from '@/features/landing/components/CallToActionSection';
 import FeaturesContentSection from '@/page_components/FeaturesPages/components/FeaturesContentSection';
 import FeaturesLandingBanner from '@/page_components/FeaturesPages/components/FeaturesLandingBanner';
@@ -11,6 +12,7 @@ const VisionPages = () => {
 
   return (
     <Stack>
+      <AppDefaultSeoLayout />
       <FeaturesLandingBanner
         title={t('features_landing:vision_pages__title')}
         description={t('features_landing:vision_pages__description')}
