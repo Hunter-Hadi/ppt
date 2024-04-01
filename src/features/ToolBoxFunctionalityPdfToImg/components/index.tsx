@@ -8,6 +8,7 @@ import {
   IToolUrkKeyType,
   toolBoxObjectData,
 } from '@/page_components/ToolBoxPages/constant';
+import snackNotifications from '@/utils/globalSnackbar';
 
 const ToolBoxFunctionalityPdfToImg = lazy(
   () =>
@@ -27,6 +28,19 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
   const [fileList, setFileList] = useState<FileList | null>(null);
   const onChangeFile = (fileList: FileList) => {
     setFileList(fileList);
+  };
+  const handleUnsupportedFileType = () => {
+    snackNotifications.warning(
+      t(
+        'tool_box_functionality_pdf_to_img:components_index_unsupported_file_type_tip',
+      ),
+      {
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center',
+        },
+      },
+    );
   };
   const toImgType = useMemo(() => {
     switch (urlKey) {
@@ -60,6 +74,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
           }}
           variant='outlined'
           onChange={onChangeFile}
+          handleUnsupportedFileType={handleUnsupportedFileType}
           accept={currentToolData.accept}
         >
           <ToolBoxIcon sx={{ fontSize: 35 }} name='CloudUploadIcon' />

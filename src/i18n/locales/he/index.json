@@ -571,6 +571,7 @@
     "components_to_img_detail_remove_pdf": "הסר PDF",
     "components_to_img_detail_cancel": "ביטול",
     "components_to_img_detail_normal_quality": "איכות רגילה",
-    "components_to_img_detail_high_quality": "איכות גבוהה"
+    "components_to_img_detail_high_quality": "איכות גבוהה",
+    "components_index_unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין"
   }
 }

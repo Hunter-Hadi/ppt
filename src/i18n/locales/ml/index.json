@@ -572,6 +572,7 @@
     "components_to_img_detail_remove_pdf": "PDF നീക്കം ചെയ്യുക",
     "components_to_img_detail_cancel": "റദ്ദാക്കുക",
     "components_to_img_detail_normal_quality": "സാധാരണ ഗുണമേന്മ",
-    "components_to_img_detail_high_quality": "ഉയര്‍ന്ന ഗുണമേന്മ"
+    "components_to_img_detail_high_quality": "ഉയര്‍ന്ന ഗുണമേന്മ",
+    "components_index_unsupported_file_type_tip": "ദയവായി നിർദ്ദേശിച്ച PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക"
   }
 }

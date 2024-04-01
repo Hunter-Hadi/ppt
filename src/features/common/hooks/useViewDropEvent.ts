@@ -23,11 +23,11 @@ const useViewDropEvent = (props?: {
 
   const handleDrop = async (event: React.DragEvent<HTMLDivElement>) => {
     const { files } = event.dataTransfer;
-    event.preventDefault();
+    setIsSidebarDragOver(false);
     if (files.length > 0) {
+      event.preventDefault();
       props?.onChange?.(files);
     }
-    setIsSidebarDragOver(false);
   };
 
   return {

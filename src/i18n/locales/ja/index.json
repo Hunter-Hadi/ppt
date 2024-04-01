@@ -572,6 +572,7 @@
     "components_to_img_detail_remove_pdf": "PDFを削除",
     "components_to_img_detail_cancel": "キャンセル",
     "components_to_img_detail_normal_quality": "通常品質",
-    "components_to_img_detail_high_quality": "高品質"
+    "components_to_img_detail_high_quality": "高品質",
+    "components_index_unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください"
   }
 }

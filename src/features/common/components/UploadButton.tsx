@@ -20,6 +20,7 @@ interface IUploadButtonProps extends Omit<ButtonProps, 'onChange'> {
   accept?: string;
   isDrag?: boolean;
   onChange?: (fileList: FileList) => void;
+  handleUnsupportedFileType?: () => void;
 }
 
 const UploadButton: FC<IUploadButtonProps> = (props) => {
@@ -29,8 +30,40 @@ const UploadButton: FC<IUploadButtonProps> = (props) => {
     accept,
     onChange,
     isDrag = true,
+    handleUnsupportedFileType,
     ...restProps
   } = props;
+  const fileMatchesAccept = (fileType: string, acceptString: string) => {
+    // 将accept字符串按照","拆分成多个类型
+    const types = acceptString.split(',');
+    // 检查每一个指定类型是否与文件类型相匹配
+    return types.some((type) => {
+      type = type.trim();
+      if (type.startsWith('.')) {
+        // 如果accept是后缀名类型的限制(.png, .jpg等)
+        return fileType === `image/${type.slice(1)}`;
+      } else if (type.endsWith('/*')) {
+        // 如果accept是类似image/*这样的通配符
+        const match = new RegExp(`^${type.replace('*', '.*')}$`, 'i');
+        return match.test(fileType);
+      } else {
+        // 具体的MIME type
+        return fileType === type;
+      }
+    });
+  };
+  const onChangeFiles = (fileList: FileList) => {
+    //拦截drag不符合type约束的文件
+    if (
+      props?.accept &&
+      fileList?.[0] &&
+      !fileMatchesAccept(fileList[0].type, props.accept)
+    ) {
+      handleUnsupportedFileType && handleUnsupportedFileType();
+      return;
+    }
+    fileList && onChange && onChange(fileList);
+  };
   const {
     handleDragEnter,
     handleDragOver,
@@ -38,8 +71,9 @@ const UploadButton: FC<IUploadButtonProps> = (props) => {
     handleDrop,
     isSidebarDragOver,
   } = useViewDropEvent({
-    onChange,
+    onChange: onChangeFiles,
   });
+
   const dragMap = useMemo(() => {
     return isDrag
       ? {
@@ -67,7 +101,7 @@ const UploadButton: FC<IUploadButtonProps> = (props) => {
           type='file'
           accept={accept}
           onChange={(event) =>
-            event.target.files && onChange && onChange(event.target.files)
+            onChange && event.target.files && onChange(event.target.files)
           }
         />
       </Button>

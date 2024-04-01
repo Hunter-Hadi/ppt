@@ -572,6 +572,7 @@
     "components_to_img_detail_remove_pdf": "移除PDF",
     "components_to_img_detail_cancel": "取消",
     "components_to_img_detail_normal_quality": "普通质量",
-    "components_to_img_detail_high_quality": "高质量"
+    "components_to_img_detail_high_quality": "高质量",
+    "components_index_unsupported_file_type_tip": "请上传指定的PDF文件类型"
   }
 }

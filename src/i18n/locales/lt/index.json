@@ -572,6 +572,7 @@
     "components_to_img_detail_remove_pdf": "Pašalinti PDF",
     "components_to_img_detail_cancel": "Atšaukti",
     "components_to_img_detail_normal_quality": "Normalus kokybė",
-    "components_to_img_detail_high_quality": "Aukšta kokybė"
+    "components_to_img_detail_high_quality": "Aukšta kokybė",
+    "components_index_unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą"
   }
 }

@@ -360,6 +360,7 @@
   },
   "tool_box_functionality_pdf_to_img": {
     "components_index_upload_title": "Click to upload or drag and drop",
+    "components_index_unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components_to_img_detail_select_all": "Select All",
     "components_to_img_detail_deselect_all": "Deselect All",
     "components_to_img_detail_download_images": "Download images",
