@@ -648,5 +648,47 @@
 
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
     "zmo__description": "Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life."
+  },
+  "features_landing": {
+
+    "cta_text": "Add to Browser",
+
+    "youtube_summary_pages__title": "Summarize & Chat with YouTube Videos",
+    "youtube_summary_pages__description": "One click to obtain YouTube video summaries, engage in conversations with video, and gain valuable insights.",
+    "youtube_summary_pages__section1__title": "1-click Video Summary",
+    "youtube_summary_pages__section1__description": "MaxAI's 1-click Video Summarizer allows you to generate concise summaries of any YouTube video with just one click. Save time and quickly grasp the main points and key takeaways without watching the entire video. ",
+    "youtube_summary_pages__section2__title": "Chat with the Video",
+    "youtube_summary_pages__section2__description": "Enhance your video comprehension with MaxAI's interactive chat feature. After generating the summary, you can engage in a conversation with the video, asking follow-up questions, seeking clarification, or exploring related topics. MaxAI will provide insightful responses, helping you gain a deeper understanding of the subject matter.",
+
+    
+    "chat_pdf_pages__title": "Chat with Any PDF",
+    "chat_pdf_pages__description": "Extract details and obtain answers from large PDF files such as manuals, essays, and books.",
+    "chat_pdf_pages__section1__title": "ChatPDF with MaxAI",
+    "chat_pdf_pages__section1__description": "MaxAI.me revolutionizes the way you interact with your PDF files. Simply drag and drop any PDF into your browser, and let our advanced AI technology do the rest. MaxAI.me intelligently analyzes the content, extracting key information and generating concise summaries, allowing you to grasp the essence of the document in a matter of seconds.",
+    "chat_pdf_pages__section2__title": "Chat with the File",
+    "chat_pdf_pages__section2__description": "Take your PDF exploration to the next level with MaxAI.me's interactive chat feature. Ask questions related to the content, and our AI-powered chatbot will provide accurate and relevant answers based on the information within the PDF. Whether you need clarification on a specific topic or want to dive deeper into a particular section, MaxAI.me is your go-to companion for a truly immersive PDF experience.",
+
+    "translate_pages__title": "Instant Translation",
+    "translate_pages__description": "Smart context-aware translations in multiple languages, powered by the best AI models like ChatGPT, Claude, and Gemini.",
+    "translate_pages__section1__title": "1-click Translation",
+    "translate_pages__section1__description__part1": "Revolutionize your translation experience with MaxAI.me. With just a simple text selection and a click of the translate button, you'll receive instant, high-quality translations that rival professional translators.",
+    "translate_pages__section1__description__part2": "MaxAI.me leverages the power of advanced AI models like ChatGPT, Claude, and Gemini to deliver accurate, context-aware translations, ensuring you get the best results every time.",
+    "translate_pages__section2__title": "Immersive Full Page Translation",
+    "translate_pages__section2__description__part1": "MaxAI.me goes beyond traditional translation tools by providing an immersive, side-by-side reading experience for users who need to reference both the original and translated content simultaneously.",
+    "translate_pages__section2__description__part2": "This neat and clear presentation allows for easy comparison and comprehension, enhancing your bilingual reading experience.",
+
+    "vision_pages__title": "AI Vision",
+    "vision_pages__description": "Effortlessly extract text from any image, ask questions and get instant answers, solve complex math problems, and gain deep insights through comprehensive AI image analysis power. Experience a whole new level of image understanding and interaction, all within the seamless MaxAI.me browser extension.",
+    "vision_pages__section1__title": "Unlock the Power of AI Vision",
+    "vision_pages__section1__description__part1": "Revolutionize the way you interact with images using MaxAI.me's cutting-edge AI Vision power. With just a few clicks, you can extract text, ask questions, solve problems, and gain valuable insights from any image on your screen or uploaded from your local device.",
+    "vision_pages__section1__description__part2": "Simply select an area on your screen, take a snapshot, or upload an image, and let MaxAI.me's advanced AI Vision power do the rest. Experience a whole new level of image understanding and analysis.",
+    "vision_pages__section2__title": "Extract Text from Image Effortlessly",
+    "vision_pages__section2__description": "Say goodbye to manual typing and transcription. MaxAI.me's AI Vision power allows you to extract text from any image with unparalleled accuracy. Whether it's a screenshot, a local image, or a photo containing text, MaxAI.me's AI Vision can quickly and efficiently recognize and extract the text for you.",
+    "vision_pages__section3__title": "Ask Questions and Get Instant Answers",
+    "vision_pages__section3__description": "Have you ever looked at an image and wondered about its contents? With MaxAI.me's AI Vision, you can now ask questions about any image and receive instant, accurate answers. Whether you're curious about an object, a person, or a specific detail within the image, simply ask your question, and MaxAI.me will provide you with the information you need.",
+
+    "more_over_section__title": "More Over",
+    "more_over_section__description__part1": "MaxAI.me is more than just a translation tool – It's your all-in-one AI-powered browser extension. With MaxAI.me, you can access a wide range of AI-driven features right in your browser, on any website you visit.",
+    "more_over_section__description__part2": "From writing assistance and webpage summarization to ChatPDF and AI painting, MaxAI.me empowers you to read, write, and create with the help of the most advanced AI models, including ChatGPT, Claude, and Gemini. Upgrade your browsing experience and unlock your productivity potential with MaxAI.me today!"
   }
 }
