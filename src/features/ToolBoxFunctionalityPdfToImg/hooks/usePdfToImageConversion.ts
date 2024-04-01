@@ -21,16 +21,16 @@ export interface IPdfPageImageInfo {
  * pdf转图片类型 工具 的hook
  * @param toType:转换的类型
  */
-const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
+const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
   const isCancel = useRef(false);
   const [convertedPdfImages, setConvertedPdfImages] = useState<
     IPdfPageImageInfo[]
   >([]);
   const [pdfIsLoad, setPdfIsLoad] = useState<boolean>(true); //是否加载中
 
-  const [pdfNumPages, pdfPdfNumPages] = useState<number>(0); //总页数/总下载页书
+  const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数/总下载页书
   const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数/当前下载页书进度
-  const [defaultSize, setDefaultSize] = useState<{
+  const [pdfViewDefaultSize, setPdfViewDefaultSize] = useState<{
     width: number;
     height: number;
   }>({ width: 500, height: 1000 }); //默认尺寸
@@ -72,7 +72,7 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
     setPdfIsLoad(true);
     const buff = await file.arrayBuffer(); // Uint8Array
     const pdfDoc = await pdfjs.getDocument(buff).promise;
-    pdfPdfNumPages(pdfDoc._pdfInfo.numPages);
+    setPdfTotalPages(pdfDoc._pdfInfo.numPages);
     for (let pageNum = 1; pageNum <= pdfDoc._pdfInfo.numPages; pageNum++) {
       if (isCancel.current) return;
       setCurrentPdfActionNum(pageNum);
@@ -81,7 +81,7 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
         pageNum,
         1.6,
       );
-      setDefaultSize({
+      setPdfViewDefaultSize({
         width: Math.floor(viewport.width),
         height: Math.floor(viewport.height),
       });
@@ -104,7 +104,7 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
   /**
    * 取消pdf转图片
    */
-  const onCancelPdfToImgs = () => {
+  const onCancelPdfActive = () => {
     isCancel.current = true;
     setPdfIsLoad(false);
   };
@@ -123,7 +123,7 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
     const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
     //进行下载进度显示
     setCurrentPdfActionNum(0);
-    pdfPdfNumPages(selectedImages.length);
+    setPdfTotalPages(selectedImages.length);
     setPdfIsLoad(true);
     isCancel.current = false;
     //开始处理单个文件
@@ -187,11 +187,11 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
     pdfIsLoad,
     onReadPdfToImages,
     onDownloadPdfImagesZip,
-    pdfNumPages,
+    pdfTotalPages,
     currentPdfActionNum,
-    onCancelPdfToImgs,
-    defaultSize,
+    onCancelPdfActive,
+    pdfViewDefaultSize,
   };
 };
 
-export default usePdfToImgsTool;
+export default usePdfToImageConversion;

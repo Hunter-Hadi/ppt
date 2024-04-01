@@ -3,9 +3,9 @@ import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { pdfjs } from 'react-pdf';
 
-import usePdfToImgsTool, {
+import usePdfToImageConversion, {
   IPdfPageImageInfo,
-} from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImgsTool';
+} from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImageConversion';
 
 import useSwitchIdSelect from '../hooks/useSwitchSelect';
 import ToolBoxFunctionalityIcon from './ToolBoxFunctionalityIcon';
@@ -28,7 +28,8 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   const { t } = useTranslation();
 
   const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5);
-  const [selectSizeIndex, setSelectSizeIndex] = useState<number>(0);
+  const [selectDownloadSizeIndex, setSelectDownloadSizeIndex] =
+    useState<number>(0); //用户选择的下载尺寸大小
 
   const {
     convertedPdfImages,
@@ -36,11 +37,11 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
     pdfIsLoad,
     onReadPdfToImages,
     onDownloadPdfImagesZip,
-    pdfNumPages,
+    pdfTotalPages,
     currentPdfActionNum,
-    onCancelPdfToImgs,
-    defaultSize,
-  } = usePdfToImgsTool(toType);
+    onCancelPdfActive,
+    pdfViewDefaultSize,
+  } = usePdfToImageConversion(toType);
   const { pdfIsSelectAll, onSwitchSelect, onSwitchAllSelect } =
     useSwitchIdSelect<IPdfPageImageInfo>({
       setList: setConvertedPdfImages,
@@ -54,12 +55,12 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   useEffect(() => {
     // 初始化期间，将一行中显示的最大页数限制为6，最小为2，为1会太大
     const maxPagesPerRow = 6;
-    if (pdfNumPages < maxPagesPerRow) {
-      setCurrentShowPageCors(Math.max(pdfNumPages, 2));
+    if (pdfTotalPages < maxPagesPerRow) {
+      setCurrentShowPageCors(Math.max(pdfTotalPages, 2));
     } else {
       setCurrentShowPageCors(maxPagesPerRow);
     }
-  }, [pdfNumPages]);
+  }, [pdfTotalPages]);
   const changeCurrentShowPageCors = useCallback(
     (type: 'enlarge' | 'narrow') => {
       setCurrentShowPageCors((prev) => {
@@ -75,17 +76,17 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
 
   const imgSizeList = useMemo(() => {
     return [
-      defaultSize,
+      pdfViewDefaultSize,
       {
-        width: defaultSize.width * 4,
-        height: defaultSize.height * 4,
+        width: pdfViewDefaultSize.width * 4,
+        height: pdfViewDefaultSize.height * 4,
       },
     ];
-  }, [defaultSize]);
+  }, [pdfViewDefaultSize]);
   const downloadPdfImagesZip = () => {
     //1 * 1.6 * 4,是因为onReadPdfToImages默认出图就是1.6倍
     onDownloadPdfImagesZip(
-      selectSizeIndex === 0 ? undefined : 1 * 1.6 * 4,
+      selectDownloadSizeIndex === 0 ? undefined : 1 * 1.6 * 4,
       fileList[0],
     );
   };
@@ -171,7 +172,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
               size='small'
               variant='outlined'
               color='error'
-              onClick={() => onCancelPdfToImgs && onCancelPdfToImgs()}
+              onClick={() => onCancelPdfActive && onCancelPdfActive()}
             >
               {t(
                 'tool_box_functionality_pdf_to_img:components_to_img_detail_cancel',
@@ -193,7 +194,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           isImgSelect={true}
           pageCols={currentShowPageCors}
         />
-        {pdfIsLoad && pdfNumPages > 0 && (
+        {pdfIsLoad && pdfTotalPages > 0 && (
           <Box
             sx={{
               position: 'absolute',
@@ -209,7 +210,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             }}
           >
             <CircularProgress />
-            {`${currentPdfActionNum}/${pdfNumPages}`}
+            {`${currentPdfActionNum}/${pdfTotalPages}`}
           </Box>
         )}
       </Box>
@@ -223,10 +224,10 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         {imgSizeList.map((imgSize, index) => (
           <Box
             key={index}
-            onClick={() => !pdfIsLoad && setSelectSizeIndex(index)}
+            onClick={() => !pdfIsLoad && setSelectDownloadSizeIndex(index)}
             sx={{
               border: `1px solid ${
-                selectSizeIndex === index ? '#000' : '#e5e7eb'
+                selectDownloadSizeIndex === index ? '#000' : '#e5e7eb'
               }`,
               padding: 1,
               borderRadius: 1,
@@ -242,7 +243,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
                   xs: 12,
                   lg: 18,
                 },
-                color: selectSizeIndex === index ? '#000' : '#4b5563',
+                color: selectDownloadSizeIndex === index ? '#000' : '#4b5563',
               }}
             >
               {index === 0
@@ -259,7 +260,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
                   xs: 12,
                   lg: 15,
                 },
-                color: selectSizeIndex === index ? '#000' : '#6b7280',
+                color: selectDownloadSizeIndex === index ? '#000' : '#6b7280',
               }}
             >
               {imgSize.width} * {imgSize.height}
