@@ -11,14 +11,22 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
-
+export interface IPdfPageImageInfo {
+  id: string;
+  imgString: string;
+  isSelect: boolean;
+  definedIndex: number;
+}
+/**
+ * pdf转图片类型 工具 的hook
+ * @param toType:转换的类型
+ */
 const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
   const isCancel = useRef(false);
-  const [pdfImageList, setPdfImageList] = useState<
-    { id: string; imgString: string; isSelect: boolean; definedIndex: number }[]
+  const [convertedPdfImages, setConvertedPdfImages] = useState<
+    IPdfPageImageInfo[]
   >([]);
   const [pdfIsLoad, setPdfIsLoad] = useState<boolean>(true); //是否加载中
-  const [pdfIsSelectAll, setPdfIsSelectAll] = useState<boolean>(true); //是否全选
 
   const [pdfNumPages, pdfPdfNumPages] = useState<number>(0); //总页数/总下载页书
   const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数/当前下载页书进度
@@ -26,8 +34,12 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
     width: number;
     height: number;
   }>({ width: 500, height: 1000 }); //默认尺寸
+
+  /**
+   * 生成Pdf到图像
+   */
   const generatePdfToImage = async (
-    pdfDoc: any,
+    pdfDoc: any, //PDFDocumentProxy react-pdfjs没有导出
     pageNum: number,
     scale: number = 1.6,
   ) => {
@@ -48,6 +60,9 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
       viewport,
     };
   };
+  /**
+   * 读取pdf文件并转换为图片
+   */
   const onReadPdfToImages = debounce(async (file: File) => {
     if (!file) {
       return;
@@ -71,7 +86,7 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
         height: Math.floor(viewport.height),
       });
 
-      setPdfImageList((prev) => [
+      setConvertedPdfImages((prev) => [
         ...prev,
         {
           id: uuidV4(),
@@ -85,6 +100,10 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
       }
     }
   }, 200);
+
+  /**
+   * 取消pdf转图片
+   */
   const onCancelPdfToImgs = () => {
     isCancel.current = true;
     setPdfIsLoad(false);
@@ -98,7 +117,7 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
   const onDownloadPdfImagesZip = async (scale?: number, file?: File) => {
     const zip = new JSZip();
     const images = zip.folder('images');
-    const selectedImages = pdfImageList.filter((image) => image.isSelect);
+    const selectedImages = convertedPdfImages.filter((image) => image.isSelect);
     //如果有file则会执行PDFJS
     const buff = await file?.arrayBuffer(); // Uint8Array
     const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
@@ -161,31 +180,16 @@ const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
       type: mime,
     });
   };
-  const onSwitchSelect = (id: string) => {
-    setPdfImageList((prev) =>
-      prev.map((item) =>
-        item.id === id ? { ...item, isSelect: !item.isSelect } : item,
-      ),
-    );
-  };
-  const onSwitchAllSelect = () => {
-    const newIsSelectAll = !pdfIsSelectAll;
-    setPdfImageList((prev) =>
-      prev.map((item) => ({ ...item, isSelect: newIsSelectAll })),
-    );
-    setPdfIsSelectAll(newIsSelectAll);
-  };
+
   return {
-    pdfImageList,
+    convertedPdfImages,
+    setConvertedPdfImages,
     pdfIsLoad,
     onReadPdfToImages,
     onDownloadPdfImagesZip,
     pdfNumPages,
     currentPdfActionNum,
     onCancelPdfToImgs,
-    onSwitchSelect,
-    pdfIsSelectAll,
-    onSwitchAllSelect,
     defaultSize,
   };
 };

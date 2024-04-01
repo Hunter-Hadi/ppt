@@ -1,20 +1,15 @@
-import {
-  Box,
-  Button,
-  Checkbox,
-  CircularProgress,
-  Grid,
-  ImageList,
-  ImageListItem,
-  Typography,
-} from '@mui/material';
+import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { pdfjs } from 'react-pdf';
 
-import usePdfToImgsTool from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImgsTool';
+import usePdfToImgsTool, {
+  IPdfPageImageInfo,
+} from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImgsTool';
 
+import useSwitchIdSelect from '../hooks/useSwitchSelect';
 import ToolBoxFunctionalityIcon from './ToolBoxFunctionalityIcon';
+import ToolBoxFunctionalityImageList from './ToolBoxFunctionalityImageList';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -36,19 +31,20 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   const [selectSizeIndex, setSelectSizeIndex] = useState<number>(0);
 
   const {
-    pdfImageList,
+    convertedPdfImages,
+    setConvertedPdfImages,
     pdfIsLoad,
     onReadPdfToImages,
     onDownloadPdfImagesZip,
     pdfNumPages,
     currentPdfActionNum,
     onCancelPdfToImgs,
-    onSwitchSelect,
-    pdfIsSelectAll,
-    onSwitchAllSelect,
     defaultSize,
   } = usePdfToImgsTool(toType);
-
+  const { pdfIsSelectAll, onSwitchSelect, onSwitchAllSelect } =
+    useSwitchIdSelect<IPdfPageImageInfo>({
+      setList: setConvertedPdfImages,
+    });
   useEffect(() => {
     if (fileList.length > 0) {
       onReadPdfToImages(fileList[0]);
@@ -191,63 +187,12 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           widows: '100%',
         }}
       >
-        <ImageList
-          sx={{
-            width: '100%',
-            maxHeight: 700,
-            minHeight: 300,
-            bgcolor: '#fafafa',
-          }}
-          cols={currentShowPageCors}
-          gap={1}
-        >
-          {pdfImageList.map((image, index) => (
-            <ImageListItem
-              key={image.id}
-              onClick={() => onSwitchSelect(image.id)}
-              sx={{
-                padding: 1,
-                cursor: 'pointer',
-                backgroundColor: 'rgba(255,255,255,0.3)',
-                '&:hover': {
-                  backgroundColor: '#f0eded',
-                },
-                position: 'relative',
-                display: 'flex',
-                direction: 'column',
-                alignItems: 'center',
-              }}
-            >
-              <img
-                style={{
-                  objectFit: 'contain',
-                }}
-                srcSet={image.imgString}
-                src={image.imgString}
-                loading='lazy'
-                alt={`image-${index + 1}`}
-              />
-              <Typography
-                variant='custom'
-                sx={{
-                  fontSize: 14,
-                  marginTop: 1,
-                }}
-              >
-                {index + 1}
-              </Typography>
-              <Box
-                sx={{
-                  position: 'absolute',
-                  top: 0,
-                  right: 0,
-                }}
-              >
-                <Checkbox checked={image.isSelect} />
-              </Box>
-            </ImageListItem>
-          ))}
-        </ImageList>
+        <ToolBoxFunctionalityImageList
+          onClickImg={(image) => onSwitchSelect(image.id)}
+          imageList={convertedPdfImages}
+          isImgSelect={true}
+          pageCols={currentShowPageCors}
+        />
         {pdfIsLoad && pdfNumPages > 0 && (
           <Box
             sx={{
