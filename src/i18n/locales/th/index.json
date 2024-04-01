@@ -573,6 +573,8 @@
     "components_to_img_detail_cancel": "ยกเลิก",
     "components_to_img_detail_normal_quality": "คุณภาพปกติ",
     "components_to_img_detail_high_quality": "คุณภาพสูง",
-    "components_index_unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ"
+    "components_index_unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components_to_img_detail_view_pages": "ดูหน้า",
+    "components_to_img_detail_view_images": "ดูรูปภาพ"
   }
 }

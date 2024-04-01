@@ -573,6 +573,8 @@
     "components_to_img_detail_cancel": "বাতিল করুন",
     "components_to_img_detail_normal_quality": "সাধারণ মান",
     "components_to_img_detail_high_quality": "উচ্চ মান",
-    "components_index_unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন"
+    "components_index_unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
+    "components_to_img_detail_view_pages": "পৃষ্ঠা দেখুন",
+    "components_to_img_detail_view_images": "চিত্র দেখুন"
   }
 }

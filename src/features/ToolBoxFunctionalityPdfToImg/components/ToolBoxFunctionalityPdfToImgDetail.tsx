@@ -7,6 +7,7 @@ import usePdfToImageConversion, {
   IPdfPageImageInfo,
 } from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImageConversion';
 
+import usePdfImagesDownloader from '../hooks/usePdfImagesDownloader';
 import useSwitchIdSelect from '../hooks/useSwitchSelect';
 import ToolBoxFunctionalityIcon from './ToolBoxFunctionalityIcon';
 import ToolBoxFunctionalityImageList from './ToolBoxFunctionalityImageList';
@@ -28,23 +29,37 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   const { t } = useTranslation();
 
   const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5);
+  const [showPdfImagesType, setShowPdfImagesType] = useState<
+    'pdfPageImgs' | 'padPageHaveImgs'
+  >('pdfPageImgs');
   const [selectDownloadSizeIndex, setSelectDownloadSizeIndex] =
     useState<number>(0); //用户选择的下载尺寸大小
 
   const {
     convertedPdfImages,
     setConvertedPdfImages,
+    pdfPageHaveImgs,
+    setPdfPageHaveImgs,
     pdfIsLoad,
     onReadPdfToImages,
-    onDownloadPdfImagesZip,
     pdfTotalPages,
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
   } = usePdfToImageConversion(toType);
+  const {
+    downloaderIsLoad,
+    downloaderTotalPages,
+    currentDownloaderActionNum,
+    onCancelDownloader,
+    onDownloadPdfImagesZip,
+  } = usePdfImagesDownloader();
   const { pdfIsSelectAll, onSwitchSelect, onSwitchAllSelect } =
     useSwitchIdSelect<IPdfPageImageInfo>({
-      setList: setConvertedPdfImages,
+      setList:
+        showPdfImagesType === 'pdfPageImgs'
+          ? setConvertedPdfImages
+          : setPdfPageHaveImgs,
     });
   useEffect(() => {
     if (fileList.length > 0) {
@@ -83,13 +98,32 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
       },
     ];
   }, [pdfViewDefaultSize]);
-  const downloadPdfImagesZip = () => {
-    //1 * 1.6 * 4,是因为onReadPdfToImages默认出图就是1.6倍
-    onDownloadPdfImagesZip(
-      selectDownloadSizeIndex === 0 ? undefined : 1 * 1.6 * 4,
-      fileList[0],
+  const onSwitchPdfImagesType = () => {
+    setShowPdfImagesType((prev) =>
+      prev === 'pdfPageImgs' ? 'padPageHaveImgs' : 'pdfPageImgs',
     );
   };
+  const showImages =
+    showPdfImagesType === 'pdfPageImgs' ? convertedPdfImages : pdfPageHaveImgs;
+  const downloadZip = () => {
+    onDownloadPdfImagesZip(
+      showImages,
+      fileList[0],
+      toType,
+      selectDownloadSizeIndex === 0 ? undefined : 1 * 1.6 * 4,
+    );
+  };
+  const onCancel = () => {
+    onCancelPdfActive && onCancelPdfActive();
+    onCancelDownloader();
+  };
+  const isLoad = pdfIsLoad || downloaderIsLoad;
+  const totalPages = !downloaderIsLoad ? pdfTotalPages : downloaderTotalPages;
+
+  const currentActionNum = !downloaderIsLoad
+    ? currentPdfActionNum
+    : currentDownloaderActionNum;
+
   return (
     <Box sx={{ width: '100%' }}>
       <Grid
@@ -121,9 +155,26 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={pdfIsLoad}
+            disabled={isLoad}
             variant='contained'
-            onClick={() => downloadPdfImagesZip()}
+            onClick={onSwitchPdfImagesType}
+          >
+            {showPdfImagesType !== 'pdfPageImgs'
+              ? t(
+                  'tool_box_functionality_pdf_to_img:components_to_img_detail_view_pages',
+                )
+              : t(
+                  'tool_box_functionality_pdf_to_img:components_to_img_detail_view_images',
+                )}
+          </Button>
+        </Grid>
+        <Grid item xs={6} md={2}>
+          <Button
+            sx={{ width: '100%' }}
+            size='small'
+            disabled={isLoad}
+            variant='contained'
+            onClick={() => downloadZip()}
           >
             {t(
               'tool_box_functionality_pdf_to_img:components_to_img_detail_download_images',
@@ -134,7 +185,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={pdfIsLoad}
+            disabled={isLoad}
             variant='outlined'
             color='error'
             onClick={() => onRemoveFile && onRemoveFile()}
@@ -144,7 +195,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             )}
           </Button>
         </Grid>
-        {!pdfIsLoad && (
+        {!isLoad && (
           <Grid item xs={6} md={2} display='flex'>
             <Box onClick={() => changeCurrentShowPageCors('enlarge')}>
               <ToolBoxFunctionalityIcon
@@ -165,14 +216,14 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             </Box>
           </Grid>
         )}
-        {pdfIsLoad && (
+        {isLoad && (
           <Grid item xs={12} md={2}>
             <Button
               sx={{ width: '100%' }}
               size='small'
               variant='outlined'
               color='error'
-              onClick={() => onCancelPdfActive && onCancelPdfActive()}
+              onClick={() => onCancel()}
             >
               {t(
                 'tool_box_functionality_pdf_to_img:components_to_img_detail_cancel',
@@ -190,11 +241,11 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
       >
         <ToolBoxFunctionalityImageList
           onClickImg={(image) => onSwitchSelect(image.id)}
-          imageList={convertedPdfImages}
+          imageList={showImages}
           isImgSelect={true}
           pageCols={currentShowPageCors}
         />
-        {pdfIsLoad && pdfTotalPages > 0 && (
+        {isLoad && totalPages > 0 && (
           <Box
             sx={{
               position: 'absolute',
@@ -210,64 +261,66 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             }}
           >
             <CircularProgress />
-            {`${currentPdfActionNum}/${pdfTotalPages}`}
+            {`${currentActionNum}/${totalPages}`}
           </Box>
         )}
       </Box>
-      <Grid
-        container
-        direction='row'
-        justifyContent='center'
-        alignItems='center'
-        gap={2}
-      >
-        {imgSizeList.map((imgSize, index) => (
-          <Box
-            key={index}
-            onClick={() => !pdfIsLoad && setSelectDownloadSizeIndex(index)}
-            sx={{
-              border: `1px solid ${
-                selectDownloadSizeIndex === index ? '#000' : '#e5e7eb'
-              }`,
-              padding: 1,
-              borderRadius: 1,
-              cursor: 'pointer',
-              '&:hover': {
-                bgcolor: '#f3f4f6',
-              },
-            }}
-          >
-            <Typography
+      {showPdfImagesType === 'pdfPageImgs' && (
+        <Grid
+          container
+          direction='row'
+          justifyContent='center'
+          alignItems='center'
+          gap={2}
+        >
+          {imgSizeList.map((imgSize, index) => (
+            <Box
+              key={index}
+              onClick={() => !isLoad && setSelectDownloadSizeIndex(index)}
               sx={{
-                fontSize: {
-                  xs: 12,
-                  lg: 18,
+                border: `1px solid ${
+                  selectDownloadSizeIndex === index ? '#000' : '#e5e7eb'
+                }`,
+                padding: 1,
+                borderRadius: 1,
+                cursor: 'pointer',
+                '&:hover': {
+                  bgcolor: '#f3f4f6',
                 },
-                color: selectDownloadSizeIndex === index ? '#000' : '#4b5563',
               }}
             >
-              {index === 0
-                ? t(
-                    'tool_box_functionality_pdf_to_img:components_to_img_detail_normal_quality',
-                  )
-                : t(
-                    'tool_box_functionality_pdf_to_img:components_to_img_detail_high_quality',
-                  )}
-            </Typography>
-            <Typography
-              sx={{
-                fontSize: {
-                  xs: 12,
-                  lg: 15,
-                },
-                color: selectDownloadSizeIndex === index ? '#000' : '#6b7280',
-              }}
-            >
-              {imgSize.width} * {imgSize.height}
-            </Typography>
-          </Box>
-        ))}
-      </Grid>
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 12,
+                    lg: 18,
+                  },
+                  color: selectDownloadSizeIndex === index ? '#000' : '#4b5563',
+                }}
+              >
+                {index === 0
+                  ? t(
+                      'tool_box_functionality_pdf_to_img:components_to_img_detail_normal_quality',
+                    )
+                  : t(
+                      'tool_box_functionality_pdf_to_img:components_to_img_detail_high_quality',
+                    )}
+              </Typography>
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 12,
+                    lg: 15,
+                  },
+                  color: selectDownloadSizeIndex === index ? '#000' : '#6b7280',
+                }}
+              >
+                {imgSize.width} * {imgSize.height}
+              </Typography>
+            </Box>
+          ))}
+        </Grid>
+      )}
       <Grid
         container
         direction='row'
@@ -275,13 +328,13 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         alignItems='center'
         sx={{ mt: 2 }}
       >
-        <Grid xs={10} md={2}>
+        <Grid item xs={10} md={2}>
           <Button
             sx={{ width: '100%' }}
-            disabled={pdfIsLoad}
+            disabled={isLoad}
             size='small'
             variant='contained'
-            onClick={() => downloadPdfImagesZip()}
+            onClick={() => downloadZip()}
           >
             {t(
               'tool_box_functionality_pdf_to_img:components_to_img_detail_download_images',

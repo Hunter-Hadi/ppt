@@ -367,7 +367,9 @@
     "components_to_img_detail_remove_pdf": "Remove PDF",
     "components_to_img_detail_cancel": "Cancel",
     "components_to_img_detail_normal_quality": "Normal Quality",
-    "components_to_img_detail_high_quality": "High Quality"
+    "components_to_img_detail_high_quality": "High Quality",
+    "components_to_img_detail_view_pages": "View pages",
+    "components_to_img_detail_view_images": "View images"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

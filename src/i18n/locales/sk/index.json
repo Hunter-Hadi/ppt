@@ -573,6 +573,8 @@
     "components_to_img_detail_cancel": "Zrušiť",
     "components_to_img_detail_normal_quality": "Normálna kvalita",
     "components_to_img_detail_high_quality": "Vysoká kvalita",
-    "components_index_unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF"
+    "components_index_unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
+    "components_to_img_detail_view_pages": "Zobraziť stránky",
+    "components_to_img_detail_view_images": "Zobraziť obrázky"
   }
 }

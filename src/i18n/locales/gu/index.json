@@ -573,6 +573,8 @@
     "components_to_img_detail_cancel": "રદ કરો",
     "components_to_img_detail_normal_quality": "સામાન્ય ગુણવત્તા",
     "components_to_img_detail_high_quality": "ઉચ્ચ ગુણવત્તા",
-    "components_index_unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો"
+    "components_index_unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
+    "components_to_img_detail_view_pages": "પૃષ્ઠો જુઓ",
+    "components_to_img_detail_view_images": "છબીઓ જુઓ"
   }
 }

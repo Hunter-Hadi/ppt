@@ -26,6 +26,9 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
   const [convertedPdfImages, setConvertedPdfImages] = useState<
     IPdfPageImageInfo[]
   >([]);
+  const [pdfPageHaveImgs, setPdfPageHaveImgs] = useState<IPdfPageImageInfo[]>(
+    [],
+  );
   const [pdfIsLoad, setPdfIsLoad] = useState<boolean>(true); //是否加载中
 
   const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数/总下载页书
@@ -53,12 +56,59 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
       canvasContext: context!,
       viewport: viewport,
     };
-    await page.render(renderContext).promise;
+    const renderTask = page.render(renderContext);
+    await renderTask.promise;
+    await findPdfToImage(page);
     const imageDataUrl = canvas.toDataURL(`image/${toType}`);
     return {
       imageDataUrl,
       viewport,
     };
+  };
+  /**
+   * 查找Pdf的图像
+   */
+  const findPdfToImage = async (page: any) => {
+    // 获取操作列表
+    const ops = await page.getOperatorList();
+    // 提取图片
+    const imageNames = ops.fnArray.reduce((acc, curr, i) => {
+      if (
+        [pdfjs.OPS.paintImageXObject, pdfjs.OPS.paintXObject].includes(curr)
+      ) {
+        acc.push(ops.argsArray[i][0]);
+      }
+      return acc;
+    }, []);
+    for (const imageName of imageNames) {
+      page.objs.get(imageName, (image) => {
+        (async () => {
+          const bmp = image.bitmap;
+          const resizeScale = 1;
+          const width = bmp.width * resizeScale;
+          const height = bmp.height * resizeScale;
+          const canvas = new OffscreenCanvas(width, height);
+          const ctx = canvas.getContext('bitmaprenderer');
+          ctx?.transferFromImageBitmap(bmp);
+          const blob = await canvas.convertToBlob();
+          const reader = new FileReader();
+          reader.readAsDataURL(blob);
+          reader.onloadend = () => {
+            const base64Data = reader.result?.toString() || '';
+            console.log('base64Data: ', base64Data); // base64 encoded image
+            setPdfPageHaveImgs((prev) => [
+              ...prev,
+              {
+                id: uuidV4(),
+                imgString: base64Data,
+                isSelect: true,
+                definedIndex: 1,
+              },
+            ]);
+          };
+        })();
+      });
+    }
   };
   /**
    * 读取pdf文件并转换为图片
@@ -182,6 +232,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
   };
 
   return {
+    pdfPageHaveImgs,
     convertedPdfImages,
     setConvertedPdfImages,
     pdfIsLoad,
@@ -191,6 +242,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
+    setPdfPageHaveImgs,
   };
 };
 

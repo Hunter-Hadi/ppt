@@ -573,6 +573,8 @@
     "components_to_img_detail_cancel": "Cancelar",
     "components_to_img_detail_normal_quality": "Calidad normal",
     "components_to_img_detail_high_quality": "Alta calidad",
-    "components_index_unsupported_file_type_tip": "Por favor, carga el tipo de archivo PDF especificado"
+    "components_index_unsupported_file_type_tip": "Por favor, carga el tipo de archivo PDF especificado",
+    "components_to_img_detail_view_pages": "Ver páginas",
+    "components_to_img_detail_view_images": "Ver imágenes"
   }
 }

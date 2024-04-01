@@ -35,7 +35,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   try {
     console.log('simply context 1', context);
     if (!urlKey) {
-      // jump to 404
       return {
         notFound: true,
       };
