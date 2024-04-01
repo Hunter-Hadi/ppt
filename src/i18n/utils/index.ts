@@ -1,3 +1,4 @@
+import { PROMPT_LIBRARY_PROXY_BASE_PATH } from '@/global_constants';
 import languageCodeMap from '@/i18n/types/languageCodeMap.json';
 
 export const i18nLocales = Object.keys(languageCodeMap);
@@ -16,4 +17,28 @@ export const removeLocaleInPathname = (pathname: string) => {
     return fixedPathname === '' ? '/' : fixedPathname;
   }
   return pathname;
+};
+
+// 补全 href 中的 locale，
+// 需要处理 带有 PROMPT_LIBRARY_PROXY_BASE_PATH 的情况
+export const fixHrefWithLocale = (
+  href: string,
+  newLocale: string | undefined,
+) => {
+  let fixedHref = href;
+
+  if (fixedHref.startsWith('/')) {
+    if (newLocale) {
+      if (fixedHref.startsWith(PROMPT_LIBRARY_PROXY_BASE_PATH)) {
+        fixedHref = fixedHref.replace(
+          PROMPT_LIBRARY_PROXY_BASE_PATH,
+          `${PROMPT_LIBRARY_PROXY_BASE_PATH}/${newLocale}`,
+        );
+      } else {
+        fixedHref = `/${newLocale}${fixedHref}`;
+      }
+    }
+  }
+
+  return fixedHref;
 };
