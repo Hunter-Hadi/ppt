@@ -37,10 +37,29 @@ const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
                     name={toolData.icon}
                     sx={{ color: 'primary.main' }}
                   />
-                  <Typography variant='h5' component='div'>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: 16,
+                        lg: 18,
+                      },
+                      mt: 1,
+                    }}
+                    variant='h5'
+                    component='div'
+                  >
                     {toolData.title}
                   </Typography>
-                  <Typography color='text.secondary'>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: 13,
+                        lg: 15,
+                      },
+                      mt: 1,
+                    }}
+                    color='text.secondary'
+                  >
                     {toolData.description}
                   </Typography>
                 </CardContent>

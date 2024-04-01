@@ -30,10 +30,9 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
         variant='custom'
         sx={{
           fontSize: {
-            xs: 35,
-            lg: 48,
+            xs: 30,
+            lg: 30,
           },
-          fontWeight: 700,
         }}
       >
         {title}
@@ -43,7 +42,7 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
         sx={{
           fontSize: {
             xs: 15,
-            lg: 20,
+            lg: 16,
           },
         }}
         mt='24px'
