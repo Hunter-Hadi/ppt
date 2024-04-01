@@ -350,7 +350,13 @@
     "contact_us__item2": "Sledite nam na Twitterju za najnovejše posodobitve in nasvete:",
     "contact_us__item3": "Podprite nas z oceno ★★★★★ na",
     "contact_us__item3__store": "Razširitev spletnega trgovca",
-    "contact_us__item4": "Pomagajte drugim tako, da delite to razširitev:"
+    "contact_us__item4": "Pomagajte drugim tako, da delite to razširitev:",
+    "tool_box_index_page_title": "MaxAI Orodje",
+    "tool_box_index_page_description": "Vse orodja se izvajajo v vašem brskalniku za popolno zasebnost.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF v PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Pretvori PDF v PNG in prenesi vsako stran kot sliko",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF v JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Pretvori PDF v JPEG in prenesi vsako stran kot sliko"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Uporabite umetno inteligenco s samo 1 klikom (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najhitrejši način uporabe umetne inteligence kjerkoli: klepet z AI, pisanje, preverjanje slovnice, pojasnilo, povzetek, iskanje, upravljanje spodbud in še več."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Kliknite za nalaganje ali povlecite in spustite",
+    "components_to_img_detail_select_all": "Izberi vse",
+    "components_to_img_detail_deselect_all": "Odstrani izbor",
+    "components_to_img_detail_download_images": "Prenesi slike",
+    "components_to_img_detail_remove_pdf": "Odstrani PDF",
+    "components_to_img_detail_cancel": "Prekliči",
+    "components_to_img_detail_normal_quality": "Običajna kakovost",
+    "components_to_img_detail_high_quality": "Visoka kakovost"
   }
 }

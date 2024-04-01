@@ -350,7 +350,13 @@
     "contact_us__item2": "Segueix-nos a Twitter per a les últimes actualitzacions i consells:",
     "contact_us__item3": "Donau suport valorant ★★★★★ a",
     "contact_us__item3__store": "Botiga d'extensions web",
-    "contact_us__item4": "Ajuda altres compartint aquesta extensió:"
+    "contact_us__item4": "Ajuda altres compartint aquesta extensió:",
+    "tool_box_index_page_title": "Caixa d'eines MaxAI",
+    "tool_box_index_page_description": "Totes les eines s'executen al navegador per a una privadesa completa.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF a PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Converteix PDF a PNG i descarrega cada pàgina com a imatge",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF a JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteix PDF a JPEG i descarrega cada pàgina com a imatge"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Utilitza l'IA amb un sol clic a qualsevol lloc (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "La manera més ràpida d'utilitzar l'IA en qualsevol lloc: xat d'IA, escriptura, correcció gramatical, explicació, resum, cerca, gestió de suggeriments i més."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Feu clic per carregar o arrossegueu i deixeu anar",
+    "components_to_img_detail_select_all": "Selecciona-ho tot",
+    "components_to_img_detail_deselect_all": "Desselecciona-ho tot",
+    "components_to_img_detail_download_images": "Descarrega les imatges",
+    "components_to_img_detail_remove_pdf": "Elimina el PDF",
+    "components_to_img_detail_cancel": "Cancel·la",
+    "components_to_img_detail_normal_quality": "Qualitat normal",
+    "components_to_img_detail_high_quality": "Alta qualitat"
   }
 }

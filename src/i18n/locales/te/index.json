@@ -350,7 +350,13 @@
     "contact_us__item2": "తాజా నవీకరణలు మరియు టిప్స్ కోసం మాకు ట్విట్టర్‌లో అనుసరించండి:",
     "contact_us__item3": "మీరు ★★★★★ రేటింగ్ ఇవ్వండితే మాకు మద్దతు చేయండి",
     "contact_us__item3__store": "ఎక్స్టెన్షన్ వెబ్ స్టోర్",
-    "contact_us__item4": "ఈ ఎక్స్టెన్షన్‌ని షేర్ చేయడం ద్వారా ఇతరులకు సహాయం చేయండి:"
+    "contact_us__item4": "ఈ ఎక్స్టెన్షన్‌ని షేర్ చేయడం ద్వారా ఇతరులకు సహాయం చేయండి:",
+    "tool_box_index_page_title": "MaxAI టూల్‌బాక్స్",
+    "tool_box_index_page_description": "పూర్తి గోప్యతను కొనసాగించే మీ బ్రౌజర్‌లో అన్ని ఉపకరణాలు పనిచేస్తాయి.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ను PNG కి",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ను PNG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ను JPEG కి",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ను JPEG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: ఎక్కువసారి AI ఉపయోగించడం ఒక నొక్కి (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI ఎవెరీవేర్ ఉపయోగించడం త్వరగా మరియు సులభం: AI చాట్, రచన, వ్యాకరణ తనిఖీ, వివరణ, సారాంశం, శోధన, ప్రాంప్ట్ మేనేజ్మెంట్, మరియు మరెన్నో."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి లేదా దారికి తింటండి",
+    "components_to_img_detail_select_all": "అన్నింటినీ ఎంచుకోండి",
+    "components_to_img_detail_deselect_all": "అన్నింటినీ ఎంచుకోకుండా ఉంచండి",
+    "components_to_img_detail_download_images": "చిత్రాలను డౌన్‌లోడ్ చేయండి",
+    "components_to_img_detail_remove_pdf": "PDF తొలగించండి",
+    "components_to_img_detail_cancel": "రద్దు చేయండి",
+    "components_to_img_detail_normal_quality": "సాధారణ గుర్తింపు",
+    "components_to_img_detail_high_quality": "అధిక గుర్తింపు"
   }
 }

@@ -350,7 +350,13 @@
     "contact_us__item2": "Følg os på Twitter for de seneste opdateringer og tips:",
     "contact_us__item3": "Støt os ved at give ★★★★★ i bedømmelse på",
     "contact_us__item3__store": "Webbutikken for udvidelser",
-    "contact_us__item4": "Hjælp andre ved at dele denne udvidelse:"
+    "contact_us__item4": "Hjælp andre ved at dele denne udvidelse:",
+    "tool_box_index_page_title": "MaxAI Værktøjskasse",
+    "tool_box_index_page_description": "Alle værktøjer kører i din browser for fuld beskyttelse af privatlivet.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF til PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konverter PDF til PNG og download hver side som et billede",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF til JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konverter PDF til JPEG og download hver side som et billede"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Brug 1-klik AI Overalt (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Den hurtigste måde at bruge AI overalt: AI chat, skrivning, grammatikkontrol, forklaring, opsummering, søgning, prompthåndtering og mere."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klik for at uploade eller træk og slip",
+    "components_to_img_detail_select_all": "Vælg alle",
+    "components_to_img_detail_deselect_all": "Fravælg alle",
+    "components_to_img_detail_download_images": "Download billeder",
+    "components_to_img_detail_remove_pdf": "Fjern PDF",
+    "components_to_img_detail_cancel": "Annuller",
+    "components_to_img_detail_normal_quality": "Normal kvalitet",
+    "components_to_img_detail_high_quality": "Høj kvalitet"
   }
 }

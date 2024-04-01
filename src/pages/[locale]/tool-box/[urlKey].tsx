@@ -7,11 +7,11 @@ import { makeI18nStaticPathsWithOriginalParams } from '@/i18n/utils/staticHelper
 import ToolBoxDetail from '@/page_components/ToolBoxPages/components/ToolBoxDetail';
 import {
   IToolUrkKeyType,
-  toolBoxObjData,
+  toolBoxObjectData,
 } from '@/page_components/ToolBoxPages/constant';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const toolList = Object.keys(toolBoxObjData).map((key) => key);
+  const toolList = Object.keys(toolBoxObjectData).map((key) => key);
   return makeI18nStaticPathsWithOriginalParams({
     paths: toolList.map((toolUrlKey) => ({
       params: { urlKey: toolUrlKey },

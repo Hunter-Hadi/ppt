@@ -350,7 +350,13 @@
     "contact_us__item2": "Seuraa meitä Twitterissä uusimpien päivitysten ja vinkkien saamiseksi:",
     "contact_us__item3": "Tukeaksesi meitä, anna arvio ★★★★★",
     "contact_us__item3__store": "Laajennuksen verkkokaupassa",
-    "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:"
+    "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:",
+    "tool_box_index_page_title": "MaxAI Työkalupakki",
+    "tool_box_index_page_description": "Kaikki työkalut suoritetaan selaimessasi täydellisen yksityisyyden varmistamiseksi.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Muunna PDF PNG:ksi ja lataa jokainen sivu kuvana",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Muunna PDF JPEG:ksi ja lataa jokainen sivu kuvana"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Käytä 1-Click AI missä tahansa (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Nopein tapa käyttää tekoälyä missä tahansa: AI-keskustelu, kirjoittaminen, kieliopintarkistus, selitys, yhteenveto, haku, aloitteen hallinta ja paljon muuta."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klikkaa ladataksesi tai raahaa ja pudota",
+    "components_to_img_detail_select_all": "Valitse kaikki",
+    "components_to_img_detail_deselect_all": "Poista valinta kaikista",
+    "components_to_img_detail_download_images": "Lataa kuvat",
+    "components_to_img_detail_remove_pdf": "Poista PDF",
+    "components_to_img_detail_cancel": "Peruuta",
+    "components_to_img_detail_normal_quality": "Normaali laatu",
+    "components_to_img_detail_high_quality": "Korkea laatu"
   }
 }

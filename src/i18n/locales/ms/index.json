@@ -350,7 +350,13 @@
     "contact_us__item2": "Ikuti kami di Twitter untuk mendapatkan kemas kini dan tip terkini:",
     "contact_us__item3": "Sokong kami dengan memberikan penilaian ★★★★★ di",
     "contact_us__item3__store": "Kedai web Sambungan",
-    "contact_us__item4": "Bantu orang lain dengan berkongsi sambungan ini:"
+    "contact_us__item4": "Bantu orang lain dengan berkongsi sambungan ini:",
+    "tool_box_index_page_title": "MaxAI Toolbox",
+    "tool_box_index_page_description": "Semua alat berjalan di dalam pelayar anda untuk privasi yang lengkap.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ke PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Tukar PDF ke PNG dan muat turun setiap halaman sebagai imej",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ke JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Tukar PDF ke JPEG dan muat turun setiap halaman sebagai imej"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Gunakan AI 1-Klik Di Mana Saja (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cara terpantas untuk menggunakan AI di mana-mana: perbualan AI, penulisan, semakan tatabahasa, penjelasan, ringkasan, carian, pengurusan prompt, dan banyak lagi."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klik untuk muat naik atau seret dan lepas",
+    "components_to_img_detail_select_all": "Pilih Semua",
+    "components_to_img_detail_deselect_all": "Batal Pilih Semua",
+    "components_to_img_detail_download_images": "Muat turun imej",
+    "components_to_img_detail_remove_pdf": "Buang PDF",
+    "components_to_img_detail_cancel": "Batal",
+    "components_to_img_detail_normal_quality": "Kualiti Normal",
+    "components_to_img_detail_high_quality": "Kualiti Tinggi"
   }
 }

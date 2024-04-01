@@ -350,7 +350,13 @@
     "contact_us__item2": "Sledujte nás na Twitteri pre najnovšie aktualizácie a tipy:",
     "contact_us__item3": "Podporte nás hodnotením ★★★★★ na",
     "contact_us__item3__store": "Obchod s rozšíreniami",
-    "contact_us__item4": "Pomôžte ostatným zdieľaním tohto rozšírenia:"
+    "contact_us__item4": "Pomôžte ostatným zdieľaním tohto rozšírenia:",
+    "tool_box_index_page_title": "MaxAI Nástroje",
+    "tool_box_index_page_description": "Všetky nástroje bežia vo vašom prehliadači pre úplné súkromie.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF na PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertujte PDF na PNG a stiahnite si každú stranu ako obrázok",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF na JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertujte PDF na JPEG a stiahnite si každú stranu ako obrázok"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Použite 1-klikovú AI kdekoľvek (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najrýchlejší spôsob, ako používať AI kdekoľvek: AI chat, písanie, kontrola gramatiky, vysvetlenie, súhrn, vyhľadávanie, správa podnetov a ďalšie."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Kliknite pre nahratie alebo presunutie",
+    "components_to_img_detail_select_all": "Vybrať všetko",
+    "components_to_img_detail_deselect_all": "Zrušiť výber všetkého",
+    "components_to_img_detail_download_images": "Stiahnuť obrázky",
+    "components_to_img_detail_remove_pdf": "Odstrániť PDF",
+    "components_to_img_detail_cancel": "Zrušiť",
+    "components_to_img_detail_normal_quality": "Normálna kvalita",
+    "components_to_img_detail_high_quality": "Vysoká kvalita"
   }
 }

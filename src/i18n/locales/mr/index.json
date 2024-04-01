@@ -350,7 +350,13 @@
     "contact_us__item2": "नवीनतम अद्यतने आणि सुचना साठी आमच्यावर ट्विटरवर फॉलो करा:",
     "contact_us__item3": "आपल्या ★★★★★ रेटिंगद्वारे आमची मदत करा",
     "contact_us__item3__store": "एक्सटेंशन वेब स्टोर",
-    "contact_us__item4": "ह्या एक्सटेंशनला सामायिक करून इतरांना मदत करा:"
+    "contact_us__item4": "ह्या एक्सटेंशनला सामायिक करून इतरांना मदत करा:",
+    "tool_box_index_page_title": "मॅक्सएआय टूलबॉक्स",
+    "tool_box_index_page_description": "संपूर्ण गोपनीयतेसाठी आपल्या ब्राउझरमध्ये सर्व उपकरणे चालवा.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ते PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ला PNG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ते JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ला JPEG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: कुठल्याही ठिकाणी 1-क्लिक एआय वापरा (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "एआयच्या कोणत्याही ठिकाणी वापरण्याचा जलदतम मार्ग: एआय चॅट, लेखन, व्याकरण तपासणी, स्पष्टीकरण, संक्षेप, शोध, प्रॉम्प्ट व्यवस्थापन आणि अधिक."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "अपलोड करण्यासाठी क्लिक करा किंवा ड्रॅग आणि ड्रॉप करा",
+    "components_to_img_detail_select_all": "सर्व निवडा",
+    "components_to_img_detail_deselect_all": "सर्व निवड रद्द करा",
+    "components_to_img_detail_download_images": "प्रतिमा डाउनलोड करा",
+    "components_to_img_detail_remove_pdf": "PDF काढून टाका",
+    "components_to_img_detail_cancel": "रद्द करा",
+    "components_to_img_detail_normal_quality": "सामान्य गुणवत्ता",
+    "components_to_img_detail_high_quality": "उच्च गुणवत्ता"
   }
 }

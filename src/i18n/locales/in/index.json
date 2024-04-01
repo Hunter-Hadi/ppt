@@ -350,7 +350,13 @@
     "contact_us__item2": "Ikuti kami di Twitter untuk pembaruan dan tips terbaru:",
     "contact_us__item3": "Dukung kami dengan memberikan rating ★★★★★ di",
     "contact_us__item3__store": "Toko ekstensi web",
-    "contact_us__item4": "Bantu orang lain dengan membagikan ekstensi ini:"
+    "contact_us__item4": "Bantu orang lain dengan membagikan ekstensi ini:",
+    "tool_box_index_page_title": "Kotak Alat MaxAI",
+    "tool_box_index_page_description": "Semua alat berjalan di browser Anda untuk privasi yang lengkap.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ke PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konversi PDF ke PNG dan unduh setiap halaman sebagai gambar",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ke JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konversi PDF ke JPEG dan unduh setiap halaman sebagai gambar"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Gunakan AI 1-Klik di Mana Saja (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cara tercepat untuk menggunakan AI di mana saja: obrolan AI, menulis, pemeriksaan tata bahasa, penjelasan, ringkasan, pencarian, pengelolaan prompt, dan lainnya."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klik untuk mengunggah atau seret dan lepas",
+    "components_to_img_detail_select_all": "Pilih Semua",
+    "components_to_img_detail_deselect_all": "Batalkan Pilihan Semua",
+    "components_to_img_detail_download_images": "Unduh gambar",
+    "components_to_img_detail_remove_pdf": "Hapus PDF",
+    "components_to_img_detail_cancel": "Batal",
+    "components_to_img_detail_normal_quality": "Kualitas Normal",
+    "components_to_img_detail_high_quality": "Kualitas Tinggi"
   }
 }

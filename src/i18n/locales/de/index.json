@@ -350,7 +350,13 @@
     "contact_us__item2": "Folgen Sie uns auf Twitter für die neuesten Updates und Tipps:",
     "contact_us__item3": "Unterstützen Sie uns, indem Sie ★★★★★ bewerten auf",
     "contact_us__item3__store": "Erweiterung Webshop",
-    "contact_us__item4": "Helfen Sie anderen, indem Sie diese Erweiterung teilen:"
+    "contact_us__item4": "Helfen Sie anderen, indem Sie diese Erweiterung teilen:",
+    "tool_box_index_page_title": "MaxAI Werkzeugkasten",
+    "tool_box_index_page_description": "Alle Tools werden in Ihrem Browser ausgeführt, um Ihre Privatsphäre vollständig zu schützen.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF zu PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertiere PDF zu PNG und lade jede Seite als Bild herunter",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF zu JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertiere PDF zu JPEG und lade jede Seite als Bild herunter"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Überall KI mit nur einem Klick nutzen (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Der schnellste Weg, KI überall zu nutzen: KI-Chat, Schreiben, Grammatikprüfung, Erklärung, Zusammenfassung, Suche, Prompt-Verwaltung und mehr."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klicken Sie zum Hochladen oder ziehen Sie Dateien hierher",
+    "components_to_img_detail_select_all": "Alle auswählen",
+    "components_to_img_detail_deselect_all": "Alle abwählen",
+    "components_to_img_detail_download_images": "Bilder herunterladen",
+    "components_to_img_detail_remove_pdf": "PDF entfernen",
+    "components_to_img_detail_cancel": "Abbrechen",
+    "components_to_img_detail_normal_quality": "Normale Qualität",
+    "components_to_img_detail_high_quality": "Hohe Qualität"
   }
 }

@@ -350,7 +350,13 @@
     "contact_us__item2": "최신 업데이트와 팁을 얻으려면 트위터에서 팔로우하세요:",
     "contact_us__item3": "★★★★★ 평가로 저희를 지원해주세요",
     "contact_us__item3__store": "확장 프로그램 웹 스토어",
-    "contact_us__item4": "이 확장 프로그램을 공유하여 다른 사람들을 도와주세요:"
+    "contact_us__item4": "이 확장 프로그램을 공유하여 다른 사람들을 도와주세요:",
+    "tool_box_index_page_title": "MaxAI 도구 상자",
+    "tool_box_index_page_description": "완전한 개인 정보 보호를 위해 브라우저에서 실행되는 모든 도구입니다.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF를 PNG로 변환",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF를 PNG로 변환하고 각 페이지를 이미지로 다운로드합니다.",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF를 JPEG로 변환",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF를 JPEG로 변환하고 각 페이지를 이미지로 다운로드합니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: 어디서나 1-클릭 AI 사용하기 (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI 채팅, 글쓰기, 문법 체크, 설명, 요약, 검색, 프롬프트 관리 등을 위한 가장 빠른 방법."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "클릭하여 업로드하거나 드래그 앤 드롭",
+    "components_to_img_detail_select_all": "모두 선택",
+    "components_to_img_detail_deselect_all": "모두 선택 해제",
+    "components_to_img_detail_download_images": "이미지 다운로드",
+    "components_to_img_detail_remove_pdf": "PDF 제거",
+    "components_to_img_detail_cancel": "취소",
+    "components_to_img_detail_normal_quality": "일반 품질",
+    "components_to_img_detail_high_quality": "고화질"
   }
 }

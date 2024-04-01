@@ -350,7 +350,13 @@
     "contact_us__item2": "Հետևեք մեզ Twitter-ում ՝ վերջին թարմացումների և խնդրանքների համար:",
     "contact_us__item3": "Սպասարկեք մեզ, վաստակեք ★★★★★ գնահատականով",
     "contact_us__item3__store": "Երթուղիների վեբ խանութ",
-    "contact_us__item4": "Օթեւսը համատեք այս ընդգրկումը՝"
+    "contact_us__item4": "Օթեւսը համատեք այս ընդգրկումը՝",
+    "tool_box_index_page_title": "MaxAI Գործիքային ձևաչափ",
+    "tool_box_index_page_description": "Բոլոր գործիքները աշխատում են ձեր բրաուզերում, որպեսզի անձնականությունը լրացված լինի:",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF-ից PNG-ի",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "վերափոխեք PDF-ը PNG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF-ից JPEG-ի",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "վերափոխեք PDF-ը JPEG-ին և բեռնեք յուրաքանչյուր էջը պատկերով"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Օգտագործեք 1-կլիկի AI ամենավերջինը (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Արագաբանական եղանակով օգտագործեք AI-ն ամենտային վայրում: AI խոսք, գրադարան, ճանապարհային ստուգում, բացատրություն, ամփոփում, որոնում, խորագրության կառավարում և այլն:"
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Սեղմեք վերբեռնելու համար կամ տեղադրեք",
+    "components_to_img_detail_select_all": "Ընտրել բոլորը",
+    "components_to_img_detail_deselect_all": "Հանել ընտրվածները",
+    "components_to_img_detail_download_images": "Ներբեռնել պատկերները",
+    "components_to_img_detail_remove_pdf": "Ջնջել PDF-ը",
+    "components_to_img_detail_cancel": "Չեղարկել",
+    "components_to_img_detail_normal_quality": "Նորմալ որակ",
+    "components_to_img_detail_high_quality": "Բարձր որակ"
   }
 }

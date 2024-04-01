@@ -350,7 +350,13 @@
     "contact_us__item2": "Suivez-nous sur Twitter pour les dernières mises à jour et astuces:",
     "contact_us__item3": "Soutenez-nous en donnant une note de ★★★★★ sur",
     "contact_us__item3__store": "la boutique d'extensions web",
-    "contact_us__item4": "Aidez les autres en partageant cette extension:"
+    "contact_us__item4": "Aidez les autres en partageant cette extension:",
+    "tool_box_index_page_title": "Boîte à outils MaxAI",
+    "tool_box_index_page_description": "Tous les outils s'exécutent dans votre navigateur pour une confidentialité totale.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF vers PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Convertir un PDF en PNG et télécharger chaque page en tant qu'image",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF vers JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertir un PDF en JPEG et télécharger chaque page en tant qu'image"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Utilisez l'IA en un clic partout (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Le moyen le plus rapide d'utiliser l'IA n'importe où : chat IA, écriture, vérification de grammaire, explication, résumé, recherche, gestion des suggestions et plus encore."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Cliquez pour télécharger ou faites glisser-déposer",
+    "components_to_img_detail_select_all": "Tout sélectionner",
+    "components_to_img_detail_deselect_all": "Tout désélectionner",
+    "components_to_img_detail_download_images": "Télécharger les images",
+    "components_to_img_detail_remove_pdf": "Supprimer le PDF",
+    "components_to_img_detail_cancel": "Annuler",
+    "components_to_img_detail_normal_quality": "Qualité normale",
+    "components_to_img_detail_high_quality": "Haute qualité"
   }
 }

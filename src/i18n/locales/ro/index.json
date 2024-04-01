@@ -350,7 +350,13 @@
     "contact_us__item2": "Urmăriți-ne pe Twitter pentru cele mai recente actualizări și sfaturi:",
     "contact_us__item3": "Susțineți-ne prin acordarea a ★★★★★ pe",
     "contact_us__item3__store": "Magazinul web al extensiei",
-    "contact_us__item4": "Ajutați-i pe alții distribuind această extensie:"
+    "contact_us__item4": "Ajutați-i pe alții distribuind această extensie:",
+    "tool_box_index_page_title": "MaxAI Toolbox",
+    "tool_box_index_page_description": "Toate instrumentele rulează în browserul tău pentru confidențialitate completă.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF în PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Convertește PDF în PNG și descarcă fiecare pagină ca imagine",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF în JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Utilizați AI cu un singur clic oriunde (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cel mai rapid mod de a utiliza AI oriunde: chat AI, scriere, verificare gramaticală, explicații, rezumat, căutare, gestionarea prompt-urilor și multe altele."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Apăsați pentru a încărca sau trageți și plasați",
+    "components_to_img_detail_select_all": "Selectați tot",
+    "components_to_img_detail_deselect_all": "Deselectați tot",
+    "components_to_img_detail_download_images": "Descărcați imagini",
+    "components_to_img_detail_remove_pdf": "Eliminați PDF",
+    "components_to_img_detail_cancel": "Anulați",
+    "components_to_img_detail_normal_quality": "Calitate normală",
+    "components_to_img_detail_high_quality": "Calitate înaltă"
   }
 }

@@ -350,7 +350,13 @@
     "contact_us__item2": "Śledź nas na Twitterze, aby być na bieżąco z najnowszymi aktualizacjami i wskazówkami:",
     "contact_us__item3": "Wesprzyj nas oceniając ★★★★★ na",
     "contact_us__item3__store": "Sklepie z rozszerzeniami",
-    "contact_us__item4": "Pomóż innym, udostępniając to rozszerzenie:"
+    "contact_us__item4": "Pomóż innym, udostępniając to rozszerzenie:",
+    "tool_box_index_page_title": "MaxAI Narzędziownia",
+    "tool_box_index_page_description": "Wszystkie narzędzia działają w Twojej przeglądarce dla pełnej prywatności.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF do PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konwertuj PDF do PNG i pobierz każdą stronę jako obraz",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF do JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konwertuj PDF do JPEG i pobierz każdą stronę jako obraz"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Użyj sztucznej inteligencji w jednym kliknięciu (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najszybszy sposób na korzystanie z AI w dowolnym miejscu: czat AI, pisanie, sprawdzanie gramatyki, wyjaśnienia, podsumowania, wyszukiwanie, zarządzanie promptami i wiele więcej."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Kliknij, aby przesłać lub przeciągnij i upuść",
+    "components_to_img_detail_select_all": "Zaznacz wszystko",
+    "components_to_img_detail_deselect_all": "Odznacz wszystko",
+    "components_to_img_detail_download_images": "Pobierz obrazy",
+    "components_to_img_detail_remove_pdf": "Usuń PDF",
+    "components_to_img_detail_cancel": "Anuluj",
+    "components_to_img_detail_normal_quality": "Jakość normalna",
+    "components_to_img_detail_high_quality": "Wysoka jakość"
   }
 }

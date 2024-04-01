@@ -1,22 +1,25 @@
+import { useTranslation } from 'next-i18next';
 import { useMemo } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ToolBoxBanner from '@/page_components/ToolBoxPages/components/ToolBoxBanner';
 import ToolBoxCards from '@/page_components/ToolBoxPages/components/ToolBoxCards';
-import { toolBoxObjData } from '@/page_components/ToolBoxPages/constant';
+import { toolBoxObjectData } from '@/page_components/ToolBoxPages/constant';
 
 const ToolBoxHome = () => {
+  const { t } = useTranslation();
+
   const toolList = useMemo(
-    () => Object.keys(toolBoxObjData).map((key) => toolBoxObjData[key]),
+    () => Object.keys(toolBoxObjectData).map((key) => toolBoxObjectData[key]),
     [],
   );
   return (
     <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={1312}>
       <AppDefaultSeoLayout title={'ToolBox | MaxAI.me'} />
       <ToolBoxBanner
-        title='MaxAI 工具箱'
-        description='所有工具都在您的浏览器中运行，以获得完全的隐私。'
+        title={t('pages:tool_box_index_page_title')}
+        description={t('pages:tool_box_index_page_description')}
       />
       <ToolBoxCards list={toolList} />
     </AppContainer>

@@ -350,7 +350,13 @@
     "contact_us__item2": "हमें ट्विटर पर फ़ॉलो करें ताकि आप नवीनतम अपडेट और टिप्स प्राप्त कर सकें:",
     "contact_us__item3": "हमें ★★★★★ रेटिंग देकर हमारा समर्थन करें",
     "contact_us__item3__store": "एक्सटेंशन वेब स्टोर",
-    "contact_us__item4": "इस एक्सटेंशन को साझा करके अन्य लोगों की मदद करें:"
+    "contact_us__item4": "इस एक्सटेंशन को साझा करके अन्य लोगों की मदद करें:",
+    "tool_box_index_page_title": "मैक्सएआई टूलबॉक्स",
+    "tool_box_index_page_description": "पूर्ण गोपनीयता के लिए आपके ब्राउज़र में चलने वाले सभी उपकरण।",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF से PNG में बदलें",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से PNG में बदलें और डाउनलोड करें",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF से JPEG में बदलें",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से JPEG में बदलें और डाउनलोड करें"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

@@ -350,7 +350,13 @@
     "contact_us__item2": "Слідкуйте за нами в Twitter для отримання останніх оновлень та порад:",
     "contact_us__item3": "Підтримайте нас, поставивши рейтинг ★★★★★ на",
     "contact_us__item3__store": "Магазин додатків",
-    "contact_us__item4": "Допоможіть іншим, поділившись цим додатком:"
+    "contact_us__item4": "Допоможіть іншим, поділившись цим додатком:",
+    "tool_box_index_page_title": "МаксАІ Набір Інструментів",
+    "tool_box_index_page_description": "Усі інструменти працюють у вашому браузері для повної конфіденційності.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF до PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Конвертувати PDF в PNG та завантажити кожну сторінку як зображення",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF до JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Конвертувати PDF в JPEG та завантажити кожну сторінку як зображення"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Використовуйте штучний інтелект за один клік (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Найшвидший спосіб використовувати штучний інтелект будь-де: чат з штучним інтелектом, писання, перевірка граматики, пояснення, резюме, пошук, управління запитами та багато іншого."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Клацніть, щоб завантажити або перетягніть",
+    "components_to_img_detail_select_all": "Вибрати все",
+    "components_to_img_detail_deselect_all": "Скасувати вибір усього",
+    "components_to_img_detail_download_images": "Завантажити зображення",
+    "components_to_img_detail_remove_pdf": "Видалити PDF",
+    "components_to_img_detail_cancel": "Скасувати",
+    "components_to_img_detail_normal_quality": "Звичайна якість",
+    "components_to_img_detail_high_quality": "Висока якість"
   }
 }

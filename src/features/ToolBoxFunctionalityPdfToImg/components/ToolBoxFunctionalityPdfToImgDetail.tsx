@@ -9,6 +9,7 @@ import {
   Typography,
 } from '@mui/material';
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { pdfjs } from 'react-pdf';
 
 import usePdfToImgsTool from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImgsTool';
@@ -21,7 +22,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 interface IToolBoxFunctionalityPdfToImgProps {
   fileList: FileList;
-  toType: 'jpg' | 'png';
+  toType: 'jpeg' | 'png';
   onRemoveFile?: () => void;
 }
 const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
@@ -29,6 +30,8 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   onRemoveFile,
   toType,
 }) => {
+  const { t } = useTranslation();
+
   const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5);
   const [selectSizeIndex, setSelectSizeIndex] = useState<number>(0);
 
@@ -84,7 +87,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
     ];
   }, [defaultSize]);
   const downloadPdfImagesZip = () => {
-    //1 * 1.6 * 4,是因为onReadPdfToImages默认的图片就是1.6倍
+    //1 * 1.6 * 4,是因为onReadPdfToImages默认出图就是1.6倍
     onDownloadPdfImagesZip(
       selectSizeIndex === 0 ? undefined : 1 * 1.6 * 4,
       fileList[0],
@@ -108,7 +111,13 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             variant='contained'
             onClick={onSwitchAllSelect}
           >
-            {pdfIsSelectAll ? '取消选择全部' : '选择全部'}
+            {pdfIsSelectAll
+              ? t(
+                  'tool_box_functionality_pdf_to_img:components_to_img_detail_deselect_all',
+                )
+              : t(
+                  'tool_box_functionality_pdf_to_img:components_to_img_detail_select_all',
+                )}
           </Button>
         </Grid>
         <Grid item xs={6} md={2}>
@@ -119,7 +128,9 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             variant='contained'
             onClick={() => downloadPdfImagesZip()}
           >
-            下载
+            {t(
+              'tool_box_functionality_pdf_to_img:components_to_img_detail_download_images',
+            )}
           </Button>
         </Grid>
         <Grid item xs={6} md={2}>
@@ -131,7 +142,9 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             color='error'
             onClick={() => onRemoveFile && onRemoveFile()}
           >
-            删除 PDF
+            {t(
+              'tool_box_functionality_pdf_to_img:components_to_img_detail_remove_pdf',
+            )}
           </Button>
         </Grid>
         {!pdfIsLoad && (
@@ -164,7 +177,9 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
               color='error'
               onClick={() => onCancelPdfToImgs && onCancelPdfToImgs()}
             >
-              取消
+              {t(
+                'tool_box_functionality_pdf_to_img:components_to_img_detail_cancel',
+              )}
             </Button>
           </Grid>
         )}
@@ -268,8 +283,8 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
               border: `1px solid ${
                 selectSizeIndex === index ? '#000' : '#e5e7eb'
               }`,
-              padding: 2,
-              borderRadius: 2,
+              padding: 1,
+              borderRadius: 1,
               cursor: 'pointer',
               '&:hover': {
                 bgcolor: '#f3f4f6',
@@ -285,7 +300,13 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
                 color: selectSizeIndex === index ? '#000' : '#4b5563',
               }}
             >
-              {index === 0 ? 'Normal Quality' : 'High Quality'}
+              {index === 0
+                ? t(
+                    'tool_box_functionality_pdf_to_img:components_to_img_detail_normal_quality',
+                  )
+                : t(
+                    'tool_box_functionality_pdf_to_img:components_to_img_detail_high_quality',
+                  )}
             </Typography>
             <Typography
               sx={{
@@ -308,7 +329,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         alignItems='center'
         sx={{ mt: 2 }}
       >
-        <Grid xs={10} md={3}>
+        <Grid xs={10} md={2}>
           <Button
             sx={{ width: '100%' }}
             disabled={pdfIsLoad}
@@ -316,7 +337,9 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             variant='contained'
             onClick={() => downloadPdfImagesZip()}
           >
-            下载
+            {t(
+              'tool_box_functionality_pdf_to_img:components_to_img_detail_download_images',
+            )}
           </Button>
         </Grid>
       </Grid>

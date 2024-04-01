@@ -378,7 +378,24 @@
     "contact_us__item2": "Follow us on Twitter for the latest updates and tips:",
     "contact_us__item3": "Support us by rating ★★★★★ on",
     "contact_us__item3__store": "Extension web store",
-    "contact_us__item4": "Help others by sharing this extension:"
+    "contact_us__item4": "Help others by sharing this extension:",
+
+    "tool_box_index_page_title": "MaxAI Toolbox",
+    "tool_box_index_page_description": "All tools run in your browser for complete privacy.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF to PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Convert PDF to PNG and download each page as an image",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF to JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convert PDF to JPEG and download each page as an image"
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Click to upload or drag and drop",
+    "components_to_img_detail_select_all": "Select All",
+    "components_to_img_detail_deselect_all": "Deselect All",
+    "components_to_img_detail_download_images": "Download images",
+    "components_to_img_detail_remove_pdf": "Remove PDF",
+    "components_to_img_detail_cancel": "Cancel",
+    "components_to_img_detail_normal_quality": "Normal Quality",
+    "components_to_img_detail_high_quality": "High Quality"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -559,10 +576,9 @@
     "footer__get_for_free": "Get MaxAI for free"
   },
   "affiliate": {
-    
     "main_keywords": "affiliate program",
     "call_to_action__text": "Join affiliate program",
-    "hero_section__indicator__label": "#1 Product of the Week", 
+    "hero_section__indicator__label": "#1 Product of the Week",
     "hero_section__title": "Get paid with MaxAI",
     "hero_section__description__part1": "Join our affiliate program and earn",
     "hero_section__description__part2": "recurring commission for sharing MaxAI!",

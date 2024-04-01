@@ -350,7 +350,13 @@
     "contact_us__item2": "Jälgige meid Twitteris viimaste uuenduste ja näpunäidete saamiseks:",
     "contact_us__item3": "Toetage meid hindega ★★★★★",
     "contact_us__item3__store": "Laienduse veebipood",
-    "contact_us__item4": "Aidake teisi, jagades seda laiendust:"
+    "contact_us__item4": "Aidake teisi, jagades seda laiendust:",
+    "tool_box_index_page_title": "MaxAI Tööriistakast",
+    "tool_box_index_page_description": "Kõik tööriistad töötavad teie veebibrauseris täieliku privaatsuse tagamiseks.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG-iks",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Teisenda PDF PNG-ks ja laadi iga leht pildina alla",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG-iks",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Teisenda PDF JPEG-iks ja laadi iga leht pildina alla"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Kasutage 1-klõpsuga AI-d kõikjal (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Kõige kiirem viis kasutada AI-d kõikjal: AI vestlus, kirjutamine, grammatika kontroll, selgitus, kokkuvõte, otsing, ülesannete haldamine ja palju muud."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klõpsake üleslaadimiseks või lohistage",
+    "components_to_img_detail_select_all": "Vali kõik",
+    "components_to_img_detail_deselect_all": "Tühista valikud",
+    "components_to_img_detail_download_images": "Laadi pildid alla",
+    "components_to_img_detail_remove_pdf": "Eemalda PDF",
+    "components_to_img_detail_cancel": "Tühista",
+    "components_to_img_detail_normal_quality": "Tavaline kvaliteet",
+    "components_to_img_detail_high_quality": "Kõrge kvaliteet"
   }
 }

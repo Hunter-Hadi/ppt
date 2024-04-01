@@ -350,7 +350,13 @@
     "contact_us__item2": "تابعنا على تويتر للحصول على آخر التحديثات والنصائح:",
     "contact_us__item3": "ساعدنا بتقييم ★★★★★ على",
     "contact_us__item3__store": "متجر الإضافات على الويب",
-    "contact_us__item4": "ساعد الآخرين عن طريق مشاركة هذه الإضافة:"
+    "contact_us__item4": "ساعد الآخرين عن طريق مشاركة هذه الإضافة:",
+    "tool_box_index_page_title": "صندوق أدوات MaxAI",
+    "tool_box_index_page_description": "جميع الأدوات تعمل في المتصفح الخاص بك لضمان الخصوصية التامة.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "تحويل PDF إلى PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "تحويل ملف PDF إلى صورة PNG وتنزيل كل صفحة كصورة",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "تحويل PDF إلى JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "تحويل ملف PDF إلى صورة JPEG وتنزيل كل صفحة كصورة"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: استخدم الذكاء الاصطناعي بنقرة واحدة في أي مكان (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "أسرع طريقة لاستخدام الذكاء الاصطناعي في أي مكان: دردشة ذكية، كتابة، فحص قواعد اللغة، شرح، ملخص، بحث، إدارة الاقتراحات، وأكثر من ذلك."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "انقر للتحميل أو قم بالسحب والإفلات",
+    "components_to_img_detail_select_all": "تحديد الكل",
+    "components_to_img_detail_deselect_all": "إلغاء تحديد الكل",
+    "components_to_img_detail_download_images": "تنزيل الصور",
+    "components_to_img_detail_remove_pdf": "إزالة ملف PDF",
+    "components_to_img_detail_cancel": "إلغاء",
+    "components_to_img_detail_normal_quality": "جودة عادية",
+    "components_to_img_detail_high_quality": "جودة عالية"
   }
 }

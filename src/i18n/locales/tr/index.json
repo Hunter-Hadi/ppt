@@ -350,7 +350,13 @@
     "contact_us__item2": "En son güncellemeler ve ipuçları için bizi Twitter'da takip edin:",
     "contact_us__item3": "Lütfen ★★★★★ derecelendirme yaparak bize destek olun:",
     "contact_us__item3__store": "Uzantı web mağazası",
-    "contact_us__item4": "Bu uzantıyı paylaşarak diğerlerine yardımcı olun:"
+    "contact_us__item4": "Bu uzantıyı paylaşarak diğerlerine yardımcı olun:",
+    "tool_box_index_page_title": "MaxAI Araç Kutusu",
+    "tool_box_index_page_description": "Tüm araçlar tarayıcınızda çalışır, tam gizlilik sağlar.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF'den PNG'ye",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF'yi PNG'ye dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF'den JPEG'e",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF'yi JPEG'e dönüştürün ve her sayfayı bir resim olarak indirin"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Her Yerde 1 Tıkla AI Kullanın (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI'nin her yerde kullanmanın en hızlı yolu: AI sohbeti, yazma, dilbilgisi kontrolü, açıklama, özetleme, arama, ipucu yönetimi ve daha fazlası."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Yüklemek için tıklayın veya sürükleyin",
+    "components_to_img_detail_select_all": "Hepsini Seç",
+    "components_to_img_detail_deselect_all": "Hepsini Kaldır",
+    "components_to_img_detail_download_images": "Resimleri İndir",
+    "components_to_img_detail_remove_pdf": "PDF'yi Kaldır",
+    "components_to_img_detail_cancel": "İptal",
+    "components_to_img_detail_normal_quality": "Normal Kalite",
+    "components_to_img_detail_high_quality": "Yüksek Kalite"
   }
 }

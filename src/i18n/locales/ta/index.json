@@ -350,7 +350,13 @@
     "contact_us__item2": "சமீபத்திய புதுப்பிப்புகளுக்கு மற்றும் டிப்ஸ்க்கு எங்களை ட்விட்டரில் பின்பற்றுங்கள்:",
     "contact_us__item3": "மதிப்பீட்டை ★★★★★ ஆக மதிப்பிடுங்கள்",
     "contact_us__item3__store": "நீட்டிப்பு வலைப்பக்கம்",
-    "contact_us__item4": "இந்த நீட்டிப்பை பகிர்ந்து உதவுங்கள்:"
+    "contact_us__item4": "இந்த நீட்டிப்பை பகிர்ந்து உதவுங்கள்:",
+    "tool_box_index_page_title": "மேக்ஸ் ஏஐ படைப்புப் பெயர்",
+    "tool_box_index_page_description": "முழு தனியுரிமையுடன் உங்கள் உலாவியில் அனைத்து கருவிகள் இயக்கப்படும்.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF முதல் PNG க்கு",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ஐ PNG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF முதல் JPEG க்கு",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ஐ JPEG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -553,5 +559,19 @@
     "faq__question7__title": "பணம் செலுத்தும் விளம்பரத்தில் என் சருக்கப்பொருட்களை பரவலாக்க முடியுமா?",
     "faq__question7__description__part1": "நீங்கள் எந்த சருக்கப்பொருட்களையும் பயன்படுத்தாமல் உங்கள் சருக்கப்பொருட்களை எந்த சராசரியான விளம்பரத்தில் பயன்படுத்த முடியாது. இது தேடல் முடிவு மற்றும் வாடிக்கையாளர்களுக்கு குழப்பம் ஏற்படுத்தும் முடிவுகளை உருவாக்கும் என்பதை அரசியல் மற்றும் கொள்கை மீறல்கள் உண்டாக்கும்.",
     "faq__question7__description__part2": "பயன்பாடு மறுபடியும், விளையாட்டுகளும், மற்றும் கொள்கை மீறல்கள் உண்டாக்கப்பட்டால், உங்கள் கணக்கை தடைசெய்யப்படும் மற்றும் ஏற்கனவே உள்நுழைந்த மற்றும் எதிர்பார்க்கப்பட்ட மீள்பரிசைகள் அழிக்கப்படும்."
+  },
+  "seo": {
+    "default__title": "MaxAI.me: ஒரு கிளிக்கு ஏஐ எங்கேயும் பயன்படுத்துங்கள் (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "ஏற்கனவே ஏஐ சந்திப்பு, எழுத்து, இழுத்தல் சரிபார்ப்பு, விளக்கம், சுருக்கம், தேடல், உத்தரவரிக்கை மேலாண்மை மற்றும் மேலும் பயன்படுத்த விரைவான வழி."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",
+    "components_to_img_detail_select_all": "அனைத்தையும் தேர்ந்தெடு",
+    "components_to_img_detail_deselect_all": "அனைத்தையும் தேர்ந்தெடுக்காதீர்கள்",
+    "components_to_img_detail_download_images": "படங்களைப் பதிவிறக்கு",
+    "components_to_img_detail_remove_pdf": "PDF ஐ அகற்று",
+    "components_to_img_detail_cancel": "ரத்துசெய்",
+    "components_to_img_detail_normal_quality": "சாதாரண தரம்",
+    "components_to_img_detail_high_quality": "உயர் தரம்"
   }
 }

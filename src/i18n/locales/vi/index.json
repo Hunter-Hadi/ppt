@@ -350,7 +350,13 @@
     "contact_us__item2": "Theo dõi chúng tôi trên Twitter để cập nhật và nhận các mẹo mới nhất:",
     "contact_us__item3": "Hỗ trợ chúng tôi bằng cách đánh giá ★★★★★ trên",
     "contact_us__item3__store": "Cửa hàng tiện ích mở rộng",
-    "contact_us__item4": "Giúp đỡ người khác bằng cách chia sẻ tiện ích này:"
+    "contact_us__item4": "Giúp đỡ người khác bằng cách chia sẻ tiện ích này:",
+    "tool_box_index_page_title": "Hộp công cụ MaxAI",
+    "tool_box_index_page_description": "Tất cả các công cụ chạy trên trình duyệt của bạn để bảo mật hoàn toàn.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF sang PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Chuyển đổi PDF sang PNG và tải xuống từng trang dưới dạng hình ảnh",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF sang JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Sử dụng AI chỉ với 1 cú nhấp (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cách nhanh nhất để sử dụng AI bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn thế nữa."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Nhấp để tải lên hoặc kéo và thả",
+    "components_to_img_detail_select_all": "Chọn tất cả",
+    "components_to_img_detail_deselect_all": "Bỏ chọn tất cả",
+    "components_to_img_detail_download_images": "Tải xuống hình ảnh",
+    "components_to_img_detail_remove_pdf": "Xóa PDF",
+    "components_to_img_detail_cancel": "Hủy",
+    "components_to_img_detail_normal_quality": "Chất lượng bình thường",
+    "components_to_img_detail_high_quality": "Chất lượng cao"
   }
 }

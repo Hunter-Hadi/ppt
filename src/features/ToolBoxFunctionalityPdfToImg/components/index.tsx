@@ -1,11 +1,12 @@
 import { Box, Typography } from '@mui/material';
 import { FC, lazy, Suspense, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import UploadButton from '@/features/common/components/UploadButton';
 import ToolBoxIcon from '@/page_components/ToolBoxPages/components/ToolBoxIcon';
 import {
   IToolUrkKeyType,
-  toolBoxObjData,
+  toolBoxObjectData,
 } from '@/page_components/ToolBoxPages/constant';
 
 const ToolBoxFunctionalityPdfToImg = lazy(
@@ -20,15 +21,17 @@ interface IToolBoxDetailProps {
 }
 
 const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
-  const currentToolData = useMemo(() => toolBoxObjData[urlKey], [urlKey]);
+  const { t } = useTranslation();
+
+  const currentToolData = useMemo(() => toolBoxObjectData[urlKey], [urlKey]);
   const [fileList, setFileList] = useState<FileList | null>(null);
   const onChangeFile = (fileList: FileList) => {
     setFileList(fileList);
   };
   const toImgType = useMemo(() => {
     switch (urlKey) {
-      case 'pdf-to-jpg':
-        return 'jpg';
+      case 'pdf-to-jpeg':
+        return 'jpeg';
       case 'pdf-to-png':
         return 'png';
     }
@@ -68,7 +71,9 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
               },
             }}
           >
-            Click to upload or drag and drop
+            {t(
+              'tool_box_functionality_pdf_to_img:components_index_upload_title',
+            )}
           </Typography>
         </UploadButton>
       )}

@@ -350,7 +350,13 @@
     "contact_us__item2": "Tufuate kwenye Twitter kwa habari na vidokezo vya hivi karibuni:",
     "contact_us__item3": "Tusaidie kwa kuipa alama ★★★★★ kwenye",
     "contact_us__item3__store": "Duka la programu la upanuzi",
-    "contact_us__item4": "Wasaidie wengine kwa kushiriki upanuzi huu:"
+    "contact_us__item4": "Wasaidie wengine kwa kushiriki upanuzi huu:",
+    "tool_box_index_page_title": "MaxAI Sanduku la Zana",
+    "tool_box_index_page_description": "Zana zote zinaendeshwa kwenye kivinjari chako kwa faragha kamili.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF kuwa PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Geuza PDF kuwa PNG na pakua kila ukurasa kama picha",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF kuwa JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Geuza PDF kuwa JPEG na pakua kila ukurasa kama picha"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Tumia AI kwa Bofya Moja Popote (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Njia ya haraka zaidi ya kutumia AI popote: mazungumzo ya AI, kuandika, ukaguzi wa sarufi, ufafanuzi, muhtasari, utafutaji, usimamizi wa maoni, na zaidi."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Bonyeza ili kupakia au vuta na weka",
+    "components_to_img_detail_select_all": "Chagua Yote",
+    "components_to_img_detail_deselect_all": "Batilisha Uteuzi Wote",
+    "components_to_img_detail_download_images": "Pakua Picha",
+    "components_to_img_detail_remove_pdf": "Ondoa PDF",
+    "components_to_img_detail_cancel": "Ghairi",
+    "components_to_img_detail_normal_quality": "Ubora wa Kawaida",
+    "components_to_img_detail_high_quality": "Ubora wa Juu"
   }
 }

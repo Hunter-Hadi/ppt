@@ -1,4 +1,5 @@
 import { Card, CardContent, Grid, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
@@ -10,6 +11,8 @@ interface IToolBoxCardsProps {
 }
 
 const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
+  const { t } = useTranslation();
+
   return (
     <Grid
       sx={{
@@ -48,7 +51,7 @@ const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
                     variant='h5'
                     component='div'
                   >
-                    {toolData.title}
+                    {t(toolData.title)}
                   </Typography>
                   <Typography
                     sx={{
@@ -60,7 +63,7 @@ const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
                     }}
                     color='text.secondary'
                   >
-                    {toolData.description}
+                    {t(toolData.description)}
                   </Typography>
                 </CardContent>
               </Card>

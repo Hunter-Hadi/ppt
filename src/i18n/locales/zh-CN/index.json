@@ -336,7 +336,13 @@
     "contact_us__item2": "在 Twitter 上关注我们以获取最新的更新和技巧：",
     "contact_us__item3": "通过给我们评分 ★★★★★ 来支持我们：",
     "contact_us__item3__store": "扩展程序商店",
-    "contact_us__item4": "通过分享此扩展来帮助他人："
+    "contact_us__item4": "通过分享此扩展来帮助他人：",
+    "tool_box_index_page_title": "MaxAI工具箱",
+    "tool_box_index_page_description": "所有工具在您的浏览器中运行，完全保护您的隐私。",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF转PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "将PDF转换为PNG，并下载每一页作为图像",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF转JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "将PDF转换为JPEG，并下载每一页作为图像"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me：随处使用1-Click AI（ChatGPT，Claude，Gemini，Bard，Bing）",
     "default__description": "随时随地使用AI的最快方式：AI聊天，写作，语法检查，解释，摘要，搜索，提示管理等。"
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "点击上传或拖放",
+    "components_to_img_detail_select_all": "全选",
+    "components_to_img_detail_deselect_all": "取消全选",
+    "components_to_img_detail_download_images": "下载图片",
+    "components_to_img_detail_remove_pdf": "移除PDF",
+    "components_to_img_detail_cancel": "取消",
+    "components_to_img_detail_normal_quality": "普通质量",
+    "components_to_img_detail_high_quality": "高质量"
   }
 }

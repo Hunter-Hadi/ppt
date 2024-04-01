@@ -350,7 +350,13 @@
     "contact_us__item2": "አሁንም በTwitter እንዴት እንደሚኖር እንሰራለን:",
     "contact_us__item3": "በ ★★★★★ ይመዝገቡ",
     "contact_us__item3__store": "የተከታተሉት ድርጅት መረጃ",
-    "contact_us__item4": "በሌላው አገልግሎት ለማንበብ እንዲጠቀሙ እንዴት እንደሚችሉ እንደሚጠቀሙ እንደሚኖር:"
+    "contact_us__item4": "በሌላው አገልግሎት ለማንበብ እንዲጠቀሙ እንዴት እንደሚችሉ እንደሚጠቀሙ እንደሚኖር:",
+    "tool_box_index_page_title": "የMaxAI መሣሪያዎች",
+    "tool_box_index_page_description": "ሁሉም መሣሪያዎች በእርስዎ በተለያዩ ገጽ ላይ ለማሳየት",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ወደ PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ወደ PNG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ወደ JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ወደ JPEG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: የአንድ-ጊዜ AI በማንኛውም አቅርቦት (ChatGPT, Claude, Gemini, Bard, Bing) ይጠቀሙ",
     "default__description": "AI በማንኛውም አቅርቦት: AI ውይይት, መጻፍ, ግራጫ ማስተማር, መግለጫ, ጥቅምት, ፍለጋ አሳሽ እና ተጨማሪ ግምገማ እና ተጨማሪ መፍጠሪያ"
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "ጥሩ የፕድፊክ ወደ ምስል ለመሙላት ይጫኑ ወይም ወደማይለው ይጫኑ",
+    "components_to_img_detail_select_all": "ሁሉንም ይምረጡ",
+    "components_to_img_detail_deselect_all": "ሁሉንም ይምረጡ",
+    "components_to_img_detail_download_images": "ምስልዎን ወደሚጫኑ ይለፉ",
+    "components_to_img_detail_remove_pdf": "ፕድፊክን ያስወግዱ",
+    "components_to_img_detail_cancel": "ተወዳጅ",
+    "components_to_img_detail_normal_quality": "አጠቃላይ ሁኔታ",
+    "components_to_img_detail_high_quality": "ከፍተኛ ሁኔታ"
   }
 }

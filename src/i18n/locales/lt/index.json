@@ -350,7 +350,13 @@
     "contact_us__item2": "Sekite mus Twitter'e, kad gautumėte naujausius atnaujinimus ir patarimus:",
     "contact_us__item3": "Palaikykite mus įvertindami ★★★★★",
     "contact_us__item3__store": "Plėtinio internetinėje parduotuvėje",
-    "contact_us__item4": "Padėkite kitiems dalindamiesi šiuo plėtiniu:"
+    "contact_us__item4": "Padėkite kitiems dalindamiesi šiuo plėtiniu:",
+    "tool_box_index_page_title": "MaxAI įrankių dėžė",
+    "tool_box_index_page_description": "Visos įrankiai veikia jūsų naršyklėje užtikrinant visišką privatumą.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF į PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertuoti PDF į PNG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF į JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertuoti PDF į JPEG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Naudokite 1 paspaudimą AI bet kur (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Greičiausias būdas naudoti AI bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Spustelėkite, norėdami įkelti arba vilkite ir paleiskite",
+    "components_to_img_detail_select_all": "Pasirinkti viską",
+    "components_to_img_detail_deselect_all": "Atšaukti viską",
+    "components_to_img_detail_download_images": "Atsisiųsti paveikslėlius",
+    "components_to_img_detail_remove_pdf": "Pašalinti PDF",
+    "components_to_img_detail_cancel": "Atšaukti",
+    "components_to_img_detail_normal_quality": "Normalus kokybė",
+    "components_to_img_detail_high_quality": "Aukšta kokybė"
   }
 }

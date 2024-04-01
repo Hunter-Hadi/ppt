@@ -1,4 +1,4 @@
-export type IToolUrkKeyType = 'pdf-to-png' | 'pdf-to-jpg';
+export type IToolUrkKeyType = 'pdf-to-png' | 'pdf-to-jpeg';
 export interface IToolData {
   icon: string;
   title: string;
@@ -7,19 +7,21 @@ export interface IToolData {
   accept: string;
 }
 
-export const toolBoxObjData: { [key in IToolUrkKeyType]: IToolData } = {
+export const toolBoxObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   'pdf-to-png': {
     icon: 'CropOriginal',
-    title: 'PDF to PNG',
-    description: '将 pdf 转换为 png 并将每个页面下载为图像',
+    title: 'pages:tool_box_index_page_constant_obj_pdf_to_png_title',
+    description:
+      'pages:tool_box_index_page_constant_obj_pdf_to_png_description',
     urlKey: 'pdf-to-png',
     accept: 'application/pdf',
   },
-  'pdf-to-jpg': {
+  'pdf-to-jpeg': {
     icon: 'CropOriginal',
-    title: 'PDF to JPG',
-    description: '将 pdf 转换为 jpg 并将每个页面下载为图像',
-    urlKey: 'pdf-to-jpg',
+    title: 'pages:tool_box_index_page_constant_obj_pdf_to_jpeg_title',
+    description:
+      'pages:tool_box_index_page_constant_obj_pdf_to_jpeg_description',
+    urlKey: 'pdf-to-jpeg',
     accept: 'application/pdf',
   },
 };

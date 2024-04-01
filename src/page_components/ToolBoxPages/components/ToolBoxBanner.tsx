@@ -1,5 +1,6 @@
 import { Box, Typography } from '@mui/material';
 import { FC } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface IToolBoxBannerProps {
   title: string;
@@ -7,6 +8,8 @@ interface IToolBoxBannerProps {
 }
 
 const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
+  const { t } = useTranslation();
+
   return (
     <Box
       sx={{
@@ -31,11 +34,12 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
         sx={{
           fontSize: {
             xs: 30,
-            lg: 30,
+            lg: 35,
           },
+          color: 'text.primary',
         }}
       >
-        {title}
+        {t(title)}
       </Typography>
 
       <Typography
@@ -44,10 +48,11 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
             xs: 15,
             lg: 16,
           },
+          color: 'text.secondary',
         }}
         mt='24px'
       >
-        {description}
+        {t(description)}
       </Typography>
     </Box>
   );

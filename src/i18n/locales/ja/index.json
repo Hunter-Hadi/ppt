@@ -350,7 +350,13 @@
     "contact_us__item2": "最新のアップデートとヒントを得るために、Twitterでフォローしてください",
     "contact_us__item3": "★★★★★で評価していただくことで、私たちをサポートしてください",
     "contact_us__item3__store": "拡張機能ウェブストア",
-    "contact_us__item4": "この拡張機能を共有することで、他の人を助けてください"
+    "contact_us__item4": "この拡張機能を共有することで、他の人を助けてください",
+    "tool_box_index_page_title": "MaxAIツールボックス",
+    "tool_box_index_page_description": "完全なプライバシーのために、すべてのツールはブラウザで実行されます。",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDFからPNGへ",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDFをPNGに変換し、各ページを画像としてダウンロードします",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDFからJPEGへ",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDFをJPEGに変換し、各ページを画像としてダウンロードします"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me：どこでも1クリックでAIを利用（ChatGPT、Claude、Gemini、Bard、Bing）",
     "default__description": "AIをどこでも最速で利用する方法：AIチャット、文章作成、文法チェック、説明、要約、検索、プロンプト管理など"
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "アップロードするかドラッグしてください",
+    "components_to_img_detail_select_all": "すべて選択",
+    "components_to_img_detail_deselect_all": "すべて選択解除",
+    "components_to_img_detail_download_images": "画像をダウンロード",
+    "components_to_img_detail_remove_pdf": "PDFを削除",
+    "components_to_img_detail_cancel": "キャンセル",
+    "components_to_img_detail_normal_quality": "通常品質",
+    "components_to_img_detail_high_quality": "高品質"
   }
 }

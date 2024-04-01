@@ -350,7 +350,13 @@
     "contact_us__item2": "Volg ons op Twitter voor de laatste updates en tips:",
     "contact_us__item3": "Ondersteun ons door ★★★★★ te beoordelen op",
     "contact_us__item3__store": "de webwinkel van de extensie",
-    "contact_us__item4": "Help anderen door deze extensie te delen:"
+    "contact_us__item4": "Help anderen door deze extensie te delen:",
+    "tool_box_index_page_title": "MaxAI Gereedschapskist",
+    "tool_box_index_page_description": "Alle tools worden uitgevoerd in uw browser voor volledige privacy.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF naar PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Converteer PDF naar PNG en download elke pagina als een afbeelding",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF naar JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteer PDF naar JPEG en download elke pagina als een afbeelding"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Gebruik 1-Click AI Overal (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "De snelste manier om AI overal te gebruiken: AI-chat, schrijven, grammaticacontrole, uitleg, samenvatting, zoeken, promptbeheer en meer."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klik om te uploaden of sleep en plaats",
+    "components_to_img_detail_select_all": "Alles selecteren",
+    "components_to_img_detail_deselect_all": "Alles deselecteren",
+    "components_to_img_detail_download_images": "Afbeeldingen downloaden",
+    "components_to_img_detail_remove_pdf": "PDF verwijderen",
+    "components_to_img_detail_cancel": "Annuleren",
+    "components_to_img_detail_normal_quality": "Normale kwaliteit",
+    "components_to_img_detail_high_quality": "Hoge kwaliteit"
   }
 }

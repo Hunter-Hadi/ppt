@@ -350,7 +350,13 @@
     "contact_us__item2": "Pratite nas na Twitteru za najnovije vijesti i savjete:",
     "contact_us__item3": "Podržite nas ocjenom ★★★★★ na",
     "contact_us__item3__store": "Web trgovini proširenja",
-    "contact_us__item4": "Pomozite drugima dijeleći ovo proširenje:"
+    "contact_us__item4": "Pomozite drugima dijeleći ovo proširenje:",
+    "tool_box_index_page_title": "MaxAI Alatnica",
+    "tool_box_index_page_description": "Svi alati se izvršavaju u vašem pregledniku za potpunu privatnost.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF u PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Pretvorite PDF u PNG i preuzmite svaku stranicu kao sliku",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF u JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Pretvorite PDF u JPEG i preuzmite svaku stranicu kao sliku"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Koristite 1-klik AI bilo gdje (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najbrži način korištenja AI bilo gdje: AI chat, pisanje, provjera gramatike, objašnjenje, sažetak, pretraživanje, upravljanje poticajima i još mnogo toga."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Kliknite za prijenos ili povucite i ispustite",
+    "components_to_img_detail_select_all": "Odaberi sve",
+    "components_to_img_detail_deselect_all": "Poništi odabir svih",
+    "components_to_img_detail_download_images": "Preuzmi slike",
+    "components_to_img_detail_remove_pdf": "Ukloni PDF",
+    "components_to_img_detail_cancel": "Odustani",
+    "components_to_img_detail_normal_quality": "Normalna kvaliteta",
+    "components_to_img_detail_high_quality": "Visoka kvaliteta"
   }
 }

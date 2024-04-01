@@ -350,7 +350,13 @@
     "contact_us__item2": "Kövess minket a Twitteren a legfrissebb frissítésekért és tippekért:",
     "contact_us__item3": "Támogass minket ★★★★★ értékeléssel a",
     "contact_us__item3__store": "Bővítmény webáruházban",
-    "contact_us__item4": "Segíts másoknak ezzel a bővítménnyel való megosztással:"
+    "contact_us__item4": "Segíts másoknak ezzel a bővítménnyel való megosztással:",
+    "tool_box_index_page_title": "MaxAI Eszköztár",
+    "tool_box_index_page_description": "Minden eszköz a böngésződben fut, teljes adatvédelemmel.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG-ra",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF átalakítása PNG formátumba és minden oldal letöltése képként",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG-re",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF átalakítása JPEG formátumba és minden oldal letöltése képként"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Használja az AI-t 1 kattintással bárhol (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Az AI bárhol történő használatának leggyorsabb módja: AI chat, írás, helyesírás-ellenőrzés, magyarázat, összefoglaló, keresés, prompt kezelés és még sok más."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Kattintson a feltöltéshez vagy húzza ide",
+    "components_to_img_detail_select_all": "Összes kiválasztása",
+    "components_to_img_detail_deselect_all": "Összes kijelölés megszüntetése",
+    "components_to_img_detail_download_images": "Képek letöltése",
+    "components_to_img_detail_remove_pdf": "PDF eltávolítása",
+    "components_to_img_detail_cancel": "Mégse",
+    "components_to_img_detail_normal_quality": "Normál minőség",
+    "components_to_img_detail_high_quality": "Magas minőség"
   }
 }

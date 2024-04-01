@@ -350,7 +350,13 @@
     "contact_us__item2": "עקבו אחרינו בטוויטר לעדכונים וטיפים האחרונים:",
     "contact_us__item3": "תמכו בנו על ידי דירוג ★★★★★ ב-",
     "contact_us__item3__store": "חנות הרחבה ברשת",
-    "contact_us__item4": "עזרו לאחרים על ידי שיתוף הרחבה זו:"
+    "contact_us__item4": "עזרו לאחרים על ידי שיתוף הרחבה זו:",
+    "tool_box_index_page_title": "תיקיית הכלים של MaxAI",
+    "tool_box_index_page_description": "כל הכלים רצים בדפדפן שלך לפרטיות מוחלטת.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ל-PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "המרת PDF ל-PNG והורדת כל עמוד כתמונה",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ל-JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -556,5 +562,15 @@
   "seo": {
     "default__title": "MaxAI.me: השתמש באינטיליגנציה מלאה בלחיצה אחת (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "הדרך המהירה ביותר להשתמש באינטיליגנציה בכל מקום: צ'אט AI, כתיבה, בדיקת דקדוק, הסבר, סיכום, חיפוש, ניהול פרומפטים ועוד."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "לחץ כדי להעלות או לגרור ולשחרר",
+    "components_to_img_detail_select_all": "בחר הכל",
+    "components_to_img_detail_deselect_all": "בטל בחירת הכל",
+    "components_to_img_detail_download_images": "הורד תמונות",
+    "components_to_img_detail_remove_pdf": "הסר PDF",
+    "components_to_img_detail_cancel": "ביטול",
+    "components_to_img_detail_normal_quality": "איכות רגילה",
+    "components_to_img_detail_high_quality": "איכות גבוהה"
   }
 }

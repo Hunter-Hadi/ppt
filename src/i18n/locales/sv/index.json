@@ -350,7 +350,13 @@
     "contact_us__item2": "Följ oss på Twitter för de senaste uppdateringarna och tipsen:",
     "contact_us__item3": "Stöd oss genom att betygsätta ★★★★★ på",
     "contact_us__item3__store": "Webbutik för tillägg",
-    "contact_us__item4": "Hjälp andra genom att dela detta tillägg:"
+    "contact_us__item4": "Hjälp andra genom att dela detta tillägg:",
+    "tool_box_index_page_title": "MaxAI Verktygslåda",
+    "tool_box_index_page_description": "Alla verktyg körs i din webbläsare för fullständig integritet.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF till PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertera PDF till PNG och ladda ner varje sida som en bild",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF till JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertera PDF till JPEG och ladda ner varje sida som en bild"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Använd 1-klicks AI var som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Det snabbaste sättet att använda AI var som helst: AI-chatt, skrivande, grammatikkontroll, förklaring, sammanfattning, sökning, hantering av uppmaningar och mer."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Klicka för att ladda upp eller dra och släpp",
+    "components_to_img_detail_select_all": "Välj alla",
+    "components_to_img_detail_deselect_all": "Avmarkera alla",
+    "components_to_img_detail_download_images": "Ladda ner bilder",
+    "components_to_img_detail_remove_pdf": "Ta bort PDF",
+    "components_to_img_detail_cancel": "Avbryt",
+    "components_to_img_detail_normal_quality": "Normal kvalitet",
+    "components_to_img_detail_high_quality": "Hög kvalitet"
   }
 }

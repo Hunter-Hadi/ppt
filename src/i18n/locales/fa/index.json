@@ -350,7 +350,13 @@
     "contact_us__item2": "ما را در توییتر دنبال کنید برای آخرین به‌روزرسانی‌ها و نکات:",
     "contact_us__item3": "ما را با امتیاز ★★★★★ در",
     "contact_us__item3__store": "فروشگاه وب افزونه",
-    "contact_us__item4": "با به اشتراک گذاشتن این افزونه به دیگران کمک کنید:"
+    "contact_us__item4": "با به اشتراک گذاشتن این افزونه به دیگران کمک کنید:",
+    "tool_box_index_page_title": "ابزارهای MaxAI",
+    "tool_box_index_page_description": "تمام ابزارها در مرورگر شما اجرا می‌شوند تا حریم خصوصی کامل را فراهم کنند.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "تبدیل PDF به PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "تبدیل PDF به PNG و دانلود هر صفحه به عنوان تصویر",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "تبدیل PDF به JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "تبدیل PDF به JPEG و دانلود هر صفحه به عنوان تصویر"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: استفاده از هوش مصنوعی با 1 کلیک در هر جایی (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "سریعترین راه برای استفاده از هوش مصنوعی در هر جایی: چت با هوش مصنوعی، نوشتن، چک کردن دستور زبان، توضیح، خلاصه، جستجو، مدیریت پیشنهاد و غیره."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "برای بارگذاری کلیک کنید یا بکشید و رها کنید",
+    "components_to_img_detail_select_all": "انتخاب همه",
+    "components_to_img_detail_deselect_all": "عدم انتخاب همه",
+    "components_to_img_detail_download_images": "دانلود تصاویر",
+    "components_to_img_detail_remove_pdf": "حذف PDF",
+    "components_to_img_detail_cancel": "لغو",
+    "components_to_img_detail_normal_quality": "کیفیت عادی",
+    "components_to_img_detail_high_quality": "کیفیت بالا"
   }
 }

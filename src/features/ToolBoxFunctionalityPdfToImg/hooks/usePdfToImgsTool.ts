@@ -12,7 +12,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 
-const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
+const usePdfToImgsTool = (toType: 'jpeg' | 'png' = 'png') => {
   const isCancel = useRef(false);
   const [pdfImageList, setPdfImageList] = useState<
     { id: string; imgString: string; isSelect: boolean; definedIndex: number }[]
@@ -42,9 +42,7 @@ const usePdfToImgsTool = (toType: 'jpg' | 'png' = 'png') => {
       viewport: viewport,
     };
     await page.render(renderContext).promise;
-    const imageDataUrl = canvas.toDataURL(
-      `image/${toType === 'jpg' ? 'jpeg' : toType}`,
-    );
+    const imageDataUrl = canvas.toDataURL(`image/${toType}`);
     return {
       imageDataUrl,
       viewport,

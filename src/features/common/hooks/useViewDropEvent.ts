@@ -5,13 +5,9 @@ const useViewDropEvent = (props?: {
 }) => {
   const [isSidebarDragOver, setIsSidebarDragOver] = useState(false);
 
-  const handleDragEnter = useCallback(
-    (event: React.DragEvent<HTMLDivElement>) => {
-      event.preventDefault();
-      setIsSidebarDragOver(true);
-    },
-    [],
-  );
+  const handleDragEnter = useCallback(() => {
+    setIsSidebarDragOver(true);
+  }, []);
 
   const handleDragOver = useCallback(
     (event: React.DragEvent<HTMLDivElement>) => {
@@ -21,19 +17,14 @@ const useViewDropEvent = (props?: {
     [],
   );
 
-  const handleDragLeave = useCallback(
-    (event: React.DragEvent<HTMLDivElement>) => {
-      event.preventDefault();
-      setIsSidebarDragOver(false);
-    },
-    [],
-  );
+  const handleDragLeave = useCallback(() => {
+    setIsSidebarDragOver(false);
+  }, []);
 
   const handleDrop = async (event: React.DragEvent<HTMLDivElement>) => {
     const { files } = event.dataTransfer;
     event.preventDefault();
     if (files.length > 0) {
-      console.log('simply handleDrop', files);
       props?.onChange?.(files);
     }
     setIsSidebarDragOver(false);

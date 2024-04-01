@@ -350,7 +350,13 @@
     "contact_us__item2": "ہمیں ٹوئٹر پر فالو کریں تازہ ترین اپ ڈیٹس اور ٹپس کے لئے:",
     "contact_us__item3": "ہمیں درجہ بندی ★★★★★ کر کے ہماری حمایت کریں",
     "contact_us__item3__store": "توسیع ویب اسٹور",
-    "contact_us__item4": "اس توسیع کو شیئر کر کے دوسروں کی مدد کریں:"
+    "contact_us__item4": "اس توسیع کو شیئر کر کے دوسروں کی مدد کریں:",
+    "tool_box_index_page_title": "میکس اے آئی ٹول باکس",
+    "tool_box_index_page_description": "تمام ٹولز آپ کے براؤزر میں چلتے ہیں تاکہ پوری رازداری محفوظ رہے۔",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF سے PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF کو PNG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF سے JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF کو JPEG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: کہیں بھی 1-کلک AI استعمال کریں (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "AI کو کہیں بھی استعمال کرنے کا سب سے تیز طریقہ: AI چیٹ، لکھائی، گرامر چیک، وضاحت، خلاصہ، تلاش، پرومپٹ کی منتظمی، اور مزید."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "اپ لوڈ کرنے کے لئے کلک کریں یا ڈریگ اور ڈراپ کریں",
+    "components_to_img_detail_select_all": "سب کو منتخب کریں",
+    "components_to_img_detail_deselect_all": "سب کو غیر منتخب کریں",
+    "components_to_img_detail_download_images": "تصاویر ڈاؤن لوڈ کریں",
+    "components_to_img_detail_remove_pdf": "PDF ہٹائیں",
+    "components_to_img_detail_cancel": "منسوخ کریں",
+    "components_to_img_detail_normal_quality": "عام معیار",
+    "components_to_img_detail_high_quality": "اعلی معیار"
   }
 }

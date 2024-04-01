@@ -6,11 +6,11 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ToolBoxBanner from '@/page_components/ToolBoxPages/components/ToolBoxBanner';
 import {
   IToolUrkKeyType,
-  toolBoxObjData,
+  toolBoxObjectData,
 } from '@/page_components/ToolBoxPages/constant';
 
 const ToolBoxFunctionalityPdfToImg = lazy(
-  () => import('@/features/ToolBoxFunctionalityPdfToImg'),
+  () => import('@/features/ToolBoxFunctionalityPdfToImg/components'),
 );
 
 interface IToolBoxDetailProps {
@@ -18,7 +18,7 @@ interface IToolBoxDetailProps {
 }
 
 const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
-  const currentToolData = useMemo(() => toolBoxObjData[urlKey], [urlKey]);
+  const currentToolData = useMemo(() => toolBoxObjectData[urlKey], [urlKey]);
 
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
@@ -37,7 +37,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
           title={currentToolData.title}
           description={currentToolData.description}
         />
-        {(urlKey === 'pdf-to-jpg' || urlKey === 'pdf-to-png') && (
+        {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
           <ToolBoxFunctionalityPdfToImg urlKey={urlKey} />
         )}
       </Box>

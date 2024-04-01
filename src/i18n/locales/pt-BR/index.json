@@ -350,7 +350,13 @@
     "contact_us__item2": "Siga-nos no Twitter para as últimas atualizações e dicas:",
     "contact_us__item3": "Apoie-nos avaliando ★★★★★ em",
     "contact_us__item3__store": "Loja de extensões web",
-    "contact_us__item4": "Ajude outras pessoas compartilhando esta extensão:"
+    "contact_us__item4": "Ajude outras pessoas compartilhando esta extensão:",
+    "tool_box_index_page_title": "Caixa de Ferramentas MaxAI",
+    "tool_box_index_page_description": "Todas as ferramentas são executadas no seu navegador para total privacidade.",
+    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF para PNG",
+    "tool_box_index_page_constant_obj_pdf_to_png_description": "Converter PDF para PNG e baixar cada página como uma imagem",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF para JPEG",
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converter PDF para JPEG e baixar cada página como uma imagem"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts em 1 Clique",
@@ -557,5 +563,15 @@
   "seo": {
     "default__title": "MaxAI.me: Use IA em 1 clique em qualquer lugar (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "A maneira mais rápida de usar IA em qualquer lugar: chat de IA, escrita, verificação gramatical, explicação, resumo, pesquisa, gerenciamento de prompts e muito mais."
+  },
+  "tool_box_functionality_pdf_to_img": {
+    "components_index_upload_title": "Clique para fazer upload ou arraste e solte",
+    "components_to_img_detail_select_all": "Selecionar Todos",
+    "components_to_img_detail_deselect_all": "Desmarcar Todos",
+    "components_to_img_detail_download_images": "Baixar imagens",
+    "components_to_img_detail_remove_pdf": "Remover PDF",
+    "components_to_img_detail_cancel": "Cancelar",
+    "components_to_img_detail_normal_quality": "Qualidade Normal",
+    "components_to_img_detail_high_quality": "Alta Qualidade"
   }
 }
