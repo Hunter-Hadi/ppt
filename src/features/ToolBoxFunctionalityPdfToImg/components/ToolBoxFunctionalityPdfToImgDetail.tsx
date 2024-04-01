@@ -103,6 +103,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         <Grid item xs={6} md={2}>
           <Button
             sx={{ width: '100%' }}
+            size='small'
             disabled={pdfIsLoad}
             variant='contained'
             onClick={onSwitchAllSelect}
@@ -113,6 +114,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         <Grid item xs={6} md={2}>
           <Button
             sx={{ width: '100%' }}
+            size='small'
             disabled={pdfIsLoad}
             variant='contained'
             onClick={() => downloadPdfImagesZip()}
@@ -123,6 +125,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         <Grid item xs={6} md={2}>
           <Button
             sx={{ width: '100%' }}
+            size='small'
             disabled={pdfIsLoad}
             variant='outlined'
             color='error'
@@ -156,6 +159,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           <Grid item xs={12} md={2}>
             <Button
               sx={{ width: '100%' }}
+              size='small'
               variant='outlined'
               color='error'
               onClick={() => onCancelPdfToImgs && onCancelPdfToImgs()}
@@ -308,6 +312,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           <Button
             sx={{ width: '100%' }}
             disabled={pdfIsLoad}
+            size='small'
             variant='contained'
             onClick={() => downloadPdfImagesZip()}
           >

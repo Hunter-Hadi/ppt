@@ -53,9 +53,9 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
             width: 230,
             alignItems: 'center',
             justifyContent: 'center',
+            border: '1px dashed',
           }}
           variant='outlined'
-          isDrag={false}
           onChange={onChangeFile}
           accept={currentToolData.accept}
         >
@@ -64,7 +64,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
             sx={{
               fontSize: {
                 xs: 12,
-                lg: 18,
+                lg: 13,
               },
             }}
           >
