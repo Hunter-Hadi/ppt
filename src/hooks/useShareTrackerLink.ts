@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useMemo, useState } from 'react';
 
 import { MAXAI_WWW_SHARE_TRACKER_LINK } from '@/global_constants';
+import { removeLocaleInPathname } from '@/i18n/utils';
 
 import useExtensionLink from './useExtensionLink';
 
@@ -40,7 +41,10 @@ const useShareTrackerLink = (props?: IUseShareTrackerLinkProps) => {
   // pathname ref
   useEffect(() => {
     if (pathnameRefEnable) {
-      setRef(pathnameRefPrefix + pathname.slice(1).replace(/\//g, '_'));
+      const newRef =
+        pathnameRefPrefix +
+        removeLocaleInPathname(pathname).slice(1).replace(/\//g, '_');
+      setRef(newRef);
     }
   }, [pathnameRefEnable, pathname, pathnameRefPrefix]);
 

@@ -12,10 +12,10 @@ const APP_HEADER_MENU_LIST = [
     key: 'Industries',
     label: 'Industries',
   },
-  // {
-  //   key: 'Features',
-  //   label: 'Features',
-  // },
+  {
+    key: 'Features',
+    label: 'Features',
+  },
   {
     key: 'Pricing',
     label: 'Pricing',

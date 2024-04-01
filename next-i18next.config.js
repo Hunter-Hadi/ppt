@@ -1,9 +1,3 @@
-// @ts-check
-
-/**
- * @type {import('next-i18next').UserConfig}
- */
-
 const languageCodeMap = require('./src/i18n/types/languageCodeMap.json');
 
 module.exports = {

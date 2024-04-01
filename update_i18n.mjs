@@ -288,6 +288,9 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `seo.${key}`)) {
       return `seo.${key}`;
     }
+    if (lodash.get(sourceJson, `features_landing.${key}`)) {
+      return `features_landing.${key}`;
+    }
     return key;
   });
   let needUpdateLanguages = i18nDirs;
