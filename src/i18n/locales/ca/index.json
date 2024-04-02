@@ -446,7 +446,7 @@
     "plan_features_table__summarize_chat_with_email__tooltip_desc": "Xateja amb IA sobre qualsevol fil de correu electrònic: L'IA entén el context del fitxer, et permet obtenir resums, fer preguntes específiques i aprofundir en detalls de manera fluida.",
     "plan_features_table__pdf_ai_viewer": "Visor d'IA de PDF",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "Interactua amb els PDF xatejant amb IA: Obtén resums, fes preguntes i accedeix a informació rica en context de manera fluida.",
-    "plan_features_table__help_me_write_everywhere": "Ajuda'm a escriure en tot arreu",
+    "plan_features_table__help_me_write_everywhere": "Assistent d'escriptura a tot arreu",
     "plan_features_table__gmail_writing_assistant": "Assistent d'escriptura de Gmail",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "Permet que l'IA generi esborranys i respostes de correu electrònic sencers per a tu en segons, i perfecciona el teu esborrany i resposta de Gmail amb un sol clic.",
     "plan_features_table__facebook_writing_assistant": "Assistent d'escriptura de Facebook",

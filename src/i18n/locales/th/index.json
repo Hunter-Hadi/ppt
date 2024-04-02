@@ -446,7 +446,7 @@
     "plan_features_table__summarize_chat_with_email__tooltip_desc": "สนทนากับ AI เกี่ยวกับเส้นทางอีเมลใดก็ได้: AI เข้าใจบริบทของไฟล์ ช่วยคุณในการสรุป ถามคำถามเฉพาะ และศึกษารายละเอียดได้อย่างราบรื่น",
     "plan_features_table__pdf_ai_viewer": "ตัวดู PDF AI",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "โต้ตอบกับ AI ผ่าน PDF: รับสรุป ถามคำถาม และเข้าถึงข้อมูลที่เป็นบริบทได้อย่างราบรื่น",
-    "plan_features_table__help_me_write_everywhere": "ช่วยฉันเขียนทุกที่",
+    "plan_features_table__help_me_write_everywhere": "ผู้ช่วยเขียนทุกที่",
     "plan_features_table__gmail_writing_assistant": "ผู้ช่วยเขียน Gmail",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "ให้ AI สร้างและตอบอีเมลให้คุณในไม่กี่วินาที และปรับปรุงแบบร่างและการตอบกลับใน Gmail ด้วยคลิกเดียว",
     "plan_features_table__facebook_writing_assistant": "ผู้ช่วยเขียน Facebook",

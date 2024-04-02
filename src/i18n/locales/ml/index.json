@@ -446,7 +446,7 @@
     "plan_features_table__summarize_chat_with_email__tooltip_desc": "ഏതെങ്കിലും ഇമെയിൽ താളികൾ പറയുന്നതെക്കുറിച്ചുള്ള AI-യോട് സംഭാഷണം ചെയ്യുക: AI ഫയല് പരിധിയനുസരിച്ച് സംഭാഷണം ചെയ്യാൻ കഴിയും, നിർദ്ദിഷ്ട ചോദ്യങ്ങൾ ചോദിക്കുക, വിശദീകരണങ്ങളിൽ പ്രവേശിക്കാനും സുവിശേഷതകളിൽ പ്രവേശിക്കാനും അനുവദിക്കുന്നു.",
     "plan_features_table__pdf_ai_viewer": "PDF AI കാണുക",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "AI-യോട് സംഭാഷണം ചെയ്യുകയും പിഡിഎഫ് ഫയലുകൾക്ക് പ്രവേശനം ലഭിക്കുകയും ചെയ്യുക: സംഭാഷണങ്ങൾ നൽകുക, ചോദ്യങ്ങൾ ചോദിക്കുക, സന്ദർശനവിന്ദോശം-സമൃദ്ധമായ വിവരങ്ങൾ സുവിശേഷതകളിൽ പ്രവേശിക്കുക.",
-    "plan_features_table__help_me_write_everywhere": "എല്ലായിടത്തും എനിക്ക് എഴുതാൻ സഹായിക്കുക",
+    "plan_features_table__help_me_write_everywhere": "എല്ലാവരും എഴുതാന്‍ സഹായിക്കുന്ന അസിസ്റ്റന്റ്",
     "plan_features_table__gmail_writing_assistant": "Gmail എഴുത്ത് സഹായക്കാരൻ",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "AI-യുടെ സഹായത്തോടെ മെയിൽ ഡ്രാഫ്റ്റുകൾ പൂർത്തിയാക്കുക, മെയിൽ ഉത്തരങ്ങൾ ഒരു ക്ലിക്ക് ചെയ്യുക.",
     "plan_features_table__facebook_writing_assistant": "Facebook എഴുത്ത് സഹായക്കാരൻ",

@@ -446,7 +446,7 @@
     "plan_features_table__summarize_chat_with_email__tooltip_desc": "AI와 이메일 스레드에 대해 대화: AI는 파일 컨텍스트를 이해하며, 요약을 얻고 구체적인 질문을 하며 자세한 내용을 손쉽게 파악할 수 있습니다.",
     "plan_features_table__pdf_ai_viewer": "PDF AI 뷰어",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "AI와 대화하여 PDF와 상호작용: 요약을 얻고 질문을 하며 컨텍스트가 풍부한 정보에 손쉽게 액세스합니다.",
-    "plan_features_table__help_me_write_everywhere": "어디서나 글쓰기 도움",
+    "plan_features_table__help_me_write_everywhere": "글쓰기 어시스턴트 어디서나",
     "plan_features_table__gmail_writing_assistant": "Gmail 글쓰기 도우미",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "AI가 몇 초 안에 전체 이메일 초안과 답장을 생성하고 Gmail 초안 및 답장을 한 번의 클릭으로 완벽하게 만들어줍니다.",
     "plan_features_table__facebook_writing_assistant": "Facebook 글쓰기 도우미",

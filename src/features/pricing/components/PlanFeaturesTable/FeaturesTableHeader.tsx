@@ -25,6 +25,7 @@ interface IProps {
   variant: IFeatureTableVariant;
   assignRenderPlan?: RENDER_PLAN_TYPE[];
   popularPlan?: IFeatureColumn;
+  inFixed?: boolean;
 }
 
 const FeaturesTableHeader: FC<IProps> = ({
@@ -34,6 +35,7 @@ const FeaturesTableHeader: FC<IProps> = ({
   showPaymentTypeSwitch,
   assignRenderPlan = [],
   popularPlan,
+  inFixed = false,
 }) => {
   const { t } = useTranslation();
   const paymentType = useRecoilValue(PricingPaymentTypeAtom);
@@ -77,7 +79,7 @@ const FeaturesTableHeader: FC<IProps> = ({
             justifyContent='space-between'
             sx={{
               position: 'absolute',
-              top: 0,
+              top: isPopularColumn ? 1 : 0,
               right: 0,
               width: 'max-content',
               borderBottomLeftRadius: '8px',
@@ -207,6 +209,40 @@ const FeaturesTableHeader: FC<IProps> = ({
                 : {},
             ]}
           >
+            {isPopularColumn && !inFixed ? (
+              <>
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    border: '2px solid',
+                    borderColor: 'primary.main',
+                    top: -1,
+                    left: -1,
+                    right: -1,
+                    bottom: -1,
+                  }}
+                />
+                <Stack
+                  justifyContent={'center'}
+                  alignItems={'center'}
+                  sx={{
+                    position: 'absolute',
+                    top: -37,
+                    height: 28,
+                    left: -1,
+                    right: -1,
+                    // width: '100%',
+                    px: 1,
+                    py: 0.5,
+                    color: '#fff',
+                    borderRadius: '8px 8px 0px 0px',
+                    bgcolor: 'primary.main',
+                  }}
+                >
+                  {t('modules:plan_features_table__most_popular')}
+                </Stack>
+              </>
+            ) : null}
             {renderHeaderContent(column)}
           </Stack>
         );

@@ -446,7 +446,7 @@
     "plan_features_table__summarize_chat_with_email__tooltip_desc": "AI के साथ किसी भी ईमेल धागे के बारे में चैट करें: AI फ़ाइल संदर्भ को समझता है, आपको संक्षेपण प्राप्त करने, विशेष प्रश्न पूछने और विस्तार से विवरण में खोजने की अनुमति देता है।",
     "plan_features_table__pdf_ai_viewer": "PDF AI दर्शक",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "AI के साथ PDF के साथ संवाद करें: संक्षेपण प्राप्त करें, प्रश्न पूछें और संदर्भ-समृद्ध जानकारी तक पहुँचें।",
-    "plan_features_table__help_me_write_everywhere": "मेरी मदद करें हर जगह लिखने में",
+    "plan_features_table__help_me_write_everywhere": "हर जगह लेखन सहायक",
     "plan_features_table__gmail_writing_assistant": "Gmail लेखन सहायक",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "AI द्वारा केवल कुछ सेकंड में पूरे ईमेल ड्राफ्ट और उत्तर बनाएं, और अपने Gmail ड्राफ्ट और उत्तर को एक क्लिक में पूर्ण करें।",
     "plan_features_table__facebook_writing_assistant": "Facebook लेखन सहायक",

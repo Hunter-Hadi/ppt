@@ -446,7 +446,7 @@
     "plan_features_table__summarize_chat_with_email__tooltip_desc": "AIとメールスレッドについてチャット：AIはファイルの文脈を理解し、要約を取得したり、特定の質問をしたり、詳細に掘り下げたりすることができます。",
     "plan_features_table__pdf_ai_viewer": "PDF AIビューア",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "AIとチャットしてPDFを操作：要約を取得したり、質問をしたり、コンテキスト豊かな情報にシームレスにアクセスしたりします。",
-    "plan_features_table__help_me_write_everywhere": "どこでもライティングサポート",
+    "plan_features_table__help_me_write_everywhere": "どこでもライティングアシスタント",
     "plan_features_table__gmail_writing_assistant": "Gmailライティングアシスタント",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "AIによるメールの下書きや返信を数秒で生成し、Gmailの下書きと返信を1クリックで完璧にします。",
     "plan_features_table__facebook_writing_assistant": "Facebookライティングアシスタント",

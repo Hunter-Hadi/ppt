@@ -181,6 +181,7 @@ const PlanFeaturesTable: FC<IProps> = ({
             onScroll={(e) => e.preventDefault()}
           >
             <FeaturesTableHeader
+              inFixed
               variant={variant}
               showPaymentTypeSwitch
               assignRenderPlan={assignRenderPlanPrefix}

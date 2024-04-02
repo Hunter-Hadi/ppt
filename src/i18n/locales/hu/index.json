@@ -446,7 +446,7 @@
     "plan_features_table__summarize_chat_with_email__tooltip_desc": "Chatelj az AI-val bármely e-mail üzenetről: Az AI érti az üzenet kontextusát, lehetővé teszi az összefoglalásokat, konkrét kérdések feltevését és a részletekbe való mélyedést.",
     "plan_features_table__pdf_ai_viewer": "PDF AI nézegető",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "Interakció PDF-ekkel az AI-val: Szerezz összefoglalásokat, tegyél fel kérdéseket, és hozzáférj könnyedén kontextusgazdag információkhoz.",
-    "plan_features_table__help_me_write_everywhere": "Segíts nekem írni mindenhol",
+    "plan_features_table__help_me_write_everywhere": "Írássegítő mindenhol",
     "plan_features_table__gmail_writing_assistant": "Gmail írási segéd",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "Az AI másodpercek alatt generál teljes e-mail vázlatokat és válaszokat neked, és tökéletesíti a Gmail vázlatodat és válaszodat egyetlen kattintással.",
     "plan_features_table__facebook_writing_assistant": "Facebook írási segéd",
