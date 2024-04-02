@@ -8,6 +8,7 @@ interface IProps {
   content: string | React.ReactNode;
   height?: number;
   sx?: SxProps;
+  linkTo?: string;
 }
 
 const NumbersBox: FC<IProps> = ({
@@ -16,9 +17,13 @@ const NumbersBox: FC<IProps> = ({
   description,
   content,
   sx,
+  linkTo,
 }) => {
   return (
     <Stack
+      component={linkTo ? 'a' : 'div'}
+      href={linkTo}
+      target='_blank'
       sx={{
         bgcolor: '#F9FAFB',
         p: {
@@ -31,7 +36,12 @@ const NumbersBox: FC<IProps> = ({
           sm: 295,
         },
         boxSizing: 'border-box',
-        cursor: 'default',
+        cursor: linkTo ? 'pointer' : 'default',
+        color: 'text.primary',
+        transition: linkTo ? 'all 0.3s' : 'none',
+        '&:hover': {
+          bgcolor: linkTo ? '#efefef' : '#F9FAFB',
+        },
         ...sx,
       }}
     >

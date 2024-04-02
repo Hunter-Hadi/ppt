@@ -102,6 +102,7 @@ const MaxAIInNumbers = () => {
                       height={80}
                     />
                   }
+                  linkTo='https://www.producthunt.com/products/use-chatgpt-gpt-4-copilot-on-chrome#use-chatgpt'
                 />
               </Grid>
               <Grid item xs={isDown600 ? 12 : 6} sm={6}>
