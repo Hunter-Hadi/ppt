@@ -8,7 +8,7 @@ const IS_PROD = true;
 
 const pagesDirectory = 'src/pages';
 const sitemapAssetsPath = './public/sitemap.xml'; // sitemap 文件的存储路径
-const domain = 'http://www.maxai.me'; // 替换成你的域名
+const domain = 'https://www.maxai.me'; // 替换成你的域名
 
 // 排除的目录或文件
 const excludePattern = /(_app|_document|\[locale\]|embed|api)/;
