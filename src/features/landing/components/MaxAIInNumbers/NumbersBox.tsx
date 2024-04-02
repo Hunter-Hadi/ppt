@@ -23,7 +23,7 @@ const NumbersBox: FC<IProps> = ({
     <Stack
       component={linkTo ? 'a' : 'div'}
       href={linkTo}
-      target='_blank'
+      target={linkTo ? '_blank' : undefined}
       sx={{
         bgcolor: '#F9FAFB',
         p: {
