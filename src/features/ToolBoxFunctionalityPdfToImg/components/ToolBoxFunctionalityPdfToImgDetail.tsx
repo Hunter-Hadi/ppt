@@ -23,10 +23,10 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
 }) => {
   const { t } = useTranslation();
 
-  const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5);
+  const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5); //当前一行多少个展示
   const [showPdfImagesType, setShowPdfImagesType] = useState<
     'pdfPageImgs' | 'padPageHaveImgs'
-  >('pdfPageImgs');
+  >('pdfPageImgs'); //显示pdf页面还是页面的图片
   const [selectDownloadSizeIndex, setSelectDownloadSizeIndex] =
     useState<number>(0); //用户选择的下载尺寸大小
 
@@ -83,16 +83,18 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
     },
     [],
   );
-
+  const maxSizeScaleNum = 4;
   const imgSizeList = useMemo(() => {
+    // 图片储存列表设置
     return [
       pdfViewDefaultSize,
       {
-        width: pdfViewDefaultSize.width * 4,
-        height: pdfViewDefaultSize.height * 4,
+        width: pdfViewDefaultSize.width * maxSizeScaleNum,
+        height: pdfViewDefaultSize.height * maxSizeScaleNum,
       },
     ];
   }, [pdfViewDefaultSize]);
+
   const onSwitchPdfImagesType = () => {
     setShowPdfImagesType((prev) =>
       prev === 'pdfPageImgs' ? 'padPageHaveImgs' : 'pdfPageImgs',
@@ -101,12 +103,17 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   const showImages =
     showPdfImagesType === 'pdfPageImgs' ? convertedPdfImages : pdfPageHaveImgs;
   const downloadZip = () => {
-    onDownloadPdfImagesZip(
-      showImages,
-      fileList[0],
-      toType,
-      selectDownloadSizeIndex === 0 ? undefined : 1 * 1.6 * 4,
-    );
+    if (showPdfImagesType === 'pdfPageImgs') {
+      //maxSizeScaleNum * 4  默认尺寸是1.6倍
+      onDownloadPdfImagesZip(
+        showImages,
+        toType,
+        fileList[0],
+        selectDownloadSizeIndex === 0 ? undefined : 1.6 * maxSizeScaleNum,
+      );
+    } else {
+      onDownloadPdfImagesZip(showImages, toType);
+    }
   };
   const onCancel = () => {
     onCancelPdfActive && onCancelPdfActive();

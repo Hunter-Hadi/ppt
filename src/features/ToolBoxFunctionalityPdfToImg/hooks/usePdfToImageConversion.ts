@@ -91,7 +91,6 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
           reader.readAsDataURL(blob);
           reader.onloadend = () => {
             const base64Data = reader.result?.toString() || '';
-            console.log('base64Data: ', base64Data); // base64 encoded image
             setPdfPageHaveImgs((prev) => [
               ...prev,
               {

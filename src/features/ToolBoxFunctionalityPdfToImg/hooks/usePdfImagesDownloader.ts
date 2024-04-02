@@ -3,7 +3,10 @@ import JSZip from 'jszip';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
+import snackNotifications from '@/utils/globalSnackbar';
+
 import { dataURLtoBlob } from '../utils/pdfTool';
+import { IPdfPageImageInfo } from './usePdfToImageConversion';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -12,10 +15,16 @@ const usePdfImagesDownloader = () => {
   const [downloaderIsLoad, setDownloaderIsLoad] = useState<boolean>(false); //是否加载中
   const [downloaderTotalPages, setDownloaderTotalPages] = useState<number>(0); //总下载页书
   const [currentDownloaderActionNum, setCurrentDownloaderActionNum] =
-    useState<number>(0); //当前下载页书进度
+    useState<number>(0); //当前下载进度
   const isCancel = useRef(false);
+
   const onDownloadPdfImagesZip = useCallback(
-    async (convertedPdfImages, file, toType, scale) => {
+    async (
+      convertedPdfImages: IPdfPageImageInfo[],
+      toType: string,
+      file?: File,
+      scale?: number,
+    ) => {
       isCancel.current = false;
       setCurrentDownloaderActionNum(0);
       setDownloaderIsLoad(true);
@@ -25,15 +34,14 @@ const usePdfImagesDownloader = () => {
         (image) => image.isSelect,
       );
       setDownloaderTotalPages(selectedImages.length);
-      const buff = await file?.arrayBuffer();
+
+      //只有重新设置scale尺寸，才会重新加载pdf
+      const buff = scale ? await file?.arrayBuffer() : undefined;
       const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
 
       for (let i = 0; i < selectedImages.length; i++) {
         if (isCancel.current) return;
-        console.log('simply isCancel 1');
-
         setCurrentDownloaderActionNum(i + 1);
-
         if (!scale) {
           images?.file(
             `image-${i + 1}.${toType}`,
@@ -45,7 +53,7 @@ const usePdfImagesDownloader = () => {
         } else if (pdfDoc && scale) {
           const { imageDataUrl } = await generatePdfToImage(
             pdfDoc,
-            selectedImages[0].definedIndex,
+            selectedImages[i].definedIndex,
             toType,
             scale,
           );
@@ -59,7 +67,6 @@ const usePdfImagesDownloader = () => {
           );
         }
       }
-      console.log('simply isCancel 2');
       if (isCancel.current) return;
       if (selectedImages.length > 0) {
         zip.generateAsync({ type: 'blob' }).then((content) => {
@@ -68,6 +75,12 @@ const usePdfImagesDownloader = () => {
         });
       } else {
         //TODO: 需要提示没有选择图片
+        snackNotifications.warning('Please select at least one image.', {
+          anchorOrigin: {
+            vertical: 'top',
+            horizontal: 'center',
+          },
+        });
         setDownloaderIsLoad(false);
       }
     },
@@ -94,7 +107,7 @@ const usePdfImagesDownloader = () => {
       viewport: viewport,
     };
     await page.render(renderContext).promise;
-    const imageDataUrl = canvas.toDataURL(`image/${toType}`);
+    const imageDataUrl = canvas.toDataURL(`image/${toType}`); //不会储存base64,所以这里不用blob
     return {
       imageDataUrl,
       viewport,
