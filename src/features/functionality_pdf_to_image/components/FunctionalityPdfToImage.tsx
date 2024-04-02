@@ -4,21 +4,23 @@ import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
-import FunctionalityIcon from '@/features/functionality_pdf_to_img/components/FunctionalityIcon';
+import FunctionalityIcon from '@/features/functionality_pdf_to_image/components/FunctionalityIcon';
 import snackNotifications from '@/utils/globalSnackbar';
 
-const FunctionalityPdfToImgDetail = lazy(
+const FunctionalityPdfToImageDetail = lazy(
   () =>
     import(
-      '@/features/functionality_pdf_to_img/components/FunctionalityPdfToImgDetail'
+      '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImageDetail'
     ),
 );
 
-interface IFunctionalityPdfToImgProps {
+interface IFunctionalityPdfToImageProps {
   toType: 'pdf-to-jpeg' | 'pdf-to-png';
 }
 
-const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
+const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
+  toType,
+}) => {
   const { t } = useTranslation();
 
   const [fileData, setFileData] = useState<File | null>(null);
@@ -29,7 +31,9 @@ const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
   };
   const handleUnsupportedFileType = () => {
     snackNotifications.warning(
-      t('functionality_pdf_to_img:components_index_unsupported_file_type_tip'),
+      t(
+        'functionality__pdf_to_image:components__index__unsupported_file_type_tip',
+      ),
       {
         anchorOrigin: {
           vertical: 'top',
@@ -38,7 +42,7 @@ const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
       },
     );
   };
-  const toImgType = useMemo(() => {
+  const toImageType = useMemo(() => {
     switch (toType) {
       case 'pdf-to-jpeg':
         return 'jpeg';
@@ -86,15 +90,15 @@ const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
               },
             }}
           >
-            {t('functionality_pdf_to_img:components_index_upload_title')}
+            {t('functionality__pdf_to_image:components__index__upload_title')}
           </Typography>
         </UploadButton>
       )}
-      {fileData && toImgType && (
+      {fileData && toImageType && (
         <Suspense fallback={<AppLoadingLayout loading />}>
-          <FunctionalityPdfToImgDetail
+          <FunctionalityPdfToImageDetail
             fileData={fileData}
-            toType={toImgType}
+            toType={toImageType}
             onRemoveFile={() => setFileData(null)}
           />
         </Suspense>
@@ -102,4 +106,4 @@ const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
     </Box>
   );
 };
-export default FunctionalityPdfToImg;
+export default FunctionalityPdfToImage;

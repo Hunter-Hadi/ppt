@@ -351,14 +351,14 @@
     "contact_us__item3": "Soutenez-nous en donnant une note de ★★★★★ sur",
     "contact_us__item3__store": "la boutique d'extensions web",
     "contact_us__item4": "Aidez les autres en partageant cette extension:",
-    "tool_box_index_page_title": "Outils MaxAI",
-    "tool_box_index_page_description": "Tous les outils PDF sont 100% GRATUITS et s'exécutent dans votre navigateur pour une confidentialité totale",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF vers PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Convertir un PDF en PNG et télécharger chaque page en tant qu'image",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF vers JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertir un PDF en JPEG et télécharger chaque page en tant qu'image",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Fusionner des PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Fusionnez plusieurs fichiers PDF en un seul en quelques clics seulement"
+    "tools__index_page__title": "Outils MaxAI",
+    "tools__index_page__description": "Tous les outils PDF sont 100% GRATUITS et s'exécutent dans votre navigateur pour une confidentialité totale",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF vers PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Convertir un PDF en PNG et télécharger chaque page en tant qu'image",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF vers JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convertir un PDF en JPEG et télécharger chaque page en tant qu'image",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Fusionner des PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Fusionnez plusieurs fichiers PDF en un seul en quelques clics seulement"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Utilisez l'IA en un clic partout (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Le moyen le plus rapide d'utiliser l'IA n'importe où : chat IA, écriture, vérification de grammaire, explication, résumé, recherche, gestion des suggestions et plus encore."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Cliquez pour télécharger ou faites glisser-déposer",
-    "components_to_img_detail_select_all": "Tout sélectionner",
-    "components_to_img_detail_deselect_all": "Tout désélectionner",
-    "components_to_img_detail_download_images": "Télécharger les images",
-    "components_to_img_detail_remove_pdf": "Supprimer le PDF",
-    "components_to_img_detail_cancel": "Annuler",
-    "components_to_img_detail_normal_quality": "Qualité normale",
-    "components_to_img_detail_high_quality": "Haute qualité",
-    "components_index_unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
-    "components_to_img_detail_view_pages": "Voir les pages",
-    "components_to_img_detail_view_images": "Voir les images",
-    "components_to_img_downloader_tip": "Veuillez sélectionner au moins une image."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Cliquez pour télécharger ou faites glisser-déposer",
+    "components__to_image_detail__select_all": "Tout sélectionner",
+    "components__to_image_detail__deselect_all": "Tout désélectionner",
+    "components__to_image_detail__download_images": "Télécharger les images",
+    "components__to_image_detail__remove_pdf": "Supprimer le PDF",
+    "components__to_image_detail__cancel": "Annuler",
+    "components__to_image_detail__normal_quality": "Qualité normale",
+    "components__to_image_detail__high_quality": "Haute qualité",
+    "components__index__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
+    "components__to_image_detail__view_pages": "Voir les pages",
+    "components__to_image_detail__view_images": "Voir les images",
+    "components__to_image__downloader_tip": "Veuillez sélectionner au moins une image.",
+    "components__to_image_detail__not_found_images": "Image PDF introuvable"
   }
 }

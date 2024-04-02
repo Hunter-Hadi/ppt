@@ -351,14 +351,14 @@
     "contact_us__item3": "★★★★★で評価していただくことで、私たちをサポートしてください",
     "contact_us__item3__store": "拡張機能ウェブストア",
     "contact_us__item4": "この拡張機能を共有することで、他の人を助けてください",
-    "tool_box_index_page_title": "MaxAI ツール",
-    "tool_box_index_page_description": "すべてのPDFツールは100％無料であり、完全なプライバシーのためにブラウザで実行されます",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDFからPNGへ",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDFをPNGに変換し、各ページを画像としてダウンロードします",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDFからJPEGへ",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDFをJPEGに変換し、各ページを画像としてダウンロードします",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDFの結合",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "数回のクリックで複数のPDFファイルを1つに結合します"
+    "tools__index_page__title": "MaxAI ツール",
+    "tools__index_page__description": "すべてのPDFツールは100％無料であり、完全なプライバシーのためにブラウザで実行されます",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDFからPNGへ",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDFをPNGに変換し、各ページを画像としてダウンロードします",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDFからJPEGへ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDFをJPEGに変換し、各ページを画像としてダウンロードします",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDFの結合",
+    "tools__index_page__constant_obj__merge_pdfs__description": "数回のクリックで複数のPDFファイルを1つに結合します"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me：どこでも1クリックでAIを利用（ChatGPT、Claude、Gemini、Bard、Bing）",
     "default__description": "AIをどこでも最速で利用する方法：AIチャット、文章作成、文法チェック、説明、要約、検索、プロンプト管理など"
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "アップロードするかドラッグしてください",
-    "components_to_img_detail_select_all": "すべて選択",
-    "components_to_img_detail_deselect_all": "すべて選択解除",
-    "components_to_img_detail_download_images": "画像をダウンロード",
-    "components_to_img_detail_remove_pdf": "PDFを削除",
-    "components_to_img_detail_cancel": "キャンセル",
-    "components_to_img_detail_normal_quality": "通常品質",
-    "components_to_img_detail_high_quality": "高品質",
-    "components_index_unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
-    "components_to_img_detail_view_pages": "ページを表示",
-    "components_to_img_detail_view_images": "画像を表示",
-    "components_to_img_downloader_tip": "少なくとも1つの画像を選択してください。"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "アップロードするかドラッグしてください",
+    "components__to_image_detail__select_all": "すべて選択",
+    "components__to_image_detail__deselect_all": "すべて選択解除",
+    "components__to_image_detail__download_images": "画像をダウンロード",
+    "components__to_image_detail__remove_pdf": "PDFを削除",
+    "components__to_image_detail__cancel": "キャンセル",
+    "components__to_image_detail__normal_quality": "通常品質",
+    "components__to_image_detail__high_quality": "高品質",
+    "components__index__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
+    "components__to_image_detail__view_pages": "ページを表示",
+    "components__to_image_detail__view_images": "画像を表示",
+    "components__to_image__downloader_tip": "少なくとも1つの画像を選択してください。",
+    "components__to_image_detail__not_found_images": "PDFの画像が見つかりません"
   }
 }

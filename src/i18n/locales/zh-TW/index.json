@@ -351,14 +351,14 @@
     "contact_us__item3": "通過給我們評分 ★★★★★ 支持我們",
     "contact_us__item3__store": "擴展程式商店",
     "contact_us__item4": "通過分享此擴展程式來幫助他人：",
-    "tool_box_index_page_title": "MaxAI 工具",
-    "tool_box_index_page_description": "所有 PDF 工具都是 100% 免費，在您的瀏覽器中運行，完全保護您的隱私",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF 轉 PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "將 PDF 轉換為 PNG，並下載每個頁面作為圖像",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF 轉 JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "將 PDF 轉換為 JPEG，並下載每個頁面作為圖像",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "合併 PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "只需點擊幾下，將多個 PDF 文件合併為一個"
+    "tools__index_page__title": "MaxAI 工具",
+    "tools__index_page__description": "所有 PDF 工具都是 100% 免費，在您的瀏覽器中運行，完全保護您的隱私",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF 轉 PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "將 PDF 轉換為 PNG，並下載每個頁面作為圖像",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF 轉 JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "將 PDF 轉換為 JPEG，並下載每個頁面作為圖像",
+    "tools__index_page__constant_obj__merge_pdfs__title": "合併 PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "只需點擊幾下，將多個 PDF 文件合併為一個"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me：隨處使用1-Click AI（ChatGPT、Claude、Gemini、Bard、Bing）",
     "default__description": "隨處使用AI的最快方式：AI聊天、寫作、文法檢查、解釋、摘要、搜索、提示管理等。"
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "點擊上傳或拖放",
-    "components_to_img_detail_select_all": "全選",
-    "components_to_img_detail_deselect_all": "取消全選",
-    "components_to_img_detail_download_images": "下載圖片",
-    "components_to_img_detail_remove_pdf": "移除PDF",
-    "components_to_img_detail_cancel": "取消",
-    "components_to_img_detail_normal_quality": "普通品質",
-    "components_to_img_detail_high_quality": "高品質",
-    "components_index_unsupported_file_type_tip": "請上傳指定的PDF文件類型",
-    "components_to_img_detail_view_pages": "查看頁面",
-    "components_to_img_detail_view_images": "查看圖片",
-    "components_to_img_downloader_tip": "請至少選擇一張圖片。"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "點擊上傳或拖放",
+    "components__to_image_detail__select_all": "全選",
+    "components__to_image_detail__deselect_all": "取消全選",
+    "components__to_image_detail__download_images": "下載圖片",
+    "components__to_image_detail__remove_pdf": "移除PDF",
+    "components__to_image_detail__cancel": "取消",
+    "components__to_image_detail__normal_quality": "普通品質",
+    "components__to_image_detail__high_quality": "高品質",
+    "components__index__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
+    "components__to_image_detail__view_pages": "查看頁面",
+    "components__to_image_detail__view_images": "查看圖片",
+    "components__to_image__downloader_tip": "請至少選擇一張圖片。",
+    "components__to_image_detail__not_found_images": "找不到PDF圖片"
   }
 }

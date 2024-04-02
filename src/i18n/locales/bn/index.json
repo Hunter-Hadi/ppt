@@ -351,14 +351,14 @@
     "contact_us__item3": "এক্সটেনশন ওয়েব স্টোরে ★★★★★ রেটিং দিয়ে আমাদের সমর্থন করুন",
     "contact_us__item3__store": "এক্সটেনশন ওয়েব স্টোর",
     "contact_us__item4": "এই এক্সটেনশনটি শেয়ার করে অন্যদেরকে সাহায্য করুন",
-    "tool_box_index_page_title": "ম্যাক্সএআই টুলস",
-    "tool_box_index_page_description": "সম্পূর্ণ গোপনীয়তার জন্য সম্পূর্ণ ব্রাউজারে চলতে সম্পূর্ণ ফ্রি এবং পিডিএফ টুলগুলি",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF থেকে PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF থেকে PNG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF থেকে JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF থেকে JPEG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "পিডিএফ মার্জ করুন",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "কয়েকটি ক্লিকের মাধ্যমে একটি পিডিএফ ফাইলে একত্রিত করুন"
+    "tools__index_page__title": "ম্যাক্সএআই টুলস",
+    "tools__index_page__description": "সম্পূর্ণ গোপনীয়তার জন্য সম্পূর্ণ ব্রাউজারে চলতে সম্পূর্ণ ফ্রি এবং পিডিএফ টুলগুলি",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF থেকে PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF থেকে PNG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF থেকে JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF থেকে JPEG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
+    "tools__index_page__constant_obj__merge_pdfs__title": "পিডিএফ মার্জ করুন",
+    "tools__index_page__constant_obj__merge_pdfs__description": "কয়েকটি ক্লিকের মাধ্যমে একটি পিডিএফ ফাইলে একত্রিত করুন"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: যেখানেই চাইলেই 1-ক্লিক এআই ব্যবহার করুন (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "এআই যেখানেই ব্যবহার করতে সবচেয়ে দ্রুত: এআই চ্যাট, লেখা, ব্যাকরণ পরীক্ষা, ব্যাখ্যা, সংক্ষিপ্তসার, অনুসন্ধান, প্রম্পট পরিচালনা এবং আরও।"
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "আপলোড করতে ক্লিক করুন বা টেনে আনুন",
-    "components_to_img_detail_select_all": "সব নির্বাচন করুন",
-    "components_to_img_detail_deselect_all": "সব অগ্রাহ্য করুন",
-    "components_to_img_detail_download_images": "ছবি ডাউনলোড করুন",
-    "components_to_img_detail_remove_pdf": "PDF সরান",
-    "components_to_img_detail_cancel": "বাতিল করুন",
-    "components_to_img_detail_normal_quality": "সাধারণ মান",
-    "components_to_img_detail_high_quality": "উচ্চ মান",
-    "components_index_unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
-    "components_to_img_detail_view_pages": "পৃষ্ঠা দেখুন",
-    "components_to_img_detail_view_images": "চিত্র দেখুন",
-    "components_to_img_downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "আপলোড করতে ক্লিক করুন বা টেনে আনুন",
+    "components__to_image_detail__select_all": "সব নির্বাচন করুন",
+    "components__to_image_detail__deselect_all": "সব অগ্রাহ্য করুন",
+    "components__to_image_detail__download_images": "ছবি ডাউনলোড করুন",
+    "components__to_image_detail__remove_pdf": "PDF সরান",
+    "components__to_image_detail__cancel": "বাতিল করুন",
+    "components__to_image_detail__normal_quality": "সাধারণ মান",
+    "components__to_image_detail__high_quality": "উচ্চ মান",
+    "components__index__unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
+    "components__to_image_detail__view_pages": "পৃষ্ঠা দেখুন",
+    "components__to_image_detail__view_images": "চিত্র দেখুন",
+    "components__to_image__downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।",
+    "components__to_image_detail__not_found_images": "পিডিএফ চিত্র পাওয়া যায়নি"
   }
 }

@@ -351,14 +351,14 @@
     "contact_us__item3": "Podržite nas ocenom ★★★★★ na",
     "contact_us__item3__store": "Prodavnica proširenja",
     "contact_us__item4": "Pomozite drugima tako što ćete deliti ovo proširenje:",
-    "tool_box_index_page_title": "MaxAI Alati",
-    "tool_box_index_page_description": "Svi PDF alati su 100% BESPLATNI i pokreću se u vašem pregledaču za potpunu privatnost",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF u PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertuj PDF u PNG i preuzmi svaku stranicu kao sliku",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF u JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertuj PDF u JPEG i preuzmi svaku stranicu kao sliku",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Spoji PDF-ove",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Spojite više PDF fajlova u jedan sa samo nekoliko klikova"
+    "tools__index_page__title": "MaxAI Alati",
+    "tools__index_page__description": "Svi PDF alati su 100% BESPLATNI i pokreću se u vašem pregledaču za potpunu privatnost",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF u PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertuj PDF u PNG i preuzmi svaku stranicu kao sliku",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF u JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertuj PDF u JPEG i preuzmi svaku stranicu kao sliku",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Spoji PDF-ove",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF fajlova u jedan sa samo nekoliko klikova"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Koristite 1-klik AI bilo gde (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najbrži način za korišćenje AI bilo gde: AI chat, pisanje, provera gramatike, objašnjenje, rezime, pretraga, upravljanje zadacima i još mnogo toga."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Kliknite da biste otpremili ili prevukli",
-    "components_to_img_detail_select_all": "Izaberite sve",
-    "components_to_img_detail_deselect_all": "Poništite izbor svih",
-    "components_to_img_detail_download_images": "Preuzmite slike",
-    "components_to_img_detail_remove_pdf": "Uklonite PDF",
-    "components_to_img_detail_cancel": "Otkaži",
-    "components_to_img_detail_normal_quality": "Normalan kvalitet",
-    "components_to_img_detail_high_quality": "Visok kvalitet",
-    "components_index_unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
-    "components_to_img_detail_view_pages": "Pogledaj stranice",
-    "components_to_img_detail_view_images": "Pogledaj slike",
-    "components_to_img_downloader_tip": "Molimo izaberite barem jednu sliku."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Kliknite da biste otpremili ili prevukli",
+    "components__to_image_detail__select_all": "Izaberite sve",
+    "components__to_image_detail__deselect_all": "Poništite izbor svih",
+    "components__to_image_detail__download_images": "Preuzmite slike",
+    "components__to_image_detail__remove_pdf": "Uklonite PDF",
+    "components__to_image_detail__cancel": "Otkaži",
+    "components__to_image_detail__normal_quality": "Normalan kvalitet",
+    "components__to_image_detail__high_quality": "Visok kvalitet",
+    "components__index__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
+    "components__to_image_detail__view_pages": "Pogledaj stranice",
+    "components__to_image_detail__view_images": "Pogledaj slike",
+    "components__to_image__downloader_tip": "Molimo izaberite barem jednu sliku.",
+    "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena"
   }
 }

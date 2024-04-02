@@ -351,14 +351,14 @@
     "contact_us__item3": "Atbalstiet mūs, novērtējot ★★★★★",
     "contact_us__item3__store": "Paplašinājumu veikalu",
     "contact_us__item4": "Palīdziet citiem, daloties ar šo paplašinājumu:",
-    "tool_box_index_page_title": "MaxAI Rīki",
-    "tool_box_index_page_description": "Visi PDF rīki ir 100% BEZMAKSAS un darbojas jūsu pārlūkprogrammā, nodrošinot pilnīgu privātumu",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF uz PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertēt PDF uz PNG un lejupielādēt katru lapu kā attēlu",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF uz JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertēt PDF uz JPEG un lejupielādēt katru lapu kā attēlu",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Apvienot PDF failus",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Apvieno vairākus PDF failus vienā ar tikai dažiem klikšķiem"
+    "tools__index_page__title": "MaxAI Rīki",
+    "tools__index_page__description": "Visi PDF rīki ir 100% BEZMAKSAS un darbojas jūsu pārlūkprogrammā, nodrošinot pilnīgu privātumu",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF uz PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertēt PDF uz PNG un lejupielādēt katru lapu kā attēlu",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF uz JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertēt PDF uz JPEG un lejupielādēt katru lapu kā attēlu",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Apvienot PDF failus",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Apvieno vairākus PDF failus vienā ar tikai dažiem klikšķiem"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Izmantojiet 1-Click AI jebkur (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Ātrākais veids, kā izmantot AI jebkur: AI tērzēšana, rakstīšana, gramatikas pārbaude, skaidrojumi, kopsavilkums, meklēšana, uzdevumu pārvaldība un vairāk."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Noklikšķiniet, lai augšupielādētu vai vilktu un nomestu",
-    "components_to_img_detail_select_all": "Izvēlēties visu",
-    "components_to_img_detail_deselect_all": "Noņemt atlasi",
-    "components_to_img_detail_download_images": "Lejupielādēt attēlus",
-    "components_to_img_detail_remove_pdf": "Noņemt PDF",
-    "components_to_img_detail_cancel": "Atcelt",
-    "components_to_img_detail_normal_quality": "Normāla kvalitāte",
-    "components_to_img_detail_high_quality": "Augsta kvalitāte",
-    "components_index_unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
-    "components_to_img_detail_view_pages": "Skatīt lapas",
-    "components_to_img_detail_view_images": "Skatīt attēlus",
-    "components_to_img_downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Noklikšķiniet, lai augšupielādētu vai vilktu un nomestu",
+    "components__to_image_detail__select_all": "Izvēlēties visu",
+    "components__to_image_detail__deselect_all": "Noņemt atlasi",
+    "components__to_image_detail__download_images": "Lejupielādēt attēlus",
+    "components__to_image_detail__remove_pdf": "Noņemt PDF",
+    "components__to_image_detail__cancel": "Atcelt",
+    "components__to_image_detail__normal_quality": "Normāla kvalitāte",
+    "components__to_image_detail__high_quality": "Augsta kvalitāte",
+    "components__index__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
+    "components__to_image_detail__view_pages": "Skatīt lapas",
+    "components__to_image_detail__view_images": "Skatīt attēlus",
+    "components__to_image__downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu.",
+    "components__to_image_detail__not_found_images": "PDF attēls nav atrasts"
   }
 }

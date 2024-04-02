@@ -351,14 +351,14 @@
     "contact_us__item3": "Støtt oss ved å gi ★★★★★ vurdering på",
     "contact_us__item3__store": "Utvidelsesnettbutikk",
     "contact_us__item4": "Hjelp andre ved å dele denne utvidelsen:",
-    "tool_box_index_page_title": "MaxAI Verktøy",
-    "tool_box_index_page_description": "Alle PDF-verktøy er 100% GRATIS og kjører i nettleseren din for fullstendig personvern",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF til PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konverter PDF til PNG og last ned hver side som et bilde",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF til JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konverter PDF til JPEG og last ned hver side som et bilde",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Slå sammen PDF-filer",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Slå sammen flere PDF-filer til én med bare noen få klikk"
+    "tools__index_page__title": "MaxAI Verktøy",
+    "tools__index_page__description": "Alle PDF-verktøy er 100% GRATIS og kjører i nettleseren din for fullstendig personvern",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konverter PDF til PNG og last ned hver side som et bilde",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konverter PDF til JPEG og last ned hver side som et bilde",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Slå sammen PDF-filer",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -566,17 +566,19 @@
     "default__title": "MaxAI.me: Bruk AI med 1 klikk hvor som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Den raskeste måten å bruke AI hvor som helst: AI-chat, skriving, grammatikk sjekk, forklaring, oppsummering, søk, håndtering av forslag og mer."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klikk for å laste opp eller dra og slipp",
-    "components_to_img_detail_select_all": "Velg alle",
-    "components_to_img_detail_deselect_all": "Opphev valg av alle",
-    "components_to_img_detail_download_images": "Last ned bilder",
-    "components_to_img_detail_remove_pdf": "Fjern PDF",
-    "components_to_img_detail_cancel": "Avbryt",
-    "components_to_img_detail_normal_quality": "Normal kvalitet",
-    "components_to_img_detail_high_quality": "Høy kvalitet",
-    "components_index_unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
-    "components_to_img_detail_view_pages": "Vis sider",
-    "components_to_img_detail_view_images": "Vis bilder"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klikk for å laste opp eller dra og slipp",
+    "components__to_image_detail__select_all": "Velg alle",
+    "components__to_image_detail__deselect_all": "Opphev valg av alle",
+    "components__to_image_detail__download_images": "Last ned bilder",
+    "components__to_image_detail__remove_pdf": "Fjern PDF",
+    "components__to_image_detail__cancel": "Avbryt",
+    "components__to_image_detail__normal_quality": "Normal kvalitet",
+    "components__to_image_detail__high_quality": "Høy kvalitet",
+    "components__index__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
+    "components__to_image_detail__view_pages": "Vis sider",
+    "components__to_image_detail__view_images": "Vis bilder",
+    "components__to_image__downloader_tip": "Vennligst velg minst ett bilde.",
+    "components__to_image_detail__not_found_images": "Finner ikke PDF-bilde"
   }
 }

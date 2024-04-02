@@ -351,14 +351,14 @@
     "contact_us__item3": "Susțineți-ne prin acordarea a ★★★★★ pe",
     "contact_us__item3__store": "Magazinul web al extensiei",
     "contact_us__item4": "Ajutați-i pe alții distribuind această extensie:",
-    "tool_box_index_page_title": "Instrumente MaxAI",
-    "tool_box_index_page_description": "Toate instrumentele PDF sunt 100% GRATUITE și rulează în browserul tău pentru confidențialitate completă",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF în PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Convertește PDF în PNG și descarcă fiecare pagină ca imagine",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF în JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Unifică PDF-uri",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri"
+    "tools__index_page__title": "Instrumente MaxAI",
+    "tools__index_page__description": "Toate instrumentele PDF sunt 100% GRATUITE și rulează în browserul tău pentru confidențialitate completă",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF în PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Convertește PDF în PNG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF în JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Unifică PDF-uri",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -566,17 +566,19 @@
     "default__title": "MaxAI.me: Utilizați AI cu un singur clic oriunde (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cel mai rapid mod de a utiliza AI oriunde: chat AI, scriere, verificare gramaticală, explicații, rezumat, căutare, gestionarea prompt-urilor și multe altele."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Apăsați pentru a încărca sau trageți și plasați",
-    "components_to_img_detail_select_all": "Selectați tot",
-    "components_to_img_detail_deselect_all": "Deselectați tot",
-    "components_to_img_detail_download_images": "Descărcați imagini",
-    "components_to_img_detail_remove_pdf": "Eliminați PDF",
-    "components_to_img_detail_cancel": "Anulați",
-    "components_to_img_detail_normal_quality": "Calitate normală",
-    "components_to_img_detail_high_quality": "Calitate înaltă",
-    "components_index_unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
-    "components_to_img_detail_view_pages": "Vizualizați paginile",
-    "components_to_img_detail_view_images": "Vizualizați imaginile"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Apăsați pentru a încărca sau trageți și plasați",
+    "components__to_image_detail__select_all": "Selectați tot",
+    "components__to_image_detail__deselect_all": "Deselectați tot",
+    "components__to_image_detail__download_images": "Descărcați imagini",
+    "components__to_image_detail__remove_pdf": "Eliminați PDF",
+    "components__to_image_detail__cancel": "Anulați",
+    "components__to_image_detail__normal_quality": "Calitate normală",
+    "components__to_image_detail__high_quality": "Calitate înaltă",
+    "components__index__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__to_image_detail__view_pages": "Vizualizați paginile",
+    "components__to_image_detail__view_images": "Vizualizați imaginile",
+    "components__to_image__downloader_tip": "Vă rugăm să selectați cel puțin o imagine.",
+    "components__to_image_detail__not_found_images": "Imagine PDF negăsită"
   }
 }

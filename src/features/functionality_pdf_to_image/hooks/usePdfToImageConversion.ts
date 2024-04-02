@@ -9,7 +9,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 export interface IPdfPageImageInfo {
   id: string;
-  imgString: string;
+  imageUrlString: string;
   isSelect: boolean;
   definedIndex: number;
 }
@@ -22,13 +22,13 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
   const [convertedPdfImages, setConvertedPdfImages] = useState<
     IPdfPageImageInfo[]
   >([]);
-  const [pdfPageHaveImgs, setPdfPageHaveImgs] = useState<IPdfPageImageInfo[]>(
-    [],
-  );
-  const [pdfIsLoad, setPdfIsLoad] = useState<boolean>(true); //是否加载中
+  const [pdfPageHaveImages, setPdfPageHaveImages] = useState<
+    IPdfPageImageInfo[]
+  >([]);
+  const [pdfIsLoading, setPdfIsLoading] = useState<boolean>(true); //是否加载中
 
-  const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数/总下载页书
-  const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数/当前下载页书进度
+  const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数
+  const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数
   const [pdfViewDefaultSize, setPdfViewDefaultSize] = useState<{
     width: number;
     height: number;
@@ -97,11 +97,11 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
             reader.readAsDataURL(blob);
             reader.onloadend = () => {
               const base64Data = reader.result?.toString() || '';
-              setPdfPageHaveImgs((prev) => [
+              setPdfPageHaveImages((prev) => [
                 ...prev,
                 {
                   id: uuidV4(),
-                  imgString: base64Data,
+                  imageUrlString: base64Data,
                   isSelect: true,
                   definedIndex: 1,
                 },
@@ -123,7 +123,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
     }
     isCancel.current = false;
 
-    setPdfIsLoad(true);
+    setPdfIsLoading(true);
     const buff = await file.arrayBuffer(); // Uint8Array
     const pdfDoc = await pdfjs.getDocument(buff).promise;
     setPdfTotalPages(pdfDoc._pdfInfo.numPages);
@@ -140,7 +140,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
           ...prev,
           {
             id: uuidV4(),
-            imgString: toImageData.imageDataUrl,
+            imageUrlString: toImageData.imageDataUrl,
             isSelect: true,
             definedIndex: pageNum,
           },
@@ -148,7 +148,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
       }
 
       if (pageNum === pdfDoc._pdfInfo.numPages) {
-        setPdfIsLoad(false);
+        setPdfIsLoading(false);
       }
     }
   }, 200);
@@ -158,20 +158,20 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
    */
   const onCancelPdfActive = () => {
     isCancel.current = true;
-    setPdfIsLoad(false);
+    setPdfIsLoading(false);
   };
 
   return {
-    pdfPageHaveImgs,
+    pdfPageHaveImages,
     convertedPdfImages,
     setConvertedPdfImages,
-    pdfIsLoad,
+    pdfIsLoading,
     onReadPdfToImages,
     pdfTotalPages,
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
-    setPdfPageHaveImgs,
+    setPdfPageHaveImages,
   };
 };
 

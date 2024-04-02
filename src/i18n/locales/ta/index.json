@@ -351,14 +351,14 @@
     "contact_us__item3": "மதிப்பீட்டை ★★★★★ ஆக மதிப்பிடுங்கள்",
     "contact_us__item3__store": "நீட்டிப்பு வலைப்பக்கம்",
     "contact_us__item4": "இந்த நீட்டிப்பை பகிர்ந்து உதவுங்கள்:",
-    "tool_box_index_page_title": "மிக்சை கருவிகள்",
-    "tool_box_index_page_description": "அனைத்து PDF கருவிகளும் 100% இலவசமாக உள்ளன மற்றும் முழுதும் தனியுரிமைக்கு உள்ள உலாவியில் இயங்குகின்றன",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF முதல் PNG க்கு",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ஐ PNG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF முதல் JPEG க்கு",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ஐ JPEG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "பி.டி.எப்ஸ் ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "கிளிக்குகள் மட்டுமே பல பி.டி.எப்ஸ் கோப்புகளை ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க"
+    "tools__index_page__title": "மிக்சை கருவிகள்",
+    "tools__index_page__description": "அனைத்து PDF கருவிகளும் 100% இலவசமாக உள்ளன மற்றும் முழுதும் தனியுரிமைக்கு உள்ள உலாவியில் இயங்குகின்றன",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF முதல் PNG க்கு",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ஐ PNG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF முதல் JPEG க்கு",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ஐ JPEG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
+    "tools__index_page__constant_obj__merge_pdfs__title": "பி.டி.எப்ஸ் ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
+    "tools__index_page__constant_obj__merge_pdfs__description": "கிளிக்குகள் மட்டுமே பல பி.டி.எப்ஸ் கோப்புகளை ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: ஒரு கிளிக்கு ஏஐ எங்கேயும் பயன்படுத்துங்கள் (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "ஏற்கனவே ஏஐ சந்திப்பு, எழுத்து, இழுத்தல் சரிபார்ப்பு, விளக்கம், சுருக்கம், தேடல், உத்தரவரிக்கை மேலாண்மை மற்றும் மேலும் பயன்படுத்த விரைவான வழி."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",
-    "components_to_img_detail_select_all": "அனைத்தையும் தேர்ந்தெடு",
-    "components_to_img_detail_deselect_all": "அனைத்தையும் தேர்ந்தெடுக்காதீர்கள்",
-    "components_to_img_detail_download_images": "படங்களைப் பதிவிறக்கு",
-    "components_to_img_detail_remove_pdf": "PDF ஐ அகற்று",
-    "components_to_img_detail_cancel": "ரத்துசெய்",
-    "components_to_img_detail_normal_quality": "சாதாரண தரம்",
-    "components_to_img_detail_high_quality": "உயர் தரம்",
-    "components_index_unsupported_file_type_tip": "தயவுசெய்து குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக",
-    "components_to_img_detail_view_pages": "பக்கங்களைக் காண்பி",
-    "components_to_img_detail_view_images": "படங்களைக் காண்பி",
-    "components_to_img_downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",
+    "components__to_image_detail__select_all": "அனைத்தையும் தேர்ந்தெடு",
+    "components__to_image_detail__deselect_all": "அனைத்தையும் தேர்ந்தெடுக்காதீர்கள்",
+    "components__to_image_detail__download_images": "படங்களைப் பதிவிறக்கு",
+    "components__to_image_detail__remove_pdf": "PDF ஐ அகற்று",
+    "components__to_image_detail__cancel": "ரத்துசெய்",
+    "components__to_image_detail__normal_quality": "சாதாரண தரம்",
+    "components__to_image_detail__high_quality": "உயர் தரம்",
+    "components__index__unsupported_file_type_tip": "தயவுசெய்து குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக",
+    "components__to_image_detail__view_pages": "பக்கங்களைக் காண்பி",
+    "components__to_image_detail__view_images": "படங்களைக் காண்பி",
+    "components__to_image__downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்.",
+    "components__to_image_detail__not_found_images": "பி.டி.எஃப் படம் காணப்படவில்லை"
   }
 }

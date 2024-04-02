@@ -351,14 +351,14 @@
     "contact_us__item3": "Hỗ trợ chúng tôi bằng cách đánh giá ★★★★★ trên",
     "contact_us__item3__store": "Cửa hàng tiện ích mở rộng",
     "contact_us__item4": "Giúp đỡ người khác bằng cách chia sẻ tiện ích này:",
-    "tool_box_index_page_title": "Công cụ MaxAI",
-    "tool_box_index_page_description": "Tất cả các công cụ PDF đều MIỄN PHÍ 100% và chạy trên trình duyệt của bạn để bảo mật hoàn toàn",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF sang PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Chuyển đổi PDF sang PNG và tải xuống từng trang dưới dạng hình ảnh",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF sang JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Gộp PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột"
+    "tools__index_page__title": "Công cụ MaxAI",
+    "tools__index_page__description": "Tất cả các công cụ PDF đều MIỄN PHÍ 100% và chạy trên trình duyệt của bạn để bảo mật hoàn toàn",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF sang PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Chuyển đổi PDF sang PNG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF sang JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Gộp PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Sử dụng AI chỉ với 1 cú nhấp (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cách nhanh nhất để sử dụng AI bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn thế nữa."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Nhấp để tải lên hoặc kéo và thả",
-    "components_to_img_detail_select_all": "Chọn tất cả",
-    "components_to_img_detail_deselect_all": "Bỏ chọn tất cả",
-    "components_to_img_detail_download_images": "Tải xuống hình ảnh",
-    "components_to_img_detail_remove_pdf": "Xóa PDF",
-    "components_to_img_detail_cancel": "Hủy",
-    "components_to_img_detail_normal_quality": "Chất lượng bình thường",
-    "components_to_img_detail_high_quality": "Chất lượng cao",
-    "components_index_unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
-    "components_to_img_detail_view_pages": "Xem trang",
-    "components_to_img_detail_view_images": "Xem hình ảnh",
-    "components_to_img_downloader_tip": "Vui lòng chọn ít nhất một hình ảnh."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",
+    "components__to_image_detail__select_all": "Chọn tất cả",
+    "components__to_image_detail__deselect_all": "Bỏ chọn tất cả",
+    "components__to_image_detail__download_images": "Tải xuống hình ảnh",
+    "components__to_image_detail__remove_pdf": "Xóa PDF",
+    "components__to_image_detail__cancel": "Hủy",
+    "components__to_image_detail__normal_quality": "Chất lượng bình thường",
+    "components__to_image_detail__high_quality": "Chất lượng cao",
+    "components__index__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
+    "components__to_image_detail__view_pages": "Xem trang",
+    "components__to_image_detail__view_images": "Xem hình ảnh",
+    "components__to_image__downloader_tip": "Vui lòng chọn ít nhất một hình ảnh.",
+    "components__to_image_detail__not_found_images": "Không tìm thấy hình ảnh PDF"
   }
 }

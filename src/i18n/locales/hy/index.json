@@ -351,14 +351,14 @@
     "contact_us__item3": "Սպասարկեք մեզ, վաստակեք ★★★★★ գնահատականով",
     "contact_us__item3__store": "Երթուղիների վեբ խանութ",
     "contact_us__item4": "Օթեւսը համատեք այս ընդգրկումը՝",
-    "tool_box_index_page_title": "MaxAI Գործիքներ",
-    "tool_box_index_page_description": "Բոլոր PDF գործիքները 100% անվճար են և աշխատում են ձեր զննարկիչում ամբողջական գաղտնիքով",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF-ից PNG-ի",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "վերափոխեք PDF-ը PNG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF-ից JPEG-ի",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "վերափոխեք PDF-ը JPEG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Միացնել PDF-երը",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում"
+    "tools__index_page__title": "MaxAI Գործիքներ",
+    "tools__index_page__description": "Բոլոր PDF գործիքները 100% անվճար են և աշխատում են ձեր զննարկիչում ամբողջական գաղտնիքով",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF-ից PNG-ի",
+    "tools__index_page__constant_obj__pdf_to_png__description": "վերափոխեք PDF-ը PNG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF-ից JPEG-ի",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "վերափոխեք PDF-ը JPEG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Միացնել PDF-երը",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Օգտագործեք 1-կլիկի AI ամենավերջինը (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Արագաբանական եղանակով օգտագործեք AI-ն ամենտային վայրում: AI խոսք, գրադարան, ճանապարհային ստուգում, բացատրություն, ամփոփում, որոնում, խորագրության կառավարում և այլն:"
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Սեղմեք վերբեռնելու համար կամ տեղադրեք",
-    "components_to_img_detail_select_all": "Ընտրել բոլորը",
-    "components_to_img_detail_deselect_all": "Հանել ընտրվածները",
-    "components_to_img_detail_download_images": "Ներբեռնել պատկերները",
-    "components_to_img_detail_remove_pdf": "Ջնջել PDF-ը",
-    "components_to_img_detail_cancel": "Չեղարկել",
-    "components_to_img_detail_normal_quality": "Նորմալ որակ",
-    "components_to_img_detail_high_quality": "Բարձր որակ",
-    "components_index_unsupported_file_type_tip": "Խնդրում ենք բեռնել նշված PDF ֆայլի տեսակին",
-    "components_to_img_detail_view_pages": "Դիտել էջերը",
-    "components_to_img_detail_view_images": "Դիտել պատկերները",
-    "components_to_img_downloader_tip": "Խնդրում ենք ընտրել առավելագույնը մեկ պատկեր։"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Սեղմեք վերբեռնելու համար կամ տեղադրեք",
+    "components__to_image_detail__select_all": "Ընտրել բոլորը",
+    "components__to_image_detail__deselect_all": "Հանել ընտրվածները",
+    "components__to_image_detail__download_images": "Ներբեռնել պատկերները",
+    "components__to_image_detail__remove_pdf": "Ջնջել PDF-ը",
+    "components__to_image_detail__cancel": "Չեղարկել",
+    "components__to_image_detail__normal_quality": "Նորմալ որակ",
+    "components__to_image_detail__high_quality": "Բարձր որակ",
+    "components__index__unsupported_file_type_tip": "Խնդրում ենք բեռնել նշված PDF ֆայլի տեսակին",
+    "components__to_image_detail__view_pages": "Դիտել էջերը",
+    "components__to_image_detail__view_images": "Դիտել պատկերները",
+    "components__to_image__downloader_tip": "Խնդրում ենք ընտրել առավելագույնը մեկ պատկեր։",
+    "components__to_image_detail__not_found_images": "Նկարը չի գտնվել PDF-ում"
   }
 }

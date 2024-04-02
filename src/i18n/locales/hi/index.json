@@ -351,14 +351,14 @@
     "contact_us__item3": "हमें ★★★★★ रेटिंग देकर हमारा समर्थन करें",
     "contact_us__item3__store": "एक्सटेंशन वेब स्टोर",
     "contact_us__item4": "इस एक्सटेंशन को साझा करके अन्य लोगों की मदद करें:",
-    "tool_box_index_page_title": "मैक्सएआई टूल्स",
-    "tool_box_index_page_description": "सभी पीडीएफ उपकरण 100% मुफ्त हैं और पूर्ण गोपनीयता के लिए आपके ब्राउज़र में चलते हैं",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF से PNG में बदलें",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से PNG में बदलें और डाउनलोड करें",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF से JPEG में बदलें",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से JPEG में बदलें और डाउनलोड करें",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "पीडीएफ़ जोड़ें",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "कुछ ही क्लिक के साथ कई पीडीएफ़ फ़ाइलों को एक में जोड़ें"
+    "tools__index_page__title": "मैक्सएआई टूल्स",
+    "tools__index_page__description": "सभी पीडीएफ उपकरण 100% मुफ्त हैं और पूर्ण गोपनीयता के लिए आपके ब्राउज़र में चलते हैं",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF से PNG में बदलें",
+    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से PNG में बदलें और डाउनलोड करें",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF से JPEG में बदलें",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से JPEG में बदलें और डाउनलोड करें",
+    "tools__index_page__constant_obj__merge_pdfs__title": "पीडीएफ़ जोड़ें",
+    "tools__index_page__constant_obj__merge_pdfs__description": "कुछ ही क्लिक के साथ कई पीडीएफ़ फ़ाइलों को एक में जोड़ें"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: कहीं भी 1-क्लिक AI का उपयोग करें (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI का उपयोग करने का सबसे तेज़ तरीका: AI चैट, लेखन, व्याकरण जांच, स्पष्टीकरण, सारांश, खोज, प्रॉम्प्ट प्रबंधन, और अधिक।"
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "अपलोड करने के लिए क्लिक करें या खींचें और छोड़ें",
-    "components_index_unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
-    "components_to_img_detail_select_all": "सभी का चयन करें",
-    "components_to_img_detail_deselect_all": "सभी का चयन हटाएं",
-    "components_to_img_detail_download_images": "छवियाँ डाउनलोड करें",
-    "components_to_img_detail_remove_pdf": "पीडीएफ हटाएं",
-    "components_to_img_detail_cancel": "रद्द करें",
-    "components_to_img_detail_normal_quality": "सामान्य गुणवत्ता",
-    "components_to_img_detail_high_quality": "उच्च गुणवत्ता",
-    "components_to_img_detail_view_pages": "पृष्ठ देखें",
-    "components_to_img_detail_view_images": "तस्वीरें देखें",
-    "components_to_img_downloader_tip": "कृपया कम से कम एक छवि का चयन करें।"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "अपलोड करने के लिए क्लिक करें या खींचें और छोड़ें",
+    "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
+    "components__to_image_detail__select_all": "सभी का चयन करें",
+    "components__to_image_detail__deselect_all": "सभी का चयन हटाएं",
+    "components__to_image_detail__download_images": "छवियाँ डाउनलोड करें",
+    "components__to_image_detail__remove_pdf": "पीडीएफ हटाएं",
+    "components__to_image_detail__cancel": "रद्द करें",
+    "components__to_image_detail__normal_quality": "सामान्य गुणवत्ता",
+    "components__to_image_detail__high_quality": "उच्च गुणवत्ता",
+    "components__to_image_detail__view_pages": "पृष्ठ देखें",
+    "components__to_image_detail__view_images": "तस्वीरें देखें",
+    "components__to_image__downloader_tip": "कृपया कम से कम एक छवि का चयन करें।",
+    "components__to_image_detail__not_found_images": "PDF छवि नहीं मिली"
   }
 }

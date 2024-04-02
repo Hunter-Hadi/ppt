@@ -1,13 +1,9 @@
-import { useRouter } from 'next/router';
 import { GetStaticPaths, GetStaticProps } from 'next/types';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ParsedUrlQuery } from 'querystring';
 
 import ToolsDetail from '@/page_components/ToolsPages/components/ToolsDetail';
-import {
-  IToolUrkKeyType,
-  toolsObjectData,
-} from '@/page_components/ToolsPages/constant';
+import { toolsObjectData } from '@/page_components/ToolsPages/constant';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const toolList = Object.keys(toolsObjectData).map((key) => key);
@@ -19,10 +15,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-const UrlKeyToolsDetail = () => {
-  const router = useRouter();
-  const { urlKey } = router.query as { urlKey: IToolUrkKeyType };
-
+const UrlKeyToolsDetail = ({ urlKey }) => {
   return <ToolsDetail urlKey={urlKey} />;
 };
 export default UrlKeyToolsDetail;

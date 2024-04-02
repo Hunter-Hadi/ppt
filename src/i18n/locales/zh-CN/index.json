@@ -337,14 +337,14 @@
     "contact_us__item3": "通过给我们评分 ★★★★★ 来支持我们：",
     "contact_us__item3__store": "扩展程序商店",
     "contact_us__item4": "通过分享此扩展来帮助他人：",
-    "tool_box_index_page_title": "MaxAI工具",
-    "tool_box_index_page_description": "所有PDF工具都是100%免费的，并在您的浏览器中运行，以获得完全的隐私。",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF转PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "将PDF转换为PNG，并下载每一页作为图像",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF转JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "将PDF转换为JPEG，并下载每一页作为图像",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "合并PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "只需点击几下，将多个PDF文件合并为一个"
+    "tools__index_page__title": "MaxAI工具",
+    "tools__index_page__description": "所有PDF工具都是100%免费的，并在您的浏览器中运行，以获得完全的隐私。",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF转PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "将PDF转换为PNG，并下载每一页作为图像",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF转JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "将PDF转换为JPEG，并下载每一页作为图像",
+    "tools__index_page__constant_obj__merge_pdfs__title": "合并PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "只需点击几下，将多个PDF文件合并为一个"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me：随处使用1-Click AI（ChatGPT，Claude，Gemini，Bard，Bing）",
     "default__description": "随时随地使用AI的最快方式：AI聊天，写作，语法检查，解释，摘要，搜索，提示管理等。"
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "点击上传或拖放",
-    "components_to_img_detail_select_all": "全选",
-    "components_to_img_detail_deselect_all": "取消全选",
-    "components_to_img_detail_download_images": "下载图片",
-    "components_to_img_detail_remove_pdf": "移除PDF",
-    "components_to_img_detail_cancel": "取消",
-    "components_to_img_detail_normal_quality": "普通质量",
-    "components_to_img_detail_high_quality": "高质量",
-    "components_index_unsupported_file_type_tip": "请上传指定的PDF文件类型",
-    "components_to_img_detail_view_pages": "查看页面",
-    "components_to_img_detail_view_images": "查看图片",
-    "components_to_img_downloader_tip": "请选择至少一张图片。"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "点击上传或拖放",
+    "components__to_image_detail__select_all": "全选",
+    "components__to_image_detail__deselect_all": "取消全选",
+    "components__to_image_detail__download_images": "下载图片",
+    "components__to_image_detail__remove_pdf": "移除PDF",
+    "components__to_image_detail__cancel": "取消",
+    "components__to_image_detail__normal_quality": "普通质量",
+    "components__to_image_detail__high_quality": "高质量",
+    "components__index__unsupported_file_type_tip": "请上传指定的PDF文件类型",
+    "components__to_image_detail__view_pages": "查看页面",
+    "components__to_image_detail__view_images": "查看图片",
+    "components__to_image__downloader_tip": "请选择至少一张图片。",
+    "components__to_image_detail__not_found_images": "未找到PDF图像"
   }
 }

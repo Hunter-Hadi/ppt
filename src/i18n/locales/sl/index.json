@@ -351,14 +351,14 @@
     "contact_us__item3": "Podprite nas z oceno ★★★★★ na",
     "contact_us__item3__store": "Razširitev spletnega trgovca",
     "contact_us__item4": "Pomagajte drugim tako, da delite to razširitev:",
-    "tool_box_index_page_title": "Orodja MaxAI",
-    "tool_box_index_page_description": "Vsi PDF orodja so 100% BREZPLAČNA in delujejo v vašem brskalniku za popolno zasebnost",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF v PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Pretvori PDF v PNG in prenesi vsako stran kot sliko",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF v JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Pretvori PDF v JPEG in prenesi vsako stran kot sliko",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Združi PDF-je",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Združite več PDF datotek v eno z le nekaj kliki"
+    "tools__index_page__title": "Orodja MaxAI",
+    "tools__index_page__description": "Vsi PDF orodja so 100% BREZPLAČNA in delujejo v vašem brskalniku za popolno zasebnost",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF v PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Pretvori PDF v PNG in prenesi vsako stran kot sliko",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF v JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Pretvori PDF v JPEG in prenesi vsako stran kot sliko",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Združi PDF-je",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Združite več PDF datotek v eno z le nekaj kliki"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Uporabite umetno inteligenco s samo 1 klikom (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najhitrejši način uporabe umetne inteligence kjerkoli: klepet z AI, pisanje, preverjanje slovnice, pojasnilo, povzetek, iskanje, upravljanje spodbud in še več."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Kliknite za nalaganje ali povlecite in spustite",
-    "components_to_img_detail_select_all": "Izberi vse",
-    "components_to_img_detail_deselect_all": "Odstrani izbor",
-    "components_to_img_detail_download_images": "Prenesi slike",
-    "components_to_img_detail_remove_pdf": "Odstrani PDF",
-    "components_to_img_detail_cancel": "Prekliči",
-    "components_to_img_detail_normal_quality": "Običajna kakovost",
-    "components_to_img_detail_high_quality": "Visoka kakovost",
-    "components_index_unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
-    "components_to_img_detail_view_pages": "Poglej strani",
-    "components_to_img_detail_view_images": "Poglej slike",
-    "components_to_img_downloader_tip": "Prosimo, izberite vsaj eno sliko."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Kliknite za nalaganje ali povlecite in spustite",
+    "components__to_image_detail__select_all": "Izberi vse",
+    "components__to_image_detail__deselect_all": "Odstrani izbor",
+    "components__to_image_detail__download_images": "Prenesi slike",
+    "components__to_image_detail__remove_pdf": "Odstrani PDF",
+    "components__to_image_detail__cancel": "Prekliči",
+    "components__to_image_detail__normal_quality": "Običajna kakovost",
+    "components__to_image_detail__high_quality": "Visoka kakovost",
+    "components__index__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
+    "components__to_image_detail__view_pages": "Poglej strani",
+    "components__to_image_detail__view_images": "Poglej slike",
+    "components__to_image__downloader_tip": "Prosimo, izberite vsaj eno sliko.",
+    "components__to_image_detail__not_found_images": "Slika PDF ni najdena"
   }
 }

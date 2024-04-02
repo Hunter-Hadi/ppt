@@ -351,14 +351,14 @@
     "contact_us__item3": "આપણે ★★★★★ રેટિંગ આપીને અમારી સહાય કરો",
     "contact_us__item3__store": "એક્સ્ટેન્શન વેબ સ્ટોર",
     "contact_us__item4": "આ એક્સ્ટેન્શન શેર કરીને અન્યોને મદદ કરો:",
-    "tool_box_index_page_title": "મેક્સએઆઈ ટૂલ્સ",
-    "tool_box_index_page_description": "બધા PDF સાધનો 100% મુક્ત છે અને તેઓ પૂરી રીતે ગોપનીયતાની માટે તમારા બ્રાઉઝરમાં ચલાવવામાં આવે છે",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF થી PNG માં",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ને PNG માં રૂપાંતરિત કરો અને દર પૃષ્ઠને એક છબિ તરીકે ડાઉનલોડ કરો",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF થી JPEG માં",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ને JPEG માં રૂપાંતરિત કરો અને દર પૃષ્ઠને એક છબિ તરીકે ડાઉનલોડ કરો",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "પીડીએફ મર્જ કરો",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "થોડા ક્લિક્સ સાથે અનેક પીડીએફ ફાઈલોને એકમાં મર્જ કરો"
+    "tools__index_page__title": "મેક્સએઆઈ ટૂલ્સ",
+    "tools__index_page__description": "બધા PDF સાધનો 100% મુક્ત છે અને તેઓ પૂરી રીતે ગોપનીયતાની માટે તમારા બ્રાઉઝરમાં ચલાવવામાં આવે છે",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF થી PNG માં",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ને PNG માં રૂપાંતરિત કરો અને દર પૃષ્ઠને એક છબિ તરીકે ડાઉનલોડ કરો",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF થી JPEG માં",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ને JPEG માં રૂપાંતરિત કરો અને દર પૃષ્ઠને એક છબિ તરીકે ડાઉનલોડ કરો",
+    "tools__index_page__constant_obj__merge_pdfs__title": "પીડીએફ મર્જ કરો",
+    "tools__index_page__constant_obj__merge_pdfs__description": "થોડા ક્લિક્સ સાથે અનેક પીડીએફ ફાઈલોને એકમાં મર્જ કરો"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: ક્લિક વાપરો એનીવેયર એઆઈ (ચેટજીપીટી, ક્લોડ, જેમિની, બાર્ડ, બિંગ)",
     "default__description": "એનીવેયર એઆઈનો સબસે ઝડપી તરીકે ઉપયોગ કરો: એઆઈ ચેટ, લેખન, વ્યાકરણ ચેક, સમજણ, સંક્ષેપણ, શોધ, પ્રોમ્પ્ટ વ્યવસ્થાપન અને વધુ."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "અપલોડ કરવા માટે ક્લિક કરો અથવા ખીંચો અને છોડો",
-    "components_to_img_detail_select_all": "બધા પસંદ કરો",
-    "components_to_img_detail_deselect_all": "બધા પસંદ રદ કરો",
-    "components_to_img_detail_download_images": "છબિઓ ડાઉનલોડ કરો",
-    "components_to_img_detail_remove_pdf": "PDF કાઢી નાંખો",
-    "components_to_img_detail_cancel": "રદ કરો",
-    "components_to_img_detail_normal_quality": "સામાન્ય ગુણવત્તા",
-    "components_to_img_detail_high_quality": "ઉચ્ચ ગુણવત્તા",
-    "components_index_unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
-    "components_to_img_detail_view_pages": "પૃષ્ઠો જુઓ",
-    "components_to_img_detail_view_images": "છબીઓ જુઓ",
-    "components_to_img_downloader_tip": "કૃપા કરીને ઓછામાં ઓછી એક ચિત્ર પસંદ કરો."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "અપલોડ કરવા માટે ક્લિક કરો અથવા ખીંચો અને છોડો",
+    "components__to_image_detail__select_all": "બધા પસંદ કરો",
+    "components__to_image_detail__deselect_all": "બધા પસંદ રદ કરો",
+    "components__to_image_detail__download_images": "છબિઓ ડાઉનલોડ કરો",
+    "components__to_image_detail__remove_pdf": "PDF કાઢી નાંખો",
+    "components__to_image_detail__cancel": "રદ કરો",
+    "components__to_image_detail__normal_quality": "સામાન્ય ગુણવત્તા",
+    "components__to_image_detail__high_quality": "ઉચ્ચ ગુણવત્તા",
+    "components__index__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
+    "components__to_image_detail__view_pages": "પૃષ્ઠો જુઓ",
+    "components__to_image_detail__view_images": "છબીઓ જુઓ",
+    "components__to_image__downloader_tip": "કૃપા કરીને ઓછામાં ઓછી એક ચિત્ર પસંદ કરો.",
+    "components__to_image_detail__not_found_images": "પીડીએફ છબી મળી નથી"
   }
 }

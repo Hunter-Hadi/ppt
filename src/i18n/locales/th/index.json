@@ -351,14 +351,14 @@
     "contact_us__item3": "สนับสนุนเราโดยการให้คะแนน ★★★★★ บน",
     "contact_us__item3__store": "ร้านค้าเว็บขยาย",
     "contact_us__item4": "ช่วยเหลือผู้อื่นโดยการแชร์ขยายนี้:",
-    "tool_box_index_page_title": "เครื่องมือ MaxAI",
-    "tool_box_index_page_description": "เครื่องมือ PDF ทั้งหมดเป็นฟรี 100% และทำงานในเบราว์เซอร์ของคุณเพื่อความเป็นส่วนตัวที่สมบูรณ์",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF เป็น PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "แปลง PDF เป็น PNG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF เป็น JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "แปลง PDF เป็น JPEG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "รวม PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก"
+    "tools__index_page__title": "เครื่องมือ MaxAI",
+    "tools__index_page__description": "เครื่องมือ PDF ทั้งหมดเป็นฟรี 100% และทำงานในเบราว์เซอร์ของคุณเพื่อความเป็นส่วนตัวที่สมบูรณ์",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF เป็น PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "แปลง PDF เป็น PNG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF เป็น JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "แปลง PDF เป็น JPEG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__merge_pdfs__title": "รวม PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: ใช้ AI ด้วยคลิกเดียวทุกที่ (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "วิธีที่รวดเร็วที่สุดในการใช้ AI ทุกที่: แชท AI, เขียน, ตรวจสอบไวยากรณ์, อธิบาย, สรุป, ค้นหา, การจัดการโปรโมต, และอื่น ๆ"
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",
-    "components_to_img_detail_select_all": "เลือกทั้งหมด",
-    "components_to_img_detail_deselect_all": "ไม่เลือกทั้งหมด",
-    "components_to_img_detail_download_images": "ดาวน์โหลดรูปภาพ",
-    "components_to_img_detail_remove_pdf": "ลบ PDF",
-    "components_to_img_detail_cancel": "ยกเลิก",
-    "components_to_img_detail_normal_quality": "คุณภาพปกติ",
-    "components_to_img_detail_high_quality": "คุณภาพสูง",
-    "components_index_unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
-    "components_to_img_detail_view_pages": "ดูหน้า",
-    "components_to_img_detail_view_images": "ดูรูปภาพ",
-    "components_to_img_downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",
+    "components__to_image_detail__select_all": "เลือกทั้งหมด",
+    "components__to_image_detail__deselect_all": "ไม่เลือกทั้งหมด",
+    "components__to_image_detail__download_images": "ดาวน์โหลดรูปภาพ",
+    "components__to_image_detail__remove_pdf": "ลบ PDF",
+    "components__to_image_detail__cancel": "ยกเลิก",
+    "components__to_image_detail__normal_quality": "คุณภาพปกติ",
+    "components__to_image_detail__high_quality": "คุณภาพสูง",
+    "components__index__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components__to_image_detail__view_pages": "ดูหน้า",
+    "components__to_image_detail__view_images": "ดูรูปภาพ",
+    "components__to_image__downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ",
+    "components__to_image_detail__not_found_images": "ไม่พบรูปภาพจาก PDF"
   }
 }

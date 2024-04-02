@@ -351,14 +351,14 @@
     "contact_us__item3": "ہمیں درجہ بندی ★★★★★ کر کے ہماری حمایت کریں",
     "contact_us__item3__store": "توسیع ویب اسٹور",
     "contact_us__item4": "اس توسیع کو شیئر کر کے دوسروں کی مدد کریں:",
-    "tool_box_index_page_title": "میکس اے آئی ٹولز",
-    "tool_box_index_page_description": "تمام پی ڈی ایف ٹولز 100٪ مفت ہیں اور آپ کے براؤزر میں چلتے ہیں تاکہ آپ کی مکمل رازداری محفوظ رہے",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF سے PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF کو PNG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF سے JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF کو JPEG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDFs کو مرکٹ کریں",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "متعدد پی ڈی ایف فائلوں کو صرف چند کلکس کے ساتھ ایک میں مرکٹ کریں"
+    "tools__index_page__title": "میکس اے آئی ٹولز",
+    "tools__index_page__description": "تمام پی ڈی ایف ٹولز 100٪ مفت ہیں اور آپ کے براؤزر میں چلتے ہیں تاکہ آپ کی مکمل رازداری محفوظ رہے",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF سے PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF کو PNG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF سے JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF کو JPEG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDFs کو مرکٹ کریں",
+    "tools__index_page__constant_obj__merge_pdfs__description": "متعدد پی ڈی ایف فائلوں کو صرف چند کلکس کے ساتھ ایک میں مرکٹ کریں"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: کہیں بھی 1-کلک AI استعمال کریں (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "AI کو کہیں بھی استعمال کرنے کا سب سے تیز طریقہ: AI چیٹ، لکھائی، گرامر چیک، وضاحت، خلاصہ، تلاش، پرومپٹ کی منتظمی، اور مزید."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "اپ لوڈ کرنے کے لئے کلک کریں یا ڈریگ اور ڈراپ کریں",
-    "components_to_img_detail_select_all": "سب کو منتخب کریں",
-    "components_to_img_detail_deselect_all": "سب کو غیر منتخب کریں",
-    "components_to_img_detail_download_images": "تصاویر ڈاؤن لوڈ کریں",
-    "components_to_img_detail_remove_pdf": "PDF ہٹائیں",
-    "components_to_img_detail_cancel": "منسوخ کریں",
-    "components_to_img_detail_normal_quality": "عام معیار",
-    "components_to_img_detail_high_quality": "اعلی معیار",
-    "components_index_unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کی اپ لوڈ کریں",
-    "components_to_img_detail_view_pages": "صفحات دیکھیں",
-    "components_to_img_detail_view_images": "تصاویر دیکھیں",
-    "components_to_img_downloader_tip": "براہ کرم کم از کم ایک تصویر منتخب کریں۔"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "اپ لوڈ کرنے کے لئے کلک کریں یا ڈریگ اور ڈراپ کریں",
+    "components__to_image_detail__select_all": "سب کو منتخب کریں",
+    "components__to_image_detail__deselect_all": "سب کو غیر منتخب کریں",
+    "components__to_image_detail__download_images": "تصاویر ڈاؤن لوڈ کریں",
+    "components__to_image_detail__remove_pdf": "PDF ہٹائیں",
+    "components__to_image_detail__cancel": "منسوخ کریں",
+    "components__to_image_detail__normal_quality": "عام معیار",
+    "components__to_image_detail__high_quality": "اعلی معیار",
+    "components__index__unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کی اپ لوڈ کریں",
+    "components__to_image_detail__view_pages": "صفحات دیکھیں",
+    "components__to_image_detail__view_images": "تصاویر دیکھیں",
+    "components__to_image__downloader_tip": "براہ کرم کم از کم ایک تصویر منتخب کریں۔",
+    "components__to_image_detail__not_found_images": "تصویر پی ڈی ایف نہیں مل سکی"
   }
 }

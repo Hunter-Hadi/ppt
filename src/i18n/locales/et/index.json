@@ -351,14 +351,14 @@
     "contact_us__item3": "Toetage meid hindega ★★★★★",
     "contact_us__item3__store": "Laienduse veebipood",
     "contact_us__item4": "Aidake teisi, jagades seda laiendust:",
-    "tool_box_index_page_title": "MaxAI Tööriistad",
-    "tool_box_index_page_description": "Kõik PDF tööriistad on 100% TASUTA ja töötavad sinu veebilehitsejas täieliku privaatsuse tagamiseks",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG-iks",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Teisenda PDF PNG-ks ja laadi iga leht pildina alla",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG-iks",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Teisenda PDF JPEG-iks ja laadi iga leht pildina alla",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Ühenda PDF-id",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga"
+    "tools__index_page__title": "MaxAI Tööriistad",
+    "tools__index_page__description": "Kõik PDF tööriistad on 100% TASUTA ja töötavad sinu veebilehitsejas täieliku privaatsuse tagamiseks",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-iks",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Teisenda PDF PNG-ks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-iks",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Teisenda PDF JPEG-iks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Ühenda PDF-id",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Kasutage 1-klõpsuga AI-d kõikjal (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Kõige kiirem viis kasutada AI-d kõikjal: AI vestlus, kirjutamine, grammatika kontroll, selgitus, kokkuvõte, otsing, ülesannete haldamine ja palju muud."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klõpsake üleslaadimiseks või lohistage",
-    "components_to_img_detail_select_all": "Vali kõik",
-    "components_to_img_detail_deselect_all": "Tühista valikud",
-    "components_to_img_detail_download_images": "Laadi pildid alla",
-    "components_to_img_detail_remove_pdf": "Eemalda PDF",
-    "components_to_img_detail_cancel": "Tühista",
-    "components_to_img_detail_normal_quality": "Tavaline kvaliteet",
-    "components_to_img_detail_high_quality": "Kõrge kvaliteet",
-    "components_index_unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
-    "components_to_img_detail_view_pages": "Vaata lehti",
-    "components_to_img_detail_view_images": "Vaata pilte",
-    "components_to_img_downloader_tip": "Palun valige vähemalt üks pilt."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klõpsake üleslaadimiseks või lohistage",
+    "components__to_image_detail__select_all": "Vali kõik",
+    "components__to_image_detail__deselect_all": "Tühista valikud",
+    "components__to_image_detail__download_images": "Laadi pildid alla",
+    "components__to_image_detail__remove_pdf": "Eemalda PDF",
+    "components__to_image_detail__cancel": "Tühista",
+    "components__to_image_detail__normal_quality": "Tavaline kvaliteet",
+    "components__to_image_detail__high_quality": "Kõrge kvaliteet",
+    "components__index__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
+    "components__to_image_detail__view_pages": "Vaata lehti",
+    "components__to_image_detail__view_images": "Vaata pilte",
+    "components__to_image__downloader_tip": "Palun valige vähemalt üks pilt.",
+    "components__to_image_detail__not_found_images": "PDF pilti ei leitud"
   }
 }

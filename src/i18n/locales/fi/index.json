@@ -351,14 +351,14 @@
     "contact_us__item3": "Tukeaksesi meitä, anna arvio ★★★★★",
     "contact_us__item3__store": "Laajennuksen verkkokaupassa",
     "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:",
-    "tool_box_index_page_title": "MaxAI Työkalut",
-    "tool_box_index_page_description": "Kaikki PDF-työkalut ovat 100% ILMAISIA ja toimivat selaimessasi täydellisen yksityisyyden varmistamiseksi",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Muunna PDF PNG:ksi ja lataa jokainen sivu kuvana",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Muunna PDF JPEG:ksi ja lataa jokainen sivu kuvana",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Yhdistä PDF-tiedostoja",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella"
+    "tools__index_page__title": "MaxAI Työkalut",
+    "tools__index_page__description": "Kaikki PDF-työkalut ovat 100% ILMAISIA ja toimivat selaimessasi täydellisen yksityisyyden varmistamiseksi",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Muunna PDF PNG:ksi ja lataa jokainen sivu kuvana",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Muunna PDF JPEG:ksi ja lataa jokainen sivu kuvana",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Yhdistä PDF-tiedostoja",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Käytä 1-Click AI missä tahansa (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Nopein tapa käyttää tekoälyä missä tahansa: AI-keskustelu, kirjoittaminen, kieliopintarkistus, selitys, yhteenveto, haku, aloitteen hallinta ja paljon muuta."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klikkaa ladataksesi tai raahaa ja pudota",
-    "components_to_img_detail_select_all": "Valitse kaikki",
-    "components_to_img_detail_deselect_all": "Poista valinta kaikista",
-    "components_to_img_detail_download_images": "Lataa kuvat",
-    "components_to_img_detail_remove_pdf": "Poista PDF",
-    "components_to_img_detail_cancel": "Peruuta",
-    "components_to_img_detail_normal_quality": "Normaali laatu",
-    "components_to_img_detail_high_quality": "Korkea laatu",
-    "components_index_unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
-    "components_to_img_detail_view_pages": "Näytä sivut",
-    "components_to_img_detail_view_images": "Näytä kuvat",
-    "components_to_img_downloader_tip": "Valitse vähintään yksi kuva."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klikkaa ladataksesi tai raahaa ja pudota",
+    "components__to_image_detail__select_all": "Valitse kaikki",
+    "components__to_image_detail__deselect_all": "Poista valinta kaikista",
+    "components__to_image_detail__download_images": "Lataa kuvat",
+    "components__to_image_detail__remove_pdf": "Poista PDF",
+    "components__to_image_detail__cancel": "Peruuta",
+    "components__to_image_detail__normal_quality": "Normaali laatu",
+    "components__to_image_detail__high_quality": "Korkea laatu",
+    "components__index__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__to_image_detail__view_pages": "Näytä sivut",
+    "components__to_image_detail__view_images": "Näytä kuvat",
+    "components__to_image__downloader_tip": "Valitse vähintään yksi kuva.",
+    "components__to_image_detail__not_found_images": "PDF-kuvaa ei löytynyt"
   }
 }

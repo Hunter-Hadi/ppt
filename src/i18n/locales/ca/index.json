@@ -351,14 +351,14 @@
     "contact_us__item3": "Donau suport valorant ★★★★★ a",
     "contact_us__item3__store": "Botiga d'extensions web",
     "contact_us__item4": "Ajuda altres compartint aquesta extensió:",
-    "tool_box_index_page_title": "Eines MaxAI",
-    "tool_box_index_page_description": "Totes les eines de PDF són 100% GRATUÏTES i s'executen al navegador per a una privadesa completa",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF a PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Converteix PDF a PNG i descarrega cada pàgina com a imatge",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF a JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteix PDF a JPEG i descarrega cada pàgina com a imatge",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Fusiona els PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Fusiona diversos fitxers PDF en un amb només uns quants clics"
+    "tools__index_page__title": "Eines MaxAI",
+    "tools__index_page__description": "Totes les eines de PDF són 100% GRATUÏTES i s'executen al navegador per a una privadesa completa",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF a PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Converteix PDF a PNG i descarrega cada pàgina com a imatge",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF a JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converteix PDF a JPEG i descarrega cada pàgina com a imatge",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Fusiona els PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Fusiona diversos fitxers PDF en un amb només uns quants clics"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Utilitza l'IA amb un sol clic a qualsevol lloc (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "La manera més ràpida d'utilitzar l'IA en qualsevol lloc: xat d'IA, escriptura, correcció gramatical, explicació, resum, cerca, gestió de suggeriments i més."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Feu clic per carregar o arrossegueu i deixeu anar",
-    "components_to_img_detail_select_all": "Selecciona-ho tot",
-    "components_to_img_detail_deselect_all": "Desselecciona-ho tot",
-    "components_to_img_detail_download_images": "Descarrega les imatges",
-    "components_to_img_detail_remove_pdf": "Elimina el PDF",
-    "components_to_img_detail_cancel": "Cancel·la",
-    "components_to_img_detail_normal_quality": "Qualitat normal",
-    "components_to_img_detail_high_quality": "Alta qualitat",
-    "components_index_unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat",
-    "components_to_img_detail_view_pages": "Veure pàgines",
-    "components_to_img_detail_view_images": "Veure imatges",
-    "components_to_img_downloader_tip": "Si us plau, seleccioneu almenys una imatge."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Feu clic per carregar o arrossegueu i deixeu anar",
+    "components__to_image_detail__select_all": "Selecciona-ho tot",
+    "components__to_image_detail__deselect_all": "Desselecciona-ho tot",
+    "components__to_image_detail__download_images": "Descarrega les imatges",
+    "components__to_image_detail__remove_pdf": "Elimina el PDF",
+    "components__to_image_detail__cancel": "Cancel·la",
+    "components__to_image_detail__normal_quality": "Qualitat normal",
+    "components__to_image_detail__high_quality": "Alta qualitat",
+    "components__index__unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat",
+    "components__to_image_detail__view_pages": "Veure pàgines",
+    "components__to_image_detail__view_images": "Veure imatges",
+    "components__to_image__downloader_tip": "Si us plau, seleccioneu almenys una imatge.",
+    "components__to_image_detail__not_found_images": "Imatge PDF no trobada"
   }
 }

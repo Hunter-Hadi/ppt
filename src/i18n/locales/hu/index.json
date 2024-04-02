@@ -351,14 +351,14 @@
     "contact_us__item3": "Támogass minket ★★★★★ értékeléssel a",
     "contact_us__item3__store": "Bővítmény webáruházban",
     "contact_us__item4": "Segíts másoknak ezzel a bővítménnyel való megosztással:",
-    "tool_box_index_page_title": "MaxAI Eszköztár",
-    "tool_box_index_page_description": "Minden PDF eszköz 100% INGYENES és a böngésződben fut, teljes adatvédelemmel",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG-ra",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF átalakítása PNG formátumba és minden oldal letöltése képként",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG-re",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF átalakítása JPEG formátumba és minden oldal letöltése képként",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF-ek egyesítése",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Több PDF fájl egyesítése néhány kattintással"
+    "tools__index_page__title": "MaxAI Eszköztár",
+    "tools__index_page__description": "Minden PDF eszköz 100% INGYENES és a böngésződben fut, teljes adatvédelemmel",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-ra",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF átalakítása PNG formátumba és minden oldal letöltése képként",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-re",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF átalakítása JPEG formátumba és minden oldal letöltése képként",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDF-ek egyesítése",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Használja az AI-t 1 kattintással bárhol (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Az AI bárhol történő használatának leggyorsabb módja: AI chat, írás, helyesírás-ellenőrzés, magyarázat, összefoglaló, keresés, prompt kezelés és még sok más."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Kattintson a feltöltéshez vagy húzza ide",
-    "components_to_img_detail_select_all": "Összes kiválasztása",
-    "components_to_img_detail_deselect_all": "Összes kijelölés megszüntetése",
-    "components_to_img_detail_download_images": "Képek letöltése",
-    "components_to_img_detail_remove_pdf": "PDF eltávolítása",
-    "components_to_img_detail_cancel": "Mégse",
-    "components_to_img_detail_normal_quality": "Normál minőség",
-    "components_to_img_detail_high_quality": "Magas minőség",
-    "components_index_unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
-    "components_to_img_detail_view_pages": "Oldalak megtekintése",
-    "components_to_img_detail_view_images": "Képek megtekintése",
-    "components_to_img_downloader_tip": "Kérjük, válasszon legalább egy képet."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Kattintson a feltöltéshez vagy húzza ide",
+    "components__to_image_detail__select_all": "Összes kiválasztása",
+    "components__to_image_detail__deselect_all": "Összes kijelölés megszüntetése",
+    "components__to_image_detail__download_images": "Képek letöltése",
+    "components__to_image_detail__remove_pdf": "PDF eltávolítása",
+    "components__to_image_detail__cancel": "Mégse",
+    "components__to_image_detail__normal_quality": "Normál minőség",
+    "components__to_image_detail__high_quality": "Magas minőség",
+    "components__index__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
+    "components__to_image_detail__view_pages": "Oldalak megtekintése",
+    "components__to_image_detail__view_images": "Képek megtekintése",
+    "components__to_image__downloader_tip": "Kérjük, válasszon legalább egy képet.",
+    "components__to_image_detail__not_found_images": "A PDF kép nem található"
   }
 }

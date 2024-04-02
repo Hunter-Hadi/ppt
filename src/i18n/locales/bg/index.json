@@ -351,14 +351,14 @@
     "contact_us__item3": "Подкрепете ни, като оцените ★★★★★ в",
     "contact_us__item3__store": "Уеб магазин за разширения",
     "contact_us__item4": "Помогнете на другите, като споделите това разширение:",
-    "tool_box_index_page_title": "Инструменти MaxAI",
-    "tool_box_index_page_description": "Всички PDF инструменти са напълно БЕЗПЛАТНИ и работят в браузъра ви за пълна поверителност",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF към PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Конвертирайте PDF в PNG и изтеглете всяка страница като изображение",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF към JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Конвертирайте PDF в JPEG и изтеглете всяка страница като изображение",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Обединяване на PDF файлове",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Обединете няколко PDF файла в един с няколко кликвания"
+    "tools__index_page__title": "Инструменти MaxAI",
+    "tools__index_page__description": "Всички PDF инструменти са напълно БЕЗПЛАТНИ и работят в браузъра ви за пълна поверителност",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF към PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Конвертирайте PDF в PNG и изтеглете всяка страница като изображение",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF към JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Конвертирайте PDF в JPEG и изтеглете всяка страница като изображение",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Обединяване на PDF файлове",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Обединете няколко PDF файла в един с няколко кликвания"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",
@@ -566,18 +566,19 @@
     "default__title": "MaxAI.me: Използвайте изкуствен интелект с едно щракване навсякъде (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Най-бързият начин да използвате изкуствения интелект навсякъде: чат с изкуствен интелект, писане, проверка на граматиката, обяснение, резюме, търсене, управление на подсказки и още."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Кликнете, за да качите или плъзнете и пуснете",
-    "components_to_img_detail_select_all": "Избери всички",
-    "components_to_img_detail_deselect_all": "Отмени избора на всички",
-    "components_to_img_detail_download_images": "Изтегли изображенията",
-    "components_to_img_detail_remove_pdf": "Премахни PDF",
-    "components_to_img_detail_cancel": "Отказ",
-    "components_to_img_detail_normal_quality": "Нормално качество",
-    "components_to_img_detail_high_quality": "Високо качество",
-    "components_index_unsupported_file_type_tip": "Моля, качете определения PDF файлов тип",
-    "components_to_img_detail_view_pages": "Преглед на страници",
-    "components_to_img_detail_view_images": "Преглед на изображения",
-    "components_to_img_downloader_tip": "Моля, изберете поне една снимка."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Кликнете, за да качите или плъзнете и пуснете",
+    "components__to_image_detail__select_all": "Избери всички",
+    "components__to_image_detail__deselect_all": "Отмени избора на всички",
+    "components__to_image_detail__download_images": "Изтегли изображенията",
+    "components__to_image_detail__remove_pdf": "Премахни PDF",
+    "components__to_image_detail__cancel": "Отказ",
+    "components__to_image_detail__normal_quality": "Нормално качество",
+    "components__to_image_detail__high_quality": "Високо качество",
+    "components__index__unsupported_file_type_tip": "Моля, качете определения PDF файлов тип",
+    "components__to_image_detail__view_pages": "Преглед на страници",
+    "components__to_image_detail__view_images": "Преглед на изображения",
+    "components__to_image__downloader_tip": "Моля, изберете поне една снимка.",
+    "components__to_image_detail__not_found_images": "Изображението от PDF не е намерено"
   }
 }
