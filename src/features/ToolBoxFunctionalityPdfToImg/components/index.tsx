@@ -3,7 +3,7 @@ import { FC, lazy, Suspense, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import UploadButton from '@/features/common/components/UploadButton';
-import ToolBoxIcon from '@/page_components/ToolBoxPages/components/ToolBoxIcon';
+import ToolBoxFunctionalityIcon from '@/features/ToolBoxFunctionalityPdfToImg/components/ToolBoxFunctionalityIcon';
 import snackNotifications from '@/utils/globalSnackbar';
 
 const ToolBoxFunctionalityPdfToImg = lazy(
@@ -78,7 +78,10 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
           onChange={onChangeFile}
           handleUnsupportedFileType={handleUnsupportedFileType}
         >
-          <ToolBoxIcon sx={{ fontSize: 35 }} name='CloudUploadIcon' />
+          <ToolBoxFunctionalityIcon
+            sx={{ fontSize: 35 }}
+            name='CloudUploadIcon'
+          />
           <Typography
             sx={{
               fontSize: {

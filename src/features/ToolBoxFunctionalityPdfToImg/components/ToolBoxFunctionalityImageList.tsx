@@ -6,6 +6,7 @@ import {
   Typography,
 } from '@mui/material';
 import { FC } from 'react';
+
 interface IToolBoxFunctionalityImageData {
   id: string;
   imgString: string;
@@ -17,6 +18,7 @@ interface IToolBoxFunctionalityImageList {
   isImgSelect: boolean;
   onClickImg: (image: IToolBoxFunctionalityImageData) => void;
 }
+
 const ToolBoxFunctionalityImageList: FC<IToolBoxFunctionalityImageList> = ({
   imageList,
   pageCols = 5,

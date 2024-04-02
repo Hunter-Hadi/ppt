@@ -2,14 +2,13 @@ import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import ToolBoxFunctionalityIcon from '@/features/ToolBoxFunctionalityPdfToImg/components/ToolBoxFunctionalityIcon';
+import ToolBoxFunctionalityImageList from '@/features/ToolBoxFunctionalityPdfToImg/components/ToolBoxFunctionalityImageList';
+import usePdfImagesDownloader from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfImagesDownloader';
 import usePdfToImageConversion, {
   IPdfPageImageInfo,
 } from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImageConversion';
-
-import usePdfImagesDownloader from '../hooks/usePdfImagesDownloader';
-import useSwitchIdSelect from '../hooks/useSwitchSelect';
-import ToolBoxFunctionalityIcon from './ToolBoxFunctionalityIcon';
-import ToolBoxFunctionalityImageList from './ToolBoxFunctionalityImageList';
+import useSwitchIdSelect from '@/features/ToolBoxFunctionalityPdfToImg/hooks/useSwitchSelect';
 
 interface IToolBoxFunctionalityPdfToImgProps {
   fileData: File;

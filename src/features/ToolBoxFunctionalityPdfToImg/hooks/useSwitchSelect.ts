@@ -3,6 +3,7 @@ interface ISwitchWithType {
   id: string;
   isSelect: boolean;
 }
+
 const useSwitchIdSelect = <T extends ISwitchWithType>(params: {
   setList: (method: (prev: T[]) => T[]) => void;
 }) => {

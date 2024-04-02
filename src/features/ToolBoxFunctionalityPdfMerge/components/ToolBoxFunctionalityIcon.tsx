@@ -1,6 +1,4 @@
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
-import ControlPointTwoToneIcon from '@mui/icons-material/ControlPointTwoTone';
-import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone';
 import { SxProps } from '@mui/material';
 import { FC } from 'react';
 interface IToolBoxIconProps {
@@ -12,12 +10,6 @@ const ToolBoxFunctionalityIcon: FC<{ name: string } & IToolBoxIconProps> = ({
 }) => {
   const renderIcon = () => {
     switch (name) {
-      case 'ControlPointTwoTone': {
-        return <ControlPointTwoToneIcon {...restProps} />;
-      }
-      case 'RemoveCircleTwoTone': {
-        return <RemoveCircleTwoToneIcon {...restProps} />;
-      }
       case 'CloudUploadIcon': {
         return <CloudUploadIcon {...restProps} />;
       }

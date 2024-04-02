@@ -3,10 +3,10 @@ import JSZip from 'jszip';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
+import { dataURLtoBlob } from '@/features/ToolBoxFunctionalityPdfToImg//utils/pdfTool';
+import { IPdfPageImageInfo } from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImageConversion';
 import snackNotifications from '@/utils/globalSnackbar';
 
-import { dataURLtoBlob } from '../utils/pdfTool';
-import { IPdfPageImageInfo } from './usePdfToImageConversion';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
