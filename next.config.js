@@ -34,7 +34,7 @@ const obfuscatorOptions = {
 };
 const nextConfig = {
   // i18n,
-  trailingSlash: true,
+  trailingSlash: false,
   reactStrictMode: true,
   images: {
     unoptimized: true,
