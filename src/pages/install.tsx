@@ -5,6 +5,7 @@ import React, { FC, useCallback, useLayoutEffect } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
 
 const InstallPage: FC = () => {
   const router = useRouter();
@@ -39,3 +40,6 @@ const InstallPage: FC = () => {
 };
 
 export default InstallPage;
+
+const getStaticProps = makeStaticProps();
+export { getStaticProps };

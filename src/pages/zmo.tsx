@@ -13,6 +13,7 @@ import React, {
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
+import { makeStaticProps } from '@/i18n/utils/staticHelper';
 import { APP_API } from '@/utils/api';
 import { webappPost } from '@/utils/request';
 //
@@ -130,3 +131,6 @@ const ZmoInstallPage: FC = () => {
 };
 
 export default ZmoInstallPage;
+
+const getStaticProps = makeStaticProps();
+export { getStaticProps };
