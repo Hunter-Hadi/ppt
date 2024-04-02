@@ -26,7 +26,6 @@ const PromptCard: FC<{
   prompt: IPromptCardData;
   onPromptClick?: (prompt: IPromptCardData) => void;
 }> = ({ active, prompt, onPromptClick }) => {
-  // href={`/prompts/${prompt.id}`}
   const router = useRouter();
   const query = router.query;
 
@@ -84,7 +83,7 @@ const PromptCard: FC<{
           <Tooltip title='View prompt details'>
             <IconButton
               size='small'
-              href={`/prompts/${prompt.id}`}
+              href={`/prompt/library/${prompt.id}`}
               onClick={(event) => {
                 event.stopPropagation();
               }}
@@ -208,7 +207,7 @@ const PromptCard: FC<{
         mt={'auto !important'}
       >
         <Button
-          href={`/prompts/${prompt.id}`}
+          href={`/prompt/library/${prompt.id}`}
           variant={'text'}
           color={'primary'}
           sx={{ fontWeight: 500, fontSize: 14 }}
