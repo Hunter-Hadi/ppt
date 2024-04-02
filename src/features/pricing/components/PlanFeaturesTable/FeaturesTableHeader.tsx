@@ -79,7 +79,7 @@ const FeaturesTableHeader: FC<IProps> = ({
             justifyContent='space-between'
             sx={{
               position: 'absolute',
-              top: isPopularColumn ? 1 : 0,
+              top: isPopularColumn && !inFixed ? 1 : 0,
               right: 0,
               width: 'max-content',
               borderBottomLeftRadius: '8px',
