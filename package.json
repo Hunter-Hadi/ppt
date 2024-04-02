@@ -9,7 +9,8 @@
     "serve": "serve out -p 3001",
     "lint": "next lint",
     "minify-js:embed-script": "esbuild scripts/embedScript.js --outdir=public/assets/js/ --allow-overwrite --bundle --minify --drop:debugger --drop:console ",
-    "create-page": "node scripts/createPages/index.mjs"
+    "create-page": "node scripts/createPages/index.mjs && node scripts/refreshSitemap.mjs",
+    "refresh-sitemap": "node scripts/refreshSitemap.mjs"
   },
   "dependencies": {
     "@babel/core": "^7.20.12",
