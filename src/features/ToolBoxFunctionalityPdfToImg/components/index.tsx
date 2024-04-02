@@ -20,9 +20,11 @@ interface IToolBoxDetailProps {
 const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
   const { t } = useTranslation();
 
-  const [fileList, setFileList] = useState<FileList | null>(null);
+  const [fileData, setFileData] = useState<File | null>(null);
   const onChangeFile = (fileList: FileList) => {
-    setFileList(fileList);
+    if (fileList?.length > 0) {
+      setFileData(fileList[0]);
+    }
   };
   const handleUnsupportedFileType = () => {
     snackNotifications.warning(
@@ -56,7 +58,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
         width: '100%',
       }}
     >
-      {!fileList && (
+      {!fileData && (
         <UploadButton
           buttonProps={{
             sx: {
@@ -91,12 +93,12 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
           </Typography>
         </UploadButton>
       )}
-      {fileList && fileList?.length > 0 && toImgType && (
+      {fileData && toImgType && (
         <Suspense fallback={<div>Loading...</div>}>
           <ToolBoxFunctionalityPdfToImg
-            fileList={fileList}
+            fileData={fileData}
             toType={toImgType}
-            onRemoveFile={() => setFileList(null)}
+            onRemoveFile={() => setFileData(null)}
           />
         </Suspense>
       )}

@@ -12,12 +12,12 @@ import ToolBoxFunctionalityIcon from './ToolBoxFunctionalityIcon';
 import ToolBoxFunctionalityImageList from './ToolBoxFunctionalityImageList';
 
 interface IToolBoxFunctionalityPdfToImgProps {
-  fileList: FileList;
+  fileData: File;
   toType: 'jpeg' | 'png';
   onRemoveFile?: () => void;
 }
 const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
-  fileList,
+  fileData,
   onRemoveFile,
   toType,
 }) => {
@@ -57,10 +57,10 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           : setPdfPageHaveImgs,
     });
   useEffect(() => {
-    if (fileList.length > 0) {
-      onReadPdfToImages(fileList[0]);
+    if (fileData) {
+      onReadPdfToImages(fileData);
     }
-  }, [fileList]);
+  }, [fileData]);
 
   useEffect(() => {
     // 初始化期间，将一行中显示的最大页数限制为6，最小为2，为1会太大
@@ -108,7 +108,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
       onDownloadPdfImagesZip(
         showImages,
         toType,
-        fileList[0],
+        fileData,
         selectDownloadSizeIndex === 0 ? undefined : 1.6 * maxSizeScaleNum,
       );
     } else {
