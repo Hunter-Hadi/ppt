@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: استفاده از هوش مصنوعی با 1 کلیک در هر جایی (ChatGPT، Claude، Gemini، Bard، Bing)",
-<<<<<<< HEAD
     "default__description": "سریعترین راه برای استفاده از هوش مصنوعی در هر جایی: چت با هوش مصنوعی، نوشتن، چک کردن دستور زبان، توضیح، خلاصه، جستجو، مدیریت پیشنهاد و غیره.",
     "maintain__title": "در دست تعمیر | MaxAI.me",
     "affiliate__title": "برنامه همکاری | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "بیشتر از این",
     "more_over_section__description__part1": "MaxAI.me بیش از یک ابزار ترجمه است - این افزونه مرورگر قدرتمند هوش مصنوعی شما است. با MaxAI.me، شما می توانید به یک مجموعه گسترده از ویژگی های مبتنی بر هوش مصنوعی در مرورگر خود، در هر وب سایتی که بازدید می کنید، دسترسی پیدا کنید.",
     "more_over_section__description__part2": "از کمک به نوشتن و خلاصه صفحات وب تا ChatPDF و نقاشی هوش مصنوعی، MaxAI.me شما را قادر می سازد تا با استفاده از پیشرفته ترین مدل های هوش مصنوعی از جمله ChatGPT، Claude و Gemini بخوانید، بنویسید و ایجاد کنید. تجربه مرورگر خود را ارتقا دهید و ظرفیت تولیدی خود را با MaxAI.me بهبود بخشید!"
-=======
-    "default__description": "سریعترین راه برای استفاده از هوش مصنوعی در هر جایی: چت با هوش مصنوعی، نوشتن، چک کردن دستور زبان، توضیح، خلاصه، جستجو، مدیریت پیشنهاد و غیره."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "برای بارگذاری کلیک کنید یا بکشید و رها کنید",
+    "components__index__upload_title": "برای آپلود کلیک کنید یا بکشید و رها کنید",
+    "components__index__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را آپلود کنید",
     "components__to_image_detail__select_all": "انتخاب همه",
     "components__to_image_detail__deselect_all": "عدم انتخاب همه",
     "components__to_image_detail__download_images": "دانلود تصاویر",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "لغو",
     "components__to_image_detail__normal_quality": "کیفیت عادی",
     "components__to_image_detail__high_quality": "کیفیت بالا",
-    "components__index__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__to_image_detail__view_pages": "مشاهده صفحات",
     "components__to_image_detail__view_images": "مشاهده تصاویر",
-    "components__to_image__downloader_tip": "لطفا حداقل یک تصویر را انتخاب کنید.",
+    "components__to_image__downloader_tip": "لطفاً حداقل یک تصویر را انتخاب کنید.",
     "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

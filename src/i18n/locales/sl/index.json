@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Uporabite umetno inteligenco s samo 1 klikom (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Najhitrejši način uporabe umetne inteligence kjerkoli: klepet z AI, pisanje, preverjanje slovnice, pojasnilo, povzetek, iskanje, upravljanje spodbud in še več.",
     "maintain__title": "V vzdrževanju | MaxAI.me",
     "affiliate__title": "Afiliacijski program | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "Več kot to",
     "more_over_section__description__part1": "MaxAI.me je več kot le orodje za prevajanje - je vaša vse-v-enem razširitev brskalnika, ki jo poganja AI. Z MaxAI.me lahko dostopate do širokega nabora funkcij, ki jih poganja AI, neposredno v svojem brskalniku na kateri koli obiskani spletni strani.",
     "more_over_section__description__part2": "Od pomoči pri pisanju in povzetku spletnih strani do ChatPDF in AI slikarstva, MaxAI.me vam omogoča branje, pisanje in ustvarjanje z uporabo najnaprednejših AI modelov, vključno s ChatGPT, Claude in Gemini. Nadgradite svojo izkušnjo brskanja in odklenite svoj potencial za produktivnost z MaxAI.me že danes!"
-=======
-    "default__description": "Najhitrejši način uporabe umetne inteligence kjerkoli: klepet z AI, pisanje, preverjanje slovnice, pojasnilo, povzetek, iskanje, upravljanje spodbud in še več."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Kliknite za nalaganje ali povlecite in spustite",
+    "components__index__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__to_image_detail__select_all": "Izberi vse",
     "components__to_image_detail__deselect_all": "Odstrani izbor",
     "components__to_image_detail__download_images": "Prenesi slike",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "Prekliči",
     "components__to_image_detail__normal_quality": "Običajna kakovost",
     "components__to_image_detail__high_quality": "Visoka kakovost",
-    "components__index__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
-    "components__to_image_detail__view_pages": "Poglej strani",
-    "components__to_image_detail__view_images": "Poglej slike",
+    "components__to_image_detail__view_pages": "Ogled strani",
+    "components__to_image_detail__view_images": "Ogled slik",
     "components__to_image__downloader_tip": "Prosimo, izberite vsaj eno sliko.",
     "components__to_image_detail__not_found_images": "Slika PDF ni najdena"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

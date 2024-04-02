@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Tumia AI kwa Bofya Moja Popote (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Njia ya haraka zaidi ya kutumia AI popote: mazungumzo ya AI, kuandika, ukaguzi wa sarufi, ufafanuzi, muhtasari, utafutaji, usimamizi wa maoni, na zaidi.",
     "maintain__title": "Katika matengenezo | MaxAI.me",
     "affiliate__title": "Programu ya Washirika | MaxAI.me",
@@ -630,23 +629,20 @@
     "more_over_section__title": "Zaidi ya Hayo",
     "more_over_section__description__part1": "MaxAI.me ni zaidi ya zana ya tafsiri - Ni nyongeza kamili ya kivinjari inayotumia AI. Kwa MaxAI.me, unaweza kupata huduma anuwai zinazotumiwa na AI moja kwa moja kwenye kivinjari chako, kwenye wavuti yoyote unayoitembelea.",
     "more_over_section__description__part2": "Kutoka kusaidia kuandika na muhtasari wa kurasa za wavuti hadi ChatPDF na uchoraji wa AI, MaxAI.me inakuwezesha kusoma, kuandika, na kuunda kwa msaada wa mifano ya AI ya hali ya juu, ikiwa ni pamoja na ChatGPT, Claude, na Gemini. Boresha uzoefu wako wa kuvinjari na fungua uwezo wako wa uzalishaji na MaxAI.me leo!"
-=======
-    "default__description": "Njia ya haraka zaidi ya kutumia AI popote: mazungumzo ya AI, kuandika, ukaguzi wa sarufi, ufafanuzi, muhtasari, utafutaji, usimamizi wa maoni, na zaidi."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Bonyeza ili kupakia au vuta na weka",
+    "components__index__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
     "components__to_image_detail__select_all": "Chagua Yote",
-    "components__to_image_detail__deselect_all": "Batilisha Uteuzi Wote",
-    "components__to_image_detail__download_images": "Pakua Picha",
+    "components__to_image_detail__deselect_all": "Batilisha Uchaguzi Wote",
+    "components__to_image_detail__download_images": "Pakua picha",
     "components__to_image_detail__remove_pdf": "Ondoa PDF",
     "components__to_image_detail__cancel": "Ghairi",
     "components__to_image_detail__normal_quality": "Ubora wa Kawaida",
     "components__to_image_detail__high_quality": "Ubora wa Juu",
-    "components__index__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
     "components__to_image_detail__view_pages": "Angalia kurasa",
     "components__to_image_detail__view_images": "Angalia picha",
     "components__to_image__downloader_tip": "Tafadhali chagua angalau picha moja.",
-    "components__to_image_detail__not_found_images": "Picha ya PDF haipatikani"
->>>>>>> feature-mini-tool-class-laizeping-20240327
+    "components__to_image_detail__not_found_images": "Hakuna picha ya PDF iliyopatikana"
   }
 }

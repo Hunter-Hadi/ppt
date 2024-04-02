@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: ಎಲ್ಲಿಯವರೆಗೂ 1-ಕ್ಲಿಕ್ ಯುಎಕ್ಸ್ ಬಳಸಿ AI (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "AI ಯಾವುದೇ ಸ್ಥಳದಲ್ಲಿಯೂ ಬಳಸುವ ಅತ್ಯಂತ ವೇಗವಾದ ಮಾರ್ಗ: AI ಚಾಟ್, ಬರವಣಿಗೆ, ವ್ಯಾಕರಣ ಪರಿಶೀಲನೆ, ವಿವರಣೆ, ಸಾರಾಂಶ, ಹುಡುಕು, ಪ್ರಾಂಪ್ಟ್ ನಿರ್ವಹಣೆ ಮತ್ತು ಇನ್ನಷ್ಟು.",
     "maintain__title": "ಮೆಂಟೆನ್ಯಾನ್ಸ್ ನಲ್ಲಿ | MaxAI.me",
     "affiliate__title": "ಅಫಿಲಿಯೇಟ್ ಪ್ರೋಗ್ರಾಮ್ | MaxAI.me",
@@ -630,23 +629,20 @@
     "more_over_section__title": "ಹೆಚ್ಚು ಮೇಲೆ",
     "more_over_section__description__part1": "MaxAI.me ಅನುವಾದ ಸಾಧನವಲ್ಲ – ಇದು ನಿಮ್ಮ ಒಂದು ಆಲ್‌ಇನ್-ಒನ್ ಏಐ ಬ್ರೌಸರ್ ವಿಸ್ತರಣೆ. MaxAI.me ನೊಂದಿಗೆ, ನೀವು ಭೇಟಿಯಾದ ಯಾವುದೇ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿಯೂ ನೀವು ಏನೇನು ಮಾಡಬೇಕೆಂದು ಆಲ್‌ಇನ್-ಒನ್ ಏಐ ಸೌಲಭ್ಯಗಳನ್ನು ಪಡೆಯಬಹುದು.",
     "more_over_section__description__part2": "ಬರವಣಿಗೆ ಸಹಾಯ, ವೆಬ್‌ಪೇಜ್ ಸಂಗ್ರಹಣೆ, ChatPDF ಮತ್ತು ಏಐ ಚಿತ್ರಕಲೆ ಹೀಗೆ ಅನೇಕ ಏಐ ಸೌಲಭ್ಯಗಳನ್ನು ಹೊಂದಿರಿ. ChatGPT, Claude ಮತ್ತು Gemini ಈ ಹೊಸದಾಗಿ ಬಂದ ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಸಹಾಯದಿಂದ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ, ನಿಮ್ಮ ಉತ್ಪಾದಕತೆಯ ಸಾಧ್ಯತೆಯನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ. MaxAI.me ನೊಂದಿಗೆ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ!"
-=======
-    "default__description": "AI ಯಾವುದೇ ಸ್ಥಳದಲ್ಲಿಯೂ ಬಳಸುವ ಅತ್ಯಂತ ವೇಗವಾದ ಮಾರ್ಗ: AI ಚಾಟ್, ಬರವಣಿಗೆ, ವ್ಯಾಕರಣ ಪರಿಶೀಲನೆ, ವಿವರಣೆ, ಸಾರಾಂಶ, ಹುಡುಕು, ಪ್ರಾಂಪ್ಟ್ ನಿರ್ವಹಣೆ ಮತ್ತು ಇನ್ನಷ್ಟು."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಎಳೆಯಿರಿ ಮತ್ತು ಬಿಡಿ",
+    "components__index__upload_title": "ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಹಾಕಿಕೊಳ್ಳಿ",
+    "components__index__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__to_image_detail__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
-    "components__to_image_detail__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದುಗೊಳಿಸಿ",
+    "components__to_image_detail__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದು ಮಾಡಿ",
     "components__to_image_detail__download_images": "ಚಿತ್ರಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-    "components__to_image_detail__remove_pdf": "PDF ತೆಗೆದುಹಾಕಿ",
-    "components__to_image_detail__cancel": "ರದ್ದುಗೊಳಿಸಿ",
+    "components__to_image_detail__remove_pdf": "ಪಿಡಿಎಫ್ ತೆಗೆದುಹಾಕಿ",
+    "components__to_image_detail__cancel": "ರದ್ದು ಮಾಡಿ",
     "components__to_image_detail__normal_quality": "ಸಾಮಾನ್ಯ ಗುಣಮಟ್ಟ",
     "components__to_image_detail__high_quality": "ಉಚ್ಚ ಗುಣಮಟ್ಟ",
-    "components__index__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__to_image_detail__view_pages": "ಪುಟಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
     "components__to_image_detail__view_images": "ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
-    "components__to_image__downloader_tip": "ದಯವಿಟ್ಟು ಕನಸು ಆಯ್ಕೆಮಾಡಿರುವ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-    "components__to_image_detail__not_found_images": "PDF ಚಿತ್ರ ಕಂಡುಬರಲಿಲ್ಲ"
->>>>>>> feature-mini-tool-class-laizeping-20240327
+    "components__to_image__downloader_tip": "ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
+    "components__to_image_detail__not_found_images": "ಪಿಡಿಎಫ್ ಚಿತ್ರ ಕಂಡುಬರಲಿಲ್ಲ"
   }
 }

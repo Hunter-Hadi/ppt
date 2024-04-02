@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Utilizza l'IA con un solo clic ovunque (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Il modo più veloce per utilizzare l'IA ovunque: chat IA, scrittura, controllo grammaticale, spiegazione, riassunto, ricerca, gestione degli input e altro ancora.",
     "maintain__title": "In manutenzione | MaxAI.me",
     "affiliate__title": "Programma di affiliazione | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "Di Più",
     "more_over_section__description__part1": "MaxAI.me è più di un semplice strumento di traduzione: è la tua estensione del browser all-in-one alimentata da intelligenza artificiale. Con MaxAI.me, puoi accedere a una vasta gamma di funzionalità basate su intelligenza artificiale direttamente nel tuo browser, su qualsiasi sito web che visiti.",
     "more_over_section__description__part2": "Dall'assistenza alla scrittura e alla sintesi delle pagine web a ChatPDF e alla pittura con l'IA, MaxAI.me ti permette di leggere, scrivere e creare con l'aiuto dei modelli di intelligenza artificiale più avanzati, tra cui ChatGPT, Claude e Gemini. Aggiorna la tua esperienza di navigazione e sblocca il tuo potenziale di produttività con MaxAI.me oggi stesso!"
-=======
-    "default__description": "Il modo più veloce per utilizzare l'IA ovunque: chat IA, scrittura, controllo grammaticale, spiegazione, riassunto, ricerca, gestione degli input e altro ancora."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Fare clic per caricare o trascinare e rilasciare",
+    "components__index__unsupported_file_type_tip": "Caricare il tipo di file PDF specificato",
     "components__to_image_detail__select_all": "Seleziona tutto",
     "components__to_image_detail__deselect_all": "Deseleziona tutto",
     "components__to_image_detail__download_images": "Scarica immagini",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "Annulla",
     "components__to_image_detail__normal_quality": "Qualità normale",
     "components__to_image_detail__high_quality": "Alta qualità",
-    "components__index__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
     "components__to_image_detail__view_pages": "Visualizza pagine",
     "components__to_image_detail__view_images": "Visualizza immagini",
-    "components__to_image__downloader_tip": "Seleziona almeno un'immagine.",
+    "components__to_image__downloader_tip": "Selezionare almeno un'immagine.",
     "components__to_image_detail__not_found_images": "Immagine PDF non trovata"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

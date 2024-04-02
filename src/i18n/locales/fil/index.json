@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Gamitin ang AI sa Isang Click Kahit Saan (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan: AI chat, pagsusulat, pagsuri ng grammar, pagsasalarawan, buod, paghahanap, pamamahala ng prompt, at higit pa.",
     "maintain__title": "Sa Paggawa ng Pansin | MaxAI.me",
     "affiliate__title": "Programa ng Affiliate | MaxAI.me",
@@ -630,23 +629,20 @@
     "more_over_section__title": "Higit pa",
     "more_over_section__description__part1": "Ang MaxAI.me ay higit pa sa isang tool sa pagsasalin - Ito ang iyong all-in-one AI-powered browser extension. Sa MaxAI.me, maaari kang mag-access ng iba't ibang mga tampok na pinapagana ng AI sa iyong browser, sa anumang website na binibisita mo.",
     "more_over_section__description__part2": "Mula sa tulong sa pagsusulat at pagbuod ng webpage hanggang sa ChatPDF at AI painting, pinapahusay ka ng MaxAI.me na magbasa, sumulat, at lumikha gamit ang tulong ng pinakamahusay na AI models, kabilang ang ChatGPT, Claude, at Gemini. I-upgrade ang iyong karanasan sa pag-browse at buksan ang iyong potensyal sa produktibidad gamit ang MaxAI.me ngayon!"
-=======
-    "default__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan: AI chat, pagsusulat, pagsuri ng grammar, pagsasalarawan, buod, paghahanap, pamamahala ng prompt, at higit pa."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "I-click para i-upload o i-drag at i-drop",
+    "components__index__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__to_image_detail__select_all": "Piliin Lahat",
-    "components__to_image_detail__deselect_all": "Huwag Piliin Lahat",
+    "components__to_image_detail__deselect_all": "Tanggalin ang Lahat",
     "components__to_image_detail__download_images": "I-download ang mga imahe",
     "components__to_image_detail__remove_pdf": "Tanggalin ang PDF",
     "components__to_image_detail__cancel": "Kanselahin",
     "components__to_image_detail__normal_quality": "Normal na Kalidad",
     "components__to_image_detail__high_quality": "Matataas na Kalidad",
-    "components__index__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__to_image_detail__view_pages": "Tingnan ang mga pahina",
     "components__to_image_detail__view_images": "Tingnan ang mga imahe",
     "components__to_image__downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe.",
     "components__to_image_detail__not_found_images": "Hindi natagpuan ang imahe ng PDF"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

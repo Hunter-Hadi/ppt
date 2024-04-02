@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Използвайте изкуствен интелект с едно щракване навсякъде (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Най-бързият начин да използвате изкуствения интелект навсякъде: чат с изкуствен интелект, писане, проверка на граматиката, обяснение, резюме, търсене, управление на подсказки и още.",
     "maintain__title": "В процес на поддръжка | MaxAI.me",
     "affiliate__title": "Партньорска програма | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "Още",
     "more_over_section__description__part1": "MaxAI.me е повече от просто инструмент за превод - това е вашият всичко-в-едно AI-powered разширение на браузъра. С MaxAI.me можете да достъпите широка гама от AI-driven функции директно във вашия браузър, на всяка посетена от вас уеб страница.",
     "more_over_section__description__part2": "От помощ при писане и резюмиране на уеб страници до ChatPDF и AI рисуване, MaxAI.me ви дава възможност да четете, пишете и създавате с помощта на най-развитите AI модели, включително ChatGPT, Claude и Gemini. Подобрете своето преживяване при сърфиране и отключете вашия потенциал за продуктивност с MaxAI.me днес!"
-=======
-    "default__description": "Най-бързият начин да използвате изкуствения интелект навсякъде: чат с изкуствен интелект, писане, проверка на граматиката, обяснение, резюме, търсене, управление на подсказки и още."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Кликнете, за да качите или плъзнете и пуснете",
+    "components__index__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__to_image_detail__select_all": "Избери всички",
     "components__to_image_detail__deselect_all": "Отмени избора на всички",
     "components__to_image_detail__download_images": "Изтегли изображенията",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "Отказ",
     "components__to_image_detail__normal_quality": "Нормално качество",
     "components__to_image_detail__high_quality": "Високо качество",
-    "components__index__unsupported_file_type_tip": "Моля, качете определения PDF файлов тип",
     "components__to_image_detail__view_pages": "Преглед на страници",
     "components__to_image_detail__view_images": "Преглед на изображения",
-    "components__to_image__downloader_tip": "Моля, изберете поне една снимка.",
+    "components__to_image__downloader_tip": "Моля, изберете поне едно изображение.",
     "components__to_image_detail__not_found_images": "Изображението от PDF не е намерено"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

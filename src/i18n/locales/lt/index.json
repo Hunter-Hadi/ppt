@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Naudokite 1 paspaudimą AI bet kur (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Greičiausias būdas naudoti AI bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau.",
     "maintain__title": "Priežiūra vyksta | MaxAI.me",
     "affiliate__title": "Partnerių programa | MaxAI.me",
@@ -630,23 +629,20 @@
     "more_over_section__title": "Daugiau",
     "more_over_section__description__part1": "„MaxAI.me“ yra daugiau nei vertimo įrankis - tai viskas viename AI varomoje naršyklės plėtinio. Su „MaxAI.me“ galite pasiekti įvairias AI pagrindu veikiančias funkcijas tiesiai savo naršyklėje, kurią naudojate bet kurioje aplankytoje svetainėje.",
     "more_over_section__description__part2": "Nuo rašymo pagalbos ir tinklalapių santraukos iki ChatPDF ir AI piešimo, „MaxAI.me“ suteikia jums galimybę skaityti, rašyti ir kurti su pažangiausiais dirbtinio intelekto modeliais, įskaitant ChatGPT, Claude ir Gemini. Atnaujinkite naršymo patirtį ir atraskite savo produktyvumo potencialą su „MaxAI.me“ jau šiandien!"
-=======
-    "default__description": "Greičiausias būdas naudoti AI bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Spustelėkite, norėdami įkelti arba vilkite ir paleiskite",
+    "components__index__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__to_image_detail__select_all": "Pasirinkti viską",
-    "components__to_image_detail__deselect_all": "Atšaukti viską",
+    "components__to_image_detail__deselect_all": "Atšaukti pasirinkimą",
     "components__to_image_detail__download_images": "Atsisiųsti paveikslėlius",
     "components__to_image_detail__remove_pdf": "Pašalinti PDF",
     "components__to_image_detail__cancel": "Atšaukti",
     "components__to_image_detail__normal_quality": "Normalus kokybė",
     "components__to_image_detail__high_quality": "Aukšta kokybė",
-    "components__index__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__to_image_detail__view_pages": "Peržiūrėti puslapius",
-    "components__to_image_detail__view_images": "Peržiūrėti vaizdus",
+    "components__to_image_detail__view_images": "Peržiūrėti paveikslėlius",
     "components__to_image__downloader_tip": "Prašome pasirinkti bent vieną paveikslėlį.",
     "components__to_image_detail__not_found_images": "PDF paveikslėlis nerastas"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

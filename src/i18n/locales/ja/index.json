@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me：どこでも1クリックでAIを利用（ChatGPT、Claude、Gemini、Bard、Bing）",
-<<<<<<< HEAD
     "default__description": "AIをどこでも最速で利用する方法：AIチャット、文章作成、文法チェック、説明、要約、検索、プロンプト管理など",
     "maintain__title": "メンテナンス中 | MaxAI.me",
     "affiliate__title": "アフィリエイトプログラム | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "さらに多くの機能",
     "more_over_section__description__part1": "MaxAI.meは単なる翻訳ツール以上です-オールインワンのAIパワードブラウザ拡張機能です。MaxAI.meを使用すると、訪れるすべてのウェブサイトで幅広いAI駆動の機能にアクセスできます。",
     "more_over_section__description__part2": "文章作成支援やウェブページの要約からChatPDFやAIペイントまで、ChatGPT、Claude、Geminiなどの最先端のAIモデルを活用して読み書きや創造をサポートします。MaxAI.meでブラウジング体験をアップグレードし、生産性の可能性を解き放ちましょう！"
-=======
-    "default__description": "AIをどこでも最速で利用する方法：AIチャット、文章作成、文法チェック、説明、要約、検索、プロンプト管理など"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "アップロードするかドラッグしてください",
+    "components__index__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__to_image_detail__select_all": "すべて選択",
     "components__to_image_detail__deselect_all": "すべて選択解除",
     "components__to_image_detail__download_images": "画像をダウンロード",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "キャンセル",
     "components__to_image_detail__normal_quality": "通常品質",
     "components__to_image_detail__high_quality": "高品質",
-    "components__index__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__to_image_detail__view_pages": "ページを表示",
     "components__to_image_detail__view_images": "画像を表示",
-    "components__to_image__downloader_tip": "少なくとも1つの画像を選択してください。",
+    "components__to_image__downloader_tip": "少なくとも1つの画像を選択してください",
     "components__to_image_detail__not_found_images": "PDFの画像が見つかりません"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

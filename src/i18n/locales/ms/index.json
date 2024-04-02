@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Gunakan AI 1-Klik Di Mana Saja (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Cara terpantas untuk menggunakan AI di mana-mana: perbualan AI, penulisan, semakan tatabahasa, penjelasan, ringkasan, carian, pengurusan prompt, dan banyak lagi.",
     "maintain__title": "Dalam Penyelenggaraan | MaxAI.me",
     "affiliate__title": "Program Rakan Kongsi | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "Lebih Lanjut",
     "more_over_section__description__part1": "MaxAI.me lebih daripada sekadar alat terjemahan - Ia adalah sambungan pelayar bertenaga AI serba lengkap anda. Dengan MaxAI.me, anda boleh mengakses pelbagai ciri berpandu AI di pelayar anda, pada mana-mana laman web yang anda lawati.",
     "more_over_section__description__part2": "Dari bantuan penulisan dan ringkasan laman web hingga ChatPDF dan seni AI, MaxAI.me memberdayakan anda untuk membaca, menulis, dan mencipta dengan bantuan model AI paling canggih, termasuk ChatGPT, Claude, dan Gemini. Tingkatkan pengalaman pelayaran anda dan buka potensi produktiviti anda dengan MaxAI.me hari ini!"
-=======
-    "default__description": "Cara terpantas untuk menggunakan AI di mana-mana: perbualan AI, penulisan, semakan tatabahasa, penjelasan, ringkasan, carian, pengurusan prompt, dan banyak lagi."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Klik untuk muat naik atau seret dan lepas",
+    "components__index__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__to_image_detail__select_all": "Pilih Semua",
     "components__to_image_detail__deselect_all": "Batal Pilih Semua",
     "components__to_image_detail__download_images": "Muat turun imej",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "Batal",
     "components__to_image_detail__normal_quality": "Kualiti Normal",
     "components__to_image_detail__high_quality": "Kualiti Tinggi",
-    "components__index__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
     "components__to_image_detail__view_pages": "Lihat halaman",
     "components__to_image_detail__view_images": "Lihat imej",
     "components__to_image__downloader_tip": "Sila pilih sekurang-kurangnya satu imej.",
-    "components__to_image_detail__not_found_images": "Gambar PDF tidak ditemui"
->>>>>>> feature-mini-tool-class-laizeping-20240327
+    "components__to_image_detail__not_found_images": "Imej PDF tidak ditemui"
   }
 }

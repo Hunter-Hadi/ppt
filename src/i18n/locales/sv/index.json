@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Använd 1-klicks AI var som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Det snabbaste sättet att använda AI var som helst: AI-chatt, skrivande, grammatikkontroll, förklaring, sammanfattning, sökning, hantering av uppmaningar och mer.",
     "maintain__title": "I underhåll | MaxAI.me",
     "affiliate__title": "Affiliateprogram | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "Mer än så",
     "more_over_section__description__part1": "MaxAI.me är mer än bara ett översättningsverktyg - det är ditt allt-i-ett AI-drivna webbläsartillägg. Med MaxAI.me kan du få tillgång till en mängd olika AI-drivna funktioner direkt i din webbläsare, på vilken webbplats du än besöker.",
     "more_over_section__description__part2": "Från skrivhjälp och sammanfattning av webbsidor till ChatPDF och AI-målning ger MaxAI.me dig möjlighet att läsa, skriva och skapa med hjälp av de mest avancerade AI-modellerna, inklusive ChatGPT, Claude och Gemini. Uppgradera din webbläsningsupplevelse och lås upp ditt produktivitetspotentiell med MaxAI.me idag!"
-=======
-    "default__description": "Det snabbaste sättet att använda AI var som helst: AI-chatt, skrivande, grammatikkontroll, förklaring, sammanfattning, sökning, hantering av uppmaningar och mer."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Klicka för att ladda upp eller dra och släpp",
+    "components__index__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components__to_image_detail__select_all": "Välj alla",
     "components__to_image_detail__deselect_all": "Avmarkera alla",
     "components__to_image_detail__download_images": "Ladda ner bilder",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "Avbryt",
     "components__to_image_detail__normal_quality": "Normal kvalitet",
     "components__to_image_detail__high_quality": "Hög kvalitet",
-    "components__index__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components__to_image_detail__view_pages": "Visa sidor",
     "components__to_image_detail__view_images": "Visa bilder",
-    "components__to_image__downloader_tip": "Vänligen välj minst en bild.",
+    "components__to_image__downloader_tip": "Var god välj minst en bild.",
     "components__to_image_detail__not_found_images": "PDF-bild hittades inte"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

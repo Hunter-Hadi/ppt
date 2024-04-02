@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Použijte 1-Kliknutí AI Kdekoli (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "Nejrychlejší způsob, jak používat AI kdekoli: AI chat, psaní, kontrola gramatiky, vysvětlení, shrnutí, vyhledávání, správa podnětů a další.",
     "maintain__title": "V údržbě | MaxAI.me",
     "affiliate__title": "Affiliate program | MaxAI.me",
@@ -630,11 +629,10 @@
     "more_over_section__title": "Více než to",
     "more_over_section__description__part1": "MaxAI.me je více než jen překladový nástroj - je to váš všestranný prohlížeč s poháněnou umělou inteligencí. S MaxAI.me můžete přistupovat k široké škále funkcí poháněných umělou inteligencí přímo ve vašem prohlížeči na jakékoli navštívené webové stránce.",
     "more_over_section__description__part2": "Od asistence při psaní a shrnutí webových stránek po ChatPDF a malování pomocí umělé inteligence, MaxAI.me vám umožňuje číst, psát a tvořit s pomocí nejmodernějších modelů umělé inteligence, včetně ChatGPT, Claude a Gemini. Vylepšete svůj prohlížeč a odemkněte svůj potenciál produktivity s MaxAI.me ještě dnes!"
-=======
-    "default__description": "Nejrychlejší způsob, jak používat AI kdekoli: AI chat, psaní, kontrola gramatiky, vysvětlení, shrnutí, vyhledávání, správa podnětů a další."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Klikněte pro nahrání nebo přetáhněte",
+    "components__index__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
     "components__to_image_detail__select_all": "Vybrat vše",
     "components__to_image_detail__deselect_all": "Zrušit výběr všech",
     "components__to_image_detail__download_images": "Stáhnout obrázky",
@@ -642,11 +640,9 @@
     "components__to_image_detail__cancel": "Zrušit",
     "components__to_image_detail__normal_quality": "Normální kvalita",
     "components__to_image_detail__high_quality": "Vysoká kvalita",
-    "components__index__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF",
     "components__to_image_detail__view_pages": "Zobrazit stránky",
     "components__to_image_detail__view_images": "Zobrazit obrázky",
-    "components__to_image__downloader_tip": "Vyberte prosím alespoň jednu obrázek.",
+    "components__to_image__downloader_tip": "Prosím vyberte alespoň jeden obrázek.",
     "components__to_image_detail__not_found_images": "Obrázek PDF nenalezen"
->>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

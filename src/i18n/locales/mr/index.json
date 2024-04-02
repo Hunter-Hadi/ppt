@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: कुठल्याही ठिकाणी 1-क्लिक एआय वापरा (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "एआयच्या कोणत्याही ठिकाणी वापरण्याचा जलदतम मार्ग: एआय चॅट, लेखन, व्याकरण तपासणी, स्पष्टीकरण, संक्षेप, शोध, प्रॉम्प्ट व्यवस्थापन आणि अधिक.",
     "maintain__title": "देखभालात | MaxAI.me",
     "affiliate__title": "सहकार्य कार्यक्रम | MaxAI.me",
@@ -630,23 +629,20 @@
     "more_over_section__title": "अधिक",
     "more_over_section__description__part1": "MaxAI.me हे केवळ एक भाषांतर साधन नाही - हे आपल्या सर्वोत्कृष्ट AI-संचालित ब्राउझर एक्सटेंशन आहे. MaxAI.meच्या मदतीने आपण आपल्या ब्राउझरमध्ये जाणार्या कोणत्याही वेबसाइटवर विविध AI-संचालित सुविधा उपयोग करू शकता.",
     "more_over_section__description__part2": "लेखन मदती आणि वेबपृष्ठ संक्षेपणापर्यंत, ChatPDF आणि AI पेंटिंगसह MaxAI.me आपल्या मदती करते, ज्यामुळे आपण सर्वोत्कृष्ट AI मॉडेल्सच्या सहाय्याने वाचा, लिहा आणि तयार करा. आपल्या ब्राउझिंग अनुभवाची अपग्रेड करा आणि आपल्या उत्पादकता संभाव्यतेचा लॉक उघडा MaxAI.meच्या सहाय्याने!"
-=======
-    "default__description": "एआयच्या कोणत्याही ठिकाणी वापरण्याचा जलदतम मार्ग: एआय चॅट, लेखन, व्याकरण तपासणी, स्पष्टीकरण, संक्षेप, शोध, प्रॉम्प्ट व्यवस्थापन आणि अधिक."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "अपलोड करण्यासाठी क्लिक करा किंवा ड्रॅग आणि ड्रॉप करा",
+    "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
     "components__to_image_detail__select_all": "सर्व निवडा",
-    "components__to_image_detail__deselect_all": "सर्व निवड रद्द करा",
+    "components__to_image_detail__deselect_all": "सर्व निवड काढा",
     "components__to_image_detail__download_images": "प्रतिमा डाउनलोड करा",
-    "components__to_image_detail__remove_pdf": "PDF काढून टाका",
+    "components__to_image_detail__remove_pdf": "पीडीएफ काढा",
     "components__to_image_detail__cancel": "रद्द करा",
     "components__to_image_detail__normal_quality": "सामान्य गुणवत्ता",
     "components__to_image_detail__high_quality": "उच्च गुणवत्ता",
-    "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
-    "components__to_image_detail__view_pages": "पृष्ठ पहा",
+    "components__to_image_detail__view_pages": "पृष्ठे पहा",
     "components__to_image_detail__view_images": "प्रतिमा पहा",
-    "components__to_image__downloader_tip": "कृपया किमानपणे एक छायाचित्र निवडा.",
-    "components__to_image_detail__not_found_images": "PDF चित्र आढळले नाहीत"
->>>>>>> feature-mini-tool-class-laizeping-20240327
+    "components__to_image__downloader_tip": "कृपया किमान एक प्रतिमा निवडा.",
+    "components__to_image_detail__not_found_images": "पीडीएफ प्रतिमा सापडली नाही"
   }
 }

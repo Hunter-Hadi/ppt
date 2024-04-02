@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: যেখানেই চাইলেই 1-ক্লিক এআই ব্যবহার করুন (ChatGPT, Claude, Gemini, Bard, Bing)",
-<<<<<<< HEAD
     "default__description": "এআই যেখানেই ব্যবহার করতে সবচেয়ে দ্রুত: এআই চ্যাট, লেখা, ব্যাকরণ পরীক্ষা, ব্যাখ্যা, সংক্ষিপ্তসার, অনুসন্ধান, প্রম্পট পরিচালনা এবং আরও।",
     "maintain__title": "মেইন্টেনেন্সে | MaxAI.me",
     "affiliate__title": "অ্যাফিলিয়েট প্রোগ্রাম | MaxAI.me",
@@ -628,24 +627,22 @@
     "vision_pages__section3__title": "প্রশ্ন করুন এবং তাৎক্ষণিক উত্তর পান",
     "vision_pages__section3__description": "আপনি কি কখনো একটি ছবি দেখে তার সামগ্রিক বিষয়ে চিন্তা করেছেন? MaxAI.me এর AI ভিশন দিয়ে আপনি এখন যেকোনো ছবি সম্পর্কে প্রশ্ন করতে পারেন এবং তাৎক্ষণিক, সঠিক উত্তর পাবেন। আপনি যদি একটি বস্তু, একটি ব্যক্তি বা ছবিতে নির্দিষ্ট বিশদ সম্পর্কে জানতে চান, তবে কেবল আপনার প্রশ্ন করুন এবং MaxAI.me আপনাকে প্রয়োজনীয় তথ্য দিবে।",
     "more_over_section__title": "অধিক ওভার",
-    "more_over_section__description__part1": "MaxAI.me শুধুমাত্র একটি অনুবাদ সরঞ্জাম নয় - এটি আপনার সমস্ত-একটি AI-পাওয়ারড ব্রাউজার এক্সটেনশন। MaxAI.me দিয়ে আপনি আপনার যে কোনও ওয়েবসাইটে এক্সেস করতে পারেন এবং লেখার সহায়তা এবং ওয়েবপেজ সংক্ষেপণ থেকে ChatPDF এবং AI পেইন্টিং পর্যন্ত, MaxAI.me আপনাকে সব সমস্ত উন্নত AI মডেলের সাহায্যে পড়া, লেখা এবং সৃজন করার সুযোগ দেয়। আজই আপনার ব্রাউজিং অভিজ্ঞতা আপগ্রেড করুন এবং MaxAI.me দ্বারা আপনার উৎপাদনশীলতা সম্ভাবনা আনলেন!"
-=======
-    "default__description": "এআই যেখানেই ব্যবহার করতে সবচেয়ে দ্রুত: এআই চ্যাট, লেখা, ব্যাকরণ পরীক্ষা, ব্যাখ্যা, সংক্ষিপ্তসার, অনুসন্ধান, প্রম্পট পরিচালনা এবং আরও।"
+    "more_over_section__description__part1": "MaxAI.me শুধুমাত্র একটি অনুবাদ সরঞ্জাম নয় - এটি আপনার সমস্ত-একটি AI-পাওয়ারড ব্রাউজার এক্সটেনশন। MaxAI.me দিয়ে আপনি আপনার যে কোনও ওয়েবসাইটে এক্সেস করতে পারেন এবং লেখার সহায়তা এবং ওয়েবপেজ সংক্ষেপণ থেকে ChatPDF এবং AI পেইন্টিং পর্যন্ত, MaxAI.me আপনাকে সব সমস্ত উন্নত AI মডেলের সাহায্যে পড়া, লেখা এবং সৃজন করার সুযোগ দেয়। আজই আপনার ব্রাউজিং অভিজ্ঞতা আপগ্রেড করুন এবং MaxAI.me দ্বারা আপনার উৎপাদনশীলতা সম্ভাবনা আনলেন!",
+    "more_over_section__description__part2": "লেখা সহায়তা এবং ওয়েবপেজ সংক্ষেপণ থেকে চ্যাটপিডিএফ এবং এআই পেইন্টিং পর্যন্ত, MaxAI.me আপনাকে সর্বোচ্চ এআই মডেলগুলির সাহায্যে পড়া, লেখা এবং সৃষ্টি করার সুযোগ দেয়। এটি ছাড়াও ChatGPT, Claude এবং Gemini সহ সর্বোচ্চ এআই মডেলগুলির সাহায্যে আপনার ব্রাউজিং অভিজ্ঞতা আপগ্রেড করুন এবং আপনার উদ্যোগশীলতা সম্ভাবনা আনলক করুন। MaxAI.me এখনই ব্যবহার করুন!"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "আপলোড করতে ক্লিক করুন বা টেনে আনুন",
+    "components__index__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__to_image_detail__select_all": "সব নির্বাচন করুন",
     "components__to_image_detail__deselect_all": "সব অগ্রাহ্য করুন",
     "components__to_image_detail__download_images": "ছবি ডাউনলোড করুন",
-    "components__to_image_detail__remove_pdf": "PDF সরান",
+    "components__to_image_detail__remove_pdf": "পিডিএফ সরান",
     "components__to_image_detail__cancel": "বাতিল করুন",
     "components__to_image_detail__normal_quality": "সাধারণ মান",
     "components__to_image_detail__high_quality": "উচ্চ মান",
-    "components__index__unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__to_image_detail__view_pages": "পৃষ্ঠা দেখুন",
-    "components__to_image_detail__view_images": "চিত্র দেখুন",
+    "components__to_image_detail__view_images": "ছবি দেখুন",
     "components__to_image__downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।",
-    "components__to_image_detail__not_found_images": "পিডিএফ চিত্র পাওয়া যায়নি"
->>>>>>> feature-mini-tool-class-laizeping-20240327
+    "components__to_image_detail__not_found_images": "পিডিএফ ইমেজ পাওয়া যায়নি"
   }
 }

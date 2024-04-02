@@ -564,7 +564,6 @@
   },
   "seo": {
     "default__title": "MaxAI.me: የአንድ-ጊዜ AI በማንኛውም አቅርቦት (ChatGPT, Claude, Gemini, Bard, Bing) ይጠቀሙ",
-<<<<<<< HEAD
     "default__description": "AI በማንኛውም አቅርቦት: AI ውይይት, መጻፍ, ግራጫ ማስተማር, መግለጫ, ጥቅምት, ፍለጋ አሳሽ እና ተጨማሪ ግምገማ እና ተጨማሪ መፍጠሪያ",
     "maintain__title": "በስርዓት ላይ | MaxAI.me",
     "affiliate__title": "አፍሪቃውን ፕሮግራም | MaxAI.me",
@@ -630,23 +629,20 @@
     "more_over_section__title": "በቀላሉ",
     "more_over_section__description__part1": "MaxAI.me ከማንኛውም ትርጉም መሰረት የሚጠቀሙ ነጻ ነው - ዛሬ የሚሆኑ AI-ተጠቂዎችን የሚገኙ በብስክራት የሚገኘውን ለማድረግ የሚታይ በማክስAI.me ለማንኛውም የተለመዱ የAI-ተጠቂዎችን እና የሚገኙ እድል ፣ በየትኛውም ድርጅቶች የሚገኙ በብስክራት የሚገኘውን ለማድረግ የሚታይ ነው።",
     "more_over_section__description__part2": "ከጽሁፎች መልካም እና የAI-ተጠቂዎችን ማስተላለፍ እና የድርጅቶችን መጠቀም እንዲሁም ChatPDF እና AI painting የሚገኙትን በMaxAI.me ለማድረግ የሚታይ ነው። የማንኛውም የAI ሞዴሎችን በChatGPT እና Claude እና Gemini የሚገኘውን ለማድረግ የሚታይ ነው። MaxAI.me በየትኛውም ትርጉም የሚገኘውን ለማድረግ የሚታይ ነው።"
-=======
-    "default__description": "AI በማንኛውም አቅርቦት: AI ውይይት, መጻፍ, ግራጫ ማስተማር, መግለጫ, ጥቅምት, ፍለጋ አሳሽ እና ተጨማሪ ግምገማ እና ተጨማሪ መፍጠሪያ"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "ጥሩ የፕድፊክ ወደ ምስል ለመሙላት ይጫኑ ወይም ወደማይለው ይጫኑ",
+    "components__index__upload_title": "ጥያቄ ለጥያቄ እና ማስወገጃ ለማስገባት ይጫኑ",
+    "components__index__unsupported_file_type_tip": "እባክዎ የተጠቀሱ PDF ፋይል አስገቡ",
     "components__to_image_detail__select_all": "ሁሉንም ይምረጡ",
     "components__to_image_detail__deselect_all": "ሁሉንም ይምረጡ",
-    "components__to_image_detail__download_images": "ምስልዎን ወደሚጫኑ ይለፉ",
-    "components__to_image_detail__remove_pdf": "ፕድፊክን ያስወግዱ",
-    "components__to_image_detail__cancel": "ተወዳጅ",
-    "components__to_image_detail__normal_quality": "አጠቃላይ ሁኔታ",
-    "components__to_image_detail__high_quality": "ከፍተኛ ሁኔታ",
-    "components__index__unsupported_file_type_tip": "እባክዎ የተጠቃሚ ፕድር የተዘጋጀ የፋይል አይነት ይጫኑ",
-    "components__to_image_detail__view_pages": "ገፅዎን መመለስ",
-    "components__to_image_detail__view_images": "ምስሎችን መመለስ",
-    "components__to_image__downloader_tip": "እባክዎ ማንኛውም ምስል አርትዕ ይምረጡ.",
-    "components__to_image_detail__not_found_images": "የPDF ምስል አልተገኘም"
->>>>>>> feature-mini-tool-class-laizeping-20240327
+    "components__to_image_detail__download_images": "ምስልን ወደሚጫኑ ይለፉ",
+    "components__to_image_detail__remove_pdf": "PDF ሰርዝ",
+    "components__to_image_detail__cancel": "ተወው",
+    "components__to_image_detail__normal_quality": "ነጥብ ለውጥ",
+    "components__to_image_detail__high_quality": "ከፍተኛ ለውጥ",
+    "components__to_image_detail__view_pages": "ገጽዎን ይመልከቱ",
+    "components__to_image_detail__view_images": "ምስልን ይመልከቱ",
+    "components__to_image__downloader_tip": "እባክዎ ማስጫኑን ሁሉንም ይምረጡ",
+    "components__to_image_detail__not_found_images": "PDF ምስል አልተገኘም"
   }
 }
