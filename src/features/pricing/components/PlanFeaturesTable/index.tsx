@@ -14,7 +14,7 @@ export const FEATURE_TABLE_FIRST_COLUMN_WIDTH = 440;
 
 export type IFeatureColumn = 'features' | 'free' | 'pro' | 'elite';
 
-export const TABLE_COLUMN = ['features', 'free', 'pro', 'elite'];
+export const TABLE_COLUMN = ['features', 'elite', 'pro', 'free'];
 
 export type IFeatureTableVariant = 'normal' | 'mini';
 
@@ -155,6 +155,7 @@ const PlanFeaturesTable: FC<IProps> = ({
   return (
     <>
       {showFixedHeader && variant !== 'mini' ? (
+        // fixed table header
         <Box overflow='hidden'>
           <Box
             sx={{
@@ -184,7 +185,6 @@ const PlanFeaturesTable: FC<IProps> = ({
               showPaymentTypeSwitch
               assignRenderPlan={assignRenderPlanPrefix}
               popularPlan={popularPlan}
-              popularStyle={'badge'}
               sx={{
                 borderTopLeftRadius: 0,
                 borderTopRightRadius: 0,

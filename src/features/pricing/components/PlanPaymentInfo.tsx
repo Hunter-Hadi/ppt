@@ -1,5 +1,5 @@
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import { Box, Stack, SxProps, Typography } from '@mui/material';
+import { Stack, SxProps, Typography } from '@mui/material';
 import { capitalize } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
@@ -157,7 +157,13 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
   if (variant === 'mini') {
     return (
       <Stack spacing={1} sx={sx}>
-        <Typography variant='custom' sx={fontSx.title}>
+        <Typography
+          variant='custom'
+          sx={{
+            ...fontSx.title,
+            color: isPopular ? 'primary.main' : 'text.primary',
+          }}
+        >
           {title}
         </Typography>
         {showDesc && (
@@ -171,53 +177,13 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
 
   return (
     <Stack spacing={1} sx={sx}>
-      {/* 付费的plan，并且年付的才显示 */}
-      {type !== 'free' && paymentType === 'yearly' ? (
-        <Stack
-          direction={'row'}
-          alignItems='center'
-          justifyContent='space-between'
-          sx={{
-            width: 'max-content',
-            borderRadius: 2,
-            px: 1,
-            py: '1px',
-            border: '1px solid',
-            borderColor: isPopular ? '#34A853' : '#ABEFC6',
-            bgcolor: isPopular ? '#34A853' : '#DCFAE6',
-            color: isPopular ? '#fff' : '#067647',
-            boxSizing: 'border-box',
-          }}
-        >
-          <Typography
-            variant='custom'
-            fontSize={16}
-            lineHeight={1.5}
-            fontWeight={500}
-            color='inherit'
-          >
-            {t('pages:pricing__save_up_to', {
-              NUM: Math.round(
-                (1 -
-                  PLAN_PRICE_MAP[type] /
-                    PLAN_PRICE_MAP[
-                      type.replace('_yearly', '') as RENDER_PLAN_TYPE
-                    ]) *
-                  100,
-              ),
-            })}
-          </Typography>
-        </Stack>
-      ) : null}
-      {/* 免费用户用占位符 */}
-      {type === 'free' && paymentType === 'yearly' ? (
-        <Box
-          sx={{
-            height: 28,
-          }}
-        />
-      ) : null}
-      <Typography variant='custom' sx={fontSx.title}>
+      <Typography
+        variant='custom'
+        sx={{
+          ...fontSx.title,
+          color: isPopular ? 'primary.main' : 'text.primary',
+        }}
+      >
         {title}
       </Typography>
       <Stack direction={'row'} alignItems='center' spacing={0.5}>
