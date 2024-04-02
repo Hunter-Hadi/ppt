@@ -125,13 +125,9 @@ async function generatePromptsPages() {
 }
 
 function generateToolsPages() {
-  const toolsPages = ['pdf-to-png', 'pdf-to-jpeg'];
+  const toolsPages = ['/tools', '/tools/pdf-to-png', '/tools/pdf-to-jpeg'];
 
-  return generateStaticPagesWithLocale(
-    toolsPages.map((page) => {
-      return `/tools/${page}`;
-    }),
-  );
+  return toolsPages.concat(generateStaticPagesWithLocale(toolsPages));
 }
 // 生成 sitemap
 function generateSitemap(pages) {
