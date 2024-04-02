@@ -91,22 +91,29 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
             const height = bmp.height * resizeScale;
             const canvas = new OffscreenCanvas(width, height);
             const ctx = canvas.getContext('bitmaprenderer');
-            bmp && ctx?.transferFromImageBitmap(bmp);
-            const blob = await canvas.convertToBlob();
-            const reader = new FileReader();
-            reader.readAsDataURL(blob);
-            reader.onloadend = () => {
-              const base64Data = reader.result?.toString() || '';
-              setPdfPageHaveImages((prev) => [
-                ...prev,
-                {
-                  id: uuidV4(),
-                  imageUrlString: base64Data,
-                  isSelect: true,
-                  definedIndex: 1,
-                },
-              ]);
-            };
+            bmp &&
+              (ctx as ImageBitmapRenderingContext)?.transferFromImageBitmap(
+                bmp,
+              ); //as 因为 build检测类型报错   并且   try catch 会拦截异常
+            const blob = await (
+              canvas as OffscreenCanvas & { convertToBlob: () => Blob }
+            ).convertToBlob(); //as 因为 build检测类型报错  并且 try catch 会拦截异常
+            if (blob) {
+              const reader = new FileReader();
+              reader.readAsDataURL(blob);
+              reader.onloadend = () => {
+                const base64Data = reader.result?.toString() || '';
+                setPdfPageHaveImages((prev) => [
+                  ...prev,
+                  {
+                    id: uuidV4(),
+                    imageUrlString: base64Data,
+                    isSelect: true,
+                    definedIndex: 1,
+                  },
+                ]);
+              };
+            }
           } catch (e) {
             console.log('simply findPdfToImage error get', e);
           }
