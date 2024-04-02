@@ -16,7 +16,7 @@ const VisuallyHiddenInput = styled('input')({
   width: 1,
 });
 
-interface IUploadButtonProps {
+export interface IUploadButtonProps {
   buttonProps?: Omit<ButtonProps, 'onChange'>;
   inputProps?: React.InputHTMLAttributes<HTMLInputElement>;
   children: React.ReactNode;

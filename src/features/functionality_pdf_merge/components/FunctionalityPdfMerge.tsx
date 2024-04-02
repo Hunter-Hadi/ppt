@@ -6,6 +6,7 @@ import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
 import FunctionalityIcon from '@/features/functionality_pdf_merge/components/FunctionalityIcon';
 import snackNotifications from '@/utils/globalSnackbar';
+import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
 
 const FunctionalityPdfMerge = () => {
   const { t } = useTranslation();
@@ -45,38 +46,14 @@ const FunctionalityPdfMerge = () => {
       }}
     >
       {!pdfInfoList && (
-        <UploadButton
-          buttonProps={{
-            sx: {
-              display: 'flex',
-              flexDirection: 'column',
-              height: 240,
-              width: 230,
-              alignItems: 'center',
-              justifyContent: 'center',
-              border: '1px dashed',
-            },
-            variant: 'outlined',
-          }}
+        <FunctionalityUploadButton
           inputProps={{
             accept: 'application/pdf',
             multiple: true,
           }}
           onChange={onChangeFile}
           handleUnsupportedFileType={handleUnsupportedFileType}
-        >
-          <FunctionalityIcon sx={{ fontSize: 35 }} name='CloudUploadIcon' />
-          <Typography
-            sx={{
-              fontSize: {
-                xs: 12,
-                lg: 13,
-              },
-            }}
-          >
-            {t('functionality__pdf_to_image:components__index__upload_title')}
-          </Typography>
-        </UploadButton>
+        />
       )}
       {pdfInfoList && pdfInfoList?.length > 0 && (
         <Suspense fallback={<AppLoadingLayout loading />}></Suspense>
