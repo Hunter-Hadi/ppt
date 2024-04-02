@@ -9,21 +9,21 @@ import { FC } from 'react';
 
 interface IFunctionalityImageData {
   id: string;
-  imgString: string;
+  imageUrlString: string;
   isSelect: boolean;
 }
 interface IFunctionalityImageList {
   pageCols: number;
   imageList: IFunctionalityImageData[];
-  isImgSelect: boolean;
-  onClickImg: (image: IFunctionalityImageData) => void;
+  isImageSelect: boolean;
+  onClickImage: (image: IFunctionalityImageData) => void;
 }
 
 const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   imageList,
   pageCols = 5,
-  isImgSelect = true,
-  onClickImg,
+  isImageSelect = true,
+  onClickImage,
 }) => {
   return (
     <ImageList
@@ -39,7 +39,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
       {imageList.map((image, index) => (
         <ImageListItem
           key={image.id}
-          onClick={() => onClickImg(image)}
+          onClick={() => onClickImage(image)}
           sx={{
             padding: 1,
             cursor: 'pointer',
@@ -57,8 +57,8 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
             style={{
               objectFit: 'contain',
             }}
-            srcSet={image.imgString}
-            src={image.imgString}
+            srcSet={image.imageUrlString}
+            src={image.imageUrlString}
             loading='lazy'
             alt={`image-${index + 1}`}
           />
@@ -71,7 +71,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
           >
             {index + 1}
           </Typography>
-          {isImgSelect && (
+          {isImageSelect && (
             <Box
               sx={{
                 position: 'absolute',

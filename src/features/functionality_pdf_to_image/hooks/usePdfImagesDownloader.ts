@@ -4,8 +4,8 @@ import { useTranslation } from 'next-i18next';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import { IPdfPageImageInfo } from '@/features/functionality_pdf_to_img/hooks/usePdfToImageConversion';
-import { dataURLtoBlob } from '@/features/functionality_pdf_to_img/utils/pdfTool';
+import { IPdfPageImageInfo } from '@/features/functionality_pdf_to_image/hooks/usePdfToImageConversion';
+import { dataURLtoBlob } from '@/features/functionality_pdf_to_image/utils/pdfTool';
 import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -15,8 +15,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 const usePdfImagesDownloader = () => {
   const { t } = useTranslation();
 
-  const [downloaderIsLoad, setDownloaderIsLoad] = useState<boolean>(false); //是否加载中
-  const [downloaderTotalPages, setDownloaderTotalPages] = useState<number>(0); //总下载页书
+  const [downloaderIsLoading, setDownloaderIsLoading] =
+    useState<boolean>(false); //是否加载中
+  const [downloaderTotalPages, setDownloaderTotalPages] = useState<number>(0); //总下载页数
   const [currentDownloaderActionNum, setCurrentDownloaderActionNum] =
     useState<number>(0); //当前下载进度
   const isCancel = useRef(false);
@@ -31,7 +32,7 @@ const usePdfImagesDownloader = () => {
       try {
         isCancel.current = false;
         setCurrentDownloaderActionNum(0);
-        setDownloaderIsLoad(true);
+        setDownloaderIsLoading(true);
         const zip = new JSZip();
         const images = zip.folder('images');
         const selectedImages = convertedPdfImages.filter(
@@ -49,7 +50,7 @@ const usePdfImagesDownloader = () => {
           if (!scale) {
             images?.file(
               `image-${i + 1}.${toType}`,
-              dataURLtoBlob(selectedImages[i].imgString),
+              dataURLtoBlob(selectedImages[i].imageUrlString),
               {
                 base64: true,
               },
@@ -75,12 +76,14 @@ const usePdfImagesDownloader = () => {
         if (selectedImages.length > 0) {
           zip.generateAsync({ type: 'blob' }).then((content) => {
             FileSaver.saveAs(content, 'images(MaxAI.me).zip');
-            setDownloaderIsLoad(false);
+            setDownloaderIsLoading(false);
           });
         } else {
           //TODO: 需要提示没有选择图片
           snackNotifications.warning(
-            t('functionality_pdf_to_img:components_to_img_downloader_tip'),
+            t(
+              'functionality__pdf_to_image:components__to_image__downloader_tip',
+            ),
             {
               anchorOrigin: {
                 vertical: 'top',
@@ -88,7 +91,7 @@ const usePdfImagesDownloader = () => {
               },
             },
           );
-          setDownloaderIsLoad(false);
+          setDownloaderIsLoading(false);
         }
       } catch (e) {
         console.log('simply onDownloadPdfImagesZip error', e);
@@ -98,7 +101,7 @@ const usePdfImagesDownloader = () => {
   );
   const onCancelDownloader = () => {
     isCancel.current = true;
-    setDownloaderIsLoad(false);
+    setDownloaderIsLoading(false);
   };
   const generatePdfToImage = async (
     pdfDoc: any, //PDFDocumentProxy react-pdfjs没有导出
@@ -124,7 +127,7 @@ const usePdfImagesDownloader = () => {
     };
   };
   return {
-    downloaderIsLoad,
+    downloaderIsLoading,
     downloaderTotalPages,
     currentDownloaderActionNum,
     onCancelDownloader,

@@ -4,10 +4,10 @@ interface ISwitchWithType {
   isSelect: boolean;
 }
 
-const useSwitchIdSelect = <T extends ISwitchWithType>(params: {
+const useConvertedContentSelector = <T extends ISwitchWithType>(params: {
   setList: (method: (prev: T[]) => T[]) => void;
 }) => {
-  const [pdfIsSelectAll, setPdfIsSelectAll] = useState<boolean>(true); //是否全选
+  const [isSelectAll, setIsSelectAll] = useState<boolean>(true); //是否全选
   const onSwitchSelect = (id: string) => {
     params.setList((prev) =>
       prev.map((item) =>
@@ -16,17 +16,17 @@ const useSwitchIdSelect = <T extends ISwitchWithType>(params: {
     );
   };
   const onSwitchAllSelect = () => {
-    const newIsSelectAll = !pdfIsSelectAll;
+    const newIsSelectAll = !isSelectAll;
     params.setList((prev) =>
       prev.map((item) => ({ ...item, isSelect: newIsSelectAll })),
     );
-    setPdfIsSelectAll(newIsSelectAll);
+    setIsSelectAll(newIsSelectAll);
   };
   return {
-    pdfIsSelectAll,
-    setPdfIsSelectAll,
+    isSelectAll,
+    setIsSelectAll,
     onSwitchSelect,
     onSwitchAllSelect,
   };
 };
-export default useSwitchIdSelect;
+export default useConvertedContentSelector;

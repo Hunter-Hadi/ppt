@@ -351,14 +351,14 @@
     "contact_us__item3": "Unterstützen Sie uns, indem Sie ★★★★★ bewerten auf",
     "contact_us__item3__store": "Erweiterung Webshop",
     "contact_us__item4": "Helfen Sie anderen, indem Sie diese Erweiterung teilen:",
-    "tool_box_index_page_title": "MaxAI Werkzeuge",
-    "tool_box_index_page_description": "Alle PDF-Tools sind zu 100% KOSTENLOS und werden in Ihrem Browser ausgeführt, um Ihre Privatsphäre vollständig zu schützen",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF zu PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertiere PDF zu PNG und lade jede Seite als Bild herunter",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF zu JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertiere PDF zu JPEG und lade jede Seite als Bild herunter",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDFs zusammenführen",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen"
+    "tools__index_page__title": "MaxAI Werkzeuge",
+    "tools__index_page__description": "Alle PDF-Tools sind zu 100% KOSTENLOS und werden in Ihrem Browser ausgeführt, um Ihre Privatsphäre vollständig zu schützen",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF zu PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertiere PDF zu PNG und lade jede Seite als Bild herunter",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF zu JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertiere PDF zu JPEG und lade jede Seite als Bild herunter",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDFs zusammenführen",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Überall KI mit nur einem Klick nutzen (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Der schnellste Weg, KI überall zu nutzen: KI-Chat, Schreiben, Grammatikprüfung, Erklärung, Zusammenfassung, Suche, Prompt-Verwaltung und mehr."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klicken Sie zum Hochladen oder ziehen Sie Dateien hierher",
-    "components_to_img_detail_select_all": "Alle auswählen",
-    "components_to_img_detail_deselect_all": "Alle abwählen",
-    "components_to_img_detail_download_images": "Bilder herunterladen",
-    "components_to_img_detail_remove_pdf": "PDF entfernen",
-    "components_to_img_detail_cancel": "Abbrechen",
-    "components_to_img_detail_normal_quality": "Normale Qualität",
-    "components_to_img_detail_high_quality": "Hohe Qualität",
-    "components_index_unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
-    "components_to_img_detail_view_pages": "Seiten anzeigen",
-    "components_to_img_detail_view_images": "Bilder anzeigen",
-    "components_to_img_downloader_tip": "Bitte wählen Sie mindestens ein Bild aus."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klicken Sie zum Hochladen oder ziehen Sie Dateien hierher",
+    "components__to_image_detail__select_all": "Alle auswählen",
+    "components__to_image_detail__deselect_all": "Alle abwählen",
+    "components__to_image_detail__download_images": "Bilder herunterladen",
+    "components__to_image_detail__remove_pdf": "PDF entfernen",
+    "components__to_image_detail__cancel": "Abbrechen",
+    "components__to_image_detail__normal_quality": "Normale Qualität",
+    "components__to_image_detail__high_quality": "Hohe Qualität",
+    "components__index__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__to_image_detail__view_pages": "Seiten anzeigen",
+    "components__to_image_detail__view_images": "Bilder anzeigen",
+    "components__to_image__downloader_tip": "Bitte wählen Sie mindestens ein Bild aus."
   }
 }

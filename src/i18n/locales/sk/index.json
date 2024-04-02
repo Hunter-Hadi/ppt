@@ -351,14 +351,14 @@
     "contact_us__item3": "Podporte nás hodnotením ★★★★★ na",
     "contact_us__item3__store": "Obchod s rozšíreniami",
     "contact_us__item4": "Pomôžte ostatným zdieľaním tohto rozšírenia:",
-    "tool_box_index_page_title": "Nástroje MaxAI",
-    "tool_box_index_page_description": "Všetky PDF nástroje sú 100% ZDARMA a bežia vo vašom prehliadači pre úplné súkromie",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF na PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertujte PDF na PNG a stiahnite si každú stranu ako obrázok",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF na JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertujte PDF na JPEG a stiahnite si každú stranu ako obrázok",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Zlúčiť PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Zlúčte viacero súborov PDF do jedného s len niekoľkými kliknutiami"
+    "tools__index_page__title": "Nástroje MaxAI",
+    "tools__index_page__description": "Všetky PDF nástroje sú 100% ZDARMA a bežia vo vašom prehliadači pre úplné súkromie",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF na PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertujte PDF na PNG a stiahnite si každú stranu ako obrázok",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF na JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertujte PDF na JPEG a stiahnite si každú stranu ako obrázok",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Zlúčiť PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Zlúčte viacero súborov PDF do jedného s len niekoľkými kliknutiami"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Použite 1-klikovú AI kdekoľvek (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najrýchlejší spôsob, ako používať AI kdekoľvek: AI chat, písanie, kontrola gramatiky, vysvetlenie, súhrn, vyhľadávanie, správa podnetov a ďalšie."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Kliknite pre nahratie alebo presunutie",
-    "components_to_img_detail_select_all": "Vybrať všetko",
-    "components_to_img_detail_deselect_all": "Zrušiť výber všetkého",
-    "components_to_img_detail_download_images": "Stiahnuť obrázky",
-    "components_to_img_detail_remove_pdf": "Odstrániť PDF",
-    "components_to_img_detail_cancel": "Zrušiť",
-    "components_to_img_detail_normal_quality": "Normálna kvalita",
-    "components_to_img_detail_high_quality": "Vysoká kvalita",
-    "components_index_unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
-    "components_to_img_detail_view_pages": "Zobraziť stránky",
-    "components_to_img_detail_view_images": "Zobraziť obrázky",
-    "components_to_img_downloader_tip": "Prosím, vyberte aspoň jednu fotografiu."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Kliknite pre nahratie alebo presunutie",
+    "components__to_image_detail__select_all": "Vybrať všetko",
+    "components__to_image_detail__deselect_all": "Zrušiť výber všetkého",
+    "components__to_image_detail__download_images": "Stiahnuť obrázky",
+    "components__to_image_detail__remove_pdf": "Odstrániť PDF",
+    "components__to_image_detail__cancel": "Zrušiť",
+    "components__to_image_detail__normal_quality": "Normálna kvalita",
+    "components__to_image_detail__high_quality": "Vysoká kvalita",
+    "components__index__unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
+    "components__to_image_detail__view_pages": "Zobraziť stránky",
+    "components__to_image_detail__view_images": "Zobraziť obrázky",
+    "components__to_image__downloader_tip": "Prosím, vyberte aspoň jednu fotografiu."
   }
 }

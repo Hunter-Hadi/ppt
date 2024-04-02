@@ -351,14 +351,14 @@
     "contact_us__item3": "Apóyanos calificando ★★★★★ en",
     "contact_us__item3__store": "Tienda de extensiones web",
     "contact_us__item4": "Ayuda a otros compartiendo esta extensión:",
-    "tool_box_index_page_title": "Herramientas MaxAI",
-    "tool_box_index_page_description": "Todas las herramientas de PDF son 100% GRATUITAS y se ejecutan en tu navegador para una privacidad completa",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF a PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Convierte PDF a PNG y descarga cada página como una imagen",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF a JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convierte PDF a JPEG y descarga cada página como una imagen",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Combinar PDFs",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Combina varios archivos PDF en uno con solo unos clics"
+    "tools__index_page__title": "Herramientas MaxAI",
+    "tools__index_page__description": "Todas las herramientas de PDF son 100% GRATUITAS y se ejecutan en tu navegador para una privacidad completa",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF a PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Convierte PDF a PNG y descarga cada página como una imagen",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF a JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convierte PDF a JPEG y descarga cada página como una imagen",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Combinar PDFs",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Combina varios archivos PDF en uno con solo unos clics"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Usa IA con un solo clic en cualquier lugar (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "La forma más rápida de usar IA en cualquier lugar: chat de IA, escritura, corrección gramatical, explicación, resumen, búsqueda, gestión de sugerencias y más."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Haz clic para cargar o arrastra y suelta",
-    "components_to_img_detail_select_all": "Seleccionar todo",
-    "components_to_img_detail_deselect_all": "Deseleccionar todo",
-    "components_to_img_detail_download_images": "Descargar imágenes",
-    "components_to_img_detail_remove_pdf": "Eliminar PDF",
-    "components_to_img_detail_cancel": "Cancelar",
-    "components_to_img_detail_normal_quality": "Calidad normal",
-    "components_to_img_detail_high_quality": "Alta calidad",
-    "components_index_unsupported_file_type_tip": "Por favor, carga el tipo de archivo PDF especificado",
-    "components_to_img_detail_view_pages": "Ver páginas",
-    "components_to_img_detail_view_images": "Ver imágenes",
-    "components_to_img_downloader_tip": "Por favor, selecciona al menos una imagen."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Haz clic para cargar o arrastra y suelta",
+    "components__to_image_detail__select_all": "Seleccionar todo",
+    "components__to_image_detail__deselect_all": "Deseleccionar todo",
+    "components__to_image_detail__download_images": "Descargar imágenes",
+    "components__to_image_detail__remove_pdf": "Eliminar PDF",
+    "components__to_image_detail__cancel": "Cancelar",
+    "components__to_image_detail__normal_quality": "Calidad normal",
+    "components__to_image_detail__high_quality": "Alta calidad",
+    "components__index__unsupported_file_type_tip": "Por favor, carga el tipo de archivo PDF especificado",
+    "components__to_image_detail__view_pages": "Ver páginas",
+    "components__to_image_detail__view_images": "Ver imágenes",
+    "components__to_image__downloader_tip": "Por favor, selecciona al menos una imagen."
   }
 }

@@ -17,7 +17,9 @@ const FunctionalityPdfMerge = () => {
   };
   const handleUnsupportedFileType = () => {
     snackNotifications.warning(
-      t('functionality_pdf_to_img:components_index_unsupported_file_type_tip'),
+      t(
+        'functionality__pdf_to_image:components__index__unsupported_file_type_tip',
+      ),
       {
         anchorOrigin: {
           vertical: 'top',
@@ -68,7 +70,7 @@ const FunctionalityPdfMerge = () => {
               },
             }}
           >
-            {t('functionality_pdf_to_img:components_index_upload_title')}
+            {t('functionality__pdf_to_image:components__index__upload_title')}
           </Typography>
         </UploadButton>
       )}

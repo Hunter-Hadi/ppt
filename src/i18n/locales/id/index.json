@@ -351,14 +351,14 @@
     "contact_us__item3": "Dukung kami dengan memberikan rating ★★★★★ di",
     "contact_us__item3__store": "Toko ekstensi web",
     "contact_us__item4": "Bantu orang lain dengan membagikan ekstensi ini:",
-    "tool_box_index_page_title": "Alat MaxAI",
-    "tool_box_index_page_description": "Semua alat PDF 100% GRATIS dan berjalan di browser Anda untuk privasi yang lengkap",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ke PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konversi PDF ke PNG dan unduh setiap halaman sebagai gambar",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ke JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konversi PDF ke JPEG dan unduh setiap halaman sebagai gambar",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Gabungkan PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik"
+    "tools__index_page__title": "Alat MaxAI",
+    "tools__index_page__description": "Semua alat PDF 100% GRATIS dan berjalan di browser Anda untuk privasi yang lengkap",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF ke PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konversi PDF ke PNG dan unduh setiap halaman sebagai gambar",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ke JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konversi PDF ke JPEG dan unduh setiap halaman sebagai gambar",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Gabungkan PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Gunakan AI 1-Klik di Mana Saja (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cara tercepat untuk menggunakan AI di mana saja: obrolan AI, menulis, pemeriksaan tata bahasa, penjelasan, ringkasan, pencarian, pengelolaan prompt, dan lainnya."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klik untuk mengunggah atau seret dan lepas",
-    "components_to_img_detail_select_all": "Pilih Semua",
-    "components_to_img_detail_deselect_all": "Batal Pilih Semua",
-    "components_to_img_detail_download_images": "Unduh gambar",
-    "components_to_img_detail_remove_pdf": "Hapus PDF",
-    "components_to_img_detail_cancel": "Batal",
-    "components_to_img_detail_normal_quality": "Kualitas Normal",
-    "components_to_img_detail_high_quality": "Kualitas Tinggi",
-    "components_index_unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
-    "components_to_img_detail_view_pages": "Lihat halaman",
-    "components_to_img_detail_view_images": "Lihat gambar",
-    "components_to_img_downloader_tip": "Silakan pilih setidaknya satu gambar."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klik untuk mengunggah atau seret dan lepas",
+    "components__to_image_detail__select_all": "Pilih Semua",
+    "components__to_image_detail__deselect_all": "Batal Pilih Semua",
+    "components__to_image_detail__download_images": "Unduh gambar",
+    "components__to_image_detail__remove_pdf": "Hapus PDF",
+    "components__to_image_detail__cancel": "Batal",
+    "components__to_image_detail__normal_quality": "Kualitas Normal",
+    "components__to_image_detail__high_quality": "Kualitas Tinggi",
+    "components__index__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
+    "components__to_image_detail__view_pages": "Lihat halaman",
+    "components__to_image_detail__view_images": "Lihat gambar",
+    "components__to_image__downloader_tip": "Silakan pilih setidaknya satu gambar."
   }
 }

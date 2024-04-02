@@ -351,14 +351,14 @@
     "contact_us__item3": "Lütfen ★★★★★ derecelendirme yaparak bize destek olun:",
     "contact_us__item3__store": "Uzantı web mağazası",
     "contact_us__item4": "Bu uzantıyı paylaşarak diğerlerine yardımcı olun:",
-    "tool_box_index_page_title": "MaxAI Araçları",
-    "tool_box_index_page_description": "Tüm PDF araçları %100 ÜCRETSİZ ve tam gizlilik için tarayıcınızda çalışır",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF'den PNG'ye",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF'yi PNG'ye dönüştürün ve her sayfayı bir resim olarak indirin",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF'den JPEG'e",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF'yi JPEG'e dönüştürün ve her sayfayı bir resim olarak indirin",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF'leri Birleştir",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Birkaç tıklama ile birden fazla PDF dosyasını birleştirin"
+    "tools__index_page__title": "MaxAI Araçları",
+    "tools__index_page__description": "Tüm PDF araçları %100 ÜCRETSİZ ve tam gizlilik için tarayıcınızda çalışır",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF'den PNG'ye",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF'yi PNG'ye dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF'den JPEG'e",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF'yi JPEG'e dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDF'leri Birleştir",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Birkaç tıklama ile birden fazla PDF dosyasını birleştirin"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -566,17 +566,17 @@
     "default__title": "MaxAI.me: Her Yerde 1 Tıkla AI Kullanın (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI'nin her yerde kullanmanın en hızlı yolu: AI sohbeti, yazma, dilbilgisi kontrolü, açıklama, özetleme, arama, ipucu yönetimi ve daha fazlası."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Yüklemek için tıklayın veya sürükleyin",
-    "components_to_img_detail_select_all": "Hepsini Seç",
-    "components_to_img_detail_deselect_all": "Hepsini Kaldır",
-    "components_to_img_detail_download_images": "Resimleri İndir",
-    "components_to_img_detail_remove_pdf": "PDF'yi Kaldır",
-    "components_to_img_detail_cancel": "İptal",
-    "components_to_img_detail_normal_quality": "Normal Kalite",
-    "components_to_img_detail_high_quality": "Yüksek Kalite",
-    "components_index_unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
-    "components_to_img_detail_view_pages": "Sayfaları görüntüle",
-    "components_to_img_detail_view_images": "Resimleri görüntüle"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",
+    "components__to_image_detail__select_all": "Hepsini Seç",
+    "components__to_image_detail__deselect_all": "Hepsini Kaldır",
+    "components__to_image_detail__download_images": "Resimleri İndir",
+    "components__to_image_detail__remove_pdf": "PDF'yi Kaldır",
+    "components__to_image_detail__cancel": "İptal",
+    "components__to_image_detail__normal_quality": "Normal Kalite",
+    "components__to_image_detail__high_quality": "Yüksek Kalite",
+    "components__index__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__to_image_detail__view_pages": "Sayfaları görüntüle",
+    "components__to_image_detail__view_images": "Resimleri görüntüle"
   }
 }

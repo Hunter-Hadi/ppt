@@ -2,39 +2,37 @@ import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 
-import FunctionalityIcon from '@/features/functionality_pdf_to_img/components/FunctionalityIcon';
-import FunctionalityImageList from '@/features/functionality_pdf_to_img/components/FunctionalityImageList';
-import usePdfImagesDownloader from '@/features/functionality_pdf_to_img/hooks/usePdfImagesDownloader';
+import FunctionalityIcon from '@/features/functionality_pdf_to_image/components/FunctionalityIcon';
+import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
+import useConvertedContentSelector from '@/features/functionality_pdf_to_image/hooks/useConvertedContentSelector';
+import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
 import usePdfToImageConversion, {
   IPdfPageImageInfo,
-} from '@/features/functionality_pdf_to_img/hooks/usePdfToImageConversion';
-import useSwitchIdSelect from '@/features/functionality_pdf_to_img/hooks/useSwitchSelect';
+} from '@/features/functionality_pdf_to_image/hooks/usePdfToImageConversion';
 
-interface IFunctionalityPdfToImgDetailProps {
+interface IFunctionalityPdfToImageDetailProps {
   fileData: File;
   toType: 'jpeg' | 'png';
   onRemoveFile?: () => void;
 }
-const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
-  fileData,
-  onRemoveFile,
-  toType,
-}) => {
+const FunctionalityPdfToImageDetail: FC<
+  IFunctionalityPdfToImageDetailProps
+> = ({ fileData, onRemoveFile, toType }) => {
   const { t } = useTranslation();
 
   const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5); //当前一行多少个展示
   const [showPdfImagesType, setShowPdfImagesType] = useState<
-    'pdfPageImgs' | 'padPageHaveImgs'
-  >('pdfPageImgs'); //显示pdf页面还是页面的图片
+    'pdfPageImages' | 'padPageHaveImages'
+  >('pdfPageImages'); //显示pdf页面还是页面的图片
   const [selectDownloadSizeIndex, setSelectDownloadSizeIndex] =
     useState<number>(0); //用户选择的下载尺寸大小
 
   const {
     convertedPdfImages,
     setConvertedPdfImages,
-    pdfPageHaveImgs,
-    setPdfPageHaveImgs,
-    pdfIsLoad,
+    pdfPageHaveImages,
+    setPdfPageHaveImages,
+    pdfIsLoading,
     onReadPdfToImages,
     pdfTotalPages,
     currentPdfActionNum,
@@ -42,18 +40,18 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
     pdfViewDefaultSize,
   } = usePdfToImageConversion(toType);
   const {
-    downloaderIsLoad,
+    downloaderIsLoading,
     downloaderTotalPages,
     currentDownloaderActionNum,
     onCancelDownloader,
     onDownloadPdfImagesZip,
   } = usePdfImagesDownloader();
-  const { pdfIsSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useSwitchIdSelect<IPdfPageImageInfo>({
+  const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
+    useConvertedContentSelector<IPdfPageImageInfo>({
       setList:
-        showPdfImagesType === 'pdfPageImgs'
+        showPdfImagesType === 'pdfPageImages'
           ? setConvertedPdfImages
-          : setPdfPageHaveImgs,
+          : setPdfPageHaveImages,
     });
   useEffect(() => {
     if (fileData) {
@@ -83,7 +81,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
     [],
   );
   const maxSizeScaleNum = 4;
-  const imgSizeList = useMemo(() => {
+  const imageSizeList = useMemo(() => {
     // 图片储存列表设置
     return [
       pdfViewDefaultSize,
@@ -96,13 +94,15 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
 
   const onSwitchPdfImagesType = () => {
     setShowPdfImagesType((prev) =>
-      prev === 'pdfPageImgs' ? 'padPageHaveImgs' : 'pdfPageImgs',
+      prev === 'pdfPageImages' ? 'padPageHaveImages' : 'pdfPageImages',
     );
   };
   const showImages =
-    showPdfImagesType === 'pdfPageImgs' ? convertedPdfImages : pdfPageHaveImgs;
+    showPdfImagesType === 'pdfPageImages'
+      ? convertedPdfImages
+      : pdfPageHaveImages;
   const downloadZip = () => {
-    if (showPdfImagesType === 'pdfPageImgs') {
+    if (showPdfImagesType === 'pdfPageImages') {
       //maxSizeScaleNum * 4  默认尺寸是1.6倍
       onDownloadPdfImagesZip(
         showImages,
@@ -118,10 +118,12 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
     onCancelPdfActive && onCancelPdfActive();
     onCancelDownloader();
   };
-  const isLoad = pdfIsLoad || downloaderIsLoad;
-  const totalPages = !downloaderIsLoad ? pdfTotalPages : downloaderTotalPages;
+  const isLoading = pdfIsLoading || downloaderIsLoading;
+  const totalPages = !downloaderIsLoading
+    ? pdfTotalPages
+    : downloaderTotalPages;
 
-  const currentActionNum = !downloaderIsLoad
+  const currentActionNum = !downloaderIsLoading
     ? currentPdfActionNum
     : currentDownloaderActionNum;
 
@@ -139,16 +141,16 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={pdfIsLoad}
+            disabled={pdfIsLoading}
             variant='outlined'
             onClick={onSwitchAllSelect}
           >
-            {pdfIsSelectAll
+            {isSelectAll
               ? t(
-                  'functionality_pdf_to_img:components_to_img_detail_deselect_all',
+                  'functionality__pdf_to_image:components__to_image_detail__deselect_all',
                 )
               : t(
-                  'functionality_pdf_to_img:components_to_img_detail_select_all',
+                  'functionality__pdf_to_image:components__to_image_detail__select_all',
                 )}
           </Button>
         </Grid>
@@ -156,16 +158,16 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={isLoad}
+            disabled={isLoading}
             variant='outlined'
             onClick={onSwitchPdfImagesType}
           >
-            {showPdfImagesType !== 'pdfPageImgs'
+            {showPdfImagesType !== 'pdfPageImages'
               ? t(
-                  'functionality_pdf_to_img:components_to_img_detail_view_pages',
+                  'functionality__pdf_to_image:components__to_image_detail__view_pages',
                 )
               : t(
-                  'functionality_pdf_to_img:components_to_img_detail_view_images',
+                  'functionality__pdf_to_image:components__to_image_detail__view_images',
                 )}
           </Button>
         </Grid>
@@ -173,12 +175,12 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={isLoad}
+            disabled={isLoading}
             variant='contained'
             onClick={() => downloadZip()}
           >
             {t(
-              'functionality_pdf_to_img:components_to_img_detail_download_images',
+              'functionality__pdf_to_image:components__to_image_detail__download_images',
             )}
           </Button>
         </Grid>
@@ -186,15 +188,17 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={isLoad}
+            disabled={isLoading}
             variant='outlined'
             color='error'
             onClick={() => onRemoveFile && onRemoveFile()}
           >
-            {t('functionality_pdf_to_img:components_to_img_detail_remove_pdf')}
+            {t(
+              'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
+            )}
           </Button>
         </Grid>
-        {!isLoad && (
+        {!isLoading && (
           <Grid item xs={6} md={2} display='flex'>
             <Box onClick={() => changeCurrentShowPageCors('enlarge')}>
               <FunctionalityIcon
@@ -215,7 +219,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
             </Box>
           </Grid>
         )}
-        {isLoad && (
+        {isLoading && (
           <Grid item xs={12} md={2}>
             <Button
               sx={{ width: '100%' }}
@@ -224,7 +228,9 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
               color='error'
               onClick={() => onCancel()}
             >
-              {t('functionality_pdf_to_img:components_to_img_detail_cancel')}
+              {t(
+                'functionality__pdf_to_image:components__to_image_detail__cancel',
+              )}
             </Button>
           </Grid>
         )}
@@ -237,12 +243,12 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
         }}
       >
         <FunctionalityImageList
-          onClickImg={(image) => onSwitchSelect(image.id)}
+          onClickImage={(image) => onSwitchSelect(image.id)}
           imageList={showImages}
-          isImgSelect={true}
+          isImageSelect={true}
           pageCols={currentShowPageCors}
         />
-        {isLoad && totalPages > 0 && (
+        {isLoading && totalPages > 0 && (
           <Box
             sx={{
               position: 'absolute',
@@ -262,7 +268,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           </Box>
         )}
       </Box>
-      {showPdfImagesType === 'pdfPageImgs' && (
+      {showPdfImagesType === 'pdfPageImages' && (
         <Grid
           container
           direction='row'
@@ -270,10 +276,10 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           alignItems='center'
           gap={2}
         >
-          {imgSizeList.map((imgSize, index) => (
+          {imageSizeList.map((imageSize, index) => (
             <Box
               key={index}
-              onClick={() => !isLoad && setSelectDownloadSizeIndex(index)}
+              onClick={() => !isLoading && setSelectDownloadSizeIndex(index)}
               sx={{
                 border: `1px solid ${
                   selectDownloadSizeIndex === index ? '#000' : '#e5e7eb'
@@ -297,10 +303,10 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
               >
                 {index === 0
                   ? t(
-                      'functionality_pdf_to_img:components_to_img_detail_normal_quality',
+                      'functionality__pdf_to_image:components__to_image_detail__normal_quality',
                     )
                   : t(
-                      'functionality_pdf_to_img:components_to_img_detail_high_quality',
+                      'functionality__pdf_to_image:components__to_image_detail__high_quality',
                     )}
               </Typography>
               <Typography
@@ -312,7 +318,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
                   color: selectDownloadSizeIndex === index ? '#000' : '#6b7280',
                 }}
               >
-                {imgSize.width} * {imgSize.height}
+                {imageSize.width} * {imageSize.height}
               </Typography>
             </Box>
           ))}
@@ -328,13 +334,13 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
         <Grid item xs={10} md={2}>
           <Button
             sx={{ width: '100%' }}
-            disabled={isLoad}
+            disabled={isLoading}
             size='small'
             variant='contained'
             onClick={() => downloadZip()}
           >
             {t(
-              'functionality_pdf_to_img:components_to_img_detail_download_images',
+              'functionality__pdf_to_image:components__to_image_detail__download_images',
             )}
           </Button>
         </Grid>
@@ -343,4 +349,4 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
   );
 };
 
-export default FunctionalityPdfToImgDetail;
+export default FunctionalityPdfToImageDetail;

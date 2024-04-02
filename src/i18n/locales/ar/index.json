@@ -351,14 +351,14 @@
     "contact_us__item3": "ساعدنا بتقييم ★★★★★ على",
     "contact_us__item3__store": "متجر الإضافات على الويب",
     "contact_us__item4": "ساعد الآخرين عن طريق مشاركة هذه الإضافة:",
-    "tool_box_index_page_title": "أدوات MaxAI",
-    "tool_box_index_page_description": "جميع أدوات PDF مجانية بنسبة 100٪ وتعمل في المتصفح الخاص بك لضمان الخصوصية التامة",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "تحويل PDF إلى PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "تحويل ملف PDF إلى صورة PNG وتنزيل كل صفحة كصورة",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "تحويل PDF إلى JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "تحويل ملف PDF إلى صورة JPEG وتنزيل كل صفحة كصورة",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "دمج ملفات PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "قم بدمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط"
+    "tools__index_page__title": "أدوات MaxAI",
+    "tools__index_page__description": "جميع أدوات PDF مجانية بنسبة 100٪ وتعمل في المتصفح الخاص بك لضمان الخصوصية التامة",
+    "tools__index_page__constant_obj__pdf_to_png__title": "تحويل PDF إلى PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "تحويل ملف PDF إلى صورة PNG وتنزيل كل صفحة كصورة",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "تحويل PDF إلى JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "تحويل ملف PDF إلى صورة JPEG وتنزيل كل صفحة كصورة",
+    "tools__index_page__constant_obj__merge_pdfs__title": "دمج ملفات PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "قم بدمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -566,17 +566,17 @@
     "default__title": "MaxAI.me: استخدم الذكاء الاصطناعي بنقرة واحدة في أي مكان (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "أسرع طريقة لاستخدام الذكاء الاصطناعي في أي مكان: دردشة ذكية، كتابة، فحص قواعد اللغة، شرح، ملخص، بحث، إدارة الاقتراحات، وأكثر من ذلك."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "انقر للتحميل أو قم بالسحب والإفلات",
-    "components_to_img_detail_select_all": "تحديد الكل",
-    "components_to_img_detail_deselect_all": "إلغاء تحديد الكل",
-    "components_to_img_detail_download_images": "تنزيل الصور",
-    "components_to_img_detail_remove_pdf": "إزالة ملف PDF",
-    "components_to_img_detail_cancel": "إلغاء",
-    "components_to_img_detail_normal_quality": "جودة عادية",
-    "components_to_img_detail_high_quality": "جودة عالية",
-    "components_index_unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
-    "components_to_img_detail_view_pages": "عرض الصفحات",
-    "components_to_img_detail_view_images": "عرض الصور"
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "انقر للتحميل أو قم بالسحب والإفلات",
+    "components__to_image_detail__select_all": "تحديد الكل",
+    "components__to_image_detail__deselect_all": "إلغاء تحديد الكل",
+    "components__to_image_detail__download_images": "تنزيل الصور",
+    "components__to_image_detail__remove_pdf": "إزالة ملف PDF",
+    "components__to_image_detail__cancel": "إلغاء",
+    "components__to_image_detail__normal_quality": "جودة عادية",
+    "components__to_image_detail__high_quality": "جودة عالية",
+    "components__index__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
+    "components__to_image_detail__view_pages": "عرض الصفحات",
+    "components__to_image_detail__view_images": "عرض الصور"
   }
 }

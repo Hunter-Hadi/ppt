@@ -351,14 +351,14 @@
     "contact_us__item3": "תמכו בנו על ידי דירוג ★★★★★ ב-",
     "contact_us__item3__store": "חנות הרחבה ברשת",
     "contact_us__item4": "עזרו לאחרים על ידי שיתוף הרחבה זו:",
-    "tool_box_index_page_title": "כלי MaxAI",
-    "tool_box_index_page_description": "כל כלי PDF הם בחינם לחלוטין ורצים בדפדפן שלך לפרטיות מוחלטת",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ל-PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "המרת PDF ל-PNG והורדת כל עמוד כתמונה",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ל-JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "מיזוג PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה"
+    "tools__index_page__title": "כלי MaxAI",
+    "tools__index_page__description": "כל כלי PDF הם בחינם לחלוטין ורצים בדפדפן שלך לפרטיות מוחלטת",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF ל-PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "המרת PDF ל-PNG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ל-JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__merge_pdfs__title": "מיזוג PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -565,18 +565,18 @@
     "default__title": "MaxAI.me: השתמש באינטיליגנציה מלאה בלחיצה אחת (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "הדרך המהירה ביותר להשתמש באינטיליגנציה בכל מקום: צ'אט AI, כתיבה, בדיקת דקדוק, הסבר, סיכום, חיפוש, ניהול פרומפטים ועוד."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "לחץ כדי להעלות או לגרור ולשחרר",
-    "components_to_img_detail_select_all": "בחר הכל",
-    "components_to_img_detail_deselect_all": "בטל בחירת הכל",
-    "components_to_img_detail_download_images": "הורד תמונות",
-    "components_to_img_detail_remove_pdf": "הסר PDF",
-    "components_to_img_detail_cancel": "ביטול",
-    "components_to_img_detail_normal_quality": "איכות רגילה",
-    "components_to_img_detail_high_quality": "איכות גבוהה",
-    "components_index_unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
-    "components_to_img_detail_view_pages": "הצג עמודים",
-    "components_to_img_detail_view_images": "הצג תמונות",
-    "components_to_img_downloader_tip": "אנא בחר לפחות תמונה אחת."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "לחץ כדי להעלות או לגרור ולשחרר",
+    "components__to_image_detail__select_all": "בחר הכל",
+    "components__to_image_detail__deselect_all": "בטל בחירת הכל",
+    "components__to_image_detail__download_images": "הורד תמונות",
+    "components__to_image_detail__remove_pdf": "הסר PDF",
+    "components__to_image_detail__cancel": "ביטול",
+    "components__to_image_detail__normal_quality": "איכות רגילה",
+    "components__to_image_detail__high_quality": "איכות גבוהה",
+    "components__index__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__to_image_detail__view_pages": "הצג עמודים",
+    "components__to_image_detail__view_images": "הצג תמונות",
+    "components__to_image__downloader_tip": "אנא בחר לפחות תמונה אחת."
   }
 }

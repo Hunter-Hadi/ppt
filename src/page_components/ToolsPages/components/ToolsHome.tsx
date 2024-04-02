@@ -18,8 +18,8 @@ const ToolsHome = () => {
     <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={1312}>
       <AppDefaultSeoLayout title={'Tools | MaxAI.me'} />
       <ToolsBanner
-        title={t('pages:tool_box_index_page_title')}
-        description={t('pages:tool_box_index_page_description')}
+        title={t('pages:tools__index_page__title')}
+        description={t('pages:tools__index_page__description')}
       />
       <ToolsCards list={toolList} />
     </AppContainer>

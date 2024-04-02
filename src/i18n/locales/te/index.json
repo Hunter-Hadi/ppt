@@ -351,14 +351,14 @@
     "contact_us__item3": "మీరు ★★★★★ రేటింగ్ ఇవ్వండితే మాకు మద్దతు చేయండి",
     "contact_us__item3__store": "ఎక్స్టెన్షన్ వెబ్ స్టోర్",
     "contact_us__item4": "ఈ ఎక్స్టెన్షన్‌ని షేర్ చేయడం ద్వారా ఇతరులకు సహాయం చేయండి:",
-    "tool_box_index_page_title": "MaxAI పరికరాలు",
-    "tool_box_index_page_description": "అన్ని PDF సాధనాలు 100% ఉచితంగా ఉంటాయి మరియు మీ బ్రౌజర్‌లో పూర్తి గోప్యతానుండి పనిచేసేందుకు",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ను PNG కి",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ను PNG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ను JPEG కి",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ను JPEG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "పిడిఎఫ్‌లను విలీనం చేయండి",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "కొన్ని నొప్పించిన నొక్కలతో ఒకటిగా మరియున్నటి పిడిఎఫ్ ఫైళ్ళను విలీనం చేయండి"
+    "tools__index_page__title": "MaxAI పరికరాలు",
+    "tools__index_page__description": "అన్ని PDF సాధనాలు 100% ఉచితంగా ఉంటాయి మరియు మీ బ్రౌజర్‌లో పూర్తి గోప్యతానుండి పనిచేసేందుకు",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF ను PNG కి",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ను PNG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ను JPEG కి",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ను JPEG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
+    "tools__index_page__constant_obj__merge_pdfs__title": "పిడిఎఫ్‌లను విలీనం చేయండి",
+    "tools__index_page__constant_obj__merge_pdfs__description": "కొన్ని నొప్పించిన నొక్కలతో ఒకటిగా మరియున్నటి పిడిఎఫ్ ఫైళ్ళను విలీనం చేయండి"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: ఎక్కువసారి AI ఉపయోగించడం ఒక నొక్కి (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI ఎవెరీవేర్ ఉపయోగించడం త్వరగా మరియు సులభం: AI చాట్, రచన, వ్యాకరణ తనిఖీ, వివరణ, సారాంశం, శోధన, ప్రాంప్ట్ మేనేజ్మెంట్, మరియు మరెన్నో."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి లేదా దారికి తింటండి",
-    "components_to_img_detail_select_all": "అన్నింటినీ ఎంచుకోండి",
-    "components_to_img_detail_deselect_all": "అన్నింటినీ ఎంచుకోకుండా ఉంచండి",
-    "components_to_img_detail_download_images": "చిత్రాలను డౌన్‌లోడ్ చేయండి",
-    "components_to_img_detail_remove_pdf": "PDF తొలగించండి",
-    "components_to_img_detail_cancel": "రద్దు చేయండి",
-    "components_to_img_detail_normal_quality": "సాధారణ గుర్తింపు",
-    "components_to_img_detail_high_quality": "అధిక గుర్తింపు",
-    "components_index_unsupported_file_type_tip": "దయచేసి ప్రస్తుతం ఉన్న PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
-    "components_to_img_detail_view_pages": "పేజీలను చూడండి",
-    "components_to_img_detail_view_images": "చిత్రాలను చూడండి",
-    "components_to_img_downloader_tip": "దయచేసి కనీసం ఒక చిత్రం ఎంచుకోండి."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి లేదా దారికి తింటండి",
+    "components__to_image_detail__select_all": "అన్నింటినీ ఎంచుకోండి",
+    "components__to_image_detail__deselect_all": "అన్నింటినీ ఎంచుకోకుండా ఉంచండి",
+    "components__to_image_detail__download_images": "చిత్రాలను డౌన్‌లోడ్ చేయండి",
+    "components__to_image_detail__remove_pdf": "PDF తొలగించండి",
+    "components__to_image_detail__cancel": "రద్దు చేయండి",
+    "components__to_image_detail__normal_quality": "సాధారణ గుర్తింపు",
+    "components__to_image_detail__high_quality": "అధిక గుర్తింపు",
+    "components__index__unsupported_file_type_tip": "దయచేసి ప్రస్తుతం ఉన్న PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
+    "components__to_image_detail__view_pages": "పేజీలను చూడండి",
+    "components__to_image_detail__view_images": "చిత్రాలను చూడండి",
+    "components__to_image__downloader_tip": "దయచేసి కనీసం ఒక చిత్రం ఎంచుకోండి."
   }
 }

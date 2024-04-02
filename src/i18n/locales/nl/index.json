@@ -351,14 +351,14 @@
     "contact_us__item3": "Ondersteun ons door ★★★★★ te beoordelen op",
     "contact_us__item3__store": "de webwinkel van de extensie",
     "contact_us__item4": "Help anderen door deze extensie te delen:",
-    "tool_box_index_page_title": "MaxAI Gereedschappen",
-    "tool_box_index_page_description": "Alle PDF-tools zijn 100% GRATIS en worden uitgevoerd in uw browser voor volledige privacy",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF naar PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Converteer PDF naar PNG en download elke pagina als een afbeelding",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF naar JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteer PDF naar JPEG en download elke pagina als een afbeelding",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF's samenvoegen",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken"
+    "tools__index_page__title": "MaxAI Gereedschappen",
+    "tools__index_page__description": "Alle PDF-tools zijn 100% GRATIS en worden uitgevoerd in uw browser voor volledige privacy",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF naar PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Converteer PDF naar PNG en download elke pagina als een afbeelding",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF naar JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converteer PDF naar JPEG en download elke pagina als een afbeelding",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDF's samenvoegen",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Gebruik 1-Click AI Overal (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "De snelste manier om AI overal te gebruiken: AI-chat, schrijven, grammaticacontrole, uitleg, samenvatting, zoeken, promptbeheer en meer."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klik om te uploaden of sleep en plaats",
-    "components_to_img_detail_select_all": "Alles selecteren",
-    "components_to_img_detail_deselect_all": "Alles deselecteren",
-    "components_to_img_detail_download_images": "Afbeeldingen downloaden",
-    "components_to_img_detail_remove_pdf": "PDF verwijderen",
-    "components_to_img_detail_cancel": "Annuleren",
-    "components_to_img_detail_normal_quality": "Normale kwaliteit",
-    "components_to_img_detail_high_quality": "Hoge kwaliteit",
-    "components_index_unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
-    "components_to_img_detail_view_pages": "Bekijk pagina's",
-    "components_to_img_detail_view_images": "Bekijk afbeeldingen",
-    "components_to_img_downloader_tip": "Selecteer minimaal één afbeelding."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klik om te uploaden of sleep en plaats",
+    "components__to_image_detail__select_all": "Alles selecteren",
+    "components__to_image_detail__deselect_all": "Alles deselecteren",
+    "components__to_image_detail__download_images": "Afbeeldingen downloaden",
+    "components__to_image_detail__remove_pdf": "PDF verwijderen",
+    "components__to_image_detail__cancel": "Annuleren",
+    "components__to_image_detail__normal_quality": "Normale kwaliteit",
+    "components__to_image_detail__high_quality": "Hoge kwaliteit",
+    "components__index__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
+    "components__to_image_detail__view_pages": "Bekijk pagina's",
+    "components__to_image_detail__view_images": "Bekijk afbeeldingen",
+    "components__to_image__downloader_tip": "Selecteer minimaal één afbeelding."
   }
 }

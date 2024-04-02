@@ -10,15 +10,13 @@ import {
   toolsObjectData,
 } from '@/page_components/ToolsPages/constant';
 
-const FunctionalityPdfToImg = lazy(
+const FunctionalityPdfToImage = lazy(
   () =>
     import(
-      '@/features/functionality_pdf_to_img/components/FunctionalityPdfToImg'
+      '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImage'
     ),
 );
-// const FunctionalityPdfMerge = lazy(
-//   () => import('@/features/functionality_pdf_merge/components/FunctionalityPdfMerge'),
-// );
+
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -45,10 +43,9 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
         />
         {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
           <Suspense fallback={<AppLoadingLayout loading />}>
-            <FunctionalityPdfToImg toType={urlKey} />
+            <FunctionalityPdfToImage toType={urlKey} />
           </Suspense>
         )}
-        {/* {urlKey === 'merge-pdfs' && <FunctionalityPdfMerge />} */}
       </Box>
     </AppContainer>
   );

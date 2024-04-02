@@ -351,14 +351,14 @@
     "contact_us__item3": "Tusaidie kwa kuipa alama ★★★★★ kwenye",
     "contact_us__item3__store": "Duka la programu la upanuzi",
     "contact_us__item4": "Wasaidie wengine kwa kushiriki upanuzi huu:",
-    "tool_box_index_page_title": "Zana za MaxAI",
-    "tool_box_index_page_description": "Zana zote za PDF ni BURE kabisa na zinaendesha kwenye kivinjari chako kwa faragha kamili",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF kuwa PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Geuza PDF kuwa PNG na pakua kila ukurasa kama picha",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF kuwa JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Geuza PDF kuwa JPEG na pakua kila ukurasa kama picha",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Jumuisha PDFs",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu"
+    "tools__index_page__title": "Zana za MaxAI",
+    "tools__index_page__description": "Zana zote za PDF ni BURE kabisa na zinaendesha kwenye kivinjari chako kwa faragha kamili",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF kuwa PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Geuza PDF kuwa PNG na pakua kila ukurasa kama picha",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF kuwa JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Geuza PDF kuwa JPEG na pakua kila ukurasa kama picha",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Jumuisha PDFs",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Tumia AI kwa Bofya Moja Popote (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Njia ya haraka zaidi ya kutumia AI popote: mazungumzo ya AI, kuandika, ukaguzi wa sarufi, ufafanuzi, muhtasari, utafutaji, usimamizi wa maoni, na zaidi."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Bonyeza ili kupakia au vuta na weka",
-    "components_to_img_detail_select_all": "Chagua Yote",
-    "components_to_img_detail_deselect_all": "Batilisha Uteuzi Wote",
-    "components_to_img_detail_download_images": "Pakua Picha",
-    "components_to_img_detail_remove_pdf": "Ondoa PDF",
-    "components_to_img_detail_cancel": "Ghairi",
-    "components_to_img_detail_normal_quality": "Ubora wa Kawaida",
-    "components_to_img_detail_high_quality": "Ubora wa Juu",
-    "components_index_unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
-    "components_to_img_detail_view_pages": "Angalia kurasa",
-    "components_to_img_detail_view_images": "Angalia picha",
-    "components_to_img_downloader_tip": "Tafadhali chagua angalau picha moja."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Bonyeza ili kupakia au vuta na weka",
+    "components__to_image_detail__select_all": "Chagua Yote",
+    "components__to_image_detail__deselect_all": "Batilisha Uteuzi Wote",
+    "components__to_image_detail__download_images": "Pakua Picha",
+    "components__to_image_detail__remove_pdf": "Ondoa PDF",
+    "components__to_image_detail__cancel": "Ghairi",
+    "components__to_image_detail__normal_quality": "Ubora wa Kawaida",
+    "components__to_image_detail__high_quality": "Ubora wa Juu",
+    "components__index__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
+    "components__to_image_detail__view_pages": "Angalia kurasa",
+    "components__to_image_detail__view_images": "Angalia picha",
+    "components__to_image__downloader_tip": "Tafadhali chagua angalau picha moja."
   }
 }

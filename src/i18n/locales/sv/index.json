@@ -351,14 +351,14 @@
     "contact_us__item3": "Stöd oss genom att betygsätta ★★★★★ på",
     "contact_us__item3__store": "Webbutik för tillägg",
     "contact_us__item4": "Hjälp andra genom att dela detta tillägg:",
-    "tool_box_index_page_title": "MaxAI Verktyg",
-    "tool_box_index_page_description": "Alla PDF-verktyg är 100% GRATIS och körs i din webbläsare för fullständig integritet",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF till PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertera PDF till PNG och ladda ner varje sida som en bild",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF till JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertera PDF till JPEG och ladda ner varje sida som en bild",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Slå samman PDF-filer",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Slå samman flera PDF-filer till en med bara några få klick"
+    "tools__index_page__title": "MaxAI Verktyg",
+    "tools__index_page__description": "Alla PDF-verktyg är 100% GRATIS och körs i din webbläsare för fullständig integritet",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF till PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertera PDF till PNG och ladda ner varje sida som en bild",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF till JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertera PDF till JPEG och ladda ner varje sida som en bild",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Slå samman PDF-filer",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Slå samman flera PDF-filer till en med bara några få klick"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Använd 1-klicks AI var som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Det snabbaste sättet att använda AI var som helst: AI-chatt, skrivande, grammatikkontroll, förklaring, sammanfattning, sökning, hantering av uppmaningar och mer."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klicka för att ladda upp eller dra och släpp",
-    "components_to_img_detail_select_all": "Välj alla",
-    "components_to_img_detail_deselect_all": "Avmarkera alla",
-    "components_to_img_detail_download_images": "Ladda ner bilder",
-    "components_to_img_detail_remove_pdf": "Ta bort PDF",
-    "components_to_img_detail_cancel": "Avbryt",
-    "components_to_img_detail_normal_quality": "Normal kvalitet",
-    "components_to_img_detail_high_quality": "Hög kvalitet",
-    "components_index_unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
-    "components_to_img_detail_view_pages": "Visa sidor",
-    "components_to_img_detail_view_images": "Visa bilder",
-    "components_to_img_downloader_tip": "Vänligen välj minst en bild."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klicka för att ladda upp eller dra och släpp",
+    "components__to_image_detail__select_all": "Välj alla",
+    "components__to_image_detail__deselect_all": "Avmarkera alla",
+    "components__to_image_detail__download_images": "Ladda ner bilder",
+    "components__to_image_detail__remove_pdf": "Ta bort PDF",
+    "components__to_image_detail__cancel": "Avbryt",
+    "components__to_image_detail__normal_quality": "Normal kvalitet",
+    "components__to_image_detail__high_quality": "Hög kvalitet",
+    "components__index__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
+    "components__to_image_detail__view_pages": "Visa sidor",
+    "components__to_image_detail__view_images": "Visa bilder",
+    "components__to_image__downloader_tip": "Vänligen välj minst en bild."
   }
 }

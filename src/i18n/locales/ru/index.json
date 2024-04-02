@@ -351,14 +351,14 @@
     "contact_us__item3": "Поддержите нас, оценив ★★★★★ в",
     "contact_us__item3__store": "Магазине расширений",
     "contact_us__item4": "Помогите другим, поделившись этим расширением:",
-    "tool_box_index_page_title": "Инструменты MaxAI",
-    "tool_box_index_page_description": "Все инструменты для PDF абсолютно БЕСПЛАТНЫ и работают в вашем браузере для полной конфиденциальности",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF в PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Преобразовать PDF в PNG и загрузить каждую страницу как изображение",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF в JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Преобразовать PDF в JPEG и загрузить каждую страницу как изображение",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Объединить PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Объедините несколько файлов PDF в один всего за несколько щелчков"
+    "tools__index_page__title": "Инструменты MaxAI",
+    "tools__index_page__description": "Все инструменты для PDF абсолютно БЕСПЛАТНЫ и работают в вашем браузере для полной конфиденциальности",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF в PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Преобразовать PDF в PNG и загрузить каждую страницу как изображение",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF в JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Преобразовать PDF в JPEG и загрузить каждую страницу как изображение",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Объединить PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Объедините несколько файлов PDF в один всего за несколько щелчков"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Используйте искусственный интеллект в один клик (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Самый быстрый способ использовать искусственный интеллект где угодно: чат с ИИ, написание текстов, проверка грамматики, объяснение, резюмирование, поиск, управление подсказками и многое другое."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Нажмите, чтобы загрузить или перетащите",
-    "components_to_img_detail_select_all": "Выбрать все",
-    "components_to_img_detail_deselect_all": "Отменить выбор всех",
-    "components_to_img_detail_download_images": "Скачать изображения",
-    "components_to_img_detail_remove_pdf": "Удалить PDF",
-    "components_to_img_detail_cancel": "Отмена",
-    "components_to_img_detail_normal_quality": "Обычное качество",
-    "components_to_img_detail_high_quality": "Высокое качество",
-    "components_index_unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
-    "components_to_img_detail_view_pages": "Просмотр страниц",
-    "components_to_img_detail_view_images": "Просмотр изображений",
-    "components_to_img_downloader_tip": "Пожалуйста, выберите хотя бы одно изображение."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Нажмите, чтобы загрузить или перетащите",
+    "components__to_image_detail__select_all": "Выбрать все",
+    "components__to_image_detail__deselect_all": "Отменить выбор всех",
+    "components__to_image_detail__download_images": "Скачать изображения",
+    "components__to_image_detail__remove_pdf": "Удалить PDF",
+    "components__to_image_detail__cancel": "Отмена",
+    "components__to_image_detail__normal_quality": "Обычное качество",
+    "components__to_image_detail__high_quality": "Высокое качество",
+    "components__index__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
+    "components__to_image_detail__view_pages": "Просмотр страниц",
+    "components__to_image_detail__view_images": "Просмотр изображений",
+    "components__to_image__downloader_tip": "Пожалуйста, выберите хотя бы одно изображение."
   }
 }

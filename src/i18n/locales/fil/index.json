@@ -351,14 +351,14 @@
     "contact_us__item3": "Suportahan kami sa pamamagitan ng pagbibigay ng ★★★★★ na rating sa",
     "contact_us__item3__store": "Tindahan ng web extension",
     "contact_us__item4": "Tulungan ang iba sa pamamagitan ng pagbahagi ng extension na ito:",
-    "tool_box_index_page_title": "Mga Kasangkapan ng MaxAI",
-    "tool_box_index_page_description": "Lahat ng mga tool sa PDF ay 100% LIBRE at tumatakbo sa iyong browser para sa kumpletong privacy",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF to PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "I-convert ang PDF sa PNG at i-download ang bawat pahina bilang isang imahe",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF to JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "I-convert ang PDF sa JPEG at i-download ang bawat pahina bilang isang imahe",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Pagsamahin ang mga PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click"
+    "tools__index_page__title": "Mga Kasangkapan ng MaxAI",
+    "tools__index_page__description": "Lahat ng mga tool sa PDF ay 100% LIBRE at tumatakbo sa iyong browser para sa kumpletong privacy",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "I-convert ang PDF sa PNG at i-download ang bawat pahina bilang isang imahe",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "I-convert ang PDF sa JPEG at i-download ang bawat pahina bilang isang imahe",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Pagsamahin ang mga PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Gamitin ang AI sa Isang Click Kahit Saan (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan: AI chat, pagsusulat, pagsuri ng grammar, pagsasalarawan, buod, paghahanap, pamamahala ng prompt, at higit pa."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "I-click para i-upload o i-drag at i-drop",
-    "components_to_img_detail_select_all": "Piliin Lahat",
-    "components_to_img_detail_deselect_all": "Huwag Piliin Lahat",
-    "components_to_img_detail_download_images": "I-download ang mga imahe",
-    "components_to_img_detail_remove_pdf": "Tanggalin ang PDF",
-    "components_to_img_detail_cancel": "Kanselahin",
-    "components_to_img_detail_normal_quality": "Normal na Kalidad",
-    "components_to_img_detail_high_quality": "Matataas na Kalidad",
-    "components_index_unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
-    "components_to_img_detail_view_pages": "Tingnan ang mga pahina",
-    "components_to_img_detail_view_images": "Tingnan ang mga imahe",
-    "components_to_img_downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "I-click para i-upload o i-drag at i-drop",
+    "components__to_image_detail__select_all": "Piliin Lahat",
+    "components__to_image_detail__deselect_all": "Huwag Piliin Lahat",
+    "components__to_image_detail__download_images": "I-download ang mga imahe",
+    "components__to_image_detail__remove_pdf": "Tanggalin ang PDF",
+    "components__to_image_detail__cancel": "Kanselahin",
+    "components__to_image_detail__normal_quality": "Normal na Kalidad",
+    "components__to_image_detail__high_quality": "Matataas na Kalidad",
+    "components__index__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
+    "components__to_image_detail__view_pages": "Tingnan ang mga pahina",
+    "components__to_image_detail__view_images": "Tingnan ang mga imahe",
+    "components__to_image__downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe."
   }
 }

@@ -351,14 +351,14 @@
     "contact_us__item3": "Podpořte nás hodnocením ★★★★★ na",
     "contact_us__item3__store": "Obchod s rozšířeními",
     "contact_us__item4": "Pomozte ostatním sdílením tohoto rozšíření:",
-    "tool_box_index_page_title": "Nástroje MaxAI",
-    "tool_box_index_page_description": "Všechny nástroje pro PDF jsou 100% ZDARMA a běží ve vašem prohlížeči pro úplné soukromí",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF na PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Převést PDF na PNG a stáhnout každou stránku jako obrázek",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF na JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Převést PDF na JPEG a stáhnout každou stránku jako obrázek",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Sloučit PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Slučte více PDF souborů do jednoho jen pár kliknutími"
+    "tools__index_page__title": "Nástroje MaxAI",
+    "tools__index_page__description": "Všechny nástroje pro PDF jsou 100% ZDARMA a běží ve vašem prohlížeči pro úplné soukromí",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF na PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Převést PDF na PNG a stáhnout každou stránku jako obrázek",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF na JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Převést PDF na JPEG a stáhnout každou stránku jako obrázek",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Sloučit PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Slučte více PDF souborů do jednoho jen pár kliknutími"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Použijte 1-Kliknutí AI Kdekoli (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Nejrychlejší způsob, jak používat AI kdekoli: AI chat, psaní, kontrola gramatiky, vysvětlení, shrnutí, vyhledávání, správa podnětů a další."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klikněte pro nahrání nebo přetáhněte",
-    "components_to_img_detail_select_all": "Vybrat vše",
-    "components_to_img_detail_deselect_all": "Zrušit výběr všech",
-    "components_to_img_detail_download_images": "Stáhnout obrázky",
-    "components_to_img_detail_remove_pdf": "Odstranit PDF",
-    "components_to_img_detail_cancel": "Zrušit",
-    "components_to_img_detail_normal_quality": "Normální kvalita",
-    "components_to_img_detail_high_quality": "Vysoká kvalita",
-    "components_index_unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF",
-    "components_to_img_detail_view_pages": "Zobrazit stránky",
-    "components_to_img_detail_view_images": "Zobrazit obrázky",
-    "components_to_img_downloader_tip": "Vyberte prosím alespoň jednu obrázek."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klikněte pro nahrání nebo přetáhněte",
+    "components__to_image_detail__select_all": "Vybrat vše",
+    "components__to_image_detail__deselect_all": "Zrušit výběr všech",
+    "components__to_image_detail__download_images": "Stáhnout obrázky",
+    "components__to_image_detail__remove_pdf": "Odstranit PDF",
+    "components__to_image_detail__cancel": "Zrušit",
+    "components__to_image_detail__normal_quality": "Normální kvalita",
+    "components__to_image_detail__high_quality": "Vysoká kvalita",
+    "components__index__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF",
+    "components__to_image_detail__view_pages": "Zobrazit stránky",
+    "components__to_image_detail__view_images": "Zobrazit obrázky",
+    "components__to_image__downloader_tip": "Vyberte prosím alespoň jednu obrázek."
   }
 }

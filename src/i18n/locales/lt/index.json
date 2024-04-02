@@ -351,14 +351,14 @@
     "contact_us__item3": "Palaikykite mus įvertindami ★★★★★",
     "contact_us__item3__store": "Plėtinio internetinėje parduotuvėje",
     "contact_us__item4": "Padėkite kitiems dalindamiesi šiuo plėtiniu:",
-    "tool_box_index_page_title": "MaxAI Įrankiai",
-    "tool_box_index_page_description": "Visi PDF įrankiai yra 100% NEMOKAMI ir veikia jūsų naršyklėje užtikrinant visišką privatumą",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF į PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertuoti PDF į PNG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF į JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertuoti PDF į JPEG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Sulieti PDF",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Sulieti kelis PDF failus į vieną vos keliais paspaudimais"
+    "tools__index_page__title": "MaxAI Įrankiai",
+    "tools__index_page__description": "Visi PDF įrankiai yra 100% NEMOKAMI ir veikia jūsų naršyklėje užtikrinant visišką privatumą",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF į PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertuoti PDF į PNG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF į JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertuoti PDF į JPEG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Sulieti PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Sulieti kelis PDF failus į vieną vos keliais paspaudimais"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Naudokite 1 paspaudimą AI bet kur (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Greičiausias būdas naudoti AI bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Spustelėkite, norėdami įkelti arba vilkite ir paleiskite",
-    "components_to_img_detail_select_all": "Pasirinkti viską",
-    "components_to_img_detail_deselect_all": "Atšaukti viską",
-    "components_to_img_detail_download_images": "Atsisiųsti paveikslėlius",
-    "components_to_img_detail_remove_pdf": "Pašalinti PDF",
-    "components_to_img_detail_cancel": "Atšaukti",
-    "components_to_img_detail_normal_quality": "Normalus kokybė",
-    "components_to_img_detail_high_quality": "Aukšta kokybė",
-    "components_index_unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
-    "components_to_img_detail_view_pages": "Peržiūrėti puslapius",
-    "components_to_img_detail_view_images": "Peržiūrėti vaizdus",
-    "components_to_img_downloader_tip": "Prašome pasirinkti bent vieną paveikslėlį."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Spustelėkite, norėdami įkelti arba vilkite ir paleiskite",
+    "components__to_image_detail__select_all": "Pasirinkti viską",
+    "components__to_image_detail__deselect_all": "Atšaukti viską",
+    "components__to_image_detail__download_images": "Atsisiųsti paveikslėlius",
+    "components__to_image_detail__remove_pdf": "Pašalinti PDF",
+    "components__to_image_detail__cancel": "Atšaukti",
+    "components__to_image_detail__normal_quality": "Normalus kokybė",
+    "components__to_image_detail__high_quality": "Aukšta kokybė",
+    "components__index__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
+    "components__to_image_detail__view_pages": "Peržiūrėti puslapius",
+    "components__to_image_detail__view_images": "Peržiūrėti vaizdus",
+    "components__to_image__downloader_tip": "Prašome pasirinkti bent vieną paveikslėlį."
   }
 }

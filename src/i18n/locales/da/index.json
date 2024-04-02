@@ -351,14 +351,14 @@
     "contact_us__item3": "Støt os ved at give ★★★★★ i bedømmelse på",
     "contact_us__item3__store": "Webbutikken for udvidelser",
     "contact_us__item4": "Hjælp andre ved at dele denne udvidelse:",
-    "tool_box_index_page_title": "MaxAI Værktøjer",
-    "tool_box_index_page_description": "Alle PDF-værktøjer er 100% GRATIS og kører i din browser for fuld beskyttelse af privatlivet",
-    "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF til PNG",
-    "tool_box_index_page_constant_obj_pdf_to_png_description": "Konverter PDF til PNG og download hver side som et billede",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF til JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konverter PDF til JPEG og download hver side som et billede",
-    "tool_box_index_page_constant_obj_merge_pdfs_title": "Flet PDF'er",
-    "tool_box_index_page_constant_obj_merge_pdfs_description": "Flet flere PDF-filer sammen med bare et par klik"
+    "tools__index_page__title": "MaxAI Værktøjer",
+    "tools__index_page__description": "Alle PDF-værktøjer er 100% GRATIS og kører i din browser for fuld beskyttelse af privatlivet",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konverter PDF til PNG og download hver side som et billede",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konverter PDF til JPEG og download hver side som et billede",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Flet PDF'er",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Flet flere PDF-filer sammen med bare et par klik"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -566,18 +566,18 @@
     "default__title": "MaxAI.me: Brug 1-klik AI Overalt (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Den hurtigste måde at bruge AI overalt: AI chat, skrivning, grammatikkontrol, forklaring, opsummering, søgning, prompthåndtering og mere."
   },
-  "functionality_pdf_to_img": {
-    "components_index_upload_title": "Klik for at uploade eller træk og slip",
-    "components_to_img_detail_select_all": "Vælg alle",
-    "components_to_img_detail_deselect_all": "Fravælg alle",
-    "components_to_img_detail_download_images": "Download billeder",
-    "components_to_img_detail_remove_pdf": "Fjern PDF",
-    "components_to_img_detail_cancel": "Annuller",
-    "components_to_img_detail_normal_quality": "Normal kvalitet",
-    "components_to_img_detail_high_quality": "Høj kvalitet",
-    "components_index_unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
-    "components_to_img_detail_view_pages": "Vis sider",
-    "components_to_img_detail_view_images": "Vis billeder",
-    "components_to_img_downloader_tip": "Vælg venligst mindst ét billede."
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klik for at uploade eller træk og slip",
+    "components__to_image_detail__select_all": "Vælg alle",
+    "components__to_image_detail__deselect_all": "Fravælg alle",
+    "components__to_image_detail__download_images": "Download billeder",
+    "components__to_image_detail__remove_pdf": "Fjern PDF",
+    "components__to_image_detail__cancel": "Annuller",
+    "components__to_image_detail__normal_quality": "Normal kvalitet",
+    "components__to_image_detail__high_quality": "Høj kvalitet",
+    "components__index__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
+    "components__to_image_detail__view_pages": "Vis sider",
+    "components__to_image_detail__view_images": "Vis billeder",
+    "components__to_image__downloader_tip": "Vælg venligst mindst ét billede."
   }
 }
