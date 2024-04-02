@@ -7,19 +7,19 @@ import {
 } from '@mui/material';
 import { FC } from 'react';
 
-interface IToolBoxFunctionalityImageData {
+interface IFunctionalityImageData {
   id: string;
   imgString: string;
   isSelect: boolean;
 }
-interface IToolBoxFunctionalityImageList {
+interface IFunctionalityImageList {
   pageCols: number;
-  imageList: IToolBoxFunctionalityImageData[];
+  imageList: IFunctionalityImageData[];
   isImgSelect: boolean;
-  onClickImg: (image: IToolBoxFunctionalityImageData) => void;
+  onClickImg: (image: IFunctionalityImageData) => void;
 }
 
-const ToolBoxFunctionalityImageList: FC<IToolBoxFunctionalityImageList> = ({
+const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   imageList,
   pageCols = 5,
   isImgSelect = true,
@@ -87,4 +87,4 @@ const ToolBoxFunctionalityImageList: FC<IToolBoxFunctionalityImageList> = ({
     </ImageList>
   );
 };
-export default ToolBoxFunctionalityImageList;
+export default FunctionalityImageList;

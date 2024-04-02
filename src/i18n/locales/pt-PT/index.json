@@ -351,7 +351,7 @@
     "contact_us__item3": "Apoie-nos classificando ★★★★★ em",
     "contact_us__item3__store": "Loja de extensões web",
     "contact_us__item4": "Ajude os outros compartilhando esta extensão:",
-    "tool_box_index_page_title": "Caixa de Ferramentas MaxAI",
+    "tool_box_index_page_title": "Ferramentas MaxAI",
     "tool_box_index_page_description": "Todas as ferramentas são executadas no seu navegador para total privacidade.",
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF para PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Converter PDF para PNG e baixar cada página como uma imagem",
@@ -578,6 +578,5 @@
     "components_index_unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
     "components_to_img_detail_view_pages": "Ver páginas",
     "components_to_img_detail_view_images": "Ver imagens"
-  },
-  "": ""
+  }
 }

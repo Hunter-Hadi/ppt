@@ -1,10 +1,10 @@
 import CropOriginalIcon from '@mui/icons-material/CropOriginal';
 import { SxProps } from '@mui/material';
 import { FC } from 'react';
-interface IToolBoxIconProps {
+interface IToolsIconProps {
   sx?: SxProps;
 }
-const ToolBoxIcon: FC<{ name: string } & IToolBoxIconProps> = ({
+const ToolsIcon: FC<{ name: string } & IToolsIconProps> = ({
   name,
   ...restProps
 }) => {
@@ -22,4 +22,4 @@ const ToolBoxIcon: FC<{ name: string } & IToolBoxIconProps> = ({
 
   return renderIcon();
 };
-export default ToolBoxIcon;
+export default ToolsIcon;

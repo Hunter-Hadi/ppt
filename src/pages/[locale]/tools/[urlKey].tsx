@@ -4,14 +4,14 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ParsedUrlQuery } from 'querystring';
 
 import { makeI18nStaticPathsWithOriginalParams } from '@/i18n/utils/staticHelper';
-import ToolBoxDetail from '@/page_components/ToolBoxPages/components/ToolBoxDetail';
+import ToolsDetail from '@/page_components/ToolsPages/components/ToolsDetail';
 import {
   IToolUrkKeyType,
-  toolBoxObjectData,
-} from '@/page_components/ToolBoxPages/constant';
+  toolsObjectData,
+} from '@/page_components/ToolsPages/constant';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const toolList = Object.keys(toolBoxObjectData).map((key) => key);
+  const toolList = Object.keys(toolsObjectData).map((key) => key);
   return makeI18nStaticPathsWithOriginalParams({
     paths: toolList.map((toolUrlKey) => ({
       params: { urlKey: toolUrlKey },
@@ -19,12 +19,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
     fallback: false,
   });
 };
-const UrlKeyToolBoxDetail = () => {
+const UrlKeyToolsDetail = () => {
   const router = useRouter();
   const { urlKey } = router.query as { urlKey: IToolUrkKeyType };
-  return <ToolBoxDetail urlKey={urlKey} />;
+  return <ToolsDetail urlKey={urlKey} />;
 };
-export default UrlKeyToolBoxDetail;
+export default UrlKeyToolsDetail;
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const locale = context?.params?.locale?.toString() || 'en';

@@ -1,20 +1,31 @@
 import { Box, Typography } from '@mui/material';
-import { FC, Suspense, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
+import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
+import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
-import ToolBoxFunctionalityIcon from '@/features/ToolBoxFunctionalityPdfMerge/components/ToolBoxFunctionalityIcon';
+import FunctionalityIcon from '@/features/functionality_pdf_to_img/components/FunctionalityIcon';
 import snackNotifications from '@/utils/globalSnackbar';
 
-interface IToolBoxDetailProps {}
+const FunctionalityPdfToImgDetail = lazy(
+  () =>
+    import(
+      '@/features/functionality_pdf_to_img/components/FunctionalityPdfToImgDetail'
+    ),
+);
 
-const ToolBoxDetail: FC<IToolBoxDetailProps> = () => {
+interface IFunctionalityProps {
+  toType: 'pdf-to-jpeg' | 'pdf-to-png';
+}
+
+const FunctionalityPdfToImg: FC<IFunctionalityProps> = ({ toType }) => {
   const { t } = useTranslation();
 
-  const [fileList, setFileList] = useState<FileList | null>(null);
+  const [fileData, setFileData] = useState<File | null>(null);
   const onChangeFile = (fileList: FileList) => {
-    console.log('simply fileList', fileList);
-    setFileList(fileList);
+    if (fileList?.length > 0) {
+      setFileData(fileList[0]);
+    }
   };
   const handleUnsupportedFileType = () => {
     snackNotifications.warning(
@@ -29,7 +40,14 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = () => {
       },
     );
   };
-
+  const toImgType = useMemo(() => {
+    switch (toType) {
+      case 'pdf-to-jpeg':
+        return 'jpeg';
+      case 'pdf-to-png':
+        return 'png';
+    }
+  }, [toType]);
   return (
     <Box
       sx={{
@@ -41,14 +59,14 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = () => {
         width: '100%',
       }}
     >
-      {!fileList && (
+      {!fileData && (
         <UploadButton
           buttonProps={{
             sx: {
               display: 'flex',
               flexDirection: 'column',
-              height: 240,
-              width: 230,
+              height: 280,
+              width: 260,
               alignItems: 'center',
               justifyContent: 'center',
               border: '1px dashed',
@@ -57,20 +75,16 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = () => {
           }}
           inputProps={{
             accept: 'application/pdf',
-            multiple: true,
           }}
           onChange={onChangeFile}
           handleUnsupportedFileType={handleUnsupportedFileType}
         >
-          <ToolBoxFunctionalityIcon
-            sx={{ fontSize: 35 }}
-            name='CloudUploadIcon'
-          />
+          <FunctionalityIcon sx={{ fontSize: 35 }} name='CloudUploadIcon' />
           <Typography
             sx={{
               fontSize: {
                 xs: 12,
-                lg: 13,
+                lg: 15,
               },
             }}
           >
@@ -80,10 +94,16 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = () => {
           </Typography>
         </UploadButton>
       )}
-      {fileList && fileList?.length > 0 && (
-        <Suspense fallback={<div>Loading...</div>}></Suspense>
+      {fileData && toImgType && (
+        <Suspense fallback={<AppLoadingLayout loading />}>
+          <FunctionalityPdfToImgDetail
+            fileData={fileData}
+            toType={toImgType}
+            onRemoveFile={() => setFileData(null)}
+          />
+        </Suspense>
       )}
     </Box>
   );
 };
-export default ToolBoxDetail;
+export default FunctionalityPdfToImg;

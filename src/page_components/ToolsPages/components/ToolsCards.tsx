@@ -3,14 +3,17 @@ import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
-import ToolBoxIcon from '@/page_components/ToolBoxPages/components/ToolBoxIcon';
-import { IToolData } from '@/page_components/ToolBoxPages/constant';
+import ToolsIcon from '@/page_components/ToolsPages/components/ToolsIcon';
+import {
+  IToolData,
+  toolsTopUrlKey,
+} from '@/page_components/ToolsPages/constant';
 
-interface IToolBoxCardsProps {
+interface IToolsCardsProps {
   list: IToolData[];
 }
 
-const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
+const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
   const { t } = useTranslation();
 
   return (
@@ -25,7 +28,7 @@ const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
         return (
           <Grid key={toolData.urlKey} item xs={12} sm={6} md={4}>
             <ProLink
-              href={`/tool-box/${toolData.urlKey}`}
+              href={`/${toolsTopUrlKey}/${toolData.urlKey}`}
               color='inherit'
               target='_self'
               sx={{
@@ -34,7 +37,7 @@ const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
             >
               <Card sx={{ padding: 1, cursor: 'pointer' }} variant='outlined'>
                 <CardContent>
-                  <ToolBoxIcon
+                  <ToolsIcon
                     name={toolData.icon}
                     sx={{ color: 'primary.main' }}
                   />
@@ -73,4 +76,4 @@ const ToolBoxCards: FC<IToolBoxCardsProps> = ({ list }) => {
   );
 };
 
-export default ToolBoxCards;
+export default ToolsCards;

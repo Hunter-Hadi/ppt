@@ -1,10 +1,11 @@
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { SxProps } from '@mui/material';
 import { FC } from 'react';
-interface IToolBoxIconProps {
+
+interface IFunctionalityIconProps {
   sx?: SxProps;
 }
-const ToolBoxFunctionalityIcon: FC<{ name: string } & IToolBoxIconProps> = ({
+const FunctionalityIcon: FC<{ name: string } & IFunctionalityIconProps> = ({
   name,
   ...restProps
 }) => {
@@ -21,4 +22,4 @@ const ToolBoxFunctionalityIcon: FC<{ name: string } & IToolBoxIconProps> = ({
 
   return renderIcon();
 };
-export default ToolBoxFunctionalityIcon;
+export default FunctionalityIcon;

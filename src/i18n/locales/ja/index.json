@@ -351,7 +351,7 @@
     "contact_us__item3": "★★★★★で評価していただくことで、私たちをサポートしてください",
     "contact_us__item3__store": "拡張機能ウェブストア",
     "contact_us__item4": "この拡張機能を共有することで、他の人を助けてください",
-    "tool_box_index_page_title": "MaxAIツールボックス",
+    "tool_box_index_page_title": "MaxAI ツール",
     "tool_box_index_page_description": "完全なプライバシーのために、すべてのツールはブラウザで実行されます。",
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDFからPNGへ",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDFをPNGに変換し、各ページを画像としてダウンロードします",
@@ -578,6 +578,5 @@
     "components_index_unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components_to_img_detail_view_pages": "ページを表示",
     "components_to_img_detail_view_images": "画像を表示"
-  },
-  "": ""
+  }
 }

@@ -1,7 +1,7 @@
 import { makeStaticPaths, makeStaticProps } from '@/i18n/utils/staticHelper';
-import ToolBoxPages from '@/page_components/ToolBoxPages';
+import ToolsPages from '@/page_components/ToolsPages';
 
-export default ToolBoxPages;
+export default ToolsPages;
 
 const getStaticProps = makeStaticProps();
 const getStaticPaths = makeStaticPaths();

@@ -3,26 +3,26 @@ import { useMemo } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ToolBoxBanner from '@/page_components/ToolBoxPages/components/ToolBoxBanner';
-import ToolBoxCards from '@/page_components/ToolBoxPages/components/ToolBoxCards';
-import { toolBoxObjectData } from '@/page_components/ToolBoxPages/constant';
+import ToolsBanner from '@/page_components/ToolsPages/components/ToolsBanner';
+import ToolsCards from '@/page_components/ToolsPages/components/ToolsCards';
+import { toolsObjectData } from '@/page_components/ToolsPages/constant';
 
-const ToolBoxHome = () => {
+const ToolsHome = () => {
   const { t } = useTranslation();
 
   const toolList = useMemo(
-    () => Object.keys(toolBoxObjectData).map((key) => toolBoxObjectData[key]),
+    () => Object.keys(toolsObjectData).map((key) => toolsObjectData[key]),
     [],
   );
   return (
     <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={1312}>
-      <AppDefaultSeoLayout title={'ToolBox | MaxAI.me'} />
-      <ToolBoxBanner
+      <AppDefaultSeoLayout title={'Tools | MaxAI.me'} />
+      <ToolsBanner
         title={t('pages:tool_box_index_page_title')}
         description={t('pages:tool_box_index_page_description')}
       />
-      <ToolBoxCards list={toolList} />
+      <ToolsCards list={toolList} />
     </AppContainer>
   );
 };
-export default ToolBoxHome;
+export default ToolsHome;

@@ -351,12 +351,14 @@
     "contact_us__item3": "Tukeaksesi meitä, anna arvio ★★★★★",
     "contact_us__item3__store": "Laajennuksen verkkokaupassa",
     "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:",
-    "tool_box_index_page_title": "MaxAI Työkalupakki",
+    "tool_box_index_page_title": "MaxAI Työkalut",
     "tool_box_index_page_description": "Kaikki työkalut suoritetaan selaimessasi täydellisen yksityisyyden varmistamiseksi.",
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Muunna PDF PNG:ksi ja lataa jokainen sivu kuvana",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Muunna PDF JPEG:ksi ja lataa jokainen sivu kuvana"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Muunna PDF JPEG:ksi ja lataa jokainen sivu kuvana",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Yhdistä PDF-tiedostoja",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",

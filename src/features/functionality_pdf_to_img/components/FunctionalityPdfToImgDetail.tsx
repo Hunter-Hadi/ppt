@@ -1,21 +1,21 @@
 import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
-import { useTranslation } from 'react-i18next';
 
-import ToolBoxFunctionalityIcon from '@/features/ToolBoxFunctionalityPdfToImg/components/ToolBoxFunctionalityIcon';
-import ToolBoxFunctionalityImageList from '@/features/ToolBoxFunctionalityPdfToImg/components/ToolBoxFunctionalityImageList';
-import usePdfImagesDownloader from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfImagesDownloader';
+import FunctionalityIcon from '@/features/functionality_pdf_to_img/components/FunctionalityIcon';
+import FunctionalityImageList from '@/features/functionality_pdf_to_img/components/FunctionalityImageList';
+import usePdfImagesDownloader from '@/features/functionality_pdf_to_img/hooks/usePdfImagesDownloader';
 import usePdfToImageConversion, {
   IPdfPageImageInfo,
-} from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImageConversion';
-import useSwitchIdSelect from '@/features/ToolBoxFunctionalityPdfToImg/hooks/useSwitchSelect';
+} from '@/features/functionality_pdf_to_img/hooks/usePdfToImageConversion';
+import useSwitchIdSelect from '@/features/functionality_pdf_to_img/hooks/useSwitchSelect';
 
-interface IToolBoxFunctionalityPdfToImgProps {
+interface IFunctionalityPdfToImgProps {
   fileData: File;
   toType: 'jpeg' | 'png';
   onRemoveFile?: () => void;
 }
-const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
+const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgProps> = ({
   fileData,
   onRemoveFile,
   toType,
@@ -199,13 +199,13 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
         {!isLoad && (
           <Grid item xs={6} md={2} display='flex'>
             <Box onClick={() => changeCurrentShowPageCors('enlarge')}>
-              <ToolBoxFunctionalityIcon
+              <FunctionalityIcon
                 name='ControlPointTwoTone'
                 sx={{ color: 'primary.main', cursor: 'pointer', fontSize: 30 }}
               />
             </Box>
             <Box onClick={() => changeCurrentShowPageCors('narrow')}>
-              <ToolBoxFunctionalityIcon
+              <FunctionalityIcon
                 name='RemoveCircleTwoTone'
                 sx={{
                   color: 'primary.main',
@@ -240,7 +240,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
           widows: '100%',
         }}
       >
-        <ToolBoxFunctionalityImageList
+        <FunctionalityImageList
           onClickImg={(image) => onSwitchSelect(image.id)}
           imageList={showImages}
           isImgSelect={true}
@@ -347,4 +347,4 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
   );
 };
 
-export default ToolBoxFunctionalityPdfToImg;
+export default FunctionalityPdfToImgDetail;

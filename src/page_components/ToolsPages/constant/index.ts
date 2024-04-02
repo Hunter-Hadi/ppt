@@ -6,8 +6,8 @@ export interface IToolData {
   urlKey: IToolUrkKeyType;
   accept: string;
 }
-
-export const toolBoxObjectData: { [key in IToolUrkKeyType]: IToolData } = {
+export const toolsTopUrlKey = 'tools';
+export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   // 'merge-pdfs': {
   //   icon: 'CropOriginal',
   //   title: 'pages:tool_box_index_page_constant_obj_merge_pdfs_title',

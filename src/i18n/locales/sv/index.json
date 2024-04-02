@@ -351,7 +351,7 @@
     "contact_us__item3": "Stöd oss genom att betygsätta ★★★★★ på",
     "contact_us__item3__store": "Webbutik för tillägg",
     "contact_us__item4": "Hjälp andra genom att dela detta tillägg:",
-    "tool_box_index_page_title": "MaxAI Verktygslåda",
+    "tool_box_index_page_title": "MaxAI Verktyg",
     "tool_box_index_page_description": "Alla verktyg körs i din webbläsare för fullständig integritet.",
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF till PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertera PDF till PNG och ladda ner varje sida som en bild",
@@ -578,6 +578,5 @@
     "components_index_unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components_to_img_detail_view_pages": "Visa sidor",
     "components_to_img_detail_view_images": "Visa bilder"
-  },
-  "": ""
+  }
 }

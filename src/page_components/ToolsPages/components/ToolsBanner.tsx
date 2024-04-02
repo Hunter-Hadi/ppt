@@ -1,13 +1,13 @@
 import { Box, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 
-interface IToolBoxBannerProps {
+interface IToolsBannerProps {
   title: string;
   description: string;
 }
 
-const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
+const ToolsBanner: FC<IToolsBannerProps> = ({ title, description }) => {
   const { t } = useTranslation();
 
   return (
@@ -58,4 +58,4 @@ const ToolBoxBanner: FC<IToolBoxBannerProps> = ({ title, description }) => {
   );
 };
 
-export default ToolBoxBanner;
+export default ToolsBanner;

@@ -3,8 +3,8 @@ import JSZip from 'jszip';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import { dataURLtoBlob } from '@/features/ToolBoxFunctionalityPdfToImg//utils/pdfTool';
-import { IPdfPageImageInfo } from '@/features/ToolBoxFunctionalityPdfToImg/hooks/usePdfToImageConversion';
+import { IPdfPageImageInfo } from '@/features/functionality_pdf_to_img/hooks/usePdfToImageConversion';
+import { dataURLtoBlob } from '@/features/functionality_pdf_to_img/utils/pdfTool';
 import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
