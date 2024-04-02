@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF na PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertujte PDF na PNG a stiahnite si každú stranu ako obrázok",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF na JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertujte PDF na JPEG a stiahnite si každú stranu ako obrázok"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertujte PDF na JPEG a stiahnite si každú stranu ako obrázok",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Zlúčiť PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Zlúčte viacero súborov PDF do jedného s len niekoľkými kliknutiami"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",

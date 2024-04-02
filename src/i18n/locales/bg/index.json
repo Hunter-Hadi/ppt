@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF към PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Конвертирайте PDF в PNG и изтеглете всяка страница като изображение",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF към JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Конвертирайте PDF в JPEG и изтеглете всяка страница като изображение"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Конвертирайте PDF в JPEG и изтеглете всяка страница като изображение",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Обединяване на PDF файлове",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Обединете няколко PDF файла в един с няколко кликвания"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",

@@ -1,27 +1,19 @@
 import { Box, Typography } from '@mui/material';
-import { FC, lazy, Suspense, useMemo, useState } from 'react';
+import { FC, Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import UploadButton from '@/features/common/components/UploadButton';
 import ToolBoxIcon from '@/page_components/ToolBoxPages/components/ToolBoxIcon';
 import snackNotifications from '@/utils/globalSnackbar';
 
-const ToolBoxFunctionalityPdfToImg = lazy(
-  () =>
-    import(
-      '@/features/ToolBoxFunctionalityPdfToImg/components/ToolBoxFunctionalityPdfToImgDetail'
-    ),
-);
+interface IToolBoxDetailProps {}
 
-interface IToolBoxDetailProps {
-  toType: 'pdf-to-jpeg' | 'pdf-to-png';
-}
-
-const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
+const ToolBoxDetail: FC<IToolBoxDetailProps> = () => {
   const { t } = useTranslation();
 
   const [fileList, setFileList] = useState<FileList | null>(null);
   const onChangeFile = (fileList: FileList) => {
+    console.log('simply fileList', fileList);
     setFileList(fileList);
   };
   const handleUnsupportedFileType = () => {
@@ -37,14 +29,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
       },
     );
   };
-  const toImgType = useMemo(() => {
-    switch (toType) {
-      case 'pdf-to-jpeg':
-        return 'jpeg';
-      case 'pdf-to-png':
-        return 'png';
-    }
-  }, [toType]);
+
   return (
     <Box
       sx={{
@@ -72,6 +57,7 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
           }}
           inputProps={{
             accept: 'application/pdf',
+            multiple: true,
           }}
           onChange={onChangeFile}
           handleUnsupportedFileType={handleUnsupportedFileType}
@@ -91,14 +77,8 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ toType }) => {
           </Typography>
         </UploadButton>
       )}
-      {fileList && fileList?.length > 0 && toImgType && (
-        <Suspense fallback={<div>Loading...</div>}>
-          <ToolBoxFunctionalityPdfToImg
-            fileList={fileList}
-            toType={toImgType}
-            onRemoveFile={() => setFileList(null)}
-          />
-        </Suspense>
+      {fileList && fileList?.length > 0 && (
+        <Suspense fallback={<div>Loading...</div>}></Suspense>
       )}
     </Box>
   );

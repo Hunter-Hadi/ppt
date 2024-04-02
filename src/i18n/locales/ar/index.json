@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "تحويل PDF إلى PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "تحويل ملف PDF إلى صورة PNG وتنزيل كل صفحة كصورة",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "تحويل PDF إلى JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "تحويل ملف PDF إلى صورة JPEG وتنزيل كل صفحة كصورة"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "تحويل ملف PDF إلى صورة JPEG وتنزيل كل صفحة كصورة",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "دمج ملفات PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "قم بدمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",

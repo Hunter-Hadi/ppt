@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF til PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konverter PDF til PNG og download hver side som et billede",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF til JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konverter PDF til JPEG og download hver side som et billede"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konverter PDF til JPEG og download hver side som et billede",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Flet PDF'er",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Flet flere PDF-filer sammen med bare et par klik"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

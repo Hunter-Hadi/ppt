@@ -1,4 +1,4 @@
-export type IToolUrkKeyType = 'pdf-to-png' | 'pdf-to-jpeg';
+export type IToolUrkKeyType = 'pdf-to-png' | 'pdf-to-jpeg' | 'merge-pdfs';
 export interface IToolData {
   icon: string;
   title: string;
@@ -8,6 +8,14 @@ export interface IToolData {
 }
 
 export const toolBoxObjectData: { [key in IToolUrkKeyType]: IToolData } = {
+  'merge-pdfs': {
+    icon: 'CropOriginal',
+    title: 'pages:tool_box_index_page_constant_obj_merge_pdfs_title',
+    description:
+      'pages:tool_box_index_page_constant_obj_merge_pdfs_description',
+    urlKey: 'merge-pdfs',
+    accept: 'application/pdf',
+  },
   'pdf-to-png': {
     icon: 'CropOriginal',
     title: 'pages:tool_box_index_page_constant_obj_pdf_to_png_title',

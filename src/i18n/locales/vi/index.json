@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF sang PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Chuyển đổi PDF sang PNG và tải xuống từng trang dưới dạng hình ảnh",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF sang JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Gộp PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",

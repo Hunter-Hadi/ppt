@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF เป็น PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "แปลง PDF เป็น PNG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF เป็น JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "แปลง PDF เป็น JPEG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "แปลง PDF เป็น JPEG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "รวม PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",

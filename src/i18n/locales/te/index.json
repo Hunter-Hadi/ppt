@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ను PNG కి",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ను PNG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ను JPEG కి",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ను JPEG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ను JPEG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "పిడిఎఫ్‌లను విలీనం చేయండి",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "కొన్ని నొప్పించిన నొక్కలతో ఒకటిగా మరియున్నటి పిడిఎఫ్ ఫైళ్ళను విలీనం చేయండి"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",

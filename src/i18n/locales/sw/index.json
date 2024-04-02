@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF kuwa PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Geuza PDF kuwa PNG na pakua kila ukurasa kama picha",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF kuwa JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Geuza PDF kuwa JPEG na pakua kila ukurasa kama picha"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Geuza PDF kuwa JPEG na pakua kila ukurasa kama picha",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Jumuisha PDFs",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",

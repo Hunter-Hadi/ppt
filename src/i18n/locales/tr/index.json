@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF'den PNG'ye",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF'yi PNG'ye dönüştürün ve her sayfayı bir resim olarak indirin",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF'den JPEG'e",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF'yi JPEG'e dönüştürün ve her sayfayı bir resim olarak indirin"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF'yi JPEG'e dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF'leri Birleştir",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Birkaç tıklama ile birden fazla PDF dosyasını birleştirin"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",

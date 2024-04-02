@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ወደ PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ወደ PNG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ወደ JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ወደ JPEG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ወደ JPEG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "ፕድን ማርገዝ",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",

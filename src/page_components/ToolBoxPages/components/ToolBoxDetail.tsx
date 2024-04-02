@@ -12,7 +12,9 @@ import {
 const ToolBoxFunctionalityPdfToImg = lazy(
   () => import('@/features/ToolBoxFunctionalityPdfToImg/components'),
 );
-
+const ToolBoxFunctionalityPdfMerge = lazy(
+  () => import('@/features/ToolBoxFunctionalityPdfMerge/components'),
+);
 interface IToolBoxDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -38,8 +40,9 @@ const ToolBoxDetail: FC<IToolBoxDetailProps> = ({ urlKey }) => {
           description={currentToolData.description}
         />
         {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
-          <ToolBoxFunctionalityPdfToImg urlKey={urlKey} />
+          <ToolBoxFunctionalityPdfToImg toType={urlKey} />
         )}
+        {urlKey === 'merge-pdfs' && <ToolBoxFunctionalityPdfMerge />}
       </Box>
     </AppContainer>
   );

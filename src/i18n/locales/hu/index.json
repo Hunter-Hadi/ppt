@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF PNG-ra",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF átalakítása PNG formátumba és minden oldal letöltése képként",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF JPEG-re",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF átalakítása JPEG formátumba és minden oldal letöltése képként"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF átalakítása JPEG formátumba és minden oldal letöltése képként",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF-ek egyesítése",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Több PDF fájl egyesítése néhány kattintással"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

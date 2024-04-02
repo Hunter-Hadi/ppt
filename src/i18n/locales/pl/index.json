@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF do PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konwertuj PDF do PNG i pobierz każdą stronę jako obraz",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF do JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konwertuj PDF do JPEG i pobierz każdą stronę jako obraz"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konwertuj PDF do JPEG i pobierz każdą stronę jako obraz",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Scal pliki PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Połącz wiele plików PDF w jeden za pomocą kilku kliknięć"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",

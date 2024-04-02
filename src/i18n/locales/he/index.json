@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ל-PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "המרת PDF ל-PNG והורדת כל עמוד כתמונה",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ל-JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "מיזוג PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

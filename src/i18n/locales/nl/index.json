@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF naar PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Converteer PDF naar PNG en download elke pagina als een afbeelding",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF naar JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteer PDF naar JPEG en download elke pagina als een afbeelding"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteer PDF naar JPEG en download elke pagina als een afbeelding",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF's samenvoegen",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",

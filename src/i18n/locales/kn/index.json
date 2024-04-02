@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ನಿಂದ PNG ಗೆ",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "ಪ್ರತಿ ಪುಟವನ್ನು ಚಿತ್ರವಾಗಿ ಬದಲಾಯಿಸಿ PNG ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ನಿಂದ JPEG ಗೆ",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "ಪ್ರತಿ ಪುಟವನ್ನು ಚಿತ್ರವಾಗಿ ಬದಲಾಯಿಸಿ JPEG ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "ಪ್ರತಿ ಪುಟವನ್ನು ಚಿತ್ರವಾಗಿ ಬದಲಾಯಿಸಿ JPEG ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು PDF ಕಡತಗಳನ್ನು ಒಂದರಲ್ಲಿ ಸೇರಿಸಿ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",

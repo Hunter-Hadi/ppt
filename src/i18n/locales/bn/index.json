@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF থেকে PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF থেকে PNG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF থেকে JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF থেকে JPEG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF থেকে JPEG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "পিডিএফ মার্জ করুন",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "কয়েকটি ক্লিকের মাধ্যমে একটি পিডিএফ ফাইলে একত্রিত করুন"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",

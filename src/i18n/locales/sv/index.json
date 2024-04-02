@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF till PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertera PDF till PNG och ladda ner varje sida som en bild",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF till JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertera PDF till JPEG och ladda ner varje sida som en bild"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertera PDF till JPEG och ladda ner varje sida som en bild",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Slå samman PDF-filer",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Slå samman flera PDF-filer till en med bara några få klick"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -576,5 +578,6 @@
     "components_index_unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components_to_img_detail_view_pages": "Visa sidor",
     "components_to_img_detail_view_images": "Visa bilder"
-  }
+  },
+  "": ""
 }

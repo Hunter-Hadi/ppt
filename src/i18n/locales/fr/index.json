@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF vers PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Convertir un PDF en PNG et télécharger chaque page en tant qu'image",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF vers JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertir un PDF en JPEG et télécharger chaque page en tant qu'image"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertir un PDF en JPEG et télécharger chaque page en tant qu'image",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Fusionner des PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Fusionnez plusieurs fichiers PDF en un seul en quelques clics seulement"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",
@@ -576,5 +578,6 @@
     "components_index_unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components_to_img_detail_view_pages": "Voir les pages",
     "components_to_img_detail_view_images": "Voir les images"
-  }
+  },
+  "": ""
 }

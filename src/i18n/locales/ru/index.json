@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF в PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Преобразовать PDF в PNG и загрузить каждую страницу как изображение",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF в JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Преобразовать PDF в JPEG и загрузить каждую страницу как изображение"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Преобразовать PDF в JPEG и загрузить каждую страницу как изображение",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Объединить PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Объедините несколько файлов PDF в один всего за несколько щелчков"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",

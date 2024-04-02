@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "تبدیل PDF به PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "تبدیل PDF به PNG و دانلود هر صفحه به عنوان تصویر",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "تبدیل PDF به JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "تبدیل PDF به JPEG و دانلود هر صفحه به عنوان تصویر"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "تبدیل PDF به JPEG و دانلود هر صفحه به عنوان تصویر",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "ادغام فایل‌های PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "ادغام چندین فایل PDF به یک فایل با چند کلیک"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

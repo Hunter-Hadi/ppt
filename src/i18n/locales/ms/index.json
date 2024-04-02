@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ke PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Tukar PDF ke PNG dan muat turun setiap halaman sebagai imej",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ke JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Tukar PDF ke JPEG dan muat turun setiap halaman sebagai imej"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Tukar PDF ke JPEG dan muat turun setiap halaman sebagai imej",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Gabung PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Gabung beberapa fail PDF menjadi satu dengan hanya beberapa klik"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",

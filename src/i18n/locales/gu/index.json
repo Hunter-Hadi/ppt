@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF થી PNG માં",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ને PNG માં રૂપાંતરિત કરો અને દર પૃષ્ઠને એક છબિ તરીકે ડાઉનલોડ કરો",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF થી JPEG માં",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ને JPEG માં રૂપાંતરિત કરો અને દર પૃષ્ઠને એક છબિ તરીકે ડાઉનલોડ કરો"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ને JPEG માં રૂપાંતરિત કરો અને દર પૃષ્ઠને એક છબિ તરીકે ડાઉનલોડ કરો",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "પીડીએફ મર્જ કરો",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "થોડા ક્લિક્સ સાથે અનેક પીડીએફ ફાઈલોને એકમાં મર્જ કરો"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",

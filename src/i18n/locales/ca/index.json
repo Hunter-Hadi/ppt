@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF a PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Converteix PDF a PNG i descarrega cada pàgina com a imatge",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF a JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteix PDF a JPEG i descarrega cada pàgina com a imatge"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Converteix PDF a JPEG i descarrega cada pàgina com a imatge",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Fusiona els PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Fusiona diversos fitxers PDF en un amb només uns quants clics"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",

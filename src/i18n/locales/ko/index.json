@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF를 PNG로 변환",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF를 PNG로 변환하고 각 페이지를 이미지로 다운로드합니다.",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF를 JPEG로 변환",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF를 JPEG로 변환하고 각 페이지를 이미지로 다운로드합니다."
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF를 JPEG로 변환하고 각 페이지를 이미지로 다운로드합니다.",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF 병합",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "몇 번의 클릭으로 여러 개의 PDF 파일을 하나로 병합하세요"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",

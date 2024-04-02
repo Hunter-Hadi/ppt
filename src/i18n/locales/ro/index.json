@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF în PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Convertește PDF în PNG și descarcă fiecare pagină ca imagine",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF în JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Unifică PDF-uri",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",

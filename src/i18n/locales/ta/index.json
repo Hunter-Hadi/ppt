@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF முதல் PNG க்கு",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ஐ PNG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF முதல் JPEG க்கு",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ஐ JPEG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ஐ JPEG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "பி.டி.எப்ஸ் ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "கிளிக்குகள் மட்டுமே பல பி.டி.எப்ஸ் கோப்புகளை ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",

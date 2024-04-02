@@ -16,8 +16,10 @@ const VisuallyHiddenInput = styled('input')({
   width: 1,
 });
 
-interface IUploadButtonProps extends Omit<ButtonProps, 'onChange'> {
-  accept?: string;
+interface IUploadButtonProps {
+  buttonProps?: Omit<ButtonProps, 'onChange'>;
+  inputProps?: React.InputHTMLAttributes<HTMLInputElement>;
+  children: React.ReactNode;
   isDrag?: boolean;
   onChange?: (fileList: FileList) => void;
   handleUnsupportedFileType?: () => void;
@@ -26,12 +28,11 @@ interface IUploadButtonProps extends Omit<ButtonProps, 'onChange'> {
 const UploadButton: FC<IUploadButtonProps> = (props) => {
   const {
     children,
-    variant = 'contained',
-    accept,
     onChange,
     isDrag = true,
     handleUnsupportedFileType,
-    ...restProps
+    buttonProps,
+    inputProps,
   } = props;
   const fileMatchesAccept = (fileType: string, acceptString: string) => {
     // 将accept字符串按照","拆分成多个类型
@@ -55,9 +56,9 @@ const UploadButton: FC<IUploadButtonProps> = (props) => {
   const onChangeFiles = (fileList: FileList) => {
     //拦截drag不符合type约束的文件
     if (
-      props?.accept &&
+      inputProps?.accept &&
       fileList?.[0] &&
-      !fileMatchesAccept(fileList[0].type, props.accept)
+      !fileMatchesAccept(fileList[0].type, inputProps.accept)
     ) {
       handleUnsupportedFileType && handleUnsupportedFileType();
       return;
@@ -89,20 +90,19 @@ const UploadButton: FC<IUploadButtonProps> = (props) => {
       <Button
         {...dragMap}
         component='label'
-        variant={variant}
         sx={{
           position: 'relative',
         }}
-        {...(restProps as any)}
+        {...(buttonProps as any)}
       >
         {!isSidebarDragOver && children}
         {isSidebarDragOver && <div>Drop here</div>}
         <VisuallyHiddenInput
           type='file'
-          accept={accept}
           onChange={(event) =>
             onChange && event.target.files && onChange(event.target.files)
           }
+          {...inputProps}
         />
       </Button>
     </div>

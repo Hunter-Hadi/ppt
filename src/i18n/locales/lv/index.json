@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF uz PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertēt PDF uz PNG un lejupielādēt katru lapu kā attēlu",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF uz JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertēt PDF uz JPEG un lejupielādēt katru lapu kā attēlu"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertēt PDF uz JPEG un lejupielādēt katru lapu kā attēlu",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Apvienot PDF failus",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Apvieno vairākus PDF failus vienā ar tikai dažiem klikšķiem"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",

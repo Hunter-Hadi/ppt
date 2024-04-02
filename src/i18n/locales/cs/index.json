@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF na PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Převést PDF na PNG a stáhnout každou stránku jako obrázek",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF na JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Převést PDF na JPEG a stáhnout každou stránku jako obrázek"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Převést PDF na JPEG a stáhnout každou stránku jako obrázek",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Sloučit PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Slučte více PDF souborů do jednoho jen pár kliknutími"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",

@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF से PNG में बदलें",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से PNG में बदलें और डाउनलोड करें",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF से JPEG में बदलें",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से JPEG में बदलें और डाउनलोड करें"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से JPEG में बदलें और डाउनलोड करें",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "पीडीएफ़ जोड़ें",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "कुछ ही क्लिक के साथ कई पीडीएफ़ फ़ाइलों को एक में जोड़ें"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

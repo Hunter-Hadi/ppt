@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF v PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Pretvori PDF v PNG in prenesi vsako stran kot sliko",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF v JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Pretvori PDF v JPEG in prenesi vsako stran kot sliko"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Pretvori PDF v JPEG in prenesi vsako stran kot sliko",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Združi PDF-je",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Združite več PDF datotek v eno z le nekaj kliki"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",

@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ke PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konversi PDF ke PNG dan unduh setiap halaman sebagai gambar",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ke JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konversi PDF ke JPEG dan unduh setiap halaman sebagai gambar"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konversi PDF ke JPEG dan unduh setiap halaman sebagai gambar",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Gabungkan PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

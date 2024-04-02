@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF 轉 PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "將 PDF 轉換為 PNG，並下載每個頁面作為圖像",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF 轉 JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "將 PDF 轉換為 JPEG，並下載每個頁面作為圖像"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "將 PDF 轉換為 JPEG，並下載每個頁面作為圖像",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "合併 PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "只需點擊幾下，將多個 PDF 文件合併為一個"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",

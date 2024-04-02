@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF ते PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF ला PNG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF ते JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ला JPEG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF ला JPEG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDF एकत्रीकरण",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

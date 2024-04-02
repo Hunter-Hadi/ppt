@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF سے PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF کو PNG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF سے JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF کو JPEG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF کو JPEG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDFs کو مرکٹ کریں",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "متعدد پی ڈی ایف فائلوں کو صرف چند کلکس کے ساتھ ایک میں مرکٹ کریں"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",

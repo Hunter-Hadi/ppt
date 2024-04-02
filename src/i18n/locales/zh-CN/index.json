@@ -342,7 +342,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF转PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "将PDF转换为PNG，并下载每一页作为图像",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF转JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "将PDF转换为JPEG，并下载每一页作为图像"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "将PDF转换为JPEG，并下载每一页作为图像",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "合并PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "只需点击几下，将多个PDF文件合并为一个"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

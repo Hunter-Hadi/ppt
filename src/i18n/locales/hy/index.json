@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF-ից PNG-ի",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "վերափոխեք PDF-ը PNG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF-ից JPEG-ի",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "վերափոխեք PDF-ը JPEG-ին և բեռնեք յուրաքանչյուր էջը պատկերով"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "վերափոխեք PDF-ը JPEG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Միացնել PDF-երը",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",

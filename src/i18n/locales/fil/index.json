@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF to PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "I-convert ang PDF sa PNG at i-download ang bawat pahina bilang isang imahe",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF to JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "I-convert ang PDF sa JPEG at i-download ang bawat pahina bilang isang imahe"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "I-convert ang PDF sa JPEG at i-download ang bawat pahina bilang isang imahe",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Pagsamahin ang mga PDF",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",

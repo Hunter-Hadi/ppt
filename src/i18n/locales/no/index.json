@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF til PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konverter PDF til PNG og last ned hver side som et bilde",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF til JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konverter PDF til JPEG og last ned hver side som et bilde"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konverter PDF til JPEG og last ned hver side som et bilde",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "Slå sammen PDF-filer",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Slå sammen flere PDF-filer til én med bare noen få klikk"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -576,5 +578,6 @@
     "components_index_unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components_to_img_detail_view_pages": "Vis sider",
     "components_to_img_detail_view_images": "Vis bilder"
-  }
+  },
+  "": ""
 }

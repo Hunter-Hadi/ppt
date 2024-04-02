@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF മുതൽ PNG വരെ",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDF മുതൽ PNG വരെ പരിവർത്തനം ചെയ്യുക, ഓരേ പേജ് ഒരു ചിത്രമായി ഡൗൺലോഡുചെയ്യുക",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF മുതൽ JPEG വരെ",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF മുതൽ JPEG വരെ പരിവർത്തനം ചെയ്യുക, ഓരേ പേജ് ഒരു ചിത്രമായി ഡൗൺലോഡുചെയ്യുക"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDF മുതൽ JPEG വരെ പരിവർത്തനം ചെയ്യുക, ഓരേ പേജ് ഒരു ചിത്രമായി ഡൗൺലോഡുചെയ്യുക",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "പിഡിഎഫുകൾ ഒരുപോലെ മര്‍ജ്ജിക്കുക",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "കുറഞ്ഞ ക്ലിക്കുകളില്‍ നിന്നും ഒരുപോലെ നിലവില്‍ ഉള്ള പല പിഡിഎഫുകളെ ഒരുപോലെ മര്‍ജ്ജിക്കുക"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",

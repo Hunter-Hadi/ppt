@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDFからPNGへ",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "PDFをPNGに変換し、各ページを画像としてダウンロードします",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDFからJPEGへ",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDFをJPEGに変換し、各ページを画像としてダウンロードします"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "PDFをJPEGに変換し、各ページを画像としてダウンロードします",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDFの結合",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "数回のクリックで複数のPDFファイルを1つに結合します"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -576,5 +578,6 @@
     "components_index_unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components_to_img_detail_view_pages": "ページを表示",
     "components_to_img_detail_view_images": "画像を表示"
-  }
+  },
+  "": ""
 }

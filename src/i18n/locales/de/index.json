@@ -356,7 +356,9 @@
     "tool_box_index_page_constant_obj_pdf_to_png_title": "PDF zu PNG",
     "tool_box_index_page_constant_obj_pdf_to_png_description": "Konvertiere PDF zu PNG und lade jede Seite als Bild herunter",
     "tool_box_index_page_constant_obj_pdf_to_jpeg_title": "PDF zu JPEG",
-    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertiere PDF zu JPEG und lade jede Seite als Bild herunter"
+    "tool_box_index_page_constant_obj_pdf_to_jpeg_description": "Konvertiere PDF zu JPEG und lade jede Seite als Bild herunter",
+    "tool_box_index_page_constant_obj_merge_pdfs_title": "PDFs zusammenführen",
+    "tool_box_index_page_constant_obj_merge_pdfs_description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
