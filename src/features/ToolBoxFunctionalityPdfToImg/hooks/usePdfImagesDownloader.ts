@@ -25,63 +25,67 @@ const usePdfImagesDownloader = () => {
       file?: File,
       scale?: number,
     ) => {
-      isCancel.current = false;
-      setCurrentDownloaderActionNum(0);
-      setDownloaderIsLoad(true);
-      const zip = new JSZip();
-      const images = zip.folder('images');
-      const selectedImages = convertedPdfImages.filter(
-        (image) => image.isSelect,
-      );
-      setDownloaderTotalPages(selectedImages.length);
+      try {
+        isCancel.current = false;
+        setCurrentDownloaderActionNum(0);
+        setDownloaderIsLoad(true);
+        const zip = new JSZip();
+        const images = zip.folder('images');
+        const selectedImages = convertedPdfImages.filter(
+          (image) => image.isSelect,
+        );
+        setDownloaderTotalPages(selectedImages.length);
 
-      //只有重新设置scale尺寸，才会重新加载pdf
-      const buff = scale ? await file?.arrayBuffer() : undefined;
-      const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
+        //只有重新设置scale尺寸，才会重新加载pdf
+        const buff = scale ? await file?.arrayBuffer() : undefined;
+        const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
 
-      for (let i = 0; i < selectedImages.length; i++) {
-        if (isCancel.current) return;
-        setCurrentDownloaderActionNum(i + 1);
-        if (!scale) {
-          images?.file(
-            `image-${i + 1}.${toType}`,
-            dataURLtoBlob(selectedImages[i].imgString),
-            {
-              base64: true,
-            },
-          );
-        } else if (pdfDoc && scale) {
-          const { imageDataUrl } = await generatePdfToImage(
-            pdfDoc,
-            selectedImages[i].definedIndex,
-            toType,
-            scale,
-          );
+        for (let i = 0; i < selectedImages.length; i++) {
+          if (isCancel.current) return;
+          setCurrentDownloaderActionNum(i + 1);
+          if (!scale) {
+            images?.file(
+              `image-${i + 1}.${toType}`,
+              dataURLtoBlob(selectedImages[i].imgString),
+              {
+                base64: true,
+              },
+            );
+          } else if (pdfDoc && scale) {
+            const { imageDataUrl } = await generatePdfToImage(
+              pdfDoc,
+              selectedImages[i].definedIndex,
+              toType,
+              scale,
+            );
 
-          images?.file(
-            `image-${i + 1}.${toType}`,
-            dataURLtoBlob(imageDataUrl),
-            {
-              base64: true,
-            },
-          );
+            images?.file(
+              `image-${i + 1}.${toType}`,
+              dataURLtoBlob(imageDataUrl),
+              {
+                base64: true,
+              },
+            );
+          }
         }
-      }
-      if (isCancel.current) return;
-      if (selectedImages.length > 0) {
-        zip.generateAsync({ type: 'blob' }).then((content) => {
-          FileSaver.saveAs(content, 'images(MaxAI.me).zip');
+        if (isCancel.current) return;
+        if (selectedImages.length > 0) {
+          zip.generateAsync({ type: 'blob' }).then((content) => {
+            FileSaver.saveAs(content, 'images(MaxAI.me).zip');
+            setDownloaderIsLoad(false);
+          });
+        } else {
+          //TODO: 需要提示没有选择图片
+          snackNotifications.warning('Please select at least one image.', {
+            anchorOrigin: {
+              vertical: 'top',
+              horizontal: 'center',
+            },
+          });
           setDownloaderIsLoad(false);
-        });
-      } else {
-        //TODO: 需要提示没有选择图片
-        snackNotifications.warning('Please select at least one image.', {
-          anchorOrigin: {
-            vertical: 'top',
-            horizontal: 'center',
-          },
-        });
-        setDownloaderIsLoad(false);
+        }
+      } catch (e) {
+        console.log('simply onDownloadPdfImagesZip error', e);
       }
     },
     [],

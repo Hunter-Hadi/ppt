@@ -141,7 +141,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             sx={{ width: '100%' }}
             size='small'
             disabled={pdfIsLoad}
-            variant='contained'
+            variant='outlined'
             onClick={onSwitchAllSelect}
           >
             {pdfIsSelectAll
@@ -158,7 +158,7 @@ const ToolBoxFunctionalityPdfToImg: FC<IToolBoxFunctionalityPdfToImgProps> = ({
             sx={{ width: '100%' }}
             size='small'
             disabled={isLoad}
-            variant='contained'
+            variant='outlined'
             onClick={onSwitchPdfImagesType}
           >
             {showPdfImagesType !== 'pdfPageImgs'

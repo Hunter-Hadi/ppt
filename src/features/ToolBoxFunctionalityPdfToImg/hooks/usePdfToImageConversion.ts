@@ -42,24 +42,29 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
     pageNum: number,
     scale: number = 1.6,
   ) => {
-    const page = await pdfDoc.getPage(pageNum);
-    const viewport = page.getViewport({ scale });
-    const canvas = document.createElement('canvas');
-    const context = canvas.getContext('2d');
-    canvas.width = viewport.width;
-    canvas.height = viewport.height;
-    const renderContext = {
-      canvasContext: context!,
-      viewport: viewport,
-    };
-    const renderTask = page.render(renderContext);
-    await renderTask.promise;
-    await findPdfToImage(page);
-    const imageDataUrl = canvas.toDataURL(`image/${toType}`);
-    return {
-      imageDataUrl,
-      viewport,
-    };
+    try {
+      const page = await pdfDoc.getPage(pageNum);
+      const viewport = page.getViewport({ scale });
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+      canvas.width = viewport.width;
+      canvas.height = viewport.height;
+      const renderContext = {
+        canvasContext: context!,
+        viewport: viewport,
+      };
+      const renderTask = page.render(renderContext);
+      await renderTask.promise;
+      await findPdfToImage(page);
+      const imageDataUrl = canvas.toDataURL(`image/${toType}`);
+      return {
+        imageDataUrl,
+        viewport,
+      };
+    } catch (e) {
+      console.log('simply generatePdfToImage error', e);
+      return null;
+    }
   };
   /**
    * 查找Pdf的图像
@@ -79,28 +84,32 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
     for (const imageName of imageNames) {
       page.objs.get(imageName, (image) => {
         (async () => {
-          const bmp = image.bitmap;
-          const resizeScale = 1;
-          const width = bmp.width * resizeScale;
-          const height = bmp.height * resizeScale;
-          const canvas = new OffscreenCanvas(width, height);
-          const ctx = canvas.getContext('bitmaprenderer');
-          ctx?.transferFromImageBitmap(bmp);
-          const blob = await canvas.convertToBlob();
-          const reader = new FileReader();
-          reader.readAsDataURL(blob);
-          reader.onloadend = () => {
-            const base64Data = reader.result?.toString() || '';
-            setPdfPageHaveImgs((prev) => [
-              ...prev,
-              {
-                id: uuidV4(),
-                imgString: base64Data,
-                isSelect: true,
-                definedIndex: 1,
-              },
-            ]);
-          };
+          try {
+            const bmp = image.bitmap;
+            const resizeScale = 1;
+            const width = bmp.width * resizeScale;
+            const height = bmp.height * resizeScale;
+            const canvas = new OffscreenCanvas(width, height);
+            const ctx = canvas.getContext('bitmaprenderer');
+            bmp && ctx?.transferFromImageBitmap(bmp);
+            const blob = await canvas.convertToBlob();
+            const reader = new FileReader();
+            reader.readAsDataURL(blob);
+            reader.onloadend = () => {
+              const base64Data = reader.result?.toString() || '';
+              setPdfPageHaveImgs((prev) => [
+                ...prev,
+                {
+                  id: uuidV4(),
+                  imgString: base64Data,
+                  isSelect: true,
+                  definedIndex: 1,
+                },
+              ]);
+            };
+          } catch (e) {
+            console.log('simply findPdfToImage error get', e);
+          }
         })();
       });
     }
@@ -121,25 +130,23 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
     for (let pageNum = 1; pageNum <= pdfDoc._pdfInfo.numPages; pageNum++) {
       if (isCancel.current) return;
       setCurrentPdfActionNum(pageNum);
-      const { imageDataUrl, viewport } = await generatePdfToImage(
-        pdfDoc,
-        pageNum,
-        1.6,
-      );
-      setPdfViewDefaultSize({
-        width: Math.floor(viewport.width),
-        height: Math.floor(viewport.height),
-      });
+      const toImageData = await generatePdfToImage(pdfDoc, pageNum, 1.6);
+      if (toImageData) {
+        setPdfViewDefaultSize({
+          width: Math.floor(toImageData.viewport.width),
+          height: Math.floor(toImageData.viewport.height),
+        });
+        setConvertedPdfImages((prev) => [
+          ...prev,
+          {
+            id: uuidV4(),
+            imgString: toImageData.imageDataUrl,
+            isSelect: true,
+            definedIndex: pageNum,
+          },
+        ]);
+      }
 
-      setConvertedPdfImages((prev) => [
-        ...prev,
-        {
-          id: uuidV4(),
-          imgString: imageDataUrl,
-          isSelect: true,
-          definedIndex: pageNum,
-        },
-      ]);
       if (pageNum === pdfDoc._pdfInfo.numPages) {
         setPdfIsLoad(false);
       }
