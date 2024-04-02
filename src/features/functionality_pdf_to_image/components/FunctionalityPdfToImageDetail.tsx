@@ -255,7 +255,7 @@ const FunctionalityPdfToImageDetail: FC<
             pageCols={currentShowPageCors}
           />
         )}
-        {currentShowImages?.length === 0 && (
+        {!isLoading && currentShowImages?.length === 0 && (
           <Box
             sx={{
               bgcolor: 'rgba(255,255,255,0.3)',
