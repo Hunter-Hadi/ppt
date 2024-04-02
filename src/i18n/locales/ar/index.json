@@ -577,6 +577,8 @@
     "components__to_image_detail__high_quality": "جودة عالية",
     "components__index__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
     "components__to_image_detail__view_pages": "عرض الصفحات",
-    "components__to_image_detail__view_images": "عرض الصور"
+    "components__to_image_detail__view_images": "عرض الصور",
+    "components__to_image__downloader_tip": "يرجى تحديد صورة واحدة على الأقل.",
+    "components__to_image_detail__not_found_images": "صورة PDF غير موجودة"
   }
 }

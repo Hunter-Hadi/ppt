@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
     "components__to_image_detail__view_pages": "Просмотр страниц",
     "components__to_image_detail__view_images": "Просмотр изображений",
-    "components__to_image__downloader_tip": "Пожалуйста, выберите хотя бы одно изображение."
+    "components__to_image__downloader_tip": "Пожалуйста, выберите хотя бы одно изображение.",
+    "components__to_image_detail__not_found_images": "Изображение PDF не найдено"
   }
 }

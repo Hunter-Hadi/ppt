@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
     "components__to_image_detail__view_pages": "查看頁面",
     "components__to_image_detail__view_images": "查看圖片",
-    "components__to_image__downloader_tip": "請至少選擇一張圖片。"
+    "components__to_image__downloader_tip": "請至少選擇一張圖片。",
+    "components__to_image_detail__not_found_images": "找不到PDF圖片"
   }
 }

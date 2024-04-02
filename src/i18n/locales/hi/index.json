@@ -578,6 +578,7 @@
     "components__to_image_detail__high_quality": "उच्च गुणवत्ता",
     "components__to_image_detail__view_pages": "पृष्ठ देखें",
     "components__to_image_detail__view_images": "तस्वीरें देखें",
-    "components__to_image__downloader_tip": "कृपया कम से कम एक छवि का चयन करें।"
+    "components__to_image__downloader_tip": "कृपया कम से कम एक छवि का चयन करें।",
+    "components__to_image_detail__not_found_images": "PDF छवि नहीं मिली"
   }
 }

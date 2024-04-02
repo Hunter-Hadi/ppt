@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "请上传指定的PDF文件类型",
     "components__to_image_detail__view_pages": "查看页面",
     "components__to_image_detail__view_images": "查看图片",
-    "components__to_image__downloader_tip": "请选择至少一张图片。"
+    "components__to_image__downloader_tip": "请选择至少一张图片。",
+    "components__to_image_detail__not_found_images": "未找到PDF图像"
   }
 }

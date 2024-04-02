@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat",
     "components__to_image_detail__view_pages": "Veure pàgines",
     "components__to_image_detail__view_images": "Veure imatges",
-    "components__to_image__downloader_tip": "Si us plau, seleccioneu almenys una imatge."
+    "components__to_image__downloader_tip": "Si us plau, seleccioneu almenys una imatge.",
+    "components__to_image_detail__not_found_images": "Imatge PDF no trobada"
   }
 }

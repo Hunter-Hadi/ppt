@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__to_image_detail__view_pages": "Poglej strani",
     "components__to_image_detail__view_images": "Poglej slike",
-    "components__to_image__downloader_tip": "Prosimo, izberite vsaj eno sliko."
+    "components__to_image__downloader_tip": "Prosimo, izberite vsaj eno sliko.",
+    "components__to_image_detail__not_found_images": "Slika PDF ni najdena"
   }
 }

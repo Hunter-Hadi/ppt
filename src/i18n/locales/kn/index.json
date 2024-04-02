@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__to_image_detail__view_pages": "ಪುಟಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
     "components__to_image_detail__view_images": "ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
-    "components__to_image__downloader_tip": "ದಯವಿಟ್ಟು ಕನಸು ಆಯ್ಕೆಮಾಡಿರುವ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+    "components__to_image__downloader_tip": "ದಯವಿಟ್ಟು ಕನಸು ಆಯ್ಕೆಮಾಡಿರುವ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "components__to_image_detail__not_found_images": "PDF ಚಿತ್ರ ಕಂಡುಬರಲಿಲ್ಲ"
   }
 }

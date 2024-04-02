@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "தயவுசெய்து குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக",
     "components__to_image_detail__view_pages": "பக்கங்களைக் காண்பி",
     "components__to_image_detail__view_images": "படங்களைக் காண்பி",
-    "components__to_image__downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்."
+    "components__to_image__downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்.",
+    "components__to_image_detail__not_found_images": "பி.டி.எஃப் படம் காணப்படவில்லை"
   }
 }

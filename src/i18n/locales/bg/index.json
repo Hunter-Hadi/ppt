@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Моля, качете определения PDF файлов тип",
     "components__to_image_detail__view_pages": "Преглед на страници",
     "components__to_image_detail__view_images": "Преглед на изображения",
-    "components__to_image__downloader_tip": "Моля, изберете поне една снимка."
+    "components__to_image__downloader_tip": "Моля, изберете поне една снимка.",
+    "components__to_image_detail__not_found_images": "Изображението от PDF не е намерено"
   }
 }

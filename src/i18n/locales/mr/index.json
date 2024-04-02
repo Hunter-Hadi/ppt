@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
     "components__to_image_detail__view_pages": "पृष्ठ पहा",
     "components__to_image_detail__view_images": "प्रतिमा पहा",
-    "components__to_image__downloader_tip": "कृपया किमानपणे एक छायाचित्र निवडा."
+    "components__to_image__downloader_tip": "कृपया किमानपणे एक छायाचित्र निवडा.",
+    "components__to_image_detail__not_found_images": "PDF चित्र आढळले नाहीत"
   }
 }

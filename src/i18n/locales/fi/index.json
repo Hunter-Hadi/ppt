@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
     "components__to_image_detail__view_pages": "Näytä sivut",
     "components__to_image_detail__view_images": "Näytä kuvat",
-    "components__to_image__downloader_tip": "Valitse vähintään yksi kuva."
+    "components__to_image__downloader_tip": "Valitse vähintään yksi kuva.",
+    "components__to_image_detail__not_found_images": "PDF-kuvaa ei löytynyt"
   }
 }

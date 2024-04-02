@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__to_image_detail__view_pages": "Переглянути сторінки",
     "components__to_image_detail__view_images": "Переглянути зображення",
-    "components__to_image__downloader_tip": "Будь ласка, виберіть принаймні одне зображення."
+    "components__to_image__downloader_tip": "Будь ласка, виберіть принаймні одне зображення.",
+    "components__to_image_detail__not_found_images": "Зображення PDF не знайдено"
   }
 }

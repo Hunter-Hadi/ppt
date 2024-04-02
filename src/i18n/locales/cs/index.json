@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF",
     "components__to_image_detail__view_pages": "Zobrazit stránky",
     "components__to_image_detail__view_images": "Zobrazit obrázky",
-    "components__to_image__downloader_tip": "Vyberte prosím alespoň jednu obrázek."
+    "components__to_image__downloader_tip": "Vyberte prosím alespoň jednu obrázek.",
+    "components__to_image_detail__not_found_images": "Obrázek PDF nenalezen"
   }
 }

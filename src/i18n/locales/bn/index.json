@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__to_image_detail__view_pages": "পৃষ্ঠা দেখুন",
     "components__to_image_detail__view_images": "চিত্র দেখুন",
-    "components__to_image__downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।"
+    "components__to_image__downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।",
+    "components__to_image_detail__not_found_images": "পিডিএফ চিত্র পাওয়া যায়নি"
   }
 }

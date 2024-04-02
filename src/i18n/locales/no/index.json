@@ -577,6 +577,8 @@
     "components__to_image_detail__high_quality": "Høy kvalitet",
     "components__index__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__to_image_detail__view_pages": "Vis sider",
-    "components__to_image_detail__view_images": "Vis bilder"
+    "components__to_image_detail__view_images": "Vis bilder",
+    "components__to_image__downloader_tip": "Vennligst velg minst ett bilde.",
+    "components__to_image_detail__not_found_images": "Finner ikke PDF-bilde"
   }
 }

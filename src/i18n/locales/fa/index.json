@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__to_image_detail__view_pages": "مشاهده صفحات",
     "components__to_image_detail__view_images": "مشاهده تصاویر",
-    "components__to_image__downloader_tip": "لطفا حداقل یک تصویر را انتخاب کنید."
+    "components__to_image__downloader_tip": "لطفا حداقل یک تصویر را انتخاب کنید.",
+    "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد"
   }
 }

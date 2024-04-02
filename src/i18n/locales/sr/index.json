@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
     "components__to_image_detail__view_pages": "Pogledaj stranice",
     "components__to_image_detail__view_images": "Pogledaj slike",
-    "components__to_image__downloader_tip": "Molimo izaberite barem jednu sliku."
+    "components__to_image__downloader_tip": "Molimo izaberite barem jednu sliku.",
+    "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena"
   }
 }

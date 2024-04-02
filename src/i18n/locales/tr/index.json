@@ -577,6 +577,8 @@
     "components__to_image_detail__high_quality": "Yüksek Kalite",
     "components__index__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
     "components__to_image_detail__view_pages": "Sayfaları görüntüle",
-    "components__to_image_detail__view_images": "Resimleri görüntüle"
+    "components__to_image_detail__view_images": "Resimleri görüntüle",
+    "components__to_image__downloader_tip": "Lütfen en az bir resim seçin.",
+    "components__to_image_detail__not_found_images": "PDF resmi bulunamadı"
   }
 }

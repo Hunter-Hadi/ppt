@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__to_image_detail__view_pages": "Xem trang",
     "components__to_image_detail__view_images": "Xem hình ảnh",
-    "components__to_image__downloader_tip": "Vui lòng chọn ít nhất một hình ảnh."
+    "components__to_image__downloader_tip": "Vui lòng chọn ít nhất một hình ảnh.",
+    "components__to_image_detail__not_found_images": "Không tìm thấy hình ảnh PDF"
   }
 }

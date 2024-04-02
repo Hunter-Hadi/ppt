@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "దయచేసి ప్రస్తుతం ఉన్న PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
     "components__to_image_detail__view_pages": "పేజీలను చూడండి",
     "components__to_image_detail__view_images": "చిత్రాలను చూడండి",
-    "components__to_image__downloader_tip": "దయచేసి కనీసం ఒక చిత్రం ఎంచుకోండి."
+    "components__to_image__downloader_tip": "దయచేసి కనీసం ఒక చిత్రం ఎంచుకోండి.",
+    "components__to_image_detail__not_found_images": "PDF చిత్రం కనపడలేదు"
   }
 }

@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__to_image_detail__view_pages": "Wyświetl strony",
     "components__to_image_detail__view_images": "Wyświetl obrazy",
-    "components__to_image__downloader_tip": "Proszę wybrać przynajmniej jeden obraz."
+    "components__to_image__downloader_tip": "Proszę wybrać przynajmniej jeden obraz.",
+    "components__to_image_detail__not_found_images": "Obraz PDF nie został znaleziony"
   }
 }

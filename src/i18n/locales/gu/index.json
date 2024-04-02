@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
     "components__to_image_detail__view_pages": "પૃષ્ઠો જુઓ",
     "components__to_image_detail__view_images": "છબીઓ જુઓ",
-    "components__to_image__downloader_tip": "કૃપા કરીને ઓછામાં ઓછી એક ચિત્ર પસંદ કરો."
+    "components__to_image__downloader_tip": "કૃપા કરીને ઓછામાં ઓછી એક ચિત્ર પસંદ કરો.",
+    "components__to_image_detail__not_found_images": "પીડીએફ છબી મળી નથી"
   }
 }

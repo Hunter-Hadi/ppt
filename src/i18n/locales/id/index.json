@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
     "components__to_image_detail__view_pages": "Lihat halaman",
     "components__to_image_detail__view_images": "Lihat gambar",
-    "components__to_image__downloader_tip": "Silakan pilih setidaknya satu gambar."
+    "components__to_image__downloader_tip": "Silakan pilih setidaknya satu gambar.",
+    "components__to_image_detail__not_found_images": "Gambar PDF tidak ditemukan"
   }
 }

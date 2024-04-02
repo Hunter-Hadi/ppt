@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__to_image_detail__view_pages": "Tingnan ang mga pahina",
     "components__to_image_detail__view_images": "Tingnan ang mga imahe",
-    "components__to_image__downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe."
+    "components__to_image__downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe.",
+    "components__to_image_detail__not_found_images": "Hindi natagpuan ang imahe ng PDF"
   }
 }

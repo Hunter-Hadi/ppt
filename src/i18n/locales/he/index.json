@@ -577,6 +577,7 @@
     "components__index__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__to_image_detail__view_pages": "הצג עמודים",
     "components__to_image_detail__view_images": "הצג תמונות",
-    "components__to_image__downloader_tip": "אנא בחר לפחות תמונה אחת."
+    "components__to_image__downloader_tip": "אנא בחר לפחות תמונה אחת.",
+    "components__to_image_detail__not_found_images": "תמונת PDF לא נמצאה"
   }
 }

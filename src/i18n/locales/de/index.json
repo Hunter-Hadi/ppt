@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
     "components__to_image_detail__view_pages": "Seiten anzeigen",
     "components__to_image_detail__view_images": "Bilder anzeigen",
-    "components__to_image__downloader_tip": "Bitte wählen Sie mindestens ein Bild aus."
+    "components__to_image__downloader_tip": "Bitte wählen Sie mindestens ein Bild aus.",
+    "components__to_image_detail__not_found_images": "PDF-Bild nicht gefunden"
   }
 }

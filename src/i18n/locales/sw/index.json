@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
     "components__to_image_detail__view_pages": "Angalia kurasa",
     "components__to_image_detail__view_images": "Angalia picha",
-    "components__to_image__downloader_tip": "Tafadhali chagua angalau picha moja."
+    "components__to_image__downloader_tip": "Tafadhali chagua angalau picha moja.",
+    "components__to_image_detail__not_found_images": "Picha ya PDF haipatikani"
   }
 }

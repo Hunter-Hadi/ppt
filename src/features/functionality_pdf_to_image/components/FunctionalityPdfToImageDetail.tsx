@@ -46,8 +46,13 @@ const FunctionalityPdfToImageDetail: FC<
     onCancelDownloader,
     onDownloadPdfImagesZip,
   } = usePdfImagesDownloader();
+  const currentShowImages =
+    showPdfImagesType === 'pdfPageImages'
+      ? convertedPdfImages
+      : pdfPageHaveImages;
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
     useConvertedContentSelector<IPdfPageImageInfo>({
+      list: currentShowImages,
       setList:
         showPdfImagesType === 'pdfPageImages'
           ? setConvertedPdfImages
@@ -97,21 +102,18 @@ const FunctionalityPdfToImageDetail: FC<
       prev === 'pdfPageImages' ? 'padPageHaveImages' : 'pdfPageImages',
     );
   };
-  const showImages =
-    showPdfImagesType === 'pdfPageImages'
-      ? convertedPdfImages
-      : pdfPageHaveImages;
+
   const downloadZip = () => {
     if (showPdfImagesType === 'pdfPageImages') {
       //maxSizeScaleNum * 4  默认尺寸是1.6倍
       onDownloadPdfImagesZip(
-        showImages,
+        currentShowImages,
         toType,
         fileData,
         selectDownloadSizeIndex === 0 ? undefined : 1.6 * maxSizeScaleNum,
       );
     } else {
-      onDownloadPdfImagesZip(showImages, toType);
+      onDownloadPdfImagesZip(currentShowImages, toType);
     }
   };
   const onCancel = () => {
@@ -141,7 +143,7 @@ const FunctionalityPdfToImageDetail: FC<
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={pdfIsLoading}
+            disabled={pdfIsLoading || currentShowImages.length === 0}
             variant='outlined'
             onClick={onSwitchAllSelect}
           >
@@ -171,19 +173,22 @@ const FunctionalityPdfToImageDetail: FC<
                 )}
           </Button>
         </Grid>
-        <Grid item xs={6} md={2}>
-          <Button
-            sx={{ width: '100%' }}
-            size='small'
-            disabled={isLoading}
-            variant='contained'
-            onClick={() => downloadZip()}
-          >
-            {t(
-              'functionality__pdf_to_image:components__to_image_detail__download_images',
-            )}
-          </Button>
-        </Grid>
+        {currentShowImages?.length > 0 && (
+          <Grid item xs={6} md={2}>
+            <Button
+              sx={{ width: '100%' }}
+              size='small'
+              disabled={isLoading}
+              variant='contained'
+              onClick={() => downloadZip()}
+            >
+              {t(
+                'functionality__pdf_to_image:components__to_image_detail__download_images',
+              )}
+            </Button>
+          </Grid>
+        )}
+
         <Grid item xs={6} md={2}>
           <Button
             sx={{ width: '100%' }}
@@ -242,12 +247,41 @@ const FunctionalityPdfToImageDetail: FC<
           widows: '100%',
         }}
       >
-        <FunctionalityImageList
-          onClickImage={(image) => onSwitchSelect(image.id)}
-          imageList={showImages}
-          isImageSelect={true}
-          pageCols={currentShowPageCors}
-        />
+        {currentShowImages?.length > 0 && (
+          <FunctionalityImageList
+            onClickImage={(image) => onSwitchSelect(image.id)}
+            imageList={currentShowImages}
+            isImageSelect={true}
+            pageCols={currentShowPageCors}
+          />
+        )}
+        {currentShowImages?.length === 0 && (
+          <Box
+            sx={{
+              bgcolor: 'rgba(255,255,255,0.3)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              mt: 10,
+            }}
+          >
+            <Typography
+              sx={{
+                fontSize: {
+                  xs: 12,
+                  lg: 18,
+                },
+                color: '#4b5563',
+              }}
+            >
+              {t(
+                'functionality__pdf_to_image:components__to_image_detail__not_found_images',
+              )}
+            </Typography>
+          </Box>
+        )}
+
         {isLoading && totalPages > 0 && (
           <Box
             sx={{
@@ -324,27 +358,29 @@ const FunctionalityPdfToImageDetail: FC<
           ))}
         </Grid>
       )}
-      <Grid
-        container
-        direction='row'
-        justifyContent='center'
-        alignItems='center'
-        sx={{ mt: 2 }}
-      >
-        <Grid item xs={10} md={2}>
-          <Button
-            sx={{ width: '100%' }}
-            disabled={isLoading}
-            size='small'
-            variant='contained'
-            onClick={() => downloadZip()}
-          >
-            {t(
-              'functionality__pdf_to_image:components__to_image_detail__download_images',
-            )}
-          </Button>
+      {currentShowImages?.length > 0 && (
+        <Grid
+          container
+          direction='row'
+          justifyContent='center'
+          alignItems='center'
+          sx={{ mt: 2 }}
+        >
+          <Grid item xs={10} md={2}>
+            <Button
+              sx={{ width: '100%' }}
+              disabled={isLoading}
+              size='small'
+              variant='contained'
+              onClick={() => downloadZip()}
+            >
+              {t(
+                'functionality__pdf_to_image:components__to_image_detail__download_images',
+              )}
+            </Button>
+          </Grid>
         </Grid>
-      </Grid>
+      )}
     </Box>
   );
 };

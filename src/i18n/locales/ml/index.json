@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "ദയവായി നിർദ്ദേശിച്ച PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
     "components__to_image_detail__view_pages": "പേജുകൾ കാണുക",
     "components__to_image_detail__view_images": "ചിത്രങ്ങൾ കാണുക",
-    "components__to_image__downloader_tip": "ദയവായി കുറഞ്ഞത് ഒരു ചിത്രം തിരഞ്ഞെടുക്കുക."
+    "components__to_image__downloader_tip": "ദയവായി കുറഞ്ഞത് ഒരു ചിത്രം തിരഞ്ഞെടുക്കുക.",
+    "components__to_image_detail__not_found_images": "പിഡിഎഫ് ചിത്രം കണ്ടെത്താനായില്ല"
   }
 }

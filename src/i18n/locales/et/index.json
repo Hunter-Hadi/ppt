@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__to_image_detail__view_pages": "Vaata lehti",
     "components__to_image_detail__view_images": "Vaata pilte",
-    "components__to_image__downloader_tip": "Palun valige vähemalt üks pilt."
+    "components__to_image__downloader_tip": "Palun valige vähemalt üks pilt.",
+    "components__to_image_detail__not_found_images": "PDF pilti ei leitud"
   }
 }

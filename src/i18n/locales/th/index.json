@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__to_image_detail__view_pages": "ดูหน้า",
     "components__to_image_detail__view_images": "ดูรูปภาพ",
-    "components__to_image__downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ"
+    "components__to_image__downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ",
+    "components__to_image_detail__not_found_images": "ไม่พบรูปภาพจาก PDF"
   }
 }

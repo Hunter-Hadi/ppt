@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__to_image_detail__view_pages": "Skatīt lapas",
     "components__to_image_detail__view_images": "Skatīt attēlus",
-    "components__to_image__downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu."
+    "components__to_image__downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu.",
+    "components__to_image_detail__not_found_images": "PDF attēls nav atrasts"
   }
 }

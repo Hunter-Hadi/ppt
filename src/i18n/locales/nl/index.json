@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
     "components__to_image_detail__view_pages": "Bekijk pagina's",
     "components__to_image_detail__view_images": "Bekijk afbeeldingen",
-    "components__to_image__downloader_tip": "Selecteer minimaal één afbeelding."
+    "components__to_image__downloader_tip": "Selecteer minimaal één afbeelding.",
+    "components__to_image_detail__not_found_images": "Afbeelding niet gevonden in PDF"
   }
 }

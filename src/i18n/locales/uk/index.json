@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کی اپ لوڈ کریں",
     "components__to_image_detail__view_pages": "صفحات دیکھیں",
     "components__to_image_detail__view_images": "تصاویر دیکھیں",
-    "components__to_image__downloader_tip": "براہ کرم کم از کم ایک تصویر منتخب کریں۔"
+    "components__to_image__downloader_tip": "براہ کرم کم از کم ایک تصویر منتخب کریں۔",
+    "components__to_image_detail__not_found_images": "تصویر پی ڈی ایف نہیں مل سکی"
   }
 }

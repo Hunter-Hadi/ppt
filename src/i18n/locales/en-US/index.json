@@ -372,7 +372,8 @@
     "components__to_image_detail__high_quality": "High Quality",
     "components__to_image_detail__view_pages": "View pages",
     "components__to_image_detail__view_images": "View images",
-    "components__to_image__downloader_tip": "Please select at least one image."
+    "components__to_image__downloader_tip": "Please select at least one image.",
+    "components__to_image_detail__not_found_images": "PDF image not found"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

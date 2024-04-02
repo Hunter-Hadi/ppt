@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
     "components__to_image_detail__view_pages": "Vis sider",
     "components__to_image_detail__view_images": "Vis billeder",
-    "components__to_image__downloader_tip": "Vælg venligst mindst ét billede."
+    "components__to_image__downloader_tip": "Vælg venligst mindst ét billede.",
+    "components__to_image_detail__not_found_images": "Billede ikke fundet i PDF"
   }
 }

@@ -578,6 +578,7 @@
     "components__index__unsupported_file_type_tip": "Խնդրում ենք բեռնել նշված PDF ֆայլի տեսակին",
     "components__to_image_detail__view_pages": "Դիտել էջերը",
     "components__to_image_detail__view_images": "Դիտել պատկերները",
-    "components__to_image__downloader_tip": "Խնդրում ենք ընտրել առավելագույնը մեկ պատկեր։"
+    "components__to_image__downloader_tip": "Խնդրում ենք ընտրել առավելագույնը մեկ պատկեր։",
+    "components__to_image_detail__not_found_images": "Նկարը չի գտնվել PDF-ում"
   }
 }
