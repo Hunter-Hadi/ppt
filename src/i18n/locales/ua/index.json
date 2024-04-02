@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Використовуйте штучний інтелект за один клік (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Найшвидший спосіб використовувати штучний інтелект будь-де: чат з штучним інтелектом, писання, перевірка граматики, пояснення, резюме, пошук, управління запитами та багато іншого."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Клацніть, щоб завантажити або перетягніть",
     "components_to_img_detail_select_all": "Вибрати все",
     "components_to_img_detail_deselect_all": "Скасувати вибір усього",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Висока якість",
     "components_index_unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components_to_img_detail_view_pages": "Переглянути сторінки",
-    "components_to_img_detail_view_images": "Переглянути зображення"
+    "components_to_img_detail_view_images": "Переглянути зображення",
+    "components_to_img_downloader_tip": "Будь ласка, виберіть принаймні одне зображення."
   }
 }

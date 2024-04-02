@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Använd 1-klicks AI var som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Det snabbaste sättet att använda AI var som helst: AI-chatt, skrivande, grammatikkontroll, förklaring, sammanfattning, sökning, hantering av uppmaningar och mer."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Klicka för att ladda upp eller dra och släpp",
     "components_to_img_detail_select_all": "Välj alla",
     "components_to_img_detail_deselect_all": "Avmarkera alla",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Hög kvalitet",
     "components_index_unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components_to_img_detail_view_pages": "Visa sidor",
-    "components_to_img_detail_view_images": "Visa bilder"
+    "components_to_img_detail_view_images": "Visa bilder",
+    "components_to_img_downloader_tip": "Vänligen välj minst en bild."
   }
 }

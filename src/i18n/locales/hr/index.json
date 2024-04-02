@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Koristite 1-klik AI bilo gdje (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najbrži način korištenja AI bilo gdje: AI chat, pisanje, provjera gramatike, objašnjenje, sažetak, pretraživanje, upravljanje poticajima i još mnogo toga."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Kliknite za prijenos ili povucite i ispustite",
     "components_to_img_detail_select_all": "Odaberi sve",
     "components_to_img_detail_deselect_all": "Poništi odabir svih",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Visoka kvaliteta",
     "components_index_unsupported_file_type_tip": "Molimo učitajte određeni tip PDF datoteke",
     "components_to_img_detail_view_pages": "Pregledaj stranice",
-    "components_to_img_detail_view_images": "Pregledaj slike"
+    "components_to_img_detail_view_images": "Pregledaj slike",
+    "components_to_img_downloader_tip": "Molimo odaberite barem jednu sliku."
   }
 }

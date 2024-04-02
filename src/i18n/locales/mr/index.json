@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: कुठल्याही ठिकाणी 1-क्लिक एआय वापरा (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "एआयच्या कोणत्याही ठिकाणी वापरण्याचा जलदतम मार्ग: एआय चॅट, लेखन, व्याकरण तपासणी, स्पष्टीकरण, संक्षेप, शोध, प्रॉम्प्ट व्यवस्थापन आणि अधिक."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "अपलोड करण्यासाठी क्लिक करा किंवा ड्रॅग आणि ड्रॉप करा",
     "components_to_img_detail_select_all": "सर्व निवडा",
     "components_to_img_detail_deselect_all": "सर्व निवड रद्द करा",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "उच्च गुणवत्ता",
     "components_index_unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
     "components_to_img_detail_view_pages": "पृष्ठ पहा",
-    "components_to_img_detail_view_images": "प्रतिमा पहा"
+    "components_to_img_detail_view_images": "प्रतिमा पहा",
+    "components_to_img_downloader_tip": "कृपया किमानपणे एक छायाचित्र निवडा."
   }
 }

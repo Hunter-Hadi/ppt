@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Használja az AI-t 1 kattintással bárhol (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Az AI bárhol történő használatának leggyorsabb módja: AI chat, írás, helyesírás-ellenőrzés, magyarázat, összefoglaló, keresés, prompt kezelés és még sok más."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Kattintson a feltöltéshez vagy húzza ide",
     "components_to_img_detail_select_all": "Összes kiválasztása",
     "components_to_img_detail_deselect_all": "Összes kijelölés megszüntetése",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Magas minőség",
     "components_index_unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
     "components_to_img_detail_view_pages": "Oldalak megtekintése",
-    "components_to_img_detail_view_images": "Képek megtekintése"
+    "components_to_img_detail_view_images": "Képek megtekintése",
+    "components_to_img_downloader_tip": "Kérjük, válasszon legalább egy képet."
   }
 }

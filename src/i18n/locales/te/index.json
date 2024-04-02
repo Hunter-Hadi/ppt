@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: ఎక్కువసారి AI ఉపయోగించడం ఒక నొక్కి (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI ఎవెరీవేర్ ఉపయోగించడం త్వరగా మరియు సులభం: AI చాట్, రచన, వ్యాకరణ తనిఖీ, వివరణ, సారాంశం, శోధన, ప్రాంప్ట్ మేనేజ్మెంట్, మరియు మరెన్నో."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి లేదా దారికి తింటండి",
     "components_to_img_detail_select_all": "అన్నింటినీ ఎంచుకోండి",
     "components_to_img_detail_deselect_all": "అన్నింటినీ ఎంచుకోకుండా ఉంచండి",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "అధిక గుర్తింపు",
     "components_index_unsupported_file_type_tip": "దయచేసి ప్రస్తుతం ఉన్న PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
     "components_to_img_detail_view_pages": "పేజీలను చూడండి",
-    "components_to_img_detail_view_images": "చిత్రాలను చూడండి"
+    "components_to_img_detail_view_images": "చిత్రాలను చూడండి",
+    "components_to_img_downloader_tip": "దయచేసి కనీసం ఒక చిత్రం ఎంచుకోండి."
   }
 }

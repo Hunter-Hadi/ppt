@@ -145,10 +145,10 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           >
             {pdfIsSelectAll
               ? t(
-                  'tool_box_functionality_pdf_to_img:components_to_img_detail_deselect_all',
+                  'functionality_pdf_to_img:components_to_img_detail_deselect_all',
                 )
               : t(
-                  'tool_box_functionality_pdf_to_img:components_to_img_detail_select_all',
+                  'functionality_pdf_to_img:components_to_img_detail_select_all',
                 )}
           </Button>
         </Grid>
@@ -162,10 +162,10 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
           >
             {showPdfImagesType !== 'pdfPageImgs'
               ? t(
-                  'tool_box_functionality_pdf_to_img:components_to_img_detail_view_pages',
+                  'functionality_pdf_to_img:components_to_img_detail_view_pages',
                 )
               : t(
-                  'tool_box_functionality_pdf_to_img:components_to_img_detail_view_images',
+                  'functionality_pdf_to_img:components_to_img_detail_view_images',
                 )}
           </Button>
         </Grid>
@@ -178,7 +178,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
             onClick={() => downloadZip()}
           >
             {t(
-              'tool_box_functionality_pdf_to_img:components_to_img_detail_download_images',
+              'functionality_pdf_to_img:components_to_img_detail_download_images',
             )}
           </Button>
         </Grid>
@@ -191,9 +191,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
             color='error'
             onClick={() => onRemoveFile && onRemoveFile()}
           >
-            {t(
-              'tool_box_functionality_pdf_to_img:components_to_img_detail_remove_pdf',
-            )}
+            {t('functionality_pdf_to_img:components_to_img_detail_remove_pdf')}
           </Button>
         </Grid>
         {!isLoad && (
@@ -226,9 +224,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
               color='error'
               onClick={() => onCancel()}
             >
-              {t(
-                'tool_box_functionality_pdf_to_img:components_to_img_detail_cancel',
-              )}
+              {t('functionality_pdf_to_img:components_to_img_detail_cancel')}
             </Button>
           </Grid>
         )}
@@ -301,10 +297,10 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
               >
                 {index === 0
                   ? t(
-                      'tool_box_functionality_pdf_to_img:components_to_img_detail_normal_quality',
+                      'functionality_pdf_to_img:components_to_img_detail_normal_quality',
                     )
                   : t(
-                      'tool_box_functionality_pdf_to_img:components_to_img_detail_high_quality',
+                      'functionality_pdf_to_img:components_to_img_detail_high_quality',
                     )}
               </Typography>
               <Typography
@@ -338,7 +334,7 @@ const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
             onClick={() => downloadZip()}
           >
             {t(
-              'tool_box_functionality_pdf_to_img:components_to_img_detail_download_images',
+              'functionality_pdf_to_img:components_to_img_detail_download_images',
             )}
           </Button>
         </Grid>

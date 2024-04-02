@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: استخدم الذكاء الاصطناعي بنقرة واحدة في أي مكان (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "أسرع طريقة لاستخدام الذكاء الاصطناعي في أي مكان: دردشة ذكية، كتابة، فحص قواعد اللغة، شرح، ملخص، بحث، إدارة الاقتراحات، وأكثر من ذلك."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "انقر للتحميل أو قم بالسحب والإفلات",
     "components_to_img_detail_select_all": "تحديد الكل",
     "components_to_img_detail_deselect_all": "إلغاء تحديد الكل",

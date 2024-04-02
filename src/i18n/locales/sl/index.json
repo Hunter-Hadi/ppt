@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Uporabite umetno inteligenco s samo 1 klikom (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najhitrejši način uporabe umetne inteligence kjerkoli: klepet z AI, pisanje, preverjanje slovnice, pojasnilo, povzetek, iskanje, upravljanje spodbud in še več."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Kliknite za nalaganje ali povlecite in spustite",
     "components_to_img_detail_select_all": "Izberi vse",
     "components_to_img_detail_deselect_all": "Odstrani izbor",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Visoka kakovost",
     "components_index_unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components_to_img_detail_view_pages": "Poglej strani",
-    "components_to_img_detail_view_images": "Poglej slike"
+    "components_to_img_detail_view_images": "Poglej slike",
+    "components_to_img_downloader_tip": "Prosimo, izberite vsaj eno sliko."
   }
 }

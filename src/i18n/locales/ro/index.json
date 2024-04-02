@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Utilizați AI cu un singur clic oriunde (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cel mai rapid mod de a utiliza AI oriunde: chat AI, scriere, verificare gramaticală, explicații, rezumat, căutare, gestionarea prompt-urilor și multe altele."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Apăsați pentru a încărca sau trageți și plasați",
     "components_to_img_detail_select_all": "Selectați tot",
     "components_to_img_detail_deselect_all": "Deselectați tot",

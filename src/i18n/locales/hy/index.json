@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Օգտագործեք 1-կլիկի AI ամենավերջինը (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Արագաբանական եղանակով օգտագործեք AI-ն ամենտային վայրում: AI խոսք, գրադարան, ճանապարհային ստուգում, բացատրություն, ամփոփում, որոնում, խորագրության կառավարում և այլն:"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Սեղմեք վերբեռնելու համար կամ տեղադրեք",
     "components_to_img_detail_select_all": "Ընտրել բոլորը",
     "components_to_img_detail_deselect_all": "Հանել ընտրվածները",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Բարձր որակ",
     "components_index_unsupported_file_type_tip": "Խնդրում ենք բեռնել նշված PDF ֆայլի տեսակին",
     "components_to_img_detail_view_pages": "Դիտել էջերը",
-    "components_to_img_detail_view_images": "Դիտել պատկերները"
+    "components_to_img_detail_view_images": "Դիտել պատկերները",
+    "components_to_img_downloader_tip": "Խնդրում ենք ընտրել առավելագույնը մեկ պատկեր։"
   }
 }

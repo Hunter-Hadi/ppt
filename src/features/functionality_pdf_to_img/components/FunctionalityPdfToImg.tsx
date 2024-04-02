@@ -29,9 +29,7 @@ const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
   };
   const handleUnsupportedFileType = () => {
     snackNotifications.warning(
-      t(
-        'tool_box_functionality_pdf_to_img:components_index_unsupported_file_type_tip',
-      ),
+      t('functionality_pdf_to_img:components_index_unsupported_file_type_tip'),
       {
         anchorOrigin: {
           vertical: 'top',
@@ -88,9 +86,7 @@ const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
               },
             }}
           >
-            {t(
-              'tool_box_functionality_pdf_to_img:components_index_upload_title',
-            )}
+            {t('functionality_pdf_to_img:components_index_upload_title')}
           </Typography>
         </UploadButton>
       )}

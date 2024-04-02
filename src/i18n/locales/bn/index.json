@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: যেখানেই চাইলেই 1-ক্লিক এআই ব্যবহার করুন (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "এআই যেখানেই ব্যবহার করতে সবচেয়ে দ্রুত: এআই চ্যাট, লেখা, ব্যাকরণ পরীক্ষা, ব্যাখ্যা, সংক্ষিপ্তসার, অনুসন্ধান, প্রম্পট পরিচালনা এবং আরও।"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "আপলোড করতে ক্লিক করুন বা টেনে আনুন",
     "components_to_img_detail_select_all": "সব নির্বাচন করুন",
     "components_to_img_detail_deselect_all": "সব অগ্রাহ্য করুন",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "উচ্চ মান",
     "components_index_unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components_to_img_detail_view_pages": "পৃষ্ঠা দেখুন",
-    "components_to_img_detail_view_images": "চিত্র দেখুন"
+    "components_to_img_detail_view_images": "চিত্র দেখুন",
+    "components_to_img_downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।"
   }
 }

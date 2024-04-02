@@ -389,7 +389,7 @@
     "tool_box_index_page_constant_obj_merge_pdfs_title": "Merge PDFs",
     "tool_box_index_page_constant_obj_merge_pdfs_description": "Merge multiple PDF files into one with just a few clicks"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Click to upload or drag and drop",
     "components_index_unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components_to_img_detail_select_all": "Select All",
@@ -400,7 +400,8 @@
     "components_to_img_detail_normal_quality": "Normal Quality",
     "components_to_img_detail_high_quality": "High Quality",
     "components_to_img_detail_view_pages": "View pages",
-    "components_to_img_detail_view_images": "View images"
+    "components_to_img_detail_view_images": "View images",
+    "components_to_img_downloader_tip": "Please select at least one image."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

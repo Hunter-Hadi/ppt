@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Käytä 1-Click AI missä tahansa (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Nopein tapa käyttää tekoälyä missä tahansa: AI-keskustelu, kirjoittaminen, kieliopintarkistus, selitys, yhteenveto, haku, aloitteen hallinta ja paljon muuta."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Klikkaa ladataksesi tai raahaa ja pudota",
     "components_to_img_detail_select_all": "Valitse kaikki",
     "components_to_img_detail_deselect_all": "Poista valinta kaikista",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Korkea laatu",
     "components_index_unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
     "components_to_img_detail_view_pages": "Näytä sivut",
-    "components_to_img_detail_view_images": "Näytä kuvat"
+    "components_to_img_detail_view_images": "Näytä kuvat",
+    "components_to_img_downloader_tip": "Valitse vähintään yksi kuva."
   }
 }

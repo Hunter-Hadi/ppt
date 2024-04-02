@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Sử dụng AI chỉ với 1 cú nhấp (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Cách nhanh nhất để sử dụng AI bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn thế nữa."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Nhấp để tải lên hoặc kéo và thả",
     "components_to_img_detail_select_all": "Chọn tất cả",
     "components_to_img_detail_deselect_all": "Bỏ chọn tất cả",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Chất lượng cao",
     "components_index_unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components_to_img_detail_view_pages": "Xem trang",
-    "components_to_img_detail_view_images": "Xem hình ảnh"
+    "components_to_img_detail_view_images": "Xem hình ảnh",
+    "components_to_img_downloader_tip": "Vui lòng chọn ít nhất một hình ảnh."
   }
 }

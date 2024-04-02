@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me：隨處使用1-Click AI（ChatGPT、Claude、Gemini、Bard、Bing）",
     "default__description": "隨處使用AI的最快方式：AI聊天、寫作、文法檢查、解釋、摘要、搜索、提示管理等。"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "點擊上傳或拖放",
     "components_to_img_detail_select_all": "全選",
     "components_to_img_detail_deselect_all": "取消全選",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "高品質",
     "components_index_unsupported_file_type_tip": "請上傳指定的PDF文件類型",
     "components_to_img_detail_view_pages": "查看頁面",
-    "components_to_img_detail_view_images": "查看圖片"
+    "components_to_img_detail_view_images": "查看圖片",
+    "components_to_img_downloader_tip": "請至少選擇一張圖片。"
   }
 }

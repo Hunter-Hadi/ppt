@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: کہیں بھی 1-کلک AI استعمال کریں (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "AI کو کہیں بھی استعمال کرنے کا سب سے تیز طریقہ: AI چیٹ، لکھائی، گرامر چیک، وضاحت، خلاصہ، تلاش، پرومپٹ کی منتظمی، اور مزید."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "اپ لوڈ کرنے کے لئے کلک کریں یا ڈریگ اور ڈراپ کریں",
     "components_to_img_detail_select_all": "سب کو منتخب کریں",
     "components_to_img_detail_deselect_all": "سب کو غیر منتخب کریں",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "اعلی معیار",
     "components_index_unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کی اپ لوڈ کریں",
     "components_to_img_detail_view_pages": "صفحات دیکھیں",
-    "components_to_img_detail_view_images": "تصاویر دیکھیں"
+    "components_to_img_detail_view_images": "تصاویر دیکھیں",
+    "components_to_img_downloader_tip": "براہ کرم کم از کم ایک تصویر منتخب کریں۔"
   }
 }

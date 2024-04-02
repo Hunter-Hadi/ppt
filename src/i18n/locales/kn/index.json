@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: ಎಲ್ಲಿಯವರೆಗೂ 1-ಕ್ಲಿಕ್ ಯುಎಕ್ಸ್ ಬಳಸಿ AI (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI ಯಾವುದೇ ಸ್ಥಳದಲ್ಲಿಯೂ ಬಳಸುವ ಅತ್ಯಂತ ವೇಗವಾದ ಮಾರ್ಗ: AI ಚಾಟ್, ಬರವಣಿಗೆ, ವ್ಯಾಕರಣ ಪರಿಶೀಲನೆ, ವಿವರಣೆ, ಸಾರಾಂಶ, ಹುಡುಕು, ಪ್ರಾಂಪ್ಟ್ ನಿರ್ವಹಣೆ ಮತ್ತು ಇನ್ನಷ್ಟು."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಎಳೆಯಿರಿ ಮತ್ತು ಬಿಡಿ",
     "components_to_img_detail_select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
     "components_to_img_detail_deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದುಗೊಳಿಸಿ",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "ಉಚ್ಚ ಗುಣಮಟ್ಟ",
     "components_index_unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components_to_img_detail_view_pages": "ಪುಟಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
-    "components_to_img_detail_view_images": "ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+    "components_to_img_detail_view_images": "ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    "components_to_img_downloader_tip": "ದಯವಿಟ್ಟು ಕನಸು ಆಯ್ಕೆಮಾಡಿರುವ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
   }
 }

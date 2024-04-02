@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Gamitin ang AI sa Isang Click Kahit Saan (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan: AI chat, pagsusulat, pagsuri ng grammar, pagsasalarawan, buod, paghahanap, pamamahala ng prompt, at higit pa."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "I-click para i-upload o i-drag at i-drop",
     "components_to_img_detail_select_all": "Piliin Lahat",
     "components_to_img_detail_deselect_all": "Huwag Piliin Lahat",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Matataas na Kalidad",
     "components_index_unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components_to_img_detail_view_pages": "Tingnan ang mga pahina",
-    "components_to_img_detail_view_images": "Tingnan ang mga imahe"
+    "components_to_img_detail_view_images": "Tingnan ang mga imahe",
+    "components_to_img_downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe."
   }
 }

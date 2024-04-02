@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Use IA em 1 Clique em Qualquer Lugar (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "A maneira mais rápida de usar IA em qualquer lugar: chat de IA, escrita, verificação gramatical, explicação, resumo, pesquisa, gerenciamento de prompts e muito mais."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Clique para carregar ou arraste e solte",
     "components_to_img_detail_select_all": "Selecionar Todos",
     "components_to_img_detail_deselect_all": "Desmarcar Todos",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Alta Qualidade",
     "components_index_unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
     "components_to_img_detail_view_pages": "Ver páginas",
-    "components_to_img_detail_view_images": "Ver imagens"
+    "components_to_img_detail_view_images": "Ver imagens",
+    "components_to_img_downloader_tip": "Por favor, selecione pelo menos uma imagem."
   }
 }

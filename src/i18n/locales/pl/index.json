@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Użyj sztucznej inteligencji w jednym kliknięciu (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najszybszy sposób na korzystanie z AI w dowolnym miejscu: czat AI, pisanie, sprawdzanie gramatyki, wyjaśnienia, podsumowania, wyszukiwanie, zarządzanie promptami i wiele więcej."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Kliknij, aby przesłać lub przeciągnij i upuść",
     "components_to_img_detail_select_all": "Zaznacz wszystko",
     "components_to_img_detail_deselect_all": "Odznacz wszystko",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Wysoka jakość",
     "components_index_unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components_to_img_detail_view_pages": "Wyświetl strony",
-    "components_to_img_detail_view_images": "Wyświetl obrazy"
+    "components_to_img_detail_view_images": "Wyświetl obrazy",
+    "components_to_img_downloader_tip": "Proszę wybrać przynajmniej jeden obraz."
   }
 }

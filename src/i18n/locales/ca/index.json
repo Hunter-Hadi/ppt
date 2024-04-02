@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Utilitza l'IA amb un sol clic a qualsevol lloc (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "La manera més ràpida d'utilitzar l'IA en qualsevol lloc: xat d'IA, escriptura, correcció gramatical, explicació, resum, cerca, gestió de suggeriments i més."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Feu clic per carregar o arrossegueu i deixeu anar",
     "components_to_img_detail_select_all": "Selecciona-ho tot",
     "components_to_img_detail_deselect_all": "Desselecciona-ho tot",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Alta qualitat",
     "components_index_unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat",
     "components_to_img_detail_view_pages": "Veure pàgines",
-    "components_to_img_detail_view_images": "Veure imatges"
+    "components_to_img_detail_view_images": "Veure imatges",
+    "components_to_img_downloader_tip": "Si us plau, seleccioneu almenys una imatge."
   }
 }

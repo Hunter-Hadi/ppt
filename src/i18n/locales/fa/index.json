@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: استفاده از هوش مصنوعی با 1 کلیک در هر جایی (ChatGPT، Claude، Gemini، Bard، Bing)",
     "default__description": "سریعترین راه برای استفاده از هوش مصنوعی در هر جایی: چت با هوش مصنوعی، نوشتن، چک کردن دستور زبان، توضیح، خلاصه، جستجو، مدیریت پیشنهاد و غیره."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "برای بارگذاری کلیک کنید یا بکشید و رها کنید",
     "components_to_img_detail_select_all": "انتخاب همه",
     "components_to_img_detail_deselect_all": "عدم انتخاب همه",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "کیفیت بالا",
     "components_index_unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components_to_img_detail_view_pages": "مشاهده صفحات",
-    "components_to_img_detail_view_images": "مشاهده تصاویر"
+    "components_to_img_detail_view_images": "مشاهده تصاویر",
+    "components_to_img_downloader_tip": "لطفا حداقل یک تصویر را انتخاب کنید."
   }
 }

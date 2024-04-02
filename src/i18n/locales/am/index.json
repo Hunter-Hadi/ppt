@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: የአንድ-ጊዜ AI በማንኛውም አቅርቦት (ChatGPT, Claude, Gemini, Bard, Bing) ይጠቀሙ",
     "default__description": "AI በማንኛውም አቅርቦት: AI ውይይት, መጻፍ, ግራጫ ማስተማር, መግለጫ, ጥቅምት, ፍለጋ አሳሽ እና ተጨማሪ ግምገማ እና ተጨማሪ መፍጠሪያ"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "ጥሩ የፕድፊክ ወደ ምስል ለመሙላት ይጫኑ ወይም ወደማይለው ይጫኑ",
     "components_to_img_detail_select_all": "ሁሉንም ይምረጡ",
     "components_to_img_detail_deselect_all": "ሁሉንም ይምረጡ",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "ከፍተኛ ሁኔታ",
     "components_index_unsupported_file_type_tip": "እባክዎ የተጠቃሚ ፕድር የተዘጋጀ የፋይል አይነት ይጫኑ",
     "components_to_img_detail_view_pages": "ገፅዎን መመለስ",
-    "components_to_img_detail_view_images": "ምስሎችን መመለስ"
+    "components_to_img_detail_view_images": "ምስሎችን መመለስ",
+    "components_to_img_downloader_tip": "እባክዎ ማንኛውም ምስል አርትዕ ይምረጡ."
   }
 }

@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: എന്തെങ്കിലും ഒരു ക്ലിക്ക് എ.ഐ. ഉപയോഗിക്കുക (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "എ.ഐ. ചാറ്റ്, രചന, വ്യാകരണ പരിശോധന, വ്യഖ്യാനം, സംഗ്രഹം, പ്രോംപ്റ്റ് മാനേജ്മെന്റ്, എന്നിവയുടെ ഏറ്റവും വേഗത്തിൽ എ.ഐ. ഉപയോഗിക്കുന്ന വഴി."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "അപ്‌ലോഡ് ചെയ്യാന്‍ ക്ലിക്ക് ചെയ്യുക അല്ലെങ്കില്‍ വലിയൊരുക്കം വരുത്തുക",
     "components_to_img_detail_select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
     "components_to_img_detail_deselect_all": "എല്ലാം തിരഞ്ഞെടുക്കാതെ അയച്ചുവയ്ക്കുക",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "ഉയര്‍ന്ന ഗുണമേന്മ",
     "components_index_unsupported_file_type_tip": "ദയവായി നിർദ്ദേശിച്ച PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
     "components_to_img_detail_view_pages": "പേജുകൾ കാണുക",
-    "components_to_img_detail_view_images": "ചിത്രങ്ങൾ കാണുക"
+    "components_to_img_detail_view_images": "ചിത്രങ്ങൾ കാണുക",
+    "components_to_img_downloader_tip": "ദയവായി കുറഞ്ഞത് ഒരു ചിത്രം തിരഞ്ഞെടുക്കുക."
   }
 }

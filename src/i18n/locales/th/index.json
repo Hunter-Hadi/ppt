@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: ใช้ AI ด้วยคลิกเดียวทุกที่ (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "วิธีที่รวดเร็วที่สุดในการใช้ AI ทุกที่: แชท AI, เขียน, ตรวจสอบไวยากรณ์, อธิบาย, สรุป, ค้นหา, การจัดการโปรโมต, และอื่น ๆ"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",
     "components_to_img_detail_select_all": "เลือกทั้งหมด",
     "components_to_img_detail_deselect_all": "ไม่เลือกทั้งหมด",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "คุณภาพสูง",
     "components_index_unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
     "components_to_img_detail_view_pages": "ดูหน้า",
-    "components_to_img_detail_view_images": "ดูรูปภาพ"
+    "components_to_img_detail_view_images": "ดูรูปภาพ",
+    "components_to_img_downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ"
   }
 }

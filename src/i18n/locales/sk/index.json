@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Použite 1-klikovú AI kdekoľvek (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Najrýchlejší spôsob, ako používať AI kdekoľvek: AI chat, písanie, kontrola gramatiky, vysvetlenie, súhrn, vyhľadávanie, správa podnetov a ďalšie."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Kliknite pre nahratie alebo presunutie",
     "components_to_img_detail_select_all": "Vybrať všetko",
     "components_to_img_detail_deselect_all": "Zrušiť výber všetkého",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Vysoká kvalita",
     "components_index_unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
     "components_to_img_detail_view_pages": "Zobraziť stránky",
-    "components_to_img_detail_view_images": "Zobraziť obrázky"
+    "components_to_img_detail_view_images": "Zobraziť obrázky",
+    "components_to_img_downloader_tip": "Prosím, vyberte aspoň jednu fotografiu."
   }
 }

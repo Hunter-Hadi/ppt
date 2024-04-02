@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Naudokite 1 paspaudimą AI bet kur (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Greičiausias būdas naudoti AI bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Spustelėkite, norėdami įkelti arba vilkite ir paleiskite",
     "components_to_img_detail_select_all": "Pasirinkti viską",
     "components_to_img_detail_deselect_all": "Atšaukti viską",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Aukšta kokybė",
     "components_index_unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components_to_img_detail_view_pages": "Peržiūrėti puslapius",
-    "components_to_img_detail_view_images": "Peržiūrėti vaizdus"
+    "components_to_img_detail_view_images": "Peržiūrėti vaizdus",
+    "components_to_img_downloader_tip": "Prašome pasirinkti bent vieną paveikslėlį."
   }
 }

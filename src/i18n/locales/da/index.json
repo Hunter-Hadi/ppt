@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Brug 1-klik AI Overalt (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Den hurtigste måde at bruge AI overalt: AI chat, skrivning, grammatikkontrol, forklaring, opsummering, søgning, prompthåndtering og mere."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Klik for at uploade eller træk og slip",
     "components_to_img_detail_select_all": "Vælg alle",
     "components_to_img_detail_deselect_all": "Fravælg alle",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Høj kvalitet",
     "components_index_unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
     "components_to_img_detail_view_pages": "Vis sider",
-    "components_to_img_detail_view_images": "Vis billeder"
+    "components_to_img_detail_view_images": "Vis billeder",
+    "components_to_img_downloader_tip": "Vælg venligst mindst ét billede."
   }
 }

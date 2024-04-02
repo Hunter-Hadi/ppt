@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Kasutage 1-klõpsuga AI-d kõikjal (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Kõige kiirem viis kasutada AI-d kõikjal: AI vestlus, kirjutamine, grammatika kontroll, selgitus, kokkuvõte, otsing, ülesannete haldamine ja palju muud."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Klõpsake üleslaadimiseks või lohistage",
     "components_to_img_detail_select_all": "Vali kõik",
     "components_to_img_detail_deselect_all": "Tühista valikud",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Kõrge kvaliteet",
     "components_index_unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components_to_img_detail_view_pages": "Vaata lehti",
-    "components_to_img_detail_view_images": "Vaata pilte"
+    "components_to_img_detail_view_images": "Vaata pilte",
+    "components_to_img_downloader_tip": "Palun valige vähemalt üks pilt."
   }
 }

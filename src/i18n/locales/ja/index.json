@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me：どこでも1クリックでAIを利用（ChatGPT、Claude、Gemini、Bard、Bing）",
     "default__description": "AIをどこでも最速で利用する方法：AIチャット、文章作成、文法チェック、説明、要約、検索、プロンプト管理など"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "アップロードするかドラッグしてください",
     "components_to_img_detail_select_all": "すべて選択",
     "components_to_img_detail_deselect_all": "すべて選択解除",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "高品質",
     "components_index_unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components_to_img_detail_view_pages": "ページを表示",
-    "components_to_img_detail_view_images": "画像を表示"
+    "components_to_img_detail_view_images": "画像を表示",
+    "components_to_img_downloader_tip": "少なくとも1つの画像を選択してください。"
   }
 }

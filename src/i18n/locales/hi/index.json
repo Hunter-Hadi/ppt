@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: कहीं भी 1-क्लिक AI का उपयोग करें (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI का उपयोग करने का सबसे तेज़ तरीका: AI चैट, लेखन, व्याकरण जांच, स्पष्टीकरण, सारांश, खोज, प्रॉम्प्ट प्रबंधन, और अधिक।"
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "अपलोड करने के लिए क्लिक करें या खींचें और छोड़ें",
     "components_index_unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components_to_img_detail_select_all": "सभी का चयन करें",
@@ -577,6 +577,7 @@
     "components_to_img_detail_normal_quality": "सामान्य गुणवत्ता",
     "components_to_img_detail_high_quality": "उच्च गुणवत्ता",
     "components_to_img_detail_view_pages": "पृष्ठ देखें",
-    "components_to_img_detail_view_images": "तस्वीरें देखें"
+    "components_to_img_detail_view_images": "तस्वीरें देखें",
+    "components_to_img_downloader_tip": "कृपया कम से कम एक छवि का चयन करें।"
   }
 }

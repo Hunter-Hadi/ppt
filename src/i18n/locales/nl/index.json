@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Gebruik 1-Click AI Overal (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "De snelste manier om AI overal te gebruiken: AI-chat, schrijven, grammaticacontrole, uitleg, samenvatting, zoeken, promptbeheer en meer."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Klik om te uploaden of sleep en plaats",
     "components_to_img_detail_select_all": "Alles selecteren",
     "components_to_img_detail_deselect_all": "Alles deselecteren",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Hoge kwaliteit",
     "components_index_unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
     "components_to_img_detail_view_pages": "Bekijk pagina's",
-    "components_to_img_detail_view_images": "Bekijk afbeeldingen"
+    "components_to_img_detail_view_images": "Bekijk afbeeldingen",
+    "components_to_img_downloader_tip": "Selecteer minimaal één afbeelding."
   }
 }

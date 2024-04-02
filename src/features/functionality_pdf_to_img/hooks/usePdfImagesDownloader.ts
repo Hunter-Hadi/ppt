@@ -1,5 +1,6 @@
 import FileSaver from 'file-saver';
 import JSZip from 'jszip';
+import { useTranslation } from 'next-i18next';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
@@ -12,6 +13,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 const usePdfImagesDownloader = () => {
+  const { t } = useTranslation();
+
   const [downloaderIsLoad, setDownloaderIsLoad] = useState<boolean>(false); //是否加载中
   const [downloaderTotalPages, setDownloaderTotalPages] = useState<number>(0); //总下载页书
   const [currentDownloaderActionNum, setCurrentDownloaderActionNum] =
@@ -76,12 +79,15 @@ const usePdfImagesDownloader = () => {
           });
         } else {
           //TODO: 需要提示没有选择图片
-          snackNotifications.warning('Please select at least one image.', {
-            anchorOrigin: {
-              vertical: 'top',
-              horizontal: 'center',
+          snackNotifications.warning(
+            t('functionality_pdf_to_img:components_to_img_downloader_tip'),
+            {
+              anchorOrigin: {
+                vertical: 'top',
+                horizontal: 'center',
+              },
             },
-          });
+          );
           setDownloaderIsLoad(false);
         }
       } catch (e) {

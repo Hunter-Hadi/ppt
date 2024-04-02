@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: ஒரு கிளிக்கு ஏஐ எங்கேயும் பயன்படுத்துங்கள் (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "ஏற்கனவே ஏஐ சந்திப்பு, எழுத்து, இழுத்தல் சரிபார்ப்பு, விளக்கம், சுருக்கம், தேடல், உத்தரவரிக்கை மேலாண்மை மற்றும் மேலும் பயன்படுத்த விரைவான வழி."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",
     "components_to_img_detail_select_all": "அனைத்தையும் தேர்ந்தெடு",
     "components_to_img_detail_deselect_all": "அனைத்தையும் தேர்ந்தெடுக்காதீர்கள்",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "உயர் தரம்",
     "components_index_unsupported_file_type_tip": "தயவுசெய்து குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக",
     "components_to_img_detail_view_pages": "பக்கங்களைக் காண்பி",
-    "components_to_img_detail_view_images": "படங்களைக் காண்பி"
+    "components_to_img_detail_view_images": "படங்களைக் காண்பி",
+    "components_to_img_downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்."
   }
 }

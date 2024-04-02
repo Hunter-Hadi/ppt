@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Bruk AI med 1 klikk hvor som helst (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Den raskeste måten å bruke AI hvor som helst: AI-chat, skriving, grammatikk sjekk, forklaring, oppsummering, søk, håndtering av forslag og mer."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Klikk for å laste opp eller dra og slipp",
     "components_to_img_detail_select_all": "Velg alle",
     "components_to_img_detail_deselect_all": "Opphev valg av alle",

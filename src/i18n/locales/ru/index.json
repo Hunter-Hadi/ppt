@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Используйте искусственный интеллект в один клик (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Самый быстрый способ использовать искусственный интеллект где угодно: чат с ИИ, написание текстов, проверка грамматики, объяснение, резюмирование, поиск, управление подсказками и многое другое."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Нажмите, чтобы загрузить или перетащите",
     "components_to_img_detail_select_all": "Выбрать все",
     "components_to_img_detail_deselect_all": "Отменить выбор всех",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Высокое качество",
     "components_index_unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
     "components_to_img_detail_view_pages": "Просмотр страниц",
-    "components_to_img_detail_view_images": "Просмотр изображений"
+    "components_to_img_detail_view_images": "Просмотр изображений",
+    "components_to_img_downloader_tip": "Пожалуйста, выберите хотя бы одно изображение."
   }
 }

@@ -566,7 +566,7 @@
     "default__title": "MaxAI.me: Izmantojiet 1-Click AI jebkur (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "Ātrākais veids, kā izmantot AI jebkur: AI tērzēšana, rakstīšana, gramatikas pārbaude, skaidrojumi, kopsavilkums, meklēšana, uzdevumu pārvaldība un vairāk."
   },
-  "tool_box_functionality_pdf_to_img": {
+  "functionality_pdf_to_img": {
     "components_index_upload_title": "Noklikšķiniet, lai augšupielādētu vai vilktu un nomestu",
     "components_to_img_detail_select_all": "Izvēlēties visu",
     "components_to_img_detail_deselect_all": "Noņemt atlasi",
@@ -577,6 +577,7 @@
     "components_to_img_detail_high_quality": "Augsta kvalitāte",
     "components_index_unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components_to_img_detail_view_pages": "Skatīt lapas",
-    "components_to_img_detail_view_images": "Skatīt attēlus"
+    "components_to_img_detail_view_images": "Skatīt attēlus",
+    "components_to_img_downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu."
   }
 }
