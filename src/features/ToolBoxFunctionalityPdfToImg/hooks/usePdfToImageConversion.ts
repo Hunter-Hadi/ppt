@@ -1,11 +1,7 @@
-import FileSaver from 'file-saver';
-import JSZip from 'jszip';
 import { debounce } from 'lodash-es';
 import { useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
-
-import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -159,85 +155,12 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
     setPdfIsLoad(false);
   };
 
-  /**
-   * 下载图片的zip格式文件
-   * @param scale - 代表多少倍放大
-   * @param file - 传入file原文件，不会用base64来放大操作，应该拿取图片的源文件操作放大，不让图片损失
-   */
-  const onDownloadPdfImagesZip = async (scale?: number, file?: File) => {
-    const zip = new JSZip();
-    const images = zip.folder('images');
-    const selectedImages = convertedPdfImages.filter((image) => image.isSelect);
-    //如果有file则会执行PDFJS
-    const buff = await file?.arrayBuffer(); // Uint8Array
-    const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
-    //进行下载进度显示
-    setCurrentPdfActionNum(0);
-    setPdfTotalPages(selectedImages.length);
-    setPdfIsLoad(true);
-    isCancel.current = false;
-    //开始处理单个文件
-    for (let i = 0; i < selectedImages.length; i++) {
-      if (isCancel.current) return;
-      if (!scale) {
-        images?.file(
-          `image-${i + 1}.${toType}`,
-          dataURLtoBlob(selectedImages[i].imgString),
-          {
-            base64: true,
-          },
-        );
-      } else if (pdfDoc && scale) {
-        const { imageDataUrl } = await generatePdfToImage(
-          pdfDoc,
-          selectedImages[0].definedIndex,
-          scale,
-        );
-
-        images?.file(`image-${i + 1}.${toType}`, dataURLtoBlob(imageDataUrl), {
-          base64: true,
-        });
-      }
-      setCurrentPdfActionNum(i + 1);
-    }
-    console.log('simply ok');
-    setPdfIsLoad(false);
-    if (isCancel.current) return;
-    if (selectedImages.length > 0) {
-      zip.generateAsync({ type: 'blob' }).then((content) => {
-        FileSaver.saveAs(content, 'images(MaxAI.me).zip');
-      });
-    } else {
-      snackNotifications.warning('Please select at least one image.', {
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-      });
-    }
-  };
-
-  const dataURLtoBlob = async (base64Str: string) => {
-    const arr = base64Str.split(',');
-    const mime = arr?.[0].match(/:(.*?);/)?.[1];
-    const bstr = Buffer.from(arr[1], 'base64').toString('binary');
-    let n = bstr.length;
-    const u8arr = new Uint8Array(n);
-    while (n--) {
-      u8arr[n] = bstr.charCodeAt(n);
-    }
-    return new Blob([u8arr], {
-      type: mime,
-    });
-  };
-
   return {
     pdfPageHaveImgs,
     convertedPdfImages,
     setConvertedPdfImages,
     pdfIsLoad,
     onReadPdfToImages,
-    onDownloadPdfImagesZip,
     pdfTotalPages,
     currentPdfActionNum,
     onCancelPdfActive,

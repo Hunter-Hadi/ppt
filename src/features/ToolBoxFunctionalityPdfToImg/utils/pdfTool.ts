@@ -11,26 +11,3 @@ export const dataURLtoBlob = async (base64Str: string) => {
     type: mime,
   });
 };
-export const generatePdfToImage = async (
-  pdfDoc: any, //PDFDocumentProxy react-pdfjs没有导出
-  pageNum: number,
-  toType: string,
-  scale: number = 1.6,
-) => {
-  const page = await pdfDoc.getPage(pageNum);
-  const viewport = page.getViewport({ scale });
-  const canvas = document.createElement('canvas');
-  const context = canvas.getContext('2d');
-  canvas.width = viewport.width;
-  canvas.height = viewport.height;
-  const renderContext = {
-    canvasContext: context!,
-    viewport: viewport,
-  };
-  await page.render(renderContext).promise;
-  const imageDataUrl = canvas.toDataURL(`image/${toType}`);
-  return {
-    imageDataUrl,
-    viewport,
-  };
-};

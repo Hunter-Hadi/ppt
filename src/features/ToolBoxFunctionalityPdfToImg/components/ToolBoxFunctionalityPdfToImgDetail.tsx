@@ -1,7 +1,6 @@
 import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { pdfjs } from 'react-pdf';
 
 import usePdfToImageConversion, {
   IPdfPageImageInfo,
@@ -12,10 +11,6 @@ import useSwitchIdSelect from '../hooks/useSwitchSelect';
 import ToolBoxFunctionalityIcon from './ToolBoxFunctionalityIcon';
 import ToolBoxFunctionalityImageList from './ToolBoxFunctionalityImageList';
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();
 interface IToolBoxFunctionalityPdfToImgProps {
   fileList: FileList;
   toType: 'jpeg' | 'png';
