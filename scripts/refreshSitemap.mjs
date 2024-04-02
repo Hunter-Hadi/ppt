@@ -69,6 +69,7 @@ function crawlStaticDirectory(dir) {
   return staticPages;
 }
 
+// 获取 prompts 页面
 async function generatePromptsPages() {
   // 注意这里的 PROMPT_LIBRARY_PROXY_BASE_PATH
   const PROMPT_LIBRARY_PROXY_BASE_PATH = '/prompt';
@@ -121,6 +122,16 @@ async function generatePromptsPages() {
   } catch (error) {
     console.log(`generatePromptsPages ERROR:`, error);
   }
+}
+
+function generateToolsPages() {
+  const toolsPages = ['pdf-to-png', 'pdf-to-jpeg'];
+
+  return generateStaticPagesWithLocale(
+    toolsPages.map((page) => {
+      return `/tools/${page}`;
+    }),
+  );
 }
 // 生成 sitemap
 function generateSitemap(pages) {
@@ -177,6 +188,7 @@ try {
     ),
   );
   allPages.push(...(await generatePromptsPages()));
+  allPages.push(...generateToolsPages());
   generateSitemap(allPages);
 
   console.log(`
