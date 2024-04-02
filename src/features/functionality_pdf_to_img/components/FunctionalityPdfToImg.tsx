@@ -14,11 +14,11 @@ const FunctionalityPdfToImgDetail = lazy(
     ),
 );
 
-interface IFunctionalityProps {
+interface IFunctionalityPdfToImgProps {
   toType: 'pdf-to-jpeg' | 'pdf-to-png';
 }
 
-const FunctionalityPdfToImg: FC<IFunctionalityProps> = ({ toType }) => {
+const FunctionalityPdfToImg: FC<IFunctionalityPdfToImgProps> = ({ toType }) => {
   const { t } = useTranslation();
 
   const [fileData, setFileData] = useState<File | null>(null);

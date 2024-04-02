@@ -10,12 +10,12 @@ import usePdfToImageConversion, {
 } from '@/features/functionality_pdf_to_img/hooks/usePdfToImageConversion';
 import useSwitchIdSelect from '@/features/functionality_pdf_to_img/hooks/useSwitchSelect';
 
-interface IFunctionalityPdfToImgProps {
+interface IFunctionalityPdfToImgDetailProps {
   fileData: File;
   toType: 'jpeg' | 'png';
   onRemoveFile?: () => void;
 }
-const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgProps> = ({
+const FunctionalityPdfToImgDetail: FC<IFunctionalityPdfToImgDetailProps> = ({
   fileData,
   onRemoveFile,
   toType,
