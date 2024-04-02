@@ -9,11 +9,10 @@ import snackNotifications from '@/utils/globalSnackbar';
 
 const FunctionalityPdfMerge = () => {
   const { t } = useTranslation();
-
-  const [fileList, setFileList] = useState<FileList | null>(null);
+  const [pdfInfoList] = useState<FileList | null>(null);
   const onChangeFile = (fileList: FileList) => {
     console.log('simply fileList', fileList);
-    setFileList(fileList);
+    getPdfFileInfo(fileList);
   };
   const handleUnsupportedFileType = () => {
     snackNotifications.warning(
@@ -26,7 +25,12 @@ const FunctionalityPdfMerge = () => {
       },
     );
   };
-
+  const getPdfFileInfo = (fileList: FileList) => {
+    for (let i = 0; i < fileList.length; i++) {
+      const file = fileList[i];
+      console.log('simply file', file);
+    }
+  };
   return (
     <Box
       sx={{
@@ -38,7 +42,7 @@ const FunctionalityPdfMerge = () => {
         width: '100%',
       }}
     >
-      {!fileList && (
+      {!pdfInfoList && (
         <UploadButton
           buttonProps={{
             sx: {
@@ -72,7 +76,7 @@ const FunctionalityPdfMerge = () => {
           </Typography>
         </UploadButton>
       )}
-      {fileList && fileList?.length > 0 && (
+      {pdfInfoList && pdfInfoList?.length > 0 && (
         <Suspense fallback={<AppLoadingLayout loading />}></Suspense>
       )}
     </Box>
