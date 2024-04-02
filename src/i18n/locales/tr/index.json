@@ -350,7 +350,15 @@
     "contact_us__item2": "En son güncellemeler ve ipuçları için bizi Twitter'da takip edin:",
     "contact_us__item3": "Lütfen ★★★★★ derecelendirme yaparak bize destek olun:",
     "contact_us__item3__store": "Uzantı web mağazası",
-    "contact_us__item4": "Bu uzantıyı paylaşarak diğerlerine yardımcı olun:"
+    "contact_us__item4": "Bu uzantıyı paylaşarak diğerlerine yardımcı olun:",
+    "tools__index_page__title": "MaxAI Araçları",
+    "tools__index_page__description": "Tüm PDF araçları %100 ÜCRETSİZ ve tam gizlilik için tarayıcınızda çalışır",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF'den PNG'ye",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF'yi PNG'ye dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF'den JPEG'e",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF'yi JPEG'e dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDF'leri Birleştir",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Birkaç tıklama ile birden fazla PDF dosyasını birleştirin"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Her Yerde 1 Tıkla AI Kullanın (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "AI'nin her yerde kullanmanın en hızlı yolu: AI sohbeti, yazma, dilbilgisi kontrolü, açıklama, özetleme, arama, ipucu yönetimi ve daha fazlası.",
     "maintain__title": "Bakım Modunda | MaxAI.me",
     "affiliate__title": "Ortaklık Programı | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Daha Fazlası",
     "more_over_section__description__part1": "MaxAI.me, sadece bir çeviri aracından daha fazlasıdır - Hepsi bir arada yapay zeka destekli tarayıcı eklentinizdir. MaxAI.me ile ziyaret ettiğiniz herhangi bir web sitesinde tarayıcınızda geniş bir yapay zeka destekli özellik yelpazesine erişebilirsiniz.",
     "more_over_section__description__part2": "Yazma yardımı ve web sayfası özetlemesinden ChatPDF ve yapay zeka tablolarına kadar, MaxAI.me size ChatGPT, Claude ve Gemini gibi en gelişmiş yapay zeka modellerinin yardımıyla okuma, yazma ve oluşturma imkanı sunar. Tarayıcı deneyiminizi yükseltin ve bugün MaxAI.me ile üretkenlik potansiyelinizi açığa çıkarın!"
+=======
+    "default__description": "AI'nin her yerde kullanmanın en hızlı yolu: AI sohbeti, yazma, dilbilgisi kontrolü, açıklama, özetleme, arama, ipucu yönetimi ve daha fazlası."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",
+    "components__to_image_detail__select_all": "Hepsini Seç",
+    "components__to_image_detail__deselect_all": "Hepsini Kaldır",
+    "components__to_image_detail__download_images": "Resimleri İndir",
+    "components__to_image_detail__remove_pdf": "PDF'yi Kaldır",
+    "components__to_image_detail__cancel": "İptal",
+    "components__to_image_detail__normal_quality": "Normal Kalite",
+    "components__to_image_detail__high_quality": "Yüksek Kalite",
+    "components__index__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__to_image_detail__view_pages": "Sayfaları görüntüle",
+    "components__to_image_detail__view_images": "Resimleri görüntüle",
+    "components__to_image__downloader_tip": "Lütfen en az bir resim seçin.",
+    "components__to_image_detail__not_found_images": "PDF resmi bulunamadı"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

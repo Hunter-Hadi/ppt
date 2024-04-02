@@ -350,7 +350,15 @@
     "contact_us__item2": "Følg os på Twitter for de seneste opdateringer og tips:",
     "contact_us__item3": "Støt os ved at give ★★★★★ i bedømmelse på",
     "contact_us__item3__store": "Webbutikken for udvidelser",
-    "contact_us__item4": "Hjælp andre ved at dele denne udvidelse:"
+    "contact_us__item4": "Hjælp andre ved at dele denne udvidelse:",
+    "tools__index_page__title": "MaxAI Værktøjer",
+    "tools__index_page__description": "Alle PDF-værktøjer er 100% GRATIS og kører i din browser for fuld beskyttelse af privatlivet",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konverter PDF til PNG og download hver side som et billede",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konverter PDF til JPEG og download hver side som et billede",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Flet PDF'er",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Flet flere PDF-filer sammen med bare et par klik"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Brug 1-klik AI Overalt (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Den hurtigste måde at bruge AI overalt: AI chat, skrivning, grammatikkontrol, forklaring, opsummering, søgning, prompthåndtering og mere.",
     "maintain__title": "I vedligeholdelse | MaxAI.me",
     "affiliate__title": "Affiliateprogram | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Mere endnu",
     "more_over_section__description__part1": "MaxAI.me er mere end bare et oversættelsesværktøj - det er din alt-i-en AI-drevne browserudvidelse. Med MaxAI.me kan du få adgang til en bred vifte af AI-drevne funktioner direkte i din browser på enhver hjemmeside, du besøger.",
     "more_over_section__description__part2": "Fra skrivehjælp og websideopsummering til ChatPDF og AI-maleri giver MaxAI.me dig mulighed for at læse, skrive og skabe med hjælp fra de mest avancerede AI-modeller, herunder ChatGPT, Claude og Gemini. Opgrader din browseroplevelse og frigør dit produktivitetspotentiale med MaxAI.me i dag!"
+=======
+    "default__description": "Den hurtigste måde at bruge AI overalt: AI chat, skrivning, grammatikkontrol, forklaring, opsummering, søgning, prompthåndtering og mere."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klik for at uploade eller træk og slip",
+    "components__to_image_detail__select_all": "Vælg alle",
+    "components__to_image_detail__deselect_all": "Fravælg alle",
+    "components__to_image_detail__download_images": "Download billeder",
+    "components__to_image_detail__remove_pdf": "Fjern PDF",
+    "components__to_image_detail__cancel": "Annuller",
+    "components__to_image_detail__normal_quality": "Normal kvalitet",
+    "components__to_image_detail__high_quality": "Høj kvalitet",
+    "components__index__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
+    "components__to_image_detail__view_pages": "Vis sider",
+    "components__to_image_detail__view_images": "Vis billeder",
+    "components__to_image__downloader_tip": "Vælg venligst mindst ét billede.",
+    "components__to_image_detail__not_found_images": "Billede ikke fundet i PDF"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

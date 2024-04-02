@@ -350,7 +350,15 @@
     "contact_us__item2": "Seuraa meitä Twitterissä uusimpien päivitysten ja vinkkien saamiseksi:",
     "contact_us__item3": "Tukeaksesi meitä, anna arvio ★★★★★",
     "contact_us__item3__store": "Laajennuksen verkkokaupassa",
-    "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:"
+    "contact_us__item4": "Autat muita jakamalla tämän laajennuksen:",
+    "tools__index_page__title": "MaxAI Työkalut",
+    "tools__index_page__description": "Kaikki PDF-työkalut ovat 100% ILMAISIA ja toimivat selaimessasi täydellisen yksityisyyden varmistamiseksi",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Muunna PDF PNG:ksi ja lataa jokainen sivu kuvana",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Muunna PDF JPEG:ksi ja lataa jokainen sivu kuvana",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Yhdistä PDF-tiedostoja",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Käytä 1-Click AI missä tahansa (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Nopein tapa käyttää tekoälyä missä tahansa: AI-keskustelu, kirjoittaminen, kieliopintarkistus, selitys, yhteenveto, haku, aloitteen hallinta ja paljon muuta.",
     "maintain__title": "Huollossa | MaxAI.me",
     "affiliate__title": "Kumppaniohjelma | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Lisää ominaisuuksia",
     "more_over_section__description__part1": "MaxAI.me on paljon enemmän kuin pelkkä käännöstyökalu - se on monipuolinen tekoälypohjainen selainlaajennus. MaxAI.me:n avulla voit käyttää laajaa valikoimaa tekoälyominaisuuksia millä tahansa verkkosivustolla, jota vierailet.",
     "more_over_section__description__part2": "Kirjoitusavusta ja sivun tiivistelmistä ChatPDF:ään ja AI-maalaukseen, MaxAI.me antaa sinulle mahdollisuuden lukea, kirjoittaa ja luoda edistyksellisten tekoälymallien, kuten ChatGPT, Claude ja Gemini, avulla. Päivitä selauskokemuksesi ja vapauta tuottavuutesi potentiaali MaxAI.me:n avulla jo tänään!"
+=======
+    "default__description": "Nopein tapa käyttää tekoälyä missä tahansa: AI-keskustelu, kirjoittaminen, kieliopintarkistus, selitys, yhteenveto, haku, aloitteen hallinta ja paljon muuta."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klikkaa ladataksesi tai raahaa ja pudota",
+    "components__to_image_detail__select_all": "Valitse kaikki",
+    "components__to_image_detail__deselect_all": "Poista valinta kaikista",
+    "components__to_image_detail__download_images": "Lataa kuvat",
+    "components__to_image_detail__remove_pdf": "Poista PDF",
+    "components__to_image_detail__cancel": "Peruuta",
+    "components__to_image_detail__normal_quality": "Normaali laatu",
+    "components__to_image_detail__high_quality": "Korkea laatu",
+    "components__index__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__to_image_detail__view_pages": "Näytä sivut",
+    "components__to_image_detail__view_images": "Näytä kuvat",
+    "components__to_image__downloader_tip": "Valitse vähintään yksi kuva.",
+    "components__to_image_detail__not_found_images": "PDF-kuvaa ei löytynyt"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

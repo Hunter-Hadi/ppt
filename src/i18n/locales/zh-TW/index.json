@@ -350,7 +350,15 @@
     "contact_us__item2": "在 Twitter 上關注我們以獲取最新的更新和提示：",
     "contact_us__item3": "通過給我們評分 ★★★★★ 支持我們",
     "contact_us__item3__store": "擴展程式商店",
-    "contact_us__item4": "通過分享此擴展程式來幫助他人："
+    "contact_us__item4": "通過分享此擴展程式來幫助他人：",
+    "tools__index_page__title": "MaxAI 工具",
+    "tools__index_page__description": "所有 PDF 工具都是 100% 免費，在您的瀏覽器中運行，完全保護您的隱私",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF 轉 PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "將 PDF 轉換為 PNG，並下載每個頁面作為圖像",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF 轉 JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "將 PDF 轉換為 JPEG，並下載每個頁面作為圖像",
+    "tools__index_page__constant_obj__merge_pdfs__title": "合併 PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "只需點擊幾下，將多個 PDF 文件合併為一個"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me：隨處使用1-Click AI（ChatGPT、Claude、Gemini、Bard、Bing）",
+<<<<<<< HEAD
     "default__description": "隨處使用AI的最快方式：AI聊天、寫作、文法檢查、解釋、摘要、搜索、提示管理等。",
     "maintain__title": "維護中 | MaxAI.me",
     "affiliate__title": "聯盟計劃 | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "更多功能",
     "more_over_section__description__part1": "MaxAI.me不僅僅是一個翻譯工具 - 它是一個全能的AI擴展。通過MaxAI.me，您可以在訪問的任何網站上使用各種AI驅動的功能。",
     "more_over_section__description__part2": "從寫作輔助和網頁摘要到ChatPDF和AI繪畫，MaxAI.me讓您能夠在最先進的AI模型（包括ChatGPT、Claude和Gemini）的幫助下閱讀、寫作和創作。立即升級您的瀏覽體驗，發揮您的生產力潛力！"
+=======
+    "default__description": "隨處使用AI的最快方式：AI聊天、寫作、文法檢查、解釋、摘要、搜索、提示管理等。"
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "點擊上傳或拖放",
+    "components__to_image_detail__select_all": "全選",
+    "components__to_image_detail__deselect_all": "取消全選",
+    "components__to_image_detail__download_images": "下載圖片",
+    "components__to_image_detail__remove_pdf": "移除PDF",
+    "components__to_image_detail__cancel": "取消",
+    "components__to_image_detail__normal_quality": "普通品質",
+    "components__to_image_detail__high_quality": "高品質",
+    "components__index__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
+    "components__to_image_detail__view_pages": "查看頁面",
+    "components__to_image_detail__view_images": "查看圖片",
+    "components__to_image__downloader_tip": "請至少選擇一張圖片。",
+    "components__to_image_detail__not_found_images": "找不到PDF圖片"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

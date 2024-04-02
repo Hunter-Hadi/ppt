@@ -350,7 +350,15 @@
     "contact_us__item2": "हमें ट्विटर पर फ़ॉलो करें ताकि आप नवीनतम अपडेट और टिप्स प्राप्त कर सकें:",
     "contact_us__item3": "हमें ★★★★★ रेटिंग देकर हमारा समर्थन करें",
     "contact_us__item3__store": "एक्सटेंशन वेब स्टोर",
-    "contact_us__item4": "इस एक्सटेंशन को साझा करके अन्य लोगों की मदद करें:"
+    "contact_us__item4": "इस एक्सटेंशन को साझा करके अन्य लोगों की मदद करें:",
+    "tools__index_page__title": "मैक्सएआई टूल्स",
+    "tools__index_page__description": "सभी पीडीएफ उपकरण 100% मुफ्त हैं और पूर्ण गोपनीयता के लिए आपके ब्राउज़र में चलते हैं",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF से PNG में बदलें",
+    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से PNG में बदलें और डाउनलोड करें",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF से JPEG में बदलें",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से JPEG में बदलें और डाउनलोड करें",
+    "tools__index_page__constant_obj__merge_pdfs__title": "पीडीएफ़ जोड़ें",
+    "tools__index_page__constant_obj__merge_pdfs__description": "कुछ ही क्लिक के साथ कई पीडीएफ़ फ़ाइलों को एक में जोड़ें"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: कहीं भी 1-क्लिक AI का उपयोग करें (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "AI का उपयोग करने का सबसे तेज़ तरीका: AI चैट, लेखन, व्याकरण जांच, स्पष्टीकरण, सारांश, खोज, प्रॉम्प्ट प्रबंधन, और अधिक।",
     "maintain__title": "रखरखाव में | MaxAI.me",
     "affiliate__title": "सहकारी कार्यक्रम | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "और भी",
     "more_over_section__description__part1": "MaxAI.me केवल एक अनुवाद उपकरण से अधिक है - यह आपका सभी-एक AI-प्रचारित ब्राउज़र एक्सटेंशन है। MaxAI.me के साथ, आप किसी भी वेबसाइट पर अपने ब्राउज़र में एक विस्तृत एआई-ड्रिवन सुविधा के उपयोग कर सकते हैं।",
     "more_over_section__description__part2": "लेखन सहायता और वेबपेज संक्षेपण से ChatPDF और AI पेंटिंग तक, MaxAI.me आपको सबसे उन्नत AI मॉडलों, जैसे ChatGPT, Claude और Gemini की मदद से पढ़ने, लिखने और निर्माण करने की शक्ति प्रदान करता है। अपने ब्राउज़िंग अनुभव को अपग्रेड करें और अपनी उत्पादकता की क्षमता को MaxAI.me के साथ खोलें!"
+=======
+    "default__description": "AI का उपयोग करने का सबसे तेज़ तरीका: AI चैट, लेखन, व्याकरण जांच, स्पष्टीकरण, सारांश, खोज, प्रॉम्प्ट प्रबंधन, और अधिक।"
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "अपलोड करने के लिए क्लिक करें या खींचें और छोड़ें",
+    "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
+    "components__to_image_detail__select_all": "सभी का चयन करें",
+    "components__to_image_detail__deselect_all": "सभी का चयन हटाएं",
+    "components__to_image_detail__download_images": "छवियाँ डाउनलोड करें",
+    "components__to_image_detail__remove_pdf": "पीडीएफ हटाएं",
+    "components__to_image_detail__cancel": "रद्द करें",
+    "components__to_image_detail__normal_quality": "सामान्य गुणवत्ता",
+    "components__to_image_detail__high_quality": "उच्च गुणवत्ता",
+    "components__to_image_detail__view_pages": "पृष्ठ देखें",
+    "components__to_image_detail__view_images": "तस्वीरें देखें",
+    "components__to_image__downloader_tip": "कृपया कम से कम एक छवि का चयन करें।",
+    "components__to_image_detail__not_found_images": "PDF छवि नहीं मिली"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

@@ -350,7 +350,15 @@
     "contact_us__item2": "Folgen Sie uns auf Twitter für die neuesten Updates und Tipps:",
     "contact_us__item3": "Unterstützen Sie uns, indem Sie ★★★★★ bewerten auf",
     "contact_us__item3__store": "Erweiterung Webshop",
-    "contact_us__item4": "Helfen Sie anderen, indem Sie diese Erweiterung teilen:"
+    "contact_us__item4": "Helfen Sie anderen, indem Sie diese Erweiterung teilen:",
+    "tools__index_page__title": "MaxAI Werkzeuge",
+    "tools__index_page__description": "Alle PDF-Tools sind zu 100% KOSTENLOS und werden in Ihrem Browser ausgeführt, um Ihre Privatsphäre vollständig zu schützen",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF zu PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertiere PDF zu PNG und lade jede Seite als Bild herunter",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF zu JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertiere PDF zu JPEG und lade jede Seite als Bild herunter",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDFs zusammenführen",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Überall KI mit nur einem Klick nutzen (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Der schnellste Weg, KI überall zu nutzen: KI-Chat, Schreiben, Grammatikprüfung, Erklärung, Zusammenfassung, Suche, Prompt-Verwaltung und mehr.",
     "maintain__title": "In Wartung | MaxAI.me",
     "affiliate__title": "Partnerprogramm | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Mehr Möglichkeiten",
     "more_over_section__description__part1": "MaxAI.me ist mehr als nur ein Übersetzungstool - es ist Ihre All-in-One-Browsererweiterung mit KI-Unterstützung. Mit MaxAI.me haben Sie Zugriff auf eine Vielzahl von KI-gesteuerten Funktionen direkt in Ihrem Browser, auf jeder von Ihnen besuchten Website.",
     "more_over_section__description__part2": "Von Schreibhilfen und Webseitenzusammenfassungen bis hin zu ChatPDF und KI-Malerei ermöglicht Ihnen MaxAI.me das Lesen, Schreiben und Erstellen mit Hilfe der fortschrittlichsten KI-Modelle wie ChatGPT, Claude und Gemini. Verbessern Sie Ihr Surferlebnis und entfesseln Sie Ihr Produktivitätspotenzial mit MaxAI.me noch heute!"
+=======
+    "default__description": "Der schnellste Weg, KI überall zu nutzen: KI-Chat, Schreiben, Grammatikprüfung, Erklärung, Zusammenfassung, Suche, Prompt-Verwaltung und mehr."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klicken Sie zum Hochladen oder ziehen Sie Dateien hierher",
+    "components__to_image_detail__select_all": "Alle auswählen",
+    "components__to_image_detail__deselect_all": "Alle abwählen",
+    "components__to_image_detail__download_images": "Bilder herunterladen",
+    "components__to_image_detail__remove_pdf": "PDF entfernen",
+    "components__to_image_detail__cancel": "Abbrechen",
+    "components__to_image_detail__normal_quality": "Normale Qualität",
+    "components__to_image_detail__high_quality": "Hohe Qualität",
+    "components__index__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__to_image_detail__view_pages": "Seiten anzeigen",
+    "components__to_image_detail__view_images": "Bilder anzeigen",
+    "components__to_image__downloader_tip": "Bitte wählen Sie mindestens ein Bild aus.",
+    "components__to_image_detail__not_found_images": "PDF-Bild nicht gefunden"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

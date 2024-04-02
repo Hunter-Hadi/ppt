@@ -350,7 +350,15 @@
     "contact_us__item2": "Segueix-nos a Twitter per a les últimes actualitzacions i consells:",
     "contact_us__item3": "Donau suport valorant ★★★★★ a",
     "contact_us__item3__store": "Botiga d'extensions web",
-    "contact_us__item4": "Ajuda altres compartint aquesta extensió:"
+    "contact_us__item4": "Ajuda altres compartint aquesta extensió:",
+    "tools__index_page__title": "Eines MaxAI",
+    "tools__index_page__description": "Totes les eines de PDF són 100% GRATUÏTES i s'executen al navegador per a una privadesa completa",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF a PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Converteix PDF a PNG i descarrega cada pàgina com a imatge",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF a JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converteix PDF a JPEG i descarrega cada pàgina com a imatge",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Fusiona els PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Fusiona diversos fitxers PDF en un amb només uns quants clics"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Utilitza l'IA amb un sol clic a qualsevol lloc (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "La manera més ràpida d'utilitzar l'IA en qualsevol lloc: xat d'IA, escriptura, correcció gramatical, explicació, resum, cerca, gestió de suggeriments i més.",
     "maintain__title": "En manteniment | MaxAI.me",
     "affiliate__title": "Programa d'afiliats | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Més enllà",
     "more_over_section__description__part1": "MaxAI.me és més que una eina de traducció: és una extensió de navegador tot-en-un impulsada per IA. Amb MaxAI.me, pots accedir a una àmplia gamma de funcions impulsades per IA directament al teu navegador, en qualsevol lloc web que visitis.",
     "more_over_section__description__part2": "Des de l'assistència en l'escriptura i la sumarització de pàgines web fins a ChatPDF i la pintura amb IA, MaxAI.me et permet llegir, escriure i crear amb l'ajuda dels models d'IA més avançats, incloent-hi ChatGPT, Claude i Gemini. Millora la teva experiència de navegació i desbloqueja el teu potencial de productivitat amb MaxAI.me avui mateix!"
+=======
+    "default__description": "La manera més ràpida d'utilitzar l'IA en qualsevol lloc: xat d'IA, escriptura, correcció gramatical, explicació, resum, cerca, gestió de suggeriments i més."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Feu clic per carregar o arrossegueu i deixeu anar",
+    "components__to_image_detail__select_all": "Selecciona-ho tot",
+    "components__to_image_detail__deselect_all": "Desselecciona-ho tot",
+    "components__to_image_detail__download_images": "Descarrega les imatges",
+    "components__to_image_detail__remove_pdf": "Elimina el PDF",
+    "components__to_image_detail__cancel": "Cancel·la",
+    "components__to_image_detail__normal_quality": "Qualitat normal",
+    "components__to_image_detail__high_quality": "Alta qualitat",
+    "components__index__unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat",
+    "components__to_image_detail__view_pages": "Veure pàgines",
+    "components__to_image_detail__view_images": "Veure imatges",
+    "components__to_image__downloader_tip": "Si us plau, seleccioneu almenys una imatge.",
+    "components__to_image_detail__not_found_images": "Imatge PDF no trobada"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

@@ -350,7 +350,15 @@
     "contact_us__item2": "Śledź nas na Twitterze, aby być na bieżąco z najnowszymi aktualizacjami i wskazówkami:",
     "contact_us__item3": "Wesprzyj nas oceniając ★★★★★ na",
     "contact_us__item3__store": "Sklepie z rozszerzeniami",
-    "contact_us__item4": "Pomóż innym, udostępniając to rozszerzenie:"
+    "contact_us__item4": "Pomóż innym, udostępniając to rozszerzenie:",
+    "tools__index_page__title": "Narzędzia MaxAI",
+    "tools__index_page__description": "Wszystkie narzędzia PDF są w 100% DARMOWE i działają w Twojej przeglądarce dla pełnej prywatności",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF do PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konwertuj PDF do PNG i pobierz każdą stronę jako obraz",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF do JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konwertuj PDF do JPEG i pobierz każdą stronę jako obraz",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Scal pliki PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Połącz wiele plików PDF w jeden za pomocą kilku kliknięć"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Użyj sztucznej inteligencji w jednym kliknięciu (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Najszybszy sposób na korzystanie z AI w dowolnym miejscu: czat AI, pisanie, sprawdzanie gramatyki, wyjaśnienia, podsumowania, wyszukiwanie, zarządzanie promptami i wiele więcej.",
     "maintain__title": "W trakcie konserwacji | MaxAI.me",
     "affiliate__title": "Program partnerski | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Więcej",
     "more_over_section__description__part1": "MaxAI.me to nie tylko narzędzie do tłumaczenia - to kompleksowe rozszerzenie przeglądarki zasilane przez AI. Dzięki MaxAI.me możesz uzyskać dostęp do szerokiej gamy funkcji napędzanych przez AI bezpośrednio w przeglądarce, na dowolnej odwiedzanej stronie internetowej.",
     "more_over_section__description__part2": "Od pomocy pisania i podsumowywania stron internetowych po ChatPDF i malowanie AI, MaxAI.me umożliwia czytanie, pisanie i tworzenie z pomocą najbardziej zaawansowanych modeli AI, w tym ChatGPT, Claude i Gemini. Ulepsz swoje doświadczenie przeglądania i odblokuj swój potencjał produktywności dzięki MaxAI.me już dziś!"
+=======
+    "default__description": "Najszybszy sposób na korzystanie z AI w dowolnym miejscu: czat AI, pisanie, sprawdzanie gramatyki, wyjaśnienia, podsumowania, wyszukiwanie, zarządzanie promptami i wiele więcej."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Kliknij, aby przesłać lub przeciągnij i upuść",
+    "components__to_image_detail__select_all": "Zaznacz wszystko",
+    "components__to_image_detail__deselect_all": "Odznacz wszystko",
+    "components__to_image_detail__download_images": "Pobierz obrazy",
+    "components__to_image_detail__remove_pdf": "Usuń PDF",
+    "components__to_image_detail__cancel": "Anuluj",
+    "components__to_image_detail__normal_quality": "Jakość normalna",
+    "components__to_image_detail__high_quality": "Wysoka jakość",
+    "components__index__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
+    "components__to_image_detail__view_pages": "Wyświetl strony",
+    "components__to_image_detail__view_images": "Wyświetl obrazy",
+    "components__to_image__downloader_tip": "Proszę wybrać przynajmniej jeden obraz.",
+    "components__to_image_detail__not_found_images": "Obraz PDF nie został znaleziony"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

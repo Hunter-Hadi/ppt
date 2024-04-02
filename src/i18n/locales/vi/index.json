@@ -350,7 +350,15 @@
     "contact_us__item2": "Theo dõi chúng tôi trên Twitter để cập nhật và nhận các mẹo mới nhất:",
     "contact_us__item3": "Hỗ trợ chúng tôi bằng cách đánh giá ★★★★★ trên",
     "contact_us__item3__store": "Cửa hàng tiện ích mở rộng",
-    "contact_us__item4": "Giúp đỡ người khác bằng cách chia sẻ tiện ích này:"
+    "contact_us__item4": "Giúp đỡ người khác bằng cách chia sẻ tiện ích này:",
+    "tools__index_page__title": "Công cụ MaxAI",
+    "tools__index_page__description": "Tất cả các công cụ PDF đều MIỄN PHÍ 100% và chạy trên trình duyệt của bạn để bảo mật hoàn toàn",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF sang PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Chuyển đổi PDF sang PNG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF sang JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Gộp PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Sử dụng AI chỉ với 1 cú nhấp (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Cách nhanh nhất để sử dụng AI bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn thế nữa.",
     "maintain__title": "Đang bảo trì | MaxAI.me",
     "affiliate__title": "Chương trình liên kết | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Hơn Nữa",
     "more_over_section__description__part1": "MaxAI.me không chỉ là một công cụ dịch thuật - Đó là tiện ích mở rộng trình duyệt AI toàn diện của bạn. Với MaxAI.me, bạn có thể truy cập vào một loạt các tính năng được động lực bởi AI ngay trong trình duyệt của bạn, trên bất kỳ trang web nào bạn truy cập.",
     "more_over_section__description__part2": "Từ việc hỗ trợ viết và tóm tắt trang web cho ChatPDF và vẽ tranh AI, MaxAI.me giúp bạn đọc, viết và tạo nội dung với sự trợ giúp của những mô hình AI tiên tiến nhất, bao gồm ChatGPT, Claude và Gemini. Nâng cấp trải nghiệm duyệt web của bạn và mở khóa tiềm năng sản xuất của bạn với MaxAI.me ngay hôm nay!"
+=======
+    "default__description": "Cách nhanh nhất để sử dụng AI bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn thế nữa."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",
+    "components__to_image_detail__select_all": "Chọn tất cả",
+    "components__to_image_detail__deselect_all": "Bỏ chọn tất cả",
+    "components__to_image_detail__download_images": "Tải xuống hình ảnh",
+    "components__to_image_detail__remove_pdf": "Xóa PDF",
+    "components__to_image_detail__cancel": "Hủy",
+    "components__to_image_detail__normal_quality": "Chất lượng bình thường",
+    "components__to_image_detail__high_quality": "Chất lượng cao",
+    "components__index__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
+    "components__to_image_detail__view_pages": "Xem trang",
+    "components__to_image_detail__view_images": "Xem hình ảnh",
+    "components__to_image__downloader_tip": "Vui lòng chọn ít nhất một hình ảnh.",
+    "components__to_image_detail__not_found_images": "Không tìm thấy hình ảnh PDF"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

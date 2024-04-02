@@ -350,7 +350,15 @@
     "contact_us__item2": "ನವೀಕರಣಗಳು ಮತ್ತು ಸೂಚನೆಗಳಿಗಾಗಿ ನಮ್ಮನ್ನು ಟ್ವಿಟರ್‌ನಲ್ಲಿ ಅನುಸರಿಸಿ:",
     "contact_us__item3": "ನಮ್ಮನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ ★★★★★ ರೇಟಿಂಗ್ ಮಾಡಿ",
     "contact_us__item3__store": "ವೆಬ್ ಸ್ಟೋರ್ ವಿಸ್ತರಣೆ",
-    "contact_us__item4": "ಈ ವಿಸ್ತರಣೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದರ ಮೂಲಕ ಇತರರಿಗೆ ಸಹಾಯ ಮಾಡಿ:"
+    "contact_us__item4": "ಈ ವಿಸ್ತರಣೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದರ ಮೂಲಕ ಇತರರಿಗೆ ಸಹಾಯ ಮಾಡಿ:",
+    "tools__index_page__title": "ಮ್ಯಾಕ್ಸ್‌ಏಐ ಟೂಲ್ಸ್",
+    "tools__index_page__description": "ಎಲ್ಲಾ PDF ಸಾಧನಗಳು 100% ಉಚಿತವಾಗಿದೆ ಮತ್ತು ಪೂರ್ಣ ಗೌಪ್ಯತೆಯ ಕೊಡುಗೆಯಲ್ಲಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತವೆ",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF ನಿಂದ PNG ಗೆ",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ಪ್ರತಿ ಪುಟವನ್ನು ಚಿತ್ರವಾಗಿ ಬದಲಾಯಿಸಿ PNG ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ನಿಂದ JPEG ಗೆ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ಪ್ರತಿ ಪುಟವನ್ನು ಚಿತ್ರವಾಗಿ ಬದಲಾಯಿಸಿ JPEG ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
+    "tools__index_page__constant_obj__merge_pdfs__description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು PDF ಕಡತಗಳನ್ನು ಒಂದರಲ್ಲಿ ಸೇರಿಸಿ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: ಎಲ್ಲಿಯವರೆಗೂ 1-ಕ್ಲಿಕ್ ಯುಎಕ್ಸ್ ಬಳಸಿ AI (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "AI ಯಾವುದೇ ಸ್ಥಳದಲ್ಲಿಯೂ ಬಳಸುವ ಅತ್ಯಂತ ವೇಗವಾದ ಮಾರ್ಗ: AI ಚಾಟ್, ಬರವಣಿಗೆ, ವ್ಯಾಕರಣ ಪರಿಶೀಲನೆ, ವಿವರಣೆ, ಸಾರಾಂಶ, ಹುಡುಕು, ಪ್ರಾಂಪ್ಟ್ ನಿರ್ವಹಣೆ ಮತ್ತು ಇನ್ನಷ್ಟು.",
     "maintain__title": "ಮೆಂಟೆನ್ಯಾನ್ಸ್ ನಲ್ಲಿ | MaxAI.me",
     "affiliate__title": "ಅಫಿಲಿಯೇಟ್ ಪ್ರೋಗ್ರಾಮ್ | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "ಹೆಚ್ಚು ಮೇಲೆ",
     "more_over_section__description__part1": "MaxAI.me ಅನುವಾದ ಸಾಧನವಲ್ಲ – ಇದು ನಿಮ್ಮ ಒಂದು ಆಲ್‌ಇನ್-ಒನ್ ಏಐ ಬ್ರೌಸರ್ ವಿಸ್ತರಣೆ. MaxAI.me ನೊಂದಿಗೆ, ನೀವು ಭೇಟಿಯಾದ ಯಾವುದೇ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿಯೂ ನೀವು ಏನೇನು ಮಾಡಬೇಕೆಂದು ಆಲ್‌ಇನ್-ಒನ್ ಏಐ ಸೌಲಭ್ಯಗಳನ್ನು ಪಡೆಯಬಹುದು.",
     "more_over_section__description__part2": "ಬರವಣಿಗೆ ಸಹಾಯ, ವೆಬ್‌ಪೇಜ್ ಸಂಗ್ರಹಣೆ, ChatPDF ಮತ್ತು ಏಐ ಚಿತ್ರಕಲೆ ಹೀಗೆ ಅನೇಕ ಏಐ ಸೌಲಭ್ಯಗಳನ್ನು ಹೊಂದಿರಿ. ChatGPT, Claude ಮತ್ತು Gemini ಈ ಹೊಸದಾಗಿ ಬಂದ ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಸಹಾಯದಿಂದ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ, ನಿಮ್ಮ ಉತ್ಪಾದಕತೆಯ ಸಾಧ್ಯತೆಯನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ. MaxAI.me ನೊಂದಿಗೆ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ!"
+=======
+    "default__description": "AI ಯಾವುದೇ ಸ್ಥಳದಲ್ಲಿಯೂ ಬಳಸುವ ಅತ್ಯಂತ ವೇಗವಾದ ಮಾರ್ಗ: AI ಚಾಟ್, ಬರವಣಿಗೆ, ವ್ಯಾಕರಣ ಪರಿಶೀಲನೆ, ವಿವರಣೆ, ಸಾರಾಂಶ, ಹುಡುಕು, ಪ್ರಾಂಪ್ಟ್ ನಿರ್ವಹಣೆ ಮತ್ತು ಇನ್ನಷ್ಟು."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಎಳೆಯಿರಿ ಮತ್ತು ಬಿಡಿ",
+    "components__to_image_detail__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
+    "components__to_image_detail__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದುಗೊಳಿಸಿ",
+    "components__to_image_detail__download_images": "ಚಿತ್ರಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__to_image_detail__remove_pdf": "PDF ತೆಗೆದುಹಾಕಿ",
+    "components__to_image_detail__cancel": "ರದ್ದುಗೊಳಿಸಿ",
+    "components__to_image_detail__normal_quality": "ಸಾಮಾನ್ಯ ಗುಣಮಟ್ಟ",
+    "components__to_image_detail__high_quality": "ಉಚ್ಚ ಗುಣಮಟ್ಟ",
+    "components__index__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__to_image_detail__view_pages": "ಪುಟಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    "components__to_image_detail__view_images": "ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    "components__to_image__downloader_tip": "ದಯವಿಟ್ಟು ಕನಸು ಆಯ್ಕೆಮಾಡಿರುವ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "components__to_image_detail__not_found_images": "PDF ಚಿತ್ರ ಕಂಡುಬರಲಿಲ್ಲ"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

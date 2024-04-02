@@ -350,7 +350,15 @@
     "contact_us__item2": "Urmăriți-ne pe Twitter pentru cele mai recente actualizări și sfaturi:",
     "contact_us__item3": "Susțineți-ne prin acordarea a ★★★★★ pe",
     "contact_us__item3__store": "Magazinul web al extensiei",
-    "contact_us__item4": "Ajutați-i pe alții distribuind această extensie:"
+    "contact_us__item4": "Ajutați-i pe alții distribuind această extensie:",
+    "tools__index_page__title": "Instrumente MaxAI",
+    "tools__index_page__description": "Toate instrumentele PDF sunt 100% GRATUITE și rulează în browserul tău pentru confidențialitate completă",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF în PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Convertește PDF în PNG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF în JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Unifică PDF-uri",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Utilizați AI cu un singur clic oriunde (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Cel mai rapid mod de a utiliza AI oriunde: chat AI, scriere, verificare gramaticală, explicații, rezumat, căutare, gestionarea prompt-urilor și multe altele.",
     "maintain__title": "În întreținere | MaxAI.me",
     "affiliate__title": "Program de afiliere | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Mai Mult Decât Atât",
     "more_over_section__description__part1": "MaxAI.me este mai mult decât un simplu instrument de traducere - este extensia ta de browser alimentată de AI all-in-one. Cu MaxAI.me, poți accesa o gamă largă de funcționalități AI direct în browser-ul tău, pe orice site web vizitezi.",
     "more_over_section__description__part2": "De la asistență în scris și rezumarea paginilor web până la ChatPDF și pictură AI, MaxAI.me îți oferă puterea de a citi, scrie și crea cu ajutorul celor mai avansate modele AI, inclusiv ChatGPT, Claude și Gemini. Upgradează-ți experiența de navigare și deblochează-ți potențialul de productivitate cu MaxAI.me astăzi!"
+=======
+    "default__description": "Cel mai rapid mod de a utiliza AI oriunde: chat AI, scriere, verificare gramaticală, explicații, rezumat, căutare, gestionarea prompt-urilor și multe altele."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Apăsați pentru a încărca sau trageți și plasați",
+    "components__to_image_detail__select_all": "Selectați tot",
+    "components__to_image_detail__deselect_all": "Deselectați tot",
+    "components__to_image_detail__download_images": "Descărcați imagini",
+    "components__to_image_detail__remove_pdf": "Eliminați PDF",
+    "components__to_image_detail__cancel": "Anulați",
+    "components__to_image_detail__normal_quality": "Calitate normală",
+    "components__to_image_detail__high_quality": "Calitate înaltă",
+    "components__index__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__to_image_detail__view_pages": "Vizualizați paginile",
+    "components__to_image_detail__view_images": "Vizualizați imaginile",
+    "components__to_image__downloader_tip": "Vă rugăm să selectați cel puțin o imagine.",
+    "components__to_image_detail__not_found_images": "Imagine PDF negăsită"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

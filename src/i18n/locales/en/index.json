@@ -378,7 +378,31 @@
     "contact_us__item2": "Follow us on Twitter for the latest updates and tips:",
     "contact_us__item3": "Support us by rating ★★★★★ on",
     "contact_us__item3__store": "Extension web store",
-    "contact_us__item4": "Help others by sharing this extension:"
+    "contact_us__item4": "Help others by sharing this extension:",
+
+    "tools__index_page__title": "MaxAI Tools",
+    "tools__index_page__description": "All PDF tools are 100% FREE and run in your browser for complete privacy",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Convert PDF to PNG and download each page as an image",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convert PDF to JPEG and download each page as an image",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks"
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Click to upload or drag and drop",
+    "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__to_image_detail__select_all": "Select All",
+    "components__to_image_detail__deselect_all": "Deselect All",
+    "components__to_image_detail__download_images": "Download images",
+    "components__to_image_detail__remove_pdf": "Remove PDF",
+    "components__to_image_detail__cancel": "Cancel",
+    "components__to_image_detail__normal_quality": "Normal Quality",
+    "components__to_image_detail__high_quality": "High Quality",
+    "components__to_image_detail__view_pages": "View pages",
+    "components__to_image_detail__view_images": "View images",
+    "components__to_image__downloader_tip": "Please select at least one image.",
+    "components__to_image_detail__not_found_images": "PDF image not found"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -559,10 +583,9 @@
     "footer__get_for_free": "Get MaxAI for free"
   },
   "affiliate": {
-    
     "main_keywords": "affiliate program",
     "call_to_action__text": "Join affiliate program",
-    "hero_section__indicator__label": "#1 Product of the Week", 
+    "hero_section__indicator__label": "#1 Product of the Week",
     "hero_section__title": "Get paid with MaxAI",
     "hero_section__description__part1": "Join our affiliate program and earn",
     "hero_section__description__part2": "recurring commission for sharing MaxAI!",

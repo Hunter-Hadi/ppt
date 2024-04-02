@@ -350,7 +350,15 @@
     "contact_us__item2": "Volg ons op Twitter voor de laatste updates en tips:",
     "contact_us__item3": "Ondersteun ons door ★★★★★ te beoordelen op",
     "contact_us__item3__store": "de webwinkel van de extensie",
-    "contact_us__item4": "Help anderen door deze extensie te delen:"
+    "contact_us__item4": "Help anderen door deze extensie te delen:",
+    "tools__index_page__title": "MaxAI Gereedschappen",
+    "tools__index_page__description": "Alle PDF-tools zijn 100% GRATIS en worden uitgevoerd in uw browser voor volledige privacy",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF naar PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Converteer PDF naar PNG en download elke pagina als een afbeelding",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF naar JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converteer PDF naar JPEG en download elke pagina als een afbeelding",
+    "tools__index_page__constant_obj__merge_pdfs__title": "PDF's samenvoegen",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Gebruik 1-Click AI Overal (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "De snelste manier om AI overal te gebruiken: AI-chat, schrijven, grammaticacontrole, uitleg, samenvatting, zoeken, promptbeheer en meer.",
     "maintain__title": "In onderhoud | MaxAI.me",
     "affiliate__title": "Affiliate Programma | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Meer Over",
     "more_over_section__description__part1": "MaxAI.me is meer dan alleen een vertaaltool - Het is jouw alles-in-één AI-aangedreven browserextensie. Met MaxAI.me heb je toegang tot een breed scala aan op AI gebaseerde functies rechtstreeks in je browser, op elke website die je bezoekt.",
     "more_over_section__description__part2": "Van schrijfassistentie en websamenvatting tot ChatPDF en AI-schilderen, MaxAI.me stelt je in staat om te lezen, schrijven en creëren met behulp van de meest geavanceerde AI-modellen, waaronder ChatGPT, Claude en Gemini. Upgrade vandaag nog je browse-ervaring en ontgrendel je productiviteitspotentieel met MaxAI.me!"
+=======
+    "default__description": "De snelste manier om AI overal te gebruiken: AI-chat, schrijven, grammaticacontrole, uitleg, samenvatting, zoeken, promptbeheer en meer."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klik om te uploaden of sleep en plaats",
+    "components__to_image_detail__select_all": "Alles selecteren",
+    "components__to_image_detail__deselect_all": "Alles deselecteren",
+    "components__to_image_detail__download_images": "Afbeeldingen downloaden",
+    "components__to_image_detail__remove_pdf": "PDF verwijderen",
+    "components__to_image_detail__cancel": "Annuleren",
+    "components__to_image_detail__normal_quality": "Normale kwaliteit",
+    "components__to_image_detail__high_quality": "Hoge kwaliteit",
+    "components__index__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
+    "components__to_image_detail__view_pages": "Bekijk pagina's",
+    "components__to_image_detail__view_images": "Bekijk afbeeldingen",
+    "components__to_image__downloader_tip": "Selecteer minimaal één afbeelding.",
+    "components__to_image_detail__not_found_images": "Afbeelding niet gevonden in PDF"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

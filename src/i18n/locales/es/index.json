@@ -350,7 +350,15 @@
     "contact_us__item2": "Síguenos en Twitter para obtener las últimas actualizaciones y consejos:",
     "contact_us__item3": "Apóyanos calificando ★★★★★ en",
     "contact_us__item3__store": "Tienda de extensiones web",
-    "contact_us__item4": "Ayuda a otros compartiendo esta extensión:"
+    "contact_us__item4": "Ayuda a otros compartiendo esta extensión:",
+    "tools__index_page__title": "Herramientas MaxAI",
+    "tools__index_page__description": "Todas las herramientas de PDF son 100% GRATUITAS y se ejecutan en tu navegador para una privacidad completa",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF a PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Convierte PDF a PNG y descarga cada página como una imagen",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF a JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convierte PDF a JPEG y descarga cada página como una imagen",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Combinar PDFs",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Combina varios archivos PDF en uno con solo unos clics"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Usa IA con un solo clic en cualquier lugar (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "La forma más rápida de usar IA en cualquier lugar: chat de IA, escritura, corrección gramatical, explicación, resumen, búsqueda, gestión de sugerencias y más.",
     "maintain__title": "En mantenimiento | MaxAI.me",
     "affiliate__title": "Programa de afiliados | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Más Funciones",
     "more_over_section__description__part1": "MaxAI.me es más que una herramienta de traducción: es tu extensión de navegador todo en uno impulsada por IA. Con MaxAI.me, puedes acceder a una amplia gama de funciones impulsadas por IA directamente en tu navegador, en cualquier sitio web que visites.",
     "more_over_section__description__part2": "Desde asistencia en la escritura y resúmenes de páginas web hasta ChatPDF y pintura con IA, MaxAI.me te permite leer, escribir y crear con la ayuda de los modelos de IA más avanzados, incluidos ChatGPT, Claude y Gemini. Mejora tu experiencia de navegación y desbloquea tu potencial de productividad con MaxAI.me ¡hoy mismo!"
+=======
+    "default__description": "La forma más rápida de usar IA en cualquier lugar: chat de IA, escritura, corrección gramatical, explicación, resumen, búsqueda, gestión de sugerencias y más."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Haz clic para subir o arrastra y suelta",
+    "components__to_image_detail__select_all": "Seleccionar todo",
+    "components__to_image_detail__deselect_all": "Deseleccionar todo",
+    "components__to_image_detail__download_images": "Descargar imágenes",
+    "components__to_image_detail__remove_pdf": "Eliminar PDF",
+    "components__to_image_detail__cancel": "Cancelar",
+    "components__to_image_detail__normal_quality": "Calidad normal",
+    "components__to_image_detail__high_quality": "Alta calidad",
+    "components__index__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
+    "components__to_image_detail__view_pages": "Ver páginas",
+    "components__to_image_detail__view_images": "Ver imágenes",
+    "components__to_image__downloader_tip": "Por favor, selecciona al menos una imagen.",
+    "components__to_image_detail__not_found_images": "Imagen de PDF no encontrada"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

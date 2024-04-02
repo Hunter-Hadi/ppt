@@ -350,7 +350,15 @@
     "contact_us__item2": "Հետևեք մեզ Twitter-ում ՝ վերջին թարմացումների և խնդրանքների համար:",
     "contact_us__item3": "Սպասարկեք մեզ, վաստակեք ★★★★★ գնահատականով",
     "contact_us__item3__store": "Երթուղիների վեբ խանութ",
-    "contact_us__item4": "Օթեւսը համատեք այս ընդգրկումը՝"
+    "contact_us__item4": "Օթեւսը համատեք այս ընդգրկումը՝",
+    "tools__index_page__title": "MaxAI Գործիքներ",
+    "tools__index_page__description": "Բոլոր PDF գործիքները 100% անվճար են և աշխատում են ձեր զննարկիչում ամբողջական գաղտնիքով",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF-ից PNG-ի",
+    "tools__index_page__constant_obj__pdf_to_png__description": "վերափոխեք PDF-ը PNG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF-ից JPEG-ի",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "վերափոխեք PDF-ը JPEG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Միացնել PDF-երը",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Օգտագործեք 1-կլիկի AI ամենավերջինը (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Արագաբանական եղանակով օգտագործեք AI-ն ամենտային վայրում: AI խոսք, գրադարան, ճանապարհային ստուգում, բացատրություն, ամփոփում, որոնում, խորագրության կառավարում և այլն:",
     "maintain__title": "Սպասարկումում է | MaxAI.me",
     "affiliate__title": "Աֆիլիացիայի ծրագիր | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Ավելին",
     "more_over_section__description__part1": "MaxAI.me-ը չի առաջարկում միայն թարգմանության գործիքը - այն է ձեր բոլորի համար ամենալավագույն AI-ով աշխատանքային բրաուզերի ընդհանուր ընթացքում: MaxAI.me-ի միջոցով դուք կարող եք մասնակցել լավագույն AI-ի աջակցությանը, որը ապահովում է ձեզ կարողանալու համար աշխատել ձեր բրաուզերում, այսինքն այստեղից այդ կատարումները կարող եք հասկանալ:",
     "more_over_section__description__part2": "Սա ներառում է գրավելու, էջի ամփոփումների ու ChatPDF-ից AI նկարագրության միջոցով նկարելու միջավայրերում: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին:"
+=======
+    "default__description": "Արագաբանական եղանակով օգտագործեք AI-ն ամենտային վայրում: AI խոսք, գրադարան, ճանապարհային ստուգում, բացատրություն, ամփոփում, որոնում, խորագրության կառավարում և այլն:"
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Սեղմեք վերբեռնելու համար կամ տեղադրեք",
+    "components__to_image_detail__select_all": "Ընտրել բոլորը",
+    "components__to_image_detail__deselect_all": "Հանել ընտրվածները",
+    "components__to_image_detail__download_images": "Ներբեռնել պատկերները",
+    "components__to_image_detail__remove_pdf": "Ջնջել PDF-ը",
+    "components__to_image_detail__cancel": "Չեղարկել",
+    "components__to_image_detail__normal_quality": "Նորմալ որակ",
+    "components__to_image_detail__high_quality": "Բարձր որակ",
+    "components__index__unsupported_file_type_tip": "Խնդրում ենք բեռնել նշված PDF ֆայլի տեսակին",
+    "components__to_image_detail__view_pages": "Դիտել էջերը",
+    "components__to_image_detail__view_images": "Դիտել պատկերները",
+    "components__to_image__downloader_tip": "Խնդրում ենք ընտրել առավելագույնը մեկ պատկեր։",
+    "components__to_image_detail__not_found_images": "Նկարը չի գտնվել PDF-ում"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

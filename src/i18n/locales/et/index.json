@@ -350,7 +350,15 @@
     "contact_us__item2": "Jälgige meid Twitteris viimaste uuenduste ja näpunäidete saamiseks:",
     "contact_us__item3": "Toetage meid hindega ★★★★★",
     "contact_us__item3__store": "Laienduse veebipood",
-    "contact_us__item4": "Aidake teisi, jagades seda laiendust:"
+    "contact_us__item4": "Aidake teisi, jagades seda laiendust:",
+    "tools__index_page__title": "MaxAI Tööriistad",
+    "tools__index_page__description": "Kõik PDF tööriistad on 100% TASUTA ja töötavad sinu veebilehitsejas täieliku privaatsuse tagamiseks",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-iks",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Teisenda PDF PNG-ks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-iks",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Teisenda PDF JPEG-iks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Ühenda PDF-id",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Kasutage 1-klõpsuga AI-d kõikjal (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Kõige kiirem viis kasutada AI-d kõikjal: AI vestlus, kirjutamine, grammatika kontroll, selgitus, kokkuvõte, otsing, ülesannete haldamine ja palju muud.",
     "maintain__title": "Hoolduses | MaxAI.me",
     "affiliate__title": "Sidusprogramm | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Veelgi enam",
     "more_over_section__description__part1": "MaxAI.me on rohkem kui lihtsalt tõlkimistööriist - see on teie kõik-ühes AI-toega brauserilaiendus. MaxAI.me abil saate juurdepääsu laiale valikule AI-põhistele funktsioonidele otse oma brauseris, igal külastataval veebisaidil.",
     "more_over_section__description__part2": "Alates kirjutamise abist ja veebilehe kokkuvõtetest kuni ChatPDF-i ja AI-maalimiseni võimaldab MaxAI.me teil lugeda, kirjutada ja luua kõige arenenumate AI-mudelite abil, sealhulgas ChatGPT, Claude ja Gemini. Täiustage oma sirvimiskogemust ja avage oma tootlikkuse potentsiaal juba täna MaxAI.me abil!"
+=======
+    "default__description": "Kõige kiirem viis kasutada AI-d kõikjal: AI vestlus, kirjutamine, grammatika kontroll, selgitus, kokkuvõte, otsing, ülesannete haldamine ja palju muud."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Klõpsake üleslaadimiseks või lohistage",
+    "components__to_image_detail__select_all": "Vali kõik",
+    "components__to_image_detail__deselect_all": "Tühista valikud",
+    "components__to_image_detail__download_images": "Laadi pildid alla",
+    "components__to_image_detail__remove_pdf": "Eemalda PDF",
+    "components__to_image_detail__cancel": "Tühista",
+    "components__to_image_detail__normal_quality": "Tavaline kvaliteet",
+    "components__to_image_detail__high_quality": "Kõrge kvaliteet",
+    "components__index__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
+    "components__to_image_detail__view_pages": "Vaata lehti",
+    "components__to_image_detail__view_images": "Vaata pilte",
+    "components__to_image__downloader_tip": "Palun valige vähemalt üks pilt.",
+    "components__to_image_detail__not_found_images": "PDF pilti ei leitud"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

@@ -71,7 +71,9 @@
     "learning_center__basic_usage__item1__title": "Βασική χρήση: Επισήμανση κειμένου & MiniMenu",
     "learning_center__basic_usage__item2__title": "Βασική χρήση: Ενεργοποίηση της πλευρικής γραμμής",
     "learning_center__basic_usage__item3__title": "Βασική χρήση: Ρύθμιση παραμέτρων",
-    "learning_center__features__title": "Χαρακτηριστικά"
+    "learning_center__features__title": "Χαρακτηριστικά",
+    "tools__index_page__title": "Εργαλεία MaxAI",
+    "tools__index_page__description": "Όλα τα εργαλεία PDF είναι 100% ΔΩΡΕΑΝ και λειτουργούν στον περιηγητή σας για πλήρη απόρρητο"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Κλικ Προτροπές",

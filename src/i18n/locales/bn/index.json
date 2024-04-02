@@ -350,7 +350,15 @@
     "contact_us__item2": "সর্বশেষ আপডেট এবং টিপস জানতে আমাদের টুইটার অনুসরণ করুন:",
     "contact_us__item3": "এক্সটেনশন ওয়েব স্টোরে ★★★★★ রেটিং দিয়ে আমাদের সমর্থন করুন",
     "contact_us__item3__store": "এক্সটেনশন ওয়েব স্টোর",
-    "contact_us__item4": "এই এক্সটেনশনটি শেয়ার করে অন্যদেরকে সাহায্য করুন"
+    "contact_us__item4": "এই এক্সটেনশনটি শেয়ার করে অন্যদেরকে সাহায্য করুন",
+    "tools__index_page__title": "ম্যাক্সএআই টুলস",
+    "tools__index_page__description": "সম্পূর্ণ গোপনীয়তার জন্য সম্পূর্ণ ব্রাউজারে চলতে সম্পূর্ণ ফ্রি এবং পিডিএফ টুলগুলি",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF থেকে PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF থেকে PNG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF থেকে JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF থেকে JPEG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
+    "tools__index_page__constant_obj__merge_pdfs__title": "পিডিএফ মার্জ করুন",
+    "tools__index_page__constant_obj__merge_pdfs__description": "কয়েকটি ক্লিকের মাধ্যমে একটি পিডিএফ ফাইলে একত্রিত করুন"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: যেখানেই চাইলেই 1-ক্লিক এআই ব্যবহার করুন (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "এআই যেখানেই ব্যবহার করতে সবচেয়ে দ্রুত: এআই চ্যাট, লেখা, ব্যাকরণ পরীক্ষা, ব্যাখ্যা, সংক্ষিপ্তসার, অনুসন্ধান, প্রম্পট পরিচালনা এবং আরও।",
     "maintain__title": "মেইন্টেনেন্সে | MaxAI.me",
     "affiliate__title": "অ্যাফিলিয়েট প্রোগ্রাম | MaxAI.me",
@@ -620,5 +629,23 @@
     "vision_pages__section3__description": "আপনি কি কখনো একটি ছবি দেখে তার সামগ্রিক বিষয়ে চিন্তা করেছেন? MaxAI.me এর AI ভিশন দিয়ে আপনি এখন যেকোনো ছবি সম্পর্কে প্রশ্ন করতে পারেন এবং তাৎক্ষণিক, সঠিক উত্তর পাবেন। আপনি যদি একটি বস্তু, একটি ব্যক্তি বা ছবিতে নির্দিষ্ট বিশদ সম্পর্কে জানতে চান, তবে কেবল আপনার প্রশ্ন করুন এবং MaxAI.me আপনাকে প্রয়োজনীয় তথ্য দিবে।",
     "more_over_section__title": "অধিক ওভার",
     "more_over_section__description__part1": "MaxAI.me শুধুমাত্র একটি অনুবাদ সরঞ্জাম নয় - এটি আপনার সমস্ত-একটি AI-পাওয়ারড ব্রাউজার এক্সটেনশন। MaxAI.me দিয়ে আপনি আপনার যে কোনও ওয়েবসাইটে এক্সেস করতে পারেন এবং লেখার সহায়তা এবং ওয়েবপেজ সংক্ষেপণ থেকে ChatPDF এবং AI পেইন্টিং পর্যন্ত, MaxAI.me আপনাকে সব সমস্ত উন্নত AI মডেলের সাহায্যে পড়া, লেখা এবং সৃজন করার সুযোগ দেয়। আজই আপনার ব্রাউজিং অভিজ্ঞতা আপগ্রেড করুন এবং MaxAI.me দ্বারা আপনার উৎপাদনশীলতা সম্ভাবনা আনলেন!"
+=======
+    "default__description": "এআই যেখানেই ব্যবহার করতে সবচেয়ে দ্রুত: এআই চ্যাট, লেখা, ব্যাকরণ পরীক্ষা, ব্যাখ্যা, সংক্ষিপ্তসার, অনুসন্ধান, প্রম্পট পরিচালনা এবং আরও।"
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "আপলোড করতে ক্লিক করুন বা টেনে আনুন",
+    "components__to_image_detail__select_all": "সব নির্বাচন করুন",
+    "components__to_image_detail__deselect_all": "সব অগ্রাহ্য করুন",
+    "components__to_image_detail__download_images": "ছবি ডাউনলোড করুন",
+    "components__to_image_detail__remove_pdf": "PDF সরান",
+    "components__to_image_detail__cancel": "বাতিল করুন",
+    "components__to_image_detail__normal_quality": "সাধারণ মান",
+    "components__to_image_detail__high_quality": "উচ্চ মান",
+    "components__index__unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
+    "components__to_image_detail__view_pages": "পৃষ্ঠা দেখুন",
+    "components__to_image_detail__view_images": "চিত্র দেখুন",
+    "components__to_image__downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।",
+    "components__to_image_detail__not_found_images": "পিডিএফ চিত্র পাওয়া যায়নি"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

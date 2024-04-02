@@ -350,7 +350,15 @@
     "contact_us__item2": "עקוב אחרינו בטוויטר לעדכונים וטיפים מעניינים:",
     "contact_us__item3": "תמוך בנו על ידי דירוג ★★★★★ ב-",
     "contact_us__item3__store": "חנות התוספים",
-    "contact_us__item4": "עזור לאחרים על ידי שיתוף התוסף הזה:"
+    "contact_us__item4": "עזור לאחרים על ידי שיתוף התוסף הזה:",
+    "tools__index_page__title": "כלים של MaxAI",
+    "tools__index_page__description": "כל כלי PDF הם בחינם לחלוטין ורצים בדפדפן שלך לפרטיות מוחלטת",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF ל-PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "המרת PDF ל-PNG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ל-JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__merge_pdfs__title": "מיזוג PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -555,6 +563,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: השתמש באינטיליגנציה מלאה בלחיצה אחת (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "הדרך המהירה ביותר להשתמש באינטיליגנציה בכל מקום: צ'אט AI, כתיבה, בדיקת דקדוק, הסבר, סיכום, חיפוש, ניהול פרומפטים ועוד.",
     "maintain__title": "בתחזוקה | MaxAI.me",
     "affiliate__title": "תוכנית שותפים | MaxAI.me",
@@ -620,5 +629,23 @@
     "more_over_section__title": "עוד יותר",
     "more_over_section__description__part1": "MaxAI.me היא לא רק כלי תרגום - זו הרחבת הדפדפן המופעלת על ידי AI הכול-באחד שלך. עם MaxAI.me, תוכל לגשת למגוון רחב של תכונות מופעלות על ידי AI ישירות בדפדפן שלך, בכל אתר שאתה מבקר בו.",
     "more_over_section__description__part2": "מתוך עזרה בכתיבה וסיכום דפי אינטרנט ועד ChatPDF וציור AI, MaxAI.me מעניק לך את היכולת לקרוא, לכתוב וליצור בעזרת המודלים המתקדמים ביותר, כולל ChatGPT, Claude ו-Gemini. שדרג את חוויית הגלישה שלך ופתח את הפוטנציאל המוצק של הפרודוקטיביות שלך עם MaxAI.me היום!"
+=======
+    "default__description": "הדרך המהירה ביותר להשתמש באינטיליגנציה בכל מקום: צ'אט AI, כתיבה, בדיקת דקדוק, הסבר, סיכום, חיפוש, ניהול פרומפטים ועוד."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "לחץ כדי להעלות או לגרור ולשחרר",
+    "components__to_image_detail__select_all": "בחר הכל",
+    "components__to_image_detail__deselect_all": "בטל בחירת הכל",
+    "components__to_image_detail__download_images": "הורד תמונות",
+    "components__to_image_detail__remove_pdf": "הסר PDF",
+    "components__to_image_detail__cancel": "ביטול",
+    "components__to_image_detail__normal_quality": "איכות רגילה",
+    "components__to_image_detail__high_quality": "איכות גבוהה",
+    "components__index__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__to_image_detail__view_pages": "הצג עמודים",
+    "components__to_image_detail__view_images": "הצג תמונות",
+    "components__to_image__downloader_tip": "אנא בחר לפחות תמונה אחת.",
+    "components__to_image_detail__not_found_images": "תמונת PDF לא נמצאה"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

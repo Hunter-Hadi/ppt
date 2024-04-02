@@ -350,7 +350,15 @@
     "contact_us__item2": "ما را در توییتر دنبال کنید برای آخرین به‌روزرسانی‌ها و نکات:",
     "contact_us__item3": "ما را با امتیاز ★★★★★ در",
     "contact_us__item3__store": "فروشگاه وب افزونه",
-    "contact_us__item4": "با به اشتراک گذاشتن این افزونه به دیگران کمک کنید:"
+    "contact_us__item4": "با به اشتراک گذاشتن این افزونه به دیگران کمک کنید:",
+    "tools__index_page__title": "ابزارهای MaxAI",
+    "tools__index_page__description": "تمام ابزارهای PDF 100٪ رایگان هستند و در مرورگر شما اجرا می‌شوند تا حریم خصوصی کامل را فراهم کنند",
+    "tools__index_page__constant_obj__pdf_to_png__title": "تبدیل PDF به PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "تبدیل PDF به PNG و دانلود هر صفحه به عنوان تصویر",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "تبدیل PDF به JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "تبدیل PDF به JPEG و دانلود هر صفحه به عنوان تصویر",
+    "tools__index_page__constant_obj__merge_pdfs__title": "ادغام فایل‌های PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: استفاده از هوش مصنوعی با 1 کلیک در هر جایی (ChatGPT، Claude، Gemini، Bard، Bing)",
+<<<<<<< HEAD
     "default__description": "سریعترین راه برای استفاده از هوش مصنوعی در هر جایی: چت با هوش مصنوعی، نوشتن، چک کردن دستور زبان، توضیح، خلاصه، جستجو، مدیریت پیشنهاد و غیره.",
     "maintain__title": "در دست تعمیر | MaxAI.me",
     "affiliate__title": "برنامه همکاری | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "بیشتر از این",
     "more_over_section__description__part1": "MaxAI.me بیش از یک ابزار ترجمه است - این افزونه مرورگر قدرتمند هوش مصنوعی شما است. با MaxAI.me، شما می توانید به یک مجموعه گسترده از ویژگی های مبتنی بر هوش مصنوعی در مرورگر خود، در هر وب سایتی که بازدید می کنید، دسترسی پیدا کنید.",
     "more_over_section__description__part2": "از کمک به نوشتن و خلاصه صفحات وب تا ChatPDF و نقاشی هوش مصنوعی، MaxAI.me شما را قادر می سازد تا با استفاده از پیشرفته ترین مدل های هوش مصنوعی از جمله ChatGPT، Claude و Gemini بخوانید، بنویسید و ایجاد کنید. تجربه مرورگر خود را ارتقا دهید و ظرفیت تولیدی خود را با MaxAI.me بهبود بخشید!"
+=======
+    "default__description": "سریعترین راه برای استفاده از هوش مصنوعی در هر جایی: چت با هوش مصنوعی، نوشتن، چک کردن دستور زبان، توضیح، خلاصه، جستجو، مدیریت پیشنهاد و غیره."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "برای بارگذاری کلیک کنید یا بکشید و رها کنید",
+    "components__to_image_detail__select_all": "انتخاب همه",
+    "components__to_image_detail__deselect_all": "عدم انتخاب همه",
+    "components__to_image_detail__download_images": "دانلود تصاویر",
+    "components__to_image_detail__remove_pdf": "حذف PDF",
+    "components__to_image_detail__cancel": "لغو",
+    "components__to_image_detail__normal_quality": "کیفیت عادی",
+    "components__to_image_detail__high_quality": "کیفیت بالا",
+    "components__index__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
+    "components__to_image_detail__view_pages": "مشاهده صفحات",
+    "components__to_image_detail__view_images": "مشاهده تصاویر",
+    "components__to_image__downloader_tip": "لطفا حداقل یک تصویر را انتخاب کنید.",
+    "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

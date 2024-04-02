@@ -350,7 +350,15 @@
     "contact_us__item2": "Pratite nas na Twitteru za najnovije vesti i savete:",
     "contact_us__item3": "Podržite nas ocenom ★★★★★ na",
     "contact_us__item3__store": "Prodavnica proširenja",
-    "contact_us__item4": "Pomozite drugima tako što ćete deliti ovo proširenje:"
+    "contact_us__item4": "Pomozite drugima tako što ćete deliti ovo proširenje:",
+    "tools__index_page__title": "MaxAI Alati",
+    "tools__index_page__description": "Svi PDF alati su 100% BESPLATNI i pokreću se u vašem pregledaču za potpunu privatnost",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF u PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertuj PDF u PNG i preuzmi svaku stranicu kao sliku",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF u JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertuj PDF u JPEG i preuzmi svaku stranicu kao sliku",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Spoji PDF-ove",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF fajlova u jedan sa samo nekoliko klikova"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Koristite 1-klik AI bilo gde (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Najbrži način za korišćenje AI bilo gde: AI chat, pisanje, provera gramatike, objašnjenje, rezime, pretraga, upravljanje zadacima i još mnogo toga.",
     "maintain__title": "U održavanju | MaxAI.me",
     "affiliate__title": "Affiliate Program | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Više od toga",
     "more_over_section__description__part1": "MaxAI.me je više od alata za prevod - To je vaše sve-u-jednom proširenje pregledača pokretano AI. Sa MaxAI.me-om, možete pristupiti širokom spektru AI pogonjenih funkcija direktno u svom pregledaču, na bilo kojoj veb stranici koju posetite.",
     "more_over_section__description__part2": "Od pomoći pri pisanju i sažimanju veb stranica do ChatPDF-a i AI slikarstva, MaxAI.me vam omogućava da čitate, pišete i stvarate uz pomoć najnaprednijih AI modela, uključujući ChatGPT, Claude i Gemini. Nadogradite svoje iskustvo pretraživanja i otključajte svoj potencijal za produktivnost sa MaxAI.me-om danas!"
+=======
+    "default__description": "Najbrži način za korišćenje AI bilo gde: AI chat, pisanje, provera gramatike, objašnjenje, rezime, pretraga, upravljanje zadacima i još mnogo toga."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Kliknite da biste otpremili ili prevukli",
+    "components__to_image_detail__select_all": "Izaberite sve",
+    "components__to_image_detail__deselect_all": "Poništite izbor svih",
+    "components__to_image_detail__download_images": "Preuzmite slike",
+    "components__to_image_detail__remove_pdf": "Uklonite PDF",
+    "components__to_image_detail__cancel": "Otkaži",
+    "components__to_image_detail__normal_quality": "Normalan kvalitet",
+    "components__to_image_detail__high_quality": "Visok kvalitet",
+    "components__index__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
+    "components__to_image_detail__view_pages": "Pogledaj stranice",
+    "components__to_image_detail__view_images": "Pogledaj slike",
+    "components__to_image__downloader_tip": "Molimo izaberite barem jednu sliku.",
+    "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

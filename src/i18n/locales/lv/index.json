@@ -350,7 +350,15 @@
     "contact_us__item2": "Seko mums Twitterī, lai saņemtu jaunākās atjaunināšanas un padomus:",
     "contact_us__item3": "Atbalstiet mūs, novērtējot ★★★★★",
     "contact_us__item3__store": "Paplašinājumu veikalu",
-    "contact_us__item4": "Palīdziet citiem, daloties ar šo paplašinājumu:"
+    "contact_us__item4": "Palīdziet citiem, daloties ar šo paplašinājumu:",
+    "tools__index_page__title": "MaxAI Rīki",
+    "tools__index_page__description": "Visi PDF rīki ir 100% BEZMAKSAS un darbojas jūsu pārlūkprogrammā, nodrošinot pilnīgu privātumu",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF uz PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertēt PDF uz PNG un lejupielādēt katru lapu kā attēlu",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF uz JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertēt PDF uz JPEG un lejupielādēt katru lapu kā attēlu",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Apvienot PDF failus",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Apvieno vairākus PDF failus vienā ar tikai dažiem klikšķiem"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Izmantojiet 1-Click AI jebkur (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Ātrākais veids, kā izmantot AI jebkur: AI tērzēšana, rakstīšana, gramatikas pārbaude, skaidrojumi, kopsavilkums, meklēšana, uzdevumu pārvaldība un vairāk.",
     "maintain__title": "Apkopes laikā | MaxAI.me",
     "affiliate__title": "Partneru programma | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Vairāk par to",
     "more_over_section__description__part1": "MaxAI.me ir vairāk nekā tikai tulkošanas rīks - tas ir jūsu visaptverošais AI spējām pilnvarotais pārlūka paplašinājums. Ar MaxAI.me jūs varat piekļūt plašam AI piedāvājumam tieši savā pārlūkprogrammā, apmeklējot jebkuru vietni.",
     "more_over_section__description__part2": "Sākot no rakstības palīdzības un lapas kopsavilkuma līdz ChatPDF un AI gleznošanai, MaxAI.me ļauj jums lasīt, rakstīt un radīt ar vismodernākajiem AI modeļiem, ieskaitot ChatGPT, Claude un Gemini. Uzlabojiet savu pārlūkošanas pieredzi un atklājiet savu produktivitātes potenciālu ar MaxAI.me jau šodien!"
+=======
+    "default__description": "Ātrākais veids, kā izmantot AI jebkur: AI tērzēšana, rakstīšana, gramatikas pārbaude, skaidrojumi, kopsavilkums, meklēšana, uzdevumu pārvaldība un vairāk."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Noklikšķiniet, lai augšupielādētu vai vilktu un nomestu",
+    "components__to_image_detail__select_all": "Izvēlēties visu",
+    "components__to_image_detail__deselect_all": "Noņemt atlasi",
+    "components__to_image_detail__download_images": "Lejupielādēt attēlus",
+    "components__to_image_detail__remove_pdf": "Noņemt PDF",
+    "components__to_image_detail__cancel": "Atcelt",
+    "components__to_image_detail__normal_quality": "Normāla kvalitāte",
+    "components__to_image_detail__high_quality": "Augsta kvalitāte",
+    "components__index__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
+    "components__to_image_detail__view_pages": "Skatīt lapas",
+    "components__to_image_detail__view_images": "Skatīt attēlus",
+    "components__to_image__downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu.",
+    "components__to_image_detail__not_found_images": "PDF attēls nav atrasts"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

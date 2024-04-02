@@ -350,7 +350,15 @@
     "contact_us__item2": "ติดตามเราบน Twitter เพื่อรับข้อมูลอัพเดตและเคล็ดลับล่าสุด:",
     "contact_us__item3": "สนับสนุนเราโดยการให้คะแนน ★★★★★ บน",
     "contact_us__item3__store": "ร้านค้าเว็บขยาย",
-    "contact_us__item4": "ช่วยเหลือผู้อื่นโดยการแชร์ขยายนี้:"
+    "contact_us__item4": "ช่วยเหลือผู้อื่นโดยการแชร์ขยายนี้:",
+    "tools__index_page__title": "เครื่องมือ MaxAI",
+    "tools__index_page__description": "เครื่องมือ PDF ทั้งหมดเป็นฟรี 100% และทำงานในเบราว์เซอร์ของคุณเพื่อความเป็นส่วนตัวที่สมบูรณ์",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF เป็น PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "แปลง PDF เป็น PNG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF เป็น JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "แปลง PDF เป็น JPEG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__merge_pdfs__title": "รวม PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: ใช้ AI ด้วยคลิกเดียวทุกที่ (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "วิธีที่รวดเร็วที่สุดในการใช้ AI ทุกที่: แชท AI, เขียน, ตรวจสอบไวยากรณ์, อธิบาย, สรุป, ค้นหา, การจัดการโปรโมต, และอื่น ๆ",
     "maintain__title": "กำลังปรับปรุง | MaxAI.me",
     "affiliate__title": "โปรแกรมพันธมิตร | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "มากกว่านั้น",
     "more_over_section__description__part1": "MaxAI.me ไม่ใช่เพียงเครื่องมือแปลเท่านั้น - มันเป็นส่วนขยายเบราว์เซอร์ที่มีพลัง AI ทั้งหมดในตัว ด้วย MaxAI.me คุณสามารถเข้าถึงคุณสมบัติขับเคลื่อนด้วย AI ที่หลากหลายได้ตรงในเบราว์เซอร์ของคุณบนเว็บไซต์ใดก็ได้ที่คุณเข้าชม",
     "more_over_section__description__part2": "ตั้งแต่การช่วยเขียนและสรุปหน้าเว็บไปจนถึง ChatPDF และการวาดภาพ AI MaxAI.me เสริมให้คุณอ่าน เขียน และสร้างผลงานด้วยความช่วยเหลือจากโมเดล AI ที่ทันสมัยที่สุด เช่น ChatGPT, Claude, และ Gemini อัพเกรดประสบการณ์การเรียกดูและปลดล็อคศักยภาพในการผลิตของคุณด้วย MaxAI.me วันนี้!"
+=======
+    "default__description": "วิธีที่รวดเร็วที่สุดในการใช้ AI ทุกที่: แชท AI, เขียน, ตรวจสอบไวยากรณ์, อธิบาย, สรุป, ค้นหา, การจัดการโปรโมต, และอื่น ๆ"
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",
+    "components__to_image_detail__select_all": "เลือกทั้งหมด",
+    "components__to_image_detail__deselect_all": "ไม่เลือกทั้งหมด",
+    "components__to_image_detail__download_images": "ดาวน์โหลดรูปภาพ",
+    "components__to_image_detail__remove_pdf": "ลบ PDF",
+    "components__to_image_detail__cancel": "ยกเลิก",
+    "components__to_image_detail__normal_quality": "คุณภาพปกติ",
+    "components__to_image_detail__high_quality": "คุณภาพสูง",
+    "components__index__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components__to_image_detail__view_pages": "ดูหน้า",
+    "components__to_image_detail__view_images": "ดูรูปภาพ",
+    "components__to_image__downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ",
+    "components__to_image_detail__not_found_images": "ไม่พบรูปภาพจาก PDF"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

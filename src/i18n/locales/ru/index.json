@@ -350,7 +350,15 @@
     "contact_us__item2": "Следуйте за нами в Twitter для получения последних обновлений и советов:",
     "contact_us__item3": "Поддержите нас, оценив ★★★★★ в",
     "contact_us__item3__store": "Магазине расширений",
-    "contact_us__item4": "Помогите другим, поделившись этим расширением:"
+    "contact_us__item4": "Помогите другим, поделившись этим расширением:",
+    "tools__index_page__title": "Инструменты MaxAI",
+    "tools__index_page__description": "Все инструменты для PDF абсолютно БЕСПЛАТНЫ и работают в вашем браузере для полной конфиденциальности",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF в PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Преобразовать PDF в PNG и загрузить каждую страницу как изображение",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF в JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Преобразовать PDF в JPEG и загрузить каждую страницу как изображение",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Объединить PDF",
+    "tools__index_page__constant_obj__merge_pdfs__description": "Объедините несколько файлов PDF в один всего за несколько щелчков"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",
@@ -556,6 +564,7 @@
   },
   "seo": {
     "default__title": "MaxAI.me: Используйте искусственный интеллект в один клик (ChatGPT, Claude, Gemini, Bard, Bing)",
+<<<<<<< HEAD
     "default__description": "Самый быстрый способ использовать искусственный интеллект где угодно: чат с ИИ, написание текстов, проверка грамматики, объяснение, резюмирование, поиск, управление подсказками и многое другое.",
     "maintain__title": "На обслуживании | MaxAI.me",
     "affiliate__title": "Партнерская программа | MaxAI.me",
@@ -621,5 +630,23 @@
     "more_over_section__title": "Больше возможностей",
     "more_over_section__description__part1": "MaxAI.me - это не просто инструмент перевода - это ваш универсальное расширение браузера, работающее на базе искусственного интеллекта. С MaxAI.me вы можете получить доступ к широкому спектру функций, основанных на искусственном интеллекте, прямо в своем браузере на любом посещаемом вами веб-сайте.",
     "more_over_section__description__part2": "От помощи в написании и кратком изложении веб-страниц до ChatPDF и AI-рисования, MaxAI.me дает вам возможность читать, писать и создавать с помощью передовых моделей искусственного интеллекта, включая ChatGPT, Claude и Gemini. Повысьте свой опыт работы в Интернете и раскройте свой потенциал с MaxAI.me уже сегодня!"
+=======
+    "default__description": "Самый быстрый способ использовать искусственный интеллект где угодно: чат с ИИ, написание текстов, проверка грамматики, объяснение, резюмирование, поиск, управление подсказками и многое другое."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "Нажмите, чтобы загрузить или перетащите",
+    "components__to_image_detail__select_all": "Выбрать все",
+    "components__to_image_detail__deselect_all": "Отменить выбор всех",
+    "components__to_image_detail__download_images": "Скачать изображения",
+    "components__to_image_detail__remove_pdf": "Удалить PDF",
+    "components__to_image_detail__cancel": "Отмена",
+    "components__to_image_detail__normal_quality": "Обычное качество",
+    "components__to_image_detail__high_quality": "Высокое качество",
+    "components__index__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
+    "components__to_image_detail__view_pages": "Просмотр страниц",
+    "components__to_image_detail__view_images": "Просмотр изображений",
+    "components__to_image__downloader_tip": "Пожалуйста, выберите хотя бы одно изображение.",
+    "components__to_image_detail__not_found_images": "Изображение PDF не найдено"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }

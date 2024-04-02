@@ -350,7 +350,15 @@
     "contact_us__item2": "சமீபத்திய புதுப்பிப்புகளுக்கு மற்றும் டிப்ஸ்க்கு எங்களை ட்விட்டரில் பின்பற்றுங்கள்:",
     "contact_us__item3": "மதிப்பீட்டை ★★★★★ ஆக மதிப்பிடுங்கள்",
     "contact_us__item3__store": "நீட்டிப்பு வலைப்பக்கம்",
-    "contact_us__item4": "இந்த நீட்டிப்பை பகிர்ந்து உதவுங்கள்:"
+    "contact_us__item4": "இந்த நீட்டிப்பை பகிர்ந்து உதவுங்கள்:",
+    "tools__index_page__title": "மிக்சை கருவிகள்",
+    "tools__index_page__description": "அனைத்து PDF கருவிகளும் 100% இலவசமாக உள்ளன மற்றும் முழுதும் தனியுரிமைக்கு உள்ள உலாவியில் இயங்குகின்றன",
+    "tools__index_page__constant_obj__pdf_to_png__title": "PDF முதல் PNG க்கு",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ஐ PNG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
+    "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF முதல் JPEG க்கு",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ஐ JPEG க்கு மாற்றி ஒவ்வொன்றும் படமாகப் பதிவிறக்கம் செய்யுங்கள்",
+    "tools__index_page__constant_obj__merge_pdfs__title": "பி.டி.எப்ஸ் ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
+    "tools__index_page__constant_obj__merge_pdfs__description": "கிளிக்குகள் மட்டுமே பல பி.டி.எப்ஸ் கோப்புகளை ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -555,6 +563,7 @@
     "faq__question7__description__part2": "பயன்பாடு மறுபடியும், விளையாட்டுகளும், மற்றும் கொள்கை மீறல்கள் உண்டாக்கப்பட்டால், உங்கள் கணக்கை தடைசெய்யப்படும் மற்றும் ஏற்கனவே உள்நுழைந்த மற்றும் எதிர்பார்க்கப்பட்ட மீள்பரிசைகள் அழிக்கப்படும்."
   },
   "seo": {
+<<<<<<< HEAD
     "default__title": "MaxAI.me: எவ்வித இடத்திலும் 1-கிளிக் ஐயை பயன்படுத்துங்கள் (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "AI சர்வீஸ்களை பயன்படுத்துவதற்கான விரைவுப் பாதை: AI உரையாடல், எழுத்துப் பதிவு, இழுத்துப் பதிவு சோதனை, விளக்கம், சுருக்கம், தேடல், பிராம்ப்முறை மேலாண்மை, மற்றும் மேலும்.",
     "maintain__title": "பராமரிப்பில் | MaxAI.me",
@@ -621,5 +630,24 @@
     "more_over_section__title": "மேலும்",
     "more_over_section__description__part1": "MaxAI.me என்பது ஒரு மொழிபெயர்ப்பு கருவியல்ல - அது உங்களுக்கு அனைத்து AI செயல்பாடுகளையும் வழங்குகின்றது. MaxAI.me உங்களுக்கு அணுகல் மூலம் எந்த வலைத்தளத்திலும் ஏற்படும் AI செயல்பாடுகளைப் பயன்படுத்த முடியும்.",
     "more_over_section__description__part2": "எழுத்துக்கள், வலைப்பக்கங்களின் சுருக்கம், ChatPDF மற்றும் AI ஓவியம் போன்ற மேம்பட்ட AI மாதிரிகளைப் பயன்படுத்தி, MaxAI.me உங்களுக்கு படிக்க, எழுத்துக்களை உருவாக்க மற்றும் உருவாக்க முடியும். இன்னும் மேலான அறிவியல் மாதிரிகளைப் பெறுங்கள் மற்றும் MaxAI.me உள்ளது உங்களுக்கு உதவுகின்றது."
+=======
+    "default__title": "MaxAI.me: ஒரு கிளிக்கு ஏஐ எங்கேயும் பயன்படுத்துங்கள் (ChatGPT, Claude, Gemini, Bard, Bing)",
+    "default__description": "ஏற்கனவே ஏஐ சந்திப்பு, எழுத்து, இழுத்தல் சரிபார்ப்பு, விளக்கம், சுருக்கம், தேடல், உத்தரவரிக்கை மேலாண்மை மற்றும் மேலும் பயன்படுத்த விரைவான வழி."
+  },
+  "functionality__pdf_to_image": {
+    "components__index__upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",
+    "components__to_image_detail__select_all": "அனைத்தையும் தேர்ந்தெடு",
+    "components__to_image_detail__deselect_all": "அனைத்தையும் தேர்ந்தெடுக்காதீர்கள்",
+    "components__to_image_detail__download_images": "படங்களைப் பதிவிறக்கு",
+    "components__to_image_detail__remove_pdf": "PDF ஐ அகற்று",
+    "components__to_image_detail__cancel": "ரத்துசெய்",
+    "components__to_image_detail__normal_quality": "சாதாரண தரம்",
+    "components__to_image_detail__high_quality": "உயர் தரம்",
+    "components__index__unsupported_file_type_tip": "தயவுசெய்து குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக",
+    "components__to_image_detail__view_pages": "பக்கங்களைக் காண்பி",
+    "components__to_image_detail__view_images": "படங்களைக் காண்பி",
+    "components__to_image__downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்.",
+    "components__to_image_detail__not_found_images": "பி.டி.எஃப் படம் காணப்படவில்லை"
+>>>>>>> feature-mini-tool-class-laizeping-20240327
   }
 }
