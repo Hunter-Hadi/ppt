@@ -43,7 +43,13 @@
     "share": "Dalintis",
     "link_copied": "Nuoroda nukopijuota",
     "sign_up": "Registruotis",
-    "follow": "Sekti"
+    "follow": "Sekti",
+    "days": "Dienos",
+    "hours": "Valandos",
+    "mins": "Minutės",
+    "secs": "Sekundės",
+    "subscribe_now": "Užsiprenumeruokite dabar",
+    "month": "mėnuo"
   },
   "button": {
     "add_to_chrome_for_free": "Pridėti nemokamai į „Chrome“",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Paslaugų teikimo sąlygos",
     "payment_type_switch__yearly": "Metinis",
     "payment_type_switch__monthly": "Mėnesinis",
-    "payment_type_switch__tooltip1": "Mokėkite kasmet",
-    "payment_type_switch__tooltip2": "ir sutaupykite iki {{num}}%",
     "plan_payment_info__per_month": "per mėnesį",
     "plan_payment_info__billed_yearly": "sąskaita išrašoma kasmet",
     "plan_payment_info__free_desc": "Geriausia retiems naudotojams",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Prenumeruodami jūs užsiprenumeruojate automatinį mokėjimą. Atšaukite arba valdykite savo prenumeratą per „Stripe“ klientų portalą, pasirinkę „Mano planą“. Visos paslaugos teikiamos pagal ",
     "faq_list__disclaimer_part2": " su kuriuo sutinkate prisiregistravęs. Paminėkite, kad ši paslauga skirta tik žmogiškam, normaliam naudojimui. Negalite bendrinti paskyros su kitais žmonėmis arba naudoti programinių metodų, siekiant pasiekti paslaugą, apeinant oficialų vartotojo sąsają. Jei pažeidžiami paslaugos teikimo sąlygos ir tai sukelia finansinių ar kitokių nuostolių, mes pasiliekame teisę imtis teisinių veiksmų ir ieškoti tinkamo atlyginimo.",
     "plan_features_table__gemini_tooltip_desc": "Google patikimiausias ir universalus modelis. Sukurtas nuo nulio daugiamodalumui. Gemini MaxAI yra beta fazėje ir šiuo metu palaiko tik tekstą ir kodą, netrukus bus pridėta palaikymas vaizdams, vaizdo įrašams ir garso įrašams.",
-    "footer__resources": "Šaltiniai"
+    "footer__resources": "Šaltiniai",
+    "promotion__banner__elite__title__limited_time_offer": "Ribotas laikas pasiūlymas",
+    "promotion__banner__elite__title__part1": "Sutaupykite",
+    "promotion__banner__elite__title__part2": "MaxAI Elite metiniam planui!",
+    "promotion__limited_time_offer": "Ribotas laiko pasiūlymas",
+    "payment_type_switch__yearly__tip": "Sutaupykite iki {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

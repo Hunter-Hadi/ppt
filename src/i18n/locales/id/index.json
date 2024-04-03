@@ -43,7 +43,13 @@
     "share": "Bagikan",
     "link_copied": "Tautan disalin",
     "sign_up": "Daftar",
-    "follow": "Ikuti"
+    "follow": "Ikuti",
+    "days": "Hari",
+    "hours": "Jam",
+    "mins": "Menit",
+    "secs": "Detik",
+    "subscribe_now": "Langganan sekarang",
+    "month": "bulan"
   },
   "button": {
     "add_to_chrome_for_free": "Tambahkan ke Chrome secara gratis",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Syarat Layanan",
     "payment_type_switch__yearly": "Tahunan",
     "payment_type_switch__monthly": "Bulanan",
-    "payment_type_switch__tooltip1": "Bayar tahunan",
-    "payment_type_switch__tooltip2": "dan hemat hingga {{num}}%",
     "plan_payment_info__per_month": "per bulan",
     "plan_payment_info__billed_yearly": "dibayar setahun",
     "plan_payment_info__free_desc": "Terbaik untuk pengguna sesekali",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Dengan berlangganan, Anda akan terdaftar dalam pembayaran otomatis. Batalkan atau kelola langganan Anda melalui portal pelanggan Stripe dari \"Rencana Saya\". Semua layanan disampaikan sesuai dengan ",
     "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar. Harap dicatat bahwa layanan ini hanya untuk penggunaan manusia biasa. Anda tidak boleh membagikan akun dengan orang lain atau menggunakan metode programatik untuk mengakses layanan ini, dengan cara melewati antarmuka pengguna resmi. Jika pelanggaran Ketentuan Layanan mengakibatkan kerugian keuangan atau lainnya, kami berhak untuk menempuh tindakan hukum dan mencari kompensasi yang sesuai.",
     "plan_features_table__gemini_tooltip_desc": "Model tercanggih dan umum dari Google. Dibangun dari awal untuk multimodalitas. Gemini di MaxAI saat ini dalam fase beta, hanya mendukung teks dan kode, akan segera menambahkan dukungan untuk gambar, video, dan audio.",
-    "footer__resources": "Sumber Daya"
+    "footer__resources": "Sumber Daya",
+    "promotion__banner__elite__title__limited_time_offer": "Penawaran Terbatas",
+    "promotion__banner__elite__title__part1": "Simpan",
+    "promotion__banner__elite__title__part2": "pada paket MaxAI Elite Tahunan!",
+    "promotion__limited_time_offer": "Penawaran Terbatas",
+    "payment_type_switch__yearly__tip": "Simpan hingga {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

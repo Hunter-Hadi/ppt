@@ -43,7 +43,13 @@
     "share": "شیئر کریں",
     "link_copied": "لنک کاپی ہوگئی",
     "sign_up": "سائن اپ",
-    "follow": "تعاقب کریں"
+    "follow": "تعاقب کریں",
+    "days": "دن",
+    "hours": "گھنٹے",
+    "mins": "منٹ",
+    "secs": "سیکنڈ",
+    "subscribe_now": "ابھی سبسکرائب کریں",
+    "month": "مہینہ"
   },
   "button": {
     "add_to_chrome_for_free": "مفت میں کروم میں شامل کریں",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "خدمات کی شرائط",
     "payment_type_switch__yearly": "سالانہ",
     "payment_type_switch__monthly": "ماہانہ",
-    "payment_type_switch__tooltip1": "سالانہ ادائیگی",
-    "payment_type_switch__tooltip2": "اور {{num}}٪ تک بچائیں",
     "plan_payment_info__per_month": "فی ماہ",
     "plan_payment_info__billed_yearly": "سالانہ بل",
     "plan_payment_info__free_desc": "بہترین برائے عارضی صارفین",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "اشتراک کے ذریعے، آپ خودکار ادائیگیوں میں داخل ہو رہے ہیں۔ \"میری منصوبہ\" سے اپنا اشتراک منسوخ کریں یا اسے مینج کریں۔ تمام خدمات ",
     "faq_list__disclaimer_part2": " جو آپ کی سائن اپ کے ساتھ تصدیق کرتے ہیں۔ براہ کرم نوٹ فرمائیں کہ یہ خدمت صرف انسانی، عام استعمال کے لئے ہے۔ آپ اکاؤنٹ کو دوسرے لوگوں کے ساتھ شیئر نہیں کر سکتے ہیں یا سروس تک رسائی حاصل کرنے کے لئے رسمی یوزر انٹرفیس کو چھوڑ کر پروگرامی طریقوں کا استعمال نہیں کر سکتے ہیں۔ خدمات کے شرائط کے نقض کی صورت میں جب تک خدمات کے شرائط کے نقض سے مالی یا دیگر نقصانات پیدا ہوں، ہمیں قانونی کارروائی کرنے اور مناسب تلافی حاصل کرنے کا حق محفوظ رکھا گیا ہے۔",
     "plan_features_table__gemini_tooltip_desc": "گوگل کا سب سے قابلیت والا اور عام ماڈل۔ بنیاد سے ہی بہت زیادہ صلاحیتوں کے لئے تیار کیا گیا ہے۔ جیمنی میکس ای آئی پر فیزیکس، ٹیکسٹ اور کوڈ کو سپورٹ کرتا ہے۔ جلد ہی تصاویر، ویڈیوز اور آڈیو کو بھی سپورٹ کرنے کا اضافہ کیا جائے گا۔",
-    "footer__resources": "ذرائع"
+    "footer__resources": "ذرائع",
+    "promotion__banner__elite__title__limited_time_offer": "محدود وقتی پیشکش",
+    "promotion__banner__elite__title__part1": "بچائو",
+    "promotion__banner__elite__title__part2": "پر MaxAI Elite سالانہ منصوبے پر!",
+    "promotion__limited_time_offer": "محدود وقتی پیشکش",
+    "payment_type_switch__yearly__tip": "تکمیل کریں تا {{RATIO}}% تک بچائیں"
   },
   "privacy": {},
   "industry": {

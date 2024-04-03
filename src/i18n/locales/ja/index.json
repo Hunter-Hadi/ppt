@@ -43,7 +43,13 @@
     "share": "共有",
     "link_copied": "リンクがコピーされました",
     "sign_up": "登録",
-    "follow": "フォロー"
+    "follow": "フォロー",
+    "days": "日",
+    "hours": "時間",
+    "mins": "分",
+    "secs": "秒",
+    "subscribe_now": "今すぐ購読する",
+    "month": "月"
   },
   "button": {
     "add_to_chrome_for_free": "無料でChromeに追加",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "利用規約",
     "payment_type_switch__yearly": "年間",
     "payment_type_switch__monthly": "月間",
-    "payment_type_switch__tooltip1": "年間支払い",
-    "payment_type_switch__tooltip2": "最大{{num}}%割引",
     "plan_payment_info__per_month": "月額",
     "plan_payment_info__billed_yearly": "年間請求",
     "plan_payment_info__free_desc": "たまに使う方に最適",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "購読することで、自動支払いに登録されます。Stripeの顧客ポータルから「マイプラン」を通じて、購読をキャンセルまたは管理できます。すべてのサービスは、サインアップ時に確認した条件に従って提供されます。",
     "faq_list__disclaimer_part2": "このサービスは人間の通常の使用のためのものです。他の人とアカウントを共有したり、公式のユーザーインターフェースを迂回してプログラム的な方法でサービスにアクセスしたりすることはできません。利用規約の違反が財務上またはその他の損害を引き起こす場合、法的措置を講じ、適切な補償を求める権利を留保します。",
     "plan_features_table__gemini_tooltip_desc": "Googleの最も能力があり、汎用性のあるモデル。マルチモダリティに対応するために一から作られました。MaxAI上のGeminiは現在ベータフェーズで、テキストとコードのみをサポートしていますが、近々画像、動画、音声のサポートも追加されます。",
-    "footer__resources": "リソース"
+    "footer__resources": "リソース",
+    "promotion__banner__elite__title__limited_time_offer": "期間限定オファー",
+    "promotion__banner__elite__title__part1": "最大",
+    "promotion__banner__elite__title__part2": "MaxAI Elite 年間プランで節約！",
+    "promotion__limited_time_offer": "期間限定オファー",
+    "payment_type_switch__yearly__tip": "最大{{RATIO}}%節約"
   },
   "privacy": {},
   "industry": {

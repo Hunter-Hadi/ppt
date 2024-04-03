@@ -43,7 +43,13 @@
     "share": "แชร์",
     "link_copied": "คัดลอกลิงก์",
     "sign_up": "ลงทะเบียน",
-    "follow": "ติดตาม"
+    "follow": "ติดตาม",
+    "days": "วัน",
+    "hours": "ชั่วโมง",
+    "mins": "นาที",
+    "secs": "วินาที",
+    "subscribe_now": "สมัครสมาชิกเดี๋ยวนี้",
+    "month": "เดือน"
   },
   "button": {
     "add_to_chrome_for_free": "เพิ่มใน Chrome ฟรี",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "เงื่อนไขการให้บริการ",
     "payment_type_switch__yearly": "รายปี",
     "payment_type_switch__monthly": "รายเดือน",
-    "payment_type_switch__tooltip1": "ชำระเงินรายปี",
-    "payment_type_switch__tooltip2": "และประหยัดสูงสุด {{num}}%",
     "plan_payment_info__per_month": "ต่อเดือน",
     "plan_payment_info__billed_yearly": "เรียกเก็บค่าบริการรายปี",
     "plan_payment_info__free_desc": "เหมาะสำหรับผู้ใช้ที่ใช้บางครั้ง",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "เมื่อคุณสมัครสมาชิก คุณจะถูกลงทะเบียนในการชำระเงินอัตโนมัติ ยกเลิกหรือจัดการการสมัครสมาชิกของคุณผ่านพอร์ทัลลูกค้าของ Stripe จาก \"แผนของฉัน\" บริการทั้งหมดจะถูกส่งมอบตาม ",
     "faq_list__disclaimer_part2": " ที่คุณยืนยันกับการสมัครสมาชิกของคุณ โปรดทราบว่าบริการนี้เป็นสำหรับการใช้งานทั่วไปของมนุษย์เท่านั้น คุณไม่สามารถแชร์บัญชีกับผู้อื่นหรือใช้วิธีการโปรแกรมเพื่อเข้าถึงบริการโดยผ่านอินเตอร์เฟซผู้ใช้ทางการอย่างเป็นทางการ ในกรณีที่การละเมิดข้อกำหนดการให้บริการส่งผลให้เกิดความเสียหายทางการเงินหรืออื่น ๆ เราขอสงวนสิทธิ์ในการดำเนินการทางกฎหมายและการค้นหาค่าชดเชยที่เหมาะสม",
     "plan_features_table__gemini_tooltip_desc": "โมเดลที่สามารถใช้งานได้มากที่สุดและหลากหลายของ Google สร้างขึ้นมาเพื่อการใช้งานหลายรูปแบบ  Gemini on MaxAI อยู่ในช่วงเบต้า รองรับเฉพาะข้อความและโค้ดเท่านั้นในขณะนี้ จะเพิ่มการรองรับรูปภาพ วิดีโอ และเสียงเร็ว ๆ นี้",
-    "footer__resources": "ทรัพยากร"
+    "footer__resources": "ทรัพยากร",
+    "promotion__banner__elite__title__limited_time_offer": "ข้อเสนอจำกัดเวลา",
+    "promotion__banner__elite__title__part1": "ประหยัด",
+    "promotion__banner__elite__title__part2": "ในแผน MaxAI Elite รายปี!",
+    "promotion__limited_time_offer": "ข้อเสนอจำกัดเวลา",
+    "payment_type_switch__yearly__tip": "ประหยัดสูงสุด {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

@@ -43,7 +43,13 @@
     "share": "Jaa",
     "link_copied": "Linkki kopioitu",
     "sign_up": "Rekisteröidy",
-    "follow": "Seuraa"
+    "follow": "Seuraa",
+    "days": "Päivät",
+    "hours": "Tunnit",
+    "mins": "Minuutit",
+    "secs": "Sekunnit",
+    "subscribe_now": "Tilaa nyt",
+    "month": "kuukausi"
   },
   "button": {
     "add_to_chrome_for_free": "Lisää Chromeen ilmaiseksi",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Palveluehdot",
     "payment_type_switch__yearly": "Vuosi",
     "payment_type_switch__monthly": "Kuukausi",
-    "payment_type_switch__tooltip1": "Maksa vuosittain",
-    "payment_type_switch__tooltip2": "ja säästä jopa {{num}}%",
     "plan_payment_info__per_month": "kuukaudessa",
     "plan_payment_info__billed_yearly": "laskutetaan vuosittain",
     "plan_payment_info__free_desc": "Paras satunnaisille käyttäjille",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Tilaamalla hyväksyt automaattiset maksut. Peruuta tai hallitse tilaustasi Stripecustomer-keskuksesta kohdasta \"Oma suunnitelma\". Kaikki palvelut toimitetaan ",
     "faq_list__disclaimer_part2": " mukaisesti, johon vahvistat rekisteröityessäsi. Huomaa, että tämä palvelu on tarkoitettu vain ihmisten normaaliin käyttöön. Et saa jakaa tiliä muiden kanssa tai käyttää ohjelmallisia menetelmiä päästäksesi palveluun ohi virallisen käyttöliittymän. Mikäli rikkomukset käyttöehtoja vastaan aiheuttavat taloudellista tai muuta vahinkoa, pidätämme oikeuden ryhtyä oikeustoimiin ja vaatia asianmukaista korvausta.",
     "plan_features_table__gemini_tooltip_desc": "Googlen kyvykkäin ja yleisin malli. Rakennettu alusta asti monimuotoisuutta varten. Gemini MaxAI:ssa on tällä hetkellä beetavaihe, joka tukee vain tekstiä ja koodia, mutta pian lisätään tuki kuvien, videoiden ja äänen käytölle.",
-    "footer__resources": "Resurssit"
+    "footer__resources": "Resurssit",
+    "promotion__banner__elite__title__limited_time_offer": "Rajoitettu aika tarjous",
+    "promotion__banner__elite__title__part1": "Säästä",
+    "promotion__banner__elite__title__part2": "MaxAI Elite Vuosittainen suunnitelma!",
+    "promotion__limited_time_offer": "Rajoitettu ajan tarjous",
+    "payment_type_switch__yearly__tip": "Säästä jopa {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

@@ -43,7 +43,13 @@
     "share": "አጋራ",
     "link_copied": "አገናኝ የተጻፈ",
     "sign_up": "ይመዝገቡ",
-    "follow": "እዚህ ተከታተል"
+    "follow": "እዚህ ተከታተል",
+    "days": "ቀናት",
+    "hours": "ሰዓት",
+    "mins": "ደቂቃዎች",
+    "secs": "ሰከንዶች",
+    "subscribe_now": "አድራሻውን ለመመዝገብ",
+    "month": "ወር"
   },
   "button": {
     "add_to_chrome_for_free": "በነፃ በ Chrome ውስጥ ጨምር",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "የአገልግሎት ውሂብ",
     "payment_type_switch__yearly": "በዓመት",
     "payment_type_switch__monthly": "በወር",
-    "payment_type_switch__tooltip1": "በዓመት ክፍያ",
-    "payment_type_switch__tooltip2": "እና ምንም በ{{num}}% ደርቆ ተጠቅመው ይታያል",
     "plan_payment_info__per_month": "በወር የተጠቀምሁ",
     "plan_payment_info__billed_yearly": "በዓመት የተጠቀምሁ",
     "plan_payment_info__free_desc": "ለባህሪ ጠቀምሁልኝ",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "በመቀጠል ላይ እንዴት ማሳወቂያ ይሰጣል",
     "faq_list__disclaimer_part2": "በመቀጠል ላይ እንዴት ማሳወቂያ ይሰጣል",
     "plan_features_table__gemini_tooltip_desc": "ጉግል ከመጀመሪያ ጀምሮ በስልክ ላይ የተሳሳተ እና የአጠቃቀሚያ ሞዴሎችን ለመጠቀም በማስተላለፍ የገለጸው የግል ሞዴል። Gemini on MaxAI በምንጭ ሁኔታ ላይ ነው፣ በእርስዎ በተሳሳተ ግል ሞዴል የሚሰራ በማስተላለፍ በማስተላለፍ በማስተላለፍ ለመጠቀም በሚገለጸው ሁኔታ በምንጭ ላይ ተጨማሪ የግል ሞዴልን ይጠቀምልናል።",
-    "footer__resources": "ስነ-ምግባር"
+    "footer__resources": "ስነ-ምግባር",
+    "promotion__banner__elite__title__limited_time_offer": "ሰዓት በጣም የተዘረዘሩ እቃዎች",
+    "promotion__banner__elite__title__part1": "ቅንጅቶችን ማግኘት",
+    "promotion__banner__elite__title__part2": "MaxAI Elite የዕርሻ ዓመት አስቀድሞ!",
+    "promotion__limited_time_offer": "የተጠቃሚ ጊዜ ማስታወቂያ",
+    "payment_type_switch__yearly__tip": "ከ{{RATIO}}% በፊት ይታገሻል"
   },
   "privacy": {},
   "industry": {

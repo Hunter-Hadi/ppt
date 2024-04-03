@@ -43,7 +43,13 @@
     "share": "Comparteix",
     "link_copied": "Enllaç copiat",
     "sign_up": "Registra't",
-    "follow": "Segueix"
+    "follow": "Segueix",
+    "days": "Dies",
+    "hours": "Hores",
+    "mins": "Minuts",
+    "secs": "Segons",
+    "subscribe_now": "Subscriu-te ara",
+    "month": "mes"
   },
   "button": {
     "add_to_chrome_for_free": "Afegeix a Chrome de franc",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Termes del servei",
     "payment_type_switch__yearly": "Anualment",
     "payment_type_switch__monthly": "Mensualment",
-    "payment_type_switch__tooltip1": "Paga anualment",
-    "payment_type_switch__tooltip2": "i estalvia fins a {{num}}%",
     "plan_payment_info__per_month": "al mes",
     "plan_payment_info__billed_yearly": "facturat anualment",
     "plan_payment_info__free_desc": "Millor per a usuaris ocasionals",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "En subscriure't, t'estàs inscrivint en pagaments automàtics. Cancel·la o gestiona la teva subscripció a través del portal de clients de Stripe des de \"El meu pla\". Tots els serveis es lliuren segons el ",
     "faq_list__disclaimer_part2": " que confirmes amb la teva inscripció. Tingues en compte que aquest servei és només per a ús humà i normal. No pots compartir el compte amb altres persones ni utilitzar mètodes programàtics per accedir al servei, evitant la interfície d'usuari oficial. En cas que les infraccions dels Termes del Servei comportin danys financers o altres, ens reservem el dret de prendre accions legals i buscar una compensació adequada.",
     "plan_features_table__gemini_tooltip_desc": "El model més capaç i general de Google. Construït des de zero per a la multimodalitat. Gemini a MaxAI es troba actualment en fase beta, suportant només text i codi, aviat afegirà suport per a imatges, vídeos i àudio.",
-    "footer__resources": "Recursos"
+    "footer__resources": "Recursos",
+    "promotion__banner__elite__title__limited_time_offer": "Oferta per temps limitat",
+    "promotion__banner__elite__title__part1": "Estalvia",
+    "promotion__banner__elite__title__part2": "en el pla anual MaxAI Elite!",
+    "promotion__limited_time_offer": "Oferta per temps limitat",
+    "payment_type_switch__yearly__tip": "Estalvia fins a {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

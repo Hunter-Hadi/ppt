@@ -43,7 +43,13 @@
     "share": "Del",
     "link_copied": "Link kopieret",
     "sign_up": "Tilmeld dig",
-    "follow": "Følg"
+    "follow": "Følg",
+    "days": "Dage",
+    "hours": "Timer",
+    "mins": "Minutter",
+    "secs": "Sekunder",
+    "subscribe_now": "Abonner nu",
+    "month": "måned"
   },
   "button": {
     "add_to_chrome_for_free": "Tilføj gratis til Chrome",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Servicevilkår",
     "payment_type_switch__yearly": "Årligt",
     "payment_type_switch__monthly": "Månedligt",
-    "payment_type_switch__tooltip1": "Betal årligt",
-    "payment_type_switch__tooltip2": "og spar op til {{num}}%",
     "plan_payment_info__per_month": "pr. måned",
     "plan_payment_info__billed_yearly": "faktureres årligt",
     "plan_payment_info__free_desc": "Bedst til lejlighedsvis brugere",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Ved at tilmelde dig abonnementet deltager du i automatisk betaling. Annuller eller administrer dit abonnement gennem Stripes kundeportal fra \"Min Plan\". Alle tjenester leveres i overensstemmelse med ",
     "faq_list__disclaimer_part2": " som du bekræfter ved din tilmelding. Bemærk venligst, at denne service kun er til menneskelig, normal brug. Du må ikke dele kontoen med andre personer eller bruge programmetiske metoder til at få adgang til tjenesten ved at omgå den officielle brugergrænseflade. Hvis overtrædelser af servicevilkårene resulterer i økonomiske eller andre skader, forbeholder vi os retten til at indlede retssager og søge passende kompensation.",
     "plan_features_table__gemini_tooltip_desc": "Googles mest kapable og generelle model. Bygget fra bunden op til multimodalitet. Gemini på MaxAI er i øjeblikket i beta-fasen og understøtter kun tekst og kode, men vil snart tilføje support til billeder, videoer og lyd.",
-    "footer__resources": "Ressourcer"
+    "footer__resources": "Ressourcer",
+    "promotion__banner__elite__title__limited_time_offer": "Begrænset Tids Tilbud",
+    "promotion__banner__elite__title__part1": "Spar",
+    "promotion__banner__elite__title__part2": "på MaxAI Elite Årligt abonnement!",
+    "promotion__limited_time_offer": "Begrænset tids tilbud",
+    "payment_type_switch__yearly__tip": "Spar op til {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

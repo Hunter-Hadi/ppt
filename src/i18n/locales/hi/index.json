@@ -43,7 +43,13 @@
     "share": "साझा करें",
     "link_copied": "लिंक कॉपी किया गया",
     "sign_up": "साइन अप करें",
-    "follow": "फ़ॉलो करें"
+    "follow": "फ़ॉलो करें",
+    "days": "दिन",
+    "hours": "घंटे",
+    "mins": "मिनट",
+    "secs": "सेकंड",
+    "subscribe_now": "अभी सदस्यता लें",
+    "month": "महीना"
   },
   "button": {
     "add_to_chrome_for_free": "मुफ्त में Chrome में जोड़ें",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "सेवा की शर्तें",
     "payment_type_switch__yearly": "वार्षिक",
     "payment_type_switch__monthly": "मासिक",
-    "payment_type_switch__tooltip1": "वार्षिक भुगतान करें",
-    "payment_type_switch__tooltip2": "और {{num}}% तक बचाएं",
     "plan_payment_info__per_month": "प्रति माह",
     "plan_payment_info__billed_yearly": "वार्षिक बिलिंग",
     "plan_payment_info__free_desc": "अनियमित उपयोगकर्ताओं के लिए सर्वश्रेष्ठ",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "सदस्यता लेने के बाद, आप स्वचालित भुगतान में शामिल हो जाते हैं। \"मेरी योजना\" से सदस्यता रद्द करें या प्रबंधित करें। सभी सेवाएं ",
     "faq_list__disclaimer_part2": " आपकी साइन-अप के साथ पुष्टि करते हैं। कृपया ध्यान दें कि यह सेवा केवल मानव, सामान्य उपयोग के लिए है। आप खाता को अन्य लोगों के साथ साझा नहीं कर सकते और आधिकारिक उपयोगकर्ता इंटरफ़ेस को छोड़कर सेवा तक पहुंचने के लिए कार्यक्रमात्मक तरीकों का उपयोग नहीं कर सकते। सेवा की शर्तों का उल्लंघन कारण वित्तीय या अन्य क्षति में, हमें कानूनी कार्रवाई करने और उचित मुआवजा मांगने का अधिकार सुरक्षित रखने का अधिकार है।",
     "plan_features_table__gemini_tooltip_desc": "गूगल का सबसे सक्षम और सामान्य मॉडल। बहुमोदता के लिए शुरू से बनाया गया है। Gemini on MaxAI वर्तमान में बीटा चरण में है, केवल पाठ और कोड का समर्थन करता है, जल्द ही छवियों, वीडियो और ऑडियो का समर्थन जोड़ेंगे।",
-    "footer__resources": "संसाधन"
+    "footer__resources": "संसाधन",
+    "promotion__banner__elite__title__limited_time_offer": "सीमित समय का प्रस्ताव",
+    "promotion__banner__elite__title__part1": "बचाओ",
+    "promotion__banner__elite__title__part2": "MaxAI Elite वार्षिक योजना पर!",
+    "promotion__limited_time_offer": "सीमित समय का प्रस्ताव",
+    "payment_type_switch__yearly__tip": "उप तक {{RATIO}}% बचाएं"
   },
   "privacy": {},
   "industry": {

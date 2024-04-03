@@ -43,7 +43,13 @@
     "copy_image": "Copy image",
     "share": "Share",
     "link_copied": "Link copied",
-    "follow": "Follow"
+    "follow": "Follow",
+    "days": "Days",
+    "hours": "Hours",
+    "mins": "Mins",
+    "secs": "Secs",
+    "subscribe_now": "Subscribe now",
+    "month": "month"
   },
   "button": {
     "add_to_chrome_for_free": "Add to Chrome for free",
@@ -461,8 +467,7 @@
 
     "payment_type_switch__yearly": "Yearly",
     "payment_type_switch__monthly": "Monthly",
-    "payment_type_switch__tooltip1": "Pay yearly",
-    "payment_type_switch__tooltip2": "and save up to {{num}}%",
+    "payment_type_switch__yearly__tip": "Save up to {{RATIO}}%",
     "plan_payment_info__per_month": "per month",
     "plan_payment_info__billed_yearly": "billed yearly",
     "plan_payment_info__free_desc": "Best for occasional users",
@@ -567,7 +572,11 @@
     "faq_list__question4__desc": "You can use MaxAI.me on any website on any Chromium-based browsers (like Chrome and Edge) to compose, improve writing, summarize, explain, fix spelling & grammar, translate, or reply to any text.",
 
     "faq_list__disclaimer_part1": "By subscribing, you are enrolling in automatic payments. Cancel or manage your subscription through Stripe's customer portal from \"My Plan\". All services are delivered according to the ",
-    "faq_list__disclaimer_part2": " you confirm with your sign-up. Please note that this service is for human, normal use only. You may not share the account with other people or use programmatic methods to access the service, bypassing the official user interface. In the event that violations of the Terms of Service result in financial or other damages, we reserve the right to pursue legal action and seek appropriate compensation."
+    "faq_list__disclaimer_part2": " you confirm with your sign-up. Please note that this service is for human, normal use only. You may not share the account with other people or use programmatic methods to access the service, bypassing the official user interface. In the event that violations of the Terms of Service result in financial or other damages, we reserve the right to pursue legal action and seek appropriate compensation.",
+    "promotion__limited_time_offer": "Limited-time offer",
+    "promotion__banner__elite__title__limited_time_offer": "Limited Time Offer",
+    "promotion__banner__elite__title__part1": "Save",
+    "promotion__banner__elite__title__part2": "on MaxAI Elite Yearly plan!"
   },
   "industry": {
     "executives__title": "Executives and Business Owners",

@@ -43,7 +43,13 @@
     "share": "Compartir",
     "link_copied": "Enlace copiado",
     "sign_up": "Registrarse",
-    "follow": "Seguir"
+    "follow": "Seguir",
+    "days": "Días",
+    "hours": "Horas",
+    "mins": "Minutos",
+    "secs": "Segundos",
+    "subscribe_now": "Suscribirse ahora",
+    "month": "mes"
   },
   "button": {
     "add_to_chrome_for_free": "Agregar a Chrome gratis",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Términos de servicio",
     "payment_type_switch__yearly": "Anual",
     "payment_type_switch__monthly": "Mensual",
-    "payment_type_switch__tooltip1": "Paga anualmente",
-    "payment_type_switch__tooltip2": "y ahorra hasta {{num}}%",
     "plan_payment_info__per_month": "por mes",
     "plan_payment_info__billed_yearly": "facturado anualmente",
     "plan_payment_info__free_desc": "Ideal para usuarios ocasionales",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Al suscribirte, te estás inscribiendo en pagos automáticos. Cancela o administra tu suscripción a través del portal de clientes de Stripe desde \"Mi Plan\". Todos los servicios se entregan de acuerdo con los ",
     "faq_list__disclaimer_part2": " que confirmas al registrarte. Ten en cuenta que este servicio es solo para uso humano y normal. No puedes compartir la cuenta con otras personas ni utilizar métodos programáticos para acceder al servicio, evitando la interfaz de usuario oficial. En caso de que las violaciones de los Términos de Servicio resulten en daños financieros u otros, nos reservamos el derecho de emprender acciones legales y buscar una compensación adecuada.",
     "plan_features_table__gemini_tooltip_desc": "El modelo más capaz y general de Google. Construido desde cero para la multimodalidad. Gemini en MaxAI está actualmente en fase beta, admitiendo solo texto y código, pronto agregará soporte para imágenes, videos y audio.",
-    "footer__resources": "Recursos"
+    "footer__resources": "Recursos",
+    "promotion__banner__elite__title__limited_time_offer": "Oferta por tiempo limitado",
+    "promotion__banner__elite__title__part1": "Ahorra",
+    "promotion__banner__elite__title__part2": "en el plan anual MaxAI Elite!",
+    "promotion__limited_time_offer": "Oferta por tiempo limitado",
+    "payment_type_switch__yearly__tip": "¡Ahorra hasta {{RATIO}}%!"
   },
   "privacy": {},
   "industry": {

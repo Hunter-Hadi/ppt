@@ -43,7 +43,13 @@
     "share": "सामायिक करा",
     "link_copied": "लिंक प्रतिलिपि केली",
     "sign_up": "साइन अप करा",
-    "follow": "अनुसरण करा"
+    "follow": "अनुसरण करा",
+    "days": "दिवस",
+    "hours": "तास",
+    "mins": "मिनिटे",
+    "secs": "सेकंद",
+    "subscribe_now": "आता सदस्यता घ्या",
+    "month": "महिना"
   },
   "button": {
     "add_to_chrome_for_free": "मोफतसाठी Chromeमध्ये जोडा",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "सेवा अटी",
     "payment_type_switch__yearly": "वार्षिक",
     "payment_type_switch__monthly": "मासिक",
-    "payment_type_switch__tooltip1": "वार्षिक भरा",
-    "payment_type_switch__tooltip2": "आणि {{num}}% वरील कमी करा",
     "plan_payment_info__per_month": "प्रति महिना",
     "plan_payment_info__billed_yearly": "वार्षिक बिल केले जाते",
     "plan_payment_info__free_desc": "केवळ वेळवाळ्यांसाठी सर्वोत्तम",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "ग्राहकता नोंदणी करण्यापासून, आपल्याला स्वयंचलित पेमेंटमध्ये नोंदणी करण्यात आलेले आहे. \"माझी योजना\" मधून सदस्यता रद्द किंवा व्यवस्थापित करा. सर्व सेवा खालीलप्रमाणे पुरविली जाते ",
     "faq_list__disclaimer_part2": " आपल्या साइन-अपसह समर्थन करता येते. कृपया लक्षात घ्या की ही सेवा मानवी, सामान्य वापरासाठीची आहे. आपण खाते इतर लोकांसह सामायिक करू नये किंवा अधिकृत वापरकर्ता इंटरफेसवर अभिगम करण्यासाठी कार्यक्रमात्मक पद्धती वापरू नये. सेवेच्या अटींच्या उल्लंघनांच्या परिणामाने आर्थिक किंवा इतर क्षतींसाठी, आम्ही कायदेशीर कारवाई करण्याचे अधिकार ठेवतो आणि उचित मुदतीसाठी मागणी करतो.",
     "plan_features_table__gemini_tooltip_desc": "गूगलचा सर्वात अधिक सक्षम आणि सामान्य मॉडेल. बहुसंवादासाठी जमिनीचे निर्माण केले गेले आहे. MaxAI वर जमिनी ही बेटा टप्प्यात आहे, फक्त मजकूर आणि कोडचा समर्थन करते, लवकरच इमेजेस, व्हिडिओ आणि ऑडिओचा समर्थन जोडण्यात येईल.",
-    "footer__resources": "संसाधने"
+    "footer__resources": "संसाधने",
+    "promotion__banner__elite__title__limited_time_offer": "सीमित कालावधीचा ऑफर",
+    "promotion__banner__elite__title__part1": "बचत करा",
+    "promotion__banner__elite__title__part2": "MaxAI Elite वार्षिक योजनेवर!",
+    "promotion__limited_time_offer": "सीमित कालावधीचा ऑफर",
+    "payment_type_switch__yearly__tip": "तुमच्या खरेदीसाठी {{RATIO}}% वर्षात बचत करा"
   },
   "privacy": {},
   "industry": {

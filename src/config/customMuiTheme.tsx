@@ -48,6 +48,12 @@ declare module '@mui/material/styles' {
     };
     customColor: CustomColor;
     pageBackground: React.CSSProperties['color'];
+    promotionColor: {
+      fontMain: React.CSSProperties['color'];
+      backgroundMain: React.CSSProperties['color'];
+      backgroundSecondary: React.CSSProperties['color'];
+      backgroundThird: React.CSSProperties['color'];
+    };
   }
   interface PaletteOptions {
     table: {
@@ -56,6 +62,12 @@ declare module '@mui/material/styles' {
     };
     customColor: CustomColor;
     pageBackground: React.CSSProperties['color'];
+    promotionColor: {
+      fontMain: React.CSSProperties['color'];
+      backgroundMain: React.CSSProperties['color'];
+      backgroundSecondary: React.CSSProperties['color'];
+      backgroundThird: React.CSSProperties['color'];
+    };
   }
   interface TypographyVariants {
     bulleted: React.CSSProperties;
@@ -205,6 +217,12 @@ const customMuiTheme = responsiveFontSizes(
       pageBackground: getIsDarkMode()
         ? customColor.darkBackground
         : customColor.lightBackground,
+      promotionColor: {
+        fontMain: '#B54708',
+        backgroundMain: '#ff8800',
+        backgroundSecondary: '#FFE7CD',
+        backgroundThird: '#FFF4E8',
+      },
       customColor: {
         main: customColor.main,
         borderColor: getIsDarkMode()

@@ -43,7 +43,13 @@
     "share": "Shiriki",
     "link_copied": "Kiungo kimenukuliwa",
     "sign_up": "Jisajili",
-    "follow": "Fuata"
+    "follow": "Fuata",
+    "days": "Siku",
+    "hours": "Masaa",
+    "mins": "Dakika",
+    "secs": "Sekunde",
+    "subscribe_now": "Jisajili sasa",
+    "month": "mwezi"
   },
   "button": {
     "add_to_chrome_for_free": "Ongeza kwa Chrome bure",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Masharti ya Huduma",
     "payment_type_switch__yearly": "Kila mwaka",
     "payment_type_switch__monthly": "Kila mwezi",
-    "payment_type_switch__tooltip1": "Lipa kila mwaka",
-    "payment_type_switch__tooltip2": "na uokoe hadi {{num}}%",
     "plan_payment_info__per_month": "kwa mwezi",
     "plan_payment_info__billed_yearly": "biliwa kila mwaka",
     "plan_payment_info__free_desc": "Bora kwa watumiaji wa mara kwa mara",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Kwa kujiandikisha, unajiunga na malipo ya moja kwa moja. Futa au simamia usajili wako kupitia kituo cha wateja cha Stripe kutoka kwenye \"Mpango Wangu\". Huduma zote zinatolewa kulingana na ",
     "faq_list__disclaimer_part2": " uliyokubaliana nayo wakati wa usajili. Tafadhali kumbuka kuwa huduma hii ni kwa matumizi ya binadamu tu. Huwezi kushiriki akaunti na watu wengine au kutumia njia za programu kuifikia huduma, kwa kuepuka interface rasmi ya mtumiaji. Katika tukio ambalo uvunjaji wa Masharti ya Huduma unapelekea hasara za kifedha au nyingine, tunahifadhi haki ya kuchukua hatua za kisheria na kutafuta fidia inayofaa.",
     "plan_features_table__gemini_tooltip_desc": "Mfano mwenye uwezo na jumla zaidi wa Google. Imejengwa kutoka mwanzo kwa ajili ya multimodality. Gemini kwenye MaxAI iko katika hatua ya beta, inasaidia tu maandishi na nambari, hivi karibuni itaongeza usaidizi kwa picha, video, na sauti.",
-    "footer__resources": "Vifaa vya kujifunza"
+    "footer__resources": "Vifaa vya kujifunza",
+    "promotion__banner__elite__title__limited_time_offer": "Ofa ya Muda Mfupi",
+    "promotion__banner__elite__title__part1": "Hifadhi",
+    "promotion__banner__elite__title__part2": "kwenye Mpango wa Mwaka wa MaxAI Elite!",
+    "promotion__limited_time_offer": "Ofa ya muda mdogo",
+    "payment_type_switch__yearly__tip": "Hifadhi hadi {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

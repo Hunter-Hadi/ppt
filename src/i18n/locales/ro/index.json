@@ -43,7 +43,13 @@
     "share": "Partajează",
     "link_copied": "Link copiat",
     "sign_up": "Înregistrare",
-    "follow": "Urmărește"
+    "follow": "Urmărește",
+    "days": "Zile",
+    "hours": "Ore",
+    "mins": "Minute",
+    "secs": "Secunde",
+    "subscribe_now": "Abonează-te acum",
+    "month": "lună"
   },
   "button": {
     "add_to_chrome_for_free": "Adăugați în Chrome gratuit",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Termeni și condiții",
     "payment_type_switch__yearly": "Anual",
     "payment_type_switch__monthly": "Lunar",
-    "payment_type_switch__tooltip1": "Plătește anual",
-    "payment_type_switch__tooltip2": "și economisește până la {{num}}%",
     "plan_payment_info__per_month": "pe lună",
     "plan_payment_info__billed_yearly": "facturat anual",
     "plan_payment_info__free_desc": "Cel mai bun pentru utilizatorii ocazionali",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Prin abonare, te înscrii în plăți automate. Anulează sau gestionează abonamentul prin portalul clienților Stripe din „Planul meu”. Toate serviciile sunt livrate conform ",
     "faq_list__disclaimer_part2": " pe care le confirmi la înregistrare. Te rugăm să reții că acest serviciu este destinat utilizării umane și normale. Nu poți partaja contul cu alte persoane sau utiliza metode programatice pentru a accesa serviciul, evitând interfața oficială a utilizatorului. În cazul în care încălcările Termenilor de utilizare rezultă în daune financiare sau alte prejudicii, ne rezervăm dreptul de a iniția acțiuni legale și de a solicita compensații adecvate.",
     "plan_features_table__gemini_tooltip_desc": "Cel mai capabil și general model al Google. Construit de la zero pentru multimodalitate. Gemini pe MaxAI se află în prezent în faza beta, oferind suport doar pentru text și cod, va adăuga în curând suport pentru imagini, videoclipuri și audio.",
-    "footer__resources": "Resurse"
+    "footer__resources": "Resurse",
+    "promotion__banner__elite__title__limited_time_offer": "Ofertă Limitată în Timp",
+    "promotion__banner__elite__title__part1": "Economisește",
+    "promotion__banner__elite__title__part2": "la planul anual MaxAI Elite!",
+    "promotion__limited_time_offer": "Ofertă cu durată limitată",
+    "payment_type_switch__yearly__tip": "Economisește până la {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

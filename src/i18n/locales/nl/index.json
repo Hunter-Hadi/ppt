@@ -43,7 +43,13 @@
     "share": "Delen",
     "link_copied": "Link gekopieerd",
     "sign_up": "Aanmelden",
-    "follow": "Volgen"
+    "follow": "Volgen",
+    "days": "Dagen",
+    "hours": "Uren",
+    "mins": "Minuten",
+    "secs": "Seconden",
+    "subscribe_now": "Abonneer nu",
+    "month": "maand"
   },
   "button": {
     "add_to_chrome_for_free": "Gratis toevoegen aan Chrome",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Gebruiksvoorwaarden",
     "payment_type_switch__yearly": "Jaarlijks",
     "payment_type_switch__monthly": "Maandelijks",
-    "payment_type_switch__tooltip1": "Betaal jaarlijks",
-    "payment_type_switch__tooltip2": "en bespaar tot {{num}}%",
     "plan_payment_info__per_month": "per maand",
     "plan_payment_info__billed_yearly": "jaarlijks gefactureerd",
     "plan_payment_info__free_desc": "Beste voor incidentele gebruikers",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Door je te abonneren, schrijf je je in voor automatische betalingen. Annuleer of beheer je abonnement via het klantenportaal van Stripe onder \"Mijn Plan\". Alle diensten worden geleverd volgens de ",
     "faq_list__disclaimer_part2": " die je bevestigt bij je aanmelding. Houd er rekening mee dat deze service alleen bedoeld is voor menselijk, normaal gebruik. Je mag het account niet delen met andere mensen of programmatische methoden gebruiken om toegang te krijgen tot de service en de officiële gebruikersinterface omzeilen. In geval van schendingen van de Gebruiksvoorwaarden die leiden tot financiële of andere schade, behouden we ons het recht voor om juridische stappen te ondernemen en passende compensatie te eisen.",
     "plan_features_table__gemini_tooltip_desc": "Het meest capabele en algemene model van Google. Vanaf de basis opgebouwd voor multimodaliteit. Gemini op MaxAI bevindt zich momenteel in de bètafase en ondersteunt alleen tekst en code, binnenkort wordt ondersteuning toegevoegd voor afbeeldingen, video's en audio.",
-    "footer__resources": "Bronnen"
+    "footer__resources": "Bronnen",
+    "promotion__banner__elite__title__limited_time_offer": "Beperkte Tijd Aanbieding",
+    "promotion__banner__elite__title__part1": "Bespaar",
+    "promotion__banner__elite__title__part2": "op MaxAI Elite Jaarplan!",
+    "promotion__limited_time_offer": "Beperkte tijd aanbieding",
+    "payment_type_switch__yearly__tip": "Bespaar tot {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

@@ -43,7 +43,13 @@
     "share": "Teilen",
     "link_copied": "Link kopiert",
     "sign_up": "Registrieren",
-    "follow": "Folgen"
+    "follow": "Folgen",
+    "days": "Tage",
+    "hours": "Stunden",
+    "mins": "Minuten",
+    "secs": "Sekunden",
+    "subscribe_now": "Jetzt abonnieren",
+    "month": "Monat"
   },
   "button": {
     "add_to_chrome_for_free": "Kostenlos zu Chrome hinzufügen",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Nutzungsbedingungen",
     "payment_type_switch__yearly": "Jährlich",
     "payment_type_switch__monthly": "Monatlich",
-    "payment_type_switch__tooltip1": "Jährlich bezahlen",
-    "payment_type_switch__tooltip2": "und bis zu {{num}}% sparen",
     "plan_payment_info__per_month": "pro Monat",
     "plan_payment_info__billed_yearly": "jährlich abgerechnet",
     "plan_payment_info__free_desc": "Am besten für gelegentliche Benutzer",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Durch die Anmeldung abonnieren Sie automatische Zahlungen. Stornieren oder verwalten Sie Ihr Abonnement über das Kundenportal von Stripe unter \"Mein Plan\". Alle Dienstleistungen werden gemäß den ",
     "faq_list__disclaimer_part2": " geliefert, die Sie bei Ihrer Anmeldung bestätigen. Bitte beachten Sie, dass dieser Service nur für den menschlichen, normalen Gebrauch bestimmt ist. Sie dürfen das Konto nicht mit anderen Personen teilen oder programmatische Methoden verwenden, um auf den Service zuzugreifen und dabei die offizielle Benutzeroberfläche zu umgehen. Bei Verstößen gegen die Nutzungsbedingungen, die zu finanziellen oder anderen Schäden führen, behalten wir uns das Recht vor, rechtliche Schritte einzuleiten und angemessene Entschädigung zu fordern.",
     "plan_features_table__gemini_tooltip_desc": "Googles leistungsfähigstes und vielseitigstes Modell. Von Grund auf für Multimodalität entwickelt. Gemini auf MaxAI befindet sich derzeit in der Beta-Phase und unterstützt nur Text und Code. In Kürze wird die Unterstützung für Bilder, Videos und Audio hinzugefügt.",
-    "footer__resources": "Ressourcen"
+    "footer__resources": "Ressourcen",
+    "promotion__banner__elite__title__limited_time_offer": "Zeitlich begrenztes Angebot",
+    "promotion__banner__elite__title__part1": "Sparen Sie",
+    "promotion__banner__elite__title__part2": "beim MaxAI Elite Jahresplan!",
+    "promotion__limited_time_offer": "Zeitlich begrenztes Angebot",
+    "payment_type_switch__yearly__tip": "Sparen Sie bis zu {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

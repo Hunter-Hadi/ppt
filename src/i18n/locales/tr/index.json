@@ -43,7 +43,13 @@
     "share": "Paylaş",
     "link_copied": "Bağlantı kopyalandı",
     "sign_up": "Kaydol",
-    "follow": "Takip Et"
+    "follow": "Takip Et",
+    "days": "Günler",
+    "hours": "Saatler",
+    "mins": "Dakikalar",
+    "secs": "Saniyeler",
+    "subscribe_now": "Şimdi abone ol",
+    "month": "ay"
   },
   "button": {
     "add_to_chrome_for_free": "Ücretsiz olarak Chrome'a ekle",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Hizmet Şartları",
     "payment_type_switch__yearly": "Yıllık",
     "payment_type_switch__monthly": "Aylık",
-    "payment_type_switch__tooltip1": "Yıllık ödeyin",
-    "payment_type_switch__tooltip2": "ve %{{num}}'e kadar tasarruf edin",
     "plan_payment_info__per_month": "aylık",
     "plan_payment_info__billed_yearly": "yıllık faturalandırılır",
     "plan_payment_info__free_desc": "Ara sıra kullanıcılar için en iyisi",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Abonelik yaparak otomatik ödemelere kaydoluyorsunuz. \"Planım\" bölümünden Stripe müşteri portalı aracılığıyla aboneliğinizi iptal edebilir veya yönetebilirsiniz. Tüm hizmetler, kaydolduğunuzda onayladığınız şekilde sunulmaktadır. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak hizmete programatik yöntemlerle erişemezsiniz. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara yol açarsa, yasal işlem yapma ve uygun tazminat talep etme hakkını saklı tutarız.",
     "faq_list__disclaimer_part2": "kaydolmanızla onaylarsınız. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak hizmete programatik yöntemlerle erişemezsiniz. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara neden olursa, yasal işlem yapma ve uygun tazminat talep etme hakkımız saklıdır.",
     "plan_features_table__gemini_tooltip_desc": "Google'ın en yetenekli ve genel modeli. Çoklu işlevsellik için baştan aşağıya inşa edildi. Gemini on MaxAI şu anda beta aşamasında olup, yalnızca metin ve kod desteği sağlamaktadır. Yakında resimler, videolar ve sesler için de destek ekleyecektir.",
-    "footer__resources": "Kaynaklar"
+    "footer__resources": "Kaynaklar",
+    "promotion__banner__elite__title__limited_time_offer": "Sınırlı Süreli Teklif",
+    "promotion__banner__elite__title__part1": "Tasarruf Et",
+    "promotion__banner__elite__title__part2": "MaxAI Elite Yıllık planında!",
+    "promotion__limited_time_offer": "Sınırlı süreli teklif",
+    "payment_type_switch__yearly__tip": "Yıllık olarak {{RATIO}}% tasarruf edin"
   },
   "privacy": {},
   "industry": {

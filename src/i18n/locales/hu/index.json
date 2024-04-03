@@ -43,7 +43,13 @@
     "share": "Megosztás",
     "link_copied": "Link másolva",
     "sign_up": "Regisztráció",
-    "follow": "Követés"
+    "follow": "Követés",
+    "days": "Napok",
+    "hours": "Órák",
+    "mins": "Percek",
+    "secs": "Másodpercek",
+    "subscribe_now": "Iratkozz fel most",
+    "month": "hónap"
   },
   "button": {
     "add_to_chrome_for_free": "Hozzáadás a Chrome-hoz ingyen",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Felhasználási feltételek",
     "payment_type_switch__yearly": "Éves",
     "payment_type_switch__monthly": "Havi",
-    "payment_type_switch__tooltip1": "Éves fizetés",
-    "payment_type_switch__tooltip2": "és akár {{num}}%-ot takaríthat meg",
     "plan_payment_info__per_month": "havonta",
     "plan_payment_info__billed_yearly": "éves számlázás",
     "plan_payment_info__free_desc": "Legjobb alkalmi felhasználóknak",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Az automatikus fizetési rendszerbe való feliratkozással elfogadja a Stripe ügyfélportálján keresztül történő \"Saját Tervem\" menüpontban történő lemondást vagy kezelést. Az összes szolgáltatás az alábbiak szerint kerülnek kézbesítésre: ",
     "faq_list__disclaimer_part2": " amit a regisztrációval megerősített. Kérjük, vegye figyelembe, hogy ez a szolgáltatás csak emberi, normál használatra szolgál. Nem oszthatja meg más emberekkel a fiókot, és nem használhat programozási módszereket a hivatalos felhasználói felület kikerülésére. Amennyiben a Szolgáltatási feltételek megsértése anyagi vagy egyéb károkat okoz, fenntartjuk a jogot arra, hogy jogi lépéseket tegyünk és megfelelő kártérítést követeljünk.",
     "plan_features_table__gemini_tooltip_desc": "Google legképzettebb és általános modellje. A multimodalitásra épült alapoktól kezdve. A Gemini a MaxAI-n jelenleg béta fázisban van, csak szöveget és kódot támogat, hamarosan képeket, videókat és hangot is hozzáad.",
-    "footer__resources": "Erőforrások"
+    "footer__resources": "Erőforrások",
+    "promotion__banner__elite__title__limited_time_offer": "Korlátozott ideig érvényes ajánlat",
+    "promotion__banner__elite__title__part1": "Mentés",
+    "promotion__banner__elite__title__part2": "a MaxAI Elite Éves csomagján!",
+    "promotion__limited_time_offer": "Korlátozott ideig érvényes ajánlat",
+    "payment_type_switch__yearly__tip": "Akár {{RATIO}}% megtakarítás"
   },
   "privacy": {},
   "industry": {

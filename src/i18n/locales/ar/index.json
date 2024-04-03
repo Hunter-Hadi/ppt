@@ -43,7 +43,13 @@
     "share": "مشاركة",
     "link_copied": "تم نسخ الرابط",
     "sign_up": "التسجيل",
-    "follow": "تابع"
+    "follow": "تابع",
+    "days": "أيام",
+    "hours": "ساعات",
+    "mins": "دقائق",
+    "secs": "ثواني",
+    "subscribe_now": "اشترك الآن",
+    "month": "شهر"
   },
   "button": {
     "add_to_chrome_for_free": "أضف إلى Chrome مجانًا",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "شروط الخدمة",
     "payment_type_switch__yearly": "سنويًا",
     "payment_type_switch__monthly": "شهريًا",
-    "payment_type_switch__tooltip1": "ادفع سنويًا",
-    "payment_type_switch__tooltip2": "ووفر حتى {{num}}%",
     "plan_payment_info__per_month": "شهريًا",
     "plan_payment_info__billed_yearly": "مفوترة سنويًا",
     "plan_payment_info__free_desc": "الأفضل للمستخدمين العرضيين",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "من خلال الاشتراك، أنت تقوم بالتسجيل في الدفع التلقائي. قم بإلغاء الاشتراك أو إدارته من خلال بوابة عملاء Stripe في \"خطتي\". يتم تقديم جميع الخدمات وفقًا لـ ",
     "faq_list__disclaimer_part2": " الذي تؤكده عند التسجيل. يرجى ملاحظة أن هذه الخدمة مخصصة للاستخدام البشري العادي فقط. قد لا تشارك الحساب مع أشخاص آخرين أو تستخدم طرق برمجية للوصول إلى الخدمة بشكل يتجاوز واجهة المستخدم الرسمية. في حالة انتهاك شروط الخدمة يؤدي إلى أضرار مالية أو أضرار أخرى، نحتفظ بالحق في متابعة الإجراءات القانونية وطلب التعويض المناسب.",
     "plan_features_table__gemini_tooltip_desc": "النموذج الأكثر قدرة وعام من Google. تم بناؤه من الألف إلى الياء للتعددية. يعمل Gemini على MaxAI حاليًا في المرحلة التجريبية، ويدعم فقط النصوص والشفرات، وسيتم دعم الصور ومقاطع الفيديو والصوت قريبًا.",
-    "footer__resources": "الموارد"
+    "footer__resources": "الموارد",
+    "promotion__banner__elite__title__limited_time_offer": "عرض لفترة محدودة",
+    "promotion__banner__elite__title__part1": "احفظ",
+    "promotion__banner__elite__title__part2": "على خطة MaxAI Elite السنوية!",
+    "promotion__limited_time_offer": "عرض لفترة محدودة",
+    "payment_type_switch__yearly__tip": "وفّر حتى {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

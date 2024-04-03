@@ -43,7 +43,13 @@
     "share": "分享",
     "link_copied": "链接已复制",
     "sign_up": "注册",
-    "follow": "关注"
+    "follow": "关注",
+    "days": "天",
+    "hours": "小时",
+    "mins": "分钟",
+    "secs": "秒",
+    "subscribe_now": "立即订阅",
+    "month": "月"
   },
   "pages": {
     "prompt_detail_page__button__run_this_prompt": "运行此提示",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "服务条款",
     "payment_type_switch__yearly": "年度",
     "payment_type_switch__monthly": "月度",
-    "payment_type_switch__tooltip1": "年付",
-    "payment_type_switch__tooltip2": "并节省{{num}}%",
     "plan_payment_info__per_month": "每月",
     "plan_payment_info__billed_yearly": "年度计费",
     "plan_payment_info__free_desc": "适合偶尔使用者",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "通过订阅，您将注册自动付款。 通过 Stripe 的客户门户从“我的计划”取消或管理您的订阅。 所有服务均根据您注册时确认的",
     "faq_list__disclaimer_part2": "提供。 请注意，该服务仅供人类正常使用。 您不得与其他人共享帐户或使用编程方法绕过官方用户界面来访问服务。 如果违反服务条款导致经济或其他损失，我们保留采取法律行动并寻求适当赔偿的权利。",
     "plan_features_table__gemini_tooltip_desc": "谷歌最强大且通用的模型。从头开始为多模态构建。MaxAI上的Gemini目前处于测试阶段，仅支持文本和代码，将很快添加对图像、视频和音频的支持。",
-    "footer__resources": "资源"
+    "footer__resources": "资源",
+    "promotion__banner__elite__title__limited_time_offer": "限时优惠",
+    "promotion__banner__elite__title__part1": "节省",
+    "promotion__banner__elite__title__part2": "MaxAI Elite 年度计划！",
+    "promotion__limited_time_offer": "限时优惠",
+    "payment_type_switch__yearly__tip": "最高可节省{{RATIO}}%"
   },
   "privacy": {},
   "industry": {

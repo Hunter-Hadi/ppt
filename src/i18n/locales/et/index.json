@@ -43,7 +43,13 @@
     "share": "Jaga",
     "link_copied": "Link kopeeritud",
     "sign_up": "Registreeru",
-    "follow": "Jälgi"
+    "follow": "Jälgi",
+    "days": "Päevad",
+    "hours": "Tunnid",
+    "mins": "Minutid",
+    "secs": "Sekundid",
+    "subscribe_now": "Tellige kohe",
+    "month": "kuu"
   },
   "button": {
     "add_to_chrome_for_free": "Lisa tasuta Chrome'ile",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Teenuse tingimused",
     "payment_type_switch__yearly": "Aastane",
     "payment_type_switch__monthly": "Kuine",
-    "payment_type_switch__tooltip1": "Maksa aastas",
-    "payment_type_switch__tooltip2": "ja säästa kuni {{num}}%",
     "plan_payment_info__per_month": "kuus",
     "plan_payment_info__billed_yearly": "aastane arve",
     "plan_payment_info__free_desc": "Parim juhuslike kasutajate jaoks",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Tellimuse esitamisega registreerute automaatsete maksete jaoks. Tühistage või haldage tellimust Stripe'i kliendiportaali kaudu osas „Minu plaan“. Kõik teenused osutatakse vastavalt ",
     "faq_list__disclaimer_part2": " mida te oma registreerimisel kinnitate. Pange tähele, et see teenus on mõeldud ainult inimestele tavaliseks kasutamiseks. Te ei tohi kontot jagada teiste inimestega ega kasutada teenusele juurdepääsuks ametliku kasutajaliidese möödaviimiseks programmeerilisi meetodeid. Teenusetingimuste rikkumise korral, mis põhjustavad finants- või muud kahju, jätame endale õiguse algatada õiguslikke samme ja nõuda asjakohast hüvitist.",
     "plan_features_table__gemini_tooltip_desc": "Google'i võimsaim ja üldisem mudel. Ehitatud mitmekülgsuseks algusest peale. Gemini MaxAI-s on praegu beetaversioon, toetades ainult teksti ja koodi, lisatakse varsti tugi piltidele, videotele ja helile.",
-    "footer__resources": "Materjalid"
+    "footer__resources": "Materjalid",
+    "promotion__banner__elite__title__limited_time_offer": "Piiratud aja pakkumine",
+    "promotion__banner__elite__title__part1": "Säästa",
+    "promotion__banner__elite__title__part2": "MaxAI Elite aastaplaanil!",
+    "promotion__limited_time_offer": "Piiratud aja pakkumine",
+    "payment_type_switch__yearly__tip": "Säästa kuni {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

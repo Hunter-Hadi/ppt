@@ -43,7 +43,13 @@
     "share": "Dalīties",
     "link_copied": "Saite nokopēta",
     "sign_up": "Reģistrēties",
-    "follow": "Sekot"
+    "follow": "Sekot",
+    "days": "Dienas",
+    "hours": "Stundas",
+    "mins": "Minūtes",
+    "secs": "Sekundes",
+    "subscribe_now": "Abonēt tagad",
+    "month": "mēnesis"
   },
   "button": {
     "add_to_chrome_for_free": "Pievienot bez maksas Chrome",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Pakalpojuma noteikumi",
     "payment_type_switch__yearly": "Katru gadu",
     "payment_type_switch__monthly": "Katru mēnesi",
-    "payment_type_switch__tooltip1": "Maksā katru gadu",
-    "payment_type_switch__tooltip2": "un ietaupi līdz {{num}}%",
     "plan_payment_info__per_month": "mēnesī",
     "plan_payment_info__billed_yearly": "apmaksāts katru gadu",
     "plan_payment_info__free_desc": "Vislabāk piemērots ikdienas lietotājiem",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Abonējot, jūs piesakāties automātiskajiem maksājumiem. Atceliet vai pārvaldiet abonementu caur Stripe klienta portālu sadaļā \"Mans plāns\". Visas pakalpojumu sniedz atbilstoši ",
     "faq_list__disclaimer_part2": " ar kuru jūs piekrītat reģistrēšanās laikā. Lūdzu, ņemiet vērā, ka šis pakalpojums ir paredzēts tikai cilvēkiem un normālai lietošanai. Jūs nedrīkstat dalīties kontā ar citiem cilvēkiem vai izmantot programmēšanas metodes, lai piekļūtu pakalpojumam, apietot oficiālo lietotāja saskarni. Ja noteikumu pārkāpumi rezultē finansiālās vai citās zaudējumos, mēs paturam tiesības uzsākt juridiskus pasākumus un prasīt atbilstošu kompensāciju.",
     "plan_features_table__gemini_tooltip_desc": "Google visvairāk spējīgais un vispārīgākais modelis. Izveidots no nulles multimodalitātei. Gemini uz MaxAI pašlaik ir beta fāzē, atbalstot tikai tekstu un kodu, drīzumā tiks pievienots atbalsts attēliem, video un audio.",
-    "footer__resources": "Resursi"
+    "footer__resources": "Resursi",
+    "promotion__banner__elite__title__limited_time_offer": "Ierobežots laika piedāvājums",
+    "promotion__banner__elite__title__part1": "Ietaupi",
+    "promotion__banner__elite__title__part2": "MaxAI Elite gadu plānā!",
+    "promotion__limited_time_offer": "Ierobežota laika piedāvājums",
+    "payment_type_switch__yearly__tip": "Ietaupi līdz {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

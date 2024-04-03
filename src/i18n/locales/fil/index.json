@@ -43,7 +43,13 @@
     "share": "Ibahagi",
     "link_copied": "Nakopya ang link",
     "sign_up": "Mag-sign up",
-    "follow": "Sundan"
+    "follow": "Sundan",
+    "days": "Araw",
+    "hours": "Oras",
+    "mins": "Mins",
+    "secs": "Segundo",
+    "subscribe_now": "Mag-subscribe ngayon",
+    "month": "buwan"
   },
   "button": {
     "add_to_chrome_for_free": "Idagdag sa Chrome nang libre",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Mga Tuntunin ng Serbisyo",
     "payment_type_switch__yearly": "Taun-taon",
     "payment_type_switch__monthly": "Buwanan",
-    "payment_type_switch__tooltip1": "Magbayad taun-taon",
-    "payment_type_switch__tooltip2": "at makatipid ng hanggang {{num}}%",
     "plan_payment_info__per_month": "kada buwan",
     "plan_payment_info__billed_yearly": "binabayaran taun-taon",
     "plan_payment_info__free_desc": "Pinakamahusay para sa mga di-pangkaraniwang gumagamit",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Sa pamamagitan ng pag-subscribe, ikaw ay nag-eenroll sa automaticong mga pagbabayad. I-cancel o pamahalaan ang iyong subscription sa customer portal ng Stripe mula sa \"Aking Plano\". Lahat ng serbisyo ay ibinibigay ayon sa ",
     "faq_list__disclaimer_part2": " na iyong kinumpirma sa iyong sign-up. Paki-tandaan na ang serbisyong ito ay para lamang sa normal at tao. Hindi mo maaaring ibahagi ang account sa ibang tao o gamitin ang programmatic na mga paraan upang ma-access ang serbisyo, na pumapalampas sa opisyal na user interface. Sa mga paglabag sa mga Tuntunin ng Serbisyo na nagresulta sa pinsala sa pananalapi o iba pang pinsala, kami ay may karapatan na maghain ng legal na aksyon at humingi ng nararapat na kompensasyon.",
     "plan_features_table__gemini_tooltip_desc": "Ang pinakamahusay at pangkalahatang modelo ng Google. Binuo mula sa simula para sa multimodality. Ang Gemini sa MaxAI ay kasalukuyang nasa beta phase, suportado lamang ang teksto at code, malapit na magdagdag ng suporta para sa mga imahe, bidyo, at audio.",
-    "footer__resources": "Mga Mapagkukunan"
+    "footer__resources": "Mga Mapagkukunan",
+    "promotion__banner__elite__title__limited_time_offer": "Limitadong Oras na Alok",
+    "promotion__banner__elite__title__part1": "I-save",
+    "promotion__banner__elite__title__part2": "sa MaxAI Elite Yearly plan!",
+    "promotion__limited_time_offer": "Limitadong oras na alok",
+    "payment_type_switch__yearly__tip": "I-save hanggang {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

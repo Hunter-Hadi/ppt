@@ -43,7 +43,13 @@
     "share": "Споделяне",
     "link_copied": "Връзката е копирана",
     "sign_up": "Регистрирай се",
-    "follow": "Следвай"
+    "follow": "Следвай",
+    "days": "Дни",
+    "hours": "Часове",
+    "mins": "Минути",
+    "secs": "Секунди",
+    "subscribe_now": "Абонирай се сега",
+    "month": "месец"
   },
   "button": {
     "add_to_chrome_for_free": "Добави в Chrome безплатно",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Условия за ползване",
     "payment_type_switch__yearly": "Годишно",
     "payment_type_switch__monthly": "Месечно",
-    "payment_type_switch__tooltip1": "Платете годишно",
-    "payment_type_switch__tooltip2": "и спестете до {{num}}%",
     "plan_payment_info__per_month": "на месец",
     "plan_payment_info__billed_yearly": "с годишно фактуриране",
     "plan_payment_info__free_desc": "Най-добро за случайни потребители",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "С абонирането се записвате за автоматични плащания. Отменете или управлявайте абонамента си чрез клиентския портал на Stripe от „Моят план“. Всички услуги се предоставят в съответствие с ",
     "faq_list__disclaimer_part2": " които потвърждавате с регистрацията си. Моля, имайте предвид, че тази услуга е само за хора и нормална употреба. Не можете да споделяте акаунта с други хора или да използвате програмни методи за достъп до услугата, като обходите официалния потребителски интерфейс. В случай на нарушения на Условията за ползване, които довеждат до финансови или други щети, запазваме си правото да предприемем съдебни действия и да търсим подходяща компенсация.",
     "plan_features_table__gemini_tooltip_desc": "Най-способната и обща модел на Google. Построен от самото начало за мултимодалност. Gemini в MaxAI в момента е в бета фаза, поддържа само текст и код и скоро ще добави поддръжка за изображения, видеа и аудио.",
-    "footer__resources": "Ресурси"
+    "footer__resources": "Ресурси",
+    "promotion__banner__elite__title__limited_time_offer": "Ограничено време на офертата",
+    "promotion__banner__elite__title__part1": "Запазете",
+    "promotion__banner__elite__title__part2": "на годишния план MaxAI Elite!",
+    "promotion__limited_time_offer": "Оферта с ограничено време",
+    "payment_type_switch__yearly__tip": "Спестете до {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

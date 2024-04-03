@@ -43,7 +43,13 @@
     "copy_image": "העתק תמונה",
     "share": "שתף",
     "link_copied": "הקישור הועתק",
-    "follow": "עקוב"
+    "follow": "עקוב",
+    "days": "ימים",
+    "hours": "שעות",
+    "mins": "דקות",
+    "secs": "שניות",
+    "subscribe_now": "הירשם עכשיו",
+    "month": "חודש"
   },
   "button": {
     "add_to_chrome_for_free": "הוסף לכרום בחינם",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "תנאי השימוש",
     "payment_type_switch__yearly": "שנתי",
     "payment_type_switch__monthly": "חודשי",
-    "payment_type_switch__tooltip1": "שלם בשנתיות",
-    "payment_type_switch__tooltip2": "וחסוך עד {{num}}%",
     "plan_payment_info__per_month": "לחודש",
     "plan_payment_info__billed_yearly": "בחיוב שנתי",
     "plan_payment_info__free_desc": "מתאים ביותר למשתמשים מדי פעם",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "על ידי הרשמה, אתה מתחייב לתשלום אוטומטי. באפשרותך לבטל או לנהל את המינוי שלך דרך פורטל הלקוח של Stripe מתוך \"התוכנית שלי\". כל השירותים מועברים על פי ",
     "faq_list__disclaimer_part2": " אותה אתה מאשר בעת ההרשמה שלך. שים לב ששירות זה מיועד לשימוש אנושי רגיל בלבד. אין לך רשות לשתף את החשבון עם אנשים אחרים או להשתמש בשיטות תכנותיות לגישה לשירות, ולעבור על ממשק המשתמש הרשמי. במקרה של הפרת תנאי השירות שגורמת לנזקים כלכליים או אחרים, אנו שומרים לעצמנו את הזכות להגיש תביעה משפטית ולדרוש פיצויים מתאימים.",
     "plan_features_table__gemini_tooltip_desc": "הדגם הכי מוכשר וכללי של Google. בנוי מאפס עבור מולטימודליות. Gemini על MaxAI נמצא כרגע בשלב הבטא, תומך רק בטקסט ובקוד, יתמקד בקרוב תמיכה גם בתמונות, וידאו ושמע.",
-    "footer__resources": "משאבים"
+    "footer__resources": "משאבים",
+    "promotion__banner__elite__title__limited_time_offer": "הצעת זמן מוגבל",
+    "promotion__banner__elite__title__part1": "חסוך",
+    "promotion__banner__elite__title__part2": "בתוכנית השנתית של MaxAI Elite!",
+    "promotion__limited_time_offer": "הצעת זמן מוגבל",
+    "payment_type_switch__yearly__tip": "חסוך עד {{RATIO}}%"
   },
   "affiliate": {
     "hero_section__indicator__label": "#1 מוצר של השבוע",

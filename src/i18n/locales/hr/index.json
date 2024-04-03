@@ -43,7 +43,13 @@
     "share": "Podijeli",
     "link_copied": "Link kopiran",
     "sign_up": "Registriraj se",
-    "follow": "Prati"
+    "follow": "Prati",
+    "days": "Dani",
+    "hours": "Sati",
+    "mins": "Min",
+    "secs": "Sek",
+    "subscribe_now": "Pretplati se sada",
+    "month": "mjesec"
   },
   "button": {
     "add_to_chrome_for_free": "Dodajte besplatno u Chrome",
@@ -413,8 +419,6 @@
     "footer__terms_of_service": "Uvjeti korištenja",
     "payment_type_switch__yearly": "Godišnje",
     "payment_type_switch__monthly": "Mjesečno",
-    "payment_type_switch__tooltip1": "Platite godišnje",
-    "payment_type_switch__tooltip2": "i uštedite do {{num}}%",
     "plan_payment_info__per_month": "po mjesecu",
     "plan_payment_info__billed_yearly": "obračunato godišnje",
     "plan_payment_info__free_desc": "Najbolje za povremene korisnike",
@@ -508,7 +512,12 @@
     "faq_list__disclaimer_part1": "Pretplatom se prijavljujete na automatske uplate. Otkažite ili upravljajte svojom pretplatom putem korisničkog portala Stripea u odjeljku \"Moj plan\". Sve usluge se isporučuju prema ",
     "faq_list__disclaimer_part2": " koju potvrđujete prilikom prijave. Imajte na umu da je ova usluga namijenjena samo ljudskoj, normalnoj upotrebi. Ne smijete dijeliti račun s drugim osobama niti koristiti programatske metode za pristup usluzi, zaobilazeći službeno korisničko sučelje. U slučaju kršenja uvjeta korištenja koji rezultiraju financijskim ili drugim štetama, zadržavamo pravo poduzimanja pravnih radnji i traženja odgovarajuće naknade.",
     "plan_features_table__gemini_tooltip_desc": "Najmoćniji i najopćenitiji model tvrtke Google. Izgrađen od nule za multimodalnost. Gemini na MaxAI trenutno je u beta fazi, podržava samo tekst i kod, uskoro će dodati podršku za slike, videozapise i zvuk.",
-    "footer__resources": "Resursi"
+    "footer__resources": "Resursi",
+    "promotion__banner__elite__title__limited_time_offer": "Ograničeno vrijeme ponude",
+    "promotion__banner__elite__title__part1": "Uštedite",
+    "promotion__banner__elite__title__part2": "na MaxAI Elite godišnjem planu!",
+    "promotion__limited_time_offer": "Ponuda s ograničenim vremenom",
+    "payment_type_switch__yearly__tip": "Uštedite do {{RATIO}}%"
   },
   "privacy": {},
   "industry": {

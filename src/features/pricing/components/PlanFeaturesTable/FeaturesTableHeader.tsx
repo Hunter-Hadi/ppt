@@ -1,4 +1,5 @@
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
+import StarIcon from '@mui/icons-material/Star';
 import { Box, Stack, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
@@ -85,7 +86,9 @@ const FeaturesTableHeader: FC<IProps> = ({
               borderBottomLeftRadius: '8px',
               px: 1.2,
               py: 0.4,
-              bgcolor: isPopularColumn ? '#FF8800' : '#F4EBFF',
+              bgcolor: isPopularColumn
+                ? 'promotionColor.backgroundMain'
+                : '#F4EBFF',
               color: isPopularColumn ? '#fff' : 'primary.main',
               boxSizing: 'border-box',
             }}
@@ -142,9 +145,13 @@ const FeaturesTableHeader: FC<IProps> = ({
               renderType={paymentPlanType}
               btnDesc
               sx={{
-                bgcolor: isPopularColumn ? '#FF8800' : 'primary.main',
+                bgcolor: isPopularColumn
+                  ? 'promotionColor.backgroundMain'
+                  : 'primary.main',
                 '&:hover': {
-                  bgcolor: isPopularColumn ? '#b56407' : 'primary.dark',
+                  bgcolor: isPopularColumn
+                    ? 'promotionColor.fontMain'
+                    : 'primary.dark',
                 },
               }}
             />
@@ -197,7 +204,9 @@ const FeaturesTableHeader: FC<IProps> = ({
 
                 // bgcolor: '#F5F6F7',
 
-                bgcolor: isPopularColumn ? '#F4EBFF' : '#F5F6F7',
+                bgcolor: isPopularColumn
+                  ? 'promotionColor.backgroundThird'
+                  : '#F5F6F7',
 
                 borderTopLeftRadius: index === 0 ? 8 : 0,
                 borderTopRightRadius: isLast ? 8 : 0,
@@ -215,7 +224,7 @@ const FeaturesTableHeader: FC<IProps> = ({
                   sx={{
                     position: 'absolute',
                     border: '2px solid',
-                    borderColor: 'primary.main',
+                    borderColor: 'promotionColor.backgroundSecondary',
                     top: -1,
                     left: -1,
                     right: -1,
@@ -234,11 +243,20 @@ const FeaturesTableHeader: FC<IProps> = ({
                     // width: '100%',
                     px: 1,
                     py: 0.5,
-                    color: '#fff',
+                    color: 'promotionColor.fontMain',
                     borderRadius: '8px 8px 0px 0px',
-                    bgcolor: 'primary.main',
+                    bgcolor: 'promotionColor.backgroundSecondary',
+                    fontWeight: 600,
                   }}
+                  direction={'row'}
+                  gap={0.5}
                 >
+                  <StarIcon
+                    sx={{
+                      fontSize: '20px',
+                      color: 'inherit',
+                    }}
+                  />
                   {t('modules:plan_features_table__most_popular')}
                 </Stack>
               </>
