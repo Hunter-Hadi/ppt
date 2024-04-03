@@ -29,7 +29,7 @@ const FunctionalityPdfMerge = () => {
     [],
   );
 
-  const onChangeFile = (fileList: FileList) => {
+  const onUploadFile = (fileList: FileList) => {
     console.log('simply fileList', fileList);
     getPdfFileInfo(fileList);
   };
@@ -121,10 +121,10 @@ const FunctionalityPdfMerge = () => {
     if (pdfInfoList) {
       const files = pdfInfoList.map((pdfInfo) => pdfInfo.file);
       const downloadPdfData = await mergePdfFiles(files);
-      downloadPdf(downloadPdfData);
+      downloadUrl(downloadPdfData);
     }
   };
-  const downloadPdf = (pdfData: Uint8Array) => {
+  const downloadUrl = (pdfData: Uint8Array) => {
     const blob = new Blob([pdfData], { type: 'application/pdf' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
@@ -157,7 +157,7 @@ const FunctionalityPdfMerge = () => {
             accept: 'application/pdf',
             multiple: true,
           }}
-          onChange={onChangeFile}
+          onChange={onUploadFile}
           handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
@@ -171,7 +171,7 @@ const FunctionalityPdfMerge = () => {
         >
           <Grid item>
             <UploadButton
-              onChange={onChangeFile}
+              onChange={onUploadFile}
               isDrag={false}
               buttonProps={{
                 variant: 'outlined',
@@ -191,7 +191,6 @@ const FunctionalityPdfMerge = () => {
         <FunctionalityImageList
           imageList={pdfInfoList}
           onDelete={onDeletePdf}
-          pageCols={6}
           isImageSelect={true}
         />
       )}

@@ -9,7 +9,6 @@ interface IFunctionalityImageData {
   name: string;
 }
 interface IFunctionalityImageList {
-  pageCols: number;
   imageList: IFunctionalityImageData[];
   isImageSelect: boolean;
   onDelete: (id: string) => void;
@@ -17,7 +16,6 @@ interface IFunctionalityImageList {
 
 const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   imageList,
-  pageCols = 5,
   isImageSelect = true,
   onDelete,
 }) => {
