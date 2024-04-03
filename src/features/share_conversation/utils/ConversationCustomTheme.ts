@@ -38,6 +38,12 @@ declare module '@mui/material/styles' {
     };
     customColor: CustomColor;
     pageBackground: React.CSSProperties['color'];
+    promotionColor: {
+      fontMain: React.CSSProperties['color'];
+      backgroundMain: React.CSSProperties['color'];
+      backgroundSecondary: React.CSSProperties['color'];
+      backgroundThird: React.CSSProperties['color'];
+    };
   }
   interface PaletteOptions {
     neutral: PaletteOptions['primary'];
@@ -47,6 +53,12 @@ declare module '@mui/material/styles' {
     };
     customColor: CustomColor;
     pageBackground: React.CSSProperties['color'];
+    promotionColor: {
+      fontMain: React.CSSProperties['color'];
+      backgroundMain: React.CSSProperties['color'];
+      backgroundSecondary: React.CSSProperties['color'];
+      backgroundThird: React.CSSProperties['color'];
+    };
   }
   interface TypographyVariants {
     custom: React.CSSProperties;
@@ -181,6 +193,12 @@ const ConversationCustomTheme = responsiveFontSizes(
         default: isDarkMode
           ? customColor.darkBackground
           : customColor.lightBackground,
+      },
+      promotionColor: {
+        fontMain: '#B54708',
+        backgroundMain: '#ff8800',
+        backgroundSecondary: '#FFE7CD',
+        backgroundThird: '#FFF4E8',
       },
       customColor: {
         main: customColor.main,
