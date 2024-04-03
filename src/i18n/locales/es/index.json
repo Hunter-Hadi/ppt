@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Ver imágenes",
     "components__to_image__downloader_tip": "Por favor, selecciona al menos una imagen.",
     "components__to_image_detail__not_found_images": "Imagen del PDF no encontrada"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
+    "components__pdf_merge__pdf_encryption_tip": "está encriptado o es anormal, no se puede fusionar el PDF, omitido",
+    "components__pdf_merge__add_pdf": "Agregar PDF",
+    "components__pdf_merge__empty_pdf": "Limpiar PDFs",
+    "components__pdf_merge__confirm_merge": "Confirmar fusión",
+    "components__pdf_merge__pdf_dropping": "Puedes ajustar el orden del PDF arrastrando y soltando"
   }
 }

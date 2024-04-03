@@ -644,5 +644,13 @@
     "more_over_section__title": "Hơn Nữa",
     "more_over_section__description__part1": "MaxAI.me không chỉ là một công cụ dịch thuật - Đó là tiện ích duyệt web AI toàn diện của bạn. Với MaxAI.me, bạn có thể truy cập vào một loạt các tính năng được động lực bởi trí tuệ nhân tạo ngay trong trình duyệt của bạn, trên bất kỳ trang web nào bạn truy cập.",
     "more_over_section__description__part2": "Từ việc hỗ trợ viết và tóm tắt trang web cho đến ChatPDF và vẽ tranh AI, MaxAI.me giúp bạn đọc, viết và sáng tạo với sự trợ giúp từ các mô hình AI tiên tiến nhất, bao gồm ChatGPT, Claude và Gemini. Nâng cấp trải nghiệm duyệt web của bạn và mở khóa tiềm năng năng suất với MaxAI.me ngay hôm nay!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
+    "components__pdf_merge__pdf_encryption_tip": "được mã hóa hoặc bất thường, không thể gộp PDF, bỏ qua",
+    "components__pdf_merge__add_pdf": "Thêm PDF",
+    "components__pdf_merge__empty_pdf": "Xóa PDF",
+    "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
+    "components__pdf_merge__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả"
   }
 }

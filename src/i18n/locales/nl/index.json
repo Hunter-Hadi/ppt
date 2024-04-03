@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Bekijk afbeeldingen",
     "components__to_image__downloader_tip": "Selecteer alstublieft minstens één afbeelding.",
     "components__to_image_detail__not_found_images": "PDF-afbeelding niet gevonden"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
+    "components__pdf_merge__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet samenvoegen, overgeslagen",
+    "components__pdf_merge__add_pdf": "PDF toevoegen",
+    "components__pdf_merge__empty_pdf": "PDF's wissen",
+    "components__pdf_merge__confirm_merge": "Bevestig samenvoegen",
+    "components__pdf_merge__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten"
   }
 }

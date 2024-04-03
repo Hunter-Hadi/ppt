@@ -644,5 +644,13 @@
     "more_over_section__title": "మరిన్ని",
     "more_over_section__description__part1": "MaxAI.me ఒక అనువాద పరికరం కాదు - ఇది మీ ఆల్-ఇన్-వన్ AI-పవర్డ్ బ్రౌజర్ ఎక్స్టెన్షన్. MaxAI.me తో, మీరు మీ బ్రౌజర్‌లో చూడే ఏ వెబ్‌సైట్ లో ఉన్నప్పుడు AI-ప్రోత్సాహిత ఫీచర్లను ఉపయోగించవచ్చు.",
     "more_over_section__description__part2": "రచన సహాయం మరియు వెబ్‌పేజ్ సారాంశీకరణ నుండి ChatPDF మరియు AI పెంటింగ్ వరకు, MaxAI.me ద్వారా మీరు చదవడం, రాయడం మరియు సృష్టించడం కోసం అత్యంత ఆధునిక AI మోడల్స్‌ను, కాబట్టి ChatGPT, Claude మరియు Gemini ని ఉపయోగించి సాధ్యం చేస్తుంది. మీ బ్రౌజింగ్ అనుభవాన్ని మెరుగుపరచండి మరియు మీ ఉత్పత్తి సామర్థ్యాన్ని అన్లాక్ చేయండి MaxAI.me తో!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "దయచేసి నిర్దిష్టమైన PDF ఫైల్ ను అప్‌లోడ్ చేయండి",
+    "components__pdf_merge__pdf_encryption_tip": "ఎన్క్రిప్షన్ చేయబడింది లేదా అసాధారణంగా ఉంది, PDF ను మరియుంది చేయడం కాదు, విడిపోయింది",
+    "components__pdf_merge__add_pdf": "PDF ని జోడించండి",
+    "components__pdf_merge__empty_pdf": "PDFs ని తొలగించండి",
+    "components__pdf_merge__confirm_merge": "మరియుంది చేయడానికి నిర్ధారించండి",
+    "components__pdf_merge__pdf_dropping": "మీరు PDF క్రమాన్ని దారిలో తిరగడం ద్వారా సరిచూడటం చేయవచ్చు"
   }
 }

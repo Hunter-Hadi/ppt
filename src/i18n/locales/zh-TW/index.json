@@ -644,5 +644,13 @@
     "more_over_section__title": "更多",
     "more_over_section__description__part1": "MaxAI.me不僅僅是一個翻譯工具 - 它是您的全能人工智慧瀏覽器擴展。通過MaxAI.me，您可以在您訪問的任何網站上使用各種AI驅動的功能。",
     "more_over_section__description__part2": "從寫作輔助和網頁摘要到ChatPDF和AI繪畫，MaxAI.me讓您能夠借助最先進的AI模型（包括ChatGPT、Claude和Gemini）閱讀、寫作和創作。立即升級您的瀏覽體驗，發揮您的生產力潛力，使用MaxAI.me！"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
+    "components__pdf_merge__pdf_encryption_tip": "加密或異常，無法合併PDF，已跳過",
+    "components__pdf_merge__add_pdf": "添加PDF",
+    "components__pdf_merge__empty_pdf": "清除PDF",
+    "components__pdf_merge__confirm_merge": "確認合併",
+    "components__pdf_merge__pdf_dropping": "您可以通過拖放來調整PDF順序"
   }
 }

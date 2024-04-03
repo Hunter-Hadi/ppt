@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Peržiūrėti paveikslėlius",
     "components__to_image__downloader_tip": "Prašome pasirinkti bent vieną paveikslėlį.",
     "components__to_image_detail__not_found_images": "PDF paveikslėlis nerastas"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
+    "components__pdf_merge__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima sujungti PDF, praleistas",
+    "components__pdf_merge__add_pdf": "Pridėti PDF",
+    "components__pdf_merge__empty_pdf": "Išvalyti PDF",
+    "components__pdf_merge__confirm_merge": "Patvirtinti sujungimą",
+    "components__pdf_merge__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant"
   }
 }

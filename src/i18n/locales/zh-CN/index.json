@@ -644,5 +644,13 @@
     "more_over_section__title": "更多",
     "more_over_section__description__part1": "MaxAI.me不仅仅是一个翻译工具 - 它是您的一体化AI浏览器扩展。通过MaxAI.me，您可以在访问的任何网站上使用各种AI驱动功能。",
     "more_over_section__description__part2": "从写作辅助和网页摘要到ChatPDF和AI绘画，MaxAI.me赋予您阅读、写作和创作的能力，借助最先进的AI模型，包括ChatGPT、Claude和Gemini。立即升级您的浏览体验，释放您的生产力潜力！"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "请上传指定的PDF文件类型",
+    "components__pdf_merge__pdf_encryption_tip": "加密或异常，无法合并PDF，已跳过",
+    "components__pdf_merge__add_pdf": "添加PDF",
+    "components__pdf_merge__empty_pdf": "清空PDF",
+    "components__pdf_merge__confirm_merge": "确认合并",
+    "components__pdf_merge__pdf_dropping": "您可以通过拖放来调整PDF顺序"
   }
 }

@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Lihat imej",
     "components__to_image__downloader_tip": "Sila pilih sekurang-kurangnya satu imej.",
     "components__to_image_detail__not_found_images": "Imej PDF tidak ditemui"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
+    "components__pdf_merge__pdf_encryption_tip": "dienkripsi atau tidak normal, tidak dapat menggabungkan PDF, dilewati",
+    "components__pdf_merge__add_pdf": "Tambah PDF",
+    "components__pdf_merge__empty_pdf": "Kosongkan PDF",
+    "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
+    "components__pdf_merge__pdf_dropping": "Anda boleh mengubahsuai susunan PDF dengan menyeret dan menjatuhkan"
   }
 }

@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Skatīt attēlus",
     "components__to_image__downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu.",
     "components__to_image_detail__not_found_images": "PDF attēls nav atrasts"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
+    "components__pdf_merge__pdf_encryption_tip": "ir šifrēts vai neregulārs, nevar apvienot PDF, izlaidis",
+    "components__pdf_merge__add_pdf": "Pievienot PDF",
+    "components__pdf_merge__empty_pdf": "Notīrīt PDF",
+    "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
+    "components__pdf_merge__pdf_dropping": "Jūs varat mainīt PDF secību, vilkt un nomest"
   }
 }

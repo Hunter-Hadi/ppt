@@ -644,5 +644,13 @@
     "more_over_section__title": "Daha Fazlası",
     "more_over_section__description__part1": "MaxAI.me sadece bir çeviri aracı değildir - Hepsi bir arada AI destekli tarayıcı eklentisidir. MaxAI.me ile tarayıcınızda ziyaret ettiğiniz herhangi bir web sitesinde, yazma yardımından web sayfası özetlemeye, ChatPDF'den AI resim yapmaya kadar geniş bir AI destekli özellik yelpazesine erişebilirsiniz.",
     "more_over_section__description__part2": "ChatGPT, Claude ve Gemini gibi en gelişmiş AI modellerinin yardımıyla okuma, yazma ve oluşturma konusunda MaxAI.me size güç verir. Tarayıcı deneyiminizi yükseltin ve üretkenlik potansiyelinizi MaxAI.me ile açığa çıkarın!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__pdf_merge__pdf_encryption_tip": "şifreli veya anormal olduğu için PDF birleştirme işlemi yapılamıyor, atlandı",
+    "components__pdf_merge__add_pdf": "PDF Ekle",
+    "components__pdf_merge__empty_pdf": "PDF'leri Temizle",
+    "components__pdf_merge__confirm_merge": "Birleştirmeyi Onayla",
+    "components__pdf_merge__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz"
   }
 }

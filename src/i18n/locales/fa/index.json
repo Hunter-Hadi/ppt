@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "مشاهده تصاویر",
     "components__to_image__downloader_tip": "لطفاً حداقل یک تصویر را انتخاب کنید.",
     "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
+    "components__pdf_merge__pdf_encryption_tip": "رمزگذاری شده یا غیرطبیعی است، امکان ادغام PDF وجود ندارد، صرف نظر شد",
+    "components__pdf_merge__add_pdf": "افزودن PDF",
+    "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
+    "components__pdf_merge__confirm_merge": "تأیید ادغام",
+    "components__pdf_merge__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید"
   }
 }

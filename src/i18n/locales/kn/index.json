@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
     "components__to_image__downloader_tip": "ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
     "components__to_image_detail__not_found_images": "ಪಿಡಿಎಫ್ ಚಿತ್ರ ಕಂಡುಬರಲಿಲ್ಲ"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__pdf_merge__pdf_encryption_tip": "ಪಿಡಿಎಫ್ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಆಗಿದೆ ಅಥವಾ ಅಸಾಮಾನ್ಯವಾಗಿದೆ, ಪಿಡಿಎಫ್ ಮರುಹೊಂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಬಿಡಿಸಲಾಗಿದೆ",
+    "components__pdf_merge__add_pdf": "ಪಿಡಿಎಫ್ ಸೇರಿಸಿ",
+    "components__pdf_merge__empty_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "components__pdf_merge__confirm_merge": "ಮರುಹೊಂದಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿ",
+    "components__pdf_merge__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಬದಲಾಯಿಸಬಹುದು"
   }
 }

@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "ምስልን ይመልከቱ",
     "components__to_image__downloader_tip": "እባክዎ ማስጫኑን ሁሉንም ይምረጡ",
     "components__to_image_detail__not_found_images": "PDF ምስል አልተገኘም"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "እባክዎ የተጠቃሚውን PDF ፋይል አስገቡ",
+    "components__pdf_merge__pdf_encryption_tip": "የ PDF ፋይል መሰረት ያለው ማሳያ ወይም አዲስ ነገር አልተሳካም, PDF አጽዳፍን አልተሳካም",
+    "components__pdf_merge__add_pdf": "PDF ጨምር",
+    "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
+    "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
+    "components__pdf_merge__pdf_dropping": "የ PDF ክፍልን በማስተላለፍ ይሻላል"
   }
 }

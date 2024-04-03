@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Pregledajte slike",
     "components__to_image__downloader_tip": "Molimo izaberite barem jednu sliku.",
     "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
+    "components__pdf_merge__pdf_encryption_tip": "je šifrovan ili nepravilan, nemoguće spojiti PDF, preskočeno",
+    "components__pdf_merge__add_pdf": "Dodaj PDF",
+    "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
+    "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
+    "components__pdf_merge__pdf_dropping": "Možete podesiti redosled PDF-a prevlačenjem i ispuštanjem"
   }
 }

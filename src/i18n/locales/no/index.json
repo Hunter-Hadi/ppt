@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Vis bilder",
     "components__to_image__downloader_tip": "Vennligst velg minst ett bilde.",
     "components__to_image_detail__not_found_images": "Bilde fra PDF ikke funnet"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
+    "components__pdf_merge__pdf_encryption_tip": "er kryptert eller unormal, kan ikke slå sammen PDF, hoppet over",
+    "components__pdf_merge__add_pdf": "Legg til PDF",
+    "components__pdf_merge__empty_pdf": "Tøm PDF-er",
+    "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
+    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe"
   }
 }

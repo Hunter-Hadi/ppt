@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Vezi imagini",
     "components__to_image__downloader_tip": "Vă rugăm să selectați cel puțin o imagine.",
     "components__to_image_detail__not_found_images": "Imagine PDF negăsită"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__pdf_merge__pdf_encryption_tip": "este criptat sau anormal, nu se poate realiza fuzionarea PDF-ului, s-a trecut peste",
+    "components__pdf_merge__add_pdf": "Adăugați PDF",
+    "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
+    "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
+    "components__pdf_merge__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare"
   }
 }

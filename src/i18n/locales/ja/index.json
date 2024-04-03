@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "画像を表示",
     "components__to_image__downloader_tip": "少なくとも1つの画像を選択してください",
     "components__to_image_detail__not_found_images": "PDFの画像が見つかりません"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
+    "components__pdf_merge__pdf_encryption_tip": "暗号化または異常な状態のため、PDFをマージできません。スキップされました",
+    "components__pdf_merge__add_pdf": "PDFを追加",
+    "components__pdf_merge__empty_pdf": "PDFをクリア",
+    "components__pdf_merge__confirm_merge": "マージを確認",
+    "components__pdf_merge__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます"
   }
 }

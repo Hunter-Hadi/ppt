@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Դիտել պատկերները",
     "components__to_image__downloader_tip": "Խնդրվում է ընտրել առավելագույնը մեկ պատկեր:",
     "components__to_image_detail__not_found_images": "PDF պատկերը չի գտնվել"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
+    "components__pdf_merge__pdf_encryption_tip": "գաղտնիքով է կոդավորված կամ անվտանգ, չի կարող միավորել PDF-ն, անտեսելուց առաջինը",
+    "components__pdf_merge__add_pdf": "Ավելացնել PDF",
+    "components__pdf_merge__empty_pdf": "Մաքրել PDF-ները",
+    "components__pdf_merge__confirm_merge": "Հաստատել միավորումը",
+    "components__pdf_merge__pdf_dropping": "Դուք կարող եք համալիրել PDF-ների կարգը տեղադրելով և շարունակելով"
   }
 }

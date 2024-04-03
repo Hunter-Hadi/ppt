@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "प्रतिमा पहा",
     "components__to_image__downloader_tip": "कृपया किमान एक प्रतिमा निवडा.",
     "components__to_image_detail__not_found_images": "पीडीएफ प्रतिमा सापडली नाही"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
+    "components__pdf_merge__pdf_encryption_tip": "एन्क्रिप्शन केलेले किंवा असामान्य आहे, पीडीएफ संयोजन करण्यास अक्षम, वगळले",
+    "components__pdf_merge__add_pdf": "पीडीएफ जोडा",
+    "components__pdf_merge__empty_pdf": "पीडीएफ साफ करा",
+    "components__pdf_merge__confirm_merge": "संयोजन करण्यासाठी पुष्टी करा",
+    "components__pdf_merge__pdf_dropping": "आपण पीडीएफ व्यवस्थापन ड्रॅग आणि ड्रॉप करून प्रक्रिया करू शकता"
   }
 }

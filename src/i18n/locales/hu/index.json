@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Képek megtekintése",
     "components__to_image__downloader_tip": "Kérjük, válasszon ki legalább egy képet.",
     "components__to_image_detail__not_found_images": "Nem található PDF kép"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
+    "components__pdf_merge__pdf_encryption_tip": "titkosított vagy rendellenes, nem lehet összevonni a PDF-t, kihagyva",
+    "components__pdf_merge__add_pdf": "PDF hozzáadása",
+    "components__pdf_merge__empty_pdf": "PDF-ek törlése",
+    "components__pdf_merge__confirm_merge": "Összevonás megerősítése",
+    "components__pdf_merge__pdf_dropping": "A PDF sorrendjét húzás és ejtés segítségével állíthatja be"
   }
 }

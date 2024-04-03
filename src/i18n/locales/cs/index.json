@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Zobrazit obrázky",
     "components__to_image__downloader_tip": "Prosím vyberte alespoň jeden obrázek.",
     "components__to_image_detail__not_found_images": "Obrázek PDF nenalezen"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
+    "components__pdf_merge__pdf_encryption_tip": "je šifrovaný nebo abnormální, nelze sloučit PDF, přeskočeno",
+    "components__pdf_merge__add_pdf": "Přidat PDF",
+    "components__pdf_merge__empty_pdf": "Vymazat PDF",
+    "components__pdf_merge__confirm_merge": "Potvrdit sloučení",
+    "components__pdf_merge__pdf_dropping": "Pořadí PDF můžete upravit přetažením"
   }
 }

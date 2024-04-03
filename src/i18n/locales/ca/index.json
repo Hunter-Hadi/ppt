@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Visualitza les imatges",
     "components__to_image__downloader_tip": "Si us plau, seleccioneu com a mínim una imatge.",
     "components__to_image_detail__not_found_images": "Imatge del PDF no trobada"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
+    "components__pdf_merge__pdf_encryption_tip": "està encriptat o és anormal, no es pot fusionar el PDF, saltat",
+    "components__pdf_merge__add_pdf": "Afegiu PDF",
+    "components__pdf_merge__empty_pdf": "Netegeu els PDFs",
+    "components__pdf_merge__confirm_merge": "Confirmeu la fusió",
+    "components__pdf_merge__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los"
   }
 }

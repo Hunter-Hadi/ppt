@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Vis billeder",
     "components__to_image__downloader_tip": "Vælg venligst mindst et billede.",
     "components__to_image_detail__not_found_images": "Billede fra PDF blev ikke fundet"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
+    "components__pdf_merge__pdf_encryption_tip": "er krypteret eller unormal, kan ikke sammenføje PDF'en, sprunget over",
+    "components__pdf_merge__add_pdf": "Tilføj PDF",
+    "components__pdf_merge__empty_pdf": "Ryd PDF'er",
+    "components__pdf_merge__confirm_merge": "Bekræft sammenføjning",
+    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe"
   }
 }

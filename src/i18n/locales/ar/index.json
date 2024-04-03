@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "عرض الصور",
     "components__to_image__downloader_tip": "يرجى تحديد صورة واحدة على الأقل.",
     "components__to_image_detail__not_found_images": "لم يتم العثور على صورة PDF"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
+    "components__pdf_merge__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على دمج ملف PDF، تم تخطيه",
+    "components__pdf_merge__add_pdf": "إضافة PDF",
+    "components__pdf_merge__empty_pdf": "مسح PDFs",
+    "components__pdf_merge__confirm_merge": "تأكيد الدمج",
+    "components__pdf_merge__pdf_dropping": "يمكنك ضبط ترتيب PDF عن طريق السحب والإفلات"
   }
 }

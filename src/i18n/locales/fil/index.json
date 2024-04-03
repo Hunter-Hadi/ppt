@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Tingnan ang mga imahe",
     "components__to_image__downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe.",
     "components__to_image_detail__not_found_images": "Hindi natagpuan ang imahe ng PDF"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
+    "components__pdf_merge__pdf_encryption_tip": "ay naka-encrypt o hindi normal, hindi maaring i-merge ang PDF, iniskip",
+    "components__pdf_merge__add_pdf": "Magdagdag ng PDF",
+    "components__pdf_merge__empty_pdf": "Burahin ang mga PDF",
+    "components__pdf_merge__confirm_merge": "Kumpirmahin ang pag-merge",
+    "components__pdf_merge__pdf_dropping": "Maaari mong ayusin ang pagkakasunud-sunod ng PDF sa pamamagitan ng pag-drag at drop"
   }
 }

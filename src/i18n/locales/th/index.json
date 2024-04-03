@@ -644,5 +644,13 @@
     "more_over_section__title": "มากกว่า",
     "more_over_section__description__part1": "MaxAI.me ไม่ใช่เพียงเครื่องมือแปลเท่านั้น - เป็นส่วนขยายเบราว์เซอร์ที่ใช้ AI ทั้งหมดของคุณได้อย่างครบวงจร ด้วย MaxAI.me คุณสามารถเข้าถึงคุณสมบัติขับเคลื่อนด้วย AI ที่หลากหลายได้ตรงในเบราว์เซอร์ของคุณบนเว็บไซต์ใดก็ได้",
     "more_over_section__description__part2": "ตั้งแต่การช่วยเขียนและสรุปหน้าเว็บไปจนถึง ChatPDF และการวาดภาพด้วย AI  MaxAI.me ช่วยให้คุณอ่าน เขียน และสร้างสรรค์ด้วยความช่วยเหลือจากโมเดล AI ที่ทันสมัยที่สุด เช่น ChatGPT, Claude, และ Gemini อัพเกรดประสบการณ์การเรียกดูของคุณและปลดล็อกศักยภาพในการผลิตภัณฑ์ของคุณด้วย MaxAI.me วันนี้!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components__pdf_merge__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถรวม PDF ได้ ข้าม",
+    "components__pdf_merge__add_pdf": "เพิ่ม PDF",
+    "components__pdf_merge__empty_pdf": "ล้าง PDF",
+    "components__pdf_merge__confirm_merge": "ยืนยันการรวม",
+    "components__pdf_merge__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง"
   }
 }

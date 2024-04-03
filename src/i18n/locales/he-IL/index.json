@@ -643,5 +643,13 @@
     "components__to_image_detail__view_images": "הצג תמונות",
     "components__to_image__downloader_tip": "אנא בחר לפחות תמונה אחת.",
     "components__to_image_detail__not_found_images": "לא נמצאה תמונה של PDF"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__pdf_merge__pdf_encryption_tip": "מוצפן או לא תקין, אין אפשרות למזג את ה- PDF, דילג",
+    "components__pdf_merge__add_pdf": "הוסף PDF",
+    "components__pdf_merge__empty_pdf": "נקה PDFs",
+    "components__pdf_merge__confirm_merge": "אשר מיזוג",
+    "components__pdf_merge__pdf_dropping": "ניתן לכוון את סדר ה-PDF על ידי גרירה ושחרור"
   }
 }

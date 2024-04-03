@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Visa bilder",
     "components__to_image__downloader_tip": "Var god välj minst en bild.",
     "components__to_image_detail__not_found_images": "PDF-bild hittades inte"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
+    "components__pdf_merge__pdf_encryption_tip": "är krypterad eller onormal, kan inte slå samman PDF:er, hoppades över",
+    "components__pdf_merge__add_pdf": "Lägg till PDF",
+    "components__pdf_merge__empty_pdf": "Rensa PDF:er",
+    "components__pdf_merge__confirm_merge": "Bekräfta sammanfogning",
+    "components__pdf_merge__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa"
   }
 }

@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "છબીઓ જુઓ",
     "components__to_image__downloader_tip": "કૃપા કરીને ઓછામાંથી ઓછી એક છબી પસંદ કરો.",
     "components__to_image_detail__not_found_images": "પીડીએફ છબી મળી નથી"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
+    "components__pdf_merge__pdf_encryption_tip": "એન્ક્રિપ્શન કરવામાં આવેલ છે અથવા અસામાન્ય છે, PDF જોડવામાં અસમર્થ, છોડી દીધું",
+    "components__pdf_merge__add_pdf": "PDF ઉમેરો",
+    "components__pdf_merge__empty_pdf": "PDF ખાલી કરો",
+    "components__pdf_merge__confirm_merge": "જોડવાની પુષ્ટિ કરો",
+    "components__pdf_merge__pdf_dropping": "આપ પીડીએફ ક્રમને ડ્રેગ અને ડ્રોપ કરીને સુયોજિત કરી શકો છો"
   }
 }

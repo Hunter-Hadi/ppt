@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "छवियाँ देखें",
     "components__to_image__downloader_tip": "कृपया कम से कम एक छवि का चयन करें।",
     "components__to_image_detail__not_found_images": "पीडीएफ छवि नहीं मिली"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
+    "components__pdf_merge__pdf_encryption_tip": "एनक्रिप्शन या असामान्य है, पीडीएफ मर्ज करने में असमर्थ, छोड़ दिया गया",
+    "components__pdf_merge__add_pdf": "पीडीएफ जोड़ें",
+    "components__pdf_merge__empty_pdf": "पीडीएफ साफ़ करें",
+    "components__pdf_merge__confirm_merge": "मर्ज करने की पुष्टि करें",
+    "components__pdf_merge__pdf_dropping": "आप पीडीएफ क्रम को खींचकर समायोजित कर सकते हैं"
   }
 }

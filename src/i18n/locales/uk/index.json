@@ -644,5 +644,13 @@
     "more_over_section__title": "مزید",
     "more_over_section__description__part1": "MaxAI.me صرف ایک ترجمہ کا آلہ نہیں ہے - یہ آپ کی تمام-ایک AI پاورڈ براؤزر ایکسٹینشن ہے۔ MaxAI.me کے ساتھ، آپ براؤزر میں ہر ویب سائٹ پر AI کی قدرتیں استعمال کرتے ہوئے وائڈ رینج کا استعمال کرسکتے ہیں۔",
     "more_over_section__description__part2": "لکھنے کی مدد اور ویب پیج خلاصہ کاری سے ChatPDF اور AI پینٹنگ تک، MaxAI.me آپ کو مدد کے ساتھ پڑھنے، لکھنے اور تخلیق کرنے کی صلاحیت فراہم کرتا ہے۔ ChatGPT، Claude اور Gemini جیسے سب سے تجدید شدہ AI ماڈلز کی مدد سے اپنی براؤزنگ تجربے کو اپ گریڈ کریں اور اپنے پروڈکٹوٹی کی صلاحیت کو آزاد کریں۔ MaxAI.me آج ہی استعمال کریں!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "مخصوص شدہ پی ڈی ایف فائل کو اپ لوڈ کریں",
+    "components__pdf_merge__pdf_encryption_tip": "پی ڈی ایف محفوظ یا غیر معمولی ہے، پی ڈی ایف کو مرج کرنا ممکن نہیں ہے، چھوڑ دیا گیا",
+    "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",
+    "components__pdf_merge__empty_pdf": "پی ڈی ایف صاف کریں",
+    "components__pdf_merge__confirm_merge": "مرج کرنے کی تصدیق کریں",
+    "components__pdf_merge__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں"
   }
 }

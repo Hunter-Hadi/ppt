@@ -644,5 +644,13 @@
     "components__to_image_detail__view_images": "Преглед на изображения",
     "components__to_image__downloader_tip": "Моля, изберете поне едно изображение.",
     "components__to_image_detail__not_found_images": "Изображението от PDF не е намерено"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
+    "components__pdf_merge__pdf_encryption_tip": "е криптиран или аномален, не може да се обедини PDF, пропуснат",
+    "components__pdf_merge__add_pdf": "Добави PDF",
+    "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
+    "components__pdf_merge__confirm_merge": "Потвърди обединяването",
+    "components__pdf_merge__pdf_dropping": "Можете да настроите реда на PDF-овете, като ги влачите и пускате"
   }
 }
