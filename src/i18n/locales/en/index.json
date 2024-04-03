@@ -389,6 +389,14 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
     "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks"
   },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_merge__pdf_encryption_tip": "is encrypted or abnormal, unable to merge the PDF, skipped",
+    "components__pdf_merge__add_pdf": "Add PDF",
+    "components__pdf_merge__empty_pdf": "Empty PDF",
+    "components__pdf_merge__confirm_merge": "Confirm to merge",
+    "components__pdf_merge__pdf_dropping": "You can adjust the PDF order by dragging and dropping"
+  },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Click to upload or drag and drop",
     "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",
@@ -626,20 +634,20 @@
   "seo": {
     "default__title": "MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more.",
-    
+
     "maintain__title": "In maintenance | MaxAI.me",
 
     "affiliate__title": "Affiliate Program | MaxAI.me",
     "affiliate__description": "Get paid with MaxAI affiliate program. Join our affiliate program and earn 25% commission for sharing MaxAI!",
-    
+
     "contact_us__title": "Contact Us | MaxAI.me",
-    
+
     "email_unsubscribe_success__title": "Email unsubscribe success | MaxAI.me",
-    
+
     "learning_center__title": "Learning Center | MaxAI.me",
-    
+
     "pricing__title": "Pricing | MaxAI.me",
-    
+
     "privacy__title": "Privacy Policy | MaxAI.me",
     "privacy__description": "Read the MaxAI.me privacy policy.",
 
@@ -648,7 +656,7 @@
 
     "release_notes__title": "Release notes | MaxAI.me",
 
-    "share_conversation__title":"Share Conversation | MaxAI.me",
+    "share_conversation__title": "Share Conversation | MaxAI.me",
 
     "uninstall__title": "Uninstall | MaxAI.me",
 
@@ -673,7 +681,6 @@
     "zmo__description": "Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life."
   },
   "features_landing": {
-
     "cta_text": "Add to Browser",
 
     "youtube_summary_pages__title": "Summarize & Chat with YouTube Videos",
@@ -683,7 +690,6 @@
     "youtube_summary_pages__section2__title": "Chat with the Video",
     "youtube_summary_pages__section2__description": "Enhance your video comprehension with MaxAI's interactive chat feature. After generating the summary, you can engage in a conversation with the video, asking follow-up questions, seeking clarification, or exploring related topics. MaxAI will provide insightful responses, helping you gain a deeper understanding of the subject matter.",
 
-    
     "chat_pdf_pages__title": "Chat with Any PDF",
     "chat_pdf_pages__description": "Extract details and obtain answers from large PDF files such as manuals, essays, and books.",
     "chat_pdf_pages__section1__title": "ChatPDF with MaxAI",

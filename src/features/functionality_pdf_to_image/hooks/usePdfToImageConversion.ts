@@ -38,12 +38,12 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
    * 生成Pdf到图像
    */
   const generatePdfToImage = async (
-    pdfDoc: any, //PDFDocumentProxy react-pdfjs没有导出
+    pdfDocument: any, //PDFDocumentProxy react-pdfjs没有导出
     pageNum: number,
     scale: number = 1.6,
   ) => {
     try {
-      const page = await pdfDoc.getPage(pageNum);
+      const page = await pdfDocument.getPage(pageNum);
       const viewport = page.getViewport({ scale });
       const canvas = document.createElement('canvas');
       const context = canvas.getContext('2d');
@@ -132,12 +132,12 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
 
     setPdfIsLoading(true);
     const buff = await file.arrayBuffer(); // Uint8Array
-    const pdfDoc = await pdfjs.getDocument(buff).promise;
-    setPdfTotalPages(pdfDoc._pdfInfo.numPages);
-    for (let pageNum = 1; pageNum <= pdfDoc._pdfInfo.numPages; pageNum++) {
+    const pdfDocument = await pdfjs.getDocument(buff).promise;
+    setPdfTotalPages(pdfDocument._pdfInfo.numPages);
+    for (let pageNum = 1; pageNum <= pdfDocument._pdfInfo.numPages; pageNum++) {
       if (isCancel.current) return;
       setCurrentPdfActionNum(pageNum);
-      const toImageData = await generatePdfToImage(pdfDoc, pageNum, 1.6);
+      const toImageData = await generatePdfToImage(pdfDocument, pageNum, 1.6);
       if (toImageData) {
         setPdfViewDefaultSize({
           width: Math.floor(toImageData.viewport.width),
@@ -154,7 +154,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png') => {
         ]);
       }
 
-      if (pageNum === pdfDoc._pdfInfo.numPages) {
+      if (pageNum === pdfDocument._pdfInfo.numPages) {
         setPdfIsLoading(false);
       }
     }
