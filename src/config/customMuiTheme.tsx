@@ -185,6 +185,13 @@ const customMuiTheme = responsiveFontSizes(
           LinkComponent: LinkBehaviour,
         },
       },
+      MuiModal: {
+        defaultProps: {
+          // @ts-expect-error 为了统一给 Mui Modal 添加 data-testid，
+          // 但是 Mui Modal 类型声明没有这个属性，所以这里先让 ts 忽略下面这行类型报错
+          'data-testid': 'maxai-mui-modal',
+        },
+      },
     },
     palette: {
       primary: {

@@ -244,7 +244,6 @@ const FunctionalityPdfToImageDetail: FC<
         sx={{
           py: 5,
           position: 'relative',
-          width: '100%',
         }}
       >
         {currentShowImages?.length > 0 && (

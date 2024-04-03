@@ -14,7 +14,7 @@ const FinancePages = () => {
 
   return (
     <>
-      <AppDefaultSeoLayout title={'Finance | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:use_cases__finance__title')} />
 
       <Banner
         title={t('pages:use_cases__finance_page__banner__title')}

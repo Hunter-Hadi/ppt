@@ -1,5 +1,6 @@
 import { Box } from '@mui/material';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
@@ -15,6 +16,7 @@ const PromptDetailPages: FC<{
   id?: string;
   notFound?: boolean;
 }> = (props) => {
+  const { t } = useTranslation();
   const router = useRouter();
   const { notFound, id } = props;
 
@@ -55,10 +57,8 @@ const PromptDetailPages: FC<{
   return (
     <Box height={'50vh'}>
       <AppDefaultSeoLayout
-        title='Prompts | MaxAI.me'
-        description={
-          'Complete your everyday tasks with Prompt Management and 1-Click Prompts in minutes that used to take hours.'
-        }
+        title={t('seo:prompts__title')}
+        description={t('seo:prompts__description')}
         socialImage={'https://www.maxai.me/prompts-social.png'}
         canonical={canonicalLink}
       />

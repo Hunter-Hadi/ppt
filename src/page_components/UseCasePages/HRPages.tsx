@@ -14,7 +14,7 @@ const HRPages = () => {
 
   return (
     <>
-      <AppDefaultSeoLayout title={'HR | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:use_cases__hr__title')} />
 
       <Banner
         title={t('pages:use_cases__hr_page__banner__title')}

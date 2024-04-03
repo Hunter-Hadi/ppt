@@ -1,10 +1,11 @@
+import { useTranslation } from 'next-i18next';
 import React, { useEffect } from 'react';
 
-import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 
 const UsechatgptPages = () => {
+  const { t } = useTranslation();
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
@@ -16,16 +17,14 @@ const UsechatgptPages = () => {
     }
   }, []);
   return (
-    <AppContainer sx={{ bgcolor: '#fff' }}>
+    <>
       <AppDefaultSeoLayout
-        title={'UseChatGPT.AI: Use AI Anywhere (ChatGPT, Bard, Bing, Claude)'}
-        description={
-          'The fastest way to use AI anywhere online. One click to compose, improve writing, summarize, explain, fix spelling & grammar, change tone, translate, or reply to any text.'
-        }
+        title={t('seo:usechatgpt__title')}
+        description={t('seo:usechatgpt__description')}
         canonical={'https://www.maxai.me/usechatgpt'}
       />
       <HomePageContent />
-    </AppContainer>
+    </>
   );
 };
 export default UsechatgptPages;

@@ -137,7 +137,7 @@ const CTAInstallButton: FC<IProps> = ({
       href={href}
       target={target}
       startIcon={
-        startIcon ? (
+        startIcon || startIcon === null ? (
           startIcon
         ) : (
           <CustomIcon

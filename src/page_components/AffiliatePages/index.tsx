@@ -1,4 +1,5 @@
 import { Box } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
@@ -9,11 +10,12 @@ import AffiliateHeroSection from '@/page_components/AffiliatePages/components/Af
 import AffiliateHowItWork from '@/page_components/AffiliatePages/components/AffiliateHowItWork';
 
 const AffiliatePages = () => {
+  const { t } = useTranslation();
   return (
     <Box>
       <AppDefaultSeoLayout
-        title='Affiliate Program | MaxAI.me'
-        description='Get paid with MaxAI affiliate program. Join our affiliate program and earn 25% commission for sharing MaxAI!'
+        title={t('seo:affiliate__title')}
+        description={t('seo:affiliate__description')}
       />
       <AffiliateHeroSection />
       <AffiliateHowItWork />

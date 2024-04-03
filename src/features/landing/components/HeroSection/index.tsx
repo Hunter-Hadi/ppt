@@ -10,7 +10,7 @@ import {
   PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
   STAR_RATINGS_NUM,
 } from '@/features/landing/constants';
-import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 

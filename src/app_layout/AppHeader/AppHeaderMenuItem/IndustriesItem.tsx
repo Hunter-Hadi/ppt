@@ -1,8 +1,11 @@
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
-import { Button, Menu, MenuItem } from '@mui/material';
 import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
 import * as React from 'react';
 import { FC, useState } from 'react';
@@ -40,45 +43,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
     setAnchorEl(null);
     // setExpanded(false);
   };
-
-  const handleSelectIndustry = (index: number) => {
-    console.log('handleSelectIndustry ==> ', index);
-
-    switch (index) {
-      case 0:
-        window.open('/use-cases/executives', isInIframe() ? '_blank' : '_self');
-        break;
-      case 1:
-        window.open('/use-cases/marketing', isInIframe() ? '_blank' : '_self');
-        break;
-      case 2:
-        window.open('/use-cases/education', isInIframe() ? '_blank' : '_self');
-        break;
-      case 3:
-        window.open('/use-cases/consulting', isInIframe() ? '_blank' : '_self');
-        break;
-      case 4:
-        window.open('/use-cases/hr', isInIframe() ? '_blank' : '_self');
-        break;
-      case 5:
-        window.open('/use-cases/finance', isInIframe() ? '_blank' : '_self');
-        break;
-      case 6:
-        window.open(
-          '/use-cases/real-estate',
-          isInIframe() ? '_blank' : '_self',
-        );
-        break;
-      case 7:
-        window.open('/use-cases/tech', isInIframe() ? '_blank' : '_self');
-        break;
-      default:
-        break;
-    }
-    handleClose();
-  };
-
-  const [expanded, setExpanded] = React.useState<string | false>('panel1');
+  const [expanded, setExpanded] = React.useState<string | false>(false);
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
@@ -89,6 +54,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
 
   return (
     <>
+      {/* 小屏幕显示 */}
       <MuiAccordion
         disableGutters
         elevation={0}
@@ -96,10 +62,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
         expanded={expanded === 'panel1'}
         onChange={handleChange('panel1')}
         sx={{
-          display: {
-            xs: 'block',
-            md: 'none',
-          },
+          display: isSmallScreen ? 'block' : 'none',
         }}
       >
         <MuiAccordionSummary
@@ -113,14 +76,15 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
           }}
         >
           <MenuItem
-            onClick={() => {}}
             sx={{
               width: '100%',
               display: 'flex',
               justifyContent: 'space-between',
             }}
           >
-            {t('modules:header__menu__industries')}
+            <Typography variant='custom' fontSize={16} fontWeight={600}>
+              {t('modules:header__menu__industries')}
+            </Typography>
 
             <ExpandLessIcon
               sx={{
@@ -138,8 +102,6 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
               key={industriesItem.href}
               sx={{
                 borderRadius: '8px',
-                fontSize: 16,
-                fontWeight: 600,
                 mb: 1,
                 p: 0,
               }}
@@ -155,13 +117,16 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
                   px: 2,
                 }}
               >
-                {t(industriesItem.label)}
+                <Typography variant='custom' fontSize={16} fontWeight={600}>
+                  {t(industriesItem.label)}
+                </Typography>
               </ProLink>
             </MenuItem>
           ))}
         </MuiAccordionDetails>
       </MuiAccordion>
 
+      {/* 大屏幕显示 */}
       <Button
         id='basic-button'
         aria-controls={open ? 'basic-menu' : undefined}
@@ -169,10 +134,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
         sx={{
-          display: {
-            xs: 'none',
-            md: 'flex',
-          },
+          display: isSmallScreen ? 'none' : 'flex',
           fontSize: 16,
           fontWeight: 500,
           lineHeight: 1.5,

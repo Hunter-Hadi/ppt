@@ -2,13 +2,18 @@ import { Box, buttonClasses, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
+import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
   propRef?: string;
+  ctaButtonTrackerLinkProps?: IUseShareTrackerLinkProps;
 }
 
-const CallToActionSection: FC<IProps> = ({ propRef }) => {
+const CallToActionSection: FC<IProps> = ({
+  propRef,
+  ctaButtonTrackerLinkProps,
+}) => {
   const { t } = useTranslation();
 
   return (
@@ -63,6 +68,7 @@ const CallToActionSection: FC<IProps> = ({ propRef }) => {
               defaultRef: propRef ?? 'homepage',
               queryRefEnable: true,
               pathnameRefEnable: false,
+              ...ctaButtonTrackerLinkProps,
             }}
             iconSize={80}
             adaptiveLabel

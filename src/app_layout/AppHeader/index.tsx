@@ -1,16 +1,10 @@
-import {
-  AppBar,
-  Box,
-  Divider,
-  Toolbar,
-  useMediaQuery,
-  useTheme,
-} from '@mui/material';
+import { AppBar, Box, Divider, Toolbar, useMediaQuery } from '@mui/material';
 import { debounce } from 'lodash-es';
 import { useRouter } from 'next/router';
 import { FC, useEffect } from 'react';
 
 import useAppHeaderState from '@/hooks/useAppHeaderState';
+import { removeLocaleInPathname } from '@/i18n/utils';
 import AppLogo from '@/page_components/AppLogo';
 
 import AppHeaderCTABtn from './AppHeaderCTABtn';
@@ -24,12 +18,14 @@ const NOT_HEADER_PATH = ['/zmo', '/partners/', '/release-notes', '/share'];
 const AppHeader: FC = () => {
   const { pathname } = useRouter();
 
-  const theme = useTheme();
+  // const theme = useTheme();
   // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
   const isMiniMenu = useMediaQuery('(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
 
-  const isNotHeader = NOT_HEADER_PATH.some((path) => pathname.startsWith(path));
+  const isNotHeader = NOT_HEADER_PATH.some((path) =>
+    removeLocaleInPathname(pathname).startsWith(path),
+  );
 
   const { updateAppHeaderHeight } = useAppHeaderState();
 

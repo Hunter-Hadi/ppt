@@ -11,7 +11,7 @@ const ContactUsPages = () => {
   const { t } = useTranslation();
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
-      <AppDefaultSeoLayout title='Contact Us | MaxAI.me' />
+      <AppDefaultSeoLayout title={t('seo:contact_us__title')} />
 
       <Box
         sx={{

@@ -37,7 +37,7 @@ const ShareChatHistoryPages: FC<IProps> = () => {
 
   return (
     <ThemeProvider theme={ConversationCustomTheme}>
-      <AppDefaultSeoLayout title={'Share Conversation | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:share_conversation__title')} />
       <Stack flex={1} maxHeight='100vh'>
         {/* share header */}
         <AppBar

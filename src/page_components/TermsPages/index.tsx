@@ -1,4 +1,5 @@
 import { Box, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
@@ -6,11 +7,12 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
 
 const TermsPages: FC = () => {
+  const { t } = useTranslation();
   return (
     <AppContainer sx={{ wordBreak: 'break-word', py: 4 }}>
       <AppDefaultSeoLayout
-        title={'Terms of Service | MaxAI.me'}
-        description={'Read the MaxAI.me terms of service.'}
+        title={t('seo:terms__title')}
+        description={t('seo:terms__description')}
       />
       <Box>
         <Typography variant='h1' gutterBottom sx={{ mb: 2 }}>

@@ -8,7 +8,7 @@ import React, { FC } from 'react';
 import WikiText from '@/components/text/WikiText';
 import { PLAN_FEATURES_CATEGORY } from '@/features/pricing/constant';
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
-import useVideoPopupController from '@/features/videoPopup/hooks/useVideoPopupController';
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 
 import { FeaturesCategoryIcon, FeaturesIcon } from '../FeaturesIcon';
 import {

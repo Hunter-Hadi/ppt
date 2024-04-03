@@ -1,6 +1,7 @@
 import { Box, Divider, Stack, Typography } from '@mui/material';
 import dayjs from 'dayjs';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
@@ -8,6 +9,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import { MAXAI_RELEASE_NOTES } from '@/global_constants/releaseNotes';
 
 const ReleaseNotesPages = () => {
+  const { t } = useTranslation();
   // 需要支持从 url 中获取 样式参数
   const { query, isReady } = useRouter();
 
@@ -25,7 +27,7 @@ const ReleaseNotesPages = () => {
       }}
       maxWidth={'unset'}
     >
-      <AppDefaultSeoLayout title={'Release notes | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:release_notes__title')} />
       <Stack
         pt={2.5}
         sx={{

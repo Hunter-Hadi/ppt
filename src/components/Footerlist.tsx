@@ -46,6 +46,7 @@ const FooterList: FC<{
                 underline='hover'
                 sx={{ display: 'inline-block' }}
                 target={target}
+                hardRefresh
                 muiLinkProps={{ title: label ?? '' }}
               >
                 <Typography

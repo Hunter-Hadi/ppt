@@ -4,7 +4,7 @@ import { WWW_PROJECT_LINK } from '@/global_constants';
 
 export const useSharePromptLinks = (id?: string, title?: string) => {
   const shareLink = useMemo(() => {
-    return `${WWW_PROJECT_LINK}/prompts/${id}`;
+    return `${WWW_PROJECT_LINK}/prompt/library/${id}`;
   }, [id]);
 
   const lineBreak = '%0D%0A';

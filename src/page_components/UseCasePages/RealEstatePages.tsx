@@ -13,7 +13,7 @@ const RealEstatePages = () => {
 
   return (
     <>
-      <AppDefaultSeoLayout title={'Real-estate | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:use_cases__real_estate__title')} />
 
       <Banner
         title={t('pages:use_cases__real_estate_page__banner__title')}

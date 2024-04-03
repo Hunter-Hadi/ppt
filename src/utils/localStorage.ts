@@ -16,7 +16,10 @@ export type ILocalStorageKeyType =
   | typeof FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY
   //记录是否在插件保存过 useid
   | 'EXTENSION_SAVED_USER_ID_FLAG'
-  | typeof ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY;
+  | typeof ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY
+  // 用来记录 前端生成的 clientUserId，用于做用户交互跟踪时和 后端的 userId做绑定
+  | 'CLIENT_USER_ID'
+  | 'LANDING_PAGE_REF';
 export const setLocalStorage = (
   key: ILocalStorageKeyType,
   value: unknown,
@@ -26,7 +29,7 @@ export const setLocalStorage = (
   if (typeof localStorage === 'undefined' || typeof window === 'undefined') {
     return;
   }
-  if (isString) {
+  if (isString || typeof value === 'string') {
     localStorage.setItem(key, String(value));
     if (needSaveSessions) {
       sessionStorage.setItem(key, String(value));
@@ -39,13 +42,21 @@ export const setLocalStorage = (
   }
 };
 
-export const getLocalStorage = (key: ILocalStorageKeyType): string | null => {
+export const getLocalStorage = (
+  key: ILocalStorageKeyType,
+  disposable = false,
+): string | null => {
   if (typeof localStorage === 'undefined') return null;
   const needSaveSessions = ['GOOGLE_SIGN_UP_DATA'].includes(key);
   if (needSaveSessions && sessionStorage.getItem(key)) {
     return sessionStorage.getItem(key);
   }
-  return localStorage.getItem(key);
+
+  const value = localStorage.getItem(key);
+  if (disposable) {
+    localStorage.removeItem(key);
+  }
+  return value;
 };
 
 export const removeLocalStorage = (key: ILocalStorageKeyType): void => {

@@ -14,7 +14,7 @@ const ExecutivesPages = () => {
 
   return (
     <>
-      <AppDefaultSeoLayout title={'Executives | MaxAI.me'} />
+      <AppDefaultSeoLayout title={t('seo:use_cases__executives__title')} />
 
       <Banner
         title={t('pages:use_cases__executives_page__banner__title')}

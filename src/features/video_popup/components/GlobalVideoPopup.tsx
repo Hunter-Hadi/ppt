@@ -1,8 +1,8 @@
 import { Box, Stack, SxProps } from '@mui/material';
 import React, { FC } from 'react';
 
-import CustomModal from '@/components/CustomModal';
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
+import CustomModal from '@/features/common/components/CustomModal';
 
 import useVideoPopupController from '../hooks/useVideoPopupController';
 
@@ -31,11 +31,17 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
       width={videoWidth}
       height={'auto'}
       sx={{
-        position: 'relative',
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%,-50%)',
         my: 0,
-        height: '100vh',
+        minHeight: 'calc(65vw * 9 / 16)',
         bgcolor: 'transparent',
         maxWidth: 'calc(80vh * 16 / 9)',
+        boxShadow: 'none',
+        borderRadius: 2,
+
         ...sx,
       }}
     >
@@ -43,11 +49,7 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
         height={'100%'}
         justifyContent='center'
         sx={{
-          position: 'absolute',
           height: 'auto',
-          width: '100%',
-          top: '50%',
-          transform: 'translateY(-50%)',
         }}
       >
         <Box

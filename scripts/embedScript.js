@@ -1,6 +1,6 @@
 /**
  * 如果你改了这个文件
- * 记得执行一下 minify-js，并且将打包后的文件提交到 git
+ * 记得执行一下 minify-js:embed-script，并且将打包后的 public/assets/js 中的文件提交到 git
  */
 import dayjs from 'dayjs';
 const PRESET_HEIGHT = 6400;

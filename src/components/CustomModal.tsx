@@ -75,6 +75,7 @@ const CustomModal: FC<IProps> = ({
           >
             <Box sx={{ position: 'fixed', top: 16, left: 16 }}>
               <IconButton
+                data-testid='maxai-custom-modal-close-btn'
                 onClick={handleClose}
                 sx={{
                   color: 'white',
