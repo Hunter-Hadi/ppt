@@ -1,4 +1,3 @@
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import ControlPointTwoToneIcon from '@mui/icons-material/ControlPointTwoTone';
 import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone';
 import { SxProps } from '@mui/material';
@@ -18,9 +17,7 @@ const FunctionalityIcon: FC<{ name: string } & IFunctionalityIconProps> = ({
       case 'RemoveCircleTwoTone': {
         return <RemoveCircleTwoToneIcon {...restProps} />;
       }
-      case 'CloudUploadIcon': {
-        return <CloudUploadIcon {...restProps} />;
-      }
+
       default: {
         return null;
       }

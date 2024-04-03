@@ -19,13 +19,16 @@ const VisuallyHiddenInput = styled('input')({
 export interface IUploadButtonProps {
   buttonProps?: Omit<ButtonProps, 'onChange'>;
   inputProps?: React.InputHTMLAttributes<HTMLInputElement>;
-  children: React.ReactNode;
   isDrag?: boolean;
   onChange?: (fileList: FileList) => void;
   handleUnsupportedFileType?: () => void;
 }
 
-const UploadButton: FC<IUploadButtonProps> = (props) => {
+const UploadButton: FC<
+  IUploadButtonProps & {
+    children: React.ReactNode;
+  }
+> = (props) => {
   const {
     children,
     onChange,

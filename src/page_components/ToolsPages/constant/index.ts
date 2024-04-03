@@ -10,9 +10,9 @@ export const toolsTopUrlKey = 'tools';
 export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   'merge-pdfs': {
     icon: 'CropOriginal',
-    title: 'pages:tool_box_index_page_constant_obj_merge_pdfs_title',
+    title: 'pages:tools__index_page__constant_obj__merge_pdfs__title',
     description:
-      'pages:tool_box_index_page_constant_obj_merge_pdfs_description',
+      'pages:tools__index_page__constant_obj__merge_pdfs__description',
     urlKey: 'merge-pdfs',
     accept: 'application/pdf',
   },

@@ -6,12 +6,8 @@ import UploadButton, {
   IUploadButtonProps,
 } from '@/features/common/components/UploadButton';
 import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
-type IFunctionalityUploadButtonProps = IUploadButtonProps & {
-  children?: React.ReactNode;
-};
-const FunctionalityUploadButton: FC<IFunctionalityUploadButtonProps> = (
-  props,
-) => {
+
+const FunctionalityUploadButton: FC<IUploadButtonProps> = (props) => {
   const { t } = useTranslation();
 
   return (
@@ -20,8 +16,8 @@ const FunctionalityUploadButton: FC<IFunctionalityUploadButtonProps> = (
         sx: {
           display: 'flex',
           flexDirection: 'column',
-          height: 240,
-          width: 230,
+          height: 280,
+          width: 260,
           alignItems: 'center',
           justifyContent: 'center',
           border: '1px dashed',
