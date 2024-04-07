@@ -50,6 +50,7 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
       <FunctionalityImage
         imageInfo={imageInfo}
         isActive={isActiveImage}
+        name={imageInfo.name}
         rightTopChildren={
           isImageSelect &&
           isShowOperate && (
@@ -58,6 +59,8 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
+                backgroundColor: '#d1d5db',
+                borderRadius: 5,
               }}
               onClick={() => onDelete(imageInfo.id)}
             >

@@ -5,21 +5,24 @@ import { FC, useMemo } from 'react';
 
 interface IFunctionalityImageProps {
   id: string;
-  name: string;
   size?: number;
   pages?: number;
   imageUrlString: string;
   file?: File;
 }
 interface IFunctionalitySortableImageProps {
+  name?: string;
   imageInfo: IFunctionalityImageProps;
-  isActive: boolean;
+  isActive?: boolean;
   rightTopChildren?: React.ReactNode;
+  onClick?: () => void;
 }
 const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
   imageInfo,
   isActive,
   rightTopChildren,
+  onClick,
+  name,
 }) => {
   const tooltipTitle = useMemo(() => {
     const { size, pages } = imageInfo;
@@ -34,25 +37,27 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
   return (
     <Tooltip title={tooltipTitle} arrow placement='top'>
       <Box
+        onClick={onClick}
         sx={{
           cursor: 'grab',
           position: 'relative',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          flexWrap: 'wrap',
           width: 150,
         }}
       >
         <Box
           sx={{
             padding: 1,
-            backgroundColor: 'transparent',
+            backgroundColor: '#9065b00a',
             '&:hover': {
               backgroundColor: '#f0eded',
             },
             border: isActive ? '1px dashed #64467b' : '1px solid transparent',
             borderRadius: 1,
+
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            flexWrap: 'wrap',
           }}
         >
           <img
@@ -65,30 +70,27 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
             src={imageInfo.imageUrlString}
             loading='lazy'
           />
+          <Typography
+            variant='custom'
+            sx={{
+              fontSize: 10,
+              marginTop: 1,
+            }}
+          >
+            {name}
+          </Typography>
         </Box>
-
-        <Typography
-          variant='custom'
-          sx={{
-            fontSize: 10,
-            marginTop: 1,
-          }}
-        >
-          {imageInfo.name}
-        </Typography>
         {rightTopChildren && (
           <Box
             sx={{
               position: 'absolute',
               top: 0,
               right: 0,
-              backgroundColor: '#d1d5db',
               height: 20,
               width: 20,
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              borderRadius: 5,
               zIndex: 3,
               '&:hover': {
                 backgroundColor: '#f0eded',

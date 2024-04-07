@@ -8,6 +8,7 @@ import { v4 as uuidV4 } from 'uuid';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
+import { downloadUrl } from '@/features/functionality_common/utils/download';
 import FunctionalityImageList from '@/features/functionality_pdf_merge/components/FunctionalityImageList';
 import snackNotifications from '@/utils/globalSnackbar';
 
@@ -152,22 +153,12 @@ const FunctionalityPdfMerge = () => {
       const files = pdfInfoList.map((pdfInfo) => pdfInfo.file);
       const downloadPdfData = await mergePdfFiles(files);
       if (downloadPdfData) {
-        downloadUrl(downloadPdfData);
+        downloadUrl(downloadPdfData, 'merge(MaxAi.me).pdf');
       }
       setIsLoading(false);
     }
   };
-  const downloadUrl = (pdfData: Uint8Array) => {
-    setIsLoading(true);
-    const blob = new Blob([pdfData], { type: 'application/pdf' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'merged.pdf';
-    link.click();
-    URL.revokeObjectURL(url);
-    setIsLoading(false);
-  };
+
   const onDeletePdf = (id: string) => {
     if (pdfInfoList) {
       const newPdfInfoList = pdfInfoList.filter((pdf) => pdf.id !== id);

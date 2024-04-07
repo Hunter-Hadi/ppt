@@ -1,5 +1,5 @@
 import { debounce } from 'lodash-es';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
@@ -27,7 +27,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
   const [pdfPageHaveImages, setPdfPageHaveImages] = useState<
     IPdfPageImageInfo[]
   >([]);
-  const [pdfIsLoading, setPdfIsLoading] = useState<boolean>(true); //是否加载中
+  const [pdfIsLoading, setPdfIsLoading] = useState<boolean>(false); //是否加载中
 
   const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数
   const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数
@@ -35,7 +35,10 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
     width: number;
     height: number;
   }>({ width: 500, height: 1000 }); //默认尺寸
-
+  useEffect(() => {
+    setPdfTotalPages(0)
+    setCurrentPdfActionNum(0)
+  }, [pdfIsLoading])
   /**
    * 读取pdf文件并转换为图片
    */
@@ -84,6 +87,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
       }
     } catch (error) {
       console.log('simply onReadPdfToImages', error)
+      setPdfIsLoading(false);
     }
   }, 200);
 

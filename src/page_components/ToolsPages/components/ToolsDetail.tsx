@@ -22,7 +22,12 @@ const FunctionalityPdfMerge = lazy(
       '@/features/functionality_pdf_merge/components/FunctionalityPdfMerge'
     ),
 );
-
+const FunctionalityPdfSplit = lazy(
+  () =>
+    import(
+      '@/features/functionality_pdf_split/components/FunctionalityPdfSplit'
+    ),
+);
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -52,7 +57,16 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             <FunctionalityPdfToImage toType={urlKey} />
           </Suspense>
         )}
-        {urlKey === 'merge-pdfs' && <FunctionalityPdfMerge />}
+        {urlKey === 'merge-pdfs' && (
+          <Suspense fallback={<AppLoadingLayout loading />}>
+            <FunctionalityPdfMerge />
+          </Suspense>
+        )}
+        {urlKey === 'split-a-pdf' && (
+          <Suspense fallback={<AppLoadingLayout loading />}>
+            <FunctionalityPdfSplit />
+          </Suspense>
+        )}
       </Box>
     </AppContainer>
   );
