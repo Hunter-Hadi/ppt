@@ -14,10 +14,8 @@ import { Box, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useState } from 'react';
 
-import EllipsisTextWithTooltip from '@/components/EllipsisTextWithTooltip';
-
-import { IFunctionalityPdfInfoProps } from './FunctionalityPdfMerge';
-import FunctionalitySortableImage from './FunctionalitySortableImage';
+import { IFunctionalityPdfInfoProps } from '@/features/functionality_pdf_merge/components/FunctionalityPdfMerge';
+import FunctionalitySortableImage from '@/features/functionality_pdf_merge/components/FunctionalitySortableImage';
 
 interface IFunctionalityImageList {
   imageList: IFunctionalityPdfInfoProps[];
@@ -40,15 +38,16 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 2, // 按住不动移动5px 时 才进行拖拽, 这样就可以触发点击事件
+        distance: 2, // 按住不动移动2px 时 才进行拖拽, 这样就可以触发点击事件
       },
     }),
     useSensor(KeyboardSensor),
   );
 
-  const handleDragUpdateList = (event, isEnd = true) => {
+  const handleDragUpdateList = (event, isDragEnd = true) => {
+    //拖拽更新父级数据
     const { active, over } = event;
-    if (isEnd) {
+    if (isDragEnd) {
       setActiveDragId(null);
     }
     if (over && active.id !== over.id) {
@@ -83,17 +82,15 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
       <SortableContext items={imageList} strategy={verticalListSortingStrategy}>
         <Grid container item justifyContent='center' my={3}>
           {imageList.map((imageInfo, index) => (
-            <EllipsisTextWithTooltip key={imageInfo.id} tip='yes'>
-              <FunctionalitySortableImage
-                key={imageInfo.id}
-                isShowOperate={isShowOperate}
-                imageInfo={imageInfo}
-                activeDragId={activeDragId}
-                index={index}
-                isImageSelect={isImageSelect}
-                onDelete={onDelete}
-              />
-            </EllipsisTextWithTooltip>
+            <FunctionalitySortableImage
+              key={imageInfo.id}
+              isShowOperate={isShowOperate}
+              imageInfo={imageInfo}
+              activeDragId={activeDragId}
+              index={index}
+              isImageSelect={isImageSelect}
+              onDelete={onDelete}
+            />
           ))}
           {currentDragImageInfo && (
             <DragOverlay

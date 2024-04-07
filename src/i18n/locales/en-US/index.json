@@ -363,7 +363,7 @@
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__pdf_merge__pdf_encryption_tip": "is encrypted or abnormal, unable to merge the PDF, skipped",
-    "components__pdf_merge__add_pdf": "Add PDF",
+    "components__pdf_merge__add_pdf": "Add PDFs",
     "components__pdf_merge__empty_pdf": "Clear PDFs",
     "components__pdf_merge__confirm_merge": "Confirm to merge",
     "components__pdf_merge__pdf_dropping": "You can adjust the PDF order by dragging and dropping"

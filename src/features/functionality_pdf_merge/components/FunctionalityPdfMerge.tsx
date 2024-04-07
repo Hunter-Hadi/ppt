@@ -8,9 +8,8 @@ import { v4 as uuidV4 } from 'uuid';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
+import FunctionalityImageList from '@/features/functionality_pdf_merge/components/FunctionalityImageList';
 import snackNotifications from '@/utils/globalSnackbar';
-
-import FunctionalityImageList from './FunctionalityImageList';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -109,7 +108,7 @@ const FunctionalityPdfMerge = () => {
       if (file.name) {
         snackNotifications.warning(
           `${file.name} ${t(
-            'functionality__pdf_merge:components__pdf_merge__pdf_encryption_tip', //TODO:需更更改。
+            'functionality__pdf_merge:components__pdf_merge__pdf_encryption_tip',
           )}`,
           {
             anchorOrigin: {

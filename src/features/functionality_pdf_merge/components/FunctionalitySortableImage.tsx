@@ -5,8 +5,8 @@ import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { FC, useMemo } from 'react';
 
-import FunctionalityIcon from './FunctionalityIcon';
-import { IFunctionalityPdfInfoProps } from './FunctionalityPdfMerge';
+import FunctionalityIcon from '@/features/functionality_pdf_merge/components/FunctionalityIcon';
+import { IFunctionalityPdfInfoProps } from '@/features/functionality_pdf_merge/components/FunctionalityPdfMerge';
 interface IFunctionalitySortableImageProps {
   imageInfo: IFunctionalityPdfInfoProps;
   index: number;
