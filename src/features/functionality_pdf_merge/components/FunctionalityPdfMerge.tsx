@@ -8,7 +8,7 @@ import { v4 as uuidV4 } from 'uuid';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
-import { downloadUrl } from '@/features/functionality_common/utils/download';
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
 import FunctionalityImageList from '@/features/functionality_pdf_merge/components/FunctionalityImageList';
 import snackNotifications from '@/utils/globalSnackbar';
 

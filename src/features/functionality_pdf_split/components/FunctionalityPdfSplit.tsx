@@ -1,15 +1,19 @@
 import { Box, Button, Checkbox, CircularProgress, Grid } from '@mui/material';
+import FileSaver from 'file-saver';
+import JSZip from 'jszip';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
+import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
 import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
+import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
+import useConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
 import usePdfToImageConversion, {
   IPdfPageImageInfo,
-} from '@/features/functionality_common/hooks/usePdfToImageConversion';
-import { downloadUrl } from '@/features/functionality_common/utils/download';
-import useConvertedContentSelector from '@/features/functionality_pdf_to_image/hooks/useConvertedContentSelector';
+} from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
 import snackNotifications from '@/utils/globalSnackbar';
 
 export interface IFunctionalityPdfInfoProps {
@@ -26,6 +30,8 @@ export const FunctionalityPdfSplit = () => {
 
   const [idLoading, setIsLoading] = useState<boolean>(false);
   const [activeFile, setActiveFile] = useState<File | null>(null);
+  const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false);
+
   const {
     convertedPdfImages,
     setConvertedPdfImages,
@@ -35,11 +41,16 @@ export const FunctionalityPdfSplit = () => {
     pdfTotalPages,
     currentPdfActionNum,
   } = usePdfToImageConversion('png', false);
+  const { changeScale, currentScale, onDefaultChangeScale } =
+    useFunctionalityChangeScale();
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
     useConvertedContentSelector<IPdfPageImageInfo>({
       list: convertedPdfImages,
       setList: setConvertedPdfImages,
     });
+  useEffect(() => {
+    onDefaultChangeScale(pdfTotalPages);
+  }, [pdfTotalPages]);
   const onUploadFile = async (fileList: FileList) => {
     if (fileList && fileList.length > 0) {
       setActiveFile(fileList[0]);
@@ -49,7 +60,7 @@ export const FunctionalityPdfSplit = () => {
   const handleUnsupportedFileTypeTip = () => {
     snackNotifications.warning(
       t(
-        'functionality__pdf_merge:components__pdf_merge__unsupported_file_type_tip', //TODO:需更更改。
+        'functionality__pdf_split:components__pdf_split__unsupported_file_type_tip',
       ),
       {
         anchorOrigin: {
@@ -63,17 +74,51 @@ export const FunctionalityPdfSplit = () => {
     setIsLoading(true);
     const splitPdfList = convertedPdfImages.filter((item) => item.isSelect);
     if (splitPdfList.length > 0) {
-      console.log('simply confirmToSplit', splitPdfList);
-      const downloadPdfData = await mergePdfFiles(splitPdfList);
-      console.log('simply downloadPdfData', downloadPdfData);
-
-      if (downloadPdfData) {
-        downloadUrl(downloadPdfData, 'split(MaxAi.me).pdf');
+      console.log('simply confirmToSplit', isMergeSinglePDf);
+      if (isMergeSinglePDf) {
+        const downloadPdfData = await getMergePdfFiles(splitPdfList);
+        if (downloadPdfData) {
+          downloadUrl(downloadPdfData, 'split(MaxAi.me).pdf');
+        }
+      } else {
+        const pdfUint8ArrayList = await getSplitPdfFiles(splitPdfList);
+        onDownloadPdfImagesZip(pdfUint8ArrayList);
       }
     }
     setIsLoading(false);
   };
-  const mergePdfFiles = async (fileList: IPdfPageImageInfo[]) => {
+  const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
+    const zip = new JSZip();
+    const zipTool = zip.folder('split(MaxAi.me)');
+    for (let i = 0; i < list.length; i++) {
+      zipTool?.file(`split-${i + 1}(MaxAI.me).pdf`, list[i]);
+    }
+    zip.generateAsync({ type: 'blob' }).then((content) => {
+      FileSaver.saveAs(content, 'split(MaxAI.me).zip');
+    });
+  };
+  const getSplitPdfFiles = async (fileList: IPdfPageImageInfo[]) => {
+    if (activeFile) {
+      let pdfUint8ArrayList: Uint8Array[] = [];
+      const arrayBuffer = await activeFile.arrayBuffer();
+      const pdfDoc = await PDFDocument.load(arrayBuffer);
+      for (let index = 0; index < fileList.length; index++) {
+        const mergedPdfDoc = await PDFDocument.create();
+        const pages = await mergedPdfDoc.copyPages(pdfDoc, [
+          fileList[index].definedIndex - 1,
+        ]);
+        pages.forEach((page) => {
+          mergedPdfDoc.addPage(page);
+        });
+        const mergedPdfUint8Array = await mergedPdfDoc.save();
+        pdfUint8ArrayList.push(mergedPdfUint8Array);
+      }
+      return pdfUint8ArrayList;
+    } else {
+      return [];
+    }
+  };
+  const getMergePdfFiles = async (fileList: IPdfPageImageInfo[]) => {
     try {
       // 创建一个新的 PDF 文档，它将成为最终合并的文档
       const mergedPdfDoc = await PDFDocument.create();
@@ -103,7 +148,7 @@ export const FunctionalityPdfSplit = () => {
       setIsLoading(false);
       console.error('simply mergePdfFiles error', e);
       snackNotifications.warning(
-        'Failed to split PDF files, Exceeded maximum quantity',
+        t('functionality__pdf_split:components__pdf_split__error_maximum'),
         {
           anchorOrigin: {
             vertical: 'top',
@@ -156,10 +201,10 @@ export const FunctionalityPdfSplit = () => {
             >
               {isSelectAll
                 ? t(
-                    'functionality__pdf_to_image:components__to_image_detail__deselect_all',
+                    'functionality__pdf_split:components__pdf_split__deselect_all',
                   )
                 : t(
-                    'functionality__pdf_to_image:components__to_image_detail__select_all',
+                    'functionality__pdf_split:components__pdf_split__select_all',
                   )}
             </Button>
           </Grid>
@@ -172,11 +217,34 @@ export const FunctionalityPdfSplit = () => {
               color='error'
               onClick={() => onRemoveFile()}
             >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
-              )}
+              {t('functionality__pdf_split:components__pdf_spli__remove_pdf')}
             </Button>
           </Grid>
+          {!currentIsLoading && (
+            <Grid item xs={6} md={2} display='flex'>
+              <Box onClick={() => changeScale('enlarge')}>
+                <FunctionalityIcon
+                  name='ControlPointTwoTone'
+                  sx={{
+                    color: 'primary.main',
+                    cursor: 'pointer',
+                    fontSize: 30,
+                  }}
+                />
+              </Box>
+              <Box onClick={() => changeScale('narrow')}>
+                <FunctionalityIcon
+                  name='RemoveCircleTwoTone'
+                  sx={{
+                    color: 'primary.main',
+                    cursor: 'pointer',
+                    marginLeft: 1,
+                    fontSize: 30,
+                  }}
+                />
+              </Box>
+            </Grid>
+          )}
           {pdfIsLoading && (
             <Grid item xs={12} md={2}>
               <Button
@@ -186,77 +254,95 @@ export const FunctionalityPdfSplit = () => {
                 color='error'
                 onClick={() => onCancelPdfActive()}
               >
-                {t(
-                  'functionality__pdf_to_image:components__to_image_detail__cancel',
-                )}
+                {t('functionality__pdf_split:components__pdf_split__cancel')}
               </Button>
             </Grid>
           )}
         </Grid>
       )}
 
-      <Grid
-        container
-        item
-        justifyContent='center'
-        my={3}
-        gap={2}
-        sx={{
-          position: 'relative',
-          overflowY: 'auto',
-          maxHeight: 700,
-          minHeight: 200,
-        }}
-      >
-        {!pdfIsLoading &&
-          convertedPdfImages.map((imageInfo, index) => (
-            <FunctionalityImage
-              key={imageInfo.id}
-              name={String(index + 1)}
-              imageInfo={imageInfo}
-              onClick={() => onSwitchSelect(imageInfo.id)}
-              rightTopChildren={
-                !currentIsLoading && (
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                    }}
-                  >
-                    <Checkbox checked={imageInfo.isSelect} />
-                  </Box>
-                )
-              }
-            />
-          ))}
-        {currentIsLoading && (
-          <Box
-            sx={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              right: 15,
-              bottom: 0,
-              bgcolor: 'rgba(255,255,255,0.3)',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              paddingTop: 10,
-            }}
-          >
-            <CircularProgress />
-            {pdfTotalPages > 0 ? `${currentPdfActionNum}/${pdfTotalPages}` : ''}
-          </Box>
-        )}
-      </Grid>
+      {convertedPdfImages.length > 0 && (
+        <Grid
+          container
+          item
+          justifyContent='center'
+          my={3}
+          gap={2}
+          sx={{
+            position: 'relative',
+            overflowY: 'auto',
+            maxHeight: 700,
+            minHeight: 200,
+          }}
+        >
+          {!pdfIsLoading &&
+            convertedPdfImages.map((imageInfo, index) => (
+              <FunctionalityImage
+                key={imageInfo.id}
+                name={String(index + 1)}
+                imageInfo={imageInfo}
+                imageSize={currentScale * 50}
+                onClick={() => onSwitchSelect(imageInfo.id)}
+                rightTopChildren={
+                  !currentIsLoading && (
+                    <Box
+                      sx={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                      }}
+                    >
+                      <Checkbox checked={imageInfo.isSelect} />
+                    </Box>
+                  )
+                }
+              />
+            ))}
+          {currentIsLoading && (
+            <Box
+              sx={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 15,
+                bottom: 0,
+                bgcolor: 'rgba(255,255,255,0.3)',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                paddingTop: 10,
+              }}
+            >
+              <CircularProgress />
+              {pdfTotalPages > 0
+                ? `${currentPdfActionNum}/${pdfTotalPages}`
+                : ''}
+            </Box>
+          )}
+        </Grid>
+      )}
+      {convertedPdfImages?.length > 0 && (
+        <Box
+          display='flex'
+          justifyContent='center'
+          alignItems='center'
+          justifyItems='center'
+          sx={{ mt: 2 }}
+          onClick={() => setIsMergeSinglePDf(!isMergeSinglePDf)}
+        >
+          <Checkbox value={isMergeSinglePDf} />
+          <div>
+            {t('functionality__pdf_split:components__pdf_split__is_single_pdf')}
+          </div>
+        </Box>
+      )}
       {convertedPdfImages?.length > 0 && (
         <Grid
           container
           direction='row'
           justifyContent='center'
           alignItems='center'
-          sx={{ mt: 2 }}
+          sx={{ mt: 1 }}
         >
           <Grid item xs={10} md={2}>
             <Button
@@ -266,7 +352,9 @@ export const FunctionalityPdfSplit = () => {
               variant='contained'
               onClick={() => confirmToSplit()}
             >
-              Confirm to split
+              {t(
+                'functionality__pdf_split:components__pdf_split__confirm_split',
+              )}
             </Button>
           </Grid>
         </Grid>

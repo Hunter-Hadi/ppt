@@ -52,7 +52,6 @@ const findPdfToImage = async (page: any) => {
     const ops = await page.getOperatorList();
     return new Promise<IPdfFindHaveImage[]>((resolve) => {
         // 获取操作列表
-        // 提取图片
         const imageNames = ops.fnArray.reduce((acc, curr, i) => {
             if (
                 [pdfjs.OPS.paintImageXObject, pdfjs.OPS.paintXObject].includes(curr)

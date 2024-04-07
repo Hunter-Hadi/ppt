@@ -1,7 +1,7 @@
 import { Box, Tooltip, Typography } from '@mui/material';
 import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
-import { FC, useMemo } from 'react';
+import { CSSProperties, FC, useMemo } from 'react';
 
 interface IFunctionalityImageProps {
   id: string;
@@ -16,6 +16,7 @@ interface IFunctionalitySortableImageProps {
   isActive?: boolean;
   rightTopChildren?: React.ReactNode;
   onClick?: () => void;
+  imageSize?: number;
 }
 const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
   imageInfo,
@@ -23,6 +24,7 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
   rightTopChildren,
   onClick,
   name,
+  imageSize,
 }) => {
   const tooltipTitle = useMemo(() => {
     const { size, pages } = imageInfo;
@@ -41,7 +43,7 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
         sx={{
           cursor: 'grab',
           position: 'relative',
-          width: 150,
+          width: imageSize || 150,
         }}
       >
         <Box
@@ -61,14 +63,19 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
           }}
         >
           <img
-            style={{
-              objectFit: 'contain',
-              width: '100%',
-              opacity: isActive ? 0 : 1,
-            }}
+            style={
+              {
+                objectFit: 'contain',
+                width: '100%',
+                opacity: isActive ? 0 : 1,
+                userSelect: 'none',
+                WebkitUserDrag: 'none',
+              } as CSSProperties
+            }
             srcSet={imageInfo.imageUrlString}
             src={imageInfo.imageUrlString}
             loading='lazy'
+            alt='image'
           />
           <Typography
             variant='custom'

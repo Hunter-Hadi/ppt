@@ -1,13 +1,14 @@
 import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { FC, useCallback, useEffect, useMemo, useState } from 'react';
+import { FC, useEffect, useMemo, useState } from 'react';
 
+import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
+import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
+import useConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
 import usePdfToImageConversion, {
   IPdfPageImageInfo,
-} from '@/features/functionality_common/hooks/usePdfToImageConversion';
-import FunctionalityIcon from '@/features/functionality_pdf_to_image/components/FunctionalityIcon';
+} from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
-import useConvertedContentSelector from '@/features/functionality_pdf_to_image/hooks/useConvertedContentSelector';
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
 
 interface IFunctionalityPdfToImageDetailProps {
@@ -20,7 +21,6 @@ const FunctionalityPdfToImageDetail: FC<
 > = ({ fileData, onRemoveFile, toType }) => {
   const { t } = useTranslation();
 
-  const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5); //当前一行多少个展示
   const [showPdfImagesType, setShowPdfImagesType] = useState<
     'pdfPageImages' | 'padPageHaveImages'
   >('pdfPageImages'); //显示pdf页面还是页面的图片
@@ -58,6 +58,8 @@ const FunctionalityPdfToImageDetail: FC<
           ? setConvertedPdfImages
           : setPdfPageHaveImages,
     });
+  const { changeScale, currentScale, onDefaultChangeScale } =
+    useFunctionalityChangeScale();
   useEffect(() => {
     if (fileData) {
       onReadPdfToImages(fileData);
@@ -65,26 +67,8 @@ const FunctionalityPdfToImageDetail: FC<
   }, [fileData]);
 
   useEffect(() => {
-    // 初始化期间，将一行中显示的最大页数限制为6，最小为2，为1会太大
-    const maxPagesPerRow = 6;
-    if (pdfTotalPages < maxPagesPerRow) {
-      setCurrentShowPageCors(Math.max(pdfTotalPages, 2));
-    } else {
-      setCurrentShowPageCors(maxPagesPerRow);
-    }
+    onDefaultChangeScale(pdfTotalPages);
   }, [pdfTotalPages]);
-  const changeCurrentShowPageCors = useCallback(
-    (type: 'enlarge' | 'narrow') => {
-      setCurrentShowPageCors((prev) => {
-        if (type === 'narrow') {
-          return Math.min(prev + 1, 10);
-        } else {
-          return Math.max(prev - 1, 1);
-        }
-      });
-    },
-    [],
-  );
   const maxSizeScaleNum = 4;
   const imageSizeList = useMemo(() => {
     // 图片储存列表设置
@@ -205,13 +189,13 @@ const FunctionalityPdfToImageDetail: FC<
         </Grid>
         {!isLoading && (
           <Grid item xs={6} md={2} display='flex'>
-            <Box onClick={() => changeCurrentShowPageCors('enlarge')}>
+            <Box onClick={() => changeScale('enlarge')}>
               <FunctionalityIcon
                 name='ControlPointTwoTone'
                 sx={{ color: 'primary.main', cursor: 'pointer', fontSize: 30 }}
               />
             </Box>
-            <Box onClick={() => changeCurrentShowPageCors('narrow')}>
+            <Box onClick={() => changeScale('narrow')}>
               <FunctionalityIcon
                 name='RemoveCircleTwoTone'
                 sx={{
@@ -251,36 +235,36 @@ const FunctionalityPdfToImageDetail: FC<
           <FunctionalityImageList
             onClickImage={(image) => onSwitchSelect(image.id)}
             imageList={currentShowImages}
-            isImageSelect={true}
-            pageCols={currentShowPageCors}
+            scale={currentScale}
           />
         )}
-        {currentShowImages?.length === 0 && (
-          <Box
-            sx={{
-              bgcolor: 'rgba(255,255,255,0.3)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-              mt: 10,
-            }}
-          >
-            <Typography
+        {showPdfImagesType === 'padPageHaveImages' &&
+          currentShowImages?.length === 0 && (
+            <Box
               sx={{
-                fontSize: {
-                  xs: 12,
-                  lg: 18,
-                },
-                color: '#4b5563',
+                bgcolor: 'rgba(255,255,255,0.3)',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                mt: 10,
               }}
             >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__not_found_images',
-              )}
-            </Typography>
-          </Box>
-        )}
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 12,
+                    lg: 18,
+                  },
+                  color: '#4b5563',
+                }}
+              >
+                {t(
+                  'functionality__pdf_to_image:components__to_image_detail__not_found_images',
+                )}
+              </Typography>
+            </Box>
+          )}
 
         {isLoading && (
           <Box

@@ -80,7 +80,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
       onDragEnd={handleDragUpdateList}
     >
       <SortableContext items={imageList} strategy={verticalListSortingStrategy}>
-        <Grid container item justifyContent='center' my={3}>
+        <Grid container item justifyContent='center' my={3} gap={2}>
           {imageList.map((imageInfo) => (
             <FunctionalitySortableImage
               key={imageInfo.id}

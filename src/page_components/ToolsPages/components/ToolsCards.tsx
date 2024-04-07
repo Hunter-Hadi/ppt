@@ -44,8 +44,8 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                   <Typography
                     sx={{
                       fontSize: {
-                        xs: 16,
-                        lg: 18,
+                        xs: 15,
+                        lg: 16,
                       },
                       mt: 1,
                     }}
@@ -54,18 +54,20 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                   >
                     {t(toolData.title)}
                   </Typography>
-                  <Typography
-                    sx={{
-                      fontSize: {
-                        xs: 13,
-                        lg: 15,
-                      },
-                      mt: 1,
-                    }}
-                    color='text.secondary'
-                  >
-                    {t(toolData.description)}
-                  </Typography>
+                  <div style={{ minHeight: 70 }}>
+                    <Typography
+                      sx={{
+                        fontSize: {
+                          xs: 13,
+                          lg: 15,
+                        },
+                        mt: 1,
+                      }}
+                      color='text.secondary'
+                    >
+                      {t(toolData.description)}
+                    </Typography>
+                  </div>
                 </CardContent>
               </Card>
             </ProLink>

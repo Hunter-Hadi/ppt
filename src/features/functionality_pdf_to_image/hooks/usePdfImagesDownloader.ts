@@ -4,7 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import { IPdfPageImageInfo } from '@/features/functionality_pdf_to_image/hooks/usePdfToImageConversion';
+import { IPdfPageImageInfo } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
 import { dataURLtoBlob } from '@/features/functionality_pdf_to_image/utils/pdfTool';
 import snackNotifications from '@/utils/globalSnackbar';
 
@@ -34,7 +34,7 @@ const usePdfImagesDownloader = () => {
         setCurrentDownloaderActionNum(0);
         setDownloaderIsLoading(true);
         const zip = new JSZip();
-        const images = zip.folder('images');
+        const images = zip.folder('images(MaxAI.me)');
         const selectedImages = convertedPdfImages.filter(
           (image) => image.isSelect,
         );
@@ -49,7 +49,7 @@ const usePdfImagesDownloader = () => {
           setCurrentDownloaderActionNum(i + 1);
           if (!scale) {
             images?.file(
-              `image-${i + 1}.${toType}`,
+              `image-${i + 1}(MaxAI.me).${toType}`,
               dataURLtoBlob(selectedImages[i].imageUrlString),
               {
                 base64: true,

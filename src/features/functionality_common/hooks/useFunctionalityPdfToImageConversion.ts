@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
-import { generatePdfPageToImage } from '@/features/functionality_common/utils/getPdfFilePage';
+import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityGetPdfFilePageToImage';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -37,8 +37,11 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
     height: number;
   }>({ width: 500, height: 1000 }); //默认尺寸
   useEffect(() => {
-    setPdfTotalPages(0)
-    setCurrentPdfActionNum(0)
+    if (pdfIsLoading) {
+      setPdfTotalPages(0)
+      setCurrentPdfActionNum(0)
+    }
+
   }, [pdfIsLoading])
   /**
    * 读取pdf文件并转换为图片
