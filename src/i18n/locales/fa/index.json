@@ -354,11 +354,13 @@
     "tools__index_page__title": "ابزارهای MaxAI",
     "tools__index_page__description": "تمام ابزارهای PDF 100٪ رایگان هستند و در مرورگر شما اجرا می‌شوند تا حریم خصوصی کامل را فراهم کنند",
     "tools__index_page__constant_obj__pdf_to_png__title": "تبدیل PDF به PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "تبدیل PDF به PNG و دانلود هر صفحه به عنوان تصویر",
+    "tools__index_page__constant_obj__pdf_to_png__description": "صفحه هر PDF را به تصویر PNG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "تبدیل PDF به JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "تبدیل PDF به JPEG و دانلود هر صفحه به عنوان تصویر",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "صفحه هر PDF را به تصویر JPEG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__merge_pdfs__title": "ادغام فایل‌های PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک"
+    "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک",
+    "tools__index_page__constant_obj__split_a_pdf__title": "تقسیم یک PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "هر صفحه انتخاب شده به یک فایل PDF جداگانه تبدیل خواهد شد. به طور جایگزین، می‌توانید صفحات انتخاب شده را در یک فایل PDF تکی ترکیب کنید."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

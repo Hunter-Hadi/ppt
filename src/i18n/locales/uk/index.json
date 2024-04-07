@@ -354,11 +354,13 @@
     "tools__index_page__title": "میکس اے آئی ٹولز",
     "tools__index_page__description": "تمام پی ڈی ایف ٹولز 100٪ مفت ہیں اور آپ کے براؤزر میں چلتے ہیں تاکہ آپ کی مکمل رازداری محفوظ رہے",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF سے PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF کو PNG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ہر پی ڈی ایف صفحے کو پی این جی تصویر کے طور پر برآمد کریں یا پی ڈی ایف سے الگ الگ تصاویر کو پی این جی میں نکالیں",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF سے JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF کو JPEG میں تبدیل کریں اور ہر صفحہ کو تصویر کے طور پر ڈاؤن لوڈ کریں",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ہر پی ڈی ایف صفحے کو جے پی ایج کی طرح تصویر کے طور پر برآمد کریں یا پی ڈی ایف سے الگ الگ تصاویر کو جے پی ایج میں نکالیں",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDFs کو مرکٹ کریں",
-    "tools__index_page__constant_obj__merge_pdfs__description": "متعدد پی ڈی ایف فائلوں کو صرف چند کلکس کے ساتھ ایک میں مرکٹ کریں"
+    "tools__index_page__constant_obj__merge_pdfs__description": "متعدد پی ڈی ایف فائلوں کو صرف چند کلکس کے ساتھ ایک میں مرکٹ کریں",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF کاٹیں",
+    "tools__index_page__constant_obj__split_a_pdf__description": "ہر منتخب شدہ صفحہ الگ الگ PDF فائل بن جائے گی۔ اس کے علاوہ، آپ منتخب شدہ صفحات کو ایک ہی PDF فائل میں مرکوز کر سکتے ہیں۔"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI Verktøy",
     "tools__index_page__description": "Alle PDF-verktøy er 100% GRATIS og kjører i nettleseren din for fullstendig personvern",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konverter PDF til PNG og last ned hver side som et bilde",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksporter hver PDF-side som et PNG-bilde eller ekstraher individuelle bilder fra PDF til PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konverter PDF til JPEG og last ned hver side som et bilde",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksporter hver PDF-side som et JPEG-bilde eller ekstraher individuelle bilder fra PDF til JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Slå sammen PDF-filer",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Del opp en PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",

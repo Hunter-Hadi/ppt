@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI Værktøjer",
     "tools__index_page__description": "Alle PDF-værktøjer er 100% GRATIS og kører i din browser for fuld beskyttelse af privatlivet",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konverter PDF til PNG og download hver side som et billede",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksporter hver PDF-side som et PNG-billede eller udtræk individuelle billeder fra PDF'en til PNG'er",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konverter PDF til JPEG og download hver side som et billede",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksporter hver PDF-side som et JPEG-billede eller udtræk individuelle billeder fra PDF'en til JPEG'er",
     "tools__index_page__constant_obj__merge_pdfs__title": "Flet PDF'er",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Flet flere PDF-filer sammen med bare et par klik"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Flet flere PDF-filer sammen med bare et par klik",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Opdel en PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil blive til en separat PDF-fil. Alternativt kan du samle valgte sider i en enkelt PDF-fil."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

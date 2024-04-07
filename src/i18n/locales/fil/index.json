@@ -354,11 +354,13 @@
     "tools__index_page__title": "Mga Kasangkapan ng MaxAI",
     "tools__index_page__description": "Lahat ng mga tool sa PDF ay 100% LIBRE at tumatakbo sa iyong browser para sa kumpletong privacy",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "I-convert ang PDF sa PNG at i-download ang bawat pahina bilang isang imahe",
+    "tools__index_page__constant_obj__pdf_to_png__description": "I-export ang bawat pahina ng PDF bilang isang larawan na PNG o i-extract ang mga indibidwal na larawan mula sa PDF papunta sa mga JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "I-convert ang PDF sa JPEG at i-download ang bawat pahina bilang isang imahe",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "I-export ang bawat pahina ng PDF bilang isang larawan na JPEG o i-extract ang mga indibidwal na larawan mula sa PDF papunta sa mga JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Pagsamahin ang mga PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Hatian ang PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Ang bawat napiling pahina ay magiging hiwalay na file ng PDF. Maaari rin ninyong pagsamahin ang mga napiling pahina sa isang solong file ng PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",

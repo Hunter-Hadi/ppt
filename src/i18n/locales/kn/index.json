@@ -354,11 +354,13 @@
     "tools__index_page__title": "ಮ್ಯಾಕ್ಸ್‌ಏಐ ಟೂಲ್ಸ್",
     "tools__index_page__description": "ಎಲ್ಲಾ PDF ಸಾಧನಗಳು 100% ಉಚಿತವಾಗಿದೆ ಮತ್ತು ಪೂರ್ಣ ಗೌಪ್ಯತೆಯ ಕೊಡುಗೆಯಲ್ಲಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತವೆ",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ನಿಂದ PNG ಗೆ",
-    "tools__index_page__constant_obj__pdf_to_png__description": "ಪ್ರತಿ ಪುಟವನ್ನು ಚಿತ್ರವಾಗಿ ಬದಲಾಯಿಸಿ PNG ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಪಿಎನ್ಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಿಎನ್ಜಿಗಳಾಗಿ ಹೊರತೆಗೆಯಿರಿ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ನಿಂದ JPEG ಗೆ",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ಪ್ರತಿ ಪುಟವನ್ನು ಚಿತ್ರವಾಗಿ ಬದಲಾಯಿಸಿ JPEG ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಜೆಪೆಗಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಜೆಪೆಗಳಾಗಿ ಹೊರತೆಗೆಯಿರಿ",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
-    "tools__index_page__constant_obj__merge_pdfs__description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು PDF ಕಡತಗಳನ್ನು ಒಂದರಲ್ಲಿ ಸೇರಿಸಿ"
+    "tools__index_page__constant_obj__merge_pdfs__description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು PDF ಕಡತಗಳನ್ನು ಒಂದರಲ್ಲಿ ಸೇರಿಸಿ",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF ಅನ್ನು ವಿಭಾಗಿಸಿ",
+    "tools__index_page__constant_obj__split_a_pdf__description": "ಪ್ರತ್ಯೇಕವಾದ ಪ್ರತಿಯೊಂದು ಆಯ್ಕೆಯ ಪುಟವು ಒಂದೊಂದು ಪೀಡಿಎಫ್ ಕಡತವಾಗುತ್ತದೆ. ಅಥವಾ, ಆಯ್ಕೆಯ ಪುಟಗಳನ್ನು ಒಂದು ಏಕೀಕೃತ ಪೀಡಿಎಫ್ ಕಡತದಲ್ಲಿ ಮಿಡಿಯಬಹುದು."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",

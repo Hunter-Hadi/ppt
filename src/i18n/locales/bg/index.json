@@ -354,11 +354,13 @@
     "tools__index_page__title": "Инструменти MaxAI",
     "tools__index_page__description": "Всички PDF инструменти са напълно БЕЗПЛАТНИ и работят в браузъра ви за пълна поверителност",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF към PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Конвертирайте PDF в PNG и изтеглете всяка страница като изображение",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Изнесете всяка страница от PDF като PNG изображение или извлечете отделни изображения от PDF в PNG формат",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF към JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Конвертирайте PDF в JPEG и изтеглете всяка страница като изображение",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Изнесете всяка страница от PDF като JPEG изображение или извлечете отделни изображения от PDF в JPEG формат",
     "tools__index_page__constant_obj__merge_pdfs__title": "Обединяване на PDF файлове",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Обединете няколко PDF файла в един с няколко кликвания"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Обединете няколко PDF файла в един с няколко кликвания",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Разделяне на PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Всяка избрана страница ще стане отделен PDF файл. Алтернативно, можете да обедините избраните страници в един PDF файл."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",

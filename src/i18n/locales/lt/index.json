@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI Įrankiai",
     "tools__index_page__description": "Visi PDF įrankiai yra 100% NEMOKAMI ir veikia jūsų naršyklėje užtikrinant visišką privatumą",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF į PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertuoti PDF į PNG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksportuokite kiekvieną PDF puslapį kaip PNG paveikslėlį arba ištraukite atskirus paveikslėlius iš PDF į PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF į JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertuoti PDF į JPEG ir atsisiųsti kiekvieną puslapį kaip paveikslėlį",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksportuokite kiekvieną PDF puslapį kaip JPEG paveikslėlį arba ištraukite atskirus paveikslėlius iš PDF į JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Sulieti PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Sulieti kelis PDF failus į vieną vos keliais paspaudimais"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Sulieti kelis PDF failus į vieną vos keliais paspaudimais",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Padalinti PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Kiekviena pasirinkta puslapis taps atskiru PDF failu. Alternatyviai, galite sujungti pasirinktus puslapius į vieną PDF failą."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",

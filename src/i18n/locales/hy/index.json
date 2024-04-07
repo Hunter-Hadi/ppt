@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI Գործիքներ",
     "tools__index_page__description": "Բոլոր PDF գործիքները 100% անվճար են և աշխատում են ձեր զննարկիչում ամբողջական գաղտնիքով",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF-ից PNG-ի",
-    "tools__index_page__constant_obj__pdf_to_png__description": "վերափոխեք PDF-ը PNG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Արտահանել յուրաքանչյուր PDF էջը PNG պատկերի կամ առանցինել պատկերները PDF-ից PNG-եր",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF-ից JPEG-ի",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "վերափոխեք PDF-ը JPEG-ին և բեռնեք յուրաքանչյուր էջը պատկերով",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Արտահանել յուրաքանչյուր PDF էջը JPEG պատկերի կամ առանցինել պատկերները PDF-ից JPEG-եր",
     "tools__index_page__constant_obj__merge_pdfs__title": "Միացնել PDF-երը",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Փակել PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Ընտրված էջերը կդառնան առանձին PDF ֆայլեր: Այլագետներից, դուք կարող եք միավորել ընտրված էջերը մեկ PDF ֆայլում:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",

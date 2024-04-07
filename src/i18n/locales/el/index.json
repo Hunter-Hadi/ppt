@@ -73,7 +73,9 @@
     "learning_center__basic_usage__item3__title": "Βασική χρήση: Ρύθμιση παραμέτρων",
     "learning_center__features__title": "Χαρακτηριστικά",
     "tools__index_page__title": "Εργαλεία MaxAI",
-    "tools__index_page__description": "Όλα τα εργαλεία PDF είναι 100% ΔΩΡΕΑΝ και λειτουργούν στον περιηγητή σας για πλήρη απόρρητο"
+    "tools__index_page__description": "Όλα τα εργαλεία PDF είναι 100% ΔΩΡΕΑΝ και λειτουργούν στον περιηγητή σας για πλήρη απόρρητο",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Εξαγωγή κάθε σελίδας PDF ως εικόνα PNG ή εξαγωγή μεμονωμένων εικόνων από το PDF σε μορφή JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Εξαγωγή κάθε σελίδας PDF ως εικόνα JPEG ή εξαγωγή μεμονωμένων εικόνων από το PDF σε μορφή JPEG"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Κλικ Προτροπές",

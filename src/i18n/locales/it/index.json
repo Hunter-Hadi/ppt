@@ -354,11 +354,13 @@
     "tools__index_page__title": "Strumenti MaxAI",
     "tools__index_page__description": "Tutti gli strumenti PDF sono al 100% GRATUITI e funzionano nel tuo browser per una privacy completa",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF in PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Converti PDF in PNG e scarica ogni pagina come immagine",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Esporta ogni pagina PDF come immagine PNG o estrai immagini individuali dal PDF in PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF in JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converti PDF in JPEG e scarica ogni pagina come immagine",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Esporta ogni pagina PDF come immagine JPEG o estrai immagini individuali dal PDF in JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Unisci PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Unisci più file PDF in uno con pochi clic"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Unisci più file PDF in uno con pochi clic",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Dividi un PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Ogni pagina selezionata diventerà un file PDF separato. In alternativa, puoi unire le pagine selezionate in un singolo file PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",

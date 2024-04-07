@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI 도구",
     "tools__index_page__description": "모든 PDF 도구는 완전한 개인 정보 보호를 위해 브라우저에서 100% 무료로 실행됩니다",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF를 PNG로 변환",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF를 PNG로 변환하고 각 페이지를 이미지로 다운로드합니다.",
+    "tools__index_page__constant_obj__pdf_to_png__description": "각 PDF 페이지를 PNG 이미지로 내보내거나 PDF에서 개별 이미지를 추출합니다",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF를 JPEG로 변환",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF를 JPEG로 변환하고 각 페이지를 이미지로 다운로드합니다.",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "각 PDF 페이지를 JPEG 이미지로 내보내거나 PDF에서 개별 이미지를 추출합니다",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF 병합",
-    "tools__index_page__constant_obj__merge_pdfs__description": "몇 번의 클릭으로 여러 개의 PDF 파일을 하나로 병합하세요"
+    "tools__index_page__constant_obj__merge_pdfs__description": "몇 번의 클릭으로 여러 개의 PDF 파일을 하나로 병합하세요",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF 분할",
+    "tools__index_page__constant_obj__split_a_pdf__description": "각 선택한 페이지는 별도의 PDF 파일이 됩니다. 또는 선택한 페이지를 하나의 PDF 파일로 병합할 수도 있습니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "Outils MaxAI",
     "tools__index_page__description": "Tous les outils PDF sont 100% GRATUITS et s'exécutent dans votre navigateur pour une confidentialité totale",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF vers PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Convertir un PDF en PNG et télécharger chaque page en tant qu'image",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exporter chaque page PDF en tant qu'image PNG ou extraire des images individuelles du PDF en PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF vers JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convertir un PDF en JPEG et télécharger chaque page en tant qu'image",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exporter chaque page PDF en tant qu'image JPEG ou extraire des images individuelles du PDF en JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Fusionner des PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Fusionnez plusieurs fichiers PDF en un seul en quelques clics seulement"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Fusionnez plusieurs fichiers PDF en un seul en quelques clics seulement",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Diviser un PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Chaque page sélectionnée deviendra un fichier PDF séparé. Vous pouvez également fusionner les pages sélectionnées en un seul fichier PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI Tööriistad",
     "tools__index_page__description": "Kõik PDF tööriistad on 100% TASUTA ja töötavad sinu veebilehitsejas täieliku privaatsuse tagamiseks",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-iks",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Teisenda PDF PNG-ks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Ekspordi iga PDF leht PNG pildina või eralda üksikud pildid PDF-ist PNG-deks",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-iks",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Teisenda PDF JPEG-iks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Ekspordi iga PDF leht JPEG pildina või eralda üksikud pildid PDF-ist JPEG-ideks",
     "tools__index_page__constant_obj__merge_pdfs__title": "Ühenda PDF-id",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Jaga PDF-i",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Iga valitud leht saab eraldi PDF-failiks. Võite ka valitud lehed ühendada üheks PDF-failiks."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",

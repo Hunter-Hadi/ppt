@@ -354,11 +354,13 @@
     "tools__index_page__title": "मैक्सएआई टूल्स",
     "tools__index_page__description": "सभी पीडीएफ उपकरण 100% मुफ्त हैं और पूर्ण गोपनीयता के लिए आपके ब्राउज़र में चलते हैं",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF से PNG में बदलें",
-    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से PNG में बदलें और डाउनलोड करें",
+    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक पीडीएफ पृष्ठ को एक PNG छवि के रूप में निर्यात करें या पीडीएफ से व्यक्तिगत छवियों को निकालें और PNG में निर्यात करें",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF से JPEG में बदलें",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक पृष्ठ को छवि के रूप में PDF से JPEG में बदलें और डाउनलोड करें",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक पीडीएफ पृष्ठ को एक JPEG छवि के रूप में निर्यात करें या पीडीएफ से व्यक्तिगत छवियों को निकालें और JPEG में निर्यात करें",
     "tools__index_page__constant_obj__merge_pdfs__title": "पीडीएफ़ जोड़ें",
-    "tools__index_page__constant_obj__merge_pdfs__description": "कुछ ही क्लिक के साथ कई पीडीएफ़ फ़ाइलों को एक में जोड़ें"
+    "tools__index_page__constant_obj__merge_pdfs__description": "कुछ ही क्लिक के साथ कई पीडीएफ़ फ़ाइलों को एक में जोड़ें",
+    "tools__index_page__constant_obj__split_a_pdf__title": "एक पीडीएफ विभाजित करें",
+    "tools__index_page__constant_obj__split_a_pdf__description": "प्रत्येक चयनित पृष्ठ अलग-अलग पीडीएफ फ़ाइल बन जाएगा। वैकल्पिक रूप से, आप चयनित पृष्ठों को एक ही पीडीएफ फ़ाइल में मर्ज कर सकते हैं।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

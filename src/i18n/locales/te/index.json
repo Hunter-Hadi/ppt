@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI పరికరాలు",
     "tools__index_page__description": "అన్ని PDF సాధనాలు 100% ఉచితంగా ఉంటాయి మరియు మీ బ్రౌజర్‌లో పూర్తి గోప్యతానుండి పనిచేసేందుకు",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ను PNG కి",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ను PNG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ప్రతి PDF పేజీని PNG చిత్రంగా ఎగుమతి చేయండి లేదా PDF నుండి వేరుగా చిత్రాలను ఎగుమతి చేయండి",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ను JPEG కి",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ను JPEG కి మార్చి, ప్రతి పేజీని ఒక చిత్రంగా డౌన్‌లోడ్ చేస్తుంది",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ప్రతి PDF పేజీని JPEG చిత్రంగా ఎగుమతి చేయండి లేదా PDF నుండి వేరుగా చిత్రాలను ఎగుమతి చేయండి",
     "tools__index_page__constant_obj__merge_pdfs__title": "పిడిఎఫ్‌లను విలీనం చేయండి",
-    "tools__index_page__constant_obj__merge_pdfs__description": "కొన్ని నొప్పించిన నొక్కలతో ఒకటిగా మరియున్నటి పిడిఎఫ్ ఫైళ్ళను విలీనం చేయండి"
+    "tools__index_page__constant_obj__merge_pdfs__description": "కొన్ని నొప్పించిన నొక్కలతో ఒకటిగా మరియున్నటి పిడిఎఫ్ ఫైళ్ళను విలీనం చేయండి",
+    "tools__index_page__constant_obj__split_a_pdf__title": "పిడిఎఫ్ విభజన: Split a PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "ప్రతి ఎంపిక చేసిన పేజీ ఒక తామర పిడిఎఫ్ ఫైలుగా మారిపోయినట్లు. మరియు, మీరు ఎంపిక చేసిన పేజీలను ఒకే పిడిఎఫ్ ఫైలుగా కలిపించవచ్చు."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",

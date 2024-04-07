@@ -354,11 +354,13 @@
     "tools__index_page__title": "मॅक्सएआय टूल्स",
     "tools__index_page__description": "सर्व PDF टूल 100% मोफत आहेत आणि पूर्ण गोपनीयतेसाठी तुमच्या ब्राउझरमध्ये चालविले जातात",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ते PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ला PNG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा",
+    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक PDF पृष्ठाचा PNG छायाचित्र म्हणून निर्यात करा किंवा PDF मधून व्यक्तीगत छायाचित्रे PNG म्हणून निर्यात करा",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ते JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ला JPEG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक PDF पृष्ठाचा JPEG छायाचित्र म्हणून निर्यात करा किंवा PDF मधून व्यक्तीगत छायाचित्रे JPEG म्हणून निर्यात करा",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF एकत्रीकरण",
-    "tools__index_page__constant_obj__merge_pdfs__description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा"
+    "tools__index_page__constant_obj__merge_pdfs__description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF विभाजित करा",
+    "tools__index_page__constant_obj__split_a_pdf__description": "प्रत्येक निवडलेल्या पृष्ठांनी स्वतंत्र PDF फाइल बनविली जाईल. वैकल्पिकपणे, आपण निवडलेल्या पृष्ठांचा एकल PDF फाइलमध्ये मर्ज करू शकता."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "כלי MaxAI",
     "tools__index_page__description": "כל כלי PDF הם בחינם לחלוטין ורצים בדפדפן שלך לפרטיות מוחלטת",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ל-PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "המרת PDF ל-PNG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ייצוא כל עמוד PDF כתמונת PNG או חליץ תמונות בודדות מה- PDF ל-JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ל-JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ייצוא כל עמוד PDF כתמונת JPEG או חליץ תמונות בודדות מה- PDF ל-JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "מיזוג PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה"
+    "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
+    "tools__index_page__constant_obj__split_a_pdf__title": "לחלק PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "כל עמוד שנבחר יהפוך לקובץ PDF נפרד. בנוסף, תוכל למזג עמודים שנבחרו לקובץ PDF אחד."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

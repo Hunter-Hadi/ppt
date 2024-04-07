@@ -354,11 +354,13 @@
     "tools__index_page__title": "เครื่องมือ MaxAI",
     "tools__index_page__description": "เครื่องมือ PDF ทั้งหมดเป็นฟรี 100% และทำงานในเบราว์เซอร์ของคุณเพื่อความเป็นส่วนตัวที่สมบูรณ์",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF เป็น PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "แปลง PDF เป็น PNG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ส่งออกแต่ละหน้าของ PDF เป็นรูปภาพ PNG หรือสกัดรูปภาพบุคคลจาก PDF เป็น JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF เป็น JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "แปลง PDF เป็น JPEG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ส่งออกแต่ละหน้าของ PDF เป็นรูปภาพ JPEG หรือสกัดรูปภาพบุคคลจาก PDF เป็น JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "รวม PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก"
+    "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก",
+    "tools__index_page__constant_obj__split_a_pdf__title": "แยกไฟล์ PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "แต่ละหน้าที่เลือกจะกลายเป็นไฟล์ PDF แยกต่างหาก หรือคุณสามารถรวมหน้าที่เลือกเข้าด้วยกันเป็นไฟล์ PDF เดียว"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",

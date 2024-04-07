@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI Eszköztár",
     "tools__index_page__description": "Minden PDF eszköz 100% INGYENES és a böngésződben fut, teljes adatvédelemmel",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-ra",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF átalakítása PNG formátumba és minden oldal letöltése képként",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportálja minden PDF oldalt PNG képként vagy különálló képeket hozzon létre a PDF-ből PNG formátumban",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-re",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF átalakítása JPEG formátumba és minden oldal letöltése képként",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportálja minden PDF oldalt JPEG képként vagy különálló képeket hozzon létre a PDF-ből JPEG formátumban",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF-ek egyesítése",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF felosztása",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Minden kiválasztott oldal külön PDF fájllá válik. Vagy alternatívaként összevonhatja a kiválasztott oldalakat egyetlen PDF fájlba."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "Alat MaxAI",
     "tools__index_page__description": "Semua alat PDF adalah 100% PERCUMA dan berjalan dalam pelayar anda untuk privasi yang lengkap",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ke PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Tukar PDF ke PNG dan muat turun setiap halaman sebagai imej",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksport setiap halaman PDF sebagai imej PNG atau ekstrak imej individu dari PDF ke PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ke JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Tukar PDF ke JPEG dan muat turun setiap halaman sebagai imej",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksport setiap halaman PDF sebagai imej JPEG atau ekstrak imej individu dari PDF ke JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Gabung PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Gabung beberapa fail PDF menjadi satu dengan hanya beberapa klik"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gabung beberapa fail PDF menjadi satu dengan hanya beberapa klik",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Bahagikan PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi fail PDF yang berasingan. Sebagai alternatif, anda boleh menggabungkan halaman yang dipilih ke dalam satu fail PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "Công cụ MaxAI",
     "tools__index_page__description": "Tất cả các công cụ PDF đều MIỄN PHÍ 100% và chạy trên trình duyệt của bạn để bảo mật hoàn toàn",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF sang PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Chuyển đổi PDF sang PNG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Xuất mỗi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành các file PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF sang JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Xuất mỗi trang PDF thành hình ảnh JPEG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành các file JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Gộp PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Chia một PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Mỗi trang được chọn sẽ trở thành một tệp PDF riêng biệt. Hoặc bạn có thể gộp các trang đã chọn vào một tệp PDF duy nhất."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",

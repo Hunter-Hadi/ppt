@@ -354,11 +354,13 @@
     "tools__index_page__title": "Zana za MaxAI",
     "tools__index_page__description": "Zana zote za PDF ni BURE kabisa na zinaendesha kwenye kivinjari chako kwa faragha kamili",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF kuwa PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Geuza PDF kuwa PNG na pakua kila ukurasa kama picha",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksporti kila ukurasa wa PDF kama picha ya PNG au chukua picha binafsi kutoka kwenye PDF na uweke kama PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF kuwa JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Geuza PDF kuwa JPEG na pakua kila ukurasa kama picha",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksporti kila ukurasa wa PDF kama picha ya JPEG au chukua picha binafsi kutoka kwenye PDF na uweke kama JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Jumuisha PDFs",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Gawanya PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Kila ukurasa ulioteuliwa utakuwa faili tofauti ya PDF. Au, unaweza kuunganisha kurasa zilizochaguliwa katika faili moja ya PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",

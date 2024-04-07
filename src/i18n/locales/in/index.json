@@ -354,11 +354,13 @@
     "tools__index_page__title": "Alat MaxAI",
     "tools__index_page__description": "Semua alat PDF 100% GRATIS dan berjalan di browser Anda untuk privasi yang lengkap",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ke PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konversi PDF ke PNG dan unduh setiap halaman sebagai gambar",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Ekspor setiap halaman PDF sebagai gambar PNG atau ekstrak gambar individu dari PDF menjadi PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ke JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konversi PDF ke JPEG dan unduh setiap halaman sebagai gambar",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Ekspor setiap halaman PDF sebagai gambar JPEG atau ekstrak gambar individu dari PDF menjadi JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Gabungkan PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Pisahkan PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi file PDF terpisah. Atau, Anda dapat menggabungkan halaman yang dipilih menjadi satu file PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "ম্যাক্সএআই টুলস",
     "tools__index_page__description": "সম্পূর্ণ গোপনীয়তার জন্য সম্পূর্ণ ব্রাউজারে চলতে সম্পূর্ণ ফ্রি এবং পিডিএফ টুলগুলি",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF থেকে PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF থেকে PNG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
+    "tools__index_page__constant_obj__pdf_to_png__description": "পিডিএফ পৃষ্ঠাগুলি পিএনজি ইমেজ হিসাবে রপ্তানি করুন অথবা পিডিএফ থেকে একক ছবি উত্তোলন করুন পিএনজিতে",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF থেকে JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF থেকে JPEG পরিবর্তন করুন এবং প্রতিটি পৃষ্ঠা ছবি হিসাবে ডাউনলোড করুন",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "পিডিএফ পৃষ্ঠাগুলি জেপিইজিতে ইমেজ হিসাবে রপ্তানি করুন অথবা পিডিএফ থেকে একক ছবি উত্তোলন করুন জেপিইজিতে",
     "tools__index_page__constant_obj__merge_pdfs__title": "পিডিএফ মার্জ করুন",
-    "tools__index_page__constant_obj__merge_pdfs__description": "কয়েকটি ক্লিকের মাধ্যমে একটি পিডিএফ ফাইলে একত্রিত করুন"
+    "tools__index_page__constant_obj__merge_pdfs__description": "কয়েকটি ক্লিকের মাধ্যমে একটি পিডিএফ ফাইলে একত্রিত করুন",
+    "tools__index_page__constant_obj__split_a_pdf__title": "একটি PDF ভাঙ্গো",
+    "tools__index_page__constant_obj__split_a_pdf__description": "প্রতিটি নির্বাচিত পৃষ্ঠা একটি আলাদা PDF ফাইল হবে। অথবা, আপনি নির্বাচিত পৃষ্ঠাগুলি একটি একক PDF ফাইলে মার্জ করতে পারেন।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",

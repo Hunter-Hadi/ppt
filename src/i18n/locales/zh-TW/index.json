@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI 工具",
     "tools__index_page__description": "所有 PDF 工具都是 100% 免費，在您的瀏覽器中運行，完全保護您的隱私",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF 轉 PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "將 PDF 轉換為 PNG，並下載每個頁面作為圖像",
+    "tools__index_page__constant_obj__pdf_to_png__description": "將每個PDF頁面匯出為PNG圖像或從PDF中提取單獨的圖像到PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF 轉 JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "將 PDF 轉換為 JPEG，並下載每個頁面作為圖像",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "將每個PDF頁面匯出為JPEG圖像或從PDF中提取單獨的圖像到JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "合併 PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "只需點擊幾下，將多個 PDF 文件合併為一個"
+    "tools__index_page__constant_obj__merge_pdfs__description": "只需點擊幾下，將多個 PDF 文件合併為一個",
+    "tools__index_page__constant_obj__split_a_pdf__title": "分割 PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "每個選取的頁面將成為一個獨立的 PDF 檔案。或者，您可以將選取的頁面合併為一個單獨的 PDF 檔案。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",

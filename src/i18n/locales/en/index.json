@@ -383,11 +383,13 @@
     "tools__index_page__title": "MaxAI Tools",
     "tools__index_page__description": "All PDF tools are 100% FREE and run in your browser for complete privacy",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Convert PDF to PNG and download each page as an image",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Export each PDF page as a PNG image or extract individual images from the PDF to PNGs",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convert PDF to JPEG and download each page as an image",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
     "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Split a PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Each selected page will become a separate PDF file. Alternatively, you can merge selected pages into a single PDF file."
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",

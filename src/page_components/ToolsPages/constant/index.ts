@@ -1,4 +1,8 @@
-export type IToolUrkKeyType = 'pdf-to-png' | 'pdf-to-jpeg' | 'merge-pdfs';
+export type IToolUrkKeyType =
+  | 'pdf-to-png'
+  | 'pdf-to-jpeg'
+  | 'merge-pdfs'
+  | 'split-a-pdf';
 export interface IToolData {
   icon: string;
   title: string;
@@ -14,6 +18,14 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     description:
       'pages:tools__index_page__constant_obj__merge_pdfs__description',
     urlKey: 'merge-pdfs',
+    accept: 'application/pdf',
+  },
+  'split-a-pdf': {
+    icon: 'CropOriginal',
+    title: 'pages:tools__index_page__constant_obj__split_a_pdf__title',
+    description:
+      'pages:tools__index_page__constant_obj__split_a_pdf__description',
+    urlKey: 'split-a-pdf',
     accept: 'application/pdf',
   },
   'pdf-to-png': {

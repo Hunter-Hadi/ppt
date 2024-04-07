@@ -24,7 +24,7 @@ const getTextTokens = (text) => {
 
 const translateValue = async (translateJson, from, to, logPrefix) => {
   const runTranslate = async (prompt, times) => {
-    const agent = new HttpsProxyAgent('http://127.0.0.1:7890');
+    const agent = new HttpsProxyAgent('http://127.0.0.1:7897');
     const api = new ChatGPTAPI({
       apiKey: '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',
       completionParams: {
@@ -504,7 +504,10 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [];
+  const keys = [
+    'tools__index_page__constant_obj__pdf_to_png__description',
+    'tools__index_page__constant_obj__pdf_to_jpeg__description',
+  ];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }

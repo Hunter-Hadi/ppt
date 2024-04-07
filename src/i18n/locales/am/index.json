@@ -354,11 +354,13 @@
     "tools__index_page__title": "መክፈቻዎች MaxAI",
     "tools__index_page__description": "ሁሉንም PDF መሳሪያዎች በእርስዎ የተከሰተ ናቸው፣ እና በገንዘብዎ ላይ ለማግኘት የሚገባውን በመጠቀም በማሳየት የሚያስችል ነው",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ወደ PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ወደ PNG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል",
+    "tools__index_page__constant_obj__pdf_to_png__description": "የመፃፍ PDF ገጽን በ PNG ምስል ለመውሰድ ወይም PDF ከሚገኘው ምስል የተገኘውን ምስልን በ PNG ምስል ለመውሰድ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ወደ JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ወደ JPEG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "የመፃፍ PDF ገጽን በ JPEG ምስል ለመውሰድ ወይም PDF ከሚገኘው ምስል የተገኘውን ምስልን በ JPEG ምስል ለመውሰድ",
     "tools__index_page__constant_obj__merge_pdfs__title": "ፕድን ማርገዝ",
-    "tools__index_page__constant_obj__merge_pdfs__description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ"
+    "tools__index_page__constant_obj__merge_pdfs__description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ",
+    "tools__index_page__constant_obj__split_a_pdf__title": "ፕድስ አርትስን መሸጥ",
+    "tools__index_page__constant_obj__split_a_pdf__description": "የተመረጡ ገጽዎች አንድ አርትስ ፎቶ በመሸጥ ይቻላል። ማንኛውም ገጽ አንድ አርትስ ፎቶ አንድ ፎቶ ለመቀነስ ይቻላል።"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",

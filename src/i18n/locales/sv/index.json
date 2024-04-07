@@ -354,11 +354,13 @@
     "tools__index_page__title": "MaxAI Verktyg",
     "tools__index_page__description": "Alla PDF-verktyg är 100% GRATIS och körs i din webbläsare för fullständig integritet",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF till PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertera PDF till PNG och ladda ner varje sida som en bild",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportera varje PDF-sida som en PNG-bild eller extrahera enskilda bilder från PDF till PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF till JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertera PDF till JPEG och ladda ner varje sida som en bild",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportera varje PDF-sida som en JPEG-bild eller extrahera enskilda bilder från PDF till JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Slå samman PDF-filer",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Slå samman flera PDF-filer till en med bara några få klick"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Slå samman flera PDF-filer till en med bara några få klick",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Dela upp en PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Varje vald sida blir en separat PDF-fil. Alternativt kan du slå samman valda sidor till en enda PDF-fil."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",

@@ -354,11 +354,13 @@
     "tools__index_page__title": "Nástroje MaxAI",
     "tools__index_page__description": "Všetky PDF nástroje sú 100% ZDARMA a bežia vo vašom prehliadači pre úplné súkromie",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF na PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertujte PDF na PNG a stiahnite si každú stranu ako obrázok",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportujte každú stranu PDF ako obrázok PNG alebo extrahujte jednotlivé obrázky z PDF do PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF na JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertujte PDF na JPEG a stiahnite si každú stranu ako obrázok",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportujte každú stranu PDF ako obrázok JPEG alebo extrahujte jednotlivé obrázky z PDF do JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Zlúčiť PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Zlúčte viacero súborov PDF do jedného s len niekoľkými kliknutiami"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Zlúčte viacero súborov PDF do jedného s len niekoľkými kliknutiami",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Rozdeliť PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Každá vybraná stránka sa stane samostatným súborom PDF. Alternatívne môžete vybrané stránky spojiť do jedného súboru PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",

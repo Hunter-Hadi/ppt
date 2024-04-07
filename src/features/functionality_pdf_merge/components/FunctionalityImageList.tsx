@@ -81,13 +81,12 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
     >
       <SortableContext items={imageList} strategy={verticalListSortingStrategy}>
         <Grid container item justifyContent='center' my={3}>
-          {imageList.map((imageInfo, index) => (
+          {imageList.map((imageInfo) => (
             <FunctionalitySortableImage
               key={imageInfo.id}
               isShowOperate={isShowOperate}
               imageInfo={imageInfo}
               activeDragId={activeDragId}
-              index={index}
               isImageSelect={isImageSelect}
               onDelete={onDelete}
             />

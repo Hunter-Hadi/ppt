@@ -354,11 +354,13 @@
     "tools__index_page__title": "Instrumente MaxAI",
     "tools__index_page__description": "Toate instrumentele PDF sunt 100% GRATUITE și rulează în browserul tău pentru confidențialitate completă",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF în PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Convertește PDF în PNG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportați fiecare pagină PDF ca o imagine PNG sau extrageți imagini individuale din PDF în PNG-uri",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF în JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportați fiecare pagină PDF ca o imagine JPEG sau extrageți imagini individuale din PDF în JPEG-uri",
     "tools__index_page__constant_obj__merge_pdfs__title": "Unifică PDF-uri",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Divide un PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Fiecare pagină selectată va deveni un fișier PDF separat. În mod alternativ, puteți combina paginile selectate într-un singur fișier PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
