@@ -74,8 +74,6 @@ const FunctionalityPdfMerge = () => {
   ): Promise<{ image: string; pages: number } | null> {
     try {
       const buff = await file.arrayBuffer();
-      const pdfDoc = await PDFDocument.load(buff);
-      console.log('simply getFirstPageAsImage pdfDoc', pdfDoc);
       // 将当前 PDF 文档的所有页面复制到合并后的 PDF 文档中
       const loadingTask = pdfjs.getDocument(buff);
       const pdfDocument = await loadingTask.promise;
