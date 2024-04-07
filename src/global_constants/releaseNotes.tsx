@@ -1,5 +1,21 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.1.7',
+    date: '2024-04-05',
+
+    content: [
+      {
+        title: 'Enjoy 1-click replies on messaging web apps',
+        lists: [
+          {
+            module: '1-click reply on Discord',
+            desc: 'Accelerate your message replies by 10X with just 1 click on Discord.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.1.4',
     date: '2024-03-29',
 
