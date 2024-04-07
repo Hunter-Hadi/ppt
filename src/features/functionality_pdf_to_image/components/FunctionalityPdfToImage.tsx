@@ -64,7 +64,7 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
         <FunctionalityUploadButton
           inputProps={{
             accept: 'application/pdf',
-            multiple: true,
+            multiple: false,
           }}
           onChange={onChangeFile}
           handleUnsupportedFileType={handleUnsupportedFileType}
