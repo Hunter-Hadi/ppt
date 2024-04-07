@@ -143,7 +143,7 @@ const FunctionalityPdfToImageDetail: FC<
           <Button
             sx={{ width: '100%' }}
             size='small'
-            disabled={pdfIsLoading || currentShowImages.length === 0}
+            disabled={isLoading || currentShowImages.length === 0}
             variant='outlined'
             onClick={onSwitchAllSelect}
           >
@@ -281,7 +281,7 @@ const FunctionalityPdfToImageDetail: FC<
           </Box>
         )}
 
-        {isLoading && totalPages > 0 && (
+        {isLoading && (
           <Box
             sx={{
               position: 'absolute',
@@ -297,11 +297,11 @@ const FunctionalityPdfToImageDetail: FC<
             }}
           >
             <CircularProgress />
-            {`${currentActionNum}/${totalPages}`}
+            {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
           </Box>
         )}
       </Box>
-      {showPdfImagesType === 'pdfPageImages' && (
+      {showPdfImagesType === 'pdfPageImages' && !isLoading && (
         <Grid
           container
           direction='row'
