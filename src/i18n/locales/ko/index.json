@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "PDF 지우기",
     "components__pdf_merge__confirm_merge": "병합 확인",
     "components__pdf_merge__pdf_dropping": "PDF 순서를 드래그하여 조정할 수 있습니다"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
+    "components__pdf_split__add_pdf": "PDF 추가",
+    "components__pdf_spli__remove_pdf": "PDF 제거",
+    "components__pdf_split__select_all": "모두 선택",
+    "components__pdf_split__deselect_all": "모두 선택 해제",
+    "components__pdf_split__confirm_split": "분할 확인",
+    "components__pdf_split__pdf_dropping": "PDF 순서를 드래그하여 조정할 수 있습니다",
+    "components__pdf_split__is_single_pdf": "선택한 페이지를 단일 PDF로 병합합니다",
+    "components__pdf_split__cancel": "취소",
+    "components__pdf_split__error_maximum": "PDF 파일 분할에 실패했습니다. 최대 수량을 초과했습니다"
   }
 }

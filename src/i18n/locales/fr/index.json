@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Effacer les PDF",
     "components__pdf_merge__confirm_merge": "Confirmer la fusion",
     "components__pdf_merge__pdf_dropping": "Vous pouvez ajuster l'ordre des PDF en les faisant glisser et déposer"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
+    "components__pdf_split__add_pdf": "Ajouter des PDF",
+    "components__pdf_spli__remove_pdf": "Supprimer le PDF",
+    "components__pdf_split__select_all": "Tout sélectionner",
+    "components__pdf_split__deselect_all": "Tout désélectionner",
+    "components__pdf_split__confirm_split": "Confirmer la division",
+    "components__pdf_split__pdf_dropping": "Vous pouvez ajuster l'ordre des PDF en les faisant glisser et déposer",
+    "components__pdf_split__is_single_pdf": "Fusionner les pages sélectionnées en un seul PDF",
+    "components__pdf_split__cancel": "Annuler",
+    "components__pdf_split__error_maximum": "Échec de la division des fichiers PDF, quantité maximale dépassée"
   }
 }

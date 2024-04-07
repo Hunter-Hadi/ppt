@@ -653,5 +653,17 @@
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
     "components__pdf_merge__pdf_dropping": "ניתן לכוון את סדר ה-PDF על ידי גרירה ושחרור"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__pdf_split__add_pdf": "הוסף PDF",
+    "components__pdf_spli__remove_pdf": "הסר PDF",
+    "components__pdf_split__select_all": "בחר הכל",
+    "components__pdf_split__deselect_all": "בטל בחירת הכל",
+    "components__pdf_split__confirm_split": "אשר לפצל",
+    "components__pdf_split__pdf_dropping": "ניתן להתאים את סדר ה-PDF על ידי גרירה ושחרור",
+    "components__pdf_split__is_single_pdf": "מזג עמודים שנבחרו ל-PDF יחיד",
+    "components__pdf_split__cancel": "ביטול",
+    "components__pdf_split__error_maximum": "נכשל בפיצול קבצי PDF, חרג מהכמות המרבית"
   }
 }

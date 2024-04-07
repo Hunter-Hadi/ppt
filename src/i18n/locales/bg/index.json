@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
     "components__pdf_merge__confirm_merge": "Потвърди обединяването",
     "components__pdf_merge__pdf_dropping": "Можете да настроите реда на PDF-овете, като ги влачите и пускате"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
+    "components__pdf_split__add_pdf": "Добави PDF",
+    "components__pdf_spli__remove_pdf": "Премахни PDF",
+    "components__pdf_split__select_all": "Избери всички",
+    "components__pdf_split__deselect_all": "Отмени избора на всички",
+    "components__pdf_split__confirm_split": "Потвърди разделянето",
+    "components__pdf_split__pdf_dropping": "Можете да промените реда на PDF-ите, като ги влачите и пускате",
+    "components__pdf_split__is_single_pdf": "Сливане на избраните страници в един PDF",
+    "components__pdf_split__cancel": "Отказ",
+    "components__pdf_split__error_maximum": "Неуспешно разделяне на PDF файлове, надвишено максимално количество"
   }
 }

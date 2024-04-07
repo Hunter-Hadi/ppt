@@ -354,9 +354,9 @@
     "tools__index_page__title": "MaxAI Werkzeuge",
     "tools__index_page__description": "Alle PDF-Tools sind zu 100% KOSTENLOS und werden in Ihrem Browser ausgeführt, um Ihre Privatsphäre vollständig zu schützen",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF zu PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Exportiere jede PDF-Seite als PNG-Bild oder extrahiere einzelne Bilder aus der PDF zu PNGs",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportieren Sie jede PDF-Seite als PNG-Bild oder extrahieren Sie einzelne Bilder aus dem PDF in PNGs",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF zu JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportiere jede PDF-Seite als JPEG-Bild oder extrahiere einzelne Bilder aus der PDF zu JPEGs",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportieren Sie jede PDF-Seite als JPEG-Bild oder extrahieren Sie einzelne Bilder aus dem PDF in JPEGs",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDFs zusammenführen",
     "tools__index_page__constant_obj__merge_pdfs__description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF teilen",
@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "PDFs leeren",
     "components__pdf_merge__confirm_merge": "Bestätigen Sie das Zusammenführen",
     "components__pdf_merge__pdf_dropping": "Sie können die Reihenfolge der PDFs durch Ziehen und Ablegen anpassen"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__pdf_split__add_pdf": "PDFs hinzufügen",
+    "components__pdf_spli__remove_pdf": "PDF entfernen",
+    "components__pdf_split__select_all": "Alle auswählen",
+    "components__pdf_split__deselect_all": "Alle abwählen",
+    "components__pdf_split__confirm_split": "Aufteilen bestätigen",
+    "components__pdf_split__pdf_dropping": "Sie können die Reihenfolge der PDFs anpassen, indem Sie sie per Drag & Drop verschieben",
+    "components__pdf_split__is_single_pdf": "Ausgewählte Seiten zu einer einzelnen PDF zusammenführen",
+    "components__pdf_split__cancel": "Abbrechen",
+    "components__pdf_split__error_maximum": "Fehler beim Aufteilen von PDF-Dateien. Maximale Anzahl überschritten"
   }
 }

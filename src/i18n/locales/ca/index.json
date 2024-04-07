@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Netegeu els PDFs",
     "components__pdf_merge__confirm_merge": "Confirmeu la fusió",
     "components__pdf_merge__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
+    "components__pdf_split__add_pdf": "Afegiu PDFs",
+    "components__pdf_spli__remove_pdf": "Elimina PDF",
+    "components__pdf_split__select_all": "Selecciona-ho tot",
+    "components__pdf_split__deselect_all": "Desselecciona-ho tot",
+    "components__pdf_split__confirm_split": "Confirmeu per dividir",
+    "components__pdf_split__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los",
+    "components__pdf_split__is_single_pdf": "Fusiona les pàgines seleccionades en un sol PDF",
+    "components__pdf_split__cancel": "Cancel·la",
+    "components__pdf_split__error_maximum": "No s'ha pogut dividir els fitxers PDF, s'ha superat la quantitat màxima"
   }
 }

@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "پی ڈی ایف صاف کریں",
     "components__pdf_merge__confirm_merge": "مرج کرنے کی تصدیق کریں",
     "components__pdf_merge__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "مخصوص شدہ پی ڈی ایف فائل کو اپ لوڈ کریں",
+    "components__pdf_split__add_pdf": "پی ڈی ایفز شامل کریں",
+    "components__pdf_spli__remove_pdf": "پی ڈی ایف ہٹائیں",
+    "components__pdf_split__select_all": "سب کو منتخب کریں",
+    "components__pdf_split__deselect_all": "سب کا انتخاب ختم کریں",
+    "components__pdf_split__confirm_split": "تقسیم کرنے کی تصدیق کریں",
+    "components__pdf_split__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
+    "components__pdf_split__is_single_pdf": "منتخب شدہ صفحات کو ایک ہی پی ڈی ایف میں مرکٹ کریں",
+    "components__pdf_split__cancel": "منسوخ کریں",
+    "components__pdf_split__error_maximum": "پی ڈی ایف فائلوں کو تقسیم کرنے میں ناکامی ہوئی، زیادہ سے زیادہ تعداد پوری ہوگئی"
   }
 }

@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Vymazat PDF",
     "components__pdf_merge__confirm_merge": "Potvrdit sloučení",
     "components__pdf_merge__pdf_dropping": "Pořadí PDF můžete upravit přetažením"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
+    "components__pdf_split__add_pdf": "Přidat PDF",
+    "components__pdf_spli__remove_pdf": "Odstranit PDF",
+    "components__pdf_split__select_all": "Vybrat vše",
+    "components__pdf_split__deselect_all": "Zrušit výběr všech",
+    "components__pdf_split__confirm_split": "Potvrdit rozdělení",
+    "components__pdf_split__pdf_dropping": "Můžete upravit pořadí PDF přetažením",
+    "components__pdf_split__is_single_pdf": "Sloučit vybrané stránky do jednoho PDF",
+    "components__pdf_split__cancel": "Zrušit",
+    "components__pdf_split__error_maximum": "Nepodařilo se rozdělit soubory PDF, překročeno maximální množství"
   }
 }

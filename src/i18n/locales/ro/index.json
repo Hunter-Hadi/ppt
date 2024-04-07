@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
     "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
     "components__pdf_merge__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__pdf_split__add_pdf": "Adăugați PDF-uri",
+    "components__pdf_spli__remove_pdf": "Eliminați PDF",
+    "components__pdf_split__select_all": "Selectați tot",
+    "components__pdf_split__deselect_all": "Deselectați tot",
+    "components__pdf_split__confirm_split": "Confirmați divizarea",
+    "components__pdf_split__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare",
+    "components__pdf_split__is_single_pdf": "Unificați paginile selectate într-un singur PDF",
+    "components__pdf_split__cancel": "Anulați",
+    "components__pdf_split__error_maximum": "Nu s-a putut diviza fișierele PDF, ați depășit cantitatea maximă"
   }
 }

@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ़ करें",
     "components__pdf_merge__confirm_merge": "मर्ज करने की पुष्टि करें",
     "components__pdf_merge__pdf_dropping": "आप पीडीएफ क्रम को खींचकर समायोजित कर सकते हैं"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
+    "components__pdf_split__add_pdf": "पीडीएफ जोड़ें",
+    "components__pdf_spli__remove_pdf": "पीडीएफ हटाएं",
+    "components__pdf_split__select_all": "सभी का चयन करें",
+    "components__pdf_split__deselect_all": "सभी का चयन रद्द करें",
+    "components__pdf_split__confirm_split": "विभाजित करने की पुष्टि करें",
+    "components__pdf_split__pdf_dropping": "आप पीडीएफ को खींचकर छोड़कर पीडीएफ क्रम समायोजित कर सकते हैं",
+    "components__pdf_split__is_single_pdf": "चयनित पृष्ठों को एकल पीडीएफ में मर्ज करें",
+    "components__pdf_split__cancel": "रद्द करें",
+    "components__pdf_split__error_maximum": "पीडीएफ फ़ाइलें विभाजित करने में विफल, अधिकतम मात्रा पार कर गई"
   }
 }

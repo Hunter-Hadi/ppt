@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Limpar PDFs",
     "components__pdf_merge__confirm_merge": "Confirmar mesclagem",
     "components__pdf_merge__pdf_dropping": "Você pode ajustar a ordem do PDF arrastando e soltando"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
+    "components__pdf_split__add_pdf": "Adicionar PDFs",
+    "components__pdf_spli__remove_pdf": "Remover PDF",
+    "components__pdf_split__select_all": "Selecionar Todos",
+    "components__pdf_split__deselect_all": "Desmarcar Todos",
+    "components__pdf_split__confirm_split": "Confirmar divisão",
+    "components__pdf_split__pdf_dropping": "Você pode ajustar a ordem dos PDFs arrastando e soltando",
+    "components__pdf_split__is_single_pdf": "Mesclar páginas selecionadas em um único PDF",
+    "components__pdf_split__cancel": "Cancelar",
+    "components__pdf_split__error_maximum": "Falha ao dividir arquivos PDF, quantidade máxima excedida"
   }
 }

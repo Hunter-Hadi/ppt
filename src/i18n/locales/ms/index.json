@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
     "components__pdf_merge__pdf_dropping": "Anda boleh mengubahsuai susunan PDF dengan menyeret dan menjatuhkan"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
+    "components__pdf_split__add_pdf": "Tambah PDF",
+    "components__pdf_spli__remove_pdf": "Buang PDF",
+    "components__pdf_split__select_all": "Pilih Semua",
+    "components__pdf_split__deselect_all": "Batal Pilih Semua",
+    "components__pdf_split__confirm_split": "Sahkan untuk pecah",
+    "components__pdf_split__pdf_dropping": "Anda boleh mengubah susunan PDF dengan menyeret dan melepaskan",
+    "components__pdf_split__is_single_pdf": "Gabungkan halaman yang dipilih ke dalam satu PDF",
+    "components__pdf_split__cancel": "Batal",
+    "components__pdf_split__error_maximum": "Gagal memecah fail PDF, Melebihi jumlah maksimum"
   }
 }

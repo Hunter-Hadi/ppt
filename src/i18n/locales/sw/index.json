@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Futa PDFs",
     "components__pdf_merge__confirm_merge": "Thibitisha kuunganisha",
     "components__pdf_merge__pdf_dropping": "Unaweza kurekebisha mpangilio wa PDF kwa kuvuta na kuacha"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
+    "components__pdf_split__add_pdf": "Ongeza PDF",
+    "components__pdf_spli__remove_pdf": "Ondoa PDF",
+    "components__pdf_split__select_all": "Chagua Yote",
+    "components__pdf_split__deselect_all": "Batilisha Uteuzi Wote",
+    "components__pdf_split__confirm_split": "Thibitisha kugawanya",
+    "components__pdf_split__pdf_dropping": "Unaweza kurekebisha mpangilio wa PDF kwa kuvuta na kuacha",
+    "components__pdf_split__is_single_pdf": "Jumuisha kurasa zilizochaguliwa katika PDF moja",
+    "components__pdf_split__cancel": "Ghairi",
+    "components__pdf_split__error_maximum": "Imeshindikana kugawanya faili za PDF, Imezidi kiasi cha juu"
   }
 }

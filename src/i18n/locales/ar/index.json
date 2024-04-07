@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "مسح PDFs",
     "components__pdf_merge__confirm_merge": "تأكيد الدمج",
     "components__pdf_merge__pdf_dropping": "يمكنك ضبط ترتيب PDF عن طريق السحب والإفلات"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
+    "components__pdf_split__add_pdf": "إضافة ملفات PDF",
+    "components__pdf_spli__remove_pdf": "إزالة ملف PDF",
+    "components__pdf_split__select_all": "تحديد الكل",
+    "components__pdf_split__deselect_all": "إلغاء تحديد الكل",
+    "components__pdf_split__confirm_split": "تأكيد التقسيم",
+    "components__pdf_split__pdf_dropping": "يمكنك ضبط ترتيب ملفات PDF عن طريق السحب والإفلات",
+    "components__pdf_split__is_single_pdf": "دمج الصفحات المحددة في ملف PDF واحد",
+    "components__pdf_split__cancel": "إلغاء",
+    "components__pdf_split__error_maximum": "فشل في تقسيم ملفات PDF، تجاوز الحد الأقصى"
   }
 }

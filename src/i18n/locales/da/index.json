@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Ryd PDF'er",
     "components__pdf_merge__confirm_merge": "Bekræft sammenføjning",
     "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
+    "components__pdf_split__add_pdf": "Tilføj PDF'er",
+    "components__pdf_spli__remove_pdf": "Fjern PDF",
+    "components__pdf_split__select_all": "Vælg alle",
+    "components__pdf_split__deselect_all": "Fravælg alle",
+    "components__pdf_split__confirm_split": "Bekræft opdeling",
+    "components__pdf_split__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe",
+    "components__pdf_split__is_single_pdf": "Flet valgte sider til en enkelt PDF",
+    "components__pdf_split__cancel": "Annuller",
+    "components__pdf_split__error_maximum": "Kunne ikke opdele PDF-filer, overskredet maksimalt antal"
   }
 }

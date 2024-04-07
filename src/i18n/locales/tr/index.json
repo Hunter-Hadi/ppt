@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "PDF'leri Temizle",
     "components__pdf_merge__confirm_merge": "Birleştirmeyi Onayla",
     "components__pdf_merge__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__pdf_split__add_pdf": "PDF Ekle",
+    "components__pdf_spli__remove_pdf": "PDF Kaldır",
+    "components__pdf_split__select_all": "Hepsini Seç",
+    "components__pdf_split__deselect_all": "Tümünü Kaldır",
+    "components__pdf_split__confirm_split": "Bölme işlemini onayla",
+    "components__pdf_split__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz",
+    "components__pdf_split__is_single_pdf": "Seçilen sayfaları tek bir PDF'e birleştir",
+    "components__pdf_split__cancel": "İptal",
+    "components__pdf_split__error_maximum": "PDF dosyalarını bölmek başarısız oldu, maksimum miktar aşıldı"
   }
 }

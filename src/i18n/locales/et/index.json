@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Tühjenda PDF-id",
     "components__pdf_merge__confirm_merge": "Kinnita ühendamine",
     "components__pdf_merge__pdf_dropping": "Saate PDF-i järjestust reguleerida lohistamise teel"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
+    "components__pdf_split__add_pdf": "Lisa PDF-id",
+    "components__pdf_spli__remove_pdf": "Eemalda PDF",
+    "components__pdf_split__select_all": "Vali kõik",
+    "components__pdf_split__deselect_all": "Tühista valik",
+    "components__pdf_split__confirm_split": "Kinnita jagamine",
+    "components__pdf_split__pdf_dropping": "Saate PDF-i järjekorda reguleerida lohistades ja kukutades",
+    "components__pdf_split__is_single_pdf": "Ühenda valitud lehed üheks PDF-iks",
+    "components__pdf_split__cancel": "Tühista",
+    "components__pdf_split__error_maximum": "PDF-failide jagamine ebaõnnestus, ületati maksimaalset kogust"
   }
 }

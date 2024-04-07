@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__confirm_merge": "ಮರುಹೊಂದಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿ",
     "components__pdf_merge__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಬದಲಾಯಿಸಬಹುದು"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__pdf_split__add_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ಸೇರಿಸಿ",
+    "components__pdf_spli__remove_pdf": "ಪಿಡಿಎಫ್ ತೆಗೆದುಹಾಕಿ",
+    "components__pdf_split__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
+    "components__pdf_split__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದುಮಾಡಿ",
+    "components__pdf_split__confirm_split": "ವಿಭಜನೆ ಖಚಿತಪಡಿಸಲು ದೃಢೀಕರಿಸಿ",
+    "components__pdf_split__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಮತ್ತು ಬಿಡಿಸುವುದರಿಂದ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು",
+    "components__pdf_split__is_single_pdf": "ಆಯ್ಕೆಮಾಡಲಾದ ಪುಟಗಳನ್ನು ಒಂದು ಪಿಡಿಎಫ್‌ಗೆ ಒಂದುಗೂಡಿಸಿ",
+    "components__pdf_split__cancel": "ರದ್ದುಮಾಡಿ",
+    "components__pdf_split__error_maximum": "ಪಿಡಿಎಫ್ ಫೈಲ್‌ಗಳನ್ನು ವಿಭಜಿಸುವುದರಲ್ಲಿ ತಪ್ಪಾಗಿದೆ, ಗರಿಷ್ಠ ಪ್ರಮಾಣವನ್ನು ಮೀರಿದೆ"
   }
 }

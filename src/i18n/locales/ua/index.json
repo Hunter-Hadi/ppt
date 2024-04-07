@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Очистити PDF",
     "components__pdf_merge__confirm_merge": "Підтвердити об'єднання",
     "components__pdf_merge__pdf_dropping": "Ви можете налаштувати порядок PDF, перетягуючи їх"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
+    "components__pdf_split__add_pdf": "Додати PDF",
+    "components__pdf_spli__remove_pdf": "Видалити PDF",
+    "components__pdf_split__select_all": "Вибрати все",
+    "components__pdf_split__deselect_all": "Скасувати вибір усіх",
+    "components__pdf_split__confirm_split": "Підтвердити розбиття",
+    "components__pdf_split__pdf_dropping": "Ви можете налаштувати порядок PDF-файлів, перетягуючи їх",
+    "components__pdf_split__is_single_pdf": "Об'єднати обрані сторінки в один PDF",
+    "components__pdf_split__cancel": "Скасувати",
+    "components__pdf_split__error_maximum": "Не вдалося розбити файли PDF. Перевищено максимальну кількість"
   }
 }

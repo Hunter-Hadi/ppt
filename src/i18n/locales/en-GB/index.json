@@ -370,6 +370,18 @@
     "components__pdf_merge__confirm_merge": "Confirm to merge",
     "components__pdf_merge__pdf_dropping": "You can adjust the PDF order by dragging and dropping"
   },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_split__add_pdf": "Add PDFs",
+    "components__pdf_spli__remove_pdf": "Remove PDF",
+    "components__pdf_split__select_all": "Select All",
+    "components__pdf_split__deselect_all": "Deselect All",
+    "components__pdf_split__confirm_split": "Confirm to split",
+    "components__pdf_split__pdf_dropping": "You can adjust the PDF order by dragging and dropping",
+    "components__pdf_split__is_single_pdf": "Merge selected pages into a single PDF",
+    "components__pdf_split__cancel": "Cancel",
+    "components__pdf_split__error_maximum": "Failed to split PDF files, Exceeded maximum quantity"
+  },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Click to upload or drag and drop",
     "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",

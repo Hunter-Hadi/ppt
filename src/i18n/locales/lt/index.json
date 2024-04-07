@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Išvalyti PDF",
     "components__pdf_merge__confirm_merge": "Patvirtinti sujungimą",
     "components__pdf_merge__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
+    "components__pdf_split__add_pdf": "Pridėti PDF",
+    "components__pdf_spli__remove_pdf": "Pašalinti PDF",
+    "components__pdf_split__select_all": "Pasirinkti visus",
+    "components__pdf_split__deselect_all": "Atžymėti visus",
+    "components__pdf_split__confirm_split": "Patvirtinti dalijimą",
+    "components__pdf_split__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant",
+    "components__pdf_split__is_single_pdf": "Sulieti pasirinktas puslapius į vieną PDF",
+    "components__pdf_split__cancel": "Atšaukti",
+    "components__pdf_split__error_maximum": "Nepavyko padalinti PDF failų, viršytas maksimalus kiekis"
   }
 }

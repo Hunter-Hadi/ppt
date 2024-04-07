@@ -354,9 +354,9 @@
     "tools__index_page__title": "Herramientas MaxAI",
     "tools__index_page__description": "Todas las herramientas de PDF son 100% GRATUITAS y se ejecutan en tu navegador para una privacidad completa",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF a PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Exporta cada página del PDF como una imagen PNG o extrae imágenes individuales del PDF a PNG",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exporta cada página de PDF como una imagen PNG o extrae imágenes individuales del PDF a PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF a JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exporta cada página del PDF como una imagen JPEG o extrae imágenes individuales del PDF a JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exporta cada página de PDF como una imagen JPEG o extrae imágenes individuales del PDF a JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Combinar PDFs",
     "tools__index_page__constant_obj__merge_pdfs__description": "Combina varios archivos PDF en uno con solo unos clics",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dividir un PDF",
@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Limpiar PDFs",
     "components__pdf_merge__confirm_merge": "Confirmar fusión",
     "components__pdf_merge__pdf_dropping": "Puedes ajustar el orden del PDF arrastrando y soltando"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
+    "components__pdf_split__add_pdf": "Agregar PDFs",
+    "components__pdf_spli__remove_pdf": "Eliminar PDF",
+    "components__pdf_split__select_all": "Seleccionar todo",
+    "components__pdf_split__deselect_all": "Deseleccionar todo",
+    "components__pdf_split__confirm_split": "Confirmar división",
+    "components__pdf_split__pdf_dropping": "Puedes ajustar el orden de los PDF arrastrándolos y soltándolos",
+    "components__pdf_split__is_single_pdf": "Unir páginas seleccionadas en un solo PDF",
+    "components__pdf_split__cancel": "Cancelar",
+    "components__pdf_split__error_maximum": "Error al dividir archivos PDF, se excedió la cantidad máxima"
   }
 }

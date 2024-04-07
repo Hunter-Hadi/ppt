@@ -354,9 +354,9 @@
     "tools__index_page__title": "MaxAI ツール",
     "tools__index_page__description": "すべてのPDFツールは100％無料であり、完全なプライバシーのためにブラウザで実行されます",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDFからPNGへ",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDFの各ページをPNGイメージとしてエクスポートするか、PDFから個別の画像を抽出してPNGに変換します",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDFの各ページをPNGイメージとしてエクスポートするか、PDFから個別のイメージを抽出します",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDFからJPEGへ",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDFの各ページをJPEGイメージとしてエクスポートするか、PDFから個別の画像を抽出してJPEGに変換します",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDFの各ページをJPEGイメージとしてエクスポートするか、PDFから個別のイメージを抽出します",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDFの結合",
     "tools__index_page__constant_obj__merge_pdfs__description": "数回のクリックで複数のPDFファイルを1つに結合します",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDFを分割する",
@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "PDFをクリア",
     "components__pdf_merge__confirm_merge": "マージを確認",
     "components__pdf_merge__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
+    "components__pdf_split__add_pdf": "PDFを追加",
+    "components__pdf_spli__remove_pdf": "PDFを削除",
+    "components__pdf_split__select_all": "すべて選択",
+    "components__pdf_split__deselect_all": "すべて選択解除",
+    "components__pdf_split__confirm_split": "分割を確認",
+    "components__pdf_split__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます",
+    "components__pdf_split__is_single_pdf": "選択したページを1つのPDFに結合する",
+    "components__pdf_split__cancel": "キャンセル",
+    "components__pdf_split__error_maximum": "PDFファイルの分割に失敗しました。最大数量を超えています"
   }
 }

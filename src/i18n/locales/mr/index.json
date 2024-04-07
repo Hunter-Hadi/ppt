@@ -354,9 +354,9 @@
     "tools__index_page__title": "मॅक्सएआय टूल्स",
     "tools__index_page__description": "सर्व PDF टूल 100% मोफत आहेत आणि पूर्ण गोपनीयतेसाठी तुमच्या ब्राउझरमध्ये चालविले जातात",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ते PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक PDF पृष्ठाचा PNG छायाचित्र म्हणून निर्यात करा किंवा PDF मधून व्यक्तीगत छायाचित्रे PNG म्हणून निर्यात करा",
+    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक PDF पृष्ठाचा PNG छायाचित्र किंवा PDF मधून व्यक्तीगत छायाचित्रे निर्यात करा",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ते JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक PDF पृष्ठाचा JPEG छायाचित्र म्हणून निर्यात करा किंवा PDF मधून व्यक्तीगत छायाचित्रे JPEG म्हणून निर्यात करा",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक PDF पृष्ठाचा JPEG छायाचित्र किंवा PDF मधून व्यक्तीगत छायाचित्रे निर्यात करा",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF एकत्रीकरण",
     "tools__index_page__constant_obj__merge_pdfs__description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF विभाजित करा",
@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ करा",
     "components__pdf_merge__confirm_merge": "संयोजन करण्यासाठी पुष्टी करा",
     "components__pdf_merge__pdf_dropping": "आपण पीडीएफ व्यवस्थापन ड्रॅग आणि ड्रॉप करून प्रक्रिया करू शकता"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
+    "components__pdf_split__add_pdf": "पीडीएफ जोडा",
+    "components__pdf_spli__remove_pdf": "पीडीएफ काढा",
+    "components__pdf_split__select_all": "सर्व निवडा",
+    "components__pdf_split__deselect_all": "सर्व निवड काढा",
+    "components__pdf_split__confirm_split": "विभाजन करण्यासाठी पुष्टी करा",
+    "components__pdf_split__pdf_dropping": "आपण पीडीएफ व्यवस्थापन करण्यासाठी पीडीएफ क्रमांक बदलू शकता",
+    "components__pdf_split__is_single_pdf": "निवडलेल्या पृष्ठांचे एकटे पीडीएफ मर्ज करा",
+    "components__pdf_split__cancel": "रद्द करा",
+    "components__pdf_split__error_maximum": "पीडीएफ फाइल विभाजन करण्यात असफळ, महाप्रमाणातील संख्या पार केली"
   }
 }

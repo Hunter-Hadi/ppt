@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
     "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
     "components__pdf_merge__pdf_dropping": "Možete prilagoditi redoslijed PDF-a povlačenjem i ispuštanjem"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Molimo učitajte određeni tip PDF datoteke",
+    "components__pdf_split__add_pdf": "Dodaj PDF-ove",
+    "components__pdf_spli__remove_pdf": "Ukloni PDF",
+    "components__pdf_split__select_all": "Odaberi sve",
+    "components__pdf_split__deselect_all": "Poništi odabir svih",
+    "components__pdf_split__confirm_split": "Potvrdi razdvajanje",
+    "components__pdf_split__pdf_dropping": "Možete prilagoditi redoslijed PDF-a povlačenjem i ispuštanjem",
+    "components__pdf_split__is_single_pdf": "Spoji odabrane stranice u jedan PDF",
+    "components__pdf_split__cancel": "Odustani",
+    "components__pdf_split__error_maximum": "Neuspjelo razdvajanje PDF datoteka, premašen je maksimalni broj"
   }
 }

@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Xóa PDF",
     "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
     "components__pdf_merge__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
+    "components__pdf_split__add_pdf": "Thêm PDF",
+    "components__pdf_spli__remove_pdf": "Xóa PDF",
+    "components__pdf_split__select_all": "Chọn tất cả",
+    "components__pdf_split__deselect_all": "Bỏ chọn tất cả",
+    "components__pdf_split__confirm_split": "Xác nhận để chia nhỏ",
+    "components__pdf_split__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả",
+    "components__pdf_split__is_single_pdf": "Gộp các trang đã chọn thành một tệp PDF duy nhất",
+    "components__pdf_split__cancel": "Hủy",
+    "components__pdf_split__error_maximum": "Không thể chia nhỏ tệp PDF, Vượt quá số lượng tối đa"
   }
 }

@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
     "components__pdf_merge__confirm_merge": "تأیید ادغام",
     "components__pdf_merge__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
+    "components__pdf_split__add_pdf": "افزودن PDF",
+    "components__pdf_spli__remove_pdf": "حذف PDF",
+    "components__pdf_split__select_all": "انتخاب همه",
+    "components__pdf_split__deselect_all": "عدم انتخاب همه",
+    "components__pdf_split__confirm_split": "تأیید تقسیم",
+    "components__pdf_split__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید",
+    "components__pdf_split__is_single_pdf": "ادغام صفحات انتخاب شده در یک PDF",
+    "components__pdf_split__cancel": "لغو",
+    "components__pdf_split__error_maximum": "تقسیم فایل‌های PDF ناموفق بود، تعداد حداکثر را بیشتر کرده است"
   }
 }

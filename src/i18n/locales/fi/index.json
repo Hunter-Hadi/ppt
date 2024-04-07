@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Tyhjennä PDF:t",
     "components__pdf_merge__confirm_merge": "Vahvista yhdistäminen",
     "components__pdf_merge__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__pdf_split__add_pdf": "Lisää PDF-tiedostoja",
+    "components__pdf_spli__remove_pdf": "Poista PDF",
+    "components__pdf_split__select_all": "Valitse kaikki",
+    "components__pdf_split__deselect_all": "Poista valinta kaikista",
+    "components__pdf_split__confirm_split": "Vahvista jakaminen",
+    "components__pdf_split__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla",
+    "components__pdf_split__is_single_pdf": "Yhdistä valitut sivut yhdeksi PDF-tiedostoksi",
+    "components__pdf_split__cancel": "Peruuta",
+    "components__pdf_split__error_maximum": "PDF-tiedostojen jakaminen epäonnistui, ylitettiin enimmäismäärä"
   }
 }

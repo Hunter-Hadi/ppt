@@ -354,9 +354,9 @@
     "tools__index_page__title": "MaxAI Գործիքներ",
     "tools__index_page__description": "Բոլոր PDF գործիքները 100% անվճար են և աշխատում են ձեր զննարկիչում ամբողջական գաղտնիքով",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF-ից PNG-ի",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Արտահանել յուրաքանչյուր PDF էջը PNG պատկերի կամ առանցինել պատկերները PDF-ից PNG-եր",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Արտահանել յուրաքանչյուր PDF էջը PNG պատկերի կամ առանցինել անհատական պատկերներ PDF-ից PNG-եր",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF-ից JPEG-ի",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Արտահանել յուրաքանչյուր PDF էջը JPEG պատկերի կամ առանցինել պատկերները PDF-ից JPEG-եր",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Արտահանել յուրաքանչյուր PDF էջը JPEG պատկերի կամ առանցինել անհատական պատկերներ PDF-ից JPEG-եր",
     "tools__index_page__constant_obj__merge_pdfs__title": "Միացնել PDF-երը",
     "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում",
     "tools__index_page__constant_obj__split_a_pdf__title": "Փակել PDF",
@@ -654,5 +654,17 @@
     "components__pdf_merge__empty_pdf": "Մաքրել PDF-ները",
     "components__pdf_merge__confirm_merge": "Հաստատել միավորումը",
     "components__pdf_merge__pdf_dropping": "Դուք կարող եք համալիրել PDF-ների կարգը տեղադրելով և շարունակելով"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակին",
+    "components__pdf_split__add_pdf": "Ավելացնել PDF-եր",
+    "components__pdf_spli__remove_pdf": "Հեռացնել PDF",
+    "components__pdf_split__select_all": "Ընտրել բոլորը",
+    "components__pdf_split__deselect_all": "Չընտրել որևէն",
+    "components__pdf_split__confirm_split": "Հաստատել բաժանումը",
+    "components__pdf_split__pdf_dropping": "Դուք կարող եք համապատասխանել PDF-երի կարգը տեղադրելով և ներկայացնելով",
+    "components__pdf_split__is_single_pdf": "Միավորել ընտրված էջերը մեկ PDF-ում",
+    "components__pdf_split__cancel": "Չեղարկել",
+    "components__pdf_split__error_maximum": "Չհաջողվեց բաժանել PDF ֆայլերը, գերազանցվեց առավելագույն քանակը"
   }
 }
