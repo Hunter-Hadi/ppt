@@ -205,29 +205,31 @@ export const FunctionalityPdfSplit = () => {
           position: 'relative',
           overflowY: 'auto',
           maxHeight: 700,
+          minHeight: 200,
         }}
       >
-        {convertedPdfImages.map((imageInfo, index) => (
-          <FunctionalityImage
-            key={imageInfo.id}
-            name={String(index + 1)}
-            imageInfo={imageInfo}
-            onClick={() => onSwitchSelect(imageInfo.id)}
-            rightTopChildren={
-              !currentIsLoading && (
-                <Box
-                  sx={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                  }}
-                >
-                  <Checkbox checked={imageInfo.isSelect} />
-                </Box>
-              )
-            }
-          />
-        ))}
+        {!pdfIsLoading &&
+          convertedPdfImages.map((imageInfo, index) => (
+            <FunctionalityImage
+              key={imageInfo.id}
+              name={String(index + 1)}
+              imageInfo={imageInfo}
+              onClick={() => onSwitchSelect(imageInfo.id)}
+              rightTopChildren={
+                !currentIsLoading && (
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <Checkbox checked={imageInfo.isSelect} />
+                  </Box>
+                )
+              }
+            />
+          ))}
         {currentIsLoading && (
           <Box
             sx={{

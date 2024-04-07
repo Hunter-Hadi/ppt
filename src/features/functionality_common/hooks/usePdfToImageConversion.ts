@@ -18,8 +18,9 @@ export interface IPdfPageImageInfo {
 /**
  * pdf转图片类型 工具 的hook
  * @param toType:转换的类型
+ * @param isNeedPdfHaveImages:是否需要pdf页内图片，需要大量运行资源
  */
-const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveImages = true) => {
+const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveImages = false) => {
   const isCancel = useRef(false);
   const [convertedPdfImages, setConvertedPdfImages] = useState<
     IPdfPageImageInfo[]
@@ -47,6 +48,9 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
       if (!file) {
         return;
       }
+      //simply onReadPdfToImages time 秒数：15.862秒 开启图片预览
+
+      const timeNum = new Date().getTime()
       isCancel.current = false;
 
       setPdfIsLoading(true);
@@ -57,7 +61,6 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
         if (isCancel.current) return;
         setCurrentPdfActionNum(pageNum);
         const toImageData = await generatePdfPageToImage(pdfDocument, pageNum, 1.6, toType, isNeedPdfHaveImages);
-        console.log('simply toImageData', toImageData)
         if (toImageData) {
           if (pdfViewDefaultSize.height !== 1000 && pdfViewDefaultSize.width !== 500) {
             // 不等于默认尺寸，继续
@@ -83,6 +86,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
 
         if (pageNum === pdfDocument._pdfInfo.numPages) {
           setPdfIsLoading(false);
+          console.log('simply onReadPdfToImages time', `秒数：${(new Date().getTime() - timeNum) / 1000}秒`)
         }
       }
     } catch (error) {

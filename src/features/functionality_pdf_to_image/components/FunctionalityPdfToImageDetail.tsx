@@ -2,13 +2,13 @@ import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useCallback, useEffect, useMemo, useState } from 'react';
 
+import usePdfToImageConversion, {
+  IPdfPageImageInfo,
+} from '@/features/functionality_common/hooks/usePdfToImageConversion';
 import FunctionalityIcon from '@/features/functionality_pdf_to_image/components/FunctionalityIcon';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
 import useConvertedContentSelector from '@/features/functionality_pdf_to_image/hooks/useConvertedContentSelector';
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
-import usePdfToImageConversion, {
-  IPdfPageImageInfo,
-} from '@/features/functionality_pdf_to_image/hooks/usePdfToImageConversion';
 
 interface IFunctionalityPdfToImageDetailProps {
   fileData: File;
@@ -38,7 +38,7 @@ const FunctionalityPdfToImageDetail: FC<
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
-  } = usePdfToImageConversion(toType);
+  } = usePdfToImageConversion(toType, true);
   const {
     downloaderIsLoading,
     downloaderTotalPages,
@@ -244,9 +244,10 @@ const FunctionalityPdfToImageDetail: FC<
         sx={{
           py: 5,
           position: 'relative',
+          minHeight: 200,
         }}
       >
-        {currentShowImages?.length > 0 && (
+        {!pdfIsLoading && currentShowImages?.length > 0 && (
           <FunctionalityImageList
             onClickImage={(image) => onSwitchSelect(image.id)}
             imageList={currentShowImages}
@@ -254,7 +255,7 @@ const FunctionalityPdfToImageDetail: FC<
             pageCols={currentShowPageCors}
           />
         )}
-        {!isLoading && currentShowImages?.length === 0 && (
+        {currentShowImages?.length === 0 && (
           <Box
             sx={{
               bgcolor: 'rgba(255,255,255,0.3)',
@@ -285,7 +286,7 @@ const FunctionalityPdfToImageDetail: FC<
           <Box
             sx={{
               position: 'absolute',
-              top: 0,
+              top: 10,
               left: 0,
               right: 15,
               bottom: 0,
