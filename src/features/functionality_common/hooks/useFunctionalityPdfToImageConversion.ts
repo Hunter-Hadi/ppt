@@ -28,7 +28,7 @@ export interface IPdfPageImageInfo {
  */
 const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveImages = false) => {
   const { t } = useTranslation();
-
+  const viewDefaultSize = { width: 500, height: 1000 }
   const isCancel = useRef(false);
   const [convertedPdfImages, setConvertedPdfImages] = useState<
     IPdfPageImageInfo[]
@@ -43,7 +43,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
   const [pdfViewDefaultSize, setPdfViewDefaultSize] = useState<{
     width: number;
     height: number;
-  }>({ width: 500, height: 1000 }); //默认尺寸
+  }>({ width: viewDefaultSize.width, height: viewDefaultSize.height }); //默认尺寸
   useEffect(() => {
     if (pdfIsLoading) {
       setPdfTotalPages(0)
@@ -73,7 +73,7 @@ const usePdfToImageConversion = (toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveIm
           setCurrentPdfActionNum(pageNum);
           const toImageData = await generatePdfPageToImage(pdfDocument, pageNum, 1.6, toType, isNeedPdfHaveImages);
           if (toImageData) {
-            if (pdfViewDefaultSize.height !== 1000 && pdfViewDefaultSize.width !== 500) {
+            if (toImageData.height !== viewDefaultSize.height && toImageData.width !== viewDefaultSize.width) {
               // 不等于默认尺寸，继续
               setPdfViewDefaultSize({
                 width: Math.floor(toImageData.width),

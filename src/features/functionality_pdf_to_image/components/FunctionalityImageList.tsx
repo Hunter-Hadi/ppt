@@ -48,6 +48,9 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
+                backgroundColor: '#d1d5db',
+                width: 20,
+                height: 20,
               }}
             >
               <Checkbox checked={imageInfo.isSelect} />

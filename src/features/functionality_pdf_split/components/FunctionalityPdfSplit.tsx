@@ -191,7 +191,7 @@ export const FunctionalityPdfSplit = () => {
           <Grid item xs={6} md={2}>
             <Button
               sx={{ width: '100%' }}
-              size='small'
+              size='large'
               disabled={currentIsLoading || convertedPdfImages.length === 0}
               variant='outlined'
               onClick={onSwitchAllSelect}
@@ -208,7 +208,7 @@ export const FunctionalityPdfSplit = () => {
           <Grid item xs={6} md={2}>
             <Button
               sx={{ width: '100%' }}
-              size='small'
+              size='large'
               disabled={currentIsLoading}
               variant='outlined'
               color='error'
@@ -246,7 +246,7 @@ export const FunctionalityPdfSplit = () => {
             <Grid item xs={12} md={2}>
               <Button
                 sx={{ width: '100%' }}
-                size='small'
+                size='large'
                 variant='outlined'
                 color='error'
                 onClick={() => onCancelPdfActive()}
@@ -268,6 +268,7 @@ export const FunctionalityPdfSplit = () => {
           sx={{
             position: 'relative',
             overflowY: 'auto',
+            overflowX: 'hidden',
             maxHeight: 700,
             minHeight: 200,
           }}
@@ -345,7 +346,7 @@ export const FunctionalityPdfSplit = () => {
             <Button
               sx={{ width: '100%' }}
               disabled={currentIsLoading}
-              size='small'
+              size='large'
               variant='contained'
               onClick={() => confirmToSplit()}
             >

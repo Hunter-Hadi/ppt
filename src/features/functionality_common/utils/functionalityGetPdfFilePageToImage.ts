@@ -4,6 +4,11 @@ import { v4 as uuidV4 } from 'uuid';
 
 /**
   * 生成Pdf到图像
+  * @type pdfDocument - pdf文档
+  * @type  pageNum - 页码
+  * @type  scale - 缩放比例 默认1.6
+  * @type  toType - 转换的类型 png/jpeg
+  * @type  isNeedPdfHaveImages - 是否需要pdf内含有图像
   */
 export const generatePdfPageToImage = async (
     pdfDocument: any, //PDFDocumentProxy react-pdfjs没有导出
@@ -91,9 +96,9 @@ const findPdfToImage = async (page: any) => {
                                     id: uuidV4(),
                                     imageUrlString: base64Data,
                                     isSelect: true,
-                                    definedIndex: 1,
-                                }]
-                                if (i === imageNames.length - 1) {
+                                    definedIndex: i,
+                                }].sort((a, b) => a.definedIndex - b.definedIndex)
+                                if (haveImages.length === imageNames.length) {
                                     resolve(haveImages)
                                 }
                             };

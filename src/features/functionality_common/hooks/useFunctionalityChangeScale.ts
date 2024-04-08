@@ -12,12 +12,9 @@ import { useCallback, useState } from "react";
 export const useFunctionalityChangeScale = () => {
     const defScale = 4, maxScale = 10, minScale = 2;
     const [currentScale, setCurrentScale] = useState<number>(defScale); //当前一行多少个展示
-    const onDefaultChangeScale = (num: number) => {
-        if (num === 1) {
-            setCurrentScale(maxScale);
-        } else {
-            setCurrentScale(defScale);
-        }
+    const onDefaultChangeScale = (num?: number) => {
+        //TODO:num === 1这里应该根据图片的宽和高比例调节的，但为了简单开发，这里直接写死
+        setCurrentScale(defScale);
     }
     const changeScale = useCallback(
         (type: 'enlarge' | 'narrow') => {

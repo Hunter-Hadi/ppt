@@ -75,10 +75,11 @@ const FunctionalityPdfMerge = () => {
   ): Promise<{ image: string; pages: number } | null> {
     try {
       const buff = await file.arrayBuffer();
+      await PDFDocument.load(buff); //load来判断pdf是否加密或者无法提取，异常则进入catch
+
       // 将当前 PDF 文档的所有页面复制到合并后的 PDF 文档中
       const loadingTask = pdfjs.getDocument(buff);
       const pdfDocument = await loadingTask.promise;
-      await PDFDocument.load(buff); //load来判断pdf是否加密或者无法提取，异常则进入catch
       const pages = pdfDocument._pdfInfo.numPages;
       const page = await pdfDocument.getPage(1);
 
@@ -123,12 +124,10 @@ const FunctionalityPdfMerge = () => {
   const mergePdfFiles = async (fileList: File[]) => {
     // 创建一个新的 PDF 文档，它将成为最终合并的文档
     const mergedPdfDoc = await PDFDocument.create();
-
-    // 遍历传入的文件列表
-    for (let i = 0; i < fileList.length; i++) {
+    for (const file of fileList) {
       // 将文件转换为 ArrayBuffer
       try {
-        const arrayBuffer = await fileList[i].arrayBuffer();
+        const arrayBuffer = await file.arrayBuffer();
         // 加载该 ArrayBuffer 为 PDF 文档
         const pdfDoc = await PDFDocument.load(arrayBuffer);
         // 将当前 PDF 文档的所有页面复制到合并后的 PDF 文档中
@@ -143,6 +142,7 @@ const FunctionalityPdfMerge = () => {
         console.log('simply mergePdfFiles', e);
       }
     }
+
     // 将合并后的 PDF 文档序列化为 Uint8Array
     const mergedPdfUint8Array = await mergedPdfDoc.save();
     return mergedPdfUint8Array;
@@ -193,7 +193,7 @@ const FunctionalityPdfMerge = () => {
           direction='row'
           justifyContent='center'
           alignItems='center'
-          sx={{ my: 5 }}
+          sx={{ my: 1 }}
           gap={1}
         >
           <Grid item>
@@ -203,6 +203,7 @@ const FunctionalityPdfMerge = () => {
               buttonProps={{
                 variant: 'outlined',
                 disabled: idLoading,
+                size: 'large',
               }}
               inputProps={{
                 accept: 'application/pdf',
@@ -218,6 +219,7 @@ const FunctionalityPdfMerge = () => {
               variant='outlined'
               disabled={idLoading}
               color='error'
+              size='large'
               onClick={() => setPdfInfoList([])}
             >
               {t('functionality__pdf_merge:components__pdf_merge__empty_pdf')}
@@ -256,7 +258,7 @@ const FunctionalityPdfMerge = () => {
           <Grid item xs={10} md={2}>
             <Button
               sx={{ width: '100%' }}
-              size='small'
+              size='large'
               disabled={pdfInfoList.length < 2 || idLoading}
               variant='contained'
               onClick={() => onDownloadZip()}

@@ -44,7 +44,7 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
         flexDirection: 'column',
         alignItems: 'center',
         flexWrap: 'wrap',
-        width: 150,
+        width: 200,
       }}
     >
       <FunctionalityImage

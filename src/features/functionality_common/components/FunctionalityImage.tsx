@@ -16,7 +16,7 @@ interface IFunctionalitySortableImageProps {
   isActive?: boolean;
   rightTopChildren?: React.ReactNode;
   onClick?: () => void;
-  imageSize?: number;
+  imageSize?: number | string;
 }
 /**
  * Functionality公共的图片视图，带有tooltip
@@ -52,7 +52,7 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
         sx={{
           cursor: 'grab',
           position: 'relative',
-          width: imageSize || 150,
+          width: imageSize || 200,
         }}
       >
         <Box
@@ -101,8 +101,8 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
           <Box
             sx={{
               position: 'absolute',
-              top: 0,
-              right: 0,
+              top: 5,
+              right: 5,
               height: 20,
               width: 20,
               display: 'flex',

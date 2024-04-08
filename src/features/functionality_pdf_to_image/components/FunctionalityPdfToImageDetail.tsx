@@ -59,13 +59,11 @@ const FunctionalityPdfToImageDetail: FC<
           ? setConvertedPdfImages
           : setPdfPageHaveImages,
     });
-  const { changeScale, currentScale, onDefaultChangeScale } =
-    useFunctionalityChangeScale();
+  const { changeScale, currentScale } = useFunctionalityChangeScale();
   const readPdfToImages = debounce(async (file) => {
     //debounce 防止useEffect导致的执行两次
     if (file) {
       const isReadSuccess = await onReadPdfToImages(file);
-      console.log('simply isReadSuccess', isReadSuccess);
       if (!isReadSuccess) {
         onRemoveFile && onRemoveFile();
       }
@@ -74,9 +72,6 @@ const FunctionalityPdfToImageDetail: FC<
   useEffect(() => {
     readPdfToImages(fileData);
   }, [fileData]);
-  useEffect(() => {
-    onDefaultChangeScale(currentShowImages.length);
-  }, [currentShowImages, showPdfImagesType]);
   const maxSizeScaleNum = 4;
   const imageSizeList = useMemo(() => {
     // 图片储存列表设置
@@ -134,7 +129,7 @@ const FunctionalityPdfToImageDetail: FC<
         <Grid item xs={6} md={2}>
           <Button
             sx={{ width: '100%' }}
-            size='small'
+            size='large'
             disabled={isLoading || currentShowImages.length === 0}
             variant='outlined'
             onClick={onSwitchAllSelect}
@@ -151,7 +146,7 @@ const FunctionalityPdfToImageDetail: FC<
         <Grid item xs={6} md={2}>
           <Button
             sx={{ width: '100%' }}
-            size='small'
+            size='large'
             disabled={isLoading}
             variant='outlined'
             onClick={onSwitchPdfImagesType}
@@ -165,26 +160,10 @@ const FunctionalityPdfToImageDetail: FC<
                 )}
           </Button>
         </Grid>
-        {currentShowImages?.length > 0 && (
-          <Grid item xs={6} md={2}>
-            <Button
-              sx={{ width: '100%' }}
-              size='small'
-              disabled={isLoading}
-              variant='contained'
-              onClick={() => downloadZip()}
-            >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__download_images',
-              )}
-            </Button>
-          </Grid>
-        )}
-
         <Grid item xs={6} md={2}>
           <Button
             sx={{ width: '100%' }}
-            size='small'
+            size='large'
             disabled={isLoading}
             variant='outlined'
             color='error'
@@ -220,7 +199,7 @@ const FunctionalityPdfToImageDetail: FC<
           <Grid item xs={12} md={2}>
             <Button
               sx={{ width: '100%' }}
-              size='small'
+              size='large'
               variant='outlined'
               color='error'
               onClick={() => onCancel()}
@@ -362,7 +341,7 @@ const FunctionalityPdfToImageDetail: FC<
             <Button
               sx={{ width: '100%' }}
               disabled={isLoading}
-              size='small'
+              size='large'
               variant='contained'
               onClick={() => downloadZip()}
             >
