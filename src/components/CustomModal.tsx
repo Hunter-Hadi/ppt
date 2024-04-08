@@ -1,4 +1,4 @@
-import CloseIcon from '@mui/icons-material/Close';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import {
   Box,
   Fade,
@@ -85,7 +85,7 @@ const CustomModal: FC<IProps> = ({
                   },
                 }}
               >
-                <CloseIcon />
+                <CloseOutlinedIcon />
               </IconButton>
             </Box>
             {children}
