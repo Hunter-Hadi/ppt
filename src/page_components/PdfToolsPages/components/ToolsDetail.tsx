@@ -1,4 +1,5 @@
 import { Box } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC, lazy, Suspense, useMemo } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
@@ -34,10 +35,36 @@ interface IToolsDetailProps {
 
 const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
   const currentToolData = useMemo(() => toolsObjectData[urlKey], [urlKey]);
-
+  const { t } = useTranslation();
+  const urkKeyOfSeoInfo: {
+    [key in IToolUrkKeyType]: {
+      title: string;
+      description: string;
+    };
+  } = {
+    'pdf-to-jpeg': {
+      title: t('seo:pdf_tools__pdf_to_jpeg__title'),
+      description: t('seo:pdf_tools__pdf_to_jpeg__description'),
+    },
+    'pdf-to-png': {
+      title: t('seo:pdf_tools__pdf_to_png__title'),
+      description: t('seo:pdf_tools__pdf_to_png__description'),
+    },
+    'merge-pdfs': {
+      title: t('seo:pdf_tools__merge_pdfs__title'),
+      description: t('seo:pdf_tools__merge_pdfs__description'),
+    },
+    'split-pdf': {
+      title: t('seo:pdf_tools__split_pdf__title'),
+      description: t('seo:pdf_tools__split_pdf__description'),
+    },
+  };
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
-      <AppDefaultSeoLayout title={'Tools | MaxAI.me'} />
+      <AppDefaultSeoLayout
+        title={urkKeyOfSeoInfo[urlKey].title}
+        description={urkKeyOfSeoInfo[urlKey].description}
+      />
       <Box
         sx={{
           display: 'flex',
@@ -62,7 +89,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             <FunctionalityPdfMerge />
           </Suspense>
         )}
-        {urlKey === 'split-a-pdf' && (
+        {urlKey === 'split-pdf' && (
           <Suspense fallback={<AppLoadingLayout loading />}>
             <FunctionalityPdfSplit />
           </Suspense>

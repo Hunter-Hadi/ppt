@@ -595,7 +595,17 @@
     "usechatgpt__description": "Az AI leggyorsabb módja az online használatra. Egy kattintással írhat, javíthatja a szöveget, összefoglalhatja, magyarázhatja, helyesírást és nyelvtant javíthat, hangulatot változtathat, fordíthat vagy válaszolhat bármilyen szövegre.",
     "install__title": "Telepítés | MaxAI.me",
     "zmo__title": "Mindent egyben AI Design Art Generator | AI képgenerátor szövegből | ImgCreator.AI",
-    "zmo__description": "Hozzon létre művészetet és képeket AI segítségével ingyen. Az ImgCreator.ai generálhat képeket, művészetet, illusztrációkat, anime-t, logókat, terveket szövegből és képekből. Saját technológiánk életre kelti a képzeletedet."
+    "zmo__description": "Hozzon létre művészetet és képeket AI segítségével ingyen. Az ImgCreator.ai generálhat képeket, művészetet, illusztrációkat, anime-t, logókat, terveket szövegből és képekből. Saját technológiánk életre kelti a képzeletedet.",
+    "pdf_tools__title": "Ingyenes PDF Eszközök - PDF Konvertálás, Tömörítés és Szerkesztés Online | MaxAI.me",
+    "pdf_tools__description": "Fedezze fel gyűjteményünket, amely segít Önnek ingyenesen konvertálni, tömöríteni, szerkeszteni és aláírni a PDF fájlokat online.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - Bármilyen PDF átalakítása képekbe ingyen | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Nincs letöltés vagy vízjel - egyszerűen használja ezt a kiváló ingyenes online eszközt a PDF oldalak JPEG képekké történő átalakításához vagy egyedi képek kinyeréséhez a PDF fájlokból.",
+    "pdf_tools__pdf_to_png__title": "PDF to PNG - Bármilyen PDF átalakítása képekbe ingyen | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Nincs letöltés vagy vízjel - egyszerűen használja ezt a kiváló ingyenes online eszközt a PDF oldalak PNG képekké történő átalakításához vagy egyedi képek kinyeréséhez a PDF fájlokból.",
+    "pdf_tools__merge_pdfs__title": "PDF-ek egyesítése - PDF-ek online kombinálása - Több PDF fájl egyszerű egyesítése egybe | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Nincs letöltés vagy vízjel - csak néhány kattintásra van szükség a több PDF fájl egyetlen dokumentumba való egyesítéséhez. Használja megbízható ingyenes online eszközünket a PDF-ek hatékony kombinálásához.",
+    "pdf_tools__split_pdf__title": "PDF-ek felosztása - Egy PDF oldalainak felosztása több PDF-re vagy egyszerűen oldalak eltávolítása meglévőből | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Nincs letöltés vagy vízjel - válassza ki, hogy a PDF-t különálló fájlokra szeretné-e felosztani, vagy válogatott oldalakat egyetlen dokumentumba szeretne-e egyesíteni a sokoldalú ingyenes online eszközünkkel. Tapasztalja meg a zökkenőmentes PDF testreszabást."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",

@@ -595,7 +595,17 @@
     "usechatgpt__description": "Ātrākais veids, kā izmantot AI jebkur tiešsaistē. Vienā klikšķī komponējiet, uzlabojiet rakstīšanu, apkopojiet, skaidrojiet, labojiet pareizrakstību un gramatiku, mainiet toni, tulkojiet vai atbildiet uz jebkuru tekstu.",
     "install__title": "Instalēt | MaxAI.me",
     "zmo__title": "Viss vienā AI dizaina mākslas ģenerators",
-    "zmo__description": "Izveidojiet mākslu un attēlus ar AI bez maksas. ImgCreator.ai var ģenerēt attēlus, mākslu, ilustrācijas, anime, logo, dizainus no teksta un attēliem. Mūsu patentētā tehnoloģija iedvesmos jūsu iztēli."
+    "zmo__description": "Izveidojiet mākslu un attēlus ar AI bez maksas. ImgCreator.ai var ģenerēt attēlus, mākslu, ilustrācijas, anime, logo, dizainus no teksta un attēliem. Mūsu patentētā tehnoloģija iedvesmos jūsu iztēli.",
+    "pdf_tools__title": "Bezmaksas PDF rīki - Konvertēt, Saspiežot un Rediģēt PDF failus tiešsaistē | MaxAI.me",
+    "pdf_tools__description": "Izpēti mūsu rīku kolekciju, kas palīdz konvertēt, saspiežot, rediģējot un parakstot PDF failus tiešsaistē bez maksas.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF uz JPEG - Konvertēt jebkurus PDF failus par attēliem tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Nav nepieciešams lejupielādēt vai reklāmas ūdenszīmes - vienkārši izmanto šo lielisko bezmaksas tiešsaistes rīku, lai konvertētu PDF lapas par JPEG attēliem vai izvilktu atsevišķus attēlus no savām PDF failiem.",
+    "pdf_tools__pdf_to_png__title": "PDF uz PNG - Konvertēt jebkurus PDF failus par attēliem tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Nav nepieciešams lejupielādēt vai reklāmas ūdenszīmes - vienkārši izmanto šo lielisko bezmaksas tiešsaistes rīku, lai konvertētu PDF lapas par PNG attēliem vai izvilktu atsevišķus attēlus no savām PDF failiem.",
+    "pdf_tools__merge_pdfs__title": "Apvienot PDF failus - Vienkārši apvieno vairākus PDF failus vienā | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Nav nepieciešams lejupielādēt vai reklāmas ūdenszīmes - tikai daži klikšķi, lai apvienotu vairākus PDF failus vienā dokumentā. Izmanto mūsu uzticamo bezmaksas tiešsaistes rīku, lai efektīvi apvienotu savus PDF failus.",
+    "pdf_tools__split_pdf__title": "Sadalīt PDF failus - Sadalīt PDF lapas vairākos PDF failos vai vienkārši noņemt lapas no esoša | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Nav nepieciešams lejupielādēt vai reklāmas ūdenszīmes - izvēlies sadalīt savu PDF failu atsevišķos failos vai apvienot atlasītas lapas vienā dokumentā ar mūsu daudzpusīgo bezmaksas tiešsaistes rīku. Izbaudi nevainojamu PDF pielāgošanu."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",

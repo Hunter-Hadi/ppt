@@ -595,7 +595,17 @@
     "usechatgpt__description": "Il modo più veloce per utilizzare l'IA ovunque online. Un clic per comporre, migliorare la scrittura, riassumere, spiegare, correggere errori di ortografia e grammatica, cambiare tono, tradurre o rispondere a qualsiasi testo.",
     "install__title": "Installazione | MaxAI.me",
     "zmo__title": "Generatore d'Arte AI All-in-One | Generatore di Immagini AI da Testo | ImgCreator.AI",
-    "zmo__description": "Crea arte e immagini con l'IA gratuitamente. ImgCreator.ai può generare immagini, arte, illustrazioni, anime, loghi, design da testo e immagini. La nostra tecnologia proprietaria darà vita alla tua immaginazione."
+    "zmo__description": "Crea arte e immagini con l'IA gratuitamente. ImgCreator.ai può generare immagini, arte, illustrazioni, anime, loghi, design da testo e immagini. La nostra tecnologia proprietaria darà vita alla tua immaginazione.",
+    "pdf_tools__title": "Strumenti PDF gratuiti - Converti, Comprimi e Modifica i PDF Online | MaxAI.me",
+    "pdf_tools__description": "Esplora la nostra collezione di strumenti per aiutarti a convertire, comprimere, modificare e firmare i PDF online gratuitamente.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF in JPEG - Converti qualsiasi PDF in immagini online gratuitamente | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Nessun download o filigrane pubblicitarie: utilizza semplicemente questo eccellente strumento online gratuito per convertire le pagine PDF in immagini JPEG o estrarre immagini singole dai tuoi file PDF.",
+    "pdf_tools__pdf_to_png__title": "PDF in PNG - Converti qualsiasi PDF in immagini online gratuitamente | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Nessun download o filigrane pubblicitarie: utilizza semplicemente questo eccellente strumento online gratuito per convertire le pagine PDF in immagini PNG o estrarre immagini singole dai tuoi file PDF.",
+    "pdf_tools__merge_pdfs__title": "Unisci PDF - Combina i PDF online - Unisci facilmente più file PDF in uno solo | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Nessun download o filigrane pubblicitarie: pochi clic per unire più file PDF in un unico documento. Utilizza il nostro affidabile strumento online gratuito per combinare i tuoi PDF in modo efficiente.",
+    "pdf_tools__split_pdf__title": "Dividi PDF - Dividi le pagine di un PDF in più PDF o semplicemente rimuovi pagine da uno esistente | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Nessun download o filigrane pubblicitarie: scegli di dividere il tuo PDF in file separati o unire pagine selezionate in un unico documento con il nostro versatile strumento online gratuito. Sperimenta una personalizzazione dei PDF senza interruzioni."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",

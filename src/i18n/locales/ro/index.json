@@ -595,7 +595,17 @@
     "usechatgpt__description": "Cel mai rapid mod de a utiliza AI oriunde online. Un clic pentru a compune, îmbunătăți scrierea, rezuma, explica, corecta greșeli gramaticale și ortografice, schimba tonul, traduce sau răspunde la orice text.",
     "install__title": "Instalare | MaxAI.me",
     "zmo__title": "Generator de artă AI all-in-one | Generator de imagini AI din text | ImgCreator.AI",
-    "zmo__description": "Creați artă și imagini cu ajutorul AI gratuit. ImgCreator.ai poate genera imagini, artă, ilustrații, anime, logo-uri, designuri din text și imagini. Tehnologia noastră proprietară va da viață imaginației tale."
+    "zmo__description": "Creați artă și imagini cu ajutorul AI gratuit. ImgCreator.ai poate genera imagini, artă, ilustrații, anime, logo-uri, designuri din text și imagini. Tehnologia noastră proprietară va da viață imaginației tale.",
+    "pdf_tools__title": "Instrumente PDF gratuite - Convertiți, comprimați și editați PDF-uri online | MaxAI.me",
+    "pdf_tools__description": "Explorați colecția noastră de instrumente care vă ajută să convertiți, comprimați, editați și semnați PDF-uri online gratuit.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF în JPEG - Convertiți orice PDF-uri în imagini online gratuit | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Fără descărcări sau filigrane publicitare - utilizați pur și simplu acest excelent instrument online gratuit pentru a converti paginile PDF în imagini JPEG sau pentru a extrage imagini individuale din fișierele PDF.",
+    "pdf_tools__pdf_to_png__title": "PDF în PNG - Convertiți orice PDF-uri în imagini online gratuit | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Fără descărcări sau filigrane publicitare - utilizați pur și simplu acest excelent instrument online gratuit pentru a converti paginile PDF în imagini PNG sau pentru a extrage imagini individuale din fișierele PDF.",
+    "pdf_tools__merge_pdfs__title": "Unificare PDF-uri - Combinați PDF-uri online - Unificați ușor mai multe fișiere PDF într-unul singur | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Fără descărcări sau filigrane publicitare - doar câteva clicuri pentru a uni mai multe fișiere PDF într-un singur document. Utilizați instrumentul nostru online gratuit și de încredere pentru a combina eficient PDF-urile.",
+    "pdf_tools__split_pdf__title": "Divizare PDF-uri - Divizați paginile unui PDF în mai multe fișiere PDF sau pur și simplu eliminați pagini dintr-unul existent | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Fără descărcări sau filigrane publicitare - alegeți să divizați PDF-ul în fișiere separate sau să uniți pagini selectate într-un singur document cu ajutorul instrumentului nostru online gratuit și versatil. Experimentați personalizarea PDF-urilor fără probleme."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",

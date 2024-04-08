@@ -595,7 +595,17 @@
     "usechatgpt__description": "Greičiausias būdas naudoti dirbtinį intelektą bet kurioje interneto vietoje. Vienas paspaudimas, kad sudarytumėte, pagerintumėte rašymą, suvestumėte, paaiškintumėte, ištaisytumėte rašybą ir gramatiką, pakeistumėte toną, išverstumėte ar atsakytumėte į bet kokį tekstą.",
     "install__title": "Įdiegti | MaxAI.me",
     "zmo__title": "Viskas viename dirbtinio intelekto dizaino meno generatorius | AI paveikslėlių generatorius iš teksto | ImgCreator.AI",
-    "zmo__description": "Sukurkite meną ir paveikslus su dirbtiniu intelektu nemokamai. ImgCreator.ai gali generuoti paveikslus, meną, iliustracijas, anime, logotipus, dizainus iš teksto ir paveikslėlių. Mūsų autorių teisėmis saugoma technologija pavers jūsų vaizduotę tikrove."
+    "zmo__description": "Sukurkite meną ir paveikslus su dirbtiniu intelektu nemokamai. ImgCreator.ai gali generuoti paveikslus, meną, iliustracijas, anime, logotipus, dizainus iš teksto ir paveikslėlių. Mūsų autorių teisėmis saugoma technologija pavers jūsų vaizduotę tikrove.",
+    "pdf_tools__title": "Nemokami PDF įrankiai - Konvertuoti, suspausti ir redaguoti PDF failus internete | MaxAI.me",
+    "pdf_tools__description": "Ištyrinkite mūsų įrankių kolekciją, padėsiančią jums nemokamai konvertuoti, suspausti, redaguoti ir pasirašyti PDF failus internete.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF į JPEG - Nemokamai konvertuoti bet kokius PDF failus į paveikslėlius | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Jokių atsisiuntimų ar vandens ženklų - tiesiog naudokite šį puikų nemokamą internetinį įrankį, skirtą konvertuoti PDF puslapius į JPEG paveikslėlius arba išgauti atskirus paveikslėlius iš savo PDF failų.",
+    "pdf_tools__pdf_to_png__title": "PDF į PNG - Nemokamai konvertuoti bet kokius PDF failus į paveikslėlius | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Jokių atsisiuntimų ar vandens ženklų - tiesiog naudokite šį puikų nemokamą internetinį įrankį, skirtą konvertuoti PDF puslapius į PNG paveikslėlius arba išgauti atskirus paveikslėlius iš savo PDF failų.",
+    "pdf_tools__merge_pdfs__title": "Sulieti PDF failus - Paprastai sujungti kelis PDF failus į vieną | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Jokių atsisiuntimų ar vandens ženklų - vos keli paspaudimai, ir jūs galite sujungti kelis PDF failus į vieną dokumentą. Naudokite mūsų patikimą nemokamą internetinį įrankį, kad efektyviai sujungtumėte savo PDF failus.",
+    "pdf_tools__split_pdf__title": "Padalinti PDF failus - Padalinti PDF puslapius į kelis PDF failus arba tiesiog pašalinti puslapius iš esamo | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Jokių atsisiuntimų ar vandens ženklų - galite pasirinkti padalinti savo PDF į atskirus failus arba sujungti pasirinktus puslapius į vieną dokumentą naudodami mūsų universalų nemokamą internetinį įrankį. Patirkite sklandų PDF tinkinimą."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",

@@ -595,7 +595,17 @@
     "usechatgpt__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan online. Isang click para magsulat, magpabuti ng pagsusulat, magbuod, ipaliwanag, ayusin ang pagbaybay at gramatika, baguhin ang tono, isalin, o tumugon sa anumang teksto.",
     "install__title": "Mag-install | MaxAI.me",
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator Mula sa Teksto | ImgCreator.AI",
-    "zmo__description": "Lumikha ng sining at mga imahe gamit ang AI nang libre. Ang ImgCreator.ai ay maaaring lumikha ng mga imahe, sining, larawan, anime, logo, disenyo mula sa teksto at mga imahe. Ang aming sariling teknolohiya ay magbibigay-buhay sa iyong imahinasyon."
+    "zmo__description": "Lumikha ng sining at mga imahe gamit ang AI nang libre. Ang ImgCreator.ai ay maaaring lumikha ng mga imahe, sining, larawan, anime, logo, disenyo mula sa teksto at mga imahe. Ang aming sariling teknolohiya ay magbibigay-buhay sa iyong imahinasyon.",
+    "pdf_tools__title": "Libreng Mga Tool sa PDF - I-convert, I-kompres, at I-edit ang Mga PDF Online | MaxAI.me",
+    "pdf_tools__description": "Tuklasin ang aming koleksyon ng mga tool na tutulong sa iyo na i-convert, i-kompres, i-edit, at lagdaan ang mga PDF online nang libre.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - I-convert ang Anumang PDF sa Mga Larawan Online Nang Libre | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Walang pag-download o ad watermarks - gamitin lamang ang mahusay na libreng online na tool na ito upang i-convert ang mga pahina ng PDF sa mga larawan na JPEG o kumuha ng mga indibidwal na larawan mula sa iyong mga PDF file.",
+    "pdf_tools__pdf_to_png__title": "PDF to PNG - I-convert ang Anumang PDF sa Mga Larawan Online Nang Libre | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Walang pag-download o ad watermarks - gamitin lamang ang mahusay na libreng online na tool na ito upang i-convert ang mga pahina ng PDF sa mga larawan na PNG o kumuha ng mga indibidwal na larawan mula sa iyong mga PDF file.",
+    "pdf_tools__merge_pdfs__title": "Pagsamahin ang Mga PDF - Pagsamahin ang Mga PDF Online - Madaling Pagsamahin ang Maraming PDF File sa Isa | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Walang pag-download o ad watermarks - ilang mga pindot lamang upang pagsamahin ang maraming PDF file sa isang solong dokumento. Gamitin ang aming maaasahang libreng online na tool para sa mabilis at epektibong pagpagsama ng iyong mga PDF.",
+    "pdf_tools__split_pdf__title": "Hatihin ang Mga PDF - Hatihin ang mga Pahina ng PDF sa Maraming PDF o Alisin lamang ang Mga Pahina mula sa Isang Kasalukuyang PDF | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Walang pag-download o ad watermarks - pumili kung hatiin ang iyong PDF sa hiwalay na mga file o pagsamahin ang napiling mga pahina sa isang dokumento gamit ang aming malawak na libreng online na tool. Matamasa ang walang abalang pag-customize ng PDF."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",

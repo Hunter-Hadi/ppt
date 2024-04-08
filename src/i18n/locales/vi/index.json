@@ -595,7 +595,17 @@
     "usechatgpt__description": "Cách nhanh nhất để sử dụng trí tuệ nhân tạo mọi lúc mọi nơi trên mạng. Chỉ cần một cú nhấp chuột để soạn thảo, cải thiện viết, tóm tắt, giải thích, sửa chính tả và ngữ pháp, thay đổi ngữ điệu, dịch hoặc trả lời bất kỳ văn bản nào.",
     "install__title": "Cài đặt | MaxAI.me",
     "zmo__title": "Trình tạo nghệ thuật thiết kế AI toàn diện | Trình tạo hình ảnh AI từ văn bản | ImgCreator.AI",
-    "zmo__description": "Tạo nghệ thuật và hình ảnh với trí tuệ nhân tạo miễn phí. ImgCreator.ai có thể tạo ra hình ảnh, nghệ thuật, minh họa, anime, logo, thiết kế từ văn bản và hình ảnh. Công nghệ độc quyền của chúng tôi sẽ mang ý tưởng của bạn đến cuộc sống."
+    "zmo__description": "Tạo nghệ thuật và hình ảnh với trí tuệ nhân tạo miễn phí. ImgCreator.ai có thể tạo ra hình ảnh, nghệ thuật, minh họa, anime, logo, thiết kế từ văn bản và hình ảnh. Công nghệ độc quyền của chúng tôi sẽ mang ý tưởng của bạn đến cuộc sống.",
+    "pdf_tools__title": "Công cụ PDF miễn phí - Chuyển đổi, nén và chỉnh sửa PDF trực tuyến | MaxAI.me",
+    "pdf_tools__description": "Khám phá bộ công cụ của chúng tôi để giúp bạn chuyển đổi, nén, chỉnh sửa và ký PDF trực tuyến miễn phí.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF sang JPEG - Chuyển đổi PDF thành hình ảnh trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chỉ cần sử dụng công cụ trực tuyến miễn phí tuyệt vời này để chuyển đổi trang PDF thành hình ảnh JPEG hoặc trích xuất các hình ảnh riêng lẻ từ tệp PDF của bạn.",
+    "pdf_tools__pdf_to_png__title": "PDF sang PNG - Chuyển đổi PDF thành hình ảnh trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chỉ cần sử dụng công cụ trực tuyến miễn phí tuyệt vời này để chuyển đổi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ tệp PDF của bạn.",
+    "pdf_tools__merge_pdfs__title": "Hợp nhất PDF - Kết hợp PDF trực tuyến - Dễ dàng hợp nhất nhiều tệp PDF thành một | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chỉ cần vài cú nhấp chuột để hợp nhất nhiều tệp PDF thành một tài liệu duy nhất. Sử dụng công cụ trực tuyến miễn phí đáng tin cậy của chúng tôi để kết hợp PDF của bạn một cách hiệu quả.",
+    "pdf_tools__split_pdf__title": "Chia tách PDF - Chia trang PDF thành nhiều tệp PDF hoặc đơn giản là xóa trang khỏi tệp hiện có | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chọn chia tách PDF thành các tệp riêng biệt hoặc hợp nhất các trang được chọn vào một tài liệu duy nhất với công cụ trực tuyến miễn phí linh hoạt của chúng tôi. Trải nghiệm tùy chỉnh PDF mượt mà."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",

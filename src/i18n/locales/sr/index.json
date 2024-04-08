@@ -595,7 +595,17 @@
     "usechatgpt__description": "Najbrži način da koristite veštačku inteligenciju bilo gde na internetu. Jednim klikom komponujte, poboljšavajte pisanje, rezimirajte, objasnite, ispravite pravopis i gramatiku, promenite ton, prevodite ili odgovorite na bilo koji tekst.",
     "install__title": "Instalacija | MaxAI.me",
     "zmo__title": "Sve-u-jednom AI generator umetnosti | AI generator slika iz teksta | ImgCreator.AI",
-    "zmo__description": "Kreirajte umetnost i slike uz pomoć veštačke inteligencije besplatno. ImgCreator.ai može generisati slike, umetnost, ilustracije, anime, logoe, dizajne iz teksta i slika. Naša patentirana tehnologija će oživeti vašu maštu."
+    "zmo__description": "Kreirajte umetnost i slike uz pomoć veštačke inteligencije besplatno. ImgCreator.ai može generisati slike, umetnost, ilustracije, anime, logoe, dizajne iz teksta i slika. Naša patentirana tehnologija će oživeti vašu maštu.",
+    "pdf_tools__title": "Besplatni alati za PDF - Konvertujte, kompresujte i uređujte PDF fajlove online | MaxAI.me",
+    "pdf_tools__description": "Istražite našu kolekciju alata koji vam pomažu da besplatno konvertujete, kompresujete, uređujete i potpisujete PDF fajlove online.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF u JPEG - Besplatna konverzija PDF fajlova u slike | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Bez preuzimanja ili vodenih žigova - jednostavno koristite ovaj odličan besplatni online alat za konverziju stranica iz PDF fajlova u JPEG slike ili izdvajanje pojedinačnih slika iz vaših PDF fajlova.",
+    "pdf_tools__pdf_to_png__title": "PDF u PNG - Besplatna konverzija PDF fajlova u slike | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Bez preuzimanja ili vodenih žigova - jednostavno koristite ovaj odličan besplatni online alat za konverziju stranica iz PDF fajlova u PNG slike ili izdvajanje pojedinačnih slika iz vaših PDF fajlova.",
+    "pdf_tools__merge_pdfs__title": "Spajanje PDF fajlova - Lako spojite više PDF fajlova u jedan | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Bez preuzimanja ili vodenih žigova - samo nekoliko klikova za spajanje više PDF fajlova u jedan dokument. Koristite naš pouzdan besplatni online alat za efikasno spajanje vaših PDF fajlova.",
+    "pdf_tools__split_pdf__title": "Deljenje PDF fajlova - Podelite stranice PDF fajla u više PDF fajlova ili jednostavno uklonite stranice iz postojećeg | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Bez preuzimanja ili vodenih žigova - izaberite da podelite vaš PDF u odvojene fajlove ili spojite odabrane stranice u jedan dokument sa našim svestranim besplatnim online alatom. Iskusite bezproblemno prilagođavanje PDF fajlova."
   },
   "features_landing": {
     "cta_text": "Dodaj u pregledač",

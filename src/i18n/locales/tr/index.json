@@ -595,7 +595,17 @@
     "usechatgpt__description": "Çevrimiçi her yerde AI kullanmanın en hızlı yolu. Bir tıklama ile metin yazma, özetleme, açıklama yapma, imla ve dilbilgisi düzeltme, ton değiştirme, çeviri veya herhangi bir metne yanıt verme.",
     "install__title": "Yükle | MaxAI.me",
     "zmo__title": "Hepsi Bir Arada AI Tasarım Sanat Üretici | Metinden AI Görüntü Oluşturucu | ImgCreator.AI",
-    "zmo__description": "Ücretsiz olarak AI ile sanat ve görüntüler oluşturun. ImgCreator.ai metin ve görüntülerden resimler, sanat, illüstrasyonlar, anime, logolar, tasarımlar oluşturabilir. Özel teknolojimiz hayal gücünüzü canlandıracak."
+    "zmo__description": "Ücretsiz olarak AI ile sanat ve görüntüler oluşturun. ImgCreator.ai metin ve görüntülerden resimler, sanat, illüstrasyonlar, anime, logolar, tasarımlar oluşturabilir. Özel teknolojimiz hayal gücünüzü canlandıracak.",
+    "pdf_tools__title": "Ücretsiz PDF Araçları - PDF'leri Dönüştür, Sıkıştır ve Düzenle | MaxAI.me",
+    "pdf_tools__description": "Ücretsiz olarak çevrimiçi PDF'leri dönüştürmek, sıkıştırmak, düzenlemek ve imzalamak için araç koleksiyonumuzu keşfedin.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF'ten JPEG'e - Ücretsiz Olarak Herhangi Bir PDF'i Resimlere Dönüştür | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "İndirme veya reklam filigranı yok - sadece bu mükemmel ücretsiz çevrimiçi aracı kullanarak PDF sayfalarını JPEG resimlerine dönüştürün veya PDF dosyalarınızdan bireysel resimler çıkarın.",
+    "pdf_tools__pdf_to_png__title": "PDF'ten PNG'ye - Ücretsiz Olarak Herhangi Bir PDF'i Resimlere Dönüştür | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "İndirme veya reklam filigranı yok - sadece bu mükemmel ücretsiz çevrimiçi aracı kullanarak PDF sayfalarını PNG resimlerine dönüştürün veya PDF dosyalarınızdan bireysel resimler çıkarın.",
+    "pdf_tools__merge_pdfs__title": "PDF'leri Birleştir - Çoklu PDF Dosyalarını Kolayca Birleştirin | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "İndirme veya reklam filigranı yok - sadece birkaç tıklama ile birden fazla PDF dosyasını tek bir belgeye birleştirmek için güvenilir ücretsiz çevrimiçi aracımızı kullanın.",
+    "pdf_tools__split_pdf__title": "PDF'leri Böl - Bir PDF'in sayfalarını birden fazla PDF'ye bölebilir veya mevcut birinden sayfaları kaldırabilirsiniz | MaxAI.me",
+    "pdf_tools__split_pdf__description": "İndirme veya reklam filigranı yok - PDF'nizi ayrı dosyalara bölmeyi veya seçili sayfaları tek bir belgeye birleştirmeyi tercih edin. Sorunsuz PDF özelleştirmesini deneyimleyin."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",

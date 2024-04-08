@@ -595,7 +595,17 @@
     "usechatgpt__description": "Nejrychlejší způsob, jak používat AI kdekoli online. Jedno kliknutí na psaní, vylepšení psaní, shrnutí, vysvětlení, opravu pravopisu a gramatiky, změnu tónu, překlad nebo odpověď na libovolný text.",
     "install__title": "Instalace | MaxAI.me",
     "zmo__title": "All-in-one generátor uměleckého designu s pomocí AI | Generátor obrázků z textu | ImgCreator.AI",
-    "zmo__description": "Vytvářejte umění a obrázky s pomocí AI zdarma. ImgCreator.ai dokáže generovat obrázky, umění, ilustrace, anime, loga, designy z textu a obrázků. Naše vlastní technologie oživí vaši představivost."
+    "zmo__description": "Vytvářejte umění a obrázky s pomocí AI zdarma. ImgCreator.ai dokáže generovat obrázky, umění, ilustrace, anime, loga, designy z textu a obrázků. Naše vlastní technologie oživí vaši představivost.",
+    "pdf_tools__title": "Bezplatné nástroje pro PDF - Převod, komprese a úprava PDF online | MaxAI.me",
+    "pdf_tools__description": "Prozkoumejte naši sbírku nástrojů, které vám pomohou převádět, komprimovat, upravovat a podepisovat PDF online zdarma.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF na JPEG - Převod libovolných PDF na obrázky online zdarma | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Bez stahování nebo vodoznaků - jednoduše použijte tento vynikající bezplatný online nástroj k převodu stránek PDF na obrázky JPEG nebo k extrakci jednotlivých obrázků z vašich PDF souborů.",
+    "pdf_tools__pdf_to_png__title": "PDF na PNG - Převod libovolných PDF na obrázky online zdarma | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Bez stahování nebo vodoznaků - jednoduše použijte tento vynikající bezplatný online nástroj k převodu stránek PDF na obrázky PNG nebo k extrakci jednotlivých obrázků z vašich PDF souborů.",
+    "pdf_tools__merge_pdfs__title": "Sloučit PDF - Snadno spojte více PDF souborů do jednoho | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Bez stahování nebo vodoznaků - jen pár kliknutí pro sloučení více PDF souborů do jednoho dokumentu. Použijte naši spolehlivou bezplatnou online aplikaci pro efektivní spojování vašich PDF.",
+    "pdf_tools__split_pdf__title": "Rozdělit PDF - Rozdělte stránky PDF do více souborů nebo jednoduše odstraňte stránky z existujícího | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Bez stahování nebo vodoznaků - vyberte si, zda chcete rozdělit své PDF do samostatných souborů nebo sloučit vybrané stránky do jednoho dokumentu pomocí našeho všestranného bezplatného online nástroje. Zažijte bezproblémové přizpůsobení PDF."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",

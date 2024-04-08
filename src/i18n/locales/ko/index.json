@@ -595,7 +595,17 @@
     "usechatgpt__description": "온라인에서 어디서나 AI를 빠르게 사용하세요. 한 번의 클릭으로 글 작성, 요약, 설명, 맞춤법 및 문법 수정, 톤 변경, 번역 또는 텍스트에 대한 답변을 할 수 있습니다.",
     "install__title": "설치하기 | MaxAI.me",
     "zmo__title": "올인원 AI 디자인 아트 생성기 | 텍스트로 이미지 생성 | ImgCreator.AI",
-    "zmo__description": "무료로 AI와 함께 아트와 이미지를 만들어보세요. ImgCreator.ai는 텍스트와 이미지로부터 이미지, 아트, 일러스트, 애니메이션, 로고, 디자인을 생성할 수 있습니다. 우리의 독점 기술로 여러분의 상상력을 현실로 만들어드립니다."
+    "zmo__description": "무료로 AI와 함께 아트와 이미지를 만들어보세요. ImgCreator.ai는 텍스트와 이미지로부터 이미지, 아트, 일러스트, 애니메이션, 로고, 디자인을 생성할 수 있습니다. 우리의 독점 기술로 여러분의 상상력을 현실로 만들어드립니다.",
+    "pdf_tools__title": "무료 PDF 도구 - 온라인에서 PDF 변환, 압축 및 편집 | MaxAI.me",
+    "pdf_tools__description": "무료로 온라인에서 PDF를 변환, 압축, 편집 및 서명하는 데 도움이 되는 도구 모음을 살펴보세요.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF를 JPEG로 변환 - 무료로 온라인에서 모든 PDF를 이미지로 변환 | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "다운로드나 광고 워터마크 없이 PDF 페이지를 JPEG 이미지로 변환하거나 PDF 파일에서 개별 이미지를 추출하기 위해 이 우수한 무료 온라인 도구를 사용하세요.",
+    "pdf_tools__pdf_to_png__title": "PDF를 PNG로 변환 - 무료로 온라인에서 모든 PDF를 이미지로 변환 | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "다운로드나 광고 워터마크 없이 PDF 페이지를 PNG 이미지로 변환하거나 PDF 파일에서 개별 이미지를 추출하기 위해 이 우수한 무료 온라인 도구를 사용하세요.",
+    "pdf_tools__merge_pdfs__title": "PDF 병합 - 여러 개의 PDF 파일을 쉽게 하나로 병합 | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "다운로드나 광고 워터마크 없이 여러 개의 PDF 파일을 몇 번의 클릭으로 하나의 문서로 병합하세요. 신뢰할 수 있는 무료 온라인 도구를 사용하여 PDF를 효율적으로 결합하세요.",
+    "pdf_tools__split_pdf__title": "PDF 분할 - PDF 페이지를 여러 개의 PDF로 분할하거나 기존 PDF에서 페이지를 제거하세요 | MaxAI.me",
+    "pdf_tools__split_pdf__description": "다운로드나 광고 워터마크 없이 PDF를 별도의 파일로 분할하거나 선택한 페이지를 하나의 문서로 병합하는 다재다능한 무료 온라인 도구를 사용하세요. 원활한 PDF 사용자 정의를 경험하세요."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",

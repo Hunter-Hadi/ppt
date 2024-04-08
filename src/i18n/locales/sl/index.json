@@ -595,7 +595,17 @@
     "usechatgpt__description": "Najhitrejši način uporabe umetne inteligence kjerkoli na spletu. Z enim klikom sestavite, izboljšajte pisanje, povzemite, pojasnite, popravite črkovanje in slovnico, spremenite ton, prevedite ali odgovorite na katero koli besedilo.",
     "install__title": "Namesti | MaxAI.me",
     "zmo__title": "Vse-v-enem AI oblikovalnik umetnosti | Generator slik AI iz besedila | ImgCreator.AI",
-    "zmo__description": "Brezplačno ustvarjajte umetnost in slike z umetno inteligenco. ImgCreator.ai lahko generira slike, umetnost, ilustracije, anime, logotipe, oblikovanja iz besedila in slik. Naša lastna tehnologija bo oživila vašo domišljijo."
+    "zmo__description": "Brezplačno ustvarjajte umetnost in slike z umetno inteligenco. ImgCreator.ai lahko generira slike, umetnost, ilustracije, anime, logotipe, oblikovanja iz besedila in slik. Naša lastna tehnologija bo oživila vašo domišljijo.",
+    "pdf_tools__title": "Brezplačna orodja za PDF - Pretvori, stisni in urejaj PDF-je na spletu | MaxAI.me",
+    "pdf_tools__description": "Raziščite našo zbirko orodij, ki vam pomagajo brezplačno pretvarjati, stiskati, urejati in podpisovati PDF-je na spletu.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF v JPEG - Pretvori katerikoli PDF v slike na spletu brezplačno | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Brez prenosov ali oznak vode - preprosto uporabite to odlično brezplačno spletno orodje za pretvorbo strani PDF-jev v slike JPEG ali izvlecite posamezne slike iz vaših PDF datotek.",
+    "pdf_tools__pdf_to_png__title": "PDF v PNG - Pretvori katerikoli PDF v slike na spletu brezplačno | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Brez prenosov ali oznak vode - preprosto uporabite to odlično brezplačno spletno orodje za pretvorbo strani PDF-jev v slike PNG ali izvlecite posamezne slike iz vaših PDF datotek.",
+    "pdf_tools__merge_pdfs__title": "Združi PDF-je - Enostavno združi več PDF datotek v eno | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Brez prenosov ali oznak vode - samo nekaj klikov za združevanje več PDF datotek v en dokument. Uporabite naše zanesljivo brezplačno spletno orodje za učinkovito združevanje vaših PDF-jev.",
+    "pdf_tools__split_pdf__title": "Razdeli PDF-je - Razdeli strani PDF-ja v več PDF-jev ali preprosto odstrani strani iz obstoječega | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Brez prenosov ali oznak vode - izberite, ali želite razdeliti vaš PDF na ločene datoteke ali združiti izbrane strani v en dokument s pomočjo našega vsestranskega brezplačnega spletnega orodja. Doživite brezhibno prilagajanje PDF-jev."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",

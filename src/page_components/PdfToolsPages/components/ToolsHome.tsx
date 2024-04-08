@@ -17,10 +17,8 @@ const ToolsHome = () => {
   return (
     <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={1312}>
       <AppDefaultSeoLayout
-        title={
-          'Free PDF Tools - Convert, Compress, and Edit PDFs Online | MaxAI.me'
-        }
-        description='Explore our collection of tools to help you convert, compress, edit, and sign PDFs online for free.'
+        title={t('seo:pdf_tools__title')}
+        description={t('seo:pdf_tools__description')}
       />
       <ToolsBanner
         title={t('pages:tools__index_page__title')}
