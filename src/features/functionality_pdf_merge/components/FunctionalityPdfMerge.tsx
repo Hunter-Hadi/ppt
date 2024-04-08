@@ -78,7 +78,7 @@ const FunctionalityPdfMerge = () => {
       // 将当前 PDF 文档的所有页面复制到合并后的 PDF 文档中
       const loadingTask = pdfjs.getDocument(buff);
       const pdfDocument = await loadingTask.promise;
-
+      await PDFDocument.load(buff); //load来判断pdf是否加密或者无法提取，异常则进入catch
       const pages = pdfDocument._pdfInfo.numPages;
       const page = await pdfDocument.getPage(1);
 

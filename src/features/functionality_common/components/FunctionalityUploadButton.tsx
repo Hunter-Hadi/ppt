@@ -7,6 +7,10 @@ import UploadButton, {
 } from '@/features/common/components/UploadButton';
 import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
 
+/**
+ * Functionality公共的上传组件
+ * 为了统一的上传样式
+ */
 const FunctionalityUploadButton: FC<IUploadButtonProps> = (props) => {
   const { t } = useTranslation();
 

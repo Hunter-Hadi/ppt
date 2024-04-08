@@ -54,7 +54,10 @@ export const FunctionalityPdfSplit = () => {
   const onUploadFile = async (fileList: FileList) => {
     if (fileList && fileList.length > 0) {
       setActiveFile(fileList[0]);
-      onReadPdfToImages(fileList[0]);
+      const isReadSuccess = await onReadPdfToImages(fileList[0]);
+      if (!isReadSuccess) {
+        setActiveFile(null);
+      }
     }
   };
   const handleUnsupportedFileTypeTip = () => {

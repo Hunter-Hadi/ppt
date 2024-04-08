@@ -1,4 +1,5 @@
 import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
+import { debounce } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useMemo, useState } from 'react';
 
@@ -60,12 +61,19 @@ const FunctionalityPdfToImageDetail: FC<
     });
   const { changeScale, currentScale, onDefaultChangeScale } =
     useFunctionalityChangeScale();
-  useEffect(() => {
-    if (fileData) {
-      onReadPdfToImages(fileData);
+  const readPdfToImages = debounce(async (file) => {
+    //debounce 防止useEffect导致的执行两次
+    if (file) {
+      const isReadSuccess = await onReadPdfToImages(file);
+      console.log('simply isReadSuccess', isReadSuccess);
+      if (!isReadSuccess) {
+        onRemoveFile && onRemoveFile();
+      }
     }
+  }, 200);
+  useEffect(() => {
+    readPdfToImages(fileData);
   }, [fileData]);
-
   useEffect(() => {
     onDefaultChangeScale(currentShowImages.length);
   }, [currentShowImages, showPdfImagesType]);
@@ -231,7 +239,7 @@ const FunctionalityPdfToImageDetail: FC<
           minHeight: 200,
         }}
       >
-        {!pdfIsLoading && currentShowImages?.length > 0 && (
+        {!isLoading && currentShowImages?.length > 0 && (
           <FunctionalityImageList
             onClickImage={(image) => onSwitchSelect(image.id)}
             imageList={currentShowImages}

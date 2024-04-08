@@ -18,6 +18,15 @@ interface IFunctionalitySortableImageProps {
   onClick?: () => void;
   imageSize?: number;
 }
+/**
+ * Functionality公共的图片视图，带有tooltip
+ * @param name 图标名称
+ * @param imageInfo 图片信息
+ * @param isActive 是否激活颜色区别
+ * @param rightTopChildren 右上角的子元素
+ * @param onClick 点击事件
+ * @param imageSize 图片宽度尺寸
+ */
 const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
   imageInfo,
   isActive,
@@ -70,6 +79,7 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
                 opacity: isActive ? 0 : 1,
                 userSelect: 'none',
                 WebkitUserDrag: 'none',
+                maxHeight: 500,
               } as CSSProperties
             }
             srcSet={imageInfo.imageUrlString}
