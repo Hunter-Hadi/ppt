@@ -10,7 +10,7 @@ export interface IToolData {
   urlKey: IToolUrkKeyType;
   accept: string;
 }
-export const toolsTopUrlKey = 'tools';
+export const toolsTopUrlKey = 'pdf-tools';
 export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   'merge-pdfs': {
     icon: 'CropOriginal',

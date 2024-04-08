@@ -3,11 +3,11 @@ import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
-import ToolsIcon from '@/page_components/ToolsPages/components/ToolsIcon';
+import ToolsIcon from '@/page_components/PdfToolsPages/components/ToolsIcon';
 import {
   IToolData,
   toolsTopUrlKey,
-} from '@/page_components/ToolsPages/constant';
+} from '@/page_components/PdfToolsPages/constant';
 
 interface IToolsCardsProps {
   list: IToolData[];

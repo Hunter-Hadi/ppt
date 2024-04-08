@@ -4,11 +4,11 @@ import { FC, lazy, Suspense, useMemo } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import ToolsBanner from '@/page_components/ToolsPages/components/ToolsBanner';
+import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
 import {
   IToolUrkKeyType,
   toolsObjectData,
-} from '@/page_components/ToolsPages/constant';
+} from '@/page_components/PdfToolsPages/constant';
 
 const FunctionalityPdfToImage = lazy(
   () =>
