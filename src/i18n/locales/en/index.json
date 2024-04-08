@@ -397,7 +397,11 @@
     "components__pdf_merge__add_pdf": "Add PDFs",
     "components__pdf_merge__empty_pdf": "Clear PDFs",
     "components__pdf_merge__confirm_merge": "Confirm to merge",
-    "components__pdf_merge__pdf_dropping": "You can adjust the PDF order by dragging and dropping"
+    "components__pdf_merge__pdf_dropping": "You can adjust the PDF order by dragging and dropping",
+
+    "components__pdf_merge__button__download__tooltip": "Merge and download PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Clear all PDFs below",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
@@ -409,7 +413,13 @@
     "components__pdf_split__pdf_dropping": "You can adjust the PDF order by dragging and dropping",
     "components__pdf_split__is_single_pdf": "Merge selected pages into a single PDF",
     "components__pdf_split__cancel": "Cancel",
-    "components__pdf_split__error_maximum": "Failed to split PDF files, Exceeded maximum quantity"
+    "components__pdf_split__error_maximum": "Failed to split PDF files, Exceeded maximum quantity",
+
+    "components__pdf_split__button__zoom_in__tooltip": "Zoom in",
+    "components__pdf_split__button__zoom_out__tooltip": "Zoom out",
+    "components__pdf_split__button__remove__tooltip": "Remove this PDF and select a new one",
+    "components__pdf_split__button__download__tooltip": "Split and download PDF",
+    "components__pdf_split__button__cancel__tooltip": "Cancel current progress"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Click to upload or drag and drop",
@@ -424,7 +434,15 @@
     "components__to_image_detail__view_pages": "View pages",
     "components__to_image_detail__view_images": "View images",
     "components__to_image__downloader_tip": "Please select at least one image.",
-    "components__to_image_detail__not_found_images": "PDF image not found"
+    "components__to_image_detail__not_found_images": "PDF image not found",
+
+    "components__to_image_detail__button__download__tooltip": "Download zipped images",
+    "components__to_image_detail__button__view_images__tooltip": "View the extracted images in this PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "View all the pages in this PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zoom in",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zoom out",
+    "components__to_image_detail__button__cancel__tooltip": "Cancel current progress",
+    "components__to_image_detail__button__remove__tooltip": "Remove this PDF and select a new one"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

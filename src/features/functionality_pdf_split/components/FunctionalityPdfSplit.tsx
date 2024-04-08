@@ -7,6 +7,7 @@ import React, { useEffect, useState } from 'react';
 
 import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
 import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
+import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
 import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
 import useConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
@@ -206,53 +207,77 @@ export const FunctionalityPdfSplit = () => {
             </Button>
           </Grid>
           <Grid item xs={6} md={2}>
-            <Button
-              sx={{ width: '100%' }}
-              size='large'
-              disabled={currentIsLoading}
-              variant='outlined'
-              color='error'
-              onClick={() => onRemoveFile()}
+            <FunctionalityTooltip
+              title={t(
+                'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
+              )}
             >
-              {t('functionality__pdf_split:components__pdf_spli__remove_pdf')}
-            </Button>
+              <Button
+                sx={{ width: '100%' }}
+                size='large'
+                disabled={currentIsLoading}
+                variant='outlined'
+                color='error'
+                onClick={() => onRemoveFile()}
+              >
+                {t('functionality__pdf_split:components__pdf_spli__remove_pdf')}
+              </Button>
+            </FunctionalityTooltip>
           </Grid>
           {!currentIsLoading && (
             <Grid item xs={6} md={2} display='flex'>
-              <Box onClick={() => changeScale('enlarge')}>
-                <FunctionalityIcon
-                  name='ControlPointTwoTone'
-                  sx={{
-                    color: 'primary.main',
-                    cursor: 'pointer',
-                    fontSize: 30,
-                  }}
-                />
-              </Box>
-              <Box onClick={() => changeScale('narrow')}>
-                <FunctionalityIcon
-                  name='RemoveCircleTwoTone'
-                  sx={{
-                    color: 'primary.main',
-                    cursor: 'pointer',
-                    marginLeft: 1,
-                    fontSize: 30,
-                  }}
-                />
-              </Box>
+              <FunctionalityTooltip
+                title={t(
+                  'functionality__pdf_split:components__pdf_split__button__zoom_in__tooltip',
+                )}
+              >
+                <Box onClick={() => changeScale('enlarge')}>
+                  <FunctionalityIcon
+                    name='ControlPointTwoTone'
+                    sx={{
+                      color: 'primary.main',
+                      cursor: 'pointer',
+                      fontSize: 30,
+                    }}
+                  />
+                </Box>
+              </FunctionalityTooltip>
+              <FunctionalityTooltip
+                title={t(
+                  'functionality__pdf_split:components__pdf_split__button__zoom_out__tooltip',
+                )}
+              >
+                <Box onClick={() => changeScale('narrow')}>
+                  <FunctionalityIcon
+                    name='RemoveCircleTwoTone'
+                    sx={{
+                      color: 'primary.main',
+                      cursor: 'pointer',
+                      marginLeft: 1,
+                      fontSize: 30,
+                    }}
+                  />
+                </Box>
+              </FunctionalityTooltip>
             </Grid>
           )}
           {pdfIsLoading && (
             <Grid item xs={12} md={2}>
-              <Button
-                sx={{ width: '100%' }}
-                size='large'
-                variant='outlined'
-                color='error'
-                onClick={() => onCancelPdfActive()}
+              <FunctionalityTooltip
+                title={t(
+                  'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
+                )}
               >
-                {t('functionality__pdf_split:components__pdf_split__cancel')}
-              </Button>
+                <Button
+                  sx={{ width: '100%' }}
+                  size='large'
+                  variant='outlined'
+                  color='error'
+                  onClick={() => onCancelPdfActive()}
+                >
+                  {t('functionality__pdf_split:components__pdf_split__cancel')}
+                </Button>
+              </FunctionalityTooltip>
             </Grid>
           )}
         </Grid>
@@ -267,9 +292,6 @@ export const FunctionalityPdfSplit = () => {
           gap={2}
           sx={{
             position: 'relative',
-            overflowY: 'auto',
-            overflowX: 'hidden',
-            maxHeight: 700,
             minHeight: 200,
           }}
         >
@@ -325,13 +347,11 @@ export const FunctionalityPdfSplit = () => {
           justifyContent='center'
           alignItems='center'
           justifyItems='center'
-          sx={{ mt: 2 }}
+          sx={{ mt: 2, cursor: 'pointer' }}
           onClick={() => setIsMergeSinglePDf(!isMergeSinglePDf)}
         >
-          <Checkbox value={isMergeSinglePDf} />
-          <div>
-            {t('functionality__pdf_split:components__pdf_split__is_single_pdf')}
-          </div>
+          <Checkbox checked={isMergeSinglePDf} />
+          {t('functionality__pdf_split:components__pdf_split__is_single_pdf')}
         </Box>
       )}
       {convertedPdfImages?.length > 0 && (
@@ -343,17 +363,23 @@ export const FunctionalityPdfSplit = () => {
           sx={{ mt: 1 }}
         >
           <Grid item xs={10} md={2}>
-            <Button
-              sx={{ width: '100%' }}
-              disabled={currentIsLoading}
-              size='large'
-              variant='contained'
-              onClick={() => confirmToSplit()}
-            >
-              {t(
-                'functionality__pdf_split:components__pdf_split__confirm_split',
+            <FunctionalityTooltip
+              title={t(
+                'functionality__pdf_split:components__pdf_split__button__download__tooltip',
               )}
-            </Button>
+            >
+              <Button
+                sx={{ width: '100%' }}
+                disabled={currentIsLoading}
+                size='large'
+                variant='contained'
+                onClick={() => confirmToSplit()}
+              >
+                {t(
+                  'functionality__pdf_split:components__pdf_split__confirm_split',
+                )}
+              </Button>
+            </FunctionalityTooltip>
           </Grid>
         </Grid>
       )}

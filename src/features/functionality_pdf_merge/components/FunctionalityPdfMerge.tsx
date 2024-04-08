@@ -7,6 +7,7 @@ import { v4 as uuidV4 } from 'uuid';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
+import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
 import FunctionalityImageList from '@/features/functionality_pdf_merge/components/FunctionalityImageList';
@@ -197,33 +198,47 @@ const FunctionalityPdfMerge = () => {
           gap={1}
         >
           <Grid item>
-            <UploadButton
-              onChange={onUploadFile}
-              isDrag={false}
-              buttonProps={{
-                variant: 'outlined',
-                disabled: idLoading,
-                size: 'large',
-              }}
-              inputProps={{
-                accept: 'application/pdf',
-                multiple: true,
-              }}
-              handleUnsupportedFileType={handleUnsupportedFileTypeTip}
+            <FunctionalityTooltip
+              title={t(
+                'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
+              )}
             >
-              {t('functionality__pdf_merge:components__pdf_merge__add_pdf')}
-            </UploadButton>
+              <Box>
+                <UploadButton
+                  onChange={onUploadFile}
+                  isDrag={false}
+                  buttonProps={{
+                    variant: 'outlined',
+                    disabled: idLoading,
+                    size: 'large',
+                  }}
+                  inputProps={{
+                    accept: 'application/pdf',
+                    multiple: true,
+                  }}
+                  handleUnsupportedFileType={handleUnsupportedFileTypeTip}
+                >
+                  {t('functionality__pdf_merge:components__pdf_merge__add_pdf')}
+                </UploadButton>
+              </Box>
+            </FunctionalityTooltip>
           </Grid>
           <Grid item>
-            <Button
-              variant='outlined'
-              disabled={idLoading}
-              color='error'
-              size='large'
-              onClick={() => setPdfInfoList([])}
+            <FunctionalityTooltip
+              title={t(
+                'functionality__pdf_merge:components__pdf_merge__button__clear_pdfs__tooltip',
+              )}
             >
-              {t('functionality__pdf_merge:components__pdf_merge__empty_pdf')}
-            </Button>
+              <Button
+                variant='outlined'
+                disabled={idLoading}
+                color='error'
+                size='large'
+                onClick={() => setPdfInfoList([])}
+              >
+                {t('functionality__pdf_merge:components__pdf_merge__empty_pdf')}
+              </Button>
+            </FunctionalityTooltip>
           </Grid>
         </Grid>
       )}
@@ -256,17 +271,23 @@ const FunctionalityPdfMerge = () => {
           sx={{ mt: 5 }}
         >
           <Grid item xs={10} md={2}>
-            <Button
-              sx={{ width: '100%' }}
-              size='large'
-              disabled={pdfInfoList.length < 2 || idLoading}
-              variant='contained'
-              onClick={() => onDownloadZip()}
-            >
-              {t(
-                'functionality__pdf_merge:components__pdf_merge__confirm_merge',
+            <FunctionalityTooltip
+              title={t(
+                'functionality__pdf_merge:components__pdf_merge__button__download__tooltip',
               )}
-            </Button>
+            >
+              <Button
+                sx={{ width: '100%' }}
+                size='large'
+                disabled={pdfInfoList.length < 2 || idLoading}
+                variant='contained'
+                onClick={() => onDownloadZip()}
+              >
+                {t(
+                  'functionality__pdf_merge:components__pdf_merge__confirm_merge',
+                )}
+              </Button>
+            </FunctionalityTooltip>
           </Grid>
         </Grid>
       )}

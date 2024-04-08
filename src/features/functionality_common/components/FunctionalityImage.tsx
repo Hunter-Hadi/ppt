@@ -1,7 +1,9 @@
-import { Box, Tooltip, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { CSSProperties, FC, useMemo } from 'react';
+
+import { FunctionalityTooltip } from './FunctionalityTooltip';
 
 interface IFunctionalityImageProps {
   id: string;
@@ -46,7 +48,7 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
     }
   }, [imageInfo]);
   return (
-    <Tooltip title={tooltipTitle} arrow placement='top'>
+    <FunctionalityTooltip title={tooltipTitle || ''}>
       <Box
         onClick={onClick}
         sx={{
@@ -80,6 +82,7 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
                 userSelect: 'none',
                 WebkitUserDrag: 'none',
                 maxHeight: 500,
+                minHeight: 60,
               } as CSSProperties
             }
             srcSet={imageInfo.imageUrlString}
@@ -119,7 +122,7 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
           </Box>
         )}
       </Box>
-    </Tooltip>
+    </FunctionalityTooltip>
   );
 };
 export default FunctionalityImage;

@@ -29,9 +29,6 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
       gap={2}
       sx={{
         position: 'relative',
-        overflowY: 'auto',
-        overflowX: 'hidden',
-        maxHeight: 700,
         minHeight: 200,
       }}
     >

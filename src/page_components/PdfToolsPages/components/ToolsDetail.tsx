@@ -50,7 +50,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_to_png__title'),
       description: t('seo:pdf_tools__pdf_to_png__description'),
     },
-    'merge-pdfs': {
+    'merge-pdf': {
       title: t('seo:pdf_tools__merge_pdfs__title'),
       description: t('seo:pdf_tools__merge_pdfs__description'),
     },
@@ -84,7 +84,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             <FunctionalityPdfToImage toType={urlKey} />
           </Suspense>
         )}
-        {urlKey === 'merge-pdfs' && (
+        {urlKey === 'merge-pdf' && (
           <Suspense fallback={<AppLoadingLayout loading />}>
             <FunctionalityPdfMerge />
           </Suspense>
