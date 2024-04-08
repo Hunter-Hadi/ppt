@@ -295,7 +295,7 @@ export const FunctionalityPdfSplit = () => {
             minHeight: 200,
           }}
         >
-          {!pdfIsLoading &&
+          {!currentIsLoading &&
             convertedPdfImages.map((imageInfo, index) => (
               <FunctionalityImage
                 key={imageInfo.id}

@@ -260,7 +260,7 @@ const FunctionalityPdfToImageDetail: FC<
           minHeight: 200,
         }}
       >
-        {!pdfIsLoading && currentShowImages?.length > 0 && (
+        {!isLoading && currentShowImages?.length > 0 && (
           <FunctionalityImageList
             onClickImage={(image) => onSwitchSelect(image.id)}
             imageList={currentShowImages}
