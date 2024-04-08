@@ -599,13 +599,13 @@
     "pdf_tools__title": "Công cụ PDF miễn phí - Chuyển đổi, nén và chỉnh sửa PDF trực tuyến | MaxAI.me",
     "pdf_tools__description": "Khám phá bộ công cụ của chúng tôi để giúp bạn chuyển đổi, nén, chỉnh sửa và ký PDF trực tuyến miễn phí.",
     "pdf_tools__pdf_to_jpeg__title": "PDF sang JPEG - Chuyển đổi PDF thành hình ảnh trực tuyến miễn phí | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chỉ cần sử dụng công cụ trực tuyến miễn phí tuyệt vời này để chuyển đổi trang PDF thành hình ảnh JPEG hoặc trích xuất các hình ảnh riêng lẻ từ tệp PDF của bạn.",
+    "pdf_tools__pdf_to_jpeg__description": "Chuyển đổi các trang PDF thành hình ảnh JPEG hoặc trích xuất từng hình ảnh riêng lẻ từ tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
     "pdf_tools__pdf_to_png__title": "PDF sang PNG - Chuyển đổi PDF thành hình ảnh trực tuyến miễn phí | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chỉ cần sử dụng công cụ trực tuyến miễn phí tuyệt vời này để chuyển đổi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ tệp PDF của bạn.",
-    "pdf_tools__merge_pdfs__title": "Hợp nhất PDF - Kết hợp PDF trực tuyến - Dễ dàng hợp nhất nhiều tệp PDF thành một | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chỉ cần vài cú nhấp chuột để hợp nhất nhiều tệp PDF thành một tài liệu duy nhất. Sử dụng công cụ trực tuyến miễn phí đáng tin cậy của chúng tôi để kết hợp PDF của bạn một cách hiệu quả.",
-    "pdf_tools__split_pdf__title": "Chia tách PDF - Chia trang PDF thành nhiều tệp PDF hoặc đơn giản là xóa trang khỏi tệp hiện có | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Không cần tải xuống hoặc dấu chân quảng cáo - chọn chia tách PDF thành các tệp riêng biệt hoặc hợp nhất các trang được chọn vào một tài liệu duy nhất với công cụ trực tuyến miễn phí linh hoạt của chúng tôi. Trải nghiệm tùy chỉnh PDF mượt mà."
+    "pdf_tools__pdf_to_png__description": "Chuyển đổi các trang PDF thành hình ảnh PNG hoặc trích xuất từng hình ảnh riêng lẻ từ tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "pdf_tools__merge_pdfs__title": "Gộp PDF - Kết hợp các tệp PDF trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kết hợp các tệp PDF và tạo một tài liệu duy nhất trực tuyến miễn phí. Với công cụ kết hợp PDF của chúng tôi, việc gộp PDF trở nên dễ dàng hơn bao giờ hết. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "pdf_tools__split_pdf__title": "Tách PDF - Tách các trang PDF hoặc xóa trang | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Dễ dàng tách các trang trong tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",

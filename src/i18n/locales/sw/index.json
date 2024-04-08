@@ -598,14 +598,14 @@
     "zmo__description": "Unda sanaa na picha na AI bure. ImgCreator.ai inaweza kuzalisha picha, sanaa, michoro, anime, nembo, miundo kutoka kwa maandishi na picha. Teknolojia yetu ya kipekee italeta ubunifu wako kuwa hai.",
     "pdf_tools__title": "Zana za PDF Bure - Geuza, Punguza Ukubwa, na Hariri PDF Mtandaoni | MaxAI.me",
     "pdf_tools__description": "Tafuta zana zetu za kukusaidia kugeuza, kupunguza ukubwa, kuhariri, na kutia saini PDF mtandaoni bure.",
-    "pdf_tools__pdf_to_jpeg__title": "PDF kuwa JPEG - Geuza PDF Yoyote Kuwa Picha Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "Hakuna kupakua au nembo ya matangazo - tumia tu zana hii bora mtandaoni bure kuwa na kurasa za PDF kuwa picha za JPEG au kuchukua picha binafsi kutoka faili zako za PDF.",
-    "pdf_tools__pdf_to_png__title": "PDF kuwa PNG - Geuza PDF Yoyote Kuwa Picha Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "Hakuna kupakua au nembo ya matangazo - tumia tu zana hii bora mtandaoni bure kuwa na kurasa za PDF kuwa picha za PNG au kuchukua picha binafsi kutoka faili zako za PDF.",
-    "pdf_tools__merge_pdfs__title": "unganisha PDF - Unganisha PDF Mtandaoni - Unganisha Kwa Urahisi Faili Nyingi za PDF Kuwa Moja | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Hakuna kupakua au nembo ya matangazo - bonyeza tu mara chache kuunganisha faili nyingi za PDF kuwa hati moja. Tumia zana yetu bora mtandaoni bure kwa kuunganisha PDF yako kwa ufanisi.",
-    "pdf_tools__split_pdf__title": "Gawanya PDF - Gawa kurasa za PDF kuwa PDF nyingi au ondoa kurasa kutoka kwenye PDF iliyopo | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Hakuna kupakua au nembo ya matangazo - chagua kugawanya PDF yako kuwa faili tofauti au kuunganisha kurasa zilizochaguliwa kuwa hati moja na zana yetu bora mtandaoni bure. Pata uzoefu wa kubinafsisha PDF kwa urahisi."
+    "pdf_tools__pdf_to_jpeg__title": "PDF kuwa JPEG - Geuza PDF yoyote kuwa Picha Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Geuza kurasa za PDF kuwa picha za JPEG au chukua picha binafsi kutoka kwenye faili zako za PDF mtandaoni bure. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
+    "pdf_tools__pdf_to_png__title": "PDF kuwa PNG - Geuza PDF yoyote kuwa Picha Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Geuza kurasa za PDF kuwa picha za PNG au chukua picha binafsi kutoka kwenye faili zako za PDF mtandaoni bure. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
+    "pdf_tools__merge_pdfs__title": "Unganisha PDF - Jumuisha Faili za PDF Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Jumuisha faili za PDF na tengeneza hati moja mtandaoni bure. Kwa kutumia mchanganyiko wetu wa PDF, kuunganisha PDFs ni rahisi kuliko hapo awali. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
+    "pdf_tools__split_pdf__title": "Gawanya PDF - Tenganisha Kurasa za PDF au Ondoa Kurasa | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Tenganisha kurasa kwa urahisi kwenye PDF yako mtandaoni bure. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",

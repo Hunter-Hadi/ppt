@@ -598,14 +598,14 @@
     "zmo__description": "免费使用AI创建艺术和图像。ImgCreator.ai可以从文本和图像生成图像、艺术品、插图、动漫、标志、设计。我们的专有技术将让您的想象力栩栩如生。",
     "pdf_tools__title": "免费PDF工具-在线转换、压缩和编辑PDF | MaxAI.me",
     "pdf_tools__description": "探索我们的工具集，帮助您免费在线转换、压缩、编辑和签署PDF。",
-    "pdf_tools__pdf_to_jpeg__title": "PDF转JPEG-免费在线将任何PDF转换为图像 | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "无需下载或广告水印-只需使用这个优秀的免费在线工具将PDF页面转换为JPEG图像，或从您的PDF文件中提取单独的图像。",
-    "pdf_tools__pdf_to_png__title": "PDF转PNG-免费在线将任何PDF转换为图像 | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "无需下载或广告水印-只需使用这个优秀的免费在线工具将PDF页面转换为PNG图像，或从您的PDF文件中提取单独的图像。",
-    "pdf_tools__merge_pdfs__title": "合并PDF-在线合并PDF-轻松将多个PDF文件合并为一个 | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "无需下载或广告水印-只需几次点击即可将多个PDF文件合并为单个文档。使用我们可靠的免费在线工具高效地合并您的PDF。",
-    "pdf_tools__split_pdf__title": "拆分PDF-将PDF页面拆分为多个PDF或仅删除现有PDF中的页面 | MaxAI.me",
-    "pdf_tools__split_pdf__description": "无需下载或广告水印-选择将您的PDF拆分为单独的文件，或使用我们多功能的免费在线工具将选定的页面合并为一个文档。体验无缝的PDF定制。"
+    "pdf_tools__pdf_to_jpeg__title": "PDF转JPEG - 在线免费将任何PDF转换为图像 | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "在线免费将PDF页面转换为JPEG图像或从PDF文件中提取单个图像。无需水印、文件大小限制、下载或注册。",
+    "pdf_tools__pdf_to_png__title": "PDF转PNG - 在线免费将任何PDF转换为图像 | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "在线免费将PDF页面转换为PNG图像或从PDF文件中提取单个图像。无需水印、文件大小限制、下载或注册。",
+    "pdf_tools__merge_pdfs__title": "合并PDF - 在线免费合并PDF文件 | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "在线免费合并PDF文件，创建一个单一的文档。使用我们的PDF合并工具，合并PDF文件变得比以往更容易。无需水印、文件大小限制、下载或注册。",
+    "pdf_tools__split_pdf__title": "拆分PDF - 分离PDF页面或删除页面 | MaxAI.me",
+    "pdf_tools__split_pdf__description": "轻松在您的PDF中分离页面，免费在线操作。无需水印、文件大小限制、下载或注册。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "点击上传或拖放",

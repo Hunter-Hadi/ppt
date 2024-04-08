@@ -598,14 +598,14 @@
     "zmo__description": "Sukurkite meną ir paveikslus su dirbtiniu intelektu nemokamai. ImgCreator.ai gali generuoti paveikslus, meną, iliustracijas, anime, logotipus, dizainus iš teksto ir paveikslėlių. Mūsų autorių teisėmis saugoma technologija pavers jūsų vaizduotę tikrove.",
     "pdf_tools__title": "Nemokami PDF įrankiai - Konvertuoti, suspausti ir redaguoti PDF failus internete | MaxAI.me",
     "pdf_tools__description": "Ištyrinkite mūsų įrankių kolekciją, padėsiančią jums nemokamai konvertuoti, suspausti, redaguoti ir pasirašyti PDF failus internete.",
-    "pdf_tools__pdf_to_jpeg__title": "PDF į JPEG - Nemokamai konvertuoti bet kokius PDF failus į paveikslėlius | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "Jokių atsisiuntimų ar vandens ženklų - tiesiog naudokite šį puikų nemokamą internetinį įrankį, skirtą konvertuoti PDF puslapius į JPEG paveikslėlius arba išgauti atskirus paveikslėlius iš savo PDF failų.",
-    "pdf_tools__pdf_to_png__title": "PDF į PNG - Nemokamai konvertuoti bet kokius PDF failus į paveikslėlius | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "Jokių atsisiuntimų ar vandens ženklų - tiesiog naudokite šį puikų nemokamą internetinį įrankį, skirtą konvertuoti PDF puslapius į PNG paveikslėlius arba išgauti atskirus paveikslėlius iš savo PDF failų.",
-    "pdf_tools__merge_pdfs__title": "Sulieti PDF failus - Paprastai sujungti kelis PDF failus į vieną | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Jokių atsisiuntimų ar vandens ženklų - vos keli paspaudimai, ir jūs galite sujungti kelis PDF failus į vieną dokumentą. Naudokite mūsų patikimą nemokamą internetinį įrankį, kad efektyviai sujungtumėte savo PDF failus.",
-    "pdf_tools__split_pdf__title": "Padalinti PDF failus - Padalinti PDF puslapius į kelis PDF failus arba tiesiog pašalinti puslapius iš esamo | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Jokių atsisiuntimų ar vandens ženklų - galite pasirinkti padalinti savo PDF į atskirus failus arba sujungti pasirinktus puslapius į vieną dokumentą naudodami mūsų universalų nemokamą internetinį įrankį. Patirkite sklandų PDF tinkinimą."
+    "pdf_tools__pdf_to_jpeg__title": "PDF į JPEG - Nemokamai konvertuokite bet kokius PDF į paveikslėlius | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Nemokamai konvertuokite PDF puslapius į JPEG paveikslėlius arba išskirkite atskirus paveikslėlius iš savo PDF failų. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
+    "pdf_tools__pdf_to_png__title": "PDF į PNG - Nemokamai konvertuokite bet kokius PDF į paveikslėlius | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Nemokamai konvertuokite PDF puslapius į PNG paveikslėlius arba išskirkite atskirus paveikslėlius iš savo PDF failų. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
+    "pdf_tools__merge_pdfs__title": "Sulieti PDF – Nemokamai sujunkite PDF failus | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Nemokamai sujunkite PDF failus ir sukūrkite vieną dokumentą internetu. Su mūsų PDF jungikliu, PDF failų sujungimas tapo dar lengvesnis. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
+    "pdf_tools__split_pdf__title": "Padalinti PDF - Atskirkite PDF puslapius arba pašalinkite puslapius | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Nemokamai atskirkite puslapius savo PDF faile. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",

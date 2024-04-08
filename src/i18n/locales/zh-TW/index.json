@@ -598,14 +598,14 @@
     "zmo__description": "免費使用AI創建藝術和圖像。ImgCreator.ai可以從文本和圖像生成圖像、藝術品、插圖、動漫、標誌、設計。我們的專有技術將讓您的想像力變為現實。",
     "pdf_tools__title": "免費PDF工具- 在線轉換、壓縮和編輯PDF | MaxAI.me",
     "pdf_tools__description": "探索我們的工具集，幫助您免費在線轉換、壓縮、編輯和簽署PDF。",
-    "pdf_tools__pdf_to_jpeg__title": "PDF轉JPEG- 免費在線將任何PDF轉換為圖像 | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "無需下載或廣告浮水印- 只需使用這款優秀的免費在線工具將PDF頁面轉換為JPEG圖像，或從PDF文件中提取單個圖像。",
-    "pdf_tools__pdf_to_png__title": "PDF轉PNG- 免費在線將任何PDF轉換為圖像 | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "無需下載或廣告浮水印- 只需使用這款優秀的免費在線工具將PDF頁面轉換為PNG圖像，或從PDF文件中提取單個圖像。",
-    "pdf_tools__merge_pdfs__title": "合併PDF- 在線合併PDF- 輕鬆將多個PDF文件合併為一個 | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "無需下載或廣告浮水印- 只需點擊幾下即可將多個PDF文件合併為單一文檔。使用我們可靠的免費在線工具高效地合併您的PDF。",
-    "pdf_tools__split_pdf__title": "拆分PDF- 將PDF的頁面拆分為多個PDF，或僅從現有文檔中刪除頁面 | MaxAI.me",
-    "pdf_tools__split_pdf__description": "無需下載或廣告浮水印- 選擇將您的PDF拆分為單獨的文件或將選定的頁面合併為一個文檔，使用我們多功能的免費在線工具體驗無縫的PDF自定義。"
+    "pdf_tools__pdf_to_jpeg__title": "PDF轉JPEG - 免費線上將任何PDF檔案轉換為圖片 | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "免費線上將PDF頁面轉換為JPEG圖片，或從PDF檔案中提取單獨的圖片。無需浮水印、檔案大小限制、下載或註冊。",
+    "pdf_tools__pdf_to_png__title": "PDF轉PNG - 免費線上將任何PDF檔案轉換為圖片 | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "免費線上將PDF頁面轉換為PNG圖片，或從PDF檔案中提取單獨的圖片。無需浮水印、檔案大小限制、下載或註冊。",
+    "pdf_tools__merge_pdfs__title": "合併PDF - 免費線上將PDF檔案合併成一個 | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "免費線上合併PDF檔案並創建單一文件。使用我們的PDF合併工具，合併PDF比以往更容易。無需浮水印、檔案大小限制、下載或註冊。",
+    "pdf_tools__split_pdf__title": "分割PDF - 分離PDF頁面或刪除頁面 | MaxAI.me",
+    "pdf_tools__split_pdf__description": "免費線上輕鬆分割PDF頁面。無需浮水印、檔案大小限制、下載或註冊。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "點擊上傳或拖放",

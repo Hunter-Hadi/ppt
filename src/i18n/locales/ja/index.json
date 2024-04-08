@@ -598,14 +598,14 @@
     "zmo__description": "無料でAIを使用してアートや画像を作成しましょう。ImgCreator.aiはテキストや画像からイメージ、アート、イラスト、アニメーション、ロゴ、デザインを生成することができます。私たちの独自の技術があなたの想像力を実現します。",
     "pdf_tools__title": "無料PDFツール - オンラインで変換、圧縮、編集 | MaxAI.me",
     "pdf_tools__description": "無料でオンラインでPDFを変換、圧縮、編集、署名するためのツールのコレクションをご覧ください。",
-    "pdf_tools__pdf_to_jpeg__title": "PDFからJPEGに変換 - 無料でPDFを画像に変換 | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "ダウンロードや広告の透かしはありません。PDFページをJPEG画像に変換したり、PDFファイルから個別の画像を抽出するための優れた無料オンラインツールをご利用ください。",
-    "pdf_tools__pdf_to_png__title": "PDFからPNGに変換 - 無料でPDFを画像に変換 | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "ダウンロードや広告の透かしはありません。PDFページをPNG画像に変換したり、PDFファイルから個別の画像を抽出するための優れた無料オンラインツールをご利用ください。",
-    "pdf_tools__merge_pdfs__title": "PDFを結合 - 複数のPDFファイルを簡単に1つに結合 | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "ダウンロードや広告の透かしはありません。数回のクリックで複数のPDFファイルを1つのドキュメントに結合します。信頼性のある無料オンラインツールを使用してPDFを効率的に結合しましょう。",
-    "pdf_tools__split_pdf__title": "PDFを分割 - 複数のPDFにページを分割するか、既存のPDFからページを削除 | MaxAI.me",
-    "pdf_tools__split_pdf__description": "ダウンロードや広告の透かしはありません。PDFを別々のファイルに分割するか、選択したページを1つのドキュメントに結合するかを選択できる多機能な無料オンラインツールをご利用ください。シームレスなPDFカスタマイズを体験してください。"
+    "pdf_tools__pdf_to_jpeg__title": "PDFをJPEGに変換 - 無料でオンラインでPDFを画像に変換する | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "PDFのページをJPEG画像に変換するか、PDFファイルから個別の画像を無料で抽出します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__pdf_to_png__title": "PDFをPNGに変換 - 無料でオンラインでPDFを画像に変換する | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "PDFのページをPNG画像に変換するか、PDFファイルから個別の画像を無料で抽出します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__merge_pdfs__title": "PDFを結合 - 無料でオンラインでPDFファイルを結合する | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "PDFファイルを結合して単一のドキュメントを無料で作成します。PDFコンバイナーを使用すれば、PDFの結合がこれまで以上に簡単になります。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__split_pdf__title": "PDFを分割 - PDFのページを分離または削除する | MaxAI.me",
+    "pdf_tools__split_pdf__description": "簡単にPDFのページを無料で分割します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",

@@ -599,13 +599,13 @@
     "pdf_tools__title": "Outils PDF gratuits - Convertir, compresser et modifier des PDF en ligne | MaxAI.me",
     "pdf_tools__description": "Explorez notre collection d'outils pour vous aider à convertir, compresser, modifier et signer des PDF en ligne gratuitement.",
     "pdf_tools__pdf_to_jpeg__title": "PDF vers JPEG - Convertir tous les PDF en images en ligne gratuitement | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "Pas de téléchargements ni de filigranes publicitaires - utilisez simplement cet excellent outil gratuit en ligne pour convertir les pages PDF en images JPEG ou extraire des images individuelles de vos fichiers PDF.",
+    "pdf_tools__pdf_to_jpeg__description": "Convertir les pages PDF en images JPEG ou extraire des images individuelles de vos fichiers PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
     "pdf_tools__pdf_to_png__title": "PDF vers PNG - Convertir tous les PDF en images en ligne gratuitement | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "Pas de téléchargements ni de filigranes publicitaires - utilisez simplement cet excellent outil gratuit en ligne pour convertir les pages PDF en images PNG ou extraire des images individuelles de vos fichiers PDF.",
-    "pdf_tools__merge_pdfs__title": "Fusionner des PDF - Fusionner facilement plusieurs fichiers PDF en un seul | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Pas de téléchargements ni de filigranes publicitaires - quelques clics suffisent pour fusionner plusieurs fichiers PDF en un seul document. Utilisez notre outil gratuit en ligne fiable pour combiner efficacement vos PDF.",
-    "pdf_tools__split_pdf__title": "Diviser des PDF - Diviser les pages d'un PDF en plusieurs PDF ou simplement supprimer des pages d'un PDF existant | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Pas de téléchargements ni de filigranes publicitaires - choisissez de diviser votre PDF en fichiers séparés ou de fusionner des pages sélectionnées en un seul document avec notre outil gratuit en ligne polyvalent. Découvrez une personnalisation PDF fluide."
+    "pdf_tools__pdf_to_png__description": "Convertir les pages PDF en images PNG ou extraire des images individuelles de vos fichiers PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
+    "pdf_tools__merge_pdfs__title": "Fusionner des PDF - Combinez des fichiers PDF en ligne gratuitement | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combinez des fichiers PDF et créez un seul document en ligne gratuitement. Avec notre outil de fusion PDF, la fusion de PDF est plus facile que jamais. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
+    "pdf_tools__split_pdf__title": "Diviser un PDF - Séparez les pages PDF ou supprimez des pages | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Séparez facilement les pages de votre PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis."
   },
   "features_landing": {
     "cta_text": "Ajouter au navigateur",

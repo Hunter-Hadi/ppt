@@ -714,16 +714,18 @@
 
     "pdf_tools__title": "Free PDF Tools - Convert, Compress, and Edit PDFs Online | MaxAI.me",
     "pdf_tools__description": "Explore our collection of tools to help you convert, compress, edit, and sign PDFs online for free.",
+
     "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - Convert Any PDFs to Images Online for Free | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "No downloads or ad watermarks – simply use this excellent free online tool to convert PDF pages into JPEG images or extract individual images from your PDF files.",
-    "pdf_tools__pdf_to_png__title": "PDF to JPEG - Convert Any PDFs to Images Online for Free | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "No downloads or ad watermarks – simply use this excellent free online tool to convert PDF pages into PNG images or extract individual images from your PDF files.",
+    "pdf_tools__pdf_to_jpeg__description": "Convert PDF pages into JPEG images or extract individual images from your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups required.",
 
-    "pdf_tools__merge_pdfs__title": "Merge PDFs - Combine PDFs Online - Easily Merge Multiple PDF Files into One | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "No downloads or ad watermarks – just a few clicks to merge multiple PDF files into a single document. Use our reliable free online tool for combining your PDFs efficiently.",
+    "pdf_tools__pdf_to_png__title": "PDF to PNG - Convert Any PDFs to Images Online for Free | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Convert PDF pages into PNG images or extract individual images from your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups required.",
 
-    "pdf_tools__split_pdf__title": "Split PDFs - Split a PDF's pages into multiple PDFs or simply remove pages from an existing one | MaxAI.me",
-    "pdf_tools__split_pdf__description": "No downloads or ad watermarks – choose to split your PDF into separate files or merge selected pages into one document with our versatile free online tool. Experience seamless PDF customization."
+    "pdf_tools__merge_pdfs__title": "Merge PDF – Combine PDF Files Online for Free | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combine PDF files and create a single document online for free. With our PDF combiner, merging PDFs is easier than ever. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__split_pdf__title": "Split PDF - Separate PDF pages or remove pages | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Easily separate pages in your PDF online for free. No watermarks, file size limits, downloads, or sign-ups required."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

@@ -598,14 +598,14 @@
     "zmo__description": "Luo taidetta ja kuvia tekoälyn avulla ilmaiseksi. ImgCreator.ai voi generoida kuvia, taidetta, kuvituksia, animea, logoja, suunnitelmia tekstistä ja kuvista. Oma teknologiamme herättää mielikuvituksesi eloon.",
     "pdf_tools__title": "Ilmaiset PDF-työkalut - Muunna, pakkaa ja muokkaa PDF-tiedostoja verkossa | MaxAI.me",
     "pdf_tools__description": "Tutustu kokoelmaamme työkaluja, jotka auttavat sinua muuntamaan, pakkaamaan, muokkaamaan ja allekirjoittamaan PDF-tiedostoja ilmaiseksi verkossa.",
-    "pdf_tools__pdf_to_jpeg__title": "PDF JPEG-muunnin - Muunna PDF-tiedostot kuviksi ilmaiseksi | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "Ei latauksia tai mainosvesileimoja - käytä tätä erinomaista ilmaista verkkotyökalua PDF-sivujen muuntamiseen JPEG-kuviksi tai yksittäisten kuvien poimimiseen PDF-tiedostoistasi.",
-    "pdf_tools__pdf_to_png__title": "PDF PNG-muunnin - Muunna PDF-tiedostot kuvaformaatiksi ilmaiseksi | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "Ei latauksia tai mainosvesileimoja - käytä tätä erinomaista ilmaista verkkotyökalua PDF-sivujen muuntamiseen PNG-kuviksi tai yksittäisten kuvien poimimiseen PDF-tiedostoistasi.",
-    "pdf_tools__merge_pdfs__title": "Yhdistä PDF-tiedostot - Yhdistä useat PDF-tiedostot helposti yhdeksi | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Ei latauksia tai mainosvesileimoja - muutamalla napsautuksella voit yhdistää useita PDF-tiedostoja yhdeksi asiakirjaksi. Käytä luotettavaa ilmaista verkkotyökaluamme PDF-tiedostojen tehokkaaseen yhdistämiseen.",
-    "pdf_tools__split_pdf__title": "Jaa PDF-tiedostot - Jaa PDF:n sivut useisiin tiedostoihin tai poista sivuja olemassa olevasta tiedostosta | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Ei latauksia tai mainosvesileimoja - valitse, haluatko jakaa PDF-tiedostosi erillisiksi tiedostoiksi vai yhdistää valitut sivut yhdeksi asiakirjaksi monipuolisella ilmaisella verkkotyökalullamme. Koe saumaton PDF-mukautus."
+    "pdf_tools__pdf_to_jpeg__title": "PDF JPEG - Muunna PDF-tiedostot kuviksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Muunna PDF-sivut JPEG-kuviksi tai poimi yksittäiset kuvat PDF-tiedostoistasi ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "pdf_tools__pdf_to_png__title": "PDF PNG - Muunna PDF-tiedostot kuviksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Muunna PDF-sivut PNG-kuviksi tai poimi yksittäiset kuvat PDF-tiedostoistasi ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "pdf_tools__merge_pdfs__title": "Yhdistä PDF – Yhdistä PDF-tiedostot verkossa ilmaiseksi | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Yhdistä PDF-tiedostot ja luo yksi asiakirja verkossa ilmaiseksi. PDF-yhdistimellämme PDF-tiedostojen yhdistäminen on helpompaa kuin koskaan. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "pdf_tools__split_pdf__title": "Jaa PDF - Jaa PDF-sivut tai poista sivuja | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Jaa helposti sivut PDF-tiedostossasi verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",

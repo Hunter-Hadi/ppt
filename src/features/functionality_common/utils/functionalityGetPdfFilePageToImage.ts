@@ -104,9 +104,7 @@ const findPdfToImage = async (page: any) => {
                             };
                         }
                     } catch (e) {
-                        if (i === imageNames.length - 1) {
-                            resolve(haveImages)
-                        }
+                        resolve(haveImages)
                         console.log('simply findPdfToImage error get', e);
                     }
                 })();

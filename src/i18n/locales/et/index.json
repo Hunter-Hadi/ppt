@@ -598,14 +598,14 @@
     "zmo__description": "Loo kunsti ja pilte tasuta tehisintellektiga. ImgCreator.ai saab luua pilte, kunsti, illustratsioone, animeid, logod, kujundusi teksti ja piltide abil. Meie ainulaadne tehnoloogia toob sinu kujutlusvõime ellu.",
     "pdf_tools__title": "Tasuta PDF-i tööriistad - konverteeri, suru kokku ja muuda PDF-e veebis | MaxAI.me",
     "pdf_tools__description": "Uuri meie kogumikku tööriistu, mis aitavad sul tasuta veebis PDF-e konverteerida, kokku suruda, muuta ja allkirjastada.",
-    "pdf_tools__pdf_to_jpeg__title": "PDF JPEG-ks - konverteeri PDF-id piltideks veebis tasuta | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "Allalaadimisi ega reklaamvesimärke pole – kasuta lihtsalt seda suurepärast tasuta veebitööriista PDF-lehekülgede konverteerimiseks JPEG-piltideks või üksikute piltide eraldamiseks PDF-failidest.",
-    "pdf_tools__pdf_to_png__title": "PDF PNG-ks - konverteeri PDF-id piltideks veebis tasuta | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "Allalaadimisi ega reklaamvesimärke pole – kasuta lihtsalt seda suurepärast tasuta veebitööriista PDF-lehekülgede konverteerimiseks PNG-piltideks või üksikute piltide eraldamiseks PDF-failidest.",
-    "pdf_tools__merge_pdfs__title": "Ühenda PDF-id - ühenda PDF-id veebis lihtsalt mitme PDF-faili üheks | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Allalaadimisi ega reklaamvesimärke pole – vaid mõne klõpsuga saad ühendada mitu PDF-faili üheks dokumendiks. Kasuta meie usaldusväärset tasuta veebitööriista, et ühendada oma PDF-id tõhusalt.",
-    "pdf_tools__split_pdf__title": "Jaga PDF-id - jaga PDF-i lehekülgi mitmeks PDF-iks või eemalda lihtsalt lehekülgi olemasolevast | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Allalaadimisi ega reklaamvesimärke pole – vali, kas jagada oma PDF eraldi failideks või ühendada valitud leheküljed üheks dokumendiks meie mitmekülgse tasuta veebitööriistaga. Koge sujuvat PDF-i kohandamist."
+    "pdf_tools__pdf_to_jpeg__title": "PDF JPEG-ks - Teisenda tasuta veebis mis tahes PDF pildiks | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Teisenda PDF lehed JPEG piltideks või eralda üksikud pildid oma PDF failidest tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__pdf_to_png__title": "PDF PNG-ks - Teisenda tasuta veebis mis tahes PDF pildiks | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Teisenda PDF lehed PNG piltideks või eralda üksikud pildid oma PDF failidest tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__merge_pdfs__title": "Ühenda PDF – Ühenda tasuta veebis PDF failid | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Ühenda PDF failid ja loo üks dokument tasuta veebis. Meie PDF ühendajaga on PDF-ide ühendamine lihtsam kui kunagi varem. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__split_pdf__title": "Jaga PDF - Eralda PDF lehti või eemalda lehti | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Eralda lihtsalt lehti oma PDF-ist tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",

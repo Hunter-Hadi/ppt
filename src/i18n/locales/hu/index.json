@@ -598,14 +598,14 @@
     "zmo__description": "Hozzon létre művészetet és képeket AI segítségével ingyen. Az ImgCreator.ai generálhat képeket, művészetet, illusztrációkat, anime-t, logókat, terveket szövegből és képekből. Saját technológiánk életre kelti a képzeletedet.",
     "pdf_tools__title": "Ingyenes PDF Eszközök - PDF Konvertálás, Tömörítés és Szerkesztés Online | MaxAI.me",
     "pdf_tools__description": "Fedezze fel gyűjteményünket, amely segít Önnek ingyenesen konvertálni, tömöríteni, szerkeszteni és aláírni a PDF fájlokat online.",
-    "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - Bármilyen PDF átalakítása képekbe ingyen | MaxAI.me",
-    "pdf_tools__pdf_to_jpeg__description": "Nincs letöltés vagy vízjel - egyszerűen használja ezt a kiváló ingyenes online eszközt a PDF oldalak JPEG képekké történő átalakításához vagy egyedi képek kinyeréséhez a PDF fájlokból.",
-    "pdf_tools__pdf_to_png__title": "PDF to PNG - Bármilyen PDF átalakítása képekbe ingyen | MaxAI.me",
-    "pdf_tools__pdf_to_png__description": "Nincs letöltés vagy vízjel - egyszerűen használja ezt a kiváló ingyenes online eszközt a PDF oldalak PNG képekké történő átalakításához vagy egyedi képek kinyeréséhez a PDF fájlokból.",
-    "pdf_tools__merge_pdfs__title": "PDF-ek egyesítése - PDF-ek online kombinálása - Több PDF fájl egyszerű egyesítése egybe | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Nincs letöltés vagy vízjel - csak néhány kattintásra van szükség a több PDF fájl egyetlen dokumentumba való egyesítéséhez. Használja megbízható ingyenes online eszközünket a PDF-ek hatékony kombinálásához.",
-    "pdf_tools__split_pdf__title": "PDF-ek felosztása - Egy PDF oldalainak felosztása több PDF-re vagy egyszerűen oldalak eltávolítása meglévőből | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Nincs letöltés vagy vízjel - válassza ki, hogy a PDF-t különálló fájlokra szeretné-e felosztani, vagy válogatott oldalakat egyetlen dokumentumba szeretne-e egyesíteni a sokoldalú ingyenes online eszközünkkel. Tapasztalja meg a zökkenőmentes PDF testreszabást."
+    "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - Bármely PDF konvertálása képekbe online ingyen | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Konvertálja a PDF oldalakat JPEG képekké vagy kinyerheti az egyedi képeket a PDF fájlokból online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
+    "pdf_tools__pdf_to_png__title": "PDF to PNG - Bármely PDF konvertálása képekbe online ingyen | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Konvertálja a PDF oldalakat PNG képekké vagy kinyerheti az egyedi képeket a PDF fájlokból online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
+    "pdf_tools__merge_pdfs__title": "PDF összevonása - PDF fájlok kombinálása online ingyen | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kombinálja a PDF fájlokat és hozzon létre egyetlen dokumentumot online ingyen. A PDF összevonóval könnyebb mint valaha a PDF-ek egyesítése. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
+    "pdf_tools__split_pdf__title": "PDF felosztása - PDF oldalak különválasztása vagy eltávolítása | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Egyszerűen válassza szét a PDF oldalakat online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
