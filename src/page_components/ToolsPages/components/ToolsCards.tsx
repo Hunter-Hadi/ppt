@@ -26,17 +26,33 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
     >
       {list.map((toolData) => {
         return (
-          <Grid key={toolData.urlKey} item xs={12} sm={6} md={4}>
+          <Grid
+            key={toolData.urlKey}
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
             <ProLink
               href={`/${toolsTopUrlKey}/${toolData.urlKey}`}
               color='inherit'
               target='_self'
               sx={{
-                width: '100%',
+                flex: 1,
               }}
             >
-              <Card sx={{ padding: 1, cursor: 'pointer' }} variant='outlined'>
-                <CardContent>
+              <Card
+                sx={{
+                  cursor: 'pointer',
+                  height: '100%',
+                }}
+                variant='outlined'
+              >
+                <CardContent style={{ padding: 20 }}>
                   <ToolsIcon
                     name={toolData.icon}
                     sx={{ color: 'primary.main' }}
@@ -54,7 +70,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                   >
                     {t(toolData.title)}
                   </Typography>
-                  <div style={{ minHeight: 70 }}>
+                  <div>
                     <Typography
                       sx={{
                         fontSize: {

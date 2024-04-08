@@ -67,8 +67,8 @@ const FunctionalityPdfToImageDetail: FC<
   }, [fileData]);
 
   useEffect(() => {
-    onDefaultChangeScale(pdfTotalPages);
-  }, [pdfTotalPages]);
+    onDefaultChangeScale(currentShowImages.length);
+  }, [currentShowImages, showPdfImagesType]);
   const maxSizeScaleNum = 4;
   const imageSizeList = useMemo(() => {
     // 图片储存列表设置

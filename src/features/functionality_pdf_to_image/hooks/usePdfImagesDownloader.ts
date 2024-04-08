@@ -104,7 +104,7 @@ const usePdfImagesDownloader = () => {
     setDownloaderIsLoading(false);
   };
   const generatePdfToImage = async (
-    pdfDoc: any, //PDFDocumentProxy react-pdfjs没有导出
+    pdfDoc: any, //TS类型为:PDFDocumentProxy react-pdfjs没有导出
     pageNum: number,
     toType: string,
     scale: number = 1.6,

@@ -89,12 +89,12 @@ export const FunctionalityPdfSplit = () => {
   };
   const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
     const zip = new JSZip();
-    const zipTool = zip.folder('split(MaxAi.me)');
+    const zipTool = zip.folder('pdfs(MaxAi.me)');
     for (let i = 0; i < list.length; i++) {
       zipTool?.file(`split-${i + 1}(MaxAI.me).pdf`, list[i]);
     }
     zip.generateAsync({ type: 'blob' }).then((content) => {
-      FileSaver.saveAs(content, 'split(MaxAI.me).zip');
+      FileSaver.saveAs(content, 'pdfs(MaxAI.me).zip');
     });
   };
   const getSplitPdfFiles = async (fileList: IPdfPageImageInfo[]) => {
@@ -125,21 +125,15 @@ export const FunctionalityPdfSplit = () => {
       if (activeFile) {
         const arrayBuffer = await activeFile.arrayBuffer();
         const pdfDoc = await PDFDocument.load(arrayBuffer);
-
         // 遍历文件列表，将每个文件的页面添加到合并的文档中
         for (let index = 0; index < fileList.length; index++) {
-          console.log('simply index 1', index);
-
           const pages = await mergedPdfDoc.copyPages(pdfDoc, [
             fileList[index].definedIndex - 1,
           ]);
-
           pages.forEach((page) => {
             mergedPdfDoc.addPage(page);
           });
-          console.log('simply index 2', index);
         }
-
         // 将合并的文档保存为 Uint8Array
         const mergedPdfUint8Array = await mergedPdfDoc.save();
         return mergedPdfUint8Array;
