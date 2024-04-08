@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Skatīt lapas",
     "components__to_image_detail__view_images": "Skatīt attēlus",
     "components__to_image__downloader_tip": "Lūdzu, atlasiet vismaz vienu attēlu.",
-    "components__to_image_detail__not_found_images": "PDF attēls nav atrasts"
+    "components__to_image_detail__not_found_images": "PDF attēls nav atrasts",
+    "components__to_image_detail__button__download__tooltip": "Lejupielādēt saspieztas attēlus",
+    "components__to_image_detail__button__view_images__tooltip": "Skatīt izgūtos attēlus šajā PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Skatīt visus lapas šajā PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Pietuvināt",
+    "components__to_image_detail__button__zoom_out__tooltip": "Attālināt",
+    "components__to_image_detail__button__cancel__tooltip": "Atcelt pašreizējo progresu",
+    "components__to_image_detail__button__remove__tooltip": "Noņemt šo PDF un izvēlēties jaunu"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Pievienot PDF",
     "components__pdf_merge__empty_pdf": "Notīrīt PDF",
     "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
-    "components__pdf_merge__pdf_dropping": "Jūs varat mainīt PDF secību, vilkt un nomest"
+    "components__pdf_merge__pdf_dropping": "Jūs varat mainīt PDF secību, vilkt un nomest",
+    "components__pdf_merge__button__download__tooltip": "Apvienot un lejupielādēt PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Notīrīt visus PDF zemāk",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Pievienot PDF failu zemāk"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Jūs varat mainīt PDF secību, vilkot un nomest",
     "components__pdf_split__is_single_pdf": "Apvienot atlasītās lapas vienā PDF",
     "components__pdf_split__cancel": "Atcelt",
-    "components__pdf_split__error_maximum": "Neizdevās sadalīt PDF failus, pārsniegts maksimālais daudzums"
+    "components__pdf_split__error_maximum": "Neizdevās sadalīt PDF failus, pārsniegts maksimālais daudzums",
+    "components__pdf_split__button__zoom_in__tooltip": "Pietuvināt",
+    "components__pdf_split__button__zoom_out__tooltip": "Attālināt",
+    "components__pdf_split__button__remove__tooltip": "Noņemt šo PDF un izvēlēties jaunu",
+    "components__pdf_split__button__download__tooltip": "Sadalīt un lejupielādēt PDF",
+    "components__pdf_split__button__cancel__tooltip": "Atcelt pašreizējo progresu"
   }
 }

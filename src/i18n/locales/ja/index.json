@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "ページを表示",
     "components__to_image_detail__view_images": "画像を表示",
     "components__to_image__downloader_tip": "少なくとも1つの画像を選択してください",
-    "components__to_image_detail__not_found_images": "PDFの画像が見つかりません"
+    "components__to_image_detail__not_found_images": "PDFの画像が見つかりません",
+    "components__to_image_detail__button__download__tooltip": "画像を圧縮してダウンロード",
+    "components__to_image_detail__button__view_images__tooltip": "このPDFで抽出された画像を表示",
+    "components__to_image_detail__button__view_pages__tooltip": "このPDFのすべてのページを表示",
+    "components__to_image_detail__button__zoom_in__tooltip": "拡大",
+    "components__to_image_detail__button__zoom_out__tooltip": "縮小",
+    "components__to_image_detail__button__cancel__tooltip": "現在の進行状況をキャンセル",
+    "components__to_image_detail__button__remove__tooltip": "このPDFを削除し、新しいものを選択"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDFを追加",
     "components__pdf_merge__empty_pdf": "PDFをクリア",
     "components__pdf_merge__confirm_merge": "マージを確認",
-    "components__pdf_merge__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます"
+    "components__pdf_merge__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます",
+    "components__pdf_merge__button__download__tooltip": "PDFを結合してダウンロード",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "以下のすべてのPDFをクリア",
+    "components__pdf_merge__button__add_pdfs__tooltip": "以下にPDFファイルを追加"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます",
     "components__pdf_split__is_single_pdf": "選択したページを1つのPDFに結合する",
     "components__pdf_split__cancel": "キャンセル",
-    "components__pdf_split__error_maximum": "PDFファイルの分割に失敗しました。最大数量を超えています"
+    "components__pdf_split__error_maximum": "PDFファイルの分割に失敗しました。最大数量を超えています",
+    "components__pdf_split__button__zoom_in__tooltip": "拡大",
+    "components__pdf_split__button__zoom_out__tooltip": "縮小",
+    "components__pdf_split__button__remove__tooltip": "このPDFを削除し、新しいものを選択",
+    "components__pdf_split__button__download__tooltip": "PDFを分割してダウンロード",
+    "components__pdf_split__button__cancel__tooltip": "現在の進行状況をキャンセル"
   }
 }

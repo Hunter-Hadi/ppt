@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "പേജുകള്‍ കാണുക",
     "components__to_image_detail__view_images": "ചിത്രങ്ങള്‍ കാണുക",
     "components__to_image__downloader_tip": "ദയവായി കുറഞ്ഞത് ഒരു ചിത്രം തിരഞ്ഞെടുക്കുക.",
-    "components__to_image_detail__not_found_images": "PDF ചിത്രം കണ്ടെത്തിയില്ല"
+    "components__to_image_detail__not_found_images": "PDF ചിത്രം കണ്ടെത്തിയില്ല",
+    "components__to_image_detail__button__download__tooltip": "ഇമേജുകൾ സംരക്ഷിക്കുകയും ഡൗൺലോഡ് ചെയ്യുക",
+    "components__to_image_detail__button__view_images__tooltip": "ഈ പിഡിഎഫിലെ എല്ലാ ഇമേജുകൾ കാണുക",
+    "components__to_image_detail__button__view_pages__tooltip": "ഈ പിഡിഎഫിലെ എല്ലാ പേജുകൾ കാണുക",
+    "components__to_image_detail__button__zoom_in__tooltip": "വലിയതാക്കുക",
+    "components__to_image_detail__button__zoom_out__tooltip": "ചെറിയതാക്കുക",
+    "components__to_image_detail__button__cancel__tooltip": "നിലവിൽ ഉള്ള പ്രോഗ്രസ്സ് റദ്ദാക്കുക",
+    "components__to_image_detail__button__remove__tooltip": "ഈ പിഡിഎഫ് നീക്കം ചെയ്യുകയും പുതിയത് തിരഞ്ഞെടുക്കുക"
   },
   "features_landing": {
     "cta_text": "ബ്രൌസറില്‍ ചേര്‍ക്കുക",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF ചേർക്കുക",
     "components__pdf_merge__empty_pdf": "PDF മായ്ക്കുക",
     "components__pdf_merge__confirm_merge": "ഒരുപാട് ചേർക്കാൻ സ്ഥിരീകരിക്കുക",
-    "components__pdf_merge__pdf_dropping": "പിഡിഎഫ് ക്രമം ഇടപെടുത്താൻ നിങ്ങൾക്ക് വഴിയുണ്ട്"
+    "components__pdf_merge__pdf_dropping": "പിഡിഎഫ് ക്രമം ഇടപെടുത്താൻ നിങ്ങൾക്ക് വഴിയുണ്ട്",
+    "components__pdf_merge__button__download__tooltip": "പിഡിഎഫ് ഒരുക്കി ഡൗൺലോഡ് ചെയ്യുക",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "താഴെ നിന്നുള്ള എല്ലാ പിഡിഎഫുകൾക്കും മായ്‌ക്കുക",
+    "components__pdf_merge__button__add_pdfs__tooltip": "താഴെ പിഡിഎഫ് ഫയൽ ചേർക്കുക"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "ദയവായി നിർദ്ദേശിച്ച PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "പിഡിഎഫ് ക്രമം മാറ്റാൻ നിങ്ങൾക്ക് വഴിയുണ്ട് ഡ്രാഗ് ചെയ്യാവുക",
     "components__pdf_split__is_single_pdf": "തിരഞ്ഞെടുത്ത പേജുകൾ ഒരു ഏകദേശ PDF ലേക്ക് മരയ്ക്കുക",
     "components__pdf_split__cancel": "റദ്ദാക്കുക",
-    "components__pdf_split__error_maximum": "PDF ഫയലുകൾ വിഭജനം ചെയ്യാൻ പരമാവധി എണ്ണത്തിനു മികച്ചപ്പോൾ പിശക്"
+    "components__pdf_split__error_maximum": "PDF ഫയലുകൾ വിഭജനം ചെയ്യാൻ പരമാവധി എണ്ണത്തിനു മികച്ചപ്പോൾ പിശക്",
+    "components__pdf_split__button__zoom_in__tooltip": "വലിയ ശ്രണിയിൽ സജ്ജമാക്കുക",
+    "components__pdf_split__button__zoom_out__tooltip": "ചെറിയ ശ്രണിയിൽ സജ്ജമാക്കുക",
+    "components__pdf_split__button__remove__tooltip": "ഈ പിഡിഎഫ് നീക്കം ചെയ്യുകയും പുതിയത് തിരഞ്ഞെടുക്കുക",
+    "components__pdf_split__button__download__tooltip": "പിഡിഎഫ് വിഭജിക്കുകയും ഡൗൺലോഡ് ചെയ്യുക",
+    "components__pdf_split__button__cancel__tooltip": "നിലവിൽ ഉള്ള പ്രോഗ്രസ്സ് റദ്ദാക്കുക"
   }
 }

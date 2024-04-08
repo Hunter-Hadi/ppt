@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "Переглянути сторінки",
     "components__to_image_detail__view_images": "Переглянути зображення",
     "components__to_image__downloader_tip": "Будь ласка, виберіть принаймні одне зображення.",
-    "components__to_image_detail__not_found_images": "Зображення PDF не знайдено"
+    "components__to_image_detail__not_found_images": "Зображення PDF не знайдено",
+    "components__to_image_detail__button__download__tooltip": "Завантажити стиснуті зображення",
+    "components__to_image_detail__button__view_images__tooltip": "Переглянути видобуті зображення у цьому PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Переглянути всі сторінки у цьому PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Збільшити",
+    "components__to_image_detail__button__zoom_out__tooltip": "Зменшити",
+    "components__to_image_detail__button__cancel__tooltip": "Скасувати поточний прогрес",
+    "components__to_image_detail__button__remove__tooltip": "Видалити цей PDF та вибрати новий"
   },
   "features_landing": {
     "cta_text": "Додати до браузера",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Додати PDF",
     "components__pdf_merge__empty_pdf": "Очистити PDF",
     "components__pdf_merge__confirm_merge": "Підтвердити об'єднання",
-    "components__pdf_merge__pdf_dropping": "Ви можете налаштувати порядок PDF, перетягуючи їх"
+    "components__pdf_merge__pdf_dropping": "Ви можете налаштувати порядок PDF, перетягуючи їх",
+    "components__pdf_merge__button__download__tooltip": "Об'єднати та завантажити PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Очистити всі PDF нижче",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Додати файл PDF нижче"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Ви можете налаштувати порядок PDF-файлів, перетягуючи їх",
     "components__pdf_split__is_single_pdf": "Об'єднати обрані сторінки в один PDF",
     "components__pdf_split__cancel": "Скасувати",
-    "components__pdf_split__error_maximum": "Не вдалося розбити файли PDF. Перевищено максимальну кількість"
+    "components__pdf_split__error_maximum": "Не вдалося розбити файли PDF. Перевищено максимальну кількість",
+    "components__pdf_split__button__zoom_in__tooltip": "Збільшити",
+    "components__pdf_split__button__zoom_out__tooltip": "Зменшити",
+    "components__pdf_split__button__remove__tooltip": "Видалити цей PDF та вибрати новий",
+    "components__pdf_split__button__download__tooltip": "Розділити та завантажити PDF",
+    "components__pdf_split__button__cancel__tooltip": "Скасувати поточний прогрес"
   }
 }

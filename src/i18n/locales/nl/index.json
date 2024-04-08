@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Bekijk pagina's",
     "components__to_image_detail__view_images": "Bekijk afbeeldingen",
     "components__to_image__downloader_tip": "Selecteer alstublieft minstens één afbeelding.",
-    "components__to_image_detail__not_found_images": "PDF-afbeelding niet gevonden"
+    "components__to_image_detail__not_found_images": "PDF-afbeelding niet gevonden",
+    "components__to_image_detail__button__download__tooltip": "Gecomprimeerde afbeeldingen downloaden",
+    "components__to_image_detail__button__view_images__tooltip": "Bekijk de geëxtraheerde afbeeldingen in deze PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Bekijk alle pagina's in deze PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Inzoomen",
+    "components__to_image_detail__button__zoom_out__tooltip": "Uitzoomen",
+    "components__to_image_detail__button__cancel__tooltip": "Huidige voortgang annuleren",
+    "components__to_image_detail__button__remove__tooltip": "Verwijder deze PDF en selecteer een nieuwe"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF toevoegen",
     "components__pdf_merge__empty_pdf": "PDF's wissen",
     "components__pdf_merge__confirm_merge": "Bevestig samenvoegen",
-    "components__pdf_merge__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten"
+    "components__pdf_merge__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten",
+    "components__pdf_merge__button__download__tooltip": "Samenvoegen en PDF downloaden",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Alle PDF's hieronder wissen",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF-bestand hieronder toevoegen"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Upload het gespecificeerde bestandstype van PDF",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten",
     "components__pdf_split__is_single_pdf": "Voeg geselecteerde pagina's samen in één PDF",
     "components__pdf_split__cancel": "Annuleren",
-    "components__pdf_split__error_maximum": "Kan PDF-bestanden niet splitsen, maximum aantal overschreden"
+    "components__pdf_split__error_maximum": "Kan PDF-bestanden niet splitsen, maximum aantal overschreden",
+    "components__pdf_split__button__zoom_in__tooltip": "Inzoomen",
+    "components__pdf_split__button__zoom_out__tooltip": "Uitzoomen",
+    "components__pdf_split__button__remove__tooltip": "Verwijder deze PDF en selecteer een nieuwe",
+    "components__pdf_split__button__download__tooltip": "Opsplitsen en PDF downloaden",
+    "components__pdf_split__button__cancel__tooltip": "Huidige voortgang annuleren"
   }
 }

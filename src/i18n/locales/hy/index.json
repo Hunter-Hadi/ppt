@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Դիտել էջերը",
     "components__to_image_detail__view_images": "Դիտել պատկերները",
     "components__to_image__downloader_tip": "Խնդրվում է ընտրել առավելագույնը մեկ պատկեր:",
-    "components__to_image_detail__not_found_images": "PDF պատկերը չի գտնվել"
+    "components__to_image_detail__not_found_images": "PDF պատկերը չի գտնվել",
+    "components__to_image_detail__button__download__tooltip": "Բեռնել պատկերները պահանջված ձեւով",
+    "components__to_image_detail__button__view_images__tooltip": "Դիտել այս PDF-ից դուրս բերված պատկերները",
+    "components__to_image_detail__button__view_pages__tooltip": "Դիտել այս PDF-ի բոլոր էջերը",
+    "components__to_image_detail__button__zoom_in__tooltip": "Խառնել",
+    "components__to_image_detail__button__zoom_out__tooltip": "Աճել",
+    "components__to_image_detail__button__cancel__tooltip": "Չեղարկել ընթացիկ գործընթացը",
+    "components__to_image_detail__button__remove__tooltip": "Ջնջել այս PDF-ն և ընտրել նորը"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Ավելացնել PDF",
     "components__pdf_merge__empty_pdf": "Մաքրել PDF-ները",
     "components__pdf_merge__confirm_merge": "Հաստատել միավորումը",
-    "components__pdf_merge__pdf_dropping": "Դուք կարող եք համալիրել PDF-ների կարգը տեղադրելով և շարունակելով"
+    "components__pdf_merge__pdf_dropping": "Դուք կարող եք համալիրել PDF-ների կարգը տեղադրելով և շարունակելով",
+    "components__pdf_merge__button__download__tooltip": "Միացնել և բեռնել PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Մաքրել ստորեւ բոլոր PDF-ները",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Ավելացնել PDF ֆայլ ստորեւ"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակին",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Դուք կարող եք համապատասխանել PDF-երի կարգը տեղադրելով և ներկայացնելով",
     "components__pdf_split__is_single_pdf": "Միավորել ընտրված էջերը մեկ PDF-ում",
     "components__pdf_split__cancel": "Չեղարկել",
-    "components__pdf_split__error_maximum": "Չհաջողվեց բաժանել PDF ֆայլերը, գերազանցվեց առավելագույն քանակը"
+    "components__pdf_split__error_maximum": "Չհաջողվեց բաժանել PDF ֆայլերը, գերազանցվեց առավելագույն քանակը",
+    "components__pdf_split__button__zoom_in__tooltip": "Խառնել",
+    "components__pdf_split__button__zoom_out__tooltip": "Աճել",
+    "components__pdf_split__button__remove__tooltip": "Ջնջել այս PDF-ն և ընտրել նորը",
+    "components__pdf_split__button__download__tooltip": "Բաժանել և բեռնել PDF",
+    "components__pdf_split__button__cancel__tooltip": "Չեղարկել ընթացիկ գործընթացը"
   }
 }

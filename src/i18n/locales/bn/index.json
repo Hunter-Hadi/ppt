@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "পৃষ্ঠা দেখুন",
     "components__to_image_detail__view_images": "ছবি দেখুন",
     "components__to_image__downloader_tip": "অনুগ্রহ করে কমপক্ষে একটি ছবি নির্বাচন করুন।",
-    "components__to_image_detail__not_found_images": "পিডিএফ ইমেজ পাওয়া যায়নি"
+    "components__to_image_detail__not_found_images": "পিডিএফ ইমেজ পাওয়া যায়নি",
+    "components__to_image_detail__button__download__tooltip": "জিপ করে ছবি ডাউনলোড করুন",
+    "components__to_image_detail__button__view_images__tooltip": "এই পিডিএফে নির্গত ছবিগুলি দেখুন",
+    "components__to_image_detail__button__view_pages__tooltip": "এই পিডিএফে সমস্ত পৃষ্ঠা দেখুন",
+    "components__to_image_detail__button__zoom_in__tooltip": "জুম ইন",
+    "components__to_image_detail__button__zoom_out__tooltip": "জুম আউট",
+    "components__to_image_detail__button__cancel__tooltip": "বর্তমান অগ্রগতি বাতিল করুন",
+    "components__to_image_detail__button__remove__tooltip": "এই পিডিএফ মুছে ফেলুন এবং নতুনটি নির্বাচন করুন"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "অনুগ্রহ করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "পিডিএফ যোগ করুন",
     "components__pdf_merge__empty_pdf": "পিডিএফ সাফ করুন",
     "components__pdf_merge__confirm_merge": "মার্জ করতে নিশ্চিত করুন",
-    "components__pdf_merge__pdf_dropping": "আপনি পিডিএফ ক্রম পরিবর্তন করতে ড্র্যাগ এবং ড্রপ করতে পারেন"
+    "components__pdf_merge__pdf_dropping": "আপনি পিডিএফ ক্রম পরিবর্তন করতে ড্র্যাগ এবং ড্রপ করতে পারেন",
+    "components__pdf_merge__button__download__tooltip": "একত্রিত করে পিডিএফ ডাউনলোড করুন",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "নীচের সব পিডিএফ মুছুন",
+    "components__pdf_merge__button__add_pdfs__tooltip": "নীচে পিডিএফ ফাইল যোগ করুন"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "আপনি পিডিএফ ক্রম পরিবর্তন করতে ড্র্যাগ এবং ড্রপ করতে পারেন",
     "components__pdf_split__is_single_pdf": "নির্বাচিত পৃষ্ঠাগুলি একটি একক পিডিএফ হিসাবে মার্জ করুন",
     "components__pdf_split__cancel": "বাতিল করুন",
-    "components__pdf_split__error_maximum": "পিডিএফ ফাইল বিভাজন করতে ব্যর্থ, সর্বাধিক পরিমাণ অতিক্রম করেছে"
+    "components__pdf_split__error_maximum": "পিডিএফ ফাইল বিভাজন করতে ব্যর্থ, সর্বাধিক পরিমাণ অতিক্রম করেছে",
+    "components__pdf_split__button__zoom_in__tooltip": "জুম ইন",
+    "components__pdf_split__button__zoom_out__tooltip": "জুম আউট",
+    "components__pdf_split__button__remove__tooltip": "এই পিডিএফ মুছে ফেলুন এবং নতুনটি নির্বাচন করুন",
+    "components__pdf_split__button__download__tooltip": "পিডিএফ ভাগ করে ডাউনলোড করুন",
+    "components__pdf_split__button__cancel__tooltip": "বর্তমান অগ্রগতি বাতিল করুন"
   }
 }

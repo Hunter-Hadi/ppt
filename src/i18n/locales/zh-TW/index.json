@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "查看頁面",
     "components__to_image_detail__view_images": "查看圖片",
     "components__to_image__downloader_tip": "請至少選擇一張圖片。",
-    "components__to_image_detail__not_found_images": "找不到PDF圖片"
+    "components__to_image_detail__not_found_images": "找不到PDF圖片",
+    "components__to_image_detail__button__download__tooltip": "下載壓縮圖片",
+    "components__to_image_detail__button__view_images__tooltip": "查看此 PDF 中提取的圖片",
+    "components__to_image_detail__button__view_pages__tooltip": "查看此 PDF 的所有頁面",
+    "components__to_image_detail__button__zoom_in__tooltip": "放大",
+    "components__to_image_detail__button__zoom_out__tooltip": "縮小",
+    "components__to_image_detail__button__cancel__tooltip": "取消當前進度",
+    "components__to_image_detail__button__remove__tooltip": "移除此 PDF 並選擇新的"
   },
   "features_landing": {
     "cta_text": "添加到瀏覽器",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "添加PDF",
     "components__pdf_merge__empty_pdf": "清除PDF",
     "components__pdf_merge__confirm_merge": "確認合併",
-    "components__pdf_merge__pdf_dropping": "您可以通過拖放來調整PDF順序"
+    "components__pdf_merge__pdf_dropping": "您可以通過拖放來調整PDF順序",
+    "components__pdf_merge__button__download__tooltip": "合併並下載 PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "清除以下所有 PDF",
+    "components__pdf_merge__button__add_pdfs__tooltip": "在下方添加 PDF 檔案"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "您可以通過拖放來調整PDF順序",
     "components__pdf_split__is_single_pdf": "將所選頁面合併為單個PDF",
     "components__pdf_split__cancel": "取消",
-    "components__pdf_split__error_maximum": "拆分PDF文件失敗，超出最大數量"
+    "components__pdf_split__error_maximum": "拆分PDF文件失敗，超出最大數量",
+    "components__pdf_split__button__zoom_in__tooltip": "放大",
+    "components__pdf_split__button__zoom_out__tooltip": "縮小",
+    "components__pdf_split__button__remove__tooltip": "移除此 PDF 並選擇新的",
+    "components__pdf_split__button__download__tooltip": "拆分並下載 PDF",
+    "components__pdf_split__button__cancel__tooltip": "取消當前進度"
   }
 }

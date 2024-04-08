@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Просмотр страниц",
     "components__to_image_detail__view_images": "Просмотр изображений",
     "components__to_image__downloader_tip": "Пожалуйста, выберите хотя бы одно изображение.",
-    "components__to_image_detail__not_found_images": "Изображение PDF не найдено"
+    "components__to_image_detail__not_found_images": "Изображение PDF не найдено",
+    "components__to_image_detail__button__download__tooltip": "Скачать изображения в архиве",
+    "components__to_image_detail__button__view_images__tooltip": "Просмотреть извлеченные изображения в этом PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Просмотреть все страницы в этом PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Увеличить",
+    "components__to_image_detail__button__zoom_out__tooltip": "Уменьшить",
+    "components__to_image_detail__button__cancel__tooltip": "Отменить текущий прогресс",
+    "components__to_image_detail__button__remove__tooltip": "Удалить этот PDF и выбрать новый"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Добавить PDF",
     "components__pdf_merge__empty_pdf": "Очистить PDF",
     "components__pdf_merge__confirm_merge": "Подтвердить объединение",
-    "components__pdf_merge__pdf_dropping": "Вы можете изменить порядок PDF, перетаскивая их"
+    "components__pdf_merge__pdf_dropping": "Вы можете изменить порядок PDF, перетаскивая их",
+    "components__pdf_merge__button__download__tooltip": "Объединить и скачать PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Очистить все PDF ниже",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Добавить файл PDF ниже"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Вы можете изменить порядок PDF-файлов, перетаскивая их",
     "components__pdf_split__is_single_pdf": "Объединить выбранные страницы в один PDF",
     "components__pdf_split__cancel": "Отмена",
-    "components__pdf_split__error_maximum": "Не удалось разделить файлы PDF. Превышено максимальное количество"
+    "components__pdf_split__error_maximum": "Не удалось разделить файлы PDF. Превышено максимальное количество",
+    "components__pdf_split__button__zoom_in__tooltip": "Увеличить",
+    "components__pdf_split__button__zoom_out__tooltip": "Уменьшить",
+    "components__pdf_split__button__remove__tooltip": "Удалить этот PDF и выбрать новый",
+    "components__pdf_split__button__download__tooltip": "Разделить и скачать PDF",
+    "components__pdf_split__button__cancel__tooltip": "Отменить текущий прогресс"
   }
 }

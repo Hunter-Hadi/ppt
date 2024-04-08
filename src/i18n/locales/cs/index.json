@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Zobrazit stránky",
     "components__to_image_detail__view_images": "Zobrazit obrázky",
     "components__to_image__downloader_tip": "Prosím vyberte alespoň jeden obrázek.",
-    "components__to_image_detail__not_found_images": "Obrázek PDF nenalezen"
+    "components__to_image_detail__not_found_images": "Obrázek PDF nenalezen",
+    "components__to_image_detail__button__download__tooltip": "Stáhnout zazipované obrázky",
+    "components__to_image_detail__button__view_images__tooltip": "Zobrazit extrahované obrázky v tomto PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Zobrazit všechny stránky v tomto PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Přiblížit",
+    "components__to_image_detail__button__zoom_out__tooltip": "Oddálit",
+    "components__to_image_detail__button__cancel__tooltip": "Zrušit aktuální postup",
+    "components__to_image_detail__button__remove__tooltip": "Odstranit toto PDF a vybrat nové"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Přidat PDF",
     "components__pdf_merge__empty_pdf": "Vymazat PDF",
     "components__pdf_merge__confirm_merge": "Potvrdit sloučení",
-    "components__pdf_merge__pdf_dropping": "Pořadí PDF můžete upravit přetažením"
+    "components__pdf_merge__pdf_dropping": "Pořadí PDF můžete upravit přetažením",
+    "components__pdf_merge__button__download__tooltip": "Sloučit a stáhnout PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Vymazat všechna PDF níže",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Přidat PDF soubor níže"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Můžete upravit pořadí PDF přetažením",
     "components__pdf_split__is_single_pdf": "Sloučit vybrané stránky do jednoho PDF",
     "components__pdf_split__cancel": "Zrušit",
-    "components__pdf_split__error_maximum": "Nepodařilo se rozdělit soubory PDF, překročeno maximální množství"
+    "components__pdf_split__error_maximum": "Nepodařilo se rozdělit soubory PDF, překročeno maximální množství",
+    "components__pdf_split__button__zoom_in__tooltip": "Přiblížit",
+    "components__pdf_split__button__zoom_out__tooltip": "Oddálit",
+    "components__pdf_split__button__remove__tooltip": "Odstranit toto PDF a vybrat nové",
+    "components__pdf_split__button__download__tooltip": "Rozdělit a stáhnout PDF",
+    "components__pdf_split__button__cancel__tooltip": "Zrušit aktuální postup"
   }
 }

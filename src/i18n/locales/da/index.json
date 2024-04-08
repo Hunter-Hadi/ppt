@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Vis sider",
     "components__to_image_detail__view_images": "Vis billeder",
     "components__to_image__downloader_tip": "Vælg venligst mindst et billede.",
-    "components__to_image_detail__not_found_images": "Billede fra PDF blev ikke fundet"
+    "components__to_image_detail__not_found_images": "Billede fra PDF blev ikke fundet",
+    "components__to_image_detail__button__download__tooltip": "Download zipped billeder",
+    "components__to_image_detail__button__view_images__tooltip": "Se de udtrukne billeder i denne PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Se alle siderne i denne PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zoom ind",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zoom ud",
+    "components__to_image_detail__button__cancel__tooltip": "Annuller nuværende fremskridt",
+    "components__to_image_detail__button__remove__tooltip": "Fjern denne PDF og vælg en ny"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Tilføj PDF",
     "components__pdf_merge__empty_pdf": "Ryd PDF'er",
     "components__pdf_merge__confirm_merge": "Bekræft sammenføjning",
-    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe"
+    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe",
+    "components__pdf_merge__button__download__tooltip": "Flet og download PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Ryd alle PDF'er nedenfor",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Tilføj PDF-fil nedenfor"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe",
     "components__pdf_split__is_single_pdf": "Flet valgte sider til en enkelt PDF",
     "components__pdf_split__cancel": "Annuller",
-    "components__pdf_split__error_maximum": "Kunne ikke opdele PDF-filer, overskredet maksimalt antal"
+    "components__pdf_split__error_maximum": "Kunne ikke opdele PDF-filer, overskredet maksimalt antal",
+    "components__pdf_split__button__zoom_in__tooltip": "Zoom ind",
+    "components__pdf_split__button__zoom_out__tooltip": "Zoom ud",
+    "components__pdf_split__button__remove__tooltip": "Fjern denne PDF og vælg en ny",
+    "components__pdf_split__button__download__tooltip": "Opdel og download PDF",
+    "components__pdf_split__button__cancel__tooltip": "Annuller nuværende fremskridt"
   }
 }

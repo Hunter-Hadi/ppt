@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Seiten anzeigen",
     "components__to_image_detail__view_images": "Bilder anzeigen",
     "components__to_image__downloader_tip": "Bitte wählen Sie mindestens ein Bild aus.",
-    "components__to_image_detail__not_found_images": "PDF-Bild nicht gefunden"
+    "components__to_image_detail__not_found_images": "PDF-Bild nicht gefunden",
+    "components__to_image_detail__button__download__tooltip": "Gepackte Bilder herunterladen",
+    "components__to_image_detail__button__view_images__tooltip": "Extrahierte Bilder in diesem PDF anzeigen",
+    "components__to_image_detail__button__view_pages__tooltip": "Alle Seiten in diesem PDF anzeigen",
+    "components__to_image_detail__button__zoom_in__tooltip": "Vergrößern",
+    "components__to_image_detail__button__zoom_out__tooltip": "Verkleinern",
+    "components__to_image_detail__button__cancel__tooltip": "Aktuellen Vorgang abbrechen",
+    "components__to_image_detail__button__remove__tooltip": "Dieses PDF entfernen und ein neues auswählen"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF hinzufügen",
     "components__pdf_merge__empty_pdf": "PDFs leeren",
     "components__pdf_merge__confirm_merge": "Bestätigen Sie das Zusammenführen",
-    "components__pdf_merge__pdf_dropping": "Sie können die Reihenfolge der PDFs durch Ziehen und Ablegen anpassen"
+    "components__pdf_merge__pdf_dropping": "Sie können die Reihenfolge der PDFs durch Ziehen und Ablegen anpassen",
+    "components__pdf_merge__button__download__tooltip": "PDF zusammenführen und herunterladen",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Alle PDFs unten löschen",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF-Datei unten hinzufügen"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Sie können die Reihenfolge der PDFs anpassen, indem Sie sie per Drag & Drop verschieben",
     "components__pdf_split__is_single_pdf": "Ausgewählte Seiten zu einer einzelnen PDF zusammenführen",
     "components__pdf_split__cancel": "Abbrechen",
-    "components__pdf_split__error_maximum": "Fehler beim Aufteilen von PDF-Dateien. Maximale Anzahl überschritten"
+    "components__pdf_split__error_maximum": "Fehler beim Aufteilen von PDF-Dateien. Maximale Anzahl überschritten",
+    "components__pdf_split__button__zoom_in__tooltip": "Vergrößern",
+    "components__pdf_split__button__zoom_out__tooltip": "Verkleinern",
+    "components__pdf_split__button__remove__tooltip": "Dieses PDF entfernen und ein neues auswählen",
+    "components__pdf_split__button__download__tooltip": "PDF aufteilen und herunterladen",
+    "components__pdf_split__button__cancel__tooltip": "Aktuellen Vorgang abbrechen"
   }
 }

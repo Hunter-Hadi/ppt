@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Преглед на страници",
     "components__to_image_detail__view_images": "Преглед на изображения",
     "components__to_image__downloader_tip": "Моля, изберете поне едно изображение.",
-    "components__to_image_detail__not_found_images": "Изображението от PDF не е намерено"
+    "components__to_image_detail__not_found_images": "Изображението от PDF не е намерено",
+    "components__to_image_detail__button__download__tooltip": "Изтеглете снимките в архив",
+    "components__to_image_detail__button__view_images__tooltip": "Прегледайте извлечените изображения в този PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Прегледайте всички страници в този PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Увеличаване на мащаба",
+    "components__to_image_detail__button__zoom_out__tooltip": "Намалете мащаба",
+    "components__to_image_detail__button__cancel__tooltip": "Отказ на текущия прогрес",
+    "components__to_image_detail__button__remove__tooltip": "Премахнете този PDF и изберете нов"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Добави PDF",
     "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
     "components__pdf_merge__confirm_merge": "Потвърди обединяването",
-    "components__pdf_merge__pdf_dropping": "Можете да настроите реда на PDF-овете, като ги влачите и пускате"
+    "components__pdf_merge__pdf_dropping": "Можете да настроите реда на PDF-овете, като ги влачите и пускате",
+    "components__pdf_merge__button__download__tooltip": "Обединете и изтеглете PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Изчистете всички PDF-и по-долу",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Добавете PDF файл по-долу"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Можете да промените реда на PDF-ите, като ги влачите и пускате",
     "components__pdf_split__is_single_pdf": "Сливане на избраните страници в един PDF",
     "components__pdf_split__cancel": "Отказ",
-    "components__pdf_split__error_maximum": "Неуспешно разделяне на PDF файлове, надвишено максимално количество"
+    "components__pdf_split__error_maximum": "Неуспешно разделяне на PDF файлове, надвишено максимално количество",
+    "components__pdf_split__button__zoom_in__tooltip": "Увеличаване на мащаба",
+    "components__pdf_split__button__zoom_out__tooltip": "Намалете мащаба",
+    "components__pdf_split__button__remove__tooltip": "Премахнете този PDF и изберете нов",
+    "components__pdf_split__button__download__tooltip": "Разделете и изтеглете PDF",
+    "components__pdf_split__button__cancel__tooltip": "Отказ на текущия прогрес"
   }
 }

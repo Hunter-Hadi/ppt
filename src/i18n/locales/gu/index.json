@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "પૃષ્ઠો જુઓ",
     "components__to_image_detail__view_images": "છબીઓ જુઓ",
     "components__to_image__downloader_tip": "કૃપા કરીને ઓછામાંથી ઓછી એક છબી પસંદ કરો.",
-    "components__to_image_detail__not_found_images": "પીડીએફ છબી મળી નથી"
+    "components__to_image_detail__not_found_images": "પીડીએફ છબી મળી નથી",
+    "components__to_image_detail__button__download__tooltip": "ઝિપ કરેલ છબીઓ ડાઉનલોડ કરો",
+    "components__to_image_detail__button__view_images__tooltip": "આ પીડીએફમાં સ્થાપિત છબીઓ જુઓ",
+    "components__to_image_detail__button__view_pages__tooltip": "આ પીડીએફમાં બધા પૃષ્ઠો જુઓ",
+    "components__to_image_detail__button__zoom_in__tooltip": "ઝૂમ ઇન કરો",
+    "components__to_image_detail__button__zoom_out__tooltip": "ઝૂમ આઉટ કરો",
+    "components__to_image_detail__button__cancel__tooltip": "વર્તમાન પ્રગતિ રદ કરો",
+    "components__to_image_detail__button__remove__tooltip": "આ પીડીએફ કાઢી નવી પસંદ કરો"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF ઉમેરો",
     "components__pdf_merge__empty_pdf": "PDF ખાલી કરો",
     "components__pdf_merge__confirm_merge": "જોડવાની પુષ્ટિ કરો",
-    "components__pdf_merge__pdf_dropping": "આપ પીડીએફ ક્રમને ડ્રેગ અને ડ્રોપ કરીને સુયોજિત કરી શકો છો"
+    "components__pdf_merge__pdf_dropping": "આપ પીડીએફ ક્રમને ડ્રેગ અને ડ્રોપ કરીને સુયોજિત કરી શકો છો",
+    "components__pdf_merge__button__download__tooltip": "પીડીએફ મર્જ કરો અને ડાઉનલોડ કરો",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "નીચે આપેલ બધા પીડીએફ સાફ કરો",
+    "components__pdf_merge__button__add_pdfs__tooltip": "નીચે પીડીએફ ફાઇલ ઉમેરો"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "આપ પીડીએફ ક્રમને ડ્રેગ અને ડ્રોપ કરીને સુયોજિત કરી શકો છો",
     "components__pdf_split__is_single_pdf": "પસંદ કરેલા પૃષ્ઠોને એકલ PDFમાં મર્જ કરો",
     "components__pdf_split__cancel": "રદ કરો",
-    "components__pdf_split__error_maximum": "PDF ફાઇલો સ્પલિટ કરવામાં અસફળ, મહત્તમ સંખ્યા પાર થઈ ગઈ"
+    "components__pdf_split__error_maximum": "PDF ફાઇલો સ્પલિટ કરવામાં અસફળ, મહત્તમ સંખ્યા પાર થઈ ગઈ",
+    "components__pdf_split__button__zoom_in__tooltip": "ઝૂમ ઇન કરો",
+    "components__pdf_split__button__zoom_out__tooltip": "ઝૂમ આઉટ કરો",
+    "components__pdf_split__button__remove__tooltip": "આ પીડીએફ કાઢી નવી પસંદ કરો",
+    "components__pdf_split__button__download__tooltip": "પીડીએફ સ્પ્લિટ કરો અને ડાઉનલોડ કરો",
+    "components__pdf_split__button__cancel__tooltip": "વર્તમાન પ્રગતિ રદ કરો"
   }
 }

@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Vezi pagini",
     "components__to_image_detail__view_images": "Vezi imagini",
     "components__to_image__downloader_tip": "Vă rugăm să selectați cel puțin o imagine.",
-    "components__to_image_detail__not_found_images": "Imagine PDF negăsită"
+    "components__to_image_detail__not_found_images": "Imagine PDF negăsită",
+    "components__to_image_detail__button__download__tooltip": "Descărcați imaginile comprimate",
+    "components__to_image_detail__button__view_images__tooltip": "Vizualizați imaginile extrase din acest PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Vizualizați toate paginile din acest PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Măriți",
+    "components__to_image_detail__button__zoom_out__tooltip": "Micșorați",
+    "components__to_image_detail__button__cancel__tooltip": "Anulați progresul curent",
+    "components__to_image_detail__button__remove__tooltip": "Eliminați acest PDF și selectați unul nou"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Adăugați PDF",
     "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
     "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
-    "components__pdf_merge__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare"
+    "components__pdf_merge__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare",
+    "components__pdf_merge__button__download__tooltip": "Unificați și descărcați PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Ștergeți toate PDF-urile de mai jos",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Adăugați fișierul PDF mai jos"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare",
     "components__pdf_split__is_single_pdf": "Unificați paginile selectate într-un singur PDF",
     "components__pdf_split__cancel": "Anulați",
-    "components__pdf_split__error_maximum": "Nu s-a putut diviza fișierele PDF, ați depășit cantitatea maximă"
+    "components__pdf_split__error_maximum": "Nu s-a putut diviza fișierele PDF, ați depășit cantitatea maximă",
+    "components__pdf_split__button__zoom_in__tooltip": "Măriți",
+    "components__pdf_split__button__zoom_out__tooltip": "Micșorați",
+    "components__pdf_split__button__remove__tooltip": "Eliminați acest PDF și selectați unul nou",
+    "components__pdf_split__button__download__tooltip": "Divizați și descărcați PDF",
+    "components__pdf_split__button__cancel__tooltip": "Anulați progresul curent"
   }
 }

@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "Sayfaları görüntüle",
     "components__to_image_detail__view_images": "Resimleri görüntüle",
     "components__to_image__downloader_tip": "Lütfen en az bir resim seçin.",
-    "components__to_image_detail__not_found_images": "PDF resmi bulunamadı"
+    "components__to_image_detail__not_found_images": "PDF resmi bulunamadı",
+    "components__to_image_detail__button__download__tooltip": "Sıkıştırılmış resimleri indir",
+    "components__to_image_detail__button__view_images__tooltip": "Bu PDF'deki çıkarılmış resimleri görüntüle",
+    "components__to_image_detail__button__view_pages__tooltip": "Bu PDF'deki tüm sayfaları görüntüle",
+    "components__to_image_detail__button__zoom_in__tooltip": "Yakınlaştır",
+    "components__to_image_detail__button__zoom_out__tooltip": "Uzaklaştır",
+    "components__to_image_detail__button__cancel__tooltip": "Geçerli işlemi iptal et",
+    "components__to_image_detail__button__remove__tooltip": "Bu PDF'yi kaldır ve yeni bir tane seç"
   },
   "features_landing": {
     "cta_text": "Tarayıcıya Ekle",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF Ekle",
     "components__pdf_merge__empty_pdf": "PDF'leri Temizle",
     "components__pdf_merge__confirm_merge": "Birleştirmeyi Onayla",
-    "components__pdf_merge__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz"
+    "components__pdf_merge__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz",
+    "components__pdf_merge__button__download__tooltip": "PDF'leri birleştir ve indir",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Aşağıdaki tüm PDF'leri temizle",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Aşağıya PDF dosyası ekle"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz",
     "components__pdf_split__is_single_pdf": "Seçilen sayfaları tek bir PDF'e birleştir",
     "components__pdf_split__cancel": "İptal",
-    "components__pdf_split__error_maximum": "PDF dosyalarını bölmek başarısız oldu, maksimum miktar aşıldı"
+    "components__pdf_split__error_maximum": "PDF dosyalarını bölmek başarısız oldu, maksimum miktar aşıldı",
+    "components__pdf_split__button__zoom_in__tooltip": "Yakınlaştır",
+    "components__pdf_split__button__zoom_out__tooltip": "Uzaklaştır",
+    "components__pdf_split__button__remove__tooltip": "Bu PDF'yi kaldır ve yeni bir tane seç",
+    "components__pdf_split__button__download__tooltip": "PDF'yi böl ve indir",
+    "components__pdf_split__button__cancel__tooltip": "Geçerli işlemi iptal et"
   }
 }

@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "مشاهده صفحات",
     "components__to_image_detail__view_images": "مشاهده تصاویر",
     "components__to_image__downloader_tip": "لطفاً حداقل یک تصویر را انتخاب کنید.",
-    "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد"
+    "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد",
+    "components__to_image_detail__button__download__tooltip": "دانلود تصاویر فشرده شده",
+    "components__to_image_detail__button__view_images__tooltip": "مشاهده تصاویر استخراج شده در این PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "مشاهده تمام صفحات در این PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "بزرگ نمایی",
+    "components__to_image_detail__button__zoom_out__tooltip": "کوچک نمایی",
+    "components__to_image_detail__button__cancel__tooltip": "لغو پیشرفت فعلی",
+    "components__to_image_detail__button__remove__tooltip": "حذف این PDF و انتخاب یکی جدید"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "افزودن PDF",
     "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
     "components__pdf_merge__confirm_merge": "تأیید ادغام",
-    "components__pdf_merge__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید"
+    "components__pdf_merge__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید",
+    "components__pdf_merge__button__download__tooltip": "ادغام و دانلود PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "پاک کردن همه PDF های زیر",
+    "components__pdf_merge__button__add_pdfs__tooltip": "افزودن فایل PDF زیر"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید",
     "components__pdf_split__is_single_pdf": "ادغام صفحات انتخاب شده در یک PDF",
     "components__pdf_split__cancel": "لغو",
-    "components__pdf_split__error_maximum": "تقسیم فایل‌های PDF ناموفق بود، تعداد حداکثر را بیشتر کرده است"
+    "components__pdf_split__error_maximum": "تقسیم فایل‌های PDF ناموفق بود، تعداد حداکثر را بیشتر کرده است",
+    "components__pdf_split__button__zoom_in__tooltip": "بزرگ نمایی",
+    "components__pdf_split__button__zoom_out__tooltip": "کوچک نمایی",
+    "components__pdf_split__button__remove__tooltip": "حذف این PDF و انتخاب یکی جدید",
+    "components__pdf_split__button__download__tooltip": "تقسیم و دانلود PDF",
+    "components__pdf_split__button__cancel__tooltip": "لغو پیشرفت فعلی"
   }
 }

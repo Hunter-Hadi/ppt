@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "عرض الصفحات",
     "components__to_image_detail__view_images": "عرض الصور",
     "components__to_image__downloader_tip": "يرجى تحديد صورة واحدة على الأقل.",
-    "components__to_image_detail__not_found_images": "لم يتم العثور على صورة PDF"
+    "components__to_image_detail__not_found_images": "لم يتم العثور على صورة PDF",
+    "components__to_image_detail__button__download__tooltip": "تنزيل الصور المضغوطة",
+    "components__to_image_detail__button__view_images__tooltip": "عرض الصور المستخرجة في هذا الملف PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "عرض جميع الصفحات في هذا الملف PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "تكبير",
+    "components__to_image_detail__button__zoom_out__tooltip": "تصغير",
+    "components__to_image_detail__button__cancel__tooltip": "إلغاء التقدم الحالي",
+    "components__to_image_detail__button__remove__tooltip": "إزالة هذا الملف PDF وتحديد ملف جديد"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "إضافة PDF",
     "components__pdf_merge__empty_pdf": "مسح PDFs",
     "components__pdf_merge__confirm_merge": "تأكيد الدمج",
-    "components__pdf_merge__pdf_dropping": "يمكنك ضبط ترتيب PDF عن طريق السحب والإفلات"
+    "components__pdf_merge__pdf_dropping": "يمكنك ضبط ترتيب PDF عن طريق السحب والإفلات",
+    "components__pdf_merge__button__download__tooltip": "دمج وتنزيل ملف PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "مسح جميع ملفات PDF أدناه",
+    "components__pdf_merge__button__add_pdfs__tooltip": "إضافة ملف PDF أدناه"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "يمكنك ضبط ترتيب ملفات PDF عن طريق السحب والإفلات",
     "components__pdf_split__is_single_pdf": "دمج الصفحات المحددة في ملف PDF واحد",
     "components__pdf_split__cancel": "إلغاء",
-    "components__pdf_split__error_maximum": "فشل في تقسيم ملفات PDF، تجاوز الحد الأقصى"
+    "components__pdf_split__error_maximum": "فشل في تقسيم ملفات PDF، تجاوز الحد الأقصى",
+    "components__pdf_split__button__zoom_in__tooltip": "تكبير",
+    "components__pdf_split__button__zoom_out__tooltip": "تصغير",
+    "components__pdf_split__button__remove__tooltip": "إزالة هذا الملف PDF وتحديد ملف جديد",
+    "components__pdf_split__button__download__tooltip": "تقسيم وتنزيل ملف PDF",
+    "components__pdf_split__button__cancel__tooltip": "إلغاء التقدم الحالي"
   }
 }

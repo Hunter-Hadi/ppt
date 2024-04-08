@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "पृष्ठ देखें",
     "components__to_image_detail__view_images": "छवियाँ देखें",
     "components__to_image__downloader_tip": "कृपया कम से कम एक छवि का चयन करें।",
-    "components__to_image_detail__not_found_images": "पीडीएफ छवि नहीं मिली"
+    "components__to_image_detail__not_found_images": "पीडीएफ छवि नहीं मिली",
+    "components__to_image_detail__button__download__tooltip": "ज़िप फ़ाइल में छवियाँ डाउनलोड करें",
+    "components__to_image_detail__button__view_images__tooltip": "इस PDF में निकाली गई छवियाँ देखें",
+    "components__to_image_detail__button__view_pages__tooltip": "इस PDF में सभी पृष्ठ देखें",
+    "components__to_image_detail__button__zoom_in__tooltip": "ज़ूम इन करें",
+    "components__to_image_detail__button__zoom_out__tooltip": "ज़ूम आउट करें",
+    "components__to_image_detail__button__cancel__tooltip": "वर्तमान प्रगति को रद्द करें",
+    "components__to_image_detail__button__remove__tooltip": "इस PDF को हटाएं और नया चुनें"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "पीडीएफ जोड़ें",
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ़ करें",
     "components__pdf_merge__confirm_merge": "मर्ज करने की पुष्टि करें",
-    "components__pdf_merge__pdf_dropping": "आप पीडीएफ क्रम को खींचकर समायोजित कर सकते हैं"
+    "components__pdf_merge__pdf_dropping": "आप पीडीएफ क्रम को खींचकर समायोजित कर सकते हैं",
+    "components__pdf_merge__button__download__tooltip": "PDF को मर्ज करें और डाउनलोड करें",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "नीचे सभी PDF हटाएं",
+    "components__pdf_merge__button__add_pdfs__tooltip": "नीचे PDF फ़ाइल जोड़ें"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "आप पीडीएफ को खींचकर छोड़कर पीडीएफ क्रम समायोजित कर सकते हैं",
     "components__pdf_split__is_single_pdf": "चयनित पृष्ठों को एकल पीडीएफ में मर्ज करें",
     "components__pdf_split__cancel": "रद्द करें",
-    "components__pdf_split__error_maximum": "पीडीएफ फ़ाइलें विभाजित करने में विफल, अधिकतम मात्रा पार कर गई"
+    "components__pdf_split__error_maximum": "पीडीएफ फ़ाइलें विभाजित करने में विफल, अधिकतम मात्रा पार कर गई",
+    "components__pdf_split__button__zoom_in__tooltip": "ज़ूम इन करें",
+    "components__pdf_split__button__zoom_out__tooltip": "ज़ूम आउट करें",
+    "components__pdf_split__button__remove__tooltip": "इस PDF को हटाएं और नया चुनें",
+    "components__pdf_split__button__download__tooltip": "PDF को स्प्लिट करें और डाउनलोड करें",
+    "components__pdf_split__button__cancel__tooltip": "वर्तमान प्रगति को रद्द करें"
   }
 }

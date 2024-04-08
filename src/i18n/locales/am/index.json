@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "ገጽዎን ይመልከቱ",
     "components__to_image_detail__view_images": "ምስልን ይመልከቱ",
     "components__to_image__downloader_tip": "እባክዎ ማስጫኑን ሁሉንም ይምረጡ",
-    "components__to_image_detail__not_found_images": "PDF ምስል አልተገኘም"
+    "components__to_image_detail__not_found_images": "PDF ምስል አልተገኘም",
+    "components__to_image_detail__button__download__tooltip": "የተሳሳተ ምስሎችን አውርድ",
+    "components__to_image_detail__button__view_images__tooltip": "የPDF ውሂብን በዚህ ገጽ መመልከት",
+    "components__to_image_detail__button__view_pages__tooltip": "የPDF ህግን በዚህ ገጽ መመልከት",
+    "components__to_image_detail__button__zoom_in__tooltip": "መጠን አግኝ",
+    "components__to_image_detail__button__zoom_out__tooltip": "መጠን ያልጠፋ",
+    "components__to_image_detail__button__cancel__tooltip": "የሚጠብቁ ክፍሎችን ይተውል",
+    "components__to_image_detail__button__remove__tooltip": "ይጠፋል የPDF እና ነጥብ ማስወገጃ ይሰርዝ"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "እባክዎ የተጠቃሚውን PDF ፋይል አስገቡ",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF ጨምር",
     "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
     "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
-    "components__pdf_merge__pdf_dropping": "የ PDF ክፍልን በማስተላለፍ ይሻላል"
+    "components__pdf_merge__pdf_dropping": "የ PDF ክፍልን በማስተላለፍ ይሻላል",
+    "components__pdf_merge__button__download__tooltip": "አውርድ እና የPDF አጽዳፊዎች",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "ሁሉንም PDF ወደፊት አጽዳ",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF ፋይል ወደፊት ጨምር"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "እባክዎ የተጠቀሱ PDF ፋይል አስገቡ",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "የ PDF ክፍል ቅጥፈትን በመስራት ላይ ይለውጡ",
     "components__pdf_split__is_single_pdf": "የተመረጡ ገጽዎን በአንድ PDF ማንበብ",
     "components__pdf_split__cancel": "ይቅር",
-    "components__pdf_split__error_maximum": "PDF ፋይሎችን ማስተካከያ አልተገኘም, የሚያስተካከዩ ብዛት ተገኝቷል"
+    "components__pdf_split__error_maximum": "PDF ፋይሎችን ማስተካከያ አልተገኘም, የሚያስተካከዩ ብዛት ተገኝቷል",
+    "components__pdf_split__button__zoom_in__tooltip": "መጠን አግኝ",
+    "components__pdf_split__button__zoom_out__tooltip": "መጠን ያልጠፋ",
+    "components__pdf_split__button__remove__tooltip": "ይጠፋል የPDF እና ነጥብ ማስወገጃ ይሰርዝ",
+    "components__pdf_split__button__download__tooltip": "አጠቃላይ እና የPDF አጽዳፊዎች",
+    "components__pdf_split__button__cancel__tooltip": "የሚጠብቁ ክፍሎችን ይተውል"
   }
 }

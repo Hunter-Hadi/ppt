@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "ดูหน้า",
     "components__to_image_detail__view_images": "ดูรูปภาพ",
     "components__to_image__downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ",
-    "components__to_image_detail__not_found_images": "ไม่พบรูปภาพจาก PDF"
+    "components__to_image_detail__not_found_images": "ไม่พบรูปภาพจาก PDF",
+    "components__to_image_detail__button__download__tooltip": "ดาวน์โหลดรูปภาพที่ถูกบีบอัดเป็นไฟล์ซิป",
+    "components__to_image_detail__button__view_images__tooltip": "ดูรูปภาพที่ถูกแยกออกจาก PDF นี้",
+    "components__to_image_detail__button__view_pages__tooltip": "ดูหน้าทั้งหมดใน PDF นี้",
+    "components__to_image_detail__button__zoom_in__tooltip": "ขยายภาพ",
+    "components__to_image_detail__button__zoom_out__tooltip": "ย่อภาพ",
+    "components__to_image_detail__button__cancel__tooltip": "ยกเลิกความคืบหน้าปัจจุบัน",
+    "components__to_image_detail__button__remove__tooltip": "ลบ PDF นี้และเลือกใหม่"
   },
   "features_landing": {
     "cta_text": "เพิ่มในเบราว์เซอร์",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "เพิ่ม PDF",
     "components__pdf_merge__empty_pdf": "ล้าง PDF",
     "components__pdf_merge__confirm_merge": "ยืนยันการรวม",
-    "components__pdf_merge__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง"
+    "components__pdf_merge__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง",
+    "components__pdf_merge__button__download__tooltip": "รวมและดาวน์โหลด PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "ล้าง PDF ทั้งหมดด้านล่าง",
+    "components__pdf_merge__button__add_pdfs__tooltip": "เพิ่มไฟล์ PDF ด้านล่าง"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง",
     "components__pdf_split__is_single_pdf": "ผสานหน้าที่เลือกเป็นไฟล์ PDF เดียว",
     "components__pdf_split__cancel": "ยกเลิก",
-    "components__pdf_split__error_maximum": "การแยกไฟล์ PDF ล้มเหลว จำนวนเกินขีดจำกัด"
+    "components__pdf_split__error_maximum": "การแยกไฟล์ PDF ล้มเหลว จำนวนเกินขีดจำกัด",
+    "components__pdf_split__button__zoom_in__tooltip": "ขยายภาพ",
+    "components__pdf_split__button__zoom_out__tooltip": "ย่อภาพ",
+    "components__pdf_split__button__remove__tooltip": "ลบ PDF นี้และเลือกใหม่",
+    "components__pdf_split__button__download__tooltip": "แยกและดาวน์โหลด PDF",
+    "components__pdf_split__button__cancel__tooltip": "ยกเลิกความคืบหน้าปัจจุบัน"
   }
 }

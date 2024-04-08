@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "पृष्ठे पहा",
     "components__to_image_detail__view_images": "प्रतिमा पहा",
     "components__to_image__downloader_tip": "कृपया किमान एक प्रतिमा निवडा.",
-    "components__to_image_detail__not_found_images": "पीडीएफ प्रतिमा सापडली नाही"
+    "components__to_image_detail__not_found_images": "पीडीएफ प्रतिमा सापडली नाही",
+    "components__to_image_detail__button__download__tooltip": "झिप्पेड छवियांची डाउनलोड करा",
+    "components__to_image_detail__button__view_images__tooltip": "हे PDF मध्ये निकाललेल्या छवियांचे पहा",
+    "components__to_image_detail__button__view_pages__tooltip": "हे PDF मध्ये सर्व पृष्ठ पहा",
+    "components__to_image_detail__button__zoom_in__tooltip": "जूम इन करा",
+    "components__to_image_detail__button__zoom_out__tooltip": "जूम आउट करा",
+    "components__to_image_detail__button__cancel__tooltip": "सध्याचे प्रगती रद्द करा",
+    "components__to_image_detail__button__remove__tooltip": "हे PDF काढून नवीन निवडा"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "पीडीएफ जोडा",
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ करा",
     "components__pdf_merge__confirm_merge": "संयोजन करण्यासाठी पुष्टी करा",
-    "components__pdf_merge__pdf_dropping": "आपण पीडीएफ व्यवस्थापन ड्रॅग आणि ड्रॉप करून प्रक्रिया करू शकता"
+    "components__pdf_merge__pdf_dropping": "आपण पीडीएफ व्यवस्थापन ड्रॅग आणि ड्रॉप करून प्रक्रिया करू शकता",
+    "components__pdf_merge__button__download__tooltip": "एकत्र करा आणि PDF डाउनलोड करा",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "खालील सर्व PDF साफ करा",
+    "components__pdf_merge__button__add_pdfs__tooltip": "खालील PDF फाइल जोडा"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "आपण पीडीएफ व्यवस्थापन करण्यासाठी पीडीएफ क्रमांक बदलू शकता",
     "components__pdf_split__is_single_pdf": "निवडलेल्या पृष्ठांचे एकटे पीडीएफ मर्ज करा",
     "components__pdf_split__cancel": "रद्द करा",
-    "components__pdf_split__error_maximum": "पीडीएफ फाइल विभाजन करण्यात असफळ, महाप्रमाणातील संख्या पार केली"
+    "components__pdf_split__error_maximum": "पीडीएफ फाइल विभाजन करण्यात असफळ, महाप्रमाणातील संख्या पार केली",
+    "components__pdf_split__button__zoom_in__tooltip": "जूम इन करा",
+    "components__pdf_split__button__zoom_out__tooltip": "जूम आउट करा",
+    "components__pdf_split__button__remove__tooltip": "हे PDF काढून नवीन निवडा",
+    "components__pdf_split__button__download__tooltip": "विभाजित करा आणि PDF डाउनलोड करा",
+    "components__pdf_split__button__cancel__tooltip": "सध्याचे प्रगती रद्द करा"
   }
 }

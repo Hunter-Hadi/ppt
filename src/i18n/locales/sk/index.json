@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Zobraziť stránky",
     "components__to_image_detail__view_images": "Zobraziť obrázky",
     "components__to_image__downloader_tip": "Prosím, vyberte aspoň jeden obrázok.",
-    "components__to_image_detail__not_found_images": "Obrázok PDF sa nenašiel"
+    "components__to_image_detail__not_found_images": "Obrázok PDF sa nenašiel",
+    "components__to_image_detail__button__download__tooltip": "Stiahnuť zazipované obrázky",
+    "components__to_image_detail__button__view_images__tooltip": "Zobraziť extrahované obrázky v tomto PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Zobraziť všetky stránky v tomto PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Priblížiť",
+    "components__to_image_detail__button__zoom_out__tooltip": "Oddialiť",
+    "components__to_image_detail__button__cancel__tooltip": "Zrušiť aktuálny postup",
+    "components__to_image_detail__button__remove__tooltip": "Odstrániť toto PDF a vybrať nové"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Pridať PDF",
     "components__pdf_merge__empty_pdf": "Vyčistiť PDF",
     "components__pdf_merge__confirm_merge": "Potvrdiť zlúčenie",
-    "components__pdf_merge__pdf_dropping": "Poradie PDF môžete upraviť ťahaním a pustením"
+    "components__pdf_merge__pdf_dropping": "Poradie PDF môžete upraviť ťahaním a pustením",
+    "components__pdf_merge__button__download__tooltip": "Zlúčiť a stiahnuť PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Vymazať všetky nižšie uvedené PDF",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Pridať PDF súbor nižšie"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Môžete upraviť poradie PDF súborov ťahaním a presúvaním",
     "components__pdf_split__is_single_pdf": "Zlúčiť vybrané strany do jedného PDF",
     "components__pdf_split__cancel": "Zrušiť",
-    "components__pdf_split__error_maximum": "Nepodarilo sa rozdeliť PDF súbory, prekročený maximálny počet"
+    "components__pdf_split__error_maximum": "Nepodarilo sa rozdeliť PDF súbory, prekročený maximálny počet",
+    "components__pdf_split__button__zoom_in__tooltip": "Priblížiť",
+    "components__pdf_split__button__zoom_out__tooltip": "Oddialiť",
+    "components__pdf_split__button__remove__tooltip": "Odstrániť toto PDF a vybrať nové",
+    "components__pdf_split__button__download__tooltip": "Rozdeliť a stiahnuť PDF",
+    "components__pdf_split__button__cancel__tooltip": "Zrušiť aktuálny postup"
   }
 }

@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Pregledajte stranice",
     "components__to_image_detail__view_images": "Pregledajte slike",
     "components__to_image__downloader_tip": "Molimo izaberite barem jednu sliku.",
-    "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena"
+    "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena",
+    "components__to_image_detail__button__download__tooltip": "Preuzmi zipovane slike",
+    "components__to_image_detail__button__view_images__tooltip": "Pregledaj izvađene slike u ovom PDF-u",
+    "components__to_image_detail__button__view_pages__tooltip": "Pregledaj sve stranice u ovom PDF-u",
+    "components__to_image_detail__button__zoom_in__tooltip": "Povećaj",
+    "components__to_image_detail__button__zoom_out__tooltip": "Smanji",
+    "components__to_image_detail__button__cancel__tooltip": "Otkaži trenutni postupak",
+    "components__to_image_detail__button__remove__tooltip": "Ukloni ovaj PDF i izaberi novi"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
     "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
-    "components__pdf_merge__pdf_dropping": "Možete podesiti redosled PDF-a prevlačenjem i ispuštanjem"
+    "components__pdf_merge__pdf_dropping": "Možete podesiti redosled PDF-a prevlačenjem i ispuštanjem",
+    "components__pdf_merge__button__download__tooltip": "Spoji i preuzmi PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Obriši sve PDF-ove ispod",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF fajl ispod"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Molimo vas da otpremite odgovarajući tip PDF fajla",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Možete prilagoditi redosled PDF-a prevlačenjem i ispuštanjem",
     "components__pdf_split__is_single_pdf": "Spoji izabrane stranice u jedan PDF",
     "components__pdf_split__cancel": "Otkaži",
-    "components__pdf_split__error_maximum": "Neuspešno deljenje PDF fajlova, prekoračen maksimalni broj"
+    "components__pdf_split__error_maximum": "Neuspešno deljenje PDF fajlova, prekoračen maksimalni broj",
+    "components__pdf_split__button__zoom_in__tooltip": "Povećaj",
+    "components__pdf_split__button__zoom_out__tooltip": "Smanji",
+    "components__pdf_split__button__remove__tooltip": "Ukloni ovaj PDF i izaberi novi",
+    "components__pdf_split__button__download__tooltip": "Razdvoji i preuzmi PDF",
+    "components__pdf_split__button__cancel__tooltip": "Otkaži trenutni postupak"
   }
 }

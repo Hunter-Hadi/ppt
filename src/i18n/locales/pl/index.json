@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Wyświetl strony",
     "components__to_image_detail__view_images": "Wyświetl obrazy",
     "components__to_image__downloader_tip": "Proszę wybrać co najmniej jeden obraz.",
-    "components__to_image_detail__not_found_images": "Nie znaleziono obrazu PDF"
+    "components__to_image_detail__not_found_images": "Nie znaleziono obrazu PDF",
+    "components__to_image_detail__button__download__tooltip": "Pobierz spakowane obrazy",
+    "components__to_image_detail__button__view_images__tooltip": "Wyświetl wyodrębnione obrazy w tym PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Wyświetl wszystkie strony w tym PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Powiększ",
+    "components__to_image_detail__button__zoom_out__tooltip": "Pomniejsz",
+    "components__to_image_detail__button__cancel__tooltip": "Anuluj bieżący postęp",
+    "components__to_image_detail__button__remove__tooltip": "Usuń ten plik PDF i wybierz nowy"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Wyczyść PDF-y",
     "components__pdf_merge__confirm_merge": "Potwierdź scalenie",
-    "components__pdf_merge__pdf_dropping": "Możesz dostosować kolejność PDF-ów przez przeciąganie i upuszczanie"
+    "components__pdf_merge__pdf_dropping": "Możesz dostosować kolejność PDF-ów przez przeciąganie i upuszczanie",
+    "components__pdf_merge__button__download__tooltip": "Scal i pobierz PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Wyczyść wszystkie poniższe pliki PDF",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj plik PDF poniżej"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Możesz dostosować kolejność PDF-ów, przeciągając i upuszczając",
     "components__pdf_split__is_single_pdf": "Połącz wybrane strony w pojedynczy plik PDF",
     "components__pdf_split__cancel": "Anuluj",
-    "components__pdf_split__error_maximum": "Nie udało się podzielić plików PDF, przekroczono maksymalną ilość"
+    "components__pdf_split__error_maximum": "Nie udało się podzielić plików PDF, przekroczono maksymalną ilość",
+    "components__pdf_split__button__zoom_in__tooltip": "Powiększ",
+    "components__pdf_split__button__zoom_out__tooltip": "Pomniejsz",
+    "components__pdf_split__button__remove__tooltip": "Usuń ten plik PDF i wybierz nowy",
+    "components__pdf_split__button__download__tooltip": "Podziel i pobierz PDF",
+    "components__pdf_split__button__cancel__tooltip": "Anuluj bieżący postęp"
   }
 }

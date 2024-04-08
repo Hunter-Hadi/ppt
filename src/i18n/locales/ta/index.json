@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "பக்கங்களைக் காண்பி",
     "components__to_image_detail__view_images": "படங்களைக் காண்பி",
     "components__to_image__downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்.",
-    "components__to_image_detail__not_found_images": "பி.டி.எஃப் படம் காணப்படவில்லை"
+    "components__to_image_detail__not_found_images": "பி.டி.எஃப் படம் காணப்படவில்லை",
+    "components__to_image_detail__button__download__tooltip": "மின்னஞ்சல் அடையவும் படங்களை பதிவிறக்கவும்",
+    "components__to_image_detail__button__view_images__tooltip": "இந்த பி.டி.எப்பில் மீண்டும் உருவாக்கப்பட்ட படங்களைப் பார்க்கவும்",
+    "components__to_image_detail__button__view_pages__tooltip": "இந்த பி.டி.எப்பில் உள்ள அனைத்து பக்கங்களையும் பார்க்கவும்",
+    "components__to_image_detail__button__zoom_in__tooltip": "மிகவும் அழகாக்கு",
+    "components__to_image_detail__button__zoom_out__tooltip": "மிகவும் சிறியாக்கு",
+    "components__to_image_detail__button__cancel__tooltip": "தற்போதைய முன்னோட்டத்தை ரத்து செய்க",
+    "components__to_image_detail__button__remove__tooltip": "இந்த பி.டி.எப்பை நீக்கி புதியதைத் தேர்வு செய்க"
   },
   "features_landing": {
     "cta_text": "உலாவி சேர்க்க",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF ஐச் சேர்க்கவும்",
     "components__pdf_merge__empty_pdf": "PDF காலியாக்கவும்",
     "components__pdf_merge__confirm_merge": "ஒன்றிணைத்துக்கொள்ள உறுதிப்படுத்தவும்",
-    "components__pdf_merge__pdf_dropping": "பதிவு செய்யும் முறையில் PDF வரிசையை அமைக்கலாம்"
+    "components__pdf_merge__pdf_dropping": "பதிவு செய்யும் முறையில் PDF வரிசையை அமைக்கலாம்",
+    "components__pdf_merge__button__download__tooltip": "பி.டி.எப் ஒன்றிக்குள் இணைக்கவும் பதிவிறக்கவும்",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "கீழே உள்ள அனைத்து பி.டி.எப்பகங்களையும் நீக்கு",
+    "components__pdf_merge__button__add_pdfs__tooltip": "கீழே பி.டி.எப்பகத்தைச் சேர்க்க"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "படிமங்களை இழுத்து வரைபடத்தை மாற்றலாம்",
     "components__pdf_split__is_single_pdf": "தேர்ந்தெடுக்கப்பட்ட பக்கங்களை ஒரு தனிப்பட்ட PDF ஆக ஒன்றில் இணைக்க",
     "components__pdf_split__cancel": "ரத்துசெய்",
-    "components__pdf_split__error_maximum": "PDF கோப்புகளை பிரிக்க முடியவில்லை, அதிகபட்ச எண்ணிக்கை மீறியது"
+    "components__pdf_split__error_maximum": "PDF கோப்புகளை பிரிக்க முடியவில்லை, அதிகபட்ச எண்ணிக்கை மீறியது",
+    "components__pdf_split__button__zoom_in__tooltip": "மிகவும் அழகாக்கு",
+    "components__pdf_split__button__zoom_out__tooltip": "மிகவும் சிறியாக்கு",
+    "components__pdf_split__button__remove__tooltip": "இந்த பி.டி.எப்பை நீக்கி புதியதைத் தேர்வு செய்க",
+    "components__pdf_split__button__download__tooltip": "பி.டி.எப்பை பிரித்து பதிவிறக்கவும்",
+    "components__pdf_split__button__cancel__tooltip": "தற்போதைய முன்னோட்டத்தை ரத்து செய்க"
   }
 }

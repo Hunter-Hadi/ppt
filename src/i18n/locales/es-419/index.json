@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Ver páginas",
     "components__to_image_detail__view_images": "Ver imágenes",
     "components__to_image__downloader_tip": "Por favor, selecciona al menos una imagen.",
-    "components__to_image_detail__not_found_images": "Imagen del PDF no encontrada"
+    "components__to_image_detail__not_found_images": "Imagen del PDF no encontrada",
+    "components__to_image_detail__button__download__tooltip": "Descargar imágenes comprimidas",
+    "components__to_image_detail__button__view_images__tooltip": "Ver las imágenes extraídas en este PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Ver todas las páginas en este PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Acercar",
+    "components__to_image_detail__button__zoom_out__tooltip": "Alejar",
+    "components__to_image_detail__button__cancel__tooltip": "Cancelar progreso actual",
+    "components__to_image_detail__button__remove__tooltip": "Eliminar este PDF y seleccionar uno nuevo"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Agregar PDF",
     "components__pdf_merge__empty_pdf": "Limpiar PDFs",
     "components__pdf_merge__confirm_merge": "Confirmar fusión",
-    "components__pdf_merge__pdf_dropping": "Puedes ajustar el orden del PDF arrastrando y soltando"
+    "components__pdf_merge__pdf_dropping": "Puedes ajustar el orden del PDF arrastrando y soltando",
+    "components__pdf_merge__button__download__tooltip": "Combinar y descargar PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Borrar todos los PDFs a continuación",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Agregar archivo PDF a continuación"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Puedes ajustar el orden de los PDF arrastrándolos y soltándolos",
     "components__pdf_split__is_single_pdf": "Unir páginas seleccionadas en un solo PDF",
     "components__pdf_split__cancel": "Cancelar",
-    "components__pdf_split__error_maximum": "Error al dividir archivos PDF, se excedió la cantidad máxima"
+    "components__pdf_split__error_maximum": "Error al dividir archivos PDF, se excedió la cantidad máxima",
+    "components__pdf_split__button__zoom_in__tooltip": "Acercar",
+    "components__pdf_split__button__zoom_out__tooltip": "Alejar",
+    "components__pdf_split__button__remove__tooltip": "Eliminar este PDF y seleccionar uno nuevo",
+    "components__pdf_split__button__download__tooltip": "Dividir y descargar PDF",
+    "components__pdf_split__button__cancel__tooltip": "Cancelar progreso actual"
   }
 }

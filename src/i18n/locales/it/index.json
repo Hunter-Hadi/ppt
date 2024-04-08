@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Visualizza pagine",
     "components__to_image_detail__view_images": "Visualizza immagini",
     "components__to_image__downloader_tip": "Selezionare almeno un'immagine.",
-    "components__to_image_detail__not_found_images": "Immagine PDF non trovata"
+    "components__to_image_detail__not_found_images": "Immagine PDF non trovata",
+    "components__to_image_detail__button__download__tooltip": "Scarica immagini compresse",
+    "components__to_image_detail__button__view_images__tooltip": "Visualizza le immagini estratte in questo PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Visualizza tutte le pagine in questo PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Ingrandisci",
+    "components__to_image_detail__button__zoom_out__tooltip": "Riduci",
+    "components__to_image_detail__button__cancel__tooltip": "Annulla progresso corrente",
+    "components__to_image_detail__button__remove__tooltip": "Rimuovi questo PDF e seleziona uno nuovo"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Aggiungi PDF",
     "components__pdf_merge__empty_pdf": "Svuota PDF",
     "components__pdf_merge__confirm_merge": "Conferma per unire",
-    "components__pdf_merge__pdf_dropping": "Puoi regolare l'ordine dei PDF trascinandoli"
+    "components__pdf_merge__pdf_dropping": "Puoi regolare l'ordine dei PDF trascinandoli",
+    "components__pdf_merge__button__download__tooltip": "Unisci e scarica PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Cancella tutti i PDF sottostanti",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Aggiungi file PDF qui sotto"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Puoi regolare l'ordine dei PDF trascinandoli e rilasciandoli",
     "components__pdf_split__is_single_pdf": "Unisci le pagine selezionate in un singolo PDF",
     "components__pdf_split__cancel": "Annulla",
-    "components__pdf_split__error_maximum": "Impossibile dividere i file PDF, quantità massima superata"
+    "components__pdf_split__error_maximum": "Impossibile dividere i file PDF, quantità massima superata",
+    "components__pdf_split__button__zoom_in__tooltip": "Ingrandisci",
+    "components__pdf_split__button__zoom_out__tooltip": "Riduci",
+    "components__pdf_split__button__remove__tooltip": "Rimuovi questo PDF e seleziona uno nuovo",
+    "components__pdf_split__button__download__tooltip": "Dividi e scarica PDF",
+    "components__pdf_split__button__cancel__tooltip": "Annulla progresso corrente"
   }
 }

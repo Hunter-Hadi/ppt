@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Peržiūrėti puslapius",
     "components__to_image_detail__view_images": "Peržiūrėti paveikslėlius",
     "components__to_image__downloader_tip": "Prašome pasirinkti bent vieną paveikslėlį.",
-    "components__to_image_detail__not_found_images": "PDF paveikslėlis nerastas"
+    "components__to_image_detail__not_found_images": "PDF paveikslėlis nerastas",
+    "components__to_image_detail__button__download__tooltip": "Atsisiųsti suspaustas nuotraukas",
+    "components__to_image_detail__button__view_images__tooltip": "Peržiūrėti ištrauktas nuotraukas šiame PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Peržiūrėti visas šio PDF puslapius",
+    "components__to_image_detail__button__zoom_in__tooltip": "Artinti",
+    "components__to_image_detail__button__zoom_out__tooltip": "Tolinti",
+    "components__to_image_detail__button__cancel__tooltip": "Atšaukti dabartinę pažangą",
+    "components__to_image_detail__button__remove__tooltip": "Pašalinti šį PDF ir pasirinkti naują"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Pridėti PDF",
     "components__pdf_merge__empty_pdf": "Išvalyti PDF",
     "components__pdf_merge__confirm_merge": "Patvirtinti sujungimą",
-    "components__pdf_merge__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant"
+    "components__pdf_merge__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant",
+    "components__pdf_merge__button__download__tooltip": "Sulieti ir atsisiųsti PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Išvalyti visus žemiau esančius PDF",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Pridėti PDF failą žemiau"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant",
     "components__pdf_split__is_single_pdf": "Sulieti pasirinktas puslapius į vieną PDF",
     "components__pdf_split__cancel": "Atšaukti",
-    "components__pdf_split__error_maximum": "Nepavyko padalinti PDF failų, viršytas maksimalus kiekis"
+    "components__pdf_split__error_maximum": "Nepavyko padalinti PDF failų, viršytas maksimalus kiekis",
+    "components__pdf_split__button__zoom_in__tooltip": "Artinti",
+    "components__pdf_split__button__zoom_out__tooltip": "Tolinti",
+    "components__pdf_split__button__remove__tooltip": "Pašalinti šį PDF ir pasirinkti naują",
+    "components__pdf_split__button__download__tooltip": "Padalinti ir atsisiųsti PDF",
+    "components__pdf_split__button__cancel__tooltip": "Atšaukti dabartinę pažangą"
   }
 }

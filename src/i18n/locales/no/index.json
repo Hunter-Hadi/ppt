@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Vis sider",
     "components__to_image_detail__view_images": "Vis bilder",
     "components__to_image__downloader_tip": "Vennligst velg minst ett bilde.",
-    "components__to_image_detail__not_found_images": "Bilde fra PDF ikke funnet"
+    "components__to_image_detail__not_found_images": "Bilde fra PDF ikke funnet",
+    "components__to_image_detail__button__download__tooltip": "Last ned zippede bilder",
+    "components__to_image_detail__button__view_images__tooltip": "Vis de ekstraherte bildene i denne PDF-en",
+    "components__to_image_detail__button__view_pages__tooltip": "Vis alle sidene i denne PDF-en",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zoom inn",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zoom ut",
+    "components__to_image_detail__button__cancel__tooltip": "Avbryt gjeldende fremgang",
+    "components__to_image_detail__button__remove__tooltip": "Fjern denne PDF-en og velg en ny"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Legg til PDF",
     "components__pdf_merge__empty_pdf": "Tøm PDF-er",
     "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
-    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe"
+    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
+    "components__pdf_merge__button__download__tooltip": "Slå sammen og last ned PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Fjern alle PDF-er nedenfor",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Legg til PDF-fil nedenfor"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
     "components__pdf_split__is_single_pdf": "Slå sammen valgte sider til en enkelt PDF",
     "components__pdf_split__cancel": "Avbryt",
-    "components__pdf_split__error_maximum": "Kunne ikke splitte PDF-filer, overskredet maksimalt antall"
+    "components__pdf_split__error_maximum": "Kunne ikke splitte PDF-filer, overskredet maksimalt antall",
+    "components__pdf_split__button__zoom_in__tooltip": "Zoom inn",
+    "components__pdf_split__button__zoom_out__tooltip": "Zoom ut",
+    "components__pdf_split__button__remove__tooltip": "Fjern denne PDF-en og velg en ny",
+    "components__pdf_split__button__download__tooltip": "Del opp og last ned PDF",
+    "components__pdf_split__button__cancel__tooltip": "Avbryt gjeldende fremgang"
   }
 }

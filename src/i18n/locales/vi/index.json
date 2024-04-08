@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "Xem trang",
     "components__to_image_detail__view_images": "Xem hình ảnh",
     "components__to_image__downloader_tip": "Vui lòng chọn ít nhất một hình ảnh.",
-    "components__to_image_detail__not_found_images": "Không tìm thấy hình ảnh PDF"
+    "components__to_image_detail__not_found_images": "Không tìm thấy hình ảnh PDF",
+    "components__to_image_detail__button__download__tooltip": "Tải xuống hình ảnh nén",
+    "components__to_image_detail__button__view_images__tooltip": "Xem các hình ảnh được trích xuất trong PDF này",
+    "components__to_image_detail__button__view_pages__tooltip": "Xem tất cả các trang trong PDF này",
+    "components__to_image_detail__button__zoom_in__tooltip": "Phóng to",
+    "components__to_image_detail__button__zoom_out__tooltip": "Thu nhỏ",
+    "components__to_image_detail__button__cancel__tooltip": "Hủy tiến trình hiện tại",
+    "components__to_image_detail__button__remove__tooltip": "Xóa PDF này và chọn một PDF mới"
   },
   "features_landing": {
     "cta_text": "Thêm vào Trình duyệt",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Thêm PDF",
     "components__pdf_merge__empty_pdf": "Xóa PDF",
     "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
-    "components__pdf_merge__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả"
+    "components__pdf_merge__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả",
+    "components__pdf_merge__button__download__tooltip": "Gộp và tải xuống PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Xóa tất cả các PDF bên dưới",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Thêm tệp PDF bên dưới"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả",
     "components__pdf_split__is_single_pdf": "Gộp các trang đã chọn thành một tệp PDF duy nhất",
     "components__pdf_split__cancel": "Hủy",
-    "components__pdf_split__error_maximum": "Không thể chia nhỏ tệp PDF, Vượt quá số lượng tối đa"
+    "components__pdf_split__error_maximum": "Không thể chia nhỏ tệp PDF, Vượt quá số lượng tối đa",
+    "components__pdf_split__button__zoom_in__tooltip": "Phóng to",
+    "components__pdf_split__button__zoom_out__tooltip": "Thu nhỏ",
+    "components__pdf_split__button__remove__tooltip": "Xóa PDF này và chọn một PDF mới",
+    "components__pdf_split__button__download__tooltip": "Tách và tải xuống PDF",
+    "components__pdf_split__button__cancel__tooltip": "Hủy tiến trình hiện tại"
   }
 }

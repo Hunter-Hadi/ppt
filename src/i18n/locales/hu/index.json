@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Oldalak megtekintése",
     "components__to_image_detail__view_images": "Képek megtekintése",
     "components__to_image__downloader_tip": "Kérjük, válasszon ki legalább egy képet.",
-    "components__to_image_detail__not_found_images": "Nem található PDF kép"
+    "components__to_image_detail__not_found_images": "Nem található PDF kép",
+    "components__to_image_detail__button__download__tooltip": "Letöltés tömörített képekkel",
+    "components__to_image_detail__button__view_images__tooltip": "A kinyert képek megtekintése ebben a PDF-ben",
+    "components__to_image_detail__button__view_pages__tooltip": "Az összes oldal megtekintése ebben a PDF-ben",
+    "components__to_image_detail__button__zoom_in__tooltip": "Nagyítás",
+    "components__to_image_detail__button__zoom_out__tooltip": "Kicsinyítés",
+    "components__to_image_detail__button__cancel__tooltip": "Aktuális folyamat megszakítása",
+    "components__to_image_detail__button__remove__tooltip": "Ez a PDF eltávolítása és új kiválasztása"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF hozzáadása",
     "components__pdf_merge__empty_pdf": "PDF-ek törlése",
     "components__pdf_merge__confirm_merge": "Összevonás megerősítése",
-    "components__pdf_merge__pdf_dropping": "A PDF sorrendjét húzás és ejtés segítségével állíthatja be"
+    "components__pdf_merge__pdf_dropping": "A PDF sorrendjét húzás és ejtés segítségével állíthatja be",
+    "components__pdf_merge__button__download__tooltip": "PDF egyesítése és letöltése",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Az alábbi összes PDF törlése",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF fájl hozzáadása alul"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "A PDF sorrendjét áthelyezéssel módosíthatja",
     "components__pdf_split__is_single_pdf": "Kiválasztott oldalak egyesítése egyetlen PDF-be",
     "components__pdf_split__cancel": "Mégse",
-    "components__pdf_split__error_maximum": "Nem sikerült a PDF fájlok felosztása, túllépte a maximális mennyiséget"
+    "components__pdf_split__error_maximum": "Nem sikerült a PDF fájlok felosztása, túllépte a maximális mennyiséget",
+    "components__pdf_split__button__zoom_in__tooltip": "Nagyítás",
+    "components__pdf_split__button__zoom_out__tooltip": "Kicsinyítés",
+    "components__pdf_split__button__remove__tooltip": "Ez a PDF eltávolítása és új kiválasztása",
+    "components__pdf_split__button__download__tooltip": "PDF szétválasztása és letöltése",
+    "components__pdf_split__button__cancel__tooltip": "Aktuális folyamat megszakítása"
   }
 }

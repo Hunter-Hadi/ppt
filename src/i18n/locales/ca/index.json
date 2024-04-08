@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Visualitza les pàgines",
     "components__to_image_detail__view_images": "Visualitza les imatges",
     "components__to_image__downloader_tip": "Si us plau, seleccioneu com a mínim una imatge.",
-    "components__to_image_detail__not_found_images": "Imatge del PDF no trobada"
+    "components__to_image_detail__not_found_images": "Imatge del PDF no trobada",
+    "components__to_image_detail__button__download__tooltip": "Descarrega les imatges comprimides",
+    "components__to_image_detail__button__view_images__tooltip": "Visualitza les imatges extretes d'aquest PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Visualitza totes les pàgines d'aquest PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Augmenta la mida",
+    "components__to_image_detail__button__zoom_out__tooltip": "Redueix la mida",
+    "components__to_image_detail__button__cancel__tooltip": "Cancel·la el progrés actual",
+    "components__to_image_detail__button__remove__tooltip": "Elimina aquest PDF i selecciona'n un de nou"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Afegiu PDF",
     "components__pdf_merge__empty_pdf": "Netegeu els PDFs",
     "components__pdf_merge__confirm_merge": "Confirmeu la fusió",
-    "components__pdf_merge__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los"
+    "components__pdf_merge__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los",
+    "components__pdf_merge__button__download__tooltip": "Fusiona i descarrega el PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Neteja tots els PDFs a sota",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Afegeix un fitxer PDF a sota"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los",
     "components__pdf_split__is_single_pdf": "Fusiona les pàgines seleccionades en un sol PDF",
     "components__pdf_split__cancel": "Cancel·la",
-    "components__pdf_split__error_maximum": "No s'ha pogut dividir els fitxers PDF, s'ha superat la quantitat màxima"
+    "components__pdf_split__error_maximum": "No s'ha pogut dividir els fitxers PDF, s'ha superat la quantitat màxima",
+    "components__pdf_split__button__zoom_in__tooltip": "Augmenta la mida",
+    "components__pdf_split__button__zoom_out__tooltip": "Redueix la mida",
+    "components__pdf_split__button__remove__tooltip": "Elimina aquest PDF i selecciona'n un de nou",
+    "components__pdf_split__button__download__tooltip": "Separa i descarrega el PDF",
+    "components__pdf_split__button__cancel__tooltip": "Cancel·la el progrés actual"
   }
 }

@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Tingnan ang mga pahina",
     "components__to_image_detail__view_images": "Tingnan ang mga imahe",
     "components__to_image__downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe.",
-    "components__to_image_detail__not_found_images": "Hindi natagpuan ang imahe ng PDF"
+    "components__to_image_detail__not_found_images": "Hindi natagpuan ang imahe ng PDF",
+    "components__to_image_detail__button__download__tooltip": "I-download ang mga naka-zip na imahe",
+    "components__to_image_detail__button__view_images__tooltip": "Tingnan ang mga inilabas na imahe sa PDF na ito",
+    "components__to_image_detail__button__view_pages__tooltip": "Tingnan ang lahat ng mga pahina sa PDF na ito",
+    "components__to_image_detail__button__zoom_in__tooltip": "Palakihin",
+    "components__to_image_detail__button__zoom_out__tooltip": "Paliitin",
+    "components__to_image_detail__button__cancel__tooltip": "Ihinto ang kasalukuyang progreso",
+    "components__to_image_detail__button__remove__tooltip": "Tanggalin ang PDF na ito at pumili ng bago"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Magdagdag ng PDF",
     "components__pdf_merge__empty_pdf": "Burahin ang mga PDF",
     "components__pdf_merge__confirm_merge": "Kumpirmahin ang pag-merge",
-    "components__pdf_merge__pdf_dropping": "Maaari mong ayusin ang pagkakasunud-sunod ng PDF sa pamamagitan ng pag-drag at drop"
+    "components__pdf_merge__pdf_dropping": "Maaari mong ayusin ang pagkakasunud-sunod ng PDF sa pamamagitan ng pag-drag at drop",
+    "components__pdf_merge__button__download__tooltip": "Pagsamahin at i-download ang PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Tanggalin ang lahat ng PDF sa ibaba",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Magdagdag ng PDF file sa ibaba"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Maaari mong baguhin ang pagkakasunud-sunod ng mga PDF sa pamamagitan ng pag-drag at drop",
     "components__pdf_split__is_single_pdf": "Pagsamahin ang mga piniling pahina sa isang PDF",
     "components__pdf_split__cancel": " kanselahin",
-    "components__pdf_split__error_maximum": "Nabigo ang paghihiwalay ng mga file ng PDF, Lumampas sa maximum na dami"
+    "components__pdf_split__error_maximum": "Nabigo ang paghihiwalay ng mga file ng PDF, Lumampas sa maximum na dami",
+    "components__pdf_split__button__zoom_in__tooltip": "Palakihin",
+    "components__pdf_split__button__zoom_out__tooltip": "Paliitin",
+    "components__pdf_split__button__remove__tooltip": "Tanggalin ang PDF na ito at pumili ng bago",
+    "components__pdf_split__button__download__tooltip": "Hatian at i-download ang PDF",
+    "components__pdf_split__button__cancel__tooltip": "Ihinto ang kasalukuyang progreso"
   }
 }

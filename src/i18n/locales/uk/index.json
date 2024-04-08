@@ -620,7 +620,14 @@
     "components__to_image_detail__view_pages": "صفحات دیکھیں",
     "components__to_image_detail__view_images": "تصاویر دیکھیں",
     "components__to_image__downloader_tip": "براہ کرم کم از کم ایک تصویر منتخب کریں۔",
-    "components__to_image_detail__not_found_images": "تصویر پی ڈی ایف نہیں مل سکی"
+    "components__to_image_detail__not_found_images": "تصویر پی ڈی ایف نہیں مل سکی",
+    "components__to_image_detail__button__download__tooltip": "زپ کی گئی تصاویر ڈاؤن لوڈ کریں",
+    "components__to_image_detail__button__view_images__tooltip": "اس PDF میں استخراج شدہ تصاویر دیکھیں",
+    "components__to_image_detail__button__view_pages__tooltip": "اس PDF میں تمام صفحات دیکھیں",
+    "components__to_image_detail__button__zoom_in__tooltip": "زوم ان",
+    "components__to_image_detail__button__zoom_out__tooltip": "زوم آؤٹ",
+    "components__to_image_detail__button__cancel__tooltip": "موجودہ پیش رفت منسوخ کریں",
+    "components__to_image_detail__button__remove__tooltip": "اس PDF کو ہٹائیں اور نیا منتخب کریں"
   },
   "features_landing": {
     "cta_text": "براؤزر میں شامل کریں",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",
     "components__pdf_merge__empty_pdf": "پی ڈی ایف صاف کریں",
     "components__pdf_merge__confirm_merge": "مرج کرنے کی تصدیق کریں",
-    "components__pdf_merge__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں"
+    "components__pdf_merge__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
+    "components__pdf_merge__button__download__tooltip": "PDF کو مرکب کریں اور ڈاؤن لوڈ کریں",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "نیچے تمام PDFز ختم کریں",
+    "components__pdf_merge__button__add_pdfs__tooltip": "نیچے PDF فائل شامل کریں"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "مخصوص شدہ پی ڈی ایف فائل کو اپ لوڈ کریں",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
     "components__pdf_split__is_single_pdf": "منتخب شدہ صفحات کو ایک ہی پی ڈی ایف میں مرکٹ کریں",
     "components__pdf_split__cancel": "منسوخ کریں",
-    "components__pdf_split__error_maximum": "پی ڈی ایف فائلوں کو تقسیم کرنے میں ناکامی ہوئی، زیادہ سے زیادہ تعداد پوری ہوگئی"
+    "components__pdf_split__error_maximum": "پی ڈی ایف فائلوں کو تقسیم کرنے میں ناکامی ہوئی، زیادہ سے زیادہ تعداد پوری ہوگئی",
+    "components__pdf_split__button__zoom_in__tooltip": "زوم ان",
+    "components__pdf_split__button__zoom_out__tooltip": "زوم آؤٹ",
+    "components__pdf_split__button__remove__tooltip": "اس PDF کو ہٹائیں اور نیا منتخب کریں",
+    "components__pdf_split__button__download__tooltip": "PDF کو تقسیم کریں اور ڈاؤن لوڈ کریں",
+    "components__pdf_split__button__cancel__tooltip": "موجودہ پیش رفت منسوخ کریں"
   }
 }

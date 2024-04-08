@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Lihat halaman",
     "components__to_image_detail__view_images": "Lihat imej",
     "components__to_image__downloader_tip": "Sila pilih sekurang-kurangnya satu imej.",
-    "components__to_image_detail__not_found_images": "Imej PDF tidak ditemui"
+    "components__to_image_detail__not_found_images": "Imej PDF tidak ditemui",
+    "components__to_image_detail__button__download__tooltip": "Muat turun imej berzip",
+    "components__to_image_detail__button__view_images__tooltip": "Lihat imej-imej yang diekstrak dalam PDF ini",
+    "components__to_image_detail__button__view_pages__tooltip": "Lihat semua halaman dalam PDF ini",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zum masuk",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zum keluar",
+    "components__to_image_detail__button__cancel__tooltip": "Batalkan kemajuan semasa",
+    "components__to_image_detail__button__remove__tooltip": "Buang PDF ini dan pilih yang baru"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Tambah PDF",
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
-    "components__pdf_merge__pdf_dropping": "Anda boleh mengubahsuai susunan PDF dengan menyeret dan menjatuhkan"
+    "components__pdf_merge__pdf_dropping": "Anda boleh mengubahsuai susunan PDF dengan menyeret dan menjatuhkan",
+    "components__pdf_merge__button__download__tooltip": "Gabung dan muat turun PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Padam semua PDF di bawah",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Tambah fail PDF di bawah"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Anda boleh mengubah susunan PDF dengan menyeret dan melepaskan",
     "components__pdf_split__is_single_pdf": "Gabungkan halaman yang dipilih ke dalam satu PDF",
     "components__pdf_split__cancel": "Batal",
-    "components__pdf_split__error_maximum": "Gagal memecah fail PDF, Melebihi jumlah maksimum"
+    "components__pdf_split__error_maximum": "Gagal memecah fail PDF, Melebihi jumlah maksimum",
+    "components__pdf_split__button__zoom_in__tooltip": "Zum masuk",
+    "components__pdf_split__button__zoom_out__tooltip": "Zum keluar",
+    "components__pdf_split__button__remove__tooltip": "Buang PDF ini dan pilih yang baru",
+    "components__pdf_split__button__download__tooltip": "Bahagikan dan muat turun PDF",
+    "components__pdf_split__button__cancel__tooltip": "Batalkan kemajuan semasa"
   }
 }

@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Näytä sivut",
     "components__to_image_detail__view_images": "Näytä kuvat",
     "components__to_image__downloader_tip": "Valitse vähintään yksi kuva.",
-    "components__to_image_detail__not_found_images": "PDF-kuvaa ei löytynyt"
+    "components__to_image_detail__not_found_images": "PDF-kuvaa ei löytynyt",
+    "components__to_image_detail__button__download__tooltip": "Lataa pakattuja kuvia",
+    "components__to_image_detail__button__view_images__tooltip": "Näytä tämän PDF:n eristetyt kuvat",
+    "components__to_image_detail__button__view_pages__tooltip": "Näytä kaikki tämän PDF:n sivut",
+    "components__to_image_detail__button__zoom_in__tooltip": "Lähennä",
+    "components__to_image_detail__button__zoom_out__tooltip": "Loitonna",
+    "components__to_image_detail__button__cancel__tooltip": "Peruuta nykyinen edistyminen",
+    "components__to_image_detail__button__remove__tooltip": "Poista tämä PDF ja valitse uusi"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Lisää PDF",
     "components__pdf_merge__empty_pdf": "Tyhjennä PDF:t",
     "components__pdf_merge__confirm_merge": "Vahvista yhdistäminen",
-    "components__pdf_merge__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla"
+    "components__pdf_merge__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla",
+    "components__pdf_merge__button__download__tooltip": "Yhdistä ja lataa PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Tyhjennä kaikki alla olevat PDF-tiedostot",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Lisää PDF-tiedosto alle"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla",
     "components__pdf_split__is_single_pdf": "Yhdistä valitut sivut yhdeksi PDF-tiedostoksi",
     "components__pdf_split__cancel": "Peruuta",
-    "components__pdf_split__error_maximum": "PDF-tiedostojen jakaminen epäonnistui, ylitettiin enimmäismäärä"
+    "components__pdf_split__error_maximum": "PDF-tiedostojen jakaminen epäonnistui, ylitettiin enimmäismäärä",
+    "components__pdf_split__button__zoom_in__tooltip": "Lähennä",
+    "components__pdf_split__button__zoom_out__tooltip": "Loitonna",
+    "components__pdf_split__button__remove__tooltip": "Poista tämä PDF ja valitse uusi",
+    "components__pdf_split__button__download__tooltip": "Jaa ja lataa PDF",
+    "components__pdf_split__button__cancel__tooltip": "Peruuta nykyinen edistyminen"
   }
 }

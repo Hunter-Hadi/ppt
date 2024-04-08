@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Visa sidor",
     "components__to_image_detail__view_images": "Visa bilder",
     "components__to_image__downloader_tip": "Var god välj minst en bild.",
-    "components__to_image_detail__not_found_images": "PDF-bild hittades inte"
+    "components__to_image_detail__not_found_images": "PDF-bild hittades inte",
+    "components__to_image_detail__button__download__tooltip": "Ladda ner zipade bilder",
+    "components__to_image_detail__button__view_images__tooltip": "Visa de extraherade bilderna i denna PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Visa alla sidor i denna PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zooma in",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zooma ut",
+    "components__to_image_detail__button__cancel__tooltip": "Avbryt aktuell framsteg",
+    "components__to_image_detail__button__remove__tooltip": "Ta bort denna PDF och välj en ny"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Lägg till PDF",
     "components__pdf_merge__empty_pdf": "Rensa PDF:er",
     "components__pdf_merge__confirm_merge": "Bekräfta sammanfogning",
-    "components__pdf_merge__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa"
+    "components__pdf_merge__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa",
+    "components__pdf_merge__button__download__tooltip": "Slå samman och ladda ner PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Rensa alla PDF-filer nedan",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Lägg till PDF-fil nedan"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa",
     "components__pdf_split__is_single_pdf": "Slå samman valda sidor till en enda PDF",
     "components__pdf_split__cancel": "Avbryt",
-    "components__pdf_split__error_maximum": "Det gick inte att dela upp PDF-filer, Överskred maximalt antal"
+    "components__pdf_split__error_maximum": "Det gick inte att dela upp PDF-filer, Överskred maximalt antal",
+    "components__pdf_split__button__zoom_in__tooltip": "Zooma in",
+    "components__pdf_split__button__zoom_out__tooltip": "Zooma ut",
+    "components__pdf_split__button__remove__tooltip": "Ta bort denna PDF och välj en ny",
+    "components__pdf_split__button__download__tooltip": "Dela upp och ladda ner PDF",
+    "components__pdf_split__button__cancel__tooltip": "Avbryt aktuell framsteg"
   }
 }

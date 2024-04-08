@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "페이지 보기",
     "components__to_image_detail__view_images": "이미지 보기",
     "components__to_image__downloader_tip": "최소한 하나의 이미지를 선택해주세요.",
-    "components__to_image_detail__not_found_images": "PDF 이미지를 찾을 수 없습니다"
+    "components__to_image_detail__not_found_images": "PDF 이미지를 찾을 수 없습니다",
+    "components__to_image_detail__button__download__tooltip": "압축된 이미지 다운로드",
+    "components__to_image_detail__button__view_images__tooltip": "이 PDF에서 추출된 이미지 보기",
+    "components__to_image_detail__button__view_pages__tooltip": "이 PDF의 모든 페이지 보기",
+    "components__to_image_detail__button__zoom_in__tooltip": "확대",
+    "components__to_image_detail__button__zoom_out__tooltip": "축소",
+    "components__to_image_detail__button__cancel__tooltip": "현재 진행 상태 취소",
+    "components__to_image_detail__button__remove__tooltip": "이 PDF 제거하고 새로운 파일 선택"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "PDF 추가",
     "components__pdf_merge__empty_pdf": "PDF 지우기",
     "components__pdf_merge__confirm_merge": "병합 확인",
-    "components__pdf_merge__pdf_dropping": "PDF 순서를 드래그하여 조정할 수 있습니다"
+    "components__pdf_merge__pdf_dropping": "PDF 순서를 드래그하여 조정할 수 있습니다",
+    "components__pdf_merge__button__download__tooltip": "PDF 병합 및 다운로드",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "아래의 모든 PDF 지우기",
+    "components__pdf_merge__button__add_pdfs__tooltip": "아래에 PDF 파일 추가"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "PDF 순서를 드래그하여 조정할 수 있습니다",
     "components__pdf_split__is_single_pdf": "선택한 페이지를 단일 PDF로 병합합니다",
     "components__pdf_split__cancel": "취소",
-    "components__pdf_split__error_maximum": "PDF 파일 분할에 실패했습니다. 최대 수량을 초과했습니다"
+    "components__pdf_split__error_maximum": "PDF 파일 분할에 실패했습니다. 최대 수량을 초과했습니다",
+    "components__pdf_split__button__zoom_in__tooltip": "확대",
+    "components__pdf_split__button__zoom_out__tooltip": "축소",
+    "components__pdf_split__button__remove__tooltip": "이 PDF 제거하고 새로운 파일 선택",
+    "components__pdf_split__button__download__tooltip": "PDF 분할 및 다운로드",
+    "components__pdf_split__button__cancel__tooltip": "현재 진행 상태 취소"
   }
 }

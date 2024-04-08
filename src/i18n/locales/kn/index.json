@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "ಪುಟಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
     "components__to_image_detail__view_images": "ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
     "components__to_image__downloader_tip": "ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
-    "components__to_image_detail__not_found_images": "ಪಿಡಿಎಫ್ ಚಿತ್ರ ಕಂಡುಬರಲಿಲ್ಲ"
+    "components__to_image_detail__not_found_images": "ಪಿಡಿಎಫ್ ಚಿತ್ರ ಕಂಡುಬರಲಿಲ್ಲ",
+    "components__to_image_detail__button__download__tooltip": "ಝಿಪ್ ಮಾಡಲಾದ ಚಿತ್ರಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__to_image_detail__button__view_images__tooltip": "ಈ ಪಿಡಿಎಫ್‌ನಲ್ಲಿ ಹೊರಡಿಸಲಾದ ಚಿತ್ರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    "components__to_image_detail__button__view_pages__tooltip": "ಈ ಪಿಡಿಎಫ್‌ನ ಎಲ್ಲಾ ಪುಟಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    "components__to_image_detail__button__zoom_in__tooltip": "ಹೆಚ್ಚಿಸು",
+    "components__to_image_detail__button__zoom_out__tooltip": "ಕಡಿಮೆಗೆ",
+    "components__to_image_detail__button__cancel__tooltip": "ಪ್ರಸ್ತುತ ಪ್ರಗತಿಯನ್ನು ರದ್ದುಮಾಡಿ",
+    "components__to_image_detail__button__remove__tooltip": "ಈ ಪಿಡಿಎಫ್ ತೆರವುಗೊಳಿಸಿ ಮತ್ತೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "ಪಿಡಿಎಫ್ ಸೇರಿಸಿ",
     "components__pdf_merge__empty_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__confirm_merge": "ಮರುಹೊಂದಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿ",
-    "components__pdf_merge__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಬದಲಾಯಿಸಬಹುದು"
+    "components__pdf_merge__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಬದಲಾಯಿಸಬಹುದು",
+    "components__pdf_merge__button__download__tooltip": "ಪಿಡಿಎಫ್ ಮರುಕ್ರಮಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "ಕೆಳಗಿನ ಎಲ್ಲಾ ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "components__pdf_merge__button__add_pdfs__tooltip": "ಕೆಳಗೆ ಪಿಡಿಎಫ್ ಕಡತವನ್ನು ಸೇರಿಸಿ"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಮತ್ತು ಬಿಡಿಸುವುದರಿಂದ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು",
     "components__pdf_split__is_single_pdf": "ಆಯ್ಕೆಮಾಡಲಾದ ಪುಟಗಳನ್ನು ಒಂದು ಪಿಡಿಎಫ್‌ಗೆ ಒಂದುಗೂಡಿಸಿ",
     "components__pdf_split__cancel": "ರದ್ದುಮಾಡಿ",
-    "components__pdf_split__error_maximum": "ಪಿಡಿಎಫ್ ಫೈಲ್‌ಗಳನ್ನು ವಿಭಜಿಸುವುದರಲ್ಲಿ ತಪ್ಪಾಗಿದೆ, ಗರಿಷ್ಠ ಪ್ರಮಾಣವನ್ನು ಮೀರಿದೆ"
+    "components__pdf_split__error_maximum": "ಪಿಡಿಎಫ್ ಫೈಲ್‌ಗಳನ್ನು ವಿಭಜಿಸುವುದರಲ್ಲಿ ತಪ್ಪಾಗಿದೆ, ಗರಿಷ್ಠ ಪ್ರಮಾಣವನ್ನು ಮೀರಿದೆ",
+    "components__pdf_split__button__zoom_in__tooltip": "ಹೆಚ್ಚಿಸು",
+    "components__pdf_split__button__zoom_out__tooltip": "ಕಡಿಮೆಗೆ",
+    "components__pdf_split__button__remove__tooltip": "ಈ ಪಿಡಿಎಫ್ ತೆರವುಗೊಳಿಸಿ ಮತ್ತೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "components__pdf_split__button__download__tooltip": "ಪಿಡಿಎಫ್ ವಿಭಜನೆ ಮಾಡಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__pdf_split__button__cancel__tooltip": "ಪ್ರಸ್ತುತ ಪ್ರಗತಿಯನ್ನು ರದ್ದುಮಾಡಿ"
   }
 }

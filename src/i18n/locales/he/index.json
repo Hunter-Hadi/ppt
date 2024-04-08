@@ -654,7 +654,14 @@
     "components__to_image_detail__view_pages": "הצג עמודים",
     "components__to_image_detail__view_images": "הצג תמונות",
     "components__to_image__downloader_tip": "אנא בחר לפחות תמונה אחת.",
-    "components__to_image_detail__not_found_images": "לא נמצאה תמונה של PDF"
+    "components__to_image_detail__not_found_images": "לא נמצאה תמונה של PDF",
+    "components__to_image_detail__button__download__tooltip": "הורד תמונות בקובץ מדוחס",
+    "components__to_image_detail__button__view_images__tooltip": "צפה בתמונות שיוצאו מקובץ ה-PDF הזה",
+    "components__to_image_detail__button__view_pages__tooltip": "צפה בכל העמודים בקובץ ה-PDF הזה",
+    "components__to_image_detail__button__zoom_in__tooltip": "התקרב",
+    "components__to_image_detail__button__zoom_out__tooltip": "התרחק",
+    "components__to_image_detail__button__cancel__tooltip": "בטל את התהליך הנוכחי",
+    "components__to_image_detail__button__remove__tooltip": "הסר את קובץ ה-PDF הזה ובחר חדש"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
@@ -662,7 +669,10 @@
     "components__pdf_merge__add_pdf": "הוסף PDF",
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
-    "components__pdf_merge__pdf_dropping": "ניתן לכוון את סדר ה- PDF על ידי גרירה ושחרור"
+    "components__pdf_merge__pdf_dropping": "ניתן לכוון את סדר ה- PDF על ידי גרירה ושחרור",
+    "components__pdf_merge__button__download__tooltip": "מיזוג והורדת PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "נקה את כל ה- PDF למטה",
+    "components__pdf_merge__button__add_pdfs__tooltip": "הוסף קובץ PDF למטה"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
@@ -674,6 +684,11 @@
     "components__pdf_split__pdf_dropping": "ניתן לכוון את סדר ה-PDF על ידי גרירה ושחרור",
     "components__pdf_split__is_single_pdf": "מזג עמודים שנבחרו ל-PDF יחיד",
     "components__pdf_split__cancel": "ביטול",
-    "components__pdf_split__error_maximum": "נכשל בפיצול קבצי PDF, חרג מהכמות המרבית"
+    "components__pdf_split__error_maximum": "נכשל בפיצול קבצי PDF, חרג מהכמות המרבית",
+    "components__pdf_split__button__zoom_in__tooltip": "התקרב",
+    "components__pdf_split__button__zoom_out__tooltip": "התרחק",
+    "components__pdf_split__button__remove__tooltip": "הסר את קובץ ה-PDF הזה ובחר חדש",
+    "components__pdf_split__button__download__tooltip": "פיצול והורדת PDF",
+    "components__pdf_split__button__cancel__tooltip": "בטל את התהליך הנוכחי"
   }
 }

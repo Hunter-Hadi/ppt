@@ -655,7 +655,14 @@
     "components__to_image_detail__view_pages": "Visualizar páginas",
     "components__to_image_detail__view_images": "Visualizar imagens",
     "components__to_image__downloader_tip": "Por favor, selecione pelo menos uma imagem.",
-    "components__to_image_detail__not_found_images": "Imagem do PDF não encontrada"
+    "components__to_image_detail__not_found_images": "Imagem do PDF não encontrada",
+    "components__to_image_detail__button__download__tooltip": "Baixar imagens compactadas",
+    "components__to_image_detail__button__view_images__tooltip": "Visualizar as imagens extraídas neste PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Visualizar todas as páginas deste PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Aumentar zoom",
+    "components__to_image_detail__button__zoom_out__tooltip": "Diminuir zoom",
+    "components__to_image_detail__button__cancel__tooltip": "Cancelar progresso atual",
+    "components__to_image_detail__button__remove__tooltip": "Remover este PDF e selecionar um novo"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Faça o upload do tipo de arquivo PDF especificado",
@@ -663,7 +670,10 @@
     "components__pdf_merge__add_pdf": "Adicionar PDF",
     "components__pdf_merge__empty_pdf": "Limpar PDFs",
     "components__pdf_merge__confirm_merge": "Confirmar mesclagem",
-    "components__pdf_merge__pdf_dropping": "Você pode ajustar a ordem do PDF arrastando e soltando"
+    "components__pdf_merge__pdf_dropping": "Você pode ajustar a ordem do PDF arrastando e soltando",
+    "components__pdf_merge__button__download__tooltip": "Mesclar e baixar PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Limpar todos os PDFs abaixo",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Adicionar arquivo PDF abaixo"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
@@ -675,6 +685,11 @@
     "components__pdf_split__pdf_dropping": "Você pode ajustar a ordem dos PDFs arrastando e soltando",
     "components__pdf_split__is_single_pdf": "Mesclar páginas selecionadas em um único PDF",
     "components__pdf_split__cancel": "Cancelar",
-    "components__pdf_split__error_maximum": "Falha ao dividir arquivos PDF, quantidade máxima excedida"
+    "components__pdf_split__error_maximum": "Falha ao dividir arquivos PDF, quantidade máxima excedida",
+    "components__pdf_split__button__zoom_in__tooltip": "Aumentar zoom",
+    "components__pdf_split__button__zoom_out__tooltip": "Diminuir zoom",
+    "components__pdf_split__button__remove__tooltip": "Remover este PDF e selecionar um novo",
+    "components__pdf_split__button__download__tooltip": "Dividir e baixar PDF",
+    "components__pdf_split__button__cancel__tooltip": "Cancelar progresso atual"
   }
 }
