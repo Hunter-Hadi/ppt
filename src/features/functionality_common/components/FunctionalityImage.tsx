@@ -17,7 +17,7 @@ interface IFunctionalitySortableImageProps {
   imageSize?: number | string;
 }
 /**
- * Functionality公共的图片视图，带有tooltip
+ * Functionality公共的图片视图
  * @param name 底部显示的名称
  * @param imageInfo 图片信息
  * @param isActive 是否激活颜色区别

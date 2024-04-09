@@ -501,19 +501,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [
-    'pdf_tools__pdf_to_jpeg__title',
-    'pdf_tools__pdf_to_jpeg__description',
-
-    'pdf_tools__pdf_to_png__title',
-    'pdf_tools__pdf_to_png__description',
-
-    'pdf_tools__merge_pdfs__title',
-    'pdf_tools__merge_pdfs__description',
-
-    'pdf_tools__split_pdf__title',
-    'pdf_tools__split_pdf__description',
-  ];
+  const keys = [];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }
