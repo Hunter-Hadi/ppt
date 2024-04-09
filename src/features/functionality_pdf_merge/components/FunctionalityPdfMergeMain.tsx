@@ -7,13 +7,13 @@ import { v4 as uuidV4 } from 'uuid';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
-import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
-import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
-import { IFunctionalityPdfInfo } from '@/features/functionality_common/types/functionalityImageType';
-import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
+import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import FunctionalityDragSortableImageList from '@/features/functionality_pdf_merge/components/FunctionalityDragSortableImageList';
 import snackNotifications from '@/utils/globalSnackbar';
-export type IFunctionalityPdfFileInfoType = IFunctionalityPdfInfo & {
+export type IFunctionalityPdfFileInfoType = IFunctionalityCommonImageInfo & {
   name: string;
   file: File;
   size: number;
@@ -200,7 +200,7 @@ const FunctionalityPdfMergeMain = () => {
           gap={1}
         >
           <Grid item>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
               )}
@@ -226,10 +226,10 @@ const FunctionalityPdfMergeMain = () => {
                   {t('functionality__pdf_merge:components__pdf_merge__add_pdf')}
                 </UploadButton>
               </Box>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
           <Grid item>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_merge:components__pdf_merge__button__clear_pdfs__tooltip',
               )}
@@ -244,7 +244,7 @@ const FunctionalityPdfMergeMain = () => {
               >
                 {t('functionality__pdf_merge:components__pdf_merge__empty_pdf')}
               </Button>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
         </Grid>
       )}
@@ -280,7 +280,7 @@ const FunctionalityPdfMergeMain = () => {
           sx={{ mt: 5 }}
         >
           <Grid item xs={10} md={2}>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_merge:components__pdf_merge__button__download__tooltip',
               )}
@@ -296,7 +296,7 @@ const FunctionalityPdfMergeMain = () => {
                   'functionality__pdf_merge:components__pdf_merge__confirm_merge',
                 )}
               </Button>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
         </Grid>
       )}

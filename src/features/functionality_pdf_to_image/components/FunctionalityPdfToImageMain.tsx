@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next';
 import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
-import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
+import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import snackNotifications from '@/utils/globalSnackbar';
 
 const FunctionalityPdfToImageDetail = lazy(

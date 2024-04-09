@@ -9,7 +9,7 @@ import { useCallback, useState } from "react";
  * - onDefaultChangeScale (function): 重置缩放比例到默认值的函数。
  *   传入 1 以设置为最大缩放比例，传入其他值将重置为默认缩放比例。
  */
-export const useFunctionalityChangeScale = () => {
+export const useFunctionalityCommonChangeScale = () => {
     const defScale = 4, maxScale = 10, minScale = 2;
     const [currentScale, setCurrentScale] = useState<number>(defScale);
     const onDefaultChangeScale = () => {

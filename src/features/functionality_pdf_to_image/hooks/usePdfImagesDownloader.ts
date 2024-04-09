@@ -4,8 +4,8 @@ import { useTranslation } from 'next-i18next';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import { IFunctionalityPdfToImageType } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
-import { dataURLtoBlob } from '@/features/functionality_common/utils/functionalityDataTool';
+import { IFunctionalityPdfToImageType } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
+import { dataURLtoBlob } from '@/features/functionality_common/utils/functionalityCommonDataTool';
 import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(

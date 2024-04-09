@@ -4,8 +4,8 @@ import { Box } from '@mui/material';
 import { ceil, divide } from 'lodash-es';
 import { FC } from 'react';
 
-import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
-import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
+import FunctionalityImage from '@/features/functionality_common/components/FunctionalityCommonImage';
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityPdfMergeIcon from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeIcon';
 
 import { IFunctionalityPdfFileInfoType } from './FunctionalityPdfMergeMain';
@@ -55,7 +55,7 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
         width: 200,
       }}
     >
-      <FunctionalityTooltip
+      <FunctionalityCommonTooltip
         title={`${ceil(divide(imageInfo.size, 1000))}kb - ${
           imageInfo.pages
         } pages`}
@@ -87,7 +87,7 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
             )
           }
         />
-      </FunctionalityTooltip>
+      </FunctionalityCommonTooltip>
     </Box>
   );
 };

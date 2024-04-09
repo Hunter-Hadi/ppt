@@ -4,10 +4,10 @@ import { useEffect, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
-import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityGetPdfFilePageToImage';
+import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityCommonGetPdfFilePageToImage';
 import snackNotifications from '@/utils/globalSnackbar';
 
-import { IFunctionalityPdfInfo } from '../types/functionalityImageType';
+import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -16,7 +16,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 export const defaultPdfToImageScale = 1.6
 
-export type IFunctionalityPdfToImageType = IFunctionalityPdfInfo & {
+export type IFunctionalityPdfToImageType = IFunctionalityCommonImageInfo & {
   definedIndex: number,
   isSelect: boolean;
 }
@@ -30,7 +30,7 @@ export type IFunctionalityPdfToImageType = IFunctionalityPdfInfo & {
  * -  pdfPageHaveImages - pdf 所有page 含有的图片列表数据
  * -  onReadPdfToImages - 主方法，传入文件开始读取图片
  */
-const usePdfToImageConversion = () => {
+const useFunctionalityCommonPdfToImageConversion = () => {
   const { t } = useTranslation();
   const viewDefaultSize = { width: 500, height: 1000 }
   const isCancel = useRef(false);
@@ -156,4 +156,4 @@ const usePdfToImageConversion = () => {
   };
 };
 
-export default usePdfToImageConversion;
+export default useFunctionalityCommonPdfToImageConversion;

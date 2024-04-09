@@ -1,7 +1,7 @@
 import { Box, Checkbox, Grid } from '@mui/material';
 import { FC } from 'react';
 
-import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
+import FunctionalityImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 
 interface IFunctionalityImageData {
   id: string;

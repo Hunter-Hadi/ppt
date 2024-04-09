@@ -1,11 +1,11 @@
 import { Box, Typography } from '@mui/material';
 import { CSSProperties, FC } from 'react';
 
-import { IFunctionalityPdfInfo } from '../types/functionalityImageType';
+import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
 
 interface IFunctionalitySortableImageProps {
   name?: string;
-  imageInfo: IFunctionalityPdfInfo;
+  imageInfo: IFunctionalityCommonImageInfo;
   isActive?: boolean;
   rightTopChildren?: React.ReactNode;
   onClick?: () => void;
@@ -20,7 +20,7 @@ interface IFunctionalitySortableImageProps {
  * @param onClick 点击事件
  * @param imageSize 图片宽度尺寸
  */
-const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
+const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
   imageInfo,
   isActive,
   rightTopChildren,
@@ -104,4 +104,4 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
     </Box>
   );
 };
-export default FunctionalityImage;
+export default FunctionalityCommonImage;

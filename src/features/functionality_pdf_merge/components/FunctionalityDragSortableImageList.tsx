@@ -14,7 +14,7 @@ import { Box, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useState } from 'react';
 
-import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
+import FunctionalityImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalitySortableImage from '@/features/functionality_pdf_merge/components/FunctionalitySortableImage';
 
 import { IFunctionalityPdfFileInfoType } from './FunctionalityPdfMergeMain';

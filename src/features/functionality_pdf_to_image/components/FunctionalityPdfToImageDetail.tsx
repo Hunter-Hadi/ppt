@@ -3,14 +3,14 @@ import { debounce } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useMemo, useState } from 'react';
 
-import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
-import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
-import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
-import useFunctionalityConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
-import usePdfToImageConversion, {
+import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
+import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
+import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
+import useFunctionalityCommonPdfToImageConversion, {
   defaultPdfToImageScale,
   IFunctionalityPdfToImageType,
-} from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
+} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
 
@@ -41,7 +41,7 @@ const FunctionalityPdfToImageDetail: FC<
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
-  } = usePdfToImageConversion();
+  } = useFunctionalityCommonPdfToImageConversion();
   const {
     downloaderIsLoading,
     downloaderTotalPages,
@@ -54,14 +54,16 @@ const FunctionalityPdfToImageDetail: FC<
       ? convertedPdfImages
       : pdfPageHaveImages;
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useFunctionalityConvertedContentSelector<IFunctionalityPdfToImageType>({
-      list: currentShowImages,
-      setList:
-        showPdfImagesType === 'pdfPageImages'
-          ? setConvertedPdfImages
-          : setPdfPageHaveImages,
-    });
-  const { changeScale, currentScale } = useFunctionalityChangeScale();
+    useFunctionalityCommonConvertedContentSelector<IFunctionalityPdfToImageType>(
+      {
+        list: currentShowImages,
+        setList:
+          showPdfImagesType === 'pdfPageImages'
+            ? setConvertedPdfImages
+            : setPdfPageHaveImages,
+      },
+    );
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
   const readPdfToImages = debounce(async (file) => {
     //debounce 防止useEffect导致的执行两次
     if (file) {
@@ -148,7 +150,7 @@ const FunctionalityPdfToImageDetail: FC<
           </Button>
         </Grid>
         <Grid item xs={6} md={2} sx={{ position: 'relative' }}>
-          <FunctionalityTooltip
+          <FunctionalityCommonTooltip
             key={showPdfImagesType}
             title={
               showPdfImagesType === 'pdfPageImages'
@@ -175,10 +177,10 @@ const FunctionalityPdfToImageDetail: FC<
                     'functionality__pdf_to_image:components__to_image_detail__view_pages',
                   )}
             </Button>
-          </FunctionalityTooltip>
+          </FunctionalityCommonTooltip>
         </Grid>
         <Grid item xs={6} md={2}>
-          <FunctionalityTooltip
+          <FunctionalityCommonTooltip
             title={t(
               'functionality__pdf_to_image:components__to_image_detail__button__remove__tooltip',
             )}
@@ -195,11 +197,11 @@ const FunctionalityPdfToImageDetail: FC<
                 'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
               )}
             </Button>
-          </FunctionalityTooltip>
+          </FunctionalityCommonTooltip>
         </Grid>
         {!isLoading && (
           <Grid item xs={6} md={2} display='flex'>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
               )}
@@ -214,8 +216,8 @@ const FunctionalityPdfToImageDetail: FC<
                   }}
                 />
               </Box>
-            </FunctionalityTooltip>
-            <FunctionalityTooltip
+            </FunctionalityCommonTooltip>
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
               )}
@@ -231,12 +233,12 @@ const FunctionalityPdfToImageDetail: FC<
                   }}
                 />
               </Box>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
         )}
         {isLoading && (
           <Grid item xs={12} md={2}>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_to_image:components__to_image_detail__button__cancel__tooltip',
               )}
@@ -252,7 +254,7 @@ const FunctionalityPdfToImageDetail: FC<
                   'functionality__pdf_to_image:components__to_image_detail__cancel',
                 )}
               </Button>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
         )}
       </Grid>
@@ -383,7 +385,7 @@ const FunctionalityPdfToImageDetail: FC<
           sx={{ mt: 2 }}
         >
           <Grid item xs={10} md={2}>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_to_image:components__to_image_detail__button__download__tooltip',
               )}
@@ -399,7 +401,7 @@ const FunctionalityPdfToImageDetail: FC<
                   'functionality__pdf_to_image:components__to_image_detail__download_images',
                 )}
               </Button>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
         </Grid>
       )}

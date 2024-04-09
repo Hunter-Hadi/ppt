@@ -5,16 +5,16 @@ import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
 import React, { useState } from 'react';
 
-import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
-import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
-import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
-import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
-import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
-import useFunctionalityConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
-import usePdfToImageConversion, {
+import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import FunctionalityImage from '@/features/functionality_common/components/FunctionalityCommonImage';
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
+import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
+import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
+import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
-} from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
-import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
+} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import snackNotifications from '@/utils/globalSnackbar';
 
 export const FunctionalityPdfSplitMain = () => {
@@ -32,13 +32,15 @@ export const FunctionalityPdfSplitMain = () => {
     onCancelPdfActive,
     pdfTotalPages,
     currentPdfActionNum,
-  } = usePdfToImageConversion();
-  const { changeScale, currentScale } = useFunctionalityChangeScale();
+  } = useFunctionalityCommonPdfToImageConversion();
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useFunctionalityConvertedContentSelector<IFunctionalityPdfToImageType>({
-      list: convertedPdfImages,
-      setList: setConvertedPdfImages,
-    });
+    useFunctionalityCommonConvertedContentSelector<IFunctionalityPdfToImageType>(
+      {
+        list: convertedPdfImages,
+        setList: setConvertedPdfImages,
+      },
+    );
   const onUploadFile = async (fileList: FileList) => {
     if (fileList && fileList.length > 0) {
       setIsLoading(true);
@@ -196,7 +198,7 @@ export const FunctionalityPdfSplitMain = () => {
             </Button>
           </Grid>
           <Grid item xs={6} md={2}>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
               )}
@@ -211,11 +213,11 @@ export const FunctionalityPdfSplitMain = () => {
               >
                 {t('functionality__pdf_split:components__pdf_spli__remove_pdf')}
               </Button>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
           {!currentIsLoading && (
             <Grid item xs={6} md={2} display='flex'>
-              <FunctionalityTooltip
+              <FunctionalityCommonTooltip
                 title={t(
                   'functionality__pdf_split:components__pdf_split__button__zoom_in__tooltip',
                 )}
@@ -230,8 +232,8 @@ export const FunctionalityPdfSplitMain = () => {
                     }}
                   />
                 </Box>
-              </FunctionalityTooltip>
-              <FunctionalityTooltip
+              </FunctionalityCommonTooltip>
+              <FunctionalityCommonTooltip
                 title={t(
                   'functionality__pdf_split:components__pdf_split__button__zoom_out__tooltip',
                 )}
@@ -247,12 +249,12 @@ export const FunctionalityPdfSplitMain = () => {
                     }}
                   />
                 </Box>
-              </FunctionalityTooltip>
+              </FunctionalityCommonTooltip>
             </Grid>
           )}
           {pdfIsLoading && (
             <Grid item xs={12} md={2}>
-              <FunctionalityTooltip
+              <FunctionalityCommonTooltip
                 title={t(
                   'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
                 )}
@@ -266,7 +268,7 @@ export const FunctionalityPdfSplitMain = () => {
                 >
                   {t('functionality__pdf_split:components__pdf_split__cancel')}
                 </Button>
-              </FunctionalityTooltip>
+              </FunctionalityCommonTooltip>
             </Grid>
           )}
         </Grid>
@@ -352,7 +354,7 @@ export const FunctionalityPdfSplitMain = () => {
           sx={{ mt: 1 }}
         >
           <Grid item xs={10} md={2}>
-            <FunctionalityTooltip
+            <FunctionalityCommonTooltip
               title={t(
                 'functionality__pdf_split:components__pdf_split__button__download__tooltip',
               )}
@@ -368,7 +370,7 @@ export const FunctionalityPdfSplitMain = () => {
                   'functionality__pdf_split:components__pdf_split__confirm_split',
                 )}
               </Button>
-            </FunctionalityTooltip>
+            </FunctionalityCommonTooltip>
           </Grid>
         </Grid>
       )}

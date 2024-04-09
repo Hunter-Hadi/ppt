@@ -11,10 +11,9 @@ interface IFunctionalityIconProps {
  * Functionality公共图标
  * @param name 图标名称
  */
-const FunctionalityIcon: FC<{ name: string } & IFunctionalityIconProps> = ({
-  name,
-  ...restProps
-}) => {
+const FunctionalityCommonIcon: FC<
+  { name: string } & IFunctionalityIconProps
+> = ({ name, ...restProps }) => {
   const renderIcon = () => {
     switch (name) {
       case 'CloudUploadIcon': {
@@ -34,4 +33,4 @@ const FunctionalityIcon: FC<{ name: string } & IFunctionalityIconProps> = ({
 
   return renderIcon();
 };
-export default FunctionalityIcon;
+export default FunctionalityCommonIcon;
