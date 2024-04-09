@@ -64,7 +64,7 @@ const usePdfImagesDownloader = () => {
             );
 
             images?.file(
-              `image-${i + 1}.${toType}`,
+              `image-${i + 1}(MaxAI.me).${toType}`,
               dataURLtoBlob(imageDataUrl),
               {
                 base64: true,
