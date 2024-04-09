@@ -12,7 +12,7 @@ import FunctionalityUploadButton from '@/features/functionality_common/component
 import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
 import useFunctionalityConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
 import usePdfToImageConversion, {
-  IPdfPageImageInfo,
+  IFunctionalityPdfToImageType,
 } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
 import snackNotifications from '@/utils/globalSnackbar';
@@ -35,7 +35,7 @@ export const FunctionalityPdfSplitMain = () => {
   } = usePdfToImageConversion();
   const { changeScale, currentScale } = useFunctionalityChangeScale();
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useFunctionalityConvertedContentSelector<IPdfPageImageInfo>({
+    useFunctionalityConvertedContentSelector<IFunctionalityPdfToImageType>({
       list: convertedPdfImages,
       setList: setConvertedPdfImages,
     });
@@ -90,7 +90,7 @@ export const FunctionalityPdfSplitMain = () => {
       FileSaver.saveAs(content, 'pdfs(MaxAI.me).zip');
     });
   };
-  const getSplitPdfFiles = async (fileList: IPdfPageImageInfo[]) => {
+  const getSplitPdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
     if (activeFile) {
       let pdfUint8ArrayList: Uint8Array[] = [];
       const arrayBuffer = await activeFile.arrayBuffer();
@@ -111,7 +111,7 @@ export const FunctionalityPdfSplitMain = () => {
       return [];
     }
   };
-  const getMergePdfFiles = async (fileList: IPdfPageImageInfo[]) => {
+  const getMergePdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
     try {
       // 创建一个新的 PDF 文档，它将成为最终合并的文档
       const mergedPdfDoc = await PDFDocument.create();

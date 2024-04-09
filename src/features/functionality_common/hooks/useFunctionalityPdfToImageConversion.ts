@@ -7,17 +7,19 @@ import { v4 as uuidV4 } from 'uuid';
 import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityGetPdfFilePageToImage';
 import snackNotifications from '@/utils/globalSnackbar';
 
+import { IFunctionalityPdfInfo } from '../types/functionalityImageType';
+
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
-export interface IPdfPageImageInfo {
-  id: string;
-  imageUrlString: string;
-  isSelect: boolean;
-  definedIndex: number;
-}
+
 export const defaultPdfToImageScale = 1.6
+
+export type IFunctionalityPdfToImageType = IFunctionalityPdfInfo & {
+  definedIndex: number,
+  isSelect: boolean;
+}
 
 /**
  * pdf转图片类型 工具 的hook
@@ -33,10 +35,10 @@ const usePdfToImageConversion = () => {
   const viewDefaultSize = { width: 500, height: 1000 }
   const isCancel = useRef(false);
   const [convertedPdfImages, setConvertedPdfImages] = useState<
-    IPdfPageImageInfo[]
+    IFunctionalityPdfToImageType[]
   >([]);
   const [pdfPageHaveImages, setPdfPageHaveImages] = useState<
-    IPdfPageImageInfo[]
+    IFunctionalityPdfToImageType[]
   >([]);
   const [pdfIsLoading, setPdfIsLoading] = useState<boolean>(false); //是否加载中
 
@@ -101,7 +103,7 @@ const usePdfToImageConversion = () => {
               },
             ]);
             if (toImageData.haveImages) {
-              setPdfPageHaveImages((prev) => [...prev, ...(toImageData.haveImages as IPdfPageImageInfo[])])
+              setPdfPageHaveImages((prev) => [...prev, ...(toImageData.haveImages as IFunctionalityPdfToImageType[])])
             }
           }
 

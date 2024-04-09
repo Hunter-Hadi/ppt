@@ -9,7 +9,7 @@ import { useFunctionalityChangeScale } from '@/features/functionality_common/hoo
 import useFunctionalityConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
 import usePdfToImageConversion, {
   defaultPdfToImageScale,
-  IPdfPageImageInfo,
+  IFunctionalityPdfToImageType,
 } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
@@ -54,7 +54,7 @@ const FunctionalityPdfToImageDetail: FC<
       ? convertedPdfImages
       : pdfPageHaveImages;
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useFunctionalityConvertedContentSelector<IPdfPageImageInfo>({
+    useFunctionalityConvertedContentSelector<IFunctionalityPdfToImageType>({
       list: currentShowImages,
       setList:
         showPdfImagesType === 'pdfPageImages'

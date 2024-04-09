@@ -9,11 +9,16 @@ import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
 import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
-import { IFunctionalityPdfFileInfoProps } from '@/features/functionality_common/types/functionalityInfoType';
+import { IFunctionalityPdfInfo } from '@/features/functionality_common/types/functionalityImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
 import FunctionalityDragSortableImageList from '@/features/functionality_pdf_merge/components/FunctionalityDragSortableImageList';
 import snackNotifications from '@/utils/globalSnackbar';
-
+export type IFunctionalityPdfFileInfoType = IFunctionalityPdfInfo & {
+  name: string;
+  file: File;
+  size: number;
+  pages: number;
+};
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -22,7 +27,7 @@ const FunctionalityPdfMergeMain = () => {
   const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [pdfInfoList, setPdfInfoList] = useState<
-    IFunctionalityPdfFileInfoProps[]
+    IFunctionalityPdfFileInfoType[]
   >([]); //展示的pdf信息 列表
 
   const onUploadFile = async (fileList: FileList) => {
@@ -45,7 +50,7 @@ const FunctionalityPdfMergeMain = () => {
     );
   };
   const getPdfFileInfoList = async (fileList: FileList) => {
-    const fileInfoList: IFunctionalityPdfFileInfoProps[] = [];
+    const fileInfoList: IFunctionalityPdfFileInfoType[] = [];
     for (let i = 0; i < fileList.length; i++) {
       const file = fileList[i];
       const pageInfo = await getFirstPageAsImage(file);

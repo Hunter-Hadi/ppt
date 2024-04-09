@@ -6,10 +6,11 @@ import { FC } from 'react';
 
 import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
 import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
-import { IFunctionalityPdfFileInfoProps } from '@/features/functionality_common/types/functionalityInfoType';
 import FunctionalityPdfMergeIcon from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeIcon';
+
+import { IFunctionalityPdfFileInfoType } from './FunctionalityPdfMergeMain';
 interface IFunctionalitySortableImageProps {
-  imageInfo: IFunctionalityPdfFileInfoProps;
+  imageInfo: IFunctionalityPdfFileInfoType;
   isImageSelect: boolean;
   onDelete: (id: string) => void;
   activeDragId: string | null;

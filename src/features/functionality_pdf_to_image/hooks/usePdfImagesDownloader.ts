@@ -4,8 +4,8 @@ import { useTranslation } from 'next-i18next';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import { IPdfPageImageInfo } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
-import { dataURLtoBlob } from '@/features/functionality_pdf_to_image/utils/pdfTool';
+import { IFunctionalityPdfToImageType } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
+import { dataURLtoBlob } from '@/features/functionality_common/utils/functionalityDataTool';
 import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -24,7 +24,7 @@ const usePdfImagesDownloader = () => {
 
   const onDownloadPdfImagesZip = useCallback(
     async (
-      convertedPdfImages: IPdfPageImageInfo[],
+      convertedPdfImages: IFunctionalityPdfToImageType[],
       toType: string,
       file?: File,
       scale?: number,

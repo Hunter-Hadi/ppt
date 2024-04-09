@@ -1,16 +1,11 @@
 import { Box, Typography } from '@mui/material';
 import { CSSProperties, FC } from 'react';
 
-interface IFunctionalityImageProps {
-  id: string;
-  size?: number;
-  pages?: number;
-  imageUrlString: string;
-  file?: File;
-}
+import { IFunctionalityPdfInfo } from '../types/functionalityImageType';
+
 interface IFunctionalitySortableImageProps {
   name?: string;
-  imageInfo: IFunctionalityImageProps;
+  imageInfo: IFunctionalityPdfInfo;
   isActive?: boolean;
   rightTopChildren?: React.ReactNode;
   onClick?: () => void;
