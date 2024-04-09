@@ -49,7 +49,7 @@ export type TrackUserInteractionRequestType = {
   platform: string;
   language: string[];
   fp: string;
-  client_uuid: string;
+  client_uuid?: string;
   meta: Record<string, any>;
 };
 
@@ -94,6 +94,11 @@ export const trackUserInteraction = debounce(
           ref: getLocalStorage('LANDING_PAGE_REF') ?? '',
         },
       };
+
+      if (!originalData.client_uuid || originalData.client_uuid === '') {
+        delete originalData.client_uuid;
+      }
+
       const info = AES.encrypt(
         JSON.stringify(originalData),
         'MaxAI',
