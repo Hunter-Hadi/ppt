@@ -285,7 +285,7 @@
     "home_page__features_carousel__feature_rewriter__description3": "ఏ భాషకు అనువదించండి",
     "home_page__features_carousel__feature_rewriter__description4": "ధ్వని మరియు శైలిని మార్చండి",
     "home_page__features_carousel__feature_rewriter__description5": "పరాఫ్రేజ్ చేయండి, చిన్న/పొడవైనట్లు చేయండి",
-    "home_page__features_carousel__feature_reply__label": "AI త్వరగా సమాధానం",
+    "home_page__features_carousel__feature_reply__label": "AI తక్షణ సమాధానం",
     "home_page__features_carousel__feature_reply__title": "1 క్లిక్‌లో 10X త్వరగా మీ ఇమెయిల్ & సోషల్ మీడియా సమాధానాలు & డ్రాఫ్ట్‌లను మెరుగుపరచండి.",
     "home_page__features_carousel__feature_reply__description_label": "1-క్లిక్ సమాధానం & డ్రాఫ్ట్ మీద:",
     "home_page__features_carousel__feature_reply__description1": "Gmail, Outlook",
@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "దయచేసి నిర్దిష్టమైన PDF ఫైల్ ను అప్‌లోడ్ చేయండి",
-    "components__pdf_merge__pdf_encryption_tip": "ఎన్క్రిప్షన్ చేయబడింది లేదా అసాధారణంగా ఉంది, PDF ను మరియుంది చేయడం కాదు, విడిపోయింది",
     "components__pdf_merge__add_pdf": "PDF ని జోడించండి",
     "components__pdf_merge__empty_pdf": "PDFs ని తొలగించండి",
     "components__pdf_merge__confirm_merge": "మరియుంది చేయడానికి నిర్ధారించండి",
