@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 import { ceil, divide } from 'lodash-es';
 import { FC } from 'react';
 
-import FunctionalityImage from '@/features/functionality_common/components/FunctionalityCommonImage';
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityPdfMergeIcon from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeIcon';
 
@@ -60,7 +60,7 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
           imageInfo.pages
         } pages`}
       >
-        <FunctionalityImage
+        <FunctionalityCommonImage
           imageInfo={imageInfo}
           isActive={isActiveImage}
           name={imageInfo.name}

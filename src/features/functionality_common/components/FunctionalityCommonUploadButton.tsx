@@ -5,7 +5,7 @@ import React, { FC } from 'react';
 import UploadButton, {
   IUploadButtonProps,
 } from '@/features/common/components/UploadButton';
-import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
 
 /**
  * Functionality公共的上传组件
@@ -34,7 +34,7 @@ const FunctionalityCommonUploadButton: FC<IUploadButtonProps> = (props) => {
       }}
       {...props}
     >
-      <FunctionalityIcon sx={{ fontSize: 34 }} name='CloudUploadIcon' />
+      <FunctionalityCommonIcon sx={{ fontSize: 34 }} name='CloudUploadIcon' />
       <Typography
         sx={{
           fontSize: {

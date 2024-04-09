@@ -8,7 +8,7 @@ import { v4 as uuidV4 } from 'uuid';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
-import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import FunctionalityDragSortableImageList from '@/features/functionality_pdf_merge/components/FunctionalityDragSortableImageList';
@@ -181,7 +181,7 @@ const FunctionalityPdfMergeMain = () => {
       }}
     >
       {isListEmpty && !isLoading && (
-        <FunctionalityUploadButton
+        <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
             multiple: true,

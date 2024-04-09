@@ -1,7 +1,7 @@
 import { Box, Checkbox, Grid } from '@mui/material';
 import { FC } from 'react';
 
-import FunctionalityImage from '@/features/functionality_common/components/FunctionalityCommonImage';
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 
 interface IFunctionalityImageData {
   id: string;
@@ -33,7 +33,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
       }}
     >
       {imageList.map((imageInfo, index) => (
-        <FunctionalityImage
+        <FunctionalityCommonImage
           key={imageInfo.id}
           name={String(index + 1)}
           imageInfo={imageInfo}

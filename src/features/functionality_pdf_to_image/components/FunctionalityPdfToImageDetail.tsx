@@ -3,7 +3,7 @@ import { debounce } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useMemo, useState } from 'react';
 
-import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
 import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
@@ -212,7 +212,7 @@ const FunctionalityPdfToImageDetail: FC<
                 }}
                 onClick={() => changeScale('enlarge')}
               >
-                <FunctionalityIcon
+                <FunctionalityCommonIcon
                   name='ControlPointTwoTone'
                   sx={{
                     color: 'primary.main',
@@ -233,7 +233,7 @@ const FunctionalityPdfToImageDetail: FC<
                 }}
                 onClick={() => changeScale('narrow')}
               >
-                <FunctionalityIcon
+                <FunctionalityCommonIcon
                   name='RemoveCircleTwoTone'
                   sx={{
                     color: 'primary.main',

@@ -5,10 +5,10 @@ import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
 import React, { useState } from 'react';
 
-import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
-import FunctionalityImage from '@/features/functionality_common/components/FunctionalityCommonImage';
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
-import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
 import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
 import useFunctionalityCommonPdfToImageConversion, {
@@ -163,7 +163,7 @@ export const FunctionalityPdfSplitMain = () => {
       }}
     >
       {!currentIsLoading && convertedPdfImages.length === 0 && (
-        <FunctionalityUploadButton
+        <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
           }}
@@ -228,7 +228,7 @@ export const FunctionalityPdfSplitMain = () => {
                   }}
                   onClick={() => changeScale('enlarge')}
                 >
-                  <FunctionalityIcon
+                  <FunctionalityCommonIcon
                     name='ControlPointTwoTone'
                     sx={{
                       color: 'primary.main',
@@ -249,7 +249,7 @@ export const FunctionalityPdfSplitMain = () => {
                   }}
                   onClick={() => changeScale('narrow')}
                 >
-                  <FunctionalityIcon
+                  <FunctionalityCommonIcon
                     name='RemoveCircleTwoTone'
                     sx={{
                       color: 'primary.main',
@@ -298,7 +298,7 @@ export const FunctionalityPdfSplitMain = () => {
         >
           {!currentIsLoading &&
             convertedPdfImages.map((imageInfo, index) => (
-              <FunctionalityImage
+              <FunctionalityCommonImage
                 key={imageInfo.id}
                 name={String(index + 1)}
                 imageInfo={imageInfo}
