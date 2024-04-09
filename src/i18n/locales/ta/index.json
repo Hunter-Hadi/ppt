@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
-    "components__pdf_merge__pdf_encryption_tip": "என்கிரிப்டாக்கப்பட்டது அல்லது அஸ்தமானமானது, பிடிப்புகளை ஒன்றிணைத்துக்கொள்ள முடியாது, தவிர்க்கப்பட்டது",
     "components__pdf_merge__add_pdf": "PDF ஐச் சேர்க்கவும்",
     "components__pdf_merge__empty_pdf": "PDF காலியாக்கவும்",
     "components__pdf_merge__confirm_merge": "ஒன்றிணைத்துக்கொள்ள உறுதிப்படுத்தவும்",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "இந்த பி.டி.எப்பை நீக்கி புதியதைத் தேர்வு செய்க",
     "components__pdf_split__button__download__tooltip": "பி.டி.எப்பை பிரித்து பதிவிறக்கவும்",
     "components__pdf_split__button__cancel__tooltip": "தற்போதைய முன்னோட்டத்தை ரத்து செய்க"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "மறுக்கப்பட்டது அல்லது அஸ்திரமானது, பிடிபி செயல்படுத்த முடியாது, தவிர்க்கப்பட்டது"
   }
 }

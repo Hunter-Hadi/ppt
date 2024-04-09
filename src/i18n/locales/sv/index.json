@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
-    "components__pdf_merge__pdf_encryption_tip": "är krypterad eller onormal, kan inte slå samman PDF:er, hoppades över",
     "components__pdf_merge__add_pdf": "Lägg till PDF",
     "components__pdf_merge__empty_pdf": "Rensa PDF:er",
     "components__pdf_merge__confirm_merge": "Bekräfta sammanfogning",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Ta bort denna PDF och välj en ny",
     "components__pdf_split__button__download__tooltip": "Dela upp och ladda ner PDF",
     "components__pdf_split__button__cancel__tooltip": "Avbryt aktuell framsteg"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "är krypterad eller onormal, kan inte manipulera PDF:en, hoppades över"
   }
 }

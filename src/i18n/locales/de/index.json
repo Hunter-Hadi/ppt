@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
-    "components__pdf_merge__pdf_encryption_tip": "ist verschlüsselt oder abnorm, kann das PDF nicht zusammenführen, übersprungen",
     "components__pdf_merge__add_pdf": "PDF hinzufügen",
     "components__pdf_merge__empty_pdf": "PDFs leeren",
     "components__pdf_merge__confirm_merge": "Bestätigen Sie das Zusammenführen",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Dieses PDF entfernen und ein neues auswählen",
     "components__pdf_split__button__download__tooltip": "PDF aufteilen und herunterladen",
     "components__pdf_split__button__cancel__tooltip": "Aktuellen Vorgang abbrechen"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "ist verschlüsselt oder fehlerhaft, kann das PDF nicht bearbeiten, übersprungen"
   }
 }

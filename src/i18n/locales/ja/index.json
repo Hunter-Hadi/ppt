@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
-    "components__pdf_merge__pdf_encryption_tip": "暗号化または異常な状態のため、PDFをマージできません。スキップされました",
     "components__pdf_merge__add_pdf": "PDFを追加",
     "components__pdf_merge__empty_pdf": "PDFをクリア",
     "components__pdf_merge__confirm_merge": "マージを確認",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "このPDFを削除し、新しいものを選択",
     "components__pdf_split__button__download__tooltip": "PDFを分割してダウンロード",
     "components__pdf_split__button__cancel__tooltip": "現在の進行状況をキャンセル"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました"
   }
 }

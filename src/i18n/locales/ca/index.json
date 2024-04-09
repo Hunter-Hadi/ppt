@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
-    "components__pdf_merge__pdf_encryption_tip": "està encriptat o és anormal, no es pot fusionar el PDF, saltat",
     "components__pdf_merge__add_pdf": "Afegiu PDF",
     "components__pdf_merge__empty_pdf": "Netegeu els PDFs",
     "components__pdf_merge__confirm_merge": "Confirmeu la fusió",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Elimina aquest PDF i selecciona'n un de nou",
     "components__pdf_split__button__download__tooltip": "Separa i descarrega el PDF",
     "components__pdf_split__button__cancel__tooltip": "Cancel·la el progrés actual"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "està encriptat o és anormal, no es pot manipular el PDF, saltat"
   }
 }

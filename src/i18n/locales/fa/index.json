@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
-    "components__pdf_merge__pdf_encryption_tip": "رمزگذاری شده یا غیرطبیعی است، امکان ادغام PDF وجود ندارد، صرف نظر شد",
     "components__pdf_merge__add_pdf": "افزودن PDF",
     "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
     "components__pdf_merge__confirm_merge": "تأیید ادغام",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "حذف این PDF و انتخاب یکی جدید",
     "components__pdf_split__button__download__tooltip": "تقسیم و دانلود PDF",
     "components__pdf_split__button__cancel__tooltip": "لغو پیشرفت فعلی"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد"
   }
 }

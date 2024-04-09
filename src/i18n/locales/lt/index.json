@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
-    "components__pdf_merge__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima sujungti PDF, praleistas",
     "components__pdf_merge__add_pdf": "Pridėti PDF",
     "components__pdf_merge__empty_pdf": "Išvalyti PDF",
     "components__pdf_merge__confirm_merge": "Patvirtinti sujungimą",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Pašalinti šį PDF ir pasirinkti naują",
     "components__pdf_split__button__download__tooltip": "Padalinti ir atsisiųsti PDF",
     "components__pdf_split__button__cancel__tooltip": "Atšaukti dabartinę pažangą"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima manipuliuoti PDF, praleistas"
   }
 }

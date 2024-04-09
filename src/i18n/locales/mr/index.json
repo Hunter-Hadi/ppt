@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
-    "components__pdf_merge__pdf_encryption_tip": "एन्क्रिप्शन केलेले किंवा असामान्य आहे, पीडीएफ संयोजन करण्यास अक्षम, वगळले",
     "components__pdf_merge__add_pdf": "पीडीएफ जोडा",
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ करा",
     "components__pdf_merge__confirm_merge": "संयोजन करण्यासाठी पुष्टी करा",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "हे PDF काढून नवीन निवडा",
     "components__pdf_split__button__download__tooltip": "विभाजित करा आणि PDF डाउनलोड करा",
     "components__pdf_split__button__cancel__tooltip": "सध्याचे प्रगती रद्द करा"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "एन्क्रिप्टेड असलेले किंवा असामान्य असलेले PDF, पीडीएफ संपादित करण्यास अक्षम, वगळले"
   }
 }

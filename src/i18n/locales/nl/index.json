@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
-    "components__pdf_merge__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet samenvoegen, overgeslagen",
     "components__pdf_merge__add_pdf": "PDF toevoegen",
     "components__pdf_merge__empty_pdf": "PDF's wissen",
     "components__pdf_merge__confirm_merge": "Bevestig samenvoegen",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Verwijder deze PDF en selecteer een nieuwe",
     "components__pdf_split__button__download__tooltip": "Opsplitsen en PDF downloaden",
     "components__pdf_split__button__cancel__tooltip": "Huidige voortgang annuleren"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet manipuleren, overgeslagen"
   }
 }

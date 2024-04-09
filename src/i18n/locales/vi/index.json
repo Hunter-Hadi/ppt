@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
-    "components__pdf_merge__pdf_encryption_tip": "được mã hóa hoặc bất thường, không thể gộp PDF, bỏ qua",
     "components__pdf_merge__add_pdf": "Thêm PDF",
     "components__pdf_merge__empty_pdf": "Xóa PDF",
     "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Xóa PDF này và chọn một PDF mới",
     "components__pdf_split__button__download__tooltip": "Tách và tải xuống PDF",
     "components__pdf_split__button__cancel__tooltip": "Hủy tiến trình hiện tại"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "đã được mã hóa hoặc không bình thường, không thể thao tác với PDF, đã bỏ qua"
   }
 }

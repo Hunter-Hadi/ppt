@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
-    "components__pdf_merge__pdf_encryption_tip": "imefichwa au ni isiyo ya kawaida, haiwezi kuunganisha PDF, imepita",
     "components__pdf_merge__add_pdf": "Ongeza PDF",
     "components__pdf_merge__empty_pdf": "Futa PDFs",
     "components__pdf_merge__confirm_merge": "Thibitisha kuunganisha",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Ondoa PDF hii na chagua nyingine",
     "components__pdf_split__button__download__tooltip": "Gawanya na pakua PDF",
     "components__pdf_split__button__cancel__tooltip": "Ghairi maendeleo ya sasa"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "imefichwa au ni batili, haiwezekani kubadilisha PDF, imepuuzwa"
   }
 }

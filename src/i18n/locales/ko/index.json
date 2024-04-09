@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
-    "components__pdf_merge__pdf_encryption_tip": "암호화되었거나 비정상적인 PDF이므로 병합할 수 없으며 건너뜁니다",
     "components__pdf_merge__add_pdf": "PDF 추가",
     "components__pdf_merge__empty_pdf": "PDF 지우기",
     "components__pdf_merge__confirm_merge": "병합 확인",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "이 PDF 제거하고 새로운 파일 선택",
     "components__pdf_split__button__download__tooltip": "PDF 분할 및 다운로드",
     "components__pdf_split__button__cancel__tooltip": "현재 진행 상태 취소"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "암호화되었거나 비정상적이어서 PDF를 조작할 수 없습니다. 건너뛰었습니다."
   }
 }

@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
-    "components__pdf_merge__pdf_encryption_tip": "este criptat sau anormal, nu se poate realiza fuzionarea PDF-ului, s-a trecut peste",
     "components__pdf_merge__add_pdf": "Adăugați PDF",
     "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
     "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Eliminați acest PDF și selectați unul nou",
     "components__pdf_split__button__download__tooltip": "Divizați și descărcați PDF",
     "components__pdf_split__button__cancel__tooltip": "Anulați progresul curent"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "este criptat sau anormal, nu se poate manipula PDF-ul, s-a trecut peste"
   }
 }

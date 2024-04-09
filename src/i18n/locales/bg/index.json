@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
-    "components__pdf_merge__pdf_encryption_tip": "е криптиран или аномален, не може да се обедини PDF, пропуснат",
     "components__pdf_merge__add_pdf": "Добави PDF",
     "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
     "components__pdf_merge__confirm_merge": "Потвърди обединяването",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Премахнете този PDF и изберете нов",
     "components__pdf_split__button__download__tooltip": "Разделете и изтеглете PDF",
     "components__pdf_split__button__cancel__tooltip": "Отказ на текущия прогрес"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат"
   }
 }

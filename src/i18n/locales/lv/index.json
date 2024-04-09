@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
-    "components__pdf_merge__pdf_encryption_tip": "ir šifrēts vai neregulārs, nevar apvienot PDF, izlaidis",
     "components__pdf_merge__add_pdf": "Pievienot PDF",
     "components__pdf_merge__empty_pdf": "Notīrīt PDF",
     "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Noņemt šo PDF un izvēlēties jaunu",
     "components__pdf_split__button__download__tooltip": "Sadalīt un lejupielādēt PDF",
     "components__pdf_split__button__cancel__tooltip": "Atcelt pašreizējo progresu"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists"
   }
 }

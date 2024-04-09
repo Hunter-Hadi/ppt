@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
-    "components__pdf_merge__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, ei saa PDF-i ühendada, jäetakse vahele",
     "components__pdf_merge__add_pdf": "Lisa PDF",
     "components__pdf_merge__empty_pdf": "Tühjenda PDF-id",
     "components__pdf_merge__confirm_merge": "Kinnita ühendamine",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Eemalda see PDF ja vali uus",
     "components__pdf_split__button__download__tooltip": "Jaga ja laadi PDF alla",
     "components__pdf_split__button__cancel__tooltip": "Tühista praegune protsess"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele"
   }
 }

@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
-    "components__pdf_merge__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على دمج ملف PDF، تم تخطيه",
     "components__pdf_merge__add_pdf": "إضافة PDF",
     "components__pdf_merge__empty_pdf": "مسح PDFs",
     "components__pdf_merge__confirm_merge": "تأكيد الدمج",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "إزالة هذا الملف PDF وتحديد ملف جديد",
     "components__pdf_split__button__download__tooltip": "تقسيم وتنزيل ملف PDF",
     "components__pdf_split__button__cancel__tooltip": "إلغاء التقدم الحالي"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على التلاعب بملف PDF، تم تخطيها"
   }
 }

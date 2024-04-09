@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
-    "components__pdf_merge__pdf_encryption_tip": "je šifrovan ili nepravilan, nemoguće spojiti PDF, preskočeno",
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
     "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Ukloni ovaj PDF i izaberi novi",
     "components__pdf_split__button__download__tooltip": "Razdvoji i preuzmi PDF",
     "components__pdf_split__button__cancel__tooltip": "Otkaži trenutni postupak"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "je šifrovan ili nepravilan, nemoguće manipulisati PDF-om, preskočeno"
   }
 }

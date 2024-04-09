@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "অনুগ্রহ করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
-    "components__pdf_merge__pdf_encryption_tip": "এনক্রিপ্ট বা অস্বাভাবিক পিডিএফ, পিডিএফ মার্জ করতে অক্ষম, এটি এড়িয়ে দেওয়া হয়েছে",
     "components__pdf_merge__add_pdf": "পিডিএফ যোগ করুন",
     "components__pdf_merge__empty_pdf": "পিডিএফ সাফ করুন",
     "components__pdf_merge__confirm_merge": "মার্জ করতে নিশ্চিত করুন",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "এই পিডিএফ মুছে ফেলুন এবং নতুনটি নির্বাচন করুন",
     "components__pdf_split__button__download__tooltip": "পিডিএফ ভাগ করে ডাউনলোড করুন",
     "components__pdf_split__button__cancel__tooltip": "বর্তমান অগ্রগতি বাতিল করুন"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "এনক্রিপ্ট বা অস্বাভাবিক, পিডিএফ সংশোধন করতে অক্ষম, এই পাস করা হয়েছে"
   }
 }

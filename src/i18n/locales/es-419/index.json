@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
-    "components__pdf_merge__pdf_encryption_tip": "está encriptado o es anormal, no se puede fusionar el PDF, omitido",
     "components__pdf_merge__add_pdf": "Agregar PDF",
     "components__pdf_merge__empty_pdf": "Limpiar PDFs",
     "components__pdf_merge__confirm_merge": "Confirmar fusión",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Eliminar este PDF y seleccionar uno nuevo",
     "components__pdf_split__button__download__tooltip": "Dividir y descargar PDF",
     "components__pdf_split__button__cancel__tooltip": "Cancelar progreso actual"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "está encriptado o es anormal, no se puede manipular el PDF, omitido"
   }
 }

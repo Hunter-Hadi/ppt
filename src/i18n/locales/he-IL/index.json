@@ -665,7 +665,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
-    "components__pdf_merge__pdf_encryption_tip": "מוצפן או לא תקין, אין אפשרות למזג את ה- PDF, דילג",
     "components__pdf_merge__add_pdf": "הוסף PDF",
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
@@ -690,5 +689,8 @@
     "components__pdf_split__button__remove__tooltip": "הסר את קובץ ה-PDF הזה ובחר חדש",
     "components__pdf_split__button__download__tooltip": "פיצול והורדת PDF",
     "components__pdf_split__button__cancel__tooltip": "בטל את התהליך הנוכחי"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לעבוד עם ה- PDF, דילג"
   }
 }

@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
-    "components__pdf_merge__pdf_encryption_tip": "加密或異常，無法合併PDF，已跳過",
     "components__pdf_merge__add_pdf": "添加PDF",
     "components__pdf_merge__empty_pdf": "清除PDF",
     "components__pdf_merge__confirm_merge": "確認合併",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "移除此 PDF 並選擇新的",
     "components__pdf_split__button__download__tooltip": "拆分並下載 PDF",
     "components__pdf_split__button__cancel__tooltip": "取消當前進度"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "已加密或異常，無法操作PDF，跳過"
   }
 }

@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-    "components__pdf_merge__pdf_encryption_tip": "ಪಿಡಿಎಫ್ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಆಗಿದೆ ಅಥವಾ ಅಸಾಮಾನ್ಯವಾಗಿದೆ, ಪಿಡಿಎಫ್ ಮರುಹೊಂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಬಿಡಿಸಲಾಗಿದೆ",
     "components__pdf_merge__add_pdf": "ಪಿಡಿಎಫ್ ಸೇರಿಸಿ",
     "components__pdf_merge__empty_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__confirm_merge": "ಮರುಹೊಂದಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿ",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "ಈ ಪಿಡಿಎಫ್ ತೆರವುಗೊಳಿಸಿ ಮತ್ತೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ",
     "components__pdf_split__button__download__tooltip": "ಪಿಡಿಎಫ್ ವಿಭಜನೆ ಮಾಡಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_split__button__cancel__tooltip": "ಪ್ರಸ್ತುತ ಪ್ರಗತಿಯನ್ನು ರದ್ದುಮಾಡಿ"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "ಪಿಡಿಎಫ್ ಎನ್ಕ್ರಿಪ್ಷನ್ ಮಾಡಲಾಗಿದೆ ಅಥವಾ ಅಸಾಮಾನ್ಯ, ಪಿಡಿಎಫ್ ಮಾರ್ಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಹಾಗೂ ಹಾಲಿಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
   }
 }

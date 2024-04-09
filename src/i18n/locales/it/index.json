@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
-    "components__pdf_merge__pdf_encryption_tip": "è crittografato o anomalo, impossibile unire il PDF, saltato",
     "components__pdf_merge__add_pdf": "Aggiungi PDF",
     "components__pdf_merge__empty_pdf": "Svuota PDF",
     "components__pdf_merge__confirm_merge": "Conferma per unire",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Rimuovi questo PDF e seleziona uno nuovo",
     "components__pdf_split__button__download__tooltip": "Dividi e scarica PDF",
     "components__pdf_split__button__cancel__tooltip": "Annulla progresso corrente"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "è crittografato o anomalo, impossibile manipolare il PDF, saltato"
   }
 }

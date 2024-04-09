@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
-    "components__pdf_merge__pdf_encryption_tip": "terenkripsi atau tidak normal, tidak dapat menggabungkan PDF, dilewati",
     "components__pdf_merge__add_pdf": "Tambahkan PDF",
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Konfirmasi penggabungan",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Hapus PDF ini dan pilih yang baru",
     "components__pdf_split__button__download__tooltip": "Pisahkan dan unduh PDF",
     "components__pdf_split__button__cancel__tooltip": "Batalkan proses saat ini"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "terenkripsi atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
   }
 }

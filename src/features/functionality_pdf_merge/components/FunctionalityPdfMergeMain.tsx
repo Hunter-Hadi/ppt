@@ -42,7 +42,7 @@ const FunctionalityPdfMergeMain = () => {
   const handleUnsupportedFileTypeTip = () => {
     snackNotifications.warning(
       t(
-        'functionality__pdf_merge:components__pdf_merge__unsupported_file_type_tip', //TODO:需更更改。
+        'functionality__pdf_merge:components__pdf_merge__unsupported_file_type_tip',
       ),
       {
         anchorOrigin: {

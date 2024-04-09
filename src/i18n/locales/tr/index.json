@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
-    "components__pdf_merge__pdf_encryption_tip": "şifreli veya anormal olduğu için PDF birleştirme işlemi yapılamıyor, atlandı",
     "components__pdf_merge__add_pdf": "PDF Ekle",
     "components__pdf_merge__empty_pdf": "PDF'leri Temizle",
     "components__pdf_merge__confirm_merge": "Birleştirmeyi Onayla",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Bu PDF'yi kaldır ve yeni bir tane seç",
     "components__pdf_split__button__download__tooltip": "PDF'yi böl ve indir",
     "components__pdf_split__button__cancel__tooltip": "Geçerli işlemi iptal et"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "şifreli veya anormal, PDF'yi manipüle edemiyor, atlandı"
   }
 }

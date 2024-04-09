@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
-    "components__pdf_merge__pdf_encryption_tip": "зашифрований або ненормальний, не можна об'єднати PDF, пропущено",
     "components__pdf_merge__add_pdf": "Додати PDF",
     "components__pdf_merge__empty_pdf": "Очистити PDF",
     "components__pdf_merge__confirm_merge": "Підтвердити об'єднання",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Видалити цей PDF та вибрати новий",
     "components__pdf_split__button__download__tooltip": "Розділити та завантажити PDF",
     "components__pdf_split__button__cancel__tooltip": "Скасувати поточний прогрес"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "зашифровано або ненормальне, не можна обробити PDF, пропущено"
   }
 }

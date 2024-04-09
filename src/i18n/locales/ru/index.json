@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
-    "components__pdf_merge__pdf_encryption_tip": "зашифрован или содержит ошибки, невозможно объединить PDF, пропущено",
     "components__pdf_merge__add_pdf": "Добавить PDF",
     "components__pdf_merge__empty_pdf": "Очистить PDF",
     "components__pdf_merge__confirm_merge": "Подтвердить объединение",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Удалить этот PDF и выбрать новый",
     "components__pdf_split__button__download__tooltip": "Разделить и скачать PDF",
     "components__pdf_split__button__cancel__tooltip": "Отменить текущий прогресс"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "зашифровано или некорректно, невозможно обработать PDF, пропущено"
   }
 }

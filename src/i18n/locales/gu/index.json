@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
-    "components__pdf_merge__pdf_encryption_tip": "એન્ક્રિપ્શન કરવામાં આવેલ છે અથવા અસામાન્ય છે, PDF જોડવામાં અસમર્થ, છોડી દીધું",
     "components__pdf_merge__add_pdf": "PDF ઉમેરો",
     "components__pdf_merge__empty_pdf": "PDF ખાલી કરો",
     "components__pdf_merge__confirm_merge": "જોડવાની પુષ્ટિ કરો",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "આ પીડીએફ કાઢી નવી પસંદ કરો",
     "components__pdf_split__button__download__tooltip": "પીડીએફ સ્પ્લિટ કરો અને ડાઉનલોડ કરો",
     "components__pdf_split__button__cancel__tooltip": "વર્તમાન પ્રગતિ રદ કરો"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "એન્ક્રિપ્ટ થયેલ છે અથવા અસામાન્ય છે, PDF ને સુધારવામાં અસમર્થ, છોડી દીધું"
   }
 }

@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
-    "components__pdf_merge__pdf_encryption_tip": "er krypteret eller unormal, kan ikke sammenføje PDF'en, sprunget over",
     "components__pdf_merge__add_pdf": "Tilføj PDF",
     "components__pdf_merge__empty_pdf": "Ryd PDF'er",
     "components__pdf_merge__confirm_merge": "Bekræft sammenføjning",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Fjern denne PDF og vælg en ny",
     "components__pdf_split__button__download__tooltip": "Opdel og download PDF",
     "components__pdf_split__button__cancel__tooltip": "Annuller nuværende fremskridt"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "er krypteret eller unormal, kan ikke manipulere PDF'en, sprunget over"
   }
 }

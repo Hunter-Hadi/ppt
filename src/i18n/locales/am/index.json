@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "እባክዎ የተጠቃሚውን PDF ፋይል አስገቡ",
-    "components__pdf_merge__pdf_encryption_tip": "የ PDF ፋይል መሰረት ያለው ማሳያ ወይም አዲስ ነገር አልተሳካም, PDF አጽዳፍን አልተሳካም",
     "components__pdf_merge__add_pdf": "PDF ጨምር",
     "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
     "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "ይጠፋል የPDF እና ነጥብ ማስወገጃ ይሰርዝ",
     "components__pdf_split__button__download__tooltip": "አጠቃላይ እና የPDF አጽዳፊዎች",
     "components__pdf_split__button__cancel__tooltip": "የሚጠብቁ ክፍሎችን ይተውል"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው"
   }
 }

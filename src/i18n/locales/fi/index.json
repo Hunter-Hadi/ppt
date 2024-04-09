@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
-    "components__pdf_merge__pdf_encryption_tip": "on salattu tai poikkeava, ei voi yhdistää PDF:ää, ohitettu",
     "components__pdf_merge__add_pdf": "Lisää PDF",
     "components__pdf_merge__empty_pdf": "Tyhjennä PDF:t",
     "components__pdf_merge__confirm_merge": "Vahvista yhdistäminen",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Poista tämä PDF ja valitse uusi",
     "components__pdf_split__button__download__tooltip": "Jaa ja lataa PDF",
     "components__pdf_split__button__cancel__tooltip": "Peruuta nykyinen edistyminen"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "on salattu tai poikkeava, PDF-tiedostoa ei voi käsitellä, ohitettu"
   }
 }

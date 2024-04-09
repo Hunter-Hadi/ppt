@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "مخصوص شدہ پی ڈی ایف فائل کو اپ لوڈ کریں",
-    "components__pdf_merge__pdf_encryption_tip": "پی ڈی ایف محفوظ یا غیر معمولی ہے، پی ڈی ایف کو مرج کرنا ممکن نہیں ہے، چھوڑ دیا گیا",
     "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",
     "components__pdf_merge__empty_pdf": "پی ڈی ایف صاف کریں",
     "components__pdf_merge__confirm_merge": "مرج کرنے کی تصدیق کریں",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "اس PDF کو ہٹائیں اور نیا منتخب کریں",
     "components__pdf_split__button__download__tooltip": "PDF کو تقسیم کریں اور ڈاؤن لوڈ کریں",
     "components__pdf_split__button__cancel__tooltip": "موجودہ پیش رفت منسوخ کریں"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "PDF محفوظ ہے یا غیر معمولی ہے، پی ڈی ایف کو ترتیب نہیں دیا جاسکتا، چھوڑ دیا گیا"
   }
 }

@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
-    "components__pdf_merge__pdf_encryption_tip": "je zašifrovaný alebo neobvyklý, nie je možné spojiť PDF, preskočené",
     "components__pdf_merge__add_pdf": "Pridať PDF",
     "components__pdf_merge__empty_pdf": "Vyčistiť PDF",
     "components__pdf_merge__confirm_merge": "Potvrdiť zlúčenie",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Odstrániť toto PDF a vybrať nové",
     "components__pdf_split__button__download__tooltip": "Rozdeliť a stiahnuť PDF",
     "components__pdf_split__button__cancel__tooltip": "Zrušiť aktuálny postup"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "je zašifrovaný alebo neobvyklý, nie je možné manipulovať s PDF, preskočené"
   }
 }

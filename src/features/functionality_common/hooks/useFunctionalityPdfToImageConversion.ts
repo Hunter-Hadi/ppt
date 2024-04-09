@@ -115,7 +115,7 @@ const usePdfToImageConversion = () => {
       } catch (error) {
         snackNotifications.warning(
           `${file.name} ${t(
-            'functionality__pdf_merge:components__pdf_merge__pdf_encryption_tip',
+            'functionality__common:components__common__pdf_encryption_tip',
           )}`,
           {
             anchorOrigin: {

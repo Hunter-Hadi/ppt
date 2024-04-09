@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
-    "components__pdf_merge__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถรวม PDF ได้ ข้าม",
     "components__pdf_merge__add_pdf": "เพิ่ม PDF",
     "components__pdf_merge__empty_pdf": "ล้าง PDF",
     "components__pdf_merge__confirm_merge": "ยืนยันการรวม",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "ลบ PDF นี้และเลือกใหม่",
     "components__pdf_split__button__download__tooltip": "แยกและดาวน์โหลด PDF",
     "components__pdf_split__button__cancel__tooltip": "ยกเลิกความคืบหน้าปัจจุบัน"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถจัดการไฟล์ PDF ได้ ข้าม"
   }
 }

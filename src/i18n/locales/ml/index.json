@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "ദയവായി നിർദ്ദേശിച്ച PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
-    "components__pdf_merge__pdf_encryption_tip": "എൻക്രിപ്ഷൻ ചെയ്തിട്ടുള്ളതാണ് അല്ലെങ്കിൽ അസാധാരണമാണ്, PDF ഒരുക്കാൻ കഴിയില്ല, അവസാനിപ്പിക്കുന്നു",
     "components__pdf_merge__add_pdf": "PDF ചേർക്കുക",
     "components__pdf_merge__empty_pdf": "PDF മായ്ക്കുക",
     "components__pdf_merge__confirm_merge": "ഒരുപാട് ചേർക്കാൻ സ്ഥിരീകരിക്കുക",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "ഈ പിഡിഎഫ് നീക്കം ചെയ്യുകയും പുതിയത് തിരഞ്ഞെടുക്കുക",
     "components__pdf_split__button__download__tooltip": "പിഡിഎഫ് വിഭജിക്കുകയും ഡൗൺലോഡ് ചെയ്യുക",
     "components__pdf_split__button__cancel__tooltip": "നിലവിൽ ഉള്ള പ്രോഗ്രസ്സ് റദ്ദാക്കുക"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "എൻക്രിപ്റ്റ് ചെയ്തിട്ടുള്ളതാണ് അല്ലെങ്കിൽ അസാധാരണമാണ്, PDF പ്രവർത്തനം ചെയ്യാൻ കഴിയില്ല, അവസാനിപ്പിച്ചു"
   }
 }

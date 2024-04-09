@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
-    "components__pdf_merge__pdf_encryption_tip": "jest zaszyfrowany lub nieprawidłowy, nie można połączyć pliku PDF, pominięto",
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Wyczyść PDF-y",
     "components__pdf_merge__confirm_merge": "Potwierdź scalenie",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Usuń ten plik PDF i wybierz nowy",
     "components__pdf_split__button__download__tooltip": "Podziel i pobierz PDF",
     "components__pdf_split__button__cancel__tooltip": "Anuluj bieżący postęp"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "jest zaszyfrowany lub nieprawidłowy, nie można manipulować plikiem PDF, pominięto"
   }
 }

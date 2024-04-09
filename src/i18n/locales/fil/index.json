@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
-    "components__pdf_merge__pdf_encryption_tip": "ay naka-encrypt o hindi normal, hindi maaring i-merge ang PDF, iniskip",
     "components__pdf_merge__add_pdf": "Magdagdag ng PDF",
     "components__pdf_merge__empty_pdf": "Burahin ang mga PDF",
     "components__pdf_merge__confirm_merge": "Kumpirmahin ang pag-merge",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Tanggalin ang PDF na ito at pumili ng bago",
     "components__pdf_split__button__download__tooltip": "Hatian at i-download ang PDF",
     "components__pdf_split__button__cancel__tooltip": "Ihinto ang kasalukuyang progreso"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip"
   }
 }

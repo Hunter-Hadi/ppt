@@ -666,7 +666,6 @@
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
-    "components__pdf_merge__pdf_encryption_tip": "titkosított vagy rendellenes, nem lehet összevonni a PDF-t, kihagyva",
     "components__pdf_merge__add_pdf": "PDF hozzáadása",
     "components__pdf_merge__empty_pdf": "PDF-ek törlése",
     "components__pdf_merge__confirm_merge": "Összevonás megerősítése",
@@ -691,5 +690,8 @@
     "components__pdf_split__button__remove__tooltip": "Ez a PDF eltávolítása és új kiválasztása",
     "components__pdf_split__button__download__tooltip": "PDF szétválasztása és letöltése",
     "components__pdf_split__button__cancel__tooltip": "Aktuális folyamat megszakítása"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "titkosított vagy rendellenes, a PDF manipulálása nem lehetséges, kihagyva"
   }
 }
