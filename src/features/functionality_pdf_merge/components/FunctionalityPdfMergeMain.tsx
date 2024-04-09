@@ -10,7 +10,7 @@ import UploadButton from '@/features/common/components/UploadButton';
 import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
-import FunctionalityImageList from '@/features/functionality_pdf_merge/components/FunctionalityImageList';
+import FunctionalityDragSortableImageList from '@/features/functionality_pdf_merge/components/FunctionalityDragSortableImageList';
 import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -26,12 +26,12 @@ export interface IFunctionalityPdfInfoProps {
   file: File;
 }
 
-const FunctionalityPdfMerge = () => {
+const FunctionalityPdfMergeMain = () => {
   const { t } = useTranslation();
   const [idLoading, setIsLoading] = useState<boolean>(false);
   const [pdfInfoList, setPdfInfoList] = useState<IFunctionalityPdfInfoProps[]>(
     [],
-  );
+  ); //展示的pdf信息 列表
 
   const onUploadFile = async (fileList: FileList) => {
     setIsLoading(true);
@@ -71,14 +71,17 @@ const FunctionalityPdfMerge = () => {
     }
     return fileInfoList;
   };
+  /**
+   * 获取pdf的第一页作为图片
+   */
   async function getFirstPageAsImage(
     file: File,
   ): Promise<{ image: string; pages: number } | null> {
     try {
       const buff = await file.arrayBuffer();
       await PDFDocument.load(buff); //load来判断pdf是否加密或者无法提取，异常则进入catch
+      //TODO PDFDocument.load(buff)感觉会浪费性能，但是目前没有找到更好的方法
 
-      // 将当前 PDF 文档的所有页面复制到合并后的 PDF 文档中
       const loadingTask = pdfjs.getDocument(buff);
       const pdfDocument = await loadingTask.promise;
       const pages = pdfDocument._pdfInfo.numPages;
@@ -242,25 +245,28 @@ const FunctionalityPdfMerge = () => {
           </Grid>
         </Grid>
       )}
-      <Box
-        sx={{
-          width: '100%',
-          position: 'relative',
-        }}
-      >
-        {!isListEmpty && (
-          <FunctionalityImageList
-            imageList={pdfInfoList}
-            onDelete={onDeletePdf}
-            isShowOperate={!idLoading}
-            isImageSelect={true}
-            updateImageList={(list) => setPdfInfoList(list)}
-          />
-        )}
-        {idLoading && (
-          <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />
-        )}
-      </Box>
+      {(!isListEmpty || idLoading) && (
+        <Box
+          sx={{
+            width: '100%',
+            position: 'relative',
+            minHeight: 200,
+          }}
+        >
+          {!isListEmpty && (
+            <FunctionalityDragSortableImageList
+              imageList={pdfInfoList}
+              onDelete={onDeletePdf}
+              isShowOperate={!idLoading}
+              isImageSelect={true}
+              updateImageList={(list) => setPdfInfoList(list)}
+            />
+          )}
+          {idLoading && (
+            <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />
+          )}
+        </Box>
+      )}
 
       {!isListEmpty && (
         <Grid
@@ -294,4 +300,4 @@ const FunctionalityPdfMerge = () => {
     </Box>
   );
 };
-export default FunctionalityPdfMerge;
+export default FunctionalityPdfMergeMain;

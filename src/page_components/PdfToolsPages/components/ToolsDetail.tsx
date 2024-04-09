@@ -11,22 +11,22 @@ import {
   toolsObjectData,
 } from '@/page_components/PdfToolsPages/constant';
 
-const FunctionalityPdfToImage = lazy(
+const FunctionalityPdfToImageMain = lazy(
   () =>
     import(
-      '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImage'
+      '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImageMain'
     ),
 );
-const FunctionalityPdfMerge = lazy(
+const FunctionalityPdfMergeMain = lazy(
   () =>
     import(
-      '@/features/functionality_pdf_merge/components/FunctionalityPdfMerge'
+      '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeMain'
     ),
 );
-const FunctionalityPdfSplit = lazy(
+const FunctionalityPdfSplitMain = lazy(
   () =>
     import(
-      '@/features/functionality_pdf_split/components/FunctionalityPdfSplit'
+      '@/features/functionality_pdf_split/components/FunctionalityPdfSplitMain'
     ),
 );
 interface IToolsDetailProps {
@@ -81,17 +81,17 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
         />
         {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
           <Suspense fallback={<AppLoadingLayout loading />}>
-            <FunctionalityPdfToImage toType={urlKey} />
+            <FunctionalityPdfToImageMain toType={urlKey} />
           </Suspense>
         )}
         {urlKey === 'merge-pdf' && (
           <Suspense fallback={<AppLoadingLayout loading />}>
-            <FunctionalityPdfMerge />
+            <FunctionalityPdfMergeMain />
           </Suspense>
         )}
         {urlKey === 'split-pdf' && (
           <Suspense fallback={<AppLoadingLayout loading />}>
-            <FunctionalityPdfSplit />
+            <FunctionalityPdfSplitMain />
           </Suspense>
         )}
       </Box>

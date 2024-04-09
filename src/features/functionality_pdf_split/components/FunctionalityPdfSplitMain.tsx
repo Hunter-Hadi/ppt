@@ -3,7 +3,7 @@ import FileSaver from 'file-saver';
 import JSZip from 'jszip';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
 import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
@@ -26,12 +26,12 @@ export interface IFunctionalityPdfInfoProps {
   file: File;
   isSelect: boolean;
 }
-export const FunctionalityPdfSplit = () => {
+export const FunctionalityPdfSplitMain = () => {
   const { t } = useTranslation();
 
   const [idLoading, setIsLoading] = useState<boolean>(false);
-  const [activeFile, setActiveFile] = useState<File | null>(null);
-  const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false);
+  const [activeFile, setActiveFile] = useState<File | null>(null); //保存在这里是为了方便对源数据后续操作
+  const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false); //是否是合并单个pdf
 
   const {
     convertedPdfImages,
@@ -41,24 +41,22 @@ export const FunctionalityPdfSplit = () => {
     onCancelPdfActive,
     pdfTotalPages,
     currentPdfActionNum,
-  } = usePdfToImageConversion('png', false);
-  const { changeScale, currentScale, onDefaultChangeScale } =
-    useFunctionalityChangeScale();
+  } = usePdfToImageConversion();
+  const { changeScale, currentScale } = useFunctionalityChangeScale();
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
     useConvertedContentSelector<IPdfPageImageInfo>({
       list: convertedPdfImages,
       setList: setConvertedPdfImages,
     });
-  useEffect(() => {
-    onDefaultChangeScale(pdfTotalPages);
-  }, [pdfTotalPages]);
   const onUploadFile = async (fileList: FileList) => {
     if (fileList && fileList.length > 0) {
+      setIsLoading(true);
       setActiveFile(fileList[0]);
-      const isReadSuccess = await onReadPdfToImages(fileList[0]);
+      const isReadSuccess = await onReadPdfToImages(fileList[0], 'png', false);
       if (!isReadSuccess) {
         setActiveFile(null);
       }
+      setIsLoading(false);
     }
   };
   const handleUnsupportedFileTypeTip = () => {
@@ -283,7 +281,7 @@ export const FunctionalityPdfSplit = () => {
         </Grid>
       )}
 
-      {convertedPdfImages.length > 0 && (
+      {(convertedPdfImages.length > 0 || currentIsLoading) && (
         <Grid
           container
           item
@@ -386,4 +384,4 @@ export const FunctionalityPdfSplit = () => {
     </Box>
   );
 };
-export default FunctionalityPdfSplit;
+export default FunctionalityPdfSplitMain;

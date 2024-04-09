@@ -8,6 +8,7 @@ import { FunctionalityTooltip } from '@/features/functionality_common/components
 import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
 import useConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
 import usePdfToImageConversion, {
+  defaultPdfToImageScale,
   IPdfPageImageInfo,
 } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
@@ -40,7 +41,7 @@ const FunctionalityPdfToImageDetail: FC<
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
-  } = usePdfToImageConversion(toType, true);
+  } = usePdfToImageConversion();
   const {
     downloaderIsLoading,
     downloaderTotalPages,
@@ -64,7 +65,7 @@ const FunctionalityPdfToImageDetail: FC<
   const readPdfToImages = debounce(async (file) => {
     //debounce 防止useEffect导致的执行两次
     if (file) {
-      const isReadSuccess = await onReadPdfToImages(file);
+      const isReadSuccess = await onReadPdfToImages(file, toType, true);
       if (!isReadSuccess) {
         onRemoveFile && onRemoveFile();
       }
@@ -98,7 +99,9 @@ const FunctionalityPdfToImageDetail: FC<
         currentShowImages,
         toType,
         fileData,
-        selectDownloadSizeIndex === 0 ? undefined : 1.6 * maxSizeScaleNum,
+        selectDownloadSizeIndex === 0
+          ? undefined
+          : defaultPdfToImageScale * maxSizeScaleNum,
       );
     } else {
       onDownloadPdfImagesZip(currentShowImages, toType);
@@ -331,7 +334,7 @@ const FunctionalityPdfToImageDetail: FC<
                 border: `1px solid ${
                   selectDownloadSizeIndex === index ? '#000' : '#e5e7eb'
                 }`,
-                padding: 1,
+                padding: 1.5,
                 borderRadius: 1,
                 cursor: 'pointer',
                 '&:hover': {
@@ -380,7 +383,11 @@ const FunctionalityPdfToImageDetail: FC<
           sx={{ mt: 2 }}
         >
           <Grid item xs={10} md={2}>
-            <FunctionalityTooltip title='Download zipped images'>
+            <FunctionalityTooltip
+              title={t(
+                'functionality__pdf_to_image:components__to_image_detail__button__download__tooltip',
+              )}
+            >
               <Button
                 sx={{ width: '100%' }}
                 disabled={isLoading}

@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 /**
- * 自定义钩子，用于改变图像的缩放比例。
+ * 用于改变图像的缩放比例。
  *
  * @returns {Object} 包含以下属性的对象：
  * - changeScale (function): 在想要改变缩放比例时调用的函数。
@@ -11,9 +11,8 @@ import { useCallback, useState } from "react";
  */
 export const useFunctionalityChangeScale = () => {
     const defScale = 4, maxScale = 10, minScale = 2;
-    const [currentScale, setCurrentScale] = useState<number>(defScale); //当前一行多少个展示
-    const onDefaultChangeScale = (num?: number) => {
-        //TODO:num === 1这里应该根据图片的宽和高比例调节的，但为了简单开发，这里直接写死
+    const [currentScale, setCurrentScale] = useState<number>(defScale);
+    const onDefaultChangeScale = () => {
         setCurrentScale(defScale);
     }
     const changeScale = useCallback(

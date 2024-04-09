@@ -4,7 +4,8 @@ interface ISwitchWithType {
   isSelect: boolean;
 }
 /**
- * 内容选择功能
+ * 内容选择器功能
+  * 用于列表项的单选择功能/全选切换功能/识别是否全选
  *
  * @returns {Object} 包含以下属性的对象：
  * - isSelectAll (boolean): 是否全选。

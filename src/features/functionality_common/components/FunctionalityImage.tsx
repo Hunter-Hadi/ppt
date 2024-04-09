@@ -1,9 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import ceil from 'lodash-es/ceil';
-import divide from 'lodash-es/divide';
-import { CSSProperties, FC, useMemo } from 'react';
-
-import { FunctionalityTooltip } from './FunctionalityTooltip';
+import { CSSProperties, FC } from 'react';
 
 interface IFunctionalityImageProps {
   id: string;
@@ -22,7 +18,7 @@ interface IFunctionalitySortableImageProps {
 }
 /**
  * Functionality公共的图片视图，带有tooltip
- * @param name 图标名称
+ * @param name 底部显示的名称
  * @param imageInfo 图片信息
  * @param isActive 是否激活颜色区别
  * @param rightTopChildren 右上角的子元素
@@ -37,92 +33,80 @@ const FunctionalityImage: FC<IFunctionalitySortableImageProps> = ({
   name,
   imageSize,
 }) => {
-  const tooltipTitle = useMemo(() => {
-    const { size, pages } = imageInfo;
-    if (size && pages) {
-      return `${ceil(divide(size, 1000))}kb - ${pages} pages`;
-    } else if (size) {
-      return `${ceil(divide(size, 1000))}kb`;
-    } else if (pages) {
-      return `${pages} pages`;
-    }
-  }, [imageInfo]);
   return (
-    <FunctionalityTooltip title={tooltipTitle || ''}>
+    <Box
+      onClick={onClick}
+      sx={{
+        cursor: 'grab',
+        position: 'relative',
+        width: imageSize || 200,
+      }}
+    >
       <Box
-        onClick={onClick}
         sx={{
-          cursor: 'grab',
-          position: 'relative',
-          width: imageSize || 200,
+          padding: 1,
+          backgroundColor: '#9065b00a',
+          '&:hover': {
+            backgroundColor: '#f0eded',
+          },
+          border: isActive ? '1px dashed #64467b' : '1px solid transparent',
+          borderRadius: 1,
+
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          flexWrap: 'wrap',
         }}
       >
+        <img
+          style={
+            {
+              objectFit: 'contain',
+              width: '100%',
+              opacity: isActive ? 0 : 1,
+              userSelect: 'none',
+              WebkitUserDrag: 'none',
+              maxHeight: 500,
+              minHeight: 60,
+            } as CSSProperties
+          }
+          srcSet={imageInfo.imageUrlString}
+          src={imageInfo.imageUrlString}
+          loading='lazy'
+          alt='image'
+        />
+        <Typography
+          variant='custom'
+          sx={{
+            fontSize: 10,
+            marginTop: 1,
+          }}
+        >
+          {name}
+        </Typography>
+      </Box>
+      {rightTopChildren && (
         <Box
           sx={{
-            padding: 1,
-            backgroundColor: '#9065b00a',
+            position: 'absolute',
+            top: 5,
+            right: 5,
+            height: 20,
+            width: 20,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: 3,
             '&:hover': {
               backgroundColor: '#f0eded',
             },
-            border: isActive ? '1px dashed #64467b' : '1px solid transparent',
-            borderRadius: 1,
-
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            flexWrap: 'wrap',
+            cursor: 'pointer',
           }}
         >
-          <img
-            style={
-              {
-                objectFit: 'contain',
-                width: '100%',
-                opacity: isActive ? 0 : 1,
-                userSelect: 'none',
-                WebkitUserDrag: 'none',
-                maxHeight: 500,
-                minHeight: 60,
-              } as CSSProperties
-            }
-            srcSet={imageInfo.imageUrlString}
-            src={imageInfo.imageUrlString}
-            loading='lazy'
-            alt='image'
-          />
-          <Typography
-            variant='custom'
-            sx={{
-              fontSize: 10,
-              marginTop: 1,
-            }}
-          >
-            {name}
-          </Typography>
+          {rightTopChildren}
         </Box>
-        {rightTopChildren && (
-          <Box
-            sx={{
-              position: 'absolute',
-              top: 5,
-              right: 5,
-              height: 20,
-              width: 20,
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              zIndex: 3,
-              '&:hover': {
-                backgroundColor: '#f0eded',
-              },
-              cursor: 'pointer',
-            }}
-          >
-            {rightTopChildren}
-          </Box>
-        )}
-      </Box>
-    </FunctionalityTooltip>
+      )}
+    </Box>
   );
 };
 export default FunctionalityImage;

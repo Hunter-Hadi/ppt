@@ -51,7 +51,8 @@ export interface IPdfFindHaveImage {
     definedIndex: number;
 }
 /**
-  * 查找Pdf的图像
+  * 查找Pdf内的图像
+  * @param page - pdf的页面数据 - 通过pdfDocument.getPage(pageNum)获得
   */
 const findPdfToImage = async (page: any) => {
     const ops = await page.getOperatorList();

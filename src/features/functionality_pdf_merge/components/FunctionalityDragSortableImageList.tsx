@@ -14,7 +14,8 @@ import { Box, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useState } from 'react';
 
-import { IFunctionalityPdfInfoProps } from '@/features/functionality_pdf_merge/components/FunctionalityPdfMerge';
+import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
+import { IFunctionalityPdfInfoProps } from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeMain';
 import FunctionalitySortableImage from '@/features/functionality_pdf_merge/components/FunctionalitySortableImage';
 
 interface IFunctionalityImageList {
@@ -24,8 +25,12 @@ interface IFunctionalityImageList {
   updateImageList: (data: IFunctionalityPdfInfoProps[]) => void;
   isShowOperate: boolean;
 }
-
-const FunctionalityImageList: FC<IFunctionalityImageList> = ({
+/**
+ *
+ * FunctionalityImageList带有拖拽排序功能
+ * 后期看需求是否需要抽离出来
+ */
+const FunctionalityDragSortableImageList: FC<IFunctionalityImageList> = ({
   imageList,
   isImageSelect = true,
   onDelete,
@@ -34,7 +39,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
 }) => {
   const { t } = useTranslation();
 
-  const [activeDragId, setActiveDragId] = useState(null);
+  const [activeDragId, setActiveDragId] = useState(null); //选中的id
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
@@ -48,6 +53,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
     //拖拽更新父级数据
     const { active, over } = event;
     if (isDragEnd) {
+      //为DragEnd则说明结束，释放 选中的
       setActiveDragId(null);
     }
     if (over && active.id !== over.id) {
@@ -59,7 +65,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
       );
       const reorderedItems = [...imageList];
       const [movedItem] = reorderedItems.splice(oldIndex, 1);
-      reorderedItems.splice(newIndex, 0, movedItem);
+      reorderedItems.splice(newIndex, 0, movedItem); //进行顺序调整
       updateImageList(reorderedItems);
     }
   };
@@ -71,7 +77,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   };
   const currentDragImageInfo = useMemo(() => {
     return imageList.find((imageInfo) => imageInfo.id === activeDragId);
-  }, [activeDragId]);
+  }, [activeDragId]); //当前拖拽的图片信息，防止移动原来的图片，造成图片闪烁
 
   return (
     <DndContext
@@ -100,24 +106,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
                 cursor: 'grabbing',
               }}
             >
-              <img
-                style={{
-                  objectFit: 'contain',
-                  width: 130,
-                }}
-                srcSet={currentDragImageInfo.imageUrlString}
-                src={currentDragImageInfo.imageUrlString}
-                loading='lazy'
-              />
-              <Typography
-                variant='custom'
-                sx={{
-                  fontSize: 10,
-                  marginTop: 1,
-                }}
-              >
-                {currentDragImageInfo.name}
-              </Typography>
+              <FunctionalityImage imageInfo={currentDragImageInfo} />
             </DragOverlay>
           )}
         </Grid>
@@ -142,4 +131,4 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
     </DndContext>
   );
 };
-export default FunctionalityImageList;
+export default FunctionalityDragSortableImageList;

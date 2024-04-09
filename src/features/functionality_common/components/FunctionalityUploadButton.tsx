@@ -9,7 +9,7 @@ import FunctionalityIcon from '@/features/functionality_common/components/Functi
 
 /**
  * Functionality公共的上传组件
- * 为了统一的上传样式
+ * 为了统一的上传按钮样式
  */
 const FunctionalityUploadButton: FC<IUploadButtonProps> = (props) => {
   const { t } = useTranslation();
