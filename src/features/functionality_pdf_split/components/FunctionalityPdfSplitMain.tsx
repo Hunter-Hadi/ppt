@@ -10,26 +10,17 @@ import FunctionalityImage from '@/features/functionality_common/components/Funct
 import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
 import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
-import useConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
+import useFunctionalityConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
 import usePdfToImageConversion, {
   IPdfPageImageInfo,
 } from '@/features/functionality_common/hooks/useFunctionalityPdfToImageConversion';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
 import snackNotifications from '@/utils/globalSnackbar';
 
-export interface IFunctionalityPdfInfoProps {
-  id: string;
-  name: string;
-  size: number;
-  pages: number;
-  imageUrlString: string;
-  file: File;
-  isSelect: boolean;
-}
 export const FunctionalityPdfSplitMain = () => {
   const { t } = useTranslation();
 
-  const [idLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [activeFile, setActiveFile] = useState<File | null>(null); //保存在这里是为了方便对源数据后续操作
   const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false); //是否是合并单个pdf
 
@@ -44,7 +35,7 @@ export const FunctionalityPdfSplitMain = () => {
   } = usePdfToImageConversion();
   const { changeScale, currentScale } = useFunctionalityChangeScale();
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useConvertedContentSelector<IPdfPageImageInfo>({
+    useFunctionalityConvertedContentSelector<IPdfPageImageInfo>({
       list: convertedPdfImages,
       setList: setConvertedPdfImages,
     });
@@ -157,7 +148,7 @@ export const FunctionalityPdfSplitMain = () => {
   const onRemoveFile = () => {
     setConvertedPdfImages([]);
   };
-  const currentIsLoading = pdfIsLoading || idLoading;
+  const currentIsLoading = pdfIsLoading || isLoading;
   return (
     <Box
       sx={{
@@ -189,7 +180,7 @@ export const FunctionalityPdfSplitMain = () => {
         >
           <Grid item xs={6} md={2}>
             <Button
-              sx={{ width: '100%' }}
+              sx={{ width: '100%', height: 48 }}
               size='large'
               disabled={currentIsLoading || convertedPdfImages.length === 0}
               variant='outlined'
@@ -211,7 +202,7 @@ export const FunctionalityPdfSplitMain = () => {
               )}
             >
               <Button
-                sx={{ width: '100%' }}
+                sx={{ width: '100%', height: 48 }}
                 size='large'
                 disabled={currentIsLoading}
                 variant='outlined'
@@ -235,7 +226,7 @@ export const FunctionalityPdfSplitMain = () => {
                     sx={{
                       color: 'primary.main',
                       cursor: 'pointer',
-                      fontSize: 30,
+                      fontSize: 35,
                     }}
                   />
                 </Box>
@@ -252,7 +243,7 @@ export const FunctionalityPdfSplitMain = () => {
                       color: 'primary.main',
                       cursor: 'pointer',
                       marginLeft: 1,
-                      fontSize: 30,
+                      fontSize: 35,
                     }}
                   />
                 </Box>
@@ -267,7 +258,7 @@ export const FunctionalityPdfSplitMain = () => {
                 )}
               >
                 <Button
-                  sx={{ width: '100%' }}
+                  sx={{ width: '100%', height: 48 }}
                   size='large'
                   variant='outlined'
                   color='error'
@@ -367,7 +358,7 @@ export const FunctionalityPdfSplitMain = () => {
               )}
             >
               <Button
-                sx={{ width: '100%' }}
+                sx={{ width: '100%', height: 48 }}
                 disabled={currentIsLoading}
                 size='large'
                 variant='contained'

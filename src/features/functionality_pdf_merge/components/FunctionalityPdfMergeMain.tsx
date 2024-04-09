@@ -9,6 +9,7 @@ import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import UploadButton from '@/features/common/components/UploadButton';
 import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
 import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
+import { IFunctionalityPdfFileInfoProps } from '@/features/functionality_common/types/functionalityInfoType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityDownload';
 import FunctionalityDragSortableImageList from '@/features/functionality_pdf_merge/components/FunctionalityDragSortableImageList';
 import snackNotifications from '@/utils/globalSnackbar';
@@ -17,21 +18,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
-export interface IFunctionalityPdfInfoProps {
-  id: string;
-  name: string;
-  size: number;
-  pages: number;
-  imageUrlString: string;
-  file: File;
-}
-
 const FunctionalityPdfMergeMain = () => {
   const { t } = useTranslation();
-  const [idLoading, setIsLoading] = useState<boolean>(false);
-  const [pdfInfoList, setPdfInfoList] = useState<IFunctionalityPdfInfoProps[]>(
-    [],
-  ); //展示的pdf信息 列表
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [pdfInfoList, setPdfInfoList] = useState<
+    IFunctionalityPdfFileInfoProps[]
+  >([]); //展示的pdf信息 列表
 
   const onUploadFile = async (fileList: FileList) => {
     setIsLoading(true);
@@ -53,7 +45,7 @@ const FunctionalityPdfMergeMain = () => {
     );
   };
   const getPdfFileInfoList = async (fileList: FileList) => {
-    const fileInfoList: IFunctionalityPdfInfoProps[] = [];
+    const fileInfoList: IFunctionalityPdfFileInfoProps[] = [];
     for (let i = 0; i < fileList.length; i++) {
       const file = fileList[i];
       const pageInfo = await getFirstPageAsImage(file);
@@ -155,11 +147,13 @@ const FunctionalityPdfMergeMain = () => {
     if (pdfInfoList) {
       setIsLoading(true);
       const files = pdfInfoList.map((pdfInfo) => pdfInfo.file);
-      const downloadPdfData = await mergePdfFiles(files);
-      if (downloadPdfData) {
-        downloadUrl(downloadPdfData, 'merge(MaxAi.me).pdf');
+      if (files) {
+        const downloadPdfData = await mergePdfFiles(files);
+        if (downloadPdfData) {
+          downloadUrl(downloadPdfData, 'merge(MaxAi.me).pdf');
+        }
+        setIsLoading(false);
       }
-      setIsLoading(false);
     }
   };
 
@@ -181,7 +175,7 @@ const FunctionalityPdfMergeMain = () => {
         width: '100%',
       }}
     >
-      {isListEmpty && !idLoading && (
+      {isListEmpty && !isLoading && (
         <FunctionalityUploadButton
           inputProps={{
             accept: 'application/pdf',
@@ -212,8 +206,11 @@ const FunctionalityPdfMergeMain = () => {
                   isDrag={false}
                   buttonProps={{
                     variant: 'outlined',
-                    disabled: idLoading,
+                    disabled: isLoading,
                     size: 'large',
+                    sx: {
+                      height: 48,
+                    },
                   }}
                   inputProps={{
                     accept: 'application/pdf',
@@ -234,7 +231,8 @@ const FunctionalityPdfMergeMain = () => {
             >
               <Button
                 variant='outlined'
-                disabled={idLoading}
+                sx={{ height: 48 }}
+                disabled={isLoading}
                 color='error'
                 size='large'
                 onClick={() => setPdfInfoList([])}
@@ -245,7 +243,7 @@ const FunctionalityPdfMergeMain = () => {
           </Grid>
         </Grid>
       )}
-      {(!isListEmpty || idLoading) && (
+      {(!isListEmpty || isLoading) && (
         <Box
           sx={{
             width: '100%',
@@ -257,12 +255,12 @@ const FunctionalityPdfMergeMain = () => {
             <FunctionalityDragSortableImageList
               imageList={pdfInfoList}
               onDelete={onDeletePdf}
-              isShowOperate={!idLoading}
+              isShowOperate={!isLoading}
               isImageSelect={true}
               updateImageList={(list) => setPdfInfoList(list)}
             />
           )}
-          {idLoading && (
+          {isLoading && (
             <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />
           )}
         </Box>
@@ -283,9 +281,9 @@ const FunctionalityPdfMergeMain = () => {
               )}
             >
               <Button
-                sx={{ width: '100%' }}
+                sx={{ width: '100%', height: 48 }}
                 size='large'
-                disabled={pdfInfoList.length < 2 || idLoading}
+                disabled={pdfInfoList.length < 2 || isLoading}
                 variant='contained'
                 onClick={() => onDownloadZip()}
               >

@@ -15,14 +15,14 @@ import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useState } from 'react';
 
 import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
-import { IFunctionalityPdfInfoProps } from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeMain';
+import { IFunctionalityPdfFileInfoProps } from '@/features/functionality_common/types/functionalityInfoType';
 import FunctionalitySortableImage from '@/features/functionality_pdf_merge/components/FunctionalitySortableImage';
 
 interface IFunctionalityImageList {
-  imageList: IFunctionalityPdfInfoProps[];
+  imageList: IFunctionalityPdfFileInfoProps[];
   isImageSelect: boolean;
   onDelete: (id: string) => void;
-  updateImageList: (data: IFunctionalityPdfInfoProps[]) => void;
+  updateImageList: (data: IFunctionalityPdfFileInfoProps[]) => void;
   isShowOperate: boolean;
 }
 /**

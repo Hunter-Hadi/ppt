@@ -6,10 +6,10 @@ import { FC } from 'react';
 
 import FunctionalityImage from '@/features/functionality_common/components/FunctionalityImage';
 import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
-import FunctionalityIcon from '@/features/functionality_pdf_merge/components/FunctionalityIcon';
-import { IFunctionalityPdfInfoProps } from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeMain';
+import { IFunctionalityPdfFileInfoProps } from '@/features/functionality_common/types/functionalityInfoType';
+import FunctionalityPdfMergeIcon from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeIcon';
 interface IFunctionalitySortableImageProps {
-  imageInfo: IFunctionalityPdfInfoProps;
+  imageInfo: IFunctionalityPdfFileInfoProps;
   isImageSelect: boolean;
   onDelete: (id: string) => void;
   activeDragId: string | null;
@@ -76,7 +76,7 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
                 }}
                 onClick={() => onDelete(imageInfo.id)}
               >
-                <FunctionalityIcon
+                <FunctionalityPdfMergeIcon
                   name='CloseTwoTone'
                   sx={{
                     fontSize: 16,

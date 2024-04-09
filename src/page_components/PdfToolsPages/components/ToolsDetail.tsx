@@ -79,21 +79,13 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           title={currentToolData.title}
           description={currentToolData.description}
         />
-        {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
-          <Suspense fallback={<AppLoadingLayout loading />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
+          {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
             <FunctionalityPdfToImageMain toType={urlKey} />
-          </Suspense>
-        )}
-        {urlKey === 'merge-pdf' && (
-          <Suspense fallback={<AppLoadingLayout loading />}>
-            <FunctionalityPdfMergeMain />
-          </Suspense>
-        )}
-        {urlKey === 'split-pdf' && (
-          <Suspense fallback={<AppLoadingLayout loading />}>
-            <FunctionalityPdfSplitMain />
-          </Suspense>
-        )}
+          )}
+          {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
+          {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
+        </Suspense>
       </Box>
     </AppContainer>
   );

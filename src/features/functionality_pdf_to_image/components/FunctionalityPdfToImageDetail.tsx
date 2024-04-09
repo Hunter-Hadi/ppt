@@ -6,7 +6,7 @@ import { FC, useEffect, useMemo, useState } from 'react';
 import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
 import { FunctionalityTooltip } from '@/features/functionality_common/components/FunctionalityTooltip';
 import { useFunctionalityChangeScale } from '@/features/functionality_common/hooks/useFunctionalityChangeScale';
-import useConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
+import useFunctionalityConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityConvertedContentSelector';
 import usePdfToImageConversion, {
   defaultPdfToImageScale,
   IPdfPageImageInfo,
@@ -54,7 +54,7 @@ const FunctionalityPdfToImageDetail: FC<
       ? convertedPdfImages
       : pdfPageHaveImages;
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useConvertedContentSelector<IPdfPageImageInfo>({
+    useFunctionalityConvertedContentSelector<IPdfPageImageInfo>({
       list: currentShowImages,
       setList:
         showPdfImagesType === 'pdfPageImages'
@@ -132,7 +132,7 @@ const FunctionalityPdfToImageDetail: FC<
       >
         <Grid item xs={6} md={2}>
           <Button
-            sx={{ width: '100%' }}
+            sx={{ width: '100%', height: 48 }}
             size='large'
             disabled={isLoading || currentShowImages.length === 0}
             variant='outlined'
@@ -161,7 +161,7 @@ const FunctionalityPdfToImageDetail: FC<
             }
           >
             <Button
-              sx={{ width: '100%' }}
+              sx={{ width: '100%', height: 48 }}
               size='large'
               disabled={isLoading}
               variant='outlined'
@@ -184,7 +184,7 @@ const FunctionalityPdfToImageDetail: FC<
             )}
           >
             <Button
-              sx={{ width: '100%' }}
+              sx={{ width: '100%', height: 48 }}
               size='large'
               disabled={isLoading}
               variant='outlined'
@@ -210,7 +210,7 @@ const FunctionalityPdfToImageDetail: FC<
                   sx={{
                     color: 'primary.main',
                     cursor: 'pointer',
-                    fontSize: 30,
+                    fontSize: 35,
                   }}
                 />
               </Box>
@@ -227,7 +227,7 @@ const FunctionalityPdfToImageDetail: FC<
                     color: 'primary.main',
                     cursor: 'pointer',
                     marginLeft: 1,
-                    fontSize: 30,
+                    fontSize: 35,
                   }}
                 />
               </Box>
@@ -242,7 +242,7 @@ const FunctionalityPdfToImageDetail: FC<
               )}
             >
               <Button
-                sx={{ width: '100%' }}
+                sx={{ width: '100%', height: 48 }}
                 size='large'
                 variant='outlined'
                 color='error'
@@ -363,7 +363,7 @@ const FunctionalityPdfToImageDetail: FC<
                 sx={{
                   fontSize: {
                     xs: 12,
-                    lg: 15,
+                    lg: 16,
                   },
                   color: selectDownloadSizeIndex === index ? '#000' : '#6b7280',
                 }}
@@ -389,7 +389,7 @@ const FunctionalityPdfToImageDetail: FC<
               )}
             >
               <Button
-                sx={{ width: '100%' }}
+                sx={{ width: '100%', height: 48 }}
                 disabled={isLoading}
                 size='large'
                 variant='contained'

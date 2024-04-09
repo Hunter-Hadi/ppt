@@ -34,12 +34,12 @@ const FunctionalityUploadButton: FC<IUploadButtonProps> = (props) => {
       }}
       {...props}
     >
-      <FunctionalityIcon sx={{ fontSize: 35 }} name='CloudUploadIcon' />
+      <FunctionalityIcon sx={{ fontSize: 34 }} name='CloudUploadIcon' />
       <Typography
         sx={{
           fontSize: {
             xs: 12,
-            lg: 13,
+            lg: 14,
           },
         }}
       >

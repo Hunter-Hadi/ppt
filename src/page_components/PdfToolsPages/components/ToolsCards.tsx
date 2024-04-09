@@ -4,10 +4,7 @@ import { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
 import ToolsIcon from '@/page_components/PdfToolsPages/components/ToolsIcon';
-import {
-  IToolData,
-  toolsTopUrlKey,
-} from '@/page_components/PdfToolsPages/constant';
+import { IToolData } from '@/page_components/PdfToolsPages/constant';
 
 interface IToolsCardsProps {
   list: IToolData[];
@@ -38,7 +35,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
             }}
           >
             <ProLink
-              href={`/${toolsTopUrlKey}/${toolData.urlKey}`}
+              href={`/${toolData.urlPrefixPath}/${toolData.urlKey}`}
               color='inherit'
               target='_self'
               sx={{
@@ -60,7 +57,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                   <Typography
                     sx={{
                       fontSize: {
-                        xs: 15,
+                        xs: 12,
                         lg: 16,
                       },
                       mt: 1,
@@ -70,20 +67,18 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                   >
                     {t(toolData.title)}
                   </Typography>
-                  <div>
-                    <Typography
-                      sx={{
-                        fontSize: {
-                          xs: 13,
-                          lg: 15,
-                        },
-                        mt: 1,
-                      }}
-                      color='text.secondary'
-                    >
-                      {t(toolData.description)}
-                    </Typography>
-                  </div>
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: 12,
+                        lg: 15,
+                      },
+                      mt: 1,
+                    }}
+                    color='text.secondary'
+                  >
+                    {t(toolData.description)}
+                  </Typography>
                 </CardContent>
               </Card>
             </ProLink>

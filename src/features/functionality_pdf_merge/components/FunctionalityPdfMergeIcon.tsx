@@ -4,10 +4,9 @@ import { FC } from 'react';
 interface IFunctionalityIconProps {
   sx?: SxProps;
 }
-const FunctionalityIcon: FC<{ name: string } & IFunctionalityIconProps> = ({
-  name,
-  ...restProps
-}) => {
+const FunctionalityPdfMergeIcon: FC<
+  { name: string } & IFunctionalityIconProps
+> = ({ name, ...restProps }) => {
   const renderIcon = () => {
     switch (name) {
       case 'CloseTwoTone':
@@ -20,4 +19,4 @@ const FunctionalityIcon: FC<{ name: string } & IFunctionalityIconProps> = ({
 
   return renderIcon();
 };
-export default FunctionalityIcon;
+export default FunctionalityPdfMergeIcon;
