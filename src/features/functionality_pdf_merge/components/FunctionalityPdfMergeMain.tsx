@@ -150,7 +150,7 @@ const FunctionalityPdfMergeMain = () => {
       if (files) {
         const downloadPdfData = await mergePdfFiles(files);
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, 'merge(MaxAi.me).pdf');
+          downloadUrl(downloadPdfData, 'merge(MaxAI.me).pdf');
         }
         setIsLoading(false);
       }

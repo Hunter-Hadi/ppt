@@ -71,7 +71,7 @@ export const FunctionalityPdfSplitMain = () => {
       if (isMergeSinglePDf) {
         const downloadPdfData = await getMergePdfFiles(splitPdfList);
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, 'split(MaxAi.me).pdf');
+          downloadUrl(downloadPdfData, 'split(MaxAI.me).pdf');
         }
       } else {
         const pdfUint8ArrayList = await getSplitPdfFiles(splitPdfList);
@@ -82,7 +82,7 @@ export const FunctionalityPdfSplitMain = () => {
   };
   const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
     const zip = new JSZip();
-    const zipTool = zip.folder('pdfs(MaxAi.me)');
+    const zipTool = zip.folder('pdfs(MaxAI.me)');
     for (let i = 0; i < list.length; i++) {
       zipTool?.file(`split-${i + 1}(MaxAI.me).pdf`, list[i]);
     }
