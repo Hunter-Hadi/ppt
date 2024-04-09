@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Verktøy",
     "tools__index_page__description": "Alle PDF-verktøy er 100% GRATIS og kjører i nettleseren din for fullstendig personvern",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konverter PDF til PNG og last ned hver side som et bilde",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksporter hver PDF-side som et PNG-bilde eller ekstraher individuelle bilder fra PDF til PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konverter PDF til JPEG og last ned hver side som et bilde",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksporter hver PDF-side som et JPEG-bilde eller ekstraher individuelle bilder fra PDF til JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Slå sammen PDF-filer",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Del opp en PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Den raskeste måten å bruke AI hvor som helst på nettet. Ett klikk for å komponere, forbedre skriving, oppsummere, forklare, rette stavefeil og grammatikk, endre tone, oversette eller svare på hvilken som helst tekst.",
     "install__title": "Installer | MaxAI.me",
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
-    "zmo__description": "Lag kunst og bilder med AI gratis. ImgCreator.ai kan generere bilder, kunst, illustrasjoner, anime, logoer, design fra tekst og bilder. Vår proprietære teknologi vil gi liv til fantasien din."
+    "zmo__description": "Lag kunst og bilder med AI gratis. ImgCreator.ai kan generere bilder, kunst, illustrasjoner, anime, logoer, design fra tekst og bilder. Vår proprietære teknologi vil gi liv til fantasien din.",
+    "pdf_tools__title": "Gratis PDF-verktøy - Konverter, komprimer og rediger PDF-filer på nettet | MaxAI.me",
+    "pdf_tools__description": "Utforsk vår samling av verktøy som hjelper deg med å konvertere, komprimere, redigere og signere PDF-filer på nettet gratis.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF til JPEG - Konverter hvilken som helst PDF til bilder online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Konverter PDF-sider til JPEG-bilder eller ekstraher enkeltbilder fra PDF-filene dine online gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
+    "pdf_tools__pdf_to_png__title": "PDF til PNG - Konverter hvilken som helst PDF til bilder online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Konverter PDF-sider til PNG-bilder eller ekstraher enkeltbilder fra PDF-filene dine online gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
+    "pdf_tools__merge_pdfs__title": "Slå sammen PDF – Kombiner PDF-filer online gratis | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kombiner PDF-filer og opprett et enkelt dokument online gratis. Med vår PDF-sammenslåing er det enklere enn noensinne å slå sammen PDF-er. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
+    "pdf_tools__split_pdf__title": "Del opp PDF - Separer PDF-sider eller fjern sider | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Del enkelt opp sider i PDF-en din online gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Vis sider",
     "components__to_image_detail__view_images": "Vis bilder",
     "components__to_image__downloader_tip": "Vennligst velg minst ett bilde.",
-    "components__to_image_detail__not_found_images": "Bilde fra PDF ikke funnet"
+    "components__to_image_detail__not_found_images": "Bilde fra PDF ikke funnet",
+    "components__to_image_detail__button__download__tooltip": "Last ned zippede bilder",
+    "components__to_image_detail__button__view_images__tooltip": "Vis de ekstraherte bildene i denne PDF-en",
+    "components__to_image_detail__button__view_pages__tooltip": "Vis alle sidene i denne PDF-en",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zoom inn",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zoom ut",
+    "components__to_image_detail__button__cancel__tooltip": "Avbryt gjeldende fremgang",
+    "components__to_image_detail__button__remove__tooltip": "Fjern denne PDF-en og velg en ny"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
+    "components__pdf_merge__add_pdf": "Legg til PDF",
+    "components__pdf_merge__empty_pdf": "Tøm PDF-er",
+    "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
+    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
+    "components__pdf_merge__button__download__tooltip": "Slå sammen og last ned PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Fjern alle PDF-er nedenfor",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Legg til PDF-fil nedenfor"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
+    "components__pdf_split__add_pdf": "Legg til PDF-er",
+    "components__pdf_spli__remove_pdf": "Fjern PDF",
+    "components__pdf_split__select_all": "Velg alle",
+    "components__pdf_split__deselect_all": "Opphev valg for alle",
+    "components__pdf_split__confirm_split": "Bekreft å splitte",
+    "components__pdf_split__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
+    "components__pdf_split__is_single_pdf": "Slå sammen valgte sider til en enkelt PDF",
+    "components__pdf_split__cancel": "Avbryt",
+    "components__pdf_split__error_maximum": "Kunne ikke splitte PDF-filer, overskredet maksimalt antall",
+    "components__pdf_split__button__zoom_in__tooltip": "Zoom inn",
+    "components__pdf_split__button__zoom_out__tooltip": "Zoom ut",
+    "components__pdf_split__button__remove__tooltip": "Fjern denne PDF-en og velg en ny",
+    "components__pdf_split__button__download__tooltip": "Del opp og last ned PDF",
+    "components__pdf_split__button__cancel__tooltip": "Avbryt gjeldende fremgang"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over"
   }
 }

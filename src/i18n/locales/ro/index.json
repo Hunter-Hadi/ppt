@@ -360,11 +360,13 @@
     "tools__index_page__title": "Instrumente MaxAI",
     "tools__index_page__description": "Toate instrumentele PDF sunt 100% GRATUITE și rulează în browserul tău pentru confidențialitate completă",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF în PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Convertește PDF în PNG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportați fiecare pagină PDF ca o imagine PNG sau extrageți imagini individuale din PDF în PNG-uri",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF în JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convertește PDF în JPEG și descarcă fiecare pagină ca imagine",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportați fiecare pagină PDF ca o imagine JPEG sau extrageți imagini individuale din PDF în JPEG-uri",
     "tools__index_page__constant_obj__merge_pdfs__title": "Unifică PDF-uri",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Divide un PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Fiecare pagină selectată va deveni un fișier PDF separat. În mod alternativ, puteți combina paginile selectate într-un singur fișier PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Cel mai rapid mod de a utiliza AI oriunde online. Un clic pentru a compune, îmbunătăți scrierea, rezuma, explica, corecta greșeli gramaticale și ortografice, schimba tonul, traduce sau răspunde la orice text.",
     "install__title": "Instalare | MaxAI.me",
     "zmo__title": "Generator de artă AI all-in-one | Generator de imagini AI din text | ImgCreator.AI",
-    "zmo__description": "Creați artă și imagini cu ajutorul AI gratuit. ImgCreator.ai poate genera imagini, artă, ilustrații, anime, logo-uri, designuri din text și imagini. Tehnologia noastră proprietară va da viață imaginației tale."
+    "zmo__description": "Creați artă și imagini cu ajutorul AI gratuit. ImgCreator.ai poate genera imagini, artă, ilustrații, anime, logo-uri, designuri din text și imagini. Tehnologia noastră proprietară va da viață imaginației tale.",
+    "pdf_tools__title": "Instrumente PDF gratuite - Convertiți, comprimați și editați PDF-uri online | MaxAI.me",
+    "pdf_tools__description": "Explorați colecția noastră de instrumente care vă ajută să convertiți, comprimați, editați și semnați PDF-uri online gratuit.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF în JPEG - Convertiți orice PDF-uri în imagini online gratuit | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Convertiți paginile PDF în imagini JPEG sau extrageți imagini individuale din fișierele dvs. PDF online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
+    "pdf_tools__pdf_to_png__title": "PDF în PNG - Convertiți orice PDF-uri în imagini online gratuit | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Convertiți paginile PDF în imagini PNG sau extrageți imagini individuale din fișierele dvs. PDF online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
+    "pdf_tools__merge_pdfs__title": "Unificare PDF - Combinați fișiere PDF online gratuit | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combinați fișierele PDF și creați un singur document online gratuit. Cu combinatorul nostru PDF, unificarea PDF-urilor este mai ușoară ca niciodată. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
+    "pdf_tools__split_pdf__title": "Separare PDF - Separarea paginilor PDF sau eliminarea paginilor | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Separarea ușoară a paginilor din PDF-ul dvs. online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Vezi pagini",
     "components__to_image_detail__view_images": "Vezi imagini",
     "components__to_image__downloader_tip": "Vă rugăm să selectați cel puțin o imagine.",
-    "components__to_image_detail__not_found_images": "Imagine PDF negăsită"
+    "components__to_image_detail__not_found_images": "Imagine PDF negăsită",
+    "components__to_image_detail__button__download__tooltip": "Descărcați imaginile comprimate",
+    "components__to_image_detail__button__view_images__tooltip": "Vizualizați imaginile extrase din acest PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Vizualizați toate paginile din acest PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Măriți",
+    "components__to_image_detail__button__zoom_out__tooltip": "Micșorați",
+    "components__to_image_detail__button__cancel__tooltip": "Anulați progresul curent",
+    "components__to_image_detail__button__remove__tooltip": "Eliminați acest PDF și selectați unul nou"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__pdf_merge__add_pdf": "Adăugați PDF",
+    "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
+    "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
+    "components__pdf_merge__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare",
+    "components__pdf_merge__button__download__tooltip": "Unificați și descărcați PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Ștergeți toate PDF-urile de mai jos",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Adăugați fișierul PDF mai jos"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__pdf_split__add_pdf": "Adăugați PDF-uri",
+    "components__pdf_spli__remove_pdf": "Eliminați PDF",
+    "components__pdf_split__select_all": "Selectați tot",
+    "components__pdf_split__deselect_all": "Deselectați tot",
+    "components__pdf_split__confirm_split": "Confirmați divizarea",
+    "components__pdf_split__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare",
+    "components__pdf_split__is_single_pdf": "Unificați paginile selectate într-un singur PDF",
+    "components__pdf_split__cancel": "Anulați",
+    "components__pdf_split__error_maximum": "Nu s-a putut diviza fișierele PDF, ați depășit cantitatea maximă",
+    "components__pdf_split__button__zoom_in__tooltip": "Măriți",
+    "components__pdf_split__button__zoom_out__tooltip": "Micșorați",
+    "components__pdf_split__button__remove__tooltip": "Eliminați acest PDF și selectați unul nou",
+    "components__pdf_split__button__download__tooltip": "Divizați și descărcați PDF",
+    "components__pdf_split__button__cancel__tooltip": "Anulați progresul curent"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "este criptat sau anormal, nu se poate manipula PDF-ul, s-a trecut peste"
   }
 }

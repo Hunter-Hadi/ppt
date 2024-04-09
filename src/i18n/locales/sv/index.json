@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Verktyg",
     "tools__index_page__description": "Alla PDF-verktyg är 100% GRATIS och körs i din webbläsare för fullständig integritet",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF till PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertera PDF till PNG och ladda ner varje sida som en bild",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportera varje PDF-sida som en PNG-bild eller extrahera enskilda bilder från PDF till PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF till JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertera PDF till JPEG och ladda ner varje sida som en bild",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportera varje PDF-sida som en JPEG-bild eller extrahera enskilda bilder från PDF till JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Slå samman PDF-filer",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Slå samman flera PDF-filer till en med bara några få klick"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Slå samman flera PDF-filer till en med bara några få klick",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Dela upp en PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Varje vald sida blir en separat PDF-fil. Alternativt kan du slå samman valda sidor till en enda PDF-fil."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Det snabbaste sättet att använda AI var som helst online. Ett klick för att komponera, förbättra skrivande, sammanfatta, förklara, fixa stavning och grammatik, ändra ton, översätta eller svara på valfri text.",
     "install__title": "Installera | MaxAI.me",
     "zmo__title": "Allt-i-ett AI Design Art Generator | AI Bildgenerator Från Text | ImgCreator.AI",
-    "zmo__description": "Skapa konst och bilder med AI gratis. ImgCreator.ai kan generera bilder, konst, illustrationer, anime, logotyper, designer från text och bilder. Vår egenutvecklade teknologi kommer att ge liv åt din fantasi."
+    "zmo__description": "Skapa konst och bilder med AI gratis. ImgCreator.ai kan generera bilder, konst, illustrationer, anime, logotyper, designer från text och bilder. Vår egenutvecklade teknologi kommer att ge liv åt din fantasi.",
+    "pdf_tools__title": "Gratis PDF-verktyg - Konvertera, Komprimera och Redigera PDF-filer Online | MaxAI.me",
+    "pdf_tools__description": "Utforska vår samling av verktyg som hjälper dig att konvertera, komprimera, redigera och signera PDF-filer online gratis.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF till JPEG - Konvertera vilka PDF-filer som helst till bilder online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Konvertera PDF-sidor till JPEG-bilder eller extrahera enskilda bilder från dina PDF-filer online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "pdf_tools__pdf_to_png__title": "PDF till PNG - Konvertera vilka PDF-filer som helst till bilder online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Konvertera PDF-sidor till PNG-bilder eller extrahera enskilda bilder från dina PDF-filer online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "pdf_tools__merge_pdfs__title": "Sammanfoga PDF – Kombinera PDF-filer online gratis | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kombinera PDF-filer och skapa ett enda dokument online gratis. Med vår PDF-sammanfogare är det enklare än någonsin att slå samman PDF-filer. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "pdf_tools__split_pdf__title": "Dela upp PDF - Separera PDF-sidor eller ta bort sidor | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Separera enkelt sidor i din PDF online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs."
   },
   "features_landing": {
     "cta_text": "Lägg till i webbläsaren",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Visa sidor",
     "components__to_image_detail__view_images": "Visa bilder",
     "components__to_image__downloader_tip": "Var god välj minst en bild.",
-    "components__to_image_detail__not_found_images": "PDF-bild hittades inte"
+    "components__to_image_detail__not_found_images": "PDF-bild hittades inte",
+    "components__to_image_detail__button__download__tooltip": "Ladda ner zipade bilder",
+    "components__to_image_detail__button__view_images__tooltip": "Visa de extraherade bilderna i denna PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Visa alla sidor i denna PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zooma in",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zooma ut",
+    "components__to_image_detail__button__cancel__tooltip": "Avbryt aktuell framsteg",
+    "components__to_image_detail__button__remove__tooltip": "Ta bort denna PDF och välj en ny"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
+    "components__pdf_merge__add_pdf": "Lägg till PDF",
+    "components__pdf_merge__empty_pdf": "Rensa PDF:er",
+    "components__pdf_merge__confirm_merge": "Bekräfta sammanfogning",
+    "components__pdf_merge__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa",
+    "components__pdf_merge__button__download__tooltip": "Slå samman och ladda ner PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Rensa alla PDF-filer nedan",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Lägg till PDF-fil nedan"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
+    "components__pdf_split__add_pdf": "Lägg till PDF:er",
+    "components__pdf_spli__remove_pdf": "Ta bort PDF",
+    "components__pdf_split__select_all": "Välj alla",
+    "components__pdf_split__deselect_all": "Avmarkera alla",
+    "components__pdf_split__confirm_split": "Bekräfta att dela upp",
+    "components__pdf_split__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa",
+    "components__pdf_split__is_single_pdf": "Slå samman valda sidor till en enda PDF",
+    "components__pdf_split__cancel": "Avbryt",
+    "components__pdf_split__error_maximum": "Det gick inte att dela upp PDF-filer, Överskred maximalt antal",
+    "components__pdf_split__button__zoom_in__tooltip": "Zooma in",
+    "components__pdf_split__button__zoom_out__tooltip": "Zooma ut",
+    "components__pdf_split__button__remove__tooltip": "Ta bort denna PDF och välj en ny",
+    "components__pdf_split__button__download__tooltip": "Dela upp och ladda ner PDF",
+    "components__pdf_split__button__cancel__tooltip": "Avbryt aktuell framsteg"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "är krypterad eller onormal, kan inte manipulera PDF:en, hoppades över"
   }
 }

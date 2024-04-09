@@ -360,11 +360,13 @@
     "tools__index_page__title": "כלי MaxAI",
     "tools__index_page__description": "כל כלי PDF הם בחינם לחלוטין ורצים בדפדפן שלך לפרטיות מוחלטת",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ל-PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "המרת PDF ל-PNG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ייצוא כל עמוד PDF כתמונת PNG או חליץ תמונות בודדות מה- PDF ל-JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ל-JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "המרת PDF ל-JPEG והורדת כל עמוד כתמונה",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ייצוא כל עמוד PDF כתמונת JPEG או חליץ תמונות בודדות מה- PDF ל-JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "מיזוג PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה"
+    "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
+    "tools__index_page__constant_obj__split_a_pdf__title": "לחלק PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "כל עמוד שנבחר יהפוך לקובץ PDF נפרד. בנוסף, תוכל למזג עמודים שנבחרו לקובץ PDF אחד."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -601,7 +603,17 @@
     "usechatgpt__description": "הדרך המהירה ביותר להשתמש בבינה מלאכותית בכל מקום באינטרנט. לחיצה אחת כדי לחבר, לשפר כתיבה, לסכם, להסביר, לתקן איות ודקדוק, לשנות טון, לתרגם או להגיב לכל טקסט.",
     "install__title": "התקן | MaxAI.me",
     "zmo__title": "כלי עיצוב AI מכל הזמנים | מחולל תמונות AI מטקסט | ImgCreator.AI",
-    "zmo__description": "צור אמנות ותמונות עם AI בחינם. ImgCreator.ai יכול ליצור תמונות, אמנות, איורים, אנימה, לוגואים, עיצובים מטקסט ותמונות. הטכנולוגיה הייחודית שלנו תעניק חיים לדמיון שלך."
+    "zmo__description": "צור אמנות ותמונות עם AI בחינם. ImgCreator.ai יכול ליצור תמונות, אמנות, איורים, אנימה, לוגואים, עיצובים מטקסט ותמונות. הטכנולוגיה הייחודית שלנו תעניק חיים לדמיון שלך.",
+    "pdf_tools__title": "כלי PDF חינמי - המרה, דחיסה ועריכת PDF באינטרנט | MaxAI.me",
+    "pdf_tools__description": "גלה את אוסף הכלים שלנו לעזור לך להמיר, לדחוס, לערוך ולחתום על PDF בחינם באינטרנט.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF ל-JPEG - המרת כל PDF לתמונות באינטרנט בחינם | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "המרת עמודי PDF לתמונות JPEG או חליץ תמונות יחידות מקבצי ה-PDF שלך באינטרנט בחינם. ללא סימני מים, הגבלות גודל קובץ, הורדות או הרשמות.",
+    "pdf_tools__pdf_to_png__title": "PDF ל-PNG - המרת כל PDF לתמונות באינטרנט בחינם | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "המרת עמודי PDF לתמונות PNG או חליץ תמונות יחידות מקבצי ה-PDF שלך באינטרנט בחינם. ללא סימני מים, הגבלות גודל קובץ, הורדות או הרשמות.",
+    "pdf_tools__merge_pdfs__title": "מיזוג PDF - שלב קבצי PDF באינטרנט בחינם | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "שלב קבצי PDF וצור מסמך אחד באינטרנט בחינם. עם מחבר ה-PDF שלנו, מיזוג PDFs הפך קל יותר מתמיד. ללא סימני מים, הגבלות גודל קובץ, הורדות או הרשמות.",
+    "pdf_tools__split_pdf__title": "פיצול PDF - הפרדת עמודי PDF או הסרת עמודים | MaxAI.me",
+    "pdf_tools__split_pdf__description": "הפרדת עמודים ב-PDF שלך באינטרנט בחינם. ללא סימני מים, הגבלות גודל קובץ, הורדות או הרשמות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -651,6 +663,43 @@
     "components__to_image_detail__view_pages": "הצג עמודים",
     "components__to_image_detail__view_images": "הצג תמונות",
     "components__to_image__downloader_tip": "אנא בחר לפחות תמונה אחת.",
-    "components__to_image_detail__not_found_images": "לא נמצאה תמונה של PDF"
+    "components__to_image_detail__not_found_images": "לא נמצאה תמונה של PDF",
+    "components__to_image_detail__button__download__tooltip": "הורד תמונות בקובץ מדוחס",
+    "components__to_image_detail__button__view_images__tooltip": "צפה בתמונות שיוצאו מקובץ ה-PDF הזה",
+    "components__to_image_detail__button__view_pages__tooltip": "צפה בכל העמודים בקובץ ה-PDF הזה",
+    "components__to_image_detail__button__zoom_in__tooltip": "התקרב",
+    "components__to_image_detail__button__zoom_out__tooltip": "התרחק",
+    "components__to_image_detail__button__cancel__tooltip": "בטל את התהליך הנוכחי",
+    "components__to_image_detail__button__remove__tooltip": "הסר את קובץ ה-PDF הזה ובחר חדש"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__pdf_merge__add_pdf": "הוסף PDF",
+    "components__pdf_merge__empty_pdf": "נקה PDFs",
+    "components__pdf_merge__confirm_merge": "אשר מיזוג",
+    "components__pdf_merge__pdf_dropping": "ניתן לכוון את סדר ה- PDF על ידי גרירה ושחרור",
+    "components__pdf_merge__button__download__tooltip": "מיזוג והורדת PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "נקה את כל ה- PDF למטה",
+    "components__pdf_merge__button__add_pdfs__tooltip": "הוסף קובץ PDF למטה"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__pdf_split__add_pdf": "הוסף PDF",
+    "components__pdf_spli__remove_pdf": "הסר PDF",
+    "components__pdf_split__select_all": "בחר הכל",
+    "components__pdf_split__deselect_all": "בטל בחירת הכל",
+    "components__pdf_split__confirm_split": "אשר לפצל",
+    "components__pdf_split__pdf_dropping": "ניתן לכוון את סדר ה-PDF על ידי גרירה ושחרור",
+    "components__pdf_split__is_single_pdf": "מזג עמודים שנבחרו ל-PDF יחיד",
+    "components__pdf_split__cancel": "ביטול",
+    "components__pdf_split__error_maximum": "נכשל בפיצול קבצי PDF, חרג מהכמות המרבית",
+    "components__pdf_split__button__zoom_in__tooltip": "התקרב",
+    "components__pdf_split__button__zoom_out__tooltip": "התרחק",
+    "components__pdf_split__button__remove__tooltip": "הסר את קובץ ה-PDF הזה ובחר חדש",
+    "components__pdf_split__button__download__tooltip": "פיצול והורדת PDF",
+    "components__pdf_split__button__cancel__tooltip": "בטל את התהליך הנוכחי"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לנהל את ה- PDF, דילג"
   }
 }

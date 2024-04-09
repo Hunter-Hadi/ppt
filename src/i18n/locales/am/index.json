@@ -360,11 +360,13 @@
     "tools__index_page__title": "መክፈቻዎች MaxAI",
     "tools__index_page__description": "ሁሉንም PDF መሳሪያዎች በእርስዎ የተከሰተ ናቸው፣ እና በገንዘብዎ ላይ ለማግኘት የሚገባውን በመጠቀም በማሳየት የሚያስችል ነው",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ወደ PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ወደ PNG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል",
+    "tools__index_page__constant_obj__pdf_to_png__description": "የመፃፍ PDF ገጽን በ PNG ምስል ለመውሰድ ወይም PDF ከሚገኘው ምስል የተገኘውን ምስልን በ PNG ምስል ለመውሰድ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ወደ JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ወደ JPEG ለማስቀመጥ እና መልኩን በሚያደርግ ህጫ እንዲያውም የሚያውቅ ምስል",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "የመፃፍ PDF ገጽን በ JPEG ምስል ለመውሰድ ወይም PDF ከሚገኘው ምስል የተገኘውን ምስልን በ JPEG ምስል ለመውሰድ",
     "tools__index_page__constant_obj__merge_pdfs__title": "ፕድን ማርገዝ",
-    "tools__index_page__constant_obj__merge_pdfs__description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ"
+    "tools__index_page__constant_obj__merge_pdfs__description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ",
+    "tools__index_page__constant_obj__split_a_pdf__title": "ፕድስ አርትስን መሸጥ",
+    "tools__index_page__constant_obj__split_a_pdf__description": "የተመረጡ ገጽዎች አንድ አርትስ ፎቶ በመሸጥ ይቻላል። ማንኛውም ገጽ አንድ አርትስ ፎቶ አንድ ፎቶ ለመቀነስ ይቻላል።"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "በቀላሉ የAI እንግሊዝን በመጠቀም የሚታይ በጣም የሚገኙት የተለያዩ ጥቅሞችን በደብቅ እና በደብቅ የሚሆኑ የቃላትን ጥቅሞች በደብቅ ያስተካክሉ።",
     "install__title": "አጥፊዎች | MaxAI.me",
     "zmo__title": "ሁሉንም AI የሚለውን የአስተካክለሁ የአርት ገጽ አርት ጀምሮ የሚለውን ማስታወቂያ የሚገኘውን ምስል እና ምስል የሚገኘውን ምስል በጣም የሚሰራውን የእንግሊዝን መስታወቂያ በጣም የሚገኘውን ምስል እንዴት እንደሚሰራው ይግቡ።",
-    "zmo__description": "በAI ነጻ እና ምስል ለመጠቀም የሚለውን ማስታወቂያ የሚገኘውን ምስል እና ምስል የሚገኘውን ምስል በጣም የሚሰራውን የእንግዳ አርት ገጽ እንዴት እንደሚሰራው ይግቡ።"
+    "zmo__description": "በAI ነጻ እና ምስል ለመጠቀም የሚለውን ማስታወቂያ የሚገኘውን ምስል እና ምስል የሚገኘውን ምስል በጣም የሚሰራውን የእንግዳ አርት ገጽ እንዴት እንደሚሰራው ይግቡ።",
+    "pdf_tools__title": "ነፃ የ PDF ትርጉም - በነፃ እናትራሻ እና አስተካክል የ PDF ፎርማትን በመካከል በነፃ | MaxAI.me",
+    "pdf_tools__description": "የቅንጅቶችን ስልክ በነፃ እናትራሻ እና አስተካክል የ PDF ፎርማትን በመካከል በነፃ ነፃ የተሰራጨ ቡድን ስልክ ማድረግ ይችላሉ።",
+    "pdf_tools__pdf_to_jpeg__title": "PDF ለ JPEG - የሚለውን PDF ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "የሚለውን PDF ገጽዎን ለ JPEG ምስሎች ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ ይቀይሩ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
+    "pdf_tools__pdf_to_png__title": "PDF ለ PNG - የሚለውን PDF ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "የሚለውን PDF ገጽዎን ለ PNG ምስሎች ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ ይቀይሩ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
+    "pdf_tools__merge_pdfs__title": "PDF ለማሰናጃ - የሚለውን PDF ፋይሎችን በነፃ እንዴት ማሰናጃ | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "የሚለውን PDF ፋይሎችን ለመሰናጃ የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
+    "pdf_tools__split_pdf__title": "PDF ለማስቀመጥ - የሚለውን PDF ገጽዎን ወይም ገጽዎን አጥፋ | MaxAI.me",
+    "pdf_tools__split_pdf__description": "የሚለውን PDF ገጽዎን በነፃ ማስቀመጥ ይችላሉ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።"
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "ገጽዎን ይመልከቱ",
     "components__to_image_detail__view_images": "ምስልን ይመልከቱ",
     "components__to_image__downloader_tip": "እባክዎ ማስጫኑን ሁሉንም ይምረጡ",
-    "components__to_image_detail__not_found_images": "PDF ምስል አልተገኘም"
+    "components__to_image_detail__not_found_images": "PDF ምስል አልተገኘም",
+    "components__to_image_detail__button__download__tooltip": "የተሳሳተ ምስሎችን አውርድ",
+    "components__to_image_detail__button__view_images__tooltip": "የPDF ውሂብን በዚህ ገጽ መመልከት",
+    "components__to_image_detail__button__view_pages__tooltip": "የPDF ህግን በዚህ ገጽ መመልከት",
+    "components__to_image_detail__button__zoom_in__tooltip": "መጠን አግኝ",
+    "components__to_image_detail__button__zoom_out__tooltip": "መጠን ያልጠፋ",
+    "components__to_image_detail__button__cancel__tooltip": "የሚጠብቁ ክፍሎችን ይተውል",
+    "components__to_image_detail__button__remove__tooltip": "ይጠፋል የPDF እና ነጥብ ማስወገጃ ይሰርዝ"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "እባክዎ የተጠቃሚውን PDF ፋይል አስገቡ",
+    "components__pdf_merge__add_pdf": "PDF ጨምር",
+    "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
+    "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
+    "components__pdf_merge__pdf_dropping": "የ PDF ክፍልን በማስተላለፍ ይሻላል",
+    "components__pdf_merge__button__download__tooltip": "አውርድ እና የPDF አጽዳፊዎች",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "ሁሉንም PDF ወደፊት አጽዳ",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF ፋይል ወደፊት ጨምር"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "እባክዎ የተጠቀሱ PDF ፋይል አስገቡ",
+    "components__pdf_split__add_pdf": "PDF አክል",
+    "components__pdf_spli__remove_pdf": "PDF አስወግድ",
+    "components__pdf_split__select_all": "ሁሉንም ይምረጡ",
+    "components__pdf_split__deselect_all": "ሁሉንም ይምረጡ",
+    "components__pdf_split__confirm_split": "ማሳወቂያውን አረጋግጥ",
+    "components__pdf_split__pdf_dropping": "የ PDF ክፍል ቅጥፈትን በመስራት ላይ ይለውጡ",
+    "components__pdf_split__is_single_pdf": "የተመረጡ ገጽዎን በአንድ PDF ማንበብ",
+    "components__pdf_split__cancel": "ይቅር",
+    "components__pdf_split__error_maximum": "PDF ፋይሎችን ማስተካከያ አልተገኘም, የሚያስተካከዩ ብዛት ተገኝቷል",
+    "components__pdf_split__button__zoom_in__tooltip": "መጠን አግኝ",
+    "components__pdf_split__button__zoom_out__tooltip": "መጠን ያልጠፋ",
+    "components__pdf_split__button__remove__tooltip": "ይጠፋል የPDF እና ነጥብ ማስወገጃ ይሰርዝ",
+    "components__pdf_split__button__download__tooltip": "አጠቃላይ እና የPDF አጽዳፊዎች",
+    "components__pdf_split__button__cancel__tooltip": "የሚጠብቁ ክፍሎችን ይተውል"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው"
   }
 }

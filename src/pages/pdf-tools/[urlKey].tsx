@@ -2,8 +2,8 @@ import { GetStaticPaths, GetStaticProps } from 'next/types';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ParsedUrlQuery } from 'querystring';
 
-import ToolsDetail from '@/page_components/ToolsPages/components/ToolsDetail';
-import { toolsObjectData } from '@/page_components/ToolsPages/constant';
+import ToolsDetail from '@/page_components/PdfToolsPages/components/ToolsDetail';
+import { toolsObjectData } from '@/page_components/PdfToolsPages/constant';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const toolList = Object.keys(toolsObjectData).map((key) => key);

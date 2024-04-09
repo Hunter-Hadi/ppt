@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Eszköztár",
     "tools__index_page__description": "Minden PDF eszköz 100% INGYENES és a böngésződben fut, teljes adatvédelemmel",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-ra",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF átalakítása PNG formátumba és minden oldal letöltése képként",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportálja minden PDF oldalt PNG képként vagy különálló képeket hozzon létre a PDF-ből PNG formátumban",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-re",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF átalakítása JPEG formátumba és minden oldal letöltése képként",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportálja minden PDF oldalt JPEG képként vagy különálló képeket hozzon létre a PDF-ből JPEG formátumban",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF-ek egyesítése",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF felosztása",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Minden kiválasztott oldal külön PDF fájllá válik. Vagy alternatívaként összevonhatja a kiválasztott oldalakat egyetlen PDF fájlba."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Az AI leggyorsabb módja az online használatra. Egy kattintással írhat, javíthatja a szöveget, összefoglalhatja, magyarázhatja, helyesírást és nyelvtant javíthat, hangulatot változtathat, fordíthat vagy válaszolhat bármilyen szövegre.",
     "install__title": "Telepítés | MaxAI.me",
     "zmo__title": "Mindent egyben AI Design Art Generator | AI képgenerátor szövegből | ImgCreator.AI",
-    "zmo__description": "Hozzon létre művészetet és képeket AI segítségével ingyen. Az ImgCreator.ai generálhat képeket, művészetet, illusztrációkat, anime-t, logókat, terveket szövegből és képekből. Saját technológiánk életre kelti a képzeletedet."
+    "zmo__description": "Hozzon létre művészetet és képeket AI segítségével ingyen. Az ImgCreator.ai generálhat képeket, művészetet, illusztrációkat, anime-t, logókat, terveket szövegből és képekből. Saját technológiánk életre kelti a képzeletedet.",
+    "pdf_tools__title": "Ingyenes PDF Eszközök - PDF Konvertálás, Tömörítés és Szerkesztés Online | MaxAI.me",
+    "pdf_tools__description": "Fedezze fel gyűjteményünket, amely segít Önnek ingyenesen konvertálni, tömöríteni, szerkeszteni és aláírni a PDF fájlokat online.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - Bármely PDF konvertálása képekbe online ingyen | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Konvertálja a PDF oldalakat JPEG képekké vagy kinyerheti az egyedi képeket a PDF fájlokból online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
+    "pdf_tools__pdf_to_png__title": "PDF to PNG - Bármely PDF konvertálása képekbe online ingyen | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Konvertálja a PDF oldalakat PNG képekké vagy kinyerheti az egyedi képeket a PDF fájlokból online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
+    "pdf_tools__merge_pdfs__title": "PDF összevonása - PDF fájlok kombinálása online ingyen | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kombinálja a PDF fájlokat és hozzon létre egyetlen dokumentumot online ingyen. A PDF összevonóval könnyebb mint valaha a PDF-ek egyesítése. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
+    "pdf_tools__split_pdf__title": "PDF felosztása - PDF oldalak különválasztása vagy eltávolítása | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Egyszerűen válassza szét a PDF oldalakat online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Oldalak megtekintése",
     "components__to_image_detail__view_images": "Képek megtekintése",
     "components__to_image__downloader_tip": "Kérjük, válasszon ki legalább egy képet.",
-    "components__to_image_detail__not_found_images": "Nem található PDF kép"
+    "components__to_image_detail__not_found_images": "Nem található PDF kép",
+    "components__to_image_detail__button__download__tooltip": "Letöltés tömörített képekkel",
+    "components__to_image_detail__button__view_images__tooltip": "A kinyert képek megtekintése ebben a PDF-ben",
+    "components__to_image_detail__button__view_pages__tooltip": "Az összes oldal megtekintése ebben a PDF-ben",
+    "components__to_image_detail__button__zoom_in__tooltip": "Nagyítás",
+    "components__to_image_detail__button__zoom_out__tooltip": "Kicsinyítés",
+    "components__to_image_detail__button__cancel__tooltip": "Aktuális folyamat megszakítása",
+    "components__to_image_detail__button__remove__tooltip": "Ez a PDF eltávolítása és új kiválasztása"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
+    "components__pdf_merge__add_pdf": "PDF hozzáadása",
+    "components__pdf_merge__empty_pdf": "PDF-ek törlése",
+    "components__pdf_merge__confirm_merge": "Összevonás megerősítése",
+    "components__pdf_merge__pdf_dropping": "A PDF sorrendjét húzás és ejtés segítségével állíthatja be",
+    "components__pdf_merge__button__download__tooltip": "PDF egyesítése és letöltése",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Az alábbi összes PDF törlése",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF fájl hozzáadása alul"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
+    "components__pdf_split__add_pdf": "PDF hozzáadása",
+    "components__pdf_spli__remove_pdf": "PDF eltávolítása",
+    "components__pdf_split__select_all": "Összes kiválasztása",
+    "components__pdf_split__deselect_all": "Összes kijelölés megszüntetése",
+    "components__pdf_split__confirm_split": "Felosztás megerősítése",
+    "components__pdf_split__pdf_dropping": "A PDF sorrendjét áthelyezéssel módosíthatja",
+    "components__pdf_split__is_single_pdf": "Kiválasztott oldalak egyesítése egyetlen PDF-be",
+    "components__pdf_split__cancel": "Mégse",
+    "components__pdf_split__error_maximum": "Nem sikerült a PDF fájlok felosztása, túllépte a maximális mennyiséget",
+    "components__pdf_split__button__zoom_in__tooltip": "Nagyítás",
+    "components__pdf_split__button__zoom_out__tooltip": "Kicsinyítés",
+    "components__pdf_split__button__remove__tooltip": "Ez a PDF eltávolítása és új kiválasztása",
+    "components__pdf_split__button__download__tooltip": "PDF szétválasztása és letöltése",
+    "components__pdf_split__button__cancel__tooltip": "Aktuális folyamat megszakítása"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "titkosított vagy rendellenes, a PDF manipulálása nem lehetséges, kihagyva"
   }
 }

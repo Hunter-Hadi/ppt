@@ -360,11 +360,13 @@
     "tools__index_page__title": "Công cụ MaxAI",
     "tools__index_page__description": "Tất cả các công cụ PDF đều MIỄN PHÍ 100% và chạy trên trình duyệt của bạn để bảo mật hoàn toàn",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF sang PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Chuyển đổi PDF sang PNG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Xuất mỗi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành các file PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF sang JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Chuyển đổi PDF sang JPEG và tải xuống từng trang dưới dạng hình ảnh",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Xuất mỗi trang PDF thành hình ảnh JPEG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành các file JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Gộp PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Chia một PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Mỗi trang được chọn sẽ trở thành một tệp PDF riêng biệt. Hoặc bạn có thể gộp các trang đã chọn vào một tệp PDF duy nhất."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Cách nhanh nhất để sử dụng trí tuệ nhân tạo mọi lúc mọi nơi trên mạng. Chỉ cần một cú nhấp chuột để soạn thảo, cải thiện viết, tóm tắt, giải thích, sửa chính tả và ngữ pháp, thay đổi ngữ điệu, dịch hoặc trả lời bất kỳ văn bản nào.",
     "install__title": "Cài đặt | MaxAI.me",
     "zmo__title": "Trình tạo nghệ thuật thiết kế AI toàn diện | Trình tạo hình ảnh AI từ văn bản | ImgCreator.AI",
-    "zmo__description": "Tạo nghệ thuật và hình ảnh với trí tuệ nhân tạo miễn phí. ImgCreator.ai có thể tạo ra hình ảnh, nghệ thuật, minh họa, anime, logo, thiết kế từ văn bản và hình ảnh. Công nghệ độc quyền của chúng tôi sẽ mang ý tưởng của bạn đến cuộc sống."
+    "zmo__description": "Tạo nghệ thuật và hình ảnh với trí tuệ nhân tạo miễn phí. ImgCreator.ai có thể tạo ra hình ảnh, nghệ thuật, minh họa, anime, logo, thiết kế từ văn bản và hình ảnh. Công nghệ độc quyền của chúng tôi sẽ mang ý tưởng của bạn đến cuộc sống.",
+    "pdf_tools__title": "Công cụ PDF miễn phí - Chuyển đổi, nén và chỉnh sửa PDF trực tuyến | MaxAI.me",
+    "pdf_tools__description": "Khám phá bộ công cụ của chúng tôi để giúp bạn chuyển đổi, nén, chỉnh sửa và ký PDF trực tuyến miễn phí.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF sang JPEG - Chuyển đổi PDF thành hình ảnh trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Chuyển đổi các trang PDF thành hình ảnh JPEG hoặc trích xuất từng hình ảnh riêng lẻ từ tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "pdf_tools__pdf_to_png__title": "PDF sang PNG - Chuyển đổi PDF thành hình ảnh trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Chuyển đổi các trang PDF thành hình ảnh PNG hoặc trích xuất từng hình ảnh riêng lẻ từ tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "pdf_tools__merge_pdfs__title": "Gộp PDF - Kết hợp các tệp PDF trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kết hợp các tệp PDF và tạo một tài liệu duy nhất trực tuyến miễn phí. Với công cụ kết hợp PDF của chúng tôi, việc gộp PDF trở nên dễ dàng hơn bao giờ hết. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "pdf_tools__split_pdf__title": "Tách PDF - Tách các trang PDF hoặc xóa trang | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Dễ dàng tách các trang trong tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",
@@ -617,7 +629,14 @@
     "components__to_image_detail__view_pages": "Xem trang",
     "components__to_image_detail__view_images": "Xem hình ảnh",
     "components__to_image__downloader_tip": "Vui lòng chọn ít nhất một hình ảnh.",
-    "components__to_image_detail__not_found_images": "Không tìm thấy hình ảnh PDF"
+    "components__to_image_detail__not_found_images": "Không tìm thấy hình ảnh PDF",
+    "components__to_image_detail__button__download__tooltip": "Tải xuống hình ảnh nén",
+    "components__to_image_detail__button__view_images__tooltip": "Xem các hình ảnh được trích xuất trong PDF này",
+    "components__to_image_detail__button__view_pages__tooltip": "Xem tất cả các trang trong PDF này",
+    "components__to_image_detail__button__zoom_in__tooltip": "Phóng to",
+    "components__to_image_detail__button__zoom_out__tooltip": "Thu nhỏ",
+    "components__to_image_detail__button__cancel__tooltip": "Hủy tiến trình hiện tại",
+    "components__to_image_detail__button__remove__tooltip": "Xóa PDF này và chọn một PDF mới"
   },
   "features_landing": {
     "cta_text": "Thêm vào Trình duyệt",
@@ -653,5 +672,35 @@
     "more_over_section__title": "Hơn Nữa",
     "more_over_section__description__part1": "MaxAI.me không chỉ là một công cụ dịch thuật - Đó là tiện ích duyệt web AI toàn diện của bạn. Với MaxAI.me, bạn có thể truy cập vào một loạt các tính năng được động lực bởi trí tuệ nhân tạo ngay trong trình duyệt của bạn, trên bất kỳ trang web nào bạn truy cập.",
     "more_over_section__description__part2": "Từ việc hỗ trợ viết và tóm tắt trang web cho đến ChatPDF và vẽ tranh AI, MaxAI.me giúp bạn đọc, viết và sáng tạo với sự trợ giúp từ các mô hình AI tiên tiến nhất, bao gồm ChatGPT, Claude và Gemini. Nâng cấp trải nghiệm duyệt web của bạn và mở khóa tiềm năng năng suất với MaxAI.me ngay hôm nay!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
+    "components__pdf_merge__add_pdf": "Thêm PDF",
+    "components__pdf_merge__empty_pdf": "Xóa PDF",
+    "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
+    "components__pdf_merge__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả",
+    "components__pdf_merge__button__download__tooltip": "Gộp và tải xuống PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Xóa tất cả các PDF bên dưới",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Thêm tệp PDF bên dưới"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
+    "components__pdf_split__add_pdf": "Thêm PDF",
+    "components__pdf_spli__remove_pdf": "Xóa PDF",
+    "components__pdf_split__select_all": "Chọn tất cả",
+    "components__pdf_split__deselect_all": "Bỏ chọn tất cả",
+    "components__pdf_split__confirm_split": "Xác nhận để chia nhỏ",
+    "components__pdf_split__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả",
+    "components__pdf_split__is_single_pdf": "Gộp các trang đã chọn thành một tệp PDF duy nhất",
+    "components__pdf_split__cancel": "Hủy",
+    "components__pdf_split__error_maximum": "Không thể chia nhỏ tệp PDF, Vượt quá số lượng tối đa",
+    "components__pdf_split__button__zoom_in__tooltip": "Phóng to",
+    "components__pdf_split__button__zoom_out__tooltip": "Thu nhỏ",
+    "components__pdf_split__button__remove__tooltip": "Xóa PDF này và chọn một PDF mới",
+    "components__pdf_split__button__download__tooltip": "Tách và tải xuống PDF",
+    "components__pdf_split__button__cancel__tooltip": "Hủy tiến trình hiện tại"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "đã được mã hóa hoặc không bình thường, không thể thao tác với PDF, đã bỏ qua"
   }
 }

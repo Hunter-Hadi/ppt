@@ -360,11 +360,13 @@
     "tools__index_page__title": "เครื่องมือ MaxAI",
     "tools__index_page__description": "เครื่องมือ PDF ทั้งหมดเป็นฟรี 100% และทำงานในเบราว์เซอร์ของคุณเพื่อความเป็นส่วนตัวที่สมบูรณ์",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF เป็น PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "แปลง PDF เป็น PNG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__pdf_to_png__description": "ส่งออกแต่ละหน้าของ PDF เป็นรูปภาพ PNG หรือสกัดรูปภาพบุคคลจาก PDF เป็น JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF เป็น JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "แปลง PDF เป็น JPEG และดาวน์โหลดแต่ละหน้าเป็นรูปภาพ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ส่งออกแต่ละหน้าของ PDF เป็นรูปภาพ JPEG หรือสกัดรูปภาพบุคคลจาก PDF เป็น JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "รวม PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก"
+    "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก",
+    "tools__index_page__constant_obj__split_a_pdf__title": "แยกไฟล์ PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "แต่ละหน้าที่เลือกจะกลายเป็นไฟล์ PDF แยกต่างหาก หรือคุณสามารถรวมหน้าที่เลือกเข้าด้วยกันเป็นไฟล์ PDF เดียว"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "วิธีที่รวดเร็วที่สุดในการใช้ AI ทุกที่ออนไลน์ คลิกเพียงครั้งเดียวเพื่อเขียน ปรับปรุงการเขียน สรุป อธิบาย แก้ไขการสะกดคำและไวยกรณ์ เปลี่ยนลักษณะเสียง แปลหรือตอบกลับข้อความใด ๆ",
     "install__title": "ติดตั้ง | MaxAI.me",
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
-    "zmo__description": "สร้างศิลปะและภาพด้วย AI ฟรี ImgCreator.ai สามารถสร้างภาพ ศิลปะ ภาพประกอบ อนิเมะ โลโก้ การออกแบบจากข้อความและภาพได้ เทคโนโลยีที่เป็นกรรมสิทธิ์ของเราจะทำให้จินตนาการของคุณเป็นจริง"
+    "zmo__description": "สร้างศิลปะและภาพด้วย AI ฟรี ImgCreator.ai สามารถสร้างภาพ ศิลปะ ภาพประกอบ อนิเมะ โลโก้ การออกแบบจากข้อความและภาพได้ เทคโนโลยีที่เป็นกรรมสิทธิ์ของเราจะทำให้จินตนาการของคุณเป็นจริง",
+    "pdf_tools__title": "เครื่องมือ PDF ฟรี - แปลง บีบอัด และแก้ไข PDF ออนไลน์ | MaxAI.me",
+    "pdf_tools__description": "สำรวจคอลเลกชันของเครื่องมือเพื่อช่วยให้คุณแปลง บีบอัด แก้ไข และเซ็นต์ PDF ออนไลน์ได้ฟรี",
+    "pdf_tools__pdf_to_jpeg__title": "PDF เป็น JPEG - แปลง PDF เป็นรูปภาพ JPEG ออนไลน์ฟรี | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "แปลงหน้าของ PDF เป็นรูปภาพ JPEG หรือสกัดรูปภาพแต่ละรูปจากไฟล์ PDF ของคุณออนไลน์ฟรี ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
+    "pdf_tools__pdf_to_png__title": "PDF เป็น PNG - แปลง PDF เป็นรูปภาพ PNG ออนไลน์ฟรี | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "แปลงหน้าของ PDF เป็นรูปภาพ PNG หรือสกัดรูปภาพแต่ละรูปจากไฟล์ PDF ของคุณออนไลน์ฟรี ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
+    "pdf_tools__merge_pdfs__title": "รวม PDF - รวมไฟล์ PDF ออนไลน์ฟรี | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "รวมไฟล์ PDF เข้าด้วยกันและสร้างเป็นเอกสารเดียวออนไลน์ฟรี ด้วยตัวรวม PDF ของเรา การรวม PDF ไม่เคยง่ายขึ้นมาก่อน ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
+    "pdf_tools__split_pdf__title": "แยก PDF - แยกหน้า PDF หรือลบหน้า | MaxAI.me",
+    "pdf_tools__split_pdf__description": "แยกหน้าใน PDF ของคุณออนไลน์ฟรี ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",
@@ -617,7 +629,14 @@
     "components__to_image_detail__view_pages": "ดูหน้า",
     "components__to_image_detail__view_images": "ดูรูปภาพ",
     "components__to_image__downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ",
-    "components__to_image_detail__not_found_images": "ไม่พบรูปภาพจาก PDF"
+    "components__to_image_detail__not_found_images": "ไม่พบรูปภาพจาก PDF",
+    "components__to_image_detail__button__download__tooltip": "ดาวน์โหลดรูปภาพที่ถูกบีบอัดเป็นไฟล์ซิป",
+    "components__to_image_detail__button__view_images__tooltip": "ดูรูปภาพที่ถูกแยกออกจาก PDF นี้",
+    "components__to_image_detail__button__view_pages__tooltip": "ดูหน้าทั้งหมดใน PDF นี้",
+    "components__to_image_detail__button__zoom_in__tooltip": "ขยายภาพ",
+    "components__to_image_detail__button__zoom_out__tooltip": "ย่อภาพ",
+    "components__to_image_detail__button__cancel__tooltip": "ยกเลิกความคืบหน้าปัจจุบัน",
+    "components__to_image_detail__button__remove__tooltip": "ลบ PDF นี้และเลือกใหม่"
   },
   "features_landing": {
     "cta_text": "เพิ่มในเบราว์เซอร์",
@@ -653,5 +672,35 @@
     "more_over_section__title": "มากกว่า",
     "more_over_section__description__part1": "MaxAI.me ไม่ใช่เพียงเครื่องมือแปลเท่านั้น - เป็นส่วนขยายเบราว์เซอร์ที่ใช้ AI ทั้งหมดของคุณได้อย่างครบวงจร ด้วย MaxAI.me คุณสามารถเข้าถึงคุณสมบัติขับเคลื่อนด้วย AI ที่หลากหลายได้ตรงในเบราว์เซอร์ของคุณบนเว็บไซต์ใดก็ได้",
     "more_over_section__description__part2": "ตั้งแต่การช่วยเขียนและสรุปหน้าเว็บไปจนถึง ChatPDF และการวาดภาพด้วย AI  MaxAI.me ช่วยให้คุณอ่าน เขียน และสร้างสรรค์ด้วยความช่วยเหลือจากโมเดล AI ที่ทันสมัยที่สุด เช่น ChatGPT, Claude, และ Gemini อัพเกรดประสบการณ์การเรียกดูของคุณและปลดล็อกศักยภาพในการผลิตภัณฑ์ของคุณด้วย MaxAI.me วันนี้!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components__pdf_merge__add_pdf": "เพิ่ม PDF",
+    "components__pdf_merge__empty_pdf": "ล้าง PDF",
+    "components__pdf_merge__confirm_merge": "ยืนยันการรวม",
+    "components__pdf_merge__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง",
+    "components__pdf_merge__button__download__tooltip": "รวมและดาวน์โหลด PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "ล้าง PDF ทั้งหมดด้านล่าง",
+    "components__pdf_merge__button__add_pdfs__tooltip": "เพิ่มไฟล์ PDF ด้านล่าง"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components__pdf_split__add_pdf": "เพิ่ม PDF",
+    "components__pdf_spli__remove_pdf": "ลบ PDF",
+    "components__pdf_split__select_all": "เลือกทั้งหมด",
+    "components__pdf_split__deselect_all": "ไม่เลือกทั้งหมด",
+    "components__pdf_split__confirm_split": "ยืนยันการแยก",
+    "components__pdf_split__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง",
+    "components__pdf_split__is_single_pdf": "ผสานหน้าที่เลือกเป็นไฟล์ PDF เดียว",
+    "components__pdf_split__cancel": "ยกเลิก",
+    "components__pdf_split__error_maximum": "การแยกไฟล์ PDF ล้มเหลว จำนวนเกินขีดจำกัด",
+    "components__pdf_split__button__zoom_in__tooltip": "ขยายภาพ",
+    "components__pdf_split__button__zoom_out__tooltip": "ย่อภาพ",
+    "components__pdf_split__button__remove__tooltip": "ลบ PDF นี้และเลือกใหม่",
+    "components__pdf_split__button__download__tooltip": "แยกและดาวน์โหลด PDF",
+    "components__pdf_split__button__cancel__tooltip": "ยกเลิกความคืบหน้าปัจจุบัน"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถจัดการไฟล์ PDF ได้ ข้าม"
   }
 }

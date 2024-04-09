@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI ツール",
     "tools__index_page__description": "すべてのPDFツールは100％無料であり、完全なプライバシーのためにブラウザで実行されます",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDFからPNGへ",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDFをPNGに変換し、各ページを画像としてダウンロードします",
+    "tools__index_page__constant_obj__pdf_to_png__description": "PDFの各ページをPNGイメージとしてエクスポートするか、PDFから個別のイメージを抽出します",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDFからJPEGへ",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDFをJPEGに変換し、各ページを画像としてダウンロードします",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDFの各ページをJPEGイメージとしてエクスポートするか、PDFから個別のイメージを抽出します",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDFの結合",
-    "tools__index_page__constant_obj__merge_pdfs__description": "数回のクリックで複数のPDFファイルを1つに結合します"
+    "tools__index_page__constant_obj__merge_pdfs__description": "数回のクリックで複数のPDFファイルを1つに結合します",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDFを分割する",
+    "tools__index_page__constant_obj__split_a_pdf__description": "選択した各ページは個別のPDFファイルになります。また、選択したページを1つのPDFファイルに結合することもできます。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "オンラインでどこでもAIを使用する最速の方法。クリックひとつで、テキストの作成、改善、要約、説明、スペルや文法の修正、トーンの変更、翻訳、または返信ができます。",
     "install__title": "インストール | MaxAI.me",
     "zmo__title": "オールインワンAIデザインアートジェネレーター | テキストからAI画像生成 | ImgCreator.AI",
-    "zmo__description": "無料でAIを使用してアートや画像を作成しましょう。ImgCreator.aiはテキストや画像からイメージ、アート、イラスト、アニメーション、ロゴ、デザインを生成することができます。私たちの独自の技術があなたの想像力を実現します。"
+    "zmo__description": "無料でAIを使用してアートや画像を作成しましょう。ImgCreator.aiはテキストや画像からイメージ、アート、イラスト、アニメーション、ロゴ、デザインを生成することができます。私たちの独自の技術があなたの想像力を実現します。",
+    "pdf_tools__title": "無料PDFツール - オンラインで変換、圧縮、編集 | MaxAI.me",
+    "pdf_tools__description": "無料でオンラインでPDFを変換、圧縮、編集、署名するためのツールのコレクションをご覧ください。",
+    "pdf_tools__pdf_to_jpeg__title": "PDFをJPEGに変換 - 無料でオンラインでPDFを画像に変換する | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "PDFのページをJPEG画像に変換するか、PDFファイルから個別の画像を無料で抽出します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__pdf_to_png__title": "PDFをPNGに変換 - 無料でオンラインでPDFを画像に変換する | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "PDFのページをPNG画像に変換するか、PDFファイルから個別の画像を無料で抽出します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__merge_pdfs__title": "PDFを結合 - 無料でオンラインでPDFファイルを結合する | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "PDFファイルを結合して単一のドキュメントを無料で作成します。PDFコンバイナーを使用すれば、PDFの結合がこれまで以上に簡単になります。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__split_pdf__title": "PDFを分割 - PDFのページを分離または削除する | MaxAI.me",
+    "pdf_tools__split_pdf__description": "簡単にPDFのページを無料で分割します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "ページを表示",
     "components__to_image_detail__view_images": "画像を表示",
     "components__to_image__downloader_tip": "少なくとも1つの画像を選択してください",
-    "components__to_image_detail__not_found_images": "PDFの画像が見つかりません"
+    "components__to_image_detail__not_found_images": "PDFの画像が見つかりません",
+    "components__to_image_detail__button__download__tooltip": "画像を圧縮してダウンロード",
+    "components__to_image_detail__button__view_images__tooltip": "このPDFで抽出された画像を表示",
+    "components__to_image_detail__button__view_pages__tooltip": "このPDFのすべてのページを表示",
+    "components__to_image_detail__button__zoom_in__tooltip": "拡大",
+    "components__to_image_detail__button__zoom_out__tooltip": "縮小",
+    "components__to_image_detail__button__cancel__tooltip": "現在の進行状況をキャンセル",
+    "components__to_image_detail__button__remove__tooltip": "このPDFを削除し、新しいものを選択"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
+    "components__pdf_merge__add_pdf": "PDFを追加",
+    "components__pdf_merge__empty_pdf": "PDFをクリア",
+    "components__pdf_merge__confirm_merge": "マージを確認",
+    "components__pdf_merge__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます",
+    "components__pdf_merge__button__download__tooltip": "PDFを結合してダウンロード",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "以下のすべてのPDFをクリア",
+    "components__pdf_merge__button__add_pdfs__tooltip": "以下にPDFファイルを追加"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
+    "components__pdf_split__add_pdf": "PDFを追加",
+    "components__pdf_spli__remove_pdf": "PDFを削除",
+    "components__pdf_split__select_all": "すべて選択",
+    "components__pdf_split__deselect_all": "すべて選択解除",
+    "components__pdf_split__confirm_split": "分割を確認",
+    "components__pdf_split__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます",
+    "components__pdf_split__is_single_pdf": "選択したページを1つのPDFに結合する",
+    "components__pdf_split__cancel": "キャンセル",
+    "components__pdf_split__error_maximum": "PDFファイルの分割に失敗しました。最大数量を超えています",
+    "components__pdf_split__button__zoom_in__tooltip": "拡大",
+    "components__pdf_split__button__zoom_out__tooltip": "縮小",
+    "components__pdf_split__button__remove__tooltip": "このPDFを削除し、新しいものを選択",
+    "components__pdf_split__button__download__tooltip": "PDFを分割してダウンロード",
+    "components__pdf_split__button__cancel__tooltip": "現在の進行状況をキャンセル"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました"
   }
 }

@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Työkalut",
     "tools__index_page__description": "Kaikki PDF-työkalut ovat 100% ILMAISIA ja toimivat selaimessasi täydellisen yksityisyyden varmistamiseksi",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Muunna PDF PNG:ksi ja lataa jokainen sivu kuvana",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Vie jokainen PDF-sivu PNG-kuvaksi tai pura yksittäiset kuvat PDF:stä PNG-muotoon",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Muunna PDF JPEG:ksi ja lataa jokainen sivu kuvana",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Vie jokainen PDF-sivu JPEG-kuvaksi tai pura yksittäiset kuvat PDF:stä JPEG-muotoon",
     "tools__index_page__constant_obj__merge_pdfs__title": "Yhdistä PDF-tiedostoja",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Jaa PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Jokainen valittu sivu tulee erilliseksi PDF-tiedostoksi. Vaihtoehtoisesti voit yhdistää valitut sivut yhdeksi PDF-tiedostoksi."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Nopein tapa käyttää tekoälyä verkossa. Yhdellä klikkauksella voit kirjoittaa, parantaa kirjoitustasi, tiivistää, selittää, korjata oikeinkirjoitusta ja kielioppia, muuttaa sävyä, kääntää tai vastata mihin tahansa tekstiin.",
     "install__title": "Asenna | MaxAI.me",
     "zmo__title": "Kaikki yhdessä AI-suunnittelutaiteen generaattori | AI-kuvan generaattori tekstistä | ImgCreator.AI",
-    "zmo__description": "Luo taidetta ja kuvia tekoälyn avulla ilmaiseksi. ImgCreator.ai voi generoida kuvia, taidetta, kuvituksia, animea, logoja, suunnitelmia tekstistä ja kuvista. Oma teknologiamme herättää mielikuvituksesi eloon."
+    "zmo__description": "Luo taidetta ja kuvia tekoälyn avulla ilmaiseksi. ImgCreator.ai voi generoida kuvia, taidetta, kuvituksia, animea, logoja, suunnitelmia tekstistä ja kuvista. Oma teknologiamme herättää mielikuvituksesi eloon.",
+    "pdf_tools__title": "Ilmaiset PDF-työkalut - Muunna, pakkaa ja muokkaa PDF-tiedostoja verkossa | MaxAI.me",
+    "pdf_tools__description": "Tutustu kokoelmaamme työkaluja, jotka auttavat sinua muuntamaan, pakkaamaan, muokkaamaan ja allekirjoittamaan PDF-tiedostoja ilmaiseksi verkossa.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF JPEG - Muunna PDF-tiedostot kuviksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Muunna PDF-sivut JPEG-kuviksi tai poimi yksittäiset kuvat PDF-tiedostoistasi ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "pdf_tools__pdf_to_png__title": "PDF PNG - Muunna PDF-tiedostot kuviksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Muunna PDF-sivut PNG-kuviksi tai poimi yksittäiset kuvat PDF-tiedostoistasi ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "pdf_tools__merge_pdfs__title": "Yhdistä PDF – Yhdistä PDF-tiedostot verkossa ilmaiseksi | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Yhdistä PDF-tiedostot ja luo yksi asiakirja verkossa ilmaiseksi. PDF-yhdistimellämme PDF-tiedostojen yhdistäminen on helpompaa kuin koskaan. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "pdf_tools__split_pdf__title": "Jaa PDF - Jaa PDF-sivut tai poista sivuja | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Jaa helposti sivut PDF-tiedostossasi verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Näytä sivut",
     "components__to_image_detail__view_images": "Näytä kuvat",
     "components__to_image__downloader_tip": "Valitse vähintään yksi kuva.",
-    "components__to_image_detail__not_found_images": "PDF-kuvaa ei löytynyt"
+    "components__to_image_detail__not_found_images": "PDF-kuvaa ei löytynyt",
+    "components__to_image_detail__button__download__tooltip": "Lataa pakattuja kuvia",
+    "components__to_image_detail__button__view_images__tooltip": "Näytä tämän PDF:n eristetyt kuvat",
+    "components__to_image_detail__button__view_pages__tooltip": "Näytä kaikki tämän PDF:n sivut",
+    "components__to_image_detail__button__zoom_in__tooltip": "Lähennä",
+    "components__to_image_detail__button__zoom_out__tooltip": "Loitonna",
+    "components__to_image_detail__button__cancel__tooltip": "Peruuta nykyinen edistyminen",
+    "components__to_image_detail__button__remove__tooltip": "Poista tämä PDF ja valitse uusi"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__pdf_merge__add_pdf": "Lisää PDF",
+    "components__pdf_merge__empty_pdf": "Tyhjennä PDF:t",
+    "components__pdf_merge__confirm_merge": "Vahvista yhdistäminen",
+    "components__pdf_merge__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla",
+    "components__pdf_merge__button__download__tooltip": "Yhdistä ja lataa PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Tyhjennä kaikki alla olevat PDF-tiedostot",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Lisää PDF-tiedosto alle"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__pdf_split__add_pdf": "Lisää PDF-tiedostoja",
+    "components__pdf_spli__remove_pdf": "Poista PDF",
+    "components__pdf_split__select_all": "Valitse kaikki",
+    "components__pdf_split__deselect_all": "Poista valinta kaikista",
+    "components__pdf_split__confirm_split": "Vahvista jakaminen",
+    "components__pdf_split__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla",
+    "components__pdf_split__is_single_pdf": "Yhdistä valitut sivut yhdeksi PDF-tiedostoksi",
+    "components__pdf_split__cancel": "Peruuta",
+    "components__pdf_split__error_maximum": "PDF-tiedostojen jakaminen epäonnistui, ylitettiin enimmäismäärä",
+    "components__pdf_split__button__zoom_in__tooltip": "Lähennä",
+    "components__pdf_split__button__zoom_out__tooltip": "Loitonna",
+    "components__pdf_split__button__remove__tooltip": "Poista tämä PDF ja valitse uusi",
+    "components__pdf_split__button__download__tooltip": "Jaa ja lataa PDF",
+    "components__pdf_split__button__cancel__tooltip": "Peruuta nykyinen edistyminen"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "on salattu tai poikkeava, PDF-tiedostoa ei voi käsitellä, ohitettu"
   }
 }

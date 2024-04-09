@@ -389,17 +389,51 @@
     "tools__index_page__title": "MaxAI Tools",
     "tools__index_page__description": "All PDF tools are 100% FREE and run in your browser for complete privacy",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Convert PDF to PNG and download each page as an image",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Export each PDF page as a PNG image or extract individual images from the PDF to PNGs",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convert PDF to JPEG and download each page as an image",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
     "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Split a PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Each selected page will become a separate PDF file. Alternatively, you can merge selected pages into a single PDF file."
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_merge__add_pdf": "Add PDFs",
+    "components__pdf_merge__empty_pdf": "Clear PDFs",
+    "components__pdf_merge__confirm_merge": "Confirm to merge",
+    "components__pdf_merge__pdf_dropping": "You can adjust the PDF order by dragging and dropping",
+
+    "components__pdf_merge__button__download__tooltip": "Merge and download PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Clear all PDFs below",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_split__add_pdf": "Add PDFs",
+    "components__pdf_spli__remove_pdf": "Remove PDF",
+    "components__pdf_split__select_all": "Select All",
+    "components__pdf_split__deselect_all": "Deselect all",
+    "components__pdf_split__confirm_split": "Confirm to split",
+    "components__pdf_split__pdf_dropping": "You can adjust the PDF order by dragging and dropping",
+    "components__pdf_split__is_single_pdf": "Merge selected pages into a single PDF",
+    "components__pdf_split__cancel": "Cancel",
+    "components__pdf_split__error_maximum": "Failed to split PDF files, Exceeded maximum quantity",
+
+    "components__pdf_split__button__zoom_in__tooltip": "Zoom in",
+    "components__pdf_split__button__zoom_out__tooltip": "Zoom out",
+    "components__pdf_split__button__remove__tooltip": "Remove this PDF and select a new one",
+    "components__pdf_split__button__download__tooltip": "Split and download PDF",
+    "components__pdf_split__button__cancel__tooltip": "Cancel current progress"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Click to upload or drag and drop",
     "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__to_image_detail__select_all": "Select All",
-    "components__to_image_detail__deselect_all": "Deselect All",
+    "components__to_image_detail__deselect_all": "Deselect all",
     "components__to_image_detail__download_images": "Download images",
     "components__to_image_detail__remove_pdf": "Remove PDF",
     "components__to_image_detail__cancel": "Cancel",
@@ -408,7 +442,15 @@
     "components__to_image_detail__view_pages": "View pages",
     "components__to_image_detail__view_images": "View images",
     "components__to_image__downloader_tip": "Please select at least one image.",
-    "components__to_image_detail__not_found_images": "PDF image not found"
+    "components__to_image_detail__not_found_images": "PDF image not found",
+
+    "components__to_image_detail__button__download__tooltip": "Download zipped images",
+    "components__to_image_detail__button__view_images__tooltip": "View the extracted images in this PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "View all the pages in this PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zoom in",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zoom out",
+    "components__to_image_detail__button__cancel__tooltip": "Cancel current progress",
+    "components__to_image_detail__button__remove__tooltip": "Remove this PDF and select a new one"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -635,20 +677,20 @@
   "seo": {
     "default__title": "MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more.",
-    
+
     "maintain__title": "In maintenance | MaxAI.me",
 
     "affiliate__title": "Affiliate Program | MaxAI.me",
     "affiliate__description": "Get paid with MaxAI affiliate program. Join our affiliate program and earn 25% commission for sharing MaxAI!",
-    
+
     "contact_us__title": "Contact Us | MaxAI.me",
-    
+
     "email_unsubscribe_success__title": "Email unsubscribe success | MaxAI.me",
-    
+
     "learning_center__title": "Learning Center | MaxAI.me",
-    
+
     "pricing__title": "Pricing | MaxAI.me",
-    
+
     "privacy__title": "Privacy Policy | MaxAI.me",
     "privacy__description": "Read the MaxAI.me privacy policy.",
 
@@ -657,7 +699,7 @@
 
     "release_notes__title": "Release notes | MaxAI.me",
 
-    "share_conversation__title":"Share Conversation | MaxAI.me",
+    "share_conversation__title": "Share Conversation | MaxAI.me",
 
     "uninstall__title": "Uninstall | MaxAI.me",
 
@@ -679,10 +721,24 @@
     "install__title": "Install | MaxAI.me",
 
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
-    "zmo__description": "Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life."
+    "zmo__description": "Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life.",
+
+    "pdf_tools__title": "Free PDF Tools - Convert, Compress, and Edit PDFs Online | MaxAI.me",
+    "pdf_tools__description": "Explore our collection of tools to help you convert, compress, edit, and sign PDFs online for free.",
+
+    "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - Convert Any PDFs to Images Online for Free | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Convert PDF pages into JPEG images or extract individual images from your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__pdf_to_png__title": "PDF to PNG - Convert Any PDFs to Images Online for Free | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Convert PDF pages into PNG images or extract individual images from your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__merge_pdfs__title": "Merge PDF – Combine PDF Files Online for Free | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combine PDF files and create a single document online for free. With our PDF combiner, merging PDFs is easier than ever. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__split_pdf__title": "Split PDF - Separate PDF pages or remove pages | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Easily separate pages in your PDF online for free. No watermarks, file size limits, downloads, or sign-ups required."
   },
   "features_landing": {
-
     "cta_text": "Add to Browser",
 
     "youtube_summary_pages__title": "Summarize & Chat with YouTube Videos",
@@ -692,7 +748,6 @@
     "youtube_summary_pages__section2__title": "Chat with the Video",
     "youtube_summary_pages__section2__description": "Enhance your video comprehension with MaxAI's interactive chat feature. After generating the summary, you can engage in a conversation with the video, asking follow-up questions, seeking clarification, or exploring related topics. MaxAI will provide insightful responses, helping you gain a deeper understanding of the subject matter.",
 
-    
     "chat_pdf_pages__title": "Chat with Any PDF",
     "chat_pdf_pages__description": "Extract details and obtain answers from large PDF files such as manuals, essays, and books.",
     "chat_pdf_pages__section1__title": "ChatPDF with MaxAI",

@@ -3,8 +3,18 @@ interface ISwitchWithType {
   id: string;
   isSelect: boolean;
 }
-
-const useConvertedContentSelector = <T extends ISwitchWithType>(params: {
+/**
+ * 内容选择器功能
+  * 用于列表项的单选择功能/全选切换功能/识别是否全选
+ *
+ * @returns {Object} 包含以下属性的对象：
+ * - isSelectAll (boolean): 是否全选。
+ * - setIsSelectAll (function): 设置是否全选的函数。
+ * - onSwitchSelect (function): 单个选择切换的函数。
+ *   接受一个参数 id，表示要切换选择的项的 id。
+ * - onSwitchAllSelect (function): 全选切换的函数。
+ */
+const useFunctionalityConvertedContentSelector = <T extends ISwitchWithType>(params: {
   list: (T & ISwitchWithType)[];
   setList: (method: (prev: T[]) => T[]) => void;
 }) => {
@@ -36,4 +46,4 @@ const useConvertedContentSelector = <T extends ISwitchWithType>(params: {
     onSwitchAllSelect,
   };
 };
-export default useConvertedContentSelector;
+export default useFunctionalityConvertedContentSelector;

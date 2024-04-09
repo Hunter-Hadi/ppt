@@ -34,7 +34,7 @@ const ToolsBanner: FC<IToolsBannerProps> = ({ title, description }) => {
         sx={{
           fontSize: {
             xs: 30,
-            lg: 35,
+            lg: 36,
           },
           color: 'text.primary',
         }}
@@ -45,7 +45,7 @@ const ToolsBanner: FC<IToolsBannerProps> = ({ title, description }) => {
       <Typography
         sx={{
           fontSize: {
-            xs: 15,
+            xs: 14,
             lg: 16,
           },
           color: 'text.secondary',

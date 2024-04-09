@@ -360,11 +360,13 @@
     "tools__index_page__title": "Mga Kasangkapan ng MaxAI",
     "tools__index_page__description": "Lahat ng mga tool sa PDF ay 100% LIBRE at tumatakbo sa iyong browser para sa kumpletong privacy",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "I-convert ang PDF sa PNG at i-download ang bawat pahina bilang isang imahe",
+    "tools__index_page__constant_obj__pdf_to_png__description": "I-export ang bawat pahina ng PDF bilang isang larawan na PNG o i-extract ang mga indibidwal na larawan mula sa PDF papunta sa mga JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "I-convert ang PDF sa JPEG at i-download ang bawat pahina bilang isang imahe",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "I-export ang bawat pahina ng PDF bilang isang larawan na JPEG o i-extract ang mga indibidwal na larawan mula sa PDF papunta sa mga JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Pagsamahin ang mga PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Hatian ang PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Ang bawat napiling pahina ay magiging hiwalay na file ng PDF. Maaari rin ninyong pagsamahin ang mga napiling pahina sa isang solong file ng PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan online. Isang click para magsulat, magpabuti ng pagsusulat, magbuod, ipaliwanag, ayusin ang pagbaybay at gramatika, baguhin ang tono, isalin, o tumugon sa anumang teksto.",
     "install__title": "Mag-install | MaxAI.me",
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator Mula sa Teksto | ImgCreator.AI",
-    "zmo__description": "Lumikha ng sining at mga imahe gamit ang AI nang libre. Ang ImgCreator.ai ay maaaring lumikha ng mga imahe, sining, larawan, anime, logo, disenyo mula sa teksto at mga imahe. Ang aming sariling teknolohiya ay magbibigay-buhay sa iyong imahinasyon."
+    "zmo__description": "Lumikha ng sining at mga imahe gamit ang AI nang libre. Ang ImgCreator.ai ay maaaring lumikha ng mga imahe, sining, larawan, anime, logo, disenyo mula sa teksto at mga imahe. Ang aming sariling teknolohiya ay magbibigay-buhay sa iyong imahinasyon.",
+    "pdf_tools__title": "Libreng Mga Tool sa PDF - I-convert, I-kompres, at I-edit ang Mga PDF Online | MaxAI.me",
+    "pdf_tools__description": "Tuklasin ang aming koleksyon ng mga tool na tutulong sa iyo na i-convert, i-kompres, i-edit, at lagdaan ang mga PDF online nang libre.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF sa JPEG - I-convert ang Anumang PDFs sa Mga Larawan Online Nang Libre | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "I-convert ang mga pahina ng PDF sa mga larawang JPEG o kumuha ng mga indibidwal na larawan mula sa iyong mga file ng PDF online nang libre. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
+    "pdf_tools__pdf_to_png__title": "PDF sa PNG - I-convert ang Anumang PDFs sa Mga Larawan Online Nang Libre | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "I-convert ang mga pahina ng PDF sa mga larawang PNG o kumuha ng mga indibidwal na larawan mula sa iyong mga file ng PDF online nang libre. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
+    "pdf_tools__merge_pdfs__title": "Pagsamahin ang mga PDF - Pagsama-samahin ang Mga File ng PDF Online Nang Libre | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Pagsamahin ang mga file ng PDF at lumikha ng isang solong dokumento online nang libre. Sa aming PDF combiner, mas madali nang kailanman ang pagmimisa ng mga PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
+    "pdf_tools__split_pdf__title": "Hatian ang PDF - Hiwalayin ang Mga Pahina ng PDF o Alisin ang Mga Pahina | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Madaling hiwalayin ang mga pahina sa iyong PDF online nang libre. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Tingnan ang mga pahina",
     "components__to_image_detail__view_images": "Tingnan ang mga imahe",
     "components__to_image__downloader_tip": "Mangyaring pumili ng hindi bababa sa isang imahe.",
-    "components__to_image_detail__not_found_images": "Hindi natagpuan ang imahe ng PDF"
+    "components__to_image_detail__not_found_images": "Hindi natagpuan ang imahe ng PDF",
+    "components__to_image_detail__button__download__tooltip": "I-download ang mga naka-zip na imahe",
+    "components__to_image_detail__button__view_images__tooltip": "Tingnan ang mga inilabas na imahe sa PDF na ito",
+    "components__to_image_detail__button__view_pages__tooltip": "Tingnan ang lahat ng mga pahina sa PDF na ito",
+    "components__to_image_detail__button__zoom_in__tooltip": "Palakihin",
+    "components__to_image_detail__button__zoom_out__tooltip": "Paliitin",
+    "components__to_image_detail__button__cancel__tooltip": "Ihinto ang kasalukuyang progreso",
+    "components__to_image_detail__button__remove__tooltip": "Tanggalin ang PDF na ito at pumili ng bago"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
+    "components__pdf_merge__add_pdf": "Magdagdag ng PDF",
+    "components__pdf_merge__empty_pdf": "Burahin ang mga PDF",
+    "components__pdf_merge__confirm_merge": "Kumpirmahin ang pag-merge",
+    "components__pdf_merge__pdf_dropping": "Maaari mong ayusin ang pagkakasunud-sunod ng PDF sa pamamagitan ng pag-drag at drop",
+    "components__pdf_merge__button__download__tooltip": "Pagsamahin at i-download ang PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Tanggalin ang lahat ng PDF sa ibaba",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Magdagdag ng PDF file sa ibaba"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
+    "components__pdf_split__add_pdf": "Magdagdag ng mga PDF",
+    "components__pdf_spli__remove_pdf": "Tanggalin ang PDF",
+    "components__pdf_split__select_all": "Piliin Lahat",
+    "components__pdf_split__deselect_all": "Huwag Piliin Lahat",
+    "components__pdf_split__confirm_split": "Kumpirmahin ang paghihiwalay",
+    "components__pdf_split__pdf_dropping": "Maaari mong baguhin ang pagkakasunud-sunod ng mga PDF sa pamamagitan ng pag-drag at drop",
+    "components__pdf_split__is_single_pdf": "Pagsamahin ang mga piniling pahina sa isang PDF",
+    "components__pdf_split__cancel": " kanselahin",
+    "components__pdf_split__error_maximum": "Nabigo ang paghihiwalay ng mga file ng PDF, Lumampas sa maximum na dami",
+    "components__pdf_split__button__zoom_in__tooltip": "Palakihin",
+    "components__pdf_split__button__zoom_out__tooltip": "Paliitin",
+    "components__pdf_split__button__remove__tooltip": "Tanggalin ang PDF na ito at pumili ng bago",
+    "components__pdf_split__button__download__tooltip": "Hatian at i-download ang PDF",
+    "components__pdf_split__button__cancel__tooltip": "Ihinto ang kasalukuyang progreso"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip"
   }
 }

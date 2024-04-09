@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Alati",
     "tools__index_page__description": "Svi PDF alati su 100% BESPLATNI i pokreću se u vašem pregledniku za potpunu privatnost",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF u PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Pretvorite PDF u PNG i preuzmite svaku stranicu kao sliku",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Izvezi svaku stranicu PDF-a kao PNG sliku ili izdvoji pojedinačne slike iz PDF-a u PNG formatu",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF u JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Pretvorite PDF u JPEG i preuzmite svaku stranicu kao sliku",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Izvezi svaku stranicu PDF-a kao JPEG sliku ili izdvoji pojedinačne slike iz PDF-a u JPEG formatu",
     "tools__index_page__constant_obj__merge_pdfs__title": "Spoji PDF-ove",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF datoteka u jednu s samo nekoliko klikova"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF datoteka u jednu s samo nekoliko klikova",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Podijeli PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Svaka odabrana stranica postat će zaseban PDF datoteka. Opcionalno, možete spojiti odabrane stranice u jednu PDF datoteku."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Najbrži način korištenja AI-a bilo gdje online. Jednim klikom komponirajte, poboljšajte pisanje, sažmite, objasnite, ispravite pravopis i gramatiku, promijenite ton, prevedite ili odgovorite na bilo koji tekst.",
     "install__title": "Instalacija | MaxAI.me",
     "zmo__title": "Sve-u-jednom AI generator umjetnosti dizajna | Generator slika iz teksta | ImgCreator.AI",
-    "zmo__description": "Besplatno stvarajte umjetnost i slike s AI-om. ImgCreator.ai može generirati slike, umjetnost, ilustracije, anime, logotipe, dizajne iz teksta i slika. Naša vlasnička tehnologija će oživjeti vašu maštu."
+    "zmo__description": "Besplatno stvarajte umjetnost i slike s AI-om. ImgCreator.ai može generirati slike, umjetnost, ilustracije, anime, logotipe, dizajne iz teksta i slika. Naša vlasnička tehnologija će oživjeti vašu maštu.",
+    "pdf_tools__title": "Besplatni PDF alati - Pretvori, komprimiraj i uređuj PDF-ove online | MaxAI.me",
+    "pdf_tools__description": "Istražite našu kolekciju alata koji vam pomažu da besplatno pretvorite, komprimirate, uređujete i potpisujete PDF-ove online.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF u JPEG - Pretvori bilo koji PDF u slike online besplatno | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Pretvorite stranice PDF-a u JPEG slike ili izdvojite pojedinačne slike iz vaših PDF datoteka online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
+    "pdf_tools__pdf_to_png__title": "PDF u PNG - Pretvori bilo koji PDF u slike online besplatno | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Pretvorite stranice PDF-a u PNG slike ili izdvojite pojedinačne slike iz vaših PDF datoteka online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
+    "pdf_tools__merge_pdfs__title": "Spoji PDF - Kombiniraj PDF datoteke online besplatno | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Spojite PDF datoteke i stvorite jedan dokument online besplatno. S našim alatom za spajanje PDF-a, spajanje PDF-a je lakše nego ikad. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
+    "pdf_tools__split_pdf__title": "Razdvoji PDF - Odvojite stranice PDF-a ili uklonite stranice | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Lako odvojite stranice u vašem PDF-u online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija."
   },
   "features_landing": {
     "cta_text": "Dodaj u preglednik",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Pregledaj stranice",
     "components__to_image_detail__view_images": "Pregledaj slike",
     "components__to_image__downloader_tip": "Molimo odaberite barem jednu sliku.",
-    "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena"
+    "components__to_image_detail__not_found_images": "Slika PDF-a nije pronađena",
+    "components__to_image_detail__button__download__tooltip": "Preuzmi zipane slike",
+    "components__to_image_detail__button__view_images__tooltip": "Pregledaj izvađene slike u ovom PDF-u",
+    "components__to_image_detail__button__view_pages__tooltip": "Pregledaj sve stranice u ovom PDF-u",
+    "components__to_image_detail__button__zoom_in__tooltip": "Povećaj",
+    "components__to_image_detail__button__zoom_out__tooltip": "Smanji",
+    "components__to_image_detail__button__cancel__tooltip": "Otkaži trenutni postupak",
+    "components__to_image_detail__button__remove__tooltip": "Ukloni ovaj PDF i odaberi novi"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Molimo učitajte određeni tip PDF datoteke",
+    "components__pdf_merge__add_pdf": "Dodaj PDF",
+    "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
+    "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
+    "components__pdf_merge__pdf_dropping": "Možete prilagoditi redoslijed PDF-a povlačenjem i ispuštanjem",
+    "components__pdf_merge__button__download__tooltip": "Spoji i preuzmi PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Očisti sve PDF-ove ispod",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteku ispod"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Molimo učitajte određeni tip PDF datoteke",
+    "components__pdf_split__add_pdf": "Dodaj PDF-ove",
+    "components__pdf_spli__remove_pdf": "Ukloni PDF",
+    "components__pdf_split__select_all": "Odaberi sve",
+    "components__pdf_split__deselect_all": "Poništi odabir svih",
+    "components__pdf_split__confirm_split": "Potvrdi razdvajanje",
+    "components__pdf_split__pdf_dropping": "Možete prilagoditi redoslijed PDF-a povlačenjem i ispuštanjem",
+    "components__pdf_split__is_single_pdf": "Spoji odabrane stranice u jedan PDF",
+    "components__pdf_split__cancel": "Odustani",
+    "components__pdf_split__error_maximum": "Neuspjelo razdvajanje PDF datoteka, premašen je maksimalni broj",
+    "components__pdf_split__button__zoom_in__tooltip": "Povećaj",
+    "components__pdf_split__button__zoom_out__tooltip": "Smanji",
+    "components__pdf_split__button__remove__tooltip": "Ukloni ovaj PDF i odaberi novi",
+    "components__pdf_split__button__download__tooltip": "Razdvoji i preuzmi PDF",
+    "components__pdf_split__button__cancel__tooltip": "Otkaži trenutni postupak"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "je šifriran ili nepravilan, nije moguće manipulirati PDF-om, preskočeno"
   }
 }

@@ -360,11 +360,13 @@
     "tools__index_page__title": "Alat MaxAI",
     "tools__index_page__description": "Semua alat PDF adalah 100% PERCUMA dan berjalan dalam pelayar anda untuk privasi yang lengkap",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ke PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Tukar PDF ke PNG dan muat turun setiap halaman sebagai imej",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksport setiap halaman PDF sebagai imej PNG atau ekstrak imej individu dari PDF ke PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ke JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Tukar PDF ke JPEG dan muat turun setiap halaman sebagai imej",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksport setiap halaman PDF sebagai imej JPEG atau ekstrak imej individu dari PDF ke JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Gabung PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Gabung beberapa fail PDF menjadi satu dengan hanya beberapa klik"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Gabung beberapa fail PDF menjadi satu dengan hanya beberapa klik",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Bahagikan PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi fail PDF yang berasingan. Sebagai alternatif, anda boleh menggabungkan halaman yang dipilih ke dalam satu fail PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Cara terpantas untuk menggunakan AI di mana-mana dalam talian. Satu klik untuk menghasilkan, memperbaiki penulisan, merangkum, menjelaskan, memperbetulkan ejaan & tatabahasa, menukar nada, menterjemah, atau membalas teks apa pun.",
     "install__title": "Pasang | MaxAI.me",
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
-    "zmo__description": "Cipta seni dan imej dengan AI secara percuma. ImgCreator.ai boleh menghasilkan imej, seni, ilustrasi, anime, logo, reka bentuk dari teks dan imej. Teknologi eksklusif kami akan hidupkan imaginasi anda."
+    "zmo__description": "Cipta seni dan imej dengan AI secara percuma. ImgCreator.ai boleh menghasilkan imej, seni, ilustrasi, anime, logo, reka bentuk dari teks dan imej. Teknologi eksklusif kami akan hidupkan imaginasi anda.",
+    "pdf_tools__title": "Alat PDF Percuma - Tukar, Kompres, dan Edit PDF Dalam Talian | MaxAI.me",
+    "pdf_tools__description": "Terokai koleksi alat kami untuk membantu anda menukar, mengompres, mengedit, dan menandatangani PDF dalam talian secara percuma.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF ke JPEG - Tukar Mana-mana PDF kepada Imej Dalam Talian secara Percuma | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Tukar halaman PDF kepada imej JPEG atau keluarkan imej individu dari fail PDF anda dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__pdf_to_png__title": "PDF ke PNG - Tukar Mana-mana PDF kepada Imej Dalam Talian secara Percuma | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Tukar halaman PDF kepada imej PNG atau keluarkan imej individu dari fail PDF anda dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__merge_pdfs__title": "Gabungkan PDF - Gabungkan Fail PDF Dalam Talian secara Percuma | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Gabungkan fail PDF dan cipta dokumen tunggal dalam talian secara percuma. Dengan penggabung PDF kami, menggabungkan PDF menjadi lebih mudah dari sebelumnya. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__split_pdf__title": "Bahagikan PDF - Pisahkan Halaman PDF atau Buang Halaman | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Mudah memisahkan halaman dalam PDF anda secara percuma dalam talian. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Lihat halaman",
     "components__to_image_detail__view_images": "Lihat imej",
     "components__to_image__downloader_tip": "Sila pilih sekurang-kurangnya satu imej.",
-    "components__to_image_detail__not_found_images": "Imej PDF tidak ditemui"
+    "components__to_image_detail__not_found_images": "Imej PDF tidak ditemui",
+    "components__to_image_detail__button__download__tooltip": "Muat turun imej berzip",
+    "components__to_image_detail__button__view_images__tooltip": "Lihat imej-imej yang diekstrak dalam PDF ini",
+    "components__to_image_detail__button__view_pages__tooltip": "Lihat semua halaman dalam PDF ini",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zum masuk",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zum keluar",
+    "components__to_image_detail__button__cancel__tooltip": "Batalkan kemajuan semasa",
+    "components__to_image_detail__button__remove__tooltip": "Buang PDF ini dan pilih yang baru"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
+    "components__pdf_merge__add_pdf": "Tambah PDF",
+    "components__pdf_merge__empty_pdf": "Kosongkan PDF",
+    "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
+    "components__pdf_merge__pdf_dropping": "Anda boleh mengubahsuai susunan PDF dengan menyeret dan menjatuhkan",
+    "components__pdf_merge__button__download__tooltip": "Gabung dan muat turun PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Padam semua PDF di bawah",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Tambah fail PDF di bawah"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
+    "components__pdf_split__add_pdf": "Tambah PDF",
+    "components__pdf_spli__remove_pdf": "Buang PDF",
+    "components__pdf_split__select_all": "Pilih Semua",
+    "components__pdf_split__deselect_all": "Batal Pilih Semua",
+    "components__pdf_split__confirm_split": "Sahkan untuk pecah",
+    "components__pdf_split__pdf_dropping": "Anda boleh mengubah susunan PDF dengan menyeret dan melepaskan",
+    "components__pdf_split__is_single_pdf": "Gabungkan halaman yang dipilih ke dalam satu PDF",
+    "components__pdf_split__cancel": "Batal",
+    "components__pdf_split__error_maximum": "Gagal memecah fail PDF, Melebihi jumlah maksimum",
+    "components__pdf_split__button__zoom_in__tooltip": "Zum masuk",
+    "components__pdf_split__button__zoom_out__tooltip": "Zum keluar",
+    "components__pdf_split__button__remove__tooltip": "Buang PDF ini dan pilih yang baru",
+    "components__pdf_split__button__download__tooltip": "Bahagikan dan muat turun PDF",
+    "components__pdf_split__button__cancel__tooltip": "Batalkan kemajuan semasa"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
   }
 }

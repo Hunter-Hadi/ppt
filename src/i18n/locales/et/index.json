@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Tööriistad",
     "tools__index_page__description": "Kõik PDF tööriistad on 100% TASUTA ja töötavad sinu veebilehitsejas täieliku privaatsuse tagamiseks",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-iks",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Teisenda PDF PNG-ks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Ekspordi iga PDF leht PNG pildina või eralda üksikud pildid PDF-ist PNG-deks",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-iks",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Teisenda PDF JPEG-iks ja laadi iga leht pildina alla",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Ekspordi iga PDF leht JPEG pildina või eralda üksikud pildid PDF-ist JPEG-ideks",
     "tools__index_page__constant_obj__merge_pdfs__title": "Ühenda PDF-id",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Jaga PDF-i",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Iga valitud leht saab eraldi PDF-failiks. Võite ka valitud lehed ühendada üheks PDF-failiks."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Kiireim viis kasutada tehisintellekti veebis. Ühe klõpsuga saate koostada, parandada kirjutamist, kokku võtta, selgitada, parandada õigekirja ja grammatikat, muuta tooni, tõlkida või vastata mis tahes tekstile.",
     "install__title": "Paigalda | MaxAI.me",
     "zmo__title": "Kõik-ühes AI disainikunsti generaator | AI pildigeneraator tekstist | ImgCreator.AI",
-    "zmo__description": "Loo kunsti ja pilte tasuta tehisintellektiga. ImgCreator.ai saab luua pilte, kunsti, illustratsioone, animeid, logod, kujundusi teksti ja piltide abil. Meie ainulaadne tehnoloogia toob sinu kujutlusvõime ellu."
+    "zmo__description": "Loo kunsti ja pilte tasuta tehisintellektiga. ImgCreator.ai saab luua pilte, kunsti, illustratsioone, animeid, logod, kujundusi teksti ja piltide abil. Meie ainulaadne tehnoloogia toob sinu kujutlusvõime ellu.",
+    "pdf_tools__title": "Tasuta PDF-i tööriistad - konverteeri, suru kokku ja muuda PDF-e veebis | MaxAI.me",
+    "pdf_tools__description": "Uuri meie kogumikku tööriistu, mis aitavad sul tasuta veebis PDF-e konverteerida, kokku suruda, muuta ja allkirjastada.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF JPEG-ks - Teisenda tasuta veebis mis tahes PDF pildiks | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Teisenda PDF lehed JPEG piltideks või eralda üksikud pildid oma PDF failidest tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__pdf_to_png__title": "PDF PNG-ks - Teisenda tasuta veebis mis tahes PDF pildiks | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Teisenda PDF lehed PNG piltideks või eralda üksikud pildid oma PDF failidest tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__merge_pdfs__title": "Ühenda PDF – Ühenda tasuta veebis PDF failid | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Ühenda PDF failid ja loo üks dokument tasuta veebis. Meie PDF ühendajaga on PDF-ide ühendamine lihtsam kui kunagi varem. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__split_pdf__title": "Jaga PDF - Eralda PDF lehti või eemalda lehti | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Eralda lihtsalt lehti oma PDF-ist tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Vaata lehti",
     "components__to_image_detail__view_images": "Vaata pilte",
     "components__to_image__downloader_tip": "Palun valige vähemalt üks pilt.",
-    "components__to_image_detail__not_found_images": "PDF-pilti ei leitud"
+    "components__to_image_detail__not_found_images": "PDF-pilti ei leitud",
+    "components__to_image_detail__button__download__tooltip": "Laadi alla pakkitud pildid",
+    "components__to_image_detail__button__view_images__tooltip": "Vaata selle PDF-i eraldatud pilte",
+    "components__to_image_detail__button__view_pages__tooltip": "Vaata kõiki selle PDF-i lehti",
+    "components__to_image_detail__button__zoom_in__tooltip": "Suurenda",
+    "components__to_image_detail__button__zoom_out__tooltip": "Vähenda",
+    "components__to_image_detail__button__cancel__tooltip": "Tühista praegune protsess",
+    "components__to_image_detail__button__remove__tooltip": "Eemalda see PDF ja vali uus"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
+    "components__pdf_merge__add_pdf": "Lisa PDF",
+    "components__pdf_merge__empty_pdf": "Tühjenda PDF-id",
+    "components__pdf_merge__confirm_merge": "Kinnita ühendamine",
+    "components__pdf_merge__pdf_dropping": "Saate PDF-i järjestust reguleerida lohistamise teel",
+    "components__pdf_merge__button__download__tooltip": "Ühenda ja laadi PDF alla",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Kustuta kõik allpool olevad PDF-id",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Lisa PDF-fail allpool"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
+    "components__pdf_split__add_pdf": "Lisa PDF-id",
+    "components__pdf_spli__remove_pdf": "Eemalda PDF",
+    "components__pdf_split__select_all": "Vali kõik",
+    "components__pdf_split__deselect_all": "Tühista valik",
+    "components__pdf_split__confirm_split": "Kinnita jagamine",
+    "components__pdf_split__pdf_dropping": "Saate PDF-i järjekorda reguleerida lohistades ja kukutades",
+    "components__pdf_split__is_single_pdf": "Ühenda valitud lehed üheks PDF-iks",
+    "components__pdf_split__cancel": "Tühista",
+    "components__pdf_split__error_maximum": "PDF-failide jagamine ebaõnnestus, ületati maksimaalset kogust",
+    "components__pdf_split__button__zoom_in__tooltip": "Suurenda",
+    "components__pdf_split__button__zoom_out__tooltip": "Vähenda",
+    "components__pdf_split__button__remove__tooltip": "Eemalda see PDF ja vali uus",
+    "components__pdf_split__button__download__tooltip": "Jaga ja laadi PDF alla",
+    "components__pdf_split__button__cancel__tooltip": "Tühista praegune protsess"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele"
   }
 }

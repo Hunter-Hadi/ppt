@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Werkzeuge",
     "tools__index_page__description": "Alle PDF-Tools sind zu 100% KOSTENLOS und werden in Ihrem Browser ausgeführt, um Ihre Privatsphäre vollständig zu schützen",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF zu PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konvertiere PDF zu PNG und lade jede Seite als Bild herunter",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exportieren Sie jede PDF-Seite als PNG-Bild oder extrahieren Sie einzelne Bilder aus dem PDF in PNGs",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF zu JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konvertiere PDF zu JPEG und lade jede Seite als Bild herunter",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportieren Sie jede PDF-Seite als JPEG-Bild oder extrahieren Sie einzelne Bilder aus dem PDF in JPEGs",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDFs zusammenführen",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF teilen",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Jede ausgewählte Seite wird zu einer separaten PDF-Datei. Alternativ können Sie ausgewählte Seiten zu einer einzigen PDF-Datei zusammenführen."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Der schnellste Weg, KI überall online zu nutzen. Mit einem Klick können Sie Texte verfassen, verbessern, zusammenfassen, erklären, Rechtschreib- und Grammatikfehler korrigieren, den Ton ändern, übersetzen oder auf jede Textnachricht antworten.",
     "install__title": "Installieren | MaxAI.me",
     "zmo__title": "All-in-One-KI-Design-Art-Generator | KI-Bildgenerator aus Text | ImgCreator.AI",
-    "zmo__description": "Erstellen Sie kostenlos Kunstwerke und Bilder mit KI. ImgCreator.ai kann Bilder, Kunstwerke, Illustrationen, Anime, Logos und Designs aus Text und Bildern generieren. Unsere proprietäre Technologie lässt Ihre Vorstellungskraft lebendig werden."
+    "zmo__description": "Erstellen Sie kostenlos Kunstwerke und Bilder mit KI. ImgCreator.ai kann Bilder, Kunstwerke, Illustrationen, Anime, Logos und Designs aus Text und Bildern generieren. Unsere proprietäre Technologie lässt Ihre Vorstellungskraft lebendig werden.",
+    "pdf_tools__title": "Kostenlose PDF-Tools - PDFs online konvertieren, komprimieren und bearbeiten | MaxAI.me",
+    "pdf_tools__description": "Entdecken Sie unsere Sammlung von Tools, die Ihnen kostenlos dabei helfen, PDFs online zu konvertieren, zu komprimieren, zu bearbeiten und zu signieren.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF zu JPEG - Konvertiere beliebige PDFs online und kostenlos in Bilder | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Konvertiere PDF-Seiten in JPEG-Bilder oder extrahiere einzelne Bilder aus deinen PDF-Dateien online und kostenlos. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "pdf_tools__pdf_to_png__title": "PDF zu PNG - Konvertiere beliebige PDFs online und kostenlos in Bilder | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Konvertiere PDF-Seiten in PNG-Bilder oder extrahiere einzelne Bilder aus deinen PDF-Dateien online und kostenlos. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "pdf_tools__merge_pdfs__title": "PDF zusammenführen - Kombiniere PDF-Dateien online und kostenlos | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kombiniere PDF-Dateien und erstelle ein einzelnes Dokument online und kostenlos. Mit unserem PDF-Verbindungsprogramm ist das Zusammenführen von PDFs einfacher denn je. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "pdf_tools__split_pdf__title": "PDF aufteilen - Trenne PDF-Seiten oder entferne Seiten | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Trenne ganz einfach Seiten in deinem PDF online und kostenlos. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich."
   },
   "features_landing": {
     "cta_text": "Zum Browser hinzufügen",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Seiten anzeigen",
     "components__to_image_detail__view_images": "Bilder anzeigen",
     "components__to_image__downloader_tip": "Bitte wählen Sie mindestens ein Bild aus.",
-    "components__to_image_detail__not_found_images": "PDF-Bild nicht gefunden"
+    "components__to_image_detail__not_found_images": "PDF-Bild nicht gefunden",
+    "components__to_image_detail__button__download__tooltip": "Gepackte Bilder herunterladen",
+    "components__to_image_detail__button__view_images__tooltip": "Extrahierte Bilder in diesem PDF anzeigen",
+    "components__to_image_detail__button__view_pages__tooltip": "Alle Seiten in diesem PDF anzeigen",
+    "components__to_image_detail__button__zoom_in__tooltip": "Vergrößern",
+    "components__to_image_detail__button__zoom_out__tooltip": "Verkleinern",
+    "components__to_image_detail__button__cancel__tooltip": "Aktuellen Vorgang abbrechen",
+    "components__to_image_detail__button__remove__tooltip": "Dieses PDF entfernen und ein neues auswählen"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__pdf_merge__add_pdf": "PDF hinzufügen",
+    "components__pdf_merge__empty_pdf": "PDFs leeren",
+    "components__pdf_merge__confirm_merge": "Bestätigen Sie das Zusammenführen",
+    "components__pdf_merge__pdf_dropping": "Sie können die Reihenfolge der PDFs durch Ziehen und Ablegen anpassen",
+    "components__pdf_merge__button__download__tooltip": "PDF zusammenführen und herunterladen",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Alle PDFs unten löschen",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF-Datei unten hinzufügen"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__pdf_split__add_pdf": "PDFs hinzufügen",
+    "components__pdf_spli__remove_pdf": "PDF entfernen",
+    "components__pdf_split__select_all": "Alle auswählen",
+    "components__pdf_split__deselect_all": "Alle abwählen",
+    "components__pdf_split__confirm_split": "Aufteilen bestätigen",
+    "components__pdf_split__pdf_dropping": "Sie können die Reihenfolge der PDFs anpassen, indem Sie sie per Drag & Drop verschieben",
+    "components__pdf_split__is_single_pdf": "Ausgewählte Seiten zu einer einzelnen PDF zusammenführen",
+    "components__pdf_split__cancel": "Abbrechen",
+    "components__pdf_split__error_maximum": "Fehler beim Aufteilen von PDF-Dateien. Maximale Anzahl überschritten",
+    "components__pdf_split__button__zoom_in__tooltip": "Vergrößern",
+    "components__pdf_split__button__zoom_out__tooltip": "Verkleinern",
+    "components__pdf_split__button__remove__tooltip": "Dieses PDF entfernen und ein neues auswählen",
+    "components__pdf_split__button__download__tooltip": "PDF aufteilen und herunterladen",
+    "components__pdf_split__button__cancel__tooltip": "Aktuellen Vorgang abbrechen"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "ist verschlüsselt oder fehlerhaft, kann das PDF nicht bearbeiten, übersprungen"
   }
 }

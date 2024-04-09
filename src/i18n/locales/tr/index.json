@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Araçları",
     "tools__index_page__description": "Tüm PDF araçları %100 ÜCRETSİZ ve tam gizlilik için tarayıcınızda çalışır",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF'den PNG'ye",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF'yi PNG'ye dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Her PDF sayfasını bir PNG görüntüsü olarak dışa aktarın veya PDF'den bireysel görüntüler çıkarın ve PNG'ye dönüştürün",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF'den JPEG'e",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF'yi JPEG'e dönüştürün ve her sayfayı bir resim olarak indirin",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Her PDF sayfasını bir JPEG görüntüsü olarak dışa aktarın veya PDF'den bireysel görüntüler çıkarın ve JPEG'e dönüştürün",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF'leri Birleştir",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Birkaç tıklama ile birden fazla PDF dosyasını birleştirin"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Birkaç tıklama ile birden fazla PDF dosyasını birleştirin",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF'yi Böl",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Her seçilen sayfa ayrı bir PDF dosyası olacak. Alternatif olarak, seçilen sayfaları tek bir PDF dosyasına birleştirebilirsiniz."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Çevrimiçi her yerde AI kullanmanın en hızlı yolu. Bir tıklama ile metin yazma, özetleme, açıklama yapma, imla ve dilbilgisi düzeltme, ton değiştirme, çeviri veya herhangi bir metne yanıt verme.",
     "install__title": "Yükle | MaxAI.me",
     "zmo__title": "Hepsi Bir Arada AI Tasarım Sanat Üretici | Metinden AI Görüntü Oluşturucu | ImgCreator.AI",
-    "zmo__description": "Ücretsiz olarak AI ile sanat ve görüntüler oluşturun. ImgCreator.ai metin ve görüntülerden resimler, sanat, illüstrasyonlar, anime, logolar, tasarımlar oluşturabilir. Özel teknolojimiz hayal gücünüzü canlandıracak."
+    "zmo__description": "Ücretsiz olarak AI ile sanat ve görüntüler oluşturun. ImgCreator.ai metin ve görüntülerden resimler, sanat, illüstrasyonlar, anime, logolar, tasarımlar oluşturabilir. Özel teknolojimiz hayal gücünüzü canlandıracak.",
+    "pdf_tools__title": "Ücretsiz PDF Araçları - PDF'leri Dönüştür, Sıkıştır ve Düzenle | MaxAI.me",
+    "pdf_tools__description": "Ücretsiz olarak çevrimiçi PDF'leri dönüştürmek, sıkıştırmak, düzenlemek ve imzalamak için araç koleksiyonumuzu keşfedin.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF'leri Ücretsiz Olarak Resimlere Dönüştür - MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "PDF sayfalarını JPEG resimlerine dönüştürün veya PDF dosyalarınızdan bireysel resimler çıkarın. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
+    "pdf_tools__pdf_to_png__title": "PDF'leri Ücretsiz Olarak Resimlere Dönüştür - MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "PDF sayfalarını PNG resimlerine dönüştürün veya PDF dosyalarınızdan bireysel resimler çıkarın. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
+    "pdf_tools__merge_pdfs__title": "PDF Birleştir - Ücretsiz Olarak PDF Dosyalarını Birleştirin | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "PDF dosyalarını birleştirin ve ücretsiz olarak tek bir belge oluşturun. PDF birleştiricimizle PDF'leri birleştirmek hiç olmadığı kadar kolay. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
+    "pdf_tools__split_pdf__title": "PDF Ayır - PDF Sayfalarını Ayır veya Sayfaları Kaldır | MaxAI.me",
+    "pdf_tools__split_pdf__description": "PDF'nizi ücretsiz olarak kolayca sayfalara ayırın. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",
@@ -617,7 +629,14 @@
     "components__to_image_detail__view_pages": "Sayfaları görüntüle",
     "components__to_image_detail__view_images": "Resimleri görüntüle",
     "components__to_image__downloader_tip": "Lütfen en az bir resim seçin.",
-    "components__to_image_detail__not_found_images": "PDF resmi bulunamadı"
+    "components__to_image_detail__not_found_images": "PDF resmi bulunamadı",
+    "components__to_image_detail__button__download__tooltip": "Sıkıştırılmış resimleri indir",
+    "components__to_image_detail__button__view_images__tooltip": "Bu PDF'deki çıkarılmış resimleri görüntüle",
+    "components__to_image_detail__button__view_pages__tooltip": "Bu PDF'deki tüm sayfaları görüntüle",
+    "components__to_image_detail__button__zoom_in__tooltip": "Yakınlaştır",
+    "components__to_image_detail__button__zoom_out__tooltip": "Uzaklaştır",
+    "components__to_image_detail__button__cancel__tooltip": "Geçerli işlemi iptal et",
+    "components__to_image_detail__button__remove__tooltip": "Bu PDF'yi kaldır ve yeni bir tane seç"
   },
   "features_landing": {
     "cta_text": "Tarayıcıya Ekle",
@@ -653,5 +672,35 @@
     "more_over_section__title": "Daha Fazlası",
     "more_over_section__description__part1": "MaxAI.me sadece bir çeviri aracı değildir - Hepsi bir arada AI destekli tarayıcı eklentisidir. MaxAI.me ile tarayıcınızda ziyaret ettiğiniz herhangi bir web sitesinde, yazma yardımından web sayfası özetlemeye, ChatPDF'den AI resim yapmaya kadar geniş bir AI destekli özellik yelpazesine erişebilirsiniz.",
     "more_over_section__description__part2": "ChatGPT, Claude ve Gemini gibi en gelişmiş AI modellerinin yardımıyla okuma, yazma ve oluşturma konusunda MaxAI.me size güç verir. Tarayıcı deneyiminizi yükseltin ve üretkenlik potansiyelinizi MaxAI.me ile açığa çıkarın!"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__pdf_merge__add_pdf": "PDF Ekle",
+    "components__pdf_merge__empty_pdf": "PDF'leri Temizle",
+    "components__pdf_merge__confirm_merge": "Birleştirmeyi Onayla",
+    "components__pdf_merge__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz",
+    "components__pdf_merge__button__download__tooltip": "PDF'leri birleştir ve indir",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Aşağıdaki tüm PDF'leri temizle",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Aşağıya PDF dosyası ekle"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__pdf_split__add_pdf": "PDF Ekle",
+    "components__pdf_spli__remove_pdf": "PDF Kaldır",
+    "components__pdf_split__select_all": "Hepsini Seç",
+    "components__pdf_split__deselect_all": "Tümünü Kaldır",
+    "components__pdf_split__confirm_split": "Bölme işlemini onayla",
+    "components__pdf_split__pdf_dropping": "PDF sırasını sürükleyip bırakarak ayarlayabilirsiniz",
+    "components__pdf_split__is_single_pdf": "Seçilen sayfaları tek bir PDF'e birleştir",
+    "components__pdf_split__cancel": "İptal",
+    "components__pdf_split__error_maximum": "PDF dosyalarını bölmek başarısız oldu, maksimum miktar aşıldı",
+    "components__pdf_split__button__zoom_in__tooltip": "Yakınlaştır",
+    "components__pdf_split__button__zoom_out__tooltip": "Uzaklaştır",
+    "components__pdf_split__button__remove__tooltip": "Bu PDF'yi kaldır ve yeni bir tane seç",
+    "components__pdf_split__button__download__tooltip": "PDF'yi böl ve indir",
+    "components__pdf_split__button__cancel__tooltip": "Geçerli işlemi iptal et"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "şifreli veya anormal, PDF'yi manipüle edemiyor, atlandı"
   }
 }

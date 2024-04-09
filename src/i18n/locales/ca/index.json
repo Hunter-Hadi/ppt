@@ -360,11 +360,13 @@
     "tools__index_page__title": "Eines MaxAI",
     "tools__index_page__description": "Totes les eines de PDF són 100% GRATUÏTES i s'executen al navegador per a una privadesa completa",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF a PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Converteix PDF a PNG i descarrega cada pàgina com a imatge",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exporta cada pàgina del PDF com a imatge PNG o extreu imatges individuals del PDF a PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF a JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converteix PDF a JPEG i descarrega cada pàgina com a imatge",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exporta cada pàgina del PDF com a imatge JPEG o extreu imatges individuals del PDF a JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Fusiona els PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Fusiona diversos fitxers PDF en un amb només uns quants clics"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Fusiona diversos fitxers PDF en un amb només uns quants clics",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Divideix un PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Cada pàgina seleccionada es convertirà en un fitxer PDF separat. Alternativament, podeu fusionar les pàgines seleccionades en un sol fitxer PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "La manera més ràpida d'utilitzar IA en línia. Un clic per compondre, millorar l'escriptura, resumir, explicar, corregir ortografia i gramàtica, canviar el to, traduir o respondre a qualsevol text.",
     "install__title": "Instal·la | MaxAI.me",
     "zmo__title": "Generador d'art de disseny AI tot en un | Generador d'imatges AI a partir de text | ImgCreator.AI",
-    "zmo__description": "Crea art i imatges amb IA de forma gratuïta. ImgCreator.ai pot generar imatges, art, il·lustracions, anime, logotips, dissenys a partir de text i imatges. La nostra tecnologia patentada farà realitat la teva imaginació."
+    "zmo__description": "Crea art i imatges amb IA de forma gratuïta. ImgCreator.ai pot generar imatges, art, il·lustracions, anime, logotips, dissenys a partir de text i imatges. La nostra tecnologia patentada farà realitat la teva imaginació.",
+    "pdf_tools__title": "Eines gratuïtes de PDF: Convertir, Comprimir i Editar PDFs en línia | MaxAI.me",
+    "pdf_tools__description": "Explora la nostra col·lecció d'eines per ajudar-te a convertir, comprimir, editar i signar PDFs en línia de forma gratuïta.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF a JPEG - Converteix qualsevol PDF en imatges en línia de forma gratuïta | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Converteix pàgines de PDF en imatges JPEG o extreu imatges individuals dels teus fitxers PDF en línia de forma gratuïta. Sense marques d'aigua, límits de mida de fitxer, descàrregues ni registres necessaris.",
+    "pdf_tools__pdf_to_png__title": "PDF a PNG - Converteix qualsevol PDF en imatges en línia de forma gratuïta | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Converteix pàgines de PDF en imatges PNG o extreu imatges individuals dels teus fitxers PDF en línia de forma gratuïta. Sense marques d'aigua, límits de mida de fitxer, descàrregues ni registres necessaris.",
+    "pdf_tools__merge_pdfs__title": "Fusiona PDF: combina fitxers PDF en línia de forma gratuïta | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combina fitxers PDF i crea un document únic en línia de forma gratuïta. Amb el nostre combinador de PDF, fusionar PDFs és més fàcil que mai. Sense marques d'aigua, límits de mida de fitxer, descàrregues ni registres necessaris.",
+    "pdf_tools__split_pdf__title": "Separa PDF - Separa pàgines de PDF o elimina pàgines | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Separa fàcilment pàgines del teu PDF en línia de forma gratuïta. Sense marques d'aigua, límits de mida de fitxer, descàrregues ni registres necessaris."
   },
   "features_landing": {
     "cta_text": "Afegir al navegador",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Visualitza les pàgines",
     "components__to_image_detail__view_images": "Visualitza les imatges",
     "components__to_image__downloader_tip": "Si us plau, seleccioneu com a mínim una imatge.",
-    "components__to_image_detail__not_found_images": "Imatge del PDF no trobada"
+    "components__to_image_detail__not_found_images": "Imatge del PDF no trobada",
+    "components__to_image_detail__button__download__tooltip": "Descarrega les imatges comprimides",
+    "components__to_image_detail__button__view_images__tooltip": "Visualitza les imatges extretes d'aquest PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Visualitza totes les pàgines d'aquest PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Augmenta la mida",
+    "components__to_image_detail__button__zoom_out__tooltip": "Redueix la mida",
+    "components__to_image_detail__button__cancel__tooltip": "Cancel·la el progrés actual",
+    "components__to_image_detail__button__remove__tooltip": "Elimina aquest PDF i selecciona'n un de nou"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
+    "components__pdf_merge__add_pdf": "Afegiu PDF",
+    "components__pdf_merge__empty_pdf": "Netegeu els PDFs",
+    "components__pdf_merge__confirm_merge": "Confirmeu la fusió",
+    "components__pdf_merge__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los",
+    "components__pdf_merge__button__download__tooltip": "Fusiona i descarrega el PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Neteja tots els PDFs a sota",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Afegeix un fitxer PDF a sota"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
+    "components__pdf_split__add_pdf": "Afegiu PDFs",
+    "components__pdf_spli__remove_pdf": "Elimina PDF",
+    "components__pdf_split__select_all": "Selecciona-ho tot",
+    "components__pdf_split__deselect_all": "Desselecciona-ho tot",
+    "components__pdf_split__confirm_split": "Confirmeu per dividir",
+    "components__pdf_split__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los",
+    "components__pdf_split__is_single_pdf": "Fusiona les pàgines seleccionades en un sol PDF",
+    "components__pdf_split__cancel": "Cancel·la",
+    "components__pdf_split__error_maximum": "No s'ha pogut dividir els fitxers PDF, s'ha superat la quantitat màxima",
+    "components__pdf_split__button__zoom_in__tooltip": "Augmenta la mida",
+    "components__pdf_split__button__zoom_out__tooltip": "Redueix la mida",
+    "components__pdf_split__button__remove__tooltip": "Elimina aquest PDF i selecciona'n un de nou",
+    "components__pdf_split__button__download__tooltip": "Separa i descarrega el PDF",
+    "components__pdf_split__button__cancel__tooltip": "Cancel·la el progrés actual"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "està encriptat o és anormal, no es pot manipular el PDF, saltat"
   }
 }

@@ -360,11 +360,13 @@
     "tools__index_page__title": "ابزارهای MaxAI",
     "tools__index_page__description": "تمام ابزارهای PDF 100٪ رایگان هستند و در مرورگر شما اجرا می‌شوند تا حریم خصوصی کامل را فراهم کنند",
     "tools__index_page__constant_obj__pdf_to_png__title": "تبدیل PDF به PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "تبدیل PDF به PNG و دانلود هر صفحه به عنوان تصویر",
+    "tools__index_page__constant_obj__pdf_to_png__description": "صفحه هر PDF را به تصویر PNG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "تبدیل PDF به JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "تبدیل PDF به JPEG و دانلود هر صفحه به عنوان تصویر",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "صفحه هر PDF را به تصویر JPEG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__merge_pdfs__title": "ادغام فایل‌های PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک"
+    "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک",
+    "tools__index_page__constant_obj__split_a_pdf__title": "تقسیم یک PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "هر صفحه انتخاب شده به یک فایل PDF جداگانه تبدیل خواهد شد. به طور جایگزین، می‌توانید صفحات انتخاب شده را در یک فایل PDF تکی ترکیب کنید."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "سریع‌ترین راه برای استفاده از هوش مصنوعی در هر جایی آنلاین. با یک کلیک ترکیب کنید، نوشته خود را بهبود بخشید، خلاصه کنید، توضیح دهید، املای و گرامر را تغییر دهید، ترجمه کنید یا به هر متنی پاسخ دهید.",
     "install__title": "نصب | MaxAI.me",
     "zmo__title": "تولید کننده هنر طراحی AI همه در یک | تولید کننده تصویر AI از متن | ImgCreator.AI",
-    "zmo__description": "با استفاده از هوش مصنوعی هنر و تصاویر را رایگان ایجاد کنید. ImgCreator.ai قادر است تصاویر، هنر، تصاویر توضیحی، انیمه، لوگوها، طرح‌ها را از متن و تصاویر تولید کند. فناوری اختصاصی ما خیال شما را به واقعیت می‌پیوندد."
+    "zmo__description": "با استفاده از هوش مصنوعی هنر و تصاویر را رایگان ایجاد کنید. ImgCreator.ai قادر است تصاویر، هنر، تصاویر توضیحی، انیمه، لوگوها، طرح‌ها را از متن و تصاویر تولید کند. فناوری اختصاصی ما خیال شما را به واقعیت می‌پیوندد.",
+    "pdf_tools__title": "ابزارهای رایگان PDF - تبدیل، فشرده‌سازی و ویرایش PDF آنلاین | MaxAI.me",
+    "pdf_tools__description": "کالکشنی از ابزارهای ما را بررسی کنید تا به شما در تبدیل، فشرده‌سازی، ویرایش و امضای PDF آنلاین به صورت رایگان کمک کنیم.",
+    "pdf_tools__pdf_to_jpeg__title": "تبدیل PDF به JPEG - تبدیل هر PDF به تصاویر آنلاین رایگان | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "تبدیل صفحات PDF به تصاویر JPEG یا استخراج تصاویر فردی از فایل‌های PDF خود آنلاین و رایگان. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
+    "pdf_tools__pdf_to_png__title": "تبدیل PDF به PNG - تبدیل هر PDF به تصاویر آنلاین رایگان | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "تبدیل صفحات PDF به تصاویر PNG یا استخراج تصاویر فردی از فایل‌های PDF خود آنلاین و رایگان. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
+    "pdf_tools__merge_pdfs__title": "ادغام PDF - ترکیب فایل‌های PDF آنلاین رایگان | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "ترکیب فایل‌های PDF و ایجاد یک سند تکی آنلاین رایگان. با استفاده از ادغام کننده PDF ما، ترکیب PDF ها آسانتر از همیشه است. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
+    "pdf_tools__split_pdf__title": "تقسیم PDF - جداسازی صفحات PDF یا حذف صفحات | MaxAI.me",
+    "pdf_tools__split_pdf__description": "به راحتی جداسازی صفحات در PDF خود آنلاین و رایگان. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "مشاهده صفحات",
     "components__to_image_detail__view_images": "مشاهده تصاویر",
     "components__to_image__downloader_tip": "لطفاً حداقل یک تصویر را انتخاب کنید.",
-    "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد"
+    "components__to_image_detail__not_found_images": "تصویر PDF یافت نشد",
+    "components__to_image_detail__button__download__tooltip": "دانلود تصاویر فشرده شده",
+    "components__to_image_detail__button__view_images__tooltip": "مشاهده تصاویر استخراج شده در این PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "مشاهده تمام صفحات در این PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "بزرگ نمایی",
+    "components__to_image_detail__button__zoom_out__tooltip": "کوچک نمایی",
+    "components__to_image_detail__button__cancel__tooltip": "لغو پیشرفت فعلی",
+    "components__to_image_detail__button__remove__tooltip": "حذف این PDF و انتخاب یکی جدید"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
+    "components__pdf_merge__add_pdf": "افزودن PDF",
+    "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
+    "components__pdf_merge__confirm_merge": "تأیید ادغام",
+    "components__pdf_merge__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید",
+    "components__pdf_merge__button__download__tooltip": "ادغام و دانلود PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "پاک کردن همه PDF های زیر",
+    "components__pdf_merge__button__add_pdfs__tooltip": "افزودن فایل PDF زیر"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
+    "components__pdf_split__add_pdf": "افزودن PDF",
+    "components__pdf_spli__remove_pdf": "حذف PDF",
+    "components__pdf_split__select_all": "انتخاب همه",
+    "components__pdf_split__deselect_all": "عدم انتخاب همه",
+    "components__pdf_split__confirm_split": "تأیید تقسیم",
+    "components__pdf_split__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید",
+    "components__pdf_split__is_single_pdf": "ادغام صفحات انتخاب شده در یک PDF",
+    "components__pdf_split__cancel": "لغو",
+    "components__pdf_split__error_maximum": "تقسیم فایل‌های PDF ناموفق بود، تعداد حداکثر را بیشتر کرده است",
+    "components__pdf_split__button__zoom_in__tooltip": "بزرگ نمایی",
+    "components__pdf_split__button__zoom_out__tooltip": "کوچک نمایی",
+    "components__pdf_split__button__remove__tooltip": "حذف این PDF و انتخاب یکی جدید",
+    "components__pdf_split__button__download__tooltip": "تقسیم و دانلود PDF",
+    "components__pdf_split__button__cancel__tooltip": "لغو پیشرفت فعلی"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد"
   }
 }

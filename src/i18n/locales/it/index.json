@@ -360,11 +360,13 @@
     "tools__index_page__title": "Strumenti MaxAI",
     "tools__index_page__description": "Tutti gli strumenti PDF sono al 100% GRATUITI e funzionano nel tuo browser per una privacy completa",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF in PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Converti PDF in PNG e scarica ogni pagina come immagine",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Esporta ogni pagina PDF come immagine PNG o estrai immagini individuali dal PDF in PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF in JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converti PDF in JPEG e scarica ogni pagina come immagine",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Esporta ogni pagina PDF come immagine JPEG o estrai immagini individuali dal PDF in JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Unisci PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Unisci più file PDF in uno con pochi clic"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Unisci più file PDF in uno con pochi clic",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Dividi un PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Ogni pagina selezionata diventerà un file PDF separato. In alternativa, puoi unire le pagine selezionate in un singolo file PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Il modo più veloce per utilizzare l'IA ovunque online. Un clic per comporre, migliorare la scrittura, riassumere, spiegare, correggere errori di ortografia e grammatica, cambiare tono, tradurre o rispondere a qualsiasi testo.",
     "install__title": "Installazione | MaxAI.me",
     "zmo__title": "Generatore d'Arte AI All-in-One | Generatore di Immagini AI da Testo | ImgCreator.AI",
-    "zmo__description": "Crea arte e immagini con l'IA gratuitamente. ImgCreator.ai può generare immagini, arte, illustrazioni, anime, loghi, design da testo e immagini. La nostra tecnologia proprietaria darà vita alla tua immaginazione."
+    "zmo__description": "Crea arte e immagini con l'IA gratuitamente. ImgCreator.ai può generare immagini, arte, illustrazioni, anime, loghi, design da testo e immagini. La nostra tecnologia proprietaria darà vita alla tua immaginazione.",
+    "pdf_tools__title": "Strumenti PDF gratuiti - Converti, Comprimi e Modifica i PDF Online | MaxAI.me",
+    "pdf_tools__description": "Esplora la nostra collezione di strumenti per aiutarti a convertire, comprimere, modificare e firmare i PDF online gratuitamente.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF in JPEG - Converti qualsiasi PDF in immagini online gratuitamente | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Converti le pagine PDF in immagini JPEG o estrai immagini singole dai tuoi file PDF online gratuitamente. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
+    "pdf_tools__pdf_to_png__title": "PDF in PNG - Converti qualsiasi PDF in immagini online gratuitamente | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Converti le pagine PDF in immagini PNG o estrai immagini singole dai tuoi file PDF online gratuitamente. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
+    "pdf_tools__merge_pdfs__title": "Unisci PDF - Combina file PDF online gratuitamente | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combina file PDF e crea un singolo documento online gratuitamente. Con il nostro unificatore PDF, unire i PDF è più facile che mai. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
+    "pdf_tools__split_pdf__title": "Dividi PDF - Separa le pagine PDF o rimuovi pagine | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Separa facilmente le pagine nel tuo PDF online gratuitamente. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Visualizza pagine",
     "components__to_image_detail__view_images": "Visualizza immagini",
     "components__to_image__downloader_tip": "Selezionare almeno un'immagine.",
-    "components__to_image_detail__not_found_images": "Immagine PDF non trovata"
+    "components__to_image_detail__not_found_images": "Immagine PDF non trovata",
+    "components__to_image_detail__button__download__tooltip": "Scarica immagini compresse",
+    "components__to_image_detail__button__view_images__tooltip": "Visualizza le immagini estratte in questo PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Visualizza tutte le pagine in questo PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Ingrandisci",
+    "components__to_image_detail__button__zoom_out__tooltip": "Riduci",
+    "components__to_image_detail__button__cancel__tooltip": "Annulla progresso corrente",
+    "components__to_image_detail__button__remove__tooltip": "Rimuovi questo PDF e seleziona uno nuovo"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
+    "components__pdf_merge__add_pdf": "Aggiungi PDF",
+    "components__pdf_merge__empty_pdf": "Svuota PDF",
+    "components__pdf_merge__confirm_merge": "Conferma per unire",
+    "components__pdf_merge__pdf_dropping": "Puoi regolare l'ordine dei PDF trascinandoli",
+    "components__pdf_merge__button__download__tooltip": "Unisci e scarica PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Cancella tutti i PDF sottostanti",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Aggiungi file PDF qui sotto"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
+    "components__pdf_split__add_pdf": "Aggiungi PDF",
+    "components__pdf_spli__remove_pdf": "Rimuovi PDF",
+    "components__pdf_split__select_all": "Seleziona tutto",
+    "components__pdf_split__deselect_all": "Deseleziona tutto",
+    "components__pdf_split__confirm_split": "Conferma per dividere",
+    "components__pdf_split__pdf_dropping": "Puoi regolare l'ordine dei PDF trascinandoli e rilasciandoli",
+    "components__pdf_split__is_single_pdf": "Unisci le pagine selezionate in un singolo PDF",
+    "components__pdf_split__cancel": "Annulla",
+    "components__pdf_split__error_maximum": "Impossibile dividere i file PDF, quantità massima superata",
+    "components__pdf_split__button__zoom_in__tooltip": "Ingrandisci",
+    "components__pdf_split__button__zoom_out__tooltip": "Riduci",
+    "components__pdf_split__button__remove__tooltip": "Rimuovi questo PDF e seleziona uno nuovo",
+    "components__pdf_split__button__download__tooltip": "Dividi e scarica PDF",
+    "components__pdf_split__button__cancel__tooltip": "Annulla progresso corrente"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "è crittografato o anomalo, impossibile manipolare il PDF, saltato"
   }
 }

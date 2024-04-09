@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Værktøjer",
     "tools__index_page__description": "Alle PDF-værktøjer er 100% GRATIS og kører i din browser for fuld beskyttelse af privatlivet",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Konverter PDF til PNG og download hver side som et billede",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Eksporter hver PDF-side som et PNG-billede eller udtræk individuelle billeder fra PDF'en til PNG'er",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Konverter PDF til JPEG og download hver side som et billede",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksporter hver PDF-side som et JPEG-billede eller udtræk individuelle billeder fra PDF'en til JPEG'er",
     "tools__index_page__constant_obj__merge_pdfs__title": "Flet PDF'er",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Flet flere PDF-filer sammen med bare et par klik"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Flet flere PDF-filer sammen med bare et par klik",
+    "tools__index_page__constant_obj__split_a_pdf__title": "Opdel en PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil blive til en separat PDF-fil. Alternativt kan du samle valgte sider i en enkelt PDF-fil."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "Den hurtigste måde at bruge AI online. Et klik for at skrive, forbedre tekst, opsummere, forklare, rette stavefejl og grammatik, ændre tone, oversætte eller svare på enhver tekst.",
     "install__title": "Installer | MaxAI.me",
     "zmo__title": "Alt-i-en AI Design Kunstgenerator | AI Billedegenerator Fra Tekst | ImgCreator.AI",
-    "zmo__description": "Skab kunst og billeder med AI gratis. ImgCreator.ai kan generere billeder, kunst, illustrationer, anime, logoer, design fra tekst og billeder. Vores proprietære teknologi vil bringe din fantasi til live."
+    "zmo__description": "Skab kunst og billeder med AI gratis. ImgCreator.ai kan generere billeder, kunst, illustrationer, anime, logoer, design fra tekst og billeder. Vores proprietære teknologi vil bringe din fantasi til live.",
+    "pdf_tools__title": "Gratis PDF-værktøjer - Konverter, Komprimer og Rediger PDF-filer Online | MaxAI.me",
+    "pdf_tools__description": "Udforsk vores samling af værktøjer, der hjælper dig med at konvertere, komprimere, redigere og underskrive PDF-filer online gratis.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF til JPEG - Konverter enhver PDF til billeder online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Konverter PDF-sider til JPEG-billeder eller udtræk individuelle billeder fra dine PDF-filer online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves.",
+    "pdf_tools__pdf_to_png__title": "PDF til PNG - Konverter enhver PDF til billeder online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Konverter PDF-sider til PNG-billeder eller udtræk individuelle billeder fra dine PDF-filer online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves.",
+    "pdf_tools__merge_pdfs__title": "Flet PDF - Kombiner PDF-filer online gratis | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Kombiner PDF-filer og opret et enkelt dokument online gratis. Med vores PDF-samler er det nemmere end nogensinde at flette PDF'er. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves.",
+    "pdf_tools__split_pdf__title": "Opdel PDF - Separer PDF-sider eller fjern sider | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Separer nemt sider i din PDF online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Vis sider",
     "components__to_image_detail__view_images": "Vis billeder",
     "components__to_image__downloader_tip": "Vælg venligst mindst et billede.",
-    "components__to_image_detail__not_found_images": "Billede fra PDF blev ikke fundet"
+    "components__to_image_detail__not_found_images": "Billede fra PDF blev ikke fundet",
+    "components__to_image_detail__button__download__tooltip": "Download zipped billeder",
+    "components__to_image_detail__button__view_images__tooltip": "Se de udtrukne billeder i denne PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Se alle siderne i denne PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zoom ind",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zoom ud",
+    "components__to_image_detail__button__cancel__tooltip": "Annuller nuværende fremskridt",
+    "components__to_image_detail__button__remove__tooltip": "Fjern denne PDF og vælg en ny"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
+    "components__pdf_merge__add_pdf": "Tilføj PDF",
+    "components__pdf_merge__empty_pdf": "Ryd PDF'er",
+    "components__pdf_merge__confirm_merge": "Bekræft sammenføjning",
+    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe",
+    "components__pdf_merge__button__download__tooltip": "Flet og download PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Ryd alle PDF'er nedenfor",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Tilføj PDF-fil nedenfor"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
+    "components__pdf_split__add_pdf": "Tilføj PDF'er",
+    "components__pdf_spli__remove_pdf": "Fjern PDF",
+    "components__pdf_split__select_all": "Vælg alle",
+    "components__pdf_split__deselect_all": "Fravælg alle",
+    "components__pdf_split__confirm_split": "Bekræft opdeling",
+    "components__pdf_split__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe",
+    "components__pdf_split__is_single_pdf": "Flet valgte sider til en enkelt PDF",
+    "components__pdf_split__cancel": "Annuller",
+    "components__pdf_split__error_maximum": "Kunne ikke opdele PDF-filer, overskredet maksimalt antal",
+    "components__pdf_split__button__zoom_in__tooltip": "Zoom ind",
+    "components__pdf_split__button__zoom_out__tooltip": "Zoom ud",
+    "components__pdf_split__button__remove__tooltip": "Fjern denne PDF og vælg en ny",
+    "components__pdf_split__button__download__tooltip": "Opdel og download PDF",
+    "components__pdf_split__button__cancel__tooltip": "Annuller nuværende fremskridt"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "er krypteret eller unormal, kan ikke manipulere PDF'en, sprunget over"
   }
 }

@@ -360,11 +360,13 @@
     "tools__index_page__title": "मॅक्सएआय टूल्स",
     "tools__index_page__description": "सर्व PDF टूल 100% मोफत आहेत आणि पूर्ण गोपनीयतेसाठी तुमच्या ब्राउझरमध्ये चालविले जातात",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ते PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "PDF ला PNG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा",
+    "tools__index_page__constant_obj__pdf_to_png__description": "प्रत्येक PDF पृष्ठाचा PNG छायाचित्र किंवा PDF मधून व्यक्तीगत छायाचित्रे निर्यात करा",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ते JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "PDF ला JPEG मध्ये रूपांतरित करा आणि प्रत्येक पृष्ठाची एक छवी डाउनलोड करा",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "प्रत्येक PDF पृष्ठाचा JPEG छायाचित्र किंवा PDF मधून व्यक्तीगत छायाचित्रे निर्यात करा",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF एकत्रीकरण",
-    "tools__index_page__constant_obj__merge_pdfs__description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा"
+    "tools__index_page__constant_obj__merge_pdfs__description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF विभाजित करा",
+    "tools__index_page__constant_obj__split_a_pdf__description": "प्रत्येक निवडलेल्या पृष्ठांनी स्वतंत्र PDF फाइल बनविली जाईल. वैकल्पिकपणे, आपण निवडलेल्या पृष्ठांचा एकल PDF फाइलमध्ये मर्ज करू शकता."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "ऑनलाइन कुठेही AI वापरण्याचा त्वरिततम मार्ग. कोणत्याही मजकूरासाठी एक क्लिक करा, लेखन सुधारणा करा, संक्षेपण करा, स्पष्ट करा, वर्तनी आणि व्याकरण बदला, भाषांतर करा किंवा कोणत्याही मजकूरावर प्रतिसाद द्या.",
     "install__title": "स्थापित करा | MaxAI.me",
     "zmo__title": "सर्व-एकत्र AI डिझाईन आर्ट जेनरेटर | पाठामधून AI छायाचित्र जेनरेटर | ImgCreator.AI",
-    "zmo__description": "मोफताने AI सह कला आणि छायाचित्रे तयार करा. ImgCreator.ai च्या मदतीने पाठ आणि छायाचित्रांपासून चित्रे, कला, इलस्ट्रेशन, अनिमे, लोगो, डिझाईन प्रमाणे तयार करा. आमच्या संपादकीय तंत्रज्ञानाने तुमच्या कल्पनेचे आयात घेऊन येईल."
+    "zmo__description": "मोफताने AI सह कला आणि छायाचित्रे तयार करा. ImgCreator.ai च्या मदतीने पाठ आणि छायाचित्रांपासून चित्रे, कला, इलस्ट्रेशन, अनिमे, लोगो, डिझाईन प्रमाणे तयार करा. आमच्या संपादकीय तंत्रज्ञानाने तुमच्या कल्पनेचे आयात घेऊन येईल.",
+    "pdf_tools__title": "मोफत PDF टूल - परिवर्तन, संपीडन आणि संपादन करा | MaxAI.me",
+    "pdf_tools__description": "मोफत ऑनलाइन उपकरण संग्रह तुमची मदत करण्यासाठी ज्ञानरंजक आहेत, ज्यामुळे तुम्ही PDF फाइल्स निर्माण करू शकता, संपीडन करू शकता, संपादन करू शकता आणि हस्ताक्षर करू शकता.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF ते JPEG - कोणत्याही PDF चित्रे ऑनलाइन विनामूल्य रूपांतरित करा | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "आपल्या PDF फाइलमधून JPEG छायाचित्रे रूपांतरित किंवा वैयक्तिक छायाचित्रे विनिमय करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
+    "pdf_tools__pdf_to_png__title": "PDF ते PNG - कोणत्याही PDF चित्रे ऑनलाइन विनामूल्य रूपांतरित करा | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "आपल्या PDF फाइलमधून PNG छायाचित्रे रूपांतरित किंवा वैयक्तिक छायाचित्रे विनिमय करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
+    "pdf_tools__merge_pdfs__title": "PDF एकत्रीकरण - विनामूल्य ऑनलाइन PDF दस्तावेज एकत्रित करा | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "PDF फाइल एकत्रित करा आणि विनामूल्य ऑनलाइन एकटा दस्तावेज तयार करा. आमच्या PDF संयोजकासह, PDF एकत्रीकरण करणे अधिक सोपे झाले आहे. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
+    "pdf_tools__split_pdf__title": "PDF विभाजन - PDF पृष्ठे विभाजा किंवा पृष्ठे काढा | MaxAI.me",
+    "pdf_tools__split_pdf__description": "आपल्या PDF ऑनलाइन विनामूल्य असलेल्या पृष्ठांमधून सोप्या प्रकारे पृष्ठे विभाजा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "पृष्ठे पहा",
     "components__to_image_detail__view_images": "प्रतिमा पहा",
     "components__to_image__downloader_tip": "कृपया किमान एक प्रतिमा निवडा.",
-    "components__to_image_detail__not_found_images": "पीडीएफ प्रतिमा सापडली नाही"
+    "components__to_image_detail__not_found_images": "पीडीएफ प्रतिमा सापडली नाही",
+    "components__to_image_detail__button__download__tooltip": "झिप्पेड छवियांची डाउनलोड करा",
+    "components__to_image_detail__button__view_images__tooltip": "हे PDF मध्ये निकाललेल्या छवियांचे पहा",
+    "components__to_image_detail__button__view_pages__tooltip": "हे PDF मध्ये सर्व पृष्ठ पहा",
+    "components__to_image_detail__button__zoom_in__tooltip": "जूम इन करा",
+    "components__to_image_detail__button__zoom_out__tooltip": "जूम आउट करा",
+    "components__to_image_detail__button__cancel__tooltip": "सध्याचे प्रगती रद्द करा",
+    "components__to_image_detail__button__remove__tooltip": "हे PDF काढून नवीन निवडा"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
+    "components__pdf_merge__add_pdf": "पीडीएफ जोडा",
+    "components__pdf_merge__empty_pdf": "पीडीएफ साफ करा",
+    "components__pdf_merge__confirm_merge": "संयोजन करण्यासाठी पुष्टी करा",
+    "components__pdf_merge__pdf_dropping": "आपण पीडीएफ व्यवस्थापन ड्रॅग आणि ड्रॉप करून प्रक्रिया करू शकता",
+    "components__pdf_merge__button__download__tooltip": "एकत्र करा आणि PDF डाउनलोड करा",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "खालील सर्व PDF साफ करा",
+    "components__pdf_merge__button__add_pdfs__tooltip": "खालील PDF फाइल जोडा"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
+    "components__pdf_split__add_pdf": "पीडीएफ जोडा",
+    "components__pdf_spli__remove_pdf": "पीडीएफ काढा",
+    "components__pdf_split__select_all": "सर्व निवडा",
+    "components__pdf_split__deselect_all": "सर्व निवड काढा",
+    "components__pdf_split__confirm_split": "विभाजन करण्यासाठी पुष्टी करा",
+    "components__pdf_split__pdf_dropping": "आपण पीडीएफ व्यवस्थापन करण्यासाठी पीडीएफ क्रमांक बदलू शकता",
+    "components__pdf_split__is_single_pdf": "निवडलेल्या पृष्ठांचे एकटे पीडीएफ मर्ज करा",
+    "components__pdf_split__cancel": "रद्द करा",
+    "components__pdf_split__error_maximum": "पीडीएफ फाइल विभाजन करण्यात असफळ, महाप्रमाणातील संख्या पार केली",
+    "components__pdf_split__button__zoom_in__tooltip": "जूम इन करा",
+    "components__pdf_split__button__zoom_out__tooltip": "जूम आउट करा",
+    "components__pdf_split__button__remove__tooltip": "हे PDF काढून नवीन निवडा",
+    "components__pdf_split__button__download__tooltip": "विभाजित करा आणि PDF डाउनलोड करा",
+    "components__pdf_split__button__cancel__tooltip": "सध्याचे प्रगती रद्द करा"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "एन्क्रिप्टेड असलेले किंवा असामान्य असलेले PDF, पीडीएफ संपादित करण्यास अक्षम, वगळले"
   }
 }

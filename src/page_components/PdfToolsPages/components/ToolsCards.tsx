@@ -3,11 +3,8 @@ import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
-import ToolsIcon from '@/page_components/ToolsPages/components/ToolsIcon';
-import {
-  IToolData,
-  toolsTopUrlKey,
-} from '@/page_components/ToolsPages/constant';
+import ToolsIcon from '@/page_components/PdfToolsPages/components/ToolsIcon';
+import { IToolData } from '@/page_components/PdfToolsPages/constant';
 
 interface IToolsCardsProps {
   list: IToolData[];
@@ -26,17 +23,33 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
     >
       {list.map((toolData) => {
         return (
-          <Grid key={toolData.urlKey} item xs={12} sm={6} md={4}>
+          <Grid
+            key={toolData.urlKey}
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
             <ProLink
-              href={`/${toolsTopUrlKey}/${toolData.urlKey}`}
+              href={`/${toolData.urlPrefixPath}/${toolData.urlKey}`}
               color='inherit'
               target='_self'
               sx={{
-                width: '100%',
+                flex: 1,
               }}
             >
-              <Card sx={{ padding: 1, cursor: 'pointer' }} variant='outlined'>
-                <CardContent>
+              <Card
+                sx={{
+                  cursor: 'pointer',
+                  height: '100%',
+                }}
+                variant='outlined'
+              >
+                <CardContent style={{ padding: 20 }}>
                   <ToolsIcon
                     name={toolData.icon}
                     sx={{ color: 'primary.main' }}
@@ -44,8 +57,8 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                   <Typography
                     sx={{
                       fontSize: {
-                        xs: 16,
-                        lg: 18,
+                        xs: 12,
+                        lg: 16,
                       },
                       mt: 1,
                     }}
@@ -57,7 +70,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                   <Typography
                     sx={{
                       fontSize: {
-                        xs: 13,
+                        xs: 12,
                         lg: 15,
                       },
                       mt: 1,

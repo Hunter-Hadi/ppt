@@ -360,11 +360,13 @@
     "tools__index_page__title": "أدوات MaxAI",
     "tools__index_page__description": "جميع أدوات PDF مجانية بنسبة 100٪ وتعمل في المتصفح الخاص بك لضمان الخصوصية التامة",
     "tools__index_page__constant_obj__pdf_to_png__title": "تحويل PDF إلى PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "تحويل ملف PDF إلى صورة PNG وتنزيل كل صفحة كصورة",
+    "tools__index_page__constant_obj__pdf_to_png__description": "تصدير كل صفحة PDF كصورة PNG أو استخراج صور فردية من الـ PDF إلى صيغة JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "تحويل PDF إلى JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "تحويل ملف PDF إلى صورة JPEG وتنزيل كل صفحة كصورة",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "تصدير كل صفحة PDF كصورة JPEG أو استخراج صور فردية من الـ PDF إلى صيغة JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "دمج ملفات PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "قم بدمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط"
+    "tools__index_page__constant_obj__merge_pdfs__description": "قم بدمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط",
+    "tools__index_page__constant_obj__split_a_pdf__title": "تقسيم ملف PDF",
+    "tools__index_page__constant_obj__split_a_pdf__description": "سيصبح كل صفحة محددة ملف PDF منفصل. بدلاً من ذلك، يمكنك دمج الصفحات المحددة في ملف PDF واحد."
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "أسرع طريقة لاستخدام الذكاء الاصطناعي في أي مكان عبر الإنترنت. نقرة واحدة للتأليف، تحسين الكتابة، تلخيص، شرح، إصلاح الإملاء والقواعد النحوية، تغيير النغمة، الترجمة، أو الرد على أي نص.",
     "install__title": "تثبيت | MaxAI.me",
     "zmo__title": "مولد فن التصميم بالذكاء الاصطناعي متعدد الاستخدامات | مولد صور AI من النص | ImgCreator.AI",
-    "zmo__description": "أنشئ فنًا وصورًا باستخدام الذكاء الاصطناعي مجانًا. يمكن لـ ImgCreator.ai توليد صور وفن ورسوم توضيحية وأنمي وشعارات وتصاميم من النص والصور. ستجعل تقنيتنا الحصرية خيالك يتحقق."
+    "zmo__description": "أنشئ فنًا وصورًا باستخدام الذكاء الاصطناعي مجانًا. يمكن لـ ImgCreator.ai توليد صور وفن ورسوم توضيحية وأنمي وشعارات وتصاميم من النص والصور. ستجعل تقنيتنا الحصرية خيالك يتحقق.",
+    "pdf_tools__title": "أدوات PDF المجانية - تحويل وضغط وتعديل ملفات PDF عبر الإنترنت | MaxAI.me",
+    "pdf_tools__description": "استكشف مجموعتنا من الأدوات لمساعدتك في تحويل وضغط وتعديل وتوقيع ملفات PDF عبر الإنترنت مجانًا.",
+    "pdf_tools__pdf_to_jpeg__title": "تحويل PDF إلى JPEG - تحويل أي ملفات PDF إلى صور عبر الإنترنت مجانًا | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "قم بتحويل صفحات PDF إلى صور JPEG أو استخراج صور فردية من ملفات PDF الخاصة بك عبر الإنترنت مجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "pdf_tools__pdf_to_png__title": "تحويل PDF إلى PNG - تحويل أي ملفات PDF إلى صور عبر الإنترنت مجانًا | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "قم بتحويل صفحات PDF إلى صور PNG أو استخراج صور فردية من ملفات PDF الخاصة بك عبر الإنترنت مجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "pdf_tools__merge_pdfs__title": "دمج PDF - دمج ملفات PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "قم بدمج ملفات PDF وإنشاء وثيقة واحدة عبر الإنترنت مجانًا. باستخدام أداة دمج PDF لدينا ، يصبح دمج ملفات PDF أسهل من أي وقت مضى. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "pdf_tools__split_pdf__title": "تقسيم PDF - فصل صفحات PDF أو إزالة صفحات | MaxAI.me",
+    "pdf_tools__split_pdf__description": "افصل الصفحات في ملف PDF الخاص بك بسهولة عبر الإنترنت مجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "عرض الصفحات",
     "components__to_image_detail__view_images": "عرض الصور",
     "components__to_image__downloader_tip": "يرجى تحديد صورة واحدة على الأقل.",
-    "components__to_image_detail__not_found_images": "لم يتم العثور على صورة PDF"
+    "components__to_image_detail__not_found_images": "لم يتم العثور على صورة PDF",
+    "components__to_image_detail__button__download__tooltip": "تنزيل الصور المضغوطة",
+    "components__to_image_detail__button__view_images__tooltip": "عرض الصور المستخرجة في هذا الملف PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "عرض جميع الصفحات في هذا الملف PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "تكبير",
+    "components__to_image_detail__button__zoom_out__tooltip": "تصغير",
+    "components__to_image_detail__button__cancel__tooltip": "إلغاء التقدم الحالي",
+    "components__to_image_detail__button__remove__tooltip": "إزالة هذا الملف PDF وتحديد ملف جديد"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
+    "components__pdf_merge__add_pdf": "إضافة PDF",
+    "components__pdf_merge__empty_pdf": "مسح PDFs",
+    "components__pdf_merge__confirm_merge": "تأكيد الدمج",
+    "components__pdf_merge__pdf_dropping": "يمكنك ضبط ترتيب PDF عن طريق السحب والإفلات",
+    "components__pdf_merge__button__download__tooltip": "دمج وتنزيل ملف PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "مسح جميع ملفات PDF أدناه",
+    "components__pdf_merge__button__add_pdfs__tooltip": "إضافة ملف PDF أدناه"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
+    "components__pdf_split__add_pdf": "إضافة ملفات PDF",
+    "components__pdf_spli__remove_pdf": "إزالة ملف PDF",
+    "components__pdf_split__select_all": "تحديد الكل",
+    "components__pdf_split__deselect_all": "إلغاء تحديد الكل",
+    "components__pdf_split__confirm_split": "تأكيد التقسيم",
+    "components__pdf_split__pdf_dropping": "يمكنك ضبط ترتيب ملفات PDF عن طريق السحب والإفلات",
+    "components__pdf_split__is_single_pdf": "دمج الصفحات المحددة في ملف PDF واحد",
+    "components__pdf_split__cancel": "إلغاء",
+    "components__pdf_split__error_maximum": "فشل في تقسيم ملفات PDF، تجاوز الحد الأقصى",
+    "components__pdf_split__button__zoom_in__tooltip": "تكبير",
+    "components__pdf_split__button__zoom_out__tooltip": "تصغير",
+    "components__pdf_split__button__remove__tooltip": "إزالة هذا الملف PDF وتحديد ملف جديد",
+    "components__pdf_split__button__download__tooltip": "تقسيم وتنزيل ملف PDF",
+    "components__pdf_split__button__cancel__tooltip": "إلغاء التقدم الحالي"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على التلاعب بملف PDF، تم تخطيها"
   }
 }

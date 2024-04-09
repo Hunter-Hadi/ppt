@@ -360,11 +360,13 @@
     "tools__index_page__title": "MaxAI Gereedschappen",
     "tools__index_page__description": "Alle PDF-tools zijn 100% GRATIS en worden uitgevoerd in uw browser voor volledige privacy",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF naar PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Converteer PDF naar PNG en download elke pagina als een afbeelding",
+    "tools__index_page__constant_obj__pdf_to_png__description": "Exporteer elke PDF-pagina als een PNG-afbeelding of extraheren individuele afbeeldingen uit de PDF naar PNG's",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF naar JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Converteer PDF naar JPEG en download elke pagina als een afbeelding",
+    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exporteer elke PDF-pagina als een JPEG-afbeelding of extraheren individuele afbeeldingen uit de PDF naar JPEG's",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF's samenvoegen",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken"
+    "tools__index_page__constant_obj__merge_pdfs__description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken",
+    "tools__index_page__constant_obj__split_a_pdf__title": "PDF splitsen",
+    "tools__index_page__constant_obj__split_a_pdf__description": "Elke geselecteerde pagina wordt een apart PDF-bestand. U kunt ook geselecteerde pagina's samenvoegen tot één PDF-bestand."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -602,7 +604,17 @@
     "usechatgpt__description": "De snelste manier om overal online AI te gebruiken. Met één klik kunt u tekst samenstellen, schrijven verbeteren, samenvatten, uitleggen, spelling en grammatica corrigeren, toon veranderen, vertalen of reageren op elke tekst.",
     "install__title": "Installeren | MaxAI.me",
     "zmo__title": "All-in-one AI Design Art Generator | AI-beeldgenerator van tekst | ImgCreator.AI",
-    "zmo__description": "Maak gratis kunst en afbeeldingen met AI. ImgCreator.ai kan afbeeldingen, kunst, illustraties, anime, logo's, ontwerpen genereren op basis van tekst en afbeeldingen. Onze eigen technologie brengt uw verbeelding tot leven."
+    "zmo__description": "Maak gratis kunst en afbeeldingen met AI. ImgCreator.ai kan afbeeldingen, kunst, illustraties, anime, logo's, ontwerpen genereren op basis van tekst en afbeeldingen. Onze eigen technologie brengt uw verbeelding tot leven.",
+    "pdf_tools__title": "Gratis PDF-tools - Converteer, comprimeer en bewerk PDF's online | MaxAI.me",
+    "pdf_tools__description": "Verken onze collectie tools om u te helpen bij het converteren, comprimeren, bewerken en ondertekenen van PDF's online, helemaal gratis.",
+    "pdf_tools__pdf_to_jpeg__title": "PDF naar JPEG - Converteer elke PDF naar afbeeldingen online en gratis | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Converteer PDF-pagina's naar JPEG-afbeeldingen of haal individuele afbeeldingen uit je PDF-bestanden online en gratis. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "pdf_tools__pdf_to_png__title": "PDF naar PNG - Converteer elke PDF naar afbeeldingen online en gratis | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Converteer PDF-pagina's naar PNG-afbeeldingen of haal individuele afbeeldingen uit je PDF-bestanden online en gratis. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "pdf_tools__merge_pdfs__title": "PDF samenvoegen - Combineer PDF-bestanden online en gratis | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combineer PDF-bestanden en maak een enkel document online en gratis. Met onze PDF-combinator is het samenvoegen van PDF's eenvoudiger dan ooit. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "pdf_tools__split_pdf__title": "PDF splitsen - Splits PDF-pagina's of verwijder pagina's | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Scheid eenvoudig pagina's in je PDF online en gratis. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -652,6 +664,43 @@
     "components__to_image_detail__view_pages": "Bekijk pagina's",
     "components__to_image_detail__view_images": "Bekijk afbeeldingen",
     "components__to_image__downloader_tip": "Selecteer alstublieft minstens één afbeelding.",
-    "components__to_image_detail__not_found_images": "PDF-afbeelding niet gevonden"
+    "components__to_image_detail__not_found_images": "PDF-afbeelding niet gevonden",
+    "components__to_image_detail__button__download__tooltip": "Gecomprimeerde afbeeldingen downloaden",
+    "components__to_image_detail__button__view_images__tooltip": "Bekijk de geëxtraheerde afbeeldingen in deze PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "Bekijk alle pagina's in deze PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Inzoomen",
+    "components__to_image_detail__button__zoom_out__tooltip": "Uitzoomen",
+    "components__to_image_detail__button__cancel__tooltip": "Huidige voortgang annuleren",
+    "components__to_image_detail__button__remove__tooltip": "Verwijder deze PDF en selecteer een nieuwe"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
+    "components__pdf_merge__add_pdf": "PDF toevoegen",
+    "components__pdf_merge__empty_pdf": "PDF's wissen",
+    "components__pdf_merge__confirm_merge": "Bevestig samenvoegen",
+    "components__pdf_merge__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten",
+    "components__pdf_merge__button__download__tooltip": "Samenvoegen en PDF downloaden",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Alle PDF's hieronder wissen",
+    "components__pdf_merge__button__add_pdfs__tooltip": "PDF-bestand hieronder toevoegen"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Upload het gespecificeerde bestandstype van PDF",
+    "components__pdf_split__add_pdf": "PDF's toevoegen",
+    "components__pdf_spli__remove_pdf": "PDF verwijderen",
+    "components__pdf_split__select_all": "Alles selecteren",
+    "components__pdf_split__deselect_all": "Alles deselecteren",
+    "components__pdf_split__confirm_split": "Bevestig splitsing",
+    "components__pdf_split__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten",
+    "components__pdf_split__is_single_pdf": "Voeg geselecteerde pagina's samen in één PDF",
+    "components__pdf_split__cancel": "Annuleren",
+    "components__pdf_split__error_maximum": "Kan PDF-bestanden niet splitsen, maximum aantal overschreden",
+    "components__pdf_split__button__zoom_in__tooltip": "Inzoomen",
+    "components__pdf_split__button__zoom_out__tooltip": "Uitzoomen",
+    "components__pdf_split__button__remove__tooltip": "Verwijder deze PDF en selecteer een nieuwe",
+    "components__pdf_split__button__download__tooltip": "Opsplitsen en PDF downloaden",
+    "components__pdf_split__button__cancel__tooltip": "Huidige voortgang annuleren"
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet manipuleren, overgeslagen"
   }
 }

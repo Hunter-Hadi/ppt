@@ -1,10 +1,9 @@
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
-import UploadButton from '@/features/common/components/UploadButton';
-import FunctionalityIcon from '@/features/functionality_pdf_to_image/components/FunctionalityIcon';
+import FunctionalityUploadButton from '@/features/functionality_common/components/FunctionalityUploadButton';
 import snackNotifications from '@/utils/globalSnackbar';
 
 const FunctionalityPdfToImageDetail = lazy(
@@ -62,37 +61,14 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
       }}
     >
       {!fileData && (
-        <UploadButton
-          buttonProps={{
-            sx: {
-              display: 'flex',
-              flexDirection: 'column',
-              height: 280,
-              width: 260,
-              alignItems: 'center',
-              justifyContent: 'center',
-              border: '1px dashed',
-            },
-            variant: 'outlined',
-          }}
+        <FunctionalityUploadButton
           inputProps={{
             accept: 'application/pdf',
+            multiple: false,
           }}
           onChange={onChangeFile}
           handleUnsupportedFileType={handleUnsupportedFileType}
-        >
-          <FunctionalityIcon sx={{ fontSize: 35 }} name='CloudUploadIcon' />
-          <Typography
-            sx={{
-              fontSize: {
-                xs: 12,
-                lg: 15,
-              },
-            }}
-          >
-            {t('functionality__pdf_to_image:components__index__upload_title')}
-          </Typography>
-        </UploadButton>
+        />
       )}
       {fileData && toImageType && (
         <Suspense fallback={<AppLoadingLayout loading />}>
