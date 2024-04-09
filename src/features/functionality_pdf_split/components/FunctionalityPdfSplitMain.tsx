@@ -222,7 +222,12 @@ export const FunctionalityPdfSplitMain = () => {
                   'functionality__pdf_split:components__pdf_split__button__zoom_in__tooltip',
                 )}
               >
-                <Box onClick={() => changeScale('enlarge')}>
+                <Box
+                  sx={{
+                    height: 35,
+                  }}
+                  onClick={() => changeScale('enlarge')}
+                >
                   <FunctionalityIcon
                     name='ControlPointTwoTone'
                     sx={{
@@ -238,7 +243,12 @@ export const FunctionalityPdfSplitMain = () => {
                   'functionality__pdf_split:components__pdf_split__button__zoom_out__tooltip',
                 )}
               >
-                <Box onClick={() => changeScale('narrow')}>
+                <Box
+                  sx={{
+                    height: 35,
+                  }}
+                  onClick={() => changeScale('narrow')}
+                >
                   <FunctionalityIcon
                     name='RemoveCircleTwoTone'
                     sx={{
