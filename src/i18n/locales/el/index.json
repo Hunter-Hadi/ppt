@@ -130,8 +130,6 @@
     "footer__terms_of_service": "Όροι Χρήσης",
     "payment_type_switch__yearly": "Ετήσια",
     "payment_type_switch__monthly": "Μηνιαία",
-    "payment_type_switch__tooltip1": "Πληρώστε ετησίως",
-    "payment_type_switch__tooltip2": "και εξοικονομήστε έως και {{num}}%",
     "plan_payment_info__per_month": "ανά μήνα",
     "plan_payment_info__billed_yearly": "τιμολογείται ετησίως",
     "plan_payment_info__free_desc": "Καλύτερο για περιστασιακούς χρήστες",
@@ -240,7 +238,7 @@
     "pdf_tools__pdf_to_png__description": "Μετατρέψτε τις σελίδες PDF σε εικόνες PNG ή εξαγάγετε μεμονωμένες εικόνες από τα αρχεία PDF σας online δωρεάν. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές.",
     "pdf_tools__merge_pdfs__title": "Συγχώνευση PDF - Συνδυάστε αρχεία PDF online δωρεάν | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Συνδυάστε αρχεία PDF και δημιουργήστε ένα μόνο έγγραφο online δωρεάν. Με τον συνδυαστή PDF μας, η συγχώνευση PDFs είναι πιο εύκολη από ποτέ. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές.",
-    "pdf_tools__split_pdf__title": "Διαίρεση PDF - Διαχωρίστε σελίδες PDF ή αφαιρέστε σελίδες | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Χωρίστε εύκολα τις σελίδες στο PDF σας online δωρεάν. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές."
+    "pdf_tools__split_pdf__title": "Διαχωρίστε το PDF - Χωρίστε σελίδες PDF online δωρεάν | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Χωρίστε εύκολα σελίδες ή αφαιρέστε σελίδες από το PDF σας online δωρεάν. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές."
   }
 }

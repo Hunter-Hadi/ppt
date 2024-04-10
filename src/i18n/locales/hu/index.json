@@ -604,8 +604,8 @@
     "pdf_tools__pdf_to_png__description": "Konvertálja a PDF oldalakat PNG képekké vagy kinyerheti az egyedi képeket a PDF fájlokból online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
     "pdf_tools__merge_pdfs__title": "PDF összevonása - PDF fájlok kombinálása online ingyen | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Kombinálja a PDF fájlokat és hozzon létre egyetlen dokumentumot online ingyen. A PDF összevonóval könnyebb mint valaha a PDF-ek egyesítése. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
-    "pdf_tools__split_pdf__title": "PDF felosztása - PDF oldalak különválasztása vagy eltávolítása | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Egyszerűen válassza szét a PDF oldalakat online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges."
+    "pdf_tools__split_pdf__title": "PDF szétválasztása - Ingyenesen válassza szét a PDF oldalakat | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Egyszerűen válassza szét az oldalakat vagy távolítsa el az oldalakat a PDF-ből ingyenesen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
