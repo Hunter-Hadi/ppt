@@ -14,7 +14,7 @@ interface ISwitchWithType {
  *   接受一个参数 id，表示要切换选择的项的 id。
  * - onSwitchAllSelect (function): 全选切换的函数。
  */
-const useFunctionalityConvertedContentSelector = <T extends ISwitchWithType>(params: {
+const useFunctionalityCommonConvertedContentSelector = <T extends ISwitchWithType>(params: {
   list: (T & ISwitchWithType)[];
   setList: (method: (prev: T[]) => T[]) => void;
 }) => {
@@ -46,4 +46,4 @@ const useFunctionalityConvertedContentSelector = <T extends ISwitchWithType>(par
     onSwitchAllSelect,
   };
 };
-export default useFunctionalityConvertedContentSelector;
+export default useFunctionalityCommonConvertedContentSelector;

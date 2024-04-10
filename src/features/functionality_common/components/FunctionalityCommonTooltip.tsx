@@ -6,7 +6,7 @@ import { Box, Tooltip, TooltipProps, Typography } from '@mui/material';
  *
  *
  */
-export const FunctionalityTooltip = ({
+const FunctionalityCommonTooltip = ({
   title,
   children,
   ...props
@@ -24,3 +24,4 @@ export const FunctionalityTooltip = ({
     </Tooltip>
   );
 };
+export default FunctionalityCommonTooltip;

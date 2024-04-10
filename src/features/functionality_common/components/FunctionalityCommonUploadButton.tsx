@@ -5,13 +5,13 @@ import React, { FC } from 'react';
 import UploadButton, {
   IUploadButtonProps,
 } from '@/features/common/components/UploadButton';
-import FunctionalityIcon from '@/features/functionality_common/components/FunctionalityIcon';
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
 
 /**
  * Functionality公共的上传组件
  * 为了统一的上传按钮样式
  */
-const FunctionalityUploadButton: FC<IUploadButtonProps> = (props) => {
+const FunctionalityCommonUploadButton: FC<IUploadButtonProps> = (props) => {
   const { t } = useTranslation();
 
   return (
@@ -34,7 +34,7 @@ const FunctionalityUploadButton: FC<IUploadButtonProps> = (props) => {
       }}
       {...props}
     >
-      <FunctionalityIcon sx={{ fontSize: 34 }} name='CloudUploadIcon' />
+      <FunctionalityCommonIcon sx={{ fontSize: 34 }} name='CloudUploadIcon' />
       <Typography
         sx={{
           fontSize: {
@@ -49,4 +49,4 @@ const FunctionalityUploadButton: FC<IUploadButtonProps> = (props) => {
   );
 };
 
-export default FunctionalityUploadButton;
+export default FunctionalityCommonUploadButton;

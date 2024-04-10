@@ -613,8 +613,8 @@
     "pdf_tools__pdf_to_png__description": "PDFのページをPNG画像に変換するか、PDFファイルから個別の画像を無料で抽出します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
     "pdf_tools__merge_pdfs__title": "PDFを結合 - 無料でオンラインでPDFファイルを結合する | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "PDFファイルを結合して単一のドキュメントを無料で作成します。PDFコンバイナーを使用すれば、PDFの結合がこれまで以上に簡単になります。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
-    "pdf_tools__split_pdf__title": "PDFを分割 - PDFのページを分離または削除する | MaxAI.me",
-    "pdf_tools__split_pdf__description": "簡単にPDFのページを無料で分割します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。"
+    "pdf_tools__split_pdf__title": "PDFを分割 - 無料でオンラインでPDFページを分離 | MaxAI.me",
+    "pdf_tools__split_pdf__description": "簡単にPDFのページを分離したり、ページを削除したりすることができます。ウォーターマークやファイルサイズの制限、ダウンロードやサインアップは必要ありません。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",

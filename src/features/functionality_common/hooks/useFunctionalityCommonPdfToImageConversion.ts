@@ -4,20 +4,22 @@ import { useEffect, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
-import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityGetPdfFilePageToImage';
+import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityCommonGetPdfFilePageToImage';
 import snackNotifications from '@/utils/globalSnackbar';
+
+import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
-export interface IPdfPageImageInfo {
-  id: string;
-  imageUrlString: string;
-  isSelect: boolean;
-  definedIndex: number;
-}
+
 export const defaultPdfToImageScale = 1.6
+
+export type IFunctionalityPdfToImageType = IFunctionalityCommonImageInfo & {
+  definedIndex: number,
+  isSelect: boolean;
+}
 
 /**
  * pdf转图片类型 工具 的hook
@@ -28,15 +30,15 @@ export const defaultPdfToImageScale = 1.6
  * -  pdfPageHaveImages - pdf 所有page 含有的图片列表数据
  * -  onReadPdfToImages - 主方法，传入文件开始读取图片
  */
-const usePdfToImageConversion = () => {
+const useFunctionalityCommonPdfToImageConversion = () => {
   const { t } = useTranslation();
   const viewDefaultSize = { width: 500, height: 1000 }
   const isCancel = useRef(false);
   const [convertedPdfImages, setConvertedPdfImages] = useState<
-    IPdfPageImageInfo[]
+    IFunctionalityPdfToImageType[]
   >([]);
   const [pdfPageHaveImages, setPdfPageHaveImages] = useState<
-    IPdfPageImageInfo[]
+    IFunctionalityPdfToImageType[]
   >([]);
   const [pdfIsLoading, setPdfIsLoading] = useState<boolean>(false); //是否加载中
 
@@ -101,7 +103,15 @@ const usePdfToImageConversion = () => {
               },
             ]);
             if (toImageData.haveImages) {
-              setPdfPageHaveImages((prev) => [...prev, ...(toImageData.haveImages as IPdfPageImageInfo[])])
+              const pageHaveImages = toImageData.haveImages.map((item, index) => {
+                return {
+                  id: uuidV4(),
+                  imageUrlString: item,
+                  isSelect: true,
+                  definedIndex: index,
+                }
+              })
+              setPdfPageHaveImages((prev) => [...prev, ...pageHaveImages])
             }
           }
 
@@ -154,4 +164,4 @@ const usePdfToImageConversion = () => {
   };
 };
 
-export default usePdfToImageConversion;
+export default useFunctionalityCommonPdfToImageConversion;

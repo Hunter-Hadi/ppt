@@ -613,8 +613,8 @@
     "pdf_tools__pdf_to_png__description": "PDF 페이지를 PNG 이미지로 변환하거나 PDF 파일에서 개별 이미지를 추출하는 무료 온라인 서비스입니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__merge_pdfs__title": "PDF 병합 - 무료 온라인으로 PDF 파일을 결합 | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "PDF 파일을 결합하여 하나의 문서로 만드는 무료 온라인 서비스입니다. PDF 병합기를 사용하면 PDF를 쉽게 병합할 수 있습니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
-    "pdf_tools__split_pdf__title": "PDF 분할 - PDF 페이지를 분리하거나 페이지를 제거 | MaxAI.me",
-    "pdf_tools__split_pdf__description": "PDF를 쉽게 분할하여 원하는 페이지를 무료로 온라인에서 분리할 수 있습니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
+    "pdf_tools__split_pdf__title": "PDF 분할 - 무료 온라인으로 PDF 페이지 분리하기 | MaxAI.me",
+    "pdf_tools__split_pdf__description": "무료로 PDF에서 페이지를 쉽게 분리하거나 제거하세요. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",

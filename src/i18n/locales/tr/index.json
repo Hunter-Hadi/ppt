@@ -613,8 +613,8 @@
     "pdf_tools__pdf_to_png__description": "PDF sayfalarını PNG resimlerine dönüştürün veya PDF dosyalarınızdan bireysel resimler çıkarın. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
     "pdf_tools__merge_pdfs__title": "PDF Birleştir - Ücretsiz Olarak PDF Dosyalarını Birleştirin | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "PDF dosyalarını birleştirin ve ücretsiz olarak tek bir belge oluşturun. PDF birleştiricimizle PDF'leri birleştirmek hiç olmadığı kadar kolay. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
-    "pdf_tools__split_pdf__title": "PDF Ayır - PDF Sayfalarını Ayır veya Sayfaları Kaldır | MaxAI.me",
-    "pdf_tools__split_pdf__description": "PDF'nizi ücretsiz olarak kolayca sayfalara ayırın. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez."
+    "pdf_tools__split_pdf__title": "PDF'yi Böl – Ücretsiz Olarak Çevrimiçi PDF Sayfalarını Ayır | MaxAI.me",
+    "pdf_tools__split_pdf__description": "PDF'nizdeki sayfaları kolayca ayırın veya kaldırın. Filigran, dosya boyutu sınırları, indirmeler veya kayıt olma gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",

@@ -613,8 +613,8 @@
     "pdf_tools__pdf_to_png__description": "የሚለውን PDF ገጽዎን ለ PNG ምስሎች ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ ይቀይሩ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
     "pdf_tools__merge_pdfs__title": "PDF ለማሰናጃ - የሚለውን PDF ፋይሎችን በነፃ እንዴት ማሰናጃ | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "የሚለውን PDF ፋይሎችን ለመሰናጃ የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
-    "pdf_tools__split_pdf__title": "PDF ለማስቀመጥ - የሚለውን PDF ገጽዎን ወይም ገጽዎን አጥፋ | MaxAI.me",
-    "pdf_tools__split_pdf__description": "የሚለውን PDF ገጽዎን በነፃ ማስቀመጥ ይችላሉ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።"
+    "pdf_tools__split_pdf__title": "ፕድን ማቅረብ - በነፃ እናደርጋለን | MaxAI.me",
+    "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።"
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
