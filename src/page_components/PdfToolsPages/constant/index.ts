@@ -2,7 +2,8 @@ export type IToolUrkKeyType =
   | 'pdf-to-png'
   | 'pdf-to-jpeg'
   | 'merge-pdf'
-  | 'split-pdf';
+  | 'split-pdf'
+  | 'png-to-pdf'
 export interface IToolData {
   icon: string;
   title: string;
@@ -47,6 +48,15 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_to_jpeg__description',
     urlKey: 'pdf-to-jpeg',
     accept: 'application/pdf',
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'png-to-pdf': {
+    icon: 'CropOriginal',
+    title: 'notI18:PNG to PDF',
+    description:
+      'notI18:Convert PNG images to PDF online',
+    urlKey: 'png-to-pdf',
+    accept: 'application/png',
     urlPrefixPath: toolsTopUrlKey,
   },
 };

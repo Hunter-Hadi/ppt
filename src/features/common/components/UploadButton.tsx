@@ -106,6 +106,7 @@ const UploadButton: FC<
             onChange && event.target.files && onChange(event.target.files)
           }
           {...inputProps}
+          accept={inputProps?.accept}
         />
       </Button>
     </div>

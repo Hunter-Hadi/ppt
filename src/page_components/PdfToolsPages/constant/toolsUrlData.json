@@ -1,0 +1,18 @@
+{
+  "name": "PDF Tools All Urls",
+  "prefixPath": "pdf-tools",
+  "urlObjData": {
+    "merge-pdf": {
+      "urlKey": "merge-pdf"
+    },
+    "split-pdf": {
+      "urlKey": "split-pdf"
+    },
+    "pdf-to-png": {
+      "urlKey": "pdf-to-png"
+    },
+    "pdf-to-jpeg": {
+      "urlKey": "pdf-to-jpeg"
+    }
+  }
+}

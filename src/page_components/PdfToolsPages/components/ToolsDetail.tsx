@@ -5,6 +5,7 @@ import { FC, lazy, Suspense, useMemo } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
+import FunctionalityImageToPdfMain from '@/features/functionality_image_to_pdf/components/functionalityImageToPdfMain';
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
 import {
   IToolUrkKeyType,
@@ -58,6 +59,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__split_pdf__title'),
       description: t('seo:pdf_tools__split_pdf__description'),
     },
+    'png-to-pdf': {
+      title: 'notI18:未定义',
+      description: 'notI18:未定义',
+    },
   };
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
@@ -85,6 +90,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           )}
           {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
           {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
+          {urlKey === 'png-to-pdf' && <FunctionalityImageToPdfMain />}
         </Suspense>
       </Box>
     </AppContainer>
