@@ -74,6 +74,7 @@ export const FunctionalityCommonButtonListView: React.FC<
                 >
                   <Button
                     size='large'
+                    variant='outlined'
                     {...{
                       sx: {
                         height: 48,
