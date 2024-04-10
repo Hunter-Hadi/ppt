@@ -247,7 +247,7 @@ const FunctionalityPdfMergeMain = () => {
             minHeight: 200,
           }}
         >
-          {!isListEmpty && (
+          {!isListEmpty && !isLoading && (
             <FunctionalityDragSortableImageList
               imageList={pdfInfoList}
               onDelete={onDeletePdf}

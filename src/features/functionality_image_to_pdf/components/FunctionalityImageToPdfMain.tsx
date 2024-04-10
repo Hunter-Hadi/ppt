@@ -1,5 +1,12 @@
-import { CircularProgress, Grid, MenuItem, Select } from '@mui/material';
+import {
+  CircularProgress,
+  Grid,
+  MenuItem,
+  Select,
+  Typography,
+} from '@mui/material';
 import Box from '@mui/material/Box';
+import { ceil, divide } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib/cjs/api';
 import { useState } from 'react';
@@ -9,7 +16,9 @@ import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
+import FunctionalityCommonDragSortableList from '@/features/functionality_common/components/FunctionalityCommonDragSortableList';
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
@@ -28,7 +37,6 @@ const FunctionalityImageToPdfMain = () => {
   const [userSelectPositionType, setUserSelectPositionType] = useState<string>(
     pdfPagePositions[0],
   );
-
   const [imageInfoList, setImageInfoList] = useState<
     IFunctionalityImageToPdfImageInfo[]
   >([]); //展示的pdf信息 列表
@@ -42,6 +50,7 @@ const FunctionalityImageToPdfMain = () => {
       imageUrls.push({
         imageUrlString: url,
         id: uuidV4(),
+        size: file.size,
         file,
       });
     }
@@ -69,53 +78,68 @@ const FunctionalityImageToPdfMain = () => {
   const convertToPDF = async () => {
     try {
       const pdfDoc = await PDFDocument.create();
-
+      setIsLoading(true);
       for (const imageFile of imageInfoList) {
-        console.log('simply imageFile file', imageFile.file);
-        const imageBytes = await imageFile.file.arrayBuffer();
-        const image = await pdfDoc.embedPng(imageBytes);
-        const pageSize = await getUserSelectPageSize(); // Set the page size here
-        if (!pageSize) return;
-        const page = pdfDoc.addPage([pageSize.width, pageSize.height]);
-        const imageWidth = pageSize.width;
-        const imageHeight = (imageWidth * image.height) / image.width;
-        let x = 0,
-          y = 0;
-        if (imageHeight > pageSize.height) {
-          const scale = pageSize.height / imageHeight;
-          const scaledWidth = imageWidth * scale;
-          const scaledHeight = imageHeight * scale;
-          x = (pageSize.width - scaledWidth) / 2;
-          y = (pageSize.height - scaledHeight) / 2;
-          page.drawImage(image, {
-            x: x,
-            y: y,
-            width: scaledWidth,
-            height: scaledHeight,
-          });
-        } else {
-          if (userSelectPositionType === 'Middle') {
-            x = (pageSize.width - imageWidth) / 2;
-            y = (pageSize.height - imageHeight) / 2;
-          } else if (userSelectPositionType === 'Top') {
-            x = (pageSize.width - imageWidth) / 2;
-            y = pageSize.height - imageHeight;
-          } else if (userSelectPositionType === 'Bottom') {
-            x = (pageSize.width - imageWidth) / 2;
+        try {
+          console.log('simply imageFile file', imageFile.file);
+          const imageBytes = await imageFile.file.arrayBuffer();
+          const image = await pdfDoc.embedPng(imageBytes);
+          const pageSize = await getUserSelectPageSize(); // Set the page size here
+          if (!pageSize) return;
+          const page = pdfDoc.addPage([pageSize.width, pageSize.height]);
+          const imageWidth = pageSize.width;
+          const imageHeight = (imageWidth * image.height) / image.width;
+          let x = 0,
             y = 0;
+          if (imageHeight > pageSize.height) {
+            const scale = pageSize.height / imageHeight;
+            const scaledWidth = imageWidth * scale;
+            const scaledHeight = imageHeight * scale;
+            x = (pageSize.width - scaledWidth) / 2;
+            y = (pageSize.height - scaledHeight) / 2;
+            page.drawImage(image, {
+              x: x,
+              y: y,
+              width: scaledWidth,
+              height: scaledHeight,
+            });
+          } else {
+            if (userSelectPositionType === 'Middle') {
+              x = (pageSize.width - imageWidth) / 2;
+              y = (pageSize.height - imageHeight) / 2;
+            } else if (userSelectPositionType === 'Top') {
+              x = (pageSize.width - imageWidth) / 2;
+              y = pageSize.height - imageHeight;
+            } else if (userSelectPositionType === 'Bottom') {
+              x = (pageSize.width - imageWidth) / 2;
+              y = 0;
+            }
+            page.drawImage(image, {
+              x: x,
+              y: y,
+              width: imageWidth,
+              height: imageHeight,
+            });
           }
-          page.drawImage(image, {
-            x: x,
-            y: y,
-            width: imageWidth,
-            height: imageHeight,
-          });
+        } catch (e) {
+          console.log('convertToPDF error:', e);
         }
       }
-
+      // // 设置新的标题
+      // pdfDoc.setTitle('MaxAi.me');
+      // // 设置新的作者
+      // pdfDoc.setAuthor('MaxAi.me');
+      // // 设置新的主题
+      // pdfDoc.setSubject('MaxAi.me');
+      // 设置新的生成者
+      pdfDoc.setProducer('MaxAI.me');
+      // 也可以设置创建者
+      pdfDoc.setCreator('MaxAI.me');
       const pdfBytes = await pdfDoc.save();
       downloadUrl(pdfBytes, 'image(MaxAI.me).pdf');
+      setIsLoading(false);
     } catch (error) {
+      setIsLoading(false);
       console.error('Error converting images to PDF:', error);
     }
   };
@@ -165,12 +189,14 @@ const FunctionalityImageToPdfMain = () => {
       setImageInfoList(newPdfInfoList);
     }
   };
+  const isEmptyList = imageInfoList.length === 0;
   const bottomButtonConfigs: IButtonConfig[] = [
     {
       type: 'button',
-      isShow: imageInfoList.length > 0,
+      isShow: !isEmptyList,
       buttonProps: {
         onClick: convertToPDF,
+        disabled: isLoading,
         variant: 'contained',
         tooltip: 'notI18:开始转换',
         children: 'notI18:开始转换',
@@ -198,10 +224,10 @@ const FunctionalityImageToPdfMain = () => {
           handleUnsupportedFileType={handleUnsupportedFileTypeTip}
         />
       )}
-      {imageInfoList.length > 0 && (
+      {!isEmptyList && (
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
-      {(imageInfoList.length > 0 || isLoading) && (
+      {(!isEmptyList || isLoading) && (
         <Grid
           container
           item
@@ -213,33 +239,53 @@ const FunctionalityImageToPdfMain = () => {
             minHeight: 200,
           }}
         >
-          {!isLoading &&
-            imageInfoList.map((imageInfo, index) => (
-              <FunctionalityCommonImage
-                key={imageInfo.id}
-                name={String(index + 1)}
-                imageInfo={imageInfo}
-                rightTopChildren={
-                  <Box
-                    sx={{
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      backgroundColor: '#d1d5db',
-                      borderRadius: 5,
-                    }}
-                    onClick={() => onDeleteInfo(imageInfo.id)}
-                  >
-                    <FunctionalityPdfMergeIcon
-                      name='CloseTwoTone'
-                      sx={{
-                        fontSize: 16,
-                      }}
-                    />
-                  </Box>
-                }
-              />
-            ))}
+          {!isLoading && (
+            <FunctionalityCommonDragSortableList
+              list={imageInfoList}
+              onUpdateList={setImageInfoList}
+              replacementElement={(dragInfo) => (
+                <FunctionalityCommonImage
+                  isShowBackgroundColor={false}
+                  imageInfo={dragInfo}
+                />
+              )}
+            >
+              {(imageInfo, index, currentDragInfo) => (
+                <FunctionalityCommonTooltip
+                  key={imageInfo.id}
+                  title={`${ceil(divide(imageInfo.size || 0, 1000))}kb`}
+                >
+                  <FunctionalityCommonImage
+                    key={imageInfo.id}
+                    name={String(index + 1)}
+                    imageInfo={imageInfo}
+                    isActive={currentDragInfo?.id === imageInfo.id}
+                    rightTopChildren={
+                      !currentDragInfo ? (
+                        <Box
+                          sx={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            backgroundColor: '#d1d5db',
+                            borderRadius: 5,
+                          }}
+                          onClick={() => onDeleteInfo(imageInfo.id)}
+                        >
+                          <FunctionalityPdfMergeIcon
+                            name='CloseTwoTone'
+                            sx={{
+                              fontSize: 16,
+                            }}
+                          />
+                        </Box>
+                      ) : null
+                    }
+                  />
+                </FunctionalityCommonTooltip>
+              )}
+            </FunctionalityCommonDragSortableList>
+          )}
           {isLoading && (
             <Box
               sx={{
@@ -258,71 +304,76 @@ const FunctionalityImageToPdfMain = () => {
               <CircularProgress />
             </Box>
           )}
-          <Grid
-            container
-            item
-            justifyContent='center'
-            my={3}
-            gap={2}
+        </Grid>
+      )}
+      {!isEmptyList && (
+        <Grid
+          container
+          item
+          justifyContent='center'
+          alignItems='center'
+          my={3}
+          gap={2}
+          sx={{
+            position: 'relative',
+          }}
+        >
+          <Typography>Page size:</Typography>
+          <Select
+            value={userSelectSizeType}
+            onChange={(event) => setUserSelectSizeType(event.target.value)}
+            displayEmpty
+            size='small'
+            disabled={isLoading}
             sx={{
-              position: 'relative',
+              width: 150,
+            }}
+            MenuProps={{
+              PaperProps: {
+                style: {
+                  height: 300,
+                  width: 150,
+                },
+              },
             }}
           >
-            <Select
-              value={userSelectSizeType}
-              onChange={(event) => setUserSelectSizeType(event.target.value)}
-              displayEmpty
-              size='small'
-              sx={{
-                width: 150,
-              }}
-              MenuProps={{
-                PaperProps: {
-                  style: {
-                    height: 300,
-                    width: 150,
-                  },
+            {pdfPageSizes.map((page) => (
+              <MenuItem value={page.name} key={page.name}>
+                {page.name}
+              </MenuItem>
+            ))}
+          </Select>
+          <Typography>Image alignment:</Typography>
+          <Select
+            value={userSelectPositionType}
+            onChange={(event) => setUserSelectPositionType(event.target.value)}
+            displayEmpty
+            size='small'
+            disabled={isLoading}
+            sx={{
+              width: 150,
+            }}
+            MenuProps={{
+              PaperProps: {
+                style: {
+                  height: 300,
+                  width: 150,
                 },
-              }}
-            >
-              {pdfPageSizes.map((page) => (
-                <MenuItem value={page.name} key={page.name}>
-                  {page.name}
-                </MenuItem>
-              ))}
-            </Select>
-            <Select
-              value={userSelectPositionType}
-              onChange={(event) =>
-                setUserSelectPositionType(event.target.value)
-              }
-              displayEmpty
-              size='small'
-              sx={{
-                width: 150,
-              }}
-              MenuProps={{
-                PaperProps: {
-                  style: {
-                    height: 300,
-                    width: 150,
-                  },
-                },
-              }}
-            >
-              {pdfPagePositions.map((pagePosition) => (
-                <MenuItem value={pagePosition} key={pagePosition}>
-                  {pagePosition}
-                </MenuItem>
-              ))}
-            </Select>
-          </Grid>
-          {imageInfoList.length > 0 && (
-            <FunctionalityCommonButtonListView
-              buttonConfigs={bottomButtonConfigs}
-            />
-          )}
+              },
+            }}
+          >
+            {pdfPagePositions.map((pagePosition) => (
+              <MenuItem value={pagePosition} key={pagePosition}>
+                {pagePosition}
+              </MenuItem>
+            ))}
+          </Select>
         </Grid>
+      )}
+      {!isEmptyList && (
+        <FunctionalityCommonButtonListView
+          buttonConfigs={bottomButtonConfigs}
+        />
       )}
     </Box>
   );

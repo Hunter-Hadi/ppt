@@ -10,6 +10,7 @@ interface IFunctionalitySortableImageProps {
   rightTopChildren?: React.ReactNode;
   onClick?: () => void;
   imageSize?: number | string;
+  isShowBackgroundColor?: boolean;
 }
 /**
  * Functionality公共的图片视图
@@ -27,6 +28,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
   onClick,
   name,
   imageSize,
+  isShowBackgroundColor = true,
 }) => {
   return (
     <Box
@@ -40,9 +42,9 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
       <Box
         sx={{
           padding: 1,
-          backgroundColor: '#9065b00a',
+          backgroundColor: isShowBackgroundColor ? '#9065b00a' : 'transparent',
           '&:hover': {
-            backgroundColor: '#f0eded',
+            backgroundColor: isShowBackgroundColor ? '#f0eded' : 'transparent',
           },
           border: isActive ? '1px dashed #64467b' : '1px solid transparent',
           borderRadius: 1,
