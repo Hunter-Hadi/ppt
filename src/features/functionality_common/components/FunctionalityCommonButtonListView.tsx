@@ -1,33 +1,53 @@
 import Box from '@mui/material/Box';
-import Button, { ButtonTypeMap } from '@mui/material/Button';
+import Button, { ButtonProps } from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
-import { useTranslation } from 'next-i18next';
 import React from 'react';
+
+import UploadButton, {
+  IUploadButtonProps,
+} from '@/features/common/components/UploadButton';
 
 import FunctionalityCommonIcon, {
   IFunctionalityIconProps,
 } from './FunctionalityCommonIcon';
 import FunctionalityCommonTooltip from './FunctionalityCommonTooltip';
-
-export type ButtonConfig = {
-  type: 'button' | 'icons';
-  tooltip: string; // This will be the i18n translation key for the tooltip
-  btnProps?: ButtonTypeMap<{}, 'button'> & { children: React.ReactNode };
-  icons?: ({
+type IBtnProps = ButtonProps & {
+  children: React.ReactNode;
+  tooltip?: string;
+  tooltipKey?: number | string;
+};
+export type IButtonConfig = {
+  type: 'button' | 'icons' | 'upload';
+  isShow?: boolean;
+  buttonProps?: IBtnProps;
+  iconPropsList?: ({
     name: string;
+    tooltip?: string;
     onClick: () => void;
   } & IFunctionalityIconProps)[];
+  uploadProps?: IUploadButtonProps & {
+    children: React.ReactNode;
+    tooltip?: string;
+  };
 };
 
 type FunctionalityCommonButtonListViewProps = {
-  buttonConfigs: ButtonConfig[];
+  buttonConfigs: IButtonConfig[];
 };
-
+/**
+ * 公共按钮列表组件 作用是把重复的按钮组件抽离出来，统一高度大小和样式
+ */
 export const FunctionalityCommonButtonListView: React.FC<
   FunctionalityCommonButtonListViewProps
 > = ({ buttonConfigs }) => {
-  const { t } = useTranslation();
-
+  const getButtonProps = (params: IBtnProps | undefined) => {
+    if (params) {
+      const { tooltip, tooltipKey, ...buttonProps } = params;
+      return buttonProps;
+    } else {
+      return {};
+    }
+  };
   return (
     <Grid
       container
@@ -37,39 +57,70 @@ export const FunctionalityCommonButtonListView: React.FC<
       spacing={2}
     >
       {buttonConfigs.map((config, index) => {
+        if (config.isShow === false) return null;
         return (
-          <Grid item key={index} xs={6} md={2}>
-            <FunctionalityCommonTooltip title={t(config.tooltip)}>
-              <React.Fragment>
-                {config.type === 'button' && (
+          <Grid
+            item
+            key={index}
+            xs={6}
+            md={2}
+            display={config.type === 'icons' ? 'flex' : 'block'}
+          >
+            <React.Fragment>
+              {config.type === 'button' && (
+                <FunctionalityCommonTooltip
+                  title={config.buttonProps?.tooltip || ''}
+                  key={config.buttonProps?.tooltipKey}
+                >
                   <Button
+                    size='large'
                     {...{
                       sx: {
                         height: 48,
                         width: '100%',
-                        size: 'large',
-                        variant: '',
                       },
-                      ...config.btnProps,
+                      ...getButtonProps(config.buttonProps),
                     }}
-                  >
-                    {config.btnProps?.children}
-                  </Button>
-                )}
-                {config.type === 'icons' &&
-                  config.icons?.map(({ onClick, ...iconProps }, index) => (
-                    <Box key={index} onClick={onClick}>
-                      <FunctionalityCommonIcon
+                  />
+                </FunctionalityCommonTooltip>
+              )}
+              {config.type === 'icons' &&
+                config.iconPropsList?.map(
+                  ({ onClick, tooltip, ...iconProps }, index) => (
+                    <FunctionalityCommonTooltip
+                      key={index}
+                      title={tooltip || ''}
+                    >
+                      <Box
                         sx={{
+                          height: 35,
                           cursor: 'pointer',
-                          fontSize: 35,
                         }}
-                        {...iconProps}
-                      />
-                    </Box>
-                  ))}
-              </React.Fragment>
-            </FunctionalityCommonTooltip>
+                        onClick={onClick}
+                      >
+                        <FunctionalityCommonIcon
+                          sx={{
+                            cursor: 'pointer',
+                            fontSize: 35,
+                          }}
+                          {...iconProps}
+                        />
+                      </Box>
+                    </FunctionalityCommonTooltip>
+                  ),
+                )}
+              {config.type === 'upload' && (
+                <FunctionalityCommonTooltip
+                  title={config.uploadProps?.tooltip || ''}
+                >
+                  <Box>
+                    {config.uploadProps && (
+                      <UploadButton {...config.uploadProps} />
+                    )}
+                  </Box>
+                </FunctionalityCommonTooltip>
+              )}
+            </React.Fragment>
           </Grid>
         );
       })}

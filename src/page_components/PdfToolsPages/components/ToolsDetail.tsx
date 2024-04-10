@@ -5,7 +5,7 @@ import { FC, lazy, Suspense, useMemo } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import FunctionalityImageToPdfMain from '@/features/functionality_image_to_pdf/components/functionalityImageToPdfMain';
+import FunctionalityImageToPdfMain from '@/features/functionality_image_to_pdf/components/FunctionalityImageToPdfMain';
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
 import {
   IToolUrkKeyType,

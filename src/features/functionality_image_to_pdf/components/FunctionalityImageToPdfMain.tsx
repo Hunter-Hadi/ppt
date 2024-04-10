@@ -1,14 +1,21 @@
 import { CircularProgress, Grid } from '@mui/material';
 import Box from '@mui/material/Box';
+import { useTranslation } from 'next-i18next';
 import { useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import snackNotifications from '@/utils/globalSnackbar';
 
 const FunctionalityImageToPdfMain = () => {
+  const { t } = useTranslation();
+
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [imageInfoList, setImageInfoList] = useState<
     IFunctionalityCommonImageInfo[]
@@ -29,7 +36,6 @@ const FunctionalityImageToPdfMain = () => {
   };
 
   const onUploadFile = async (fileList: FileList) => {
-    debugger;
     setIsLoading(true);
     const imageUrls = await convertFileListToImageUrls(fileList);
     console.log('simply imageUrls', imageUrls);
@@ -44,6 +50,31 @@ const FunctionalityImageToPdfMain = () => {
       },
     });
   };
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'upload',
+      uploadProps: {
+        tooltip: 'notI18:Add PNG',
+        onChange: onUploadFile,
+        isDrag: false,
+        buttonProps: {
+          variant: 'outlined',
+          disabled: isLoading,
+          sx: {
+            height: 48,
+            width: '100%',
+          },
+        },
+        inputProps: {
+          accept: 'application/pdf',
+          multiple: true,
+        },
+        handleUnsupportedFileType: handleUnsupportedFileTypeTip,
+        children: 'notI18:Add PNG',
+      },
+    },
+  ];
   return (
     <Box
       sx={{
@@ -64,6 +95,9 @@ const FunctionalityImageToPdfMain = () => {
           onChange={onUploadFile}
           handleUnsupportedFileType={handleUnsupportedFileTypeTip}
         />
+      )}
+      {imageInfoList.length > 0 && (
+        <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
       {(imageInfoList.length > 0 || isLoading) && (
         <Grid

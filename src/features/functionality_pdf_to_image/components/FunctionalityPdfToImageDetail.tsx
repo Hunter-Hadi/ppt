@@ -3,7 +3,10 @@ import { debounce } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useMemo, useState } from 'react';
 
-import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
 import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
@@ -13,7 +16,6 @@ import useFunctionalityCommonPdfToImageConversion, {
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
-import { ButtonConfig } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 
 interface IFunctionalityPdfToImageDetailProps {
   fileData: File;
@@ -122,152 +124,113 @@ const FunctionalityPdfToImageDetail: FC<
   const currentActionNum = !downloaderIsLoading
     ? currentPdfActionNum
     : currentDownloaderActionNum;
+
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'button',
+      buttonProps: {
+        disabled: isLoading || currentShowImages.length === 0,
+        variant: 'outlined',
+        onClick: onSwitchAllSelect,
+        children: isSelectAll
+          ? t(
+              'functionality__pdf_to_image:components__to_image_detail__deselect_all',
+            )
+          : t(
+              'functionality__pdf_to_image:components__to_image_detail__select_all',
+            ),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip:
+          showPdfImagesType === 'pdfPageImages'
+            ? t(
+                'functionality__pdf_to_image:components__to_image_detail__button__view_images__tooltip',
+              )
+            : t(
+                'functionality__pdf_to_image:components__to_image_detail__button__view_pages__tooltip',
+              ),
+        tooltipKey: showPdfImagesType, //防止切换窗口高度变化过大，导致的tooltip位置不对
+        disabled: isLoading,
+        variant: 'outlined',
+        onClick: onSwitchPdfImagesType,
+        children:
+          showPdfImagesType === 'pdfPageImages'
+            ? t(
+                'functionality__pdf_to_image:components__to_image_detail__view_images',
+              )
+            : t(
+                'functionality__pdf_to_image:components__to_image_detail__view_pages',
+              ),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_to_image:components__to_image_detail__button__remove__tooltip',
+        ),
+        disabled: isLoading,
+        variant: 'outlined',
+        color: 'error',
+        onClick: () => onRemoveFile && onRemoveFile(),
+        children: t(
+          'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
+        ),
+      },
+    },
+    {
+      isShow: !isLoading,
+      type: 'icons',
+      iconPropsList: [
+        {
+          name: 'ControlPointTwoTone',
+          onClick: () => changeScale('enlarge'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
+          ),
+          sx: {
+            color: 'primary.main',
+            fontSize: 35,
+          },
+        },
+        {
+          name: 'RemoveCircleTwoTone',
+          onClick: () => changeScale('narrow'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+          ),
+          sx: {
+            color: 'primary.main',
+            marginLeft: 1,
+            fontSize: 35,
+          },
+        },
+      ],
+    },
+    {
+      isShow: isLoading,
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_to_image:components__to_image_detail__button__cancel__tooltip',
+        ),
+        variant: 'outlined',
+        color: 'error',
+        onClick: onCancel,
+        children: t(
+          t('functionality__pdf_to_image:components__to_image_detail__cancel'),
+        ),
+      },
+    },
+  ];
+
   return (
     <Box sx={{ width: '100%' }}>
-      <Grid
-        container
-        direction='row'
-        justifyContent='center'
-        alignItems='center'
-        flexWrap='wrap'
-        spacing={2}
-      >
-        <Grid item xs={6} md={2}>
-          <Button
-            sx={{ width: '100%', height: 48 }}
-            size='large'
-            disabled={isLoading || currentShowImages.length === 0}
-            variant='outlined'
-            onClick={onSwitchAllSelect}
-          >
-            {isSelectAll
-              ? t(
-                  'functionality__pdf_to_image:components__to_image_detail__deselect_all',
-                )
-              : t(
-                  'functionality__pdf_to_image:components__to_image_detail__select_all',
-                )}
-          </Button>
-        </Grid>
-        <Grid item xs={6} md={2} sx={{ position: 'relative' }}>
-          <FunctionalityCommonTooltip
-            key={showPdfImagesType}
-            title={
-              showPdfImagesType === 'pdfPageImages'
-                ? t(
-                    'functionality__pdf_to_image:components__to_image_detail__button__view_images__tooltip',
-                  )
-                : t(
-                    'functionality__pdf_to_image:components__to_image_detail__button__view_pages__tooltip',
-                  )
-            }
-          >
-            <Button
-              sx={{ width: '100%', height: 48 }}
-              size='large'
-              disabled={isLoading}
-              variant='outlined'
-              onClick={onSwitchPdfImagesType}
-            >
-              {showPdfImagesType === 'pdfPageImages'
-                ? t(
-                    'functionality__pdf_to_image:components__to_image_detail__view_images',
-                  )
-                : t(
-                    'functionality__pdf_to_image:components__to_image_detail__view_pages',
-                  )}
-            </Button>
-          </FunctionalityCommonTooltip>
-        </Grid>
-        <Grid item xs={6} md={2}>
-          <FunctionalityCommonTooltip
-            title={t(
-              'functionality__pdf_to_image:components__to_image_detail__button__remove__tooltip',
-            )}
-          >
-            <Button
-              sx={{ width: '100%', height: 48 }}
-              size='large'
-              disabled={isLoading}
-              variant='outlined'
-              color='error'
-              onClick={() => onRemoveFile && onRemoveFile()}
-            >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
-              )}
-            </Button>
-          </FunctionalityCommonTooltip>
-        </Grid>
-        {!isLoading && (
-          <Grid item xs={6} md={2} display='flex'>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
-              )}
-            >
-              <Box
-                sx={{
-                  height: 35,
-                }}
-                onClick={() => changeScale('enlarge')}
-              >
-                <FunctionalityCommonIcon
-                  name='ControlPointTwoTone'
-                  sx={{
-                    color: 'primary.main',
-                    cursor: 'pointer',
-                    fontSize: 35,
-                  }}
-                />
-              </Box>
-            </FunctionalityCommonTooltip>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
-              )}
-            >
-              <Box
-                sx={{
-                  height: 35,
-                }}
-                onClick={() => changeScale('narrow')}
-              >
-                <FunctionalityCommonIcon
-                  name='RemoveCircleTwoTone'
-                  sx={{
-                    color: 'primary.main',
-                    cursor: 'pointer',
-                    marginLeft: 1,
-                    fontSize: 35,
-                  }}
-                />
-              </Box>
-            </FunctionalityCommonTooltip>
-          </Grid>
-        )}
-        {isLoading && (
-          <Grid item xs={12} md={2}>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_to_image:components__to_image_detail__button__cancel__tooltip',
-              )}
-            >
-              <Button
-                sx={{ width: '100%', height: 48 }}
-                size='large'
-                variant='outlined'
-                color='error'
-                onClick={() => onCancel()}
-              >
-                {t(
-                  'functionality__pdf_to_image:components__to_image_detail__cancel',
-                )}
-              </Button>
-            </FunctionalityCommonTooltip>
-          </Grid>
-        )}
-      </Grid>
+      <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       <Box
         sx={{
           py: 5,

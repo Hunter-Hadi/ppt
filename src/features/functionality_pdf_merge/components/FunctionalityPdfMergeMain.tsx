@@ -6,7 +6,10 @@ import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import UploadButton from '@/features/common/components/UploadButton';
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
@@ -169,6 +172,49 @@ const FunctionalityPdfMergeMain = () => {
     }
   };
   const isListEmpty = pdfInfoList.length === 0;
+
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'upload',
+      uploadProps: {
+        tooltip: t(
+          'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
+        ),
+        onChange: onUploadFile,
+        isDrag: false,
+        buttonProps: {
+          variant: 'outlined',
+          disabled: isLoading,
+          sx: {
+            height: 48,
+            width: '100%',
+          },
+        },
+        inputProps: {
+          accept: 'application/pdf',
+          multiple: true,
+        },
+        handleUnsupportedFileType: handleUnsupportedFileTypeTip,
+        children: t('functionality__pdf_merge:components__pdf_merge__add_pdf'),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_merge:components__pdf_merge__button__clear_pdfs__tooltip',
+        ),
+        children: t(
+          'functionality__pdf_merge:components__pdf_merge__empty_pdf',
+        ),
+        variant: 'outlined',
+        disabled: isLoading,
+        color: 'error',
+        onClick: () => setPdfInfoList([]),
+      },
+    },
+  ];
   return (
     <Box
       sx={{
@@ -191,62 +237,7 @@ const FunctionalityPdfMergeMain = () => {
         />
       )}
       {!isListEmpty && (
-        <Grid
-          container
-          direction='row'
-          justifyContent='center'
-          alignItems='center'
-          sx={{ my: 1 }}
-          gap={1}
-        >
-          <Grid item>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
-              )}
-            >
-              <Box>
-                <UploadButton
-                  onChange={onUploadFile}
-                  isDrag={false}
-                  buttonProps={{
-                    variant: 'outlined',
-                    disabled: isLoading,
-                    size: 'large',
-                    sx: {
-                      height: 48,
-                    },
-                  }}
-                  inputProps={{
-                    accept: 'application/pdf',
-                    multiple: true,
-                  }}
-                  handleUnsupportedFileType={handleUnsupportedFileTypeTip}
-                >
-                  {t('functionality__pdf_merge:components__pdf_merge__add_pdf')}
-                </UploadButton>
-              </Box>
-            </FunctionalityCommonTooltip>
-          </Grid>
-          <Grid item>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_merge:components__pdf_merge__button__clear_pdfs__tooltip',
-              )}
-            >
-              <Button
-                variant='outlined'
-                sx={{ height: 48 }}
-                disabled={isLoading}
-                color='error'
-                size='large'
-                onClick={() => setPdfInfoList([])}
-              >
-                {t('functionality__pdf_merge:components__pdf_merge__empty_pdf')}
-              </Button>
-            </FunctionalityCommonTooltip>
-          </Grid>
-        </Grid>
+        <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
       {(!isListEmpty || isLoading) && (
         <Box

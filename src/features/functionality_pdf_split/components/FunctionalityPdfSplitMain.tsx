@@ -5,7 +5,10 @@ import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
 import React, { useState } from 'react';
 
-import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
@@ -151,6 +154,64 @@ export const FunctionalityPdfSplitMain = () => {
     setConvertedPdfImages([]);
   };
   const currentIsLoading = pdfIsLoading || isLoading;
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'button',
+      buttonProps: {
+        children: isSelectAll
+          ? t('functionality__pdf_split:components__pdf_split__deselect_all')
+          : t('functionality__pdf_split:components__pdf_split__select_all'),
+        variant: 'outlined',
+        disabled: currentIsLoading || convertedPdfImages.length === 0,
+        onClick: () => onSwitchAllSelect(),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
+        ),
+        children: t(
+          'functionality__pdf_split:components__pdf_spli__remove_pdf',
+        ),
+        variant: 'outlined',
+        color: 'error',
+        disabled: currentIsLoading,
+        onClick: () => onRemoveFile(),
+      },
+    },
+    {
+      isShow: !currentIsLoading,
+      type: 'icons',
+      iconPropsList: [
+        {
+          name: 'ControlPointTwoTone',
+          onClick: () => changeScale('enlarge'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
+          ),
+          sx: {
+            color: 'primary.main',
+            fontSize: 35,
+          },
+        },
+        {
+          name: 'RemoveCircleTwoTone',
+          onClick: () => changeScale('narrow'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+          ),
+          sx: {
+            color: 'primary.main',
+            marginLeft: 1,
+            fontSize: 35,
+          },
+        },
+      ],
+    },
+  ];
   return (
     <Box
       sx={{
@@ -172,116 +233,7 @@ export const FunctionalityPdfSplitMain = () => {
         />
       )}
       {convertedPdfImages.length > 0 && (
-        <Grid
-          container
-          direction='row'
-          justifyContent='center'
-          alignItems='center'
-          flexWrap='wrap'
-          spacing={2}
-        >
-          <Grid item xs={6} md={2}>
-            <Button
-              sx={{ width: '100%', height: 48 }}
-              size='large'
-              disabled={currentIsLoading || convertedPdfImages.length === 0}
-              variant='outlined'
-              onClick={onSwitchAllSelect}
-            >
-              {isSelectAll
-                ? t(
-                    'functionality__pdf_split:components__pdf_split__deselect_all',
-                  )
-                : t(
-                    'functionality__pdf_split:components__pdf_split__select_all',
-                  )}
-            </Button>
-          </Grid>
-          <Grid item xs={6} md={2}>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
-              )}
-            >
-              <Button
-                sx={{ width: '100%', height: 48 }}
-                size='large'
-                disabled={currentIsLoading}
-                variant='outlined'
-                color='error'
-                onClick={() => onRemoveFile()}
-              >
-                {t('functionality__pdf_split:components__pdf_spli__remove_pdf')}
-              </Button>
-            </FunctionalityCommonTooltip>
-          </Grid>
-          {!currentIsLoading && (
-            <Grid item xs={6} md={2} display='flex'>
-              <FunctionalityCommonTooltip
-                title={t(
-                  'functionality__pdf_split:components__pdf_split__button__zoom_in__tooltip',
-                )}
-              >
-                <Box
-                  sx={{
-                    height: 35,
-                  }}
-                  onClick={() => changeScale('enlarge')}
-                >
-                  <FunctionalityCommonIcon
-                    name='ControlPointTwoTone'
-                    sx={{
-                      color: 'primary.main',
-                      cursor: 'pointer',
-                      fontSize: 35,
-                    }}
-                  />
-                </Box>
-              </FunctionalityCommonTooltip>
-              <FunctionalityCommonTooltip
-                title={t(
-                  'functionality__pdf_split:components__pdf_split__button__zoom_out__tooltip',
-                )}
-              >
-                <Box
-                  sx={{
-                    height: 35,
-                  }}
-                  onClick={() => changeScale('narrow')}
-                >
-                  <FunctionalityCommonIcon
-                    name='RemoveCircleTwoTone'
-                    sx={{
-                      color: 'primary.main',
-                      cursor: 'pointer',
-                      marginLeft: 1,
-                      fontSize: 35,
-                    }}
-                  />
-                </Box>
-              </FunctionalityCommonTooltip>
-            </Grid>
-          )}
-          {pdfIsLoading && (
-            <Grid item xs={12} md={2}>
-              <FunctionalityCommonTooltip
-                title={t(
-                  'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
-                )}
-              >
-                <Button
-                  sx={{ width: '100%', height: 48 }}
-                  size='large'
-                  variant='outlined'
-                  color='error'
-                  onClick={() => onCancelPdfActive()}
-                >
-                  {t('functionality__pdf_split:components__pdf_split__cancel')}
-                </Button>
-              </FunctionalityCommonTooltip>
-            </Grid>
-          )}
-        </Grid>
+        <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
 
       {(convertedPdfImages.length > 0 || currentIsLoading) && (
@@ -349,9 +301,11 @@ export const FunctionalityPdfSplitMain = () => {
           alignItems='center'
           justifyItems='center'
           sx={{ mt: 2, cursor: 'pointer' }}
-          onClick={() => setIsMergeSinglePDf(!isMergeSinglePDf)}
+          onClick={() =>
+            !currentIsLoading ? setIsMergeSinglePDf(!isMergeSinglePDf) : null
+          }
         >
-          <Checkbox checked={isMergeSinglePDf} />
+          <Checkbox disabled={currentIsLoading} checked={isMergeSinglePDf} />
           {t('functionality__pdf_split:components__pdf_split__is_single_pdf')}
         </Box>
       )}
