@@ -103,7 +103,15 @@ const useFunctionalityCommonPdfToImageConversion = () => {
               },
             ]);
             if (toImageData.haveImages) {
-              setPdfPageHaveImages((prev) => [...prev, ...(toImageData.haveImages as IFunctionalityPdfToImageType[])])
+              const pageHaveImages = toImageData.haveImages.map((item, index) => {
+                return {
+                  id: uuidV4(),
+                  imageUrlString: item,
+                  isSelect: true,
+                  definedIndex: index,
+                }
+              })
+              setPdfPageHaveImages((prev) => [...prev, ...pageHaveImages])
             }
           }
 

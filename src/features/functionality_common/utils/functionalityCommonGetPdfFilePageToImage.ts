@@ -1,5 +1,4 @@
 import { pdfjs } from 'react-pdf';
-import { v4 as uuidV4 } from 'uuid';
 
 
 /**
@@ -10,6 +9,7 @@ import { v4 as uuidV4 } from 'uuid';
   * @type  toType - 转换的类型 png/jpeg
   * @type  isNeedPdfHaveImages - 是否需要pdf内含有图像
   */
+
 export const generatePdfPageToImage = async (
     pdfDocument: any, //PDFDocumentProxy react-pdfjs没有导出
     pageNum: number,
@@ -44,19 +44,14 @@ export const generatePdfPageToImage = async (
         return null;
     }
 };
-export interface IPdfFindHaveImage {
-    id: string;
-    imageUrlString: string;
-    isSelect: boolean;
-    definedIndex: number;
-}
+
 /**
   * 查找Pdf内的图像
   * @param page - pdf的页面数据 - 通过pdfDocument.getPage(pageNum)获得
   */
 const findPdfToImage = async (page: any) => {
     const ops = await page.getOperatorList();
-    return new Promise<IPdfFindHaveImage[]>((resolve) => {
+    const list = await new Promise<{ url: string, definedIndex: number }[]>((resolve) => {
         // 获取操作列表
         const imageNames = ops.fnArray.reduce((acc, curr, i) => {
             if (
@@ -70,7 +65,7 @@ const findPdfToImage = async (page: any) => {
             resolve([])
             return
         }
-        let haveImages: IPdfFindHaveImage[] = [];
+        let haveImages: { url: string, definedIndex: number }[] = [];
         for (let i = 0; i < imageNames.length; i++) {
             page.objs.get(imageNames[i], (image) => {
                 (async () => {
@@ -94,11 +89,9 @@ const findPdfToImage = async (page: any) => {
                             reader.onloadend = () => {
                                 const base64Data = reader.result?.toString() || '';
                                 haveImages = [...haveImages, {
-                                    id: uuidV4(),
-                                    imageUrlString: base64Data,
-                                    isSelect: true,
+                                    url: base64Data,
                                     definedIndex: i,
-                                }].sort((a, b) => a.definedIndex - b.definedIndex)
+                                }]
                                 if (haveImages.length === imageNames.length) {
                                     resolve(haveImages)
                                 }
@@ -112,4 +105,5 @@ const findPdfToImage = async (page: any) => {
             });
         }
     })
+    return list.sort((a, b) => a.definedIndex - b.definedIndex).map(image => image.url)
 };
