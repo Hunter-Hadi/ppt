@@ -13,6 +13,7 @@ import useFunctionalityCommonPdfToImageConversion, {
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
+import { ButtonConfig } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 
 interface IFunctionalityPdfToImageDetailProps {
   fileData: File;
@@ -121,7 +122,6 @@ const FunctionalityPdfToImageDetail: FC<
   const currentActionNum = !downloaderIsLoading
     ? currentPdfActionNum
     : currentDownloaderActionNum;
-
   return (
     <Box sx={{ width: '100%' }}>
       <Grid

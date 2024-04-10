@@ -4,7 +4,7 @@ import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone';
 import { SxProps } from '@mui/material';
 import { FC } from 'react';
 
-interface IFunctionalityIconProps {
+export interface IFunctionalityIconProps {
   sx?: SxProps;
 }
 /**
