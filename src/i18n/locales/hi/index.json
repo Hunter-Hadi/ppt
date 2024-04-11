@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "कुछ ही क्लिक के साथ कई पीडीएफ़ फ़ाइलों को एक में जोड़ें",
     "tools__index_page__constant_obj__split_a_pdf__title": "एक पीडीएफ विभाजित करें",
     "tools__index_page__constant_obj__split_a_pdf__description": "प्रत्येक चयनित पृष्ठ अलग-अलग पीडीएफ फ़ाइल बन जाएगा। वैकल्पिक रूप से, आप चयनित पृष्ठों को एक ही पीडीएफ फ़ाइल में मर्ज कर सकते हैं।",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG से PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "प्रत्येक अपलोड की गई छवि एक एकल PDF में एक पृष्ठ बन जाएगी।"
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG से PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "प्रत्येक अपलोड की गई छवि एक एकल पीडीएफ में एक पृष्ठ बन जाएगी।",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG से PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "प्रत्येक अपलोड की गई छवि एक एकल पीडीएफ में एक पृष्ठ बन जाएगी।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "फ्री में पीडीएफ के पृष्ठ अलग करें - MaxAI.me",
     "pdf_tools__split_pdf__description": "आसानी से पीडीएफ में पृष्ठों को अलग करें या हटाएं। कोई वॉटरमार्क, फ़ाइल का आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",
     "pdf_tools__png_to_pdf__title": "PNG से PDF - नि: शुल्क में PNG छवियों को PDF में बदलें | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "नि: शुल्क में PNG छवियों को PDF में ऑनलाइन बदलें। प्रत्येक अपलोड की गई छवि एक एकल PDF में एक पृष्ठ बन जाएगी। कोई वॉटरमार्क, फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।"
+    "pdf_tools__png_to_pdf__description": "ऑनलाइन मुफ्त में PNG छवियों को PDF में बदलें। कनवर्टर किसी भी PNG छवि फ़ाइल को एक अनुकूलित PDF फ़ाइल में बदलता है। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG से PDF - नि: शुल्क में JPEG छवियों को PDF में कनवर्ट करें | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "ऑनलाइन मुफ्त में JPEG छवियों को PDF में बदलें। कनवर्टर किसी भी JPEG छवि फ़ाइल को एक अनुकूलित PDF फ़ाइल में बदलता है। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।"
   },
   "features_landing": {
     "cta_text": "ब्राउज़र में जोड़ें",

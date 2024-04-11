@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "متعدد پی ڈی ایف فائلوں کو صرف چند کلکس کے ساتھ ایک میں مرکٹ کریں",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF کاٹیں",
     "tools__index_page__constant_obj__split_a_pdf__description": "ہر منتخب شدہ صفحہ الگ الگ PDF فائل بن جائے گی۔ اس کے علاوہ، آپ منتخب شدہ صفحات کو ایک ہی PDF فائل میں مرکوز کر سکتے ہیں۔",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG سے PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "ہر اپ لوڈ کی گئی تصویر ایک صفحہ بن جائے گی جو ایک واحد پی ڈی ایف میں ہوگا۔"
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG سے PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "ہر اپ لوڈ کی گئی تصویر ایک صفحہ بن جائے گی جو ایک واحد پی ڈی ایف میں ہوگا۔",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG سے PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "ہر اپ لوڈ کی گئی تصویر ایک صفحہ بن جائے گی جو ایک واحد پی ڈی ایف میں ہوگا۔"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "PDF کو تقسیم کریں - مفت آن لائن پی ڈی ایف صفحات کو علیحدہ کریں | MaxAI.me",
     "pdf_tools__split_pdf__description": "آسانی سے آپ کے پی ڈی ایف کے صفحات کو علیحدہ کریں یا حذف کریں۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپ کی ضرورت نہیں ہوتی۔",
     "pdf_tools__png_to_pdf__title": "PNG سے PDF - PNG تصاویر کو مفت آن لائن پی ڈی ایف میں تبدیل کریں | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "PNG تصاویر کو مفت آن لائن پی ڈی ایف میں تبدیل کریں۔ ہر اپ لوڈ کی گئی تصویر ایک صفحہ بن جائے گی جو ایک واحد پی ڈی ایف میں ہوگا۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہوتی۔"
+    "pdf_tools__png_to_pdf__description": "PNG تصاویر کو مفت آن لائن پی ڈی ایف میں تبدیل کریں۔ کنورٹر کسی بھی PNG تصویر فائل کو ایک مخصوص پی ڈی ایف فائل میں تبدیل کرتا ہے۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپ کی ضرورت نہیں ہوتی۔",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG سے PDF - JPEG تصاویر کو آن لائن مفت میں پی ڈی ایف میں تبدیل کریں | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "JPEG تصاویر کو مفت آن لائن پی ڈی ایف میں تبدیل کریں۔ کنورٹر کسی بھی JPEG تصویر فائل کو ایک مخصوص پی ڈی ایف فائل میں تبدیل کرتا ہے۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپ کی ضرورت نہیں ہوتی۔"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "اپ لوڈ کرنے کے لئے کلک کریں یا ڈریگ اور ڈراپ کریں",

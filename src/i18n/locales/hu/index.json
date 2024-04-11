@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF felosztása",
     "tools__index_page__constant_obj__split_a_pdf__description": "Minden kiválasztott oldal külön PDF fájllá válik. Vagy alternatívaként összevonhatja a kiválasztott oldalakat egyetlen PDF fájlba.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG to PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Minden feltöltött kép egy oldallá válik egyetlen PDF-ben."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG to PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Minden feltöltött kép egy oldalt foglal majd el egyetlen PDF-ben.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG to PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Minden feltöltött kép egy oldalt foglal majd el egyetlen PDF-ben."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "PDF szétválasztása - Ingyenesen válassza szét a PDF oldalakat | MaxAI.me",
     "pdf_tools__split_pdf__description": "Egyszerűen válassza szét az oldalakat vagy távolítsa el az oldalakat a PDF-ből ingyenesen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
     "pdf_tools__png_to_pdf__title": "PNG to PDF - PNG képek konvertálása PDF formátumba ingyen | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "PNG képek konvertálása PDF formátumba ingyen. Minden feltöltött kép egy oldallá válik egyetlen PDF-ben. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
+    "pdf_tools__png_to_pdf__description": "Ingyenesen alakítsa át a PNG képeket PDF formátumra online. A konverter testreszabott PDF fájllá alakítja bármely PNG képfájlt. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG to PDF - JPEG képek konvertálása PDF formátumba ingyen | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Ingyenesen alakítsa át a JPEG képeket PDF formátumra online. A konverter testreszabott PDF fájllá alakítja bármely JPEG képfájlt. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",

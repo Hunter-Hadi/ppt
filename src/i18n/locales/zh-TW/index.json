@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "只需點擊幾下，將多個 PDF 文件合併為一個",
     "tools__index_page__constant_obj__split_a_pdf__title": "分割 PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "每個選取的頁面將成為一個獨立的 PDF 檔案。或者，您可以將選取的頁面合併為一個單獨的 PDF 檔案。",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG轉PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "每個上傳的圖片將成為單一PDF中的一頁。"
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG 轉 PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "每個上傳的圖片將成為單一 PDF 的一頁。",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG 轉 PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "每個上傳的圖片將成為單一 PDF 的一頁。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "分割PDF - 在線免費分離PDF頁面 | MaxAI.me",
     "pdf_tools__split_pdf__description": "輕鬆在線免費分離PDF頁面或刪除PDF頁面。無浮水印、文件大小限制、下載或註冊要求。",
     "pdf_tools__png_to_pdf__title": "PNG轉PDF - 免費在線將PNG圖片轉換為PDF | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "免費在線將PNG圖片轉換為PDF。每個上傳的圖片將成為單一PDF中的一頁。無需水印、文件大小限制、下載或註冊。"
+    "pdf_tools__png_to_pdf__description": "免費在線將PNG圖像轉換為PDF。轉換器將任何PNG圖像文件轉換為定制的PDF文件。無需水印、文件大小限制、下載或註冊。",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG 轉 PDF - 免費在線將 JPEG 圖片轉換為 PDF | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "免費在線將JPEG圖像轉換為PDF。轉換器將任何JPEG圖像文件轉換為定制的PDF文件。無需水印、文件大小限制、下載或註冊。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "點擊上傳或拖放",

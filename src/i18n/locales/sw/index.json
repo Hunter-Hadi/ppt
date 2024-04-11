@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu",
     "tools__index_page__constant_obj__split_a_pdf__title": "Gawanya PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Kila ukurasa ulioteuliwa utakuwa faili tofauti ya PDF. Au, unaweza kuunganisha kurasa zilizochaguliwa katika faili moja ya PDF.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG hadi PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG hadi PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG hadi PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Gawanya PDF - Tenganisha Kurasa za PDF Mtandaoni Bure | MaxAI.me",
     "pdf_tools__split_pdf__description": "Tenganisha kurasa au ondoa kurasa kwenye PDF yako mtandaoni bure. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
     "pdf_tools__png_to_pdf__title": "PNG hadi PDF - Badilisha Picha za PNG kuwa PDF Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Badilisha picha za PNG kuwa PDF mtandaoni bure. Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja. Hakuna alama ya maji, mipaka ya ukubwa wa faili, kupakua, au usajili unaohitajika."
+    "pdf_tools__png_to_pdf__description": "Badilisha picha za PNG kuwa PDF mtandaoni bila malipo. Konverta inabadilisha faili yoyote ya picha ya PNG kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG hadi PDF - Badilisha Picha za JPEG kuwa PDF Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Badilisha picha za JPEG kuwa PDF mtandaoni bila malipo. Konverta inabadilisha faili yoyote ya picha ya JPEG kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",

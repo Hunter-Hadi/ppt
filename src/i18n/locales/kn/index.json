@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು PDF ಕಡತಗಳನ್ನು ಒಂದರಲ್ಲಿ ಸೇರಿಸಿ",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF ಅನ್ನು ವಿಭಾಗಿಸಿ",
     "tools__index_page__constant_obj__split_a_pdf__description": "ಪ್ರತ್ಯೇಕವಾದ ಪ್ರತಿಯೊಂದು ಆಯ್ಕೆಯ ಪುಟವು ಒಂದೊಂದು ಪೀಡಿಎಫ್ ಕಡತವಾಗುತ್ತದೆ. ಅಥವಾ, ಆಯ್ಕೆಯ ಪುಟಗಳನ್ನು ಒಂದು ಏಕೀಕೃತ ಪೀಡಿಎಫ್ ಕಡತದಲ್ಲಿ ಮಿಡಿಯಬಹುದು.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ",
-    "tools__index_page__constant_obj__image_to_pdf__description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್‌ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್‌ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG ನಿಂದ PDF ಗೆ",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್‌ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "ಪಿಡಿಎಫ್ ವಿಭಜನೆ - ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ | MaxAI.me",
     "pdf_tools__split_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ ಅಥವಾ ಪುಟಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಗಳೂ, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳೂ, ಡೌನ್‌ಲೋಡ್‌ಗಳೂ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳೂ ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__png_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ PNG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "ಉಚಿತವಾಗಿ PNG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ. ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್‌ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
+    "pdf_tools__png_to_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಎನ್‌ಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಕನಿಷ್ಠ ಅಂಶ ಹಾಕುಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಾದಿಯಲ್ಲಿ ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಂತಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ JPEG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "ಉಚಿತವಾಗಿ ಜೆಪಿಇಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಕನಿಷ್ಠ ಅಂಶ ಹಾಕುಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಾದಿಯಲ್ಲಿ ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಂತಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
   },
   "features_landing": {
     "cta_text": "ಬ್ರೌಸರ್‌ಗೆ ಸೇರಿಸಿ",

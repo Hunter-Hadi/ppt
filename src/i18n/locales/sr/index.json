@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF fajlova u jedan sa samo nekoliko klikova",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podeli PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Svaka izabrana stranica će postati zaseban PDF fajl. Alternativno, možete spojiti izabrane stranice u jedan PDF fajl.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG u PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Svaka uploadovana slika će postati stranica u jednom PDF-u."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG u PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Svaka uploadovana slika će postati stranica u jednom PDF-u.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG u PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Svaka uploadovana slika će postati stranica u jednom PDF-u."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Podeli PDF - Odvojte stranice PDF-a online besplatno | MaxAI.me",
     "pdf_tools__split_pdf__description": "Lako odvojite stranice ili uklonite stranice iz vašeg PDF-a online besplatno. Bez vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijavljivanja.",
     "pdf_tools__png_to_pdf__title": "PNG u PDF - Konvertuj PNG slike u PDF online besplatno | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Konvertuj PNG slike u PDF online besplatno. Svaka uploadovana slika će postati stranica u jednom PDF-u. Nema vodenih žigova, ograničenja veličine fajla, preuzimanja ili registracije."
+    "pdf_tools__png_to_pdf__description": "Besplatno pretvorite PNG slike u PDF online. Konvertor pretvara bilo koji PNG fajl sa slikom u prilagođeni PDF fajl. Nema vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijava.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG u PDF - Konvertuj JPEG slike u PDF online besplatno | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Besplatno pretvorite JPEG slike u PDF online. Konvertor pretvara bilo koji JPEG fajl sa slikom u prilagođeni PDF fajl. Nema vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijava."
   },
   "features_landing": {
     "cta_text": "Dodaj u pregledač",

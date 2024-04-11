@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Combina varios archivos PDF en uno con solo unos clics",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dividir un PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Cada página seleccionada se convertirá en un archivo PDF separado. Alternativamente, puedes combinar las páginas seleccionadas en un solo archivo PDF.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG a PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Cada imagen cargada se convertirá en una página en un solo PDF."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG a PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Cada imagen cargada se convertirá en una página en un solo PDF.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG a PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Cada imagen cargada se convertirá en una página en un solo PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Dividir PDF: Separar páginas en línea gratis | MaxAI.me",
     "pdf_tools__split_pdf__description": "Separa fácilmente páginas o elimina páginas en tu PDF en línea de forma gratuita. Sin marcas de agua, límites de tamaño de archivo, descargas ni registros requeridos.",
     "pdf_tools__png_to_pdf__title": "PNG a PDF - Convertir imágenes PNG a PDF en línea de forma gratuita | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Convierte imágenes PNG a PDF en línea de forma gratuita. Cada imagen cargada se convertirá en una página en un solo PDF. Sin marcas de agua, límites de tamaño de archivo, descargas o registros requeridos."
+    "pdf_tools__png_to_pdf__description": "Convierte imágenes PNG a PDF en línea de forma gratuita. El convertidor convierte cualquier archivo de imagen PNG en un archivo PDF personalizado. No se requieren marcas de agua, límites de tamaño de archivo, descargas ni registros.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG a PDF - Convertir imágenes JPEG a PDF en línea de forma gratuita | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Convierte imágenes JPEG a PDF en línea de forma gratuita. El convertidor convierte cualquier archivo de imagen JPEG en un archivo PDF personalizado. No se requieren marcas de agua, límites de tamaño de archivo, descargas ni registros."
   },
   "features_landing": {
     "cta_text": "Agregar al navegador",

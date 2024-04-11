@@ -8,8 +8,8 @@ import {
 import Box from '@mui/material/Box';
 import { ceil, divide } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
-import { PDFDocument } from 'pdf-lib/cjs/api';
-import { useState } from 'react';
+import { PDFDocument, PDFImage } from 'pdf-lib/cjs/api';
+import { FC, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
 import {
@@ -29,7 +29,13 @@ import { pdfPagePositions, pdfPageSizes } from '../constant';
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
   file: File;
 };
-const FunctionalityImageToPdfMain = () => {
+interface IFunctionalityImageToPdfMainProps {
+  accept: string;
+}
+const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
+  accept,
+}) => {
+  console.log('simply accept', accept);
   const { t } = useTranslation();
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -95,10 +101,24 @@ const FunctionalityImageToPdfMain = () => {
       for (const index in imageInfoList) {
         try {
           const imageFile = imageInfoList[index];
+          const fileType = imageFile.file.type;
+          console.log('simply fileType', fileType);
+          if (
+            fileType !== 'image/png' &&
+            fileType !== 'image/jpeg' &&
+            fileType !== 'image/jpg'
+          ) {
+            continue;
+          }
           setCurrentActionNum(index as unknown as number);
           console.log('simply imageFile file', imageFile.file);
           const imageBytes = await imageFile.file.arrayBuffer();
-          const image = await pdfDoc.embedPng(imageBytes);
+          let image: PDFImage | null = null;
+          if (fileType === 'image/png') {
+            image = await pdfDoc.embedPng(imageBytes);
+          } else {
+            image = await pdfDoc.embedJpg(imageBytes);
+          }
           const pageSize = await getUserSelectPageSize(); // Set the page size here
           if (!pageSize) return;
           const page = pdfDoc.addPage([pageSize.width, pageSize.height]);
@@ -184,7 +204,7 @@ const FunctionalityImageToPdfMain = () => {
           },
         },
         inputProps: {
-          accept: 'image/png',
+          accept: accept || 'image/png',
           multiple: true,
         },
         handleUnsupportedFileType: handleUnsupportedFileTypeTip,
@@ -241,7 +261,7 @@ const FunctionalityImageToPdfMain = () => {
       {imageInfoList.length === 0 && !isLoading && (
         <FunctionalityCommonUploadButton
           inputProps={{
-            accept: 'image/png',
+            accept: accept || 'image/png',
             multiple: true,
           }}
           onChange={onUploadFile}

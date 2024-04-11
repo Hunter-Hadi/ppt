@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk",
     "tools__index_page__constant_obj__split_a_pdf__title": "Del opp en PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG til PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Hver opplastet bilde blir en side i en enkelt PDF."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG til PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Hver opplastet bilde vil bli en side i en enkelt PDF.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG til PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Hver opplastet bilde vil bli en side i en enkelt PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Del opp PDF – Separer PDF-sider på nettet gratis | MaxAI.me",
     "pdf_tools__split_pdf__description": "Separer enkelt sider eller fjern sider i PDF-en din på nettet gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves.",
     "pdf_tools__png_to_pdf__title": "PNG til PDF - Konverter PNG-bilder til PDF på nettet gratis | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Konverter PNG-bilder til PDF på nettet gratis. Hver opplastet bilde blir en side i en enkelt PDF. Ingen vannmerker, filstørrelsesgrenser, nedlastinger eller påmeldinger kreves."
+    "pdf_tools__png_to_pdf__description": "Konverter PNG-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst PNG-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG til PDF - Konverter JPEG-bilder til PDF på nettet gratis | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Konverter JPEG-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst JPEG-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",

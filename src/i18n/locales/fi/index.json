@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella",
     "tools__index_page__constant_obj__split_a_pdf__title": "Jaa PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Jokainen valittu sivu tulee erilliseksi PDF-tiedostoksi. Vaihtoehtoisesti voit yhdistää valitut sivut yhdeksi PDF-tiedostoksi.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Jokainen ladattu kuva tulee yhdeksi sivuksi yhteen PDF-tiedostoon.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Jokainen ladattu kuva tulee yhdeksi sivuksi yhteen PDF-tiedostoon."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Jaa PDF – Erota PDF-sivut verkossa ilmaiseksi | MaxAI.me",
     "pdf_tools__split_pdf__description": "Erota helposti sivuja tai poista sivuja PDF-tiedostostasi verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita.",
     "pdf_tools__png_to_pdf__title": "PNG PDF - Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi. Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita."
+    "pdf_tools__png_to_pdf__description": "Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi verkossa. Muunnin muuttaa minkä tahansa PNG-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG PDF - Muunna JPEG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Muunna JPEG-kuvat PDF-tiedostoiksi ilmaiseksi verkossa. Muunnin muuttaa minkä tahansa JPEG-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",

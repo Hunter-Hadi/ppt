@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Połącz wiele plików PDF w jeden za pomocą kilku kliknięć",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podziel PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Każda wybrana strona stanie się osobnym plikiem PDF. Alternatywnie, możesz połączyć wybrane strony w jeden plik PDF.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG do PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG do PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG do PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Podziel PDF – Oddziel strony PDF online za darmo | MaxAI.me",
     "pdf_tools__split_pdf__description": "Łatwo oddzielaj strony lub usuwaj strony w swoim pliku PDF online za darmo. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
     "pdf_tools__png_to_pdf__title": "PNG do PDF - Konwertuj obrazy PNG na PDF online za darmo | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Konwertuj obrazy PNG na PDF online za darmo. Każdy przesłany obraz stanie się stroną w jednym pliku PDF. Brak znaków wodnych, limitów rozmiaru pliku, pobierania ani rejestracji."
+    "pdf_tools__png_to_pdf__description": "Konwertuj obrazy PNG na PDF online za darmo. Konwerter zamienia dowolny plik obrazu PNG w spersonalizowany plik PDF. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG do PDF - Konwertuj obrazy JPEG na PDF online za darmo | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Konwertuj obrazy JPEG na PDF online za darmo. Konwerter zamienia dowolny plik obrazu JPEG w spersonalizowany plik PDF. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",

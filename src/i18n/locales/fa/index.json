@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسیم یک PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "هر صفحه انتخاب شده به یک فایل PDF جداگانه تبدیل خواهد شد. به طور جایگزین، می‌توانید صفحات انتخاب شده را در یک فایل PDF تکی ترکیب کنید.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "تبدیل PNG به PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "هر تصویر آپلود شده به صفحه‌ای در یک فایل PDF تبدیل می‌شود."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "تبدیل PNG به PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "هر تصویر آپلود شده به یک صفحه در یک فایل PDF تبدیل خواهد شد.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "تبدیل JPEG به PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "هر تصویر آپلود شده به یک صفحه در یک فایل PDF تبدیل خواهد شد."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "تقسیم PDF - جدا کردن صفحات PDF آنلاین به صورت رایگان | MaxAI.me",
     "pdf_tools__split_pdf__description": "به راحتی صفحات را جدا کنید یا صفحات را از PDF خود حذف کنید به صورت آنلاین و رایگان. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
     "pdf_tools__png_to_pdf__title": "تبدیل PNG به PDF - تبدیل تصاویر PNG به PDF آنلاین رایگان | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "تبدیل تصاویر PNG به PDF آنلاین رایگان. هر تصویر آپلود شده به صفحه‌ای در یک فایل PDF تبدیل می‌شود. بدون نشان آب، محدودیت حجم فایل، دانلود یا ثبت نام."
+    "pdf_tools__png_to_pdf__description": "تبدیل تصاویر PNG به PDF آنلاین و رایگان. این مبدل هر فایل تصویر PNG را به یک فایل PDF سفارشی تبدیل می کند. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
+    "pdf_tools__jpeg_to_pdf__title": "تبدیل JPEG به PDF - تبدیل تصاویر JPEG به PDF آنلاین رایگان | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "تبدیل تصاویر JPEG به PDF آنلاین و رایگان. این مبدل هر فایل تصویر JPEG را به یک فایل PDF سفارشی تبدیل می کند. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",

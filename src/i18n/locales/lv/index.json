@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Apvieno vairākus PDF failus vienā ar tikai dažiem klikšķiem",
     "tools__index_page__constant_obj__split_a_pdf__title": "Sadalīt PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Katrs atlasītais lappuse kļūs par atsevišķu PDF failu. Alternatīvi, jūs varat apvienot atlasītās lapas vienā PDF failā.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG uz PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Katrs augšupielādētais attēls kļūs par vienu lapu vienā PDF failā."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG uz PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG uz PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Sadalīt PDF – Atsevišķas PDF lapas tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__split_pdf__description": "Viegli atdalīt vai noņemt lapas savā PDF tiešsaistē bez maksas. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
     "pdf_tools__png_to_pdf__title": "PNG uz PDF - Konvertēt PNG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Konvertēt PNG attēlus uz PDF tiešsaistē bez maksas. Katrs augšupielādētais attēls kļūs par vienu lapu vienā PDF failā. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
+    "pdf_tools__png_to_pdf__description": "Konvertējiet PNG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru PNG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG uz PDF - Konvertēt JPEG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Konvertējiet JPEG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru JPEG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",

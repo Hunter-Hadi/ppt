@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "몇 번의 클릭으로 여러 개의 PDF 파일을 하나로 병합하세요",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF 분할",
     "tools__index_page__constant_obj__split_a_pdf__description": "각 선택한 페이지는 별도의 PDF 파일이 됩니다. 또는 선택한 페이지를 하나의 PDF 파일로 병합할 수도 있습니다.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG를 PDF로 변환",
-    "tools__index_page__constant_obj__image_to_pdf__description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG를 PDF로 변환",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG를 PDF로 변환",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "PDF 분할 - 무료 온라인으로 PDF 페이지 분리하기 | MaxAI.me",
     "pdf_tools__split_pdf__description": "무료로 PDF에서 페이지를 쉽게 분리하거나 제거하세요. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__png_to_pdf__title": "PNG를 PDF로 변환 - 무료 온라인 PNG 이미지를 PDF로 변환 | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "무료로 PNG 이미지를 PDF로 변환하세요. 각 업로드된 이미지는 단일 PDF의 페이지가 됩니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
+    "pdf_tools__png_to_pdf__description": "PNG 이미지를 무료로 온라인에서 PDF로 변환하세요. 변환기는 어떤 PNG 이미지 파일이든 사용자 정의된 PDF 파일로 변환합니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG를 PDF로 변환 - 무료 온라인 JPEG 이미지를 PDF로 변환 | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "JPEG 이미지를 무료로 온라인에서 PDF로 변환하세요. 변환기는 어떤 JPEG 이미지 파일이든 사용자 정의된 PDF 파일로 변환합니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",

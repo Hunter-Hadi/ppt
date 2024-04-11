@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "قم بدمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسيم ملف PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "سيصبح كل صفحة محددة ملف PDF منفصل. بدلاً من ذلك، يمكنك دمج الصفحات المحددة في ملف PDF واحد.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "تحويل PNG إلى PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "كل صورة مرفوعة ستصبح صفحة في ملف PDF واحد."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "تحويل PNG إلى PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "سيتحول كل صورة مرفوعة إلى صفحة في ملف PDF واحد.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "تحويل JPEG إلى PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "سيتحول كل صورة مرفوعة إلى صفحة في ملف PDF واحد."
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "تقسيم ملف PDF - فصل صفحات PDF عبر الإنترنت مجانًا | MaxAI.me",
     "pdf_tools__split_pdf__description": "افصل الصفحات بسهولة أو احذف الصفحات في ملف PDF الخاص بك عبر الإنترنت مجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيل الدخول المطلوبة.",
     "pdf_tools__png_to_pdf__title": "تحويل PNG إلى PDF - تحويل صور PNG إلى ملف PDF عبر الإنترنت مجانًا | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "قم بتحويل صور PNG إلى ملف PDF عبر الإنترنت مجانًا. كل صورة مرفوعة ستصبح صفحة في ملف PDF واحد. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيل الدخول المطلوبة."
+    "pdf_tools__png_to_pdf__description": "تحويل صور PNG إلى ملف PDF عبر الإنترنت مجانًا. يقوم المحول بتحويل أي ملف صورة PNG إلى ملف PDF مخصص. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "pdf_tools__jpeg_to_pdf__title": "تحويل JPEG إلى PDF - تحويل صور JPEG إلى PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "تحويل صور JPEG إلى ملف PDF عبر الإنترنت مجانًا. يقوم المحول بتحويل أي ملف صورة JPEG إلى ملف PDF مخصص. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",

@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "થોડા ક્લિક્સ સાથે અનેક પીડીએફ ફાઈલોને એકમાં મર્જ કરો",
     "tools__index_page__constant_obj__split_a_pdf__title": "પીડીએફ વિભાજન",
     "tools__index_page__constant_obj__split_a_pdf__description": "દરેક પસંદ કરેલ પૃષ્ઠ એક અલગ પીડીએફ ફાઈલ બનશે. વૈકલ્પિક રીતે, તમે પસંદ કરેલ પૃષ્ઠોને એકજ પીડીએફ ફાઈલમાં મર્જ કરી શકો છો.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG થી PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG થી PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG થી PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "PDF સ્પ્લિટ કરો - મફત ઓનલાઇન પીડીએફ પેજીઝ અલગ કરો | MaxAI.me",
     "pdf_tools__split_pdf__description": "મફતમાં તમારા PDF પેજીઝ અલગ કરો અથવા પેજીઝ દૂર કરો. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીયાદા, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__png_to_pdf__title": "PNG થી PDF - મફત માટે PNG છબીઓને PDF માં રૂપાંતરિત કરો | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "મફત માટે PNG છબીઓને PDF માં રૂપાંતરિત કરો. દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
+    "pdf_tools__png_to_pdf__description": "મુકત માટે PNG છબીઓને PDFમાં રૂપાંતરિત કરો. કનવર્ટર કોઈપણ PNG છબી ફાઇલને એક વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG થી PDF - જેપીઈજી છબીઓને મફત ઑનલાઇન PDF માં રૂપાંતરિત કરો | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "મુકત માટે JPEG છબીઓને PDFમાં રૂપાંતરિત કરો. કનવર્ટર કોઈપણ JPEG છબી ફાઇલને એક વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",

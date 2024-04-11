@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF विभाजित करा",
     "tools__index_page__constant_obj__split_a_pdf__description": "प्रत्येक निवडलेल्या पृष्ठांनी स्वतंत्र PDF फाइल बनविली जाईल. वैकल्पिकपणे, आपण निवडलेल्या पृष्ठांचा एकल PDF फाइलमध्ये मर्ज करू शकता.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ते PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "प्रत्येक अपलोड केलेली प्रतिमा एकटा PDF मध्ये एक पृष्ठाची बनविली जाईल."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG ते PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "प्रत्येक अपलोड केलेली इमेज एकटा PDF मध्ये पृष्ठ बनविली जाईल.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG ते PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "प्रत्येक अपलोड केलेली इमेज एकटा PDF मध्ये पृष्ठ बनविली जाईल."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "PDF विभाजित करा - मोफत ऑनलाइन पीडीएफ पृष्ठ विभाजित करा | MaxAI.me",
     "pdf_tools__split_pdf__description": "मोफतपणे पीडीएफ पृष्ठ विभाजित करा किंवा पृष्ठ काढा. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
     "pdf_tools__png_to_pdf__title": "PNG ते PDF - PNG प्रतिमा विनामूल्य ऑनलाइनपर्यंत PDF मध्ये रूपांतरण करा | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "PNG प्रतिमा विनामूल्यपणे ऑनलाइनपर्यंत PDF मध्ये रूपांतरण करा. प्रत्येक अपलोड केलेली प्रतिमा एकटा PDF मध्ये एक पृष्ठाची बनविली जाईल. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत."
+    "pdf_tools__png_to_pdf__description": "मोफत ऑनलाइनप्रमाणे PNG चित्रे PDF मध्ये रूपांतरित करा. रूपांतरक प्रत्येक PNG चित्र फाइलला एक वैयक्तीकृत PDF फाइलमध्ये बदलतो. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ते PDF - ऑनलाइन निशुल्क JPEG इमेज ला PDF मध्ये रूपांतरित करा | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "मोफत ऑनलाइनप्रमाणे JPEG चित्रे PDF मध्ये रूपांतरित करा. रूपांतरक प्रत्येक JPEG चित्र फाइलला एक वैयक्तीकृत PDF फाइलमध्ये बदलतो. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",

@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
     "tools__index_page__constant_obj__split_a_pdf__title": "לחלק PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "כל עמוד שנבחר יהפוך לקובץ PDF נפרד. בנוסף, תוכל למזג עמודים שנבחרו לקובץ PDF אחד.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ל-PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG ל-PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG ל-PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -608,7 +610,9 @@
     "pdf_tools__split_pdf__title": "פיצול PDF – נפרד עמודי PDF באינטרנט בחינם | MaxAI.me",
     "pdf_tools__split_pdf__description": "פיצול עמודים או הסרת עמודים ב-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
     "pdf_tools__png_to_pdf__title": "PNG ל-PDF - המרת תמונות PNG ל-PDF מקוון בחינם | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "המרת תמונות PNG ל-PDF מקוון בחינם. כל תמונה שתועלה תהפוך לדף ב-PDF אחד. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
+    "pdf_tools__png_to_pdf__description": "המרת תמונות PNG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת PNG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ל-PDF - המרת תמונות JPEG ל-PDF מקוון בחינם | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "המרת תמונות JPEG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת JPEG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",

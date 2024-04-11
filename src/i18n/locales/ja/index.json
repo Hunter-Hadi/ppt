@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "数回のクリックで複数のPDFファイルを1つに結合します",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDFを分割する",
     "tools__index_page__constant_obj__split_a_pdf__description": "選択した各ページは個別のPDFファイルになります。また、選択したページを1つのPDFファイルに結合することもできます。",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNGからPDFへ",
-    "tools__index_page__constant_obj__image_to_pdf__description": "アップロードされた各画像は、1つのPDF内のページになります。"
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNGからPDFへ",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "アップロードされた画像は、1つのPDF内のページになります。",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEGからPDFへ",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "アップロードされた画像は、1つのPDF内のページになります。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "PDFを分割 - 無料でオンラインでPDFページを分離 | MaxAI.me",
     "pdf_tools__split_pdf__description": "簡単にPDFのページを分離したり、ページを削除したりすることができます。ウォーターマークやファイルサイズの制限、ダウンロードやサインアップは必要ありません。",
     "pdf_tools__png_to_pdf__title": "PNGからPDF - 無料でPNG画像をPDFに変換 | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "PNG画像を無料でオンラインでPDFに変換します。アップロードされた各画像は、1つのPDF内のページになります。ウォーターマーク、ファイルサイズ制限、ダウンロード、またはサインアップは必要ありません。"
+    "pdf_tools__png_to_pdf__description": "PNG画像を無料でオンラインでPDFに変換します。コンバーターは任意のPNG画像ファイルをカスタマイズされたPDFファイルに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__jpeg_to_pdf__title": "JPEGからPDFへ - 無料でJPEG画像をPDFに変換 | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "JPEG画像を無料でオンラインでPDFに変換します。コンバーターは任意のJPEG画像ファイルをカスタマイズされたPDFファイルに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",

@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก",
     "tools__index_page__constant_obj__split_a_pdf__title": "แยกไฟล์ PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "แต่ละหน้าที่เลือกจะกลายเป็นไฟล์ PDF แยกต่างหาก หรือคุณสามารถรวมหน้าที่เลือกเข้าด้วยกันเป็นไฟล์ PDF เดียว",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG เป็น PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว"
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG เป็น PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG เป็น PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "แยก PDF – แยกหน้า PDF ออนไลน์ฟรี | MaxAI.me",
     "pdf_tools__split_pdf__description": "แยกหน้าหรือลบหน้าใน PDF ของคุณออนไลน์ฟรี ไม่มีลายน้ำ ไม่จำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก",
     "pdf_tools__png_to_pdf__title": "PNG เป็น PDF - แปลงรูปภาพ PNG เป็น PDF ออนไลน์ฟรี | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "แปลงรูปภาพ PNG เป็น PDF ออนไลน์ฟรี รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก"
+    "pdf_tools__png_to_pdf__description": "แปลงรูปภาพ PNG เป็น PDF ออนไลน์ฟรี โปรแกรมแปลงไฟล์รูปภาพ PNG เป็นไฟล์ PDF ที่กำหนดเอง ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการสมัครสมาชิกที่จำเป็น",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG เป็น PDF - แปลงรูปภาพ JPEG เป็น PDF ออนไลน์ฟรี | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "แปลงรูปภาพ JPEG เป็น PDF ออนไลน์ฟรี โปรแกรมแปลงไฟล์รูปภาพ JPEG เป็นไฟล์ PDF ที่กำหนดเอง ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการสมัครสมาชิกที่จำเป็น"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",

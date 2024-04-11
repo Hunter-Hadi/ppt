@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Sulieti kelis PDF failus į vieną vos keliais paspaudimais",
     "tools__index_page__constant_obj__split_a_pdf__title": "Padalinti PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Kiekviena pasirinkta puslapis taps atskiru PDF failu. Alternatyviai, galite sujungti pasirinktus puslapius į vieną PDF failą.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG į PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Kiekviena įkelta paveikslėlio bus viena puslapis PDF faile."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG į PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Kiekviena įkelta nuotrauka taps viena PDF puslapiu.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG į PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Kiekviena įkelta nuotrauka taps viena PDF puslapiu."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Padalinti PDF – Atskirti PDF puslapius internete nemokamai | MaxAI.me",
     "pdf_tools__split_pdf__description": "Lengvai atskirkite arba pašalinkite puslapius savo PDF dokumente internete nemokamai. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
     "pdf_tools__png_to_pdf__title": "PNG į PDF - Konvertuoti PNG paveikslėlius į PDF internete nemokamai | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Konvertuoti PNG paveikslėlius į PDF internete nemokamai. Kiekviena įkelta paveikslėlio bus viena puslapis PDF faile. Nėra vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos."
+    "pdf_tools__png_to_pdf__description": "Konvertuokite PNG paveikslėlius į PDF internete nemokamai. Konverteris paverčia bet kurį PNG paveikslėlio failą į tinkintą PDF failą. Nereikalingi vandens ženklai, failo dydžio apribojimai, atsisiuntimai ar prisijungimai.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG į PDF - Konvertuoti JPEG nuotraukas į PDF internete nemokamai | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Konvertuokite JPEG paveikslėlius į PDF internete nemokamai. Konverteris paverčia bet kurį JPEG paveikslėlio failą į tinkintą PDF failą. Nereikalingi vandens ženklai, failo dydžio apribojimai, atsisiuntimai ar prisijungimai."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",

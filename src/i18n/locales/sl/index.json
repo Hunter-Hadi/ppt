@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Združite več PDF datotek v eno z le nekaj kliki",
     "tools__index_page__constant_obj__split_a_pdf__title": "Razdeli PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Vsaka izbrana stran bo postala ločena datoteka PDF. Lahko pa združite izbrane strani v eno samo datoteko PDF.",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG v PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Vsaka naložena slika bo postala stran v enem samem PDF."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG v PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Vsaka naložena slika bo postala stran v enem samem PDF.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG v PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Vsaka naložena slika bo postala stran v enem samem PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Razdeli PDF – Brezplačno ločite strani v PDF datoteki | MaxAI.me",
     "pdf_tools__split_pdf__description": "Enostavno ločite strani ali odstranite strani v vašem PDF dokumentu brezplačno. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__png_to_pdf__title": "PNG v PDF - Pretvori PNG slike v PDF na spletu brezplačno | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Brezplačno pretvorite PNG slike v PDF na spletu. Vsaka naložena slika bo postala stran v enem samem PDF. Brez vodnih žigov, omejitev velikosti datotek, prenosov ali prijav."
+    "pdf_tools__png_to_pdf__description": "Brezplačno pretvorite PNG slike v PDF. Pretvornik spremeni katero koli PNG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG v PDF - Pretvori JPEG slike v PDF na spletu brezplačno | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Brezplačno pretvorite JPEG slike v PDF. Pretvornik spremeni katero koli JPEG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",

@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում",
     "tools__index_page__constant_obj__split_a_pdf__title": "Փակել PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Ընտրված էջերը կդառնան առանձին PDF ֆայլեր: Այլագետներից, դուք կարող եք միավորել ընտրված էջերը մեկ PDF ֆայլում:",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG-ից PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ էջ մեկ PDF-ում։"
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG-ից PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ էջում գերազանցված PDF-ում:",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG-ից PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ էջում գերազանցված PDF-ում:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "Մասնակցեք PDF-ի բաժանմանը - Առանց վատերների | MaxAI.me",
     "pdf_tools__split_pdf__description": "Կարողանաք շարունակել էջերը կամ հեռացնել էջերը ձեր PDF-ից անվճար օնլայն: Առանց զգալիների, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման:",
     "pdf_tools__png_to_pdf__title": "PNG-ից PDF - վերափոխել PNG պատկերները PDF-ի համար անվճար | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "Վերափոխեք PNG պատկերները PDF-ի համար անվճար։ Բոլոր վերբեռնված պատկերները կդառնան մեկ էջ մեկ PDF-ում։ Առանց զգալիության, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման պահին։"
+    "pdf_tools__png_to_pdf__description": "Փոխարինեք PNG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած PNG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG-ից PDF - վերափոխեք JPEG պատկերները PDF-ի համար անվճար | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Փոխարինեք JPEG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած JPEG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",

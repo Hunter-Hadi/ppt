@@ -361,8 +361,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ",
     "tools__index_page__constant_obj__split_a_pdf__title": "ፕድስ አርትስን መሸጥ",
     "tools__index_page__constant_obj__split_a_pdf__description": "የተመረጡ ገጽዎች አንድ አርትስ ፎቶ በመሸጥ ይቻላል። ማንኛውም ገጽ አንድ አርትስ ፎቶ አንድ ፎቶ ለመቀነስ ይቻላል።",
-    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ለ PDF",
-    "tools__index_page__constant_obj__image_to_pdf__description": "የተሳሳተ እይታ ለአንድ PDF ገጽ ይመልከቱ."
+    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG ለ PDF",
+    "tools__index_page__constant_obj__PNG_to_pdf__description": "የተሳሳተ ስዕል ማስታወቂያ በነጻ የእርስዎ ምስል ይመልከቱ.",
+    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG ለ PDF",
+    "tools__index_page__constant_obj__JPEG_to_pdf__description": "የተሳሳተ ስዕል ማስታወቂያ በነጻ የእርስዎ ምስል ይመልከቱ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -609,7 +611,9 @@
     "pdf_tools__split_pdf__title": "ፕድን ማቅረብ - በነፃ እናደርጋለን | MaxAI.me",
     "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።",
     "pdf_tools__png_to_pdf__title": "PNG ለ PDF - የPNG ምስሎችን በነፃ ለPDF በነፃ | MaxAI.me",
-    "pdf_tools__png_to_pdf__description": "የPNG ምስሎችን በነፃ ለPDF በነፃ በነፃ አንድ ገጽ ይመልከቱ. የሚያስፈልጉትን የፋይል መጠንቀቂያዎች, የፋይል መጠንቀቂያ እይታዎች, ልዩ ማድረግዎች, ወይም መረጃ የለም."
+    "pdf_tools__png_to_pdf__description": "ፓንግ ምስሎችን በነፃ ያለውን PDF ፋይል በነፃ መፍቻለት ነው። የሚሰሩት ፓንግ ምስሎችን የተጠቀሙ PDF ፋይል ፋይል አይደለም። የሚያስፈልጉት የፋይል መጠን የፋይል መጠን አይደለም።",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ለ PDF - የእርስዎን ምስልን በነጻ የሚሰራውን PDF በነፃ እናት | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "ጄፕኤግ ምስሎችን በነፃ ያለውን PDF ፋይል በነፃ መፍቻለት ነው። የሚሰሩት ጄፕኤግ ምስሎችን የተጠቀሙ PDF ፋይል ፋይል አይደለም። የሚያስፈልጉት የፋይል መጠን የፋይል መጠን አይደለም።"
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
