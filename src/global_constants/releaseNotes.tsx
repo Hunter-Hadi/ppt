@@ -13,7 +13,7 @@ export const MAXAI_RELEASE_NOTES = [
           },
           {
             module: 'Customize it your way',
-            desc: 'Whether you want to create your own prompts for quick replies, edit or review drafts, or compose new drafts, we've got you covered! Experience a fully customizable experience in the era of AI!',
+            desc: "Whether you want to create your own prompts for quick replies, edit or review drafts, or compose new drafts, we've got you covered! Experience a fully customizable experience in the era of AI!",
           },
         ],
       },
