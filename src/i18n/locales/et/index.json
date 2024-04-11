@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "Ühenda PDF failid ja loo üks dokument tasuta veebis. Meie PDF ühendajaga on PDF-ide ühendamine lihtsam kui kunagi varem. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__split_pdf__title": "Jaga PDF – Eralda PDF-i leheküljed veebis tasuta | MaxAI.me",
     "pdf_tools__split_pdf__description": "Lihtsalt eralda lehekülgi või eemalda lehekülgi oma PDF-ist veebis tasuta. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
-    "pdf_tools__image_to_pdf__title": "PNG PDF-iks - Teisenda PNG-pildid tasuta PDF-iks | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "Teisenda PNG-pildid tasuta PDF-iks veebis. Iga üles laaditud pilt saab ühe lehekülje ühes PDF-is. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
+    "pdf_tools__png_to_pdf__title": "PNG PDF-iks - Teisenda PNG-pildid tasuta PDF-iks | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Teisenda PNG-pildid tasuta PDF-iks veebis. Iga üles laaditud pilt saab ühe lehekülje ühes PDF-is. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",

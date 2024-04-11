@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "Kết hợp các tệp PDF và tạo một tài liệu duy nhất trực tuyến miễn phí. Với công cụ kết hợp PDF của chúng tôi, việc gộp PDF trở nên dễ dàng hơn bao giờ hết. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
     "pdf_tools__split_pdf__title": "Chia tách PDF - Tách trang PDF trực tuyến miễn phí | MaxAI.me",
     "pdf_tools__split_pdf__description": "Dễ dàng tách trang hoặc xóa trang trong PDF của bạn trực tuyến miễn phí. Không có dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
-    "pdf_tools__image_to_pdf__title": "PNG thành PDF - Chuyển đổi Hình ảnh PNG thành PDF Trực tuyến Miễn phí | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "Chuyển đổi hình ảnh PNG thành PDF trực tuyến miễn phí. Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết."
+    "pdf_tools__png_to_pdf__title": "PNG thành PDF - Chuyển đổi Hình ảnh PNG thành PDF Trực tuyến Miễn phí | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Chuyển đổi hình ảnh PNG thành PDF trực tuyến miễn phí. Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",

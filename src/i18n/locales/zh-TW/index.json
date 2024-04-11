@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "免費線上合併PDF檔案並創建單一文件。使用我們的PDF合併工具，合併PDF比以往更容易。無需浮水印、檔案大小限制、下載或註冊。",
     "pdf_tools__split_pdf__title": "分割PDF - 在線免費分離PDF頁面 | MaxAI.me",
     "pdf_tools__split_pdf__description": "輕鬆在線免費分離PDF頁面或刪除PDF頁面。無浮水印、文件大小限制、下載或註冊要求。",
-    "pdf_tools__image_to_pdf__title": "PNG轉PDF - 免費在線將PNG圖片轉換為PDF | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "免費在線將PNG圖片轉換為PDF。每個上傳的圖片將成為單一PDF中的一頁。無需水印、文件大小限制、下載或註冊。"
+    "pdf_tools__png_to_pdf__title": "PNG轉PDF - 免費在線將PNG圖片轉換為PDF | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "免費在線將PNG圖片轉換為PDF。每個上傳的圖片將成為單一PDF中的一頁。無需水印、文件大小限制、下載或註冊。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "點擊上傳或拖放",

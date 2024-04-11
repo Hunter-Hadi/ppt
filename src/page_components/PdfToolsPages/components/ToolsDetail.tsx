@@ -60,8 +60,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__split_pdf__description'),
     },
     'png-to-pdf': {
-      title: t('seo:pdf_tools__image_to_pdf__title'),
-      description: t('seo:pdf_tools__image_to_pdf__description'),
+      title: t('seo:pdf_tools__png_to_pdf__title'),
+      description: t('seo:pdf_tools__png_to_pdf__description'),
     },
   };
   return (

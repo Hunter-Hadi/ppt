@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "Jumuisha faili za PDF na tengeneza hati moja mtandaoni bure. Kwa kutumia mchanganyiko wetu wa PDF, kuunganisha PDFs ni rahisi kuliko hapo awali. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
     "pdf_tools__split_pdf__title": "Gawanya PDF - Tenganisha Kurasa za PDF Mtandaoni Bure | MaxAI.me",
     "pdf_tools__split_pdf__description": "Tenganisha kurasa au ondoa kurasa kwenye PDF yako mtandaoni bure. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
-    "pdf_tools__image_to_pdf__title": "PNG hadi PDF - Badilisha Picha za PNG kuwa PDF Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "Badilisha picha za PNG kuwa PDF mtandaoni bure. Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja. Hakuna alama ya maji, mipaka ya ukubwa wa faili, kupakua, au usajili unaohitajika."
+    "pdf_tools__png_to_pdf__title": "PNG hadi PDF - Badilisha Picha za PNG kuwa PDF Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Badilisha picha za PNG kuwa PDF mtandaoni bure. Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja. Hakuna alama ya maji, mipaka ya ukubwa wa faili, kupakua, au usajili unaohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",

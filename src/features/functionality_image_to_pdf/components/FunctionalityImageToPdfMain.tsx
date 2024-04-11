@@ -159,6 +159,12 @@ const FunctionalityImageToPdfMain = () => {
       console.error('Error converting images to PDF:', error);
     }
   };
+  const onDeleteInfo = (id: string) => {
+    if (imageInfoList) {
+      const newPdfInfoList = imageInfoList.filter((pdf) => pdf.id !== id);
+      setImageInfoList(newPdfInfoList);
+    }
+  };
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = [
     {
@@ -203,12 +209,6 @@ const FunctionalityImageToPdfMain = () => {
       },
     },
   ];
-  const onDeleteInfo = (id: string) => {
-    if (imageInfoList) {
-      const newPdfInfoList = imageInfoList.filter((pdf) => pdf.id !== id);
-      setImageInfoList(newPdfInfoList);
-    }
-  };
   const isEmptyList = imageInfoList.length === 0;
   const bottomButtonConfigs: IButtonConfig[] = [
     {

@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "在线免费合并PDF文件，创建一个单一的文档。使用我们的PDF合并工具，合并PDF文件变得比以往更容易。无需水印、文件大小限制、下载或注册。",
     "pdf_tools__split_pdf__title": "拆分PDF - 在线免费分离PDF页面 | MaxAI.me",
     "pdf_tools__split_pdf__description": "轻松在网上免费分离PDF页面或删除页面。无水印、文件大小限制、下载或注册要求。",
-    "pdf_tools__image_to_pdf__title": "PNG转PDF - 免费在线将PNG图像转换为PDF | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "免费在线将PNG图像转换为PDF。每个上传的图像将成为单个PDF中的一页。无水印、文件大小限制、下载或注册要求。"
+    "pdf_tools__png_to_pdf__title": "PNG转PDF - 免费在线将PNG图像转换为PDF | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "免费在线将PNG图像转换为PDF。每个上传的图像将成为单个PDF中的一页。无水印、文件大小限制、下载或注册要求。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "点击上传或拖放",

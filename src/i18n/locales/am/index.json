@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "የሚለውን PDF ፋይሎችን ለመሰናጃ የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
     "pdf_tools__split_pdf__title": "ፕድን ማቅረብ - በነፃ እናደርጋለን | MaxAI.me",
     "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።",
-    "pdf_tools__image_to_pdf__title": "PNG ለ PDF - የPNG ምስሎችን በነፃ ለPDF በነፃ | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "የPNG ምስሎችን በነፃ ለPDF በነፃ በነፃ አንድ ገጽ ይመልከቱ. የሚያስፈልጉትን የፋይል መጠንቀቂያዎች, የፋይል መጠንቀቂያ እይታዎች, ልዩ ማድረግዎች, ወይም መረጃ የለም."
+    "pdf_tools__png_to_pdf__title": "PNG ለ PDF - የPNG ምስሎችን በነፃ ለPDF በነፃ | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "የPNG ምስሎችን በነፃ ለPDF በነፃ በነፃ አንድ ገጽ ይመልከቱ. የሚያስፈልጉትን የፋይል መጠንቀቂያዎች, የፋይል መጠንቀቂያ እይታዎች, ልዩ ማድረግዎች, ወይም መረጃ የለም."
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",

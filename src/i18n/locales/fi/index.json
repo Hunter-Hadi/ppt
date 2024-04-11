@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "Yhdistä PDF-tiedostot ja luo yksi asiakirja verkossa ilmaiseksi. PDF-yhdistimellämme PDF-tiedostojen yhdistäminen on helpompaa kuin koskaan. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
     "pdf_tools__split_pdf__title": "Jaa PDF – Erota PDF-sivut verkossa ilmaiseksi | MaxAI.me",
     "pdf_tools__split_pdf__description": "Erota helposti sivuja tai poista sivuja PDF-tiedostostasi verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita.",
-    "pdf_tools__image_to_pdf__title": "PNG PDF - Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi. Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita."
+    "pdf_tools__png_to_pdf__title": "PNG PDF - Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi. Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",

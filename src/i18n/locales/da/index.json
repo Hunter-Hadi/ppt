@@ -608,8 +608,8 @@
     "pdf_tools__merge_pdfs__description": "Kombiner PDF-filer og opret et enkelt dokument online gratis. Med vores PDF-samler er det nemmere end nogensinde at flette PDF'er. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves.",
     "pdf_tools__split_pdf__title": "Opdel PDF – Separer PDF-sider online gratis | MaxAI.me",
     "pdf_tools__split_pdf__description": "Adskil nemt sider eller fjern sider i din PDF online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger påkrævet.",
-    "pdf_tools__image_to_pdf__title": "PNG til PDF - Konverter PNG-billeder til PDF online gratis | MaxAI.me",
-    "pdf_tools__image_to_pdf__description": "Konverter PNG-billeder til PDF online gratis. Hver uploadet billede vil blive en side i en enkelt PDF. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves."
+    "pdf_tools__png_to_pdf__title": "PNG til PDF - Konverter PNG-billeder til PDF online gratis | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Konverter PNG-billeder til PDF online gratis. Hver uploadet billede vil blive en side i en enkelt PDF. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",
