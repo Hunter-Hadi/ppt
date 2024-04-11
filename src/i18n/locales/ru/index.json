@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Добавить PDF",
     "components__pdf_merge__empty_pdf": "Очистить PDF",
     "components__pdf_merge__confirm_merge": "Подтвердить объединение",
-    "components__pdf_merge__pdf_dropping": "Вы можете изменить порядок PDF, перетаскивая их",
     "components__pdf_merge__button__download__tooltip": "Объединить и скачать PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Очистить все PDF ниже",
     "components__pdf_merge__button__add_pdfs__tooltip": "Добавить файл PDF ниже"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Выбрать все",
     "components__pdf_split__deselect_all": "Отменить выбор всех",
     "components__pdf_split__confirm_split": "Подтвердить разделение",
-    "components__pdf_split__pdf_dropping": "Вы можете изменить порядок PDF-файлов, перетаскивая их",
     "components__pdf_split__is_single_pdf": "Объединить выбранные страницы в один PDF",
     "components__pdf_split__cancel": "Отмена",
     "components__pdf_split__error_maximum": "Не удалось разделить файлы PDF. Превышено максимальное количество",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Отменить текущий прогресс"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "зашифровано или некорректно, невозможно обработать PDF, пропущено"
+    "components__common__pdf_encryption_tip": "зашифровано или некорректно, невозможно обработать PDF, пропущено",
+    "components__common__drag__dropping_tip": "Вы можете изменить порядок, перетаскивая элементы"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можно загружать только изображения типа image",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Размер страницы",
     "components__image_to_pdf__image_alignment": "Выравнивание изображения",
     "components__image_to_pdf__download": "Скачать",
-    "components__image_to_pdf__download__tooltip": "Создать и скачать PDF"
+    "components__image_to_pdf__download__tooltip": "Создать и скачать PDF",
+    "components__image_to_pdf__position_middle": "Середина",
+    "components__image_to_pdf__position_top": "Верх",
+    "components__image_to_pdf__position_bottom": "Низ"
   }
 }

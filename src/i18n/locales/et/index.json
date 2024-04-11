@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Lisa PDF",
     "components__pdf_merge__empty_pdf": "Tühjenda PDF-id",
     "components__pdf_merge__confirm_merge": "Kinnita ühendamine",
-    "components__pdf_merge__pdf_dropping": "Saate PDF-i järjestust reguleerida lohistamise teel",
     "components__pdf_merge__button__download__tooltip": "Ühenda ja laadi PDF alla",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Kustuta kõik allpool olevad PDF-id",
     "components__pdf_merge__button__add_pdfs__tooltip": "Lisa PDF-fail allpool"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Vali kõik",
     "components__pdf_split__deselect_all": "Tühista valik",
     "components__pdf_split__confirm_split": "Kinnita jagamine",
-    "components__pdf_split__pdf_dropping": "Saate PDF-i järjekorda reguleerida lohistades ja kukutades",
     "components__pdf_split__is_single_pdf": "Ühenda valitud lehed üheks PDF-iks",
     "components__pdf_split__cancel": "Tühista",
     "components__pdf_split__error_maximum": "PDF-failide jagamine ebaõnnestus, ületati maksimaalset kogust",
@@ -709,7 +707,21 @@
     "components__pdf_split__button__cancel__tooltip": "Tühista praegune protsess"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele"
+    "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele",
+    "components__common__drag__dropping_tip": "Saate järjestust reguleerida lohistades ja kukutades"
   },
-  "functionality__image_to_pdf": {}
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Ainult pilditüüpi pilte saab üles laadida",
+    "components__image_to_pdf__button_add_png": "Lisa pilte",
+    "components__image_to_pdf__button_add_png__tooltip": "Lisa allpool olevad pildid",
+    "components__image_to_pdf__button_remove_png": "Eemalda pildid",
+    "components__image_to_pdf__button_remove_png__tooltip": "Tühjenda allpool olevad pildid",
+    "components__image_to_pdf__page_size": "Lehe suurus",
+    "components__image_to_pdf__image_alignment": "Pildi joondus",
+    "components__image_to_pdf__download": "Laadi alla",
+    "components__image_to_pdf__download__tooltip": "Loo ja laadi PDF alla",
+    "components__image_to_pdf__position_middle": "Keskel",
+    "components__image_to_pdf__position_top": "Üleval",
+    "components__image_to_pdf__position_bottom": "All"
+  }
 }

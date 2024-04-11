@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
     "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
-    "components__pdf_merge__pdf_dropping": "Možete podesiti redosled PDF-a prevlačenjem i ispuštanjem",
     "components__pdf_merge__button__download__tooltip": "Spoji i preuzmi PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Obriši sve PDF-ove ispod",
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF fajl ispod"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Selektuj sve",
     "components__pdf_split__deselect_all": "Deselektuj sve",
     "components__pdf_split__confirm_split": "Potvrdi podelu",
-    "components__pdf_split__pdf_dropping": "Možete prilagoditi redosled PDF-a prevlačenjem i ispuštanjem",
     "components__pdf_split__is_single_pdf": "Spoji izabrane stranice u jedan PDF",
     "components__pdf_split__cancel": "Otkaži",
     "components__pdf_split__error_maximum": "Neuspešno deljenje PDF fajlova, prekoračen maksimalni broj",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Otkaži trenutni postupak"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "je šifrovan ili nepravilan, nemoguće manipulisati PDF-om, preskočeno"
+    "components__common__pdf_encryption_tip": "je šifrovan ili nepravilan, nemoguće manipulisati PDF-om, preskočeno",
+    "components__common__drag__dropping_tip": "Možete prilagoditi redosled prevlačenjem"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Samo slike tipa image mogu biti otpremljene",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Veličina stranice",
     "components__image_to_pdf__image_alignment": "Poravnanje slike",
     "components__image_to_pdf__download": "Preuzmi",
-    "components__image_to_pdf__download__tooltip": "Kreiraj i preuzmi PDF"
+    "components__image_to_pdf__download__tooltip": "Kreiraj i preuzmi PDF",
+    "components__image_to_pdf__position_middle": "Sredina",
+    "components__image_to_pdf__position_top": "Vrh",
+    "components__image_to_pdf__position_bottom": "Dno"
   }
 }

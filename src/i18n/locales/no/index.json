@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Legg til PDF",
     "components__pdf_merge__empty_pdf": "Tøm PDF-er",
     "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
-    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
     "components__pdf_merge__button__download__tooltip": "Slå sammen og last ned PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Fjern alle PDF-er nedenfor",
     "components__pdf_merge__button__add_pdfs__tooltip": "Legg til PDF-fil nedenfor"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Velg alle",
     "components__pdf_split__deselect_all": "Opphev valg for alle",
     "components__pdf_split__confirm_split": "Bekreft å splitte",
-    "components__pdf_split__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
     "components__pdf_split__is_single_pdf": "Slå sammen valgte sider til en enkelt PDF",
     "components__pdf_split__cancel": "Avbryt",
     "components__pdf_split__error_maximum": "Kunne ikke splitte PDF-filer, overskredet maksimalt antall",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Avbryt gjeldende fremgang"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over"
+    "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over",
+    "components__common__drag__dropping_tip": "Du kan justere rekkefølgen ved å dra og slippe"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Sidestørrelse",
     "components__image_to_pdf__image_alignment": "Bildejustering",
     "components__image_to_pdf__download": "Last ned",
-    "components__image_to_pdf__download__tooltip": "Opprett og last ned PDF"
+    "components__image_to_pdf__download__tooltip": "Opprett og last ned PDF",
+    "components__image_to_pdf__position_middle": "Midten",
+    "components__image_to_pdf__position_top": "Topp",
+    "components__image_to_pdf__position_bottom": "Bunn"
   }
 }

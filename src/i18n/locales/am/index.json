@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "PDF ጨምር",
     "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
     "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
-    "components__pdf_merge__pdf_dropping": "የ PDF ክፍልን በማስተላለፍ ይሻላል",
     "components__pdf_merge__button__download__tooltip": "አውርድ እና የPDF አጽዳፊዎች",
     "components__pdf_merge__button__clear_pdfs__tooltip": "ሁሉንም PDF ወደፊት አጽዳ",
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF ፋይል ወደፊት ጨምር"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "ሁሉንም ይምረጡ",
     "components__pdf_split__deselect_all": "ሁሉንም ይምረጡ",
     "components__pdf_split__confirm_split": "ማሳወቂያውን አረጋግጥ",
-    "components__pdf_split__pdf_dropping": "የ PDF ክፍል ቅጥፈትን በመስራት ላይ ይለውጡ",
     "components__pdf_split__is_single_pdf": "የተመረጡ ገጽዎን በአንድ PDF ማንበብ",
     "components__pdf_split__cancel": "ይቅር",
     "components__pdf_split__error_maximum": "PDF ፋይሎችን ማስተካከያ አልተገኘም, የሚያስተካከዩ ብዛት ተገኝቷል",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "የሚጠብቁ ክፍሎችን ይተውል"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው"
+    "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው",
+    "components__common__drag__dropping_tip": "ማስተካከያውን በግራፍ እና በማስቀመጥ ለማሳየት ይችላሉ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ምስል አይነት የሚጫኑ ምስሎች ተመዝግቧል",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "ገጽ መጠን",
     "components__image_to_pdf__image_alignment": "ምስል አማራጭ",
     "components__image_to_pdf__download": "ደህንነት",
-    "components__image_to_pdf__download__tooltip": "PDF እንዴት ፈጥር ይሻላል"
+    "components__image_to_pdf__download__tooltip": "PDF እንዴት ፈጥር ይሻላል",
+    "components__image_to_pdf__position_middle": "ሚድር",
+    "components__image_to_pdf__position_top": "ኋላ",
+    "components__image_to_pdf__position_bottom": "ግራ"
   }
 }

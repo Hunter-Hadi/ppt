@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Magdagdag ng PDF",
     "components__pdf_merge__empty_pdf": "Burahin ang mga PDF",
     "components__pdf_merge__confirm_merge": "Kumpirmahin ang pag-merge",
-    "components__pdf_merge__pdf_dropping": "Maaari mong ayusin ang pagkakasunud-sunod ng PDF sa pamamagitan ng pag-drag at drop",
     "components__pdf_merge__button__download__tooltip": "Pagsamahin at i-download ang PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Tanggalin ang lahat ng PDF sa ibaba",
     "components__pdf_merge__button__add_pdfs__tooltip": "Magdagdag ng PDF file sa ibaba"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Piliin Lahat",
     "components__pdf_split__deselect_all": "Huwag Piliin Lahat",
     "components__pdf_split__confirm_split": "Kumpirmahin ang paghihiwalay",
-    "components__pdf_split__pdf_dropping": "Maaari mong baguhin ang pagkakasunud-sunod ng mga PDF sa pamamagitan ng pag-drag at drop",
     "components__pdf_split__is_single_pdf": "Pagsamahin ang mga piniling pahina sa isang PDF",
     "components__pdf_split__cancel": " kanselahin",
     "components__pdf_split__error_maximum": "Nabigo ang paghihiwalay ng mga file ng PDF, Lumampas sa maximum na dami",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Ihinto ang kasalukuyang progreso"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip"
+    "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip",
+    "components__common__drag__dropping_tip": "Maaari mong ayusin ang pagkakasunud-sunod sa pamamagitan ng pag-drag at pag-drop"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Maaaring i-upload lamang ang mga imahe ng uri ng imahe",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Laki ng pahina",
     "components__image_to_pdf__image_alignment": "Pagkakasunud-sunod ng imahe",
     "components__image_to_pdf__download": "I-download",
-    "components__image_to_pdf__download__tooltip": "Lumikha at i-download ang PDF"
+    "components__image_to_pdf__download__tooltip": "Lumikha at i-download ang PDF",
+    "components__image_to_pdf__position_middle": "Gitna",
+    "components__image_to_pdf__position_top": "Tuktok",
+    "components__image_to_pdf__position_bottom": "Ibabaw"
   }
 }

@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "PDF toevoegen",
     "components__pdf_merge__empty_pdf": "PDF's wissen",
     "components__pdf_merge__confirm_merge": "Bevestig samenvoegen",
-    "components__pdf_merge__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten",
     "components__pdf_merge__button__download__tooltip": "Samenvoegen en PDF downloaden",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Alle PDF's hieronder wissen",
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF-bestand hieronder toevoegen"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Alles selecteren",
     "components__pdf_split__deselect_all": "Alles deselecteren",
     "components__pdf_split__confirm_split": "Bevestig splitsing",
-    "components__pdf_split__pdf_dropping": "U kunt de volgorde van de PDF aanpassen door te slepen en neerzetten",
     "components__pdf_split__is_single_pdf": "Voeg geselecteerde pagina's samen in één PDF",
     "components__pdf_split__cancel": "Annuleren",
     "components__pdf_split__error_maximum": "Kan PDF-bestanden niet splitsen, maximum aantal overschreden",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Huidige voortgang annuleren"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet manipuleren, overgeslagen"
+    "components__common__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet manipuleren, overgeslagen",
+    "components__common__drag__dropping_tip": "U kunt de volgorde aanpassen door te slepen en neer te zetten"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Alleen afbeeldingen van het type afbeelding kunnen worden geüpload",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Paginaformaat",
     "components__image_to_pdf__image_alignment": "Afbeeldingsuitlijning",
     "components__image_to_pdf__download": "Downloaden",
-    "components__image_to_pdf__download__tooltip": "PDF maken en downloaden"
+    "components__image_to_pdf__download__tooltip": "PDF maken en downloaden",
+    "components__image_to_pdf__position_middle": "Midden",
+    "components__image_to_pdf__position_top": "Boven",
+    "components__image_to_pdf__position_bottom": "Onder"
   }
 }

@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Додати PDF",
     "components__pdf_merge__empty_pdf": "Очистити PDF",
     "components__pdf_merge__confirm_merge": "Підтвердити об'єднання",
-    "components__pdf_merge__pdf_dropping": "Ви можете налаштувати порядок PDF, перетягуючи їх",
     "components__pdf_merge__button__download__tooltip": "Об'єднати та завантажити PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Очистити всі PDF нижче",
     "components__pdf_merge__button__add_pdfs__tooltip": "Додати файл PDF нижче"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Вибрати все",
     "components__pdf_split__deselect_all": "Скасувати вибір усіх",
     "components__pdf_split__confirm_split": "Підтвердити розбиття",
-    "components__pdf_split__pdf_dropping": "Ви можете налаштувати порядок PDF-файлів, перетягуючи їх",
     "components__pdf_split__is_single_pdf": "Об'єднати обрані сторінки в один PDF",
     "components__pdf_split__cancel": "Скасувати",
     "components__pdf_split__error_maximum": "Не вдалося розбити файли PDF. Перевищено максимальну кількість",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Скасувати поточний прогрес"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "зашифровано або ненормальне, не можна обробити PDF, пропущено"
+    "components__common__pdf_encryption_tip": "зашифровано або ненормальне, не можна обробити PDF, пропущено",
+    "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можна завантажувати лише зображення типу image",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Розмір сторінки",
     "components__image_to_pdf__image_alignment": "Вирівнювання зображення",
     "components__image_to_pdf__download": "Завантажити",
-    "components__image_to_pdf__download__tooltip": "Створити та завантажити PDF"
+    "components__image_to_pdf__download__tooltip": "Створити та завантажити PDF",
+    "components__image_to_pdf__position_middle": "Середина",
+    "components__image_to_pdf__position_top": "Верх",
+    "components__image_to_pdf__position_bottom": "Низ"
   }
 }

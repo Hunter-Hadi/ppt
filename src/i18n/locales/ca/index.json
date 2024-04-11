@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Afegiu PDF",
     "components__pdf_merge__empty_pdf": "Netegeu els PDFs",
     "components__pdf_merge__confirm_merge": "Confirmeu la fusió",
-    "components__pdf_merge__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los",
     "components__pdf_merge__button__download__tooltip": "Fusiona i descarrega el PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Neteja tots els PDFs a sota",
     "components__pdf_merge__button__add_pdfs__tooltip": "Afegeix un fitxer PDF a sota"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Selecciona-ho tot",
     "components__pdf_split__deselect_all": "Desselecciona-ho tot",
     "components__pdf_split__confirm_split": "Confirmeu per dividir",
-    "components__pdf_split__pdf_dropping": "Podeu ajustar l'ordre dels PDF arrossegant-los",
     "components__pdf_split__is_single_pdf": "Fusiona les pàgines seleccionades en un sol PDF",
     "components__pdf_split__cancel": "Cancel·la",
     "components__pdf_split__error_maximum": "No s'ha pogut dividir els fitxers PDF, s'ha superat la quantitat màxima",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Cancel·la el progrés actual"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "està encriptat o és anormal, no es pot manipular el PDF, saltat"
+    "components__common__pdf_encryption_tip": "està encriptat o és anormal, no es pot manipular el PDF, saltat",
+    "components__common__drag__dropping_tip": "Podeu ajustar l'ordre arrossegant i deixant anar"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Només es poden carregar imatges de tipus imatge",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Mida de la pàgina",
     "components__image_to_pdf__image_alignment": "Alineació de la imatge",
     "components__image_to_pdf__download": "Descarregar",
-    "components__image_to_pdf__download__tooltip": "Crear i descarregar PDF"
+    "components__image_to_pdf__download__tooltip": "Crear i descarregar PDF",
+    "components__image_to_pdf__position_middle": "Mig",
+    "components__image_to_pdf__position_top": "Dalt",
+    "components__image_to_pdf__position_bottom": "Baix"
   }
 }

@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "PDF 추가",
     "components__pdf_merge__empty_pdf": "PDF 지우기",
     "components__pdf_merge__confirm_merge": "병합 확인",
-    "components__pdf_merge__pdf_dropping": "PDF 순서를 드래그하여 조정할 수 있습니다",
     "components__pdf_merge__button__download__tooltip": "PDF 병합 및 다운로드",
     "components__pdf_merge__button__clear_pdfs__tooltip": "아래의 모든 PDF 지우기",
     "components__pdf_merge__button__add_pdfs__tooltip": "아래에 PDF 파일 추가"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "모두 선택",
     "components__pdf_split__deselect_all": "모두 선택 해제",
     "components__pdf_split__confirm_split": "분할 확인",
-    "components__pdf_split__pdf_dropping": "PDF 순서를 드래그하여 조정할 수 있습니다",
     "components__pdf_split__is_single_pdf": "선택한 페이지를 단일 PDF로 병합합니다",
     "components__pdf_split__cancel": "취소",
     "components__pdf_split__error_maximum": "PDF 파일 분할에 실패했습니다. 최대 수량을 초과했습니다",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "현재 진행 상태 취소"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "암호화되었거나 비정상적이어서 PDF를 조작할 수 없습니다. 건너뛰었습니다."
+    "components__common__pdf_encryption_tip": "암호화되었거나 비정상적이어서 PDF를 조작할 수 없습니다. 건너뛰었습니다.",
+    "components__common__drag__dropping_tip": "드래그 앤 드롭으로 순서를 조정할 수 있습니다."
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "페이지 크기",
     "components__image_to_pdf__image_alignment": "이미지 정렬",
     "components__image_to_pdf__download": "다운로드",
-    "components__image_to_pdf__download__tooltip": "PDF 생성 및 다운로드"
+    "components__image_to_pdf__download__tooltip": "PDF 생성 및 다운로드",
+    "components__image_to_pdf__position_middle": "가운데",
+    "components__image_to_pdf__position_top": "상단",
+    "components__image_to_pdf__position_bottom": "하단"
   }
 }

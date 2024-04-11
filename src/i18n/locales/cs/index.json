@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Přidat PDF",
     "components__pdf_merge__empty_pdf": "Vymazat PDF",
     "components__pdf_merge__confirm_merge": "Potvrdit sloučení",
-    "components__pdf_merge__pdf_dropping": "Pořadí PDF můžete upravit přetažením",
     "components__pdf_merge__button__download__tooltip": "Sloučit a stáhnout PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Vymazat všechna PDF níže",
     "components__pdf_merge__button__add_pdfs__tooltip": "Přidat PDF soubor níže"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Vybrat vše",
     "components__pdf_split__deselect_all": "Zrušit výběr všech",
     "components__pdf_split__confirm_split": "Potvrdit rozdělení",
-    "components__pdf_split__pdf_dropping": "Můžete upravit pořadí PDF přetažením",
     "components__pdf_split__is_single_pdf": "Sloučit vybrané stránky do jednoho PDF",
     "components__pdf_split__cancel": "Zrušit",
     "components__pdf_split__error_maximum": "Nepodařilo se rozdělit soubory PDF, překročeno maximální množství",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Zrušit aktuální postup"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "je zašifrován nebo je v neobvyklém stavu, nelze manipulovat s PDF, přeskočeno"
+    "components__common__pdf_encryption_tip": "je zašifrován nebo je v neobvyklém stavu, nelze manipulovat s PDF, přeskočeno",
+    "components__common__drag__dropping_tip": "Můžete upravit pořadí přetažením"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky typu obrázek",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Velikost stránky",
     "components__image_to_pdf__image_alignment": "Zarovnání obrázku",
     "components__image_to_pdf__download": "Stáhnout",
-    "components__image_to_pdf__download__tooltip": "Vytvořit a stáhnout PDF"
+    "components__image_to_pdf__download__tooltip": "Vytvořit a stáhnout PDF",
+    "components__image_to_pdf__position_middle": "Střed",
+    "components__image_to_pdf__position_top": "Nahoře",
+    "components__image_to_pdf__position_bottom": "Dole"
   }
 }

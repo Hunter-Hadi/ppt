@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "添加PDF",
     "components__pdf_merge__empty_pdf": "清空PDF",
     "components__pdf_merge__confirm_merge": "确认合并",
-    "components__pdf_merge__pdf_dropping": "您可以通过拖放来调整PDF顺序",
     "components__pdf_merge__button__download__tooltip": "合并并下载PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "清除下方所有PDF",
     "components__pdf_merge__button__add_pdfs__tooltip": "添加PDF文件"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "全选",
     "components__pdf_split__deselect_all": "取消全选",
     "components__pdf_split__confirm_split": "确认拆分",
-    "components__pdf_split__pdf_dropping": "您可以通过拖放来调整PDF顺序",
     "components__pdf_split__is_single_pdf": "将选定的页面合并为单个PDF",
     "components__pdf_split__cancel": "取消",
     "components__pdf_split__error_maximum": "拆分PDF文件失败，超过最大数量",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "取消当前进度"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过"
+    "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过",
+    "components__common__drag__dropping_tip": "您可以通过拖放来调整顺序"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上传图像类型的图片",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "页面尺寸",
     "components__image_to_pdf__image_alignment": "图像对齐",
     "components__image_to_pdf__download": "下载",
-    "components__image_to_pdf__download__tooltip": "创建并下载PDF"
+    "components__image_to_pdf__download__tooltip": "创建并下载PDF",
+    "components__image_to_pdf__position_middle": "中间",
+    "components__image_to_pdf__position_top": "顶部",
+    "components__image_to_pdf__position_bottom": "底部"
   }
 }

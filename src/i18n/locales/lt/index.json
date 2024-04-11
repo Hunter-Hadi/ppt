@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Pridėti PDF",
     "components__pdf_merge__empty_pdf": "Išvalyti PDF",
     "components__pdf_merge__confirm_merge": "Patvirtinti sujungimą",
-    "components__pdf_merge__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant",
     "components__pdf_merge__button__download__tooltip": "Sulieti ir atsisiųsti PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Išvalyti visus žemiau esančius PDF",
     "components__pdf_merge__button__add_pdfs__tooltip": "Pridėti PDF failą žemiau"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Pasirinkti visus",
     "components__pdf_split__deselect_all": "Atžymėti visus",
     "components__pdf_split__confirm_split": "Patvirtinti dalijimą",
-    "components__pdf_split__pdf_dropping": "Galite keisti PDF tvarką vilkdami ir numetant",
     "components__pdf_split__is_single_pdf": "Sulieti pasirinktas puslapius į vieną PDF",
     "components__pdf_split__cancel": "Atšaukti",
     "components__pdf_split__error_maximum": "Nepavyko padalinti PDF failų, viršytas maksimalus kiekis",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Atšaukti dabartinę pažangą"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima manipuliuoti PDF, praleistas"
+    "components__common__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima manipuliuoti PDF, praleistas",
+    "components__common__drag__dropping_tip": "Galite keisti tvarką vilkdami ir numetę"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Galima įkelti tik paveikslėlius formato",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Puslapio dydis",
     "components__image_to_pdf__image_alignment": "Paveikslėlio lygiavimas",
     "components__image_to_pdf__download": "Atsisiųsti",
-    "components__image_to_pdf__download__tooltip": "Sukurti ir atsisiųsti PDF"
+    "components__image_to_pdf__download__tooltip": "Sukurti ir atsisiųsti PDF",
+    "components__image_to_pdf__position_middle": "Vidurys",
+    "components__image_to_pdf__position_top": "Viršus",
+    "components__image_to_pdf__position_bottom": "Apačia"
   }
 }

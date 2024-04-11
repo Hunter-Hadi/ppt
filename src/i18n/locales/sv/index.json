@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Lägg till PDF",
     "components__pdf_merge__empty_pdf": "Rensa PDF:er",
     "components__pdf_merge__confirm_merge": "Bekräfta sammanfogning",
-    "components__pdf_merge__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa",
     "components__pdf_merge__button__download__tooltip": "Slå samman och ladda ner PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Rensa alla PDF-filer nedan",
     "components__pdf_merge__button__add_pdfs__tooltip": "Lägg till PDF-fil nedan"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Välj alla",
     "components__pdf_split__deselect_all": "Avmarkera alla",
     "components__pdf_split__confirm_split": "Bekräfta att dela upp",
-    "components__pdf_split__pdf_dropping": "Du kan justera PDF-ordningen genom att dra och släppa",
     "components__pdf_split__is_single_pdf": "Slå samman valda sidor till en enda PDF",
     "components__pdf_split__cancel": "Avbryt",
     "components__pdf_split__error_maximum": "Det gick inte att dela upp PDF-filer, Överskred maximalt antal",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Avbryt aktuell framsteg"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "är krypterad eller onormal, kan inte manipulera PDF:en, hoppades över"
+    "components__common__pdf_encryption_tip": "är krypterad eller onormal, kan inte manipulera PDF:en, hoppades över",
+    "components__common__drag__dropping_tip": "Du kan justera ordningen genom att dra och släppa"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Endast bilder av bildtyp kan laddas upp",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Sidstorlek",
     "components__image_to_pdf__image_alignment": "Bildjustering",
     "components__image_to_pdf__download": "Ladda ner",
-    "components__image_to_pdf__download__tooltip": "Skapa och ladda ner PDF"
+    "components__image_to_pdf__download__tooltip": "Skapa och ladda ner PDF",
+    "components__image_to_pdf__position_middle": "Mitten",
+    "components__image_to_pdf__position_top": "Överst",
+    "components__image_to_pdf__position_bottom": "Nederst"
   }
 }

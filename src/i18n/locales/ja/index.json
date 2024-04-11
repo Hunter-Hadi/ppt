@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "PDFを追加",
     "components__pdf_merge__empty_pdf": "PDFをクリア",
     "components__pdf_merge__confirm_merge": "マージを確認",
-    "components__pdf_merge__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます",
     "components__pdf_merge__button__download__tooltip": "PDFを結合してダウンロード",
     "components__pdf_merge__button__clear_pdfs__tooltip": "以下のすべてのPDFをクリア",
     "components__pdf_merge__button__add_pdfs__tooltip": "以下にPDFファイルを追加"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "すべて選択",
     "components__pdf_split__deselect_all": "すべて選択解除",
     "components__pdf_split__confirm_split": "分割を確認",
-    "components__pdf_split__pdf_dropping": "ドラッグアンドドロップでPDFの順序を調整できます",
     "components__pdf_split__is_single_pdf": "選択したページを1つのPDFに結合する",
     "components__pdf_split__cancel": "キャンセル",
     "components__pdf_split__error_maximum": "PDFファイルの分割に失敗しました。最大数量を超えています",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "現在の進行状況をキャンセル"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました"
+    "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました",
+    "components__common__drag__dropping_tip": "ドラッグアンドドロップで順序を調整できます"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "アップロードできるのは画像タイプのみです",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "ページサイズ",
     "components__image_to_pdf__image_alignment": "画像の配置",
     "components__image_to_pdf__download": "ダウンロード",
-    "components__image_to_pdf__download__tooltip": "PDFを作成してダウンロード"
+    "components__image_to_pdf__download__tooltip": "PDFを作成してダウンロード",
+    "components__image_to_pdf__position_middle": "中央",
+    "components__image_to_pdf__position_top": "上部",
+    "components__image_to_pdf__position_bottom": "下部"
   }
 }

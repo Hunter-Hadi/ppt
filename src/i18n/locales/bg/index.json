@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Добави PDF",
     "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
     "components__pdf_merge__confirm_merge": "Потвърди обединяването",
-    "components__pdf_merge__pdf_dropping": "Можете да настроите реда на PDF-овете, като ги влачите и пускате",
     "components__pdf_merge__button__download__tooltip": "Обединете и изтеглете PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Изчистете всички PDF-и по-долу",
     "components__pdf_merge__button__add_pdfs__tooltip": "Добавете PDF файл по-долу"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Избери всички",
     "components__pdf_split__deselect_all": "Отмени избора на всички",
     "components__pdf_split__confirm_split": "Потвърди разделянето",
-    "components__pdf_split__pdf_dropping": "Можете да промените реда на PDF-ите, като ги влачите и пускате",
     "components__pdf_split__is_single_pdf": "Сливане на избраните страници в един PDF",
     "components__pdf_split__cancel": "Отказ",
     "components__pdf_split__error_maximum": "Неуспешно разделяне на PDF файлове, надвишено максимално количество",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Отказ на текущия прогрес"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат"
+    "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат",
+    "components__common__drag__dropping_tip": "Можете да промените реда, като ги влачите и пускате"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Могат да бъдат качени само изображения от тип изображение",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Размер на страницата",
     "components__image_to_pdf__image_alignment": "Подравняване на изображението",
     "components__image_to_pdf__download": "Изтегляне",
-    "components__image_to_pdf__download__tooltip": "Създайте и изтеглете PDF"
+    "components__image_to_pdf__download__tooltip": "Създайте и изтеглете PDF",
+    "components__image_to_pdf__position_middle": "Среда",
+    "components__image_to_pdf__position_top": "Горе",
+    "components__image_to_pdf__position_bottom": "Долу"
   }
 }

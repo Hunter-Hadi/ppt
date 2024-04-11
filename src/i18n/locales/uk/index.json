@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",
     "components__pdf_merge__empty_pdf": "پی ڈی ایف صاف کریں",
     "components__pdf_merge__confirm_merge": "مرج کرنے کی تصدیق کریں",
-    "components__pdf_merge__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
     "components__pdf_merge__button__download__tooltip": "PDF کو مرکب کریں اور ڈاؤن لوڈ کریں",
     "components__pdf_merge__button__clear_pdfs__tooltip": "نیچے تمام PDFز ختم کریں",
     "components__pdf_merge__button__add_pdfs__tooltip": "نیچے PDF فائل شامل کریں"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "سب کو منتخب کریں",
     "components__pdf_split__deselect_all": "سب کا انتخاب ختم کریں",
     "components__pdf_split__confirm_split": "تقسیم کرنے کی تصدیق کریں",
-    "components__pdf_split__pdf_dropping": "آپ پی ڈی ایف کی ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
     "components__pdf_split__is_single_pdf": "منتخب شدہ صفحات کو ایک ہی پی ڈی ایف میں مرکٹ کریں",
     "components__pdf_split__cancel": "منسوخ کریں",
     "components__pdf_split__error_maximum": "پی ڈی ایف فائلوں کو تقسیم کرنے میں ناکامی ہوئی، زیادہ سے زیادہ تعداد پوری ہوگئی",
@@ -709,7 +707,21 @@
     "components__pdf_split__button__cancel__tooltip": "موجودہ پیش رفت منسوخ کریں"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "PDF محفوظ ہے یا غیر معمولی ہے، پی ڈی ایف کو ترتیب نہیں دیا جاسکتا، چھوڑ دیا گیا"
+    "components__common__pdf_encryption_tip": "PDF محفوظ ہے یا غیر معمولی ہے، پی ڈی ایف کو ترتیب نہیں دیا جاسکتا، چھوڑ دیا گیا",
+    "components__common__drag__dropping_tip": "آپ ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں"
   },
-  "functionality__image_to_pdf": {}
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "صرف تصویر قسم کی تصاویر اپلوڈ کی جا سکتی ہیں",
+    "components__image_to_pdf__button_add_png": "تصاویر شامل کریں",
+    "components__image_to_pdf__button_add_png__tooltip": "نیچے تصاویر شامل کریں",
+    "components__image_to_pdf__button_remove_png": "تصاویر ہٹائیں",
+    "components__image_to_pdf__button_remove_png__tooltip": "نیچے تصاویر صاف کریں",
+    "components__image_to_pdf__page_size": "صفحہ کا سائز",
+    "components__image_to_pdf__image_alignment": "تصویر کا مطابقت",
+    "components__image_to_pdf__download": "ڈاؤن لوڈ کریں",
+    "components__image_to_pdf__download__tooltip": "PDF بنائیں اور ڈاؤن لوڈ کریں",
+    "components__image_to_pdf__position_middle": "درمیان",
+    "components__image_to_pdf__position_top": "اوپر",
+    "components__image_to_pdf__position_bottom": "نیچے"
+  }
 }

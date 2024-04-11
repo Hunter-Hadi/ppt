@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "পিডিএফ যোগ করুন",
     "components__pdf_merge__empty_pdf": "পিডিএফ সাফ করুন",
     "components__pdf_merge__confirm_merge": "মার্জ করতে নিশ্চিত করুন",
-    "components__pdf_merge__pdf_dropping": "আপনি পিডিএফ ক্রম পরিবর্তন করতে ড্র্যাগ এবং ড্রপ করতে পারেন",
     "components__pdf_merge__button__download__tooltip": "একত্রিত করে পিডিএফ ডাউনলোড করুন",
     "components__pdf_merge__button__clear_pdfs__tooltip": "নীচের সব পিডিএফ মুছুন",
     "components__pdf_merge__button__add_pdfs__tooltip": "নীচে পিডিএফ ফাইল যোগ করুন"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "সব নির্বাচন করুন",
     "components__pdf_split__deselect_all": "সব অবাছিত করুন",
     "components__pdf_split__confirm_split": "বিভাজন নিশ্চিত করুন",
-    "components__pdf_split__pdf_dropping": "আপনি পিডিএফ ক্রম পরিবর্তন করতে ড্র্যাগ এবং ড্রপ করতে পারেন",
     "components__pdf_split__is_single_pdf": "নির্বাচিত পৃষ্ঠাগুলি একটি একক পিডিএফ হিসাবে মার্জ করুন",
     "components__pdf_split__cancel": "বাতিল করুন",
     "components__pdf_split__error_maximum": "পিডিএফ ফাইল বিভাজন করতে ব্যর্থ, সর্বাধিক পরিমাণ অতিক্রম করেছে",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "বর্তমান অগ্রগতি বাতিল করুন"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "এনক্রিপ্ট বা অস্বাভাবিক, পিডিএফ সংশোধন করতে অক্ষম, এই পাস করা হয়েছে"
+    "components__common__pdf_encryption_tip": "এনক্রিপ্ট বা অস্বাভাবিক, পিডিএফ সংশোধন করতে অক্ষম, এই পাস করা হয়েছে",
+    "components__common__drag__dropping_tip": "আপনি ড্র্যাগ এবং ড্রপ করে ক্রম পরিবর্তন করতে পারেন"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "শুধুমাত্র ইমেজ টাইপের ছবি আপলোড করা যাবে",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "পৃষ্ঠা আকার",
     "components__image_to_pdf__image_alignment": "ছবির সারিবদ্ধতা",
     "components__image_to_pdf__download": "ডাউনলোড করুন",
-    "components__image_to_pdf__download__tooltip": "PDF তৈরি করে ডাউনলোড করুন"
+    "components__image_to_pdf__download__tooltip": "PDF তৈরি করে ডাউনলোড করুন",
+    "components__image_to_pdf__position_middle": "মাঝে",
+    "components__image_to_pdf__position_top": "শীর্ষে",
+    "components__image_to_pdf__position_bottom": "নীচে"
   }
 }

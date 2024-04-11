@@ -685,7 +685,6 @@
     "components__pdf_merge__add_pdf": "הוסף PDF",
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
-    "components__pdf_merge__pdf_dropping": "ניתן לכוון את סדר ה- PDF על ידי גרירה ושחרור",
     "components__pdf_merge__button__download__tooltip": "מיזוג והורדת PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "נקה את כל ה- PDF למטה",
     "components__pdf_merge__button__add_pdfs__tooltip": "הוסף קובץ PDF למטה"
@@ -697,7 +696,6 @@
     "components__pdf_split__select_all": "בחר הכל",
     "components__pdf_split__deselect_all": "בטל בחירת הכל",
     "components__pdf_split__confirm_split": "אשר לפצל",
-    "components__pdf_split__pdf_dropping": "ניתן לכוון את סדר ה-PDF על ידי גרירה ושחרור",
     "components__pdf_split__is_single_pdf": "מזג עמודים שנבחרו ל-PDF יחיד",
     "components__pdf_split__cancel": "ביטול",
     "components__pdf_split__error_maximum": "נכשל בפיצול קבצי PDF, חרג מהכמות המרבית",
@@ -708,7 +706,8 @@
     "components__pdf_split__button__cancel__tooltip": "בטל את התהליך הנוכחי"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לנהל את ה- PDF, דילג"
+    "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לנהל את ה- PDF, דילג",
+    "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
@@ -719,6 +718,9 @@
     "components__image_to_pdf__page_size": "גודל הדף",
     "components__image_to_pdf__image_alignment": "יישור התמונה",
     "components__image_to_pdf__download": "הורדה",
-    "components__image_to_pdf__download__tooltip": "צור והורד PDF"
+    "components__image_to_pdf__download__tooltip": "צור והורד PDF",
+    "components__image_to_pdf__position_middle": "אמצע",
+    "components__image_to_pdf__position_top": "חלק עליון",
+    "components__image_to_pdf__position_bottom": "חלק תחתון"
   }
 }

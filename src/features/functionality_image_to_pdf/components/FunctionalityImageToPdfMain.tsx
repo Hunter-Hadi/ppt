@@ -25,7 +25,7 @@ import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/t
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import snackNotifications from '@/utils/globalSnackbar';
 
-import { pdfPagePositions, pdfPageSizes } from '../constant';
+import { PDF_IMAGE_POSITION_OPTIONS, PDF_PAGE_SIZE_OPTIONS } from '../constant';
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
   file: File;
 };
@@ -41,7 +41,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [userSelectSizeType, setUserSelectSizeType] = useState<string>('A4');
   const [userSelectPositionType, setUserSelectPositionType] = useState<string>(
-    pdfPagePositions[0],
+    PDF_IMAGE_POSITION_OPTIONS[0].key,
   );
   const [imageInfoList, setImageInfoList] = useState<
     IFunctionalityImageToPdfImageInfo[]
@@ -91,7 +91,9 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
     );
   };
   const getUserSelectPageSize = () => {
-    return pdfPageSizes.find((page) => page.name === userSelectSizeType);
+    return PDF_PAGE_SIZE_OPTIONS.find(
+      (page) => page.name === userSelectSizeType,
+    );
   };
   const convertToPDF = async () => {
     try {
@@ -382,7 +384,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
               },
             }}
           >
-            {pdfPageSizes.map((page) => (
+            {PDF_PAGE_SIZE_OPTIONS.map((page) => (
               <MenuItem value={page.name} key={page.name}>
                 {page.name}
               </MenuItem>
@@ -416,9 +418,9 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
               },
             }}
           >
-            {pdfPagePositions.map((pagePosition) => (
-              <MenuItem value={pagePosition} key={pagePosition}>
-                {pagePosition}
+            {PDF_IMAGE_POSITION_OPTIONS.map((pagePosition) => (
+              <MenuItem value={pagePosition.key} key={pagePosition.key}>
+                {t(pagePosition.title)}
               </MenuItem>
             ))}
           </Select>

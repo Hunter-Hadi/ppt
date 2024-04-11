@@ -62,15 +62,16 @@ const FunctionalitySortableItem = <T,>({
     </Box>
   );
 };
+type DragDataItem<T> = T & IBasicData;
 interface IFunctionalityCommonDragSortableListProps<T> {
-  list: (T & IBasicData)[];
-  onUpdateList: (data: (T & IBasicData)[]) => void;
+  list: DragDataItem<T>[];
+  onUpdateList: (data: DragDataItem<T>[]) => void;
   children: (
-    data: T & IBasicData,
+    data: DragDataItem<T>,
     index: number,
-    currentDragInfo?: T & IBasicData,
+    currentDragInfo?: DragDataItem<T>,
   ) => JSX.Element;
-  replacementElement?: (data: T & IBasicData) => JSX.Element;
+  replacementElement?: (data: DragDataItem<T>) => JSX.Element;
 }
 
 /**
@@ -81,7 +82,7 @@ interface IFunctionalityCommonDragSortableListProps<T> {
  * @param replacementElement 拖拽时替换的元素，如果不传则使用children
  *@param  children 列表元素视图，会传入data.index.currentDragInfo
  */
-const FunctionalityCommonDragSortableList = <T,>({
+const FunctionalityCommonDragSortableList = <T extends {}>({
   list,
   onUpdateList,
   replacementElement,
@@ -170,7 +171,7 @@ const FunctionalityCommonDragSortableList = <T,>({
             fontSize: 12,
           }}
         >
-          {t('functionality__pdf_merge:components__pdf_merge__pdf_dropping')}
+          {t('functionality__common:components__common__drag__dropping_tip')}
         </Typography>
       </Box>
     </DndContext>

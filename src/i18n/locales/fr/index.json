@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Ajouter un PDF",
     "components__pdf_merge__empty_pdf": "Effacer les PDF",
     "components__pdf_merge__confirm_merge": "Confirmer la fusion",
-    "components__pdf_merge__pdf_dropping": "Vous pouvez ajuster l'ordre des PDF en les faisant glisser et déposer",
     "components__pdf_merge__button__download__tooltip": "Fusionner et télécharger le PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Effacer tous les PDF ci-dessous",
     "components__pdf_merge__button__add_pdfs__tooltip": "Ajouter un fichier PDF ci-dessous"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Tout sélectionner",
     "components__pdf_split__deselect_all": "Tout désélectionner",
     "components__pdf_split__confirm_split": "Confirmer la division",
-    "components__pdf_split__pdf_dropping": "Vous pouvez ajuster l'ordre des PDF en les faisant glisser et déposer",
     "components__pdf_split__is_single_pdf": "Fusionner les pages sélectionnées en un seul PDF",
     "components__pdf_split__cancel": "Annuler",
     "components__pdf_split__error_maximum": "Échec de la division des fichiers PDF, quantité maximale dépassée",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Annuler la progression actuelle"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "est chiffré ou anormal, impossible de manipuler le PDF, ignoré"
+    "components__common__pdf_encryption_tip": "est chiffré ou anormal, impossible de manipuler le PDF, ignoré",
+    "components__common__drag__dropping_tip": "Vous pouvez ajuster l'ordre en faisant glisser et déposer"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Seules les images de type image peuvent être téléchargées",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Taille de la page",
     "components__image_to_pdf__image_alignment": "Alignement de l'image",
     "components__image_to_pdf__download": "Télécharger",
-    "components__image_to_pdf__download__tooltip": "Créer et télécharger le PDF"
+    "components__image_to_pdf__download__tooltip": "Créer et télécharger le PDF",
+    "components__image_to_pdf__position_middle": "Milieu",
+    "components__image_to_pdf__position_top": "Haut",
+    "components__image_to_pdf__position_bottom": "Bas"
   }
 }

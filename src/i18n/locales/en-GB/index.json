@@ -373,14 +373,14 @@
     "tools__index_page__constant_obj__JPEG_to_pdf__description": "Each uploaded image will become a page in a single PDF."
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped"
+    "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",
+    "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__pdf_merge__add_pdf": "Add PDFs",
     "components__pdf_merge__empty_pdf": "Clear PDFs",
     "components__pdf_merge__confirm_merge": "Confirm to merge",
-    "components__pdf_merge__pdf_dropping": "You can adjust the PDF order by dragging and dropping",
     "components__pdf_merge__button__download__tooltip": "Merge and download PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Clear all PDFs below",
     "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
@@ -392,7 +392,6 @@
     "components__pdf_split__select_all": "Select All",
     "components__pdf_split__deselect_all": "Deselect all",
     "components__pdf_split__confirm_split": "Confirm to split",
-    "components__pdf_split__pdf_dropping": "You can adjust the PDF order by dragging and dropping",
     "components__pdf_split__is_single_pdf": "Merge selected pages into a single PDF",
     "components__pdf_split__cancel": "Cancel",
     "components__pdf_split__error_maximum": "Failed to split PDF files, Exceeded maximum quantity",
@@ -433,7 +432,10 @@
     "components__image_to_pdf__page_size": "Page size",
     "components__image_to_pdf__image_alignment": "Image alignment",
     "components__image_to_pdf__download": "Download",
-    "components__image_to_pdf__download__tooltip": "Create and download PDF"
+    "components__image_to_pdf__download__tooltip": "Create and download PDF",
+    "components__image_to_pdf__position_middle": "Middle",
+    "components__image_to_pdf__position_top": "Top",
+    "components__image_to_pdf__position_bottom": "Bottom"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

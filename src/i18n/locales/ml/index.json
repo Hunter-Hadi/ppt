@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "PDF ചേർക്കുക",
     "components__pdf_merge__empty_pdf": "PDF മായ്ക്കുക",
     "components__pdf_merge__confirm_merge": "ഒരുപാട് ചേർക്കാൻ സ്ഥിരീകരിക്കുക",
-    "components__pdf_merge__pdf_dropping": "പിഡിഎഫ് ക്രമം ഇടപെടുത്താൻ നിങ്ങൾക്ക് വഴിയുണ്ട്",
     "components__pdf_merge__button__download__tooltip": "പിഡിഎഫ് ഒരുക്കി ഡൗൺലോഡ് ചെയ്യുക",
     "components__pdf_merge__button__clear_pdfs__tooltip": "താഴെ നിന്നുള്ള എല്ലാ പിഡിഎഫുകൾക്കും മായ്‌ക്കുക",
     "components__pdf_merge__button__add_pdfs__tooltip": "താഴെ പിഡിഎഫ് ഫയൽ ചേർക്കുക"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
     "components__pdf_split__deselect_all": "എല്ലാം തിരഞ്ഞെടുത്തില്ലാക്കുക",
     "components__pdf_split__confirm_split": "വിഭജനം സ്ഥിരീകരിക്കുക",
-    "components__pdf_split__pdf_dropping": "പിഡിഎഫ് ക്രമം മാറ്റാൻ നിങ്ങൾക്ക് വഴിയുണ്ട് ഡ്രാഗ് ചെയ്യാവുക",
     "components__pdf_split__is_single_pdf": "തിരഞ്ഞെടുത്ത പേജുകൾ ഒരു ഏകദേശ PDF ലേക്ക് മരയ്ക്കുക",
     "components__pdf_split__cancel": "റദ്ദാക്കുക",
     "components__pdf_split__error_maximum": "PDF ഫയലുകൾ വിഭജനം ചെയ്യാൻ പരമാവധി എണ്ണത്തിനു മികച്ചപ്പോൾ പിശക്",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "നിലവിൽ ഉള്ള പ്രോഗ്രസ്സ് റദ്ദാക്കുക"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "എൻക്രിപ്റ്റ് ചെയ്തിട്ടുള്ളതാണ് അല്ലെങ്കിൽ അസാധാരണമാണ്, PDF പ്രവർത്തനം ചെയ്യാൻ കഴിയില്ല, അവസാനിപ്പിച്ചു"
+    "components__common__pdf_encryption_tip": "എൻക്രിപ്റ്റ് ചെയ്തിട്ടുള്ളതാണ് അല്ലെങ്കിൽ അസാധാരണമാണ്, PDF പ്രവർത്തനം ചെയ്യാൻ കഴിയില്ല, അവസാനിപ്പിച്ചു",
+    "components__common__drag__dropping_tip": "നിങ്ങൾ വലിച്ചെറിയാൻ മറ്റുള്ളവരെ ഇടക്കാണിക്കാനും വലിച്ചെറിയാൻ പ്രവർത്തിക്കാനും കഴിയും"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ഇമേജ് തരം മാത്രം അപ്‌ലോഡ് ചെയ്യാൻ കഴിയുന്നു",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "പേജ് വലിപ്പം",
     "components__image_to_pdf__image_alignment": "ചിത്ര സമന്വയം",
     "components__image_to_pdf__download": "ഡൗൺലോഡ്",
-    "components__image_to_pdf__download__tooltip": "PDF സൃഷ്ടിക്കുകയും ഡൗൺലോഡുചെയ്യുകയും ചെയ്യുക"
+    "components__image_to_pdf__download__tooltip": "PDF സൃഷ്ടിക്കുകയും ഡൗൺലോഡുചെയ്യുകയും ചെയ്യുക",
+    "components__image_to_pdf__position_middle": "മധ്യഭാഗം",
+    "components__image_to_pdf__position_top": "മുകളിലേക്ക്",
+    "components__image_to_pdf__position_bottom": "അടിഞ്ഞാറിലേക്ക്"
   }
 }

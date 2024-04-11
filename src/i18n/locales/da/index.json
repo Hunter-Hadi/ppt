@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Tilføj PDF",
     "components__pdf_merge__empty_pdf": "Ryd PDF'er",
     "components__pdf_merge__confirm_merge": "Bekræft sammenføjning",
-    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe",
     "components__pdf_merge__button__download__tooltip": "Flet og download PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Ryd alle PDF'er nedenfor",
     "components__pdf_merge__button__add_pdfs__tooltip": "Tilføj PDF-fil nedenfor"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Vælg alle",
     "components__pdf_split__deselect_all": "Fravælg alle",
     "components__pdf_split__confirm_split": "Bekræft opdeling",
-    "components__pdf_split__pdf_dropping": "Du kan justere PDF-rækkefølgen ved at trække og slippe",
     "components__pdf_split__is_single_pdf": "Flet valgte sider til en enkelt PDF",
     "components__pdf_split__cancel": "Annuller",
     "components__pdf_split__error_maximum": "Kunne ikke opdele PDF-filer, overskredet maksimalt antal",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Annuller nuværende fremskridt"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "er krypteret eller unormal, kan ikke manipulere PDF'en, sprunget over"
+    "components__common__pdf_encryption_tip": "er krypteret eller unormal, kan ikke manipulere PDF'en, sprunget over",
+    "components__common__drag__dropping_tip": "Du kan justere rækkefølgen ved at trække og slippe"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Kun billeder af billedtypen kan uploades",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Sidestørrelse",
     "components__image_to_pdf__image_alignment": "Billedjustering",
     "components__image_to_pdf__download": "Download",
-    "components__image_to_pdf__download__tooltip": "Opret og download PDF"
+    "components__image_to_pdf__download__tooltip": "Opret og download PDF",
+    "components__image_to_pdf__position_middle": "Midten",
+    "components__image_to_pdf__position_top": "Top",
+    "components__image_to_pdf__position_bottom": "Bund"
   }
 }

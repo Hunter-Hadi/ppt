@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Ավելացնել PDF",
     "components__pdf_merge__empty_pdf": "Մաքրել PDF-ները",
     "components__pdf_merge__confirm_merge": "Հաստատել միավորումը",
-    "components__pdf_merge__pdf_dropping": "Դուք կարող եք համալիրել PDF-ների կարգը տեղադրելով և շարունակելով",
     "components__pdf_merge__button__download__tooltip": "Միացնել և բեռնել PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Մաքրել ստորեւ բոլոր PDF-ները",
     "components__pdf_merge__button__add_pdfs__tooltip": "Ավելացնել PDF ֆայլ ստորեւ"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Ընտրել բոլորը",
     "components__pdf_split__deselect_all": "Չընտրել որևէն",
     "components__pdf_split__confirm_split": "Հաստատել բաժանումը",
-    "components__pdf_split__pdf_dropping": "Դուք կարող եք համապատասխանել PDF-երի կարգը տեղադրելով և ներկայացնելով",
     "components__pdf_split__is_single_pdf": "Միավորել ընտրված էջերը մեկ PDF-ում",
     "components__pdf_split__cancel": "Չեղարկել",
     "components__pdf_split__error_maximum": "Չհաջողվեց բաժանել PDF ֆայլերը, գերազանցվեց առավելագույն քանակը",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Չեղարկել ընթացիկ գործընթացը"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "գաղտնաբառված է կամ անվտանգության պատճենը, չի կարող վերահսկվել PDF-ն, անտեսված է"
+    "components__common__pdf_encryption_tip": "գաղտնաբառված է կամ անվտանգության պատճենը, չի կարող վերահսկվել PDF-ն, անտեսված է",
+    "components__common__drag__dropping_tip": "Դուք կարող եք կարգը հավաքել և տեղադրել փոխանցումները"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Միայն պատկերներ կարող են վերբեռնվել",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Էջի չափս",
     "components__image_to_pdf__image_alignment": "Պատկերի համալիրում",
     "components__image_to_pdf__download": "Ներբեռնել",
-    "components__image_to_pdf__download__tooltip": "Ստեղծել և ներբեռնել PDF"
+    "components__image_to_pdf__download__tooltip": "Ստեղծել և ներբեռնել PDF",
+    "components__image_to_pdf__position_middle": "Միջին",
+    "components__image_to_pdf__position_top": "Լուծարված",
+    "components__image_to_pdf__position_bottom": "Ներքև"
   }
 }

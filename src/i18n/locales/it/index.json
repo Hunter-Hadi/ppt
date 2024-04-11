@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Aggiungi PDF",
     "components__pdf_merge__empty_pdf": "Svuota PDF",
     "components__pdf_merge__confirm_merge": "Conferma per unire",
-    "components__pdf_merge__pdf_dropping": "Puoi regolare l'ordine dei PDF trascinandoli",
     "components__pdf_merge__button__download__tooltip": "Unisci e scarica PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Cancella tutti i PDF sottostanti",
     "components__pdf_merge__button__add_pdfs__tooltip": "Aggiungi file PDF qui sotto"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Seleziona tutto",
     "components__pdf_split__deselect_all": "Deseleziona tutto",
     "components__pdf_split__confirm_split": "Conferma per dividere",
-    "components__pdf_split__pdf_dropping": "Puoi regolare l'ordine dei PDF trascinandoli e rilasciandoli",
     "components__pdf_split__is_single_pdf": "Unisci le pagine selezionate in un singolo PDF",
     "components__pdf_split__cancel": "Annulla",
     "components__pdf_split__error_maximum": "Impossibile dividere i file PDF, quantità massima superata",
@@ -709,7 +707,21 @@
     "components__pdf_split__button__cancel__tooltip": "Annulla progresso corrente"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "è crittografato o anomalo, impossibile manipolare il PDF, saltato"
+    "components__common__pdf_encryption_tip": "è crittografato o anomalo, impossibile manipolare il PDF, saltato",
+    "components__common__drag__dropping_tip": "È possibile regolare l'ordine trascinando e rilasciando"
   },
-  "functionality__image_to_pdf": {}
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "È possibile caricare solo immagini di tipo immagine",
+    "components__image_to_pdf__button_add_png": "Aggiungi immagini",
+    "components__image_to_pdf__button_add_png__tooltip": "Aggiungi immagini di seguito",
+    "components__image_to_pdf__button_remove_png": "Rimuovi immagini",
+    "components__image_to_pdf__button_remove_png__tooltip": "Cancella le immagini di seguito",
+    "components__image_to_pdf__page_size": "Dimensione pagina",
+    "components__image_to_pdf__image_alignment": "Allineamento immagine",
+    "components__image_to_pdf__download": "Scarica",
+    "components__image_to_pdf__download__tooltip": "Crea e scarica PDF",
+    "components__image_to_pdf__position_middle": "Centro",
+    "components__image_to_pdf__position_top": "In alto",
+    "components__image_to_pdf__position_bottom": "In basso"
+  }
 }

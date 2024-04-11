@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Pievienot PDF",
     "components__pdf_merge__empty_pdf": "Notīrīt PDF",
     "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
-    "components__pdf_merge__pdf_dropping": "Jūs varat mainīt PDF secību, vilkt un nomest",
     "components__pdf_merge__button__download__tooltip": "Apvienot un lejupielādēt PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Notīrīt visus PDF zemāk",
     "components__pdf_merge__button__add_pdfs__tooltip": "Pievienot PDF failu zemāk"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Izvēlēties visu",
     "components__pdf_split__deselect_all": "Noņemt izvēli no visiem",
     "components__pdf_split__confirm_split": "Apstiprināt sadalīšanu",
-    "components__pdf_split__pdf_dropping": "Jūs varat mainīt PDF secību, vilkot un nomest",
     "components__pdf_split__is_single_pdf": "Apvienot atlasītās lapas vienā PDF",
     "components__pdf_split__cancel": "Atcelt",
     "components__pdf_split__error_maximum": "Neizdevās sadalīt PDF failus, pārsniegts maksimālais daudzums",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Atcelt pašreizējo progresu"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists"
+    "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists",
+    "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Lappuses izmērs",
     "components__image_to_pdf__image_alignment": "Attēla līdzinājums",
     "components__image_to_pdf__download": "Lejupielādēt",
-    "components__image_to_pdf__download__tooltip": "Izveidot un lejupielādēt PDF"
+    "components__image_to_pdf__download__tooltip": "Izveidot un lejupielādēt PDF",
+    "components__image_to_pdf__position_middle": "Vidus",
+    "components__image_to_pdf__position_top": "Augša",
+    "components__image_to_pdf__position_bottom": "Apakša"
   }
 }

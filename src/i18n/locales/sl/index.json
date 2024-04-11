@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Počisti PDF-je",
     "components__pdf_merge__confirm_merge": "Potrdi združevanje",
-    "components__pdf_merge__pdf_dropping": "Vrstni red PDF-jev lahko prilagodite z vlečenjem in spuščanjem",
     "components__pdf_merge__button__download__tooltip": "Združi in prenesi PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Počisti vse spodnje PDF-je",
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteko spodaj"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Izberi vse",
     "components__pdf_split__deselect_all": "Prekliči izbor",
     "components__pdf_split__confirm_split": "Potrdi razdelitev",
-    "components__pdf_split__pdf_dropping": "Spremenite vrstni red PDF-jev z vlečenjem in spuščanjem",
     "components__pdf_split__is_single_pdf": "Združi izbrane strani v en PDF",
     "components__pdf_split__cancel": "Prekliči",
     "components__pdf_split__error_maximum": "Razdelitev datotek PDF ni uspela, presežena je največja količina",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Prekliči trenutni postopek"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "je šifriran ali nenavaden, ni mogoče manipulirati s PDF-jem, preskočeno"
+    "components__common__pdf_encryption_tip": "je šifriran ali nenavaden, ni mogoče manipulirati s PDF-jem, preskočeno",
+    "components__common__drag__dropping_tip": "Vrstni red lahko prilagodite z vlečenjem in spuščanjem"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Samo slike vrste slike lahko naložite",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Velikost strani",
     "components__image_to_pdf__image_alignment": "Poravnava slike",
     "components__image_to_pdf__download": "Prenesi",
-    "components__image_to_pdf__download__tooltip": "Ustvari in prenesi PDF"
+    "components__image_to_pdf__download__tooltip": "Ustvari in prenesi PDF",
+    "components__image_to_pdf__position_middle": "Sredina",
+    "components__image_to_pdf__position_top": "Zgoraj",
+    "components__image_to_pdf__position_bottom": "Spodaj"
   }
 }

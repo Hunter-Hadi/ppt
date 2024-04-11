@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "PDF ઉમેરો",
     "components__pdf_merge__empty_pdf": "PDF ખાલી કરો",
     "components__pdf_merge__confirm_merge": "જોડવાની પુષ્ટિ કરો",
-    "components__pdf_merge__pdf_dropping": "આપ પીડીએફ ક્રમને ડ્રેગ અને ડ્રોપ કરીને સુયોજિત કરી શકો છો",
     "components__pdf_merge__button__download__tooltip": "પીડીએફ મર્જ કરો અને ડાઉનલોડ કરો",
     "components__pdf_merge__button__clear_pdfs__tooltip": "નીચે આપેલ બધા પીડીએફ સાફ કરો",
     "components__pdf_merge__button__add_pdfs__tooltip": "નીચે પીડીએફ ફાઇલ ઉમેરો"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "બધા પસંદ કરો",
     "components__pdf_split__deselect_all": "બધા પસંદ વિચારો",
     "components__pdf_split__confirm_split": "સ્પલિટ કરવા માટે ખાતરી કરો",
-    "components__pdf_split__pdf_dropping": "આપ પીડીએફ ક્રમને ડ્રેગ અને ડ્રોપ કરીને સુયોજિત કરી શકો છો",
     "components__pdf_split__is_single_pdf": "પસંદ કરેલા પૃષ્ઠોને એકલ PDFમાં મર્જ કરો",
     "components__pdf_split__cancel": "રદ કરો",
     "components__pdf_split__error_maximum": "PDF ફાઇલો સ્પલિટ કરવામાં અસફળ, મહત્તમ સંખ્યા પાર થઈ ગઈ",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "વર્તમાન પ્રગતિ રદ કરો"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "એન્ક્રિપ્ટ થયેલ છે અથવા અસામાન્ય છે, PDF ને સુધારવામાં અસમર્થ, છોડી દીધું"
+    "components__common__pdf_encryption_tip": "એન્ક્રિપ્ટ થયેલ છે અથવા અસામાન્ય છે, PDF ને સુધારવામાં અસમર્થ, છોડી દીધું",
+    "components__common__drag__dropping_tip": "આપ ડ્રેગ કરીને ક્રમ સુધારી શકો છો"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "માત્ર ચિત્ર પ્રકારના ચિત્રો અપલોડ કરી શકાય છે",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "પેજ આકાર",
     "components__image_to_pdf__image_alignment": "ચિત્ર સંરેખણ",
     "components__image_to_pdf__download": "ડાઉનલોડ કરો",
-    "components__image_to_pdf__download__tooltip": "PDF બનાવો અને ડાઉનલોડ કરો"
+    "components__image_to_pdf__download__tooltip": "PDF બનાવો અને ડાઉનલોડ કરો",
+    "components__image_to_pdf__position_middle": "મધ્ય",
+    "components__image_to_pdf__position_top": "ટોપ",
+    "components__image_to_pdf__position_bottom": "નીચે"
   }
 }

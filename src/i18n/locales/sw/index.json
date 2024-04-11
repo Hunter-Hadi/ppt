@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Ongeza PDF",
     "components__pdf_merge__empty_pdf": "Futa PDFs",
     "components__pdf_merge__confirm_merge": "Thibitisha kuunganisha",
-    "components__pdf_merge__pdf_dropping": "Unaweza kurekebisha mpangilio wa PDF kwa kuvuta na kuacha",
     "components__pdf_merge__button__download__tooltip": "unganisha na pakua PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Ondoa PDF zote hapa chini",
     "components__pdf_merge__button__add_pdfs__tooltip": "Ongeza faili ya PDF hapa chini"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Chagua Yote",
     "components__pdf_split__deselect_all": "Batilisha Uteuzi Wote",
     "components__pdf_split__confirm_split": "Thibitisha kugawanya",
-    "components__pdf_split__pdf_dropping": "Unaweza kurekebisha mpangilio wa PDF kwa kuvuta na kuacha",
     "components__pdf_split__is_single_pdf": "Jumuisha kurasa zilizochaguliwa katika PDF moja",
     "components__pdf_split__cancel": "Ghairi",
     "components__pdf_split__error_maximum": "Imeshindikana kugawanya faili za PDF, Imezidi kiasi cha juu",
@@ -709,7 +707,21 @@
     "components__pdf_split__button__cancel__tooltip": "Ghairi maendeleo ya sasa"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "imefichwa au ni batili, haiwezekani kubadilisha PDF, imepuuzwa"
+    "components__common__pdf_encryption_tip": "imefichwa au ni batili, haiwezekani kubadilisha PDF, imepuuzwa",
+    "components__common__drag__dropping_tip": "Unaweza kurekebisha mpangilio kwa kuvuta na kuacha"
   },
-  "functionality__image_to_pdf": {}
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Picha za aina ya picha tu zinaweza kupakiwa",
+    "components__image_to_pdf__button_add_png": "Ongeza picha",
+    "components__image_to_pdf__button_add_png__tooltip": "Ongeza picha hapa chini",
+    "components__image_to_pdf__button_remove_png": "Ondoa picha",
+    "components__image_to_pdf__button_remove_png__tooltip": "Futa picha hapa chini",
+    "components__image_to_pdf__page_size": "Ukubwa wa ukurasa",
+    "components__image_to_pdf__image_alignment": "Ulinganisho wa picha",
+    "components__image_to_pdf__download": "Pakua",
+    "components__image_to_pdf__download__tooltip": "Unda na pakua PDF",
+    "components__image_to_pdf__position_middle": "Katikati",
+    "components__image_to_pdf__position_top": "Juu",
+    "components__image_to_pdf__position_bottom": "Chini"
+  }
 }

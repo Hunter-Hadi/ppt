@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "PDF hozzáadása",
     "components__pdf_merge__empty_pdf": "PDF-ek törlése",
     "components__pdf_merge__confirm_merge": "Összevonás megerősítése",
-    "components__pdf_merge__pdf_dropping": "A PDF sorrendjét húzás és ejtés segítségével állíthatja be",
     "components__pdf_merge__button__download__tooltip": "PDF egyesítése és letöltése",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Az alábbi összes PDF törlése",
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF fájl hozzáadása alul"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Összes kiválasztása",
     "components__pdf_split__deselect_all": "Összes kijelölés megszüntetése",
     "components__pdf_split__confirm_split": "Felosztás megerősítése",
-    "components__pdf_split__pdf_dropping": "A PDF sorrendjét áthelyezéssel módosíthatja",
     "components__pdf_split__is_single_pdf": "Kiválasztott oldalak egyesítése egyetlen PDF-be",
     "components__pdf_split__cancel": "Mégse",
     "components__pdf_split__error_maximum": "Nem sikerült a PDF fájlok felosztása, túllépte a maximális mennyiséget",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Aktuális folyamat megszakítása"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "titkosított vagy rendellenes, a PDF manipulálása nem lehetséges, kihagyva"
+    "components__common__pdf_encryption_tip": "titkosított vagy rendellenes, a PDF manipulálása nem lehetséges, kihagyva",
+    "components__common__drag__dropping_tip": "A sorrendet húzással és ejtéssel állíthatja be"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Csak képek tölthetők fel",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Oldalméret",
     "components__image_to_pdf__image_alignment": "Kép igazítás",
     "components__image_to_pdf__download": "Letöltés",
-    "components__image_to_pdf__download__tooltip": "PDF létrehozása és letöltése"
+    "components__image_to_pdf__download__tooltip": "PDF létrehozása és letöltése",
+    "components__image_to_pdf__position_middle": "Közép",
+    "components__image_to_pdf__position_top": "Felső",
+    "components__image_to_pdf__position_bottom": "Alsó"
   }
 }

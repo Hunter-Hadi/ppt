@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Tambah PDF",
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
-    "components__pdf_merge__pdf_dropping": "Anda boleh mengubahsuai susunan PDF dengan menyeret dan menjatuhkan",
     "components__pdf_merge__button__download__tooltip": "Gabung dan muat turun PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Padam semua PDF di bawah",
     "components__pdf_merge__button__add_pdfs__tooltip": "Tambah fail PDF di bawah"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Pilih Semua",
     "components__pdf_split__deselect_all": "Batal Pilih Semua",
     "components__pdf_split__confirm_split": "Sahkan untuk pecah",
-    "components__pdf_split__pdf_dropping": "Anda boleh mengubah susunan PDF dengan menyeret dan melepaskan",
     "components__pdf_split__is_single_pdf": "Gabungkan halaman yang dipilih ke dalam satu PDF",
     "components__pdf_split__cancel": "Batal",
     "components__pdf_split__error_maximum": "Gagal memecah fail PDF, Melebihi jumlah maksimum",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Batalkan kemajuan semasa"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
+    "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati",
+    "components__common__drag__dropping_tip": "Anda boleh mengubah susunan dengan menyeret dan menjatuhkan"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis imej boleh dimuat naik",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Saiz halaman",
     "components__image_to_pdf__image_alignment": "Penjajaran imej",
     "components__image_to_pdf__download": "Muat turun",
-    "components__image_to_pdf__download__tooltip": "Cipta dan muat turun PDF"
+    "components__image_to_pdf__download__tooltip": "Cipta dan muat turun PDF",
+    "components__image_to_pdf__position_middle": "Tengah",
+    "components__image_to_pdf__position_top": "Atas",
+    "components__image_to_pdf__position_bottom": "Bawah"
   }
 }

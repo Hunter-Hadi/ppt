@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Lisää PDF",
     "components__pdf_merge__empty_pdf": "Tyhjennä PDF:t",
     "components__pdf_merge__confirm_merge": "Vahvista yhdistäminen",
-    "components__pdf_merge__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla",
     "components__pdf_merge__button__download__tooltip": "Yhdistä ja lataa PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Tyhjennä kaikki alla olevat PDF-tiedostot",
     "components__pdf_merge__button__add_pdfs__tooltip": "Lisää PDF-tiedosto alle"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "Valitse kaikki",
     "components__pdf_split__deselect_all": "Poista valinta kaikista",
     "components__pdf_split__confirm_split": "Vahvista jakaminen",
-    "components__pdf_split__pdf_dropping": "Voit säätää PDF-järjestystä raahaamalla ja pudottamalla",
     "components__pdf_split__is_single_pdf": "Yhdistä valitut sivut yhdeksi PDF-tiedostoksi",
     "components__pdf_split__cancel": "Peruuta",
     "components__pdf_split__error_maximum": "PDF-tiedostojen jakaminen epäonnistui, ylitettiin enimmäismäärä",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "Peruuta nykyinen edistyminen"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "on salattu tai poikkeava, PDF-tiedostoa ei voi käsitellä, ohitettu"
+    "components__common__pdf_encryption_tip": "on salattu tai poikkeava, PDF-tiedostoa ei voi käsitellä, ohitettu",
+    "components__common__drag__dropping_tip": "Voit säätää järjestystä vetämällä ja pudottamalla"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Vain kuvatyyppiset kuvat voidaan ladata",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "Sivun koko",
     "components__image_to_pdf__image_alignment": "Kuvan tasaus",
     "components__image_to_pdf__download": "Lataa",
-    "components__image_to_pdf__download__tooltip": "Luo ja lataa PDF"
+    "components__image_to_pdf__download__tooltip": "Luo ja lataa PDF",
+    "components__image_to_pdf__position_middle": "Keski",
+    "components__image_to_pdf__position_top": "Ylä",
+    "components__image_to_pdf__position_bottom": "Ala"
   }
 }

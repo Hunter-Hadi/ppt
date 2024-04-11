@@ -686,7 +686,6 @@
     "components__pdf_merge__add_pdf": "เพิ่ม PDF",
     "components__pdf_merge__empty_pdf": "ล้าง PDF",
     "components__pdf_merge__confirm_merge": "ยืนยันการรวม",
-    "components__pdf_merge__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง",
     "components__pdf_merge__button__download__tooltip": "รวมและดาวน์โหลด PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "ล้าง PDF ทั้งหมดด้านล่าง",
     "components__pdf_merge__button__add_pdfs__tooltip": "เพิ่มไฟล์ PDF ด้านล่าง"
@@ -698,7 +697,6 @@
     "components__pdf_split__select_all": "เลือกทั้งหมด",
     "components__pdf_split__deselect_all": "ไม่เลือกทั้งหมด",
     "components__pdf_split__confirm_split": "ยืนยันการแยก",
-    "components__pdf_split__pdf_dropping": "คุณสามารถปรับลำดับ PDF โดยลากและวาง",
     "components__pdf_split__is_single_pdf": "ผสานหน้าที่เลือกเป็นไฟล์ PDF เดียว",
     "components__pdf_split__cancel": "ยกเลิก",
     "components__pdf_split__error_maximum": "การแยกไฟล์ PDF ล้มเหลว จำนวนเกินขีดจำกัด",
@@ -709,7 +707,8 @@
     "components__pdf_split__button__cancel__tooltip": "ยกเลิกความคืบหน้าปัจจุบัน"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถจัดการไฟล์ PDF ได้ ข้าม"
+    "components__common__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถจัดการไฟล์ PDF ได้ ข้าม",
+    "components__common__drag__dropping_tip": "คุณสามารถปรับลำดับได้โดยลากและวาง"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "สามารถอัปโหลดภาพเฉพาะชนิดภาพเท่านั้น",
@@ -720,6 +719,9 @@
     "components__image_to_pdf__page_size": "ขนาดหน้า",
     "components__image_to_pdf__image_alignment": "การจัดแนวรูปภาพ",
     "components__image_to_pdf__download": "ดาวน์โหลด",
-    "components__image_to_pdf__download__tooltip": "สร้างและดาวน์โหลด PDF"
+    "components__image_to_pdf__download__tooltip": "สร้างและดาวน์โหลด PDF",
+    "components__image_to_pdf__position_middle": "กลาง",
+    "components__image_to_pdf__position_top": "บน",
+    "components__image_to_pdf__position_bottom": "ล่าง"
   }
 }

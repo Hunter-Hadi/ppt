@@ -1,4 +1,4 @@
-export const pdfPageSizes = [
+export const PDF_PAGE_SIZE_OPTIONS = [
     { "name": "4A0", "width": 4767.87, "height": 6740.79 },
     { "name": "2A0", "width": 3370.39, "height": 4767.87 },
     { "name": "A0", "width": 2383.94, "height": 3370.39 },
@@ -50,4 +50,13 @@ export const pdfPageSizes = [
     { "name": "Letter", "width": 612.00, "height": 792.00 },
     { "name": "Tabloid", "width": 792.00, "height": 1224.00 }
 ]
-export const pdfPagePositions = ['Middle', 'Top', 'Bottom']
+export const PDF_IMAGE_POSITION_OPTIONS = [{
+    key: 'middle',
+    title: 'functionality__image_to_pdf:components__image_to_pdf__position_middle',
+}, {
+    key: 'top',
+    title: 'functionality__image_to_pdf:components__image_to_pdf__position_top',
+}, {
+    key: 'bottom',
+    title: 'functionality__image_to_pdf:components__image_to_pdf__position_bottom',
+}]
