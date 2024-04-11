@@ -47,7 +47,6 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
           '&:hover': {
             bgcolor: '#f0eded',
           },
-          // border: isActive ? '1px dashed #64467b' : '1px solid transparent',
           borderRadius: 1,
           display: 'flex',
           flexDirection: 'column',
@@ -61,7 +60,6 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
             {
               objectFit: 'contain',
               width: '100%',
-              // opacity: isActive ? 0 : 1,
               userSelect: 'none',
               WebkitUserDrag: 'none',
               maxHeight: 500,
