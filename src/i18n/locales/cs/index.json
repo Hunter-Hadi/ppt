@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Sloučit PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "Slučte více PDF souborů do jednoho jen pár kliknutími",
     "tools__index_page__constant_obj__split_a_pdf__title": "Rozdělit PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Každá vybraná stránka se stane samostatným souborem PDF. Alternativně můžete vybrané stránky sloučit do jednoho souboru PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Každá vybraná stránka se stane samostatným souborem PDF. Alternativně můžete vybrané stránky sloučit do jednoho souboru PDF.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG na PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Každý nahraný obrázek se stane stránkou v jednom PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Sloučit PDF – Sjednocení PDF souborů online zdarma | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Spojte PDF soubory a vytvořte jediný dokument online zdarma. S naším nástrojem na sloučení PDF je spojování PDF snadnější než kdy dříve. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
     "pdf_tools__split_pdf__title": "Rozdělit PDF – Oddělte stránky PDF online zdarma | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Snadno oddělte stránky nebo odstraňte stránky ve vašem PDF online zdarma. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
+    "pdf_tools__split_pdf__description": "Snadno oddělte stránky nebo odstraňte stránky ve vašem PDF online zdarma. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
+    "pdf_tools__image_to_pdf__title": "PNG na PDF - Převod PNG obrázků do PDF online zdarma | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Převeďte PNG obrázky do PDF online zdarma. Každý nahraný obrázek se stane stránkou v jednom PDF. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "je zašifrován nebo je v neobvyklém stavu, nelze manipulovat s PDF, přeskočeno"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky ve formátu PNG",
+    "components__image_to_pdf__button_add_png": "Přidat PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Přidat PNG níže",
+    "components__image_to_pdf__button_remove_png": "Odstranit PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Vymazat PNG níže",
+    "components__image_to_pdf__page_size": "Velikost stránky",
+    "components__image_to_pdf__image_alignment": "Zarovnání obrázku",
+    "components__image_to_pdf__download": "Stáhnout",
+    "components__image_to_pdf__download__tooltip": "Vytvořit a stáhnout PDF"
   }
 }

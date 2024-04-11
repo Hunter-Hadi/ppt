@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Flet PDF'er",
     "tools__index_page__constant_obj__merge_pdfs__description": "Flet flere PDF-filer sammen med bare et par klik",
     "tools__index_page__constant_obj__split_a_pdf__title": "Opdel en PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil blive til en separat PDF-fil. Alternativt kan du samle valgte sider i en enkelt PDF-fil."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil blive til en separat PDF-fil. Alternativt kan du samle valgte sider i en enkelt PDF-fil.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG til PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Hver uploadet billede vil blive en side i en enkelt PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Flet PDF - Kombiner PDF-filer online gratis | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Kombiner PDF-filer og opret et enkelt dokument online gratis. Med vores PDF-samler er det nemmere end nogensinde at flette PDF'er. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves.",
     "pdf_tools__split_pdf__title": "Opdel PDF – Separer PDF-sider online gratis | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Adskil nemt sider eller fjern sider i din PDF online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger påkrævet."
+    "pdf_tools__split_pdf__description": "Adskil nemt sider eller fjern sider i din PDF online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger påkrævet.",
+    "pdf_tools__image_to_pdf__title": "PNG til PDF - Konverter PNG-billeder til PDF online gratis | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Konverter PNG-billeder til PDF online gratis. Hver uploadet billede vil blive en side i en enkelt PDF. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "er krypteret eller unormal, kan ikke manipulere PDF'en, sprunget over"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Kun PNG-billeder kan uploades",
+    "components__image_to_pdf__button_add_png": "Tilføj PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Tilføj PNG nedenfor",
+    "components__image_to_pdf__button_remove_png": "Fjern PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Ryd PNG nedenfor",
+    "components__image_to_pdf__page_size": "Sidestørrelse",
+    "components__image_to_pdf__image_alignment": "Billedjustering",
+    "components__image_to_pdf__download": "Download",
+    "components__image_to_pdf__download__tooltip": "Opret og download PDF"
   }
 }

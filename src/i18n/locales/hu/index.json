@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF-ek egyesítése",
     "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF felosztása",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Minden kiválasztott oldal külön PDF fájllá válik. Vagy alternatívaként összevonhatja a kiválasztott oldalakat egyetlen PDF fájlba."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Minden kiválasztott oldal külön PDF fájllá válik. Vagy alternatívaként összevonhatja a kiválasztott oldalakat egyetlen PDF fájlba.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG to PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Minden feltöltött kép egy oldallá válik egyetlen PDF-ben."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDF összevonása - PDF fájlok kombinálása online ingyen | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Kombinálja a PDF fájlokat és hozzon létre egyetlen dokumentumot online ingyen. A PDF összevonóval könnyebb mint valaha a PDF-ek egyesítése. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
     "pdf_tools__split_pdf__title": "PDF szétválasztása - Ingyenesen válassza szét a PDF oldalakat | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Egyszerűen válassza szét az oldalakat vagy távolítsa el az oldalakat a PDF-ből ingyenesen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
+    "pdf_tools__split_pdf__description": "Egyszerűen válassza szét az oldalakat vagy távolítsa el az oldalakat a PDF-ből ingyenesen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
+    "pdf_tools__image_to_pdf__title": "PNG to PDF - PNG képek konvertálása PDF formátumba ingyen | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "PNG képek konvertálása PDF formátumba ingyen. Minden feltöltött kép egy oldallá válik egyetlen PDF-ben. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "titkosított vagy rendellenes, a PDF manipulálása nem lehetséges, kihagyva"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Csak PNG típusú képek tölthetők fel",
+    "components__image_to_pdf__button_add_png": "PNG hozzáadása",
+    "components__image_to_pdf__button_add_png__tooltip": "PNG hozzáadása alulra",
+    "components__image_to_pdf__button_remove_png": "PNG eltávolítása",
+    "components__image_to_pdf__button_remove_png__tooltip": "Törölje a PNG-t alulról",
+    "components__image_to_pdf__page_size": "Oldalméret",
+    "components__image_to_pdf__image_alignment": "Kép igazítása",
+    "components__image_to_pdf__download": "Letöltés",
+    "components__image_to_pdf__download__tooltip": "PDF létrehozása és letöltése"
   }
 }

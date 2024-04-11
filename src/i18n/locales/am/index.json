@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "ፕድን ማርገዝ",
     "tools__index_page__constant_obj__merge_pdfs__description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ",
     "tools__index_page__constant_obj__split_a_pdf__title": "ፕድስ አርትስን መሸጥ",
-    "tools__index_page__constant_obj__split_a_pdf__description": "የተመረጡ ገጽዎች አንድ አርትስ ፎቶ በመሸጥ ይቻላል። ማንኛውም ገጽ አንድ አርትስ ፎቶ አንድ ፎቶ ለመቀነስ ይቻላል።"
+    "tools__index_page__constant_obj__split_a_pdf__description": "የተመረጡ ገጽዎች አንድ አርትስ ፎቶ በመሸጥ ይቻላል። ማንኛውም ገጽ አንድ አርትስ ፎቶ አንድ ፎቶ ለመቀነስ ይቻላል።",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ለ PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "የተሳሳተ እይታ ለአንድ PDF ገጽ ይመልከቱ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDF ለማሰናጃ - የሚለውን PDF ፋይሎችን በነፃ እንዴት ማሰናጃ | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "የሚለውን PDF ፋይሎችን ለመሰናጃ የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
     "pdf_tools__split_pdf__title": "ፕድን ማቅረብ - በነፃ እናደርጋለን | MaxAI.me",
-    "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።"
+    "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።",
+    "pdf_tools__image_to_pdf__title": "PNG ለ PDF - የPNG ምስሎችን በነፃ ለPDF በነፃ | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "የPNG ምስሎችን በነፃ ለPDF በነፃ በነፃ አንድ ገጽ ይመልከቱ. የሚያስፈልጉትን የፋይል መጠንቀቂያዎች, የፋይል መጠንቀቂያ እይታዎች, ልዩ ማድረግዎች, ወይም መረጃ የለም."
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "በ PNG አይነት የተሳሳተ ምስሎች ተጠቅሯል",
+    "components__image_to_pdf__button_add_png": "PNG ጨምር",
+    "components__image_to_pdf__button_add_png__tooltip": "PNG በታች ጨምር",
+    "components__image_to_pdf__button_remove_png": "PNG አጥፋ",
+    "components__image_to_pdf__button_remove_png__tooltip": "PNG በታች አጥፋ",
+    "components__image_to_pdf__page_size": "ገጽ መጠን",
+    "components__image_to_pdf__image_alignment": "ምስል አልደረሰም",
+    "components__image_to_pdf__download": "ለውጥ",
+    "components__image_to_pdf__download__tooltip": "PDF አፕልን ፍጠር ያስገቡ"
   }
 }

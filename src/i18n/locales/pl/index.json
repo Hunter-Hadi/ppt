@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Scal pliki PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "Połącz wiele plików PDF w jeden za pomocą kilku kliknięć",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podziel PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Każda wybrana strona stanie się osobnym plikiem PDF. Alternatywnie, możesz połączyć wybrane strony w jeden plik PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Każda wybrana strona stanie się osobnym plikiem PDF. Alternatywnie, możesz połączyć wybrane strony w jeden plik PDF.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG do PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Połącz PDF - Łączenie plików PDF online za darmo | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Połącz pliki PDF i utwórz pojedynczy dokument online za darmo. Dzięki naszemu narzędziu do łączenia PDF-ów, scalanie PDF-ów jest łatwiejsze niż kiedykolwiek wcześniej. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
     "pdf_tools__split_pdf__title": "Podziel PDF – Oddziel strony PDF online za darmo | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Łatwo oddzielaj strony lub usuwaj strony w swoim pliku PDF online za darmo. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
+    "pdf_tools__split_pdf__description": "Łatwo oddzielaj strony lub usuwaj strony w swoim pliku PDF online za darmo. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
+    "pdf_tools__image_to_pdf__title": "PNG do PDF - Konwertuj obrazy PNG na PDF online za darmo | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Konwertuj obrazy PNG na PDF online za darmo. Każdy przesłany obraz stanie się stroną w jednym pliku PDF. Brak znaków wodnych, limitów rozmiaru pliku, pobierania ani rejestracji."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "jest zaszyfrowany lub nieprawidłowy, nie można manipulować plikiem PDF, pominięto"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Można przesyłać tylko obrazy typu PNG",
+    "components__image_to_pdf__button_add_png": "Dodaj PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Dodaj PNG poniżej",
+    "components__image_to_pdf__button_remove_png": "Usuń PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Wyczyść PNG poniżej",
+    "components__image_to_pdf__page_size": "Rozmiar strony",
+    "components__image_to_pdf__image_alignment": "Wyrównanie obrazu",
+    "components__image_to_pdf__download": "Pobierz",
+    "components__image_to_pdf__download__tooltip": "Utwórz i pobierz PDF"
   }
 }

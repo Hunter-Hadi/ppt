@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Gộp PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột",
     "tools__index_page__constant_obj__split_a_pdf__title": "Chia một PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Mỗi trang được chọn sẽ trở thành một tệp PDF riêng biệt. Hoặc bạn có thể gộp các trang đã chọn vào một tệp PDF duy nhất."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Mỗi trang được chọn sẽ trở thành một tệp PDF riêng biệt. Hoặc bạn có thể gộp các trang đã chọn vào một tệp PDF duy nhất.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG thành PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Gộp PDF - Kết hợp các tệp PDF trực tuyến miễn phí | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Kết hợp các tệp PDF và tạo một tài liệu duy nhất trực tuyến miễn phí. Với công cụ kết hợp PDF của chúng tôi, việc gộp PDF trở nên dễ dàng hơn bao giờ hết. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
     "pdf_tools__split_pdf__title": "Chia tách PDF - Tách trang PDF trực tuyến miễn phí | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Dễ dàng tách trang hoặc xóa trang trong PDF của bạn trực tuyến miễn phí. Không có dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký."
+    "pdf_tools__split_pdf__description": "Dễ dàng tách trang hoặc xóa trang trong PDF của bạn trực tuyến miễn phí. Không có dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "pdf_tools__image_to_pdf__title": "PNG thành PDF - Chuyển đổi Hình ảnh PNG thành PDF Trực tuyến Miễn phí | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Chuyển đổi hình ảnh PNG thành PDF trực tuyến miễn phí. Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "đã được mã hóa hoặc không bình thường, không thể thao tác với PDF, đã bỏ qua"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại PNG",
+    "components__image_to_pdf__button_add_png": "Thêm PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Thêm PNG bên dưới",
+    "components__image_to_pdf__button_remove_png": "Xóa PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Xóa PNG bên dưới",
+    "components__image_to_pdf__page_size": "Kích thước trang",
+    "components__image_to_pdf__image_alignment": "Căn chỉnh hình ảnh",
+    "components__image_to_pdf__download": "Tải xuống",
+    "components__image_to_pdf__download__tooltip": "Tạo và tải xuống PDF"
   }
 }

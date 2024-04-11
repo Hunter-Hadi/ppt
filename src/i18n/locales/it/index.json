@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Unisci PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "Unisci più file PDF in uno con pochi clic",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dividi un PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Ogni pagina selezionata diventerà un file PDF separato. In alternativa, puoi unire le pagine selezionate in un singolo file PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Ogni pagina selezionata diventerà un file PDF separato. In alternativa, puoi unire le pagine selezionate in un singolo file PDF.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG in PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Ogni immagine caricata diventerà una pagina in un singolo PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Unisci PDF - Combina file PDF online gratuitamente | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Combina file PDF e crea un singolo documento online gratuitamente. Con il nostro unificatore PDF, unire i PDF è più facile che mai. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
     "pdf_tools__split_pdf__title": "Dividi PDF - Separare le pagine del PDF online gratuitamente | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Separare facilmente le pagine o rimuovere pagine nel tuo PDF online gratuitamente. Nessun watermark, limite di dimensione del file, download o registrazione richiesta."
+    "pdf_tools__split_pdf__description": "Separare facilmente le pagine o rimuovere pagine nel tuo PDF online gratuitamente. Nessun watermark, limite di dimensione del file, download o registrazione richiesta.",
+    "pdf_tools__image_to_pdf__title": "PNG in PDF - Converti immagini PNG in PDF online gratuitamente | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Converti immagini PNG in PDF online gratuitamente. Ogni immagine caricata diventerà una pagina in un singolo PDF. Nessun watermark, limite di dimensione del file, download o registrazione richiesta."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "è crittografato o anomalo, impossibile manipolare il PDF, saltato"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "È possibile caricare solo immagini di tipo PNG",
+    "components__image_to_pdf__button_add_png": "Aggiungi PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Aggiungi PNG di seguito",
+    "components__image_to_pdf__button_remove_png": "Rimuovi PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Cancella il PNG di seguito",
+    "components__image_to_pdf__page_size": "Dimensione pagina",
+    "components__image_to_pdf__image_alignment": "Allineamento immagine",
+    "components__image_to_pdf__download": "Scarica",
+    "components__image_to_pdf__download__tooltip": "Crea e scarica PDF"
   }
 }

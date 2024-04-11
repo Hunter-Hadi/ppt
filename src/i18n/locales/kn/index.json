@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
     "tools__index_page__constant_obj__merge_pdfs__description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು PDF ಕಡತಗಳನ್ನು ಒಂದರಲ್ಲಿ ಸೇರಿಸಿ",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF ಅನ್ನು ವಿಭಾಗಿಸಿ",
-    "tools__index_page__constant_obj__split_a_pdf__description": "ಪ್ರತ್ಯೇಕವಾದ ಪ್ರತಿಯೊಂದು ಆಯ್ಕೆಯ ಪುಟವು ಒಂದೊಂದು ಪೀಡಿಎಫ್ ಕಡತವಾಗುತ್ತದೆ. ಅಥವಾ, ಆಯ್ಕೆಯ ಪುಟಗಳನ್ನು ಒಂದು ಏಕೀಕೃತ ಪೀಡಿಎಫ್ ಕಡತದಲ್ಲಿ ಮಿಡಿಯಬಹುದು."
+    "tools__index_page__constant_obj__split_a_pdf__description": "ಪ್ರತ್ಯೇಕವಾದ ಪ್ರತಿಯೊಂದು ಆಯ್ಕೆಯ ಪುಟವು ಒಂದೊಂದು ಪೀಡಿಎಫ್ ಕಡತವಾಗುತ್ತದೆ. ಅಥವಾ, ಆಯ್ಕೆಯ ಪುಟಗಳನ್ನು ಒಂದು ಏಕೀಕೃತ ಪೀಡಿಎಫ್ ಕಡತದಲ್ಲಿ ಮಿಡಿಯಬಹುದು.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ",
+    "tools__index_page__constant_obj__image_to_pdf__description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್‌ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ - ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದು ದಸ್ತಾವೇಜುವಾಗಿ ರಚಿಸಿ | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ ಮತ್ತು ಒಂದು ದಸ್ತಾವೇಜುವನ್ನು ರಚಿಸಿ. ನಮ್ಮ PDF ಒಂದುಗೂಡಿಸುವಿಕೆಯೊಂದಿಗೆ, PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸುವುದು ಎಂದಿಗೂ ಹೆಚ್ಚು ಸುಲಭವಾಗಿರುತ್ತದೆ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__split_pdf__title": "ಪಿಡಿಎಫ್ ವಿಭಜನೆ - ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ | MaxAI.me",
-    "pdf_tools__split_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ ಅಥವಾ ಪುಟಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಗಳೂ, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳೂ, ಡೌನ್‌ಲೋಡ್‌ಗಳೂ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳೂ ಬೇಕಾಗಿಲ್ಲ."
+    "pdf_tools__split_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ ಅಥವಾ ಪುಟಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಗಳೂ, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳೂ, ಡೌನ್‌ಲೋಡ್‌ಗಳೂ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳೂ ಬೇಕಾಗಿಲ್ಲ.",
+    "pdf_tools__image_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ PNG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "ಉಚಿತವಾಗಿ PNG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ. ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್‌ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
   },
   "features_landing": {
     "cta_text": "ಬ್ರೌಸರ್‌ಗೆ ಸೇರಿಸಿ",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "ಪಿಡಿಎಫ್ ಎನ್ಕ್ರಿಪ್ಷನ್ ಮಾಡಲಾಗಿದೆ ಅಥವಾ ಅಸಾಮಾನ್ಯ, ಪಿಡಿಎಫ್ ಮಾರ್ಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಹಾಗೂ ಹಾಲಿಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "ಅಪ್ಲೋಡ್ ಮಾಡಬಹುದಾದ ಚಿತ್ರಗಳು ಕೇವಲ PNG ಪ್ರಕಾರದವು",
+    "components__image_to_pdf__button_add_png": "PNG ಸೇರಿಸಿ",
+    "components__image_to_pdf__button_add_png__tooltip": "ಕೆಳಗೆ PNG ಸೇರಿಸಿ",
+    "components__image_to_pdf__button_remove_png": "PNG ತೆಗೆದುಹಾಕಿ",
+    "components__image_to_pdf__button_remove_png__tooltip": "ಕೆಳಗೆ ಪಿಎನ್‌ಜಿಯನ್ನು ತೆಗೆದುಹಾಕಿ",
+    "components__image_to_pdf__page_size": "ಪುಟ ಗಾತ್ರ",
+    "components__image_to_pdf__image_alignment": "ಚಿತ್ರ ಸರ್ಪಿಸುವುದು",
+    "components__image_to_pdf__download": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__image_to_pdf__download__tooltip": "ಪಿಎನ್‌ಜಿ ರಚಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ"
   }
 }

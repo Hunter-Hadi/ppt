@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Combinar PDFs",
     "tools__index_page__constant_obj__merge_pdfs__description": "Combina varios archivos PDF en uno con solo unos clics",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dividir un PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Cada página seleccionada se convertirá en un archivo PDF separado. Alternativamente, puedes combinar las páginas seleccionadas en un solo archivo PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Cada página seleccionada se convertirá en un archivo PDF separado. Alternativamente, puedes combinar las páginas seleccionadas en un solo archivo PDF.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG a PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Cada imagen cargada se convertirá en una página en un solo PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Combinar PDF: combina archivos PDF en línea de forma gratuita | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Combina archivos PDF y crea un solo documento en línea de forma gratuita. Con nuestro combinador de PDF, la fusión de PDFs es más fácil que nunca. Sin marcas de agua, límites de tamaño de archivo, descargas ni registros necesarios.",
     "pdf_tools__split_pdf__title": "Dividir PDF: Separar páginas en línea gratis | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Separa fácilmente páginas o elimina páginas de tu PDF en línea y gratis. Sin marcas de agua, límites de tamaño de archivo, descargas ni registros requeridos."
+    "pdf_tools__split_pdf__description": "Separa fácilmente páginas o elimina páginas de tu PDF en línea y gratis. Sin marcas de agua, límites de tamaño de archivo, descargas ni registros requeridos.",
+    "pdf_tools__image_to_pdf__title": "PNG a PDF - Convertir imágenes PNG a PDF en línea gratis | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Convierte imágenes PNG a PDF en línea de forma gratuita. Cada imagen cargada se convertirá en una página en un solo PDF. Sin marcas de agua, límites de tamaño de archivo, descargas o registros requeridos."
   },
   "features_landing": {
     "cta_text": "Agregar al Navegador",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "está encriptado o es anormal, no se puede manipular el PDF, omitido"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Solo se pueden cargar imágenes de tipo PNG",
+    "components__image_to_pdf__button_add_png": "Agregar PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Agregar PNG a continuación",
+    "components__image_to_pdf__button_remove_png": "Eliminar PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Borrar el PNG a continuación",
+    "components__image_to_pdf__page_size": "Tamaño de página",
+    "components__image_to_pdf__image_alignment": "Alineación de imagen",
+    "components__image_to_pdf__download": "Descargar",
+    "components__image_to_pdf__download__tooltip": "Crear y descargar PDF"
   }
 }

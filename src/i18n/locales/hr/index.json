@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Spoji PDF-ove",
     "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF datoteka u jednu s samo nekoliko klikova",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podijeli PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Svaka odabrana stranica postat će zaseban PDF datoteka. Opcionalno, možete spojiti odabrane stranice u jednu PDF datoteku."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Svaka odabrana stranica postat će zaseban PDF datoteka. Opcionalno, možete spojiti odabrane stranice u jednu PDF datoteku.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG u PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Svaka prenesena slika postat će stranica u jednom PDF-u."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Spoji PDF - Kombiniraj PDF datoteke online besplatno | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Spojite PDF datoteke i stvorite jedan dokument online besplatno. S našim alatom za spajanje PDF-a, spajanje PDF-a je lakše nego ikad. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
     "pdf_tools__split_pdf__title": "Razdvoji PDF – Odvojite stranice PDF-a online besplatno | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Lako odvojite stranice ili uklonite stranice iz vašeg PDF-a online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava."
+    "pdf_tools__split_pdf__description": "Lako odvojite stranice ili uklonite stranice iz vašeg PDF-a online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava.",
+    "pdf_tools__image_to_pdf__title": "PNG u PDF - Pretvorite PNG slike u PDF online besplatno | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Pretvorite PNG slike u PDF online besplatno. Svaka prenesena slika postat će stranica u jednom PDF-u. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava."
   },
   "features_landing": {
     "cta_text": "Dodaj u preglednik",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "je šifriran ili nepravilan, nije moguće manipulirati PDF-om, preskočeno"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Mogu se prenijeti samo slike u PNG formatu",
+    "components__image_to_pdf__button_add_png": "Dodaj PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Dodajte PNG ispod",
+    "components__image_to_pdf__button_remove_png": "Ukloni PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Očistite PNG ispod",
+    "components__image_to_pdf__page_size": "Veličina stranice",
+    "components__image_to_pdf__image_alignment": "Poravnanje slike",
+    "components__image_to_pdf__download": "Preuzmi",
+    "components__image_to_pdf__download__tooltip": "Stvorite i preuzmite PDF"
   }
 }

@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Yhdistä PDF-tiedostoja",
     "tools__index_page__constant_obj__merge_pdfs__description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella",
     "tools__index_page__constant_obj__split_a_pdf__title": "Jaa PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Jokainen valittu sivu tulee erilliseksi PDF-tiedostoksi. Vaihtoehtoisesti voit yhdistää valitut sivut yhdeksi PDF-tiedostoksi."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Jokainen valittu sivu tulee erilliseksi PDF-tiedostoksi. Vaihtoehtoisesti voit yhdistää valitut sivut yhdeksi PDF-tiedostoksi.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Yhdistä PDF – Yhdistä PDF-tiedostot verkossa ilmaiseksi | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Yhdistä PDF-tiedostot ja luo yksi asiakirja verkossa ilmaiseksi. PDF-yhdistimellämme PDF-tiedostojen yhdistäminen on helpompaa kuin koskaan. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
     "pdf_tools__split_pdf__title": "Jaa PDF – Erota PDF-sivut verkossa ilmaiseksi | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Erota helposti sivuja tai poista sivuja PDF-tiedostostasi verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita."
+    "pdf_tools__split_pdf__description": "Erota helposti sivuja tai poista sivuja PDF-tiedostostasi verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita.",
+    "pdf_tools__image_to_pdf__title": "PNG PDF - Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi. Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "on salattu tai poikkeava, PDF-tiedostoa ei voi käsitellä, ohitettu"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Vain PNG-tyyppisiä kuvia voi ladata",
+    "components__image_to_pdf__button_add_png": "Lisää PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Lisää PNG alla",
+    "components__image_to_pdf__button_remove_png": "Poista PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Tyhjennä PNG alla",
+    "components__image_to_pdf__page_size": "Sivun koko",
+    "components__image_to_pdf__image_alignment": "Kuvan tasaus",
+    "components__image_to_pdf__download": "Lataa",
+    "components__image_to_pdf__download__tooltip": "Luo ja lataa PDF"
   }
 }

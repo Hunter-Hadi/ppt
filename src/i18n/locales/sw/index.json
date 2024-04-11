@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Jumuisha PDFs",
     "tools__index_page__constant_obj__merge_pdfs__description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu",
     "tools__index_page__constant_obj__split_a_pdf__title": "Gawanya PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Kila ukurasa ulioteuliwa utakuwa faili tofauti ya PDF. Au, unaweza kuunganisha kurasa zilizochaguliwa katika faili moja ya PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Kila ukurasa ulioteuliwa utakuwa faili tofauti ya PDF. Au, unaweza kuunganisha kurasa zilizochaguliwa katika faili moja ya PDF.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG hadi PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Unganisha PDF - Jumuisha Faili za PDF Mtandaoni Bure | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Jumuisha faili za PDF na tengeneza hati moja mtandaoni bure. Kwa kutumia mchanganyiko wetu wa PDF, kuunganisha PDFs ni rahisi kuliko hapo awali. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
     "pdf_tools__split_pdf__title": "Gawanya PDF - Tenganisha Kurasa za PDF Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Tenganisha kurasa au ondoa kurasa kwenye PDF yako mtandaoni bure. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika."
+    "pdf_tools__split_pdf__description": "Tenganisha kurasa au ondoa kurasa kwenye PDF yako mtandaoni bure. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
+    "pdf_tools__image_to_pdf__title": "PNG hadi PDF - Badilisha Picha za PNG kuwa PDF Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Badilisha picha za PNG kuwa PDF mtandaoni bure. Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja. Hakuna alama ya maji, mipaka ya ukubwa wa faili, kupakua, au usajili unaohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "imefichwa au ni batili, haiwezekani kubadilisha PDF, imepuuzwa"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Inaweza kupakiwa tu picha za aina ya PNG",
+    "components__image_to_pdf__button_add_png": "Ongeza PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Ongeza PNG hapa chini",
+    "components__image_to_pdf__button_remove_png": "Ondoa PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Futa PNG hapa chini",
+    "components__image_to_pdf__page_size": "Ukubwa wa ukurasa",
+    "components__image_to_pdf__image_alignment": "Ulinganishaji wa picha",
+    "components__image_to_pdf__download": "Pakua",
+    "components__image_to_pdf__download__tooltip": "Unda na pakua PDF"
   }
 }

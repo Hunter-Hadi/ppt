@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Sulieti PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "Sulieti kelis PDF failus į vieną vos keliais paspaudimais",
     "tools__index_page__constant_obj__split_a_pdf__title": "Padalinti PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Kiekviena pasirinkta puslapis taps atskiru PDF failu. Alternatyviai, galite sujungti pasirinktus puslapius į vieną PDF failą."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Kiekviena pasirinkta puslapis taps atskiru PDF failu. Alternatyviai, galite sujungti pasirinktus puslapius į vieną PDF failą.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG į PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Kiekviena įkelta paveikslėlio bus viena puslapis PDF faile."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Sulieti PDF – Nemokamai sujunkite PDF failus | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Nemokamai sujunkite PDF failus ir sukūrkite vieną dokumentą internetu. Su mūsų PDF jungikliu, PDF failų sujungimas tapo dar lengvesnis. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
     "pdf_tools__split_pdf__title": "Padalinti PDF – Atskirti PDF puslapius internete nemokamai | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Lengvai atskirkite arba pašalinkite puslapius savo PDF dokumente internete nemokamai. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia."
+    "pdf_tools__split_pdf__description": "Lengvai atskirkite arba pašalinkite puslapius savo PDF dokumente internete nemokamai. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
+    "pdf_tools__image_to_pdf__title": "PNG į PDF - Konvertuoti PNG paveikslėlius į PDF internete nemokamai | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Konvertuoti PNG paveikslėlius į PDF internete nemokamai. Kiekviena įkelta paveikslėlio bus viena puslapis PDF faile. Nėra vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima manipuliuoti PDF, praleistas"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Galima įkelti tik PNG tipo paveikslėlius",
+    "components__image_to_pdf__button_add_png": "Pridėti PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Pridėti PNG žemiau",
+    "components__image_to_pdf__button_remove_png": "Pašalinti PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Išvalyti PNG žemiau",
+    "components__image_to_pdf__page_size": "Puslapio dydis",
+    "components__image_to_pdf__image_alignment": "Paveikslėlio lygiavimas",
+    "components__image_to_pdf__download": "Atsisiųsti",
+    "components__image_to_pdf__download__tooltip": "Sukurti ir atsisiųsti PDF"
   }
 }

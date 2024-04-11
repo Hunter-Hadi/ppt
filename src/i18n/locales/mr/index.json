@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF एकत्रीकरण",
     "tools__index_page__constant_obj__merge_pdfs__description": "केवळ काही क्लिकसह एकापेक्षा अधिक PDF फाइल्स एकत्र करा",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF विभाजित करा",
-    "tools__index_page__constant_obj__split_a_pdf__description": "प्रत्येक निवडलेल्या पृष्ठांनी स्वतंत्र PDF फाइल बनविली जाईल. वैकल्पिकपणे, आपण निवडलेल्या पृष्ठांचा एकल PDF फाइलमध्ये मर्ज करू शकता."
+    "tools__index_page__constant_obj__split_a_pdf__description": "प्रत्येक निवडलेल्या पृष्ठांनी स्वतंत्र PDF फाइल बनविली जाईल. वैकल्पिकपणे, आपण निवडलेल्या पृष्ठांचा एकल PDF फाइलमध्ये मर्ज करू शकता.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ते PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "प्रत्येक अपलोड केलेली प्रतिमा एकटा PDF मध्ये एक पृष्ठाची बनविली जाईल."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDF एकत्रीकरण - विनामूल्य ऑनलाइन PDF दस्तावेज एकत्रित करा | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "PDF फाइल एकत्रित करा आणि विनामूल्य ऑनलाइन एकटा दस्तावेज तयार करा. आमच्या PDF संयोजकासह, PDF एकत्रीकरण करणे अधिक सोपे झाले आहे. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
     "pdf_tools__split_pdf__title": "PDF विभाजित करा - मोफत ऑनलाइन पीडीएफ पृष्ठ विभाजित करा | MaxAI.me",
-    "pdf_tools__split_pdf__description": "मोफतपणे पीडीएफ पृष्ठ विभाजित करा किंवा पृष्ठ काढा. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत."
+    "pdf_tools__split_pdf__description": "मोफतपणे पीडीएफ पृष्ठ विभाजित करा किंवा पृष्ठ काढा. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
+    "pdf_tools__image_to_pdf__title": "PNG ते PDF - PNG प्रतिमा विनामूल्य ऑनलाइनपर्यंत PDF मध्ये रूपांतरण करा | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "PNG प्रतिमा विनामूल्यपणे ऑनलाइनपर्यंत PDF मध्ये रूपांतरण करा. प्रत्येक अपलोड केलेली प्रतिमा एकटा PDF मध्ये एक पृष्ठाची बनविली जाईल. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "एन्क्रिप्टेड असलेले किंवा असामान्य असलेले PDF, पीडीएफ संपादित करण्यास अक्षम, वगळले"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "केवळ PNG प्रकारची प्रतिमा अपलोड केली जाऊ शकते",
+    "components__image_to_pdf__button_add_png": "PNG जोडा",
+    "components__image_to_pdf__button_add_png__tooltip": "खालीलप्रमाणे PNG जोडा",
+    "components__image_to_pdf__button_remove_png": "PNG काढा",
+    "components__image_to_pdf__button_remove_png__tooltip": "खालीलप्रमाणे PNG काढा",
+    "components__image_to_pdf__page_size": "पृष्ठ आकार",
+    "components__image_to_pdf__image_alignment": "प्रतिमा संरेखण",
+    "components__image_to_pdf__download": "डाउनलोड करा",
+    "components__image_to_pdf__download__tooltip": "PDF तयार करा आणि डाउनलोड करा"
   }
 }

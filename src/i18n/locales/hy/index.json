@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Միացնել PDF-երը",
     "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում",
     "tools__index_page__constant_obj__split_a_pdf__title": "Փակել PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Ընտրված էջերը կդառնան առանձին PDF ֆայլեր: Այլագետներից, դուք կարող եք միավորել ընտրված էջերը մեկ PDF ֆայլում:"
+    "tools__index_page__constant_obj__split_a_pdf__description": "Ընտրված էջերը կդառնան առանձին PDF ֆայլեր: Այլագետներից, դուք կարող եք միավորել ընտրված էջերը մեկ PDF ֆայլում:",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG-ից PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ էջ մեկ PDF-ում։"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Միացնել PDF - Բեռնել PDF ֆայլերը միավորված փաստաթղթում անվճար | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Միացնեք PDF ֆայլերը և ստեղծեք մեկ միավորված փաստաթղթում անվճար։ Մեր PDF միավորողով միացնելը հեշտ է ավելի, քան երկուսների։ Առանց վաթերային նշանների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջարկների առանց։",
     "pdf_tools__split_pdf__title": "Մասնակցեք PDF-ի բաժանմանը - Առանց վատերների | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Կարողանաք շարունակել էջերը կամ հեռացնել էջերը ձեր PDF-ից անվճար օնլայն: Առանց զգալիների, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման:"
+    "pdf_tools__split_pdf__description": "Կարողանաք շարունակել էջերը կամ հեռացնել էջերը ձեր PDF-ից անվճար օնլայն: Առանց զգալիների, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման:",
+    "pdf_tools__image_to_pdf__title": "PNG-ից PDF - վերափոխել PNG պատկերները PDF-ի համար անվճար | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Վերափոխեք PNG պատկերները PDF-ի համար անվճար։ Բոլոր վերբեռնված պատկերները կդառնան մեկ էջ մեկ PDF-ում։ Առանց զգալիության, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման պահին։"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "գաղտնաբառված է կամ անվտանգության պատճենը, չի կարող վերահսկվել PDF-ն, անտեսված է"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Միայն PNG տեսակի պատկերները կարող են վերբեռնվել",
+    "components__image_to_pdf__button_add_png": "Ավելացնել PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Ավելացնել PNG-ը ստորև",
+    "components__image_to_pdf__button_remove_png": "Ջնջել PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Մաքրել PNG-ը ստորև",
+    "components__image_to_pdf__page_size": "Էջի չափսը",
+    "components__image_to_pdf__image_alignment": "Պատկերի համալիրում",
+    "components__image_to_pdf__download": "Ներբեռնել",
+    "components__image_to_pdf__download__tooltip": "Ստեղծել և ներբեռնել PDF"
   }
 }

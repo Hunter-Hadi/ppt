@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Slå sammen PDF-filer",
     "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk",
     "tools__index_page__constant_obj__split_a_pdf__title": "Del opp en PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG til PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Hver opplastet bilde blir en side i en enkelt PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Slå sammen PDF – Kombiner PDF-filer online gratis | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Kombiner PDF-filer og opprett et enkelt dokument online gratis. Med vår PDF-sammenslåing er det enklere enn noensinne å slå sammen PDF-er. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
     "pdf_tools__split_pdf__title": "Del opp PDF – Separer PDF-sider på nettet gratis | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Separer enkelt sider eller fjern sider i PDF-en din på nettet gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves."
+    "pdf_tools__split_pdf__description": "Separer enkelt sider eller fjern sider i PDF-en din på nettet gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves.",
+    "pdf_tools__image_to_pdf__title": "PNG til PDF - Konverter PNG-bilder til PDF på nettet gratis | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Konverter PNG-bilder til PDF på nettet gratis. Hver opplastet bilde blir en side i en enkelt PDF. Ingen vannmerker, filstørrelsesgrenser, nedlastinger eller påmeldinger kreves."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Bare PNG-bilder kan lastes opp",
+    "components__image_to_pdf__button_add_png": "Legg til PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Legg til PNG nedenfor",
+    "components__image_to_pdf__button_remove_png": "Fjern PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Fjern PNG-en nedenfor",
+    "components__image_to_pdf__page_size": "Sidestørrelse",
+    "components__image_to_pdf__image_alignment": "Bildejustering",
+    "components__image_to_pdf__download": "Last ned",
+    "components__image_to_pdf__download__tooltip": "Opprett og last ned PDF"
   }
 }

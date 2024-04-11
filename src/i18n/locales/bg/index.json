@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Обединяване на PDF файлове",
     "tools__index_page__constant_obj__merge_pdfs__description": "Обединете няколко PDF файла в един с няколко кликвания",
     "tools__index_page__constant_obj__split_a_pdf__title": "Разделяне на PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Всяка избрана страница ще стане отделен PDF файл. Алтернативно, можете да обедините избраните страници в един PDF файл."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Всяка избрана страница ще стане отделен PDF файл. Алтернативно, можете да обедините избраните страници в един PDF файл.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG към PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Всяка качена картинка ще стане страница в един PDF файл."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Сливане на PDF - Обединяване на PDF файлове онлайн безплатно | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Обединете PDF файлове и създайте единичен документ онлайн безплатно. С нашия PDF комбинатор, сливането на PDF файлове е по-лесно от всякога. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
     "pdf_tools__split_pdf__title": "Разделяне на PDF – Отделете страници от PDF онлайн безплатно | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Лесно отделете страници или премахнете страници от вашия PDF онлайн безплатно. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации."
+    "pdf_tools__split_pdf__description": "Лесно отделете страници или премахнете страници от вашия PDF онлайн безплатно. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации.",
+    "pdf_tools__image_to_pdf__title": "PNG към PDF - Конвертиране на PNG изображения в PDF онлайн безплатно | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Конвертирай PNG изображения в PDF онлайн безплатно. Всяка качена картинка ще стане страница в един PDF файл. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Могат да се качват само PNG изображения",
+    "components__image_to_pdf__button_add_png": "Добави PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Добави PNG по-долу",
+    "components__image_to_pdf__button_remove_png": "Премахни PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Изчисти PNG-то по-долу",
+    "components__image_to_pdf__page_size": "Размер на страницата",
+    "components__image_to_pdf__image_alignment": "Подравняване на изображението",
+    "components__image_to_pdf__download": "Изтегли",
+    "components__image_to_pdf__download__tooltip": "Създай и изтегли PDF"
   }
 }

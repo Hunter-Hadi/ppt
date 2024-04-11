@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "પીડીએફ મર્જ કરો",
     "tools__index_page__constant_obj__merge_pdfs__description": "થોડા ક્લિક્સ સાથે અનેક પીડીએફ ફાઈલોને એકમાં મર્જ કરો",
     "tools__index_page__constant_obj__split_a_pdf__title": "પીડીએફ વિભાજન",
-    "tools__index_page__constant_obj__split_a_pdf__description": "દરેક પસંદ કરેલ પૃષ્ઠ એક અલગ પીડીએફ ફાઈલ બનશે. વૈકલ્પિક રીતે, તમે પસંદ કરેલ પૃષ્ઠોને એકજ પીડીએફ ફાઈલમાં મર્જ કરી શકો છો."
+    "tools__index_page__constant_obj__split_a_pdf__description": "દરેક પસંદ કરેલ પૃષ્ઠ એક અલગ પીડીએફ ફાઈલ બનશે. વૈકલ્પિક રીતે, તમે પસંદ કરેલ પૃષ્ઠોને એકજ પીડીએફ ફાઈલમાં મર્જ કરી શકો છો.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG થી PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDF મર્જ કરો - મફત માટે ઓનલાઇન PDF ફાઈલોને એકજ કરો",
     "pdf_tools__merge_pdfs__description": "મફત માટે તમારી PDF ફાઈલોને એકજ કરો અને એકલ દસ્તાવેજ બનાવો. અમારા PDF મર્જનાર સાથે, PDF મર્જ કરવું હવે પહેલાથી પણ સરળ છે. કોઈ વોટરમાર્ક, ફાઈલ કદ મરીજ, ડાઉનલોડ્સ, અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__split_pdf__title": "PDF સ્પ્લિટ કરો - મફત ઓનલાઇન પીડીએફ પેજીઝ અલગ કરો | MaxAI.me",
-    "pdf_tools__split_pdf__description": "મફતમાં તમારા PDF પેજીઝ અલગ કરો અથવા પેજીઝ દૂર કરો. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીયાદા, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
+    "pdf_tools__split_pdf__description": "મફતમાં તમારા PDF પેજીઝ અલગ કરો અથવા પેજીઝ દૂર કરો. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીયાદા, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
+    "pdf_tools__image_to_pdf__title": "PNG થી PDF - મફત માટે PNG છબીઓને PDF માં રૂપાંતરિત કરો | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "મફત માટે PNG છબીઓને PDF માં રૂપાંતરિત કરો. દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "એન્ક્રિપ્ટ થયેલ છે અથવા અસામાન્ય છે, PDF ને સુધારવામાં અસમર્થ, છોડી દીધું"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "માત્ર PNG પ્રકારની છબીઓ અપલોડ કરી શકાય છે",
+    "components__image_to_pdf__button_add_png": "PNG ઉમેરો",
+    "components__image_to_pdf__button_add_png__tooltip": "નીચે PNG ઉમેરો",
+    "components__image_to_pdf__button_remove_png": "PNG કાઢો",
+    "components__image_to_pdf__button_remove_png__tooltip": "નીચેની PNG કાઢો",
+    "components__image_to_pdf__page_size": "પૃષ્ઠ આકાર",
+    "components__image_to_pdf__image_alignment": "છબી સારવાર",
+    "components__image_to_pdf__download": "ડાઉનલોડ કરો",
+    "components__image_to_pdf__download__tooltip": "PDF બનાવો અને ડાઉનલોડ કરો"
   }
 }

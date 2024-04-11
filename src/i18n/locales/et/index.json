@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Ühenda PDF-id",
     "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga",
     "tools__index_page__constant_obj__split_a_pdf__title": "Jaga PDF-i",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Iga valitud leht saab eraldi PDF-failiks. Võite ka valitud lehed ühendada üheks PDF-failiks."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Iga valitud leht saab eraldi PDF-failiks. Võite ka valitud lehed ühendada üheks PDF-failiks.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG PDF-iks",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Iga üles laaditud pilt saab ühe lehekülje ühes PDF-is."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Ühenda PDF – Ühenda tasuta veebis PDF failid | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Ühenda PDF failid ja loo üks dokument tasuta veebis. Meie PDF ühendajaga on PDF-ide ühendamine lihtsam kui kunagi varem. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__split_pdf__title": "Jaga PDF – Eralda PDF-i leheküljed veebis tasuta | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Lihtsalt eralda lehekülgi või eemalda lehekülgi oma PDF-ist veebis tasuta. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
+    "pdf_tools__split_pdf__description": "Lihtsalt eralda lehekülgi või eemalda lehekülgi oma PDF-ist veebis tasuta. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__image_to_pdf__title": "PNG PDF-iks - Teisenda PNG-pildid tasuta PDF-iks | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Teisenda PNG-pildid tasuta PDF-iks veebis. Iga üles laaditud pilt saab ühe lehekülje ühes PDF-is. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Ainult PNG-tüüpi pilte saab üles laadida",
+    "components__image_to_pdf__button_add_png": "Lisa PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Lisa allpool olev PNG",
+    "components__image_to_pdf__button_remove_png": "Eemalda PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Tühjenda allpool olev PNG",
+    "components__image_to_pdf__page_size": "Lehe suurus",
+    "components__image_to_pdf__image_alignment": "Pildi joondus",
+    "components__image_to_pdf__download": "Laadi alla",
+    "components__image_to_pdf__download__tooltip": "Loo ja laadi PDF alla"
   }
 }

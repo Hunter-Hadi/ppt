@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "ادغام فایل‌های PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسیم یک PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "هر صفحه انتخاب شده به یک فایل PDF جداگانه تبدیل خواهد شد. به طور جایگزین، می‌توانید صفحات انتخاب شده را در یک فایل PDF تکی ترکیب کنید."
+    "tools__index_page__constant_obj__split_a_pdf__description": "هر صفحه انتخاب شده به یک فایل PDF جداگانه تبدیل خواهد شد. به طور جایگزین، می‌توانید صفحات انتخاب شده را در یک فایل PDF تکی ترکیب کنید.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "تبدیل PNG به PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "هر تصویر آپلود شده به صفحه‌ای در یک فایل PDF تبدیل می‌شود."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "ادغام PDF - ترکیب فایل‌های PDF آنلاین رایگان | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "ترکیب فایل‌های PDF و ایجاد یک سند تکی آنلاین رایگان. با استفاده از ادغام کننده PDF ما، ترکیب PDF ها آسانتر از همیشه است. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
     "pdf_tools__split_pdf__title": "تقسیم PDF - جدا کردن صفحات PDF آنلاین به صورت رایگان | MaxAI.me",
-    "pdf_tools__split_pdf__description": "به راحتی صفحات را جدا کنید یا صفحات را از PDF خود حذف کنید به صورت آنلاین و رایگان. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام."
+    "pdf_tools__split_pdf__description": "به راحتی صفحات را جدا کنید یا صفحات را از PDF خود حذف کنید به صورت آنلاین و رایگان. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
+    "pdf_tools__image_to_pdf__title": "تبدیل PNG به PDF - تبدیل تصاویر PNG به PDF آنلاین رایگان | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "تبدیل تصاویر PNG به PDF آنلاین رایگان. هر تصویر آپلود شده به صفحه‌ای در یک فایل PDF تبدیل می‌شود. بدون نشان آب، محدودیت حجم فایل، دانلود یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "فقط تصاویر با فرمت PNG قابل آپلود هستند",
+    "components__image_to_pdf__button_add_png": "افزودن PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "افزودن PNG در زیر",
+    "components__image_to_pdf__button_remove_png": "حذف PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "پاک کردن PNG در زیر",
+    "components__image_to_pdf__page_size": "اندازه صفحه",
+    "components__image_to_pdf__image_alignment": "تراز تصویر",
+    "components__image_to_pdf__download": "دانلود",
+    "components__image_to_pdf__download__tooltip": "ساخت و دانلود PDF"
   }
 }

@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "PDFの結合",
     "tools__index_page__constant_obj__merge_pdfs__description": "数回のクリックで複数のPDFファイルを1つに結合します",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDFを分割する",
-    "tools__index_page__constant_obj__split_a_pdf__description": "選択した各ページは個別のPDFファイルになります。また、選択したページを1つのPDFファイルに結合することもできます。"
+    "tools__index_page__constant_obj__split_a_pdf__description": "選択した各ページは個別のPDFファイルになります。また、選択したページを1つのPDFファイルに結合することもできます。",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNGからPDFへ",
+    "tools__index_page__constant_obj__image_to_pdf__description": "アップロードされた各画像は、1つのPDF内のページになります。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDFを結合 - 無料でオンラインでPDFファイルを結合する | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "PDFファイルを結合して単一のドキュメントを無料で作成します。PDFコンバイナーを使用すれば、PDFの結合がこれまで以上に簡単になります。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
     "pdf_tools__split_pdf__title": "PDFを分割 - 無料でオンラインでPDFページを分離 | MaxAI.me",
-    "pdf_tools__split_pdf__description": "簡単にPDFのページを分離したり、ページを削除したりすることができます。ウォーターマークやファイルサイズの制限、ダウンロードやサインアップは必要ありません。"
+    "pdf_tools__split_pdf__description": "簡単にPDFのページを分離したり、ページを削除したりすることができます。ウォーターマークやファイルサイズの制限、ダウンロードやサインアップは必要ありません。",
+    "pdf_tools__image_to_pdf__title": "PNGからPDF - 無料でPNG画像をPDFに変換 | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "PNG画像を無料でオンラインでPDFに変換します。アップロードされた各画像は、1つのPDF内のページになります。ウォーターマーク、ファイルサイズ制限、ダウンロード、またはサインアップは必要ありません。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "PNG形式の画像のみアップロードできます",
+    "components__image_to_pdf__button_add_png": "PNGを追加",
+    "components__image_to_pdf__button_add_png__tooltip": "下にPNGを追加",
+    "components__image_to_pdf__button_remove_png": "PNGを削除",
+    "components__image_to_pdf__button_remove_png__tooltip": "下のPNGをクリア",
+    "components__image_to_pdf__page_size": "ページサイズ",
+    "components__image_to_pdf__image_alignment": "画像の配置",
+    "components__image_to_pdf__download": "ダウンロード",
+    "components__image_to_pdf__download__tooltip": "PDFを作成してダウンロード"
   }
 }

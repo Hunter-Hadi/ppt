@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Gabung PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "Gabung beberapa fail PDF menjadi satu dengan hanya beberapa klik",
     "tools__index_page__constant_obj__split_a_pdf__title": "Bahagikan PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi fail PDF yang berasingan. Sebagai alternatif, anda boleh menggabungkan halaman yang dipilih ke dalam satu fail PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi fail PDF yang berasingan. Sebagai alternatif, anda boleh menggabungkan halaman yang dipilih ke dalam satu fail PDF.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ke PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Setiap gambar yang dimuat naik akan menjadi satu halaman dalam PDF tunggal."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Gabungkan PDF - Gabungkan Fail PDF Dalam Talian secara Percuma | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Gabungkan fail PDF dan cipta dokumen tunggal dalam talian secara percuma. Dengan penggabung PDF kami, menggabungkan PDF menjadi lebih mudah dari sebelumnya. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__split_pdf__title": "Pisahkan PDF – Pisahkan Halaman PDF Secara Dalam Talian secara Percuma | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau mengeluarkan halaman dalam PDF anda secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
+    "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau mengeluarkan halaman dalam PDF anda secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__image_to_pdf__title": "PNG ke PDF - Tukar Gambar PNG ke PDF Dalam Talian Secara Percuma | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Tukar gambar PNG ke PDF dalam talian secara percuma. Setiap gambar yang dimuat naik akan menjadi satu halaman dalam PDF tunggal. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis PNG boleh dimuat naik",
+    "components__image_to_pdf__button_add_png": "Tambah PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Tambah PNG di bawah",
+    "components__image_to_pdf__button_remove_png": "Buang PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Kosongkan PNG di bawah",
+    "components__image_to_pdf__page_size": "Saiz halaman",
+    "components__image_to_pdf__image_alignment": "Penjajaran gambar",
+    "components__image_to_pdf__download": "Muat turun",
+    "components__image_to_pdf__download__tooltip": "Cipta dan muat turun PDF"
   }
 }

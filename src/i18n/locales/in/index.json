@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Gabungkan PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik",
     "tools__index_page__constant_obj__split_a_pdf__title": "Pisahkan PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi file PDF terpisah. Atau, Anda dapat menggabungkan halaman yang dipilih menjadi satu file PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi file PDF terpisah. Atau, Anda dapat menggabungkan halaman yang dipilih menjadi satu file PDF.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ke PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "Gabungkan PDF - Gabungkan File PDF Secara Online Gratis | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Gabungkan file PDF dan buat dokumen tunggal secara online dan gratis. Dengan penggabung PDF kami, menggabungkan PDF lebih mudah dari sebelumnya. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__split_pdf__title": "Pisahkan PDF – Pisahkan Halaman PDF Secara Online Gratis | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau menghapus halaman dalam PDF Anda secara online gratis. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
+    "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau menghapus halaman dalam PDF Anda secara online gratis. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "pdf_tools__image_to_pdf__title": "PNG ke PDF - Konversi Gambar PNG ke PDF Online Gratis | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "Konversi gambar PNG ke PDF secara online gratis. Setiap gambar yang diunggah akan menjadi satu halaman dalam satu PDF. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "terenkripsi atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Hanya gambar tipe PNG yang dapat diunggah",
+    "components__image_to_pdf__button_add_png": "Tambahkan PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "Tambahkan PNG di bawah",
+    "components__image_to_pdf__button_remove_png": "Hapus PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "Hapus PNG di bawah",
+    "components__image_to_pdf__page_size": "Ukuran halaman",
+    "components__image_to_pdf__image_alignment": "Penyelarasan gambar",
+    "components__image_to_pdf__download": "Unduh",
+    "components__image_to_pdf__download__tooltip": "Buat dan unduh PDF"
   }
 }

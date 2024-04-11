@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "מיזוג PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
     "tools__index_page__constant_obj__split_a_pdf__title": "לפצל PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "כל עמוד שנבחר יהפוך לקובץ PDF נפרד. באפשרותך גם למזג עמודים שנבחרו לקובץ PDF אחד."
+    "tools__index_page__constant_obj__split_a_pdf__description": "כל עמוד שנבחר יהפוך לקובץ PDF נפרד. באפשרותך גם למזג עמודים שנבחרו לקובץ PDF אחד.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG ל-PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -604,7 +606,9 @@
     "pdf_tools__merge_pdfs__title": "מיזוג PDF - שלב קבצי PDF באינטרנט בחינם | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "שלב קבצי PDF וצור מסמך אחד באינטרנט בחינם. עם המחבר שלנו ל-PDF, מיזוג PDF הפך קל יותר מתמיד. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
     "pdf_tools__split_pdf__title": "פיצול PDF – נפרד עמודי PDF באינטרנט בחינם | MaxAI.me",
-    "pdf_tools__split_pdf__description": "פיצול עמודים או הסרת עמודים ב-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות."
+    "pdf_tools__split_pdf__description": "פיצול עמודים או הסרת עמודים ב-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
+    "pdf_tools__image_to_pdf__title": "PNG ל-PDF - המרת תמונות PNG ל-PDF מקוון בחינם | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "המרת תמונות PNG ל-PDF מקוון בחינם. כל תמונה שתועלה תהפוך לדף ב-PDF אחד. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -692,5 +696,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לעבוד עם ה- PDF, דילג"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג PNG",
+    "components__image_to_pdf__button_add_png": "הוסף PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "הוסף PNG למטה",
+    "components__image_to_pdf__button_remove_png": "הסר PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "נקה את ה-PNG למטה",
+    "components__image_to_pdf__page_size": "גודל הדף",
+    "components__image_to_pdf__image_alignment": "יישור התמונה",
+    "components__image_to_pdf__download": "הורדה",
+    "components__image_to_pdf__download__tooltip": "צור והורד PDF"
   }
 }

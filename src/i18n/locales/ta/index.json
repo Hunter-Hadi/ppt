@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "பி.டி.எப்ஸ் ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
     "tools__index_page__constant_obj__merge_pdfs__description": "கிளிக்குகள் மட்டுமே பல பி.டி.எப்ஸ் கோப்புகளை ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
     "tools__index_page__constant_obj__split_a_pdf__title": "ஒரு PDF ஐ பிரிக்கவும்",
-    "tools__index_page__constant_obj__split_a_pdf__description": "தேர்ந்தெடுக்கப்பட்ட ஒவ்வொன்றும் தனி PDF கோப்பு ஆகும். அல்லது, தேர்ந்தெடுக்கப்பட்ட பக்கங்களை ஒரு தனி PDF கோப்பில் ஒன்றாக ஒன்றிடமாக்கலாம்."
+    "tools__index_page__constant_obj__split_a_pdf__description": "தேர்ந்தெடுக்கப்பட்ட ஒவ்வொன்றும் தனி PDF கோப்பு ஆகும். அல்லது, தேர்ந்தெடுக்கப்பட்ட பக்கங்களை ஒரு தனி PDF கோப்பில் ஒன்றாக ஒன்றிடமாக்கலாம்.",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG மாற்றி PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "ஒவ்வொரு பதிவையும் படத்தின் ஒரு பக்கமாக உள்ள ஒரு தனிப்பட்ட PDF ஆக மாற்றும்."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDF ஐ ஒன்றிணைத்துக் கொள்ளுங்கள் - இலவசமாக ஆன்லைனில் PDF கோப்புகளை ஒன்றிணைக்க | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "உங்கள் PDF கோப்புகளை ஒன்றிணைக்கி இலவசமாக ஒரு ஆவணத்தை உருவாக்கவும். எங்கள் PDF ஒன்றிணைப்புடன், PDF ஐ ஒன்றிணைக்கும் முதன்மையாக அதிக எளிதாக இருக்கும். வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
     "pdf_tools__split_pdf__title": "பிடிஎஃப் பிரித்துக்கொள்ளுங்கள் - இலவசமாக ஆன்லைனில் பிடிஎஃப் பக்கங்களை பிரித்துக்கொள்ளுங்கள் | MaxAI.me",
-    "pdf_tools__split_pdf__description": "இலவசமாக உங்கள் பிடிஎஃப் ஆன்லைனில் பக்கங்களை பிரித்துக்கொள்ள அல்லது பக்கங்களை நீக்குங்கள். வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
+    "pdf_tools__split_pdf__description": "இலவசமாக உங்கள் பிடிஎஃப் ஆன்லைனில் பக்கங்களை பிரித்துக்கொள்ள அல்லது பக்கங்களை நீக்குங்கள். வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
+    "pdf_tools__image_to_pdf__title": "PNG மாற்றி PDF - இலவசமாக PNG படங்களை PDF ஆக மாற்றுங்கள் | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "இலவசமாக PNG படங்களை PDF ஆக மாற்றுங்கள். ஒவ்வொரு பதிவையும் படத்தின் ஒரு பக்கமாக உள்ள ஒரு தனிப்பட்ட PDF ஆக மாற்றும். வாட்டர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "மறுக்கப்பட்டது அல்லது அஸ்திரமானது, பிடிபி செயல்படுத்த முடியாது, தவிர்க்கப்பட்டது"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "பதிவேற்றப்பட்ட பட மாதிரி PNG மட்டுமே பதிவேற்றப்படும்",
+    "components__image_to_pdf__button_add_png": "PNG சேர்க்கவும்",
+    "components__image_to_pdf__button_add_png__tooltip": "கீழே PNG சேர்க்கவும்",
+    "components__image_to_pdf__button_remove_png": "PNG அகற்றுக",
+    "components__image_to_pdf__button_remove_png__tooltip": "கீழே உள்ள PNG ஐ அழிக்கவும்",
+    "components__image_to_pdf__page_size": "பக்க அளவு",
+    "components__image_to_pdf__image_alignment": "பட சீரமைப்பு",
+    "components__image_to_pdf__download": "பதிவிறக்கம்",
+    "components__image_to_pdf__download__tooltip": "PDF ஐ உருவாக்கி பதிவிறக்கம் செய்யுங்கள்"
   }
 }

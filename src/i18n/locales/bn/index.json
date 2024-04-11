@@ -360,7 +360,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "পিডিএফ মার্জ করুন",
     "tools__index_page__constant_obj__merge_pdfs__description": "কয়েকটি ক্লিকের মাধ্যমে একটি পিডিএফ ফাইলে একত্রিত করুন",
     "tools__index_page__constant_obj__split_a_pdf__title": "একটি PDF ভাঙ্গো",
-    "tools__index_page__constant_obj__split_a_pdf__description": "প্রতিটি নির্বাচিত পৃষ্ঠা একটি আলাদা PDF ফাইল হবে। অথবা, আপনি নির্বাচিত পৃষ্ঠাগুলি একটি একক PDF ফাইলে মার্জ করতে পারেন।"
+    "tools__index_page__constant_obj__split_a_pdf__description": "প্রতিটি নির্বাচিত পৃষ্ঠা একটি আলাদা PDF ফাইল হবে। অথবা, আপনি নির্বাচিত পৃষ্ঠাগুলি একটি একক PDF ফাইলে মার্জ করতে পারেন।",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG থেকে PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "প্রতিটি আপলোড করা ইমেজ একটি পৃষ্ঠায় পরিণত হবে একটি একক PDF এ।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "PDF মার্জ করুন - ফ্রি অনলাইনে যেকোনো PDF ফাইল একত্রিত করুন | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "ফ্রি অনলাইনে আপনার PDF ফাইলগুলি মার্জ করে একটি একক ডকুমেন্ট তৈরি করুন। আমাদের PDF মার্জার দিয়ে, PDF মার্জ করা অনেক সহজ। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
     "pdf_tools__split_pdf__title": "পিডিএফ বিভাজন করুন - মান্যতামূলক অনলাইনে পিডিএফ পৃষ্ঠা আলাদা করুন | MaxAI.me",
-    "pdf_tools__split_pdf__description": "সহজেই আপনার পিডিএফ থেকে পৃষ্ঠা আলাদা করুন বা পৃষ্ঠা সরান মান্যতামূলক অনলাইনে। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।"
+    "pdf_tools__split_pdf__description": "সহজেই আপনার পিডিএফ থেকে পৃষ্ঠা আলাদা করুন বা পৃষ্ঠা সরান মান্যতামূলক অনলাইনে। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
+    "pdf_tools__image_to_pdf__title": "PNG থেকে PDF - ফ্রি অনলাইনে PNG ইমেজগুলি পরিণত করুন PDF-এ | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "ফ্রি অনলাইনে PNG ইমেজগুলি পরিণত করুন PDF-এ। প্রতিটি আপলোড করা ইমেজ একটি পৃষ্ঠায় পরিণত হবে একটি একক PDF এ। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।"
   },
   "features_landing": {
     "cta_text": "ব্রাউজারে যোগ করুন",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "এনক্রিপ্ট বা অস্বাভাবিক, পিডিএফ সংশোধন করতে অক্ষম, এই পাস করা হয়েছে"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "শুধুমাত্র PNG টাইপের ইমেজ আপলোড করা যাবে",
+    "components__image_to_pdf__button_add_png": "PNG যোগ করুন",
+    "components__image_to_pdf__button_add_png__tooltip": "নীচে PNG যোগ করুন",
+    "components__image_to_pdf__button_remove_png": "PNG সরান",
+    "components__image_to_pdf__button_remove_png__tooltip": "নীচের PNG মুছুন",
+    "components__image_to_pdf__page_size": "পৃষ্ঠার আকার",
+    "components__image_to_pdf__image_alignment": "ইমেজ সারিবদ্ধতা",
+    "components__image_to_pdf__download": "ডাউনলোড করুন",
+    "components__image_to_pdf__download__tooltip": "PDF তৈরি করুন এবং ডাউনলোড করুন"
   }
 }

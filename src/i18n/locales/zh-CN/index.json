@@ -346,7 +346,9 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "合并PDF",
     "tools__index_page__constant_obj__merge_pdfs__description": "只需点击几下，将多个PDF文件合并为一个",
     "tools__index_page__constant_obj__split_a_pdf__title": "拆分PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "每个选定的页面将成为一个单独的PDF文件。或者，您可以将选定的页面合并为一个PDF文件。"
+    "tools__index_page__constant_obj__split_a_pdf__description": "每个选定的页面将成为一个单独的PDF文件。或者，您可以将选定的页面合并为一个PDF文件。",
+    "tools__index_page__constant_obj__image_to_pdf__title": "PNG转PDF",
+    "tools__index_page__constant_obj__image_to_pdf__description": "每个上传的图像将成为单个PDF中的一页。"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -605,7 +607,9 @@
     "pdf_tools__merge_pdfs__title": "合并PDF - 在线免费合并PDF文件 | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "在线免费合并PDF文件，创建一个单一的文档。使用我们的PDF合并工具，合并PDF文件变得比以往更容易。无需水印、文件大小限制、下载或注册。",
     "pdf_tools__split_pdf__title": "拆分PDF - 在线免费分离PDF页面 | MaxAI.me",
-    "pdf_tools__split_pdf__description": "轻松在网上免费分离PDF页面或删除页面。无水印、文件大小限制、下载或注册要求。"
+    "pdf_tools__split_pdf__description": "轻松在网上免费分离PDF页面或删除页面。无水印、文件大小限制、下载或注册要求。",
+    "pdf_tools__image_to_pdf__title": "PNG转PDF - 免费在线将PNG图像转换为PDF | MaxAI.me",
+    "pdf_tools__image_to_pdf__description": "免费在线将PNG图像转换为PDF。每个上传的图像将成为单个PDF中的一页。无水印、文件大小限制、下载或注册要求。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "点击上传或拖放",
@@ -693,5 +697,16 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "只能上传PNG类型的图像",
+    "components__image_to_pdf__button_add_png": "添加PNG",
+    "components__image_to_pdf__button_add_png__tooltip": "在下方添加PNG",
+    "components__image_to_pdf__button_remove_png": "移除PNG",
+    "components__image_to_pdf__button_remove_png__tooltip": "清除下方的PNG",
+    "components__image_to_pdf__page_size": "页面尺寸",
+    "components__image_to_pdf__image_alignment": "图像对齐",
+    "components__image_to_pdf__download": "下载",
+    "components__image_to_pdf__download__tooltip": "创建并下载PDF"
   }
 }
