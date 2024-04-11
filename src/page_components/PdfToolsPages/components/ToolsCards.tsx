@@ -16,7 +16,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
   return (
     <Grid
       sx={{
-        pb: 5,
+        py: 5,
       }}
       container
       spacing={5}

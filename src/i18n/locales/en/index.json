@@ -388,18 +388,30 @@
 
     "tools__index_page__title": "MaxAI Tools",
     "tools__index_page__description": "All PDF tools are 100% FREE and run in your browser for complete privacy",
+
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Export each PDF page as a PNG image or extract individual images from the PDF to PNGs",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Export each PDF page as a PNG image or extract individual images from the PDF to PNGs",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Export each PDF page as a PNG image or extract individual images from the PDF to PNGs",
+
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Export each page as a JPEG or extract individual images from the PDF to JPEGs",
+
     "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Merge any amount of PDFs in the order you choose into a single PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Merge multiple PDF files into one with just a few clicks",
+
     "tools__index_page__constant_obj__split_a_pdf__title": "Split a PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Each selected page will become a separate PDF file. Alternatively, you can merge selected pages into a single PDF file.",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Split a PDF's pages into multiple PDFs or simply remove pages from an existing one",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Split a PDF's pages into multiple PDFs or simply remove pages from an existing one.",
+
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG to PDF",
-    "tools__index_page__constant_obj__png_to_pdf__description": "Each uploaded image will become a page in a single PDF.",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Convert PNG images to PDF online",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF.",
+
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG to PDF",
-    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Each uploaded image will become a page in a single PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Convert JEPG images to PDF online",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF."
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",

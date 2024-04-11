@@ -86,7 +86,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       >
         <ToolsBanner
           title={currentToolData.title}
-          description={currentToolData.description}
+          description={currentToolData.secondaryDescription}
         />
         <Suspense fallback={<AppLoadingLayout loading />}>
           {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (

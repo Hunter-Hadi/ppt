@@ -360,17 +360,23 @@
     "tools__index_page__title": "Công cụ MaxAI",
     "tools__index_page__description": "Tất cả các công cụ PDF đều MIỄN PHÍ 100% và chạy trên trình duyệt của bạn để bảo mật hoàn toàn",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF sang PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Xuất mỗi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành các file PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF sang JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Xuất mỗi trang PDF thành hình ảnh JPEG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành các file JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Gộp PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Gộp nhiều tệp PDF thành một chỉ với vài cú nhấp chuột",
     "tools__index_page__constant_obj__split_a_pdf__title": "Chia một PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Mỗi trang được chọn sẽ trở thành một tệp PDF riêng biệt. Hoặc bạn có thể gộp các trang đã chọn vào một tệp PDF duy nhất.",
     "tools__index_page__constant_obj__png_to_pdf__title": "Chuyển đổi PNG sang PDF",
-    "tools__index_page__constant_obj__png_to_pdf__description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất.",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "Chuyển đổi JPEG sang PDF",
-    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất."
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Xuất mỗi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Xuất mỗi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Xuất mỗi trang PDF thành hình ảnh JPEG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Xuất mỗi trang thành JPEG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Hợp nhất bất kỳ số lượng PDF nào theo thứ tự bạn chọn thành một PDF duy nhất",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Hợp nhất nhiều tệp PDF thành một chỉ với vài cú nhấp chuột",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Chia trang PDF thành nhiều PDF hoặc đơn giản là xóa trang khỏi PDF hiện có",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Chia trang PDF thành nhiều PDF hoặc đơn giản là xóa trang khỏi PDF hiện có",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Chuyển đổi hình ảnh PNG thành PDF trực tuyến",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Chuyển đổi hình ảnh JPEG thành PDF trực tuyến",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -686,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Thêm PDF",
     "components__pdf_merge__empty_pdf": "Xóa PDF",
     "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
-    "components__pdf_merge__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả",
     "components__pdf_merge__button__download__tooltip": "Gộp và tải xuống PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Xóa tất cả các PDF bên dưới",
     "components__pdf_merge__button__add_pdfs__tooltip": "Thêm tệp PDF bên dưới"
@@ -698,7 +703,6 @@
     "components__pdf_split__select_all": "Chọn tất cả",
     "components__pdf_split__deselect_all": "Bỏ chọn tất cả",
     "components__pdf_split__confirm_split": "Xác nhận để chia nhỏ",
-    "components__pdf_split__pdf_dropping": "Bạn có thể điều chỉnh thứ tự PDF bằng cách kéo và thả",
     "components__pdf_split__is_single_pdf": "Gộp các trang đã chọn thành một tệp PDF duy nhất",
     "components__pdf_split__cancel": "Hủy",
     "components__pdf_split__error_maximum": "Không thể chia nhỏ tệp PDF, Vượt quá số lượng tối đa",
@@ -709,7 +713,8 @@
     "components__pdf_split__button__cancel__tooltip": "Hủy tiến trình hiện tại"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "đã được mã hóa hoặc không bình thường, không thể thao tác với PDF, đã bỏ qua"
+    "components__common__pdf_encryption_tip": "đã được mã hóa hoặc không bình thường, không thể thao tác với PDF, đã bỏ qua",
+    "components__common__drag__dropping_tip": "Bạn có thể điều chỉnh thứ tự bằng cách kéo và thả"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại hình ảnh",
@@ -720,6 +725,9 @@
     "components__image_to_pdf__page_size": "Kích thước trang",
     "components__image_to_pdf__image_alignment": "Căn chỉnh hình ảnh",
     "components__image_to_pdf__download": "Tải xuống",
-    "components__image_to_pdf__download__tooltip": "Tạo và tải xuống PDF"
+    "components__image_to_pdf__download__tooltip": "Tạo và tải xuống PDF",
+    "components__image_to_pdf__position_middle": "Giữa",
+    "components__image_to_pdf__position_top": "Trên cùng",
+    "components__image_to_pdf__position_bottom": "Dưới cùng"
   }
 }

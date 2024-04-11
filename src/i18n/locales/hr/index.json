@@ -360,17 +360,23 @@
     "tools__index_page__title": "MaxAI Alati",
     "tools__index_page__description": "Svi PDF alati su 100% BESPLATNI i pokreću se u vašem pregledniku za potpunu privatnost",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF u PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Izvezi svaku stranicu PDF-a kao PNG sliku ili izdvoji pojedinačne slike iz PDF-a u PNG formatu",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF u JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Izvezi svaku stranicu PDF-a kao JPEG sliku ili izdvoji pojedinačne slike iz PDF-a u JPEG formatu",
     "tools__index_page__constant_obj__merge_pdfs__title": "Spoji PDF-ove",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF datoteka u jednu s samo nekoliko klikova",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podijeli PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Svaka odabrana stranica postat će zaseban PDF datoteka. Opcionalno, možete spojiti odabrane stranice u jednu PDF datoteku.",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG u PDF",
-    "tools__index_page__constant_obj__png_to_pdf__description": "Svaka prenesena slika postat će stranica u jednom PDF-u.",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG u PDF",
-    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Svaka prenesena slika postat će stranica u jednom PDF-u."
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Izvezi svaku stranicu PDF-a kao PNG sliku ili izdvoji pojedinačne slike iz PDF-a u PNG formatu",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Izvezi svaku stranicu PDF-a kao PNG sliku ili izdvoji pojedinačne slike iz PDF-a u PNG formatu",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Izvezi svaku stranicu PDF-a kao JPEG sliku ili izdvoji pojedinačne slike iz PDF-a u JPEG formatu",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Izvezi svaku stranicu kao JPEG ili izdvoji pojedinačne slike iz PDF-a u JPEG formatu",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Spoji bilo koji broj PDF-ova prema odabranom redoslijedu u jedan PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Spoji više PDF datoteka u jednu uz samo nekoliko klikova",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Podijeli stranice PDF-a u više PDF-ova ili jednostavno ukloni stranice iz postojećeg",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Podijeli stranice PDF-a u više PDF-ova ili jednostavno ukloni stranice iz postojećeg",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Pretvori PNG slike u PDF online",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Svaka prenesena slika postat će stranica u jednom PDF-u",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Pretvori JPEG slike u PDF online",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Svaka prenesena slika postat će stranica u jednom PDF-u"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",
@@ -686,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
     "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
-    "components__pdf_merge__pdf_dropping": "Možete prilagoditi redoslijed PDF-a povlačenjem i ispuštanjem",
     "components__pdf_merge__button__download__tooltip": "Spoji i preuzmi PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Očisti sve PDF-ove ispod",
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteku ispod"
@@ -698,7 +703,6 @@
     "components__pdf_split__select_all": "Odaberi sve",
     "components__pdf_split__deselect_all": "Poništi odabir svih",
     "components__pdf_split__confirm_split": "Potvrdi razdvajanje",
-    "components__pdf_split__pdf_dropping": "Možete prilagoditi redoslijed PDF-a povlačenjem i ispuštanjem",
     "components__pdf_split__is_single_pdf": "Spoji odabrane stranice u jedan PDF",
     "components__pdf_split__cancel": "Odustani",
     "components__pdf_split__error_maximum": "Neuspjelo razdvajanje PDF datoteka, premašen je maksimalni broj",
@@ -709,7 +713,8 @@
     "components__pdf_split__button__cancel__tooltip": "Otkaži trenutni postupak"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "je šifriran ili nepravilan, nije moguće manipulirati PDF-om, preskočeno"
+    "components__common__pdf_encryption_tip": "je šifriran ili nepravilan, nije moguće manipulirati PDF-om, preskočeno",
+    "components__common__drag__dropping_tip": "Možete prilagoditi redoslijed povlačenjem i ispuštanjem"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Samo slike tipa slike mogu se prenijeti",
@@ -720,6 +725,9 @@
     "components__image_to_pdf__page_size": "Veličina stranice",
     "components__image_to_pdf__image_alignment": "Poravnanje slike",
     "components__image_to_pdf__download": "Preuzmi",
-    "components__image_to_pdf__download__tooltip": "Kreirajte i preuzmite PDF"
+    "components__image_to_pdf__download__tooltip": "Kreirajte i preuzmite PDF",
+    "components__image_to_pdf__position_middle": "Sredina",
+    "components__image_to_pdf__position_top": "Vrh",
+    "components__image_to_pdf__position_bottom": "Dno"
   }
 }
