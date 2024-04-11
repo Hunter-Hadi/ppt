@@ -76,7 +76,10 @@ interface IFunctionalityCommonDragSortableListProps<T> {
 /**
  *
  * FunctionalityImageList带有拖拽排序列表功能。
- * list:只限制了需要id字段。
+ * @Param list  通过泛型只限制了需要id字段。
+ * @Param onUpdateList 更新list排序
+ * @param replacementElement 拖拽时替换的元素，如果不传则使用children
+ *@param  children 列表元素视图，会传入data.index.currentDragInfo
  */
 const FunctionalityCommonDragSortableList = <T,>({
   list,

@@ -11,7 +11,7 @@ import FunctionalityCommonIcon, {
   IFunctionalityIconProps,
 } from './FunctionalityCommonIcon';
 import FunctionalityCommonTooltip from './FunctionalityCommonTooltip';
-type IBtnProps = ButtonProps & {
+type IButtonProps = ButtonProps & {
   children: React.ReactNode;
   tooltip?: string;
   tooltipKey?: number | string;
@@ -19,7 +19,7 @@ type IBtnProps = ButtonProps & {
 export type IButtonConfig = {
   type: 'button' | 'icons' | 'upload';
   isShow?: boolean;
-  buttonProps?: IBtnProps;
+  buttonProps?: IButtonProps;
   iconPropsList?: ({
     name: string;
     tooltip?: string;
@@ -31,16 +31,16 @@ export type IButtonConfig = {
   };
 };
 
-type FunctionalityCommonButtonListViewProps = {
+type IFunctionalityCommonButtonListViewProps = {
   buttonConfigs: IButtonConfig[];
 };
 /**
- * 公共按钮列表组件 作用是把重复的按钮组件抽离出来，统一高度大小和样式
+ * 公共按钮列表组件 作用是把需要重复的按钮视图组件抽离出来，统一高度大小和样式和管理，以及更好的可视化
  */
 export const FunctionalityCommonButtonListView: React.FC<
-  FunctionalityCommonButtonListViewProps
+  IFunctionalityCommonButtonListViewProps
 > = ({ buttonConfigs }) => {
-  const getButtonProps = (params: IBtnProps | undefined) => {
+  const getButtonProps = (params: IButtonProps | undefined) => {
     if (params) {
       const { tooltip, tooltipKey, ...buttonProps } = params;
       return buttonProps;
@@ -102,7 +102,7 @@ export const FunctionalityCommonButtonListView: React.FC<
                         <FunctionalityCommonIcon
                           sx={{
                             cursor: 'pointer',
-                            fontSize: 35,
+                            fontSize: 36,
                           }}
                           {...iconProps}
                         />

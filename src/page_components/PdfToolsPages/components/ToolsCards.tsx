@@ -52,13 +52,14 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                 <CardContent style={{ padding: 20 }}>
                   <ToolsIcon
                     name={toolData.icon}
-                    sx={{ color: 'primary.main' }}
+                    sx={{ color: 'primary.main', fontSize: 30 }}
                   />
                   <Typography
                     sx={{
                       fontSize: {
-                        xs: 12,
-                        lg: 16,
+                        xs: 16,
+                        lg: 20,
+                        fontWeight: 600,
                       },
                       mt: 1,
                     }}

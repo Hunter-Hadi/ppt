@@ -194,7 +194,7 @@ const FunctionalityPdfToImageDetail: FC<
           ),
           sx: {
             color: 'primary.main',
-            fontSize: 35,
+            fontSize: 34,
           },
         },
         {
@@ -206,7 +206,7 @@ const FunctionalityPdfToImageDetail: FC<
           sx: {
             color: 'primary.main',
             marginLeft: 1,
-            fontSize: 35,
+            fontSize: 34,
           },
         },
       ],

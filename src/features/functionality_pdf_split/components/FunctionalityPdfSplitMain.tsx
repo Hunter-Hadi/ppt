@@ -194,7 +194,7 @@ export const FunctionalityPdfSplitMain = () => {
           ),
           sx: {
             color: 'primary.main',
-            fontSize: 35,
+            fontSize: 34,
           },
         },
         {
@@ -206,7 +206,7 @@ export const FunctionalityPdfSplitMain = () => {
           sx: {
             color: 'primary.main',
             marginLeft: 1,
-            fontSize: 35,
+            fontSize: 34,
           },
         },
       ],
