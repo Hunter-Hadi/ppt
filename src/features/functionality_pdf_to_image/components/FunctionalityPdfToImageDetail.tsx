@@ -28,7 +28,7 @@ const FunctionalityPdfToImageDetail: FC<
   const { t } = useTranslation();
 
   const [showPdfImagesType, setShowPdfImagesType] = useState<
-    'pdfPageImages' | 'padPageHaveImages'
+    'pdfPageImages' | 'pdfPageHaveImages'
   >('pdfPageImages'); //显示pdf页面还是页面的图片
   const [selectDownloadSizeIndex, setSelectDownloadSizeIndex] =
     useState<number>(0); //用户选择的下载尺寸大小
@@ -93,7 +93,7 @@ const FunctionalityPdfToImageDetail: FC<
 
   const onSwitchPdfImagesType = () => {
     setShowPdfImagesType((prev) =>
-      prev === 'pdfPageImages' ? 'padPageHaveImages' : 'pdfPageImages',
+      prev === 'pdfPageImages' ? 'pdfPageHaveImages' : 'pdfPageImages',
     );
   };
 
@@ -184,18 +184,14 @@ const FunctionalityPdfToImageDetail: FC<
     },
     {
       isShow: !isLoading,
-      type: 'icons',
-      iconPropsList: [
+      type: 'iconButton',
+      iconButtonProps: [
         {
           name: 'ControlPointTwoTone',
           onClick: () => changeScale('enlarge'),
           tooltip: t(
             'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
           ),
-          sx: {
-            color: 'primary.main',
-            fontSize: 34,
-          },
         },
         {
           name: 'RemoveCircleTwoTone',
@@ -204,9 +200,7 @@ const FunctionalityPdfToImageDetail: FC<
             'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
           ),
           sx: {
-            color: 'primary.main',
             marginLeft: 1,
-            fontSize: 34,
           },
         },
       ],
@@ -245,7 +239,7 @@ const FunctionalityPdfToImageDetail: FC<
             scale={currentScale}
           />
         )}
-        {showPdfImagesType === 'padPageHaveImages' &&
+        {showPdfImagesType === 'pdfPageHaveImages' &&
           currentShowImages?.length === 0 && (
             <Box
               sx={{

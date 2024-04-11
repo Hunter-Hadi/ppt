@@ -1,3 +1,4 @@
+import { IconButton, IconButtonProps } from '@mui/material';
 import Box from '@mui/material/Box';
 import Button, { ButtonProps } from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
@@ -7,9 +8,7 @@ import UploadButton, {
   IUploadButtonProps,
 } from '@/features/common/components/UploadButton';
 
-import FunctionalityCommonIcon, {
-  IFunctionalityIconProps,
-} from './FunctionalityCommonIcon';
+import FunctionalityCommonIcon from './FunctionalityCommonIcon';
 import FunctionalityCommonTooltip from './FunctionalityCommonTooltip';
 type IButtonProps = ButtonProps & {
   children: React.ReactNode;
@@ -17,14 +16,13 @@ type IButtonProps = ButtonProps & {
   tooltipKey?: number | string;
 };
 export type IButtonConfig = {
-  type: 'button' | 'icons' | 'upload';
+  type: 'button' | 'iconButton' | 'upload';
   isShow?: boolean;
   buttonProps?: IButtonProps;
-  iconPropsList?: ({
+  iconButtonProps?: ({
     name: string;
     tooltip?: string;
-    onClick: () => void;
-  } & IFunctionalityIconProps)[];
+  } & IconButtonProps)[];
   uploadProps?: IUploadButtonProps & {
     children: React.ReactNode;
     tooltip?: string;
@@ -64,7 +62,7 @@ export const FunctionalityCommonButtonListView: React.FC<
             key={index}
             xs={6}
             md={2}
-            display={config.type === 'icons' ? 'flex' : 'block'}
+            display={config.type === 'iconButton' ? 'flex' : 'block'}
           >
             <React.Fragment>
               {config.type === 'button' && (
@@ -85,28 +83,21 @@ export const FunctionalityCommonButtonListView: React.FC<
                   />
                 </FunctionalityCommonTooltip>
               )}
-              {config.type === 'icons' &&
-                config.iconPropsList?.map(
-                  ({ onClick, tooltip, ...iconProps }, index) => (
+              {config.type === 'iconButton' &&
+                config.iconButtonProps?.map(
+                  ({ name, tooltip, ...iconProps }, index) => (
                     <FunctionalityCommonTooltip
                       key={index}
                       title={tooltip || ''}
                     >
-                      <Box
-                        sx={{
-                          height: 35,
-                          cursor: 'pointer',
-                        }}
-                        onClick={onClick}
-                      >
+                      <IconButton color='primary' {...iconProps}>
                         <FunctionalityCommonIcon
                           sx={{
-                            cursor: 'pointer',
-                            fontSize: 36,
+                            fontSize: 34,
                           }}
-                          {...iconProps}
+                          name={name}
                         />
-                      </Box>
+                      </IconButton>
                     </FunctionalityCommonTooltip>
                   ),
                 )}

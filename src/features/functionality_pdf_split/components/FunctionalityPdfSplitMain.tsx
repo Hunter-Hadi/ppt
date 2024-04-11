@@ -35,6 +35,7 @@ export const FunctionalityPdfSplitMain = () => {
     onCancelPdfActive,
     pdfTotalPages,
     currentPdfActionNum,
+    setPdfTotalPages,
   } = useFunctionalityCommonPdfToImageConversion();
   const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
@@ -70,6 +71,7 @@ export const FunctionalityPdfSplitMain = () => {
   };
   const confirmToSplit = async () => {
     setIsLoading(true);
+    setPdfTotalPages(0);
     const splitPdfList = convertedPdfImages.filter((item) => item.isSelect);
     if (splitPdfList.length > 0) {
       console.log('simply confirmToSplit', isMergeSinglePDf);
@@ -183,19 +185,28 @@ export const FunctionalityPdfSplitMain = () => {
       },
     },
     {
+      isShow: currentIsLoading,
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
+        ),
+        children: t('functionality__pdf_split:components__pdf_split__cancel'),
+        variant: 'outlined',
+        color: 'error',
+        onClick: () => onCancelPdfActive(),
+      },
+    },
+    {
       isShow: !currentIsLoading,
-      type: 'icons',
-      iconPropsList: [
+      type: 'iconButton',
+      iconButtonProps: [
         {
           name: 'ControlPointTwoTone',
           onClick: () => changeScale('enlarge'),
           tooltip: t(
             'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
           ),
-          sx: {
-            color: 'primary.main',
-            fontSize: 34,
-          },
         },
         {
           name: 'RemoveCircleTwoTone',
@@ -204,9 +215,7 @@ export const FunctionalityPdfSplitMain = () => {
             'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
           ),
           sx: {
-            color: 'primary.main',
             marginLeft: 1,
-            fontSize: 34,
           },
         },
       ],
@@ -254,22 +263,21 @@ export const FunctionalityPdfSplitMain = () => {
                 key={imageInfo.id}
                 name={String(index + 1)}
                 imageInfo={imageInfo}
-                imageSize={currentScale * 50}
                 onClick={() => onSwitchSelect(imageInfo.id)}
-                rightTopChildren={
-                  !currentIsLoading && (
-                    <Box
-                      sx={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                      }}
-                    >
-                      <Checkbox checked={imageInfo.isSelect} />
-                    </Box>
-                  )
-                }
-              />
+                wrapSx={{
+                  width: currentScale * 50,
+                }}
+              >
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    top: 0,
+                    right: 0,
+                  }}
+                >
+                  <Checkbox checked={imageInfo.isSelect} />
+                </Box>
+              </FunctionalityCommonImage>
             ))}
           {currentIsLoading && (
             <Box

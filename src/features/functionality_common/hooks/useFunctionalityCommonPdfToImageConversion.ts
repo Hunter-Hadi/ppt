@@ -161,6 +161,7 @@ const useFunctionalityCommonPdfToImageConversion = () => {
     onCancelPdfActive,
     pdfViewDefaultSize,
     setPdfPageHaveImages,
+    setPdfTotalPages
   };
 };
 

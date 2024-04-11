@@ -1,4 +1,4 @@
-import { Box, Button, Grid } from '@mui/material';
+import { Box, Button, Grid, IconButton } from '@mui/material';
 import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
@@ -257,7 +257,12 @@ const FunctionalityPdfMergeMain = () => {
               onUpdateList={setPdfInfoList}
               replacementElement={(dragInfo) => (
                 <FunctionalityCommonImage
-                  isShowBackgroundColor={false}
+                  sx={{
+                    bgcolor: 'transparent',
+                    '&:hover': {
+                      bgcolor: 'transparent',
+                    },
+                  }}
                   imageInfo={dragInfo}
                 />
               )}
@@ -273,29 +278,40 @@ const FunctionalityPdfMergeMain = () => {
                     key={imageInfo.id}
                     name={String(index + 1)}
                     imageInfo={imageInfo}
-                    isActive={currentDragInfo?.id === imageInfo.id}
-                    rightTopChildren={
-                      !currentDragInfo ? (
-                        <Box
-                          sx={{
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            backgroundColor: '#d1d5db',
-                            borderRadius: 5,
-                          }}
+                    sx={{
+                      border:
+                        currentDragInfo?.id === imageInfo.id
+                          ? '1px dashed #64467b'
+                          : 'none',
+                    }}
+                    imgStyle={{
+                      opacity: currentDragInfo?.id === imageInfo.id ? 0 : 1,
+                    }}
+                  >
+                    {!currentDragInfo ? (
+                      <Box
+                        sx={{
+                          position: 'absolute',
+                          top: 0,
+                          right: 0,
+                        }}
+                      >
+                        <IconButton
+                          size='small'
                           onClick={() => onDeletePdf(imageInfo.id)}
                         >
                           <FunctionalityCommonIcon
                             name='CloseTwoTone'
+                            fontSize='small'
                             sx={{
-                              fontSize: 18,
+                              bgcolor: '#d1d5db',
+                              borderRadius: 3,
                             }}
                           />
-                        </Box>
-                      ) : null
-                    }
-                  />
+                        </IconButton>
+                      </Box>
+                    ) : null}
+                  </FunctionalityCommonImage>
                 </FunctionalityCommonTooltip>
               )}
             </FunctionalityCommonDragSortableList>

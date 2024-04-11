@@ -19,7 +19,6 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   scale = 2,
   onClickImage,
 }) => {
-  let imageSize = scale * 50;
   return (
     <Grid
       container
@@ -37,23 +36,23 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
           key={imageInfo.id}
           name={String(index + 1)}
           imageInfo={imageInfo}
-          imageSize={imageSize}
+          wrapSx={{
+            width: scale * 50,
+          }}
           onClick={() => onClickImage(imageInfo)}
-          rightTopChildren={
+        >
+          {
             <Box
               sx={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                backgroundColor: '#d1d5db',
-                width: 20,
-                height: 20,
+                position: 'absolute',
+                top: 0,
+                right: 0,
               }}
             >
               <Checkbox checked={imageInfo.isSelect} />
             </Box>
           }
-        />
+        </FunctionalityCommonImage>
       ))}
     </Grid>
   );

@@ -133,7 +133,7 @@ const FunctionalityCommonDragSortableList = <T extends {}>({
       onDragEnd={handleDragUpdateList}
     >
       <SortableContext items={list} strategy={verticalListSortingStrategy}>
-        <Grid container item justifyContent='center' my={3} gap={2}>
+        <Grid container justifyContent='center' my={3} gap={2}>
           {list.map((imageInfo, index) => (
             <FunctionalitySortableItem
               key={imageInfo.id}
