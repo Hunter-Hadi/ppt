@@ -75,7 +75,8 @@ interface IFunctionalityCommonDragSortableListProps<T> {
 
 /**
  *
- * FunctionalityImageList带有拖拽排序列表功能
+ * FunctionalityImageList带有拖拽排序列表功能。
+ * list:只限制了需要id字段。
  */
 const FunctionalityCommonDragSortableList = <T,>({
   list,

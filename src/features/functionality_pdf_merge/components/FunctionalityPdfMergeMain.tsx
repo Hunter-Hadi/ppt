@@ -1,4 +1,6 @@
 import { Box, Button, Grid } from '@mui/material';
+import ceil from 'lodash-es/ceil';
+import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
 import React, { useState } from 'react';
@@ -10,11 +12,13 @@ import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
+import FunctionalityCommonDragSortableList from '@/features/functionality_common/components/FunctionalityCommonDragSortableList';
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import FunctionalityDragSortableImageList from '@/features/functionality_pdf_merge/components/FunctionalityDragSortableImageList';
 import snackNotifications from '@/utils/globalSnackbar';
 export type IFunctionalityPdfFileInfoType = IFunctionalityCommonImageInfo & {
   name: string;
@@ -248,13 +252,53 @@ const FunctionalityPdfMergeMain = () => {
           }}
         >
           {!isListEmpty && !isLoading && (
-            <FunctionalityDragSortableImageList
-              imageList={pdfInfoList}
-              onDelete={onDeletePdf}
-              isShowOperate={!isLoading}
-              isImageSelect={true}
-              updateImageList={(list) => setPdfInfoList(list)}
-            />
+            <FunctionalityCommonDragSortableList
+              list={pdfInfoList}
+              onUpdateList={setPdfInfoList}
+              replacementElement={(dragInfo) => (
+                <FunctionalityCommonImage
+                  isShowBackgroundColor={false}
+                  imageInfo={dragInfo}
+                />
+              )}
+            >
+              {(imageInfo, index, currentDragInfo) => (
+                <FunctionalityCommonTooltip
+                  key={imageInfo.id}
+                  title={`${ceil(divide(imageInfo.size, 1000))}kb - ${
+                    imageInfo.pages
+                  } pages`}
+                >
+                  <FunctionalityCommonImage
+                    key={imageInfo.id}
+                    name={String(index + 1)}
+                    imageInfo={imageInfo}
+                    isActive={currentDragInfo?.id === imageInfo.id}
+                    rightTopChildren={
+                      !currentDragInfo ? (
+                        <Box
+                          sx={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            backgroundColor: '#d1d5db',
+                            borderRadius: 5,
+                          }}
+                          onClick={() => onDeletePdf(imageInfo.id)}
+                        >
+                          <FunctionalityCommonIcon
+                            name='CloseTwoTone'
+                            sx={{
+                              fontSize: 18,
+                            }}
+                          />
+                        </Box>
+                      ) : null
+                    }
+                  />
+                </FunctionalityCommonTooltip>
+              )}
+            </FunctionalityCommonDragSortableList>
           )}
           {isLoading && (
             <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />
