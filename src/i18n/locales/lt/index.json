@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Sulieti kelis PDF failus į vieną vos keliais paspaudimais",
     "tools__index_page__constant_obj__split_a_pdf__title": "Padalinti PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Kiekviena pasirinkta puslapis taps atskiru PDF failu. Alternatyviai, galite sujungti pasirinktus puslapius į vieną PDF failą.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG į PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Kiekviena įkelta nuotrauka taps viena PDF puslapiu.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG į PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Kiekviena įkelta nuotrauka taps viena PDF puslapiu."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG į PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Kiekviena įkelta nuotrauka taps viena PDF puslapiu.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG į PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Kiekviena įkelta nuotrauka taps viena PDF puslapiu."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",

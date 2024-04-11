@@ -53,18 +53,18 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   },
   'png-to-pdf': {
     icon: 'CropOriginal',
-    title: 'pages:tools__index_page__constant_obj__PNG_to_pdf__title',
+    title: 'pages:tools__index_page__constant_obj__png_to_pdf__title',
     description:
-      'pages:tools__index_page__constant_obj__PNG_to_pdf__description',
+      'pages:tools__index_page__constant_obj__png_to_pdf__description',
     urlKey: 'png-to-pdf',
     accept: 'image/png',
     urlPrefixPath: toolsTopUrlKey,
   },
   'jpeg-to-pdf': {
     icon: 'CropOriginal',
-    title: 'pages:tools__index_page__constant_obj__JPEG_to_pdf__title',
+    title: 'pages:tools__index_page__constant_obj__jpeg_to_pdf__title',
     description:
-      'pages:tools__index_page__constant_obj__JPEG_to_pdf__description',
+      'pages:tools__index_page__constant_obj__jpeg_to_pdf__description',
     urlKey: 'jpeg-to-pdf',
     accept: 'image/jpg',
     urlPrefixPath: toolsTopUrlKey,

@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF splitsen",
     "tools__index_page__constant_obj__split_a_pdf__description": "Elke geselecteerde pagina wordt een apart PDF-bestand. U kunt ook geselecteerde pagina's samenvoegen tot één PDF-bestand.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG naar PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Elke geüploade afbeelding wordt een pagina in een enkel PDF-bestand.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG naar PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Elke geüploade afbeelding wordt een pagina in een enkel PDF-bestand."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG naar PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Elke geüploade afbeelding wordt een pagina in een enkel PDF-bestand.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG naar PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Elke geüploade afbeelding wordt een pagina in een enkel PDF-bestand."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",

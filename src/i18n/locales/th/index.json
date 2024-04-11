@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "รวมไฟล์ PDF หลายๆ ไฟล์เข้าด้วยกันด้วยไม่กี่คลิก",
     "tools__index_page__constant_obj__split_a_pdf__title": "แยกไฟล์ PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "แต่ละหน้าที่เลือกจะกลายเป็นไฟล์ PDF แยกต่างหาก หรือคุณสามารถรวมหน้าที่เลือกเข้าด้วยกันเป็นไฟล์ PDF เดียว",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG เป็น PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG เป็น PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว"
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG เป็น PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG เป็น PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",

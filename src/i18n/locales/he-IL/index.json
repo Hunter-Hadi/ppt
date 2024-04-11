@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
     "tools__index_page__constant_obj__split_a_pdf__title": "לפצל PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "כל עמוד שנבחר יהפוך לקובץ PDF נפרד. באפשרותך גם למזג עמודים שנבחרו לקובץ PDF אחד.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG ל-PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG ל-PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG ל-PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ל-PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

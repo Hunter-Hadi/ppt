@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "몇 번의 클릭으로 여러 개의 PDF 파일을 하나로 병합하세요",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF 분할",
     "tools__index_page__constant_obj__split_a_pdf__description": "각 선택한 페이지는 별도의 PDF 파일이 됩니다. 또는 선택한 페이지를 하나의 PDF 파일로 병합할 수도 있습니다.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG를 PDF로 변환",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG를 PDF로 변환",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG를 PDF로 변환",
+    "tools__index_page__constant_obj__png_to_pdf__description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG를 PDF로 변환",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",

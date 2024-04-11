@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "قم بدمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسيم ملف PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "سيصبح كل صفحة محددة ملف PDF منفصل. بدلاً من ذلك، يمكنك دمج الصفحات المحددة في ملف PDF واحد.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "تحويل PNG إلى PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "سيتحول كل صورة مرفوعة إلى صفحة في ملف PDF واحد.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "تحويل JPEG إلى PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "سيتحول كل صورة مرفوعة إلى صفحة في ملف PDF واحد."
+    "tools__index_page__constant_obj__png_to_pdf__title": "تحويل PNG إلى PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "سيتحول كل صورة مرفوعة إلى صفحة في ملف PDF واحد.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "تحويل JPEG إلى PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "سيتحول كل صورة مرفوعة إلى صفحة في ملف PDF واحد."
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",

@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "கிளிக்குகள் மட்டுமே பல பி.டி.எப்ஸ் கோப்புகளை ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
     "tools__index_page__constant_obj__split_a_pdf__title": "ஒரு PDF ஐ பிரிக்கவும்",
     "tools__index_page__constant_obj__split_a_pdf__description": "தேர்ந்தெடுக்கப்பட்ட ஒவ்வொன்றும் தனி PDF கோப்பு ஆகும். அல்லது, தேர்ந்தெடுக்கப்பட்ட பக்கங்களை ஒரு தனி PDF கோப்பில் ஒன்றாக ஒன்றிடமாக்கலாம்.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG மாதிரி PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "ஒவ்வொரு பதிவையும் பின்னணியில் ஒரு பக்கமாக மாற்றும் அனைத்து பதிவுகளும் ஒரு தனிப்பட்ட PDF ஆகும்.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG மாதிரி PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "ஒவ்வொரு பதிவையும் பின்னணியில் ஒரு பக்கமாக மாற்றும் அனைத்து பதிவுகளும் ஒரு தனிப்பட்ட PDF ஆகும்."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG மாதிரி PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "ஒவ்வொரு பதிவையும் பின்னணியில் ஒரு பக்கமாக மாற்றும் அனைத்து பதிவுகளும் ஒரு தனிப்பட்ட PDF ஆகும்.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG மாதிரி PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "ஒவ்வொரு பதிவையும் பின்னணியில் ஒரு பக்கமாக மாற்றும் அனைத்து பதிவுகளும் ஒரு தனிப்பட்ட PDF ஆகும்."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",

@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Об'єднайте кілька файлів PDF в один за декілька кліків",
     "tools__index_page__constant_obj__split_a_pdf__title": "Розділити PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Кожна вибрана сторінка стане окремим файлом PDF. За бажанням, ви можете об'єднати вибрані сторінки в один файл PDF.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG до PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Кожне завантажене зображення стане сторінкою в одному PDF.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG до PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Кожне завантажене зображення стане сторінкою в одному PDF."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG до PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Кожне завантажене зображення стане сторінкою в одному PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG до PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Кожне завантажене зображення стане сторінкою в одному PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",

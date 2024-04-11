@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "થોડા ક્લિક્સ સાથે અનેક પીડીએફ ફાઈલોને એકમાં મર્જ કરો",
     "tools__index_page__constant_obj__split_a_pdf__title": "પીડીએફ વિભાજન",
     "tools__index_page__constant_obj__split_a_pdf__description": "દરેક પસંદ કરેલ પૃષ્ઠ એક અલગ પીડીએફ ફાઈલ બનશે. વૈકલ્પિક રીતે, તમે પસંદ કરેલ પૃષ્ઠોને એકજ પીડીએફ ફાઈલમાં મર્જ કરી શકો છો.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG થી PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG થી PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG થી PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG થી PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "દરેક અપલોડ કરેલી છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",

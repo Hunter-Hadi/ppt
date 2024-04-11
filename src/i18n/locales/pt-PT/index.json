@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Junte vários ficheiros PDF num só com apenas alguns cliques",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dividir um PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Cada página selecionada se tornará um arquivo PDF separado. Alternativamente, você pode mesclar páginas selecionadas em um único arquivo PDF.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG para PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Cada imagem enviada se tornará uma página em um único PDF.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG para PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Cada imagem enviada se tornará uma página em um único PDF."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG para PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Cada imagem enviada se tornará uma página em um único PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG para PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Cada imagem enviada se tornará uma página em um único PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts de 1 Clique",

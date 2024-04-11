@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Mehrere PDF-Dateien mit nur wenigen Klicks zu einer zusammenführen",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF teilen",
     "tools__index_page__constant_obj__split_a_pdf__description": "Jede ausgewählte Seite wird zu einer separaten PDF-Datei. Alternativ können Sie ausgewählte Seiten zu einer einzigen PDF-Datei zusammenführen.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG zu PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Jedes hochgeladene Bild wird zu einer Seite in einem einzigen PDF.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG zu PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Jedes hochgeladene Bild wird zu einer Seite in einem einzigen PDF."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG zu PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Jedes hochgeladene Bild wird zu einer Seite in einem einzigen PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG zu PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Jedes hochgeladene Bild wird zu einer Seite in einem einzigen PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",

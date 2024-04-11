@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Több PDF fájl egyesítése néhány kattintással",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF felosztása",
     "tools__index_page__constant_obj__split_a_pdf__description": "Minden kiválasztott oldal külön PDF fájllá válik. Vagy alternatívaként összevonhatja a kiválasztott oldalakat egyetlen PDF fájlba.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG to PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Minden feltöltött kép egy oldalt foglal majd el egyetlen PDF-ben.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG to PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Minden feltöltött kép egy oldalt foglal majd el egyetlen PDF-ben."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG to PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Minden feltöltött kép egy oldalt foglal majd el egyetlen PDF-ben.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG to PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Minden feltöltött kép egy oldalt foglal majd el egyetlen PDF-ben."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

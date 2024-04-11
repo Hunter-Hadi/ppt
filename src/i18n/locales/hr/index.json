@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Spojite više PDF datoteka u jednu s samo nekoliko klikova",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podijeli PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Svaka odabrana stranica postat će zaseban PDF datoteka. Opcionalno, možete spojiti odabrane stranice u jednu PDF datoteku.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG u PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Svaka prenesena slika postat će stranica u jednom PDF-u.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG u PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Svaka prenesena slika postat će stranica u jednom PDF-u."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG u PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Svaka prenesena slika postat će stranica u jednom PDF-u.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG u PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Svaka prenesena slika postat će stranica u jednom PDF-u."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",

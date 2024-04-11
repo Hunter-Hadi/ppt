@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Jumuisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu",
     "tools__index_page__constant_obj__split_a_pdf__title": "Gawanya PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "Kila ukurasa ulioteuliwa utakuwa faili tofauti ya PDF. Au, unaweza kuunganisha kurasa zilizochaguliwa katika faili moja ya PDF.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG hadi PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG hadi PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG hadi PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG hadi PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",

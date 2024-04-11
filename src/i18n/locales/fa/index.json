@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسیم یک PDF",
     "tools__index_page__constant_obj__split_a_pdf__description": "هر صفحه انتخاب شده به یک فایل PDF جداگانه تبدیل خواهد شد. به طور جایگزین، می‌توانید صفحات انتخاب شده را در یک فایل PDF تکی ترکیب کنید.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "تبدیل PNG به PDF",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "هر تصویر آپلود شده به یک صفحه در یک فایل PDF تبدیل خواهد شد.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "تبدیل JPEG به PDF",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "هر تصویر آپلود شده به یک صفحه در یک فایل PDF تبدیل خواهد شد."
+    "tools__index_page__constant_obj__png_to_pdf__title": "تبدیل PNG به PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "هر تصویر آپلود شده به یک صفحه در یک فایل PDF تبدیل خواهد شد.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "تبدیل JPEG به PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "هر تصویر آپلود شده به یک صفحه در یک فایل PDF تبدیل خواهد شد."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

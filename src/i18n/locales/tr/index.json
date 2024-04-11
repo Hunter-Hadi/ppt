@@ -367,10 +367,10 @@
     "tools__index_page__constant_obj__merge_pdfs__description": "Birkaç tıklama ile birden fazla PDF dosyasını birleştirin",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF'yi Böl",
     "tools__index_page__constant_obj__split_a_pdf__description": "Her seçilen sayfa ayrı bir PDF dosyası olacak. Alternatif olarak, seçilen sayfaları tek bir PDF dosyasına birleştirebilirsiniz.",
-    "tools__index_page__constant_obj__PNG_to_pdf__title": "PNG'den PDF'e",
-    "tools__index_page__constant_obj__PNG_to_pdf__description": "Yüklenen her resim tek bir PDF sayfası olacak.",
-    "tools__index_page__constant_obj__JPEG_to_pdf__title": "JPEG'ten PDF'e",
-    "tools__index_page__constant_obj__JPEG_to_pdf__description": "Yüklenen her resim tek bir PDF sayfası olacak."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG'den PDF'e",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Yüklenen her resim tek bir PDF sayfası olacak.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG'ten PDF'e",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Yüklenen her resim tek bir PDF sayfası olacak."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
