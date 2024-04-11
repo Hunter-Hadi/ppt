@@ -65,12 +65,17 @@ const FunctionalityImageToPdfMain = () => {
     setIsLoading(false);
   };
   const handleUnsupportedFileTypeTip = () => {
-    snackNotifications.warning('notI18:只能上传png类型图片', {
-      anchorOrigin: {
-        vertical: 'top',
-        horizontal: 'center',
+    snackNotifications.warning(
+      t(
+        'functionality__image_to_pdf:components__image_to_pdf__error_uploaded__tips',
+      ),
+      {
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center',
+        },
       },
-    });
+    );
   };
   const getUserSelectPageSize = () => {
     return pdfPageSizes.find((page) => page.name === userSelectSizeType);
@@ -148,7 +153,9 @@ const FunctionalityImageToPdfMain = () => {
     {
       type: 'upload',
       uploadProps: {
-        tooltip: 'notI18:Add PNG',
+        tooltip: t(
+          'functionality__image_to_pdf:components__image_to_pdf__button_add_png__tooltip',
+        ),
         onChange: onUploadFile,
         isDrag: false,
         buttonProps: {
@@ -164,17 +171,19 @@ const FunctionalityImageToPdfMain = () => {
           multiple: true,
         },
         handleUnsupportedFileType: handleUnsupportedFileTypeTip,
-        children: 'notI18:Add PNG',
+        children: t(
+          'functionality__image_to_pdf:components__image_to_pdf__button_add_png',
+        ),
       },
     },
     {
       type: 'button',
       buttonProps: {
         tooltip: t(
-          'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
+          'functionality__image_to_pdf:components__image_to_pdf__button_remove_png__tooltip',
         ),
         children: t(
-          'functionality__pdf_split:components__pdf_spli__remove_pdf',
+          'functionality__image_to_pdf:components__image_to_pdf__button_remove_png',
         ),
         variant: 'outlined',
         color: 'error',
@@ -198,8 +207,12 @@ const FunctionalityImageToPdfMain = () => {
         onClick: convertToPDF,
         disabled: isLoading,
         variant: 'contained',
-        tooltip: 'notI18:开始转换',
-        children: 'notI18:开始转换',
+        tooltip: t(
+          'functionality__image_to_pdf:components__image_to_pdf__download__tooltip',
+        ),
+        children: t(
+          'functionality__image_to_pdf:components__image_to_pdf__download',
+        ),
       },
     },
   ];
@@ -318,7 +331,17 @@ const FunctionalityImageToPdfMain = () => {
             position: 'relative',
           }}
         >
-          <Typography>Page size:</Typography>
+          <Typography
+            fontSize={{
+              xs: 14,
+              lg: 16,
+            }}
+            color='text.secondary'
+          >
+            {t(
+              'functionality__image_to_pdf:components__image_to_pdf__page_size',
+            )}
+          </Typography>
           <Select
             value={userSelectSizeType}
             onChange={(event) => setUserSelectSizeType(event.target.value)}
@@ -343,7 +366,17 @@ const FunctionalityImageToPdfMain = () => {
               </MenuItem>
             ))}
           </Select>
-          <Typography>Image alignment:</Typography>
+          <Typography
+            fontSize={{
+              xs: 14,
+              lg: 16,
+            }}
+            color='text.secondary'
+          >
+            {t(
+              'functionality__image_to_pdf:components__image_to_pdf__image_alignment',
+            )}
+          </Typography>
           <Select
             value={userSelectPositionType}
             onChange={(event) => setUserSelectPositionType(event.target.value)}

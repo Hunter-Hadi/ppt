@@ -52,9 +52,9 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   },
   'png-to-pdf': {
     icon: 'CropOriginal',
-    title: 'notI18:PNG to PDF',
+    title: 'pages:tools__index_page__constant_obj__image_to_pdf__title',
     description:
-      'notI18:Convert PNG images to PDF online',
+      'pages:tools__index_page__constant_obj__image_to_pdf__description',
     urlKey: 'png-to-pdf',
     accept: 'application/png',
     urlPrefixPath: toolsTopUrlKey,
