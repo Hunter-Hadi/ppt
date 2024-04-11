@@ -36,7 +36,6 @@ interface IFunctionalityImageToPdfMainProps {
 const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   accept,
 }) => {
-  console.log('simply accept', accept);
   const { t } = useTranslation();
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -142,13 +141,13 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
               height: scaledHeight,
             });
           } else {
-            if (userSelectPositionType === 'Middle') {
+            if (userSelectPositionType === 'middle') {
               x = (pageSize.width - imageWidth) / 2;
               y = (pageSize.height - imageHeight) / 2;
-            } else if (userSelectPositionType === 'Top') {
+            } else if (userSelectPositionType === 'top') {
               x = (pageSize.width - imageWidth) / 2;
               y = pageSize.height - imageHeight;
-            } else if (userSelectPositionType === 'Bottom') {
+            } else if (userSelectPositionType === 'bottom') {
               x = (pageSize.width - imageWidth) / 2;
               y = 0;
             }
