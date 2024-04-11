@@ -703,14 +703,14 @@
     "components__common__pdf_encryption_tip": "está criptografado ou anormal, impossível manipular o PDF, ignorado"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Somente imagens do tipo PNG podem ser enviadas",
-    "components__image_to_pdf__button_add_png": "Adicionar PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Adicionar PNG abaixo",
-    "components__image_to_pdf__button_remove_png": "Remover PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Limpar o PNG abaixo",
+    "components__image_to_pdf__error_uploaded__tips": "Somente imagens do tipo imagem podem ser enviadas",
+    "components__image_to_pdf__button_add_png": "Adicionar imagens",
+    "components__image_to_pdf__button_add_png__tooltip": "Adicionar imagens abaixo",
+    "components__image_to_pdf__button_remove_png": "Remover imagens",
+    "components__image_to_pdf__button_remove_png__tooltip": "Limpar as imagens abaixo",
     "components__image_to_pdf__page_size": "Tamanho da página",
     "components__image_to_pdf__image_alignment": "Alinhamento da imagem",
-    "components__image_to_pdf__download": "Download",
+    "components__image_to_pdf__download": "Baixar",
     "components__image_to_pdf__download__tooltip": "Criar e baixar PDF"
   }
 }

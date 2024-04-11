@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "je zašifrován nebo je v neobvyklém stavu, nelze manipulovat s PDF, přeskočeno"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky ve formátu PNG",
-    "components__image_to_pdf__button_add_png": "Přidat PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Přidat PNG níže",
-    "components__image_to_pdf__button_remove_png": "Odstranit PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Vymazat PNG níže",
+    "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky typu obrázek",
+    "components__image_to_pdf__button_add_png": "Přidat obrázky",
+    "components__image_to_pdf__button_add_png__tooltip": "Přidejte obrázky níže",
+    "components__image_to_pdf__button_remove_png": "Odstranit obrázky",
+    "components__image_to_pdf__button_remove_png__tooltip": "Vymazat obrázky níže",
     "components__image_to_pdf__page_size": "Velikost stránky",
     "components__image_to_pdf__image_alignment": "Zarovnání obrázku",
     "components__image_to_pdf__download": "Stáhnout",

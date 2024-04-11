@@ -703,13 +703,13 @@
     "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis PNG boleh dimuat naik",
-    "components__image_to_pdf__button_add_png": "Tambah PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Tambah PNG di bawah",
-    "components__image_to_pdf__button_remove_png": "Buang PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Kosongkan PNG di bawah",
+    "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis imej boleh dimuat naik",
+    "components__image_to_pdf__button_add_png": "Tambah imej",
+    "components__image_to_pdf__button_add_png__tooltip": "Tambah imej di bawah",
+    "components__image_to_pdf__button_remove_png": "Buang imej",
+    "components__image_to_pdf__button_remove_png__tooltip": "Kosongkan imej di bawah",
     "components__image_to_pdf__page_size": "Saiz halaman",
-    "components__image_to_pdf__image_alignment": "Penjajaran gambar",
+    "components__image_to_pdf__image_alignment": "Penjajaran imej",
     "components__image_to_pdf__download": "Muat turun",
     "components__image_to_pdf__download__tooltip": "Cipta dan muat turun PDF"
   }

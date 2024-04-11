@@ -703,14 +703,14 @@
     "components__common__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet manipuleren, overgeslagen"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Alleen PNG-afbeeldingen kunnen worden geüpload",
-    "components__image_to_pdf__button_add_png": "PNG toevoegen",
-    "components__image_to_pdf__button_add_png__tooltip": "Voeg hieronder een PNG toe",
-    "components__image_to_pdf__button_remove_png": "PNG verwijderen",
-    "components__image_to_pdf__button_remove_png__tooltip": "Verwijder de onderstaande PNG",
+    "components__image_to_pdf__error_uploaded__tips": "Alleen afbeeldingen van het type afbeelding kunnen worden geüpload",
+    "components__image_to_pdf__button_add_png": "Afbeeldingen toevoegen",
+    "components__image_to_pdf__button_add_png__tooltip": "Voeg hieronder afbeeldingen toe",
+    "components__image_to_pdf__button_remove_png": "Afbeeldingen verwijderen",
+    "components__image_to_pdf__button_remove_png__tooltip": "Verwijder de afbeeldingen hieronder",
     "components__image_to_pdf__page_size": "Paginaformaat",
     "components__image_to_pdf__image_alignment": "Afbeeldingsuitlijning",
     "components__image_to_pdf__download": "Downloaden",
-    "components__image_to_pdf__download__tooltip": "Maak een PDF aan en download deze"
+    "components__image_to_pdf__download__tooltip": "PDF maken en downloaden"
   }
 }

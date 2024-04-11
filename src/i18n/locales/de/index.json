@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "ist verschlüsselt oder fehlerhaft, kann das PDF nicht bearbeiten, übersprungen"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Es können nur PNG-Bilder hochgeladen werden",
-    "components__image_to_pdf__button_add_png": "PNG hinzufügen",
-    "components__image_to_pdf__button_add_png__tooltip": "Füge unten ein PNG hinzu",
-    "components__image_to_pdf__button_remove_png": "PNG entfernen",
-    "components__image_to_pdf__button_remove_png__tooltip": "Lösche das unten stehende PNG",
+    "components__image_to_pdf__error_uploaded__tips": "Es können nur Bilder vom Bildtyp hochgeladen werden",
+    "components__image_to_pdf__button_add_png": "Bilder hinzufügen",
+    "components__image_to_pdf__button_add_png__tooltip": "Bilder unten hinzufügen",
+    "components__image_to_pdf__button_remove_png": "Bilder entfernen",
+    "components__image_to_pdf__button_remove_png__tooltip": "Die Bilder unten löschen",
     "components__image_to_pdf__page_size": "Seitengröße",
     "components__image_to_pdf__image_alignment": "Bildausrichtung",
     "components__image_to_pdf__download": "Herunterladen",

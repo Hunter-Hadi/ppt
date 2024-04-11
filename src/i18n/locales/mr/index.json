@@ -703,13 +703,13 @@
     "components__common__pdf_encryption_tip": "एन्क्रिप्टेड असलेले किंवा असामान्य असलेले PDF, पीडीएफ संपादित करण्यास अक्षम, वगळले"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "केवळ PNG प्रकारची प्रतिमा अपलोड केली जाऊ शकते",
-    "components__image_to_pdf__button_add_png": "PNG जोडा",
-    "components__image_to_pdf__button_add_png__tooltip": "खालीलप्रमाणे PNG जोडा",
-    "components__image_to_pdf__button_remove_png": "PNG काढा",
-    "components__image_to_pdf__button_remove_png__tooltip": "खालीलप्रमाणे PNG काढा",
+    "components__image_to_pdf__error_uploaded__tips": "केवळ चित्र प्रकाराची चित्रे अपलोड केली जाऊ शकतात",
+    "components__image_to_pdf__button_add_png": "छायांकन जोडा",
+    "components__image_to_pdf__button_add_png__tooltip": "खालील छायांकन जोडा",
+    "components__image_to_pdf__button_remove_png": "छायांकन काढा",
+    "components__image_to_pdf__button_remove_png__tooltip": "खालील छायांकन साफ करा",
     "components__image_to_pdf__page_size": "पृष्ठ आकार",
-    "components__image_to_pdf__image_alignment": "प्रतिमा संरेखण",
+    "components__image_to_pdf__image_alignment": "छायांकन संरेखण",
     "components__image_to_pdf__download": "डाउनलोड करा",
     "components__image_to_pdf__download__tooltip": "PDF तयार करा आणि डाउनलोड करा"
   }

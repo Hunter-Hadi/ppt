@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على التلاعب بملف PDF، تم تخطيها"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع PNG فقط",
-    "components__image_to_pdf__button_add_png": "إضافة PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "إضافة PNG أدناه",
-    "components__image_to_pdf__button_remove_png": "إزالة PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "مسح PNG أدناه",
+    "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع الصورة فقط",
+    "components__image_to_pdf__button_add_png": "إضافة الصور",
+    "components__image_to_pdf__button_add_png__tooltip": "إضافة الصور أدناه",
+    "components__image_to_pdf__button_remove_png": "إزالة الصور",
+    "components__image_to_pdf__button_remove_png__tooltip": "مسح الصور أدناه",
     "components__image_to_pdf__page_size": "حجم الصفحة",
     "components__image_to_pdf__image_alignment": "محاذاة الصورة",
     "components__image_to_pdf__download": "تحميل",

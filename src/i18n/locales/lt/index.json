@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima manipuliuoti PDF, praleistas"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Galima įkelti tik PNG tipo paveikslėlius",
-    "components__image_to_pdf__button_add_png": "Pridėti PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Pridėti PNG žemiau",
-    "components__image_to_pdf__button_remove_png": "Pašalinti PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Išvalyti PNG žemiau",
+    "components__image_to_pdf__error_uploaded__tips": "Galima įkelti tik paveikslėlius formato",
+    "components__image_to_pdf__button_add_png": "Pridėti paveikslėlius",
+    "components__image_to_pdf__button_add_png__tooltip": "Pridėti paveikslėlius žemiau",
+    "components__image_to_pdf__button_remove_png": "Pašalinti paveikslėlius",
+    "components__image_to_pdf__button_remove_png__tooltip": "Išvalyti paveikslėlius žemiau",
     "components__image_to_pdf__page_size": "Puslapio dydis",
     "components__image_to_pdf__image_alignment": "Paveikslėlio lygiavimas",
     "components__image_to_pdf__download": "Atsisiųsti",

@@ -703,13 +703,13 @@
     "components__common__pdf_encryption_tip": "titkosított vagy rendellenes, a PDF manipulálása nem lehetséges, kihagyva"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Csak PNG típusú képek tölthetők fel",
-    "components__image_to_pdf__button_add_png": "PNG hozzáadása",
-    "components__image_to_pdf__button_add_png__tooltip": "PNG hozzáadása alulra",
-    "components__image_to_pdf__button_remove_png": "PNG eltávolítása",
-    "components__image_to_pdf__button_remove_png__tooltip": "Törölje a PNG-t alulról",
+    "components__image_to_pdf__error_uploaded__tips": "Csak képek tölthetők fel",
+    "components__image_to_pdf__button_add_png": "Képek hozzáadása",
+    "components__image_to_pdf__button_add_png__tooltip": "Képek hozzáadása alulra",
+    "components__image_to_pdf__button_remove_png": "Képek eltávolítása",
+    "components__image_to_pdf__button_remove_png__tooltip": "Képek törlése alulról",
     "components__image_to_pdf__page_size": "Oldalméret",
-    "components__image_to_pdf__image_alignment": "Kép igazítása",
+    "components__image_to_pdf__image_alignment": "Kép igazítás",
     "components__image_to_pdf__download": "Letöltés",
     "components__image_to_pdf__download__tooltip": "PDF létrehozása és letöltése"
   }

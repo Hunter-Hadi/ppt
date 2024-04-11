@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "està encriptat o és anormal, no es pot manipular el PDF, saltat"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Només es poden pujar imatges de tipus PNG",
-    "components__image_to_pdf__button_add_png": "Afegir PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Afegir PNG a continuació",
-    "components__image_to_pdf__button_remove_png": "Eliminar PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Netejar el PNG a continuació",
+    "components__image_to_pdf__error_uploaded__tips": "Només es poden carregar imatges de tipus imatge",
+    "components__image_to_pdf__button_add_png": "Afegir imatges",
+    "components__image_to_pdf__button_add_png__tooltip": "Afegiu imatges a continuació",
+    "components__image_to_pdf__button_remove_png": "Eliminar imatges",
+    "components__image_to_pdf__button_remove_png__tooltip": "Netejar les imatges a continuació",
     "components__image_to_pdf__page_size": "Mida de la pàgina",
     "components__image_to_pdf__image_alignment": "Alineació de la imatge",
     "components__image_to_pdf__download": "Descarregar",

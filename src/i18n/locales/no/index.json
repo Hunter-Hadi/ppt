@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Bare PNG-bilder kan lastes opp",
-    "components__image_to_pdf__button_add_png": "Legg til PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Legg til PNG nedenfor",
-    "components__image_to_pdf__button_remove_png": "Fjern PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Fjern PNG-en nedenfor",
+    "components__image_to_pdf__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp",
+    "components__image_to_pdf__button_add_png": "Legg til bilder",
+    "components__image_to_pdf__button_add_png__tooltip": "Legg til bilder nedenfor",
+    "components__image_to_pdf__button_remove_png": "Fjern bilder",
+    "components__image_to_pdf__button_remove_png__tooltip": "Fjern bildene nedenfor",
     "components__image_to_pdf__page_size": "Sidestørrelse",
     "components__image_to_pdf__image_alignment": "Bildejustering",
     "components__image_to_pdf__download": "Last ned",

@@ -703,13 +703,13 @@
     "components__common__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถจัดการไฟล์ PDF ได้ ข้าม"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "สามารถอัปโหลดได้เฉพาะรูปภาพประเภท PNG เท่านั้น",
-    "components__image_to_pdf__button_add_png": "เพิ่ม PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "เพิ่ม PNG ด้านล่าง",
-    "components__image_to_pdf__button_remove_png": "ลบ PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "ล้าง PNG ด้านล่าง",
+    "components__image_to_pdf__error_uploaded__tips": "สามารถอัปโหลดภาพเฉพาะชนิดภาพเท่านั้น",
+    "components__image_to_pdf__button_add_png": "เพิ่มรูปภาพ",
+    "components__image_to_pdf__button_add_png__tooltip": "เพิ่มรูปภาพด้านล่าง",
+    "components__image_to_pdf__button_remove_png": "ลบรูปภาพ",
+    "components__image_to_pdf__button_remove_png__tooltip": "ล้างรูปภาพด้านล่าง",
     "components__image_to_pdf__page_size": "ขนาดหน้า",
-    "components__image_to_pdf__image_alignment": "การจัดตำแหน่งรูปภาพ",
+    "components__image_to_pdf__image_alignment": "การจัดแนวรูปภาพ",
     "components__image_to_pdf__download": "ดาวน์โหลด",
     "components__image_to_pdf__download__tooltip": "สร้างและดาวน์โหลด PDF"
   }

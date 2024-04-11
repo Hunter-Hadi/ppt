@@ -703,14 +703,14 @@
     "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "فقط تصاویر با فرمت PNG قابل آپلود هستند",
-    "components__image_to_pdf__button_add_png": "افزودن PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "افزودن PNG در زیر",
-    "components__image_to_pdf__button_remove_png": "حذف PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "پاک کردن PNG در زیر",
+    "components__image_to_pdf__error_uploaded__tips": "فقط تصاویر از نوع تصویر قابل بارگذاری هستند",
+    "components__image_to_pdf__button_add_png": "افزودن تصاویر",
+    "components__image_to_pdf__button_add_png__tooltip": "تصاویر را در زیر اضافه کنید",
+    "components__image_to_pdf__button_remove_png": "حذف تصاویر",
+    "components__image_to_pdf__button_remove_png__tooltip": "پاک کردن تصاویر در زیر",
     "components__image_to_pdf__page_size": "اندازه صفحه",
     "components__image_to_pdf__image_alignment": "تراز تصویر",
     "components__image_to_pdf__download": "دانلود",
-    "components__image_to_pdf__download__tooltip": "ساخت و دانلود PDF"
+    "components__image_to_pdf__download__tooltip": "ایجاد و دانلود PDF"
   }
 }

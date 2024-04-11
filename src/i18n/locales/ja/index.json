@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "PNG形式の画像のみアップロードできます",
-    "components__image_to_pdf__button_add_png": "PNGを追加",
-    "components__image_to_pdf__button_add_png__tooltip": "下にPNGを追加",
-    "components__image_to_pdf__button_remove_png": "PNGを削除",
-    "components__image_to_pdf__button_remove_png__tooltip": "下のPNGをクリア",
+    "components__image_to_pdf__error_uploaded__tips": "アップロードできるのは画像タイプのみです",
+    "components__image_to_pdf__button_add_png": "画像を追加",
+    "components__image_to_pdf__button_add_png__tooltip": "以下に画像を追加",
+    "components__image_to_pdf__button_remove_png": "画像を削除",
+    "components__image_to_pdf__button_remove_png__tooltip": "以下の画像をクリア",
     "components__image_to_pdf__page_size": "ページサイズ",
     "components__image_to_pdf__image_alignment": "画像の配置",
     "components__image_to_pdf__download": "ダウンロード",

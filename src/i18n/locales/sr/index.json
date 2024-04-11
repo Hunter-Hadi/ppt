@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "je šifrovan ili nepravilan, nemoguće manipulisati PDF-om, preskočeno"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Mogu se uploadovati samo PNG tip slika",
-    "components__image_to_pdf__button_add_png": "Dodaj PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Dodaj PNG ispod",
-    "components__image_to_pdf__button_remove_png": "Ukloni PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Obriši PNG ispod",
+    "components__image_to_pdf__error_uploaded__tips": "Samo slike tipa image mogu biti otpremljene",
+    "components__image_to_pdf__button_add_png": "Dodaj slike",
+    "components__image_to_pdf__button_add_png__tooltip": "Dodaj slike ispod",
+    "components__image_to_pdf__button_remove_png": "Ukloni slike",
+    "components__image_to_pdf__button_remove_png__tooltip": "Očisti slike ispod",
     "components__image_to_pdf__page_size": "Veličina stranice",
     "components__image_to_pdf__image_alignment": "Poravnanje slike",
     "components__image_to_pdf__download": "Preuzmi",

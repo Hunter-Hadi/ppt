@@ -702,15 +702,5 @@
   "functionality__common": {
     "components__common__pdf_encryption_tip": "imefichwa au ni batili, haiwezekani kubadilisha PDF, imepuuzwa"
   },
-  "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Inaweza kupakiwa tu picha za aina ya PNG",
-    "components__image_to_pdf__button_add_png": "Ongeza PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Ongeza PNG hapa chini",
-    "components__image_to_pdf__button_remove_png": "Ondoa PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Futa PNG hapa chini",
-    "components__image_to_pdf__page_size": "Ukubwa wa ukurasa",
-    "components__image_to_pdf__image_alignment": "Ulinganishaji wa picha",
-    "components__image_to_pdf__download": "Pakua",
-    "components__image_to_pdf__download__tooltip": "Unda na pakua PDF"
-  }
+  "functionality__image_to_pdf": {}
 }

@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "只能上传PNG类型的图像",
-    "components__image_to_pdf__button_add_png": "添加PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "在下方添加PNG",
-    "components__image_to_pdf__button_remove_png": "移除PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "清除下方的PNG",
+    "components__image_to_pdf__error_uploaded__tips": "只能上传图像类型的图片",
+    "components__image_to_pdf__button_add_png": "添加图片",
+    "components__image_to_pdf__button_add_png__tooltip": "在下方添加图片",
+    "components__image_to_pdf__button_remove_png": "移除图片",
+    "components__image_to_pdf__button_remove_png__tooltip": "清除下方的图片",
     "components__image_to_pdf__page_size": "页面尺寸",
     "components__image_to_pdf__image_alignment": "图像对齐",
     "components__image_to_pdf__download": "下载",

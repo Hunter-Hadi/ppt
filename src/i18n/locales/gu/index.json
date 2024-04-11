@@ -703,13 +703,13 @@
     "components__common__pdf_encryption_tip": "એન્ક્રિપ્ટ થયેલ છે અથવા અસામાન્ય છે, PDF ને સુધારવામાં અસમર્થ, છોડી દીધું"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "માત્ર PNG પ્રકારની છબીઓ અપલોડ કરી શકાય છે",
-    "components__image_to_pdf__button_add_png": "PNG ઉમેરો",
-    "components__image_to_pdf__button_add_png__tooltip": "નીચે PNG ઉમેરો",
-    "components__image_to_pdf__button_remove_png": "PNG કાઢો",
-    "components__image_to_pdf__button_remove_png__tooltip": "નીચેની PNG કાઢો",
-    "components__image_to_pdf__page_size": "પૃષ્ઠ આકાર",
-    "components__image_to_pdf__image_alignment": "છબી સારવાર",
+    "components__image_to_pdf__error_uploaded__tips": "માત્ર ચિત્ર પ્રકારના ચિત્રો અપલોડ કરી શકાય છે",
+    "components__image_to_pdf__button_add_png": "ચિત્રો ઉમેરો",
+    "components__image_to_pdf__button_add_png__tooltip": "નીચે ચિત્રો ઉમેરો",
+    "components__image_to_pdf__button_remove_png": "ચિત્રો કાઢો",
+    "components__image_to_pdf__button_remove_png__tooltip": "નીચેના ચિત્રો સાફ કરો",
+    "components__image_to_pdf__page_size": "પેજ આકાર",
+    "components__image_to_pdf__image_alignment": "ચિત્ર સંરેખણ",
     "components__image_to_pdf__download": "ડાઉનલોડ કરો",
     "components__image_to_pdf__download__tooltip": "PDF બનાવો અને ડાઉનલોડ કરો"
   }

@@ -703,14 +703,14 @@
     "components__common__pdf_encryption_tip": "എൻക്രിപ്റ്റ് ചെയ്തിട്ടുള്ളതാണ് അല്ലെങ്കിൽ അസാധാരണമാണ്, PDF പ്രവർത്തനം ചെയ്യാൻ കഴിയില്ല, അവസാനിപ്പിച്ചു"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "അപ്‌ലോഡ് ചെയ്തത് പിഎൻജി തരം ഇമേജുകൾ മാത്രമേ ആകുന്നു",
-    "components__image_to_pdf__button_add_png": "പിഎൻജി ചേർക്കുക",
-    "components__image_to_pdf__button_add_png__tooltip": "താഴെ പിഎൻജി ചേർക്കുക",
-    "components__image_to_pdf__button_remove_png": "പിഎൻജി നീക്കുക",
-    "components__image_to_pdf__button_remove_png__tooltip": "താഴെ പിഎൻജി മായ്ക്കുക",
+    "components__image_to_pdf__error_uploaded__tips": "ഇമേജ് തരം മാത്രം അപ്‌ലോഡ് ചെയ്യാൻ കഴിയുന്നു",
+    "components__image_to_pdf__button_add_png": "ചിത്രങ്ങൾ ചേർക്കുക",
+    "components__image_to_pdf__button_add_png__tooltip": "ചിത്രങ്ങൾ താഴെ ചേർക്കുക",
+    "components__image_to_pdf__button_remove_png": "ചിത്രങ്ങൾ നീക്കം ചെയ്യുക",
+    "components__image_to_pdf__button_remove_png__tooltip": "താഴെ നിന്നുള്ള ചിത്രങ്ങൾ മായ്ക്കുക",
     "components__image_to_pdf__page_size": "പേജ് വലിപ്പം",
     "components__image_to_pdf__image_alignment": "ചിത്ര സമന്വയം",
     "components__image_to_pdf__download": "ഡൗൺലോഡ്",
-    "components__image_to_pdf__download__tooltip": "PDF സൃഷ്ടിക്കുകയും ഡൗൺലോഡുകൾ ചെയ്യുകയും ചെയ്യുക"
+    "components__image_to_pdf__download__tooltip": "PDF സൃഷ്ടിക്കുകയും ഡൗൺലോഡുചെയ്യുകയും ചെയ്യുക"
   }
 }

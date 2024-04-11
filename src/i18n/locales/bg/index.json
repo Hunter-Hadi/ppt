@@ -703,14 +703,14 @@
     "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Могат да се качват само PNG изображения",
-    "components__image_to_pdf__button_add_png": "Добави PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Добави PNG по-долу",
-    "components__image_to_pdf__button_remove_png": "Премахни PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Изчисти PNG-то по-долу",
+    "components__image_to_pdf__error_uploaded__tips": "Могат да бъдат качени само изображения от тип изображение",
+    "components__image_to_pdf__button_add_png": "Добавяне на изображения",
+    "components__image_to_pdf__button_add_png__tooltip": "Добавете изображения по-долу",
+    "components__image_to_pdf__button_remove_png": "Премахване на изображения",
+    "components__image_to_pdf__button_remove_png__tooltip": "Изчистете изображенията по-долу",
     "components__image_to_pdf__page_size": "Размер на страницата",
     "components__image_to_pdf__image_alignment": "Подравняване на изображението",
-    "components__image_to_pdf__download": "Изтегли",
-    "components__image_to_pdf__download__tooltip": "Създай и изтегли PDF"
+    "components__image_to_pdf__download": "Изтегляне",
+    "components__image_to_pdf__download__tooltip": "Създайте и изтеглете PDF"
   }
 }

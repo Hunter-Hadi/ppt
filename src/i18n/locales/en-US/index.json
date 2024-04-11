@@ -419,7 +419,7 @@
     "components__to_image_detail__button__remove__tooltip": "Remove this PDF and select a new one"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Only PNG type images can be uploaded",
+    "components__image_to_pdf__error_uploaded__tips": "Only images of image type can be uploaded",
     "components__image_to_pdf__button_add_png": "Add images",
     "components__image_to_pdf__button_add_png__tooltip": "Add images below",
     "components__image_to_pdf__button_remove_png": "Remove images",

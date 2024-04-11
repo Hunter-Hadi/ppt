@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "şifreli veya anormal, PDF'yi manipüle edemiyor, atlandı"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Sadece PNG türü resimler yüklenebilir",
-    "components__image_to_pdf__button_add_png": "PNG Ekle",
-    "components__image_to_pdf__button_add_png__tooltip": "Aşağıya PNG ekle",
-    "components__image_to_pdf__button_remove_png": "PNG Kaldır",
-    "components__image_to_pdf__button_remove_png__tooltip": "Aşağıdaki PNG'yi temizle",
+    "components__image_to_pdf__error_uploaded__tips": "Sadece resim türündeki resimler yüklenebilir",
+    "components__image_to_pdf__button_add_png": "Resim ekle",
+    "components__image_to_pdf__button_add_png__tooltip": "Aşağıya resim ekleyin",
+    "components__image_to_pdf__button_remove_png": "Resimleri kaldır",
+    "components__image_to_pdf__button_remove_png__tooltip": "Aşağıdaki resimleri temizle",
     "components__image_to_pdf__page_size": "Sayfa boyutu",
     "components__image_to_pdf__image_alignment": "Resim hizalama",
     "components__image_to_pdf__download": "İndir",

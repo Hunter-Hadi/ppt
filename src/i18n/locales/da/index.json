@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "er krypteret eller unormal, kan ikke manipulere PDF'en, sprunget over"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Kun PNG-billeder kan uploades",
-    "components__image_to_pdf__button_add_png": "Tilføj PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Tilføj PNG nedenfor",
-    "components__image_to_pdf__button_remove_png": "Fjern PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Ryd PNG nedenfor",
+    "components__image_to_pdf__error_uploaded__tips": "Kun billeder af billedtypen kan uploades",
+    "components__image_to_pdf__button_add_png": "Tilføj billeder",
+    "components__image_to_pdf__button_add_png__tooltip": "Tilføj billeder nedenfor",
+    "components__image_to_pdf__button_remove_png": "Fjern billeder",
+    "components__image_to_pdf__button_remove_png__tooltip": "Ryd billederne nedenfor",
     "components__image_to_pdf__page_size": "Sidestørrelse",
     "components__image_to_pdf__image_alignment": "Billedjustering",
     "components__image_to_pdf__download": "Download",

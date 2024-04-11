@@ -703,14 +703,14 @@
     "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "በ PNG አይነት የተሳሳተ ምስሎች ተጠቅሯል",
-    "components__image_to_pdf__button_add_png": "PNG ጨምር",
-    "components__image_to_pdf__button_add_png__tooltip": "PNG በታች ጨምር",
-    "components__image_to_pdf__button_remove_png": "PNG አጥፋ",
-    "components__image_to_pdf__button_remove_png__tooltip": "PNG በታች አጥፋ",
+    "components__image_to_pdf__error_uploaded__tips": "ምስል አይነት የሚጫኑ ምስሎች ተመዝግቧል",
+    "components__image_to_pdf__button_add_png": "ምስል ጨምር",
+    "components__image_to_pdf__button_add_png__tooltip": "ምስልን በታች ጨምሩ",
+    "components__image_to_pdf__button_remove_png": "ምስል አጥፋ",
+    "components__image_to_pdf__button_remove_png__tooltip": "ምስልን አጥፋ",
     "components__image_to_pdf__page_size": "ገጽ መጠን",
-    "components__image_to_pdf__image_alignment": "ምስል አልደረሰም",
-    "components__image_to_pdf__download": "ለውጥ",
-    "components__image_to_pdf__download__tooltip": "PDF አፕልን ፍጠር ያስገቡ"
+    "components__image_to_pdf__image_alignment": "ምስል አማራጭ",
+    "components__image_to_pdf__download": "ደህንነት",
+    "components__image_to_pdf__download__tooltip": "PDF እንዴት ፈጥር ይሻላል"
   }
 }

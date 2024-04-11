@@ -703,13 +703,13 @@
     "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Maaari lamang i-upload ang mga imahe na may uri ng PNG",
-    "components__image_to_pdf__button_add_png": "Magdagdag ng PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Magdagdag ng PNG sa ibaba",
-    "components__image_to_pdf__button_remove_png": "Tanggalin ang PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Burahin ang PNG sa ibaba",
-    "components__image_to_pdf__page_size": "Laki ng Pahina",
-    "components__image_to_pdf__image_alignment": "Alignment ng Imahe",
+    "components__image_to_pdf__error_uploaded__tips": "Maaaring i-upload lamang ang mga imahe ng uri ng imahe",
+    "components__image_to_pdf__button_add_png": "Magdagdag ng mga imahe",
+    "components__image_to_pdf__button_add_png__tooltip": "Magdagdag ng mga imahe sa ibaba",
+    "components__image_to_pdf__button_remove_png": "Tanggalin ang mga imahe",
+    "components__image_to_pdf__button_remove_png__tooltip": "Burahin ang mga imahe sa ibaba",
+    "components__image_to_pdf__page_size": "Laki ng pahina",
+    "components__image_to_pdf__image_alignment": "Pagkakasunud-sunod ng imahe",
     "components__image_to_pdf__download": "I-download",
     "components__image_to_pdf__download__tooltip": "Lumikha at i-download ang PDF"
   }

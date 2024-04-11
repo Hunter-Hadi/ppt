@@ -161,18 +161,8 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         }
       }
       setTotalPages(0);
-      // // 设置新的标题
-      // pdfDoc.setTitle('MaxAi.me');
-      // // 设置新的作者
-      // pdfDoc.setAuthor('MaxAi.me');
-      // // 设置新的主题
-      // pdfDoc.setSubject('MaxAi.me');
-      // 设置新的生成者
-      pdfDoc.setProducer('MaxAI.me');
-      // 也可以设置创建者
-      pdfDoc.setCreator('MaxAI.me');
       const pdfBytes = await pdfDoc.save();
-      downloadUrl(pdfBytes, 'image(MaxAI.me).pdf');
+      downloadUrl(pdfBytes, 'images(MaxAI.me).pdf');
       setIsLoading(false);
     } catch (error) {
       setIsLoading(false);

@@ -703,11 +703,11 @@
     "components__common__pdf_encryption_tip": "terenkripsi atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
   },
   "functionality__image_to_pdf": {
-    "components__image_to_pdf__error_uploaded__tips": "Hanya gambar dengan tipe PNG yang dapat diunggah",
-    "components__image_to_pdf__button_add_png": "Tambahkan PNG",
-    "components__image_to_pdf__button_add_png__tooltip": "Tambahkan PNG di bawah",
-    "components__image_to_pdf__button_remove_png": "Hapus PNG",
-    "components__image_to_pdf__button_remove_png__tooltip": "Hapus PNG di bawah",
+    "components__image_to_pdf__error_uploaded__tips": "Hanya gambar dengan jenis gambar yang dapat diunggah",
+    "components__image_to_pdf__button_add_png": "Tambahkan gambar",
+    "components__image_to_pdf__button_add_png__tooltip": "Tambahkan gambar di bawah",
+    "components__image_to_pdf__button_remove_png": "Hapus gambar",
+    "components__image_to_pdf__button_remove_png__tooltip": "Hapus gambar di bawah",
     "components__image_to_pdf__page_size": "Ukuran halaman",
     "components__image_to_pdf__image_alignment": "Penyelarasan gambar",
     "components__image_to_pdf__download": "Unduh",
