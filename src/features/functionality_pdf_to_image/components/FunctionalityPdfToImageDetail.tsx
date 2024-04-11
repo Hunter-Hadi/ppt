@@ -1,4 +1,11 @@
-import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
+import {
+  Box,
+  Button,
+  CircularProgress,
+  Grid,
+  Stack,
+  Typography,
+} from '@mui/material';
 import { debounce } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useMemo, useState } from 'react';
@@ -288,13 +295,7 @@ const FunctionalityPdfToImageDetail: FC<
         )}
       </Box>
       {showPdfImagesType === 'pdfPageImages' && !isLoading && (
-        <Grid
-          container
-          direction='row'
-          justifyContent='center'
-          alignItems='center'
-          gap={2}
-        >
+        <Stack direction='row' justifyContent='center' gap={2}>
           {imageSizeList.map((imageSize, index) => (
             <Box
               key={index}
@@ -341,7 +342,7 @@ const FunctionalityPdfToImageDetail: FC<
               </Typography>
             </Box>
           ))}
-        </Grid>
+        </Stack>
       )}
       {currentShowImages?.length > 0 && (
         <Grid

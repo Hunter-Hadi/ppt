@@ -1,4 +1,11 @@
-import { Box, Button, Checkbox, CircularProgress, Grid } from '@mui/material';
+import {
+  Box,
+  Button,
+  Checkbox,
+  CircularProgress,
+  Grid,
+  Stack,
+} from '@mui/material';
 import FileSaver from 'file-saver';
 import JSZip from 'jszip';
 import { useTranslation } from 'next-i18next';
@@ -246,9 +253,9 @@ export const FunctionalityPdfSplitMain = () => {
       )}
 
       {(convertedPdfImages.length > 0 || currentIsLoading) && (
-        <Grid
-          container
-          item
+        <Stack
+          direction='row'
+          flexWrap='wrap'
           justifyContent='center'
           my={3}
           gap={2}
@@ -300,7 +307,7 @@ export const FunctionalityPdfSplitMain = () => {
                 : ''}
             </Box>
           )}
-        </Grid>
+        </Stack>
       )}
       {convertedPdfImages?.length > 0 && (
         <Box

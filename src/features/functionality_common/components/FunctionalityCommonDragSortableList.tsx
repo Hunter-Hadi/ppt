@@ -12,7 +12,7 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { Box, Grid, Typography } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { useMemo, useState } from 'react';
 type IBasicData = { id: string };
@@ -133,7 +133,13 @@ const FunctionalityCommonDragSortableList = <T extends {}>({
       onDragEnd={handleDragUpdateList}
     >
       <SortableContext items={list} strategy={verticalListSortingStrategy}>
-        <Grid container justifyContent='center' my={3} gap={2}>
+        <Stack
+          direction='row'
+          flexWrap='wrap'
+          justifyContent='center'
+          my={3}
+          gap={2}
+        >
           {list.map((imageInfo, index) => (
             <FunctionalitySortableItem
               key={imageInfo.id}
@@ -155,7 +161,7 @@ const FunctionalityCommonDragSortableList = <T extends {}>({
               {!replacementElement && children(currentDragInfo, 0)}
             </DragOverlay>
           )}
-        </Grid>
+        </Stack>
       </SortableContext>
       <Box
         sx={{

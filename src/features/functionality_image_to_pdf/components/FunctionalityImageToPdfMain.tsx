@@ -1,9 +1,9 @@
 import {
   CircularProgress,
-  Grid,
   IconButton,
   MenuItem,
   Select,
+  Stack,
   Typography,
 } from '@mui/material';
 import Box from '@mui/material/Box';
@@ -265,12 +265,8 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
       {(!isEmptyList || isLoading) && (
-        <Grid
-          container
-          item
-          justifyContent='center'
+        <Box
           my={3}
-          gap={2}
           sx={{
             position: 'relative',
             minHeight: 200,
@@ -358,12 +354,12 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
               {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
             </Box>
           )}
-        </Grid>
+        </Box>
       )}
       {!isEmptyList && (
-        <Grid
-          container
-          item
+        <Stack
+          direction='row'
+          flexWrap='wrap'
           justifyContent='center'
           alignItems='center'
           my={3}
@@ -441,7 +437,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
               </MenuItem>
             ))}
           </Select>
-        </Grid>
+        </Stack>
       )}
       {!isEmptyList && (
         <FunctionalityCommonButtonListView

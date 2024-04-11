@@ -1,4 +1,4 @@
-import { Box, Checkbox, Grid } from '@mui/material';
+import { Box, Checkbox, Stack } from '@mui/material';
 import { FC } from 'react';
 
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
@@ -20,10 +20,10 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   onClickImage,
 }) => {
   return (
-    <Grid
-      container
-      item
+    <Stack
+      direction='row'
       justifyContent='center'
+      flexWrap='wrap'
       my={3}
       gap={2}
       sx={{
@@ -54,7 +54,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
           }
         </FunctionalityCommonImage>
       ))}
-    </Grid>
+    </Stack>
   );
 };
 export default FunctionalityImageList;
