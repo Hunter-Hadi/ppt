@@ -17,12 +17,12 @@ import {
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonDragSortableList from '@/features/functionality_common/components/FunctionalityCommonDragSortableList';
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import FunctionalityPdfMergeIcon from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeIcon';
 import snackNotifications from '@/utils/globalSnackbar';
 
 import { pdfPagePositions, pdfPageSizes } from '../constant';
@@ -40,11 +40,17 @@ const FunctionalityImageToPdfMain = () => {
   const [imageInfoList, setImageInfoList] = useState<
     IFunctionalityImageToPdfImageInfo[]
   >([]); //展示的pdf信息 列表
+
+  const [totalPages, setTotalPages] = useState<number>(0); //总页数
+  const [currentActionNum, setCurrentActionNum] = useState<number>(0); //当前加载页数
+
   const convertFileListToImageUrls = async (
     fileList: FileList,
   ): Promise<IFunctionalityImageToPdfImageInfo[]> => {
+    setTotalPages(fileList.length);
     const imageUrls: IFunctionalityImageToPdfImageInfo[] = [];
     for (let i = 0; i < fileList.length; i++) {
+      setCurrentActionNum(i);
       const file = fileList[i];
       const url = URL.createObjectURL(file);
       imageUrls.push({
@@ -54,6 +60,7 @@ const FunctionalityImageToPdfMain = () => {
         file,
       });
     }
+    setTotalPages(0);
     return imageUrls;
   };
 
@@ -84,8 +91,11 @@ const FunctionalityImageToPdfMain = () => {
     try {
       const pdfDoc = await PDFDocument.create();
       setIsLoading(true);
-      for (const imageFile of imageInfoList) {
+      setTotalPages(imageInfoList.length);
+      for (const index in imageInfoList) {
         try {
+          const imageFile = imageInfoList[index];
+          setCurrentActionNum(index as unknown as number);
           console.log('simply imageFile file', imageFile.file);
           const imageBytes = await imageFile.file.arrayBuffer();
           const image = await pdfDoc.embedPng(imageBytes);
@@ -130,6 +140,7 @@ const FunctionalityImageToPdfMain = () => {
           console.log('convertToPDF error:', e);
         }
       }
+      setTotalPages(0);
       // // 设置新的标题
       // pdfDoc.setTitle('MaxAi.me');
       // // 设置新的作者
@@ -285,10 +296,10 @@ const FunctionalityImageToPdfMain = () => {
                           }}
                           onClick={() => onDeleteInfo(imageInfo.id)}
                         >
-                          <FunctionalityPdfMergeIcon
+                          <FunctionalityCommonIcon
                             name='CloseTwoTone'
                             sx={{
-                              fontSize: 16,
+                              fontSize: 18,
                             }}
                           />
                         </Box>
@@ -315,6 +326,7 @@ const FunctionalityImageToPdfMain = () => {
               }}
             >
               <CircularProgress />
+              {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
             </Box>
           )}
         </Grid>
@@ -389,7 +401,6 @@ const FunctionalityImageToPdfMain = () => {
             MenuProps={{
               PaperProps: {
                 style: {
-                  height: 300,
                   width: 150,
                 },
               },

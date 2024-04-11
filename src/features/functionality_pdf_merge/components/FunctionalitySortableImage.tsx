@@ -4,9 +4,9 @@ import { Box } from '@mui/material';
 import { ceil, divide } from 'lodash-es';
 import { FC } from 'react';
 
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
-import FunctionalityPdfMergeIcon from '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeIcon';
 
 import { IFunctionalityPdfFileInfoType } from './FunctionalityPdfMergeMain';
 interface IFunctionalitySortableImageProps {
@@ -77,10 +77,10 @@ const FunctionalitySortableImage: FC<IFunctionalitySortableImageProps> = ({
                 }}
                 onClick={() => onDelete(imageInfo.id)}
               >
-                <FunctionalityPdfMergeIcon
+                <FunctionalityCommonIcon
                   name='CloseTwoTone'
                   sx={{
-                    fontSize: 16,
+                    fontSize: 18,
                   }}
                 />
               </Box>

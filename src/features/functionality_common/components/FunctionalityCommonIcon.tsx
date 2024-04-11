@@ -1,3 +1,4 @@
+import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import ControlPointTwoToneIcon from '@mui/icons-material/ControlPointTwoTone';
 import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone';
@@ -25,6 +26,8 @@ const FunctionalityCommonIcon: FC<
       case 'RemoveCircleTwoTone': {
         return <RemoveCircleTwoToneIcon {...restProps} />;
       }
+      case 'CloseTwoTone':
+        return <CloseTwoToneIcon {...restProps} />;
       default: {
         return null;
       }
