@@ -1,5 +1,25 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.1.8',
+    date: '2024-04-10',
+
+    content: [
+      {
+        title: 'Create your own instant replies',
+        lists: [
+          {
+            module: 'Your own instant replies everwhere',
+            desc: 'Create and use your personalized 1-click quick replies for email, social media, and messaging apps, saving you hours every day.',
+          },
+          {
+            module: 'Customize it your way',
+            desc: 'Whether you want to create your own prompts for quick replies, edit or review drafts, or compose new drafts, we've got you covered! Experience a fully customizable experience in the era of AI!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.1.7',
     date: '2024-04-05',
 
