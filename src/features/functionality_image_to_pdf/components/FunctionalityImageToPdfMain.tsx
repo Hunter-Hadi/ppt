@@ -1,9 +1,9 @@
 import {
   CircularProgress,
+  Grid,
   IconButton,
   MenuItem,
   Select,
-  Stack,
   Typography,
 } from '@mui/material';
 import Box from '@mui/material/Box';
@@ -357,87 +357,93 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         </Box>
       )}
       {!isEmptyList && (
-        <Stack
-          direction='row'
-          flexWrap='wrap'
+        <Grid
+          container
           justifyContent='center'
           alignItems='center'
           my={3}
           gap={2}
-          sx={{
-            position: 'relative',
-          }}
         >
-          <Typography
-            fontSize={{
-              xs: 14,
-              lg: 16,
-            }}
-            color='text.secondary'
-          >
-            {t(
-              'functionality__image_to_pdf:components__image_to_pdf__page_size',
-            )}
-          </Typography>
-          <Select
-            value={userSelectSizeType}
-            onChange={(event) => setUserSelectSizeType(event.target.value)}
-            displayEmpty
-            size='small'
-            disabled={isLoading}
-            sx={{
-              width: 150,
-            }}
-            MenuProps={{
-              PaperProps: {
-                style: {
-                  height: 300,
-                  width: 150,
+          <Grid item display='flex' alignItems='center'>
+            <Typography
+              fontSize={{
+                xs: 14,
+                lg: 16,
+              }}
+              color='text.secondary'
+            >
+              {t(
+                'functionality__image_to_pdf:components__image_to_pdf__page_size',
+              )}
+              :
+            </Typography>
+            <Select
+              value={userSelectSizeType}
+              onChange={(event) => setUserSelectSizeType(event.target.value)}
+              displayEmpty
+              size='small'
+              disabled={isLoading}
+              sx={{
+                width: 150,
+                ml: 1,
+              }}
+              MenuProps={{
+                PaperProps: {
+                  style: {
+                    height: 300,
+                    width: 150,
+                  },
                 },
-              },
-            }}
-          >
-            {PDF_PAGE_SIZE_OPTIONS.map((page) => (
-              <MenuItem value={page.name} key={page.name}>
-                {page.name}
-              </MenuItem>
-            ))}
-          </Select>
-          <Typography
-            fontSize={{
-              xs: 14,
-              lg: 16,
-            }}
-            color='text.secondary'
-          >
-            {t(
-              'functionality__image_to_pdf:components__image_to_pdf__image_alignment',
-            )}
-          </Typography>
-          <Select
-            value={userSelectPositionType}
-            onChange={(event) => setUserSelectPositionType(event.target.value)}
-            displayEmpty
-            size='small'
-            disabled={isLoading}
-            sx={{
-              width: 150,
-            }}
-            MenuProps={{
-              PaperProps: {
-                style: {
-                  width: 150,
+              }}
+            >
+              {PDF_PAGE_SIZE_OPTIONS.map((page) => (
+                <MenuItem value={page.name} key={page.name}>
+                  {page.name}
+                </MenuItem>
+              ))}
+            </Select>
+          </Grid>
+          <Grid item display='flex' alignItems='center'>
+            <Typography
+              fontSize={{
+                xs: 14,
+                lg: 16,
+              }}
+              color='text.secondary'
+            >
+              {t(
+                'functionality__image_to_pdf:components__image_to_pdf__image_alignment',
+              )}
+              :
+            </Typography>
+            <Select
+              value={userSelectPositionType}
+              onChange={(event) =>
+                setUserSelectPositionType(event.target.value)
+              }
+              displayEmpty
+              size='small'
+              disabled={isLoading}
+              sx={{
+                width: 150,
+                ml: 1,
+              }}
+              MenuProps={{
+                PaperProps: {
+                  style: {
+                    width: 150,
+                  },
                 },
-              },
-            }}
-          >
-            {PDF_IMAGE_POSITION_OPTIONS.map((pagePosition) => (
-              <MenuItem value={pagePosition.key} key={pagePosition.key}>
-                {t(pagePosition.title)}
-              </MenuItem>
-            ))}
-          </Select>
-        </Stack>
+              }}
+            >
+              {PDF_IMAGE_POSITION_OPTIONS.map((pagePosition) => (
+                <MenuItem value={pagePosition.key} key={pagePosition.key}>
+                  {t(pagePosition.title)}
+                </MenuItem>
+              ))}
+            </Select>
+          </Grid>
+        </Grid>
       )}
       {!isEmptyList && (
         <FunctionalityCommonButtonListView
