@@ -49,7 +49,7 @@ export type TrackUserInteractionRequestType = {
   platform: string;
   language: string[];
   fp: string;
-  client_uuid: string;
+  client_uuid?: string;
   meta: Record<string, any>;
 };
 
@@ -94,6 +94,11 @@ export const trackUserInteraction = debounce(
           ref: getLocalStorage('LANDING_PAGE_REF') ?? '',
         },
       };
+
+      if (!originalData.client_uuid || originalData.client_uuid === '') {
+        delete originalData.client_uuid;
+      }
+
       const info = AES.encrypt(
         JSON.stringify(originalData),
         'MaxAI',
@@ -159,7 +164,7 @@ export const useTrackUserInteractions = (i18nInstance: i18n) => {
           );
           if (muiSvgIcon) {
             buttonText = muiSvgIcon.getAttribute('data-testid') || '';
-            if (['CloseIcon'].includes(buttonText)) {
+            if (['CloseIcon', 'CloseOutlinedIcon'].includes(buttonText)) {
               buttonText = 'Close';
             } else {
               // 其他情况不记录

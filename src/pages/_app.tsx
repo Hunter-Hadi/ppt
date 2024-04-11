@@ -6,7 +6,7 @@ import 'swiper/css/scrollbar';
 import '@/styles/globals.css';
 import '@/features/share_conversation/styles/markdown.css';
 
-import CloseIcon from '@mui/icons-material/Close';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import { IconButton, Stack, ThemeProvider } from '@mui/material';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { AppProps } from 'next/app';
@@ -128,7 +128,7 @@ function App({ Component, pageProps }: AppProps) {
                 }
               }}
             >
-              <CloseIcon fontSize='inherit' sx={{ color: 'white' }} />
+              <CloseOutlinedIcon fontSize='inherit' sx={{ color: 'white' }} />
             </IconButton>
           )}
         >

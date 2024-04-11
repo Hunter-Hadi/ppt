@@ -40,7 +40,7 @@ const fontSxMap = {
     },
     paymentInfo: {
       fontSize: 16,
-      fontWeight: 500,
+      fontWeight: 400,
       lineHeight: 1.5,
     },
     desc: {
@@ -62,7 +62,7 @@ const fontSxMap = {
     },
     paymentInfo: {
       fontSize: 14,
-      fontWeight: 500,
+      fontWeight: 400,
       lineHeight: 1.35,
     },
     desc: {
@@ -181,7 +181,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
         variant='custom'
         sx={{
           ...fontSx.title,
-          color: isPopular ? 'primary.main' : 'text.primary',
+          color: isPopular ? 'promotionColor.fontMain' : 'text.primary',
         }}
       >
         {title}
@@ -191,11 +191,14 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
           variant='custom'
           fontSize={16}
           lineHeight={1.5}
-          color='primary.main'
+          color={isPopular ? 'promotionColor.fontMain' : 'primary.main'}
         >
           {t('pages:pricing__productivity')}
         </Typography>
-        <ProductivityValue value={PlanProductivity[type]} />
+        <ProductivityValue
+          color={isPopular ? 'promotionColor.fontMain' : 'primary.main'}
+          value={PlanProductivity[type]}
+        />
       </Stack>
       {renderPayInfo()}
       {showDesc && (
@@ -207,16 +210,14 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
   );
 };
 
-const ProductivityValue: FC<{ value: number }> = ({ value }) => {
+const ProductivityValue: FC<{ value: number; color: string }> = ({
+  value,
+  color,
+}) => {
   return (
     <Stack direction={'row'} alignItems='center' spacing={0.4}>
       {Array.from({ length: value }).map((_, index) => {
-        return (
-          <RocketLaunchIcon
-            key={index}
-            sx={{ color: 'primary.main', fontSize: 18 }}
-          />
-        );
+        return <RocketLaunchIcon key={index} sx={{ color, fontSize: 18 }} />;
       })}
     </Stack>
   );
