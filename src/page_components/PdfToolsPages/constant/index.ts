@@ -5,6 +5,7 @@ export type IToolUrkKeyType =
   | 'split-pdf'
   | 'png-to-pdf'
   | 'jpeg-to-pdf'
+  | 'heic-to-pdf'
 export interface IToolData {
   icon: string;
   title: string;
@@ -80,6 +81,17 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__secondary_description',
     urlKey: 'jpeg-to-pdf',
     accept: 'image/jpg',
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'heic-to-pdf': {
+    icon: 'CropOriginal',
+    title: 'pages:tools__index_page__constant_obj__heic_to_pdf__title',
+    description:
+      'pages:tools__index_page__constant_obj__heic_to_pdf__main_description',
+    secondaryDescription:
+      'pages:tools__index_page__constant_obj__heic_to_pdf__secondary_description',
+    urlKey: 'heic-to-pdf',
+    accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
   },
 };

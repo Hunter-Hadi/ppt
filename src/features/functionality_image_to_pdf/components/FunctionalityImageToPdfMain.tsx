@@ -26,7 +26,11 @@ import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/t
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import snackNotifications from '@/utils/globalSnackbar';
 
-import { PDF_IMAGE_POSITION_OPTIONS, PDF_PAGE_SIZE_OPTIONS } from '../constant';
+import {
+  IPdfImagePositionOptionKeyType,
+  PDF_IMAGE_POSITION_OPTIONS,
+  PDF_PAGE_SIZE_OPTIONS,
+} from '../constant';
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
   file: File;
 };
@@ -40,9 +44,8 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [userSelectSizeType, setUserSelectSizeType] = useState<string>('A4');
-  const [userSelectPositionType, setUserSelectPositionType] = useState<string>(
-    PDF_IMAGE_POSITION_OPTIONS[0].key,
-  );
+  const [userSelectPositionType, setUserSelectPositionType] =
+    useState<IPdfImagePositionOptionKeyType>(PDF_IMAGE_POSITION_OPTIONS[0].key);
   const [imageInfoList, setImageInfoList] = useState<
     IFunctionalityImageToPdfImageInfo[]
   >([]); //展示的pdf信息 列表
@@ -56,15 +59,29 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
     setTotalPages(fileList.length);
     const imageUrls: IFunctionalityImageToPdfImageInfo[] = [];
     for (let i = 0; i < fileList.length; i++) {
-      setCurrentActionNum(i);
-      const file = fileList[i];
-      const url = URL.createObjectURL(file);
-      imageUrls.push({
-        imageUrlString: url,
-        id: uuidV4(),
-        size: file.size,
-        file,
-      });
+      try {
+        setCurrentActionNum(i);
+        let file = fileList[i];
+        let url = '';
+        const heic2any = (await import('heic2any')).default;
+        if (file.type === 'image/heic') {
+          const resultBlob = await heic2any({
+            blob: file,
+            toType: 'image/jpeg',
+            quality: 0.9,
+          });
+          file = resultBlob as File;
+        }
+        url = URL.createObjectURL(file);
+        imageUrls.push({
+          imageUrlString: url,
+          id: uuidV4(),
+          size: file.size,
+          file,
+        });
+      } catch (e) {
+        console.log('simply convertFileListToImageUrls for error:', e);
+      }
     }
     setTotalPages(0);
     return imageUrls;
@@ -104,7 +121,6 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         try {
           const imageFile = imageInfoList[index];
           const fileType = imageFile.file.type;
-          console.log('simply fileType', fileType);
           if (
             fileType !== 'image/png' &&
             fileType !== 'image/jpeg' &&
@@ -113,7 +129,6 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             continue;
           }
           setCurrentActionNum(index as unknown as number);
-          console.log('simply imageFile file', imageFile.file);
           const imageBytes = await imageFile.file.arrayBuffer();
           let image: PDFImage | null = null;
           if (fileType === 'image/png') {
@@ -121,13 +136,16 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
           } else {
             image = await pdfDoc.embedJpg(imageBytes);
           }
-          const pageSize = await getUserSelectPageSize(); // Set the page size here
+
+          //开始获取选择的尺寸和page适配
+          const pageSize = await getUserSelectPageSize();
           if (!pageSize) return;
           const page = pdfDoc.addPage([pageSize.width, pageSize.height]);
           const imageWidth = pageSize.width;
           const imageHeight = (imageWidth * image.height) / image.width;
           let x = 0,
             y = 0;
+          //当适应完后，图片高度还大于页面高度时，按比例缩放
           if (imageHeight > pageSize.height) {
             const scale = pageSize.height / imageHeight;
             const scaledWidth = imageWidth * scale;
@@ -418,7 +436,9 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             <Select
               value={userSelectPositionType}
               onChange={(event) =>
-                setUserSelectPositionType(event.target.value)
+                setUserSelectPositionType(
+                  event.target.value as IPdfImagePositionOptionKeyType,
+                )
               }
               displayEmpty
               size='small'

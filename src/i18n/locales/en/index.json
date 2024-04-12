@@ -411,7 +411,11 @@
 
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG to PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Convert JEPG images to PDF online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF.",
+
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC to PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Convert HEIC images to PDF online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF."
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",
@@ -772,7 +776,10 @@
     "pdf_tools__png_to_pdf__description": "Convert PNG images to PDF online for free. Converter turns any PNG image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required.",
 
     "pdf_tools__jpeg_to_pdf__title": "JPEG to PDF - Convert JPEG Images to PDF Online for Free | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Convert JPEG images to PDF online for free. Converter turns any JPEG image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required."
+    "pdf_tools__jpeg_to_pdf__description": "Convert JPEG images to PDF online for free. Converter turns any JPEG image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__heic_to_pdf__title": "HEIC to PDF - Convert HEIC Images to PDF Online for Free | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Convert HEIC images to PDF online for free. Converter turns any HEIC image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required."
   },
   "features_landing": {
     "cta_text": "Add to Browser",
