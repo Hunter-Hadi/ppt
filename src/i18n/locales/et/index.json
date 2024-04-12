@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Teisenda PNG pildid PDF-iks veebis",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Iga üles laaditud pilt saab ühe lehe ühes PDF-is",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Teisenda JPEG pildid PDF-iks veebis",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Iga üles laaditud pilt saab ühe lehe ühes PDF-is"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Iga üles laaditud pilt saab ühe lehe ühes PDF-is",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC PDF-iks",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Teisenda HEIC-pildid veebis PDF-iks",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Iga üles laaditud pilt saab üheleheküljeliseks PDF-iks."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG PDF-iks - Teisenda PNG-pildid tasuta PDF-iks | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Teisenda PNG-pildid tasuta veebis PDF-iks. Konverter muudab mis tahes PNG-pildifaili kohandatud PDF-failiks. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG PDF-iks - Teisenda JPEG-pildid tasuta PDF-iks | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Teisenda JPEG-pildid tasuta veebis PDF-iks. Konverter muudab mis tahes JPEG-pildifaili kohandatud PDF-failiks. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
+    "pdf_tools__jpeg_to_pdf__description": "Teisenda JPEG-pildid tasuta veebis PDF-iks. Konverter muudab mis tahes JPEG-pildifaili kohandatud PDF-failiks. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__heic_to_pdf__title": "HEIC PDF-iks - Teisenda HEIC-pildid veebis tasuta PDF-iks | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Teisenda HEIC-pildid veebis tasuta PDF-iks. Konverter muudab igasuguse HEIC-pildifaili kohandatud PDF-failiks. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",

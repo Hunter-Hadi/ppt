@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Muunna PNG-kuvat PDF-tiedostoiksi verkossa",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Muunna JPEG-kuvat PDF-tiedostoiksi verkossa",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Muunna HEIC-kuvat PDF-muotoon verkossa",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG PDF - Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi verkossa. Muunnin muuttaa minkä tahansa PNG-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG PDF - Muunna JPEG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Muunna JPEG-kuvat PDF-tiedostoiksi ilmaiseksi verkossa. Muunnin muuttaa minkä tahansa JPEG-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita."
+    "pdf_tools__jpeg_to_pdf__description": "Muunna JPEG-kuvat PDF-tiedostoiksi ilmaiseksi verkossa. Muunnin muuttaa minkä tahansa JPEG-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita.",
+    "pdf_tools__heic_to_pdf__title": "HEIC PDF - Muunna HEIC-kuvat PDF-muotoon ilmaiseksi | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Muunna HEIC-kuvat PDF-muotoon ilmaiseksi. Muunnin muuttaa minkä tahansa HEIC-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaaditaan."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",

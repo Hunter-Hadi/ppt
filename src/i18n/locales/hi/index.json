@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG छवियों को ऑनलाइन पीडीएफ में कनवर्ट करें",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक पीडीएफ में एक पृष्ठ बन जाएगी",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "JPEG छवियों को ऑनलाइन पीडीएफ में कनवर्ट करें",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक पीडीएफ में एक पृष्ठ बन जाएगी"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक पीडीएफ में एक पृष्ठ बन जाएगी",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC से PDF में बदलें",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "ऑनलाइन HEIC छवियों को PDF में बदलें",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक PDF में एक पृष्ठ बन जाएगी।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG से PDF - नि: शुल्क में PNG छवियों को PDF में बदलें | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "ऑनलाइन मुफ्त में PNG छवियों को PDF में बदलें। कनवर्टर किसी भी PNG छवि फ़ाइल को एक अनुकूलित PDF फ़ाइल में बदलता है। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",
     "pdf_tools__jpeg_to_pdf__title": "JPEG से PDF - नि: शुल्क में JPEG छवियों को PDF में कनवर्ट करें | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "ऑनलाइन मुफ्त में JPEG छवियों को PDF में बदलें। कनवर्टर किसी भी JPEG छवि फ़ाइल को एक अनुकूलित PDF फ़ाइल में बदलता है। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।"
+    "pdf_tools__jpeg_to_pdf__description": "ऑनलाइन मुफ्त में JPEG छवियों को PDF में बदलें। कनवर्टर किसी भी JPEG छवि फ़ाइल को एक अनुकूलित PDF फ़ाइल में बदलता है। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",
+    "pdf_tools__heic_to_pdf__title": "HEIC से PDF में बदलें - ऑनलाइन फ्री में HEIC छवियों को PDF में बदलें | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "ऑनलाइन फ्री में HEIC छवियों को PDF में बदलें। कनवर्टर हर HEIC छवि फ़ाइल को एक अनुकूलित PDF फ़ाइल में बदल देता है। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।"
   },
   "features_landing": {
     "cta_text": "ब्राउज़र में जोड़ें",

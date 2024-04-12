@@ -360,17 +360,26 @@
     "tools__index_page__title": "Orodja MaxAI",
     "tools__index_page__description": "Vsi PDF orodja so 100% BREZPLAČNA in delujejo v vašem brskalniku za popolno zasebnost",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF v PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Izvozi vsako stran PDF-a kot sliko PNG ali izvleči posamezne slike iz PDF-ja v PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF v JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Izvozi vsako stran PDF-a kot sliko JPEG ali izvleči posamezne slike iz PDF-ja v JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Združi PDF-je",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Združite več PDF datotek v eno z le nekaj kliki",
     "tools__index_page__constant_obj__split_a_pdf__title": "Razdeli PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Vsaka izbrana stran bo postala ločena datoteka PDF. Lahko pa združite izbrane strani v eno samo datoteko PDF.",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG v PDF",
-    "tools__index_page__constant_obj__png_to_pdf__description": "Vsaka naložena slika bo postala stran v enem samem PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG v PDF",
-    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Vsaka naložena slika bo postala stran v enem samem PDF."
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Izvozi vsako stran PDF-a kot sliko PNG ali izvleči posamezne slike iz PDF-ov v PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Izvozi vsako stran PDF-a kot sliko PNG ali izvleči posamezne slike iz PDF-ov v PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Izvozi vsako stran PDF-a kot sliko JPEG ali izvleči posamezne slike iz PDF-ov v JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Izvozi vsako stran kot sliko JPEG ali izvleči posamezne slike iz PDF-ov v JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Združi poljubno število PDF-ov v izbranem vrstnem redu v en sam PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Združi več datotek PDF v eno z le nekaj kliki",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Razdeli strani PDF-a v več PDF-jev ali preprosto odstrani strani iz obstoječega",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Razdeli strani PDF-a v več PDF-jev ali preprosto odstrani strani iz obstoječega",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Spletno pretvori PNG slike v PDF",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Vsaka naložena slika bo postala stran v enem samem PDF-ju.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Spletno pretvori JPEG slike v PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Vsaka naložena slika bo postala stran v enem samem PDF-ju.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC v PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Spletno pretvori HEIC slike v PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Vsaka naložena slika bo postala stran v enem samem PDF-ju."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -622,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG v PDF - Pretvori PNG slike v PDF na spletu brezplačno | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Brezplačno pretvorite PNG slike v PDF. Pretvornik spremeni katero koli PNG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG v PDF - Pretvori JPEG slike v PDF na spletu brezplačno | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Brezplačno pretvorite JPEG slike v PDF. Pretvornik spremeni katero koli JPEG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
+    "pdf_tools__jpeg_to_pdf__description": "Brezplačno pretvorite JPEG slike v PDF. Pretvornik spremeni katero koli JPEG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
+    "pdf_tools__heic_to_pdf__title": "HEIC v PDF - Spletno pretvori HEIC slike v PDF brezplačno | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Spletno pretvori HEIC slike v PDF brezplačno. Pretvornik pretvori katero koli datoteko s sliko HEIC v prilagojen PDF. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",

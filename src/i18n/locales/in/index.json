@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konversi gambar PNG ke PDF secara online",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Konversi gambar JEPG ke PDF secara online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ke PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konversi gambar HEIC ke PDF secara online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu file PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG ke PDF - Konversi Gambar PNG ke PDF Online Gratis | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Mengonversi gambar PNG menjadi PDF secara online dan gratis. Konverter mengubah file gambar PNG menjadi file PDF yang disesuaikan. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG ke PDF - Konversi Gambar JPEG ke PDF Online Gratis | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Mengonversi gambar JPEG menjadi PDF secara online dan gratis. Konverter mengubah file gambar JPEG menjadi file PDF yang disesuaikan. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
+    "pdf_tools__jpeg_to_pdf__description": "Mengonversi gambar JPEG menjadi PDF secara online dan gratis. Konverter mengubah file gambar JPEG menjadi file PDF yang disesuaikan. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "pdf_tools__heic_to_pdf__title": "HEIC ke PDF - Konversi Gambar HEIC ke PDF Secara Online Gratis | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Konversi gambar HEIC ke PDF secara online gratis. Konverter mengubah file gambar HEIC menjadi file PDF yang disesuaikan. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",

@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konverter PNG-billeder til PDF online",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Hver uploadet billede bliver til en side i en enkelt PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Konverter JPEG-billeder til PDF online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Hver uploadet billede bliver til en side i en enkelt PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Hver uploadet billede bliver til en side i en enkelt PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC til PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konverter HEIC-billeder til PDF online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hver uploadet billede vil blive en side i en enkelt PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG til PDF - Konverter PNG-billeder til PDF online gratis | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Konverter PNG-billeder til PDF online gratis. Konverteren omdanner enhver PNG-billedfil til en tilpasset PDF-fil. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG til PDF - Konverter JPEG-billeder til PDF online gratis | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Konverter JPEG-billeder til PDF online gratis. Konverteren omdanner enhver JPEG-billedfil til en tilpasset PDF-fil. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet."
+    "pdf_tools__jpeg_to_pdf__description": "Konverter JPEG-billeder til PDF online gratis. Konverteren omdanner enhver JPEG-billedfil til en tilpasset PDF-fil. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet.",
+    "pdf_tools__heic_to_pdf__title": "HEIC til PDF - Konverter HEIC-billeder til PDF online gratis | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Konverter HEIC-billeder til PDF online gratis. Konverteren omdanner enhver HEIC-billedfil til en tilpasset PDF-fil. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",

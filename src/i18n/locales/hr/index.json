@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Pretvori PNG slike u PDF online",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Svaka prenesena slika postat će stranica u jednom PDF-u",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Pretvori JPEG slike u PDF online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Svaka prenesena slika postat će stranica u jednom PDF-u"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Svaka prenesena slika postat će stranica u jednom PDF-u",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC u PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Pretvorite HEIC slike u PDF online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Svaka uploadana slika će postati stranica u jednom PDF-u."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG u PDF - Pretvorite PNG slike u PDF online besplatno | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Besplatno pretvorite PNG slike u PDF online. Konverter pretvara bilo koju PNG sliku u prilagođeni PDF. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG u PDF - Pretvori JPEG slike u PDF online besplatno | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Besplatno pretvorite JPEG slike u PDF online. Konverter pretvara bilo koju JPEG sliku u prilagođeni PDF. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava."
+    "pdf_tools__jpeg_to_pdf__description": "Besplatno pretvorite JPEG slike u PDF online. Konverter pretvara bilo koju JPEG sliku u prilagođeni PDF. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava.",
+    "pdf_tools__heic_to_pdf__title": "HEIC u PDF - Pretvorite HEIC slike u PDF online besplatno | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Pretvorite HEIC slike u PDF online besplatno. Konverter pretvara bilo koju HEIC sliku u prilagođeni PDF. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija."
   },
   "features_landing": {
     "cta_text": "Dodaj u preglednik",

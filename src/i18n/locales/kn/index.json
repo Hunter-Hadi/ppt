@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "ಪಿಎನ್‌ಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಗೆ ಮಾರ್ಪಡಿಸಿ",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ಪುಟವಾಗುತ್ತದೆ",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "ಜೆಪಿಇಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಗೆ ಮಾರ್ಪಡಿಸಿ",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ಪುಟವಾಗುತ್ತದೆ"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ಪುಟವಾಗುತ್ತದೆ",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ನಿಂದ PDF ಗೆ",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "ಹೊಸದಾಗಿ HEIC ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ PNG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಎನ್‌ಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಕನಿಷ್ಠ ಅಂಶ ಹಾಕುಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಾದಿಯಲ್ಲಿ ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಂತಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ JPEG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "ಉಚಿತವಾಗಿ ಜೆಪಿಇಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಕನಿಷ್ಠ ಅಂಶ ಹಾಕುಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಾದಿಯಲ್ಲಿ ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಂತಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
+    "pdf_tools__jpeg_to_pdf__description": "ಉಚಿತವಾಗಿ ಜೆಪಿಇಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಕನಿಷ್ಠ ಅಂಶ ಹಾಕುಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಾದಿಯಲ್ಲಿ ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಂತಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
+    "pdf_tools__heic_to_pdf__title": "HEIC ನಿಂದ PDF ಗೆ - ಹೊಸದಾಗಿ HEIC ಚಿತ್ರಗಳನ್ನು ಉಚಿತವಾಗಿ PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "ಹೊಸದಾಗಿ HEIC ಚಿತ್ರಗಳನ್ನು ಉಚಿತವಾಗಿ PDF ಗೆ ಪರಿವರ್ತಿಸಿ. ಪರಿವರ್ತಕ ಯಾವುದೇ HEIC ಚಿತ್ರ ಫೈಲನ್ನು ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ PDF ಫೈಲಾಗಿ ಮಾಡುತ್ತದೆ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
   },
   "features_landing": {
     "cta_text": "ಬ್ರೌಸರ್‌ಗೆ ಸೇರಿಸಿ",

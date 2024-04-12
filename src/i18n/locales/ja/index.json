@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNGイメージをオンラインでPDFに変換します",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "アップロードされた各イメージは1つのPDFのページになります",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "JPEGイメージをオンラインでPDFに変換します",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "アップロードされた各イメージは1つのPDFのページになります"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "アップロードされた各イメージは1つのPDFのページになります",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEICからPDFへ",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "HEIC画像をオンラインでPDFに変換",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "アップロードされた各画像は、1つのPDF内のページになります。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNGからPDF - 無料でPNG画像をPDFに変換 | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "PNG画像を無料でオンラインでPDFに変換します。コンバーターは任意のPNG画像ファイルをカスタマイズされたPDFファイルに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
     "pdf_tools__jpeg_to_pdf__title": "JPEGからPDFへ - 無料でJPEG画像をPDFに変換 | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "JPEG画像を無料でオンラインでPDFに変換します。コンバーターは任意のJPEG画像ファイルをカスタマイズされたPDFファイルに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。"
+    "pdf_tools__jpeg_to_pdf__description": "JPEG画像を無料でオンラインでPDFに変換します。コンバーターは任意のJPEG画像ファイルをカスタマイズされたPDFファイルに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__heic_to_pdf__title": "HEICからPDFへ - HEIC画像を無料でオンラインでPDFに変換 | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "HEIC画像を無料でオンラインでPDFに変換します。コンバーターは任意のHEIC画像ファイルをカスタマイズされたPDFファイルに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、またはサインアップは必要ありません。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",

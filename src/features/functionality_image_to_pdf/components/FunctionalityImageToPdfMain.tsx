@@ -32,7 +32,7 @@ import {
   PDF_PAGE_SIZE_OPTIONS,
 } from '../constant';
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
-  file: File;
+  file: File | Blob;
 };
 interface IFunctionalityImageToPdfMainProps {
   accept: string;
@@ -61,7 +61,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
     for (let i = 0; i < fileList.length; i++) {
       try {
         setCurrentActionNum(i);
-        let file = fileList[i];
+        let file: File | Blob = fileList[i];
         let url = '';
         const heic2any = (await import('heic2any')).default;
         if (file.type === 'image/heic') {
@@ -70,7 +70,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             toType: 'image/jpeg',
             quality: 0.9,
           });
-          file = resultBlob as File;
+          file = resultBlob as Blob;
         }
         url = URL.createObjectURL(file);
         imageUrls.push({

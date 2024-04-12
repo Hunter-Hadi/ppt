@@ -112,7 +112,7 @@ const FunctionalityCommonDragSortableList = <T,>({
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 2,
+        distance: 2, // 按住不动移动2px 时 才进行拖拽, 这样就可以触发点击事件
       },
     }),
     useSensor(KeyboardSensor),
@@ -137,7 +137,6 @@ const FunctionalityCommonDragSortableList = <T,>({
           justifyContent='center'
           my={3}
           gap={2}
-          // Consider moving styles that don't change to static CSS
         >
           {list.map((imageInfo, index) => (
             <MemoFunctionalitySortableItem

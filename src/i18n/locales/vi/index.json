@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Chuyển đổi hình ảnh PNG thành PDF trực tuyến",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Chuyển đổi hình ảnh JPEG thành PDF trực tuyến",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC thành PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Chuyển đổi hình ảnh HEIC thành PDF trực tuyến",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Mỗi hình ảnh được tải lên sẽ trở thành một trang trong một tệp PDF duy nhất."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG thành PDF - Chuyển đổi Hình ảnh PNG thành PDF Trực tuyến Miễn phí | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Chuyển đổi hình ảnh PNG thành PDF trực tuyến miễn phí. Trình chuyển đổi biến bất kỳ tệp hình ảnh PNG nào thành tệp PDF được tùy chỉnh. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết.",
     "pdf_tools__jpeg_to_pdf__title": "Chuyển đổi JPEG sang PDF - Chuyển đổi Hình ảnh JPEG sang PDF Trực tuyến Miễn phí | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Chuyển đổi hình ảnh JPEG thành PDF trực tuyến miễn phí. Trình chuyển đổi biến bất kỳ tệp hình ảnh JPEG nào thành tệp PDF được tùy chỉnh. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết."
+    "pdf_tools__jpeg_to_pdf__description": "Chuyển đổi hình ảnh JPEG thành PDF trực tuyến miễn phí. Trình chuyển đổi biến bất kỳ tệp hình ảnh JPEG nào thành tệp PDF được tùy chỉnh. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết.",
+    "pdf_tools__heic_to_pdf__title": "HEIC thành PDF - Chuyển đổi hình ảnh HEIC thành PDF trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Chuyển đổi hình ảnh HEIC thành PDF trực tuyến miễn phí. Trình chuyển đổi biến bất kỳ tệp hình ảnh HEIC nào thành một tệp PDF tùy chỉnh. Không có dấu watermark, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",

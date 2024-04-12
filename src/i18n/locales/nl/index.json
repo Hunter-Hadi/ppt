@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Converteer PNG-afbeeldingen naar PDF online",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Elke geüploade afbeelding wordt een pagina in één PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Converteer JEPG-afbeeldingen naar PDF online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Elke geüploade afbeelding wordt een pagina in één PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Elke geüploade afbeelding wordt een pagina in één PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC naar PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Converteer HEIC-afbeeldingen naar PDF online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Elke geüploade afbeelding wordt een pagina in één PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG naar PDF - Converteer PNG-afbeeldingen naar PDF online en gratis | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Converteer PNG-afbeeldingen gratis online naar PDF. De converter maakt van elke PNG-afbeelding een aangepast PDF-bestand. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG naar PDF - Converteer JPEG-afbeeldingen naar PDF online gratis | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Converteer JPEG-afbeeldingen gratis online naar PDF. De converter maakt van elke JPEG-afbeelding een aangepast PDF-bestand. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
+    "pdf_tools__jpeg_to_pdf__description": "Converteer JPEG-afbeeldingen gratis online naar PDF. De converter maakt van elke JPEG-afbeelding een aangepast PDF-bestand. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "pdf_tools__heic_to_pdf__title": "HEIC naar PDF - Converteer HEIC-afbeeldingen naar PDF online gratis | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Converteer HEIC-afbeeldingen gratis naar PDF online. De converter maakt van elke HEIC-afbeeldingsbestand een aangepast PDF-bestand. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",

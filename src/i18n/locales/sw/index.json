@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Badilisha picha za PNG kuwa PDF mtandaoni",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Badilisha picha za JEPG kuwa PDF mtandaoni",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "Badilisha HEIC kuwa PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Badilisha picha za HEIC kuwa PDF mtandaoni",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG hadi PDF - Badilisha Picha za PNG kuwa PDF Mtandaoni Bure | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Badilisha picha za PNG kuwa PDF mtandaoni bila malipo. Konverta inabadilisha faili yoyote ya picha ya PNG kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG hadi PDF - Badilisha Picha za JPEG kuwa PDF Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Badilisha picha za JPEG kuwa PDF mtandaoni bila malipo. Konverta inabadilisha faili yoyote ya picha ya JPEG kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika."
+    "pdf_tools__jpeg_to_pdf__description": "Badilisha picha za JPEG kuwa PDF mtandaoni bila malipo. Konverta inabadilisha faili yoyote ya picha ya JPEG kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika.",
+    "pdf_tools__heic_to_pdf__title": "Badilisha HEIC kuwa PDF - Badilisha Picha za HEIC kuwa PDF Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Badilisha picha za HEIC kuwa PDF mtandaoni bure. Kigeuzi hubadilisha faili yoyote ya picha ya HEIC kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, mipaka ya ukubwa wa faili, kupakua, au kujisajili inayohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",

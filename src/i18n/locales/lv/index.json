@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertējiet PNG attēlus uz PDF tiešsaistē",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Konvertējiet JEPG attēlus uz PDF tiešsaistē",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC uz PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Pārveido HEIC attēlus uz PDF tiešsaistē",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par vienu lapu PDF failā."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG uz PDF - Konvertēt PNG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Konvertējiet PNG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru PNG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG uz PDF - Konvertēt JPEG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Konvertējiet JPEG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru JPEG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
+    "pdf_tools__jpeg_to_pdf__description": "Konvertējiet JPEG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru JPEG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
+    "pdf_tools__heic_to_pdf__title": "HEIC uz PDF - Pārveido HEIC attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Pārveido HEIC attēlus uz PDF tiešsaistē bez maksas. Konvertētājs pārvērš jebkuru HEIC attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",

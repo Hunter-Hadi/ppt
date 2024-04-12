@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "I-convert ang mga larawan na PNG papunta sa PDF online",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Ang bawat na-upload na larawan ay magiging isang pahina sa isang solong PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "I-convert ang mga larawan na JEPG papunta sa PDF online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Ang bawat na-upload na larawan ay magiging isang pahina sa isang solong PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Ang bawat na-upload na larawan ay magiging isang pahina sa isang solong PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC sa PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "I-convert ang mga larawang HEIC sa PDF online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Ang bawat na-upload na larawan ay magiging isang pahina sa isang solong PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG sa PDF - I-convert ang Mga Imahe ng PNG sa PDF Online nang Libre | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "I-convert ang mga larawan ng PNG sa PDF online nang libre. Ang converter ay nagpapalit ng anumang file ng larawang PNG sa isang pasadyang file ng PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG sa PDF - I-convert ang mga Larawan ng JPEG sa PDF Online nang Libre | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "I-convert ang mga larawan ng JPEG sa PDF online nang libre. Ang converter ay nagpapalit ng anumang file ng larawang JPEG sa isang pasadyang file ng PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan."
+    "pdf_tools__jpeg_to_pdf__description": "I-convert ang mga larawan ng JPEG sa PDF online nang libre. Ang converter ay nagpapalit ng anumang file ng larawang JPEG sa isang pasadyang file ng PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
+    "pdf_tools__heic_to_pdf__title": "HEIC sa PDF - I-convert ang mga Larawang HEIC sa PDF Online nang Libre | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "I-convert ang mga larawang HEIC sa PDF online nang libre. Ang converter ay nagpapalit ng anumang file ng larawang HEIC sa isang pasadyang file ng PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",

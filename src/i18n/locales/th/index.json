@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "แปลงรูปภาพ PNG เป็น PDF ออนไลน์",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "แต่ละรูปที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "แปลงรูปภาพ JEPG เป็น PDF ออนไลน์",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "แต่ละรูปที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "แต่ละรูปที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC เป็น PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "แปลงรูปภาพ HEIC เป็น PDF ออนไลน์",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "รูปภาพที่อัปโหลดจะกลายเป็นหน้าในไฟล์ PDF เดียว"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG เป็น PDF - แปลงรูปภาพ PNG เป็น PDF ออนไลน์ฟรี | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "แปลงรูปภาพ PNG เป็น PDF ออนไลน์ฟรี โปรแกรมแปลงไฟล์รูปภาพ PNG เป็นไฟล์ PDF ที่กำหนดเอง ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการสมัครสมาชิกที่จำเป็น",
     "pdf_tools__jpeg_to_pdf__title": "JPEG เป็น PDF - แปลงรูปภาพ JPEG เป็น PDF ออนไลน์ฟรี | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "แปลงรูปภาพ JPEG เป็น PDF ออนไลน์ฟรี โปรแกรมแปลงไฟล์รูปภาพ JPEG เป็นไฟล์ PDF ที่กำหนดเอง ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการสมัครสมาชิกที่จำเป็น"
+    "pdf_tools__jpeg_to_pdf__description": "แปลงรูปภาพ JPEG เป็น PDF ออนไลน์ฟรี โปรแกรมแปลงไฟล์รูปภาพ JPEG เป็นไฟล์ PDF ที่กำหนดเอง ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการสมัครสมาชิกที่จำเป็น",
+    "pdf_tools__heic_to_pdf__title": "HEIC เป็น PDF - แปลงรูปภาพ HEIC เป็น PDF ออนไลน์ฟรี | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "แปลงรูปภาพ HEIC เป็น PDF ออนไลน์ฟรี โปรแกรมแปลงไฟล์ที่จะแปลงไฟล์รูปภาพ HEIC เป็นไฟล์ PDF ที่กำหนดเอง ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการลงทะเบียนที่ต้องการ"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",

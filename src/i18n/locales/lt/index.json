@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertuokite PNG paveikslėlius į PDF internete",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Kiekvienas įkeltas paveikslėlis taps vieno PDF puslapio dalimi.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Konvertuokite JEPG paveikslėlius į PDF internete",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Kiekvienas įkeltas paveikslėlis taps vieno PDF puslapio dalimi."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Kiekvienas įkeltas paveikslėlis taps vieno PDF puslapio dalimi.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC į PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konvertuokite HEIC nuotraukas į PDF internetu",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Kiekviena įkelta nuotrauka taps viena puslapiu PDF faile."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG į PDF - Konvertuoti PNG paveikslėlius į PDF internete nemokamai | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Konvertuokite PNG paveikslėlius į PDF internete nemokamai. Konverteris paverčia bet kurį PNG paveikslėlio failą į tinkintą PDF failą. Nereikalingi vandens ženklai, failo dydžio apribojimai, atsisiuntimai ar prisijungimai.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG į PDF - Konvertuoti JPEG nuotraukas į PDF internete nemokamai | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Konvertuokite JPEG paveikslėlius į PDF internete nemokamai. Konverteris paverčia bet kurį JPEG paveikslėlio failą į tinkintą PDF failą. Nereikalingi vandens ženklai, failo dydžio apribojimai, atsisiuntimai ar prisijungimai."
+    "pdf_tools__jpeg_to_pdf__description": "Konvertuokite JPEG paveikslėlius į PDF internete nemokamai. Konverteris paverčia bet kurį JPEG paveikslėlio failą į tinkintą PDF failą. Nereikalingi vandens ženklai, failo dydžio apribojimai, atsisiuntimai ar prisijungimai.",
+    "pdf_tools__heic_to_pdf__title": "HEIC į PDF - Konvertuokite HEIC Nuotraukas į PDF Nemokamai | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Konvertuokite HEIC nuotraukas į PDF nemokamai internetu. Konverteris paverčia bet kokią HEIC nuotraukos failą į tinkintą PDF failą. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",
