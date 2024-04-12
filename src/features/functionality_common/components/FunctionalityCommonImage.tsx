@@ -1,4 +1,4 @@
-import { Box, SxProps, Typography } from '@mui/material';
+import { Box, Stack, SxProps, Typography } from '@mui/material';
 import { CSSProperties, FC } from 'react';
 
 import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
@@ -40,7 +40,10 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
         ...wrapSx,
       }}
     >
-      <Box
+      <Stack
+        flexDirection='column'
+        alignItems='center'
+        flexWrap='wrap'
         sx={{
           padding: 1,
           bgcolor: '#9065b00a',
@@ -48,10 +51,6 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
             bgcolor: '#f0eded',
           },
           borderRadius: 1,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          flexWrap: 'wrap',
           ...sx,
         }}
       >
@@ -81,7 +80,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
         >
           {name}
         </Typography>
-      </Box>
+      </Stack>
       {children}
     </Box>
   );

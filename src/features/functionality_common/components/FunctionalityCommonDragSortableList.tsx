@@ -25,6 +25,10 @@ interface IFunctionalitySortableItemProps<T> {
   childrenElement: (data: DragDataItem<T>) => JSX.Element;
 }
 
+/**
+ *
+ * FunctionalitySortableImage 拖拽的子元素功能，需要useSortable所以单独放上面
+ */
 const FunctionalitySortableItem = <T,>({
   imageInfo,
   isActive,
@@ -46,13 +50,7 @@ const FunctionalitySortableItem = <T,>({
       {...attributes}
       sx={{
         cursor: 'grab',
-        position: 'relative',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        flexWrap: 'wrap',
         width: 200,
-        bgcolor: 'transparent',
       }}
     >
       {childrenElement(imageInfo)}
@@ -164,7 +162,7 @@ const FunctionalityCommonDragSortableList = <T,>({
           )}
         </Stack>
       </SortableContext>
-      <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+      <Stack justifyContent='center' alignItems='center'>
         <Typography
           variant='custom'
           color='text.secondary'
@@ -174,7 +172,7 @@ const FunctionalityCommonDragSortableList = <T,>({
         >
           {t('functionality__common:components__common__drag__dropping_tip')}
         </Typography>
-      </Box>
+      </Stack>
     </DndContext>
   );
 };

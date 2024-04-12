@@ -1,13 +1,10 @@
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
 import languageCodeMap from '../src/i18n/types/languageCodeMap.json' assert { type: 'json' };
 import pdfToolsCodeMap from '../src/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json' assert { type: 'json' };
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const IS_PROD = true;
 
 const pagesDirectory = 'src/pages';
@@ -149,7 +146,6 @@ async function generateToolsPages() {
   const toolsPages = Object.keys(pdfToolsCodeMap.childrens).map(
     (url) => `${pdfToolsCodeMap.topUrlKey}/${url}`,
   );
-  console.log('toolsPages', toolsPages);
 
   return toolsPages.concat(generateStaticPagesWithLocale(toolsPages));
 }

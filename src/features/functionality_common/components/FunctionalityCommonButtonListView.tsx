@@ -1,5 +1,4 @@
 import { IconButton, IconButtonProps } from '@mui/material';
-import Box from '@mui/material/Box';
 import Button, { ButtonProps } from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import React from 'react';
@@ -101,15 +100,11 @@ export const FunctionalityCommonButtonListView: React.FC<
                     </FunctionalityCommonTooltip>
                   ),
                 )}
-              {config.type === 'upload' && (
+              {config.type === 'upload' && config.uploadProps && (
                 <FunctionalityCommonTooltip
                   title={config.uploadProps?.tooltip || ''}
                 >
-                  <Box>
-                    {config.uploadProps && (
-                      <UploadButton {...config.uploadProps} />
-                    )}
-                  </Box>
+                  <UploadButton {...config.uploadProps} />
                 </FunctionalityCommonTooltip>
               )}
             </React.Fragment>
