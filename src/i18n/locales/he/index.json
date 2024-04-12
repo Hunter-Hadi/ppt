@@ -360,13 +360,23 @@
     "tools__index_page__title": "כלי MaxAI",
     "tools__index_page__description": "כל כלי PDF הם בחינם לחלוטין ורצים בדפדפן שלך לפרטיות מוחלטת",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ל-PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "ייצוא כל עמוד PDF כתמונת PNG או חליץ תמונות בודדות מה- PDF ל-JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ל-JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ייצוא כל עמוד PDF כתמונת JPEG או חליץ תמונות בודדות מה- PDF ל-JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "מיזוג PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
     "tools__index_page__constant_obj__split_a_pdf__title": "לחלק PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "כל עמוד שנבחר יהפוך לקובץ PDF נפרד. בנוסף, תוכל למזג עמודים שנבחרו לקובץ PDF אחד."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG ל-PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ל-PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "ייצוא כל עמוד PDF כתמונת PNG או חליץ תמונות יחידות מה-PDF ל-PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ייצוא כל עמוד PDF כתמונת PNG או חליץ תמונות יחידות מה-PDF ל-PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ייצוא כל עמוד PDF כתמונת JPEG או חליץ תמונות יחידות מה-PDF ל-JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ייצוא כל עמוד כתמונת JPEG או חליץ תמונות יחידות מה-PDF ל-JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "מיזוג כל כמות של PDF בסדר שבחרת לתוך PDF יחיד",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "פיצול עמודי PDF ל-PDFים מרובים או פשוט הסרת עמודים מקיים",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "פיצול עמודי PDF ל-PDFים מרובים או פשוט הסרת עמודים מקיים",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "המרת תמונות PNG ל-PDF מקוון",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "כל תמונה שנטענה תהפוך לעמוד ב-PDF יחיד",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "המרת תמונות JEPG ל-PDF מקוון",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "כל תמונה שנטענה תהפוך לעמוד ב-PDF יחיד"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -613,7 +623,11 @@
     "pdf_tools__merge_pdfs__title": "מיזוג PDF - שלב קבצי PDF באינטרנט בחינם | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "שלב קבצי PDF וצור מסמך אחד באינטרנט בחינם. עם מחבר ה-PDF שלנו, מיזוג PDFs הפך קל יותר מתמיד. ללא סימני מים, הגבלות גודל קובץ, הורדות או הרשמות.",
     "pdf_tools__split_pdf__title": "פיצול PDF – נפרד עמודי PDF באינטרנט בחינם | MaxAI.me",
-    "pdf_tools__split_pdf__description": "פיצול עמודים או הסרת עמודים ב-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות."
+    "pdf_tools__split_pdf__description": "פיצול עמודים או הסרת עמודים ב-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
+    "pdf_tools__png_to_pdf__title": "PNG ל-PDF - המרת תמונות PNG ל-PDF מקוון בחינם | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "המרת תמונות PNG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת PNG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ל-PDF - המרת תמונות JPEG ל-PDF מקוון בחינם | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "המרת תמונות JPEG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת JPEG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -677,7 +691,6 @@
     "components__pdf_merge__add_pdf": "הוסף PDF",
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
-    "components__pdf_merge__pdf_dropping": "ניתן לכוון את סדר ה- PDF על ידי גרירה ושחרור",
     "components__pdf_merge__button__download__tooltip": "מיזוג והורדת PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "נקה את כל ה- PDF למטה",
     "components__pdf_merge__button__add_pdfs__tooltip": "הוסף קובץ PDF למטה"
@@ -689,7 +702,6 @@
     "components__pdf_split__select_all": "בחר הכל",
     "components__pdf_split__deselect_all": "בטל בחירת הכל",
     "components__pdf_split__confirm_split": "אשר לפצל",
-    "components__pdf_split__pdf_dropping": "ניתן לכוון את סדר ה-PDF על ידי גרירה ושחרור",
     "components__pdf_split__is_single_pdf": "מזג עמודים שנבחרו ל-PDF יחיד",
     "components__pdf_split__cancel": "ביטול",
     "components__pdf_split__error_maximum": "נכשל בפיצול קבצי PDF, חרג מהכמות המרבית",
@@ -700,6 +712,21 @@
     "components__pdf_split__button__cancel__tooltip": "בטל את התהליך הנוכחי"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לנהל את ה- PDF, דילג"
+    "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לנהל את ה- PDF, דילג",
+    "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
+    "components__image_to_pdf__button_add_png": "הוסף תמונות",
+    "components__image_to_pdf__button_add_png__tooltip": "הוסף תמונות למטה",
+    "components__image_to_pdf__button_remove_png": "הסר תמונות",
+    "components__image_to_pdf__button_remove_png__tooltip": "נקה את התמונות למטה",
+    "components__image_to_pdf__page_size": "גודל הדף",
+    "components__image_to_pdf__image_alignment": "יישור התמונה",
+    "components__image_to_pdf__download": "הורדה",
+    "components__image_to_pdf__download__tooltip": "צור והורד PDF",
+    "components__image_to_pdf__position_middle": "אמצע",
+    "components__image_to_pdf__position_top": "חלק עליון",
+    "components__image_to_pdf__position_bottom": "חלק תחתון"
   }
 }

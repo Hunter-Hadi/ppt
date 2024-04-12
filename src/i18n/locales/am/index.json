@@ -360,13 +360,23 @@
     "tools__index_page__title": "መክፈቻዎች MaxAI",
     "tools__index_page__description": "ሁሉንም PDF መሳሪያዎች በእርስዎ የተከሰተ ናቸው፣ እና በገንዘብዎ ላይ ለማግኘት የሚገባውን በመጠቀም በማሳየት የሚያስችል ነው",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ወደ PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "የመፃፍ PDF ገጽን በ PNG ምስል ለመውሰድ ወይም PDF ከሚገኘው ምስል የተገኘውን ምስልን በ PNG ምስል ለመውሰድ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ወደ JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "የመፃፍ PDF ገጽን በ JPEG ምስል ለመውሰድ ወይም PDF ከሚገኘው ምስል የተገኘውን ምስልን በ JPEG ምስል ለመውሰድ",
     "tools__index_page__constant_obj__merge_pdfs__title": "ፕድን ማርገዝ",
-    "tools__index_page__constant_obj__merge_pdfs__description": "በጥቂት ጊዜ በአካባቢ ሁኔታ ማርገዝ መጠቀም የሚችል ሁኔታዎችን ያግኙ",
     "tools__index_page__constant_obj__split_a_pdf__title": "ፕድስ አርትስን መሸጥ",
-    "tools__index_page__constant_obj__split_a_pdf__description": "የተመረጡ ገጽዎች አንድ አርትስ ፎቶ በመሸጥ ይቻላል። ማንኛውም ገጽ አንድ አርትስ ፎቶ አንድ ፎቶ ለመቀነስ ይቻላል።"
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG ለ PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ለ PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "የነጻ ፕድስ የሚሰራ በ PNG ምስል ወይም የፕድስ እንዴት የሚሰራ የሚሰሩ ምስሎችን ወደ PNG ምስል ይዘት",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "የነጻ ፕድስ የሚሰራ በ PNG ምስል ወይም የፕድስ እንዴት የሚሰራ የሚሰሩ ምስሎችን ወደ PNG ምስል ይዘት",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "የነጻ ፕድስ የሚሰራ በ JPEG ምስል ወይም የፕድስ እንዴት የሚሰራ የሚሰሩ ምስሎችን ወደ JPEG ምስል ይዘት",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "የነጻ ፕድስ የሚሰራ በ JPEG ምስል ወይም የፕድስ እንዴት የሚሰራ የሚሰሩ ምስሎችን ወደ JPEG ምስል ይዘት",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "የሚሰሩ የማንቂያ ቁጥሮችን በአማካኝነት ወደ አንድ ፕድስ ይቀይሩ",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "የሚሰሩ የማንቂያ ፋይሎችን በጥቂት አይነት አንድ ፕድስ ይቀይሩ",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "የማንቂያ ገጽዎን በአንድ ፕድስ ወይም በአንድ ፕድስ ማሳያ የሚሰራ የሚሰሩ ገጽዎችን ይቀይሩ",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "የማንቂያ ገጽዎን በአንድ ፕድስ ወይም በአንድ ፕድስ ማሳያ የሚሰራ የሚሰሩ ገጽዎችን ይቀይሩ",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "የ PNG ምስልን ወደ PDF ማስተላለፊያ",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "የተላለፈው የማስተላለፊያ ምስል የአሁኑ የ PDF ገጽ መስመር ይችላል",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "የ JPEG ምስልን ወደ PDF ማስተላለፊያ",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "የተላለፈው የማስተላለፊያ ምስል የአሁኑ የ PDF ገጽ መስመር ይችላል"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "PDF ለማሰናጃ - የሚለውን PDF ፋይሎችን በነፃ እንዴት ማሰናጃ | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "የሚለውን PDF ፋይሎችን ለመሰናጃ የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
     "pdf_tools__split_pdf__title": "ፕድን ማቅረብ - በነፃ እናደርጋለን | MaxAI.me",
-    "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።"
+    "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።",
+    "pdf_tools__png_to_pdf__title": "PNG ለ PDF - የPNG ምስሎችን በነፃ ለPDF በነፃ | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "ፓንግ ምስሎችን በነፃ ያለውን PDF ፋይል በነፃ መፍቻለት ነው። የሚሰሩት ፓንግ ምስሎችን የተጠቀሙ PDF ፋይል ፋይል አይደለም። የሚያስፈልጉት የፋይል መጠን የፋይል መጠን አይደለም።",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ለ PDF - የእርስዎን ምስልን በነጻ የሚሰራውን PDF በነፃ እናት | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "ጄፕኤግ ምስሎችን በነፃ ያለውን PDF ፋይል በነፃ መፍቻለት ነው። የሚሰሩት ጄፕኤግ ምስሎችን የተጠቀሙ PDF ፋይል ፋይል አይደለም። የሚያስፈልጉት የፋይል መጠን የፋይል መጠን አይደለም።"
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "PDF ጨምር",
     "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
     "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
-    "components__pdf_merge__pdf_dropping": "የ PDF ክፍልን በማስተላለፍ ይሻላል",
     "components__pdf_merge__button__download__tooltip": "አውርድ እና የPDF አጽዳፊዎች",
     "components__pdf_merge__button__clear_pdfs__tooltip": "ሁሉንም PDF ወደፊት አጽዳ",
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF ፋይል ወደፊት ጨምር"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "ሁሉንም ይምረጡ",
     "components__pdf_split__deselect_all": "ሁሉንም ይምረጡ",
     "components__pdf_split__confirm_split": "ማሳወቂያውን አረጋግጥ",
-    "components__pdf_split__pdf_dropping": "የ PDF ክፍል ቅጥፈትን በመስራት ላይ ይለውጡ",
     "components__pdf_split__is_single_pdf": "የተመረጡ ገጽዎን በአንድ PDF ማንበብ",
     "components__pdf_split__cancel": "ይቅር",
     "components__pdf_split__error_maximum": "PDF ፋይሎችን ማስተካከያ አልተገኘም, የሚያስተካከዩ ብዛት ተገኝቷል",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "የሚጠብቁ ክፍሎችን ይተውል"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው"
+    "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው",
+    "components__common__drag__dropping_tip": "ማስተካከያውን በግራፍ እና በማስቀመጥ ለማሳየት ይችላሉ"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "ምስል አይነት የሚጫኑ ምስሎች ተመዝግቧል",
+    "components__image_to_pdf__button_add_png": "ምስል ጨምር",
+    "components__image_to_pdf__button_add_png__tooltip": "ምስልን በታች ጨምሩ",
+    "components__image_to_pdf__button_remove_png": "ምስል አጥፋ",
+    "components__image_to_pdf__button_remove_png__tooltip": "ምስልን አጥፋ",
+    "components__image_to_pdf__page_size": "ገጽ መጠን",
+    "components__image_to_pdf__image_alignment": "ምስል አማራጭ",
+    "components__image_to_pdf__download": "ደህንነት",
+    "components__image_to_pdf__download__tooltip": "PDF እንዴት ፈጥር ይሻላል",
+    "components__image_to_pdf__position_middle": "ሚድር",
+    "components__image_to_pdf__position_top": "ኋላ",
+    "components__image_to_pdf__position_bottom": "ግራ"
   }
 }

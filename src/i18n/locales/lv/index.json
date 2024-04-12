@@ -360,13 +360,23 @@
     "tools__index_page__title": "MaxAI Rīki",
     "tools__index_page__description": "Visi PDF rīki ir 100% BEZMAKSAS un darbojas jūsu pārlūkprogrammā, nodrošinot pilnīgu privātumu",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF uz PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Eksportējiet katru PDF lapu kā PNG attēlu vai izvelciet atsevišķus attēlus no PDF uz PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF uz JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksportējiet katru PDF lapu kā JPEG attēlu vai izvelciet atsevišķus attēlus no PDF uz JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Apvienot PDF failus",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Apvieno vairākus PDF failus vienā ar tikai dažiem klikšķiem",
     "tools__index_page__constant_obj__split_a_pdf__title": "Sadalīt PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Katrs atlasītais lappuse kļūs par atsevišķu PDF failu. Alternatīvi, jūs varat apvienot atlasītās lapas vienā PDF failā."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG uz PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG uz PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Eksportējiet katru PDF lapu kā PNG attēlu vai izvelciet atsevišķus attēlus no PDF uz PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksportējiet katru PDF lapu kā PNG attēlu vai izvelciet atsevišķus attēlus no PDF uz PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksportējiet katru PDF lapu kā JPEG attēlu vai izvelciet atsevišķus attēlus no PDF uz JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksportējiet katru lapu kā JPEG vai izvelciet atsevišķus attēlus no PDF uz JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Apvienojiet jebkuru daudzumu PDF failu pēc izvēles secībā vienā PDF failā",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Apvienojiet vairākus PDF failus vienā ar tikai dažiem klikšķiem",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Sadaliet PDF lapas vairākos PDF failos vai vienkārši noņemiet lapas no esošā",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Sadaliet PDF lapas vairākos PDF failos vai vienkārši noņemiet lapas no esošā.",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertējiet PNG attēlus uz PDF tiešsaistē",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Konvertējiet JEPG attēlus uz PDF tiešsaistē",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Apvienot PDF - Apvienot PDF failus tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Apvienojiet PDF failus un izveidojiet vienu dokumentu tiešsaistē bez maksas. Ar mūsu PDF apvienotāju, PDF apvienošana ir vieglāka nekā jebkad agrāk. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas.",
     "pdf_tools__split_pdf__title": "Sadalīt PDF – Atsevišķas PDF lapas tiešsaistē bez maksas | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Viegli atdalīt vai noņemt lapas savā PDF tiešsaistē bez maksas. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
+    "pdf_tools__split_pdf__description": "Viegli atdalīt vai noņemt lapas savā PDF tiešsaistē bez maksas. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
+    "pdf_tools__png_to_pdf__title": "PNG uz PDF - Konvertēt PNG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Konvertējiet PNG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru PNG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG uz PDF - Konvertēt JPEG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Konvertējiet JPEG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru JPEG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Pievienot PDF",
     "components__pdf_merge__empty_pdf": "Notīrīt PDF",
     "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
-    "components__pdf_merge__pdf_dropping": "Jūs varat mainīt PDF secību, vilkt un nomest",
     "components__pdf_merge__button__download__tooltip": "Apvienot un lejupielādēt PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Notīrīt visus PDF zemāk",
     "components__pdf_merge__button__add_pdfs__tooltip": "Pievienot PDF failu zemāk"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Izvēlēties visu",
     "components__pdf_split__deselect_all": "Noņemt izvēli no visiem",
     "components__pdf_split__confirm_split": "Apstiprināt sadalīšanu",
-    "components__pdf_split__pdf_dropping": "Jūs varat mainīt PDF secību, vilkot un nomest",
     "components__pdf_split__is_single_pdf": "Apvienot atlasītās lapas vienā PDF",
     "components__pdf_split__cancel": "Atcelt",
     "components__pdf_split__error_maximum": "Neizdevās sadalīt PDF failus, pārsniegts maksimālais daudzums",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Atcelt pašreizējo progresu"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists"
+    "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists",
+    "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti",
+    "components__image_to_pdf__button_add_png": "Pievienot attēlus",
+    "components__image_to_pdf__button_add_png__tooltip": "Pievienot attēlus zemāk",
+    "components__image_to_pdf__button_remove_png": "Noņemt attēlus",
+    "components__image_to_pdf__button_remove_png__tooltip": "Notīrīt attēlus zemāk",
+    "components__image_to_pdf__page_size": "Lappuses izmērs",
+    "components__image_to_pdf__image_alignment": "Attēla līdzinājums",
+    "components__image_to_pdf__download": "Lejupielādēt",
+    "components__image_to_pdf__download__tooltip": "Izveidot un lejupielādēt PDF",
+    "components__image_to_pdf__position_middle": "Vidus",
+    "components__image_to_pdf__position_top": "Augša",
+    "components__image_to_pdf__position_bottom": "Apakša"
   }
 }

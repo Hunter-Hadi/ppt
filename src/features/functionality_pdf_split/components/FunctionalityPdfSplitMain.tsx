@@ -1,11 +1,21 @@
-import { Box, Button, Checkbox, CircularProgress, Grid } from '@mui/material';
+import {
+  Box,
+  Button,
+  Checkbox,
+  CircularProgress,
+  Grid,
+  Stack,
+} from '@mui/material';
 import FileSaver from 'file-saver';
 import JSZip from 'jszip';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
 import React, { useState } from 'react';
 
-import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
@@ -32,6 +42,7 @@ export const FunctionalityPdfSplitMain = () => {
     onCancelPdfActive,
     pdfTotalPages,
     currentPdfActionNum,
+    setPdfTotalPages,
   } = useFunctionalityCommonPdfToImageConversion();
   const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
@@ -67,6 +78,7 @@ export const FunctionalityPdfSplitMain = () => {
   };
   const confirmToSplit = async () => {
     setIsLoading(true);
+    setPdfTotalPages(0);
     const splitPdfList = convertedPdfImages.filter((item) => item.isSelect);
     if (splitPdfList.length > 0) {
       console.log('simply confirmToSplit', isMergeSinglePDf);
@@ -151,6 +163,71 @@ export const FunctionalityPdfSplitMain = () => {
     setConvertedPdfImages([]);
   };
   const currentIsLoading = pdfIsLoading || isLoading;
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'button',
+      buttonProps: {
+        children: isSelectAll
+          ? t('functionality__pdf_split:components__pdf_split__deselect_all')
+          : t('functionality__pdf_split:components__pdf_split__select_all'),
+        variant: 'outlined',
+        disabled: currentIsLoading || convertedPdfImages.length === 0,
+        onClick: () => onSwitchAllSelect(),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
+        ),
+        children: t(
+          'functionality__pdf_split:components__pdf_spli__remove_pdf',
+        ),
+        variant: 'outlined',
+        color: 'error',
+        disabled: currentIsLoading,
+        onClick: () => onRemoveFile(),
+      },
+    },
+    {
+      isShow: currentIsLoading,
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
+        ),
+        children: t('functionality__pdf_split:components__pdf_split__cancel'),
+        variant: 'outlined',
+        color: 'error',
+        onClick: () => onCancelPdfActive(),
+      },
+    },
+    {
+      isShow: !currentIsLoading,
+      type: 'iconButton',
+      iconButtonProps: [
+        {
+          name: 'ControlPointTwoTone',
+          onClick: () => changeScale('enlarge'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
+          ),
+        },
+        {
+          name: 'RemoveCircleTwoTone',
+          onClick: () => changeScale('narrow'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+          ),
+          sx: {
+            marginLeft: 1,
+          },
+        },
+      ],
+    },
+  ];
   return (
     <Box
       sx={{
@@ -172,122 +249,13 @@ export const FunctionalityPdfSplitMain = () => {
         />
       )}
       {convertedPdfImages.length > 0 && (
-        <Grid
-          container
-          direction='row'
-          justifyContent='center'
-          alignItems='center'
-          flexWrap='wrap'
-          spacing={2}
-        >
-          <Grid item xs={6} md={2}>
-            <Button
-              sx={{ width: '100%', height: 48 }}
-              size='large'
-              disabled={currentIsLoading || convertedPdfImages.length === 0}
-              variant='outlined'
-              onClick={onSwitchAllSelect}
-            >
-              {isSelectAll
-                ? t(
-                    'functionality__pdf_split:components__pdf_split__deselect_all',
-                  )
-                : t(
-                    'functionality__pdf_split:components__pdf_split__select_all',
-                  )}
-            </Button>
-          </Grid>
-          <Grid item xs={6} md={2}>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
-              )}
-            >
-              <Button
-                sx={{ width: '100%', height: 48 }}
-                size='large'
-                disabled={currentIsLoading}
-                variant='outlined'
-                color='error'
-                onClick={() => onRemoveFile()}
-              >
-                {t('functionality__pdf_split:components__pdf_spli__remove_pdf')}
-              </Button>
-            </FunctionalityCommonTooltip>
-          </Grid>
-          {!currentIsLoading && (
-            <Grid item xs={6} md={2} display='flex'>
-              <FunctionalityCommonTooltip
-                title={t(
-                  'functionality__pdf_split:components__pdf_split__button__zoom_in__tooltip',
-                )}
-              >
-                <Box
-                  sx={{
-                    height: 35,
-                  }}
-                  onClick={() => changeScale('enlarge')}
-                >
-                  <FunctionalityCommonIcon
-                    name='ControlPointTwoTone'
-                    sx={{
-                      color: 'primary.main',
-                      cursor: 'pointer',
-                      fontSize: 35,
-                    }}
-                  />
-                </Box>
-              </FunctionalityCommonTooltip>
-              <FunctionalityCommonTooltip
-                title={t(
-                  'functionality__pdf_split:components__pdf_split__button__zoom_out__tooltip',
-                )}
-              >
-                <Box
-                  sx={{
-                    height: 35,
-                  }}
-                  onClick={() => changeScale('narrow')}
-                >
-                  <FunctionalityCommonIcon
-                    name='RemoveCircleTwoTone'
-                    sx={{
-                      color: 'primary.main',
-                      cursor: 'pointer',
-                      marginLeft: 1,
-                      fontSize: 35,
-                    }}
-                  />
-                </Box>
-              </FunctionalityCommonTooltip>
-            </Grid>
-          )}
-          {pdfIsLoading && (
-            <Grid item xs={12} md={2}>
-              <FunctionalityCommonTooltip
-                title={t(
-                  'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
-                )}
-              >
-                <Button
-                  sx={{ width: '100%', height: 48 }}
-                  size='large'
-                  variant='outlined'
-                  color='error'
-                  onClick={() => onCancelPdfActive()}
-                >
-                  {t('functionality__pdf_split:components__pdf_split__cancel')}
-                </Button>
-              </FunctionalityCommonTooltip>
-            </Grid>
-          )}
-        </Grid>
+        <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
 
       {(convertedPdfImages.length > 0 || currentIsLoading) && (
-        <Grid
-          container
-          item
+        <Stack
+          direction='row'
+          flexWrap='wrap'
           justifyContent='center'
           my={3}
           gap={2}
@@ -302,22 +270,21 @@ export const FunctionalityPdfSplitMain = () => {
                 key={imageInfo.id}
                 name={String(index + 1)}
                 imageInfo={imageInfo}
-                imageSize={currentScale * 50}
                 onClick={() => onSwitchSelect(imageInfo.id)}
-                rightTopChildren={
-                  !currentIsLoading && (
-                    <Box
-                      sx={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                      }}
-                    >
-                      <Checkbox checked={imageInfo.isSelect} />
-                    </Box>
-                  )
-                }
-              />
+                wrapSx={{
+                  width: currentScale * 50,
+                }}
+              >
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    top: 0,
+                    right: 0,
+                  }}
+                >
+                  <Checkbox checked={imageInfo.isSelect} />
+                </Box>
+              </FunctionalityCommonImage>
             ))}
           {currentIsLoading && (
             <Box
@@ -340,7 +307,7 @@ export const FunctionalityPdfSplitMain = () => {
                 : ''}
             </Box>
           )}
-        </Grid>
+        </Stack>
       )}
       {convertedPdfImages?.length > 0 && (
         <Box
@@ -349,9 +316,11 @@ export const FunctionalityPdfSplitMain = () => {
           alignItems='center'
           justifyItems='center'
           sx={{ mt: 2, cursor: 'pointer' }}
-          onClick={() => setIsMergeSinglePDf(!isMergeSinglePDf)}
+          onClick={() =>
+            !currentIsLoading ? setIsMergeSinglePDf(!isMergeSinglePDf) : null
+          }
         >
-          <Checkbox checked={isMergeSinglePDf} />
+          <Checkbox disabled={currentIsLoading} checked={isMergeSinglePDf} />
           {t('functionality__pdf_split:components__pdf_split__is_single_pdf')}
         </Box>
       )}

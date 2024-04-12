@@ -1,4 +1,6 @@
-import { Box, Button, Grid } from '@mui/material';
+import { Box, Button, Grid, IconButton } from '@mui/material';
+import ceil from 'lodash-es/ceil';
+import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
 import React, { useState } from 'react';
@@ -6,12 +8,17 @@ import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import UploadButton from '@/features/common/components/UploadButton';
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
+import FunctionalityCommonDragSortableList from '@/features/functionality_common/components/FunctionalityCommonDragSortableList';
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import FunctionalityDragSortableImageList from '@/features/functionality_pdf_merge/components/FunctionalityDragSortableImageList';
 import snackNotifications from '@/utils/globalSnackbar';
 export type IFunctionalityPdfFileInfoType = IFunctionalityCommonImageInfo & {
   name: string;
@@ -169,6 +176,49 @@ const FunctionalityPdfMergeMain = () => {
     }
   };
   const isListEmpty = pdfInfoList.length === 0;
+
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'upload',
+      uploadProps: {
+        tooltip: t(
+          'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
+        ),
+        onChange: onUploadFile,
+        isDrag: false,
+        buttonProps: {
+          variant: 'outlined',
+          disabled: isLoading,
+          sx: {
+            height: 48,
+            width: '100%',
+          },
+        },
+        inputProps: {
+          accept: 'application/pdf',
+          multiple: true,
+        },
+        handleUnsupportedFileType: handleUnsupportedFileTypeTip,
+        children: t('functionality__pdf_merge:components__pdf_merge__add_pdf'),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_merge:components__pdf_merge__button__clear_pdfs__tooltip',
+        ),
+        children: t(
+          'functionality__pdf_merge:components__pdf_merge__empty_pdf',
+        ),
+        variant: 'outlined',
+        disabled: isLoading,
+        color: 'error',
+        onClick: () => setPdfInfoList([]),
+      },
+    },
+  ];
   return (
     <Box
       sx={{
@@ -191,62 +241,7 @@ const FunctionalityPdfMergeMain = () => {
         />
       )}
       {!isListEmpty && (
-        <Grid
-          container
-          direction='row'
-          justifyContent='center'
-          alignItems='center'
-          sx={{ my: 1 }}
-          gap={1}
-        >
-          <Grid item>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
-              )}
-            >
-              <Box>
-                <UploadButton
-                  onChange={onUploadFile}
-                  isDrag={false}
-                  buttonProps={{
-                    variant: 'outlined',
-                    disabled: isLoading,
-                    size: 'large',
-                    sx: {
-                      height: 48,
-                    },
-                  }}
-                  inputProps={{
-                    accept: 'application/pdf',
-                    multiple: true,
-                  }}
-                  handleUnsupportedFileType={handleUnsupportedFileTypeTip}
-                >
-                  {t('functionality__pdf_merge:components__pdf_merge__add_pdf')}
-                </UploadButton>
-              </Box>
-            </FunctionalityCommonTooltip>
-          </Grid>
-          <Grid item>
-            <FunctionalityCommonTooltip
-              title={t(
-                'functionality__pdf_merge:components__pdf_merge__button__clear_pdfs__tooltip',
-              )}
-            >
-              <Button
-                variant='outlined'
-                sx={{ height: 48 }}
-                disabled={isLoading}
-                color='error'
-                size='large'
-                onClick={() => setPdfInfoList([])}
-              >
-                {t('functionality__pdf_merge:components__pdf_merge__empty_pdf')}
-              </Button>
-            </FunctionalityCommonTooltip>
-          </Grid>
-        </Grid>
+        <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
       {(!isListEmpty || isLoading) && (
         <Box
@@ -256,14 +251,70 @@ const FunctionalityPdfMergeMain = () => {
             minHeight: 200,
           }}
         >
-          {!isListEmpty && (
-            <FunctionalityDragSortableImageList
-              imageList={pdfInfoList}
-              onDelete={onDeletePdf}
-              isShowOperate={!isLoading}
-              isImageSelect={true}
-              updateImageList={(list) => setPdfInfoList(list)}
-            />
+          {!isListEmpty && !isLoading && (
+            <FunctionalityCommonDragSortableList
+              list={pdfInfoList}
+              onUpdateList={setPdfInfoList}
+              replacementElement={(dragInfo) => (
+                <FunctionalityCommonImage
+                  sx={{
+                    bgcolor: 'transparent',
+                    '&:hover': {
+                      bgcolor: 'transparent',
+                    },
+                  }}
+                  imageInfo={dragInfo}
+                />
+              )}
+            >
+              {(imageInfo, index, currentDragInfo) => (
+                <FunctionalityCommonTooltip
+                  key={imageInfo.id}
+                  title={`${ceil(divide(imageInfo.size, 1000))}kb - ${
+                    imageInfo.pages
+                  } pages`}
+                >
+                  <FunctionalityCommonImage
+                    key={imageInfo.id}
+                    name={String(index + 1)}
+                    imageInfo={imageInfo}
+                    sx={{
+                      border:
+                        currentDragInfo?.id === imageInfo.id
+                          ? '1px dashed #64467b'
+                          : 'none',
+                    }}
+                    imgStyle={{
+                      opacity: currentDragInfo?.id === imageInfo.id ? 0 : 1,
+                    }}
+                  >
+                    {!currentDragInfo ? (
+                      <Box
+                        sx={{
+                          position: 'absolute',
+                          top: 0,
+                          right: 0,
+                        }}
+                      >
+                        <IconButton
+                          size='small'
+                          onClick={() => onDeletePdf(imageInfo.id)}
+                        >
+                          <FunctionalityCommonIcon
+                            name='CloseTwoTone'
+                            fontSize='small'
+                            sx={{
+                              bgcolor: '#d1d5db',
+                              borderRadius: 3,
+                            }}
+                          />
+                        </IconButton>
+                      </Box>
+                    ) : null}
+                  </FunctionalityCommonImage>
+                </FunctionalityCommonTooltip>
+              )}
+            </FunctionalityCommonDragSortableList>
           )}
           {isLoading && (
             <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />

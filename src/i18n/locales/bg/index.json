@@ -360,13 +360,23 @@
     "tools__index_page__title": "Инструменти MaxAI",
     "tools__index_page__description": "Всички PDF инструменти са напълно БЕЗПЛАТНИ и работят в браузъра ви за пълна поверителност",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF към PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Изнесете всяка страница от PDF като PNG изображение или извлечете отделни изображения от PDF в PNG формат",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF към JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Изнесете всяка страница от PDF като JPEG изображение или извлечете отделни изображения от PDF в JPEG формат",
     "tools__index_page__constant_obj__merge_pdfs__title": "Обединяване на PDF файлове",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Обединете няколко PDF файла в един с няколко кликвания",
     "tools__index_page__constant_obj__split_a_pdf__title": "Разделяне на PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Всяка избрана страница ще стане отделен PDF файл. Алтернативно, можете да обедините избраните страници в един PDF файл."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG към PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG към PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Изнесете всяка страница от PDF като PNG изображение или извлечете отделни изображения от PDF в PNG формат",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Изнесете всяка страница от PDF като PNG изображение или извлечете отделни изображения от PDF в PNG формат",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Изнесете всяка страница от PDF като JPEG изображение или извлечете отделни изображения от PDF в JPEG формат",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Изнесете всяка страница като JPEG или извлечете отделни изображения от PDF в JPEG формат",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Сливайте произволен брой PDF файлове в избран от вас ред в един PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Сливайте множество PDF файлове в един с няколко клика",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Разделяйте страници на PDF в няколко PDF файла или просто премахвайте страници от съществуващ",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Разделяйте страници на PDF в няколко PDF файла или просто премахвайте страници от съществуващ.",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Конвертирайте PNG изображения в PDF онлайн",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Всяко качено изображение ще стане страница в един PDF файл.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Конвертирайте JPEG изображения в PDF онлайн",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Всяко качено изображение ще стане страница в един PDF файл."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Сливане на PDF - Обединяване на PDF файлове онлайн безплатно | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Обединете PDF файлове и създайте единичен документ онлайн безплатно. С нашия PDF комбинатор, сливането на PDF файлове е по-лесно от всякога. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
     "pdf_tools__split_pdf__title": "Разделяне на PDF – Отделете страници от PDF онлайн безплатно | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Лесно отделете страници или премахнете страници от вашия PDF онлайн безплатно. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации."
+    "pdf_tools__split_pdf__description": "Лесно отделете страници или премахнете страници от вашия PDF онлайн безплатно. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации.",
+    "pdf_tools__png_to_pdf__title": "PNG към PDF - Конвертиране на PNG изображения в PDF онлайн безплатно | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Преобразувайте PNG изображения в PDF онлайн безплатно. Конверторът превръща всяко PNG изображение в персонализиран PDF файл. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG към PDF - Конвертиране на JPEG изображения в PDF онлайн безплатно | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Преобразувайте JPEG изображения в PDF онлайн безплатно. Конверторът превръща всяко JPEG изображение в персонализиран PDF файл. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Добави PDF",
     "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
     "components__pdf_merge__confirm_merge": "Потвърди обединяването",
-    "components__pdf_merge__pdf_dropping": "Можете да настроите реда на PDF-овете, като ги влачите и пускате",
     "components__pdf_merge__button__download__tooltip": "Обединете и изтеглете PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Изчистете всички PDF-и по-долу",
     "components__pdf_merge__button__add_pdfs__tooltip": "Добавете PDF файл по-долу"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Избери всички",
     "components__pdf_split__deselect_all": "Отмени избора на всички",
     "components__pdf_split__confirm_split": "Потвърди разделянето",
-    "components__pdf_split__pdf_dropping": "Можете да промените реда на PDF-ите, като ги влачите и пускате",
     "components__pdf_split__is_single_pdf": "Сливане на избраните страници в един PDF",
     "components__pdf_split__cancel": "Отказ",
     "components__pdf_split__error_maximum": "Неуспешно разделяне на PDF файлове, надвишено максимално количество",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Отказ на текущия прогрес"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат"
+    "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат",
+    "components__common__drag__dropping_tip": "Можете да промените реда, като ги влачите и пускате"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Могат да бъдат качени само изображения от тип изображение",
+    "components__image_to_pdf__button_add_png": "Добавяне на изображения",
+    "components__image_to_pdf__button_add_png__tooltip": "Добавете изображения по-долу",
+    "components__image_to_pdf__button_remove_png": "Премахване на изображения",
+    "components__image_to_pdf__button_remove_png__tooltip": "Изчистете изображенията по-долу",
+    "components__image_to_pdf__page_size": "Размер на страницата",
+    "components__image_to_pdf__image_alignment": "Подравняване на изображението",
+    "components__image_to_pdf__download": "Изтегляне",
+    "components__image_to_pdf__download__tooltip": "Създайте и изтеглете PDF",
+    "components__image_to_pdf__position_middle": "Среда",
+    "components__image_to_pdf__position_top": "Горе",
+    "components__image_to_pdf__position_bottom": "Долу"
   }
 }

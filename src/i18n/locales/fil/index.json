@@ -360,13 +360,23 @@
     "tools__index_page__title": "Mga Kasangkapan ng MaxAI",
     "tools__index_page__description": "Lahat ng mga tool sa PDF ay 100% LIBRE at tumatakbo sa iyong browser para sa kumpletong privacy",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "I-export ang bawat pahina ng PDF bilang isang larawan na PNG o i-extract ang mga indibidwal na larawan mula sa PDF papunta sa mga JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "I-export ang bawat pahina ng PDF bilang isang larawan na JPEG o i-extract ang mga indibidwal na larawan mula sa PDF papunta sa mga JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Pagsamahin ang mga PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Pagsamahin ang maraming file ng PDF sa isa lamang gamit ang ilang pag-click",
     "tools__index_page__constant_obj__split_a_pdf__title": "Hatian ang PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Ang bawat napiling pahina ay magiging hiwalay na file ng PDF. Maaari rin ninyong pagsamahin ang mga napiling pahina sa isang solong file ng PDF."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG sa PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG sa PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "I-export ang bawat pahina ng PDF bilang isang larawan na PNG o kumuha ng indibidwal na mga larawan mula sa PDF papunta sa mga PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "I-export ang bawat pahina ng PDF bilang isang larawan na PNG o kumuha ng indibidwal na mga larawan mula sa PDF papunta sa mga PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "I-export ang bawat pahina ng PDF bilang isang larawan na JPEG o kumuha ng indibidwal na mga larawan mula sa PDF papunta sa mga JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "I-export ang bawat pahina bilang isang JPEG o kumuha ng indibidwal na mga larawan mula sa PDF papunta sa mga JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Pagsamahin ang anumang dami ng mga PDF sa napiling pagkakasunod-sunod sa isang solong PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Pagsamahin ang maraming file ng PDF sa isa lamang sa ilang mga pag-click",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Hatiin ang mga pahina ng PDF sa maraming PDF o simpleng alisin ang mga pahina mula sa umiiral na PDF",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Hatiin ang mga pahina ng PDF sa maraming PDF o simpleng alisin ang mga pahina mula sa umiiral na PDF.",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "I-convert ang mga larawan na PNG papunta sa PDF online",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Ang bawat na-upload na larawan ay magiging isang pahina sa isang solong PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "I-convert ang mga larawan na JEPG papunta sa PDF online",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Ang bawat na-upload na larawan ay magiging isang pahina sa isang solong PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Pagsamahin ang mga PDF - Pagsama-samahin ang Mga File ng PDF Online Nang Libre | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Pagsamahin ang mga file ng PDF at lumikha ng isang solong dokumento online nang libre. Sa aming PDF combiner, mas madali nang kailanman ang pagmimisa ng mga PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
     "pdf_tools__split_pdf__title": "Hatian ang PDF – Hiwalayang mga Pahina ng PDF Online nang Libre | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Madaling hiwalayin ang mga pahina o alisin ang mga pahina sa iyong PDF online nang libre. Walang watermarks, limitasyon sa laki ng file, pag-download, o pag-sign up na kailangan."
+    "pdf_tools__split_pdf__description": "Madaling hiwalayin ang mga pahina o alisin ang mga pahina sa iyong PDF online nang libre. Walang watermarks, limitasyon sa laki ng file, pag-download, o pag-sign up na kailangan.",
+    "pdf_tools__png_to_pdf__title": "PNG sa PDF - I-convert ang Mga Imahe ng PNG sa PDF Online nang Libre | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "I-convert ang mga larawan ng PNG sa PDF online nang libre. Ang converter ay nagpapalit ng anumang file ng larawang PNG sa isang pasadyang file ng PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG sa PDF - I-convert ang mga Larawan ng JPEG sa PDF Online nang Libre | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "I-convert ang mga larawan ng JPEG sa PDF online nang libre. Ang converter ay nagpapalit ng anumang file ng larawang JPEG sa isang pasadyang file ng PDF. Walang mga watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Magdagdag ng PDF",
     "components__pdf_merge__empty_pdf": "Burahin ang mga PDF",
     "components__pdf_merge__confirm_merge": "Kumpirmahin ang pag-merge",
-    "components__pdf_merge__pdf_dropping": "Maaari mong ayusin ang pagkakasunud-sunod ng PDF sa pamamagitan ng pag-drag at drop",
     "components__pdf_merge__button__download__tooltip": "Pagsamahin at i-download ang PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Tanggalin ang lahat ng PDF sa ibaba",
     "components__pdf_merge__button__add_pdfs__tooltip": "Magdagdag ng PDF file sa ibaba"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Piliin Lahat",
     "components__pdf_split__deselect_all": "Huwag Piliin Lahat",
     "components__pdf_split__confirm_split": "Kumpirmahin ang paghihiwalay",
-    "components__pdf_split__pdf_dropping": "Maaari mong baguhin ang pagkakasunud-sunod ng mga PDF sa pamamagitan ng pag-drag at drop",
     "components__pdf_split__is_single_pdf": "Pagsamahin ang mga piniling pahina sa isang PDF",
     "components__pdf_split__cancel": " kanselahin",
     "components__pdf_split__error_maximum": "Nabigo ang paghihiwalay ng mga file ng PDF, Lumampas sa maximum na dami",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Ihinto ang kasalukuyang progreso"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip"
+    "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip",
+    "components__common__drag__dropping_tip": "Maaari mong ayusin ang pagkakasunud-sunod sa pamamagitan ng pag-drag at pag-drop"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Maaaring i-upload lamang ang mga imahe ng uri ng imahe",
+    "components__image_to_pdf__button_add_png": "Magdagdag ng mga imahe",
+    "components__image_to_pdf__button_add_png__tooltip": "Magdagdag ng mga imahe sa ibaba",
+    "components__image_to_pdf__button_remove_png": "Tanggalin ang mga imahe",
+    "components__image_to_pdf__button_remove_png__tooltip": "Burahin ang mga imahe sa ibaba",
+    "components__image_to_pdf__page_size": "Laki ng pahina",
+    "components__image_to_pdf__image_alignment": "Pagkakasunud-sunod ng imahe",
+    "components__image_to_pdf__download": "I-download",
+    "components__image_to_pdf__download__tooltip": "Lumikha at i-download ang PDF",
+    "components__image_to_pdf__position_middle": "Gitna",
+    "components__image_to_pdf__position_top": "Tuktok",
+    "components__image_to_pdf__position_bottom": "Ibabaw"
   }
 }

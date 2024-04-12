@@ -360,13 +360,23 @@
     "tools__index_page__title": "ابزارهای MaxAI",
     "tools__index_page__description": "تمام ابزارهای PDF 100٪ رایگان هستند و در مرورگر شما اجرا می‌شوند تا حریم خصوصی کامل را فراهم کنند",
     "tools__index_page__constant_obj__pdf_to_png__title": "تبدیل PDF به PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "صفحه هر PDF را به تصویر PNG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "تبدیل PDF به JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "صفحه هر PDF را به تصویر JPEG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__merge_pdfs__title": "ادغام فایل‌های PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "ادغام چندین فایل PDF به یک فایل با چند کلیک",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسیم یک PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "هر صفحه انتخاب شده به یک فایل PDF جداگانه تبدیل خواهد شد. به طور جایگزین، می‌توانید صفحات انتخاب شده را در یک فایل PDF تکی ترکیب کنید."
+    "tools__index_page__constant_obj__png_to_pdf__title": "تبدیل PNG به PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "تبدیل JPEG به PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "صفحه هر PDF را به تصویر PNG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "صفحه هر PDF را به تصویر PNG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "صفحه هر PDF را به تصویر JPEG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "صفحه هر PDF را به تصویر JPEG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "تعداد هر چقدری از PDF ها را که می خواهید در ترتیب دلخواه خود به یک PDF واحد ادغام کنید",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "چندین فایل PDF را با چند کلیک به یک فایل ترکیب کنید",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "صفحات یک PDF را به چندین PDF تقسیم کنید یا صفحات را از یک PDF موجود حذف کنید",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "صفحات یک PDF را به چندین PDF تقسیم کنید یا صفحات را از یک PDF موجود حذف کنید",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "تصاویر PNG را به PDF آنلاین تبدیل کنید",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "هر تصویر بارگذاری شده به یک صفحه در یک PDF واحد تبدیل خواهد شد.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "تصاویر JEPG را به PDF آنلاین تبدیل کنید",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "هر تصویر بارگذاری شده به یک صفحه در یک PDF واحد تبدیل خواهد شد."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "ادغام PDF - ترکیب فایل‌های PDF آنلاین رایگان | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "ترکیب فایل‌های PDF و ایجاد یک سند تکی آنلاین رایگان. با استفاده از ادغام کننده PDF ما، ترکیب PDF ها آسانتر از همیشه است. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
     "pdf_tools__split_pdf__title": "تقسیم PDF - جدا کردن صفحات PDF آنلاین به صورت رایگان | MaxAI.me",
-    "pdf_tools__split_pdf__description": "به راحتی صفحات را جدا کنید یا صفحات را از PDF خود حذف کنید به صورت آنلاین و رایگان. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام."
+    "pdf_tools__split_pdf__description": "به راحتی صفحات را جدا کنید یا صفحات را از PDF خود حذف کنید به صورت آنلاین و رایگان. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
+    "pdf_tools__png_to_pdf__title": "تبدیل PNG به PDF - تبدیل تصاویر PNG به PDF آنلاین رایگان | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "تبدیل تصاویر PNG به PDF آنلاین و رایگان. این مبدل هر فایل تصویر PNG را به یک فایل PDF سفارشی تبدیل می کند. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
+    "pdf_tools__jpeg_to_pdf__title": "تبدیل JPEG به PDF - تبدیل تصاویر JPEG به PDF آنلاین رایگان | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "تبدیل تصاویر JPEG به PDF آنلاین و رایگان. این مبدل هر فایل تصویر JPEG را به یک فایل PDF سفارشی تبدیل می کند. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "افزودن PDF",
     "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
     "components__pdf_merge__confirm_merge": "تأیید ادغام",
-    "components__pdf_merge__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید",
     "components__pdf_merge__button__download__tooltip": "ادغام و دانلود PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "پاک کردن همه PDF های زیر",
     "components__pdf_merge__button__add_pdfs__tooltip": "افزودن فایل PDF زیر"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "انتخاب همه",
     "components__pdf_split__deselect_all": "عدم انتخاب همه",
     "components__pdf_split__confirm_split": "تأیید تقسیم",
-    "components__pdf_split__pdf_dropping": "می‌توانید ترتیب PDF را با کشیدن و رها کردن تنظیم کنید",
     "components__pdf_split__is_single_pdf": "ادغام صفحات انتخاب شده در یک PDF",
     "components__pdf_split__cancel": "لغو",
     "components__pdf_split__error_maximum": "تقسیم فایل‌های PDF ناموفق بود، تعداد حداکثر را بیشتر کرده است",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "لغو پیشرفت فعلی"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد"
+    "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد",
+    "components__common__drag__dropping_tip": "می‌توانید با کشیدن و رها کردن ترتیب را تنظیم کنید"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "فقط تصاویر از نوع تصویر قابل بارگذاری هستند",
+    "components__image_to_pdf__button_add_png": "افزودن تصاویر",
+    "components__image_to_pdf__button_add_png__tooltip": "تصاویر را در زیر اضافه کنید",
+    "components__image_to_pdf__button_remove_png": "حذف تصاویر",
+    "components__image_to_pdf__button_remove_png__tooltip": "پاک کردن تصاویر در زیر",
+    "components__image_to_pdf__page_size": "اندازه صفحه",
+    "components__image_to_pdf__image_alignment": "تراز تصویر",
+    "components__image_to_pdf__download": "دانلود",
+    "components__image_to_pdf__download__tooltip": "ایجاد و دانلود PDF",
+    "components__image_to_pdf__position_middle": "وسط",
+    "components__image_to_pdf__position_top": "بالا",
+    "components__image_to_pdf__position_bottom": "پایین"
   }
 }

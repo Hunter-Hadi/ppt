@@ -346,13 +346,23 @@
     "tools__index_page__title": "MaxAI工具",
     "tools__index_page__description": "所有PDF工具都是100%免费的，并在您的浏览器中运行，以获得完全的隐私。",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF转PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "将每个PDF页面导出为PNG图像或从PDF中提取单独的图像到PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF转JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "将每个PDF页面导出为JPEG图像或从PDF中提取单独的图像到JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "合并PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "只需点击几下，将多个PDF文件合并为一个",
     "tools__index_page__constant_obj__split_a_pdf__title": "拆分PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "每个选定的页面将成为一个单独的PDF文件。或者，您可以将选定的页面合并为一个PDF文件。"
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG转PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG转PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "将每个PDF页面导出为PNG图像或从PDF中提取单独的图像到PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "将每个PDF页面导出为PNG图像或从PDF中提取单独的图像到PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "将每个PDF页面导出为JPEG图像或从PDF中提取单独的图像到JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "将每个页面导出为JPEG或从PDF中提取单独的图像到JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "按您选择的顺序合并任意数量的PDF文件为一个PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "只需几次点击即可将多个PDF文件合并为一个",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "将PDF的页面拆分为多个PDF文件，或者仅从现有文件中删除页面",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "将PDF的页面拆分为多个PDF文件，或者仅从现有文件中删除页面",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "在线将PNG图像转换为PDF",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "每个上传的图像将成为单个PDF中的一页",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "在线将JPEG图像转换为PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "每个上传的图像将成为单个PDF中的一页"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "合并PDF - 在线免费合并PDF文件 | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "在线免费合并PDF文件，创建一个单一的文档。使用我们的PDF合并工具，合并PDF文件变得比以往更容易。无需水印、文件大小限制、下载或注册。",
     "pdf_tools__split_pdf__title": "拆分PDF - 在线免费分离PDF页面 | MaxAI.me",
-    "pdf_tools__split_pdf__description": "轻松在网上免费分离PDF页面或删除页面。无水印、文件大小限制、下载或注册要求。"
+    "pdf_tools__split_pdf__description": "轻松在网上免费分离PDF页面或删除页面。无水印、文件大小限制、下载或注册要求。",
+    "pdf_tools__png_to_pdf__title": "PNG转PDF - 免费在线将PNG图像转换为PDF | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "免费在线将PNG图像转换为PDF。转换器将任何PNG图像文件转换为定制的PDF文件。无需水印、文件大小限制、下载或注册。",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG转PDF - 免费在线将JPEG图像转换为PDF | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "免费在线将JPEG图像转换为PDF。转换器将任何JPEG图像文件转换为定制的PDF文件。无需水印、文件大小限制、下载或注册。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "点击上传或拖放",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "添加PDF",
     "components__pdf_merge__empty_pdf": "清空PDF",
     "components__pdf_merge__confirm_merge": "确认合并",
-    "components__pdf_merge__pdf_dropping": "您可以通过拖放来调整PDF顺序",
     "components__pdf_merge__button__download__tooltip": "合并并下载PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "清除下方所有PDF",
     "components__pdf_merge__button__add_pdfs__tooltip": "添加PDF文件"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "全选",
     "components__pdf_split__deselect_all": "取消全选",
     "components__pdf_split__confirm_split": "确认拆分",
-    "components__pdf_split__pdf_dropping": "您可以通过拖放来调整PDF顺序",
     "components__pdf_split__is_single_pdf": "将选定的页面合并为单个PDF",
     "components__pdf_split__cancel": "取消",
     "components__pdf_split__error_maximum": "拆分PDF文件失败，超过最大数量",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "取消当前进度"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过"
+    "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过",
+    "components__common__drag__dropping_tip": "您可以通过拖放来调整顺序"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "只能上传图像类型的图片",
+    "components__image_to_pdf__button_add_png": "添加图片",
+    "components__image_to_pdf__button_add_png__tooltip": "在下方添加图片",
+    "components__image_to_pdf__button_remove_png": "移除图片",
+    "components__image_to_pdf__button_remove_png__tooltip": "清除下方的图片",
+    "components__image_to_pdf__page_size": "页面尺寸",
+    "components__image_to_pdf__image_alignment": "图像对齐",
+    "components__image_to_pdf__download": "下载",
+    "components__image_to_pdf__download__tooltip": "创建并下载PDF",
+    "components__image_to_pdf__position_middle": "中间",
+    "components__image_to_pdf__position_top": "顶部",
+    "components__image_to_pdf__position_bottom": "底部"
   }
 }

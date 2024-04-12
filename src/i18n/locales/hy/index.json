@@ -360,13 +360,23 @@
     "tools__index_page__title": "MaxAI Գործիքներ",
     "tools__index_page__description": "Բոլոր PDF գործիքները 100% անվճար են և աշխատում են ձեր զննարկիչում ամբողջական գաղտնիքով",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF-ից PNG-ի",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Արտահանել յուրաքանչյուր PDF էջը PNG պատկերի կամ առանցինել անհատական պատկերներ PDF-ից PNG-եր",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF-ից JPEG-ի",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Արտահանել յուրաքանչյուր PDF էջը JPEG պատկերի կամ առանցինել անհատական պատկերներ PDF-ից JPEG-եր",
     "tools__index_page__constant_obj__merge_pdfs__title": "Միացնել PDF-երը",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Միացնեք մի քանի PDF ֆայլեր մեկով միաժամանակում",
     "tools__index_page__constant_obj__split_a_pdf__title": "Փակել PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Ընտրված էջերը կդառնան առանձին PDF ֆայլեր: Այլագետներից, դուք կարող եք միավորել ընտրված էջերը մեկ PDF ֆայլում:"
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG-ից PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG-ից PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Արտահանել յուրաքանչյուր PDF էջը PNG պատկերի կամ առանցիների դարձնելու համար",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Արտահանել յուրաքանչյուր PDF էջը PNG պատկերի կամ առանցիների դարձնելու համար",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Արտահանել յուրաքանչյուր PDF էջը JPEG պատկերի կամ առանցիների դարձնելու համար",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Արտահանել յուրաքանչյուր էջը JPEG պատկերի կամ առանցիների դարձնելու համար",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Միացնել ցանկացած քանակությամբ PDF-ները ըստ Ձեր ընտրած կարգով մեկ մեկ PDF-ի մեջ",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Միացնել մի քանի PDF ֆայլեր մեկուսով միաժամանակակից մի PDF-ում",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Բաժանել PDF-ի էջերը մի քանի PDF-երում կամ պարզել էջերը առանց դրանց",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Բաժանել PDF-ի էջերը մի քանի PDF-երում կամ պարզել էջերը առանց դրանց",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Վերափոխել PNG պատկերները PDF-ի մեջ օնլայն",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Վերափոխել JPEG պատկերները PDF-ի մեջ օնլայն",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Միացնել PDF - Բեռնել PDF ֆայլերը միավորված փաստաթղթում անվճար | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Միացնեք PDF ֆայլերը և ստեղծեք մեկ միավորված փաստաթղթում անվճար։ Մեր PDF միավորողով միացնելը հեշտ է ավելի, քան երկուսների։ Առանց վաթերային նշանների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջարկների առանց։",
     "pdf_tools__split_pdf__title": "Մասնակցեք PDF-ի բաժանմանը - Առանց վատերների | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Կարողանաք շարունակել էջերը կամ հեռացնել էջերը ձեր PDF-ից անվճար օնլայն: Առանց զգալիների, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման:"
+    "pdf_tools__split_pdf__description": "Կարողանաք շարունակել էջերը կամ հեռացնել էջերը ձեր PDF-ից անվճար օնլայն: Առանց զգալիների, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման:",
+    "pdf_tools__png_to_pdf__title": "PNG-ից PDF - վերափոխել PNG պատկերները PDF-ի համար անվճար | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Փոխարինեք PNG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած PNG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG-ից PDF - վերափոխեք JPEG պատկերները PDF-ի համար անվճար | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Փոխարինեք JPEG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած JPEG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Ավելացնել PDF",
     "components__pdf_merge__empty_pdf": "Մաքրել PDF-ները",
     "components__pdf_merge__confirm_merge": "Հաստատել միավորումը",
-    "components__pdf_merge__pdf_dropping": "Դուք կարող եք համալիրել PDF-ների կարգը տեղադրելով և շարունակելով",
     "components__pdf_merge__button__download__tooltip": "Միացնել և բեռնել PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Մաքրել ստորեւ բոլոր PDF-ները",
     "components__pdf_merge__button__add_pdfs__tooltip": "Ավելացնել PDF ֆայլ ստորեւ"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Ընտրել բոլորը",
     "components__pdf_split__deselect_all": "Չընտրել որևէն",
     "components__pdf_split__confirm_split": "Հաստատել բաժանումը",
-    "components__pdf_split__pdf_dropping": "Դուք կարող եք համապատասխանել PDF-երի կարգը տեղադրելով և ներկայացնելով",
     "components__pdf_split__is_single_pdf": "Միավորել ընտրված էջերը մեկ PDF-ում",
     "components__pdf_split__cancel": "Չեղարկել",
     "components__pdf_split__error_maximum": "Չհաջողվեց բաժանել PDF ֆայլերը, գերազանցվեց առավելագույն քանակը",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Չեղարկել ընթացիկ գործընթացը"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "գաղտնաբառված է կամ անվտանգության պատճենը, չի կարող վերահսկվել PDF-ն, անտեսված է"
+    "components__common__pdf_encryption_tip": "գաղտնաբառված է կամ անվտանգության պատճենը, չի կարող վերահսկվել PDF-ն, անտեսված է",
+    "components__common__drag__dropping_tip": "Դուք կարող եք կարգը հավաքել և տեղադրել փոխանցումները"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Միայն պատկերներ կարող են վերբեռնվել",
+    "components__image_to_pdf__button_add_png": "Ավելացնել պատկերներ",
+    "components__image_to_pdf__button_add_png__tooltip": "Ավելացնել պատկերները ստորև",
+    "components__image_to_pdf__button_remove_png": "Ջնջել պատկերները",
+    "components__image_to_pdf__button_remove_png__tooltip": "Մաքրել պատկերները ստորև",
+    "components__image_to_pdf__page_size": "Էջի չափս",
+    "components__image_to_pdf__image_alignment": "Պատկերի համալիրում",
+    "components__image_to_pdf__download": "Ներբեռնել",
+    "components__image_to_pdf__download__tooltip": "Ստեղծել և ներբեռնել PDF",
+    "components__image_to_pdf__position_middle": "Միջին",
+    "components__image_to_pdf__position_top": "Լուծարված",
+    "components__image_to_pdf__position_bottom": "Ներքև"
   }
 }

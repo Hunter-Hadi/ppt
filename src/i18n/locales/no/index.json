@@ -366,7 +366,11 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Slå sammen PDF-filer",
     "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk",
     "tools__index_page__constant_obj__split_a_pdf__title": "Del opp en PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil.",
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG til PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Hver opplastet bilde vil bli en side i en enkelt PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG til PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Hver opplastet bilde vil bli en side i en enkelt PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -614,7 +618,11 @@
     "pdf_tools__merge_pdfs__title": "Slå sammen PDF – Kombiner PDF-filer online gratis | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Kombiner PDF-filer og opprett et enkelt dokument online gratis. Med vår PDF-sammenslåing er det enklere enn noensinne å slå sammen PDF-er. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
     "pdf_tools__split_pdf__title": "Del opp PDF – Separer PDF-sider på nettet gratis | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Separer enkelt sider eller fjern sider i PDF-en din på nettet gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves."
+    "pdf_tools__split_pdf__description": "Separer enkelt sider eller fjern sider i PDF-en din på nettet gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves.",
+    "pdf_tools__png_to_pdf__title": "PNG til PDF - Konverter PNG-bilder til PDF på nettet gratis | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Konverter PNG-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst PNG-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG til PDF - Konverter JPEG-bilder til PDF på nettet gratis | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Konverter JPEG-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst JPEG-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -678,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Legg til PDF",
     "components__pdf_merge__empty_pdf": "Tøm PDF-er",
     "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
-    "components__pdf_merge__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
     "components__pdf_merge__button__download__tooltip": "Slå sammen og last ned PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Fjern alle PDF-er nedenfor",
     "components__pdf_merge__button__add_pdfs__tooltip": "Legg til PDF-fil nedenfor"
@@ -690,7 +697,6 @@
     "components__pdf_split__select_all": "Velg alle",
     "components__pdf_split__deselect_all": "Opphev valg for alle",
     "components__pdf_split__confirm_split": "Bekreft å splitte",
-    "components__pdf_split__pdf_dropping": "Du kan justere PDF-rekkefølgen ved å dra og slippe",
     "components__pdf_split__is_single_pdf": "Slå sammen valgte sider til en enkelt PDF",
     "components__pdf_split__cancel": "Avbryt",
     "components__pdf_split__error_maximum": "Kunne ikke splitte PDF-filer, overskredet maksimalt antall",
@@ -701,6 +707,21 @@
     "components__pdf_split__button__cancel__tooltip": "Avbryt gjeldende fremgang"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over"
+    "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over",
+    "components__common__drag__dropping_tip": "Du kan justere rekkefølgen ved å dra og slippe"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp",
+    "components__image_to_pdf__button_add_png": "Legg til bilder",
+    "components__image_to_pdf__button_add_png__tooltip": "Legg til bilder nedenfor",
+    "components__image_to_pdf__button_remove_png": "Fjern bilder",
+    "components__image_to_pdf__button_remove_png__tooltip": "Fjern bildene nedenfor",
+    "components__image_to_pdf__page_size": "Sidestørrelse",
+    "components__image_to_pdf__image_alignment": "Bildejustering",
+    "components__image_to_pdf__download": "Last ned",
+    "components__image_to_pdf__download__tooltip": "Opprett og last ned PDF",
+    "components__image_to_pdf__position_middle": "Midten",
+    "components__image_to_pdf__position_top": "Topp",
+    "components__image_to_pdf__position_bottom": "Bunn"
   }
 }

@@ -360,13 +360,23 @@
     "tools__index_page__title": "Narzędzia MaxAI",
     "tools__index_page__description": "Wszystkie narzędzia PDF są w 100% DARMOWE i działają w Twojej przeglądarce dla pełnej prywatności",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF do PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Eksportuj każdą stronę PDF jako obraz PNG lub wyodrębnij pojedyncze obrazy z PDF do plików PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF do JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksportuj każdą stronę PDF jako obraz JPEG lub wyodrębnij pojedyncze obrazy z PDF do plików JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Scal pliki PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Połącz wiele plików PDF w jeden za pomocą kilku kliknięć",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podziel PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Każda wybrana strona stanie się osobnym plikiem PDF. Alternatywnie, możesz połączyć wybrane strony w jeden plik PDF."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG do PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG do PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Eksportuj każdą stronę PDF jako obraz PNG lub wyodrębnij pojedyncze obrazy z PDF do PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksportuj każdą stronę PDF jako obraz PNG lub wyodrębnij pojedyncze obrazy z PDF do PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksportuj każdą stronę PDF jako obraz JPEG lub wyodrębnij pojedyncze obrazy z PDF do JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksportuj każdą stronę jako obraz JPEG lub wyodrębnij pojedyncze obrazy z PDF do JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Połącz dowolną ilość plików PDF w wybranej kolejności w jeden plik PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Połącz wiele plików PDF w jeden za pomocą kilku kliknięć",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Podziel strony PDF na wiele plików PDF lub po prostu usuń strony z istniejącego pliku",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Podziel strony PDF na wiele plików PDF lub po prostu usuń strony z istniejącego pliku",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Konwertuj obrazy PNG na plik PDF online",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Konwertuj obrazy JPEG na plik PDF online",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Połącz PDF - Łączenie plików PDF online za darmo | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Połącz pliki PDF i utwórz pojedynczy dokument online za darmo. Dzięki naszemu narzędziu do łączenia PDF-ów, scalanie PDF-ów jest łatwiejsze niż kiedykolwiek wcześniej. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
     "pdf_tools__split_pdf__title": "Podziel PDF – Oddziel strony PDF online za darmo | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Łatwo oddzielaj strony lub usuwaj strony w swoim pliku PDF online za darmo. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
+    "pdf_tools__split_pdf__description": "Łatwo oddzielaj strony lub usuwaj strony w swoim pliku PDF online za darmo. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
+    "pdf_tools__png_to_pdf__title": "PNG do PDF - Konwertuj obrazy PNG na PDF online za darmo | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Konwertuj obrazy PNG na PDF online za darmo. Konwerter zamienia dowolny plik obrazu PNG w spersonalizowany plik PDF. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG do PDF - Konwertuj obrazy JPEG na PDF online za darmo | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Konwertuj obrazy JPEG na PDF online za darmo. Konwerter zamienia dowolny plik obrazu JPEG w spersonalizowany plik PDF. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Wyczyść PDF-y",
     "components__pdf_merge__confirm_merge": "Potwierdź scalenie",
-    "components__pdf_merge__pdf_dropping": "Możesz dostosować kolejność PDF-ów przez przeciąganie i upuszczanie",
     "components__pdf_merge__button__download__tooltip": "Scal i pobierz PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Wyczyść wszystkie poniższe pliki PDF",
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj plik PDF poniżej"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Zaznacz wszystko",
     "components__pdf_split__deselect_all": "Odznacz wszystko",
     "components__pdf_split__confirm_split": "Potwierdź podział",
-    "components__pdf_split__pdf_dropping": "Możesz dostosować kolejność PDF-ów, przeciągając i upuszczając",
     "components__pdf_split__is_single_pdf": "Połącz wybrane strony w pojedynczy plik PDF",
     "components__pdf_split__cancel": "Anuluj",
     "components__pdf_split__error_maximum": "Nie udało się podzielić plików PDF, przekroczono maksymalną ilość",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Anuluj bieżący postęp"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "jest zaszyfrowany lub nieprawidłowy, nie można manipulować plikiem PDF, pominięto"
+    "components__common__pdf_encryption_tip": "jest zaszyfrowany lub nieprawidłowy, nie można manipulować plikiem PDF, pominięto",
+    "components__common__drag__dropping_tip": "Możesz dostosować kolejność, przeciągając i upuszczając"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Można przesyłać tylko obrazy typu obraz",
+    "components__image_to_pdf__button_add_png": "Dodaj obrazy",
+    "components__image_to_pdf__button_add_png__tooltip": "Dodaj obrazy poniżej",
+    "components__image_to_pdf__button_remove_png": "Usuń obrazy",
+    "components__image_to_pdf__button_remove_png__tooltip": "Wyczyść obrazy poniżej",
+    "components__image_to_pdf__page_size": "Rozmiar strony",
+    "components__image_to_pdf__image_alignment": "Wyrównanie obrazu",
+    "components__image_to_pdf__download": "Pobierz",
+    "components__image_to_pdf__download__tooltip": "Utwórz i pobierz PDF",
+    "components__image_to_pdf__position_middle": "Środek",
+    "components__image_to_pdf__position_top": "Góra",
+    "components__image_to_pdf__position_bottom": "Dół"
   }
 }

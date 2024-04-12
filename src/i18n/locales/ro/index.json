@@ -360,13 +360,23 @@
     "tools__index_page__title": "Instrumente MaxAI",
     "tools__index_page__description": "Toate instrumentele PDF sunt 100% GRATUITE și rulează în browserul tău pentru confidențialitate completă",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF în PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Exportați fiecare pagină PDF ca o imagine PNG sau extrageți imagini individuale din PDF în PNG-uri",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF în JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Exportați fiecare pagină PDF ca o imagine JPEG sau extrageți imagini individuale din PDF în JPEG-uri",
     "tools__index_page__constant_obj__merge_pdfs__title": "Unifică PDF-uri",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Unifică mai multe fișiere PDF într-unul singur cu doar câteva clicuri",
     "tools__index_page__constant_obj__split_a_pdf__title": "Divide un PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Fiecare pagină selectată va deveni un fișier PDF separat. În mod alternativ, puteți combina paginile selectate într-un singur fișier PDF."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG la PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG la PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Exportați fiecare pagină PDF ca o imagine PNG sau extrageți imagini individuale din PDF în PNG-uri",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exportați fiecare pagină PDF ca o imagine PNG sau extrageți imagini individuale din PDF în PNG-uri",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exportați fiecare pagină PDF ca o imagine JPEG sau extrageți imagini individuale din PDF în JPEG-uri",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exportați fiecare pagină ca un JPEG sau extrageți imagini individuale din PDF în JPEG-uri",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Combinați orice număr de PDF-uri în ordinea pe care o alegeți într-un singur PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Combinați mai multe fișiere PDF într-unul singur cu doar câteva clicuri",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Divideți paginile unui PDF în mai multe PDF-uri sau pur și simplu eliminați pagini dintr-unul existent",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Divideți paginile unui PDF în mai multe PDF-uri sau pur și simplu eliminați pagini dintr-unul existent.",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Conversia imaginilor PNG în PDF online",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Fiecare imagine încărcată va deveni o pagină într-un singur PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Conversia imaginilor JEPG în PDF online",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Fiecare imagine încărcată va deveni o pagină într-un singur PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Unificare PDF - Combinați fișiere PDF online gratuit | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Combinați fișierele PDF și creați un singur document online gratuit. Cu combinatorul nostru PDF, unificarea PDF-urilor este mai ușoară ca niciodată. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
     "pdf_tools__split_pdf__title": "Splitare PDF - Separă paginile PDF online gratuit | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Separă ușor pagini sau elimină pagini din PDF-ul tău online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare."
+    "pdf_tools__split_pdf__description": "Separă ușor pagini sau elimină pagini din PDF-ul tău online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
+    "pdf_tools__png_to_pdf__title": "PNG la PDF - Convertiți Imagini PNG în PDF Online Gratuit | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Convertește imagini PNG în format PDF online gratuit. Convertorul transformă orice fișier imagine PNG într-un fișier PDF personalizat. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG la PDF - Convertiți imagini JPEG în PDF online gratuit | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Convertește imagini JPEG în format PDF online gratuit. Convertorul transformă orice fișier imagine JPEG într-un fișier PDF personalizat. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Adăugați PDF",
     "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
     "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
-    "components__pdf_merge__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare",
     "components__pdf_merge__button__download__tooltip": "Unificați și descărcați PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Ștergeți toate PDF-urile de mai jos",
     "components__pdf_merge__button__add_pdfs__tooltip": "Adăugați fișierul PDF mai jos"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Selectați tot",
     "components__pdf_split__deselect_all": "Deselectați tot",
     "components__pdf_split__confirm_split": "Confirmați divizarea",
-    "components__pdf_split__pdf_dropping": "Puteți ajusta ordinea PDF-urilor prin tragere și plasare",
     "components__pdf_split__is_single_pdf": "Unificați paginile selectate într-un singur PDF",
     "components__pdf_split__cancel": "Anulați",
     "components__pdf_split__error_maximum": "Nu s-a putut diviza fișierele PDF, ați depășit cantitatea maximă",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Anulați progresul curent"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "este criptat sau anormal, nu se poate manipula PDF-ul, s-a trecut peste"
+    "components__common__pdf_encryption_tip": "este criptat sau anormal, nu se poate manipula PDF-ul, s-a trecut peste",
+    "components__common__drag__dropping_tip": "Puteți ajusta ordinea prin tragere și fixare"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Pot fi încărcate doar imagini de tip imagine",
+    "components__image_to_pdf__button_add_png": "Adăugați imagini",
+    "components__image_to_pdf__button_add_png__tooltip": "Adăugați imagini mai jos",
+    "components__image_to_pdf__button_remove_png": "Eliminați imagini",
+    "components__image_to_pdf__button_remove_png__tooltip": "Ștergeți imaginile de mai jos",
+    "components__image_to_pdf__page_size": "Dimensiunea paginii",
+    "components__image_to_pdf__image_alignment": "Alinierea imaginii",
+    "components__image_to_pdf__download": "Descărcați",
+    "components__image_to_pdf__download__tooltip": "Creați și descărcați PDF",
+    "components__image_to_pdf__position_middle": "Mijloc",
+    "components__image_to_pdf__position_top": "Sus",
+    "components__image_to_pdf__position_bottom": "Jos"
   }
 }

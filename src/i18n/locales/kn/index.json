@@ -360,13 +360,23 @@
     "tools__index_page__title": "ಮ್ಯಾಕ್ಸ್‌ಏಐ ಟೂಲ್ಸ್",
     "tools__index_page__description": "ಎಲ್ಲಾ PDF ಸಾಧನಗಳು 100% ಉಚಿತವಾಗಿದೆ ಮತ್ತು ಪೂರ್ಣ ಗೌಪ್ಯತೆಯ ಕೊಡುಗೆಯಲ್ಲಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತವೆ",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ನಿಂದ PNG ಗೆ",
-    "tools__index_page__constant_obj__pdf_to_png__description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಪಿಎನ್ಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಿಎನ್ಜಿಗಳಾಗಿ ಹೊರತೆಗೆಯಿರಿ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ನಿಂದ JPEG ಗೆ",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಜೆಪೆಗಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಜೆಪೆಗಳಾಗಿ ಹೊರತೆಗೆಯಿರಿ",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
-    "tools__index_page__constant_obj__merge_pdfs__description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು PDF ಕಡತಗಳನ್ನು ಒಂದರಲ್ಲಿ ಸೇರಿಸಿ",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF ಅನ್ನು ವಿಭಾಗಿಸಿ",
-    "tools__index_page__constant_obj__split_a_pdf__description": "ಪ್ರತ್ಯೇಕವಾದ ಪ್ರತಿಯೊಂದು ಆಯ್ಕೆಯ ಪುಟವು ಒಂದೊಂದು ಪೀಡಿಎಫ್ ಕಡತವಾಗುತ್ತದೆ. ಅಥವಾ, ಆಯ್ಕೆಯ ಪುಟಗಳನ್ನು ಒಂದು ಏಕೀಕೃತ ಪೀಡಿಎಫ್ ಕಡತದಲ್ಲಿ ಮಿಡಿಯಬಹುದು."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ನಿಂದ PDF ಗೆ",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಪಿಎನ್ಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಪಿಎನ್ಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಜೆಪಿಇಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಜೆಪಿಇಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "ನೀವು ಆಯ್ದ ಕ್ರಮದಲ್ಲಿ ಯಾವುದೇ ಪೀಡಿಎಫ್ ಪುಟಗಳನ್ನು ಒಂದು ಪೀಡಿಎಫ್ ಗೆ ಸೇರಿಸಿ",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು ಪೀಡಿಎಫ್ ಕಡತಗಳನ್ನು ಒಂದಾಗಿ ಸೇರಿಸಿ",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "ಪೀಡಿಎಫ್ ಪುಟಗಳನ್ನು ಹಲವು ಪೀಡಿಎಫ್ ಗಳಾಗಿ ವಿಭಜಿಸಿ ಅಥವಾ ಇರುವುದನ್ನು ಪರಿಷ್ಕರಿಸಿ",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "ಪೀಡಿಎಫ್ ಪುಟಗಳನ್ನು ಹಲವು ಪೀಡಿಎಫ್ ಗಳಾಗಿ ವಿಭಜಿಸಿ ಅಥವಾ ಇರುವುದನ್ನು ಪರಿಷ್ಕರಿಸಿ",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "ಪಿಎನ್‌ಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಗೆ ಮಾರ್ಪಡಿಸಿ",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ಪುಟವಾಗುತ್ತದೆ",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "ಜೆಪಿಇಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಗೆ ಮಾರ್ಪಡಿಸಿ",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ಪುಟವಾಗುತ್ತದೆ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ - ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದು ದಸ್ತಾವೇಜುವಾಗಿ ರಚಿಸಿ | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ ಮತ್ತು ಒಂದು ದಸ್ತಾವೇಜುವನ್ನು ರಚಿಸಿ. ನಮ್ಮ PDF ಒಂದುಗೂಡಿಸುವಿಕೆಯೊಂದಿಗೆ, PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸುವುದು ಎಂದಿಗೂ ಹೆಚ್ಚು ಸುಲಭವಾಗಿರುತ್ತದೆ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__split_pdf__title": "ಪಿಡಿಎಫ್ ವಿಭಜನೆ - ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ | MaxAI.me",
-    "pdf_tools__split_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ ಅಥವಾ ಪುಟಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಗಳೂ, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳೂ, ಡೌನ್‌ಲೋಡ್‌ಗಳೂ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳೂ ಬೇಕಾಗಿಲ್ಲ."
+    "pdf_tools__split_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ ಅಥವಾ ಪುಟಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಗಳೂ, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳೂ, ಡೌನ್‌ಲೋಡ್‌ಗಳೂ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳೂ ಬೇಕಾಗಿಲ್ಲ.",
+    "pdf_tools__png_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ PNG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಎನ್‌ಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಕನಿಷ್ಠ ಅಂಶ ಹಾಕುಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಾದಿಯಲ್ಲಿ ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಂತಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ JPEG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "ಉಚಿತವಾಗಿ ಜೆಪಿಇಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಕನಿಷ್ಠ ಅಂಶ ಹಾಕುಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಾದಿಯಲ್ಲಿ ಪಿಡಿಎಫ್ ಆನ್‌ಲೈನ್ ಮಾಡಿ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳು, ಕಡಿಮೆ ಕಡಿಮೆ ಹಂತಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
   },
   "features_landing": {
     "cta_text": "ಬ್ರೌಸರ್‌ಗೆ ಸೇರಿಸಿ",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "ಪಿಡಿಎಫ್ ಸೇರಿಸಿ",
     "components__pdf_merge__empty_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__confirm_merge": "ಮರುಹೊಂದಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿ",
-    "components__pdf_merge__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಬದಲಾಯಿಸಬಹುದು",
     "components__pdf_merge__button__download__tooltip": "ಪಿಡಿಎಫ್ ಮರುಕ್ರಮಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_merge__button__clear_pdfs__tooltip": "ಕೆಳಗಿನ ಎಲ್ಲಾ ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__button__add_pdfs__tooltip": "ಕೆಳಗೆ ಪಿಡಿಎಫ್ ಕಡತವನ್ನು ಸೇರಿಸಿ"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
     "components__pdf_split__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದುಮಾಡಿ",
     "components__pdf_split__confirm_split": "ವಿಭಜನೆ ಖಚಿತಪಡಿಸಲು ದೃಢೀಕರಿಸಿ",
-    "components__pdf_split__pdf_dropping": "ಪಿಡಿಎಫ್ ಕ್ರಮವನ್ನು ಹಾಯಿಸಿ ಮತ್ತು ಬಿಡಿಸುವುದರಿಂದ ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು",
     "components__pdf_split__is_single_pdf": "ಆಯ್ಕೆಮಾಡಲಾದ ಪುಟಗಳನ್ನು ಒಂದು ಪಿಡಿಎಫ್‌ಗೆ ಒಂದುಗೂಡಿಸಿ",
     "components__pdf_split__cancel": "ರದ್ದುಮಾಡಿ",
     "components__pdf_split__error_maximum": "ಪಿಡಿಎಫ್ ಫೈಲ್‌ಗಳನ್ನು ವಿಭಜಿಸುವುದರಲ್ಲಿ ತಪ್ಪಾಗಿದೆ, ಗರಿಷ್ಠ ಪ್ರಮಾಣವನ್ನು ಮೀರಿದೆ",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "ಪ್ರಸ್ತುತ ಪ್ರಗತಿಯನ್ನು ರದ್ದುಮಾಡಿ"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "ಪಿಡಿಎಫ್ ಎನ್ಕ್ರಿಪ್ಷನ್ ಮಾಡಲಾಗಿದೆ ಅಥವಾ ಅಸಾಮಾನ್ಯ, ಪಿಡಿಎಫ್ ಮಾರ್ಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಹಾಗೂ ಹಾಲಿಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+    "components__common__pdf_encryption_tip": "ಪಿಡಿಎಫ್ ಎನ್ಕ್ರಿಪ್ಷನ್ ಮಾಡಲಾಗಿದೆ ಅಥವಾ ಅಸಾಮಾನ್ಯ, ಪಿಡಿಎಫ್ ಮಾರ್ಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಹಾಗೂ ಹಾಲಿಕೆ ಮಾಡಲಾಗಿಲ್ಲ",
+    "components__common__drag__dropping_tip": "ನೀವು ಹಾಕಿದ್ದನ್ನು ಎಳೆಯುವುದರ ಮೂಲಕ ಕ್ರಮವನ್ನು ಸರಿಪಡಿಸಬಹುದು"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "ಕೇವಲ ಚಿತ್ರ ಪ್ರಕಾರದ ಚಿತ್ರಗಳನ್ನು ಮಾತ್ರ ಅಪ್ಲೋಡ್ ಮಾಡಬಹುದು",
+    "components__image_to_pdf__button_add_png": "ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸಿ",
+    "components__image_to_pdf__button_add_png__tooltip": "ಕೆಳಗೆ ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸಿ",
+    "components__image_to_pdf__button_remove_png": "ಚಿತ್ರಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+    "components__image_to_pdf__button_remove_png__tooltip": "ಕೆಳಗೆ ಚಿತ್ರಗಳನ್ನು ತೆಗೆದುಹಾಕಿ",
+    "components__image_to_pdf__page_size": "ಪುಟ ಗಾತ್ರ",
+    "components__image_to_pdf__image_alignment": "ಚಿತ್ರ ಸಮನ್ವಯ",
+    "components__image_to_pdf__download": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__image_to_pdf__download__tooltip": "PDF ರನ್ನು ರಚಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__image_to_pdf__position_middle": "ಮಧ್ಯದಲ್ಲಿ",
+    "components__image_to_pdf__position_top": "ಮೇಲೆ",
+    "components__image_to_pdf__position_bottom": "ಕೆಳಗೆ"
   }
 }

@@ -360,13 +360,23 @@
     "tools__index_page__title": "Alat MaxAI",
     "tools__index_page__description": "Semua alat PDF adalah 100% PERCUMA dan berjalan dalam pelayar anda untuk privasi yang lengkap",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ke PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Eksport setiap halaman PDF sebagai imej PNG atau ekstrak imej individu dari PDF ke PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ke JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksport setiap halaman PDF sebagai imej JPEG atau ekstrak imej individu dari PDF ke JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Gabung PDF",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Gabung beberapa fail PDF menjadi satu dengan hanya beberapa klik",
     "tools__index_page__constant_obj__split_a_pdf__title": "Bahagikan PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Setiap halaman yang dipilih akan menjadi fail PDF yang berasingan. Sebagai alternatif, anda boleh menggabungkan halaman yang dipilih ke dalam satu fail PDF."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG ke PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ke PDF",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Eksport setiap halaman PDF sebagai imej PNG atau ekstrak imej individu dari PDF ke PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksport setiap halaman PDF sebagai imej PNG atau ekstrak imej individu dari PDF ke PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksport setiap halaman PDF sebagai imej JPEG atau ekstrak imej individu dari PDF ke JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksport setiap halaman sebagai JPEG atau ekstrak imej individu dari PDF ke JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Gabungkan sebarang bilangan PDF dalam urutan yang anda pilih menjadi satu PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Gabungkan beberapa fail PDF menjadi satu dengan hanya beberapa klik",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Bahagikan halaman-halaman PDF kepada beberapa PDF atau hanya alih keluar halaman daripada yang sedia ada",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Bahagikan halaman-halaman PDF kepada beberapa PDF atau hanya alih keluar halaman daripada yang sedia ada.",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Tukar imej PNG kepada PDF dalam talian",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Tukar imej JEPG kepada PDF dalam talian",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Gabungkan PDF - Gabungkan Fail PDF Dalam Talian secara Percuma | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Gabungkan fail PDF dan cipta dokumen tunggal dalam talian secara percuma. Dengan penggabung PDF kami, menggabungkan PDF menjadi lebih mudah dari sebelumnya. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__split_pdf__title": "Pisahkan PDF – Pisahkan Halaman PDF Secara Dalam Talian secara Percuma | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau mengeluarkan halaman dalam PDF anda secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
+    "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau mengeluarkan halaman dalam PDF anda secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__png_to_pdf__title": "PNG ke PDF - Tukar Gambar PNG ke PDF Dalam Talian Secara Percuma | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Tukar imej PNG kepada PDF dalam talian secara percuma. Penukar ini mengubah sebarang fail imej PNG kepada fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG ke PDF - Tukar Imej JPEG ke PDF Dalam Talian secara Percuma | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Tukar imej JPEG kepada PDF dalam talian secara percuma. Penukar ini mengubah sebarang fail imej JPEG kepada fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Tambah PDF",
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
-    "components__pdf_merge__pdf_dropping": "Anda boleh mengubahsuai susunan PDF dengan menyeret dan menjatuhkan",
     "components__pdf_merge__button__download__tooltip": "Gabung dan muat turun PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Padam semua PDF di bawah",
     "components__pdf_merge__button__add_pdfs__tooltip": "Tambah fail PDF di bawah"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Pilih Semua",
     "components__pdf_split__deselect_all": "Batal Pilih Semua",
     "components__pdf_split__confirm_split": "Sahkan untuk pecah",
-    "components__pdf_split__pdf_dropping": "Anda boleh mengubah susunan PDF dengan menyeret dan melepaskan",
     "components__pdf_split__is_single_pdf": "Gabungkan halaman yang dipilih ke dalam satu PDF",
     "components__pdf_split__cancel": "Batal",
     "components__pdf_split__error_maximum": "Gagal memecah fail PDF, Melebihi jumlah maksimum",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Batalkan kemajuan semasa"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati"
+    "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati",
+    "components__common__drag__dropping_tip": "Anda boleh mengubah susunan dengan menyeret dan menjatuhkan"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis imej boleh dimuat naik",
+    "components__image_to_pdf__button_add_png": "Tambah imej",
+    "components__image_to_pdf__button_add_png__tooltip": "Tambah imej di bawah",
+    "components__image_to_pdf__button_remove_png": "Buang imej",
+    "components__image_to_pdf__button_remove_png__tooltip": "Kosongkan imej di bawah",
+    "components__image_to_pdf__page_size": "Saiz halaman",
+    "components__image_to_pdf__image_alignment": "Penjajaran imej",
+    "components__image_to_pdf__download": "Muat turun",
+    "components__image_to_pdf__download__tooltip": "Cipta dan muat turun PDF",
+    "components__image_to_pdf__position_middle": "Tengah",
+    "components__image_to_pdf__position_top": "Atas",
+    "components__image_to_pdf__position_bottom": "Bawah"
   }
 }

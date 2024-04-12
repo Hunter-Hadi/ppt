@@ -147,6 +147,8 @@ function generateToolsPages() {
     '/pdf-tools/split-pdf',
     '/pdf-tools/pdf-to-png',
     '/pdf-tools/pdf-to-jpeg',
+    '/pdf-tools/png-to-pdf',
+    '/pdf-tools/jpeg-to-pdf',
   ];
 
   return toolsPages.concat(generateStaticPagesWithLocale(toolsPages));

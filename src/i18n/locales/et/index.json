@@ -360,13 +360,23 @@
     "tools__index_page__title": "MaxAI Tööriistad",
     "tools__index_page__description": "Kõik PDF tööriistad on 100% TASUTA ja töötavad sinu veebilehitsejas täieliku privaatsuse tagamiseks",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-iks",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Ekspordi iga PDF leht PNG pildina või eralda üksikud pildid PDF-ist PNG-deks",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-iks",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Ekspordi iga PDF leht JPEG pildina või eralda üksikud pildid PDF-ist JPEG-ideks",
     "tools__index_page__constant_obj__merge_pdfs__title": "Ühenda PDF-id",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga",
     "tools__index_page__constant_obj__split_a_pdf__title": "Jaga PDF-i",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Iga valitud leht saab eraldi PDF-failiks. Võite ka valitud lehed ühendada üheks PDF-failiks."
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG PDF-iks",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG PDF-iks",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Ekspordi iga PDF leht PNG pildina või eralda üksikud pildid PDF-ist PNG-deks",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Ekspordi iga PDF leht PNG pildina või eralda üksikud pildid PDF-ist PNG-deks",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Ekspordi iga PDF leht JPEG pildina või eralda üksikud pildid PDF-ist JPEG-ideks",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Ekspordi iga leht JPEG-ina või eralda üksikud pildid PDF-ist JPEG-ideks",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Ühenda valitud järjekorras mis tahes arv PDF-e üheks PDF-iks",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Jaga PDF-i lehti mitmeks PDF-iks või eemalda lihtsalt lehti olemasolevast",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Jaga PDF-i lehti mitmeks PDF-iks või eemalda lihtsalt lehti olemasolevast",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Teisenda PNG pildid PDF-iks veebis",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Iga üles laaditud pilt saab ühe lehe ühes PDF-is",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Teisenda JPEG pildid PDF-iks veebis",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Iga üles laaditud pilt saab ühe lehe ühes PDF-is"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -614,7 +624,11 @@
     "pdf_tools__merge_pdfs__title": "Ühenda PDF – Ühenda tasuta veebis PDF failid | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Ühenda PDF failid ja loo üks dokument tasuta veebis. Meie PDF ühendajaga on PDF-ide ühendamine lihtsam kui kunagi varem. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__split_pdf__title": "Jaga PDF – Eralda PDF-i leheküljed veebis tasuta | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Lihtsalt eralda lehekülgi või eemalda lehekülgi oma PDF-ist veebis tasuta. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
+    "pdf_tools__split_pdf__description": "Lihtsalt eralda lehekülgi või eemalda lehekülgi oma PDF-ist veebis tasuta. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__png_to_pdf__title": "PNG PDF-iks - Teisenda PNG-pildid tasuta PDF-iks | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Teisenda PNG-pildid tasuta veebis PDF-iks. Konverter muudab mis tahes PNG-pildifaili kohandatud PDF-failiks. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG PDF-iks - Teisenda JPEG-pildid tasuta PDF-iks | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Teisenda JPEG-pildid tasuta veebis PDF-iks. Konverter muudab mis tahes JPEG-pildifaili kohandatud PDF-failiks. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",
@@ -678,7 +692,6 @@
     "components__pdf_merge__add_pdf": "Lisa PDF",
     "components__pdf_merge__empty_pdf": "Tühjenda PDF-id",
     "components__pdf_merge__confirm_merge": "Kinnita ühendamine",
-    "components__pdf_merge__pdf_dropping": "Saate PDF-i järjestust reguleerida lohistamise teel",
     "components__pdf_merge__button__download__tooltip": "Ühenda ja laadi PDF alla",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Kustuta kõik allpool olevad PDF-id",
     "components__pdf_merge__button__add_pdfs__tooltip": "Lisa PDF-fail allpool"
@@ -690,7 +703,6 @@
     "components__pdf_split__select_all": "Vali kõik",
     "components__pdf_split__deselect_all": "Tühista valik",
     "components__pdf_split__confirm_split": "Kinnita jagamine",
-    "components__pdf_split__pdf_dropping": "Saate PDF-i järjekorda reguleerida lohistades ja kukutades",
     "components__pdf_split__is_single_pdf": "Ühenda valitud lehed üheks PDF-iks",
     "components__pdf_split__cancel": "Tühista",
     "components__pdf_split__error_maximum": "PDF-failide jagamine ebaõnnestus, ületati maksimaalset kogust",
@@ -701,6 +713,21 @@
     "components__pdf_split__button__cancel__tooltip": "Tühista praegune protsess"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele"
+    "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele",
+    "components__common__drag__dropping_tip": "Saate järjestust reguleerida lohistades ja kukutades"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Ainult pilditüüpi pilte saab üles laadida",
+    "components__image_to_pdf__button_add_png": "Lisa pilte",
+    "components__image_to_pdf__button_add_png__tooltip": "Lisa allpool olevad pildid",
+    "components__image_to_pdf__button_remove_png": "Eemalda pildid",
+    "components__image_to_pdf__button_remove_png__tooltip": "Tühjenda allpool olevad pildid",
+    "components__image_to_pdf__page_size": "Lehe suurus",
+    "components__image_to_pdf__image_alignment": "Pildi joondus",
+    "components__image_to_pdf__download": "Laadi alla",
+    "components__image_to_pdf__download__tooltip": "Loo ja laadi PDF alla",
+    "components__image_to_pdf__position_middle": "Keskel",
+    "components__image_to_pdf__position_top": "Üleval",
+    "components__image_to_pdf__position_bottom": "All"
   }
 }

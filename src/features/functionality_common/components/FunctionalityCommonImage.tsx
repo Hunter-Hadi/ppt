@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Box, SxProps, Typography } from '@mui/material';
 import { CSSProperties, FC } from 'react';
 
 import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
@@ -6,10 +6,11 @@ import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImage
 interface IFunctionalitySortableImageProps {
   name?: string;
   imageInfo: IFunctionalityCommonImageInfo;
-  isActive?: boolean;
-  rightTopChildren?: React.ReactNode;
+  children?: React.ReactNode;
   onClick?: () => void;
-  imageSize?: number | string;
+  wrapSx?: SxProps;
+  sx?: SxProps;
+  imgStyle?: CSSProperties;
 }
 /**
  * Functionality公共的图片视图
@@ -22,11 +23,12 @@ interface IFunctionalitySortableImageProps {
  */
 const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
   imageInfo,
-  isActive,
-  rightTopChildren,
+  children,
   onClick,
   name,
-  imageSize,
+  sx,
+  wrapSx,
+  imgStyle,
 }) => {
   return (
     <Box
@@ -34,23 +36,23 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
       sx={{
         cursor: 'grab',
         position: 'relative',
-        width: imageSize || 200,
+        width: 200,
+        ...wrapSx,
       }}
     >
       <Box
         sx={{
           padding: 1,
-          backgroundColor: '#9065b00a',
+          bgcolor: '#9065b00a',
           '&:hover': {
-            backgroundColor: '#f0eded',
+            bgcolor: '#f0eded',
           },
-          border: isActive ? '1px dashed #64467b' : '1px solid transparent',
           borderRadius: 1,
-
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           flexWrap: 'wrap',
+          ...sx,
         }}
       >
         <img
@@ -58,11 +60,11 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
             {
               objectFit: 'contain',
               width: '100%',
-              opacity: isActive ? 0 : 1,
               userSelect: 'none',
               WebkitUserDrag: 'none',
               maxHeight: 500,
               minHeight: 60,
+              ...imgStyle,
             } as CSSProperties
           }
           srcSet={imageInfo.imageUrlString}
@@ -80,27 +82,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
           {name}
         </Typography>
       </Box>
-      {rightTopChildren && (
-        <Box
-          sx={{
-            position: 'absolute',
-            top: 5,
-            right: 5,
-            height: 20,
-            width: 20,
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            zIndex: 3,
-            '&:hover': {
-              backgroundColor: '#f0eded',
-            },
-            cursor: 'pointer',
-          }}
-        >
-          {rightTopChildren}
-        </Box>
-      )}
+      {children}
     </Box>
   );
 };

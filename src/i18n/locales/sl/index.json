@@ -366,7 +366,11 @@
     "tools__index_page__constant_obj__merge_pdfs__title": "Združi PDF-je",
     "tools__index_page__constant_obj__merge_pdfs__description": "Združite več PDF datotek v eno z le nekaj kliki",
     "tools__index_page__constant_obj__split_a_pdf__title": "Razdeli PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Vsaka izbrana stran bo postala ločena datoteka PDF. Lahko pa združite izbrane strani v eno samo datoteko PDF."
+    "tools__index_page__constant_obj__split_a_pdf__description": "Vsaka izbrana stran bo postala ločena datoteka PDF. Lahko pa združite izbrane strani v eno samo datoteko PDF.",
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG v PDF",
+    "tools__index_page__constant_obj__png_to_pdf__description": "Vsaka naložena slika bo postala stran v enem samem PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG v PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Vsaka naložena slika bo postala stran v enem samem PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -614,7 +618,11 @@
     "pdf_tools__merge_pdfs__title": "Združi PDF – Združi PDF datoteke na spletu brezplačno | MaxAI.me",
     "pdf_tools__merge_pdfs__description": "Združite PDF datoteke in ustvarite en dokument na spletu brezplačno. S pomočjo našega orodja za združevanje PDF-jev je združevanje PDF-jev lažje kot kdajkoli prej. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__split_pdf__title": "Razdeli PDF – Brezplačno ločite strani v PDF datoteki | MaxAI.me",
-    "pdf_tools__split_pdf__description": "Enostavno ločite strani ali odstranite strani v vašem PDF dokumentu brezplačno. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
+    "pdf_tools__split_pdf__description": "Enostavno ločite strani ali odstranite strani v vašem PDF dokumentu brezplačno. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
+    "pdf_tools__png_to_pdf__title": "PNG v PDF - Pretvori PNG slike v PDF na spletu brezplačno | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Brezplačno pretvorite PNG slike v PDF. Pretvornik spremeni katero koli PNG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
+    "pdf_tools__jpeg_to_pdf__title": "JPEG v PDF - Pretvori JPEG slike v PDF na spletu brezplačno | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Brezplačno pretvorite JPEG slike v PDF. Pretvornik spremeni katero koli JPEG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",
@@ -678,7 +686,6 @@
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Počisti PDF-je",
     "components__pdf_merge__confirm_merge": "Potrdi združevanje",
-    "components__pdf_merge__pdf_dropping": "Vrstni red PDF-jev lahko prilagodite z vlečenjem in spuščanjem",
     "components__pdf_merge__button__download__tooltip": "Združi in prenesi PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Počisti vse spodnje PDF-je",
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteko spodaj"
@@ -690,7 +697,6 @@
     "components__pdf_split__select_all": "Izberi vse",
     "components__pdf_split__deselect_all": "Prekliči izbor",
     "components__pdf_split__confirm_split": "Potrdi razdelitev",
-    "components__pdf_split__pdf_dropping": "Spremenite vrstni red PDF-jev z vlečenjem in spuščanjem",
     "components__pdf_split__is_single_pdf": "Združi izbrane strani v en PDF",
     "components__pdf_split__cancel": "Prekliči",
     "components__pdf_split__error_maximum": "Razdelitev datotek PDF ni uspela, presežena je največja količina",
@@ -701,6 +707,21 @@
     "components__pdf_split__button__cancel__tooltip": "Prekliči trenutni postopek"
   },
   "functionality__common": {
-    "components__common__pdf_encryption_tip": "je šifriran ali nenavaden, ni mogoče manipulirati s PDF-jem, preskočeno"
+    "components__common__pdf_encryption_tip": "je šifriran ali nenavaden, ni mogoče manipulirati s PDF-jem, preskočeno",
+    "components__common__drag__dropping_tip": "Vrstni red lahko prilagodite z vlečenjem in spuščanjem"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Samo slike vrste slike lahko naložite",
+    "components__image_to_pdf__button_add_png": "Dodaj slike",
+    "components__image_to_pdf__button_add_png__tooltip": "Dodajte slike spodaj",
+    "components__image_to_pdf__button_remove_png": "Odstrani slike",
+    "components__image_to_pdf__button_remove_png__tooltip": "Počistite slike spodaj",
+    "components__image_to_pdf__page_size": "Velikost strani",
+    "components__image_to_pdf__image_alignment": "Poravnava slike",
+    "components__image_to_pdf__download": "Prenesi",
+    "components__image_to_pdf__download__tooltip": "Ustvari in prenesi PDF",
+    "components__image_to_pdf__position_middle": "Sredina",
+    "components__image_to_pdf__position_top": "Zgoraj",
+    "components__image_to_pdf__position_bottom": "Spodaj"
   }
 }

@@ -5,6 +5,7 @@ import { FC, lazy, Suspense, useMemo } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
+import FunctionalityImageToPdfMain from '@/features/functionality_image_to_pdf/components/FunctionalityImageToPdfMain';
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
 import {
   IToolUrkKeyType,
@@ -58,6 +59,14 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__split_pdf__title'),
       description: t('seo:pdf_tools__split_pdf__description'),
     },
+    'png-to-pdf': {
+      title: t('seo:pdf_tools__png_to_pdf__title'),
+      description: t('seo:pdf_tools__png_to_pdf__description'),
+    },
+    'jpeg-to-pdf': {
+      title: t('seo:pdf_tools__jpeg_to_pdf__title'),
+      description: t('seo:pdf_tools__jpeg_to_pdf__description'),
+    },
   };
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
@@ -77,7 +86,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       >
         <ToolsBanner
           title={currentToolData.title}
-          description={currentToolData.description}
+          description={currentToolData.secondaryDescription}
         />
         <Suspense fallback={<AppLoadingLayout loading />}>
           {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
@@ -85,6 +94,9 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           )}
           {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
           {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
+          {(urlKey === 'png-to-pdf' || urlKey === 'jpeg-to-pdf') && (
+            <FunctionalityImageToPdfMain accept={currentToolData.accept} />
+          )}
         </Suspense>
       </Box>
     </AppContainer>
