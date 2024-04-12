@@ -1,4 +1,5 @@
 import {
+  closestCenter,
   DndContext,
   DragOverlay,
   KeyboardSensor,
@@ -7,45 +8,40 @@ import {
   useSensors,
 } from '@dnd-kit/core';
 import {
+  rectSortingStrategy,
   SortableContext,
   useSortable,
-  verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { Box, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { useMemo, useState } from 'react';
-type IBasicData = { id: string };
+import React, { useCallback, useMemo, useState } from 'react';
 
+type IBasicData = { id: string };
+type DragDataItem<T> = T & IBasicData;
 interface IFunctionalitySortableItemProps<T> {
-  imageInfo: T & IBasicData;
-  activeDragId: string | null;
-  childrenElement: (data: T & IBasicData) => JSX.Element;
+  imageInfo: DragDataItem<T>;
+  isActive: boolean;
+  childrenElement: (data: DragDataItem<T>) => JSX.Element;
 }
-/**
- *
- * FunctionalitySortableImage 拖拽的子元素功能，需要useSortable所以单独放上面
- */
+
 const FunctionalitySortableItem = <T,>({
   imageInfo,
-  activeDragId,
+  isActive,
   childrenElement,
 }: IFunctionalitySortableItemProps<T>) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
     useSortable({ id: imageInfo.id });
-  const isActiveImage = activeDragId === imageInfo.id;
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
-    zIndex: isActiveImage ? 1 : 0,
+    zIndex: isActive ? 1 : 0,
   };
+
   return (
     <Box
       ref={setNodeRef}
-      style={{
-        ...style,
-        backgroundColor: 'transparent',
-      }}
+      style={style}
       {...listeners}
       {...attributes}
       sx={{
@@ -56,16 +52,19 @@ const FunctionalitySortableItem = <T,>({
         alignItems: 'center',
         flexWrap: 'wrap',
         width: 200,
+        bgcolor: 'transparent',
       }}
     >
       {childrenElement(imageInfo)}
     </Box>
   );
 };
-type DragDataItem<T> = T & IBasicData;
+
+const MemoFunctionalitySortableItem = React.memo(FunctionalitySortableItem);
+
 interface IFunctionalityCommonDragSortableListProps<T> {
   list: DragDataItem<T>[];
-  onUpdateList: (data: DragDataItem<T>[]) => void;
+  onUpdateList: (newList: DragDataItem<T>[]) => void;
   children: (
     data: DragDataItem<T>,
     index: number,
@@ -82,70 +81,72 @@ interface IFunctionalityCommonDragSortableListProps<T> {
  * @param replacementElement 拖拽时替换的元素，如果不传则使用children
  *@param  children 列表元素视图，会传入data.index.currentDragInfo
  */
-const FunctionalityCommonDragSortableList = <T extends {}>({
+const FunctionalityCommonDragSortableList = <T,>({
   list,
   onUpdateList,
   replacementElement,
   children,
 }: IFunctionalityCommonDragSortableListProps<T>) => {
   const { t } = useTranslation();
-  const [activeDragId, setActiveDragId] = useState(null); //选中的id
+  const [activeDragId, setActiveDragId] = useState<string | null>(null);
+
+  const handleDragEnd = useCallback(
+    (event) => {
+      const { active, over } = event;
+      setActiveDragId(null);
+      if (over && active.id !== over.id) {
+        const oldIndex = list.findIndex((item) => item.id === active.id);
+        const newIndex = list.findIndex((item) => item.id === over.id);
+        const newList = [...list];
+        newList.splice(newIndex, 0, newList.splice(oldIndex, 1)[0]);
+        onUpdateList(newList);
+      }
+    },
+    [list, onUpdateList],
+  );
+
+  const onDragStart = (event) => {
+    setActiveDragId(event.active.id);
+  };
+
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 2, // 按住不动移动2px 时 才进行拖拽, 这样就可以触发点击事件
+        distance: 2,
       },
     }),
     useSensor(KeyboardSensor),
   );
 
-  const handleDragUpdateList = (event, isDragEnd = true) => {
-    //拖拽更新父级数据
-    const { active, over } = event;
-    if (isDragEnd) {
-      //为DragEnd则说明结束，释放 选中的
-      setActiveDragId(null);
-    }
-    if (over && active.id !== over.id) {
-      const oldIndex = list.findIndex(
-        (imageInfo) => imageInfo.id === active.id,
-      );
-      const newIndex = list.findIndex((imageInfo) => imageInfo.id === over.id);
-      const reorderedItems = [...list];
-      const [movedItem] = reorderedItems.splice(oldIndex, 1);
-      reorderedItems.splice(newIndex, 0, movedItem); //进行顺序调整
-      onUpdateList(reorderedItems);
-    }
-  };
-  const onDragMove = (event) => {
-    if (event.active.id) {
-      setActiveDragId(event.active.id);
-      handleDragUpdateList(event, false);
-    }
-  };
-  const currentDragInfo = useMemo(() => {
-    return list.find((imageInfo) => imageInfo.id === activeDragId);
-  }, [activeDragId]); //当前拖拽的图片信息，防止移动原来的图片，造成图片闪烁
+  const currentDragInfo = useMemo(
+    () => list.find((item) => item.id === activeDragId),
+    [activeDragId, list],
+  );
+
   return (
     <DndContext
       sensors={sensors}
-      onDragMove={onDragMove}
-      onDragEnd={handleDragUpdateList}
+      onDragStart={onDragStart}
+      onDragEnd={handleDragEnd}
+      collisionDetection={closestCenter}
     >
-      <SortableContext items={list} strategy={verticalListSortingStrategy}>
+      <SortableContext items={list} strategy={rectSortingStrategy}>
         <Stack
           direction='row'
           flexWrap='wrap'
           justifyContent='center'
           my={3}
           gap={2}
+          // Consider moving styles that don't change to static CSS
         >
           {list.map((imageInfo, index) => (
-            <FunctionalitySortableItem
+            <MemoFunctionalitySortableItem
               key={imageInfo.id}
+              isActive={activeDragId === imageInfo.id}
               imageInfo={imageInfo}
-              activeDragId={activeDragId}
-              childrenElement={(data) => children(data, index, currentDragInfo)}
+              childrenElement={(data) =>
+                children(data as DragDataItem<T>, index, currentDragInfo)
+              }
             />
           ))}
           {currentDragInfo && (
@@ -157,19 +158,14 @@ const FunctionalityCommonDragSortableList = <T extends {}>({
                 cursor: 'grabbing',
               }}
             >
-              {replacementElement && replacementElement(currentDragInfo)}
-              {!replacementElement && children(currentDragInfo, 0)}
+              {replacementElement
+                ? replacementElement(currentDragInfo)
+                : children(currentDragInfo, 0)}
             </DragOverlay>
           )}
         </Stack>
       </SortableContext>
-      <Box
-        sx={{
-          width: '100%',
-          display: 'flex',
-          justifyContent: 'center',
-        }}
-      >
+      <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
         <Typography
           variant='custom'
           color='text.secondary'
@@ -183,4 +179,5 @@ const FunctionalityCommonDragSortableList = <T extends {}>({
     </DndContext>
   );
 };
+
 export default FunctionalityCommonDragSortableList;
