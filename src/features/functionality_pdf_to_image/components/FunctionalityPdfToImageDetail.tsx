@@ -228,7 +228,10 @@ const FunctionalityPdfToImageDetail: FC<
       },
     },
   ];
-
+  const selectImageList = useMemo(
+    () => currentShowImages.filter((item) => item.isSelect),
+    [currentShowImages],
+  );
   return (
     <Box sx={{ width: '100%' }}>
       <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
@@ -360,7 +363,7 @@ const FunctionalityPdfToImageDetail: FC<
             >
               <Button
                 sx={{ width: '100%', height: 48 }}
-                disabled={isLoading}
+                disabled={isLoading || selectImageList.length === 0}
                 size='large'
                 variant='contained'
                 onClick={() => downloadZip()}
