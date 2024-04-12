@@ -149,6 +149,7 @@ function generateToolsPages() {
     '/pdf-tools/pdf-to-jpeg',
     '/pdf-tools/png-to-pdf',
     '/pdf-tools/jpeg-to-pdf',
+    '/pdf-tools/heic-to-pdf',
   ];
 
   return toolsPages.concat(generateStaticPagesWithLocale(toolsPages));
