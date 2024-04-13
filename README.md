@@ -1,11 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) .
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## I18n routing architecture description
 [www 项目 i18n 架构说明](https://ikjt09m6ta.larksuite.com/docx/IGESd36Koo7qUGx57q9uDwQGsTb)
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server :
 
 ```bash
 npm run dev

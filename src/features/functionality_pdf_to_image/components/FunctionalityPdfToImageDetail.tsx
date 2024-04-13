@@ -1,14 +1,28 @@
-import { Box, Button, CircularProgress, Grid, Typography } from '@mui/material';
+import {
+  Box,
+  Button,
+  CircularProgress,
+  Grid,
+  Stack,
+  Typography,
+} from '@mui/material';
+import { debounce } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
-import { FC, useCallback, useEffect, useMemo, useState } from 'react';
+import { FC, useEffect, useMemo, useState } from 'react';
 
-import FunctionalityIcon from '@/features/functionality_pdf_to_image/components/FunctionalityIcon';
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
+import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
+import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
+import useFunctionalityCommonPdfToImageConversion, {
+  defaultPdfToImageScale,
+  IFunctionalityPdfToImageType,
+} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
-import useConvertedContentSelector from '@/features/functionality_pdf_to_image/hooks/useConvertedContentSelector';
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
-import usePdfToImageConversion, {
-  IPdfPageImageInfo,
-} from '@/features/functionality_pdf_to_image/hooks/usePdfToImageConversion';
 
 interface IFunctionalityPdfToImageDetailProps {
   fileData: File;
@@ -20,9 +34,8 @@ const FunctionalityPdfToImageDetail: FC<
 > = ({ fileData, onRemoveFile, toType }) => {
   const { t } = useTranslation();
 
-  const [currentShowPageCors, setCurrentShowPageCors] = useState<number>(5); //当前一行多少个展示
   const [showPdfImagesType, setShowPdfImagesType] = useState<
-    'pdfPageImages' | 'padPageHaveImages'
+    'pdfPageImages' | 'pdfPageHaveImages'
   >('pdfPageImages'); //显示pdf页面还是页面的图片
   const [selectDownloadSizeIndex, setSelectDownloadSizeIndex] =
     useState<number>(0); //用户选择的下载尺寸大小
@@ -38,7 +51,7 @@ const FunctionalityPdfToImageDetail: FC<
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
-  } = usePdfToImageConversion(toType);
+  } = useFunctionalityCommonPdfToImageConversion();
   const {
     downloaderIsLoading,
     downloaderTotalPages,
@@ -51,40 +64,28 @@ const FunctionalityPdfToImageDetail: FC<
       ? convertedPdfImages
       : pdfPageHaveImages;
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
-    useConvertedContentSelector<IPdfPageImageInfo>({
-      list: currentShowImages,
-      setList:
-        showPdfImagesType === 'pdfPageImages'
-          ? setConvertedPdfImages
-          : setPdfPageHaveImages,
-    });
-  useEffect(() => {
-    if (fileData) {
-      onReadPdfToImages(fileData);
+    useFunctionalityCommonConvertedContentSelector<IFunctionalityPdfToImageType>(
+      {
+        list: currentShowImages,
+        setList:
+          showPdfImagesType === 'pdfPageImages'
+            ? setConvertedPdfImages
+            : setPdfPageHaveImages,
+      },
+    );
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
+  const readPdfToImages = debounce(async (file) => {
+    //debounce 防止useEffect导致的执行两次
+    if (file) {
+      const isReadSuccess = await onReadPdfToImages(file, toType, true);
+      if (!isReadSuccess) {
+        onRemoveFile && onRemoveFile();
+      }
     }
+  }, 200);
+  useEffect(() => {
+    readPdfToImages(fileData);
   }, [fileData]);
-
-  useEffect(() => {
-    // 初始化期间，将一行中显示的最大页数限制为6，最小为2，为1会太大
-    const maxPagesPerRow = 6;
-    if (pdfTotalPages < maxPagesPerRow) {
-      setCurrentShowPageCors(Math.max(pdfTotalPages, 2));
-    } else {
-      setCurrentShowPageCors(maxPagesPerRow);
-    }
-  }, [pdfTotalPages]);
-  const changeCurrentShowPageCors = useCallback(
-    (type: 'enlarge' | 'narrow') => {
-      setCurrentShowPageCors((prev) => {
-        if (type === 'narrow') {
-          return Math.min(prev + 1, 10);
-        } else {
-          return Math.max(prev - 1, 1);
-        }
-      });
-    },
-    [],
-  );
   const maxSizeScaleNum = 4;
   const imageSizeList = useMemo(() => {
     // 图片储存列表设置
@@ -99,7 +100,7 @@ const FunctionalityPdfToImageDetail: FC<
 
   const onSwitchPdfImagesType = () => {
     setShowPdfImagesType((prev) =>
-      prev === 'pdfPageImages' ? 'padPageHaveImages' : 'pdfPageImages',
+      prev === 'pdfPageImages' ? 'pdfPageHaveImages' : 'pdfPageImages',
     );
   };
 
@@ -110,7 +111,9 @@ const FunctionalityPdfToImageDetail: FC<
         currentShowImages,
         toType,
         fileData,
-        selectDownloadSizeIndex === 0 ? undefined : 1.6 * maxSizeScaleNum,
+        selectDownloadSizeIndex === 0
+          ? undefined
+          : defaultPdfToImageScale * maxSizeScaleNum,
       );
     } else {
       onDownloadPdfImagesZip(currentShowImages, toType);
@@ -129,163 +132,153 @@ const FunctionalityPdfToImageDetail: FC<
     ? currentPdfActionNum
     : currentDownloaderActionNum;
 
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'button',
+      buttonProps: {
+        disabled: isLoading || currentShowImages.length === 0,
+        variant: 'outlined',
+        onClick: onSwitchAllSelect,
+        children: isSelectAll
+          ? t(
+              'functionality__pdf_to_image:components__to_image_detail__deselect_all',
+            )
+          : t(
+              'functionality__pdf_to_image:components__to_image_detail__select_all',
+            ),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip:
+          showPdfImagesType === 'pdfPageImages'
+            ? t(
+                'functionality__pdf_to_image:components__to_image_detail__button__view_images__tooltip',
+              )
+            : t(
+                'functionality__pdf_to_image:components__to_image_detail__button__view_pages__tooltip',
+              ),
+        tooltipKey: showPdfImagesType, //防止切换窗口高度变化过大，导致的tooltip位置不对
+        disabled: isLoading,
+        variant: 'outlined',
+        onClick: onSwitchPdfImagesType,
+        children:
+          showPdfImagesType === 'pdfPageImages'
+            ? t(
+                'functionality__pdf_to_image:components__to_image_detail__view_images',
+              )
+            : t(
+                'functionality__pdf_to_image:components__to_image_detail__view_pages',
+              ),
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_to_image:components__to_image_detail__button__remove__tooltip',
+        ),
+        disabled: isLoading,
+        variant: 'outlined',
+        color: 'error',
+        onClick: () => onRemoveFile && onRemoveFile(),
+        children: t(
+          'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
+        ),
+      },
+    },
+    {
+      isShow: !isLoading,
+      type: 'iconButton',
+      iconButtonProps: [
+        {
+          name: 'ControlPointTwoTone',
+          onClick: () => changeScale('enlarge'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
+          ),
+        },
+        {
+          name: 'RemoveCircleTwoTone',
+          onClick: () => changeScale('narrow'),
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+          ),
+          sx: {
+            marginLeft: 1,
+          },
+        },
+      ],
+    },
+    {
+      isShow: isLoading,
+      type: 'button',
+      buttonProps: {
+        tooltip: t(
+          'functionality__pdf_to_image:components__to_image_detail__button__cancel__tooltip',
+        ),
+        variant: 'outlined',
+        color: 'error',
+        onClick: onCancel,
+        children: t(
+          t('functionality__pdf_to_image:components__to_image_detail__cancel'),
+        ),
+      },
+    },
+  ];
+
   return (
     <Box sx={{ width: '100%' }}>
-      <Grid
-        container
-        direction='row'
-        justifyContent='center'
-        alignItems='center'
-        flexWrap='wrap'
-        spacing={2}
-      >
-        <Grid item xs={6} md={2}>
-          <Button
-            sx={{ width: '100%' }}
-            size='small'
-            disabled={pdfIsLoading || currentShowImages.length === 0}
-            variant='outlined'
-            onClick={onSwitchAllSelect}
-          >
-            {isSelectAll
-              ? t(
-                  'functionality__pdf_to_image:components__to_image_detail__deselect_all',
-                )
-              : t(
-                  'functionality__pdf_to_image:components__to_image_detail__select_all',
-                )}
-          </Button>
-        </Grid>
-        <Grid item xs={6} md={2}>
-          <Button
-            sx={{ width: '100%' }}
-            size='small'
-            disabled={isLoading}
-            variant='outlined'
-            onClick={onSwitchPdfImagesType}
-          >
-            {showPdfImagesType !== 'pdfPageImages'
-              ? t(
-                  'functionality__pdf_to_image:components__to_image_detail__view_pages',
-                )
-              : t(
-                  'functionality__pdf_to_image:components__to_image_detail__view_images',
-                )}
-          </Button>
-        </Grid>
-        {currentShowImages?.length > 0 && (
-          <Grid item xs={6} md={2}>
-            <Button
-              sx={{ width: '100%' }}
-              size='small'
-              disabled={isLoading}
-              variant='contained'
-              onClick={() => downloadZip()}
-            >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__download_images',
-              )}
-            </Button>
-          </Grid>
-        )}
-
-        <Grid item xs={6} md={2}>
-          <Button
-            sx={{ width: '100%' }}
-            size='small'
-            disabled={isLoading}
-            variant='outlined'
-            color='error'
-            onClick={() => onRemoveFile && onRemoveFile()}
-          >
-            {t(
-              'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
-            )}
-          </Button>
-        </Grid>
-        {!isLoading && (
-          <Grid item xs={6} md={2} display='flex'>
-            <Box onClick={() => changeCurrentShowPageCors('enlarge')}>
-              <FunctionalityIcon
-                name='ControlPointTwoTone'
-                sx={{ color: 'primary.main', cursor: 'pointer', fontSize: 30 }}
-              />
-            </Box>
-            <Box onClick={() => changeCurrentShowPageCors('narrow')}>
-              <FunctionalityIcon
-                name='RemoveCircleTwoTone'
-                sx={{
-                  color: 'primary.main',
-                  cursor: 'pointer',
-                  marginLeft: 1,
-                  fontSize: 30,
-                }}
-              />
-            </Box>
-          </Grid>
-        )}
-        {isLoading && (
-          <Grid item xs={12} md={2}>
-            <Button
-              sx={{ width: '100%' }}
-              size='small'
-              variant='outlined'
-              color='error'
-              onClick={() => onCancel()}
-            >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__cancel',
-              )}
-            </Button>
-          </Grid>
-        )}
-      </Grid>
+      <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       <Box
         sx={{
           py: 5,
           position: 'relative',
+          minHeight: 200,
         }}
       >
-        {currentShowImages?.length > 0 && (
+        {!isLoading && currentShowImages?.length > 0 && (
           <FunctionalityImageList
             onClickImage={(image) => onSwitchSelect(image.id)}
             imageList={currentShowImages}
-            isImageSelect={true}
-            pageCols={currentShowPageCors}
+            scale={currentScale}
           />
         )}
-        {!isLoading && currentShowImages?.length === 0 && (
-          <Box
-            sx={{
-              bgcolor: 'rgba(255,255,255,0.3)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-              mt: 10,
-            }}
-          >
-            <Typography
+        {showPdfImagesType === 'pdfPageHaveImages' &&
+          currentShowImages?.length === 0 && (
+            <Box
               sx={{
-                fontSize: {
-                  xs: 12,
-                  lg: 18,
-                },
-                color: '#4b5563',
+                bgcolor: 'rgba(255,255,255,0.3)',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                mt: 10,
               }}
             >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__not_found_images',
-              )}
-            </Typography>
-          </Box>
-        )}
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 12,
+                    lg: 18,
+                  },
+                  color: '#4b5563',
+                }}
+              >
+                {t(
+                  'functionality__pdf_to_image:components__to_image_detail__not_found_images',
+                )}
+              </Typography>
+            </Box>
+          )}
 
-        {isLoading && totalPages > 0 && (
+        {isLoading && (
           <Box
             sx={{
               position: 'absolute',
-              top: 0,
+              top: 10,
               left: 0,
               right: 15,
               bottom: 0,
@@ -297,18 +290,12 @@ const FunctionalityPdfToImageDetail: FC<
             }}
           >
             <CircularProgress />
-            {`${currentActionNum}/${totalPages}`}
+            {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
           </Box>
         )}
       </Box>
-      {showPdfImagesType === 'pdfPageImages' && (
-        <Grid
-          container
-          direction='row'
-          justifyContent='center'
-          alignItems='center'
-          gap={2}
-        >
+      {showPdfImagesType === 'pdfPageImages' && !isLoading && (
+        <Stack direction='row' justifyContent='center' gap={2}>
           {imageSizeList.map((imageSize, index) => (
             <Box
               key={index}
@@ -317,7 +304,7 @@ const FunctionalityPdfToImageDetail: FC<
                 border: `1px solid ${
                   selectDownloadSizeIndex === index ? '#000' : '#e5e7eb'
                 }`,
-                padding: 1,
+                padding: 1.5,
                 borderRadius: 1,
                 cursor: 'pointer',
                 '&:hover': {
@@ -346,7 +333,7 @@ const FunctionalityPdfToImageDetail: FC<
                 sx={{
                   fontSize: {
                     xs: 12,
-                    lg: 15,
+                    lg: 16,
                   },
                   color: selectDownloadSizeIndex === index ? '#000' : '#6b7280',
                 }}
@@ -355,7 +342,7 @@ const FunctionalityPdfToImageDetail: FC<
               </Typography>
             </Box>
           ))}
-        </Grid>
+        </Stack>
       )}
       {currentShowImages?.length > 0 && (
         <Grid
@@ -366,17 +353,23 @@ const FunctionalityPdfToImageDetail: FC<
           sx={{ mt: 2 }}
         >
           <Grid item xs={10} md={2}>
-            <Button
-              sx={{ width: '100%' }}
-              disabled={isLoading}
-              size='small'
-              variant='contained'
-              onClick={() => downloadZip()}
-            >
-              {t(
-                'functionality__pdf_to_image:components__to_image_detail__download_images',
+            <FunctionalityCommonTooltip
+              title={t(
+                'functionality__pdf_to_image:components__to_image_detail__button__download__tooltip',
               )}
-            </Button>
+            >
+              <Button
+                sx={{ width: '100%', height: 48 }}
+                disabled={isLoading}
+                size='large'
+                variant='contained'
+                onClick={() => downloadZip()}
+              >
+                {t(
+                  'functionality__pdf_to_image:components__to_image_detail__download_images',
+                )}
+              </Button>
+            </FunctionalityCommonTooltip>
           </Grid>
         </Grid>
       )}

@@ -98,7 +98,7 @@
     "home_page__features_carousel__feature_rewriter__description4": "Change voice & tone",
     "home_page__features_carousel__feature_rewriter__description5": "Paraphrase, make shorter/longer",
 
-    "home_page__features_carousel__feature_reply__label": "AI Quick Reply",
+    "home_page__features_carousel__feature_reply__label": "AI Instant Reply",
     "home_page__features_carousel__feature_reply__title": "Accelerate your email & social media responses & drafts by 10X in 1 click.",
     "home_page__features_carousel__feature_reply__description_label": "1-click reply & draft on:",
     "home_page__features_carousel__feature_reply__description1": "Gmail, Outlook",
@@ -388,18 +388,67 @@
 
     "tools__index_page__title": "MaxAI Tools",
     "tools__index_page__description": "All PDF tools are 100% FREE and run in your browser for complete privacy",
+
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF to PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Convert PDF to PNG and download each page as an image",
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Export each PDF page as a PNG image or extract individual images from the PDF to PNGs",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Export each PDF page as a PNG image or extract individual images from the PDF to PNGs",
+
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Convert PDF to JPEG and download each page as an image",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Export each page as a JPEG or extract individual images from the PDF to JPEGs",
+
     "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Merge multiple PDF files into one with just a few clicks"
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Merge any amount of PDFs in the order you choose into a single PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Merge multiple PDF files into one with just a few clicks",
+
+    "tools__index_page__constant_obj__split_a_pdf__title": "Split a PDF",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Split a PDF's pages into multiple PDFs or simply remove pages from an existing one",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Split a PDF's pages into multiple PDFs or simply remove pages from an existing one.",
+
+    "tools__index_page__constant_obj__png_to_pdf__title": "PNG to PDF",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Convert PNG images to PDF online",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF.",
+
+    "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG to PDF",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Convert JEPG images to PDF online",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF."
+  },
+  "functionality__common": {
+    "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",
+    "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping"
+  },
+  "functionality__pdf_merge": {
+    "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_merge__add_pdf": "Add PDFs",
+    "components__pdf_merge__empty_pdf": "Clear PDFs",
+    "components__pdf_merge__confirm_merge": "Confirm to merge",
+
+    "components__pdf_merge__button__download__tooltip": "Merge and download PDF",
+    "components__pdf_merge__button__clear_pdfs__tooltip": "Clear all PDFs below",
+    "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
+  },
+  "functionality__pdf_split": {
+    "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_split__add_pdf": "Add PDFs",
+    "components__pdf_spli__remove_pdf": "Remove PDF",
+    "components__pdf_split__select_all": "Select All",
+    "components__pdf_split__deselect_all": "Deselect all",
+    "components__pdf_split__confirm_split": "Confirm to split",
+    "components__pdf_split__is_single_pdf": "Merge selected pages into a single PDF",
+    "components__pdf_split__cancel": "Cancel",
+    "components__pdf_split__error_maximum": "Failed to split PDF files, Exceeded maximum quantity",
+
+    "components__pdf_split__button__zoom_in__tooltip": "Zoom in",
+    "components__pdf_split__button__zoom_out__tooltip": "Zoom out",
+    "components__pdf_split__button__remove__tooltip": "Remove this PDF and select a new one",
+    "components__pdf_split__button__download__tooltip": "Split and download PDF",
+    "components__pdf_split__button__cancel__tooltip": "Cancel current progress"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Click to upload or drag and drop",
     "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__to_image_detail__select_all": "Select All",
-    "components__to_image_detail__deselect_all": "Deselect All",
+    "components__to_image_detail__deselect_all": "Deselect all",
     "components__to_image_detail__download_images": "Download images",
     "components__to_image_detail__remove_pdf": "Remove PDF",
     "components__to_image_detail__cancel": "Cancel",
@@ -408,7 +457,30 @@
     "components__to_image_detail__view_pages": "View pages",
     "components__to_image_detail__view_images": "View images",
     "components__to_image__downloader_tip": "Please select at least one image.",
-    "components__to_image_detail__not_found_images": "PDF image not found"
+    "components__to_image_detail__not_found_images": "PDF image not found",
+
+    "components__to_image_detail__button__download__tooltip": "Download zipped images",
+    "components__to_image_detail__button__view_images__tooltip": "View the extracted images in this PDF",
+    "components__to_image_detail__button__view_pages__tooltip": "View all the pages in this PDF",
+    "components__to_image_detail__button__zoom_in__tooltip": "Zoom in",
+    "components__to_image_detail__button__zoom_out__tooltip": "Zoom out",
+    "components__to_image_detail__button__cancel__tooltip": "Cancel current progress",
+    "components__to_image_detail__button__remove__tooltip": "Remove this PDF and select a new one"
+  },
+  "functionality__image_to_pdf": {
+    "components__image_to_pdf__error_uploaded__tips": "Only images of image type can be uploaded",
+    "components__image_to_pdf__button_add_png": "Add images",
+    "components__image_to_pdf__button_add_png__tooltip": "Add images below",
+    "components__image_to_pdf__button_remove_png": "Remove images",
+    "components__image_to_pdf__button_remove_png__tooltip": "Clear the images below",
+    "components__image_to_pdf__page_size": "Page size",
+    "components__image_to_pdf__image_alignment": "Image alignment",
+    "components__image_to_pdf__download": "Download",
+    "components__image_to_pdf__download__tooltip": "Create and download PDF",
+
+    "components__image_to_pdf__position_middle": "Middle",
+    "components__image_to_pdf__position_top": "Top",
+    "components__image_to_pdf__position_bottom": "Bottom"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -505,20 +577,20 @@
     "plan_features_table__pdf_ai_viewer": "PDF AI viewer",
     "plan_features_table__pdf_ai_viewer__tooltip_desc": "Interact with PDFs by chatting with AI: Get summaries, ask questions, and seamlessly access context-rich information.",
 
-    "plan_features_table__help_me_write_everywhere": "Writing assistant everywhere",
-    "plan_features_table__gmail_writing_assistant": "Gmail writing assistant",
+    "plan_features_table__help_me_write_everywhere": "Instant reply everywhere",
+    "plan_features_table__gmail_writing_assistant": "Gmail instant reply",
     "plan_features_table__gmail_writing_assistant__tooltip_desc": "Let AI generate entire email drafts and replies for you in seconds, and perfect your Gmail draft & reply in one click.",
-    "plan_features_table__facebook_writing_assistant": "Facebook writing assistant",
+    "plan_features_table__facebook_writing_assistant": "Facebook instant reply",
     "plan_features_table__facebook_writing_assistant__tooltip_desc": "Enhance your Facebook posts and replies with AI-driven drafts and suggestions, ensuring your content resonates with your Facebook followers.",
-    "plan_features_table__linkedIn_writing_assistant": "LinkedIn writing assistant",
+    "plan_features_table__linkedIn_writing_assistant": "LinkedIn instant reply",
     "plan_features_table__linkedIn_writing_assistant__tooltip_desc": "Boost your LinkedIn professional interactions using AI-enhanced, context-sensitive drafts and rapid responses.",
-    "plan_features_table__xtwitter_writing_assistant": "X/Twitter writing assistant",
+    "plan_features_table__xtwitter_writing_assistant": "X/Twitter instant reply",
     "plan_features_table__xtwitter_writing_assistant__tooltip_desc": "Craft compelling tweets or reply to posts with instant AI-generated content tailored for your needs on X/Twitter.",
-    "plan_features_table__youtube_writing_assistant": "YouTube writing assistant",
+    "plan_features_table__youtube_writing_assistant": "YouTube instant reply",
     "plan_features_table__youtube_writing_assistant__tooltip_desc": "Quickly reply to comments using AI-assisted drafts in your YouTube Studio, making channel management more efficient!",
-    "plan_features_table__outlook_writing_assistant": "Outlook writing assistant",
+    "plan_features_table__outlook_writing_assistant": "Outlook instant reply",
     "plan_features_table__outlook_writing_assistant__tooltip_desc": "Let AI generate entire email drafts and replies for you in seconds, and perfect your Outlook draft & reply in one click.",
-    "plan_features_table__instagram_writing_assistant": "Instagram writing assistant",
+    "plan_features_table__instagram_writing_assistant": "Instagram instant reply",
     "plan_features_table__instagram_writing_assistant__tooltip_desc": "Enhance your posts and replies with AI-driven drafts and suggestions, ensuring your Instagram content resonates with your followers.",
 
     "plan_features_table__truly_personalized_ai": "Truly personalized AI",
@@ -635,20 +707,20 @@
   "seo": {
     "default__title": "MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)",
     "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more.",
-    
+
     "maintain__title": "In maintenance | MaxAI.me",
 
     "affiliate__title": "Affiliate Program | MaxAI.me",
     "affiliate__description": "Get paid with MaxAI affiliate program. Join our affiliate program and earn 25% commission for sharing MaxAI!",
-    
+
     "contact_us__title": "Contact Us | MaxAI.me",
-    
+
     "email_unsubscribe_success__title": "Email unsubscribe success | MaxAI.me",
-    
+
     "learning_center__title": "Learning Center | MaxAI.me",
-    
+
     "pricing__title": "Pricing | MaxAI.me",
-    
+
     "privacy__title": "Privacy Policy | MaxAI.me",
     "privacy__description": "Read the MaxAI.me privacy policy.",
 
@@ -657,7 +729,7 @@
 
     "release_notes__title": "Release notes | MaxAI.me",
 
-    "share_conversation__title":"Share Conversation | MaxAI.me",
+    "share_conversation__title": "Share Conversation | MaxAI.me",
 
     "uninstall__title": "Uninstall | MaxAI.me",
 
@@ -679,10 +751,30 @@
     "install__title": "Install | MaxAI.me",
 
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
-    "zmo__description": "Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life."
+    "zmo__description": "Create art and images with AI for free. ImgCreator.ai can generate images, art, illustrations, anime, logos, designs from text and images. Our proprietary technology will bring your imagination to life.",
+
+    "pdf_tools__title": "Free PDF Tools - Convert, Compress, and Edit PDFs Online | MaxAI.me",
+    "pdf_tools__description": "Explore our collection of tools to help you convert, compress, edit, and sign PDFs online for free.",
+
+    "pdf_tools__pdf_to_jpeg__title": "PDF to JPEG - Convert Any PDFs to Images Online for Free | MaxAI.me",
+    "pdf_tools__pdf_to_jpeg__description": "Convert PDF pages into JPEG images or extract individual images from your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__pdf_to_png__title": "PDF to PNG - Convert Any PDFs to Images Online for Free | MaxAI.me",
+    "pdf_tools__pdf_to_png__description": "Convert PDF pages into PNG images or extract individual images from your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__merge_pdfs__title": "Merge PDF – Combine PDF Files Online for Free | MaxAI.me",
+    "pdf_tools__merge_pdfs__description": "Combine PDF files and create a single document online for free. With our PDF combiner, merging PDFs is easier than ever. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__split_pdf__title": "Split PDF – Separate PDF Pages Online for Free | MaxAI.me",
+    "pdf_tools__split_pdf__description": "Easily separate pages or remove pages in your PDF online for free. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__png_to_pdf__title": "PNG to PDF - Convert PNG Images to PDF Online for Free | MaxAI.me",
+    "pdf_tools__png_to_pdf__description": "Convert PNG images to PDF online for free. Converter turns any PNG image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__jpeg_to_pdf__title": "JPEG to PDF - Convert JPEG Images to PDF Online for Free | MaxAI.me",
+    "pdf_tools__jpeg_to_pdf__description": "Convert JPEG images to PDF online for free. Converter turns any JPEG image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required."
   },
   "features_landing": {
-
     "cta_text": "Add to Browser",
 
     "youtube_summary_pages__title": "Summarize & Chat with YouTube Videos",
@@ -692,7 +784,6 @@
     "youtube_summary_pages__section2__title": "Chat with the Video",
     "youtube_summary_pages__section2__description": "Enhance your video comprehension with MaxAI's interactive chat feature. After generating the summary, you can engage in a conversation with the video, asking follow-up questions, seeking clarification, or exploring related topics. MaxAI will provide insightful responses, helping you gain a deeper understanding of the subject matter.",
 
-    
     "chat_pdf_pages__title": "Chat with Any PDF",
     "chat_pdf_pages__description": "Extract details and obtain answers from large PDF files such as manuals, essays, and books.",
     "chat_pdf_pages__section1__title": "ChatPDF with MaxAI",

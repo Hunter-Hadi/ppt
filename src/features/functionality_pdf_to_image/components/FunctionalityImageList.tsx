@@ -1,11 +1,7 @@
-import {
-  Box,
-  Checkbox,
-  ImageList,
-  ImageListItem,
-  Typography,
-} from '@mui/material';
+import { Box, Checkbox, Stack } from '@mui/material';
 import { FC } from 'react';
+
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
 
 interface IFunctionalityImageData {
   id: string;
@@ -13,65 +9,39 @@ interface IFunctionalityImageData {
   isSelect: boolean;
 }
 interface IFunctionalityImageList {
-  pageCols: number;
+  scale?: number;
   imageList: IFunctionalityImageData[];
-  isImageSelect: boolean;
   onClickImage: (image: IFunctionalityImageData) => void;
 }
 
 const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   imageList,
-  pageCols = 5,
-  isImageSelect = true,
+  scale = 2,
   onClickImage,
 }) => {
   return (
-    <ImageList
+    <Stack
+      direction='row'
+      justifyContent='center'
+      flexWrap='wrap'
+      my={3}
+      gap={2}
       sx={{
-        width: '100%',
-        maxHeight: 700,
-        minHeight: 300,
-        bgcolor: '#fafafa',
+        position: 'relative',
+        minHeight: 200,
       }}
-      cols={pageCols}
-      gap={1}
     >
-      {imageList.map((image, index) => (
-        <ImageListItem
-          key={image.id}
-          onClick={() => onClickImage(image)}
-          sx={{
-            padding: 1,
-            cursor: 'pointer',
-            backgroundColor: 'rgba(255,255,255,0.3)',
-            '&:hover': {
-              backgroundColor: '#f0eded',
-            },
-            position: 'relative',
-            display: 'flex',
-            direction: 'column',
-            alignItems: 'center',
+      {imageList.map((imageInfo, index) => (
+        <FunctionalityCommonImage
+          key={imageInfo.id}
+          name={String(index + 1)}
+          imageInfo={imageInfo}
+          wrapSx={{
+            width: scale * 50,
           }}
+          onClick={() => onClickImage(imageInfo)}
         >
-          <img
-            style={{
-              objectFit: 'contain',
-            }}
-            srcSet={image.imageUrlString}
-            src={image.imageUrlString}
-            loading='lazy'
-            alt={`image-${index + 1}`}
-          />
-          <Typography
-            variant='custom'
-            sx={{
-              fontSize: 14,
-              marginTop: 1,
-            }}
-          >
-            {index + 1}
-          </Typography>
-          {isImageSelect && (
+          {
             <Box
               sx={{
                 position: 'absolute',
@@ -79,12 +49,12 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
                 right: 0,
               }}
             >
-              <Checkbox checked={image.isSelect} />
+              <Checkbox checked={imageInfo.isSelect} />
             </Box>
-          )}
-        </ImageListItem>
+          }
+        </FunctionalityCommonImage>
       ))}
-    </ImageList>
+    </Stack>
   );
 };
 export default FunctionalityImageList;

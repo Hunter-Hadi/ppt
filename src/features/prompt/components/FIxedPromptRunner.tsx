@@ -1,4 +1,4 @@
-import CloseIcon from '@mui/icons-material/Close';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import { Box, Drawer, IconButton, Typography } from '@mui/material';
 import React, { FC } from 'react';
 import { useRecoilValue } from 'recoil';
@@ -50,7 +50,7 @@ const FIxedPromptRunner: FC<IProps> = ({
         {prompt && (
           <Box position='absolute' top={8} right={8}>
             <IconButton aria-label='delete' onClick={onClose}>
-              <CloseIcon fontSize='inherit' />
+              <CloseOutlinedIcon fontSize='inherit' />
             </IconButton>
           </Box>
         )}

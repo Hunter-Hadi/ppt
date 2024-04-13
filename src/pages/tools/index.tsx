@@ -1,7 +1,0 @@
-import { makeStaticProps } from '@/i18n/utils/staticHelper';
-import ToolsPages from '@/page_components/ToolsPages';
-
-export default ToolsPages;
-
-const getStaticProps = makeStaticProps();
-export { getStaticProps };

@@ -8,10 +8,27 @@ const IS_PROD = true;
 
 const pagesDirectory = 'src/pages';
 const sitemapAssetsPath = './public/sitemap.xml'; // sitemap 文件的存储路径
-const domain = 'https://www.maxai.me'; // 替换成你的域名
+const wwwDomain = 'https://www.maxai.me';
 
-// 排除的目录或文件
-const excludePattern = /(_app|_document|\[locale\]|embed|api)/;
+// 判断当前 file 是否需要插入到 sitemap
+function checkDoNeedToGenerateSitemap(file) {
+  // 需要排除的 目录或文件 的正则表达式
+  const excludePattern = [
+    /_app/,
+    /_document/,
+    /\[locale\]/,
+    /embed/,
+    /api/,
+    /partners/,
+    /install/,
+    /partner-referral/,
+    /release-notes/,
+    /share/,
+    /survey/,
+    /email-unsubscribe-success/,
+  ];
+  return !excludePattern.some((pattern) => pattern.test(file));
+}
 
 function generateStaticPagesWithLocale(pagePaths) {
   // 过滤一些 没有 i18n routing 的页面
@@ -42,7 +59,7 @@ function crawlStaticDirectory(dir) {
 
     if (
       // 特殊文件或目录
-      excludePattern.test(file) ||
+      !checkDoNeedToGenerateSitemap(file) ||
       // 动态路由不需要这里处理
       file.startsWith('[') ||
       // prompts 目录不需要这里处理
@@ -125,7 +142,14 @@ async function generatePromptsPages() {
 }
 
 function generateToolsPages() {
-  const toolsPages = ['/tools', '/tools/pdf-to-png', '/tools/pdf-to-jpeg'];
+  const toolsPages = [
+    '/pdf-tools/merge-pdf',
+    '/pdf-tools/split-pdf',
+    '/pdf-tools/pdf-to-png',
+    '/pdf-tools/pdf-to-jpeg',
+    '/pdf-tools/png-to-pdf',
+    '/pdf-tools/jpeg-to-pdf',
+  ];
 
   return toolsPages.concat(generateStaticPagesWithLocale(toolsPages));
 }
@@ -141,7 +165,7 @@ function generateSitemap(pages) {
     sitemapContentTemplate = `<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{{TEMPLATE}}</urlset>`;
     pages.forEach((page) => {
-      urlTagString += `<url><loc>${domain}${page}</loc><changefreq>daily</changefreq><lastmod>${isoString}</lastmod></url>`;
+      urlTagString += `<url><loc>${wwwDomain}${page}</loc><changefreq>daily</changefreq><lastmod>${isoString}</lastmod></url>`;
     });
   } else {
     sitemapContentTemplate = `<?xml version="1.0" encoding="utf-8"?>
@@ -151,7 +175,7 @@ function generateSitemap(pages) {
 
     pages.forEach((page) => {
       urlTagString += `<url>
-  <loc>${domain}${page}</loc>
+  <loc>${wwwDomain}${page}</loc>
   <changefreq>daily</changefreq>
   <lastmod>${isoString}</lastmod>
 </url>

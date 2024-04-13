@@ -1,4 +1,4 @@
-import CloseIcon from '@mui/icons-material/Close';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
@@ -125,7 +125,7 @@ const Announcement = () => {
         sx={{ flexShrink: 0, ml: 0.5, color: 'inherit' }}
         onClick={() => updateFlag(false)}
       >
-        <CloseIcon sx={{ fontSize: '24px' }} />
+        <CloseOutlinedIcon sx={{ fontSize: '24px' }} />
       </IconButton>
     </Stack>
   );

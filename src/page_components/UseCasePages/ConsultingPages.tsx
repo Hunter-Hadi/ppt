@@ -41,7 +41,7 @@ const ConsultingPages = () => {
               'pages:use_cases__consulting_page__abilities_1__content',
             ),
             contentStrong: t(
-              'use_cases__consulting_page__abilities_1__content_strong',
+              'pages:use_cases__consulting_page__abilities_1__content_strong',
             ),
           },
           {
@@ -51,7 +51,7 @@ const ConsultingPages = () => {
               'pages:use_cases__consulting_page__abilities_2__content',
             ),
             contentStrong: t(
-              'use_cases__consulting_page__abilities_2__content_strong',
+              'pages:use_cases__consulting_page__abilities_2__content_strong',
             ),
           },
           {
@@ -61,7 +61,7 @@ const ConsultingPages = () => {
               'pages:use_cases__consulting_page__abilities_3__content',
             ),
             contentStrong: t(
-              'use_cases__consulting_page__abilities_3__content_strong',
+              'pages:use_cases__consulting_page__abilities_3__content_strong',
             ),
           },
           {
@@ -71,7 +71,7 @@ const ConsultingPages = () => {
               'pages:use_cases__consulting_page__abilities_4__content',
             ),
             contentStrong: t(
-              'use_cases__consulting_page__abilities_4__content_strong',
+              'pages:use_cases__consulting_page__abilities_4__content_strong',
             ),
           },
           {
@@ -81,7 +81,7 @@ const ConsultingPages = () => {
               'pages:use_cases__consulting_page__abilities_5__content',
             ),
             contentStrong: t(
-              'use_cases__consulting_page__abilities_5__content_strong',
+              'pages:use_cases__consulting_page__abilities_5__content_strong',
             ),
           },
           {
@@ -91,7 +91,7 @@ const ConsultingPages = () => {
               'pages:use_cases__consulting_page__abilities_6__content',
             ),
             contentStrong: t(
-              'use_cases__consulting_page__abilities_6__content_strong',
+              'pages:use_cases__consulting_page__abilities_6__content_strong',
             ),
           },
         ]}

@@ -4,8 +4,8 @@ import { useTranslation } from 'next-i18next';
 import { useCallback, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import { IPdfPageImageInfo } from '@/features/functionality_pdf_to_image/hooks/usePdfToImageConversion';
-import { dataURLtoBlob } from '@/features/functionality_pdf_to_image/utils/pdfTool';
+import { IFunctionalityPdfToImageType } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
+import { dataURLtoBlob } from '@/features/functionality_common/utils/functionalityCommonDataTool';
 import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -24,7 +24,7 @@ const usePdfImagesDownloader = () => {
 
   const onDownloadPdfImagesZip = useCallback(
     async (
-      convertedPdfImages: IPdfPageImageInfo[],
+      convertedPdfImages: IFunctionalityPdfToImageType[],
       toType: string,
       file?: File,
       scale?: number,
@@ -34,7 +34,7 @@ const usePdfImagesDownloader = () => {
         setCurrentDownloaderActionNum(0);
         setDownloaderIsLoading(true);
         const zip = new JSZip();
-        const images = zip.folder('images');
+        const images = zip.folder('images(MaxAI.me)');
         const selectedImages = convertedPdfImages.filter(
           (image) => image.isSelect,
         );
@@ -49,7 +49,7 @@ const usePdfImagesDownloader = () => {
           setCurrentDownloaderActionNum(i + 1);
           if (!scale) {
             images?.file(
-              `image-${i + 1}.${toType}`,
+              `image-${i + 1}(MaxAI.me).${toType}`,
               dataURLtoBlob(selectedImages[i].imageUrlString),
               {
                 base64: true,
@@ -64,7 +64,7 @@ const usePdfImagesDownloader = () => {
             );
 
             images?.file(
-              `image-${i + 1}.${toType}`,
+              `image-${i + 1}(MaxAI.me).${toType}`,
               dataURLtoBlob(imageDataUrl),
               {
                 base64: true,
@@ -104,7 +104,7 @@ const usePdfImagesDownloader = () => {
     setDownloaderIsLoading(false);
   };
   const generatePdfToImage = async (
-    pdfDoc: any, //PDFDocumentProxy react-pdfjs没有导出
+    pdfDoc: any, //TS类型为:PDFDocumentProxy react-pdfjs没有导出
     pageNum: number,
     toType: string,
     scale: number = 1.6,
