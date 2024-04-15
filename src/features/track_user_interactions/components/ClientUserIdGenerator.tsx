@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
@@ -10,6 +11,7 @@ interface IClientUserIdGeneratorProps {
 const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
   targetHost,
 }) => {
+  const { pathname } = useRouter();
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   // 当前的 clientUserId
@@ -117,6 +119,10 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
       iframeReadyHandler();
     }
   }, [iframeReady, targetHost]);
+
+  if (pathname.startsWith('/embed')) {
+    return null;
+  }
 
   if (cacheClientUserIdSuccess) {
     // 保存 clientUserId 成功后，组件生命周期完成，直接返回 null
