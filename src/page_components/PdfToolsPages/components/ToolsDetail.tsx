@@ -30,6 +30,12 @@ const FunctionalityPdfSplitMain = lazy(
       '@/features/functionality_pdf_split/components/FunctionalityPdfSplitMain'
     ),
 );
+const FunctionalityPdfToHtmlMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_pdf_to_html/components/FunctionalityPdfToHtmlMain'
+    ),
+);
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -71,6 +77,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__heic_to_pdf__title'),
       description: t('seo:pdf_tools__heic_to_pdf__description'),
     },
+    'pdf-to-html': {
+      title: t('seo:pdf_tools__heic_to_pdf__title'),
+      description: t('seo:pdf_tools__heic_to_pdf__description'),
+    },
   };
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
@@ -103,6 +113,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             urlKey === 'heic-to-pdf') && (
             <FunctionalityImageToPdfMain accept={currentToolData.accept} />
           )}
+          {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
         </Suspense>
       </Box>
     </AppContainer>
