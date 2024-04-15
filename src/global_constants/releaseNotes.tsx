@@ -1,5 +1,64 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '3.2.0',
+    date: '2024-04-15',
+
+    content: [
+      {
+        title: 'AI rewriter on Google Doc',
+        lists: [
+          {
+            module: 'Context window on Google Doc',
+            desc: 'Perfect your writing on Google Docs: Improve writing, fix spelling and grammar, make text shorter or longer, simplify language, paraphrase, change tone, and more!',
+          },
+        ],
+      },
+      {
+        title: 'Gemini-1.5 is here',
+        lists: [
+          {
+            module: 'Gemini-1.5-pro on MaxAI',
+            desc: 'Newest and most advanced model by Google. It offers faster speed, 1M token context window, improved modalities, and enhanced safety features.',
+          },
+        ],
+      },
+      {
+        title: 'Instant reply on WhatsApp',
+        lists: [
+          {
+            module: '1-click reply on WhatsApp',
+            desc: 'Reply to WhatsApp messages with a single click and enjoy the convenience of using your own personalized 1-click reply.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '3.1.9',
+    date: '2024-04-12',
+
+    content: [
+      {
+        title: 'Rename your chats',
+        lists: [
+          {
+            module: 'Rename your saved conversations',
+            desc: 'You can rename your saved conversions in any way you prefer. This makes it easier for you to navigate and find your chat history.',
+          },
+        ],
+      },
+      {
+        title: 'Instant reply on more platforms',
+        lists: [
+          {
+            module: 'Instant reply on Slack and YouTube Studio',
+            desc: 'Now, you can use the powerful 1-click reply feature on more messaging web apps such as Slack and YouTube Studio, greatly enhancing your work productivity and taking it to a whole new level.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.1.8',
     date: '2024-04-10',
 
@@ -25,10 +84,10 @@ export const MAXAI_RELEASE_NOTES = [
 
     content: [
       {
-        title: 'Enjoy 1-click replies on messaging web apps',
+        title: 'Enjoy instant replies on messaging web apps',
         lists: [
           {
-            module: '1-click reply on Discord',
+            module: 'Instant reply on Discord',
             desc: 'Accelerate your message replies by 10X with just 1 click on Discord.',
           },
         ],
