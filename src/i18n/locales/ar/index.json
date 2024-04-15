@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "تحويل صور PNG إلى ملف PDF عبر الإنترنت",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "كل صورة تم تحميلها ستصبح صفحة في ملف PDF واحد.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "تحويل صور JPEG إلى ملف PDF عبر الإنترنت",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "كل صورة تم تحميلها ستصبح صفحة في ملف PDF واحد."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "كل صورة تم تحميلها ستصبح صفحة في ملف PDF واحد.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "تحويل HEIC إلى PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "تحويل صور HEIC إلى PDF عبر الإنترنت",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "كل صورة مُرفَعة ستصبح صفحة في ملف PDF واحد."
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "تحويل PNG إلى PDF - تحويل صور PNG إلى ملف PDF عبر الإنترنت مجانًا | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "تحويل صور PNG إلى ملف PDF عبر الإنترنت مجانًا. يقوم المحول بتحويل أي ملف صورة PNG إلى ملف PDF مخصص. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
     "pdf_tools__jpeg_to_pdf__title": "تحويل JPEG إلى PDF - تحويل صور JPEG إلى PDF عبر الإنترنت مجانًا | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "تحويل صور JPEG إلى ملف PDF عبر الإنترنت مجانًا. يقوم المحول بتحويل أي ملف صورة JPEG إلى ملف PDF مخصص. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة."
+    "pdf_tools__jpeg_to_pdf__description": "تحويل صور JPEG إلى ملف PDF عبر الإنترنت مجانًا. يقوم المحول بتحويل أي ملف صورة JPEG إلى ملف PDF مخصص. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "pdf_tools__heic_to_pdf__title": "تحويل HEIC إلى PDF - تحويل صور HEIC إلى PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "تحويل صور HEIC إلى PDF عبر الإنترنت مجانًا. يقوم المحول بتحويل أي ملف صورة HEIC إلى ملف PDF مخصص. لا توجد علامات مائية، أو حدود لحجم الملف، أو عمليات تنزيل، أو تسجيل الدخول المطلوبة."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",

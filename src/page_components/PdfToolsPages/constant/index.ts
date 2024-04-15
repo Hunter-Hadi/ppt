@@ -1,3 +1,5 @@
+import toolsCodeMap from './pdfToolsCodeMap.json';
+
 export type IToolUrkKeyType =
   | 'pdf-to-png'
   | 'pdf-to-jpeg'
@@ -5,6 +7,7 @@ export type IToolUrkKeyType =
   | 'split-pdf'
   | 'png-to-pdf'
   | 'jpeg-to-pdf'
+  | 'heic-to-pdf'
 export interface IToolData {
   icon: string;
   title: string;
@@ -14,7 +17,8 @@ export interface IToolData {
   accept: string;
   urlPrefixPath?: string
 }
-const toolsTopUrlKey = 'pdf-tools';
+const routerChildrens = (toolsCodeMap.childrens as { [key in IToolUrkKeyType]: IToolUrkKeyType });
+const toolsTopUrlKey = toolsCodeMap.topUrlKey;
 export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   'merge-pdf': {
     icon: 'CropOriginal',
@@ -23,7 +27,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__merge_pdfs__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__merge_pdfs__secondary_description',
-    urlKey: 'merge-pdf',
+    urlKey: routerChildrens['merge-pdf'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -34,7 +38,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__split_a_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__split_a_pdf__secondary_description',
-    urlKey: 'split-pdf',
+    urlKey: routerChildrens['split-pdf'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -45,7 +49,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_to_png__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_png__secondary_description',
-    urlKey: 'pdf-to-png',
+    urlKey: routerChildrens['pdf-to-png'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -56,7 +60,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_to_jpeg__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_jpeg__secondary_description',
-    urlKey: 'pdf-to-jpeg',
+    urlKey: routerChildrens['pdf-to-jpeg'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -67,7 +71,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__png_to_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__png_to_pdf__secondary_description',
-    urlKey: 'png-to-pdf',
+    urlKey: routerChildrens['png-to-pdf'],
     accept: 'image/png',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -78,8 +82,19 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__secondary_description',
-    urlKey: 'jpeg-to-pdf',
+    urlKey: routerChildrens['jpeg-to-pdf'],
     accept: 'image/jpg',
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'heic-to-pdf': {
+    icon: 'CropOriginal',
+    title: 'pages:tools__index_page__constant_obj__heic_to_pdf__title',
+    description:
+      'pages:tools__index_page__constant_obj__heic_to_pdf__main_description',
+    secondaryDescription:
+      'pages:tools__index_page__constant_obj__heic_to_pdf__secondary_description',
+    urlKey: routerChildrens['heic-to-pdf'],
+    accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
   },
 };

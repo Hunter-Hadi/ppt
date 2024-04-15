@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Převést obrázky PNG na PDF online",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Každý nahraný obrázek se stane stránkou v jednom PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Převést obrázky JEPG na PDF online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Každý nahraný obrázek se stane stránkou v jednom PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Každý nahraný obrázek se stane stránkou v jednom PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC na PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Převést HEIC obrázky na PDF online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Každý nahraný obrázek se stane stránkou v jednom PDF souboru."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG na PDF - Převod PNG obrázků do PDF online zdarma | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Převést obrázky PNG na PDF online zdarma. Konvertor převede libovolný soubor s obrázkem PNG do upraveného souboru PDF. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG na PDF - Převod JPEG obrázků do PDF online zdarma | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Převést obrázky JPEG na PDF online zdarma. Konvertor převede libovolný soubor s obrázkem JPEG do upraveného souboru PDF. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
+    "pdf_tools__jpeg_to_pdf__description": "Převést obrázky JPEG na PDF online zdarma. Konvertor převede libovolný soubor s obrázkem JPEG do upraveného souboru PDF. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
+    "pdf_tools__heic_to_pdf__title": "HEIC na PDF - Převod HEIC obrázků na PDF online zdarma | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Převod HEIC obrázků na PDF online zdarma. Konvertor převede libovolný soubor s HEIC obrázkem do přizpůsobeného PDF souboru. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",

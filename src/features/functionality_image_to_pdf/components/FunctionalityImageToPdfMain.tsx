@@ -4,13 +4,14 @@ import {
   IconButton,
   MenuItem,
   Select,
+  Stack,
   Typography,
 } from '@mui/material';
 import Box from '@mui/material/Box';
 import { ceil, divide } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument, PDFImage } from 'pdf-lib/cjs/api';
-import { FC, useState } from 'react';
+import { FC, useMemo, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
 import {
@@ -26,9 +27,13 @@ import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/t
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import snackNotifications from '@/utils/globalSnackbar';
 
-import { PDF_IMAGE_POSITION_OPTIONS, PDF_PAGE_SIZE_OPTIONS } from '../constant';
+import {
+  IPdfImagePositionOptionKeyType,
+  PDF_IMAGE_POSITION_OPTIONS,
+  PDF_PAGE_SIZE_OPTIONS,
+} from '../constant';
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
-  file: File;
+  file: File | Blob;
 };
 interface IFunctionalityImageToPdfMainProps {
   accept: string;
@@ -40,31 +45,47 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [userSelectSizeType, setUserSelectSizeType] = useState<string>('A4');
-  const [userSelectPositionType, setUserSelectPositionType] = useState<string>(
-    PDF_IMAGE_POSITION_OPTIONS[0].key,
-  );
+  const [userSelectPositionType, setUserSelectPositionType] =
+    useState<IPdfImagePositionOptionKeyType>(PDF_IMAGE_POSITION_OPTIONS[0].key);
   const [imageInfoList, setImageInfoList] = useState<
     IFunctionalityImageToPdfImageInfo[]
   >([]); //展示的pdf信息 列表
 
   const [totalPages, setTotalPages] = useState<number>(0); //总页数
   const [currentActionNum, setCurrentActionNum] = useState<number>(0); //当前加载页数
-
+  const heic2any = useMemo(async () => {
+    const heic2anyModule = await import('heic2any');
+    return heic2anyModule.default;
+  }, []);
   const convertFileListToImageUrls = async (
     fileList: FileList,
   ): Promise<IFunctionalityImageToPdfImageInfo[]> => {
     setTotalPages(fileList.length);
     const imageUrls: IFunctionalityImageToPdfImageInfo[] = [];
+    const heicToJpeg = await heic2any;
     for (let i = 0; i < fileList.length; i++) {
-      setCurrentActionNum(i);
-      const file = fileList[i];
-      const url = URL.createObjectURL(file);
-      imageUrls.push({
-        imageUrlString: url,
-        id: uuidV4(),
-        size: file.size,
-        file,
-      });
+      try {
+        setCurrentActionNum(i);
+        let file: File | Blob = fileList[i];
+        let url = '';
+        if (file.type === 'image/heic') {
+          const resultBlob = await heicToJpeg({
+            blob: file,
+            toType: 'image/jpeg',
+            quality: 0.9,
+          });
+          file = resultBlob as Blob;
+        }
+        url = URL.createObjectURL(file);
+        imageUrls.push({
+          imageUrlString: url,
+          id: uuidV4(),
+          size: file.size,
+          file,
+        });
+      } catch (e) {
+        console.log('simply convertFileListToImageUrls for error:', e);
+      }
     }
     setTotalPages(0);
     return imageUrls;
@@ -104,7 +125,6 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         try {
           const imageFile = imageInfoList[index];
           const fileType = imageFile.file.type;
-          console.log('simply fileType', fileType);
           if (
             fileType !== 'image/png' &&
             fileType !== 'image/jpeg' &&
@@ -113,7 +133,6 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             continue;
           }
           setCurrentActionNum(index as unknown as number);
-          console.log('simply imageFile file', imageFile.file);
           const imageBytes = await imageFile.file.arrayBuffer();
           let image: PDFImage | null = null;
           if (fileType === 'image/png') {
@@ -121,13 +140,16 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
           } else {
             image = await pdfDoc.embedJpg(imageBytes);
           }
-          const pageSize = await getUserSelectPageSize(); // Set the page size here
+
+          //开始获取选择的尺寸和page适配
+          const pageSize = await getUserSelectPageSize();
           if (!pageSize) return;
           const page = pdfDoc.addPage([pageSize.width, pageSize.height]);
           const imageWidth = pageSize.width;
           const imageHeight = (imageWidth * image.height) / image.width;
           let x = 0,
             y = 0;
+          //当适应完后，图片高度还大于页面高度时，按比例缩放
           if (imageHeight > pageSize.height) {
             const scale = pageSize.height / imageHeight;
             const scaledWidth = imageWidth * scale;
@@ -240,12 +262,12 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
     },
   ];
   return (
-    <Box
+    <Stack
+      flexDirection='column'
+      alignItems='center'
+      justifyContent='center'
       sx={{
         display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
         pb: 5,
         width: '100%',
       }}
@@ -335,7 +357,9 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             </FunctionalityCommonDragSortableList>
           )}
           {isLoading && (
-            <Box
+            <Stack
+              flexDirection='column'
+              alignItems='center'
               sx={{
                 position: 'absolute',
                 top: 0,
@@ -343,15 +367,12 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
                 right: 15,
                 bottom: 0,
                 bgcolor: 'rgba(255,255,255,0.3)',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
                 paddingTop: 10,
               }}
             >
               <CircularProgress />
               {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
-            </Box>
+            </Stack>
           )}
         </Box>
       )}
@@ -418,7 +439,9 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             <Select
               value={userSelectPositionType}
               onChange={(event) =>
-                setUserSelectPositionType(event.target.value)
+                setUserSelectPositionType(
+                  event.target.value as IPdfImagePositionOptionKeyType,
+                )
               }
               displayEmpty
               size='small'
@@ -449,7 +472,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
           buttonConfigs={bottomButtonConfigs}
         />
       )}
-    </Box>
+    </Stack>
   );
 };
 export default FunctionalityImageToPdfMain;

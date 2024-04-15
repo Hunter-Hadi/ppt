@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "படங்களை பின்வரும் PDF ஆக மாற்றுங்கள்",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "ஒவ்வொரு பதிவையும் ஒரு பக்கமாக்கி ஒரு பிடிஎஃப் ஆக்கலாம்.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "படங்களை பின்வரும் PDF ஆக மாற்றுங்கள்",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ஒவ்வொரு பதிவையும் ஒரு பக்கமாக்கி ஒரு பிடிஎஃப் ஆக்கலாம்."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ஒவ்வொரு பதிவையும் ஒரு பக்கமாக்கி ஒரு பிடிஎஃப் ஆக்கலாம்.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ஐ PDF க்கு மாற்று",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "இணைக்கப்பட்ட HEIC படங்களை PDF க்கு மாற்றுக",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ஒவ்வொன்றான பதிவேடுக்கப்பட்ட படம் ஒரு தனிப்பட்ட PDF இல் ஒரு பக்கமாக ஆகும்."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG மாற்றி PDF - இலவசமாக PNG படங்களை PDF ஆக மாற்றுங்கள் | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "இலவசமாக பிஎன்ஜி படங்களை பிடிப்பு ஆன்லைனில் பிடிக்கலாம். மாற்றி எந்த பிஎன்ஜி பட கோப்பையும் விருப்பமான பிடிப்பு கோப்புக்காக மாற்றுகிறது. நீர்மார்கங்கள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG மாதிரி PDF - இலவசமாக JPEG படங்களை PDF ஆக்கும் | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "இலவசமாக ஜெபிஜி படங்களை பிடிப்பு ஆன்லைனில் பிடிக்கலாம். மாற்றி எந்த ஜெபிஜி பட கோப்பையும் விருப்பமான பிடிப்பு கோப்புக்காக மாற்றுகிறது. நீர்மார்கங்கள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
+    "pdf_tools__jpeg_to_pdf__description": "இலவசமாக ஜெபிஜி படங்களை பிடிப்பு ஆன்லைனில் பிடிக்கலாம். மாற்றி எந்த ஜெபிஜி பட கோப்பையும் விருப்பமான பிடிப்பு கோப்புக்காக மாற்றுகிறது. நீர்மார்கங்கள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
+    "pdf_tools__heic_to_pdf__title": "HEIC ஐ PDF க்கு மாற்று - இலவசமாக HEIC படங்களை PDF க்கு மாற்று | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "இலவசமாக HEIC படங்களை PDF க்கு மாற்றுக. மாற்றி விடும் எந்த HEIC பட கோப்பும் ஒரு விருப்பத்திற்கு ஏற்ற சுயாதீனமான PDF கோப்பாக மாறும். மேலும், வாட்டர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",

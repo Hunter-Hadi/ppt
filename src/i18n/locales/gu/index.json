@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG છબીઓને PDF માં કનવર્ટ કરો ઓનલાઇન",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "દાખલ કરેલી પ્રત્યેક છબી એક પેજ બનશે એક એકલ PDF માં.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "JPEG છબીઓને PDF માં કનવર્ટ કરો ઓનલાઇન",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "દાખલ કરેલી પ્રત્યેક છબી એક પેજ બનશે એક એકલ PDF માં."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "દાખલ કરેલી પ્રત્યેક છબી એક પેજ બનશે એક એકલ PDF માં.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "એચઈસી થી PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "ઓનલાઇન એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "દરેક અપલોડ કરેલ છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG થી PDF - મફત માટે PNG છબીઓને PDF માં રૂપાંતરિત કરો | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "મુકત માટે PNG છબીઓને PDFમાં રૂપાંતરિત કરો. કનવર્ટર કોઈપણ PNG છબી ફાઇલને એક વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG થી PDF - જેપીઈજી છબીઓને મફત ઑનલાઇન PDF માં રૂપાંતરિત કરો | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "મુકત માટે JPEG છબીઓને PDFમાં રૂપાંતરિત કરો. કનવર્ટર કોઈપણ JPEG છબી ફાઇલને એક વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
+    "pdf_tools__jpeg_to_pdf__description": "મુકત માટે JPEG છબીઓને PDFમાં રૂપાંતરિત કરો. કનવર્ટર કોઈપણ JPEG છબી ફાઇલને એક વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
+    "pdf_tools__heic_to_pdf__title": "એચઈસી થી PDF - મફત માટે એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "મફત માટે ઓનલાઇન એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો. રૂપાંતરક કોઈપણ એચઈસી છબી ફાઇલને વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ કદ મરીજ નથી, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",

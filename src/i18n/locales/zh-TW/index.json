@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "在線將PNG圖像轉換為PDF",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "每個上傳的圖像將成為單個PDF的一頁",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "在線將JPEG圖像轉換為PDF",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "每個上傳的圖像將成為單個PDF的一頁"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "每個上傳的圖像將成為單個PDF的一頁",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC 轉 PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "在線將 HEIC 圖像轉換為 PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "每個上傳的圖像都將成為單個 PDF 中的一頁。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG轉PDF - 免費在線將PNG圖片轉換為PDF | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "免費在線將PNG圖像轉換為PDF。轉換器將任何PNG圖像文件轉換為定制的PDF文件。無需水印、文件大小限制、下載或註冊。",
     "pdf_tools__jpeg_to_pdf__title": "JPEG 轉 PDF - 免費在線將 JPEG 圖片轉換為 PDF | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "免費在線將JPEG圖像轉換為PDF。轉換器將任何JPEG圖像文件轉換為定制的PDF文件。無需水印、文件大小限制、下載或註冊。"
+    "pdf_tools__jpeg_to_pdf__description": "免費在線將JPEG圖像轉換為PDF。轉換器將任何JPEG圖像文件轉換為定制的PDF文件。無需水印、文件大小限制、下載或註冊。",
+    "pdf_tools__heic_to_pdf__title": "HEIC 轉 PDF - 在線免費將 HEIC 圖像轉換為 PDF | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "免費在線將 HEIC 圖像轉換為 PDF。轉換器將任何 HEIC 圖像文件轉換為自定義的 PDF 文件。無需水印、文件大小限制、下載或註冊。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "點擊上傳或拖放",

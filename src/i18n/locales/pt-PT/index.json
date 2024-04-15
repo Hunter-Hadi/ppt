@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Converta imagens PNG em PDF online",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Cada imagem enviada se tornará uma página em um único PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Converta imagens JEPG em PDF online",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Cada imagem enviada se tornará uma página em um único PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Cada imagem enviada se tornará uma página em um único PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC para PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Converter imagens HEIC em PDF online",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Cada imagem enviada se tornará uma página em um único PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts de 1 Clique",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG para PDF - Converter Imagens PNG em PDF Online Gratuitamente | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Converter imagens PNG em PDF online gratuitamente. O conversor transforma qualquer arquivo de imagem PNG em um arquivo PDF personalizado. Sem marcas d'água, limites de tamanho de arquivo, downloads ou inscrições necessárias.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG para PDF - Converter Imagens JPEG em PDF Online Gratuitamente | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Converter imagens JPEG em PDF online gratuitamente. O conversor transforma qualquer arquivo de imagem JPEG em um arquivo PDF personalizado. Sem marcas d'água, limites de tamanho de arquivo, downloads ou inscrições necessárias."
+    "pdf_tools__jpeg_to_pdf__description": "Converter imagens JPEG em PDF online gratuitamente. O conversor transforma qualquer arquivo de imagem JPEG em um arquivo PDF personalizado. Sem marcas d'água, limites de tamanho de arquivo, downloads ou inscrições necessárias.",
+    "pdf_tools__heic_to_pdf__title": "HEIC para PDF - Converter Imagens HEIC em PDF Online Gratuitamente | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Converter imagens HEIC em PDF online gratuitamente. O conversor transforma qualquer arquivo de imagem HEIC em um arquivo PDF personalizado. Sem marcas d'água, limites de tamanho de arquivo, downloads ou registros necessários."
   },
   "features_landing": {
     "cta_text": "Adicionar ao Navegador",

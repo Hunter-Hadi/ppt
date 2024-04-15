@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "המרת תמונות PNG ל-PDF מקוון",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "כל תמונה שנטענה תהפוך לעמוד ב-PDF יחיד",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "המרת תמונות JEPG ל-PDF מקוון",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "כל תמונה שנטענה תהפוך לעמוד ב-PDF יחיד"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "כל תמונה שנטענה תהפוך לעמוד ב-PDF יחיד",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ל-PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "המרת תמונות HEIC ל-PDF באינטרנט",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -627,7 +630,9 @@
     "pdf_tools__png_to_pdf__title": "PNG ל-PDF - המרת תמונות PNG ל-PDF מקוון בחינם | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "המרת תמונות PNG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת PNG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG ל-PDF - המרת תמונות JPEG ל-PDF מקוון בחינם | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "המרת תמונות JPEG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת JPEG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות."
+    "pdf_tools__jpeg_to_pdf__description": "המרת תמונות JPEG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת JPEG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "pdf_tools__heic_to_pdf__title": "HEIC ל-PDF - המרת תמונות HEIC ל-PDF באינטרנט בחינם | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "המרת תמונות HEIC ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונה HEIC לקובץ PDF מותאם אישית. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",

@@ -10,7 +10,7 @@ import FileSaver from 'file-saver';
 import JSZip from 'jszip';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 
 import {
   FunctionalityCommonButtonListView,
@@ -76,19 +76,22 @@ export const FunctionalityPdfSplitMain = () => {
       },
     );
   };
+  const selectPdfPageList = useMemo(
+    () => convertedPdfImages.filter((item) => item.isSelect),
+    [convertedPdfImages],
+  );
   const confirmToSplit = async () => {
     setIsLoading(true);
     setPdfTotalPages(0);
-    const splitPdfList = convertedPdfImages.filter((item) => item.isSelect);
-    if (splitPdfList.length > 0) {
+    if (selectPdfPageList.length > 0) {
       console.log('simply confirmToSplit', isMergeSinglePDf);
       if (isMergeSinglePDf) {
-        const downloadPdfData = await getMergePdfFiles(splitPdfList);
+        const downloadPdfData = await getMergePdfFiles(selectPdfPageList);
         if (downloadPdfData) {
           downloadUrl(downloadPdfData, 'split(MaxAI.me).pdf');
         }
       } else {
-        const pdfUint8ArrayList = await getSplitPdfFiles(splitPdfList);
+        const pdfUint8ArrayList = await getSplitPdfFiles(selectPdfPageList);
         onDownloadPdfImagesZip(pdfUint8ArrayList);
       }
     }
@@ -340,7 +343,7 @@ export const FunctionalityPdfSplitMain = () => {
             >
               <Button
                 sx={{ width: '100%', height: 48 }}
-                disabled={currentIsLoading}
+                disabled={currentIsLoading || selectPdfPageList.length === 0}
                 size='large'
                 variant='contained'
                 onClick={() => confirmToSplit()}

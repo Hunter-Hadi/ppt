@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG görüntülerini çevrimiçi olarak PDF'e dönüştürün",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Yüklenen her görüntü tek bir PDF sayfası haline gelecektir",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "JPEG görüntülerini çevrimiçi olarak PDF'e dönüştürün",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Yüklenen her görüntü tek bir PDF sayfası haline gelecektir"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Yüklenen her görüntü tek bir PDF sayfası haline gelecektir",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC'ten PDF'e",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "HEIC resimlerini çevrimiçi olarak PDF'e dönüştürün",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Yüklenen her resim tek bir PDF sayfası olacak."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG'den PDF'e - Ücretsiz Olarak PNG Resimleri PDF'e Dönüştür | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "PNG görüntülerini ücretsiz olarak çevrimiçi PDF'e dönüştürün. Dönüştürücü, herhangi bir PNG görüntü dosyasını özelleştirilmiş bir PDF dosyasına dönüştürür. Filigranlar, dosya boyutu sınırlamaları, indirmeler veya kayıtlar gerekmez.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG'ten PDF'e - Ücretsiz Olarak JPEG Resimleri PDF'e Dönüştür | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "JPEG görüntülerini ücretsiz olarak çevrimiçi PDF'e dönüştürün. Dönüştürücü, herhangi bir JPEG görüntü dosyasını özelleştirilmiş bir PDF dosyasına dönüştürür. Filigranlar, dosya boyutu sınırlamaları, indirmeler veya kayıtlar gerekmez."
+    "pdf_tools__jpeg_to_pdf__description": "JPEG görüntülerini ücretsiz olarak çevrimiçi PDF'e dönüştürün. Dönüştürücü, herhangi bir JPEG görüntü dosyasını özelleştirilmiş bir PDF dosyasına dönüştürür. Filigranlar, dosya boyutu sınırlamaları, indirmeler veya kayıtlar gerekmez.",
+    "pdf_tools__heic_to_pdf__title": "HEIC'ten PDF'e - Ücretsiz Olarak HEIC Resimleri PDF'e Dönüştür | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "HEIC resimlerini ücretsiz olarak çevrimiçi PDF'e dönüştürün. Dönüştürücü, herhangi bir HEIC resim dosyasını özelleştirilmiş bir PDF dosyasına dönüştürür. Filigran, dosya boyutu sınırlamaları, indirmeler veya kayıt olma gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",

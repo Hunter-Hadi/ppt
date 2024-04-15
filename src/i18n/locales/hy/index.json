@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Վերափոխել PNG պատկերները PDF-ի մեջ օնլայն",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Վերափոխել JPEG պատկերները PDF-ի մեջ օնլայն",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ"
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC դեֆուզի PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Վերափոխեք HEIC պատկերները PDF-ի մեջ օնլայն",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ PDF-ի էջ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG-ից PDF - վերափոխել PNG պատկերները PDF-ի համար անվճար | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Փոխարինեք PNG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած PNG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:",
     "pdf_tools__jpeg_to_pdf__title": "JPEG-ից PDF - վերափոխեք JPEG պատկերները PDF-ի համար անվճար | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Փոխարինեք JPEG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած JPEG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:"
+    "pdf_tools__jpeg_to_pdf__description": "Փոխարինեք JPEG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած JPEG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:",
+    "pdf_tools__heic_to_pdf__title": "HEIC դեֆուզի PDF - Վերափոխեք HEIC պատկերները PDF-ի մեջ անվճար | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Վերափոխեք HEIC պատկերները PDF-ի մեջ անվճար։ Փոխարինիչը դարձնում է ցանկացած HEIC պատկերի ֆայլը հատուկավորված PDF ֆայլի։ Առանց զգալիների, ֆայլի չափսանիշների, բեռնումների կամ գրանցումների։"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",

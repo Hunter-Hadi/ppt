@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 import languageCodeMap from '../src/i18n/types/languageCodeMap.json' assert { type: 'json' };
+import pdfToolsCodeMap from '../src/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json' assert { type: 'json' };
 
 const IS_PROD = true;
 
@@ -141,15 +142,10 @@ async function generatePromptsPages() {
   }
 }
 
-function generateToolsPages() {
-  const toolsPages = [
-    '/pdf-tools/merge-pdf',
-    '/pdf-tools/split-pdf',
-    '/pdf-tools/pdf-to-png',
-    '/pdf-tools/pdf-to-jpeg',
-    '/pdf-tools/png-to-pdf',
-    '/pdf-tools/jpeg-to-pdf',
-  ];
+async function generateToolsPages() {
+  const toolsPages = Object.keys(pdfToolsCodeMap.childrens).map(
+    (url) => `${pdfToolsCodeMap.topUrlKey}/${url}`,
+  );
 
   return toolsPages.concat(generateStaticPagesWithLocale(toolsPages));
 }
@@ -208,7 +204,7 @@ try {
     ),
   );
   allPages.push(...(await generatePromptsPages()));
-  allPages.push(...generateToolsPages());
+  allPages.push(...(await generateToolsPages()));
   generateSitemap(allPages);
 
   console.log(`

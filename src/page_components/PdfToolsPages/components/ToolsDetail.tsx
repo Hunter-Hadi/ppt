@@ -67,6 +67,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__jpeg_to_pdf__title'),
       description: t('seo:pdf_tools__jpeg_to_pdf__description'),
     },
+    'heic-to-pdf': {
+      title: t('seo:pdf_tools__heic_to_pdf__title'),
+      description: t('seo:pdf_tools__heic_to_pdf__description'),
+    },
   };
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
@@ -94,7 +98,9 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           )}
           {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
           {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
-          {(urlKey === 'png-to-pdf' || urlKey === 'jpeg-to-pdf') && (
+          {(urlKey === 'png-to-pdf' ||
+            urlKey === 'jpeg-to-pdf' ||
+            urlKey === 'heic-to-pdf') && (
             <FunctionalityImageToPdfMain accept={currentToolData.accept} />
           )}
         </Suspense>

@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Конвертирайте PNG изображения в PDF онлайн",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Всяко качено изображение ще стане страница в един PDF файл.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Конвертирайте JPEG изображения в PDF онлайн",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Всяко качено изображение ще стане страница в един PDF файл."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Всяко качено изображение ще стане страница в един PDF файл.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC към PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Преобразувайте HEIC изображения в PDF онлайн",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Всяко качено изображение ще стане страница в един PDF файл."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG към PDF - Конвертиране на PNG изображения в PDF онлайн безплатно | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Преобразувайте PNG изображения в PDF онлайн безплатно. Конверторът превръща всяко PNG изображение в персонализиран PDF файл. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG към PDF - Конвертиране на JPEG изображения в PDF онлайн безплатно | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Преобразувайте JPEG изображения в PDF онлайн безплатно. Конверторът превръща всяко JPEG изображение в персонализиран PDF файл. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации."
+    "pdf_tools__jpeg_to_pdf__description": "Преобразувайте JPEG изображения в PDF онлайн безплатно. Конверторът превръща всяко JPEG изображение в персонализиран PDF файл. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации.",
+    "pdf_tools__heic_to_pdf__title": "HEIC към PDF - Преобразувайте HEIC изображения в PDF онлайн безплатно | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Преобразувайте HEIC изображения в PDF онлайн безплатно. Конверторът превръща всяко HEIC изображение в персонализиран PDF файл. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",

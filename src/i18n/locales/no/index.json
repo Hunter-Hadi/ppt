@@ -360,17 +360,26 @@
     "tools__index_page__title": "MaxAI Verktøy",
     "tools__index_page__description": "Alle PDF-verktøy er 100% GRATIS og kjører i nettleseren din for fullstendig personvern",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Eksporter hver PDF-side som et PNG-bilde eller ekstraher individuelle bilder fra PDF til PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Eksporter hver PDF-side som et JPEG-bilde eller ekstraher individuelle bilder fra PDF til JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Slå sammen PDF-filer",
-    "tools__index_page__constant_obj__merge_pdfs__description": "Slå sammen flere PDF-filer til én med bare noen få klikk",
     "tools__index_page__constant_obj__split_a_pdf__title": "Del opp en PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "Hver valgte side vil bli en separat PDF-fil. Alternativt kan du slå sammen valgte sider til en enkelt PDF-fil.",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG til PDF",
-    "tools__index_page__constant_obj__png_to_pdf__description": "Hver opplastet bilde vil bli en side i en enkelt PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG til PDF",
-    "tools__index_page__constant_obj__jpeg_to_pdf__description": "Hver opplastet bilde vil bli en side i en enkelt PDF."
+    "tools__index_page__constant_obj__pdf_to_png__main_description": "Eksporter hver PDF-side som et PNG-bilde eller ekstraher individuelle bilder fra PDF til PNG",
+    "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksporter hver PDF-side som et PNG-bilde eller ekstraher individuelle bilder fra PDF til PNG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksporter hver PDF-side som et JPEG-bilde eller ekstraher individuelle bilder fra PDF til JPEG",
+    "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksporter hver side som en JPEG eller ekstraher individuelle bilder fra PDF til JPEG",
+    "tools__index_page__constant_obj__merge_pdfs__main_description": "Slå sammen hvilket som helst antall PDF-er i den rekkefølgen du velger til en enkelt PDF",
+    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Slå sammen flere PDF-filer til en med bare noen få klikk",
+    "tools__index_page__constant_obj__split_a_pdf__main_description": "Del opp sidene i en PDF til flere PDF-er eller fjern sider fra en eksisterende PDF",
+    "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Del opp sidene i en PDF til flere PDF-er eller fjern sider fra en eksisterende PDF.",
+    "tools__index_page__constant_obj__png_to_pdf__main_description": "Konverter PNG-bilder til PDF på nettet",
+    "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Hvert opplastet bilde blir en side i en enkelt PDF.",
+    "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Konverter JPEG-bilder til PDF på nettet",
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Hvert opplastet bilde blir en side i en enkelt PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC til PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konverter HEIC-bilder til PDF på nettet",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hvert opplastet bilde blir en side i en enkelt PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -622,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG til PDF - Konverter PNG-bilder til PDF på nettet gratis | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Konverter PNG-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst PNG-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG til PDF - Konverter JPEG-bilder til PDF på nettet gratis | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Konverter JPEG-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst JPEG-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig."
+    "pdf_tools__jpeg_to_pdf__description": "Konverter JPEG-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst JPEG-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig.",
+    "pdf_tools__heic_to_pdf__title": "HEIC til PDF - Konverter HEIC-bilder til PDF på nettet gratis | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Konverter HEIC-bilder til PDF på nettet gratis. Konverteren gjør om hvilken som helst HEIC-bildefil til en tilpasset PDF-fil. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger er nødvendig."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",

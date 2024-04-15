@@ -376,7 +376,10 @@
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Tukar imej PNG kepada PDF dalam talian",
     "tools__index_page__constant_obj__png_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF.",
     "tools__index_page__constant_obj__jpeg_to_pdf__main_description": "Tukar imej JEPG kepada PDF dalam talian",
-    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF."
+    "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF.",
+    "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ke PDF",
+    "tools__index_page__constant_obj__heic_to_pdf__main_description": "Tukar imej HEIC kepada PDF dalam talian",
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -628,7 +631,9 @@
     "pdf_tools__png_to_pdf__title": "PNG ke PDF - Tukar Gambar PNG ke PDF Dalam Talian Secara Percuma | MaxAI.me",
     "pdf_tools__png_to_pdf__description": "Tukar imej PNG kepada PDF dalam talian secara percuma. Penukar ini mengubah sebarang fail imej PNG kepada fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__jpeg_to_pdf__title": "JPEG ke PDF - Tukar Imej JPEG ke PDF Dalam Talian secara Percuma | MaxAI.me",
-    "pdf_tools__jpeg_to_pdf__description": "Tukar imej JPEG kepada PDF dalam talian secara percuma. Penukar ini mengubah sebarang fail imej JPEG kepada fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
+    "pdf_tools__jpeg_to_pdf__description": "Tukar imej JPEG kepada PDF dalam talian secara percuma. Penukar ini mengubah sebarang fail imej JPEG kepada fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__heic_to_pdf__title": "HEIC ke PDF - Tukar Imej HEIC kepada PDF Dalam Talian Secara Percuma | MaxAI.me",
+    "pdf_tools__heic_to_pdf__description": "Tukar imej HEIC kepada PDF dalam talian secara percuma. Penukar mengubah sebarang fail imej HEIC menjadi fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
