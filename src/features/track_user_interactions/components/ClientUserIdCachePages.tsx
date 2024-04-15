@@ -52,6 +52,7 @@ const ClientUserIdCachePages: FC<IProps> = ({ targetHost }) => {
           // 告诉父页面当前的 clientUserId
           case 'MAXAI_GET_CLIENT_USER_ID': {
             const clientUserId = getLocalStorage('CLIENT_USER_ID');
+            setWillCacheClientUserId(clientUserId);
             event.source.postMessage(
               {
                 type: 'MAXAI_GET_CLIENT_USER_ID_SUCCESS',

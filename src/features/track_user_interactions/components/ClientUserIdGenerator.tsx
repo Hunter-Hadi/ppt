@@ -95,10 +95,20 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
           }
           // 获取 clientUserId 成功的 message
           case 'MAXAI_GET_CLIENT_USER_ID_SUCCESS': {
-            if (!data.data.clientUserId && currentClientUserId) {
+            if (data.data.clientUserId && currentClientUserId) {
+              // 如果 iframe 有 clientUserId，需要和当前的 clientUserId 对比
+              if (currentClientUserId === data.data.clientUserId) {
+                // 如果是相等的，则完成生命周期
+                setCacheClientUserIdSuccess(true);
+              } else {
+                // 不相等，需要发送 message 通知 iframe 更新 clientUserId
+                sendClientUserIdToIFrame(currentClientUserId);
+              }
+            } else {
               // 如果 iframe 没有 clientUserId，并且当前有 clientUserId
               // 发送 message 通知 iframe 更新 clientUserId
-              sendClientUserIdToIFrame(currentClientUserId);
+              currentClientUserId &&
+                sendClientUserIdToIFrame(currentClientUserId);
             }
             break;
           }
