@@ -434,6 +434,11 @@
     "components__pdf_merge__button__clear_pdfs__tooltip": "Clear all PDFs below",
     "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
   },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_to_html__button__download": "Download",
+    "components__pdf_to_html__button__Convert": "Convert another"
+  },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__pdf_split__add_pdf": "Add PDFs",

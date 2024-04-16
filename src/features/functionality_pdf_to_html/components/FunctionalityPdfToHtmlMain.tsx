@@ -1,11 +1,17 @@
-import { Stack } from '@mui/material';
+import { Box, CircularProgress, Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
+import {
+  FunctionalityCommonButtonListView,
+  IButtonConfig,
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
+import snackNotifications from '@/utils/globalSnackbar';
 
-import { convertPdfToHTMLDivElement, createHtml } from '../utils';
+import { convertPdfToHTMLDivElement } from '../utils/convertPdfToHTML';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -13,28 +19,74 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 const FunctionalityPdfToHtmlMain = () => {
   const { t } = useTranslation();
-  const [file, setFile] = useState<File | null>(null); //展示的pdf信息 列表
+  const [fileName, setFileName] = useState<string>('');
+  const [htmlString, setHtmlString] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
-
+  const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数
+  const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数
   const onUploadFile = async (fileList: FileList) => {
     setIsLoading(true);
     console.log('fileList', fileList);
     if (fileList[0]) {
-      const steVal = await convertPdfToHTMLDivElement(fileList[0]);
-      console.log('simply steVal', steVal);
-      saveHtmlContent(createHtml(steVal.innerHTML));
+      setFileName(fileList[0].name);
+      const htmlString = await convertPdfToHTMLDivElement(
+        fileList[0],
+        (allPage: number, currentNum: number) => {
+          setPdfTotalPages(allPage);
+          setCurrentPdfActionNum(currentNum);
+        },
+      );
+      if (htmlString) {
+        setHtmlString(htmlString);
+      } else {
+      }
     }
-
     setIsLoading(false);
   };
-  // 将HTML内容另存为文件
-  const saveHtmlContent = (htmlContent: string) => {
-    const blob = new Blob([htmlContent], { type: 'text/html' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'pdf_content.html';
-    link.click();
+  const downloadHtml = () => {
+    if (htmlString) {
+      downloadUrl(htmlString, `${fileName}(MaxAI.me).html`, 'text/html');
+    }
   };
+  const handleUnsupportedFileType = () => {
+    snackNotifications.warning(
+      t(
+        'functionality__pdf_to_html:components__pdf_to_html__unsupported_file_type_tip',
+      ),
+      {
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center',
+        },
+      },
+    );
+  };
+  //按钮配置列表
+  const buttonConfigs: IButtonConfig[] = [
+    {
+      type: 'button',
+      buttonProps: {
+        children: t(
+          'functionality__pdf_to_html:components__pdf_to_html__button__download',
+        ),
+        variant: 'contained',
+        disabled: isLoading,
+        onClick: downloadHtml,
+      },
+    },
+    {
+      type: 'button',
+      buttonProps: {
+        children: t(
+          'functionality__pdf_to_html:components__pdf_to_html__button__Convert',
+        ),
+        variant: 'outlined',
+        disabled: isLoading,
+        color: 'error',
+        onClick: () => setHtmlString(null),
+      },
+    },
+  ];
   return (
     <Stack
       flexDirection='column'
@@ -46,16 +98,50 @@ const FunctionalityPdfToHtmlMain = () => {
         width: '100%',
       }}
     >
-      {!file && !isLoading && (
+      {!htmlString && !isLoading && (
         <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
             multiple: true,
           }}
           onChange={onUploadFile}
+          handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
-      <canvas id='pdf-canvas'></canvas>
+      {(isLoading || htmlString) && (
+        <Box
+          sx={{
+            width: '100%',
+            position: 'relative',
+            minHeight: 200,
+            pt: 10,
+          }}
+        >
+          {htmlString && (
+            <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
+          )}
+          {isLoading && (
+            <Stack
+              alignItems='center'
+              flexDirection='column'
+              justifyContent='center'
+              sx={{
+                position: 'absolute',
+                top: 10,
+                left: 0,
+                right: 15,
+                bottom: 0,
+                bgcolor: 'rgba(255,255,255,0.3)',
+              }}
+            >
+              <CircularProgress />
+              {pdfTotalPages > 0
+                ? `${currentPdfActionNum}/${pdfTotalPages}`
+                : ''}
+            </Stack>
+          )}
+        </Box>
+      )}
     </Stack>
   );
 };
