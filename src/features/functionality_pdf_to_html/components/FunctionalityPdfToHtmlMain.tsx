@@ -26,14 +26,13 @@ const FunctionalityPdfToHtmlMain = () => {
   const onUploadFile = async (fileList: FileList) => {
     setIsLoading(true);
     if (fileList[0]) {
-      //获取文件名后缀
+      //去除文件名后缀
       const fileAllName = fileList[0].name;
       const sliceName = fileAllName.slice(-4);
-      if (sliceName === '.pdf') {
-        setFileName(fileAllName.slice(0, -4));
-      } else {
-        setFileName(fileAllName);
-      }
+      setFileName(
+        sliceName === '.pdf' ? fileAllName.slice(0, -4) : fileAllName,
+      );
+
       const htmlString = await convertPdfToHTMLDivElement(
         fileList[0],
         (allPage: number, currentNum: number) => {
