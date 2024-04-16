@@ -1,8 +1,10 @@
-import { DndContext } from '@dnd-kit/core';
-import { Box, Stack } from '@mui/material';
+import { DndContext, DragEndEvent } from '@dnd-kit/core';
+import { Box, Button, Stack } from '@mui/material';
+import { cloneDeep } from 'lodash-es';
 import { FC, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
+import { pdfAddView } from '../utils/pdfAddView';
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView';
 import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -12,16 +14,49 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 interface IFunctionalitySignPdfDetailProps {
   file: File;
 }
+export type ISignData = {
+  pdfIndex: number;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  id: string;
+};
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file }) => {
   const [, setIsDropped] = useState(false);
-
-  function handleDragEnd(event) {
-    if (event.over && event.over.id === 'droppable') {
+  const [signaturePositions, setSignaturePositions] = useState<ISignData[]>([]);
+  function handleDragEnd(event: DragEndEvent) {
+    console.log('simply handleDragEnd', event);
+    if (event.over && event.over.id) {
       setIsDropped(true);
+      const { delta, over, active } = event;
+      setSignaturePositions((newList) => {
+        const index = newList.findIndex(
+          (item: ISignData) => item.id === active.id,
+        );
+        const newSignaturePosition = {
+          x: over.rect.width + delta.x,
+          y: delta.y,
+          width: over.rect.width,
+          height: over.rect.height,
+          pdfIndex: over.data.current as any,
+          ...(active.data.current as any),
+          ...(over.data.current as any),
+        };
+        if (index !== -1) {
+          newList[index] = newSignaturePosition;
+        } else {
+          newList.push(newSignaturePosition);
+        }
+        return cloneDeep(newList);
+      });
     }
   }
+  const onPdfAddView = () => {
+    pdfAddView(file, signaturePositions);
+  };
   return (
     <Stack
       direction='row'
@@ -36,7 +71,10 @@ export const FunctionalitySignPdfDetail: FC<
             backgroundColor: '#fafafa',
           }}
         >
-          <FunctionalitySignPdfShowPdfView file={file} />
+          <FunctionalitySignPdfShowPdfView
+            file={file}
+            signaturePositions={signaturePositions}
+          />
         </Box>
         <Box
           sx={{
@@ -44,6 +82,14 @@ export const FunctionalitySignPdfDetail: FC<
           }}
         >
           <FunctionalitySignPdfOperationView />
+          <Button
+            variant='contained'
+            onClick={onPdfAddView}
+            sx={{ marginTop: 2 }}
+            size='large'
+          >
+            保存
+          </Button>
         </Box>
       </DndContext>
     </Stack>
