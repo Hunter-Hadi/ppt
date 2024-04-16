@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Muunna HEIC-kuvat PDF-muotoon verkossa",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Jokainen ladattu kuva muuttuu yhdeksi sivuksi yhdessä PDF-tiedostossa.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF HTML-muunnin",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Muunna PDF HTML:ksi säilyttäen asettelu ja kuvat"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG PDF - Muunna JPEG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Muunna JPEG-kuvat PDF-tiedostoiksi ilmaiseksi verkossa. Muunnin muuttaa minkä tahansa JPEG-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita.",
     "pdf_tools__heic_to_pdf__title": "HEIC PDF - Muunna HEIC-kuvat PDF-muotoon ilmaiseksi | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Muunna HEIC-kuvat PDF-muotoon ilmaiseksi. Muunnin muuttaa minkä tahansa HEIC-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaaditaan."
+    "pdf_tools__heic_to_pdf__description": "Muunna HEIC-kuvat PDF-muotoon ilmaiseksi. Muunnin muuttaa minkä tahansa HEIC-kuvatiedoston räätälöidyksi PDF-tiedostoksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaaditaan.",
+    "pdf_tools__pdf_to_html__title": "PDF HTML-muunnin - Muunna PDF-tiedostot HTML:ksi ilmaiseksi | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Muunna PDF HTML:ksi ilmaiseksi. Säilytä asettelu ja muunna kuvat HTML:ksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaaditaan."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Keski",
     "components__image_to_pdf__position_top": "Ylä",
     "components__image_to_pdf__position_bottom": "Ala"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__pdf_to_html__button__download": "Lataa",
+    "components__pdf_to_html__button__Convert": "Muunna toinen"
   }
 }

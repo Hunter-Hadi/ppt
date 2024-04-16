@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par lapu vienā PDF failā.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC uz PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Pārveido HEIC attēlus uz PDF tiešsaistē",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par vienu lapu PDF failā."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Katrs augšupielādētais attēls kļūs par vienu lapu PDF failā.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF uz HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertējiet PDF uz HTML, saglabājot izkārtojumu un attēlus"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG uz PDF - Konvertēt JPEG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Konvertējiet JPEG attēlus par brīvu tiešsaistē uz PDF. Konvertors pārvērš jebkuru JPEG attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
     "pdf_tools__heic_to_pdf__title": "HEIC uz PDF - Pārveido HEIC attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Pārveido HEIC attēlus uz PDF tiešsaistē bez maksas. Konvertētājs pārvērš jebkuru HEIC attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
+    "pdf_tools__heic_to_pdf__description": "Pārveido HEIC attēlus uz PDF tiešsaistē bez maksas. Konvertētājs pārvērš jebkuru HEIC attēla failu par pielāgotu PDF failu. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
+    "pdf_tools__pdf_to_html__title": "PDF uz HTML - Konvertējiet PDF failus uz HTML tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Konvertējiet PDF uz HTML tiešsaistē bez maksas. Uzturiet izkārtojumu un konvertējiet attēlus uz HTML. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Vidus",
     "components__image_to_pdf__position_top": "Augša",
     "components__image_to_pdf__position_bottom": "Apakša"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
+    "components__pdf_to_html__button__download": "Lejupielādēt",
+    "components__pdf_to_html__button__Convert": "Konvertēt vēlreiz"
   }
 }

@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "প্রতিটি আপলোড করা ইমেজ একটি পিডিএফের পৃষ্ঠা হবে।",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC থেকে PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "অনলাইনে HEIC ছবি কনভার্ট করুন PDF এ",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "প্রতিটি আপলোড করা ছবি একটি একক PDF পৃষ্ঠার হিসাবে হবে।"
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "প্রতিটি আপলোড করা ছবি একটি একক PDF পৃষ্ঠার হিসাবে হবে।",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF থেকে HTML এ",
+    "tools__index_page__constant_obj__pdf_to_html__description": "লেআউট স্ট্রাকচার এবং ইমেজগুলি রেখে একটি PDF কে HTML এ রূপান্তর করুন"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG থেকে PDF - নিশ্চিত করুন JPEG ইমেজগুলি ফ্রি অনলাইনে PDF-এ রূপান্তর করুন | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "ফ্রি অনলাইনে JPEG ইমেজগুলি পিডিএফে রূপান্তর করুন। কনভার্টার যেকোনো JPEG ইমেজ ফাইলকে একটি কাস্টমাইজড পিডিএফ ফাইলে পরিণত করে। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
     "pdf_tools__heic_to_pdf__title": "HEIC থেকে PDF - অনলাইনে ফ্রি ভাবে HEIC ছবি কনভার্ট করুন PDF | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "অনলাইনে ফ্রি ভাবে HEIC ছবি কনভার্ট করুন PDF। কনভার্টারটি যেকোনো HEIC ছবি ফাইলকে একটি কাস্টমাইজড PDF ফাইলে পরিণত করে। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।"
+    "pdf_tools__heic_to_pdf__description": "অনলাইনে ফ্রি ভাবে HEIC ছবি কনভার্ট করুন PDF। কনভার্টারটি যেকোনো HEIC ছবি ফাইলকে একটি কাস্টমাইজড PDF ফাইলে পরিণত করে। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
+    "pdf_tools__pdf_to_html__title": "PDF থেকে HTML - ফ্রি অনলাইনে পিডিএফ ফাইলগুলি এইচটিএমএল এ রূপান্তর করুন | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "ফ্রি অনলাইনে পিডিএফ থেকে HTML এ রূপান্তর করুন। লেআউট বজায় রাখুন এবং ইমেজগুলি এইচটিএমএল এ রূপান্তর করুন। কোন ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।"
   },
   "features_landing": {
     "cta_text": "ব্রাউজারে যোগ করুন",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "মাঝে",
     "components__image_to_pdf__position_top": "শীর্ষে",
     "components__image_to_pdf__position_bottom": "নীচে"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
+    "components__pdf_to_html__button__download": "ডাউনলোড করুন",
+    "components__pdf_to_html__button__Convert": "আরেকটি রূপান্তর করুন"
   }
 }

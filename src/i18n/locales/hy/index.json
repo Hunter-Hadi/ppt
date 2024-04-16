@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC դեֆուզի PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Վերափոխեք HEIC պատկերները PDF-ի մեջ օնլայն",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ PDF-ի էջ."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ PDF-ի էջ.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF-ից HTML-ի",
+    "tools__index_page__constant_obj__pdf_to_html__description": "վերցնել PDF-ը HTML-ում, պահպանելով դասավորության կառուցվածքը և պատկերները"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG-ից PDF - վերափոխեք JPEG պատկերները PDF-ի համար անվճար | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Փոխարինեք JPEG պատկերները PDF-ով օնլայն, անվճար: Կոնվերտերը փոխարինում են ցանկացած JPEG պատկերի ֆայլը հատկանիշված PDF ֆայլով: Առանց զգալիների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջների առաջնությամբ:",
     "pdf_tools__heic_to_pdf__title": "HEIC դեֆուզի PDF - Վերափոխեք HEIC պատկերները PDF-ի մեջ անվճար | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Վերափոխեք HEIC պատկերները PDF-ի մեջ անվճար։ Փոխարինիչը դարձնում է ցանկացած HEIC պատկերի ֆայլը հատուկավորված PDF ֆայլի։ Առանց զգալիների, ֆայլի չափսանիշների, բեռնումների կամ գրանցումների։"
+    "pdf_tools__heic_to_pdf__description": "Վերափոխեք HEIC պատկերները PDF-ի մեջ անվճար։ Փոխարինիչը դարձնում է ցանկացած HEIC պատկերի ֆայլը հատուկավորված PDF ֆայլի։ Առանց զգալիների, ֆայլի չափսանիշների, բեռնումների կամ գրանցումների։",
+    "pdf_tools__pdf_to_html__title": "PDF-ից HTML-ի - Փոխարինեք PDF ֆայլերը HTML-ով անվճար | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Փոխարինեք PDF-ը HTML-ով անվճար։ Խնդրում ենք պահպանել դասավորությունը և պատկերները HTML-ում։ Ոչ ջուրկներ, ֆայլի չափսի սահմանափակումներ, ներբեռնումներ կամ գրանցումներ չեն պահանջվում։"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Միջին",
     "components__image_to_pdf__position_top": "Լուծարված",
     "components__image_to_pdf__position_bottom": "Ներքև"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
+    "components__pdf_to_html__button__download": "Ներբեռնել",
+    "components__pdf_to_html__button__Convert": "Վերափոխել մեկը"
   }
 }

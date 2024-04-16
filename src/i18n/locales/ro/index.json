@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Fiecare imagine încărcată va deveni o pagină într-un singur PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC la PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Convertește imagini HEIC în format PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Fiecare imagine încărcată va deveni o pagină într-un singur fișier PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Fiecare imagine încărcată va deveni o pagină într-un singur fișier PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF în HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Convertește un PDF în HTML păstrând structura de aspect și imaginile"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG la PDF - Convertiți imagini JPEG în PDF online gratuit | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Convertește imagini JPEG în format PDF online gratuit. Convertorul transformă orice fișier imagine JPEG într-un fișier PDF personalizat. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări.",
     "pdf_tools__heic_to_pdf__title": "HEIC la PDF - Convertește imagini HEIC în format PDF online gratuit | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Convertește imagini HEIC în format PDF online gratuit. Convertorul transformă orice fișier imagine HEIC într-un fișier PDF personalizat. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări."
+    "pdf_tools__heic_to_pdf__description": "Convertește imagini HEIC în format PDF online gratuit. Convertorul transformă orice fișier imagine HEIC într-un fișier PDF personalizat. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări.",
+    "pdf_tools__pdf_to_html__title": "PDF în HTML - Convertiți fișiere PDF în HTML online gratuit | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Convertește PDF în HTML online gratuit. Mențineți aspectul și convertiți imaginile în HTML. Nu există filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Mijloc",
     "components__image_to_pdf__position_top": "Sus",
     "components__image_to_pdf__position_bottom": "Jos"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Vă rugăm să încărcați tipul specificat de fișier PDF",
+    "components__pdf_to_html__button__download": "Descarcă",
+    "components__pdf_to_html__button__Convert": "Convertește altul"
   }
 }

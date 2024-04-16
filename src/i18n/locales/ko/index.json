@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "업로드한 각 이미지는 단일 PDF의 페이지가 됩니다",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC를 PDF로 변환하기",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "온라인으로 HEIC 이미지를 PDF로 변환하기",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "각 업로드된 이미지는 단일 PDF의 페이지가 됩니다.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF를 HTML로 변환",
+    "tools__index_page__constant_obj__pdf_to_html__description": "레이아웃 구조와 이미지를 유지한 채 PDF를 HTML로 변환"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG를 PDF로 변환 - 무료 온라인 JPEG 이미지를 PDF로 변환 | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "JPEG 이미지를 무료로 온라인에서 PDF로 변환하세요. 변환기는 어떤 JPEG 이미지 파일이든 사용자 정의된 PDF 파일로 변환합니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__heic_to_pdf__title": "HEIC를 PDF로 변환하기 - 무료 온라인 HEIC 이미지를 PDF로 변환하기 | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "무료로 HEIC 이미지를 PDF로 변환하세요. 변환기는 모든 HEIC 이미지 파일을 사용자 정의된 PDF 파일로 변환합니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
+    "pdf_tools__heic_to_pdf__description": "무료로 HEIC 이미지를 PDF로 변환하세요. 변환기는 모든 HEIC 이미지 파일을 사용자 정의된 PDF 파일로 변환합니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "pdf_tools__pdf_to_html__title": "PDF를 HTML로 변환 - 온라인으로 무료로 PDF 파일을 HTML로 변환 | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "무료로 PDF를 HTML로 변환하세요. 레이아웃을 유지하고 이미지를 HTML로 변환합니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "가운데",
     "components__image_to_pdf__position_top": "상단",
     "components__image_to_pdf__position_bottom": "하단"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
+    "components__pdf_to_html__button__download": "다운로드",
+    "components__pdf_to_html__button__Convert": "다른 파일 변환"
   }
 }

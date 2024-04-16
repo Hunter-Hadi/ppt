@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "የተላለፈው የማስተላለፊያ ምስል የአሁኑ የ PDF ገጽ መስመር ይችላል",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ለ PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ሄክ ምስልን ወደ PDF በመጫን ይህንን ይመልከቱ",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "የተለያዩ የሄክ ምስሎች በነጻ የእርስዎ ስሌት PDF ይሁኑ"
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "የተለያዩ የሄክ ምስሎች በነጻ የእርስዎ ስሌት PDF ይሁኑ",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ለ HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "የ PDF ን HTML ለውጥ በማስተላለፍ እና ምስሎች እንዲሁም ለማዳመጥ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG ለ PDF - የእርስዎን ምስልን በነጻ የሚሰራውን PDF በነፃ እናት | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "ጄፕኤግ ምስሎችን በነፃ ያለውን PDF ፋይል በነፃ መፍቻለት ነው። የሚሰሩት ጄፕኤግ ምስሎችን የተጠቀሙ PDF ፋይል ፋይል አይደለም። የሚያስፈልጉት የፋይል መጠን የፋይል መጠን አይደለም።",
     "pdf_tools__heic_to_pdf__title": "HEIC ለ PDF - ሄክ ምስልን ወደ PDF በነፃ እናትና ነፃ የሚያስፈልጉ | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "ሄክ ምስልን ወደ PDF በነፃ እናትና ነፃ የሚያስፈልጉ እንዴት እንደሚሰሩ ምስሎችን ይመልከቱ. የሚያስፈልጉ ሄክ ምስልን ፋይልን የሚያስፈልጉ ማንኛውም ሳምንት, የፋይል መጠን፣ ለውጦች ወይም ለመላክ የሚያስፈልጉ የሚያስተላልፉ አይደለም."
+    "pdf_tools__heic_to_pdf__description": "ሄክ ምስልን ወደ PDF በነፃ እናትና ነፃ የሚያስፈልጉ እንዴት እንደሚሰሩ ምስሎችን ይመልከቱ. የሚያስፈልጉ ሄክ ምስልን ፋይልን የሚያስፈልጉ ማንኛውም ሳምንት, የፋይል መጠን፣ ለውጦች ወይም ለመላክ የሚያስፈልጉ የሚያስተላልፉ አይደለም.",
+    "pdf_tools__pdf_to_html__title": "PDF ለ HTML - የፖፊክስ ፋይሎችን በነፃ እናውቃለን | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "የፖፊክስ ን HTML ለውጥ በነፃ እናውቃለን. ለማስተላለፍ እና ምስሎችን HTML ለውጥ በመቀላቀል ለማስተላለፍ. የውሃብስ, የፋይል መጠንቀቂያዎች, የልብ መጠንቀቂያዎች, ወይም የምስል ማረጋገጫ የለም."
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "ሚድር",
     "components__image_to_pdf__position_top": "ኋላ",
     "components__image_to_pdf__position_bottom": "ግራ"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "እባክዎ የተጠቀሱትን PDF ፋይል አስገቡ",
+    "components__pdf_to_html__button__download": "ደርብ ይሙሉ",
+    "components__pdf_to_html__button__Convert": "ሌላውን አስራልት"
   }
 }

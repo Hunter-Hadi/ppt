@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Každý nahraný obrázek se stane stránkou v jednom PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC na PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Převést HEIC obrázky na PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Každý nahraný obrázek se stane stránkou v jednom PDF souboru."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Každý nahraný obrázek se stane stránkou v jednom PDF souboru.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF na HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Převést PDF na HTML a zachovat strukturu rozvržení a obrázky"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG na PDF - Převod JPEG obrázků do PDF online zdarma | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Převést obrázky JPEG na PDF online zdarma. Konvertor převede libovolný soubor s obrázkem JPEG do upraveného souboru PDF. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
     "pdf_tools__heic_to_pdf__title": "HEIC na PDF - Převod HEIC obrázků na PDF online zdarma | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Převod HEIC obrázků na PDF online zdarma. Konvertor převede libovolný soubor s HEIC obrázkem do přizpůsobeného PDF souboru. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
+    "pdf_tools__heic_to_pdf__description": "Převod HEIC obrázků na PDF online zdarma. Konvertor převede libovolný soubor s HEIC obrázkem do přizpůsobeného PDF souboru. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
+    "pdf_tools__pdf_to_html__title": "PDF na HTML - Převod PDF souborů do HTML online zdarma | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Převod PDF na HTML online zdarma. Udržujte rozvržení a převádějte obrázky do HTML. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Střed",
     "components__image_to_pdf__position_top": "Nahoře",
     "components__image_to_pdf__position_bottom": "Dole"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Nahrajte prosím požadovaný typ souboru PDF",
+    "components__pdf_to_html__button__download": "Stáhnout",
+    "components__pdf_to_html__button__Convert": "Převést další"
   }
 }

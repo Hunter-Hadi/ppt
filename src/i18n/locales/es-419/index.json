@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Cada imagen cargada se convertirá en una página en un solo PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC a PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Convierte imágenes HEIC a PDF en línea",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Cada imagen cargada se convertirá en una página en un solo PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Cada imagen cargada se convertirá en una página en un solo PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF a HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Convierte un PDF a HTML manteniendo la estructura de diseño e imágenes"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG a PDF - Convertir imágenes JPEG a PDF en línea de forma gratuita | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Convierte imágenes JPEG a PDF en línea de forma gratuita. El convertidor convierte cualquier archivo de imagen JPEG en un archivo PDF personalizado. No se requieren marcas de agua, límites de tamaño de archivo, descargas ni registros.",
     "pdf_tools__heic_to_pdf__title": "HEIC a PDF - Convierte imágenes HEIC a PDF en línea de forma gratuita | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Convierte imágenes HEIC a PDF en línea de forma gratuita. El convertidor convierte cualquier archivo de imagen HEIC en un archivo PDF personalizado. Sin marcas de agua, límites de tamaño de archivo, descargas o registros requeridos."
+    "pdf_tools__heic_to_pdf__description": "Convierte imágenes HEIC a PDF en línea de forma gratuita. El convertidor convierte cualquier archivo de imagen HEIC en un archivo PDF personalizado. Sin marcas de agua, límites de tamaño de archivo, descargas o registros requeridos.",
+    "pdf_tools__pdf_to_html__title": "PDF a HTML - Convierte archivos PDF a HTML en línea gratis | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Convierte PDF a HTML en línea gratis. Mantén el diseño y convierte las imágenes a HTML. Sin marcas de agua, límites de tamaño de archivo, descargas o registros requeridos."
   },
   "features_landing": {
     "cta_text": "Agregar al Navegador",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Medio",
     "components__image_to_pdf__position_top": "Arriba",
     "components__image_to_pdf__position_bottom": "Abajo"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
+    "components__pdf_to_html__button__download": "Descargar",
+    "components__pdf_to_html__button__Convert": "Convertir otro"
   }
 }

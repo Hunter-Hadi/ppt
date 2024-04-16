@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Kiekvienas įkeltas paveikslėlis taps vieno PDF puslapio dalimi.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC į PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konvertuokite HEIC nuotraukas į PDF internetu",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Kiekviena įkelta nuotrauka taps viena puslapiu PDF faile."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Kiekviena įkelta nuotrauka taps viena puslapiu PDF faile.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF į HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertuokite PDF į HTML, išlaikant maketą ir paveikslėlius"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG į PDF - Konvertuoti JPEG nuotraukas į PDF internete nemokamai | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Konvertuokite JPEG paveikslėlius į PDF internete nemokamai. Konverteris paverčia bet kurį JPEG paveikslėlio failą į tinkintą PDF failą. Nereikalingi vandens ženklai, failo dydžio apribojimai, atsisiuntimai ar prisijungimai.",
     "pdf_tools__heic_to_pdf__title": "HEIC į PDF - Konvertuokite HEIC Nuotraukas į PDF Nemokamai | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Konvertuokite HEIC nuotraukas į PDF nemokamai internetu. Konverteris paverčia bet kokią HEIC nuotraukos failą į tinkintą PDF failą. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia."
+    "pdf_tools__heic_to_pdf__description": "Konvertuokite HEIC nuotraukas į PDF nemokamai internetu. Konverteris paverčia bet kokią HEIC nuotraukos failą į tinkintą PDF failą. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
+    "pdf_tools__pdf_to_html__title": "PDF į HTML - Nemokamai konvertuokite PDF failus į HTML | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Nemokamai konvertuokite PDF į HTML. Išlaikykite maketą ir konvertuokite paveikslėlius į HTML. Nereikia vandensženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Vidurys",
     "components__image_to_pdf__position_top": "Viršus",
     "components__image_to_pdf__position_bottom": "Apačia"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
+    "components__pdf_to_html__button__download": "Atsisiųsti",
+    "components__pdf_to_html__button__Convert": "Konvertuoti kitą"
   }
 }

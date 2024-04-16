@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "כל תמונה שנטענה תהפוך לעמוד ב-PDF יחיד",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ל-PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "המרת תמונות HEIC ל-PDF באינטרנט",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "כל תמונה שתועלה תהפוך לדף ב-PDF אחד.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ל-HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "המרת PDF ל-HTML תוך שמירה על מבנה הפריסה והתמונות"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -632,7 +634,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG ל-PDF - המרת תמונות JPEG ל-PDF מקוון בחינם | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "המרת תמונות JPEG ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונת JPEG לקובץ PDF מותאם אישית. אין סימני מים, הגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
     "pdf_tools__heic_to_pdf__title": "HEIC ל-PDF - המרת תמונות HEIC ל-PDF באינטרנט בחינם | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "המרת תמונות HEIC ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונה HEIC לקובץ PDF מותאם אישית. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
+    "pdf_tools__heic_to_pdf__description": "המרת תמונות HEIC ל-PDF באינטרנט בחינם. הממיר ממיר כל קובץ תמונה HEIC לקובץ PDF מותאם אישית. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "pdf_tools__pdf_to_html__title": "PDF ל-HTML - המרת קבצי PDF ל-HTML באופן מקוון חינמית | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "המרת PDF ל-HTML באופן מקוון חינמית. שמירה על פריסה והמרת תמונות ל-HTML. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -733,5 +737,10 @@
     "components__image_to_pdf__position_middle": "אמצע",
     "components__image_to_pdf__position_top": "חלק עליון",
     "components__image_to_pdf__position_bottom": "חלק תחתון"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "אנא העלה את סוג הקובץ המצוין של PDF",
+    "components__pdf_to_html__button__download": "הורדה",
+    "components__pdf_to_html__button__Convert": "המרה נוספת"
   }
 }

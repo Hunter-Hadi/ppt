@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ke PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Tukar imej HEIC kepada PDF dalam talian",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Setiap imej yang dimuat naik akan menjadi satu halaman dalam satu PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ke HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Tukar PDF kepada HTML sambil mengekalkan struktur layout dan imej"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG ke PDF - Tukar Imej JPEG ke PDF Dalam Talian secara Percuma | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Tukar imej JPEG kepada PDF dalam talian secara percuma. Penukar ini mengubah sebarang fail imej JPEG kepada fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__heic_to_pdf__title": "HEIC ke PDF - Tukar Imej HEIC kepada PDF Dalam Talian Secara Percuma | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Tukar imej HEIC kepada PDF dalam talian secara percuma. Penukar mengubah sebarang fail imej HEIC menjadi fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
+    "pdf_tools__heic_to_pdf__description": "Tukar imej HEIC kepada PDF dalam talian secara percuma. Penukar mengubah sebarang fail imej HEIC menjadi fail PDF yang disesuaikan. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__pdf_to_html__title": "PDF ke HTML - Tukar Fail PDF kepada HTML Dalam Talian secara Percuma | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Tukar PDF kepada HTML dalam talian secara percuma. Mengekalkan layout dan menukar imej kepada HTML. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Tengah",
     "components__image_to_pdf__position_top": "Atas",
     "components__image_to_pdf__position_bottom": "Bawah"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
+    "components__pdf_to_html__button__download": "Muat turun",
+    "components__pdf_to_html__button__Convert": "Tukar yang lain"
   }
 }

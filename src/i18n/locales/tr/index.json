@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Yüklenen her görüntü tek bir PDF sayfası haline gelecektir",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC'ten PDF'e",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "HEIC resimlerini çevrimiçi olarak PDF'e dönüştürün",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Yüklenen her resim tek bir PDF sayfası olacak."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Yüklenen her resim tek bir PDF sayfası olacak.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF to HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Düzen yapısını ve resimleri koruyarak bir PDF'i HTML'e dönüştürün"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG'ten PDF'e - Ücretsiz Olarak JPEG Resimleri PDF'e Dönüştür | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "JPEG görüntülerini ücretsiz olarak çevrimiçi PDF'e dönüştürün. Dönüştürücü, herhangi bir JPEG görüntü dosyasını özelleştirilmiş bir PDF dosyasına dönüştürür. Filigranlar, dosya boyutu sınırlamaları, indirmeler veya kayıtlar gerekmez.",
     "pdf_tools__heic_to_pdf__title": "HEIC'ten PDF'e - Ücretsiz Olarak HEIC Resimleri PDF'e Dönüştür | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "HEIC resimlerini ücretsiz olarak çevrimiçi PDF'e dönüştürün. Dönüştürücü, herhangi bir HEIC resim dosyasını özelleştirilmiş bir PDF dosyasına dönüştürür. Filigran, dosya boyutu sınırlamaları, indirmeler veya kayıt olma gerektirmez."
+    "pdf_tools__heic_to_pdf__description": "HEIC resimlerini ücretsiz olarak çevrimiçi PDF'e dönüştürün. Dönüştürücü, herhangi bir HEIC resim dosyasını özelleştirilmiş bir PDF dosyasına dönüştürür. Filigran, dosya boyutu sınırlamaları, indirmeler veya kayıt olma gerektirmez.",
+    "pdf_tools__pdf_to_html__title": "PDF'i HTML'e Dönüştür - Ücretsiz Olarak PDF Dosyalarını HTML'e Dönüştürün | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Ücretsiz olarak PDF'i HTML'e dönüştürün. Düzeni koruyun ve resimleri HTML'e dönüştürün. Filigran, dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Orta",
     "components__image_to_pdf__position_top": "Üst",
     "components__image_to_pdf__position_bottom": "Alt"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__pdf_to_html__button__download": "İndir",
+    "components__pdf_to_html__button__Convert": "Başka bir dönüştür"
   }
 }

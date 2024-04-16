@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "هر تصویر بارگذاری شده به یک صفحه در یک PDF واحد تبدیل خواهد شد.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "تبدیل HEIC به PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "تبدیل تصاویر HEIC به PDF آنلاین",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "هر تصویر بارگذاری شده به یک صفحه در یک فایل PDF تبدیل می‌شود."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "هر تصویر بارگذاری شده به یک صفحه در یک فایل PDF تبدیل می‌شود.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "تبدیل PDF به HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "تبدیل یک فایل PDF به HTML با حفظ ساختار طرح و تصاویر"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "تبدیل JPEG به PDF - تبدیل تصاویر JPEG به PDF آنلاین رایگان | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "تبدیل تصاویر JPEG به PDF آنلاین و رایگان. این مبدل هر فایل تصویر JPEG را به یک فایل PDF سفارشی تبدیل می کند. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
     "pdf_tools__heic_to_pdf__title": "تبدیل HEIC به PDF - تبدیل تصاویر HEIC به PDF آنلاین رایگان | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "تبدیل تصاویر HEIC به PDF آنلاین رایگان. این تبدیل کننده هر فایل تصویر HEIC را به یک فایل PDF سفارشی تبدیل می‌کند. بدون نشان آب، محدودیت حجم فایل، دانلود یا ثبت نام."
+    "pdf_tools__heic_to_pdf__description": "تبدیل تصاویر HEIC به PDF آنلاین رایگان. این تبدیل کننده هر فایل تصویر HEIC را به یک فایل PDF سفارشی تبدیل می‌کند. بدون نشان آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
+    "pdf_tools__pdf_to_html__title": "تبدیل PDF به HTML - تبدیل فایل‌های PDF به HTML آنلاین رایگان | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "تبدیل PDF به HTML آنلاین رایگان. حفظ طرح و تبدیل تصاویر به HTML. بدون علامت‌گذاری آب، محدودیت اندازه فایل، دانلود یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "وسط",
     "components__image_to_pdf__position_top": "بالا",
     "components__image_to_pdf__position_bottom": "پایین"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
+    "components__pdf_to_html__button__download": "دانلود",
+    "components__pdf_to_html__button__Convert": "تبدیل دیگری"
   }
 }

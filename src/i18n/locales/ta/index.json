@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ஒவ்வொரு பதிவையும் ஒரு பக்கமாக்கி ஒரு பிடிஎஃப் ஆக்கலாம்.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ஐ PDF க்கு மாற்று",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "இணைக்கப்பட்ட HEIC படங்களை PDF க்கு மாற்றுக",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ஒவ்வொன்றான பதிவேடுக்கப்பட்ட படம் ஒரு தனிப்பட்ட PDF இல் ஒரு பக்கமாக ஆகும்."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ஒவ்வொன்றான பதிவேடுக்கப்பட்ட படம் ஒரு தனிப்பட்ட PDF இல் ஒரு பக்கமாக ஆகும்.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF மாற்று HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "தலைப்பு அமைப்புக்குள் மட்டுமே ஒரு PDF-ஐ HTML ஆக மாற்றுங்கள்"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG மாதிரி PDF - இலவசமாக JPEG படங்களை PDF ஆக்கும் | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "இலவசமாக ஜெபிஜி படங்களை பிடிப்பு ஆன்லைனில் பிடிக்கலாம். மாற்றி எந்த ஜெபிஜி பட கோப்பையும் விருப்பமான பிடிப்பு கோப்புக்காக மாற்றுகிறது. நீர்மார்கங்கள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
     "pdf_tools__heic_to_pdf__title": "HEIC ஐ PDF க்கு மாற்று - இலவசமாக HEIC படங்களை PDF க்கு மாற்று | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "இலவசமாக HEIC படங்களை PDF க்கு மாற்றுக. மாற்றி விடும் எந்த HEIC பட கோப்பும் ஒரு விருப்பத்திற்கு ஏற்ற சுயாதீனமான PDF கோப்பாக மாறும். மேலும், வாட்டர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
+    "pdf_tools__heic_to_pdf__description": "இலவசமாக HEIC படங்களை PDF க்கு மாற்றுக. மாற்றி விடும் எந்த HEIC பட கோப்பும் ஒரு விருப்பத்திற்கு ஏற்ற சுயாதீனமான PDF கோப்பாக மாறும். மேலும், வாட்டர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
+    "pdf_tools__pdf_to_html__title": "PDF மாற்று HTML - இலவசமாக PDF கோப்புகளை HTML ஆக மாற்று | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "இலவசமாக PDF ஐ HTML ஆக மாற்றுங்கள். தலைப்புகளையும் படங்களையும் HTML ஆக மாற்றுங்கள். வாட்டர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்குகள் அல்லது பதிவுகள் தேவையில்லை."
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "பதிவேற்ற அல்லது இழுத்து விடுக",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "மைதானம்",
     "components__image_to_pdf__position_top": "மேல்",
     "components__image_to_pdf__position_bottom": "கீழ்"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
+    "components__pdf_to_html__button__download": "பதிவிறக்கு",
+    "components__pdf_to_html__button__Convert": "மற்றொருபோது மாற்று"
   }
 }

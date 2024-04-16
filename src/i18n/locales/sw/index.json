@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "Badilisha HEIC kuwa PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Badilisha picha za HEIC kuwa PDF mtandaoni",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Kila picha iliyopakiwa itakuwa ukurasa katika PDF moja.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF kuwa HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Geuza PDF kuwa HTML huku ukihifadhi muundo na picha"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG hadi PDF - Badilisha Picha za JPEG kuwa PDF Mtandaoni Bure | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Badilisha picha za JPEG kuwa PDF mtandaoni bila malipo. Konverta inabadilisha faili yoyote ya picha ya JPEG kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika.",
     "pdf_tools__heic_to_pdf__title": "Badilisha HEIC kuwa PDF - Badilisha Picha za HEIC kuwa PDF Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Badilisha picha za HEIC kuwa PDF mtandaoni bure. Kigeuzi hubadilisha faili yoyote ya picha ya HEIC kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, mipaka ya ukubwa wa faili, kupakua, au kujisajili inayohitajika."
+    "pdf_tools__heic_to_pdf__description": "Badilisha picha za HEIC kuwa PDF mtandaoni bure. Kigeuzi hubadilisha faili yoyote ya picha ya HEIC kuwa faili ya PDF iliyoboreshwa. Hakuna alama za maji, mipaka ya ukubwa wa faili, kupakua, au kujisajili inayohitajika.",
+    "pdf_tools__pdf_to_html__title": "PDF kuwa HTML - Geuza Faili za PDF kuwa HTML Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Geuza PDF kuwa HTML mtandaoni bure. Hifadhi muundo na geuza picha kuwa HTML. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Katikati",
     "components__image_to_pdf__position_top": "Juu",
     "components__image_to_pdf__position_bottom": "Chini"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
+    "components__pdf_to_html__button__download": "Pakua",
+    "components__pdf_to_html__button__Convert": "Geuza nyingine"
   }
 }

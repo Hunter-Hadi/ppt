@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Svaka prenesena slika postat će stranica u jednom PDF-u",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC u PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Pretvorite HEIC slike u PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Svaka uploadana slika će postati stranica u jednom PDF-u."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Svaka uploadana slika će postati stranica u jednom PDF-u.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF u HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Pretvori PDF u HTML zadržavajući strukturu rasporeda i slike"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG u PDF - Pretvori JPEG slike u PDF online besplatno | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Besplatno pretvorite JPEG slike u PDF online. Konverter pretvara bilo koju JPEG sliku u prilagođeni PDF. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava.",
     "pdf_tools__heic_to_pdf__title": "HEIC u PDF - Pretvorite HEIC slike u PDF online besplatno | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Pretvorite HEIC slike u PDF online besplatno. Konverter pretvara bilo koju HEIC sliku u prilagođeni PDF. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija."
+    "pdf_tools__heic_to_pdf__description": "Pretvorite HEIC slike u PDF online besplatno. Konverter pretvara bilo koju HEIC sliku u prilagođeni PDF. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
+    "pdf_tools__pdf_to_html__title": "PDF u HTML - Pretvori PDF datoteke u HTML online besplatno | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Pretvori PDF u HTML online besplatno. Održava raspored i pretvara slike u HTML. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava."
   },
   "features_landing": {
     "cta_text": "Dodaj u preglednik",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Sredina",
     "components__image_to_pdf__position_top": "Vrh",
     "components__image_to_pdf__position_bottom": "Dno"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Molimo prenesite određeni tip PDF datoteke",
+    "components__pdf_to_html__button__download": "Preuzmi",
+    "components__pdf_to_html__button__Convert": "Pretvori drugi"
   }
 }

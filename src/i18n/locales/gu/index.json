@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "દાખલ કરેલી પ્રત્યેક છબી એક પેજ બનશે એક એકલ PDF માં.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "એચઈસી થી PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ઓનલાઇન એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "દરેક અપલોડ કરેલ છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "દરેક અપલોડ કરેલ છબી એક એકલ PDF માં પૃષ્ઠ બનશે.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF થી HTML માં",
+    "tools__index_page__constant_obj__pdf_to_html__description": "લેઆઉટ સ્ટ્રક્ચર અને છબીઓ સાથે PDF ને HTML માં રૂપાંતરિત કરો"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG થી PDF - જેપીઈજી છબીઓને મફત ઑનલાઇન PDF માં રૂપાંતરિત કરો | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "મુકત માટે JPEG છબીઓને PDFમાં રૂપાંતરિત કરો. કનવર્ટર કોઈપણ JPEG છબી ફાઇલને એક વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__heic_to_pdf__title": "એચઈસી થી PDF - મફત માટે એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "મફત માટે ઓનલાઇન એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો. રૂપાંતરક કોઈપણ એચઈસી છબી ફાઇલને વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ કદ મરીજ નથી, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
+    "pdf_tools__heic_to_pdf__description": "મફત માટે ઓનલાઇન એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો. રૂપાંતરક કોઈપણ એચઈસી છબી ફાઇલને વૈયક્તિકૃત PDF ફાઇલમાં બદલે છે. કોઈ વોટરમાર્ક, ફાઇલ કદ મરીજ નથી, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
+    "pdf_tools__pdf_to_html__title": "PDF થી HTML માં - મફત માટે પીડીએફ ફાઇલો ને HTML માં રૂપાંતરિત કરો | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "મફત માટે PDF ને HTML માં રૂપાંતરિત કરો. લેઆઉટ બનાવો અને છબીઓને HTML માં રૂપાંતરિત કરો. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "મધ્ય",
     "components__image_to_pdf__position_top": "ટોપ",
     "components__image_to_pdf__position_bottom": "નીચે"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઇલ પ્રકાર અપલોડ કરો",
+    "components__pdf_to_html__button__download": "ડાઉનલોડ કરો",
+    "components__pdf_to_html__button__Convert": "બીજું રૂપાંતર કરો"
   }
 }

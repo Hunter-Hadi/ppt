@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Minden feltöltött kép egy oldallá válik egyetlen PDF-ben.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC to PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "HEIC képek átalakítása PDF formátumba online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Minden feltöltött kép egy oldalt foglal majd el a PDF-ben."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Minden feltöltött kép egy oldalt foglal majd el a PDF-ben.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF to HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "PDF átalakítása HTML formátumba a diagramstruktúra és képek megtartásával"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG to PDF - JPEG képek konvertálása PDF formátumba ingyen | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Ingyenesen alakítsa át a JPEG képeket PDF formátumra online. A konverter testreszabott PDF fájllá alakítja bármely JPEG képfájlt. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
     "pdf_tools__heic_to_pdf__title": "HEIC to PDF - HEIC képek átalakítása PDF formátumba ingyen | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "HEIC képek átalakítása PDF formátumba ingyen. Az átalakító bármilyen HEIC képfájlt testreszabott PDF fájllá alakít. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges."
+    "pdf_tools__heic_to_pdf__description": "HEIC képek átalakítása PDF formátumba ingyen. Az átalakító bármilyen HEIC képfájlt testreszabott PDF fájllá alakít. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges.",
+    "pdf_tools__pdf_to_html__title": "PDF to HTML - PDF fájlok ingyenes online átalakítása HTML-be | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "PDF ingyenes online átalakítása HTML-be. Diagramok és képek megtartása HTML formátumban. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Közép",
     "components__image_to_pdf__position_top": "Felső",
     "components__image_to_pdf__position_bottom": "Alsó"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
+    "components__pdf_to_html__button__download": "Letöltés",
+    "components__pdf_to_html__button__Convert": "Másik átalakítása"
   }
 }

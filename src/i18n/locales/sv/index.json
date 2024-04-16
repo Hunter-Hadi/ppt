@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Varje uppladdad bild blir en sida i en enda PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC till PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konvertera HEIC-bilder till PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Varje uppladdad bild blir en sida i en enda PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Varje uppladdad bild blir en sida i en enda PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF till HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertera en PDF till HTML samtidigt som du behåller layoutstruktur och bilder"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG till PDF - Konvertera JPEG-bilder till PDF online gratis | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Konvertera JPEG-bilder till PDF online gratis. Konverteraren omvandlar vilken JPEG-bildfil som helst till en anpassad PDF-fil. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
     "pdf_tools__heic_to_pdf__title": "HEIC till PDF - Konvertera HEIC-bilder till PDF online gratis | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Konvertera HEIC-bilder till PDF online gratis. Konverteraren omvandlar vilken HEIC-bildfil som helst till en anpassad PDF-fil. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs."
+    "pdf_tools__heic_to_pdf__description": "Konvertera HEIC-bilder till PDF online gratis. Konverteraren omvandlar vilken HEIC-bildfil som helst till en anpassad PDF-fil. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "pdf_tools__pdf_to_html__title": "PDF till HTML - Konvertera PDF-filer till HTML online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Konvertera PDF till HTML online gratis. Behåll layouten och konvertera bilder till HTML. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs."
   },
   "features_landing": {
     "cta_text": "Lägg till i webbläsaren",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Mitten",
     "components__image_to_pdf__position_top": "Överst",
     "components__image_to_pdf__position_bottom": "Nederst"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
+    "components__pdf_to_html__button__download": "Ladda ner",
+    "components__pdf_to_html__button__Convert": "Konvertera en annan"
   }
 }

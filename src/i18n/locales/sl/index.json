@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Vsaka naložena slika bo postala stran v enem samem PDF-ju.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC v PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Spletno pretvori HEIC slike v PDF",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Vsaka naložena slika bo postala stran v enem samem PDF-ju."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Vsaka naložena slika bo postala stran v enem samem PDF-ju.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF v HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Pretvori PDF v HTML in ohrani strukturo postavitve in slike"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG v PDF - Pretvori JPEG slike v PDF na spletu brezplačno | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Brezplačno pretvorite JPEG slike v PDF. Pretvornik spremeni katero koli JPEG slikovno datoteko v prilagojeno PDF datoteko. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__heic_to_pdf__title": "HEIC v PDF - Spletno pretvori HEIC slike v PDF brezplačno | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Spletno pretvori HEIC slike v PDF brezplačno. Pretvornik pretvori katero koli datoteko s sliko HEIC v prilagojen PDF. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
+    "pdf_tools__heic_to_pdf__description": "Spletno pretvori HEIC slike v PDF brezplačno. Pretvornik pretvori katero koli datoteko s sliko HEIC v prilagojen PDF. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
+    "pdf_tools__pdf_to_html__title": "PDF v HTML - Pretvori datoteke PDF v HTML na spletu brezplačno | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Brezplačna pretvorba PDF v HTML na spletu. Ohranite postavitev in pretvorite slike v HTML. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Sredina",
     "components__image_to_pdf__position_top": "Zgoraj",
     "components__image_to_pdf__position_bottom": "Spodaj"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
+    "components__pdf_to_html__button__download": "Prenesi",
+    "components__pdf_to_html__button__Convert": "Pretvori drugo"
   }
 }

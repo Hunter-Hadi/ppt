@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Cada imatge carregada es convertirà en una pàgina d'un sol PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC a PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Converteix imatges HEIC a PDF en línia",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Cada imatge carregada es convertirà en una pàgina d'un sol PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Cada imatge carregada es convertirà en una pàgina d'un sol PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF a HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Converteix un PDF a HTML mantenint l'estructura del disseny i les imatges"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG a PDF - Converteix imatges JPEG a PDF en línia de forma gratuïta | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Converteix imatges JPEG a PDF en línia de forma gratuïta. El convertidor converteix qualsevol fitxer d'imatge JPEG en un fitxer PDF personalitzat. Sense marques d'aigua, límits de mida de fitxer, descàrregues ni registres necessaris.",
     "pdf_tools__heic_to_pdf__title": "HEIC a PDF - Converteix imatges HEIC a PDF en línia de forma gratuïta | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Converteix imatges HEIC a PDF en línia de forma gratuïta. El convertidor converteix qualsevol fitxer d'imatge HEIC en un fitxer PDF personalitzat. Sense marques d'aigua, línies de límit de mida de fitxer, descàrregues ni registres necessaris."
+    "pdf_tools__heic_to_pdf__description": "Converteix imatges HEIC a PDF en línia de forma gratuïta. El convertidor converteix qualsevol fitxer d'imatge HEIC en un fitxer PDF personalitzat. Sense marques d'aigua, línies de límit de mida de fitxer, descàrregues ni registres necessaris.",
+    "pdf_tools__pdf_to_html__title": "PDF a HTML - Converteix fitxers PDF a HTML en línia de forma gratuïta | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Converteix PDF a HTML en línia de forma gratuïta. Manté l'estructura i converteix les imatges a HTML. Sense marques d'aigua, límits de mida de fitxer, descàrregues o registres necessaris."
   },
   "features_landing": {
     "cta_text": "Afegir al navegador",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Mig",
     "components__image_to_pdf__position_top": "Dalt",
     "components__image_to_pdf__position_bottom": "Baix"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Si us plau, puja el tipus de fitxer PDF especificat",
+    "components__pdf_to_html__button__download": "Descarrega",
+    "components__pdf_to_html__button__Convert": "Converteix un altre"
   }
 }

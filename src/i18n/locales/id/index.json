@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ke PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konversi gambar HEIC ke PDF secara online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu file PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Setiap gambar yang diunggah akan menjadi satu halaman dalam satu file PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ke HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konversi PDF ke HTML sambil mempertahankan struktur tata letak dan gambar"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG ke PDF - Konversi Gambar JPEG ke PDF Online Gratis | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Mengonversi gambar JPEG menjadi PDF secara online dan gratis. Konverter mengubah file gambar JPEG menjadi file PDF yang disesuaikan. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__heic_to_pdf__title": "HEIC ke PDF - Konversi Gambar HEIC ke PDF Secara Online Gratis | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Konversi gambar HEIC ke PDF secara online gratis. Konverter mengubah file gambar HEIC menjadi file PDF yang disesuaikan. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
+    "pdf_tools__heic_to_pdf__description": "Konversi gambar HEIC ke PDF secara online gratis. Konverter mengubah file gambar HEIC menjadi file PDF yang disesuaikan. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "pdf_tools__pdf_to_html__title": "PDF ke HTML - Konversi File PDF ke HTML Online Gratis | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Konversi PDF ke HTML secara online secara gratis. Pertahankan tata letak dan konversikan gambar ke HTML. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Tengah",
     "components__image_to_pdf__position_top": "Atas",
     "components__image_to_pdf__position_bottom": "Bawah"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
+    "components__pdf_to_html__button__download": "Unduh",
+    "components__pdf_to_html__button__Convert": "Konversi lainnya"
   }
 }

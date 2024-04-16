@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC do PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konwertuj obrazy HEIC na PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Każdy przesłany obraz stanie się stroną w jednym pliku PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF do HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konwertuj plik PDF na HTML, zachowując strukturę układu i obrazy"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG do PDF - Konwertuj obrazy JPEG na PDF online za darmo | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Konwertuj obrazy JPEG na PDF online za darmo. Konwerter zamienia dowolny plik obrazu JPEG w spersonalizowany plik PDF. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
     "pdf_tools__heic_to_pdf__title": "HEIC do PDF - Konwertuj obrazy HEIC na PDF online za darmo | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Konwertuj obrazy HEIC na PDF online za darmo. Konwerter zamienia dowolny plik obrazu HEIC w spersonalizowany plik PDF. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
+    "pdf_tools__heic_to_pdf__description": "Konwertuj obrazy HEIC na PDF online za darmo. Konwerter zamienia dowolny plik obrazu HEIC w spersonalizowany plik PDF. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
+    "pdf_tools__pdf_to_html__title": "PDF do HTML - Konwertuj pliki PDF na HTML online za darmo | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Konwertuj plik PDF na HTML online za darmo. Zachowaj układ i konwertuj obrazy na HTML. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Środek",
     "components__image_to_pdf__position_top": "Góra",
     "components__image_to_pdf__position_bottom": "Dół"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
+    "components__pdf_to_html__button__download": "Pobierz",
+    "components__pdf_to_html__button__Convert": "Konwertuj inny"
   }
 }

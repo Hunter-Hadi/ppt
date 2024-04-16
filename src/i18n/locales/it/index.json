@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Ogni immagine caricata diventerà una pagina in un singolo PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC in PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Converti immagini HEIC in PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Ogni immagine caricata diventerà una pagina in un singolo PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Ogni immagine caricata diventerà una pagina in un singolo PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF in HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Converti un PDF in HTML mantenendo la struttura del layout e le immagini"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG in PDF - Converti immagini JPEG in PDF online gratuitamente | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Converti immagini JPEG in PDF online gratuitamente. Il convertitore trasforma qualsiasi file immagine JPEG in un file PDF personalizzato. Nessun watermark, limite di dimensione del file, download o registrazione richiesta.",
     "pdf_tools__heic_to_pdf__title": "HEIC in PDF - Converti immagini HEIC in PDF online gratuitamente | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Converti immagini HEIC in PDF online gratuitamente. Il convertitore trasforma qualsiasi file immagine HEIC in un file PDF personalizzato. Nessun watermark, limite di dimensione del file, download o registrazione richiesta."
+    "pdf_tools__heic_to_pdf__description": "Converti immagini HEIC in PDF online gratuitamente. Il convertitore trasforma qualsiasi file immagine HEIC in un file PDF personalizzato. Nessun watermark, limite di dimensione del file, download o registrazione richiesta.",
+    "pdf_tools__pdf_to_html__title": "PDF in HTML - Converti file PDF in HTML online gratuitamente | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Converti PDF in HTML online gratuitamente. Mantieni il layout e converti le immagini in HTML. Nessun watermark, limite di dimensione del file, download o registrazione richiesta."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Centro",
     "components__image_to_pdf__position_top": "In alto",
     "components__image_to_pdf__position_bottom": "In basso"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
+    "components__pdf_to_html__button__download": "Scarica",
+    "components__pdf_to_html__button__Convert": "Converti un altro"
   }
 }

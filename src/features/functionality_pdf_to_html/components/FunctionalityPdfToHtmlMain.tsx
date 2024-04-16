@@ -26,7 +26,6 @@ const FunctionalityPdfToHtmlMain = () => {
   const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数
   const onUploadFile = async (fileList: FileList) => {
     setIsLoading(true);
-    console.log('fileList', fileList);
     if (fileList[0]) {
       setFileName(fileList[0].name);
       const htmlString = await convertPdfToHTMLDivElement(
@@ -39,7 +38,20 @@ const FunctionalityPdfToHtmlMain = () => {
       if (htmlString) {
         setHtmlString(htmlString);
       } else {
+        snackNotifications.warning(
+          `${fileName} ${t(
+            'functionality__common:components__common__pdf_encryption_tip',
+          )}`,
+          {
+            anchorOrigin: {
+              vertical: 'top',
+              horizontal: 'center',
+            },
+          },
+        );
       }
+      setPdfTotalPages(0);
+      setCurrentPdfActionNum(0);
     }
     setIsLoading(false);
   };

@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ہر اپ لوڈ کی گئی تصویر ایک پی ڈی ایف میں ایک صفحہ بن جائے گی",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC سے PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "HEIC تصاویر کو آن لائن پی ڈی ایف میں تبدیل کریں",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ہر اپ لوڈ کی گئی تصویر ایک پی ڈی ایف میں ایک صفحہ بن جائے گی۔"
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ہر اپ لوڈ کی گئی تصویر ایک پی ڈی ایف میں ایک صفحہ بن جائے گی۔",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF سے HTML میں تبدیل کریں",
+    "tools__index_page__constant_obj__pdf_to_html__description": "ترتیب ساخت اور تصاویر کو برقرار رکھتے ہوئے PDF کو HTML میں تبدیل کریں"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG سے PDF - JPEG تصاویر کو آن لائن مفت میں پی ڈی ایف میں تبدیل کریں | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "JPEG تصاویر کو مفت آن لائن پی ڈی ایف میں تبدیل کریں۔ کنورٹر کسی بھی JPEG تصویر فائل کو ایک مخصوص پی ڈی ایف فائل میں تبدیل کرتا ہے۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپ کی ضرورت نہیں ہوتی۔",
     "pdf_tools__heic_to_pdf__title": "HEIC سے PDF - مفت آن لائن HEIC تصاویر کو پی ڈی ایف میں تبدیل کریں | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "مفت آن لائن HEIC تصاویر کو پی ڈی ایف میں تبدیل کریں۔ کنورٹر کسی بھی HEIC تصویر فائل کو ایک مخصوص شدہ پی ڈی ایف فائل میں تبدیل کرتا ہے۔ کوئی واٹرمارک، فائل سائز کی حد، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہوتی۔"
+    "pdf_tools__heic_to_pdf__description": "مفت آن لائن HEIC تصاویر کو پی ڈی ایف میں تبدیل کریں۔ کنورٹر کسی بھی HEIC تصویر فائل کو ایک مخصوص شدہ پی ڈی ایف فائل میں تبدیل کرتا ہے۔ کوئی واٹرمارک، فائل سائز کی حد، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہوتی۔",
+    "pdf_tools__pdf_to_html__title": "PDF سے HTML میں تبدیل کریں - مفت آن لائن پی ڈی ایف فائلز کو ایچ ٹی ایم ایل میں تبدیل کریں | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "مفت آن لائن پی ڈی ایف کو ایچ ٹی ایم ایل میں تبدیل کریں۔ ترتیب برقرار رکھیں اور تصاویر کو HTML میں تبدیل کریں۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "اپ لوڈ کرنے کے لئے کلک کریں یا ڈریگ اور ڈراپ کریں",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "درمیان",
     "components__image_to_pdf__position_top": "اوپر",
     "components__image_to_pdf__position_bottom": "نیچے"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کو اپ لوڈ کریں",
+    "components__pdf_to_html__button__download": "ڈاؤن لوڈ کریں",
+    "components__pdf_to_html__button__Convert": "دوسرا تبدیل کریں"
   }
 }

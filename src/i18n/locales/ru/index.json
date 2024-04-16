@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Каждое загруженное изображение станет страницей в одном PDF",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC в PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Конвертировать изображения HEIC в PDF онлайн",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Каждое загруженное изображение станет страницей в одном PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Каждое загруженное изображение станет страницей в одном PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF в HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Преобразуйте PDF в HTML, сохраняя структуру макета и изображения"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG в PDF - Конвертировать JPEG изображения в PDF онлайн бесплатно | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Конвертируйте изображения JPEG в PDF онлайн бесплатно. Конвертер превращает любой файл изображения JPEG в настраиваемый файл PDF. Нет водяных знаков, ограничений по размеру файла, загрузок или регистрации.",
     "pdf_tools__heic_to_pdf__title": "HEIC в PDF - Конвертировать изображения HEIC в PDF онлайн бесплатно | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Конвертировать изображения HEIC в PDF онлайн бесплатно. Конвертер превращает любой файл изображения HEIC в настраиваемый файл PDF. Без водяных знаков, ограничений по размеру файла, загрузок или регистрации."
+    "pdf_tools__heic_to_pdf__description": "Конвертировать изображения HEIC в PDF онлайн бесплатно. Конвертер превращает любой файл изображения HEIC в настраиваемый файл PDF. Без водяных знаков, ограничений по размеру файла, загрузок или регистрации.",
+    "pdf_tools__pdf_to_html__title": "PDF в HTML - Преобразование файлов PDF в HTML онлайн бесплатно | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Преобразуйте PDF в HTML онлайн бесплатно. Сохраните макет и преобразуйте изображения в HTML. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации."
   },
   "features_landing": {
     "cta_text": "Добавить в браузер",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Середина",
     "components__image_to_pdf__position_top": "Верх",
     "components__image_to_pdf__position_bottom": "Низ"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
+    "components__pdf_to_html__button__download": "Скачать",
+    "components__pdf_to_html__button__Convert": "Преобразовать другой"
   }
 }

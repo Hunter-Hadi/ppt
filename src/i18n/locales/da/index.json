@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Hver uploadet billede bliver til en side i en enkelt PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC til PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konverter HEIC-billeder til PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hver uploadet billede vil blive en side i en enkelt PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hver uploadet billede vil blive en side i en enkelt PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF til HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konverter en PDF til HTML og bevar layoutstruktur og billeder"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG til PDF - Konverter JPEG-billeder til PDF online gratis | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Konverter JPEG-billeder til PDF online gratis. Konverteren omdanner enhver JPEG-billedfil til en tilpasset PDF-fil. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet.",
     "pdf_tools__heic_to_pdf__title": "HEIC til PDF - Konverter HEIC-billeder til PDF online gratis | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Konverter HEIC-billeder til PDF online gratis. Konverteren omdanner enhver HEIC-billedfil til en tilpasset PDF-fil. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet."
+    "pdf_tools__heic_to_pdf__description": "Konverter HEIC-billeder til PDF online gratis. Konverteren omdanner enhver HEIC-billedfil til en tilpasset PDF-fil. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet.",
+    "pdf_tools__pdf_to_html__title": "PDF til HTML - Konverter PDF-filer til HTML online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Konverter PDF til HTML online gratis. Bevar layout og konverter billeder til HTML. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Midten",
     "components__image_to_pdf__position_top": "Top",
     "components__image_to_pdf__position_bottom": "Bund"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Upload venligst den specificerede filtype for PDF",
+    "components__pdf_to_html__button__download": "Download",
+    "components__pdf_to_html__button__Convert": "Konverter en anden"
   }
 }

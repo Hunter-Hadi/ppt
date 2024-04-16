@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC to PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Convert HEIC images to PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF to HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Convert a PDF to HTML while keeping layout structure and images"
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",
@@ -393,6 +395,11 @@
     "components__pdf_merge__button__download__tooltip": "Merge and download PDF",
     "components__pdf_merge__button__clear_pdfs__tooltip": "Clear all PDFs below",
     "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__pdf_to_html__button__download": "Download",
+    "components__pdf_to_html__button__Convert": "Convert another"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
@@ -697,7 +704,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG to PDF - Convert JPEG Images to PDF Online for Free | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Convert JPEG images to PDF online for free. Converter turns any JPEG image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required.",
     "pdf_tools__heic_to_pdf__title": "HEIC to PDF - Convert HEIC Images to PDF Online for Free | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Convert HEIC images to PDF online for free. Converter turns any HEIC image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required."
+    "pdf_tools__heic_to_pdf__description": "Convert HEIC images to PDF online for free. Converter turns any HEIC image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required.",
+    "pdf_tools__pdf_to_html__title": "PDF to HTML - Convert PDF Files to HTML Online for Free | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Convert PDF to HTML online for free. Maintain layout and convert images to HTML. No watermarks, file size limits, downloads, or sign-ups required."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

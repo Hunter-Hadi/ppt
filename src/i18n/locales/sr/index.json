@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Svaka uploadovana slika će postati stranica u jednom PDF-u",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC u PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konvertujte HEIC slike u PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Svaka uploadovana slika će postati stranica u jednom PDF-u."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Svaka uploadovana slika će postati stranica u jednom PDF-u.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF u HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertujte PDF u HTML zadržavajući strukturu rasporeda i slike"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG u PDF - Konvertuj JPEG slike u PDF online besplatno | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Besplatno pretvorite JPEG slike u PDF online. Konvertor pretvara bilo koji JPEG fajl sa slikom u prilagođeni PDF fajl. Nema vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijava.",
     "pdf_tools__heic_to_pdf__title": "HEIC u PDF - Konvertujte HEIC slike u PDF online besplatno | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Konvertujte HEIC slike u PDF online besplatno. Konverter pretvara bilo koji HEIC fajl sa slikom u prilagođeni PDF fajl. Nema vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijava."
+    "pdf_tools__heic_to_pdf__description": "Konvertujte HEIC slike u PDF online besplatno. Konverter pretvara bilo koji HEIC fajl sa slikom u prilagođeni PDF fajl. Nema vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijava.",
+    "pdf_tools__pdf_to_html__title": "PDF u HTML - Konvertuj PDF fajlove u HTML online besplatno | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Konvertuj PDF u HTML online besplatno. Održi raspored i konvertuj slike u HTML. Bez vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijavljivanja."
   },
   "features_landing": {
     "cta_text": "Dodaj u pregledač",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Sredina",
     "components__image_to_pdf__position_top": "Vrh",
     "components__image_to_pdf__position_bottom": "Dno"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
+    "components__pdf_to_html__button__download": "Preuzmi",
+    "components__pdf_to_html__button__Convert": "Konvertuj ponovo"
   }
 }

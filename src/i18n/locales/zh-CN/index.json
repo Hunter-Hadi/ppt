@@ -365,7 +365,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "每个上传的图像将成为单个PDF中的一页",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC转PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "在线将HEIC图像转换为PDF",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "每个上传的图像将成为单个PDF中的一页。"
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "每个上传的图像将成为单个PDF中的一页。",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF转HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "将PDF转换为HTML，保持布局结构和图像"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG转PDF - 免费在线将JPEG图像转换为PDF | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "免费在线将JPEG图像转换为PDF。转换器将任何JPEG图像文件转换为定制的PDF文件。无需水印、文件大小限制、下载或注册。",
     "pdf_tools__heic_to_pdf__title": "HEIC转PDF - 免费在线将HEIC图像转换为PDF | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "免费在线将HEIC图像转换为PDF。转换器将任何HEIC图像文件转换为定制的PDF文件。无需水印、文件大小限制、下载或注册。"
+    "pdf_tools__heic_to_pdf__description": "免费在线将HEIC图像转换为PDF。转换器将任何HEIC图像文件转换为定制的PDF文件。无需水印、文件大小限制、下载或注册。",
+    "pdf_tools__pdf_to_html__title": "PDF转HTML - 免费在线将PDF文件转换为HTML | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "免费在线将PDF转换为HTML。保持布局并将图像转换为HTML。无水印、文件大小限制、下载或注册要求。"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "点击上传或拖放",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "中间",
     "components__image_to_pdf__position_top": "顶部",
     "components__image_to_pdf__position_bottom": "底部"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "请上传指定的PDF文件类型",
+    "components__pdf_to_html__button__download": "下载",
+    "components__pdf_to_html__button__Convert": "转换另一个"
   }
 }

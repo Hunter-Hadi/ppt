@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Elke geüploade afbeelding wordt een pagina in één PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC naar PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Converteer HEIC-afbeeldingen naar PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Elke geüploade afbeelding wordt een pagina in één PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Elke geüploade afbeelding wordt een pagina in één PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF naar HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Converteer een PDF naar HTML met behoud van de lay-outstructuur en afbeeldingen"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -633,7 +635,9 @@
     "pdf_tools__jpeg_to_pdf__title": "JPEG naar PDF - Converteer JPEG-afbeeldingen naar PDF online gratis | MaxAI.me",
     "pdf_tools__jpeg_to_pdf__description": "Converteer JPEG-afbeeldingen gratis online naar PDF. De converter maakt van elke JPEG-afbeelding een aangepast PDF-bestand. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
     "pdf_tools__heic_to_pdf__title": "HEIC naar PDF - Converteer HEIC-afbeeldingen naar PDF online gratis | MaxAI.me",
-    "pdf_tools__heic_to_pdf__description": "Converteer HEIC-afbeeldingen gratis naar PDF online. De converter maakt van elke HEIC-afbeeldingsbestand een aangepast PDF-bestand. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
+    "pdf_tools__heic_to_pdf__description": "Converteer HEIC-afbeeldingen gratis naar PDF online. De converter maakt van elke HEIC-afbeeldingsbestand een aangepast PDF-bestand. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "pdf_tools__pdf_to_html__title": "PDF naar HTML - Converteer PDF-bestanden naar HTML online gratis | MaxAI.me",
+    "pdf_tools__pdf_to_html__description": "Converteer PDF naar HTML online gratis. Behoud de lay-out en converteer afbeeldingen naar HTML. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -734,5 +738,10 @@
     "components__image_to_pdf__position_middle": "Midden",
     "components__image_to_pdf__position_top": "Boven",
     "components__image_to_pdf__position_bottom": "Onder"
+  },
+  "functionality__pdf_to_html": {
+    "components__pdf_to_html__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde bestandstype PDF",
+    "components__pdf_to_html__button__download": "Downloaden",
+    "components__pdf_to_html__button__Convert": "Nog een converteren"
   }
 }
