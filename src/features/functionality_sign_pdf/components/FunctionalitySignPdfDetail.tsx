@@ -1,8 +1,9 @@
 import { DndContext } from '@dnd-kit/core';
 import { Box, Stack } from '@mui/material';
-import { FC } from 'react';
+import { FC, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
+import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView';
 import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -14,6 +15,13 @@ interface IFunctionalitySignPdfDetailProps {
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file }) => {
+  const [, setIsDropped] = useState(false);
+
+  function handleDragEnd(event) {
+    if (event.over && event.over.id === 'droppable') {
+      setIsDropped(true);
+    }
+  }
   return (
     <Stack
       direction='row'
@@ -21,7 +29,7 @@ export const FunctionalitySignPdfDetail: FC<
         width: '100%',
       }}
     >
-      <DndContext>
+      <DndContext onDragEnd={handleDragEnd}>
         <Box
           sx={{
             flex: 1,
@@ -35,13 +43,7 @@ export const FunctionalitySignPdfDetail: FC<
             minWidth: 200,
           }}
         >
-          <Box
-            sx={{
-              cursor: 'pointer',
-            }}
-          >
-            签名拖动测试
-          </Box>
+          <FunctionalitySignPdfOperationView />
         </Box>
       </DndContext>
     </Stack>

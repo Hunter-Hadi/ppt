@@ -1,6 +1,8 @@
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 
+import { useDroppable } from '@dnd-kit/core';
+import { Box } from '@mui/material';
 import { FC, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -15,11 +17,17 @@ export const FunctionalitySignPdfShowPdfView: FC<
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file }) => {
   const [numPages, setNumPages] = useState<number>();
+  const { isOver, setNodeRef } = useDroppable({
+    id: 'droppable',
+  });
+  const style = {
+    color: isOver ? 'green' : undefined,
+  };
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
     setNumPages(numPages);
   }
   return (
-    <div>
+    <Box ref={setNodeRef} style={style}>
       <Document
         file={file}
         externalLinkTarget='_blank'
@@ -36,7 +44,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
           />
         ))}
       </Document>
-    </div>
+    </Box>
   );
 };
 export default FunctionalitySignPdfShowPdfView;
