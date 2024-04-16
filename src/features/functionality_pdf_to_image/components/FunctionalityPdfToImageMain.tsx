@@ -1,4 +1,4 @@
-import { Box } from '@mui/material';
+import { Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
@@ -50,12 +50,11 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
     }
   }, [toType]);
   return (
-    <Box
+    <Stack
+      flexDirection='column'
+      alignItems='center'
+      justifyContent='center'
       sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
         pb: 5,
         width: '100%',
       }}
@@ -79,7 +78,7 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
           />
         </Suspense>
       )}
-    </Box>
+    </Stack>
   );
 };
 export default FunctionalityPdfToImage;

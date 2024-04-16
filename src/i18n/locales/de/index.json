@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
     "components__pdf_split__add_pdf": "PDFs hinzufügen",
-    "components__pdf_spli__remove_pdf": "PDF entfernen",
+    "components__pdf_split__remove_pdf": "PDF entfernen",
     "components__pdf_split__select_all": "Alle auswählen",
     "components__pdf_split__deselect_all": "Alle abwählen",
     "components__pdf_split__confirm_split": "Aufteilen bestätigen",

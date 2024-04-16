@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
     "components__pdf_split__add_pdf": "إضافة ملفات PDF",
-    "components__pdf_spli__remove_pdf": "إزالة ملف PDF",
+    "components__pdf_split__remove_pdf": "إزالة ملف PDF",
     "components__pdf_split__select_all": "تحديد الكل",
     "components__pdf_split__deselect_all": "إلغاء تحديد الكل",
     "components__pdf_split__confirm_split": "تأكيد التقسيم",

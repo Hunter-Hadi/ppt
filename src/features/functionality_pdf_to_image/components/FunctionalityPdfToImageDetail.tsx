@@ -251,13 +251,13 @@ const FunctionalityPdfToImageDetail: FC<
         )}
         {showPdfImagesType === 'pdfPageHaveImages' &&
           currentShowImages?.length === 0 && (
-            <Box
+            <Stack
+              flexDirection='column'
+              alignItems='center'
+              justifyContent='center'
               sx={{
                 bgcolor: 'rgba(255,255,255,0.3)',
                 display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
                 mt: 10,
               }}
             >
@@ -274,11 +274,14 @@ const FunctionalityPdfToImageDetail: FC<
                   'functionality__pdf_to_image:components__to_image_detail__not_found_images',
                 )}
               </Typography>
-            </Box>
+            </Stack>
           )}
 
         {isLoading && (
-          <Box
+          <Stack
+            flexDirection='column'
+            alignItems='center'
+            justifyContent='center'
             sx={{
               position: 'absolute',
               top: 10,
@@ -286,15 +289,11 @@ const FunctionalityPdfToImageDetail: FC<
               right: 15,
               bottom: 0,
               bgcolor: 'rgba(255,255,255,0.3)',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
             }}
           >
             <CircularProgress />
             {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
-          </Box>
+          </Stack>
         )}
       </Box>
       {showPdfImagesType === 'pdfPageImages' && !isLoading && (

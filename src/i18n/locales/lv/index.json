@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_split__add_pdf": "Pievienot PDF",
-    "components__pdf_spli__remove_pdf": "Noņemt PDF",
+    "components__pdf_split__remove_pdf": "Noņemt PDF",
     "components__pdf_split__select_all": "Izvēlēties visu",
     "components__pdf_split__deselect_all": "Noņemt izvēli no visiem",
     "components__pdf_split__confirm_split": "Apstiprināt sadalīšanu",

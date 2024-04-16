@@ -703,7 +703,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__pdf_split__add_pdf": "הוסף PDF",
-    "components__pdf_spli__remove_pdf": "הסר PDF",
+    "components__pdf_split__remove_pdf": "הסר PDF",
     "components__pdf_split__select_all": "בחר הכל",
     "components__pdf_split__deselect_all": "בטל בחירת הכל",
     "components__pdf_split__confirm_split": "אשר לפצל",

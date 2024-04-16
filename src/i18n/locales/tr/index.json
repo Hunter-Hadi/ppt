@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
     "components__pdf_split__add_pdf": "PDF Ekle",
-    "components__pdf_spli__remove_pdf": "PDF Kaldır",
+    "components__pdf_split__remove_pdf": "PDF Kaldır",
     "components__pdf_split__select_all": "Hepsini Seç",
     "components__pdf_split__deselect_all": "Tümünü Kaldır",
     "components__pdf_split__confirm_split": "Bölme işlemini onayla",

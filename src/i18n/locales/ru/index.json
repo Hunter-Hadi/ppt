@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
     "components__pdf_split__add_pdf": "Добавить PDF",
-    "components__pdf_spli__remove_pdf": "Удалить PDF",
+    "components__pdf_split__remove_pdf": "Удалить PDF",
     "components__pdf_split__select_all": "Выбрать все",
     "components__pdf_split__deselect_all": "Отменить выбор всех",
     "components__pdf_split__confirm_split": "Подтвердить разделение",

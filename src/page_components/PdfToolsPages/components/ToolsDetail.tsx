@@ -78,8 +78,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__heic_to_pdf__description'),
     },
     'pdf-to-html': {
-      title: t('seo:pdf_tools__heic_to_pdf__title'),
-      description: t('seo:pdf_tools__heic_to_pdf__description'),
+      title: t('seo:pdf_tools__pdf_to_html__title'),
+      description: t('seo:pdf_tools__pdf_to_html__description'),
     },
   };
   return (

@@ -1,4 +1,4 @@
-import { Box, Button, Grid, IconButton } from '@mui/material';
+import { Box, Button, Grid, IconButton, Stack } from '@mui/material';
 import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
@@ -220,7 +220,10 @@ const FunctionalityPdfMergeMain = () => {
     },
   ];
   return (
-    <Box
+    <Stack
+      flexDirection='column'
+      alignItems='center'
+      justifyContent='center'
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -351,7 +354,7 @@ const FunctionalityPdfMergeMain = () => {
           </Grid>
         </Grid>
       )}
-    </Box>
+    </Stack>
   );
 };
 export default FunctionalityPdfMergeMain;

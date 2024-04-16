@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__pdf_split__add_pdf": "เพิ่ม PDF",
-    "components__pdf_spli__remove_pdf": "ลบ PDF",
+    "components__pdf_split__remove_pdf": "ลบ PDF",
     "components__pdf_split__select_all": "เลือกทั้งหมด",
     "components__pdf_split__deselect_all": "ไม่เลือกทั้งหมด",
     "components__pdf_split__confirm_split": "ยืนยันการแยก",

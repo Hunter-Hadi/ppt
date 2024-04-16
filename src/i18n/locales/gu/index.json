@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
     "components__pdf_split__add_pdf": "PDF ઉમેરો",
-    "components__pdf_spli__remove_pdf": "PDF કાઢી નાંખો",
+    "components__pdf_split__remove_pdf": "PDF કાઢી નાંખો",
     "components__pdf_split__select_all": "બધા પસંદ કરો",
     "components__pdf_split__deselect_all": "બધા પસંદ વિચારો",
     "components__pdf_split__confirm_split": "સ્પલિટ કરવા માટે ખાતરી કરો",

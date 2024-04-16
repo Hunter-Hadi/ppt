@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__pdf_split__add_pdf": "Adăugați PDF-uri",
-    "components__pdf_spli__remove_pdf": "Eliminați PDF",
+    "components__pdf_split__remove_pdf": "Eliminați PDF",
     "components__pdf_split__select_all": "Selectați tot",
     "components__pdf_split__deselect_all": "Deselectați tot",
     "components__pdf_split__confirm_split": "Confirmați divizarea",

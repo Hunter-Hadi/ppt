@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__pdf_split__add_pdf": "Legg til PDF-er",
-    "components__pdf_spli__remove_pdf": "Fjern PDF",
+    "components__pdf_split__remove_pdf": "Fjern PDF",
     "components__pdf_split__select_all": "Velg alle",
     "components__pdf_split__deselect_all": "Opphev valg for alle",
     "components__pdf_split__confirm_split": "Bekreft å splitte",

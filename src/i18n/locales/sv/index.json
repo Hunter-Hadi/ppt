@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components__pdf_split__add_pdf": "Lägg till PDF:er",
-    "components__pdf_spli__remove_pdf": "Ta bort PDF",
+    "components__pdf_split__remove_pdf": "Ta bort PDF",
     "components__pdf_split__select_all": "Välj alla",
     "components__pdf_split__deselect_all": "Avmarkera alla",
     "components__pdf_split__confirm_split": "Bekräfta att dela upp",

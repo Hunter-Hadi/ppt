@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
     "components__pdf_split__add_pdf": "Lisää PDF-tiedostoja",
-    "components__pdf_spli__remove_pdf": "Poista PDF",
+    "components__pdf_split__remove_pdf": "Poista PDF",
     "components__pdf_split__select_all": "Valitse kaikki",
     "components__pdf_split__deselect_all": "Poista valinta kaikista",
     "components__pdf_split__confirm_split": "Vahvista jakaminen",

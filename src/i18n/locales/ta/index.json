@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
     "components__pdf_split__add_pdf": "PDFகளைச் சேர்க்கவும்",
-    "components__pdf_spli__remove_pdf": "PDF ஐ அகற்று",
+    "components__pdf_split__remove_pdf": "PDF ஐ அகற்று",
     "components__pdf_split__select_all": "அனைத்தையும் தேர்ந்தெடு",
     "components__pdf_split__deselect_all": "அனைத்தையும் தேர்ந்தெடுக்காதீர்கள்",
     "components__pdf_split__confirm_split": "பிரிக்க உறுதிப்படுத்தவும்",

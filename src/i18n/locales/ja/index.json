@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__pdf_split__add_pdf": "PDFを追加",
-    "components__pdf_spli__remove_pdf": "PDFを削除",
+    "components__pdf_split__remove_pdf": "PDFを削除",
     "components__pdf_split__select_all": "すべて選択",
     "components__pdf_split__deselect_all": "すべて選択解除",
     "components__pdf_split__confirm_split": "分割を確認",

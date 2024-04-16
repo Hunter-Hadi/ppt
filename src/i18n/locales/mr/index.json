@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
     "components__pdf_split__add_pdf": "पीडीएफ जोडा",
-    "components__pdf_spli__remove_pdf": "पीडीएफ काढा",
+    "components__pdf_split__remove_pdf": "पीडीएफ काढा",
     "components__pdf_split__select_all": "सर्व निवडा",
     "components__pdf_split__deselect_all": "सर्व निवड काढा",
     "components__pdf_split__confirm_split": "विभाजन करण्यासाठी पुष्टी करा",

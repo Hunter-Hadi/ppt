@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__pdf_split__add_pdf": "Lisa PDF-id",
-    "components__pdf_spli__remove_pdf": "Eemalda PDF",
+    "components__pdf_split__remove_pdf": "Eemalda PDF",
     "components__pdf_split__select_all": "Vali kõik",
     "components__pdf_split__deselect_all": "Tühista valik",
     "components__pdf_split__confirm_split": "Kinnita jagamine",

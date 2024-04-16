@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Molimo učitajte određeni tip PDF datoteke",
     "components__pdf_split__add_pdf": "Dodaj PDF-ove",
-    "components__pdf_spli__remove_pdf": "Ukloni PDF",
+    "components__pdf_split__remove_pdf": "Ukloni PDF",
     "components__pdf_split__select_all": "Odaberi sve",
     "components__pdf_split__deselect_all": "Poništi odabir svih",
     "components__pdf_split__confirm_split": "Potvrdi razdvajanje",

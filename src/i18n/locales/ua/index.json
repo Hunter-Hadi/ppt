@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__pdf_split__add_pdf": "Додати PDF",
-    "components__pdf_spli__remove_pdf": "Видалити PDF",
+    "components__pdf_split__remove_pdf": "Видалити PDF",
     "components__pdf_split__select_all": "Вибрати все",
     "components__pdf_split__deselect_all": "Скасувати вибір усіх",
     "components__pdf_split__confirm_split": "Підтвердити розбиття",

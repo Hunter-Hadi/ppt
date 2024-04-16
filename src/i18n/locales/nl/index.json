@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Upload het gespecificeerde bestandstype van PDF",
     "components__pdf_split__add_pdf": "PDF's toevoegen",
-    "components__pdf_spli__remove_pdf": "PDF verwijderen",
+    "components__pdf_split__remove_pdf": "PDF verwijderen",
     "components__pdf_split__select_all": "Alles selecteren",
     "components__pdf_split__deselect_all": "Alles deselecteren",
     "components__pdf_split__confirm_split": "Bevestig splitsing",

@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակին",
     "components__pdf_split__add_pdf": "Ավելացնել PDF-եր",
-    "components__pdf_spli__remove_pdf": "Հեռացնել PDF",
+    "components__pdf_split__remove_pdf": "Հեռացնել PDF",
     "components__pdf_split__select_all": "Ընտրել բոլորը",
     "components__pdf_split__deselect_all": "Չընտրել որևէն",
     "components__pdf_split__confirm_split": "Հաստատել բաժանումը",

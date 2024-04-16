@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__pdf_split__add_pdf": "افزودن PDF",
-    "components__pdf_spli__remove_pdf": "حذف PDF",
+    "components__pdf_split__remove_pdf": "حذف PDF",
     "components__pdf_split__select_all": "انتخاب همه",
     "components__pdf_split__deselect_all": "عدم انتخاب همه",
     "components__pdf_split__confirm_split": "تأیید تقسیم",

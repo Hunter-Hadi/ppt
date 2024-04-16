@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
     "components__pdf_split__add_pdf": "Pridať PDF",
-    "components__pdf_spli__remove_pdf": "Odstrániť PDF",
+    "components__pdf_split__remove_pdf": "Odstrániť PDF",
     "components__pdf_split__select_all": "Vybrať všetko",
     "components__pdf_split__deselect_all": "Zrušiť výber všetkého",
     "components__pdf_split__confirm_split": "Potvrdiť rozdelenie",

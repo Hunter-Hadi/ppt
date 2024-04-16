@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
     "components__pdf_split__add_pdf": "Magdagdag ng mga PDF",
-    "components__pdf_spli__remove_pdf": "Tanggalin ang PDF",
+    "components__pdf_split__remove_pdf": "Tanggalin ang PDF",
     "components__pdf_split__select_all": "Piliin Lahat",
     "components__pdf_split__deselect_all": "Huwag Piliin Lahat",
     "components__pdf_split__confirm_split": "Kumpirmahin ang paghihiwalay",

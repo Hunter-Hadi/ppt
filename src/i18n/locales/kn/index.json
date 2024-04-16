@@ -704,7 +704,7 @@
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_split__add_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ಸೇರಿಸಿ",
-    "components__pdf_spli__remove_pdf": "ಪಿಡಿಎಫ್ ತೆಗೆದುಹಾಕಿ",
+    "components__pdf_split__remove_pdf": "ಪಿಡಿಎಫ್ ತೆಗೆದುಹಾಕಿ",
     "components__pdf_split__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
     "components__pdf_split__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದುಮಾಡಿ",
     "components__pdf_split__confirm_split": "ವಿಭಜನೆ ಖಚಿತಪಡಿಸಲು ದೃಢೀಕರಿಸಿ",

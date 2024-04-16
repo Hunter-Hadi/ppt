@@ -84,7 +84,6 @@ export const FunctionalityPdfSplitMain = () => {
     setIsLoading(true);
     setPdfTotalPages(0);
     if (selectPdfPageList.length > 0) {
-      console.log('simply confirmToSplit', isMergeSinglePDf);
       if (isMergeSinglePDf) {
         const downloadPdfData = await getMergePdfFiles(selectPdfPageList);
         if (downloadPdfData) {
@@ -186,7 +185,7 @@ export const FunctionalityPdfSplitMain = () => {
           'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
         ),
         children: t(
-          'functionality__pdf_split:components__pdf_spli__remove_pdf',
+          'functionality__pdf_split:components__pdf_split__remove_pdf',
         ),
         variant: 'outlined',
         color: 'error',
@@ -232,12 +231,11 @@ export const FunctionalityPdfSplitMain = () => {
     },
   ];
   return (
-    <Box
+    <Stack
+      flexDirection='column'
+      alignItems='center'
+      justifyContent='center'
       sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
         pb: 5,
         width: '100%',
       }}
@@ -290,7 +288,9 @@ export const FunctionalityPdfSplitMain = () => {
               </FunctionalityCommonImage>
             ))}
           {currentIsLoading && (
-            <Box
+            <Stack
+              flexDirection='column'
+              alignItems='center'
               sx={{
                 position: 'absolute',
                 top: 0,
@@ -298,9 +298,6 @@ export const FunctionalityPdfSplitMain = () => {
                 right: 15,
                 bottom: 0,
                 bgcolor: 'rgba(255,255,255,0.3)',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
                 paddingTop: 10,
               }}
             >
@@ -308,16 +305,14 @@ export const FunctionalityPdfSplitMain = () => {
               {pdfTotalPages > 0
                 ? `${currentPdfActionNum}/${pdfTotalPages}`
                 : ''}
-            </Box>
+            </Stack>
           )}
         </Stack>
       )}
       {convertedPdfImages?.length > 0 && (
-        <Box
-          display='flex'
-          justifyContent='center'
+        <Stack
+          direction='row'
           alignItems='center'
-          justifyItems='center'
           sx={{ mt: 2, cursor: 'pointer' }}
           onClick={() =>
             !currentIsLoading ? setIsMergeSinglePDf(!isMergeSinglePDf) : null
@@ -325,7 +320,7 @@ export const FunctionalityPdfSplitMain = () => {
         >
           <Checkbox disabled={currentIsLoading} checked={isMergeSinglePDf} />
           {t('functionality__pdf_split:components__pdf_split__is_single_pdf')}
-        </Box>
+        </Stack>
       )}
       {convertedPdfImages?.length > 0 && (
         <Grid
@@ -356,7 +351,7 @@ export const FunctionalityPdfSplitMain = () => {
           </Grid>
         </Grid>
       )}
-    </Box>
+    </Stack>
   );
 };
 export default FunctionalityPdfSplitMain;
