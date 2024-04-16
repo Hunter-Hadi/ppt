@@ -44,15 +44,6 @@ export const convertPdfToHTMLDivElement = async (file: File, callBackProgress?: 
         console.log('simply textContentDiv', textContentDiv)
 
         pageDiv.append(textContentDiv)
-        // textContentDiv.childNodes.forEach((node) => {
-        //     if (node.nodeType === Node.TEXT_NODE && node.textContent) { // 假设我们只关心文本节点
-        //         let fixedText = node.textContent.replace(/â€˜/g, "‘") // 替换成左单引号
-        //             .replace(/â€™/g, "’") // 替换成右单引号
-        //             .replace(/â€œ/g, "“") // 替换成左双引号
-        //             .replace(/â€/g, "”"); // 替换成右双引号
-        //         node.textContent = fixedText;
-        //     }
-        // });
         wrapDiv.appendChild(pageDiv);
       }
     }

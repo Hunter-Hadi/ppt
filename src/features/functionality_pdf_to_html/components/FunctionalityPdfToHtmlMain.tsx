@@ -9,9 +9,8 @@ import {
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
+import { convertPdfToHTMLDivElement } from '@/features/functionality_pdf_to_html/utils/convertPdfToHTML';
 import snackNotifications from '@/utils/globalSnackbar';
-
-import { convertPdfToHTMLDivElement } from '../utils/convertPdfToHTML';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
