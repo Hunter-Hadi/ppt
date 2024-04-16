@@ -28,9 +28,9 @@ const FunctionalityPdfToHtmlMain = () => {
     if (fileList[0]) {
       //去除文件名后缀
       const fileAllName = fileList[0].name;
-      const sliceName = fileAllName.slice(-4);
+      const suffixName = fileAllName.slice(-4);
       setFileName(
-        sliceName === '.pdf' ? fileAllName.slice(0, -4) : fileAllName,
+        suffixName === '.pdf' ? fileAllName.slice(0, -4) : fileAllName,
       );
 
       const htmlString = await convertPdfToHTMLDivElement(
