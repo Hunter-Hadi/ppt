@@ -357,8 +357,8 @@
     "contact_us__item3": "በ ★★★★★ ይመዝገቡ",
     "contact_us__item3__store": "የተከታተሉት ድርጅት መረጃ",
     "contact_us__item4": "በሌላው አገልግሎት ለማንበብ እንዲጠቀሙ እንዴት እንደሚችሉ እንደሚጠቀሙ እንደሚኖር:",
-    "tools__index_page__title": "መክፈቻዎች MaxAI",
-    "tools__index_page__description": "ሁሉንም PDF መሳሪያዎች በእርስዎ የተከሰተ ናቸው፣ እና በገንዘብዎ ላይ ለማግኘት የሚገባውን በመጠቀም በማሳየት የሚያስችል ነው",
+    "tools__index_page__title": "ነፃ የአካውንት ፕድስ መሳሪያዎች እና ተጠቃሚዎች",
+    "tools__index_page__description": "ሁሉንም የሚጠቀሙ እና የሚሞቱ ተጠቃሚዎች እንዲሁም የሚሸጡ ስልክ ፕሮግራሞችን ለመስማት የሚፈልጉትን በአካውንት ባህሪ በማስተካከል በማሳየት በተለያዩ ግለሰቦች ላይ በመሳሪያዎች ላይ 100% ነፃ እና በባህሪ የሚገኙ መታወቂያዎች ለመስማት ይችላሉ።",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ወደ PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ወደ JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "ፕድን ማርገዝ",
@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "የተላለፈው የማስተላለፊያ ምስል የአሁኑ የ PDF ገጽ መስመር ይችላል",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ለ PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ሄክ ምስልን ወደ PDF በመጫን ይህንን ይመልከቱ",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "የተለያዩ የሄክ ምስሎች በነጻ የእርስዎ ስሌት PDF ይሁኑ"
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "የተለያዩ የሄክ ምስሎች በነጻ የእርስዎ ስሌት PDF ይሁኑ",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ነፃ የተከሰተ ንጥል አይነት",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "የ{{TYPE}} ንጥል አይነትን PDF ለመጫን አዲስ ነጥብ አልባ ማስተላለፍ ለማድረግ አስቸኳይ ነው። በተጨማሪ የቀን ጠቋሚ በመጠቀም የ{{TYPE}} ንጥል አይነትን PDF ለመጫን ከፍተኛ አጠቃላይ ነጥብ ነፃ ነው። እንዴትስ በተጨማሪ የቀን ጠቋሚ ማስተላለፍ እንደሚችል ከፍተኛ አጠቃላይ ነጥብ ነው።"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -618,7 +620,7 @@
     "install__title": "አጥፊዎች | MaxAI.me",
     "zmo__title": "ሁሉንም AI የሚለውን የአስተካክለሁ የአርት ገጽ አርት ጀምሮ የሚለውን ማስታወቂያ የሚገኘውን ምስል እና ምስል የሚገኘውን ምስል በጣም የሚሰራውን የእንግሊዝን መስታወቂያ በጣም የሚገኘውን ምስል እንዴት እንደሚሰራው ይግቡ።",
     "zmo__description": "በAI ነጻ እና ምስል ለመጠቀም የሚለውን ማስታወቂያ የሚገኘውን ምስል እና ምስል የሚገኘውን ምስል በጣም የሚሰራውን የእንግዳ አርት ገጽ እንዴት እንደሚሰራው ይግቡ።",
-    "pdf_tools__title": "ነፃ የ PDF ትርጉም - በነፃ እናትራሻ እና አስተካክል የ PDF ፎርማትን በመካከል በነፃ | MaxAI.me",
+    "pdf_tools__title": "ነፃ የአካውንት ፕድስ መሳሪያዎች - ለመስማት, ማስተካከል, አስተካክል | MaxAI.me",
     "pdf_tools__description": "የቅንጅቶችን ስልክ በነፃ እናትራሻ እና አስተካክል የ PDF ፎርማትን በመካከል በነፃ ነፃ የተሰራጨ ቡድን ስልክ ማድረግ ይችላሉ።",
     "pdf_tools__pdf_to_jpeg__title": "PDF ለ JPEG - የሚለውን PDF ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "የሚለውን PDF ገጽዎን ለ JPEG ምስሎች ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ ይቀይሩ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",

@@ -357,8 +357,8 @@
     "contact_us__item3": "Støt os ved at give ★★★★★ i bedømmelse på",
     "contact_us__item3__store": "Webbutikken for udvidelser",
     "contact_us__item4": "Hjælp andre ved at dele denne udvidelse:",
-    "tools__index_page__title": "MaxAI Værktøjer",
-    "tools__index_page__description": "Alle PDF-værktøjer er 100% GRATIS og kører i din browser for fuld beskyttelse af privatlivet",
+    "tools__index_page__title": "Gratis Online PDF-værktøjer",
+    "tools__index_page__description": "Alle de værktøjer, du har brug for at være mere produktiv og arbejde smartere med dokumenter. 100% GRATIS og browserbaseret for fuld beskyttelse af privatlivet.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Flet PDF'er",
@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Hver uploadet billede bliver til en side i en enkelt PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC til PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konverter HEIC-billeder til PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hver uploadet billede vil blive en side i en enkelt PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hver uploadet billede vil blive en side i en enkelt PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Gratis online software",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Brug ikke dine hårdt tjente penge på dyre avancerede software til at konvertere {{TYPE}} til PDF. Til begrænset daglig brug er vores {{TYPE}} til PDF-konverter gratis at bruge. Hvis du har brug for at bruge det mere hyppigt, er ubegrænset brug selvfølgelig helt gratis."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -618,7 +620,7 @@
     "install__title": "Installer | MaxAI.me",
     "zmo__title": "Alt-i-en AI Design Kunstgenerator | AI Billedegenerator Fra Tekst | ImgCreator.AI",
     "zmo__description": "Skab kunst og billeder med AI gratis. ImgCreator.ai kan generere billeder, kunst, illustrationer, anime, logoer, design fra tekst og billeder. Vores proprietære teknologi vil bringe din fantasi til live.",
-    "pdf_tools__title": "Gratis PDF-værktøjer - Konverter, Komprimer og Rediger PDF-filer Online | MaxAI.me",
+    "pdf_tools__title": "Gratis Online PDF-værktøjer - Konverter, Komprimer, Rediger | MaxAI.me",
     "pdf_tools__description": "Udforsk vores samling af værktøjer, der hjælper dig med at konvertere, komprimere, redigere og underskrive PDF-filer online gratis.",
     "pdf_tools__pdf_to_jpeg__title": "PDF til JPEG - Konverter enhver PDF til billeder online gratis | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "Konverter PDF-sider til JPEG-billeder eller udtræk individuelle billeder fra dine PDF-filer online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger kræves.",

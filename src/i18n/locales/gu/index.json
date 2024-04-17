@@ -357,8 +357,8 @@
     "contact_us__item3": "આપણે ★★★★★ રેટિંગ આપીને અમારી સહાય કરો",
     "contact_us__item3__store": "એક્સ્ટેન્શન વેબ સ્ટોર",
     "contact_us__item4": "આ એક્સ્ટેન્શન શેર કરીને અન્યોને મદદ કરો:",
-    "tools__index_page__title": "મેક્સએઆઈ ટૂલ્સ",
-    "tools__index_page__description": "બધા PDF સાધનો 100% મુક્ત છે અને તેઓ પૂરી રીતે ગોપનીયતાની માટે તમારા બ્રાઉઝરમાં ચલાવવામાં આવે છે",
+    "tools__index_page__title": "મુક્ત ઓનલાઇન PDF સાધનો",
+    "tools__index_page__description": "દસ્તાવેજોની સાથે વધુ ઉપયોગી અને સમર્પક કામ કરવા માટે તમને જે સાધનો જરૂર પડશે તેવા બધા સાધનો. 100% મુક્ત અને બ્રાઉઝર-આધારિત પૂર્ણ ગોપનીયતા માટે.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF થી PNG માં",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF થી JPEG માં",
     "tools__index_page__constant_obj__merge_pdfs__title": "પીડીએફ મર્જ કરો",
@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "દાખલ કરેલી પ્રત્યેક છબી એક પેજ બનશે એક એકલ PDF માં.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "એચઈસી થી PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ઓનલાઇન એચઈસી છબીઓને PDF માં રૂપાંતરિત કરો",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "દરેક અપલોડ કરેલ છબી એક એકલ PDF માં પૃષ્ઠ બનશે."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "દરેક અપલોડ કરેલ છબી એક એકલ PDF માં પૃષ્ઠ બનશે.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "મુક્ત ઓનલાઇન સોફ્ટવેર",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "આપની મૂળભૂત પૈસાથી ખર્ચ કરીને {{TYPE}} ને PDF માં રૂપાંતરિત કરવા માટે મહંગી અગ્રિમ સોફ્ટવેર પર પૈસા ના ખર્ચ કરો. દિનબદલે ઉપયોગ માટે, અમારી {{TYPE}} થી PDF માં રૂપાંતરક નો ઉપયોગ મફત છે. જો તમને તેનો વાપર વધુ થાય, તો અનિશ્ચિત ઉપયોગ પૂર્ણતાથી મફત છે."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -618,7 +620,7 @@
     "install__title": "ઇન્સ્ટોલ | MaxAI.me",
     "zmo__title": "ઓલ-ઇન-વન AI ડિઝાઇન આર્ટ જનરેટર | ટેક્સ્ટથી AI છબી જનરેટર | ImgCreator.AI",
     "zmo__description": "મફત માટે AI સાથે આર્ટ અને છબીઓ બનાવો. ImgCreator.ai ટેક્સ્ટ અને છબીઓથી ચિત્રો, આર્ટ, ઇલસ્ટ્રેશન્સ, એનિમે, લોગો, ડિઝાઇન્સ જનરેટ કરી શકે છે. અમારી પ્રોપ્રાયરી ટેક્નોલોજી તમારી કલ્પનાને જીવંત કરશે.",
-    "pdf_tools__title": "મુક્ત PDF સાધનો - PDFને રૂપાંતરિત, સંકુચિત અને સંપાદિત કરો | MaxAI.me",
+    "pdf_tools__title": "મુક્ત ઓનલાઇન PDF સાધનો - રૂપાંતરણ, કમ્પ્રેસ, સંપાદિત કરો | MaxAI.me",
     "pdf_tools__description": "મફત ઑનલાઇન સાધનોની સંગ્રહને જુઓ જે તમને મદદ કરવામાં આવે છે જેથી તમે મુક્ત પીડીએફસને રૂપાંતરિત, સંકુચિત, સંપાદિત અને સાઇન કરી શકો.",
     "pdf_tools__pdf_to_jpeg__title": "PDF થી JPEG માં રૂપાંતરિત કરો - મફત માટે ઓનલાઇન PDF છબીઓ",
     "pdf_tools__pdf_to_jpeg__description": "મફત માટે તમારા PDF ફાઈલોમાંથી JPEG છબીઓ બનાવો અથવા વ્યક્તિગત છબીઓ ની સ્થાનિકરણ કરો. કોઈ વોટરમાર્ક, ફાઈલ કદ મરીજ, ડાઉનલોડ્સ, અથવા સાઇન-અપ જરૂરી નથી.",

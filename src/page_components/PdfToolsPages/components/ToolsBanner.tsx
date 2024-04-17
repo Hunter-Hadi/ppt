@@ -29,7 +29,7 @@ const ToolsBanner: FC<IToolsBannerProps> = ({ title, description }) => {
       }}
     >
       <Typography
-        component='h2'
+        component='h1'
         variant='custom'
         sx={{
           fontSize: {

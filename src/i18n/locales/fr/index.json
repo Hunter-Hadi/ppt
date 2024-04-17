@@ -357,8 +357,8 @@
     "contact_us__item3": "Soutenez-nous en donnant une note de ★★★★★ sur",
     "contact_us__item3__store": "la boutique d'extensions web",
     "contact_us__item4": "Aidez les autres en partageant cette extension:",
-    "tools__index_page__title": "Outils MaxAI",
-    "tools__index_page__description": "Tous les outils PDF sont 100% GRATUITS et s'exécutent dans votre navigateur pour une confidentialité totale",
+    "tools__index_page__title": "Outils PDF en ligne gratuits",
+    "tools__index_page__description": "Tous les outils dont vous aurez besoin pour être plus productif et travailler de manière plus intelligente avec des documents. 100% GRATUIT et basé sur le navigateur pour une confidentialité totale.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF vers PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF vers JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "Fusionner des PDF",
@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Chaque image téléchargée deviendra une page dans un seul PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC vers PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Convertir des images HEIC en PDF en ligne",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Chaque image téléchargée deviendra une page dans un seul PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Chaque image téléchargée deviendra une page dans un seul PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Logiciel en ligne gratuit",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Ne dépensez pas votre argent durement gagné pour un logiciel avancé coûteux afin de convertir {{TYPE}} en PDF. Pour une utilisation quotidienne limitée, notre convertisseur {{TYPE}} en PDF est gratuit. Si vous avez besoin de l'utiliser plus fréquemment, bien sûr, l'utilisation illimitée est entièrement gratuite."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",
@@ -618,7 +620,7 @@
     "install__title": "Installer | MaxAI.me",
     "zmo__title": "Générateur d'art de conception AI tout-en-un | Générateur d'images AI à partir de texte | ImgCreator.AI",
     "zmo__description": "Créez de l'art et des images avec l'IA gratuitement. ImgCreator.ai peut générer des images, de l'art, des illustrations, des animes, des logos, des designs à partir de texte et d'images. Notre technologie exclusive donnera vie à votre imagination.",
-    "pdf_tools__title": "Outils PDF gratuits - Convertir, compresser et modifier des PDF en ligne | MaxAI.me",
+    "pdf_tools__title": "Outils PDF en ligne gratuits - Convertir, Compresser, Modifier | MaxAI.me",
     "pdf_tools__description": "Explorez notre collection d'outils pour vous aider à convertir, compresser, modifier et signer des PDF en ligne gratuitement.",
     "pdf_tools__pdf_to_jpeg__title": "PDF vers JPEG - Convertir tous les PDF en images en ligne gratuitement | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "Convertir les pages PDF en images JPEG ou extraire des images individuelles de vos fichiers PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",

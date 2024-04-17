@@ -357,8 +357,8 @@
     "contact_us__item3": "Սպասարկեք մեզ, վաստակեք ★★★★★ գնահատականով",
     "contact_us__item3__store": "Երթուղիների վեբ խանութ",
     "contact_us__item4": "Օթեւսը համատեք այս ընդգրկումը՝",
-    "tools__index_page__title": "MaxAI Գործիքներ",
-    "tools__index_page__description": "Բոլոր PDF գործիքները 100% անվճար են և աշխատում են ձեր զննարկիչում ամբողջական գաղտնիքով",
+    "tools__index_page__title": "Անվճար օնլայն PDF գործիքներ",
+    "tools__index_page__description": "Բոլոր գործիքները, որոնք ձեզ հարմար կլինեն ավելի արագ աշխատելու համար և ավելի խորհուրդավորված աշխատանքներում: 100% ԱՆՎԱՆ և բրաուզերի համար համակարգչային ապահովումով:",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF-ից PNG-ի",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF-ից JPEG-ի",
     "tools__index_page__constant_obj__merge_pdfs__title": "Միացնել PDF-երը",
@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC դեֆուզի PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Վերափոխեք HEIC պատկերները PDF-ի մեջ օնլայն",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ PDF-ի էջ."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ PDF-ի էջ.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Անվճար Օնլայն ծրագրեր",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Չի պարտադիր վճարել ձեր կարիքները համարվում է թարմացած առաջարկվող ծրագրերի վրա PDF-ի դարձնելու համար: Օրանկյան օրենքով, մեր {{TYPE}}-ից PDF-ի դարձնող համակարգը անվճար է: Եթե դուք ցանկանում եք դա օգտագործել ավելի հաճախ, ապա անսահմանափակ օգտագործումը ամբողջությամբ անվճար է:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -618,7 +620,7 @@
     "install__title": "Տեղադրել | MaxAI.me",
     "zmo__title": "Բոլորը մեկնաբանության AI դիզայն արվեստի գեներատոր | AI պատկերաստանի գեներատոր տեքստից | ImgCreator.AI",
     "zmo__description": "Ստեղծեք արվեստ և պատկերներ AI-ի միջոցով անվճար։ ImgCreator.ai-ը կարողանում է գեներացնել պատկերներ, արվեստ, նկարներ, անիմենավորություններ, լոգոներ, դիզայներ տեքստի և պատկերի միջոցով։ Մեր հավելվածավորման տեխնոլոգիան կպատկերացնի ձեր հայտարարությունը։",
-    "pdf_tools__title": "Անվճար PDF գործիքներ - վերցնել, սեղմել և խմբագրել PDF-ները օնլայն | MaxAI.me",
+    "pdf_tools__title": "Անվճար օնլայն PDF գործիքներ - վերափոխել, սեղմել, խմբագրել | MaxAI.me",
     "pdf_tools__description": "Գնահատեք մեր գործիքների հավաքածուին, որոնք օգնում են ձեզ վերցնել, սեղմել, խմբագրել և ստուգել PDF-ները օնլայն, անվճար:",
     "pdf_tools__pdf_to_jpeg__title": "PDF-ից JPEG-ին - Անվճար օնլայն փոխարեն՝ կամայական PDF-ները պատկերների դեպքում | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "Փոխարեն՝ PDF էջերը JPEG պատկերներին կամ առանցիների դեպքում առանց վաթերային նշանների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջարկների առանց։",
