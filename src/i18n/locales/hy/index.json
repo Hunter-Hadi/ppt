@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան էջեր PDF-ի մեջ",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC դեֆուզի PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Վերափոխեք HEIC պատկերները PDF-ի մեջ օնլայն",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ PDF-ի էջ."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Բոլոր վերբեռնված պատկերները կդառնան մեկ PDF-ի էջ.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Անվճար Օնլայն ծրագրեր",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Չի պարտադիր վճարել ձեր կարիքները համարվում է թարմացած առաջարկվող ծրագրերի վրա PDF-ի դարձնելու համար: Օրանկյան օրենքով, մեր {{TYPE}}-ից PDF-ի դարձնող համակարգը անվճար է: Եթե դուք ցանկանում եք դա օգտագործել ավելի հաճախ, ապա անսահմանափակ օգտագործումը ամբողջությամբ անվճար է:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",

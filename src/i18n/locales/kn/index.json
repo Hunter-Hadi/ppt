@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ಪುಟವಾಗುತ್ತದೆ",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ನಿಂದ PDF ಗೆ",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ಹೊಸದಾಗಿ HEIC ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ಉಚಿತ ಆನ್‌ಲೈನ್ ಸಾಫ್ಟ್‌ವೇರ್",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "ನಿಮ್ಮ ಕಡಿಮೆ ಹಣವನ್ನು ಖರ್ಚು ಮಾಡದೆ {{TYPE}} ಅನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಲು ಮುಂದೆ ಬರುವ ಸಾಫ್ಟ್‌ವೇರ್‌ಗಳಿಗೆ ನಿಮ್ಮ ಹಣವನ್ನು ಖರ್ಚು ಮಾಡಬೇಡಿ. ದಿನಂಪ್ರತಿ ಉಪಯೋಗಕ್ಕೆ ಮಿತಿಯಿಲ್ಲದ ಉಪಯೋಗಕ್ಕಾಗಿ, ನಮ್ಮ {{TYPE}} ಅನ್ನು PDF ಪರಿವರ್ತಕವನ್ನು ಉಚಿತವಾಗಿ ಬಳಸಿ. ಹೆಚ್ಚು ಸಂಖ್ಯೆಯಲ್ಲಿ ಬಳಸಬೇಕಾದರೆ, ನಿಶ್ಚಿತವಾಗಿ ಉಚಿತವಾಗಿದೆ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",

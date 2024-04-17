@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Hver uploadet billede bliver til en side i en enkelt PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC til PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konverter HEIC-billeder til PDF online",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hver uploadet billede vil blive en side i en enkelt PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Hver uploadet billede vil blive en side i en enkelt PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Gratis online software",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Brug ikke dine hårdt tjente penge på dyre avancerede software til at konvertere {{TYPE}} til PDF. Til begrænset daglig brug er vores {{TYPE}} til PDF-konverter gratis at bruge. Hvis du har brug for at bruge det mere hyppigt, er ubegrænset brug selvfølgelig helt gratis."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

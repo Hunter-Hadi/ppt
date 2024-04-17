@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "ہر اپ لوڈ کی گئی تصویر ایک پی ڈی ایف میں ایک صفحہ بن جائے گی",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC سے PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "HEIC تصاویر کو آن لائن پی ڈی ایف میں تبدیل کریں",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ہر اپ لوڈ کی گئی تصویر ایک پی ڈی ایف میں ایک صفحہ بن جائے گی۔"
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ہر اپ لوڈ کی گئی تصویر ایک پی ڈی ایف میں ایک صفحہ بن جائے گی۔",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "مفت آن لائن سافٹ ویئر",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "اپنے محنت کش پیسوں کو مہنگے ترقی یافتہ سافٹ ویئر پر تبدیل کرنے کے لئے نہیں خرچ کریں. محدود روزانہ استعمال کے لئے ہمارا {{TYPE}} سے PDF تبدیل کرنے والا کنورٹر بلاواسطہ استعمال کے لئے مفت ہے. اگر آپ کو اسے زیادہ فعالیت سے استعمال کرنے کی ضرورت ہوتی ہے، تو البتہ غیر محدود استعمال بالکل مفت ہے."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",

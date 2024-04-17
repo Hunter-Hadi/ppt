@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक पीडीएफ में एक पृष्ठ बन जाएगी",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC से PDF में बदलें",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ऑनलाइन HEIC छवियों को PDF में बदलें",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक PDF में एक पृष्ठ बन जाएगी।"
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक PDF में एक पृष्ठ बन जाएगी।",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ऑनलाइन मुफ्त सॉफ़्टवेयर",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "अपनी कठिनाई से कमाई हुई धन को खर्च करके {{TYPE}} को पीडीएफ़ में बदलने के लिए महंगे उन्नत सॉफ़्टवेयर पर पैसे न खर्च करें। सीमित रोज़ाना के उपयोग के लिए, हमारा {{TYPE}} से पीडीएफ़ में रूपांतरक मुफ्त है। यदि आपको इसे अधिक बार उपयोग करने की आवश्यकता होती है, तो बेशक असीमित उपयोग पूरी तरह से मुफ्त है।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

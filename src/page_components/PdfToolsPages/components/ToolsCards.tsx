@@ -63,7 +63,6 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                       },
                       mt: 1,
                     }}
-                    component='h2'
                   >
                     {t(toolData.title)}
                   </Typography>

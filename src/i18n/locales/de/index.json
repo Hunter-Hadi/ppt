@@ -379,7 +379,9 @@
     "tools__index_page__constant_obj__jpeg_to_pdf__secondary_description": "Jedes hochgeladene Bild wird zu einer Seite in einem einzigen PDF.",
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC zu PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Konvertiere HEIC-Bilder online in PDF",
-    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Jedes hochgeladene Bild wird zu einer Seite in einem einzigen PDF."
+    "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Jedes hochgeladene Bild wird zu einer Seite in einem einzigen PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Kostenlose Online-Software",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Geben Sie Ihr hart verdientes Geld nicht für teure fortschrittliche Software aus, um {{TYPE}} in PDF umzuwandeln. Für begrenzte tägliche Nutzung ist unser {{TYPE}} zu PDF Konverter kostenlos. Wenn Sie es häufiger verwenden müssen, ist die unbegrenzte Nutzung natürlich komplett kostenlos."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",
