@@ -357,16 +357,12 @@
     "contact_us__item3": "మీరు ★★★★★ రేటింగ్ ఇవ్వండితే మాకు మద్దతు చేయండి",
     "contact_us__item3__store": "ఎక్స్టెన్షన్ వెబ్ స్టోర్",
     "contact_us__item4": "ఈ ఎక్స్టెన్షన్‌ని షేర్ చేయడం ద్వారా ఇతరులకు సహాయం చేయండి:",
-    "tools__index_page__title": "MaxAI పరికరాలు",
-    "tools__index_page__description": "అన్ని PDF సాధనాలు 100% ఉచితంగా ఉంటాయి మరియు మీ బ్రౌజర్‌లో పూర్తి గోప్యతానుండి పనిచేసేందుకు",
+    "tools__index_page__title": "ఉచిత ఆన్‌లైన్ PDF సాధనాలు",
+    "tools__index_page__description": "పత్రాలతో ఎక్కువ ఉపయోగం కలుగుతున్నట్లు మరియు మార్గదర్శకత్వంలో మరియు పూర్తి గోప్యతను కొనసాగించడానికి మీరు అవసరమైన అన్ని సాధనాలను ఉచితంగా బ్రౌజర్ ఆధారితంగా పొందవచ్చు.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ను PNG కి",
-    "tools__index_page__constant_obj__pdf_to_png__description": "ప్రతి PDF పేజీని PNG చిత్రంగా ఎగుమతి చేయండి లేదా PDF నుండి వేరుగా చిత్రాలను ఎక్స్ట్రాక్ట్ చేయండి",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ను JPEG కి",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "ప్రతి PDF పేజీని JPEG చిత్రంగా ఎగుమతి చేయండి లేదా PDF నుండి వేరుగా చిత్రాలను ఎక్స్ట్రాక్ట్ చేయండి",
     "tools__index_page__constant_obj__merge_pdfs__title": "పిడిఎఫ్‌లను విలీనం చేయండి",
-    "tools__index_page__constant_obj__merge_pdfs__description": "కొన్ని నొప్పించిన నొక్కలతో ఒకటిగా మరియున్నటి పిడిఎఫ్ ఫైళ్ళను విలీనం చేయండి",
-    "tools__index_page__constant_obj__split_a_pdf__title": "పిడిఎఫ్ విభజన: Split a PDF",
-    "tools__index_page__constant_obj__split_a_pdf__description": "ప్రతి ఎంపిక చేసిన పేజీ ఒక తామర పిడిఎఫ్ ఫైలుగా మారిపోయినట్లు. మరియు, మీరు ఎంపిక చేసిన పేజీలను ఒకే పిడిఎఫ్ ఫైలుగా కలిపించవచ్చు."
+    "tools__index_page__constant_obj__split_a_pdf__title": "పిడిఎఫ్ విభజన: Split a PDF"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",
@@ -614,7 +610,8 @@
     "pdf_tools__split_pdf__title": "PDF ను విడియోలకు మార్చు - ఉచితంగా ఆన్‌లైన్‌లో PDF పేజీలను విడియోలకు మార్చండి | MaxAI.me",
     "pdf_tools__split_pdf__description": "ఉచితంగా పేజీలను విడియోలకు మార్చండి లేదా పేజీలను తీసివేయండి మీ PDF లో ఆన్‌లైన్‌లో. వాటర్‌మార్క్‌లు, ఫైల్ సైజు పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్‌లు కావటం కాదు.",
     "pdf_tools__png_to_pdf__description": "ఉచితంగా PNG చిత్రాలను PDFకు మార్చండి. ఈ కనవర్టర్ ఏదైనా PNG చిత్ర ఫైల్‌ను అనుకూలంగా ఉంచిన PDF ఫైల్‌గా మార్చినట్లు లేవు. వాటర్‌మార్క్‌లు, ఫైల్ సైజు పరిమితులు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్‌లు లేవు.",
-    "pdf_tools__jpeg_to_pdf__description": "ఉచితంగా JPEG చిత్రాలను PDFకు మార్చండి. ఈ కనవర్టర్ ఏదైనా JPEG చిత్ర ఫైల్‌ను అనుకూలంగా ఉంచిన PDF ఫైల్‌గా మార్చినట్లు లేవు. వాటర్‌మార్క్‌లు, ఫైల్ సైజు పరిమితులు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్‌లు లేవు."
+    "pdf_tools__jpeg_to_pdf__description": "ఉచితంగా JPEG చిత్రాలను PDFకు మార్చండి. ఈ కనవర్టర్ ఏదైనా JPEG చిత్ర ఫైల్‌ను అనుకూలంగా ఉంచిన PDF ఫైల్‌గా మార్చినట్లు లేవు. వాటర్‌మార్క్‌లు, ఫైల్ సైజు పరిమితులు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్‌లు లేవు.",
+    "pdf_tools__title": "ఉచిత ఆన్‌లైన్ PDF సాధనాలు – మార్చు, కడివించు, సవరించు | MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__index__upload_title": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి లేదా దారికి తింటండి",
@@ -670,7 +667,6 @@
     "components__pdf_merge__unsupported_file_type_tip": "దయచేసి నిర్దిష్టమైన PDF ఫైల్ ను అప్‌లోడ్ చేయండి",
     "components__pdf_merge__add_pdf": "PDF ని జోడించండి",
     "components__pdf_merge__empty_pdf": "PDFs ని తొలగించండి",
-    "components__pdf_merge__confirm_merge": "మరియుంది చేయడానికి నిర్ధారించండి",
-    "components__pdf_merge__pdf_dropping": "మీరు PDF క్రమాన్ని దారిలో తిరగడం ద్వారా సరిచూడటం చేయవచ్చు"
+    "components__pdf_merge__confirm_merge": "మరియుంది చేయడానికి నిర్ధారించండి"
   }
 }
