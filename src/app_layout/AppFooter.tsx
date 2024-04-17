@@ -164,6 +164,12 @@ const AppFooter = () => {
                       target: '_self',
                       link: '/affiliate',
                     },
+                    {
+                      label: t('pages:tools__index_page__title'),
+                      icon: null,
+                      target: '_self',
+                      link: '/pdf-tools',
+                    },
                   ]}
                 />
               </Grid>
