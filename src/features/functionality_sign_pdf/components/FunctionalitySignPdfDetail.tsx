@@ -1,7 +1,7 @@
 import { DndContext, DragEndEvent } from '@dnd-kit/core';
 import { Box, Button, Stack } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
-import { FC, useState } from 'react';
+import { FC, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
 import { pdfAddView } from '../utils/pdfAddView';
@@ -26,32 +26,49 @@ export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file }) => {
   const [, setIsDropped] = useState(false);
+  const dndDragRef = useRef<HTMLElement | null>(null);
   const [signaturePositions, setSignaturePositions] = useState<ISignData[]>([]);
   function handleDragEnd(event: DragEndEvent) {
-    console.log('simply handleDragEnd', event);
     if (event.over && event.over.id) {
       setIsDropped(true);
       const { delta, over, active } = event;
-      setSignaturePositions((newList) => {
-        const index = newList.findIndex(
+      const parentRect = dndDragRef.current?.getBoundingClientRect();
+      var childRect = document
+        .getElementById((over.id as string) || '')
+        ?.getBoundingClientRect();
+      let distanceParentTop = 0;
+      if (childRect && parentRect) {
+        distanceParentTop = childRect?.top - parentRect?.top;
+      }
+
+      if (active.data.current?.isPdfDrag) {
+        const index = signaturePositions.findIndex(
           (item: ISignData) => item.id === active.id,
         );
         const newSignaturePosition = {
-          x: over.rect.width + delta.x,
-          y: delta.y,
+          x: signaturePositions[index].x + delta.x,
+          y: signaturePositions[index].y + delta.y,
           width: over.rect.width,
           height: over.rect.height,
-          pdfIndex: over.data.current as any,
-          ...(active.data.current as any),
-          ...(over.data.current as any),
+          ...(over.data.current as { pdfIndex: number }),
+          id: new Date().valueOf().toString(),
         };
         if (index !== -1) {
-          newList[index] = newSignaturePosition;
-        } else {
-          newList.push(newSignaturePosition);
+          signaturePositions[index] = newSignaturePosition;
         }
-        return cloneDeep(newList);
-      });
+      } else {
+        const newSignaturePosition = {
+          x: over.rect.width + delta.x,
+          y: delta.y - distanceParentTop,
+          width: over.rect.width,
+          height: over.rect.height,
+          ...(over.data.current as { pdfIndex: number }),
+          id: new Date().valueOf().toString(),
+        };
+        signaturePositions.push(newSignaturePosition);
+      }
+
+      setSignaturePositions(cloneDeep(signaturePositions));
     }
   }
   const onPdfAddView = () => {
@@ -66,6 +83,7 @@ export const FunctionalitySignPdfDetail: FC<
     >
       <DndContext onDragEnd={handleDragEnd}>
         <Box
+          ref={dndDragRef}
           sx={{
             flex: 1,
             backgroundColor: '#fafafa',
@@ -81,7 +99,10 @@ export const FunctionalitySignPdfDetail: FC<
             minWidth: 200,
           }}
         >
-          <FunctionalitySignPdfOperationView />
+          <FunctionalitySignPdfOperationView
+            id={'draggable-one'}
+            isPdfDrag={false}
+          />
           <Button
             variant='contained'
             onClick={onPdfAddView}
