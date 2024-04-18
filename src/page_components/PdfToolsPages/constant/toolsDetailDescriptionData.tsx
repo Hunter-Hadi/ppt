@@ -290,4 +290,70 @@ export const toolsDetailDescriptionObject: {
   'png-to-pdf': getImageToPdfObj('PNG'),
   'jpeg-to-pdf': getImageToPdfObj('JPEG'),
   'heic-to-pdf': getImageToPdfObj('HEIC'),
+  'pdf-to-html': {
+    topLeft:
+      'pages:pdf_tools__detail_description_object__pdf_to_html__top_left',
+    topRight: [
+      'pages:pdf_tools__detail_description_object__pdf_to_html__top_right_1',
+      'pages:pdf_tools__detail_description_object__pdf_to_html__top_right_2',
+      'pages:pdf_tools__detail_description_object__pdf_to_html__top_right_3',
+    ],
+    middle: [
+      {
+        iconName: 'Lightbulb',
+        title:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_1_title',
+        description:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_1_description',
+      },
+      {
+        iconName: 'WorkspacePremiumOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_2_title',
+        description:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_2_description',
+      },
+      {
+        iconName: 'ThumbUpAltOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_3_title',
+        description:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_3_description',
+      },
+      {
+        iconName: 'LockOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_4_title',
+        description:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_4_description',
+      },
+      {
+        iconName: 'LocalPoliceOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_5_title',
+        description:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_5_description',
+      },
+      {
+        iconName: 'ComputerOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_6_title',
+        description:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__middle_6_description',
+      },
+    ],
+    bottom: {
+      leftIconName: 'HistoryEdu',
+      rightDescription: {
+        title:
+          'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title',
+        description: [
+          'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1',
+          'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2',
+          'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3',
+          'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4',
+        ],
+      },
+    },
+  },
 };
