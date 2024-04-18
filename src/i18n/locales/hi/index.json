@@ -357,8 +357,8 @@
     "contact_us__item3": "हमें ★★★★★ रेटिंग देकर हमारा समर्थन करें",
     "contact_us__item3__store": "एक्सटेंशन वेब स्टोर",
     "contact_us__item4": "इस एक्सटेंशन को साझा करके अन्य लोगों की मदद करें:",
-    "tools__index_page__title": "मैक्सएआई टूल्स",
-    "tools__index_page__description": "सभी पीडीएफ उपकरण 100% मुफ्त हैं और पूर्ण गोपनीयता के लिए आपके ब्राउज़र में चलते हैं",
+    "tools__index_page__title": "ऑनलाइन मुफ्त पीडीएफ़ उपकरण",
+    "tools__index_page__description": "दस्तावेज़ों के साथ अधिक उत्पादक और बुद्धिमान काम करने के लिए आपको आवश्यक सभी उपकरण। पूर्ण निजता के लिए 100% मुफ्त और ब्राउज़र-आधारित।",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF से PNG में बदलें",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF से JPEG में बदलें",
     "tools__index_page__constant_obj__merge_pdfs__title": "पीडीएफ़ जोड़ें",
@@ -380,8 +380,8 @@
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC से PDF में बदलें",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ऑनलाइन HEIC छवियों को PDF में बदलें",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "प्रत्येक अपलोड की गई छवि एक PDF में एक पृष्ठ बन जाएगी।",
-    "tools__index_page__constant_obj__pdf_to_html__title": "पीडीएफ से एचटीएमएल में बदलें",
-    "tools__index_page__constant_obj__pdf_to_html__description": "लेआउट संरचना और छवियों को सहेजते हुए पीडीएफ को एचटीएमएल में बदलें"
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ऑनलाइन मुफ्त सॉफ़्टवेयर",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "अपनी कठिनाई से कमाई हुई धन को खर्च करके {{TYPE}} को पीडीएफ में बदलने के लिए महंगे उन्नत सॉफ़्टवेयर पर पैसे न खर्च करें। रोज़ाना सीमित उपयोग के लिए, हमारा {{TYPE}} से पीडीएफ में रूपांतरक मुफ्त है। अगर आपको इसे अधिक बार उपयोग करने की आवश्यकता होती है, तो बेशक असीमित उपयोग पूरी तरह से मुफ्त है।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -620,7 +620,7 @@
     "install__title": "स्थापित करें | MaxAI.me",
     "zmo__title": "All-in-one AI Design Art Generator | AI Image Generator From Text | ImgCreator.AI",
     "zmo__description": "मुफ्त में AI के साथ कला और छवियाँ बनाएं। ImgCreator.ai पाठ और छवि से छवियाँ, कला, आइलस्ट्रेशन, एनीमे, लोगो, डिज़ाइन उत्पन्न कर सकता है। हमारी प्रोप्राइटरी तकनीक आपकी कल्पना को जीवंत करेगी।",
-    "pdf_tools__title": "मुफ्त पीडीएफ उपकरण - पीडीएफ को ऑनलाइन कनवर्ट, संपीड़ित और संपादित करें | MaxAI.me",
+    "pdf_tools__title": "ऑनलाइन मुफ्त पीडीएफ़ उपकरण - परिवर्तित करें, संपीड़ित करें, संपादित करें | MaxAI.me",
     "pdf_tools__description": "मुफ्त में पीडीएफ को कनवर्ट, संपीड़ित, संपादित और हस्ताक्षर करने के लिए हमारे उपकरण संग्रह का अन्वेषण करें।",
     "pdf_tools__pdf_to_jpeg__title": "PDF से JPEG में बदलें - किसी भी PDF को ऑनलाइन मुफ्त में छवियों में बदलें | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "अपने PDF फ़ाइलों के पृष्ठों को JPEG छवियों में बदलें या व्यक्तिगत छवियों को नि: शुल्क ऑनलाइन निकालें। कोई वॉटरमार्क, फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",

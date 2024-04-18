@@ -72,11 +72,11 @@
     "learning_center__basic_usage__item2__title": "Βασική χρήση: Ενεργοποίηση της πλευρικής γραμμής",
     "learning_center__basic_usage__item3__title": "Βασική χρήση: Ρύθμιση παραμέτρων",
     "learning_center__features__title": "Χαρακτηριστικά",
-    "tools__index_page__title": "Εργαλεία MaxAI",
-    "tools__index_page__description": "Όλα τα εργαλεία PDF είναι 100% ΔΩΡΕΑΝ και λειτουργούν στον περιηγητή σας για πλήρη απόρρητο",
-    "tools__index_page__constant_obj__pdf_to_png__description": "Εξαγωγή κάθε σελίδας PDF ως εικόνα PNG ή εξαγωγή μεμονωμένων εικόνων από το PDF σε μορφή JPEG",
-    "tools__index_page__constant_obj__pdf_to_jpeg__description": "Εξαγωγή κάθε σελίδας PDF ως εικόνα JPEG ή εξαγωγή μεμονωμένων εικόνων από το PDF σε μορφή JPEG",
-    "home_page__features_carousel__feature_reply__label": "Αυτόματη Απάντηση AI"
+    "tools__index_page__title": "Δωρεάν Εργαλεία PDF Online",
+    "tools__index_page__description": "Όλα τα εργαλεία που θα χρειαστείτε για να είστε πιο παραγωγικοί και να εργάζεστε έξυπνα με τα έγγραφα. 100% ΔΩΡΕΑΝ και βασισμένα στον περιηγητή για πλήρη απόρρητο.",
+    "home_page__features_carousel__feature_reply__label": "Αυτόματη Απάντηση AI",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Δωρεάν Λογισμικό Στο Διαδίκτυο",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Μην ξοδεύετε τα χρήματά σας για ακριβά προηγμένα λογισμικά για να μετατρέψετε {{TYPE}} σε PDF. Για περιορισμένη καθημερινή χρήση, ο μετατροπέας μας από {{TYPE}} σε PDF είναι δωρεάν. Αν χρειάζεστε να το χρησιμοποιήσετε πιο συχνά, φυσικά, η απεριόριστη χρήση είναι εντελώς δωρεάν."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Κλικ Προτροπές",
@@ -242,7 +242,8 @@
     "pdf_tools__split_pdf__title": "Διαχωρίστε το PDF - Χωρίστε σελίδες PDF online δωρεάν | MaxAI.me",
     "pdf_tools__split_pdf__description": "Χωρίστε εύκολα σελίδες ή αφαιρέστε σελίδες από το PDF σας online δωρεάν. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές.",
     "pdf_tools__png_to_pdf__description": "Μετατρέψτε εικόνες PNG σε PDF online δωρεάν. Ο μετατροπέας μετατρέπει οποιοδήποτε αρχείο εικόνας PNG σε ένα προσαρμοσμένο αρχείο PDF. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές απαιτούμενες.",
-    "pdf_tools__jpeg_to_pdf__description": "Μετατρέψτε εικόνες JPEG σε PDF online δωρεάν. Ο μετατροπέας μετατρέπει οποιοδήποτε αρχείο εικόνας JPEG σε ένα προσαρμοσμένο αρχείο PDF. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές απαιτούμενες."
+    "pdf_tools__jpeg_to_pdf__description": "Μετατρέψτε εικόνες JPEG σε PDF online δωρεάν. Ο μετατροπέας μετατρέπει οποιοδήποτε αρχείο εικόνας JPEG σε ένα προσαρμοσμένο αρχείο PDF. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές απαιτούμενες.",
+    "pdf_tools__title": "Δωρεάν Εργαλεία PDF Online - Μετατροπή, Συμπίεση, Επεξεργασία | MaxAI.me"
   },
   "": ""
 }

@@ -1,0 +1,163 @@
+import { Box, Grid, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
+import { FC } from 'react';
+
+import { IToolsDetailDescriptionInfoProps } from '../constant/toolsDetailDescriptionData';
+import ToolsIcon from './ToolsIcon';
+interface IToolsDetailDescriptionProps {
+  descriptionInfo: IToolsDetailDescriptionInfoProps;
+}
+const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
+  descriptionInfo,
+}) => {
+  const { t } = useTranslation();
+  const getTranslation = (key: string) => {
+    return t(key, descriptionInfo.i18nChangeObj);
+  };
+  return (
+    <Box
+      sx={{
+        borderTop: '1px solid #e8e8e8',
+        pt: 3,
+      }}
+    >
+      {/* 顶部 */}
+      <Grid container justifyContent='space-between'>
+        <Grid item xs={12} lg={7}>
+          <Typography
+            color='text.secondary'
+            sx={{
+              fontSize: {
+                xs: 16,
+                lg: 18,
+              },
+            }}
+          >
+            {getTranslation(descriptionInfo.topLeft)}
+          </Typography>
+        </Grid>
+        <Grid item xs={12} lg={4}>
+          {descriptionInfo.topRight.map((item, index) => (
+            <Stack pb={1} key={index} alignItems='center' direction='row'>
+              <ToolsIcon name='CheckCircle' color='success' />
+              <Typography
+                color='text.secondary'
+                sx={{
+                  fontSize: {
+                    xs: 14,
+                    lg: 16,
+                  },
+                  ml: 1,
+                }}
+              >
+                {getTranslation(item)}
+              </Typography>
+            </Stack>
+          ))}
+        </Grid>
+      </Grid>
+      {/* 中间 */}
+      <Grid container gap={1} justifyContent='space-between'>
+        {descriptionInfo.middle.map((item, index) => (
+          <Grid
+            item
+            xs={12}
+            lg={3}
+            key={index}
+            sx={{
+              mt: 8,
+            }}
+            display='flex'
+            direction='column'
+            alignItems='center'
+          >
+            <ToolsIcon name={item.iconName} fontSize='large' color='action' />
+            <Typography
+              sx={{
+                fontSize: {
+                  xs: 14,
+                  lg: 16,
+                  fontWeight: 700,
+                },
+                mt: 2,
+                color: 'text.primary',
+                textAlign: 'center',
+              }}
+            >
+              {getTranslation(item.title)}
+            </Typography>
+            <Typography
+              color='text.secondary'
+              sx={{
+                fontSize: {
+                  xs: 14,
+                  lg: 16,
+                },
+                mt: 2,
+                textAlign: 'center',
+              }}
+            >
+              {getTranslation(item.description)}
+            </Typography>
+          </Grid>
+        ))}
+      </Grid>
+      {/* 底部 */}
+      <Grid
+        container
+        mt={10}
+        borderTop='1px solid #e8e8e8'
+        justifyContent='center'
+      >
+        <Grid
+          item
+          xs={12}
+          lg={5}
+          display='flex'
+          justifyContent='center'
+          alignItems='center'
+        >
+          <ToolsIcon
+            name={descriptionInfo.bottom.leftIconName}
+            color='primary'
+            sx={{
+              fontSize: 200,
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} lg={5} my={10} direction='column'>
+          <Typography
+            color='text.primary'
+            sx={{
+              fontSize: {
+                xs: 20,
+                lg: 22,
+                fontWeight: 700,
+              },
+            }}
+          >
+            {getTranslation(descriptionInfo.bottom.rightDescription.title)}
+          </Typography>
+          {descriptionInfo.bottom.rightDescription.description.map(
+            (item, index) => (
+              <Typography
+                key={index}
+                color='text.secondary'
+                sx={{
+                  fontSize: {
+                    xs: 14,
+                    lg: 16,
+                  },
+                  mt: 1,
+                }}
+              >
+                {`${index + 1}. ${getTranslation(item)}`}
+              </Typography>
+            ),
+          )}
+        </Grid>
+      </Grid>
+    </Box>
+  );
+};
+export default ToolsDetailDescription;

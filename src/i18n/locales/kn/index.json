@@ -357,8 +357,8 @@
     "contact_us__item3": "ನಮ್ಮನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ ★★★★★ ರೇಟಿಂಗ್ ಮಾಡಿ",
     "contact_us__item3__store": "ವೆಬ್ ಸ್ಟೋರ್ ವಿಸ್ತರಣೆ",
     "contact_us__item4": "ಈ ವಿಸ್ತರಣೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದರ ಮೂಲಕ ಇತರರಿಗೆ ಸಹಾಯ ಮಾಡಿ:",
-    "tools__index_page__title": "ಮ್ಯಾಕ್ಸ್‌ಏಐ ಟೂಲ್ಸ್",
-    "tools__index_page__description": "ಎಲ್ಲಾ PDF ಸಾಧನಗಳು 100% ಉಚಿತವಾಗಿದೆ ಮತ್ತು ಪೂರ್ಣ ಗೌಪ್ಯತೆಯ ಕೊಡುಗೆಯಲ್ಲಿ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತವೆ",
+    "tools__index_page__title": "ಉಚಿತ ಆನ್‌ಲೈನ್ ಪಿಡಿಎಫ್ ಸಾಧನಗಳು",
+    "tools__index_page__description": "ಆವರಣಗಳೊಂದಿಗೆ ಹೆಚ್ಚು ಉತ್ಪಾದಕವಾಗಿ ಮತ್ತು ಮೇಲ್ಮಟ್ಟದ ಕೆಲಸ ಮಾಡಲು ನೀವು ಬೇಕಾದ ಎಲ್ಲಾ ಸಾಧನಗಳು. 100% ಉಚಿತ ಮತ್ತು ಬ್ರೌಸರ್ ಆಧಾರಿತ ಪೂರ್ಣ ಗೌಪ್ಯತೆಗಾಗಿ.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ನಿಂದ PNG ಗೆ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ನಿಂದ JPEG ಗೆ",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
@@ -380,8 +380,8 @@
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ನಿಂದ PDF ಗೆ",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ಹೊಸದಾಗಿ HEIC ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ಪ್ರತಿ ಅಪ್ಲೋಡ್ ಮಾಡಲಾದ ಚಿತ್ರವು ಒಂದು ಪೀಡಿಎಫ್ ನಲ್ಲಿ ಒಂದು ಪುಟವಾಗುತ್ತದೆ.",
-    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ನಿಂದ HTML ಗೆ",
-    "tools__index_page__constant_obj__pdf_to_html__description": "ಲೇಔಟ್ ನಿರ್ಮಾಣ ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ಹೊಂದಿಸಿ, PDF ಅನ್ನು HTML ಗೆ ಪರಿವರ್ತಿಸಿ"
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ಉಚಿತ ಆನ್‌ಲೈನ್ ಸಾಫ್ಟ್‌ವೇರ್",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "ನಿಮ್ಮ ಕಡಿಮೆ ಹಣವನ್ನು ಖರ್ಚು ಮಾಡದೆ {{TYPE}} ಅನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಲು ಮುಂದೆ ಬರುವ ಸಾಫ್ಟ್‌ವೇರ್‌ಗಳಿಗೆ ನಿಮ್ಮ ಹಣವನ್ನು ಖರ್ಚು ಮಾಡಬೇಡಿ. ದಿನಂಪ್ರತಿ ಉಪಯೋಗಕ್ಕೆ ಮಿತಿಯಿಲ್ಲದ ಉಪಯೋಗಕ್ಕಾಗಿ, ನಮ್ಮ {{TYPE}} ಅನ್ನು PDF ಪರಿವರ್ತಕವನ್ನು ಉಚಿತವಾಗಿ ಬಳಸಿ. ಹೆಚ್ಚು ಸಂಖ್ಯೆಯಲ್ಲಿ ಬಳಸಬೇಕಾದರೆ, ನಿಶ್ಚಿತವಾಗಿ ಉಚಿತವಾಗಿದೆ."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
@@ -620,7 +620,7 @@
     "install__title": "ಅನುಸ್ಥಾಪಿಸಿ | MaxAI.me",
     "zmo__title": "ಒಂದು ಸರ್ವಶ್ರೇಷ್ಠ AI ಡಿಜೈನ್ ಆರ್ಟ್ ಜನರೇಟರ್ | ಪಠ್ಯದಿಂದ AI ಚಿತ್ರ ಜನರೇಟರ್ | ImgCreator.AI",
     "zmo__description": "ಉಚಿತವಾಗಿ AI ನೊಂದಿಗೆ ಕಲಾ ಮತ್ತು ಚಿತ್ರಗಳನ್ನು ರಚಿಸಿ. ImgCreator.ai ಪಠ್ಯ ಮತ್ತು ಚಿತ್ರಗಳಿಂದ ಚಿತ್ರಗಳನ್ನು, ಕಲೆಗಳನ್ನು, ಚಿತ್ರಕಥೆಗಳನ್ನು, ಅನಿಮೇಷನ್‌ಗಳನ್ನು, ಲೋಗೊಗಳನ್ನು, ಹೊಸದಾಗಿ ರೂಪಿಸಲು ನಮ್ಮ ಉದ್ಯೋಗಸ್ಥ ತಂತ್ರಜ್ಞತೆ ನಿಮ್ಮ ಭಾವನೆಗಳನ್ನು ಬಾಳಕೆ ತರುವುದು.",
-    "pdf_tools__title": "ಉಚಿತ ಪಿಡಿಎಫ್ ಸಾಧನಗಳು - ಪರಿವರ್ತಿಸಿ, ಕಂಪ್ರೆಸ್ ಮಾಡಿ ಮತ್ತು ಪಿಡಿಎಫ್‌ಗಳನ್ನು ಆನ್ಲೈನ್ ಸಂಪಾದಿಸಿ | MaxAI.me",
+    "pdf_tools__title": "ಉಚಿತ ಆನ್‌ಲೈನ್ ಪಿಡಿಎಫ್ ಸಾಧನಗಳು - ಪರಿವರ್ತಿಸು, ಕಡಿಮೆಗೊಳಿಸು, ಸಂಪಾದಿಸು | MaxAI.me",
     "pdf_tools__description": "ನಮ್ಮ ಸಂಗ್ರಹವನ್ನು ಅನ್ವೇಷಿಸಿ, ನಿಮಗೆ ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್‌ಗಳನ್ನು ಪರಿವರ್ತಿಸುವ, ಕಂಪ್ರೆಸ್ ಮಾಡುವ, ಸಂಪಾದಿಸುವ ಮತ್ತು ಸೈನ್ ಮಾಡುವ ಸಾಧನಗಳ ಸಂಗ್ರಹವನ್ನು ಅನ್ಲೈನ್‌ನಲ್ಲಿ ಪಡೆಯಿರಿ.",
     "pdf_tools__pdf_to_jpeg__title": "PDF ನಿಂದ JPEG ಗೆ - ಯಾವುದೇ PDF ಗಳನ್ನು ಉಚಿತವಾಗಿ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "ನೀವು ಉಚಿತವಾಗಿ PDF ಪುಟಗಳನ್ನು JPEG ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಬಹುದು ಅಥವಾ ನಿಮ್ಮ PDF ಕಡತಗಳಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದು. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",

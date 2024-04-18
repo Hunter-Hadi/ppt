@@ -357,8 +357,8 @@
     "contact_us__item3": "மதிப்பீட்டை ★★★★★ ஆக மதிப்பிடுங்கள்",
     "contact_us__item3__store": "நீட்டிப்பு வலைப்பக்கம்",
     "contact_us__item4": "இந்த நீட்டிப்பை பகிர்ந்து உதவுங்கள்:",
-    "tools__index_page__title": "மிக்சை கருவிகள்",
-    "tools__index_page__description": "அனைத்து PDF கருவிகளும் 100% இலவசமாக உள்ளன மற்றும் முழுதும் தனியுரிமைக்கு உள்ள உலாவியில் இயங்குகின்றன",
+    "tools__index_page__title": "இலவச ஆன்லைன் PDF கருவிகள்",
+    "tools__index_page__description": "ஆவணங்களை மேம்படுத்தி மேலும் உழைப்புகளுடன் மேன்மையாக வேலை செய்ய தேவைப்படும் அனைத்து கருவிகள். 100% இலவசம் மற்றும் உலாவி அட்டவணையில் முழுதும் தனியுரிமையுடன் இருக்கும்.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF முதல் PNG க்கு",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF முதல் JPEG க்கு",
     "tools__index_page__constant_obj__merge_pdfs__title": "பி.டி.எப்ஸ் ஒன்றில் ஒன்றுக்கு ஒருங்கிணைக்க",
@@ -380,8 +380,8 @@
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ஐ PDF க்கு மாற்று",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "இணைக்கப்பட்ட HEIC படங்களை PDF க்கு மாற்றுக",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ஒவ்வொன்றான பதிவேடுக்கப்பட்ட படம் ஒரு தனிப்பட்ட PDF இல் ஒரு பக்கமாக ஆகும்.",
-    "tools__index_page__constant_obj__pdf_to_html__title": "PDF மாற்று HTML",
-    "tools__index_page__constant_obj__pdf_to_html__description": "தலைப்பு அமைப்புக்குள் மட்டுமே ஒரு PDF-ஐ HTML ஆக மாற்றுங்கள்"
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "இலவச ஆன்லைன் மென்பொருள்",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "உங்கள் கடந்த பணத்தை செலவிடாது, மிகவும் முக்கியமான மென்பொருள்களை {{TYPE}} ஐ PDF ஆக மாற்ற எளிதான மென்பொருள் வாங்க வேண்டாம். எளிதான தினசரி பயன்பாட்டுக்கு, எங்கள் {{TYPE}} ஐ PDF ஆக மாற்றுவதற்கு இலவசமாக பயன்படுத்தலாம். அதேபோல அதை அதிக அளவில் பயன்படுத்த வேண்டியால், முழுமையான பயன்பாட்டுக்கு முழுமையான பயன்பாட்டு இலவசமாக உள்ளது."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -620,7 +620,7 @@
     "install__title": "நிறுவுக | MaxAI.me",
     "zmo__title": "அனைத்தும் ஒன்றில் AI டிசைன் கலை உருவாக்கி | உரையிலிருந்து ஐமேஜ் உருவாக்கி | ImgCreator.AI",
     "zmo__description": "இலவசமாக கலையும் படங்களும் உருவாக்குங்கள். ImgCreator.ai உரையையும் படங்களையும் பயன்படுத்தி கலை, வரைபடங்கள், அனிமேஷன், லோகோக்கள், வடிவமைப்புகள் உருவாக்கலாம். எங்கள் சிறந்த தொழில்நுட்பம் உங்கள் கல்வி மனதில் உயர்வுகளை வரவேற்கின்றது.",
-    "pdf_tools__title": "இலவச பிடிஎப் கருவிகள் - பிடிஎப்பை மாற்ற, மூடு, திருத்த ஆன்லைனில் மாற்றுங்கள் | MaxAI.me",
+    "pdf_tools__title": "இலவச ஆன்லைன் PDF கருவிகள் - மாற்று, மூடு, திருத்து | MaxAI.me",
     "pdf_tools__description": "இலவசமாக பிடிஎப்பை மாற்ற, மூடு, திருத்த, மேலும் பிடிஎப்புகளை ஆன்லைனில் கொண்டுவரும் கருவிகள் எங்கள் தொழில்நுட்பத்திற்கு உதவுகின்றன.",
     "pdf_tools__pdf_to_jpeg__title": "PDF ஐ JPEG க்கு மாற்று - இலவசமாக ஆன்லைனில் எந்த PDF ஐயும் படங்களாக மாற்றுங்கள் | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "உங்கள் PDF கோப்புகளிலிருந்து JPEG படங்களை மாற்றுங்கள் அல்லது தனிப்பட்ட படங்களை ஆன்லைனில் மீட்டமைக்கவும் இலவசமாக. வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
