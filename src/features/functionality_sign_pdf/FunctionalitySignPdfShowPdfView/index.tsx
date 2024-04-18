@@ -3,11 +3,12 @@ import 'react-pdf/dist/Page/TextLayer.css';
 
 import { useDroppable } from '@dnd-kit/core';
 import { Box } from '@mui/material';
-import { FC, useEffect, useState } from 'react';
+import { fabric } from 'fabric';
+import { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
-import { ISignData } from './FunctionalitySignPdfDetail';
-import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView';
+import { ISignData } from '../components/FunctionalitySignPdfDetail';
+import { FunctionalitySignPdfShowPdfCanvas } from './components/FunctionalitySignPdfShowPdfCanvas';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -44,7 +45,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file, signaturePositions }) => {
   const [numPages, setNumPages] = useState<number>();
-
+  const canvasRef = useRef<any>(null);
   useEffect(() => {
     console.log('simply signaturePositions', signaturePositions);
   }, [signaturePositions]);
@@ -58,6 +59,22 @@ export const FunctionalitySignPdfShowPdfView: FC<
   //     const { delta, over, active } = event;
   //   }
   // };
+  const canvas = useMemo(() => {
+    if (canvasRef.current) {
+      console.log('simply canvas');
+
+      return new fabric.Canvas(canvasRef.current, {
+        backgroundColor: 'transparent',
+        width: 768,
+        height: 576,
+        fireRightClick: true, //右键点击事件生效
+        stopContextMenu: true, //右键点击禁用默认自带的目录
+        fireMiddleClick: true, //中间建点击事件生效
+        skipTargetFind: true, // 画板元素不能被选中, 一旦填了true，canvas on mouse:down  的参数里的target 将为nul
+      });
+    }
+  }, [canvasRef.current]);
+
   return (
     <Box>
       <Document
@@ -67,7 +84,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
       >
         {Array.from(new Array(numPages), (el, index) => (
           <FunctionalitySignPdfDroppable key={index} index={index}>
-            {signaturePositions
+            {/* {signaturePositions
               .filter(
                 (signaturePosition) => signaturePosition.pdfIndex === index,
               )
@@ -82,21 +99,41 @@ export const FunctionalitySignPdfShowPdfView: FC<
                     zIndex: 6,
                   }}
                 >
-                  <FunctionalitySignPdfOperationView
-                    id={signaturePosition.id}
-                    isPdfDrag={true}
-                  />
+                  {signaturePosition.data.type === 'base64' && (
+                    <img src={signaturePosition.data.value}></img>
+                  )}
                 </Box>
-              ))}
+              ))} */}
 
-            <Page
-              key={`page_${index + 1}`}
-              renderTextLayer={true}
-              renderAnnotationLayer={true}
-              renderForms={true}
-              pageNumber={index + 1}
-              width={930}
-            />
+            <Box sx={{ position: 'relative' }}>
+              <Page
+                key={`page_${index + 1}`}
+                renderTextLayer={true}
+                renderAnnotationLayer={true}
+                renderForms={true}
+                pageNumber={index + 1}
+                width={930}
+              />
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  bottom: 0,
+                  right: 0,
+                  zIndex: 9,
+                  // '.sample-canvas,.canvas-container,.lower-canvas,.upper-canvas ':
+                  //   {
+                  //     width: '100%!important',
+                  //     height: '100%!important',
+                  //   },
+                }}
+              >
+                <FunctionalitySignPdfShowPdfCanvas
+                  signaturePositions={signaturePositions}
+                />
+              </Box>
+            </Box>
           </FunctionalitySignPdfDroppable>
         ))}
       </Document>

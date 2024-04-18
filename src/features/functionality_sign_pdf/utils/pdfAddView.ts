@@ -1,4 +1,4 @@
-import { PDFDocument, rgb } from "pdf-lib";
+import { PDFDocument } from "pdf-lib";
 
 import { ISignData } from "../components/FunctionalitySignPdfDetail";
 
@@ -30,12 +30,17 @@ export const pdfAddView = async (file: File, addViewList: ISignData[]) => {
         const adjustedX = x * scaleX;
         const adjustedY = (height - y) * scaleY; // PDF坐标系从左下角开始，需要调整y坐标
 
-        // 使用pdf-lib在PDF上绘制文本
-        page.drawText('signSignSign', {
-            x: adjustedX,
-            y: adjustedY,
-            color: rgb(0, 0, 0),
-        });
+
+        if (view.data.type === 'base64') {
+            const base64Image = view.data.value;
+            const pngImage = await pdfDoc.embedPng(base64Image);
+            page.drawImage(pngImage, {
+                x: adjustedX,
+                y: adjustedY,
+                width: pngImage.width,
+                height: pngImage.height,
+            });
+        }
     }
 
     // Serialize the PDFDocument to bytes (a Uint8Array)
