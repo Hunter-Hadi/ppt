@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
 import { APP_PROJECT_LINK } from '@/global_constants';
+import { useSendRefCount } from '@/hooks/useSendRefCount';
 
 const CacheRefAndRewardfulId = () => {
   const router = useRouter();
@@ -9,6 +10,8 @@ const CacheRefAndRewardfulId = () => {
   const [ref, setRef] = useState('');
 
   const [rewardfulId, setRewardfulId] = useState('');
+
+  useSendRefCount(ref, 'ref');
 
   useEffect(() => {
     const query = router.query;
