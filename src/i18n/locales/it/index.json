@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Risparmia",
     "promotion__banner__elite__title__part2": "sul piano annuale MaxAI Elite!",
     "promotion__limited_time_offer": "Offerta a tempo limitato",
-    "payment_type_switch__yearly__tip": "Risparmia fino al {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Risparmia fino al {{RATIO}}%",
+    "footer__pdf_tools": "Strumenti PDF gratuiti online"
   },
   "privacy": {},
   "industry": {

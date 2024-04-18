@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Sparen Sie",
     "promotion__banner__elite__title__part2": "beim MaxAI Elite Jahresplan!",
     "promotion__limited_time_offer": "Zeitlich begrenztes Angebot",
-    "payment_type_switch__yearly__tip": "Sparen Sie bis zu {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Sparen Sie bis zu {{RATIO}}%",
+    "footer__pdf_tools": "Kostenlose Online-PDF-Tools"
   },
   "privacy": {},
   "industry": {

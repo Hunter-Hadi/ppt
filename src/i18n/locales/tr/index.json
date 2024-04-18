@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Tasarruf Et",
     "promotion__banner__elite__title__part2": "MaxAI Elite Yıllık planında!",
     "promotion__limited_time_offer": "Sınırlı süreli teklif",
-    "payment_type_switch__yearly__tip": "Yıllık olarak {{RATIO}}% tasarruf edin"
+    "payment_type_switch__yearly__tip": "Yıllık olarak {{RATIO}}% tasarruf edin",
+    "footer__pdf_tools": "Ücretsiz çevrimiçi PDF araçları"
   },
   "privacy": {},
   "industry": {

@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Sutaupykite",
     "promotion__banner__elite__title__part2": "MaxAI Elite metiniam planui!",
     "promotion__limited_time_offer": "Ribotas laiko pasiūlymas",
-    "payment_type_switch__yearly__tip": "Sutaupykite iki {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Sutaupykite iki {{RATIO}}%",
+    "footer__pdf_tools": "Nemokami internetiniai PDF įrankiai"
   },
   "privacy": {},
   "industry": {

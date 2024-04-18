@@ -456,7 +456,7 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_title": "הוסף מסמכים נוספים",
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_description": "לאחר שהעלית את ה-{{TYPE}} שלך, תראה תצוגה מקדימה. תוכל להתאים את ההגדרות, אך גם להוסיף עוד תמונות להמרה ל-PDF. אנחנו נשלב אותן בקובץ PDF אחד עבורך.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "תוכנה מקוונת חינמית",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "אל תבזבז את הכסף שקשה לך להרוויח על תוכנה מתקדמת ויקרה כדי להמיר {{TYPE}} ל-PDF. לשימוש יומיומי מוגבל, ממיר ה-{{TYPE}} ל-PDF שלנו חינם לשימוש. אם תצטרך להשתמש בו בתדירות גבוהה יותר, כמובן שהשימוש הבלתי מוגבל הוא לחלוטין חינם.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "אל תבזבז את הכסף שקשה לרווח על תוכנה מתקדמת ויקרה כדי להמיר {{TYPE}} ל-PDF. לשימוש יומיומי מוגבל, ממיר ה-{{TYPE}} ל-PDF שלנו חינם לשימוש. אם תצטרך להשתמש בו בתדירות גבוהה יותר, כמובן שהשימוש הבלתי מוגבל הוא לחלוטין חינם.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "עיבוד מקומי",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "כל הקבצים שתעלה מעובדים בדפדפן שלך לפרטיות מוחלטת. הם אינם מועלים לענן, ומבטיחים אבטחה ופרטיות מוחלטות.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "חסוך",
     "promotion__banner__elite__title__part2": "בתוכנית השנתית של MaxAI Elite!",
     "promotion__limited_time_offer": "הצעת זמן מוגבל",
-    "payment_type_switch__yearly__tip": "חסוך עד {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "חסוך עד {{RATIO}}%",
+    "footer__pdf_tools": "כלי PDF מקוונים חינמיים"
   },
   "affiliate": {
     "hero_section__indicator__label": "#1 מוצר של השבוע",

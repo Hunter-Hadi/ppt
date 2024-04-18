@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Mentés",
     "promotion__banner__elite__title__part2": "a MaxAI Elite Éves csomagján!",
     "promotion__limited_time_offer": "Korlátozott ideig érvényes ajánlat",
-    "payment_type_switch__yearly__tip": "Akár {{RATIO}}% megtakarítás"
+    "payment_type_switch__yearly__tip": "Akár {{RATIO}}% megtakarítás",
+    "footer__pdf_tools": "Ingyenes online PDF eszközök"
   },
   "privacy": {},
   "industry": {

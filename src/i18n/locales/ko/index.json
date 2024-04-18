@@ -456,7 +456,7 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_title": "추가 문서 추가",
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_description": "{{TYPE}}를 업로드한 후 미리보기를 볼 수 있습니다. 설정을 조정하거나 PDF로 변환할 이미지를 추가할 수도 있습니다. 저희가 하나의 PDF 파일로 결합해 드립니다.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "무료 온라인 소프트웨어",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "고가의 고급 소프트웨어에 돈을 낭비하지 마세요. {{TYPE}}를 PDF로 변환하기 위해. 제한된 일일 사용량에 대해서는 무료로 이용할 수 있습니다. 자주 사용해야 하는 경우, 물론 무제한으로 무료로 이용할 수 있습니다.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "고가의 고급 소프트웨어에 돈을 낭비하지 마세요. {{TYPE}}를 PDF로 변환하기 위해. 제한된 일일 사용량에 대해서는 무료로 이용할 수 있습니다. 더 자주 사용해야 한다면, 물론 무제한 사용이 완전히 무료입니다.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "로컬 처리",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "업로드한 모든 파일은 브라우저에서 처리되어 완전한 개인 정보 보호가 보장됩니다. 클라우드에 업로드되지 않으므로 절대적인 보안과 개인 정보 보호가 유지됩니다.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "절약하세요",
     "promotion__banner__elite__title__part2": "MaxAI 엘리트 연간 요금제에서!",
     "promotion__limited_time_offer": "제한 시간 동안의 특별 제안",
-    "payment_type_switch__yearly__tip": "최대 {{RATIO}}% 절약"
+    "payment_type_switch__yearly__tip": "최대 {{RATIO}}% 절약",
+    "footer__pdf_tools": "무료 온라인 PDF 도구"
   },
   "privacy": {},
   "industry": {

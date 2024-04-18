@@ -456,7 +456,7 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_title": "Додати додаткові документи",
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_description": "Після завантаження вашого {{TYPE}} ви побачите попередній перегляд. Ви можете налаштувати параметри, а також додати більше зображень для конвертації у PDF. Ми об'єднаємо їх у один PDF-файл для вас.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Безкоштовне онлайн-програмне забезпечення",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Не витрачайте свої зароблені гроші на дороге продвинуте програмне забезпечення для конвертації {{TYPE}} у PDF. Для обмеженого щоденного використання наш конвертер {{TYPE}} у PDF безкоштовний. Якщо вам потрібно використовувати його частіше, звичайно, необмежене використання повністю безкоштовне.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Не витрачайте свої зароблені гроші на дороге продвинуте програмне забезпечення для конвертації {{TYPE}} в PDF. Для обмеженого щоденного використання наш конвертер {{TYPE}} в PDF безкоштовний. Якщо вам потрібно використовувати його частіше, звичайно, необмежене використання повністю безкоштовне.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Локальна обробка",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Усі файли, які ви завантажуєте, обробляються у вашому браузері для повної конфіденційності. Вони не завантажуються до хмари, що гарантує абсолютну безпеку та конфіденційність.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
@@ -620,7 +620,8 @@
     "promotion__banner__elite__title__part1": "Збережіть",
     "promotion__banner__elite__title__part2": "на щорічному плані MaxAI Elite!",
     "promotion__limited_time_offer": "Обмежена пропозиція на обмежений час",
-    "payment_type_switch__yearly__tip": "Збережіть до {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Збережіть до {{RATIO}}%",
+    "footer__pdf_tools": "Безкоштовні онлайн інструменти для PDF"
   },
   "privacy": {},
   "industry": {

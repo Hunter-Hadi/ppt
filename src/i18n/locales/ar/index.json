@@ -620,7 +620,8 @@
     "promotion__banner__elite__title__part1": "احفظ",
     "promotion__banner__elite__title__part2": "على خطة MaxAI Elite السنوية!",
     "promotion__limited_time_offer": "عرض لفترة محدودة",
-    "payment_type_switch__yearly__tip": "وفّر حتى {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "وفّر حتى {{RATIO}}%",
+    "footer__pdf_tools": "أدوات PDF المجانية عبر الإنترنت"
   },
   "privacy": {},
   "industry": {

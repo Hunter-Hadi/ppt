@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Ušetrite",
     "promotion__banner__elite__title__part2": "na ročnom pláne MaxAI Elite!",
     "promotion__limited_time_offer": "Akcia na obmedzený čas",
-    "payment_type_switch__yearly__tip": "Ušetrite až {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Ušetrite až {{RATIO}}%",
+    "footer__pdf_tools": "Bezplatné online nástroje pre PDF"
   },
   "privacy": {},
   "industry": {

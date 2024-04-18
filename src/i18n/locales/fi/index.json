@@ -456,7 +456,7 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_title": "Lisää lisädokumentteja",
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_description": "Kun olet lähettänyt {{TYPE}}-tiedostosi, näet esikatselun. Voit säätää asetuksia, mutta voit myös lisätä enemmän kuvia muunnettavaksi PDF-tiedostoiksi. Yhdistämme ne yhdeksi PDF-tiedostoksi puolestasi.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Ilmainen verkkosovellus",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Älä tuhlaa ansaittuja rahojasi kalliiseen edistyneeseen ohjelmistoon, jolla muunnat {{TYPE}} PDF-tiedostoksi. Rajoitetun päivittäisen käytön osalta {{TYPE}} PDF-muunnin on ilmainen käyttää. Jos tarvitset sitä useammin, tietysti rajaton käyttö on täysin ilmaista.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Älä tuhlaa ansaittuja rahojasi kalliiseen edistyneeseen ohjelmistoon, jolla muunnat {{TYPE}} PDF-tiedostoksi. Rajoitetun päivittäisen käytön osalta {{TYPE}} PDF-muunnin on ilmainen. Jos tarvitset sitä useammin, tietysti rajaton käyttö on täysin ilmaista.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Paikallinen käsittely",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Kaikki lähettämäsi tiedostot käsitellään selaimessasi täydellisen yksityisyyden varmistamiseksi. Niitä ei lähetetä pilveen, mikä takaa täydellisen turvallisuuden ja yksityisyyden.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Säästä",
     "promotion__banner__elite__title__part2": "MaxAI Elite Vuosittainen suunnitelma!",
     "promotion__limited_time_offer": "Rajoitettu ajan tarjous",
-    "payment_type_switch__yearly__tip": "Säästä jopa {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Säästä jopa {{RATIO}}%",
+    "footer__pdf_tools": "Ilmaiset verkkopohjaiset PDF-työkalut"
   },
   "privacy": {},
   "industry": {

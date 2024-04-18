@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Économisez",
     "promotion__banner__elite__title__part2": "sur le plan annuel MaxAI Elite !",
     "promotion__limited_time_offer": "Offre à durée limitée",
-    "payment_type_switch__yearly__tip": "Économisez jusqu'à {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Économisez jusqu'à {{RATIO}}%",
+    "footer__pdf_tools": "Outils PDF gratuits en ligne"
   },
   "privacy": {},
   "industry": {
@@ -850,6 +851,5 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__pdf_to_html__button__download": "Télécharger",
     "components__pdf_to_html__button__Convert": "Convertir un autre"
-  },
-  "": ""
+  }
 }

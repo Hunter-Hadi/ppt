@@ -641,7 +641,8 @@
     "promotion__banner__elite__title__part1": "Сэкономьте",
     "promotion__banner__elite__title__part2": "на годовом плане MaxAI Elite!",
     "promotion__limited_time_offer": "Ограниченное предложение",
-    "payment_type_switch__yearly__tip": "Сэкономьте до {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Сэкономьте до {{RATIO}}%",
+    "footer__pdf_tools": "Бесплатные онлайн-инструменты для PDF"
   },
   "privacy": {},
   "industry": {
