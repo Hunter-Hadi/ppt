@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import { fabric } from 'fabric';
 import { FabricJSCanvas, useFabricJSEditor } from 'fabricjs-react';
 import React, { FC, useEffect } from 'react';
@@ -11,28 +12,30 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
 export const FunctionalitySignPdfShowPdfCanvas: FC<
   IFunctionalitySignPdfShowPdfCanvasProps
 > = ({ signaturePositions }) => {
-  const { editor, onReady } = useFabricJSEditor();
-  const onAddCircle = () => {
-    editor?.addCircle();
+  const { editor, onReady, selectedObjects } = useFabricJSEditor();
+
+  const handleKeyDown = (event) => {
+    console.log('用户按下了回车键', event);
   };
-  const onAddRectangle = () => {
-    editor?.addRectangle();
-  };
+  useEffect(() => {
+    console.log('simply selectedObjects', selectedObjects);
+    console.log('simply editor', editor?.canvas);
+  }, [selectedObjects]);
   useEffect(() => {
     if (signaturePositions.length > 0 && editor) {
       editor.canvas?.setWidth(1080);
-      editor.canvas?.setHeight(600);
+      editor.canvas?.setHeight(698);
       signaturePositions.forEach((signaturePosition) => {
         if (signaturePosition.data.type === 'base64') {
           const image = new Image();
           image.src = signaturePosition.data.value;
           var text = new fabric.IText('这里是可编辑的文字', {
-            left: 100, // 设置文字的起始位置
-            top: 100, // 设置文字的起始顶部位置
+            left: 50, // 设置文字的起始位置
+            top: 50, // 设置文字的起始顶部位置
             fontSize: 20, // 设置字体大小
             fill: '#333', // 设置文字颜色
           });
-          editor.canvas.Add(text); // 将文字添加到 canvas 中
+          editor.canvas.add(text); // 将文字添加到 canvas 中
           image.onload = function () {
             const fabricImage = new fabric.Image(image);
             fabricImage.set({
@@ -52,10 +55,8 @@ export const FunctionalitySignPdfShowPdfCanvas: FC<
     }
   }, [signaturePositions, editor]);
   return (
-    <div>
-      <button onClick={onAddCircle}>Add circle</button>
-      <button onClick={onAddRectangle}>Add Rectangle</button>
-      <FabricJSCanvas className='sample-canvas' onReady={onReady} />
-    </div>
+    <Box onKeyDown={handleKeyDown}>
+      <FabricJSCanvas className='sample-canvas-1' onReady={onReady} />
+    </Box>
   );
 };

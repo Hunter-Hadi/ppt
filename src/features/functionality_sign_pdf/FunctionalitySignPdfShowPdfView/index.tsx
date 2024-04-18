@@ -3,8 +3,7 @@ import 'react-pdf/dist/Page/TextLayer.css';
 
 import { useDroppable } from '@dnd-kit/core';
 import { Box } from '@mui/material';
-import { fabric } from 'fabric';
-import { FC, useEffect, useMemo, useRef, useState } from 'react';
+import { FC, useEffect, useRef, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
 import { ISignData } from '../components/FunctionalitySignPdfDetail';
@@ -52,28 +51,6 @@ export const FunctionalitySignPdfShowPdfView: FC<
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
     setNumPages(numPages);
   }
-  // const handleDragEnd = (event: DragEndEvent) => {
-  //   console.log('simply handleDragEnd222');
-  //   console.log('simply handleDragEnd', event);
-  //   if (event.over && event.over.id) {
-  //     const { delta, over, active } = event;
-  //   }
-  // };
-  const canvas = useMemo(() => {
-    if (canvasRef.current) {
-      console.log('simply canvas');
-
-      return new fabric.Canvas(canvasRef.current, {
-        backgroundColor: 'transparent',
-        width: 768,
-        height: 576,
-        fireRightClick: true, //右键点击事件生效
-        stopContextMenu: true, //右键点击禁用默认自带的目录
-        fireMiddleClick: true, //中间建点击事件生效
-        skipTargetFind: true, // 画板元素不能被选中, 一旦填了true，canvas on mouse:down  的参数里的target 将为nul
-      });
-    }
-  }, [canvasRef.current]);
 
   return (
     <Box>
@@ -84,27 +61,6 @@ export const FunctionalitySignPdfShowPdfView: FC<
       >
         {Array.from(new Array(numPages), (el, index) => (
           <FunctionalitySignPdfDroppable key={index} index={index}>
-            {/* {signaturePositions
-              .filter(
-                (signaturePosition) => signaturePosition.pdfIndex === index,
-              )
-              .map((signaturePosition) => (
-                <Box
-                  key={signaturePosition.id}
-                  className='signature-box'
-                  sx={{
-                    position: 'absolute',
-                    left: signaturePosition.x,
-                    top: signaturePosition.y,
-                    zIndex: 6,
-                  }}
-                >
-                  {signaturePosition.data.type === 'base64' && (
-                    <img src={signaturePosition.data.value}></img>
-                  )}
-                </Box>
-              ))} */}
-
             <Box sx={{ position: 'relative' }}>
               <Page
                 key={`page_${index + 1}`}
@@ -112,7 +68,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
                 renderAnnotationLayer={true}
                 renderForms={true}
                 pageNumber={index + 1}
-                width={930}
+                width={1080}
               />
               <Box
                 sx={{
@@ -122,11 +78,6 @@ export const FunctionalitySignPdfShowPdfView: FC<
                   bottom: 0,
                   right: 0,
                   zIndex: 9,
-                  // '.sample-canvas,.canvas-container,.lower-canvas,.upper-canvas ':
-                  //   {
-                  //     width: '100%!important',
-                  //     height: '100%!important',
-                  //   },
                 }}
               >
                 <FunctionalitySignPdfShowPdfCanvas

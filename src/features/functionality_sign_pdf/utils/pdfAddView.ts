@@ -18,27 +18,20 @@ export const pdfAddView = async (file: File, addViewList: ISignData[]) => {
 
     // Loop through all views and add them to the PDF
     for (const view of addViewList) {
-        const { pdfIndex, x, y, width, height } = view;
+        const { pdfIndex } = view;
         const page = pdfDoc.getPage(pdfIndex);
-        const pdfPageSize = page.getSize();
-        console.log('simply pdfPageSize', pdfPageSize);
-        // 假设你知道div和PDF页面的比例
-        const scaleX = pdfPageSize.width / width;
-        const scaleY = pdfPageSize.height / height;
-
-        // 调整坐标
-        const adjustedX = x * scaleX;
-        const adjustedY = (height - y) * scaleY; // PDF坐标系从左下角开始，需要调整y坐标
-
-
-        if (view.data.type === 'base64') {
-            const base64Image = view.data.value;
-            const pngImage = await pdfDoc.embedPng(base64Image);
+        const canvas = document.querySelector('.sample-canvas-1 .lower-canvas') as HTMLCanvasElement;
+        console.log('simply canvas', canvas)
+        if (canvas) {
+            const image = canvas.toDataURL('image/png');
+            console.log('simply image', image)
+            const pdfPageSize = page.getSize();
+            const pngImage = await pdfDoc.embedPng(image);
             page.drawImage(pngImage, {
-                x: adjustedX,
-                y: adjustedY,
-                width: pngImage.width,
-                height: pngImage.height,
+                x: 0,
+                y: 0,
+                width: pdfPageSize.width,
+                height: pdfPageSize.height,
             });
         }
     }
