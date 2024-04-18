@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "اندازه، جهت و حاشیه را به عنوان نیاز تنظیم کنید.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "روی \"ایجاد PDF هم اکنون!\" کلیک کنید و ما شروع به تبدیل می کنیم.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "همین است! PDF تبدیل شده را در دستگاه خود ذخیره کنید.",
-    "pdf_tools__detail_page__more_pdf_tools": "ابزارهای PDF آنلاین رایگان بیشتر"
+    "pdf_tools__detail_page__more_pdf_tools": "ابزارهای PDF آنلاین رایگان بیشتر",
+    "tools__index_page__constant_obj__pdf_to_html__title": "تبدیل PDF به HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "تبدیل یک فایل PDF به HTML با حفظ ساختار طرح و تصاویر"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

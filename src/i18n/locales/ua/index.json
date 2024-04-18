@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Налаштуйте розмір, орієнтацію та поля за потребою.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Клацніть «Створити PDF зараз!» і ми почнемо конвертувати.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Це все! Збережіть сконвертований PDF на ваш пристрій.",
-    "pdf_tools__detail_page__more_pdf_tools": "Більше безкоштовних онлайн-інструментів для роботи з PDF"
+    "pdf_tools__detail_page__more_pdf_tools": "Більше безкоштовних онлайн-інструментів для роботи з PDF",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF в HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Конвертувати PDF в HTML зі збереженням структури макету та зображень"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",

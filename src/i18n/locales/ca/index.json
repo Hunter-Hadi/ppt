@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Ajusta la mida, l'orientació i la marge segons sigui necessari.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Fes clic a \"Crea el PDF ara!\" i començarem la conversió.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Això és tot! Desa el PDF convertit al teu dispositiu.",
-    "pdf_tools__detail_page__more_pdf_tools": "Més eines gratuïtes en línia de PDF"
+    "pdf_tools__detail_page__more_pdf_tools": "Més eines gratuïtes en línia de PDF",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF a HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Converteix un PDF a HTML mantenint l'estructura del disseny i les imatges"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",

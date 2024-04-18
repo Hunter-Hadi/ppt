@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "ปรับขนาด การวางแนว และขอบเขตตามต้องการ",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "คลิก \"สร้าง PDF ตอนนี้!\" เราจะเริ่มแปลง",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "เพียงเท่านี้! บันทึกไฟล์ PDF ที่แปลงเป็นในอุปกรณ์ของคุณ",
-    "pdf_tools__detail_page__more_pdf_tools": "เครื่องมือ PDF ออนไลน์ฟรีเพิ่มเติม"
+    "pdf_tools__detail_page__more_pdf_tools": "เครื่องมือ PDF ออนไลน์ฟรีเพิ่มเติม",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF เป็น HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "แปลง PDF เป็น HTML พร้อมกับการเก็บโครงสร้างเลย์เอาต์และรูปภาพ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",

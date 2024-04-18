@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Justera storlek, orientering och marginal efter behov.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klicka på \"Skapa PDF nu!\" och vi börjar konvertera.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Det är allt! Spara den konverterade PDF-filen på din enhet.",
-    "pdf_tools__detail_page__more_pdf_tools": "Fler gratis online PDF-verktyg"
+    "pdf_tools__detail_page__more_pdf_tools": "Fler gratis online PDF-verktyg",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF till HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertera en PDF till HTML samtidigt som du behåller layoutstruktur och bilder"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",

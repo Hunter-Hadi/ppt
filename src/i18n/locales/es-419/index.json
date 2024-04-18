@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Ajusta el tamaño, orientación y margen según sea necesario.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Haz clic en \"¡Crear PDF ahora!\" y comenzaremos la conversión.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "¡Eso es todo! Guarda el PDF convertido en tu dispositivo.",
-    "pdf_tools__detail_page__more_pdf_tools": "Más herramientas gratuitas en línea para PDF"
+    "pdf_tools__detail_page__more_pdf_tools": "Más herramientas gratuitas en línea para PDF",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF a HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Convierte un PDF a HTML manteniendo la estructura de diseño e imágenes"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",

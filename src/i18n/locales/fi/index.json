@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Säädä kokoa, suuntaa ja marginaalia tarpeen mukaan.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Napsauta \"Luo PDF nyt!\" ja aloitamme muuntamisen.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Siinä kaikki! Tallenna muunnettu PDF-lomake laitteeseesi.",
-    "pdf_tools__detail_page__more_pdf_tools": "Lisää ilmaisia verkkopohjaisia PDF-työkaluja"
+    "pdf_tools__detail_page__more_pdf_tools": "Lisää ilmaisia verkkopohjaisia PDF-työkaluja",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF HTML:ksi",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Muunna PDF HTML-muotoon säilyttäen asettelu ja kuvat"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",

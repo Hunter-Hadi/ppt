@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Podle potřeby upravte velikost, orientaci a okraj.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klikněte na „Vytvořit PDF nyní!“ a začneme převádět.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "To je vše! Uložte převedené PDF na své zařízení.",
-    "pdf_tools__detail_page__more_pdf_tools": "Další bezplatné online nástroje pro práci s PDF"
+    "pdf_tools__detail_page__more_pdf_tools": "Další bezplatné online nástroje pro práci s PDF",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF na HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Převést PDF na HTML a zachovat strukturu rozvržení a obrázky"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",

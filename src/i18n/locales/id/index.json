@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Atur ukuran, orientasi, dan margin sesuai kebutuhan.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klik “Buat PDF sekarang!” dan kami akan mulai mengonversi.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Itu saja! Simpan PDF yang telah dikonversi ke perangkat Anda.",
-    "pdf_tools__detail_page__more_pdf_tools": "Lebih Banyak Alat PDF Online Gratis"
+    "pdf_tools__detail_page__more_pdf_tools": "Lebih Banyak Alat PDF Online Gratis",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ke HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Mengonversi PDF ke HTML sambil mempertahankan struktur tata letak dan gambar"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

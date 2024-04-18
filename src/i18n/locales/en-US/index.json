@@ -380,6 +380,8 @@
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC to PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "Convert HEIC images to PDF online",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "Each uploaded image will become a page in a single PDF.",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF to HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Convert a PDF to HTML while keeping layout structure and images",
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",

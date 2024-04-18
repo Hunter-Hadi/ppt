@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Podesite veličinu, orijentaciju i margine po potrebi.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Kliknite \"Kreiraj PDF sada!\" i mi ćemo početi sa pretvaranjem.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "To je sve! Sačuvajte konvertovani PDF na vaš uređaj.",
-    "pdf_tools__detail_page__more_pdf_tools": "Više besplatnih online PDF alata"
+    "pdf_tools__detail_page__more_pdf_tools": "Više besplatnih online PDF alata",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF u HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertujte PDF u HTML zadržavajući strukturu rasporeda i slike"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",

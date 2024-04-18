@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Prilagodite velikost, usmerjenost in rob po potrebi.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Kliknite »Ustvari PDF zdaj!« in začeli bomo s pretvorbo.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "To je vse! Shranite pretvorjeni PDF na svojo napravo.",
-    "pdf_tools__detail_page__more_pdf_tools": "Več brezplačnih spletnih orodij za PDF"
+    "pdf_tools__detail_page__more_pdf_tools": "Več brezplačnih spletnih orodij za PDF",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF v HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Pretvori PDF v HTML in ohrani strukturo postavitve ter slike"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",

@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Állítsd be a méretet, az orientációt és a margót szükség szerint.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Kattints a „PDF létrehozása most!” gombra, és elkezdjük az átalakítást.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Ennyi! Mentsd el a konvertált PDF-et az eszközödre.",
-    "pdf_tools__detail_page__more_pdf_tools": "További ingyenes online PDF eszközök"
+    "pdf_tools__detail_page__more_pdf_tools": "További ingyenes online PDF eszközök",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF to HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "PDF-t alakítsa HTML-re, miközben megőrzi a diagram szerkezetét és képeket"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

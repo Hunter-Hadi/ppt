@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "크기, 방향 및 여백을 필요에 따라 조정하세요.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "“지금 PDF 만들기!”를 클릭하면 변환 작업이 시작됩니다.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "그게 다입니다! 변환된 PDF를 기기에 저장하세요.",
-    "pdf_tools__detail_page__more_pdf_tools": "더 많은 무료 온라인 PDF 도구"
+    "pdf_tools__detail_page__more_pdf_tools": "더 많은 무료 온라인 PDF 도구",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF를 HTML로 변환",
+    "tools__index_page__constant_obj__pdf_to_html__description": "레이아웃 구조와 이미지를 유지한 채 PDF를 HTML로 변환"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",

@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "התאם את הגודל, הכיוון והשוליים כפי שנדרש.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "לחץ על “צור PDF עכשיו!” ואנחנו נתחיל להמיר.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "זה הכל! שמור את ה-PDF המומר במכשיר שלך.",
-    "pdf_tools__detail_page__more_pdf_tools": "עוד כלי PDF מקוונים חינמיים"
+    "pdf_tools__detail_page__more_pdf_tools": "עוד כלי PDF מקוונים חינמיים",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ל-HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "המרת PDF ל-HTML תוך שמירה על מבנה הפריסה והתמונות"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

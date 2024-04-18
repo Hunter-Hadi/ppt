@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Pritaikykite dydį, orientaciją ir paraštę pagal poreikį.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Spustelėkite „Sukurti PDF dabar!“ ir pradėsime konvertavimą.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Tai viskas! Įrašykite konvertuotą PDF į savo įrenginį.",
-    "pdf_tools__detail_page__more_pdf_tools": "Daugiau nemokamų internetinių PDF įrankių"
+    "pdf_tools__detail_page__more_pdf_tools": "Daugiau nemokamų internetinių PDF įrankių",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF į HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertuokite PDF į HTML, išlaikant maketą ir paveikslėlius"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",

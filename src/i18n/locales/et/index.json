@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Kohandage vajadusel suurust, orientatsiooni ja marginaali.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klõpsake nuppu „Loo PDF kohe!“ ja alustame teisendamist.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "See on kõik! Salvestage teisendatud PDF seadmesse.",
-    "pdf_tools__detail_page__more_pdf_tools": "Rohkem tasuta veebipõhiseid PDF-i tööriistu"
+    "pdf_tools__detail_page__more_pdf_tools": "Rohkem tasuta veebipõhiseid PDF-i tööriistu",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF HTML-iks",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Teisenda PDF HTML-iks, säilitades paigutuse struktuuri ja pildid"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",

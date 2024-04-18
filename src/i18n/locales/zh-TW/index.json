@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "根據需要調整大小、方向和邊距。",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "點擊“立即創建PDF！”我們將開始轉換。",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "就這樣！將轉換後的PDF保存到您的設備。",
-    "pdf_tools__detail_page__more_pdf_tools": "更多免費在線PDF工具"
+    "pdf_tools__detail_page__more_pdf_tools": "更多免費在線PDF工具",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF轉HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "將PDF轉換為HTML，同時保留版面結構和圖像"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",

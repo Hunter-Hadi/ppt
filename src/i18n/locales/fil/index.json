@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "I-adjust ang laki, orientation, at margin kung kinakailangan.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "I-click ang \"Lumikha ng PDF ngayon!\" at simulan namin ang pag-convert.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Yan lang! I-save ang na-convert na PDF sa iyong device.",
-    "pdf_tools__detail_page__more_pdf_tools": "Higit pang Libreng Online na Mga Tool para sa PDF"
+    "pdf_tools__detail_page__more_pdf_tools": "Higit pang Libreng Online na Mga Tool para sa PDF",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF sa HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "I-convert ang isang PDF sa HTML habang pinapanatili ang layout structure at mga imahe"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",

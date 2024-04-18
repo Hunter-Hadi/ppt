@@ -451,7 +451,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "根据需要调整大小、方向和边距。",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "点击“立即创建PDF！”我们将开始转换。",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "就这样！将转换后的PDF保存到您的设备。",
-    "pdf_tools__detail_page__more_pdf_tools": "更多免费在线PDF工具"
+    "pdf_tools__detail_page__more_pdf_tools": "更多免费在线PDF工具",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF转HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "将PDF转换为HTML，保持布局结构和图像"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

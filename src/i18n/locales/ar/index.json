@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "ضبط الحجم والاتجاه والهامش حسب الحاجة.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "انقر فوق \"إنشاء PDF الآن!\" وسنبدأ في التحويل.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "هذا كل شيء! احفظ الملف PDF المحول على جهازك.",
-    "pdf_tools__detail_page__more_pdf_tools": "المزيد من أدوات PDF المجانية عبر الإنترنت"
+    "pdf_tools__detail_page__more_pdf_tools": "المزيد من أدوات PDF المجانية عبر الإنترنت",
+    "tools__index_page__constant_obj__pdf_to_html__title": "تحويل PDF إلى HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "تحويل ملف PDF إلى HTML مع الحفاظ على تنسيق الصفحة والصور"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",

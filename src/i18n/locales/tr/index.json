@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "İhtiyaca göre boyutu, yönlendirmeyi ve kenar boşluğunu ayarlayın.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "“Şimdi PDF oluştur!” düğmesine tıklayın ve dönüştürmeye başlayalım.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Bu kadar! Dönüştürülen PDF'yi cihazınıza kaydedin.",
-    "pdf_tools__detail_page__more_pdf_tools": "Daha Fazla Ücretsiz Çevrimiçi PDF Aracı"
+    "pdf_tools__detail_page__more_pdf_tools": "Daha Fazla Ücretsiz Çevrimiçi PDF Aracı",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF'yi HTML'e dönüştür",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Düzen yapısını ve resimleri koruyarak bir PDF'i HTML'e dönüştür"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",

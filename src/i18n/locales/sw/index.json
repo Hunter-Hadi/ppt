@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Rekebisha ukubwa, mwelekeo, na upana kama inavyohitajika.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Bonyeza \"Tengeneza PDF sasa!\" na tutanza kubadilisha.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Hiyo ndiyo yote! Hifadhi PDF iliyobadilishwa kwenye kifaa chako.",
-    "pdf_tools__detail_page__more_pdf_tools": "Zana Zaidi za PDF Bure Mtandaoni"
+    "pdf_tools__detail_page__more_pdf_tools": "Zana Zaidi za PDF Bure Mtandaoni",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF kuwa HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Badilisha PDF kuwa HTML huku ukisalia na muundo wa mpangilio na picha"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",

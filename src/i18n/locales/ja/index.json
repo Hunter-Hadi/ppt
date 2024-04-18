@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "必要に応じてサイズ、向き、余白を調整します。",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "「今すぐPDFを作成」をクリックして変換を開始します。",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "以上です！変換されたPDFをデバイスに保存します。",
-    "pdf_tools__detail_page__more_pdf_tools": "その他の無料オンラインPDFツール"
+    "pdf_tools__detail_page__more_pdf_tools": "その他の無料オンラインPDFツール",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDFをHTMLに変換する",
+    "tools__index_page__constant_obj__pdf_to_html__description": "レイアウト構造と画像を保持したまま、PDFをHTMLに変換します"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",

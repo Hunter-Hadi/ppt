@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Pas de grootte, oriëntatie en marge aan indien nodig.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klik op 'Maak nu PDF!' en we beginnen met converteren.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Dat is alles! Sla de geconverteerde PDF op uw apparaat op.",
-    "pdf_tools__detail_page__more_pdf_tools": "Meer Gratis Online PDF Tools"
+    "pdf_tools__detail_page__more_pdf_tools": "Meer Gratis Online PDF Tools",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF naar HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Converteer een PDF naar HTML met behoud van lay-outstructuur en afbeeldingen"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",

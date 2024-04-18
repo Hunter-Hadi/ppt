@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Pielāgojiet izmēru, orientāciju un margu pēc vajadzības.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Noklikšķiniet uz “Izveidot PDF tagad!” un mēs sāksim konvertēt.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Tas viss! Saglabājiet konvertēto PDF savā ierīcē.",
-    "pdf_tools__detail_page__more_pdf_tools": "Vairāk bezmaksas tiešsaistes PDF rīku"
+    "pdf_tools__detail_page__more_pdf_tools": "Vairāk bezmaksas tiešsaistes PDF rīku",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF uz HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertējiet PDF uz HTML, saglabājot izkārtojuma struktūru un attēlus"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",

@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Regola le dimensioni, l'orientamento e il margine come desiderato.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Fai clic su \"Crea PDF ora!\" e inizieremo la conversione.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Ecco tutto! Salva il PDF convertito sul tuo dispositivo.",
-    "pdf_tools__detail_page__more_pdf_tools": "Altri strumenti PDF online gratuiti"
+    "pdf_tools__detail_page__more_pdf_tools": "Altri strumenti PDF online gratuiti",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF in HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Converti un PDF in HTML mantenendo la struttura del layout e le immagini"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",

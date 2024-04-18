@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Juster størrelsen, orienteringen og margenen efter behov.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klik på \"Opret PDF nu!\" og vi begynder at konvertere.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Det er det! Gem den konverterede PDF på din enhed.",
-    "pdf_tools__detail_page__more_pdf_tools": "Flere gratis online PDF-værktøjer"
+    "pdf_tools__detail_page__more_pdf_tools": "Flere gratis online PDF-værktøjer",
+    "tools__index_page__constant_obj__pdf_to_html__title": "PDF til HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konverter en PDF til HTML og bevar layoutstruktur og billeder"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

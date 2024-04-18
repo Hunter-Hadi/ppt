@@ -465,7 +465,9 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Điều chỉnh kích thước, hướng và lề theo nhu cầu.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Nhấp vào “Tạo PDF ngay!” và chúng tôi sẽ bắt đầu chuyển đổi.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Đó là tất cả! Lưu PDF đã chuyển đổi vào thiết bị của bạn.",
-    "pdf_tools__detail_page__more_pdf_tools": "Thêm Công cụ PDF Trực tuyến Miễn phí"
+    "pdf_tools__detail_page__more_pdf_tools": "Thêm Công cụ PDF Trực tuyến Miễn phí",
+    "tools__index_page__constant_obj__pdf_to_html__title": "Chuyển đổi PDF thành HTML",
+    "tools__index_page__constant_obj__pdf_to_html__description": "Chuyển đổi một tệp PDF thành HTML và giữ cấu trúc bố cục và hình ảnh"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
