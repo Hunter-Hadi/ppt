@@ -456,7 +456,7 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_title": "เพิ่มเอกสารเพิ่มเติม",
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_description": "เมื่อคุณอัปโหลด {{TYPE}} ของคุณคุณจะเห็นตัวอย่างคุณสมบัติคุณสามารถปรับแต่งการตั้งค่าได้ แต่คุณยังสามารถเพิ่มรูปภาพเพิ่มเติมเพื่อแปลงเป็น PDF เราจะรวมไฟล์เหล่านั้นในไฟล์ PDF เดียวสำหรับคุณ",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ซอฟต์แวร์ออนไลน์ฟรี",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "ไม่ต้องใช้เงินที่คุณหมักหมมสำหรับซอฟต์แวร์ขั้นสูงแบบแพงเพื่อแปลง {{TYPE}} เป็น PDF สำหรับการใช้งานประจำวันที่จำกัด โปรแกรมแปลง {{TYPE}} เป็น PDF ของเราเป็นฟรี หากคุณต้องการใช้งานบ่อยขึ้น แน่นอนว่าการใช้งานไม่จำกัดจำนวนเป็นฟรี",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "ไม่ต้องใช้เงินที่คุณหมักหมายกับซอฟต์แวร์ขั้นสูงแบบแพงเพื่อแปลง {{TYPE}} เป็น PDF สำหรับการใช้งานประจำวันที่จำกัด โปรแกรมแปลง {{TYPE}} เป็น PDF ของเราเป็นฟรี หากคุณต้องการใช้งานบ่อยขึ้น แน่นอนว่าการใช้งานไม่จำกัดจำนวนเป็นฟรี",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "การประมวลผลในเครื่อง",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "ไฟล์ทั้งหมดที่คุณอัปโหลดจะถูกประมวลผลในเบราว์เซอร์ของคุณเพื่อความเป็นส่วนตัวอย่างสมบูรณ์ ไม่มีการอัปโหลดไปยังคลาวด์ เพื่อให้มั่นใจในความปลอดภัยและความเป็นส่วนตัวอย่างสมบูรณ์",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "ประหยัด",
     "promotion__banner__elite__title__part2": "ในแผน MaxAI Elite รายปี!",
     "promotion__limited_time_offer": "ข้อเสนอจำกัดเวลา",
-    "payment_type_switch__yearly__tip": "ประหยัดสูงสุด {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "ประหยัดสูงสุด {{RATIO}}%",
+    "footer__pdf_tools": "เครื่องมือ PDF ออนไลน์ฟรี"
   },
   "privacy": {},
   "industry": {

@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Simpan",
     "promotion__banner__elite__title__part2": "pada paket MaxAI Elite Tahunan!",
     "promotion__limited_time_offer": "Penawaran Terbatas",
-    "payment_type_switch__yearly__tip": "Simpan hingga {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Simpan hingga {{RATIO}}%",
+    "footer__pdf_tools": "Alat PDF online gratis"
   },
   "privacy": {},
   "industry": {

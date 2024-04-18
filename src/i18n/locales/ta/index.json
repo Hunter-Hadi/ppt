@@ -381,7 +381,7 @@
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "இணைக்கப்பட்ட HEIC படங்களை PDF க்கு மாற்றுக",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ஒவ்வொன்றான பதிவேடுக்கப்பட்ட படம் ஒரு தனிப்பட்ட PDF இல் ஒரு பக்கமாக ஆகும்.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "இலவச ஆன்லைன் மென்பொருள்",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "உங்கள் கடந்த பணத்தை செலவிடாது {{TYPE}} ஐ PDF ஆக மாற்ற மிகவும் முக்கியமான மென்பொருள்களுக்கு பணம் செலவிடுவதில்லை. எளிதான தினசரி பயன்பாட்டுக்கு, எங்கள் {{TYPE}} ஐ PDF ஆக மாற்றுவது இலவசம். அதேபோல, நீங்கள் அதை அதிக அளவில் பயன்படுத்த வேண்டியால், முழுமையான பயன்பாட்டு முடிவுகள் முழுமையாக இலவசம்."
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "உங்கள் கடந்த பணத்தை செலவிடாது, மிகவும் முக்கியமான மென்பொருள்களை {{TYPE}} ஐ PDF ஆக மாற்ற எளிதான மென்பொருள் வாங்க வேண்டாம். எளிதான தினசரி பயன்பாட்டுக்கு இந்த {{TYPE}} ஐ PDF மாற்றி வைப்பது இலவசம். அதேபோல அதை அதிக அளவில் பயன்படுத்த வேண்டியதால், முழுமையான பயன்பாட்டு முடிவுகள் முழுமையாக இலவசம்."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",

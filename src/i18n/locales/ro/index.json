@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Economisește",
     "promotion__banner__elite__title__part2": "la planul anual MaxAI Elite!",
     "promotion__limited_time_offer": "Ofertă cu durată limitată",
-    "payment_type_switch__yearly__tip": "Economisește până la {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Economisește până la {{RATIO}}%",
+    "footer__pdf_tools": "Instrumente gratuite online pentru PDF"
   },
   "privacy": {},
   "industry": {

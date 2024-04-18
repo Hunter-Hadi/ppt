@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Hifadhi",
     "promotion__banner__elite__title__part2": "kwenye Mpango wa Mwaka wa MaxAI Elite!",
     "promotion__limited_time_offer": "Ofa ya muda mdogo",
-    "payment_type_switch__yearly__tip": "Hifadhi hadi {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Hifadhi hadi {{RATIO}}%",
+    "footer__pdf_tools": "Zana za PDF mkondoni za bure"
   },
   "privacy": {},
   "industry": {

@@ -501,10 +501,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [
-    'pdf_tools__detail_description_object__image_to_pdf__middle_5_title',
-    'pdf_tools__detail_description_object__image_to_pdf__middle_5_description',
-  ];
+  const keys = [];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }

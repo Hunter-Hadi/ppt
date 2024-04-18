@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "I-save",
     "promotion__banner__elite__title__part2": "sa MaxAI Elite Yearly plan!",
     "promotion__limited_time_offer": "Limitadong oras na alok",
-    "payment_type_switch__yearly__tip": "I-save hanggang {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "I-save hanggang {{RATIO}}%",
+    "footer__pdf_tools": "Libreng online na mga tool para sa PDF"
   },
   "privacy": {},
   "industry": {

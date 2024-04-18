@@ -380,8 +380,8 @@
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ለ PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ሄክ ምስልን ወደ PDF በመጫን ይህንን ይመልከቱ",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "የተለያዩ የሄክ ምስሎች በነጻ የእርስዎ ስሌት PDF ይሁኑ",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ነፃ የተከሰተ ንጥል አይነት",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "የ{{TYPE}} ንጥል አይነትን PDF ለመጫን አዲስ ነጥብ አልባ ማስተላለፍ ለማድረግ አስቸኳይ ነው። በተጨማሪ የቀን ጠቋሚ በመጠቀም የ{{TYPE}} ንጥል አይነትን PDF ለመጫን ከፍተኛ አጠቃላይ ነጥብ ነፃ ነው። እንዴትስ በተጨማሪ የቀን ጠቋሚ ማስተላለፍ እንደሚችል ከፍተኛ አጠቃላይ ነጥብ ነው።"
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ነፃ የተከሰተ ንጥል አገልግሎት",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "የ{{TYPE}} ንጥል አገልግሎትን PDF ለመጫን አሁንም አዲስ ነገር ማድረግ አልቻልንም። ለተጠቀሱት ቀን የተከሰተ ንጥል አገልግሎትን ለመጫን እንዴት እንደሚያሳይ ነው። እንዴትስ እንደሚታይ በተጨማሪ ጊዜ አገልግሎት እንዳለመጫን በነጻ ጊዜ ለተጠቀሱት ቀን ከሆነ በጣም በነጻ ጊዜ አገልግሎት እንዲሁም ከሆነ ከሚገኙት አገልግሎቶች ነፃ የተከሰተ ነው።"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",

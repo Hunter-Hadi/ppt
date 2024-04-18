@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "节省",
     "promotion__banner__elite__title__part2": "MaxAI Elite 年度计划！",
     "promotion__limited_time_offer": "限时优惠",
-    "payment_type_switch__yearly__tip": "最高可节省{{RATIO}}%"
+    "payment_type_switch__yearly__tip": "最高可节省{{RATIO}}%",
+    "footer__pdf_tools": "免费在线PDF工具"
   },
   "privacy": {},
   "industry": {

@@ -456,7 +456,7 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_title": "Pridajte ďalšie dokumenty",
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_description": "Po nahraní vášho {{TYPE}} uvidíte náhľad. Môžete upraviť nastavenia, ale aj pridať viac obrázkov na konverziu do PDF. Zlúčime ich do jedného PDF súboru.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Bezplatný online softvér",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Nepoužívajte svoje ťažko zarobené peniaze na drahý pokročilý softvér na konverziu {{TYPE}} do formátu PDF. Pre obmedzené denné použitie je náš konvertor {{TYPE}} do formátu PDF bezplatný. Ak ho potrebujete používať častejšie, samozrejme, neobmedzené používanie je úplne zdarma.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Nemusíte míňať svoje ťažko zarobené peniaze na drahý pokročilý softvér na konverziu {{TYPE}} do PDF. Pre obmedzené denné použitie je náš konvertor {{TYPE}} do PDF úplne bezplatný. Ak ho potrebujete používať častejšie, samozrejme, neobmedzené používanie je úplne zdarma.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Lokálne spracovanie",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Všetky súbory, ktoré nahrajete, sa spracovávajú vo vašom prehliadači pre úplné súkromie. Nie sú uploadované do cloudu, čo zaručuje absolútnu bezpečnosť a súkromie.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Ušetrite",
     "promotion__banner__elite__title__part2": "na ročnom pláne MaxAI Elite!",
     "promotion__limited_time_offer": "Akcia na obmedzený čas",
-    "payment_type_switch__yearly__tip": "Ušetrite až {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Ušetrite až {{RATIO}}%",
+    "footer__pdf_tools": "Bezplatné online nástroje pre PDF"
   },
   "privacy": {},
   "industry": {

@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Poupe",
     "promotion__banner__elite__title__part2": "no plano anual MaxAI Elite!",
     "promotion__limited_time_offer": "Oferta por tempo limitado",
-    "payment_type_switch__yearly__tip": "Poupe até {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Poupe até {{RATIO}}%",
+    "footer__pdf_tools": "Ferramentas PDF online gratuitas"
   },
   "privacy": {},
   "industry": {

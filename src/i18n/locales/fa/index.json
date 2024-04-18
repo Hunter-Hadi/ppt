@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "صرفه جویی کنید",
     "promotion__banner__elite__title__part2": "در طرح سالانه MaxAI Elite!",
     "promotion__limited_time_offer": "پیشنهاد محدود به مدت زمان محدود",
-    "payment_type_switch__yearly__tip": "تا {{RATIO}}% صرفه‌جویی کنید"
+    "payment_type_switch__yearly__tip": "تا {{RATIO}}% صرفه‌جویی کنید",
+    "footer__pdf_tools": "ابزارهای آنلاین رایگان PDF"
   },
   "privacy": {},
   "industry": {

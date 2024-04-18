@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Uštedite",
     "promotion__banner__elite__title__part2": "na MaxAI Elite godišnjem planu!",
     "promotion__limited_time_offer": "Ponuda sa ograničenim vremenom",
-    "payment_type_switch__yearly__tip": "Uštedite do {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Uštedite do {{RATIO}}%",
+    "footer__pdf_tools": "Besplatni online alati za PDF"
   },
   "privacy": {},
   "industry": {

@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Estalvia",
     "promotion__banner__elite__title__part2": "en el pla anual MaxAI Elite!",
     "promotion__limited_time_offer": "Oferta per temps limitat",
-    "payment_type_switch__yearly__tip": "Estalvia fins a {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Estalvia fins a {{RATIO}}%",
+    "footer__pdf_tools": "Eines gratuïtes en línia per a PDF"
   },
   "privacy": {},
   "industry": {

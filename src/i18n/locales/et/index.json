@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Säästa",
     "promotion__banner__elite__title__part2": "MaxAI Elite aastaplaanil!",
     "promotion__limited_time_offer": "Piiratud aja pakkumine",
-    "payment_type_switch__yearly__tip": "Säästa kuni {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Säästa kuni {{RATIO}}%",
+    "footer__pdf_tools": "Tasuta veebipõhised PDF tööriistad"
   },
   "privacy": {},
   "industry": {

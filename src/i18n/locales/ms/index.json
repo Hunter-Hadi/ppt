@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Jimat",
     "promotion__banner__elite__title__part2": "pada pelan Tahunan MaxAI Elite!",
     "promotion__limited_time_offer": "Tawaran Terhad Masa",
-    "payment_type_switch__yearly__tip": "Jimat sehingga {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Jimat sehingga {{RATIO}}%",
+    "footer__pdf_tools": "Alat PDF dalam talian percuma"
   },
   "privacy": {},
   "industry": {

@@ -456,7 +456,7 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_title": "Voeg extra documenten toe",
     "pdf_tools__detail_description_object__image_to_pdf__middle_4_description": "Nadat u uw {{TYPE}} heeft geüpload, ziet u een voorbeeld. U kunt de instellingen aanpassen, maar ook meer afbeeldingen toevoegen om naar PDF te converteren. We combineren ze in één PDF-bestand voor u.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Gratis Online Software",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Besteed je zuurverdiende geld niet aan dure geavanceerde software om {{TYPE}} naar PDF te converteren. Voor beperkt dagelijks gebruik is onze {{TYPE}} naar PDF converter gratis te gebruiken. Als je het vaker nodig hebt, is onbeperkt gebruik natuurlijk volledig gratis.",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Besteed je hardverdiende geld niet aan dure geavanceerde software om {{TYPE}} naar PDF te converteren. Voor beperkt dagelijks gebruik is onze {{TYPE}} naar PDF converter gratis te gebruiken. Als je het vaker nodig hebt, is onbeperkt gebruik natuurlijk volledig gratis.",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Lokale verwerking",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Alle bestanden die u uploadt, worden in uw browser verwerkt voor volledige privacy. Ze worden niet geüpload naar de cloud, wat zorgt voor absolute beveiliging en privacy.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "GeschiedenisEdu",
@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Bespaar",
     "promotion__banner__elite__title__part2": "op MaxAI Elite Jaarplan!",
     "promotion__limited_time_offer": "Beperkte tijd aanbieding",
-    "payment_type_switch__yearly__tip": "Bespaar tot {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Bespaar tot {{RATIO}}%",
+    "footer__pdf_tools": "Gratis online PDF-tools"
   },
   "privacy": {},
   "industry": {

@@ -618,7 +618,8 @@
     "promotion__banner__elite__title__part1": "Запазете",
     "promotion__banner__elite__title__part2": "на годишния план MaxAI Elite!",
     "promotion__limited_time_offer": "Оферта с ограничено време",
-    "payment_type_switch__yearly__tip": "Спестете до {{RATIO}}%"
+    "payment_type_switch__yearly__tip": "Спестете до {{RATIO}}%",
+    "footer__pdf_tools": "Безплатни онлайн инструменти за PDF"
   },
   "privacy": {},
   "industry": {
