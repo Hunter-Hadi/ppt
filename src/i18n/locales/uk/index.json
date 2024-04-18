@@ -357,8 +357,8 @@
     "contact_us__item3": "ہمیں درجہ بندی ★★★★★ کر کے ہماری حمایت کریں",
     "contact_us__item3__store": "توسیع ویب اسٹور",
     "contact_us__item4": "اس توسیع کو شیئر کر کے دوسروں کی مدد کریں:",
-    "tools__index_page__title": "میکس اے آئی ٹولز",
-    "tools__index_page__description": "تمام پی ڈی ایف ٹولز 100٪ مفت ہیں اور آپ کے براؤزر میں چلتے ہیں تاکہ آپ کی مکمل رازداری محفوظ رہے",
+    "tools__index_page__title": "مفت آن لائن پی ڈی ایف ٹولز",
+    "tools__index_page__description": "تمام آلات جو آپ کو مزید تکمیل دینے اور دستاویزات کے ساتھ ذہین کام کرنے کی ضرورت ہوگی. 100٪ مفت اور براؤزر پر مبنی خصوصیت کے لئے.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF سے PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF سے JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDFs کو مرکٹ کریں",
@@ -380,8 +380,8 @@
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC سے PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "HEIC تصاویر کو آن لائن پی ڈی ایف میں تبدیل کریں",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "ہر اپ لوڈ کی گئی تصویر ایک پی ڈی ایف میں ایک صفحہ بن جائے گی۔",
-    "tools__index_page__constant_obj__pdf_to_html__title": "PDF سے HTML میں تبدیل کریں",
-    "tools__index_page__constant_obj__pdf_to_html__description": "ترتیب ساخت اور تصاویر کو برقرار رکھتے ہوئے PDF کو HTML میں تبدیل کریں"
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "مفت آن لائن سافٹ ویئر",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "اپنے محنت کش پیسے خرچ کرنے کی ضرورت نہیں ہے مہنگے ترین پیشرفتہ سافٹ ویئر کو {{TYPE}} کو PDF میں تبدیل کرنے کے لئے. محدود روزانہ استعمال کے لئے ہمارا {{TYPE}} کو PDF کنورٹر استعمال کرنا بالکل مفت ہے. اگر آپ کو اسے زیادہ فعالیت سے استعمال کرنے کی ضرورت ہوتی ہے، تو البتہ، بلا شکل استعمال بالکل مفت ہے."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -620,7 +620,7 @@
     "install__title": "انسٹال کریں | میکس اے آئی",
     "zmo__title": "All-in-one AI ڈیزائن آرٹ جنریٹر | AI تصویر جنریٹر فارم ٹیکسٹ | ImgCreator.AI",
     "zmo__description": "مفت میں AI کے ساتھ آرٹ اور تصاویر بنائیں۔ ImgCreator.ai تصاویر، آرٹ، تشریحات، انیمیشن، لوگو، ڈیزائنز کو ٹیکسٹ اور تصاویر سے تشکیل دیں۔ ہماری مخصوص تکنولوجی آپ کی تصورات کو زندہ کر دے گی۔",
-    "pdf_tools__title": "مفت پی ڈی ایف ٹولز - پی ڈی ایف کو آن لائن تبدیل، سکھڑا کریں اور ترمیم کریں | MaxAI.me",
+    "pdf_tools__title": "مفت آن لائن پی ڈی ایف ٹولز - تبدیل کریں، کمپریس کریں، ترمیم کریں | MaxAI.me",
     "pdf_tools__description": "ہمارے ٹولز کے مجموعے کا استعمال کریں تاکہ آپ پی ڈی ایف کو آن لائن تبدیل، سکھڑا کریں، ترمیم کریں اور سائن کریں۔",
     "pdf_tools__pdf_to_jpeg__title": "PDF سے JPEG - کسی بھی PDF کو مفت آن لائن تصاویر میں تبدیل کریں | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "مفت آن لائن پی ڈی ایف فائلوں کے صفحات کو جے پی ایج کی تصاویر میں تبدیل کریں یا اپنی پی ڈی ایف فائلوں سے الگ الگ تصاویر نکالیں۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",

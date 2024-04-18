@@ -357,8 +357,8 @@
     "contact_us__item3": "आपल्या ★★★★★ रेटिंगद्वारे आमची मदत करा",
     "contact_us__item3__store": "एक्सटेंशन वेब स्टोर",
     "contact_us__item4": "ह्या एक्सटेंशनला सामायिक करून इतरांना मदत करा:",
-    "tools__index_page__title": "मॅक्सएआय टूल्स",
-    "tools__index_page__description": "सर्व PDF टूल 100% मोफत आहेत आणि पूर्ण गोपनीयतेसाठी तुमच्या ब्राउझरमध्ये चालविले जातात",
+    "tools__index_page__title": "विनामूल्य ऑनलाइन पीडीएफ उपकरण",
+    "tools__index_page__description": "दस्तावेजांसह कार्यक्षमता वाढविण्यासाठी आणि डॉक्युमेंटसह स्मार्टरपणे काम करण्यासाठी आपल्याला आवश्यक असणारे सर्व उपकरण. पूर्ण गोपनीयतेसाठी 100% मोफत आणि ब्राउझर-आधारित.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ते PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ते JPEG",
     "tools__index_page__constant_obj__merge_pdfs__title": "PDF एकत्रीकरण",
@@ -380,8 +380,8 @@
     "tools__index_page__constant_obj__heic_to_pdf__title": "HEIC ते PDF",
     "tools__index_page__constant_obj__heic_to_pdf__main_description": "ऑनलाइन HEIC चित्रे PDF मध्ये रूपांतरित करा",
     "tools__index_page__constant_obj__heic_to_pdf__secondary_description": "प्रत्येक अपलोड केलेल्या चित्राला एकटा PDF मध्ये पृष्ठ म्हणून वापरले जाईल.",
-    "tools__index_page__constant_obj__pdf_to_html__title": "PDF ते HTML",
-    "tools__index_page__constant_obj__pdf_to_html__description": "लेआउट संरचना आणि छायाचित्रे ठेवता PDF ला HTML मध्ये रूपांतरित करा"
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "विनामूल्य ऑनलाइन सॉफ्टवेअर",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "तुमचे कडीचे पैसे खर्च करू नका, {{TYPE}} ला PDF मध्ये रूपांतरित करण्यासाठी मोठ्या अग्रिम सॉफ्टवेअरवर. दररोजच्या सीमित वापरासाठी, आपले {{TYPE}} ला PDF रूपांतरक मोफत वापरा. जर तुम्हाला ते अधिक वेळ वापरायला लागेल, तरी अगदी वापर मोफत आहे."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -620,7 +620,7 @@
     "install__title": "स्थापित करा | MaxAI.me",
     "zmo__title": "सर्व-एकत्र AI डिझाईन आर्ट जेनरेटर | पाठामधून AI छायाचित्र जेनरेटर | ImgCreator.AI",
     "zmo__description": "मोफताने AI सह कला आणि छायाचित्रे तयार करा. ImgCreator.ai च्या मदतीने पाठ आणि छायाचित्रांपासून चित्रे, कला, इलस्ट्रेशन, अनिमे, लोगो, डिझाईन प्रमाणे तयार करा. आमच्या संपादकीय तंत्रज्ञानाने तुमच्या कल्पनेचे आयात घेऊन येईल.",
-    "pdf_tools__title": "मोफत PDF टूल - परिवर्तन, संपीडन आणि संपादन करा | MaxAI.me",
+    "pdf_tools__title": "विनामूल्य ऑनलाइन पीडीएफ उपकरण - रूपांतरण, संपीडन, संपादन | MaxAI.me",
     "pdf_tools__description": "मोफत ऑनलाइन उपकरण संग्रह तुमची मदत करण्यासाठी ज्ञानरंजक आहेत, ज्यामुळे तुम्ही PDF फाइल्स निर्माण करू शकता, संपीडन करू शकता, संपादन करू शकता आणि हस्ताक्षर करू शकता.",
     "pdf_tools__pdf_to_jpeg__title": "PDF ते JPEG - कोणत्याही PDF चित्रे ऑनलाइन विनामूल्य रूपांतरित करा | MaxAI.me",
     "pdf_tools__pdf_to_jpeg__description": "आपल्या PDF फाइलमधून JPEG छायाचित्रे रूपांतरित किंवा वैयक्तिक छायाचित्रे विनिमय करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",

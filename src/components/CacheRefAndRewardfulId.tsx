@@ -29,6 +29,10 @@ const CacheRefAndRewardfulId = () => {
     });
   }, []);
 
+  if (router.pathname.startsWith('/embed')) {
+    return null;
+  }
+
   return (
     <>
       {/* 如果有 ref 传入，通过加载 iframe 来保存 ref 到 app */}

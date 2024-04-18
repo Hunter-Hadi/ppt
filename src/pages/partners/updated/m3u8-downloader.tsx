@@ -6,6 +6,7 @@ import ProLink from '@/components/ProLink';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
 import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
+import TryExtensionButton from '@/page_components/partners_components/TryExtensionButton';
 
 const UpdatedPage = () => {
   const propRef = 'm3u8downloader';
@@ -51,21 +52,7 @@ const UpdatedPage = () => {
         </Typography>
       </Stack>
       <Box position='relative'>
-        <Box
-          sx={{
-            position: 'absolute',
-            top: -24,
-            left: '50%',
-            bgcolor: '#F4EBFB',
-            transform: 'translateX(-50%)',
-            borderRadius: 99,
-            px: 2,
-            py: 1,
-            whiteSpace: 'nowrap',
-          }}
-        >
-          <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
-        </Box>
+        <TryExtensionButton propRef={propRef} />
         <HomePageContent propRef={propRef} />
       </Box>
       <FixedCtaButton propRef={propRef} />

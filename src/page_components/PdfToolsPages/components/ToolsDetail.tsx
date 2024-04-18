@@ -1,4 +1,4 @@
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, lazy, Suspense, useMemo } from 'react';
 
@@ -7,10 +7,13 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import FunctionalityImageToPdfMain from '@/features/functionality_image_to_pdf/components/FunctionalityImageToPdfMain';
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
+import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards';
+import ToolsDetailDescription from '@/page_components/PdfToolsPages/components/ToolsDetailDescription';
 import {
   IToolUrkKeyType,
   toolsObjectData,
 } from '@/page_components/PdfToolsPages/constant';
+import { toolsDetailDescriptionObject } from '@/page_components/PdfToolsPages/constant/toolsDetailDescriptionData';
 
 const FunctionalityPdfToImageMain = lazy(
   () =>
@@ -92,6 +95,14 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: 'not_i18:sign-pdf',
     },
   };
+  const toolsDetailDescriptionData = toolsDetailDescriptionObject[urlKey];
+  const toolList = useMemo(
+    () =>
+      Object.keys(toolsObjectData)
+        .filter((key) => key !== urlKey)
+        .map((key) => toolsObjectData[key]),
+    [urlKey],
+  );
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
       <AppDefaultSeoLayout
@@ -127,6 +138,34 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
         </Suspense>
       </Box>
+      {toolsDetailDescriptionData && (
+        <ToolsDetailDescription descriptionInfo={toolsDetailDescriptionData} />
+      )}
+      {toolList && toolList.length > 0 && (
+        <Box
+          sx={{
+            borderTop: '1px solid #e8e8e8',
+          }}
+        >
+          <Typography
+            component='h2'
+            mt={10}
+            mb={3}
+            sx={{
+              fontSize: {
+                xs: 20,
+                lg: 22,
+              },
+              fontWeight: 600,
+              color: 'text.primary',
+              textAlign: 'center',
+            }}
+          >
+            {t('pages:pdf_tools__detail_page__more_pdf_tools')}
+          </Typography>
+          <ToolsCards list={toolList} />
+        </Box>
+      )}
     </AppContainer>
   );
 };
