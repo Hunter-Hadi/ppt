@@ -10,9 +10,9 @@ import { cloneDeep } from 'lodash-es';
 import { FC, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
-import FunctionalitySignPdfShowPdfView from '../FunctionalitySignPdfShowPdfView';
 import { pdfAddView } from '../utils/pdfAddView';
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView';
+import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -109,6 +109,7 @@ export const FunctionalitySignPdfDetail: FC<
           sx={{
             flex: 1,
             backgroundColor: '#fafafa',
+            overflow: 'hidden',
           }}
         >
           <FunctionalitySignPdfShowPdfView

@@ -3,10 +3,10 @@ import 'react-pdf/dist/Page/TextLayer.css';
 
 import { useDroppable } from '@dnd-kit/core';
 import { Box } from '@mui/material';
-import { FC, useEffect, useRef, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
-import { ISignData } from '../components/FunctionalitySignPdfDetail';
+import { ISignData } from '../FunctionalitySignPdfDetail';
 import { FunctionalitySignPdfShowPdfCanvas } from './components/FunctionalitySignPdfShowPdfCanvas';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -43,8 +43,9 @@ interface IFunctionalitySignPdfShowPdfViewProps {
 export const FunctionalitySignPdfShowPdfView: FC<
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file, signaturePositions }) => {
+  //PDF的页数
   const [numPages, setNumPages] = useState<number>();
-  const canvasRef = useRef<any>(null);
+  // 用来存储宽度的state
   useEffect(() => {
     console.log('simply signaturePositions', signaturePositions);
   }, [signaturePositions]);
@@ -53,7 +54,11 @@ export const FunctionalitySignPdfShowPdfView: FC<
   }
 
   return (
-    <Box>
+    <Box
+      sx={{
+        width: '100%',
+      }}
+    >
       <Document
         file={file}
         externalLinkTarget='_blank'
@@ -61,12 +66,18 @@ export const FunctionalitySignPdfShowPdfView: FC<
       >
         {Array.from(new Array(numPages), (el, index) => (
           <FunctionalitySignPdfDroppable key={index} index={index}>
-            <Box sx={{ position: 'relative' }}>
+            <Box
+              sx={{
+                position: 'relative',
+                '.react-pdf__Page__canvas': {
+                  width: `100%!important`,
+                  height: 'auto!important',
+                },
+              }}
+            >
               <Page
                 key={`page_${index + 1}`}
                 renderTextLayer={true}
-                renderAnnotationLayer={true}
-                renderForms={true}
                 pageNumber={index + 1}
                 width={1080}
               />
