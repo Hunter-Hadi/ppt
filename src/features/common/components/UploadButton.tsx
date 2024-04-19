@@ -89,26 +89,24 @@ const UploadButton: FC<
       : {};
   }, [isDrag]);
   return (
-    <div>
-      <Button
-        {...dragMap}
-        component='label'
-        sx={{
-          position: 'relative',
-        }}
-        {...(buttonProps as any)}
-      >
-        {!isSidebarDragOver && children}
-        {isSidebarDragOver && <div>Drop here</div>}
-        <VisuallyHiddenInput
-          type='file'
-          onChange={(event) =>
-            onChange && event.target.files && onChange(event.target.files)
-          }
-          {...inputProps}
-        />
-      </Button>
-    </div>
+    <Button
+      {...dragMap}
+      component='label'
+      sx={{
+        position: 'relative',
+      }}
+      {...(buttonProps as any)}
+    >
+      {!isSidebarDragOver && children}
+      {isSidebarDragOver && <div>Drop here</div>}
+      <VisuallyHiddenInput
+        type='file'
+        onChange={(event) =>
+          onChange && event.target.files && onChange(event.target.files)
+        }
+        {...inputProps}
+      />
+    </Button>
   );
 };
 

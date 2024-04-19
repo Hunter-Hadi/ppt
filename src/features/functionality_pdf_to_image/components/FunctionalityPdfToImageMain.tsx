@@ -55,7 +55,6 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
       alignItems='center'
       justifyContent='center'
       sx={{
-        pb: 5,
         width: '100%',
       }}
     >

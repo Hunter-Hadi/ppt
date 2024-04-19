@@ -361,7 +361,7 @@
     "tools__index_page__description": "Todas as ferramentas que você precisa para ser mais produtivo e trabalhar de forma mais inteligente com documentos. 100% GRATUITAS e baseadas no navegador para total privacidade.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF para PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF para JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Juntar PDFs",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Unir PDFs",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dividir um PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG para PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG para PDF",
@@ -851,6 +851,5 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
     "components__pdf_to_html__button__download": "Download",
     "components__pdf_to_html__button__Convert": "Converter outro"
-  },
-  "": ""
+  }
 }

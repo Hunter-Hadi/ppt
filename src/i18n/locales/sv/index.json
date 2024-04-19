@@ -361,7 +361,7 @@
     "tools__index_page__description": "Alla verktyg du behöver för att vara mer produktiv och arbeta smartare med dokument. 100% GRATIS och webbläsarbaserat för fullständig integritet.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF till PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF till JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Slå samman PDF-filer",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Slå samman PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dela upp en PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG till PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG till PDF",
@@ -851,6 +851,5 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
     "components__pdf_to_html__button__download": "Ladda ner",
     "components__pdf_to_html__button__Convert": "Konvertera en annan"
-  },
-  "": ""
+  }
 }

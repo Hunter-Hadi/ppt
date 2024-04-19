@@ -365,7 +365,7 @@
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF to JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Export each page as a JPEG or extract individual images from the PDF to JPEGs",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDF",
     "tools__index_page__constant_obj__merge_pdfs__main_description": "Merge any amount of PDFs in the order you choose into a single PDF",
     "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Merge multiple PDF files into one with just a few clicks",
     "tools__index_page__constant_obj__split_a_pdf__title": "Split a PDF",

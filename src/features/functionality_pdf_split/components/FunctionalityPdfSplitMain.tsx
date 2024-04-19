@@ -236,7 +236,6 @@ export const FunctionalityPdfSplitMain = () => {
       alignItems='center'
       justifyContent='center'
       sx={{
-        pb: 5,
         width: '100%',
       }}
     >

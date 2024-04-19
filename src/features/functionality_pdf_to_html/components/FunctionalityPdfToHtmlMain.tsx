@@ -111,7 +111,6 @@ const FunctionalityPdfToHtmlMain = () => {
       justifyContent='center'
       sx={{
         display: 'flex',
-        pb: 5,
         width: '100%',
       }}
     >
