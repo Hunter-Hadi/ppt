@@ -1,7 +1,7 @@
 import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import ControlPointTwoToneIcon from '@mui/icons-material/ControlPointTwoTone';
 import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone';
+import UploadFileIcon from '@mui/icons-material/UploadFile';
 import { SvgIconProps } from '@mui/material';
 import { FC } from 'react';
 
@@ -16,7 +16,7 @@ const FunctionalityCommonIcon: FC<{ name: string } & SvgIconProps> = ({
   const renderIcon = () => {
     switch (name) {
       case 'CloudUploadIcon': {
-        return <CloudUploadIcon {...restProps} />;
+        return <UploadFileIcon {...restProps} />;
       }
       case 'ControlPointTwoTone': {
         return <ControlPointTwoToneIcon {...restProps} />;

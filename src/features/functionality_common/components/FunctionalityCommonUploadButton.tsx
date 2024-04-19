@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
@@ -15,56 +15,37 @@ const FunctionalityCommonUploadButton: FC<IUploadButtonProps> = (props) => {
   const { t } = useTranslation();
 
   return (
-    <Box
-      sx={{
-        width: '100%',
-        bgcolor: 'primary.main',
-        borderRadius: 2,
-      }}
-    >
-      <Box
-        sx={{
-          border: '1px dashed #fff',
-          margin: 1,
-          borderRadius: 2,
+    <UploadButton
+      buttonProps={{
+        sx: {
+          display: 'flex',
+          flexDirection: 'column',
           height: 280,
+          width: 260,
+          alignItems: 'center',
+          justifyContent: 'center',
+          border: '1px dashed',
+        },
+        variant: 'outlined',
+      }}
+      inputProps={{
+        accept: 'application/pdf',
+        multiple: true,
+      }}
+      {...props}
+    >
+      <FunctionalityCommonIcon sx={{ fontSize: 34 }} name='CloudUploadIcon' />
+      <Typography
+        sx={{
+          fontSize: {
+            xs: 12,
+            lg: 14,
+          },
         }}
       >
-        <UploadButton
-          buttonProps={{
-            fullWidth: true,
-            sx: {
-              display: 'flex',
-              flexDirection: 'column',
-              height: '100%',
-              alignItems: 'center',
-              justifyContent: 'center',
-            },
-            variant: 'contained',
-          }}
-          inputProps={{
-            accept: 'application/pdf',
-            multiple: true,
-          }}
-          {...props}
-        >
-          <FunctionalityCommonIcon
-            sx={{ fontSize: 50 }}
-            name='CloudUploadIcon'
-          />
-          <Typography
-            sx={{
-              fontSize: {
-                xs: 18,
-                lg: 20,
-              },
-            }}
-          >
-            {t('functionality__pdf_to_image:components__index__upload_title')}
-          </Typography>
-        </UploadButton>
-      </Box>
-    </Box>
+        {t('functionality__pdf_to_image:components__index__upload_title')}
+      </Typography>
+    </UploadButton>
   );
 };
 
