@@ -13,15 +13,15 @@ export const textToBase64Image = (text: string, fontSize: number = 40) => {
 
         // 根据文字的宽度和高度调整画布的大小
         canvas.width = textWidth;
-        canvas.height = textHeight;
+        canvas.height = textHeight + 18; // 调整高度，增加上内边距
 
         // 再次填充文本以适应大小变化
         context.font = `${fontSize}px Arial`;
         context.textBaseline = 'top';
 
         // 你可以选择填充文本的颜色 context.fillStyle = '#000000';
-        // 填充文字
-        context.fillText(text, 0, 0);
+        // 填充文本
+        context.fillText(text, 0, 9); // 调整绘制文本的起始Y坐标，增加上内边距的一半
 
         // 将canvas转换为base64格式图片
         const dataURL = canvas.toDataURL('image/png');

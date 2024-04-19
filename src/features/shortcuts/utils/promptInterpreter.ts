@@ -13,16 +13,16 @@ import { mergeWithObject } from '@/utils/dataHelper/objectHelper'
 type IActionSetVariable = any
 
 export type IPresetVariableName =
-    | 'LIVE_CRAWLING_TARGET_URL'
-    | 'LIVE_CRAWLING_CRAWLED_TEXT'
-    | 'WEB_SEARCH_QUERY'
-    | 'WEB_SEARCH_RESULTS'
-    | 'SELECTED_TEXT'
-    | 'CURRENT_WEBSITE_DOMAIN'
-    | 'SYSTEM_CURRENT_DATE'
-    | 'AI_RESPONSE_LANGUAGE'
-    | 'AI_RESPONSE_TONE'
-    | 'AI_RESPONSE_WRITING_STYLE'
+  | 'LIVE_CRAWLING_TARGET_URL'
+  | 'LIVE_CRAWLING_CRAWLED_TEXT'
+  | 'WEB_SEARCH_QUERY'
+  | 'WEB_SEARCH_RESULTS'
+  | 'SELECTED_TEXT'
+  | 'CURRENT_WEBSITE_DOMAIN'
+  | 'SYSTEM_CURRENT_DATE'
+  | 'AI_RESPONSE_LANGUAGE'
+  | 'AI_RESPONSE_TONE'
+  | 'AI_RESPONSE_WRITING_STYLE'
 export interface IPresetActionSetVariable extends IActionSetVariable {
   VariableName: IPresetVariableName
 }
@@ -49,7 +49,7 @@ export const PRESET_VARIABLE_MAP: {
       },
       {
         pattern:
-            '(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)?[a-zA-Z0-9]{2,}(\\.[a-zA-Z0-9]{2,})(\\.[a-zA-Z0-9]{2,})?',
+          '(https:\\/\\/www\\.|http:\\/\\/www\\.|https:\\/\\/|http:\\/\\/)?[a-zA-Z0-9]{2,}(\\.[a-zA-Z0-9]{2,})(\\.[a-zA-Z0-9]{2,})?',
         message: 'Please enter a valid URL',
       },
     ],
@@ -58,7 +58,7 @@ export const PRESET_VARIABLE_MAP: {
     VariableName: 'LIVE_CRAWLING_CRAWLED_TEXT',
     label: 'LIVE_CRAWLING_CRAWLED_TEXT',
     placeholder:
-        'This variable will be automatically updated with text extracted from the target URL',
+      'This variable will be automatically updated with text extracted from the target URL',
     valueType: 'Text',
     systemVariable: true,
     defaultValue: '{{SELECTED_TEXT}}',
@@ -80,7 +80,7 @@ export const PRESET_VARIABLE_MAP: {
     VariableName: 'WEB_SEARCH_RESULTS',
     label: 'WEB_SEARCH_RESULTS',
     placeholder:
-        'This variable will be automatically updated with the search results',
+      'This variable will be automatically updated with the search results',
     valueType: 'Text',
     systemVariable: true,
   },
@@ -133,7 +133,7 @@ export const PRESET_VARIABLES_GROUP_MAP: {
     {
       variable: PRESET_VARIABLE_MAP.SELECTED_TEXT,
       description:
-          'prompt_editor:preset_variables__system__selected_text__description',
+        'prompt_editor:preset_variables__system__selected_text__description',
       examples: [
         'prompt_editor:preset_variables__system__selected_text__description__example1',
         'prompt_editor:preset_variables__system__selected_text__description__example2',
@@ -142,7 +142,7 @@ export const PRESET_VARIABLES_GROUP_MAP: {
     {
       variable: PRESET_VARIABLE_MAP.CURRENT_WEBSITE_DOMAIN,
       description:
-          'prompt_editor:preset_variables__system__current_website_domain__description',
+        'prompt_editor:preset_variables__system__current_website_domain__description',
       examples: [
         'prompt_editor:preset_variables__system__current_website_domain__example1',
         'prompt_editor:preset_variables__system__current_website_domain__example2',
@@ -151,7 +151,7 @@ export const PRESET_VARIABLES_GROUP_MAP: {
     {
       variable: PRESET_VARIABLE_MAP.SYSTEM_CURRENT_DATE,
       description:
-          'prompt_editor:preset_variables__system__system_current_date__description',
+        'prompt_editor:preset_variables__system__system_current_date__description',
       examples: [],
     },
   ],

@@ -6,7 +6,6 @@ import { ISignData } from "../components/FunctionalitySignPdfDetail";
 //file 是pdf
 export const pdfAddView = async (file: File, addViewList: ISignData[]) => {
     // Create a new PDFDocument or load the existing PDF file
-    debugger
     let pdfDoc: PDFDocument | null = null;
     try {
         const fileBuffer = await file.arrayBuffer();
@@ -20,7 +19,7 @@ export const pdfAddView = async (file: File, addViewList: ISignData[]) => {
     for (const view of addViewList) {
         const { pdfIndex } = view;
         const page = pdfDoc.getPage(pdfIndex);
-        const canvas = document.querySelector('.sample-canvas-1 .lower-canvas') as HTMLCanvasElement;
+        const canvas = document.querySelector(`.sample-canvas-${pdfIndex + 1} .lower-canvas`) as HTMLCanvasElement;
         console.log('simply canvas', canvas)
         if (canvas) {
             const image = canvas.toDataURL('image/png');

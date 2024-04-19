@@ -1,4 +1,4 @@
-import { Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { FC, Fragment } from 'react';
 
 import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
@@ -65,10 +65,11 @@ const FunctionalitySignPdfSignatureView: FC<
           <img
             src={valueList[0]}
             style={{
-              height: 45,
+              width: 'calc(100% - 50px)',
             }}
           />
         )}
+        {isHaveValue && <Box></Box>}
       </Stack>
     </FunctionalitySignPdfOperationDraggable>
   );

@@ -7,7 +7,7 @@ import { FC, useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
 import { ISignData } from '../FunctionalitySignPdfDetail';
-import { FunctionalitySignPdfShowPdfCanvas } from './components/FunctionalitySignPdfShowPdfCanvas';
+import FunctionalitySignPdfRenderCanvas from './components/FunctionalitySignPdfRenderCanvas';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -59,46 +59,58 @@ export const FunctionalitySignPdfShowPdfView: FC<
         width: '100%',
       }}
     >
-      <Document
-        file={file}
-        externalLinkTarget='_blank'
-        onLoadSuccess={onDocumentLoadSuccess}
+      <Box
+        sx={{
+          m: 4,
+        }}
       >
-        {Array.from(new Array(numPages), (el, index) => (
-          <FunctionalitySignPdfDroppable key={index} index={index}>
-            <Box
-              sx={{
-                position: 'relative',
-                '.react-pdf__Page__canvas': {
-                  width: `100%!important`,
-                  height: 'auto!important',
-                },
-              }}
-            >
-              <Page
-                key={`page_${index + 1}`}
-                renderTextLayer={true}
-                pageNumber={index + 1}
-                width={1080}
-              />
+        <Document
+          file={file}
+          externalLinkTarget='_blank'
+          onLoadSuccess={onDocumentLoadSuccess}
+        >
+          {Array.from(new Array(numPages), (el, index) => (
+            <FunctionalitySignPdfDroppable key={index} index={index}>
               <Box
                 sx={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  bottom: 0,
-                  right: 0,
-                  zIndex: 9,
+                  position: 'relative',
+                  overflow: 'hidden',
+                  marginBottom: 3,
+                  '.react-pdf__Page__canvas': {
+                    width: `100%!important`,
+                    height: 'auto!important',
+                  },
                 }}
               >
-                <FunctionalitySignPdfShowPdfCanvas
-                  signaturePositions={signaturePositions}
+                <Page
+                  key={`page_${index + 1}`}
+                  renderTextLayer={true}
+                  pageNumber={index + 1}
+                  width={1080}
                 />
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    bottom: 0,
+                    right: 0,
+                    zIndex: 9,
+                  }}
+                >
+                  <FunctionalitySignPdfRenderCanvas
+                    canvasIndex={index + 1}
+                    renderList={signaturePositions.filter(
+                      (signaturePosition) =>
+                        signaturePosition.pdfIndex === index,
+                    )}
+                  />
+                </Box>
               </Box>
-            </Box>
-          </FunctionalitySignPdfDroppable>
-        ))}
-      </Document>
+            </FunctionalitySignPdfDroppable>
+          ))}
+        </Document>
+      </Box>
     </Box>
   );
 };

@@ -2,6 +2,7 @@ import { useDraggable } from '@dnd-kit/core';
 import { Box, Stack } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
 import { FC, useState } from 'react';
+import { v4 as uuidV4 } from 'uuid';
 
 import FunctionalitySignPdfSignatureModal, {
   ISignatureType,
@@ -15,18 +16,14 @@ export const FunctionalitySignPdfOperationDraggable: FC<{
   children: React.ReactNode;
   data?: { type: string; value: string };
 }> = ({ id, data, children, disabled }) => {
-  const { attributes, listeners, setNodeRef, transform } = useDraggable({
+  const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,
-    data: { id: id, ...data },
+    data: { id: uuidV4(), ...data },
     disabled: disabled,
   });
-  const style = transform
-    ? {
-        transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`,
-      }
-    : undefined;
+
   return (
-    <Box ref={setNodeRef} sx={style} {...listeners} {...attributes}>
+    <Box ref={setNodeRef} {...listeners} {...attributes}>
       {children}
     </Box>
   );
@@ -38,6 +35,7 @@ const FunctionalitySignPdfOperationView: FC<
 > = () => {
   const currentIndex = 0;
   const [open, setOpen] = useState(false);
+
   const [signatureViewList, setSignatureViewList] = useState<
     {
       type: string;

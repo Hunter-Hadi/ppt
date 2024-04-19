@@ -33,7 +33,7 @@ const FunctionalitySignPdfSignatureModal: FC<
   };
   const onConfirm = () => {
     if (tabValue === 'type') {
-      const imageString = textToBase64Image(typeInputVal);
+      const imageString = textToBase64Image(typeInputVal, 80);
       if (imageString) {
         onCreate(tabValue, imageString);
       }
