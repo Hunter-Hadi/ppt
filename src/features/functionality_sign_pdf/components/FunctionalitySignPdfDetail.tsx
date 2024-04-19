@@ -36,7 +36,10 @@ export const FunctionalitySignPdfDetail: FC<
   const [, setIsDropped] = useState(false);
   const dndDragRef = useRef<HTMLElement | null>(null);
   const [signaturePositions, setSignaturePositions] = useState<ISignData[]>([]);
-  const pdfViewHeight = useMemo(() => window.innerHeight - 300, []);
+  const pdfViewHeight = useMemo(() => {
+    const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top;
+    return window.innerHeight - (distanceFromTop || 280) - 10;
+  }, []);
   const [activeDragData, setActiveDragData] = useState<{
     type: string;
     value: string;
