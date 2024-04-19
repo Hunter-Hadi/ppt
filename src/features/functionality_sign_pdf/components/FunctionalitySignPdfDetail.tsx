@@ -33,7 +33,6 @@ export type ISignData = {
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file }) => {
-  const [, setIsDropped] = useState(false);
   const dndDragRef = useRef<HTMLElement | null>(null);
   const [signaturePositions, setSignaturePositions] = useState<ISignData[]>([]);
   const pdfViewHeight = useMemo(() => {
@@ -49,7 +48,6 @@ export const FunctionalitySignPdfDetail: FC<
     setActiveDragData(null);
     console.log('simply handleDragEnd', event);
     if (event.over && event.over.id) {
-      setIsDropped(true);
       const { delta, over, active } = event;
       const parentRect = dndDragRef.current?.getBoundingClientRect();
       var childRect = document

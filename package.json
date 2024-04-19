@@ -67,6 +67,7 @@
     "remark-gfm": "^3.0.1",
     "remark-supersub": "^1.0.0",
     "sanitize-html": "^2.11.0",
+    "signature_pad": "^4.2.0",
     "sm-crypto": "^0.3.12",
     "survey-core": "^1.9.72",
     "survey-react-ui": "^1.9.72",

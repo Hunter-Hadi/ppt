@@ -2,6 +2,8 @@ import { Box, Button, Modal, Stack, Tab, Tabs, TextField } from '@mui/material';
 import { FC, useState } from 'react';
 
 import { textToBase64Image } from '@/features/functionality_sign_pdf/utils/toBase64';
+
+import FunctionalitySignPdfSignaturePad from './FunctionalitySignPdfSignaturePad';
 const style = {
   position: 'absolute' as 'absolute',
   top: '50%',
@@ -37,6 +39,12 @@ const FunctionalitySignPdfSignatureModal: FC<
       if (imageString) {
         onCreate(tabValue, imageString);
       }
+    } else if (tabValue === 'draw') {
+      const canvas = document.getElementById(
+        'functionality-sign-pdf-signature-pad',
+      ) as HTMLCanvasElement;
+      const imageString = canvas.toDataURL();
+      onCreate(tabValue, imageString);
     }
   };
   return (
@@ -63,7 +71,11 @@ const FunctionalitySignPdfSignatureModal: FC<
             padding: 2,
           }}
         >
-          {tabValue === 'draw' && <Box>1</Box>}
+          {tabValue === 'draw' && (
+            <Box>
+              <FunctionalitySignPdfSignaturePad />
+            </Box>
+          )}
           {tabValue === 'type' && (
             <Box>
               <TextField
