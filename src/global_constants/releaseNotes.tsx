@@ -5,10 +5,10 @@ export const MAXAI_RELEASE_NOTES = [
 
     content: [
       {
-        title: 'Premium feature usage lookup',
+        title: 'Premium queries lookup',
         lists: [
           {
-            module: 'Queries card',
+            module: 'Remaining premium queries',
             desc: 'Now you can easily check the queries card in the Settings menu to see the real-time status of your remaining premium queries for this month.',
           },
         ],
