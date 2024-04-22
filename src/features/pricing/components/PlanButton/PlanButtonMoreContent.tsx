@@ -114,13 +114,11 @@ const PlanButtonMoreContent: FC<IPlanButtonMoreContentProps> = ({
             lineHeight: 1.5,
             letterSpacing: 0,
             // color: isPopular ? '#FF8800' : 'primary.main',
-            color: isPopular ? 'promotionColor.fontMain' : 'primary.main',
+            color: 'primary.main',
             '&:hover': {
               bgcolor: 'transparent',
               // color: isPopular ? '#FF8800' : 'customColor.hoverColor',
-              color: isPopular
-                ? 'promotionColor.fontMain'
-                : 'customColor.hoverColor',
+              color: 'customColor.hoverColor',
             },
             [`& .${buttonClasses.endIcon}`]: {
               ml: 0,
