@@ -1,20 +1,25 @@
-import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
-import { Box, Button, ButtonProps, Stack, Typography } from '@mui/material';
+import { Box, Button, ButtonProps } from '@mui/material';
 import { capitalize } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
+import { renderTypeToName } from '@/features/pricing/utils';
 import { APP_PROJECT_LINK } from '@/global_constants';
 
-import { renderTypeToName } from '../utils';
+import PlanButtonMoreContent, {
+  IPlanButtonMoreContentType,
+} from './PlanButtonMoreContent';
 
 export interface IPlanButtonProps extends ButtonProps {
   renderType: RENDER_PLAN_TYPE;
   btnText?: string;
   variant?: 'contained' | 'outlined';
-  // show btn desc
-  btnDesc?: boolean;
+
+  // plan button more content
+  moreContentType?: IPlanButtonMoreContentType;
+
+  isPopular?: boolean;
 }
 
 const PlanButton: FC<IPlanButtonProps> = (props) => {
@@ -23,7 +28,8 @@ const PlanButton: FC<IPlanButtonProps> = (props) => {
     btnText,
     sx,
     variant = 'contained',
-    btnDesc,
+    moreContentType,
+    isPopular,
     ...resetProps
   } = props;
 
@@ -71,26 +77,13 @@ const PlanButton: FC<IPlanButtonProps> = (props) => {
         {text}
       </Button>
 
-      {btnDesc && (
-        <Stack
-          spacing={0.2}
-          // mt={0.5}
-          py={0.5}
-          direction='row'
-          alignItems='center'
-          justifyContent='center'
-        >
-          <CheckOutlinedIcon
-            sx={{
-              fontSize: 18,
-              color: 'primary.main',
-            }}
-          />
-
-          <Typography variant='caption' color='text.primary'>
-            {t('button:cancel_anytime')}
-          </Typography>
-        </Stack>
+      {moreContentType && (
+        <PlanButtonMoreContent
+          renderType={renderType}
+          contentType={moreContentType}
+          onClick={handleClick}
+          isPopular={isPopular}
+        />
       )}
     </Box>
   );

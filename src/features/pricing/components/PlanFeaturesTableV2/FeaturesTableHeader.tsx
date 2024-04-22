@@ -1,79 +1,54 @@
-import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
-import StarIcon from '@mui/icons-material/Star';
+import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import { Box, Stack, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 import { useRecoilValue } from 'recoil';
 
-import { PLAN_PRICE_MAP } from '@/features/pricing/constant';
-import { PricingPaymentTypeAtom } from '@/features/pricing/store';
+import PlanButton from '@/features/pricing/components/PlanButton';
+import {
+  PricingPaymentTypeAtom,
+  PricingPlanCategoryState,
+} from '@/features/pricing/store';
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
+import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils';
 
 import PaymentTypeSwitch from '../PaymentTypeSwitch';
-import PlanButton from '../PlanButton';
 import PlanPaymentInfo from '../PlanPaymentInfo';
 import {
   FEATURE_TABLE_FIRST_COLUMN_WIDTH,
   IFeatureColumn,
-  IFeatureTableVariant,
   TABLE_COLUMN,
 } from '.';
-
 interface IProps {
-  headerElRef?: React.RefObject<HTMLDivElement>;
+  headerElRef?: React.RefObject<HTMLElement>;
   sx?: SxProps;
   showPaymentTypeSwitch?: boolean;
-  variant: IFeatureTableVariant;
-  assignRenderPlan?: RENDER_PLAN_TYPE[];
   popularPlan?: IFeatureColumn;
   inFixed?: boolean;
 }
 
 const FeaturesTableHeader: FC<IProps> = ({
-  variant,
   headerElRef,
   sx,
   showPaymentTypeSwitch,
-  assignRenderPlan = [],
   popularPlan,
-  inFixed = false,
+  inFixed,
 }) => {
   const { t } = useTranslation();
   const paymentType = useRecoilValue(PricingPaymentTypeAtom);
+  const pricingPlanCategory = useRecoilValue(PricingPlanCategoryState);
 
-  const canRenderPlan = (plan: RENDER_PLAN_TYPE) => {
-    // 当 assignRenderPlan 为空时，默认全部渲染
-    if (!assignRenderPlan || assignRenderPlan.length <= 0) {
-      return true;
-    }
-
-    return assignRenderPlan.includes(plan);
-  };
-
-  const renderHeaderContent = (column: string) => {
-    const paymentPlanType = (
-      column === 'free'
-        ? 'free'
-        : paymentType === 'yearly'
-        ? `${column}_yearly`
-        : column
-    ) as RENDER_PLAN_TYPE;
-
-    if (column === 'features') {
-      return showPaymentTypeSwitch ? (
-        variant !== 'mini' && assignRenderPlan.length <= 0 ? (
-          <PaymentTypeSwitch />
-        ) : null
-      ) : null;
-    }
-
-    const isPopularColumn = column === popularPlan;
-
+  const renderSaveFlag = (
+    paymentPlanType: RENDER_PLAN_TYPE,
+    isPopularColumn: boolean,
+  ) => {
     return (
       <>
         {/* 付费的plan，并且年付的才显示 */}
         {/* 优惠标识 */}
-        {paymentPlanType !== 'free' && paymentType === 'yearly' ? (
+        {paymentPlanType !== 'free' &&
+        paymentType === 'yearly' &&
+        pricingPlanCategory !== 'team' ? (
           <Stack
             direction={'row'}
             alignItems='center'
@@ -89,7 +64,7 @@ const FeaturesTableHeader: FC<IProps> = ({
               bgcolor: isPopularColumn
                 ? 'promotionColor.backgroundMain'
                 : '#F4EBFF',
-              color: isPopularColumn ? '#fff' : 'primary.main',
+              color: isPopularColumn ? '#fff' : 'promotionColor.fontMain',
               boxSizing: 'border-box',
             }}
           >
@@ -98,64 +73,72 @@ const FeaturesTableHeader: FC<IProps> = ({
               fontSize={16}
               lineHeight={1.5}
               fontWeight={500}
-              color='inherit'
+              color={isPopularColumn ? '#fff' : 'primary.main'}
             >
               {t('pages:pricing__save_up_to', {
-                NUM: Math.round(
-                  (1 -
-                    PLAN_PRICE_MAP[paymentPlanType] /
-                      PLAN_PRICE_MAP[
-                        paymentPlanType.replace(
-                          '_yearly',
-                          '',
-                        ) as RENDER_PLAN_TYPE
-                      ]) *
-                    100,
-                ),
+                NUM: getMonthlyPriceOfYearlyPriceDiscount(paymentPlanType),
               })}
             </Typography>
           </Stack>
         ) : null}
+      </>
+    );
+  };
+
+  const getCurrentPricingPaymentPlan = (column: string) => {
+    if (column === 'free') {
+      return 'free' as RENDER_PLAN_TYPE;
+    }
+
+    let paymentPlanType =
+      paymentType === 'yearly' ? `${column}_yearly` : column;
+
+    if (pricingPlanCategory === 'team') {
+      // team plan 暂时只有月付的，所以这里都先返回月付的
+      paymentPlanType = `${column}_team`;
+    }
+
+    return paymentPlanType as RENDER_PLAN_TYPE;
+  };
+
+  const renderHeaderContent = (column: string) => {
+    const paymentPlanType = getCurrentPricingPaymentPlan(column);
+
+    if (column === 'features') {
+      return showPaymentTypeSwitch ? (
+        <Stack alignItems={'center'} justifyContent='center' height={'100%'}>
+          <PaymentTypeSwitch />
+        </Stack>
+      ) : null;
+    }
+
+    const isPopularColumn = column === popularPlan;
+
+    return (
+      <>
         <PlanPaymentInfo
           isPopular={isPopularColumn}
-          size='mini'
-          variant={variant}
           type={paymentPlanType}
           showDesc
           sx={{
-            mb: variant === 'mini' ? 1 : 2,
+            mb: 2,
           }}
         />
-        {variant === 'mini' ? (
-          <Stack spacing={1} direction='row' alignItems='center'>
-            <CheckOutlinedIcon
-              sx={{
-                fontSize: 18,
-                color: 'primary.main',
-              }}
-            />
-
-            <Typography variant='caption' color='text.primary'>
-              {t('button:cancel_anytime')}
-            </Typography>
-          </Stack>
-        ) : (
-          <Box mt='auto'>
-            <PlanButton
-              renderType={paymentPlanType}
-              sx={{
-                bgcolor: isPopularColumn
-                  ? 'promotionColor.backgroundMain'
-                  : 'primary.main',
-                '&:hover': {
-                  bgcolor: isPopularColumn
-                    ? 'promotionColor.fontMain'
-                    : 'primary.dark',
-                },
-              }}
-            />
-          </Box>
-        )}
+        <Box mt='auto'>
+          <PlanButton
+            renderType={paymentPlanType}
+            isPopular={isPopularColumn}
+            variant={isPopularColumn ? 'contained' : 'outlined'}
+            moreContentType={
+              paymentPlanType === 'free' || paymentType === 'yearly'
+                ? 'legal-tips'
+                : 'yearly-sell'
+            }
+            sx={{
+              borderRadius: 2,
+            }}
+          />
+        </Box>
       </>
     );
   };
@@ -173,13 +156,6 @@ const FeaturesTableHeader: FC<IProps> = ({
       }}
     >
       {TABLE_COLUMN.map((column, index) => {
-        if (
-          column !== 'features' &&
-          !canRenderPlan(column as RENDER_PLAN_TYPE)
-        ) {
-          return null;
-        }
-
         const isPopularColumn = column === popularPlan;
 
         const isLast = index === TABLE_COLUMN.length - 1;
@@ -188,17 +164,19 @@ const FeaturesTableHeader: FC<IProps> = ({
           <Stack
             key={column}
             id={`features-table-header-${column}`}
-            justifyContent='center'
             sx={[
               {
                 position: 'relative',
                 flex: 1,
-                borderRight: isLast ? '0px solid' : '1px solid',
-                borderColor: '#E0E0E0',
+                // borderRight: isLast ? '0px solid' : '1px solid',
+                // borderColor: '#E0E0E0',
                 px: 2,
-                py: 1.5,
+                pt: 3,
+                pb: 2,
                 minWidth:
-                  index === 0 ? FEATURE_TABLE_FIRST_COLUMN_WIDTH : '230px',
+                  column === 'features'
+                    ? FEATURE_TABLE_FIRST_COLUMN_WIDTH
+                    : '230px',
                 boxSizing: 'border-box',
 
                 // bgcolor: '#F5F6F7',
@@ -250,16 +228,22 @@ const FeaturesTableHeader: FC<IProps> = ({
                   direction={'row'}
                   gap={0.5}
                 >
-                  <StarIcon
+                  {t('modules:plan_features_table__most_popular')}
+                  <AutoAwesomeIcon
                     sx={{
-                      fontSize: '20px',
-                      color: 'inherit',
+                      color: 'promotionColor.fontMain',
+                      fontSize: 18,
                     }}
                   />
-                  {t('modules:plan_features_table__most_popular')}
                 </Stack>
               </>
             ) : null}
+            {column !== 'features' &&
+              renderSaveFlag(
+                getCurrentPricingPaymentPlan(column),
+                isPopularColumn,
+              )}
+
             {renderHeaderContent(column)}
           </Stack>
         );
