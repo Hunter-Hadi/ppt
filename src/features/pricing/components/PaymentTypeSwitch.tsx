@@ -1,10 +1,13 @@
 import { Stack, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useRecoilState } from 'recoil';
+import { useRecoilState, useRecoilValue } from 'recoil';
 
 import { IOptionType } from '@/components/select/BaseSelect';
-import { PricingPaymentTypeAtom } from '@/features/pricing/store';
+import {
+  PricingPaymentTypeAtom,
+  PricingPlanCategoryState,
+} from '@/features/pricing/store';
 import { IPaymentType } from '@/features/pricing/type';
 import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils';
 
@@ -25,6 +28,11 @@ const PaymentTypeSwitch: FC<{
 }> = ({ onChange, sx }) => {
   const { t } = useTranslation();
   const [paymentType, setPaymentType] = useRecoilState(PricingPaymentTypeAtom);
+  const pricingPlanCategory = useRecoilValue(PricingPlanCategoryState);
+
+  if (pricingPlanCategory === 'team') {
+    return null;
+  }
 
   return (
     <Stack

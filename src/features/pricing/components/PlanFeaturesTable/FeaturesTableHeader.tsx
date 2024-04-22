@@ -143,7 +143,6 @@ const FeaturesTableHeader: FC<IProps> = ({
           <Box mt='auto'>
             <PlanButton
               renderType={paymentPlanType}
-              btnDesc
               sx={{
                 bgcolor: isPopularColumn
                   ? 'promotionColor.backgroundMain'

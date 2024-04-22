@@ -4,8 +4,8 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 
 import { PLAN_USAGE_QUERIES } from '@/features/pricing/constant';
 import { IDisplayFeaturesItem } from '@/features/pricing/constant/better_plans';
@@ -38,7 +38,7 @@ const FeaturesUsageItemRender: FC<IProps> = ({
     }
 
     return `${numberWithCommas(value, 0)}`;
-  }, [renderPlan, displayFeatureData.featuresUsageCategory]);
+  }, [renderPlan, displayFeatureData.featuresUsageCategory, t]);
 
   if (!displayFeatureData.featuresUsageCategory) {
     return null;

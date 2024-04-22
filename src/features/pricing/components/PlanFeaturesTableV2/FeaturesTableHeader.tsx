@@ -1,7 +1,7 @@
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import { Box, Stack, SxProps, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
 import { useRecoilValue } from 'recoil';
 
 import PlanButton from '@/features/pricing/components/PlanButton';
