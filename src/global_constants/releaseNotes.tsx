@@ -13,6 +13,7 @@ export const MAXAI_RELEASE_NOTES = [
           },
         ],
       },
+    ],
   },
   {
     version: '3.2.1',
@@ -28,6 +29,7 @@ export const MAXAI_RELEASE_NOTES = [
           },
         ],
       },
+    ],
   },
   {
     version: '3.2.0',
