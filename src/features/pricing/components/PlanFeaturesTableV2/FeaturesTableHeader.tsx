@@ -55,15 +55,13 @@ const FeaturesTableHeader: FC<IProps> = ({
             justifyContent='space-between'
             sx={{
               position: 'absolute',
-              top: isPopularColumn && !inFixed ? 1 : 0,
+              top: isPopularColumn && !inFixed ? 0 : 0,
               right: 0,
               width: 'max-content',
               borderBottomLeftRadius: '8px',
               px: 1.2,
               py: 0.4,
-              bgcolor: isPopularColumn
-                ? 'promotionColor.backgroundMain'
-                : '#F4EBFF',
+              bgcolor: isPopularColumn ? 'primary.main' : '#F4EBFF',
               color: isPopularColumn ? '#fff' : 'promotionColor.fontMain',
               boxSizing: 'border-box',
             }}
@@ -180,10 +178,7 @@ const FeaturesTableHeader: FC<IProps> = ({
                 boxSizing: 'border-box',
 
                 // bgcolor: '#F5F6F7',
-
-                bgcolor: isPopularColumn
-                  ? 'promotionColor.backgroundThird'
-                  : '#F5F6F7',
+                bgcolor: isPopularColumn ? '#F9F5FF' : '#F5F6F7',
 
                 borderTopLeftRadius: index === 0 ? 8 : 0,
                 borderTopRightRadius: isLast ? 8 : 0,
@@ -200,8 +195,8 @@ const FeaturesTableHeader: FC<IProps> = ({
                 <Box
                   sx={{
                     position: 'absolute',
-                    border: '2px solid',
-                    borderColor: 'promotionColor.backgroundSecondary',
+                    border: '1px solid',
+                    borderColor: 'primary.main',
                     top: -1,
                     left: -1,
                     right: -1,
@@ -220,9 +215,9 @@ const FeaturesTableHeader: FC<IProps> = ({
                     // width: '100%',
                     px: 1,
                     py: 0.5,
-                    color: 'promotionColor.fontMain',
+                    color: 'primary.main',
                     borderRadius: '8px 8px 0px 0px',
-                    bgcolor: 'promotionColor.backgroundSecondary',
+                    bgcolor: '#F1E6FF',
                     fontWeight: 600,
                   }}
                   direction={'row'}
@@ -231,7 +226,7 @@ const FeaturesTableHeader: FC<IProps> = ({
                   {t('modules:plan_features_table__most_popular')}
                   <AutoAwesomeIcon
                     sx={{
-                      color: 'promotionColor.fontMain',
+                      color: 'primary.main',
                       fontSize: 18,
                     }}
                   />

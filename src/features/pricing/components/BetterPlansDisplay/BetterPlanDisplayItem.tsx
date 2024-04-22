@@ -93,7 +93,7 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
               borderBottomLeftRadius: '8px',
               px: 1.2,
               py: 0.4,
-              bgcolor: isPopular ? 'promotionColor.backgroundMain' : '#F4EBFF',
+              bgcolor: isPopular ? 'primary.main' : '#F4EBFF',
               color: isPopular ? '#fff' : 'promotionColor.fontMain',
               boxSizing: 'border-box',
             }}
@@ -125,7 +125,7 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
             ? `calc(100% + ${MOST_POPULAR_HEIGHT}px)`
             : '100%',
         border: '1px solid',
-        borderColor: isPopular ? 'promotionColor.backgroundMain' : 'divider',
+        borderColor: isPopular ? 'primary.main' : 'divider',
         borderRadius: 2,
         overflow: 'hidden',
         boxShadow: '0px 4px 6px -2px #10182808',
@@ -137,7 +137,7 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
           direction='row'
           alignItems='center'
           justifyContent='center'
-          bgcolor='promotionColor.backgroundSecondary'
+          bgcolor='#F1E6FF'
           spacing={0.5}
           height={MOST_POPULAR_HEIGHT}
         >
@@ -145,13 +145,13 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
             variant='custom'
             fontSize={16}
             lineHeight={1.5}
-            color='promotionColor.fontMain'
+            color='primary.main'
           >
             {t('common:most_popular')}
           </Typography>
           <AutoAwesomeIcon
             sx={{
-              color: 'promotionColor.fontMain',
+              color: 'primary.main',
               fontSize: 18,
             }}
           />
@@ -168,7 +168,7 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
           fontSize={24}
           lineHeight={1.4}
           fontWeight={700}
-          color={isPopular ? 'promotionColor.fontMain' : 'primary.main'}
+          color={'primary.main'}
         >
           MaxAI {capitalize(renderPlan)}
         </Typography>

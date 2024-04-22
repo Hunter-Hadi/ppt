@@ -11,6 +11,7 @@ import BetterPlansDisplay from '@/features/pricing/components/BetterPlansDisplay
 import PlanFeaturesTableV2 from '@/features/pricing/components/PlanFeaturesTableV2';
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox';
 import PricingPlanCategoryBar from '@/features/pricing/components/PricingPlanCategoryBar';
+import PromotionBannerForElite from '@/features/promotion/components/promotion_banners/PromotionBannerForElite';
 
 const PricingPages = () => {
   const { t } = useTranslation();
@@ -27,6 +28,8 @@ const PricingPages = () => {
     >
       <AppDefaultSeoLayout title={t('seo:pricing__title')} />
       <PricingPlanCategoryBar />
+      <PromotionBannerForElite />
+
       <Stack
         maxWidth={1640}
         mx={'auto'}

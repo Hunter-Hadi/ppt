@@ -218,10 +218,10 @@ const customMuiTheme = responsiveFontSizes(
         ? customColor.darkBackground
         : customColor.lightBackground,
       promotionColor: {
-        fontMain: '#9065B0',
-        backgroundMain: '#9065B0',
-        backgroundSecondary: '#F9F5FF',
-        backgroundThird: '#F1E6FF',
+        fontMain: '#B54708',
+        backgroundMain: '#ff8800',
+        backgroundSecondary: '#FFE7CD',
+        backgroundThird: '#FFF4E8',
       },
       customColor: {
         main: customColor.main,

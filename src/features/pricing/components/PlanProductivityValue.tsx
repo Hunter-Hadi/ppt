@@ -21,7 +21,8 @@ const PlanProductivityValue: FC<IProps> = ({ renderType, isPopular, sx }) => {
     [renderType],
   );
 
-  const color = isPopular ? 'promotionColor.fontMain' : 'primary.main';
+  // const color = isPopular ? 'promotionColor.fontMain' : 'primary.main';
+  const color = 'primary.main';
 
   return (
     <Stack direction={'row'} alignItems='center' spacing={0.5} sx={sx}>

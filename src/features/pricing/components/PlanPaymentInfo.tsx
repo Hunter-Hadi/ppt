@@ -176,7 +176,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
         variant='custom'
         sx={{
           ...fontSx.title,
-          color: isPopular ? 'promotionColor.fontMain' : 'text.primary',
+          color: isPopular ? 'primary.main' : 'primary.main',
         }}
       >
         {title}
