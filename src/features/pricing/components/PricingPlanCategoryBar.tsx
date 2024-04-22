@@ -60,7 +60,7 @@ const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
       spacing={1}
       pt={1}
       sx={{
-        bgcolor: 'primary.main',
+        bgcolor: '#E9D7FE',
       }}
     >
       {renderCategory.map((pricingCategoryItem) => {
@@ -78,8 +78,8 @@ const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
               },
               borderTopLeftRadius: 4,
               borderTopRightRadius: 4,
-              bgcolor: isActive ? 'background.paper' : '#FFFFFF1F',
-              color: isActive ? 'primary.main' : 'common.white',
+              bgcolor: isActive ? 'background.paper' : '#FFFFFF52',
+              color: isActive ? 'primary.main' : 'text.secondary',
               px: 3,
               py: 2,
               cursor: 'pointer',
