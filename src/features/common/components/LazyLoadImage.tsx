@@ -28,8 +28,8 @@ const LightTooltip = styled(({ className, ...props }: TooltipProps) => (
 interface LazyLoadImageProps {
   src: string;
   alt: string;
-  width?: number;
-  height?: number;
+  width?: number | string;
+  height?: number | string;
   skeletonHeight?: number;
   maxRetryTimes?: number;
   SkeletonSx?: SxProps;

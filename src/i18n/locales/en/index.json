@@ -49,7 +49,10 @@
     "mins": "Mins",
     "secs": "Secs",
     "subscribe_now": "Subscribe now",
-    "month": "month"
+    "month": "month",
+    "unlimited": "Unlimited",
+    "most_popular": "Most popular",
+    "upgrade_now": "Upgrade now"
   },
   "button": {
     "add_to_chrome_for_free": "Add to Chrome for free",
@@ -181,9 +184,12 @@
 
     "learning_center__features__title": "Features",
 
-    "pricing__title": "Compare plans & features",
+    "pricing__better_plan__title": "1-click AI anywhere, less time, better results",
+    "pricing__compare_plans__title": "Compare plans",
     "pricing__productivity": "Productivity",
     "pricing__save_up_to": "Save {{NUM}}%",
+    "pricing__plan_category__individual__label": "Individual plans",
+    "pricing__plan_category__team__label": "Team plans",
 
     "faq__title": "FAQs",
 
@@ -820,5 +826,82 @@
     "more_over_section__title": "More Over",
     "more_over_section__description__part1": "MaxAI.me is more than just a translation tool – It's your all-in-one AI-powered browser extension. With MaxAI.me, you can access a wide range of AI-driven features right in your browser, on any website you visit.",
     "more_over_section__description__part2": "From writing assistance and webpage summarization to ChatPDF and AI painting, MaxAI.me empowers you to read, write, and create with the help of the most advanced AI models, including ChatGPT, Claude, and Gemini. Upgrade your browsing experience and unlock your productivity potential with MaxAI.me today!"
+  },
+  "pricing": {
+
+    "better_plan_display__basic__sub_title": "Core features:",
+    "better_plan_display__pro__sub_title": "Everything in {{PLAN}} plus:",
+    "better_plan_display__elite__sub_title": "Everything in {{PLAN}} plus:",
+
+    "features__fast_text_models": "Fast text models",
+    "features__advanced_text_models": "Advanced text models",
+    "features__ai_art_models": "AI art models",
+
+    "features__fast_text_queries__month": "Fast text queries/month",
+    "features__fast_text_queries__tooltip__description": "Access the fastest AI models, all in one place.",
+    "features__advanced_text_queries__month": "Advanced text queries/month",
+    "features__advanced_text_queries__tooltip__description": "Access the most advanced AI models, all in one place.",
+    "features__advanced_text_queries__elite__more_description": "Ensure at least 1,500 high-speed advanced text queries each month. After reaching the limit, the speed and quality of the model may be reduced.",
+    "features__image_queries__month": "Image queries/month",
+    "features__image_queries__tooltip__description": "10x your creativity and productivity with the most advanced AI art models.",
+    "features__image_queries__elite__more_description": "Ensure at least 1,500 high-speed image queries each month. After reaching the limit, the speed and quality of the model may be reduced.",
+
+    "features__free_ai_models": "Free AI models",
+    "features__ai_rewriter__title": "AI rewriter",
+    "features__ai_rewriter__description": "Context menu",
+    "features__ai_rewriter__tooltip__description": "Perfect your writing on any web app or site, from a single word to an entire page.",
+    "features__ai_instant_reply__title": "AI instant reply",
+    "features__ai_instant_reply__description": "Email & social media & messaging",
+    "features__ai_instant_reply__tooltip__description": "Speed up your email, social media, and message replies and drafts by 10 times with a single click.",
+    "features__ai_art__title": "AI art",
+    "features__ai_art__description": "Turn your visions into images",
+    "features__ai_art__tooltip__description": "Rapidly turn your visions into stunning images.",
+    "features__ai_prompt_manager__title": "AI prompt manager",
+    "features__ai_prompt_manager__description": "Create your own 1-click prompts",
+    "features__ai_prompt_manager__tooltip__description": "Create your own prompts, organize them, and make them easy to access and reuse, for yourself and your team.",
+    "features__ai_prompts_library__title": "AI prompts library",
+    "features__ai_prompts_library__description": "Best 1-click prompts",
+    "features__ai_prompts_library__tooltip__description": "High-quality AI prompts library that lets you complete your daily tasks in minutes now, not hours anymore.",
+    "features__ai_summary_ask__title": "AI summary & ask",
+    "features__ai_summary_ask__description": "Webpage & PDF & YouTube & email",
+    "features__ai_summary_ask__tooltip__description": "Save 90% of your reading and watching time by getting summaries and instant answers everywhere.",
+    "features__ai_reading_assistant__title": "AI reading assistant",
+    "features__ai_reading_assistant__description": "Context menu",
+    "features__ai_reading_assistant__tooltip__description": "Make confusing and complex information easy to understand on any web app or site, just like an expert.",
+    "features__ai_translator__title": "AI translator",
+    "features__ai_translator__description": "Immersive translation experience",
+    "features__ai_translator__tooltip__description": "Enable bilingual reading with a single click to improve information retrieval efficiency. Experience the immersive translation experience of the next generation.",
+    "features__ai_chat__title": "AI chat",
+    "features__ai_chat__description": "Fast & advanced text models",
+    "features__ai_chat__tooltip__description": "The fastest way to chat with the most advanced AI models, all in one place.",
+    "features__ai_search__title": "AI search",
+    "features__ai_search__description": "Answer with real-time web access",
+    "features__ai_search__tooltip__description": "Get answers with real-time web access, knowledge, and citations.",
+    "features__pro_search__title": "Pro search",
+    "features__pro_search__description": "Exhaustive web searches",
+    "features__pro_search__tooltip__description": "Get answers to the hardest questions with comprehensive web insights.",
+    "features__advanced_options__title": "Advanced options",
+    "features__advanced_options__description": "Search engine & more",
+    "features__advanced_options__tooltip__description": "Choose from the world's top search engines, get more search results, specify search time range and region, and select Al response language with Web Access.",
+
+    "features__category__best_ai_models": "Best AI models",
+    "features__category__writing_features": "Writing features",
+    "features__category__reading_features": "Reading features",
+    "features__category__research_features": "Research features",
+    "features__category__webchatgpt_features": "WebChatGPT features",
+    "features__tooltips__play_video": "Play video",
+
+    "payment_info__pay_by_yearly": "Pay {{PRICE}} / year",
+    "payment_info__per_year": "per year",
+    "payment_info__per_month": "per month",
+    "payment_info__billed_yearly": "billed yearly",
+    "payment_info__free_desc": "Best for occasional users",
+    "payment_info__basic_desc": "Best for casual users",
+    "payment_info__pro_desc": "Best for power users",
+    "payment_info__elite_desc": "Best for elite professionals",
+
+    "plan_button__save_with_yearly_plan": "Save {{PRICE}} with yearly plan",
+    "plan_button__free_status__start_for_free": "Start for free"
+
   }
 }

@@ -1,36 +1,12 @@
-import styled from '@emotion/styled';
-import {
-  Stack,
-  Theme,
-  Tooltip,
-  tooltipClasses,
-  TooltipProps,
-  Typography,
-} from '@mui/material';
+import { Stack, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 import { useRecoilState } from 'recoil';
 
 import { IOptionType } from '@/components/select/BaseSelect';
-import { PLAN_PRICE_MAP } from '@/features/pricing/constant';
-
-import { PricingPaymentTypeAtom } from '../store';
-import { IPaymentType } from '../type';
-
-const ColorTooltip = styled(({ className, ...props }: TooltipProps) => (
-  <Tooltip {...props} arrow classes={{ popper: className }} />
-))(({ theme }) => {
-  const t = theme as Theme;
-  return {
-    [`& .${tooltipClasses.arrow}`]: {
-      color: t.palette.primary.main,
-    },
-    [`& .${tooltipClasses.tooltip}`]: {
-      backgroundColor: t.palette.primary.main,
-      color: 'white',
-    },
-  };
-});
+import { PricingPaymentTypeAtom } from '@/features/pricing/store';
+import { IPaymentType } from '@/features/pricing/type';
+import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils';
 
 const PAYMENT_TYPES = [
   {
@@ -45,7 +21,8 @@ const PAYMENT_TYPES = [
 
 const PaymentTypeSwitch: FC<{
   onChange?: (newValue: IOptionType) => void;
-}> = ({ onChange }) => {
+  sx?: SxProps;
+}> = ({ onChange, sx }) => {
   const { t } = useTranslation();
   const [paymentType, setPaymentType] = useRecoilState(PricingPaymentTypeAtom);
 
@@ -59,6 +36,7 @@ const PaymentTypeSwitch: FC<{
       borderColor='primary.main'
       position='relative'
       mx='auto'
+      sx={sx}
     >
       {PAYMENT_TYPES.map((type) => (
         <Stack
@@ -99,17 +77,14 @@ const PaymentTypeSwitch: FC<{
                 borderRadius: '100px',
                 fontSize: '14px',
                 border: '1px solid #F80',
-                bgcolor: 'promotionColor.backgroundMain',
+                // bgcolor: 'promotionColor.backgroundMain',
+                bgcolor: '#FF8800',
                 padding: '2px 10px',
                 color: 'white',
               }}
             >
               {t('modules:payment_type_switch__yearly__tip', {
-                RATIO: Math.round(
-                  (1 -
-                    PLAN_PRICE_MAP['elite_yearly'] / PLAN_PRICE_MAP['elite']) *
-                    100,
-                ),
+                RATIO: getMonthlyPriceOfYearlyPriceDiscount('elite'),
               })}
             </Typography>
           )}
