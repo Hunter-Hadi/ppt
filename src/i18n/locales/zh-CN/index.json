@@ -748,7 +748,6 @@
     "pdf_tools__pdf_to_html__description": "免费在线将PDF转换为HTML。保持布局并将图像转换为HTML。无水印、文件大小限制、下载或注册要求。"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "点击上传或拖放",
     "components__to_image_detail__select_all": "全选",
     "components__to_image_detail__deselect_all": "取消全选",
     "components__to_image_detail__download_images": "下载图片",
@@ -831,7 +830,8 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过",
-    "components__common__drag__dropping_tip": "您可以通过拖放来调整顺序"
+    "components__common__drag__dropping_tip": "您可以通过拖放来调整顺序",
+    "components__common__upload_button_tips": "点击上传或拖放"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上传图像类型的图片",
