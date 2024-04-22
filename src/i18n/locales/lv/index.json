@@ -467,7 +467,28 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Tas viss! Saglabājiet konvertēto PDF savā ierīcē.",
     "pdf_tools__detail_page__more_pdf_tools": "Vairāk bezmaksas tiešsaistes PDF rīku",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF uz HTML",
-    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertēt PDF uz HTML, saglabājot izkārtojuma struktūru un attēlus"
+    "tools__index_page__constant_obj__pdf_to_html__description": "Konvertēt PDF uz HTML, saglabājot izkārtojuma struktūru un attēlus",
+    "pdf_tools__detail_description_object__pdf_to_html__top_left": "Viegli pārveidojiet PDF failus par HTML tīmekļa lapām, saglabājot izkārtojumu, struktūru un attēlus ar mūsu bezmaksas tiešsaistes PDF uz HTML konvertoru.",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_1": "Bezproblēmu PDF uz HTML konvertācija mirkļos",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_2": "Nav nepieciešama programmatūras instalēšana",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_3": "Drošs un konfidenciāls – apstrāde notiek jūsu pārlūkprogrammā",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_1_title": "Precīza PDF uz HTML pārveide",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_1_description": "Saglabājiet oriģinālo PDF izkārtojumu un formatējumu, lai iegūtu precīzu un pilnībā funkcionējošu HTML tīmekļa lapu. Vienkārši augšupielādējiet savu PDF failu un atstājiet pārējo mūsu sofisticētajai konvertēšanas rīkam.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_2_title": "Uzturiet vizuālo integritāti",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_2_description": "Konvertējot dokumentus, visi vizuālie elementi no PDF tiek saglabāti HTML formātā, nodrošinot attēlus, fontus un stilus.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_3_title": "Tūlītēja attēlu izgūšana",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_3_description": "Visi PDF iegultie attēli tiek bez problēmām eksportēti un iegulti rezultējošajā HTML, nodrošinot bagātu vizuālo pieredzi, kas ir identiska PDF avotam.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_4_title": "Klienta puses konvertācijas drošība",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_4_description": "Jūsu privātums ir mūsu prioritāte. Konvertācijas process pilnībā notiek klienta pusē, kas nozīmē, ka faili nekad neatstāj jūsu datoru.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_5_title": "Universāla pieejamība",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Mūsu PDF uz HTML konvertors ir pilnībā pieejams tiešsaistē, tāpēc jūs varat konvertēt dokumentus jebkurā ierīcē, jebkurā laikā, nevajadzēdams instalēt jebkādu programmatūru.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Konvertējiet bez interneta",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Ar mūsu rīku jūs varat sākt konvertāciju bezsaistē. Jums tikai jāielādē lapa pirms atvienošanās, un konvertācija joprojām notiks bez interneta savienojuma.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Kā viegli pārveidot PDF uz HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Augšupielādējiet savu PDF uz tiešsaistes PDF uz HTML konvertoru.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Ļaujiet rīkam apstrādāt failu un pārveidot to HTML formātā.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Pabeidzot konvertāciju, lejupielādējiet jauno HTML failu tieši.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Atveriet lejupielādēto HTML jebkurā tīmekļa pārlūkprogrammā, lai pārskatītu rezultātus."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -762,7 +783,6 @@
     "more_over_section__description__part2": "Sākot no rakstības palīdzības un lapas kopsavilkuma līdz ChatPDF un AI gleznošanai, MaxAI.me ļauj jums lasīt, rakstīt un radīt ar vismodernākajiem AI modeļiem, ieskaitot ChatGPT, Claude un Gemini. Uzlabojiet savu pārlūkošanas pieredzi un atklājiet savu produktivitātes potenciālu ar MaxAI.me jau šodien!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Noklikšķiniet, lai augšupielādētu vai vilktu un nomestu",
     "components__index__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__to_image_detail__select_all": "Izvēlēties visu",
     "components__to_image_detail__deselect_all": "Noņemt atlasi",
@@ -810,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists",
-    "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot"
+    "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot",
+    "components__common__upload_button_tips": "vai nometiet failus šeit",
+    "components__common__upload_button_title": "IZVĒLIETIES FAILUS"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti",
@@ -830,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_to_html__button__download": "Lejupielādēt",
     "components__pdf_to_html__button__Convert": "Konvertēt vēlreiz"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Nometiet šeit"
   }
 }

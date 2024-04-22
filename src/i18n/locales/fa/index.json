@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "از کمک به نوشتن و خلاصه صفحات وب تا ChatPDF و نقاشی هوش مصنوعی، MaxAI.me شما را قادر می سازد تا با استفاده از پیشرفته ترین مدل های هوش مصنوعی از جمله ChatGPT، Claude و Gemini بخوانید، بنویسید و ایجاد کنید. تجربه مرورگر خود را ارتقا دهید و ظرفیت تولیدی خود را با MaxAI.me بهبود بخشید!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "برای آپلود کلیک کنید یا بکشید و رها کنید",
     "components__index__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را آپلود کنید",
     "components__to_image_detail__select_all": "انتخاب همه",
     "components__to_image_detail__deselect_all": "عدم انتخاب همه",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد",
-    "components__common__drag__dropping_tip": "می‌توانید با کشیدن و رها کردن ترتیب را تنظیم کنید"
+    "components__common__drag__dropping_tip": "می‌توانید با کشیدن و رها کردن ترتیب را تنظیم کنید",
+    "components__common__upload_button_tips": "یا فایل‌ها را اینجا رها کنید",
+    "components__common__upload_button_title": "انتخاب فایل‌ها"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "فقط تصاویر از نوع تصویر قابل بارگذاری هستند",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__pdf_to_html__button__download": "دانلود",
     "components__pdf_to_html__button__Convert": "تبدیل دیگری"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "اینجا را رها کنید"
   }
 }

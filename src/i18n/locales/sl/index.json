@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Od pomoči pri pisanju in povzetku spletnih strani do ChatPDF in AI slikarstva, MaxAI.me vam omogoča branje, pisanje in ustvarjanje z uporabo najnaprednejših AI modelov, vključno s ChatGPT, Claude in Gemini. Nadgradite svojo izkušnjo brskanja in odklenite svoj potencial za produktivnost z MaxAI.me že danes!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Kliknite za nalaganje ali povlecite in spustite",
     "components__index__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__to_image_detail__select_all": "Izberi vse",
     "components__to_image_detail__deselect_all": "Odstrani izbor",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "je šifriran ali nenavaden, ni mogoče manipulirati s PDF-jem, preskočeno",
-    "components__common__drag__dropping_tip": "Vrstni red lahko prilagodite z vlečenjem in spuščanjem"
+    "components__common__drag__dropping_tip": "Vrstni red lahko prilagodite z vlečenjem in spuščanjem",
+    "components__common__upload_button_tips": "ali spustite datoteke sem",
+    "components__common__upload_button_title": "IZBERI DATOTEKE"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Samo slike vrste slike lahko naložite",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__pdf_to_html__button__download": "Prenesi",
     "components__pdf_to_html__button__Convert": "Pretvori drugo"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Spusti tukaj"
   }
 }

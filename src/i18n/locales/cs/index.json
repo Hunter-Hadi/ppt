@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Od asistence při psaní a shrnutí webových stránek po ChatPDF a malování pomocí umělé inteligence, MaxAI.me vám umožňuje číst, psát a tvořit s pomocí nejmodernějších modelů umělé inteligence, včetně ChatGPT, Claude a Gemini. Vylepšete svůj prohlížeč a odemkněte svůj potenciál produktivity s MaxAI.me ještě dnes!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klikněte pro nahrání nebo přetáhněte",
     "components__index__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
     "components__to_image_detail__select_all": "Vybrat vše",
     "components__to_image_detail__deselect_all": "Zrušit výběr všech",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "je zašifrován nebo je v neobvyklém stavu, nelze manipulovat s PDF, přeskočeno",
-    "components__common__drag__dropping_tip": "Můžete upravit pořadí přetažením"
+    "components__common__drag__dropping_tip": "Můžete upravit pořadí přetažením",
+    "components__common__upload_button_tips": "nebo sem přetáhněte soubory",
+    "components__common__upload_button_title": "VYBRAT SOUBORY"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky typu obrázek",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Nahrajte prosím požadovaný typ souboru PDF",
     "components__pdf_to_html__button__download": "Stáhnout",
     "components__pdf_to_html__button__Convert": "Převést další"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Přetáhněte sem"
   }
 }

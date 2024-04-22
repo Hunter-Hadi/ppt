@@ -748,7 +748,6 @@
     "pdf_tools__pdf_to_html__description": "Ücretsiz olarak PDF'i HTML'e dönüştürün. Düzeni koruyun ve resimleri HTML'e dönüştürün. Filigran, dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Yüklemek için tıklayın veya sürükleyin",
     "components__to_image_detail__select_all": "Hepsini Seç",
     "components__to_image_detail__deselect_all": "Hepsini Kaldır",
     "components__to_image_detail__download_images": "Resimleri İndir",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "şifreli veya anormal, PDF'yi manipüle edemiyor, atlandı",
-    "components__common__drag__dropping_tip": "Sıralamayı sürükleyip bırakarak ayarlayabilirsiniz"
+    "components__common__drag__dropping_tip": "Sıralamayı sürükleyip bırakarak ayarlayabilirsiniz",
+    "components__common__upload_button_tips": "veya dosyaları buraya bırakın",
+    "components__common__upload_button_title": "DOSYALAR SEÇ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Sadece resim türündeki resimler yüklenebilir",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
     "components__pdf_to_html__button__download": "İndir",
     "components__pdf_to_html__button__Convert": "Başka bir dönüştür"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Buraya bırakın"
   }
 }

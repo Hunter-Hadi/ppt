@@ -831,7 +831,8 @@
   "functionality__common": {
     "components__common__pdf_encryption_tip": "已加密或异常，无法操作PDF，已跳过",
     "components__common__drag__dropping_tip": "您可以通过拖放来调整顺序",
-    "components__common__upload_button_tips": "点击上传或拖放"
+    "components__common__upload_button_tips": "点击上传或拖放",
+    "components__common__upload_button_title": "选择文件"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上传图像类型的图片",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "请上传指定的PDF文件类型",
     "components__pdf_to_html__button__download": "下载",
     "components__pdf_to_html__button__Convert": "转换另一个"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "拖放到这里"
   }
 }

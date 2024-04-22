@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Kutoka kusaidia kuandika na muhtasari wa kurasa za wavuti hadi ChatPDF na uchoraji wa AI, MaxAI.me inakuwezesha kusoma, kuandika, na kuunda kwa msaada wa mifano ya AI ya hali ya juu, ikiwa ni pamoja na ChatGPT, Claude, na Gemini. Boresha uzoefu wako wa kuvinjari na fungua uwezo wako wa uzalishaji na MaxAI.me leo!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Bonyeza ili kupakia au vuta na weka",
     "components__index__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
     "components__to_image_detail__select_all": "Chagua Yote",
     "components__to_image_detail__deselect_all": "Batilisha Uchaguzi Wote",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "imefichwa au ni batili, haiwezekani kubadilisha PDF, imepuuzwa",
-    "components__common__drag__dropping_tip": "Unaweza kurekebisha mpangilio kwa kuvuta na kuacha"
+    "components__common__drag__dropping_tip": "Unaweza kurekebisha mpangilio kwa kuvuta na kuacha",
+    "components__common__upload_button_tips": "au buruta faili hapa",
+    "components__common__upload_button_title": "CHAGUA FAILI"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Picha za aina ya picha tu zinaweza kupakiwa",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
     "components__pdf_to_html__button__download": "Pakua",
     "components__pdf_to_html__button__Convert": "Geuza nyingine"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Buruta hapa"
   }
 }

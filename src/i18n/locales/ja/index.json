@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "文章作成支援やウェブページの要約からChatPDFやAIペイントまで、ChatGPT、Claude、Geminiなどの最先端のAIモデルを活用して読み書きや創造をサポートします。MaxAI.meでブラウジング体験をアップグレードし、生産性の可能性を解き放ちましょう！"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "アップロードするかドラッグしてください",
     "components__index__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__to_image_detail__select_all": "すべて選択",
     "components__to_image_detail__deselect_all": "すべて選択解除",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました",
-    "components__common__drag__dropping_tip": "ドラッグアンドドロップで順序を調整できます"
+    "components__common__drag__dropping_tip": "ドラッグアンドドロップで順序を調整できます",
+    "components__common__upload_button_tips": "またはここにファイルをドロップ",
+    "components__common__upload_button_title": "ファイルを選択"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "アップロードできるのは画像タイプのみです",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__pdf_to_html__button__download": "ダウンロード",
     "components__pdf_to_html__button__Convert": "別のファイルを変換"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "ここにドロップ"
   }
 }

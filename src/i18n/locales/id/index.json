@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Mulai dari bantuan menulis dan ringkasan halaman web hingga ChatPDF dan lukisan AI, MaxAI.me memberdayakan Anda untuk membaca, menulis, dan membuat dengan bantuan model AI paling canggih, termasuk ChatGPT, Claude, dan Gemini. Tingkatkan pengalaman penjelajahan Anda dan buka potensi produktivitas Anda dengan MaxAI.me hari ini!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klik untuk mengunggah atau seret dan lepas",
     "components__index__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
     "components__to_image_detail__select_all": "Pilih Semua",
     "components__to_image_detail__deselect_all": "Batal Pilih Semua",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "terenkripsi atau tidak normal, tidak dapat memanipulasi PDF, dilewati",
-    "components__common__drag__dropping_tip": "Anda dapat mengatur urutan dengan menyeret dan meletakkan"
+    "components__common__drag__dropping_tip": "Anda dapat mengatur urutan dengan menyeret dan meletakkan",
+    "components__common__upload_button_tips": "atau letakkan file di sini",
+    "components__common__upload_button_title": "PILIH FILE"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar dengan jenis gambar yang dapat diunggah",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
     "components__pdf_to_html__button__download": "Unduh",
     "components__pdf_to_html__button__Convert": "Konversi lainnya"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Letakkan di sini"
   }
 }

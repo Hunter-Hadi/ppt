@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Från skrivhjälp och sammanfattning av webbsidor till ChatPDF och AI-målning ger MaxAI.me dig möjlighet att läsa, skriva och skapa med hjälp av de mest avancerade AI-modellerna, inklusive ChatGPT, Claude och Gemini. Uppgradera din webbläsningsupplevelse och lås upp ditt produktivitetspotentiell med MaxAI.me idag!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klicka för att ladda upp eller dra och släpp",
     "components__index__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components__to_image_detail__select_all": "Välj alla",
     "components__to_image_detail__deselect_all": "Avmarkera alla",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "är krypterad eller onormal, kan inte manipulera PDF:en, hoppades över",
-    "components__common__drag__dropping_tip": "Du kan justera ordningen genom att dra och släppa"
+    "components__common__drag__dropping_tip": "Du kan justera ordningen genom att dra och släppa",
+    "components__common__upload_button_tips": "eller släpp filer här",
+    "components__common__upload_button_title": "VÄLJ FILER"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Endast bilder av bildtyp kan laddas upp",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
     "components__pdf_to_html__button__download": "Ladda ner",
     "components__pdf_to_html__button__Convert": "Konvertera en annan"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Släpp här"
   }
 }

@@ -748,7 +748,6 @@
     "pdf_tools__pdf_to_html__description": "Chuyển đổi PDF sang HTML trực tuyến miễn phí. Giữ nguyên bố cục và chuyển đổi hình ảnh sang HTML. Không có dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Nhấp để tải lên hoặc kéo và thả",
     "components__to_image_detail__select_all": "Chọn tất cả",
     "components__to_image_detail__deselect_all": "Bỏ chọn tất cả",
     "components__to_image_detail__download_images": "Tải xuống hình ảnh",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "đã được mã hóa hoặc không bình thường, không thể thao tác với PDF, đã bỏ qua",
-    "components__common__drag__dropping_tip": "Bạn có thể điều chỉnh thứ tự bằng cách kéo và thả"
+    "components__common__drag__dropping_tip": "Bạn có thể điều chỉnh thứ tự bằng cách kéo và thả",
+    "components__common__upload_button_tips": "hoặc thả tệp vào đây",
+    "components__common__upload_button_title": "CHỌN TỆP"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại hình ảnh",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
     "components__pdf_to_html__button__download": "Tải xuống",
     "components__pdf_to_html__button__Convert": "Chuyển đổi khác"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Thả vào đây"
   }
 }

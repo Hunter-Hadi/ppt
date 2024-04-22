@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Od pomocy pisania i podsumowywania stron internetowych po ChatPDF i malowanie AI, MaxAI.me umożliwia czytanie, pisanie i tworzenie z pomocą najbardziej zaawansowanych modeli AI, w tym ChatGPT, Claude i Gemini. Ulepsz swoje doświadczenie przeglądania i odblokuj swój potencjał produktywności dzięki MaxAI.me już dziś!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Kliknij, aby przesłać lub przeciągnij i upuść",
     "components__index__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__to_image_detail__select_all": "Zaznacz wszystko",
     "components__to_image_detail__deselect_all": "Odznacz wszystko",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "jest zaszyfrowany lub nieprawidłowy, nie można manipulować plikiem PDF, pominięto",
-    "components__common__drag__dropping_tip": "Możesz dostosować kolejność, przeciągając i upuszczając"
+    "components__common__drag__dropping_tip": "Możesz dostosować kolejność, przeciągając i upuszczając",
+    "components__common__upload_button_tips": "lub upuść pliki tutaj",
+    "components__common__upload_button_title": "WYBIERZ PLIKI"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Można przesyłać tylko obrazy typu obraz",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__pdf_to_html__button__download": "Pobierz",
     "components__pdf_to_html__button__Convert": "Konwertuj inny"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Upuść tutaj"
   }
 }

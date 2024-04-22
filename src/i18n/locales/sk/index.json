@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Od asistencie pri písaní a súhrnných stránok po ChatPDF a AI maľbu, MaxAI.me vám umožňuje čítať, písať a vytvárať s pomocou najpokročilejších AI modelov, vrátane ChatGPT, Claude a Gemini. Vylepšite svoje prehliadanie a odomknite svoj potenciál produktivity s MaxAI.me ešte dnes!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Kliknite pre nahratie alebo presuňte sem",
     "components__index__unsupported_file_type_tip": "Prosím, nahrajte určený typ súboru PDF",
     "components__to_image_detail__select_all": "Vybrať všetko",
     "components__to_image_detail__deselect_all": "Zrušiť výber všetkého",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "je zašifrovaný alebo neobvyklý, nie je možné manipulovať s PDF, preskočené",
-    "components__common__drag__dropping_tip": "Môžete upraviť poradie ťahaním a pustením"
+    "components__common__drag__dropping_tip": "Môžete upraviť poradie ťahaním a pustením",
+    "components__common__upload_button_tips": "alebo sem pretiahnite súbory",
+    "components__common__upload_button_title": "VYBRAŤ SÚBORY"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Iba obrázky typu image môžu byť nahrané",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Prosím, nahrajte požadovaný typ súboru PDF",
     "components__pdf_to_html__button__download": "Stiahnuť",
     "components__pdf_to_html__button__Convert": "Konvertovať ďalší"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Pretiahnite sem"
   }
 }

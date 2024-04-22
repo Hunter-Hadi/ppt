@@ -490,9 +490,14 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Open the downloaded HTML in any web browser to review the results.",
     "pdf_tools__detail_page__more_pdf_tools": "More Free Online PDF Tools"
   },
+  "features__common": {
+    "components__upload_button_drop_title": "Drop here"
+  },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",
-    "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping"
+    "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping",
+    "components__common__upload_button_tips": "or drop files here",
+    "components__common__upload_button_title": "CHOOSE FILES"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
@@ -525,7 +530,6 @@
     "components__pdf_split__button__cancel__tooltip": "Cancel current progress"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Click to upload or drag and drop",
     "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__to_image_detail__select_all": "Select All",
     "components__to_image_detail__deselect_all": "Deselect all",

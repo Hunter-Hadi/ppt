@@ -783,7 +783,6 @@
     "more_over_section__description__part2": "Van schrijfassistentie en websamenvatting tot ChatPDF en AI-schilderen, MaxAI.me stelt je in staat om te lezen, schrijven en creëren met behulp van de meest geavanceerde AI-modellen, waaronder ChatGPT, Claude en Gemini. Upgrade vandaag nog je browse-ervaring en ontgrendel je productiviteitspotentieel met MaxAI.me!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klik om te uploaden of sleep en plaats",
     "components__index__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
     "components__to_image_detail__select_all": "Selecteer alles",
     "components__to_image_detail__deselect_all": "Deselecteer alles",
@@ -831,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet manipuleren, overgeslagen",
-    "components__common__drag__dropping_tip": "U kunt de volgorde aanpassen door te slepen en neer te zetten"
+    "components__common__drag__dropping_tip": "U kunt de volgorde aanpassen door te slepen en neer te zetten",
+    "components__common__upload_button_tips": "of plaats bestanden hier",
+    "components__common__upload_button_title": "KIES BESTANDEN"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Alleen afbeeldingen van het type afbeelding kunnen worden geüpload",
@@ -851,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde bestandstype PDF",
     "components__pdf_to_html__button__download": "Downloaden",
     "components__pdf_to_html__button__Convert": "Nog een converteren"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Plaats hier"
   }
 }

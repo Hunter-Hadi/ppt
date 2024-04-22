@@ -467,7 +467,28 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Це все! Збережіть сконвертований PDF на ваш пристрій.",
     "pdf_tools__detail_page__more_pdf_tools": "Більше безкоштовних онлайн-інструментів для роботи з PDF",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF в HTML",
-    "tools__index_page__constant_obj__pdf_to_html__description": "Конвертувати PDF в HTML зі збереженням структури макету та зображень"
+    "tools__index_page__constant_obj__pdf_to_html__description": "Конвертувати PDF в HTML зі збереженням структури макету та зображень",
+    "pdf_tools__detail_description_object__pdf_to_html__top_left": "Без зусиль конвертуйте файли PDF в веб-сторінки HTML, зберігаючи макет, структуру та зображення за допомогою нашого безкоштовного онлайн-конвертера PDF в HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_1": "Безпроблемна конвертація PDF в HTML за кілька мит",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_2": "Не потрібно встановлювати програмне забезпечення",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_3": "Безпечно та конфіденційно – обробка відбувається у вашому браузері",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_1_title": "Точне перетворення PDF в HTML",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_1_description": "Збережіть оригінальний макет та форматування PDF для точного та повністю функціонального виводу веб-сторінки HTML. Просто завантажте свій PDF та залиште решту нашому складному інструменту конвертації.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_2_title": "Збереження візуальної цілісності",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_2_description": "Перетворення документів зберігає всі візуальні елементи з PDF в HTML, забезпечуючи збереження зображень, шрифтів та стилів.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_3_title": "Миттєва екстракція зображень",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_3_description": "Усі зображення, вбудовані в PDF, безперешкодно експортуються та вбудовуються в отриманий HTML, забезпечуючи багатий візуальний досвід, ідентичний джерелу PDF.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_4_title": "Безпека конвертації на клієнтському боці",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_4_description": "Ваша конфіденційність є нашим пріоритетом. Процес конвертації повністю відбувається на клієнтському боці, що означає, що файли ніколи не залишають ваш комп'ютер.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_5_title": "Універсальна доступність",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Наш конвертер PDF в HTML повністю доступний онлайн, тому ви можете конвертувати документи на будь-якому пристрої, в будь-який час, без необхідності встановлювати будь-яке програмне забезпечення.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Конвертація без Інтернету",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "За допомогою нашого інструменту ви можете розпочати конвертацію офлайн. Вам потрібно лише завантажити сторінку перед відключенням, і конвертація все одно відбудеться без підключення до Інтернету.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Як легко конвертувати PDF в HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Завантажте свій PDF до онлайн-конвертера PDF в HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Дозвольте інструменту обробити файл та конвертувати його у формат HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Після завершення конвертації завантажте новий файл HTML безпосередньо.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Відкрийте завантажений HTML у будь-якому веб-браузері, щоб переглянути результати."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",
@@ -727,7 +748,6 @@
     "pdf_tools__pdf_to_html__description": "Конвертувати PDF в HTML онлайн безкоштовно. Зберегти макет та конвертувати зображення в HTML. Немає водяних знаків, обмежень на розмір файлу, завантажень або реєстрації."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Клацніть, щоб завантажити або перетягніть",
     "components__to_image_detail__select_all": "Вибрати все",
     "components__to_image_detail__deselect_all": "Скасувати вибір усього",
     "components__to_image_detail__download_images": "Завантажити зображення",
@@ -810,7 +830,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "зашифровано або ненормальне, не можна обробити PDF, пропущено",
-    "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи"
+    "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи",
+    "components__common__upload_button_tips": "або перетягніть файли сюди",
+    "components__common__upload_button_title": "ВИБРАТИ ФАЙЛИ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можна завантажувати лише зображення типу image",
@@ -830,5 +852,8 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__pdf_to_html__button__download": "Завантажити",
     "components__pdf_to_html__button__Convert": "Конвертувати ще"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Перетягніть сюди"
   }
 }
