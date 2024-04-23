@@ -66,7 +66,7 @@
     "install_now": "Install now",
     "upgrade_to": "Upgrade to {{plan}}",
     "start_for": "Start for {{plan}}",
-    "cancel_anytime": "Cancel anytime."
+    "cancel_anytime": "Cancel anytime"
   },
   "pages": {
     "prompt_detail_page__button__run_this_prompt": "Run this prompt",
