@@ -1,5 +1,5 @@
 import { Box, Button, Popover, Stack, Typography } from '@mui/material';
-import { FC, useEffect, useState } from 'react';
+import React, { FC, useEffect, useMemo, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
 import { FunctionalitySignPdfOperationDraggable } from '..';
@@ -9,19 +9,26 @@ import FunctionalitySignPdfSignatureModal, {
 interface IFunctionalitySignPdfSignatureViewProps {
   dragId: string;
   onShowImgVal?: (val: string) => void;
+  signatureEmptyView?: React.ReactNode;
 }
 const FunctionalitySignPdfSignatureView: FC<
   IFunctionalitySignPdfSignatureViewProps
-> = ({ dragId, onShowImgVal }) => {
+> = ({ dragId, onShowImgVal, signatureEmptyView }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [signatureViewList, setSignatureViewList] = useState<string[]>([]);
   const [currentShowIndex, setCurrentShowIndex] = useState(0);
 
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
-  const isHaveValue = signatureViewList[currentShowIndex] !== undefined;
-  const showImgValue = signatureViewList[currentShowIndex];
+  const showImgValue = useMemo(
+    () => signatureViewList[currentShowIndex],
+    [signatureViewList, currentShowIndex],
+  );
+  const isHaveValue = !!showImgValue;
   const popoverId = 'pdf-signature-menu-popover-id';
   const open = Boolean(anchorEl);
+  useEffect(() => {
+    console.log('simply currentShowIndex', currentShowIndex);
+  }, [currentShowIndex]);
   useEffect(() => {
     if (signatureViewList[currentShowIndex] !== undefined) {
       onShowImgVal && onShowImgVal(signatureViewList[currentShowIndex]);
@@ -40,15 +47,21 @@ const FunctionalitySignPdfSignatureView: FC<
     //只做了第一个显示
     setSignatureViewList((list) => [...list, value]);
     setCurrentShowIndex(signatureViewList.length);
+    setModalOpen(false);
   };
   const onDelImgVal = (index: number) => {
-    if (currentShowIndex === index) {
-      setCurrentShowIndex(0);
-    }
-    if (signatureViewList.length === 1) {
+    const newList = signatureViewList.filter((_, i) => i !== index);
+    setSignatureViewList(newList);
+    if (newList.length === 0) {
       handleClose();
+      setCurrentShowIndex(0);
+    } else {
+      let newCurrentShowIndex = currentShowIndex;
+      if (currentShowIndex >= index && currentShowIndex !== 0) {
+        newCurrentShowIndex--;
+      }
+      setCurrentShowIndex(newCurrentShowIndex);
     }
-    setSignatureViewList((list) => list.filter((_, i) => i !== index));
   };
   return (
     <FunctionalitySignPdfOperationDraggable
@@ -78,20 +91,23 @@ const FunctionalitySignPdfSignatureView: FC<
           <Stack
             direction='row'
             flex={1}
+            px={1}
             justifyContent='space-between'
             onClick={() => setModalOpen(true)}
           >
             <Box flex={1}>
-              <Typography
-                sx={{
-                  fontSize: {
-                    xs: 10,
-                    lg: 14,
-                  },
-                }}
-              >
-                Your Signature
-              </Typography>
+              {signatureEmptyView || (
+                <Typography
+                  sx={{
+                    fontSize: {
+                      xs: 10,
+                      lg: 14,
+                    },
+                  }}
+                >
+                  Your Signature
+                </Typography>
+              )}
             </Box>
             <Typography
               color='text.secondary'
@@ -193,7 +209,10 @@ const FunctionalitySignPdfSignatureView: FC<
             sx={{
               mt: 1,
             }}
-            onClick={() => setModalOpen(true)}
+            onClick={() => {
+              setModalOpen(true);
+              handleClose();
+            }}
           >
             ADD
           </Button>

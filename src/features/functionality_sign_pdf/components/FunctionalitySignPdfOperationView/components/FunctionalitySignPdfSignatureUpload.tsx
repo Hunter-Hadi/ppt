@@ -20,7 +20,58 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
   useImperativeHandle(ref, () => ({
     getPngBase64: () => imgVal,
   }));
-  const onSelectedColor = (color: string) => {};
+  const onSelectedColor = (color: string) => {
+    // 假定base64是你的Base64字符串
+    var base64 = imgVal;
+
+    // 创建一个新的Image对象
+    var img = new Image();
+
+    // 设置图片加载成功后的操作
+    img.onload = function () {
+      // 创建一个Canvas元素
+      var canvas = document.createElement('canvas');
+      canvas.width = img.width;
+      canvas.height = img.height;
+
+      // 获取Canvas的2D绘图上下文
+      var ctx = canvas.getContext('2d');
+      if (ctx) {
+        // 将Image绘制到Canvas上
+        ctx.drawImage(img, 0, 0);
+        // 读取整个画布的像素数据
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const data = imageData.data; // data是一个Uint8ClampedArray，包含RGBA值序列
+        // 遍历每个像素，更改黑色为蓝色
+        for (let i = 0; i < data.length; i += 4) {
+          data[i + 1] = 0;
+          switch (color) {
+            case 'black':
+              data[i] = 0;
+              data[i + 2] = 0;
+              break;
+            case 'red':
+              data[i] = 255;
+              data[i + 2] = 0;
+              break;
+            case 'blue':
+              data[i] = 0;
+              data[i + 2] = 255;
+              break;
+          }
+        }
+        // 将修改后的像素数据写回画布
+        ctx.putImageData(imageData, 0, 0);
+
+        // 现在，将画布转换为Base64格式，并设置到imgVal
+        const base64 = canvas.toDataURL('image/png');
+        setImgVal(base64);
+      }
+    };
+
+    // 设置Image对象的source为Base64字符串
+    img.src = base64;
+  };
   const onChangeImgSvg = (file: File) => {
     if (file) {
       const canvas = document.createElement('canvas');

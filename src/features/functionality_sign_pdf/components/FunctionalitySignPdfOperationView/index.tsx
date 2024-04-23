@@ -1,9 +1,10 @@
 import { useDraggable } from '@dnd-kit/core';
-import { Box, Stack } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import Head from 'next/head';
 import { FC, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 import FunctionalitySignPdfSignatureView from './components/FunctionalitySignPdfSignatureView';
 
 export const FunctionalitySignPdfOperationDraggable: FC<{
@@ -54,9 +55,44 @@ const FunctionalitySignPdfOperationView: FC<
           rel='stylesheet'
         ></link>
       </Head>
-      <Box>
-        <FunctionalitySignPdfSignatureView dragId={'draggable-one'} />
-      </Box>
+      <Stack direction='column' gap={2}>
+        <FunctionalitySignPdfSignatureView
+          dragId={'draggable-one'}
+          signatureEmptyView={
+            <Stack direction='row' gap={1} alignItems='center'>
+              <FunctionalitySignPdfIcon name='TextFields' />
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 10,
+                    lg: 16,
+                  },
+                }}
+              >
+                Your Signature
+              </Typography>
+            </Stack>
+          }
+        />
+        <FunctionalitySignPdfSignatureView
+          dragId={'draggable-two'}
+          signatureEmptyView={
+            <Stack direction='row' gap={1} alignItems='center'>
+              <FunctionalitySignPdfIcon name='Abc' />
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 10,
+                    lg: 16,
+                  },
+                }}
+              >
+                Your Initials
+              </Typography>
+            </Stack>
+          }
+        />
+      </Stack>
     </Stack>
   );
 };

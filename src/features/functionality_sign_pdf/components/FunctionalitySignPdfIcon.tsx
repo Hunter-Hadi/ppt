@@ -1,9 +1,11 @@
+import AbcIcon from '@mui/icons-material/Abc';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import RefreshIcon from '@mui/icons-material/Refresh';
 import ReplayIcon from '@mui/icons-material/Replay';
+import TextFieldsIcon from '@mui/icons-material/TextFields';
 import { SvgIconProps } from '@mui/material';
 import { FC } from 'react';
 
@@ -34,6 +36,12 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'DeleteForeverOutlined': {
         return <DeleteForeverOutlinedIcon {...restProps} />;
+      }
+      case 'Abc': {
+        return <AbcIcon {...restProps} />;
+      }
+      case 'TextFields': {
+        return <TextFieldsIcon {...restProps} />;
       }
       default: {
         return null;
