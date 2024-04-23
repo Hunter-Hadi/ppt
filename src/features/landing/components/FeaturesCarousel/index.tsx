@@ -45,14 +45,14 @@ const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
     label: 'pages:home_page__features_carousel__feature_rewriter__label',
   },
   {
-    value: 'Quick-Reply',
-    icon: 'quick-reply',
-    label: 'pages:home_page__features_carousel__feature_reply__label',
-  },
-  {
     value: 'Summary',
     icon: 'summary',
     label: 'pages:home_page__features_carousel__feature_summary__label',
+  },
+  {
+    value: 'Quick-Reply',
+    icon: 'quick-reply',
+    label: 'pages:home_page__features_carousel__feature_reply__label',
   },
   {
     value: 'Search',
