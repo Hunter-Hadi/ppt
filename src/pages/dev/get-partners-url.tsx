@@ -13,6 +13,7 @@ import {
 import React from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
+import { WWW_PROJECT_LINK } from '@/global_constants';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
 import globalSnackbar from '@/utils/globalSnackbar';
 
