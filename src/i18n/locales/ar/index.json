@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "قم بتحميل ملف PDF الخاص بك إلى محول PDF إلى HTML عبر الإنترنت.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "اسمح للأداة بمعالجة الملف وتحويله إلى تنسيق HTML.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "بمجرد الانتهاء من التحويل، قم بتنزيل ملف HTML الجديد مباشرةً.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "افتح ملف HTML المُنزّل في أي مستعرض ويب لمراجعة النتائج."
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "افتح ملف HTML المُنزّل في أي مستعرض ويب لمراجعة النتائج.",
+    "home_page__features_carousel__feature_reader__label": "قارئ الذكاء الاصطناعي",
+    "home_page__features_carousel__feature_reader__title": "جعل المعلومات المعقدة سهلة الفهم، تمامًا كخبير.",
+    "home_page__features_carousel__feature_reader__description1": "شرح أي كلمة أو مصطلح أو فقرة",
+    "home_page__features_carousel__feature_reader__description2": "تلخيص أي نص",
+    "home_page__features_carousel__feature_reader__description3": "العثور على عناصر العمل في أي نص",
+    "home_page__features_carousel__feature_reader__description4": "ترجمة بين أي لغات",
+    "home_page__features_carousel__feature_prompts__label": "تلميحات الذكاء الاصطناعي",
+    "home_page__features_carousel__feature_prompts__title": "أكمل مهامك اليومية في دقائق الآن، وليس ساعات بعد الآن.",
+    "home_page__features_carousel__feature_prompts__description1": "مكتبة تلميحات الذكاء الاصطناعي عالية الجودة",
+    "home_page__features_carousel__feature_prompts__description2": "إنشاء وإدارة تلميحاتك الخاصة",
+    "home_page__features_carousel__feature_prompts__description3": "إعادة استخدام تلميحاتك الخاصة",
+    "home_page__features_carousel__feature_prompts__description4": "نغمة وأنماط كتابة مخصصة"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",

@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-klikkaus tekoälyä missä tahansa, vähemmän aikaa, parempia tuloksia",
     "pricing__compare_plans__title": "Vertaa suunnitelmia",
     "pricing__plan_category__individual__label": "Yksittäiset suunnitelmat",
-    "pricing__plan_category__team__label": "Tiimisuunnitelmat"
+    "pricing__plan_category__team__label": "Tiimisuunnitelmat",
+    "home_page__features_carousel__feature_reader__label": "AI-lukija",
+    "home_page__features_carousel__feature_reader__title": "Tee monimutkainen tieto helposti ymmärrettäväksi, aivan kuin asiantuntija.",
+    "home_page__features_carousel__feature_reader__description1": "Selitä mikä tahansa sana, termi tai kappale",
+    "home_page__features_carousel__feature_reader__description2": "Tiivistä mikä tahansa teksti",
+    "home_page__features_carousel__feature_reader__description3": "Etsi toimenpiteitä mistä tahansa tekstistä",
+    "home_page__features_carousel__feature_reader__description4": "Käännä minkä tahansa kielen välillä",
+    "home_page__features_carousel__feature_prompts__label": "AI-vihjeet",
+    "home_page__features_carousel__feature_prompts__title": "Suorita päivittäiset tehtävät minuuteissa, ei enää tunteja.",
+    "home_page__features_carousel__feature_prompts__description1": "Laadukas AI-vihjeiden kirjasto",
+    "home_page__features_carousel__feature_prompts__description2": "Luo ja hallitse omia vihjeitäsi",
+    "home_page__features_carousel__feature_prompts__description3": "Hyödynnä omia vihjeitäsi uudelleen",
+    "home_page__features_carousel__feature_prompts__description4": "Mukautettu sävy ja kirjoitustyylit"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",

@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-kliknutí AI kdekoli, méně času, lepší výsledky",
     "pricing__compare_plans__title": "Porovnat plány",
     "pricing__plan_category__individual__label": "Individuální plány",
-    "pricing__plan_category__team__label": "Týmové plány"
+    "pricing__plan_category__team__label": "Týmové plány",
+    "home_page__features_carousel__feature_reader__label": "AI Čtenář",
+    "home_page__features_carousel__feature_reader__title": "Udělejte složité informace snadno srozumitelné, jako odborník.",
+    "home_page__features_carousel__feature_reader__description1": "Vysvětlete jakékoliv slovo, termín nebo odstavec",
+    "home_page__features_carousel__feature_reader__description2": "Shrňte jakýkoliv text",
+    "home_page__features_carousel__feature_reader__description3": "Najděte akční body v jakémkoliv textu",
+    "home_page__features_carousel__feature_reader__description4": "Překládejte mezi jakýmikoliv jazyky",
+    "home_page__features_carousel__feature_prompts__label": "AI Nápovědy",
+    "home_page__features_carousel__feature_prompts__title": "Dokončete své denní úkoly za minuty, ne hodiny.",
+    "home_page__features_carousel__feature_prompts__description1": "Knihovna vysoce kvalitních AI nápověd",
+    "home_page__features_carousel__feature_prompts__description2": "Vytvářejte a spravujte vlastní nápovědy",
+    "home_page__features_carousel__feature_prompts__description3": "Opakovaně používejte své vlastní nápovědy",
+    "home_page__features_carousel__feature_prompts__description4": "Vlastní tón a styl psaní"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",

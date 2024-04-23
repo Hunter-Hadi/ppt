@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "മാറ്റം പൂർണ്ണമായിട്ടുള്ളതായാൽ, നിങ്ങളുടെ പുതിയ HTML ഫയൽ നിങ്ങളേക്ക് ലഭ്യമാക്കുക.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "ഫലങ്ങളെ പരിശോധിക്കാൻ ഡൗൺലോഡ് ചെയ്യുകയോ എന്നിവയുടെ സഹായത്തോടെ ഏതെങ്കിലും വെബ് ബ്രൌസറിൽ ഡൗൺലോഡ് ചെയ്യുക.",
     "pdf_tools__detail_page__more_pdf_tools": "കൂടുതൽ സൗജന്യ ഓൺലൈന്‍ PDF ഉപകരണങ്ങൾ",
-    "pdf_tools__detail_description_object__pdf_to_html__top_left": "ലേഔട്ട്, രൂപകല്പന, ചിത്രങ്ങൾ ഉള്ളടക്കം പരിപാലിച്ച് ഓൺലൈനായി ഞങ്ങളുടെ സൗജന്യ പിഡിഎഫ് മാറ്റിക്കുക HTML വെബ് പേജുകൾക്ക് പരിവർത്തനം ചെയ്യുക."
+    "pdf_tools__detail_description_object__pdf_to_html__top_left": "ലേഔട്ട്, രൂപകല്പന, ചിത്രങ്ങൾ ഉള്ളടക്കം പരിപാലിച്ച് ഓൺലൈനായി ഞങ്ങളുടെ സൗജന്യ പിഡിഎഫ് മാറ്റിക്കുക HTML വെബ് പേജുകൾക്ക് പരിവർത്തനം ചെയ്യുക.",
+    "home_page__features_carousel__feature_reader__label": "എ.ഐ. റീഡർ",
+    "home_page__features_carousel__feature_reader__title": "വിശദമായ വിവരങ്ങൾ അടങ്ങുന്നത് പ്രശ്നമാക്കാതെ, ഒരു വിദ്യാർത്ഥിയുടെയോ പഠിപ്പിന്റെയോ പേരില്‍.",
+    "home_page__features_carousel__feature_reader__description1": "ഏതെങ്കിലും വാക്ക്, പദം, അല്പം അല്ലെങ്കിൽ പഠനത്തിന്റെ ഭാഗം വിശദമായി വ്യഖ്യാനിക്കുക ",
+    "home_page__features_carousel__feature_reader__description2": "ഏതെങ്കിലും ടെക്സ്റ്റ് സംഗ്രഹിക്കുക",
+    "home_page__features_carousel__feature_reader__description3": "ഏതെങ്കിലും ടെക്സ്റ്റിലെ പ്രവൃത്തി അംഗീകരിക്കുക",
+    "home_page__features_carousel__feature_reader__description4": "ഏതെങ്കിലും ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്യുക",
+    "home_page__features_carousel__feature_prompts__label": "എ.ഐ. പ്രോംപ്റ്റുകൾ",
+    "home_page__features_carousel__feature_prompts__title": "ദിവസവും മിനിറ്റുകൾക്ക് പൂർത്തിയാക്കുക, അന്ന് മിനിറ്റുകൾക്ക് മാത്രമേ.",
+    "home_page__features_carousel__feature_prompts__description1": "ഉന്നത ഗുണമേന്മയുള്ള എ.ഐ. പ്രോംപ്റ്റുകൾ ലൈബ്രറി",
+    "home_page__features_carousel__feature_prompts__description2": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ സൃഷ്ടിക്കുകയും അവയുടെ പരിചയം നിയന്ത്രിക്കുകയും ചെയ്യുക",
+    "home_page__features_carousel__feature_prompts__description3": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ പുനരായി ഉപയോഗിക്കുക",
+    "home_page__features_carousel__feature_prompts__description4": "പ്രത്യേക ടോൺ & രചനാ ശൈലികൾ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",

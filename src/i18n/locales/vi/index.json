@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-click AI mọi nơi, ít thời gian hơn, kết quả tốt hơn",
     "pricing__compare_plans__title": "So sánh các gói",
     "pricing__plan_category__individual__label": "Gói cá nhân",
-    "pricing__plan_category__team__label": "Gói nhóm"
+    "pricing__plan_category__team__label": "Gói nhóm",
+    "home_page__features_carousel__feature_reader__label": "Trình đọc AI",
+    "home_page__features_carousel__feature_reader__title": "Làm cho thông tin phức tạp dễ hiểu, giống như một chuyên gia.",
+    "home_page__features_carousel__feature_reader__description1": "Giải thích bất kỳ từ, thuật ngữ hoặc đoạn văn nào",
+    "home_page__features_carousel__feature_reader__description2": "Tóm tắt bất kỳ văn bản nào",
+    "home_page__features_carousel__feature_reader__description3": "Tìm các mục hành động trong bất kỳ văn bản nào",
+    "home_page__features_carousel__feature_reader__description4": "Dịch giữa bất kỳ ngôn ngữ nào",
+    "home_page__features_carousel__feature_prompts__label": "Gợi ý AI",
+    "home_page__features_carousel__feature_prompts__title": "Hoàn thành các nhiệm vụ hàng ngày của bạn trong vài phút, không còn là vài giờ nữa.",
+    "home_page__features_carousel__feature_prompts__description1": "Thư viện gợi ý AI chất lượng cao",
+    "home_page__features_carousel__feature_prompts__description2": "Tạo và quản lý gợi ý của riêng bạn",
+    "home_page__features_carousel__feature_prompts__description3": "Tái sử dụng gợi ý của riêng bạn",
+    "home_page__features_carousel__feature_prompts__description4": "Phong cách viết và phong cách tùy chỉnh"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",

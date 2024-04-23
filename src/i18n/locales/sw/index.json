@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "AI ya kubofya moja mahali popote, muda mdogo, matokeo bora",
     "pricing__compare_plans__title": "Fananisha mipango",
     "pricing__plan_category__individual__label": "Mipango ya mtu binafsi",
-    "pricing__plan_category__team__label": "Mipango ya timu"
+    "pricing__plan_category__team__label": "Mipango ya timu",
+    "home_page__features_carousel__feature_reader__label": "Msomaji wa AI",
+    "home_page__features_carousel__feature_reader__title": "Fanya habari ngumu kuwa rahisi kuelewa, kama mtaalamu.",
+    "home_page__features_carousel__feature_reader__description1": "Eleza neno, istilahi, au aya yoyote",
+    "home_page__features_carousel__feature_reader__description2": "Kuhitimisha maandishi yoyote",
+    "home_page__features_carousel__feature_reader__description3": "Tafuta vitu vya kutenda katika maandishi yoyote",
+    "home_page__features_carousel__feature_reader__description4": "Tafsiri kati ya lugha yoyote",
+    "home_page__features_carousel__feature_prompts__label": "Mawaidha ya AI",
+    "home_page__features_carousel__feature_prompts__title": "Kamilisha kazi zako za kila siku ndani ya dakika, si masaa tena.",
+    "home_page__features_carousel__feature_prompts__description1": "Maktaba ya mawaidha ya AI ya ubora wa juu",
+    "home_page__features_carousel__feature_prompts__description2": "Unda na usimamie mawaidha yako mwenyewe",
+    "home_page__features_carousel__feature_prompts__description3": "Tumia tena mawaidha yako mwenyewe",
+    "home_page__features_carousel__feature_prompts__description4": "Mtindo wa sauti na uandishi wa kipekee"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",

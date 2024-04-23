@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1 clic IA en qualsevol lloc, menys temps, millors resultats",
     "pricing__compare_plans__title": "Compara plans",
     "pricing__plan_category__individual__label": "Plans individuals",
-    "pricing__plan_category__team__label": "Plans d'equip"
+    "pricing__plan_category__team__label": "Plans d'equip",
+    "home_page__features_carousel__feature_reader__label": "Lector d'IA",
+    "home_page__features_carousel__feature_reader__title": "Facilita la comprensió de la informació complexa, com un expert.",
+    "home_page__features_carousel__feature_reader__description1": "Explica qualsevol paraula, terme o paràgraf",
+    "home_page__features_carousel__feature_reader__description2": "Resumeix qualsevol text",
+    "home_page__features_carousel__feature_reader__description3": "Troba tasques d'acció en qualsevol text",
+    "home_page__features_carousel__feature_reader__description4": "Tradueix entre qualsevol idioma",
+    "home_page__features_carousel__feature_prompts__label": "Suggeriments d'IA",
+    "home_page__features_carousel__feature_prompts__title": "Completa les teves tasques diàries en minuts, no en hores.",
+    "home_page__features_carousel__feature_prompts__description1": "Biblioteca de suggeriments d'IA de alta qualitat",
+    "home_page__features_carousel__feature_prompts__description2": "Crea i gestiona els teus propis suggeriments",
+    "home_page__features_carousel__feature_prompts__description3": "Reutilitza els teus propis suggeriments",
+    "home_page__features_carousel__feature_prompts__description4": "Estil personalitzat i estils d'escriptura"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",

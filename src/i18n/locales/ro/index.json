@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-click AI oriunde, mai puțin timp, rezultate mai bune",
     "pricing__compare_plans__title": "Compară planurile",
     "pricing__plan_category__individual__label": "Planuri individuale",
-    "pricing__plan_category__team__label": "Planuri de echipă"
+    "pricing__plan_category__team__label": "Planuri de echipă",
+    "home_page__features_carousel__feature_reader__label": "Cititor AI",
+    "home_page__features_carousel__feature_reader__title": "Facilitează înțelegerea informațiilor complexe, la fel ca un expert.",
+    "home_page__features_carousel__feature_reader__description1": "Explică orice cuvânt, termen sau paragraf",
+    "home_page__features_carousel__feature_reader__description2": "Rezumă orice text",
+    "home_page__features_carousel__feature_reader__description3": "Găsește elemente de acțiune în orice text",
+    "home_page__features_carousel__feature_reader__description4": "Tradu între orice limbi",
+    "home_page__features_carousel__feature_prompts__label": "Sugestii AI",
+    "home_page__features_carousel__feature_prompts__title": "Finalizează sarcinile tale zilnice în câteva minute, nu mai multe ore.",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliotecă de sugestii AI de înaltă calitate",
+    "home_page__features_carousel__feature_prompts__description2": "Creează și gestionează propriile sugestii",
+    "home_page__features_carousel__feature_prompts__description3": "Reutilizează propriile sugestii",
+    "home_page__features_carousel__feature_prompts__description4": "Stiluri personalizate de ton și scriere"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",

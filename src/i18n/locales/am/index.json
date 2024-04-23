@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "የተሳትፎውን መጠቀም እና የሚኖር በHTML ፎርማት ውስጥ ማስተላለፍዎን ይጫኑ።",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "ተሳትፎውን መጠቀም ከሚገኘው የHTML ፋይል ውስጥ ይጫኑ።",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "የተሳትፎውን መጠቀም የሚገኘውን HTML ፋይልን በድረ-ገጽ ውስጥ ይመልከቱ።",
-    "pdf_tools__detail_page__more_pdf_tools": "ተጨማሪ ነፃ የPDF መስኮች"
+    "pdf_tools__detail_page__more_pdf_tools": "ተጨማሪ ነፃ የPDF መስኮች",
+    "home_page__features_carousel__feature_reader__label": "የማስተማርና የማስታወቂያ ቅጽ",
+    "home_page__features_carousel__feature_reader__title": "በእንግሊዝኛ የሚቀርብ መልኩን በአንድ ጊዜ በተዘረዘሩ መልኩነት ይቀርባል።",
+    "home_page__features_carousel__feature_reader__description1": "የሚከተለውን ቃል, ቁልፍ ወይም ማስታወቂያ አስተማሪዎችን መጠቀም",
+    "home_page__features_carousel__feature_reader__description2": "የሚጠቀምበት ጽሑፍን መጠቀም",
+    "home_page__features_carousel__feature_reader__description3": "የሚጠቀምበት ጽሑፍን የማይታወቅ እቃዎችን ያግኙ",
+    "home_page__features_carousel__feature_reader__description4": "የሚተላለፉ ቋንቋዎች መጻፍ",
+    "home_page__features_carousel__feature_prompts__label": "የማስተማርና የማስታወቂያ ቅጽ",
+    "home_page__features_carousel__feature_prompts__title": "የቀኑ ስራዎችን በደብቀው ያስቀምጡ በደብቀው የሚቀርብ መልኩነትን ይቀርባል።",
+    "home_page__features_carousel__feature_prompts__description1": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽ መታወቂያ",
+    "home_page__features_carousel__feature_prompts__description2": "የሚፈጠሩትን የማስተማርና የማስታወቂያ ቅጽ ፍጠር እና ማስተማርና",
+    "home_page__features_carousel__feature_prompts__description3": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽን ያግኙ",
+    "home_page__features_carousel__feature_prompts__description4": "የሚተላለፉ ቆንጆ & የጽሑፍ አስደሳች አይነት"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",

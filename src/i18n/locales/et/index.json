@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-kliki AI igal pool, vähem aega, paremad tulemused",
     "pricing__compare_plans__title": "Võrdle plaane",
     "pricing__plan_category__individual__label": "Individuaalsed plaanid",
-    "pricing__plan_category__team__label": "Meeskonna plaanid"
+    "pricing__plan_category__team__label": "Meeskonna plaanid",
+    "home_page__features_carousel__feature_reader__label": "AI Lugeja",
+    "home_page__features_carousel__feature_reader__title": "Muuda keeruline teave lihtsasti mõistetavaks, nagu ekspert.",
+    "home_page__features_carousel__feature_reader__description1": "Selgita mis tahes sõna, terminit või lõiku",
+    "home_page__features_carousel__feature_reader__description2": "Kokkuvõte mis tahes tekstist",
+    "home_page__features_carousel__feature_reader__description3": "Leia tegevuskohad mis tahes tekstist",
+    "home_page__features_carousel__feature_reader__description4": "Tõlgi mis tahes keelte vahel",
+    "home_page__features_carousel__feature_prompts__label": "AI Vihjed",
+    "home_page__features_carousel__feature_prompts__title": "Täida oma igapäevased ülesanded minutitega, mitte enam tundidega.",
+    "home_page__features_carousel__feature_prompts__description1": "Kõrge kvaliteediga AI vihjete raamatukogu",
+    "home_page__features_carousel__feature_prompts__description2": "Loo ja haldage oma vihjeid",
+    "home_page__features_carousel__feature_prompts__description3": "Kasuta uuesti oma vihjeid",
+    "home_page__features_carousel__feature_prompts__description4": "Kohandatud toon ja kirjutamisstiilid"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",

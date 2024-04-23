@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Augšupielādējiet savu PDF uz tiešsaistes PDF uz HTML konvertoru.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Ļaujiet rīkam apstrādāt failu un pārveidot to HTML formātā.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Pabeidzot konvertāciju, lejupielādējiet jauno HTML failu tieši.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Atveriet lejupielādēto HTML jebkurā tīmekļa pārlūkprogrammā, lai pārskatītu rezultātus."
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Atveriet lejupielādēto HTML jebkurā tīmekļa pārlūkprogrammā, lai pārskatītu rezultātus.",
+    "home_page__features_carousel__feature_reader__label": "AI Lasītājs",
+    "home_page__features_carousel__feature_reader__title": "Padariet sarežģītu informāciju viegli saprotamu, tāpat kā eksperts.",
+    "home_page__features_carousel__feature_reader__description1": "Izskaidrojiet jebkuru vārdu, terminu vai rindkopu",
+    "home_page__features_carousel__feature_reader__description2": "Apkopojiet jebkādu tekstu",
+    "home_page__features_carousel__feature_reader__description3": "Atrast darbības vienumus jebkurā tekstā",
+    "home_page__features_carousel__feature_reader__description4": "Tulkot starp jebkurām valodām",
+    "home_page__features_carousel__feature_prompts__label": "AI Uzaicinājumi",
+    "home_page__features_carousel__feature_prompts__title": "Pabeidziet savas ikdienas uzdevumus tagad minūtēs, nevis stundās.",
+    "home_page__features_carousel__feature_prompts__description1": "Augstas kvalitātes AI uzaicinājumu bibliotēka",
+    "home_page__features_carousel__feature_prompts__description2": "Izveidojiet un pārvaldiet savus pašu uzaicinājumus",
+    "home_page__features_carousel__feature_prompts__description3": "Atkārtoti izmantojiet savus pašu uzaicinājumus",
+    "home_page__features_carousel__feature_prompts__description4": "Pielāgot toni un rakstīšanas stilus"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",

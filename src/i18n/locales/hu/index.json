@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1 kattintásos AI bárhol, kevesebb idő, jobb eredmények",
     "pricing__compare_plans__title": "Tervek összehasonlítása",
     "pricing__plan_category__individual__label": "Egyéni tervek",
-    "pricing__plan_category__team__label": "Csoportos tervek"
+    "pricing__plan_category__team__label": "Csoportos tervek",
+    "home_page__features_carousel__feature_reader__label": "AI Olvasó",
+    "home_page__features_carousel__feature_reader__title": "Tegyen könnyen érthetővé bármilyen összetett információt, akár egy szakértő.",
+    "home_page__features_carousel__feature_reader__description1": "Magyarázza el bármelyik szót, kifejezést vagy bekezdést",
+    "home_page__features_carousel__feature_reader__description2": "Összefoglalja bármelyik szöveget",
+    "home_page__features_carousel__feature_reader__description3": "Keresse meg a teendőket bármelyik szövegben",
+    "home_page__features_carousel__feature_reader__description4": "Fordítson bármely nyelv között",
+    "home_page__features_carousel__feature_prompts__label": "AI Segítségek",
+    "home_page__features_carousel__feature_prompts__title": "Végezze el mindennapi feladatait percek alatt, nem órák alatt.",
+    "home_page__features_carousel__feature_prompts__description1": "Magas minőségű AI segítségkönyvtár",
+    "home_page__features_carousel__feature_prompts__description2": "Hozzon létre és kezeljen saját segítségeket",
+    "home_page__features_carousel__feature_prompts__description3": "Újrahasználja saját segítségeit",
+    "home_page__features_carousel__feature_prompts__description4": "Egyedi hangnem és írási stílus"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

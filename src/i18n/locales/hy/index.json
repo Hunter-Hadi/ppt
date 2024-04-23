@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Թույլատրեք գործիքին մշակել ֆայլը և փոխարենելուն HTML ձևաչափով:",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Երբ փոխարենումը ավարտված է, նոր HTML ֆայլը կլինի համարձակման հղումով:",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Բացեք բեռնված HTML-ը ցանկացած վեբ զարգացման համար:",
-    "pdf_tools__detail_page__more_pdf_tools": "Ավելին անվճար օնլայն PDF գործիքներ"
+    "pdf_tools__detail_page__more_pdf_tools": "Ավելին անվճար օնլայն PDF գործիքներ",
+    "home_page__features_carousel__feature_reader__label": "ԱԻ կարդալում",
+    "home_page__features_carousel__feature_reader__title": "Կարելի է հեշտությամբ հասկանալ բարդ տեքստերը, ինչպես մասնագիտացի։",
+    "home_page__features_carousel__feature_reader__description1": "Մանրամասներով բացատրեք ցանկացած բառ, տերմին կամ պարագրաֆ ",
+    "home_page__features_carousel__feature_reader__description2": "Սեղմեք ցանկացած տեքստի ամփոփումը",
+    "home_page__features_carousel__feature_reader__description3": "Գտեք գործառույթներ ցանկացած տեքստում",
+    "home_page__features_carousel__feature_reader__description4": "Թարգմանեք բարելավելին՝ ցանկացած լեզվով",
+    "home_page__features_carousel__feature_prompts__label": "ԱԻ հուշեր",
+    "home_page__features_carousel__feature_prompts__title": "Ավարտեք ձեր ամբողջական առաջադրանքները րոպեներով, այլապես ժամանակներով։",
+    "home_page__features_carousel__feature_prompts__description1": "Բարձր որակի ԱԻ հուշերի գրադարան",
+    "home_page__features_carousel__feature_prompts__description2": "Ստեղծեք և կառավարեք ձեր սեփական հուշերը",
+    "home_page__features_carousel__feature_prompts__description3": "Վերագրեք ձեր սեփական հուշերը",
+    "home_page__features_carousel__feature_prompts__description4": "Անհատական թոն և գրանշանային ոճ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",

@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "ટૂલ ફાઈલને પ્રક્રિયા કરી અને તેને HTML ફોર્મેટમાં રૂપાંતરિત કરો.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "રૂપાંતરણ પૂર્ણ થયેલ હોય ત્યારે, તમારી નવી HTML ફાઈલને સીધી ડાઉનલોડ કરો.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "પરિણામોને સમીક્ષા કરવા માટે કોઈપણ વેબ બ્રાઉઝરમાં ડાઉનલોડ કરેલ HTML ખોલો.",
-    "pdf_tools__detail_page__more_pdf_tools": "વધુ મુક્ત ઓનલાઇન PDF સાધનો"
+    "pdf_tools__detail_page__more_pdf_tools": "વધુ મુક્ત ઓનલાઇન PDF સાધનો",
+    "home_page__features_carousel__feature_reader__label": "એઆઈ વાંચક",
+    "home_page__features_carousel__feature_reader__title": "સમજતા અને વિશેષજ્ઞ જેવી રીતે જટિલ માહિતીને સરળ બનાવો.",
+    "home_page__features_carousel__feature_reader__description1": "કોઈ પણ શબ્દ, ટર્મ અથવા પેરાગ્રાફ સમજાવો",
+    "home_page__features_carousel__feature_reader__description2": "કોઈ પણ ટેક્સ્ટને સંક્ષેપમાં આપો",
+    "home_page__features_carousel__feature_reader__description3": "કોઈ પણ ટેક્સ્ટમાં ક્રિયા આઇટમ્સ શોધો",
+    "home_page__features_carousel__feature_reader__description4": "કોઈ પણ ભાષાઓ વચ્ચે અનુવાદ કરો",
+    "home_page__features_carousel__feature_prompts__label": "એઆઈ પ્રોમ્પ્ટ્સ",
+    "home_page__features_carousel__feature_prompts__title": "હવે તમારા દૈનિક કાર્યોને મિનિટમાં પૂર્ણ કરો, આગળ થી કોઈ ઘણી વખત નથી.",
+    "home_page__features_carousel__feature_prompts__description1": "ઉચ્ચ ગુણવત્તાવાળા એઆઈ પ્રોમ્પ્ટ્સ લાઇબ્રેરી",
+    "home_page__features_carousel__feature_prompts__description2": "તમારા પ્રોમ્પ્ટ્સ બનાવો અને મેનેજ કરો",
+    "home_page__features_carousel__feature_prompts__description3": "તમારા પ્રોમ્પ્ટ્સ ફરીથી ઉપયોગ કરો",
+    "home_page__features_carousel__feature_prompts__description4": "વૈવિધ્યપૂર્ણ ટોન અને લેખન શૈલીઓ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",

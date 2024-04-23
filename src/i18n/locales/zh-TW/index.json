@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1 按鍵 AI，節省時間，獲得更好的結果",
     "pricing__compare_plans__title": "比較方案",
     "pricing__plan_category__individual__label": "個人方案",
-    "pricing__plan_category__team__label": "團隊方案"
+    "pricing__plan_category__team__label": "團隊方案",
+    "home_page__features_carousel__feature_reader__label": "AI 閱讀器",
+    "home_page__features_carousel__feature_reader__title": "使複雜資訊易於理解，就像專家一樣。",
+    "home_page__features_carousel__feature_reader__description1": "解釋任何單詞、術語或段落",
+    "home_page__features_carousel__feature_reader__description2": "總結任何文本",
+    "home_page__features_carousel__feature_reader__description3": "在任何文本中找到行動項目",
+    "home_page__features_carousel__feature_reader__description4": "在任何語言之間進行翻譯",
+    "home_page__features_carousel__feature_prompts__label": "AI 提示",
+    "home_page__features_carousel__feature_prompts__title": "現在只需幾分鐘完成您的日常任務，而不再是幾小時。",
+    "home_page__features_carousel__feature_prompts__description1": "高品質的 AI 提示庫",
+    "home_page__features_carousel__feature_prompts__description2": "創建和管理自己的提示",
+    "home_page__features_carousel__feature_prompts__description3": "重複使用自己的提示",
+    "home_page__features_carousel__feature_prompts__description4": "自定義語氣和寫作風格"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",

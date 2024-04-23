@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "ٹول کو فائل پروسیس کرنے اور اسے HTML فارمیٹ میں تبدیل کرنے دیں۔",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "جب تبدیلی مکمل ہوجائے، نئے HTML فائل کو براہ راست ڈاؤن لوڈ کریں۔",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "نتائج کا جائزہ لینے کے لئے ڈاؤن لوڈ کی گئی HTML کو کسی بھی ویب براؤزر میں کھولیں۔",
-    "pdf_tools__detail_page__more_pdf_tools": "مزید مفت آن لائن PDF ٹولز"
+    "pdf_tools__detail_page__more_pdf_tools": "مزید مفت آن لائن PDF ٹولز",
+    "home_page__features_carousel__feature_reader__label": "AI پڑھنے والا",
+    "home_page__features_carousel__feature_reader__title": "مشکل معلومات کو آسان بنائیں، جیسے ایک ماہر کی طرح۔",
+    "home_page__features_carousel__feature_reader__description1": "کسی بھی لفظ، تصور یا پیراگراف کی وضاحت کریں",
+    "home_page__features_carousel__feature_reader__description2": "کسی بھی متن کو خلاصہ کریں",
+    "home_page__features_carousel__feature_reader__description3": "کسی بھی متن میں کارروائی کے اقدامات تلاش کریں",
+    "home_page__features_carousel__feature_reader__description4": "کسی بھی زبانوں کے درمیان ترجمہ کریں",
+    "home_page__features_carousel__feature_prompts__label": "AI پرومپٹس",
+    "home_page__features_carousel__feature_prompts__title": "اب روزانہ کے کاموں کو منٹوں میں مکمل کریں، اب نہیں گھنٹوں میں۔",
+    "home_page__features_carousel__feature_prompts__description1": "بلند معیار کے AI پرومپٹس لائبریری",
+    "home_page__features_carousel__feature_prompts__description2": "اپنے خود کے پرومپٹس بنائیں اور منظم کریں",
+    "home_page__features_carousel__feature_prompts__description3": "اپنے خود کے پرومپٹس دوبارہ استعمال کریں",
+    "home_page__features_carousel__feature_prompts__description4": "کسٹم ٹون اور رائٹنگ سٹائلز"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",

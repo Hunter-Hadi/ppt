@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "AI 1-klik di mana saja, waktu lebih sedikit, hasil yang lebih baik",
     "pricing__compare_plans__title": "Bandingkan paket",
     "pricing__plan_category__individual__label": "Paket individu",
-    "pricing__plan_category__team__label": "Paket tim"
+    "pricing__plan_category__team__label": "Paket tim",
+    "home_page__features_carousel__feature_reader__label": "Pembaca AI",
+    "home_page__features_carousel__feature_reader__title": "Membuat informasi kompleks mudah dipahami, seperti seorang ahli.",
+    "home_page__features_carousel__feature_reader__description1": "Jelaskan kata, istilah, atau paragraf apa pun",
+    "home_page__features_carousel__feature_reader__description2": "Ringkaskan teks apa pun",
+    "home_page__features_carousel__feature_reader__description3": "Temukan item tindakan dalam teks apa pun",
+    "home_page__features_carousel__feature_reader__description4": "Terjemahkan antara bahasa apa pun",
+    "home_page__features_carousel__feature_prompts__label": "Prompts AI",
+    "home_page__features_carousel__feature_prompts__title": "Selesaikan tugas harian Anda dalam hitungan menit, bukan jam lagi.",
+    "home_page__features_carousel__feature_prompts__description1": "Perpustakaan prompts AI berkualitas tinggi",
+    "home_page__features_carousel__feature_prompts__description2": "Buat dan kelola prompts Anda sendiri",
+    "home_page__features_carousel__feature_prompts__description3": "Gunakan kembali prompts Anda sendiri",
+    "home_page__features_carousel__feature_prompts__description4": "Gaya nada dan penulisan kustom"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-клик ИИ навсякъде, по-малко време, по-добри резултати",
     "pricing__compare_plans__title": "Сравнете плановете",
     "pricing__plan_category__individual__label": "Индивидуални планове",
-    "pricing__plan_category__team__label": "Екипни планове"
+    "pricing__plan_category__team__label": "Екипни планове",
+    "home_page__features_carousel__feature_reader__label": "AI Четец",
+    "home_page__features_carousel__feature_reader__title": "Направете сложна информация лесна за разбиране, точно като експерт.",
+    "home_page__features_carousel__feature_reader__description1": "Обяснете всяка дума, термин или параграф",
+    "home_page__features_carousel__feature_reader__description2": "Резюмирайте всяко текстово съдържание",
+    "home_page__features_carousel__feature_reader__description3": "Намерете задачи за изпълнение във всеки текст",
+    "home_page__features_carousel__feature_reader__description4": "Превеждайте между всички езици",
+    "home_page__features_carousel__feature_prompts__label": "AI Подсказки",
+    "home_page__features_carousel__feature_prompts__title": "Завършете вашите ежедневни задачи за минути, а не повече часове.",
+    "home_page__features_carousel__feature_prompts__description1": "Библиотека с AI подсказки от високо качество",
+    "home_page__features_carousel__feature_prompts__description2": "Създавайте и управлявайте свои собствени подсказки",
+    "home_page__features_carousel__feature_prompts__description3": "Повторно използвайте свои собствени подсказки",
+    "home_page__features_carousel__feature_prompts__description4": "Персонализиран тон и стил на писане"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",

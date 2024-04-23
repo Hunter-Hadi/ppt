@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "IA en un clic partout, moins de temps, de meilleurs résultats",
     "pricing__compare_plans__title": "Comparer les plans",
     "pricing__plan_category__individual__label": "Plans individuels",
-    "pricing__plan_category__team__label": "Plans d'équipe"
+    "pricing__plan_category__team__label": "Plans d'équipe",
+    "home_page__features_carousel__feature_reader__label": "Lecteur IA",
+    "home_page__features_carousel__feature_reader__title": "Rendez les informations complexes faciles à comprendre, comme un expert.",
+    "home_page__features_carousel__feature_reader__description1": "Expliquez n'importe quel mot, terme ou paragraphe",
+    "home_page__features_carousel__feature_reader__description2": "Résumez n'importe quel texte",
+    "home_page__features_carousel__feature_reader__description3": "Trouvez des éléments d'action dans n'importe quel texte",
+    "home_page__features_carousel__feature_reader__description4": "Traduisez entre toutes les langues",
+    "home_page__features_carousel__feature_prompts__label": "Sugestions IA",
+    "home_page__features_carousel__feature_prompts__title": "Terminez vos tâches quotidiennes en quelques minutes maintenant, plus en heures.",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliothèque de sugestions IA de haute qualité",
+    "home_page__features_carousel__feature_prompts__description2": "Créez et gérez vos propres sugestions",
+    "home_page__features_carousel__feature_prompts__description3": "Réutilisez vos propres sugestions",
+    "home_page__features_carousel__feature_prompts__description4": "Ton personnalisé et styles d'écriture"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",

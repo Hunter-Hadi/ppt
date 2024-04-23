@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "ಟೂಲ್ ಫೈಲನ್ನು ಪ್ರಕ್ರಿಯೆಗೆ ಒಳಪಡಿಸಿ ಅದನ್ನು ಹ್ಟಮ್ಲ್ ಸ್ವರೂಪಕ್ಕೆ ರೂಪಾಂತರಿಸಿ.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "ರೂಪಾಂತರಣ ಪೂರ್ಣವಾದ ನಂತರ, ನಿಮ್ಮ ಹೊಸ ಹ್ಟಮ್ಲ್ ಫೈಲನ್ನು ನೇರವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "ಫಲಿತಾಂಶವನ್ನು ಪರಿಶೀಲಿಸಲು ಯಾವುದೇ ವೆಬ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಹ್ಟಮ್ಲ್ ಅನ್ನು ತೆರೆಯಿರಿ.",
-    "pdf_tools__detail_page__more_pdf_tools": "ಹೆಚ್ಚು ಉಚಿತ ಆನ್‌ಲೈನ್ ಪಿಡಿಎಫ್ ಸಾಧನಗಳು"
+    "pdf_tools__detail_page__more_pdf_tools": "ಹೆಚ್ಚು ಉಚಿತ ಆನ್‌ಲೈನ್ ಪಿಡಿಎಫ್ ಸಾಧನಗಳು",
+    "home_page__features_carousel__feature_reader__label": "ಏಎಯ್ ಓದುಗರು",
+    "home_page__features_carousel__feature_reader__title": "ವಿಶೇಷವಾದ ಮಾಹಿತಿಯನ್ನು ಸುಲಭವಾಗಿ ಅರ್ಥಮಾಡಿ, ಒಂದು ವಿಶೇಷಜ್ಞರಂತೆ.",
+    "home_page__features_carousel__feature_reader__description1": "ಯಾವುದೇ ಪದ, ಪದಾರ್ಥ ಅಥವಾ ಪ್ಯಾರಾಗ್ರಾಫ್ ವಿವರಣೆಯನ್ನು ವಿವರಿಸಿ",
+    "home_page__features_carousel__feature_reader__description2": "ಯಾವುದೇ ಪಠ್ಯವನ್ನು ಸಂಗ್ರಹಿಸಿ",
+    "home_page__features_carousel__feature_reader__description3": "ಯಾವುದೇ ಪಠ್ಯದಲ್ಲಿ ಕ್ರಿಯೆಗಳನ್ನು ಹುಡುಕಿ",
+    "home_page__features_carousel__feature_reader__description4": "ಯಾವುದೇ ಭಾಷೆಗಳ ನಡುವೆ ಅನುವಾದಿಸಿ",
+    "home_page__features_carousel__feature_prompts__label": "ಏಎಯ್ ಪ್ರಮ್ಪ್ಟ್ಸ್",
+    "home_page__features_carousel__feature_prompts__title": "ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ಮುಗಿಸಿ, ಹೊರತು ಹೊರಗೆ ಕಾಲವನ್ನು ವ್ಯಯಿಸಬೇಡಿ.",
+    "home_page__features_carousel__feature_prompts__description1": "ಉನ್ನತ ಗುಣಮಟ್ಟದ ಏಎಯ್ ಪ್ರಮ್ಪ್ಟ್ಸ್ ಲೈಬ್ರರಿ",
+    "home_page__features_carousel__feature_prompts__description2": "ನಿಮ್ಮ ಪ್ರಮ್ಪ್ಟ್ಸ್ ರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ",
+    "home_page__features_carousel__feature_prompts__description3": "ನಿಮ್ಮ ಪ್ರಮ್ಪ್ಟ್ಸ್ ಮರುಪಯೋಗಿಸಿ",
+    "home_page__features_carousel__feature_prompts__description4": "ವೈಯಕ್ತಿಕ ಧ್ವನಿ ಮತ್ತು ಬರಹ ಶೈಲಿ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",

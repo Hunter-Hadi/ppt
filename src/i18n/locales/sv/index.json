@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-klicks AI var som helst, mindre tid, bättre resultat",
     "pricing__compare_plans__title": "Jämför planer",
     "pricing__plan_category__individual__label": "Individuella planer",
-    "pricing__plan_category__team__label": "Teamplaner"
+    "pricing__plan_category__team__label": "Teamplaner",
+    "home_page__features_carousel__feature_reader__label": "AI-läsare",
+    "home_page__features_carousel__feature_reader__title": "Gör komplex information lätt att förstå, precis som en expert.",
+    "home_page__features_carousel__feature_reader__description1": "Förklara vilket ord, term eller stycke som helst",
+    "home_page__features_carousel__feature_reader__description2": "Summera valfri text",
+    "home_page__features_carousel__feature_reader__description3": "Hitta åtgärder i valfri text",
+    "home_page__features_carousel__feature_reader__description4": "Översätt mellan vilka språk som helst",
+    "home_page__features_carousel__feature_prompts__label": "AI-promptar",
+    "home_page__features_carousel__feature_prompts__title": "Slutför dina dagliga uppgifter på minuter, inte timmar längre.",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliotek med högkvalitativa AI-promptar",
+    "home_page__features_carousel__feature_prompts__description2": "Skapa och hantera dina egna promptar",
+    "home_page__features_carousel__feature_prompts__description3": "Återanvänd dina egna promptar",
+    "home_page__features_carousel__feature_prompts__description4": "Anpassad ton och skrivstilar"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",

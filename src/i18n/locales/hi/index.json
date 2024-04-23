@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "उपकरण को फ़ाइल को प्रसंस्करण करने और इसे HTML प्रारूप में परिवर्तित करने की अनुमति दें।",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "परिवर्तन पूरा होने पर, अपनी नई HTML फ़ाइल को सीधे डाउनलोड करें।",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "परिणामों की समीक्षा करने के लिए किसी भी वेब ब्राउज़र में डाउनलोड की गई HTML खोलें।",
-    "pdf_tools__detail_page__more_pdf_tools": "और नि: शुल्क ऑनलाइन PDF उपकरण"
+    "pdf_tools__detail_page__more_pdf_tools": "और नि: शुल्क ऑनलाइन PDF उपकरण",
+    "home_page__features_carousel__feature_reader__label": "एआई रीडर",
+    "home_page__features_carousel__feature_reader__title": "विशेषज्ञ की तरह कठिन जानकारी को समझना आसान बनाएं।",
+    "home_page__features_carousel__feature_reader__description1": "किसी शब्द, शब्दावली या पैराग्राफ की समझाएँ",
+    "home_page__features_carousel__feature_reader__description2": "किसी टेक्स्ट को संक्षेप में लिखें",
+    "home_page__features_carousel__feature_reader__description3": "किसी टेक्स्ट में कार्रवाई आइटम ढूंढें",
+    "home_page__features_carousel__feature_reader__description4": "किसी भाषा के बीच अनुवाद करें",
+    "home_page__features_carousel__feature_prompts__label": "एआई प्रॉम्प्ट्स",
+    "home_page__features_carousel__feature_prompts__title": "अब अपने दैनिक कार्यों को मिनटों में पूरा करें, और घंटों नहीं।",
+    "home_page__features_carousel__feature_prompts__description1": "उच्च गुणवत्ता वाला एआई प्रॉम्प्ट्स लाइब्रेरी",
+    "home_page__features_carousel__feature_prompts__description2": "अपने खुद के प्रॉम्प्ट्स बनाएं और प्रबंधित करें",
+    "home_page__features_carousel__feature_prompts__description3": "अपने खुद के प्रॉम्प्ट्स को पुनः उपयोग करें",
+    "home_page__features_carousel__feature_prompts__description4": "कस्टम टोन और लेखन शैलियों"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

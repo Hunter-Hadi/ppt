@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1 tıklamayla AI her yerde, daha az zaman, daha iyi sonuçlar",
     "pricing__compare_plans__title": "Planları karşılaştır",
     "pricing__plan_category__individual__label": "Bireysel planlar",
-    "pricing__plan_category__team__label": "Takım planları"
+    "pricing__plan_category__team__label": "Takım planları",
+    "home_page__features_carousel__feature_reader__label": "AI Okuyucu",
+    "home_page__features_carousel__feature_reader__title": "Uzman gibi karmaşık bilgileri anlaşılır hale getirin.",
+    "home_page__features_carousel__feature_reader__description1": "Herhangi bir kelimeyi, terimi veya paragrafı açıklayın",
+    "home_page__features_carousel__feature_reader__description2": "Herhangi bir metni özetleyin",
+    "home_page__features_carousel__feature_reader__description3": "Herhangi bir metinde eylem maddelerini bulun",
+    "home_page__features_carousel__feature_reader__description4": "Herhangi bir dil arasında çeviri yapın",
+    "home_page__features_carousel__feature_prompts__label": "AI İpucu",
+    "home_page__features_carousel__feature_prompts__title": "Günlük görevlerinizi artık saatler değil dakikalar içinde tamamlayın.",
+    "home_page__features_carousel__feature_prompts__description1": "Yüksek kaliteli AI ipucu kütüphanesi",
+    "home_page__features_carousel__feature_prompts__description2": "Kendi ipuçlarınızı oluşturun ve yönetin",
+    "home_page__features_carousel__feature_prompts__description3": "Kendi ipuçlarınızı yeniden kullanın",
+    "home_page__features_carousel__feature_prompts__description4": "Özel ton ve yazım stilleri"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",

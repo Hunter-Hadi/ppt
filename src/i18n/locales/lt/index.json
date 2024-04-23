@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "Vieno paspaudimo dirbtinio intelekto bet kur, mažiau laiko, geresni rezultatai",
     "pricing__compare_plans__title": "Palyginti planus",
     "pricing__plan_category__individual__label": "Individualūs planai",
-    "pricing__plan_category__team__label": "Komandos planai"
+    "pricing__plan_category__team__label": "Komandos planai",
+    "home_page__features_carousel__feature_reader__label": "AI Skaitytuvas",
+    "home_page__features_carousel__feature_reader__title": "Padarykite sudėtingą informaciją lengvai suprantamą, kaip ekspertas.",
+    "home_page__features_carousel__feature_reader__description1": "Paaiškinkite bet kurį žodį, terminą ar paragrafą",
+    "home_page__features_carousel__feature_reader__description2": "Suvesti bet kokį tekstą",
+    "home_page__features_carousel__feature_reader__description3": "Rasti veiksmų elementus bet kuriame tekste",
+    "home_page__features_carousel__feature_reader__description4": "Versti tarp bet kokių kalbų",
+    "home_page__features_carousel__feature_prompts__label": "AI Užduotys",
+    "home_page__features_carousel__feature_prompts__title": "Užbaikite savo kasdienius uždavinius per minutes, o ne valandas.",
+    "home_page__features_carousel__feature_prompts__description1": "Aukštos kokybės AI užduočių biblioteka",
+    "home_page__features_carousel__feature_prompts__description2": "Kurkite ir tvarkykite savo pačių užduotis",
+    "home_page__features_carousel__feature_prompts__description3": "Panaudokite savo pačių užduotis",
+    "home_page__features_carousel__feature_prompts__description4": "Individualus tonas ir rašymo stiliai"
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",

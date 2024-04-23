@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Завантажте свій PDF до онлайн-конвертера PDF в HTML.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Дозвольте інструменту обробити файл та перетворити його у формат HTML.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Після завершення конвертації завантажте новий HTML-файл безпосередньо.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Відкрийте завантажений HTML у будь-якому веб-переглядачі, щоб переглянути результати."
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Відкрийте завантажений HTML у будь-якому веб-переглядачі, щоб переглянути результати.",
+    "home_page__features_carousel__feature_reader__label": "AI Читач",
+    "home_page__features_carousel__feature_reader__title": "Робіть складну інформацію легко зрозумілою, як експерт.",
+    "home_page__features_carousel__feature_reader__description1": "Поясніть будь-яке слово, термін або абзац",
+    "home_page__features_carousel__feature_reader__description2": "Підсумуйте будь-який текст",
+    "home_page__features_carousel__feature_reader__description3": "Знайдіть дії в будь-якому тексті",
+    "home_page__features_carousel__feature_reader__description4": "Перекладайте між будь-якими мовами",
+    "home_page__features_carousel__feature_prompts__label": "AI Підказки",
+    "home_page__features_carousel__feature_prompts__title": "Завершуйте свої щоденні завдання за кілька хвилин, а не годин.",
+    "home_page__features_carousel__feature_prompts__description1": "Бібліотека високоякісних AI підказок",
+    "home_page__features_carousel__feature_prompts__description2": "Створюйте та керуйте своїми власними підказками",
+    "home_page__features_carousel__feature_prompts__description3": "Повторне використання власних підказок",
+    "home_page__features_carousel__feature_prompts__description4": "Спеціальний тон та стиль письма"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",

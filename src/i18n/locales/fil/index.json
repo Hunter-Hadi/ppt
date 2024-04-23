@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-click AI kahit saan, mas kaunting oras, mas magandang mga resulta",
     "pricing__compare_plans__title": "Ihambing ang mga plano",
     "pricing__plan_category__individual__label": "Mga indibidwal na plano",
-    "pricing__plan_category__team__label": "Mga plano para sa team"
+    "pricing__plan_category__team__label": "Mga plano para sa team",
+    "home_page__features_carousel__feature_reader__label": "AI Reader",
+    "home_page__features_carousel__feature_reader__title": "Gawing madali ang komplikadong impormasyon, tulad ng isang eksperto.",
+    "home_page__features_carousel__feature_reader__description1": "Ipaliwanag ang anumang salita, termino, o talata",
+    "home_page__features_carousel__feature_reader__description2": "Buodin ang anumang teksto",
+    "home_page__features_carousel__feature_reader__description3": "Hanapin ang mga action item sa anumang teksto",
+    "home_page__features_carousel__feature_reader__description4": "Isalin sa pagitan ng anumang wika",
+    "home_page__features_carousel__feature_prompts__label": "AI Prompts",
+    "home_page__features_carousel__feature_prompts__title": "Tapusin ang iyong araw-araw na gawain sa loob ng ilang minuto, hindi na oras.",
+    "home_page__features_carousel__feature_prompts__description1": "Mataas na kalidad na AI prompts library",
+    "home_page__features_carousel__feature_prompts__description2": "Lumikha at pamahalaan ang iyong sariling mga prompts",
+    "home_page__features_carousel__feature_prompts__description3": "Muling gamitin ang iyong sariling mga prompts",
+    "home_page__features_carousel__feature_prompts__description4": "Pasadyang tono at estilo ng pagsusulat"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",

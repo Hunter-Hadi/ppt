@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1클릭 AI 어디서나, 시간 절약, 더 나은 결과",
     "pricing__compare_plans__title": "요금제 비교",
     "pricing__plan_category__individual__label": "개인 요금제",
-    "pricing__plan_category__team__label": "팀 요금제"
+    "pricing__plan_category__team__label": "팀 요금제",
+    "home_page__features_carousel__feature_reader__label": "AI 독자",
+    "home_page__features_carousel__feature_reader__title": "전문가처럼 복잡한 정보를 쉽게 이해하세요.",
+    "home_page__features_carousel__feature_reader__description1": "어떤 단어, 용어 또는 문단을 설명하세요.",
+    "home_page__features_carousel__feature_reader__description2": "어떤 텍스트든 요약하세요.",
+    "home_page__features_carousel__feature_reader__description3": "어떤 텍스트에서도 작업 항목을 찾으세요.",
+    "home_page__features_carousel__feature_reader__description4": "어떤 언어든 번역하세요.",
+    "home_page__features_carousel__feature_prompts__label": "AI 프롬프트",
+    "home_page__features_carousel__feature_prompts__title": "이제 일일 업무를 몇 분 만에 완료하세요. 더 이상 몇 시간이 걸리지 않습니다.",
+    "home_page__features_carousel__feature_prompts__description1": "고품질 AI 프롬프트 라이브러리",
+    "home_page__features_carousel__feature_prompts__description2": "자체 프롬프트 생성 및 관리",
+    "home_page__features_carousel__feature_prompts__description3": "자체 프롬프트 재사용",
+    "home_page__features_carousel__feature_prompts__description4": "사용자 정의 톤 및 작성 스타일"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",

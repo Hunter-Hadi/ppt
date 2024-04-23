@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-klik AI overalt, mindre tid, bedre resultater",
     "pricing__compare_plans__title": "Sammenlign planer",
     "pricing__plan_category__individual__label": "Individuelle planer",
-    "pricing__plan_category__team__label": "Teamplaner"
+    "pricing__plan_category__team__label": "Teamplaner",
+    "home_page__features_carousel__feature_reader__label": "AI Læser",
+    "home_page__features_carousel__feature_reader__title": "Gør kompleks information let at forstå, ligesom en ekspert.",
+    "home_page__features_carousel__feature_reader__description1": "Forklar ethvert ord, udtryk eller afsnit",
+    "home_page__features_carousel__feature_reader__description2": "Resumér enhver tekst",
+    "home_page__features_carousel__feature_reader__description3": "Find handlingspunkter i enhver tekst",
+    "home_page__features_carousel__feature_reader__description4": "Oversæt mellem alle sprog",
+    "home_page__features_carousel__feature_prompts__label": "AI Opgaver",
+    "home_page__features_carousel__feature_prompts__title": "Udfør dine daglige opgaver på få minutter, ikke flere timer.",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliotek med AI-opgaver af høj kvalitet",
+    "home_page__features_carousel__feature_prompts__description2": "Opret og administrer dine egne opgaver",
+    "home_page__features_carousel__feature_prompts__description3": "Genbrug dine egne opgaver",
+    "home_page__features_carousel__feature_prompts__description4": "Tilpas tone og skrivestil"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

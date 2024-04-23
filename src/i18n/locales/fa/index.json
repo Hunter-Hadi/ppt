@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "هوش مصنوعی 1-کلیک در هر جایی، کمتر زمان، نتایج بهتر",
     "pricing__compare_plans__title": "مقایسه طرح‌ها",
     "pricing__plan_category__individual__label": "طرح‌های فردی",
-    "pricing__plan_category__team__label": "طرح‌های تیمی"
+    "pricing__plan_category__team__label": "طرح‌های تیمی",
+    "home_page__features_carousel__feature_reader__label": "خواننده هوش مصنوعی",
+    "home_page__features_carousel__feature_reader__title": "اطلاعات پیچیده را به سادگی درک کنید، تماماً مثل یک کارشناس.",
+    "home_page__features_carousel__feature_reader__description1": "توضیح هر کلمه، اصطلاح یا پاراگراف",
+    "home_page__features_carousel__feature_reader__description2": "خلاصه کردن هر متن",
+    "home_page__features_carousel__feature_reader__description3": "پیدا کردن موارد عملی در هر متن",
+    "home_page__features_carousel__feature_reader__description4": "ترجمه بین هر زبانی",
+    "home_page__features_carousel__feature_prompts__label": "ترغیب‌های هوش مصنوعی",
+    "home_page__features_carousel__feature_prompts__title": "کارهای روزانه خود را در عرض چند دقیقه انجام دهید، دیگر نه ساعت‌ها.",
+    "home_page__features_carousel__feature_prompts__description1": "کتابخانه ترغیب‌های با کیفیت بالا",
+    "home_page__features_carousel__feature_prompts__description2": "ایجاد و مدیریت ترغیب‌های شخصی",
+    "home_page__features_carousel__feature_prompts__description3": "استفاده مجدد از ترغیب‌های شخصی",
+    "home_page__features_carousel__feature_prompts__description4": "سبک نوشتاری و لحن سفارشی"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

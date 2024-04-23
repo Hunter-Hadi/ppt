@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-kliknięcie AI w dowolnym miejscu, mniej czasu, lepsze wyniki",
     "pricing__compare_plans__title": "Porównaj plany",
     "pricing__plan_category__individual__label": "Plany indywidualne",
-    "pricing__plan_category__team__label": "Plany zespołowe"
+    "pricing__plan_category__team__label": "Plany zespołowe",
+    "home_page__features_carousel__feature_reader__label": "Czytnik AI",
+    "home_page__features_carousel__feature_reader__title": "Ułatwia zrozumienie skomplikowanych informacji, tak jak ekspert.",
+    "home_page__features_carousel__feature_reader__description1": "Wyjaśnia dowolne słowo, termin lub akapit",
+    "home_page__features_carousel__feature_reader__description2": "Podsumowuje dowolny tekst",
+    "home_page__features_carousel__feature_reader__description3": "Wyszukuje elementy do działania w dowolnym tekście",
+    "home_page__features_carousel__feature_reader__description4": "Tłumaczy między dowolnymi językami",
+    "home_page__features_carousel__feature_prompts__label": "Podpowiedzi AI",
+    "home_page__features_carousel__feature_prompts__title": "Zakończ swoje codzienne zadania w kilka minut, a nie godzin.",
+    "home_page__features_carousel__feature_prompts__description1": "Biblioteka wysokiej jakości podpowiedzi AI",
+    "home_page__features_carousel__feature_prompts__description2": "Twórz i zarządzaj własnymi podpowiedziami",
+    "home_page__features_carousel__feature_prompts__description3": "Ponownie używaj swoich podpowiedzi",
+    "home_page__features_carousel__feature_prompts__description4": "Niestandardowy ton i styl pisania"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",

@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-Klick KI überall, weniger Zeit, bessere Ergebnisse",
     "pricing__compare_plans__title": "Pläne vergleichen",
     "pricing__plan_category__individual__label": "Individuelle Pläne",
-    "pricing__plan_category__team__label": "Teampläne"
+    "pricing__plan_category__team__label": "Teampläne",
+    "home_page__features_carousel__feature_reader__label": "KI-Leser",
+    "home_page__features_carousel__feature_reader__title": "Komplexe Informationen leicht verständlich machen, wie ein Experte.",
+    "home_page__features_carousel__feature_reader__description1": "Erklären Sie jedes Wort, jeden Begriff oder Absatz",
+    "home_page__features_carousel__feature_reader__description2": "Fassen Sie jeden Text zusammen",
+    "home_page__features_carousel__feature_reader__description3": "Finden Sie Handlungsempfehlungen in jedem Text",
+    "home_page__features_carousel__feature_reader__description4": "Übersetzen Sie zwischen allen Sprachen",
+    "home_page__features_carousel__feature_prompts__label": "KI-Anregungen",
+    "home_page__features_carousel__feature_prompts__title": "Erledigen Sie Ihre täglichen Aufgaben jetzt in Minuten, nicht mehr in Stunden.",
+    "home_page__features_carousel__feature_prompts__description1": "Hochwertige KI-Anregungen-Bibliothek",
+    "home_page__features_carousel__feature_prompts__description2": "Erstellen und verwalten Sie Ihre eigenen Anregungen",
+    "home_page__features_carousel__feature_prompts__description3": "Wiederverwenden Sie Ihre eigenen Anregungen",
+    "home_page__features_carousel__feature_prompts__description4": "Individueller Ton & Schreibstile"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",

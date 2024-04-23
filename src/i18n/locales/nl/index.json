@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-klik AI overal, minder tijd, betere resultaten",
     "pricing__compare_plans__title": "Vergelijk plannen",
     "pricing__plan_category__individual__label": "Individuele plannen",
-    "pricing__plan_category__team__label": "Teamplannen"
+    "pricing__plan_category__team__label": "Teamplannen",
+    "home_page__features_carousel__feature_reader__label": "AI Lezer",
+    "home_page__features_carousel__feature_reader__title": "Maak complexe informatie gemakkelijk te begrijpen, net als een expert.",
+    "home_page__features_carousel__feature_reader__description1": "Leg elk woord, term of alinea uit",
+    "home_page__features_carousel__feature_reader__description2": "Vat elke tekst samen",
+    "home_page__features_carousel__feature_reader__description3": "Vind actiepunten in elke tekst",
+    "home_page__features_carousel__feature_reader__description4": "Vertaal tussen alle talen",
+    "home_page__features_carousel__feature_prompts__label": "AI Aanwijzingen",
+    "home_page__features_carousel__feature_prompts__title": "Voltooi je dagelijkse taken nu in minuten, niet meer in uren.",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliotheek met hoogwaardige AI-aanwijzingen",
+    "home_page__features_carousel__feature_prompts__description2": "Maak en beheer je eigen aanwijzingen",
+    "home_page__features_carousel__feature_prompts__description3": "Herbruik je eigen aanwijzingen",
+    "home_page__features_carousel__feature_prompts__description4": "Aangepaste toon en schrijfstijlen"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",

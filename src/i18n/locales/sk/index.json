@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-kliková AI kdekoľvek, menej času, lepšie výsledky",
     "pricing__compare_plans__title": "Porovnať plány",
     "pricing__plan_category__individual__label": "Individuálne plány",
-    "pricing__plan_category__team__label": "Plány pre tímy"
+    "pricing__plan_category__team__label": "Plány pre tímy",
+    "home_page__features_carousel__feature_reader__label": "AI Čítač",
+    "home_page__features_carousel__feature_reader__title": "Urobte zložité informácie jednoduché na pochopenie, ako odborník.",
+    "home_page__features_carousel__feature_reader__description1": "Vysvetlite akékoľvek slovo, termín alebo odsek",
+    "home_page__features_carousel__feature_reader__description2": "Zhrňte akýkoľvek text",
+    "home_page__features_carousel__feature_reader__description3": "Nájdite úlohy v akomkoľvek texte",
+    "home_page__features_carousel__feature_reader__description4": "Prekladajte medzi akýmikoľvek jazykmi",
+    "home_page__features_carousel__feature_prompts__label": "AI Návrhy",
+    "home_page__features_carousel__feature_prompts__title": "Dokončite svoje denné úlohy za minúty, nie hodiny.",
+    "home_page__features_carousel__feature_prompts__description1": "Kvalitná knižnica AI návrhov",
+    "home_page__features_carousel__feature_prompts__description2": "Vytvárajte a spravujte vlastné návrhy",
+    "home_page__features_carousel__feature_prompts__description3": "Opakovane používajte svoje vlastné návrhy",
+    "home_page__features_carousel__feature_prompts__description4": "Vlastný tón a štýl písania"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",

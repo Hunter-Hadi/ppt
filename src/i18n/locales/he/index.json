@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "AI בלחיצה אחת בכל מקום, פחות זמן, תוצאות טובות יותר",
     "pricing__compare_plans__title": "השווה בין התוכניות",
     "pricing__plan_category__individual__label": "תוכניות אישיות",
-    "pricing__plan_category__team__label": "תוכניות צוות"
+    "pricing__plan_category__team__label": "תוכניות צוות",
+    "home_page__features_carousel__feature_reader__label": "קורא AI",
+    "home_page__features_carousel__feature_reader__title": "הפוך מידע מורכב לנוח להבנה, כמו מומחה.",
+    "home_page__features_carousel__feature_reader__description1": "הסבר על כל מילה, מונח או פסקה",
+    "home_page__features_carousel__feature_reader__description2": "סיכום טקסט כלשהו",
+    "home_page__features_carousel__feature_reader__description3": "מציאת פריטי פעולה בטקסט כלשהו",
+    "home_page__features_carousel__feature_reader__description4": "תרגום בין שפות",
+    "home_page__features_carousel__feature_prompts__label": "AI Prompts",
+    "home_page__features_carousel__feature_prompts__title": "השלמת משימות היומיות שלך בדקות, לא בשעות יותר.",
+    "home_page__features_carousel__feature_prompts__description1": "ספריית AI prompts ברמה גבוהה",
+    "home_page__features_carousel__feature_prompts__description2": "יצירה וניהול של prompts משלך",
+    "home_page__features_carousel__feature_prompts__description3": "שימוש חוזר בprompts שלך",
+    "home_page__features_carousel__feature_prompts__description4": "סגנון וסגנון כתיבה מותאמים אישית"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

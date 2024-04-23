@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "AI 1-klik di mana-mana, kurang masa, hasil yang lebih baik",
     "pricing__compare_plans__title": "Bandingkan pelan",
     "pricing__plan_category__individual__label": "Pelan individu",
-    "pricing__plan_category__team__label": "Pelan pasukan"
+    "pricing__plan_category__team__label": "Pelan pasukan",
+    "home_page__features_carousel__feature_reader__label": "Pembaca AI",
+    "home_page__features_carousel__feature_reader__title": "Memudahkan pemahaman maklumat kompleks, seperti seorang pakar.",
+    "home_page__features_carousel__feature_reader__description1": "Terangkan perkataan, terma, atau perenggan mana-mana",
+    "home_page__features_carousel__feature_reader__description2": "Ringkaskan teks mana-mana",
+    "home_page__features_carousel__feature_reader__description3": "Cari item tindakan dalam teks mana-mana",
+    "home_page__features_carousel__feature_reader__description4": "Terjemahkan antara bahasa mana-mana",
+    "home_page__features_carousel__feature_prompts__label": "Petunjuk AI",
+    "home_page__features_carousel__feature_prompts__title": "Selesaikan tugas harian anda dalam beberapa minit sahaja, bukan berjam-jam lagi.",
+    "home_page__features_carousel__feature_prompts__description1": "Perpustakaan petunjuk AI berkualiti tinggi",
+    "home_page__features_carousel__feature_prompts__description2": "Cipta dan urus petunjuk anda sendiri",
+    "home_page__features_carousel__feature_prompts__description3": "Guna semula petunjuk anda sendiri",
+    "home_page__features_carousel__feature_prompts__description4": "Gaya nada & gaya penulisan tersuai"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",

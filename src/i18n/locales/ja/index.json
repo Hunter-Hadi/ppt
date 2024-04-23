@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1クリックでどこでもAI、時間を節約してより良い結果を得る",
     "pricing__compare_plans__title": "プランの比較",
     "pricing__plan_category__individual__label": "個人プラン",
-    "pricing__plan_category__team__label": "チームプラン"
+    "pricing__plan_category__team__label": "チームプラン",
+    "home_page__features_carousel__feature_reader__label": "AIリーダー",
+    "home_page__features_carousel__feature_reader__title": "専門家のように、複雑な情報を簡単に理解できます。",
+    "home_page__features_carousel__feature_reader__description1": "任意の単語、用語、または段落を説明します",
+    "home_page__features_carousel__feature_reader__description2": "任意のテキストを要約します",
+    "home_page__features_carousel__feature_reader__description3": "任意のテキストからアクションアイテムを見つけます",
+    "home_page__features_carousel__feature_reader__description4": "任意の言語間で翻訳します",
+    "home_page__features_carousel__feature_prompts__label": "AIプロンプト",
+    "home_page__features_carousel__feature_prompts__title": "日常のタスクを数分で完了させましょう。もう数時間かかりません。",
+    "home_page__features_carousel__feature_prompts__description1": "高品質なAIプロンプトライブラリ",
+    "home_page__features_carousel__feature_prompts__description2": "独自のプロンプトを作成して管理します",
+    "home_page__features_carousel__feature_prompts__description3": "独自のプロンプトを再利用します",
+    "home_page__features_carousel__feature_prompts__description4": "カスタムのトーンと文章スタイル"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",

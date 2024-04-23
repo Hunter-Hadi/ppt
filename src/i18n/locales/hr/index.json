@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-klik AI bilo gdje, manje vremena, bolji rezultati",
     "pricing__compare_plans__title": "Usporedite planove",
     "pricing__plan_category__individual__label": "Individualni planovi",
-    "pricing__plan_category__team__label": "Timski planovi"
+    "pricing__plan_category__team__label": "Timski planovi",
+    "home_page__features_carousel__feature_reader__label": "AI Čitač",
+    "home_page__features_carousel__feature_reader__title": "Učinite kompleksne informacije jednostavnima za razumijevanje, kao stručnjak.",
+    "home_page__features_carousel__feature_reader__description1": "Objasnite bilo koju riječ, pojam ili odlomak",
+    "home_page__features_carousel__feature_reader__description2": "Sažmite bilo koji tekst",
+    "home_page__features_carousel__feature_reader__description3": "Pronađite zadatke za djelovanje u bilo kojem tekstu",
+    "home_page__features_carousel__feature_reader__description4": "Prevedite između bilo kojih jezika",
+    "home_page__features_carousel__feature_prompts__label": "AI Podražaji",
+    "home_page__features_carousel__feature_prompts__title": "Završite svoje dnevne zadatke u minutama, a ne više satima.",
+    "home_page__features_carousel__feature_prompts__description1": "Biblioteka visokokvalitetnih AI podražaja",
+    "home_page__features_carousel__feature_prompts__description2": "Kreirajte i upravljajte vlastitim podražajima",
+    "home_page__features_carousel__feature_prompts__description3": "Ponovno koristite vlastite podražaje",
+    "home_page__features_carousel__feature_prompts__description4": "Prilagođeni ton i stil pisanja"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",

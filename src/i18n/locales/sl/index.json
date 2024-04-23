@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "1-klik AI kjerkoli, manj časa, boljši rezultati",
     "pricing__compare_plans__title": "Primerjaj načrte",
     "pricing__plan_category__individual__label": "Posamezni načrti",
-    "pricing__plan_category__team__label": "Skupinski načrti"
+    "pricing__plan_category__team__label": "Skupinski načrti",
+    "home_page__features_carousel__feature_reader__label": "AI Branilec",
+    "home_page__features_carousel__feature_reader__title": "Naredite kompleksne informacije enostavne za razumevanje, kot strokovnjak.",
+    "home_page__features_carousel__feature_reader__description1": "Razložite katero koli besedo, izraz ali odstavek",
+    "home_page__features_carousel__feature_reader__description2": "Povzemite katero koli besedilo",
+    "home_page__features_carousel__feature_reader__description3": "Najdite naloge v katerem koli besedilu",
+    "home_page__features_carousel__feature_reader__description4": "Prevedite med katerimi koli jeziki",
+    "home_page__features_carousel__feature_prompts__label": "AI Vprašanja",
+    "home_page__features_carousel__feature_prompts__title": "Dokončajte svoje dnevne naloge v nekaj minutah, ne več ur.",
+    "home_page__features_carousel__feature_prompts__description1": "Knjižnica visokokakovostnih AI vprašanj",
+    "home_page__features_carousel__feature_prompts__description2": "Ustvarite in upravljajte lastna vprašanja",
+    "home_page__features_carousel__feature_prompts__description3": "Ponovno uporabite lastna vprašanja",
+    "home_page__features_carousel__feature_prompts__description4": "Prilagojen ton in slog pisanja"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",

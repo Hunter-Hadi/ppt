@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "ఇన్స్టాలేషన్ అవసరం లేదు - మీ బ్రౌజర్‌లో పని చేస్తుంది",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_3": "నమోదు కావడం లేనందున ఉచిత మార్పు",
     "pdf_tools__detail_description_object__image_to_pdf__middle_1_title": "త్వరగా & సులభంగా {{TYPE}} ను PDFకు మార్చండి",
-    "pdf_tools__detail_description_object__image_to_pdf__middle_1_description": "మీరు మీ ఫైల్‌ను టూల్‌బాక్స్‌కు డ్రాగ్ & డ్రాప్ చేయగలరు, అది త్వరగా {{TYPE}} ను PDFకు మార్చించడానికి. మీరు మార్జిన్, ఓరియంటేషన్ మరియు పరిమాణాలను కొనసాగించడానికి కొనసాగించవచ్చు."
+    "pdf_tools__detail_description_object__image_to_pdf__middle_1_description": "మీరు మీ ఫైల్‌ను టూల్‌బాక్స్‌కు డ్రాగ్ & డ్రాప్ చేయగలరు, అది త్వరగా {{TYPE}} ను PDFకు మార్చించడానికి. మీరు మార్జిన్, ఓరియంటేషన్ మరియు పరిమాణాలను కొనసాగించడానికి కొనసాగించవచ్చు.",
+    "home_page__features_carousel__feature_reader__label": "AI రీడర్",
+    "home_page__features_carousel__feature_reader__title": "అనుకరణాత్మక సమాచారంను గుర్తించటం చాలా సులభం, ఒక నిపుణుడిగా.",
+    "home_page__features_carousel__feature_reader__description1": "ఏ ఒక పదం, పదానికి లేదా పేరాగడం వివరించండి",
+    "home_page__features_carousel__feature_reader__description2": "ఏ ఒక వచనంను సంగ్రహించండి",
+    "home_page__features_carousel__feature_reader__description3": "ఏ ఒక వచనంలో చర్యల అంశాలను కనుగొనండి",
+    "home_page__features_carousel__feature_reader__description4": "ఏ ఒక భాషల మధ్య అనువదించండి",
+    "home_page__features_carousel__feature_prompts__label": "AI ప్రాంప్ట్స్",
+    "home_page__features_carousel__feature_prompts__title": "ఇప్పుడు మాత్రమే మినట్లో మీ రోజువారీ పనులను పూర్తిగా చేయండి, కొన్ని గంటల కూడా కాదు.",
+    "home_page__features_carousel__feature_prompts__description1": "ఉన్నత గుణముల యాక్సెస్ ప్రాంప్ట్స్ లైబ్రరీ",
+    "home_page__features_carousel__feature_prompts__description2": "మీ స్వంత ప్రాంప్ట్స్ సృష్టించండి మరియు నిర్వహించండి",
+    "home_page__features_carousel__feature_prompts__description3": "మీ స్వంత ప్రాంప్ట్స్ మళ్లీ ఉపయోగించండి",
+    "home_page__features_carousel__feature_prompts__description4": "కస్టమ్ టోన్ & రచనా శైలులు"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",

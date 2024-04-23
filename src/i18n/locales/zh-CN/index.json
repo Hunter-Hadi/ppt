@@ -480,7 +480,19 @@
     "pricing__better_plan__title": "1次点击AI，任何地方，更少时间，更好结果",
     "pricing__compare_plans__title": "比较计划",
     "pricing__plan_category__individual__label": "个人计划",
-    "pricing__plan_category__team__label": "团队计划"
+    "pricing__plan_category__team__label": "团队计划",
+    "home_page__features_carousel__feature_reader__label": "AI阅读器",
+    "home_page__features_carousel__feature_reader__title": "使复杂信息易于理解，就像专家一样。",
+    "home_page__features_carousel__feature_reader__description1": "解释任何单词、术语或段落",
+    "home_page__features_carousel__feature_reader__description2": "总结任何文本",
+    "home_page__features_carousel__feature_reader__description3": "在任何文本中找到行动项",
+    "home_page__features_carousel__feature_reader__description4": "在任何语言之间进行翻译",
+    "home_page__features_carousel__feature_prompts__label": "AI提示",
+    "home_page__features_carousel__feature_prompts__title": "现在只需几分钟完成您的日常任务，而不再是几小时。",
+    "home_page__features_carousel__feature_prompts__description1": "高质量的AI提示库",
+    "home_page__features_carousel__feature_prompts__description2": "创建和管理您自己的提示",
+    "home_page__features_carousel__feature_prompts__description3": "重复使用您自己的提示",
+    "home_page__features_carousel__feature_prompts__description4": "自定义语气和写作风格"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

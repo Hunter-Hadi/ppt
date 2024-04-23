@@ -494,7 +494,19 @@
     "pricing__better_plan__title": "IA en un clic en cualquier lugar, menos tiempo, mejores resultados",
     "pricing__compare_plans__title": "Comparar planes",
     "pricing__plan_category__individual__label": "Planes individuales",
-    "pricing__plan_category__team__label": "Planes de equipo"
+    "pricing__plan_category__team__label": "Planes de equipo",
+    "home_page__features_carousel__feature_reader__label": "Lector de IA",
+    "home_page__features_carousel__feature_reader__title": "Haga que la información compleja sea fácil de entender, como un experto.",
+    "home_page__features_carousel__feature_reader__description1": "Explique cualquier palabra, término o párrafo",
+    "home_page__features_carousel__feature_reader__description2": "Resuma cualquier texto",
+    "home_page__features_carousel__feature_reader__description3": "Encuentre elementos de acción en cualquier texto",
+    "home_page__features_carousel__feature_reader__description4": "Traduzca entre cualquier idioma",
+    "home_page__features_carousel__feature_prompts__label": "Sugerencias de IA",
+    "home_page__features_carousel__feature_prompts__title": "Complete sus tareas diarias en minutos, no horas.",
+    "home_page__features_carousel__feature_prompts__description1": "Biblioteca de sugerencias de IA de alta calidad",
+    "home_page__features_carousel__feature_prompts__description2": "Cree y administre sus propias sugerencias",
+    "home_page__features_carousel__feature_prompts__description3": "Reutilice sus propias sugerencias",
+    "home_page__features_carousel__feature_prompts__description4": "Estilos de tono y escritura personalizados"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",

@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "সরঞ্জামটি ফাইলটি প্রসেস করে এবং এটি এইচটিএমএল ফরম্যাটে পরিণত করবে।",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "পরিণতি সম্পূর্ণ হয়ে গেলে, নতুন HTML ফাইলটি সরাসরি ডাউনলোড করুন।",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "ফলাফলগুলি পর্যালোচনা করতে ডাউনলোড করা HTML টি যে কোনও ওয়েব ব্রাউজারে খুলুন।",
-    "pdf_tools__detail_page__more_pdf_tools": "আরও বিনামূল্যে অনলাইন পিডিএফ সরঞ্জাম"
+    "pdf_tools__detail_page__more_pdf_tools": "আরও বিনামূল্যে অনলাইন পিডিএফ সরঞ্জাম",
+    "home_page__features_carousel__feature_reader__label": "এই পাঠক",
+    "home_page__features_carousel__feature_reader__title": "এক্সপার্টের মতো কঠিন তথ্যগুলি সহজে বোঝান।",
+    "home_page__features_carousel__feature_reader__description1": "কোনও শব্দ, টার্ম বা প্যারাগ্রাফ ব্যাখ্যা করুন",
+    "home_page__features_carousel__feature_reader__description2": "কোনও পাঠ্য সংক্ষেপ করুন",
+    "home_page__features_carousel__feature_reader__description3": "কোনও পাঠ্যে ক্রিয়াকলাপ আইটেম খুঁজুন",
+    "home_page__features_carousel__feature_reader__description4": "কোনও ভাষার মধ্যে অনুবাদ করুন",
+    "home_page__features_carousel__feature_prompts__label": "এই প্রম্পট",
+    "home_page__features_carousel__feature_prompts__title": "এখন আপনার দৈনিক কাজগুলি মিনিটে শেষ করুন, আর ঘন্টার পরে না।",
+    "home_page__features_carousel__feature_prompts__description1": "উচ্চ মানের এই প্রম্পট লাইব্রেরি",
+    "home_page__features_carousel__feature_prompts__description2": "আপনার নিজের প্রম্পট তৈরি করুন এবং পরিচালনা করুন",
+    "home_page__features_carousel__feature_prompts__description3": "আপনার নিজের প্রম্পট পুনরায় ব্যবহার করুন",
+    "home_page__features_carousel__feature_prompts__description4": "কাস্টম টোন এবং লেখা শৈলী"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",

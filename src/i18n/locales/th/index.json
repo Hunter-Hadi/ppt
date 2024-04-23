@@ -494,7 +494,19 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "อัปโหลด PDF ของคุณไปยังตัวแปลง PDF to HTML ออนไลน์",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "ให้เครื่องมือประมวลผลไฟล์และแปลงเป็นรูปแบบ HTML",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "เมื่อการแปลงเสร็จสมบูรณ์ ดาวน์โหลดไฟล์ HTML ใหม่ของคุณโดยตรง",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "เปิดไฟล์ HTML ที่ดาวน์โหลดในเบราว์เซอร์เพื่อตรวจสอบผลลัพธ์"
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "เปิดไฟล์ HTML ที่ดาวน์โหลดในเบราว์เซอร์เพื่อตรวจสอบผลลัพธ์",
+    "home_page__features_carousel__feature_reader__label": "AI Reader",
+    "home_page__features_carousel__feature_reader__title": "ทำให้ข้อมูลที่ซับซ้อนเป็นเรื่องง่ายต่อการเข้าใจ เหมือนผู้เชี่ยวชาญ",
+    "home_page__features_carousel__feature_reader__description1": "อธิบายคำ คำศัพท์ หรือย่อหน้าใดๆ",
+    "home_page__features_carousel__feature_reader__description2": "สรุปเนื้อหาใดๆ",
+    "home_page__features_carousel__feature_reader__description3": "ค้นหารายการที่ต้องกระทำในเนื้อหาใดๆ",
+    "home_page__features_carousel__feature_reader__description4": "แปลภาษาใดๆ",
+    "home_page__features_carousel__feature_prompts__label": "AI Prompts",
+    "home_page__features_carousel__feature_prompts__title": "เสร็จสิ้นงานประจำวันของคุณในไม่กี่นาที ไม่ใช่หลายชั่วโมงอีกต่อไป",
+    "home_page__features_carousel__feature_prompts__description1": "คลัง AI prompts คุณภาพสูง",
+    "home_page__features_carousel__feature_prompts__description2": "สร้างและจัดการ prompts ของคุณเอง",
+    "home_page__features_carousel__feature_prompts__description3": "นำ prompts ของคุณมาใช้ซ้ำได้",
+    "home_page__features_carousel__feature_prompts__description4": "สร้างลักษณะและสไตล์การเขียนที่กำหนดเอง"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
