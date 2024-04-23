@@ -4,6 +4,7 @@ import React from 'react';
 import { useRecoilValue } from 'recoil';
 
 import { PricingPlanCategoryState } from '@/features/pricing/store';
+import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils';
 import PromotionCountdown from '@/features/promotion/components/PromotionCountdown';
 
 const PromotionBannerForElite = () => {
@@ -70,7 +71,7 @@ const PromotionBannerForElite = () => {
                     bgcolor: 'promotionColor.backgroundMain',
                   }}
                 />
-                {`54%`}
+                {`${getMonthlyPriceOfYearlyPriceDiscount('elite')}%`}
               </span>
               <span>{` ${t(
                 'modules:promotion__banner__elite__title__part2',
