@@ -59,11 +59,10 @@
     "home_page__hero_section__title__part1": "1-κλικ AI οπουδήποτε,",
     "home_page__hero_section__title__part2": "Λιγότερος χρόνος,",
     "home_page__hero_section__title__part3": "Καλύτερα αποτελέσματα.",
-    "home_page__hero_section__desc": "Χρησιμοποιήστε εξατομικευμένη τεχνητή νοημοσύνη με ένα κλικ οπουδήποτε για να εξοικονομήσετε ώρες κάθε μέρα. Με τη δύναμη του ChatGPT, Claude, Gemini και πολλά ακόμα.",
+    "home_page__hero_section__desc": "Χρησιμοποιήστε εξατομικευμένη τεχνητή νοημοσύνη με ένα κλικ οπουδήποτε για να εξοικονομήσετε ώρες κάθε μέρα. Με την υποστήριξη των ChatGPT, Claude 3, Gemini 1.5, GPT-4 και περισσότερων.",
     "home_page__user_comment__title": "Αγαπούν το MaxAI",
     "home_page__call_to_action__title": "Ξεκινήστε δωρεάν",
     "home_page__call_to_action__sub_title": "Χρησιμοποιήστε εξατομικευμένη τεχνητή νοημοσύνη με ένα κλικ οπουδήποτε για να εξοικονομήσετε ώρες κάθε μέρα.",
-    "pricing__title": "Σύγκριση πλάνων και χαρακτηριστικών",
     "faq__title": "Συχνές Ερωτήσεις",
     "learning_center__title": "Κέντρο μάθησης",
     "learning_center__introduction__title": "MaxAI 101: Εισαγωγή",
@@ -77,7 +76,11 @@
     "home_page__features_carousel__feature_reply__label": "Αυτόματη Απάντηση AI",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Δωρεάν Λογισμικό Στο Διαδίκτυο",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Μην ξοδεύετε τα χρήματά σας για ακριβά προηγμένα λογισμικά για να μετατρέψετε {{TYPE}} σε PDF. Για περιορισμένη καθημερινή χρήση, ο μετατροπέας μας από {{TYPE}} σε PDF είναι δωρεάν. Αν χρειάζεστε να το χρησιμοποιήσετε πιο συχνά, φυσικά, η απεριόριστη χρήση είναι εντελώς δωρεάν.",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Συγχώνευση PDF"
+    "tools__index_page__constant_obj__merge_pdfs__title": "Συγχώνευση PDF",
+    "home_page__features_carousel__feature_chat__description1": "GPT-4, GPT-3.5",
+    "home_page__features_carousel__feature_chat__description2": "Claude-3-opus/sonnet/haiku",
+    "home_page__features_carousel__feature_chat__description3": "Gemini-1.5-pro, Gemini-pro",
+    "home_page__features_carousel__feature_chat__description4": "Κλειδί OpenAI API και περισσότερα κορυφαία μοντέλα τεχνητής νοημοσύνης της επιλογής σας"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Κλικ Προτροπές",
@@ -244,6 +247,8 @@
     "pdf_tools__split_pdf__description": "Χωρίστε εύκολα σελίδες ή αφαιρέστε σελίδες από το PDF σας online δωρεάν. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές.",
     "pdf_tools__png_to_pdf__description": "Μετατρέψτε εικόνες PNG σε PDF online δωρεάν. Ο μετατροπέας μετατρέπει οποιοδήποτε αρχείο εικόνας PNG σε ένα προσαρμοσμένο αρχείο PDF. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές απαιτούμενες.",
     "pdf_tools__jpeg_to_pdf__description": "Μετατρέψτε εικόνες JPEG σε PDF online δωρεάν. Ο μετατροπέας μετατρέπει οποιοδήποτε αρχείο εικόνας JPEG σε ένα προσαρμοσμένο αρχείο PDF. Δεν υπάρχουν υδατογραφήματα, περιορισμοί μεγέθους αρχείου, λήψεις ή εγγραφές απαιτούμενες.",
-    "pdf_tools__title": "Δωρεάν Εργαλεία PDF Online - Μετατροπή, Συμπίεση, Επεξεργασία | MaxAI.me"
+    "pdf_tools__title": "Δωρεάν Εργαλεία PDF Online - Μετατροπή, Συμπίεση, Επεξεργασία | MaxAI.me",
+    "default__title": "MaxAI.me: 1-Click AI Οπουδήποτε (ChatGPT, Claude 3, Gemini 1.5)",
+    "default__description": "Ο γρηγορότερος τρόπος να χρησιμοποιήσετε την τεχνητή νοημοσύνη οπουδήποτε: συνομιλία με την τεχνητή νοημοσύνη, γράψιμο, έλεγχος γραμματικής, εξήγηση, περίληψη, αναζήτηση, διαχείριση προτροπών και πολλά άλλα. Με την υποστήριξη του GPT-4, Claude 3, Gemini 1.5."
   }
 }
