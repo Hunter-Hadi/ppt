@@ -20,9 +20,7 @@ const usePartnersInfo = () => {
   // changelog 链接
   const changelogLink = useMemo(() => {
     if (router.query?.changelogLink && isString(router.query?.changelogLink)) {
-      return decodeURIComponent(
-        'https://translate.google.com/?sl=auto&tl=zh-CN&text=Changelogs&op=translate',
-      );
+      return decodeURIComponent(router.query.changelogLink);
     } else {
       return '';
     }
