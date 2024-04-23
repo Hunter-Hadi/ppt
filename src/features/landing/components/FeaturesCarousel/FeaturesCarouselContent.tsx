@@ -95,6 +95,24 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
           'pages:home_page__features_carousel__feature_translator__description4',
         ],
       },
+      Reader: {
+        title: 'pages:home_page__features_carousel__feature_reader__title',
+        descriptionList: [
+          'pages:home_page__features_carousel__feature_reader__description1',
+          'pages:home_page__features_carousel__feature_reader__description2',
+          'pages:home_page__features_carousel__feature_reader__description3',
+          'pages:home_page__features_carousel__feature_reader__description4',
+        ],
+      },
+      Prompts: {
+        title: 'pages:home_page__features_carousel__feature_prompts__title',
+        descriptionList: [
+          'pages:home_page__features_carousel__feature_prompts__description1',
+          'pages:home_page__features_carousel__feature_prompts__description2',
+          'pages:home_page__features_carousel__feature_prompts__description3',
+          'pages:home_page__features_carousel__feature_prompts__description4',
+        ],
+      },
     };
 
     const currentContent = contentDataMap[activeFeatureItem];
@@ -194,6 +212,8 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
     '/assets/landing/feature-carousel/search.png',
     '/assets/landing/feature-carousel/art.png',
     '/assets/landing/feature-carousel/translator.png',
+    '/assets/landing/feature-carousel/prompts.png',
+    '/assets/landing/feature-carousel/reader.png',
   ]);
 
   const imageSrc = useMemo(() => {
@@ -217,6 +237,12 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
     }
     if (activeFeatureItem === 'Translator') {
       return '/assets/landing/feature-carousel/translator.png';
+    }
+    if (activeFeatureItem === 'Prompts') {
+      return '/assets/landing/feature-carousel/prompts.png';
+    }
+    if (activeFeatureItem === 'Reader') {
+      return '/assets/landing/feature-carousel/reader.png';
     }
 
     return '';

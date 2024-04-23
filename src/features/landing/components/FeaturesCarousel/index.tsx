@@ -21,8 +21,10 @@ const WHITE_LIST_FEATURES_ITEM_KEY: IFeaturesCarouselItemKey[] = [
 export type IFeaturesCarouselItemKey =
   | 'Chat'
   | 'Rewriter'
-  | 'Quick-Reply'
   | 'Summary'
+  | 'Quick-Reply'
+  | 'Reader'
+  | 'Prompts'
   | 'Search'
   | 'Art'
   | 'Translator';
@@ -53,6 +55,16 @@ const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
     value: 'Quick-Reply',
     icon: 'quick-reply',
     label: 'pages:home_page__features_carousel__feature_reply__label',
+  },
+  {
+    value: 'Reader',
+    icon: 'reader',
+    label: 'pages:home_page__features_carousel__feature_reader__label',
+  },
+  {
+    value: 'Prompts',
+    icon: 'prompts',
+    label: 'pages:home_page__features_carousel__feature_prompts__label',
   },
   {
     value: 'Search',
