@@ -41,7 +41,15 @@ const FunctionalitySignPdfRenderCanvas: FC<
     // 键盘事件监听器
     const handleKeyDown = (event) => {
       if (event.key === 'Delete' || event.key === 'Backspace') {
-        editor?.deleteSelected();
+        var activeObjects = editor?.canvas.getActiveObjects();
+        if (activeObjects.length) {
+          // 循环并逐个移除
+          activeObjects.forEach(function (object) {
+            editor?.canvas.remove(object);
+          });
+        }
+        editor?.canvas.discardActiveObject(); // 取消选中状态
+        editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
       }
     };
     // 添加事件监听
@@ -51,9 +59,6 @@ const FunctionalitySignPdfRenderCanvas: FC<
       window.removeEventListener('keydown', handleKeyDown);
     };
   }, []);
-  const handleKeyDown = (event) => {
-    console.log('用户按下了回车键', event);
-  };
   // 当对象被选中或移动时调用
   const handleObjectSelected = (object?: any) => {
     if (object) {
@@ -85,6 +90,52 @@ const FunctionalitySignPdfRenderCanvas: FC<
       editor.canvas.on('object:moving', function (e) {
         // console.log('simply object:moving', e);
         handleObjectSelected(e.target);
+
+        let padding = 0; // 内容距离画布的空白宽度，主动设置
+        var obj = e.target;
+        if (
+          obj.currentHeight > obj.canvas.height - padding * 2 ||
+          obj.currentWidth > obj.canvas.width - padding * 2
+        ) {
+          return;
+        }
+        obj.setCoords();
+        if (
+          obj.getBoundingRect().top < padding ||
+          obj.getBoundingRect().left < padding
+        ) {
+          obj.top = Math.max(
+            obj.top,
+            obj.top - obj.getBoundingRect().top + padding,
+          );
+          obj.left = Math.max(
+            obj.left,
+            obj.left - obj.getBoundingRect().left + padding,
+          );
+        }
+        if (
+          obj.getBoundingRect().top + obj.getBoundingRect().height >
+            obj.canvas.height - padding ||
+          obj.getBoundingRect().left + obj.getBoundingRect().width >
+            obj.canvas.width - padding
+        ) {
+          obj.top = Math.min(
+            obj.top,
+            obj.canvas.height -
+              obj.getBoundingRect().height +
+              obj.top -
+              obj.getBoundingRect().top -
+              padding,
+          );
+          obj.left = Math.min(
+            obj.left,
+            obj.canvas.width -
+              obj.getBoundingRect().width +
+              obj.left -
+              obj.getBoundingRect().left -
+              padding,
+          );
+        }
       });
       // 对象移动监听 - 保证操作div跟随移动
       editor.canvas.on('object:scaling', function (e) {
@@ -183,7 +234,6 @@ const FunctionalitySignPdfRenderCanvas: FC<
   };
   return (
     <Box
-      onKeyDown={handleKeyDown}
       sx={{
         width: '100%',
         height: '100%',
