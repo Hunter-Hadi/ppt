@@ -26,6 +26,7 @@ function checkDoNeedToGenerateSitemap(file) {
     /release-notes/,
     /share/,
     /survey/,
+    /dev/,
     /email-unsubscribe-success/,
   ];
   return !excludePattern.some((pattern) => pattern.test(file));

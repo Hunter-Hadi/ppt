@@ -12,5 +12,6 @@ Disallow: /share
 Disallow: /*/share
 Disallow: /survey
 Disallow: /*/survey
+Disallow: /dev/
 
 Sitemap: https://www.maxai.me/sitemap.xml
