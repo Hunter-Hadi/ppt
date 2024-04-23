@@ -3,14 +3,17 @@ import dayjs from 'dayjs';
 import Head from 'next/head';
 import { FC } from 'react';
 
+import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 import FunctionalitySignPdfOperationDraggableView from './components/FunctionalitySignPdfShowView';
 import FunctionalitySignPdfSignatureView from './components/FunctionalitySignPdfSignatureView';
 
-interface IFunctionalitySignPdfOperationView {}
+interface IFunctionalitySignPdfOperationView {
+  activeDragData?: IActiveDragData;
+}
 const FunctionalitySignPdfOperationView: FC<
   IFunctionalitySignPdfOperationView
-> = () => {
+> = ({ activeDragData }) => {
   return (
     <Stack flexDirection='column'>
       <Head>
@@ -36,6 +39,7 @@ const FunctionalitySignPdfOperationView: FC<
       <Stack direction='column' gap={2}>
         <FunctionalitySignPdfSignatureView
           dragId={'draggable-0'}
+          activeDragData={activeDragData}
           signatureEmptyView={
             <Stack direction='row' gap={1} alignItems='center'>
               <FunctionalitySignPdfIcon name='TextFields' />
@@ -54,6 +58,7 @@ const FunctionalitySignPdfOperationView: FC<
         />
         <FunctionalitySignPdfSignatureView
           dragId={'draggable-1'}
+          activeDragData={activeDragData}
           signatureEmptyView={
             <Stack direction='row' gap={1} alignItems='center'>
               <FunctionalitySignPdfIcon name='Abc' />

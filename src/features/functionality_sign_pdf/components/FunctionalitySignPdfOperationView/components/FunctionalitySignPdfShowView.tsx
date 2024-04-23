@@ -1,7 +1,6 @@
 import { useDraggable } from '@dnd-kit/core';
 import { Box, Stack } from '@mui/material';
 import { FC } from 'react';
-import { v4 as uuidV4 } from 'uuid';
 
 import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
 
@@ -13,7 +12,7 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
 }> = ({ id, data, children, disabled }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,
-    data: { id: uuidV4(), ...data },
+    data: { id: id, ...data },
     disabled: disabled,
   });
 

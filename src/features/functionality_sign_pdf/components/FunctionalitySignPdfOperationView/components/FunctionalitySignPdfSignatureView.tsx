@@ -1,6 +1,7 @@
 import { Box, Button, Popover, Stack, Typography } from '@mui/material';
-import React, { FC, useEffect, useMemo, useState } from 'react';
+import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
+import { IActiveDragData } from '../../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfShowView';
 import FunctionalitySignPdfSignatureModal, {
@@ -10,13 +11,16 @@ interface IFunctionalitySignPdfSignatureViewProps {
   dragId: string;
   onShowImgVal?: (val: string) => void;
   signatureEmptyView?: React.ReactNode;
+  activeDragData?: IActiveDragData;
 }
+
 const FunctionalitySignPdfSignatureView: FC<
   IFunctionalitySignPdfSignatureViewProps
-> = ({ dragId, onShowImgVal, signatureEmptyView }) => {
+> = ({ dragId, onShowImgVal, signatureEmptyView, activeDragData }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [signatureViewList, setSignatureViewList] = useState<string[]>([]);
   const [currentShowIndex, setCurrentShowIndex] = useState(0);
+  const isActiveCurrent = useRef(false);
 
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
   const showImgValue = useMemo(
@@ -26,6 +30,17 @@ const FunctionalitySignPdfSignatureView: FC<
   const isHaveValue = !!showImgValue;
   const popoverId = 'pdf-signature-menu-popover-id';
   const open = Boolean(anchorEl);
+  useEffect(() => {
+    console.log('simply activeDragData', activeDragData);
+    if (activeDragData?.id === dragId && !isHaveValue) {
+      isActiveCurrent.current = true;
+    } else {
+      if (isActiveCurrent.current) {
+        setModalOpen(true);
+      }
+      isActiveCurrent.current = false;
+    }
+  }, [activeDragData]);
   useEffect(() => {
     console.log('simply currentShowIndex', currentShowIndex);
   }, [currentShowIndex]);
@@ -65,9 +80,8 @@ const FunctionalitySignPdfSignatureView: FC<
   };
   return (
     <FunctionalitySignPdfOperationDraggableView
-      disabled={!isHaveValue}
       id={dragId}
-      data={isHaveValue ? { type: 'base64', value: showImgValue } : undefined}
+      data={{ type: 'base64', value: showImgValue }}
     >
       {!isHaveValue && (
         <Stack

@@ -39,40 +39,46 @@ const FunctionalitySignPdfRenderCanvas: FC<
   }, [canvasRenderList, renderList]);
   useEffect(() => {
     // 键盘事件监听器
-    const handleKeyDown = (event) => {
-      if (event.key === 'Delete' || event.key === 'Backspace') {
-        var activeObjects = editor?.canvas.getActiveObjects();
-        if (activeObjects.length) {
-          // 循环并逐个移除
-          activeObjects.forEach(function (object) {
-            editor?.canvas.remove(object);
-          });
+    if (editor) {
+      const handleKeyDown = (event) => {
+        if (event.key === 'Delete' || event.key === 'Backspace') {
+          var activeObjects = editor?.canvas.getActiveObjects();
+          if (activeObjects.length) {
+            // 循环并逐个移除
+            activeObjects.forEach(function (object) {
+              editor?.canvas.remove(object);
+            });
+          }
+          editor?.canvas.discardActiveObject(); // 取消选中状态
+          editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
         }
-        editor?.canvas.discardActiveObject(); // 取消选中状态
-        editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
-      }
-    };
-    // 添加事件监听
-    window.addEventListener('keydown', handleKeyDown);
-    // 清理函数
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, []);
+      };
+      // 添加事件监听
+      window.addEventListener('keydown', handleKeyDown);
+      // 清理函数
+      return () => {
+        window.removeEventListener('keydown', handleKeyDown);
+      };
+    }
+  }, [editor]);
   // 当对象被选中或移动时调用
   const handleObjectSelected = (object?: any) => {
-    if (object) {
-      setControlDiv({
-        display: 'block',
-        left: object.left,
-        top: object.top - object.height / 2 - 25,
-      });
-    } else {
-      setControlDiv({
-        display: 'none',
-        left: 0,
-        top: 0,
-      });
+    try {
+      if (object) {
+        setControlDiv({
+          display: 'block',
+          left: object.left,
+          top: object.top - 45,
+        });
+      } else {
+        setControlDiv({
+          display: 'none',
+          left: 0,
+          top: 0,
+        });
+      }
+    } catch (e) {
+      console.log('simply error', e);
     }
   };
   useEffect(() => {
@@ -202,12 +208,19 @@ const FunctionalitySignPdfRenderCanvas: FC<
           hasRotatingPoint: false, // 禁用旋转控制点
           lockRotation: true, // 锁定旋转
         };
-        console.log('simply newSignaturePosition positionData', positionData);
         if (signaturePosition.data.type === 'base64') {
           const image = new Image();
           image.src = signaturePosition.data.value;
+
           image.onload = function () {
             const fabricImage = new fabric.Image(image, positionData);
+            // 检查图像宽度，如果需要则调整大小
+            if (fabricImage.width > sizeInfo.width / 2) {
+              // 调整尺寸，使用 scale 代替直接设置 width 和 height
+              let scaleRatio = sizeInfo.width / 2 / fabricImage.width;
+              fabricImage.scaleX = scaleRatio;
+              fabricImage.scaleY = scaleRatio;
+            }
             fabricImage.uniqueKey = signaturePosition.id;
             editor.canvas.add(fabricImage);
           };
@@ -271,11 +284,9 @@ const FunctionalitySignPdfRenderCanvas: FC<
               }}
               aria-label='Basic button group'
             >
-              {selectedObjects[0].type === 'image' && (
-                <FunctionalitySignPdfColorButtonPopover
-                  onSelectedColor={onChangeColor}
-                />
-              )}
+              <FunctionalitySignPdfColorButtonPopover
+                onSelectedColor={onChangeColor}
+              />
               <Button onClick={onCopySelectedObject}>
                 <FunctionalitySignPdfIcon name='ContentCopy' />
               </Button>

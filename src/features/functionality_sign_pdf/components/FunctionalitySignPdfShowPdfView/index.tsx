@@ -81,11 +81,9 @@ export const FunctionalitySignPdfShowPdfView: FC<
       }}
     >
       <Box
-        sx={
-          {
-            // p: 4,
-          }
-        }
+        sx={{
+          p: 4,
+        }}
       >
         <Document
           file={file}

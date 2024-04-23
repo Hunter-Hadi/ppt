@@ -10,14 +10,21 @@ import { Box, Button, Stack, Typography } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
 import { FC, useMemo, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
+import { v4 as uuidV4 } from 'uuid';
 
 import { pdfAddView } from '../utils/pdfAddView';
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView';
 import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView';
+
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
+export interface IActiveDragData {
+  id: string;
+  type: string;
+  value: string;
+}
 interface IFunctionalitySignPdfDetailProps {
   file: File;
 }
@@ -39,15 +46,14 @@ export const FunctionalitySignPdfDetail: FC<
     const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top;
     return window.innerHeight - (distanceFromTop || 280) - 10;
   }, []);
-  const [activeDragData, setActiveDragData] = useState<{
-    type: string;
-    value: string;
-  } | null>(null);
+  const [activeDragData, setActiveDragData] = useState<
+    IActiveDragData | undefined
+  >(undefined);
 
   const handleDragEnd = (event: DragEndEvent) => {
-    setActiveDragData(null);
+    setActiveDragData(undefined);
     console.log('simply handleDragEnd', event);
-    if (event.over && event.over.id) {
+    if (event.over && event.over.id && event.active.data.current?.value) {
       const { delta, over, active } = event;
       // 确定目标组件的坐标
       const droppableElement = document.getElementById(active.id as string);
@@ -64,7 +70,7 @@ export const FunctionalitySignPdfDetail: FC<
           value: string;
           pdfIndex: number;
         }),
-        id: active.data.current?.id,
+        id: uuidV4(),
         data: active.data.current as {
           type: string;
           value: string;
@@ -136,7 +142,9 @@ export const FunctionalitySignPdfDetail: FC<
           }}
         >
           <Box>
-            <FunctionalitySignPdfOperationView />
+            <FunctionalitySignPdfOperationView
+              activeDragData={activeDragData}
+            />
             <Button
               variant='contained'
               onClick={onPdfAddView}
@@ -158,9 +166,20 @@ export const FunctionalitySignPdfDetail: FC<
             cursor: 'grabbing',
           }}
         >
-          {activeDragData && activeDragData.type === 'base64' && (
-            <img src={activeDragData.value} alt='' />
-          )}
+          {activeDragData &&
+            activeDragData.type === 'base64' &&
+            activeDragData.value && (
+              <img
+                style={{
+                  maxWidth: '200px',
+                }}
+                src={activeDragData.value}
+                alt=''
+              />
+            )}
+          {activeDragData &&
+            activeDragData.type === 'base64' &&
+            !activeDragData.value && <div>Empty</div>}
           {activeDragData && activeDragData.type === 'text' && (
             <Typography
               sx={{

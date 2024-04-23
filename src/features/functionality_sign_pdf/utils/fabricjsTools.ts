@@ -46,7 +46,7 @@ export const copySelectedObject = (editor: FabricJSEditor) => {
 export const onChangeImageColor = (editor: FabricJSEditor, color) => {
     const canvas = editor?.canvas;
     const activeObject = canvas.getActiveObject();
-    console.log('activeObject', activeObject)
+    console.log('activeObject', activeObject, activeObject.type)
     if (!activeObject) {
         console.log('没有选中的对象来复制');
         return;
@@ -106,7 +106,21 @@ export const onChangeImageColor = (editor: FabricJSEditor, color) => {
             // Manually trigger the onload if the image is already loaded
             activeObject.getElement().onload();
         }
-    } else {
-        console.log('Selected object is not an image');
+    } else if (activeObject && activeObject.type === 'i-text') {
+        // 处理文本颜色变更
+        console.log('Selected object is a text');
+        switch (color) {
+            case 'black':
+                activeObject.set('fill', 'rgb(0,0,0)');
+                break;
+            case 'red':
+                activeObject.set('fill', 'rgb(255,0,0)');
+                break;
+            case 'blue':
+                activeObject.set('fill', 'rgb(0,0,255)');
+                break;
+        }
+        canvas.renderAll(); // 更新画布以显示颜色变更
+
     }
 };

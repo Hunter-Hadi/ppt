@@ -47,39 +47,43 @@ const FunctionalitySignPdfColorButtonPopover: FC<
             borderRadius: '50%',
           }}
         />
-      </Button>
-      <Popover
-        open={open}
-        anchorEl={anchorEl}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
-      >
-        <Paper
-          sx={{
-            p: 1,
-            display: 'flex',
-            justifyContent: 'space-around',
+        <Popover
+          id={id}
+          open={open}
+          anchorEl={anchorEl}
+          anchorOrigin={{
+            vertical: 'bottom',
+            horizontal: 'left',
           }}
         >
-          {['black', 'blue', 'red'].map((color) => (
-            <Button onClick={() => handleColorSelect(color)} key={color}>
-              <Box
-                sx={{
-                  width: 20,
-                  height: 20,
-                  borderRadius: '50%',
-                  backgroundColor: color,
-                  '&:hover': {
+          <Paper
+            sx={{
+              p: 1,
+              display: 'flex',
+              justifyContent: 'space-around',
+              ' button': {
+                border: '1px solid transparent!important',
+              },
+            }}
+          >
+            {['black', 'blue', 'red'].map((color) => (
+              <Button onClick={() => handleColorSelect(color)} key={color}>
+                <Box
+                  sx={{
+                    width: 20,
+                    height: 20,
+                    borderRadius: '50%',
                     backgroundColor: color,
-                  },
-                }}
-              ></Box>
-            </Button>
-          ))}
-        </Paper>
-      </Popover>
+                    '&:hover': {
+                      backgroundColor: color,
+                    },
+                  }}
+                ></Box>
+              </Button>
+            ))}
+          </Paper>
+        </Popover>
+      </Button>
     </React.Fragment>
   );
 };
