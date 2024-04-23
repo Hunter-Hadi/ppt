@@ -29,8 +29,9 @@ const FunctionalitySignPdfColorButtonPopover: FC<
   const id = open ? 'color-popper' : undefined;
 
   return (
-    <Box onClick={handleClick}>
+    <React.Fragment>
       <Button
+        onClick={handleClick}
         aria-describedby={id}
         sx={{
           bgcolor: '#fafafa',
@@ -79,7 +80,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
           ))}
         </Paper>
       </Popover>
-    </Box>
+    </React.Fragment>
   );
 };
 export default FunctionalitySignPdfColorButtonPopover;

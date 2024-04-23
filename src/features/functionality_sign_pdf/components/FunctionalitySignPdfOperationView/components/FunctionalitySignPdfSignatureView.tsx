@@ -2,7 +2,7 @@ import { Box, Button, Popover, Stack, Typography } from '@mui/material';
 import React, { FC, useEffect, useMemo, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
-import { FunctionalitySignPdfOperationDraggable } from '..';
+import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfShowView';
 import FunctionalitySignPdfSignatureModal, {
   ISignatureType,
 } from './FunctionalitySignPdfSignatureModal';
@@ -64,90 +64,71 @@ const FunctionalitySignPdfSignatureView: FC<
     }
   };
   return (
-    <FunctionalitySignPdfOperationDraggable
+    <FunctionalitySignPdfOperationDraggableView
       disabled={!isHaveValue}
       id={dragId}
-      isPdfDrag={false}
       data={isHaveValue ? { type: 'base64', value: showImgValue } : undefined}
     >
-      <Stack
-        aria-describedby={popoverId}
-        direction='row'
-        justifyContent='space-between'
-        alignItems='center'
-        sx={{
-          height: 60,
-          background: 'rgb(250, 250, 250)',
-          borderWidth: '1px 1px  1px  4px',
-          borderStyle: 'solid',
-          borderColor: '#e8e8e8 rgb(232, 232, 232) rgb(232, 232, 232) #9065B0',
-          borderImage: 'initial',
-          borderRadius: 1,
-          cursor: 'pointer',
-        }}
-      >
-        <FunctionalitySignPdfIcon name='DragIndicator' />
-        {!isHaveValue && (
-          <Stack
-            direction='row'
-            flex={1}
-            px={1}
-            justifyContent='space-between'
-            onClick={() => setModalOpen(true)}
-          >
-            <Box flex={1}>
-              {signatureEmptyView || (
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: 10,
-                      lg: 14,
-                    },
-                  }}
-                >
-                  Your Signature
-                </Typography>
-              )}
-            </Box>
-            <Typography
-              color='text.secondary'
-              sx={{
-                fontWeight: 'bold',
-                fontSize: {
-                  xs: 12,
-                  lg: 16,
-                },
-              }}
-            >
-              Add
-            </Typography>
-          </Stack>
-        )}
-        {isHaveValue && (
-          <img
-            src={showImgValue}
-            style={{
-              width: 'calc(100% - 50px)',
-              height: '100%',
-              objectFit: 'contain',
-            }}
-          />
-        )}
-        {isHaveValue && (
-          <Stack
+      {!isHaveValue && (
+        <Stack
+          direction='row'
+          flex={1}
+          px={1}
+          justifyContent='space-between'
+          onClick={() => setModalOpen(true)}
+        >
+          <Box flex={1}>
+            {signatureEmptyView || (
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 10,
+                    lg: 14,
+                  },
+                }}
+              >
+                Your Signature
+              </Typography>
+            )}
+          </Box>
+          <Typography
+            color='text.secondary'
             sx={{
-              borderLeft: '1px solid #e8e8e8',
-              height: '100%',
-              width: 30,
+              fontWeight: 'bold',
+              fontSize: {
+                xs: 12,
+                lg: 14,
+              },
             }}
-            alignItems='center'
-            justifyContent='center'
-            onClick={handleClick}
           >
-            <FunctionalitySignPdfIcon name='KeyboardArrowDown' />
-          </Stack>
-        )}
-      </Stack>
+            Add
+          </Typography>
+        </Stack>
+      )}
+      {isHaveValue && (
+        <img
+          src={showImgValue}
+          style={{
+            width: 'calc(100% - 50px)',
+            height: '100%',
+            objectFit: 'contain',
+          }}
+        />
+      )}
+      {isHaveValue && (
+        <Stack
+          sx={{
+            borderLeft: '1px solid #e8e8e8',
+            height: '100%',
+            width: 30,
+          }}
+          alignItems='center'
+          justifyContent='center'
+          onClick={handleClick}
+        >
+          <FunctionalitySignPdfIcon name='KeyboardArrowDown' />
+        </Stack>
+      )}
       <Popover
         id={popoverId}
         open={open}
@@ -224,7 +205,7 @@ const FunctionalitySignPdfSignatureView: FC<
           onCreate={onCreateSignatureValue}
         />
       )}
-    </FunctionalitySignPdfOperationDraggable>
+    </FunctionalitySignPdfOperationDraggableView>
   );
 };
 export default FunctionalitySignPdfSignatureView;

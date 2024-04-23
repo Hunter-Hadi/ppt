@@ -6,7 +6,7 @@ import {
   useSensor,
   useSensors,
 } from '@dnd-kit/core';
-import { Box, Button, Stack } from '@mui/material';
+import { Box, Button, Stack, Typography } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
 import { FC, useMemo, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
@@ -49,16 +49,12 @@ export const FunctionalitySignPdfDetail: FC<
     console.log('simply handleDragEnd', event);
     if (event.over && event.over.id) {
       const { delta, over, active } = event;
-      const parentRect = dndDragRef.current?.getBoundingClientRect();
-      var childRect = document
-        .getElementById((over.id as string) || '')
-        ?.getBoundingClientRect();
+      // 确定目标组件的坐标
+      const droppableElement = document.getElementById(active.id as string);
+      const activeRect = droppableElement?.getBoundingClientRect();
       let distanceParentTop = 0;
-      if (childRect && parentRect) {
-        distanceParentTop =
-          childRect?.top -
-          parentRect?.top +
-          (dndDragRef.current?.scrollTop || 0);
+      if (dndDragRef.current) {
+        distanceParentTop = dndDragRef.current?.scrollTop || 0;
       }
       const signaturePositionData = {
         width: over.rect.width,
@@ -74,9 +70,10 @@ export const FunctionalitySignPdfDetail: FC<
           value: string;
         },
       };
+
       const newSignaturePosition = {
-        x: over.rect.width + delta.x,
-        y: delta.y - distanceParentTop,
+        x: over.rect.width + delta.x, //左边的宽度➕鼠标移动的距离
+        y: (activeRect?.top || 0) - over.rect.top + delta.y - distanceParentTop, //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
         ...signaturePositionData,
       };
       console.log('simply newSignaturePosition 1111', newSignaturePosition);
@@ -86,7 +83,7 @@ export const FunctionalitySignPdfDetail: FC<
     }
   };
   const onDragStart = (event) => {
-    console.log('simply onDragStart', event.active.data);
+    console.log('simply onDragStart', event);
     setActiveDragData(event.active.data.current);
   };
   const onPdfAddView = () => {
@@ -163,6 +160,18 @@ export const FunctionalitySignPdfDetail: FC<
         >
           {activeDragData && activeDragData.type === 'base64' && (
             <img src={activeDragData.value} alt='' />
+          )}
+          {activeDragData && activeDragData.type === 'text' && (
+            <Typography
+              sx={{
+                fontSize: {
+                  xs: 20,
+                  lg: 30,
+                },
+              }}
+            >
+              {activeDragData.value || 'Text Field'}
+            </Typography>
           )}
         </DragOverlay>
       )}

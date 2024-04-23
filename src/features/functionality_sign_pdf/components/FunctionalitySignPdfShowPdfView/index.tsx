@@ -45,14 +45,35 @@ export const FunctionalitySignPdfShowPdfView: FC<
 > = ({ file, signaturePositions }) => {
   //PDF的页数
   const [numPages, setNumPages] = useState<number>();
+  const [pagesInfoList, setPagesInfoList] = useState<
+    {
+      width: number;
+      height: number;
+    }[]
+  >([]);
+
   // 用来存储宽度的state
-  useEffect(() => {
-    console.log('simply signaturePositions', signaturePositions);
-  }, [signaturePositions]);
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
     setNumPages(numPages);
   }
-
+  useEffect(() => {
+    if (file) {
+      getFilePdfInfoList();
+    }
+  }, [file]);
+  const getFilePdfInfoList = async () => {
+    const buff = await file.arrayBuffer(); // Uint8Array
+    const pdfDocument = await pdfjs.getDocument(buff).promise;
+    for (let pageNum = 1; pageNum <= pdfDocument._pdfInfo.numPages; pageNum++) {
+      const page = await pdfDocument.getPage(pageNum);
+      const viewport = page.getViewport({ scale: 2 });
+      console.log('simply viewport', viewport);
+      setPagesInfoList((list) => [
+        ...list,
+        { width: viewport.width, height: viewport.height },
+      ]);
+    }
+  };
   return (
     <Box
       sx={{
@@ -60,9 +81,11 @@ export const FunctionalitySignPdfShowPdfView: FC<
       }}
     >
       <Box
-        sx={{
-          m: 4,
-        }}
+        sx={
+          {
+            // p: 4,
+          }
+        }
       >
         <Document
           file={file}
@@ -100,6 +123,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
                 >
                   <FunctionalitySignPdfRenderCanvas
                     canvasIndex={index + 1}
+                    sizeInfo={pagesInfoList[index]}
                     renderList={signaturePositions.filter(
                       (signaturePosition) =>
                         signaturePosition.pdfIndex === index,

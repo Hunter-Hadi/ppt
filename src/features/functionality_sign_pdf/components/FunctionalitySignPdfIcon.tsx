@@ -1,11 +1,15 @@
 import AbcIcon from '@mui/icons-material/Abc';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
+import CheckIcon from '@mui/icons-material/Check';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import RefreshIcon from '@mui/icons-material/Refresh';
 import ReplayIcon from '@mui/icons-material/Replay';
 import TextFieldsIcon from '@mui/icons-material/TextFields';
+import TitleIcon from '@mui/icons-material/Title';
 import { SvgIconProps } from '@mui/material';
 import { FC } from 'react';
 
@@ -42,6 +46,18 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'TextFields': {
         return <TextFieldsIcon {...restProps} />;
+      }
+      case 'ContentCopy': {
+        return <ContentCopyIcon {...restProps} />;
+      }
+      case 'Title': {
+        return <TitleIcon {...restProps} />;
+      }
+      case 'CalendarMonthOutlined': {
+        return <CalendarMonthOutlinedIcon {...restProps} />;
+      }
+      case 'Check': {
+        return <CheckIcon {...restProps} />;
       }
       default: {
         return null;

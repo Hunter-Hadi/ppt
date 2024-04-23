@@ -1,23 +1,37 @@
-import { Box } from '@mui/material';
+import { Box, Button, ButtonGroup, Stack } from '@mui/material';
 import { fabric } from 'fabric';
 import { FabricJSCanvas, useFabricJSEditor } from 'fabricjs-react';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
+import {
+  copySelectedObject,
+  onChangeImageColor,
+} from '@/features/functionality_sign_pdf/utils/fabricjsTools';
+
 import { ISignData } from '../../FunctionalitySignPdfDetail';
+import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
+import FunctionalitySignPdfColorButtonPopover from '../../FunctionalitySignPdfOperationView/components/FunctionalitySignPdfColorButtonPopover';
 
 interface IFunctionalitySignPdfShowPdfCanvasProps {
   renderList: ISignData[];
   canvasIndex: number;
+  sizeInfo: {
+    width: number;
+    height: number;
+  };
 }
 const FunctionalitySignPdfRenderCanvas: FC<
   IFunctionalitySignPdfShowPdfCanvasProps
-> = ({ renderList, canvasIndex }) => {
+> = ({ renderList, canvasIndex, sizeInfo }) => {
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
   const divRef = useRef<any>(null);
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
-  const [width, setWidth] = useState(1); // Current scale factor
-  const [height, setHeight] = useState(1); // Current scale factor
   const [canvasRenderList, serCanvasRenderList] = useState<string[]>([]);
+  const [controlDiv, setControlDiv] = useState({
+    display: 'none',
+    left: 0,
+    top: 0,
+  });
   const newRenderList = useMemo(() => {
     return renderList.filter((signaturePosition) => {
       return !canvasRenderList.find((item) => item === signaturePosition.id);
@@ -32,7 +46,6 @@ const FunctionalitySignPdfRenderCanvas: FC<
     };
     // 添加事件监听
     window.addEventListener('keydown', handleKeyDown);
-
     // 清理函数
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
@@ -41,48 +54,84 @@ const FunctionalitySignPdfRenderCanvas: FC<
   const handleKeyDown = (event) => {
     console.log('用户按下了回车键', event);
   };
+  // 当对象被选中或移动时调用
+  const handleObjectSelected = (object?: any) => {
+    if (object) {
+      setControlDiv({
+        display: 'block',
+        left: object.left,
+        top: object.top - object.height / 2 - 25,
+      });
+    } else {
+      setControlDiv({
+        display: 'none',
+        left: 0,
+        top: 0,
+      });
+    }
+  };
+  useEffect(() => {
+    console.log('simply editor', editor);
+    if (editor) {
+      // 对象选中监听
+      editor.canvas.on('selection:created', function (event) {
+        // console.log('simply before:selection', event);
+        if (event.selected.length === 1) {
+          handleObjectSelected(event.selected[0]);
+        }
+      });
+
+      // 对象移动监听 - 保证操作div跟随移动
+      editor.canvas.on('object:moving', function (e) {
+        // console.log('simply object:moving', e);
+        handleObjectSelected(e.target);
+      });
+      // 对象移动监听 - 保证操作div跟随移动
+      editor.canvas.on('object:scaling', function (e) {
+        // console.log('simply object:scaling', e);
+        handleObjectSelected(e.target);
+      });
+
+      // 确保再次选择时移动操作div
+      editor.canvas.on('selection:updated', function (event) {
+        // console.log('simply object:updated', event);
+        if (event.selected.length === 1) {
+          handleObjectSelected(event.selected[0]);
+        }
+      });
+      // 确保再次选择时移动操作div
+      editor.canvas.on('selection:cleared', function (event) {
+        console.log('simply object:updated', event);
+        handleObjectSelected();
+      });
+    }
+  }, [editor]);
   useEffect(() => {
     try {
-      setTimeout(() => {
-        //初始化画布高度宽度
-        if (!editor?.canvas || !divRef.current) return;
-        let originalWidth = divRef.current.clientWidth; // Get initial canvas width
-        let originalHeight = divRef.current.clientHeight; // Get initial canvas width
-
-        editor.canvas.setDimensions({
-          width: originalWidth,
-          height: originalHeight,
-        });
-        setWidth(originalWidth);
-        setHeight(divRef.current.clientHeight);
-        let scaleFactor = 1; // Current scale factor
-        const resizeCanvas = () => {
-          //自适应缩放
-          let newWidth = divRef.current.clientWidth;
-          scaleFactor = newWidth / originalWidth; // Calculate new scale factor
-          console.log(
-            'simply scaleFactor',
-            originalWidth,
-            newWidth,
-            scaleFactor,
-          );
-          setScaleFactor(parseFloat(scaleFactor.toFixed(3)));
-        };
-        const resizeObserver = new ResizeObserver(resizeCanvas);
-        resizeObserver.observe(divRef.current);
-        return () => {
-          resizeObserver.disconnect();
-        };
-      }, 100);
+      //初始化画布高度宽度
+      if (!editor?.canvas || !divRef.current) return;
+      editor.canvas.setDimensions({
+        width: sizeInfo.width,
+        height: sizeInfo.height,
+      });
+      let scaleFactor = 1; // Current scale factor
+      const resizeCanvas = () => {
+        //自适应缩放
+        let newWidth = divRef.current.clientWidth;
+        scaleFactor = newWidth / sizeInfo.width; // Calculate new scale factor
+        setScaleFactor(parseFloat(scaleFactor.toFixed(3)));
+      };
+      const resizeObserver = new ResizeObserver(resizeCanvas);
+      resizeObserver.observe(divRef.current);
+      resizeCanvas();
+      return () => {
+        resizeObserver.disconnect();
+      };
     } catch (e) {
       console.error('simply error', e);
     }
-  }, [divRef, editor]);
+  }, [divRef, editor, sizeInfo]);
 
-  useEffect(() => {
-    console.log('simply selectedObjects', selectedObjects);
-    console.log('simply editor', editor?.canvas);
-  }, [selectedObjects]);
   useEffect(() => {
     if (newRenderList.length > 0 && editor) {
       /**
@@ -96,43 +145,42 @@ const FunctionalitySignPdfRenderCanvas: FC<
           .find((obj) => obj.uniqueKey === signaturePosition.id);
         if (existingImage) return;
         serCanvasRenderList((list) => [...list, signaturePosition.id]);
+        const positionData = {
+          left: signaturePosition.x / scaleFactor,
+          top: Math.max(signaturePosition.y / scaleFactor, 0),
+          hasRotatingPoint: false, // 禁用旋转控制点
+          lockRotation: true, // 锁定旋转
+        };
+        console.log('simply newSignaturePosition positionData', positionData);
         if (signaturePosition.data.type === 'base64') {
           const image = new Image();
           image.src = signaturePosition.data.value;
-          // var text = new fabric.IText('这里是可编辑的文字', {
-          //   left: 50, // 设置文字的起始位置
-          //   top: 50, // 设置文字的起始顶部位置
-          //   fontSize: 20, // 设置字体大小
-          //   fill: '#333', // 设置文字颜色
-          // });
-          // text.uniqueKey = signaturePosition.id;
-
-          // editor.canvas.add(text); // 将文字添加到 canvas 中
           image.onload = function () {
-            const fabricImage = new fabric.Image(image);
-            fabricImage.set({
-              left: signaturePosition.x / scaleFactor,
-              top: signaturePosition.y / scaleFactor,
-            });
-            console.log('simply newSignaturePosition 22222', {
-              left: signaturePosition.x / scaleFactor,
-              top: signaturePosition.y / scaleFactor,
-            });
-
+            const fabricImage = new fabric.Image(image, positionData);
             fabricImage.uniqueKey = signaturePosition.id;
             editor.canvas.add(fabricImage);
           };
         } else if (signaturePosition.data.type === 'text') {
-          const text = new fabric.IText(signaturePosition.data.value, {
-            left: signaturePosition.x / scaleFactor,
-            top: signaturePosition.y / scaleFactor,
-          });
+          const text = new fabric.IText(
+            signaturePosition.data.value,
+            positionData,
+          );
           text.uniqueKey = signaturePosition.id;
           editor.canvas.add(text);
         }
       });
     }
   }, [newRenderList, editor]);
+  const onChangeColor = (color) => {
+    if (editor) {
+      onChangeImageColor(editor, color);
+    }
+  };
+  const onCopySelectedObject = () => {
+    if (editor) {
+      copySelectedObject(editor);
+    }
+  };
   return (
     <Box
       onKeyDown={handleKeyDown}
@@ -144,16 +192,49 @@ const FunctionalitySignPdfRenderCanvas: FC<
     >
       <Box
         sx={{
-          width: width || '100%',
-          height: height || '100%',
+          width: sizeInfo.width || '100%',
+          height: sizeInfo.height || '100%',
           transform: `scale(${scaleFactor})`,
           transformOrigin: 'top left' /* 变形基点在右上角 */,
+          border: '1px solid #e8e8e8',
+          position: 'relative',
         }}
       >
         <FabricJSCanvas
           className={`sample-canvas-${canvasIndex}`}
           onReady={onReady}
         />
+        {selectedObjects?.length === 1 && (
+          <Stack
+            sx={{
+              position: 'absolute',
+              width: 200,
+              display: controlDiv.display,
+              left: controlDiv.left,
+              top: controlDiv.top,
+            }}
+          >
+            <ButtonGroup
+              variant='outlined'
+              sx={{
+                bgcolor: '#fafafa',
+              }}
+              aria-label='Basic button group'
+            >
+              {selectedObjects[0].type === 'image' && (
+                <FunctionalitySignPdfColorButtonPopover
+                  onSelectedColor={onChangeColor}
+                />
+              )}
+              <Button onClick={onCopySelectedObject}>
+                <FunctionalitySignPdfIcon name='ContentCopy' />
+              </Button>
+              <Button onClick={() => editor?.deleteSelected()}>
+                <FunctionalitySignPdfIcon name='DeleteForeverOutlined' />
+              </Button>
+            </ButtonGroup>
+          </Stack>
+        )}
       </Box>
     </Box>
   );
