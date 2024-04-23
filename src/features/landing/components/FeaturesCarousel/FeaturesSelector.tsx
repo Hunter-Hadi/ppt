@@ -25,11 +25,12 @@ const FeaturesSelector: FC<IProps> = ({
         bgcolor: active ? 'white' : '#F9FAFB',
         border: '2px solid',
         borderColor: active ? '#9065B03D' : '#F9FAFB',
-        p: 2,
+        py: 2,
+        px: 1.5,
         borderRadius: 4,
         transition: 'all 0.3s ease',
         cursor: active ? 'default' : 'pointer',
-        minWidth: 180,
+        minWidth: 150,
         boxSizing: 'border-box',
       }}
       onClick={() => {

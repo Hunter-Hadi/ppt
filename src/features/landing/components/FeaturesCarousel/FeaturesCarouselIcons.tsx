@@ -87,7 +87,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
       </Stack>
     );
   }
-  if (icon === 'quick-reply') {
+  if (icon === 'reply') {
     return (
       <Stack
         justifyContent={'center'}

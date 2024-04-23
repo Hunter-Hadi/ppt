@@ -46,7 +46,7 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
         ],
       },
 
-      'Quick-Reply': {
+      Reply: {
         title: 'pages:home_page__features_carousel__feature_reply__title',
         descriptionLabel:
           'pages:home_page__features_carousel__feature_reply__description_label',
@@ -223,7 +223,7 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
     if (activeFeatureItem === 'Rewriter') {
       return '/assets/landing/feature-carousel/rewriter.png';
     }
-    if (activeFeatureItem === 'Quick-Reply') {
+    if (activeFeatureItem === 'Reply') {
       return '/assets/landing/feature-carousel/reply.png';
     }
     if (activeFeatureItem === 'Summary') {
