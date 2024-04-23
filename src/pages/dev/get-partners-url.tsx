@@ -81,7 +81,7 @@ const GetPartnersUrl = () => {
       searchParams.append('changelogLink', changelogLink);
     }
 
-    const output = `${WWW_PROJECT_LINK}/partners/${pageType}?${searchParams.toString()}`;
+    const output = `${WWW_PROJECT_LINK}/partners/${pageType}/?${searchParams.toString()}`;
     // const output = `http://localhost:3001/partners/${pageType}?${searchParams.toString()}`;
 
     globalSnackbar.success('Generate success!');
