@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Alates kirjutamise abist ja veebilehe kokkuvõtetest kuni ChatPDF-i ja AI-maalimiseni võimaldab MaxAI.me teil lugeda, kirjutada ja luua kõige arenenumate AI-mudelite abil, sealhulgas ChatGPT, Claude ja Gemini. Täiustage oma sirvimiskogemust ja avage oma tootlikkuse potentsiaal juba täna MaxAI.me abil!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klõpsake üleslaadimiseks või lohistage",
     "components__index__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__to_image_detail__select_all": "Vali kõik",
     "components__to_image_detail__deselect_all": "Tühista valik",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele",
-    "components__common__drag__dropping_tip": "Saate järjestust reguleerida lohistades ja kukutades"
+    "components__common__drag__dropping_tip": "Saate järjestust reguleerida lohistades ja kukutades",
+    "components__common__upload_button_tips": "või aseta failid siia",
+    "components__common__upload_button_title": "VALI FAILID"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Ainult pilditüüpi pilte saab üles laadida",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Parim eliitprofessionaalidele",
     "plan_button__save_with_yearly_plan": "Säästa {{PRICE}} aastaplaaniga",
     "plan_button__free_status__start_for_free": "Alusta tasuta"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Aseta siia"
   }
 }

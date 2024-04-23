@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Desde asistencia en la escritura y resúmenes de páginas web hasta ChatPDF y pintura con IA, MaxAI.me te permite leer, escribir y crear con la ayuda de los modelos de IA más avanzados, incluidos ChatGPT, Claude y Gemini. Mejora tu experiencia de navegación y desbloquea tu potencial de productividad con MaxAI.me ¡hoy mismo!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Haz clic para subir o arrastra y suelta",
     "components__index__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
     "components__to_image_detail__select_all": "Seleccionar todo",
     "components__to_image_detail__deselect_all": "Deseleccionar todo",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "está encriptado o es anormal, no se puede manipular el PDF, omitido",
-    "components__common__drag__dropping_tip": "Puedes ajustar el orden arrastrando y soltando"
+    "components__common__drag__dropping_tip": "Puedes ajustar el orden arrastrando y soltando",
+    "components__common__upload_button_tips": "o soltar archivos aquí",
+    "components__common__upload_button_title": "ELEGIR ARCHIVOS"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Solo se pueden subir imágenes de tipo imagen",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Ideal para profesionales de élite",
     "plan_button__save_with_yearly_plan": "Ahorra {{PRICE}} con el plan anual",
     "plan_button__free_status__start_for_free": "Comenzar gratis"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Soltar aquí"
   }
 }

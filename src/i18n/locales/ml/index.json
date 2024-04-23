@@ -493,7 +493,8 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "ഉപകരണം ഫയല് പ്രോസസ്സ് ചെയ്യുകയും HTML ഫോർമാറ്റിലേക്ക് മാറ്റുക.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "മാറ്റം പൂർണ്ണമായിട്ടുള്ളതായാൽ, നിങ്ങളുടെ പുതിയ HTML ഫയൽ നിങ്ങളേക്ക് ലഭ്യമാക്കുക.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "ഫലങ്ങളെ പരിശോധിക്കാൻ ഡൗൺലോഡ് ചെയ്യുകയോ എന്നിവയുടെ സഹായത്തോടെ ഏതെങ്കിലും വെബ് ബ്രൌസറിൽ ഡൗൺലോഡ് ചെയ്യുക.",
-    "pdf_tools__detail_page__more_pdf_tools": "കൂടുതൽ സൗജന്യ ഓൺലൈന്‍ PDF ഉപകരണങ്ങൾ"
+    "pdf_tools__detail_page__more_pdf_tools": "കൂടുതൽ സൗജന്യ ഓൺലൈന്‍ PDF ഉപകരണങ്ങൾ",
+    "pdf_tools__detail_description_object__pdf_to_html__top_left": "ലേഔട്ട്, രൂപകല്പന, ചിത്രങ്ങൾ ഉള്ളടക്കം പരിപാലിച്ച് ഓൺലൈനായി ഞങ്ങളുടെ സൗജന്യ പിഡിഎഫ് മാറ്റിക്കുക HTML വെബ് പേജുകൾക്ക് പരിവർത്തനം ചെയ്യുക."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",
@@ -753,7 +754,6 @@
     "pdf_tools__pdf_to_html__description": "സൗജന്യമായി PDF മുതൽ HTML വരെ പരിവർത്തനം ചെയ്യുക. ലേഔട്ട് പരിശോധിക്കുകയും ചിത്രങ്ങൾ HTML ആക്കുകയും ചെയ്യുന്നു. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "അപ്‌ലോഡ് ചെയ്യാന്‍ ക്ലിക്ക് ചെയ്യുക അല്ലെങ്കില്‍ വലിയൊരുക്കുക",
     "components__index__unsupported_file_type_tip": "ദയവായി നിര്‍ദിഷ്ടപ്പെടുന്ന PDF ഫയല്‍ തരം അപ്‌ലോഡ് ചെയ്യുക",
     "components__to_image_detail__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
     "components__to_image_detail__deselect_all": "എല്ലാം തിരഞ്ഞെടുക്കാതാക്കുക",
@@ -836,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "എൻക്രിപ്റ്റ് ചെയ്തിട്ടുള്ളതാണ് അല്ലെങ്കിൽ അസാധാരണമാണ്, PDF പ്രവർത്തനം ചെയ്യാൻ കഴിയില്ല, അവസാനിപ്പിച്ചു",
-    "components__common__drag__dropping_tip": "നിങ്ങൾ വലിച്ചെറിയാൻ മറ്റുള്ളവരെ ഇടക്കാണിക്കാനും വലിച്ചെറിയാൻ പ്രവർത്തിക്കാനും കഴിയും"
+    "components__common__drag__dropping_tip": "നിങ്ങൾ വലിച്ചെറിയാൻ മറ്റുള്ളവരെ ഇടക്കാണിക്കാനും വലിച്ചെറിയാൻ പ്രവർത്തിക്കാനും കഴിയും",
+    "components__common__upload_button_tips": "അല്ലെങ്കിൽ ഇവിടെ ഫയലുകൾ ഡ്രോപ്പ് ചെയ്യുക",
+    "components__common__upload_button_title": "ഫയലുകൾ തിരഞ്ഞെടുക്കുക"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ഇമേജ് തരം മാത്രം അപ്‌ലോഡ് ചെയ്യാൻ കഴിയുന്നു",
@@ -925,5 +927,8 @@
     "payment_info__elite_desc": "എലൈറ്റ് പ്രൊഫഷണലുകളിലേക്ക് ഏറ്റവും മികച്ചത്",
     "plan_button__save_with_yearly_plan": "{{PRICE}} സംരക്ഷിക്കുക വർഷം പ്ലാൻ ഉപയോഗിച്ച്",
     "plan_button__free_status__start_for_free": "സ്വതന്ത്രമായി ആരംഭിക്കുക"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "ഇവിടെ ഡ്രോപ്പ് ചെയ്യുക"
   }
 }

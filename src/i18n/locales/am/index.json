@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "ከጽሁፎች መልካም እና የAI-ተጠቂዎችን ማስተላለፍ እና የድርጅቶችን መጠቀም እንዲሁም ChatPDF እና AI painting የሚገኙትን በMaxAI.me ለማድረግ የሚታይ ነው። የማንኛውም የAI ሞዴሎችን በChatGPT እና Claude እና Gemini የሚገኘውን ለማድረግ የሚታይ ነው። MaxAI.me በየትኛውም ትርጉም የሚገኘውን ለማድረግ የሚታይ ነው።"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "ጥያቄ ለጥያቄ እና ማስወገጃ ለማስገባት ይጫኑ",
     "components__index__unsupported_file_type_tip": "እባክዎ የተጠቀሱ PDF ፋይል አስገቡ",
     "components__to_image_detail__select_all": "ሁሉንም ይምረጡ",
     "components__to_image_detail__deselect_all": "ሁሉንም ይምረጡ",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "የPDF መሰረት ያለው ወይም አልተሳሳተ ነው, PDF እንዴት ማስተላለፍ አይችልም, ተጨማሪ ተሳሳቢ ነው",
-    "components__common__drag__dropping_tip": "ማስተካከያውን በግራፍ እና በማስቀመጥ ለማሳየት ይችላሉ"
+    "components__common__drag__dropping_tip": "ማስተካከያውን በግራፍ እና በማስቀመጥ ለማሳየት ይችላሉ",
+    "components__common__upload_button_tips": "ወደዚህ ፋይሎች ይጫኑ",
+    "components__common__upload_button_title": "ፋይሎች ይምረጡ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ምስል አይነት የሚጫኑ ምስሎች ተመዝግቧል",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "ለየተለያዩ የህፃናት ተጠቃሚዎች የሚያስተዳድር",
     "plan_button__save_with_yearly_plan": "በዓመታዊ አሁን የ{{PRICE}} ይቀምሩ",
     "plan_button__free_status__start_for_free": "በነፃ ጀምር"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "እዚህ ይጫኑ"
   }
 }

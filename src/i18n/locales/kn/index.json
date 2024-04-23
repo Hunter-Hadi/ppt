@@ -432,7 +432,6 @@
     "pdf_tools__detail_description_object__split_pdf__bottom_right_description_1": "ನಿಮ್ಮ ಕಡತವನ್ನು PDF ವಿಭಜಕಕ್ಕೆ ಹಾಕಿ & ಬಿಡಿ.",
     "pdf_tools__detail_description_object__split_pdf__bottom_right_description_2": "ನೀವು PDF ಅನ್ನು ಹೇಗೆ ಪಂಚ್ ಮಾಡಲು ಬಯಸುವಿರಿ ಎಂದು ಆಯ್ಕೆಮಾಡಿ.",
     "pdf_tools__detail_description_object__split_pdf__bottom_right_description_3": "ಕೆಳಗಿನಲ್ಲಿ “ಪಂಚ್ ಮಾಡಲು ಖಚಿತಪಡಿಸಿ” ಕ್ಲಿಕ್ ಮಾಡಿ, ಮಾರ್ಪಟೆಗೆ ನಾವು ಪ್ರಕ್ರಿಯೆ ಮಾಡುತ್ತೇವೆ.",
-    "pdf_tools__detail_description_object__split_pdf__bottom_right_description_4": "ನಿಮ್ಮ PDF ಕಡತವನ್ನು ವಿಭಜಿಸಲು “ದೃಢೀಕರಿಸಲು” ಕ್ಲಿಕ್ ಮಾಡಿ.",
     "pdf_tools__detail_description_object__pdf_to_image__top_left": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಬೇಕಾದಷ್ಟು ಅಲ್ಲ, ವಿಜ್ಞಾಪನ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳಿಲ್ಲ - ನಿಮ್ಮ PDF ಪುಟಗಳನ್ನು ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಲು ಅಥವಾ ನಿಮ್ಮ PDF ಫೈಲ್‌ನಿಂದ ಒಂದು ಚಿತ್ರವನ್ನು ಎಕ್ಸ್‌ಟ್ರ್ಯಾಕ್ಟ್ ಮಾಡಲು ಉಪಯೋಗಿಸಬಹುದಾದ ಒಂದು ಉತ್ತಮ ನಿಃಶುಲ್ಕ ಆನ್‌ಲೈನ್ ಟೂಲ್.",
     "pdf_tools__detail_description_object__pdf_to_image__top_right_1": "ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ {{TYPE}} ಗೆ ಪಿಡಿಎಫ್ ಪರಿವರ್ತನೆ",
     "pdf_tools__detail_description_object__pdf_to_image__top_right_2": "ಬ್ರೌಸರ್ ಆಧಾರಿತ - ಅನುಸ್ಥಾಪನೆ ಬೇಡವು",
@@ -790,7 +789,6 @@
     "more_over_section__description__part2": "ಬರವಣಿಗೆ ಸಹಾಯ, ವೆಬ್‌ಪೇಜ್ ಸಂಗ್ರಹಣೆ, ChatPDF ಮತ್ತು ಏಐ ಚಿತ್ರಕಲೆ ಹೀಗೆ ಅನೇಕ ಏಐ ಸೌಲಭ್ಯಗಳನ್ನು ಹೊಂದಿರಿ. ChatGPT, Claude ಮತ್ತು Gemini ಈ ಹೊಸದಾಗಿ ಬಂದ ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಸಹಾಯದಿಂದ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ, ನಿಮ್ಮ ಉತ್ಪಾದಕತೆಯ ಸಾಧ್ಯತೆಯನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ. MaxAI.me ನೊಂದಿಗೆ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಹಾಕಿಕೊಳ್ಳಿ",
     "components__index__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__to_image_detail__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
     "components__to_image_detail__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದು ಮಾಡಿ",
@@ -838,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "ಪಿಡಿಎಫ್ ಎನ್ಕ್ರಿಪ್ಷನ್ ಮಾಡಲಾಗಿದೆ ಅಥವಾ ಅಸಾಮಾನ್ಯ, ಪಿಡಿಎಫ್ ಮಾರ್ಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಹಾಗೂ ಹಾಲಿಕೆ ಮಾಡಲಾಗಿಲ್ಲ",
-    "components__common__drag__dropping_tip": "ನೀವು ಹಾಕಿದ್ದನ್ನು ಎಳೆಯುವುದರ ಮೂಲಕ ಕ್ರಮವನ್ನು ಸರಿಪಡಿಸಬಹುದು"
+    "components__common__drag__dropping_tip": "ನೀವು ಹಾಕಿದ್ದನ್ನು ಎಳೆಯುವುದರ ಮೂಲಕ ಕ್ರಮವನ್ನು ಸರಿಪಡಿಸಬಹುದು",
+    "components__common__upload_button_tips": "ಅಥವಾ ಫೈಲ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಹಾಕಿ",
+    "components__common__upload_button_title": "ಫೈಲ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ಕೇವಲ ಚಿತ್ರ ಪ್ರಕಾರದ ಚಿತ್ರಗಳನ್ನು ಮಾತ್ರ ಅಪ್ಲೋಡ್ ಮಾಡಬಹುದು",
@@ -927,5 +927,8 @@
     "payment_info__elite_desc": "ಎಲೀಟ್ ಪ್ರೊಫೆಶನಲ್ಸ್ ಗೆ ಅತ್ಯಂತ ಹೊಸದಾಗಿ",
     "plan_button__save_with_yearly_plan": "{{PRICE}} ವರ್ಷದ ಯೋಜನೆಯಲ್ಲಿ ಉಳಿದುಕೊಳ್ಳಿ",
     "plan_button__free_status__start_for_free": "ಉಚಿತವಾಗಿ ಪ್ರಾರಂಭಿಸಿ"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "ಇಲ್ಲಿ ಹಾಕಿ"
   }
 }

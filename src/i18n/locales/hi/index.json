@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "लेखन सहायता और वेबपेज संक्षेपण से ChatPDF और AI पेंटिंग तक, MaxAI.me आपको सबसे उन्नत AI मॉडलों, जैसे ChatGPT, Claude और Gemini की मदद से पढ़ने, लिखने और निर्माण करने की शक्ति प्रदान करता है। अपने ब्राउज़िंग अनुभव को अपग्रेड करें और अपनी उत्पादकता की क्षमता को MaxAI.me के साथ खोलें!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "अपलोड करने के लिए क्लिक करें या खींचें और छोड़ें",
     "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__to_image_detail__select_all": "सभी का चयन करें",
     "components__to_image_detail__deselect_all": "सभी का चयन हटाएं",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "एन्क्रिप्टेड या असामान्य है, पीडीएफ को संशोधित करने में असमर्थ, छोड़ दिया गया",
-    "components__common__drag__dropping_tip": "आप आर्डर को खींचकर बदल सकते हैं"
+    "components__common__drag__dropping_tip": "आप आर्डर को खींचकर बदल सकते हैं",
+    "components__common__upload_button_tips": "या यहाँ फ़ाइलें छोड़ें",
+    "components__common__upload_button_title": "फ़ाइलें चुनें"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "केवल छवि प्रकार की छवियाँ अपलोड की जा सकती हैं",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "श्रेष्ठ व्यावसायिकों के लिए सर्वश्रेष्ठ",
     "plan_button__save_with_yearly_plan": "{{PRICE}} के साथ वार्षिक योजना में बचाएं",
     "plan_button__free_status__start_for_free": "मुफ्त शुरू करें"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "यहाँ छोड़ें"
   }
 }

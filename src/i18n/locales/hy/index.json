@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Սա ներառում է գրավելու, էջի ամփոփումների ու ChatPDF-ից AI նկարագրության միջոցով նկարելու միջավայրերում: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին:"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Սեղմեք վերբեռնելու կամ գցեք և գցեք",
     "components__index__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
     "components__to_image_detail__select_all": "Ընտրել բոլորը",
     "components__to_image_detail__deselect_all": "Չեղարկել բոլորը",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "գաղտնաբառված է կամ անվտանգության պատճենը, չի կարող վերահսկվել PDF-ն, անտեսված է",
-    "components__common__drag__dropping_tip": "Դուք կարող եք կարգը հավաքել և տեղադրել փոխանցումները"
+    "components__common__drag__dropping_tip": "Դուք կարող եք կարգը հավաքել և տեղադրել փոխանցումները",
+    "components__common__upload_button_tips": "կամ տեղափոխեք ֆայլերը այստեղ",
+    "components__common__upload_button_title": "Ընտրեք ֆայլերը"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Միայն պատկերներ կարող են վերբեռնվել",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Լավագույն՝ լուսաբազային պրոֆեսիոնալների համար",
     "plan_button__save_with_yearly_plan": "Գնալ {{PRICE}}-ով տարեկան պլանով",
     "plan_button__free_status__start_for_free": "Սկսեք անվճար"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Տեղափոխեք այստեղ"
   }
 }

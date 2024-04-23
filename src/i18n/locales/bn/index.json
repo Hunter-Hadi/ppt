@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "লেখা সহায়তা এবং ওয়েবপেজ সংক্ষেপণ থেকে চ্যাটপিডিএফ এবং এআই পেইন্টিং পর্যন্ত, MaxAI.me আপনাকে সর্বোচ্চ এআই মডেলগুলির সাহায্যে পড়া, লেখা এবং সৃষ্টি করার সুযোগ দেয়। এটি ছাড়াও ChatGPT, Claude এবং Gemini সহ সর্বোচ্চ এআই মডেলগুলির সাহায্যে আপনার ব্রাউজিং অভিজ্ঞতা আপগ্রেড করুন এবং আপনার উদ্যোগশীলতা সম্ভাবনা আনলক করুন। MaxAI.me এখনই ব্যবহার করুন!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "আপলোড করতে ক্লিক করুন বা টেনে আনুন",
     "components__index__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__to_image_detail__select_all": "সব নির্বাচন করুন",
     "components__to_image_detail__deselect_all": "সব অগ্রাহ্য করুন",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "এনক্রিপ্ট বা অস্বাভাবিক, পিডিএফ সংশোধন করতে অক্ষম, এই পাস করা হয়েছে",
-    "components__common__drag__dropping_tip": "আপনি ড্র্যাগ এবং ড্রপ করে ক্রম পরিবর্তন করতে পারেন"
+    "components__common__drag__dropping_tip": "আপনি ড্র্যাগ এবং ড্রপ করে ক্রম পরিবর্তন করতে পারেন",
+    "components__common__upload_button_tips": "অথবা ফাইলগুলি এখানে পরিবর্তন করুন",
+    "components__common__upload_button_title": "ফাইলগুলি চয়ন করুন"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "শুধুমাত্র ইমেজ টাইপের ছবি আপলোড করা যাবে",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "এলিট পেশাদারদের জন্য সেরা",
     "plan_button__save_with_yearly_plan": "{{PRICE}} বছরের পরিকল্পনায় সংরক্ষণ করুন",
     "plan_button__free_status__start_for_free": "বিনামূল্যে শুরু করুন"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "এখানে পরিবর্তন করুন"
   }
 }

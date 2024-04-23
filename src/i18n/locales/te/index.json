@@ -488,7 +488,13 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "ఉల్లేఖించిన ఫైల్ ను టూల్ ప్రాసెస్ చేసి HTML ఫార్మాట్‌కు మార్చండి.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "మార్చని ప్రాసెస్ పూర్తిగా ఉందని మీరు డౌన్‌లోడ్ చేయవచ్చు.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "ఫలితాన్ని సమీక్షించడానికి ఏ వెబ్ బ్రౌజర్‌లో డౌన్‌లోడ్ చేసిన HTML ను తెరవండి.",
-    "pdf_tools__detail_page__more_pdf_tools": "మరిన్ని ఉచిత ఆన్‌లైన్ PDF టూల్‌లు"
+    "pdf_tools__detail_page__more_pdf_tools": "మరిన్ని ఉచిత ఆన్‌లైన్ PDF టూల్‌లు",
+    "pdf_tools__detail_description_object__image_to_pdf__top_left": "ఉచితంగా ఆన్‌లైన్‌లో ఇమేజ్‌లను PDFకు మార్చండి. మా {{TYPE}} ను PDF కన్వర్టర్ మార్పులు ఏ చిట్కాలు లేవు, ఏ వర్డర్‌మార్కులు లేవు.",
+    "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "సులభంగా ఉపయోగించడానికి ఆన్‌లైన్‌లో {{TYPE}} ను PDFకు మార్చండి",
+    "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "ఇన్స్టాలేషన్ అవసరం లేదు - మీ బ్రౌజర్‌లో పని చేస్తుంది",
+    "pdf_tools__detail_description_object__image_to_pdf__top_right_3": "నమోదు కావడం లేనందున ఉచిత మార్పు",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_1_title": "త్వరగా & సులభంగా {{TYPE}} ను PDFకు మార్చండి",
+    "pdf_tools__detail_description_object__image_to_pdf__middle_1_description": "మీరు మీ ఫైల్‌ను టూల్‌బాక్స్‌కు డ్రాగ్ & డ్రాప్ చేయగలరు, అది త్వరగా {{TYPE}} ను PDFకు మార్చించడానికి. మీరు మార్జిన్, ఓరియంటేషన్ మరియు పరిమాణాలను కొనసాగించడానికి కొనసాగించవచ్చు."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",
@@ -748,7 +754,6 @@
     "pdf_tools__pdf_to_html__description": "ఉచితంగా PDFను HTMLకు మార్చండి. లేఅవుట్ నిర్వహణనీయతను మరియు చిత్రాలను HTMLకు మార్చండి. ఏ వాటర్‌మార్క్లు, ఫైల్ పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్లోడ్‌లు అవసరం లేవు."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి లేదా దారికి తింటండి",
     "components__to_image_detail__select_all": "అన్నింటినీ ఎంచుకోండి",
     "components__to_image_detail__deselect_all": "అన్నింటినీ ఎంచుకోకుండా ఉంచండి",
     "components__to_image_detail__download_images": "చిత్రాలను డౌన్‌లోడ్ చేయండి",
@@ -815,7 +820,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "ఎన్క్రిప్షన్ చేయబడిన లేదా అసాధారణంగా ఉండి, PDF ను మార్చలేరు",
-    "components__common__drag__dropping_tip": "మీరు డ్రాగ్ చేసి వరుస సరిచేయవచ్చు"
+    "components__common__drag__dropping_tip": "మీరు డ్రాగ్ చేసి వరుస సరిచేయవచ్చు",
+    "components__common__upload_button_tips": "లేదా ఫైళ్ళను ఇక్కడ డ్రాప్ చేయండి",
+    "components__common__upload_button_title": "ఫైళ్ళను ఎంచుకోండి"
   },
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "దయచేసి ప్రస్తుత PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
@@ -920,5 +927,8 @@
     "payment_info__elite_desc": "ఎలీట్ ప్రొఫెషనల్స్ కోసం ఉత్తమం",
     "plan_button__save_with_yearly_plan": "{{PRICE}} సంవత్సర ప్లాన్‌తో సేవ్ చేయండి",
     "plan_button__free_status__start_for_free": "ఉచితంగా ప్రారంభించండి"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "ఇక్కడ డ్రాప్ చేయండి"
   }
 }

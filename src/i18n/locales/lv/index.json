@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Sākot no rakstības palīdzības un lapas kopsavilkuma līdz ChatPDF un AI gleznošanai, MaxAI.me ļauj jums lasīt, rakstīt un radīt ar vismodernākajiem AI modeļiem, ieskaitot ChatGPT, Claude un Gemini. Uzlabojiet savu pārlūkošanas pieredzi un atklājiet savu produktivitātes potenciālu ar MaxAI.me jau šodien!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Noklikšķiniet, lai augšupielādētu vai vilktu un nomestu",
     "components__index__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__to_image_detail__select_all": "Izvēlēties visu",
     "components__to_image_detail__deselect_all": "Noņemt atlasi",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists",
-    "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot"
+    "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot",
+    "components__common__upload_button_tips": "vai nometiet failus šeit",
+    "components__common__upload_button_title": "IZVĒLĒTIES FAILUS"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Vislabāk piemērots elitāriem profesionāļiem",
     "plan_button__save_with_yearly_plan": "Ietaupiet {{PRICE}} ar ikgadēju plānu",
     "plan_button__free_status__start_for_free": "Sāciet bez maksas"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Nometiet šeit"
   }
 }

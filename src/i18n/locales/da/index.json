@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Fra skrivehjælp og websideopsummering til ChatPDF og AI-maleri giver MaxAI.me dig mulighed for at læse, skrive og skabe med hjælp fra de mest avancerede AI-modeller, herunder ChatGPT, Claude og Gemini. Opgrader din browseroplevelse og frigør dit produktivitetspotentiale med MaxAI.me i dag!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klik for at uploade eller træk og slip",
     "components__index__unsupported_file_type_tip": "Upload venligst den specificerede PDF-filtype",
     "components__to_image_detail__select_all": "Vælg alle",
     "components__to_image_detail__deselect_all": "Fravælg alle",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "er krypteret eller unormal, kan ikke manipulere PDF'en, sprunget over",
-    "components__common__drag__dropping_tip": "Du kan justere rækkefølgen ved at trække og slippe"
+    "components__common__drag__dropping_tip": "Du kan justere rækkefølgen ved at trække og slippe",
+    "components__common__upload_button_tips": "eller slip filer her",
+    "components__common__upload_button_title": "VÆLG FILER"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Kun billeder af billedtypen kan uploades",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Bedst til eliteprofessionelle",
     "plan_button__save_with_yearly_plan": "Spar {{PRICE}} med årlig plan",
     "plan_button__free_status__start_for_free": "Start gratis"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Slip her"
   }
 }

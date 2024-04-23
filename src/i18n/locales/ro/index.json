@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "De la asistență în scris și rezumarea paginilor web până la ChatPDF și pictură AI, MaxAI.me îți oferă puterea de a citi, scrie și crea cu ajutorul celor mai avansate modele AI, inclusiv ChatGPT, Claude și Gemini. Upgradează-ți experiența de navigare și deblochează-ți potențialul de productivitate cu MaxAI.me astăzi!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Apasă pentru a încărca sau trage și plasează",
     "components__index__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__to_image_detail__select_all": "Selectează tot",
     "components__to_image_detail__deselect_all": "Deselectează tot",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "este criptat sau anormal, nu se poate manipula PDF-ul, s-a trecut peste",
-    "components__common__drag__dropping_tip": "Puteți ajusta ordinea prin tragere și fixare"
+    "components__common__drag__dropping_tip": "Puteți ajusta ordinea prin tragere și fixare",
+    "components__common__upload_button_tips": "sau lăsați fișierele aici",
+    "components__common__upload_button_title": "ALEGEȚI FIȘIERELE"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Pot fi încărcate doar imagini de tip imagine",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Cel mai bun pentru profesioniștii de elită",
     "plan_button__save_with_yearly_plan": "Economisiți {{PRICE}} cu planul anual",
     "plan_button__free_status__start_for_free": "Începeți gratuit"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Așezați aici"
   }
 }

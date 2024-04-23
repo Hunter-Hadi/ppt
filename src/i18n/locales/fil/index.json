@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Mula sa tulong sa pagsusulat at pagbuod ng webpage hanggang sa ChatPDF at AI painting, pinapahusay ka ng MaxAI.me na magbasa, sumulat, at lumikha gamit ang tulong ng pinakamahusay na AI models, kabilang ang ChatGPT, Claude, at Gemini. I-upgrade ang iyong karanasan sa pag-browse at buksan ang iyong potensyal sa produktibidad gamit ang MaxAI.me ngayon!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "I-click para i-upload o i-drag at i-drop",
     "components__index__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__to_image_detail__select_all": "Piliin Lahat",
     "components__to_image_detail__deselect_all": "Tanggalin ang Lahat",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip",
-    "components__common__drag__dropping_tip": "Maaari mong ayusin ang pagkakasunud-sunod sa pamamagitan ng pag-drag at pag-drop"
+    "components__common__drag__dropping_tip": "Maaari mong ayusin ang pagkakasunud-sunod sa pamamagitan ng pag-drag at pag-drop",
+    "components__common__upload_button_tips": "o i-drop ang mga file dito",
+    "components__common__upload_button_title": "PUMILI NG MGA FILE"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Maaaring i-upload lamang ang mga imahe ng uri ng imahe",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Pinakabagay para sa mga elite na propesyonal",
     "plan_button__save_with_yearly_plan": "I-save ang {{PRICE}} gamit ang taunang plano",
     "plan_button__free_status__start_for_free": "Magsimula nang libre"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "I-drop dito"
   }
 }

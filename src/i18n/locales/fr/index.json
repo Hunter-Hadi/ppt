@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "De l'assistance à l'écriture et à la synthèse de pages web à ChatPDF et à la peinture IA, MaxAI.me vous permet de lire, d'écrire et de créer avec l'aide des modèles d'IA les plus avancés, notamment ChatGPT, Claude et Gemini. Améliorez votre expérience de navigation et libérez votre potentiel de productivité avec MaxAI.me dès aujourd'hui!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Cliquez pour télécharger ou faites glisser et déposez",
     "components__index__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__to_image_detail__select_all": "Tout sélectionner",
     "components__to_image_detail__deselect_all": "Tout désélectionner",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "est chiffré ou anormal, impossible de manipuler le PDF, ignoré",
-    "components__common__drag__dropping_tip": "Vous pouvez ajuster l'ordre en faisant glisser et déposer"
+    "components__common__drag__dropping_tip": "Vous pouvez ajuster l'ordre en faisant glisser et déposer",
+    "components__common__upload_button_tips": "ou déposez les fichiers ici",
+    "components__common__upload_button_title": "CHOISISSEZ DES FICHIERS"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Seules les images de type image peuvent être téléchargées",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Idéal pour les professionnels d'élite",
     "plan_button__save_with_yearly_plan": "Économisez {{PRICE}} avec le plan annuel",
     "plan_button__free_status__start_for_free": "Commencer gratuitement"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Déposez ici"
   }
 }

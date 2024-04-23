@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Dari bantuan penulisan dan ringkasan laman web hingga ChatPDF dan seni AI, MaxAI.me memberdayakan anda untuk membaca, menulis, dan mencipta dengan bantuan model AI paling canggih, termasuk ChatGPT, Claude, dan Gemini. Tingkatkan pengalaman pelayaran anda dan buka potensi produktiviti anda dengan MaxAI.me hari ini!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klik untuk muat naik atau seret dan lepas",
     "components__index__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__to_image_detail__select_all": "Pilih Semua",
     "components__to_image_detail__deselect_all": "Batal Pilih Semua",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati",
-    "components__common__drag__dropping_tip": "Anda boleh mengubah susunan dengan menyeret dan menjatuhkan"
+    "components__common__drag__dropping_tip": "Anda boleh mengubah susunan dengan menyeret dan menjatuhkan",
+    "components__common__upload_button_tips": "atau letakkan fail di sini",
+    "components__common__upload_button_title": "PILIH FAIL"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis imej boleh dimuat naik",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Terbaik untuk profesional elit",
     "plan_button__save_with_yearly_plan": "Jimat {{PRICE}} dengan pelan tahunan",
     "plan_button__free_status__start_for_free": "Mula secara percuma"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Letakkan di sini"
   }
 }

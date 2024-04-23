@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Des de l'assistència en l'escriptura i la sumarització de pàgines web fins a ChatPDF i la pintura amb IA, MaxAI.me et permet llegir, escriure i crear amb l'ajuda dels models d'IA més avançats, incloent-hi ChatGPT, Claude i Gemini. Millora la teva experiència de navegació i desbloqueja el teu potencial de productivitat amb MaxAI.me avui mateix!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Feu clic per pujar o arrossegueu",
     "components__index__unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat",
     "components__to_image_detail__select_all": "Selecciona-ho tot",
     "components__to_image_detail__deselect_all": "Desselecciona-ho tot",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "està encriptat o és anormal, no es pot manipular el PDF, saltat",
-    "components__common__drag__dropping_tip": "Podeu ajustar l'ordre arrossegant i deixant anar"
+    "components__common__drag__dropping_tip": "Podeu ajustar l'ordre arrossegant i deixant anar",
+    "components__common__upload_button_tips": "o deixa els fitxers aquí",
+    "components__common__upload_button_title": "TRIA FITXERS"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Només es poden carregar imatges de tipus imatge",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "El millor per a professionals d'elit",
     "plan_button__save_with_yearly_plan": "Estalvia {{PRICE}} amb el pla anual",
     "plan_button__free_status__start_for_free": "Comença gratuïtament"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Deixa-ho aquí"
   }
 }

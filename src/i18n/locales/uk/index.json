@@ -754,7 +754,6 @@
     "pdf_tools__pdf_to_html__description": "مفت آن لائن پی ڈی ایف کو ایچ ٹی ایم ایل میں تبدیل کریں۔ ترتیب برقرار رکھیں اور تصاویر کو HTML میں تبدیل کریں۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "اپ لوڈ کرنے کے لئے کلک کریں یا ڈریگ اور ڈراپ کریں",
     "components__to_image_detail__select_all": "سب کو منتخب کریں",
     "components__to_image_detail__deselect_all": "سب کو غیر منتخب کریں",
     "components__to_image_detail__download_images": "تصاویر ڈاؤن لوڈ کریں",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "PDF محفوظ ہے یا غیر معمولی ہے، پی ڈی ایف کو ترتیب نہیں دیا جاسکتا، چھوڑ دیا گیا",
-    "components__common__drag__dropping_tip": "آپ ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں"
+    "components__common__drag__dropping_tip": "آپ ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
+    "components__common__upload_button_tips": "یا یہاں فائلیں ڈراپ کریں",
+    "components__common__upload_button_title": "فائلیں منتخب کریں"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "صرف تصویر قسم کی تصاویر اپلوڈ کی جا سکتی ہیں",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "مرتبہ دار پیشہ ورانہ کے لئے بہترین",
     "plan_button__save_with_yearly_plan": "{{PRICE}} سالانہ منصوبے کے ساتھ بچائیں",
     "plan_button__free_status__start_for_free": "مفت شروع کریں"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "یہاں ڈراپ کریں"
   }
 }

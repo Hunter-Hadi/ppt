@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "글쓰기 지원, 웹페이지 요약, ChatPDF 및 AI 그림 그리기까지, MaxAI.me는 ChatGPT, Claude, Gemini 등 최첨단 AI 모델의 도움으로 읽기, 쓰기, 창작을 할 수 있도록 지원합니다. 오늘 바로 MaxAI.me와 함께하여 브라우징 경험을 업그레이드하고 생산성 잠재력을 발휘하세요!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "클릭하여 업로드하거나 드래그 앤 드롭하세요",
     "components__index__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
     "components__to_image_detail__select_all": "모두 선택",
     "components__to_image_detail__deselect_all": "모두 선택 해제",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "암호화되었거나 비정상적이어서 PDF를 조작할 수 없습니다. 건너뛰었습니다.",
-    "components__common__drag__dropping_tip": "드래그 앤 드롭으로 순서를 조정할 수 있습니다."
+    "components__common__drag__dropping_tip": "드래그 앤 드롭으로 순서를 조정할 수 있습니다.",
+    "components__common__upload_button_tips": "또는 파일을 여기에 놓으세요",
+    "components__common__upload_button_title": "파일 선택"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "정예 전문가에게 적합",
     "plan_button__save_with_yearly_plan": "연간 요금제로 {{PRICE}} 절약",
     "plan_button__free_status__start_for_free": "무료로 시작"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "여기에 놓으세요"
   }
 }

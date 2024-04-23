@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "من مساعدة الكتابة وتلخيص صفحات الويب إلى ChatPDF ورسم الذكاء الاصطناعي، يمنحك MaxAI.me القدرة على القراءة والكتابة والإبداع بمساعدة أكثر نماذج الذكاء الاصطناعي تقدمًا، بما في ذلك ChatGPT وClaude وGemini. قم بترقية تجربة التصفح الخاصة بك واستفد من إمكانات إنتاجيتك مع MaxAI.me اليوم!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "انقر للتحميل أو اسحب وأفلت",
     "components__index__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__to_image_detail__select_all": "تحديد الكل",
     "components__to_image_detail__deselect_all": "إلغاء تحديد الكل",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على التلاعب بملف PDF، تم تخطيها",
-    "components__common__drag__dropping_tip": "يمكنك ضبط الترتيب عن طريق سحب وإفلات"
+    "components__common__drag__dropping_tip": "يمكنك ضبط الترتيب عن طريق سحب وإفلات",
+    "components__common__upload_button_tips": "أو اسحب الملفات هنا",
+    "components__common__upload_button_title": "اختر الملفات"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع الصورة فقط",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "الأفضل للمحترفين المتميزين",
     "plan_button__save_with_yearly_plan": "وفّر {{PRICE}} مع خطة سنوية",
     "plan_button__free_status__start_for_free": "ابدأ مجاناً"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "اسحب هنا"
   }
 }

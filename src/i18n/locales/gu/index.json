@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "લેખન મદદ અને વેબપેજ સંક્ષેપણથી ChatPDF અને AI પેંટિંગ સુધી, MaxAI.me તમને એઆઈ-પવર્ડ સૌથી અગ્રગણ્ય મોડલ્સની સહાયથી વાંચવા, લખવા અને બનાવવાની શક્તિ આપે છે. તમારી બ્રાઉઝિંગ અનુભવને અપગ્રેડ કરો અને આજે માટે MaxAI.meની સાથે તમારી ઉત્પાદકતા સામર્થ્યને ખોલો!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "અપલોડ કરવા માટે ક્લિક કરો અથવા ડ્રેગ અને ડ્રોપ કરો",
     "components__index__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઇલ પ્રકાર અપલોડ કરો",
     "components__to_image_detail__select_all": "બધા પસંદ કરો",
     "components__to_image_detail__deselect_all": "બધા પસંદ રદ કરો",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "એન્ક્રિપ્ટ થયેલ છે અથવા અસામાન્ય છે, PDF ને સુધારવામાં અસમર્થ, છોડી દીધું",
-    "components__common__drag__dropping_tip": "આપ ડ્રેગ કરીને ક્રમ સુધારી શકો છો"
+    "components__common__drag__dropping_tip": "આપ ડ્રેગ કરીને ક્રમ સુધારી શકો છો",
+    "components__common__upload_button_tips": "અથવા અહીં ફાઇલો ડ્રોપ કરો",
+    "components__common__upload_button_title": "ફાઇલો પસંદ કરો"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "માત્ર ચિત્ર પ્રકારના ચિત્રો અપલોડ કરી શકાય છે",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "એલિટ વ્યાવસાયિકો માટે સૌથી સારી છે",
     "plan_button__save_with_yearly_plan": "{{PRICE}} સાથે વાર્ષિક યોજનાથી બચાવો",
     "plan_button__free_status__start_for_free": "મફત શરૂ કરો"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "અહીં ડ્રોપ કરો"
   }
 }

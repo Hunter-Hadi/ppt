@@ -754,7 +754,6 @@
     "pdf_tools__pdf_to_html__description": "แปลง PDF เป็น HTML ออนไลน์ฟรี รักษาเลย์เอาต์และแปลงรูปภาพเป็น HTML ไม่มีลายน้ำ ไม่จำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "คลิกเพื่ออัปโหลดหรือลากและวาง",
     "components__to_image_detail__select_all": "เลือกทั้งหมด",
     "components__to_image_detail__deselect_all": "ไม่เลือกทั้งหมด",
     "components__to_image_detail__download_images": "ดาวน์โหลดรูปภาพ",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถจัดการไฟล์ PDF ได้ ข้าม",
-    "components__common__drag__dropping_tip": "คุณสามารถปรับลำดับได้โดยลากและวาง"
+    "components__common__drag__dropping_tip": "คุณสามารถปรับลำดับได้โดยลากและวาง",
+    "components__common__upload_button_tips": "หรือวางไฟล์ที่นี่",
+    "components__common__upload_button_title": "เลือกไฟล์"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "สามารถอัปโหลดภาพเฉพาะชนิดภาพเท่านั้น",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "เหมาะสำหรับผู้ใช้ที่มีความเชี่ยวชาญ",
     "plan_button__save_with_yearly_plan": "ประหยัด {{PRICE}} ด้วยแผนรายปี",
     "plan_button__free_status__start_for_free": "เริ่มต้นฟรี"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "วางที่นี่"
   }
 }

@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Nuo rašymo pagalbos ir tinklalapių santraukos iki ChatPDF ir AI piešimo, „MaxAI.me“ suteikia jums galimybę skaityti, rašyti ir kurti su pažangiausiais dirbtinio intelekto modeliais, įskaitant ChatGPT, Claude ir Gemini. Atnaujinkite naršymo patirtį ir atraskite savo produktyvumo potencialą su „MaxAI.me“ jau šiandien!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Spustelėkite, norėdami įkelti arba vilkite ir paleiskite",
     "components__index__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__to_image_detail__select_all": "Pasirinkti viską",
     "components__to_image_detail__deselect_all": "Atšaukti pasirinkimą",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima manipuliuoti PDF, praleistas",
-    "components__common__drag__dropping_tip": "Galite keisti tvarką vilkdami ir numetę"
+    "components__common__drag__dropping_tip": "Galite keisti tvarką vilkdami ir numetę",
+    "components__common__upload_button_tips": "arba mesti failus čia",
+    "components__common__upload_button_title": "PASIRINKTI FAILUS"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Galima įkelti tik paveikslėlius formato",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Geriausias elitiniams profesionalams",
     "plan_button__save_with_yearly_plan": "Sutaupykite {{PRICE}} su metiniu planu",
     "plan_button__free_status__start_for_free": "Pradėti nemokamai"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Mesti čia"
   }
 }

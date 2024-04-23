@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "От помощи в написании и кратком изложении веб-страниц до ChatPDF и AI-рисования, MaxAI.me дает вам возможность читать, писать и создавать с помощью передовых моделей искусственного интеллекта, включая ChatGPT, Claude и Gemini. Повысьте свой опыт работы в Интернете и раскройте свой потенциал с MaxAI.me уже сегодня!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Нажмите, чтобы загрузить или перетащите",
     "components__index__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
     "components__to_image_detail__select_all": "Выбрать все",
     "components__to_image_detail__deselect_all": "Отменить выбор всех",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "зашифровано или некорректно, невозможно обработать PDF, пропущено",
-    "components__common__drag__dropping_tip": "Вы можете изменить порядок, перетаскивая элементы"
+    "components__common__drag__dropping_tip": "Вы можете изменить порядок, перетаскивая элементы",
+    "components__common__upload_button_tips": "или перетащите файлы сюда",
+    "components__common__upload_button_title": "ВЫБРАТЬ ФАЙЛЫ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можно загружать только изображения типа image",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Лучший для элитных профессионалов",
     "plan_button__save_with_yearly_plan": "Сэкономьте {{PRICE}} с годовым планом",
     "plan_button__free_status__start_for_free": "Начать бесплатно"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Перетащите сюда"
   }
 }

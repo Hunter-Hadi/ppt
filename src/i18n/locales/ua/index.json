@@ -754,7 +754,6 @@
     "pdf_tools__pdf_to_html__description": "Конвертувати PDF в HTML онлайн безкоштовно. Зберегти макет та конвертувати зображення в HTML. Немає водяних знаків, обмежень на розмір файлу, завантажень або реєстрації."
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Клацніть, щоб завантажити або перетягніть",
     "components__to_image_detail__select_all": "Вибрати все",
     "components__to_image_detail__deselect_all": "Скасувати вибір усього",
     "components__to_image_detail__download_images": "Завантажити зображення",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "зашифровано або ненормальне, не можна обробити PDF, пропущено",
-    "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи"
+    "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи",
+    "components__common__upload_button_tips": "або перетягніть файли сюди",
+    "components__common__upload_button_title": "ВИБРАТИ ФАЙЛИ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можна завантажувати лише зображення типу image",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Найкраще для елітних професіоналів",
     "plan_button__save_with_yearly_plan": "Зекономте {{PRICE}} з щорічним планом",
     "plan_button__free_status__start_for_free": "Почати безкоштовно"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Перетягніть сюди"
   }
 }

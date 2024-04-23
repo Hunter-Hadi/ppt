@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Az írási segítségtől és a weboldal összefoglalásától kezdve a ChatPDF-ig és az AI festésig a MaxAI.me lehetővé teszi az olvasást, az írást és a kreativitást a legfejlettebb AI modellek, beleértve a ChatGPT, Claude és Gemini segítségével. Frissítse böngészési élményét és oldja fel termelékenységi potenciálját a MaxAI.me segítségével még ma!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Kattintson a feltöltéshez vagy húzza ide",
     "components__index__unsupported_file_type_tip": "Kérjük, töltse fel a megadott PDF fájltípust",
     "components__to_image_detail__select_all": "Összes kiválasztása",
     "components__to_image_detail__deselect_all": "Összes kijelölésének megszüntetése",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "titkosított vagy rendellenes, a PDF manipulálása nem lehetséges, kihagyva",
-    "components__common__drag__dropping_tip": "A sorrendet húzással és ejtéssel állíthatja be"
+    "components__common__drag__dropping_tip": "A sorrendet húzással és ejtéssel állíthatja be",
+    "components__common__upload_button_tips": "vagy húzd ide a fájlokat",
+    "components__common__upload_button_title": "FÁJLOK KIVÁLASZTÁSA"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Csak képek tölthetők fel",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Legjobb elit szakembereknek",
     "plan_button__save_with_yearly_plan": "Mentés {{PRICE}} éves tervvel",
     "plan_button__free_status__start_for_free": "Ingyenes kezdés"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Húzd ide"
   }
 }

@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "От помощ при писане и резюмиране на уеб страници до ChatPDF и AI рисуване, MaxAI.me ви дава възможност да четете, пишете и създавате с помощта на най-развитите AI модели, включително ChatGPT, Claude и Gemini. Подобрете своето преживяване при сърфиране и отключете вашия потенциал за продуктивност с MaxAI.me днес!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Кликнете, за да качите или плъзнете и пуснете",
     "components__index__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__to_image_detail__select_all": "Избери всички",
     "components__to_image_detail__deselect_all": "Отмени избора на всички",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат",
-    "components__common__drag__dropping_tip": "Можете да промените реда, като ги влачите и пускате"
+    "components__common__drag__dropping_tip": "Можете да промените реда, като ги влачите и пускате",
+    "components__common__upload_button_tips": "или поставете файлове тук",
+    "components__common__upload_button_title": "ИЗБЕРЕТЕ ФАЙЛОВЕ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Могат да бъдат качени само изображения от тип изображение",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Най-добро за елитни професионалисти",
     "plan_button__save_with_yearly_plan": "Спестете {{PRICE}} с годишен план",
     "plan_button__free_status__start_for_free": "Започнете безплатно"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Поставете тук"
   }
 }

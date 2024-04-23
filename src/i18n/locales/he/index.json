@@ -788,7 +788,6 @@
     "more_over_section__description__part2": "מתמיד עזרה בכתיבה וסיכום דפי אינטרנט ועד ChatPDF וציור AI, MaxAI.me מעניק לך את היכולת לקרוא, לכתוב וליצור בעזרת המודלים המתקדמים ביותר, כולל ChatGPT, Claude ו-Gemini. שדרג את חוויית הגלישה שלך ופתח את הפוטנציאל היצירתי שלך עם MaxAI.me היום!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "לחץ כדי להעלות או לגרור ולשחרר",
     "components__index__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__to_image_detail__select_all": "בחר הכל",
     "components__to_image_detail__deselect_all": "בטל בחירת הכל",
@@ -836,7 +835,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לנהל את ה- PDF, דילג",
-    "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור"
+    "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור",
+    "components__common__upload_button_tips": "או שחרר קבצים כאן",
+    "components__common__upload_button_title": "בחר קבצים"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
@@ -925,5 +926,8 @@
     "payment_info__elite_desc": "מתאים למקצוענים מצוינים",
     "plan_button__save_with_yearly_plan": "חסוך {{PRICE}} עם תוכנית שנתית",
     "plan_button__free_status__start_for_free": "התחל בחינם"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "שחרר כאן"
   }
 }

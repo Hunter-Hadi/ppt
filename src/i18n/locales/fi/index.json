@@ -789,7 +789,6 @@
     "more_over_section__description__part2": "Kirjoitusavusta ja sivun tiivistelmistä ChatPDF:ään ja AI-maalaukseen, MaxAI.me antaa sinulle mahdollisuuden lukea, kirjoittaa ja luoda edistyksellisten tekoälymallien, kuten ChatGPT, Claude ja Gemini, avulla. Päivitä selauskokemuksesi ja vapauta tuottavuutesi potentiaali MaxAI.me:n avulla jo tänään!"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Klikkaa ladataksesi tai raahaa ja pudota",
     "components__index__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
     "components__to_image_detail__select_all": "Valitse kaikki",
     "components__to_image_detail__deselect_all": "Poista valinnat",
@@ -837,7 +836,9 @@
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "on salattu tai poikkeava, PDF-tiedostoa ei voi käsitellä, ohitettu",
-    "components__common__drag__dropping_tip": "Voit säätää järjestystä vetämällä ja pudottamalla"
+    "components__common__drag__dropping_tip": "Voit säätää järjestystä vetämällä ja pudottamalla",
+    "components__common__upload_button_tips": "tai pudota tiedostot tähän",
+    "components__common__upload_button_title": "VALITSE TIEDOSTOT"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Vain kuvatyyppiset kuvat voidaan ladata",
@@ -926,5 +927,8 @@
     "payment_info__elite_desc": "Paras huippuammattilaisille",
     "plan_button__save_with_yearly_plan": "Säästä {{PRICE}} vuosittaisella suunnitelmalla",
     "plan_button__free_status__start_for_free": "Aloita ilmaiseksi"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Pudota tähän"
   }
 }
