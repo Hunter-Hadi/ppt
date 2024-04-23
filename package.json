@@ -40,6 +40,7 @@
     "file-saver": "^2.0.5",
     "heic2any": "^0.0.4",
     "i18next": "^23.6.0",
+    "imagetracerjs": "^1.2.6",
     "inquirer": "^9.2.17",
     "isomorphic-unfetch": "^4.0.2",
     "jszip": "^3.10.1",

@@ -112,6 +112,7 @@ export const FunctionalitySignPdfDetail: FC<
           width: '100%',
         }}
       >
+        {/* pdf显示视图 */}
         <Box
           ref={dndDragRef}
           sx={{
@@ -128,6 +129,7 @@ export const FunctionalitySignPdfDetail: FC<
             signaturePositions={signaturePositions}
           />
         </Box>
+        {/* 签名操作视图 */}
         <Box
           sx={{
             width: 260,
@@ -149,6 +151,7 @@ export const FunctionalitySignPdfDetail: FC<
           </Box>
         </Box>
       </Stack>
+      {/* 下面是拖动替身 */}
       {activeDragData && (
         <DragOverlay
           style={{

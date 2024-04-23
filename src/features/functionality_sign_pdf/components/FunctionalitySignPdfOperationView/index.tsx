@@ -1,13 +1,10 @@
 import { useDraggable } from '@dnd-kit/core';
 import { Box, Stack } from '@mui/material';
-import { cloneDeep } from 'lodash-es';
+import Head from 'next/head';
 import { FC, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
-import FunctionalitySignPdfSignatureModal, {
-  ISignatureType,
-} from './components/FunctionalitySignPdfSignatureModal';
-import FunctionalitySignPdfSignTool from './components/FunctionalitySignPdfSignatureView';
+import FunctionalitySignPdfSignatureView from './components/FunctionalitySignPdfSignatureView';
 
 export const FunctionalitySignPdfOperationDraggable: FC<{
   id: string;
@@ -33,48 +30,33 @@ interface IFunctionalitySignPdfOperationView {}
 const FunctionalitySignPdfOperationView: FC<
   IFunctionalitySignPdfOperationView
 > = () => {
-  const currentIndex = 0;
-  const [open, setOpen] = useState(false);
+  const [setOpen] = useState(false);
 
-  const [signatureViewList, setSignatureViewList] = useState<
-    {
-      type: string;
-      valueList: string[];
-    }[]
-  >([
-    {
-      type: 'input',
-      valueList: [],
-    },
-  ]);
-  const onCreateSignatureValue = (type: ISignatureType, value: string) => {
-    //只做了第一个显示
-    signatureViewList[currentIndex] = {
-      type: 'input',
-      // valueList: [...signatureViewList[currentIndex].valueList, value],
-      valueList: [value], //测试demo写死
-    };
-    setSignatureViewList(cloneDeep(signatureViewList));
-  };
   return (
     <Stack flexDirection='column'>
-      <Box
-        onClick={() => {
-          console.log('open');
-          setOpen(true);
-        }}
-      >
-        <FunctionalitySignPdfSignTool
-          dragId={'draggable-one'}
-          valueList={signatureViewList[currentIndex].valueList}
+      <Head>
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link
+          rel='preconnect'
+          href='https://fonts.gstatic.com'
+          crossOrigin='true'
         />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap'
+          rel='stylesheet'
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=La+Belle+Aurore&display=swap'
+          rel='stylesheet'
+        ></link>
+        <link
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&display=swap'
+          rel='stylesheet'
+        ></link>
+      </Head>
+      <Box>
+        <FunctionalitySignPdfSignatureView dragId={'draggable-one'} />
       </Box>
-      {open && (
-        <FunctionalitySignPdfSignatureModal
-          onClose={() => setOpen(false)}
-          onCreate={onCreateSignatureValue}
-        />
-      )}
     </Stack>
   );
 };

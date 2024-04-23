@@ -1,9 +1,17 @@
-import { Box, Button, Modal, Stack, Tab, Tabs, TextField } from '@mui/material';
-import { FC, useState } from 'react';
+import { Box, Button, Modal, Stack, Tab, Tabs } from '@mui/material';
+import { FC, useRef, useState } from 'react';
 
 import { textToBase64Image } from '@/features/functionality_sign_pdf/utils/toBase64';
 
-import FunctionalitySignPdfSignaturePad from './FunctionalitySignPdfSignaturePad';
+import FunctionalitySignPdfSignaturePad, {
+  IFunctionalitySignPdfSignaturePadHandles,
+} from './FunctionalitySignPdfSignaturePad';
+import FunctionalitySignPdfSignatureType, {
+  IFunctionalitySignPdfSignatureTypeHandles,
+} from './FunctionalitySignPdfSignatureType';
+import FunctionalitySignPdfSignatureUpload, {
+  IFunctionalitySignPdfSignatureUploadHandles,
+} from './FunctionalitySignPdfSignatureUpload';
 const style = {
   position: 'absolute' as 'absolute',
   top: '50%',
@@ -25,8 +33,12 @@ const FunctionalitySignPdfSignatureModal: FC<
   IFunctionalitySignPdfSignModalProps
 > = ({ onClose, onCreate }) => {
   const [tabValue, setTabValue] = useState<ISignatureType>('type');
-  const [typeInputVal, setTypeInputVal] = useState('');
-
+  const signaturePadRef =
+    useRef<IFunctionalitySignPdfSignaturePadHandles | null>(null);
+  const signatureTypeRef =
+    useRef<IFunctionalitySignPdfSignatureTypeHandles | null>(null);
+  const signatureUploadRef =
+    useRef<IFunctionalitySignPdfSignatureUploadHandles | null>(null);
   const handleChange = (
     event: React.SyntheticEvent,
     newValue: ISignatureType,
@@ -35,16 +47,23 @@ const FunctionalitySignPdfSignatureModal: FC<
   };
   const onConfirm = () => {
     if (tabValue === 'type') {
-      const imageString = textToBase64Image(typeInputVal, 80);
+      const inputVal = signatureTypeRef.current?.getTextVal();
+      if (inputVal) {
+        const imageString = textToBase64Image(inputVal, 80);
+        if (imageString) {
+          onCreate(tabValue, imageString);
+        }
+      }
+    } else if (tabValue === 'draw') {
+      const imageString = signaturePadRef.current?.getPngBase64();
       if (imageString) {
         onCreate(tabValue, imageString);
       }
-    } else if (tabValue === 'draw') {
-      const canvas = document.getElementById(
-        'functionality-sign-pdf-signature-pad',
-      ) as HTMLCanvasElement;
-      const imageString = canvas.toDataURL();
-      onCreate(tabValue, imageString);
+    } else if (tabValue === 'upload') {
+      const imageString = signatureUploadRef.current?.getPngBase64();
+      if (imageString) {
+        onCreate(tabValue, imageString);
+      }
     }
   };
   return (
@@ -73,26 +92,19 @@ const FunctionalitySignPdfSignatureModal: FC<
         >
           {tabValue === 'draw' && (
             <Box>
-              <FunctionalitySignPdfSignaturePad />
+              <FunctionalitySignPdfSignaturePad ref={signaturePadRef} />
             </Box>
           )}
           {tabValue === 'type' && (
             <Box>
-              <TextField
-                placeholder='Enter signature'
-                fullWidth
-                value={typeInputVal}
-                onChange={(e) => setTypeInputVal(e.target.value)}
-                sx={{
-                  '.MuiInputBase-root': {
-                    height: 150,
-                    fontSize: 50,
-                  },
-                }}
-              />
+              <FunctionalitySignPdfSignatureType ref={signatureTypeRef} />
             </Box>
           )}
-          {tabValue === 'upload' && <Box>3</Box>}
+          {tabValue === 'upload' && (
+            <Box>
+              <FunctionalitySignPdfSignatureUpload ref={signatureUploadRef} />
+            </Box>
+          )}
         </Box>
         <Stack
           sx={{

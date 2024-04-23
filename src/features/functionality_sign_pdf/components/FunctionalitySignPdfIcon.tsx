@@ -1,4 +1,9 @@
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import RefreshIcon from '@mui/icons-material/Refresh';
+import ReplayIcon from '@mui/icons-material/Replay';
 import { SvgIconProps } from '@mui/material';
 import { FC } from 'react';
 
@@ -14,6 +19,21 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
     switch (name) {
       case 'DragIndicator': {
         return <DragIndicatorIcon {...restProps} />;
+      }
+      case 'ArrowDropDown': {
+        return <ArrowDropDownIcon {...restProps} />;
+      }
+      case 'Replay': {
+        return <ReplayIcon {...restProps} />;
+      }
+      case 'Refresh': {
+        return <RefreshIcon {...restProps} />;
+      }
+      case 'KeyboardArrowDown': {
+        return <KeyboardArrowDownIcon {...restProps} />;
+      }
+      case 'DeleteForeverOutlined': {
+        return <DeleteForeverOutlinedIcon {...restProps} />;
       }
       default: {
         return null;
