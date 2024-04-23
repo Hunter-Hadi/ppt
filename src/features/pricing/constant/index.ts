@@ -63,18 +63,18 @@ export const PLAN_USAGE_QUERIES: Record<
   },
   basic: {
     fast_text: 3000,
-    advanced_text: 100,
-    image: 200,
+    advanced_text: 60,
+    image: 80,
   },
   basic_team: {
     fast_text: 3000,
-    advanced_text: 100,
-    image: 200,
+    advanced_text: 60,
+    image: 80,
   },
   basic_yearly: {
     fast_text: 3000,
-    advanced_text: 100,
-    image: 200,
+    advanced_text: 60,
+    image: 80,
   },
   pro: {
     fast_text: 10000,
