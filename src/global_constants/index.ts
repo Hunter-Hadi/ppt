@@ -5,6 +5,8 @@ export const API_VERSION = '1';
 export const USER_AGENT = 'simply node ssr 1.0';
 export const GUEST_USER_MODE = 'GUEST_USER_MODE';
 
+export APP_IS_PROD = process.env.NEXT_PUBLIC_ENV === 'pro';
+
 // External Links
 export const APP_EXTERNAL_LINKS = {
   QUORA: 'https://www.quora.com/profile/Simply-Trends',

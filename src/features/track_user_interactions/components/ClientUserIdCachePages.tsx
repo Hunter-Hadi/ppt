@@ -1,6 +1,9 @@
 import React, { FC, useEffect, useState } from 'react';
 
-import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
+import {
+  getClientUserId,
+  setClientUserId,
+} from '@/features/track_user_interactions/utils';
 
 interface IProps {
   targetHost: string;
@@ -37,7 +40,8 @@ const ClientUserIdCachePages: FC<IProps> = ({ targetHost }) => {
           case 'MAXAI_CLIENT_USER_ID_CACHE': {
             if (data.data.clientUserId) {
               const clientUserId = data.data.clientUserId;
-              setLocalStorage('CLIENT_USER_ID', clientUserId);
+              setClientUserId(clientUserId);
+
               setWillCacheClientUserId(clientUserId);
               event.source.postMessage(
                 {
@@ -51,7 +55,7 @@ const ClientUserIdCachePages: FC<IProps> = ({ targetHost }) => {
 
           // 告诉父页面当前的 clientUserId
           case 'MAXAI_GET_CLIENT_USER_ID': {
-            const clientUserId = getLocalStorage('CLIENT_USER_ID');
+            const clientUserId = getClientUserId();
             setWillCacheClientUserId(clientUserId);
             event.source.postMessage(
               {
