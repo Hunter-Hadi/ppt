@@ -112,11 +112,11 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   },
   "sign-pdf": {
     icon: 'CropOriginal',
-    title: 'not_i18:sign-pdf',
+    title: 'pages:tools__index_page__constant_obj__sign_pdf__title',
     description:
-      'not_i18:sign-pdf',
+      'pages:tools__index_page__constant_obj__sign_pdf__main_description',
     secondaryDescription:
-      'not_i18:sign-pdf',
+      'pages:tools__index_page__constant_obj__sign_pdf__secondary_description',
     urlKey: routerChildrens['sign-pdf'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,

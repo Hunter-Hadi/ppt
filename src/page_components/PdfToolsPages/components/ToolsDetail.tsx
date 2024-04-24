@@ -91,8 +91,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__pdf_to_html__description'),
     },
     'sign-pdf': {
-      title: 'not_i18:sign-pdf',
-      description: 'not_i18:sign-pdf',
+      title: t('seo:pdf_tools__sign_pdf__title'),
+      description: t('seo:pdf_tools__sign_pdf__description'),
     },
   };
   const toolsDetailDescriptionData = toolsDetailDescriptionObject[urlKey];

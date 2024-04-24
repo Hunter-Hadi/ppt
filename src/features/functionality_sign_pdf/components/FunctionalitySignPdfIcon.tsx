@@ -1,5 +1,8 @@
 import AbcIcon from '@mui/icons-material/Abc';
+import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
 import CheckIcon from '@mui/icons-material/Check';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
@@ -7,9 +10,12 @@ import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import RefreshIcon from '@mui/icons-material/Refresh';
+import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined';
 import ReplayIcon from '@mui/icons-material/Replay';
 import TextFieldsIcon from '@mui/icons-material/TextFields';
 import TitleIcon from '@mui/icons-material/Title';
+import ZoomInMapOutlinedIcon from '@mui/icons-material/ZoomInMapOutlined';
+import ZoomOutMapOutlinedIcon from '@mui/icons-material/ZoomOutMapOutlined';
 import { SvgIconProps } from '@mui/material';
 import { FC } from 'react';
 
@@ -58,6 +64,31 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'Check': {
         return <CheckIcon {...restProps} />;
+      }
+      case 'ArrowBackIos': {
+        return <ArrowBackIosIcon {...restProps} />;
+      }
+      case 'ArrowForwardIos': {
+        return <ArrowForwardIosIcon {...restProps} />;
+      }
+      case 'ZoomInMapOutlined': {
+        return <ZoomInMapOutlinedIcon {...restProps} />;
+      }
+      case 'ZoomOutMapOutlined': {
+        return <ZoomOutMapOutlinedIcon {...restProps} />;
+      }
+
+      case 'ZoomInMapOutlined': {
+        return <ZoomInMapOutlinedIcon {...restProps} />;
+      }
+      case 'ZoomOutMapOutlined': {
+        return <ZoomOutMapOutlinedIcon {...restProps} />;
+      }
+      case 'AddCircleOutlineOutlined': {
+        return <AddCircleOutlineOutlinedIcon {...restProps} />;
+      }
+      case 'RemoveCircleOutlineOutlined': {
+        return <RemoveCircleOutlineOutlinedIcon {...restProps} />;
       }
       default: {
         return null;

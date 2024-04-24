@@ -420,6 +420,10 @@
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF to HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Convert a PDF to HTML while keeping layout structure and images",
 
+    "tools__index_page__constant_obj__sign_pdf__title": "Sign PDF",
+    "tools__index_page__constant_obj__sign_pdf__main_description": "Free online PDF signature",
+    "tools__index_page__constant_obj__sign_pdf__secondary_description": "Online free localized PDF signature to protect your privacy.",
+
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",
@@ -508,6 +512,29 @@
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Adjust the size, orientation, and margin as needed.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Click “Create PDF now!” and we'll start converting.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "That's all! Save the converted PDF to your device.",
+
+    "pdf_tools__detail_description_object__sign_pdf__top_left": "Effortlessly sign PDF documents online for free. Our PDF signer allows you to add your signature directly within your browser, ensuring your documents remain private and secure without the need for uploading.",
+    "pdf_tools__detail_description_object__sign_pdf__top_right_1": "Sign documents without the wait",
+    "pdf_tools__detail_description_object__sign_pdf__top_right_2": "Local browser processing, no uploads required",
+    "pdf_tools__detail_description_object__sign_pdf__top_right_3": "Secure, private, and completely free",
+    "pdf_tools__detail_description_object__sign_pdf__middle_1_title": "Quick PDF Signing in Just a Few Clicks",
+    "pdf_tools__detail_description_object__sign_pdf__middle_1_description": "Add your signature to any PDF effortlessly. Our tool enables you to draw or upload your signature, then place it within your document. Modify its size and position to perfectly match your needs—all in just a few clicks.",
+    "pdf_tools__detail_description_object__sign_pdf__middle_2_title": "Secure Local Processing",
+    "pdf_tools__detail_description_object__sign_pdf__middle_2_description": "When you sign a PDF using our tool, everything happens in your browser. This means your documents are never uploaded to the cloud, ensuring they remain entirely private and secure.",
+    "pdf_tools__detail_description_object__sign_pdf__middle_3_title": "Compatible Across Devices",
+    "pdf_tools__detail_description_object__sign_pdf__middle_3_description": "No matter the device or operating system—Windows, Mac, Linux, iOS, or Android—our PDF signing tool is accessible. Sign your PDF documents anywhere, anytime, all you need is a web browser.",
+    "pdf_tools__detail_description_object__sign_pdf__middle_4_title": "Flexible Signature Options",
+    "pdf_tools__detail_description_object__sign_pdf__middle_4_description": "Our tool supports both drawing your signature directly in the browser or uploading an image of your signature. This flexibility ensures you can choose the method that best suits your preference.",
+    "pdf_tools__detail_description_object__sign_pdf__middle_5_title": "Totally Free to Use",
+    "pdf_tools__detail_description_object__sign_pdf__middle_5_description": "Avoid expensive e-signature software with our free PDF signing tool. Suitably designed for both occasional and frequent users, our service provides unlimited, charge-free signatures.",
+    "pdf_tools__detail_description_object__sign_pdf__middle_6_title": "Instant PDF Document Signing",
+    "pdf_tools__detail_description_object__sign_pdf__middle_6_description": "Our straightforward interface allows for immediate signing, no waiting required. Once signed, download your document straightaway, ensuring a smooth and efficient process.",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_left_icon_name": "HistoryEdu",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_title": "How To Sign a PDF Online:",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Open your PDF in the PDF Signer.",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Draw or upload your signature.",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Adjust the signature's size and position as needed.",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Download your signed PDF, all set and secure.",
 
     "pdf_tools__detail_page__more_pdf_tools": "More Free Online PDF Tools"
   },
@@ -881,7 +908,10 @@
     "pdf_tools__heic_to_pdf__description": "Convert HEIC images to PDF online for free. Converter turns any HEIC image file into a customized PDF file. No watermarks, file size limits, downloads, or sign-ups required.",
 
     "pdf_tools__pdf_to_html__title": "PDF to HTML - Convert PDF Files to HTML Online for Free | MaxAI.me",
-    "pdf_tools__pdf_to_html__description": "Convert PDF to HTML online for free. Maintain layout and convert images to HTML. No watermarks, file size limits, downloads, or sign-ups required."
+    "pdf_tools__pdf_to_html__description": "Convert PDF to HTML online for free. Maintain layout and convert images to HTML. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__sign_pdf__title": "Signing PDF - Adding Digital Signature to PDF Files Locally for Free | MaxAI.me",
+    "pdf_tools__sign_pdf__description": "Easily add digital signatures to PDF files for free and secure on local devices, ensuring maximum privacy and security. No watermark, file size limit, download or registration required."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

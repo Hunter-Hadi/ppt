@@ -2,12 +2,14 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 
 import { useDroppable } from '@dnd-kit/core';
-import { Box } from '@mui/material';
-import { FC, useEffect, useState } from 'react';
+import { Box, Stack } from '@mui/material';
+import { FC, useEffect, useRef, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
+import { useFunctionalitySignElementWidth } from '../../hooks/use';
 import { ISignData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfRenderCanvas from './components/FunctionalitySignPdfRenderCanvas';
+import FunctionalitySignPdfRenderTools from './components/FunctionalitySignPdfRenderTools';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -45,6 +47,13 @@ export const FunctionalitySignPdfShowPdfView: FC<
 > = ({ file, signaturePositions }) => {
   //PDF的页数
   const [numPages, setNumPages] = useState<number>();
+  const defaultWidth = useRef(700);
+  const [fixedWidthSize, setFixedWidthSize] = useState<number>(
+    defaultWidth.current,
+  );
+
+  const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(false);
+  const { ref, width } = useFunctionalitySignElementWidth();
   const [pagesInfoList, setPagesInfoList] = useState<
     {
       width: number;
@@ -74,15 +83,38 @@ export const FunctionalitySignPdfShowPdfView: FC<
       ]);
     }
   };
+  const onSelfAdaption = () => {
+    if (!isSelfAdaption) {
+      setFixedWidthSize(defaultWidth.current);
+    }
+    setIsSelfAdaption(!isSelfAdaption);
+  };
+  const onChangeSize = (type: 'reduce' | 'add') => {
+    console.log('simply type', type);
+    if (isSelfAdaption) {
+      setFixedWidthSize(width);
+      setIsSelfAdaption(false);
+    }
+    if (type === 'reduce') {
+      setFixedWidthSize((width) => width - 50);
+    } else {
+      setFixedWidthSize((width) => width + 50);
+    }
+  };
   return (
-    <Box
+    <Stack
+      ref={ref}
       sx={{
         width: '100%',
+        position: 'relative',
+        height: '100%',
       }}
+      alignItems='center'
     >
       <Box
         sx={{
-          p: 4,
+          p: isSelfAdaption ? '0' : 4,
+          width: isSelfAdaption ? width : fixedWidthSize,
         }}
       >
         <Document
@@ -133,7 +165,28 @@ export const FunctionalitySignPdfShowPdfView: FC<
           ))}
         </Document>
       </Box>
-    </Box>
+      <Stack
+        direction='row'
+        justifyContent='center'
+        sx={{
+          position: 'absolute',
+          margin: '0 auto',
+          padding: 1,
+          bottom: 0,
+          left: 0,
+          right: 0,
+          p: 1,
+          zIndex: 99,
+        }}
+      >
+        <FunctionalitySignPdfRenderTools
+          isSelfAdaption={isSelfAdaption}
+          onSelfAdaption={onSelfAdaption}
+          onReduceSize={() => onChangeSize('reduce')}
+          onAddSize={() => onChangeSize('add')}
+        />
+      </Stack>
+    </Stack>
   );
 };
 export default FunctionalitySignPdfShowPdfView;
