@@ -25,7 +25,7 @@ const initMixPanel = () => {
 export const useInitMixPanel = () => {
   useEffectOnce(() => {
     initMixPanel();
-    const clientUserId = getClientUserId() || 'qqq';
+    const clientUserId = getClientUserId();
     if (clientUserId) {
       // Set this to a unique identifier for the user performing the event.
       mixpanelIdentify('identify', clientUserId);
