@@ -9,7 +9,8 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
   disabled?: boolean;
   children: React.ReactNode;
   data?: { type: string; value?: string };
-}> = ({ id, data, children, disabled }) => {
+  onClick?: () => void;
+}> = ({ id, data, children, disabled, onClick }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,
     data: { id: id, ...data },
@@ -31,9 +32,21 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
           borderImage: 'initial',
           borderRadius: 1,
           cursor: 'pointer',
+          '&:hover': {
+            boxShadow: '#1a1a1a33 0px 0px 12px',
+          },
         }}
       >
-        <FunctionalitySignPdfIcon color='primary' name='DragIndicator' />
+        <Stack
+          direction='row'
+          alignItems='center'
+          sx={{
+            height: '100%',
+          }}
+          onClick={onClick}
+        >
+          <FunctionalitySignPdfIcon color='primary' name='DragIndicator' />
+        </Stack>
         {children}
       </Stack>
     </Box>

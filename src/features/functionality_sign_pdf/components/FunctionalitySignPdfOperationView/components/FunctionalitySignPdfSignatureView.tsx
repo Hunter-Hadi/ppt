@@ -22,7 +22,7 @@ const FunctionalitySignPdfSignatureView: FC<
   const [currentShowIndex, setCurrentShowIndex] = useState(0);
   const isActiveCurrent = useRef(false);
 
-  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
+  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null); //Popover
   const showImgValue = useMemo(
     () => signatureViewList[currentShowIndex],
     [signatureViewList, currentShowIndex],
@@ -82,12 +82,15 @@ const FunctionalitySignPdfSignatureView: FC<
     <FunctionalitySignPdfOperationDraggableView
       id={dragId}
       data={{ type: 'base64', value: showImgValue }}
+      onClick={() => setModalOpen(true)}
     >
       {!isHaveValue && (
         <Stack
           direction='row'
           flex={1}
           px={1}
+          height='100%'
+          alignItems='center'
           justifyContent='space-between'
           onClick={() => setModalOpen(true)}
         >
@@ -215,6 +218,7 @@ const FunctionalitySignPdfSignatureView: FC<
       </Popover>
       {modalOpen && (
         <FunctionalitySignPdfSignatureModal
+          modalOpen={modalOpen}
           onClose={() => setModalOpen(false)}
           onCreate={onCreateSignatureValue}
         />

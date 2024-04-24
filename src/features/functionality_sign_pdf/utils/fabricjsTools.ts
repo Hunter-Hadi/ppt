@@ -1,7 +1,7 @@
 import { FabricJSEditor } from "fabricjs-react";
 
 //复制操作
-export const copySelectedObject = (editor: FabricJSEditor) => {
+export const copyFabricSelectedObject = (editor: FabricJSEditor) => {
 
     const canvas = editor?.canvas;
     const activeObject = canvas.getActiveObject();
@@ -43,7 +43,7 @@ export const copySelectedObject = (editor: FabricJSEditor) => {
     });
 };
 //变更图片颜色
-export const onChangeImageColor = (editor: FabricJSEditor, color) => {
+export const onChangeFabricColor = (editor: FabricJSEditor, color) => {
     const canvas = editor?.canvas;
     const activeObject = canvas.getActiveObject();
     console.log('activeObject', activeObject, activeObject.type)
@@ -106,20 +106,9 @@ export const onChangeImageColor = (editor: FabricJSEditor, color) => {
             // Manually trigger the onload if the image is already loaded
             activeObject.getElement().onload();
         }
-    } else if (activeObject && activeObject.type === 'i-text') {
+    } else if (activeObject && activeObject.type === 'textbox') {
         // 处理文本颜色变更
-        console.log('Selected object is a text');
-        switch (color) {
-            case 'black':
-                activeObject.set('fill', 'rgb(0,0,0)');
-                break;
-            case 'red':
-                activeObject.set('fill', 'rgb(255,0,0)');
-                break;
-            case 'blue':
-                activeObject.set('fill', 'rgb(0,0,255)');
-                break;
-        }
+        activeObject.set('fill', color);
         canvas.renderAll(); // 更新画布以显示颜色变更
 
     }

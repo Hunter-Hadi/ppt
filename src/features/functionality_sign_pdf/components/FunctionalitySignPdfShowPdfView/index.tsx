@@ -54,7 +54,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
   );
 
   const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(false);
-  const { ref, width } = useFunctionalitySignElementWidth();
+  const { ref, width: parentWidth } = useFunctionalitySignElementWidth();
   const {
     setPageRef,
     currentPage,
@@ -67,7 +67,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
       width: number;
       height: number;
     }[]
-  >([]);
+  >([]); //pdf的初始页面宽度
 
   // 用来存储宽度的state
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
@@ -94,11 +94,12 @@ export const FunctionalitySignPdfShowPdfView: FC<
     if (!isSelfAdaption) {
       setFixedWidthSize(defaultWidth.current);
     }
+    console.log('simply parentWidth', parentWidth);
     setIsSelfAdaption(!isSelfAdaption);
   };
   const onChangeSize = (type: 'reduce' | 'add') => {
     if (isSelfAdaption) {
-      setFixedWidthSize(width);
+      setFixedWidthSize(parentWidth - 15);
       setIsSelfAdaption(false);
     }
     if (type === 'reduce') {
@@ -138,10 +139,10 @@ export const FunctionalitySignPdfShowPdfView: FC<
       >
         <Box
           sx={{
-            px: isSelfAdaption ? '0' : 4,
-            py: isSelfAdaption ? '0' : 6,
-
-            width: isSelfAdaption ? width : fixedWidthSize,
+            px: isSelfAdaption ? 0 : 4,
+            py: isSelfAdaption ? 0 : 6,
+            pb: 8,
+            width: isSelfAdaption ? parentWidth - 15 : fixedWidthSize, //-15是因为滚动条导致的横向滚动条出现
             margin: '0 auto',
           }}
         >
@@ -210,6 +211,13 @@ export const FunctionalitySignPdfShowPdfView: FC<
           right: 0,
           p: 1,
           zIndex: 99,
+          width: '100%',
+          height: 60,
+          '&:hover': {
+            '>div': {
+              display: 'flex',
+            },
+          },
         }}
       >
         <Stack
@@ -218,6 +226,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
           gap={1}
           sx={{
             bgcolor: '#ffffff',
+            display: 'none',
             p: 1,
             borderRadius: 2,
           }}
@@ -231,7 +240,12 @@ export const FunctionalitySignPdfShowPdfView: FC<
           </IconButton>
           <TextField
             onKeyDown={onTextInputKeyDown}
-            sx={{ width: 50, textAlign: 'center' }}
+            sx={{
+              width: 50,
+              ' input': {
+                textAlign: 'center',
+              },
+            }}
             hiddenLabel
             key={currentPage}
             defaultValue={currentPage + 1}

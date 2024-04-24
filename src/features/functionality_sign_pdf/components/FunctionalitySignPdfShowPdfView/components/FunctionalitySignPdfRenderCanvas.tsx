@@ -1,16 +1,10 @@
-import { Box, Button, ButtonGroup, Stack } from '@mui/material';
+import { Box } from '@mui/material';
 import { fabric } from 'fabric';
 import { FabricJSCanvas, useFabricJSEditor } from 'fabricjs-react';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
-import {
-  copySelectedObject,
-  onChangeImageColor,
-} from '@/features/functionality_sign_pdf/utils/fabricjsTools';
-
 import { ISignData } from '../../FunctionalitySignPdfDetail';
-import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfColorButtonPopover from '../../FunctionalitySignPdfOperationView/components/FunctionalitySignPdfColorButtonPopover';
+import { FunctionalitySignTextTools } from './FunctionalitySignTextTools';
 
 interface IFunctionalitySignPdfShowPdfCanvasProps {
   renderList: ISignData[];
@@ -68,7 +62,7 @@ const FunctionalitySignPdfRenderCanvas: FC<
         setControlDiv({
           display: 'block',
           left: object.left,
-          top: object.top - 45,
+          top: object.top,
         });
       } else {
         setControlDiv({
@@ -92,11 +86,11 @@ const FunctionalitySignPdfRenderCanvas: FC<
         }
       });
 
-      // 对象移动监听 - 保证操作div跟随移动
       editor.canvas.on('object:moving', function (e) {
-        // console.log('simply object:moving', e);
-        handleObjectSelected(e.target);
+        // 对象移动监听 - 保证操作div跟随移动
 
+        handleObjectSelected(e.target);
+        //保持移动不出画布
         let padding = 0; // 内容距离画布的空白宽度，主动设置
         var obj = e.target;
         if (
@@ -225,26 +219,18 @@ const FunctionalitySignPdfRenderCanvas: FC<
             editor.canvas.add(fabricImage);
           };
         } else if (signaturePosition.data.type === 'text') {
-          const text = new fabric.IText(
-            signaturePosition.data.value,
-            positionData,
-          );
+          const text = new fabric.Textbox(signaturePosition.data.value, {
+            ...positionData,
+            minScaleLimit: 1,
+            maxScaleLimit: 1,
+          });
           text.uniqueKey = signaturePosition.id;
           editor.canvas.add(text);
         }
       });
     }
   }, [newRenderList, editor]);
-  const onChangeColor = (color) => {
-    if (editor) {
-      onChangeImageColor(editor, color);
-    }
-  };
-  const onCopySelectedObject = () => {
-    if (editor) {
-      copySelectedObject(editor);
-    }
-  };
+
   return (
     <Box
       sx={{
@@ -268,33 +254,10 @@ const FunctionalitySignPdfRenderCanvas: FC<
           onReady={onReady}
         />
         {selectedObjects?.length === 1 && (
-          <Stack
-            sx={{
-              position: 'absolute',
-              width: 200,
-              display: controlDiv.display,
-              left: controlDiv.left,
-              top: controlDiv.top,
-            }}
-          >
-            <ButtonGroup
-              variant='outlined'
-              sx={{
-                bgcolor: '#fafafa',
-              }}
-              aria-label='Basic button group'
-            >
-              <FunctionalitySignPdfColorButtonPopover
-                onSelectedColor={onChangeColor}
-              />
-              <Button onClick={onCopySelectedObject}>
-                <FunctionalitySignPdfIcon name='ContentCopy' />
-              </Button>
-              <Button onClick={() => editor?.deleteSelected()}>
-                <FunctionalitySignPdfIcon name='DeleteForeverOutlined' />
-              </Button>
-            </ButtonGroup>
-          </Stack>
+          <FunctionalitySignTextTools
+            controlDiv={{ ...controlDiv, scaleFactor }}
+            editor={editor}
+          />
         )}
       </Box>
     </Box>

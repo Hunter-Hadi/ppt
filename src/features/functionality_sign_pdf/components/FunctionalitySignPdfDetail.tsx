@@ -58,10 +58,7 @@ export const FunctionalitySignPdfDetail: FC<
       );
       const droppableElement = document.getElementById(active.id as string);
       const activeRect = droppableElement?.getBoundingClientRect();
-      let distanceParentTop = 0;
-      if (rollingView) {
-        distanceParentTop = rollingView?.scrollTop || 0;
-      }
+
       const signaturePositionData = {
         width: over.rect.width,
         height: over.rect.height,
@@ -80,10 +77,18 @@ export const FunctionalitySignPdfDetail: FC<
         over.rect.width +
         over.rect.left -
         (activeRect?.left || 0) -
-        (activeRect?.width || 0) / 2;
+        (activeRect?.width || 0) / 2; //拖动和放置 div之间的距离
       const newSignaturePosition = {
-        x: over.rect.width + delta.x - distanceX, //左边的宽度➕鼠标移动的距离
-        y: (activeRect?.top || 0) - over.rect.top + delta.y - distanceParentTop, //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
+        x:
+          over.rect.width +
+          delta.x -
+          distanceX -
+          (rollingView?.scrollLeft || 0), //左边的宽度➕鼠标移动的距离-相差的距离-滚动条的距离
+        y:
+          (activeRect?.top || 0) -
+          over.rect.top +
+          delta.y -
+          (rollingView?.scrollTop || 0), //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
         ...signaturePositionData,
       };
       signaturePositions.push(newSignaturePosition);
@@ -91,11 +96,9 @@ export const FunctionalitySignPdfDetail: FC<
       setSignaturePositions(cloneDeep(signaturePositions));
     }
   };
-  const onDragMove = (event) => {
-    console.log('simply onDragMove', event);
-  };
+
   const onDragStart = (event) => {
-    console.log('simply onDragStart', event);
+    console.log('simply onDragStart', event, event.clientX);
     setActiveDragData(event.active.data.current);
   };
   const onPdfAddView = () => {
@@ -113,7 +116,6 @@ export const FunctionalitySignPdfDetail: FC<
     <DndContext
       sensors={sensors}
       onDragStart={onDragStart}
-      onDragMove={onDragMove}
       onDragEnd={handleDragEnd}
     >
       <Stack
@@ -170,7 +172,8 @@ export const FunctionalitySignPdfDetail: FC<
             flexDirection: 'column',
             alignItems: 'center',
             cursor: 'grabbing',
-            border: '1px solid #e8e8e8',
+            border: '1px dotted #e8e8e8',
+            justifyContent: 'center',
           }}
         >
           {activeDragData &&
@@ -186,7 +189,7 @@ export const FunctionalitySignPdfDetail: FC<
             )}
           {activeDragData &&
             activeDragData.type === 'base64' &&
-            !activeDragData.value && <div>Empty</div>}
+            !activeDragData.value && <div>Empty Signature</div>}
           {activeDragData && activeDragData.type === 'text' && (
             <Typography
               sx={{
