@@ -25,7 +25,7 @@ const FunctionalityPdfToImage = () => {
   const handleUnsupportedFileType = () => {
     snackNotifications.warning(
       t(
-        'functionality__pdf_to_image:components__index__unsupported_file_type_tip',
+        'functionality__sign_pdf:components__sign_pdf__unsupported_file_type_tip',
       ),
       {
         anchorOrigin: {

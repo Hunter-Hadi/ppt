@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Upload venligst den specificerede filtype for PDF",
     "components__pdf_to_html__button__download": "Download",
     "components__pdf_to_html__button__Convert": "Konverter en anden"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Skift stil",
+    "components__sign_pdf__operation_view__your_sign": "Din underskrift",
+    "components__sign_pdf__operation_view__your_initials": "Dine initialer",
+    "components__sign_pdf__operation_view__text_field": "Tekstfelt",
+    "components__sign_pdf__operation_view__date_field": "Dato felt",
+    "components__sign_pdf__operation_view__checkbox": "Afkrydsningsfelt",
+    "components__sign_pdf__operation_view__cancel": "Annuller",
+    "components__sign_pdf__operation_view__create": "Opret",
+    "components__sign_pdf__operation_view__clear": "Ryd",
+    "components__sign_pdf__operation_view__draw__here": "Tegn her",
+    "components__sign_pdf__operation_view__add": "Tilføj",
+    "components__sign_pdf__operation_view__of": "af {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Upload venligst den specificerede PDF filtype",
+    "components__sign_pdf__detail__Finish": "Afslut og underskriv",
+    "components__sign_pdf__operation_view__draw": "Tegn",
+    "components__sign_pdf__operation_view__type": "Type",
+    "components__sign_pdf__operation_view__upload": "Upload"
   }
 }

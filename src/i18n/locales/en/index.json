@@ -612,6 +612,27 @@
     "components__image_to_pdf__position_top": "Top",
     "components__image_to_pdf__position_bottom": "Bottom"
   },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Change style",
+    "components__sign_pdf__operation_view__your_sign": "Your Signature",
+    "components__sign_pdf__operation_view__your_initials": "Your Initials",
+    "components__sign_pdf__operation_view__text_field": "Text Field",
+    "components__sign_pdf__operation_view__date_field": "Date Field",
+    "components__sign_pdf__operation_view__checkbox": "Checkbox",
+    "components__sign_pdf__operation_view__cancel": "Cancel",
+    "components__sign_pdf__operation_view__create": "Create",
+    "components__sign_pdf__operation_view__clear": "Clear",
+    "components__sign_pdf__operation_view__draw__here": "Draw here",
+    "components__sign_pdf__operation_view__add": "Add",
+    "components__sign_pdf__operation_view__of": "of {{NUMBER}}",
+
+    "components__sign_pdf__operation_view__draw": "Draw",
+    "components__sign_pdf__operation_view__type": "Type",
+    "components__sign_pdf__operation_view__upload": "Upload",
+
+    "components__sign_pdf__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__sign_pdf__detail__Finish": "Finish & Sign"
+  },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
     "use_prompt_library__title__tooltip": "1-click prompts",

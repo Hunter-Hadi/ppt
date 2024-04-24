@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
     "components__pdf_to_html__button__download": "Letöltés",
     "components__pdf_to_html__button__Convert": "Másik átalakítása"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Stílus megváltoztatása",
+    "components__sign_pdf__operation_view__your_sign": "Az aláírásod",
+    "components__sign_pdf__operation_view__your_initials": "Az inicializációd",
+    "components__sign_pdf__operation_view__text_field": "Szövegmező",
+    "components__sign_pdf__operation_view__date_field": "Dátum mező",
+    "components__sign_pdf__operation_view__checkbox": "Jelölőnégyzet",
+    "components__sign_pdf__operation_view__cancel": "Mégse",
+    "components__sign_pdf__operation_view__create": "Létrehozás",
+    "components__sign_pdf__operation_view__clear": "Törlés",
+    "components__sign_pdf__operation_view__draw__here": "Rajzolj ide",
+    "components__sign_pdf__operation_view__add": "Hozzáadás",
+    "components__sign_pdf__operation_view__of": "{{NUMBER}}-ból/ből",
+    "components__sign_pdf__unsupported_file_type_tip": "Kérlek töltsd fel a megadott PDF fájltípust",
+    "components__sign_pdf__detail__Finish": "Befejezés és aláírás",
+    "components__sign_pdf__operation_view__draw": "Rajzolás",
+    "components__sign_pdf__operation_view__type": "Típus",
+    "components__sign_pdf__operation_view__upload": "Feltöltés"
   }
 }

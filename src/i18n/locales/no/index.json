@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Vennligst last opp den angitte filtypen for PDF",
     "components__pdf_to_html__button__download": "Last ned",
     "components__pdf_to_html__button__Convert": "Konverter en annen"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Endre stil",
+    "components__sign_pdf__operation_view__your_sign": "Din signatur",
+    "components__sign_pdf__operation_view__your_initials": "Dine initialer",
+    "components__sign_pdf__operation_view__text_field": "Tekstfelt",
+    "components__sign_pdf__operation_view__date_field": "Dato felt",
+    "components__sign_pdf__operation_view__checkbox": "Avkrysningsboks",
+    "components__sign_pdf__operation_view__cancel": "Avbryt",
+    "components__sign_pdf__operation_view__create": "Opprett",
+    "components__sign_pdf__operation_view__clear": "Tøm",
+    "components__sign_pdf__operation_view__draw__here": "Tegn her",
+    "components__sign_pdf__operation_view__add": "Legg til",
+    "components__sign_pdf__operation_view__of": "av {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
+    "components__sign_pdf__detail__Finish": "Fullfør og signer",
+    "components__sign_pdf__operation_view__draw": "Tegn",
+    "components__sign_pdf__operation_view__type": "Skriv",
+    "components__sign_pdf__operation_view__upload": "Last opp"
   }
 }

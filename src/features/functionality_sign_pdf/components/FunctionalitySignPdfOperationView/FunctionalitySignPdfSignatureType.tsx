@@ -1,4 +1,5 @@
 import { Box, Button, Stack, TextField } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import {
   forwardRef,
   ForwardRefRenderFunction,
@@ -15,6 +16,8 @@ export interface IFunctionalitySignPdfSignatureTypeHandles {
 const FunctionalitySignPdfSignatureType: ForwardRefRenderFunction<
   IFunctionalitySignPdfSignatureTypeHandles
 > = (props, ref) => {
+  const { t } = useTranslation();
+
   const [currentColor, setCurrentColor] = useState<string>('block');
   const [currentFonts, setCurrentFonts] = useState<string>('Caveat, cursive');
   const [typeInputVal, setTypeInputVal] = useState('');
@@ -73,7 +76,9 @@ const FunctionalitySignPdfSignatureType: ForwardRefRenderFunction<
             disabled={typeInputVal.length === 0}
             onClick={() => setTypeInputVal('')}
           >
-            Clear
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
+            )}
           </Button>
         </Stack>
       </Box>

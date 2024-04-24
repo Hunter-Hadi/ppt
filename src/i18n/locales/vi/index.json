@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
     "components__pdf_to_html__button__download": "Tải xuống",
     "components__pdf_to_html__button__Convert": "Chuyển đổi khác"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Thay đổi kiểu",
+    "components__sign_pdf__operation_view__your_sign": "Chữ ký của bạn",
+    "components__sign_pdf__operation_view__your_initials": "Chữ ký viết tắt của bạn",
+    "components__sign_pdf__operation_view__text_field": "Trường văn bản",
+    "components__sign_pdf__operation_view__date_field": "Trường ngày tháng",
+    "components__sign_pdf__operation_view__checkbox": "Ô kiểm",
+    "components__sign_pdf__operation_view__cancel": "Hủy",
+    "components__sign_pdf__operation_view__create": "Tạo",
+    "components__sign_pdf__operation_view__clear": "Xóa",
+    "components__sign_pdf__operation_view__draw__here": "Vẽ ở đây",
+    "components__sign_pdf__operation_view__add": "Thêm",
+    "components__sign_pdf__operation_view__of": "của {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
+    "components__sign_pdf__detail__Finish": "Hoàn thành & Ký",
+    "components__sign_pdf__operation_view__draw": "Vẽ",
+    "components__sign_pdf__operation_view__type": "Loại",
+    "components__sign_pdf__operation_view__upload": "Tải lên"
   }
 }

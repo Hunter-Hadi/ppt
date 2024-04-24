@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Моля, качете определения тип файл PDF",
     "components__pdf_to_html__button__download": "Изтегли",
     "components__pdf_to_html__button__Convert": "Конвертирай отново"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Промяна на стил",
+    "components__sign_pdf__operation_view__your_sign": "Вашата подпис",
+    "components__sign_pdf__operation_view__your_initials": "Вашите инициали",
+    "components__sign_pdf__operation_view__text_field": "Текстово поле",
+    "components__sign_pdf__operation_view__date_field": "Поле за дата",
+    "components__sign_pdf__operation_view__checkbox": "Квадратче за отметка",
+    "components__sign_pdf__operation_view__cancel": "Отказ",
+    "components__sign_pdf__operation_view__create": "Създай",
+    "components__sign_pdf__operation_view__clear": "Изчисти",
+    "components__sign_pdf__operation_view__draw__here": "Рисувайте тук",
+    "components__sign_pdf__operation_view__add": "Добави",
+    "components__sign_pdf__operation_view__of": "от {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
+    "components__sign_pdf__detail__Finish": "Завърши и подпиши",
+    "components__sign_pdf__operation_view__draw": "Рисуване",
+    "components__sign_pdf__operation_view__type": "Въведете",
+    "components__sign_pdf__operation_view__upload": "Качване"
   }
 }

@@ -855,5 +855,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "אנא העלה את סוג הקובץ המצוין של PDF",
     "components__pdf_to_html__button__download": "הורדה",
     "components__pdf_to_html__button__Convert": "המרה נוספת"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "שנה סגנון",
+    "components__sign_pdf__operation_view__your_sign": "חתימתך",
+    "components__sign_pdf__operation_view__your_initials": "החתימה הראשונה שלך",
+    "components__sign_pdf__operation_view__text_field": "שדה טקסט",
+    "components__sign_pdf__operation_view__date_field": "שדה תאריך",
+    "components__sign_pdf__operation_view__checkbox": "תיבת סימון",
+    "components__sign_pdf__operation_view__cancel": "ביטול",
+    "components__sign_pdf__operation_view__create": "צור",
+    "components__sign_pdf__operation_view__clear": "נקה",
+    "components__sign_pdf__operation_view__draw__here": "צייר כאן",
+    "components__sign_pdf__operation_view__add": "הוסף",
+    "components__sign_pdf__operation_view__of": "מתוך {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "אנא העלה את סוג קובץ ה-PDF המצוין",
+    "components__sign_pdf__detail__Finish": "סיים וחתום",
+    "components__sign_pdf__operation_view__draw": "צייר",
+    "components__sign_pdf__operation_view__type": "הקלד",
+    "components__sign_pdf__operation_view__upload": "העלה"
   }
 }

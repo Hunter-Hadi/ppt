@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__pdf_to_html__button__download": "ダウンロード",
     "components__pdf_to_html__button__Convert": "別のファイルを変換"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "スタイルを変更する",
+    "components__sign_pdf__operation_view__your_sign": "あなたの署名",
+    "components__sign_pdf__operation_view__your_initials": "あなたのイニシャル",
+    "components__sign_pdf__operation_view__text_field": "テキストフィールド",
+    "components__sign_pdf__operation_view__date_field": "日付フィールド",
+    "components__sign_pdf__operation_view__checkbox": "チェックボックス",
+    "components__sign_pdf__operation_view__cancel": "キャンセル",
+    "components__sign_pdf__operation_view__create": "作成",
+    "components__sign_pdf__operation_view__clear": "クリア",
+    "components__sign_pdf__operation_view__draw__here": "ここに描く",
+    "components__sign_pdf__operation_view__add": "追加",
+    "components__sign_pdf__operation_view__of": "{{NUMBER}}のうち",
+    "components__sign_pdf__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
+    "components__sign_pdf__detail__Finish": "完了して署名",
+    "components__sign_pdf__operation_view__draw": "描く",
+    "components__sign_pdf__operation_view__type": "タイプ",
+    "components__sign_pdf__operation_view__upload": "アップロード"
   }
 }

@@ -1,6 +1,7 @@
 import { Stack, Typography } from '@mui/material';
 import dayjs from 'dayjs';
 import Head from 'next/head';
+import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
@@ -14,6 +15,8 @@ interface IFunctionalitySignPdfOperationView {
 const FunctionalitySignPdfOperationView: FC<
   IFunctionalitySignPdfOperationView
 > = ({ activeDragData }) => {
+  const { t } = useTranslation();
+
   return (
     <Stack flexDirection='column'>
       <Head>
@@ -51,7 +54,9 @@ const FunctionalitySignPdfOperationView: FC<
                   },
                 }}
               >
-                Your Signature
+                {t(
+                  'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
+                )}
               </Typography>
             </Stack>
           }
@@ -70,7 +75,9 @@ const FunctionalitySignPdfOperationView: FC<
                   },
                 }}
               >
-                Your Initials
+                {t(
+                  'functionality__sign_pdf:components__sign_pdf__operation_view__your_initials',
+                )}
               </Typography>
             </Stack>
           }
@@ -92,7 +99,9 @@ const FunctionalitySignPdfOperationView: FC<
                 },
               }}
             >
-              Text Field
+              {t(
+                'functionality__sign_pdf:components__sign_pdf__operation_view__text_field',
+              )}
             </Typography>
           </Stack>
         </FunctionalitySignPdfOperationDraggableView>
@@ -113,7 +122,9 @@ const FunctionalitySignPdfOperationView: FC<
                 },
               }}
             >
-              Date Field
+              {t(
+                'functionality__sign_pdf:components__sign_pdf__operation_view__date_field',
+              )}
             </Typography>
           </Stack>
         </FunctionalitySignPdfOperationDraggableView>
@@ -134,7 +145,9 @@ const FunctionalitySignPdfOperationView: FC<
                 },
               }}
             >
-              Checkbox
+              {t(
+                'functionality__sign_pdf:components__sign_pdf__operation_view__checkbox',
+              )}
             </Typography>
           </Stack>
         </FunctionalitySignPdfOperationDraggableView>

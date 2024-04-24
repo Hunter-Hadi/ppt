@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__pdf_to_html__button__download": "Atsisiųsti",
     "components__pdf_to_html__button__Convert": "Konvertuoti kitą"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Keisti stilių",
+    "components__sign_pdf__operation_view__your_sign": "Jūsų parašas",
+    "components__sign_pdf__operation_view__your_initials": "Jūsų inicialai",
+    "components__sign_pdf__operation_view__text_field": "Teksto laukas",
+    "components__sign_pdf__operation_view__date_field": "Datos laukas",
+    "components__sign_pdf__operation_view__checkbox": "Žymimasis langelis",
+    "components__sign_pdf__operation_view__cancel": "Atšaukti",
+    "components__sign_pdf__operation_view__create": "Kurti",
+    "components__sign_pdf__operation_view__clear": "Išvalyti",
+    "components__sign_pdf__operation_view__draw__here": "Brėžti čia",
+    "components__sign_pdf__operation_view__add": "Pridėti",
+    "components__sign_pdf__operation_view__of": "iš {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
+    "components__sign_pdf__detail__Finish": "Baigti ir pasirašyti",
+    "components__sign_pdf__operation_view__draw": "Brėžti",
+    "components__sign_pdf__operation_view__type": "Tipas",
+    "components__sign_pdf__operation_view__upload": "Įkelti"
   }
 }

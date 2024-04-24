@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__pdf_to_html__button__download": "Prenesi",
     "components__pdf_to_html__button__Convert": "Pretvori drugo"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Spremeni slog",
+    "components__sign_pdf__operation_view__your_sign": "Vaš podpis",
+    "components__sign_pdf__operation_view__your_initials": "Vaše začetnice",
+    "components__sign_pdf__operation_view__text_field": "Polje z besedilom",
+    "components__sign_pdf__operation_view__date_field": "Polje z datumom",
+    "components__sign_pdf__operation_view__checkbox": "Potrditveno polje",
+    "components__sign_pdf__operation_view__cancel": "Prekliči",
+    "components__sign_pdf__operation_view__create": "Ustvari",
+    "components__sign_pdf__operation_view__clear": "Počisti",
+    "components__sign_pdf__operation_view__draw__here": "Narišite tukaj",
+    "components__sign_pdf__operation_view__add": "Dodaj",
+    "components__sign_pdf__operation_view__of": "od {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Naložite prosim določen tip datoteke PDF",
+    "components__sign_pdf__detail__Finish": "Končaj in podpiši",
+    "components__sign_pdf__operation_view__draw": "Nariši",
+    "components__sign_pdf__operation_view__type": "Vrsta",
+    "components__sign_pdf__operation_view__upload": "Naloži"
   }
 }

@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
     "components__pdf_to_html__button__download": "I-download",
     "components__pdf_to_html__button__Convert": "Mag-convert ng isa pa"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Baguhin ang estilo",
+    "components__sign_pdf__operation_view__your_sign": "Ang Iyong Lagda",
+    "components__sign_pdf__operation_view__your_initials": "Ang Iyong Mga Initial",
+    "components__sign_pdf__operation_view__text_field": "Larangang Teksto",
+    "components__sign_pdf__operation_view__date_field": "Larangang Petsa",
+    "components__sign_pdf__operation_view__checkbox": "Checkbox",
+    "components__sign_pdf__operation_view__cancel": "Kanselahin",
+    "components__sign_pdf__operation_view__create": "Lumikha",
+    "components__sign_pdf__operation_view__clear": "Burahin",
+    "components__sign_pdf__operation_view__draw__here": "Mag-drowing dito",
+    "components__sign_pdf__operation_view__add": "Idagdag",
+    "components__sign_pdf__operation_view__of": "ng {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
+    "components__sign_pdf__detail__Finish": "Tapusin at Lagdaan",
+    "components__sign_pdf__operation_view__draw": "Guhit",
+    "components__sign_pdf__operation_view__type": "Uri",
+    "components__sign_pdf__operation_view__upload": "I-upload"
   }
 }

@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Si us plau, puja el tipus de fitxer PDF especificat",
     "components__pdf_to_html__button__download": "Descarrega",
     "components__pdf_to_html__button__Convert": "Converteix un altre"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Canvia l'estil",
+    "components__sign_pdf__operation_view__your_sign": "La teva signatura",
+    "components__sign_pdf__operation_view__your_initials": "Les teves inicials",
+    "components__sign_pdf__operation_view__text_field": "Camp de text",
+    "components__sign_pdf__operation_view__date_field": "Camp de data",
+    "components__sign_pdf__operation_view__checkbox": "Casella de selecció",
+    "components__sign_pdf__operation_view__cancel": "Cancel·la",
+    "components__sign_pdf__operation_view__create": "Crea",
+    "components__sign_pdf__operation_view__clear": "Neteja",
+    "components__sign_pdf__operation_view__draw__here": "Dibuixa aquí",
+    "components__sign_pdf__operation_view__add": "Afegeix",
+    "components__sign_pdf__operation_view__of": "de {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Si us plau, puja el tipus de fitxer PDF especificat",
+    "components__sign_pdf__detail__Finish": "Finalitza i Signa",
+    "components__sign_pdf__operation_view__draw": "Dibuixa",
+    "components__sign_pdf__operation_view__type": "Escriu",
+    "components__sign_pdf__operation_view__upload": "Puja"
   }
 }

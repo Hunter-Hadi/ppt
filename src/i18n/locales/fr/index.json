@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__pdf_to_html__button__download": "Télécharger",
     "components__pdf_to_html__button__Convert": "Convertir un autre"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Changer le style",
+    "components__sign_pdf__operation_view__your_sign": "Votre signature",
+    "components__sign_pdf__operation_view__your_initials": "Vos initiales",
+    "components__sign_pdf__operation_view__text_field": "Champ de texte",
+    "components__sign_pdf__operation_view__date_field": "Champ de date",
+    "components__sign_pdf__operation_view__checkbox": "Case à cocher",
+    "components__sign_pdf__operation_view__cancel": "Annuler",
+    "components__sign_pdf__operation_view__create": "Créer",
+    "components__sign_pdf__operation_view__clear": "Effacer",
+    "components__sign_pdf__operation_view__draw__here": "Dessinez ici",
+    "components__sign_pdf__operation_view__add": "Ajouter",
+    "components__sign_pdf__operation_view__of": "de {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
+    "components__sign_pdf__detail__Finish": "Terminer et signer",
+    "components__sign_pdf__operation_view__draw": "Dessiner",
+    "components__sign_pdf__operation_view__type": "Taper",
+    "components__sign_pdf__operation_view__upload": "Télécharger"
   }
 }

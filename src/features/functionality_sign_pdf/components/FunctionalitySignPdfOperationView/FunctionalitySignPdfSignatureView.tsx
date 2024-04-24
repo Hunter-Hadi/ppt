@@ -1,4 +1,5 @@
 import { Box, Button, Popover, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
@@ -17,6 +18,8 @@ interface IFunctionalitySignPdfSignatureViewProps {
 const FunctionalitySignPdfSignatureView: FC<
   IFunctionalitySignPdfSignatureViewProps
 > = ({ dragId, onShowImgVal, signatureEmptyView, activeDragData }) => {
+  const { t } = useTranslation();
+
   const [modalOpen, setModalOpen] = useState(false);
   const [signatureViewList, setSignatureViewList] = useState<string[]>([]);
   const [currentShowIndex, setCurrentShowIndex] = useState(0);
@@ -104,7 +107,9 @@ const FunctionalitySignPdfSignatureView: FC<
                   },
                 }}
               >
-                Your Signature
+                {t(
+                  'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
+                )}
               </Typography>
             )}
           </Box>
@@ -118,7 +123,9 @@ const FunctionalitySignPdfSignatureView: FC<
               },
             }}
           >
-            Add
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__add',
+            )}
           </Typography>
         </Stack>
       )}
@@ -212,7 +219,9 @@ const FunctionalitySignPdfSignatureView: FC<
               handleClose();
             }}
           >
-            ADD
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__add',
+            )}
           </Button>
         </Box>
       </Popover>

@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_to_html__button__download": "Lejupielādēt",
     "components__pdf_to_html__button__Convert": "Konvertēt vēlreiz"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Mainīt stilu",
+    "components__sign_pdf__operation_view__your_sign": "Jūsu paraksts",
+    "components__sign_pdf__operation_view__your_initials": "Jūsu iniciali",
+    "components__sign_pdf__operation_view__text_field": "Teksta lauks",
+    "components__sign_pdf__operation_view__date_field": "Datuma lauks",
+    "components__sign_pdf__operation_view__checkbox": "Izvēles rūtiņa",
+    "components__sign_pdf__operation_view__cancel": "Atcelt",
+    "components__sign_pdf__operation_view__create": "Izveidot",
+    "components__sign_pdf__operation_view__clear": "Notīrīt",
+    "components__sign_pdf__operation_view__draw__here": "Zīmēt šeit",
+    "components__sign_pdf__operation_view__add": "Pievienot",
+    "components__sign_pdf__operation_view__of": "no {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
+    "components__sign_pdf__detail__Finish": "Pabeigt un parakstīt",
+    "components__sign_pdf__operation_view__draw": "Zīmēt",
+    "components__sign_pdf__operation_view__type": "Veids",
+    "components__sign_pdf__operation_view__upload": "Augšupielādēt"
   }
 }

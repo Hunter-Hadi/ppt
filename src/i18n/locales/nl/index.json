@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde bestandstype PDF",
     "components__pdf_to_html__button__download": "Downloaden",
     "components__pdf_to_html__button__Convert": "Nog een converteren"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Stijl wijzigen",
+    "components__sign_pdf__operation_view__your_sign": "Uw handtekening",
+    "components__sign_pdf__operation_view__your_initials": "Uw initialen",
+    "components__sign_pdf__operation_view__text_field": "Tekstveld",
+    "components__sign_pdf__operation_view__date_field": "Datumveld",
+    "components__sign_pdf__operation_view__checkbox": "Selectievakje",
+    "components__sign_pdf__operation_view__cancel": "Annuleren",
+    "components__sign_pdf__operation_view__create": "Maken",
+    "components__sign_pdf__operation_view__clear": "Wissen",
+    "components__sign_pdf__operation_view__draw__here": "Hier tekenen",
+    "components__sign_pdf__operation_view__add": "Toevoegen",
+    "components__sign_pdf__operation_view__of": "van {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
+    "components__sign_pdf__detail__Finish": "Voltooien en ondertekenen",
+    "components__sign_pdf__operation_view__draw": "Tekenen",
+    "components__sign_pdf__operation_view__type": "Typen",
+    "components__sign_pdf__operation_view__upload": "Uploaden"
   }
 }

@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
     "components__pdf_to_html__button__download": "İndir",
     "components__pdf_to_html__button__Convert": "Başka bir dönüştür"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Stil Değiştir",
+    "components__sign_pdf__operation_view__your_sign": "İmzanız",
+    "components__sign_pdf__operation_view__your_initials": "İlk Harfleriniz",
+    "components__sign_pdf__operation_view__text_field": "Metin Alanı",
+    "components__sign_pdf__operation_view__date_field": "Tarih Alanı",
+    "components__sign_pdf__operation_view__checkbox": "Onay Kutusu",
+    "components__sign_pdf__operation_view__cancel": "İptal",
+    "components__sign_pdf__operation_view__create": "Oluştur",
+    "components__sign_pdf__operation_view__clear": "Temizle",
+    "components__sign_pdf__operation_view__draw__here": "Buraya Çizin",
+    "components__sign_pdf__operation_view__add": "Ekle",
+    "components__sign_pdf__operation_view__of": "{{NUMBER}}'nin {{NUMBER}}'si",
+    "components__sign_pdf__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__sign_pdf__detail__Finish": "Bitir ve İmzala",
+    "components__sign_pdf__operation_view__draw": "Çiz",
+    "components__sign_pdf__operation_view__type": "Yaz",
+    "components__sign_pdf__operation_view__upload": "Yükle"
   }
 }

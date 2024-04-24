@@ -1,4 +1,5 @@
 import { Box, Button, Stack } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import {
   forwardRef,
   ForwardRefRenderFunction,
@@ -16,6 +17,8 @@ export interface IFunctionalitySignPdfSignatureUploadHandles {
 const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
   IFunctionalitySignPdfSignatureUploadHandles
 > = (props, ref) => {
+  const { t } = useTranslation();
+
   const [imgVal, setImgVal] = useState('');
   useImperativeHandle(ref, () => ({
     getPngBase64: () => imgVal,
@@ -148,8 +151,6 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
       };
 
       img.src = URL.createObjectURL(file);
-    } else {
-      alert('请先选择一个文件');
     }
   };
   const onUploadFile = (files: FileList) => {
@@ -180,7 +181,6 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
         {!imgVal && (
           <FunctionalityCommonUploadButton
             inputProps={{
-              // accept: 'image/png',
               multiple: true,
             }}
             buttonProps={{
@@ -206,7 +206,9 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
           direction='row-reverse'
         >
           <Button disabled={!!imgVal} onClick={() => setImgVal('')}>
-            Clear
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
+            )}
           </Button>
         </Stack>
       </Box>

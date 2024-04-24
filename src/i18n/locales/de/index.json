@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Bitte laden Sie den angegebenen Dateityp für PDF hoch",
     "components__pdf_to_html__button__download": "Herunterladen",
     "components__pdf_to_html__button__Convert": "Andere konvertieren"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Stil ändern",
+    "components__sign_pdf__operation_view__your_sign": "Ihre Unterschrift",
+    "components__sign_pdf__operation_view__your_initials": "Ihre Initialen",
+    "components__sign_pdf__operation_view__text_field": "Textfeld",
+    "components__sign_pdf__operation_view__date_field": "Datumsfeld",
+    "components__sign_pdf__operation_view__checkbox": "Kontrollkästchen",
+    "components__sign_pdf__operation_view__cancel": "Abbrechen",
+    "components__sign_pdf__operation_view__create": "Erstellen",
+    "components__sign_pdf__operation_view__clear": "Löschen",
+    "components__sign_pdf__operation_view__draw__here": "Hier zeichnen",
+    "components__sign_pdf__operation_view__add": "Hinzufügen",
+    "components__sign_pdf__operation_view__of": "von {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__sign_pdf__detail__Finish": "Abschließen und unterschreiben",
+    "components__sign_pdf__operation_view__draw": "Zeichnen",
+    "components__sign_pdf__operation_view__type": "Typ",
+    "components__sign_pdf__operation_view__upload": "Hochladen"
   }
 }

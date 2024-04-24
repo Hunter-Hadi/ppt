@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
     "components__pdf_to_html__button__download": "Pakua",
     "components__pdf_to_html__button__Convert": "Geuza nyingine"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Badilisha mtindo",
+    "components__sign_pdf__operation_view__your_sign": "Saini yako",
+    "components__sign_pdf__operation_view__your_initials": "Vidokezo vyako",
+    "components__sign_pdf__operation_view__text_field": "Uga wa maandishi",
+    "components__sign_pdf__operation_view__date_field": "Uga wa tarehe",
+    "components__sign_pdf__operation_view__checkbox": "Kisanduku cha alama",
+    "components__sign_pdf__operation_view__cancel": "Ghairi",
+    "components__sign_pdf__operation_view__create": "Unda",
+    "components__sign_pdf__operation_view__clear": "Ondoa",
+    "components__sign_pdf__operation_view__draw__here": "Chora hapa",
+    "components__sign_pdf__operation_view__add": "Ongeza",
+    "components__sign_pdf__operation_view__of": "ya {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
+    "components__sign_pdf__detail__Finish": "Maliza & Saini",
+    "components__sign_pdf__operation_view__draw": "Chora",
+    "components__sign_pdf__operation_view__type": "Aina",
+    "components__sign_pdf__operation_view__upload": "Pakia"
   }
 }

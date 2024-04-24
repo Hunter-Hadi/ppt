@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__pdf_to_html__button__download": "Завантажити",
     "components__pdf_to_html__button__Convert": "Конвертувати ще"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Змінити стиль",
+    "components__sign_pdf__operation_view__your_sign": "Ваш підпис",
+    "components__sign_pdf__operation_view__your_initials": "Ваші ініціали",
+    "components__sign_pdf__operation_view__text_field": "Текстове поле",
+    "components__sign_pdf__operation_view__date_field": "Поле дати",
+    "components__sign_pdf__operation_view__checkbox": "Прапорець",
+    "components__sign_pdf__operation_view__cancel": "Скасувати",
+    "components__sign_pdf__operation_view__create": "Створити",
+    "components__sign_pdf__operation_view__clear": "Очистити",
+    "components__sign_pdf__operation_view__draw__here": "Намалюйте тут",
+    "components__sign_pdf__operation_view__add": "Додати",
+    "components__sign_pdf__operation_view__of": "з {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
+    "components__sign_pdf__detail__Finish": "Завершити та підписати",
+    "components__sign_pdf__operation_view__draw": "Намалювати",
+    "components__sign_pdf__operation_view__type": "Тип",
+    "components__sign_pdf__operation_view__upload": "Завантажити"
   }
 }

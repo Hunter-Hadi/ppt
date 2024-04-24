@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
     "components__pdf_to_html__button__download": "Ladda ner",
     "components__pdf_to_html__button__Convert": "Konvertera en annan"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Ändra stil",
+    "components__sign_pdf__operation_view__your_sign": "Din signatur",
+    "components__sign_pdf__operation_view__your_initials": "Dina initialer",
+    "components__sign_pdf__operation_view__text_field": "Textfält",
+    "components__sign_pdf__operation_view__date_field": "Datumfält",
+    "components__sign_pdf__operation_view__checkbox": "Kryssruta",
+    "components__sign_pdf__operation_view__cancel": "Avbryt",
+    "components__sign_pdf__operation_view__create": "Skapa",
+    "components__sign_pdf__operation_view__clear": "Rensa",
+    "components__sign_pdf__operation_view__draw__here": "Rita här",
+    "components__sign_pdf__operation_view__add": "Lägg till",
+    "components__sign_pdf__operation_view__of": "av {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
+    "components__sign_pdf__detail__Finish": "Slutför och signera",
+    "components__sign_pdf__operation_view__draw": "Rita",
+    "components__sign_pdf__operation_view__type": "Skriv",
+    "components__sign_pdf__operation_view__upload": "Ladda upp"
   }
 }

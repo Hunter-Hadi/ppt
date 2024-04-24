@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
     "components__pdf_to_html__button__download": "Lataa",
     "components__pdf_to_html__button__Convert": "Muunna toinen"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Vaihda tyyliä",
+    "components__sign_pdf__operation_view__your_sign": "Sinun allekirjoituksesi",
+    "components__sign_pdf__operation_view__your_initials": "Sinun nimikirjaimesi",
+    "components__sign_pdf__operation_view__text_field": "Tekstikenttä",
+    "components__sign_pdf__operation_view__date_field": "Päivämääräkenttä",
+    "components__sign_pdf__operation_view__checkbox": "Valintaruutu",
+    "components__sign_pdf__operation_view__cancel": "Peruuta",
+    "components__sign_pdf__operation_view__create": "Luo",
+    "components__sign_pdf__operation_view__clear": "Tyhjennä",
+    "components__sign_pdf__operation_view__draw__here": "Piirrä tähän",
+    "components__sign_pdf__operation_view__add": "Lisää",
+    "components__sign_pdf__operation_view__of": "{{NUMBER}} / {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__sign_pdf__detail__Finish": "Valmis ja allekirjoita",
+    "components__sign_pdf__operation_view__draw": "Piirrä",
+    "components__sign_pdf__operation_view__type": "Kirjoita",
+    "components__sign_pdf__operation_view__upload": "Lataa"
   }
 }

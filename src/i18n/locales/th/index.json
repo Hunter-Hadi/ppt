@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "กรุณาอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__pdf_to_html__button__download": "ดาวน์โหลด",
     "components__pdf_to_html__button__Convert": "แปลงอื่น"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "เปลี่ยนสไตล์",
+    "components__sign_pdf__operation_view__your_sign": "ลายเซ็นของคุณ",
+    "components__sign_pdf__operation_view__your_initials": "ตัวย่อของคุณ",
+    "components__sign_pdf__operation_view__text_field": "ช่องข้อความ",
+    "components__sign_pdf__operation_view__date_field": "ช่องวันที่",
+    "components__sign_pdf__operation_view__checkbox": "กล่องเลือก",
+    "components__sign_pdf__operation_view__cancel": "ยกเลิก",
+    "components__sign_pdf__operation_view__create": "สร้าง",
+    "components__sign_pdf__operation_view__clear": "ล้าง",
+    "components__sign_pdf__operation_view__draw__here": "วาดที่นี่",
+    "components__sign_pdf__operation_view__add": "เพิ่ม",
+    "components__sign_pdf__operation_view__of": "ของ {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components__sign_pdf__detail__Finish": "เสร็จสิ้นและลงลายเซ็น",
+    "components__sign_pdf__operation_view__draw": "วาด",
+    "components__sign_pdf__operation_view__type": "พิมพ์",
+    "components__sign_pdf__operation_view__upload": "อัปโหลด"
   }
 }

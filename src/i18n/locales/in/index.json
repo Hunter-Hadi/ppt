@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
     "components__pdf_to_html__button__download": "Unduh",
     "components__pdf_to_html__button__Convert": "Konversi lainnya"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Ubah gaya",
+    "components__sign_pdf__operation_view__your_sign": "Tanda Tangan Anda",
+    "components__sign_pdf__operation_view__your_initials": "Inisial Anda",
+    "components__sign_pdf__operation_view__text_field": "Kolom Teks",
+    "components__sign_pdf__operation_view__date_field": "Kolom Tanggal",
+    "components__sign_pdf__operation_view__checkbox": "Kotak Centang",
+    "components__sign_pdf__operation_view__cancel": "Batal",
+    "components__sign_pdf__operation_view__create": "Buat",
+    "components__sign_pdf__operation_view__clear": "Hapus",
+    "components__sign_pdf__operation_view__draw__here": "Gambar di sini",
+    "components__sign_pdf__operation_view__add": "Tambah",
+    "components__sign_pdf__operation_view__of": "dari {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
+    "components__sign_pdf__detail__Finish": "Selesai & Tanda Tangani",
+    "components__sign_pdf__operation_view__draw": "Gambar",
+    "components__sign_pdf__operation_view__type": "Jenis",
+    "components__sign_pdf__operation_view__upload": "Unggah"
   }
 }

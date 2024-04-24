@@ -265,7 +265,6 @@ const FunctionalitySignPdfRenderCanvas: FC<
           transform: `scale(${scaleFactor})`,
           transformOrigin: 'top left' /* 变形基点在右上角 */,
           border: '1px solid #e8e8e8',
-          // position: 'relative',
         }}
       >
         <FabricJSCanvas

@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__pdf_to_html__button__download": "Muat turun",
     "components__pdf_to_html__button__Convert": "Tukar yang lain"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Tukar gaya",
+    "components__sign_pdf__operation_view__your_sign": "Tandatangan Anda",
+    "components__sign_pdf__operation_view__your_initials": "Inisial Anda",
+    "components__sign_pdf__operation_view__text_field": "Medan Teks",
+    "components__sign_pdf__operation_view__date_field": "Medan Tarikh",
+    "components__sign_pdf__operation_view__checkbox": "Kotak Semak",
+    "components__sign_pdf__operation_view__cancel": "Batal",
+    "components__sign_pdf__operation_view__create": "Cipta",
+    "components__sign_pdf__operation_view__clear": "Padam",
+    "components__sign_pdf__operation_view__draw__here": "Lukis di sini",
+    "components__sign_pdf__operation_view__add": "Tambah",
+    "components__sign_pdf__operation_view__of": "daripada {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
+    "components__sign_pdf__detail__Finish": "Selesai & Tandatangan",
+    "components__sign_pdf__operation_view__draw": "Lukis",
+    "components__sign_pdf__operation_view__type": "Taip",
+    "components__sign_pdf__operation_view__upload": "Muat naik"
   }
 }

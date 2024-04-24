@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
     "components__pdf_to_html__button__download": "下載",
     "components__pdf_to_html__button__Convert": "轉換其他"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "更改樣式",
+    "components__sign_pdf__operation_view__your_sign": "您的簽名",
+    "components__sign_pdf__operation_view__your_initials": "您的簡寫",
+    "components__sign_pdf__operation_view__text_field": "文字欄位",
+    "components__sign_pdf__operation_view__date_field": "日期欄位",
+    "components__sign_pdf__operation_view__checkbox": "勾選框",
+    "components__sign_pdf__operation_view__cancel": "取消",
+    "components__sign_pdf__operation_view__create": "建立",
+    "components__sign_pdf__operation_view__clear": "清除",
+    "components__sign_pdf__operation_view__draw__here": "在此繪製",
+    "components__sign_pdf__operation_view__add": "新增",
+    "components__sign_pdf__operation_view__of": "第 {{NUMBER}} 頁",
+    "components__sign_pdf__unsupported_file_type_tip": "請上傳指定的 PDF 檔案類型",
+    "components__sign_pdf__detail__Finish": "完成並簽名",
+    "components__sign_pdf__operation_view__draw": "繪製",
+    "components__sign_pdf__operation_view__type": "類型",
+    "components__sign_pdf__operation_view__upload": "上傳"
   }
 }

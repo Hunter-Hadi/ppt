@@ -8,6 +8,7 @@ import {
 } from '@dnd-kit/core';
 import { Box, Button, Stack, Typography } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
+import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
@@ -40,6 +41,8 @@ export type ISignData = {
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file }) => {
+  const { t } = useTranslation();
+
   const dndDragRef = useRef<HTMLElement | null>(null);
   const [signaturePositions, setSignaturePositions] = useState<ISignData[]>([]);
   const pdfViewHeight = useMemo(() => {
@@ -158,7 +161,9 @@ export const FunctionalitySignPdfDetail: FC<
               sx={{ marginTop: 2, width: '100%' }}
               size='large'
             >
-              保存
+              {t(
+                'functionality__sign_pdf:components__sign_pdf__detail__Finish',
+              )}
             </Button>
           </Box>
         </Box>

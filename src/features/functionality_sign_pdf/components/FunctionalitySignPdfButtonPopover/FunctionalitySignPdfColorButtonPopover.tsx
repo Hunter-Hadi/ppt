@@ -5,27 +5,26 @@ import { FC, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
-  onSelectedColor: (coloe: string) => void;
+  onSelectedColor: (color: string) => void;
   currentColor?: string;
 }
 const FunctionalitySignPdfColorButtonPopover: FC<
   IFunctionalitySignPdfColorButtonPopoverProps
 > = ({ onSelectedColor }) => {
-  const [anchorEl, setAnchorEl] = useState(null);
+  const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
   const [currentColor, setCurrentColor] = useState('black');
 
   const handleClick = (event) => {
-    console.log('666', event.currentTarget);
-    setAnchorEl(anchorEl ? null : event.currentTarget);
+    setPopoverAnchorEl(popoverAnchorEl ? null : event.currentTarget);
   };
 
   const handleColorSelect = (color) => {
-    setAnchorEl(null);
+    setPopoverAnchorEl(null);
     onSelectedColor(color);
     setCurrentColor(color);
   };
 
-  const open = Boolean(anchorEl);
+  const open = Boolean(popoverAnchorEl);
   const id = open ? 'color-popper' : undefined;
 
   return (
@@ -49,7 +48,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
       <Popover
         id={id}
         open={open}
-        anchorEl={anchorEl}
+        anchorEl={popoverAnchorEl}
         anchorOrigin={{
           vertical: 'bottom',
           horizontal: 'left',

@@ -1,5 +1,6 @@
 import { Box, Popover, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
+import { useTranslation } from 'next-i18next';
 import { FC, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
@@ -13,20 +14,22 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
 const FunctionalitySignPdfFontsButtonPopover: FC<
   IFunctionalitySignPdfColorButtonPopoverProps
 > = ({ onSelectedFonts, text, currentFonts, isShowFontsName, fontSize }) => {
-  const [anchorEl, setAnchorEl] = useState(null);
+  const { t } = useTranslation();
+
+  const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
   const [newCurrentFonts, setNewCurrentFonts] = useState('');
 
   const handleClick = (event) => {
-    setAnchorEl(anchorEl ? null : event.currentTarget);
+    setPopoverAnchorEl(popoverAnchorEl ? null : event.currentTarget);
   };
 
   const handleColorSelect = (fonts) => {
-    setAnchorEl(null);
+    setPopoverAnchorEl(null);
     onSelectedFonts(fonts);
     setNewCurrentFonts(fonts);
   };
 
-  const open = Boolean(anchorEl);
+  const open = Boolean(popoverAnchorEl);
   const id = open ? 'fonts-popper' : undefined;
 
   return (
@@ -49,11 +52,15 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
           },
         }}
       >
-        {currentFonts ? newCurrentFonts || currentFonts : 'Change style'}
+        {currentFonts
+          ? newCurrentFonts || currentFonts
+          : t(
+              'functionality__sign_pdf:components__sign_pdf__button_popover__change_style',
+            )}
       </Typography>
       <Popover
         open={open}
-        anchorEl={anchorEl}
+        anchorEl={popoverAnchorEl}
         anchorOrigin={{
           vertical: 'bottom',
           horizontal: 'left',

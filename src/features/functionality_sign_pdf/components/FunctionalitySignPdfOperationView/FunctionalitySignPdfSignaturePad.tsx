@@ -1,4 +1,5 @@
 import { Box, Button, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import {
   forwardRef,
   ForwardRefRenderFunction,
@@ -20,6 +21,8 @@ export interface IFunctionalitySignPdfSignaturePadHandles {
 const FunctionalitySignPdfSignaturePad: ForwardRefRenderFunction<
   IFunctionalitySignPdfSignaturePadHandles
 > = (props, ref) => {
+  const { t } = useTranslation();
+
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const signaturePadRef = useRef<SignaturePad | null>(null);
   const [historyCanvasList, setHistoryCanvasList] = useState<
@@ -203,7 +206,9 @@ const FunctionalitySignPdfSignaturePad: ForwardRefRenderFunction<
             disabled={historyCanvasList.length === 0}
             onClick={clearCanvas}
           >
-            Clear
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
+            )}
           </Button>
         </Stack>
         {historyCanvasList.length === 0 && !isStartSign && (
@@ -218,7 +223,9 @@ const FunctionalitySignPdfSignaturePad: ForwardRefRenderFunction<
               pointerEvents: 'none',
             }}
           >
-            Draw here
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__draw__here',
+            )}
           </Typography>
         )}
       </Box>

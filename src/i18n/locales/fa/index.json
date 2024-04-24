@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__pdf_to_html__button__download": "دانلود",
     "components__pdf_to_html__button__Convert": "تبدیل دیگری"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "تغییر استایل",
+    "components__sign_pdf__operation_view__your_sign": "امضای شما",
+    "components__sign_pdf__operation_view__your_initials": "حروف اولیه شما",
+    "components__sign_pdf__operation_view__text_field": "فیلد متنی",
+    "components__sign_pdf__operation_view__date_field": "فیلد تاریخ",
+    "components__sign_pdf__operation_view__checkbox": "چک باکس",
+    "components__sign_pdf__operation_view__cancel": "لغو",
+    "components__sign_pdf__operation_view__create": "ایجاد",
+    "components__sign_pdf__operation_view__clear": "پاک کردن",
+    "components__sign_pdf__operation_view__draw__here": "اینجا را بکشید",
+    "components__sign_pdf__operation_view__add": "افزودن",
+    "components__sign_pdf__operation_view__of": "از {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
+    "components__sign_pdf__detail__Finish": "پایان و امضا",
+    "components__sign_pdf__operation_view__draw": "نقاشی",
+    "components__sign_pdf__operation_view__type": "نوع",
+    "components__sign_pdf__operation_view__upload": "بارگذاری"
   }
 }

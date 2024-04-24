@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
     "components__pdf_to_html__button__download": "Scarica",
     "components__pdf_to_html__button__Convert": "Converti un altro"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Cambia stile",
+    "components__sign_pdf__operation_view__your_sign": "La tua firma",
+    "components__sign_pdf__operation_view__your_initials": "Le tue iniziali",
+    "components__sign_pdf__operation_view__text_field": "Campo di testo",
+    "components__sign_pdf__operation_view__date_field": "Campo data",
+    "components__sign_pdf__operation_view__checkbox": "Casella di controllo",
+    "components__sign_pdf__operation_view__cancel": "Annulla",
+    "components__sign_pdf__operation_view__create": "Crea",
+    "components__sign_pdf__operation_view__clear": "Pulisci",
+    "components__sign_pdf__operation_view__draw__here": "Disegna qui",
+    "components__sign_pdf__operation_view__add": "Aggiungi",
+    "components__sign_pdf__operation_view__of": "di {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
+    "components__sign_pdf__detail__Finish": "Termina e Firma",
+    "components__sign_pdf__operation_view__draw": "Disegna",
+    "components__sign_pdf__operation_view__type": "Tipo",
+    "components__sign_pdf__operation_view__upload": "Carica"
   }
 }

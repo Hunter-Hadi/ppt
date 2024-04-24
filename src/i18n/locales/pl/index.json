@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__pdf_to_html__button__download": "Pobierz",
     "components__pdf_to_html__button__Convert": "Konwertuj inny"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Zmień styl",
+    "components__sign_pdf__operation_view__your_sign": "Twoje podpisanie",
+    "components__sign_pdf__operation_view__your_initials": "Twoje inicjały",
+    "components__sign_pdf__operation_view__text_field": "Pole tekstowe",
+    "components__sign_pdf__operation_view__date_field": "Pole daty",
+    "components__sign_pdf__operation_view__checkbox": "Pole wyboru",
+    "components__sign_pdf__operation_view__cancel": "Anuluj",
+    "components__sign_pdf__operation_view__create": "Utwórz",
+    "components__sign_pdf__operation_view__clear": "Wyczyść",
+    "components__sign_pdf__operation_view__draw__here": "Rysuj tutaj",
+    "components__sign_pdf__operation_view__add": "Dodaj",
+    "components__sign_pdf__operation_view__of": "z {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
+    "components__sign_pdf__detail__Finish": "Zakończ i podpisz",
+    "components__sign_pdf__operation_view__draw": "Rysuj",
+    "components__sign_pdf__operation_view__type": "Wpisz",
+    "components__sign_pdf__operation_view__upload": "Prześlij"
   }
 }

@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
     "components__pdf_to_html__button__download": "Download",
     "components__pdf_to_html__button__Convert": "Converter outro"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Alterar estilo",
+    "components__sign_pdf__operation_view__your_sign": "Sua Assinatura",
+    "components__sign_pdf__operation_view__your_initials": "Suas Iniciais",
+    "components__sign_pdf__operation_view__text_field": "Campo de Texto",
+    "components__sign_pdf__operation_view__date_field": "Campo de Data",
+    "components__sign_pdf__operation_view__checkbox": "Caixa de Seleção",
+    "components__sign_pdf__operation_view__cancel": "Cancelar",
+    "components__sign_pdf__operation_view__create": "Criar",
+    "components__sign_pdf__operation_view__clear": "Limpar",
+    "components__sign_pdf__operation_view__draw__here": "Desenhe aqui",
+    "components__sign_pdf__operation_view__add": "Adicionar",
+    "components__sign_pdf__operation_view__of": "de {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
+    "components__sign_pdf__detail__Finish": "Concluir e Assinar",
+    "components__sign_pdf__operation_view__draw": "Desenhar",
+    "components__sign_pdf__operation_view__type": "Tipo",
+    "components__sign_pdf__operation_view__upload": "Carregar"
   }
 }

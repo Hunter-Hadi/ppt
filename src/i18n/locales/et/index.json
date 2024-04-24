@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__pdf_to_html__button__download": "Laadi alla",
     "components__pdf_to_html__button__Convert": "Teisenda uus"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Muuda stiili",
+    "components__sign_pdf__operation_view__your_sign": "Sinu allkiri",
+    "components__sign_pdf__operation_view__your_initials": "Sinu initsiaalid",
+    "components__sign_pdf__operation_view__text_field": "Tekstiväli",
+    "components__sign_pdf__operation_view__date_field": "Kuupäevaväli",
+    "components__sign_pdf__operation_view__checkbox": "Märkeruut",
+    "components__sign_pdf__operation_view__cancel": "Tühista",
+    "components__sign_pdf__operation_view__create": "Loo",
+    "components__sign_pdf__operation_view__clear": "Tühjenda",
+    "components__sign_pdf__operation_view__draw__here": "Joonista siia",
+    "components__sign_pdf__operation_view__add": "Lisa",
+    "components__sign_pdf__operation_view__of": "kokku {{NUMBER}}-st",
+    "components__sign_pdf__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
+    "components__sign_pdf__detail__Finish": "Lõpeta ja allkirjasta",
+    "components__sign_pdf__operation_view__draw": "Joonista",
+    "components__sign_pdf__operation_view__type": "Tüüp",
+    "components__sign_pdf__operation_view__upload": "Laadi üles"
   }
 }

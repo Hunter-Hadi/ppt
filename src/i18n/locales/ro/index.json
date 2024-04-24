@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Vă rugăm să încărcați tipul specificat de fișier PDF",
     "components__pdf_to_html__button__download": "Descarcă",
     "components__pdf_to_html__button__Convert": "Convertește altul"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Schimbă stilul",
+    "components__sign_pdf__operation_view__your_sign": "Semnătura ta",
+    "components__sign_pdf__operation_view__your_initials": "Inițialele tale",
+    "components__sign_pdf__operation_view__text_field": "Câmp text",
+    "components__sign_pdf__operation_view__date_field": "Câmp dată",
+    "components__sign_pdf__operation_view__checkbox": "Casetă de selectare",
+    "components__sign_pdf__operation_view__cancel": "Anulează",
+    "components__sign_pdf__operation_view__create": "Creează",
+    "components__sign_pdf__operation_view__clear": "Șterge",
+    "components__sign_pdf__operation_view__draw__here": "Desenează aici",
+    "components__sign_pdf__operation_view__add": "Adaugă",
+    "components__sign_pdf__operation_view__of": "din {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Vă rugăm să încărcați tipul specificat de fișier PDF",
+    "components__sign_pdf__detail__Finish": "Finalizează și semnează",
+    "components__sign_pdf__operation_view__draw": "Desenare",
+    "components__sign_pdf__operation_view__type": "Tip",
+    "components__sign_pdf__operation_view__upload": "Încărcare"
   }
 }

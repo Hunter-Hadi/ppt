@@ -3,6 +3,7 @@ import 'react-pdf/dist/Page/TextLayer.css';
 
 import { useDroppable } from '@dnd-kit/core';
 import { Box, IconButton, Stack, TextField } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useRef, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
@@ -46,6 +47,8 @@ interface IFunctionalitySignPdfShowPdfViewProps {
 export const FunctionalitySignPdfShowPdfView: FC<
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file, signaturePositions }) => {
+  const { t } = useTranslation();
+
   //PDF的页数
   const [numPages, setNumPages] = useState<number>(0);
   const defaultWidth = useRef(700);
@@ -268,7 +271,12 @@ export const FunctionalitySignPdfShowPdfView: FC<
             direction='row'
             alignItems='center'
           >
-            of {numPages}
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__of',
+              {
+                NUMBER: numPages,
+              },
+            )}
           </Stack>
 
           <IconButton size='small' onClick={onSelfAdaption}>

@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Nahrajte prosím požadovaný typ souboru PDF",
     "components__pdf_to_html__button__download": "Stáhnout",
     "components__pdf_to_html__button__Convert": "Převést další"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Změnit styl",
+    "components__sign_pdf__operation_view__your_sign": "Vaše podpis",
+    "components__sign_pdf__operation_view__your_initials": "Vaše iniciály",
+    "components__sign_pdf__operation_view__text_field": "Textové pole",
+    "components__sign_pdf__operation_view__date_field": "Pole pro datum",
+    "components__sign_pdf__operation_view__checkbox": "Zaškrtávací políčko",
+    "components__sign_pdf__operation_view__cancel": "Zrušit",
+    "components__sign_pdf__operation_view__create": "Vytvořit",
+    "components__sign_pdf__operation_view__clear": "Vymazat",
+    "components__sign_pdf__operation_view__draw__here": "Kreslete zde",
+    "components__sign_pdf__operation_view__add": "Přidat",
+    "components__sign_pdf__operation_view__of": "z {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Nahrajte prosím požadovaný typ souboru PDF",
+    "components__sign_pdf__detail__Finish": "Dokončit a podepsat",
+    "components__sign_pdf__operation_view__draw": "Kreslit",
+    "components__sign_pdf__operation_view__type": "Napsat",
+    "components__sign_pdf__operation_view__upload": "Nahrát"
   }
 }

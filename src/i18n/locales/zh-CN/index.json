@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "请上传指定的PDF文件类型",
     "components__pdf_to_html__button__download": "下载",
     "components__pdf_to_html__button__Convert": "转换另一个"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "更改样式",
+    "components__sign_pdf__operation_view__your_sign": "您的签名",
+    "components__sign_pdf__operation_view__your_initials": "您的缩写",
+    "components__sign_pdf__operation_view__text_field": "文本字段",
+    "components__sign_pdf__operation_view__date_field": "日期字段",
+    "components__sign_pdf__operation_view__checkbox": "复选框",
+    "components__sign_pdf__operation_view__cancel": "取消",
+    "components__sign_pdf__operation_view__create": "创建",
+    "components__sign_pdf__operation_view__clear": "清除",
+    "components__sign_pdf__operation_view__draw__here": "在此处绘制",
+    "components__sign_pdf__operation_view__add": "添加",
+    "components__sign_pdf__operation_view__of": "第{{NUMBER}}个",
+    "components__sign_pdf__unsupported_file_type_tip": "请上传指定的PDF文件类型",
+    "components__sign_pdf__detail__Finish": "完成并签名",
+    "components__sign_pdf__operation_view__draw": "绘制",
+    "components__sign_pdf__operation_view__type": "类型",
+    "components__sign_pdf__operation_view__upload": "上传"
   }
 }

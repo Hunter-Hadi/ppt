@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__pdf_to_html__button__download": "تحميل",
     "components__pdf_to_html__button__Convert": "تحويل آخر"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "تغيير النمط",
+    "components__sign_pdf__operation_view__your_sign": "توقيعك",
+    "components__sign_pdf__operation_view__your_initials": "الأحرف الأولى لاسمك",
+    "components__sign_pdf__operation_view__text_field": "حقل النص",
+    "components__sign_pdf__operation_view__date_field": "حقل التاريخ",
+    "components__sign_pdf__operation_view__checkbox": "خانة الاختيار",
+    "components__sign_pdf__operation_view__cancel": "إلغاء",
+    "components__sign_pdf__operation_view__create": "إنشاء",
+    "components__sign_pdf__operation_view__clear": "مسح",
+    "components__sign_pdf__operation_view__draw__here": "ارسم هنا",
+    "components__sign_pdf__operation_view__add": "إضافة",
+    "components__sign_pdf__operation_view__of": "من {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
+    "components__sign_pdf__detail__Finish": "إنهاء وتوقيع",
+    "components__sign_pdf__operation_view__draw": "رسم",
+    "components__sign_pdf__operation_view__type": "نوع",
+    "components__sign_pdf__operation_view__upload": "تحميل"
   }
 }

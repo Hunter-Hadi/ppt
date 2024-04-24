@@ -856,5 +856,24 @@
     "components__pdf_to_html__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
     "components__pdf_to_html__button__download": "Скачать",
     "components__pdf_to_html__button__Convert": "Преобразовать другой"
+  },
+  "functionality__sign_pdf": {
+    "components__sign_pdf__button_popover__change_style": "Изменить стиль",
+    "components__sign_pdf__operation_view__your_sign": "Ваша подпись",
+    "components__sign_pdf__operation_view__your_initials": "Ваши инициалы",
+    "components__sign_pdf__operation_view__text_field": "Текстовое поле",
+    "components__sign_pdf__operation_view__date_field": "Поле даты",
+    "components__sign_pdf__operation_view__checkbox": "Флажок",
+    "components__sign_pdf__operation_view__cancel": "Отмена",
+    "components__sign_pdf__operation_view__create": "Создать",
+    "components__sign_pdf__operation_view__clear": "Очистить",
+    "components__sign_pdf__operation_view__draw__here": "Нарисуйте здесь",
+    "components__sign_pdf__operation_view__add": "Добавить",
+    "components__sign_pdf__operation_view__of": "из {{NUMBER}}",
+    "components__sign_pdf__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
+    "components__sign_pdf__detail__Finish": "Завершить и подписать",
+    "components__sign_pdf__operation_view__draw": "Рисовать",
+    "components__sign_pdf__operation_view__type": "Тип",
+    "components__sign_pdf__operation_view__upload": "Загрузить"
   }
 }

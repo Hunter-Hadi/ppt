@@ -20,10 +20,8 @@ export const pdfAddView = async (file: File, addViewList: ISignData[]) => {
         const { pdfIndex } = view;
         const page = pdfDoc.getPage(pdfIndex);
         const canvas = document.querySelector(`.sample-canvas-${pdfIndex + 1} .lower-canvas`) as HTMLCanvasElement;
-        console.log('simply canvas', canvas)
         if (canvas) {
             const image = canvas.toDataURL('image/png');
-            console.log('simply image', image)
             const pdfPageSize = page.getSize();
             const pngImage = await pdfDoc.embedPng(image);
             page.drawImage(pngImage, {

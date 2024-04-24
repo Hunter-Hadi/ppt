@@ -1,4 +1,5 @@
 import { Box, Button, Modal, Stack, Tab, Tabs } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC, useRef, useState } from 'react';
 
 import { textToBase64Image } from '@/features/functionality_sign_pdf/utils/toBase64';
@@ -33,6 +34,8 @@ interface IFunctionalitySignPdfSignModalProps {
 const FunctionalitySignPdfSignatureModal: FC<
   IFunctionalitySignPdfSignModalProps
 > = ({ onClose, onCreate, modalOpen }) => {
+  const { t } = useTranslation();
+
   const [tabValue, setTabValue] = useState<ISignatureType>('type');
   const signaturePadRef =
     useRef<IFunctionalitySignPdfSignaturePadHandles | null>(null);
@@ -81,9 +84,24 @@ const FunctionalitySignPdfSignatureModal: FC<
             onChange={handleChange}
             aria-label='basic tabs example'
           >
-            <Tab label='Draw' value='draw' />
-            <Tab label='Type' value='type' />
-            <Tab label='Upload' value='upload' />
+            <Tab
+              label={t(
+                'functionality__sign_pdf:components__sign_pdf__operation_view__draw',
+              )}
+              value='draw'
+            />
+            <Tab
+              label={t(
+                'functionality__sign_pdf:components__sign_pdf__operation_view__type',
+              )}
+              value='type'
+            />
+            <Tab
+              label={t(
+                'functionality__sign_pdf:components__sign_pdf__operation_view__upload',
+              )}
+              value='upload'
+            />
           </Tabs>
         </Box>
         <Box
@@ -116,14 +134,18 @@ const FunctionalitySignPdfSignatureModal: FC<
           gap={1}
         >
           <Button sx={{ borderRadius: 1 }} variant='outlined' onClick={onClose}>
-            Cancel
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__cancel',
+            )}
           </Button>
           <Button
             sx={{ borderRadius: 1 }}
             variant='contained'
             onClick={onConfirm}
           >
-            Create
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__create',
+            )}
           </Button>
         </Stack>
       </Box>
