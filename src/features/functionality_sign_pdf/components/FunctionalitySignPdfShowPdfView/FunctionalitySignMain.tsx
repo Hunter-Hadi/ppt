@@ -10,7 +10,7 @@ import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySi
 import { useFunctionalitySignScrollPagination } from '../../hooks/useFunctionalitySignScrollPagination';
 import { ISignData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfRenderCanvas from './components/FunctionalitySignPdfRenderCanvas';
+import FunctionalitySignPdfRenderCanvas from './FunctionalitySignPdfRenderCanvas';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,

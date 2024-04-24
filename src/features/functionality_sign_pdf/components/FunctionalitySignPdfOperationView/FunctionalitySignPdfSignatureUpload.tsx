@@ -8,7 +8,7 @@ import {
 
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 
-import FunctionalitySignPdfColorButtonPopover from './FunctionalitySignPdfColorButtonPopover';
+import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalitySignPdfSignatureUploadHandles {
   getPngBase64: () => string;

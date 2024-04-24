@@ -2,7 +2,7 @@ import { Box, Popover, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import { FC, useState } from 'react';
 
-import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
   text: string;
   onSelectedFonts: (fonts: string) => void;

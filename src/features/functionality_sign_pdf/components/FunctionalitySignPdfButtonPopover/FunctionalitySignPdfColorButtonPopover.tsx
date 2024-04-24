@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import { FC, useState } from 'react';
 
-import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
   onSelectedColor: (coloe: string) => void;
   currentColor?: string;

@@ -5,8 +5,8 @@ import { FC } from 'react';
 
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfOperationDraggableView from './components/FunctionalitySignPdfShowView';
-import FunctionalitySignPdfSignatureView from './components/FunctionalitySignPdfSignatureView';
+import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfShowView';
+import FunctionalitySignPdfSignatureView from './FunctionalitySignPdfSignatureView';
 
 interface IFunctionalitySignPdfOperationView {
   activeDragData?: IActiveDragData;

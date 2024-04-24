@@ -6,8 +6,8 @@ import {
   useState,
 } from 'react';
 
-import FunctionalitySignPdfColorButtonPopover from './FunctionalitySignPdfColorButtonPopover';
-import FunctionalitySignPdfFontsButtonPopover from './FunctionalitySignPdfFontsButtonPopover';
+import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
+import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalitySignPdfSignatureTypeHandles {
   getTextVal: () => string;

@@ -9,8 +9,8 @@ import {
 } from 'react';
 import SignaturePad from 'signature_pad';
 
-import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfColorButtonPopover from './FunctionalitySignPdfColorButtonPopover';
+import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalitySignPdfSignaturePadHandles {

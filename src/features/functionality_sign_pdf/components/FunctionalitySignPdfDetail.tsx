@@ -13,8 +13,8 @@ import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
 import { pdfAddView } from '../utils/pdfAddView';
-import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView';
-import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView';
+import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfMain';
+import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView/FunctionalitySignMain';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',

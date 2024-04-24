@@ -6,9 +6,9 @@ import {
   onChangeFabricColor,
 } from '@/features/functionality_sign_pdf/utils/fabricjsTools';
 
-import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfColorButtonPopover from '../../FunctionalitySignPdfOperationView/components/FunctionalitySignPdfColorButtonPopover';
-import FunctionalitySignPdfFontsButtonPopover from '../../FunctionalitySignPdfOperationView/components/FunctionalitySignPdfFontsButtonPopover';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
+import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
 interface IFunctionalitySignTextTools {
   controlDiv: {
     left: number;

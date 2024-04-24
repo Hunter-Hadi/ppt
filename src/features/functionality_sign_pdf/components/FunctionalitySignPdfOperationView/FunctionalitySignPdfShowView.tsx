@@ -2,7 +2,7 @@ import { useDraggable } from '@dnd-kit/core';
 import { Box, Stack } from '@mui/material';
 import { FC } from 'react';
 
-import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 
 const FunctionalitySignPdfOperationDraggableView: FC<{
   id: string;

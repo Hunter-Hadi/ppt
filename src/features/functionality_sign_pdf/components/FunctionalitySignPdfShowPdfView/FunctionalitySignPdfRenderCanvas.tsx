@@ -3,7 +3,7 @@ import { fabric } from 'fabric';
 import { FabricJSCanvas, useFabricJSEditor } from 'fabricjs-react';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
-import { ISignData } from '../../FunctionalitySignPdfDetail';
+import { ISignData } from '../FunctionalitySignPdfDetail';
 import { FunctionalitySignTextTools } from './FunctionalitySignTextTools';
 
 interface IFunctionalitySignPdfShowPdfCanvasProps {

@@ -1,8 +1,8 @@
 import { Box, Button, Popover, Stack, Typography } from '@mui/material';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
-import { IActiveDragData } from '../../FunctionalitySignPdfDetail';
-import FunctionalitySignPdfIcon from '../../FunctionalitySignPdfIcon';
+import { IActiveDragData } from '../FunctionalitySignPdfDetail';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfShowView';
 import FunctionalitySignPdfSignatureModal, {
   ISignatureType,
