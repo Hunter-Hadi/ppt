@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Typ",
     "components__sign_pdf__operation_view__upload": "Hochladen",
     "components__sign_pdf__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
-    "components__sign_pdf__detail__Finish": "Abschließen & Unterzeichnen"
+    "components__sign_pdf__detail__empty_sign": "Leere Unterschrift",
+    "components__sign_pdf__detail__empty_text": "Leerer Text"
   }
 }

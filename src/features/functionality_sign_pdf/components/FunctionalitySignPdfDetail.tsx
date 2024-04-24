@@ -6,14 +6,15 @@ import {
   useSensor,
   useSensors,
 } from '@dnd-kit/core';
-import { Box, Button, Stack, Typography } from '@mui/material';
+import { LoadingButton } from '@mui/lab';
+import { Box, Stack, Typography } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
-import { pdfAddView } from '../utils/pdfAddView';
+import { pdfAddViewSave } from '../utils/pdfAddViewSave';
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfMain';
 import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView/FunctionalitySignMain';
 
@@ -42,7 +43,7 @@ export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file }) => {
   const { t } = useTranslation();
-
+  const [saveButtonLoading, setSaveButtonLoading] = useState(false);
   const dndDragRef = useRef<HTMLElement | null>(null);
   const [signaturePositions, setSignaturePositions] = useState<ISignData[]>([]);
   const pdfViewHeight = useMemo(() => {
@@ -103,8 +104,10 @@ export const FunctionalitySignPdfDetail: FC<
   const onDragStart = (event) => {
     setActiveDragData(event.active.data.current);
   };
-  const onPdfAddView = () => {
-    pdfAddView(file, signaturePositions);
+  const onPdfAddViewSave = async () => {
+    setSaveButtonLoading(true);
+    await pdfAddViewSave(file, signaturePositions);
+    setSaveButtonLoading(false);
   };
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -155,16 +158,19 @@ export const FunctionalitySignPdfDetail: FC<
             <FunctionalitySignPdfOperationView
               activeDragData={activeDragData}
             />
-            <Button
-              variant='contained'
-              onClick={onPdfAddView}
+            <LoadingButton
+              variant={saveButtonLoading ? 'outlined' : 'contained'}
+              onClick={onPdfAddViewSave}
               sx={{ marginTop: 2, width: '100%' }}
               size='large'
+              loadingPosition='start'
+              disabled={saveButtonLoading}
+              loading={saveButtonLoading}
             >
               {t(
                 'functionality__sign_pdf:components__sign_pdf__detail__Finish',
               )}
-            </Button>
+            </LoadingButton>
           </Box>
         </Box>
       </Stack>
@@ -176,7 +182,6 @@ export const FunctionalitySignPdfDetail: FC<
             flexDirection: 'column',
             alignItems: 'center',
             cursor: 'grabbing',
-            border: '1px dotted #e8e8e8',
             justifyContent: 'center',
           }}
         >
@@ -193,7 +198,22 @@ export const FunctionalitySignPdfDetail: FC<
             )}
           {activeDragData &&
             activeDragData.type === 'image' &&
-            !activeDragData.value && <div>Empty Signature</div>}
+            !activeDragData.value && (
+              <Box
+                sx={{
+                  padding: 1,
+                  backgroundColor: '#9065b0a3',
+                  borderRadius: 2,
+                }}
+              >
+                <Typography>
+                  {' '}
+                  {t(
+                    'functionality__sign_pdf:components__sign_pdf__detail__empty_sign',
+                  )}
+                </Typography>
+              </Box>
+            )}
           {activeDragData &&
             (activeDragData.type === 'text' ||
               activeDragData.type === 'i-text' ||
@@ -206,7 +226,10 @@ export const FunctionalitySignPdfDetail: FC<
                   },
                 }}
               >
-                {activeDragData.value || 'Text Field'}
+                {activeDragData.value ||
+                  t(
+                    'functionality__sign_pdf:components__sign_pdf__detail__empty_text',
+                  )}
               </Typography>
             )}
         </DragOverlay>

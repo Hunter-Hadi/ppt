@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "प्रकार",
     "components__sign_pdf__operation_view__upload": "अपलोड करा",
     "components__sign_pdf__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
-    "components__sign_pdf__detail__Finish": "संपले आणि साइन करा"
+    "components__sign_pdf__detail__empty_sign": "रिक्त सही",
+    "components__sign_pdf__detail__empty_text": "रिक्त मजकूर"
   }
 }

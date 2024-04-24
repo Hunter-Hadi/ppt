@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Unesi",
     "components__sign_pdf__operation_view__upload": "Otpremi",
     "components__sign_pdf__unsupported_file_type_tip": "Molimo otpremite odgovarajući tip PDF fajla",
-    "components__sign_pdf__detail__Finish": "Završi i potpiši"
+    "components__sign_pdf__detail__empty_sign": "Prazan potpis",
+    "components__sign_pdf__detail__empty_text": "Prazan tekst"
   }
 }

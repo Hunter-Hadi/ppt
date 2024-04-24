@@ -10,10 +10,18 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
   onSelectedFonts: (fonts: string) => void;
   isShowFontsName?: boolean;
   fontSize?: number;
+  fontsList?: string[];
 }
 const FunctionalitySignPdfFontsButtonPopover: FC<
   IFunctionalitySignPdfColorButtonPopoverProps
-> = ({ onSelectedFonts, text, currentFonts, isShowFontsName, fontSize }) => {
+> = ({
+  onSelectedFonts,
+  text,
+  currentFonts,
+  isShowFontsName,
+  fontSize,
+  fontsList,
+}) => {
   const { t } = useTranslation();
 
   const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
@@ -71,11 +79,13 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
           },
         }}
       >
-        {[
-          'Caveat, cursive',
-          '"La Belle Aurore", cursive',
-          '"Dancing Script", cursive',
-        ].map((fonts) => (
+        {(
+          fontsList || [
+            'Caveat, cursive',
+            '"La Belle Aurore", cursive',
+            '"Dancing Script", cursive',
+          ]
+        ).map((fonts) => (
           <Box key={fonts}>
             <Button
               sx={{

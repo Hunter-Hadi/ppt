@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Uri",
     "components__sign_pdf__operation_view__upload": "I-upload",
     "components__sign_pdf__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
-    "components__sign_pdf__detail__Finish": "Tapos & Lagdaan"
+    "components__sign_pdf__detail__empty_sign": "Walang Lagda",
+    "components__sign_pdf__detail__empty_text": "Walang Teksto"
   }
 }

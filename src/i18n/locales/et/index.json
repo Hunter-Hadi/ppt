@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Tüüp",
     "components__sign_pdf__operation_view__upload": "Laadi üles",
     "components__sign_pdf__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
-    "components__sign_pdf__detail__Finish": "Lõpeta ja allkirjasta"
+    "components__sign_pdf__detail__empty_sign": "Tühi allkiri",
+    "components__sign_pdf__detail__empty_text": "Tühi tekst"
   }
 }

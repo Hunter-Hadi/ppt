@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Typ",
     "components__sign_pdf__operation_view__upload": "Nahrát",
     "components__sign_pdf__unsupported_file_type_tip": "Prosím, nahrajte požadovaný typ souboru PDF",
-    "components__sign_pdf__detail__Finish": "Dokončit a podepsat"
+    "components__sign_pdf__detail__empty_sign": "Prázdný podpis",
+    "components__sign_pdf__detail__empty_text": "Prázdný text"
   }
 }

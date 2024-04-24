@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Type",
     "components__sign_pdf__operation_view__upload": "Uploaden",
     "components__sign_pdf__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
-    "components__sign_pdf__detail__Finish": "Voltooien en ondertekenen"
+    "components__sign_pdf__detail__empty_sign": "Lege handtekening",
+    "components__sign_pdf__detail__empty_text": "Lege tekst"
   }
 }

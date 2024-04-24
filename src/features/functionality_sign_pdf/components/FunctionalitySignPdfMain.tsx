@@ -1,4 +1,5 @@
 import { Stack } from '@mui/material';
+import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
 import { lazy, Suspense, useState } from 'react';
 
@@ -41,10 +42,34 @@ const FunctionalityPdfToImage = () => {
       alignItems='center'
       justifyContent='center'
       sx={{
-        pb: 5,
         width: '100%',
       }}
     >
+      <Head>
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link
+          rel='preconnect'
+          href='https://fonts.gstatic.com'
+          crossOrigin='true'
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap'
+          rel='stylesheet'
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=La+Belle+Aurore&display=swap'
+          rel='stylesheet'
+        ></link>
+        <link
+          href='https://fonts.googleapis.com/css2?family=Helvetica|Times+New+Roman|Courier|Georgia|Verdana|Tahoma|Trebuchet+MS|Garamond|Brush+Script+MT&display=swap'
+          rel='stylesheet'
+        />
+
+        <link
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&display=swap'
+          rel='stylesheet'
+        ></link>
+      </Head>
       {!fileData && (
         <FunctionalityCommonUploadButton
           inputProps={{

@@ -4,7 +4,7 @@ import { ISignData } from "../components/FunctionalitySignPdfDetail";
 
 
 //file 是pdf
-export const pdfAddView = async (file: File, addViewList: ISignData[]) => {
+export const pdfAddViewSave = async (file: File, addViewList: ISignData[]) => {
     // Create a new PDFDocument or load the existing PDF file
     let pdfDoc: PDFDocument | null = null;
     try {

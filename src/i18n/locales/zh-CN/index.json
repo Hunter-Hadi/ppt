@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "类型",
     "components__sign_pdf__operation_view__upload": "上传",
     "components__sign_pdf__unsupported_file_type_tip": "请上传指定的PDF文件类型",
-    "components__sign_pdf__detail__Finish": "完成并签署"
+    "components__sign_pdf__detail__empty_sign": "空白签名",
+    "components__sign_pdf__detail__empty_text": "空白文本"
   }
 }

@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Tipo",
     "components__sign_pdf__operation_view__upload": "Fazer Upload",
     "components__sign_pdf__unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
-    "components__sign_pdf__detail__Finish": "Concluir e Assinar"
+    "components__sign_pdf__detail__empty_sign": "Assinatura Vazia",
+    "components__sign_pdf__detail__empty_text": "Texto Vazio"
   }
 }

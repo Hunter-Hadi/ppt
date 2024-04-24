@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Typ",
     "components__sign_pdf__operation_view__upload": "Ladda upp",
     "components__sign_pdf__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
-    "components__sign_pdf__detail__Finish": "Slutför och signera"
+    "components__sign_pdf__detail__empty_sign": "Tom Signatur",
+    "components__sign_pdf__detail__empty_text": "Tom Text"
   }
 }

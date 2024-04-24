@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Loại",
     "components__sign_pdf__operation_view__upload": "Tải lên",
     "components__sign_pdf__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
-    "components__sign_pdf__detail__Finish": "Hoàn thành & Ký"
+    "components__sign_pdf__detail__empty_sign": "Chữ ký trống",
+    "components__sign_pdf__detail__empty_text": "Văn bản trống"
   }
 }

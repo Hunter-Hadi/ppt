@@ -23,6 +23,7 @@ export interface IUploadButtonProps {
   isDrag?: boolean;
   onChange?: (fileList: FileList) => void;
   handleUnsupportedFileType?: () => void;
+  fontColor?: string;
 }
 
 const UploadButton: FC<
@@ -37,6 +38,7 @@ const UploadButton: FC<
     handleUnsupportedFileType,
     buttonProps,
     inputProps,
+    fontColor,
   } = props;
   const { t } = useTranslation();
 
@@ -103,13 +105,14 @@ const UploadButton: FC<
       {!isSidebarDragOver && children}
       {isSidebarDragOver && (
         <Stack direction='column' alignItems='center'>
-          <FileOpenOutlinedIcon sx={{ fontSize: 50 }} />
+          <FileOpenOutlinedIcon sx={{ fontSize: 50, color: fontColor }} />
           <Typography
             sx={{
               fontSize: {
                 xs: 18,
                 lg: 20,
               },
+              color: fontColor,
             }}
           >
             {t('features__common:components__upload_button_drop_title')}

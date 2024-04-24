@@ -180,19 +180,14 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
         )}
         {!imgVal && (
           <FunctionalityCommonUploadButton
+            themeColor='white'
+            isShowUploadIcon={false}
+            contentBoxSx={{
+              height: 200,
+            }}
             inputProps={{
               multiple: true,
-            }}
-            buttonProps={{
-              sx: {
-                display: 'flex',
-                flexDirection: 'column',
-                height: 200,
-                width: '100%',
-                alignItems: 'center',
-                justifyContent: 'center',
-                border: '1px dashed',
-              },
+              accept: 'image/*',
             }}
             onChange={onUploadFile}
             handleUnsupportedFileType={handleUnsupportedFileTypeTip}
@@ -205,7 +200,7 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
           }}
           direction='row-reverse'
         >
-          <Button disabled={!!imgVal} onClick={() => setImgVal('')}>
+          <Button disabled={!imgVal} onClick={() => setImgVal('')}>
             {t(
               'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
             )}

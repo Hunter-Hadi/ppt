@@ -68,6 +68,21 @@ export const FunctionalitySignTextTools: FC<IFunctionalitySignTextTools> = ({
             isShowFontsName={true}
             fontSize={18}
             onSelectedFonts={onSelectedFonts}
+            fontsList={[
+              'Helvetica',
+              'Times New Roman',
+              'Courier',
+              'Georgia',
+              'Serif',
+              'Verdana',
+              'Sans-serif',
+              'Lucida Console',
+              'Monospace',
+              'Tahoma',
+              'Trebuchet MS',
+              'Garamond',
+              'Brush Script MT',
+            ]}
           />
         )}
         {!isImage && (

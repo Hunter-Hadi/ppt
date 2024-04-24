@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Type",
     "components__sign_pdf__operation_view__upload": "Télécharger",
     "components__sign_pdf__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
-    "components__sign_pdf__detail__Finish": "Terminer et signer"
+    "components__sign_pdf__detail__empty_sign": "Signature vide",
+    "components__sign_pdf__detail__empty_text": "Texte vide"
   }
 }

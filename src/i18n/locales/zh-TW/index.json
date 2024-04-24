@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "類型",
     "components__sign_pdf__operation_view__upload": "上傳",
     "components__sign_pdf__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
-    "components__sign_pdf__detail__Finish": "完成並簽署"
+    "components__sign_pdf__detail__empty_sign": "空白簽名",
+    "components__sign_pdf__detail__empty_text": "空白文字"
   }
 }

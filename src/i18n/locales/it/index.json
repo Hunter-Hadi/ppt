@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__type": "Tipo",
     "components__sign_pdf__operation_view__upload": "Carica",
     "components__sign_pdf__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
-    "components__sign_pdf__detail__Finish": "Termina e Firma"
+    "components__sign_pdf__detail__empty_sign": "Firma Vuota",
+    "components__sign_pdf__detail__empty_text": "Testo Vuoto"
   }
 }

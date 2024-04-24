@@ -1,6 +1,5 @@
 import { Stack, Typography } from '@mui/material';
 import dayjs from 'dayjs';
-import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 
@@ -19,26 +18,6 @@ const FunctionalitySignPdfOperationView: FC<
 
   return (
     <Stack flexDirection='column'>
-      <Head>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link
-          rel='preconnect'
-          href='https://fonts.gstatic.com'
-          crossOrigin='true'
-        />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap'
-          rel='stylesheet'
-        />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=La+Belle+Aurore&display=swap'
-          rel='stylesheet'
-        ></link>
-        <link
-          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&display=swap'
-          rel='stylesheet'
-        ></link>
-      </Head>
       <Stack direction='column' gap={2}>
         <FunctionalitySignPdfSignatureView
           dragId={'draggable-0'}
