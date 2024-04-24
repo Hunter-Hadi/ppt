@@ -12,7 +12,7 @@ import { APP_IS_PROD } from '@/global_constants';
 export const MIXPANEL_PROJECT_ID = process.env.NEXT_PUBLIC_MIXPANEL_PROJECT_ID;
 
 const initMixPanel = () => {
-  if (mixpanel().hasOwnProperty('get_distinct_id')) {
+  if (mixpanel.hasOwnProperty('get_distinct_id')) {
     return;
   }
   mixpanel.init(MIXPANEL_PROJECT_ID, {
