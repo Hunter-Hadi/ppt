@@ -49,18 +49,18 @@ export const FunctionalitySignPdfDetail: FC<
   const [activeDragData, setActiveDragData] = useState<
     IActiveDragData | undefined
   >(undefined);
-
   const handleDragEnd = (event: DragEndEvent) => {
     setActiveDragData(undefined);
-    console.log('simply handleDragEnd', event);
     if (event.over && event.over.id && event.active.data.current?.value) {
       const { delta, over, active } = event;
-      // 确定目标组件的坐标
+      const rollingView = document.getElementById(
+        'functionality-sign-pdf-rolling-view',
+      );
       const droppableElement = document.getElementById(active.id as string);
       const activeRect = droppableElement?.getBoundingClientRect();
       let distanceParentTop = 0;
-      if (dndDragRef.current) {
-        distanceParentTop = dndDragRef.current?.scrollTop || 0;
+      if (rollingView) {
+        distanceParentTop = rollingView?.scrollTop || 0;
       }
       const signaturePositionData = {
         width: over.rect.width,
@@ -76,17 +76,23 @@ export const FunctionalitySignPdfDetail: FC<
           value: string;
         },
       };
-
+      const distanceX =
+        over.rect.width +
+        over.rect.left -
+        (activeRect?.left || 0) -
+        (activeRect?.width || 0) / 2;
       const newSignaturePosition = {
-        x: over.rect.width + delta.x, //左边的宽度➕鼠标移动的距离
+        x: over.rect.width + delta.x - distanceX, //左边的宽度➕鼠标移动的距离
         y: (activeRect?.top || 0) - over.rect.top + delta.y - distanceParentTop, //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
         ...signaturePositionData,
       };
-      console.log('simply newSignaturePosition 1111', newSignaturePosition);
       signaturePositions.push(newSignaturePosition);
 
       setSignaturePositions(cloneDeep(signaturePositions));
     }
+  };
+  const onDragMove = (event) => {
+    console.log('simply onDragMove', event);
   };
   const onDragStart = (event) => {
     console.log('simply onDragStart', event);
@@ -107,6 +113,7 @@ export const FunctionalitySignPdfDetail: FC<
     <DndContext
       sensors={sensors}
       onDragStart={onDragStart}
+      onDragMove={onDragMove}
       onDragEnd={handleDragEnd}
     >
       <Stack
@@ -121,10 +128,9 @@ export const FunctionalitySignPdfDetail: FC<
           sx={{
             flex: 1,
             backgroundColor: '#fafafa',
-            overflowY: 'auto',
-            overflowX: 'hidden',
             height: pdfViewHeight,
             border: '1px solid #e8e8e8',
+            overflow: 'hidden',
           }}
         >
           <FunctionalitySignPdfShowPdfView
@@ -164,6 +170,7 @@ export const FunctionalitySignPdfDetail: FC<
             flexDirection: 'column',
             alignItems: 'center',
             cursor: 'grabbing',
+            border: '1px solid #e8e8e8',
           }}
         >
           {activeDragData &&

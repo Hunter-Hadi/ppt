@@ -255,8 +255,8 @@ const FunctionalitySignPdfRenderCanvas: FC<
     >
       <Box
         sx={{
-          width: sizeInfo.width || '100%',
-          height: sizeInfo.height || '100%',
+          width: sizeInfo?.width || '100%',
+          height: sizeInfo?.height || '100%',
           transform: `scale(${scaleFactor})`,
           transformOrigin: 'top left' /* 变形基点在右上角 */,
           border: '1px solid #e8e8e8',
