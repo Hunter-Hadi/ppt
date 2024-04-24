@@ -15,7 +15,7 @@ export const PLAN_PRICE_MAP: Record<RENDER_PLAN_TYPE, number> = {
   pro_team: 19.99,
 
   elite: 39.99,
-  elite_yearly: 299.99,
+  elite_yearly: 239.99,
   elite_team: 39.99,
 };
 
