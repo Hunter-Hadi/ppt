@@ -4,13 +4,18 @@ import { FC, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
-  text: string;
+  currentFonts?: string;
+  text?: string;
   onSelectedFonts: (fonts: string) => void;
+  isShowFontsName?: boolean;
+  fontSize?: number;
 }
 const FunctionalitySignPdfFontsButtonPopover: FC<
   IFunctionalitySignPdfColorButtonPopoverProps
-> = ({ onSelectedFonts, text }) => {
+> = ({ onSelectedFonts, text, currentFonts, isShowFontsName, fontSize }) => {
   const [anchorEl, setAnchorEl] = useState(null);
+  const [newCurrentFonts, setNewCurrentFonts] = useState('');
+
   const handleClick = (event) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
   };
@@ -18,6 +23,7 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
   const handleColorSelect = (fonts) => {
     setAnchorEl(null);
     onSelectedFonts(fonts);
+    setNewCurrentFonts(fonts);
   };
 
   const open = Boolean(anchorEl);
@@ -43,7 +49,7 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
           },
         }}
       >
-        Change style
+        {currentFonts ? newCurrentFonts || currentFonts : 'Change style'}
       </Typography>
       <Popover
         open={open}
@@ -76,12 +82,12 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
                   fontWeight: 'bold',
                   fontFamily: fonts,
                   fontSize: {
-                    xs: 25,
-                    lg: 25,
+                    xs: fontSize || 25,
+                    lg: fontSize || 25,
                   },
                 }}
               >
-                {text || 'Your Signature'}
+                {isShowFontsName ? fonts : text || 'Your Signature'}
               </Typography>
             </Button>
           </Box>

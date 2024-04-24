@@ -5,7 +5,12 @@ import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
 import { ISignData } from '../FunctionalitySignPdfDetail';
 import { FunctionalitySignTextTools } from './FunctionalitySignTextTools';
-
+export interface IControlDiv {
+  left: number;
+  top: number;
+  windowLeft: number;
+  windowTop: number;
+}
 interface IFunctionalitySignPdfShowPdfCanvasProps {
   renderList: ISignData[];
   canvasIndex: number;
@@ -18,14 +23,10 @@ const FunctionalitySignPdfRenderCanvas: FC<
   IFunctionalitySignPdfShowPdfCanvasProps
 > = ({ renderList, canvasIndex, sizeInfo }) => {
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
-  const divRef = useRef<any>(null);
+  const topWrapRef = useRef<HTMLElement | null>(null);
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [canvasRenderList, serCanvasRenderList] = useState<string[]>([]);
-  const [controlDiv, setControlDiv] = useState({
-    display: 'none',
-    left: 0,
-    top: 0,
-  });
+  const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null);
   const newRenderList = useMemo(() => {
     return renderList.filter((signaturePosition) => {
       return !canvasRenderList.find((item) => item === signaturePosition.id);
@@ -37,14 +38,14 @@ const FunctionalitySignPdfRenderCanvas: FC<
       const handleKeyDown = (event) => {
         if (event.key === 'Delete' || event.key === 'Backspace') {
           var activeObjects = editor?.canvas.getActiveObjects();
-          if (activeObjects.length) {
+          if (activeObjects.length !== 1) {
             // 循环并逐个移除
             activeObjects.forEach(function (object) {
               editor?.canvas.remove(object);
             });
+            editor?.canvas.discardActiveObject(); // 取消选中状态
+            editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
           }
-          editor?.canvas.discardActiveObject(); // 取消选中状态
-          editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
         }
       };
       // 添加事件监听
@@ -58,18 +59,17 @@ const FunctionalitySignPdfRenderCanvas: FC<
   // 当对象被选中或移动时调用
   const handleObjectSelected = (object?: any) => {
     try {
+      const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
+      console.log('simply topWrapRefRect', object, topWrapRefRect);
       if (object) {
         setControlDiv({
-          display: 'block',
           left: object.left,
           top: object.top,
+          windowLeft: topWrapRefRect?.x || 0,
+          windowTop: topWrapRefRect?.y || 0,
         });
       } else {
-        setControlDiv({
-          display: 'none',
-          left: 0,
-          top: 0,
-        });
+        setControlDiv(null);
       }
     } catch (e) {
       console.log('simply error', e);
@@ -152,7 +152,7 @@ const FunctionalitySignPdfRenderCanvas: FC<
       });
       // 确保再次选择时移动操作div
       editor.canvas.on('selection:cleared', function (event) {
-        console.log('simply object:updated', event);
+        // console.log('simply object:updated', event);
         handleObjectSelected();
       });
     }
@@ -160,7 +160,7 @@ const FunctionalitySignPdfRenderCanvas: FC<
   useEffect(() => {
     try {
       //初始化画布高度宽度
-      if (!editor?.canvas || !divRef.current) return;
+      if (!editor?.canvas || !topWrapRef.current) return;
       editor.canvas.setDimensions({
         width: sizeInfo.width,
         height: sizeInfo.height,
@@ -168,12 +168,14 @@ const FunctionalitySignPdfRenderCanvas: FC<
       let scaleFactor = 1; // Current scale factor
       const resizeCanvas = () => {
         //自适应缩放
-        let newWidth = divRef.current.clientWidth;
-        scaleFactor = newWidth / sizeInfo.width; // Calculate new scale factor
-        setScaleFactor(parseFloat(scaleFactor.toFixed(3)));
+        let newWidth = topWrapRef.current?.clientWidth;
+        if (newWidth) {
+          scaleFactor = newWidth / sizeInfo.width; // Calculate new scale factor
+          setScaleFactor(parseFloat(scaleFactor.toFixed(3)));
+        }
       };
       const resizeObserver = new ResizeObserver(resizeCanvas);
-      resizeObserver.observe(divRef.current);
+      resizeObserver.observe(topWrapRef.current);
       resizeCanvas();
       return () => {
         resizeObserver.disconnect();
@@ -181,7 +183,7 @@ const FunctionalitySignPdfRenderCanvas: FC<
     } catch (e) {
       console.error('simply error', e);
     }
-  }, [divRef, editor, sizeInfo]);
+  }, [topWrapRef, editor, sizeInfo]);
 
   useEffect(() => {
     if (newRenderList.length > 0 && editor) {
@@ -202,7 +204,7 @@ const FunctionalitySignPdfRenderCanvas: FC<
           hasRotatingPoint: false, // 禁用旋转控制点
           lockRotation: true, // 锁定旋转
         };
-        if (signaturePosition.data.type === 'base64') {
+        if (signaturePosition.data.type === 'image') {
           const image = new Image();
           image.src = signaturePosition.data.value;
 
@@ -218,8 +220,25 @@ const FunctionalitySignPdfRenderCanvas: FC<
             fabricImage.uniqueKey = signaturePosition.id;
             editor.canvas.add(fabricImage);
           };
-        } else if (signaturePosition.data.type === 'text') {
+        } else if (signaturePosition.data.type === 'textbox') {
           const text = new fabric.Textbox(signaturePosition.data.value, {
+            ...positionData,
+            minScaleLimit: 1,
+            maxScaleLimit: 1,
+            width: 300,
+          });
+          text.uniqueKey = signaturePosition.id;
+          editor.canvas.add(text);
+        } else if (signaturePosition.data.type === 'text') {
+          const text = new fabric.Text(signaturePosition.data.value, {
+            ...positionData,
+            minScaleLimit: 1,
+            maxScaleLimit: 1,
+          });
+          text.uniqueKey = signaturePosition.id;
+          editor.canvas.add(text);
+        } else if (signaturePosition.data.type === 'i-text') {
+          const text = new fabric.IText(signaturePosition.data.value, {
             ...positionData,
             minScaleLimit: 1,
             maxScaleLimit: 1,
@@ -237,7 +256,7 @@ const FunctionalitySignPdfRenderCanvas: FC<
         width: '100%',
         height: '100%',
       }}
-      ref={divRef}
+      ref={topWrapRef}
     >
       <Box
         sx={{
@@ -246,20 +265,22 @@ const FunctionalitySignPdfRenderCanvas: FC<
           transform: `scale(${scaleFactor})`,
           transformOrigin: 'top left' /* 变形基点在右上角 */,
           border: '1px solid #e8e8e8',
-          position: 'relative',
+          // position: 'relative',
         }}
       >
         <FabricJSCanvas
           className={`sample-canvas-${canvasIndex}`}
           onReady={onReady}
         />
-        {selectedObjects?.length === 1 && (
-          <FunctionalitySignTextTools
-            controlDiv={{ ...controlDiv, scaleFactor }}
-            editor={editor}
-          />
-        )}
       </Box>
+      {selectedObjects?.length === 1 && controlDiv && (
+        <FunctionalitySignTextTools
+          key={selectedObjects[0].uniqueKey}
+          controlDiv={{ ...controlDiv }}
+          scaleFactor={scaleFactor}
+          editor={editor}
+        />
+      )}
     </Box>
   );
 };

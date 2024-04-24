@@ -81,7 +81,7 @@ const FunctionalitySignPdfSignatureView: FC<
   return (
     <FunctionalitySignPdfOperationDraggableView
       id={dragId}
-      data={{ type: 'base64', value: showImgValue }}
+      data={{ type: 'image', value: showImgValue }}
       onClick={() => setModalOpen(true)}
     >
       {!isHaveValue && (

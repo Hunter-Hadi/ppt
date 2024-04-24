@@ -106,7 +106,7 @@ export const onChangeFabricColor = (editor: FabricJSEditor, color) => {
             // Manually trigger the onload if the image is already loaded
             activeObject.getElement().onload();
         }
-    } else if (activeObject && activeObject.type === 'textbox') {
+    } else {
         // 处理文本颜色变更
         activeObject.set('fill', color);
         canvas.renderAll(); // 更新画布以显示颜色变更

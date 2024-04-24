@@ -98,7 +98,6 @@ export const FunctionalitySignPdfDetail: FC<
   };
 
   const onDragStart = (event) => {
-    console.log('simply onDragStart', event, event.clientX);
     setActiveDragData(event.active.data.current);
   };
   const onPdfAddView = () => {
@@ -177,7 +176,7 @@ export const FunctionalitySignPdfDetail: FC<
           }}
         >
           {activeDragData &&
-            activeDragData.type === 'base64' &&
+            activeDragData.type === 'image' &&
             activeDragData.value && (
               <img
                 style={{
@@ -188,20 +187,23 @@ export const FunctionalitySignPdfDetail: FC<
               />
             )}
           {activeDragData &&
-            activeDragData.type === 'base64' &&
+            activeDragData.type === 'image' &&
             !activeDragData.value && <div>Empty Signature</div>}
-          {activeDragData && activeDragData.type === 'text' && (
-            <Typography
-              sx={{
-                fontSize: {
-                  xs: 20,
-                  lg: 30,
-                },
-              }}
-            >
-              {activeDragData.value || 'Text Field'}
-            </Typography>
-          )}
+          {activeDragData &&
+            (activeDragData.type === 'text' ||
+              activeDragData.type === 'i-text' ||
+              activeDragData.type === 'textbox') && (
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 20,
+                    lg: 30,
+                  },
+                }}
+              >
+                {activeDragData.value || 'Text Field'}
+              </Typography>
+            )}
         </DragOverlay>
       )}
     </DndContext>

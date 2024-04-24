@@ -1,26 +1,27 @@
-import { Button, ButtonGroup, Stack } from '@mui/material';
-import { FC } from 'react';
+import { Button, ButtonGroup, OutlinedInput, Stack } from '@mui/material';
+import { FC, useMemo } from 'react';
 
 import {
   copyFabricSelectedObject,
   onChangeFabricColor,
 } from '@/features/functionality_sign_pdf/utils/fabricjsTools';
 
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import { IControlDiv } from './FunctionalitySignPdfRenderCanvas';
 interface IFunctionalitySignTextTools {
-  controlDiv: {
-    left: number;
-    top: number;
-    scaleFactor: number;
-  };
+  controlDiv: IControlDiv;
+  scaleFactor: number;
   editor: any;
 }
 export const FunctionalitySignTextTools: FC<IFunctionalitySignTextTools> = ({
   controlDiv,
   editor,
+  scaleFactor,
 }) => {
+  const activeObject = useMemo(() => editor.canvas?.getActiveObject(), []);
+
   const onChangeColor = (color) => {
     if (editor) {
       onChangeFabricColor(editor, color);
@@ -32,19 +33,25 @@ export const FunctionalitySignTextTools: FC<IFunctionalitySignTextTools> = ({
     }
   };
   const onSelectedFonts = (fonts: string) => {
-    const activeObject = editor.canvas?.getActiveObject();
+    console.log('simply activeObject', activeObject);
     if (activeObject) {
       activeObject.set('fontFamily', fonts);
       editor.canvas.renderAll(); // 更新画布以显示颜色变更
     }
   };
+  const onChangeFontSize = (size: number) => {
+    activeObject.set('fontSize', Math.max(15, size || 0));
+    editor.canvas.renderAll(); // 更新画布以显示颜色变更
+  };
+  const isImage = activeObject.type === 'image';
+  const isText = activeObject.type === 'text';
+
   return (
     <Stack
       sx={{
-        position: 'absolute',
-        transform: `scale(${1 / controlDiv.scaleFactor})`,
-        left: controlDiv.left,
-        top: controlDiv.top - 45 / controlDiv.scaleFactor,
+        position: 'fixed',
+        left: controlDiv.left * scaleFactor + controlDiv.windowLeft,
+        top: controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
       }}
     >
       <ButtonGroup
@@ -52,13 +59,33 @@ export const FunctionalitySignTextTools: FC<IFunctionalitySignTextTools> = ({
         sx={{
           borderRadius: 2,
           bgcolor: '#fafafa',
+          height: 40,
         }}
-        aria-label='Basic button group'
       >
-        <FunctionalitySignPdfFontsButtonPopover
-          text={''}
-          onSelectedFonts={onSelectedFonts}
-        />
+        {!isImage && !isText && (
+          <FunctionalitySignPdfFontsButtonPopover
+            currentFonts={activeObject?.fontFamily}
+            isShowFontsName={true}
+            fontSize={18}
+            onSelectedFonts={onSelectedFonts}
+          />
+        )}
+        {!isImage && (
+          <OutlinedInput
+            sx={{
+              width: 70,
+            }}
+            defaultValue={activeObject?.fontSize || 16}
+            aria-describedby='outlined-weight-helper-text'
+            inputProps={{
+              'aria-label': 'weight',
+            }}
+            type='number'
+            onChange={(e) => {
+              onChangeFontSize(Number(e.target.value));
+            }}
+          />
+        )}
         <FunctionalitySignPdfColorButtonPopover
           onSelectedColor={onChangeColor}
         />

@@ -78,7 +78,7 @@ const FunctionalitySignPdfOperationView: FC<
         <FunctionalitySignPdfOperationDraggableView
           id={'draggable-2'}
           data={{
-            type: 'text',
+            type: 'textbox',
             value: 'Type something…',
           }}
         >
@@ -99,7 +99,7 @@ const FunctionalitySignPdfOperationView: FC<
         <FunctionalitySignPdfOperationDraggableView
           id={'draggable-3'}
           data={{
-            type: 'text',
+            type: 'i-text',
             value: dayjs().format('MM/DD/YYYY'),
           }}
         >
