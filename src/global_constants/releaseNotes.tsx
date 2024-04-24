@@ -1,5 +1,37 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.0.0',
+    date: '2024-04-17',
+
+    content: [
+      {
+        title: 'Premium queries lookup',
+        lists: [
+          {
+            module: 'Remaining premium queries',
+            desc: 'Now you can easily check the queries card in the Settings menu to see the real-time status of your remaining premium queries for this month.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '3.2.1',
+    date: '2024-04-17',
+
+    content: [
+      {
+        title: 'AI rewriter on Microsoft Word',
+        lists: [
+          {
+            module: 'Context window on Microsoft Word',
+            desc: 'Perfect your writing on Microsoft Word: Improve writing, fix spelling and grammar, make text shorter or longer, simplify language, paraphrase, change tone, and more!',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '3.2.0',
     date: '2024-04-15',
 

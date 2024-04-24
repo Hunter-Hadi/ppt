@@ -22,8 +22,8 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
       }}
     >
       {/* 顶部 */}
-      <Grid container justifyContent='space-between'>
-        <Grid item xs={12} lg={7}>
+      <Grid container gap={1} justifyContent='space-between'>
+        <Grid item xs={12} sm={6} lg={7}>
           <Typography
             color='text.secondary'
             sx={{
@@ -36,7 +36,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
             {getTranslation(descriptionInfo.topLeft)}
           </Typography>
         </Grid>
-        <Grid item xs={12} lg={4}>
+        <Grid item xs={12} sm={5} lg={4}>
           {descriptionInfo.topRight.map((item, index) => (
             <Stack pb={1} key={index} alignItems='center' direction='row'>
               <ToolsIcon name='CheckCircle' color='success' />
@@ -62,6 +62,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
           <Grid
             item
             xs={12}
+            sm={5}
             lg={3}
             key={index}
             sx={{
@@ -109,31 +110,47 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
         borderTop='1px solid #e8e8e8'
         justifyContent='center'
       >
+        {/* 图标格，当屏幕尺寸是sm或更大时保持在左侧，否则在下方 */}
         <Grid
           item
           xs={12}
+          sm={5}
           lg={5}
           display='flex'
           justifyContent='center'
           alignItems='center'
+          sx={{
+            order: { xs: 2, sm: 1 }, // xs时图案在文字下方
+            fontSize: { xs: 260, sm: 200 }, // xs时图案更大
+          }}
         >
           <ToolsIcon
             name={descriptionInfo.bottom.leftIconName}
             color='primary'
-            sx={{
-              fontSize: 200,
-            }}
+            sx={{ fontSize: 'inherit' }} // 使用Grid级别的font size调整大小
           />
         </Grid>
-        <Grid item xs={12} lg={5} my={10} direction='column'>
+
+        {/* 文字内容格，当屏幕尺寸是sm或更大时保持在右侧，否则在上方 */}
+        <Grid
+          item
+          xs={12}
+          lg={5}
+          sm={5}
+          my={10}
+          direction='column'
+          sx={{
+            order: { xs: 1, sm: 2 }, // xs时文字在图案上方
+          }}
+        >
           <Typography
             color='text.primary'
             sx={{
               fontSize: {
                 xs: 20,
                 lg: 22,
-                fontWeight: 700,
               },
+              fontWeight: 700,
             }}
           >
             {getTranslation(descriptionInfo.bottom.rightDescription.title)}
@@ -144,10 +161,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
                 key={index}
                 color='text.secondary'
                 sx={{
-                  fontSize: {
-                    xs: 14,
-                    lg: 16,
-                  },
+                  fontSize: { xs: 14, lg: 16 },
                   mt: 1,
                 }}
               >

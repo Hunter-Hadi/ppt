@@ -3,7 +3,9 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import ProLink from '@/components/ProLink';
 import HomePageContent from '@/features/landing/components/HomePageContent';
+import usePartnersInfo from '@/features/partners/hooks/usePartnersInfo';
 import { useSendRefCount } from '@/hooks/useSendRefCount';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
 import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
@@ -12,9 +14,7 @@ import TryExtensionButton from '@/page_components/partners_components/TryExtensi
 const PartnersUnInstallPage = () => {
   const router = useRouter();
 
-  const name = router.query?.name as string;
-
-  const propRef = name;
+  const { name, propRef, changelogText, changelogLink } = usePartnersInfo();
 
   useSendRefCount(propRef, 'partners-uninstalled');
 
@@ -67,20 +67,20 @@ const PartnersUnInstallPage = () => {
         >
           🎉 {partnersName} has been uninstalled
         </Typography>
-        {/* <Typography>
-          To get started,{' '}
-          <ProLink
-            muiLinkProps={{
-              rel: 'noopener nofollow',
-            }}
-            href='https://api.notion.com/v1/oauth/authorize?client_id=323a93e9-98a0-4f5a-a194-af728f1b817e&response_type=code&owner=user&redirect_uri=https%3A%2F%2Ftheo-lartigau.notion.site%2FChatGPT-to-Notion-af29d9538dca4493a15bb4ed0fde7f91'
-            underline='always'
-            target={'_blank'}
-          >
-            click here
-          </ProLink>{' '}
-          .
-        </Typography> */}
+        {changelogText && changelogLink ? (
+          <Typography>
+            <ProLink
+              muiLinkProps={{
+                rel: 'noopener nofollow',
+              }}
+              href={changelogLink}
+              underline='always'
+              target={'_blank'}
+            >
+              {changelogText}
+            </ProLink>
+          </Typography>
+        ) : null}
       </Stack>
       <Box position='relative'>
         <TryExtensionButton propRef={propRef} />

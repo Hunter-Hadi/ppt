@@ -104,6 +104,9 @@ dependencies:
   markdown-to-jsx:
     specifier: ^7.1.9
     version: 7.1.9(react@18.2.0)
+  mixpanel-browser:
+    specifier: ^2.49.0
+    version: 2.49.0
   next:
     specifier: 13.1.6
     version: 13.1.6(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
@@ -7942,6 +7945,10 @@ packages:
       yallist: 4.0.0
     dev: false
     optional: true
+
+  /mixpanel-browser@2.49.0:
+    resolution: {integrity: sha512-RZJCO7XXuuHBAWG5fd9Mavz994M7v7W3Qiaq8NzmN631pa4BQ0vNZQtRFqKcCCOBn4xqOZbX2GkuC7ZkQoL4cQ==}
+    dev: false
 
   /mkdirp@0.5.6:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}

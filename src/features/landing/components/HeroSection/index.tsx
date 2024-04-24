@@ -2,14 +2,10 @@ import { Box, Grid, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
-import YoutubePlayerBox from '@/components/YoutubePlayerBox';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
+import HeroVideoBox from '@/features/landing/components/HeroSection/HeroVideoBox';
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
-import {
-  LOVED_BY_NUM,
-  PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
-  STAR_RATINGS_NUM,
-} from '@/features/landing/constants';
+import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
@@ -187,35 +183,7 @@ const HeroSection: FC<IProps> = ({ propRef }) => {
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
-            <Stack
-              position='relative'
-              justifyContent={'center'}
-              height='100%'
-              // p={{
-              //   xs: 0,
-              //   sm: 6,
-              // }}
-            >
-              <Box
-                onClick={() => {
-                  openVideoPopup(PRIMARY_YOUTUBE_VIDEO_EMBED_URL);
-                }}
-                sx={{
-                  cursor: 'pointer',
-                  boxShadow: '0px 4px 16px 0px rgba(118, 1, 211, 0.08)',
-                  borderRadius: 2,
-                  overflow: 'hidden',
-                }}
-              >
-                <YoutubePlayerBox
-                  borderRadius={0}
-                  youtubeLink={PRIMARY_YOUTUBE_VIDEO_EMBED_URL}
-                  sx={{
-                    pointerEvents: 'none',
-                  }}
-                />
-              </Box>
-            </Stack>
+            <HeroVideoBox />
           </Grid>
         </Grid>
       </Box>

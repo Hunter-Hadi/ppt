@@ -229,7 +229,6 @@ const FunctionalityPdfMergeMain = () => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        pb: 5,
         width: '100%',
       }}
     >

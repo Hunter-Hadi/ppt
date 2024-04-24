@@ -1,19 +1,20 @@
+import FileOpenOutlinedIcon from '@mui/icons-material/FileOpenOutlined';
+import { Stack, Typography } from '@mui/material';
 import Button, { ButtonProps } from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
+import { useTranslation } from 'next-i18next';
 import React, { type FC, useMemo } from 'react';
 
 import useViewDropEvent from '@/features/common/hooks/useViewDropEvent';
 
 const VisuallyHiddenInput = styled('input')({
-  clip: 'rect(0 0 0 0)',
-  clipPath: 'inset(50%)',
-  height: 1,
-  overflow: 'hidden',
   position: 'absolute',
+  top: 0,
   bottom: 0,
   left: 0,
-  whiteSpace: 'nowrap',
-  width: 1,
+  right: 0,
+  opacity: 0,
+  cursor: 'pointer',
 });
 
 export interface IUploadButtonProps {
@@ -37,6 +38,8 @@ const UploadButton: FC<
     buttonProps,
     inputProps,
   } = props;
+  const { t } = useTranslation();
+
   const fileMatchesAccept = (fileType: string, acceptString: string) => {
     // 将accept字符串按照","拆分成多个类型
     const types = acceptString.split(',');
@@ -89,26 +92,38 @@ const UploadButton: FC<
       : {};
   }, [isDrag]);
   return (
-    <div>
-      <Button
-        {...dragMap}
-        component='label'
-        sx={{
-          position: 'relative',
-        }}
-        {...(buttonProps as any)}
-      >
-        {!isSidebarDragOver && children}
-        {isSidebarDragOver && <div>Drop here</div>}
-        <VisuallyHiddenInput
-          type='file'
-          onChange={(event) =>
-            onChange && event.target.files && onChange(event.target.files)
-          }
-          {...inputProps}
-        />
-      </Button>
-    </div>
+    <Button
+      {...dragMap}
+      component='label'
+      sx={{
+        position: 'relative',
+      }}
+      {...(buttonProps as any)}
+    >
+      {!isSidebarDragOver && children}
+      {isSidebarDragOver && (
+        <Stack direction='column' alignItems='center'>
+          <FileOpenOutlinedIcon sx={{ fontSize: 50 }} />
+          <Typography
+            sx={{
+              fontSize: {
+                xs: 18,
+                lg: 20,
+              },
+            }}
+          >
+            {t('features__common:components__upload_button_drop_title')}
+          </Typography>
+        </Stack>
+      )}
+      <VisuallyHiddenInput
+        type='file'
+        onChange={(event) =>
+          onChange && event.target.files && onChange(event.target.files)
+        }
+        {...inputProps}
+      />
+    </Button>
   );
 };
 

@@ -41,14 +41,11 @@ export const convertPdfToHTMLDivElement = async (file: File, callBackProgress?: 
             viewport: pageViewport,
           }
         )
-        console.log('simply textContentDiv', textContentDiv)
 
         pageDiv.append(textContentDiv)
         wrapDiv.appendChild(pageDiv);
       }
     }
-    console.log('simply outerHTML', wrapDiv.outerHTML)
-    console.log('simply createHtmlString', createHtmlString(wrapDiv.outerHTML))
 
     return createHtmlString(wrapDiv.outerHTML);
   } catch (e) {

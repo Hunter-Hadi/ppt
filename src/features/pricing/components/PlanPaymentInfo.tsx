@@ -1,13 +1,13 @@
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import { Stack, SxProps, Typography } from '@mui/material';
+import { Box, Stack, SxProps, Typography } from '@mui/material';
 import { capitalize } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
-import { useRecoilValue } from 'recoil';
 
 import { PLAN_PRICE_MAP } from '@/features/pricing/constant';
-import { PricingPaymentTypeAtom } from '@/features/pricing/store';
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
+import { truncateToDecimalPlaces } from '@/utils/dataHelper/numberHelper';
+
+import PlanProductivityValue from './PlanProductivityValue';
 
 interface IProps {
   type?: RENDER_PLAN_TYPE;
@@ -84,7 +84,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
     isPopular,
   } = props;
 
-  const paymentType = useRecoilValue(PricingPaymentTypeAtom);
+  // const paymentType = useRecoilValue(PricingPaymentTypeAtom);
 
   const fontSx = useMemo(() => fontSxMap[size], [size]);
 
@@ -106,11 +106,11 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
         return (
           <Stack direction={'row'} alignItems='center' spacing={1}>
             <Typography variant='custom' component='p' sx={fontSx.price}>
-              ${PLAN_PRICE_MAP[type]}
+              ${truncateToDecimalPlaces(PLAN_PRICE_MAP[type] / 12, 2)}
             </Typography>
             <Typography variant='custom' color='grey' sx={fontSx.paymentInfo}>
-              {t('modules:plan_payment_info__per_month')} <br />
-              {t('modules:plan_payment_info__billed_yearly')}
+              {t('pricing:payment_info__per_month')} <br />
+              {t('pricing:payment_info__billed_yearly')}
             </Typography>
           </Stack>
         );
@@ -120,13 +120,8 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
             <Typography variant='custom' component='p' sx={fontSx.price}>
               ${PLAN_PRICE_MAP[type]}
             </Typography>
-            <Typography
-              variant='custom'
-              color='grey'
-              pt={1}
-              sx={fontSx.paymentInfo}
-            >
-              {t('modules:plan_payment_info__per_month')}
+            <Typography variant='custom' color='grey' sx={fontSx.paymentInfo}>
+              {t('pricing:payment_info__per_month')}
             </Typography>
           </Stack>
         );
@@ -181,44 +176,33 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
         variant='custom'
         sx={{
           ...fontSx.title,
-          color: isPopular ? 'promotionColor.fontMain' : 'text.primary',
+          color: isPopular ? 'primary.main' : 'primary.main',
         }}
       >
         {title}
       </Typography>
-      <Stack direction={'row'} alignItems='center' spacing={0.5}>
+      {type !== 'free' ? (
+        <PlanProductivityValue
+          renderType={type}
+          isPopular={isPopular}
+          sx={{ mt: 0.5 }}
+        />
+      ) : (
+        // 占位符
+        <Box height={24} mt={0.5} />
+      )}
+      <Box mt={2}>{renderPayInfo()}</Box>
+
+      {showDesc && (
         <Typography
           variant='custom'
-          fontSize={16}
-          lineHeight={1.5}
-          color={isPopular ? 'promotionColor.fontMain' : 'primary.main'}
+          color='text.secondary'
+          mt={1}
+          sx={fontSx.desc}
         >
-          {t('pages:pricing__productivity')}
-        </Typography>
-        <ProductivityValue
-          color={isPopular ? 'promotionColor.fontMain' : 'primary.main'}
-          value={PlanProductivity[type]}
-        />
-      </Stack>
-      {renderPayInfo()}
-      {showDesc && (
-        <Typography variant='custom' sx={fontSx.desc}>
           {desc}
         </Typography>
       )}
-    </Stack>
-  );
-};
-
-const ProductivityValue: FC<{ value: number; color: string }> = ({
-  value,
-  color,
-}) => {
-  return (
-    <Stack direction={'row'} alignItems='center' spacing={0.4}>
-      {Array.from({ length: value }).map((_, index) => {
-        return <RocketLaunchIcon key={index} sx={{ color, fontSize: 18 }} />;
-      })}
     </Stack>
   );
 };

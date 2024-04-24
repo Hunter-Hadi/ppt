@@ -49,7 +49,10 @@
     "mins": "Mins",
     "secs": "Secs",
     "subscribe_now": "Subscribe now",
-    "month": "month"
+    "month": "month",
+    "unlimited": "Unlimited",
+    "most_popular": "Most popular",
+    "upgrade_now": "Upgrade now"
   },
   "button": {
     "add_to_chrome_for_free": "Add to Chrome for free",
@@ -63,7 +66,7 @@
     "install_now": "Install now",
     "upgrade_to": "Upgrade to {{plan}}",
     "start_for": "Start for {{plan}}",
-    "cancel_anytime": "Cancel anytime."
+    "cancel_anytime": "Cancel anytime"
   },
   "pages": {
     "prompt_detail_page__button__run_this_prompt": "Run this prompt",
@@ -74,7 +77,7 @@
     "home_page__hero_section__title__part1": "1-click AI anywhere,",
     "home_page__hero_section__title__part2": "Less time,",
     "home_page__hero_section__title__part3": "Better results.",
-    "home_page__hero_section__desc": "Use personalized 1-click AI anywhere to save hours every day. Powered by ChatGPT, Claude, Gemini, and more.",
+    "home_page__hero_section__desc": "Use personalized 1-click AI anywhere to save hours every day. Powered by ChatGPT, Claude 3, Gemini 1.5, GPT-4, and more.",
     "home_page__hero_section__indicator1_label": "Top 50 genAI apps",
     "home_page__hero_section__indicator2_label": "Active users",
     "home_page__hero_section__indicator3_label": "5-star ratings",
@@ -85,9 +88,9 @@
     "home_page__features_carousel__feature_chat__label": "AI Chat",
     "home_page__features_carousel__feature_chat__title": "The fastest way to chat with the most advanced AI models, all in one place.",
     "home_page__features_carousel__feature_chat__description_label": "Powered by:",
-    "home_page__features_carousel__feature_chat__description1": "GPT-4-turbo vision, GPT-3.5-turbo",
-    "home_page__features_carousel__feature_chat__description2": "Claude-3-opus-200k vision, Claude-3-sonnet-200k vision",
-    "home_page__features_carousel__feature_chat__description3": "Gemini-pro vision",
+    "home_page__features_carousel__feature_chat__description1": "GPT-4, GPT-3.5",
+    "home_page__features_carousel__feature_chat__description2": "Claude-3-opus/sonnet/haiku",
+    "home_page__features_carousel__feature_chat__description3": "Gemini-1.5-pro, Gemini-pro",
     "home_page__features_carousel__feature_chat__description4": "OpenAI API key, and more top AI models of your choice",
 
     "home_page__features_carousel__feature_rewriter__label": "AI Rewriter",
@@ -98,7 +101,7 @@
     "home_page__features_carousel__feature_rewriter__description4": "Change voice & tone",
     "home_page__features_carousel__feature_rewriter__description5": "Paraphrase, make shorter/longer",
 
-    "home_page__features_carousel__feature_reply__label": "AI Instant Reply",
+    "home_page__features_carousel__feature_reply__label": "AI Reply",
     "home_page__features_carousel__feature_reply__title": "Accelerate your email & social media responses & drafts by 10X in 1 click.",
     "home_page__features_carousel__feature_reply__description_label": "1-click reply & draft on:",
     "home_page__features_carousel__feature_reply__description1": "Gmail, Outlook",
@@ -134,6 +137,20 @@
     "home_page__features_carousel__feature_translator__description2": "Simultaneous reference to both languages",
     "home_page__features_carousel__feature_translator__description3": "Supports 58 languages",
     "home_page__features_carousel__feature_translator__description4": "Translate with 400% better quality, just like a human would",
+
+    "home_page__features_carousel__feature_reader__label": "AI Reader",
+    "home_page__features_carousel__feature_reader__title": "Make complex information easy to understand, just like an expert.",
+    "home_page__features_carousel__feature_reader__description1": "Explain any word, term, or paragraph ",
+    "home_page__features_carousel__feature_reader__description2": "Summarize any text",
+    "home_page__features_carousel__feature_reader__description3": "Find action items in any text",
+    "home_page__features_carousel__feature_reader__description4": "Translate between any languages",
+
+    "home_page__features_carousel__feature_prompts__label": "AI Prompts",
+    "home_page__features_carousel__feature_prompts__title": "Complete your daily tasks in minutes now, not hours anymore.",
+    "home_page__features_carousel__feature_prompts__description1": "High quality AI prompts library",
+    "home_page__features_carousel__feature_prompts__description2": "Create and manage your own prompts",
+    "home_page__features_carousel__feature_prompts__description3": "Reuse your own prompts",
+    "home_page__features_carousel__feature_prompts__description4": "Custom tone & writing Styles",
 
     "home_page__features_carousel__cta_button__text": "Install MaxAI for free",
 
@@ -181,9 +198,12 @@
 
     "learning_center__features__title": "Features",
 
-    "pricing__title": "Compare plans & features",
+    "pricing__better_plan__title": "1-click AI anywhere, less time, better results",
+    "pricing__compare_plans__title": "Compare plans",
     "pricing__productivity": "Productivity",
     "pricing__save_up_to": "Save {{NUM}}%",
+    "pricing__plan_category__individual__label": "Individual plans",
+    "pricing__plan_category__team__label": "Team plans",
 
     "faq__title": "FAQs",
 
@@ -397,7 +417,7 @@
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Export each page as a JPEG or extract individual images from the PDF to JPEGs",
 
-    "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDFs",
+    "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDF",
     "tools__index_page__constant_obj__merge_pdfs__main_description": "Merge any amount of PDFs in the order you choose into a single PDF",
     "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Merge multiple PDF files into one with just a few clicks",
 
@@ -536,11 +556,40 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Adjust the signature's size and position as needed.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Download your signed PDF, all set and secure.",
 
+    "pdf_tools__detail_page__more_pdf_tools": "More Free Online PDF Tools",
+
+    "pdf_tools__detail_description_object__pdf_to_html__top_left": "Effortlessly convert PDF files to HTML web pages while maintaining the layout, structure, and images with our free online PDF to HTML converter.",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_1": "Seamless PDF to HTML conversion in moments",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_2": "No software installation required",
+    "pdf_tools__detail_description_object__pdf_to_html__top_right_3": "Safe and confidential – processing takes place in your browser",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_1_title": "Accurate PDF to HTML Transformation",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_1_description": "Retain the original PDF layout and formatting for an accurate and fully functional HTML webpage output. Just upload your PDF and leave the rest to our sophisticated conversion tool.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_2_title": "Maintain Visual Integrity",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_2_description": "Converting your documents preserves all visual elements from the PDF in the HTML, ensuring that images, fonts, and styles remain intact.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_3_title": "Immediate Image Extraction",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_3_description": "All images embedded in the PDF are seamlessly exported and embedded in the resulting HTML, ensuring a rich visual experience identical to the PDF source.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_4_title": "Client-Side Conversion Security",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_4_description": "Your privacy is our priority. The conversion process is entirely client-side, meaning files never leave your computer.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_5_title": "Universal Accessibility",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Our PDF to HTML converter is fully accessible online, so you can convert documents on any device, at any time, without needing to install any software.",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Convert Without the Internet",
+    "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "With our tool, you can initiate the conversion offline. All you need is to load the page before disconnecting, and the conversion will still take place without an internet connection.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "How To Easily Convert PDF to HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Upload your PDF to the online PDF to HTML converter.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Let the tool process the file and convert it to HTML format.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Once conversion is complete, download your new HTML file directly.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Open the downloaded HTML in any web browser to review the results.",
+
     "pdf_tools__detail_page__more_pdf_tools": "More Free Online PDF Tools"
+  },
+  "features__common": {
+    "components__upload_button_drop_title": "Drop here"
   },
   "functionality__common": {
     "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",
-    "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping"
+    "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping",
+    "components__common__upload_button_tips": "or drop files here",
+    "components__common__upload_button_title": "CHOOSE FILES"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
@@ -575,7 +624,6 @@
     "components__pdf_split__button__cancel__tooltip": "Cancel current progress"
   },
   "functionality__pdf_to_image": {
-    "components__index__upload_title": "Click to upload or drag and drop",
     "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__to_image_detail__select_all": "Select All",
     "components__to_image_detail__deselect_all": "Deselect all",
@@ -676,7 +724,7 @@
     "header__menu__learning_center": "Learning-center",
 
     "footer__title": "AI productivity tool",
-    "footer__desc": "The fastest way to use personalized 1-click AI anywhere to save hours every day. Powered by ChatGPT, Claude, Gemini, and more.",
+    "footer__desc": "The fastest way to use personalized 1-click AI anywhere to save hours every day. Powered by ChatGPT, Claude 3, Gemini 1.5, GPT-4, and more.",
 
     "footer__products": "Products",
     "footer__1_click_prompts": "1-Click Prompts",
@@ -687,6 +735,7 @@
     "footer__privacy_policy": "Privacy Policy",
     "footer__terms_of_service": "Terms of Service",
     "footer__resources": "Resources",
+    "footer__pdf_tools": "Free online PDF tools",
 
     "payment_type_switch__yearly": "Yearly",
     "payment_type_switch__monthly": "Monthly",
@@ -856,8 +905,8 @@
     "faq__question7__description__part2": "Abuse, gaming, and policy violations will result in having your account banned and any existing and future commissions forfeited."
   },
   "seo": {
-    "default__title": "MaxAI.me: Use 1-Click AI Anywhere (ChatGPT, Claude, Gemini, Bard, Bing)",
-    "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more.",
+    "default__title": "MaxAI.me: 1-Click AI Anywhere (ChatGPT, Claude 3, Gemini 1.5)",
+    "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more. Powered by GPT-4, Claude 3, Gemini 1.5.",
 
     "maintain__title": "In maintenance | MaxAI.me",
 
@@ -973,5 +1022,80 @@
     "more_over_section__title": "More Over",
     "more_over_section__description__part1": "MaxAI.me is more than just a translation tool – It's your all-in-one AI-powered browser extension. With MaxAI.me, you can access a wide range of AI-driven features right in your browser, on any website you visit.",
     "more_over_section__description__part2": "From writing assistance and webpage summarization to ChatPDF and AI painting, MaxAI.me empowers you to read, write, and create with the help of the most advanced AI models, including ChatGPT, Claude, and Gemini. Upgrade your browsing experience and unlock your productivity potential with MaxAI.me today!"
+  },
+  "pricing": {
+    "better_plan_display__basic__sub_title": "Core features:",
+    "better_plan_display__pro__sub_title": "Everything in {{PLAN}} plus:",
+    "better_plan_display__elite__sub_title": "Everything in {{PLAN}} plus:",
+
+    "features__fast_text_models": "Fast text models",
+    "features__advanced_text_models": "Advanced text models",
+    "features__ai_art_models": "AI art models",
+
+    "features__fast_text_queries__month": "Fast text queries/month",
+    "features__fast_text_queries__tooltip__description": "Access the fastest AI models, all in one place.",
+    "features__advanced_text_queries__month": "Advanced text queries/month",
+    "features__advanced_text_queries__tooltip__description": "Access the most advanced AI models, all in one place.",
+    "features__advanced_text_queries__elite__more_description": "Ensure at least 1,500 high-speed advanced text queries each month. After reaching the limit, the speed and quality of the model may be reduced.",
+    "features__image_queries__month": "Image queries/month",
+    "features__image_queries__tooltip__description": "10x your creativity and productivity with the most advanced AI art models.",
+    "features__image_queries__elite__more_description": "Ensure at least 1,500 high-speed image queries each month. After reaching the limit, the speed and quality of the model may be reduced.",
+
+    "features__free_ai_models": "Free AI models",
+    "features__ai_rewriter__title": "AI rewriter",
+    "features__ai_rewriter__description": "Context menu",
+    "features__ai_rewriter__tooltip__description": "Perfect your writing on any web app or site, from a single word to an entire page.",
+    "features__ai_instant_reply__title": "AI instant reply",
+    "features__ai_instant_reply__description": "Email & social media & messaging",
+    "features__ai_instant_reply__tooltip__description": "Speed up your email, social media, and message replies and drafts by 10 times with a single click.",
+    "features__ai_art__title": "AI art",
+    "features__ai_art__description": "Turn your visions into images",
+    "features__ai_art__tooltip__description": "Rapidly turn your visions into stunning images.",
+    "features__ai_prompt_manager__title": "AI prompt manager",
+    "features__ai_prompt_manager__description": "Create your own 1-click prompts",
+    "features__ai_prompt_manager__tooltip__description": "Create your own prompts, organize them, and make them easy to access and reuse, for yourself and your team.",
+    "features__ai_prompts_library__title": "AI prompts library",
+    "features__ai_prompts_library__description": "Best 1-click prompts",
+    "features__ai_prompts_library__tooltip__description": "High-quality AI prompts library that lets you complete your daily tasks in minutes now, not hours anymore.",
+    "features__ai_summary_ask__title": "AI summary & ask",
+    "features__ai_summary_ask__description": "Webpage & PDF & YouTube & email",
+    "features__ai_summary_ask__tooltip__description": "Save 90% of your reading and watching time by getting summaries and instant answers everywhere.",
+    "features__ai_reading_assistant__title": "AI reading assistant",
+    "features__ai_reading_assistant__description": "Context menu",
+    "features__ai_reading_assistant__tooltip__description": "Make confusing and complex information easy to understand on any web app or site, just like an expert.",
+    "features__ai_translator__title": "AI translator",
+    "features__ai_translator__description": "Immersive translation experience",
+    "features__ai_translator__tooltip__description": "Enable bilingual reading with a single click to improve information retrieval efficiency. Experience the immersive translation experience of the next generation.",
+    "features__ai_chat__title": "AI chat",
+    "features__ai_chat__description": "Fast & advanced text models",
+    "features__ai_chat__tooltip__description": "The fastest way to chat with the most advanced AI models, all in one place.",
+    "features__ai_search__title": "AI search",
+    "features__ai_search__description": "Answer with real-time web access",
+    "features__ai_search__tooltip__description": "Get answers with real-time web access, knowledge, and citations.",
+    "features__pro_search__title": "Pro search",
+    "features__pro_search__description": "Exhaustive web searches",
+    "features__pro_search__tooltip__description": "Get answers to the hardest questions with comprehensive web insights.",
+    "features__advanced_options__title": "Advanced options",
+    "features__advanced_options__description": "Search engine & more",
+    "features__advanced_options__tooltip__description": "Choose from the world's top search engines, get more search results, specify search time range and region, and select Al response language with Web Access.",
+
+    "features__category__best_ai_models": "Best AI models",
+    "features__category__writing_features": "Writing features",
+    "features__category__reading_features": "Reading features",
+    "features__category__research_features": "Research features",
+    "features__category__webchatgpt_features": "WebChatGPT features",
+    "features__tooltips__play_video": "Play video",
+
+    "payment_info__pay_by_yearly": "Pay {{PRICE}} / year",
+    "payment_info__per_year": "per year",
+    "payment_info__per_month": "per month",
+    "payment_info__billed_yearly": "billed yearly",
+    "payment_info__free_desc": "Best for occasional users",
+    "payment_info__basic_desc": "Best for casual users",
+    "payment_info__pro_desc": "Best for power users",
+    "payment_info__elite_desc": "Best for elite professionals",
+
+    "plan_button__save_with_yearly_plan": "Save {{PRICE}} with yearly plan",
+    "plan_button__free_status__start_for_free": "Start for free"
   }
 }

@@ -1,5 +1,7 @@
+import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
 import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
+import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import SummarizeOutlinedIcon from '@mui/icons-material/SummarizeOutlined';
 import TranslateOutlinedIcon from '@mui/icons-material/TranslateOutlined';
@@ -85,7 +87,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
       </Stack>
     );
   }
-  if (icon === 'quick-reply') {
+  if (icon === 'reply') {
     return (
       <Stack
         justifyContent={'center'}
@@ -204,6 +206,52 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
         }}
       >
         <TranslateOutlinedIcon
+          sx={{
+            fontSize: 'inherit',
+          }}
+        />
+      </Stack>
+    );
+  }
+  if (icon === 'reader') {
+    return (
+      <Stack
+        justifyContent={'center'}
+        alignItems={'center'}
+        spacing={2}
+        sx={{
+          borderRadius: 2,
+          bgcolor: '#E6FFE7',
+          color: '#0FA47F',
+          width: size,
+          height: size,
+          fontSize: size * 0.5,
+        }}
+      >
+        <LocalLibraryOutlinedIcon
+          sx={{
+            fontSize: 'inherit',
+          }}
+        />
+      </Stack>
+    );
+  }
+  if (icon === 'prompts') {
+    return (
+      <Stack
+        justifyContent={'center'}
+        alignItems={'center'}
+        spacing={2}
+        sx={{
+          borderRadius: 2,
+          bgcolor: '#F4EBFF',
+          color: '#9065B0',
+          width: size,
+          height: size,
+          fontSize: size * 0.5,
+        }}
+      >
+        <AutoAwesomeIcon
           sx={{
             fontSize: 'inherit',
           }}

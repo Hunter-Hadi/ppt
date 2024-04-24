@@ -268,7 +268,6 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       justifyContent='center'
       sx={{
         display: 'flex',
-        pb: 5,
         width: '100%',
       }}
     >

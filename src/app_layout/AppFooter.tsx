@@ -165,7 +165,7 @@ const AppFooter = () => {
                       link: '/affiliate',
                     },
                     {
-                      label: t('pages:tools__index_page__title'),
+                      label: t('modules:footer__pdf_tools'),
                       icon: null,
                       target: '_self',
                       link: '/pdf-tools',

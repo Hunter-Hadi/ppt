@@ -2,7 +2,11 @@ import { useRouter } from 'next/router';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
-import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
+import {
+  getClientUserId,
+  setClientUserId,
+} from '@/features/track_user_interactions/utils';
+import { mixpanelIdentify } from '@/utils/mixpanel';
 
 interface IClientUserIdGeneratorProps {
   targetHost: string;
@@ -16,7 +20,7 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
 
   // 当前的 clientUserId
   const [currentClientUserId, setCurrentClientUserId] = useState(
-    getLocalStorage('CLIENT_USER_ID'),
+    getClientUserId(),
   );
 
   // iframe 是否加载完成
@@ -33,7 +37,7 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
 
   const sendClientUserIdToIFrame = (clientUserId: string) => {
     if (iframeRef.current && iframeRef.current.contentWindow) {
-      setLocalStorage('CLIENT_USER_ID', clientUserId);
+      setClientUserId(clientUserId);
       setCurrentClientUserId(clientUserId);
       iframeRef.current.contentWindow.postMessage(
         {
@@ -66,6 +70,8 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
       // 如果没有 clientUserId，
       // 生成 clientUserId 并发送 message 到 iframe
       const clientUserId = uuidV4();
+      // mixpanel 需要 需要记录 clientUserId
+      mixpanelIdentify('identify', clientUserId);
       sendClientUserIdToIFrame(clientUserId);
     } else {
       // 如果有 clientUserId，发送 message 到 iframe

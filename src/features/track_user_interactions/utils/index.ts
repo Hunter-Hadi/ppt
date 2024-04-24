@@ -5,7 +5,7 @@ import React, { useCallback, useEffect } from 'react';
 import { UAParser } from 'ua-parser-js';
 
 import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint';
-import { getLocalStorage } from '@/utils/localStorage';
+import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 const { getBrowser, getOS } = new UAParser();
 
@@ -89,7 +89,7 @@ export const trackUserInteraction = debounce(
         platform: os.name || '',
         language: Array.from(navigator.languages) || ['en'],
         fp: getTrackUserFingerPrint(),
-        client_uuid: getLocalStorage('CLIENT_USER_ID') || '',
+        client_uuid: getClientUserId() || '',
         meta: {
           ref: getLocalStorage('LANDING_PAGE_REF') ?? '',
         },
@@ -245,4 +245,12 @@ export const useTrackUserInteractions = (i18nInstance: i18n) => {
       document.removeEventListener('click', handleUserInteraction, true);
     };
   }, [handleUserInteraction]);
+};
+
+export const getClientUserId = () => {
+  return getLocalStorage('CLIENT_USER_ID') || '';
+};
+
+export const setClientUserId = (clientUserId: string) => {
+  return setLocalStorage('CLIENT_USER_ID', clientUserId, true);
 };

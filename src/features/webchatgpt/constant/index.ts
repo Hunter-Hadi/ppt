@@ -1,4 +1,6 @@
-export const WEBCHATGPT_HOME_PAGE = '/webchatgpt';
+import { WWW_PROJECT_LINK } from '@/global_constants';
+
+export const WEBCHATGPT_HOME_PAGE = `${WWW_PROJECT_LINK}/partners/webchatgpt`;
 
 export const BRAND_NAME = 'WebChatGPT';
 
