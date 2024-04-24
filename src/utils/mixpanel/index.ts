@@ -11,15 +11,21 @@ import { APP_IS_PROD } from '@/global_constants';
 
 export const MIXPANEL_PROJECT_ID = process.env.NEXT_PUBLIC_MIXPANEL_PROJECT_ID;
 
+const initMixPanel = () => {
+  if (mixpanel().hasOwnProperty('get_distinct_id')) {
+    return;
+  }
+  mixpanel.init(MIXPANEL_PROJECT_ID, {
+    debug: APP_IS_PROD ? false : true,
+    track_pageview: true,
+    persistence: 'localStorage',
+  });
+};
+
 export const useInitMixPanel = () => {
   useEffectOnce(() => {
-    mixpanel.init(MIXPANEL_PROJECT_ID, {
-      debug: APP_IS_PROD ? false : true,
-      track_pageview: true,
-      persistence: 'localStorage',
-    });
-
-    const clientUserId = getClientUserId();
+    initMixPanel();
+    const clientUserId = getClientUserId() || 'qqq';
     if (clientUserId) {
       // Set this to a unique identifier for the user performing the event.
       mixpanelIdentify('identify', clientUserId);
@@ -40,10 +46,15 @@ export const mixpanelIdentify = (
   type: 'identify' | 'reset',
   userId: string,
 ) => {
-  if (type === 'identify') {
-    mixpanel.identify(userId);
-  }
-  if (type === 'reset') {
-    mixpanel.reset();
+  initMixPanel();
+  try {
+    if (type === 'identify') {
+      mixpanel.identify(userId);
+    }
+    if (type === 'reset') {
+      mixpanel.reset();
+    }
+  } catch (e) {
+    // do nothing
   }
 };
