@@ -42,7 +42,7 @@ const FunctionalityCommonUploadButton: FC<
         sx={{
           borderWidth: 1,
           borderStyle: 'dashed',
-          borderColor: isPrimary ? undefined : 'primary.main',
+          borderColor: isPrimary ? '#fff' : 'primary.main',
           margin: 1,
           borderRadius: 2,
           height: 280,

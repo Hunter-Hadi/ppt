@@ -146,33 +146,45 @@ export const FunctionalitySignPdfDetail: FC<
           />
         </Box>
         {/* 签名操作视图 */}
-        <Box
+        <Stack
+          direction='column'
+          justifyContent='space-between'
           sx={{
             width: 260,
             border: '1px solid #e8e8e8',
             borderLeft: 'none',
-            padding: 1,
           }}
         >
-          <Box>
+          <Box
+            sx={{
+              padding: 1,
+            }}
+          >
             <FunctionalitySignPdfOperationView
               activeDragData={activeDragData}
             />
+          </Box>
+          <Box
+            sx={{
+              borderTop: '1px solid #e8e8e8',
+              padding: 1,
+            }}
+          >
             <LoadingButton
               variant={saveButtonLoading ? 'outlined' : 'contained'}
               onClick={onPdfAddViewSave}
-              sx={{ marginTop: 2, width: '100%' }}
+              sx={{ width: '100%' }}
               size='large'
               loadingPosition='start'
               disabled={saveButtonLoading}
               loading={saveButtonLoading}
             >
               {t(
-                'functionality__sign_pdf:components__sign_pdf__detail__Finish',
+                'functionality__sign_pdf:components__sign_pdf__detail__finish',
               )}
             </LoadingButton>
           </Box>
-        </Box>
+        </Stack>
       </Stack>
       {/* 下面是拖动替身 */}
       {activeDragData && (

@@ -79,13 +79,12 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
           },
         }}
       >
-        {(
-          fontsList || [
-            'Caveat, cursive',
-            '"La Belle Aurore", cursive',
-            '"Dancing Script", cursive',
-          ]
-        ).map((fonts) => (
+        {[
+          ...(fontsList || []),
+          'Caveat, cursive',
+          '"La Belle Aurore", cursive',
+          '"Dancing Script", cursive',
+        ].map((fonts) => (
           <Box key={fonts}>
             <Button
               sx={{

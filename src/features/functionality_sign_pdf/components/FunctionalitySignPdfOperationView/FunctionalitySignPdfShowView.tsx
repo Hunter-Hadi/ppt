@@ -24,7 +24,7 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
         justifyContent='space-between'
         alignItems='center'
         sx={{
-          height: 60,
+          height: 50,
           background: 'rgb(250, 250, 250)',
           borderWidth: '1px 1px  1px  4px',
           borderStyle: 'solid',

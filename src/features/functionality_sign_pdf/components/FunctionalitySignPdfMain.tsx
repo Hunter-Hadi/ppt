@@ -61,10 +61,13 @@ const FunctionalityPdfToImage = () => {
           rel='stylesheet'
         ></link>
         <link
-          href='https://fonts.googleapis.com/css2?family=Helvetica|Times+New+Roman|Courier|Georgia|Verdana|Tahoma|Trebuchet+MS|Garamond|Brush+Script+MT&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&display=swap'
           rel='stylesheet'
         />
-
+        <link
+          href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&family=Noto+Sans+Georgian:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap'
+          rel='stylesheet'
+        ></link>
         <link
           href='https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@400..700&family=La+Belle+Aurore&display=swap'
           rel='stylesheet'

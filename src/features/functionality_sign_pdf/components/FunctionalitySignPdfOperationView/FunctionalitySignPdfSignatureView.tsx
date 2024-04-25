@@ -164,12 +164,12 @@ const FunctionalitySignPdfSignatureView: FC<
         }}
         transformOrigin={{
           vertical: 0,
-          horizontal: 260,
+          horizontal: 240,
         }}
       >
         <Box
           sx={{
-            width: 260,
+            width: 230,
             p: 1,
           }}
         >
