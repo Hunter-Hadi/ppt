@@ -1,5 +1,7 @@
 import { MutableRefObject, useCallback, useEffect, useRef, useState } from 'react';
-
+/**
+ * 根据div的滚动位置，计算当前页码，与跳转页码对应位置，以及上一页/下一页翻页功能
+ */
 export const useFunctionalitySignScrollPagination = (pageCount: number, scrollContainerRef: MutableRefObject<HTMLElement | null>) => {
     const [currentPage, setCurrentPage] = useState(0);
     const [scrollTime, setScrollTime] = useState(0);

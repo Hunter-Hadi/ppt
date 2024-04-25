@@ -51,7 +51,7 @@ export const FunctionalitySignPdfDetail: FC<
   const dndDragRef = useRef<HTMLElement | null>(null);
   const showPdfHandlesRef =
     useRef<IFunctionalitySignPdfShowPdfViewHandles | null>(null);
-  const pdfViewHeight = useMemo(() => {
+  const overallViewHeight = useMemo(() => {
     const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top;
     return window.innerHeight - (distanceFromTop || 280) - 10;
   }, []);
@@ -161,6 +161,7 @@ export const FunctionalitySignPdfDetail: FC<
         direction='row'
         sx={{
           width: '100%',
+          height: overallViewHeight,
         }}
       >
         {/* pdf显示视图 */}
@@ -169,7 +170,6 @@ export const FunctionalitySignPdfDetail: FC<
           sx={{
             flex: 1,
             backgroundColor: '#fafafa',
-            height: pdfViewHeight,
             border: '1px solid #e8e8e8',
             overflow: 'hidden',
           }}
@@ -254,7 +254,6 @@ export const FunctionalitySignPdfDetail: FC<
                 }}
               >
                 <Typography>
-                  {' '}
                   {t(
                     'functionality__sign_pdf:components__sign_pdf__detail__empty_sign',
                   )}

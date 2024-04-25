@@ -48,11 +48,11 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   >([]);
   //PDF的页数
   const [numPages, setNumPages] = useState<number>(0);
-  const defaultWidth = useRef(700);
+  const defaultWidth = useRef(700); //TODO:应该是根据pdf宽度变更，但目前用着没问题，先这样，后续再调整
 
-  const [fixedWidthSize, setFixedWidthSize] = useState<number>(
+  const [selfAdaptionWidth, setSelfAdaptionWidth] = useState<number>(
     defaultWidth.current,
-  );
+  ); //根据窗口调节宽度
   const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(false);
   const [isScrollShow, setIsScrollShow] = useState(false);
 
@@ -77,7 +77,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       clearInterval(interval);
     };
   }, [scrollTime]);
-  const [pagesInfoList, setPagesInfoList] = useState<
+  const [pagesInitialSizeList, setPagesInitialSizeList] = useState<
     {
       width: number;
       height: number;
@@ -116,7 +116,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     for (let pageNum = 1; pageNum <= pdfDocument._pdfInfo.numPages; pageNum++) {
       const page = await pdfDocument.getPage(pageNum);
       const viewport = page.getViewport({ scale: 2 });
-      setPagesInfoList((list) => [
+      setPagesInitialSizeList((list) => [
         ...list,
         { width: viewport.width, height: viewport.height },
       ]);
@@ -124,20 +124,20 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   };
   const onSelfAdaption = () => {
     if (!isSelfAdaption) {
-      setFixedWidthSize(defaultWidth.current);
+      setSelfAdaptionWidth(defaultWidth.current);
     }
     console.log('simply parentWidth', parentWidth);
     setIsSelfAdaption(!isSelfAdaption);
   };
   const onChangeSize = (type: 'reduce' | 'add') => {
     if (isSelfAdaption) {
-      setFixedWidthSize(parentWidth - 15);
+      setSelfAdaptionWidth(parentWidth - 15);
       setIsSelfAdaption(false);
     }
     if (type === 'reduce') {
-      setFixedWidthSize((width) => Math.max(width - 50, 200));
+      setSelfAdaptionWidth((width) => Math.max(width - 50, 200));
     } else {
-      setFixedWidthSize((width) => width + 50);
+      setSelfAdaptionWidth((width) => width + 50);
     }
   };
   const onTextInputKeyDown = (event) => {
@@ -174,7 +174,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
             px: isSelfAdaption ? 0 : 4,
             py: isSelfAdaption ? 0 : 6,
             pb: 8,
-            width: isSelfAdaption ? parentWidth - 15 : fixedWidthSize, //-15是因为滚动条导致的横向滚动条出现
+            width: isSelfAdaption ? parentWidth - 15 : selfAdaptionWidth, //-15是因为滚动条导致的横向滚动条出现
             margin: '0 auto',
           }}
         >
@@ -216,7 +216,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                       <FunctionalitySignPdfShowPdfViewRenderCanvas
                         canvasIndex={index + 1}
                         ref={(el) => (canvasHandlesRefs.current[index] = el)}
-                        sizeInfo={pagesInfoList[index]}
+                        sizeInfo={pagesInitialSizeList[index]}
                       />
                     </Box>
                   </Box>
@@ -312,7 +312,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
 
           <IconButton
             size='small'
-            disabled={fixedWidthSize === 200}
+            disabled={selfAdaptionWidth === 200}
             onClick={() => onChangeSize('reduce')}
           >
             <FunctionalitySignPdfIcon name='RemoveCircleOutlineOutlined' />

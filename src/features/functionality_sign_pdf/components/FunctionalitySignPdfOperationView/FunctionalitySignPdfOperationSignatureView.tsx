@@ -30,7 +30,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
 }) => {
   const { t } = useTranslation();
 
-  const [modalOpen, setModalOpen] = useState(false);
+  const [signatureModalOpen, setModalSignatureOpen] = useState(false);
   const [signatureViewList, setSignatureViewList] = useState<string[]>([]);
   const [currentShowIndex, setCurrentShowIndex] = useState(0);
   const isActiveCurrent = useRef(false);
@@ -54,7 +54,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       isActiveCurrent.current = true;
     } else if (activeDragData?.dragType === 'end') {
       if (isActiveCurrent.current) {
-        setModalOpen(true);
+        setModalSignatureOpen(true);
         isActiveModelCurrent.current = true;
       }
       isActiveCurrent.current = false;
@@ -81,7 +81,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
     //只做了第一个显示
     setSignatureViewList((list) => [...list, value]);
     setCurrentShowIndex(signatureViewList.length);
-    setModalOpen(false);
+    setModalSignatureOpen(false);
     if (isActiveModelCurrent.current) {
       //用户因拖动空的触发这里的逻辑添加
       onClickAdd('image', value);
@@ -110,7 +110,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
         console.log('simply onWrapClick', type, value);
         value && onClickAdd(type, value);
       }}
-      onClick={() => setModalOpen(true)}
+      onClick={() => setModalSignatureOpen(true)}
     >
       {!isHaveValue && (
         <Stack
@@ -120,7 +120,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           height='100%'
           alignItems='center'
           justifyContent='space-between'
-          onClick={() => setModalOpen(true)}
+          onClick={() => setModalSignatureOpen(true)}
         >
           <Box flex={1}>
             {signatureEmptyView || (
@@ -240,7 +240,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
               mt: 1,
             }}
             onClick={() => {
-              setModalOpen(true);
+              setModalSignatureOpen(true);
               handleClose();
             }}
           >
@@ -250,10 +250,10 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           </Button>
         </Box>
       </Popover>
-      {modalOpen && (
+      {signatureModalOpen && (
         <FunctionalitySignPdfOperationSignatureModal
-          modalOpen={modalOpen}
-          onClose={() => setModalOpen(false)}
+          open={signatureModalOpen}
+          onClose={() => setModalSignatureOpen(false)}
           onCreate={onCreateSignatureValue}
         />
       )}

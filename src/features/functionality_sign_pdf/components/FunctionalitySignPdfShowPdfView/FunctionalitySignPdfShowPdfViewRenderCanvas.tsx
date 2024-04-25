@@ -36,7 +36,7 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
   };
 }
 /**
- * canvas渲染组件用的fabricjs
+ * canvas渲染组件用的fabric_js
  */
 const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfCanvasHandles,
@@ -179,7 +179,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }
   };
   useEffect(() => {
-    console.log('simply editor', editor);
     if (editor) {
       // 对象选中监听
       editor.canvas.on('selection:created', function (event) {
@@ -242,20 +241,17 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       });
       // 对象移动监听 - 保证操作div跟随移动
       editor.canvas.on('object:scaling', function (e) {
-        // console.log('simply object:scaling', e);
         handleObjectSelected(e.target);
       });
 
       // 确保再次选择时移动操作div
       editor.canvas.on('selection:updated', function (event) {
-        // console.log('simply object:updated', event);
         if (event.selected.length === 1) {
           handleObjectSelected(event.selected[0]);
         }
       });
       // 确保再次选择时移动操作div
       editor.canvas.on('selection:cleared', function (event) {
-        // console.log('simply object:updated', event);
         handleObjectSelected();
       });
     }

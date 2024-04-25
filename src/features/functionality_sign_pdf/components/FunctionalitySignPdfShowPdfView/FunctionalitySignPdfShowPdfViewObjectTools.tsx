@@ -17,7 +17,7 @@ interface IFunctionalitySignTextTools {
 }
 
 /**
- * PDF的点击签名 操作弹窗视图
+ * PDF的点击的  签名对象变更样式 全局弹窗视图
  */
 const FunctionalitySignPdfShowPdfViewObjectTools: FC<
   IFunctionalitySignTextTools

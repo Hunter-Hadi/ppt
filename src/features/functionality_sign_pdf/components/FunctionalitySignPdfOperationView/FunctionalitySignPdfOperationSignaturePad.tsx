@@ -10,6 +10,7 @@ import {
 } from 'react';
 import SignaturePad from 'signature_pad';
 
+import { changeImageColor } from '../../utils/colorTOols';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 
@@ -33,9 +34,9 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
       color: string;
       value: string;
     }[]
-  >([]);
-  const [refreshIndex, setRefreshIndex] = useState<number | null>(null);
-  const [isStartSign, setIsStartSign] = useState<boolean>(false);
+  >([]); //操作的历史记录
+  const [refreshIndex, setRefreshIndex] = useState<number | null>(null); //当前回归操作的历史记录索引
+  const [isStartSign, setIsStartSign] = useState<boolean>(false); //是否开始签名
 
   const currentColor = useRef<string>('block');
   useImperativeHandle(ref, () => ({
@@ -83,32 +84,16 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
   };
   const onChangeCanvasColor = (color: string) => {
     if (signaturePadRef.current && canvasRef.current) {
-      var ctx = canvasRef.current.getContext('2d');
+      let ctx = canvasRef.current.getContext('2d');
       if (ctx) {
-        var imageData = ctx.getImageData(
+        let imageData = ctx.getImageData(
           0,
           0,
           canvasRef.current.width,
           canvasRef.current.height,
         );
-        var data = imageData.data;
-        for (var i = 0; i < data.length; i += 4) {
-          data[i + 1] = 0;
-          switch (color) {
-            case 'black':
-              data[i] = 0;
-              data[i + 2] = 0;
-              break;
-            case 'red':
-              data[i] = 255;
-              data[i + 2] = 0;
-              break;
-            case 'blue':
-              data[i] = 0;
-              data[i + 2] = 255;
-              break;
-          }
-        }
+        imageData = changeImageColor(imageData, color);
+
         ctx.putImageData(imageData, 0, 0);
       }
 
@@ -120,7 +105,6 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
       signaturePadRef.current.clear();
       let index =
         refreshIndex !== null ? refreshIndex - 1 : historyCanvasList.length - 2;
-      //index===-1时，清空画布
       if (historyCanvasList[index]) {
         await signaturePadRef.current.fromDataURL(
           historyCanvasList[index].value,
