@@ -230,7 +230,6 @@ export const FunctionalitySignPdfDetail: FC<
             alignItems: 'center',
             cursor: 'grabbing',
             justifyContent: 'center',
-            border: '1px solid #e8e8e8',
           }}
         >
           {activeDragData &&

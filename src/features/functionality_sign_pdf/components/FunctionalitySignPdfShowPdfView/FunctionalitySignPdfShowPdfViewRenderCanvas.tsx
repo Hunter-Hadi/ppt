@@ -98,22 +98,27 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       image.onload = function () {
         // 将图片绘制到画布上
         const imgColor = findFirstNonTransparentPixel(image);
-        // 检查图像宽度，如果需要则调整大小
-        if (image.width > sizeInfo.width / 2) {
-          // 调整尺寸，使用 scale 代替直接设置 width 和 height
-          let scaleRatio = sizeInfo.width / 2 / image.width;
-          image.width = image.width * scaleRatio;
-          image.height = image.height * scaleRatio;
-        }
-        positionData.left = positionData.left - image.width / 2;
-        const fabricImage = new fabric.Image(image, positionData);
 
+        const fabricImage = new fabric.Image(image, positionData);
+        if (fabricImage.width > sizeInfo.width / 2) {
+          // 过大进行 调整尺寸，使用 scale 代替直接设置 width 和 height
+          let scaleRatio = sizeInfo.width / 2 / fabricImage.width;
+          fabricImage.scaleX = scaleRatio;
+          fabricImage.scaleY = scaleRatio;
+          fabricImage.left =
+            positionData.left - (fabricImage.width * scaleRatio) / 2;
+          fabricImage.top =
+            positionData.top - (fabricImage.height * scaleRatio) / 2; //调整位置到鼠标中心
+        } else {
+          fabricImage.left = positionData.left - fabricImage.width / 2; //调整位置到鼠标中心
+        }
         fabricImage.imgColor = imgColor;
 
         fabricImage.uniqueKey = canvasObject.id;
         editor.canvas.add(fabricImage);
       };
     } else if (canvasObject.type === 'textbox') {
+      positionData.left = positionData.left - 300 / 2;
       const text = new fabric.Textbox(canvasObject.value, {
         ...positionData,
         minScaleLimit: 1,
@@ -123,6 +128,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       text.uniqueKey = canvasObject.id;
       editor.canvas.add(text);
     } else if (canvasObject.type === 'text') {
+      positionData.left = positionData.left - 50 / 2;
       const text = new fabric.Text(canvasObject.value, {
         ...positionData,
         minScaleLimit: 1,
@@ -131,6 +137,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       text.uniqueKey = canvasObject.id;
       editor.canvas.add(text);
     } else if (canvasObject.type === 'i-text') {
+      positionData.left = positionData.left - 200 / 2;
       const text = new fabric.IText(canvasObject.value, {
         ...positionData,
         minScaleLimit: 1,
