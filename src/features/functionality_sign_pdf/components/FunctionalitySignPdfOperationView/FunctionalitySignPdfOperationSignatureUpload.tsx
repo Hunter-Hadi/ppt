@@ -9,7 +9,7 @@ import {
 
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 
-import { changeImageColor } from '../../utils/colorTOols';
+import { changeImageColor } from '../../utils/colorTools';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalitySignPdfSignatureUploadHandles {

@@ -10,7 +10,7 @@ import {
 } from 'react';
 import SignaturePad from 'signature_pad';
 
-import { changeImageColor } from '../../utils/colorTOols';
+import { changeImageColor } from '../../utils/colorTools';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 

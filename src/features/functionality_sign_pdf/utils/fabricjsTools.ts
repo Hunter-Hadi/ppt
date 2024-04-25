@@ -98,7 +98,7 @@ export const onChangeFabricColor = (editor: FabricJSEditor, color) => {
                 activeObject.canvas.renderAll();
             });
         };
-
+        activeObject.imgColor = color
         if (!activeObject.getElement().complete) {
             // If the image has not been loaded yet, set the src to trigger loading
             activeObject.setSrc(activeObject.getSrc());

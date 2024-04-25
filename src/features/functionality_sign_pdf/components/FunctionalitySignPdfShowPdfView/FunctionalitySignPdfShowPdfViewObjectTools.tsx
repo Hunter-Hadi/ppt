@@ -107,7 +107,7 @@ const FunctionalitySignPdfShowPdfViewObjectTools: FC<
         )}
         <FunctionalitySignPdfColorButtonPopover
           onSelectedColor={onChangeColor}
-          currentColor={activeObject.fill}
+          currentColor={isImage ? activeObject.imgColor : activeObject.fill}
         />
         <Button onClick={onCopySelectedObject}>
           <FunctionalitySignPdfIcon name='ContentCopy' />

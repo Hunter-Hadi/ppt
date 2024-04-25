@@ -61,16 +61,12 @@ const FunctionalitySignPdfOperationSignatureView: FC<
     }
   }, [activeDragData]);
   useEffect(() => {
-    console.log('simply currentShowIndex', currentShowIndex);
-  }, [currentShowIndex]);
-  useEffect(() => {
     if (signatureViewList[currentShowIndex] !== undefined) {
       onShowImgVal && onShowImgVal(signatureViewList[currentShowIndex]);
     }
   }, [currentShowIndex]);
   const handleClick = (event) => {
     event.stopPropagation();
-    event.preventDefault();
     setAnchorEl(event.currentTarget);
   };
 
@@ -102,15 +98,18 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       setCurrentShowIndex(newCurrentShowIndex);
     }
   };
+  const onClickChange = () => {
+    if (showImgValue) {
+      onClickAdd('image', showImgValue);
+    } else {
+      setModalSignatureOpen(true);
+    }
+  };
   return (
     <FunctionalitySignPdfOperationDraggableView
       id={dragId}
       data={{ type: 'image', value: showImgValue }}
-      onWrapClick={(type, value) => {
-        console.log('simply onWrapClick', type, value);
-        value && onClickAdd(type, value);
-      }}
-      onClick={() => setModalSignatureOpen(true)}
+      onIconClick={onClickChange}
     >
       {!isHaveValue && (
         <Stack
@@ -120,7 +119,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           height='100%'
           alignItems='center'
           justifyContent='space-between'
-          onClick={() => setModalSignatureOpen(true)}
+          onClick={onClickChange}
         >
           <Box flex={1}>
             {signatureEmptyView || (
@@ -156,6 +155,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       )}
       {isHaveValue && (
         <img
+          onClick={onClickChange}
           src={showImgValue}
           style={{
             width: 'calc(100% - 50px)',

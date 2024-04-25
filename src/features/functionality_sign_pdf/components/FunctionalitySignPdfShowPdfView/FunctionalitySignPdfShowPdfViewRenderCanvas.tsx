@@ -10,6 +10,7 @@ import React, {
   useState,
 } from 'react';
 
+import { findFirstNonTransparentPixel } from '../../utils/colorTools';
 import FunctionalitySignPdfShowPdfViewObjectTools from './FunctionalitySignPdfShowPdfViewObjectTools';
 export interface IControlDiv {
   left: number;
@@ -91,43 +92,24 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       lockRotation: true, // 锁定旋转
     };
     if (canvasObject.type === 'image') {
-      let canvas = document.createElement('canvas');
-      let ctx = canvas?.getContext('2d');
       const image = new Image();
       image.src = canvasObject.value;
 
       image.onload = function () {
         // 将图片绘制到画布上
-        if (ctx) {
-          ctx.drawImage(image, 0, 0);
-
-          // 取画布左上角的一个像素点的颜色
-          let imgData = ctx.getImageData(0, 0, 1, 1);
-          let red = imgData.data[0];
-          let green = imgData.data[1];
-          let blue = imgData.data[2];
-
-          // 通过颜色值判断图片是哪种颜色
-          // 假设“纯色”意味着全图为一种颜色，R=G=B 表示黑色或白色，若为红色或蓝色，其中一通道颜色值明显高于其他两通道
-          if (red === 0 && green === 0 && blue === 0) {
-            console.log('图片是黑色');
-          } else if (red > green && red > blue) {
-            console.log('图片是红色');
-          } else if (blue > red && blue > green) {
-            console.log('图片是蓝色');
-          } else {
-            console.log('无法识别的颜色');
-          }
-        }
-
-        const fabricImage = new fabric.Image(image, positionData);
+        const imgColor = findFirstNonTransparentPixel(image);
         // 检查图像宽度，如果需要则调整大小
-        if (fabricImage.width > sizeInfo.width / 2) {
+        if (image.width > sizeInfo.width / 2) {
           // 调整尺寸，使用 scale 代替直接设置 width 和 height
-          let scaleRatio = sizeInfo.width / 2 / fabricImage.width;
-          fabricImage.scaleX = scaleRatio;
-          fabricImage.scaleY = scaleRatio;
+          let scaleRatio = sizeInfo.width / 2 / image.width;
+          image.width = image.width * scaleRatio;
+          image.height = image.height * scaleRatio;
         }
+        positionData.left = positionData.left - image.width / 2;
+        const fabricImage = new fabric.Image(image, positionData);
+
+        fabricImage.imgColor = imgColor;
+
         fabricImage.uniqueKey = canvasObject.id;
         editor.canvas.add(fabricImage);
       };

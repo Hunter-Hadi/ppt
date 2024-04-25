@@ -12,9 +12,9 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
   disabled?: boolean;
   children: React.ReactNode;
   data?: { type: string; value?: string };
-  onClick?: () => void;
+  onIconClick?: () => void;
   onWrapClick?: (type: string, value: string) => void;
-}> = ({ id, data, children, disabled, onClick, onWrapClick }) => {
+}> = ({ id, data, children, disabled, onIconClick, onWrapClick }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,
     data: { id: id, ...data },
@@ -23,8 +23,12 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
 
   return (
     <Box
-      onClick={() =>
-        onWrapClick && data && data.value && onWrapClick(data.type, data.value)
+      onClick={
+        () =>
+          onWrapClick &&
+          data &&
+          data.value &&
+          onWrapClick(data.type, data.value) //点击可以直接传数据
       }
       id={id}
       ref={setNodeRef}
@@ -55,7 +59,7 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
           sx={{
             height: '100%',
           }}
-          onClick={!(data && data.value) ? onClick : undefined}
+          onClick={onIconClick}
         >
           <FunctionalitySignPdfIcon color='primary' name='DragIndicator' />
         </Stack>
