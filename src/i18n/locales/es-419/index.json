@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Cargar",
     "components__sign_pdf__unsupported_file_type_tip": "Por favor, carga el tipo de archivo PDF especificado",
     "components__sign_pdf__detail__empty_sign": "Firma vacía",
-    "components__sign_pdf__detail__empty_text": "Texto vacío"
+    "components__sign_pdf__detail__empty_text": "Texto vacío",
+    "components__sign_pdf__detail__finish": "Finalizar y Firmar"
   }
 }
