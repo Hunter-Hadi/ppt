@@ -14,10 +14,10 @@ import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
 import { pdfAddViewSave } from '../utils/pdfAddViewSave';
-import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfMain';
-import FunctionalitySignPdfShowPdfView, {
+import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationViewMain';
+import FunctionalitySignPdfShowPdfViewMain, {
   IFunctionalitySignPdfShowPdfViewHandles,
-} from './FunctionalitySignPdfShowPdfView/FunctionalitySignMain';
+} from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewPdfViewMain';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -174,7 +174,7 @@ export const FunctionalitySignPdfDetail: FC<
             overflow: 'hidden',
           }}
         >
-          <FunctionalitySignPdfShowPdfView
+          <FunctionalitySignPdfShowPdfViewMain
             file={file}
             ref={showPdfHandlesRef}
           />

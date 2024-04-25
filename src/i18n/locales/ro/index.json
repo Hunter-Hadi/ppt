@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Încarcă",
     "components__sign_pdf__unsupported_file_type_tip": "Te rugăm să încarci tipul specificat de fișier PDF",
     "components__sign_pdf__detail__empty_sign": "Semnătură goală",
-    "components__sign_pdf__detail__empty_text": "Text gol"
+    "components__sign_pdf__detail__empty_text": "Text gol",
+    "components__sign_pdf__detail__finish": "Finalizează și semnează"
   }
 }

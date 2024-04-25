@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Feltöltés",
     "components__sign_pdf__unsupported_file_type_tip": "Kérlek, töltsd fel a megadott PDF fájltípust",
     "components__sign_pdf__detail__empty_sign": "Üres aláírás",
-    "components__sign_pdf__detail__empty_text": "Üres szöveg"
+    "components__sign_pdf__detail__empty_text": "Üres szöveg",
+    "components__sign_pdf__detail__finish": "Befejezés és aláírás"
   }
 }

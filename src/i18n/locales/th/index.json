@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "อัปโหลด",
     "components__sign_pdf__unsupported_file_type_tip": "กรุณาอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__sign_pdf__detail__empty_sign": "ลายเซ็นว่างเปล่า",
-    "components__sign_pdf__detail__empty_text": "ข้อความว่างเปล่า"
+    "components__sign_pdf__detail__empty_text": "ข้อความว่างเปล่า",
+    "components__sign_pdf__detail__finish": "เสร็จสิ้นและลงลายเซ็น"
   }
 }

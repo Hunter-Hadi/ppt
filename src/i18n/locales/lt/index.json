@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Įkelti",
     "components__sign_pdf__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__sign_pdf__detail__empty_sign": "Tuščia parašo vieta",
-    "components__sign_pdf__detail__empty_text": "Tuščias tekstas"
+    "components__sign_pdf__detail__empty_text": "Tuščias tekstas",
+    "components__sign_pdf__detail__finish": "Baigti ir pasirašyti"
   }
 }

@@ -7,13 +7,18 @@ import {
   useState,
 } from 'react';
 
+import { textToBase64Image } from '../../utils/toBase64';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalitySignPdfSignatureTypeHandles {
-  getTextVal: () => string;
+  getPngBase64: () => string | undefined;
 }
-const FunctionalitySignPdfSignatureType: ForwardRefRenderFunction<
+
+/**
+ * 输入文字签名
+ */
+const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
   IFunctionalitySignPdfSignatureTypeHandles
 > = (props, ref) => {
   const { t } = useTranslation();
@@ -22,7 +27,9 @@ const FunctionalitySignPdfSignatureType: ForwardRefRenderFunction<
   const [currentFonts, setCurrentFonts] = useState<string>('Caveat, cursive');
   const [typeInputVal, setTypeInputVal] = useState('');
   useImperativeHandle(ref, () => ({
-    getTextVal: () => typeInputVal,
+    getPngBase64: () => {
+      return textToBase64Image(typeInputVal, currentColor, currentFonts);
+    },
   }));
   const onSelectedColor = (color: string) => {
     setCurrentColor(color);
@@ -85,4 +92,4 @@ const FunctionalitySignPdfSignatureType: ForwardRefRenderFunction<
     </Box>
   );
 };
-export default forwardRef(FunctionalitySignPdfSignatureType);
+export default forwardRef(FunctionalitySignPdfOperationSignatureType);

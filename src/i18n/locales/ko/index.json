@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "업로드",
     "components__sign_pdf__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
     "components__sign_pdf__detail__empty_sign": "빈 서명",
-    "components__sign_pdf__detail__empty_text": "빈 텍스트"
+    "components__sign_pdf__detail__empty_text": "빈 텍스트",
+    "components__sign_pdf__detail__finish": "완료 및 서명"
   }
 }

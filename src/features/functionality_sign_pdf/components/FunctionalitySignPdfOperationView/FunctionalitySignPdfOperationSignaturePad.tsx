@@ -18,7 +18,10 @@ export interface IFunctionalitySignPdfSignaturePadHandles {
   getPngBase64: () => string;
 }
 
-const FunctionalitySignPdfSignaturePad: ForwardRefRenderFunction<
+/**
+ * 签名手绘板
+ */
+const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
   IFunctionalitySignPdfSignaturePadHandles
 > = (props, ref) => {
   const { t } = useTranslation();
@@ -232,4 +235,4 @@ const FunctionalitySignPdfSignaturePad: ForwardRefRenderFunction<
     </Box>
   );
 };
-export default forwardRef(FunctionalitySignPdfSignaturePad);
+export default forwardRef(FunctionalitySignPdfOperationSignaturePad);

@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Augšupielādēt",
     "components__sign_pdf__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__sign_pdf__detail__empty_sign": "Tukša paraksts",
-    "components__sign_pdf__detail__empty_text": "Tukšs teksts"
+    "components__sign_pdf__detail__empty_text": "Tukšs teksts",
+    "components__sign_pdf__detail__finish": "Pabeigt un parakstīt"
   }
 }

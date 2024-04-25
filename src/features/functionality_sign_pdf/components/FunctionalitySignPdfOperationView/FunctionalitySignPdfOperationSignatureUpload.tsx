@@ -14,7 +14,11 @@ import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButto
 export interface IFunctionalitySignPdfSignatureUploadHandles {
   getPngBase64: () => string;
 }
-const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
+
+/**
+ * 上传图片签名
+ */
+const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
   IFunctionalitySignPdfSignatureUploadHandles
 > = (props, ref) => {
   const { t } = useTranslation();
@@ -209,4 +213,4 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
     </Box>
   );
 };
-export default forwardRef(FunctionalitySignPdfSignatureUpload);
+export default forwardRef(FunctionalitySignPdfOperationSignatureUpload);

@@ -9,19 +9,23 @@ import {
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import { IControlDiv } from './FunctionalitySignPdfRenderCanvas';
+import { IControlDiv } from './FunctionalitySignPdfShowPdfViewRenderCanvas';
 interface IFunctionalitySignTextTools {
   controlDiv: IControlDiv;
   scaleFactor: number;
   editor: any;
 }
-export const FunctionalitySignTextTools: FC<IFunctionalitySignTextTools> = ({
-  controlDiv,
-  editor,
-  scaleFactor,
-}) => {
-  const activeObject = useMemo(() => editor.canvas?.getActiveObject(), []);
 
+/**
+ * PDF的点击签名 操作弹窗视图
+ */
+const FunctionalitySignPdfShowPdfViewObjectTools: FC<
+  IFunctionalitySignTextTools
+> = ({ controlDiv, editor, scaleFactor }) => {
+  const activeObject = useMemo(
+    () => editor.canvas?.getActiveObject(),
+    [editor.canvas],
+  );
   const onChangeColor = (color) => {
     if (editor) {
       onChangeFabricColor(editor, color);
@@ -103,6 +107,7 @@ export const FunctionalitySignTextTools: FC<IFunctionalitySignTextTools> = ({
         )}
         <FunctionalitySignPdfColorButtonPopover
           onSelectedColor={onChangeColor}
+          currentColor={activeObject.fill}
         />
         <Button onClick={onCopySelectedObject}>
           <FunctionalitySignPdfIcon name='ContentCopy' />
@@ -114,3 +119,4 @@ export const FunctionalitySignTextTools: FC<IFunctionalitySignTextTools> = ({
     </Stack>
   );
 };
+export default FunctionalitySignPdfShowPdfViewObjectTools;

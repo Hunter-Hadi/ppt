@@ -625,7 +625,8 @@
     "components__sign_pdf__operation_view__upload": "Upload",
     "components__sign_pdf__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__sign_pdf__detail__empty_sign": "Empty Signature",
-    "components__sign_pdf__detail__empty_text": "Empty Text"
+    "components__sign_pdf__detail__empty_text": "Empty Text",
+    "components__sign_pdf__detail__finish": "Finish & Sign"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

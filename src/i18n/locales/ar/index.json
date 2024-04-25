@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "تحميل",
     "components__sign_pdf__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__sign_pdf__detail__empty_sign": "توقيع فارغ",
-    "components__sign_pdf__detail__empty_text": "نص فارغ"
+    "components__sign_pdf__detail__empty_text": "نص فارغ",
+    "components__sign_pdf__detail__finish": "إنهاء وتوقيع"
   }
 }

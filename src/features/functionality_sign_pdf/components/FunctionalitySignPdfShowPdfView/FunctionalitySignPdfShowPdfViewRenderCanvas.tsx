@@ -10,7 +10,7 @@ import React, {
   useState,
 } from 'react';
 
-import { FunctionalitySignTextTools } from './FunctionalitySignTextTools';
+import FunctionalitySignPdfShowPdfViewObjectTools from './FunctionalitySignPdfShowPdfViewObjectTools';
 export interface IControlDiv {
   left: number;
   top: number;
@@ -35,7 +35,10 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
     height: number;
   };
 }
-const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
+/**
+ * canvas渲染组件用的fabricjs
+ */
+const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfCanvasHandles,
   IFunctionalitySignPdfShowPdfCanvasProps
 > = ({ canvasIndex, sizeInfo }, handleRef) => {
@@ -43,6 +46,7 @@ const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
   const topWrapRef = useRef<HTMLElement | null>(null);
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null);
+  const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象
   useImperativeHandle(
     handleRef,
     () => ({
@@ -76,6 +80,7 @@ const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
   }, [editor]);
   // 当对象被选中或移动时调用
   const onAddObject = (canvasObject: ICanvasObjectData) => {
+    console.log('simply canvasObject', canvasObject);
     if (!editor) return;
     const centerX = sizeInfo && sizeInfo?.width / 2; //没有就默认居中
     const centerY = sizeInfo && sizeInfo?.height / 2;
@@ -86,10 +91,35 @@ const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
       lockRotation: true, // 锁定旋转
     };
     if (canvasObject.type === 'image') {
+      let canvas = document.createElement('canvas');
+      let ctx = canvas?.getContext('2d');
       const image = new Image();
       image.src = canvasObject.value;
 
       image.onload = function () {
+        // 将图片绘制到画布上
+        if (ctx) {
+          ctx.drawImage(image, 0, 0);
+
+          // 取画布左上角的一个像素点的颜色
+          let imgData = ctx.getImageData(0, 0, 1, 1);
+          let red = imgData.data[0];
+          let green = imgData.data[1];
+          let blue = imgData.data[2];
+
+          // 通过颜色值判断图片是哪种颜色
+          // 假设“纯色”意味着全图为一种颜色，R=G=B 表示黑色或白色，若为红色或蓝色，其中一通道颜色值明显高于其他两通道
+          if (red === 0 && green === 0 && blue === 0) {
+            console.log('图片是黑色');
+          } else if (red > green && red > blue) {
+            console.log('图片是红色');
+          } else if (blue > red && blue > green) {
+            console.log('图片是蓝色');
+          } else {
+            console.log('无法识别的颜色');
+          }
+        }
+
         const fabricImage = new fabric.Image(image, positionData);
         // 检查图像宽度，如果需要则调整大小
         if (fabricImage.width > sizeInfo.width / 2) {
@@ -129,10 +159,12 @@ const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
     }
     editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
   };
-  const handleObjectSelected = (object?: any) => {
+  const handleObjectSelected = (object?: fabric.Object) => {
     try {
-      const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
+      setActiveObject(object);
       if (object) {
+        const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
+
         setControlDiv({
           left: object.left,
           top: object.top,
@@ -151,7 +183,7 @@ const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
     if (editor) {
       // 对象选中监听
       editor.canvas.on('selection:created', function (event) {
-        // console.log('simply before:selection', event);
+        console.log('simply before:selection', event);
         if (event.selected.length === 1) {
           handleObjectSelected(event.selected[0]);
         }
@@ -279,8 +311,8 @@ const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
         />
       </Box>
       {selectedObjects?.length === 1 && controlDiv && (
-        <FunctionalitySignTextTools
-          key={selectedObjects[0].uniqueKey}
+        <FunctionalitySignPdfShowPdfViewObjectTools
+          key={activeObject.uniqueKey}
           controlDiv={{ ...controlDiv }}
           scaleFactor={scaleFactor}
           editor={editor}
@@ -289,4 +321,4 @@ const FunctionalitySignPdfRenderCanvas: ForwardRefRenderFunction<
     </Box>
   );
 };
-export default forwardRef(FunctionalitySignPdfRenderCanvas);
+export default forwardRef(FunctionalitySignPdfShowPdfViewRenderCanvas);

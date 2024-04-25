@@ -987,6 +987,7 @@
     "components__sign_pdf__operation_view__upload": "העלה",
     "components__sign_pdf__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__sign_pdf__detail__empty_sign": "חתימה ריקה",
-    "components__sign_pdf__detail__empty_text": "טקסט ריק"
+    "components__sign_pdf__detail__empty_text": "טקסט ריק",
+    "components__sign_pdf__detail__finish": "סיום וחתימה"
   }
 }

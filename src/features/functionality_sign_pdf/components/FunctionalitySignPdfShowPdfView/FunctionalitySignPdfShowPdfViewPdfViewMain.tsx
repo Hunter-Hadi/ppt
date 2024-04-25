@@ -1,11 +1,9 @@
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 
-import { useDroppable } from '@dnd-kit/core';
 import { Box, IconButton, Stack, TextField } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import {
-  FC,
   forwardRef,
   ForwardRefRenderFunction,
   useEffect,
@@ -18,36 +16,15 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySignElementWidth';
 import { useFunctionalitySignScrollPagination } from '../../hooks/useFunctionalitySignScrollPagination';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfRenderCanvas, {
+import FunctionalitySignPdfShowPdfViewDroppable from './FunctionalitySignPdfDroppable';
+import FunctionalitySignPdfShowPdfViewRenderCanvas, {
   ICanvasObjectData,
-} from './FunctionalitySignPdfRenderCanvas';
+} from './FunctionalitySignPdfShowPdfViewRenderCanvas';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
 
-const FunctionalitySignPdfDroppable: FC<{
-  children: React.ReactNode;
-  index: number;
-}> = ({ children, index }) => {
-  const { isOver, setNodeRef } = useDroppable({
-    id: `droppable-${index}`,
-    data: { pdfIndex: index },
-  });
-
-  return (
-    <Box
-      id={`droppable-${index}`}
-      ref={setNodeRef}
-      sx={{
-        color: isOver ? 'green' : undefined,
-        position: 'relative',
-      }}
-    >
-      {children}
-    </Box>
-  );
-};
 export interface IFunctionalitySignPdfShowPdfViewHandles {
   getNumPages: () => number;
   onAddObject?: (
@@ -58,7 +35,10 @@ export interface IFunctionalitySignPdfShowPdfViewHandles {
 interface IFunctionalitySignPdfShowPdfViewProps {
   file: File;
 }
-export const FunctionalitySignPdfShowPdfView: ForwardRefRenderFunction<
+/**
+ * 签名PDF处的视图
+ */
+export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file }, handleRef) => {
@@ -205,7 +185,7 @@ export const FunctionalitySignPdfShowPdfView: ForwardRefRenderFunction<
           >
             {Array.from(new Array(numPages), (el, index) => (
               <div key={index} ref={(el) => setPageRef(el, index)}>
-                <FunctionalitySignPdfDroppable index={index}>
+                <FunctionalitySignPdfShowPdfViewDroppable index={index}>
                   <Box
                     sx={{
                       position: 'relative',
@@ -233,14 +213,14 @@ export const FunctionalitySignPdfShowPdfView: ForwardRefRenderFunction<
                         zIndex: 9,
                       }}
                     >
-                      <FunctionalitySignPdfRenderCanvas
+                      <FunctionalitySignPdfShowPdfViewRenderCanvas
                         canvasIndex={index + 1}
                         ref={(el) => (canvasHandlesRefs.current[index] = el)}
                         sizeInfo={pagesInfoList[index]}
                       />
                     </Box>
                   </Box>
-                </FunctionalitySignPdfDroppable>
+                </FunctionalitySignPdfShowPdfViewDroppable>
               </div>
             ))}
           </Document>
@@ -345,4 +325,4 @@ export const FunctionalitySignPdfShowPdfView: ForwardRefRenderFunction<
     </Stack>
   );
 };
-export default forwardRef(FunctionalitySignPdfShowPdfView);
+export default forwardRef(FunctionalitySignPdfShowPdfViewPdfViewMain);

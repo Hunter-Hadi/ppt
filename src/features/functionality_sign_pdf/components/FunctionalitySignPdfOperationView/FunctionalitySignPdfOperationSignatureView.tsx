@@ -4,10 +4,10 @@ import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfShowView';
-import FunctionalitySignPdfSignatureModal, {
+import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
+import FunctionalitySignPdfOperationSignatureModal, {
   ISignatureType,
-} from './FunctionalitySignPdfSignatureModal';
+} from './FunctionalitySignPdfOperationSignatureModal';
 interface IFunctionalitySignPdfSignatureViewProps {
   dragId: string;
   onShowImgVal?: (val: string) => void;
@@ -16,7 +16,10 @@ interface IFunctionalitySignPdfSignatureViewProps {
   onClickAdd: (type: string, value: string) => void;
 }
 
-const FunctionalitySignPdfSignatureView: FC<
+/**
+ * 签名视图，在里面可以添加/删除签名/打开签名弹窗选择
+ */
+const FunctionalitySignPdfOperationSignatureView: FC<
   IFunctionalitySignPdfSignatureViewProps
 > = ({
   dragId,
@@ -248,7 +251,7 @@ const FunctionalitySignPdfSignatureView: FC<
         </Box>
       </Popover>
       {modalOpen && (
-        <FunctionalitySignPdfSignatureModal
+        <FunctionalitySignPdfOperationSignatureModal
           modalOpen={modalOpen}
           onClose={() => setModalOpen(false)}
           onCreate={onCreateSignatureValue}
@@ -257,4 +260,4 @@ const FunctionalitySignPdfSignatureView: FC<
     </FunctionalitySignPdfOperationDraggableView>
   );
 };
-export default FunctionalitySignPdfSignatureView;
+export default FunctionalitySignPdfOperationSignatureView;

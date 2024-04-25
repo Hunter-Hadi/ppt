@@ -1,27 +1,34 @@
 import { Box, Popover } from '@mui/material';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
-import { FC, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
   onSelectedColor: (color: string) => void;
   currentColor?: string;
 }
+/**
+ * 签名颜色选择按钮
+ */
 const FunctionalitySignPdfColorButtonPopover: FC<
   IFunctionalitySignPdfColorButtonPopoverProps
-> = ({ onSelectedColor }) => {
+> = ({ onSelectedColor, currentColor }) => {
   const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
-  const [currentColor, setCurrentColor] = useState('black');
+  const [currentShowColor, setShowCurrentColor] = useState('black');
 
   const handleClick = (event) => {
     setPopoverAnchorEl(popoverAnchorEl ? null : event.currentTarget);
   };
-
+  useEffect(() => {
+    if (currentColor) {
+      setShowCurrentColor(currentColor);
+    }
+  }, [currentColor]);
   const handleColorSelect = (color) => {
     setPopoverAnchorEl(null);
     onSelectedColor(color);
-    setCurrentColor(color);
+    setShowCurrentColor(color);
   };
 
   const open = Boolean(popoverAnchorEl);
@@ -41,7 +48,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
         sx={{
           width: 20,
           height: 20,
-          bgcolor: currentColor,
+          bgcolor: currentShowColor,
           borderRadius: '50%',
         }}
       />

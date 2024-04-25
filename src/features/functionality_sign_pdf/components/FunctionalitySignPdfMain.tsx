@@ -13,7 +13,7 @@ const FunctionalitySignPdfDetail = lazy(
     ),
 );
 
-const FunctionalityPdfToImage = () => {
+const FunctionalitySignPdfMain = () => {
   const { t } = useTranslation();
 
   const [fileData, setFileData] = useState<File | null>(null);
@@ -90,4 +90,4 @@ const FunctionalityPdfToImage = () => {
     </Stack>
   );
 };
-export default FunctionalityPdfToImage;
+export default FunctionalitySignPdfMain;

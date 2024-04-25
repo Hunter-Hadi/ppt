@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "আপলোড করুন",
     "components__sign_pdf__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল আপলোড করুন",
     "components__sign_pdf__detail__empty_sign": "খালি স্বাক্ষর",
-    "components__sign_pdf__detail__empty_text": "খালি টেক্সট"
+    "components__sign_pdf__detail__empty_text": "খালি টেক্সট",
+    "components__sign_pdf__detail__finish": "সমাপ্ত করুন এবং স্বাক্ষর করুন"
   }
 }

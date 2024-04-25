@@ -1,7 +1,7 @@
 import { Box, Popover, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import { useTranslation } from 'next-i18next';
-import { FC, useState } from 'react';
+import { FC, useMemo, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
@@ -12,6 +12,9 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
   fontSize?: number;
   fontsList?: string[];
 }
+/**
+ * 用于选择字体的弹出式按钮
+ */
 const FunctionalitySignPdfFontsButtonPopover: FC<
   IFunctionalitySignPdfColorButtonPopoverProps
 > = ({
@@ -23,9 +26,17 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
   fontsList,
 }) => {
   const { t } = useTranslation();
-
+  const newFontsList = useMemo(
+    () => [
+      ...(fontsList || []),
+      'Caveat, cursive',
+      '"La Belle Aurore", cursive',
+      '"Dancing Script", cursive',
+    ],
+    [fontsList],
+  );
   const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
-  const [newCurrentFonts, setNewCurrentFonts] = useState('');
+  const [newCurrentFonts, setNewCurrentFonts] = useState();
 
   const handleClick = (event) => {
     setPopoverAnchorEl(popoverAnchorEl ? null : event.currentTarget);
@@ -79,12 +90,7 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
           },
         }}
       >
-        {[
-          ...(fontsList || []),
-          'Caveat, cursive',
-          '"La Belle Aurore", cursive',
-          '"Dancing Script", cursive',
-        ].map((fonts) => (
+        {newFontsList.map((fonts) => (
           <Box key={fonts}>
             <Button
               sx={{

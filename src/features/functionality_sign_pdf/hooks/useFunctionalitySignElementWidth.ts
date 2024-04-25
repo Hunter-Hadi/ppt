@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-// 自定义hook
+// 一个ref div，的最新高度宽度
 export const useFunctionalitySignElementWidth = () => {
     // 创建一个ref来引用想要测量的元素
     const ref = useRef<HTMLElement | null>(null);

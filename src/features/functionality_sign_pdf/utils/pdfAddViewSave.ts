@@ -1,6 +1,6 @@
 import { PDFDocument } from "pdf-lib";
 
-//file 是pdf
+//file 是pdf，pdfPageNumber是pdf的页数，根据id绘制到pdf上，并保存下载
 export const pdfAddViewSave = async (file: File, pdfPageNumber: number) => {
     // Create a new PDFDocument or load the existing PDF file
     let pdfDoc: PDFDocument | null = null;

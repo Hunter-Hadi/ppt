@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Upload",
     "components__sign_pdf__unsupported_file_type_tip": "Upload venligst den angivne PDF-filtype",
     "components__sign_pdf__detail__empty_sign": "Tom underskrift",
-    "components__sign_pdf__detail__empty_text": "Tom tekst"
+    "components__sign_pdf__detail__empty_text": "Tom tekst",
+    "components__sign_pdf__detail__finish": "Afslut og underskriv"
   }
 }

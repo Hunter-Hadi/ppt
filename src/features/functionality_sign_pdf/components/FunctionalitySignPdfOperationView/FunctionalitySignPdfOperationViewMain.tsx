@@ -5,14 +5,17 @@ import { FC } from 'react';
 
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfShowView';
-import FunctionalitySignPdfSignatureView from './FunctionalitySignPdfSignatureView';
+import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
+import FunctionalitySignPdfOperationSignatureView from './FunctionalitySignPdfOperationSignatureView';
 
 interface IFunctionalitySignPdfOperationView {
   activeDragData?: IActiveDragData;
   onClickAdd: (type: string, value: string) => void;
 }
-const FunctionalitySignPdfOperationView: FC<
+/**
+ * 用于选择签名的操作视图
+ */
+const FunctionalitySignPdfOperationViewMain: FC<
   IFunctionalitySignPdfOperationView
 > = ({ activeDragData, onClickAdd }) => {
   const { t } = useTranslation();
@@ -20,7 +23,7 @@ const FunctionalitySignPdfOperationView: FC<
   return (
     <Stack flexDirection='column'>
       <Stack direction='column' gap={2}>
-        <FunctionalitySignPdfSignatureView
+        <FunctionalitySignPdfOperationSignatureView
           dragId={'draggable-0'}
           activeDragData={activeDragData}
           onClickAdd={onClickAdd}
@@ -42,7 +45,7 @@ const FunctionalitySignPdfOperationView: FC<
             </Stack>
           }
         />
-        <FunctionalitySignPdfSignatureView
+        <FunctionalitySignPdfOperationSignatureView
           dragId={'draggable-1'}
           activeDragData={activeDragData}
           onClickAdd={onClickAdd}
@@ -140,4 +143,4 @@ const FunctionalitySignPdfOperationView: FC<
     </Stack>
   );
 };
-export default FunctionalitySignPdfOperationView;
+export default FunctionalitySignPdfOperationViewMain;

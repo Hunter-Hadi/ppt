@@ -2,17 +2,15 @@ import { Box, Button, Modal, Stack, Tab, Tabs } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useRef, useState } from 'react';
 
-import { textToBase64Image } from '@/features/functionality_sign_pdf/utils/toBase64';
-
-import FunctionalitySignPdfSignaturePad, {
+import FunctionalitySignPdfOperationSignaturePad, {
   IFunctionalitySignPdfSignaturePadHandles,
-} from './FunctionalitySignPdfSignaturePad';
-import FunctionalitySignPdfSignatureType, {
+} from './FunctionalitySignPdfOperationSignaturePad';
+import FunctionalitySignPdfOperationSignatureType, {
   IFunctionalitySignPdfSignatureTypeHandles,
-} from './FunctionalitySignPdfSignatureType';
-import FunctionalitySignPdfSignatureUpload, {
+} from './FunctionalitySignPdfOperationSignatureType';
+import FunctionalitySignPdfOperationSignatureUpload, {
   IFunctionalitySignPdfSignatureUploadHandles,
-} from './FunctionalitySignPdfSignatureUpload';
+} from './FunctionalitySignPdfOperationSignatureUpload';
 const style = {
   position: 'absolute' as 'absolute',
   top: '50%',
@@ -31,7 +29,11 @@ interface IFunctionalitySignPdfSignModalProps {
   onCreate: (type: ISignatureType, value: string) => void;
   modalOpen: boolean;
 }
-const FunctionalitySignPdfSignatureModal: FC<
+
+/**
+ * 签名操作弹窗。签名手绘板，输入签名，上传签名
+ */
+const FunctionalitySignPdfOperationSignatureModal: FC<
   IFunctionalitySignPdfSignModalProps
 > = ({ onClose, onCreate, modalOpen }) => {
   const { t } = useTranslation();
@@ -51,12 +53,9 @@ const FunctionalitySignPdfSignatureModal: FC<
   };
   const onConfirm = () => {
     if (tabValue === 'type') {
-      const inputVal = signatureTypeRef.current?.getTextVal();
-      if (inputVal) {
-        const imageString = textToBase64Image(inputVal, 80);
-        if (imageString) {
-          onCreate(tabValue, imageString);
-        }
+      const imageString = signatureTypeRef.current?.getPngBase64();
+      if (imageString) {
+        onCreate(tabValue, imageString);
       }
     } else if (tabValue === 'draw') {
       const imageString = signaturePadRef.current?.getPngBase64();
@@ -111,17 +110,23 @@ const FunctionalitySignPdfSignatureModal: FC<
         >
           {tabValue === 'draw' && (
             <Box>
-              <FunctionalitySignPdfSignaturePad ref={signaturePadRef} />
+              <FunctionalitySignPdfOperationSignaturePad
+                ref={signaturePadRef}
+              />
             </Box>
           )}
           {tabValue === 'type' && (
             <Box>
-              <FunctionalitySignPdfSignatureType ref={signatureTypeRef} />
+              <FunctionalitySignPdfOperationSignatureType
+                ref={signatureTypeRef}
+              />
             </Box>
           )}
           {tabValue === 'upload' && (
             <Box>
-              <FunctionalitySignPdfSignatureUpload ref={signatureUploadRef} />
+              <FunctionalitySignPdfOperationSignatureUpload
+                ref={signatureUploadRef}
+              />
             </Box>
           )}
         </Box>
@@ -152,4 +157,4 @@ const FunctionalitySignPdfSignatureModal: FC<
     </Modal>
   );
 };
-export default FunctionalitySignPdfSignatureModal;
+export default FunctionalitySignPdfOperationSignatureModal;

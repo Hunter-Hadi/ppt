@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Lataa",
     "components__sign_pdf__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
     "components__sign_pdf__detail__empty_sign": "Tyhjä allekirjoitus",
-    "components__sign_pdf__detail__empty_text": "Tyhjä teksti"
+    "components__sign_pdf__detail__empty_text": "Tyhjä teksti",
+    "components__sign_pdf__detail__finish": "Valmis ja allekirjoita"
   }
 }

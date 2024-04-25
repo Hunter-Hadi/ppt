@@ -4,6 +4,9 @@ import { FC } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 
+/**
+ * 拖动操作逻辑加外层视图逻辑
+ */
 const FunctionalitySignPdfOperationDraggableView: FC<{
   id: string;
   disabled?: boolean;

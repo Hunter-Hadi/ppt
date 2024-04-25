@@ -988,6 +988,7 @@
     "components__sign_pdf__operation_view__upload": "Carrega",
     "components__sign_pdf__unsupported_file_type_tip": "Si us plau, carrega el tipus de fitxer PDF especificat",
     "components__sign_pdf__detail__empty_sign": "Signatura buida",
-    "components__sign_pdf__detail__empty_text": "Text buit"
+    "components__sign_pdf__detail__empty_text": "Text buit",
+    "components__sign_pdf__detail__finish": "Finalitza i Signa"
   }
 }
