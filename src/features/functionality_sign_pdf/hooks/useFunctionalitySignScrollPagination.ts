@@ -2,11 +2,15 @@ import { MutableRefObject, useCallback, useEffect, useRef, useState } from 'reac
 
 export const useFunctionalitySignScrollPagination = (pageCount: number, scrollContainerRef: MutableRefObject<HTMLElement | null>) => {
     const [currentPage, setCurrentPage] = useState(0);
+    const [scrollTime, setScrollTime] = useState(0);
+
     const pageRefs = useRef<HTMLElement[]>([]);
 
     // 动态计算当前页码
     const handleScroll = useCallback(() => {
         if (!scrollContainerRef.current) return;
+        console.log('simply --- time')
+        setScrollTime(new Date().valueOf())
         const container = scrollContainerRef.current;
         if (container.scrollTop < 10) {
             setCurrentPage(0);
@@ -54,6 +58,7 @@ export const useFunctionalitySignScrollPagination = (pageCount: number, scrollCo
     const goToPreviousPage = useCallback(() => { scrollToPage(currentPage - 1); }, [currentPage, scrollToPage]);
 
     return {
+        scrollTime,
         setPageRef: (el, index) => { pageRefs.current[index] = el; },
         currentPage,
         scrollToPage,

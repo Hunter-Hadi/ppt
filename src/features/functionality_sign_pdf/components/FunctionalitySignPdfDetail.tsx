@@ -59,7 +59,6 @@ export const FunctionalitySignPdfDetail: FC<
     IActiveDragData | undefined
   >(undefined);
   const handleDragEnd = (event: DragEndEvent) => {
-    console.log('simply handleDragEnd', event);
     if (event.over && event.over.id) {
       const { delta, over, active } = event;
       const rollingView = document.getElementById(
@@ -106,15 +105,19 @@ export const FunctionalitySignPdfDetail: FC<
           ...newSignaturePosition,
         });
       }
-      setActiveDragData({
-        dragType: 'end',
-        ...newSignaturePosition,
-        id: uuidV4(),
-        ...(active.data.current as {
-          type: string;
-          value: string;
-        }),
-      });
+      if (activeDragData?.dragType === 'start' && !activeDragData.value) {
+        setActiveDragData({
+          dragType: 'end',
+          ...newSignaturePosition,
+          id: uuidV4(),
+          ...(active.data.current as {
+            type: string;
+            value: string;
+          }),
+        });
+      } else {
+        setActiveDragData(undefined);
+      }
     }
   };
 
@@ -146,6 +149,7 @@ export const FunctionalitySignPdfDetail: FC<
         y: activeDragData?.y, ////用户因拖动空的触发这里的逻辑添加,继承上次拖动到drag数据
       });
     }
+    setActiveDragData(undefined);
   };
   return (
     <DndContext
@@ -218,7 +222,7 @@ export const FunctionalitySignPdfDetail: FC<
         </Stack>
       </Stack>
       {/* 下面是拖动替身 */}
-      {activeDragData && (
+      {activeDragData && activeDragData.dragType === 'start' && (
         <DragOverlay
           style={{
             display: 'flex',

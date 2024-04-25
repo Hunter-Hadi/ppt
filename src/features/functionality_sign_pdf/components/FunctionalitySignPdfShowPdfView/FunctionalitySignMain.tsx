@@ -69,20 +69,34 @@ export const FunctionalitySignPdfShowPdfView: ForwardRefRenderFunction<
   //PDF的页数
   const [numPages, setNumPages] = useState<number>(0);
   const defaultWidth = useRef(700);
+
   const [fixedWidthSize, setFixedWidthSize] = useState<number>(
     defaultWidth.current,
   );
-
   const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(false);
+  const [isScrollShow, setIsScrollShow] = useState(false);
+
   const { ref: rollingRef, width: parentWidth } =
     useFunctionalitySignElementWidth();
   const {
+    scrollTime,
     setPageRef,
     currentPage,
     scrollToPage,
     goToNextPage,
     goToPreviousPage,
   } = useFunctionalitySignScrollPagination(numPages || 0, rollingRef);
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    const checkScrollTime = () => {
+      setIsScrollShow(scrollTime + 3000 > new Date().valueOf());
+    };
+    checkScrollTime();
+    interval = setInterval(checkScrollTime, 1000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [scrollTime]);
   const [pagesInfoList, setPagesInfoList] = useState<
     {
       width: number;
@@ -260,7 +274,7 @@ export const FunctionalitySignPdfShowPdfView: ForwardRefRenderFunction<
           gap={1}
           sx={{
             bgcolor: '#ffffff',
-            display: 'none',
+            display: isScrollShow ? 'flex' : 'none',
             p: 1,
             borderRadius: 2,
           }}

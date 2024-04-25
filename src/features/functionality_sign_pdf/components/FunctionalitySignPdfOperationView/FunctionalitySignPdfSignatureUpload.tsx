@@ -24,7 +24,6 @@ const FunctionalitySignPdfSignatureUpload: ForwardRefRenderFunction<
     getPngBase64: () => imgVal,
   }));
   const onSelectedColor = (color: string) => {
-    // 假定base64是你的Base64字符串
     var base64 = imgVal;
 
     // 创建一个新的Image对象
