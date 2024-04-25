@@ -8,6 +8,7 @@ import mixpanel from 'mixpanel-browser';
 import useEffectOnce from '@/features/common/hooks/useEffectOnce';
 import { getClientUserId } from '@/features/track_user_interactions/utils';
 import { APP_IS_PROD } from '@/global_constants';
+import { getLocalStorage } from '@/utils/localStorage';
 
 export const MIXPANEL_PROJECT_ID = process.env.NEXT_PUBLIC_MIXPANEL_PROJECT_ID;
 
@@ -39,16 +40,33 @@ export const mixpanelTrack = (
   eventName: string,
   params?: Record<string, any>,
 ) => {
-  mixpanel.track(eventName, params);
+  try {
+    const paramsCover = {
+      ...params,
+    };
+    const ref = getLocalStorage('LANDING_PAGE_REF');
+    if (ref) {
+      paramsCover.ref = ref;
+    } else {
+      const searchParams = new URLSearchParams(window.location.search);
+      if (searchParams.get('ref')) {
+        paramsCover.ref = searchParams.get('ref');
+      }
+    }
+    console.log('mixpanel track', eventName, paramsCover);
+    mixpanel.track(eventName, paramsCover);
+  } catch (e) {
+    // do nothing
+  }
 };
 
 export const mixpanelIdentify = (
   type: 'identify' | 'reset',
-  userId: string,
+  userId?: string,
 ) => {
   initMixPanel();
   try {
-    if (type === 'identify') {
+    if (type === 'identify' && userId) {
       mixpanel.identify(userId);
     }
     if (type === 'reset') {

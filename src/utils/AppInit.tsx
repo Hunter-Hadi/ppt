@@ -7,7 +7,7 @@ import ExtensionUpdateRemindDialog from '@/features/extension/components/Extensi
 import useInitExtensionStatus from '@/features/extension/hooks/useInitExtensionStatus';
 import { useInitInviteCode } from '@/features/user';
 import { AppState } from '@/store';
-import { useInitMixPanel } from '@/utils/mixpanel';
+import { useInitMixPanel } from '@/features/mixpanel/utils';
 
 const AppGlobalBackdrop = () => {
   const { globalLoading } = useRecoilValue(AppState);

@@ -11,6 +11,7 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
+import { mixpanelTrack } from '@/features/mixpanel/utils';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink, {
   IUseShareTrackerLinkProps,
@@ -30,6 +31,8 @@ interface IProps {
 
   startIcon?: ButtonProps['startIcon'];
   endIcon?: ButtonProps['endIcon'];
+
+  onClick?: (e: React.MouseEvent) => void;
 }
 
 const CTAInstallButton: FC<IProps> = ({
@@ -45,6 +48,8 @@ const CTAInstallButton: FC<IProps> = ({
 
   startIcon,
   endIcon,
+
+  onClick,
 }) => {
   const route = useRouter();
   const isEmbedMode = route.pathname === '/embed/introduction';
@@ -132,6 +137,14 @@ const CTAInstallButton: FC<IProps> = ({
     };
   }, [sx, isEmbedMode, label]);
 
+  const handleClick = (e: React.MouseEvent) => {
+    mixpanelTrack('install_started', {
+      ref,
+    });
+
+    onClick && onClick(e);
+  };
+
   return (
     <Button
       href={href}
@@ -153,6 +166,7 @@ const CTAInstallButton: FC<IProps> = ({
       endIcon={endIcon}
       variant={variant}
       sx={sxCache}
+      onClick={handleClick}
     >
       {label}
     </Button>
