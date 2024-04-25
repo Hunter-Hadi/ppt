@@ -8,10 +8,14 @@ export const useFunctionalitySignScrollPagination = (pageCount: number, scrollCo
     const handleScroll = useCallback(() => {
         if (!scrollContainerRef.current) return;
         const container = scrollContainerRef.current;
+        if (container.scrollTop < 10) {
+            setCurrentPage(0);
+            return
+        }
         const scrollPosition = container.scrollTop + container.clientHeight / 2; // 以容器视口中央为准
 
         // 查找当前位于容器视口中心的页面
-        const currentPageIndex = pageRefs.current.findIndex((page, index) => {
+        const currentPageIndex = pageRefs.current.findIndex((page) => {
             const pageTop = page?.offsetTop || 0;
             const pageBottom = pageTop + (page?.clientHeight || 0);
             return scrollPosition >= pageTop && scrollPosition <= pageBottom;

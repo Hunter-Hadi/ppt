@@ -13,17 +13,25 @@ interface IFunctionalitySignPdfSignatureViewProps {
   onShowImgVal?: (val: string) => void;
   signatureEmptyView?: React.ReactNode;
   activeDragData?: IActiveDragData;
+  onClickAdd: (type: string, value: string) => void;
 }
 
 const FunctionalitySignPdfSignatureView: FC<
   IFunctionalitySignPdfSignatureViewProps
-> = ({ dragId, onShowImgVal, signatureEmptyView, activeDragData }) => {
+> = ({
+  dragId,
+  onShowImgVal,
+  signatureEmptyView,
+  activeDragData,
+  onClickAdd,
+}) => {
   const { t } = useTranslation();
 
   const [modalOpen, setModalOpen] = useState(false);
   const [signatureViewList, setSignatureViewList] = useState<string[]>([]);
   const [currentShowIndex, setCurrentShowIndex] = useState(0);
   const isActiveCurrent = useRef(false);
+  const isActiveModelCurrent = useRef(false);
 
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null); //Popover
   const showImgValue = useMemo(
@@ -34,12 +42,17 @@ const FunctionalitySignPdfSignatureView: FC<
   const popoverId = 'pdf-signature-menu-popover-id';
   const open = Boolean(anchorEl);
   useEffect(() => {
-    console.log('simply activeDragData', activeDragData);
-    if (activeDragData?.id === dragId && !isHaveValue) {
+    //根据用户拖动逻辑 ，弹出 ModalOpen，拖动空的并放下了
+    if (
+      activeDragData?.dragType === 'start' &&
+      activeDragData?.id === dragId &&
+      !isHaveValue
+    ) {
       isActiveCurrent.current = true;
-    } else {
+    } else if (activeDragData?.dragType === 'end') {
       if (isActiveCurrent.current) {
         setModalOpen(true);
+        isActiveModelCurrent.current = true;
       }
       isActiveCurrent.current = false;
     }
@@ -66,6 +79,11 @@ const FunctionalitySignPdfSignatureView: FC<
     setSignatureViewList((list) => [...list, value]);
     setCurrentShowIndex(signatureViewList.length);
     setModalOpen(false);
+    if (isActiveModelCurrent.current) {
+      //用户因拖动空的触发这里的逻辑添加
+      onClickAdd('image', value);
+      isActiveModelCurrent.current = false;
+    }
   };
   const onDelImgVal = (index: number) => {
     const newList = signatureViewList.filter((_, i) => i !== index);
@@ -85,6 +103,10 @@ const FunctionalitySignPdfSignatureView: FC<
     <FunctionalitySignPdfOperationDraggableView
       id={dragId}
       data={{ type: 'image', value: showImgValue }}
+      onWrapClick={(type, value) => {
+        console.log('simply onWrapClick', type, value);
+        value && onClickAdd(type, value);
+      }}
       onClick={() => setModalOpen(true)}
     >
       {!isHaveValue && (

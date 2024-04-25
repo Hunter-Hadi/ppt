@@ -8,7 +8,6 @@ import {
 } from '@dnd-kit/core';
 import { LoadingButton } from '@mui/lab';
 import { Box, Stack, Typography } from '@mui/material';
-import { cloneDeep } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
@@ -16,16 +15,21 @@ import { v4 as uuidV4 } from 'uuid';
 
 import { pdfAddViewSave } from '../utils/pdfAddViewSave';
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfMain';
-import FunctionalitySignPdfShowPdfView from './FunctionalitySignPdfShowPdfView/FunctionalitySignMain';
+import FunctionalitySignPdfShowPdfView, {
+  IFunctionalitySignPdfShowPdfViewHandles,
+} from './FunctionalitySignPdfShowPdfView/FunctionalitySignMain';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
 export interface IActiveDragData {
+  dragType: 'start' | 'end';
   id: string;
   type: string;
   value: string;
+  x?: number;
+  y?: number;
 }
 interface IFunctionalitySignPdfDetailProps {
   file: File;
@@ -45,7 +49,8 @@ export const FunctionalitySignPdfDetail: FC<
   const { t } = useTranslation();
   const [saveButtonLoading, setSaveButtonLoading] = useState(false);
   const dndDragRef = useRef<HTMLElement | null>(null);
-  const [signaturePositions, setSignaturePositions] = useState<ISignData[]>([]);
+  const showPdfHandlesRef =
+    useRef<IFunctionalitySignPdfShowPdfViewHandles | null>(null);
   const pdfViewHeight = useMemo(() => {
     const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top;
     return window.innerHeight - (distanceFromTop || 280) - 10;
@@ -54,8 +59,8 @@ export const FunctionalitySignPdfDetail: FC<
     IActiveDragData | undefined
   >(undefined);
   const handleDragEnd = (event: DragEndEvent) => {
-    setActiveDragData(undefined);
-    if (event.over && event.over.id && event.active.data.current?.value) {
+    console.log('simply handleDragEnd', event);
+    if (event.over && event.over.id) {
       const { delta, over, active } = event;
       const rollingView = document.getElementById(
         'functionality-sign-pdf-rolling-view',
@@ -67,15 +72,13 @@ export const FunctionalitySignPdfDetail: FC<
         width: over.rect.width,
         height: over.rect.height,
         ...(over.data.current as {
-          type: string;
-          value: string;
           pdfIndex: number;
         }),
         id: uuidV4(),
-        data: active.data.current as {
+        ...(active.data.current as {
           type: string;
           value: string;
-        },
+        }),
       };
       const distanceX =
         over.rect.width +
@@ -93,21 +96,38 @@ export const FunctionalitySignPdfDetail: FC<
           over.rect.top +
           delta.y -
           (rollingView?.scrollTop || 0), //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
-        ...signaturePositionData,
       };
-      signaturePositions.push(newSignaturePosition);
-
-      setSignaturePositions(cloneDeep(signaturePositions));
+      if (
+        showPdfHandlesRef.current?.onAddObject &&
+        event.active.data.current?.value
+      ) {
+        showPdfHandlesRef.current.onAddObject({
+          ...signaturePositionData,
+          ...newSignaturePosition,
+        });
+      }
+      setActiveDragData({
+        dragType: 'end',
+        ...newSignaturePosition,
+        id: uuidV4(),
+        ...(active.data.current as {
+          type: string;
+          value: string;
+        }),
+      });
     }
   };
 
   const onDragStart = (event) => {
-    setActiveDragData(event.active.data.current);
+    setActiveDragData({ dragType: 'start', ...event.active.data.current });
   };
   const onPdfAddViewSave = async () => {
-    setSaveButtonLoading(true);
-    await pdfAddViewSave(file, signaturePositions);
-    setSaveButtonLoading(false);
+    const pdfPageNumber = showPdfHandlesRef.current?.getNumPages();
+    if (pdfPageNumber) {
+      setSaveButtonLoading(true);
+      await pdfAddViewSave(file, pdfPageNumber);
+      setSaveButtonLoading(false);
+    }
   };
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -116,7 +136,17 @@ export const FunctionalitySignPdfDetail: FC<
       },
     }),
   );
-
+  const onClickAdd = (type: string, value: string) => {
+    if (showPdfHandlesRef.current?.onAddObject) {
+      showPdfHandlesRef.current.onAddObject({
+        id: uuidV4(),
+        type,
+        value,
+        x: activeDragData?.x, ////用户因拖动空的触发这里的逻辑添加,继承上次拖动到drag数据
+        y: activeDragData?.y, ////用户因拖动空的触发这里的逻辑添加,继承上次拖动到drag数据
+      });
+    }
+  };
   return (
     <DndContext
       sensors={sensors}
@@ -142,7 +172,7 @@ export const FunctionalitySignPdfDetail: FC<
         >
           <FunctionalitySignPdfShowPdfView
             file={file}
-            signaturePositions={signaturePositions}
+            ref={showPdfHandlesRef}
           />
         </Box>
         {/* 签名操作视图 */}
@@ -162,6 +192,7 @@ export const FunctionalitySignPdfDetail: FC<
           >
             <FunctionalitySignPdfOperationView
               activeDragData={activeDragData}
+              onClickAdd={onClickAdd}
             />
           </Box>
           <Box

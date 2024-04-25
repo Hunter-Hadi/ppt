@@ -1,10 +1,7 @@
 import { PDFDocument } from "pdf-lib";
 
-import { ISignData } from "../components/FunctionalitySignPdfDetail";
-
-
 //file 是pdf
-export const pdfAddViewSave = async (file: File, addViewList: ISignData[]) => {
+export const pdfAddViewSave = async (file: File, pdfPageNumber: number) => {
     // Create a new PDFDocument or load the existing PDF file
     let pdfDoc: PDFDocument | null = null;
     try {
@@ -16,10 +13,9 @@ export const pdfAddViewSave = async (file: File, addViewList: ISignData[]) => {
     }
 
     // Loop through all views and add them to the PDF
-    for (const view of addViewList) {
-        const { pdfIndex } = view;
-        const page = pdfDoc.getPage(pdfIndex);
-        const canvas = document.querySelector(`.sample-canvas-${pdfIndex + 1} .lower-canvas`) as HTMLCanvasElement;
+    for (let i = 0; i < pdfPageNumber; i++) {
+        const page = pdfDoc.getPage(i);
+        const canvas = document.querySelector(`.sample-canvas-${i + 1} .lower-canvas`) as HTMLCanvasElement;
         if (canvas) {
             const image = canvas.toDataURL('image/png');
             const pdfPageSize = page.getSize();

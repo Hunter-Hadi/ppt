@@ -10,7 +10,8 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
   children: React.ReactNode;
   data?: { type: string; value?: string };
   onClick?: () => void;
-}> = ({ id, data, children, disabled, onClick }) => {
+  onWrapClick?: (type: string, value: string) => void;
+}> = ({ id, data, children, disabled, onClick, onWrapClick }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,
     data: { id: id, ...data },
@@ -18,7 +19,15 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
   });
 
   return (
-    <Box id={id} ref={setNodeRef} {...listeners} {...attributes}>
+    <Box
+      onClick={() =>
+        onWrapClick && data && data.value && onWrapClick(data.type, data.value)
+      }
+      id={id}
+      ref={setNodeRef}
+      {...listeners}
+      {...attributes}
+    >
       <Stack
         direction='row'
         justifyContent='space-between'
@@ -43,7 +52,7 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
           sx={{
             height: '100%',
           }}
-          onClick={onClick}
+          onClick={!(data && data.value) ? onClick : undefined}
         >
           <FunctionalitySignPdfIcon color='primary' name='DragIndicator' />
         </Stack>

@@ -10,10 +10,11 @@ import FunctionalitySignPdfSignatureView from './FunctionalitySignPdfSignatureVi
 
 interface IFunctionalitySignPdfOperationView {
   activeDragData?: IActiveDragData;
+  onClickAdd: (type: string, value: string) => void;
 }
 const FunctionalitySignPdfOperationView: FC<
   IFunctionalitySignPdfOperationView
-> = ({ activeDragData }) => {
+> = ({ activeDragData, onClickAdd }) => {
   const { t } = useTranslation();
 
   return (
@@ -22,6 +23,7 @@ const FunctionalitySignPdfOperationView: FC<
         <FunctionalitySignPdfSignatureView
           dragId={'draggable-0'}
           activeDragData={activeDragData}
+          onClickAdd={onClickAdd}
           signatureEmptyView={
             <Stack direction='row' gap={1} alignItems='center'>
               <FunctionalitySignPdfIcon name='TextFields' />
@@ -43,6 +45,7 @@ const FunctionalitySignPdfOperationView: FC<
         <FunctionalitySignPdfSignatureView
           dragId={'draggable-1'}
           activeDragData={activeDragData}
+          onClickAdd={onClickAdd}
           signatureEmptyView={
             <Stack direction='row' gap={1} alignItems='center'>
               <FunctionalitySignPdfIcon name='Abc' />
@@ -63,6 +66,7 @@ const FunctionalitySignPdfOperationView: FC<
         />
         <FunctionalitySignPdfOperationDraggableView
           id={'draggable-2'}
+          onWrapClick={onClickAdd}
           data={{
             type: 'textbox',
             value: 'Type something…',
@@ -86,6 +90,7 @@ const FunctionalitySignPdfOperationView: FC<
         </FunctionalitySignPdfOperationDraggableView>
         <FunctionalitySignPdfOperationDraggableView
           id={'draggable-3'}
+          onWrapClick={onClickAdd}
           data={{
             type: 'i-text',
             value: dayjs().format('MM/DD/YYYY'),
@@ -109,6 +114,7 @@ const FunctionalitySignPdfOperationView: FC<
         </FunctionalitySignPdfOperationDraggableView>
         <FunctionalitySignPdfOperationDraggableView
           id={'draggable-4'}
+          onWrapClick={onClickAdd}
           data={{
             type: 'text',
             value: '✔',

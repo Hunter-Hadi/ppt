@@ -4,14 +4,23 @@ import 'react-pdf/dist/Page/TextLayer.css';
 import { useDroppable } from '@dnd-kit/core';
 import { Box, IconButton, Stack, TextField } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { FC, useEffect, useRef, useState } from 'react';
+import {
+  FC,
+  forwardRef,
+  ForwardRefRenderFunction,
+  useEffect,
+  useImperativeHandle,
+  useRef,
+  useState,
+} from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 
 import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySignElementWidth';
 import { useFunctionalitySignScrollPagination } from '../../hooks/useFunctionalitySignScrollPagination';
-import { ISignData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfRenderCanvas from './FunctionalitySignPdfRenderCanvas';
+import FunctionalitySignPdfRenderCanvas, {
+  ICanvasObjectData,
+} from './FunctionalitySignPdfRenderCanvas';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -39,16 +48,24 @@ const FunctionalitySignPdfDroppable: FC<{
     </Box>
   );
 };
+export interface IFunctionalitySignPdfShowPdfViewHandles {
+  getNumPages: () => number;
+  onAddObject?: (
+    canvasObject: ICanvasObjectData & { pdfIndex?: number },
+  ) => void;
+}
 
 interface IFunctionalitySignPdfShowPdfViewProps {
   file: File;
-  signaturePositions: ISignData[];
 }
-export const FunctionalitySignPdfShowPdfView: FC<
+export const FunctionalitySignPdfShowPdfView: ForwardRefRenderFunction<
+  IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
-> = ({ file, signaturePositions }) => {
+> = ({ file }, handleRef) => {
   const { t } = useTranslation();
-
+  const canvasHandlesRefs = useRef<
+    IFunctionalitySignPdfShowPdfViewHandles | null[]
+  >([]);
   //PDF的页数
   const [numPages, setNumPages] = useState<number>(0);
   const defaultWidth = useRef(700);
@@ -57,22 +74,40 @@ export const FunctionalitySignPdfShowPdfView: FC<
   );
 
   const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(false);
-  const { ref, width: parentWidth } = useFunctionalitySignElementWidth();
+  const { ref: rollingRef, width: parentWidth } =
+    useFunctionalitySignElementWidth();
   const {
     setPageRef,
     currentPage,
     scrollToPage,
     goToNextPage,
     goToPreviousPage,
-  } = useFunctionalitySignScrollPagination(numPages || 0, ref);
+  } = useFunctionalitySignScrollPagination(numPages || 0, rollingRef);
   const [pagesInfoList, setPagesInfoList] = useState<
     {
       width: number;
       height: number;
     }[]
   >([]); //pdf的初始页面宽度
+  useImperativeHandle(
+    handleRef,
+    () => ({
+      getNumPages: () => numPages,
+      onAddObject: (value) => {
+        let currentNumber =
+          value.pdfIndex !== undefined ? value.pdfIndex : currentPage;
+        if (currentNumber !== undefined) {
+          const onAddObject =
+            canvasHandlesRefs.current[currentNumber]?.onAddObject;
+          if (onAddObject) {
+            onAddObject(value);
+          }
+        }
+      },
+    }),
+    [canvasHandlesRefs.current, numPages, currentPage],
+  );
 
-  // 用来存储宽度的state
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
     setNumPages(numPages);
   }
@@ -133,7 +168,7 @@ export const FunctionalitySignPdfShowPdfView: FC<
       }}
     >
       <Stack
-        ref={ref}
+        ref={rollingRef}
         id='functionality-sign-pdf-rolling-view'
         sx={{
           overflow: 'auto',
@@ -158,7 +193,6 @@ export const FunctionalitySignPdfShowPdfView: FC<
               <div key={index} ref={(el) => setPageRef(el, index)}>
                 <FunctionalitySignPdfDroppable index={index}>
                   <Box
-                    ref={(el) => setPageRef(el, index)}
                     sx={{
                       position: 'relative',
                       overflow: 'hidden',
@@ -187,11 +221,8 @@ export const FunctionalitySignPdfShowPdfView: FC<
                     >
                       <FunctionalitySignPdfRenderCanvas
                         canvasIndex={index + 1}
+                        ref={(el) => (canvasHandlesRefs.current[index] = el)}
                         sizeInfo={pagesInfoList[index]}
-                        renderList={signaturePositions.filter(
-                          (signaturePosition) =>
-                            signaturePosition.pdfIndex === index,
-                        )}
                       />
                     </Box>
                   </Box>
@@ -300,4 +331,4 @@ export const FunctionalitySignPdfShowPdfView: FC<
     </Stack>
   );
 };
-export default FunctionalitySignPdfShowPdfView;
+export default forwardRef(FunctionalitySignPdfShowPdfView);

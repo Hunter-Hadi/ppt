@@ -6,7 +6,6 @@ import { lazy, Suspense, useState } from 'react';
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import snackNotifications from '@/utils/globalSnackbar';
-
 const FunctionalitySignPdfDetail = lazy(
   () =>
     import(
