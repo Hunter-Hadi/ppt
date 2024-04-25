@@ -35,6 +35,7 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
     width: number;
     height: number;
   };
+  topScrollKey: number;
 }
 /**
  * canvas渲染组件用的fabric_js
@@ -42,12 +43,12 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
 const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfCanvasHandles,
   IFunctionalitySignPdfShowPdfCanvasProps
-> = ({ canvasIndex, sizeInfo }, handleRef) => {
+> = ({ canvasIndex, sizeInfo, topScrollKey }, handleRef) => {
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
   const topWrapRef = useRef<HTMLElement | null>(null);
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
-  const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null);
-  const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象
+  const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null); // 当前选中对象的位置
+  const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象信息
   useImperativeHandle(
     handleRef,
     () => ({
@@ -79,6 +80,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       };
     }
   }, [editor]);
+  useEffect(() => {
+    setControlDiv(null);
+  }, [topScrollKey]);
   // 当对象被选中或移动时调用
   const onAddObject = (canvasObject: ICanvasObjectData) => {
     console.log('simply canvasObject', canvasObject);
@@ -298,7 +302,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       {selectedObjects?.length === 1 && controlDiv && (
         <FunctionalitySignPdfShowPdfViewObjectTools
           key={activeObject.uniqueKey}
-          controlDiv={{ ...controlDiv }}
+          controlDiv={controlDiv}
           scaleFactor={scaleFactor}
           editor={editor}
         />

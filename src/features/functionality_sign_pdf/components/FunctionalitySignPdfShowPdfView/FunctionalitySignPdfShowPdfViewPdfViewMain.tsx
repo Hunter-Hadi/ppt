@@ -53,7 +53,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   const [selfAdaptionWidth, setSelfAdaptionWidth] = useState<number>(
     defaultWidth.current,
   ); //根据窗口调节宽度
-  const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(false);
+  const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(true);
   const [isScrollShow, setIsScrollShow] = useState(false);
 
   const { ref: rollingRef, width: parentWidth } =
@@ -215,6 +215,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                     >
                       <FunctionalitySignPdfShowPdfViewRenderCanvas
                         canvasIndex={index + 1}
+                        topScrollKey={scrollTime}
                         ref={(el) => (canvasHandlesRefs.current[index] = el)}
                         sizeInfo={pagesInitialSizeList[index]}
                       />
