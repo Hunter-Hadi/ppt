@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Buksan ang iyong PDF sa PDF Signer.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Gumuhit o mag-upload ng iyong lagda.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "I-adjust ang laki at posisyon ng lagda ayon sa kailangan.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "I-download ang iyong nalagdaang PDF, handa na at ligtas."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "I-click para i-download ang iyong naka-sign na PDF ngayon, lahat ay handa at ligtas."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",

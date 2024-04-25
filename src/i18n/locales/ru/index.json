@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Откройте ваш PDF в PDF Signer.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Нарисуйте или загрузите свою подпись.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Настройте размер и положение подписи по необходимости.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Загрузите ваш подписанный PDF, все готово и безопасно."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Щелкните, чтобы скачать ваш подписанный PDF-файл прямо сейчас, все готово и безопасно."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",

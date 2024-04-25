@@ -416,6 +416,7 @@ export const toolsDetailDescriptionObject: {
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1',
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2',
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3',
+          'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4',
         ],
       },
     },

@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF SignerでPDFを開く。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "署名を描画またはアップロードする。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "署名のサイズと位置を調整します。",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "署名済みのPDFをダウンロードして、準備完了です。"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "今すぐ署名済みのPDFをダウンロードしてください。すべてが準備され、安全です。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",

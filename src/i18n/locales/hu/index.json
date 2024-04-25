@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Nyisd meg a PDF-et a PDF Aláíróban.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Rajzold vagy töltsd fel az aláírásodat.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Állítsd be az aláírás méretét és pozícióját szükség szerint.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Töltsd le az aláírt PDF-et, minden kész és biztonságos."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kattintson a letöltéshez az aláírt PDF-re, minden készen áll és biztonságban van."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

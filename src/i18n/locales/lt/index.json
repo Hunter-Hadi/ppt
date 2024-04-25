@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Atidarykite savo PDF dokumentą PDF pasirašytoje.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nupieškite arba įkelkite savo parašą.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pritaikykite parašo dydį ir padėtį pagal poreikį.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Atsisiųskite savo pasirašytą PDF dokumentą, viskas paruošta ir saugu."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Spustelėkite, norėdami dabar atsisiųsti pasirašytą PDF, viskas yra paruošta ir saugu."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",

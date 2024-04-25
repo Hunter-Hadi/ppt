@@ -483,7 +483,8 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "கருவி கோப்பை செயலாக்கி அதை HTML வடிவத்திற்கு மாற்றுங்கள்.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "மாற்றம் முடிந்தபின், உங்கள் புதிய HTML கோப்பைத் தரவிறக்கம் செய்யுங்கள்.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "முடிவுகளைப் பரிசீலிக்க எந்த இணைய உலாவியில் பதிவிறக்கம் செய்யுங்கள்.",
-    "pdf_tools__detail_page__more_pdf_tools": "மேலும் இலவச ஆன்லைன் PDF கருவிகள்"
+    "pdf_tools__detail_page__more_pdf_tools": "மேலும் இலவச ஆன்லைன் PDF கருவிகள்",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "உங்கள் பொதுவான PDF-ஐ இப்போது பதியப்பட்டுள்ளது, அது முழுமையாக தயாராக உள்ளது மற்றும் பாதுகாப்பாக உள்ளது. உங்கள் பொதுவான PDF-ஐ இப்போது பதிவிறக்க கிளிக் செய்யவும்."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",

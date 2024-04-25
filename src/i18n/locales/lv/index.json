@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Atveriet savu PDF failu PDF parakstītājā.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Zīmējiet vai augšupielādējiet savu parakstu.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pielāgojiet paraksta izmēru un pozīciju pēc vajadzības.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Lejupielādējiet savu parakstīto PDF, viss ir gatavs un drošs."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Noklikšķiniet, lai lejupielādētu jūsu parakstīto PDF, viss ir gatavs un drošs."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",

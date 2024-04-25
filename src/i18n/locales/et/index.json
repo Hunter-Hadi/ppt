@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Avage oma PDF PDF-i allkirjastajas.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Joonistage või laadige üles oma allkiri.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Reguleerige allkirja suurust ja asendit vastavalt vajadusele.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Laadige alla allkirjastatud PDF, kõik on valmis ja turvaline."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klõpsake allalaadimiseks oma allkirjastatud PDF-i, kõik on valmis ja turvaline."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",

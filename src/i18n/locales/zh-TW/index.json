@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "在PDF簽名工具中打開您的PDF。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "繪製或上傳您的簽名。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "根據需要調整簽名的大小和位置。",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "下載您的已簽署PDF，一切都設定好且安全。"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "點擊立即下載已簽署的 PDF，一切都準備就緒且安全。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",

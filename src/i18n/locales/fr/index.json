@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Ouvrez votre PDF dans le Signataire de PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Dessinez ou téléchargez votre signature.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajustez la taille et la position de la signature selon vos besoins.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Téléchargez votre PDF signé, tout est prêt et sécurisé."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Cliquez pour télécharger votre PDF signé maintenant, tout est prêt et sécurisé."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",

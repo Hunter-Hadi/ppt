@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Obre el teu PDF al Signador de PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Dibuixa o carrega la teva firma.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajusta la mida i posició de la signatura segons sigui necessari.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Descarrega el teu PDF signat, tot està llest i segur."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Feu clic per descarregar el vostre PDF signat ara mateix, tot està llest i segur."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",

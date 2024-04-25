@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Åpne PDF-en din i PDF-signeringsverktøyet.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Tegn eller last opp signaturen din.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Juster størrelsen og posisjonen til signaturen etter behov.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Last ned den signerte PDF-en din, alt er klart og sikkert."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klikk for å laste ned den signerte PDF-en din nå, alt er klart og trygt."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",

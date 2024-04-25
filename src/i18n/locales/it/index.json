@@ -531,7 +531,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Apri il tuo PDF nel Firmatario PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Disegna o carica la tua firma.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Regola la dimensione e la posizione della firma come desiderato.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Scarica il tuo PDF firmato, tutto pronto e sicuro."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Fai clic per scaricare il tuo PDF firmato ora, tutto è pronto e sicuro."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",
