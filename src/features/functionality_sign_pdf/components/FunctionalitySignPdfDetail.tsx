@@ -125,6 +125,7 @@ export const FunctionalitySignPdfDetail: FC<
     setActiveDragData({ dragType: 'start', ...event.active.data.current });
   };
   const onPdfAddViewSave = async () => {
+    showPdfHandlesRef.current?.onDiscardActiveObject();
     const pdfPageNumber = showPdfHandlesRef.current?.getNumPages();
     if (pdfPageNumber) {
       setSaveButtonLoading(true);

@@ -27,12 +27,7 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
 }) => {
   const { t } = useTranslation();
   const newFontsList = useMemo(
-    () => [
-      ...(fontsList || []),
-      'Caveat, cursive',
-      '"La Belle Aurore", cursive',
-      '"Dancing Script", cursive',
-    ],
+    () => [...(fontsList || []), 'Caveat', 'La Belle Aurore', 'Dancing Script'],
     [fontsList],
   );
   const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);

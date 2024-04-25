@@ -26,6 +26,7 @@ export type ICanvasObjectData = {
   value: string;
 };
 export interface IFunctionalitySignPdfShowPdfCanvasHandles {
+  onDiscardActiveObject: () => void;
   onAddObject?: (canvasObject: ICanvasObjectData) => void;
 }
 interface IFunctionalitySignPdfShowPdfCanvasProps {
@@ -49,20 +50,27 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null); // 当前选中对象的位置
   const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象信息
-  useImperativeHandle(
-    handleRef,
-    () => ({
-      onAddObject: onAddObject,
-    }),
-    [],
-  );
+
   useEffect(() => {
     // 键盘事件监听器
     if (editor) {
       const handleKeyDown = (event) => {
+        // 检查当前焦点元素
+        const activeElement = document.activeElement;
+        const isInputFocused =
+          activeElement &&
+          (activeElement.tagName === 'INPUT' ||
+            activeElement.tagName === 'TEXTAREA');
+
+        // 如果当前焦点在输入框内，退出函数，不执行后续的删除逻辑
+        if (isInputFocused) {
+          return;
+        }
+
+        // 您原有的删除逻辑
         if (event.key === 'Delete' || event.key === 'Backspace') {
           var activeObjects = editor?.canvas.getActiveObjects();
-          if (activeObjects.length !== 1) {
+          if (activeObjects.length !== 0) {
             // 循环并逐个移除
             activeObjects.forEach(function (object) {
               editor?.canvas.remove(object);
@@ -81,83 +89,18 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }
   }, [editor]);
   useEffect(() => {
-    setControlDiv(null);
-  }, [topScrollKey]);
-  // 当对象被选中或移动时调用
-  const onAddObject = (canvasObject: ICanvasObjectData) => {
-    console.log('simply canvasObject', canvasObject);
-    if (!editor) return;
-    const centerX = sizeInfo && sizeInfo?.width / 2; //没有就默认居中
-    const centerY = sizeInfo && sizeInfo?.height / 2;
-    const positionData = {
-      left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
-      top: canvasObject.y ? Math.max(canvasObject.y / scaleFactor, 0) : centerY,
-      hasRotatingPoint: false, // 禁用旋转控制点
-      lockRotation: true, // 锁定旋转
-    };
-    if (canvasObject.type === 'image') {
-      const image = new Image();
-      image.src = canvasObject.value;
-
-      image.onload = function () {
-        // 将图片绘制到画布上
-        const imgColor = findFirstNonTransparentPixel(image);
-
-        const fabricImage = new fabric.Image(image, positionData);
-        if (fabricImage.width > sizeInfo.width / 2) {
-          // 过大进行 调整尺寸，使用 scale 代替直接设置 width 和 height
-          let scaleRatio = sizeInfo.width / 2 / fabricImage.width;
-          fabricImage.scaleX = scaleRatio;
-          fabricImage.scaleY = scaleRatio;
-          fabricImage.left =
-            positionData.left - (fabricImage.width * scaleRatio) / 2;
-          fabricImage.top =
-            positionData.top - (fabricImage.height * scaleRatio) / 2; //调整位置到鼠标中心
-        } else {
-          fabricImage.left = positionData.left - fabricImage.width / 2; //调整位置到鼠标中心
-        }
-        fabricImage.imgColor = imgColor;
-
-        fabricImage.uniqueKey = canvasObject.id;
-        editor.canvas.add(fabricImage);
-      };
-    } else if (canvasObject.type === 'textbox') {
-      positionData.left = positionData.left - 300 / 2;
-      const text = new fabric.Textbox(canvasObject.value, {
-        ...positionData,
-        minScaleLimit: 1,
-        maxScaleLimit: 1,
-        width: 300,
-      });
-      text.uniqueKey = canvasObject.id;
-      editor.canvas.add(text);
-    } else if (canvasObject.type === 'text') {
-      positionData.left = positionData.left - 50 / 2;
-      const text = new fabric.Text(canvasObject.value, {
-        ...positionData,
-        minScaleLimit: 1,
-        maxScaleLimit: 1,
-      });
-      text.uniqueKey = canvasObject.id;
-      editor.canvas.add(text);
-    } else if (canvasObject.type === 'i-text') {
-      positionData.left = positionData.left - 200 / 2;
-      const text = new fabric.IText(canvasObject.value, {
-        ...positionData,
-        minScaleLimit: 1,
-        maxScaleLimit: 1,
-      });
-      text.uniqueKey = canvasObject.id;
-      editor.canvas.add(text);
+    if (activeObject) {
+      setControlDiv(null);
+      editor?.canvas.discardActiveObject(); // 取消选中状态
+      editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
     }
-    editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
-  };
+  }, [topScrollKey]);
   const handleObjectSelected = (object?: fabric.Object) => {
     try {
       setActiveObject(object);
       if (object) {
         const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
-
+        console.log('simply topWrapRefRect', object, topWrapRefRect);
         setControlDiv({
           left: object.left,
           top: object.top,
@@ -172,81 +115,95 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }
   };
   useEffect(() => {
-    if (editor) {
-      // 对象选中监听
-      editor.canvas.on('selection:created', function (event) {
-        console.log('simply before:selection', event);
-        if (event.selected.length === 1) {
-          handleObjectSelected(event.selected[0]);
-        }
-      });
+    try {
+      if (editor) {
+        fabric.Object.prototype.set({
+          borderColor: '#9065B0',
+          cornerColor: '#9065B0', //激活状态角落图标的填充颜色
+          cornerStrokeColor: '', //激活状态角落图标的边框颜色
+          borderScaleFactor: 1,
+          cornerSize: 8,
+          transparentCorners: false, //激活状态角落的图标是否透明
+          selectionDashArray: [5, 5],
+        });
 
-      editor.canvas.on('object:moving', function (e) {
+        // 对象选中监听
+        editor.canvas.on('selection:created', function (event) {
+          console.log('simply before:selection', event);
+          if (event.selected.length === 1) {
+            handleObjectSelected(event.selected[0]);
+          }
+        });
+
+        editor.canvas.on('object:moving', function (e) {
+          // 对象移动监听 - 保证操作div跟随移动
+
+          handleObjectSelected(e.target);
+          //保持移动不出画布
+          let padding = 0; // 内容距离画布的空白宽度，主动设置
+          var obj = e.target;
+          if (
+            obj.currentHeight > obj.canvas.height - padding * 2 ||
+            obj.currentWidth > obj.canvas.width - padding * 2
+          ) {
+            return;
+          }
+          obj.setCoords();
+          if (
+            obj.getBoundingRect().top < padding ||
+            obj.getBoundingRect().left < padding
+          ) {
+            obj.top = Math.max(
+              obj.top,
+              obj.top - obj.getBoundingRect().top + padding,
+            );
+            obj.left = Math.max(
+              obj.left,
+              obj.left - obj.getBoundingRect().left + padding,
+            );
+          }
+          if (
+            obj.getBoundingRect().top + obj.getBoundingRect().height >
+              obj.canvas.height - padding ||
+            obj.getBoundingRect().left + obj.getBoundingRect().width >
+              obj.canvas.width - padding
+          ) {
+            obj.top = Math.min(
+              obj.top,
+              obj.canvas.height -
+                obj.getBoundingRect().height +
+                obj.top -
+                obj.getBoundingRect().top -
+                padding,
+            );
+            obj.left = Math.min(
+              obj.left,
+              obj.canvas.width -
+                obj.getBoundingRect().width +
+                obj.left -
+                obj.getBoundingRect().left -
+                padding,
+            );
+          }
+        });
         // 对象移动监听 - 保证操作div跟随移动
+        editor.canvas.on('object:scaling', function (e) {
+          handleObjectSelected(e.target);
+        });
 
-        handleObjectSelected(e.target);
-        //保持移动不出画布
-        let padding = 0; // 内容距离画布的空白宽度，主动设置
-        var obj = e.target;
-        if (
-          obj.currentHeight > obj.canvas.height - padding * 2 ||
-          obj.currentWidth > obj.canvas.width - padding * 2
-        ) {
-          return;
-        }
-        obj.setCoords();
-        if (
-          obj.getBoundingRect().top < padding ||
-          obj.getBoundingRect().left < padding
-        ) {
-          obj.top = Math.max(
-            obj.top,
-            obj.top - obj.getBoundingRect().top + padding,
-          );
-          obj.left = Math.max(
-            obj.left,
-            obj.left - obj.getBoundingRect().left + padding,
-          );
-        }
-        if (
-          obj.getBoundingRect().top + obj.getBoundingRect().height >
-            obj.canvas.height - padding ||
-          obj.getBoundingRect().left + obj.getBoundingRect().width >
-            obj.canvas.width - padding
-        ) {
-          obj.top = Math.min(
-            obj.top,
-            obj.canvas.height -
-              obj.getBoundingRect().height +
-              obj.top -
-              obj.getBoundingRect().top -
-              padding,
-          );
-          obj.left = Math.min(
-            obj.left,
-            obj.canvas.width -
-              obj.getBoundingRect().width +
-              obj.left -
-              obj.getBoundingRect().left -
-              padding,
-          );
-        }
-      });
-      // 对象移动监听 - 保证操作div跟随移动
-      editor.canvas.on('object:scaling', function (e) {
-        handleObjectSelected(e.target);
-      });
-
-      // 确保再次选择时移动操作div
-      editor.canvas.on('selection:updated', function (event) {
-        if (event.selected.length === 1) {
-          handleObjectSelected(event.selected[0]);
-        }
-      });
-      // 确保再次选择时移动操作div
-      editor.canvas.on('selection:cleared', function (event) {
-        handleObjectSelected();
-      });
+        // 确保再次选择时移动操作div
+        editor.canvas.on('selection:updated', function (event) {
+          if (event.selected.length === 1) {
+            handleObjectSelected(event.selected[0]);
+          }
+        });
+        // 确保再次选择时移动操作div
+        editor.canvas.on('selection:cleared', function (event) {
+          handleObjectSelected();
+        });
+      }
+    } catch (e) {
+      console.log('error', e);
     }
   }, [editor]);
   useEffect(() => {
@@ -276,6 +233,95 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       console.error('simply error', e);
     }
   }, [topWrapRef, editor, sizeInfo]);
+  // 当对象被选中或移动时调用
+  const onAddObject = (canvasObject: ICanvasObjectData) => {
+    try {
+      console.log('simply canvasObject', canvasObject);
+      if (!editor) return;
+      const centerX = sizeInfo && sizeInfo?.width / 2; //没有就默认居中
+      const centerY = sizeInfo && sizeInfo?.height / 2;
+      const positionData = {
+        left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
+        top: canvasObject.y
+          ? Math.max(canvasObject.y / scaleFactor, 0)
+          : centerY,
+        hasRotatingPoint: false, // 禁用旋转控制点
+        lockRotation: true, // 锁定旋转
+      };
+      if (canvasObject.type === 'image') {
+        const image = new Image();
+        image.src = canvasObject.value;
+
+        image.onload = function () {
+          // 将图片绘制到画布上
+          const imgColor = findFirstNonTransparentPixel(image);
+
+          const fabricImage = new fabric.Image(image, positionData);
+          if (fabricImage.width > sizeInfo.width / 2) {
+            // 过大进行 调整尺寸，使用 scale 代替直接设置 width 和 height
+            let scaleRatio = sizeInfo.width / 2 / fabricImage.width;
+            fabricImage.scaleX = scaleRatio;
+            fabricImage.scaleY = scaleRatio;
+            fabricImage.left =
+              positionData.left - (fabricImage.width * scaleRatio) / 2;
+            fabricImage.top =
+              positionData.top - (fabricImage.height * scaleRatio) / 2; //调整位置到鼠标中心
+          } else {
+            fabricImage.left = positionData.left - fabricImage.width / 2; //调整位置到鼠标中心
+          }
+          fabricImage.imgColor = imgColor;
+
+          fabricImage.uniqueKey = canvasObject.id;
+          // 移除旋转控制点
+          fabricImage.set('mtr', false);
+          editor.canvas.add(fabricImage);
+        };
+      } else if (canvasObject.type === 'textbox') {
+        positionData.left = positionData.left - 300 / 2;
+        const text = new fabric.Textbox(canvasObject.value, {
+          ...positionData,
+          minScaleLimit: 1,
+          maxScaleLimit: 1,
+          width: 300,
+        });
+        text.uniqueKey = canvasObject.id;
+        editor.canvas.add(text);
+      } else if (canvasObject.type === 'text') {
+        positionData.left = positionData.left - 50 / 2;
+        const text = new fabric.Text(canvasObject.value, {
+          ...positionData,
+          minScaleLimit: 1,
+          maxScaleLimit: 1,
+        });
+        text.uniqueKey = canvasObject.id;
+        editor.canvas.add(text);
+      } else if (canvasObject.type === 'i-text') {
+        positionData.left = positionData.left - 200 / 2;
+        const text = new fabric.IText(canvasObject.value, {
+          ...positionData,
+          minScaleLimit: 1,
+          maxScaleLimit: 1,
+        });
+        text.uniqueKey = canvasObject.id;
+        editor.canvas.add(text);
+      }
+      editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+      editor?.canvas.renderAll(); // 确保变化被渲染
+    } catch (e) {
+      console.error('simply error', e);
+    }
+  };
+  useImperativeHandle(
+    handleRef,
+    () => ({
+      onDiscardActiveObject: () => {
+        editor?.canvas.discardActiveObject(); // 取消选中状态
+        editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+      },
+      onAddObject: onAddObject,
+    }),
+    [],
+  );
 
   return (
     <Box

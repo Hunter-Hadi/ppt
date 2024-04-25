@@ -1,32 +1,36 @@
 // 创建一个函数将文字转换为Base64图像数据
 export const textToBase64Image = (text: string, color?: string, fontFamily?: string, fontSize: number = 60) => {
-    // 创建一个画布元素
-    const canvas = document.createElement('canvas');
-    const context = canvas.getContext('2d');
-    if (context) {
-        // 设置字体大小和字体
-        context.font = `${fontSize}px Caveat, cursive`;
+    try {
+        // 创建一个画布元素
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        if (context) {
+            // 设置字体大小和字体
+            context.font = `${fontSize}px Caveat, cursive`;
 
-        // 获取文字的宽度
-        const textWidth = context.measureText(text).width;
-        const textHeight = fontSize; // 高度大约与字体大小相匹配
+            // 获取文字的宽度
+            const textWidth = context.measureText(text).width;
+            const textHeight = fontSize; // 高度大约与字体大小相匹配
 
-        // 根据文字的宽度和高度调整画布的大小
-        canvas.width = textWidth + 20;
-        canvas.height = textHeight + 10; // 调整高度，增加上内边距
+            // 根据文字的宽度和高度调整画布的大小
+            canvas.width = textWidth + 40;
+            canvas.height = textHeight + 10; // 调整高度，增加上内边距
 
-        // 再次填充文本以适应大小变化
-        context.font = `${fontSize}px ${fontFamily}`;
-        context.textBaseline = 'top';
-        context.fillStyle = color || '#000000'
-        // 你可以选择填充文本的颜色 context.fillStyle = '#000000';
-        // 填充文本
-        context.fillText(text, 10, 5); // 调整绘制文本的起始Y坐标，增加上内边距的一半
+            // 再次填充文本以适应大小变化
+            context.font = `${fontSize}px ${fontFamily}`;
+            context.textBaseline = 'top';
+            context.fillStyle = color || '#000000'
+            // 你可以选择填充文本的颜色 context.fillStyle = '#000000';
+            // 填充文本
+            context.fillText(text, 20, 5); // 调整绘制文本的起始Y坐标，增加上内边距的一半
 
-        // 将canvas转换为base64格式图片
-        const dataURL = canvas.toDataURL('image/png');
-        return dataURL;
+            // 将canvas转换为base64格式图片
+            const dataURL = canvas.toDataURL('image/png');
+            return dataURL;
 
+        }
+    } catch (e) {
+        console.log(e)
     }
 
 }

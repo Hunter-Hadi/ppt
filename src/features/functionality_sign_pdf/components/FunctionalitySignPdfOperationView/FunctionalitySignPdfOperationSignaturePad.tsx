@@ -43,69 +43,99 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
     getPngBase64: () => signaturePadRef.current?.toDataURL() || '',
   }));
   useEffect(() => {
-    if (canvasRef.current === null || signaturePadRef.current) return;
-    const signaturePad = (signaturePadRef.current = new SignaturePad(
-      canvasRef.current,
-      {
-        throttle: 0,
-        minWidth: 1, // 设置线条的最小宽度为2
-        maxWidth: 2, // 设置线条的最大宽度为5
-        velocityFilterWeight: 0.1,
-      },
-    ));
-    signaturePad.addEventListener('beginStroke', () => {
-      setIsStartSign(true);
-    });
-    signaturePad.addEventListener('endStroke', () => {
-      let currentRefreshIndex: number | null = null;
-      setRefreshIndex((refreshIndex) => {
-        currentRefreshIndex = refreshIndex;
-        return refreshIndex;
+    try {
+      if (canvasRef.current === null || signaturePadRef.current) return;
+      const signaturePad = (signaturePadRef.current = new SignaturePad(
+        canvasRef.current,
+        {
+          throttle: 0,
+          minWidth: 1, // 设置线条的最小宽度
+          maxWidth: 3, // 设置线条的最大宽度
+          velocityFilterWeight: 0.1,
+        },
+      ));
+      signaturePad.addEventListener('beginStroke', () => {
+        setIsStartSign(true);
       });
-      setHistoryCanvasList((canvasList) => {
-        if (currentRefreshIndex !== null) {
-          canvasList.splice((currentRefreshIndex || 0) + 1);
-        }
-        return [
-          ...canvasList,
-          {
-            color: currentColor.current,
-            value: canvasRef.current?.toDataURL() || '',
-          },
-        ];
-      });
+      signaturePad.addEventListener('endStroke', () => {
+        let currentRefreshIndex: number | null = null;
+        setRefreshIndex((refreshIndex) => {
+          currentRefreshIndex = refreshIndex;
+          return refreshIndex;
+        });
+        setHistoryCanvasList((canvasList) => {
+          if (currentRefreshIndex !== null) {
+            canvasList.splice((currentRefreshIndex || 0) + 1);
+          }
+          return [
+            ...canvasList,
+            {
+              color: currentColor.current,
+              value: canvasRef.current?.toDataURL() || '',
+            },
+          ];
+        });
 
-      setRefreshIndex(null);
-    });
+        setRefreshIndex(null);
+      });
+    } catch (e) {
+      console.log(e);
+    }
   }, [canvasRef]);
   const onSelectedColor = (color: string) => {
     currentColor.current = color;
     onChangeCanvasColor(color);
   };
   const onChangeCanvasColor = (color: string) => {
-    if (signaturePadRef.current && canvasRef.current) {
-      let ctx = canvasRef.current.getContext('2d');
-      if (ctx) {
-        let imageData = ctx.getImageData(
-          0,
-          0,
-          canvasRef.current.width,
-          canvasRef.current.height,
-        );
-        imageData = changeImageColor(imageData, color);
+    try {
+      if (signaturePadRef.current && canvasRef.current) {
+        let ctx = canvasRef.current.getContext('2d');
+        if (ctx) {
+          let imageData = ctx.getImageData(
+            0,
+            0,
+            canvasRef.current.width,
+            canvasRef.current.height,
+          );
+          imageData = changeImageColor(imageData, color);
 
-        ctx.putImageData(imageData, 0, 0);
+          ctx.putImageData(imageData, 0, 0);
+        }
+
+        signaturePadRef.current.penColor = color;
       }
-
-      signaturePadRef.current.penColor = color;
-    }
+    } catch (e) {}
   };
   const onReplay = async () => {
-    if (signaturePadRef.current && canvasRef.current) {
-      signaturePadRef.current.clear();
-      let index =
-        refreshIndex !== null ? refreshIndex - 1 : historyCanvasList.length - 2;
-      if (historyCanvasList[index]) {
+    try {
+      if (signaturePadRef.current && canvasRef.current) {
+        signaturePadRef.current.clear();
+        let index =
+          refreshIndex !== null
+            ? refreshIndex - 1
+            : historyCanvasList.length - 2;
+        if (historyCanvasList[index]) {
+          await signaturePadRef.current.fromDataURL(
+            historyCanvasList[index].value,
+            {
+              width: 600,
+              height: 200,
+            },
+          );
+          if (historyCanvasList[index].color !== currentColor.current) {
+            onChangeCanvasColor(currentColor.current);
+          }
+        }
+        setRefreshIndex(index);
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  };
+  const onRefresh = async () => {
+    try {
+      let index = refreshIndex === null ? 0 : refreshIndex + 1;
+      if (historyCanvasList[index] && signaturePadRef.current) {
         await signaturePadRef.current.fromDataURL(
           historyCanvasList[index].value,
           {
@@ -116,24 +146,10 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
         if (historyCanvasList[index].color !== currentColor.current) {
           onChangeCanvasColor(currentColor.current);
         }
+        setRefreshIndex(index);
       }
-      setRefreshIndex(index);
-    }
-  };
-  const onRefresh = async () => {
-    let index = refreshIndex === null ? 0 : refreshIndex + 1;
-    if (historyCanvasList[index] && signaturePadRef.current) {
-      await signaturePadRef.current.fromDataURL(
-        historyCanvasList[index].value,
-        {
-          width: 600,
-          height: 200,
-        },
-      );
-      if (historyCanvasList[index].color !== currentColor.current) {
-        onChangeCanvasColor(currentColor.current);
-      }
-      setRefreshIndex(index);
+    } catch (e) {
+      console.log(e);
     }
   };
   const clearCanvas = () => {

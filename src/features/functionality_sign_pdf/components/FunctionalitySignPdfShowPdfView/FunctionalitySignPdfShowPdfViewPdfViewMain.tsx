@@ -19,6 +19,7 @@ import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 import FunctionalitySignPdfShowPdfViewDroppable from './FunctionalitySignPdfDroppable';
 import FunctionalitySignPdfShowPdfViewRenderCanvas, {
   ICanvasObjectData,
+  IFunctionalitySignPdfShowPdfCanvasHandles,
 } from './FunctionalitySignPdfShowPdfViewRenderCanvas';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -26,6 +27,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 export interface IFunctionalitySignPdfShowPdfViewHandles {
+  onDiscardActiveObject: () => void;
   getNumPages: () => number;
   onAddObject?: (
     canvasObject: ICanvasObjectData & { pdfIndex?: number },
@@ -43,9 +45,9 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file }, handleRef) => {
   const { t } = useTranslation();
-  const canvasHandlesRefs = useRef<
-    IFunctionalitySignPdfShowPdfViewHandles | null[]
-  >([]);
+  const canvasHandlesRefs = useRef<IFunctionalitySignPdfShowPdfCanvasHandles[]>(
+    [],
+  );
   //PDF的页数
   const [numPages, setNumPages] = useState<number>(0);
   const defaultWidth = useRef(700); //TODO:应该是根据pdf宽度变更，但目前用着没问题，先这样，后续再调整
@@ -86,6 +88,13 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   useImperativeHandle(
     handleRef,
     () => ({
+      onDiscardActiveObject: () => {
+        if (canvasHandlesRefs.current) {
+          canvasHandlesRefs.current.forEach((canvasHandlesRef) => {
+            canvasHandlesRef.onDiscardActiveObject();
+          });
+        }
+      },
       getNumPages: () => numPages,
       onAddObject: (value) => {
         let currentNumber =
@@ -111,22 +120,29 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     }
   }, [file]);
   const getFilePdfInfoList = async () => {
-    const buff = await file.arrayBuffer(); // Uint8Array
-    const pdfDocument = await pdfjs.getDocument(buff).promise;
-    for (let pageNum = 1; pageNum <= pdfDocument._pdfInfo.numPages; pageNum++) {
-      const page = await pdfDocument.getPage(pageNum);
-      const viewport = page.getViewport({ scale: 2 });
-      setPagesInitialSizeList((list) => [
-        ...list,
-        { width: viewport.width, height: viewport.height },
-      ]);
+    try {
+      const buff = await file.arrayBuffer(); // Uint8Array
+      const pdfDocument = await pdfjs.getDocument(buff).promise;
+      for (
+        let pageNum = 1;
+        pageNum <= pdfDocument._pdfInfo.numPages;
+        pageNum++
+      ) {
+        const page = await pdfDocument.getPage(pageNum);
+        const viewport = page.getViewport({ scale: 2 });
+        setPagesInitialSizeList((list) => [
+          ...list,
+          { width: viewport.width, height: viewport.height },
+        ]);
+      }
+    } catch (e) {
+      console.log(e);
     }
   };
   const onSelfAdaption = () => {
     if (!isSelfAdaption) {
       setSelfAdaptionWidth(defaultWidth.current);
     }
-    console.log('simply parentWidth', parentWidth);
     setIsSelfAdaption(!isSelfAdaption);
   };
   const onChangeSize = (type: 'reduce' | 'add') => {
@@ -141,7 +157,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     }
   };
   const onTextInputKeyDown = (event) => {
-    console.log('simply event', event);
     if (event.key === 'Enter' || event.code === 'Enter') {
       const value = event.target.value;
       if (value) {
@@ -216,7 +231,11 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                       <FunctionalitySignPdfShowPdfViewRenderCanvas
                         canvasIndex={index + 1}
                         topScrollKey={scrollTime}
-                        ref={(el) => (canvasHandlesRefs.current[index] = el)}
+                        ref={(el) => {
+                          if (el) {
+                            canvasHandlesRefs.current[index] = el;
+                          }
+                        }}
                         sizeInfo={pagesInitialSizeList[index]}
                       />
                     </Box>

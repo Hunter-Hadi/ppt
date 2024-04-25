@@ -73,19 +73,22 @@ const FunctionalitySignPdfShowPdfViewObjectTools: FC<
             fontSize={18}
             onSelectedFonts={onSelectedFonts}
             fontsList={[
-              // 'Helvetica',
-              // 'Times New Roman',
+              'Concert One',
+              'Roboto',
               'Courier Prime',
-              // 'Georgia',
               'Noto Serif',
-              // 'Verdana',
-              // 'Sans-serif',
-              // 'Lucida Console',
-              // 'Monospace',
-              // 'Tahoma',
-              // 'Trebuchet MS',
               'EB Garamond',
-              // 'Brush Script MT',
+              'Ma Shan Zheng',
+              'Oswald',
+              'Playfair Display',
+              'Roboto Slab',
+              'Embed code',
+              'Teko',
+              'Pacifico',
+              'Lobster',
+              'Permanent Marker',
+              'Zeyada',
+              'Orbitron',
             ]}
           />
         )}

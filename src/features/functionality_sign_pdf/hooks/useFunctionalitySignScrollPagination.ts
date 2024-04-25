@@ -10,26 +10,29 @@ export const useFunctionalitySignScrollPagination = (pageCount: number, scrollCo
 
     // 动态计算当前页码
     const handleScroll = useCallback(() => {
-        if (!scrollContainerRef.current) return;
-        console.log('simply --- time')
-        setScrollTime(new Date().valueOf())
-        const container = scrollContainerRef.current;
-        if (container.scrollTop < 10) {
-            setCurrentPage(0);
-            return
-        }
-        const scrollPosition = container.scrollTop + container.clientHeight / 2; // 以容器视口中央为准
+        try {
+            if (!scrollContainerRef.current) return;
+            setScrollTime(new Date().valueOf())
+            const container = scrollContainerRef.current;
+            if (container.scrollTop < 10) {
+                setCurrentPage(0);
+                return
+            }
+            const scrollPosition = container.scrollTop + container.clientHeight / 2; // 以容器视口中央为准
 
-        // 查找当前位于容器视口中心的页面
-        const currentPageIndex = pageRefs.current.findIndex((page) => {
-            const pageTop = page?.offsetTop || 0;
-            const pageBottom = pageTop + (page?.clientHeight || 0);
-            return scrollPosition >= pageTop && scrollPosition <= pageBottom;
-        });
+            // 查找当前位于容器视口中心的页面
+            const currentPageIndex = pageRefs.current.findIndex((page) => {
+                const pageTop = page?.offsetTop || 0;
+                const pageBottom = pageTop + (page?.clientHeight || 0);
+                return scrollPosition >= pageTop && scrollPosition <= pageBottom;
+            });
 
-        // 设置当前页面（如果找到了）
-        if (currentPageIndex >= 0) {
-            setCurrentPage(currentPageIndex);
+            // 设置当前页面（如果找到了）
+            if (currentPageIndex >= 0) {
+                setCurrentPage(currentPageIndex);
+            }
+        } catch (e) {
+            console.log(e)
         }
     }, [scrollContainerRef]);
 
