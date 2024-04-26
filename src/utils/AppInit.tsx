@@ -5,9 +5,9 @@ import { useRecoilValue } from 'recoil';
 import ChromeExtensionDetector from '@/features/extension/components/ChromeExtensionDetector';
 import ExtensionUpdateRemindDialog from '@/features/extension/components/ExtensionUpdateRemindDialog';
 import useInitExtensionStatus from '@/features/extension/hooks/useInitExtensionStatus';
+import { useInitMixPanel } from '@/features/mixpanel/utils';
 import { useInitInviteCode } from '@/features/user';
 import { AppState } from '@/store';
-import { useInitMixPanel } from '@/features/mixpanel/utils';
 
 const AppGlobalBackdrop = () => {
   const { globalLoading } = useRecoilValue(AppState);
