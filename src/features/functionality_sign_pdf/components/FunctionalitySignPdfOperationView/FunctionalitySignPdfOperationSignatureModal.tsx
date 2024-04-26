@@ -1,6 +1,6 @@
 import { Box, Button, Modal, Stack, Tab, Tabs } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { FC, useRef, useState } from 'react';
+import React, { FC, useRef, useState } from 'react';
 
 import FunctionalitySignPdfOperationSignaturePad, {
   IFunctionalitySignPdfSignaturePadHandles,
@@ -52,22 +52,51 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
     setTabValue(newValue);
   };
   const onConfirm = () => {
-    if (tabValue === 'type') {
-      const imageString = signatureTypeRef.current?.getPngBase64();
-      if (imageString) {
-        onCreate(tabValue, imageString);
-      }
-    } else if (tabValue === 'draw') {
-      const imageString = signaturePadRef.current?.getPngBase64();
-      if (imageString) {
-        onCreate(tabValue, imageString);
-      }
-    } else if (tabValue === 'upload') {
-      const imageString = signatureUploadRef.current?.getPngBase64();
-      if (imageString) {
-        onCreate(tabValue, imageString);
-      }
+    let imageString: string | undefined = '';
+    switch (tabValue) {
+      case 'type':
+        imageString = signatureTypeRef.current?.getPngBase64();
+        break;
+      case 'draw':
+        imageString = signaturePadRef.current?.getPngBase64();
+        break;
+      case 'upload':
+        imageString = signatureUploadRef.current?.getPngBase64();
+        break;
+      default:
+        break;
     }
+    if (imageString) {
+      onCreate(tabValue, imageString);
+    }
+  };
+  const bottomView = (disabled: boolean) => {
+    return (
+      <Stack
+        sx={{
+          padding: 2,
+        }}
+        direction='row'
+        justifyContent='end'
+        gap={1}
+      >
+        <Button sx={{ borderRadius: 1 }} variant='outlined' onClick={onClose}>
+          {t(
+            'functionality__sign_pdf:components__sign_pdf__operation_view__cancel',
+          )}
+        </Button>
+        <Button
+          sx={{ borderRadius: 1 }}
+          variant='contained'
+          disabled={disabled}
+          onClick={onConfirm}
+        >
+          {t(
+            'functionality__sign_pdf:components__sign_pdf__operation_view__create',
+          )}
+        </Button>
+      </Stack>
+    );
   };
   return (
     <Modal
@@ -109,50 +138,24 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
           }}
         >
           {tabValue === 'draw' && (
-            <Box>
-              <FunctionalitySignPdfOperationSignaturePad
-                ref={signaturePadRef}
-              />
-            </Box>
+            <FunctionalitySignPdfOperationSignaturePad
+              ref={signaturePadRef}
+              bottomView={bottomView}
+            />
           )}
           {tabValue === 'type' && (
-            <Box>
-              <FunctionalitySignPdfOperationSignatureType
-                ref={signatureTypeRef}
-              />
-            </Box>
+            <FunctionalitySignPdfOperationSignatureType
+              ref={signatureTypeRef}
+              bottomView={bottomView}
+            />
           )}
           {tabValue === 'upload' && (
-            <Box>
-              <FunctionalitySignPdfOperationSignatureUpload
-                ref={signatureUploadRef}
-              />
-            </Box>
+            <FunctionalitySignPdfOperationSignatureUpload
+              ref={signatureUploadRef}
+              bottomView={bottomView}
+            />
           )}
         </Box>
-        <Stack
-          sx={{
-            padding: 2,
-          }}
-          direction='row'
-          justifyContent='end'
-          gap={1}
-        >
-          <Button sx={{ borderRadius: 1 }} variant='outlined' onClick={onClose}>
-            {t(
-              'functionality__sign_pdf:components__sign_pdf__operation_view__cancel',
-            )}
-          </Button>
-          <Button
-            sx={{ borderRadius: 1 }}
-            variant='contained'
-            onClick={onConfirm}
-          >
-            {t(
-              'functionality__sign_pdf:components__sign_pdf__operation_view__create',
-            )}
-          </Button>
-        </Stack>
       </Box>
     </Modal>
   );

@@ -14,13 +14,16 @@ import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButto
 export interface IFunctionalitySignPdfSignatureTypeHandles {
   getPngBase64: () => string | undefined;
 }
-
+interface IFunctionalitySignPdfOperationSignatureTypeProps {
+  bottomView: (isInput: boolean) => React.ReactNode;
+}
 /**
  * 输入文字签名
  */
 const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
-  IFunctionalitySignPdfSignatureTypeHandles
-> = (props, ref) => {
+  IFunctionalitySignPdfSignatureTypeHandles,
+  IFunctionalitySignPdfOperationSignatureTypeProps
+> = ({ bottomView }, ref) => {
   const { t } = useTranslation();
 
   const [currentColor, setCurrentColor] = useState<string>('block');
@@ -28,7 +31,10 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
   const [typeInputVal, setTypeInputVal] = useState('');
   useImperativeHandle(ref, () => ({
     getPngBase64: () => {
-      return textToBase64Image(typeInputVal, currentColor, currentFonts);
+      if (typeInputVal) {
+        return textToBase64Image(typeInputVal, currentColor, currentFonts);
+      }
+      return '';
     },
   }));
   const onSelectedColor = (color: string) => {
@@ -89,6 +95,7 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
           </Button>
         </Stack>
       </Box>
+      {bottomView(typeInputVal.length === 0)}
     </Box>
   );
 };

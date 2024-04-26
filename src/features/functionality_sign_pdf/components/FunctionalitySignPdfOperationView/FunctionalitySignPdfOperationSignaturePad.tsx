@@ -18,13 +18,16 @@ import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 export interface IFunctionalitySignPdfSignaturePadHandles {
   getPngBase64: () => string;
 }
-
+interface IFunctionalitySignPdfOperationSignaturePadProps {
+  bottomView: (isInput: boolean) => React.ReactNode;
+}
 /**
  * 签名手绘板
  */
 const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
-  IFunctionalitySignPdfSignaturePadHandles
-> = (props, ref) => {
+  IFunctionalitySignPdfSignaturePadHandles,
+  IFunctionalitySignPdfOperationSignaturePadProps
+> = ({ bottomView }, ref) => {
   const { t } = useTranslation();
 
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -40,7 +43,13 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
 
   const currentColor = useRef<string>('block');
   useImperativeHandle(ref, () => ({
-    getPngBase64: () => signaturePadRef.current?.toDataURL() || '',
+    getPngBase64: () => {
+      if (historyCanvasList.length) {
+        return signaturePadRef.current?.toDataURL() || '';
+      } else {
+        return '';
+      }
+    },
   }));
   useEffect(() => {
     try {
@@ -232,6 +241,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
           </Typography>
         )}
       </Box>
+      {bottomView(historyCanvasList.length === 0)}
     </Box>
   );
 };

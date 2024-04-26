@@ -15,13 +15,16 @@ import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButto
 export interface IFunctionalitySignPdfSignatureUploadHandles {
   getPngBase64: () => string;
 }
-
+interface IFunctionalitySignPdfOperationSignatureUploadProps {
+  bottomView: (isInput: boolean) => React.ReactNode;
+}
 /**
  * 上传图片签名
  */
 const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
-  IFunctionalitySignPdfSignatureUploadHandles
-> = (props, ref) => {
+  IFunctionalitySignPdfSignatureUploadHandles,
+  IFunctionalitySignPdfOperationSignatureUploadProps
+> = ({ bottomView }, ref) => {
   const { t } = useTranslation();
 
   const [imgVal, setImgVal] = useState('');
@@ -202,6 +205,7 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
           </Button>
         </Stack>
       </Box>
+      {bottomView(!imgVal)}
     </Box>
   );
 };
