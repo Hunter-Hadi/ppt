@@ -7,6 +7,7 @@ import { UAParser } from 'ua-parser-js';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import SingleSurvey from '@/components/survey/SingleSurvey';
+import { mixpanelTrack } from '@/features/mixpanel/utils';
 import { USER_API } from '@/utils/api';
 import { sendNotification } from '@/utils/larkBot';
 import { webappPost } from '@/utils/request';
@@ -56,6 +57,13 @@ const UninstallPages: FC = () => {
       window.removeEventListener('mousedown', keyboardOrMouseEventListener);
     };
   }, []);
+
+  useEffect(() => {
+    if (domLoaded) {
+      mixpanelTrack('uninstall_completed');
+    }
+  }, [domLoaded]);
+
   return (
     <AppContainer sx={{ bgcolor: '#fff', pt: 4, pb: 10 }}>
       <AppDefaultSeoLayout title={t('seo:uninstall__title')} />
