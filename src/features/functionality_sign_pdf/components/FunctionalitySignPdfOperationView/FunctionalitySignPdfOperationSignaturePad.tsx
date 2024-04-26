@@ -180,7 +180,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
             onClick={onReplay}
             variant='outlined'
           >
-            <FunctionalitySignPdfIcon name='Replay' />
+            <FunctionalitySignPdfIcon name='UndoOutlined' />
           </Button>
           <Button
             disabled={
@@ -191,7 +191,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
             variant='outlined'
             onClick={onRefresh}
           >
-            <FunctionalitySignPdfIcon name='Refresh' />
+            <FunctionalitySignPdfIcon name='RedoOutlined' />
           </Button>
         </Stack>
       </Stack>

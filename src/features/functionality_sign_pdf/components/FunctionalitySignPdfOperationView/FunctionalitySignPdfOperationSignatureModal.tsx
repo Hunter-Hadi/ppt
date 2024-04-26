@@ -38,7 +38,7 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
 > = ({ onClose, onCreate, open }) => {
   const { t } = useTranslation();
 
-  const [tabValue, setTabValue] = useState<ISignatureType>('type');
+  const [tabValue, setTabValue] = useState<ISignatureType>('draw');
   const signaturePadRef =
     useRef<IFunctionalitySignPdfSignaturePadHandles | null>(null);
   const signatureTypeRef =

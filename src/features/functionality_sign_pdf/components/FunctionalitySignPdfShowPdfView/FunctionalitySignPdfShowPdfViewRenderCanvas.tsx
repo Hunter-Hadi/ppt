@@ -48,6 +48,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
 > = ({ canvasIndex, sizeInfo, topScrollKey }, handleRef) => {
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
   const topWrapRef = useRef<HTMLElement | null>(null);
+  const previousIsSelection = useRef<boolean>(false); //上一次点击是否是选中
+
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null); // 当前选中对象的位置
   const [controlAddNewDiv, setControlAddNewDiv] = useState<IControlDiv | null>(
@@ -135,9 +137,15 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           const canvas = editor?.canvas;
           const activeObject = canvas.getActiveObject();
           if (activeObject) {
+            previousIsSelection.current = true;
             setControlAddNewDiv(null);
             return;
           }
+          if (previousIsSelection.current) {
+            previousIsSelection.current = false;
+            return;
+          }
+          previousIsSelection.current = true;
           const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
           setControlAddNewDiv((data) => {
             if (data) return null;

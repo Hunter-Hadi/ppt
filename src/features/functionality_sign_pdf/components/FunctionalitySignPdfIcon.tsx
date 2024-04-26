@@ -9,16 +9,15 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import RefreshIcon from '@mui/icons-material/Refresh';
+import RedoOutlinedIcon from '@mui/icons-material/RedoOutlined';
 import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined';
-import ReplayIcon from '@mui/icons-material/Replay';
 import TextFieldsIcon from '@mui/icons-material/TextFields';
 import TitleIcon from '@mui/icons-material/Title';
+import UndoOutlinedIcon from '@mui/icons-material/UndoOutlined';
 import ZoomInMapOutlinedIcon from '@mui/icons-material/ZoomInMapOutlined';
 import ZoomOutMapOutlinedIcon from '@mui/icons-material/ZoomOutMapOutlined';
 import { SvgIconProps } from '@mui/material';
 import { FC } from 'react';
-
 /**
  * Functionality公共图标
  * @param name 图标名称
@@ -35,11 +34,11 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       case 'ArrowDropDown': {
         return <ArrowDropDownIcon {...restProps} />;
       }
-      case 'Replay': {
-        return <ReplayIcon {...restProps} />;
+      case 'UndoOutlined': {
+        return <UndoOutlinedIcon {...restProps} />;
       }
-      case 'Refresh': {
-        return <RefreshIcon {...restProps} />;
+      case 'RedoOutlined': {
+        return <RedoOutlinedIcon {...restProps} />;
       }
       case 'KeyboardArrowDown': {
         return <KeyboardArrowDownIcon {...restProps} />;

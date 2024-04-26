@@ -191,3 +191,42 @@ export const onChangeFabricColor = (editor: FabricJSEditor, color) => {
         console.log(e)
     }
 };
+//变更文字颜色
+export const onChangeFabricFontStyle = (editor, type) => {
+    try {
+        const canvas = editor?.canvas;
+        const activeObject = canvas.getActiveObject();
+        console.log('activeObject', activeObject, activeObject.type);
+        if (!activeObject) {
+            console.log('没有选中的对象来复制');
+            return;
+        }
+
+        // 根据类型切换样式
+        switch (type) {
+            case 'fontWeightBold':
+                const currentWeight = activeObject.get('fontWeight');
+                activeObject.set('fontWeight', currentWeight === 'bold' ? '' : 'bold');
+                break;
+            case 'underline':
+                const isUnderline = activeObject.get('underline');
+                activeObject.set('underline', !isUnderline);
+                break;
+            case 'line_through':
+                const isLinethrough = activeObject.get('linethrough');
+                activeObject.set('linethrough', !isLinethrough);
+                break;
+            case 'italic':
+                const currentStyle = activeObject.get('fontStyle');
+                activeObject.set('fontStyle', currentStyle === 'italic' ? '' : 'italic');
+                break;
+            default:
+                console.log('未知的样式类型:', type);
+        }
+
+        // 重新渲染画布
+        canvas.renderAll();
+    } catch (e) {
+        console.log(e);
+    }
+};
