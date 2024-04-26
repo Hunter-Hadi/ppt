@@ -1,5 +1,76 @@
+import { fabric } from 'fabric';
 import { FabricJSEditor } from "fabricjs-react";
+import { v4 as uuidV4 } from 'uuid';
 
+import { findFirstNonTransparentPixel } from "./colorTools";
+
+export const onFabricAddObject = (editor, position: {
+    left: number,
+    top: number
+}, type: string, value: string) => {
+    try {
+        if (!editor) return;
+        const positionData = {
+            left: position.left,
+            top: position.top,
+            hasRotatingPoint: false, // 禁用旋转控制点
+            lockRotation: true, // 锁定旋转
+        };
+        const id = uuidV4();
+        if (type === 'image') {
+            const image = new Image();
+            image.src = value;
+
+            image.onload = function () {
+                // 将图片绘制到画布上
+                const imgColor = findFirstNonTransparentPixel(image);
+                const fabricImage = new fabric.Image(image, positionData);
+                fabricImage.imgColor = imgColor;
+
+                fabricImage.uniqueKey = id;
+                // 移除旋转控制点
+                fabricImage.set('mtr', false);
+                editor.canvas.add(fabricImage);
+                editor.canvas.setActiveObject(fabricImage); // 设置复制的对象为当前活动对象
+            };
+        } else if (type === 'textbox') {
+            positionData.left = positionData.left - 300 / 2;
+            const text = new fabric.Textbox(value, {
+                ...positionData,
+                minScaleLimit: 1,
+                maxScaleLimit: 1,
+                width: 300,
+            });
+            text.uniqueKey = id;
+            editor.canvas.add(text);
+            editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
+        } else if (type === 'text') {
+            positionData.left = positionData.left - 50 / 2;
+            const text = new fabric.Text(value, {
+                ...positionData,
+                minScaleLimit: 1,
+                maxScaleLimit: 1,
+            });
+            text.uniqueKey = id;
+            editor.canvas.add(text);
+            editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
+        } else if (type === 'i-text') {
+            positionData.left = positionData.left - 200 / 2;
+            const text = new fabric.IText(value, {
+                ...positionData,
+                minScaleLimit: 1,
+                maxScaleLimit: 1,
+            });
+            text.uniqueKey = id;
+            editor.canvas.add(text);
+            editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
+        }
+        editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+        editor?.canvas.renderAll(); // 确保变化被渲染
+    } catch (e) {
+        console.error('simply error', e);
+    }
+};
 //复制操作
 export const copyFabricSelectedObject = (editor: FabricJSEditor) => {
 

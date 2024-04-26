@@ -1,15 +1,17 @@
 import { Box, Button, Popover, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
+import { useRecoilState } from 'recoil';
 
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import { FunctionalitySignPdfOperationOBjectAtom } from '../FunctionalitySignPdfMain';
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
 import FunctionalitySignPdfOperationSignatureModal, {
   ISignatureType,
 } from './FunctionalitySignPdfOperationSignatureModal';
 interface IFunctionalitySignPdfSignatureViewProps {
-  dragId: string;
+  dragId: 'yourSignature' | 'yourInitials';
   onShowImgVal?: (val: string) => void;
   signatureEmptyView?: React.ReactNode;
   activeDragData?: IActiveDragData;
@@ -28,24 +30,46 @@ const FunctionalitySignPdfOperationSignatureView: FC<
   activeDragData,
   onClickAdd,
 }) => {
+  const [pdfOperationOBject, setPdfOperationOBject] = useRecoilState(
+    FunctionalitySignPdfOperationOBjectAtom,
+  );
+  const signatureViewList = useMemo(
+    () => pdfOperationOBject[dragId],
+    [pdfOperationOBject[dragId]],
+  );
   const { t } = useTranslation();
 
   const [signatureModalOpen, setModalSignatureOpen] = useState(false);
-  const [signatureViewList, setSignatureViewList] = useState<string[]>([]);
   const [currentShowIndex, setCurrentShowIndex] = useState(0);
   const isActiveCurrent = useRef(false);
   const isActiveModelCurrent = useRef(false);
 
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null); //Popover
   const showImgValue = useMemo(
-    () => signatureViewList[currentShowIndex],
-    [signatureViewList, currentShowIndex],
+    () => pdfOperationOBject[dragId][currentShowIndex],
+    [pdfOperationOBject[dragId], currentShowIndex],
   );
   const isHaveValue = !!showImgValue;
   const popoverId = 'pdf-signature-menu-popover-id';
   const open = Boolean(anchorEl);
+  const setSignatureViewList = (list: string[]) => {
+    setPdfOperationOBject({
+      ...pdfOperationOBject,
+      [dragId]: list,
+    });
+  };
   useEffect(() => {
-    //根据用户拖动逻辑 ，弹出 ModalOpen，拖动空的并放下了
+    setPdfOperationOBject((oldObject) => {
+      return {
+        ...oldObject,
+        index: {
+          ...oldObject.index,
+          [dragId]: currentShowIndex,
+        },
+      };
+    });
+  }, [currentShowIndex]);
+  useEffect(() => {
     if (
       activeDragData?.dragType === 'start' &&
       activeDragData?.id === dragId &&
@@ -75,7 +99,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
   };
   const onCreateSignatureValue = (type: ISignatureType, value: string) => {
     //只做了第一个显示
-    setSignatureViewList((list) => [...list, value]);
+    setSignatureViewList([...signatureViewList, value]);
     setCurrentShowIndex(signatureViewList.length);
     setModalSignatureOpen(false);
     if (isActiveModelCurrent.current) {

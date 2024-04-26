@@ -10,8 +10,9 @@ import React, {
   useState,
 } from 'react';
 
-import { findFirstNonTransparentPixel } from '../../utils/colorTools';
-import FunctionalitySignPdfShowPdfViewObjectTools from './FunctionalitySignPdfShowPdfViewObjectTools';
+import { onFabricAddObject } from '../../utils/fabricjsTools';
+import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalitySignPdfShowPdfViewAddToolsPopup';
+import FunctionalitySignPdfShowPdfViewObjectToolsPopup from './FunctionalitySignPdfShowPdfViewObjectToolsPopup';
 export interface IControlDiv {
   left: number;
   top: number;
@@ -49,6 +50,10 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const topWrapRef = useRef<HTMLElement | null>(null);
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null); // 当前选中对象的位置
+  const [controlAddNewDiv, setControlAddNewDiv] = useState<IControlDiv | null>(
+    null,
+  ); // 当前选中对象的位置
+
   const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象信息
 
   useEffect(() => {
@@ -100,7 +105,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       setActiveObject(object);
       if (object) {
         const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
-        console.log('simply topWrapRefRect', object, topWrapRefRect);
         setControlDiv({
           left: object.left,
           top: object.top,
@@ -126,7 +130,25 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           transparentCorners: false, //激活状态角落的图标是否透明
           selectionDashArray: [5, 5],
         });
-
+        // 对象选中监听
+        editor.canvas.on('mouse:up', function (event) {
+          const canvas = editor?.canvas;
+          const activeObject = canvas.getActiveObject();
+          if (activeObject) {
+            setControlAddNewDiv(null);
+            return;
+          }
+          const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
+          setControlAddNewDiv((data) => {
+            if (data) return null;
+            return {
+              left: event.pointer.x,
+              top: event.pointer.y,
+              windowLeft: topWrapRefRect?.x || 0,
+              windowTop: topWrapRefRect?.y || 0,
+            };
+          });
+        });
         // 对象选中监听
         editor.canvas.on('selection:created', function (event) {
           console.log('simply before:selection', event);
@@ -245,68 +267,13 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         top: canvasObject.y
           ? Math.max(canvasObject.y / scaleFactor, 0)
           : centerY,
-        hasRotatingPoint: false, // 禁用旋转控制点
-        lockRotation: true, // 锁定旋转
       };
-      if (canvasObject.type === 'image') {
-        const image = new Image();
-        image.src = canvasObject.value;
-
-        image.onload = function () {
-          // 将图片绘制到画布上
-          const imgColor = findFirstNonTransparentPixel(image);
-
-          const fabricImage = new fabric.Image(image, positionData);
-          if (fabricImage.width > sizeInfo.width / 2) {
-            // 过大进行 调整尺寸，使用 scale 代替直接设置 width 和 height
-            let scaleRatio = sizeInfo.width / 2 / fabricImage.width;
-            fabricImage.scaleX = scaleRatio;
-            fabricImage.scaleY = scaleRatio;
-            fabricImage.left =
-              positionData.left - (fabricImage.width * scaleRatio) / 2;
-            fabricImage.top =
-              positionData.top - (fabricImage.height * scaleRatio) / 2; //调整位置到鼠标中心
-          } else {
-            fabricImage.left = positionData.left - fabricImage.width / 2; //调整位置到鼠标中心
-          }
-          fabricImage.imgColor = imgColor;
-
-          fabricImage.uniqueKey = canvasObject.id;
-          // 移除旋转控制点
-          fabricImage.set('mtr', false);
-          editor.canvas.add(fabricImage);
-        };
-      } else if (canvasObject.type === 'textbox') {
-        positionData.left = positionData.left - 300 / 2;
-        const text = new fabric.Textbox(canvasObject.value, {
-          ...positionData,
-          minScaleLimit: 1,
-          maxScaleLimit: 1,
-          width: 300,
-        });
-        text.uniqueKey = canvasObject.id;
-        editor.canvas.add(text);
-      } else if (canvasObject.type === 'text') {
-        positionData.left = positionData.left - 50 / 2;
-        const text = new fabric.Text(canvasObject.value, {
-          ...positionData,
-          minScaleLimit: 1,
-          maxScaleLimit: 1,
-        });
-        text.uniqueKey = canvasObject.id;
-        editor.canvas.add(text);
-      } else if (canvasObject.type === 'i-text') {
-        positionData.left = positionData.left - 200 / 2;
-        const text = new fabric.IText(canvasObject.value, {
-          ...positionData,
-          minScaleLimit: 1,
-          maxScaleLimit: 1,
-        });
-        text.uniqueKey = canvasObject.id;
-        editor.canvas.add(text);
-      }
-      editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
-      editor?.canvas.renderAll(); // 确保变化被渲染
+      onFabricAddObject(
+        editor,
+        positionData,
+        canvasObject.type,
+        canvasObject.value,
+      );
     } catch (e) {
       console.error('simply error', e);
     }
@@ -322,7 +289,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }),
     [],
   );
-
+  const onCloseAddToolsPopup = (type: string, value: string) => {
+    setControlAddNewDiv(null);
+  };
   return (
     <Box
       sx={{
@@ -346,11 +315,19 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         />
       </Box>
       {selectedObjects?.length === 1 && controlDiv && (
-        <FunctionalitySignPdfShowPdfViewObjectTools
+        <FunctionalitySignPdfShowPdfViewObjectToolsPopup
           key={activeObject.uniqueKey}
           controlDiv={controlDiv}
           scaleFactor={scaleFactor}
           editor={editor}
+        />
+      )}
+      {controlAddNewDiv && (
+        <FunctionalitySignPdfShowPdfViewAddToolsPopup
+          controlDiv={controlAddNewDiv}
+          scaleFactor={scaleFactor}
+          editor={editor}
+          onClose={onCloseAddToolsPopup}
         />
       )}
     </Box>

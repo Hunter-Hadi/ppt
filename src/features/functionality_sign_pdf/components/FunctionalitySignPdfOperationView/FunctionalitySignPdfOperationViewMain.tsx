@@ -1,10 +1,11 @@
 import { Stack, Typography } from '@mui/material';
-import dayjs from 'dayjs';
 import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
+import { useRecoilValue } from 'recoil';
 
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import { FunctionalitySignPdfOperationOBjectAtom } from '../FunctionalitySignPdfMain';
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
 import FunctionalitySignPdfOperationSignatureView from './FunctionalitySignPdfOperationSignatureView';
 
@@ -19,12 +20,14 @@ const FunctionalitySignPdfOperationViewMain: FC<
   IFunctionalitySignPdfOperationView
 > = ({ activeDragData, onClickAdd }) => {
   const { t } = useTranslation();
-
+  const pdfOperationOBject = useRecoilValue(
+    FunctionalitySignPdfOperationOBjectAtom,
+  );
   return (
     <Stack flexDirection='column'>
       <Stack direction='column' gap={2}>
         <FunctionalitySignPdfOperationSignatureView
-          dragId={'draggable-0'}
+          dragId='yourSignature'
           activeDragData={activeDragData}
           onClickAdd={onClickAdd}
           signatureEmptyView={
@@ -46,7 +49,7 @@ const FunctionalitySignPdfOperationViewMain: FC<
           }
         />
         <FunctionalitySignPdfOperationSignatureView
-          dragId={'draggable-1'}
+          dragId='yourInitials'
           activeDragData={activeDragData}
           onClickAdd={onClickAdd}
           signatureEmptyView={
@@ -68,11 +71,11 @@ const FunctionalitySignPdfOperationViewMain: FC<
           }
         />
         <FunctionalitySignPdfOperationDraggableView
-          id={'draggable-2'}
+          id='textField'
           onWrapClick={onClickAdd}
           data={{
             type: 'textbox',
-            value: 'Type something…',
+            value: pdfOperationOBject.textField,
           }}
         >
           <Stack direction='row' mx={1} gap={1} flex={1} alignItems='center'>
@@ -92,11 +95,11 @@ const FunctionalitySignPdfOperationViewMain: FC<
           </Stack>
         </FunctionalitySignPdfOperationDraggableView>
         <FunctionalitySignPdfOperationDraggableView
-          id={'draggable-3'}
+          id='dateField'
           onWrapClick={onClickAdd}
           data={{
             type: 'i-text',
-            value: dayjs().format('MM/DD/YYYY'),
+            value: pdfOperationOBject.dateField,
           }}
         >
           <Stack direction='row' mx={1} gap={1} flex={1} alignItems='center'>
@@ -116,11 +119,11 @@ const FunctionalitySignPdfOperationViewMain: FC<
           </Stack>
         </FunctionalitySignPdfOperationDraggableView>
         <FunctionalitySignPdfOperationDraggableView
-          id={'draggable-4'}
+          id='checkbox'
           onWrapClick={onClickAdd}
           data={{
             type: 'text',
-            value: '✔',
+            value: pdfOperationOBject.checkbox,
           }}
         >
           <Stack direction='row' mx={1} gap={1} flex={1} alignItems='center'>

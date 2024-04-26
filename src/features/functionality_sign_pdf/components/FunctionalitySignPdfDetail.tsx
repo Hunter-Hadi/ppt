@@ -140,6 +140,7 @@ export const FunctionalitySignPdfDetail: FC<
       },
     }),
   );
+  // 右边的点击添加事件
   const onClickAdd = (type: string, value: string) => {
     if (showPdfHandlesRef.current?.onAddObject) {
       showPdfHandlesRef.current.onAddObject({

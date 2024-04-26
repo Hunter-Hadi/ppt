@@ -1,7 +1,9 @@
 import { Stack } from '@mui/material';
+import dayjs from 'dayjs';
 import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
 import { lazy, Suspense, useState } from 'react';
+import { atom } from 'recoil';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
@@ -12,6 +14,32 @@ const FunctionalitySignPdfDetail = lazy(
       '@/features/functionality_sign_pdf/components/FunctionalitySignPdfDetail'
     ),
 );
+
+export const FunctionalitySignPdfOperationOBjectAtom = atom<{
+  yourSignature: string[];
+  yourInitials: string[];
+  index: {
+    yourSignature: number;
+    yourInitials: number;
+  };
+  textField: string;
+  dateField: string;
+  checkbox: string;
+}>({
+  key: 'FunctionalitySignPdfOperationOBject', // 这个 key 在全局范围内必须是唯一的
+  default: {
+    // 默认值
+    yourSignature: [],
+    yourInitials: [],
+    index: {
+      yourSignature: 0,
+      yourInitials: 0,
+    },
+    textField: 'Type something…',
+    dateField: dayjs().format('MM/DD/YYYY'), //虽然不是时时，但是也没必要因为是天数
+    checkbox: '✔',
+  },
+});
 
 const FunctionalitySignPdfMain = () => {
   const { t } = useTranslation();

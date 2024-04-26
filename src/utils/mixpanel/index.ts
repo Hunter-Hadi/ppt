@@ -40,10 +40,14 @@ export const mixpanelIdentify = (
   type: 'identify' | 'reset',
   userId: string,
 ) => {
-  if (type === 'identify') {
-    mixpanel.identify(userId);
-  }
-  if (type === 'reset') {
-    mixpanel.reset();
+  try {
+    if (type === 'identify') {
+      mixpanel.identify(userId);
+    }
+    if (type === 'reset') {
+      mixpanel.reset();
+    }
+  } catch (e) {
+
   }
 };

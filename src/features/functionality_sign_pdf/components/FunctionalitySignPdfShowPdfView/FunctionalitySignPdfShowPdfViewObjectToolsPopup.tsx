@@ -10,7 +10,7 @@ import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButto
 import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 import { IControlDiv } from './FunctionalitySignPdfShowPdfViewRenderCanvas';
-interface IFunctionalitySignTextTools {
+interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
   controlDiv: IControlDiv;
   scaleFactor: number;
   editor: any;
@@ -19,8 +19,8 @@ interface IFunctionalitySignTextTools {
 /**
  * PDF的点击的  签名对象变更样式 全局弹窗视图
  */
-const FunctionalitySignPdfShowPdfViewObjectTools: FC<
-  IFunctionalitySignTextTools
+const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
+  IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps
 > = ({ controlDiv, editor, scaleFactor }) => {
   const activeObject = useMemo(
     () => editor.canvas?.getActiveObject(),
@@ -122,4 +122,4 @@ const FunctionalitySignPdfShowPdfViewObjectTools: FC<
     </Stack>
   );
 };
-export default FunctionalitySignPdfShowPdfViewObjectTools;
+export default FunctionalitySignPdfShowPdfViewObjectToolsPopup;
