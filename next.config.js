@@ -32,6 +32,10 @@ const obfuscatorOptions = {
   stringArrayThreshold: 0.75,
   unicodeEscapeSequence: false,
 };
+
+const { getHostConfig } = require('./scripts/host.js');
+const { WWW_PROJECT_HOST, APP_PROJECT_HOST } = getHostConfig();
+
 const nextConfig = {
   // i18n,
   trailingSlash: true,
@@ -59,6 +63,10 @@ const nextConfig = {
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
+  },
+  env: {
+    NEXT_PUBLIC_WWW_PROJECT_HOST: WWW_PROJECT_HOST,
+    NEXT_PUBLIC_APP_PROJECT_HOST: APP_PROJECT_HOST,
   },
 };
 

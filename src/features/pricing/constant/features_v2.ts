@@ -74,7 +74,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         planStatus: {
           free: { status: 'none' },
           basic: {
-            status: 'value',
+            status: 'none',
             statusText: numberWithCommas(
               PLAN_USAGE_QUERIES['basic']['advanced_text'],
               0,
@@ -104,14 +104,14 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         planStatus: {
           free: { status: 'none' },
           basic: {
-            status: 'value',
+            status: 'none',
             statusText: numberWithCommas(
               PLAN_USAGE_QUERIES['basic']['image'],
               0,
             ),
           },
           pro: {
-            status: 'value',
+            status: 'none',
             statusText: numberWithCommas(PLAN_USAGE_QUERIES['pro']['image'], 0),
           },
           elite: {

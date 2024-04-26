@@ -2,11 +2,11 @@ import { useRouter } from 'next/router';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
+import { mixpanelIdentify } from '@/features/mixpanel/utils';
 import {
   getClientUserId,
   setClientUserId,
 } from '@/features/track_user_interactions/utils';
-import { mixpanelIdentify } from '@/utils/mixpanel';
 
 interface IClientUserIdGeneratorProps {
   targetHost: string;

@@ -30,20 +30,21 @@ export const BETTER_PLANS_DATA: IBetterPlanDataItem[] = [
         title: 'pricing:features__fast_text_queries__month',
         description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['fast_text'],
         featuresUsageCategory: 'fast_text',
-      },
-      {
-        status: 'checked',
-        title: 'pricing:features__advanced_text_queries__month',
-        description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['advanced_text'],
-        featuresUsageCategory: 'advanced_text',
-      },
-      {
-        status: 'checked',
-        title: 'pricing:features__image_queries__month',
-        description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['image'],
         divider: true,
-        featuresUsageCategory: 'image',
       },
+      // {
+      //   status: 'checked',
+      //   title: 'pricing:features__advanced_text_queries__month',
+      //   description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['advanced_text'],
+      //   featuresUsageCategory: 'advanced_text',
+      // },
+      // {
+      //   status: 'checked',
+      //   title: 'pricing:features__image_queries__month',
+      //   description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['image'],
+      //   divider: true,
+      //   featuresUsageCategory: 'image',
+      // },
       // Usage end
       {
         status: 'checked',
@@ -132,12 +133,12 @@ export const BETTER_PLANS_DATA: IBetterPlanDataItem[] = [
         description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['advanced_text'],
         featuresUsageCategory: 'advanced_text',
       },
-      {
-        status: 'checked',
-        title: 'pricing:features__image_queries__month',
-        description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['image'],
-        featuresUsageCategory: 'image',
-      },
+      // {
+      //   status: 'checked',
+      //   title: 'pricing:features__image_queries__month',
+      //   description: PLAN_FEATURES_USAGE_CATEGORY_MODEL['image'],
+      //   featuresUsageCategory: 'image',
+      // },
       // Usage end
     ],
   },
