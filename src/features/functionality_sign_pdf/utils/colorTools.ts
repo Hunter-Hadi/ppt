@@ -1,6 +1,6 @@
 export const changeImageColor = (imageData: ImageData, color: string) => {
     const data = imageData.data;
-    for (var i = 0; i < data.length; i += 4) {
+    for (let i = 0; i < data.length; i += 4) {
         data[i + 1] = 0;
         switch (color) {
             case 'black':

@@ -69,7 +69,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
 
         // 您原有的删除逻辑
         if (event.key === 'Delete' || event.key === 'Backspace') {
-          var activeObjects = editor?.canvas.getActiveObjects();
+          const activeObjects = editor?.canvas.getActiveObjects();
           if (activeObjects.length !== 0) {
             // 循环并逐个移除
             activeObjects.forEach(function (object) {
@@ -141,7 +141,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           handleObjectSelected(e.target);
           //保持移动不出画布
           let padding = 0; // 内容距离画布的空白宽度，主动设置
-          var obj = e.target;
+          const obj = e.target;
           if (
             obj.currentHeight > obj.canvas.height - padding * 2 ||
             obj.currentWidth > obj.canvas.width - padding * 2
