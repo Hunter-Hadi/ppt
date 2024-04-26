@@ -7,11 +7,12 @@ import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfCommonButtonPopoverProps {
   children?: React.ReactNode;
   popoverView?: React.ReactNode;
+  isShowRightIcon?: boolean;
 }
 
 const FunctionalitySignPdfCommonButtonPopover: FC<
   IFunctionalitySignPdfCommonButtonPopoverProps
-> = ({ children, popoverView }) => {
+> = ({ children, popoverView, isShowRightIcon = true }) => {
   const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
 
   const handleClick = (event) => {
@@ -23,12 +24,16 @@ const FunctionalitySignPdfCommonButtonPopover: FC<
   return (
     <Button
       onClick={handleClick}
+      variant='text'
+      size='small'
       aria-describedby={id}
       sx={{
-        bgcolor: '#fafafa',
+        // bgcolor: '#fafafa',
         p: 1,
       }}
-      endIcon={<FunctionalitySignPdfIcon name='ArrowDropDown' />}
+      endIcon={
+        isShowRightIcon && <FunctionalitySignPdfIcon name='ArrowDropDown' />
+      }
     >
       {children}
       <Popover

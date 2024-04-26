@@ -8,7 +8,7 @@ import {
   Typography,
 } from '@mui/material';
 import { cloneDeep } from 'lodash-es';
-import { FC, useMemo, useState } from 'react';
+import { FC, useEffect, useMemo, useState } from 'react';
 
 import {
   copyFabricSelectedObject,
@@ -33,13 +33,17 @@ interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
 const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps
 > = ({ controlDiv, editor, scaleFactor }) => {
+  const [textAlignSelectIcon, setTextAlignSelectIcon] =
+    useState<string>('FormatAlignLeft');
   const [applicationKeys, setApplicationKeys] = useState<{
     [key in string]: boolean;
   }>({});
+
   const activeObject = useMemo(
     () => editor.canvas?.getActiveObject(),
     [editor.canvas],
   );
+
   const onChangeColor = (color) => {
     if (editor) {
       onChangeFabricColor(editor, color);
@@ -99,6 +103,42 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
       isSelect: activeObject?.underline,
     },
   ];
+  const fontBoxPositionList: {
+    iconName: string;
+    key: string;
+    isSelect: boolean;
+    fabricKey: string;
+  }[] = [
+    {
+      iconName: 'FormatAlignLeft',
+      key: 'textAlignLeft',
+      fabricKey: 'left',
+      isSelect: false,
+    },
+    {
+      iconName: 'FormatAlignCenter',
+      key: 'textAlignCenter',
+      fabricKey: 'center',
+      isSelect: false,
+    },
+    {
+      iconName: 'FormatAlignRight',
+      key: 'textAlignRight',
+      fabricKey: 'right',
+      isSelect: false,
+    },
+  ];
+  useEffect(() => {
+    if (activeObject) {
+      const currentTextPosition = fontBoxPositionList.find(
+        (fontBoxPosition) =>
+          fontBoxPosition.fabricKey === activeObject.textAlign,
+      );
+      if (currentTextPosition) {
+        setTextAlignSelectIcon(currentTextPosition.iconName);
+      }
+    }
+  }, [activeObject]);
   const addApplicationButtonKey = (key) => {
     applicationKeys[key] = !applicationKeys[key];
     setApplicationKeys(cloneDeep(applicationKeys));
@@ -172,52 +212,82 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
           </Button>
         )}
         {!isImage && (
-          <FunctionalitySignPdfCommonButtonPopover
-            popoverView={
-              <Stack direction='row' gap={1}>
-                {fontStyleList.map((item) => (
-                  <Button
-                    key={item.key}
-                    sx={{
-                      backgroundColor: checkIsSelect(item)
-                        ? '#64467b52'
-                        : '#fafafa',
-                    }}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      onChangeFabricFontStyle(editor, item.key);
-                      addApplicationButtonKey(item.key);
-                    }}
-                  >
-                    <Typography
+          <Button>
+            {/* 这个是文字的风格按钮 */}
+            <FunctionalitySignPdfCommonButtonPopover
+              popoverView={
+                <Stack direction='row' gap={1}>
+                  {fontStyleList.map((item) => (
+                    <Button
+                      key={item.key}
                       sx={{
-                        fontSize: {
-                          xs: 20,
-                          lg: 20,
+                        bgcolor: checkIsSelect(item) ? '#64467b52' : '',
+                        '&:hover': {
+                          bgcolor: checkIsSelect(item) ? '#64467b52' : '',
                         },
-                        ...item.sx,
+                      }}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onChangeFabricFontStyle(editor, item.key);
+                        addApplicationButtonKey(item.key);
                       }}
                     >
-                      {item.name}
-                    </Typography>
-                  </Button>
-                ))}
-              </Stack>
-            }
-          >
-            <Typography
-              sx={{
-                fontWeight: 'bold',
-                fontSize: {
-                  xs: 20,
-                  lg: 20,
-                },
-                textDecoration: 'underline',
-              }}
+                      <Typography
+                        sx={{
+                          ...item.sx,
+                        }}
+                      >
+                        {item.name}
+                      </Typography>
+                    </Button>
+                  ))}
+                </Stack>
+              }
             >
-              B
-            </Typography>
-          </FunctionalitySignPdfCommonButtonPopover>
+              <Typography
+                sx={{
+                  fontWeight: 'bold',
+                  textDecoration: 'underline',
+                }}
+              >
+                B
+              </Typography>
+            </FunctionalitySignPdfCommonButtonPopover>
+            {/* 下面的是文字位置的按钮 */}
+            <FunctionalitySignPdfCommonButtonPopover
+              isShowRightIcon={false}
+              popoverView={
+                <Stack direction='row' gap={1}>
+                  {fontBoxPositionList.map((item) => (
+                    <Button
+                      key={item.key}
+                      sx={{
+                        bgcolor:
+                          textAlignSelectIcon === item.iconName
+                            ? '#64467b52'
+                            : '',
+                        '&:hover': {
+                          bgcolor:
+                            textAlignSelectIcon === item.iconName
+                              ? '#64467b52'
+                              : '',
+                        },
+                      }}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onChangeFabricFontStyle(editor, item.key);
+                        setTextAlignSelectIcon(item.iconName);
+                      }}
+                    >
+                      <FunctionalitySignPdfIcon name={item.iconName} />
+                    </Button>
+                  ))}
+                </Stack>
+              }
+            >
+              <FunctionalitySignPdfIcon name={textAlignSelectIcon} />
+            </FunctionalitySignPdfCommonButtonPopover>
+          </Button>
         )}
         <FunctionalitySignPdfColorButtonPopover
           onSelectedColor={onChangeColor}

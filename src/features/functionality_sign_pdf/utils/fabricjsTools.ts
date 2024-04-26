@@ -220,6 +220,15 @@ export const onChangeFabricFontStyle = (editor, type) => {
                 const currentStyle = activeObject.get('fontStyle');
                 activeObject.set('fontStyle', currentStyle === 'italic' ? '' : 'italic');
                 break;
+            case 'textAlignCenter':
+                activeObject.set({ textAlign: 'center' });
+                break;
+            case 'textAlignLeft':
+                activeObject.set({ textAlign: 'left' });
+                break;
+            case 'textAlignRight':
+                activeObject.set({ textAlign: 'right' });
+                break;
             default:
                 console.log('未知的样式类型:', type);
         }

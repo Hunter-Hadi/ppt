@@ -8,6 +8,9 @@ import CheckIcon from '@mui/icons-material/Check';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
+import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
+import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
+import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import RedoOutlinedIcon from '@mui/icons-material/RedoOutlined';
 import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined';
@@ -88,6 +91,15 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'RemoveCircleOutlineOutlined': {
         return <RemoveCircleOutlineOutlinedIcon {...restProps} />;
+      }
+      case 'FormatAlignLeft': {
+        return <FormatAlignLeftIcon {...restProps} />;
+      }
+      case 'FormatAlignCenter': {
+        return <FormatAlignCenterIcon {...restProps} />;
+      }
+      case 'FormatAlignRight': {
+        return <FormatAlignRightIcon {...restProps} />;
       }
       default: {
         return null;

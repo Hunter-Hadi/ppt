@@ -49,6 +49,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
   const topWrapRef = useRef<HTMLElement | null>(null);
   const previousIsSelection = useRef<boolean>(false); //上一次点击是否是选中
+  const [windowScrollKey, setWindowScrollKey] = useState(0); // Current scale factor
 
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null); // 当前选中对象的位置
@@ -59,6 +60,10 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象信息
 
   useEffect(() => {
+    const handleScroll = () => {
+      setWindowScrollKey(new Date().valueOf());
+    };
+    window.addEventListener('scroll', handleScroll);
     // 键盘事件监听器
     if (editor) {
       const handleKeyDown = (event) => {
@@ -92,16 +97,20 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       // 清理函数
       return () => {
         window.removeEventListener('keydown', handleKeyDown);
+        window.removeEventListener('scroll', handleScroll);
       };
     }
   }, [editor]);
   useEffect(() => {
+    //滚动后取消一些事件
     if (activeObject) {
       setControlDiv(null);
       editor?.canvas.discardActiveObject(); // 取消选中状态
       editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
     }
-  }, [topScrollKey]);
+    previousIsSelection.current = false;
+    setControlAddNewDiv(null);
+  }, [topScrollKey, windowScrollKey]);
   const handleObjectSelected = (object?: fabric.Object) => {
     try {
       setActiveObject(object);
@@ -136,6 +145,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         editor.canvas.on('mouse:up', function (event) {
           const canvas = editor?.canvas;
           const activeObject = canvas.getActiveObject();
+          console.log('simply activeObject', !!activeObject);
           if (activeObject) {
             previousIsSelection.current = true;
             setControlAddNewDiv(null);
@@ -143,6 +153,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           }
           if (previousIsSelection.current) {
             previousIsSelection.current = false;
+            setControlAddNewDiv(null);
             return;
           }
           previousIsSelection.current = true;
@@ -268,6 +279,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     try {
       console.log('simply canvasObject', canvasObject);
       if (!editor) return;
+      setControlAddNewDiv(null);
       const centerX = sizeInfo && sizeInfo?.width / 2; //没有就默认居中
       const centerY = sizeInfo && sizeInfo?.height / 2;
       const positionData = {
