@@ -212,7 +212,6 @@ export const FunctionalitySignPdfDetail: FC<
               onClick={onPdfAddViewSave}
               sx={{ width: '100%' }}
               size='large'
-              loadingPosition='start'
               disabled={saveButtonLoading}
               loading={saveButtonLoading}
             >

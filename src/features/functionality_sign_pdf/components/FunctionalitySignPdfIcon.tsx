@@ -12,6 +12,7 @@ import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
 import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import OpacityRoundedIcon from '@mui/icons-material/OpacityRounded';
 import RedoOutlinedIcon from '@mui/icons-material/RedoOutlined';
 import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined';
 import TextFieldsIcon from '@mui/icons-material/TextFields';
@@ -100,6 +101,9 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'FormatAlignRight': {
         return <FormatAlignRightIcon {...restProps} />;
+      }
+      case 'OpacityRounded': {
+        return <OpacityRoundedIcon {...restProps} />;
       }
       default: {
         return null;

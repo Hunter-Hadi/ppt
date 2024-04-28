@@ -192,7 +192,7 @@ export const onChangeFabricColor = (editor: FabricJSEditor, color) => {
     }
 };
 //变更文字颜色
-export const onChangeFabricFontStyle = (editor, type) => {
+export const onChangeFabricFontStyle = (editor, type, value?: number | string) => {
     try {
         const canvas = editor?.canvas;
         const activeObject = canvas.getActiveObject();
@@ -228,6 +228,20 @@ export const onChangeFabricFontStyle = (editor, type) => {
                 break;
             case 'textAlignRight':
                 activeObject.set({ textAlign: 'right' });
+            case 'opacity':
+                activeObject.set({ opacity: value });
+                break;
+            case 'fontFamily':
+                activeObject.set('fontFamily', value);
+                break;
+            case 'fontSize':
+                activeObject.set('fontSize', value);
+                break;
+            case 'backgroundColor':
+                activeObject.set('backgroundColor', value);
+                break;
+            case 'opacity':
+                activeObject.set('opacity', value);
                 break;
             default:
                 console.log('未知的样式类型:', type);

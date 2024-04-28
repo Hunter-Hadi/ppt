@@ -1,10 +1,11 @@
 import { Popover } from '@mui/material';
-import Button from '@mui/material/Button';
+import Button, { ButtonProps } from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import React, { FC, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfCommonButtonPopoverProps {
+  btnProps?: ButtonProps;
   children?: React.ReactNode;
   popoverView?: React.ReactNode;
   isShowRightIcon?: boolean;
@@ -12,7 +13,7 @@ interface IFunctionalitySignPdfCommonButtonPopoverProps {
 
 const FunctionalitySignPdfCommonButtonPopover: FC<
   IFunctionalitySignPdfCommonButtonPopoverProps
-> = ({ children, popoverView, isShowRightIcon = true }) => {
+> = ({ children, popoverView, isShowRightIcon = true, btnProps }) => {
   const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
 
   const handleClick = (event) => {
@@ -28,12 +29,12 @@ const FunctionalitySignPdfCommonButtonPopover: FC<
       size='small'
       aria-describedby={id}
       sx={{
-        // bgcolor: '#fafafa',
         p: 1,
       }}
       endIcon={
         isShowRightIcon && <FunctionalitySignPdfIcon name='ArrowDropDown' />
       }
+      {...btnProps}
     >
       {children}
       <Popover

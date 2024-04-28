@@ -35,6 +35,9 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
 > = ({ controlDiv, editor, scaleFactor }) => {
   const [textAlignSelectIcon, setTextAlignSelectIcon] =
     useState<string>('FormatAlignLeft');
+  const [transparencyNumber, setTransparencyNumber] = useState<
+    undefined | number
+  >(undefined);
   const [applicationKeys, setApplicationKeys] = useState<{
     [key in string]: boolean;
   }>({});
@@ -45,26 +48,18 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   );
 
   const onChangeColor = (color) => {
-    if (editor) {
-      onChangeFabricColor(editor, color);
-    }
+    onChangeFabricColor(editor, color);
   };
   const onCopySelectedObject = () => {
-    if (editor) {
-      copyFabricSelectedObject(editor);
-    }
+    copyFabricSelectedObject(editor);
   };
   const onSelectedFonts = (fonts: string) => {
-    console.log('simply activeObject', activeObject);
-    if (activeObject) {
-      activeObject.set('fontFamily', fonts);
-      editor.canvas.renderAll(); // 更新画布以显示颜色变更
-    }
+    onChangeFabricFontStyle(editor, 'fontFamily', fonts);
   };
   const onChangeFontSize = (size: number) => {
-    activeObject.set('fontSize', Math.max(15, size || 0));
-    editor.canvas.renderAll(); // 更新画布以显示颜色变更
+    onChangeFabricFontStyle(editor, 'fontSize', size);
   };
+
   const isImage = activeObject.type === 'image';
   const isText = activeObject.type === 'text';
   const fontStyleList: {
@@ -147,7 +142,16 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
     applicationKeys[item.key] !== undefined
       ? applicationKeys[item.key]
       : item.isSelect;
-  console.log('simply applicationKeys', applicationKeys);
+  const onChangeTransparency = (value: number) => {
+    const convertedValue = (value - 1) / 99; // 转换为 0-1 的范围
+    const roundedValue = convertedValue.toFixed(1); // 保留小数点后一位
+    onChangeFabricFontStyle(editor, 'opacity', roundedValue);
+    setTransparencyNumber(value);
+  };
+  const onChangeBgColor = (color: string) => {
+    onChangeFabricFontStyle(editor, 'backgroundColor', color);
+  };
+
   return (
     <Stack
       sx={{
@@ -289,10 +293,48 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
             </FunctionalitySignPdfCommonButtonPopover>
           </Button>
         )}
-        <FunctionalitySignPdfColorButtonPopover
-          onSelectedColor={onChangeColor}
-          currentColor={isImage ? activeObject.imgColor : activeObject.fill}
-        />
+        <Button>
+          <FunctionalitySignPdfColorButtonPopover
+            titleText='A'
+            isShowRightIcon={false}
+            btnProps={{
+              variant: 'text',
+            }}
+            onSelectedColor={onChangeColor}
+            onChangeTransparency={onChangeTransparency}
+            currentTransparency={
+              transparencyNumber || activeObject.opacity * 100
+            }
+            currentColor={isImage ? activeObject.imgColor : activeObject.fill}
+          />
+          <FunctionalitySignPdfColorButtonPopover
+            isShowRightIcon={false}
+            colorList={[
+              'transparent',
+              'black',
+              'white',
+              'blue',
+              'red',
+              'green',
+              'yellow',
+              'orange',
+              'purple',
+              'pink',
+              'brown',
+              'gray',
+            ]}
+            btnProps={{
+              variant: 'text',
+            }}
+            onSelectedColor={onChangeBgColor}
+            onChangeTransparency={onChangeTransparency}
+            currentTransparency={
+              transparencyNumber || activeObject.opacity * 100
+            }
+            currentColor={activeObject.backgroundColor}
+          />
+        </Button>
+
         <Button onClick={onCopySelectedObject}>
           <FunctionalitySignPdfIcon name='ContentCopy' />
         </Button>
