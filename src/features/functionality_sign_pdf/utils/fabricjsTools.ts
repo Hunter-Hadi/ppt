@@ -24,14 +24,43 @@ export const onFabricAddObject = (editor, position: {
             image.onload = function () {
                 // 将图片绘制到画布上
                 const imgColor = findFirstNonTransparentPixel(image);
-                const fabricImage = new fabric.Image(image, positionData);
-                fabricImage.imgColor = imgColor;
 
+                const fabricImage = new fabric.Image(image, positionData);
+
+                let scaleRatioWidth = 1;
+                let scaleRatioHeight = 1;
+
+                // 判断图片宽度是否过大
+                if (fabricImage.width > editor.canvas.width / 2) {
+                    scaleRatioWidth = editor.canvas.width / 2 / fabricImage.width;
+                }
+
+                // 判断图片高度是否过高
+                if (fabricImage.height > editor.canvas.height / 2) {
+                    scaleRatioHeight = editor.canvas.height / 2 / fabricImage.height;
+                }
+
+                // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
+                let scaleRatio = Math.min(scaleRatioWidth, scaleRatioHeight);
+
+                if (scaleRatio < 1) {  //只有当需要缩放时才执行
+                    fabricImage.scaleX = scaleRatio;
+                    fabricImage.scaleY = scaleRatio;
+
+                    // 调整位置到鼠标中心，同时应用缩放比例
+                    fabricImage.left = positionData.left - (fabricImage.getScaledWidth() / 2);
+                    fabricImage.top = positionData.top - (fabricImage.getScaledHeight() / 2);
+                } else {
+                    // 如果不需要缩放, 则只调整位置到鼠标中心
+                    fabricImage.left = positionData.left - fabricImage.width / 2;
+                    fabricImage.top = positionData.top - fabricImage.height / 2;
+                }
+
+                fabricImage.imgColor = imgColor;
                 fabricImage.uniqueKey = id;
                 // 移除旋转控制点
                 fabricImage.set('mtr', false);
                 editor.canvas.add(fabricImage);
-                editor.canvas.setActiveObject(fabricImage); // 设置复制的对象为当前活动对象
             };
         } else if (type === 'textbox') {
             positionData.left = positionData.left - 300 / 2;
