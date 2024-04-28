@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 import {
   PLAN_FEATURES_USAGE_CATEGORY_MODEL,
   PLAN_USAGE_QUERIES,
@@ -59,13 +61,8 @@ export const PLAN_FEATURES_CATEGORY_V2: {
           },
           elite: {
             status: 'value',
-            statusText: 'common:unlimited',
+            statusText: t('common:unlimited'),
           },
-        },
-        tooltip: {
-          desc: 'pricing:features__fast_text_queries__tooltip__description',
-          imageLink: '/assets/pricing/fast-text-queries.png',
-          // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
       {
@@ -74,7 +71,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         planStatus: {
           free: { status: 'none' },
           basic: {
-            status: 'none',
+            status: 'value',
             statusText: numberWithCommas(
               PLAN_USAGE_QUERIES['basic']['advanced_text'],
               0,
@@ -89,12 +86,12 @@ export const PLAN_FEATURES_CATEGORY_V2: {
           },
           elite: {
             status: 'value',
-            statusText: 'common:unlimited',
+            statusText: t('common:unlimited'),
           },
         },
         tooltip: {
           desc: 'pricing:features__advanced_text_queries__tooltip__description',
-          imageLink: '/assets/pricing/advanced-text-queries.png',
+          imageLink: '/assets/images/pricing/advanced-text-queries.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -104,24 +101,24 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         planStatus: {
           free: { status: 'none' },
           basic: {
-            status: 'none',
+            status: 'value',
             statusText: numberWithCommas(
               PLAN_USAGE_QUERIES['basic']['image'],
               0,
             ),
           },
           pro: {
-            status: 'none',
+            status: 'value',
             statusText: numberWithCommas(PLAN_USAGE_QUERIES['pro']['image'], 0),
           },
           elite: {
             status: 'value',
-            statusText: 'common:unlimited',
+            statusText: t('common:unlimited'),
           },
         },
         tooltip: {
           desc: 'pricing:features__image_queries__tooltip__description',
-          imageLink: '/assets/pricing/image-queries.png',
+          imageLink: '/assets/images/pricing/image-queries.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -152,7 +149,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_rewriter__tooltip__description',
-          imageLink: '/assets/pricing/ai-rewriter.png',
+          imageLink: '/assets/images/pricing/ai-rewriter.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -168,7 +165,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_instant_reply__tooltip__description',
-          imageLink: '/assets/pricing/ai-instant-reply.png',
+          imageLink: '/assets/images/pricing/ai-instant-reply.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -184,7 +181,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_art__tooltip__description',
-          imageLink: '/assets/pricing/ai-art.png',
+          imageLink: '/assets/images/pricing/ai-art.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -200,7 +197,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_prompt_manager__tooltip__description',
-          imageLink: '/assets/pricing/ai-prompt-manager.png',
+          imageLink: '/assets/images/pricing/ai-prompt-manager.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -216,7 +213,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_prompts_library__tooltip__description',
-          imageLink: '/assets/pricing/ai-prompts-library.png',
+          imageLink: '/assets/images/pricing/ai-prompts-library.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -238,7 +235,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_summary_ask__tooltip__description',
-          imageLink: '/assets/pricing/ai-summary-ask.png',
+          imageLink: '/assets/images/pricing/ai-summary-ask.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -254,7 +251,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_reading_assistant__tooltip__description',
-          imageLink: '/assets/pricing/ai-reading-assistant.png',
+          imageLink: '/assets/images/pricing/ai-reading-assistant.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -270,7 +267,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_translator__tooltip__description',
-          imageLink: '/assets/pricing/ai-translator.png',
+          imageLink: '/assets/images/pricing/ai-translator.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -292,7 +289,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_chat__tooltip__description',
-          imageLink: '/assets/pricing/ai-chat.png',
+          imageLink: '/assets/images/pricing/ai-chat.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -308,7 +305,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__ai_search__tooltip__description',
-          imageLink: '/assets/pricing/ai-search.png',
+          imageLink: '/assets/images/pricing/ai-search.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -330,7 +327,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__pro_search__tooltip__description',
-          imageLink: '/assets/pricing/webchatgpt-pro-search.png',
+          imageLink: '/assets/images/pricing/webchatgpt-pro-search.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },
@@ -346,7 +343,7 @@ export const PLAN_FEATURES_CATEGORY_V2: {
         },
         tooltip: {
           desc: 'pricing:features__advanced_options__tooltip__description',
-          imageLink: '/assets/pricing/webchatgpt-advanced-options.png',
+          imageLink: '/assets/images/pricing/webchatgpt-advanced-options.png',
           // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
         },
       },

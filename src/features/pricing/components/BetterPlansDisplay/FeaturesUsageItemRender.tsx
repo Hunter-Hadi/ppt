@@ -9,9 +9,8 @@ import React, { FC, useMemo } from 'react';
 
 import { PLAN_USAGE_QUERIES } from '@/features/pricing/constant';
 import { IDisplayFeaturesItem } from '@/features/pricing/constant/better_plans';
+import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
 import { numberWithCommas } from '@/utils/dataHelper/numberHelper';
-
-import { RENDER_PLAN_TYPE } from '../../type';
 
 /**
  *
@@ -64,7 +63,12 @@ const FeaturesUsageItemRender: FC<IProps> = ({
           )}
         </Box>
         <Stack spacing={0.5}>
-          <Typography variant='custom' fontSize={16} lineHeight={1.5}>
+          <Typography
+            variant='custom'
+            fontSize={14}
+            lineHeight={1.5}
+            color='text.primary'
+          >
             <strong>{usageValueText}</strong>
             {` `}
             {typeof displayFeatureData.title === 'string'
@@ -74,9 +78,9 @@ const FeaturesUsageItemRender: FC<IProps> = ({
           {typeof displayFeatureData.description === 'string' ? (
             <Typography
               variant='custom'
-              fontSize={14}
+              fontSize={12}
               lineHeight={1.5}
-              color='text.secondary'
+              color='customText.tertiary'
             >
               {t(displayFeatureData.description)}
             </Typography>
@@ -85,9 +89,9 @@ const FeaturesUsageItemRender: FC<IProps> = ({
           )}
           <Typography
             variant='custom'
-            fontSize={14}
+            fontSize={12}
             lineHeight={1.5}
-            color='text.secondary'
+            color='customText.tertiary'
           >
             {typeof displayFeatureData.moreDescription === 'string'
               ? t(displayFeatureData.moreDescription)

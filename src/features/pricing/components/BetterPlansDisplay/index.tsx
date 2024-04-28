@@ -19,15 +19,15 @@ const BetterPlansDisplay: FC<IBetterPlansDisplayProps> = ({
   popularPlan,
 }) => {
   return (
-    <Stack spacing={8} sx={sx}>
+    <Stack spacing={8} sx={sx} width='100%'>
       <PaymentTypeSwitch sx={{ mx: 'auto !important' }} />
 
       <Box>
-        <Grid container spacing={4}>
+        <Grid container spacing={4} justifyContent='center'>
           {BETTER_PLANS_DATA.map((betterPlanItem) => {
             const isPopular = betterPlanItem.renderPlan === popularPlan;
             return (
-              <Grid item key={betterPlanItem.renderPlan} xs={12} md={4}>
+              <Grid item key={betterPlanItem.renderPlan} xs={12} md={5}>
                 <BetterPlanDisplayItem
                   isPopular={isPopular}
                   {...betterPlanItem}

@@ -54,6 +54,11 @@ declare module '@mui/material/styles' {
       backgroundSecondary: React.CSSProperties['color'];
       backgroundThird: React.CSSProperties['color'];
     };
+    customText: {
+      primary: string;
+      secondary: string;
+      tertiary: string;
+    };
   }
   interface PaletteOptions {
     table: {
@@ -67,6 +72,11 @@ declare module '@mui/material/styles' {
       backgroundMain: React.CSSProperties['color'];
       backgroundSecondary: React.CSSProperties['color'];
       backgroundThird: React.CSSProperties['color'];
+    };
+    customText: {
+      primary: string;
+      secondary: string;
+      tertiary: string;
     };
   }
   interface TypographyVariants {
@@ -248,6 +258,15 @@ const customMuiTheme = responsiveFontSizes(
       table: {
         title: getIsDarkMode() ? customColor.darkBackground : '#f5f5f5',
         column: getIsDarkMode() ? customColor.darkPaperBackground : '#ffffff',
+      },
+      customText: {
+        primary: getIsDarkMode() ? '#fff' : '#000000DE',
+        secondary: getIsDarkMode() ? '#FFFFFFDE' : '#00000099',
+        tertiary: getIsDarkMode() ? '#FFFFFFDE' : '#00000061',
+      },
+      text: {
+        primary: getIsDarkMode() ? '#fff' : '#000000DE',
+        secondary: getIsDarkMode() ? '#FFFFFFDE' : '#00000099',
       },
     },
     breakpoints: {

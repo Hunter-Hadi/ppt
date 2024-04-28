@@ -247,18 +247,14 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
 
       {/* features info */}
       <Stack px={3} py={4} spacing={3}>
-        {typeof displayFeaturesSubTitle === 'string' ? (
-          <Typography
-            variant='custom'
-            fontSize={16}
-            lineHeight={1.5}
-            fontWeight={600}
-          >
-            {t(displayFeaturesSubTitle)}
-          </Typography>
-        ) : (
-          displayFeaturesSubTitle
-        )}
+        <Typography
+          variant='custom'
+          fontSize={16}
+          lineHeight={1.5}
+          fontWeight={600}
+        >
+          {displayFeaturesSubTitle(t)}
+        </Typography>
 
         <Stack spacing={2}>
           {displayFeatures.map((featureItem, index) => {
@@ -296,8 +292,9 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
                     {typeof featureItem.title === 'string' ? (
                       <Typography
                         variant='custom'
-                        fontSize={16}
+                        fontSize={14}
                         lineHeight={1.5}
+                        color='customText.primary'
                       >
                         {t(featureItem.title)}
                       </Typography>
@@ -307,9 +304,9 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
                     {typeof featureItem.description === 'string' ? (
                       <Typography
                         variant='custom'
-                        fontSize={14}
+                        fontSize={12}
                         lineHeight={1.5}
-                        color='text.secondary'
+                        color='customText.tertiary'
                       >
                         {t(featureItem.description)}
                       </Typography>
@@ -319,9 +316,9 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
                     {typeof featureItem.moreDescription === 'string' ? (
                       <Typography
                         variant='custom'
-                        fontSize={14}
+                        fontSize={12}
                         lineHeight={1.5}
-                        color='text.secondary'
+                        color='customText.tertiary'
                       >
                         {t(featureItem.moreDescription)}
                       </Typography>
@@ -334,7 +331,6 @@ const BetterPlanDisplayItem: FC<IBetterPlanDisplayItemProps> = ({
               </Stack>
             );
           })}
-          <></>
         </Stack>
       </Stack>
     </Stack>

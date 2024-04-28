@@ -8,7 +8,7 @@ import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
 import BetterPlansDisplay from '@/features/pricing/components/BetterPlansDisplay';
-import PlanFeaturesTableV2 from '@/features/pricing/components/PlanFeaturesTableV2';
+import PlanFeaturesTableV3 from '@/features/pricing/components/PlanFeaturesTableV3';
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox';
 import PricingPlanCategoryBar from '@/features/pricing/components/PricingPlanCategoryBar';
 import PromotionBannerForElite from '@/features/promotion/components/promotion_banners/PromotionBannerForElite';
@@ -31,7 +31,7 @@ const PricingPages = () => {
       <PromotionBannerForElite />
 
       <Stack
-        maxWidth={1640}
+        maxWidth={1298}
         mx={'auto'}
         px={3}
         pb={15}
@@ -84,7 +84,7 @@ const PricingPages = () => {
           >
             {t('pages:pricing__compare_plans__title')}
           </Typography>
-          <PlanFeaturesTableV2 popularPlan={'elite'} />
+          <PlanFeaturesTableV3 popularPlan={'elite'} />
         </Stack>
         {/* faq */}
         <PricingFaqBox sx={{ mt: 24 }} />

@@ -1,5 +1,5 @@
 import { Box, debounce, Stack, SxProps } from '@mui/material';
-import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
+import React, { FC, useEffect, useRef, useState } from 'react';
 import { useRecoilValue } from 'recoil';
 
 import { AppHeaderHeightState } from '@/store';
@@ -7,21 +7,62 @@ import { AppHeaderHeightState } from '@/store';
 import PaymentTypeSwitch from '../PaymentTypeSwitch';
 import FeaturesTableContent from './FeaturesTableContent';
 import FeaturesTableHeader from './FeaturesTableHeader';
-
-// 第一列的最小宽度 320
-export const FEATURE_TABLE_FIRST_COLUMN_WIDTH = {
-  xs: 240,
-  lg: 320,
-};
-
-export type IFeatureColumn = 'features' | 'free' | 'basic' | 'pro' | 'elite';
-
-export const TABLE_COLUMN = ['features', 'free', 'basic', 'pro', 'elite'];
+import { IFeatureColumnsType, IFeatureColumnType } from './type';
 
 interface IProps {
   sx?: SxProps;
-  popularPlan?: IFeatureColumn;
+  popularPlan?: IFeatureColumnType;
 }
+
+export const FeatureTableColumns: IFeatureColumnsType = [
+  {
+    key: 'features',
+    columnType: 'features',
+    sx: {
+      width: 350,
+    },
+  },
+  {
+    key: 'elite',
+    columnType: 'elite',
+    sx: {
+      width: {
+        xs: 230,
+        md: 300,
+      },
+    },
+  },
+  {
+    key: 'pro',
+    columnType: 'pro',
+    sx: {
+      width: {
+        xs: 230,
+        md: 300,
+      },
+    },
+  },
+  // {
+  //   key: 'basic',
+  //   columnType: 'basic',
+  //   sx: {
+  //     width: {
+  //       xs: 220,
+  //       md: 240,
+  //     },
+  //   },
+  // },
+  {
+    key: 'free',
+    columnType: 'free',
+    sx: {
+      width: {
+        xs: 230,
+        md: 300,
+      },
+    },
+  },
+];
 
 const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
   // fixed table header 的容器
@@ -45,20 +86,20 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
   useEffect(() => {
     // 初始化 fixed table header 的宽度
     if (tableContainerRef.current) {
-      setFixedHeaderWidth(tableContainerRef.current?.clientWidth - 2);
+      setFixedHeaderWidth(tableContainerRef.current?.clientWidth);
       const tableContainerRect =
         tableContainerRef.current.getBoundingClientRect();
-      setFixedHeaderLeft(tableContainerRect.left + 1);
+      setFixedHeaderLeft(tableContainerRect.left);
     }
   }, []);
 
   useEffect(() => {
     const resizeHandle = () => {
       if (tableContainerRef.current) {
-        setFixedHeaderWidth(tableContainerRef.current?.clientWidth - 2);
+        setFixedHeaderWidth(tableContainerRef.current?.clientWidth);
         const tableContainerRect =
           tableContainerRef.current.getBoundingClientRect();
-        setFixedHeaderLeft(tableContainerRect.left + 1);
+        setFixedHeaderLeft(tableContainerRect.left);
       }
     };
 
@@ -119,20 +160,6 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
     };
   }, []);
 
-  const tableStackSx = useMemo(() => {
-    return {
-      overflow: popularPlan ? 'unset' : 'auto',
-      // minWidth: 1078,
-      width: {
-        xs: 'max-content',
-        lg: 'unset',
-      },
-      border: '1px solid',
-      borderColor: '#E0E0E0',
-      borderRadius: 2,
-    };
-  }, [popularPlan]);
-
   return (
     <>
       {showFixedHeader ? (
@@ -164,16 +191,14 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
               'scrollbar-width': 'none',
             }}
             ref={tableFixedHeaderContainerRef}
-            onScroll={(e) => e.preventDefault()}
+            onScroll={(e) => {
+              e.preventDefault();
+            }}
           >
             <FeaturesTableHeader
               inFixed
-              // showPaymentTypeSwitch
               popularPlan={popularPlan}
-              sx={{
-                borderTopLeftRadius: 0,
-                borderTopRightRadius: 0,
-              }}
+              showPaymentSwitch
             />
           </Box>
         </Box>
@@ -181,15 +206,20 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
       <Stack sx={sx} spacing={4}>
         <PaymentTypeSwitch sx={{ mx: 'auto !important' }} />
 
-        <Box overflow={popularPlan ? 'auto' : 'unset'} ref={tableContainerRef}>
+        <Box
+          ref={tableContainerRef}
+          sx={{
+            overflow: 'auto',
+          }}
+        >
           {
             // 渲染 空白 div 撑高 overflow: auto 的容器，给 header popular 留位置
             popularPlan && <Box height={36} />
           }
-          <Stack sx={tableStackSx}>
-            <FeaturesTableHeader popularPlan={popularPlan} />
-            <FeaturesTableContent />
-          </Stack>
+          {/* header */}
+          <FeaturesTableHeader popularPlan={popularPlan} />
+          {/* content */}
+          <FeaturesTableContent popularPlan={popularPlan} />
         </Box>
       </Stack>
     </>

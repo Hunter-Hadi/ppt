@@ -971,9 +971,8 @@
   },
   "pricing": {
 
+    "better_plan_display__everything_in_plan_plus": "Everything in {{PLAN}} plus:",
     "better_plan_display__basic__sub_title": "Core features:",
-    "better_plan_display__pro__sub_title": "Everything in {{PLAN}} plus:",
-    "better_plan_display__elite__sub_title": "Everything in {{PLAN}} plus:",
 
     "features__fast_text_models": "Fast text models",
     "features__advanced_text_models": "Advanced text models",
