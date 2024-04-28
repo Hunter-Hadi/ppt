@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { useEffect, useMemo } from 'react';
 
-import { PLAN_FEATURES_CATEGORY } from '@/features/pricing/constant';
+import { PLAN_FEATURES_CATEGORY } from '@/features/pricing/constant/features';
 import useAppHeaderState from '@/hooks/useAppHeaderState';
 
 interface IMenuItem {

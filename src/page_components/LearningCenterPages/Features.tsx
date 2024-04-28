@@ -4,7 +4,7 @@ import React from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import YoutubePlayerBox from '@/components/YoutubePlayerBox';
-import { PLAN_FEATURES_CATEGORY } from '@/features/pricing/constant';
+import { PLAN_FEATURES_CATEGORY } from '@/features/pricing/constant/features';
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 
 const Features = () => {

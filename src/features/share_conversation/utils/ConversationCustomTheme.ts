@@ -229,6 +229,15 @@ const ConversationCustomTheme = responsiveFontSizes(
       pageBackground: isDarkMode
         ? customColor.darkBackground
         : customColor.lightBackground,
+      customText: {
+        primary: isDarkMode ? '#fff' : '#000000DE',
+        secondary: isDarkMode ? '#FFFFFFDE' : '#00000099',
+        tertiary: isDarkMode ? '#FFFFFFDE' : '#00000061',
+      },
+      text: {
+        primary: isDarkMode ? '#fff' : '#000000DE',
+        secondary: isDarkMode ? '#FFFFFFDE' : '#00000099',
+      },
     },
     breakpoints: {
       values: {
