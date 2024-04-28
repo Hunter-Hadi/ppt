@@ -9,6 +9,7 @@ import React, {
   useRef,
   useState,
 } from 'react';
+import { v4 as uuidV4 } from 'uuid';
 
 import { onFabricAddObject } from '../../utils/fabricjsTools';
 import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalitySignPdfShowPdfViewAddToolsPopup';
@@ -28,16 +29,21 @@ export type ICanvasObjectData = {
 };
 export interface IFunctionalitySignPdfShowPdfCanvasHandles {
   onDiscardActiveObject: () => void;
-  onAddObject?: (canvasObject: ICanvasObjectData) => void;
+  onAddObject?: (
+    canvasObject?: ICanvasObjectData,
+    object?: fabric.Object,
+  ) => void;
 }
 interface IFunctionalitySignPdfShowPdfCanvasProps {
   renderList?: ICanvasObjectData[];
   canvasIndex: number;
+  canvasNumber: number;
   sizeInfo: {
     width: number;
     height: number;
   };
   topScrollKey: number;
+  addIndexObject?: (object: fabric.Object, index: number) => void; //通知父级添加对象
 }
 /**
  * canvas渲染组件用的fabric_js
@@ -45,7 +51,10 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
 const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfCanvasHandles,
   IFunctionalitySignPdfShowPdfCanvasProps
-> = ({ canvasIndex, sizeInfo, topScrollKey }, handleRef) => {
+> = (
+  { canvasIndex, sizeInfo, topScrollKey, addIndexObject, canvasNumber },
+  handleRef,
+) => {
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
   const topWrapRef = useRef<HTMLElement | null>(null);
   const previousIsSelection = useRef<boolean>(false); //上一次点击是否是选中
@@ -58,7 +67,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   ); // 当前选中对象的位置
 
   const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象信息
-
+  const deleteObjectKey = useRef<string[]>([]);
   useEffect(() => {
     const handleScroll = () => {
       //监听窗口滚动，关闭菜单
@@ -132,7 +141,127 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       console.log('simply error', e);
     }
   };
+  //检查是否移动到另一个画布
+  const checkAndMoveToAnotherCanvas = (obj) => {
+    // 假定canvasIndex和fabricList已经定义并可用
+    if (deleteObjectKey.current.includes(obj.uniqueKey)) return;
+
+    const canvasBounds = {
+      height: editor?.canvas.height,
+    };
+    const objBounds = obj.getBoundingRect();
+    console.log('canvasBounds', canvasBounds, objBounds);
+
+    let addPositionType: null | 'top' | 'bottom' = null;
+    // 检查是否移动到了上面的边缘
+    if (objBounds.top < -50 && canvasIndex !== 0) {
+      addPositionType = 'top';
+    }
+    // 检查是否移动到了下面的边缘
+    else if (
+      objBounds.top + objBounds.height > canvasBounds.height + 50 &&
+      canvasIndex !== canvasNumber - 1
+    ) {
+      addPositionType = 'bottom';
+    }
+    // 如果确定要移动到另一个画布
+    if (addPositionType !== null) {
+      moveToAnotherCanvas(obj, addPositionType);
+    }
+  };
+  //移动到另一个画布
+  const moveToAnotherCanvas = (
+    obj,
+    addPositionType: 'top' | 'bottom' = 'top',
+  ) => {
+    // 从当前画布删除对象
+    console.log(
+      'simply moveToAnotherCanvas',
+      canvasIndex,
+      addPositionType,
+      obj,
+    );
+
+    if (deleteObjectKey.current.includes(obj.uniqueKey)) return; //已经删除的对象不再处理
+    deleteObjectKey.current.push(obj.uniqueKey);
+    obj.canvas.remove(obj);
+    // 获取目标画布
+    setWindowScrollKey(new Date().valueOf());
+    if (addPositionType === 'bottom') {
+      obj.set('top', 0);
+      obj.top = 0;
+      console.log('simply ------------', addPositionType, obj);
+      // 现在，克隆这个对象
+      obj.clone(function (clone) {
+        // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
+        clone.set({
+          top: 0,
+        });
+        console.log('simply ------------', addPositionType, clone);
+
+        addIndexObject && addIndexObject(clone, canvasIndex + 1);
+      });
+    } else if (addPositionType === 'top') {
+      obj.clone(function (clone) {
+        // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
+        clone.set({
+          top: editor?.canvas.height - obj.height * obj.scaleY,
+        });
+        console.log('simply ------------', addPositionType, clone);
+
+        addIndexObject && addIndexObject(clone, canvasIndex - 1);
+      });
+    }
+  };
+
+  //控制边界，不超过画布
+  const constrainWithinCanvas = (obj, padding = 0) => {
+    if (!obj.canvas) return;
+    if (
+      obj.currentHeight > obj.canvas.height - padding * 2 ||
+      obj.currentWidth > obj.canvas.width - padding * 2
+    ) {
+      return;
+    }
+    if (
+      obj.getBoundingRect().top < padding ||
+      obj.getBoundingRect().left < padding
+    ) {
+      obj.top = Math.max(
+        obj.top,
+        obj.top - obj.getBoundingRect().top + padding,
+      );
+      obj.left = Math.max(
+        obj.left,
+        obj.left - obj.getBoundingRect().left + padding,
+      );
+    }
+    if (
+      obj.getBoundingRect().top + obj.getBoundingRect().height >
+        obj.canvas.height - padding ||
+      obj.getBoundingRect().left + obj.getBoundingRect().width >
+        obj.canvas.width - padding
+    ) {
+      obj.top = Math.min(
+        obj.top,
+        obj.canvas.height -
+          obj.getBoundingRect().height +
+          obj.top -
+          obj.getBoundingRect().top -
+          padding,
+      );
+      obj.left = Math.min(
+        obj.left,
+        obj.canvas.width -
+          obj.getBoundingRect().width +
+          obj.left -
+          obj.getBoundingRect().left -
+          padding,
+      );
+    }
+  };
   useEffect(() => {
+    //初始化画布
     try {
       if (editor) {
         fabric.Object.prototype.set({
@@ -146,10 +275,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         });
         // 对象选中监听
         editor.canvas.on('mouse:up', function (event) {
-          const canvas = editor?.canvas;
-          const activeObject = canvas.getActiveObject();
-          console.log('simply activeObject', !!activeObject);
-          if (activeObject) {
+          console.log('simply mouse:up', event);
+          if (event.target) {
             previousIsSelection.current = true;
             setControlAddNewDiv(null);
             return;
@@ -161,8 +288,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           }
           previousIsSelection.current = true;
           const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
-          setControlAddNewDiv((data) => {
-            if (data) return null;
+          setControlAddNewDiv(() => {
             return {
               left: event.pointer.x,
               top: event.pointer.y,
@@ -173,76 +299,41 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         });
         // 对象选中监听
         editor.canvas.on('selection:created', function (event) {
-          console.log('simply before:selection', event);
+          console.log('simply before:created', event);
           if (event.selected.length === 1) {
             handleObjectSelected(event.selected[0]);
           }
         });
 
         editor.canvas.on('object:moving', function (e) {
+          console.log('simply object:moving-----', e);
           // 对象移动监听 - 保证操作div跟随移动
-
           handleObjectSelected(e.target);
-          //保持移动不出画布
-          let padding = 0; // 内容距离画布的空白宽度，主动设置
           const obj = e.target;
-          if (
-            obj.currentHeight > obj.canvas.height - padding * 2 ||
-            obj.currentWidth > obj.canvas.width - padding * 2
-          ) {
-            return;
-          }
           obj.setCoords();
-          if (
-            obj.getBoundingRect().top < padding ||
-            obj.getBoundingRect().left < padding
-          ) {
-            obj.top = Math.max(
-              obj.top,
-              obj.top - obj.getBoundingRect().top + padding,
-            );
-            obj.left = Math.max(
-              obj.left,
-              obj.left - obj.getBoundingRect().left + padding,
-            );
-          }
-          if (
-            obj.getBoundingRect().top + obj.getBoundingRect().height >
-              obj.canvas.height - padding ||
-            obj.getBoundingRect().left + obj.getBoundingRect().width >
-              obj.canvas.width - padding
-          ) {
-            obj.top = Math.min(
-              obj.top,
-              obj.canvas.height -
-                obj.getBoundingRect().height +
-                obj.top -
-                obj.getBoundingRect().top -
-                padding,
-            );
-            obj.left = Math.min(
-              obj.left,
-              obj.canvas.width -
-                obj.getBoundingRect().width +
-                obj.left -
-                obj.getBoundingRect().left -
-                padding,
-            );
-          }
+          constrainWithinCanvas(obj);
+
+          checkAndMoveToAnotherCanvas(obj);
         });
         // 对象移动监听 - 保证操作div跟随移动
         editor.canvas.on('object:scaling', function (e) {
+          console.log('simply object:scaling');
+
           handleObjectSelected(e.target);
         });
 
         // 确保再次选择时移动操作div
         editor.canvas.on('selection:updated', function (event) {
+          console.log('simply selection:updated', event);
+
           if (event.selected.length === 1) {
             handleObjectSelected(event.selected[0]);
           }
         });
         // 确保再次选择时移动操作div
         editor.canvas.on('selection:cleared', function (event) {
+          console.log('simply selection:cleared', event);
+
           handleObjectSelected();
         });
       }
@@ -277,41 +368,99 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       console.error('simply error', e);
     }
   }, [topWrapRef, editor, sizeInfo]);
-  // 当对象被选中或移动时调用
-  const onAddObject = (canvasObject: ICanvasObjectData) => {
+  // 添加签名对象
+  const onAddObject = async (
+    canvasObject?: ICanvasObjectData,
+    object?: fabric.Object,
+  ) => {
     try {
-      console.log('simply canvasObject', canvasObject);
+      console.log('simply canvasObject', canvasIndex, canvasObject, object);
       if (!editor) return;
-      setControlAddNewDiv(null);
-      const centerX = sizeInfo && sizeInfo?.width / 2; //没有就默认居中
-      const centerY = sizeInfo && sizeInfo?.height / 2;
-      const positionData = {
-        left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
-        top: canvasObject.y
-          ? Math.max(canvasObject.y / scaleFactor, 0)
-          : centerY,
-      };
-      onFabricAddObject(
-        editor,
-        positionData,
-        canvasObject.type,
-        canvasObject.value,
-      );
+      if (object) {
+        topWrapRef.current?.focus();
+        if (topWrapRef.current) {
+          object.uniqueKey = uuidV4();
+          object.set('mtr', false);
+          await editor.canvas.add(object);
+          await editor.canvas.requestRenderAll(); // 刷新画布以显示更改
+
+          const canvas = topWrapRef.current?.querySelector(
+            `.canvas-container .upper-canvas`,
+          );
+          console.log('simply----- canvas', canvas);
+
+          if (canvas) {
+            const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
+
+            // console.log(
+            //   'simply MouseEventMouseEvent xxxx',
+            //   object.left,
+            //   scaleFactor,
+            //   topWrapRefRect.x,
+            //   object.height,
+            // );
+            // console.log(
+            //   'simply MouseEventMouseEvent yyy',
+            //   object.top,
+            //   scaleFactor,
+            //   topWrapRefRect.y,
+            //   object.height,
+            // );
+            //TODO:第二次移动有问题，第一次没问题，待解决
+            const position = {
+              clientX:
+                (object.left + object.width / 2) * scaleFactor +
+                topWrapRefRect.x,
+              clientY:
+                (object.top + object.height / 2) * scaleFactor +
+                topWrapRefRect.y,
+            };
+            editor.canvas.setActiveObject(object); // 刷新画布以显示更改
+
+            console.log('simply MouseEventMouseEvent position', position);
+            editor.canvas.setActiveObject(object); // 刷新画布以显示更改
+            canvas?.dispatchEvent(new MouseEvent('mouseup', position));
+            canvas?.dispatchEvent(new MouseEvent('mousedown', position));
+          }
+        }
+        return;
+      }
+      if (canvasObject) {
+        setControlAddNewDiv(null);
+        const centerX = sizeInfo && sizeInfo?.width / 2; //没有就默认居中
+        const centerY = sizeInfo && sizeInfo?.height / 2;
+        const positionData = {
+          left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
+          top: canvasObject.y
+            ? Math.max(canvasObject.y / scaleFactor, 0)
+            : centerY,
+        };
+        onFabricAddObject(
+          editor,
+          positionData,
+          canvasObject.type,
+          canvasObject.value,
+        );
+        return;
+      }
     } catch (e) {
       console.error('simply error', e);
     }
   };
+  // 通过useImperativeHandle暴露给父组件的方法
   useImperativeHandle(
     handleRef,
     () => ({
+      getFabric: () => editor?.canvas,
       onDiscardActiveObject: () => {
         editor?.canvas.discardActiveObject(); // 取消选中状态
         editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
       },
       onAddObject: onAddObject,
     }),
-    [],
+    [editor?.canvas],
   );
+  //关闭弹窗
   const onCloseAddToolsPopup = (type: string, value: string) => {
     setControlAddNewDiv(null);
   };
@@ -333,7 +482,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         }}
       >
         <FabricJSCanvas
-          className={`sample-canvas-${canvasIndex}`}
+          className={`sample-canvas-${canvasIndex + 1}`}
           onReady={onReady}
         />
       </Box>

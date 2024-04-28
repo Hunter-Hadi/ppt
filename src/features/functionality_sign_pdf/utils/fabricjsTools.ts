@@ -80,6 +80,7 @@ export const onFabricAddObject = (editor, position: {
                 minScaleLimit: 1,
                 maxScaleLimit: 1,
             });
+            console.log('text', text)
             text.uniqueKey = id;
             editor.canvas.add(text);
             editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象

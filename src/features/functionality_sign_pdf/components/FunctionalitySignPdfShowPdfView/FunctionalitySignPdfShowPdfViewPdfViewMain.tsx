@@ -59,7 +59,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   const [isScrollShow, setIsScrollShow] = useState(false);
 
   const { ref: rollingRef, width: parentWidth } =
-    useFunctionalitySignElementWidth();
+    useFunctionalitySignElementWidth(); //获取父元素的宽度
   const {
     scrollTime,
     setPageRef,
@@ -67,7 +67,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     scrollToPage,
     goToNextPage,
     goToPreviousPage,
-  } = useFunctionalitySignScrollPagination(numPages || 0, rollingRef);
+  } = useFunctionalitySignScrollPagination(numPages || 0, rollingRef); //滚动分页
   useEffect(() => {
     let interval: NodeJS.Timeout;
     const checkScrollTime = () => {
@@ -84,7 +84,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       width: number;
       height: number;
     }[]
-  >([]); //pdf的初始页面宽度
+  >([]);
   useImperativeHandle(
     handleRef,
     () => ({
@@ -119,6 +119,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       getFilePdfInfoList();
     }
   }, [file]);
+  //获取pdf的信息
   const getFilePdfInfoList = async () => {
     try {
       const buff = await file.arrayBuffer(); // Uint8Array
@@ -139,12 +140,14 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       console.log(e);
     }
   };
+  //滚动到指定页
   const onSelfAdaption = () => {
     if (!isSelfAdaption) {
       setSelfAdaptionWidth(defaultWidth.current);
     }
     setIsSelfAdaption(!isSelfAdaption);
   };
+  //调整宽度
   const onChangeSize = (type: 'reduce' | 'add') => {
     if (isSelfAdaption) {
       setSelfAdaptionWidth(parentWidth - 15);
@@ -156,6 +159,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       setSelfAdaptionWidth((width) => width + 50);
     }
   };
+  //输入页数跳转
   const onTextInputKeyDown = (event) => {
     if (event.key === 'Enter' || event.code === 'Enter') {
       const value = event.target.value;
@@ -229,11 +233,20 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                       }}
                     >
                       <FunctionalitySignPdfShowPdfViewRenderCanvas
-                        canvasIndex={index + 1}
+                        canvasIndex={index}
                         topScrollKey={scrollTime}
+                        canvasNumber={numPages}
                         ref={(el) => {
                           if (el) {
                             canvasHandlesRefs.current[index] = el;
+                          }
+                        }}
+                        addIndexObject={(object, index) => {
+                          if (!canvasHandlesRefs.current[index]) return;
+                          const addObjectFunction =
+                            canvasHandlesRefs.current[index].onAddObject;
+                          if (addObjectFunction) {
+                            addObjectFunction(undefined, object);
                           }
                         }}
                         sizeInfo={pagesInitialSizeList[index]}
