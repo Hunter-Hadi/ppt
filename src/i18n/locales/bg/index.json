@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Основни функции:",
-    "better_plan_display__pro__sub_title": "Всичко в {{PLAN}}, плюс:",
-    "better_plan_display__elite__sub_title": "Всичко в {{PLAN}}, плюс:",
     "features__fast_text_models": "Бързи текстови модели",
     "features__advanced_text_models": "Разширени текстови модели",
     "features__ai_art_models": "ИИ модели за изкуство",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Най-добро за напреднали потребители",
     "payment_info__elite_desc": "Най-добро за елитни професионалисти",
     "plan_button__save_with_yearly_plan": "Спестете {{PRICE}} с годишен план",
-    "plan_button__free_status__start_for_free": "Започнете безплатно"
+    "plan_button__free_status__start_for_free": "Започнете безплатно",
+    "better_plan_display__everything_in_plan_plus": "Всичко в {{PLAN}} плюс:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Поставете тук"

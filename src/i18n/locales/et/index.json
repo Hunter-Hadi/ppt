@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Põhifunktsioonid:",
-    "better_plan_display__pro__sub_title": "Kõik {{PLAN}} pluss:",
-    "better_plan_display__elite__sub_title": "Kõik {{PLAN}} pluss:",
     "features__fast_text_models": "Kiired tekstimudelid",
     "features__advanced_text_models": "Täpsemad tekstimudelid",
     "features__ai_art_models": "AI kunstimudelid",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Parim võimsate kasutajate jaoks",
     "payment_info__elite_desc": "Parim eliitprofessionaalidele",
     "plan_button__save_with_yearly_plan": "Säästa {{PRICE}} aastaplaaniga",
-    "plan_button__free_status__start_for_free": "Alusta tasuta"
+    "plan_button__free_status__start_for_free": "Alusta tasuta",
+    "better_plan_display__everything_in_plan_plus": "Kõik {{PLAN}} pluss:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Aseta siia"

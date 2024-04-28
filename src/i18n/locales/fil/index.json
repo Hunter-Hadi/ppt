@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Core na mga tampok:",
-    "better_plan_display__pro__sub_title": "Lahat ng nasa {{PLAN}} plus:",
-    "better_plan_display__elite__sub_title": "Lahat ng nasa {{PLAN}} plus:",
     "features__fast_text_models": "Mga mabilis na modelo ng teksto",
     "features__advanced_text_models": "Mga advanced na modelo ng teksto",
     "features__ai_art_models": "Mga modelo ng AI art",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Pinakabagay para sa mga power user",
     "payment_info__elite_desc": "Pinakabagay para sa mga elite na propesyonal",
     "plan_button__save_with_yearly_plan": "I-save ang {{PRICE}} gamit ang taunang plano",
-    "plan_button__free_status__start_for_free": "Magsimula nang libre"
+    "plan_button__free_status__start_for_free": "Magsimula nang libre",
+    "better_plan_display__everything_in_plan_plus": "Lahat ng {{PLAN}} plus:"
   },
   "features__common": {
     "components__upload_button_drop_title": "I-drop dito"

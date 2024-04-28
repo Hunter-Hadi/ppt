@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Temel özellikler:",
-    "better_plan_display__pro__sub_title": "{{PLAN}} dahil her şey artı:",
-    "better_plan_display__elite__sub_title": "{{PLAN}} dahil her şey artı:",
     "features__fast_text_models": "Hızlı metin modelleri",
     "features__advanced_text_models": "Gelişmiş metin modelleri",
     "features__ai_art_models": "AI sanat modelleri",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Güçlü kullanıcılar için en iyisi",
     "payment_info__elite_desc": "Elit profesyoneller için en iyisi",
     "plan_button__save_with_yearly_plan": "Yıllık planla {{PRICE}} tasarruf edin",
-    "plan_button__free_status__start_for_free": "Ücretsiz başlayın"
+    "plan_button__free_status__start_for_free": "Ücretsiz başlayın",
+    "better_plan_display__everything_in_plan_plus": "{{PLAN}} dahil her şey artı:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Buraya bırakın"

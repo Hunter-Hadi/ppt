@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Perustoiminnot:",
-    "better_plan_display__pro__sub_title": "Kaikki {{PLAN}} ominaisuudet sekä:",
-    "better_plan_display__elite__sub_title": "Kaikki {{PLAN}} ominaisuudet sekä:",
     "features__fast_text_models": "Nopeat tekstimallit",
     "features__advanced_text_models": "Edistyneet tekstimallit",
     "features__ai_art_models": "Tekoälytaidemallit",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Paras tehokäyttäjille",
     "payment_info__elite_desc": "Paras huippuammattilaisille",
     "plan_button__save_with_yearly_plan": "Säästä {{PRICE}} vuosittaisella suunnitelmalla",
-    "plan_button__free_status__start_for_free": "Aloita ilmaiseksi"
+    "plan_button__free_status__start_for_free": "Aloita ilmaiseksi",
+    "better_plan_display__everything_in_plan_plus": "Kaikki {{PLAN}} lisäksi:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Pudota tähän"

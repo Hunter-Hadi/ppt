@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Vipengele muhimu:",
-    "better_plan_display__pro__sub_title": "Kila kitu katika {{PLAN}} na zaidi:",
-    "better_plan_display__elite__sub_title": "Kila kitu katika {{PLAN}} na zaidi:",
     "features__fast_text_models": "Mifano ya maandishi ya haraka",
     "features__advanced_text_models": "Mifano ya maandishi ya juu",
     "features__ai_art_models": "Mifano ya sanaa ya AI",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Bora kwa watumiaji wenye nguvu",
     "payment_info__elite_desc": "Bora kwa wataalamu wa kiwango cha juu",
     "plan_button__save_with_yearly_plan": "Hifadhi {{PRICE}} na mpango wa kila mwaka",
-    "plan_button__free_status__start_for_free": "Anza bure"
+    "plan_button__free_status__start_for_free": "Anza bure",
+    "better_plan_display__everything_in_plan_plus": "Kila kitu katika {{PLAN}} na zaidi:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Buruta hapa"

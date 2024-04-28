@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "কোর বৈশিষ্ট্যসমূহ:",
-    "better_plan_display__pro__sub_title": "{{PLAN}} এর সবকিছু প্লাস:",
-    "better_plan_display__elite__sub_title": "{{PLAN}} এর সবকিছু প্লাস:",
     "features__fast_text_models": "দ্রুত পাঠ্য মডেল",
     "features__advanced_text_models": "উন্নত পাঠ্য মডেল",
     "features__ai_art_models": "এইচটিএমএল মডেল",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "শক্তিশালী ব্যবহারকারীদের জন্য সেরা",
     "payment_info__elite_desc": "এলিট পেশাদারদের জন্য সেরা",
     "plan_button__save_with_yearly_plan": "{{PRICE}} বছরের পরিকল্পনায় সংরক্ষণ করুন",
-    "plan_button__free_status__start_for_free": "বিনামূল্যে শুরু করুন"
+    "plan_button__free_status__start_for_free": "বিনামূল্যে শুরু করুন",
+    "better_plan_display__everything_in_plan_plus": "প্ল্যানে সবকিছুই যেমনটি {{PLAN}} এর মধ্যে:"
   },
   "features__common": {
     "components__upload_button_drop_title": "এখানে পরিবর্তন করুন"

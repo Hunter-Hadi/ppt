@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "मुख्य सुविधाएं:",
-    "better_plan_display__pro__sub_title": "{{PLAN}} में सब कुछ प्लस:",
-    "better_plan_display__elite__sub_title": "{{PLAN}} में सब कुछ प्लस:",
     "features__fast_text_models": "तेज़ पाठ मॉडल",
     "features__advanced_text_models": "उन्नत पाठ मॉडल",
     "features__ai_art_models": "AI कला मॉडल",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "शक्तिशाली उपयोगकर्ताओं के लिए सर्वश्रेष्ठ",
     "payment_info__elite_desc": "श्रेष्ठ व्यावसायिकों के लिए सर्वश्रेष्ठ",
     "plan_button__save_with_yearly_plan": "{{PRICE}} के साथ वार्षिक योजना में बचाएं",
-    "plan_button__free_status__start_for_free": "मुफ्त शुरू करें"
+    "plan_button__free_status__start_for_free": "मुफ्त शुरू करें",
+    "better_plan_display__everything_in_plan_plus": "प्लान में सब कुछ प्लस:"
   },
   "features__common": {
     "components__upload_button_drop_title": "यहाँ छोड़ें"

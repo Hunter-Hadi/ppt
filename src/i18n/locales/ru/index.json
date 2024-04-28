@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Основные функции:",
-    "better_plan_display__pro__sub_title": "Все в {{PLAN}}, а также:",
-    "better_plan_display__elite__sub_title": "Все в {{PLAN}}, а также:",
     "features__fast_text_models": "Быстрые текстовые модели",
     "features__advanced_text_models": "Продвинутые текстовые модели",
     "features__ai_art_models": "Искусственные интеллект-модели",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Лучший для опытных пользователей",
     "payment_info__elite_desc": "Лучший для элитных профессионалов",
     "plan_button__save_with_yearly_plan": "Сэкономьте {{PRICE}} с годовым планом",
-    "plan_button__free_status__start_for_free": "Начать бесплатно"
+    "plan_button__free_status__start_for_free": "Начать бесплатно",
+    "better_plan_display__everything_in_plan_plus": "Все в {{PLAN}}, а также:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетащите сюда"

@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Recursos principais:",
-    "better_plan_display__pro__sub_title": "Tudo no(a) {{PLAN}}, além disso:",
-    "better_plan_display__elite__sub_title": "Tudo no(a) {{PLAN}}, além disso:",
     "features__fast_text_models": "Modelos de texto rápido",
     "features__advanced_text_models": "Modelos de texto avançados",
     "features__ai_art_models": "Modelos de arte de IA",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Melhor para usuários avançados",
     "payment_info__elite_desc": "Melhor para profissionais de elite",
     "plan_button__save_with_yearly_plan": "Economize {{PRICE}} com plano anual",
-    "plan_button__free_status__start_for_free": "Comece gratuitamente"
+    "plan_button__free_status__start_for_free": "Comece gratuitamente",
+    "better_plan_display__everything_in_plan_plus": "Tudo no {{PLANO}} e mais:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Arraste aqui"

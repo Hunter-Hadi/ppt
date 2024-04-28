@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Tính năng chính:",
-    "better_plan_display__pro__sub_title": "Tất cả trong {{PLAN}} và thêm:",
-    "better_plan_display__elite__sub_title": "Tất cả trong {{PLAN}} và thêm:",
     "features__fast_text_models": "Mô hình văn bản nhanh",
     "features__advanced_text_models": "Mô hình văn bản nâng cao",
     "features__ai_art_models": "Mô hình nghệ thuật AI",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Phù hợp nhất cho người dùng mạnh mẽ",
     "payment_info__elite_desc": "Phù hợp nhất cho các chuyên gia hàng đầu",
     "plan_button__save_with_yearly_plan": "Tiết kiệm {{PRICE}} với gói hàng năm",
-    "plan_button__free_status__start_for_free": "Bắt đầu miễn phí"
+    "plan_button__free_status__start_for_free": "Bắt đầu miễn phí",
+    "better_plan_display__everything_in_plan_plus": "Tất cả trong {{PLAN}} cộng thêm:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Thả vào đây"

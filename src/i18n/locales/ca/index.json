@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Funcions principals:",
-    "better_plan_display__pro__sub_title": "Tot en {{PLAN}} i a més:",
-    "better_plan_display__elite__sub_title": "Tot en {{PLAN}} i a més:",
     "features__fast_text_models": "Models de text ràpids",
     "features__advanced_text_models": "Models de text avançats",
     "features__ai_art_models": "Models d'art IA",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "El millor per a usuaris avançats",
     "payment_info__elite_desc": "El millor per a professionals d'elit",
     "plan_button__save_with_yearly_plan": "Estalvia {{PRICE}} amb el pla anual",
-    "plan_button__free_status__start_for_free": "Comença gratuïtament"
+    "plan_button__free_status__start_for_free": "Comença gratuïtament",
+    "better_plan_display__everything_in_plan_plus": "Tot en {{PLAN}} més:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Deixa-ho aquí"

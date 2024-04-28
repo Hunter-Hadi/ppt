@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Osnovne funkcije:",
-    "better_plan_display__pro__sub_title": "Sve uključeno u {{PLAN}}, plus:",
-    "better_plan_display__elite__sub_title": "Sve uključeno u {{PLAN}}, plus:",
     "features__fast_text_models": "Brzi tekstualni modeli",
     "features__advanced_text_models": "Napredni tekstualni modeli",
     "features__ai_art_models": "AI umetnički modeli",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Najbolje za napredne korisnike",
     "payment_info__elite_desc": "Najbolje za elitne profesionalce",
     "plan_button__save_with_yearly_plan": "Uštedite {{PRICE}} sa godišnjim planom",
-    "plan_button__free_status__start_for_free": "Počnite besplatno"
+    "plan_button__free_status__start_for_free": "Počnite besplatno",
+    "better_plan_display__everything_in_plan_plus": "Sve uključeno u {{PLAN}} plus:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Prevuci ovde"

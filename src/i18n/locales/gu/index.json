@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "મુખ્ય વ્યાપારિક વૈશિષ્ટ્યો:",
-    "better_plan_display__pro__sub_title": "{{PLAN}} માં બધું જ છે પછી:",
-    "better_plan_display__elite__sub_title": "{{PLAN}} માં બધું જ છે પછી:",
     "features__fast_text_models": "ઝડપી લખાણ મોડેલ્સ",
     "features__advanced_text_models": "અગ્રગણ્ય લખાણ મોડેલ્સ",
     "features__ai_art_models": "AI આર્ટ મોડેલ્સ",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "પવર ઉપયોગકર્તાઓ માટે સૌથી સારી છે",
     "payment_info__elite_desc": "એલિટ વ્યાવસાયિકો માટે સૌથી સારી છે",
     "plan_button__save_with_yearly_plan": "{{PRICE}} સાથે વાર્ષિક યોજનાથી બચાવો",
-    "plan_button__free_status__start_for_free": "મફત શરૂ કરો"
+    "plan_button__free_status__start_for_free": "મફત શરૂ કરો",
+    "better_plan_display__everything_in_plan_plus": "પ્લાનમાં બધું પછી:"
   },
   "features__common": {
     "components__upload_button_drop_title": "અહીં ડ્રોપ કરો"

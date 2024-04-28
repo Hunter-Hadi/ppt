@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "คุณสมบัติหลัก:",
-    "better_plan_display__pro__sub_title": "ทุกอย่างใน {{PLAN}} และอีก:",
-    "better_plan_display__elite__sub_title": "ทุกอย่างใน {{PLAN}} และอีก:",
     "features__fast_text_models": "โมเดลข้อความด่วน",
     "features__advanced_text_models": "โมเดลข้อความขั้นสูง",
     "features__ai_art_models": "โมเดล AI art",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "เหมาะสำหรับผู้ใช้ที่มีพลัง",
     "payment_info__elite_desc": "เหมาะสำหรับผู้ใช้ที่มีความเชี่ยวชาญ",
     "plan_button__save_with_yearly_plan": "ประหยัด {{PRICE}} ด้วยแผนรายปี",
-    "plan_button__free_status__start_for_free": "เริ่มต้นฟรี"
+    "plan_button__free_status__start_for_free": "เริ่มต้นฟรี",
+    "better_plan_display__everything_in_plan_plus": "ทุกอย่างใน {{PLAN}} และ:"
   },
   "features__common": {
     "components__upload_button_drop_title": "วางที่นี่"

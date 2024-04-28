@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "الميزات الأساسية:",
-    "better_plan_display__pro__sub_title": "كل شيء في {{PLAN}} بالإضافة إلى:",
-    "better_plan_display__elite__sub_title": "كل شيء في {{PLAN}} بالإضافة إلى:",
     "features__fast_text_models": "نماذج نص سريعة",
     "features__advanced_text_models": "نماذج نص متقدمة",
     "features__ai_art_models": "نماذج فنية للذكاء الاصطناعي",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "الأفضل للمستخدمين المتقدمين",
     "payment_info__elite_desc": "الأفضل للمحترفين المتميزين",
     "plan_button__save_with_yearly_plan": "وفّر {{PRICE}} مع خطة سنوية",
-    "plan_button__free_status__start_for_free": "ابدأ مجاناً"
+    "plan_button__free_status__start_for_free": "ابدأ مجاناً",
+    "better_plan_display__everything_in_plan_plus": "كل شيء في {{PLAN}} بالإضافة إلى:"
   },
   "features__common": {
     "components__upload_button_drop_title": "اسحب هنا"

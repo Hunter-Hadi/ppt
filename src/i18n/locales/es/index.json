@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Funciones principales:",
-    "better_plan_display__pro__sub_title": "Todo en {{PLAN}} y además:",
-    "better_plan_display__elite__sub_title": "Todo en {{PLAN}} y además:",
     "features__fast_text_models": "Modelos de texto rápido",
     "features__advanced_text_models": "Modelos de texto avanzados",
     "features__ai_art_models": "Modelos de arte de IA",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Ideal para usuarios avanzados",
     "payment_info__elite_desc": "Ideal para profesionales de élite",
     "plan_button__save_with_yearly_plan": "Ahorra {{PRICE}} con el plan anual",
-    "plan_button__free_status__start_for_free": "Comenzar gratis"
+    "plan_button__free_status__start_for_free": "Comenzar gratis",
+    "better_plan_display__everything_in_plan_plus": "Todo en {{PLAN}} y más:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Soltar aquí"

@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "ویژگی‌های اصلی:",
-    "better_plan_display__pro__sub_title": "همه چیز در {{PLAN}} و همچنین:",
-    "better_plan_display__elite__sub_title": "همه چیز در {{PLAN}} و همچنین:",
     "features__fast_text_models": "مدل‌های متن سریع",
     "features__advanced_text_models": "مدل‌های پیشرفته متن",
     "features__ai_art_models": "مدل‌های هنری هوش مصنوعی",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "بهترین برای کاربران قدرتمند",
     "payment_info__elite_desc": "بهترین برای حرفه‌ایان برجسته",
     "plan_button__save_with_yearly_plan": "با طرح سالیانه {{PRICE}} صرفه‌جویی کنید",
-    "plan_button__free_status__start_for_free": "شروع رایگان"
+    "plan_button__free_status__start_for_free": "شروع رایگان",
+    "better_plan_display__everything_in_plan_plus": "همه چیز در {{PLAN}} به علاوه:"
   },
   "features__common": {
     "components__upload_button_drop_title": "اینجا را رها کنید"

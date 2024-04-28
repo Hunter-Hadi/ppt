@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Kärnfunktioner:",
-    "better_plan_display__pro__sub_title": "Allt i {{PLAN}} plus:",
-    "better_plan_display__elite__sub_title": "Allt i {{PLAN}} plus:",
     "features__fast_text_models": "Snabba textmodeller",
     "features__advanced_text_models": "Avancerade textmodeller",
     "features__ai_art_models": "AI konstmodeller",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Bäst för avancerade användare",
     "payment_info__elite_desc": "Bäst för elitproffs",
     "plan_button__save_with_yearly_plan": "Spara {{PRICE}} med årlig plan",
-    "plan_button__free_status__start_for_free": "Börja gratis"
+    "plan_button__free_status__start_for_free": "Börja gratis",
+    "better_plan_display__everything_in_plan_plus": "Allt i {{PLAN}} plus:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Släpp här"

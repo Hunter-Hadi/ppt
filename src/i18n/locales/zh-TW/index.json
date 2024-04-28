@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "核心功能：",
-    "better_plan_display__pro__sub_title": "所有 {{PLAN}} 功能外加：",
-    "better_plan_display__elite__sub_title": "所有 {{PLAN}} 功能外加：",
     "features__fast_text_models": "快速文本模型",
     "features__advanced_text_models": "高級文本模型",
     "features__ai_art_models": "AI 藝術模型",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "高級使用者的最佳選擇",
     "payment_info__elite_desc": "頂尖專業人士的最佳選擇",
     "plan_button__save_with_yearly_plan": "年付節省 {{PRICE}}",
-    "plan_button__free_status__start_for_free": "免費開始"
+    "plan_button__free_status__start_for_free": "免費開始",
+    "better_plan_display__everything_in_plan_plus": "計劃中的所有內容，再加上："
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放至此"

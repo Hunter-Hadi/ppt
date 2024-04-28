@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Pagrindinės funkcijos:",
-    "better_plan_display__pro__sub_title": "Viskas, kas yra {{PLAN}}, ir dar daugiau:",
-    "better_plan_display__elite__sub_title": "Viskas, kas yra {{PLAN}}, ir dar daugiau:",
     "features__fast_text_models": "Greiti teksto modeliai",
     "features__advanced_text_models": "Pažangūs teksto modeliai",
     "features__ai_art_models": "Dirbtinio intelekto menų modeliai",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Geriausias galingiems naudotojams",
     "payment_info__elite_desc": "Geriausias elitiniams profesionalams",
     "plan_button__save_with_yearly_plan": "Sutaupykite {{PRICE}} su metiniu planu",
-    "plan_button__free_status__start_for_free": "Pradėti nemokamai"
+    "plan_button__free_status__start_for_free": "Pradėti nemokamai",
+    "better_plan_display__everything_in_plan_plus": "Viskas, kas yra {{PLAN}}, plius:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Mesti čia"

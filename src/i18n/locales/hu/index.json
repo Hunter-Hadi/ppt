@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Alapvető funkciók:",
-    "better_plan_display__pro__sub_title": "Minden, ami a(z) {{PLAN}}-ban van, plusz:",
-    "better_plan_display__elite__sub_title": "Minden, ami a(z) {{PLAN}}-ban van, plusz:",
     "features__fast_text_models": "Gyors szövegmodellek",
     "features__advanced_text_models": "Fejlett szövegmodellek",
     "features__ai_art_models": "AI művészeti modellek",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Legjobb haladó felhasználóknak",
     "payment_info__elite_desc": "Legjobb elit szakembereknek",
     "plan_button__save_with_yearly_plan": "Mentés {{PRICE}} éves tervvel",
-    "plan_button__free_status__start_for_free": "Ingyenes kezdés"
+    "plan_button__free_status__start_for_free": "Ingyenes kezdés",
+    "better_plan_display__everything_in_plan_plus": "Minden, ami a {{PLAN}}-ban van, plusz:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Húzd ide"

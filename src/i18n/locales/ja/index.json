@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "主な機能：",
-    "better_plan_display__pro__sub_title": "{{PLAN}}に加えて：",
-    "better_plan_display__elite__sub_title": "{{PLAN}}に加えて：",
     "features__fast_text_models": "高速テキストモデル",
     "features__advanced_text_models": "高度なテキストモデル",
     "features__ai_art_models": "AIアートモデル",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "パワーユーザーに最適",
     "payment_info__elite_desc": "エリートプロフェッショナルに最適",
     "plan_button__save_with_yearly_plan": "年間プランで{{PRICE}}を節約",
-    "plan_button__free_status__start_for_free": "無料で開始"
+    "plan_button__free_status__start_for_free": "無料で開始",
+    "better_plan_display__everything_in_plan_plus": "プランに含まれるすべてのものに加えて:"
   },
   "features__common": {
     "components__upload_button_drop_title": "ここにドロップ"

@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "ఆధార లక్షణాలు:",
-    "better_plan_display__pro__sub_title": "{{PLAN}}లో ఉన్న అన్నివి ప్లస్‌లు:",
-    "better_plan_display__elite__sub_title": "{{PLAN}}లో ఉన్న అన్నివి ప్లస్‌లు:",
     "features__fast_text_models": "త్వరగా ఉచిత పఠ్య మోడల్స్",
     "features__advanced_text_models": "ఆధునిక పఠ్య మోడల్స్",
     "features__ai_art_models": "AI కళా మోడల్స్",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "పవర్ వాడుకరులకు ఉత్తమం",
     "payment_info__elite_desc": "ఎలీట్ ప్రొఫెషనల్స్ కోసం ఉత్తమం",
     "plan_button__save_with_yearly_plan": "{{PRICE}} సంవత్సర ప్లాన్‌తో సేవ్ చేయండి",
-    "plan_button__free_status__start_for_free": "ఉచితంగా ప్రారంభించండి"
+    "plan_button__free_status__start_for_free": "ఉచితంగా ప్రారంభించండి",
+    "better_plan_display__everything_in_plan_plus": "ప్లాన్‌లో అన్నింటినీ ప్రతిష్టించండి: {{PLAN}} కూడా"
   },
   "features__common": {
     "components__upload_button_drop_title": "ఇక్కడ డ్రాప్ చేయండి"

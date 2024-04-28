@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "핵심 기능:",
-    "better_plan_display__pro__sub_title": "{{PLAN}}에 모든 것 추가:",
-    "better_plan_display__elite__sub_title": "{{PLAN}}에 모든 것 추가:",
     "features__fast_text_models": "빠른 텍스트 모델",
     "features__advanced_text_models": "고급 텍스트 모델",
     "features__ai_art_models": "AI 예술 모델",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "전문 사용자에게 적합",
     "payment_info__elite_desc": "정예 전문가에게 적합",
     "plan_button__save_with_yearly_plan": "연간 요금제로 {{PRICE}} 절약",
-    "plan_button__free_status__start_for_free": "무료로 시작"
+    "plan_button__free_status__start_for_free": "무료로 시작",
+    "better_plan_display__everything_in_plan_plus": "모든 {{PLAN}} 기능 포함:"
   },
   "features__common": {
     "components__upload_button_drop_title": "여기에 놓으세요"

@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Գլխավոր հատկությունները:",
-    "better_plan_display__pro__sub_title": "{{PLAN}}-ի բոլորը, ինչպես նաև:",
-    "better_plan_display__elite__sub_title": "{{PLAN}}-ի բոլորը, ինչպես նաև:",
     "features__fast_text_models": "Արագ տեքստային մոդելներ",
     "features__advanced_text_models": "Առաջինը առաջադրանքների տեքստային մոդելներ",
     "features__ai_art_models": "AI արվեստի մոդելներ",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Լավագույն՝ աշխատակիցների համար",
     "payment_info__elite_desc": "Լավագույն՝ լուսաբազային պրոֆեսիոնալների համար",
     "plan_button__save_with_yearly_plan": "Գնալ {{PRICE}}-ով տարեկան պլանով",
-    "plan_button__free_status__start_for_free": "Սկսեք անվճար"
+    "plan_button__free_status__start_for_free": "Սկսեք անվճար",
+    "better_plan_display__everything_in_plan_plus": "Բոլորը {{PLAN}}-ում ինչպես:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Տեղափոխեք այստեղ"

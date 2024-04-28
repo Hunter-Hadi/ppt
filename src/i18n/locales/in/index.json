@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Fitur inti:",
-    "better_plan_display__pro__sub_title": "Semua yang ada di {{PLAN}} ditambah:",
-    "better_plan_display__elite__sub_title": "Semua yang ada di {{PLAN}} ditambah:",
     "features__fast_text_models": "Model teks cepat",
     "features__advanced_text_models": "Model teks lanjutan",
     "features__ai_art_models": "Model seni AI",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Terbaik untuk pengguna berpengalaman",
     "payment_info__elite_desc": "Terbaik untuk profesional elit",
     "plan_button__save_with_yearly_plan": "Simpan {{PRICE}} dengan paket tahunan",
-    "plan_button__free_status__start_for_free": "Mulai gratis"
+    "plan_button__free_status__start_for_free": "Mulai gratis",
+    "better_plan_display__everything_in_plan_plus": "Semua fitur dalam {{PLAN}} ditambah:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"

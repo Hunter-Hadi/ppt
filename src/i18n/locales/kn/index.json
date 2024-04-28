@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "ಮೂಲ ವೈಶಿಷ್ಟ್ಯಗಳು:",
-    "better_plan_display__pro__sub_title": "{{PLAN}} ನಲ್ಲಿರುವ ಎಲ್ಲವೂ ಹೊಂದಿದೆ:",
-    "better_plan_display__elite__sub_title": "{{PLAN}} ನಲ್ಲಿರುವ ಎಲ್ಲವೂ ಹೊಂದಿದೆ:",
     "features__fast_text_models": "ಫಾಸ್ಟ್ ಪಠ್ಯ ಮಾದರಿಗಳು",
     "features__advanced_text_models": "ಮುಂದಿನ ಪಠ್ಯ ಮಾದರಿಗಳು",
     "features__ai_art_models": "AI ಕಲಾ ಮಾದರಿಗಳು",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "ಪವರ್ ಬಳಕೆದಾರರಿಗೆ ಅತ್ಯಂತ ಹೊಸದಾಗಿ",
     "payment_info__elite_desc": "ಎಲೀಟ್ ಪ್ರೊಫೆಶನಲ್ಸ್ ಗೆ ಅತ್ಯಂತ ಹೊಸದಾಗಿ",
     "plan_button__save_with_yearly_plan": "{{PRICE}} ವರ್ಷದ ಯೋಜನೆಯಲ್ಲಿ ಉಳಿದುಕೊಳ್ಳಿ",
-    "plan_button__free_status__start_for_free": "ಉಚಿತವಾಗಿ ಪ್ರಾರಂಭಿಸಿ"
+    "plan_button__free_status__start_for_free": "ಉಚಿತವಾಗಿ ಪ್ರಾರಂಭಿಸಿ",
+    "better_plan_display__everything_in_plan_plus": "ಪ್ಲಾನ್‌ನಲ್ಲಿ ಎಲ್ಲವೂ ಪ್ಲಸ್:"
   },
   "features__common": {
     "components__upload_button_drop_title": "ಇಲ್ಲಿ ಹಾಕಿ"

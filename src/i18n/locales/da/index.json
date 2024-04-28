@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Kernefunktioner:",
-    "better_plan_display__pro__sub_title": "Alt i {{PLAN}} plus:",
-    "better_plan_display__elite__sub_title": "Alt i {{PLAN}} plus:",
     "features__fast_text_models": "Hurtige tekstmodeller",
     "features__advanced_text_models": "Avancerede tekstmodeller",
     "features__ai_art_models": "AI kunstmodeller",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "Bedst til powerbrugere",
     "payment_info__elite_desc": "Bedst til eliteprofessionelle",
     "plan_button__save_with_yearly_plan": "Spar {{PRICE}} med årlig plan",
-    "plan_button__free_status__start_for_free": "Start gratis"
+    "plan_button__free_status__start_for_free": "Start gratis",
+    "better_plan_display__everything_in_plan_plus": "Alt i {{PLAN}} plus:"
   },
   "features__common": {
     "components__upload_button_drop_title": "Slip her"

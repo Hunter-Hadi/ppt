@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "کور فیچرز:",
-    "better_plan_display__pro__sub_title": "{{PLAN}} میں سب کچھ پلس:",
-    "better_plan_display__elite__sub_title": "{{PLAN}} میں سب کچھ پلس:",
     "features__fast_text_models": "تیز متن ماڈلز",
     "features__advanced_text_models": "اعلی متن ماڈلز",
     "features__ai_art_models": "AI آرٹ ماڈلز",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "طاقتور صارفین کے لئے بہترین",
     "payment_info__elite_desc": "مرتبہ دار پیشہ ورانہ کے لئے بہترین",
     "plan_button__save_with_yearly_plan": "{{PRICE}} سالانہ منصوبے کے ساتھ بچائیں",
-    "plan_button__free_status__start_for_free": "مفت شروع کریں"
+    "plan_button__free_status__start_for_free": "مفت شروع کریں",
+    "better_plan_display__everything_in_plan_plus": "پلان میں سب کچھ پلس:"
   },
   "features__common": {
     "components__upload_button_drop_title": "یہاں ڈراپ کریں"

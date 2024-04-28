@@ -873,8 +873,6 @@
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "കോർ ഫീച്ചേഴ്സുകൾ:",
-    "better_plan_display__pro__sub_title": "{{PLAN}} എന്നതിലെ എല്ലാം പ്ലസ്‌:",
-    "better_plan_display__elite__sub_title": "{{PLAN}} എന്നതിലെ എല്ലാം പ്ലസ്‌:",
     "features__fast_text_models": "ഫാസ്റ്റ് ടെക്സ്റ്റ് മോഡലുകൾ",
     "features__advanced_text_models": "അട്വാൻസ്ഡ് ടെക്സ്റ്റ് മോഡലുകൾ",
     "features__ai_art_models": "AI ആർട്ട് മോഡലുകൾ",
@@ -938,7 +936,8 @@
     "payment_info__pro_desc": "പവർ ഉപയോക്താക്കളിലേക്ക് ഏറ്റവും മികച്ചത്",
     "payment_info__elite_desc": "എലൈറ്റ് പ്രൊഫഷണലുകളിലേക്ക് ഏറ്റവും മികച്ചത്",
     "plan_button__save_with_yearly_plan": "{{PRICE}} സംരക്ഷിക്കുക വർഷം പ്ലാൻ ഉപയോഗിച്ച്",
-    "plan_button__free_status__start_for_free": "സ്വതന്ത്രമായി ആരംഭിക്കുക"
+    "plan_button__free_status__start_for_free": "സ്വതന്ത്രമായി ആരംഭിക്കുക",
+    "better_plan_display__everything_in_plan_plus": "പ്ലാൻ എന്നതിലെ എല്ലാം പ്ലസ്:"
   },
   "features__common": {
     "components__upload_button_drop_title": "ഇവിടെ ഡ്രോപ്പ് ചെയ്യുക"
