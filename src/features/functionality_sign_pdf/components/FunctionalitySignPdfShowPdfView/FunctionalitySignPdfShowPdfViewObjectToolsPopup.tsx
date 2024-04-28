@@ -295,6 +295,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
         )}
         <Button>
           <FunctionalitySignPdfColorButtonPopover
+            colorList={['black', 'blue', 'red', 'white']}
             titleText='A'
             isShowRightIcon={false}
             btnProps={{
