@@ -50,7 +50,7 @@ export const FunctionalitySignPdfDetail: FC<
   const [saveButtonLoading, setSaveButtonLoading] = useState(false);
   const dndDragRef = useRef<HTMLElement | null>(null);
   const showPdfHandlesRef =
-    useRef<IFunctionalitySignPdfShowPdfViewHandles | null>(null);
+    useRef<IFunctionalitySignPdfShowPdfViewHandles | null>(null); //当前在居中pdf的ref
   const overallViewHeight = useMemo(() => {
     const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top;
     return window.innerHeight - (distanceFromTop || 280) - 10;
@@ -147,8 +147,6 @@ export const FunctionalitySignPdfDetail: FC<
         id: uuidV4(),
         type,
         value,
-        x: activeDragData?.x, ////用户因拖动空的触发这里的逻辑添加,继承上次拖动到drag数据
-        y: activeDragData?.y, ////用户因拖动空的触发这里的逻辑添加,继承上次拖动到drag数据
       });
     }
     setActiveDragData(undefined);

@@ -4,11 +4,26 @@ import { v4 as uuidV4 } from 'uuid';
 
 import { findFirstNonTransparentPixel } from "./colorTools";
 
+//自动的检查top是否超出画布范围
+const autoCheckTopIsAbnormal = (editor, top: number, objectHeight: number, isAutoObjectSizePosition?: boolean) => {
+    let currentTop = top
+    if (isAutoObjectSizePosition) {
+        currentTop = top - objectHeight / 2
+    }
+    if (currentTop < 0) {
+        return 0
+    } else if (currentTop + objectHeight > editor.canvas.height) {
+        return editor.canvas.height - objectHeight
+    }
+    return currentTop
+}
+//根据位置/信息添加Fabric对象
 export const onFabricAddObject = (editor, position: {
     left: number,
     top: number
-}, type: string, value: string) => {
+}, type: string, value: string, isAutoObjectSizePosition?: boolean) => {
     try {
+
         if (!editor) return;
         const positionData = {
             left: position.left,
@@ -31,18 +46,18 @@ export const onFabricAddObject = (editor, position: {
                 let scaleRatioHeight = 1;
 
                 // 判断图片宽度是否过大
-                if (fabricImage.width > editor.canvas.width / 2) {
-                    scaleRatioWidth = editor.canvas.width / 2 / fabricImage.width;
+                if (fabricImage.width > editor.canvas.width / 3) {
+                    scaleRatioWidth = editor.canvas.width / 3 / fabricImage.width;
                 }
 
                 // 判断图片高度是否过高
-                if (fabricImage.height > editor.canvas.height / 2) {
-                    scaleRatioHeight = editor.canvas.height / 2 / fabricImage.height;
+                if (fabricImage.height > editor.canvas.height / 3) {
+                    scaleRatioHeight = editor.canvas.height / 3 / fabricImage.height;
                 }
 
                 // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
                 let scaleRatio = Math.min(scaleRatioWidth, scaleRatioHeight);
-
+                console.log('simply scaleRatio', scaleRatio)
                 if (scaleRatio < 1) {  //只有当需要缩放时才执行
                     fabricImage.scaleX = scaleRatio;
                     fabricImage.scaleY = scaleRatio;
@@ -60,7 +75,10 @@ export const onFabricAddObject = (editor, position: {
                 fabricImage.uniqueKey = id;
                 // 移除旋转控制点
                 fabricImage.set('mtr', false);
+                fabricImage.top = autoCheckTopIsAbnormal(editor, positionData.top, fabricImage.height * scaleRatio, isAutoObjectSizePosition)
                 editor.canvas.add(fabricImage);
+                editor.canvas.setActiveObject(fabricImage); // 设置复制的对象为当前活动对象
+
             };
         } else if (type === 'textbox') {
             positionData.left = positionData.left - 300 / 2;
@@ -70,6 +88,7 @@ export const onFabricAddObject = (editor, position: {
                 maxScaleLimit: 1,
                 width: 300,
             });
+            text.top = autoCheckTopIsAbnormal(editor, positionData.top, text.height, isAutoObjectSizePosition)
             text.uniqueKey = id;
             editor.canvas.add(text);
             editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
@@ -80,7 +99,7 @@ export const onFabricAddObject = (editor, position: {
                 minScaleLimit: 1,
                 maxScaleLimit: 1,
             });
-            console.log('text', text)
+            text.top = autoCheckTopIsAbnormal(editor, positionData.top, text.height, isAutoObjectSizePosition)
             text.uniqueKey = id;
             editor.canvas.add(text);
             editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
@@ -92,6 +111,7 @@ export const onFabricAddObject = (editor, position: {
                 maxScaleLimit: 1,
             });
             text.uniqueKey = id;
+            text.top = autoCheckTopIsAbnormal(editor, positionData.top, text.height, isAutoObjectSizePosition)
             editor.canvas.add(text);
             editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
         }

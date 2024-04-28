@@ -32,6 +32,7 @@ export interface IFunctionalitySignPdfShowPdfCanvasHandles {
   onAddObject?: (
     canvasObject?: ICanvasObjectData,
     object?: fabric.Object,
+    isAutoObjectSizePosition?: boolean,
   ) => void;
 }
 interface IFunctionalitySignPdfShowPdfCanvasProps {
@@ -372,9 +373,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const onAddObject = async (
     canvasObject?: ICanvasObjectData,
     object?: fabric.Object,
+    isAutoObjectSizePosition?: boolean,
   ) => {
     try {
-      console.log('simply canvasObject', canvasIndex, canvasObject, object);
       if (!editor) return;
       if (object) {
         topWrapRef.current?.focus();
@@ -391,22 +392,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
 
           if (canvas) {
             const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
-
-            // console.log(
-            //   'simply MouseEventMouseEvent xxxx',
-            //   object.left,
-            //   scaleFactor,
-            //   topWrapRefRect.x,
-            //   object.height,
-            // );
-            // console.log(
-            //   'simply MouseEventMouseEvent yyy',
-            //   object.top,
-            //   scaleFactor,
-            //   topWrapRefRect.y,
-            //   object.height,
-            // );
-            //TODO:第二次移动有问题，第一次没问题，待解决
             const position = {
               clientX:
                 (object.left + object.width / 2) * scaleFactor +
@@ -431,15 +416,14 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         const centerY = sizeInfo && sizeInfo?.height / 2;
         const positionData = {
           left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
-          top: canvasObject.y
-            ? Math.max(canvasObject.y / scaleFactor, 0)
-            : centerY,
+          top: canvasObject.y ? canvasObject.y / scaleFactor : centerY,
         };
         onFabricAddObject(
           editor,
           positionData,
           canvasObject.type,
           canvasObject.value,
+          isAutoObjectSizePosition,
         );
         return;
       }
@@ -461,7 +445,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     [editor?.canvas],
   );
   //关闭弹窗
-  const onCloseAddToolsPopup = (type: string, value: string) => {
+  const onCloseAddToolsPopup = () => {
     setControlAddNewDiv(null);
   };
   return (

@@ -45,12 +45,15 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file }, handleRef) => {
   const { t } = useTranslation();
+  const wrapRef = useRef<HTMLDivElement>(null);
+
   const canvasHandlesRefs = useRef<IFunctionalitySignPdfShowPdfCanvasHandles[]>(
     [],
   );
   //PDF的页数
   const [numPages, setNumPages] = useState<number>(0);
   const defaultWidth = useRef(700); //TODO:应该是根据pdf宽度变更，但目前用着没问题，先这样，后续再调整
+  const pageRefs = useRef<HTMLElement[]>([]);
 
   const [selfAdaptionWidth, setSelfAdaptionWidth] = useState<number>(
     defaultWidth.current,
@@ -62,12 +65,11 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     useFunctionalitySignElementWidth(); //获取父元素的宽度
   const {
     scrollTime,
-    setPageRef,
     currentPage,
     scrollToPage,
     goToNextPage,
     goToPreviousPage,
-  } = useFunctionalitySignScrollPagination(numPages || 0, rollingRef); //滚动分页
+  } = useFunctionalitySignScrollPagination(numPages || 0, rollingRef, pageRefs); //滚动分页
   useEffect(() => {
     let interval: NodeJS.Timeout;
     const checkScrollTime = () => {
@@ -85,6 +87,44 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       height: number;
     }[]
   >([]);
+  const getAddObjectCenterPosition = () => {
+    if (!rollingRef.current) return { positionInPageX: 0, positionInPageY: 0 };
+    function getElementGlobalOffset(el) {
+      let offsetX = 0;
+      let offsetY = 0;
+      while (el) {
+        offsetX += el.offsetLeft;
+        offsetY += el.offsetTop;
+        el = el.offsetParent;
+      }
+      return { offsetX, offsetY };
+    }
+    // 滚动视图中心的全局位置
+    const rollingGlobalOffset = getElementGlobalOffset(rollingRef.current);
+    const centerGlobalX =
+      rollingGlobalOffset.offsetX +
+      rollingRef.current.clientWidth / 2 +
+      rollingRef.current.scrollLeft;
+    const centerGlobalY =
+      rollingGlobalOffset.offsetY +
+      rollingRef.current.clientHeight / 2 +
+      rollingRef.current.scrollTop;
+
+    // 目标页面元素的全局位置
+    const pageGlobalOffset = getElementGlobalOffset(
+      pageRefs.current[currentPage],
+    );
+    const pageGlobalX = pageGlobalOffset.offsetX;
+    const pageGlobalY = pageGlobalOffset.offsetY;
+
+    // 滚动视图中心点在pageRefs.current[currentPage]的相对位置
+    const positionInPageX = centerGlobalX - pageGlobalX;
+    const positionInPageY = centerGlobalY - pageGlobalY;
+    return {
+      positionInPageX,
+      positionInPageY,
+    };
+  };
   useImperativeHandle(
     handleRef,
     () => ({
@@ -97,13 +137,21 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       },
       getNumPages: () => numPages,
       onAddObject: (value) => {
-        let currentNumber =
+        let isAutoObjectSizePosition = false;
+        if ((!value.x || !value.y) && rollingRef.current) {
+          const { positionInPageX, positionInPageY } =
+            getAddObjectCenterPosition();
+          value.x = positionInPageX;
+          value.y = positionInPageY;
+          isAutoObjectSizePosition = true;
+        }
+        const currentNumber =
           value.pdfIndex !== undefined ? value.pdfIndex : currentPage;
         if (currentNumber !== undefined) {
           const onAddObject =
             canvasHandlesRefs.current[currentNumber]?.onAddObject;
           if (onAddObject) {
-            onAddObject(value);
+            onAddObject(value, undefined, isAutoObjectSizePosition);
           }
         }
       },
@@ -173,6 +221,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   };
   return (
     <Stack
+      ref={wrapRef}
       sx={{
         width: '100%',
         position: 'relative',
@@ -203,7 +252,12 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
             onLoadSuccess={onDocumentLoadSuccess}
           >
             {Array.from(new Array(numPages), (el, index) => (
-              <div key={index} ref={(el) => setPageRef(el, index)}>
+              <div
+                key={index}
+                ref={(element) =>
+                  element && (pageRefs.current[index] = element)
+                }
+              >
                 <FunctionalitySignPdfShowPdfViewDroppable index={index}>
                   <Box
                     sx={{
