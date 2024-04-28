@@ -1,5 +1,37 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.2.0',
+    date: '2024-04-28',
+
+    content: [
+      {
+        title: 'A more powerful context menu',
+        lists: [
+          {
+            module: 'Enhanced context menu',
+            desc: 'The context menu is now separate from Chat, giving you a fully immersive experience. You can enjoy the context menu with its AI rewriter and AI reading assistant features.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.1.0',
+    date: '2024-04-25',
+
+    content: [
+      {
+        title: 'Instant reply on Telegram',
+        lists: [
+          {
+            module: 'Telegram instant reply',
+            desc: 'Accelerate your message replies by 10X with just 1 click on Telegram.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.0.0',
     date: '2024-04-17',
 
