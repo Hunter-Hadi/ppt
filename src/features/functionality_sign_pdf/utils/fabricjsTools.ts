@@ -220,14 +220,9 @@ export const onChangeFabricFontStyle = (editor, type, value?: number | string) =
                 const currentStyle = activeObject.get('fontStyle');
                 activeObject.set('fontStyle', currentStyle === 'italic' ? '' : 'italic');
                 break;
-            case 'textAlignCenter':
-                activeObject.set({ textAlign: 'center' });
+            case 'textAlign':
+                activeObject.set({ 'textAlign': value });
                 break;
-            case 'textAlignLeft':
-                activeObject.set({ textAlign: 'left' });
-                break;
-            case 'textAlignRight':
-                activeObject.set({ textAlign: 'right' });
             case 'opacity':
                 activeObject.set({ opacity: value });
                 break;

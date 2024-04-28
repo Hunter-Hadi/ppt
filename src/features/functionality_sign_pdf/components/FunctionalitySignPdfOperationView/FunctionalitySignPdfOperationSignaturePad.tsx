@@ -8,7 +8,7 @@ import {
   useRef,
   useState,
 } from 'react';
-import SignaturePad from 'signature_pad';
+import SmoothSignature from 'smooth-signature';
 
 import { changeImageColor } from '../../utils/colorTools';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
@@ -31,7 +31,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
   const { t } = useTranslation();
 
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const signaturePadRef = useRef<SignaturePad | null>(null);
+  const signaturePadRef = useRef<SmoothSignature | null>(null);
   const [historyCanvasList, setHistoryCanvasList] = useState<
     {
       color: string;
@@ -45,7 +45,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
   useImperativeHandle(ref, () => ({
     getPngBase64: () => {
       if (historyCanvasList.length) {
-        return signaturePadRef.current?.toDataURL() || '';
+        return saveSignature() || '';
       } else {
         return '';
       }
@@ -54,43 +54,109 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
   useEffect(() => {
     try {
       if (canvasRef.current === null || signaturePadRef.current) return;
-      const signaturePad = (signaturePadRef.current = new SignaturePad(
+      const signaturePad = (signaturePadRef.current = new SmoothSignature(
         canvasRef.current,
         {
-          throttle: 0,
-          minWidth: 1, // 设置线条的最小宽度
-          maxWidth: 3, // 设置线条的最大宽度
-          velocityFilterWeight: 0.1,
+          scale: 3,
+          width: 600,
+          height: 200,
+          onStart: () => {
+            console.log('onStart');
+            setIsStartSign(true);
+          },
+          onEnd: () => {
+            console.log('onEnd');
+            let currentRefreshIndex: number | null = null;
+            setRefreshIndex((refreshIndex) => {
+              currentRefreshIndex = refreshIndex;
+              return refreshIndex;
+            });
+            setHistoryCanvasList((canvasList) => {
+              if (currentRefreshIndex !== null) {
+                canvasList.splice((currentRefreshIndex || 0) + 1);
+              }
+              return [
+                ...canvasList,
+                {
+                  color: currentColor.current,
+                  value: canvasRef.current?.toDataURL() || '',
+                },
+              ];
+            });
+
+            setRefreshIndex(null);
+          },
         },
       ));
-      signaturePad.addEventListener('beginStroke', () => {
-        setIsStartSign(true);
-      });
-      signaturePad.addEventListener('endStroke', () => {
-        let currentRefreshIndex: number | null = null;
-        setRefreshIndex((refreshIndex) => {
-          currentRefreshIndex = refreshIndex;
-          return refreshIndex;
-        });
-        setHistoryCanvasList((canvasList) => {
-          if (currentRefreshIndex !== null) {
-            canvasList.splice((currentRefreshIndex || 0) + 1);
-          }
-          return [
-            ...canvasList,
-            {
-              color: currentColor.current,
-              value: canvasRef.current?.toDataURL() || '',
-            },
-          ];
-        });
-
-        setRefreshIndex(null);
-      });
+      console.log('signaturePad', signaturePad);
     } catch (e) {
       console.log(e);
     }
   }, [canvasRef]);
+  // 获取签名的边界框
+  const getSignatureBounds = () => {
+    if (!canvasRef.current) return false;
+    const ctx = canvasRef.current.getContext('2d');
+    if (!ctx) return false;
+    const imageData = ctx.getImageData(
+      0,
+      0,
+      canvasRef.current.width,
+      canvasRef.current.height,
+    );
+    const data = imageData.data;
+
+    let minX = canvasRef.current.width,
+      minY = canvasRef.current.height,
+      maxX = 0,
+      maxY = 0;
+
+    for (let x = 0; x < canvasRef.current.width; x++) {
+      for (let y = 0; y < canvasRef.current.height; y++) {
+        const alpha = data[(canvasRef.current.width * y + x) * 4 + 3];
+        if (alpha > 0) {
+          if (x < minX) minX = x;
+          if (x > maxX) maxX = x;
+          if (y < minY) minY = y;
+          if (y > maxY) maxY = y;
+        }
+      }
+    }
+
+    return { minX, minY, maxX, maxY };
+  };
+
+  // 根据签名的边界框裁剪并保存画布
+  const saveSignature = () => {
+    const data = getSignatureBounds();
+    if (!data || !canvasRef.current) return;
+    const { minX, minY, maxX, maxY } = data;
+    const width = maxX - minX + 1;
+    const height = maxY - minY + 1;
+
+    // 创建一个新的canvas用于裁剪画布
+    const clippedCanvas = document.createElement('canvas');
+    clippedCanvas.width = width;
+    clippedCanvas.height = height;
+    const clippedCtx = clippedCanvas.getContext('2d');
+    if (clippedCtx) {
+      // 将签名的部分绘制到新的画布上
+      clippedCtx.drawImage(
+        canvasRef.current,
+        minX,
+        minY,
+        width,
+        height,
+        0,
+        0,
+        width,
+        height,
+      );
+
+      // 返回裁剪后的画布的DataURL
+      return clippedCanvas.toDataURL();
+    }
+  };
   const onSelectedColor = (color: string) => {
     currentColor.current = color;
     onChangeCanvasColor(color);
@@ -111,7 +177,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
           ctx.putImageData(imageData, 0, 0);
         }
 
-        signaturePadRef.current.penColor = color;
+        // signaturePadRef.current.penColor = color;
       }
     } catch (e) {}
   };
@@ -124,13 +190,11 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
             ? refreshIndex - 1
             : historyCanvasList.length - 2;
         if (historyCanvasList[index]) {
-          await signaturePadRef.current.fromDataURL(
-            historyCanvasList[index].value,
-            {
-              width: 600,
-              height: 200,
-            },
-          );
+          const currentCanvas = historyCanvasList[index].value;
+          if (currentCanvas) {
+            await signaturePadRef.current.drawByImageUrl(currentCanvas);
+          }
+
           if (historyCanvasList[index].color !== currentColor.current) {
             onChangeCanvasColor(currentColor.current);
           }
@@ -145,12 +209,8 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
     try {
       let index = refreshIndex === null ? 0 : refreshIndex + 1;
       if (historyCanvasList[index] && signaturePadRef.current) {
-        await signaturePadRef.current.fromDataURL(
+        await signaturePadRef.current.drawByImageUrl(
           historyCanvasList[index].value,
-          {
-            width: 600,
-            height: 200,
-          },
         );
         if (historyCanvasList[index].color !== currentColor.current) {
           onChangeCanvasColor(currentColor.current);

@@ -106,19 +106,19 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   }[] = [
     {
       iconName: 'FormatAlignLeft',
-      key: 'textAlignLeft',
+      key: 'left',
       fabricKey: 'left',
       isSelect: false,
     },
     {
       iconName: 'FormatAlignCenter',
-      key: 'textAlignCenter',
+      key: 'center',
       fabricKey: 'center',
       isSelect: false,
     },
     {
       iconName: 'FormatAlignRight',
-      key: 'textAlignRight',
+      key: 'right',
       fabricKey: 'right',
       isSelect: false,
     },
@@ -279,7 +279,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
                       }}
                       onClick={(e) => {
                         e.stopPropagation();
-                        onChangeFabricFontStyle(editor, item.key);
+                        onChangeFabricFontStyle(editor, 'textAlign', item.key);
                         setTextAlignSelectIcon(item.iconName);
                       }}
                     >
@@ -296,7 +296,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
         <Button>
           <FunctionalitySignPdfColorButtonPopover
             colorList={['black', 'blue', 'red', 'white']}
-            titleText='A'
+            titleText={!isImage ? 'A' : ''}
             isShowRightIcon={false}
             btnProps={{
               variant: 'text',
@@ -308,32 +308,34 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
             }
             currentColor={isImage ? activeObject.imgColor : activeObject.fill}
           />
-          <FunctionalitySignPdfColorButtonPopover
-            isShowRightIcon={false}
-            colorList={[
-              'transparent',
-              'black',
-              'white',
-              'blue',
-              'red',
-              'green',
-              'yellow',
-              'orange',
-              'purple',
-              'pink',
-              'brown',
-              'gray',
-            ]}
-            btnProps={{
-              variant: 'text',
-            }}
-            onSelectedColor={onChangeBgColor}
-            onChangeTransparency={onChangeTransparency}
-            currentTransparency={
-              transparencyNumber || activeObject.opacity * 100
-            }
-            currentColor={activeObject.backgroundColor}
-          />
+          {!isImage && (
+            <FunctionalitySignPdfColorButtonPopover
+              isShowRightIcon={false}
+              colorList={[
+                'transparent',
+                'black',
+                'white',
+                'blue',
+                'red',
+                'green',
+                'yellow',
+                'orange',
+                'purple',
+                'pink',
+                'brown',
+                'gray',
+              ]}
+              btnProps={{
+                variant: 'text',
+              }}
+              onSelectedColor={onChangeBgColor}
+              onChangeTransparency={onChangeTransparency}
+              currentTransparency={
+                transparencyNumber || activeObject.opacity * 100
+              }
+              currentColor={activeObject.backgroundColor}
+            />
+          )}
         </Button>
 
         <Button onClick={onCopySelectedObject}>

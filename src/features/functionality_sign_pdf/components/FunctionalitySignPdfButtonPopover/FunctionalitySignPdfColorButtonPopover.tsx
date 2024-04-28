@@ -15,7 +15,7 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
   onSelectedColor: (color: string) => void;
   currentColor?: string;
   currentTransparency?: number;
-  onChangeTransparency: (transparency: number) => void;
+  onChangeTransparency?: (transparency: number) => void;
   btnProps?: ButtonProps;
   isShowRightIcon?: boolean;
   titleText?: string;
@@ -54,7 +54,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
   const handleSliderChange = (event, number) => {
     console.log('handleSliderChange', number);
     setTransparencyNumber(number);
-    onChangeTransparency(number);
+    onChangeTransparency && onChangeTransparency(number);
   };
   return (
     <FunctionalitySignPdfCommonButtonPopover
