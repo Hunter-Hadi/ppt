@@ -61,6 +61,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
 
   useEffect(() => {
     const handleScroll = () => {
+      //监听窗口滚动，关闭菜单
+      //因为做跟随窗口滚动的菜单，功能比较复杂，目前没有必要
       setWindowScrollKey(new Date().valueOf());
     };
     window.addEventListener('scroll', handleScroll);
@@ -112,6 +114,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     setControlAddNewDiv(null);
   }, [topScrollKey, windowScrollKey]);
   const handleObjectSelected = (object?: fabric.Object) => {
+    //选中对象时调用，更新操作div位置
     try {
       setActiveObject(object);
       if (object) {

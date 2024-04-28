@@ -163,22 +163,24 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
   };
   const onChangeCanvasColor = (color: string) => {
     try {
-      if (signaturePadRef.current && canvasRef.current) {
-        let ctx = canvasRef.current.getContext('2d');
-        if (ctx) {
-          let imageData = ctx.getImageData(
-            0,
-            0,
-            canvasRef.current.width,
-            canvasRef.current.height,
-          );
-          imageData = changeImageColor(imageData, color);
+      setTimeout(() => {
+        if (signaturePadRef.current && canvasRef.current) {
+          signaturePadRef.current.color = color;
 
-          ctx.putImageData(imageData, 0, 0);
+          let ctx = canvasRef.current.getContext('2d');
+          if (ctx) {
+            let imageData = ctx.getImageData(
+              0,
+              0,
+              canvasRef.current.width,
+              canvasRef.current.height,
+            );
+            imageData = changeImageColor(imageData, color);
+
+            ctx.putImageData(imageData, 0, 0);
+          }
         }
-
-        // signaturePadRef.current.penColor = color;
-      }
+      }, 10); //延迟10ms，等待画布绘制完成，可以优化：在渲染前重新设置画布颜色
     } catch (e) {}
   };
   const onReplay = async () => {
