@@ -550,7 +550,7 @@
     "header__menu__pricing": "가격",
     "header__menu__learning_center": "학습 센터",
     "footer__title": "AI 생산성 도구",
-    "footer__desc": "매일 시간을 절약하기 위해 어디서든 개인 맞춤형 1-클릭 AI를 사용하는 가장 빠른 방법입니다. ChatGPT, Claude 3, Gemini 1.5, GPT-4 등의 기술로 구동됩니다.",
+    "footer__desc": "AI 챗봇, 리라이터, 요약, 즉각적인 답변, 독서 보조, 프롬프트, 검색, 예술 및 번역기. GPT-4, Claude 3, Gemini 1.5로 구동됩니다.",
     "footer__products": "제품",
     "footer__1_click_prompts": "1-클릭 프롬프트",
     "footer__follow_us": "팔로우하기",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "추천 성과를 추적할 수 있습니다."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI 어디서나 (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "AI 채팅, 글쓰기, 문법 체크, 설명, 요약, 검색, 프롬프트 관리 등을 어디서나 가장 빠르게 사용하는 방법입니다. GPT-4, Claude 3, Gemini 1.5의 기술로 구동됩니다.",
+    "default__title": "MaxAI.me: 1-클릭으로 어디서나 인공지능 (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI 챗봇, 리라이터, 요약, 즉각적인 답변, 독서 보조, 프롬프트, 검색, 예술 및 번역기. GPT-4, Claude 3, Gemini 1.5로 구동됩니다.",
     "maintain__title": "유지 보수 중 | MaxAI.me",
     "affiliate__title": "제휴 프로그램 | MaxAI.me",
     "affiliate__description": "MaxAI 제휴 프로그램으로 수익을 올리세요. 저희 제휴 프로그램에 가입하고 MaxAI를 공유하여 25%의 커미션을 받으세요!",

@@ -550,7 +550,7 @@
     "header__menu__pricing": "قیمت",
     "header__menu__learning_center": "سیکھنے کا مرکز",
     "footer__title": "AI پیداواری کا آلہ",
-    "footer__desc": "ہر روز کے کئی گھنٹے بچانے کے لئے شخصیات پر مبنی 1-کلک AI استعمال کرنے کا سب سے تیز طریقہ۔ ChatGPT، Claude 3، Gemini 1.5، GPT-4 اور مزید کی طاقت سے چلتا ہے۔",
+    "footer__desc": "AI چیٹ، ریترائٹر، خلاصہ، فوری جواب، پڑھنے کا معاون، پرومپٹس، تلاش، آرٹ، اور ترجمہ. GPT-4، Claude 3، Gemini 1.5 کی طاقت سے محرک",
     "footer__products": "مصنوعات",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "ہماری تعاقب کریں",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "اپنے ریفرل کی پرفارمنس کو ٹریک کرنے کے لئے۔"
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI کہیں بھی (ChatGPT، Claude 3، Gemini 1.5)",
-    "default__description": "AI کو کہیں بھی استعمال کرنے کا سب سے تیز طریقہ: AI چیٹ، لکھائی، گرامر چیک، وضاحت، خلاصہ، تلاش، پرومپٹ کی منتظمی، اور مزید۔ GPT-4، Claude 3، Gemini 1.5 کی طاقت سے محرک شدہ۔",
+    "default__title": "MaxAI.me: 1-کلک AI ہر جگہ (GPT-4، Claude 3، Gemini 1.5)",
+    "default__description": "AI چیٹ، ریترائٹر، خلاصہ، فوری جواب، پڑھنے کا معاون، پرومپٹس، تلاش، آرٹ، اور ترجمہ. GPT-4، Claude 3، Gemini 1.5 کی طاقت سے محرک",
     "maintain__title": "میکینکس | میکس اے آئی",
     "affiliate__title": "افیلیئٹ پروگرام | میکس اے آئی",
     "affiliate__description": "میکس اے کے افیلیئٹ پروگرام سے پیسے کمائیں۔ ہمارے افیلیئٹ پروگرام میں شامل ہوں اور میکس اے کا حصہ بن کر 25٪ کمیشن کمائیں!",

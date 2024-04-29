@@ -550,7 +550,7 @@
     "header__menu__pricing": "Precios",
     "header__menu__learning_center": "Centro de aprendizaje",
     "footer__title": "Herramienta de productividad de IA",
-    "footer__desc": "La forma más rápida de utilizar IA personalizada con un solo clic en cualquier lugar para ahorrar horas todos los días. Potenciado por ChatGPT, Claude 3, Gemini 1.5, GPT-4 y más.",
+    "footer__desc": "Chat de IA, reescritor, resumen, respuesta instantánea, asistente de lectura, sugerencias, búsqueda, arte y traductor. Potenciado por GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Productos",
     "footer__1_click_prompts": "Prompts de 1 clic",
     "footer__follow_us": "Síguenos",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "para hacer un seguimiento de tu rendimiento de referidos."
   },
   "seo": {
-    "default__title": "MaxAI.me: IA en un clic en cualquier lugar (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "La forma más rápida de usar IA en cualquier lugar: chat de IA, escritura, corrección gramatical, explicación, resumen, búsqueda, gestión de sugerencias y más. Potenciado por GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: IA en un clic en todas partes (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "Chat de IA, reescritor, resumen, respuesta instantánea, asistente de lectura, sugerencias, búsqueda, arte y traductor. Potenciado por GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "En mantenimiento | MaxAI.me",
     "affiliate__title": "Programa de afiliados | MaxAI.me",
     "affiliate__description": "¡Gana dinero con el programa de afiliados de MaxAI! ¡Únete a nuestro programa de afiliados y gana un 25% de comisión por compartir MaxAI!",

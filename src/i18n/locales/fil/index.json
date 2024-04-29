@@ -550,7 +550,7 @@
     "header__menu__pricing": "Presyo",
     "header__menu__learning_center": "Learning Center",
     "footer__title": "AI tool para sa produktibidad",
-    "footer__desc": "Ang pinakamabilis na paraan upang gamitin ang personalisadong 1-click AI kahit saan upang makatipid ng oras araw-araw. Pinapagana ng ChatGPT, Claude 3, Gemini 1.5, GPT-4, at iba pa.",
+    "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, at pagsasalin. Pinapagana ng GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Mga Produkto",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "Sundan Kami",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "upang ma-track ang iyong referral performance."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI Kahit Saan (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Ang pinakamabilis na paraan upang gamitin ang AI kahit saan: AI chat, pagsusulat, pagsuri ng grammar, paliwanag, buod, paghahanap, pamamahala ng prompt, at higit pa. Pinapagana ng GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Click AI Saanman (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, at pagsasalin. Pinapagana ng GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "Sa Paggawa ng Pansin | MaxAI.me",
     "affiliate__title": "Programa ng Affiliate | MaxAI.me",
     "affiliate__description": "Kumita gamit ang programa ng MaxAI affiliate. Sumali sa aming programa at kumita ng 25% komisyon sa pagbabahagi ng MaxAI!",

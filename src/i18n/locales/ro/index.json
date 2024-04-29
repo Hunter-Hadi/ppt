@@ -550,7 +550,7 @@
     "header__menu__pricing": "Prețuri",
     "header__menu__learning_center": "Centrul de învățare",
     "footer__title": "Instrument de productivitate AI",
-    "footer__desc": "Cea mai rapidă modalitate de a utiliza IA personalizată cu un singur clic oriunde pentru a economisi ore în fiecare zi. Funcționează cu ChatGPT, Claude 3, Gemini 1.5, GPT-4 și altele.",
+    "footer__desc": "Chat AI, rewriter, rezumat, răspuns instant, asistent de lectură, sugestii, căutare, artă și traducător. Propulsat de GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produse",
     "footer__1_click_prompts": "Prompts cu un singur clic",
     "footer__follow_us": "Urmărește-ne",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "pentru a urmări performanța referințelor dvs."
   },
   "seo": {
-    "default__title": "MaxAI.me: AI cu un singur clic oriunde (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Cel mai rapid mod de a utiliza AI oriunde: chat AI, scriere, verificare gramaticală, explicații, rezumat, căutare, gestionarea prompt-urilor și multe altele. Propulsat de GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: AI cu un singur clic peste tot (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "Chat AI, rewriter, rezumat, răspuns instant, asistent de lectură, sugestii, căutare, artă și traducător. Propulsat de GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "În întreținere | MaxAI.me",
     "affiliate__title": "Program de afiliere | MaxAI.me",
     "affiliate__description": "Obțineți bani cu programul nostru de afiliere MaxAI. Alăturați-vă programului nostru de afiliere și câștigați o comision de 25% pentru partajarea MaxAI!",

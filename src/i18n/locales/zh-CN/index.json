@@ -550,7 +550,7 @@
     "header__menu__pricing": "定价",
     "header__menu__learning_center": "学习中心",
     "footer__title": "AI 生产力工具",
-    "footer__desc": "在任何地方使用个性化的一键AI，每天节省数小时时间的最快方式。由ChatGPT、Claude 3、Gemini 1.5、GPT-4等提供支持。",
+    "footer__desc": "AI聊天、改写器、摘要、即时回复、阅读助手、提示、搜索、艺术和翻译。由GPT-4、Claude 3、Gemini 1.5提供支持。",
     "footer__products": "产品",
     "footer__1_click_prompts": "1-Click提示",
     "footer__follow_us": "关注我们",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "来跟踪您的推荐表现。"
   },
   "seo": {
-    "default__title": "MaxAI.me：1-Click AI 无处不在（ChatGPT、Claude 3、Gemini 1.5）",
-    "default__description": "使用AI的最快方式：AI聊天、写作、语法检查、解释、摘要、搜索、提示管理等。由GPT-4、Claude 3和Gemini 1.5提供支持。",
+    "default__title": "MaxAI.me：一键AI无处不在（GPT-4、Claude 3、Gemini 1.5）",
+    "default__description": "AI聊天、改写器、摘要、即时回复、阅读助手、提示、搜索、艺术和翻译。由GPT-4、Claude 3、Gemini 1.5提供支持。",
     "maintain__title": "维护中 | MaxAI.me",
     "affiliate__title": "推广计划 | MaxAI.me",
     "affiliate__description": "通过MaxAI推广计划获得报酬。加入我们的推广计划，分享MaxAI，赚取25%的佣金！",

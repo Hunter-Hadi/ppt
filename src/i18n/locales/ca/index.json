@@ -550,7 +550,7 @@
     "header__menu__pricing": "Preus",
     "header__menu__learning_center": "Centre d'aprenentatge",
     "footer__title": "Eina de productivitat d'IA",
-    "footer__desc": "La manera més ràpida d'utilitzar IA personalitzada amb un sol clic en qualsevol lloc per estalviar hores cada dia. Impulsat per ChatGPT, Claude 3, Gemini 1.5, GPT-4 i més.",
+    "footer__desc": "Xat d'IA, reescriptor, resum, resposta instantània, assistent de lectura, suggeriments, cerca, art i traductor. Amb la tecnologia de GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Productes",
     "footer__1_click_prompts": "Prompts d'un clic",
     "footer__follow_us": "Segueix-nos",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "per fer un seguiment del teu rendiment de referència."
   },
   "seo": {
-    "default__title": "MaxAI.me: IA en un clic a qualsevol lloc (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "La manera més ràpida d'utilitzar IA a qualsevol lloc: xat d'IA, escriptura, correcció gramatical, explicació, resum, cerca, gestió de suggeriments i més. Alimentat per GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: IA en un clic a tot arreu (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "Xat d'IA, reescriptor, resum, resposta instantània, assistent de lectura, suggeriments, cerca, art i traductor. Amb la tecnologia de GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "En manteniment | MaxAI.me",
     "affiliate__title": "Programa d'afiliats | MaxAI.me",
     "affiliate__description": "Obtingueu pagament amb el programa d'afiliats de MaxAI. Uneix-te al nostre programa d'afiliats i guanya una comissió del 25% per compartir MaxAI!",

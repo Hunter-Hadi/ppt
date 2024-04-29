@@ -550,7 +550,7 @@
     "header__menu__pricing": "Prijzen",
     "header__menu__learning_center": "Leercentrum",
     "footer__title": "AI productiviteitstool",
-    "footer__desc": "De snelste manier om gepersonaliseerde AI met één klik overal te gebruiken om elke dag uren te besparen. Aangedreven door ChatGPT, Claude 3, Gemini 1.5, GPT-4 en meer.",
+    "footer__desc": "AI-chat, herschrijver, samenvatting, direct antwoord, leesassistent, suggesties, zoeken, kunst en vertaler. Aangedreven door GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Producten",
     "footer__1_click_prompts": "1-Klik prompts",
     "footer__follow_us": "Volg ons",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "om uw verwijzingsprestaties bij te houden."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Klik AI Overal (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "De snelste manier om AI overal te gebruiken: AI-chat, schrijven, grammaticacontrole, uitleg, samenvatting, zoeken, promptbeheer en meer. Aangedreven door GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Klik AI Overal (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI-chat, herschrijver, samenvatting, direct antwoord, leesassistent, suggesties, zoeken, kunst en vertaler. Aangedreven door GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "In onderhoud | MaxAI.me",
     "affiliate__title": "Affiliate Programma | MaxAI.me",
     "affiliate__description": "Word betaald met het MaxAI-partnerprogramma. Doe mee aan ons partnerprogramma en verdien 25% commissie door MaxAI te delen!",

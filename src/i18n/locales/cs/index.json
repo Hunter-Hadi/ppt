@@ -550,7 +550,7 @@
     "header__menu__pricing": "Ceny",
     "header__menu__learning_center": "Centrum učení",
     "footer__title": "Nástroj pro produktivitu AI",
-    "footer__desc": "Nejrychlejší způsob, jak používat personalizovanou 1-klikovou AI kdekoli a ušetřit hodiny každý den. Poháněno ChatGPT, Claude 3, Gemini 1.5, GPT-4 a dalšími.",
+    "footer__desc": "AI chat, přepisovač, shrnutí, okamžitá odpověď, čtecí asistent, podněty, vyhledávání, umění a překladač. Poháněno GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkty",
     "footer__1_click_prompts": "1-Kliknutí podněty",
     "footer__follow_us": "Sledujte nás",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "pro sledování výkonu vašeho doporučení."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Kliknutí AI Kdekoli (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Nejrychlejší způsob, jak používat AI kdekoli: AI chat, psaní, kontrola gramatiky, vysvětlení, shrnutí, vyhledávání, správa podnětů a další. Poháněno GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Klik AI Všude (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI chat, přepisovač, shrnutí, okamžitá odpověď, čtecí asistent, podněty, vyhledávání, umění a překladač. Poháněno GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "V údržbě | MaxAI.me",
     "affiliate__title": "Affiliate program | MaxAI.me",
     "affiliate__description": "Získejte zaplaceno s programem MaxAI affiliate. Připojte se k našemu affiliate programu a vydělejte si 25% provize za sdílení MaxAI!",

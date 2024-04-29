@@ -550,7 +550,7 @@
     "header__menu__pricing": "मूल्य निर्धारण",
     "header__menu__learning_center": "सीखने का केंद्र",
     "footer__title": "एआई उत्पादकता टूल",
-    "footer__desc": "हर दिन घंटों बचाने के लिए व्यक्तिगत 1-क्लिक AI का उपयोग करने का सबसे तेज़ तरीका। ChatGPT, Claude 3, Gemini 1.5, GPT-4 और अधिक द्वारा संचालित।",
+    "footer__desc": "AI चैट, रीव्राइटर, सारांश, तत्क्षण जवाब, पठन सहायक, प्रोम्प्ट, खोज, कला और अनुवाद। GPT-4, Claude 3, Gemini 1.5 द्वारा संचालित।",
     "footer__products": "उत्पाद",
     "footer__1_click_prompts": "1-क्लिक प्रॉम्प्ट्स",
     "footer__follow_us": "हमें फ़ॉलो करें",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "अपने रेफरल प्रदर्शन को ट्रैक करने के लिए।"
   },
   "seo": {
-    "default__title": "MaxAI.me: एक क्लिक में AI कहीं भी (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "AI का सबसे तेज़ तरीका कहीं भी उपयोग करने के लिए: AI चैट, लेखन, व्याकरण जांच, स्पष्टीकरण, सारांश, खोज, प्रॉम्प्ट प्रबंधन, और अधिक। GPT-4, Claude 3, Gemini 1.5 द्वारा संचालित।",
+    "default__title": "MaxAI.me: 1-क्लिक AI हर जगह (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI चैट, रीव्राइटर, सारांश, तत्क्षण जवाब, पठन सहायक, प्रोम्प्ट, खोज, कला और अनुवाद। GPT-4, Claude 3, Gemini 1.5 द्वारा संचालित।",
     "maintain__title": "रखरखाव में | MaxAI.me",
     "affiliate__title": "सहकारी कार्यक्रम | MaxAI.me",
     "affiliate__description": "MaxAI सहयोगी कार्यक्रम के साथ पैसे कमाएं। हमारे सहयोगी कार्यक्रम में शामिल हों और MaxAI को साझा करने के लिए 25% कमीशन कमाएं!",

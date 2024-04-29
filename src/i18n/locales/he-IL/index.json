@@ -550,7 +550,7 @@
     "header__menu__pricing": "מחירים",
     "header__menu__learning_center": "מרכז למידה",
     "footer__title": "כלי יעילות AI",
-    "footer__desc": "הדרך המהירה ביותר להשתמש באינטיליגנציה מלאה בלחיצה אחת בכל מקום ולחסוך שעות כל יום. מופעל על ידי ChatGPT, Claude 3, Gemini 1.5, GPT-4 ועוד.",
+    "footer__desc": "צ'אט AI, מחדש, סיכום, תשובה מיידית, עוזר קריאה, הצעות, חיפוש, אמנות ומתרגם. מופעל על ידי GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "מוצרים",
     "footer__1_click_prompts": "1-לחיצה Prompts",
     "footer__follow_us": "עקוב אחרינו",
@@ -714,8 +714,8 @@
     "footer__get_for_free": "קבל את MaxAI בחינם"
   },
   "seo": {
-    "default__title": "MaxAI.me: AI בלחיצה אחת בכל מקום (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "הדרך המהירה ביותר להשתמש באינטיליגנציה מלאכותית בכל מקום: צ'אט AI, כתיבה, בדיקת דקדוק, הסבר, סיכום, חיפוש, ניהול פרומפטים ועוד. מופעל על ידי GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: AI בלחיצה אחת בכל מקום (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "צ'אט AI, מחדש, סיכום, תשובה מיידית, עוזר קריאה, הצעות, חיפוש, אמנות ומתרגם. מופעל על ידי GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "בתחזוקה | MaxAI.me",
     "affiliate__title": "תוכנית שותפים | MaxAI.me",
     "affiliate__description": "קבל תשלום עם תוכנית השותפים של MaxAI. הצטרף לתוכנית השותפים שלנו והרוויח 25% עמלה על מנת לשתף את MaxAI!",

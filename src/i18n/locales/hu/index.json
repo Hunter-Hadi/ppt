@@ -550,7 +550,7 @@
     "header__menu__pricing": "Árak",
     "header__menu__learning_center": "Tanulási központ",
     "footer__title": "AI termelékenységi eszköz",
-    "footer__desc": "A személyre szabott, 1 kattintással használható mesterséges intelligencia leggyorsabb módja bárhol, hogy minden nap órákat spóroljon. ChatGPT, Claude 3, Gemini 1.5, GPT-4 és még sok más által támogatva.",
+    "footer__desc": "AI chat, átíró, összefoglaló, azonnali válasz, olvasást segítő, promptok, keresés, művészet és fordító. GPT-4, Claude 3 és Gemini 1.5 által támogatott.",
     "footer__products": "Termékek",
     "footer__1_click_prompts": "1 kattintásos segédletek",
     "footer__follow_us": "Kövess minket",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "ahhoz, hogy nyomon követhesd a hivatkozási teljesítményedet."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1 kattintásos AI bárhol (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Az AI bárhol való leggyorsabb használata: AI chat, írás, helyesírás-ellenőrzés, magyarázat, összefoglalás, keresés, prompt kezelés és még sok más. GPT-4, Claude 3, Gemini 1.5 által támogatott.",
+    "default__title": "MaxAI.me: 1 kattintásos AI mindenhol (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI chat, átíró, összefoglaló, azonnali válasz, olvasást segítő, promptok, keresés, művészet és fordító. GPT-4, Claude 3 és Gemini 1.5 által támogatott.",
     "maintain__title": "Karbantartás alatt | MaxAI.me",
     "affiliate__title": "Partnerprogram | MaxAI.me",
     "affiliate__description": "Fizessünk a MaxAI partnerprogrammal. Csatlakozz a partnerprogramunkhoz és keress 25% jutalékot a MaxAI megosztásával!",

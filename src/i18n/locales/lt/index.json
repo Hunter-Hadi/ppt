@@ -550,7 +550,7 @@
     "header__menu__pricing": "Kainodara",
     "header__menu__learning_center": "Mokymo centras",
     "footer__title": "AI produktyvumo įrankis",
-    "footer__desc": "Greičiausias būdas naudoti asmeniškai pritaikytą vieno paspaudimo dirbtinį intelektą bet kur ir taupyti valandas kiekvieną dieną. Veikia su ChatGPT, Claude 3, Gemini 1.5, GPT-4 ir daugiau.",
+    "footer__desc": "AI pokalbis, peržodinimas, santrauka, momentinis atsakymas, skaitymo asistentas, užuominos, paieška, menas ir vertėjas. Veikia su GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produktai",
     "footer__1_click_prompts": "Vieno paspaudimo užduotys",
     "footer__follow_us": "Sekite mus",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "sekti savo nuorodų veiklą."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI Bet kur (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Greičiausias būdas naudoti dirbtinį intelektą bet kur: AI pokalbiai, rašymas, gramatikos tikrinimas, paaiškinimai, santraukos, paieška, užduočių valdymas ir daugiau. Veikia su GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1 paspaudimas - visur dirbantis dirbtinis intelektas (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI pokalbis, peržodinimas, santrauka, momentinis atsakymas, skaitymo asistentas, užuominos, paieška, menas ir vertėjas. Veikia su GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "Priežiūra vyksta | MaxAI.me",
     "affiliate__title": "Partnerių programa | MaxAI.me",
     "affiliate__description": "Gaukite atlygį su MaxAI partnerių programą. Prisijunkite prie mūsų partnerių programos ir uždirbkite 25% komisinių dalį, dalindamiesi MaxAI!",

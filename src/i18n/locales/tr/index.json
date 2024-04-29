@@ -550,7 +550,7 @@
     "header__menu__pricing": "Fiyatlandırma",
     "header__menu__learning_center": "Öğrenme Merkezi",
     "footer__title": "AI üretkenlik aracı",
-    "footer__desc": "Her gün saatlerce zaman kazanmak için kişiselleştirilmiş 1 tıklamayla AI kullanmanın en hızlı yolu. ChatGPT, Claude 3, Gemini 1.5, GPT-4 ve daha fazlası tarafından desteklenmektedir.",
+    "footer__desc": "AI sohbeti, yeniden yazıcı, özet, anlık yanıt, okuma yardımcısı, ipuçları, arama, sanat ve çevirmen. GPT-4, Claude 3, Gemini 1.5 tarafından desteklenmektedir.",
     "footer__products": "Ürünler",
     "footer__1_click_prompts": "1-Tıklamayla İpucu",
     "footer__follow_us": "Bizi Takip Edin",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "bağlantı performansınızı takip etmek için."
   },
   "seo": {
-    "default__title": "MaxAI.me: Her Yerde 1 Tıkla Yapay Zeka (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Her yerde yapay zekayı kullanmanın en hızlı yolu: AI sohbeti, yazma, dilbilgisi kontrolü, açıklama, özet, arama, başlatıcı yönetimi ve daha fazlası. GPT-4, Claude 3, Gemini 1.5 tarafından desteklenmektedir.",
+    "default__title": "MaxAI.me: 1 Tıklama ile Her Yerde AI (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI sohbeti, yeniden yazıcı, özet, anlık yanıt, okuma yardımcısı, ipuçları, arama, sanat ve çevirmen. GPT-4, Claude 3, Gemini 1.5 tarafından desteklenmektedir.",
     "maintain__title": "Bakımdayız | MaxAI.me",
     "affiliate__title": "Ortaklık Programı | MaxAI.me",
     "affiliate__description": "MaxAI ortaklık programı ile para kazanın. Ortaklık programımıza katılın ve MaxAI'yi paylaşarak %25 komisyon kazanın!",

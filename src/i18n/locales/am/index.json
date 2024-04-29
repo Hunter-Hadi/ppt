@@ -550,7 +550,7 @@
     "header__menu__pricing": "የገቢ መጠንናዎች",
     "header__menu__learning_center": "ትምህርት-ማስታወቂያ",
     "footer__title": "የማስተርኳዎች ማስተርኳዎች",
-    "footer__desc": "በግል የተጠቀሰው አካባቢ 1-ጁንክ AI በማስተላለፍ ሁሉንም ሰውነታችንን በማግኘት ለሁሉም ቀን ሰውነታችንን ማግኘት ይችላሉ። በChatGPT, Claude 3, Gemini 1.5, GPT-4, እና ተጨባጭ ለማስተላለፍ የተጠቀሰው አካባቢ በሚሆኑ ሁሉም አካባቢዎች ተጠቃሚ ነው።",
+    "footer__desc": "የማክስ ቻት, የመግባቢያ ዝርዝር, መግብያ ማስተካከያ, በቀላሉ መልክት, የማስታወቂያ አስራር, የማስተካከያ ማስተላለፊያ, የማይፈልግ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች. በ GPT-4, Claude 3, Gemini 1.5 የሚሰጥ ነው.",
     "footer__products": "ንግድ",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "እኛን አሁን እንዴት እንደሚከተለው እናሳውቃለን",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "ለመከታተል የሚሰራጩትን የማስተካከያ ሁኔታ ይካል።"
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI በማንኛውም አጠቃላይ ስራ (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "AI በማንኛውም አጠቃላይ ስራዎችን በቀላሉ በተጨማሪ መረጃዎች የሚጠቀሙበት ብቻዎች: AI ውይይት, ጽሑፍ, ግራሚስን ማሳያ, መግለጫ, ግልጽ, ፕሮሞች አሰራር, እና ተጨማሪ መረጃዎችን በ GPT-4, Claude 3, Gemini 1.5 የሚሰጡ ተግባራዊ ማስተላለፊያዎች በማንኛውም አጠቃላይ ስራ የሚጠቀሙበት መሆኑን ይጫኑ.",
+    "default__title": "MaxAI.me: 1-Click AI Everywhere (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "የማክስ ቻት, የመግባቢያ ዝርዝር, መግብያ ማስተካከያ, በቀላሉ መልክት, የማስታወቂያ አስራር, የማስተካከያ ማስተላለፊያ, የማይፈልግ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች. በ GPT-4, Claude 3, Gemini 1.5 የሚሰጥ ነው.",
     "maintain__title": "በስርዓት ላይ | MaxAI.me",
     "affiliate__title": "አፍሪቃውን ፕሮግራም | MaxAI.me",
     "affiliate__description": "የMaxAI አፍሪፍራሽ ማስታወቂያን ይግቡ። እንዴት ተጨማሪ አፍሪፍራሽ ማስታወቂያን ይመልከቱ፣ እና 25% ኮሚሽን ይግቡ!",

@@ -550,7 +550,7 @@
     "header__menu__pricing": "Giá cả",
     "header__menu__learning_center": "Trung tâm học tập",
     "footer__title": "Công cụ năng suất AI",
-    "footer__desc": "Cách nhanh nhất để sử dụng trí tuệ nhân tạo 1-click cá nhân hóa bất cứ nơi nào để tiết kiệm hàng giờ mỗi ngày. Được cung cấp bởi ChatGPT, Claude 3, Gemini 1.5, GPT-4 và nhiều hơn nữa.",
+    "footer__desc": "Trò chuyện AI, tái viết, tóm tắt, trả lời tức thì, trợ lý đọc, gợi ý, tìm kiếm, nghệ thuật và dịch. Được cung cấp bởi GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Sản phẩm",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "Theo dõi chúng tôi",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "để theo dõi hiệu suất giới thiệu của bạn."
   },
   "seo": {
-    "default__title": "MaxAI.me: AI Một Lần Nhấp (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Cách nhanh nhất để sử dụng trí tuệ nhân tạo bất cứ nơi nào: trò chuyện AI, viết văn, kiểm tra ngữ pháp, giải thích, tóm tắt, tìm kiếm, quản lý gợi ý và nhiều hơn nữa. Được cung cấp bởi GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Click AI Mọi Nơi (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "Trò chuyện AI, tái viết, tóm tắt, trả lời tức thì, trợ lý đọc, gợi ý, tìm kiếm, nghệ thuật và dịch. Được cung cấp bởi GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "Đang bảo trì | MaxAI.me",
     "affiliate__title": "Chương trình liên kết | MaxAI.me",
     "affiliate__description": "Nhận tiền với chương trình liên kết MaxAI. Tham gia chương trình liên kết của chúng tôi và kiếm 25% hoa hồng khi chia sẻ MaxAI!",

@@ -550,7 +550,7 @@
     "header__menu__pricing": "الأسعار",
     "header__menu__learning_center": "مركز التعلم",
     "footer__title": "أداة إنتاجية للذكاء الاصطناعي",
-    "footer__desc": "أسرع طريقة لاستخدام الذكاء الاصطناعي المخصص بنقرة واحدة في أي مكان لتوفير ساعات كل يوم. مدعوم بـ ChatGPT و Claude 3 و Gemini 1.5 و GPT-4 والمزيد.",
+    "footer__desc": "الدردشة الذكية، إعادة الكتابة، الملخص، الرد الفوري، مساعد القراءة، التلميحات، البحث، الفن، والمترجم. يعمل بواسطة GPT-4، Claude 3، Gemini 1.5.",
     "footer__products": "المنتجات",
     "footer__1_click_prompts": "مشروعات بنقرة واحدة",
     "footer__follow_us": "تابعنا",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "لتتبع أداء الإحالة الخاص بك."
   },
   "seo": {
-    "default__title": "MaxAI.me: AI في نقرة واحدة في أي مكان (ChatGPT، Claude 3، Gemini 1.5)",
-    "default__description": "أسرع طريقة لاستخدام الذكاء الاصطناعي في أي مكان: دردشة الذكاء الاصطناعي، الكتابة، فحص القواعد النحوية، التفسير، الملخص، البحث، إدارة الاقتراحات، والمزيد. يعمل بواسطة GPT-4، Claude 3، Gemini 1.5.",
+    "default__title": "MaxAI.me: AI في كل مكان بنقرة واحدة (GPT-4، Claude 3، Gemini 1.5)",
+    "default__description": "الدردشة الذكية، إعادة الكتابة، الملخص، الرد الفوري، مساعد القراءة، التلميحات، البحث، الفن، والمترجم. يعمل بواسطة GPT-4، Claude 3، Gemini 1.5.",
     "maintain__title": "في الصيانة | MaxAI.me",
     "affiliate__title": "برنامج الشراكة | MaxAI.me",
     "affiliate__description": "احصل على أموال مع برنامج الشركاء في MaxAI. انضم إلى برنامج الشركاء لدينا واكسب عمولة بنسبة 25٪ عند مشاركة MaxAI!",

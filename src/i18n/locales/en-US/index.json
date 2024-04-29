@@ -624,7 +624,7 @@
     "header__menu__pricing": "Pricing",
     "header__menu__learning_center": "Learning-center",
     "footer__title": "AI productivity tool",
-    "footer__desc": "The fastest way to use personalized 1-click AI anywhere to save hours every day. Powered by ChatGPT, Claude 3, Gemini 1.5, GPT-4, and more.",
+    "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, and translator. Powered by GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Products",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "Follow Us",
@@ -788,8 +788,8 @@
     "faq__question7__description__part2": "Abuse, gaming, and policy violations will result in having your account banned and any existing and future commissions forfeited."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI Anywhere (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "The fastest way to use AI anywhere: AI chat, writing, grammar check, explanation, summary, search, prompt management, and more. Powered by GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Click AI Everywhere (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, and translator. Powered by GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "In maintenance | MaxAI.me",
     "affiliate__title": "Affiliate Program | MaxAI.me",
     "affiliate__description": "Get paid with MaxAI affiliate program. Join our affiliate program and earn 25% commission for sharing MaxAI!",

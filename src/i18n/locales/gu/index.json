@@ -550,7 +550,7 @@
     "header__menu__pricing": "મૂલ્યનિર્ધારણ",
     "header__menu__learning_center": "શીખવાની કેન્દ્ર",
     "footer__title": "એઆઈ ઉત્પાદકતા સાધન",
-    "footer__desc": "દિવસભર સમય બચાવવા માટે વ્યક્તિગતિકૃત 1-ક્લિક AI નો ઉપયોગ કરવાની સરળતમ રીત. ChatGPT, Claude 3, Gemini 1.5, GPT-4 અને વધુ દ્વારા પ્રાધાન્ય આપેલ.",
+    "footer__desc": "એઆઈ ચેટ, રીવ્રાઇટર, સંક્ષેપ, તત્વચ્છ જવાબ, વાંચન સહાયક, પ્રોમ્પ્ટ્સ, શોધ, કલા અને અનુવાદક. GPT-4, Claude 3, Gemini 1.5 દ્વારા પ્રાર્થના કરેલ.",
     "footer__products": "ઉત્પાદનો",
     "footer__1_click_prompts": "1-ક્લિક પ્રોમ્પ્ટ્સ",
     "footer__follow_us": "અમને અનુસરો",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "તમારા રેફરલ પરફોર્મન્સને ટ્રેક કરવા માટે."
   },
   "seo": {
-    "default__title": "MaxAI.me: એક-ક્લિક AI ક્યાંક પણ (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "AI નો ઉપયોગ કરવાની સબસે ઝડપી રીત: AI ચેટ, લેખન, વ્યાકરણ ચેક, સમજણી, સંક્ષેપણ, શોધ, પ્રોમ્પ્ટ વ્યવસ્થાપન અને વધુ. GPT-4, Claude 3, Gemini 1.5 દ્વારા પ્રાર્થના કરેલ.",
+    "default__title": "MaxAI.me: 1-Click AI દરેક જગ્યાએ (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "એઆઈ ચેટ, રીવ્રાઇટર, સંક્ષેપ, તત્વચ્છ જવાબ, વાંચન સહાયક, પ્રોમ્પ્ટ્સ, શોધ, કલા અને અનુવાદક. GPT-4, Claude 3, Gemini 1.5 દ્વારા પ્રાર્થના કરેલ.",
     "maintain__title": "મેંટેનન્સ માં | MaxAI.me",
     "affiliate__title": "એફિલિએટ પ્રોગ્રામ | MaxAI.me",
     "affiliate__description": "MaxAI એફિલિએટ પ્રોગ્રામ સાથે પૈસા કમાવો. અમારા એફિલિએટ પ્રોગ્રામમાં જોડાઓ અને MaxAI શેર કરવાથી 25% કમિશન કમાઓ!",

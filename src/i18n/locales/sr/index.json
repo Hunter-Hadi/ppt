@@ -550,7 +550,7 @@
     "header__menu__pricing": "Cene",
     "header__menu__learning_center": "Centar za učenje",
     "footer__title": "Alat za produktivnost veštačke inteligencije",
-    "footer__desc": "Najbrži način da koristite personalizovanu AI sa jednim klikom bilo gde i uštedite sate svakog dana. Pokreće ChatGPT, Claude 3, Gemini 1.5, GPT-4 i još mnogo toga.",
+    "footer__desc": "AI čet, prepravljač, rezime, trenutni odgovor, pomoćnik za čitanje, podsticaji, pretraga, umetnost i prevodilac. Pokreće GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Proizvodi",
     "footer__1_click_prompts": "1-Klik Prompts",
     "footer__follow_us": "Pratite nas",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "da pratite performanse vaših preporuka."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-klik AI bilo gde (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Najbrži način za korišćenje veštačke inteligencije bilo gde: AI chat, pisanje, provera gramatike, objašnjenje, rezime, pretraga, upravljanje zadacima i još mnogo toga. Pokreće GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Klik AI Svuda (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI čet, prepravljač, rezime, trenutni odgovor, pomoćnik za čitanje, podsticaji, pretraga, umetnost i prevodilac. Pokreće GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "U održavanju | MaxAI.me",
     "affiliate__title": "Affiliate Program | MaxAI.me",
     "affiliate__description": "Zaradite novac sa MaxAI partnerskim programom. Pridružite se našem partnerskom programu i zaradite 25% provizije za deljenje MaxAI!",

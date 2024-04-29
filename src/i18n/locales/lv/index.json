@@ -550,7 +550,7 @@
     "header__menu__pricing": "Cenas",
     "header__menu__learning_center": "Mācību centrs",
     "footer__title": "AI produktivitātes rīks",
-    "footer__desc": "Ātrākais veids, kā izmantot personalizētu 1-klikšķa AI jebkur, lai ietaupītu stundas katru dienu. Darbojas ar ChatGPT, Claude 3, Gemini 1.5, GPT-4 un citiem.",
+    "footer__desc": "AI tērzēšana, pārrakstītājs, kopsavilkums, nekavējoties atbildēt, lasīšanas palīgs, norādes, meklēšana, māksla un tulks. Darbina GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkti",
     "footer__1_click_prompts": "1-klikšķa pamudinājumi",
     "footer__follow_us": "Seko mums",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "lai sekotu līdzi jūsu ieteikumu veiktspējai."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI jebkur (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Ātrākais veids, kā izmantot AI jebkur: AI tērzēšana, rakstīšana, gramatikas pārbaude, skaidrojums, kopsavilkums, meklēšana, uzdevumu pārvaldība un vairāk. Darbojas ar GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Klikšķa AI visur (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI tērzēšana, pārrakstītājs, kopsavilkums, nekavējoties atbildēt, lasīšanas palīgs, norādes, meklēšana, māksla un tulks. Darbina GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "Apkopes laikā | MaxAI.me",
     "affiliate__title": "Partneru programma | MaxAI.me",
     "affiliate__description": "Saņemiet samaksu ar MaxAI partnerprogrammu. Piesakieties mūsu partnerprogrammai un nopelniet 25% komisiju, daloties ar MaxAI!",

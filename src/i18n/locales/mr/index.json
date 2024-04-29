@@ -550,7 +550,7 @@
     "header__menu__pricing": "मूल्यनिर्धारण",
     "header__menu__learning_center": "शिक्षण केंद्र",
     "footer__title": "AI उत्पादकता साधन",
-    "footer__desc": "प्रतिस्थापन करण्याचा सर्वात वेगवेगळा मार्ग आहे, दररोज तास बचत करण्यासाठी वापरण्यात आणखी एक क्लिक ए.आय. वापरा. ChatGPT, Claude 3, Gemini 1.5, GPT-4 आणि अधिकांशाने संचालित केले जाते.",
+    "footer__desc": "AI चॅट, पुनर्वाचक, संक्षेप, तत्काल उत्तर, वाचन सहाय्यक, प्रॉम्प्ट, शोध, कला आणि भाषांतर. GPT-4, Claude 3, Gemini 1.5 द्वारे संचालित.",
     "footer__products": "उत्पादने",
     "footer__1_click_prompts": "1-क्लिक प्रॉम्प्ट्स",
     "footer__follow_us": "आमच्यास फॉलो करा",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "तुमच्या रेफरल प्रदर्शनाची ट्रॅकिंग करण्यासाठी."
   },
   "seo": {
-    "default__title": "MaxAI.me: एक क्लिकमध्ये AI कुठेही (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "AI कुठेही वापरण्याचा सर्वात वेगळा मार्ग: AI चॅट, लेखन, व्याकरण तपासणी, स्पष्टीकरण, संक्षेप, शोध, प्रॉम्प्ट व्यवस्थापन आणि अधिक. GPT-4, Claude 3, Gemini 1.5 द्वारे संचालित.",
+    "default__title": "MaxAI.me: 1-क्लिक AI सर्वत्र (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI चॅट, पुनर्वाचक, संक्षेप, तत्काल उत्तर, वाचन सहाय्यक, प्रॉम्प्ट, शोध, कला आणि भाषांतर. GPT-4, Claude 3, Gemini 1.5 द्वारे संचालित.",
     "maintain__title": "देखभालात | MaxAI.me",
     "affiliate__title": "सहकार्य कार्यक्रम | MaxAI.me",
     "affiliate__description": "MaxAI अफिलिएट प्रोग्रामसह सापडा. आमच्या अफिलिएट प्रोग्राममध्ये सामील होऊन MaxAI वर 25% कमीशन कमवा!",

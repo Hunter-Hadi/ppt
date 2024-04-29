@@ -550,7 +550,7 @@
     "header__menu__pricing": "Priser",
     "header__menu__learning_center": "Læringscenter",
     "footer__title": "AI produktivitetsværktøj",
-    "footer__desc": "Den hurtigste måde at bruge personlig AI med 1-klik hvor som helst for at spare timer hver dag. Drevet af ChatGPT, Claude 3, Gemini 1.5, GPT-4 og mere.",
+    "footer__desc": "AI chat, omskrivning, resumé, øjeblikkelig svar, læseassistent, prompts, søgning, kunst og oversætter. Drevet af GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkter",
     "footer__1_click_prompts": "1-Klik Prompts",
     "footer__follow_us": "Følg os",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "for at følge din henvisningspræstation."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Klik AI Overalt (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "Den hurtigste måde at bruge AI overalt: AI chat, skrivning, grammatikkontrol, forklaring, resumé, søgning, prompthåndtering og mere. Drevet af GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: 1-Klik AI Overalt (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "AI chat, omskrivning, resumé, øjeblikkelig svar, læseassistent, prompts, søgning, kunst og oversætter. Drevet af GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "I vedligeholdelse | MaxAI.me",
     "affiliate__title": "Affiliateprogram | MaxAI.me",
     "affiliate__description": "Få betalt med MaxAI's affiliate program. Bliv en del af vores affiliate program og tjen 25% provision ved at dele MaxAI!",

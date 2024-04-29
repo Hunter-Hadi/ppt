@@ -550,7 +550,7 @@
     "header__menu__pricing": "ราคา",
     "header__menu__learning_center": "ศูนย์การเรียนรู้",
     "footer__title": "เครื่องมือเพิ่มประสิทธิภาพ AI",
-    "footer__desc": "วิธีที่รวดเร็วที่สุดในการใช้ AI ที่กำหนดเองได้ด้วยคลิกเดียวที่ใช้ได้ทุกที่เพื่อประหยัดเวลาหลายชั่วโมงทุกวัน ขับเคลื่อนโดย ChatGPT, Claude 3, Gemini 1.5, GPT-4 และอื่น ๆ",
+    "footer__desc": "แชท AI, เครื่องหมายเขียนใหม่, สรุป, ตอบกลับทันที, ผู้ช่วยการอ่าน, คำแนะนำ, ค้นหา, ศิลปะ, และแปลภาษา ขับเคลื่อนด้วย GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "ผลิตภัณฑ์",
     "footer__1_click_prompts": "1-Click Prompts",
     "footer__follow_us": "ติดตามเรา",
@@ -715,8 +715,8 @@
     "faq__question5__description__part2": "เพื่อติดตามผลการแนะนำของคุณ"
   },
   "seo": {
-    "default__title": "MaxAI.me: AI 1-Click ทุกที่ (ChatGPT, Claude 3, Gemini 1.5)",
-    "default__description": "วิธีที่รวดเร็วที่สุดในการใช้ AI ทุกที่: แชท AI, เขียน, ตรวจสอบไวยากรณ์, อธิบาย, สรุป, ค้นหา, การจัดการโปรมป์ และอื่น ๆ พลังงานโดย GPT-4, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: AI คลิกเดียวทุกที่ (GPT-4, Claude 3, Gemini 1.5)",
+    "default__description": "แชท AI, เครื่องหมายเขียนใหม่, สรุป, ตอบกลับทันที, ผู้ช่วยการอ่าน, คำแนะนำ, ค้นหา, ศิลปะ, และแปลภาษา ขับเคลื่อนด้วย GPT-4, Claude 3, Gemini 1.5.",
     "maintain__title": "ในช่วงการบำรุงรักษา | MaxAI.me",
     "affiliate__title": "โปรแกรมพันธมิตร | MaxAI.me",
     "affiliate__description": "รับเงินจากโปรแกรมพันธมิตรของ MaxAI ร่วมโปรแกรมพันธมิตรของเราและรับค่าคอมมิชชั่น 25% สำหรับการแบ่งปัน MaxAI!",
