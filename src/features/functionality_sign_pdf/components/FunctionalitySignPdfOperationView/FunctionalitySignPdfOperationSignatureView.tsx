@@ -130,6 +130,10 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       setModalSignatureOpen(true);
     }
   };
+  const onCloseOperationSignatureModal = () => {
+    isActiveModelCurrent.current = false;
+    setModalSignatureOpen(false);
+  };
   return (
     <FunctionalitySignPdfOperationDraggableView
       id={dragId}
@@ -279,7 +283,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       {signatureModalOpen && (
         <FunctionalitySignPdfOperationSignatureModal
           open={signatureModalOpen}
-          onClose={() => setModalSignatureOpen(false)}
+          onClose={onCloseOperationSignatureModal}
           onCreate={onCreateSignatureValue}
         />
       )}

@@ -20,6 +20,7 @@ import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButto
 import FunctionalitySignPdfCommonButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfCommonButtonPopover';
 import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import FunctionalitySignPdfShowPdfDateFormatsPopover from './FunctionalitySignPdfShowPdfDateFormatsPopover';
 import { IControlDiv } from './FunctionalitySignPdfShowPdfViewRenderCanvas';
 interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
   controlDiv: IControlDiv;
@@ -151,7 +152,10 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   const onChangeBgColor = (color: string) => {
     onChangeFabricFontStyle(editor, 'backgroundColor', color);
   };
-
+  const onHandleDateFormatsValue = (value: string) => {
+    console.log('onHandleDateFormatsValue', value);
+    onChangeFabricFontStyle(editor, 'text', value);
+  };
   return (
     <Stack
       sx={{
@@ -194,11 +198,17 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
             ]}
           />
         )}
-        {!isImage && (
-          <Button>
+        <Button>
+          {activeObject.isDateValid && (
+            <FunctionalitySignPdfShowPdfDateFormatsPopover
+              value={activeObject?.text}
+              onHandleValue={onHandleDateFormatsValue}
+            />
+          )}
+          {!isImage && (
             <Input
               sx={{
-                width: 50,
+                width: 40,
                 ' input': {
                   color: '#9065B0',
                 },
@@ -213,8 +223,9 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
                 onChangeFontSize(Number(e.target.value));
               }}
             />
-          </Button>
-        )}
+          )}
+        </Button>
+
         {!isImage && (
           <Button>
             {/* 这个是文字的风格按钮 */}

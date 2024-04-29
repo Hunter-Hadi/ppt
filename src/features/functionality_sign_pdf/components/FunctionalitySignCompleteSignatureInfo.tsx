@@ -10,13 +10,18 @@ import FunctionalitySignPdfIcon from './FunctionalitySignPdfIcon';
 interface IFunctionalitySignCompleteSignatureInfoProps {
   downloadUint8Array: Uint8Array;
   onClearReturn: () => void;
+  fileName: string;
 }
 const FunctionalitySignCompleteSignatureInfo: FC<
   IFunctionalitySignCompleteSignatureInfoProps
-> = ({ downloadUint8Array, onClearReturn }) => {
+> = ({ downloadUint8Array, onClearReturn, fileName }) => {
   const { t } = useTranslation();
   const onDownload = () => {
-    downloadUrl(downloadUint8Array, 'signPdf(MaxAI).pdf');
+    let newFileName = fileName;
+    if (newFileName.endsWith('.pdf')) {
+      newFileName = newFileName.slice(0, -4);
+    }
+    downloadUrl(downloadUint8Array, newFileName + '(Powered by MaxAI).pdf');
   };
   const currentTime = useMemo(() => dayjs().format('YYYY-MM-DD'), []);
   return (

@@ -2,10 +2,16 @@ import { Stack } from '@mui/material';
 import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
 import { lazy, Suspense, useState } from 'react';
+import { useRecoilState } from 'recoil';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import snackNotifications from '@/utils/globalSnackbar';
+
+import {
+  FunctionalitySignPdfOperationOBjectAtom,
+  functionalitySignPdfOperationOBjectDefault,
+} from '../store';
 const FunctionalitySignPdfDetail = lazy(
   () =>
     import(
@@ -15,7 +21,9 @@ const FunctionalitySignPdfDetail = lazy(
 
 const FunctionalitySignPdfMain = () => {
   const { t } = useTranslation();
-
+  const [, setPdfOperationOBject] = useRecoilState(
+    FunctionalitySignPdfOperationOBjectAtom,
+  );
   const [fileData, setFileData] = useState<File | null>(null);
   const onChangeFile = (fileList: FileList) => {
     if (fileList?.length > 0) {
@@ -37,6 +45,8 @@ const FunctionalitySignPdfMain = () => {
   };
   const onClearReturn = () => {
     setFileData(null);
+    // 清空Atom的值
+    setPdfOperationOBject(functionalitySignPdfOperationOBjectDefault);
   };
   return (
     <Stack

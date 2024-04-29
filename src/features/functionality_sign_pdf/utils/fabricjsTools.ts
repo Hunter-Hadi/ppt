@@ -1,3 +1,4 @@
+import dayjs from 'dayjs';
 import { fabric } from 'fabric';
 import { FabricJSEditor } from "fabricjs-react";
 import { v4 as uuidV4 } from 'uuid';
@@ -87,6 +88,7 @@ export const onFabricAddObject = async (editor, position: {
             createObjectData = text
         } else if (type === 'text') {
             positionData.left = positionData.left - 50 / 2;
+
             const text = new fabric.Text(value, {
                 ...positionData,
                 minScaleLimit: 1,
@@ -95,11 +97,13 @@ export const onFabricAddObject = async (editor, position: {
             createObjectData = text
         } else if (type === 'i-text') {
             positionData.left = positionData.left - 200 / 2;
+            const isDateValid = dayjs(value).isValid();
             const text = new fabric.IText(value, {
                 ...positionData,
                 minScaleLimit: 1,
                 maxScaleLimit: 1,
             });
+            text.isDateValid = isDateValid
             createObjectData = text
         }
         if (createObjectData) {
@@ -285,6 +289,9 @@ export const onChangeFabricFontStyle = (editor, type, value?: number | string) =
                 break;
             case 'opacity':
                 activeObject.set('opacity', value);
+                break;
+            case 'text':
+                activeObject.set('text', value);
                 break;
             default:
                 console.log('未知的样式类型:', type);

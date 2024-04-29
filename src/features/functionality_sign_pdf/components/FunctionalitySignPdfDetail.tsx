@@ -12,13 +12,8 @@ import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useRef, useState } from 'react';
 import React from 'react';
 import { pdfjs } from 'react-pdf';
-import { useRecoilState } from 'recoil';
 import { v4 as uuidV4 } from 'uuid';
 
-import {
-  FunctionalitySignPdfOperationOBjectAtom,
-  functionalitySignPdfOperationOBjectDefault,
-} from '../store';
 import { IFabricAddObjectType } from '../utils/fabricjsTools';
 import { pdfAddSignCanvasViewReturnUint8Array } from '../utils/pdfAddSignCanvasView';
 import FunctionalitySignCompleteSignatureInfo from './FunctionalitySignCompleteSignatureInfo';
@@ -72,9 +67,7 @@ export const FunctionalitySignPdfDetail: FC<
   const [signNumber, setSignNumber] = useState<number>(0); //签名数据
   const [downloadUint8Array, setDownloadUint8Array] =
     useState<null | Uint8Array>(null); //签名数据
-  const [, setPdfOperationOBject] = useRecoilState(
-    FunctionalitySignPdfOperationOBjectAtom,
-  );
+
   const handleDragEnd = (event: DragEndEvent) => {
     if (event.over && event.over.id) {
       const { delta, over, active } = event;
@@ -176,8 +169,6 @@ export const FunctionalitySignPdfDetail: FC<
   };
   const onChangePdfHaveSignObjectNumber = (signNumber: number) => {
     setSignNumber(signNumber);
-    // 清空Atom的值
-    setPdfOperationOBject(functionalitySignPdfOperationOBjectDefault);
   };
   return (
     <DndContext
@@ -253,6 +244,7 @@ export const FunctionalitySignPdfDetail: FC<
           )}
           {downloadUint8Array && (
             <FunctionalitySignCompleteSignatureInfo
+              fileName={file.name}
               onClearReturn={onClearReturn}
               downloadUint8Array={downloadUint8Array}
             />
