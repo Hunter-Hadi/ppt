@@ -1,4 +1,4 @@
-import { Box, Button, Stack, TextField } from '@mui/material';
+import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import {
   forwardRef,
@@ -73,7 +73,6 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
           }}
         >
           <TextField
-            placeholder='Enter signature'
             fullWidth
             variant='standard'
             ref={inputRef}
@@ -102,7 +101,25 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
             }}
           />
         </Box>
-
+        {typeInputVal.length === 0 && (
+          <Typography
+            color='text.secondary'
+            sx={{
+              position: 'absolute',
+              top: '50%',
+              left: '50%',
+              transform: 'translate(-50%,-50%)',
+              pointerEvents: 'none',
+              fontSize: {
+                lg: 12,
+              },
+            }}
+          >
+            {t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__start__typing',
+            )}
+          </Typography>
+        )}
         <FunctionalitySignPdfIcon name='SignArrowIndicate' />
         <Stack
           sx={{

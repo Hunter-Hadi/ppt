@@ -3,9 +3,10 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { useRecoilState } from 'recoil';
 
+import { FunctionalitySignPdfOperationOBjectAtom } from '../../store';
+import { IFabricAddObjectType } from '../../utils/fabricjsTools';
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import { FunctionalitySignPdfOperationOBjectAtom } from '../FunctionalitySignPdfMain';
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
 import FunctionalitySignPdfOperationSignatureModal, {
   ISignatureType,
@@ -15,7 +16,7 @@ interface IFunctionalitySignPdfSignatureViewProps {
   onShowImgVal?: (val: string) => void;
   signatureEmptyView?: React.ReactNode;
   activeDragData?: IActiveDragData;
-  onClickAdd: (type: string, value: string) => void;
+  onClickAdd: (type: IFabricAddObjectType, value: string) => void;
 }
 
 /**

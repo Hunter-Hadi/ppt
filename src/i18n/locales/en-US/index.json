@@ -618,6 +618,7 @@
     "components__sign_pdf__operation_view__create": "Create",
     "components__sign_pdf__operation_view__clear": "Clear",
     "components__sign_pdf__operation_view__draw__here": "Draw here",
+    "components__sign_pdf__operation_view__start__typing": "Start typing",
     "components__sign_pdf__operation_view__add": "Add",
     "components__sign_pdf__operation_view__of": "of {{NUMBER}}",
     "components__sign_pdf__operation_view__draw": "Draw",
@@ -626,7 +627,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__sign_pdf__detail__empty_sign": "Empty Signature",
     "components__sign_pdf__detail__empty_text": "Empty Text",
-    "components__sign_pdf__detail__finish": "Finish & Sign"
+    "components__sign_pdf__detail__finish": "Finish & Sign",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECT IMAGE",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "or drop image here"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

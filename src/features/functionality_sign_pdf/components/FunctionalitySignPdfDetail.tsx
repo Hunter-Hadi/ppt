@@ -13,9 +13,10 @@ import { FC, useMemo, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
+import { IFabricAddObjectType } from '../utils/fabricjsTools';
 import { pdfAddViewSave } from '../utils/pdfAddViewSave';
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationViewMain';
-import FunctionalitySignPdfShowPdfViewMain, {
+import FunctionalitySignPdfShowPdfViewPdfViewMain, {
   IFunctionalitySignPdfShowPdfViewHandles,
 } from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewPdfViewMain';
 
@@ -23,10 +24,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
+
 export interface IActiveDragData {
   dragType: 'start' | 'end';
   id: string;
-  type: string;
+  type: IFabricAddObjectType;
   value: string;
   x?: number;
   y?: number;
@@ -43,6 +45,7 @@ export type ISignData = {
   id: string;
   data: { type: string; value: string };
 };
+
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file }) => {
@@ -58,6 +61,7 @@ export const FunctionalitySignPdfDetail: FC<
   const [activeDragData, setActiveDragData] = useState<
     IActiveDragData | undefined
   >(undefined);
+  const [signNumber, setSignNumber] = useState<number>(0); //签名数据
   const handleDragEnd = (event: DragEndEvent) => {
     if (event.over && event.over.id) {
       const { delta, over, active } = event;
@@ -75,7 +79,7 @@ export const FunctionalitySignPdfDetail: FC<
         }),
         id: uuidV4(),
         ...(active.data.current as {
-          type: string;
+          type: IFabricAddObjectType;
           value: string;
         }),
       };
@@ -111,7 +115,7 @@ export const FunctionalitySignPdfDetail: FC<
           ...newSignaturePosition,
           id: uuidV4(),
           ...(active.data.current as {
-            type: string;
+            type: IFabricAddObjectType;
             value: string;
           }),
         });
@@ -141,7 +145,7 @@ export const FunctionalitySignPdfDetail: FC<
     }),
   );
   // 右边的点击添加事件
-  const onClickAdd = (type: string, value: string) => {
+  const onClickAdd = (type: IFabricAddObjectType, value: string) => {
     if (showPdfHandlesRef.current?.onAddObject) {
       showPdfHandlesRef.current.onAddObject({
         id: uuidV4(),
@@ -150,6 +154,9 @@ export const FunctionalitySignPdfDetail: FC<
       });
     }
     setActiveDragData(undefined);
+  };
+  const onChangePdfHaveSignObjectNumber = (signNumber: number) => {
+    setSignNumber(signNumber);
   };
   return (
     <DndContext
@@ -174,9 +181,10 @@ export const FunctionalitySignPdfDetail: FC<
             overflow: 'hidden',
           }}
         >
-          <FunctionalitySignPdfShowPdfViewMain
+          <FunctionalitySignPdfShowPdfViewPdfViewMain
             file={file}
             ref={showPdfHandlesRef}
+            onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
           />
         </Box>
         {/* 签名操作视图 */}
@@ -210,7 +218,7 @@ export const FunctionalitySignPdfDetail: FC<
               onClick={onPdfAddViewSave}
               sx={{ width: '100%' }}
               size='large'
-              disabled={saveButtonLoading}
+              disabled={saveButtonLoading || signNumber === 0}
               loading={saveButtonLoading}
             >
               {t(
@@ -262,7 +270,7 @@ export const FunctionalitySignPdfDetail: FC<
           {activeDragData &&
             (activeDragData.type === 'text' ||
               activeDragData.type === 'i-text' ||
-              activeDragData.type === 'textbox') && (
+              activeDragData.type === 'text-box') && (
               <Typography
                 sx={{
                   fontSize: {

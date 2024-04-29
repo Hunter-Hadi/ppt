@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
     "components__sign_pdf__detail__empty_sign": "रिक्त सही",
     "components__sign_pdf__detail__empty_text": "रिक्त मजकूर",
-    "components__sign_pdf__detail__finish": "समाप्त करा आणि हस्ताक्षर करा"
+    "components__sign_pdf__detail__finish": "समाप्त करा आणि हस्ताक्षर करा",
+    "components__sign_pdf__operation_view__start__typing": "प्रारंभ करा",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "प्रतिमा निवडा",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "किंवा इथे प्रतिमा ड्रॉप करा"
   }
 }

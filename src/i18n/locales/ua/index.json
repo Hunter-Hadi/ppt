@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__sign_pdf__detail__empty_sign": "Порожній підпис",
     "components__sign_pdf__detail__empty_text": "Порожній текст",
-    "components__sign_pdf__detail__finish": "Завершити та підписати"
+    "components__sign_pdf__detail__finish": "Завершити та підписати",
+    "components__sign_pdf__operation_view__start__typing": "Почніть вводити",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "ВИБРАТИ ЗОБРАЖЕННЯ",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "або перетягніть зображення сюди"
   }
 }

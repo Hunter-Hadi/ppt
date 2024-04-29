@@ -17,70 +17,66 @@ const autoCheckTopIsAbnormal = (editor, top: number, objectHeight: number, isAut
     }
     return currentTop
 }
+export type IFabricAddObjectType = 'image' | 'text-box' | 'text' | 'i-text'
 //根据位置/信息添加Fabric对象
-export const onFabricAddObject = (editor, position: {
+export const onFabricAddObject = async (editor, position: {
     left: number,
     top: number
-}, type: string, value: string, isAutoObjectSizePosition?: boolean) => {
+}, type: 'image' | 'text-box' | 'text' | 'i-text', value: string, isAutoObjectSizePosition?: boolean) => {
     try {
-
-        if (!editor) return;
+        if (!editor) return null;
+        let createObjectData: fabric.object = null
         const positionData = {
             left: position.left,
             top: position.top,
             hasRotatingPoint: false, // 禁用旋转控制点
             lockRotation: true, // 锁定旋转
         };
-        const id = uuidV4();
         if (type === 'image') {
             const image = new Image();
             image.src = value;
+            await new Promise<void>((resolve) => {
+                image.onload = function () {
+                    // 将图片绘制到画布上
+                    const imgColor = findFirstNonTransparentPixel(image);
 
-            image.onload = function () {
-                // 将图片绘制到画布上
-                const imgColor = findFirstNonTransparentPixel(image);
+                    const fabricImage = new fabric.Image(image, positionData);
 
-                const fabricImage = new fabric.Image(image, positionData);
+                    let scaleRatioWidth = 1;
+                    let scaleRatioHeight = 1;
 
-                let scaleRatioWidth = 1;
-                let scaleRatioHeight = 1;
+                    // 判断图片宽度是否过大
+                    if (fabricImage.width > editor.canvas.width / 3) {
+                        scaleRatioWidth = editor.canvas.width / 3 / fabricImage.width;
+                    }
 
-                // 判断图片宽度是否过大
-                if (fabricImage.width > editor.canvas.width / 3) {
-                    scaleRatioWidth = editor.canvas.width / 3 / fabricImage.width;
-                }
+                    // 判断图片高度是否过高
+                    if (fabricImage.height > editor.canvas.height / 3) {
+                        scaleRatioHeight = editor.canvas.height / 3 / fabricImage.height;
+                    }
 
-                // 判断图片高度是否过高
-                if (fabricImage.height > editor.canvas.height / 3) {
-                    scaleRatioHeight = editor.canvas.height / 3 / fabricImage.height;
-                }
+                    // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
+                    let scaleRatio = Math.min(scaleRatioWidth, scaleRatioHeight);
+                    console.log('simply scaleRatio', scaleRatio)
+                    if (scaleRatio < 1) {  //只有当需要缩放时才执行
+                        fabricImage.scaleX = scaleRatio;
+                        fabricImage.scaleY = scaleRatio;
 
-                // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
-                let scaleRatio = Math.min(scaleRatioWidth, scaleRatioHeight);
-                console.log('simply scaleRatio', scaleRatio)
-                if (scaleRatio < 1) {  //只有当需要缩放时才执行
-                    fabricImage.scaleX = scaleRatio;
-                    fabricImage.scaleY = scaleRatio;
+                        // 调整位置到鼠标中心，同时应用缩放比例
+                        fabricImage.left = positionData.left - (fabricImage.getScaledWidth() / 2);
+                        fabricImage.top = positionData.top - (fabricImage.getScaledHeight() / 2);
+                    } else {
+                        // 如果不需要缩放, 则只调整位置到鼠标中心
+                        fabricImage.left = positionData.left - fabricImage.width / 2;
+                        fabricImage.top = positionData.top - fabricImage.height / 2;
+                    }
 
-                    // 调整位置到鼠标中心，同时应用缩放比例
-                    fabricImage.left = positionData.left - (fabricImage.getScaledWidth() / 2);
-                    fabricImage.top = positionData.top - (fabricImage.getScaledHeight() / 2);
-                } else {
-                    // 如果不需要缩放, 则只调整位置到鼠标中心
-                    fabricImage.left = positionData.left - fabricImage.width / 2;
-                    fabricImage.top = positionData.top - fabricImage.height / 2;
-                }
-
-                fabricImage.imgColor = imgColor;
-                fabricImage.uniqueKey = id;
-                // 移除旋转控制点
-                fabricImage.set('mtr', false);
-                fabricImage.top = autoCheckTopIsAbnormal(editor, positionData.top, fabricImage.height * scaleRatio, isAutoObjectSizePosition)
-                editor.canvas.add(fabricImage);
-                editor.canvas.setActiveObject(fabricImage); // 设置复制的对象为当前活动对象
-
-            };
-        } else if (type === 'textbox') {
+                    fabricImage.imgColor = imgColor;
+                    createObjectData = fabricImage
+                    resolve()
+                };
+            })
+        } else if (type === 'text-box') {
             positionData.left = positionData.left - 300 / 2;
             const text = new fabric.Textbox(value, {
                 ...positionData,
@@ -88,10 +84,7 @@ export const onFabricAddObject = (editor, position: {
                 maxScaleLimit: 1,
                 width: 300,
             });
-            text.top = autoCheckTopIsAbnormal(editor, positionData.top, text.height, isAutoObjectSizePosition)
-            text.uniqueKey = id;
-            editor.canvas.add(text);
-            editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
+            createObjectData = text
         } else if (type === 'text') {
             positionData.left = positionData.left - 50 / 2;
             const text = new fabric.Text(value, {
@@ -99,10 +92,7 @@ export const onFabricAddObject = (editor, position: {
                 minScaleLimit: 1,
                 maxScaleLimit: 1,
             });
-            text.top = autoCheckTopIsAbnormal(editor, positionData.top, text.height, isAutoObjectSizePosition)
-            text.uniqueKey = id;
-            editor.canvas.add(text);
-            editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
+            createObjectData = text
         } else if (type === 'i-text') {
             positionData.left = positionData.left - 200 / 2;
             const text = new fabric.IText(value, {
@@ -110,13 +100,21 @@ export const onFabricAddObject = (editor, position: {
                 minScaleLimit: 1,
                 maxScaleLimit: 1,
             });
-            text.uniqueKey = id;
-            text.top = autoCheckTopIsAbnormal(editor, positionData.top, text.height, isAutoObjectSizePosition)
-            editor.canvas.add(text);
-            editor.canvas.setActiveObject(text); // 设置复制的对象为当前活动对象
+            createObjectData = text
         }
-        editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
-        editor?.canvas.renderAll(); // 确保变化被渲染
+        if (createObjectData) {
+            createObjectData.mtr = false
+            createObjectData.id = uuidV4();
+            createObjectData.top = autoCheckTopIsAbnormal(editor, positionData.top, createObjectData.height, isAutoObjectSizePosition)
+            editor.canvas.add(createObjectData);
+            editor.canvas.setActiveObject(createObjectData); // 设置复制的对象为当前活动对象
+            editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+            editor?.canvas.renderAll(); // 确保变化被渲染
+            return createObjectData
+        } else {
+            return null
+        }
+
     } catch (e) {
         console.error('simply error', e);
     }

@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__sign_pdf__detail__empty_sign": "Walang Lagda",
     "components__sign_pdf__detail__empty_text": "Walang Teksto",
-    "components__sign_pdf__detail__finish": "Tapos na & Lagda"
+    "components__sign_pdf__detail__finish": "Tapos na & Lagda",
+    "components__sign_pdf__operation_view__start__typing": "Simulan ang pagtatype",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "PUMILI NG LARAWAN",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "o i-drop ang larawan dito"
   }
 }

@@ -671,6 +671,8 @@
     "components__sign_pdf__operation_view__create": "Create",
     "components__sign_pdf__operation_view__clear": "Clear",
     "components__sign_pdf__operation_view__draw__here": "Draw here",
+    "components__sign_pdf__operation_view__start__typing": "Start typing",
+
     "components__sign_pdf__operation_view__add": "Add",
     "components__sign_pdf__operation_view__of": "of {{NUMBER}}",
 

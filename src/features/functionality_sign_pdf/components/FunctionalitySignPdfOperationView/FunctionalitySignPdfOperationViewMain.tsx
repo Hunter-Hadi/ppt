@@ -3,15 +3,16 @@ import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 import { useRecoilValue } from 'recoil';
 
+import { FunctionalitySignPdfOperationOBjectAtom } from '../../store';
+import { IFabricAddObjectType } from '../../utils/fabricjsTools';
 import { IActiveDragData } from '../FunctionalitySignPdfDetail';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import { FunctionalitySignPdfOperationOBjectAtom } from '../FunctionalitySignPdfMain';
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
 import FunctionalitySignPdfOperationSignatureView from './FunctionalitySignPdfOperationSignatureView';
 
 interface IFunctionalitySignPdfOperationView {
   activeDragData?: IActiveDragData;
-  onClickAdd: (type: string, value: string) => void;
+  onClickAdd: (type: IFabricAddObjectType, value: string) => void;
 }
 /**
  * 用于选择签名的操作视图
@@ -74,7 +75,7 @@ const FunctionalitySignPdfOperationViewMain: FC<
           id='textField'
           onWrapClick={onClickAdd}
           data={{
-            type: 'textbox',
+            type: 'text-box',
             value: pdfOperationOBject.textField,
           }}
         >

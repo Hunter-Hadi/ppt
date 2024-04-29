@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
     "components__sign_pdf__detail__empty_sign": "Lege handtekening",
     "components__sign_pdf__detail__empty_text": "Lege tekst",
-    "components__sign_pdf__detail__finish": "Voltooien en ondertekenen"
+    "components__sign_pdf__detail__finish": "Voltooien en ondertekenen",
+    "components__sign_pdf__operation_view__start__typing": "Begin met typen",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECTEER AFBEELDING",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "of sleep de afbeelding hier"
   }
 }

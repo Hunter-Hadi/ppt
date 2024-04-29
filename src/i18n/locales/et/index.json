@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__sign_pdf__detail__empty_sign": "Tühi allkiri",
     "components__sign_pdf__detail__empty_text": "Tühi tekst",
-    "components__sign_pdf__detail__finish": "Lõpeta ja allkirjasta"
+    "components__sign_pdf__detail__finish": "Lõpeta ja allkirjasta",
+    "components__sign_pdf__operation_view__start__typing": "Alusta tippimist",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "VALI PILT",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "või lohista pilt siia"
   }
 }

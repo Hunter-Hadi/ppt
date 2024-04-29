@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کو اپ لوڈ کریں",
     "components__sign_pdf__detail__empty_sign": "خالی سگنیچر",
     "components__sign_pdf__detail__empty_text": "خالی ٹیکسٹ",
-    "components__sign_pdf__detail__finish": "مکمل کریں اور دستخط کریں"
+    "components__sign_pdf__detail__finish": "مکمل کریں اور دستخط کریں",
+    "components__sign_pdf__operation_view__start__typing": "ٹائپ کرنا شروع کریں",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "تصویر منتخب کریں",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "یا یہاں تصویر ڈراپ کریں"
   }
 }

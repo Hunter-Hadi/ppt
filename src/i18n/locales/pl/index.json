@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__sign_pdf__detail__empty_sign": "Pusta sygnatura",
     "components__sign_pdf__detail__empty_text": "Pusty tekst",
-    "components__sign_pdf__detail__finish": "Zakończ i podpisz"
+    "components__sign_pdf__detail__finish": "Zakończ i podpisz",
+    "components__sign_pdf__operation_view__start__typing": "Rozpocznij pisanie",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "WYBIERZ OBRAZ",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "lub upuść obraz tutaj"
   }
 }

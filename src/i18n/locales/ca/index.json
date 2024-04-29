@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Si us plau, carrega el tipus de fitxer PDF especificat",
     "components__sign_pdf__detail__empty_sign": "Signatura buida",
     "components__sign_pdf__detail__empty_text": "Text buit",
-    "components__sign_pdf__detail__finish": "Finalitza i Signa"
+    "components__sign_pdf__detail__finish": "Finalitza i Signa",
+    "components__sign_pdf__operation_view__start__typing": "Comença a escriure",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECCIONA IMATGE",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "o deixa anar la imatge aquí"
   }
 }

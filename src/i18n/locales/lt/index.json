@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__sign_pdf__detail__empty_sign": "Tuščia parašo vieta",
     "components__sign_pdf__detail__empty_text": "Tuščias tekstas",
-    "components__sign_pdf__detail__finish": "Baigti ir pasirašyti"
+    "components__sign_pdf__detail__finish": "Baigti ir pasirašyti",
+    "components__sign_pdf__operation_view__start__typing": "Pradėti rašyti",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "PASIRINKTI PAVEIKSLĖLĮ",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "arba nutempti paveikslėlį čia"
   }
 }

@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
     "components__sign_pdf__detail__empty_sign": "Boş İmza",
     "components__sign_pdf__detail__empty_text": "Boş Metin",
-    "components__sign_pdf__detail__finish": "Tamamla ve İmzala"
+    "components__sign_pdf__detail__finish": "Tamamla ve İmzala",
+    "components__sign_pdf__operation_view__start__typing": "Yazmaya başla",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "RESİM SEÇ",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "veya buraya resim bırakın"
   }
 }

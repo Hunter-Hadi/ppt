@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Kérlek, töltsd fel a megadott PDF fájltípust",
     "components__sign_pdf__detail__empty_sign": "Üres aláírás",
     "components__sign_pdf__detail__empty_text": "Üres szöveg",
-    "components__sign_pdf__detail__finish": "Befejezés és aláírás"
+    "components__sign_pdf__detail__finish": "Befejezés és aláírás",
+    "components__sign_pdf__operation_view__start__typing": "Kezdje el gépelni",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "KÉP KIVÁLASZTÁSA",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "vagy dobja ide a képet"
   }
 }

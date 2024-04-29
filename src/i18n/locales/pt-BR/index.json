@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Por favor, faça o upload do tipo de arquivo PDF especificado",
     "components__sign_pdf__detail__empty_sign": "Assinatura Vazia",
     "components__sign_pdf__detail__empty_text": "Texto Vazio",
-    "components__sign_pdf__detail__finish": "Concluir e Assinar"
+    "components__sign_pdf__detail__finish": "Concluir e Assinar",
+    "components__sign_pdf__operation_view__start__typing": "Começar a digitar",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECIONAR IMAGEM",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ou solte a imagem aqui"
   }
 }

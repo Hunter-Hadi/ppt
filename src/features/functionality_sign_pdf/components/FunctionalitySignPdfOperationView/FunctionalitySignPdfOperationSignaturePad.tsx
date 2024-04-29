@@ -86,6 +86,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
             });
 
             setRefreshIndex(null);
+            setIsStartSign(false);
           },
         },
       ));
@@ -290,7 +291,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
             'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
           )}
         </Button>
-        {historyCanvasList.length === 0 && !isStartSign && (
+        {isNotSignatureData && !isStartSign && (
           <Typography
             color='text.secondary'
             sx={{
@@ -298,8 +299,10 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
               top: '50%',
               left: '50%',
               transform: 'translate(-50%,-50%)',
-              fontWeight: 'bold',
               pointerEvents: 'none',
+              fontSize: {
+                lg: 12,
+              },
             }}
           >
             {t(

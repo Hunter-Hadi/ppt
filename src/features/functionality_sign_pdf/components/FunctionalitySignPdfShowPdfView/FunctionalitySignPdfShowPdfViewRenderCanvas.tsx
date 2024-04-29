@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import { fabric } from 'fabric';
 import { FabricJSCanvas, useFabricJSEditor } from 'fabricjs-react';
+import { without } from 'lodash-es';
 import React, {
   forwardRef,
   ForwardRefRenderFunction,
@@ -11,7 +12,10 @@ import React, {
 } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
-import { onFabricAddObject } from '../../utils/fabricjsTools';
+import {
+  IFabricAddObjectType,
+  onFabricAddObject,
+} from '../../utils/fabricjsTools';
 import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalitySignPdfShowPdfViewAddToolsPopup';
 import FunctionalitySignPdfShowPdfViewObjectToolsPopup from './FunctionalitySignPdfShowPdfViewObjectToolsPopup';
 export interface IControlDiv {
@@ -24,7 +28,7 @@ export type ICanvasObjectData = {
   x?: number;
   y?: number;
   id: string;
-  type: string;
+  type: IFabricAddObjectType;
   value: string;
 };
 export interface IFunctionalitySignPdfShowPdfCanvasHandles {
@@ -44,7 +48,8 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
     height: number;
   };
   topScrollKey: number;
-  addIndexObject?: (object: fabric.Object, index: number) => void; //通知父级添加对象
+  addIndexObject?: (object: fabric.Object, index: number) => void; //通知父级给上下添加对象
+  onChangeObjectNumber?: (objectNumber: number) => void; //通知父级canvas的idList
 }
 /**
  * canvas渲染组件用的fabric_js
@@ -53,13 +58,21 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfCanvasHandles,
   IFunctionalitySignPdfShowPdfCanvasProps
 > = (
-  { canvasIndex, sizeInfo, topScrollKey, addIndexObject, canvasNumber },
+  {
+    canvasIndex,
+    sizeInfo,
+    topScrollKey,
+    addIndexObject,
+    canvasNumber,
+    onChangeObjectNumber,
+  },
   handleRef,
 ) => {
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
   const topWrapRef = useRef<HTMLElement | null>(null);
   const previousIsSelection = useRef<boolean>(false); //上一次点击是否是选中
   const [windowScrollKey, setWindowScrollKey] = useState(0); // Current scale factor
+  const [objectIdList, setObjectIdList] = useState<string[]>([]);
 
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null); // 当前选中对象的位置
@@ -69,6 +82,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
 
   const [activeObject, setActiveObject] = useState<fabric.Object | null>(null); // 当前选中对象信息
   const deleteObjectKey = useRef<string[]>([]);
+  useEffect(() => {
+    onChangeObjectNumber && onChangeObjectNumber(objectIdList.length);
+  }, [objectIdList]);
   useEffect(() => {
     const handleScroll = () => {
       //监听窗口滚动，关闭菜单
@@ -123,6 +139,18 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     previousIsSelection.current = false;
     setControlAddNewDiv(null);
   }, [topScrollKey, windowScrollKey]);
+
+  const changObjectToList = (object: fabric.Object, type: 'add' | 'del') => {
+    if (object.type !== 'image') return; //只有图片才算正式签名对象
+    setObjectIdList((prevObjectIdList) => {
+      if (type === 'add') {
+        return [...prevObjectIdList, object.id];
+      } else {
+        return without(prevObjectIdList, object.id);
+      }
+    });
+  };
+
   const handleObjectSelected = (object?: fabric.Object) => {
     //选中对象时调用，更新操作div位置
     try {
@@ -147,7 +175,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     const targetObject = event.target;
     const pointerY = event.pointer.y;
     // 假定canvasIndex和fabricList已经定义并可用
-    if (deleteObjectKey.current.includes(targetObject.uniqueKey)) return;
+    if (deleteObjectKey.current.includes(targetObject.id)) return;
 
     const canvasBounds = {
       height: editor?.canvas.height,
@@ -178,8 +206,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     targetObject,
     addPositionType: 'top' | 'bottom' = 'top',
   ) => {
-    if (deleteObjectKey.current.includes(targetObject.uniqueKey)) return; //已经删除的对象不再处理
-    deleteObjectKey.current.push(targetObject.uniqueKey);
+    if (deleteObjectKey.current.includes(targetObject.id)) return; //已经删除的对象不再处理
+    deleteObjectKey.current.push(targetObject.id);
     // 获取目标画布
     setWindowScrollKey(new Date().valueOf());
     targetObject.canvas.remove(targetObject);
@@ -266,7 +294,19 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           transparentCorners: false, //激活状态角落的图标是否透明
           selectionDashArray: [5, 5],
         });
-        // 对象选中监听
+        // 对象添加
+        editor.canvas.on('object:added', function (options) {
+          var obj = options.target;
+          console.log('一个对象被添加', obj);
+          changObjectToList(obj, 'add');
+        });
+        // 对象删除
+        editor.canvas.on('object:removed', function (options) {
+          var obj = options.target;
+          console.log('一个对象被移除', obj);
+          changObjectToList(obj, 'del');
+        });
+
         editor.canvas.on('mouse:up', function (event) {
           console.log('simply mouse:up', event);
           if (event.target) {
@@ -303,7 +343,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           // 对象移动监听 - 保证操作div跟随移动
           handleObjectSelected(e.target);
           const targetObject = e.target;
-          const pointerY = e.pointer.y;
           targetObject.setCoords();
           constrainWithinCanvas(targetObject);
           checkAndMoveToAnotherCanvas(e);
@@ -364,19 +403,19 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   // 添加签名对象
   const onAddObject = async (
     canvasObject?: ICanvasObjectData,
-    object?: fabric.Object,
+    newObject?: fabric.Object,
     isAutoObjectPosition?: boolean, //是否自动优化对象位置
     isAutoObjectDragPosition: boolean = true, //是否自动拖动对象位置
   ) => {
     try {
       if (!editor) return;
-      if (object) {
+      if (newObject) {
         topWrapRef.current?.focus();
         if (topWrapRef.current) {
           //直接添加object，会以object的top left添加上去
-          object.uniqueKey = uuidV4();
-          object.set('mtr', false);
-          await editor.canvas.add(object);
+          newObject.id = uuidV4();
+          newObject.set('mtr', false);
+          await editor.canvas.add(newObject);
           await editor.canvas.requestRenderAll(); // 刷新画布以显示更改
           if (isAutoObjectDragPosition) {
             const canvasElement = editor.canvas.upperCanvasEl;
@@ -387,15 +426,15 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
               const position = {
                 clientX:
                   topWrapRefRect.x +
-                  object.left * scaleFactor +
-                  (object.width * object.scaleX * scaleFactor) / 2,
+                  newObject.left * scaleFactor +
+                  (newObject.width * newObject.scaleX * scaleFactor) / 2,
                 clientY:
                   topWrapRefRect.y +
-                  object.top * scaleFactor +
-                  (object.height * object.scaleY * scaleFactor) / 2,
+                  newObject.top * scaleFactor +
+                  (newObject.height * newObject.scaleY * scaleFactor) / 2,
                 bubbles: true,
               };
-              editor.canvas.setActiveObject(object); // 刷新画布以显示更改
+              editor.canvas.setActiveObject(newObject); // 刷新画布以显示更改
               canvasElement?.dispatchEvent(new MouseEvent('mouseup', position));
               canvasElement?.dispatchEvent(
                 new MouseEvent('mousedown', position),
@@ -413,13 +452,14 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
           top: canvasObject.y ? canvasObject.y / scaleFactor : centerY,
         };
-        onFabricAddObject(
+        await onFabricAddObject(
           editor,
           positionData,
           canvasObject.type,
           canvasObject.value,
           isAutoObjectPosition,
         );
+
         return;
       }
     } catch (e) {
@@ -467,7 +507,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       </Box>
       {selectedObjects?.length === 1 && controlDiv && (
         <FunctionalitySignPdfShowPdfViewObjectToolsPopup
-          key={activeObject.uniqueKey}
+          key={activeObject.id}
           controlDiv={controlDiv}
           scaleFactor={scaleFactor}
           editor={editor}

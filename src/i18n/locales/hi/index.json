@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__sign_pdf__detail__empty_sign": "खाली हस्ताक्षर",
     "components__sign_pdf__detail__empty_text": "खाली पाठ",
-    "components__sign_pdf__detail__finish": "समाप्त करें और हस्ताक्षर करें"
+    "components__sign_pdf__detail__finish": "समाप्त करें और हस्ताक्षर करें",
+    "components__sign_pdf__operation_view__start__typing": "टाइप करना शुरू करें",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "छवि का चयन करें",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "यहाँ छवि ड्रॉप करें"
   }
 }

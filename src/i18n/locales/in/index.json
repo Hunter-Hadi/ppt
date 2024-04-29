@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Harap unggah jenis file PDF yang ditentukan",
     "components__sign_pdf__detail__empty_sign": "Tanda Tangan Kosong",
     "components__sign_pdf__detail__empty_text": "Teks Kosong",
-    "components__sign_pdf__detail__finish": "Selesai & Tanda Tangani"
+    "components__sign_pdf__detail__finish": "Selesai & Tanda Tangani",
+    "components__sign_pdf__operation_view__start__typing": "Mulai mengetik",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "PILIH GAMBAR",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "atau seret gambar ke sini"
   }
 }

@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__sign_pdf__detail__empty_sign": "Празна подпис",
     "components__sign_pdf__detail__empty_text": "Празен текст",
-    "components__sign_pdf__detail__finish": "Завърши и подпиши"
+    "components__sign_pdf__detail__finish": "Завърши и подпиши",
+    "components__sign_pdf__operation_view__start__typing": "Започнете да пишете",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "ИЗБЕРЕТЕ ИЗОБРАЖЕНИЕ",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "или пуснете изображение тук"
   }
 }

@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Upload venligst den angivne PDF-filtype",
     "components__sign_pdf__detail__empty_sign": "Tom underskrift",
     "components__sign_pdf__detail__empty_text": "Tom tekst",
-    "components__sign_pdf__detail__finish": "Afslut og underskriv"
+    "components__sign_pdf__detail__finish": "Afslut og underskriv",
+    "components__sign_pdf__operation_view__start__typing": "Begynd at skrive",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "VÆLG BILLEDE",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "eller træk billede her"
   }
 }

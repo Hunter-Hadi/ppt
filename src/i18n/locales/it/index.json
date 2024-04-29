@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
     "components__sign_pdf__detail__empty_sign": "Firma Vuota",
     "components__sign_pdf__detail__empty_text": "Testo Vuoto",
-    "components__sign_pdf__detail__finish": "Completa e Firma"
+    "components__sign_pdf__detail__finish": "Completa e Firma",
+    "components__sign_pdf__operation_view__start__typing": "Inizia a digitare",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELEZIONA IMMAGINE",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "oppure trascina l'immagine qui"
   }
 }

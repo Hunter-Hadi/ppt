@@ -2,9 +2,12 @@ import { Button, ButtonGroup, Stack } from '@mui/material';
 import { FC, useState } from 'react';
 import { useRecoilState } from 'recoil';
 
-import { onFabricAddObject } from '../../utils/fabricjsTools';
+import { FunctionalitySignPdfOperationOBjectAtom } from '../../store';
+import {
+  IFabricAddObjectType,
+  onFabricAddObject,
+} from '../../utils/fabricjsTools';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import { FunctionalitySignPdfOperationOBjectAtom } from '../FunctionalitySignPdfMain';
 import FunctionalitySignPdfOperationSignatureModal, {
   ISignatureType,
 } from '../FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationSignatureModal';
@@ -25,7 +28,7 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
     null | 'yourSignature' | 'yourInitials'
   >(null);
 
-  const onAddObject = (type: string, value: string) => {
+  const onAddObject = (type: IFabricAddObjectType, value: string) => {
     try {
       if (!editor) return;
       const positionData = {
@@ -83,7 +86,7 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
           <FunctionalitySignPdfIcon name='Abc' />
         </Button>
         <Button
-          onClick={() => onAddObject('textbox', pdfOperationOBject.textField)}
+          onClick={() => onAddObject('text-box', pdfOperationOBject.textField)}
         >
           <FunctionalitySignPdfIcon name='Title' />
         </Button>

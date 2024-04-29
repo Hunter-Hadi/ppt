@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__sign_pdf__detail__empty_sign": "Signature vide",
     "components__sign_pdf__detail__empty_text": "Texte vide",
-    "components__sign_pdf__detail__finish": "Terminer et signer"
+    "components__sign_pdf__detail__finish": "Terminer et signer",
+    "components__sign_pdf__operation_view__start__typing": "Commencer à taper",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "SÉLECTIONNER UNE IMAGE",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ou déposer l'image ici"
   }
 }

@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
     "components__sign_pdf__detail__empty_sign": "Leere Unterschrift",
     "components__sign_pdf__detail__empty_text": "Leerer Text",
-    "components__sign_pdf__detail__finish": "Abschließen und unterschreiben"
+    "components__sign_pdf__detail__finish": "Abschließen und unterschreiben",
+    "components__sign_pdf__operation_view__start__typing": "Mit dem Tippen beginnen",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "BILD AUSWÄHLEN",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "oder Bild hier ablegen"
   }
 }

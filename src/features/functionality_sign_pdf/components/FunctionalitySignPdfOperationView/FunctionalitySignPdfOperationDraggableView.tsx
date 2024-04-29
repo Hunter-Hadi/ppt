@@ -2,6 +2,7 @@ import { useDraggable } from '@dnd-kit/core';
 import { Box, Stack } from '@mui/material';
 import { FC } from 'react';
 
+import { IFabricAddObjectType } from '../../utils/fabricjsTools';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 
 /**
@@ -11,9 +12,9 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
   id: string;
   dragDisabled?: boolean;
   children: React.ReactNode;
-  data?: { type: string; value?: string };
+  data?: { type: IFabricAddObjectType; value?: string };
   onIconClick?: () => void;
-  onWrapClick?: (type: string, value: string) => void;
+  onWrapClick?: (type: IFabricAddObjectType, value: string) => void;
 }> = ({ id, data, children, dragDisabled, onIconClick, onWrapClick }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,

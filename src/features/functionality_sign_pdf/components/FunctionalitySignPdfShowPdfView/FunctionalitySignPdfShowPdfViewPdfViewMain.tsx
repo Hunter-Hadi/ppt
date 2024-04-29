@@ -36,6 +36,7 @@ export interface IFunctionalitySignPdfShowPdfViewHandles {
 
 interface IFunctionalitySignPdfShowPdfViewProps {
   file: File;
+  onChangePdfHaveSignObjectNumber?: (number: number) => void;
 }
 /**
  * 签名PDF处的视图
@@ -43,7 +44,7 @@ interface IFunctionalitySignPdfShowPdfViewProps {
 export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
-> = ({ file }, handleRef) => {
+> = ({ file, onChangePdfHaveSignObjectNumber }, handleRef) => {
   const { t } = useTranslation();
   const wrapRef = useRef<HTMLDivElement>(null);
 
@@ -54,7 +55,10 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   const [numPages, setNumPages] = useState<number>(0);
   const defaultWidth = useRef(700); //TODO:应该是根据pdf宽度变更，但目前用着没问题，先这样，后续再调整
   const pageRefs = useRef<HTMLElement[]>([]);
-
+  const [allPageCanvasNumberObject, setAllPageCanvasNumberObject] = useState<{
+    [key in number]: number;
+  }>({});
+  //  const pdfHaveSignObjectNumber = useMemo(()=>Object.keys(allPageCanvasNumberObject).length > 0,[allPageCanvasNumberObject])
   const [selfAdaptionWidth, setSelfAdaptionWidth] = useState<number>(
     defaultWidth.current,
   ); //根据窗口调节宽度
@@ -81,6 +85,15 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       clearInterval(interval);
     };
   }, [scrollTime]);
+  useEffect(() => {
+    //通知父级 签名的对象数量
+    onChangePdfHaveSignObjectNumber &&
+      onChangePdfHaveSignObjectNumber(
+        Object.keys(allPageCanvasNumberObject)
+          .map((key) => allPageCanvasNumberObject[key])
+          .reduce((pre, cur) => pre + cur, 0),
+      );
+  }, [allPageCanvasNumberObject]);
   const [pagesInitialSizeList, setPagesInitialSizeList] = useState<
     {
       width: number;
@@ -219,6 +232,11 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       }
     }
   };
+  const onChangeObjectNumber = (index: number, number: number) => {
+    setAllPageCanvasNumberObject((pre) => {
+      return { ...pre, [index]: number };
+    });
+  };
   return (
     <Stack
       ref={wrapRef}
@@ -295,6 +313,9 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                             canvasHandlesRefs.current[index] = el;
                           }
                         }}
+                        onChangeObjectNumber={(number) =>
+                          onChangeObjectNumber(index, number)
+                        }
                         addIndexObject={(object, index) => {
                           if (!canvasHandlesRefs.current[index]) return;
                           const addObjectFunction =

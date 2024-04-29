@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "กรุณาอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__sign_pdf__detail__empty_sign": "ลายเซ็นว่างเปล่า",
     "components__sign_pdf__detail__empty_text": "ข้อความว่างเปล่า",
-    "components__sign_pdf__detail__finish": "เสร็จสิ้นและลงลายเซ็น"
+    "components__sign_pdf__detail__finish": "เสร็จสิ้นและลงลายเซ็น",
+    "components__sign_pdf__operation_view__start__typing": "เริ่มพิมพ์",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "เลือกภาพ",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "หรือวางภาพที่นี่"
   }
 }

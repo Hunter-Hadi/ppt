@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "Naložite določeno vrsto PDF datoteke",
     "components__sign_pdf__detail__empty_sign": "Prazen podpis",
     "components__sign_pdf__detail__empty_text": "Prazen tekst",
-    "components__sign_pdf__detail__finish": "Končaj in podpiši"
+    "components__sign_pdf__detail__finish": "Končaj in podpiši",
+    "components__sign_pdf__operation_view__start__typing": "Začnite tipkati",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "IZBERI SLIKO",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ali spustite sliko sem"
   }
 }

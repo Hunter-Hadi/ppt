@@ -989,6 +989,9 @@
     "components__sign_pdf__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__sign_pdf__detail__empty_sign": "امضای خالی",
     "components__sign_pdf__detail__empty_text": "متن خالی",
-    "components__sign_pdf__detail__finish": "پایان دادن و امضا کردن"
+    "components__sign_pdf__detail__finish": "پایان دادن و امضا کردن",
+    "components__sign_pdf__operation_view__start__typing": "شروع تایپ",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "انتخاب تصویر",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "یا تصویر را اینجا رها کنید"
   }
 }
