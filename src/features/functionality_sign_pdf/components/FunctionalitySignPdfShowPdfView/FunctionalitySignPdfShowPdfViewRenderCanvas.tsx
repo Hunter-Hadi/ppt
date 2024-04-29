@@ -143,72 +143,64 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }
   };
   //检查是否移动到另一个画布
-  const checkAndMoveToAnotherCanvas = (obj) => {
+  const checkAndMoveToAnotherCanvas = (event) => {
+    const targetObject = event.target;
+    const pointerY = event.pointer.y;
     // 假定canvasIndex和fabricList已经定义并可用
-    if (deleteObjectKey.current.includes(obj.uniqueKey)) return;
+    if (deleteObjectKey.current.includes(targetObject.uniqueKey)) return;
 
     const canvasBounds = {
       height: editor?.canvas.height,
     };
-    const objBounds = obj.getBoundingRect();
-    console.log('canvasBounds', canvasBounds, objBounds);
-
+    const objBounds = targetObject.getBoundingRect();
     let addPositionType: null | 'top' | 'bottom' = null;
     // 检查是否移动到了上面的边缘
-    if (objBounds.top < -50 && canvasIndex !== 0) {
+    const intervalTriggerDistance = 100; //触发间隔距离
+    if (objBounds.top < -intervalTriggerDistance && canvasIndex !== 0) {
       addPositionType = 'top';
     }
     // 检查是否移动到了下面的边缘
     else if (
-      objBounds.top + objBounds.height > canvasBounds.height + 50 &&
+      pointerY > canvasBounds.height + intervalTriggerDistance &&
+      objBounds.top + objBounds.height >
+        canvasBounds.height + intervalTriggerDistance &&
       canvasIndex !== canvasNumber - 1
     ) {
       addPositionType = 'bottom';
     }
-    // 如果确定要移动到另一个画布
+    // 如果确定要移动到另一个画布;
     if (addPositionType !== null) {
-      moveToAnotherCanvas(obj, addPositionType);
+      moveToAnotherCanvas(targetObject, addPositionType);
     }
   };
   //移动到另一个画布
   const moveToAnotherCanvas = (
-    obj,
+    targetObject,
     addPositionType: 'top' | 'bottom' = 'top',
   ) => {
-    // 从当前画布删除对象
-    console.log(
-      'simply moveToAnotherCanvas',
-      canvasIndex,
-      addPositionType,
-      obj,
-    );
-
-    if (deleteObjectKey.current.includes(obj.uniqueKey)) return; //已经删除的对象不再处理
-    deleteObjectKey.current.push(obj.uniqueKey);
-    obj.canvas.remove(obj);
+    if (deleteObjectKey.current.includes(targetObject.uniqueKey)) return; //已经删除的对象不再处理
+    deleteObjectKey.current.push(targetObject.uniqueKey);
     // 获取目标画布
     setWindowScrollKey(new Date().valueOf());
+    targetObject.canvas.remove(targetObject);
     if (addPositionType === 'bottom') {
-      obj.set('top', 0);
-      obj.top = 0;
-      console.log('simply ------------', addPositionType, obj);
+      targetObject.set('top', 0);
+      targetObject.top = 0;
       // 现在，克隆这个对象
-      obj.clone(function (clone) {
+      targetObject.clone(function (clone) {
         // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
         clone.set({
           top: 0,
         });
-        console.log('simply ------------', addPositionType, clone);
-
         addIndexObject && addIndexObject(clone, canvasIndex + 1);
       });
     } else if (addPositionType === 'top') {
-      obj.clone(function (clone) {
+      targetObject.clone(function (clone) {
         // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
         clone.set({
-          top: editor?.canvas.height - obj.height * obj.scaleY,
+          top:
+            editor?.canvas.height - targetObject.height * targetObject.scaleY,
         });
-        console.log('simply ------------', addPositionType, clone);
 
         addIndexObject && addIndexObject(clone, canvasIndex - 1);
       });
@@ -310,11 +302,11 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           console.log('simply object:moving-----', e);
           // 对象移动监听 - 保证操作div跟随移动
           handleObjectSelected(e.target);
-          const obj = e.target;
-          obj.setCoords();
-          constrainWithinCanvas(obj);
-
-          checkAndMoveToAnotherCanvas(obj);
+          const targetObject = e.target;
+          const pointerY = e.pointer.y;
+          targetObject.setCoords();
+          constrainWithinCanvas(targetObject);
+          checkAndMoveToAnotherCanvas(e);
         });
         // 对象移动监听 - 保证操作div跟随移动
         editor.canvas.on('object:scaling', function (e) {
@@ -373,39 +365,42 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const onAddObject = async (
     canvasObject?: ICanvasObjectData,
     object?: fabric.Object,
-    isAutoObjectSizePosition?: boolean,
+    isAutoObjectPosition?: boolean, //是否自动优化对象位置
+    isAutoObjectDragPosition: boolean = true, //是否自动拖动对象位置
   ) => {
     try {
       if (!editor) return;
       if (object) {
         topWrapRef.current?.focus();
         if (topWrapRef.current) {
+          //直接添加object，会以object的top left添加上去
           object.uniqueKey = uuidV4();
           object.set('mtr', false);
           await editor.canvas.add(object);
           await editor.canvas.requestRenderAll(); // 刷新画布以显示更改
-
-          const canvas = topWrapRef.current?.querySelector(
-            `.canvas-container .upper-canvas`,
-          );
-          console.log('simply----- canvas', canvas);
-
-          if (canvas) {
-            const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
-            const position = {
-              clientX:
-                (object.left + object.width / 2) * scaleFactor +
-                topWrapRefRect.x,
-              clientY:
-                (object.top + object.height / 2) * scaleFactor +
-                topWrapRefRect.y,
-            };
-            editor.canvas.setActiveObject(object); // 刷新画布以显示更改
-
-            console.log('simply MouseEventMouseEvent position', position);
-            editor.canvas.setActiveObject(object); // 刷新画布以显示更改
-            canvas?.dispatchEvent(new MouseEvent('mouseup', position));
-            canvas?.dispatchEvent(new MouseEvent('mousedown', position));
+          if (isAutoObjectDragPosition) {
+            const canvasElement = editor.canvas.upperCanvasEl;
+            if (canvasElement) {
+              //这是拖动过来，代表需要自动js触发鼠标事件
+              const topWrapRefRect =
+                topWrapRef.current?.getBoundingClientRect();
+              const position = {
+                clientX:
+                  topWrapRefRect.x +
+                  object.left * scaleFactor +
+                  (object.width * object.scaleX * scaleFactor) / 2,
+                clientY:
+                  topWrapRefRect.y +
+                  object.top * scaleFactor +
+                  (object.height * object.scaleY * scaleFactor) / 2,
+                bubbles: true,
+              };
+              editor.canvas.setActiveObject(object); // 刷新画布以显示更改
+              canvasElement?.dispatchEvent(new MouseEvent('mouseup', position));
+              canvasElement?.dispatchEvent(
+                new MouseEvent('mousedown', position),
+              );
+            }
           }
         }
         return;
@@ -423,7 +418,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           positionData,
           canvasObject.type,
           canvasObject.value,
-          isAutoObjectSizePosition,
+          isAutoObjectPosition,
         );
         return;
       }
