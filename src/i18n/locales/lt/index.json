@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Baigti ir pasirašyti",
     "components__sign_pdf__operation_view__start__typing": "Pradėti rašyti",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "PASIRINKTI PAVEIKSLĖLĮ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "arba nutempti paveikslėlį čia"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "arba nutempti paveikslėlį čia",
+    "components__sign_pdf__complete_signature_info__status": "Būsena",
+    "components__sign_pdf__complete_signature_info__completed": "Baigta",
+    "components__sign_pdf__complete_signature_info__signed_on": "Pasirašyta:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Pasirašymo informacija",
+    "components__sign_pdf__complete_signature_info__secure_environment": "saugi aplinka",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Vietinis analizavimas",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Vietinis piešimas",
+    "components__sign_pdf__complete_signature_info__local_signature": "Vietinis parašas",
+    "components__sign_pdf__complete_signature_info__local_operation": "Vietinė operacija",
+    "components__sign_pdf__complete_signature_info__local_download": "Vietinis atsisiuntimas",
+    "components__sign_pdf__complete_signature_info__download": "Atsisiųsti",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pasirašykite PDF pagrindinį puslapį"
   }
 }

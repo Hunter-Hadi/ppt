@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Finalitza i Signa",
     "components__sign_pdf__operation_view__start__typing": "Comença a escriure",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECCIONA IMATGE",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "o deixa anar la imatge aquí"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "o deixa anar la imatge aquí",
+    "components__sign_pdf__complete_signature_info__status": "Estat",
+    "components__sign_pdf__complete_signature_info__completed": "Completat",
+    "components__sign_pdf__complete_signature_info__signed_on": "Signat el:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informació signada",
+    "components__sign_pdf__complete_signature_info__secure_environment": "entorn segur",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Anàlisi local",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Dibuix local",
+    "components__sign_pdf__complete_signature_info__local_signature": "Signatura local",
+    "components__sign_pdf__complete_signature_info__local_operation": "Operació local",
+    "components__sign_pdf__complete_signature_info__local_download": "Descàrrega local",
+    "components__sign_pdf__complete_signature_info__download": "Descarregar",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pàgina d'inici de Signar PDF"
   }
 }

@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Dokončit a podepsat",
     "components__sign_pdf__operation_view__start__typing": "Začít psát",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "VYBRAT OBRÁZEK",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "nebo sem přetáhněte obrázek"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "nebo sem přetáhněte obrázek",
+    "components__sign_pdf__complete_signature_info__status": "Stav",
+    "components__sign_pdf__complete_signature_info__completed": "Dokončeno",
+    "components__sign_pdf__complete_signature_info__signed_on": "Podpisováno:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informace o podpisu",
+    "components__sign_pdf__complete_signature_info__secure_environment": "bezpečné prostředí",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokální analýza",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokální kreslení",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokální podpis",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokální operace",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokální stahování",
+    "components__sign_pdf__complete_signature_info__download": "Stáhnout",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domovská stránka pro podpis PDF"
   }
 }

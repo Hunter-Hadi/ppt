@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Завърши и подпиши",
     "components__sign_pdf__operation_view__start__typing": "Започнете да пишете",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "ИЗБЕРЕТЕ ИЗОБРАЖЕНИЕ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "или пуснете изображение тук"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "или пуснете изображение тук",
+    "components__sign_pdf__complete_signature_info__status": "Статус",
+    "components__sign_pdf__complete_signature_info__completed": "Завършено",
+    "components__sign_pdf__complete_signature_info__signed_on": "Подписан на:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Информация за подписа",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Сигурна среда",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Локално анализиране",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Локално рисуване",
+    "components__sign_pdf__complete_signature_info__local_signature": "Локален подпис",
+    "components__sign_pdf__complete_signature_info__local_operation": "Локална операция",
+    "components__sign_pdf__complete_signature_info__local_download": "Локално изтегляне",
+    "components__sign_pdf__complete_signature_info__download": "Изтегляне",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Начална страница за подписване на PDF"
   }
 }

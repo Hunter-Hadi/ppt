@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Završi i potpiši",
     "components__sign_pdf__operation_view__start__typing": "Počnite kucati",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "IZABERITE SLIKU",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ili prevucite sliku ovde"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ili prevucite sliku ovde",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Završeno",
+    "components__sign_pdf__complete_signature_info__signed_on": "Potpisano:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informacije o potpisu",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Sigurno okruženje",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokalno parsiranje",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokalno crtanje",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokalni potpis",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokalna operacija",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokalno preuzimanje",
+    "components__sign_pdf__complete_signature_info__download": "Preuzmi",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Početna stranica za potpisivanje PDF-a"
   }
 }

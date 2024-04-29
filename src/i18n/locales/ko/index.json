@@ -989,6 +989,21 @@
     "components__sign_pdf__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
     "components__sign_pdf__detail__empty_sign": "빈 서명",
     "components__sign_pdf__detail__empty_text": "빈 텍스트",
-    "components__sign_pdf__detail__finish": "완료 및 서명"
+    "components__sign_pdf__detail__finish": "완료 및 서명",
+    "components__sign_pdf__operation_view__start__typing": "입력 시작",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "이미지 선택",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "또는 이미지를 여기에 놓으세요",
+    "components__sign_pdf__complete_signature_info__status": "상태",
+    "components__sign_pdf__complete_signature_info__completed": "완료됨",
+    "components__sign_pdf__complete_signature_info__signed_on": "서명 날짜:",
+    "components__sign_pdf__complete_signature_info__signed_info": "서명 정보",
+    "components__sign_pdf__complete_signature_info__secure_environment": "안전한 환경",
+    "components__sign_pdf__complete_signature_info__local_parsing": "로컬 파싱",
+    "components__sign_pdf__complete_signature_info__local_drawing": "로컬 그리기",
+    "components__sign_pdf__complete_signature_info__local_signature": "로컬 서명",
+    "components__sign_pdf__complete_signature_info__local_operation": "로컬 작업",
+    "components__sign_pdf__complete_signature_info__local_download": "로컬 다운로드",
+    "components__sign_pdf__complete_signature_info__download": "다운로드",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF 서명 홈페이지"
   }
 }

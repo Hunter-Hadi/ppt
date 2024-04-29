@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Завершити та підписати",
     "components__sign_pdf__operation_view__start__typing": "Почніть вводити",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "ВИБРАТИ ЗОБРАЖЕННЯ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "або перетягніть зображення сюди"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "або перетягніть зображення сюди",
+    "components__sign_pdf__complete_signature_info__status": "Статус",
+    "components__sign_pdf__complete_signature_info__completed": "Завершено",
+    "components__sign_pdf__complete_signature_info__signed_on": "Підписано:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Інформація про підпис",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Безпечне середовище",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Локальний аналіз",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Локальне малювання",
+    "components__sign_pdf__complete_signature_info__local_signature": "Локальний підпис",
+    "components__sign_pdf__complete_signature_info__local_operation": "Локальна операція",
+    "components__sign_pdf__complete_signature_info__local_download": "Локальне завантаження",
+    "components__sign_pdf__complete_signature_info__download": "Завантажити",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Домашня сторінка підпису PDF"
   }
 }

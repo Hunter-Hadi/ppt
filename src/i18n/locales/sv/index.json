@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Slutför och signera",
     "components__sign_pdf__operation_view__start__typing": "Börja skriva",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "VÄLJ BILD",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "eller släpp bild här"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "eller släpp bild här",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Slutfört",
+    "components__sign_pdf__complete_signature_info__signed_on": "Undertecknad den:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Underteckningsinformation",
+    "components__sign_pdf__complete_signature_info__secure_environment": "säker miljö",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokal analys",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokal ritning",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokal signatur",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokal operation",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokal nedladdning",
+    "components__sign_pdf__complete_signature_info__download": "Nedladdning",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signera PDF Hemsida"
   }
 }

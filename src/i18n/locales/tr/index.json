@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Tamamla ve İmzala",
     "components__sign_pdf__operation_view__start__typing": "Yazmaya başla",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "RESİM SEÇ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "veya buraya resim bırakın"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "veya buraya resim bırakın",
+    "components__sign_pdf__complete_signature_info__status": "Durum",
+    "components__sign_pdf__complete_signature_info__completed": "Tamamlandı",
+    "components__sign_pdf__complete_signature_info__signed_on": "Tarihinde imzalandı:",
+    "components__sign_pdf__complete_signature_info__signed_info": "İmzalanan Bilgiler",
+    "components__sign_pdf__complete_signature_info__secure_environment": "güvenli ortam",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Yerel ayrıştırma",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Yerel çizim",
+    "components__sign_pdf__complete_signature_info__local_signature": "Yerel imza",
+    "components__sign_pdf__complete_signature_info__local_operation": "Yerel işlem",
+    "components__sign_pdf__complete_signature_info__local_download": "Yerel indirme",
+    "components__sign_pdf__complete_signature_info__download": "İndir",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF İmzala Ana Sayfa"
   }
 }

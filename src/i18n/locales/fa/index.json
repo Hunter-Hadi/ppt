@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "پایان دادن و امضا کردن",
     "components__sign_pdf__operation_view__start__typing": "شروع تایپ",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "انتخاب تصویر",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "یا تصویر را اینجا رها کنید"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "یا تصویر را اینجا رها کنید",
+    "components__sign_pdf__complete_signature_info__status": "وضعیت",
+    "components__sign_pdf__complete_signature_info__completed": "تکمیل شده",
+    "components__sign_pdf__complete_signature_info__signed_on": "امضا شده در:",
+    "components__sign_pdf__complete_signature_info__signed_info": "اطلاعات امضا شده",
+    "components__sign_pdf__complete_signature_info__secure_environment": "محیط امن",
+    "components__sign_pdf__complete_signature_info__local_parsing": "تجزیه محلی",
+    "components__sign_pdf__complete_signature_info__local_drawing": "نقاشی محلی",
+    "components__sign_pdf__complete_signature_info__local_signature": "امضای محلی",
+    "components__sign_pdf__complete_signature_info__local_operation": "عملیات محلی",
+    "components__sign_pdf__complete_signature_info__local_download": "دانلود محلی",
+    "components__sign_pdf__complete_signature_info__download": "دانلود",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحه اصلی امضای PDF"
   }
 }

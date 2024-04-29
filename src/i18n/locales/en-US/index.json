@@ -629,7 +629,19 @@
     "components__sign_pdf__detail__empty_text": "Empty Text",
     "components__sign_pdf__detail__finish": "Finish & Sign",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECT IMAGE",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "or drop image here"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "or drop image here",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Completed",
+    "components__sign_pdf__complete_signature_info__signed_on": "Signed on:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Signed Info",
+    "components__sign_pdf__complete_signature_info__secure_environment": "secure environment",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Local parsing",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Local drawing",
+    "components__sign_pdf__complete_signature_info__local_signature": "Local signature",
+    "components__sign_pdf__complete_signature_info__local_operation": "Local operation",
+    "components__sign_pdf__complete_signature_info__local_download": "Local download",
+    "components__sign_pdf__complete_signature_info__download": "Download",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Sign PDF Homepage"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Zakończ i podpisz",
     "components__sign_pdf__operation_view__start__typing": "Rozpocznij pisanie",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "WYBIERZ OBRAZ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "lub upuść obraz tutaj"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "lub upuść obraz tutaj",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Zakończono",
+    "components__sign_pdf__complete_signature_info__signed_on": "Podpisano:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informacje o podpisie",
+    "components__sign_pdf__complete_signature_info__secure_environment": "bezpieczne środowisko",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokalny analizator",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokalne rysowanie",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokalny podpis",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokalna operacja",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokalne pobieranie",
+    "components__sign_pdf__complete_signature_info__download": "Pobierz",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Strona główna podpisu PDF"
   }
 }

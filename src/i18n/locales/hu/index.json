@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Befejezés és aláírás",
     "components__sign_pdf__operation_view__start__typing": "Kezdje el gépelni",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "KÉP KIVÁLASZTÁSA",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "vagy dobja ide a képet"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "vagy dobja ide a képet",
+    "components__sign_pdf__complete_signature_info__status": "Állapot",
+    "components__sign_pdf__complete_signature_info__completed": "Befejezve",
+    "components__sign_pdf__complete_signature_info__signed_on": "Aláírva:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Aláírási információk",
+    "components__sign_pdf__complete_signature_info__secure_environment": "biztonságos környezet",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Helyi elemzés",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Helyi rajzolás",
+    "components__sign_pdf__complete_signature_info__local_signature": "Helyi aláírás",
+    "components__sign_pdf__complete_signature_info__local_operation": "Helyi művelet",
+    "components__sign_pdf__complete_signature_info__local_download": "Helyi letöltés",
+    "components__sign_pdf__complete_signature_info__download": "Letöltés",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Aláírt PDF kezdőlap"
   }
 }

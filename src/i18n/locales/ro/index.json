@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Finalizează și semnează",
     "components__sign_pdf__operation_view__start__typing": "Începeți să tastați",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECTAȚI IMAGINEA",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "sau lăsați imaginea aici"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "sau lăsați imaginea aici",
+    "components__sign_pdf__complete_signature_info__status": "Stare",
+    "components__sign_pdf__complete_signature_info__completed": "Finalizat",
+    "components__sign_pdf__complete_signature_info__signed_on": "Semnat la:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informații semnate",
+    "components__sign_pdf__complete_signature_info__secure_environment": "mediu securizat",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Analiză locală",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Desenare locală",
+    "components__sign_pdf__complete_signature_info__local_signature": "Semnătură locală",
+    "components__sign_pdf__complete_signature_info__local_operation": "Operație locală",
+    "components__sign_pdf__complete_signature_info__local_download": "Descărcare locală",
+    "components__sign_pdf__complete_signature_info__download": "Descărcare",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principală Semnare PDF"
   }
 }

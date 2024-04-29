@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Tapos na & Lagda",
     "components__sign_pdf__operation_view__start__typing": "Simulan ang pagtatype",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "PUMILI NG LARAWAN",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "o i-drop ang larawan dito"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "o i-drop ang larawan dito",
+    "components__sign_pdf__complete_signature_info__status": "Katayuan",
+    "components__sign_pdf__complete_signature_info__completed": "Tapos na",
+    "components__sign_pdf__complete_signature_info__signed_on": "Lagda noong:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Impormasyon sa Lagda",
+    "components__sign_pdf__complete_signature_info__secure_environment": "lugar ng seguridad",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokal na pag-parse",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokal na pagguhit",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokal na lagda",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokal na operasyon",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokal na pag-download",
+    "components__sign_pdf__complete_signature_info__download": "I-download",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Tahanan ng Pagsasagawa ng PDF"
   }
 }

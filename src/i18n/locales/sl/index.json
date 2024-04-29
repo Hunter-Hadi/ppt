@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Končaj in podpiši",
     "components__sign_pdf__operation_view__start__typing": "Začnite tipkati",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "IZBERI SLIKO",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ali spustite sliko sem"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ali spustite sliko sem",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Dokončano",
+    "components__sign_pdf__complete_signature_info__signed_on": "Podpisano:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Podpisne informacije",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Varno okolje",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokalno razčlenjevanje",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokalno risanje",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokalni podpis",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokalno delovanje",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokalno prenašanje",
+    "components__sign_pdf__complete_signature_info__download": "Prenesi",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domov"
   }
 }

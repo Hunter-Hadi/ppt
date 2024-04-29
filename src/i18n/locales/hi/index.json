@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "समाप्त करें और हस्ताक्षर करें",
     "components__sign_pdf__operation_view__start__typing": "टाइप करना शुरू करें",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "छवि का चयन करें",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "यहाँ छवि ड्रॉप करें"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "यहाँ छवि ड्रॉप करें",
+    "components__sign_pdf__complete_signature_info__status": "स्थिति",
+    "components__sign_pdf__complete_signature_info__completed": "पूरा हुआ",
+    "components__sign_pdf__complete_signature_info__signed_on": "पर हस्ताक्षर किया गया:",
+    "components__sign_pdf__complete_signature_info__signed_info": "हस्ताक्षर जानकारी",
+    "components__sign_pdf__complete_signature_info__secure_environment": "सुरक्षित वातावरण",
+    "components__sign_pdf__complete_signature_info__local_parsing": "स्थानीय पार्सिंग",
+    "components__sign_pdf__complete_signature_info__local_drawing": "स्थानीय ड्राइंग",
+    "components__sign_pdf__complete_signature_info__local_signature": "स्थानीय हस्ताक्षर",
+    "components__sign_pdf__complete_signature_info__local_operation": "स्थानीय कार्य",
+    "components__sign_pdf__complete_signature_info__local_download": "स्थानीय डाउनलोड",
+    "components__sign_pdf__complete_signature_info__download": "डाउनलोड",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "हस्ताक्षर पीडीएफ होमपेज"
   }
 }

@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Terminer et signer",
     "components__sign_pdf__operation_view__start__typing": "Commencer à taper",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "SÉLECTIONNER UNE IMAGE",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ou déposer l'image ici"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ou déposer l'image ici",
+    "components__sign_pdf__complete_signature_info__status": "Statut",
+    "components__sign_pdf__complete_signature_info__completed": "Terminé",
+    "components__sign_pdf__complete_signature_info__signed_on": "Signé le :",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informations de signature",
+    "components__sign_pdf__complete_signature_info__secure_environment": "environnement sécurisé",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Analyse locale",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Dessin local",
+    "components__sign_pdf__complete_signature_info__local_signature": "Signature locale",
+    "components__sign_pdf__complete_signature_info__local_operation": "Opération locale",
+    "components__sign_pdf__complete_signature_info__local_download": "Téléchargement local",
+    "components__sign_pdf__complete_signature_info__download": "Télécharger",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Page d'accueil de la signature PDF"
   }
 }

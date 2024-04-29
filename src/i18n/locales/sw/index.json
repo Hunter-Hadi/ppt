@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Maliza & Saini",
     "components__sign_pdf__operation_view__start__typing": "Anza kuandika",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "CHAGUA PICHA",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "au weka picha hapa"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "au weka picha hapa",
+    "components__sign_pdf__complete_signature_info__status": "Hali",
+    "components__sign_pdf__complete_signature_info__completed": "Imekamilika",
+    "components__sign_pdf__complete_signature_info__signed_on": "Imesainiwa tarehe:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Maelezo ya Kusainiwa",
+    "components__sign_pdf__complete_signature_info__secure_environment": "mazingira salama",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Uchambuzi wa Ndani",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Kuchora kwa Ndani",
+    "components__sign_pdf__complete_signature_info__local_signature": "Saini ya Ndani",
+    "components__sign_pdf__complete_signature_info__local_operation": "Operesheni ya Ndani",
+    "components__sign_pdf__complete_signature_info__local_download": "Upakuaji wa Ndani",
+    "components__sign_pdf__complete_signature_info__download": "Pakua",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Nyumbani kwa Kusaini PDF"
   }
 }

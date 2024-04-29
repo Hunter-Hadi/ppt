@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "เสร็จสิ้นและลงลายเซ็น",
     "components__sign_pdf__operation_view__start__typing": "เริ่มพิมพ์",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "เลือกภาพ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "หรือวางภาพที่นี่"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "หรือวางภาพที่นี่",
+    "components__sign_pdf__complete_signature_info__status": "สถานะ",
+    "components__sign_pdf__complete_signature_info__completed": "เสร็จสิ้นแล้ว",
+    "components__sign_pdf__complete_signature_info__signed_on": "ลงชื่อเมื่อ:",
+    "components__sign_pdf__complete_signature_info__signed_info": "ข้อมูลการลงชื่อ",
+    "components__sign_pdf__complete_signature_info__secure_environment": "สภาพแวดล้อมที่ปลอดภัย",
+    "components__sign_pdf__complete_signature_info__local_parsing": "การแยกวิเคราะห์ในเครื่อง",
+    "components__sign_pdf__complete_signature_info__local_drawing": "การวาดในเครื่อง",
+    "components__sign_pdf__complete_signature_info__local_signature": "ลายเซ็นในเครื่อง",
+    "components__sign_pdf__complete_signature_info__local_operation": "การดำเนินการในเครื่อง",
+    "components__sign_pdf__complete_signature_info__local_download": "ดาวน์โหลดในเครื่อง",
+    "components__sign_pdf__complete_signature_info__download": "ดาวน์โหลด",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "หน้าหลักลงชื่อ PDF"
   }
 }

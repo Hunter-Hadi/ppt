@@ -991,6 +991,18 @@
     "components__sign_pdf__detail__finish": "סיום וחתימה",
     "components__sign_pdf__operation_view__start__typing": "התחל להקליד",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "בחר תמונה",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "או גרור תמונה לכאן"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "או גרור תמונה לכאן",
+    "components__sign_pdf__complete_signature_info__status": "סטטוס",
+    "components__sign_pdf__complete_signature_info__completed": "הושלם",
+    "components__sign_pdf__complete_signature_info__signed_on": "חתום בתאריך:",
+    "components__sign_pdf__complete_signature_info__signed_info": "מידע חתימה",
+    "components__sign_pdf__complete_signature_info__secure_environment": "סביבה מאובטחת",
+    "components__sign_pdf__complete_signature_info__local_parsing": "ניתוח מקומי",
+    "components__sign_pdf__complete_signature_info__local_drawing": "שרטוט מקומי",
+    "components__sign_pdf__complete_signature_info__local_signature": "חתימה מקומית",
+    "components__sign_pdf__complete_signature_info__local_operation": "פעולה מקומית",
+    "components__sign_pdf__complete_signature_info__local_download": "הורדה מקומית",
+    "components__sign_pdf__complete_signature_info__download": "הורדה",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "דף הבית של חתימת PDF"
   }
 }

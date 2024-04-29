@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "完成并签署",
     "components__sign_pdf__operation_view__start__typing": "开始输入",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "选择图片",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "或将图片拖放到此处"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "或将图片拖放到此处",
+    "components__sign_pdf__complete_signature_info__status": "状态",
+    "components__sign_pdf__complete_signature_info__completed": "已完成",
+    "components__sign_pdf__complete_signature_info__signed_on": "签署日期：",
+    "components__sign_pdf__complete_signature_info__signed_info": "签署信息",
+    "components__sign_pdf__complete_signature_info__secure_environment": "安全环境",
+    "components__sign_pdf__complete_signature_info__local_parsing": "本地解析",
+    "components__sign_pdf__complete_signature_info__local_drawing": "本地绘制",
+    "components__sign_pdf__complete_signature_info__local_signature": "本地签名",
+    "components__sign_pdf__complete_signature_info__local_operation": "本地操作",
+    "components__sign_pdf__complete_signature_info__local_download": "本地下载",
+    "components__sign_pdf__complete_signature_info__download": "下载",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "签署PDF主页"
   }
 }

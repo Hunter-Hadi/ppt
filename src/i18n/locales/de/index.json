@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Abschließen und unterschreiben",
     "components__sign_pdf__operation_view__start__typing": "Mit dem Tippen beginnen",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "BILD AUSWÄHLEN",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "oder Bild hier ablegen"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "oder Bild hier ablegen",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Abgeschlossen",
+    "components__sign_pdf__complete_signature_info__signed_on": "Unterzeichnet am:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Unterschriftsinformationen",
+    "components__sign_pdf__complete_signature_info__secure_environment": "sichere Umgebung",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokale Analyse",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokales Zeichnen",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokale Unterschrift",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokaler Vorgang",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokaler Download",
+    "components__sign_pdf__complete_signature_info__download": "Herunterladen",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signieren der PDF-Homepage"
   }
 }

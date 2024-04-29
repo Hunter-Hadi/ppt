@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Concluir e Assinar",
     "components__sign_pdf__operation_view__start__typing": "Começar a digitar",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECIONAR IMAGEM",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ou soltar imagem aqui"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "ou soltar imagem aqui",
+    "components__sign_pdf__complete_signature_info__status": "Estado",
+    "components__sign_pdf__complete_signature_info__completed": "Concluído",
+    "components__sign_pdf__complete_signature_info__signed_on": "Assinado em:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informações de Assinatura",
+    "components__sign_pdf__complete_signature_info__secure_environment": "ambiente seguro",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Análise Local",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Desenho Local",
+    "components__sign_pdf__complete_signature_info__local_signature": "Assinatura Local",
+    "components__sign_pdf__complete_signature_info__local_operation": "Operação Local",
+    "components__sign_pdf__complete_signature_info__local_download": "Download Local",
+    "components__sign_pdf__complete_signature_info__download": "Download",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Página Inicial de Assinatura de PDF"
   }
 }

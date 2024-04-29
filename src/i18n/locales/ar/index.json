@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "إنهاء وتوقيع",
     "components__sign_pdf__operation_view__start__typing": "ابدأ الكتابة",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "اختر صورة",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "أو اسحب الصورة هنا"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "أو اسحب الصورة هنا",
+    "components__sign_pdf__complete_signature_info__status": "الحالة",
+    "components__sign_pdf__complete_signature_info__completed": "تم الانتهاء",
+    "components__sign_pdf__complete_signature_info__signed_on": "تم التوقيع في:",
+    "components__sign_pdf__complete_signature_info__signed_info": "معلومات التوقيع",
+    "components__sign_pdf__complete_signature_info__secure_environment": "بيئة آمنة",
+    "components__sign_pdf__complete_signature_info__local_parsing": "تحليل محلي",
+    "components__sign_pdf__complete_signature_info__local_drawing": "رسم محلي",
+    "components__sign_pdf__complete_signature_info__local_signature": "توقيع محلي",
+    "components__sign_pdf__complete_signature_info__local_operation": "عملية محلية",
+    "components__sign_pdf__complete_signature_info__local_download": "تنزيل محلي",
+    "components__sign_pdf__complete_signature_info__download": "تنزيل",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحة الصفحة الرئيسية لتوقيع PDF"
   }
 }

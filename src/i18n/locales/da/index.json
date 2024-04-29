@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Afslut og underskriv",
     "components__sign_pdf__operation_view__start__typing": "Begynd at skrive",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "VÆLG BILLEDE",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "eller træk billede her"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "eller træk billede her",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Fuldført",
+    "components__sign_pdf__complete_signature_info__signed_on": "Underskrevet den:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Underskrevne oplysninger",
+    "components__sign_pdf__complete_signature_info__secure_environment": "sikkerhedsmiljø",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokal analyse",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokal tegning",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokal underskrift",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokal operation",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokal download",
+    "components__sign_pdf__complete_signature_info__download": "Download",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside"
   }
 }

@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "完了して署名",
     "components__sign_pdf__operation_view__start__typing": "入力を開始",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "画像を選択",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "またはここに画像をドロップ"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "またはここに画像をドロップ",
+    "components__sign_pdf__complete_signature_info__status": "ステータス",
+    "components__sign_pdf__complete_signature_info__completed": "完了しました",
+    "components__sign_pdf__complete_signature_info__signed_on": "署名日:",
+    "components__sign_pdf__complete_signature_info__signed_info": "署名情報",
+    "components__sign_pdf__complete_signature_info__secure_environment": "安全な環境",
+    "components__sign_pdf__complete_signature_info__local_parsing": "ローカル解析",
+    "components__sign_pdf__complete_signature_info__local_drawing": "ローカル描画",
+    "components__sign_pdf__complete_signature_info__local_signature": "ローカル署名",
+    "components__sign_pdf__complete_signature_info__local_operation": "ローカル操作",
+    "components__sign_pdf__complete_signature_info__local_download": "ローカルダウンロード",
+    "components__sign_pdf__complete_signature_info__download": "ダウンロード",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF署名ホームページ"
   }
 }

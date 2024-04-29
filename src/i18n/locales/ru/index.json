@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Завершить и подписать",
     "components__sign_pdf__operation_view__start__typing": "Начать печатать",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "ВЫБРАТЬ ИЗОБРАЖЕНИЕ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "или перетащите изображение сюда"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "или перетащите изображение сюда",
+    "components__sign_pdf__complete_signature_info__status": "Статус",
+    "components__sign_pdf__complete_signature_info__completed": "Завершено",
+    "components__sign_pdf__complete_signature_info__signed_on": "Подписано:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Информация о подписи",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Безопасная среда",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Локальный анализ",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Локальное рисование",
+    "components__sign_pdf__complete_signature_info__local_signature": "Локальная подпись",
+    "components__sign_pdf__complete_signature_info__local_operation": "Локальная операция",
+    "components__sign_pdf__complete_signature_info__local_download": "Локальное скачивание",
+    "components__sign_pdf__complete_signature_info__download": "Скачать",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Домашняя страница подписи PDF"
   }
 }

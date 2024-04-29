@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Lõpeta ja allkirjasta",
     "components__sign_pdf__operation_view__start__typing": "Alusta tippimist",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "VALI PILT",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "või lohista pilt siia"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "või lohista pilt siia",
+    "components__sign_pdf__complete_signature_info__status": "Staatus",
+    "components__sign_pdf__complete_signature_info__completed": "Valmis",
+    "components__sign_pdf__complete_signature_info__signed_on": "Allkirjastatud:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Allkirja info",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Turvaline keskkond",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Kohalik analüüs",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Kohalik joonistamine",
+    "components__sign_pdf__complete_signature_info__local_signature": "Kohalik allkiri",
+    "components__sign_pdf__complete_signature_info__local_operation": "Kohalik toiming",
+    "components__sign_pdf__complete_signature_info__local_download": "Kohalik allalaadimine",
+    "components__sign_pdf__complete_signature_info__download": "Laadi alla",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allkirjasta PDF koduleht"
   }
 }

@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Dokončiť a podpísať",
     "components__sign_pdf__operation_view__start__typing": "Začnite písať",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "VYBRAŤ OBRÁZOK",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "alebo sem presuňte obrázok"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "alebo sem presuňte obrázok",
+    "components__sign_pdf__complete_signature_info__status": "Stav",
+    "components__sign_pdf__complete_signature_info__completed": "Dokončené",
+    "components__sign_pdf__complete_signature_info__signed_on": "Podpísané dňa:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informácie o podpise",
+    "components__sign_pdf__complete_signature_info__secure_environment": "bezpečné prostredie",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokálne spracovanie",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokálne kreslenie",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokálny podpis",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokálna operácia",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokálne stiahnutie",
+    "components__sign_pdf__complete_signature_info__download": "Stiahnuť",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domovská stránka podpisu PDF"
   }
 }

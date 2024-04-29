@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Completa e Firma",
     "components__sign_pdf__operation_view__start__typing": "Inizia a digitare",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELEZIONA IMMAGINE",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "oppure trascina l'immagine qui"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "oppure trascina l'immagine qui",
+    "components__sign_pdf__complete_signature_info__status": "Stato",
+    "components__sign_pdf__complete_signature_info__completed": "Completato",
+    "components__sign_pdf__complete_signature_info__signed_on": "Firmato il:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informazioni sulla firma",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Ambiente sicuro",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Analisi locale",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Disegno locale",
+    "components__sign_pdf__complete_signature_info__local_signature": "Firma locale",
+    "components__sign_pdf__complete_signature_info__local_operation": "Operazione locale",
+    "components__sign_pdf__complete_signature_info__local_download": "Download locale",
+    "components__sign_pdf__complete_signature_info__download": "Download",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principale di firma PDF"
   }
 }

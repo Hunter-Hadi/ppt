@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Valmis ja allekirjoita",
     "components__sign_pdf__operation_view__start__typing": "Aloita kirjoittaminen",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "VALITSE KUVA",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "tai pudota kuva tähän"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "tai pudota kuva tähän",
+    "components__sign_pdf__complete_signature_info__status": "Tila",
+    "components__sign_pdf__complete_signature_info__completed": "Valmis",
+    "components__sign_pdf__complete_signature_info__signed_on": "Allekirjoitettu:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Allekirjoitustiedot",
+    "components__sign_pdf__complete_signature_info__secure_environment": "turvallinen ympäristö",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Paikallinen jäsentäminen",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Paikallinen piirtäminen",
+    "components__sign_pdf__complete_signature_info__local_signature": "Paikallinen allekirjoitus",
+    "components__sign_pdf__complete_signature_info__local_operation": "Paikallinen toiminta",
+    "components__sign_pdf__complete_signature_info__local_download": "Paikallinen lataus",
+    "components__sign_pdf__complete_signature_info__download": "Lataa",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allekirjoita PDF -etusivu"
   }
 }

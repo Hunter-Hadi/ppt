@@ -989,6 +989,21 @@
     "components__sign_pdf__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__sign_pdf__detail__empty_sign": "Chữ ký trống",
     "components__sign_pdf__detail__empty_text": "Văn bản trống",
-    "components__sign_pdf__detail__finish": "Hoàn thành và Ký"
+    "components__sign_pdf__detail__finish": "Hoàn thành và Ký",
+    "components__sign_pdf__operation_view__start__typing": "Bắt đầu gõ",
+    "components__sign_pdf__operation_signature_upload__upload_btn_title": "CHỌN HÌNH ẢNH",
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "hoặc thả hình ảnh vào đây",
+    "components__sign_pdf__complete_signature_info__status": "Trạng thái",
+    "components__sign_pdf__complete_signature_info__completed": "Hoàn thành",
+    "components__sign_pdf__complete_signature_info__signed_on": "Đã ký vào:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Thông tin đã ký",
+    "components__sign_pdf__complete_signature_info__secure_environment": "Môi trường an toàn",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Phân tích cục bộ",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Vẽ cục bộ",
+    "components__sign_pdf__complete_signature_info__local_signature": "Chữ ký cục bộ",
+    "components__sign_pdf__complete_signature_info__local_operation": "Hoạt động cục bộ",
+    "components__sign_pdf__complete_signature_info__local_download": "Tải xuống cục bộ",
+    "components__sign_pdf__complete_signature_info__download": "Tải xuống",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Trang chủ Ký PDF"
   }
 }

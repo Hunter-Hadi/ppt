@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Selesai & Tandatangan",
     "components__sign_pdf__operation_view__start__typing": "Mula menaip",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "PILIH IMEJ",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "atau jatuhkan imej di sini"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "atau jatuhkan imej di sini",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Selesai",
+    "components__sign_pdf__complete_signature_info__signed_on": "Ditandatangani pada:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Maklumat Tandatangan",
+    "components__sign_pdf__complete_signature_info__secure_environment": "persekitaran yang selamat",
+    "components__sign_pdf__complete_signature_info__local_parsing": "pemprosesan tempatan",
+    "components__sign_pdf__complete_signature_info__local_drawing": "lukisan tempatan",
+    "components__sign_pdf__complete_signature_info__local_signature": "tandatangan tempatan",
+    "components__sign_pdf__complete_signature_info__local_operation": "operasi tempatan",
+    "components__sign_pdf__complete_signature_info__local_download": "muat turun tempatan",
+    "components__sign_pdf__complete_signature_info__download": "Muat Turun",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Laman Utama Tandatangan PDF"
   }
 }

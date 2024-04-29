@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Voltooien en ondertekenen",
     "components__sign_pdf__operation_view__start__typing": "Begin met typen",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "SELECTEER AFBEELDING",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "of sleep de afbeelding hier"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "of sleep de afbeelding hier",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Voltooid",
+    "components__sign_pdf__complete_signature_info__signed_on": "Ondertekend op:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Ondertekeningsinformatie",
+    "components__sign_pdf__complete_signature_info__secure_environment": "veilige omgeving",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokale verwerking",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokaal tekenen",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokale handtekening",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokale bewerking",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokaal downloaden",
+    "components__sign_pdf__complete_signature_info__download": "Downloaden",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signeer PDF Homepage"
   }
 }

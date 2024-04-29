@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Fullfør og signér",
     "components__sign_pdf__operation_view__start__typing": "Begynn å skrive",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "VELG BILDE",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "eller slipp bilde her"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "eller slipp bilde her",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Fullført",
+    "components__sign_pdf__complete_signature_info__signed_on": "Signert den:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Signert informasjon",
+    "components__sign_pdf__complete_signature_info__secure_environment": "sikkerhetsmiljø",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Lokal analyse",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Lokal tegning",
+    "components__sign_pdf__complete_signature_info__local_signature": "Lokal signatur",
+    "components__sign_pdf__complete_signature_info__local_operation": "Lokal operasjon",
+    "components__sign_pdf__complete_signature_info__local_download": "Lokal nedlasting",
+    "components__sign_pdf__complete_signature_info__download": "Last ned",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside"
   }
 }

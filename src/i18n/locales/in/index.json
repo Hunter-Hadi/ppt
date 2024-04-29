@@ -992,6 +992,18 @@
     "components__sign_pdf__detail__finish": "Selesai & Tanda Tangani",
     "components__sign_pdf__operation_view__start__typing": "Mulai mengetik",
     "components__sign_pdf__operation_signature_upload__upload_btn_title": "PILIH GAMBAR",
-    "components__sign_pdf__operation_signature_upload__upload_drop_description": "atau seret gambar ke sini"
+    "components__sign_pdf__operation_signature_upload__upload_drop_description": "atau seret gambar ke sini",
+    "components__sign_pdf__complete_signature_info__status": "Status",
+    "components__sign_pdf__complete_signature_info__completed": "Selesai",
+    "components__sign_pdf__complete_signature_info__signed_on": "Ditandatangani pada:",
+    "components__sign_pdf__complete_signature_info__signed_info": "Informasi Tertanda",
+    "components__sign_pdf__complete_signature_info__secure_environment": "lingkungan yang aman",
+    "components__sign_pdf__complete_signature_info__local_parsing": "Pemrosesan lokal",
+    "components__sign_pdf__complete_signature_info__local_drawing": "Gambar lokal",
+    "components__sign_pdf__complete_signature_info__local_signature": "Tanda tangan lokal",
+    "components__sign_pdf__complete_signature_info__local_operation": "Operasi lokal",
+    "components__sign_pdf__complete_signature_info__local_download": "Unduh lokal",
+    "components__sign_pdf__complete_signature_info__download": "Unduh",
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Beranda Tanda Tangan PDF"
   }
 }
