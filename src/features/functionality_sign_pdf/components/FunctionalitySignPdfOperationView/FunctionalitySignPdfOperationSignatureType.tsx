@@ -4,12 +4,14 @@ import {
   forwardRef,
   ForwardRefRenderFunction,
   useImperativeHandle,
+  useRef,
   useState,
 } from 'react';
 
 import { textToBase64Image } from '../../utils/toBase64';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalitySignPdfSignatureTypeHandles {
   getPngBase64: () => string | undefined;
@@ -25,10 +27,12 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
   IFunctionalitySignPdfOperationSignatureTypeProps
 > = ({ bottomView }, ref) => {
   const { t } = useTranslation();
+  const inputRef = useRef<HTMLDivElement | null>(null);
 
   const [currentColor, setCurrentColor] = useState<string>('block');
   const [currentFonts, setCurrentFonts] = useState<string>('Caveat, cursive');
   const [typeInputVal, setTypeInputVal] = useState('');
+
   useImperativeHandle(ref, () => ({
     getPngBase64: () => {
       if (typeInputVal) {
@@ -58,26 +62,48 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
         sx={{
           bgcolor: '#fafafa',
           position: 'relative',
+          padding: 1,
         }}
       >
-        <TextField
-          placeholder='Enter signature'
-          fullWidth
-          variant='standard'
-          value={typeInputVal}
-          onChange={(e) => setTypeInputVal(e.target.value)}
+        <Box
           sx={{
-            input: {
-              fontFamily: currentFonts,
-              color: currentColor,
-            },
-            '.MuiInputBase-root': {
-              height: 150,
-              fontSize: 66,
-            },
-            border: 0,
+            pl: 10,
+            pr: 5,
+            position: 'relative',
           }}
-        />
+        >
+          <TextField
+            placeholder='Enter signature'
+            fullWidth
+            variant='standard'
+            ref={inputRef}
+            value={typeInputVal}
+            onChange={(e) => setTypeInputVal(e.target.value)}
+            sx={{
+              top: 45,
+              input: {
+                fontFamily: currentFonts,
+                color: currentColor,
+              },
+              '.MuiInputBase-root': {
+                height: 80,
+                fontSize: 98,
+                '&:hover': {
+                  'border-bottom': '0!important',
+                },
+                '&:before': {
+                  'border-bottom': '0!important',
+                },
+                '&:after': {
+                  'border-bottom': '0!important',
+                },
+              },
+              border: 0,
+            }}
+          />
+        </Box>
+
+        <FunctionalitySignPdfIcon name='SignArrowIndicate' />
         <Stack
           sx={{
             borderTop: '1px solid #e8e8e8',

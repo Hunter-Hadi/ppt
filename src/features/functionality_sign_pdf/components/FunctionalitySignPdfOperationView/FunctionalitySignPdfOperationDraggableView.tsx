@@ -9,16 +9,16 @@ import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
  */
 const FunctionalitySignPdfOperationDraggableView: FC<{
   id: string;
-  disabled?: boolean;
+  dragDisabled?: boolean;
   children: React.ReactNode;
   data?: { type: string; value?: string };
   onIconClick?: () => void;
   onWrapClick?: (type: string, value: string) => void;
-}> = ({ id, data, children, disabled, onIconClick, onWrapClick }) => {
+}> = ({ id, data, children, dragDisabled, onIconClick, onWrapClick }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,
     data: { id: id, ...data },
-    disabled: disabled,
+    disabled: dragDisabled,
   });
 
   return (

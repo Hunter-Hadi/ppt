@@ -10,6 +10,7 @@ import {
 } from 'react';
 import SmoothSignature from 'smooth-signature';
 
+import { getCanvasBounds } from '../../utils/canvasTools';
 import { changeImageColor } from '../../utils/colorTools';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
@@ -98,32 +99,14 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
     if (!canvasRef.current) return false;
     const ctx = canvasRef.current.getContext('2d');
     if (!ctx) return false;
+
     const imageData = ctx.getImageData(
       0,
       0,
       canvasRef.current.width,
       canvasRef.current.height,
     );
-    const data = imageData.data;
-
-    let minX = canvasRef.current.width,
-      minY = canvasRef.current.height,
-      maxX = 0,
-      maxY = 0;
-
-    for (let x = 0; x < canvasRef.current.width; x++) {
-      for (let y = 0; y < canvasRef.current.height; y++) {
-        const alpha = data[(canvasRef.current.width * y + x) * 4 + 3];
-        if (alpha > 0) {
-          if (x < minX) minX = x;
-          if (x > maxX) maxX = x;
-          if (y < minY) minY = y;
-          if (y > maxY) maxY = y;
-        }
-      }
-    }
-
-    return { minX, minY, maxX, maxY };
+    return getCanvasBounds(imageData);
   };
 
   // 根据签名的边界框裁剪并保存画布
@@ -196,7 +179,6 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
           if (currentCanvas) {
             await signaturePadRef.current.drawByImageUrl(currentCanvas);
           }
-
           if (historyCanvasList[index].color !== currentColor.current) {
             onChangeCanvasColor(currentColor.current);
           }
@@ -230,15 +212,17 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
       setRefreshIndex(null);
     }
   };
+  const isNotSignatureData =
+    historyCanvasList.length === 0 || refreshIndex === -1;
   return (
     <Box>
       <Stack direction='row' justifyContent='space-between' mb={1}>
         <FunctionalitySignPdfColorButtonPopover
           onSelectedColor={onSelectedColor}
         />
-        <Stack direction='row' gap={1}>
+        <Stack direction='row' gap={1} sx={{ height: 40 }}>
           <Button
-            disabled={historyCanvasList.length === 0 || refreshIndex === -1}
+            disabled={isNotSignatureData}
             onClick={onReplay}
             variant='outlined'
           >
@@ -266,25 +250,46 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
         <canvas
           id='functionality-sign-pdf-signature-pad'
           ref={canvasRef}
+          style={{
+            zIndex: 2,
+          }}
           width='600'
           height='200'
         />
+        <Box
+          sx={{
+            position: 'absolute',
+            bottom: 70,
+            left: 8,
+          }}
+        >
+          <FunctionalitySignPdfIcon name='SignArrowIndicate' />
+        </Box>
+
         <Stack
           sx={{
-            borderTop: '1px solid #e8e8e8',
-            p: 1,
+            borderTop: '0.5px solid #e8e8e8',
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            zIndex: 0,
+            bottom: 45,
           }}
           direction='row-reverse'
+        ></Stack>
+        <Button
+          sx={{
+            position: 'absolute',
+            bottom: 5,
+            right: 10,
+          }}
+          disabled={isNotSignatureData}
+          onClick={clearCanvas}
         >
-          <Button
-            disabled={historyCanvasList.length === 0}
-            onClick={clearCanvas}
-          >
-            {t(
-              'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
-            )}
-          </Button>
-        </Stack>
+          {t(
+            'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
+          )}
+        </Button>
         {historyCanvasList.length === 0 && !isStartSign && (
           <Typography
             color='text.secondary'
@@ -303,7 +308,7 @@ const FunctionalitySignPdfOperationSignaturePad: ForwardRefRenderFunction<
           </Typography>
         )}
       </Box>
-      {bottomView(historyCanvasList.length === 0)}
+      {bottomView(isNotSignatureData)}
     </Box>
   );
 };

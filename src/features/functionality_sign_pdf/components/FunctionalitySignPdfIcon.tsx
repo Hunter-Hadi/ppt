@@ -20,7 +20,7 @@ import TitleIcon from '@mui/icons-material/Title';
 import UndoOutlinedIcon from '@mui/icons-material/UndoOutlined';
 import ZoomInMapOutlinedIcon from '@mui/icons-material/ZoomInMapOutlined';
 import ZoomOutMapOutlinedIcon from '@mui/icons-material/ZoomOutMapOutlined';
-import { SvgIconProps } from '@mui/material';
+import { Box, SvgIconProps } from '@mui/material';
 import { FC } from 'react';
 /**
  * Functionality公共图标
@@ -104,6 +104,56 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'OpacityRounded': {
         return <OpacityRoundedIcon {...restProps} />;
+      }
+      case 'SignArrowIndicate': {
+        return (
+          <Box
+            sx={{
+              position: 'relative',
+              paddingLeft: '15px',
+              transformOrigin: 'left center;',
+              transform: 'rotate(-90deg) translate(-10px,30px)',
+              overflow: 'hidden',
+              width: 66,
+            }}
+          >
+            <Box
+              sx={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: 3,
+                height: 2,
+              }}
+            >
+              <svg height='36' width='16'>
+                <polygon
+                  fill='#9065B0'
+                  points='0,18 14,0 16,0 16,36 14,36'
+                ></polygon>
+              </svg>
+            </Box>
+            <Box
+              sx={{
+                fontFamily: '"Source Sans Pro", Helvetica, Arial, sans-serif',
+                WebkitFontSmoothing: 'antialiased',
+                fontWeight: 700,
+                fontSize: 16,
+                lineHeight: 16, // 当单位不是px时，需要明确指定
+                color: 'rgb(255, 255, 255)',
+                backgroundColor: 'primary.main',
+                display: 'flex',
+                justifyContent: 'flex-start',
+                alignItems: 'center',
+                height: 37,
+                minWidth: 50,
+                padding: '0px 16px 0px 8px',
+              }}
+            >
+              Sign
+            </Box>
+          </Box>
+        );
       }
       default: {
         return null;

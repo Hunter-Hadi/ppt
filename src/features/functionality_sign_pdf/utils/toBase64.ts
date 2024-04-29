@@ -1,36 +1,56 @@
-// 创建一个函数将文字转换为Base64图像数据
-export const textToBase64Image = (text: string, color?: string, fontFamily?: string, fontSize: number = 60) => {
+import { getCanvasBounds } from "./canvasTools";
+
+//得到文字图片，并转换为base64格式
+export const textToBase64Image = (text: string, color: string = '#000000', fontFamily: string = 'Arial', fontSize: number = 366) => {
     try {
-        // 创建一个画布元素
         const canvas = document.createElement('canvas');
         const context = canvas.getContext('2d');
         if (context) {
             // 设置字体大小和字体
-            context.font = `${fontSize}px Caveat, cursive`;
-
-            // 获取文字的宽度
-            const textWidth = context.measureText(text).width;
-            const textHeight = fontSize; // 高度大约与字体大小相匹配
-
-            // 根据文字的宽度和高度调整画布的大小
-            canvas.width = textWidth + 40;
-            canvas.height = textHeight + 10; // 调整高度，增加上内边距
-
-            // 再次填充文本以适应大小变化
             context.font = `${fontSize}px ${fontFamily}`;
+
+            // 预计算文本的宽度以设置初始画布大小
+            const textWidth = context.measureText(text).width;
+            canvas.width = textWidth + fontSize;
+            canvas.height = fontSize * 1.5; // 增加一定的高度以确保文字完全包含
+
+            // 重置字体，因在canvas大小改变后需要重新设置
+            context.font = `${fontSize}px ${fontFamily}`;
+            context.fillStyle = color;
             context.textBaseline = 'top';
-            context.fillStyle = color || '#000000'
-            // 你可以选择填充文本的颜色 context.fillStyle = '#000000';
+
             // 填充文本
-            context.fillText(text, 20, 5); // 调整绘制文本的起始Y坐标，增加上内边距的一半
+            context.fillText(text, fontSize / 2, fontSize / 4); // 为了确保文字在canvas中居中，做出相应调整
 
-            // 将canvas转换为base64格式图片
-            const dataURL = canvas.toDataURL('image/png');
-            return dataURL;
+            // 获取文字的实际边界
+            const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+            const bounds = getCanvasBounds(imageData);
 
+            // 根据得到的边界调整canvas大小并重新绘制文本
+            const { minX, minY, maxX, maxY } = bounds;
+            const clippedWidth = maxX - minX + 1;
+            const clippedHeight = maxY - minY + 1;
+
+            const clippedCanvas = document.createElement('canvas');
+            clippedCanvas.width = clippedWidth;
+            clippedCanvas.height = clippedHeight;
+
+            const clippedContext = clippedCanvas.getContext('2d');
+            if (clippedContext) {
+                // 配置绘图环境，以确保文本属性一致
+                clippedContext.font = `${fontSize}px ${fontFamily}`;
+                clippedContext.fillStyle = color;
+                clippedContext.textBaseline = 'top';
+
+                // 重新绘制文本到调整大小后的画布上
+                clippedContext.putImageData(imageData, -minX, -minY);
+
+                return clippedCanvas.toDataURL('image/png');
+            }
         }
     } catch (e) {
-        console.log(e)
+        console.log(e);
     }
+};
 
-}
+

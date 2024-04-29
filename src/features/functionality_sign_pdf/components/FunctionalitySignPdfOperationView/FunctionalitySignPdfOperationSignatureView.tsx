@@ -132,6 +132,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
   return (
     <FunctionalitySignPdfOperationDraggableView
       id={dragId}
+      dragDisabled={signatureModalOpen}
       data={{ type: 'image', value: showImgValue }}
       onIconClick={onClickChange}
     >

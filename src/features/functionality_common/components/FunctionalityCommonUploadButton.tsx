@@ -12,6 +12,8 @@ interface IFunctionalityCommonUploadButton {
   contentBoxSx?: SxProps<Theme>;
   isShowUploadIcon?: boolean;
   themeColor?: 'primary' | 'white';
+  buttonTitle?: string;
+  dropDescription?: string;
 }
 
 /**
@@ -25,6 +27,8 @@ const FunctionalityCommonUploadButton: FC<
   contentBoxSx,
   isShowUploadIcon = true,
   themeColor = 'primary',
+  buttonTitle,
+  dropDescription,
   ...props
 }) => {
   const { t } = useTranslation();
@@ -93,7 +97,10 @@ const FunctionalityCommonUploadButton: FC<
             startIcon={<FunctionalityCommonIcon name='NoteAdd' />}
             color={isPrimary ? 'inherit' : 'primary'}
           >
-            {t('functionality__common:components__common__upload_button_title')}
+            {buttonTitle ||
+              t(
+                'functionality__common:components__common__upload_button_title',
+              )}
           </Button>
           <Typography
             sx={{
@@ -104,7 +111,8 @@ const FunctionalityCommonUploadButton: FC<
               color: isPrimary ? undefined : 'primary.main',
             }}
           >
-            {t('functionality__common:components__common__upload_button_tips')}
+            {dropDescription ||
+              t('functionality__common:components__common__upload_button_tips')}
           </Typography>
         </UploadButton>
       </Box>

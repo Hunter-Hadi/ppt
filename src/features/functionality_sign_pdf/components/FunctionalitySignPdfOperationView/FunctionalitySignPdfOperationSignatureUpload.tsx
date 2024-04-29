@@ -189,6 +189,12 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
             }}
             onChange={onUploadFile}
             handleUnsupportedFileType={handleUnsupportedFileTypeTip}
+            buttonTitle={t(
+              'functionality__sign_pdf:components__sign_pdf__operation_signature_upload__upload_btn_title',
+            )}
+            dropDescription={t(
+              'functionality__sign_pdf:components__sign_pdf__operation_signature_upload__upload_drop_description',
+            )}
           />
         )}
         <Stack
