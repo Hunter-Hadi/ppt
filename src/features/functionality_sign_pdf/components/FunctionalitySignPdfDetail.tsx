@@ -10,11 +10,18 @@ import { LoadingButton } from '@mui/lab';
 import { Box, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useRef, useState } from 'react';
+import React from 'react';
 import { pdfjs } from 'react-pdf';
+import { useRecoilState } from 'recoil';
 import { v4 as uuidV4 } from 'uuid';
 
+import {
+  FunctionalitySignPdfOperationOBjectAtom,
+  functionalitySignPdfOperationOBjectDefault,
+} from '../store';
 import { IFabricAddObjectType } from '../utils/fabricjsTools';
-import { pdfAddViewSave } from '../utils/pdfAddViewSave';
+import { pdfAddSignCanvasViewReturnUint8Array } from '../utils/pdfAddSignCanvasView';
+import FunctionalitySignCompleteSignatureInfo from './FunctionalitySignCompleteSignatureInfo';
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationViewMain';
 import FunctionalitySignPdfShowPdfViewPdfViewMain, {
   IFunctionalitySignPdfShowPdfViewHandles,
@@ -35,6 +42,7 @@ export interface IActiveDragData {
 }
 interface IFunctionalitySignPdfDetailProps {
   file: File;
+  onClearReturn: () => void;
 }
 export type ISignData = {
   pdfIndex: number;
@@ -48,7 +56,7 @@ export type ISignData = {
 
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
-> = ({ file }) => {
+> = ({ file, onClearReturn }) => {
   const { t } = useTranslation();
   const [saveButtonLoading, setSaveButtonLoading] = useState(false);
   const dndDragRef = useRef<HTMLElement | null>(null);
@@ -62,6 +70,11 @@ export const FunctionalitySignPdfDetail: FC<
     IActiveDragData | undefined
   >(undefined);
   const [signNumber, setSignNumber] = useState<number>(0); //签名数据
+  const [downloadUint8Array, setDownloadUint8Array] =
+    useState<null | Uint8Array>(null); //签名数据
+  const [, setPdfOperationOBject] = useRecoilState(
+    FunctionalitySignPdfOperationOBjectAtom,
+  );
   const handleDragEnd = (event: DragEndEvent) => {
     if (event.over && event.over.id) {
       const { delta, over, active } = event;
@@ -133,7 +146,13 @@ export const FunctionalitySignPdfDetail: FC<
     const pdfPageNumber = showPdfHandlesRef.current?.getNumPages();
     if (pdfPageNumber) {
       setSaveButtonLoading(true);
-      await pdfAddViewSave(file, pdfPageNumber);
+      const uint8Array = await pdfAddSignCanvasViewReturnUint8Array(
+        file,
+        pdfPageNumber,
+      );
+      if (uint8Array) {
+        setDownloadUint8Array(uint8Array);
+      }
       setSaveButtonLoading(false);
     }
   };
@@ -157,6 +176,8 @@ export const FunctionalitySignPdfDetail: FC<
   };
   const onChangePdfHaveSignObjectNumber = (signNumber: number) => {
     setSignNumber(signNumber);
+    // 清空Atom的值
+    setPdfOperationOBject(functionalitySignPdfOperationOBjectDefault);
   };
   return (
     <DndContext
@@ -187,7 +208,7 @@ export const FunctionalitySignPdfDetail: FC<
             onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
           />
         </Box>
-        {/* 签名操作视图 */}
+        {/* 签名/下载操作视图 */}
         <Stack
           direction='column'
           justifyContent='space-between'
@@ -197,35 +218,45 @@ export const FunctionalitySignPdfDetail: FC<
             borderLeft: 'none',
           }}
         >
-          <Box
-            sx={{
-              padding: 1,
-            }}
-          >
-            <FunctionalitySignPdfOperationView
-              activeDragData={activeDragData}
-              onClickAdd={onClickAdd}
+          {!downloadUint8Array && (
+            <React.Fragment>
+              <Box
+                sx={{
+                  padding: 1,
+                }}
+              >
+                <FunctionalitySignPdfOperationView
+                  activeDragData={activeDragData}
+                  onClickAdd={onClickAdd}
+                />
+              </Box>
+              <Box
+                sx={{
+                  borderTop: '1px solid #e8e8e8',
+                  padding: 1,
+                }}
+              >
+                <LoadingButton
+                  variant='contained'
+                  onClick={onPdfAddViewSave}
+                  sx={{ width: '100%' }}
+                  size='large'
+                  disabled={saveButtonLoading || signNumber === 0}
+                  loading={saveButtonLoading}
+                >
+                  {t(
+                    'functionality__sign_pdf:components__sign_pdf__detail__finish',
+                  )}
+                </LoadingButton>
+              </Box>
+            </React.Fragment>
+          )}
+          {downloadUint8Array && (
+            <FunctionalitySignCompleteSignatureInfo
+              onClearReturn={onClearReturn}
+              downloadUint8Array={downloadUint8Array}
             />
-          </Box>
-          <Box
-            sx={{
-              borderTop: '1px solid #e8e8e8',
-              padding: 1,
-            }}
-          >
-            <LoadingButton
-              variant={saveButtonLoading ? 'outlined' : 'contained'}
-              onClick={onPdfAddViewSave}
-              sx={{ width: '100%' }}
-              size='large'
-              disabled={saveButtonLoading || signNumber === 0}
-              loading={saveButtonLoading}
-            >
-              {t(
-                'functionality__sign_pdf:components__sign_pdf__detail__finish',
-              )}
-            </LoadingButton>
-          </Box>
+          )}
         </Stack>
       </Stack>
       {/* 下面是拖动替身 */}

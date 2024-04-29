@@ -5,6 +5,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
 import CheckIcon from '@mui/icons-material/Check';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined';
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
@@ -104,6 +105,9 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'OpacityRounded': {
         return <OpacityRoundedIcon {...restProps} />;
+      }
+      case 'CheckCircle': {
+        return <CheckCircleIcon {...restProps} />;
       }
       case 'SignArrowIndicate': {
         return (

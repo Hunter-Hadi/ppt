@@ -1,9 +1,7 @@
 import { PDFDocument } from "pdf-lib";
 
-import { downloadUrl } from "@/features/functionality_common/utils/functionalityCommonDownload";
-
 //file 是pdf，pdfPageNumber是pdf的页数，根据id绘制到pdf上，并保存下载
-export const pdfAddViewSave = async (file: File, pdfPageNumber: number) => {
+export const pdfAddSignCanvasViewReturnUint8Array = async (file: File, pdfPageNumber: number) => {
     try {
         let pdfDoc: PDFDocument | null = null;
         try {
@@ -30,8 +28,8 @@ export const pdfAddViewSave = async (file: File, pdfPageNumber: number) => {
             }
         }
 
-        const pdfBytes = await pdfDoc.save();
-        downloadUrl(pdfBytes, "signPdf(MaxAI).pdf");
+        return await pdfDoc.save();
+        // downloadUrl(pdfBytes, "signPdf(MaxAI).pdf");
     } catch (e) {
         console.log(e)
     }

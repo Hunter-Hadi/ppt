@@ -35,6 +35,9 @@ const FunctionalitySignPdfMain = () => {
       },
     );
   };
+  const onClearReturn = () => {
+    setFileData(null);
+  };
   return (
     <Stack
       flexDirection='column'
@@ -68,7 +71,10 @@ const FunctionalitySignPdfMain = () => {
       )}
       {fileData && (
         <Suspense fallback={<AppLoadingLayout loading />}>
-          <FunctionalitySignPdfDetail file={fileData} />
+          <FunctionalitySignPdfDetail
+            file={fileData}
+            onClearReturn={onClearReturn}
+          />
         </Suspense>
       )}
     </Stack>
