@@ -515,6 +515,10 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const onCloseAddToolsPopup = () => {
     setControlAddNewDiv(null);
   };
+  const handlePopupClick = (event) => {
+    //因为写了点击其它区域关闭，所以这里做了阻止冒泡
+    event.stopPropagation();
+  };
   return (
     <Box
       sx={{
@@ -538,20 +542,24 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         />
       </Box>
       {selectedObjects?.length === 1 && controlDiv && (
-        <FunctionalitySignPdfShowPdfViewObjectToolsPopup
-          key={activeObject.id}
-          controlDiv={controlDiv}
-          scaleFactor={scaleFactor}
-          editor={editor}
-        />
+        <Box onMouseDown={handlePopupClick}>
+          <FunctionalitySignPdfShowPdfViewObjectToolsPopup
+            key={activeObject.id}
+            controlDiv={controlDiv}
+            scaleFactor={scaleFactor}
+            editor={editor}
+          />
+        </Box>
       )}
       {controlAddNewDiv && (
-        <FunctionalitySignPdfShowPdfViewAddToolsPopup
-          controlDivPosition={controlAddNewDiv}
-          scaleFactor={scaleFactor}
-          editor={editor}
-          onClose={onCloseAddToolsPopup}
-        />
+        <Box onMouseDown={handlePopupClick}>
+          <FunctionalitySignPdfShowPdfViewAddToolsPopup
+            controlDivPosition={controlAddNewDiv}
+            scaleFactor={scaleFactor}
+            editor={editor}
+            onClose={onCloseAddToolsPopup}
+          />
+        </Box>
       )}
     </Box>
   );

@@ -160,13 +160,8 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   const isText = activeObject.type === 'text' || isEditingText; //文本
   const isDateValid = activeObject.isDateValid; // 日期
   //在弹窗内部阻止点击事件冒泡
-  const handlePopupClick = (event) => {
-    //因为父级写了点击其它区域关闭，所以这里做了阻止冒泡
-    event.stopPropagation();
-  };
   return (
     <Stack
-      onMouseDown={handlePopupClick}
       sx={{
         position: 'fixed',
         left: controlDiv.left * scaleFactor + controlDiv.windowLeft,
