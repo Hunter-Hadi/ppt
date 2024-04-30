@@ -1,4 +1,3 @@
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
@@ -64,7 +63,7 @@ const ContactUsPanel = () => {
         />{' '}
         .
       </Typography>
-      <Stack direction={'row'} gap={1} flexWrap='wrap'>
+      {/* <Stack direction={'row'} gap={1} flexWrap='wrap'>
         <Typography variant='body2' component={'div'}>
           👉 {t('pages:contact_us__item2')}{' '}
         </Typography>
@@ -89,7 +88,7 @@ const ContactUsPanel = () => {
           />
         </ProLink>{' '}
         .
-      </Typography>
+      </Typography> */}
       <Stack direction={'row'} gap={0.5}>
         <Typography variant='body2' component={'div'}>
           🎁 {t('pages:contact_us__item4')}{' '}
