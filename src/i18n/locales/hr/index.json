@@ -363,7 +363,7 @@
     "tools__index_page__description": "Svi alati koje će vam trebati da budete produktivniji i pametnije radite s dokumentima. 100% BESPLATNO i temeljeno na pregledniku za potpunu privatnost.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF u PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF u JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Spoji PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Spoji PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Podijeli PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG u PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG u PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Izvezi svaku stranicu PDF-a kao PNG sliku ili izdvoji pojedinačne slike iz PDF-a u PNG formatu",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Izvezi svaku stranicu PDF-a kao JPEG sliku ili izdvoji pojedinačne slike iz PDF-a u JPEG formatu",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Izvezi svaku stranicu kao JPEG ili izdvoji pojedinačne slike iz PDF-a u JPEG formatu",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Spoji bilo koji broj PDF-ova prema odabranom redoslijedu u jedan PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Spoji više PDF datoteka u jednu uz samo nekoliko klikova",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Spoji bilo koji broj PDF-ova prema odabranom redoslijedu u jedan PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Spoji više PDF datoteka u jednu uz samo nekoliko klikova",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Podijeli stranice PDF-a u više PDF-ova ili jednostavno ukloni stranice iz postojećeg",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Podijeli stranice PDF-a u više PDF-ova ili jednostavno ukloni stranice iz postojećeg",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Pretvori PNG slike u PDF online",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Pretvorite stranice PDF-a u JPEG slike ili izdvojite pojedinačne slike iz vaših PDF datoteka online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
     "pdf_tools__pdf_to_png__title": "PDF u PNG - Pretvori bilo koji PDF u slike online besplatno | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Pretvorite stranice PDF-a u PNG slike ili izdvojite pojedinačne slike iz vaših PDF datoteka online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
-    "pdf_tools__merge_pdfs__title": "Spoji PDF - Kombiniraj PDF datoteke online besplatno | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Spojite PDF datoteke i stvorite jedan dokument online besplatno. S našim alatom za spajanje PDF-a, spajanje PDF-a je lakše nego ikad. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
+    "pdf_tools__merge_pdf__title": "Spoji PDF - Kombiniraj PDF datoteke online besplatno | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Spojite PDF datoteke i stvorite jedan dokument online besplatno. S našim alatom za spajanje PDF-a, spajanje PDF-a je lakše nego ikad. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
     "pdf_tools__split_pdf__title": "Razdvoji PDF – Odvojite stranice PDF-a online besplatno | MaxAI.me",
     "pdf_tools__split_pdf__description": "Lako odvojite stranice ili uklonite stranice iz vašeg PDF-a online besplatno. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili prijava.",
     "pdf_tools__png_to_pdf__title": "PNG u PDF - Pretvorite PNG slike u PDF online besplatno | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
     "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
     "components__pdf_merge__button__download__tooltip": "Spoji i preuzmi PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Očisti sve PDF-ove ispod",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Očisti sve PDF-ove ispod",
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteku ispod"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Molimo prenesite određeni tip PDF datoteke",
     "components__pdf_to_html__button__download": "Preuzmi",
-    "components__pdf_to_html__button__Convert": "Pretvori drugi"
+    "components__pdf_to_html__button__convert": "Pretvori drugi"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Osnovne značajke:",

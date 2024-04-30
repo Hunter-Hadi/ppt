@@ -363,7 +363,7 @@
     "tools__index_page__description": "ஆவணங்களை மேம்படுத்தி மேலும் உழைப்புகளுடன் மேன்மையாக வேலை செய்ய தேவைப்படும் அனைத்து கருவிகள். 100% இலவசம் மற்றும் உலாவி அட்டவணையில் முழுதும் தனியுரிமையுடன் இருக்கும்.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF முதல் PNG க்கு",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF முதல் JPEG க்கு",
-    "tools__index_page__constant_obj__merge_pdfs__title": "பி.டி.எப் ஒன்றிக்கும்",
+    "tools__index_page__constant_obj__merge_pdf__title": "பி.டி.எப் ஒன்றிக்கும்",
     "tools__index_page__constant_obj__split_a_pdf__title": "ஒரு PDF ஐ பிரிக்கவும்",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG மாதிரி PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG மாதிரி PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ஒவ்வொரு PDF பக்கத்தையும் ஒரு PNG படமாக ஏற்றுக்கொள்ளுங்கள் அல்லது PDF இலிருந்து தனிப்பட்ட படங்களை PNG ஆக எடுக்குங்கள்",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ஒவ்வொரு PDF பக்கத்தையும் ஒரு JPEG படமாக ஏற்றுக்கொள்ளுங்கள் அல்லது PDF இலிருந்து தனிப்பட்ட படங்களை JPEG ஆக எடுக்குங்கள்",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ஒவ்வொரு பக்கத்தையும் ஒரு JPEG ஆக ஏற்றுக்கொள்ளுங்கள் அல்லது PDF இலிருந்து தனிப்பட்ட படங்களை JPEG ஆக எடுக்குங்கள்",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "நீங்கள் விரும்பும் வரிசையில் எந்த எண்ணிக்கையிலும் PDF காணொளிகளை ஒன்றாக்கலாம்",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "கிளிக்குகள் மூலம் பல பிடிஎஃப் கோப்புகளை ஒன்றாக்கலாம்",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "நீங்கள் விரும்பும் வரிசையில் எந்த எண்ணிக்கையிலும் PDF காணொளிகளை ஒன்றாக்கலாம்",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "கிளிக்குகள் மூலம் பல பிடிஎஃப் கோப்புகளை ஒன்றாக்கலாம்",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "ஒரு PDF பக்கங்களை பல பிடிஎப் கோப்புகளாக பிரிக்கலாம் அல்லது ஏற்கனவே உள்ளதிலிருந்து பக்கங்களை அகற்றலாம்",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "ஒரு PDF பக்கங்களை பல பிடிஎப் கோப்புகளாக பிரிக்கலாம் அல்லது ஏற்கனவே உள்ளதிலிருந்து பக்கங்களை அகற்றலாம்.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "படங்களை பின்வரும் PDF ஆக மாற்றுங்கள்",
@@ -729,8 +729,8 @@
     "pdf_tools__pdf_to_jpeg__description": "உங்கள் PDF கோப்புகளிலிருந்து JPEG படங்களை மாற்றுங்கள் அல்லது தனிப்பட்ட படங்களை ஆன்லைனில் மீட்டமைக்கவும் இலவசமாக. வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
     "pdf_tools__pdf_to_png__title": "PDF ஐ PNG க்கு மாற்று - இலவசமாக ஆன்லைனில் எந்த PDF ஐயும் படங்களாக மாற்றுங்கள் | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "உங்கள் PDF கோப்புகளிலிருந்து PNG படங்களை மாற்றுங்கள் அல்லது தனிப்பட்ட படங்களை ஆன்லைனில் மீட்டமைக்கவும் இலவசமாக. வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
-    "pdf_tools__merge_pdfs__title": "PDF ஐ ஒன்றிணைத்துக் கொள்ளுங்கள் - இலவசமாக ஆன்லைனில் PDF கோப்புகளை ஒன்றிணைக்க | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "உங்கள் PDF கோப்புகளை ஒன்றிணைக்கி இலவசமாக ஒரு ஆவணத்தை உருவாக்கவும். எங்கள் PDF ஒன்றிணைப்புடன், PDF ஐ ஒன்றிணைக்கும் முதன்மையாக அதிக எளிதாக இருக்கும். வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
+    "pdf_tools__merge_pdf__title": "PDF ஐ ஒன்றிணைத்துக் கொள்ளுங்கள் - இலவசமாக ஆன்லைனில் PDF கோப்புகளை ஒன்றிணைக்க | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "உங்கள் PDF கோப்புகளை ஒன்றிணைக்கி இலவசமாக ஒரு ஆவணத்தை உருவாக்கவும். எங்கள் PDF ஒன்றிணைப்புடன், PDF ஐ ஒன்றிணைக்கும் முதன்மையாக அதிக எளிதாக இருக்கும். வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
     "pdf_tools__split_pdf__title": "பிடிஎஃப் பிரித்துக்கொள்ளுங்கள் - இலவசமாக ஆன்லைனில் பிடிஎஃப் பக்கங்களை பிரித்துக்கொள்ளுங்கள் | MaxAI.me",
     "pdf_tools__split_pdf__description": "இலவசமாக உங்கள் பிடிஎஃப் ஆன்லைனில் பக்கங்களை பிரித்துக்கொள்ள அல்லது பக்கங்களை நீக்குங்கள். வாடர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
     "pdf_tools__png_to_pdf__title": "PNG மாற்றி PDF - இலவசமாக PNG படங்களை PDF ஆக மாற்றுங்கள் | MaxAI.me",
@@ -804,7 +804,7 @@
     "components__pdf_merge__empty_pdf": "PDF காலியாக்கவும்",
     "components__pdf_merge__confirm_merge": "ஒன்றிணைத்துக்கொள்ள உறுதிப்படுத்தவும்",
     "components__pdf_merge__button__download__tooltip": "பி.டி.எப் ஒன்றிக்குள் இணைக்கவும் பதிவிறக்கவும்",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "கீழே உள்ள அனைத்து பி.டி.எப்பகங்களையும் நீக்கு",
+    "components__pdf_merge__button__clear_pdf__tooltip": "கீழே உள்ள அனைத்து பி.டி.எப்பகங்களையும் நீக்கு",
     "components__pdf_merge__button__add_pdfs__tooltip": "கீழே பி.டி.எப்பகத்தைச் சேர்க்க"
   },
   "functionality__pdf_split": {
@@ -846,7 +846,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
     "components__pdf_to_html__button__download": "பதிவிறக்கு",
-    "components__pdf_to_html__button__Convert": "மற்றொருபோது மாற்று"
+    "components__pdf_to_html__button__convert": "மற்றொருபோது மாற்று"
   },
   "features__common": {
     "components__upload_button_drop_title": "இங்கே விடுங்கள்"

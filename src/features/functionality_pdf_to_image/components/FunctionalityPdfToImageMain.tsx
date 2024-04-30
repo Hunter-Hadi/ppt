@@ -4,7 +4,7 @@ import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
-import snackNotifications from '@/utils/globalSnackbar';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
 
 const FunctionalityPdfToImageDetail = lazy(
   () =>
@@ -29,16 +29,10 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
     }
   };
   const handleUnsupportedFileType = () => {
-    snackNotifications.warning(
+    functionalityCommonSnackNotifications(
       t(
         'functionality__pdf_to_image:components__index__unsupported_file_type_tip',
       ),
-      {
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-      },
     );
   };
   const toImageType = useMemo(() => {

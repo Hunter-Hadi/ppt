@@ -363,7 +363,7 @@
     "tools__index_page__description": "Visi įrankiai, kurių jums reikės būti produktyvesniems ir protingesniems dirbant su dokumentais. 100% NEMOKAMA ir naršyklėje veikianti, užtikrinanti visišką privatumą.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF į PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF į JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Sulieti PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Sulieti PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Padalinti PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG į PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG į PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksportuokite kiekvieną PDF puslapį kaip PNG paveikslėlį arba išskleiskite atskirus paveikslėlius iš PDF į PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksportuokite kiekvieną PDF puslapį kaip JPEG paveikslėlį arba išskleiskite atskirus paveikslėlius iš PDF į JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksportuokite kiekvieną puslapį kaip JPEG arba išskleiskite atskirus paveikslėlius iš PDF į JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Suliejama bet kokia PDF kiekis pagal pasirinktą tvarką į vieną PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Sulenkite kelis PDF failus į vieną vos keliais paspaudimais",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Suliejama bet kokia PDF kiekis pagal pasirinktą tvarką į vieną PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Sulenkite kelis PDF failus į vieną vos keliais paspaudimais",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Padalinkite PDF puslapius į kelis PDF arba tiesiog pašalinkite puslapius iš esamo",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Padalinkite PDF puslapius į kelis PDF arba tiesiog pašalinkite puslapius iš esamo.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertuokite PNG paveikslėlius į PDF internete",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Nemokamai konvertuokite PDF puslapius į JPEG paveikslėlius arba išskirkite atskirus paveikslėlius iš savo PDF failų. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
     "pdf_tools__pdf_to_png__title": "PDF į PNG - Nemokamai konvertuokite bet kokius PDF į paveikslėlius | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Nemokamai konvertuokite PDF puslapius į PNG paveikslėlius arba išskirkite atskirus paveikslėlius iš savo PDF failų. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
-    "pdf_tools__merge_pdfs__title": "Sulieti PDF – Nemokamai sujunkite PDF failus | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Nemokamai sujunkite PDF failus ir sukūrkite vieną dokumentą internetu. Su mūsų PDF jungikliu, PDF failų sujungimas tapo dar lengvesnis. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
+    "pdf_tools__merge_pdf__title": "Sulieti PDF – Nemokamai sujunkite PDF failus | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Nemokamai sujunkite PDF failus ir sukūrkite vieną dokumentą internetu. Su mūsų PDF jungikliu, PDF failų sujungimas tapo dar lengvesnis. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
     "pdf_tools__split_pdf__title": "Padalinti PDF – Atskirti PDF puslapius internete nemokamai | MaxAI.me",
     "pdf_tools__split_pdf__description": "Lengvai atskirkite arba pašalinkite puslapius savo PDF dokumente internete nemokamai. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos nereikia.",
     "pdf_tools__png_to_pdf__title": "PNG į PDF - Konvertuoti PNG paveikslėlius į PDF internete nemokamai | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "Išvalyti PDF",
     "components__pdf_merge__confirm_merge": "Patvirtinti sujungimą",
     "components__pdf_merge__button__download__tooltip": "Sulieti ir atsisiųsti PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Išvalyti visus žemiau esančius PDF",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Išvalyti visus žemiau esančius PDF",
     "components__pdf_merge__button__add_pdfs__tooltip": "Pridėti PDF failą žemiau"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__pdf_to_html__button__download": "Atsisiųsti",
-    "components__pdf_to_html__button__Convert": "Konvertuoti kitą"
+    "components__pdf_to_html__button__convert": "Konvertuoti kitą"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Pagrindinės funkcijos:",

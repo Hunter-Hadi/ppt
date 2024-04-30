@@ -6,7 +6,7 @@ import { pdfjs } from 'react-pdf';
 
 import { IFunctionalityPdfToImageType } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { dataURLtoBlob } from '@/features/functionality_common/utils/functionalityCommonDataTool';
-import snackNotifications from '@/utils/globalSnackbar';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -80,16 +80,10 @@ const usePdfImagesDownloader = () => {
           });
         } else {
           //TODO: 需要提示没有选择图片
-          snackNotifications.warning(
+          functionalityCommonSnackNotifications(
             t(
               'functionality__pdf_to_image:components__to_image__downloader_tip',
-            ),
-            {
-              anchorOrigin: {
-                vertical: 'top',
-                horizontal: 'center',
-              },
-            },
+            )
           );
           setDownloaderIsLoading(false);
         }

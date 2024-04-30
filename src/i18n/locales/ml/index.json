@@ -363,7 +363,7 @@
     "tools__index_page__description": "പ്രമുഖ പ്രവർത്തനങ്ങൾ ചെയ്യാൻ നിങ്ങൾക്ക് ആവശ്യമായ എല്ലാ ഉപകരണങ്ങൾ. 100% സൗജന്യം ആയിട്ടുള്ളതും ബ്രൗസർ-ആധാരിതമായതുമായി പൂർണ്ണമായ സ്വകാര്യതയോടെ.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF മുതൽ PNG വരെ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF മുതൽ JPEG വരെ",
-    "tools__index_page__constant_obj__merge_pdfs__title": "പിഡിഎഫ് ലയക്കൽക്ക്",
+    "tools__index_page__constant_obj__merge_pdf__title": "പിഡിഎഫ് ലയക്കൽക്ക്",
     "tools__index_page__constant_obj__split_a_pdf__title": "ഒരു PDF പക്ഷം വിഭജിക്കുക",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG മുതൽ PDF വരെ",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG മുതൽ PDF വരെ",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "പ്ഡിഎഫ് പേജുകൾ ഒരു പിഎൻജി ചിത്രമായി എക്സ്പോർട്ട് ചെയ്യുക അല്ലെങ്കിൽ പിഎഎന്ജികളിൽ നിന്ന് ഇനിവരുമാനം ചെയ്യുക",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "പ്ഡിഎഫ് പേജുകൾ ഒരു ജെപഗ് ചിത്രമായി എക്സ്പോർട്ട് ചെയ്യുക അല്ലെങ്കിൽ പിഎഎന്ജികളിൽ നിന്ന് ഇനിവരുമാനം ചെയ്യുക",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "പ്ഡിഎഫ് പേജുകൾ ഒരു ജെപഗ് ചിത്രമായി എക്സ്പോർട്ട് ചെയ്യുക അല്ലെങ്കിൽ പിഎഎന്ജികളിൽ നിന്ന് ഇനിവരുമാനം ചെയ്യുക",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "നിങ്ങൾ തിരഞ്ഞെടുത്ത ആദ്യത്തെ പിഡിഎഫുകൾ ഒരു ഏകദേശ പിഡിഎഫിലേക്ക് മെർജ് ചെയ്യുക",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "കുറഞ്ഞ ക്ലിക്കുകൾക്കൊപ്പം ഒരു പല പിഡിഎഫ് ഫയലുകൾ ഒരുപോലെ ഒരുപോലെ മെർജ് ചെയ്യുക",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "നിങ്ങൾ തിരഞ്ഞെടുത്ത ആദ്യത്തെ പിഡിഎഫുകൾ ഒരു ഏകദേശ പിഡിഎഫിലേക്ക് മെർജ് ചെയ്യുക",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "കുറഞ്ഞ ക്ലിക്കുകൾക്കൊപ്പം ഒരു പല പിഡിഎഫ് ഫയലുകൾ ഒരുപോലെ ഒരുപോലെ മെർജ് ചെയ്യുക",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "ഒരു പിഡിഎഫിന്റെ പേജുകൾ പല പിഡിഎഫുകളിലേക്ക് വിഭജിക്കുക അല്ലെങ്കിൽ നിലവിലെ ഒരുപോലെ പേജുകൾ നീക്കം ചെയ്യുക",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "ഒരു പിഡിഎഫിന്റെ പേജുകൾ പല പിഡിഎഫുകളിലേക്ക് വിഭജിക്കുക അല്ലെങ്കിൽ നിലവിലെ ഒരുപോലെ പേജുകൾ നീക്കം ചെയ്യുക",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "പിഎൻജി ചിത്രങ്ങൾ പിഡിഎഫിലേക്ക് മാറ്റുക",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "പിഡിഎഫ് പേജുകൾ ജെപിജി ചിത്രങ്ങളാക്കുകയോ അല്ലെങ്കിൽ നിങ്ങളുടെ പിഡിഎഫ് ഫയലുകളിൽ നിന്ന് ഒരുപോലെ ചിത്രങ്ങളെ എടുക്കുകയോ സൗജന്യമായി. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
     "pdf_tools__pdf_to_png__title": "PDF to PNG - ഓൺലൈനിൽ സ്വതന്ത്രമായി എന്നിവിടെ പിഡിഎഫ്‌കളെ ചിത്രങ്ങളാക്കുക | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "പിഡിഎഫ് പേജുകൾ പിഎൻജി ചിത്രങ്ങളാക്കുകയോ അല്ലെങ്കിൽ നിങ്ങളുടെ പിഡിഎഫ് ഫയലുകളിൽ നിന്ന് ഒരുപോലെ ചിത്രങ്ങളെ എടുക്കുകയോ സൗജന്യമായി. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
-    "pdf_tools__merge_pdfs__title": "പിഡിഎഫ് ലയിച്ചുകൂട്ടുക - സൗജന്യമായി ഓൺലൈനിൽ പിഡിഎഫ് ഫയലുകൾ ഒരു ഏക രേഖ സൃഷ്ടിക്കുക | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "സൗജന്യമായി പിഡിഎഫ് ഫയലുകൾ ലയിച്ചുകൂട്ടുകയും ഒരു ഏക രേഖ സൃഷ്ടിക്കുകയും ഓൺലൈനിൽ. ഞങ്ങളുടെ പിഡിഎഫ് കമ്പൈനർ ഉപയോഗിച്ച്, പിഡിഎഫ് ലയിച്ചുകൂട്ടൽ ഇതിനുവേണ്ടി അതിനുള്ള പ്രയാസമില്ല. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
+    "pdf_tools__merge_pdf__title": "പിഡിഎഫ് ലയിച്ചുകൂട്ടുക - സൗജന്യമായി ഓൺലൈനിൽ പിഡിഎഫ് ഫയലുകൾ ഒരു ഏക രേഖ സൃഷ്ടിക്കുക | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "സൗജന്യമായി പിഡിഎഫ് ഫയലുകൾ ലയിച്ചുകൂട്ടുകയും ഒരു ഏക രേഖ സൃഷ്ടിക്കുകയും ഓൺലൈനിൽ. ഞങ്ങളുടെ പിഡിഎഫ് കമ്പൈനർ ഉപയോഗിച്ച്, പിഡിഎഫ് ലയിച്ചുകൂട്ടൽ ഇതിനുവേണ്ടി അതിനുള്ള പ്രയാസമില്ല. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
     "pdf_tools__split_pdf__title": "പിഡിഎഫ് വിഭജനം - സ്വതന്ത്രമായി പിഡിഎഫ് പേജുകൾ ഓൺലൈനിൽ പുറത്താക്കുക | MaxAI.me",
     "pdf_tools__split_pdf__description": "സ്വതന്ത്രമായി പിഡിഎഫ് പേജുകൾ അല്ലെങ്കിൽ പേജുകൾ നീക്കം ചെയ്യുക. വോട്ടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിധികൾ, ഡൗൺലോഡുകൾ അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
     "pdf_tools__png_to_pdf__title": "PNG മുതൽ PDF വരെ - പിഎൻജി ഇമേജുകൾ ഓൺലൈനിൽ പിഡിഎഫിലേക്ക് മാറ്റുക | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "PDF മായ്ക്കുക",
     "components__pdf_merge__confirm_merge": "ഒരുപാട് ചേർക്കാൻ സ്ഥിരീകരിക്കുക",
     "components__pdf_merge__button__download__tooltip": "പിഡിഎഫ് ഒരുക്കി ഡൗൺലോഡ് ചെയ്യുക",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "താഴെ നിന്നുള്ള എല്ലാ പിഡിഎഫുകൾക്കും മായ്‌ക്കുക",
+    "components__pdf_merge__button__clear_pdf__tooltip": "താഴെ നിന്നുള്ള എല്ലാ പിഡിഎഫുകൾക്കും മായ്‌ക്കുക",
     "components__pdf_merge__button__add_pdfs__tooltip": "താഴെ പിഡിഎഫ് ഫയൽ ചേർക്കുക"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "ദയവായി നിർദിഷ്ടപ്പെടുത്തിയ PDF ഫയൽ തരം അപ്ലോഡ് ചെയ്യുക",
     "components__pdf_to_html__button__download": "ഡൗൺലോഡ്",
-    "components__pdf_to_html__button__Convert": "മറ്റൊരു പരിവർത്തനം"
+    "components__pdf_to_html__button__convert": "മറ്റൊരു പരിവർത്തനം"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "കോർ ഫീച്ചേഴ്സുകൾ:",

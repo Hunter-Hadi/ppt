@@ -5,9 +5,9 @@ import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
 import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityCommonGetPdfFilePageToImage';
-import snackNotifications from '@/utils/globalSnackbar';
 
 import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
+import { functionalityCommonSnackNotifications } from '../utils/notificationTool';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -123,16 +123,10 @@ const useFunctionalityCommonPdfToImageConversion = () => {
           }
         }
       } catch (error) {
-        snackNotifications.warning(
+        functionalityCommonSnackNotifications(
           `${file.name} ${t(
             'functionality__common:components__common__pdf_encryption_tip',
-          )}`,
-          {
-            anchorOrigin: {
-              vertical: 'top',
-              horizontal: 'center',
-            },
-          },
+          )}`
         );
         console.log('simply onReadPdfToImages', error)
         setPdfIsLoading(false);

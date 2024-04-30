@@ -363,7 +363,7 @@
     "tools__index_page__description": "Semua alat yang Anda butuhkan untuk menjadi lebih produktif dan bekerja lebih cerdas dengan dokumen. 100% GRATIS dan berbasis browser untuk privasi yang lengkap.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ke PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ke JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Gabungkan PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Gabungkan PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Pisahkan PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG ke PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ke PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Ekspor setiap halaman PDF sebagai gambar PNG atau ekstrak gambar individu dari PDF menjadi PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Ekspor setiap halaman PDF sebagai gambar JPEG atau ekstrak gambar individu dari PDF menjadi JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Ekspor setiap halaman sebagai JPEG atau ekstrak gambar individu dari PDF menjadi JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Gabungkan sejumlah PDF sesuai urutan yang Anda pilih menjadi satu PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Gabungkan sejumlah PDF sesuai urutan yang Anda pilih menjadi satu PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Gabungkan beberapa file PDF menjadi satu dengan hanya beberapa klik",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Pisahkan halaman-halaman PDF menjadi beberapa PDF atau hapus halaman dari yang sudah ada",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Pisahkan halaman-halaman PDF menjadi beberapa PDF atau hapus halaman dari yang sudah ada.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konversi gambar PNG ke PDF secara online",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Konversi halaman-halaman PDF menjadi gambar JPEG atau ekstrak gambar-gambar individu dari file PDF Anda secara online dan gratis. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__pdf_to_png__title": "PDF ke PNG - Konversi PDF menjadi Gambar Online Gratis | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Konversi halaman-halaman PDF menjadi gambar PNG atau ekstrak gambar-gambar individu dari file PDF Anda secara online dan gratis. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
-    "pdf_tools__merge_pdfs__title": "Gabungkan PDF - Gabungkan File PDF Online Gratis | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Gabungkan file PDF dan buat dokumen tunggal secara online dan gratis. Dengan penggabung PDF kami, menggabungkan PDF lebih mudah dari sebelumnya. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "pdf_tools__merge_pdf__title": "Gabungkan PDF - Gabungkan File PDF Online Gratis | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Gabungkan file PDF dan buat dokumen tunggal secara online dan gratis. Dengan penggabung PDF kami, menggabungkan PDF lebih mudah dari sebelumnya. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__split_pdf__title": "Pisahkan PDF – Pisahkan Halaman PDF Secara Online Gratis | MaxAI.me",
     "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau menghapus halaman dalam PDF Anda secara online gratis. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__png_to_pdf__title": "PNG ke PDF - Konversi Gambar PNG ke PDF Online Gratis | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Konfirmasi penggabungan",
     "components__pdf_merge__button__download__tooltip": "Gabungkan dan unduh PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Hapus semua PDF di bawah",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Hapus semua PDF di bawah",
     "components__pdf_merge__button__add_pdfs__tooltip": "Tambahkan file PDF di bawah"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
     "components__pdf_to_html__button__download": "Unduh",
-    "components__pdf_to_html__button__Convert": "Konversi lainnya"
+    "components__pdf_to_html__button__convert": "Konversi lainnya"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Fitur inti:",

@@ -13,7 +13,7 @@ import {
   IToolUrkKeyType,
   toolsObjectData,
 } from '@/page_components/PdfToolsPages/constant';
-import { toolsDetailDescriptionObject } from '@/page_components/PdfToolsPages/constant/toolsDetailDescriptionData';
+import { allPdfToolsDetailDescriptionObject } from '@/page_components/PdfToolsPages/constant/toolsDetailDescriptionData';
 
 const FunctionalityPdfToImageMain = lazy(
   () =>
@@ -61,8 +61,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__pdf_to_png__description'),
     },
     'merge-pdf': {
-      title: t('seo:pdf_tools__merge_pdfs__title'),
-      description: t('seo:pdf_tools__merge_pdfs__description'),
+      title: t('seo:pdf_tools__merge_pdf__title'),
+      description: t('seo:pdf_tools__merge_pdf__description'),
     },
     'split-pdf': {
       title: t('seo:pdf_tools__split_pdf__title'),
@@ -85,7 +85,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__pdf_to_html__description'),
     },
   };
-  const toolsDetailDescriptionData = toolsDetailDescriptionObject[urlKey];
+  const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];
   const toolList = useMemo(
     () =>
       Object.keys(toolsObjectData)

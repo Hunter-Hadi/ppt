@@ -1,5 +1,5 @@
 export interface IToolsDetailDescriptionInfoProps {
-  i18nChangeObj?: { [key in string]: string };
+  i18nVariables?: { [key in string]: string };
   topLeft: string;
   topRight: string[];
   middle: {
@@ -15,9 +15,9 @@ export interface IToolsDetailDescriptionInfoProps {
     };
   };
 }
-const getPdfToImageObj = (type: 'PNG' | 'JPEG') => {
+const getPdfToImageTypeToolDescriptionObject = (type: 'PNG' | 'JPEG') => {
   return {
-    i18nChangeObj: { ['TYPE']: type },
+    i18nVariables: { TYPE: type },
     topLeft:
       'pages:pdf_tools__detail_description_object__pdf_to_image__top_left',
     topRight: [
@@ -84,9 +84,11 @@ const getPdfToImageObj = (type: 'PNG' | 'JPEG') => {
     },
   };
 };
-const getImageToPdfObj = (type: 'PNG' | 'JPEG' | 'HEIC') => {
+const getImageToPdfTypeToolDescriptionObject = (
+  type: 'PNG' | 'JPEG' | 'HEIC',
+) => {
   return {
-    i18nChangeObj: { ['TYPE']: type },
+    i18nVariables: { TYPE: type },
     topLeft:
       'pages:pdf_tools__detail_description_object__image_to_pdf__top_left',
     topRight: [
@@ -153,7 +155,7 @@ const getImageToPdfObj = (type: 'PNG' | 'JPEG' | 'HEIC') => {
     },
   };
 };
-export const toolsDetailDescriptionObject: {
+export const allPdfToolsDetailDescriptionObject: {
   [key in string]: IToolsDetailDescriptionInfoProps;
 } = {
   'merge-pdf': {
@@ -285,11 +287,11 @@ export const toolsDetailDescriptionObject: {
       },
     },
   },
-  'pdf-to-png': getPdfToImageObj('PNG'),
-  'pdf-to-jpeg': getPdfToImageObj('JPEG'),
-  'png-to-pdf': getImageToPdfObj('PNG'),
-  'jpeg-to-pdf': getImageToPdfObj('JPEG'),
-  'heic-to-pdf': getImageToPdfObj('HEIC'),
+  'pdf-to-png': getPdfToImageTypeToolDescriptionObject('PNG'),
+  'pdf-to-jpeg': getPdfToImageTypeToolDescriptionObject('JPEG'),
+  'png-to-pdf': getImageToPdfTypeToolDescriptionObject('PNG'),
+  'jpeg-to-pdf': getImageToPdfTypeToolDescriptionObject('JPEG'),
+  'heic-to-pdf': getImageToPdfTypeToolDescriptionObject('HEIC'),
   'pdf-to-html': {
     topLeft:
       'pages:pdf_tools__detail_description_object__pdf_to_html__top_left',

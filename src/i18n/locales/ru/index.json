@@ -363,7 +363,7 @@
     "tools__index_page__description": "Все инструменты, которые вам понадобятся для повышения продуктивности и более умной работы с документами. 100% БЕСПЛАТНО и работает в браузере для полной конфиденциальности.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF в PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF в JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Объединить PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Объединить PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Разделить PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG в PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG в PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Экспортируйте каждую страницу PDF в PNG-изображение или извлекайте отдельные изображения из PDF в PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Экспортируйте каждую страницу PDF в JPEG-изображение или извлекайте отдельные изображения из PDF в JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Экспортируйте каждую страницу в JPEG или извлекайте отдельные изображения из PDF в JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Объедините любое количество PDF в выбранном вами порядке в один PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Объедините несколько файлов PDF в один всего за несколько щелчков",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Объедините любое количество PDF в выбранном вами порядке в один PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Объедините несколько файлов PDF в один всего за несколько щелчков",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Разделите страницы PDF на несколько PDF или просто удалите страницы из существующего файла",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Разделите страницы PDF на несколько PDF или просто удалите страницы из существующего файла",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Конвертируйте изображения PNG в PDF онлайн",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Преобразуйте страницы PDF в изображения JPEG или извлеките отдельные изображения из ваших файлов PDF онлайн бесплатно. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации.",
     "pdf_tools__pdf_to_png__title": "PDF в PNG - Конвертировать любые PDF в изображения онлайн бесплатно | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Преобразуйте страницы PDF в изображения PNG или извлеките отдельные изображения из ваших файлов PDF онлайн бесплатно. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации.",
-    "pdf_tools__merge_pdfs__title": "Объединить PDF – Объединение PDF-файлов онлайн бесплатно | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Объедините PDF-файлы и создайте один документ онлайн бесплатно. С помощью нашего объединителя PDF объединение PDF стало проще простого. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации.",
+    "pdf_tools__merge_pdf__title": "Объединить PDF – Объединение PDF-файлов онлайн бесплатно | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Объедините PDF-файлы и создайте один документ онлайн бесплатно. С помощью нашего объединителя PDF объединение PDF стало проще простого. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации.",
     "pdf_tools__split_pdf__title": "Разделить PDF – Отдельные страницы PDF онлайн бесплатно | MaxAI.me",
     "pdf_tools__split_pdf__description": "Легко разделяйте страницы или удаляйте страницы в вашем PDF онлайн бесплатно. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации.",
     "pdf_tools__png_to_pdf__title": "PNG в PDF - Конвертировать изображения PNG в PDF онлайн бесплатно | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "Очистить PDF",
     "components__pdf_merge__confirm_merge": "Подтвердить объединение",
     "components__pdf_merge__button__download__tooltip": "Объединить и скачать PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Очистить все PDF ниже",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Очистить все PDF ниже",
     "components__pdf_merge__button__add_pdfs__tooltip": "Добавить файл PDF ниже"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
     "components__pdf_to_html__button__download": "Скачать",
-    "components__pdf_to_html__button__Convert": "Преобразовать другой"
+    "components__pdf_to_html__button__convert": "Преобразовать другой"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Основные функции:",

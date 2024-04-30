@@ -363,7 +363,7 @@
     "tools__index_page__description": "Zana zote utakazohitaji ili kuwa na ufanisi zaidi na kufanya kazi kwa akili na nyaraka. 100% BURE na inayotumia kivinjari kwa faragha kamili.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF kuwa PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF kuwa JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Jumlisha PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Jumlisha PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Gawanya PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG hadi PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG hadi PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Export kila ukurasa wa PDF kama picha ya PNG au chukua picha binafsi kutoka kwenye PDF na uweke kama PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Export kila ukurasa wa PDF kama picha ya JPEG au chukua picha binafsi kutoka kwenye PDF na uweke kama JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Export kila ukurasa kama JPEG au chukua picha binafsi kutoka kwenye PDF na uweke kama JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "unganisha idadi yoyote ya PDFs kwa mpangilio unaotaka na uweke kama PDF moja",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Unganisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "unganisha idadi yoyote ya PDFs kwa mpangilio unaotaka na uweke kama PDF moja",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Unganisha faili nyingi za PDF kuwa moja kwa kubonyeza chache tu",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Gawanya kurasa za PDF kuwa PDFs nyingi au ondoa kurasa kutoka kwenye PDF iliyopo",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Gawanya kurasa za PDF kuwa PDFs nyingi au ondoa kurasa kutoka kwenye PDF iliyopo",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Badilisha picha za PNG kuwa PDF mtandaoni",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Geuza kurasa za PDF kuwa picha za JPEG au chukua picha binafsi kutoka kwenye faili zako za PDF mtandaoni bure. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
     "pdf_tools__pdf_to_png__title": "PDF kuwa PNG - Geuza PDF yoyote kuwa Picha Mtandaoni Bure | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Geuza kurasa za PDF kuwa picha za PNG au chukua picha binafsi kutoka kwenye faili zako za PDF mtandaoni bure. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
-    "pdf_tools__merge_pdfs__title": "Unganisha PDF - Jumuisha Faili za PDF Mtandaoni Bure | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Jumuisha faili za PDF na tengeneza hati moja mtandaoni bure. Kwa kutumia mchanganyiko wetu wa PDF, kuunganisha PDFs ni rahisi kuliko hapo awali. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
+    "pdf_tools__merge_pdf__title": "Unganisha PDF - Jumuisha Faili za PDF Mtandaoni Bure | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Jumuisha faili za PDF na tengeneza hati moja mtandaoni bure. Kwa kutumia mchanganyiko wetu wa PDF, kuunganisha PDFs ni rahisi kuliko hapo awali. Hakuna alama ya maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
     "pdf_tools__split_pdf__title": "Gawanya PDF - Tenganisha Kurasa za PDF Mtandaoni Bure | MaxAI.me",
     "pdf_tools__split_pdf__description": "Tenganisha kurasa au ondoa kurasa kwenye PDF yako mtandaoni bure. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
     "pdf_tools__png_to_pdf__title": "PNG hadi PDF - Badilisha Picha za PNG kuwa PDF Mtandaoni Bure | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "Futa PDFs",
     "components__pdf_merge__confirm_merge": "Thibitisha kuunganisha",
     "components__pdf_merge__button__download__tooltip": "unganisha na pakua PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Ondoa PDF zote hapa chini",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Ondoa PDF zote hapa chini",
     "components__pdf_merge__button__add_pdfs__tooltip": "Ongeza faili ya PDF hapa chini"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
     "components__pdf_to_html__button__download": "Pakua",
-    "components__pdf_to_html__button__Convert": "Geuza nyingine"
+    "components__pdf_to_html__button__convert": "Geuza nyingine"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Vipengele muhimu:",

@@ -363,7 +363,7 @@
     "tools__index_page__description": "Alle verktøyene du trenger for å være mer produktiv og jobbe smartere med dokumenter. 100% GRATIS og nettleserbasert for fullstendig personvern.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF til PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF til JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Slå sammen PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Slå sammen PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Del opp en PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG til PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG til PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksporter hver PDF-side som et PNG-bilde eller ekstraher individuelle bilder fra PDF til PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksporter hver PDF-side som et JPEG-bilde eller ekstraher individuelle bilder fra PDF til JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksporter hver side som en JPEG eller ekstraher individuelle bilder fra PDF til JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Slå sammen hvilket som helst antall PDF-er i den rekkefølgen du velger til en enkelt PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Slå sammen flere PDF-filer til en med bare noen få klikk",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Slå sammen hvilket som helst antall PDF-er i den rekkefølgen du velger til en enkelt PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Slå sammen flere PDF-filer til en med bare noen få klikk",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Del opp sidene i en PDF til flere PDF-er eller fjern sider fra en eksisterende PDF",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Del opp sidene i en PDF til flere PDF-er eller fjern sider fra en eksisterende PDF.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konverter PNG-bilder til PDF på nettet",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Konverter PDF-sider til JPEG-bilder eller ekstraher enkeltbilder fra PDF-filene dine online gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
     "pdf_tools__pdf_to_png__title": "PDF til PNG - Konverter hvilken som helst PDF til bilder online gratis | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Konverter PDF-sider til PNG-bilder eller ekstraher enkeltbilder fra PDF-filene dine online gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
-    "pdf_tools__merge_pdfs__title": "Slå sammen PDF – Kombiner PDF-filer online gratis | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Kombiner PDF-filer og opprett et enkelt dokument online gratis. Med vår PDF-sammenslåing er det enklere enn noensinne å slå sammen PDF-er. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
+    "pdf_tools__merge_pdf__title": "Slå sammen PDF – Kombiner PDF-filer online gratis | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Kombiner PDF-filer og opprett et enkelt dokument online gratis. Med vår PDF-sammenslåing er det enklere enn noensinne å slå sammen PDF-er. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
     "pdf_tools__split_pdf__title": "Del opp PDF – Separer PDF-sider på nettet gratis | MaxAI.me",
     "pdf_tools__split_pdf__description": "Separer enkelt sider eller fjern sider i PDF-en din på nettet gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves.",
     "pdf_tools__png_to_pdf__title": "PNG til PDF - Konverter PNG-bilder til PDF på nettet gratis | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "Tøm PDF-er",
     "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
     "components__pdf_merge__button__download__tooltip": "Slå sammen og last ned PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Fjern alle PDF-er nedenfor",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Fjern alle PDF-er nedenfor",
     "components__pdf_merge__button__add_pdfs__tooltip": "Legg til PDF-fil nedenfor"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Vennligst last opp den angitte filtypen for PDF",
     "components__pdf_to_html__button__download": "Last ned",
-    "components__pdf_to_html__button__Convert": "Konverter en annen"
+    "components__pdf_to_html__button__convert": "Konverter en annen"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Kjernefunksjoner:",

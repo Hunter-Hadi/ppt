@@ -363,7 +363,7 @@
     "tools__index_page__description": "تمام ابزارهایی که برای افزایش بهره‌وری و هوشمندانه کار با سند نیاز خواهید داشت. 100٪ رایگان و مبتنی بر مرورگر برای حفظ حریم خصوصی کامل.",
     "tools__index_page__constant_obj__pdf_to_png__title": "تبدیل PDF به PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "تبدیل PDF به JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "ادغام PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "ادغام PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسیم یک PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "تبدیل PNG به PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "تبدیل JPEG به PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "صفحه هر PDF را به تصویر PNG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "صفحه هر PDF را به تصویر JPEG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "صفحه هر PDF را به تصویر JPEG صادر کنید یا تصاویر فردی را از PDF استخراج کنید",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "تعداد هر چقدری از PDF ها را که می خواهید در ترتیب دلخواه خود به یک PDF واحد ادغام کنید",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "چندین فایل PDF را با چند کلیک به یک فایل ترکیب کنید",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "تعداد هر چقدری از PDF ها را که می خواهید در ترتیب دلخواه خود به یک PDF واحد ادغام کنید",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "چندین فایل PDF را با چند کلیک به یک فایل ترکیب کنید",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "صفحات یک PDF را به چندین PDF تقسیم کنید یا صفحات را از یک PDF موجود حذف کنید",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "صفحات یک PDF را به چندین PDF تقسیم کنید یا صفحات را از یک PDF موجود حذف کنید",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "تصاویر PNG را به PDF آنلاین تبدیل کنید",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "تبدیل صفحات PDF به تصاویر JPEG یا استخراج تصاویر فردی از فایل‌های PDF خود آنلاین و رایگان. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
     "pdf_tools__pdf_to_png__title": "تبدیل PDF به PNG - تبدیل هر PDF به تصاویر آنلاین رایگان | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "تبدیل صفحات PDF به تصاویر PNG یا استخراج تصاویر فردی از فایل‌های PDF خود آنلاین و رایگان. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
-    "pdf_tools__merge_pdfs__title": "ادغام PDF - ترکیب فایل‌های PDF آنلاین رایگان | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "ترکیب فایل‌های PDF و ایجاد یک سند تکی آنلاین رایگان. با استفاده از ادغام کننده PDF ما، ترکیب PDF ها آسانتر از همیشه است. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
+    "pdf_tools__merge_pdf__title": "ادغام PDF - ترکیب فایل‌های PDF آنلاین رایگان | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "ترکیب فایل‌های PDF و ایجاد یک سند تکی آنلاین رایگان. با استفاده از ادغام کننده PDF ما، ترکیب PDF ها آسانتر از همیشه است. بدون علامت آب، محدودیت حجم فایل، دانلود یا ثبت نام.",
     "pdf_tools__split_pdf__title": "تقسیم PDF - جدا کردن صفحات PDF آنلاین به صورت رایگان | MaxAI.me",
     "pdf_tools__split_pdf__description": "به راحتی صفحات را جدا کنید یا صفحات را از PDF خود حذف کنید به صورت آنلاین و رایگان. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
     "pdf_tools__png_to_pdf__title": "تبدیل PNG به PDF - تبدیل تصاویر PNG به PDF آنلاین رایگان | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
     "components__pdf_merge__confirm_merge": "تأیید ادغام",
     "components__pdf_merge__button__download__tooltip": "ادغام و دانلود PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "پاک کردن همه PDF های زیر",
+    "components__pdf_merge__button__clear_pdf__tooltip": "پاک کردن همه PDF های زیر",
     "components__pdf_merge__button__add_pdfs__tooltip": "افزودن فایل PDF زیر"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__pdf_to_html__button__download": "دانلود",
-    "components__pdf_to_html__button__Convert": "تبدیل دیگری"
+    "components__pdf_to_html__button__convert": "تبدیل دیگری"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "ویژگی‌های اصلی:",

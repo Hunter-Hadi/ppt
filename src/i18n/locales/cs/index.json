@@ -363,7 +363,7 @@
     "tools__index_page__description": "Všechny nástroje, které budete potřebovat k větší produktivitě a chytřejší práci s dokumenty. 100% ZDARMA a založeno na prohlížeči pro úplné soukromí.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF na PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF na JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Sloučit PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Sloučit PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Rozdělit PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG na PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG na PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exportujte každou stránku PDF jako obrázek PNG nebo extrahujte jednotlivé obrázky z PDF do PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exportujte každou stránku PDF jako obrázek JPEG nebo extrahujte jednotlivé obrázky z PDF do JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exportujte každou stránku jako obrázek JPEG nebo extrahujte jednotlivé obrázky z PDF do JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Spojte libovolné množství PDF v pořadí, které si vyberete, do jednoho PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Spojte více souborů PDF do jednoho jen pár kliknutími",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Spojte libovolné množství PDF v pořadí, které si vyberete, do jednoho PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Spojte více souborů PDF do jednoho jen pár kliknutími",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Rozdělte stránky PDF na více PDF nebo jednoduše odstraňte stránky z existujícího",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Rozdělte stránky PDF na více PDF nebo jednoduše odstraňte stránky z existujícího",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Převést obrázky PNG na PDF online",
@@ -752,8 +752,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Převeďte stránky PDF na obrázky ve formátu JPEG nebo extrahujte jednotlivé obrázky z vašich PDF souborů online zdarma. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
     "pdf_tools__pdf_to_png__title": "PDF na PNG - Převést libovolné PDF na obrázky online zdarma | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Převeďte stránky PDF na obrázky ve formátu PNG nebo extrahujte jednotlivé obrázky z vašich PDF souborů online zdarma. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
-    "pdf_tools__merge_pdfs__title": "Sloučit PDF – Sjednocení PDF souborů online zdarma | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Spojte PDF soubory a vytvořte jediný dokument online zdarma. S naším nástrojem na sloučení PDF je spojování PDF snadnější než kdy dříve. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
+    "pdf_tools__merge_pdf__title": "Sloučit PDF – Sjednocení PDF souborů online zdarma | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Spojte PDF soubory a vytvořte jediný dokument online zdarma. S naším nástrojem na sloučení PDF je spojování PDF snadnější než kdy dříve. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
     "pdf_tools__split_pdf__title": "Rozdělit PDF – Oddělte stránky PDF online zdarma | MaxAI.me",
     "pdf_tools__split_pdf__description": "Snadno oddělte stránky nebo odstraňte stránky ve vašem PDF online zdarma. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
     "pdf_tools__png_to_pdf__title": "PNG na PDF - Převod PNG obrázků do PDF online zdarma | MaxAI.me",
@@ -827,7 +827,7 @@
     "components__pdf_merge__empty_pdf": "Vymazat PDF",
     "components__pdf_merge__confirm_merge": "Potvrdit sloučení",
     "components__pdf_merge__button__download__tooltip": "Sloučit a stáhnout PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Vymazat všechna PDF níže",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Vymazat všechna PDF níže",
     "components__pdf_merge__button__add_pdfs__tooltip": "Přidat PDF soubor níže"
   },
   "functionality__pdf_split": {
@@ -869,7 +869,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Nahrajte prosím požadovaný typ souboru PDF",
     "components__pdf_to_html__button__download": "Stáhnout",
-    "components__pdf_to_html__button__Convert": "Převést další"
+    "components__pdf_to_html__button__convert": "Převést další"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Hlavní funkce:",

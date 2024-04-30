@@ -1,6 +1,6 @@
 import { Box, CircularProgress, Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
 import {
@@ -9,8 +9,8 @@ import {
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
 import { convertPdfToHTMLDivElement } from '@/features/functionality_pdf_to_html/utils/convertPdfToHTML';
-import snackNotifications from '@/utils/globalSnackbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -43,16 +43,10 @@ const FunctionalityPdfToHtmlMain = () => {
       if (htmlString) {
         setHtmlString(htmlString);
       } else {
-        snackNotifications.warning(
+        functionalityCommonSnackNotifications(
           `${fileName} ${t(
             'functionality__common:components__common__pdf_encryption_tip',
           )}`,
-          {
-            anchorOrigin: {
-              vertical: 'top',
-              horizontal: 'center',
-            },
-          },
         );
       }
       setPdfTotalPages(0);
@@ -66,44 +60,53 @@ const FunctionalityPdfToHtmlMain = () => {
     }
   };
   const handleUnsupportedFileType = () => {
-    snackNotifications.warning(
+    functionalityCommonSnackNotifications(
       t(
         'functionality__pdf_to_html:components__pdf_to_html__unsupported_file_type_tip',
       ),
-      {
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-      },
     );
   };
   //按钮配置列表
-  const buttonConfigs: IButtonConfig[] = [
-    {
-      type: 'button',
-      buttonProps: {
-        children: t(
-          'functionality__pdf_to_html:components__pdf_to_html__button__download',
-        ),
-        variant: 'contained',
-        disabled: isLoading,
-        onClick: downloadHtml,
+  const buttonConfigs: IButtonConfig[] = useMemo(
+    () => [
+      {
+        type: 'button',
+        buttonProps: {
+          children: t(
+            'functionality__pdf_to_html:components__pdf_to_html__button__download',
+          ),
+          variant: 'contained',
+          disabled: isLoading,
+          onClick: downloadHtml,
+        },
       },
-    },
-    {
-      type: 'button',
-      buttonProps: {
-        children: t(
-          'functionality__pdf_to_html:components__pdf_to_html__button__Convert',
-        ),
-        variant: 'outlined',
-        disabled: isLoading,
-        color: 'error',
-        onClick: () => setHtmlString(null),
+      {
+        type: 'button',
+        buttonProps: {
+          children: t(
+            'functionality__pdf_to_html:components__pdf_to_html__button__convert',
+          ),
+          variant: 'outlined',
+          disabled: isLoading,
+          color: 'error',
+          onClick: () => setHtmlString(null),
+        },
       },
-    },
-  ];
+    ],
+    [isLoading, htmlString, fileName],
+  );
+  const BoxViewWrap = (props) => (
+    <Box
+      sx={{
+        width: '100%',
+        position: 'relative',
+        minHeight: 200,
+        pt: 10,
+      }}
+    >
+      {props.children}
+    </Box>
+  );
   return (
     <Stack
       flexDirection='column'
@@ -124,39 +127,30 @@ const FunctionalityPdfToHtmlMain = () => {
           handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
-      {(isLoading || htmlString) && (
-        <Box
-          sx={{
-            width: '100%',
-            position: 'relative',
-            minHeight: 200,
-            pt: 10,
-          }}
-        >
-          {htmlString && (
-            <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
-          )}
-          {isLoading && (
-            <Stack
-              alignItems='center'
-              flexDirection='column'
-              justifyContent='center'
-              sx={{
-                position: 'absolute',
-                top: 10,
-                left: 0,
-                right: 15,
-                bottom: 0,
-                bgcolor: 'rgba(255,255,255,0.3)',
-              }}
-            >
-              <CircularProgress />
-              {pdfTotalPages > 0
-                ? `${currentPdfActionNum}/${pdfTotalPages}`
-                : ''}
-            </Stack>
-          )}
-        </Box>
+      {htmlString && (
+        <BoxViewWrap>
+          <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
+        </BoxViewWrap>
+      )}
+      {isLoading && (
+        <BoxViewWrap>
+          <Stack
+            alignItems='center'
+            flexDirection='column'
+            justifyContent='center'
+            sx={{
+              position: 'absolute',
+              top: 10,
+              left: 0,
+              right: 15,
+              bottom: 0,
+              bgcolor: 'rgba(255,255,255,0.3)',
+            }}
+          >
+            <CircularProgress />
+            {pdfTotalPages > 0 ? `${currentPdfActionNum}/${pdfTotalPages}` : ''}
+          </Stack>
+        </BoxViewWrap>
       )}
     </Stack>
   );

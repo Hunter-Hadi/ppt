@@ -12,7 +12,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
 }) => {
   const { t } = useTranslation();
   const getTranslation = (key: string) => {
-    return t(key, descriptionInfo.i18nChangeObj);
+    return t(key, descriptionInfo.i18nVariables);
   };
   return (
     <Box

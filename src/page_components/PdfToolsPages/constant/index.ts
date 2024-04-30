@@ -18,17 +18,17 @@ export interface IToolData {
   accept: string;
   urlPrefixPath?: string
 }
-const routerChildrens = (toolsCodeMap.childrens as { [key in IToolUrkKeyType]: IToolUrkKeyType });
+const routerChildrenObject = (toolsCodeMap.childrenObject as { [key in IToolUrkKeyType]: IToolUrkKeyType });
 const toolsTopUrlKey = toolsCodeMap.topUrlKey;
 export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   'merge-pdf': {
     icon: 'CropOriginal',
-    title: 'pages:tools__index_page__constant_obj__merge_pdfs__title',
+    title: 'pages:tools__index_page__constant_obj__merge_pdf__title',
     description:
-      'pages:tools__index_page__constant_obj__merge_pdfs__main_description',
+      'pages:tools__index_page__constant_obj__merge_pdf__main_description',
     secondaryDescription:
-      'pages:tools__index_page__constant_obj__merge_pdfs__secondary_description',
-    urlKey: routerChildrens['merge-pdf'],
+      'pages:tools__index_page__constant_obj__merge_pdf__secondary_description',
+    urlKey: routerChildrenObject['merge-pdf'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -39,7 +39,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__split_a_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__split_a_pdf__secondary_description',
-    urlKey: routerChildrens['split-pdf'],
+    urlKey: routerChildrenObject['split-pdf'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -50,7 +50,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_to_png__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_png__secondary_description',
-    urlKey: routerChildrens['pdf-to-png'],
+    urlKey: routerChildrenObject['pdf-to-png'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -61,7 +61,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_to_jpeg__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_jpeg__secondary_description',
-    urlKey: routerChildrens['pdf-to-jpeg'],
+    urlKey: routerChildrenObject['pdf-to-jpeg'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -72,7 +72,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__png_to_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__png_to_pdf__secondary_description',
-    urlKey: routerChildrens['png-to-pdf'],
+    urlKey: routerChildrenObject['png-to-pdf'],
     accept: 'image/png',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -83,7 +83,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__secondary_description',
-    urlKey: routerChildrens['jpeg-to-pdf'],
+    urlKey: routerChildrenObject['jpeg-to-pdf'],
     accept: 'image/jpg',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -94,7 +94,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__heic_to_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__heic_to_pdf__secondary_description',
-    urlKey: routerChildrens['heic-to-pdf'],
+    urlKey: routerChildrenObject['heic-to-pdf'],
     accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
   },
@@ -105,7 +105,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_to_html__description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_html__description',
-    urlKey: routerChildrens['pdf-to-html'],
+    urlKey: routerChildrenObject['pdf-to-html'],
     accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
   }

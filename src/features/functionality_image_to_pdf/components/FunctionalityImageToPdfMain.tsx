@@ -25,7 +25,7 @@ import FunctionalityCommonTooltip from '@/features/functionality_common/componen
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import snackNotifications from '@/utils/globalSnackbar';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
 
 import {
   IPdfImagePositionOptionKeyType,
@@ -99,16 +99,10 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
     setIsLoading(false);
   };
   const handleUnsupportedFileTypeTip = () => {
-    snackNotifications.warning(
+    functionalityCommonSnackNotifications(
       t(
         'functionality__image_to_pdf:components__image_to_pdf__error_uploaded__tips',
       ),
-      {
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-      },
     );
   };
   const getUserSelectPageSize = () => {
@@ -200,49 +194,52 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
     }
   };
   //按钮配置列表
-  const buttonConfigs: IButtonConfig[] = [
-    {
-      type: 'upload',
-      uploadProps: {
-        tooltip: t(
-          'functionality__image_to_pdf:components__image_to_pdf__button_add_png__tooltip',
-        ),
-        onChange: onUploadFile,
-        isDrag: false,
-        buttonProps: {
-          disabled: isLoading,
-          variant: 'outlined',
-          sx: {
-            height: 48,
-            width: '100%',
+  const buttonConfigs: IButtonConfig[] = useMemo(
+    () => [
+      {
+        type: 'upload',
+        uploadProps: {
+          tooltip: t(
+            'functionality__image_to_pdf:components__image_to_pdf__button_add_png__tooltip',
+          ),
+          onChange: onUploadFile,
+          isDrag: false,
+          buttonProps: {
+            disabled: isLoading,
+            variant: 'outlined',
+            sx: {
+              height: 48,
+              width: '100%',
+            },
           },
+          inputProps: {
+            accept: accept || 'image/png',
+            multiple: true,
+          },
+          handleUnsupportedFileType: handleUnsupportedFileTypeTip,
+          children: t(
+            'functionality__image_to_pdf:components__image_to_pdf__button_add_png',
+          ),
         },
-        inputProps: {
-          accept: accept || 'image/png',
-          multiple: true,
+      },
+      {
+        type: 'button',
+        buttonProps: {
+          tooltip: t(
+            'functionality__image_to_pdf:components__image_to_pdf__button_remove_png__tooltip',
+          ),
+          children: t(
+            'functionality__image_to_pdf:components__image_to_pdf__button_remove_png',
+          ),
+          variant: 'outlined',
+          color: 'error',
+          disabled: isLoading,
+          onClick: () => setImageInfoList([]),
         },
-        handleUnsupportedFileType: handleUnsupportedFileTypeTip,
-        children: t(
-          'functionality__image_to_pdf:components__image_to_pdf__button_add_png',
-        ),
       },
-    },
-    {
-      type: 'button',
-      buttonProps: {
-        tooltip: t(
-          'functionality__image_to_pdf:components__image_to_pdf__button_remove_png__tooltip',
-        ),
-        children: t(
-          'functionality__image_to_pdf:components__image_to_pdf__button_remove_png',
-        ),
-        variant: 'outlined',
-        color: 'error',
-        disabled: isLoading,
-        onClick: () => setImageInfoList([]),
-      },
-    },
-  ];
+    ],
+    [isLoading],
+  );
   const isEmptyList = imageInfoList.length === 0;
   const bottomButtonConfigs: IButtonConfig[] = [
     {
@@ -284,7 +281,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       {!isEmptyList && (
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
-      {(!isEmptyList || isLoading) && (
+      {!isEmptyList && !isLoading && (
         <Box
           my={3}
           sx={{
@@ -292,87 +289,93 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             minHeight: 200,
           }}
         >
-          {!isLoading && (
-            <FunctionalityCommonDragSortableList
-              list={imageInfoList}
-              onUpdateList={setImageInfoList}
-              replacementElement={(dragInfo) => (
-                <FunctionalityCommonImage
-                  sx={{
+          <FunctionalityCommonDragSortableList
+            list={imageInfoList}
+            onUpdateList={setImageInfoList}
+            replacementElement={(dragInfo) => (
+              <FunctionalityCommonImage
+                sx={{
+                  bgcolor: 'transparent',
+                  '&:hover': {
                     bgcolor: 'transparent',
-                    '&:hover': {
-                      bgcolor: 'transparent',
-                    },
-                  }}
-                  imageInfo={dragInfo}
-                />
-              )}
-            >
-              {(imageInfo, index, currentDragInfo) => (
-                <FunctionalityCommonTooltip
+                  },
+                }}
+                imageInfo={dragInfo}
+              />
+            )}
+          >
+            {(imageInfo, index, currentDragInfo) => (
+              <FunctionalityCommonTooltip
+                key={imageInfo.id}
+                title={`${ceil(divide(imageInfo.size || 0, 1000))}kb`}
+              >
+                <FunctionalityCommonImage
                   key={imageInfo.id}
-                  title={`${ceil(divide(imageInfo.size || 0, 1000))}kb`}
+                  name={String(index + 1)}
+                  imageInfo={imageInfo}
+                  sx={{
+                    border:
+                      currentDragInfo?.id === imageInfo.id
+                        ? '1px dashed #64467b'
+                        : 'none',
+                  }}
+                  imgStyle={{
+                    opacity: currentDragInfo?.id === imageInfo.id ? 0 : 1,
+                  }}
                 >
-                  <FunctionalityCommonImage
-                    key={imageInfo.id}
-                    name={String(index + 1)}
-                    imageInfo={imageInfo}
-                    sx={{
-                      border:
-                        currentDragInfo?.id === imageInfo.id
-                          ? '1px dashed #64467b'
-                          : 'none',
-                    }}
-                    imgStyle={{
-                      opacity: currentDragInfo?.id === imageInfo.id ? 0 : 1,
-                    }}
-                  >
-                    {!currentDragInfo ? (
-                      <Box
-                        sx={{
-                          position: 'absolute',
-                          top: 0,
-                          right: 0,
-                        }}
+                  {!currentDragInfo ? (
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        top: 0,
+                        right: 0,
+                      }}
+                    >
+                      <IconButton
+                        size='small'
+                        onClick={() => onDeleteInfo(imageInfo.id)}
                       >
-                        <IconButton
-                          size='small'
-                          onClick={() => onDeleteInfo(imageInfo.id)}
-                        >
-                          <FunctionalityCommonIcon
-                            name='CloseTwoTone'
-                            fontSize='small'
-                            sx={{
-                              bgcolor: '#d1d5db',
-                              borderRadius: 3,
-                            }}
-                          />
-                        </IconButton>
-                      </Box>
-                    ) : null}
-                  </FunctionalityCommonImage>
-                </FunctionalityCommonTooltip>
-              )}
-            </FunctionalityCommonDragSortableList>
-          )}
-          {isLoading && (
-            <Stack
-              flexDirection='column'
-              alignItems='center'
-              sx={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                right: 15,
-                bottom: 0,
-                bgcolor: 'rgba(255,255,255,0.3)',
-                paddingTop: 10,
-              }}
-            >
-              <CircularProgress />
-              {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
-            </Stack>
-          )}
+                        <FunctionalityCommonIcon
+                          name='CloseTwoTone'
+                          fontSize='small'
+                          sx={{
+                            bgcolor: '#d1d5db',
+                            borderRadius: 3,
+                          }}
+                        />
+                      </IconButton>
+                    </Box>
+                  ) : null}
+                </FunctionalityCommonImage>
+              </FunctionalityCommonTooltip>
+            )}
+          </FunctionalityCommonDragSortableList>
+        </Box>
+      )}
+      {isLoading && (
+        <Box
+          my={3}
+          sx={{
+            position: 'relative',
+            minHeight: 200,
+          }}
+        >
+          <Stack
+            flexDirection='column'
+            alignItems='center'
+            sx={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 15,
+              bottom: 0,
+              bgcolor: 'rgba(255,255,255,0.3)',
+              paddingTop: 10,
+            }}
+          >
+            <CircularProgress />
+            {totalPages > 0 ? `${currentActionNum}/${totalPages}` : ''}
+          </Stack>
         </Box>
       )}
       {!isEmptyList && (

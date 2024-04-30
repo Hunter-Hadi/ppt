@@ -33,11 +33,13 @@ const useFunctionalityCommonConvertedContentSelector = <T extends ISwitchWithTyp
     );
   };
   const onSwitchAllSelect = () => {
-    const newIsSelectAll = !isSelectAll;
-    params.setList((prev) =>
-      prev.map((item) => ({ ...item, isSelect: newIsSelectAll })),
-    );
-    setIsSelectAll(newIsSelectAll);
+    setIsSelectAll(currentIsSelectAll => {
+      params.setList((prev) =>
+        prev.map((item) => ({ ...item, isSelect: !currentIsSelectAll })),
+      );
+      return !currentIsSelectAll
+    });
+
   };
   return {
     isSelectAll,
