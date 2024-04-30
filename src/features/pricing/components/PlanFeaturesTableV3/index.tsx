@@ -210,6 +210,7 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
           ref={tableContainerRef}
           sx={{
             overflow: 'auto',
+            pt: popularPlan ? 2 : 0,
           }}
         >
           {

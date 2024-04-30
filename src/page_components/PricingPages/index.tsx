@@ -1,4 +1,3 @@
-import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
@@ -7,6 +6,8 @@ import React from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
+import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
+import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
 import BetterPlansDisplay from '@/features/pricing/components/BetterPlansDisplay';
 import PlanFeaturesTableV3 from '@/features/pricing/components/PlanFeaturesTableV3';
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox';
@@ -35,7 +36,7 @@ const PricingPages = () => {
         mx={'auto'}
         px={3}
         pb={15}
-        pt={8}
+        pt={4}
         sx={{
           boxSizing: 'border-box',
         }}
@@ -55,14 +56,74 @@ const PricingPages = () => {
           >
             {t('pages:pricing__better_plan__title')}
           </Typography>
-          <Box width={'max-content'} mb={6}>
+          <Stack
+            direction='row'
+            alignItems={'center'}
+            gap={{
+              xs: 1,
+              sm: 3,
+            }}
+            flexWrap={'wrap'}
+            sx={{
+              width: 'max-content',
+              mb: 6,
+            }}
+          >
             <A16zTop50AppsBadge />
-          </Box>
+            <IndicatorDecorator>
+              <Stack justifyContent={'center'} alignItems='center'>
+                <Typography
+                  variant='custom'
+                  fontSize={{
+                    xs: 20,
+                    sm: 24,
+                  }}
+                  fontWeight={700}
+                  color='primary.main'
+                >
+                  {LOVED_BY_NUM}
+                </Typography>
+                <Typography
+                  variant='custom'
+                  fontSize={{
+                    xs: 14,
+                    sm: 16,
+                  }}
+                >
+                  {t('pages:home_page__hero_section__indicator2_label')}
+                </Typography>
+              </Stack>
+            </IndicatorDecorator>
+            <IndicatorDecorator>
+              <Stack justifyContent={'center'} alignItems='center'>
+                <Typography
+                  variant='custom'
+                  fontSize={{
+                    xs: 20,
+                    sm: 24,
+                  }}
+                  fontWeight={700}
+                  color='primary.main'
+                >
+                  {STAR_RATINGS_NUM}
+                </Typography>
+                <Typography
+                  variant='custom'
+                  fontSize={{
+                    xs: 14,
+                    sm: 16,
+                  }}
+                >
+                  {t('pages:home_page__hero_section__indicator3_label')}
+                </Typography>
+              </Stack>
+            </IndicatorDecorator>
+          </Stack>
           <BetterPlansDisplay popularPlan={'elite'} />
         </Stack>
         {/* compare plans */}
         <Stack
-          spacing={4}
+          spacing={6}
           mt={20}
           sx={{
             display: {
@@ -80,7 +141,7 @@ const PricingPages = () => {
             fontWeight={700}
             component={'h2'}
             textAlign={'center'}
-            mb={4}
+            // mb={4}
           >
             {t('pages:pricing__compare_plans__title')}
           </Typography>
