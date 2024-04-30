@@ -375,10 +375,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           const targetObject = e.target;
           targetObject.setCoords();
           constrainWithinCanvas(targetObject);
-          if (!e.target?._objects) {
-            handleObjectSelected(e.target);
-            checkAndMoveToAnotherCanvas(e);
-          }
+          handleObjectSelected(e.target);
+          checkAndMoveToAnotherCanvas(e);
         });
         // 对象移动监听 - 保证操作div跟随移动
         editor.canvas.on('object:scaling', function (e) {
