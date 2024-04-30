@@ -18,7 +18,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
       // desc: PLAN_FEATURES_USAGE_CATEGORY_MODEL['fast_text'],
       tooltip: {
         desc: 'pricing:features__fast_text_queries__tooltip__description',
-        imageLink: '/assets/images/pricing/fast-text-queries.png',
+        imageLink: '/assets/pricing/fast-text-queries.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -42,6 +42,11 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'GPT-3.5',
+      icon: 'ChatGPTIcon',
+      video: {
+        link: 'https://www.youtube.com/embed/QA4gxm3xtLE',
+        time: '0:55',
+      },
     },
     free: { status: 'limit-color' },
     basic: {
@@ -60,6 +65,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Claude-3-haiku',
+      icon: 'Claude3Haiku',
     },
     free: { status: 'limit-color' },
     basic: {
@@ -78,6 +84,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Gemini-pro',
+      icon: 'GeminiIcon',
     },
     free: { status: 'limit-color' },
     basic: {
@@ -99,8 +106,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
       // desc: PLAN_FEATURES_USAGE_CATEGORY_MODEL['advanced_text'],
       tooltip: {
         desc: 'pricing:features__advanced_text_queries__tooltip__description',
-        imageLink: '/assets/images/pricing/advanced-text-queries.png',
+        imageLink: '/assets/pricing/advanced-text-queries.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        moreDescription:
+          'pricing:features__advanced_text_queries__elite__more_description',
       },
     },
     free: { status: 'none' },
@@ -129,6 +138,11 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'GPT-4',
+      icon: 'ChatGPT4Vision',
+      video: {
+        link: 'https://www.youtube.com/embed/mAi1D9cbGos',
+        time: '0:55',
+      },
     },
     free: { status: 'none-color' },
     basic: {
@@ -147,6 +161,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Claude-3-opus',
+      icon: 'Claude3Opus',
     },
     free: { status: 'none-color' },
     basic: {
@@ -165,6 +180,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Claude-3-sonnet',
+      icon: 'ClaudeIcon',
     },
     free: { status: 'none-color' },
     basic: {
@@ -183,6 +199,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Gemini-1.5-pro',
+      icon: 'GeminiPro',
     },
     free: { status: 'none-color' },
     basic: {
@@ -204,8 +221,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
       // desc: PLAN_FEATURES_USAGE_CATEGORY_MODEL['image'],
       tooltip: {
         desc: 'pricing:features__image_queries__tooltip__description',
-        imageLink: '/assets/images/pricing/image-queries.png',
+        imageLink: '/assets/pricing/image-queries.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        moreDescription:
+          'pricing:features__image_queries__elite__more_description',
       },
     },
     free: { status: 'none' },
@@ -228,6 +247,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'DALL·E 3',
+      icon: 'DALLE',
     },
     free: { status: 'none-color' },
     basic: {
@@ -265,10 +285,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__ai_rewriter__title',
       desc: 'pricing:features__ai_rewriter__description',
-      icon: 'NewChat',
+      // icon: 'NewChat',
       tooltip: {
         desc: 'pricing:features__ai_rewriter__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-rewriter.png',
+        imageLink: '/assets/pricing/ai-rewriter.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -280,11 +300,11 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'pricing:features__ai_instant_reply__title',
-      desc: 'pricing:features__ai_instant_reply__description',
-      icon: 'QuickReplyIcon',
+      // desc: 'pricing:features__ai_instant_reply__description',
+      // icon: 'QuickReplyIcon',
       tooltip: {
         desc: 'pricing:features__ai_instant_reply__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-instant-reply.png',
+        imageLink: '/assets/pricing/ai-instant-reply.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -292,15 +312,293 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     basic: { status: 'checked' },
     pro: { status: 'checked' },
     elite: { status: 'checked' },
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title: 'Gmail instant reply',
+      icon: 'Gmail',
+      video: {
+        link: 'https://www.youtube.com/embed/fwaqJyTwefI',
+        time: '1:20',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Outlook instant reply',
+      icon: 'Outlook',
+      video: {
+        link: 'https://www.youtube.com/embed/Y2yZ4wWQDno?start=14',
+        time: '1:15',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Facebook instant reply',
+      icon: 'Facebook',
+      video: {
+        link: 'https://www.youtube.com/embed/zmNGKFyw3pU',
+        time: '1:19',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'LinkedIn instant reply',
+      icon: 'LinkedIn',
+      video: {
+        link: 'https://www.youtube.com/embed/55IqqmQIBw0?start=26',
+        time: '1:27',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'X/Twitter instant reply',
+      icon: 'TwitterX',
+      video: {
+        link: 'https://www.youtube.com/embed/3UQaOm8sWVI',
+        time: '1:06',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'YouTube instant reply',
+      icon: 'YouTube',
+      video: {
+        link: 'https://www.youtube.com/embed/D4Acc0rpR3o?start=11',
+        time: '1:38',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Instagram instant reply',
+      icon: 'Instagram',
+      video: {
+        link: 'https://www.youtube.com/embed/OnRPaGn_4Ds?start=14',
+        time: '1:33',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  // {
+  //   features: {
+  //     title: 'Reddit instant reply',
+  //     icon: 'Reddit',
+  //   },
+  //   free: { status: 'none-color' },
+  //   basic: {
+  //     status: 'checked-color',
+  //   },
+  //   pro: {
+  //     status: 'checked-color',
+  //   },
+  //   elite: {
+  //     status: 'checked-color',
+  //   },
+  //   meta: {
+  //     type: 'secondary',
+  //   },
+  // },
+  {
+    features: {
+      title: 'WhatsApp instant reply',
+      icon: 'WhatsApp',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Discord instant reply',
+      icon: 'Discord',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Telegram instant reply',
+      icon: 'Telegram',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Messenger instant reply',
+      icon: 'Messenger',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Slack instant reply',
+      icon: 'Slack',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
   },
   {
     features: {
       title: 'pricing:features__ai_art__title',
       desc: 'pricing:features__ai_art__description',
-      icon: 'Art',
+      // icon: 'Art',
       tooltip: {
         desc: 'pricing:features__ai_art__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-art.png',
+        imageLink: '/assets/pricing/ai-art.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -313,11 +611,15 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__ai_prompt_manager__title',
       desc: 'pricing:features__ai_prompt_manager__description',
-      icon: 'PromptManager',
+      // icon: 'PromptManager',
       tooltip: {
         desc: 'pricing:features__ai_prompt_manager__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-prompt-manager.png',
+        imageLink: '/assets/pricing/ai-prompt-manager.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+      },
+      video: {
+        link: 'https://www.youtube.com/embed/CkFKtcZw5xY',
+        time: '0:47',
       },
     },
     free: { status: 'checked' },
@@ -329,10 +631,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__ai_prompts_library__title',
       desc: 'pricing:features__ai_prompts_library__description',
-      icon: 'PromptLibrary',
+      // icon: 'PromptLibrary',
       tooltip: {
         desc: 'pricing:features__ai_prompts_library__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-prompts-library.png',
+        imageLink: '/assets/pricing/ai-prompts-library.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -353,11 +655,11 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'pricing:features__ai_summary_ask__title',
-      desc: 'pricing:features__ai_summary_ask__description',
-      icon: 'SummaryAsk',
+      // desc: 'pricing:features__ai_summary_ask__description',
+      // icon: 'SummaryAsk',
       tooltip: {
         desc: 'pricing:features__ai_summary_ask__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-summary-ask.png',
+        imageLink: '/assets/pricing/ai-summary-ask.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -365,15 +667,106 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     basic: { status: 'checked' },
     pro: { status: 'checked' },
     elite: { status: 'checked' },
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title: 'Summarize & ask PDF',
+      icon: 'PDFViewerIcon',
+      video: {
+        link: 'https://www.youtube.com/embed/72UM1jMaJhY',
+        time: '0:43',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Summarize & ask YouTube video',
+      icon: 'YouTube',
+      video: {
+        link: 'https://www.youtube.com/embed/P60_lPz5yIU',
+        time: '0:15',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Summarize & ask email',
+      icon: 'EmailIcon',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Summarize & ask any webpage',
+      icon: 'LanguageIcon',
+      video: {
+        link: 'https://www.youtube.com/embed/72UM1jMaJhY',
+        time: '0:43',
+      },
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
   },
   {
     features: {
       title: 'pricing:features__ai_reading_assistant__title',
       desc: 'pricing:features__ai_reading_assistant__description',
-      icon: 'ReadingAssistant',
+      // icon: 'ReadingAssistant',
       tooltip: {
         desc: 'pricing:features__ai_reading_assistant__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-reading-assistant.png',
+        imageLink: '/assets/pricing/ai-reading-assistant.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -386,10 +779,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__ai_translator__title',
       desc: 'pricing:features__ai_translator__description',
-      icon: 'Translator',
+      // icon: 'Translator',
       tooltip: {
         desc: 'pricing:features__ai_translator__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-translator.png',
+        imageLink: '/assets/pricing/ai-translator.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -411,10 +804,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__ai_chat__title',
       desc: 'pricing:features__ai_chat__description',
-      icon: 'ChatBubble',
+      // icon: 'ChatBubble',
       tooltip: {
         desc: 'pricing:features__ai_chat__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-chat.png',
+        imageLink: '/assets/pricing/ai-chat.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },
@@ -427,11 +820,15 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__ai_search__title',
       desc: 'pricing:features__ai_search__description',
-      icon: 'Search',
+      // icon: 'Search',
       tooltip: {
         desc: 'pricing:features__ai_search__tooltip__description',
-        imageLink: '/assets/images/pricing/ai-search.png',
+        imageLink: '/assets/pricing/ai-search.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+      },
+      video: {
+        link: 'https://www.youtube.com/embed/1uZuyqqySO0?start=17',
+        time: '1:29',
       },
     },
     free: { status: 'none' },
@@ -452,11 +849,15 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__pro_search__title',
       desc: 'pricing:features__pro_search__description',
-      icon: 'ProSearch',
+      // icon: 'ProSearch',
       tooltip: {
         desc: 'pricing:features__pro_search__tooltip__description',
-        imageLink: '/assets/images/pricing/webchatgpt-pro-search.png',
+        imageLink: '/assets/pricing/webchatgpt-pro-search.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+      },
+      video: {
+        link: 'https://www.youtube.com/embed/uDMJNf841dc',
+        time: '1:04',
       },
     },
     free: { status: 'none' },
@@ -468,10 +869,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'pricing:features__advanced_options__title',
       desc: 'pricing:features__advanced_options__description',
-      icon: 'AdvancedOption',
+      // icon: 'AdvancedOption',
       tooltip: {
         desc: 'pricing:features__advanced_options__tooltip__description',
-        imageLink: '/assets/images/pricing/webchatgpt-advanced-options.png',
+        imageLink: '/assets/pricing/webchatgpt-advanced-options.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },

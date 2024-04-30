@@ -185,6 +185,8 @@
     "pricing__save_up_to": "Save {{NUM}}%",
     "pricing__plan_category__individual__label": "Individual plans",
     "pricing__plan_category__team__label": "Team plans",
+    "team_plan__title__description1": "Give your team the most advanced AI productivity tools.",
+    "team_plan__title__description2": "Our team plan is designed for groups of three or more members.",
     "faq__title": "FAQs",
     "use_cases__common__install__title": "Reclaim Your Billable Hours",
     "use_cases__common__install__content": "Discover the ways MaxAI prompts revolutionize your consultancy. Install our free Chrome Extension today.",
