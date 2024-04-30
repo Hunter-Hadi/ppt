@@ -26,6 +26,7 @@ export interface IFeaturesLabelCellDataType {
     desc?: string;
     imageLink?: string;
     videoUrl?: string;
+    moreDescription?: string;
   };
 }
 export interface IFeaturesPlanCellDataType {

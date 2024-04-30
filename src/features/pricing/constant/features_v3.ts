@@ -108,6 +108,8 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
         desc: 'pricing:features__advanced_text_queries__tooltip__description',
         imageLink: '/assets/pricing/advanced-text-queries.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        moreDescription:
+          'pricing:features__advanced_text_queries__elite__more_description',
       },
     },
     free: { status: 'none' },
@@ -221,6 +223,8 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
         desc: 'pricing:features__image_queries__tooltip__description',
         imageLink: '/assets/pricing/image-queries.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        moreDescription:
+          'pricing:features__image_queries__elite__more_description',
       },
     },
     free: { status: 'none' },
@@ -314,7 +318,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Gmail',
+      title: 'Gmail instant reply',
       icon: 'Gmail',
       video: {
         link: 'https://www.youtube.com/embed/fwaqJyTwefI',
@@ -337,7 +341,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Outlook',
+      title: 'Outlook instant reply',
       icon: 'Outlook',
       video: {
         link: 'https://www.youtube.com/embed/Y2yZ4wWQDno?start=14',
@@ -360,7 +364,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Facebook',
+      title: 'Facebook instant reply',
       icon: 'Facebook',
       video: {
         link: 'https://www.youtube.com/embed/zmNGKFyw3pU',
@@ -383,7 +387,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'LinkedIn',
+      title: 'LinkedIn instant reply',
       icon: 'LinkedIn',
       video: {
         link: 'https://www.youtube.com/embed/55IqqmQIBw0?start=26',
@@ -406,7 +410,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'X/Twitter',
+      title: 'X/Twitter instant reply',
       icon: 'TwitterX',
       video: {
         link: 'https://www.youtube.com/embed/3UQaOm8sWVI',
@@ -429,7 +433,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'YouTube',
+      title: 'YouTube instant reply',
       icon: 'YouTube',
       video: {
         link: 'https://www.youtube.com/embed/D4Acc0rpR3o?start=11',
@@ -452,7 +456,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Instagram',
+      title: 'Instagram instant reply',
       icon: 'Instagram',
       video: {
         link: 'https://www.youtube.com/embed/OnRPaGn_4Ds?start=14',
@@ -475,7 +479,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   // {
   //   features: {
-  //     title: 'Reddit',
+  //     title: 'Reddit instant reply',
   //     icon: 'Reddit',
   //   },
   //   free: { status: 'none-color' },
@@ -494,7 +498,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   // },
   {
     features: {
-      title: 'WhatsApp',
+      title: 'WhatsApp instant reply',
       icon: 'WhatsApp',
     },
     free: { status: 'none-color' },
@@ -513,7 +517,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Discord',
+      title: 'Discord instant reply',
       icon: 'Discord',
     },
     free: { status: 'none-color' },
@@ -532,7 +536,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Telegram',
+      title: 'Telegram instant reply',
       icon: 'Telegram',
     },
     free: { status: 'none-color' },
@@ -551,7 +555,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Messenger',
+      title: 'Messenger instant reply',
       icon: 'Messenger',
     },
     free: { status: 'none-color' },
@@ -570,7 +574,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Slack',
+      title: 'Slack instant reply',
       icon: 'Slack',
     },
     free: { status: 'none-color' },
@@ -669,7 +673,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'PDF',
+      title: 'Summarize & ask PDF',
       icon: 'PDFViewerIcon',
       video: {
         link: 'https://www.youtube.com/embed/72UM1jMaJhY',
@@ -692,7 +696,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'YouTube',
+      title: 'Summarize & ask YouTube video',
       icon: 'YouTube',
       video: {
         link: 'https://www.youtube.com/embed/P60_lPz5yIU',
@@ -715,7 +719,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Email',
+      title: 'Summarize & ask email',
       icon: 'EmailIcon',
     },
     free: { status: 'none-color' },
@@ -734,7 +738,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Any webpage',
+      title: 'Summarize & ask any webpage',
       icon: 'LanguageIcon',
       video: {
         link: 'https://www.youtube.com/embed/72UM1jMaJhY',

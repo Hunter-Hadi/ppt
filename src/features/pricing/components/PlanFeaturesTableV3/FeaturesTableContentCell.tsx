@@ -59,7 +59,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
 
   const renderCellData = () => {
     const fontSize = rowType === 'secondary' ? 14 : 16;
-    const color = rowType === 'secondary' ? '#00000061' : 'text.primary';
+    const color = rowType === 'secondary' ? 'text.secondary' : 'text.primary';
     if (!data) {
       return (
         <Box
@@ -285,6 +285,11 @@ const FeaturesTableContentCell: FC<IProps> = ({
                     {data.tooltip?.desc && (
                       <Typography variant='caption'>
                         {t(data.tooltip.desc)}
+                      </Typography>
+                    )}
+                    {data.tooltip?.moreDescription && (
+                      <Typography variant='caption'>
+                        {t(data.tooltip.moreDescription)}
                       </Typography>
                     )}
                   </Stack>
