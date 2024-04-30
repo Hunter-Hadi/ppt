@@ -61,8 +61,6 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
     onChangeFabricFontStyle(editor, 'fontSize', size);
   };
 
-  const isImage = activeObject.type === 'image';
-  const isText = activeObject.type === 'text';
   const fontStyleList: {
     key: string;
     sx?: SxProps<Theme>;
@@ -156,6 +154,12 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
     console.log('onHandleDateFormatsValue', value);
     onChangeFabricFontStyle(editor, 'text', value);
   };
+  const isImage = activeObject.type === 'image'; // 图片
+  const isEditingText =
+    activeObject.type === 'textbox' || activeObject.type === 'i-text'; // 可以编辑文字的文本
+  const isText = activeObject.type === 'text' || isEditingText; //文本
+  const isDateValid = activeObject.isDateValid; // 日期
+
   return (
     <Stack
       sx={{
@@ -172,12 +176,12 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
           height: 40,
         }}
       >
-        {!isImage && !isText && (
+        {isEditingText && (
           <FunctionalitySignPdfFontsButtonPopover
-            currentFonts={activeObject?.fontFamily}
+            currentFont={activeObject?.fontFamily}
             isShowFontsName={true}
             fontSize={18}
-            onSelectedFonts={onSelectedFonts}
+            onSelectedFont={onSelectedFonts}
             fontsList={[
               'Concert One',
               'Roboto',
@@ -198,35 +202,37 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
             ]}
           />
         )}
-        <Button>
-          {activeObject.isDateValid && (
-            <FunctionalitySignPdfShowPdfDateFormatsPopover
-              value={activeObject?.text}
-              onHandleValue={onHandleDateFormatsValue}
-            />
-          )}
-          {!isImage && (
-            <Input
-              sx={{
-                width: 40,
-                ' input': {
-                  color: '#9065B0',
-                },
-              }}
-              defaultValue={activeObject?.fontSize || 16}
-              aria-describedby='outlined-weight-helper-text'
-              inputProps={{
-                'aria-label': 'weight',
-              }}
-              type='number'
-              onChange={(e) => {
-                onChangeFontSize(Number(e.target.value));
-              }}
-            />
-          )}
-        </Button>
+        {(isText || isDateValid) && (
+          <Button>
+            {isDateValid && (
+              <FunctionalitySignPdfShowPdfDateFormatsPopover
+                value={activeObject?.text}
+                onHandleValue={onHandleDateFormatsValue}
+              />
+            )}
+            {isText && (
+              <Input
+                sx={{
+                  width: 40,
+                  ' input': {
+                    color: '#9065B0',
+                  },
+                }}
+                defaultValue={activeObject?.fontSize || 16}
+                aria-describedby='outlined-weight-helper-text'
+                inputProps={{
+                  'aria-label': 'weight',
+                }}
+                type='number'
+                onChange={(e) => {
+                  onChangeFontSize(Number(e.target.value));
+                }}
+              />
+            )}
+          </Button>
+        )}
 
-        {!isImage && (
+        {isText && (
           <Button>
             {/* 这个是文字的风格按钮 */}
             <FunctionalitySignPdfCommonButtonPopover
@@ -306,9 +312,9 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
         )}
         <Button>
           <FunctionalitySignPdfColorButtonPopover
-            titleText={!isImage ? 'A' : ''}
+            titleText={isText ? 'A' : ''}
             isShowRightIcon={false}
-            btnProps={{
+            buttonProps={{
               variant: 'text',
             }}
             onSelectedColor={onChangeColor}
@@ -318,7 +324,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
             }
             currentColor={isImage ? activeObject.imgColor : activeObject.fill}
           />
-          {!isImage && (
+          {isText && (
             <FunctionalitySignPdfColorButtonPopover
               isShowRightIcon={false}
               colorList={[
@@ -335,7 +341,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
                 'brown',
                 'gray',
               ]}
-              btnProps={{
+              buttonProps={{
                 variant: 'text',
               }}
               onSelectedColor={onChangeBgColor}

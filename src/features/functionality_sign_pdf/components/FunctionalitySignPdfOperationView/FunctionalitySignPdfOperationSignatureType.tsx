@@ -17,7 +17,7 @@ export interface IFunctionalitySignPdfSignatureTypeHandles {
   getPngBase64: () => string | undefined;
 }
 interface IFunctionalitySignPdfOperationSignatureTypeProps {
-  bottomView: (isInput: boolean) => React.ReactNode;
+  bottomView: (isValuable: boolean) => React.ReactNode;
 }
 /**
  * 输入文字签名
@@ -54,8 +54,16 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
           onSelectedColor={onSelectedColor}
         />
         <FunctionalitySignPdfFontsButtonPopover
-          text={typeInputVal}
-          onSelectedFonts={onSelectedFonts}
+          title={t(
+            'functionality__sign_pdf:components__sign_pdf__button_popover__change_style',
+          )}
+          optionShowTitle={
+            typeInputVal ||
+            t(
+              'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
+            )
+          }
+          onSelectedFont={onSelectedFonts}
         />
       </Stack>
       <Box

@@ -16,7 +16,7 @@ export interface IFunctionalitySignPdfSignatureUploadHandles {
   getPngBase64: () => string;
 }
 interface IFunctionalitySignPdfOperationSignatureUploadProps {
-  bottomView: (isInput: boolean) => React.ReactNode;
+  bottomView: (isValuable: boolean) => React.ReactNode;
 }
 /**
  * 上传图片签名
@@ -27,13 +27,13 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
 > = ({ bottomView }, ref) => {
   const { t } = useTranslation();
 
-  const [imgVal, setImgVal] = useState('');
+  const [imgBase64, setImgBase64] = useState('');
   useImperativeHandle(ref, () => ({
-    getPngBase64: () => imgVal,
+    getPngBase64: () => imgBase64,
   }));
   const onSelectedColor = (color: string) => {
     try {
-      const base64 = imgVal;
+      const base64 = imgBase64;
 
       // 创建一个新的Image对象
       const img = new Image();
@@ -59,7 +59,7 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
 
           // 现在，将画布转换为Base64格式，并设置到imgVal
           const base64 = canvas.toDataURL('image/png');
-          setImgVal(base64);
+          setImgBase64(base64);
         }
       };
 
@@ -141,7 +141,7 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
 
             // 将图像转换为base64格式
             const base64 = canvas.toDataURL('image/png');
-            setImgVal(base64);
+            setImgBase64(base64);
           }
         };
 
@@ -170,13 +170,13 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
           position: 'relative',
         }}
       >
-        {imgVal && (
+        {imgBase64 && (
           <img
             style={{ objectFit: 'contain', width: '100%', height: 200 }}
-            src={imgVal}
+            src={imgBase64}
           />
         )}
-        {!imgVal && (
+        {!imgBase64 && (
           <FunctionalityCommonUploadButton
             themeColor='white'
             isShowUploadIcon={false}
@@ -204,14 +204,14 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
           }}
           direction='row-reverse'
         >
-          <Button disabled={!imgVal} onClick={() => setImgVal('')}>
+          <Button disabled={!imgBase64} onClick={() => setImgBase64('')}>
             {t(
               'functionality__sign_pdf:components__sign_pdf__operation_view__clear',
             )}
           </Button>
         </Stack>
       </Box>
-      {bottomView(!imgVal)}
+      {bottomView(!imgBase64)}
     </Box>
   );
 };

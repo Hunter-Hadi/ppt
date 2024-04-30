@@ -31,45 +31,11 @@ const FunctionalitySignPdfOperationViewMain: FC<
           dragId='yourSignature'
           activeDragData={activeDragData}
           onClickAdd={onClickAdd}
-          signatureEmptyView={
-            <Stack direction='row' gap={1} alignItems='center'>
-              <FunctionalitySignPdfIcon name='TextFields' />
-              <Typography
-                sx={{
-                  fontSize: {
-                    xs: 10,
-                    lg: 16,
-                  },
-                }}
-              >
-                {t(
-                  'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
-                )}
-              </Typography>
-            </Stack>
-          }
         />
         <FunctionalitySignPdfOperationSignatureView
           dragId='yourInitials'
           activeDragData={activeDragData}
           onClickAdd={onClickAdd}
-          signatureEmptyView={
-            <Stack direction='row' gap={1} alignItems='center'>
-              <FunctionalitySignPdfIcon name='Abc' />
-              <Typography
-                sx={{
-                  fontSize: {
-                    xs: 10,
-                    lg: 16,
-                  },
-                }}
-              >
-                {t(
-                  'functionality__sign_pdf:components__sign_pdf__operation_view__your_initials',
-                )}
-              </Typography>
-            </Stack>
-          }
         />
         <FunctionalitySignPdfOperationDraggableView
           id='textField'
@@ -85,7 +51,7 @@ const FunctionalitySignPdfOperationViewMain: FC<
               sx={{
                 fontSize: {
                   xs: 10,
-                  lg: 16,
+                  lg: 14,
                 },
               }}
             >
@@ -109,7 +75,7 @@ const FunctionalitySignPdfOperationViewMain: FC<
               sx={{
                 fontSize: {
                   xs: 10,
-                  lg: 16,
+                  lg: 14,
                 },
               }}
             >
@@ -133,7 +99,7 @@ const FunctionalitySignPdfOperationViewMain: FC<
               sx={{
                 fontSize: {
                   xs: 10,
-                  lg: 16,
+                  lg: 14,
                 },
               }}
             >

@@ -19,3 +19,37 @@ export const getCanvasBounds = (imageData) => {
 
     return { minX, maxX, minY, maxY };
 };
+const getElementGlobalOffset = (el: HTMLElement) => {
+    return { offsetX: el.offsetLeft, offsetY: el.offsetTop };
+}
+export const getGlobalCenterRelativeToWrapperPosition = (
+    rollingElement: HTMLElement,
+    wrapElement: HTMLElement,
+) => {
+    // 获取滚动视图中心的全局位置
+    if (!rollingElement) return { positionInPageX: 0, positionInPageY: 0 };
+
+    // 滚动视图中心的全局位置
+    const rollingGlobalOffset = getElementGlobalOffset(rollingElement);
+    const centerGlobalX =
+        rollingGlobalOffset.offsetX +
+        rollingElement.clientWidth / 2 +
+        rollingElement.scrollLeft;
+    const centerGlobalY =
+        rollingGlobalOffset.offsetY +
+        rollingElement.clientHeight / 2 +
+        rollingElement.scrollTop;
+
+    // 目标页面元素的全局位置
+    const pageGlobalOffset = getElementGlobalOffset(wrapElement);
+    const pageGlobalX = pageGlobalOffset.offsetX;
+    const pageGlobalY = pageGlobalOffset.offsetY;
+
+    // 滚动视图中心点在pageRefs.current[currentPage]的相对位置
+    const positionInPageX = centerGlobalX - pageGlobalX;
+    const positionInPageY = centerGlobalY - pageGlobalY;
+    return {
+        positionInPageX,
+        positionInPageY,
+    };
+};

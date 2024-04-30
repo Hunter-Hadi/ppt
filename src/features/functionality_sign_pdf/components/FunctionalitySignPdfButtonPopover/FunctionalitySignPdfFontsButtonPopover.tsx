@@ -1,16 +1,17 @@
-import { Box, Popover, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import { useTranslation } from 'next-i18next';
-import { FC, useMemo, useState } from 'react';
+import { FC, useEffect, useMemo, useState } from 'react';
 
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import FunctionalitySignPdfCommonButtonPopover from './FunctionalitySignPdfCommonButtonPopover';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
-  currentFonts?: string;
-  text?: string;
-  onSelectedFonts: (fonts: string) => void;
+  currentFont?: string;
+  optionShowTitle?: string;
+  onSelectedFont: (fonts: string) => void;
   isShowFontsName?: boolean;
   fontSize?: number;
   fontsList?: string[];
+  title?: string;
 }
 /**
  * 用于选择字体的弹出式按钮
@@ -18,99 +19,82 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
 const FunctionalitySignPdfFontsButtonPopover: FC<
   IFunctionalitySignPdfColorButtonPopoverProps
 > = ({
-  onSelectedFonts,
-  text,
-  currentFonts,
-  isShowFontsName,
+  onSelectedFont,
+  optionShowTitle,
+  currentFont,
   fontSize,
   fontsList,
+  title,
 }) => {
   const { t } = useTranslation();
-  const newFontsList = useMemo(
+  const defaultAndCustomFontsList = useMemo(
     () => [...(fontsList || []), 'Caveat', 'La Belle Aurore', 'Dancing Script'],
     [fontsList],
   );
-  const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
-  const [newCurrentFonts, setNewCurrentFonts] = useState();
-
-  const handleClick = (event) => {
-    setPopoverAnchorEl(popoverAnchorEl ? null : event.currentTarget);
-  };
+  const [newCurrentFont, setNewCurrentFont] = useState(
+    t(
+      'functionality__sign_pdf:components__sign_pdf__button_popover__change_style',
+    ),
+  );
 
   const handleColorSelect = (fonts) => {
-    setPopoverAnchorEl(null);
-    onSelectedFonts(fonts);
-    setNewCurrentFonts(fonts);
+    onSelectedFont(fonts);
+    setNewCurrentFont(fonts);
   };
-
-  const open = Boolean(popoverAnchorEl);
-  const id = open ? 'fonts-popper' : undefined;
-
+  useEffect(() => {
+    if (currentFont) {
+      setNewCurrentFont(currentFont);
+    }
+  }, [currentFont]);
   return (
-    <Button
-      onClick={handleClick}
-      aria-describedby={id}
-      sx={{
-        bgcolor: '#fafafa',
-        p: 1,
+    <FunctionalitySignPdfCommonButtonPopover
+      buttonProps={{
+        variant: 'outlined',
       }}
-      endIcon={<FunctionalitySignPdfIcon name='ArrowDropDown' />}
-    >
-      <Typography
-        color='text.secondary'
-        sx={{
-          fontWeight: 'bold',
-          fontSize: {
-            xs: 12,
-            lg: 16,
-          },
-        }}
-      >
-        {currentFonts
-          ? newCurrentFonts || currentFonts
-          : t(
-              'functionality__sign_pdf:components__sign_pdf__button_popover__change_style',
-            )}
-      </Typography>
-      <Popover
-        open={open}
-        anchorEl={popoverAnchorEl}
-        anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'left',
-        }}
-        sx={{
-          ' button': {
-            border: '1px solid transparent!important',
-          },
-        }}
-      >
-        {newFontsList.map((fonts) => (
-          <Box key={fonts}>
-            <Button
-              sx={{
-                width: '100%',
-              }}
-              onClick={() => handleColorSelect(fonts)}
-            >
-              <Typography
-                color={'text.primary'}
+      popoverView={
+        <Box>
+          {defaultAndCustomFontsList.map((fonts) => (
+            <Box key={fonts}>
+              <Button
                 sx={{
-                  fontWeight: 'bold',
-                  fontFamily: fonts,
-                  fontSize: {
-                    xs: fontSize || 25,
-                    lg: fontSize || 25,
-                  },
+                  width: '100%',
                 }}
+                onClick={() => handleColorSelect(fonts)}
               >
-                {isShowFontsName ? fonts : text || 'Your Signature'}
-              </Typography>
-            </Button>
-          </Box>
-        ))}
-      </Popover>
-    </Button>
+                <Typography
+                  color={'text.primary'}
+                  sx={{
+                    fontWeight: 'bold',
+                    fontFamily: fonts,
+                    fontSize: {
+                      xs: fontSize || 25,
+                      lg: fontSize || 25,
+                    },
+                  }}
+                >
+                  {optionShowTitle || fonts}
+                </Typography>
+              </Button>
+            </Box>
+          ))}
+        </Box>
+      }
+    >
+      <Box>
+        <Typography
+          color='text.secondary'
+          sx={{
+            fontWeight: 'bold',
+            fontSize: {
+              xs: 12,
+              lg: 16,
+            },
+          }}
+        >
+          {title || newCurrentFont}
+        </Typography>
+      </Box>
+    </FunctionalitySignPdfCommonButtonPopover>
   );
 };
 export default FunctionalitySignPdfFontsButtonPopover;

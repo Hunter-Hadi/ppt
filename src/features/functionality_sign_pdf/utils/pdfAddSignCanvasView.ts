@@ -29,7 +29,6 @@ export const pdfAddSignCanvasViewReturnUint8Array = async (file: File, pdfPageNu
         }
 
         return await pdfDoc.save();
-        // downloadUrl(pdfBytes, "signPdf(MaxAI).pdf");
     } catch (e) {
         console.log(e)
     }

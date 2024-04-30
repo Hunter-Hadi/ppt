@@ -1,11 +1,11 @@
 import dayjs from "dayjs";
 import { atom } from "recoil";
 export const functionalitySignPdfOperationOBjectDefault = {
-    // 默认值
+    // 操作列表功能的储存值
     yourSignature: [],
     yourInitials: [],
     index: {
-        yourSignature: 0,
+        yourSignature: 0,//左边有功能，点击直接添加，所以储存index
         yourInitials: 0,
     },
     textField: 'Type something…',

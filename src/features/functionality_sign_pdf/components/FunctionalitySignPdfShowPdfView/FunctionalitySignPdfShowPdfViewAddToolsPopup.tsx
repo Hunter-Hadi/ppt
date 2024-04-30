@@ -13,14 +13,14 @@ import FunctionalitySignPdfOperationSignatureModal, {
 } from '../FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationSignatureModal';
 import { IControlDiv } from './FunctionalitySignPdfShowPdfViewRenderCanvas';
 interface IFunctionalitySignPdfShowPdfViewAddToolsPopupProps {
-  controlDiv: IControlDiv;
+  controlDivPosition: IControlDiv;
   scaleFactor: number;
   editor: any;
   onClose: (type: string, value: string) => void;
 }
 const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
   IFunctionalitySignPdfShowPdfViewAddToolsPopupProps
-> = ({ controlDiv, editor, scaleFactor, onClose }) => {
+> = ({ controlDivPosition, editor, scaleFactor, onClose }) => {
   const [pdfOperationOBject, setPdfOperationOBject] = useRecoilState(
     FunctionalitySignPdfOperationOBjectAtom,
   );
@@ -32,8 +32,8 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
     try {
       if (!editor) return;
       const positionData = {
-        left: controlDiv.left,
-        top: Math.max(controlDiv.top, 0),
+        left: controlDivPosition.left,
+        top: Math.max(controlDivPosition.top, 0),
       };
       onFabricAddObject(editor, positionData, type, value);
       onClose(type, value);
@@ -67,8 +67,12 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
     <Stack
       sx={{
         position: 'fixed',
-        left: controlDiv.left * scaleFactor + controlDiv.windowLeft,
-        top: controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
+        left:
+          controlDivPosition.left * scaleFactor + controlDivPosition.windowLeft,
+        top:
+          controlDivPosition.top * scaleFactor +
+          controlDivPosition.windowTop -
+          50,
       }}
     >
       <ButtonGroup
@@ -103,7 +107,6 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
       </ButtonGroup>
       {!!signatureModalOpenType && (
         <FunctionalitySignPdfOperationSignatureModal
-          open={!!signatureModalOpenType}
           onClose={() => setModalSignatureOpenType(null)}
           onCreate={onCreateSignatureValue}
         />

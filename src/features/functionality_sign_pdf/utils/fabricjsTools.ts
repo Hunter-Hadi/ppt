@@ -6,15 +6,15 @@ import { v4 as uuidV4 } from 'uuid';
 import { findFirstNonTransparentPixel } from "./colorTools";
 
 //自动的检查top是否超出画布范围
-const autoCheckTopIsAbnormal = (editor, top: number, objectHeight: number, isAutoObjectSizePosition?: boolean) => {
+const autoCheckTopIsAbnormal = (editor, top: number, canvasObject: fabric.object, isAutoObjectSizePosition?: boolean) => {
     let currentTop = top
     if (isAutoObjectSizePosition) {
-        currentTop = top - objectHeight / 2
+        currentTop = top - (canvasObject.height * canvasObject.scaleX / 2)
     }
     if (currentTop < 0) {
         return 0
-    } else if (currentTop + objectHeight > editor.canvas.height) {
-        return editor.canvas.height - objectHeight
+    } else if (currentTop + canvasObject.height > editor.canvas.height) {
+        return editor.canvas.height - canvasObject.height
     }
     return currentTop
 }
@@ -109,7 +109,7 @@ export const onFabricAddObject = async (editor, position: {
         if (createObjectData) {
             createObjectData.mtr = false
             createObjectData.id = uuidV4();
-            createObjectData.top = autoCheckTopIsAbnormal(editor, positionData.top, createObjectData.height, isAutoObjectSizePosition)
+            createObjectData.top = autoCheckTopIsAbnormal(editor, positionData.top, createObjectData, isAutoObjectSizePosition)
             editor.canvas.add(createObjectData);
             editor.canvas.setActiveObject(createObjectData); // 设置复制的对象为当前活动对象
             editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
@@ -265,8 +265,8 @@ export const onChangeFabricFontStyle = (editor, type, value?: number | string) =
                 activeObject.set('underline', !isUnderline);
                 break;
             case 'line_through':
-                const isLinethrough = activeObject.get('linethrough');
-                activeObject.set('linethrough', !isLinethrough);
+                const isLineThrough = activeObject.get('linethrough');
+                activeObject.set('linethrough', !isLineThrough);
                 break;
             case 'italic':
                 const currentStyle = activeObject.get('fontStyle');

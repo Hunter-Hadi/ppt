@@ -34,11 +34,11 @@ const FunctionalitySignPdfShowPdfDateFormatsPopover: FC<
     if (formats) {
       setCurrentFormat(formats);
     }
-    console.log('simply formats', formats);
   }, [value]);
   const handleSelect = (format: string) => {
     const isDateValid = dayjs(value).isValid();
     if (isDateValid) {
+      //如果用户发生输入改变，导致不是的话默认重置为当天
       const formattedDate = dayjs(value, currentFormat).format(format);
       onHandleValue(formattedDate);
     } else {
@@ -49,7 +49,7 @@ const FunctionalitySignPdfShowPdfDateFormatsPopover: FC<
   };
   return (
     <FunctionalitySignPdfCommonButtonPopover
-      btnProps={{
+      buttonProps={{
         variant: 'text',
       }}
       popoverView={

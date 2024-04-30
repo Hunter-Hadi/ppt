@@ -5,15 +5,16 @@ import React, { FC, useState } from 'react';
 
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
 interface IFunctionalitySignPdfCommonButtonPopoverProps {
-  btnProps?: ButtonProps;
+  buttonProps?: ButtonProps;
   children?: React.ReactNode;
   popoverView?: React.ReactNode;
   isShowRightIcon?: boolean;
 }
 
+// 通用的带弹出式按钮
 const FunctionalitySignPdfCommonButtonPopover: FC<
   IFunctionalitySignPdfCommonButtonPopoverProps
-> = ({ children, popoverView, isShowRightIcon = true, btnProps }) => {
+> = ({ children, popoverView, isShowRightIcon = true, buttonProps }) => {
   const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
 
   const handleClick = (event) => {
@@ -34,7 +35,7 @@ const FunctionalitySignPdfCommonButtonPopover: FC<
       endIcon={
         isShowRightIcon && <FunctionalitySignPdfIcon name='ArrowDropDown' />
       }
-      {...btnProps}
+      {...buttonProps}
     >
       {children}
       <Popover

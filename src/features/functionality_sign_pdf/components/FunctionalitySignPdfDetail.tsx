@@ -6,8 +6,7 @@ import {
   useSensor,
   useSensors,
 } from '@dnd-kit/core';
-import { LoadingButton } from '@mui/lab';
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Button, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useRef, useState } from 'react';
 import React from 'react';
@@ -135,7 +134,7 @@ export const FunctionalitySignPdfDetail: FC<
     setActiveDragData({ dragType: 'start', ...event.active.data.current });
   };
   const onPdfAddViewSave = async () => {
-    showPdfHandlesRef.current?.onDiscardActiveObject();
+    showPdfHandlesRef.current?.discardAllActiveObject();
     const pdfPageNumber = showPdfHandlesRef.current?.getNumPages();
     if (pdfPageNumber) {
       setSaveButtonLoading(true);
@@ -227,18 +226,17 @@ export const FunctionalitySignPdfDetail: FC<
                   padding: 1,
                 }}
               >
-                <LoadingButton
+                <Button
                   variant='contained'
                   onClick={onPdfAddViewSave}
                   sx={{ width: '100%' }}
                   size='large'
                   disabled={saveButtonLoading || signNumber === 0}
-                  loading={saveButtonLoading}
                 >
                   {t(
                     'functionality__sign_pdf:components__sign_pdf__detail__finish',
                   )}
-                </LoadingButton>
+                </Button>
               </Box>
             </React.Fragment>
           )}

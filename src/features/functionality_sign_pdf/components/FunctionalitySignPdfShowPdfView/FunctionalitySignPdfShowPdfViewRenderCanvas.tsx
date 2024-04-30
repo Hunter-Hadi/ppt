@@ -32,7 +32,7 @@ export type ICanvasObjectData = {
   value: string;
 };
 export interface IFunctionalitySignPdfShowPdfCanvasHandles {
-  onDiscardActiveObject: () => void;
+  discardActiveObject: () => void;
   onAddObject?: (
     canvasObject?: ICanvasObjectData,
     object?: fabric.Object,
@@ -448,6 +448,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         setControlAddNewDiv(null);
         const centerX = sizeInfo && sizeInfo?.width / 2; //没有就默认居中
         const centerY = sizeInfo && sizeInfo?.height / 2;
+        console.log('simply add ', canvasObject);
         const positionData = {
           left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
           top: canvasObject.y ? canvasObject.y / scaleFactor : centerY,
@@ -471,7 +472,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     handleRef,
     () => ({
       getFabric: () => editor?.canvas,
-      onDiscardActiveObject: () => {
+      discardActiveObject: () => {
         editor?.canvas.discardActiveObject(); // 取消选中状态
         editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
       },
@@ -515,7 +516,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       )}
       {controlAddNewDiv && (
         <FunctionalitySignPdfShowPdfViewAddToolsPopup
-          controlDiv={controlAddNewDiv}
+          controlDivPosition={controlAddNewDiv}
           scaleFactor={scaleFactor}
           editor={editor}
           onClose={onCloseAddToolsPopup}

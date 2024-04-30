@@ -27,7 +27,6 @@ export type ISignatureType = 'type' | 'draw' | 'upload';
 interface IFunctionalitySignPdfSignModalProps {
   onClose: () => void;
   onCreate: (type: ISignatureType, value: string) => void;
-  open: boolean;
 }
 
 /**
@@ -35,7 +34,7 @@ interface IFunctionalitySignPdfSignModalProps {
  */
 const FunctionalitySignPdfOperationSignatureModal: FC<
   IFunctionalitySignPdfSignModalProps
-> = ({ onClose, onCreate, open }) => {
+> = ({ onClose, onCreate }) => {
   const { t } = useTranslation();
 
   const [tabValue, setTabValue] = useState<ISignatureType>('draw');
@@ -100,7 +99,7 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
   };
   return (
     <Modal
-      open={open}
+      open={true}
       onClose={onClose}
       aria-labelledby='modal-modal-title'
       aria-describedby='modal-modal-description'

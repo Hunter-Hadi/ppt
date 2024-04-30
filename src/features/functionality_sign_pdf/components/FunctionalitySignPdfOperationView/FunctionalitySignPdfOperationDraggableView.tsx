@@ -14,7 +14,7 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
   children: React.ReactNode;
   data?: { type: IFabricAddObjectType; value?: string };
   onIconClick?: () => void;
-  onWrapClick?: (type: IFabricAddObjectType, value: string) => void;
+  onWrapClick?: (type: IFabricAddObjectType, value: string) => void; //因为有的地方需要点击整个按钮触发事件，传进来可以不需要传值，data有了，所以写进来了
 }> = ({ id, data, children, dragDisabled, onIconClick, onWrapClick }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,

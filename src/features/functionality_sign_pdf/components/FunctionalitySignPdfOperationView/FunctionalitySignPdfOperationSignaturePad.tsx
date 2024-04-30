@@ -20,7 +20,7 @@ export interface IFunctionalitySignPdfSignaturePadHandles {
   getPngBase64: () => string;
 }
 interface IFunctionalitySignPdfOperationSignaturePadProps {
-  bottomView: (isInput: boolean) => React.ReactNode;
+  bottomView: (isValuable: boolean) => React.ReactNode;
 }
 /**
  * 签名手绘板

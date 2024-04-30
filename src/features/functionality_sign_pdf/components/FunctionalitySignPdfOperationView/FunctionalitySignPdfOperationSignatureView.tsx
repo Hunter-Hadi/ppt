@@ -13,8 +13,6 @@ import FunctionalitySignPdfOperationSignatureModal, {
 } from './FunctionalitySignPdfOperationSignatureModal';
 interface IFunctionalitySignPdfSignatureViewProps {
   dragId: 'yourSignature' | 'yourInitials';
-  onShowImgVal?: (val: string) => void;
-  signatureEmptyView?: React.ReactNode;
   activeDragData?: IActiveDragData;
   onClickAdd: (type: IFabricAddObjectType, value: string) => void;
 }
@@ -24,13 +22,7 @@ interface IFunctionalitySignPdfSignatureViewProps {
  */
 const FunctionalitySignPdfOperationSignatureView: FC<
   IFunctionalitySignPdfSignatureViewProps
-> = ({
-  dragId,
-  onShowImgVal,
-  signatureEmptyView,
-  activeDragData,
-  onClickAdd,
-}) => {
+> = ({ dragId, activeDragData, onClickAdd }) => {
   const [pdfOperationOBject, setPdfOperationOBject] = useRecoilState(
     FunctionalitySignPdfOperationOBjectAtom,
   );
@@ -85,11 +77,6 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       isActiveCurrent.current = false;
     }
   }, [activeDragData]);
-  useEffect(() => {
-    if (signatureViewList[currentShowIndex] !== undefined) {
-      onShowImgVal && onShowImgVal(signatureViewList[currentShowIndex]);
-    }
-  }, [currentShowIndex]);
   const handleClick = (event) => {
     event.stopPropagation();
     setAnchorEl(event.currentTarget);
@@ -152,19 +139,39 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           onClick={onClickChange}
         >
           <Box flex={1}>
-            {signatureEmptyView || (
-              <Typography
-                sx={{
-                  fontSize: {
-                    xs: 10,
-                    lg: 14,
-                  },
-                }}
-              >
-                {t(
-                  'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
-                )}
-              </Typography>
+            {dragId === 'yourSignature' && (
+              <Stack direction='row' gap={1} alignItems='center'>
+                <FunctionalitySignPdfIcon name='TextFields' />
+                <Typography
+                  sx={{
+                    fontSize: {
+                      xs: 10,
+                      lg: 14,
+                    },
+                  }}
+                >
+                  {t(
+                    'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
+                  )}
+                </Typography>
+              </Stack>
+            )}
+            {dragId === 'yourInitials' && (
+              <Stack direction='row' gap={1} alignItems='center'>
+                <FunctionalitySignPdfIcon name='Abc' />
+                <Typography
+                  sx={{
+                    fontSize: {
+                      xs: 10,
+                      lg: 14,
+                    },
+                  }}
+                >
+                  {t(
+                    'functionality__sign_pdf:components__sign_pdf__operation_view__your_initials',
+                  )}
+                </Typography>
+              </Stack>
             )}
           </Box>
           <Typography
@@ -205,7 +212,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           justifyContent='center'
           onClick={handleClick}
         >
-          <FunctionalitySignPdfIcon name='KeyboardArrowDown' />
+          <FunctionalitySignPdfIcon color='action' name='KeyboardArrowDown' />
         </Stack>
       )}
       <Popover
@@ -231,7 +238,6 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           {signatureViewList.map((item, index) => (
             <Stack
               sx={{
-                px: 1,
                 cursor: 'pointer',
                 ':hover': {
                   bgcolor: '#f5f5f5',
@@ -256,6 +262,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
                 }}
               />
               <FunctionalitySignPdfIcon
+                color='action'
                 onClick={() => {
                   onDelImgVal(index);
                 }}
@@ -282,7 +289,6 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       </Popover>
       {signatureModalOpen && (
         <FunctionalitySignPdfOperationSignatureModal
-          open={signatureModalOpen}
           onClose={onCloseOperationSignatureModal}
           onCreate={onCreateSignatureValue}
         />
