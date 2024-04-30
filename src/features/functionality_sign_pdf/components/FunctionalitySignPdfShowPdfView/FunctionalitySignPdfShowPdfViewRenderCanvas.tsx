@@ -70,10 +70,12 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
 ) => {
   const { editor, onReady, selectedObjects } = useFabricJSEditor();
   const topWrapRef = useRef<HTMLElement | null>(null);
-  const previousIsSelection = useRef<boolean>(false); //上一次点击是否是选中
-  const [windowScrollKey, setWindowScrollKey] = useState(0); // Current scale factor
+  const previousIsSelectionObject = useRef<boolean>(false); //上一次点击是否是选中对象状态
   const [objectIdList, setObjectIdList] = useState<string[]>([]);
-
+  const [
+    updateTriggerCloseOpenAllPopupNum,
+    setUpdateTriggerCloseOpenAllPopupNum,
+  ] = useState<number>(0);
   const [scaleFactor, setScaleFactor] = useState(1); // Current scale factor
   const [controlDiv, setControlDiv] = useState<IControlDiv | null>(null); // 当前选中对象的位置
   const [controlAddNewDiv, setControlAddNewDiv] = useState<IControlDiv | null>(
@@ -85,39 +87,57 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   useEffect(() => {
     onChangeObjectNumber && onChangeObjectNumber(objectIdList.length);
   }, [objectIdList]);
+
   useEffect(() => {
+    // 检测点击事件的函数，用来判断点击是否在Box外部
+    const handleClickOutside = (event) => {
+      if (topWrapRef.current && !topWrapRef.current.contains(event.target)) {
+        // 点击发生在Box组件外部
+        console.log('simply click outside');
+        setUpdateTriggerCloseOpenAllPopupNum((num) => num + 1);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
     const handleScroll = () => {
       //监听窗口滚动，关闭菜单
-      //因为做跟随窗口滚动的菜单，功能比较复杂，目前没有必要
-      setWindowScrollKey(new Date().valueOf());
+      //因为做跟随窗口滚动的菜单，功能比较复杂，目前还没有必要
+      setUpdateTriggerCloseOpenAllPopupNum((num) => num + 1);
     };
     window.addEventListener('scroll', handleScroll);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  useEffect(() => {
     // 键盘事件监听器
     if (editor) {
       const handleKeyDown = (event) => {
-        // 检查当前焦点元素
-        const activeElement = document.activeElement;
-        const isInputFocused =
-          activeElement &&
-          (activeElement.tagName === 'INPUT' ||
-            activeElement.tagName === 'TEXTAREA');
+        try {
+          // 检查当前焦点元素
+          const activeElement = document.activeElement;
+          const isInputFocused =
+            activeElement &&
+            (activeElement.tagName === 'INPUT' ||
+              activeElement.tagName === 'TEXTAREA');
 
-        // 如果当前焦点在输入框内，退出函数，不执行后续的删除逻辑
-        if (isInputFocused) {
-          return;
-        }
-
-        // 您原有的删除逻辑
-        if (event.key === 'Delete' || event.key === 'Backspace') {
-          const activeObjects = editor?.canvas.getActiveObjects();
-          if (activeObjects.length !== 0) {
-            // 循环并逐个移除
-            activeObjects.forEach(function (object) {
-              editor?.canvas.remove(object);
-            });
-            editor?.canvas.discardActiveObject(); // 取消选中状态
-            editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+          // 如果当前焦点在输入框内，退出函数，不执行后续的删除逻辑
+          if (isInputFocused) {
+            return;
           }
+          if (event.key === 'Delete' || event.key === 'Backspace') {
+            const activeObjects = editor?.canvas.getActiveObjects();
+            if (activeObjects.length !== 0) {
+              // 循环并逐个移除
+              activeObjects.forEach(function (object) {
+                editor?.canvas.remove(object);
+              });
+              editor?.canvas.discardActiveObject(); // 取消选中状态
+              editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+            }
+          }
+        } catch (e) {
+          console.log('simply error', e);
         }
       };
       // 添加事件监听
@@ -125,20 +145,24 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       // 清理函数
       return () => {
         window.removeEventListener('keydown', handleKeyDown);
-        window.removeEventListener('scroll', handleScroll);
       };
     }
   }, [editor]);
-  useEffect(() => {
+  const closeOpenAllPopup = () => {
     //滚动后取消一些事件
-    if (activeObject) {
-      setControlDiv(null);
-      editor?.canvas.discardActiveObject(); // 取消选中状态
-      editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+    setControlDiv(null);
+    console.log('simply editor', editor?.canvas);
+    editor?.canvas.discardActiveObject(); // 取消选中状态
+    editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+    const activeObjects = editor?.canvas?.getActiveObjects();
+    if (activeObjects) {
+      previousIsSelectionObject.current = false;
     }
-    previousIsSelection.current = false;
     setControlAddNewDiv(null);
-  }, [topScrollKey, windowScrollKey]);
+  };
+  useEffect(() => {
+    closeOpenAllPopup();
+  }, [topScrollKey, updateTriggerCloseOpenAllPopupNum]);
 
   const changObjectToList = (object: fabric.Object, type: 'add' | 'del') => {
     if (object.type !== 'image') return; //只有图片才算正式签名对象
@@ -154,6 +178,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const handleObjectSelected = (object?: fabric.Object) => {
     //选中对象时调用，更新操作div位置
     try {
+      previousIsSelectionObject.current = true;
+
       setActiveObject(object);
       if (object) {
         const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
@@ -207,9 +233,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     addPositionType: 'top' | 'bottom' = 'top',
   ) => {
     if (deleteObjectKey.current.includes(targetObject.id)) return; //已经删除的对象不再处理
-    deleteObjectKey.current.push(targetObject.id);
+    deleteObjectKey.current.push(targetObject.id); //防止重复删除，因为事件拖动会多次触发
     // 获取目标画布
-    setWindowScrollKey(new Date().valueOf());
+    setUpdateTriggerCloseOpenAllPopupNum((num) => num + 1);
     targetObject.canvas.remove(targetObject);
     if (addPositionType === 'bottom') {
       targetObject.set('top', 0);
@@ -306,20 +332,22 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           console.log('一个对象被移除', obj);
           changObjectToList(obj, 'del');
         });
-
+        //鼠标抬起事件
         editor.canvas.on('mouse:up', function (event) {
           console.log('simply mouse:up', event);
           if (event.target) {
-            previousIsSelection.current = true;
+            //当前选中了对象，不打开ControlAddNewDiv
+            previousIsSelectionObject.current = true;
             setControlAddNewDiv(null);
             return;
           }
-          if (previousIsSelection.current) {
-            previousIsSelection.current = false;
+          if (previousIsSelectionObject.current) {
+            //上一个是选中对象，不打开ControlAddNewDiv
+            previousIsSelectionObject.current = false;
             setControlAddNewDiv(null);
             return;
           }
-          previousIsSelection.current = true;
+          previousIsSelectionObject.current = true;
           const topWrapRefRect = topWrapRef.current?.getBoundingClientRect();
           setControlAddNewDiv(() => {
             return {
@@ -333,6 +361,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         // 对象选中监听
         editor.canvas.on('selection:created', function (event) {
           console.log('simply before:created', event);
+          if (event.selected.length > 0) {
+            previousIsSelectionObject.current = true;
+          }
           if (event.selected.length === 1) {
             handleObjectSelected(event.selected[0]);
           }
@@ -341,11 +372,13 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         editor.canvas.on('object:moving', function (e) {
           console.log('simply object:moving-----', e);
           // 对象移动监听 - 保证操作div跟随移动
-          handleObjectSelected(e.target);
           const targetObject = e.target;
           targetObject.setCoords();
           constrainWithinCanvas(targetObject);
-          checkAndMoveToAnotherCanvas(e);
+          if (!e.target?._objects) {
+            handleObjectSelected(e.target);
+            checkAndMoveToAnotherCanvas(e);
+          }
         });
         // 对象移动监听 - 保证操作div跟随移动
         editor.canvas.on('object:scaling', function (e) {
@@ -357,7 +390,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         // 确保再次选择时移动操作div
         editor.canvas.on('selection:updated', function (event) {
           console.log('simply selection:updated', event);
-
+          if (event.selected.length > 0) {
+            previousIsSelectionObject.current = true;
+          }
           if (event.selected.length === 1) {
             handleObjectSelected(event.selected[0]);
           }
@@ -365,7 +400,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         // 确保再次选择时移动操作div
         editor.canvas.on('selection:cleared', function (event) {
           console.log('simply selection:cleared', event);
-
           handleObjectSelected();
         });
       }
@@ -473,8 +507,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     () => ({
       getFabric: () => editor?.canvas,
       discardActiveObject: () => {
-        editor?.canvas.discardActiveObject(); // 取消选中状态
-        editor?.canvas.requestRenderAll(); // 刷新画布以显示更改
+        closeOpenAllPopup();
       },
       onAddObject: onAddObject,
     }),

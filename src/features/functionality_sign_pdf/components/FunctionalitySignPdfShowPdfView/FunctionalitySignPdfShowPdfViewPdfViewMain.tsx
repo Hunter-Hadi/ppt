@@ -146,7 +146,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
         //添加对象
         let isAutoObjectSizePosition = false;
         if ((!value.x || !value.y) && rollingRef.current) {
-          debugger;
           // 如果没有指定位置，则添加到滚动视图中心
           const { positionInPageX, positionInPageY } =
             getGlobalCenterRelativeToWrapperPosition(
