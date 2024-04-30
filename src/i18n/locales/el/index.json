@@ -80,7 +80,8 @@
     "home_page__features_carousel__feature_chat__description1": "GPT-4, GPT-3.5",
     "home_page__features_carousel__feature_chat__description2": "Claude-3-opus/sonnet/haiku",
     "home_page__features_carousel__feature_chat__description3": "Gemini-1.5-pro, Gemini-pro",
-    "home_page__features_carousel__feature_chat__description4": "Κλειδί OpenAI API και περισσότερα κορυφαία μοντέλα τεχνητής νοημοσύνης της επιλογής σας"
+    "home_page__features_carousel__feature_chat__description4": "Κλειδί OpenAI API και περισσότερα κορυφαία μοντέλα τεχνητής νοημοσύνης της επιλογής σας",
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Κάντε κλικ για να κατεβάσετε το υπογεγραμμένο PDF σας τώρα, όλα είναι έτοιμα και ασφαλή."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Κλικ Προτροπές",
