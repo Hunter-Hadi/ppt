@@ -17,6 +17,10 @@ export interface IFeaturesLabelCellDataType {
   title?: string;
   desc?: string;
   icon?: string;
+  video?: {
+    link?: string;
+    time?: string;
+  };
   tooltip?: {
     title?: string;
     desc?: string;

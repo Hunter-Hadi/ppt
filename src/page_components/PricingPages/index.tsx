@@ -5,10 +5,6 @@ import React from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
-import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
-import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
-import BetterPlansDisplay from '@/features/pricing/components/BetterPlansDisplay';
 import PlanFeaturesTableV3 from '@/features/pricing/components/PlanFeaturesTableV3';
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox';
 import PricingPlanCategoryBar from '@/features/pricing/components/PricingPlanCategoryBar';
@@ -42,7 +38,7 @@ const PricingPages = () => {
         }}
       >
         {/* better plans */}
-        <Stack alignItems='center'>
+        {/* <Stack alignItems='center'>
           <Typography
             variant='custom'
             fontSize={{
@@ -120,11 +116,11 @@ const PricingPages = () => {
             </IndicatorDecorator>
           </Stack>
           <BetterPlansDisplay popularPlan={'elite'} />
-        </Stack>
+        </Stack> */}
         {/* compare plans */}
         <Stack
           spacing={6}
-          mt={20}
+          // mt={20}
           sx={{
             display: {
               xs: 'none',
