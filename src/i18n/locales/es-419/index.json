@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Operación local",
     "components__sign_pdf__complete_signature_info__local_download": "Descarga local",
     "components__sign_pdf__complete_signature_info__download": "Descargar",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Página principal de firmar PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Página principal de firmar PDF",
+    "components__sign_pdf__icon__sign": "Firmar",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Escriba algo..."
   }
 }

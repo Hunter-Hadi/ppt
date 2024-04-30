@@ -1,4 +1,5 @@
 import { Button, ButtonGroup, Stack } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC, useState } from 'react';
 import { useRecoilState } from 'recoil';
 
@@ -21,6 +22,8 @@ interface IFunctionalitySignPdfShowPdfViewAddToolsPopupProps {
 const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
   IFunctionalitySignPdfShowPdfViewAddToolsPopupProps
 > = ({ controlDivPosition, editor, scaleFactor, onClose }) => {
+  const { t } = useTranslation();
+
   const [pdfOperationOBject, setPdfOperationOBject] = useRecoilState(
     FunctionalitySignPdfOperationOBjectAtom,
   );
@@ -90,7 +93,9 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
           <FunctionalitySignPdfIcon name='Abc' />
         </Button>
         <Button
-          onClick={() => onAddObject('text-box', pdfOperationOBject.textField)}
+          onClick={() =>
+            onAddObject('text-box', t(pdfOperationOBject.textField))
+          }
         >
           <FunctionalitySignPdfIcon name='Title' />
         </Button>

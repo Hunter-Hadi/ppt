@@ -22,6 +22,7 @@ import UndoOutlinedIcon from '@mui/icons-material/UndoOutlined';
 import ZoomInMapOutlinedIcon from '@mui/icons-material/ZoomInMapOutlined';
 import ZoomOutMapOutlinedIcon from '@mui/icons-material/ZoomOutMapOutlined';
 import { Box, SvgIconProps } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { FC } from 'react';
 /**
  * Functionality公共图标
@@ -31,6 +32,8 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
   name,
   ...restProps
 }) => {
+  const { t } = useTranslation();
+
   const renderIcon = () => {
     switch (name) {
       case 'DragIndicator': {
@@ -143,7 +146,7 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
                 WebkitFontSmoothing: 'antialiased',
                 fontWeight: 700,
                 fontSize: 16,
-                lineHeight: 16, // 当单位不是px时，需要明确指定
+                lineHeight: 16,
                 color: 'rgb(255, 255, 255)',
                 backgroundColor: 'primary.main',
                 display: 'flex',
@@ -154,7 +157,7 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
                 padding: '0px 16px 0px 8px',
               }}
             >
-              Sign
+              {t('functionality__sign_pdf:components__sign_pdf__icon__sign')}
             </Box>
           </Box>
         );

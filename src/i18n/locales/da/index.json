@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Lokal operation",
     "components__sign_pdf__complete_signature_info__local_download": "Lokal download",
     "components__sign_pdf__complete_signature_info__download": "Download",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside",
+    "components__sign_pdf__icon__sign": "Underskriv",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv noget..."
   }
 }

@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Lokāla darbība",
     "components__sign_pdf__complete_signature_info__local_download": "Lokāla lejupielāde",
     "components__sign_pdf__complete_signature_info__download": "Lejupielādēt",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Paraksta PDF sākumlapa"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Paraksta PDF sākumlapa",
+    "components__sign_pdf__icon__sign": "Parakstīt",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ieraksti kaut ko..."
   }
 }

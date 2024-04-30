@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Lokaler Vorgang",
     "components__sign_pdf__complete_signature_info__local_download": "Lokaler Download",
     "components__sign_pdf__complete_signature_info__download": "Herunterladen",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signieren der PDF-Homepage"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signieren der PDF-Homepage",
+    "components__sign_pdf__icon__sign": "Unterschreiben",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Etwas eingeben..."
   }
 }

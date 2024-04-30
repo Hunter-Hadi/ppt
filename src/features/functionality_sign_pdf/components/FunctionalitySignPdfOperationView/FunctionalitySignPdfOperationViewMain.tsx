@@ -42,7 +42,7 @@ const FunctionalitySignPdfOperationViewMain: FC<
           onWrapClick={onClickAdd}
           data={{
             type: 'text-box',
-            value: pdfOperationOBject.textField,
+            value: t(pdfOperationOBject.textField),
           }}
         >
           <Stack direction='row' mx={1} gap={1} flex={1} alignItems='center'>

@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "عملية محلية",
     "components__sign_pdf__complete_signature_info__local_download": "تنزيل محلي",
     "components__sign_pdf__complete_signature_info__download": "تنزيل",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحة الصفحة الرئيسية لتوقيع PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحة الصفحة الرئيسية لتوقيع PDF",
+    "components__sign_pdf__icon__sign": "توقيع",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "اكتب شيئًا..."
   }
 }

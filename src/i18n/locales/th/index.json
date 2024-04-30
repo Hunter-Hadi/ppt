@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "การดำเนินการในเครื่อง",
     "components__sign_pdf__complete_signature_info__local_download": "ดาวน์โหลดในเครื่อง",
     "components__sign_pdf__complete_signature_info__download": "ดาวน์โหลด",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "หน้าหลักลงชื่อ PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "หน้าหลักลงชื่อ PDF",
+    "components__sign_pdf__icon__sign": "เซ็น",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "พิมพ์อะไรบางอย่าง..."
   }
 }

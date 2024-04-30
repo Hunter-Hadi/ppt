@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "स्थानिक कार्य",
     "components__sign_pdf__complete_signature_info__local_download": "स्थानिक डाउनलोड",
     "components__sign_pdf__complete_signature_info__download": "डाउनलोड",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "हस्ताक्षर PDF होमपेज"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "हस्ताक्षर PDF होमपेज",
+    "components__sign_pdf__icon__sign": "साइन करा",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "काहीतरी टाइप करा..."
   }
 }

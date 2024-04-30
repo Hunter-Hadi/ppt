@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "本地操作",
     "components__sign_pdf__complete_signature_info__local_download": "本地下載",
     "components__sign_pdf__complete_signature_info__download": "下載",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "簽署PDF首頁"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "簽署PDF首頁",
+    "components__sign_pdf__icon__sign": "簽署",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "輸入文字..."
   }
 }

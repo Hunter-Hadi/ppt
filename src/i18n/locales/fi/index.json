@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Paikallinen toiminta",
     "components__sign_pdf__complete_signature_info__local_download": "Paikallinen lataus",
     "components__sign_pdf__complete_signature_info__download": "Lataa",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allekirjoita PDF -etusivu"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allekirjoita PDF -etusivu",
+    "components__sign_pdf__icon__sign": "Allekirjoita",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Kirjoita jotain..."
   }
 }

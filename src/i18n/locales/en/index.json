@@ -699,7 +699,10 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Local operation",
     "components__sign_pdf__complete_signature_info__local_download": "Local download",
     "components__sign_pdf__complete_signature_info__download": "Download",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Sign PDF Homepage"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Sign PDF Homepage",
+
+    "components__sign_pdf__icon__sign": "Sign",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Type something…"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",

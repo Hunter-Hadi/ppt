@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Lokalna operacija",
     "components__sign_pdf__complete_signature_info__local_download": "Lokalno preuzimanje",
     "components__sign_pdf__complete_signature_info__download": "Preuzmi",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Početna stranica za potpisivanje PDF-a"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Početna stranica za potpisivanje PDF-a",
+    "components__sign_pdf__icon__sign": "Potpiši",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Unesite nešto..."
   }
 }

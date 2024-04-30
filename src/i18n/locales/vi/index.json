@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Hoạt động cục bộ",
     "components__sign_pdf__complete_signature_info__local_download": "Tải xuống cục bộ",
     "components__sign_pdf__complete_signature_info__download": "Tải xuống",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Trang chủ Ký PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Trang chủ Ký PDF",
+    "components__sign_pdf__icon__sign": "Ký",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Nhập gì đó..."
   }
 }

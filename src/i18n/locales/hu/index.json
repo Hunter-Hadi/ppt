@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Helyi művelet",
     "components__sign_pdf__complete_signature_info__local_download": "Helyi letöltés",
     "components__sign_pdf__complete_signature_info__download": "Letöltés",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Aláírt PDF kezdőlap"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Aláírt PDF kezdőlap",
+    "components__sign_pdf__icon__sign": "Aláírás",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Írjon be valamit..."
   }
 }

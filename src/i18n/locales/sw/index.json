@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Operesheni ya Ndani",
     "components__sign_pdf__complete_signature_info__local_download": "Upakuaji wa Ndani",
     "components__sign_pdf__complete_signature_info__download": "Pakua",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Nyumbani kwa Kusaini PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Nyumbani kwa Kusaini PDF",
+    "components__sign_pdf__icon__sign": "Saini",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Andika kitu..."
   }
 }

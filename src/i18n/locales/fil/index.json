@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Lokal na operasyon",
     "components__sign_pdf__complete_signature_info__local_download": "Lokal na pag-download",
     "components__sign_pdf__complete_signature_info__download": "I-download",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Tahanan ng Pagsasagawa ng PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Tahanan ng Pagsasagawa ng PDF",
+    "components__sign_pdf__icon__sign": "Lagda",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Magtype ng isang bagay..."
   }
 }

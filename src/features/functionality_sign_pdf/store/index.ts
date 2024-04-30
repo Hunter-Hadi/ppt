@@ -8,7 +8,7 @@ export const functionalitySignPdfOperationOBjectDefault = {
         yourSignature: 0,//左边有功能，点击直接添加，所以储存index
         yourInitials: 0,
     },
-    textField: 'Type something…',
+    textField: 'functionality__sign_pdf:components__sign_pdf__operation_oBject_default__type__text_field__type_something',
     dateField: dayjs().format('MM/DD/YYYY'), //虽然不是时时，但是也没必要因为是天数
     checkbox: '✔',
 }

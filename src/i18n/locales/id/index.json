@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Operasi lokal",
     "components__sign_pdf__complete_signature_info__local_download": "Unduh lokal",
     "components__sign_pdf__complete_signature_info__download": "Unduh",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Beranda Tanda Tangan PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Beranda Tanda Tangan PDF",
+    "components__sign_pdf__icon__sign": "Tanda Tangan",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ketik sesuatu..."
   }
 }

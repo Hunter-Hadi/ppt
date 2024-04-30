@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Lokální operace",
     "components__sign_pdf__complete_signature_info__local_download": "Lokální stahování",
     "components__sign_pdf__complete_signature_info__download": "Stáhnout",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domovská stránka pro podpis PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domovská stránka pro podpis PDF",
+    "components__sign_pdf__icon__sign": "Podpis",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Napište něco..."
   }
 }

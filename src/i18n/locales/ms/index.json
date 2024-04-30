@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "operasi tempatan",
     "components__sign_pdf__complete_signature_info__local_download": "muat turun tempatan",
     "components__sign_pdf__complete_signature_info__download": "Muat Turun",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Laman Utama Tandatangan PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Laman Utama Tandatangan PDF",
+    "components__sign_pdf__icon__sign": "Tandatangan",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Taip sesuatu..."
   }
 }

@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "عملیات محلی",
     "components__sign_pdf__complete_signature_info__local_download": "دانلود محلی",
     "components__sign_pdf__complete_signature_info__download": "دانلود",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحه اصلی امضای PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحه اصلی امضای PDF",
+    "components__sign_pdf__icon__sign": "امضا کنید",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "چیزی بنویسید..."
   }
 }

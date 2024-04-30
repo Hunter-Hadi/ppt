@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Локальная операция",
     "components__sign_pdf__complete_signature_info__local_download": "Локальное скачивание",
     "components__sign_pdf__complete_signature_info__download": "Скачать",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Домашняя страница подписи PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Домашняя страница подписи PDF",
+    "components__sign_pdf__icon__sign": "Подписать",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Введите что-нибудь..."
   }
 }

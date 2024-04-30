@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "স্থানীয় অপারেশন",
     "components__sign_pdf__complete_signature_info__local_download": "স্থানীয় ডাউনলোড",
     "components__sign_pdf__complete_signature_info__download": "ডাউনলোড",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "সাইন পিডিএফ হোমপেজ"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "সাইন পিডিএফ হোমপেজ",
+    "components__sign_pdf__icon__sign": "স্বাক্ষর করুন",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "কিছু লিখুন..."
   }
 }

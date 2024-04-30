@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Operație locală",
     "components__sign_pdf__complete_signature_info__local_download": "Descărcare locală",
     "components__sign_pdf__complete_signature_info__download": "Descărcare",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principală Semnare PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principală Semnare PDF",
+    "components__sign_pdf__icon__sign": "Semnează",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Tastează ceva..."
   }
 }

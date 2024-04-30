@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "로컬 작업",
     "components__sign_pdf__complete_signature_info__local_download": "로컬 다운로드",
     "components__sign_pdf__complete_signature_info__download": "다운로드",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF 서명 홈페이지"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF 서명 홈페이지",
+    "components__sign_pdf__icon__sign": "서명",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "무언가를 입력하세요..."
   }
 }

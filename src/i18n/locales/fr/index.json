@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "Opération locale",
     "components__sign_pdf__complete_signature_info__local_download": "Téléchargement local",
     "components__sign_pdf__complete_signature_info__download": "Télécharger",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Page d'accueil de la signature PDF"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Page d'accueil de la signature PDF",
+    "components__sign_pdf__icon__sign": "Signer",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Saisissez quelque chose..."
   }
 }

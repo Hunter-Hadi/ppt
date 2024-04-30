@@ -1004,6 +1004,8 @@
     "components__sign_pdf__complete_signature_info__local_operation": "مقامی عمل",
     "components__sign_pdf__complete_signature_info__local_download": "مقامی ڈاؤن لوڈ",
     "components__sign_pdf__complete_signature_info__download": "ڈاؤن لوڈ",
-    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "سائن پی ڈی ایف ہوم پیج"
+    "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "سائن پی ڈی ایف ہوم پیج",
+    "components__sign_pdf__icon__sign": "سائن کریں",
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "کچھ ٹائپ کریں..."
   }
 }
