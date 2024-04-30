@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Best for elite-profesjonelle",
     "plan_button__save_with_yearly_plan": "Spar {{PRICE}} med årlig plan",
     "plan_button__free_status__start_for_free": "Start gratis",
-    "better_plan_display__everything_in_plan_plus": "Alt i {{PLAN}} pluss:"
+    "better_plan_display__everything_in_plan_plus": "Alt i {{PLAN}} pluss:",
+    "features__gmail_instant_reply": "Gmail umiddelbar svar",
+    "features__outlook_instant_reply": "Outlook umiddelbar svar",
+    "features__facebook_instant_reply": "Facebook umiddelbar svar",
+    "features__linkedin_instant_reply": "LinkedIn umiddelbar svar",
+    "features__xtwitter_instant_reply": "X/Twitter umiddelbar svar",
+    "features__YouTube_instant_reply": "YouTube umiddelbar svar",
+    "features__instagram_instant_reply": "Instagram umiddelbar svar",
+    "features__reddit_instant_reply": "Reddit umiddelbar svar",
+    "features__whatsapp_instant_reply": "WhatsApp umiddelbar svar",
+    "features__discord_instant_reply": "Discord umiddelbar svar",
+    "features__telegram_instant_reply": "Telegram umiddelbar svar",
+    "features__messenger_instant_reply": "Messenger umiddelbar svar",
+    "features__slack_instant_reply": "Slack umiddelbar svar",
+    "features__summarize_ask_pdf": "Oppsummer og spør PDF",
+    "features__summarize_ask_youTube_video": "Oppsummer og spør YouTube-video",
+    "features__summarize_ask_email": "Oppsummer og spør e-post",
+    "features__summarize_ask_any_webpage": "Oppsummer og spør hvilken som helst nettside"
   },
   "features__common": {
     "components__upload_button_drop_title": "Slipp her"

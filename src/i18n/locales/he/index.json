@@ -965,7 +965,24 @@
     "payment_info__elite_desc": "מתאים למקצוענים מצוינים",
     "plan_button__save_with_yearly_plan": "חסוך {{PRICE}} עם תוכנית שנתית",
     "plan_button__free_status__start_for_free": "התחל בחינם",
-    "better_plan_display__everything_in_plan_plus": "הכל בתוך {{PLAN}} פלוס:"
+    "better_plan_display__everything_in_plan_plus": "הכל בתוך {{PLAN}} פלוס:",
+    "features__gmail_instant_reply": "תשובה מיידית ב-Gmail",
+    "features__outlook_instant_reply": "תשובה מיידית ב-Outlook",
+    "features__facebook_instant_reply": "תשובה מיידית ב-Facebook",
+    "features__linkedin_instant_reply": "תשובה מיידית ב-LinkedIn",
+    "features__xtwitter_instant_reply": "תשובה מיידית ב-X/Twitter",
+    "features__YouTube_instant_reply": "תשובה מיידית ב-YouTube",
+    "features__instagram_instant_reply": "תשובה מיידית ב-Instagram",
+    "features__reddit_instant_reply": "תשובה מיידית ב-Reddit",
+    "features__whatsapp_instant_reply": "תשובה מיידית ב-WhatsApp",
+    "features__discord_instant_reply": "תשובה מיידית ב-Discord",
+    "features__telegram_instant_reply": "תשובה מיידית ב-Telegram",
+    "features__messenger_instant_reply": "תשובה מיידית ב-Messenger",
+    "features__slack_instant_reply": "תשובה מיידית ב-Slack",
+    "features__summarize_ask_pdf": "סיכום ושאלה ב-PDF",
+    "features__summarize_ask_youTube_video": "סיכום ושאלה בסרטון YouTube",
+    "features__summarize_ask_email": "סיכום ושאלה בדוא\"ל",
+    "features__summarize_ask_any_webpage": "סיכום ושאלה בכל עמוד אינטרנט"
   },
   "features__common": {
     "components__upload_button_drop_title": "שחרר כאן"

@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "เหมาะสำหรับผู้ใช้ที่มีความเชี่ยวชาญ",
     "plan_button__save_with_yearly_plan": "ประหยัด {{PRICE}} ด้วยแผนรายปี",
     "plan_button__free_status__start_for_free": "เริ่มต้นฟรี",
-    "better_plan_display__everything_in_plan_plus": "ทุกอย่างใน {{PLAN}} และ:"
+    "better_plan_display__everything_in_plan_plus": "ทุกอย่างใน {{PLAN}} และ:",
+    "features__gmail_instant_reply": "ตอบกลับทันทีใน Gmail",
+    "features__outlook_instant_reply": "ตอบกลับทันทีใน Outlook",
+    "features__facebook_instant_reply": "ตอบกลับทันทีใน Facebook",
+    "features__linkedin_instant_reply": "ตอบกลับทันทีใน LinkedIn",
+    "features__xtwitter_instant_reply": "ตอบกลับทันทีใน X/Twitter",
+    "features__YouTube_instant_reply": "ตอบกลับทันทีใน YouTube",
+    "features__instagram_instant_reply": "ตอบกลับทันทีใน Instagram",
+    "features__reddit_instant_reply": "ตอบกลับทันทีใน Reddit",
+    "features__whatsapp_instant_reply": "ตอบกลับทันทีใน WhatsApp",
+    "features__discord_instant_reply": "ตอบกลับทันทีใน Discord",
+    "features__telegram_instant_reply": "ตอบกลับทันทีใน Telegram",
+    "features__messenger_instant_reply": "ตอบกลับทันทีใน Messenger",
+    "features__slack_instant_reply": "ตอบกลับทันทีใน Slack",
+    "features__summarize_ask_pdf": "สรุปและถามเกี่ยวกับ PDF",
+    "features__summarize_ask_youTube_video": "สรุปและถามเกี่ยวกับวิดีโอ YouTube",
+    "features__summarize_ask_email": "สรุปและถามเกี่ยวกับอีเมล",
+    "features__summarize_ask_any_webpage": "สรุปและถามเกี่ยวกับหน้าเว็บใดก็ได้"
   },
   "features__common": {
     "components__upload_button_drop_title": "วางที่นี่"

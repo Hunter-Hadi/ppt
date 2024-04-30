@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Najbolje za elitne profesionalce",
     "plan_button__save_with_yearly_plan": "Uštedite {{PRICE}} sa godišnjim planom",
     "plan_button__free_status__start_for_free": "Počnite besplatno",
-    "better_plan_display__everything_in_plan_plus": "Sve uključeno u {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Sve uključeno u {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Gmail trenutni odgovor",
+    "features__outlook_instant_reply": "Outlook trenutni odgovor",
+    "features__facebook_instant_reply": "Facebook trenutni odgovor",
+    "features__linkedin_instant_reply": "LinkedIn trenutni odgovor",
+    "features__xtwitter_instant_reply": "X/Twitter trenutni odgovor",
+    "features__YouTube_instant_reply": "YouTube trenutni odgovor",
+    "features__instagram_instant_reply": "Instagram trenutni odgovor",
+    "features__reddit_instant_reply": "Reddit trenutni odgovor",
+    "features__whatsapp_instant_reply": "WhatsApp trenutni odgovor",
+    "features__discord_instant_reply": "Discord trenutni odgovor",
+    "features__telegram_instant_reply": "Telegram trenutni odgovor",
+    "features__messenger_instant_reply": "Messenger trenutni odgovor",
+    "features__slack_instant_reply": "Slack trenutni odgovor",
+    "features__summarize_ask_pdf": "Sumiraj i pitaj PDF",
+    "features__summarize_ask_youTube_video": "Sumiraj i pitaj YouTube video",
+    "features__summarize_ask_email": "Sumiraj i pitaj email",
+    "features__summarize_ask_any_webpage": "Sumiraj i pitaj bilo koju web stranicu"
   },
   "features__common": {
     "components__upload_button_drop_title": "Prevuci ovde"

@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "مرتبہ دار پیشہ ورانہ کے لئے بہترین",
     "plan_button__save_with_yearly_plan": "{{PRICE}} سالانہ منصوبے کے ساتھ بچائیں",
     "plan_button__free_status__start_for_free": "مفت شروع کریں",
-    "better_plan_display__everything_in_plan_plus": "پلان میں سب کچھ پلس:"
+    "better_plan_display__everything_in_plan_plus": "پلان میں سب کچھ پلس:",
+    "features__gmail_instant_reply": "جی میل فوری جواب",
+    "features__outlook_instant_reply": "آؤٹ لک فوری جواب",
+    "features__facebook_instant_reply": "فیس بک فوری جواب",
+    "features__linkedin_instant_reply": "لنکڈ ان فوری جواب",
+    "features__xtwitter_instant_reply": "ایکس/ٹوئٹر فوری جواب",
+    "features__YouTube_instant_reply": "یوٹیوب فوری جواب",
+    "features__instagram_instant_reply": "انسٹاگرام فوری جواب",
+    "features__reddit_instant_reply": "ریڈیٹ فوری جواب",
+    "features__whatsapp_instant_reply": "واٹس ایپ فوری جواب",
+    "features__discord_instant_reply": "ڈسکورڈ فوری جواب",
+    "features__telegram_instant_reply": "ٹیلیگرام فوری جواب",
+    "features__messenger_instant_reply": "میسنجر فوری جواب",
+    "features__slack_instant_reply": "سلاک فوری جواب",
+    "features__summarize_ask_pdf": "خلاصہ کریں اور پی ڈی ایف سوال کریں",
+    "features__summarize_ask_youTube_video": "خلاصہ کریں اور یوٹیوب ویڈیو سوال کریں",
+    "features__summarize_ask_email": "خلاصہ کریں اور ای میل سوال کریں",
+    "features__summarize_ask_any_webpage": "خلاصہ کریں اور کسی بھی ویب پیج سوال کریں"
   },
   "features__common": {
     "components__upload_button_drop_title": "یہاں ڈراپ کریں"

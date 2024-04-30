@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Bäst för elitproffs",
     "plan_button__save_with_yearly_plan": "Spara {{PRICE}} med årlig plan",
     "plan_button__free_status__start_for_free": "Börja gratis",
-    "better_plan_display__everything_in_plan_plus": "Allt i {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Allt i {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Gmail omedelbar svar",
+    "features__outlook_instant_reply": "Outlook omedelbar svar",
+    "features__facebook_instant_reply": "Facebook omedelbar svar",
+    "features__linkedin_instant_reply": "LinkedIn omedelbar svar",
+    "features__xtwitter_instant_reply": "X/Twitter omedelbar svar",
+    "features__YouTube_instant_reply": "YouTube omedelbar svar",
+    "features__instagram_instant_reply": "Instagram omedelbar svar",
+    "features__reddit_instant_reply": "Reddit omedelbar svar",
+    "features__whatsapp_instant_reply": "WhatsApp omedelbar svar",
+    "features__discord_instant_reply": "Discord omedelbar svar",
+    "features__telegram_instant_reply": "Telegram omedelbar svar",
+    "features__messenger_instant_reply": "Messenger omedelbar svar",
+    "features__slack_instant_reply": "Slack omedelbar svar",
+    "features__summarize_ask_pdf": "Sammanfatta och fråga PDF",
+    "features__summarize_ask_youTube_video": "Sammanfatta och fråga YouTube-video",
+    "features__summarize_ask_email": "Sammanfatta och fråga e-post",
+    "features__summarize_ask_any_webpage": "Sammanfatta och fråga valfri webbsida"
   },
   "features__common": {
     "components__upload_button_drop_title": "Släpp här"

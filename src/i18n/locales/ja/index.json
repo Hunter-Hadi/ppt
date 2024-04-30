@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "エリートプロフェッショナルに最適",
     "plan_button__save_with_yearly_plan": "年間プランで{{PRICE}}を節約",
     "plan_button__free_status__start_for_free": "無料で開始",
-    "better_plan_display__everything_in_plan_plus": "プランに含まれるすべてのものに加えて:"
+    "better_plan_display__everything_in_plan_plus": "プランに含まれるすべてのものに加えて:",
+    "features__gmail_instant_reply": "Gmailの即時返信",
+    "features__outlook_instant_reply": "Outlookの即時返信",
+    "features__facebook_instant_reply": "Facebookの即時返信",
+    "features__linkedin_instant_reply": "LinkedInの即時返信",
+    "features__xtwitter_instant_reply": "X/Twitterの即時返信",
+    "features__YouTube_instant_reply": "YouTubeの即時返信",
+    "features__instagram_instant_reply": "Instagramの即時返信",
+    "features__reddit_instant_reply": "Redditの即時返信",
+    "features__whatsapp_instant_reply": "WhatsAppの即時返信",
+    "features__discord_instant_reply": "Discordの即時返信",
+    "features__telegram_instant_reply": "Telegramの即時返信",
+    "features__messenger_instant_reply": "Messengerの即時返信",
+    "features__slack_instant_reply": "Slackの即時返信",
+    "features__summarize_ask_pdf": "PDFの要約と質問",
+    "features__summarize_ask_youTube_video": "YouTube動画の要約と質問",
+    "features__summarize_ask_email": "メールの要約と質問",
+    "features__summarize_ask_any_webpage": "任意のウェブページの要約と質問"
   },
   "features__common": {
     "components__upload_button_drop_title": "ここにドロップ"

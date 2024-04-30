@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Vislabāk piemērots elitāriem profesionāļiem",
     "plan_button__save_with_yearly_plan": "Ietaupiet {{PRICE}} ar ikgadēju plānu",
     "plan_button__free_status__start_for_free": "Sāciet bez maksas",
-    "better_plan_display__everything_in_plan_plus": "Viss, kas ir {{PLAN}}, un vēl:"
+    "better_plan_display__everything_in_plan_plus": "Viss, kas ir {{PLAN}}, un vēl:",
+    "features__gmail_instant_reply": "Gmail ātra atbilde",
+    "features__outlook_instant_reply": "Outlook ātra atbilde",
+    "features__facebook_instant_reply": "Facebook ātra atbilde",
+    "features__linkedin_instant_reply": "LinkedIn ātra atbilde",
+    "features__xtwitter_instant_reply": "X/Twitter ātra atbilde",
+    "features__YouTube_instant_reply": "YouTube ātra atbilde",
+    "features__instagram_instant_reply": "Instagram ātra atbilde",
+    "features__reddit_instant_reply": "Reddit ātra atbilde",
+    "features__whatsapp_instant_reply": "WhatsApp ātra atbilde",
+    "features__discord_instant_reply": "Discord ātra atbilde",
+    "features__telegram_instant_reply": "Telegram ātra atbilde",
+    "features__messenger_instant_reply": "Messenger ātra atbilde",
+    "features__slack_instant_reply": "Slack ātra atbilde",
+    "features__summarize_ask_pdf": "Apkopot un jautāt PDF",
+    "features__summarize_ask_youTube_video": "Apkopot un jautāt YouTube video",
+    "features__summarize_ask_email": "Apkopot un jautāt e-pastu",
+    "features__summarize_ask_any_webpage": "Apkopot un jautāt jebkuru tīmekļa lapu"
   },
   "features__common": {
     "components__upload_button_drop_title": "Nometiet šeit"

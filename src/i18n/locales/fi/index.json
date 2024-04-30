@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Paras huippuammattilaisille",
     "plan_button__save_with_yearly_plan": "Säästä {{PRICE}} vuosittaisella suunnitelmalla",
     "plan_button__free_status__start_for_free": "Aloita ilmaiseksi",
-    "better_plan_display__everything_in_plan_plus": "Kaikki {{PLAN}} lisäksi:"
+    "better_plan_display__everything_in_plan_plus": "Kaikki {{PLAN}} lisäksi:",
+    "features__gmail_instant_reply": "Gmail pikavastaus",
+    "features__outlook_instant_reply": "Outlook pikavastaus",
+    "features__facebook_instant_reply": "Facebook pikavastaus",
+    "features__linkedin_instant_reply": "LinkedIn pikavastaus",
+    "features__xtwitter_instant_reply": "X/Twitter pikavastaus",
+    "features__YouTube_instant_reply": "YouTube pikavastaus",
+    "features__instagram_instant_reply": "Instagram pikavastaus",
+    "features__reddit_instant_reply": "Reddit pikavastaus",
+    "features__whatsapp_instant_reply": "WhatsApp pikavastaus",
+    "features__discord_instant_reply": "Discord pikavastaus",
+    "features__telegram_instant_reply": "Telegram pikavastaus",
+    "features__messenger_instant_reply": "Messenger pikavastaus",
+    "features__slack_instant_reply": "Slack pikavastaus",
+    "features__summarize_ask_pdf": "Tiivistä ja kysy PDF",
+    "features__summarize_ask_youTube_video": "Tiivistä ja kysy YouTube-video",
+    "features__summarize_ask_email": "Tiivistä ja kysy sähköposti",
+    "features__summarize_ask_any_webpage": "Tiivistä ja kysy mikä tahansa verkkosivu"
   },
   "features__common": {
     "components__upload_button_drop_title": "Pudota tähän"

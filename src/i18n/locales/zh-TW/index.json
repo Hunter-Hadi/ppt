@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "頂尖專業人士的最佳選擇",
     "plan_button__save_with_yearly_plan": "年付節省 {{PRICE}}",
     "plan_button__free_status__start_for_free": "免費開始",
-    "better_plan_display__everything_in_plan_plus": "計劃中的所有內容，再加上："
+    "better_plan_display__everything_in_plan_plus": "計劃中的所有內容，再加上：",
+    "features__gmail_instant_reply": "Gmail即時回覆",
+    "features__outlook_instant_reply": "Outlook即時回覆",
+    "features__facebook_instant_reply": "Facebook即時回覆",
+    "features__linkedin_instant_reply": "LinkedIn即時回覆",
+    "features__xtwitter_instant_reply": "X/Twitter即時回覆",
+    "features__YouTube_instant_reply": "YouTube即時回覆",
+    "features__instagram_instant_reply": "Instagram即時回覆",
+    "features__reddit_instant_reply": "Reddit即時回覆",
+    "features__whatsapp_instant_reply": "WhatsApp即時回覆",
+    "features__discord_instant_reply": "Discord即時回覆",
+    "features__telegram_instant_reply": "Telegram即時回覆",
+    "features__messenger_instant_reply": "Messenger即時回覆",
+    "features__slack_instant_reply": "Slack即時回覆",
+    "features__summarize_ask_pdf": "摘要和詢問PDF",
+    "features__summarize_ask_youTube_video": "摘要和詢問YouTube視頻",
+    "features__summarize_ask_email": "摘要和詢問電子郵件",
+    "features__summarize_ask_any_webpage": "摘要和詢問任何網頁"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放至此"

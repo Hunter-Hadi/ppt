@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Cel mai bun pentru profesioniștii de elită",
     "plan_button__save_with_yearly_plan": "Economisiți {{PRICE}} cu planul anual",
     "plan_button__free_status__start_for_free": "Începeți gratuit",
-    "better_plan_display__everything_in_plan_plus": "Totul în {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Totul în {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Răspuns instant Gmail",
+    "features__outlook_instant_reply": "Răspuns instant Outlook",
+    "features__facebook_instant_reply": "Răspuns instant Facebook",
+    "features__linkedin_instant_reply": "Răspuns instant LinkedIn",
+    "features__xtwitter_instant_reply": "Răspuns instant X/Twitter",
+    "features__YouTube_instant_reply": "Răspuns instant YouTube",
+    "features__instagram_instant_reply": "Răspuns instant Instagram",
+    "features__reddit_instant_reply": "Răspuns instant Reddit",
+    "features__whatsapp_instant_reply": "Răspuns instant WhatsApp",
+    "features__discord_instant_reply": "Răspuns instant Discord",
+    "features__telegram_instant_reply": "Răspuns instant Telegram",
+    "features__messenger_instant_reply": "Răspuns instant Messenger",
+    "features__slack_instant_reply": "Răspuns instant Slack",
+    "features__summarize_ask_pdf": "Rezumat și întrebare PDF",
+    "features__summarize_ask_youTube_video": "Rezumat și întrebare video YouTube",
+    "features__summarize_ask_email": "Rezumat și întrebare email",
+    "features__summarize_ask_any_webpage": "Rezumat și întrebare orice pagină web"
   },
   "features__common": {
     "components__upload_button_drop_title": "Așezați aici"

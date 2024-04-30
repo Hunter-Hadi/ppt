@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Melhor para profissionais de elite",
     "plan_button__save_with_yearly_plan": "Economize {{PRICE}} com plano anual",
     "plan_button__free_status__start_for_free": "Comece gratuitamente",
-    "better_plan_display__everything_in_plan_plus": "Tudo no {{PLANO}} e mais:"
+    "better_plan_display__everything_in_plan_plus": "Tudo no {{PLANO}} e mais:",
+    "features__gmail_instant_reply": "Resposta instantânea do Gmail",
+    "features__outlook_instant_reply": "Resposta instantânea do Outlook",
+    "features__facebook_instant_reply": "Resposta instantânea do Facebook",
+    "features__linkedin_instant_reply": "Resposta instantânea do LinkedIn",
+    "features__xtwitter_instant_reply": "Resposta instantânea do X/Twitter",
+    "features__YouTube_instant_reply": "Resposta instantânea do YouTube",
+    "features__instagram_instant_reply": "Resposta instantânea do Instagram",
+    "features__reddit_instant_reply": "Resposta instantânea do Reddit",
+    "features__whatsapp_instant_reply": "Resposta instantânea do WhatsApp",
+    "features__discord_instant_reply": "Resposta instantânea do Discord",
+    "features__telegram_instant_reply": "Resposta instantânea do Telegram",
+    "features__messenger_instant_reply": "Resposta instantânea do Messenger",
+    "features__slack_instant_reply": "Resposta instantânea do Slack",
+    "features__summarize_ask_pdf": "Resumir e perguntar PDF",
+    "features__summarize_ask_youTube_video": "Resumir e perguntar vídeo do YouTube",
+    "features__summarize_ask_email": "Resumir e perguntar email",
+    "features__summarize_ask_any_webpage": "Resumir e perguntar qualquer página da web"
   },
   "features__common": {
     "components__upload_button_drop_title": "Arraste aqui"

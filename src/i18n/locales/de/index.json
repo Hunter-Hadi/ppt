@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Am besten für Elite-Profis",
     "plan_button__save_with_yearly_plan": "Sparen Sie {{PRICE}} mit dem Jahresplan",
     "plan_button__free_status__start_for_free": "Kostenlos starten",
-    "better_plan_display__everything_in_plan_plus": "Alles in {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Alles in {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Gmail Sofortantwort",
+    "features__outlook_instant_reply": "Outlook Sofortantwort",
+    "features__facebook_instant_reply": "Facebook Sofortantwort",
+    "features__linkedin_instant_reply": "LinkedIn Sofortantwort",
+    "features__xtwitter_instant_reply": "X/Twitter Sofortantwort",
+    "features__YouTube_instant_reply": "YouTube Sofortantwort",
+    "features__instagram_instant_reply": "Instagram Sofortantwort",
+    "features__reddit_instant_reply": "Reddit Sofortantwort",
+    "features__whatsapp_instant_reply": "WhatsApp Sofortantwort",
+    "features__discord_instant_reply": "Discord Sofortantwort",
+    "features__telegram_instant_reply": "Telegram Sofortantwort",
+    "features__messenger_instant_reply": "Messenger Sofortantwort",
+    "features__slack_instant_reply": "Slack Sofortantwort",
+    "features__summarize_ask_pdf": "Zusammenfassen und PDF fragen",
+    "features__summarize_ask_youTube_video": "Zusammenfassen und YouTube-Video fragen",
+    "features__summarize_ask_email": "Zusammenfassen und E-Mail fragen",
+    "features__summarize_ask_any_webpage": "Zusammenfassen und jede Webseite fragen"
   },
   "features__common": {
     "components__upload_button_drop_title": "Hier ablegen"

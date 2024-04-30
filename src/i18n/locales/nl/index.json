@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Beste voor eliteprofessionals",
     "plan_button__save_with_yearly_plan": "Bespaar {{PRICE}} met jaarlijks plan",
     "plan_button__free_status__start_for_free": "Begin gratis",
-    "better_plan_display__everything_in_plan_plus": "Alles in {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Alles in {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Gmail direct antwoord",
+    "features__outlook_instant_reply": "Outlook direct antwoord",
+    "features__facebook_instant_reply": "Facebook direct antwoord",
+    "features__linkedin_instant_reply": "LinkedIn direct antwoord",
+    "features__xtwitter_instant_reply": "X/Twitter direct antwoord",
+    "features__YouTube_instant_reply": "YouTube direct antwoord",
+    "features__instagram_instant_reply": "Instagram direct antwoord",
+    "features__reddit_instant_reply": "Reddit direct antwoord",
+    "features__whatsapp_instant_reply": "WhatsApp direct antwoord",
+    "features__discord_instant_reply": "Discord direct antwoord",
+    "features__telegram_instant_reply": "Telegram direct antwoord",
+    "features__messenger_instant_reply": "Messenger direct antwoord",
+    "features__slack_instant_reply": "Slack direct antwoord",
+    "features__summarize_ask_pdf": "Samenvatten en vragen PDF",
+    "features__summarize_ask_youTube_video": "Samenvatten en vragen YouTube-video",
+    "features__summarize_ask_email": "Samenvatten en vragen e-mail",
+    "features__summarize_ask_any_webpage": "Samenvatten en vragen elke webpagina"
   },
   "features__common": {
     "components__upload_button_drop_title": "Plaats hier"

@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Bedst til eliteprofessionelle",
     "plan_button__save_with_yearly_plan": "Spar {{PRICE}} med årlig plan",
     "plan_button__free_status__start_for_free": "Start gratis",
-    "better_plan_display__everything_in_plan_plus": "Alt i {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Alt i {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Gmail øjeblikkelig svar",
+    "features__outlook_instant_reply": "Outlook øjeblikkelig svar",
+    "features__facebook_instant_reply": "Facebook øjeblikkelig svar",
+    "features__linkedin_instant_reply": "LinkedIn øjeblikkelig svar",
+    "features__xtwitter_instant_reply": "X/Twitter øjeblikkelig svar",
+    "features__YouTube_instant_reply": "YouTube øjeblikkelig svar",
+    "features__instagram_instant_reply": "Instagram øjeblikkelig svar",
+    "features__reddit_instant_reply": "Reddit øjeblikkelig svar",
+    "features__whatsapp_instant_reply": "WhatsApp øjeblikkelig svar",
+    "features__discord_instant_reply": "Discord øjeblikkelig svar",
+    "features__telegram_instant_reply": "Telegram øjeblikkelig svar",
+    "features__messenger_instant_reply": "Messenger øjeblikkelig svar",
+    "features__slack_instant_reply": "Slack øjeblikkelig svar",
+    "features__summarize_ask_pdf": "Resumér og spørg PDF",
+    "features__summarize_ask_youTube_video": "Resumér og spørg YouTube-video",
+    "features__summarize_ask_email": "Resumér og spørg e-mail",
+    "features__summarize_ask_any_webpage": "Resumér og spørg enhver webside"
   },
   "features__common": {
     "components__upload_button_drop_title": "Slip her"

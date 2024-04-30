@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Bora kwa wataalamu wa kiwango cha juu",
     "plan_button__save_with_yearly_plan": "Hifadhi {{PRICE}} na mpango wa kila mwaka",
     "plan_button__free_status__start_for_free": "Anza bure",
-    "better_plan_display__everything_in_plan_plus": "Kila kitu katika {{PLAN}} na zaidi:"
+    "better_plan_display__everything_in_plan_plus": "Kila kitu katika {{PLAN}} na zaidi:",
+    "features__gmail_instant_reply": "Majibu ya Papo kwa Papo ya Gmail",
+    "features__outlook_instant_reply": "Majibu ya Papo kwa Papo ya Outlook",
+    "features__facebook_instant_reply": "Majibu ya Papo kwa Papo ya Facebook",
+    "features__linkedin_instant_reply": "Majibu ya Papo kwa Papo ya LinkedIn",
+    "features__xtwitter_instant_reply": "Majibu ya Papo kwa Papo ya X/Twitter",
+    "features__YouTube_instant_reply": "Majibu ya Papo kwa Papo ya YouTube",
+    "features__instagram_instant_reply": "Majibu ya Papo kwa Papo ya Instagram",
+    "features__reddit_instant_reply": "Majibu ya Papo kwa Papo ya Reddit",
+    "features__whatsapp_instant_reply": "Majibu ya Papo kwa Papo ya WhatsApp",
+    "features__discord_instant_reply": "Majibu ya Papo kwa Papo ya Discord",
+    "features__telegram_instant_reply": "Majibu ya Papo kwa Papo ya Telegram",
+    "features__messenger_instant_reply": "Majibu ya Papo kwa Papo ya Messenger",
+    "features__slack_instant_reply": "Majibu ya Papo kwa Papo ya Slack",
+    "features__summarize_ask_pdf": "Kusisitiza & kuuliza PDF",
+    "features__summarize_ask_youTube_video": "Kusisitiza & kuuliza video ya YouTube",
+    "features__summarize_ask_email": "Kusisitiza & kuuliza barua pepe",
+    "features__summarize_ask_any_webpage": "Kusisitiza & kuuliza ukurasa wowote wa wavuti"
   },
   "features__common": {
     "components__upload_button_drop_title": "Buruta hapa"

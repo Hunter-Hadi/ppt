@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Terbaik untuk profesional elit",
     "plan_button__save_with_yearly_plan": "Simpan {{PRICE}} dengan paket tahunan",
     "plan_button__free_status__start_for_free": "Mulai gratis",
-    "better_plan_display__everything_in_plan_plus": "Semua fitur dalam {{PLAN}} ditambah:"
+    "better_plan_display__everything_in_plan_plus": "Semua fitur dalam {{PLAN}} ditambah:",
+    "features__gmail_instant_reply": "Balasan instan Gmail",
+    "features__outlook_instant_reply": "Balasan instan Outlook",
+    "features__facebook_instant_reply": "Balasan instan Facebook",
+    "features__linkedin_instant_reply": "Balasan instan LinkedIn",
+    "features__xtwitter_instant_reply": "Balasan instan X/Twitter",
+    "features__YouTube_instant_reply": "Balasan instan YouTube",
+    "features__instagram_instant_reply": "Balasan instan Instagram",
+    "features__reddit_instant_reply": "Balasan instan Reddit",
+    "features__whatsapp_instant_reply": "Balasan instan WhatsApp",
+    "features__discord_instant_reply": "Balasan instan Discord",
+    "features__telegram_instant_reply": "Balasan instan Telegram",
+    "features__messenger_instant_reply": "Balasan instan Messenger",
+    "features__slack_instant_reply": "Balasan instan Slack",
+    "features__summarize_ask_pdf": "Ringkasan & tanya PDF",
+    "features__summarize_ask_youTube_video": "Ringkasan & tanya video YouTube",
+    "features__summarize_ask_email": "Ringkasan & tanya email",
+    "features__summarize_ask_any_webpage": "Ringkasan & tanya halaman web apa pun"
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"

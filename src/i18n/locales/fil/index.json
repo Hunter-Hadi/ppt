@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Pinakabagay para sa mga elite na propesyonal",
     "plan_button__save_with_yearly_plan": "I-save ang {{PRICE}} gamit ang taunang plano",
     "plan_button__free_status__start_for_free": "Magsimula nang libre",
-    "better_plan_display__everything_in_plan_plus": "Lahat ng {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Lahat ng {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Gmail instant reply",
+    "features__outlook_instant_reply": "Outlook instant reply",
+    "features__facebook_instant_reply": "Facebook instant reply",
+    "features__linkedin_instant_reply": "LinkedIn instant reply",
+    "features__xtwitter_instant_reply": "X/Twitter instant reply",
+    "features__YouTube_instant_reply": "YouTube instant reply",
+    "features__instagram_instant_reply": "Instagram instant reply",
+    "features__reddit_instant_reply": "Reddit instant reply",
+    "features__whatsapp_instant_reply": "WhatsApp instant reply",
+    "features__discord_instant_reply": "Discord instant reply",
+    "features__telegram_instant_reply": "Telegram instant reply",
+    "features__messenger_instant_reply": "Messenger instant reply",
+    "features__slack_instant_reply": "Slack instant reply",
+    "features__summarize_ask_pdf": "Buod at magtanong ng PDF",
+    "features__summarize_ask_youTube_video": "Buod at magtanong ng YouTube video",
+    "features__summarize_ask_email": "Buod at magtanong ng email",
+    "features__summarize_ask_any_webpage": "Buod at magtanong ng anumang webpage"
   },
   "features__common": {
     "components__upload_button_drop_title": "I-drop dito"

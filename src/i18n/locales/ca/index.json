@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "El millor per a professionals d'elit",
     "plan_button__save_with_yearly_plan": "Estalvia {{PRICE}} amb el pla anual",
     "plan_button__free_status__start_for_free": "Comença gratuïtament",
-    "better_plan_display__everything_in_plan_plus": "Tot en {{PLAN}} més:"
+    "better_plan_display__everything_in_plan_plus": "Tot en {{PLAN}} més:",
+    "features__gmail_instant_reply": "Resposta instantània de Gmail",
+    "features__outlook_instant_reply": "Resposta instantània d'Outlook",
+    "features__facebook_instant_reply": "Resposta instantània de Facebook",
+    "features__linkedin_instant_reply": "Resposta instantània de LinkedIn",
+    "features__xtwitter_instant_reply": "Resposta instantània de X/Twitter",
+    "features__YouTube_instant_reply": "Resposta instantània de YouTube",
+    "features__instagram_instant_reply": "Resposta instantània d'Instagram",
+    "features__reddit_instant_reply": "Resposta instantània de Reddit",
+    "features__whatsapp_instant_reply": "Resposta instantània de WhatsApp",
+    "features__discord_instant_reply": "Resposta instantània de Discord",
+    "features__telegram_instant_reply": "Resposta instantània de Telegram",
+    "features__messenger_instant_reply": "Resposta instantània de Messenger",
+    "features__slack_instant_reply": "Resposta instantània de Slack",
+    "features__summarize_ask_pdf": "Resumir i preguntar PDF",
+    "features__summarize_ask_youTube_video": "Resumir i preguntar vídeo de YouTube",
+    "features__summarize_ask_email": "Resumir i preguntar correu electrònic",
+    "features__summarize_ask_any_webpage": "Resumir i preguntar qualsevol pàgina web"
   },
   "features__common": {
     "components__upload_button_drop_title": "Deixa-ho aquí"

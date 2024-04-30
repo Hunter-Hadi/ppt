@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Най-добро за елитни професионалисти",
     "plan_button__save_with_yearly_plan": "Спестете {{PRICE}} с годишен план",
     "plan_button__free_status__start_for_free": "Започнете безплатно",
-    "better_plan_display__everything_in_plan_plus": "Всичко в {{PLAN}} плюс:"
+    "better_plan_display__everything_in_plan_plus": "Всичко в {{PLAN}} плюс:",
+    "features__gmail_instant_reply": "Gmail мигновенен отговор",
+    "features__outlook_instant_reply": "Outlook мигновенен отговор",
+    "features__facebook_instant_reply": "Facebook мигновенен отговор",
+    "features__linkedin_instant_reply": "LinkedIn мигновенен отговор",
+    "features__xtwitter_instant_reply": "X/Twitter мигновенен отговор",
+    "features__YouTube_instant_reply": "YouTube мигновенен отговор",
+    "features__instagram_instant_reply": "Instagram мигновенен отговор",
+    "features__reddit_instant_reply": "Reddit мигновенен отговор",
+    "features__whatsapp_instant_reply": "WhatsApp мигновенен отговор",
+    "features__discord_instant_reply": "Discord мигновенен отговор",
+    "features__telegram_instant_reply": "Telegram мигновенен отговор",
+    "features__messenger_instant_reply": "Messenger мигновенен отговор",
+    "features__slack_instant_reply": "Slack мигновенен отговор",
+    "features__summarize_ask_pdf": "Резюмиране и питане за PDF",
+    "features__summarize_ask_youTube_video": "Резюмиране и питане за YouTube видео",
+    "features__summarize_ask_email": "Резюмиране и питане за имейл",
+    "features__summarize_ask_any_webpage": "Резюмиране и питане за всяка уеб страница"
   },
   "features__common": {
     "components__upload_button_drop_title": "Поставете тук"

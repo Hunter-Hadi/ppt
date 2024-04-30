@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Phù hợp nhất cho các chuyên gia hàng đầu",
     "plan_button__save_with_yearly_plan": "Tiết kiệm {{PRICE}} với gói hàng năm",
     "plan_button__free_status__start_for_free": "Bắt đầu miễn phí",
-    "better_plan_display__everything_in_plan_plus": "Tất cả trong {{PLAN}} cộng thêm:"
+    "better_plan_display__everything_in_plan_plus": "Tất cả trong {{PLAN}} cộng thêm:",
+    "features__gmail_instant_reply": "Phản hồi tức thì trên Gmail",
+    "features__outlook_instant_reply": "Phản hồi tức thì trên Outlook",
+    "features__facebook_instant_reply": "Phản hồi tức thì trên Facebook",
+    "features__linkedin_instant_reply": "Phản hồi tức thì trên LinkedIn",
+    "features__xtwitter_instant_reply": "Phản hồi tức thì trên X/Twitter",
+    "features__YouTube_instant_reply": "Phản hồi tức thì trên YouTube",
+    "features__instagram_instant_reply": "Phản hồi tức thì trên Instagram",
+    "features__reddit_instant_reply": "Phản hồi tức thì trên Reddit",
+    "features__whatsapp_instant_reply": "Phản hồi tức thì trên WhatsApp",
+    "features__discord_instant_reply": "Phản hồi tức thì trên Discord",
+    "features__telegram_instant_reply": "Phản hồi tức thì trên Telegram",
+    "features__messenger_instant_reply": "Phản hồi tức thì trên Messenger",
+    "features__slack_instant_reply": "Phản hồi tức thì trên Slack",
+    "features__summarize_ask_pdf": "Tóm tắt & hỏi về PDF",
+    "features__summarize_ask_youTube_video": "Tóm tắt & hỏi về video YouTube",
+    "features__summarize_ask_email": "Tóm tắt & hỏi về email",
+    "features__summarize_ask_any_webpage": "Tóm tắt & hỏi về bất kỳ trang web nào"
   },
   "features__common": {
     "components__upload_button_drop_title": "Thả vào đây"

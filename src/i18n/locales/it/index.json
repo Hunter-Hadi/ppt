@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Il migliore per i professionisti di élite",
     "plan_button__save_with_yearly_plan": "Risparmia {{PRICE}} con il piano annuale",
     "plan_button__free_status__start_for_free": "Inizia gratuitamente",
-    "better_plan_display__everything_in_plan_plus": "Tutto in {{PLAN}} più:"
+    "better_plan_display__everything_in_plan_plus": "Tutto in {{PLAN}} più:",
+    "features__gmail_instant_reply": "Risposta istantanea Gmail",
+    "features__outlook_instant_reply": "Risposta istantanea Outlook",
+    "features__facebook_instant_reply": "Risposta istantanea Facebook",
+    "features__linkedin_instant_reply": "Risposta istantanea LinkedIn",
+    "features__xtwitter_instant_reply": "Risposta istantanea X/Twitter",
+    "features__YouTube_instant_reply": "Risposta istantanea YouTube",
+    "features__instagram_instant_reply": "Risposta istantanea Instagram",
+    "features__reddit_instant_reply": "Risposta istantanea Reddit",
+    "features__whatsapp_instant_reply": "Risposta istantanea WhatsApp",
+    "features__discord_instant_reply": "Risposta istantanea Discord",
+    "features__telegram_instant_reply": "Risposta istantanea Telegram",
+    "features__messenger_instant_reply": "Risposta istantanea Messenger",
+    "features__slack_instant_reply": "Risposta istantanea Slack",
+    "features__summarize_ask_pdf": "Sintetizza e chiedi PDF",
+    "features__summarize_ask_youTube_video": "Sintetizza e chiedi video YouTube",
+    "features__summarize_ask_email": "Sintetizza e chiedi email",
+    "features__summarize_ask_any_webpage": "Sintetizza e chiedi qualsiasi pagina web"
   },
   "features__common": {
     "components__upload_button_drop_title": "Rilascia qui"

@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Лучший для элитных профессионалов",
     "plan_button__save_with_yearly_plan": "Сэкономьте {{PRICE}} с годовым планом",
     "plan_button__free_status__start_for_free": "Начать бесплатно",
-    "better_plan_display__everything_in_plan_plus": "Все в {{PLAN}}, а также:"
+    "better_plan_display__everything_in_plan_plus": "Все в {{PLAN}}, а также:",
+    "features__gmail_instant_reply": "Мгновенный ответ Gmail",
+    "features__outlook_instant_reply": "Мгновенный ответ Outlook",
+    "features__facebook_instant_reply": "Мгновенный ответ Facebook",
+    "features__linkedin_instant_reply": "Мгновенный ответ LinkedIn",
+    "features__xtwitter_instant_reply": "Мгновенный ответ X/Twitter",
+    "features__YouTube_instant_reply": "Мгновенный ответ YouTube",
+    "features__instagram_instant_reply": "Мгновенный ответ Instagram",
+    "features__reddit_instant_reply": "Мгновенный ответ Reddit",
+    "features__whatsapp_instant_reply": "Мгновенный ответ WhatsApp",
+    "features__discord_instant_reply": "Мгновенный ответ Discord",
+    "features__telegram_instant_reply": "Мгновенный ответ Telegram",
+    "features__messenger_instant_reply": "Мгновенный ответ Messenger",
+    "features__slack_instant_reply": "Мгновенный ответ Slack",
+    "features__summarize_ask_pdf": "Суммировать и задать вопрос по PDF",
+    "features__summarize_ask_youTube_video": "Суммировать и задать вопрос по видео на YouTube",
+    "features__summarize_ask_email": "Суммировать и задать вопрос по электронной почте",
+    "features__summarize_ask_any_webpage": "Суммировать и задать вопрос по любой веб-странице"
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетащите сюда"

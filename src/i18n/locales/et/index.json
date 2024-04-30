@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Parim eliitprofessionaalidele",
     "plan_button__save_with_yearly_plan": "Säästa {{PRICE}} aastaplaaniga",
     "plan_button__free_status__start_for_free": "Alusta tasuta",
-    "better_plan_display__everything_in_plan_plus": "Kõik {{PLAN}} pluss:"
+    "better_plan_display__everything_in_plan_plus": "Kõik {{PLAN}} pluss:",
+    "features__gmail_instant_reply": "Gmaili kiire vastus",
+    "features__outlook_instant_reply": "Outlooki kiire vastus",
+    "features__facebook_instant_reply": "Facebooki kiire vastus",
+    "features__linkedin_instant_reply": "LinkedIni kiire vastus",
+    "features__xtwitter_instant_reply": "X/Twitteri kiire vastus",
+    "features__YouTube_instant_reply": "YouTube'i kiire vastus",
+    "features__instagram_instant_reply": "Instagrami kiire vastus",
+    "features__reddit_instant_reply": "Redditi kiire vastus",
+    "features__whatsapp_instant_reply": "WhatsAppi kiire vastus",
+    "features__discord_instant_reply": "Discordi kiire vastus",
+    "features__telegram_instant_reply": "Telegrami kiire vastus",
+    "features__messenger_instant_reply": "Messengeri kiire vastus",
+    "features__slack_instant_reply": "Slacki kiire vastus",
+    "features__summarize_ask_pdf": "Kokkuvõtte tegemine ja PDF-i küsimine",
+    "features__summarize_ask_youTube_video": "Kokkuvõtte tegemine ja YouTube'i video küsimine",
+    "features__summarize_ask_email": "Kokkuvõtte tegemine ja e-posti küsimine",
+    "features__summarize_ask_any_webpage": "Kokkuvõtte tegemine ja küsimine mis tahes veebilehelt"
   },
   "features__common": {
     "components__upload_button_drop_title": "Aseta siia"

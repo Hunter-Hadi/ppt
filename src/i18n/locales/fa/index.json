@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "بهترین برای حرفه‌ایان برجسته",
     "plan_button__save_with_yearly_plan": "با طرح سالیانه {{PRICE}} صرفه‌جویی کنید",
     "plan_button__free_status__start_for_free": "شروع رایگان",
-    "better_plan_display__everything_in_plan_plus": "همه چیز در {{PLAN}} به علاوه:"
+    "better_plan_display__everything_in_plan_plus": "همه چیز در {{PLAN}} به علاوه:",
+    "features__gmail_instant_reply": "پاسخ فوری Gmail",
+    "features__outlook_instant_reply": "پاسخ فوری Outlook",
+    "features__facebook_instant_reply": "پاسخ فوری Facebook",
+    "features__linkedin_instant_reply": "پاسخ فوری LinkedIn",
+    "features__xtwitter_instant_reply": "پاسخ فوری X/Twitter",
+    "features__YouTube_instant_reply": "پاسخ فوری YouTube",
+    "features__instagram_instant_reply": "پاسخ فوری Instagram",
+    "features__reddit_instant_reply": "پاسخ فوری Reddit",
+    "features__whatsapp_instant_reply": "پاسخ فوری WhatsApp",
+    "features__discord_instant_reply": "پاسخ فوری Discord",
+    "features__telegram_instant_reply": "پاسخ فوری Telegram",
+    "features__messenger_instant_reply": "پاسخ فوری Messenger",
+    "features__slack_instant_reply": "پاسخ فوری Slack",
+    "features__summarize_ask_pdf": "خلاصه کردن و پرسیدن PDF",
+    "features__summarize_ask_youTube_video": "خلاصه کردن و پرسیدن ویدیوی YouTube",
+    "features__summarize_ask_email": "خلاصه کردن و پرسیدن ایمیل",
+    "features__summarize_ask_any_webpage": "خلاصه کردن و پرسیدن هر صفحه وب"
   },
   "features__common": {
     "components__upload_button_drop_title": "اینجا را رها کنید"

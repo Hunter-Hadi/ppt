@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "এলিট পেশাদারদের জন্য সেরা",
     "plan_button__save_with_yearly_plan": "{{PRICE}} বছরের পরিকল্পনায় সংরক্ষণ করুন",
     "plan_button__free_status__start_for_free": "বিনামূল্যে শুরু করুন",
-    "better_plan_display__everything_in_plan_plus": "প্ল্যানে সবকিছুই যেমনটি {{PLAN}} এর মধ্যে:"
+    "better_plan_display__everything_in_plan_plus": "প্ল্যানে সবকিছুই যেমনটি {{PLAN}} এর মধ্যে:",
+    "features__gmail_instant_reply": "জিমেইল তাৎক্ষণিক উত্তর",
+    "features__outlook_instant_reply": "আউটলুক তাৎক্ষণিক উত্তর",
+    "features__facebook_instant_reply": "ফেসবুক তাৎক্ষণিক উত্তর",
+    "features__linkedin_instant_reply": "লিংকডইন তাৎক্ষণিক উত্তর",
+    "features__xtwitter_instant_reply": "এক্স/টুইটার তাৎক্ষণিক উত্তর",
+    "features__YouTube_instant_reply": "ইউটিউব তাৎক্ষণিক উত্তর",
+    "features__instagram_instant_reply": "ইনস্টাগ্রাম তাৎক্ষণিক উত্তর",
+    "features__reddit_instant_reply": "রেডিট তাৎক্ষণিক উত্তর",
+    "features__whatsapp_instant_reply": "হোয়াটসঅ্যাপ তাৎক্ষণিক উত্তর",
+    "features__discord_instant_reply": "ডিসকর্ড তাৎক্ষণিক উত্তর",
+    "features__telegram_instant_reply": "টেলিগ্রাম তাৎক্ষণিক উত্তর",
+    "features__messenger_instant_reply": "মেসেঞ্জার তাৎক্ষণিক উত্তর",
+    "features__slack_instant_reply": "স্ল্যাক তাৎক্ষণিক উত্তর",
+    "features__summarize_ask_pdf": "সংক্ষিপ্ত করুন এবং পিডিএফ জিজ্ঞাসা করুন",
+    "features__summarize_ask_youTube_video": "সংক্ষিপ্ত করুন এবং ইউটিউব ভিডিও জিজ্ঞাসা করুন",
+    "features__summarize_ask_email": "সংক্ষিপ্ত করুন এবং ইমেল জিজ্ঞাসা করুন",
+    "features__summarize_ask_any_webpage": "সংক্ষিপ্ত করুন এবং যে কোন ওয়েবপেজ জিজ্ঞাসা করুন"
   },
   "features__common": {
     "components__upload_button_drop_title": "এখানে পরিবর্তন করুন"

@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Najlepšie pre elitných profesionálov",
     "plan_button__save_with_yearly_plan": "Ušetriť {{PRICE}} s ročným plánom",
     "plan_button__free_status__start_for_free": "Začať zadarmo",
-    "better_plan_display__everything_in_plan_plus": "Všetko v {{PLAN}} a navyše:"
+    "better_plan_display__everything_in_plan_plus": "Všetko v {{PLAN}} a navyše:",
+    "features__gmail_instant_reply": "Odpoveď v Gmailu okamžite",
+    "features__outlook_instant_reply": "Odpoveď v Outlooku okamžite",
+    "features__facebook_instant_reply": "Odpoveď na Facebooku okamžite",
+    "features__linkedin_instant_reply": "Odpoveď na LinkedIne okamžite",
+    "features__xtwitter_instant_reply": "Odpoveď na X/Twitteri okamžite",
+    "features__YouTube_instant_reply": "Odpoveď na YouTube okamžite",
+    "features__instagram_instant_reply": "Odpoveď na Instagram okamžite",
+    "features__reddit_instant_reply": "Odpoveď na Reddite okamžite",
+    "features__whatsapp_instant_reply": "Odpoveď na WhatsApp okamžite",
+    "features__discord_instant_reply": "Odpoveď na Discord okamžite",
+    "features__telegram_instant_reply": "Odpoveď na Telegram okamžite",
+    "features__messenger_instant_reply": "Odpoveď na Messenger okamžite",
+    "features__slack_instant_reply": "Odpoveď na Slack okamžite",
+    "features__summarize_ask_pdf": "Zhrňte a opýtajte sa PDF",
+    "features__summarize_ask_youTube_video": "Zhrňte a opýtajte sa videa na YouTube",
+    "features__summarize_ask_email": "Zhrňte a opýtajte sa e-mailu",
+    "features__summarize_ask_any_webpage": "Zhrňte a opýtajte sa ľubovoľnej webovej stránky"
   },
   "features__common": {
     "components__upload_button_drop_title": "Pretiahnite sem"

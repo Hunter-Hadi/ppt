@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Elit profesyoneller için en iyisi",
     "plan_button__save_with_yearly_plan": "Yıllık planla {{PRICE}} tasarruf edin",
     "plan_button__free_status__start_for_free": "Ücretsiz başlayın",
-    "better_plan_display__everything_in_plan_plus": "{{PLAN}} dahil her şey artı:"
+    "better_plan_display__everything_in_plan_plus": "{{PLAN}} dahil her şey artı:",
+    "features__gmail_instant_reply": "Gmail anında yanıt",
+    "features__outlook_instant_reply": "Outlook anında yanıt",
+    "features__facebook_instant_reply": "Facebook anında yanıt",
+    "features__linkedin_instant_reply": "LinkedIn anında yanıt",
+    "features__xtwitter_instant_reply": "X/Twitter anında yanıt",
+    "features__YouTube_instant_reply": "YouTube anında yanıt",
+    "features__instagram_instant_reply": "Instagram anında yanıt",
+    "features__reddit_instant_reply": "Reddit anında yanıt",
+    "features__whatsapp_instant_reply": "WhatsApp anında yanıt",
+    "features__discord_instant_reply": "Discord anında yanıt",
+    "features__telegram_instant_reply": "Telegram anında yanıt",
+    "features__messenger_instant_reply": "Messenger anında yanıt",
+    "features__slack_instant_reply": "Slack anında yanıt",
+    "features__summarize_ask_pdf": "Özetle ve PDF olarak sor",
+    "features__summarize_ask_youTube_video": "Özetle ve YouTube videosu olarak sor",
+    "features__summarize_ask_email": "Özetle ve e-posta olarak sor",
+    "features__summarize_ask_any_webpage": "Özetle ve herhangi bir web sayfası olarak sor"
   },
   "features__common": {
     "components__upload_button_drop_title": "Buraya bırakın"

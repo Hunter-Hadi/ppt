@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "정예 전문가에게 적합",
     "plan_button__save_with_yearly_plan": "연간 요금제로 {{PRICE}} 절약",
     "plan_button__free_status__start_for_free": "무료로 시작",
-    "better_plan_display__everything_in_plan_plus": "모든 {{PLAN}} 기능 포함:"
+    "better_plan_display__everything_in_plan_plus": "모든 {{PLAN}} 기능 포함:",
+    "features__gmail_instant_reply": "Gmail 즉시 답장",
+    "features__outlook_instant_reply": "Outlook 즉시 답장",
+    "features__facebook_instant_reply": "Facebook 즉시 답장",
+    "features__linkedin_instant_reply": "LinkedIn 즉시 답장",
+    "features__xtwitter_instant_reply": "X/Twitter 즉시 답장",
+    "features__YouTube_instant_reply": "YouTube 즉시 답장",
+    "features__instagram_instant_reply": "Instagram 즉시 답장",
+    "features__reddit_instant_reply": "Reddit 즉시 답장",
+    "features__whatsapp_instant_reply": "WhatsApp 즉시 답장",
+    "features__discord_instant_reply": "Discord 즉시 답장",
+    "features__telegram_instant_reply": "Telegram 즉시 답장",
+    "features__messenger_instant_reply": "Messenger 즉시 답장",
+    "features__slack_instant_reply": "Slack 즉시 답장",
+    "features__summarize_ask_pdf": "PDF 요약 및 질문하기",
+    "features__summarize_ask_youTube_video": "YouTube 동영상 요약 및 질문하기",
+    "features__summarize_ask_email": "이메일 요약 및 질문하기",
+    "features__summarize_ask_any_webpage": "웹페이지 요약 및 질문하기"
   },
   "features__common": {
     "components__upload_button_drop_title": "여기에 놓으세요"

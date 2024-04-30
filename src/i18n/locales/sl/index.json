@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Najboljše za vrhunske strokovnjake",
     "plan_button__save_with_yearly_plan": "Prihranite {{PRICE}} z letnim načrtom",
     "plan_button__free_status__start_for_free": "Začnite brezplačno",
-    "better_plan_display__everything_in_plan_plus": "Vse v {{PLAN}} in še:"
+    "better_plan_display__everything_in_plan_plus": "Vse v {{PLAN}} in še:",
+    "features__gmail_instant_reply": "Gmail takojšen odgovor",
+    "features__outlook_instant_reply": "Outlook takojšen odgovor",
+    "features__facebook_instant_reply": "Facebook takojšen odgovor",
+    "features__linkedin_instant_reply": "LinkedIn takojšen odgovor",
+    "features__xtwitter_instant_reply": "X/Twitter takojšen odgovor",
+    "features__YouTube_instant_reply": "YouTube takojšen odgovor",
+    "features__instagram_instant_reply": "Instagram takojšen odgovor",
+    "features__reddit_instant_reply": "Reddit takojšen odgovor",
+    "features__whatsapp_instant_reply": "WhatsApp takojšen odgovor",
+    "features__discord_instant_reply": "Discord takojšen odgovor",
+    "features__telegram_instant_reply": "Telegram takojšen odgovor",
+    "features__messenger_instant_reply": "Messenger takojšen odgovor",
+    "features__slack_instant_reply": "Slack takojšen odgovor",
+    "features__summarize_ask_pdf": "Povzetek in vprašanje PDF",
+    "features__summarize_ask_youTube_video": "Povzetek in vprašanje YouTube videa",
+    "features__summarize_ask_email": "Povzetek in vprašanje e-pošte",
+    "features__summarize_ask_any_webpage": "Povzetek in vprašanje katerekoli spletne strani"
   },
   "features__common": {
     "components__upload_button_drop_title": "Spusti tukaj"

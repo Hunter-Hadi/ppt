@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "श्रेष्ठ व्यावसायिकों के लिए सर्वश्रेष्ठ",
     "plan_button__save_with_yearly_plan": "{{PRICE}} के साथ वार्षिक योजना में बचाएं",
     "plan_button__free_status__start_for_free": "मुफ्त शुरू करें",
-    "better_plan_display__everything_in_plan_plus": "प्लान में सब कुछ प्लस:"
+    "better_plan_display__everything_in_plan_plus": "प्लान में सब कुछ प्लस:",
+    "features__gmail_instant_reply": "जीमेल तत्क्षण उत्तर",
+    "features__outlook_instant_reply": "आउटलुक तत्क्षण उत्तर",
+    "features__facebook_instant_reply": "फेसबुक तत्क्षण उत्तर",
+    "features__linkedin_instant_reply": "लिंक्डइन तत्क्षण उत्तर",
+    "features__xtwitter_instant_reply": "एक्स/ट्विटर तत्क्षण उत्तर",
+    "features__YouTube_instant_reply": "यूट्यूब तत्क्षण उत्तर",
+    "features__instagram_instant_reply": "इंस्टाग्राम तत्क्षण उत्तर",
+    "features__reddit_instant_reply": "रेडिट तत्क्षण उत्तर",
+    "features__whatsapp_instant_reply": "व्हाट्सएप तत्क्षण उत्तर",
+    "features__discord_instant_reply": "डिस्कॉर्ड तत्क्षण उत्तर",
+    "features__telegram_instant_reply": "टेलीग्राम तत्क्षण उत्तर",
+    "features__messenger_instant_reply": "मैसेंजर तत्क्षण उत्तर",
+    "features__slack_instant_reply": "स्लैक तत्क्षण उत्तर",
+    "features__summarize_ask_pdf": "पीडीएफ संक्षेपित करें और पूछें",
+    "features__summarize_ask_youTube_video": "यूट्यूब वीडियो संक्षेपित करें और पूछें",
+    "features__summarize_ask_email": "ईमेल संक्षेपित करें और पूछें",
+    "features__summarize_ask_any_webpage": "किसी भी वेबपेज को संक्षेपित करें और पूछें"
   },
   "features__common": {
     "components__upload_button_drop_title": "यहाँ छोड़ें"

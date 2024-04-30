@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Legjobb elit szakembereknek",
     "plan_button__save_with_yearly_plan": "Mentés {{PRICE}} éves tervvel",
     "plan_button__free_status__start_for_free": "Ingyenes kezdés",
-    "better_plan_display__everything_in_plan_plus": "Minden, ami a {{PLAN}}-ban van, plusz:"
+    "better_plan_display__everything_in_plan_plus": "Minden, ami a {{PLAN}}-ban van, plusz:",
+    "features__gmail_instant_reply": "Gmail azonnali válasz",
+    "features__outlook_instant_reply": "Outlook azonnali válasz",
+    "features__facebook_instant_reply": "Facebook azonnali válasz",
+    "features__linkedin_instant_reply": "LinkedIn azonnali válasz",
+    "features__xtwitter_instant_reply": "X/Twitter azonnali válasz",
+    "features__YouTube_instant_reply": "YouTube azonnali válasz",
+    "features__instagram_instant_reply": "Instagram azonnali válasz",
+    "features__reddit_instant_reply": "Reddit azonnali válasz",
+    "features__whatsapp_instant_reply": "WhatsApp azonnali válasz",
+    "features__discord_instant_reply": "Discord azonnali válasz",
+    "features__telegram_instant_reply": "Telegram azonnali válasz",
+    "features__messenger_instant_reply": "Messenger azonnali válasz",
+    "features__slack_instant_reply": "Slack azonnali válasz",
+    "features__summarize_ask_pdf": "Összefoglalás és PDF kérdezés",
+    "features__summarize_ask_youTube_video": "Összefoglalás és YouTube videó kérdezés",
+    "features__summarize_ask_email": "Összefoglalás és e-mail kérdezés",
+    "features__summarize_ask_any_webpage": "Összefoglalás és bármely weboldal kérdezés"
   },
   "features__common": {
     "components__upload_button_drop_title": "Húzd ide"

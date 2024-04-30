@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Idéal pour les professionnels d'élite",
     "plan_button__save_with_yearly_plan": "Économisez {{PRICE}} avec le plan annuel",
     "plan_button__free_status__start_for_free": "Commencer gratuitement",
-    "better_plan_display__everything_in_plan_plus": "Tout dans {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Tout dans {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Réponse instantanée Gmail",
+    "features__outlook_instant_reply": "Réponse instantanée Outlook",
+    "features__facebook_instant_reply": "Réponse instantanée Facebook",
+    "features__linkedin_instant_reply": "Réponse instantanée LinkedIn",
+    "features__xtwitter_instant_reply": "Réponse instantanée X/Twitter",
+    "features__YouTube_instant_reply": "Réponse instantanée YouTube",
+    "features__instagram_instant_reply": "Réponse instantanée Instagram",
+    "features__reddit_instant_reply": "Réponse instantanée Reddit",
+    "features__whatsapp_instant_reply": "Réponse instantanée WhatsApp",
+    "features__discord_instant_reply": "Réponse instantanée Discord",
+    "features__telegram_instant_reply": "Réponse instantanée Telegram",
+    "features__messenger_instant_reply": "Réponse instantanée Messenger",
+    "features__slack_instant_reply": "Réponse instantanée Slack",
+    "features__summarize_ask_pdf": "Résumer et demander un PDF",
+    "features__summarize_ask_youTube_video": "Résumer et demander une vidéo YouTube",
+    "features__summarize_ask_email": "Résumer et demander un e-mail",
+    "features__summarize_ask_any_webpage": "Résumer et demander n'importe quelle page web"
   },
   "features__common": {
     "components__upload_button_drop_title": "Déposez ici"

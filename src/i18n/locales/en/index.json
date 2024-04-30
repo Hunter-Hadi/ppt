@@ -1050,7 +1050,6 @@
     "more_over_section__description__part2": "From writing assistance and webpage summarization to ChatPDF and AI painting, MaxAI.me empowers you to read, write, and create with the help of the most advanced AI models, including ChatGPT, Claude, and Gemini. Upgrade your browsing experience and unlock your productivity potential with MaxAI.me today!"
   },
   "pricing": {
-
     "better_plan_display__everything_in_plan_plus": "Everything in {{PLAN}} plus:",
     "better_plan_display__basic__sub_title": "Core features:",
 
@@ -1111,6 +1110,24 @@
     "features__category__research_features": "Research features",
     "features__category__webchatgpt_features": "WebChatGPT features",
     "features__tooltips__play_video": "Play video",
+
+    "features__gmail_instant_reply": "Gmail instant reply",
+    "features__outlook_instant_reply": "Outlook instant reply",
+    "features__facebook_instant_reply": "Facebook instant reply",
+    "features__linkedin_instant_reply": "LinkedIn instant reply",
+    "features__xtwitter_instant_reply": "X/Twitter instant reply",
+    "features__YouTube_instant_reply": "YouTube instant reply",
+    "features__instagram_instant_reply": "Instagram instant reply",
+    "features__reddit_instant_reply": "Reddit instant reply",
+    "features__whatsapp_instant_reply": "WhatsApp instant reply",
+    "features__discord_instant_reply": "Discord instant reply",
+    "features__telegram_instant_reply": "Telegram instant reply",
+    "features__messenger_instant_reply": "Messenger instant reply",
+    "features__slack_instant_reply": "Slack instant reply",
+    "features__summarize_ask_pdf": "Summarize & ask PDF",
+    "features__summarize_ask_youTube_video": "Summarize & ask YouTube video",
+    "features__summarize_ask_email": "Summarize & ask email",
+    "features__summarize_ask_any_webpage": "Summarize & ask any webpage",
 
     "payment_info__pay_by_yearly": "Pay {{PRICE}} / year",
     "payment_info__per_year": "per year",

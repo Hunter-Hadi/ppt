@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "الأفضل للمحترفين المتميزين",
     "plan_button__save_with_yearly_plan": "وفّر {{PRICE}} مع خطة سنوية",
     "plan_button__free_status__start_for_free": "ابدأ مجاناً",
-    "better_plan_display__everything_in_plan_plus": "كل شيء في {{PLAN}} بالإضافة إلى:"
+    "better_plan_display__everything_in_plan_plus": "كل شيء في {{PLAN}} بالإضافة إلى:",
+    "features__gmail_instant_reply": "الرد الفوري على Gmail",
+    "features__outlook_instant_reply": "الرد الفوري على Outlook",
+    "features__facebook_instant_reply": "الرد الفوري على Facebook",
+    "features__linkedin_instant_reply": "الرد الفوري على LinkedIn",
+    "features__xtwitter_instant_reply": "الرد الفوري على X/Twitter",
+    "features__YouTube_instant_reply": "الرد الفوري على YouTube",
+    "features__instagram_instant_reply": "الرد الفوري على Instagram",
+    "features__reddit_instant_reply": "الرد الفوري على Reddit",
+    "features__whatsapp_instant_reply": "الرد الفوري على WhatsApp",
+    "features__discord_instant_reply": "الرد الفوري على Discord",
+    "features__telegram_instant_reply": "الرد الفوري على Telegram",
+    "features__messenger_instant_reply": "الرد الفوري على Messenger",
+    "features__slack_instant_reply": "الرد الفوري على Slack",
+    "features__summarize_ask_pdf": "تلخيص وطلب ملف PDF",
+    "features__summarize_ask_youTube_video": "تلخيص وطلب فيديو YouTube",
+    "features__summarize_ask_email": "تلخيص وطلب بريد إلكتروني",
+    "features__summarize_ask_any_webpage": "تلخيص وطلب أي صفحة ويب"
   },
   "features__common": {
     "components__upload_button_drop_title": "اسحب هنا"

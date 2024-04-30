@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "适合顶级专业人士",
     "plan_button__save_with_yearly_plan": "使用年度计划节省{{PRICE}}",
     "plan_button__free_status__start_for_free": "免费开始",
-    "better_plan_display__everything_in_plan_plus": "{{PLAN}}中的所有内容加上："
+    "better_plan_display__everything_in_plan_plus": "{{PLAN}}中的所有内容加上：",
+    "features__gmail_instant_reply": "Gmail即时回复",
+    "features__outlook_instant_reply": "Outlook即时回复",
+    "features__facebook_instant_reply": "Facebook即时回复",
+    "features__linkedin_instant_reply": "LinkedIn即时回复",
+    "features__xtwitter_instant_reply": "X/Twitter即时回复",
+    "features__YouTube_instant_reply": "YouTube即时回复",
+    "features__instagram_instant_reply": "Instagram即时回复",
+    "features__reddit_instant_reply": "Reddit即时回复",
+    "features__whatsapp_instant_reply": "WhatsApp即时回复",
+    "features__discord_instant_reply": "Discord即时回复",
+    "features__telegram_instant_reply": "Telegram即时回复",
+    "features__messenger_instant_reply": "Messenger即时回复",
+    "features__slack_instant_reply": "Slack即时回复",
+    "features__summarize_ask_pdf": "摘要和询问PDF",
+    "features__summarize_ask_youTube_video": "摘要和询问YouTube视频",
+    "features__summarize_ask_email": "摘要和询问电子邮件",
+    "features__summarize_ask_any_webpage": "摘要和询问任何网页"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放到这里"

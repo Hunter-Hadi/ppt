@@ -966,7 +966,24 @@
     "payment_info__elite_desc": "Найкраще для елітних професіоналів",
     "plan_button__save_with_yearly_plan": "Зекономте {{PRICE}} з щорічним планом",
     "plan_button__free_status__start_for_free": "Почати безкоштовно",
-    "better_plan_display__everything_in_plan_plus": "Все в {{PLAN}}, а також:"
+    "better_plan_display__everything_in_plan_plus": "Все в {{PLAN}}, а також:",
+    "features__gmail_instant_reply": "Миттєва відповідь Gmail",
+    "features__outlook_instant_reply": "Миттєва відповідь Outlook",
+    "features__facebook_instant_reply": "Миттєва відповідь Facebook",
+    "features__linkedin_instant_reply": "Миттєва відповідь LinkedIn",
+    "features__xtwitter_instant_reply": "Миттєва відповідь X/Twitter",
+    "features__YouTube_instant_reply": "Миттєва відповідь YouTube",
+    "features__instagram_instant_reply": "Миттєва відповідь Instagram",
+    "features__reddit_instant_reply": "Миттєва відповідь Reddit",
+    "features__whatsapp_instant_reply": "Миттєва відповідь WhatsApp",
+    "features__discord_instant_reply": "Миттєва відповідь Discord",
+    "features__telegram_instant_reply": "Миттєва відповідь Telegram",
+    "features__messenger_instant_reply": "Миттєва відповідь Messenger",
+    "features__slack_instant_reply": "Миттєва відповідь Slack",
+    "features__summarize_ask_pdf": "Узагальнити та запитати PDF",
+    "features__summarize_ask_youTube_video": "Узагальнити та запитати відео на YouTube",
+    "features__summarize_ask_email": "Узагальнити та запитати електронного листа",
+    "features__summarize_ask_any_webpage": "Узагальнити та запитати будь-яку веб-сторінку"
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетягніть сюди"
