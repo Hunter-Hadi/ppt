@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Öppna din PDF i PDF Signer.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Rita eller ladda upp din signatur.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Justera storlek och position för signaturen vid behov.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klicka för att ladda ner din signerade PDF nu, allt är klart och säkert."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klicka för att ladda ner din signerade PDF nu, allt är klart och säkert.",
+    "team_plan__title__description1": "Ge ditt team de mest avancerade AI-produktivitetsverktygen.",
+    "team_plan__title__description2": "Vår teamplan är utformad för grupper med tre eller fler medlemmar."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",

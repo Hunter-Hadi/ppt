@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "افتح ملف PDF الخاص بك في أداة التوقيع على ملف PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "قم برسم توقيعك أو تحميله.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "ضبط حجم وموضع التوقيع حسب الحاجة.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "انقر لتنزيل ملف PDF الموقع الخاص بك الآن، كل شيء جاهز وآمن."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "انقر لتنزيل ملف PDF الموقع الخاص بك الآن، كل شيء جاهز وآمن.",
+    "team_plan__title__description1": "امنح فريقك أدوات إنتاجية متقدمة بالذكاء الاصطناعي.",
+    "team_plan__title__description2": "تم تصميم خطة الفريق للمجموعات المكونة من ثلاثة أعضاء أو أكثر."
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",

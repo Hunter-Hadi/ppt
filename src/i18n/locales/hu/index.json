@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Nyisd meg a PDF-et a PDF Aláíróban.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Rajzold vagy töltsd fel az aláírásodat.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Állítsd be az aláírás méretét és pozícióját szükség szerint.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kattintson a letöltéshez az aláírt PDF-re, minden készen áll és biztonságban van."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kattintson a letöltéshez az aláírt PDF-re, minden készen áll és biztonságban van.",
+    "team_plan__title__description1": "Adja csapatának a legfejlettebb AI termelékenységi eszközöket.",
+    "team_plan__title__description2": "Csapatunk terve három vagy több tagú csoportok számára készült."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",

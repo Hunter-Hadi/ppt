@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Mở tài liệu PDF của bạn trong Trình ký PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Vẽ hoặc tải lên chữ ký của bạn.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Điều chỉnh kích thước và vị trí của chữ ký theo nhu cầu.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Nhấp để tải xuống PDF đã ký của bạn ngay bây giờ, mọi thứ đã sẵn sàng và an toàn."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Nhấp để tải xuống PDF đã ký của bạn ngay bây giờ, mọi thứ đã sẵn sàng và an toàn.",
+    "team_plan__title__description1": "Cung cấp cho đội của bạn các công cụ năng suất AI tiên tiến nhất.",
+    "team_plan__title__description2": "Gói dịch vụ của chúng tôi dành cho nhóm từ ba thành viên trở lên."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",

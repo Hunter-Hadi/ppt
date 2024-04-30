@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Відкрийте свій PDF у PDF Signer.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Намалюйте або завантажте свій підпис.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Налаштуйте розмір та положення підпису за потребою.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Натисніть, щоб завантажити ваш підписаний PDF зараз, все готово і безпечно."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Натисніть, щоб завантажити ваш підписаний PDF зараз, все готово і безпечно.",
+    "team_plan__title__description1": "Надайте своїй команді найпродуктивніші інструменти штучного інтелекту.",
+    "team_plan__title__description2": "Наш план для команд розрахований на групи з трьох або більше учасників."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",

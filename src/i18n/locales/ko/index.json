@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF Signer에서 PDF를 열기",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "서명을 그리거나 업로드하기",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "서명의 크기와 위치 조정",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "지금 서명된 PDF를 다운로드하려면 클릭하세요. 모든 것이 준비되어 안전합니다."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "지금 서명된 PDF를 다운로드하려면 클릭하세요. 모든 것이 준비되어 안전합니다.",
+    "team_plan__title__description1": "팀에 가장 고급 AI 생산성 도구를 제공하세요.",
+    "team_plan__title__description2": "저희 팀 플랜은 3명 이상의 그룹을 위해 설계되었습니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",

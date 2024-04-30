@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "पीडीएफ साइनर में अपना पीडीएफ खोलें।",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "अपना हस्ताक्षर ड्रा करें या अपलोड करें।",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "हस्ताक्षर का आकार और स्थान समायोजित करें।",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "अपने हस्ताक्षरित पीडीएफ को डाउनलोड करें, सब तैयार और सुरक्षित।"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "अपने हस्ताक्षरित पीडीएफ को डाउनलोड करें, सब तैयार और सुरक्षित।",
+    "team_plan__title__description1": "अपनी टीम को सबसे उन्नत AI उत्पादकता उपकरण प्रदान करें।",
+    "team_plan__title__description2": "हमारी टीम योजना तीन या उससे अधिक सदस्यों के समूहों के लिए डिज़ाइन की गई है।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

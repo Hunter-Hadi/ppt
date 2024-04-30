@@ -517,7 +517,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "在PDF签名工具中打开您的PDF。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "绘制或上传您的签名。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "根据需要调整签名的大小和位置。",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "点击立即下载您的签名PDF，一切已准备就绪且安全。"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "点击立即下载您的签名PDF，一切已准备就绪且安全。",
+    "team_plan__title__description1": "为您的团队提供最先进的人工智能生产力工具。",
+    "team_plan__title__description2": "我们的团队计划专为三人或更多成员的团体设计。"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

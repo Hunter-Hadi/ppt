@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Otwórz swoje PDF w Podpisie PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Narysuj lub przekaż swój podpis.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Dostosuj rozmiar i pozycję podpisu według potrzeb.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kliknij, aby teraz pobrać podpisany plik PDF, wszystko jest gotowe i bezpieczne."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kliknij, aby teraz pobrać podpisany plik PDF, wszystko jest gotowe i bezpieczne.",
+    "team_plan__title__description1": "Daj swojemu zespołowi najbardziej zaawansowane narzędzia do produktywności oparte na sztucznej inteligencji.",
+    "team_plan__title__description2": "Nasz plan dla zespołów jest przeznaczony dla grup składających się z trzech lub więcej członków."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",

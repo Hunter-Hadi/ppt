@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Deschide PDF-ul în Semnătorul PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Desenează sau încarcă semnătura ta.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajustează dimensiunea și poziția semnăturii după nevoie.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Faceți clic pentru a descărca acum PDF-ul semnat, totul este pregătit și în siguranță."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Faceți clic pentru a descărca acum PDF-ul semnat, totul este pregătit și în siguranță.",
+    "team_plan__title__description1": "Oferiți echipei dvs. cele mai avansate instrumente de productivitate AI.",
+    "team_plan__title__description2": "Planul nostru pentru echipe este conceput pentru grupuri de trei sau mai mulți membri."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",

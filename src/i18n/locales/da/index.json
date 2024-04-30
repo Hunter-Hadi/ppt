@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Åbn din PDF i PDF-underskriveren.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Tegn eller upload din underskrift.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Juster størrelse og position for underskriften efter behov.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Download din underskrevne PDF, alt er klart og sikkert."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Download din underskrevne PDF, alt er klart og sikkert.",
+    "team_plan__title__description1": "Giv dit team de mest avancerede AI-produktivitetsværktøjer.",
+    "team_plan__title__description2": "Vores teamplan er designet til grupper på tre eller flere medlemmer."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "เปิดไฟล์ PDF ของคุณใน PDF Signer",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "วาดหรืออัปโหลดลายเซ็นต์ของคุณ",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "ปรับขนาดและตำแหน่งของลายเซ็นต์ตามต้องการ",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "ดาวน์โหลดไฟล์ PDF ที่เซ็นต์แล้ว เพื่อให้พร้อมและปลอดภัย"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "ดาวน์โหลดไฟล์ PDF ที่เซ็นต์แล้ว เพื่อให้พร้อมและปลอดภัย",
+    "team_plan__title__description1": "ให้ทีมของคุณได้ใช้เครื่องมือการผลิตภาพประสิทธิภาพ AI ที่ทันสมัยที่สุด",
+    "team_plan__title__description2": "แผนของเราสำหรับทีมถูกออกแบบมาสำหรับกลุ่มที่มีสมาชิก 3 คนขึ้นไป"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",

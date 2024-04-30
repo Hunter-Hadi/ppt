@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Odpri PDF v podpisovalcu PDF-jev.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nariši ali naloži svoj podpis.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Prilagodi velikost in položaj podpisa po potrebi.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Prenesi podpisan PDF, vse je pripravljeno in varno."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Prenesi podpisan PDF, vse je pripravljeno in varno.",
+    "team_plan__title__description1": "Dajte svoji ekipi najnaprednejša orodja za produktivnost AI.",
+    "team_plan__title__description2": "Naš načrt za ekipo je zasnovan za skupine s tremi ali več člani."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",

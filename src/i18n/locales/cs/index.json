@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Otevřete své PDF v nástroji pro podepisování PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nakreslete nebo nahrajte svůj podpis.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Upravte velikost a pozici podpisu podle potřeby.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Stáhněte si podepsané PDF, hotovo a zabezpečeno."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Stáhněte si podepsané PDF, hotovo a zabezpečeno.",
+    "team_plan__title__description1": "Poskytněte svému týmu nejvyspělejší nástroje pro produktivitu AI.",
+    "team_plan__title__description2": "Náš týmový plán je navržen pro skupiny tří a více členů."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",

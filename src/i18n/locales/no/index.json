@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Åpne PDF-en din i PDF-signeringsverktøyet.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Tegn eller last opp signaturen din.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Juster størrelsen og posisjonen til signaturen etter behov.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klikk for å laste ned den signerte PDF-en din nå, alt er klart og trygt."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klikk for å laste ned den signerte PDF-en din nå, alt er klart og trygt.",
+    "team_plan__title__description1": "Gi teamet ditt de mest avanserte AI-produktivitetsverktøyene.",
+    "team_plan__title__description2": "Vår teamplan er designet for grupper med tre eller flere medlemmer."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",

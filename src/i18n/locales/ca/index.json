@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Obre el teu PDF al Signador de PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Dibuixa o carrega la teva firma.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajusta la mida i posició de la signatura segons sigui necessari.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Feu clic per descarregar el vostre PDF signat ara mateix, tot està llest i segur."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Feu clic per descarregar el vostre PDF signat ara mateix, tot està llest i segur.",
+    "team_plan__title__description1": "Proporcioneu al vostre equip les eines de productivitat d'IA més avançades.",
+    "team_plan__title__description2": "El nostre pla per a equips està dissenyat per a grups de tres o més membres."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",

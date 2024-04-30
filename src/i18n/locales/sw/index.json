@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Fungua PDF yako kwenye Mwandishi wa PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Chora au pakia saini yako.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Badilisha ukubwa na nafasi ya saini kama inavyohitajika.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Bonyeza kupakua PDF yako iliyosainiwa sasa, kila kitu kiko tayari na salama."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Bonyeza kupakua PDF yako iliyosainiwa sasa, kila kitu kiko tayari na salama.",
+    "team_plan__title__description1": "Wape timu yako zana za uzalishaji wa AI za hali ya juu kabisa.",
+    "team_plan__title__description2": "Mpango wetu wa timu umebuniwa kwa vikundi vya watatu au zaidi."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",

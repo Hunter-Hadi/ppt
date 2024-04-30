@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Otvorite svoj PDF u PDF Potpisniku.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nacrtajte ili otpremite svoj potpis.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Podesite veličinu i poziciju potpisa po potrebi.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kliknite da biste sada preuzeli svoj potpisani PDF, sve je spremno i sigurno."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kliknite da biste sada preuzeli svoj potpisani PDF, sve je spremno i sigurno.",
+    "team_plan__title__description1": "Dajte svom timu najnaprednije alate za produktivnost veštačke inteligencije.",
+    "team_plan__title__description2": "Naš plan za tim je dizajniran za grupe od tri ili više članova."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",

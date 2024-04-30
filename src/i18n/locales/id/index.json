@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Buka PDF Anda di Penandatangan PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Gambar atau unggah tanda tangan Anda.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Sesuaikan ukuran dan posisi tanda tangan sesuai kebutuhan.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Unduh PDF yang sudah ditandatangani, semua siap dan aman."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Unduh PDF yang sudah ditandatangani, semua siap dan aman.",
+    "team_plan__title__description1": "Berikan tim Anda alat produktivitas AI paling canggih.",
+    "team_plan__title__description2": "Rencana tim kami dirancang untuk kelompok dengan tiga anggota atau lebih."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

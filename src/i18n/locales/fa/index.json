@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF خود را در ابزار امضا PDF باز کنید.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "امضای خود را رسم کنید یا بارگذاری کنید.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "اندازه و موقعیت امضا را به عنوان نیازهای خود تنظیم کنید.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "برای دانلود PDF امضا شده خود کلیک کنید، همه چیز آماده و ایمن است."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "برای دانلود PDF امضا شده خود کلیک کنید، همه چیز آماده و ایمن است.",
+    "team_plan__title__description1": "به تیم خود ابزارهای پیشرفته تولیدی هوش مصنوعی بدهید.",
+    "team_plan__title__description2": "طرح تیم ما برای گروه‌های سه نفر و بیشتر طراحی شده است."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

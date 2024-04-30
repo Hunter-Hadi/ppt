@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Avaa PDF-tiedosto PDF-allekirjoittimessa.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Piirrä tai lataa allekirjoituksesi.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Säädä allekirjoituksen kokoa ja sijaintia tarpeen mukaan.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Napsauta ladataksesi allekirjoitetun PDF-tiedoston nyt, kaikki on valmiina ja turvallista."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Napsauta ladataksesi allekirjoitetun PDF-tiedoston nyt, kaikki on valmiina ja turvallista.",
+    "team_plan__title__description1": "Anna tiimillesi edistyneimmät tekoälytyökalut tuottavuuden parantamiseksi.",
+    "team_plan__title__description2": "Tiimisuunnitelmamme on suunniteltu kolmen tai useamman jäsenen ryhmille."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",

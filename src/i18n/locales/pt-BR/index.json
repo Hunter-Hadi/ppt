@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Abra seu PDF no Assinador de PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Desenhe ou faça upload da sua assinatura.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajuste o tamanho e a posição da assinatura conforme necessário.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Clique para baixar seu PDF assinado agora, tudo está pronto e seguro."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Clique para baixar seu PDF assinado agora, tudo está pronto e seguro.",
+    "team_plan__title__description1": "Dê à sua equipe as ferramentas de produtividade AI mais avançadas.",
+    "team_plan__title__description2": "Nosso plano de equipe é projetado para grupos de três ou mais membros."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts em 1 Clique",

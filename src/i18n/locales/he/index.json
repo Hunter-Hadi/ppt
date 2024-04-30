@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "פתח את ה-PDF שלך במחתמת PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "צייר או העלה את החתימה שלך.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "התאם את גודל החתימה ומיקומה כפי שנדרש.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "הורד את ה-PDF שחתמת, הכל מוכן ומאובטח."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "הורד את ה-PDF שחתמת, הכל מוכן ומאובטח.",
+    "team_plan__title__description1": "הענק לצוות שלך את הכלים המתקדמים ביותר ליעילות AI.",
+    "team_plan__title__description2": "תוכנית הצוות שלנו מיועדת לקבוצות של שלושה חברים או יותר."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

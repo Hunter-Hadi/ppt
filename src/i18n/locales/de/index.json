@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Öffnen Sie Ihr PDF im PDF-Unterzeichner.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Zeichnen oder laden Sie Ihre Unterschrift hoch.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Passen Sie Größe und Position der Unterschrift bei Bedarf an.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klicken Sie hier, um Ihr unterschriebenes PDF jetzt herunterzuladen. Alles ist bereit und sicher."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klicken Sie hier, um Ihr unterschriebenes PDF jetzt herunterzuladen. Alles ist bereit und sicher.",
+    "team_plan__title__description1": "Geben Sie Ihrem Team die fortschrittlichsten KI-Produktivitätstools.",
+    "team_plan__title__description2": "Unser Teamplan ist für Gruppen mit drei oder mehr Mitgliedern konzipiert."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",

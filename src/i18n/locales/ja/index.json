@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF SignerでPDFを開く。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "署名を描画またはアップロードする。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "署名のサイズと位置を調整します。",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "今すぐ署名済みのPDFをダウンロードしてください。すべてが準備され、安全です。"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "今すぐ署名済みのPDFをダウンロードしてください。すべてが準備され、安全です。",
+    "team_plan__title__description1": "チームに最も先進的なAI生産性ツールを提供します。",
+    "team_plan__title__description2": "当社のチームプランは3人以上のメンバー向けに設計されています。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",

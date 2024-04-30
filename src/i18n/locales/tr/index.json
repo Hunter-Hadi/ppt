@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF İmzalayıcı'da PDF'nizi açın.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "İmzanızı çizin veya yükleyin.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "İmzanın boyutunu ve konumunu gerektiği gibi ayarlayın.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "İmzalı PDF'inizi şimdi indirmek için tıklayın, her şey hazır ve güvende."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "İmzalı PDF'inizi şimdi indirmek için tıklayın, her şey hazır ve güvende.",
+    "team_plan__title__description1": "Takımınıza en gelişmiş yapay zeka üretkenlik araçlarını sunun.",
+    "team_plan__title__description2": "Takım planımız üç veya daha fazla üyeden oluşan gruplar için tasarlanmıştır."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",

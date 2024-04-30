@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Buka PDF anda dalam Pemeterai PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Lukis atau muat naik tandatangan anda.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Sesuaikan saiz dan kedudukan tandatangan mengikut keperluan.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klik untuk muat turun PDF yang telah ditandatangani anda sekarang, semuanya sudah siap dan selamat."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klik untuk muat turun PDF yang telah ditandatangani anda sekarang, semuanya sudah siap dan selamat.",
+    "team_plan__title__description1": "Berikan pasukan anda alat produktiviti AI yang paling canggih.",
+    "team_plan__title__description2": "Rancangan pasukan kami direka untuk kumpulan tiga orang atau lebih."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",

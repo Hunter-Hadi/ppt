@@ -531,7 +531,9 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Atidarykite savo PDF dokumentą PDF pasirašytoje.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nupieškite arba įkelkite savo parašą.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pritaikykite parašo dydį ir padėtį pagal poreikį.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Spustelėkite, norėdami dabar atsisiųsti pasirašytą PDF, viskas yra paruošta ir saugu."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Spustelėkite, norėdami dabar atsisiųsti pasirašytą PDF, viskas yra paruošta ir saugu.",
+    "team_plan__title__description1": "Suteikite savo komandai pažangiausius dirbtinio intelekto produktyvumo įrankius.",
+    "team_plan__title__description2": "Mūsų komandos planas skirtas grupėms, turinčioms tris ar daugiau narių."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
