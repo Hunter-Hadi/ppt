@@ -492,7 +492,9 @@
     "home_page__features_carousel__feature_prompts__description1": "高质量的AI提示库",
     "home_page__features_carousel__feature_prompts__description2": "创建和管理您自己的提示",
     "home_page__features_carousel__feature_prompts__description3": "重复使用您自己的提示",
-    "home_page__features_carousel__feature_prompts__description4": "自定义语气和写作风格"
+    "home_page__features_carousel__feature_prompts__description4": "自定义语气和写作风格",
+    "team_plan__title__description1": "为您的团队提供最先进的人工智能生产力工具。",
+    "team_plan__title__description2": "我们的团队计划专为三人或更多成员的团体设计。"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

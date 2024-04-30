@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Kvalitná knižnica AI návrhov",
     "home_page__features_carousel__feature_prompts__description2": "Vytvárajte a spravujte vlastné návrhy",
     "home_page__features_carousel__feature_prompts__description3": "Opakovane používajte svoje vlastné návrhy",
-    "home_page__features_carousel__feature_prompts__description4": "Vlastný tón a štýl písania"
+    "home_page__features_carousel__feature_prompts__description4": "Vlastný tón a štýl písania",
+    "team_plan__title__description1": "Poskytnite svojmu tímu najpokročilejšie nástroje na zvýšenie produktivity pomocou AI.",
+    "team_plan__title__description2": "Náš tímový plán je navrhnutý pre skupiny s tromi alebo viacerými členmi."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",

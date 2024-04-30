@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "고품질 AI 프롬프트 라이브러리",
     "home_page__features_carousel__feature_prompts__description2": "자체 프롬프트 생성 및 관리",
     "home_page__features_carousel__feature_prompts__description3": "자체 프롬프트 재사용",
-    "home_page__features_carousel__feature_prompts__description4": "사용자 정의 톤 및 작성 스타일"
+    "home_page__features_carousel__feature_prompts__description4": "사용자 정의 톤 및 작성 스타일",
+    "team_plan__title__description1": "팀에 가장 고급 AI 생산성 도구를 제공하세요.",
+    "team_plan__title__description2": "저희 팀 플랜은 3명 이상의 그룹을 위해 설계되었습니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",

@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Библиотека с AI подсказки от високо качество",
     "home_page__features_carousel__feature_prompts__description2": "Създавайте и управлявайте свои собствени подсказки",
     "home_page__features_carousel__feature_prompts__description3": "Повторно използвайте свои собствени подсказки",
-    "home_page__features_carousel__feature_prompts__description4": "Персонализиран тон и стил на писане"
+    "home_page__features_carousel__feature_prompts__description4": "Персонализиран тон и стил на писане",
+    "team_plan__title__description1": "Дайте на вашия екип най-развитите инструменти за продуктивност с изкуствен интелект.",
+    "team_plan__title__description2": "Нашата екипна планова е предназначена за групи от три или повече членове."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",

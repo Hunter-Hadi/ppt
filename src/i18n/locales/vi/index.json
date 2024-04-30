@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Thư viện gợi ý AI chất lượng cao",
     "home_page__features_carousel__feature_prompts__description2": "Tạo và quản lý gợi ý của riêng bạn",
     "home_page__features_carousel__feature_prompts__description3": "Tái sử dụng gợi ý của riêng bạn",
-    "home_page__features_carousel__feature_prompts__description4": "Phong cách viết và phong cách tùy chỉnh"
+    "home_page__features_carousel__feature_prompts__description4": "Phong cách viết và phong cách tùy chỉnh",
+    "team_plan__title__description1": "Cung cấp cho đội của bạn các công cụ năng suất AI tiên tiến nhất.",
+    "team_plan__title__description2": "Gói dịch vụ của chúng tôi dành cho nhóm từ ba thành viên trở lên."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",

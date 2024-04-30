@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Biblioteca de sugestões de IA de alta qualidade",
     "home_page__features_carousel__feature_prompts__description2": "Crie e gerencie suas próprias sugestões",
     "home_page__features_carousel__feature_prompts__description3": "Reutilize suas próprias sugestões",
-    "home_page__features_carousel__feature_prompts__description4": "Estilos de tom e escrita personalizados"
+    "home_page__features_carousel__feature_prompts__description4": "Estilos de tom e escrita personalizados",
+    "team_plan__title__description1": "Dê à sua equipe as ferramentas de produtividade AI mais avançadas.",
+    "team_plan__title__description2": "Nosso plano de equipe é projetado para grupos de três ou mais membros."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts em 1 Clique",

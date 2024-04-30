@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Hochwertige KI-Anregungen-Bibliothek",
     "home_page__features_carousel__feature_prompts__description2": "Erstellen und verwalten Sie Ihre eigenen Anregungen",
     "home_page__features_carousel__feature_prompts__description3": "Wiederverwenden Sie Ihre eigenen Anregungen",
-    "home_page__features_carousel__feature_prompts__description4": "Individueller Ton & Schreibstile"
+    "home_page__features_carousel__feature_prompts__description4": "Individueller Ton & Schreibstile",
+    "team_plan__title__description1": "Geben Sie Ihrem Team die fortschrittlichsten KI-Produktivitätstools.",
+    "team_plan__title__description2": "Unser Teamplan ist für Gruppen mit drei oder mehr Mitgliedern konzipiert."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klick-Vorlagen",

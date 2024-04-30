@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Bibliothèque de sugestions IA de haute qualité",
     "home_page__features_carousel__feature_prompts__description2": "Créez et gérez vos propres sugestions",
     "home_page__features_carousel__feature_prompts__description3": "Réutilisez vos propres sugestions",
-    "home_page__features_carousel__feature_prompts__description4": "Ton personnalisé et styles d'écriture"
+    "home_page__features_carousel__feature_prompts__description4": "Ton personnalisé et styles d'écriture",
+    "team_plan__title__description1": "Offrez à votre équipe les outils de productivité AI les plus avancés.",
+    "team_plan__title__description2": "Notre plan d'équipe est conçu pour les groupes de trois membres ou plus."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",

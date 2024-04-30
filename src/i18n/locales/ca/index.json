@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Biblioteca de suggeriments d'IA de alta qualitat",
     "home_page__features_carousel__feature_prompts__description2": "Crea i gestiona els teus propis suggeriments",
     "home_page__features_carousel__feature_prompts__description3": "Reutilitza els teus propis suggeriments",
-    "home_page__features_carousel__feature_prompts__description4": "Estil personalitzat i estils d'escriptura"
+    "home_page__features_carousel__feature_prompts__description4": "Estil personalitzat i estils d'escriptura",
+    "team_plan__title__description1": "Proporcioneu al vostre equip les eines de productivitat d'IA més avançades.",
+    "team_plan__title__description2": "El nostre pla per a equips està dissenyat per a grups de tres o més membres."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",

@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Bibliotecă de sugestii AI de înaltă calitate",
     "home_page__features_carousel__feature_prompts__description2": "Creează și gestionează propriile sugestii",
     "home_page__features_carousel__feature_prompts__description3": "Reutilizează propriile sugestii",
-    "home_page__features_carousel__feature_prompts__description4": "Stiluri personalizate de ton și scriere"
+    "home_page__features_carousel__feature_prompts__description4": "Stiluri personalizate de ton și scriere",
+    "team_plan__title__description1": "Oferiți echipei dvs. cele mai avansate instrumente de productivitate AI.",
+    "team_plan__title__description2": "Planul nostru pentru echipe este conceput pentru grupuri de trei sau mai mulți membri."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",

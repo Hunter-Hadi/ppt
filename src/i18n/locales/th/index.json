@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "คลัง AI prompts คุณภาพสูง",
     "home_page__features_carousel__feature_prompts__description2": "สร้างและจัดการ prompts ของคุณเอง",
     "home_page__features_carousel__feature_prompts__description3": "นำ prompts ของคุณมาใช้ซ้ำได้",
-    "home_page__features_carousel__feature_prompts__description4": "สร้างลักษณะและสไตล์การเขียนที่กำหนดเอง"
+    "home_page__features_carousel__feature_prompts__description4": "สร้างลักษณะและสไตล์การเขียนที่กำหนดเอง",
+    "team_plan__title__description1": "ให้ทีมของคุณได้ใช้เครื่องมือการผลิตภาพประสิทธิภาพ AI ที่ทันสมัยที่สุด",
+    "team_plan__title__description2": "แผนของเราสำหรับทีมถูกออกแบบมาสำหรับกลุ่มที่มีสมาชิก 3 คนขึ้นไป"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",

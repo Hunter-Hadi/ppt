@@ -8,6 +8,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import PlanFeaturesTableV3 from '@/features/pricing/components/PlanFeaturesTableV3';
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox';
 import PricingPlanCategoryBar from '@/features/pricing/components/PricingPlanCategoryBar';
+import TeamPlanTips from '@/features/pricing/components/TeamPlanTips';
 import PromotionBannerForElite from '@/features/promotion/components/promotion_banners/PromotionBannerForElite';
 
 const PricingPages = () => {
@@ -26,6 +27,7 @@ const PricingPages = () => {
       <AppDefaultSeoLayout title={t('seo:pricing__title')} />
       <PricingPlanCategoryBar />
       <PromotionBannerForElite />
+      <TeamPlanTips />
 
       <Stack
         maxWidth={1298}

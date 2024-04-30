@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "উচ্চ মানের এই প্রম্পট লাইব্রেরি",
     "home_page__features_carousel__feature_prompts__description2": "আপনার নিজের প্রম্পট তৈরি করুন এবং পরিচালনা করুন",
     "home_page__features_carousel__feature_prompts__description3": "আপনার নিজের প্রম্পট পুনরায় ব্যবহার করুন",
-    "home_page__features_carousel__feature_prompts__description4": "কাস্টম টোন এবং লেখা শৈলী"
+    "home_page__features_carousel__feature_prompts__description4": "কাস্টম টোন এবং লেখা শৈলী",
+    "team_plan__title__description1": "আপনার দলকে সর্বাধিক উন্নত এআই উৎপাদনশীলতা টুল দিন।",
+    "team_plan__title__description2": "আমাদের দল পরিকল্পনা তিন বা ততোধিক সদস্যদের জন্য ডিজাইন করা হয়েছে।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",

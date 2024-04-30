@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Բարձր որակի ԱԻ հուշերի գրադարան",
     "home_page__features_carousel__feature_prompts__description2": "Ստեղծեք և կառավարեք ձեր սեփական հուշերը",
     "home_page__features_carousel__feature_prompts__description3": "Վերագրեք ձեր սեփական հուշերը",
-    "home_page__features_carousel__feature_prompts__description4": "Անհատական թոն և գրանշանային ոճ"
+    "home_page__features_carousel__feature_prompts__description4": "Անհատական թոն և գրանշանային ոճ",
+    "team_plan__title__description1": "Կազմին տալիս է ձեր թիմը առաջադրանքների ամենանարժության AI գործիքները:",
+    "team_plan__title__description2": "Մեր թիմային պլանը նախատեսված է երեք կամ ավելի անդամների խմբերի համար:"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",

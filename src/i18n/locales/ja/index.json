@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "高品質なAIプロンプトライブラリ",
     "home_page__features_carousel__feature_prompts__description2": "独自のプロンプトを作成して管理します",
     "home_page__features_carousel__feature_prompts__description3": "独自のプロンプトを再利用します",
-    "home_page__features_carousel__feature_prompts__description4": "カスタムのトーンと文章スタイル"
+    "home_page__features_carousel__feature_prompts__description4": "カスタムのトーンと文章スタイル",
+    "team_plan__title__description1": "チームに最も先進的なAI生産性ツールを提供します。",
+    "team_plan__title__description2": "当社のチームプランは3人以上のメンバー向けに設計されています。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",

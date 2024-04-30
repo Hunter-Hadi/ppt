@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "کتابخانه ترغیب‌های با کیفیت بالا",
     "home_page__features_carousel__feature_prompts__description2": "ایجاد و مدیریت ترغیب‌های شخصی",
     "home_page__features_carousel__feature_prompts__description3": "استفاده مجدد از ترغیب‌های شخصی",
-    "home_page__features_carousel__feature_prompts__description4": "سبک نوشتاری و لحن سفارشی"
+    "home_page__features_carousel__feature_prompts__description4": "سبک نوشتاری و لحن سفارشی",
+    "team_plan__title__description1": "به تیم خود ابزارهای پیشرفته تولیدی هوش مصنوعی بدهید.",
+    "team_plan__title__description2": "طرح تیم ما برای گروه‌های سه نفر یا بیشتر طراحی شده است."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",

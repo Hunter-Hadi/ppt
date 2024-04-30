@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "高品質的 AI 提示庫",
     "home_page__features_carousel__feature_prompts__description2": "創建和管理自己的提示",
     "home_page__features_carousel__feature_prompts__description3": "重複使用自己的提示",
-    "home_page__features_carousel__feature_prompts__description4": "自定義語氣和寫作風格"
+    "home_page__features_carousel__feature_prompts__description4": "自定義語氣和寫作風格",
+    "team_plan__title__description1": "為您的團隊提供最先進的人工智慧生產力工具。",
+    "team_plan__title__description2": "我們的團隊方案專為三人或以上的成員設計。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",

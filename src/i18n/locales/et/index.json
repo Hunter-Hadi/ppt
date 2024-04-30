@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Kõrge kvaliteediga AI vihjete raamatukogu",
     "home_page__features_carousel__feature_prompts__description2": "Loo ja haldage oma vihjeid",
     "home_page__features_carousel__feature_prompts__description3": "Kasuta uuesti oma vihjeid",
-    "home_page__features_carousel__feature_prompts__description4": "Kohandatud toon ja kirjutamisstiilid"
+    "home_page__features_carousel__feature_prompts__description4": "Kohandatud toon ja kirjutamisstiilid",
+    "team_plan__title__description1": "Andke oma meeskonnale kõige arenenumad AI tootlikkuse tööriistad.",
+    "team_plan__title__description2": "Meie meeskonna plaan on mõeldud kolme või enama liikmega gruppidele."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",

@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "ספריית AI prompts ברמה גבוהה",
     "home_page__features_carousel__feature_prompts__description2": "יצירה וניהול של prompts משלך",
     "home_page__features_carousel__feature_prompts__description3": "שימוש חוזר בprompts שלך",
-    "home_page__features_carousel__feature_prompts__description4": "סגנון וסגנון כתיבה מותאמים אישית"
+    "home_page__features_carousel__feature_prompts__description4": "סגנון וסגנון כתיבה מותאמים אישית",
+    "team_plan__title__description1": "הענק לצוות שלך את הכלים המתקדמים ביותר ליעילות AI.",
+    "team_plan__title__description2": "תוכנית הצוות שלנו מיועדת לקבוצות של שלושה חברים או יותר."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",

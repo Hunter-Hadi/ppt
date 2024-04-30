@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Laadukas AI-vihjeiden kirjasto",
     "home_page__features_carousel__feature_prompts__description2": "Luo ja hallitse omia vihjeitäsi",
     "home_page__features_carousel__feature_prompts__description3": "Hyödynnä omia vihjeitäsi uudelleen",
-    "home_page__features_carousel__feature_prompts__description4": "Mukautettu sävy ja kirjoitustyylit"
+    "home_page__features_carousel__feature_prompts__description4": "Mukautettu sävy ja kirjoitustyylit",
+    "team_plan__title__description1": "Anna tiimillesi edistyneimmät tekoälytyökalut tuottavuuden parantamiseksi.",
+    "team_plan__title__description2": "Tiimisuunnitelmamme on suunniteltu kolmen tai useamman jäsenen ryhmille."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",

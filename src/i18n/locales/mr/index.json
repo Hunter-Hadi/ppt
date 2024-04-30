@@ -506,7 +506,9 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "साधनाला फाइल प्रक्रिया करण्यासाठी द्या आणि ती HTML स्वरूपात रूपांतरित करा.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "रूपांतरण पूर्ण झाल्यानंतर, आपली नवीन HTML फाइल थेट डाउनलोड करा.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "निकष्ट निकष्ट निकष्ट! परिणामांची समीक्षा करण्यासाठी कोणत्याही वेब ब्राउझरमध्ये डाउनलोड केलेली HTML उघडा.",
-    "pdf_tools__detail_page__more_pdf_tools": "अधिक विनामूल्य ऑनलाइन PDF साधने"
+    "pdf_tools__detail_page__more_pdf_tools": "अधिक विनामूल्य ऑनलाइन PDF साधने",
+    "team_plan__title__description1": "तुमच्या टीमला सर्वाधिक उन्नत AI उत्पादकता उपकरणे द्या.",
+    "team_plan__title__description2": "आमच्या टीम योजनेमध्ये तीन किंवा अधिक सदस्यांच्या गटांसाठी डिझाइन केलेले आहे."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

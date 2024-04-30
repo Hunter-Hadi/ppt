@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Yüksek kaliteli AI ipucu kütüphanesi",
     "home_page__features_carousel__feature_prompts__description2": "Kendi ipuçlarınızı oluşturun ve yönetin",
     "home_page__features_carousel__feature_prompts__description3": "Kendi ipuçlarınızı yeniden kullanın",
-    "home_page__features_carousel__feature_prompts__description4": "Özel ton ve yazım stilleri"
+    "home_page__features_carousel__feature_prompts__description4": "Özel ton ve yazım stilleri",
+    "team_plan__title__description1": "Takımınıza en gelişmiş yapay zeka üretkenlik araçlarını sunun.",
+    "team_plan__title__description2": "Takım planımız üç veya daha fazla üyeden oluşan gruplar için tasarlanmıştır."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",

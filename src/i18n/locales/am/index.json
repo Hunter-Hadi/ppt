@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽ መታወቂያ",
     "home_page__features_carousel__feature_prompts__description2": "የሚፈጠሩትን የማስተማርና የማስታወቂያ ቅጽ ፍጠር እና ማስተማርና",
     "home_page__features_carousel__feature_prompts__description3": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽን ያግኙ",
-    "home_page__features_carousel__feature_prompts__description4": "የሚተላለፉ ቆንጆ & የጽሑፍ አስደሳች አይነት"
+    "home_page__features_carousel__feature_prompts__description4": "የሚተላለፉ ቆንጆ & የጽሑፍ አስደሳች አይነት",
+    "team_plan__title__description1": "ወደ ቡድን ጥበቃ የሚገኝ የተሻለ AI የማስተማርና መሳሪያ ተግባራት ለመጠቀም የሚፈልጉትን ቡድን ያስተማሩ።",
+    "team_plan__title__description2": "የቡድን አጠቃላይ ቅጽ ቡድን ለቡድኑ የሚገኙ አባላት የሚሆኑ ሰዎች ለመጠቀም የሚፈልጉትን ቡድን ያስተማሩ።"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",

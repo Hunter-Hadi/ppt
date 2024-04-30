@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Augstas kvalitātes AI uzaicinājumu bibliotēka",
     "home_page__features_carousel__feature_prompts__description2": "Izveidojiet un pārvaldiet savus pašu uzaicinājumus",
     "home_page__features_carousel__feature_prompts__description3": "Atkārtoti izmantojiet savus pašu uzaicinājumus",
-    "home_page__features_carousel__feature_prompts__description4": "Pielāgot toni un rakstīšanas stilus"
+    "home_page__features_carousel__feature_prompts__description4": "Pielāgot toni un rakstīšanas stilus",
+    "team_plan__title__description1": "Nodrošiniet savai komandai vismodernākās AI produktivitātes rīkus.",
+    "team_plan__title__description2": "Mūsu komandas plāns ir izstrādāts grupām, kas sastāv no trīs vai vairāk dalībniekiem."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",

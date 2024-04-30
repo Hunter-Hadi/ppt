@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Bibliotheek met hoogwaardige AI-aanwijzingen",
     "home_page__features_carousel__feature_prompts__description2": "Maak en beheer je eigen aanwijzingen",
     "home_page__features_carousel__feature_prompts__description3": "Herbruik je eigen aanwijzingen",
-    "home_page__features_carousel__feature_prompts__description4": "Aangepaste toon en schrijfstijlen"
+    "home_page__features_carousel__feature_prompts__description4": "Aangepaste toon en schrijfstijlen",
+    "team_plan__title__description1": "Geef je team de meest geavanceerde AI-productiviteitstools.",
+    "team_plan__title__description2": "Ons teamplan is ontworpen voor groepen van drie of meer leden."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",

@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Perpustakaan prompts AI berkualitas tinggi",
     "home_page__features_carousel__feature_prompts__description2": "Buat dan kelola prompts Anda sendiri",
     "home_page__features_carousel__feature_prompts__description3": "Gunakan kembali prompts Anda sendiri",
-    "home_page__features_carousel__feature_prompts__description4": "Gaya nada dan penulisan kustom"
+    "home_page__features_carousel__feature_prompts__description4": "Gaya nada dan penulisan kustom",
+    "team_plan__title__description1": "Berikan tim Anda alat produktivitas AI paling canggih.",
+    "team_plan__title__description2": "Rencana tim kami dirancang untuk kelompok dengan tiga anggota atau lebih."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

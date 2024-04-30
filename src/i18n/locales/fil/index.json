@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Mataas na kalidad na AI prompts library",
     "home_page__features_carousel__feature_prompts__description2": "Lumikha at pamahalaan ang iyong sariling mga prompts",
     "home_page__features_carousel__feature_prompts__description3": "Muling gamitin ang iyong sariling mga prompts",
-    "home_page__features_carousel__feature_prompts__description4": "Pasadyang tono at estilo ng pagsusulat"
+    "home_page__features_carousel__feature_prompts__description4": "Pasadyang tono at estilo ng pagsusulat",
+    "team_plan__title__description1": "Bigyan ang iyong koponan ng pinakamahusay na mga tool sa AI para sa produktibidad.",
+    "team_plan__title__description2": "Ang aming team plan ay dinisenyo para sa mga grupo na may tatlo o higit pang miyembro."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",

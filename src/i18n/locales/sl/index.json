@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Knjižnica visokokakovostnih AI vprašanj",
     "home_page__features_carousel__feature_prompts__description2": "Ustvarite in upravljajte lastna vprašanja",
     "home_page__features_carousel__feature_prompts__description3": "Ponovno uporabite lastna vprašanja",
-    "home_page__features_carousel__feature_prompts__description4": "Prilagojen ton in slog pisanja"
+    "home_page__features_carousel__feature_prompts__description4": "Prilagojen ton in slog pisanja",
+    "team_plan__title__description1": "Dajte svoji ekipi najnaprednejša orodja za produktivnost AI.",
+    "team_plan__title__description2": "Naš načrt za ekipo je zasnovan za skupine s tremi ali več člani."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",

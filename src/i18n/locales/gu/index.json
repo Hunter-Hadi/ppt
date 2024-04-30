@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "ઉચ્ચ ગુણવત્તાવાળા એઆઈ પ્રોમ્પ્ટ્સ લાઇબ્રેરી",
     "home_page__features_carousel__feature_prompts__description2": "તમારા પ્રોમ્પ્ટ્સ બનાવો અને મેનેજ કરો",
     "home_page__features_carousel__feature_prompts__description3": "તમારા પ્રોમ્પ્ટ્સ ફરીથી ઉપયોગ કરો",
-    "home_page__features_carousel__feature_prompts__description4": "વૈવિધ્યપૂર્ણ ટોન અને લેખન શૈલીઓ"
+    "home_page__features_carousel__feature_prompts__description4": "વૈવિધ્યપૂર્ણ ટોન અને લેખન શૈલીઓ",
+    "team_plan__title__description1": "આપની ટીમને સૌથી અગ્રણીસભ્ય AI ઉપયોગિતા સાધનો આપો.",
+    "team_plan__title__description2": "અમારી ટીમ યોજના ત્રણ અથવા તેથી વધુ સભ્યોની જૂથો માટે બનાવવામાં આવેલી છે."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",

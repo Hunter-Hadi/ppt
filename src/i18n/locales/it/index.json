@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Libreria di promemoria AI di alta qualità",
     "home_page__features_carousel__feature_prompts__description2": "Crea e gestisci i tuoi promemoria",
     "home_page__features_carousel__feature_prompts__description3": "Riutilizza i tuoi promemoria",
-    "home_page__features_carousel__feature_prompts__description4": "Stili di tono e scrittura personalizzati"
+    "home_page__features_carousel__feature_prompts__description4": "Stili di tono e scrittura personalizzati",
+    "team_plan__title__description1": "Offri al tuo team gli strumenti di produttività AI più avanzati.",
+    "team_plan__title__description2": "Il nostro piano per team è progettato per gruppi di tre o più membri."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",

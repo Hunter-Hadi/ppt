@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Bibliotek med högkvalitativa AI-promptar",
     "home_page__features_carousel__feature_prompts__description2": "Skapa och hantera dina egna promptar",
     "home_page__features_carousel__feature_prompts__description3": "Återanvänd dina egna promptar",
-    "home_page__features_carousel__feature_prompts__description4": "Anpassad ton och skrivstilar"
+    "home_page__features_carousel__feature_prompts__description4": "Anpassad ton och skrivstilar",
+    "team_plan__title__description1": "Ge ditt team de mest avancerade AI-produktivitetsverktygen.",
+    "team_plan__title__description2": "Vår teamplan är utformad för grupper med tre eller fler medlemmar."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",

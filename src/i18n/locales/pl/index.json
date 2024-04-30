@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Biblioteka wysokiej jakości podpowiedzi AI",
     "home_page__features_carousel__feature_prompts__description2": "Twórz i zarządzaj własnymi podpowiedziami",
     "home_page__features_carousel__feature_prompts__description3": "Ponownie używaj swoich podpowiedzi",
-    "home_page__features_carousel__feature_prompts__description4": "Niestandardowy ton i styl pisania"
+    "home_page__features_carousel__feature_prompts__description4": "Niestandardowy ton i styl pisania",
+    "team_plan__title__description1": "Daj swojemu zespołowi najbardziej zaawansowane narzędzia do produktywności oparte na sztucznej inteligencji.",
+    "team_plan__title__description2": "Nasz plan dla zespołów jest przeznaczony dla grup składających się z trzech lub więcej członków."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",

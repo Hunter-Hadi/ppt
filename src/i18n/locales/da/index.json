@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Bibliotek med AI-opgaver af høj kvalitet",
     "home_page__features_carousel__feature_prompts__description2": "Opret og administrer dine egne opgaver",
     "home_page__features_carousel__feature_prompts__description3": "Genbrug dine egne opgaver",
-    "home_page__features_carousel__feature_prompts__description4": "Tilpas tone og skrivestil"
+    "home_page__features_carousel__feature_prompts__description4": "Tilpas tone og skrivestil",
+    "team_plan__title__description1": "Giv dit team de mest avancerede AI-produktivitetsværktøjer.",
+    "team_plan__title__description2": "Vores teamplan er designet til grupper på tre eller flere medlemmer."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",

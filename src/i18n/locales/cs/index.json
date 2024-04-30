@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Knihovna vysoce kvalitních AI nápověd",
     "home_page__features_carousel__feature_prompts__description2": "Vytvářejte a spravujte vlastní nápovědy",
     "home_page__features_carousel__feature_prompts__description3": "Opakovaně používejte své vlastní nápovědy",
-    "home_page__features_carousel__feature_prompts__description4": "Vlastní tón a styl psaní"
+    "home_page__features_carousel__feature_prompts__description4": "Vlastní tón a styl psaní",
+    "team_plan__title__description1": "Poskytněte svému týmu nejvyspělejší nástroje pro produktivitu AI.",
+    "team_plan__title__description2": "Náš týmový plán je navržen pro skupiny tří a více členů."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",

@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Biblioteka visokokvalitetnih AI podražaja",
     "home_page__features_carousel__feature_prompts__description2": "Kreirajte i upravljajte vlastitim podražajima",
     "home_page__features_carousel__feature_prompts__description3": "Ponovno koristite vlastite podražaje",
-    "home_page__features_carousel__feature_prompts__description4": "Prilagođeni ton i stil pisanja"
+    "home_page__features_carousel__feature_prompts__description4": "Prilagođeni ton i stil pisanja",
+    "team_plan__title__description1": "Dajte svom timu najnaprednije alate za produktivnost umjetne inteligencije.",
+    "team_plan__title__description2": "Naš plan za tim je dizajniran za grupe od tri ili više članova."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Prompts",

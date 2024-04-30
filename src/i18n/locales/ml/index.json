@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "ഉന്നത ഗുണമേന്മയുള്ള എ.ഐ. പ്രോംപ്റ്റുകൾ ലൈബ്രറി",
     "home_page__features_carousel__feature_prompts__description2": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ സൃഷ്ടിക്കുകയും അവയുടെ പരിചയം നിയന്ത്രിക്കുകയും ചെയ്യുക",
     "home_page__features_carousel__feature_prompts__description3": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ പുനരായി ഉപയോഗിക്കുക",
-    "home_page__features_carousel__feature_prompts__description4": "പ്രത്യേക ടോൺ & രചനാ ശൈലികൾ"
+    "home_page__features_carousel__feature_prompts__description4": "പ്രത്യേക ടോൺ & രചനാ ശൈലികൾ",
+    "team_plan__title__description1": "നിങ്ങളുടെ ടീമിന് ഏറ്റവും അഗ്രഗതമായ AI ഉപയോഗസാധനങ്ങൾ നൽകുക.",
+    "team_plan__title__description2": "ഞങ്ങളുടെ ടീം പ്ലാൻ മൂന്നോ അതിനുള്ള അധികം അംഗങ്ങൾക്ക് പ്രവർത്തിക്കാൻ പഠിപ്പിച്ചിട്ടുണ്ട്."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",

@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Aukštos kokybės AI užduočių biblioteka",
     "home_page__features_carousel__feature_prompts__description2": "Kurkite ir tvarkykite savo pačių užduotis",
     "home_page__features_carousel__feature_prompts__description3": "Panaudokite savo pačių užduotis",
-    "home_page__features_carousel__feature_prompts__description4": "Individualus tonas ir rašymo stiliai"
+    "home_page__features_carousel__feature_prompts__description4": "Individualus tonas ir rašymo stiliai",
+    "team_plan__title__description1": "Suteikite savo komandai pažangiausius dirbtinio intelekto produktyvumo įrankius.",
+    "team_plan__title__description2": "Mūsų komandos planas skirtas grupėms, turinčioms tris ar daugiau narių."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",

@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "उच्च गुणवत्ता वाला एआई प्रॉम्प्ट्स लाइब्रेरी",
     "home_page__features_carousel__feature_prompts__description2": "अपने खुद के प्रॉम्प्ट्स बनाएं और प्रबंधित करें",
     "home_page__features_carousel__feature_prompts__description3": "अपने खुद के प्रॉम्प्ट्स को पुनः उपयोग करें",
-    "home_page__features_carousel__feature_prompts__description4": "कस्टम टोन और लेखन शैलियों"
+    "home_page__features_carousel__feature_prompts__description4": "कस्टम टोन और लेखन शैलियों",
+    "team_plan__title__description1": "अपनी टीम को सबसे उन्नत AI उत्पादकता उपकरण प्रदान करें।",
+    "team_plan__title__description2": "हमारी टीम योजना तीन या उससे अधिक सदस्यों के समूहों के लिए डिज़ाइन की गई है।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",

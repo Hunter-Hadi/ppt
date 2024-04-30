@@ -506,7 +506,9 @@
     "home_page__features_carousel__feature_prompts__description1": "Magas minőségű AI segítségkönyvtár",
     "home_page__features_carousel__feature_prompts__description2": "Hozzon létre és kezeljen saját segítségeket",
     "home_page__features_carousel__feature_prompts__description3": "Újrahasználja saját segítségeit",
-    "home_page__features_carousel__feature_prompts__description4": "Egyedi hangnem és írási stílus"
+    "home_page__features_carousel__feature_prompts__description4": "Egyedi hangnem és írási stílus",
+    "team_plan__title__description1": "Adja csapatának a legfejlettebb AI termelékenységi eszközöket.",
+    "team_plan__title__description2": "Csapatunk terve olyan csoportok számára készült, amelyek három vagy több tagból állnak."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
