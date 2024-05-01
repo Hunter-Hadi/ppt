@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Özetle ve PDF olarak sor",
     "features__summarize_ask_youTube_video": "Özetle ve YouTube videosu olarak sor",
     "features__summarize_ask_email": "Özetle ve e-posta olarak sor",
-    "features__summarize_ask_any_webpage": "Özetle ve herhangi bir web sayfası olarak sor"
+    "features__summarize_ask_any_webpage": "Özetle ve herhangi bir web sayfası olarak sor",
+    "payment_info__team__per_user__desc": "kullanıcı başına"
   },
   "features__common": {
     "components__upload_button_drop_title": "Buraya bırakın"

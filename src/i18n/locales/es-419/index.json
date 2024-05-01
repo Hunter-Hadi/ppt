@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Resumir y preguntar PDF",
     "features__summarize_ask_youTube_video": "Resumir y preguntar video de YouTube",
     "features__summarize_ask_email": "Resumir y preguntar correo electrónico",
-    "features__summarize_ask_any_webpage": "Resumir y preguntar cualquier página web"
+    "features__summarize_ask_any_webpage": "Resumir y preguntar cualquier página web",
+    "payment_info__team__per_user__desc": "por usuario"
   },
   "features__common": {
     "components__upload_button_drop_title": "Soltar aquí"

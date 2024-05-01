@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "摘要和询问PDF",
     "features__summarize_ask_youTube_video": "摘要和询问YouTube视频",
     "features__summarize_ask_email": "摘要和询问电子邮件",
-    "features__summarize_ask_any_webpage": "摘要和询问任何网页"
+    "features__summarize_ask_any_webpage": "摘要和询问任何网页",
+    "payment_info__team__per_user__desc": "每个用户"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放到这里"

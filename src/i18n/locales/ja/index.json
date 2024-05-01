@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "PDFの要約と質問",
     "features__summarize_ask_youTube_video": "YouTube動画の要約と質問",
     "features__summarize_ask_email": "メールの要約と質問",
-    "features__summarize_ask_any_webpage": "任意のウェブページの要約と質問"
+    "features__summarize_ask_any_webpage": "任意のウェブページの要約と質問",
+    "payment_info__team__per_user__desc": "ユーザーごと"
   },
   "features__common": {
     "components__upload_button_drop_title": "ここにドロップ"

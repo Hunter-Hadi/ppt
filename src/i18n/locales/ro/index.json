@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Rezumat și întrebare PDF",
     "features__summarize_ask_youTube_video": "Rezumat și întrebare video YouTube",
     "features__summarize_ask_email": "Rezumat și întrebare email",
-    "features__summarize_ask_any_webpage": "Rezumat și întrebare orice pagină web"
+    "features__summarize_ask_any_webpage": "Rezumat și întrebare orice pagină web",
+    "payment_info__team__per_user__desc": "pe utilizator"
   },
   "features__common": {
     "components__upload_button_drop_title": "Așezați aici"

@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Kokkuvõtte tegemine ja PDF-i küsimine",
     "features__summarize_ask_youTube_video": "Kokkuvõtte tegemine ja YouTube'i video küsimine",
     "features__summarize_ask_email": "Kokkuvõtte tegemine ja e-posti küsimine",
-    "features__summarize_ask_any_webpage": "Kokkuvõtte tegemine ja küsimine mis tahes veebilehelt"
+    "features__summarize_ask_any_webpage": "Kokkuvõtte tegemine ja küsimine mis tahes veebilehelt",
+    "payment_info__team__per_user__desc": "kasutaja kohta"
   },
   "features__common": {
     "components__upload_button_drop_title": "Aseta siia"

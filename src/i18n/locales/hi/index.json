@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "पीडीएफ संक्षेपित करें और पूछें",
     "features__summarize_ask_youTube_video": "यूट्यूब वीडियो संक्षेपित करें और पूछें",
     "features__summarize_ask_email": "ईमेल संक्षेपित करें और पूछें",
-    "features__summarize_ask_any_webpage": "किसी भी वेबपेज को संक्षेपित करें और पूछें"
+    "features__summarize_ask_any_webpage": "किसी भी वेबपेज को संक्षेपित करें और पूछें",
+    "payment_info__team__per_user__desc": "प्रति उपयोगकर्ता"
   },
   "features__common": {
     "components__upload_button_drop_title": "यहाँ छोड़ें"

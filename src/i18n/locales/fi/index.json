@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Tiivistä ja kysy PDF",
     "features__summarize_ask_youTube_video": "Tiivistä ja kysy YouTube-video",
     "features__summarize_ask_email": "Tiivistä ja kysy sähköposti",
-    "features__summarize_ask_any_webpage": "Tiivistä ja kysy mikä tahansa verkkosivu"
+    "features__summarize_ask_any_webpage": "Tiivistä ja kysy mikä tahansa verkkosivu",
+    "payment_info__team__per_user__desc": "käyttäjää kohden"
   },
   "features__common": {
     "components__upload_button_drop_title": "Pudota tähän"

@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Samenvatten en vragen PDF",
     "features__summarize_ask_youTube_video": "Samenvatten en vragen YouTube-video",
     "features__summarize_ask_email": "Samenvatten en vragen e-mail",
-    "features__summarize_ask_any_webpage": "Samenvatten en vragen elke webpagina"
+    "features__summarize_ask_any_webpage": "Samenvatten en vragen elke webpagina",
+    "payment_info__team__per_user__desc": "per gebruiker"
   },
   "features__common": {
     "components__upload_button_drop_title": "Plaats hier"

@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Sintetizza e chiedi PDF",
     "features__summarize_ask_youTube_video": "Sintetizza e chiedi video YouTube",
     "features__summarize_ask_email": "Sintetizza e chiedi email",
-    "features__summarize_ask_any_webpage": "Sintetizza e chiedi qualsiasi pagina web"
+    "features__summarize_ask_any_webpage": "Sintetizza e chiedi qualsiasi pagina web",
+    "payment_info__team__per_user__desc": "per utente"
   },
   "features__common": {
     "components__upload_button_drop_title": "Rilascia qui"

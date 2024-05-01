@@ -1137,6 +1137,7 @@
     "payment_info__basic_desc": "Best for casual users",
     "payment_info__pro_desc": "Best for power users",
     "payment_info__elite_desc": "Best for elite professionals",
+    "payment_info__team__per_user__desc": "per user",
 
     "plan_button__save_with_yearly_plan": "Save {{PRICE}} with yearly plan",
     "plan_button__free_status__start_for_free": "Start for free"

@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Резюмиране и питане за PDF",
     "features__summarize_ask_youTube_video": "Резюмиране и питане за YouTube видео",
     "features__summarize_ask_email": "Резюмиране и питане за имейл",
-    "features__summarize_ask_any_webpage": "Резюмиране и питане за всяка уеб страница"
+    "features__summarize_ask_any_webpage": "Резюмиране и питане за всяка уеб страница",
+    "payment_info__team__per_user__desc": "на потребител"
   },
   "features__common": {
     "components__upload_button_drop_title": "Поставете тук"

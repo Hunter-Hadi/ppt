@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Tóm tắt & hỏi về PDF",
     "features__summarize_ask_youTube_video": "Tóm tắt & hỏi về video YouTube",
     "features__summarize_ask_email": "Tóm tắt & hỏi về email",
-    "features__summarize_ask_any_webpage": "Tóm tắt & hỏi về bất kỳ trang web nào"
+    "features__summarize_ask_any_webpage": "Tóm tắt & hỏi về bất kỳ trang web nào",
+    "payment_info__team__per_user__desc": "mỗi người dùng"
   },
   "features__common": {
     "components__upload_button_drop_title": "Thả vào đây"

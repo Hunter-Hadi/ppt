@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Buod at magtanong ng PDF",
     "features__summarize_ask_youTube_video": "Buod at magtanong ng YouTube video",
     "features__summarize_ask_email": "Buod at magtanong ng email",
-    "features__summarize_ask_any_webpage": "Buod at magtanong ng anumang webpage"
+    "features__summarize_ask_any_webpage": "Buod at magtanong ng anumang webpage",
+    "payment_info__team__per_user__desc": "bawat user"
   },
   "features__common": {
     "components__upload_button_drop_title": "I-drop dito"

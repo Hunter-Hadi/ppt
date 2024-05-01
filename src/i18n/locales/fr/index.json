@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Résumer et demander un PDF",
     "features__summarize_ask_youTube_video": "Résumer et demander une vidéo YouTube",
     "features__summarize_ask_email": "Résumer et demander un e-mail",
-    "features__summarize_ask_any_webpage": "Résumer et demander n'importe quelle page web"
+    "features__summarize_ask_any_webpage": "Résumer et demander n'importe quelle page web",
+    "payment_info__team__per_user__desc": "par utilisateur"
   },
   "features__common": {
     "components__upload_button_drop_title": "Déposez ici"

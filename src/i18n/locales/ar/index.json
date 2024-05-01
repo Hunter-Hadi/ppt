@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "تلخيص وطلب ملف PDF",
     "features__summarize_ask_youTube_video": "تلخيص وطلب فيديو YouTube",
     "features__summarize_ask_email": "تلخيص وطلب بريد إلكتروني",
-    "features__summarize_ask_any_webpage": "تلخيص وطلب أي صفحة ويب"
+    "features__summarize_ask_any_webpage": "تلخيص وطلب أي صفحة ويب",
+    "payment_info__team__per_user__desc": "لكل مستخدم"
   },
   "features__common": {
     "components__upload_button_drop_title": "اسحب هنا"

@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "خلاصه کردن و پرسیدن PDF",
     "features__summarize_ask_youTube_video": "خلاصه کردن و پرسیدن ویدیوی YouTube",
     "features__summarize_ask_email": "خلاصه کردن و پرسیدن ایمیل",
-    "features__summarize_ask_any_webpage": "خلاصه کردن و پرسیدن هر صفحه وب"
+    "features__summarize_ask_any_webpage": "خلاصه کردن و پرسیدن هر صفحه وب",
+    "payment_info__team__per_user__desc": "برای هر کاربر"
   },
   "features__common": {
     "components__upload_button_drop_title": "اینجا را رها کنید"

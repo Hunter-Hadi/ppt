@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Összefoglalás és PDF kérdezés",
     "features__summarize_ask_youTube_video": "Összefoglalás és YouTube videó kérdezés",
     "features__summarize_ask_email": "Összefoglalás és e-mail kérdezés",
-    "features__summarize_ask_any_webpage": "Összefoglalás és bármely weboldal kérdezés"
+    "features__summarize_ask_any_webpage": "Összefoglalás és bármely weboldal kérdezés",
+    "payment_info__team__per_user__desc": "felhasználónként"
   },
   "features__common": {
     "components__upload_button_drop_title": "Húzd ide"

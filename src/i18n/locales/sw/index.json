@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Kusisitiza & kuuliza PDF",
     "features__summarize_ask_youTube_video": "Kusisitiza & kuuliza video ya YouTube",
     "features__summarize_ask_email": "Kusisitiza & kuuliza barua pepe",
-    "features__summarize_ask_any_webpage": "Kusisitiza & kuuliza ukurasa wowote wa wavuti"
+    "features__summarize_ask_any_webpage": "Kusisitiza & kuuliza ukurasa wowote wa wavuti",
+    "payment_info__team__per_user__desc": "kwa mtumiaji"
   },
   "features__common": {
     "components__upload_button_drop_title": "Buruta hapa"

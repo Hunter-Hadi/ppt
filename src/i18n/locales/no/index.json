@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Oppsummer og spør PDF",
     "features__summarize_ask_youTube_video": "Oppsummer og spør YouTube-video",
     "features__summarize_ask_email": "Oppsummer og spør e-post",
-    "features__summarize_ask_any_webpage": "Oppsummer og spør hvilken som helst nettside"
+    "features__summarize_ask_any_webpage": "Oppsummer og spør hvilken som helst nettside",
+    "payment_info__team__per_user__desc": "per bruker"
   },
   "features__common": {
     "components__upload_button_drop_title": "Slipp her"

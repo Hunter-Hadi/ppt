@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Sammanfatta och fråga PDF",
     "features__summarize_ask_youTube_video": "Sammanfatta och fråga YouTube-video",
     "features__summarize_ask_email": "Sammanfatta och fråga e-post",
-    "features__summarize_ask_any_webpage": "Sammanfatta och fråga valfri webbsida"
+    "features__summarize_ask_any_webpage": "Sammanfatta och fråga valfri webbsida",
+    "payment_info__team__per_user__desc": "per användare"
   },
   "features__common": {
     "components__upload_button_drop_title": "Släpp här"

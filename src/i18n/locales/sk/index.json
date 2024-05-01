@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Zhrňte a opýtajte sa PDF",
     "features__summarize_ask_youTube_video": "Zhrňte a opýtajte sa videa na YouTube",
     "features__summarize_ask_email": "Zhrňte a opýtajte sa e-mailu",
-    "features__summarize_ask_any_webpage": "Zhrňte a opýtajte sa ľubovoľnej webovej stránky"
+    "features__summarize_ask_any_webpage": "Zhrňte a opýtajte sa ľubovoľnej webovej stránky",
+    "payment_info__team__per_user__desc": "na používateľa"
   },
   "features__common": {
     "components__upload_button_drop_title": "Pretiahnite sem"

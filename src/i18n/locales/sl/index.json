@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Povzetek in vprašanje PDF",
     "features__summarize_ask_youTube_video": "Povzetek in vprašanje YouTube videa",
     "features__summarize_ask_email": "Povzetek in vprašanje e-pošte",
-    "features__summarize_ask_any_webpage": "Povzetek in vprašanje katerekoli spletne strani"
+    "features__summarize_ask_any_webpage": "Povzetek in vprašanje katerekoli spletne strani",
+    "payment_info__team__per_user__desc": "na uporabnika"
   },
   "features__common": {
     "components__upload_button_drop_title": "Spusti tukaj"

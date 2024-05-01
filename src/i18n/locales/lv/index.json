@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Apkopot un jautāt PDF",
     "features__summarize_ask_youTube_video": "Apkopot un jautāt YouTube video",
     "features__summarize_ask_email": "Apkopot un jautāt e-pastu",
-    "features__summarize_ask_any_webpage": "Apkopot un jautāt jebkuru tīmekļa lapu"
+    "features__summarize_ask_any_webpage": "Apkopot un jautāt jebkuru tīmekļa lapu",
+    "payment_info__team__per_user__desc": "par lietotāju"
   },
   "features__common": {
     "components__upload_button_drop_title": "Nometiet šeit"

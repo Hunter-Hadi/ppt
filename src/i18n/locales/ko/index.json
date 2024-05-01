@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "PDF 요약 및 질문하기",
     "features__summarize_ask_youTube_video": "YouTube 동영상 요약 및 질문하기",
     "features__summarize_ask_email": "이메일 요약 및 질문하기",
-    "features__summarize_ask_any_webpage": "웹페이지 요약 및 질문하기"
+    "features__summarize_ask_any_webpage": "웹페이지 요약 및 질문하기",
+    "payment_info__team__per_user__desc": "사용자 당"
   },
   "features__common": {
     "components__upload_button_drop_title": "여기에 놓으세요"

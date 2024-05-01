@@ -986,7 +986,8 @@
     "features__summarize_ask_pdf": "संक्षेपित करा आणि पीडीएफ विचारा",
     "features__summarize_ask_youTube_video": "संक्षेपित करा आणि यूट्यूब व्हिडिओ विचारा",
     "features__summarize_ask_email": "संक्षेपित करा आणि ईमेल विचारा",
-    "features__summarize_ask_any_webpage": "संक्षेपित करा आणि कोणत्याही वेबपेजवर विचारा"
+    "features__summarize_ask_any_webpage": "संक्षेपित करा आणि कोणत्याही वेबपेजवर विचारा",
+    "payment_info__team__per_user__desc": "प्रति वापरकर्ता"
   },
   "functionality__sign_pdf": {
     "components__sign_pdf__button_popover__change_style": "शैली बदला",

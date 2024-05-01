@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "خلاصہ کریں اور پی ڈی ایف سوال کریں",
     "features__summarize_ask_youTube_video": "خلاصہ کریں اور یوٹیوب ویڈیو سوال کریں",
     "features__summarize_ask_email": "خلاصہ کریں اور ای میل سوال کریں",
-    "features__summarize_ask_any_webpage": "خلاصہ کریں اور کسی بھی ویب پیج سوال کریں"
+    "features__summarize_ask_any_webpage": "خلاصہ کریں اور کسی بھی ویب پیج سوال کریں",
+    "payment_info__team__per_user__desc": "فی صارف"
   },
   "features__common": {
     "components__upload_button_drop_title": "یہاں ڈراپ کریں"

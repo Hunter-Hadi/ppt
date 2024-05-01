@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Sumiraj i pitaj PDF",
     "features__summarize_ask_youTube_video": "Sumiraj i pitaj YouTube video",
     "features__summarize_ask_email": "Sumiraj i pitaj email",
-    "features__summarize_ask_any_webpage": "Sumiraj i pitaj bilo koju web stranicu"
+    "features__summarize_ask_any_webpage": "Sumiraj i pitaj bilo koju web stranicu",
+    "payment_info__team__per_user__desc": "po korisniku"
   },
   "features__common": {
     "components__upload_button_drop_title": "Prevuci ovde"

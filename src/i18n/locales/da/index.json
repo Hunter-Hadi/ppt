@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Resumér og spørg PDF",
     "features__summarize_ask_youTube_video": "Resumér og spørg YouTube-video",
     "features__summarize_ask_email": "Resumér og spørg e-mail",
-    "features__summarize_ask_any_webpage": "Resumér og spørg enhver webside"
+    "features__summarize_ask_any_webpage": "Resumér og spørg enhver webside",
+    "payment_info__team__per_user__desc": "pr. bruger"
   },
   "features__common": {
     "components__upload_button_drop_title": "Slip her"

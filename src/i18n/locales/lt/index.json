@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Santrauka ir paklausk PDF",
     "features__summarize_ask_youTube_video": "Santrauka ir paklausk YouTube vaizdo įrašo",
     "features__summarize_ask_email": "Santrauka ir paklausk el. paštu",
-    "features__summarize_ask_any_webpage": "Santrauka ir paklausk bet kurios svetainės"
+    "features__summarize_ask_any_webpage": "Santrauka ir paklausk bet kurios svetainės",
+    "payment_info__team__per_user__desc": "už vartotoją"
   },
   "features__common": {
     "components__upload_button_drop_title": "Mesti čia"

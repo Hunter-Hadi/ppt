@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Podsumuj i zapytaj o plik PDF",
     "features__summarize_ask_youTube_video": "Podsumuj i zapytaj o film na YouTube",
     "features__summarize_ask_email": "Podsumuj i zapytaj o e-mail",
-    "features__summarize_ask_any_webpage": "Podsumuj i zapytaj o dowolną stronę internetową"
+    "features__summarize_ask_any_webpage": "Podsumuj i zapytaj o dowolną stronę internetową",
+    "payment_info__team__per_user__desc": "na użytkownika"
   },
   "features__common": {
     "components__upload_button_drop_title": "Upuść tutaj"

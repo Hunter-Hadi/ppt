@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "সংক্ষিপ্ত করুন এবং পিডিএফ জিজ্ঞাসা করুন",
     "features__summarize_ask_youTube_video": "সংক্ষিপ্ত করুন এবং ইউটিউব ভিডিও জিজ্ঞাসা করুন",
     "features__summarize_ask_email": "সংক্ষিপ্ত করুন এবং ইমেল জিজ্ঞাসা করুন",
-    "features__summarize_ask_any_webpage": "সংক্ষিপ্ত করুন এবং যে কোন ওয়েবপেজ জিজ্ঞাসা করুন"
+    "features__summarize_ask_any_webpage": "সংক্ষিপ্ত করুন এবং যে কোন ওয়েবপেজ জিজ্ঞাসা করুন",
+    "payment_info__team__per_user__desc": "প্রতি ব্যবহারকারী"
   },
   "features__common": {
     "components__upload_button_drop_title": "এখানে পরিবর্তন করুন"

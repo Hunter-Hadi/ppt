@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Узагальнити та запитати PDF",
     "features__summarize_ask_youTube_video": "Узагальнити та запитати відео на YouTube",
     "features__summarize_ask_email": "Узагальнити та запитати електронного листа",
-    "features__summarize_ask_any_webpage": "Узагальнити та запитати будь-яку веб-сторінку"
+    "features__summarize_ask_any_webpage": "Узагальнити та запитати будь-яку веб-сторінку",
+    "payment_info__team__per_user__desc": "за користувача"
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетягніть сюди"

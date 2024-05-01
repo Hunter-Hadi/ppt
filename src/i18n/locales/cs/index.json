@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Shrnutí a dotaz na PDF",
     "features__summarize_ask_youTube_video": "Shrnutí a dotaz na video na YouTube",
     "features__summarize_ask_email": "Shrnutí a dotaz na email",
-    "features__summarize_ask_any_webpage": "Shrnutí a dotaz na jakoukoli webovou stránku"
+    "features__summarize_ask_any_webpage": "Shrnutí a dotaz na jakoukoli webovou stránku",
+    "payment_info__team__per_user__desc": "na uživatele"
   },
   "features__common": {
     "components__upload_button_drop_title": "Přetáhněte sem"

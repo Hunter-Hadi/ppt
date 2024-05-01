@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Zusammenfassen und PDF fragen",
     "features__summarize_ask_youTube_video": "Zusammenfassen und YouTube-Video fragen",
     "features__summarize_ask_email": "Zusammenfassen und E-Mail fragen",
-    "features__summarize_ask_any_webpage": "Zusammenfassen und jede Webseite fragen"
+    "features__summarize_ask_any_webpage": "Zusammenfassen und jede Webseite fragen",
+    "payment_info__team__per_user__desc": "pro Benutzer"
   },
   "features__common": {
     "components__upload_button_drop_title": "Hier ablegen"

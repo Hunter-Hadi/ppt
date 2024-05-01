@@ -982,7 +982,8 @@
     "features__summarize_ask_pdf": "סיכום ושאלה ב-PDF",
     "features__summarize_ask_youTube_video": "סיכום ושאלה בסרטון YouTube",
     "features__summarize_ask_email": "סיכום ושאלה בדוא\"ל",
-    "features__summarize_ask_any_webpage": "סיכום ושאלה בכל עמוד אינטרנט"
+    "features__summarize_ask_any_webpage": "סיכום ושאלה בכל עמוד אינטרנט",
+    "payment_info__team__per_user__desc": "לכל משתמש"
   },
   "features__common": {
     "components__upload_button_drop_title": "הפניה כאן"

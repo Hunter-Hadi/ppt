@@ -84,6 +84,8 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
     isPopular,
   } = props;
 
+  const isTeamPlan = ['basic_team', 'pro_team', 'elite_team'].includes(type);
+
   // const paymentType = useRecoilValue(PricingPaymentTypeAtom);
 
   const fontSx = useMemo(() => fontSxMap[size], [size]);
@@ -122,6 +124,12 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
             </Typography>
             <Typography variant='custom' color='grey' sx={fontSx.paymentInfo}>
               {t('pricing:payment_info__per_month')}
+              {isTeamPlan && (
+                <>
+                  <br />
+                  {t('pricing:payment_info__team__per_user__desc')}
+                </>
+              )}
             </Typography>
           </Stack>
         );

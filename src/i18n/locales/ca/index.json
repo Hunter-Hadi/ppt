@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Resumir i preguntar PDF",
     "features__summarize_ask_youTube_video": "Resumir i preguntar vídeo de YouTube",
     "features__summarize_ask_email": "Resumir i preguntar correu electrònic",
-    "features__summarize_ask_any_webpage": "Resumir i preguntar qualsevol pàgina web"
+    "features__summarize_ask_any_webpage": "Resumir i preguntar qualsevol pàgina web",
+    "payment_info__team__per_user__desc": "per usuari"
   },
   "features__common": {
     "components__upload_button_drop_title": "Deixa-ho aquí"

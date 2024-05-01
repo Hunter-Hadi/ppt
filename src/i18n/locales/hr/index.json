@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Sažmi i pitaj PDF",
     "features__summarize_ask_youTube_video": "Sažmi i pitaj YouTube video",
     "features__summarize_ask_email": "Sažmi i pitaj e-poštu",
-    "features__summarize_ask_any_webpage": "Sažmi i pitaj bilo koju web stranicu"
+    "features__summarize_ask_any_webpage": "Sažmi i pitaj bilo koju web stranicu",
+    "payment_info__team__per_user__desc": "po korisniku"
   },
   "features__common": {
     "components__upload_button_drop_title": "Ispusti ovdje"

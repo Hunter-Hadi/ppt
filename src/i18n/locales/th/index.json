@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "สรุปและถามเกี่ยวกับ PDF",
     "features__summarize_ask_youTube_video": "สรุปและถามเกี่ยวกับวิดีโอ YouTube",
     "features__summarize_ask_email": "สรุปและถามเกี่ยวกับอีเมล",
-    "features__summarize_ask_any_webpage": "สรุปและถามเกี่ยวกับหน้าเว็บใดก็ได้"
+    "features__summarize_ask_any_webpage": "สรุปและถามเกี่ยวกับหน้าเว็บใดก็ได้",
+    "payment_info__team__per_user__desc": "ต่อผู้ใช้"
   },
   "features__common": {
     "components__upload_button_drop_title": "วางที่นี่"

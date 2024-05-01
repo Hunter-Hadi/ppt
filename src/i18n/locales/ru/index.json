@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Суммировать и задать вопрос по PDF",
     "features__summarize_ask_youTube_video": "Суммировать и задать вопрос по видео на YouTube",
     "features__summarize_ask_email": "Суммировать и задать вопрос по электронной почте",
-    "features__summarize_ask_any_webpage": "Суммировать и задать вопрос по любой веб-странице"
+    "features__summarize_ask_any_webpage": "Суммировать и задать вопрос по любой веб-странице",
+    "payment_info__team__per_user__desc": "за пользователя"
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетащите сюда"

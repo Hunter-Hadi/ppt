@@ -983,7 +983,8 @@
     "features__summarize_ask_pdf": "Ringkaskan & tanya PDF",
     "features__summarize_ask_youTube_video": "Ringkaskan & tanya video YouTube",
     "features__summarize_ask_email": "Ringkaskan & tanya e-mel",
-    "features__summarize_ask_any_webpage": "Ringkaskan & tanya laman web mana-mana"
+    "features__summarize_ask_any_webpage": "Ringkaskan & tanya laman web mana-mana",
+    "payment_info__team__per_user__desc": "setiap pengguna"
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"
