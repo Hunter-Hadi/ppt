@@ -123,12 +123,12 @@ const PricingPages = () => {
         <Stack
           spacing={6}
           // mt={20}
-          sx={{
-            display: {
-              xs: 'none',
-              sm: 'flex',
-            },
-          }}
+          // sx={{
+          //   display: {
+          //     xs: 'none',
+          //     sm: 'flex',
+          //   },
+          // }}
         >
           <Typography
             variant='custom'
