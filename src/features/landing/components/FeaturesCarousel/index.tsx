@@ -1,4 +1,4 @@
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { useEffect } from 'react';
@@ -6,7 +6,7 @@ import React, { useEffect } from 'react';
 import useAppHeaderState from '@/hooks/useAppHeaderState';
 
 import FeaturesCarouselContent from './FeaturesCarouselContent';
-import FeaturesSelector from './FeaturesSelector';
+import FeaturesSelectorNav from './FeaturesSelectorNav';
 
 const WHITE_LIST_FEATURES_ITEM_KEY: IFeaturesCarouselItemKey[] = [
   'Chat',
@@ -37,7 +37,7 @@ export interface IFeaturesCarouselItem {
   label: string;
 }
 
-const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
+export const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
   {
     value: 'Chat',
     icon: 'chat',
@@ -91,6 +91,8 @@ const FeaturesCarousel = () => {
   const { asPath, isReady, query } = useRouter();
 
   const { appHeaderHeight } = useAppHeaderState();
+
+  const [showNavButton, setShowNavButton] = React.useState(false);
 
   // const theme = useTheme();
   // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
@@ -214,9 +216,11 @@ const FeaturesCarousel = () => {
         mx='auto'
         onMouseEnter={() => {
           stopAutoPlay.current = true;
+          setShowNavButton(true);
         }}
         onMouseLeave={() => {
           stopAutoPlay.current = false;
+          setShowNavButton(false);
         }}
       >
         <Typography
@@ -232,45 +236,17 @@ const FeaturesCarousel = () => {
           {t('pages:home_page__features_carousel__title')}
         </Typography>
 
-        <Stack
-          direction='row'
-          flexWrap={'nowrap'}
-          spacing={2.5}
-          ref={featuresSelectorScrollContainerRef}
-          sx={{
-            overflowX: 'auto',
-            mb: 4,
-            '&::-webkit-scrollbar': {
-              display: 'none',
-            },
+        <FeaturesSelectorNav
+          showNavButton={showNavButton}
+          activeValue={activeFeature}
+          containerRef={featuresSelectorScrollContainerRef}
+          onClick={(targetItem) => {
+            // if (isDownSm) {
+            setActiveFeature(targetItem.value);
+            scrollToView(targetItem.value);
+            // }
           }}
-        >
-          {FEATURES_CAROUSEL_LIST.map((featuresCarouselItem) => {
-            return (
-              <Box
-                key={featuresCarouselItem.value}
-                // onMouseEnter={() => {
-                //   if (!isDownSm) {
-                //     setActiveFeature(featuresCarouselItem.value);
-                //     scrollToView(featuresCarouselItem.value);
-                //   }
-                // }}
-                onClick={() => {
-                  // if (isDownSm) {
-                  setActiveFeature(featuresCarouselItem.value);
-                  scrollToView(featuresCarouselItem.value);
-                  // }
-                }}
-                id={`feature-carousel-${featuresCarouselItem.value}`}
-              >
-                <FeaturesSelector
-                  active={activeFeature === featuresCarouselItem.value}
-                  {...featuresCarouselItem}
-                />
-              </Box>
-            );
-          })}
-        </Stack>
+        />
 
         <FeaturesCarouselContent activeFeatureItem={activeFeature} />
       </Box>
