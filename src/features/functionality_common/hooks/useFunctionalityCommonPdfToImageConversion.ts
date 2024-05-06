@@ -14,12 +14,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 
-export const defaultPdfToImageScale = 1.6
+export const defaultPdfToImageScale = 1.6;
 
 export type IFunctionalityPdfToImageType = IFunctionalityCommonImageInfo & {
-  definedIndex: number,
+  definedIndex: number;
   isSelect: boolean;
-}
+};
 
 /**
  * pdf转图片类型 工具 的hook
@@ -32,7 +32,7 @@ export type IFunctionalityPdfToImageType = IFunctionalityCommonImageInfo & {
  */
 const useFunctionalityCommonPdfToImageConversion = () => {
   const { t } = useTranslation();
-  const viewDefaultSize = { width: 500, height: 1000 }
+  const viewDefaultSize = { width: 500, height: 1000 };
   const isCancel = useRef(false);
   const [convertedPdfImages, setConvertedPdfImages] = useState<
     IFunctionalityPdfToImageType[]
@@ -50,42 +50,57 @@ const useFunctionalityCommonPdfToImageConversion = () => {
   }>({ width: viewDefaultSize.width, height: viewDefaultSize.height }); //默认尺寸
   useEffect(() => {
     if (pdfIsLoading) {
-      setPdfTotalPages(0)
-      setCurrentPdfActionNum(0)
+      setPdfTotalPages(0);
+      setCurrentPdfActionNum(0);
     }
-
-  }, [pdfIsLoading])
+  }, [pdfIsLoading]);
   /**
    * 读取pdf文件并转换为图片
    */
-  const onReadPdfToImages = async (file: File, toType: 'jpeg' | 'png' = 'png', isNeedPdfHaveImages = false) => {
+  const onReadPdfToImages = async (
+    file: File,
+    toType: 'jpeg' | 'png' = 'png',
+    isNeedPdfHaveImages = false,
+  ) => {
     return new Promise(async (resolve) => {
       try {
         if (!file) {
-          resolve(false)
+          resolve(false);
           return false;
         }
-        const timeNum = new Date().getTime()
+        const timeNum = new Date().getTime();
         isCancel.current = false;
         setPdfIsLoading(true);
         const buff = await file.arrayBuffer(); // Uint8Array
         await PDFDocument.load(buff); //load来判断pdf是否加密或者无法提取，异常则进入catch
         const pdfDocument = await pdfjs.getDocument(buff).promise;
         setPdfTotalPages(pdfDocument._pdfInfo.numPages);
-        for (let pageNum = 1; pageNum <= pdfDocument._pdfInfo.numPages; pageNum++) {
+        for (
+          let pageNum = 1;
+          pageNum <= pdfDocument._pdfInfo.numPages;
+          pageNum++
+        ) {
           if (isCancel.current) {
-            resolve(true)
-            return
+            resolve(true);
+            return;
           }
           setCurrentPdfActionNum(pageNum);
-          const toImageData = await generatePdfPageToImage(pdfDocument, pageNum, defaultPdfToImageScale, toType, isNeedPdfHaveImages);
+          const toImageData = await generatePdfPageToImage(
+            pdfDocument,
+            pageNum,
+            defaultPdfToImageScale,
+            toType,
+            isNeedPdfHaveImages,
+          );
           if (isCancel.current) {
-            resolve(true)
-            return
-
+            resolve(true);
+            return;
           }
           if (toImageData) {
-            if (toImageData.height !== viewDefaultSize.height && toImageData.width !== viewDefaultSize.width) {
+            if (
+              toImageData.height !== viewDefaultSize.height &&
+              toImageData.width !== viewDefaultSize.width
+            ) {
               // 不等于默认尺寸，继续
               setPdfViewDefaultSize({
                 width: Math.floor(toImageData.width),
@@ -103,38 +118,43 @@ const useFunctionalityCommonPdfToImageConversion = () => {
               },
             ]);
             if (toImageData.haveImages) {
-              const pageHaveImages = toImageData.haveImages.map((item, index) => {
-                return {
-                  id: uuidV4(),
-                  imageUrlString: item,
-                  isSelect: true,
-                  definedIndex: index,
-                }
-              })
-              setPdfPageHaveImages((prev) => [...prev, ...pageHaveImages])
+              const pageHaveImages = toImageData.haveImages.map(
+                (item, index) => {
+                  return {
+                    id: uuidV4(),
+                    imageUrlString: item,
+                    isSelect: true,
+                    definedIndex: index,
+                  };
+                },
+              );
+              setPdfPageHaveImages((prev) => [...prev, ...pageHaveImages]);
             }
           }
 
           if (pageNum === pdfDocument._pdfInfo.numPages) {
             setPdfIsLoading(false);
-            console.log('simply onReadPdfToImages time', `用时秒数：${(new Date().getTime() - timeNum) / 1000}秒`)
-            resolve(true)
-            return true
+            console.log(
+              'simply onReadPdfToImages time',
+              `用时秒数：${(new Date().getTime() - timeNum) / 1000}秒`,
+            );
+            resolve(true);
+            return true;
           }
         }
       } catch (error) {
         functionalityCommonSnackNotifications(
           `${file.name} ${t(
             'functionality__common:components__common__pdf_encryption_tip',
-          )}`
+          )}`,
         );
-        console.log('simply onReadPdfToImages', error)
+        console.log('simply onReadPdfToImages', error);
         setPdfIsLoading(false);
-        resolve(false)
-        return false
+        resolve(false);
+        return false;
       }
-    })
-  }
+    });
+  };
 
   /**
    * 取消pdf转图片
@@ -155,7 +175,7 @@ const useFunctionalityCommonPdfToImageConversion = () => {
     onCancelPdfActive,
     pdfViewDefaultSize,
     setPdfPageHaveImages,
-    setPdfTotalPages
+    setPdfTotalPages,
   };
 };
 

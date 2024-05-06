@@ -9,17 +9,19 @@ export type IToolUrkKeyType =
   | 'jpeg-to-pdf'
   | 'heic-to-pdf'
   | 'pdf-to-html'
-  | 'sign-pdf'
+  | 'sign-pdf';
 export interface IToolData {
   icon: string;
   title: string;
   description: string;
-  secondaryDescription: string;//进入页面后的提示
+  secondaryDescription: string; //进入页面后的提示
   urlKey: IToolUrkKeyType;
   accept: string;
-  urlPrefixPath?: string
+  urlPrefixPath?: string;
 }
-const routerChildrenObject = (toolsCodeMap.childrenObject as { [key in IToolUrkKeyType]: IToolUrkKeyType });
+const routerChildrenObject = toolsCodeMap.childrenObject as {
+  [key in IToolUrkKeyType]: IToolUrkKeyType;
+};
 const toolsTopUrlKey = toolsCodeMap.topUrlKey;
 export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   'merge-pdf': {
@@ -99,7 +101,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
   },
-  "pdf-to-html": {
+  'pdf-to-html': {
     icon: 'CropOriginal',
     title: 'pages:tools__index_page__constant_obj__pdf_to_html__title',
     description:
@@ -110,7 +112,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
   },
-  "sign-pdf": {
+  'sign-pdf': {
     icon: 'CropOriginal',
     title: 'pages:tools__index_page__constant_obj__sign_pdf__title',
     description:
@@ -120,5 +122,5 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlKey: routerChildrenObject['sign-pdf'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
-  }
+  },
 };

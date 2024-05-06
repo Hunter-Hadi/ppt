@@ -83,7 +83,7 @@ const usePdfImagesDownloader = () => {
           functionalityCommonSnackNotifications(
             t(
               'functionality__pdf_to_image:components__to_image__downloader_tip',
-            )
+            ),
           );
           setDownloaderIsLoading(false);
         }

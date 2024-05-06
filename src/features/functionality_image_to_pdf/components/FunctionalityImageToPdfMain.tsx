@@ -32,6 +32,7 @@ import {
   PDF_IMAGE_POSITION_OPTIONS,
   PDF_PAGE_SIZE_OPTIONS,
 } from '../constant';
+
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
   file: File | Blob;
 };
@@ -44,6 +45,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   const { t } = useTranslation();
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
+
   const [userSelectSizeType, setUserSelectSizeType] = useState<string>('A4');
   const [userSelectPositionType, setUserSelectPositionType] =
     useState<IPdfImagePositionOptionKeyType>(PDF_IMAGE_POSITION_OPTIONS[0].key);

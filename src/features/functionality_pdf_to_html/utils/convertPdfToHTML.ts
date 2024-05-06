@@ -4,82 +4,89 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
-const pageScale = 2
-export const convertPdfToHTMLDivElement = async (file: File, callBackProgress?: (allPage: number, currentNum: number) => void) => {
+const pageScale = 2;
+export const convertPdfToHTMLDivElement = async (
+  file: File,
+  callBackProgress?: (allPage: number, currentNum: number) => void,
+) => {
   try {
-    const wrapDiv = document.createElement("div")
-    wrapDiv.className = 'pdf-wrap'
-    wrapDiv.style.cssText = `--scale-factor: ${pageScale};`
+    const wrapDiv = document.createElement('div');
+    wrapDiv.className = 'pdf-wrap';
+    wrapDiv.style.cssText = `--scale-factor: ${pageScale};`;
     if (file) {
       const buff = await file.arrayBuffer();
       const pdf = await pdfjs.getDocument(buff).promise;
       const numPages = pdf.numPages;
-      callBackProgress && callBackProgress(numPages, 0)
+      callBackProgress && callBackProgress(numPages, 0);
       for (let i = 1; i <= numPages; i++) {
-        callBackProgress && callBackProgress(numPages, i)
+        callBackProgress && callBackProgress(numPages, i);
         const page = await pdf.getPage(i);
         const textContent = await page.getTextContent({
-          includeMarkedContent: true
-        });//获取文本内容列表
+          includeMarkedContent: true,
+        }); //获取文本内容列表
         const pageViewport = page.getViewport({
           scale: pageScale,
-        })//获取页面视图信息
+        }); //获取页面视图信息
 
         //一.渲染背景页面
-        const pageDiv = createPageDiv(pageViewport)
-        const hideTextPageCanvas = await renderPageToCanvas(page, { hideText: true, viewportScale: pageScale })//获取隐藏文字的canvas
-        const pageImgString = hideTextPageCanvas.toDataURL('image/png')
-        pageDiv.append(createPageBgImgDiv(pageImgString || ''))
+        const pageDiv = createPageDiv(pageViewport);
+        const hideTextPageCanvas = await renderPageToCanvas(page, {
+          hideText: true,
+          viewportScale: pageScale,
+        }); //获取隐藏文字的canvas
+        const pageImgString = hideTextPageCanvas.toDataURL('image/png');
+        pageDiv.append(createPageBgImgDiv(pageImgString || ''));
 
         //二.渲染文本页面
-        const textContentDiv = document.createElement("div")
-        textContentDiv.className = 'text-content-list'
-        await pdfjs.renderTextLayer(
-          {
-            textContentSource: textContent,
-            container: textContentDiv,
-            viewport: pageViewport,
-          }
-        )
+        const textContentDiv = document.createElement('div');
+        textContentDiv.className = 'text-content-list';
+        await pdfjs.renderTextLayer({
+          textContentSource: textContent,
+          container: textContentDiv,
+          viewport: pageViewport,
+        });
 
-        pageDiv.append(textContentDiv)
+        pageDiv.append(textContentDiv);
         wrapDiv.appendChild(pageDiv);
       }
     }
 
     return createHtmlString(wrapDiv.outerHTML);
   } catch (e) {
-    console.log('simply convertPdfToHTMLDivElement error :', e)
-    return false
+    console.log('simply convertPdfToHTMLDivElement error :', e);
+    return false;
   }
 };
 const createPageDiv = (pageViewport) => {
-  const pageDiv = document.createElement("div")
-  pageDiv.className = 'page'
-  pageDiv.style.position = "relative"
-  pageDiv.style.height = `${pageViewport.height}px`
-  pageDiv.style.width = `${pageViewport.width}px`
-  return pageDiv
-}
+  const pageDiv = document.createElement('div');
+  pageDiv.className = 'page';
+  pageDiv.style.position = 'relative';
+  pageDiv.style.height = `${pageViewport.height}px`;
+  pageDiv.style.width = `${pageViewport.width}px`;
+  return pageDiv;
+};
 const createPageBgImgDiv = (imgData: string) => {
-  const backgroundDiv = document.createElement("div")
-  backgroundDiv.className = "canvasLayer"
-  const backgroundImg = document.createElement("img")
-  backgroundImg.src = imgData
-  backgroundDiv.append(backgroundImg)
-  return backgroundDiv
-}
+  const backgroundDiv = document.createElement('div');
+  backgroundDiv.className = 'canvasLayer';
+  const backgroundImg = document.createElement('img');
+  backgroundImg.src = imgData;
+  backgroundDiv.append(backgroundImg);
+  return backgroundDiv;
+};
 
 //渲染操作保持原有逻辑的同时，能够按需忽略文本渲染
-const renderPageToCanvas = async (page, options = { hideText: true, viewportScale: 1 }) => {
+const renderPageToCanvas = async (
+  page,
+  options = { hideText: true, viewportScale: 1 },
+) => {
   // 保存原始的CanvasRenderingContext2D的文本方法
   const originalStrokeText = CanvasRenderingContext2D.prototype.strokeText;
   const originalFillText = CanvasRenderingContext2D.prototype.fillText;
 
   // 如果hideText为true，则替换strokeText和fillText方法，使其不做任何事情
   if (options.hideText) {
-    CanvasRenderingContext2D.prototype.strokeText = function () { };
-    CanvasRenderingContext2D.prototype.fillText = function () { };
+    CanvasRenderingContext2D.prototype.strokeText = function () {};
+    CanvasRenderingContext2D.prototype.fillText = function () {};
   }
 
   // 根据提供的选项中的viewportScale设置viewport
@@ -94,7 +101,7 @@ const renderPageToCanvas = async (page, options = { hideText: true, viewportScal
   // 渲染PDF页面到canvas
   await page.render({
     canvasContext: context,
-    viewport: viewport
+    viewport: viewport,
   }).promise;
 
   // 渲染结束后，如果hideText为真，则恢复原有的文本方法
@@ -105,7 +112,7 @@ const renderPageToCanvas = async (page, options = { hideText: true, viewportScal
 
   // 返回已渲染的canvas元素
   return canvas;
-}
+};
 
 export const createHtmlString = (bodyString: string) => {
   return `<!DOCTYPE html><html><head>
@@ -348,5 +355,5 @@ export const createHtmlString = (bodyString: string) => {
 <body>
  ${bodyString}
 </body>
-</html>`
-}
+</html>`;
+};
