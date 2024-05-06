@@ -9,6 +9,7 @@ export type IToolUrkKeyType =
   | 'jpeg-to-pdf'
   | 'heic-to-pdf'
   | 'pdf-to-html'
+  | 'sign-pdf'
 export interface IToolData {
   icon: string;
   title: string;
@@ -107,6 +108,17 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_to_html__description',
     urlKey: routerChildrenObject['pdf-to-html'],
     accept: 'image/heic',
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  "sign-pdf": {
+    icon: 'CropOriginal',
+    title: 'pages:tools__index_page__constant_obj__sign_pdf__title',
+    description:
+      'pages:tools__index_page__constant_obj__sign_pdf__main_description',
+    secondaryDescription:
+      'pages:tools__index_page__constant_obj__sign_pdf__secondary_description',
+    urlKey: routerChildrenObject['sign-pdf'],
+    accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   }
 };

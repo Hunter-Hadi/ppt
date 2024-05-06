@@ -2,8 +2,9 @@ import FileOpenOutlinedIcon from '@mui/icons-material/FileOpenOutlined';
 import { Stack, Typography } from '@mui/material';
 import Button, { ButtonProps } from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import React, { type FC, useMemo } from 'react';
+import React, { type FC, useEffect, useMemo, useState } from 'react';
 
 import useViewDropEvent from '@/features/common/hooks/useViewDropEvent';
 
@@ -23,6 +24,7 @@ export interface IUploadButtonProps {
   isDrag?: boolean;
   onChange?: (fileList: FileList) => void;
   handleUnsupportedFileType?: () => void;
+  fontColor?: string;
 }
 
 const UploadButton: FC<
@@ -30,6 +32,8 @@ const UploadButton: FC<
     children: React.ReactNode;
   }
 > = (props) => {
+  const { isReady } = useRouter();
+  const [isPageLoadingComplete, setIsPageLoadingComplete] = useState(false);
   const {
     children,
     onChange,
@@ -37,9 +41,12 @@ const UploadButton: FC<
     handleUnsupportedFileType,
     buttonProps,
     inputProps,
+    fontColor,
   } = props;
   const { t } = useTranslation();
-
+  useEffect(() => {
+    setIsPageLoadingComplete(isReady);
+  }, [isReady]);
   const fileMatchesAccept = (fileType: string, acceptString: string) => {
     // 将accept字符串按照","拆分成多个类型
     const types = acceptString.split(',');
@@ -98,18 +105,20 @@ const UploadButton: FC<
       sx={{
         position: 'relative',
       }}
+      disabled={!isPageLoadingComplete}
       {...(buttonProps as any)}
     >
       {!isSidebarDragOver && children}
       {isSidebarDragOver && (
         <Stack direction='column' alignItems='center'>
-          <FileOpenOutlinedIcon sx={{ fontSize: 50 }} />
+          <FileOpenOutlinedIcon sx={{ fontSize: 50, color: fontColor }} />
           <Typography
             sx={{
               fontSize: {
                 xs: 18,
                 lg: 20,
               },
+              color: fontColor,
             }}
           >
             {t('features__common:components__upload_button_drop_title')}

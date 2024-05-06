@@ -39,6 +39,12 @@ const FunctionalityPdfToHtmlMain = lazy(
       '@/features/functionality_pdf_to_html/components/FunctionalityPdfToHtmlMain'
     ),
 );
+const FunctionalitySignPdfMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_sign_pdf/components/FunctionalitySignPdfMain'
+    ),
+);
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -84,6 +90,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_to_html__title'),
       description: t('seo:pdf_tools__pdf_to_html__description'),
     },
+    'sign-pdf': {
+      title: t('seo:pdf_tools__sign_pdf__title'),
+      description: t('seo:pdf_tools__sign_pdf__description'),
+    },
   };
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];
   const toolList = useMemo(
@@ -125,6 +135,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             <FunctionalityImageToPdfMain accept={currentToolData.accept} />
           )}
           {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
+          {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
         </Suspense>
       </Box>
       {toolsDetailDescriptionData && (
