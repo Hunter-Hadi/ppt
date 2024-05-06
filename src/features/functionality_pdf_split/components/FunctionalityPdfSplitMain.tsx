@@ -228,7 +228,7 @@ export const FunctionalityPdfSplitMain = () => {
         ],
       },
     ],
-    [currentIsLoading, isSelectAll, convertedPdfImages],
+    [currentIsLoading, isSelectAll, convertedPdfImages, t],
   );
   const StackViewWrap = (props) => (
     <Stack

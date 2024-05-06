@@ -208,7 +208,7 @@ const FunctionalityPdfMergeMain = () => {
         },
       },
     ],
-    [isLoading],
+    [isLoading, t],
   );
   const BoxViewWrap = (props) => (
     <Box

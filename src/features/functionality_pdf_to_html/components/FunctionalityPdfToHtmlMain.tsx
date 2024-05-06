@@ -1,6 +1,6 @@
 import { Box, CircularProgress, Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
 import {
@@ -57,7 +57,7 @@ const FunctionalityPdfToHtmlMain = () => {
     }
     setIsLoading(false);
   };
-  const downloadHtml = () => {
+  const downloadHtml = useCallback(() => {
     if (htmlString) {
       downloadUrl(
         htmlString,
@@ -65,7 +65,7 @@ const FunctionalityPdfToHtmlMain = () => {
         'text/html',
       );
     }
-  };
+  }, [htmlString, fileName]);
   const handleUnsupportedFileType = () => {
     functionalityCommonSnackNotifications(
       t(
@@ -100,7 +100,7 @@ const FunctionalityPdfToHtmlMain = () => {
         },
       },
     ],
-    [isLoading, htmlString, fileName],
+    [isLoading, downloadHtml, t],
   );
   const BoxViewWrap = (props) => (
     <Box
