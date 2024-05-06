@@ -6,7 +6,7 @@ import { useRecoilState } from 'recoil';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
-import snackNotifications from '@/utils/globalSnackbar';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
 
 import {
   FunctionalitySignPdfOperationOBjectAtom,
@@ -31,16 +31,10 @@ const FunctionalitySignPdfMain = () => {
     }
   };
   const handleUnsupportedFileType = () => {
-    snackNotifications.warning(
+    functionalityCommonSnackNotifications(
       t(
         'functionality__sign_pdf:components__sign_pdf__unsupported_file_type_tip',
       ),
-      {
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-      },
     );
   };
   const onClearReturn = () => {

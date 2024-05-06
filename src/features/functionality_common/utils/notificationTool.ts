@@ -1,7 +1,7 @@
 import snackNotifications from '@/utils/globalSnackbar';
 
-export const functionalityCommonSnackNotifications = (message: string) => {
-    snackNotifications.warning(
+export const functionalityCommonSnackNotifications = (message: string, type: string = 'warning') => {
+    snackNotifications[type](
         message,
         {
             anchorOrigin: {
