@@ -25,7 +25,8 @@ import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
+import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 export const FunctionalityPdfSplitMain = () => {
   const { t } = useTranslation();
@@ -80,8 +81,11 @@ export const FunctionalityPdfSplitMain = () => {
     if (selectPdfPageList.length > 0) {
       if (isMergeSinglePDf) {
         const downloadPdfData = await getMergePdfFiles(selectPdfPageList);
+        const fileName = functionalityCommonRemoveAndAddFileExtension(
+          'split-' + activeFile?.name || '',
+        );
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, 'split(MaxAI.me).pdf');
+          downloadUrl(downloadPdfData, fileName);
         }
       } else {
         const pdfUint8ArrayList = await getSplitPdfFiles(selectPdfPageList);
@@ -92,12 +96,17 @@ export const FunctionalityPdfSplitMain = () => {
   };
   const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
     const zip = new JSZip();
-    const zipTool = zip.folder('pdfs(MaxAI.me)');
+    const folderName = functionalityCommonRemoveAndAddFileExtension(
+      'split-' + activeFile?.name || '',
+      'pdf',
+      '',
+    );
+    const zipTool = zip.folder(folderName);
     for (let i = 0; i < list.length; i++) {
-      zipTool?.file(`split-${i + 1}(MaxAI.me).pdf`, list[i]);
+      zipTool?.file(`split-${i + 1}(Powered by MaxAI).pdf`, list[i]);
     }
     zip.generateAsync({ type: 'blob' }).then((content) => {
-      FileSaver.saveAs(content, 'pdfs(MaxAI.me).zip');
+      FileSaver.saveAs(content, folderName + '.zip');
     });
   };
   const getSplitPdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {

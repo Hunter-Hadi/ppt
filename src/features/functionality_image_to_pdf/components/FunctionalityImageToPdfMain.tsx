@@ -25,7 +25,7 @@ import FunctionalityCommonTooltip from '@/features/functionality_common/componen
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 import {
   IPdfImagePositionOptionKeyType,
@@ -182,7 +182,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       }
       setTotalPages(0);
       const pdfBytes = await pdfDoc.save();
-      downloadUrl(pdfBytes, 'images(MaxAI.me).pdf');
+      downloadUrl(pdfBytes, 'images(Powered by MaxAI).pdf');
       setIsLoading(false);
     } catch (error) {
       setIsLoading(false);

@@ -9,7 +9,8 @@ import {
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
+import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 import { convertPdfToHTMLDivElement } from '@/features/functionality_pdf_to_html/utils/convertPdfToHTML';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -27,11 +28,13 @@ const FunctionalityPdfToHtmlMain = () => {
     setIsLoading(true);
     if (fileList[0]) {
       //去除文件名后缀
-      const fileAllName = fileList[0].name;
-      const suffixName = fileAllName.slice(-4);
-      setFileName(
-        suffixName === '.pdf' ? fileAllName.slice(0, -4) : fileAllName,
+      const fileName = functionalityCommonRemoveAndAddFileExtension(
+        fileList[0]?.name || '',
+        'pdf',
+        '',
+        '',
       );
+      setFileName(fileName);
 
       const htmlString = await convertPdfToHTMLDivElement(
         fileList[0],
@@ -56,7 +59,11 @@ const FunctionalityPdfToHtmlMain = () => {
   };
   const downloadHtml = () => {
     if (htmlString) {
-      downloadUrl(htmlString, `${fileName}(MaxAI.me).html`, 'text/html');
+      downloadUrl(
+        htmlString,
+        `${fileName}(Powered by MaxAI).html`,
+        'text/html',
+      );
     }
   };
   const handleUnsupportedFileType = () => {

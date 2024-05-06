@@ -4,7 +4,7 @@ import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 const FunctionalityPdfToImageDetail = lazy(
   () =>

@@ -19,7 +19,7 @@ import FunctionalityCommonTooltip from '@/features/functionality_common/componen
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/notificationTool';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 export type IFunctionalityPdfFileInfoType = IFunctionalityCommonImageInfo & {
   name: string;
   file: File;
@@ -148,7 +148,7 @@ const FunctionalityPdfMergeMain = () => {
       if (files) {
         const downloadPdfData = await mergePdfFiles(files);
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, 'merge(MaxAI.me).pdf');
+          downloadUrl(downloadPdfData, 'merge(Powered by MaxAI).pdf');
         }
         setIsLoading(false);
       }

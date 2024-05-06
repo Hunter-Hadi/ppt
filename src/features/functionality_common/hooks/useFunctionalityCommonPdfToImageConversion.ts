@@ -7,7 +7,7 @@ import { v4 as uuidV4 } from 'uuid';
 import { generatePdfPageToImage } from '@/features/functionality_common/utils/functionalityCommonGetPdfFilePageToImage';
 
 import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
-import { functionalityCommonSnackNotifications } from '../utils/notificationTool';
+import { functionalityCommonSnackNotifications } from '../utils/functionalityCommonNotificationTool';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',

@@ -119,7 +119,7 @@ const FunctionalityPdfToImageDetail: FC<
           : defaultPdfToImageScale * maxSizeScaleNum,
       );
     } else {
-      onDownloadPdfImagesZip(currentShowImages, toType);
+      onDownloadPdfImagesZip(currentShowImages, toType, fileData);
     }
   };
   const onCancel = () => {
