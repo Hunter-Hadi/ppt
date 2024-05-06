@@ -1,5 +1,6 @@
 import { Box, CircularProgress, Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
+// import pica from 'pica';
 import { useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
@@ -20,7 +21,51 @@ const FunctionalityCompressPdfMain = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数
   const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数
-  const onCompressPdf = () => {};
+  const onCompressPdf = async () => {
+    try {
+      if (file) {
+        const buff = await file.arrayBuffer();
+        const pdf = await pdfjs.getDocument(buff).promise;
+        const numPages = pdf.numPages;
+        for (let i = 1; i <= numPages; i++) {
+          const page = await pdf.getPage(i);
+          const textContent = await page.getTextContent({
+            includeMarkedContent: true,
+          }); //获取文本内容列表
+          const ops = await page.getOperatorList();
+          const imageNames = ops.fnArray.reduce((acc, curr, i) => {
+            if (
+              [pdfjs.OPS.paintImageXObject, pdfjs.OPS.paintXObject].includes(
+                curr,
+              )
+            ) {
+              (acc as any[]).push(ops.argsArray[i][0]);
+            }
+            return acc;
+          }, []);
+          for (let i = 0; i < imageNames.length; i++) {
+            page.objs.get(imageNames[i], (image) => {
+              (async () => {
+                try {
+                  console.log('simply image', image);
+                } catch (e) {
+                  console.error('simply image error', e);
+                }
+              })();
+            });
+          }
+          console.log('simply textContent', textContent, imageNames);
+        }
+      }
+    } catch (e) {
+      setIsLoading(false);
+      console.error('simply mergePdfFiles error', e);
+      functionalityCommonSnackNotifications(
+        t('functionality__pdf_split:components__pdf_split__error_maximum'),
+      );
+    }
+  };
+  async function createPdfWithImages(images) {}
   const onUploadFile = async (fileList: FileList) => {
     if (fileList[0]) {
       setFile(fileList[0]);
@@ -59,7 +104,7 @@ const FunctionalityCompressPdfMain = () => {
         },
       },
     ],
-    [isLoading],
+    [isLoading, file],
   );
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(

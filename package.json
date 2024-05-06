@@ -53,6 +53,7 @@
     "next-seo": "^5.15.0",
     "notistack": "^2.0.8",
     "pdf-lib": "^1.17.1",
+    "pica": "^9.0.1",
     "prop-types": "^15.8.1",
     "pureimage": "^0.3.17",
     "react": "18.2.0",
