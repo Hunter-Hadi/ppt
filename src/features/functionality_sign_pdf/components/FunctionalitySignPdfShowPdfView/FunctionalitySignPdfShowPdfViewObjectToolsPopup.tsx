@@ -16,6 +16,7 @@ import {
   onChangeFabricFontStyle,
 } from '@/features/functionality_sign_pdf/utils/fabricjsTools';
 
+import { SIGN_TEXT_FONT_FAMILY_LIST } from '../../constant';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
 import FunctionalitySignPdfCommonButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfCommonButtonPopover';
 import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
@@ -182,24 +183,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
             isShowFontsName={true}
             fontSize={18}
             onSelectedFont={onSelectedFonts}
-            fontsList={[
-              'Concert One',
-              'Roboto',
-              'Courier Prime',
-              'Noto Serif',
-              'EB Garamond',
-              'Ma Shan Zheng',
-              'Oswald',
-              'Playfair Display',
-              'Roboto Slab',
-              'Embed code',
-              'Teko',
-              'Pacifico',
-              'Lobster',
-              'Permanent Marker',
-              'Zeyada',
-              'Orbitron',
-            ]}
+            fontsList={SIGN_TEXT_FONT_FAMILY_LIST}
           />
         )}
         {(isText || isDateValid) && (

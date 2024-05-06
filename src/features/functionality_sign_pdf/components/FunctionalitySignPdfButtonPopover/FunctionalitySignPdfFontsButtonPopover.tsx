@@ -1,8 +1,8 @@
 import { Box, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
-import { useTranslation } from 'next-i18next';
 import { FC, useEffect, useMemo, useState } from 'react';
 
+import { SIGN_TYPING_FONT_FAMILY_LIST } from '../../constant';
 import FunctionalitySignPdfCommonButtonPopover from './FunctionalitySignPdfCommonButtonPopover';
 interface IFunctionalitySignPdfColorButtonPopoverProps {
   currentFont?: string;
@@ -26,15 +26,12 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
   fontsList,
   title,
 }) => {
-  const { t } = useTranslation();
   const defaultAndCustomFontsList = useMemo(
-    () => [...(fontsList || []), 'Caveat', 'La Belle Aurore', 'Dancing Script'],
+    () => [...(fontsList || []), ...SIGN_TYPING_FONT_FAMILY_LIST],
     [fontsList],
   );
   const [newCurrentFont, setNewCurrentFont] = useState(
-    t(
-      'functionality__sign_pdf:components__sign_pdf__button_popover__change_style',
-    ),
+    defaultAndCustomFontsList[0],
   );
 
   const handleColorSelect = (fonts) => {
@@ -58,6 +55,7 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
               <Button
                 sx={{
                   width: '100%',
+                  bgcolor: newCurrentFont === fonts ? '#d1d5db' : 'transparent',
                 }}
                 onClick={() => handleColorSelect(fonts)}
               >

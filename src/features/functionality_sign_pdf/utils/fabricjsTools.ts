@@ -3,6 +3,7 @@ import { fabric } from 'fabric';
 import { FabricJSEditor } from "fabricjs-react";
 import { v4 as uuidV4 } from 'uuid';
 
+import { SIGN_TEXT_FONT_FAMILY_LIST } from '../constant';
 import { findFirstNonTransparentPixel } from "./colorTools";
 
 //自动的检查top是否超出画布范围
@@ -33,6 +34,7 @@ export const onFabricAddObject = async (editor, position: {
             hasRotatingPoint: false, // 禁用旋转控制点
             lockRotation: true, // 锁定旋转
         };
+        const defaultTextFontFamily = SIGN_TEXT_FONT_FAMILY_LIST[0]
         if (type === 'image') {
             const image = new Image();
             image.src = value;
@@ -85,6 +87,7 @@ export const onFabricAddObject = async (editor, position: {
                 maxScaleLimit: 1,
                 width: 300,
             });
+            text.fontFamily = defaultTextFontFamily
             createObjectData = text
         } else if (type === 'text') {
             positionData.left = positionData.left - 50 / 2;
@@ -94,7 +97,9 @@ export const onFabricAddObject = async (editor, position: {
                 minScaleLimit: 1,
                 maxScaleLimit: 1,
             });
+            text.fontFamily = defaultTextFontFamily
             createObjectData = text
+
         } else if (type === 'i-text') {
             positionData.left = positionData.left - 200 / 2;
             const isDateValid = dayjs(value).isValid();
@@ -103,6 +108,7 @@ export const onFabricAddObject = async (editor, position: {
                 minScaleLimit: 1,
                 maxScaleLimit: 1,
             });
+            text.fontFamily = defaultTextFontFamily
             text.isDateValid = isDateValid
             createObjectData = text
         }
