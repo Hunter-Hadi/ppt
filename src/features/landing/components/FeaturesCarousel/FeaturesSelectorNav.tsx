@@ -76,7 +76,10 @@ const FeaturesSelectorNav: FC<IProps> = ({
           <Button
             sx={{
               position: 'absolute',
-              padding: 1,
+              padding: {
+                xs: 1.6,
+                sm: 1,
+              },
               borderRadius: '50%',
               top: '50%',
               right: '-12px',
@@ -95,7 +98,10 @@ const FeaturesSelectorNav: FC<IProps> = ({
           >
             <ArrowForwardIosOutlinedIcon
               sx={{
-                fontSize: 18,
+                fontSize: {
+                  xs: 20,
+                  sm: 18,
+                },
               }}
             />
           </Button>
@@ -103,7 +109,10 @@ const FeaturesSelectorNav: FC<IProps> = ({
           <Button
             sx={{
               position: 'absolute',
-              padding: 1,
+              padding: {
+                xs: 1.6,
+                sm: 1,
+              },
               borderRadius: '50%',
               top: '50%',
               left: '-12px',
@@ -123,7 +132,10 @@ const FeaturesSelectorNav: FC<IProps> = ({
           >
             <ArrowBackIosNewOutlinedIcon
               sx={{
-                fontSize: 18,
+                fontSize: {
+                  xs: 20,
+                  sm: 18,
+                },
               }}
             />
           </Button>

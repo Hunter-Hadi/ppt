@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { useEffect } from 'react';
@@ -94,8 +94,8 @@ const FeaturesCarousel = () => {
 
   const [showNavButton, setShowNavButton] = React.useState(false);
 
-  // const theme = useTheme();
-  // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  const theme = useTheme();
+  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
   const featuresSelectorScrollContainerRef = React.useRef<HTMLDivElement>(null);
 
@@ -237,7 +237,8 @@ const FeaturesCarousel = () => {
         </Typography>
 
         <FeaturesSelectorNav
-          showNavButton={showNavButton}
+          // 小屏幕时，一致显示 nav btn
+          showNavButton={isDownSm ? true : showNavButton}
           activeValue={activeFeature}
           containerRef={featuresSelectorScrollContainerRef}
           onClick={(targetItem) => {
