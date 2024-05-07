@@ -56,6 +56,7 @@ const FAQ_PRICING: IFAQItem[] = [
           href={`${APP_PROJECT_LINK}/pricing/team`}
           color='inherit'
           underline='always'
+          target={'_blank'}
         >
           {t('modules:faq_list__question5__desc__part2')}
         </ProLink>
