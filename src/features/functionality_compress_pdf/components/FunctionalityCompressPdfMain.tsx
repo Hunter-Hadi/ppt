@@ -21,10 +21,10 @@ const FunctionalityCompressPdfMain = () => {
   const [file, setFile] = useState<File | null>(null);
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [compression, setCompression] = useState<'low' | 'basic' | 'strong'>(
-    'basic',
-  );
-  const [sizeDiff, setSizeDiff] = useState<
+  const [compressionGrade, setCompressionGrade] = useState<
+    'low' | 'basic' | 'strong'
+  >('basic');
+  const [pdfSizeDiff, setPdfSizeDiff] = useState<
     { after: number; before: number } | undefined
   >(undefined);
 
@@ -50,7 +50,7 @@ const FunctionalityCompressPdfMain = () => {
   const onCompressPdf = async () => {
     try {
       if (file) {
-        setSizeDiff(undefined);
+        setPdfSizeDiff(undefined);
         setIsLoading(true);
         const pdfData = await file.arrayBuffer();
         try {
@@ -72,9 +72,9 @@ const FunctionalityCompressPdfMain = () => {
                 `image/${image.type}`,
               );
               let quality = 0.85;
-              if (compression === 'strong') {
+              if (compressionGrade === 'strong') {
                 quality = 0.1;
-              } else if (compression === 'basic') {
+              } else if (compressionGrade === 'basic') {
                 quality = 0.5;
               }
               const newData = await imageToUint8Array({
@@ -94,7 +94,7 @@ const FunctionalityCompressPdfMain = () => {
 
           const bytes = await doc!.save();
           const blob = new Blob([bytes], { type: 'application/pdf' });
-          setSizeDiff({
+          setPdfSizeDiff({
             before: pdfData!.byteLength,
             after: bytes.byteLength,
           });
@@ -165,12 +165,12 @@ const FunctionalityCompressPdfMain = () => {
           color: 'error',
           onClick: () => {
             setFile(null);
-            setSizeDiff(undefined);
+            setPdfSizeDiff(undefined);
           },
         },
       },
     ],
-    [isLoading, file, compression],
+    [isLoading, file, compressionGrade],
   );
   const BoxViewWrap = (props) => (
     <Stack
@@ -250,7 +250,9 @@ const FunctionalityCompressPdfMain = () => {
                     alignItems='center'
                     onClick={() => {
                       if (!isLoading) {
-                        setCompression(item.key as 'low' | 'basic' | 'strong');
+                        setCompressionGrade(
+                          item.key as 'low' | 'basic' | 'strong',
+                        );
                       }
                     }}
                     gap={2}
@@ -258,7 +260,7 @@ const FunctionalityCompressPdfMain = () => {
                       padding: 1.5,
                       cursor: isLoading ? '' : 'pointer',
                       border: `1px solid ${
-                        item.key === compression ? '#9065B0' : '#e8e8e8'
+                        item.key === compressionGrade ? '#9065B0' : '#e8e8e8'
                       }`,
                       borderRadius: 1,
                       mt: 1,
@@ -273,7 +275,7 @@ const FunctionalityCompressPdfMain = () => {
                       justifyContent='center'
                       sx={{
                         border: `1px solid ${
-                          item.key === compression ? '#9065B0' : '#e8e8e8'
+                          item.key === compressionGrade ? '#9065B0' : '#e8e8e8'
                         }`,
                         width: 20,
                         height: 20,
@@ -283,7 +285,9 @@ const FunctionalityCompressPdfMain = () => {
                       <Box
                         sx={{
                           bgcolor:
-                            item.key === compression ? '#9065B0' : 'transcript',
+                            item.key === compressionGrade
+                              ? '#9065B0'
+                              : 'transcript',
                           width: 17,
                           height: 17,
                           borderRadius: 10,
@@ -323,7 +327,7 @@ const FunctionalityCompressPdfMain = () => {
             buttonConfigs={compressBeforeButtonConfigs}
             gridSize={{ xs: 12, md: 4 }}
           />
-          {sizeDiff && (
+          {pdfSizeDiff && (
             <Typography
               fontSize={{
                 xs: 12,
@@ -337,17 +341,17 @@ const FunctionalityCompressPdfMain = () => {
               {t(
                 'functionality__compress_pdf:components__compress_pdf__main__current_pdf_size',
               )}
-              :{(sizeDiff.after / 1000).toFixed(2)}kB!
+              :{(pdfSizeDiff.after / 1000).toFixed(2)}kB!
               {t(
                 'functionality__compress_pdf:components__compress_pdf__main__original_pdf_size',
               )}
-              :{(sizeDiff.before / 1000).toFixed(2)}kB!
+              :{(pdfSizeDiff.before / 1000).toFixed(2)}kB!
               <p style={{ textAlign: 'center' }}>
                 {t(
                   'functionality__compress_pdf:components__compress_pdf__main__different_pdf_size',
                   {
                     DiFF_NUMBER: (
-                      (1 - sizeDiff.after / sizeDiff.before) *
+                      (1 - pdfSizeDiff.after / pdfSizeDiff.before) *
                       100
                     ).toFixed(0),
                   },
