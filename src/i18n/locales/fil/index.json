@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Buksan ang iyong PDF sa PDF Signer.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Gumuhit o mag-upload ng iyong lagda.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "I-adjust ang laki at posisyon ng lagda ayon sa kailangan.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "I-click para i-download ang iyong naka-sign na PDF ngayon, lahat ay handa at ligtas."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "I-click para i-download ang iyong naka-sign na PDF ngayon, lahat ay handa at ligtas.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Pisilin ang PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Bawasan ang laki ng PDF sa pamamagitan ng pagpupisil ng teksto at mga nakasulat na imahe gamit ang lokal na browser",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Mabilis na bawasan ang laki ng iyong mga dokumento sa PDF gamit ang aming pangunahing online na tool para sa Pagsisilid ng PDF, na nagbibigay ng mataas na kalidad na resulta na may maximum na seguridad at kahusayan.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Mabilis na proseso ng pagsisilid ng PDF",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Walang kailangang i-install na panlabas na software",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Ligtas at kumpidensyal – ang iyong mga file ay pinoproseso nang lokal sa iyong browser",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Mabilis at Epektibong Pagsisilid",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Mabilis na bawasan ang laki ng PDF nang hindi nagkakasakripisyo sa kalidad. Ang aming tool ay nag-o-optimize ng iyong mga file para sa mas mabilis na pagbabahagi at minimal na paggamit ng imbakan.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Panatilihin ang Kalidad",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Tiyakin ng aming advanced na teknolohiya na ang visual na integridad ng iyong mga PDF ay nananatiling buo, pinapanatili ang linaw at pagbabasa ng mga imahe at teksto.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokal na Proseso para sa Pinalakas na Seguridad",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Binibigyang-prioridad namin ang iyong privacy. Ang buong proseso ng pagsisilid ay isinasagawa sa loob ng iyong browser, tiyaking hindi umaalis ang iyong mga dokumento sa iyong aparato.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Pangkalahatang Pagiging Accessible",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Maa-access mula saanman, ang aming online na tool para sa Pagsisilid ng PDF ay nagbibigay-daan sa iyo na bawasan ang laki ng mga file sa anumang aparato nang walang kailangang i-install.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Kakayahang Magtrabaho Nang Offline",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Paganahin ang pagsisilid kahit na wala kang koneksyon sa internet. I-preload ang pahina, at maaari kang magpatuloy sa pagsisilid ng file nang hindi kailangan ng koneksyon sa internet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Mga Custom na Setting para sa Pagsisilid",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "I-adjust ang antas ng pagsisilid ayon sa iyong mga pangangailangan, nagbibigay-daan sa mga custom na pag-aayos upang balansehin ang pagbawas ng laki ng file at kalidad ng imahe, tiyaking optimal na resulta para sa bawat uri ng dokumento.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Paano Nang Madali na Pagsisilid ng PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "I-upload ang iyong PDF sa online na tool para sa pagsisilid.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Agaran na pinoproseso ng tool ang iyong file, binabawasan ang laki nito habang pinapanatili ang kalidad.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "I-download ang pagsisilid na PDF sa iyong aparato kaagad matapos ang pagsisilid.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Suriin ang kalidad at laki ng pagsisilid na PDF sa pamamagitan ng pagbukas nito sa iyong piniling PDF reader."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF sa HTML - I-convert ang Mga PDF File sa HTML Online nang Libre | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "I-convert ang PDF sa HTML online nang libre. Panatilihin ang layout at i-convert ang mga imahe sa HTML. Walang watermark, limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
     "pdf_tools__sign_pdf__title": "Pagsasangguni ng PDF - Pagdagdag ng Digital na Lagda sa Mga PDF File Nang Libre at Lokal | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Madaling magdagdag ng digital na lagda sa mga PDF file nang libre at ligtas sa lokal na mga device, tiyaking maximum na privacy at seguridad. Walang watermark, limitasyon sa laki ng file, pag-download, o pagrehistro na kinakailangan."
+    "pdf_tools__sign_pdf__description": "Madaling magdagdag ng digital na lagda sa mga PDF file nang libre at ligtas sa lokal na mga device, tiyaking maximum na privacy at seguridad. Walang watermark, limitasyon sa laki ng file, pag-download, o pagrehistro na kinakailangan.",
+    "pdf_tools__compress_pdf__title": "Pisilin ang PDF – Pagsisilid ng Laki ng PDF Online | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Pisilin ang mga file ng PDF sa lokal na browser upang tiyakin ang mabilis at ligtas na pagganap. Walang watermark, limitasyon sa laki ng file, pag-download, o pagsusuri na kinakailangan."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Tahanan ng Pagsasagawa ng PDF",
     "components__sign_pdf__icon__sign": "Lagda",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Magtype ng isang bagay..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Mababa",
+    "components__compress_pdf__main__compress_basic_grade_title": "Pangunahin",
+    "components__compress_pdf__main__compress_basic_grade_description": "Katamtamang laki ng file, karaniwang resolusyon",
+    "components__compress_pdf__main__compress_strong_grade_title": "Matatag",
+    "components__compress_pdf__main__compress_strong_grade_description": "Maliit na laki ng file, mas mababang resolusyon",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
+    "components__compress_pdf__main__compress_download": "Pisilin at I-download",
+    "components__compress_pdf__main__choose_another_file": "Pumili ng ibang file",
+    "components__compress_pdf__main__current_pdf_size": "Kasalukuyang laki ng PDF",
+    "components__compress_pdf__main__original_pdf_size": "orihinal na laki",
+    "components__compress_pdf__main__different_pdf_size": "Iba sa dati {{DiFF_NUMBER}}% mas maliit!",
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimum na laki ng file, Mas mataas na resolusyon"
   }
 }

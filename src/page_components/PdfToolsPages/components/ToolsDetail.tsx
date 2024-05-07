@@ -101,8 +101,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__sign_pdf__description'),
     },
     'compress-pdf': {
-      title: t('seo:pdf_tools__sign_pdf__title'),
-      description: t('seo:pdf_tools__sign_pdf__description'),
+      title: t('seo:pdf_tools__compress_pdf__title'),
+      description: t('seo:pdf_tools__compress_pdf__description'),
     },
   };
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];

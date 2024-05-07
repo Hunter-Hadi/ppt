@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF İmzalayıcı'da PDF'nizi açın.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "İmzanızı çizin veya yükleyin.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "İmzanın boyutunu ve konumunu gerektiği gibi ayarlayın.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "İmzalı PDF'inizi şimdi indirmek için tıklayın, her şey hazır ve güvende."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "İmzalı PDF'inizi şimdi indirmek için tıklayın, her şey hazır ve güvende.",
+    "tools__index_page__constant_obj__compress_pdf__title": "PDF Sıkıştır",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Metin ve gömülü resimleri tarayıcıda sıkıştırarak PDF boyutunu azaltın",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Keskin çevrimiçi PDF Sıkıştırma aracımızla PDF belgelerinizin boyutunu hızlı bir şekilde azaltın, yüksek kaliteli sonuçlar elde edin ve maksimum güvenlik ve verimlilik sağlayın.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Hızlı PDF sıkıştırma işlemi",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Harici yazılım kurulumu gerekmez",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Son derece güvenli ve gizli - dosyalarınız yerel olarak tarayıcınızda işlenir",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Hızlı ve Verimli Sıkıştırma",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Kaliteyi bozmadan hızlı PDF boyutu azaltma deneyimi yaşayın. Aracımız dosyalarınızı daha hızlı paylaşmak ve minimum depolama kullanımı için optimize eder.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Kaliteyi Koruyun",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Gelişmiş teknolojimiz, PDF'lerinizin görsel bütünlüğünün korunduğundan emin olur, hem resimlerin hem de metnin netliğini ve okunabilirliğini korur.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Geliştirilmiş Güvenlik için Yerel İşleme",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Gizliliğinizi önceliklendiriyoruz. Tüm sıkıştırma işlemi tarayıcınızda gerçekleştirilir, belgeleriniz cihazınızdan çıkmaz.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Evrensel Erişilebilirlik",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Her yerden erişilebilir, çevrimiçi PDF Sıkıştırma aracımız sayesinde herhangi bir kurulum yapmadan dosya boyutlarını azaltabilirsiniz.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Çevrimdışı Yetenek",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Çevrimdışıyken bile sıkıştırma yapın. Sayfayı ön yükleyin ve internet bağlantısı gerektirmeden dosya sıkıştırmaya devam edebilirsiniz.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Özel Sıkıştırma Ayarları",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Sıkıştırma düzeyini belgelerinizin türüne göre özelleştirin, dosya boyutu azaltma ve görsel kalite arasında denge sağlamak için özel ayarlamalar yapın ve her tür belge için en iyi sonuçları elde edin.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF'leri Kolayca Nasıl Sıkıştırabilirsiniz:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDF'nizi çevrimiçi sıkıştırma aracına yükleyin.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Aracımız dosyanızı hızlı bir şekilde işleyerek boyutunu azaltırken kaliteyi korur.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Sıkıştırılmış PDF'yi hemen cihazınıza indirin.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Tercih ettiğiniz PDF okuyucuda açarak sıkıştırılmış PDF'nin kalitesini ve boyutunu kontrol edin."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF'i HTML'e Dönüştür - Ücretsiz Olarak PDF Dosyalarını HTML'e Dönüştürün | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Ücretsiz olarak PDF'i HTML'e dönüştürün. Düzeni koruyun ve resimleri HTML'e dönüştürün. Filigran, dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez.",
     "pdf_tools__sign_pdf__title": "PDF İmzalama - Ücretsiz Olarak Yerel Cihazlara Dijital İmza Ekleme | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Ücretsiz olarak dijital imzaları PDF dosyalarına kolayca ekleyin ve yerel cihazlarda güvenli bir şekilde saklayın, maksimum gizlilik ve güvenlik sağlayın. Filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez."
+    "pdf_tools__sign_pdf__description": "Ücretsiz olarak dijital imzaları PDF dosyalarına kolayca ekleyin ve yerel cihazlarda güvenli bir şekilde saklayın, maksimum gizlilik ve güvenlik sağlayın. Filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
+    "pdf_tools__compress_pdf__title": "PDF Sıkıştırma - Çevrimiçi PDF Boyutu Azaltma | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Hızlı ve güvenli performans için PDF dosyalarını tarayıcıda sıkıştırın. Filigran, dosya boyutu sınırı, indirme veya kayıt gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF İmzala Ana Sayfa",
     "components__sign_pdf__icon__sign": "İmzala",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Bir şey yazın…"
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Düşük",
+    "components__compress_pdf__main__compress_basic_grade_title": "Temel",
+    "components__compress_pdf__main__compress_basic_grade_description": "Orta dosya boyutu, standart çözünürlük",
+    "components__compress_pdf__main__compress_strong_grade_title": "Güçlü",
+    "components__compress_pdf__main__compress_strong_grade_description": "Küçük dosya boyutu, düşük çözünürlük",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__compress_pdf__main__compress_download": "Sıkıştır ve İndir",
+    "components__compress_pdf__main__choose_another_file": "Başka bir dosya seç",
+    "components__compress_pdf__main__current_pdf_size": "PDF mevcut boyutu",
+    "components__compress_pdf__main__original_pdf_size": "orijinal boyut",
+    "components__compress_pdf__main__different_pdf_size": "Öncekinden farklı {{DiFF_NUMBER}}% daha küçük!",
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimum dosya boyutu, daha yüksek çözünürlük"
   }
 }

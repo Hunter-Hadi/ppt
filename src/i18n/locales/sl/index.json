@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Odpri PDF v podpisovalcu PDF-jev.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nariši ali naloži svoj podpis.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Prilagodi velikost in položaj podpisa po potrebi.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Prenesi podpisan PDF, vse je pripravljeno in varno."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Prenesi podpisan PDF, vse je pripravljeno in varno.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Stisni PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Zmanjšaj velikost PDF-jev z stiskanjem besedila in vdelanih slik prek lokalnega brskalnika",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Hitro zmanjšajte velikost vaših PDF dokumentov z našim naprednim orodjem za stiskanje PDF-jev, ki zagotavlja visokokakovostne rezultate z največjo varnostjo in učinkovitostjo.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Hitra obdelava stiskanja PDF-jev",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Ni potrebna namestitev zunanjega programske opreme",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Visoka stopnja varnosti in zaupnosti - vaše datoteke se obdelujejo lokalno v vašem brskalniku",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Hitro in učinkovito stiskanje",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Doživite hitro zmanjšanje velikosti PDF-jev brez kompromisov glede kakovosti. Naše orodje optimizira vaše datoteke za hitrejše deljenje in minimalno uporabo prostora za shranjevanje.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Ohranjanje kakovosti",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Naša napredna tehnologija zagotavlja, da se vizualna celovitost vaših PDF-jev ohrani, ohranja jasnost in berljivost tako slik kot besedila.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokalno obdelovanje za izboljšano varnost",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Vašo zasebnost postavljamo na prvo mesto. Celoten postopek stiskanja se izvede v vašem brskalniku, kar zagotavlja, da vaši dokumenti ne zapustijo vaše naprave.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Univerzalna dostopnost",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Dostopno od kjerkoli, naše spletno orodje za stiskanje PDF-jev vam omogoča zmanjšanje velikosti datotek na kateri koli napravi brez potrebe po namestitvi.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Možnost brez povezave",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Omogočite stiskanje tudi brez povezave. Predhodno naložite stran in lahko nadaljujete s stiskanjem datotek brez internetne povezave.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Prilagodljive nastavitve stiskanja",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Prilagodite stopnjo stiskanja svojim specifičnim potrebam, omogoča prilagoditve med zmanjševanjem velikosti datoteke in vizualno kakovostjo, zagotavlja optimalne rezultate za vsak tip dokumenta.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kako enostavno stisniti PDF-je:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Naložite svoj PDF v spletno orodje za stiskanje.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Orodje hitro obdela vašo datoteko, zmanjšuje njeno velikost, hkrati pa ohranja kakovost.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Po stiskanju takoj prenesite stisnjeni PDF na svojo napravo.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Preverite kakovost in velikost stisnjenega PDF-ja tako, da ga odprete v svojem izbranem bralniku PDF-jev."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF v HTML - Pretvori datoteke PDF v HTML na spletu brezplačno | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Brezplačna pretvorba PDF v HTML na spletu. Ohranite postavitev in pretvorite slike v HTML. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__sign_pdf__title": "Podpisovanje PDF-jev - Dodajanje digitalnega podpisa PDF datotekam lokalno brezplačno | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Enostavno dodajte digitalne podpise PDF datotekam brezplačno in varno na lokalnih napravah, zagotavljajoč maksimalno zasebnost in varnost. Brez vodnega žiga, omejitve velikosti datoteke, prenosa ali registracije."
+    "pdf_tools__sign_pdf__description": "Enostavno dodajte digitalne podpise PDF datotekam brezplačno in varno na lokalnih napravah, zagotavljajoč maksimalno zasebnost in varnost. Brez vodnega žiga, omejitve velikosti datoteke, prenosa ali registracije.",
+    "pdf_tools__compress_pdf__title": "Stisni PDF - Zmanjšanje velikosti PDF-jev na spletu | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Stisnite PDF-je v lokalnem brskalniku, da zagotovite hitro in varno delovanje. Brez vodnega žiga, omejitve velikosti datoteke, prenosa ali registracije."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domov",
     "components__sign_pdf__icon__sign": "Podpiši",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Vnesite nekaj..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Nizka",
+    "components__compress_pdf__main__compress_basic_grade_title": "Osnovna",
+    "components__compress_pdf__main__compress_basic_grade_description": "Srednja velikost datoteke, standardna ločljivost",
+    "components__compress_pdf__main__compress_strong_grade_title": "Močna",
+    "components__compress_pdf__main__compress_strong_grade_description": "Majhna velikost datoteke, nižja ločljivost",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Naložite določen tip datoteke PDF",
+    "components__compress_pdf__main__compress_download": "Stisni in prenesi",
+    "components__compress_pdf__main__choose_another_file": "Izberite drugo datoteko",
+    "components__compress_pdf__main__current_pdf_size": "Trenutna velikost PDF-ja",
+    "components__compress_pdf__main__original_pdf_size": "izvirna velikost",
+    "components__compress_pdf__main__different_pdf_size": "Različno od prej {{DiFF_NUMBER}}% manjše!",
+    "components__compress_pdf__main__compress_low_grade_description": "Največja velikost datoteke, Višja ločljivost"
   }
 }

@@ -126,9 +126,11 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   },
   'compress-pdf': {
     icon: 'CropOriginal',
-    title: 'notI18:compress_pdf',
-    description: 'notI18:compress_pdf',
-    secondaryDescription: 'notI18:compress_pdf',
+    title: 'pages:tools__index_page__constant_obj__compress_pdf__title',
+    description:
+      'pages:tools__index_page__constant_obj__compress_pdf__main_description',
+    secondaryDescription:
+      'pages:tools__index_page__constant_obj__compress_pdf__main_description',
     urlKey: routerChildrenObject['compress-pdf'],
     accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,

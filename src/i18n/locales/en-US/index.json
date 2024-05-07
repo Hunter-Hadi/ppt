@@ -403,6 +403,8 @@
     "tools__index_page__constant_obj__sign_pdf__title": "Sign PDF",
     "tools__index_page__constant_obj__sign_pdf__main_description": "Free online PDF signature",
     "tools__index_page__constant_obj__sign_pdf__secondary_description": "Online free localized PDF signature to protect your privacy.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Compress PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Reduce PDF size by compressing text and embedded images through a local browser",
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",
@@ -531,7 +533,28 @@
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Upload your PDF to the online PDF to HTML converter.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Let the tool process the file and convert it to HTML format.",
     "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Once conversion is complete, download your new HTML file directly.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Open the downloaded HTML in any web browser to review the results."
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Open the downloaded HTML in any web browser to review the results.",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Quickly reduce the size of your PDF documents with our cutting-edge online PDF Compression tool, ensuring high-quality results with maximum security and efficiency.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Rapid PDF compression process",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "No external software installation needed",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Highly secure and confidential – your files are processed locally in your browser",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Fast and Efficient Compression",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Experience swift PDF size reduction without compromising on quality. Our tool optimizes your files for faster sharing and minimal storage use.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Maintain Quality",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Our advanced technology ensures that the visual integrity of your PDFs is preserved, retaining the clarity and readability of both images and text.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Local Processing for Enhanced Security",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "We prioritize your privacy. The entire compression process is executed within your browser, ensuring that your documents do not leave your device.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Universal Accessibility",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Accessible from anywhere, our online PDF Compression tool allows you to reduce file sizes on any device without needing any installations.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline Capability",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Enable compression even when you're offline. Preload the page, and you can proceed with file compression without needing an internet connection.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Custom Compression Settings",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Tailor the compression level to your specific needs, allowing for custom adjustments to balance between file size reduction and visual quality, ensuring optimal results for every type of document.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "How To Easily Compress PDFs:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Upload your PDF to the online compression tool.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "The tool quickly processes your file, reducing its size while maintaining quality.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Download the compressed PDF to your device immediately after compression.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Check the quality and size of the compressed PDF by opening it on your preferred PDF reader."
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"
@@ -644,6 +667,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Sign PDF Homepage",
     "components__sign_pdf__icon__sign": "Sign",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Type something…"
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Low",
+    "components__compress_pdf__main__compress_low_grade_description": "Maximum file size, Higher resolution",
+    "components__compress_pdf__main__compress_basic_grade_title": "Basic",
+    "components__compress_pdf__main__compress_basic_grade_description": "Medium file size, standard resolution",
+    "components__compress_pdf__main__compress_strong_grade_title": "Strong",
+    "components__compress_pdf__main__compress_strong_grade_description": "Small file size, lower resolution",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__compress_pdf__main__compress_download": "Compress & Download",
+    "components__compress_pdf__main__choose_another_file": "Choose another file",
+    "components__compress_pdf__main__current_pdf_size": "PDF current size",
+    "components__compress_pdf__main__original_pdf_size": "original size",
+    "components__compress_pdf__main__different_pdf_size": "Different from before {{DiFF_NUMBER}}% smaller!"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
@@ -901,7 +938,9 @@
     "pdf_tools__pdf_to_html__title": "PDF to HTML - Convert PDF Files to HTML Online for Free | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Convert PDF to HTML online for free. Maintain layout and convert images to HTML. No watermarks, file size limits, downloads, or sign-ups required.",
     "pdf_tools__sign_pdf__title": "Signing PDF - Adding Digital Signature to PDF Files Locally for Free | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Easily add digital signatures to PDF files for free and secure on local devices, ensuring maximum privacy and security. No watermark, file size limit, download or registration required."
+    "pdf_tools__sign_pdf__description": "Easily add digital signatures to PDF files for free and secure on local devices, ensuring maximum privacy and security. No watermark, file size limit, download or registration required.",
+    "pdf_tools__compress_pdf__title": "Compress PDF – Online PDF Size Reduction | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Compress PDF files in a local browser to ensure fast and secure performance. No watermark, file size limit, download or registration required."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

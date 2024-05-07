@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Open uw PDF in de PDF-ondertekenaar.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Teken of upload uw handtekening.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pas de grootte en positie van de handtekening aan indien nodig.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klik hier om nu je ondertekende PDF te downloaden, alles is klaar en veilig."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klik hier om nu je ondertekende PDF te downloaden, alles is klaar en veilig.",
+    "tools__index_page__constant_obj__compress_pdf__title": "PDF Comprimeren",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Verminder de grootte van PDF-bestanden door tekst en ingesloten afbeeldingen te comprimeren via een lokale browser",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Verminder snel de grootte van uw PDF-documenten met onze geavanceerde online PDF-compressietool, waarbij hoge kwaliteit, maximale beveiliging en efficiëntie worden gegarandeerd.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Snelle PDF-compressie",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Geen externe software-installatie nodig",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Hoog beveiligd en vertrouwelijk - uw bestanden worden lokaal in uw browser verwerkt",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Snelle en Efficiënte Compressie",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Ervaar snelle verkleining van PDF-bestanden zonder concessies te doen aan de kwaliteit. Onze tool optimaliseert uw bestanden voor sneller delen en minimaal gebruik van opslagruimte.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Behoud Kwaliteit",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Onze geavanceerde technologie zorgt ervoor dat de visuele integriteit van uw PDF's behouden blijft, met behoud van de helderheid en leesbaarheid van zowel afbeeldingen als tekst.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokale Verwerking voor Verbeterde Beveiliging",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Wij hechten veel waarde aan uw privacy. Het gehele compressieproces wordt uitgevoerd binnen uw browser, zodat uw documenten uw apparaat niet verlaten.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Universele Toegankelijkheid",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Toegankelijk vanaf elke locatie, stelt onze online PDF-compressietool u in staat om bestandsgroottes te verkleinen op elk apparaat zonder dat er installaties nodig zijn.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline Mogelijkheid",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Activeer compressie zelfs wanneer u offline bent. Laad de pagina vooraf en u kunt doorgaan met het comprimeren van bestanden zonder internetverbinding.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Aangepaste Compressie-instellingen",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Pas het compressieniveau aan naar uw specifieke behoeften, waardoor aangepaste aanpassingen mogelijk zijn om een balans te vinden tussen verkleining van bestandsgrootte en visuele kwaliteit, met optimale resultaten voor elk type document.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hoe u eenvoudig PDF's kunt comprimeren:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Upload uw PDF naar de online compressietool.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "De tool verwerkt uw bestand snel, waarbij de grootte wordt verkleind terwijl de kwaliteit behouden blijft.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Download de gecomprimeerde PDF direct naar uw apparaat na compressie.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Controleer de kwaliteit en grootte van de gecomprimeerde PDF door deze te openen in uw favoriete PDF-lezer."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF naar HTML - Converteer PDF-bestanden naar HTML online gratis | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Converteer PDF naar HTML online gratis. Behoud de lay-out en converteer afbeeldingen naar HTML. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
     "pdf_tools__sign_pdf__title": "PDF-ondertekening - Digitale handtekening toevoegen aan PDF-bestanden lokaal en gratis | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Voeg eenvoudig digitale handtekeningen toe aan PDF-bestanden, gratis en veilig op lokale apparaten, met maximale privacy en beveiliging. Geen watermerk, bestandsgroottebeperking, download of registratie vereist."
+    "pdf_tools__sign_pdf__description": "Voeg eenvoudig digitale handtekeningen toe aan PDF-bestanden, gratis en veilig op lokale apparaten, met maximale privacy en beveiliging. Geen watermerk, bestandsgroottebeperking, download of registratie vereist.",
+    "pdf_tools__compress_pdf__title": "PDF Comprimeren - Online PDF Grootte Verkleinen | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Comprimeer PDF-bestanden in een lokale browser om snelle en veilige prestaties te garanderen. Geen watermerk, bestandsgroottebeperking, download of registratie vereist."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signeer PDF Homepage",
     "components__sign_pdf__icon__sign": "Ondertekenen",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Typ iets…"
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Laag",
+    "components__compress_pdf__main__compress_basic_grade_title": "Basis",
+    "components__compress_pdf__main__compress_basic_grade_description": "Gemiddelde bestandsgrootte, standaardresolutie",
+    "components__compress_pdf__main__compress_strong_grade_title": "Sterk",
+    "components__compress_pdf__main__compress_strong_grade_description": "Kleine bestandsgrootte, lagere resolutie",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
+    "components__compress_pdf__main__compress_download": "Comprimeren en Downloaden",
+    "components__compress_pdf__main__choose_another_file": "Kies een ander bestand",
+    "components__compress_pdf__main__current_pdf_size": "Huidige grootte van PDF",
+    "components__compress_pdf__main__original_pdf_size": "oorspronkelijke grootte",
+    "components__compress_pdf__main__different_pdf_size": "Verschilt van eerder {{DiFF_NUMBER}}% kleiner!",
+    "components__compress_pdf__main__compress_low_grade_description": "Maximale bestandsgrootte, Hogere resolutie"
   }
 }

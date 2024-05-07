@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Åpne PDF-en din i PDF-signeringsverktøyet.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Tegn eller last opp signaturen din.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Juster størrelsen og posisjonen til signaturen etter behov.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klikk for å laste ned den signerte PDF-en din nå, alt er klart og trygt."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klikk for å laste ned den signerte PDF-en din nå, alt er klart og trygt.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Komprimer PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Reduser størrelsen på PDF-filer ved å komprimere tekst og innebygde bilder gjennom en lokal nettleser",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Reduser raskt størrelsen på PDF-dokumentene dine med vårt toppmoderne online PDF-komprimeringsverktøy, og få høykvalitetsresultater med maksimal sikkerhet og effektivitet.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Rask prosess for PDF-komprimering",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Ingen ekstern programvareinstallasjon nødvendig",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Høyt sikkerhetsnivå og konfidensialitet – filene dine behandles lokalt i nettleseren din",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Rask og effektiv komprimering",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Opplev rask reduksjon av PDF-størrelsen uten å gå på kompromiss med kvaliteten. Vårt verktøy optimaliserer filene dine for raskere deling og minimal lagringsbruk.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Behold kvaliteten",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Vår avanserte teknologi sikrer at den visuelle integriteten til PDF-ene dine bevares, og beholder klarheten og lesbarheten til både bilder og tekst.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokal behandling for økt sikkerhet",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Vi prioriterer personvernet ditt. Hele komprimeringsprosessen utføres i nettleseren din, slik at dokumentene dine ikke forlater enheten din.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Universell tilgjengelighet",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Tilgjengelig fra hvor som helst, vårt online PDF-komprimeringsverktøy lar deg redusere filstørrelser på hvilken som helst enhet uten behov for installasjoner.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline-funksjonalitet",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktiver komprimering selv når du er offline. Last inn siden på forhånd, og du kan fortsette med filkomprimering uten å trenge en internettilkobling.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Tilpassede komprimeringsinnstillinger",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Tilpass komprimeringsnivået etter dine spesifikke behov, slik at du kan justere mellom reduksjon av filstørrelse og visuell kvalitet, og sikre optimale resultater for alle typer dokumenter.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hvordan enkelt komprimere PDF-er:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Last opp PDF-en din til det online komprimeringsverktøyet.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Verktøyet behandler raskt filen din, reduserer størrelsen mens den opprettholder kvaliteten.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Last ned den komprimerte PDF-en til enheten din umiddelbart etter komprimering.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Sjekk kvaliteten og størrelsen på den komprimerte PDF-en ved å åpne den i foretrukket PDF-leser."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF til HTML - Konverter PDF-filer til HTML online gratis | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Konverter PDF til HTML online gratis. Behold layoutet og konverter bilder til HTML. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves.",
     "pdf_tools__sign_pdf__title": "Signering av PDF - Legge til digital signatur i PDF-filer lokalt gratis | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Legg enkelt til digitale signaturer i PDF-filer gratis og sikkert på lokale enheter, og sikre maksimal personvern og sikkerhet. Ingen vannmerke, filstørrelsesbegrensning, nedlasting eller registrering er nødvendig."
+    "pdf_tools__sign_pdf__description": "Legg enkelt til digitale signaturer i PDF-filer gratis og sikkert på lokale enheter, og sikre maksimal personvern og sikkerhet. Ingen vannmerke, filstørrelsesbegrensning, nedlasting eller registrering er nødvendig.",
+    "pdf_tools__compress_pdf__title": "Komprimer PDF – Online reduksjon av PDF-størrelse | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Komprimer PDF-filer i en lokal nettleser for å sikre rask og sikker ytelse. Ingen vannmerke, filstørrelsesgrense, nedlasting eller registrering er nødvendig."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside",
     "components__sign_pdf__icon__sign": "Signer",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv noe…"
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Lav",
+    "components__compress_pdf__main__compress_basic_grade_title": "Grunnleggende",
+    "components__compress_pdf__main__compress_basic_grade_description": "Medium filstørrelse, standard oppløsning",
+    "components__compress_pdf__main__compress_strong_grade_title": "Sterk",
+    "components__compress_pdf__main__compress_strong_grade_description": "Liten filstørrelse, lavere oppløsning",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
+    "components__compress_pdf__main__compress_download": "Komprimer og Last ned",
+    "components__compress_pdf__main__choose_another_file": "Velg en annen fil",
+    "components__compress_pdf__main__current_pdf_size": "Gjeldende PDF-størrelse",
+    "components__compress_pdf__main__original_pdf_size": "opprinnelig størrelse",
+    "components__compress_pdf__main__different_pdf_size": "Annerledes enn før {{DiFF_NUMBER}}% mindre!",
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimal filstørrelse, Høyere oppløsning"
   }
 }

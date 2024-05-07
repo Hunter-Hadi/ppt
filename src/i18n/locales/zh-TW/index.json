@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "在PDF簽名工具中打開您的PDF。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "繪製或上傳您的簽名。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "根據需要調整簽名的大小和位置。",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "點擊立即下載已簽署的 PDF，一切都準備就緒且安全。"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "點擊立即下載已簽署的 PDF，一切都準備就緒且安全。",
+    "tools__index_page__constant_obj__compress_pdf__title": "壓縮PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "透過本地瀏覽器壓縮文字和嵌入式圖像，減小PDF檔案大小",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "使用我們尖端的在線PDF壓縮工具快速減小PDF文件大小，確保高質量結果，同時提供最大的安全性和效率。",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "快速的PDF壓縮過程",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "無需安裝外部軟件",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "高度安全和保密 - 您的文件在本地瀏覽器中處理",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "快速高效的壓縮",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "迅速減小PDF大小，同時不影響質量。我們的工具優化您的文件，實現更快的共享和最小的存儲使用。",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "保持質量",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "我們的先進技術確保保留PDF的視覺完整性，保持圖像和文字的清晰度和可讀性。",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "本地處理以增強安全性",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "我們尊重您的隱私。整個壓縮過程在您的瀏覽器內執行，確保您的文件不會離開您的設備。",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "通用訪問性",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "無論身在何處，我們的在線PDF壓縮工具都可以讓您在任何設備上減小文件大小，而無需安裝任何軟件。",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "離線功能",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "即使在離線時也可以進行壓縮。預加載頁面，您可以在沒有互聯網連接的情況下進行文件壓縮。",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "自定義壓縮設置",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "根據您的具體需求調整壓縮級別，平衡文件大小減小和視覺質量之間的關係，確保每種類型的文檔都能獲得最佳結果。",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "如何輕鬆壓縮PDF：",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "將PDF上傳到在線壓縮工具。",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "該工具快速處理您的文件，減小其大小，同時保持質量。",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "壓縮完成後立即將壓縮的PDF下載到您的設備。",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "通過在首選的PDF閱讀器上打開壓縮的PDF來檢查質量和大小。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF轉HTML - 免費在線將PDF文件轉換為HTML | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "免費在線將PDF轉換為HTML。保持版面佈局並將圖片轉換為HTML。無需水印、文件大小限制、下載或註冊。",
     "pdf_tools__sign_pdf__title": "簽署PDF-免費將數字簽名添加到本地PDF文件| MaxAI.me",
-    "pdf_tools__sign_pdf__description": "輕鬆在本地設備上免費添加數字簽名到PDF文件，確保最大的隱私和安全性。無水印、文件大小限制、下載或註冊要求。"
+    "pdf_tools__sign_pdf__description": "輕鬆在本地設備上免費添加數字簽名到PDF文件，確保最大的隱私和安全性。無水印、文件大小限制、下載或註冊要求。",
+    "pdf_tools__compress_pdf__title": "壓縮PDF - 在線PDF大小減小 | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "在本地瀏覽器中壓縮PDF文件，確保快速和安全的性能。無水印，文件大小限制，無需下載或註冊。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "簽署PDF首頁",
     "components__sign_pdf__icon__sign": "簽署",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "輸入文字..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "低",
+    "components__compress_pdf__main__compress_basic_grade_title": "基本",
+    "components__compress_pdf__main__compress_basic_grade_description": "中等文件大小，標準分辨率",
+    "components__compress_pdf__main__compress_strong_grade_title": "強",
+    "components__compress_pdf__main__compress_strong_grade_description": "小文件大小，較低分辨率",
+    "components__compress_pdf__main__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
+    "components__compress_pdf__main__compress_download": "壓縮並下載",
+    "components__compress_pdf__main__choose_another_file": "選擇其他文件",
+    "components__compress_pdf__main__current_pdf_size": "當前PDF大小",
+    "components__compress_pdf__main__original_pdf_size": "原始大小",
+    "components__compress_pdf__main__different_pdf_size": "與之前不同 {{DiFF_NUMBER}}% 更小！",
+    "components__compress_pdf__main__compress_low_grade_description": "最大檔案大小，更高解析度"
   }
 }

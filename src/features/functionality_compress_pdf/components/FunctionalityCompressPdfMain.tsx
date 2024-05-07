@@ -129,7 +129,7 @@ const FunctionalityCompressPdfMain = () => {
   const handleUnsupportedFileType = () => {
     functionalityCommonSnackNotifications(
       t(
-        'functionality__pdf_to_html:components__pdf_to_html__unsupported_file_type_tip',
+        'functionality__compress_pdf:components__compress_pdf__main__unsupported_file_type_tip',
       ),
     );
   };
@@ -142,7 +142,11 @@ const FunctionalityCompressPdfMain = () => {
           children: (
             <Stack gap={2} direction='row' alignItems='center'>
               {isLoading && <CircularProgress size={20} />}
-              <Box>Compress & Download</Box>
+              <Box>
+                {t(
+                  'functionality__compress_pdf:components__compress_pdf__main__compress_download',
+                )}
+              </Box>
             </Stack>
           ),
           variant: 'contained',
@@ -153,7 +157,9 @@ const FunctionalityCompressPdfMain = () => {
       {
         type: 'button',
         buttonProps: {
-          children: 'Choose another file',
+          children: t(
+            'functionality__compress_pdf:components__compress_pdf__main__choose_another_file',
+          ),
           variant: 'outlined',
           disabled: isLoading,
           color: 'error',
@@ -181,18 +187,30 @@ const FunctionalityCompressPdfMain = () => {
   );
   const compressGradeList = [
     {
-      title: 'Low',
-      tips: 'Maximum file size, More details',
+      title: t(
+        'functionality__compress_pdf:components__compress_pdf__main__compress_low_grade_title',
+      ),
+      tips: t(
+        'functionality__compress_pdf:components__compress_pdf__main__compress_low_grade_description',
+      ),
       key: 'low',
     },
     {
-      title: 'Basic',
-      tips: 'Medium file size, standard resolution',
+      title: t(
+        'functionality__compress_pdf:components__compress_pdf__main__compress_basic_grade_title',
+      ),
+      tips: t(
+        'functionality__compress_pdf:components__compress_pdf__main__compress_basic_grade_description',
+      ),
       key: 'basic',
     },
     {
-      title: 'Strong',
-      tips: 'Small file size, lower resolution',
+      title: t(
+        'functionality__compress_pdf:components__compress_pdf__main__compress_strong_grade_title',
+      ),
+      tips: t(
+        'functionality__compress_pdf:components__compress_pdf__main__compress_strong_grade_description',
+      ),
       key: 'strong',
     },
   ];
@@ -316,12 +334,24 @@ const FunctionalityCompressPdfMain = () => {
               }}
               color='text.secondary'
             >
-              PDF current size :{(sizeDiff.after / 1000).toFixed(2)}kB! PDF
-              original size:{(sizeDiff.before / 1000).toFixed(2)}kB!
-              <p>
-                Different from before
-                {((1 - sizeDiff.after / sizeDiff.before) * 100).toFixed(0)}%
-                smaller!
+              {t(
+                'functionality__compress_pdf:components__compress_pdf__main__current_pdf_size',
+              )}
+              :{(sizeDiff.after / 1000).toFixed(2)}kB!
+              {t(
+                'functionality__compress_pdf:components__compress_pdf__main__original_pdf_size',
+              )}
+              :{(sizeDiff.before / 1000).toFixed(2)}kB!
+              <p style={{ textAlign: 'center' }}>
+                {t(
+                  'functionality__compress_pdf:components__compress_pdf__main__different_pdf_size',
+                  {
+                    DiFF_NUMBER: (
+                      (1 - sizeDiff.after / sizeDiff.before) *
+                      100
+                    ).toFixed(0),
+                  },
+                )}
               </p>
             </Typography>
           )}

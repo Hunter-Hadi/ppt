@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "পিডিএফ স্বাক্ষরকারে আপনার পিডিএফ খুলুন।",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "আপনার স্বাক্ষর আঁকুন বা আপলোড করুন।",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "স্বাক্ষরের আকার এবং অবস্থান প্রয়োজন মত সংশোধন করুন।",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "এখন আপনার স্বাক্ষরিত PDF ডাউনলোড করতে ক্লিক করুন, সব কিছু প্রস্তুত এবং নিরাপদ।"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "এখন আপনার স্বাক্ষরিত PDF ডাউনলোড করতে ক্লিক করুন, সব কিছু প্রস্তুত এবং নিরাপদ।",
+    "tools__index_page__constant_obj__compress_pdf__title": "পিডিএফ সংকোচন",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "লোকাল ব্রাউজারের মাধ্যমে টেক্সট এবং সংযুক্ত ইমেজ সংকোচন করে পিডিএফ আকার হ্রাস করুন",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "আমাদের নবীনতম অনলাইন পিডিএফ সংকোচন টুল দিয়ে আপনার পিডিএফ ডকুমেন্টগুলির আকার দ্রুত হ্রাস করুন, উচ্চ মানের ফলাফল নিশ্চিত করে এবং সুরক্ষা ও দক্ষতার সাথে।",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "দ্রুত পিডিএফ সংকোচন প্রক্রিয়া",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "বাইরের কোনও সফ্টওয়্যার ইনস্টলেশন প্রয়োজন নেই",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "অত্যন্ত নিরাপদ এবং গোপনীয় - আপনার ফাইলগুলি আপনার ব্রাউজারে স্থানীয়ভাবে প্রসেস করা হয়",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "দ্রুত এবং দক্ষ সংকোচন",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "মান কম করে পিডিএফ আকার হ্রাস করুন বিনা মান ক্ষতি করে। আমাদের টুল আপনার ফাইলগুলি দ্রুত ভাগ করে স্টোরেজ ব্যবহার করার জন্য অপটিমাইজ করে।",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "মান বজায় রাখুন",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "আমাদের উন্নত প্রযুক্তি নিশ্চিত করে যে আপনার পিডিএফ এর দৃষ্টিশক্তি অপসারণ করা হয় না, ছবি এবং পাঠের স্পষ্টতা এবং পঠনযোগ্যতা রক্ষা করে।",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "সুরক্ষা বৃদ্ধির জন্য স্থানীয় প্রসেসিং",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "আমরা আপনার গোপনীয়তা প্রাথমিক করি। সম্পূর্ণ সংকোচন প্রক্রিয়াটি আপনার ব্রাউজারের মধ্যে সম্পাদিত হয়, যাতে আপনার ডকুমেন্টগুলি আপনার ডিভাইস ছাড়াই না চলে যায়।",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "সার্বজনীন অবস্থানবিশিষ্টতা",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "যেখানেই থেকেই অ্যাক্সেস করুন, আমাদের অনলাইন পিডিএফ সংকোচন টুল দিয়ে আপনি কোনও ইনস্টলেশন ছাড়াই ফাইলের আকার হ্রাস করতে পারবেন।",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "অফলাইন সুযোগ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "অনলাইন না থাকলেও সংকোচন সক্ষম করুন। পৃষ্ঠাটি প্রিলোড করুন এবং ইন্টারনেট সংযোগ ছাড়াই ফাইল সংকোচনে অগ্রসর হতে পারবেন।",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "কাস্টম সংকোচন সেটিংস",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "ফাইলের আকার হ্রাস করার জন্য সংকোচন স্তরটি আপনার বিশেষ প্রয়োজনীয়তা অনুযায়ী কাস্টমাইজ করুন, যাতে ফাইলের আকার হ্রাস এবং দৃষ্টিশক্তির মধ্যে সমন্বয় করা যায়, যাতে প্রতিটি ডকুমেন্টের জন্য সর্বোত্তম ফলাফল নিশ্চিত হয়।",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "কিভাবে সহজে পিডিএফ সংকোচন করবেন:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "আপনার পিডিএফ টুলে আপলোড করুন।",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "টুলটি দ্রুত আপনার ফাইলটি প্রসেস করে, আকার হ্রাস করে এবং মান বজায় রাখে।",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "সংকোচিত পিডিএফটি সংকোচনের পরবর্তীতে আপনার ডিভাইসে ডাউনলোড করুন।",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "আপনার পছন্দসই পিডিএফ রিডারে খোলে সংকোচিত পিডিএফের মান এবং আকার পরীক্ষা করুন।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF থেকে HTML - ফ্রি অনলাইনে পিডিএফ ফাইলগুলি এইচটিএমএল এ রূপান্তর করুন | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "ফ্রি অনলাইনে পিডিএফ থেকে HTML এ রূপান্তর করুন। লেআউট বজায় রাখুন এবং ইমেজগুলি এইচটিএমএল এ রূপান্তর করুন। কোন ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
     "pdf_tools__sign_pdf__title": "পিডিএফ স্বাক্ষর - নিঃশুল্ক পিডিএফ ফাইলে ডিজিটাল স্বাক্ষর যোগ করা | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "বিনামূল্যে পিডিএফ ফাইলে ডিজিটাল স্বাক্ষর যুক্ত করুন এবং স্থানীয় ডিভাইসে নিরাপদ করুন, যাতে সর্বাধিক গোপনীয়তা এবং নিরাপত্তা নিশ্চিত হয়। কোনও ওয়াটারমার্ক, ফাইল আকার সীমা, ডাউনলোড বা নিবন্ধনের প্রয়োজন নেই।"
+    "pdf_tools__sign_pdf__description": "বিনামূল্যে পিডিএফ ফাইলে ডিজিটাল স্বাক্ষর যুক্ত করুন এবং স্থানীয় ডিভাইসে নিরাপদ করুন, যাতে সর্বাধিক গোপনীয়তা এবং নিরাপত্তা নিশ্চিত হয়। কোনও ওয়াটারমার্ক, ফাইল আকার সীমা, ডাউনলোড বা নিবন্ধনের প্রয়োজন নেই।",
+    "pdf_tools__compress_pdf__title": "পিডিএফ সংকোচন - অনলাইন পিডিএফ আকার হ্রাস | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "দ্রুত এবং নিরাপদ কর্মক্ষমতায় পিডিএফ ফাইলগুলি লোকাল ব্রাউজারে সংকোচন করুন। কোনও ওয়াটারমার্ক, ফাইল আকার সীমা, ডাউনলোড বা নিবন্ধনের প্রয়োজন নেই।"
   },
   "features_landing": {
     "cta_text": "ব্রাউজারে যোগ করুন",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "সাইন পিডিএফ হোমপেজ",
     "components__sign_pdf__icon__sign": "স্বাক্ষর করুন",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "কিছু লিখুন..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "নিম্ন",
+    "components__compress_pdf__main__compress_basic_grade_title": "মৌলিক",
+    "components__compress_pdf__main__compress_basic_grade_description": "মাঝারি ফাইল আকার, মানসম্পন্ন রেজোলিউশন",
+    "components__compress_pdf__main__compress_strong_grade_title": "শক্তিশালী",
+    "components__compress_pdf__main__compress_strong_grade_description": "ছোট ফাইল আকার, নিম্ন রেজোলিউশন",
+    "components__compress_pdf__main__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
+    "components__compress_pdf__main__compress_download": "সংকোচন এবং ডাউনলোড করুন",
+    "components__compress_pdf__main__choose_another_file": "অন্য ফাইল চয়ন করুন",
+    "components__compress_pdf__main__current_pdf_size": "বর্তমান পিডিএফ আকার",
+    "components__compress_pdf__main__original_pdf_size": "মূল আকার",
+    "components__compress_pdf__main__different_pdf_size": "পূর্বের থেকে {{DiFF_NUMBER}}% ছোট!",
+    "components__compress_pdf__main__compress_low_grade_description": "সর্বাধিক ফাইল আকার, উচ্চ রেজোলিউশন"
   }
 }

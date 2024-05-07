@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Fungua PDF yako kwenye Mwandishi wa PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Chora au pakia saini yako.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Badilisha ukubwa na nafasi ya saini kama inavyohitajika.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Bonyeza kupakua PDF yako iliyosainiwa sasa, kila kitu kiko tayari na salama."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Bonyeza kupakua PDF yako iliyosainiwa sasa, kila kitu kiko tayari na salama.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Punguza PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Punguza ukubwa wa PDF kwa kupunguza maandishi na picha zilizojumuishwa kupitia kivinjari cha ndani",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Punguza haraka ukubwa wa hati zako za PDF na zana yetu ya Kupunguza PDF mkondoni ya hali ya juu, ikihakikisha matokeo ya ubora wa hali ya juu na usalama na ufanisi mkubwa.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Mchakato wa kupunguza PDF haraka",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Hakuna ufungaji wa programu ya nje unahitajika",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Salama sana na ya siri - faili zako zinasindika kwenye kivinjari chako kwa usalama",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Kupunguza Haraka na Ufanisi",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Pata upunguzaji wa haraka wa ukubwa wa PDF bila kuhatarisha ubora. Zana yetu inaongeza faili zako ili uweze kushiriki haraka na kutumia nafasi ya uhifadhi kidogo.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Kudumisha Ubora",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Teknolojia yetu ya hali ya juu inahakikisha kuwa uadilifu wa kisasa wa PDF zako unahifadhiwa, ukibaki na wazi na kusomeka kwa picha na maandishi.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Usindikaji wa Ndani kwa Usalama Ulioboreshwa",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Tunathamini faragha yako. Mchakato mzima wa kupunguza unatekelezwa ndani ya kivinjari chako, ikihakikisha hati zako haziondoki kwenye kifaa chako.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Upatikanaji wa Kila Mahali",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Inapatikana popote, zana yetu ya Kupunguza PDF mkondoni inakuwezesha kupunguza ukubwa wa faili kwenye kifaa chochote bila kuhitaji ufungaji wowote.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Uwezo wa Nje ya Mtandao",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Wezesha upunguzaji hata wakati uko nje ya mtandao. Pakia ukurasa, na unaweza kuendelea na upunguzaji wa faili bila kuwa na muunganisho wa intaneti.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Mipangilio ya Kupunguza Kubinafsishwa",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Badilisha kiwango cha kupunguza kulingana na mahitaji yako maalum, kuruhusu marekebisho ya kibinafsi kati ya upunguzaji wa ukubwa wa faili na ubora wa kisasa, ikihakikisha matokeo bora kwa kila aina ya hati.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Jinsi ya Kupunguza PDF kwa Urahisi:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Pakia PDF yako kwenye zana ya kupunguza mkondoni.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Zana haraka inasindika faili yako, ikipunguza ukubwa wake wakati inadumisha ubora.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Pakua PDF iliyopunguzwa kwenye kifaa chako mara moja baada ya kupunguza.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Angalia ubora na ukubwa wa PDF iliyopunguzwa kwa kuifungua kwenye msomaji wako wa PDF unaopendelea."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Bonyeza Vichocheo",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF kuwa HTML - Geuza Faili za PDF kuwa HTML Mtandaoni Bure | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Geuza PDF kuwa HTML mtandaoni bure. Hifadhi muundo na geuza picha kuwa HTML. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au kujisajili inayohitajika.",
     "pdf_tools__sign_pdf__title": "Kusaini PDF - Kuongeza Saini ya Kidijitali kwenye Faili za PDF Kwa Bure | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Ongeza saini za kidijitali kwa urahisi kwenye faili za PDF bila malipo na uhifadhi kwenye vifaa vyako vya ndani, kuhakikisha faragha na usalama wa juu. Hakuna nembo ya maji, ukomo wa ukubwa wa faili, kupakua au usajili unaohitajika."
+    "pdf_tools__sign_pdf__description": "Ongeza saini za kidijitali kwa urahisi kwenye faili za PDF bila malipo na uhifadhi kwenye vifaa vyako vya ndani, kuhakikisha faragha na usalama wa juu. Hakuna nembo ya maji, ukomo wa ukubwa wa faili, kupakua au usajili unaohitajika.",
+    "pdf_tools__compress_pdf__title": "Punguza PDF - Upunguzaji wa Ukubwa wa PDF Mkondoni | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Punguza faili za PDF kwenye kivinjari cha ndani ili kuhakikisha utendaji wa haraka na salama. Hakuna alama ya maji, kikomo cha ukubwa wa faili, kupakua au usajili unaohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Nyumbani kwa Kusaini PDF",
     "components__sign_pdf__icon__sign": "Saini",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Andika kitu..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Chini",
+    "components__compress_pdf__main__compress_basic_grade_title": "Msingi",
+    "components__compress_pdf__main__compress_basic_grade_description": "Ukubwa wa faili wa wastani, azimio la kawaida",
+    "components__compress_pdf__main__compress_strong_grade_title": "Imara",
+    "components__compress_pdf__main__compress_strong_grade_description": "Ukubwa mdogo wa faili, azimio la chini",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
+    "components__compress_pdf__main__compress_download": "Punguza & Pakua",
+    "components__compress_pdf__main__choose_another_file": "Chagua faili nyingine",
+    "components__compress_pdf__main__current_pdf_size": "Ukubwa wa sasa wa PDF",
+    "components__compress_pdf__main__original_pdf_size": "ukubwa halisi",
+    "components__compress_pdf__main__different_pdf_size": "Tofauti na hapo awali {{DiFF_NUMBER}}% ndogo!",
+    "components__compress_pdf__main__compress_low_grade_description": "Ukubwa wa faili ya juu, Azimio kubwa"
   }
 }

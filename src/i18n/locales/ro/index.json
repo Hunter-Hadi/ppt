@@ -531,7 +531,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Deschide PDF-ul în Semnătorul PDF.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Desenează sau încarcă semnătura ta.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajustează dimensiunea și poziția semnăturii după nevoie.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Faceți clic pentru a descărca acum PDF-ul semnat, totul este pregătit și în siguranță."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Faceți clic pentru a descărca acum PDF-ul semnat, totul este pregătit și în siguranță.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Comprimare PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Reduceți dimensiunea PDF-ului prin comprimarea textului și a imaginilor încorporate printr-un browser local",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Reduceți rapid dimensiunea documentelor dvs. PDF cu ajutorul instrumentului nostru de compresie PDF online de ultimă generație, asigurând rezultate de înaltă calitate cu maximă securitate și eficiență.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Proces rapid de comprimare PDF",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nu este necesară instalarea unui software extern",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Foarte sigur și confidențial - fișierele dvs. sunt procesate local în browserul dvs.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Comprimare rapidă și eficientă",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Experimentați o reducere rapidă a dimensiunii PDF-urilor fără a compromite calitatea. Instrumentul nostru optimizează fișierele dvs. pentru partajare mai rapidă și utilizare minimă a spațiului de stocare.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Menținerea calității",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Tehnologia noastră avansată asigură integritatea vizuală a PDF-urilor dvs., păstrând claritatea și lizibilitatea atât a imaginilor, cât și a textului.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Procesare locală pentru securitate sporită",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Prioritizăm confidențialitatea dvs. Întregul proces de comprimare este executat în browserul dvs., asigurându-se că documentele dvs. nu părăsesc dispozitivul.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Accesibilitate universală",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Accesibil de oriunde, instrumentul nostru de compresie PDF online vă permite să reduceți dimensiunea fișierelor pe orice dispozitiv fără a avea nevoie de instalări suplimentare.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Capabilitate offline",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Permiteți comprimarea chiar și atunci când sunteți offline. Încărcați pagina în prealabil și puteți continua cu comprimarea fișierelor fără a avea nevoie de o conexiune la internet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Setări personalizate de comprimare",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Personalizați nivelul de comprimare în funcție de nevoile dvs. specifice, permițând ajustări personalizate pentru a echilibra reducerea dimensiunii fișierului și calitatea vizuală, asigurând rezultate optime pentru fiecare tip de document.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cum să comprimați ușor PDF-urile:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Încărcați PDF-ul în instrumentul de compresie online.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Instrumentul procesează rapid fișierul, reducându-i dimensiunea păstrând totodată calitatea.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Descărcați PDF-ul comprimat pe dispozitivul dvs. imediat după comprimare.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Verificați calitatea și dimensiunea PDF-ului comprimat deschizându-l în cititorul dvs. preferat de PDF-uri."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -790,7 +813,9 @@
     "pdf_tools__pdf_to_html__title": "PDF în HTML - Convertiți fișiere PDF în HTML online gratuit | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Convertește PDF în HTML online gratuit. Mențineți aspectul și convertiți imaginile în HTML. Nu există filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
     "pdf_tools__sign_pdf__title": "Semnarea PDF-urilor - Adăugarea unei semnături digitale la fișierele PDF local, gratuit | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Adaugă cu ușurință semnături digitale la fișierele PDF gratuit și în siguranță pe dispozitive locale, asigurând confidențialitatea și securitatea maximă. Fără filigran, limită de dimensiune a fișierului, descărcare sau înregistrare necesară."
+    "pdf_tools__sign_pdf__description": "Adaugă cu ușurință semnături digitale la fișierele PDF gratuit și în siguranță pe dispozitive locale, asigurând confidențialitatea și securitatea maximă. Fără filigran, limită de dimensiune a fișierului, descărcare sau înregistrare necesară.",
+    "pdf_tools__compress_pdf__title": "Comprimare PDF - Reducere dimensiune PDF online | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Comprimați fișierele PDF într-un browser local pentru a asigura performanță rapidă și sigură. Fără filigran, limită de dimensiune a fișierului, descărcare sau înregistrare necesară."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -1006,5 +1031,19 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principală Semnare PDF",
     "components__sign_pdf__icon__sign": "Semnează",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Tastează ceva..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Scăzut",
+    "components__compress_pdf__main__compress_basic_grade_title": "De bază",
+    "components__compress_pdf__main__compress_basic_grade_description": "Dimensiune medie a fișierului, rezoluție standard",
+    "components__compress_pdf__main__compress_strong_grade_title": "Puternic",
+    "components__compress_pdf__main__compress_strong_grade_description": "Dimensiune mică a fișierului, rezoluție mai mică",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__compress_pdf__main__compress_download": "Comprimare și Descărcare",
+    "components__compress_pdf__main__choose_another_file": "Alegeți alt fișier",
+    "components__compress_pdf__main__current_pdf_size": "Dimensiunea actuală a PDF-ului",
+    "components__compress_pdf__main__original_pdf_size": "dimensiune originală",
+    "components__compress_pdf__main__different_pdf_size": "Diferit față de anterior {{DiFF_NUMBER}}% mai mic!",
+    "components__compress_pdf__main__compress_low_grade_description": "Dimensiune maximă a fișierului, Rezoluție mai mare"
   }
 }
