@@ -30,13 +30,17 @@ export type IButtonConfig = {
 
 type IFunctionalityCommonButtonListViewProps = {
   buttonConfigs: IButtonConfig[];
+  gridSize?: {
+    xs: number;
+    md: number;
+  };
 };
 /**
  * 公共按钮列表组件 作用是把需要重复的按钮视图组件抽离出来，统一高度大小和样式和管理，以及更好的可视化
  */
 export const FunctionalityCommonButtonListView: React.FC<
   IFunctionalityCommonButtonListViewProps
-> = ({ buttonConfigs }) => {
+> = ({ buttonConfigs, gridSize }) => {
   const getButtonProps = (params: IButtonProps | undefined) => {
     if (params) {
       const { tooltip, tooltipKey, ...buttonProps } = params;
@@ -61,6 +65,7 @@ export const FunctionalityCommonButtonListView: React.FC<
             key={index}
             xs={6}
             md={2}
+            {...gridSize}
             display={config.type === 'iconButton' ? 'flex' : 'block'}
           >
             <React.Fragment>
