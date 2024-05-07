@@ -1,6 +1,8 @@
 import { inflate } from 'pako';
 import { PDFName } from 'pdf-lib';
 import { ColorType, PNG } from 'pngjs/browser';
+
+import { IPdfLibImage } from './getPdfLibImages';
 // 定义PNG颜色类型
 const PngColorTypes = {
   Grayscale: 0,
@@ -28,7 +30,7 @@ const readBitAtOffsetOfArray = (uint8Array, bitOffsetWithinArray) => {
   return readBitAtOffsetOfByte(byte, bitOffsetWithinByte);
 };
 // 从PDF图像创建PNG
-export const createPngFromPdf = (image) => {
+export const createPngFromPdf = (image: IPdfLibImage) => {
   return new Promise((resolve, reject) => {
     // 判断是否为灰度色彩空间
     const isGrayscale = image.colorSpace === PDFName.of('DeviceGray');
