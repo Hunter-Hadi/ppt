@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "en el pla anual MaxAI Elite!",
     "promotion__limited_time_offer": "Oferta per temps limitat",
     "payment_type_switch__yearly__tip": "Estalvia fins a {{RATIO}}%",
-    "footer__pdf_tools": "Eines gratuïtes en línia per a PDF"
+    "footer__pdf_tools": "Eines gratuïtes en línia per a PDF",
+    "faq_list__question5__title": "MaxAI ofereix plans d'equip?",
+    "faq_list__question5__desc__part1": "Sí, MaxAI ofereix plans d'equip. Si estàs interessat, pots consultar la nostra",
+    "faq_list__question5__desc__part2": "pàgina de Plans d'Equip",
+    "faq_list__question5__desc__part3": "per obtenir més informació."
   },
   "privacy": {},
   "industry": {

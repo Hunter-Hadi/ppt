@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "در طرح سالانه MaxAI Elite!",
     "promotion__limited_time_offer": "پیشنهاد محدود به مدت زمان محدود",
     "payment_type_switch__yearly__tip": "تا {{RATIO}}% صرفه‌جویی کنید",
-    "footer__pdf_tools": "ابزارهای آنلاین رایگان PDF"
+    "footer__pdf_tools": "ابزارهای آنلاین رایگان PDF",
+    "faq_list__question5__title": "آیا MaxAI طرح‌های تیمی ارائه می‌دهد؟",
+    "faq_list__question5__desc__part1": "بله، MaxAI طرح‌های تیمی ارائه می‌دهد. اگر علاقه‌مند هستید، می‌توانید صفحه",
+    "faq_list__question5__desc__part2": "طرح‌های تیمی",
+    "faq_list__question5__desc__part3": "ما را بررسی کنید تا اطلاعات بیشتری دریافت کنید."
   },
   "privacy": {},
   "industry": {

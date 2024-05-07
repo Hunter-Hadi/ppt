@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI 엘리트 연간 요금제에서!",
     "promotion__limited_time_offer": "제한 시간 동안의 특별 제안",
     "payment_type_switch__yearly__tip": "최대 {{RATIO}}% 절약",
-    "footer__pdf_tools": "무료 온라인 PDF 도구"
+    "footer__pdf_tools": "무료 온라인 PDF 도구",
+    "faq_list__question5__title": "MaxAI는 팀 플랜을 제공합니까?",
+    "faq_list__question5__desc__part1": "네, MaxAI는 팀 플랜을 제공합니다. 관심이 있으시면 저희",
+    "faq_list__question5__desc__part2": "팀 플랜 페이지",
+    "faq_list__question5__desc__part3": "에서 자세한 정보를 확인하실 수 있습니다."
   },
   "privacy": {},
   "industry": {

@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite বার্ষিক পরিকল্পনায়!",
     "promotion__limited_time_offer": "সীমিত সময়ের অফার",
     "payment_type_switch__yearly__tip": "আপনি {{RATIO}}% সংরক্ষণ করতে পারেন",
-    "footer__pdf_tools": "বিনামূল্যে অনলাইন পিডিএফ সরঞ্জাম"
+    "footer__pdf_tools": "বিনামূল্যে অনলাইন পিডিএফ সরঞ্জাম",
+    "faq_list__question5__title": "ম্যাক্সএআই টিম পরিকল্পনা অফার করে?",
+    "faq_list__question5__desc__part1": "হ্যাঁ, ম্যাক্সএআই টিম পরিকল্পনা অফার করে। আপনি যদি আগ্রহী হন, তাহলে আমাদের",
+    "faq_list__question5__desc__part2": "টিম পরিকল্পনা পৃষ্ঠা",
+    "faq_list__question5__desc__part3": "দেখতে পারেন আরও তথ্যের জন্য।"
   },
   "privacy": {},
   "industry": {

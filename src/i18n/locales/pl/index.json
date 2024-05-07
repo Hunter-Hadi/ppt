@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "na planie rocznym MaxAI Elite!",
     "promotion__limited_time_offer": "Oferta ograniczona czasowo",
     "payment_type_switch__yearly__tip": "Oszczędź do {{RATIO}}%",
-    "footer__pdf_tools": "Darmowe narzędzia do PDF online"
+    "footer__pdf_tools": "Darmowe narzędzia do PDF online",
+    "faq_list__question5__title": "Czy MaxAI oferuje plany zespołowe?",
+    "faq_list__question5__desc__part1": "Tak, MaxAI oferuje plany zespołowe. Jeśli jesteś zainteresowany, możesz sprawdzić naszą",
+    "faq_list__question5__desc__part2": "stronę z planami zespołowymi",
+    "faq_list__question5__desc__part3": "dla więcej informacji."
   },
   "privacy": {},
   "industry": {

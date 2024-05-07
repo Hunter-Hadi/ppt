@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI એલિટ વાર્ષિક પ્લાન પર!",
     "promotion__limited_time_offer": "સીમિત સમયની ઓફર",
     "payment_type_switch__yearly__tip": "સુધારો કરો સુધારો કરો {{RATIO}}%",
-    "footer__pdf_tools": "મુક્ત ઓનલાઇન PDF સાધનો"
+    "footer__pdf_tools": "મુક્ત ઓનલાઇન PDF સાધનો",
+    "faq_list__question5__title": "ક્યારેય મેક્સએઆઈ ટીમ પ્લાનો પૂર્ણ કરે છે?",
+    "faq_list__question5__desc__part1": "હા, મેક્સએઆઈ વાસ્તવમાં ટીમ પ્લાનો પૂર્ણ કરે છે. જો તમને આવું માટે આવડે છે, તો તમે અમારી",
+    "faq_list__question5__desc__part2": "ટીમ પ્લાનો પેજ",
+    "faq_list__question5__desc__part3": "પર વધુ માહિતી મેળવી શકો છો."
   },
   "privacy": {},
   "industry": {

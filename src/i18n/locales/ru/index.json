@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "на годовом плане MaxAI Elite!",
     "promotion__limited_time_offer": "Ограниченное предложение",
     "payment_type_switch__yearly__tip": "Сэкономьте до {{RATIO}}%",
-    "footer__pdf_tools": "Бесплатные онлайн-инструменты для PDF"
+    "footer__pdf_tools": "Бесплатные онлайн-инструменты для PDF",
+    "faq_list__question5__title": "Предлагает ли MaxAI командные планы?",
+    "faq_list__question5__desc__part1": "Да, MaxAI предлагает командные планы. Если вас интересует, вы можете ознакомиться с нашей",
+    "faq_list__question5__desc__part2": "страницей командных планов",
+    "faq_list__question5__desc__part3": "для получения дополнительной информации."
   },
   "privacy": {},
   "industry": {

@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "pada pelan Tahunan MaxAI Elite!",
     "promotion__limited_time_offer": "Tawaran Terhad Masa",
     "payment_type_switch__yearly__tip": "Jimat sehingga {{RATIO}}%",
-    "footer__pdf_tools": "Alat PDF dalam talian percuma"
+    "footer__pdf_tools": "Alat PDF dalam talian percuma",
+    "faq_list__question5__title": "Adakah MaxAI menawarkan pelan pasukan?",
+    "faq_list__question5__desc__part1": "Ya, MaxAI menawarkan pelan pasukan. Jika anda berminat, anda boleh melihat",
+    "faq_list__question5__desc__part2": "Halaman pelan pasukan kami",
+    "faq_list__question5__desc__part3": "untuk maklumat lanjut."
   },
   "privacy": {},
   "industry": {

@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "на годишния план MaxAI Elite!",
     "promotion__limited_time_offer": "Оферта с ограничено време",
     "payment_type_switch__yearly__tip": "Спестете до {{RATIO}}%",
-    "footer__pdf_tools": "Безплатни онлайн инструменти за PDF"
+    "footer__pdf_tools": "Безплатни онлайн инструменти за PDF",
+    "faq_list__question5__title": "Предлага ли MaxAI екипни планове?",
+    "faq_list__question5__desc__part1": "Да, MaxAI предлага екипни планове. Ако сте заинтересовани, можете да разгледате нашата",
+    "faq_list__question5__desc__part2": "страница с екипни планове",
+    "faq_list__question5__desc__part3": "за повече информация."
   },
   "privacy": {},
   "industry": {

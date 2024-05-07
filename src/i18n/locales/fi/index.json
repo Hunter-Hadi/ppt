@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite Vuosittainen suunnitelma!",
     "promotion__limited_time_offer": "Rajoitettu ajan tarjous",
     "payment_type_switch__yearly__tip": "Säästä jopa {{RATIO}}%",
-    "footer__pdf_tools": "Ilmaiset verkkopohjaiset PDF-työkalut"
+    "footer__pdf_tools": "Ilmaiset verkkopohjaiset PDF-työkalut",
+    "faq_list__question5__title": "Tarjoaako MaxAI tiimisuunnitelmia?",
+    "faq_list__question5__desc__part1": "Kyllä, MaxAI tarjoaa tiimisuunnitelmia. Jos olet kiinnostunut, voit tarkistaa",
+    "faq_list__question5__desc__part2": "Tiimisuunnitelmat-sivumme",
+    "faq_list__question5__desc__part3": "lisätietoja varten."
   },
   "privacy": {},
   "industry": {

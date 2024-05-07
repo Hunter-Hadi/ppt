@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite 年間プランで節約！",
     "promotion__limited_time_offer": "期間限定オファー",
     "payment_type_switch__yearly__tip": "最大{{RATIO}}%節約",
-    "footer__pdf_tools": "無料オンラインPDFツール"
+    "footer__pdf_tools": "無料オンラインPDFツール",
+    "faq_list__question5__title": "MaxAIはチームプランを提供していますか？",
+    "faq_list__question5__desc__part1": "はい、MaxAIはチームプランを提供しています。興味がある場合は、当社の",
+    "faq_list__question5__desc__part2": "チームプランページ",
+    "faq_list__question5__desc__part3": "をご覧ください。"
   },
   "privacy": {},
   "industry": {

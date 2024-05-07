@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "ಮ್ಯಾಕ್ಸ್‌ಐ ಎಲೈಟ್ ವಾರ್ಷಿಕ ಯೋಜನೆಯ ಮೇಲೆ!",
     "promotion__limited_time_offer": "ಸೀಮಿತ ಸಮಯ ಆಫರ್",
     "payment_type_switch__yearly__tip": "ನಿಮ್ಮ ಖರ್ಚಿಗೆ ಉತ್ತಮ ವಿಧಾನ: {{RATIO}}% ಹೆಚ್ಚು ಉಳಿಸಿ",
-    "footer__pdf_tools": "ಉಚಿತ ಆನ್‌ಲೈನ್ ಪಿಡಿಎಫ್ ಸಾಧನಗಳು"
+    "footer__pdf_tools": "ಉಚಿತ ಆನ್‌ಲೈನ್ ಪಿಡಿಎಫ್ ಸಾಧನಗಳು",
+    "faq_list__question5__title": "ಮ್ಯಾಕ್ಸ್‌ಎಐ ತಂಡ ಯೋಜನೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆಯೇ?",
+    "faq_list__question5__desc__part1": "ಹೌದು, ಮ್ಯಾಕ್ಸ್‌ಎಐ ತಂಡ ಯೋಜನೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ. ನೀವು ಆಸಕ್ತರಾದರೆ, ನಮ್ಮ",
+    "faq_list__question5__desc__part2": "ತಂಡ ಯೋಜನೆಗಳ ಪುಟವನ್ನು",
+    "faq_list__question5__desc__part3": "ನೋಡಲು ಹೋಗಿ ಮಾಹಿತಿ ಪಡೆಯಿರಿ."
   },
   "privacy": {},
   "industry": {

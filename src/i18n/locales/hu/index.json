@@ -679,7 +679,7 @@
     "faq_list__question4__title": "Hol használhatom a MaxAI.me-t?",
     "faq_list__question4__desc": "A MaxAI.me-t bármely webhelyen, bármilyen Chromium-alapú böngészőben (pl. Chrome és Edge) használhatod szövegírásra, írásfejlesztésre, összefoglalásra, magyarázatra, helyesírás és nyelvtan javítására, fordításra vagy válaszadásra.",
     "faq_list__disclaimer_part1": "Az automatikus fizetési rendszerbe való feliratkozással elfogadja a Stripe ügyfélportálján keresztül történő \"Saját Tervem\" menüpontban történő lemondást vagy kezelést. Minden szolgáltatás az Ön által aláírt szerződés szerint kerül nyújtásra. Kérjük, vegye figyelembe, hogy ez a szolgáltatás csak emberi, normál használatra szolgál. Nem oszthatja meg más emberekkel a fiókot, és nem használhat programozási módszereket a hivatalos felhasználói felület kikerülésére. Kérjük, vegye figyelembe, hogy minden fizetés végleges és nem visszatéríthető. Abban az esetben, ha a Szolgáltatási Feltételek megsértése anyagi vagy egyéb károkat okoz, fenntartjuk a jogot arra, hogy jogi lépéseket tegyünk és megfelelő kártérítést követeljünk.",
-    "faq_list__disclaimer_part2": "",
+    "faq_list__disclaimer_part2": " megerősíted a regisztrációt. Kérjük vedd figyelembe, hogy ez a szolgáltatás csak emberi, normál használatra szolgál. Nem oszthatod meg más emberekkel a fiókot, és nem használhatsz programozási módszereket a hivatalos felhasználói felület kikerülésére. Kérjük vedd figyelembe, hogy minden fizetés végleges és nem visszatéríthető. Abban az esetben, ha a Szolgáltatási feltételek megsértése anyagi vagy egyéb károkat okoz, fenntartjuk a jogot, hogy jogi lépéseket tegyünk és megfelelő kártérítést követeljünk.",
     "plan_features_table__gemini_tooltip_desc": "Google legképzettebb és általános modellje. A multimodalitásra épült alapoktól kezdve. A Gemini a MaxAI-n jelenleg béta fázisban van, csak szöveget és kódot támogat, hamarosan képeket, videókat és hangot is hozzáad.",
     "footer__resources": "Erőforrások",
     "promotion__banner__elite__title__limited_time_offer": "Korlátozott ideig érvényes ajánlat",
@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "a MaxAI Elite Éves csomagján!",
     "promotion__limited_time_offer": "Korlátozott ideig érvényes ajánlat",
     "payment_type_switch__yearly__tip": "Akár {{RATIO}}% megtakarítás",
-    "footer__pdf_tools": "Ingyenes online PDF eszközök"
+    "footer__pdf_tools": "Ingyenes online PDF eszközök",
+    "faq_list__question5__title": "Kínál-e a MaxAI csapatcsomagokat?",
+    "faq_list__question5__desc__part1": "Igen, a MaxAI kínál csapatcsomagokat. Ha érdekel, akkor megnézheted a",
+    "faq_list__question5__desc__part2": "Csapatcsomagok oldalunkat",
+    "faq_list__question5__desc__part3": "további információért."
   },
   "privacy": {},
   "industry": {

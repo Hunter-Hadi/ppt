@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite aastaplaanil!",
     "promotion__limited_time_offer": "Piiratud aja pakkumine",
     "payment_type_switch__yearly__tip": "Säästa kuni {{RATIO}}%",
-    "footer__pdf_tools": "Tasuta veebipõhised PDF tööriistad"
+    "footer__pdf_tools": "Tasuta veebipõhised PDF tööriistad",
+    "faq_list__question5__title": "Kas MaxAI pakub meeskonna plaane?",
+    "faq_list__question5__desc__part1": "Jah, MaxAI pakub meeskonna plaane. Kui olete huvitatud, saate tutvuda meie",
+    "faq_list__question5__desc__part2": "Meeskonna plaanide lehega",
+    "faq_list__question5__desc__part3": "lisateabe saamiseks."
   },
   "privacy": {},
   "industry": {

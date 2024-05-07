@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "sa MaxAI Elite Yearly plan!",
     "promotion__limited_time_offer": "Limitadong oras na alok",
     "payment_type_switch__yearly__tip": "I-save hanggang {{RATIO}}%",
-    "footer__pdf_tools": "Libreng online na mga tool para sa PDF"
+    "footer__pdf_tools": "Libreng online na mga tool para sa PDF",
+    "faq_list__question5__title": "Nag-aalok ba ang MaxAI ng mga plano para sa mga team?",
+    "faq_list__question5__desc__part1": "Oo, nag-aalok ang MaxAI ng mga plano para sa mga team. Kung interesado ka, maaari mong tingnan ang aming",
+    "faq_list__question5__desc__part2": "Pahina ng Mga Plano para sa Mga Team",
+    "faq_list__question5__desc__part3": "para sa karagdagang impormasyon."
   },
   "privacy": {},
   "industry": {

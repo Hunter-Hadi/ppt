@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "ในแผน MaxAI Elite รายปี!",
     "promotion__limited_time_offer": "ข้อเสนอจำกัดเวลา",
     "payment_type_switch__yearly__tip": "ประหยัดสูงสุด {{RATIO}}%",
-    "footer__pdf_tools": "เครื่องมือ PDF ออนไลน์ฟรี"
+    "footer__pdf_tools": "เครื่องมือ PDF ออนไลน์ฟรี",
+    "faq_list__question5__title": "MaxAI มีแผนทีมหรือไม่?",
+    "faq_list__question5__desc__part1": "ใช่  MaxAI มีแผนทีมที่คุณสามารถตรวจสอบได้หากคุณสนใจ",
+    "faq_list__question5__desc__part2": "หน้าแผนทีมของเรา",
+    "faq_list__question5__desc__part3": "สำหรับข้อมูลเพิ่มเติม"
   },
   "privacy": {},
   "industry": {

@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "trên gói MaxAI Elite hàng năm!",
     "promotion__limited_time_offer": "Ưu đãi giới hạn thời gian",
     "payment_type_switch__yearly__tip": "Tiết kiệm lên đến {{RATIO}}%",
-    "footer__pdf_tools": "Công cụ PDF trực tuyến miễn phí"
+    "footer__pdf_tools": "Công cụ PDF trực tuyến miễn phí",
+    "faq_list__question5__title": "MaxAI có cung cấp gói dịch vụ nhóm không?",
+    "faq_list__question5__desc__part1": "Có, MaxAI cung cấp gói dịch vụ nhóm. Nếu bạn quan tâm, bạn có thể xem trang",
+    "faq_list__question5__desc__part2": "Gói dịch vụ nhóm",
+    "faq_list__question5__desc__part3": "của chúng tôi để biết thêm thông tin."
   },
   "privacy": {},
   "industry": {

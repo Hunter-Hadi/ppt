@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI ఎలైట్ సాంకేతిక ప్రణాళికను ప్రతి సంవత్సరం!",
     "promotion__limited_time_offer": "సమయం పరిమితం ఉన్న ఆఫర్",
     "payment_type_switch__yearly__tip": "మీరు {{RATIO}}% సేవ్ చేయవచ్చు",
-    "footer__pdf_tools": "ఉచిత ఆన్‌లైన్ PDF సాధనాలు"
+    "footer__pdf_tools": "ఉచిత ఆన్‌లైన్ PDF సాధనాలు",
+    "faq_list__question5__title": "MaxAI టీమ్ ప్లాన్స్ అందుకుంటాయా?",
+    "faq_list__question5__desc__part1": "అవును, MaxAI టీమ్ ప్లాన్స్ అందుకుంటాయి. మీరు ఆసక్తి ఉంటే, మరియు మరిన్ని సమాచారం కోసం మా",
+    "faq_list__question5__desc__part2": "టీమ్ ప్లాన్స్ పేజీని",
+    "faq_list__question5__desc__part3": "చూడండి."
   },
   "privacy": {},
   "industry": {

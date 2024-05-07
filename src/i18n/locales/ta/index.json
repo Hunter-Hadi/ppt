@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "மேக்ஸ் ஏயர் திட்டத்தில்!",
     "promotion__limited_time_offer": "குறிப்பிட்ட நேரத்திற்கு வரை சமயத்தின் சலுகை",
     "payment_type_switch__yearly__tip": "முதலாம் ஆண்டு வருமானத்தை சேமிக்கலாம் {{RATIO}}%",
-    "footer__pdf_tools": "இலவச ஆன்லைன் PDF கருவிகள்"
+    "footer__pdf_tools": "இலவச ஆன்லைன் PDF கருவிகள்",
+    "faq_list__question5__title": "மேக்ஸ் ஏஐ குழு திட்டங்களை வழங்குகிறதா?",
+    "faq_list__question5__desc__part1": "ஆம், மேக்ஸ் ஏஐ குழு திட்டங்களை வழங்குகிறது. உங்களுக்கு ஆர்வம் உள்ளதானால், நீங்கள் எங்கள்",
+    "faq_list__question5__desc__part2": "குழு திட்டங்கள் பக்கத்தை",
+    "faq_list__question5__desc__part3": "பார்க்கலாம் மேலும் தகவல்களுக்கு."
   },
   "privacy": {},
   "industry": {

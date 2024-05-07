@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite 年度计划！",
     "promotion__limited_time_offer": "限时优惠",
     "payment_type_switch__yearly__tip": "最高可节省{{RATIO}}%",
-    "footer__pdf_tools": "免费在线PDF工具"
+    "footer__pdf_tools": "免费在线PDF工具",
+    "faq_list__question5__title": "MaxAI是否提供团队计划？",
+    "faq_list__question5__desc__part1": "是的，MaxAI提供团队计划。如果您有兴趣，可以查看我们的",
+    "faq_list__question5__desc__part2": "团队计划页面",
+    "faq_list__question5__desc__part3": "获取更多信息。"
   },
   "privacy": {},
   "industry": {

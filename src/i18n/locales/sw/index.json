@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "kwenye Mpango wa Mwaka wa MaxAI Elite!",
     "promotion__limited_time_offer": "Ofa ya muda mdogo",
     "payment_type_switch__yearly__tip": "Hifadhi hadi {{RATIO}}%",
-    "footer__pdf_tools": "Zana za PDF mkondoni za bure"
+    "footer__pdf_tools": "Zana za PDF mkondoni za bure",
+    "faq_list__question5__title": "Je, MaxAI inatoa mipango ya timu?",
+    "faq_list__question5__desc__part1": "Ndiyo, MaxAI inatoa mipango ya timu. Ikiwa una nia, unaweza kuangalia",
+    "faq_list__question5__desc__part2": "ukurasa wetu wa Mipango ya Timu",
+    "faq_list__question5__desc__part3": "kwa maelezo zaidi."
   },
   "privacy": {},
   "industry": {

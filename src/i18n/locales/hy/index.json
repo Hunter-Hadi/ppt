@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite տարեկան պլանից!",
     "promotion__limited_time_offer": "Ժամանակահատված առաքում",
     "payment_type_switch__yearly__tip": "Ավելացրեք {{RATIO}}%-ը",
-    "footer__pdf_tools": "Անվճար օնլայն PDF գործիքներ"
+    "footer__pdf_tools": "Անվճար օնլայն PDF գործիքներ",
+    "faq_list__question5__title": "Համարվում է MaxAI-ի թիմային պլաները?",
+    "faq_list__question5__desc__part1": "Այո, MaxAI-ն առաջարկում է թիմային պլաներ: Եթե Ձեզ հետաքրքրում է, դուք կարող եք այցելել մեր",
+    "faq_list__question5__desc__part2": "թիմային պլաների էջը",
+    "faq_list__question5__desc__part3": "ավելի մանրամասների համար:"
   },
   "privacy": {},
   "industry": {

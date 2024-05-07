@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "på MaxAI Elite Årligt abonnement!",
     "promotion__limited_time_offer": "Begrænset tids tilbud",
     "payment_type_switch__yearly__tip": "Spar op til {{RATIO}}%",
-    "footer__pdf_tools": "Gratis online PDF-værktøjer"
+    "footer__pdf_tools": "Gratis online PDF-værktøjer",
+    "faq_list__question5__title": "Tilbyder MaxAI holdplaner?",
+    "faq_list__question5__desc__part1": "Ja, MaxAI tilbyder holdplaner. Hvis du er interesseret, kan du tjekke vores",
+    "faq_list__question5__desc__part2": "Holdplaner side",
+    "faq_list__question5__desc__part3": "for mere information."
   },
   "privacy": {},
   "industry": {

@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite 年度方案！",
     "promotion__limited_time_offer": "限時優惠",
     "payment_type_switch__yearly__tip": "最高可節省{{RATIO}}%",
-    "footer__pdf_tools": "免費在線 PDF 工具"
+    "footer__pdf_tools": "免費在線 PDF 工具",
+    "faq_list__question5__title": "MaxAI 是否提供團隊方案？",
+    "faq_list__question5__desc__part1": "是的，MaxAI 提供團隊方案。如果您有興趣，您可以查看我們的",
+    "faq_list__question5__desc__part2": "團隊方案頁面",
+    "faq_list__question5__desc__part3": "以獲取更多資訊。"
   },
   "privacy": {},
   "industry": {

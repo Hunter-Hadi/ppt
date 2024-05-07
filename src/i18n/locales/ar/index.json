@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "على خطة MaxAI Elite السنوية!",
     "promotion__limited_time_offer": "عرض لفترة محدودة",
     "payment_type_switch__yearly__tip": "وفّر حتى {{RATIO}}%",
-    "footer__pdf_tools": "أدوات PDF المجانية عبر الإنترنت"
+    "footer__pdf_tools": "أدوات PDF المجانية عبر الإنترنت",
+    "faq_list__question5__title": "هل تقدم MaxAI خططًا للفرق؟",
+    "faq_list__question5__desc__part1": "نعم، يقدم MaxAI خططًا للفرق. إذا كنت مهتمًا، يمكنك التحقق من صفحة",
+    "faq_list__question5__desc__part2": "خطط الفرق",
+    "faq_list__question5__desc__part3": "لمزيد من المعلومات."
   },
   "privacy": {},
   "industry": {

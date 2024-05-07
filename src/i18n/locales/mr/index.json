@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite वार्षिक योजनेवर!",
     "promotion__limited_time_offer": "सीमित कालावधीचा ऑफर",
     "payment_type_switch__yearly__tip": "तुमच्या खरेदीसाठी {{RATIO}}% वर्षात बचत करा",
-    "footer__pdf_tools": "विनामूल्य ऑनलाइन PDF साधने"
+    "footer__pdf_tools": "विनामूल्य ऑनलाइन PDF साधने",
+    "faq_list__question5__title": "MaxAI की टीम योजना उपलब्ध आहे का?",
+    "faq_list__question5__desc__part1": "होय, MaxAI टीम योजना उपलब्ध करते. आपल्याला आवडल्यास, आपण आमच्या",
+    "faq_list__question5__desc__part2": "टीम योजना पृष्ठ",
+    "faq_list__question5__desc__part3": "वर अधिक माहितीसाठी पहा."
   },
   "privacy": {},
   "industry": {

@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "בתוכנית השנתית של MaxAI Elite!",
     "promotion__limited_time_offer": "הצעת זמן מוגבל",
     "payment_type_switch__yearly__tip": "חסוך עד {{RATIO}}%",
-    "footer__pdf_tools": "כלי PDF מקוונים חינמיים"
+    "footer__pdf_tools": "כלי PDF מקוונים חינמיים",
+    "faq_list__question5__title": "האם MaxAI מציע תוכניות צוות?",
+    "faq_list__question5__desc__part1": "כן, MaxAI מציע תוכניות צוות. אם אתה מעוניין, תוכל לבדוק את",
+    "faq_list__question5__desc__part2": "דף התוכניות לצוות",
+    "faq_list__question5__desc__part3": "למידע נוסף."
   },
   "affiliate": {
     "hero_section__indicator__label": "#1 מוצר של השבוע",

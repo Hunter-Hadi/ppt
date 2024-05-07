@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "na MaxAI Elite godišnjem planu!",
     "promotion__limited_time_offer": "Ponuda sa ograničenim vremenom",
     "payment_type_switch__yearly__tip": "Uštedite do {{RATIO}}%",
-    "footer__pdf_tools": "Besplatni online alati za PDF"
+    "footer__pdf_tools": "Besplatni online alati za PDF",
+    "faq_list__question5__title": "Da li MaxAI nudi timski plan?",
+    "faq_list__question5__desc__part1": "Da, MaxAI nudi timski plan. Ako ste zainteresovani, možete pogledati našu",
+    "faq_list__question5__desc__part2": "stranicu sa timskim planovima",
+    "faq_list__question5__desc__part3": "za više informacija."
   },
   "privacy": {},
   "industry": {

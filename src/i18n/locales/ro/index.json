@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "la planul anual MaxAI Elite!",
     "promotion__limited_time_offer": "Ofertă cu durată limitată",
     "payment_type_switch__yearly__tip": "Economisește până la {{RATIO}}%",
-    "footer__pdf_tools": "Instrumente gratuite online pentru PDF"
+    "footer__pdf_tools": "Instrumente gratuite online pentru PDF",
+    "faq_list__question5__title": "Oferă MaxAI planuri de echipă?",
+    "faq_list__question5__desc__part1": "Da, MaxAI oferă planuri de echipă. Dacă ești interesat, poți verifica",
+    "faq_list__question5__desc__part2": "pagina noastră de planuri de echipă",
+    "faq_list__question5__desc__part3": "pentru mai multe informații."
   },
   "privacy": {},
   "industry": {

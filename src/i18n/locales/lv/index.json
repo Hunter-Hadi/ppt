@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite gadu plānā!",
     "promotion__limited_time_offer": "Ierobežota laika piedāvājums",
     "payment_type_switch__yearly__tip": "Ietaupi līdz {{RATIO}}%",
-    "footer__pdf_tools": "Bezmaksas tiešsaistes PDF rīki"
+    "footer__pdf_tools": "Bezmaksas tiešsaistes PDF rīki",
+    "faq_list__question5__title": "Vai MaxAI piedāvā komandu plānus?",
+    "faq_list__question5__desc__part1": "Jā, MaxAI piedāvā komandu plānus. Ja jums tas interesē, varat apskatīt mūsu",
+    "faq_list__question5__desc__part2": "Komandu plānu lapu",
+    "faq_list__question5__desc__part3": "lai iegūtu vairāk informācijas."
   },
   "privacy": {},
   "industry": {

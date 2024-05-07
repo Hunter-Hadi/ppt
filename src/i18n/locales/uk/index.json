@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "پر MaxAI Elite سالانہ منصوبے پر!",
     "promotion__limited_time_offer": "محدود وقتی پیشکش",
     "payment_type_switch__yearly__tip": "تکمیل کریں تا {{RATIO}}% تک بچائیں",
-    "footer__pdf_tools": "مفت آن لائن PDF ٹولز"
+    "footer__pdf_tools": "مفت آن لائن PDF ٹولز",
+    "faq_list__question5__title": "کیا MaxAI ٹیم منصوبے پیش کرتا ہے؟",
+    "faq_list__question5__desc__part1": "جی ہاں، MaxAI ٹیم منصوبے پیش کرتا ہے۔ آپ اگر دلچسپی رکھتے ہیں تو، آپ ہمارے",
+    "faq_list__question5__desc__part2": "ٹیم منصوبے صفحہ",
+    "faq_list__question5__desc__part3": "سے مزید معلومات حاصل کرسکتے ہیں۔"
   },
   "privacy": {},
   "industry": {

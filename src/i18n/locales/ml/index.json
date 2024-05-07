@@ -687,7 +687,11 @@
     "promotion__banner__elite__title__part2": "മാക്സ്‌എയ് എലൈറ്റ് വാർഷിക പ്ലാൻ പട്ടികയിൽ!",
     "promotion__limited_time_offer": "സമയപരമായ ഓഫറുകൾ",
     "payment_type_switch__yearly__tip": "വർഷത്തെ ഒരു പണം സംരക്ഷിക്കുക {{RATIO}}%",
-    "footer__pdf_tools": "സൗജന്യ ഓൺലൈന്‍ PDF ഉപകരണങ്ങൾ"
+    "footer__pdf_tools": "സൗജന്യ ഓൺലൈന്‍ PDF ഉപകരണങ്ങൾ",
+    "faq_list__question5__title": "മാക്സ് എ.ഐ ടീം പ്ലാനുകൾ നൽകുന്നുണ്ടോ?",
+    "faq_list__question5__desc__part1": "അതെ, മാക്സ് എ.ഐ ടീം പ്ലാനുകൾ നൽകുന്നു. നിങ്ങൾ ആരാധിക്കുന്നുവെങ്കിൽ, നിങ്ങളുടെ",
+    "faq_list__question5__desc__part2": "ടീം പ്ലാനുകൾ പേജ്",
+    "faq_list__question5__desc__part3": "കൂടുതൽ വിവരങ്ങൾക്ക് പോവുക."
   },
   "privacy": {},
   "industry": {
