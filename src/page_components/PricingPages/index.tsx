@@ -1,18 +1,32 @@
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useSetRecoilState } from 'recoil';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import PlanFeaturesTableV3 from '@/features/pricing/components/PlanFeaturesTableV3';
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox';
-import PricingPlanCategoryBar from '@/features/pricing/components/PricingPlanCategoryBar';
 import TeamPlanTips from '@/features/pricing/components/TeamPlanTips';
+import {
+  PricingPaymentTypeAtom,
+  PricingPlanCategoryState,
+} from '@/features/pricing/store';
 import PromotionBannerForElite from '@/features/promotion/components/promotion_banners/PromotionBannerForElite';
 
 const PricingPages = () => {
   const { t } = useTranslation();
+
+  const setPricingPlanCategory = useSetRecoilState(PricingPlanCategoryState);
+
+  const setPaymentType = useSetRecoilState(PricingPaymentTypeAtom);
+
+  useEffect(() => {
+    setPricingPlanCategory('individual');
+    setPaymentType('yearly');
+  }, []);
+
   return (
     <AppContainer
       sx={{
@@ -25,7 +39,7 @@ const PricingPages = () => {
       }}
     >
       <AppDefaultSeoLayout title={t('seo:pricing__title')} />
-      <PricingPlanCategoryBar />
+      {/* <PricingPlanCategoryBar /> */}
       <PromotionBannerForElite />
       <TeamPlanTips />
 
