@@ -1,6 +1,6 @@
 {
   "topUrlKey": "pdf-tools",
-  "childrens": {
+  "childrenObject": {
     "merge-pdf": "merge-pdf",
     "split-pdf": "split-pdf",
     "pdf-to-png": "pdf-to-png",

@@ -363,7 +363,7 @@
     "tools__index_page__description": "文書をより生産的に効率的に作業するために必要なすべてのツール。完全なプライバシーのために100％無料でブラウザベースです。",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDFからPNGへ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDFからJPEGへ",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDFの結合",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDFの結合",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDFを分割する",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNGからPDFへ",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEGからPDFへ",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "PDFの各ページをPNGイメージとしてエクスポートするか、PDFから個別のイメージを抽出します",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "PDFの各ページをJPEGイメージとしてエクスポートするか、PDFから個別のイメージを抽出します",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "PDFの各ページをJPEGイメージとしてエクスポートするか、PDFから個別のイメージを抽出します",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "選択した順序で任意の数のPDFを1つのPDFに結合します",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "わずかなクリックで複数のPDFファイルを1つに結合します",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "選択した順序で任意の数のPDFを1つのPDFに結合します",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "わずかなクリックで複数のPDFファイルを1つに結合します",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "PDFのページを複数のPDFに分割するか、既存のPDFからページを削除します",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "PDFのページを複数のPDFに分割するか、既存のPDFからページを削除します",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNGイメージをオンラインでPDFに変換します",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "PDFのページをJPEG画像に変換するか、PDFファイルから個別の画像を無料で抽出します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
     "pdf_tools__pdf_to_png__title": "PDFをPNGに変換 - 無料でオンラインでPDFを画像に変換する | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "PDFのページをPNG画像に変換するか、PDFファイルから個別の画像を無料で抽出します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
-    "pdf_tools__merge_pdfs__title": "PDFを結合 - 無料でオンラインでPDFファイルを結合する | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "PDFファイルを結合して単一のドキュメントを無料で作成します。PDFコンバイナーを使用すれば、PDFの結合がこれまで以上に簡単になります。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__merge_pdf__title": "PDFを結合 - 無料でオンラインでPDFファイルを結合する | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "PDFファイルを結合して単一のドキュメントを無料で作成します。PDFコンバイナーを使用すれば、PDFの結合がこれまで以上に簡単になります。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
     "pdf_tools__split_pdf__title": "PDFを分割 - 無料でオンラインでPDFページを分離 | MaxAI.me",
     "pdf_tools__split_pdf__description": "簡単にPDFのページを分離したり、ページを削除したりすることができます。ウォーターマークやファイルサイズの制限、ダウンロードやサインアップは必要ありません。",
     "pdf_tools__png_to_pdf__title": "PNGからPDF - 無料でPNG画像をPDFに変換 | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "PDFをクリア",
     "components__pdf_merge__confirm_merge": "マージを確認",
     "components__pdf_merge__button__download__tooltip": "PDFを結合してダウンロード",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "以下のすべてのPDFをクリア",
+    "components__pdf_merge__button__clear_pdf__tooltip": "以下のすべてのPDFをクリア",
     "components__pdf_merge__button__add_pdfs__tooltip": "以下にPDFファイルを追加"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__pdf_to_html__button__download": "ダウンロード",
-    "components__pdf_to_html__button__Convert": "別のファイルを変換"
+    "components__pdf_to_html__button__convert": "別のファイルを変換"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "主な機能：",

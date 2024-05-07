@@ -363,7 +363,7 @@
     "tools__index_page__description": "تمام آلات جو آپ کو مزید تکمیل دینے اور دستاویزات کے ساتھ ذہین کام کرنے کی ضرورت ہوگی. 100٪ مفت اور براؤزر پر مبنی خصوصیت کے لئے.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF سے PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF سے JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDF کو مرکب کریں",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDF کو مرکب کریں",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF کاٹیں",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG سے PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG سے PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ہر پی ڈی ایف صفحے کو پی این جی تصویر کے طور پر برآمد کریں یا پی ڈی ایف سے الگ الگ تصاویر کو پی این جی میں نکالیں",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ہر پی ڈی ایف صفحے کو جے پی این جی تصویر کے طور پر برآمد کریں یا پی ڈی ایف سے الگ الگ تصاویر کو جے پی این جی میں نکالیں",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ہر صفحے کو جے پی این جی بنائیں یا پی ڈی ایف سے الگ الگ تصاویر کو جے پی این جی میں نکالیں",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "آپ کی منتخب کردہ ترتیب میں کسی بھی تعداد کے پی ڈی ایفز کو ایک ہی پی ڈی ایف میں مرج کریں",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "چند کلکس کے ساتھ ملٹیپل پی ڈی ایف فائلوں کو ایک میں مرج کریں",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "آپ کی منتخب کردہ ترتیب میں کسی بھی تعداد کے پی ڈی ایفز کو ایک ہی پی ڈی ایف میں مرج کریں",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "چند کلکس کے ساتھ ملٹیپل پی ڈی ایف فائلوں کو ایک میں مرج کریں",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "ایک پی ڈی ایف کی صفحات کو متعدد پی ڈی ایفز میں تقسیم کریں یا صرف موجودہ پی ڈی ایف سے صفحات ہٹا دیں",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "ایک پی ڈی ایف کی صفحات کو متعدد پی ڈی ایفز میں تقسیم کریں یا صرف موجودہ پی ڈی ایف سے صفحات ہٹا دیں",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG تصاویر کو آن لائن پی ڈی ایف میں تبدیل کریں",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "مفت آن لائن پی ڈی ایف فائلوں کے صفحات کو جے پی ایج کی تصاویر میں تبدیل کریں یا اپنی پی ڈی ایف فائلوں سے الگ الگ تصاویر نکالیں۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
     "pdf_tools__pdf_to_png__title": "PDF سے PNG - کسی بھی PDF کو مفت آن لائن تصاویر میں تبدیل کریں | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "مفت آن لائن پی ڈی ایف فائلوں کے صفحات کو پی این جی تصاویر میں تبدیل کریں یا اپنی پی ڈی ایف فائلوں سے الگ الگ تصاویر نکالیں۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
-    "pdf_tools__merge_pdfs__title": "PDF مرج کریں - مفت آن لائن پی ڈی ایف فائلوں کو ملائیں | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "مفت آن لائن پی ڈی ایف فائلوں کو ملائیں اور ایک واحد دستاویز بنائیں۔ ہمارے پی ڈی ایف کمبائنر کے ساتھ، پی ڈی ایفز کو مرج کرنا کبھی سے بھی آسان ہوتا ہے۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
+    "pdf_tools__merge_pdf__title": "PDF مرج کریں - مفت آن لائن پی ڈی ایف فائلوں کو ملائیں | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "مفت آن لائن پی ڈی ایف فائلوں کو ملائیں اور ایک واحد دستاویز بنائیں۔ ہمارے پی ڈی ایف کمبائنر کے ساتھ، پی ڈی ایفز کو مرج کرنا کبھی سے بھی آسان ہوتا ہے۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
     "pdf_tools__split_pdf__title": "PDF کو تقسیم کریں - مفت آن لائن پی ڈی ایف صفحات کو علیحدہ کریں | MaxAI.me",
     "pdf_tools__split_pdf__description": "آسانی سے آپ کے پی ڈی ایف کے صفحات کو علیحدہ کریں یا حذف کریں۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپ کی ضرورت نہیں ہوتی۔",
     "pdf_tools__png_to_pdf__title": "PNG سے PDF - PNG تصاویر کو مفت آن لائن پی ڈی ایف میں تبدیل کریں | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "پی ڈی ایف صاف کریں",
     "components__pdf_merge__confirm_merge": "مرج کرنے کی تصدیق کریں",
     "components__pdf_merge__button__download__tooltip": "PDF کو مرکب کریں اور ڈاؤن لوڈ کریں",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "نیچے تمام PDFز ختم کریں",
+    "components__pdf_merge__button__clear_pdf__tooltip": "نیچے تمام PDFز ختم کریں",
     "components__pdf_merge__button__add_pdfs__tooltip": "نیچے PDF فائل شامل کریں"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کو اپ لوڈ کریں",
     "components__pdf_to_html__button__download": "ڈاؤن لوڈ کریں",
-    "components__pdf_to_html__button__Convert": "دوسرا تبدیل کریں"
+    "components__pdf_to_html__button__convert": "دوسرا تبدیل کریں"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "کور فیچرز:",

@@ -363,7 +363,7 @@
     "tools__index_page__description": "Alla verktyg du behöver för att vara mer produktiv och arbeta smartare med dokument. 100% GRATIS och webbläsarbaserat för fullständig integritet.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF till PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF till JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Slå samman PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Slå samman PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dela upp en PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG till PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG till PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exportera varje PDF-sida som en PNG-bild eller extrahera enskilda bilder från PDF till PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exportera varje PDF-sida som en JPEG-bild eller extrahera enskilda bilder från PDF till JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exportera varje sida som en JPEG eller extrahera enskilda bilder från PDF till JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Sammanfoga valfritt antal PDF-filer i den ordning du väljer till en enda PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Sammanfoga flera PDF-filer till en med bara några klick",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Sammanfoga valfritt antal PDF-filer i den ordning du väljer till en enda PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Sammanfoga flera PDF-filer till en med bara några klick",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Dela upp en PDF:s sidor i flera PDF-filer eller helt enkelt ta bort sidor från en befintlig",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Dela upp en PDF:s sidor i flera PDF-filer eller helt enkelt ta bort sidor från en befintlig.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertera PNG-bilder till PDF online",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Konvertera PDF-sidor till JPEG-bilder eller extrahera enskilda bilder från dina PDF-filer online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
     "pdf_tools__pdf_to_png__title": "PDF till PNG - Konvertera vilka PDF-filer som helst till bilder online gratis | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Konvertera PDF-sidor till PNG-bilder eller extrahera enskilda bilder från dina PDF-filer online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
-    "pdf_tools__merge_pdfs__title": "Sammanfoga PDF – Kombinera PDF-filer online gratis | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Kombinera PDF-filer och skapa ett enda dokument online gratis. Med vår PDF-sammanfogare är det enklare än någonsin att slå samman PDF-filer. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "pdf_tools__merge_pdf__title": "Sammanfoga PDF – Kombinera PDF-filer online gratis | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Kombinera PDF-filer och skapa ett enda dokument online gratis. Med vår PDF-sammanfogare är det enklare än någonsin att slå samman PDF-filer. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
     "pdf_tools__split_pdf__title": "Dela upp PDF – Separera PDF-sidor online gratis | MaxAI.me",
     "pdf_tools__split_pdf__description": "Separera enkelt sidor eller ta bort sidor i din PDF online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
     "pdf_tools__png_to_pdf__title": "PNG till PDF - Konvertera PNG-bilder till PDF online gratis | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Rensa PDF:er",
     "components__pdf_merge__confirm_merge": "Bekräfta sammanfogning",
     "components__pdf_merge__button__download__tooltip": "Slå samman och ladda ner PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Rensa alla PDF-filer nedan",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Rensa alla PDF-filer nedan",
     "components__pdf_merge__button__add_pdfs__tooltip": "Lägg till PDF-fil nedan"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
     "components__pdf_to_html__button__download": "Ladda ner",
-    "components__pdf_to_html__button__Convert": "Konvertera en annan"
+    "components__pdf_to_html__button__convert": "Konvertera en annan"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Kärnfunktioner:",

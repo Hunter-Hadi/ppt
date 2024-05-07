@@ -363,7 +363,7 @@
     "tools__index_page__description": "Tutti gli strumenti di cui avrai bisogno per essere più produttivo e lavorare in modo più intelligente con i documenti. 100% GRATUITI e basati sul browser per una privacy completa.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF in PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF in JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Unisci PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Unisci PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Dividi un PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG in PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG in PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Esporta ogni pagina PDF come immagine PNG o estrai immagini singole dal PDF in PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Esporta ogni pagina PDF come immagine JPEG o estrai immagini singole dal PDF in JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Esporta ogni pagina come JPEG o estrai immagini singole dal PDF in JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Unisci qualsiasi quantità di PDF nell'ordine che preferisci in un singolo PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Unisci più file PDF in uno con pochi clic",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Unisci qualsiasi quantità di PDF nell'ordine che preferisci in un singolo PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Unisci più file PDF in uno con pochi clic",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Dividi le pagine di un PDF in più PDF o semplicemente rimuovi pagine da uno già esistente",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Dividi le pagine di un PDF in più PDF o semplicemente rimuovi pagine da uno già esistente.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Converti immagini PNG in PDF online",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Converti le pagine PDF in immagini JPEG o estrai immagini singole dai tuoi file PDF online gratuitamente. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
     "pdf_tools__pdf_to_png__title": "PDF in PNG - Converti qualsiasi PDF in immagini online gratuitamente | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Converti le pagine PDF in immagini PNG o estrai immagini singole dai tuoi file PDF online gratuitamente. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
-    "pdf_tools__merge_pdfs__title": "Unisci PDF - Combina file PDF online gratuitamente | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Combina file PDF e crea un singolo documento online gratuitamente. Con il nostro unificatore PDF, unire i PDF è più facile che mai. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
+    "pdf_tools__merge_pdf__title": "Unisci PDF - Combina file PDF online gratuitamente | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Combina file PDF e crea un singolo documento online gratuitamente. Con il nostro unificatore PDF, unire i PDF è più facile che mai. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
     "pdf_tools__split_pdf__title": "Dividi PDF - Separare le pagine del PDF online gratuitamente | MaxAI.me",
     "pdf_tools__split_pdf__description": "Separare facilmente le pagine o rimuovere pagine nel tuo PDF online gratuitamente. Nessun watermark, limite di dimensione del file, download o registrazione richiesta.",
     "pdf_tools__png_to_pdf__title": "PNG in PDF - Converti immagini PNG in PDF online gratuitamente | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Svuota PDF",
     "components__pdf_merge__confirm_merge": "Conferma per unire",
     "components__pdf_merge__button__download__tooltip": "Unisci e scarica PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Cancella tutti i PDF sottostanti",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Cancella tutti i PDF sottostanti",
     "components__pdf_merge__button__add_pdfs__tooltip": "Aggiungi file PDF qui sotto"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
     "components__pdf_to_html__button__download": "Scarica",
-    "components__pdf_to_html__button__Convert": "Converti un altro"
+    "components__pdf_to_html__button__convert": "Converti un altro"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Funzionalità principali:",

@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState } from 'react';
 /**
  * 用于改变图像的缩放比例。
  *
@@ -10,22 +10,21 @@ import { useCallback, useState } from "react";
  *   传入 1 以设置为最大缩放比例，传入其他值将重置为默认缩放比例。
  */
 export const useFunctionalityCommonChangeScale = () => {
-    const defScale = 4, maxScale = 10, minScale = 2;
-    const [currentScale, setCurrentScale] = useState<number>(defScale);
-    const onDefaultChangeScale = () => {
-        setCurrentScale(defScale);
-    }
-    const changeScale = useCallback(
-        (type: 'enlarge' | 'narrow') => {
-            setCurrentScale((prev) => {
-                if (type === 'enlarge') {
-                    return Math.min(prev + 1, maxScale);
-                } else {
-                    return Math.max(prev - 1, minScale);
-                }
-            });
-        },
-        [],
-    );
-    return { changeScale, currentScale, onDefaultChangeScale }
-}
+  const defScale = 4,
+    maxScale = 10,
+    minScale = 2;
+  const [currentScale, setCurrentScale] = useState<number>(defScale);
+  const onDefaultChangeScale = () => {
+    setCurrentScale(defScale);
+  };
+  const changeScale = useCallback((type: 'enlarge' | 'narrow') => {
+    setCurrentScale((prev) => {
+      if (type === 'enlarge') {
+        return Math.min(prev + 1, maxScale);
+      } else {
+        return Math.max(prev - 1, minScale);
+      }
+    });
+  }, []);
+  return { changeScale, currentScale, onDefaultChangeScale };
+};

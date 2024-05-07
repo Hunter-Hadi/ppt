@@ -363,7 +363,7 @@
     "tools__index_page__description": "Az összes eszköz, amire szüksége lesz a hatékonyabb munkához és okosabb dokumentumkezeléshez. 100% INGYENES és böngésző alapú a teljes adatvédelem érdekében.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-ra",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-re",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDF-ek egyesítése",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDF-ek egyesítése",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF felosztása",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG to PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG to PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exportálja minden PDF oldalt PNG képként vagy külön-külön képeket hozzon létre a PDF-ből PNG formátumban",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exportálja minden PDF oldalt JPEG képként vagy külön-külön képeket hozzon létre a PDF-ből JPEG formátumban",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exportálja minden oldalt JPEG képként vagy külön-külön képeket hozzon létre a PDF-ből JPEG formátumban",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Egyetlen PDF-be fűzhet össze tetszőleges mennyiségű PDF-t a választott sorrendben",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Pár kattintással több PDF fájlt egyesíthet egyetlen fájlba",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Egyetlen PDF-be fűzhet össze tetszőleges mennyiségű PDF-t a választott sorrendben",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Pár kattintással több PDF fájlt egyesíthet egyetlen fájlba",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Vágjon szét egy PDF oldalakat több PDF-re, vagy egyszerűen távolítson el oldalakat egy meglévőből",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Vágjon szét egy PDF oldalakat több PDF-re, vagy egyszerűen távolítson el oldalakat egy meglévőből.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertálja a PNG képeket PDF formátumba online",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Konvertálja a PDF oldalakat JPEG képekké vagy kinyerheti az egyedi képeket a PDF fájlokból online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
     "pdf_tools__pdf_to_png__title": "PDF to PNG - Bármely PDF konvertálása képekbe online ingyen | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Konvertálja a PDF oldalakat PNG képekké vagy kinyerheti az egyedi képeket a PDF fájlokból online ingyen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
-    "pdf_tools__merge_pdfs__title": "PDF összevonása - PDF fájlok kombinálása online ingyen | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Kombinálja a PDF fájlokat és hozzon létre egyetlen dokumentumot online ingyen. A PDF összevonóval könnyebb mint valaha a PDF-ek egyesítése. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
+    "pdf_tools__merge_pdf__title": "PDF összevonása - PDF fájlok kombinálása online ingyen | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Kombinálja a PDF fájlokat és hozzon létre egyetlen dokumentumot online ingyen. A PDF összevonóval könnyebb mint valaha a PDF-ek egyesítése. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
     "pdf_tools__split_pdf__title": "PDF szétválasztása - Ingyenesen válassza szét a PDF oldalakat | MaxAI.me",
     "pdf_tools__split_pdf__description": "Egyszerűen válassza szét az oldalakat vagy távolítsa el az oldalakat a PDF-ből ingyenesen. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
     "pdf_tools__png_to_pdf__title": "PNG to PDF - PNG képek konvertálása PDF formátumba ingyen | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "PDF-ek törlése",
     "components__pdf_merge__confirm_merge": "Összevonás megerősítése",
     "components__pdf_merge__button__download__tooltip": "PDF egyesítése és letöltése",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Az alábbi összes PDF törlése",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Az alábbi összes PDF törlése",
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF fájl hozzáadása alul"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
     "components__pdf_to_html__button__download": "Letöltés",
-    "components__pdf_to_html__button__Convert": "Másik átalakítása"
+    "components__pdf_to_html__button__convert": "Másik átalakítása"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Alapvető funkciók:",

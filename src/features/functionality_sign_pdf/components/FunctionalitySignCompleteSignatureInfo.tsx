@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { FC, useMemo } from 'react';
 
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
+import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 
 import FunctionalitySignPdfIcon from './FunctionalitySignPdfIcon';
 
@@ -17,11 +18,8 @@ const FunctionalitySignCompleteSignatureInfo: FC<
 > = ({ downloadUint8Array, onClearReturn, fileName }) => {
   const { t } = useTranslation();
   const onDownload = () => {
-    let newFileName = fileName;
-    if (newFileName.endsWith('.pdf')) {
-      newFileName = newFileName.slice(0, -4);
-    }
-    downloadUrl(downloadUint8Array, newFileName + '(Powered by MaxAI).pdf');
+    const newFileName = functionalityCommonRemoveAndAddFileExtension(fileName);
+    downloadUrl(downloadUint8Array, newFileName);
   };
   const currentTime = useMemo(() => dayjs().format('YYYY-MM-DD'), []);
   return (

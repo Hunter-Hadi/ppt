@@ -25,7 +25,8 @@ import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import snackNotifications from '@/utils/globalSnackbar';
+import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 export const FunctionalityPdfSplitMain = () => {
   const { t } = useTranslation();
@@ -64,16 +65,10 @@ export const FunctionalityPdfSplitMain = () => {
     }
   };
   const handleUnsupportedFileTypeTip = () => {
-    snackNotifications.warning(
+    functionalityCommonSnackNotifications(
       t(
         'functionality__pdf_split:components__pdf_split__unsupported_file_type_tip',
       ),
-      {
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-      },
     );
   };
   const selectPdfPageList = useMemo(
@@ -86,8 +81,11 @@ export const FunctionalityPdfSplitMain = () => {
     if (selectPdfPageList.length > 0) {
       if (isMergeSinglePDf) {
         const downloadPdfData = await getMergePdfFiles(selectPdfPageList);
+        const fileName = functionalityCommonRemoveAndAddFileExtension(
+          'split-' + activeFile?.name || '',
+        );
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, 'split(MaxAI.me).pdf');
+          downloadUrl(downloadPdfData, fileName);
         }
       } else {
         const pdfUint8ArrayList = await getSplitPdfFiles(selectPdfPageList);
@@ -98,12 +96,17 @@ export const FunctionalityPdfSplitMain = () => {
   };
   const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
     const zip = new JSZip();
-    const zipTool = zip.folder('pdfs(MaxAI.me)');
+    const folderName = functionalityCommonRemoveAndAddFileExtension(
+      'split-' + activeFile?.name || '',
+      'pdf',
+      '',
+    );
+    const zipTool = zip.folder(folderName);
     for (let i = 0; i < list.length; i++) {
-      zipTool?.file(`split-${i + 1}(MaxAI.me).pdf`, list[i]);
+      zipTool?.file(`split-${i + 1}(Powered by MaxAI).pdf`, list[i]);
     }
     zip.generateAsync({ type: 'blob' }).then((content) => {
-      FileSaver.saveAs(content, 'pdfs(MaxAI.me).zip');
+      FileSaver.saveAs(content, folderName + '.zip');
     });
   };
   const getSplitPdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
@@ -150,14 +153,8 @@ export const FunctionalityPdfSplitMain = () => {
     } catch (e) {
       setIsLoading(false);
       console.error('simply mergePdfFiles error', e);
-      snackNotifications.warning(
+      functionalityCommonSnackNotifications(
         t('functionality__pdf_split:components__pdf_split__error_maximum'),
-        {
-          anchorOrigin: {
-            vertical: 'top',
-            horizontal: 'center',
-          },
-        },
       );
     }
   };
@@ -166,70 +163,88 @@ export const FunctionalityPdfSplitMain = () => {
   };
   const currentIsLoading = pdfIsLoading || isLoading;
   //按钮配置列表
-  const buttonConfigs: IButtonConfig[] = [
-    {
-      type: 'button',
-      buttonProps: {
-        children: isSelectAll
-          ? t('functionality__pdf_split:components__pdf_split__deselect_all')
-          : t('functionality__pdf_split:components__pdf_split__select_all'),
-        variant: 'outlined',
-        disabled: currentIsLoading || convertedPdfImages.length === 0,
-        onClick: () => onSwitchAllSelect(),
-      },
-    },
-    {
-      type: 'button',
-      buttonProps: {
-        tooltip: t(
-          'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
-        ),
-        children: t(
-          'functionality__pdf_split:components__pdf_split__remove_pdf',
-        ),
-        variant: 'outlined',
-        color: 'error',
-        disabled: currentIsLoading,
-        onClick: () => onRemoveFile(),
-      },
-    },
-    {
-      isShow: currentIsLoading,
-      type: 'button',
-      buttonProps: {
-        tooltip: t(
-          'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
-        ),
-        children: t('functionality__pdf_split:components__pdf_split__cancel'),
-        variant: 'outlined',
-        color: 'error',
-        onClick: () => onCancelPdfActive(),
-      },
-    },
-    {
-      isShow: !currentIsLoading,
-      type: 'iconButton',
-      iconButtonProps: [
-        {
-          name: 'ControlPointTwoTone',
-          onClick: () => changeScale('enlarge'),
-          tooltip: t(
-            'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
-          ),
+  const buttonConfigs: IButtonConfig[] = useMemo(
+    () => [
+      {
+        type: 'button',
+        buttonProps: {
+          children: isSelectAll
+            ? t('functionality__pdf_split:components__pdf_split__deselect_all')
+            : t('functionality__pdf_split:components__pdf_split__select_all'),
+          variant: 'outlined',
+          disabled: currentIsLoading || convertedPdfImages.length === 0,
+          onClick: () => onSwitchAllSelect(),
         },
-        {
-          name: 'RemoveCircleTwoTone',
-          onClick: () => changeScale('narrow'),
+      },
+      {
+        type: 'button',
+        buttonProps: {
           tooltip: t(
-            'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+            'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
           ),
-          sx: {
-            marginLeft: 1,
+          children: t(
+            'functionality__pdf_split:components__pdf_split__remove_pdf',
+          ),
+          variant: 'outlined',
+          color: 'error',
+          disabled: currentIsLoading,
+          onClick: () => onRemoveFile(),
+        },
+      },
+      {
+        isShow: currentIsLoading,
+        type: 'button',
+        buttonProps: {
+          tooltip: t(
+            'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
+          ),
+          children: t('functionality__pdf_split:components__pdf_split__cancel'),
+          variant: 'outlined',
+          color: 'error',
+          onClick: () => onCancelPdfActive(),
+        },
+      },
+      {
+        isShow: !currentIsLoading,
+        type: 'iconButton',
+        iconButtonProps: [
+          {
+            name: 'ControlPointTwoTone',
+            onClick: () => changeScale('enlarge'),
+            tooltip: t(
+              'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
+            ),
           },
-        },
-      ],
-    },
-  ];
+          {
+            name: 'RemoveCircleTwoTone',
+            onClick: () => changeScale('narrow'),
+            tooltip: t(
+              'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+            ),
+            sx: {
+              marginLeft: 1,
+            },
+          },
+        ],
+      },
+    ],
+    [currentIsLoading, isSelectAll, convertedPdfImages, t],
+  );
+  const StackViewWrap = (props) => (
+    <Stack
+      direction='row'
+      flexWrap='wrap'
+      justifyContent='center'
+      my={3}
+      gap={2}
+      sx={{
+        position: 'relative',
+        minHeight: 200,
+      }}
+    >
+      {props.children}
+    </Stack>
+  );
   return (
     <Stack
       flexDirection='column'
@@ -252,61 +267,50 @@ export const FunctionalityPdfSplitMain = () => {
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
 
-      {(convertedPdfImages.length > 0 || currentIsLoading) && (
-        <Stack
-          direction='row'
-          flexWrap='wrap'
-          justifyContent='center'
-          my={3}
-          gap={2}
-          sx={{
-            position: 'relative',
-            minHeight: 200,
-          }}
-        >
-          {!currentIsLoading &&
-            convertedPdfImages.map((imageInfo, index) => (
-              <FunctionalityCommonImage
-                key={imageInfo.id}
-                name={String(index + 1)}
-                imageInfo={imageInfo}
-                onClick={() => onSwitchSelect(imageInfo.id)}
-                wrapSx={{
-                  width: currentScale * 50,
-                }}
-              >
-                <Box
-                  sx={{
-                    position: 'absolute',
-                    top: 0,
-                    right: 0,
-                  }}
-                >
-                  <Checkbox checked={imageInfo.isSelect} />
-                </Box>
-              </FunctionalityCommonImage>
-            ))}
-          {currentIsLoading && (
-            <Stack
-              flexDirection='column'
-              alignItems='center'
-              sx={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                right: 15,
-                bottom: 0,
-                bgcolor: 'rgba(255,255,255,0.3)',
-                paddingTop: 10,
+      {convertedPdfImages.length > 0 && !currentIsLoading && (
+        <StackViewWrap>
+          {convertedPdfImages.map((imageInfo, index) => (
+            <FunctionalityCommonImage
+              key={imageInfo.id}
+              name={String(index + 1)}
+              imageInfo={imageInfo}
+              onClick={() => onSwitchSelect(imageInfo.id)}
+              wrapSx={{
+                width: currentScale * 50,
               }}
             >
-              <CircularProgress />
-              {pdfTotalPages > 0
-                ? `${currentPdfActionNum}/${pdfTotalPages}`
-                : ''}
-            </Stack>
-          )}
-        </Stack>
+              <Box
+                sx={{
+                  position: 'absolute',
+                  top: 0,
+                  right: 0,
+                }}
+              >
+                <Checkbox checked={imageInfo.isSelect} />
+              </Box>
+            </FunctionalityCommonImage>
+          ))}
+        </StackViewWrap>
+      )}
+      {currentIsLoading && (
+        <StackViewWrap>
+          <Stack
+            flexDirection='column'
+            alignItems='center'
+            sx={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 15,
+              bottom: 0,
+              bgcolor: 'rgba(255,255,255,0.3)',
+              paddingTop: 10,
+            }}
+          >
+            <CircularProgress />
+            {pdfTotalPages > 0 ? `${currentPdfActionNum}/${pdfTotalPages}` : ''}
+          </Stack>
+        </StackViewWrap>
       )}
       {convertedPdfImages?.length > 0 && (
         <Stack

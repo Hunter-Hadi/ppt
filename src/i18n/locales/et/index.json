@@ -363,7 +363,7 @@
     "tools__index_page__description": "Kõik tööriistad, mida vajate produktiivsemaks olemiseks ja nutikamaks dokumentidega töötamiseks. 100% TASUTA ja brauseripõhine täieliku privaatsuse tagamiseks.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG-iks",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG-iks",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Ühenda PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Ühenda PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Jaga PDF-i",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG PDF-iks",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG PDF-iks",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Ekspordi iga PDF leht PNG pildina või eralda üksikud pildid PDF-ist PNG-deks",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Ekspordi iga PDF leht JPEG pildina või eralda üksikud pildid PDF-ist JPEG-ideks",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Ekspordi iga leht JPEG-ina või eralda üksikud pildid PDF-ist JPEG-ideks",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Ühenda valitud järjekorras mis tahes arv PDF-e üheks PDF-iks",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Ühenda valitud järjekorras mis tahes arv PDF-e üheks PDF-iks",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Ühenda mitu PDF-faili üheks vaid mõne klõpsuga",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Jaga PDF-i lehti mitmeks PDF-iks või eemalda lihtsalt lehti olemasolevast",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Jaga PDF-i lehti mitmeks PDF-iks või eemalda lihtsalt lehti olemasolevast",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Teisenda PNG pildid PDF-iks veebis",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Teisenda PDF lehed JPEG piltideks või eralda üksikud pildid oma PDF failidest tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__pdf_to_png__title": "PDF PNG-ks - Teisenda tasuta veebis mis tahes PDF pildiks | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Teisenda PDF lehed PNG piltideks või eralda üksikud pildid oma PDF failidest tasuta veebis. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
-    "pdf_tools__merge_pdfs__title": "Ühenda PDF – Ühenda tasuta veebis PDF failid | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Ühenda PDF failid ja loo üks dokument tasuta veebis. Meie PDF ühendajaga on PDF-ide ühendamine lihtsam kui kunagi varem. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__merge_pdf__title": "Ühenda PDF – Ühenda tasuta veebis PDF failid | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Ühenda PDF failid ja loo üks dokument tasuta veebis. Meie PDF ühendajaga on PDF-ide ühendamine lihtsam kui kunagi varem. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__split_pdf__title": "Jaga PDF – Eralda PDF-i leheküljed veebis tasuta | MaxAI.me",
     "pdf_tools__split_pdf__description": "Lihtsalt eralda lehekülgi või eemalda lehekülgi oma PDF-ist veebis tasuta. Pole vesimärke, failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__png_to_pdf__title": "PNG PDF-iks - Teisenda PNG-pildid tasuta PDF-iks | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Tühjenda PDF-id",
     "components__pdf_merge__confirm_merge": "Kinnita ühendamine",
     "components__pdf_merge__button__download__tooltip": "Ühenda ja laadi PDF alla",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Kustuta kõik allpool olevad PDF-id",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Kustuta kõik allpool olevad PDF-id",
     "components__pdf_merge__button__add_pdfs__tooltip": "Lisa PDF-fail allpool"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__pdf_to_html__button__download": "Laadi alla",
-    "components__pdf_to_html__button__Convert": "Teisenda uus"
+    "components__pdf_to_html__button__convert": "Teisenda uus"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Põhifunktsioonid:",

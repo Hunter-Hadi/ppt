@@ -363,7 +363,7 @@
     "tools__index_page__description": "Všetky nástroje, ktoré budete potrebovať na zvýšenie produktivity a inteligentnejšiu prácu s dokumentmi. 100% BEZPLATNÉ a založené na prehliadači pre úplné súkromie.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF na PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF na JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Zlúčiť PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Zlúčiť PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Rozdeliť PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG na PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG na PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exportujte každú stránku PDF ako obrázok PNG alebo extrahujte jednotlivé obrázky z PDF do PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exportujte každú stránku PDF ako obrázok JPEG alebo extrahujte jednotlivé obrázky z PDF do JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exportujte každú stránku ako obrázok JPEG alebo extrahujte jednotlivé obrázky z PDF do JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Zlúčte ľubovoľné množstvo PDF v poradí, ktoré si vyberiete, do jedného PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Zlúčte viacero súborov PDF do jedného s len pár klikmi",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Zlúčte ľubovoľné množstvo PDF v poradí, ktoré si vyberiete, do jedného PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Zlúčte viacero súborov PDF do jedného s len pár klikmi",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Rozdeľte stránky PDF na viacero PDF alebo jednoducho odstráňte stránky z existujúceho",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Rozdeľte stránky PDF na viacero PDF alebo jednoducho odstráňte stránky z existujúceho",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertujte PNG obrázky na PDF online",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Konvertujte stránky PDF na obrázky vo formáte JPEG alebo extrahujte jednotlivé obrázky zo svojich PDF súborov online zadarmo. Žiadne vodoznaky, obmedzenia veľkosti súboru, sťahovania ani registrácie nie sú potrebné.",
     "pdf_tools__pdf_to_png__title": "PDF na PNG - Konvertujte akékoľvek PDF na obrázky online zadarmo | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Konvertujte stránky PDF na obrázky vo formáte PNG alebo extrahujte jednotlivé obrázky zo svojich PDF súborov online zadarmo. Žiadne vodoznaky, obmedzenia veľkosti súboru, sťahovania ani registrácie nie sú potrebné.",
-    "pdf_tools__merge_pdfs__title": "Zlúčiť PDF - Združte PDF súbory online zadarmo | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Združte PDF súbory a vytvorte jediný dokument online zadarmo. S naším nástrojom na zlučovanie PDF je zlučovanie PDF jednoduchšie ako kedykoľvek predtým. Žiadne vodoznaky, obmedzenia veľkosti súboru, sťahovania ani registrácie nie sú potrebné.",
+    "pdf_tools__merge_pdf__title": "Zlúčiť PDF - Združte PDF súbory online zadarmo | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Združte PDF súbory a vytvorte jediný dokument online zadarmo. S naším nástrojom na zlučovanie PDF je zlučovanie PDF jednoduchšie ako kedykoľvek predtým. Žiadne vodoznaky, obmedzenia veľkosti súboru, sťahovania ani registrácie nie sú potrebné.",
     "pdf_tools__split_pdf__title": "Rozdeliť PDF – Oddeliť stránky v PDF online zadarmo | MaxAI.me",
     "pdf_tools__split_pdf__description": "Jednoducho oddelujte stránky alebo odstraňujte stránky vo vašom PDF online zadarmo. Žiadne vodoznaky, obmedzenia veľkosti súborov, sťahovania ani registrácie nie sú potrebné.",
     "pdf_tools__png_to_pdf__title": "PNG na PDF - Konvertujte obrázky PNG na PDF online zdarma | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Vyčistiť PDF",
     "components__pdf_merge__confirm_merge": "Potvrdiť zlúčenie",
     "components__pdf_merge__button__download__tooltip": "Zlúčiť a stiahnuť PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Vymazať všetky nižšie uvedené PDF",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Vymazať všetky nižšie uvedené PDF",
     "components__pdf_merge__button__add_pdfs__tooltip": "Pridať PDF súbor nižšie"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Prosím, nahrajte požadovaný typ súboru PDF",
     "components__pdf_to_html__button__download": "Stiahnuť",
-    "components__pdf_to_html__button__Convert": "Konvertovať ďalší"
+    "components__pdf_to_html__button__convert": "Konvertovať ďalší"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Základné funkcie:",

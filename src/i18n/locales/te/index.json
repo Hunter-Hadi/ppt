@@ -363,7 +363,7 @@
     "tools__index_page__description": "పత్రాలతో ఎక్కువ ఉపయోగం కలుగుతున్నారో మీకు అవసరమైన అన్ని సాధనాలు. 100% ఉచితం మరియు బ్రౌజర్ ఆధారితంగా పూర్తి గోప్యతాను అందిస్తుంది.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ను PNG కి",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ను JPEG కి",
-    "tools__index_page__constant_obj__merge_pdfs__title": "పిడిఎఫ్లను విలీనం చేయండి",
+    "tools__index_page__constant_obj__merge_pdf__title": "పిడిఎఫ్లను విలీనం చేయండి",
     "tools__index_page__constant_obj__split_a_pdf__title": "పిడిఎఫ్ విభజన: Split a PDF",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "ఉచిత ఆన్‌లైన్ సాఫ్ట్‌వేర్",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "మీ కష్టపడే డబ్బులను ఖర్చు చేయండి. {{TYPE}} ను PDF కోసం అద్వితీయ సాఫ్ట్‌వేర్‌కు డబ్బులు చెల్లించడం కావటం లేదు. పరిమితితో రోజువారీ ఉపయోగం కోసం, మా {{TYPE}} ను PDF కనవడం ఉచితంగా ఉపయోగించవచ్చు. మీరు దానిని ఎక్కువ సారి ఉపయోగించాలనుకుంటే, అంతా ఉపయోగం ముగింపుకు ఉచితంగా ఉంటుంది.",
@@ -375,8 +375,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ప్రతి PDF పేజీని PNG చిత్రంగా ఎగుమతి చేయండి లేదా PDF నుండి PNG లకు వేరుగా చిత్రాలను ఎగుమతి చేయండి",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ప్రతి PDF పేజీని JPEG చిత్రంగా ఎగుమతి చేయండి లేదా PDF నుండి JPEG లకు వేరుగా చిత్రాలను ఎగుమతి చేయండి",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ప్రతి పేజీని JPEG చేయండి లేదా PDF నుండి JPEG లకు వేరుగా చిత్రాలను ఎగుమతి చేయండి",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "మీరు ఎంచుకునే క్రమంలో ఏ సంఖ్యక PDFs ను ఒకే PDF గా కలిగి ఉంచండి",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "కొన్ని నొక్కిని క్లిక్స్ తో మరియున్నట్టుగా PDF ఫైళ్ళను ఒకటిగా కలిగి ఉంచండి",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "మీరు ఎంచుకునే క్రమంలో ఏ సంఖ్యక PDFs ను ఒకే PDF గా కలిగి ఉంచండి",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "కొన్ని నొక్కిని క్లిక్స్ తో మరియున్నట్టుగా PDF ఫైళ్ళను ఒకటిగా కలిగి ఉంచండి",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "ప్రతి PDF పేజీని మరియున్నట్టుగా ప్రతి PDF నుండి పేజీలను తొలగించండి లేదా పేజీలను తొలగించండి",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "ప్రతి PDF పేజీని మరియున్నట్టుగా ప్రతి PDF నుండి పేజీలను తొలగించండి లేదా పేజీలను తొలగించండి.",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG ను PDF కు",
@@ -777,8 +777,8 @@
     "pdf_tools__pdf_to_jpeg__description": "ఉచితంగా PDF పేజీలను JPEG ఇమేజ్‌స్‌గా మార్చండి లేదా మీ PDF ఫైళ్ళు నుండి వేరుగా ఇమేజ్‌స్‌ను తీసుకోండి. వాటర్‌మార్క్‌లు, ఫైళ్లు పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్‌లు అవసరం లేదు.",
     "pdf_tools__pdf_to_png__title": "PDF ను PNG కి - ఉచితంగా ఆన్‌లైన్‌లో PDF ను ఇమేజ్‌స్‌గా మార్చండి | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "ఉచితంగా PDF పేజీలను PNG ఇమేజ్‌స్‌గా మార్చండి లేదా మీ PDF ఫైళ్ళు నుండి వేరుగా ఇమేజ్‌స్‌ను తీసుకోండి. వాటర్‌మార్క్‌లు, ఫైళ్లు పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్‌లు అవసరం లేదు.",
-    "pdf_tools__merge_pdfs__title": "PDF ను మరియుగా చేర్చు - ఉచితంగా ఆన్‌లైన్‌లో PDF ఫైళ్ళను ఒక డాక్యూమెంట్‌గా రూపొందించండి | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "ఉచితంగా PDF ఫైళ్ళను చేర్చండి మరియు ఒక ఏకీకరణ డాక్యూమెంట్‌ను ఆన్‌లైన్‌లో ఉంచండి. మా PDF కంబైనర్‌తో, PDFs ను ఏకీకరించేందుకు ఎక్కువ సులభం. వాటర్‌మార్క్‌లు, ఫైళ్లు పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్‌లు అవసరం లేదు.",
+    "pdf_tools__merge_pdf__title": "PDF ను మరియుగా చేర్చు - ఉచితంగా ఆన్‌లైన్‌లో PDF ఫైళ్ళను ఒక డాక్యూమెంట్‌గా రూపొందించండి | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "ఉచితంగా PDF ఫైళ్ళను చేర్చండి మరియు ఒక ఏకీకరణ డాక్యూమెంట్‌ను ఆన్‌లైన్‌లో ఉంచండి. మా PDF కంబైనర్‌తో, PDFs ను ఏకీకరించేందుకు ఎక్కువ సులభం. వాటర్‌మార్క్‌లు, ఫైళ్లు పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్‌లు అవసరం లేదు.",
     "pdf_tools__split_pdf__title": "PDF ను విడియోలకు మార్చు - ఉచితంగా ఆన్‌లైన్‌లో PDF పేజీలను విడియోలకు మార్చండి | MaxAI.me",
     "pdf_tools__split_pdf__description": "ఉచితంగా పేజీలను విడియోలకు మార్చండి లేదా పేజీలను తీసివేయండి మీ PDF లో ఆన్‌లైన్‌లో. వాటర్‌మార్క్‌లు, ఫైల్ సైజు పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్‌లు కావటం కాదు.",
     "pdf_tools__png_to_pdf__description": "ఉచితంగా PNG చిత్రాలను PDFకు మార్చండి. ఈ కనవర్టర్ ఏదైనా PNG చిత్ర ఫైల్‌ను అనుకూలంగా ఉంచిన PDF ఫైల్‌గా మార్చినట్లు లేవు. వాటర్‌మార్క్‌లు, ఫైల్ సైజు పరిమితులు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్‌లు లేవు.",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "PDFs ని తొలగించండి",
     "components__pdf_merge__confirm_merge": "మరియుంది చేయడానికి నిర్ధారించండి",
     "components__pdf_merge__button__download__tooltip": "PDF ను మరింగించి డౌన్‌లోడ్ చేయండి",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "కనీసం PDF ను తొలగించండి",
+    "components__pdf_merge__button__clear_pdf__tooltip": "కనీసం PDF ను తొలగించండి",
     "components__pdf_merge__button__add_pdfs__tooltip": "కనీసం PDF ఫైల్ జోడించండి"
   },
   "functionality__common": {
@@ -868,7 +868,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "దయచేసి ప్రస్తుత PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
     "components__pdf_to_html__button__download": "డౌన్‌లోడ్",
-    "components__pdf_to_html__button__Convert": "మరొకటిని మార్చండి"
+    "components__pdf_to_html__button__convert": "మరొకటిని మార్చండి"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "దయచేసి ప్రస్తుత PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",

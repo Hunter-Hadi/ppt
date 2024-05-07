@@ -363,7 +363,7 @@
     "tools__index_page__description": "Toate instrumentele de care ai nevoie pentru a fi mai productiv și a lucra mai inteligent cu documente. 100% GRATUIT și bazat pe browser pentru confidențialitate completă.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF în PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF în JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Unifică PDF-uri",
+    "tools__index_page__constant_obj__merge_pdf__title": "Unifică PDF-uri",
     "tools__index_page__constant_obj__split_a_pdf__title": "Divide un PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG la PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG la PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exportați fiecare pagină PDF ca o imagine PNG sau extrageți imagini individuale din PDF în PNG-uri",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exportați fiecare pagină PDF ca o imagine JPEG sau extrageți imagini individuale din PDF în JPEG-uri",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exportați fiecare pagină ca un JPEG sau extrageți imagini individuale din PDF în JPEG-uri",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Combinați orice număr de PDF-uri în ordinea pe care o alegeți într-un singur PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Combinați mai multe fișiere PDF într-unul singur cu doar câteva clicuri",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Combinați orice număr de PDF-uri în ordinea pe care o alegeți într-un singur PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Combinați mai multe fișiere PDF într-unul singur cu doar câteva clicuri",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Divideți paginile unui PDF în mai multe PDF-uri sau pur și simplu eliminați pagini dintr-unul existent",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Divideți paginile unui PDF în mai multe PDF-uri sau pur și simplu eliminați pagini dintr-unul existent.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Conversia imaginilor PNG în PDF online",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Convertiți paginile PDF în imagini JPEG sau extrageți imagini individuale din fișierele dvs. PDF online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
     "pdf_tools__pdf_to_png__title": "PDF în PNG - Convertiți orice PDF-uri în imagini online gratuit | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Convertiți paginile PDF în imagini PNG sau extrageți imagini individuale din fișierele dvs. PDF online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
-    "pdf_tools__merge_pdfs__title": "Unificare PDF - Combinați fișiere PDF online gratuit | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Combinați fișierele PDF și creați un singur document online gratuit. Cu combinatorul nostru PDF, unificarea PDF-urilor este mai ușoară ca niciodată. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
+    "pdf_tools__merge_pdf__title": "Unificare PDF - Combinați fișiere PDF online gratuit | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Combinați fișierele PDF și creați un singur document online gratuit. Cu combinatorul nostru PDF, unificarea PDF-urilor este mai ușoară ca niciodată. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
     "pdf_tools__split_pdf__title": "Splitare PDF - Separă paginile PDF online gratuit | MaxAI.me",
     "pdf_tools__split_pdf__description": "Separă ușor pagini sau elimină pagini din PDF-ul tău online gratuit. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
     "pdf_tools__png_to_pdf__title": "PNG la PDF - Convertiți Imagini PNG în PDF Online Gratuit | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
     "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
     "components__pdf_merge__button__download__tooltip": "Unificați și descărcați PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Ștergeți toate PDF-urile de mai jos",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Ștergeți toate PDF-urile de mai jos",
     "components__pdf_merge__button__add_pdfs__tooltip": "Adăugați fișierul PDF mai jos"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Vă rugăm să încărcați tipul specificat de fișier PDF",
     "components__pdf_to_html__button__download": "Descarcă",
-    "components__pdf_to_html__button__Convert": "Convertește altul"
+    "components__pdf_to_html__button__convert": "Convertește altul"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Caracteristici de bază:",

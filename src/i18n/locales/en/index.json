@@ -420,9 +420,9 @@
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Export each PDF page as a JPEG image or extract individual images from the PDF to JPEGs",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Export each page as a JPEG or extract individual images from the PDF to JPEGs",
 
-    "tools__index_page__constant_obj__merge_pdfs__title": "Merge PDF",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Merge any amount of PDFs in the order you choose into a single PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Merge multiple PDF files into one with just a few clicks",
+    "tools__index_page__constant_obj__merge_pdf__title": "Merge PDF",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Merge any amount of PDFs in the order you choose into a single PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Merge multiple PDF files into one with just a few clicks",
 
     "tools__index_page__constant_obj__split_a_pdf__title": "Split a PDF",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Split a PDF's pages into multiple PDFs or simply remove pages from an existing one",
@@ -601,13 +601,13 @@
     "components__pdf_merge__confirm_merge": "Confirm to merge",
 
     "components__pdf_merge__button__download__tooltip": "Merge and download PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Clear all PDFs below",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Clear all PDFs below",
     "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
   },
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__pdf_to_html__button__download": "Download",
-    "components__pdf_to_html__button__Convert": "Convert another"
+    "components__pdf_to_html__button__convert": "Convert another"
   },
   "functionality__pdf_split": {
     "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
@@ -988,8 +988,8 @@
     "pdf_tools__pdf_to_png__title": "PDF to PNG - Convert Any PDFs to Images Online for Free | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Convert PDF pages into PNG images or extract individual images from your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups required.",
 
-    "pdf_tools__merge_pdfs__title": "Merge PDF – Combine PDF Files Online for Free | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Combine PDF files and create a single document online for free. With our PDF combiner, merging PDFs is easier than ever. No watermarks, file size limits, downloads, or sign-ups required.",
+    "pdf_tools__merge_pdf__title": "Merge PDF – Combine PDF Files Online for Free | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Combine PDF files and create a single document online for free. With our PDF combiner, merging PDFs is easier than ever. No watermarks, file size limits, downloads, or sign-ups required.",
 
     "pdf_tools__split_pdf__title": "Split PDF – Separate PDF Pages Online for Free | MaxAI.me",
     "pdf_tools__split_pdf__description": "Easily separate pages or remove pages in your PDF online for free. No watermarks, file size limits, downloads, or sign-ups required.",

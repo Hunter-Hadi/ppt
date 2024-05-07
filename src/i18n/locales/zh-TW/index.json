@@ -363,7 +363,7 @@
     "tools__index_page__description": "所有您需要提高生產力並更智能地處理文件的工具。100％免費且基於瀏覽器，完全保護您的隱私。",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF 轉 PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF 轉 JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "合併PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "合併PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "分割 PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG 轉 PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG 轉 PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "將每個PDF頁面匯出為PNG圖像或從PDF中提取單獨的圖像到PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "將每個PDF頁面匯出為JPEG圖像或從PDF中提取單獨的圖像到JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "將每個頁面匯出為JPEG或從PDF中提取單獨的圖像到JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "按您選擇的順序合併任意數量的PDF文件為一個PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "只需點擊幾下即可將多個PDF文件合併為一個",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "按您選擇的順序合併任意數量的PDF文件為一個PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "只需點擊幾下即可將多個PDF文件合併為一個",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "將PDF的頁面分割為多個PDF文件，或者僅從現有文件中刪除頁面",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "將PDF的頁面分割為多個PDF文件，或者僅從現有文件中刪除頁面",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "在線將PNG圖像轉換為PDF",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "免費線上將PDF頁面轉換為JPEG圖片，或從PDF檔案中提取單獨的圖片。無需浮水印、檔案大小限制、下載或註冊。",
     "pdf_tools__pdf_to_png__title": "PDF轉PNG - 免費線上將任何PDF檔案轉換為圖片 | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "免費線上將PDF頁面轉換為PNG圖片，或從PDF檔案中提取單獨的圖片。無需浮水印、檔案大小限制、下載或註冊。",
-    "pdf_tools__merge_pdfs__title": "合併PDF - 免費線上將PDF檔案合併成一個 | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "免費線上合併PDF檔案並創建單一文件。使用我們的PDF合併工具，合併PDF比以往更容易。無需浮水印、檔案大小限制、下載或註冊。",
+    "pdf_tools__merge_pdf__title": "合併PDF - 免費線上將PDF檔案合併成一個 | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "免費線上合併PDF檔案並創建單一文件。使用我們的PDF合併工具，合併PDF比以往更容易。無需浮水印、檔案大小限制、下載或註冊。",
     "pdf_tools__split_pdf__title": "分割PDF - 在線免費分離PDF頁面 | MaxAI.me",
     "pdf_tools__split_pdf__description": "輕鬆在線免費分離PDF頁面或刪除PDF頁面。無浮水印、文件大小限制、下載或註冊要求。",
     "pdf_tools__png_to_pdf__title": "PNG轉PDF - 免費在線將PNG圖片轉換為PDF | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "清除PDF",
     "components__pdf_merge__confirm_merge": "確認合併",
     "components__pdf_merge__button__download__tooltip": "合併並下載 PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "清除以下所有 PDF",
+    "components__pdf_merge__button__clear_pdf__tooltip": "清除以下所有 PDF",
     "components__pdf_merge__button__add_pdfs__tooltip": "在下方添加 PDF 檔案"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
     "components__pdf_to_html__button__download": "下載",
-    "components__pdf_to_html__button__Convert": "轉換其他"
+    "components__pdf_to_html__button__convert": "轉換其他"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "核心功能：",

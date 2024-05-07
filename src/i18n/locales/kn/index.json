@@ -363,7 +363,7 @@
     "tools__index_page__description": "ಆವರಣಗಳೊಂದಿಗೆ ಹೆಚ್ಚು ಉತ್ಪಾದಕವಾಗಿ ಮತ್ತು ಮೇಲ್ಮಟ್ಟದ ಕೆಲಸ ಮಾಡಲು ನೀವು ಬೇಕಾದ ಎಲ್ಲಾ ಸಾಧನಗಳು. 100% ಉಚಿತ ಮತ್ತು ಬ್ರೌಸರ್ ಆಧಾರಿತ ಪೂರ್ಣ ಗೌಪ್ಯತೆಗಾಗಿ.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ನಿಂದ PNG ಗೆ",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ನಿಂದ JPEG ಗೆ",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDF ಒಟ್ಟಿಗೆ ಸೇರಿಸು",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF ಅನ್ನು ವಿಭಾಗಿಸಿ",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ನಿಂದ PDF ಗೆ",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಪಿಎನ್ಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಡೆಯಿರಿ",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಜೆಪಿಇಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಡೆಯಿರಿ",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ಪೀಡಿಎಫ್ ಪುಟವನ್ನು ಜೆಪಿಇಜಿ ಚಿತ್ರವಾಗಿ ರೂಪಿಸಿ ಅಥವಾ ಪೀಡಿಎಫ್ ನಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಪಡೆಯಿರಿ",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "ನೀವು ಆಯ್ದ ಕ್ರಮದಲ್ಲಿ ಯಾವುದೇ ಪೀಡಿಎಫ್ ಪುಟಗಳನ್ನು ಒಂದು ಪೀಡಿಎಫ್ ಗೆ ಸೇರಿಸಿ",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು ಪೀಡಿಎಫ್ ಕಡತಗಳನ್ನು ಒಂದಾಗಿ ಸೇರಿಸಿ",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "ನೀವು ಆಯ್ದ ಕ್ರಮದಲ್ಲಿ ಯಾವುದೇ ಪೀಡಿಎಫ್ ಪುಟಗಳನ್ನು ಒಂದು ಪೀಡಿಎಫ್ ಗೆ ಸೇರಿಸಿ",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಹಲವು ಪೀಡಿಎಫ್ ಕಡತಗಳನ್ನು ಒಂದಾಗಿ ಸೇರಿಸಿ",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "ಪೀಡಿಎಫ್ ಪುಟಗಳನ್ನು ಹಲವು ಪೀಡಿಎಫ್ ಗಳಾಗಿ ವಿಭಜಿಸಿ ಅಥವಾ ಇರುವುದನ್ನು ಪರಿಷ್ಕರಿಸಿ",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "ಪೀಡಿಎಫ್ ಪುಟಗಳನ್ನು ಹಲವು ಪೀಡಿಎಫ್ ಗಳಾಗಿ ವಿಭಜಿಸಿ ಅಥವಾ ಇರುವುದನ್ನು ಪರಿಷ್ಕರಿಸಿ",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "ಪಿಎನ್‌ಜಿ ಚಿತ್ರಗಳನ್ನು ಪಿಡಿಎಫ್ ಗೆ ಮಾರ್ಪಡಿಸಿ",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "ನೀವು ಉಚಿತವಾಗಿ PDF ಪುಟಗಳನ್ನು JPEG ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಬಹುದು ಅಥವಾ ನಿಮ್ಮ PDF ಕಡತಗಳಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದು. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__pdf_to_png__title": "PDF ನಿಂದ PNG ಗೆ - ಯಾವುದೇ PDF ಗಳನ್ನು ಉಚಿತವಾಗಿ ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "ನೀವು ಉಚಿತವಾಗಿ PDF ಪುಟಗಳನ್ನು PNG ಚಿತ್ರಗಳಾಗಿ ಪರಿವರ್ತಿಸಬಹುದು ಅಥವಾ ನಿಮ್ಮ PDF ಕಡತಗಳಿಂದ ವೈಯಕ್ತಿಕ ಚಿತ್ರಗಳನ್ನು ಹೊರತೆಗೆಯಬಹುದು. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
-    "pdf_tools__merge_pdfs__title": "PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ - ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದು ದಸ್ತಾವೇಜುವಾಗಿ ರಚಿಸಿ | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ ಮತ್ತು ಒಂದು ದಸ್ತಾವೇಜುವನ್ನು ರಚಿಸಿ. ನಮ್ಮ PDF ಒಂದುಗೂಡಿಸುವಿಕೆಯೊಂದಿಗೆ, PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸುವುದು ಎಂದಿಗೂ ಹೆಚ್ಚು ಸುಲಭವಾಗಿರುತ್ತದೆ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
+    "pdf_tools__merge_pdf__title": "PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ - ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದು ದಸ್ತಾವೇಜುವಾಗಿ ರಚಿಸಿ | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "ಉಚಿತವಾಗಿ PDF ಕಡತಗಳನ್ನು ಒಂದುಗೂಡಿಸಿ ಮತ್ತು ಒಂದು ದಸ್ತಾವೇಜುವನ್ನು ರಚಿಸಿ. ನಮ್ಮ PDF ಒಂದುಗೂಡಿಸುವಿಕೆಯೊಂದಿಗೆ, PDF ಗಳನ್ನು ಒಂದುಗೂಡಿಸುವುದು ಎಂದಿಗೂ ಹೆಚ್ಚು ಸುಲಭವಾಗಿರುತ್ತದೆ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__split_pdf__title": "ಪಿಡಿಎಫ್ ವಿಭಜನೆ - ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ | MaxAI.me",
     "pdf_tools__split_pdf__description": "ಉಚಿತವಾಗಿ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ ಅಥವಾ ಪುಟಗಳನ್ನು ತೆಗೆದುಹಾಕಿ. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಗಳೂ, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳೂ, ಡೌನ್‌ಲೋಡ್‌ಗಳೂ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳೂ ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__png_to_pdf__title": "PNG ನಿಂದ PDF ಗೆ - ಉಚಿತವಾಗಿ PNG ಚಿತ್ರಗಳನ್ನು PDF ಗೆ ಪರಿವರ್ತಿಸಿ | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__confirm_merge": "ಮರುಹೊಂದಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿ",
     "components__pdf_merge__button__download__tooltip": "ಪಿಡಿಎಫ್ ಮರುಕ್ರಮಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "ಕೆಳಗಿನ ಎಲ್ಲಾ ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "components__pdf_merge__button__clear_pdf__tooltip": "ಕೆಳಗಿನ ಎಲ್ಲಾ ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__button__add_pdfs__tooltip": "ಕೆಳಗೆ ಪಿಡಿಎಫ್ ಕಡತವನ್ನು ಸೇರಿಸಿ"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿಗ್ದಿತ ಪಿಡಿಎಫ್ ಫೈಲ್ ವರ್ಗಕ್ಕೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_to_html__button__download": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
-    "components__pdf_to_html__button__Convert": "ಇನ್ನೊಂದನ್ನು ಪರಿವರ್ತಿಸಿ"
+    "components__pdf_to_html__button__convert": "ಇನ್ನೊಂದನ್ನು ಪರಿವರ್ತಿಸಿ"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "ಮೂಲ ವೈಶಿಷ್ಟ್ಯಗಳು:",

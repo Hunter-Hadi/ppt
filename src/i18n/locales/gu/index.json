@@ -363,7 +363,7 @@
     "tools__index_page__description": "દસ્તાવેજોની સાથે વધુ ઉપયોગી અને સમર્પક કામ કરવા માટે તમને જે સાધનો જરૂર પડશે તેવા બધા સાધનો. 100% મુક્ત અને બ્રાઉઝર-આધારિત પૂર્ણ ગોપનીયતા માટે.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF થી PNG માં",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF થી JPEG માં",
-    "tools__index_page__constant_obj__merge_pdfs__title": "પીડીએફ મર્જ કરો",
+    "tools__index_page__constant_obj__merge_pdf__title": "પીડીએફ મર્જ કરો",
     "tools__index_page__constant_obj__split_a_pdf__title": "પીડીએફ વિભાજન",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG થી PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG થી PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "પ્રત્યેક PDF પેજને PNG છબી તરીકે એક્સપોર્ટ કરો અથવા PDF માંથી વ્યક્તિગત છબીઓ ની સ્થાનિક છબીઓ ને નિકાલો",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "પ્રત્યેક PDF પેજને JPEG છબી તરીકે એક્સપોર્ટ કરો અથવા PDF માંથી વ્યક્તિગત છબીઓ ની સ્થાનિક છબીઓ ને નિકાલો",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "પ્રત્યેક પેજને JPEG તરીકે એક્સપોર્ટ કરો અથવા PDF માંથી વ્યક્તિગત છબીઓ ની સ્થાનિક છબીઓ ને નિકાલો",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "તમારી પસંદગી પ્રમાણે કોઈ પણ PDF ને એક જ PDF માં મર્જ કરો",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "થોડા ક્લિક સાથે એકથી વધુ PDF ફાઈલોને એકમાં મર્જ કરો",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "તમારી પસંદગી પ્રમાણે કોઈ પણ PDF ને એક જ PDF માં મર્જ કરો",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "થોડા ક્લિક સાથે એકથી વધુ PDF ફાઈલોને એકમાં મર્જ કરો",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "પ્રત્યેક PDF પેજને વધુમાં વધુ PDF માં સ્પ્લિટ કરો અથવા મારામાંથી પેજ દૂર કરો",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "પ્રત્યેક PDF પેજને વધુમાં વધુ PDF માં સ્પ્લિટ કરો અથવા મારામાંથી પેજ દૂર કરો",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG છબીઓને PDF માં કનવર્ટ કરો ઓનલાઇન",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "મફત માટે તમારા PDF ફાઈલોમાંથી JPEG છબીઓ બનાવો અથવા વ્યક્તિગત છબીઓ ની સ્થાનિકરણ કરો. કોઈ વોટરમાર્ક, ફાઈલ કદ મરીજ, ડાઉનલોડ્સ, અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__pdf_to_png__title": "PDF થી PNG માં રૂપાંતરિત કરો - મફત માટે ઓનલાઇન PDF છબીઓ",
     "pdf_tools__pdf_to_png__description": "મફત માટે તમારા PDF ફાઈલોમાંથી PNG છબીઓ બનાવો અથવા વ્યક્તિગત છબીઓ ની સ્થાનિકરણ કરો. કોઈ વોટરમાર્ક, ફાઈલ કદ મરીજ, ડાઉનલોડ્સ, અથવા સાઇન-અપ જરૂરી નથી.",
-    "pdf_tools__merge_pdfs__title": "PDF મર્જ કરો - મફત માટે ઓનલાઇન PDF ફાઈલોને એકજ કરો",
-    "pdf_tools__merge_pdfs__description": "મફત માટે તમારી PDF ફાઈલોને એકજ કરો અને એકલ દસ્તાવેજ બનાવો. અમારા PDF મર્જનાર સાથે, PDF મર્જ કરવું હવે પહેલાથી પણ સરળ છે. કોઈ વોટરમાર્ક, ફાઈલ કદ મરીજ, ડાઉનલોડ્સ, અથવા સાઇન-અપ જરૂરી નથી.",
+    "pdf_tools__merge_pdf__title": "PDF મર્જ કરો - મફત માટે ઓનલાઇન PDF ફાઈલોને એકજ કરો",
+    "pdf_tools__merge_pdf__description": "મફત માટે તમારી PDF ફાઈલોને એકજ કરો અને એકલ દસ્તાવેજ બનાવો. અમારા PDF મર્જનાર સાથે, PDF મર્જ કરવું હવે પહેલાથી પણ સરળ છે. કોઈ વોટરમાર્ક, ફાઈલ કદ મરીજ, ડાઉનલોડ્સ, અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__split_pdf__title": "PDF સ્પ્લિટ કરો - મફત ઓનલાઇન પીડીએફ પેજીઝ અલગ કરો | MaxAI.me",
     "pdf_tools__split_pdf__description": "મફતમાં તમારા PDF પેજીઝ અલગ કરો અથવા પેજીઝ દૂર કરો. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીયાદા, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__png_to_pdf__title": "PNG થી PDF - મફત માટે PNG છબીઓને PDF માં રૂપાંતરિત કરો | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "PDF ખાલી કરો",
     "components__pdf_merge__confirm_merge": "જોડવાની પુષ્ટિ કરો",
     "components__pdf_merge__button__download__tooltip": "પીડીએફ મર્જ કરો અને ડાઉનલોડ કરો",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "નીચે આપેલ બધા પીડીએફ સાફ કરો",
+    "components__pdf_merge__button__clear_pdf__tooltip": "નીચે આપેલ બધા પીડીએફ સાફ કરો",
     "components__pdf_merge__button__add_pdfs__tooltip": "નીચે પીડીએફ ફાઇલ ઉમેરો"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઇલ પ્રકાર અપલોડ કરો",
     "components__pdf_to_html__button__download": "ડાઉનલોડ કરો",
-    "components__pdf_to_html__button__Convert": "બીજું રૂપાંતર કરો"
+    "components__pdf_to_html__button__convert": "બીજું રૂપાંતર કરો"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "મુખ્ય વ્યાપારિક વૈશિષ્ટ્યો:",

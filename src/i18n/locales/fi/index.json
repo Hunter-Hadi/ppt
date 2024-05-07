@@ -363,7 +363,7 @@
     "tools__index_page__description": "Kaikki työkalut, joita tarvitset ollaksesi tuottavampi ja työskennelläksesi älykkäämmin asiakirjojen kanssa. 100% ILMAINEN ja selainpohjainen täydellisen yksityisyyden takaamiseksi.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Yhdistä PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Yhdistä PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Jaa PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Vie jokainen PDF-sivu PNG-kuvaksi tai poimi yksittäiset kuvat PDF:stä PNG-muotoon",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Vie jokainen PDF-sivu JPEG-kuvaksi tai poimi yksittäiset kuvat PDF:stä JPEG-muotoon",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Vie jokainen sivu JPEG-kuvaksi tai poimi yksittäiset kuvat PDF:stä JPEG-muotoon",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Yhdistä haluamasi määrä PDF-tiedostoja valitsemassasi järjestyksessä yhdeksi PDF-tiedostoksi",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Yhdistä haluamasi määrä PDF-tiedostoja valitsemassasi järjestyksessä yhdeksi PDF-tiedostoksi",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Yhdistä useita PDF-tiedostoja yhdeksi muutamalla napsautuksella",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Jaa PDF:n sivut useisiin PDF-tiedostoihin tai poista yksinkertaisesti sivuja olemassa olevasta tiedostosta",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Jaa PDF:n sivut useisiin PDF-tiedostoihin tai poista yksinkertaisesti sivuja olemassa olevasta tiedostosta.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Muunna PNG-kuvat PDF-tiedostoiksi verkossa",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Muunna PDF-sivut JPEG-kuviksi tai poimi yksittäiset kuvat PDF-tiedostoistasi ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
     "pdf_tools__pdf_to_png__title": "PDF PNG - Muunna PDF-tiedostot kuviksi ilmaiseksi | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Muunna PDF-sivut PNG-kuviksi tai poimi yksittäiset kuvat PDF-tiedostoistasi ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
-    "pdf_tools__merge_pdfs__title": "Yhdistä PDF – Yhdistä PDF-tiedostot verkossa ilmaiseksi | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Yhdistä PDF-tiedostot ja luo yksi asiakirja verkossa ilmaiseksi. PDF-yhdistimellämme PDF-tiedostojen yhdistäminen on helpompaa kuin koskaan. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "pdf_tools__merge_pdf__title": "Yhdistä PDF – Yhdistä PDF-tiedostot verkossa ilmaiseksi | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Yhdistä PDF-tiedostot ja luo yksi asiakirja verkossa ilmaiseksi. PDF-yhdistimellämme PDF-tiedostojen yhdistäminen on helpompaa kuin koskaan. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
     "pdf_tools__split_pdf__title": "Jaa PDF – Erota PDF-sivut verkossa ilmaiseksi | MaxAI.me",
     "pdf_tools__split_pdf__description": "Erota helposti sivuja tai poista sivuja PDF-tiedostostasi verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaadita.",
     "pdf_tools__png_to_pdf__title": "PNG PDF - Muunna PNG-kuvat PDF-tiedostoiksi ilmaiseksi | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Tyhjennä PDF:t",
     "components__pdf_merge__confirm_merge": "Vahvista yhdistäminen",
     "components__pdf_merge__button__download__tooltip": "Yhdistä ja lataa PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Tyhjennä kaikki alla olevat PDF-tiedostot",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Tyhjennä kaikki alla olevat PDF-tiedostot",
     "components__pdf_merge__button__add_pdfs__tooltip": "Lisää PDF-tiedosto alle"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
     "components__pdf_to_html__button__download": "Lataa",
-    "components__pdf_to_html__button__Convert": "Muunna toinen"
+    "components__pdf_to_html__button__convert": "Muunna toinen"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Perustoiminnot:",

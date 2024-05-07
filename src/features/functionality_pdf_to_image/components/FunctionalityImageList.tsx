@@ -41,17 +41,15 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
           }}
           onClick={() => onClickImage(imageInfo)}
         >
-          {
-            <Box
-              sx={{
-                position: 'absolute',
-                top: 0,
-                right: 0,
-              }}
-            >
-              <Checkbox checked={imageInfo.isSelect} />
-            </Box>
-          }
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 0,
+              right: 0,
+            }}
+          >
+            <Checkbox checked={imageInfo.isSelect} />
+          </Box>
         </FunctionalityCommonImage>
       ))}
     </Stack>

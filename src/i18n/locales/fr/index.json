@@ -363,7 +363,7 @@
     "tools__index_page__description": "Tous les outils dont vous aurez besoin pour être plus productif et travailler de manière plus intelligente avec des documents. 100% GRATUIT et basé sur le navigateur pour une confidentialité totale.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF vers PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF vers JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Fusionner des PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Fusionner des PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Diviser un PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG vers PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG vers PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exporter chaque page PDF en tant qu'image PNG ou extraire des images individuelles du PDF en PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exporter chaque page PDF en tant qu'image JPEG ou extraire des images individuelles du PDF en JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exporter chaque page en tant qu'image JPEG ou extraire des images individuelles du PDF en JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Fusionner n'importe quelle quantité de PDF dans l'ordre que vous choisissez en un seul PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Fusionner plusieurs fichiers PDF en un seul en quelques clics seulement",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Fusionner n'importe quelle quantité de PDF dans l'ordre que vous choisissez en un seul PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Fusionner plusieurs fichiers PDF en un seul en quelques clics seulement",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Diviser les pages d'un PDF en plusieurs PDF ou simplement supprimer des pages d'un PDF existant",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Diviser les pages d'un PDF en plusieurs PDF ou simplement supprimer des pages d'un PDF existant.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Convertir des images PNG en PDF en ligne",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Convertir les pages PDF en images JPEG ou extraire des images individuelles de vos fichiers PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
     "pdf_tools__pdf_to_png__title": "PDF vers PNG - Convertir tous les PDF en images en ligne gratuitement | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Convertir les pages PDF en images PNG ou extraire des images individuelles de vos fichiers PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
-    "pdf_tools__merge_pdfs__title": "Fusionner des PDF - Combinez des fichiers PDF en ligne gratuitement | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Combinez des fichiers PDF et créez un seul document en ligne gratuitement. Avec notre outil de fusion PDF, la fusion de PDF est plus facile que jamais. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
+    "pdf_tools__merge_pdf__title": "Fusionner des PDF - Combinez des fichiers PDF en ligne gratuitement | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Combinez des fichiers PDF et créez un seul document en ligne gratuitement. Avec notre outil de fusion PDF, la fusion de PDF est plus facile que jamais. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
     "pdf_tools__split_pdf__title": "Diviser PDF - Séparer les pages PDF en ligne gratuitement | MaxAI.me",
     "pdf_tools__split_pdf__description": "Séparez facilement les pages ou supprimez des pages de votre PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
     "pdf_tools__png_to_pdf__title": "PNG vers PDF - Convertir des images PNG en PDF en ligne gratuitement | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Effacer les PDF",
     "components__pdf_merge__confirm_merge": "Confirmer la fusion",
     "components__pdf_merge__button__download__tooltip": "Fusionner et télécharger le PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Effacer tous les PDF ci-dessous",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Effacer tous les PDF ci-dessous",
     "components__pdf_merge__button__add_pdfs__tooltip": "Ajouter un fichier PDF ci-dessous"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__pdf_to_html__button__download": "Télécharger",
-    "components__pdf_to_html__button__Convert": "Convertir un autre"
+    "components__pdf_to_html__button__convert": "Convertir un autre"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Fonctionnalités de base :",

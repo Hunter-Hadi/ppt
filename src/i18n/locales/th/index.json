@@ -363,7 +363,7 @@
     "tools__index_page__description": "เครื่องมือทั้งหมดที่คุณต้องการเพื่อเพิ่มประสิทธิภาพและทำงานอย่างฉลาดกับเอกสาร 100% ฟรีและใช้ผ่านเบราว์เซอร์เพื่อความเป็นส่วนตัวที่สมบูรณ์",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF เป็น PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF เป็น JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "รวม PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "รวม PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "แยกไฟล์ PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG เป็น PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG เป็น PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ส่งออกแต่ละหน้าของ PDF เป็นรูปภาพ PNG หรือแยกภาพบุคคลจาก PDF เป็นไฟล์ PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ส่งออกแต่ละหน้าของ PDF เป็นรูปภาพ JPEG หรือแยกภาพบุคคลจาก PDF เป็นไฟล์ JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ส่งออกแต่ละหน้าเป็นรูปภาพ JPEG หรือแยกภาพบุคคลจาก PDF เป็นไฟล์ JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "ผสาน PDF จำนวนมากในลำดับที่คุณเลือกเป็น PDF เดียว",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "ผสานไฟล์ PDF หลายไฟล์เป็นไฟล์เดียวด้วยไม่กี่คลิก",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "ผสาน PDF จำนวนมากในลำดับที่คุณเลือกเป็น PDF เดียว",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "ผสานไฟล์ PDF หลายไฟล์เป็นไฟล์เดียวด้วยไม่กี่คลิก",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "แยกหน้าของ PDF เป็นหลายไฟล์ PDF หรือเพียงแค่ลบหน้าออกจากไฟล์ที่มีอยู่",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "แยกหน้าของ PDF เป็นหลายไฟล์ PDF หรือเพียงแค่ลบหน้าออกจากไฟล์ที่มีอยู่",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "แปลงรูปภาพ PNG เป็น PDF ออนไลน์",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "แปลงหน้าของ PDF เป็นรูปภาพ JPEG หรือสกัดรูปภาพแต่ละรูปจากไฟล์ PDF ของคุณออนไลน์ฟรี ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
     "pdf_tools__pdf_to_png__title": "PDF เป็น PNG - แปลง PDF เป็นรูปภาพ PNG ออนไลน์ฟรี | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "แปลงหน้าของ PDF เป็นรูปภาพ PNG หรือสกัดรูปภาพแต่ละรูปจากไฟล์ PDF ของคุณออนไลน์ฟรี ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
-    "pdf_tools__merge_pdfs__title": "รวม PDF - รวมไฟล์ PDF ออนไลน์ฟรี | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "รวมไฟล์ PDF เข้าด้วยกันและสร้างเป็นเอกสารเดียวออนไลน์ฟรี ด้วยตัวรวม PDF ของเรา การรวม PDF ไม่เคยง่ายขึ้นมาก่อน ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
+    "pdf_tools__merge_pdf__title": "รวม PDF - รวมไฟล์ PDF ออนไลน์ฟรี | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "รวมไฟล์ PDF เข้าด้วยกันและสร้างเป็นเอกสารเดียวออนไลน์ฟรี ด้วยตัวรวม PDF ของเรา การรวม PDF ไม่เคยง่ายขึ้นมาก่อน ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
     "pdf_tools__split_pdf__title": "แยก PDF – แยกหน้า PDF ออนไลน์ฟรี | MaxAI.me",
     "pdf_tools__split_pdf__description": "แยกหน้าหรือลบหน้าใน PDF ของคุณออนไลน์ฟรี ไม่มีลายน้ำ ไม่จำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก",
     "pdf_tools__png_to_pdf__title": "PNG เป็น PDF - แปลงรูปภาพ PNG เป็น PDF ออนไลน์ฟรี | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "ล้าง PDF",
     "components__pdf_merge__confirm_merge": "ยืนยันการรวม",
     "components__pdf_merge__button__download__tooltip": "รวมและดาวน์โหลด PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "ล้าง PDF ทั้งหมดด้านล่าง",
+    "components__pdf_merge__button__clear_pdf__tooltip": "ล้าง PDF ทั้งหมดด้านล่าง",
     "components__pdf_merge__button__add_pdfs__tooltip": "เพิ่มไฟล์ PDF ด้านล่าง"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "กรุณาอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__pdf_to_html__button__download": "ดาวน์โหลด",
-    "components__pdf_to_html__button__Convert": "แปลงอื่น"
+    "components__pdf_to_html__button__convert": "แปลงอื่น"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "คุณสมบัติหลัก:",

@@ -363,7 +363,7 @@
     "tools__index_page__description": "جميع الأدوات التي ستحتاجها لتكون أكثر إنتاجية وتعمل بشكل أذكى مع المستندات. 100% مجانية ومستندة على المتصفح للخصوصية الكاملة.",
     "tools__index_page__constant_obj__pdf_to_png__title": "تحويل PDF إلى PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "تحويل PDF إلى JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "دمج ملفات PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "دمج ملفات PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "تقسيم ملف PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "تحويل PNG إلى PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "تحويل JPEG إلى PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "تصدير كل صفحة من ملف PDF كصورة PNG أو استخراج صور فردية من ملف PDF إلى صور PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "تصدير كل صفحة من ملف PDF كصورة JPEG أو استخراج صور فردية من ملف PDF إلى صور JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "تصدير كل صفحة كصورة JPEG أو استخراج صور فردية من ملف PDF إلى صور JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "دمج أي عدد من ملفات PDF بالترتيب الذي تختاره في ملف PDF واحد",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "دمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "دمج أي عدد من ملفات PDF بالترتيب الذي تختاره في ملف PDF واحد",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "دمج ملفات PDF متعددة في ملف واحد ببضع نقرات فقط",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "تقسيم صفحات ملف PDF إلى ملفات PDF متعددة أو ببساطة إزالة صفحات من ملف PDF موجود",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "تقسيم صفحات ملف PDF إلى ملفات PDF متعددة أو ببساطة إزالة صفحات من ملف PDF موجود.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "تحويل صور PNG إلى ملف PDF عبر الإنترنت",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "قم بتحويل صفحات PDF إلى صور JPEG أو استخراج صور فردية من ملفات PDF الخاصة بك عبر الإنترنت مجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
     "pdf_tools__pdf_to_png__title": "تحويل PDF إلى PNG - تحويل أي ملفات PDF إلى صور عبر الإنترنت مجانًا | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "قم بتحويل صفحات PDF إلى صور PNG أو استخراج صور فردية من ملفات PDF الخاصة بك عبر الإنترنت مجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
-    "pdf_tools__merge_pdfs__title": "دمج PDF - دمج ملفات PDF عبر الإنترنت مجانًا | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "قم بدمج ملفات PDF وإنشاء وثيقة واحدة عبر الإنترنت مجانًا. باستخدام أداة دمج PDF لدينا ، يصبح دمج ملفات PDF أسهل من أي وقت مضى. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "pdf_tools__merge_pdf__title": "دمج PDF - دمج ملفات PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "قم بدمج ملفات PDF وإنشاء وثيقة واحدة عبر الإنترنت مجانًا. باستخدام أداة دمج PDF لدينا ، يصبح دمج ملفات PDF أسهل من أي وقت مضى. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
     "pdf_tools__split_pdf__title": "تقسيم ملف PDF - فصل صفحات PDF عبر الإنترنت مجانًا | MaxAI.me",
     "pdf_tools__split_pdf__description": "افصل الصفحات بسهولة أو احذف الصفحات في ملف PDF الخاص بك عبر الإنترنت مجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيل الدخول المطلوبة.",
     "pdf_tools__png_to_pdf__title": "تحويل PNG إلى PDF - تحويل صور PNG إلى ملف PDF عبر الإنترنت مجانًا | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "مسح PDFs",
     "components__pdf_merge__confirm_merge": "تأكيد الدمج",
     "components__pdf_merge__button__download__tooltip": "دمج وتنزيل ملف PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "مسح جميع ملفات PDF أدناه",
+    "components__pdf_merge__button__clear_pdf__tooltip": "مسح جميع ملفات PDF أدناه",
     "components__pdf_merge__button__add_pdfs__tooltip": "إضافة ملف PDF أدناه"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__pdf_to_html__button__download": "تحميل",
-    "components__pdf_to_html__button__Convert": "تحويل آخر"
+    "components__pdf_to_html__button__convert": "تحويل آخر"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "الميزات الأساسية:",

@@ -363,7 +363,7 @@
     "tools__index_page__description": "Всички инструменти, които ще ви трябват, за да бъдете по-продуктивни и да работите по-умно с документи. 100% БЕЗПЛАТНИ и базирани в браузъра за пълна поверителност.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF към PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF към JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Обединяване на PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Обединяване на PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Разделяне на PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG към PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG към PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Изнесете всяка страница от PDF като PNG изображение или извлечете отделни изображения от PDF в PNG формат",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Изнесете всяка страница от PDF като JPEG изображение или извлечете отделни изображения от PDF в JPEG формат",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Изнесете всяка страница като JPEG или извлечете отделни изображения от PDF в JPEG формат",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Сливайте произволен брой PDF файлове в избран от вас ред в един PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Сливайте множество PDF файлове в един с няколко клика",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Сливайте произволен брой PDF файлове в избран от вас ред в един PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Сливайте множество PDF файлове в един с няколко клика",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Разделяйте страници на PDF в няколко PDF файла или просто премахвайте страници от съществуващ",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Разделяйте страници на PDF в няколко PDF файла или просто премахвайте страници от съществуващ.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Конвертирайте PNG изображения в PDF онлайн",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Конвертирайте страници от PDF в JPEG изображения или извлечете отделни изображения от вашите PDF файлове онлайн безплатно. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
     "pdf_tools__pdf_to_png__title": "PDF към PNG - Конвертиране на всякакви PDF файлове в изображения онлайн безплатно | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Конвертирайте страници от PDF в PNG изображения или извлечете отделни изображения от вашите PDF файлове онлайн безплатно. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
-    "pdf_tools__merge_pdfs__title": "Сливане на PDF - Обединяване на PDF файлове онлайн безплатно | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Обединете PDF файлове и създайте единичен документ онлайн безплатно. С нашия PDF комбинатор, сливането на PDF файлове е по-лесно от всякога. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
+    "pdf_tools__merge_pdf__title": "Сливане на PDF - Обединяване на PDF файлове онлайн безплатно | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Обединете PDF файлове и създайте единичен документ онлайн безплатно. С нашия PDF комбинатор, сливането на PDF файлове е по-лесно от всякога. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
     "pdf_tools__split_pdf__title": "Разделяне на PDF – Отделете страници от PDF онлайн безплатно | MaxAI.me",
     "pdf_tools__split_pdf__description": "Лесно отделете страници или премахнете страници от вашия PDF онлайн безплатно. Без водни знаци, ограничения за размер на файла, изтегляния или регистрации.",
     "pdf_tools__png_to_pdf__title": "PNG към PDF - Конвертиране на PNG изображения в PDF онлайн безплатно | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
     "components__pdf_merge__confirm_merge": "Потвърди обединяването",
     "components__pdf_merge__button__download__tooltip": "Обединете и изтеглете PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Изчистете всички PDF-и по-долу",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Изчистете всички PDF-и по-долу",
     "components__pdf_merge__button__add_pdfs__tooltip": "Добавете PDF файл по-долу"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Моля, качете определения тип файл PDF",
     "components__pdf_to_html__button__download": "Изтегли",
-    "components__pdf_to_html__button__Convert": "Конвертирай отново"
+    "components__pdf_to_html__button__convert": "Конвертирай отново"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Основни функции:",

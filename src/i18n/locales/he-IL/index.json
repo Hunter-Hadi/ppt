@@ -363,7 +363,7 @@
     "tools__index_page__description": "כל הכלים שתצטרך כדי להיות יותר יעיל ולעבוד בחכמה עם מסמכים. 100% חינמי ומבוסס דפדפן לפרטיות מוחלטת.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ל-PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ל-JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "מיזוג PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "מיזוג PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "לפצל PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG ל-PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ל-PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "ייצוא כל עמוד PDF כתמונת PNG או חליץ תמונות יחידות מה-PDF ל-PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "ייצוא כל עמוד PDF כתמונת JPEG או חליץ תמונות יחידות מה-PDF ל-JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "ייצוא כל עמוד כתמונת JPEG או חליץ תמונות יחידות מה-PDF ל-JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "מיזוג כל כמות של PDF בסדר שבחרת לתוך PDF יחיד",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "מיזוג כל כמות של PDF בסדר שבחרת לתוך PDF יחיד",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "מיזוג קבצי PDF מרובים לקובץ אחד בלחיצה כמה",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "פיצול עמודי PDF ל-PDFים מרובים או פשוט הסרת עמודים מקיים",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "פיצול עמודי PDF ל-PDFים מרובים או פשוט הסרת עמודים מקיים",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "המרת תמונות PNG ל-PDF מקוון",
@@ -778,8 +778,8 @@
     "pdf_tools__pdf_to_jpeg__description": "המרת עמודי PDF לתמונות JPEG או חליץ תמונות יחידות מקבצי ה-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
     "pdf_tools__pdf_to_png__title": "PDF ל-PNG - המרת כל PDF לתמונות באינטרנט בחינם | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "המרת עמודי PDF לתמונות PNG או חליץ תמונות יחידות מקבצי ה-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
-    "pdf_tools__merge_pdfs__title": "מיזוג PDF - שלב קבצי PDF באינטרנט בחינם | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "שלב קבצי PDF וצור מסמך אחד באינטרנט בחינם. עם המחבר שלנו ל-PDF, מיזוג PDF הפך קל יותר מתמיד. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
+    "pdf_tools__merge_pdf__title": "מיזוג PDF - שלב קבצי PDF באינטרנט בחינם | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "שלב קבצי PDF וצור מסמך אחד באינטרנט בחינם. עם המחבר שלנו ל-PDF, מיזוג PDF הפך קל יותר מתמיד. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
     "pdf_tools__split_pdf__title": "פיצול PDF – נפרד עמודי PDF באינטרנט בחינם | MaxAI.me",
     "pdf_tools__split_pdf__description": "פיצול עמודים או הסרת עמודים ב-PDF שלך באינטרנט בחינם. ללא סימני מים, מגבלות גודל קובץ, הורדות או הרשמות.",
     "pdf_tools__png_to_pdf__title": "PNG ל-PDF - המרת תמונות PNG ל-PDF מקוון בחינם | MaxAI.me",
@@ -855,7 +855,7 @@
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
     "components__pdf_merge__button__download__tooltip": "מיזוג והורדת PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "נקה את כל ה- PDF למטה",
+    "components__pdf_merge__button__clear_pdf__tooltip": "נקה את כל ה- PDF למטה",
     "components__pdf_merge__button__add_pdfs__tooltip": "הוסף קובץ PDF למטה"
   },
   "functionality__pdf_split": {
@@ -897,7 +897,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "אנא העלה את סוג הקובץ המצוין של PDF",
     "components__pdf_to_html__button__download": "הורדה",
-    "components__pdf_to_html__button__Convert": "המרה נוספת"
+    "components__pdf_to_html__button__convert": "המרה נוספת"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "תכונות עיקריות:",

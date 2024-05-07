@@ -363,7 +363,7 @@
     "tools__index_page__description": "Բոլոր գործիքները, որոնք ձեզ հարմար կլինեն ավելի արագ աշխատելու համար և ավելի խորհուրդավորված աշխատանքներում: 100% ԱՆՎԱՆ և բրաուզերի համար համակարգչային ապահովումով:",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF-ից PNG-ի",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF-ից JPEG-ի",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Միավորել PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Միավորել PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Փակել PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG-ից PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG-ից PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Արտահանել յուրաքանչյուր PDF էջը PNG պատկերի կամ առանցիների դարձնելու համար",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Արտահանել յուրաքանչյուր PDF էջը JPEG պատկերի կամ առանցիների դարձնելու համար",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Արտահանել յուրաքանչյուր էջը JPEG պատկերի կամ առանցիների դարձնելու համար",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Միացնել ցանկացած քանակությամբ PDF-ները ըստ Ձեր ընտրած կարգով մեկ մեկ PDF-ի մեջ",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Միացնել մի քանի PDF ֆայլեր մեկուսով միաժամանակակից մի PDF-ում",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Միացնել ցանկացած քանակությամբ PDF-ները ըստ Ձեր ընտրած կարգով մեկ մեկ PDF-ի մեջ",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Միացնել մի քանի PDF ֆայլեր մեկուսով միաժամանակակից մի PDF-ում",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Բաժանել PDF-ի էջերը մի քանի PDF-երում կամ պարզել էջերը առանց դրանց",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Բաժանել PDF-ի էջերը մի քանի PDF-երում կամ պարզել էջերը առանց դրանց",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Վերափոխել PNG պատկերները PDF-ի մեջ օնլայն",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Փոխարեն՝ PDF էջերը JPEG պատկերներին կամ առանցիների դեպքում առանց վաթերային նշանների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջարկների առանց։",
     "pdf_tools__pdf_to_png__title": "PDF-ից PNG-ին - Անվճար օնլայն փոխարեն՝ կամայական PDF-ները պատկերների դեպքում | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Փոխարեն՝ PDF էջերը PNG պատկերներին կամ առանցիների դեպքում առանց վաթերային նշանների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջարկների առանց։",
-    "pdf_tools__merge_pdfs__title": "Միացնել PDF - Բեռնել PDF ֆայլերը միավորված փաստաթղթում անվճար | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Միացնեք PDF ֆայլերը և ստեղծեք մեկ միավորված փաստաթղթում անվճար։ Մեր PDF միավորողով միացնելը հեշտ է ավելի, քան երկուսների։ Առանց վաթերային նշանների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջարկների առանց։",
+    "pdf_tools__merge_pdf__title": "Միացնել PDF - Բեռնել PDF ֆայլերը միավորված փաստաթղթում անվճար | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Միացնեք PDF ֆայլերը և ստեղծեք մեկ միավորված փաստաթղթում անվճար։ Մեր PDF միավորողով միացնելը հեշտ է ավելի, քան երկուսների։ Առանց վաթերային նշանների, ֆայլի չափսերի սահմանափակումների, բեռնումների կամ գրանցումների պահանջարկների առանց։",
     "pdf_tools__split_pdf__title": "Մասնակցեք PDF-ի բաժանմանը - Առանց վատերների | MaxAI.me",
     "pdf_tools__split_pdf__description": "Կարողանաք շարունակել էջերը կամ հեռացնել էջերը ձեր PDF-ից անվճար օնլայն: Առանց զգալիների, ֆայլի չափսի սահմանափակումների, ներբեռնումների կամ գրանցման:",
     "pdf_tools__png_to_pdf__title": "PNG-ից PDF - վերափոխել PNG պատկերները PDF-ի համար անվճար | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Մաքրել PDF-ները",
     "components__pdf_merge__confirm_merge": "Հաստատել միավորումը",
     "components__pdf_merge__button__download__tooltip": "Միացնել և բեռնել PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Մաքրել ստորեւ բոլոր PDF-ները",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Մաքրել ստորեւ բոլոր PDF-ները",
     "components__pdf_merge__button__add_pdfs__tooltip": "Ավելացնել PDF ֆայլ ստորեւ"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
     "components__pdf_to_html__button__download": "Ներբեռնել",
-    "components__pdf_to_html__button__Convert": "Վերափոխել մեկը"
+    "components__pdf_to_html__button__convert": "Վերափոխել մեկը"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Գլխավոր հատկությունները:",

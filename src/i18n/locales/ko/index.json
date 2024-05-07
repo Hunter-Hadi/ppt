@@ -363,7 +363,7 @@
     "tools__index_page__description": "더 생산적이고 더 스마트하게 문서 작업을 할 수 있는 모든 도구들을 제공합니다. 완전한 개인 정보 보호를 위해 100% 무료이며 브라우저 기반입니다.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF를 PNG로 변환",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF를 JPEG로 변환",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDF 병합",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDF 병합",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF 분할",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG를 PDF로 변환",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG를 PDF로 변환",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "각 PDF 페이지를 PNG 이미지로 내보내거나 PDF에서 개별 이미지를 추출합니다",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "각 PDF 페이지를 JPEG 이미지로 내보내거나 PDF에서 개별 이미지를 추출합니다",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "각 페이지를 JPEG로 내보내거나 PDF에서 개별 이미지를 추출합니다",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "원하는 순서로 여러 개의 PDF를 하나의 PDF로 병합합니다",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "몇 번의 클릭으로 여러 개의 PDF 파일을 하나로 병합합니다",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "원하는 순서로 여러 개의 PDF를 하나의 PDF로 병합합니다",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "몇 번의 클릭으로 여러 개의 PDF 파일을 하나로 병합합니다",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "PDF의 페이지를 여러 개의 PDF로 분할하거나 기존 PDF에서 페이지를 제거합니다",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "PDF의 페이지를 여러 개의 PDF로 분할하거나 기존 PDF에서 페이지를 제거합니다",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG 이미지를 PDF로 온라인으로 변환합니다",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "PDF 페이지를 JPEG 이미지로 변환하거나 PDF 파일에서 개별 이미지를 추출하는 무료 온라인 서비스입니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__pdf_to_png__title": "PDF를 PNG로 변환 - 무료 온라인으로 모든 PDF를 이미지로 변환 | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "PDF 페이지를 PNG 이미지로 변환하거나 PDF 파일에서 개별 이미지를 추출하는 무료 온라인 서비스입니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
-    "pdf_tools__merge_pdfs__title": "PDF 병합 - 무료 온라인으로 PDF 파일을 결합 | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "PDF 파일을 결합하여 하나의 문서로 만드는 무료 온라인 서비스입니다. PDF 병합기를 사용하면 PDF를 쉽게 병합할 수 있습니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "pdf_tools__merge_pdf__title": "PDF 병합 - 무료 온라인으로 PDF 파일을 결합 | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "PDF 파일을 결합하여 하나의 문서로 만드는 무료 온라인 서비스입니다. PDF 병합기를 사용하면 PDF를 쉽게 병합할 수 있습니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__split_pdf__title": "PDF 분할 - 무료 온라인으로 PDF 페이지 분리하기 | MaxAI.me",
     "pdf_tools__split_pdf__description": "무료로 PDF에서 페이지를 쉽게 분리하거나 제거하세요. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__png_to_pdf__title": "PNG를 PDF로 변환 - 무료 온라인 PNG 이미지를 PDF로 변환 | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "PDF 지우기",
     "components__pdf_merge__confirm_merge": "병합 확인",
     "components__pdf_merge__button__download__tooltip": "PDF 병합 및 다운로드",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "아래의 모든 PDF 지우기",
+    "components__pdf_merge__button__clear_pdf__tooltip": "아래의 모든 PDF 지우기",
     "components__pdf_merge__button__add_pdfs__tooltip": "아래에 PDF 파일 추가"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
     "components__pdf_to_html__button__download": "다운로드",
-    "components__pdf_to_html__button__Convert": "다른 파일 변환"
+    "components__pdf_to_html__button__convert": "다른 파일 변환"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "핵심 기능:",

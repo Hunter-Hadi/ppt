@@ -363,7 +363,7 @@
     "tools__index_page__description": "Visi rīki, kas jums būs nepieciešami, lai būtu produktīvāks un gudrāk strādātu ar dokumentiem. 100% BEZMAKSAS un pārlūkprogrammā balstīti, lai nodrošinātu pilnīgu privātumu.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF uz PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF uz JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Apvienot PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Apvienot PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Sadalīt PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG uz PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG uz PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksportējiet katru PDF lapu kā PNG attēlu vai izvelciet atsevišķus attēlus no PDF uz PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksportējiet katru PDF lapu kā JPEG attēlu vai izvelciet atsevišķus attēlus no PDF uz JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksportējiet katru lapu kā JPEG vai izvelciet atsevišķus attēlus no PDF uz JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Apvienojiet jebkuru daudzumu PDF failu pēc izvēles secībā vienā PDF failā",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Apvienojiet vairākus PDF failus vienā ar tikai dažiem klikšķiem",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Apvienojiet jebkuru daudzumu PDF failu pēc izvēles secībā vienā PDF failā",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Apvienojiet vairākus PDF failus vienā ar tikai dažiem klikšķiem",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Sadaliet PDF lapas vairākos PDF failos vai vienkārši noņemiet lapas no esošā",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Sadaliet PDF lapas vairākos PDF failos vai vienkārši noņemiet lapas no esošā.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Konvertējiet PNG attēlus uz PDF tiešsaistē",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Konvertējiet PDF lapas par JPEG attēliem vai izvelciet atsevišķus attēlus no savām PDF failiem tiešsaistē bez maksas. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas.",
     "pdf_tools__pdf_to_png__title": "PDF uz PNG - Konvertēt jebkuru PDF par attēliem tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Konvertējiet PDF lapas par PNG attēliem vai izvelciet atsevišķus attēlus no savām PDF failiem tiešsaistē bez maksas. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas.",
-    "pdf_tools__merge_pdfs__title": "Apvienot PDF - Apvienot PDF failus tiešsaistē bez maksas | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Apvienojiet PDF failus un izveidojiet vienu dokumentu tiešsaistē bez maksas. Ar mūsu PDF apvienotāju, PDF apvienošana ir vieglāka nekā jebkad agrāk. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas.",
+    "pdf_tools__merge_pdf__title": "Apvienot PDF - Apvienot PDF failus tiešsaistē bez maksas | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Apvienojiet PDF failus un izveidojiet vienu dokumentu tiešsaistē bez maksas. Ar mūsu PDF apvienotāju, PDF apvienošana ir vieglāka nekā jebkad agrāk. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas.",
     "pdf_tools__split_pdf__title": "Sadalīt PDF – Atsevišķas PDF lapas tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__split_pdf__description": "Viegli atdalīt vai noņemt lapas savā PDF tiešsaistē bez maksas. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
     "pdf_tools__png_to_pdf__title": "PNG uz PDF - Konvertēt PNG attēlus uz PDF tiešsaistē bez maksas | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Notīrīt PDF",
     "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
     "components__pdf_merge__button__download__tooltip": "Apvienot un lejupielādēt PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Notīrīt visus PDF zemāk",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Notīrīt visus PDF zemāk",
     "components__pdf_merge__button__add_pdfs__tooltip": "Pievienot PDF failu zemāk"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_to_html__button__download": "Lejupielādēt",
-    "components__pdf_to_html__button__Convert": "Konvertēt vēlreiz"
+    "components__pdf_to_html__button__convert": "Konvertēt vēlreiz"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Galvenās funkcijas:",

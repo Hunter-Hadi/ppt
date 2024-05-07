@@ -363,7 +363,7 @@
     "tools__index_page__description": "Semua alat yang anda perlukan untuk menjadi lebih produktif dan bekerja dengan lebih bijak dengan dokumen. 100% PERCUMA dan berpelayar untuk privasi yang lengkap.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ke PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ke JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Gabung PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Gabung PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Bahagikan PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG ke PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ke PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Eksport setiap halaman PDF sebagai imej PNG atau ekstrak imej individu dari PDF ke PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Eksport setiap halaman PDF sebagai imej JPEG atau ekstrak imej individu dari PDF ke JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Eksport setiap halaman sebagai JPEG atau ekstrak imej individu dari PDF ke JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Gabungkan sebarang bilangan PDF dalam urutan yang anda pilih menjadi satu PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Gabungkan beberapa fail PDF menjadi satu dengan hanya beberapa klik",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Gabungkan sebarang bilangan PDF dalam urutan yang anda pilih menjadi satu PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Gabungkan beberapa fail PDF menjadi satu dengan hanya beberapa klik",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Bahagikan halaman-halaman PDF kepada beberapa PDF atau hanya alih keluar halaman daripada yang sedia ada",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Bahagikan halaman-halaman PDF kepada beberapa PDF atau hanya alih keluar halaman daripada yang sedia ada.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Tukar imej PNG kepada PDF dalam talian",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Tukar halaman PDF kepada imej JPEG atau keluarkan imej individu dari fail PDF anda dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__pdf_to_png__title": "PDF ke PNG - Tukar Mana-mana PDF kepada Imej Dalam Talian secara Percuma | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Tukar halaman PDF kepada imej PNG atau keluarkan imej individu dari fail PDF anda dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
-    "pdf_tools__merge_pdfs__title": "Gabungkan PDF - Gabungkan Fail PDF Dalam Talian secara Percuma | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Gabungkan fail PDF dan cipta dokumen tunggal dalam talian secara percuma. Dengan penggabung PDF kami, menggabungkan PDF menjadi lebih mudah dari sebelumnya. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "pdf_tools__merge_pdf__title": "Gabungkan PDF - Gabungkan Fail PDF Dalam Talian secara Percuma | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Gabungkan fail PDF dan cipta dokumen tunggal dalam talian secara percuma. Dengan penggabung PDF kami, menggabungkan PDF menjadi lebih mudah dari sebelumnya. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__split_pdf__title": "Pisahkan PDF – Pisahkan Halaman PDF Secara Dalam Talian secara Percuma | MaxAI.me",
     "pdf_tools__split_pdf__description": "Mudah memisahkan halaman atau mengeluarkan halaman dalam PDF anda secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__png_to_pdf__title": "PNG ke PDF - Tukar Gambar PNG ke PDF Dalam Talian Secara Percuma | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
     "components__pdf_merge__button__download__tooltip": "Gabung dan muat turun PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Padam semua PDF di bawah",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Padam semua PDF di bawah",
     "components__pdf_merge__button__add_pdfs__tooltip": "Tambah fail PDF di bawah"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__pdf_to_html__button__download": "Muat turun",
-    "components__pdf_to_html__button__Convert": "Tukar yang lain"
+    "components__pdf_to_html__button__convert": "Tukar yang lain"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Ciri-ciri asas:",

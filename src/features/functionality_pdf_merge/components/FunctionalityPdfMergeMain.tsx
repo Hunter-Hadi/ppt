@@ -3,7 +3,7 @@ import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
@@ -19,7 +19,7 @@ import FunctionalityCommonTooltip from '@/features/functionality_common/componen
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import snackNotifications from '@/utils/globalSnackbar';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 export type IFunctionalityPdfFileInfoType = IFunctionalityCommonImageInfo & {
   name: string;
   file: File;
@@ -44,43 +44,16 @@ const FunctionalityPdfMergeMain = () => {
     setIsLoading(false);
   };
   const handleUnsupportedFileTypeTip = () => {
-    snackNotifications.warning(
+    functionalityCommonSnackNotifications(
       t(
         'functionality__pdf_merge:components__pdf_merge__unsupported_file_type_tip',
       ),
-      {
-        anchorOrigin: {
-          vertical: 'top',
-          horizontal: 'center',
-        },
-      },
     );
-  };
-  const getPdfFileInfoList = async (fileList: FileList) => {
-    const fileInfoList: IFunctionalityPdfFileInfoType[] = [];
-    for (let i = 0; i < fileList.length; i++) {
-      const file = fileList[i];
-      const pageInfo = await getFirstPageAsImage(file);
-      if (pageInfo) {
-        const fileInfo = {
-          id: uuidV4(),
-          name: file.name,
-          size: file.size,
-          imageUrlString: pageInfo.image || '',
-          pages: pageInfo.pages,
-          file: file,
-        };
-        fileInfoList.push(fileInfo);
-      }
-    }
-    return fileInfoList;
   };
   /**
    * 获取pdf的第一页作为图片
    */
-  async function getFirstPageAsImage(
-    file: File,
-  ): Promise<{ image: string; pages: number } | null> {
+  const getFirstPageAsImage = async (file: File) => {
     try {
       const buff = await file.arrayBuffer();
       await PDFDocument.load(buff); //load来判断pdf是否加密或者无法提取，异常则进入catch
@@ -112,23 +85,36 @@ const FunctionalityPdfMergeMain = () => {
         return null;
       }
     } catch (e) {
-      console.log('simply mergePdfFiles', e);
       if (file.name) {
-        snackNotifications.warning(
+        functionalityCommonSnackNotifications(
           `${file.name} ${t(
             'functionality__common:components__common__pdf_encryption_tip',
           )}`,
-          {
-            anchorOrigin: {
-              vertical: 'top',
-              horizontal: 'center',
-            },
-          },
         );
       }
       return null;
     }
-  }
+  };
+  const getPdfFileInfoList = async (fileList: FileList) => {
+    const fileInfoList: IFunctionalityPdfFileInfoType[] = [];
+    for (let i = 0; i < fileList.length; i++) {
+      const file = fileList[i];
+      const pageInfo = await getFirstPageAsImage(file);
+      if (pageInfo) {
+        const fileInfo = {
+          id: uuidV4(),
+          name: file.name,
+          size: file.size,
+          imageUrlString: pageInfo.image || '',
+          pages: pageInfo.pages,
+          file: file,
+        };
+        fileInfoList.push(fileInfo);
+      }
+    }
+    return fileInfoList;
+  };
+
   const mergePdfFiles = async (fileList: File[]) => {
     // 创建一个新的 PDF 文档，它将成为最终合并的文档
     const mergedPdfDoc = await PDFDocument.create();
@@ -162,7 +148,7 @@ const FunctionalityPdfMergeMain = () => {
       if (files) {
         const downloadPdfData = await mergePdfFiles(files);
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, 'merge(MaxAI.me).pdf');
+          downloadUrl(downloadPdfData, 'merge(Powered by MaxAI).pdf');
         }
         setIsLoading(false);
       }
@@ -178,47 +164,63 @@ const FunctionalityPdfMergeMain = () => {
   const isListEmpty = pdfInfoList.length === 0;
 
   //按钮配置列表
-  const buttonConfigs: IButtonConfig[] = [
-    {
-      type: 'upload',
-      uploadProps: {
-        tooltip: t(
-          'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
-        ),
-        onChange: onUploadFile,
-        isDrag: false,
+  const buttonConfigs: IButtonConfig[] = useMemo(
+    () => [
+      {
+        type: 'upload',
+        uploadProps: {
+          tooltip: t(
+            'functionality__pdf_merge:components__pdf_merge__button__add_pdfs__tooltip',
+          ),
+          onChange: onUploadFile,
+          isDrag: false,
+          buttonProps: {
+            variant: 'outlined',
+            disabled: isLoading,
+            sx: {
+              height: 48,
+              width: '100%',
+            },
+          },
+          inputProps: {
+            accept: 'application/pdf',
+            multiple: true,
+          },
+          handleUnsupportedFileType: handleUnsupportedFileTypeTip,
+          children: t(
+            'functionality__pdf_merge:components__pdf_merge__add_pdf',
+          ),
+        },
+      },
+      {
+        type: 'button',
         buttonProps: {
+          tooltip: t(
+            'functionality__pdf_merge:components__pdf_merge__button__clear_pdf__tooltip',
+          ),
+          children: t(
+            'functionality__pdf_merge:components__pdf_merge__empty_pdf',
+          ),
           variant: 'outlined',
           disabled: isLoading,
-          sx: {
-            height: 48,
-            width: '100%',
-          },
+          color: 'error',
+          onClick: () => setPdfInfoList([]),
         },
-        inputProps: {
-          accept: 'application/pdf',
-          multiple: true,
-        },
-        handleUnsupportedFileType: handleUnsupportedFileTypeTip,
-        children: t('functionality__pdf_merge:components__pdf_merge__add_pdf'),
       },
-    },
-    {
-      type: 'button',
-      buttonProps: {
-        tooltip: t(
-          'functionality__pdf_merge:components__pdf_merge__button__clear_pdfs__tooltip',
-        ),
-        children: t(
-          'functionality__pdf_merge:components__pdf_merge__empty_pdf',
-        ),
-        variant: 'outlined',
-        disabled: isLoading,
-        color: 'error',
-        onClick: () => setPdfInfoList([]),
-      },
-    },
-  ];
+    ],
+    [isLoading, t],
+  );
+  const BoxViewWrap = (props) => (
+    <Box
+      sx={{
+        width: '100%',
+        position: 'relative',
+        minHeight: 200,
+      }}
+    >
+      {props.children}
+    </Box>
+  );
   return (
     <Stack
       flexDirection='column'
@@ -245,85 +247,78 @@ const FunctionalityPdfMergeMain = () => {
       {!isListEmpty && (
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
-      {(!isListEmpty || isLoading) && (
-        <Box
-          sx={{
-            width: '100%',
-            position: 'relative',
-            minHeight: 200,
-          }}
-        >
-          {!isListEmpty && !isLoading && (
-            <FunctionalityCommonDragSortableList
-              list={pdfInfoList}
-              onUpdateList={setPdfInfoList}
-              replacementElement={(dragInfo) => (
-                <FunctionalityCommonImage
-                  sx={{
+      {!isListEmpty && !isLoading && (
+        <BoxViewWrap>
+          <FunctionalityCommonDragSortableList
+            list={pdfInfoList}
+            onUpdateList={setPdfInfoList}
+            replacementElement={(dragInfo) => (
+              <FunctionalityCommonImage
+                sx={{
+                  bgcolor: 'transparent',
+                  '&:hover': {
                     bgcolor: 'transparent',
-                    '&:hover': {
-                      bgcolor: 'transparent',
-                    },
-                  }}
-                  imageInfo={dragInfo}
-                />
-              )}
-            >
-              {(imageInfo, index, currentDragInfo) => (
-                <FunctionalityCommonTooltip
+                  },
+                }}
+                imageInfo={dragInfo}
+              />
+            )}
+          >
+            {(imageInfo, index, currentDragInfo) => (
+              <FunctionalityCommonTooltip
+                key={imageInfo.id}
+                title={`${ceil(divide(imageInfo.size, 1000))}kb - ${
+                  imageInfo.pages
+                } pages`}
+              >
+                <FunctionalityCommonImage
                   key={imageInfo.id}
-                  title={`${ceil(divide(imageInfo.size, 1000))}kb - ${
-                    imageInfo.pages
-                  } pages`}
+                  name={String(index + 1)}
+                  imageInfo={imageInfo}
+                  sx={{
+                    border:
+                      currentDragInfo?.id === imageInfo.id
+                        ? '1px dashed #64467b'
+                        : 'none',
+                  }}
+                  imgStyle={{
+                    opacity: currentDragInfo?.id === imageInfo.id ? 0 : 1,
+                  }}
                 >
-                  <FunctionalityCommonImage
-                    key={imageInfo.id}
-                    name={String(index + 1)}
-                    imageInfo={imageInfo}
-                    sx={{
-                      border:
-                        currentDragInfo?.id === imageInfo.id
-                          ? '1px dashed #64467b'
-                          : 'none',
-                    }}
-                    imgStyle={{
-                      opacity: currentDragInfo?.id === imageInfo.id ? 0 : 1,
-                    }}
-                  >
-                    {!currentDragInfo ? (
-                      <Box
-                        sx={{
-                          position: 'absolute',
-                          top: 0,
-                          right: 0,
-                        }}
+                  {!currentDragInfo ? (
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        top: 0,
+                        right: 0,
+                      }}
+                    >
+                      <IconButton
+                        size='small'
+                        onClick={() => onDeletePdf(imageInfo.id)}
                       >
-                        <IconButton
-                          size='small'
-                          onClick={() => onDeletePdf(imageInfo.id)}
-                        >
-                          <FunctionalityCommonIcon
-                            name='CloseTwoTone'
-                            fontSize='small'
-                            sx={{
-                              bgcolor: '#d1d5db',
-                              borderRadius: 3,
-                            }}
-                          />
-                        </IconButton>
-                      </Box>
-                    ) : null}
-                  </FunctionalityCommonImage>
-                </FunctionalityCommonTooltip>
-              )}
-            </FunctionalityCommonDragSortableList>
-          )}
-          {isLoading && (
-            <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />
-          )}
-        </Box>
+                        <FunctionalityCommonIcon
+                          name='CloseTwoTone'
+                          fontSize='small'
+                          sx={{
+                            bgcolor: '#d1d5db',
+                            borderRadius: 3,
+                          }}
+                        />
+                      </IconButton>
+                    </Box>
+                  ) : null}
+                </FunctionalityCommonImage>
+              </FunctionalityCommonTooltip>
+            )}
+          </FunctionalityCommonDragSortableList>
+        </BoxViewWrap>
       )}
-
+      {isLoading && (
+        <BoxViewWrap>
+          <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />
+        </BoxViewWrap>
+      )}
       {!isListEmpty && (
         <Grid
           container

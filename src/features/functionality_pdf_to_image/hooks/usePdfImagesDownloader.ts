@@ -6,7 +6,8 @@ import { pdfjs } from 'react-pdf';
 
 import { IFunctionalityPdfToImageType } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { dataURLtoBlob } from '@/features/functionality_common/utils/functionalityCommonDataTool';
-import snackNotifications from '@/utils/globalSnackbar';
+import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -26,7 +27,7 @@ const usePdfImagesDownloader = () => {
     async (
       convertedPdfImages: IFunctionalityPdfToImageType[],
       toType: string,
-      file?: File,
+      file: File,
       scale?: number,
     ) => {
       try {
@@ -34,28 +35,34 @@ const usePdfImagesDownloader = () => {
         setCurrentDownloaderActionNum(0);
         setDownloaderIsLoading(true);
         const zip = new JSZip();
-        const images = zip.folder('images(MaxAI.me)');
+        const folderName = functionalityCommonRemoveAndAddFileExtension(
+          'images-' + file?.name || '',
+          'pdf',
+          '',
+        );
+        const images = zip.folder(folderName);
         const selectedImages = convertedPdfImages.filter(
           (image) => image.isSelect,
         );
         setDownloaderTotalPages(selectedImages.length);
-
-        //只有重新设置scale尺寸，才会重新加载pdf
-        const buff = scale ? await file?.arrayBuffer() : undefined;
-        const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
 
         for (let i = 0; i < selectedImages.length; i++) {
           if (isCancel.current) return;
           setCurrentDownloaderActionNum(i + 1);
           if (!scale) {
             images?.file(
-              `image-${i + 1}(MaxAI.me).${toType}`,
+              `image-${i + 1}(Powered by MaxAI).${toType}`,
               dataURLtoBlob(selectedImages[i].imageUrlString),
               {
                 base64: true,
               },
             );
-          } else if (pdfDoc && scale) {
+          } else if (scale) {
+            //只有重新设置scale尺寸，才会重新加载pdf
+            const buff = scale ? await file?.arrayBuffer() : undefined;
+            const pdfDoc = buff
+              ? await pdfjs.getDocument(buff).promise
+              : undefined;
             const { imageDataUrl } = await generatePdfToImage(
               pdfDoc,
               selectedImages[i].definedIndex,
@@ -64,7 +71,7 @@ const usePdfImagesDownloader = () => {
             );
 
             images?.file(
-              `image-${i + 1}(MaxAI.me).${toType}`,
+              `image-${i + 1}(Powered by MaxAI).${toType}`,
               dataURLtoBlob(imageDataUrl),
               {
                 base64: true,
@@ -75,21 +82,15 @@ const usePdfImagesDownloader = () => {
         if (isCancel.current) return;
         if (selectedImages.length > 0) {
           zip.generateAsync({ type: 'blob' }).then((content) => {
-            FileSaver.saveAs(content, 'images(MaxAI.me).zip');
+            FileSaver.saveAs(content, folderName + '.zip');
             setDownloaderIsLoading(false);
           });
         } else {
           //TODO: 需要提示没有选择图片
-          snackNotifications.warning(
+          functionalityCommonSnackNotifications(
             t(
               'functionality__pdf_to_image:components__to_image__downloader_tip',
             ),
-            {
-              anchorOrigin: {
-                vertical: 'top',
-                horizontal: 'center',
-              },
-            },
           );
           setDownloaderIsLoading(false);
         }

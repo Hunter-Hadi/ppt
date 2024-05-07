@@ -363,7 +363,7 @@
     "tools__index_page__description": "दस्तावेजांसह कार्यक्षमता वाढविण्यासाठी आणि डॉक्युमेंटसह स्मार्टरपणे काम करण्यासाठी आपल्याला आवश्यक असणारे सर्व उपकरण. पूर्ण गोपनीयतेसाठी 100% मोफत आणि ब्राउझर-आधारित.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ते PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ते JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDF एकत्रीकरण",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDF एकत्रीकरण",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF विभाजित करा",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG ते PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ते PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "प्रत्येक पीडीएफ पृष्ठाचा एक PNG छायाचित्र किंवा पीडीएफमधून व्यक्तिगत छायाचित्रे निर्यात करा",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "प्रत्येक पीडीएफ पृष्ठाचा एक JPEG छायाचित्र किंवा पीडीएफमधून व्यक्तिगत छायाचित्रे निर्यात करा",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "प्रत्येक पृष्ठाचा एक JPEG छायाचित्र किंवा पीडीएफमधून व्यक्तिगत छायाचित्रे निर्यात करा",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "आपल्या निवडलेल्या क्रमानुसार कोणत्याही पीडीएफची किंमत मर्ज करा",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "केवळ काही क्लिक्सद्वारे एकापेक्षा अधिक पीडीएफ फाइले एकत्रित करा",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "आपल्या निवडलेल्या क्रमानुसार कोणत्याही पीडीएफची किंमत मर्ज करा",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "केवळ काही क्लिक्सद्वारे एकापेक्षा अधिक पीडीएफ फाइले एकत्रित करा",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "पीडीएफच्या पृष्ठांची विभाजन करा किंवा त्यातील पृष्ठे केवळ काढा",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "पीडीएफच्या पृष्ठांची विभाजन करा किंवा त्यातील पृष्ठे केवळ काढा",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG छायाचित्रे ऑनलाइन पीडीएफमध्ये रूपांतरित करा",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "आपल्या PDF फाइलमधून JPEG छायाचित्रे रूपांतरित किंवा वैयक्तिक छायाचित्रे विनिमय करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
     "pdf_tools__pdf_to_png__title": "PDF ते PNG - कोणत्याही PDF चित्रे ऑनलाइन विनामूल्य रूपांतरित करा | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "आपल्या PDF फाइलमधून PNG छायाचित्रे रूपांतरित किंवा वैयक्तिक छायाचित्रे विनिमय करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
-    "pdf_tools__merge_pdfs__title": "PDF एकत्रीकरण - विनामूल्य ऑनलाइन PDF दस्तावेज एकत्रित करा | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "PDF फाइल एकत्रित करा आणि विनामूल्य ऑनलाइन एकटा दस्तावेज तयार करा. आमच्या PDF संयोजकासह, PDF एकत्रीकरण करणे अधिक सोपे झाले आहे. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
+    "pdf_tools__merge_pdf__title": "PDF एकत्रीकरण - विनामूल्य ऑनलाइन PDF दस्तावेज एकत्रित करा | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "PDF फाइल एकत्रित करा आणि विनामूल्य ऑनलाइन एकटा दस्तावेज तयार करा. आमच्या PDF संयोजकासह, PDF एकत्रीकरण करणे अधिक सोपे झाले आहे. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
     "pdf_tools__split_pdf__title": "PDF विभाजित करा - मोफत ऑनलाइन पीडीएफ पृष्ठ विभाजित करा | MaxAI.me",
     "pdf_tools__split_pdf__description": "मोफतपणे पीडीएफ पृष्ठ विभाजित करा किंवा पृष्ठ काढा. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
     "pdf_tools__png_to_pdf__title": "PNG ते PDF - PNG प्रतिमा विनामूल्य ऑनलाइनपर्यंत PDF मध्ये रूपांतरण करा | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ करा",
     "components__pdf_merge__confirm_merge": "संयोजन करण्यासाठी पुष्टी करा",
     "components__pdf_merge__button__download__tooltip": "एकत्र करा आणि PDF डाउनलोड करा",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "खालील सर्व PDF साफ करा",
+    "components__pdf_merge__button__clear_pdf__tooltip": "खालील सर्व PDF साफ करा",
     "components__pdf_merge__button__add_pdfs__tooltip": "खालील PDF फाइल जोडा"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
     "components__pdf_to_html__button__download": "डाउनलोड करा",
-    "components__pdf_to_html__button__Convert": "दुसरे रूपांतर करा"
+    "components__pdf_to_html__button__convert": "दुसरे रूपांतर करा"
   },
   "features__common": {
     "components__upload_button_drop_title": "येथे ड्रॉप करा"

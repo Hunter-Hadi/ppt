@@ -1,31 +1,31 @@
 export interface IToolsDetailDescriptionInfoProps {
-  i18nChangeObj?: { [key in string]: string };
-  topLeft: string;
-  topRight: string[];
-  middle: {
+  i18nVariables?: { [key in string]: string };
+  topFeatures: string;
+  userExperienceList: string[];
+  functionIntroductionList: {
     iconName: string;
     title: string;
     description: string;
   }[];
-  bottom: {
-    leftIconName: string;
-    rightDescription: {
+  operatingInstructions: {
+    iconName: string;
+    operationSteps: {
       title: string;
-      description: string[];
+      descriptionList: string[];
     };
   };
 }
-const getPdfToImageObj = (type: 'PNG' | 'JPEG') => {
+const getPdfToImageTypeToolDescriptionObject = (type: 'PNG' | 'JPEG') => {
   return {
-    i18nChangeObj: { ['TYPE']: type },
-    topLeft:
+    i18nVariables: { TYPE: type },
+    topFeatures:
       'pages:pdf_tools__detail_description_object__pdf_to_image__top_left',
-    topRight: [
+    userExperienceList: [
       'pages:pdf_tools__detail_description_object__pdf_to_image__top_right_1',
       'pages:pdf_tools__detail_description_object__pdf_to_image__top_right_2',
       'pages:pdf_tools__detail_description_object__pdf_to_image__top_right_3',
     ],
-    middle: [
+    functionIntroductionList: [
       {
         iconName: 'Lightbulb',
         title:
@@ -69,12 +69,12 @@ const getPdfToImageObj = (type: 'PNG' | 'JPEG') => {
           'pages:pdf_tools__detail_description_object__pdf_to_image__middle_6_description',
       },
     ],
-    bottom: {
-      leftIconName: 'HistoryEdu',
-      rightDescription: {
+    operatingInstructions: {
+      iconName: 'HistoryEdu',
+      operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title',
-        description: [
+        descriptionList: [
           'pages:pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1',
           'pages:pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2',
           'pages:pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3',
@@ -84,17 +84,19 @@ const getPdfToImageObj = (type: 'PNG' | 'JPEG') => {
     },
   };
 };
-const getImageToPdfObj = (type: 'PNG' | 'JPEG' | 'HEIC') => {
+const getImageToPdfTypeToolDescriptionObject = (
+  type: 'PNG' | 'JPEG' | 'HEIC',
+) => {
   return {
-    i18nChangeObj: { ['TYPE']: type },
-    topLeft:
+    i18nVariables: { TYPE: type },
+    topFeatures:
       'pages:pdf_tools__detail_description_object__image_to_pdf__top_left',
-    topRight: [
+    userExperienceList: [
       'pages:pdf_tools__detail_description_object__image_to_pdf__top_right_1',
       'pages:pdf_tools__detail_description_object__image_to_pdf__top_right_2',
       'pages:pdf_tools__detail_description_object__image_to_pdf__top_right_3',
     ],
-    middle: [
+    functionIntroductionList: [
       {
         iconName: 'Lightbulb',
         title:
@@ -138,12 +140,12 @@ const getImageToPdfObj = (type: 'PNG' | 'JPEG' | 'HEIC') => {
           'pages:pdf_tools__detail_description_object__image_to_pdf__middle_6_description',
       },
     ],
-    bottom: {
-      leftIconName: 'HistoryEdu',
-      rightDescription: {
+    operatingInstructions: {
+      iconName: 'HistoryEdu',
+      operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title',
-        description: [
+        descriptionList: [
           'pages:pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1',
           'pages:pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2',
           'pages:pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3',
@@ -153,17 +155,18 @@ const getImageToPdfObj = (type: 'PNG' | 'JPEG' | 'HEIC') => {
     },
   };
 };
-export const toolsDetailDescriptionObject: {
+export const allPdfToolsDetailDescriptionObject: {
   [key in string]: IToolsDetailDescriptionInfoProps;
 } = {
   'merge-pdf': {
-    topLeft: 'pages:pdf_tools__detail_description_object__merge_pdf__top_left',
-    topRight: [
+    topFeatures:
+      'pages:pdf_tools__detail_description_object__merge_pdf__top_left',
+    userExperienceList: [
       'pages:pdf_tools__detail_description_object__merge_pdf__top_right_1',
       'pages:pdf_tools__detail_description_object__merge_pdf__top_right_2',
       'pages:pdf_tools__detail_description_object__merge_pdf__top_right_3',
     ],
-    middle: [
+    functionIntroductionList: [
       {
         iconName: 'Lightbulb',
         title:
@@ -207,12 +210,12 @@ export const toolsDetailDescriptionObject: {
           'pages:pdf_tools__detail_description_object__merge_pdf__middle_6_description',
       },
     ],
-    bottom: {
-      leftIconName: 'HistoryEdu',
-      rightDescription: {
+    operatingInstructions: {
+      iconName: 'HistoryEdu',
+      operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title',
-        description: [
+        descriptionList: [
           'pages:pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1',
           'pages:pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2',
           'pages:pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3',
@@ -222,13 +225,14 @@ export const toolsDetailDescriptionObject: {
     },
   },
   'split-pdf': {
-    topLeft: 'pages:pdf_tools__detail_description_object__split_pdf__top_left',
-    topRight: [
+    topFeatures:
+      'pages:pdf_tools__detail_description_object__split_pdf__top_left',
+    userExperienceList: [
       'pages:pdf_tools__detail_description_object__split_pdf__top_right_1',
       'pages:pdf_tools__detail_description_object__split_pdf__top_right_2',
       'pages:pdf_tools__detail_description_object__split_pdf__top_right_3',
     ],
-    middle: [
+    functionIntroductionList: [
       {
         iconName: 'Lightbulb',
         title:
@@ -272,12 +276,12 @@ export const toolsDetailDescriptionObject: {
           'pages:pdf_tools__detail_description_object__split_pdf__middle_6_description',
       },
     ],
-    bottom: {
-      leftIconName: 'HistoryEdu',
-      rightDescription: {
+    operatingInstructions: {
+      iconName: 'HistoryEdu',
+      operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__split_pdf__bottom_right_title',
-        description: [
+        descriptionList: [
           'pages:pdf_tools__detail_description_object__split_pdf__bottom_right_description_1',
           'pages:pdf_tools__detail_description_object__split_pdf__bottom_right_description_2',
           'pages:pdf_tools__detail_description_object__split_pdf__bottom_right_description_3',
@@ -285,20 +289,20 @@ export const toolsDetailDescriptionObject: {
       },
     },
   },
-  'pdf-to-png': getPdfToImageObj('PNG'),
-  'pdf-to-jpeg': getPdfToImageObj('JPEG'),
-  'png-to-pdf': getImageToPdfObj('PNG'),
-  'jpeg-to-pdf': getImageToPdfObj('JPEG'),
-  'heic-to-pdf': getImageToPdfObj('HEIC'),
+  'pdf-to-png': getPdfToImageTypeToolDescriptionObject('PNG'),
+  'pdf-to-jpeg': getPdfToImageTypeToolDescriptionObject('JPEG'),
+  'png-to-pdf': getImageToPdfTypeToolDescriptionObject('PNG'),
+  'jpeg-to-pdf': getImageToPdfTypeToolDescriptionObject('JPEG'),
+  'heic-to-pdf': getImageToPdfTypeToolDescriptionObject('HEIC'),
   'pdf-to-html': {
-    topLeft:
+    topFeatures:
       'pages:pdf_tools__detail_description_object__pdf_to_html__top_left',
-    topRight: [
+    userExperienceList: [
       'pages:pdf_tools__detail_description_object__pdf_to_html__top_right_1',
       'pages:pdf_tools__detail_description_object__pdf_to_html__top_right_2',
       'pages:pdf_tools__detail_description_object__pdf_to_html__top_right_3',
     ],
-    middle: [
+    functionIntroductionList: [
       {
         iconName: 'Lightbulb',
         title:
@@ -342,12 +346,12 @@ export const toolsDetailDescriptionObject: {
           'pages:pdf_tools__detail_description_object__pdf_to_html__middle_6_description',
       },
     ],
-    bottom: {
-      leftIconName: 'HistoryEdu',
-      rightDescription: {
+    operatingInstructions: {
+      iconName: 'HistoryEdu',
+      operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title',
-        description: [
+        descriptionList: [
           'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1',
           'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2',
           'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3',
@@ -357,13 +361,14 @@ export const toolsDetailDescriptionObject: {
     },
   },
   'sign-pdf': {
-    topLeft: 'pages:pdf_tools__detail_description_object__sign_pdf__top_left',
-    topRight: [
+    topFeatures:
+      'pages:pdf_tools__detail_description_object__sign_pdf__top_left',
+    userExperienceList: [
       'pages:pdf_tools__detail_description_object__sign_pdf__top_right_1',
       'pages:pdf_tools__detail_description_object__sign_pdf__top_right_2',
       'pages:pdf_tools__detail_description_object__sign_pdf__top_right_3',
     ],
-    middle: [
+    functionIntroductionList: [
       {
         iconName: 'Lightbulb',
         title:
@@ -407,12 +412,12 @@ export const toolsDetailDescriptionObject: {
           'pages:pdf_tools__detail_description_object__sign_pdf__middle_6_description',
       },
     ],
-    bottom: {
-      leftIconName: 'HistoryEdu',
-      rightDescription: {
+    operatingInstructions: {
+      iconName: 'HistoryEdu',
+      operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_title',
-        description: [
+        descriptionList: [
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1',
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2',
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3',

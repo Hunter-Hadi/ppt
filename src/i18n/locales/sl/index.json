@@ -363,7 +363,7 @@
     "tools__index_page__description": "Vsa orodja, ki jih boste potrebovali za večjo produktivnost in pametnejše delo z dokumenti. 100% BREZPLAČNO in brskalniku prijazno za popolno zasebnost.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF v PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF v JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Združi PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Združi PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Razdeli PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG v PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG v PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Izvozi vsako stran PDF-a kot sliko PNG ali izvleči posamezne slike iz PDF-ov v PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Izvozi vsako stran PDF-a kot sliko JPEG ali izvleči posamezne slike iz PDF-ov v JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Izvozi vsako stran kot sliko JPEG ali izvleči posamezne slike iz PDF-ov v JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Združi poljubno število PDF-ov v izbranem vrstnem redu v en sam PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Združi več datotek PDF v eno z le nekaj kliki",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Združi poljubno število PDF-ov v izbranem vrstnem redu v en sam PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Združi več datotek PDF v eno z le nekaj kliki",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Razdeli strani PDF-a v več PDF-jev ali preprosto odstrani strani iz obstoječega",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Razdeli strani PDF-a v več PDF-jev ali preprosto odstrani strani iz obstoječega",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Spletno pretvori PNG slike v PDF",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Pretvorite strani PDF-ja v slike JPEG ali izvlecite posamezne slike iz vaših PDF datotek na spletu brezplačno. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__pdf_to_png__title": "PDF v PNG - Pretvori katerikoli PDF v slike na spletu brezplačno | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Pretvorite strani PDF-ja v slike PNG ali izvlecite posamezne slike iz vaših PDF datotek na spletu brezplačno. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
-    "pdf_tools__merge_pdfs__title": "Združi PDF – Združi PDF datoteke na spletu brezplačno | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Združite PDF datoteke in ustvarite en dokument na spletu brezplačno. S pomočjo našega orodja za združevanje PDF-jev je združevanje PDF-jev lažje kot kdajkoli prej. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
+    "pdf_tools__merge_pdf__title": "Združi PDF – Združi PDF datoteke na spletu brezplačno | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Združite PDF datoteke in ustvarite en dokument na spletu brezplačno. S pomočjo našega orodja za združevanje PDF-jev je združevanje PDF-jev lažje kot kdajkoli prej. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__split_pdf__title": "Razdeli PDF – Brezplačno ločite strani v PDF datoteki | MaxAI.me",
     "pdf_tools__split_pdf__description": "Enostavno ločite strani ali odstranite strani v vašem PDF dokumentu brezplačno. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav.",
     "pdf_tools__png_to_pdf__title": "PNG v PDF - Pretvori PNG slike v PDF na spletu brezplačno | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Počisti PDF-je",
     "components__pdf_merge__confirm_merge": "Potrdi združevanje",
     "components__pdf_merge__button__download__tooltip": "Združi in prenesi PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Počisti vse spodnje PDF-je",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Počisti vse spodnje PDF-je",
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteko spodaj"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__pdf_to_html__button__download": "Prenesi",
-    "components__pdf_to_html__button__Convert": "Pretvori drugo"
+    "components__pdf_to_html__button__convert": "Pretvori drugo"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Osnovne funkcije:",

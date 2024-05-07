@@ -363,7 +363,7 @@
     "tools__index_page__description": "ሁሉንም የሚጠቀሙ እና የሚሞቱ ተጠቃሚዎች እንዲሁም የሚሸጡ ስልክ ፕሮግራሞችን ለመስማት የሚፈልጉትን በአካውንት ባህሪ በማስተካከል በማሳየት በተለያዩ ግለሰቦች ላይ በመሳሪያዎች ላይ 100% ነፃ እና በባህሪ የሚገኙ መታወቂያዎች ለመስማት ይችላሉ።",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF ወደ PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF ወደ JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "ፕድፊ አይዲን ማቀናበሪያ",
+    "tools__index_page__constant_obj__merge_pdf__title": "ፕድፊ አይዲን ማቀናበሪያ",
     "tools__index_page__constant_obj__split_a_pdf__title": "ፕድስ አርትስን መሸጥ",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG ለ PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG ለ PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "የነጻ ፕድስ የሚሰራ በ PNG ምስል ወይም የፕድስ እንዴት የሚሰራ የሚሰሩ ምስሎችን ወደ PNG ምስል ይዘት",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "የነጻ ፕድስ የሚሰራ በ JPEG ምስል ወይም የፕድስ እንዴት የሚሰራ የሚሰሩ ምስሎችን ወደ JPEG ምስል ይዘት",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "የነጻ ፕድስ የሚሰራ በ JPEG ምስል ወይም የፕድስ እንዴት የሚሰራ የሚሰሩ ምስሎችን ወደ JPEG ምስል ይዘት",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "የሚሰሩ የማንቂያ ቁጥሮችን በአማካኝነት ወደ አንድ ፕድስ ይቀይሩ",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "የሚሰሩ የማንቂያ ፋይሎችን በጥቂት አይነት አንድ ፕድስ ይቀይሩ",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "የሚሰሩ የማንቂያ ቁጥሮችን በአማካኝነት ወደ አንድ ፕድስ ይቀይሩ",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "የሚሰሩ የማንቂያ ፋይሎችን በጥቂት አይነት አንድ ፕድስ ይቀይሩ",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "የማንቂያ ገጽዎን በአንድ ፕድስ ወይም በአንድ ፕድስ ማሳያ የሚሰራ የሚሰሩ ገጽዎችን ይቀይሩ",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "የማንቂያ ገጽዎን በአንድ ፕድስ ወይም በአንድ ፕድስ ማሳያ የሚሰራ የሚሰሩ ገጽዎችን ይቀይሩ",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "የ PNG ምስልን ወደ PDF ማስተላለፊያ",
@@ -753,8 +753,8 @@
     "pdf_tools__pdf_to_jpeg__description": "የሚለውን PDF ገጽዎን ለ JPEG ምስሎች ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ ይቀይሩ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
     "pdf_tools__pdf_to_png__title": "PDF ለ PNG - የሚለውን PDF ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "የሚለውን PDF ገጽዎን ለ PNG ምስሎች ወይም የሚለውን ምስሎችን በነፃ እንዴት ማስተላለፊያ ይቀይሩ። የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
-    "pdf_tools__merge_pdfs__title": "PDF ለማሰናጃ - የሚለውን PDF ፋይሎችን በነፃ እንዴት ማሰናጃ | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "የሚለውን PDF ፋይሎችን ለመሰናጃ የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
+    "pdf_tools__merge_pdf__title": "PDF ለማሰናጃ - የሚለውን PDF ፋይሎችን በነፃ እንዴት ማሰናጃ | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "የሚለውን PDF ፋይሎችን ለመሰናጃ የሚለውን የግለጽ መለያዎችንና የፋይል መጠቀም አይሁኑም።",
     "pdf_tools__split_pdf__title": "ፕድን ማቅረብ - በነፃ እናደርጋለን | MaxAI.me",
     "pdf_tools__split_pdf__description": "በነፃ በመቀረብ የሚታይ የፕድን ገጽዎን ያስቀምጡ ወይም ጥሩ ገጽዎን ያስወጡ በነፃ እናደርጋለን። የውሃብት, የፋይል መጠንቀቂያዎች, የፋይል መጠቀም ወይም የምርጫ ማስተላለፊያ የለም።",
     "pdf_tools__png_to_pdf__title": "PNG ለ PDF - የPNG ምስሎችን በነፃ ለPDF በነፃ | MaxAI.me",
@@ -828,7 +828,7 @@
     "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
     "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
     "components__pdf_merge__button__download__tooltip": "አውርድ እና የPDF አጽዳፊዎች",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "ሁሉንም PDF ወደፊት አጽዳ",
+    "components__pdf_merge__button__clear_pdf__tooltip": "ሁሉንም PDF ወደፊት አጽዳ",
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF ፋይል ወደፊት ጨምር"
   },
   "functionality__pdf_split": {
@@ -870,7 +870,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "እባክዎ የተጠቀሱትን PDF ፋይል አስገቡ",
     "components__pdf_to_html__button__download": "ደርብ ይሙሉ",
-    "components__pdf_to_html__button__Convert": "ሌላውን አስራልት"
+    "components__pdf_to_html__button__convert": "ሌላውን አስራልት"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "የሚከተለው ጥቅሞች:",

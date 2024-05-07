@@ -5,7 +5,7 @@ interface ISwitchWithType {
 }
 /**
  * 内容选择器功能
-  * 用于列表项的单选择功能/全选切换功能/识别是否全选
+ * 用于列表项的单选择功能/全选切换功能/识别是否全选
  *
  * @returns {Object} 包含以下属性的对象：
  * - isSelectAll (boolean): 是否全选。
@@ -14,7 +14,9 @@ interface ISwitchWithType {
  *   接受一个参数 id，表示要切换选择的项的 id。
  * - onSwitchAllSelect (function): 全选切换的函数。
  */
-const useFunctionalityCommonConvertedContentSelector = <T extends ISwitchWithType>(params: {
+const useFunctionalityCommonConvertedContentSelector = <
+  T extends ISwitchWithType,
+>(params: {
   list: (T & ISwitchWithType)[];
   setList: (method: (prev: T[]) => T[]) => void;
 }) => {
@@ -33,11 +35,12 @@ const useFunctionalityCommonConvertedContentSelector = <T extends ISwitchWithTyp
     );
   };
   const onSwitchAllSelect = () => {
-    const newIsSelectAll = !isSelectAll;
-    params.setList((prev) =>
-      prev.map((item) => ({ ...item, isSelect: newIsSelectAll })),
-    );
-    setIsSelectAll(newIsSelectAll);
+    setIsSelectAll((currentIsSelectAll) => {
+      params.setList((prev) =>
+        prev.map((item) => ({ ...item, isSelect: !currentIsSelectAll })),
+      );
+      return !currentIsSelectAll;
+    });
   };
   return {
     isSelectAll,

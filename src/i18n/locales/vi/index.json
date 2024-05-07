@@ -363,7 +363,7 @@
     "tools__index_page__description": "Tất cả các công cụ bạn cần để làm việc hiệu quả hơn và thông minh hơn với tài liệu. 100% MIỄN PHÍ và dựa trên trình duyệt để bảo mật hoàn toàn.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF sang PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF sang JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "Gộp PDF",
+    "tools__index_page__constant_obj__merge_pdf__title": "Gộp PDF",
     "tools__index_page__constant_obj__split_a_pdf__title": "Chia một PDF",
     "tools__index_page__constant_obj__png_to_pdf__title": "Chuyển đổi PNG sang PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "Chuyển đổi JPEG sang PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Xuất mỗi trang PDF thành hình ảnh PNG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Xuất mỗi trang PDF thành hình ảnh JPEG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành JPEG",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Xuất mỗi trang thành JPEG hoặc trích xuất các hình ảnh riêng lẻ từ PDF thành JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Hợp nhất bất kỳ số lượng PDF nào theo thứ tự bạn chọn thành một PDF duy nhất",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Hợp nhất nhiều tệp PDF thành một chỉ với vài cú nhấp chuột",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Hợp nhất bất kỳ số lượng PDF nào theo thứ tự bạn chọn thành một PDF duy nhất",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Hợp nhất nhiều tệp PDF thành một chỉ với vài cú nhấp chuột",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Chia trang PDF thành nhiều PDF hoặc đơn giản là xóa trang khỏi PDF hiện có",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Chia trang PDF thành nhiều PDF hoặc đơn giản là xóa trang khỏi PDF hiện có",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Chuyển đổi hình ảnh PNG thành PDF trực tuyến",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Chuyển đổi các trang PDF thành hình ảnh JPEG hoặc trích xuất từng hình ảnh riêng lẻ từ tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
     "pdf_tools__pdf_to_png__title": "PDF sang PNG - Chuyển đổi PDF thành hình ảnh trực tuyến miễn phí | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Chuyển đổi các trang PDF thành hình ảnh PNG hoặc trích xuất từng hình ảnh riêng lẻ từ tệp PDF của bạn trực tuyến miễn phí. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
-    "pdf_tools__merge_pdfs__title": "Gộp PDF - Kết hợp các tệp PDF trực tuyến miễn phí | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Kết hợp các tệp PDF và tạo một tài liệu duy nhất trực tuyến miễn phí. Với công cụ kết hợp PDF của chúng tôi, việc gộp PDF trở nên dễ dàng hơn bao giờ hết. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "pdf_tools__merge_pdf__title": "Gộp PDF - Kết hợp các tệp PDF trực tuyến miễn phí | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Kết hợp các tệp PDF và tạo một tài liệu duy nhất trực tuyến miễn phí. Với công cụ kết hợp PDF của chúng tôi, việc gộp PDF trở nên dễ dàng hơn bao giờ hết. Không có dấu thủy tinh, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
     "pdf_tools__split_pdf__title": "Chia tách PDF - Tách trang PDF trực tuyến miễn phí | MaxAI.me",
     "pdf_tools__split_pdf__description": "Dễ dàng tách trang hoặc xóa trang trong PDF của bạn trực tuyến miễn phí. Không có dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
     "pdf_tools__png_to_pdf__title": "PNG thành PDF - Chuyển đổi Hình ảnh PNG thành PDF Trực tuyến Miễn phí | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "Xóa PDF",
     "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
     "components__pdf_merge__button__download__tooltip": "Gộp và tải xuống PDF",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Xóa tất cả các PDF bên dưới",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Xóa tất cả các PDF bên dưới",
     "components__pdf_merge__button__add_pdfs__tooltip": "Thêm tệp PDF bên dưới"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
     "components__pdf_to_html__button__download": "Tải xuống",
-    "components__pdf_to_html__button__Convert": "Chuyển đổi khác"
+    "components__pdf_to_html__button__convert": "Chuyển đổi khác"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Tính năng chính:",

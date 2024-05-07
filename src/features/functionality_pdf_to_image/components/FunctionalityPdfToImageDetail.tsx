@@ -6,9 +6,8 @@ import {
   Stack,
   Typography,
 } from '@mui/material';
-import { debounce } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
-import { FC, useEffect, useMemo, useState } from 'react';
+import { FC, useEffect, useMemo, useRef, useState } from 'react';
 
 import {
   FunctionalityCommonButtonListView,
@@ -33,7 +32,7 @@ const FunctionalityPdfToImageDetail: FC<
   IFunctionalityPdfToImageDetailProps
 > = ({ fileData, onRemoveFile, toType }) => {
   const { t } = useTranslation();
-
+  const isReadFile = useRef(false);
   const [showPdfImagesType, setShowPdfImagesType] = useState<
     'pdfPageImages' | 'pdfPageHaveImages'
   >('pdfPageImages'); //显示pdf页面还是页面的图片
@@ -74,15 +73,19 @@ const FunctionalityPdfToImageDetail: FC<
       },
     );
   const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
-  const readPdfToImages = debounce(async (file) => {
-    //debounce 防止useEffect导致的执行两次
+  const readPdfToImages = async (file) => {
+    if (isReadFile.current) {
+      return;
+    }
+    isReadFile.current = true;
     if (file) {
+      console.log('simply readPdfToImages');
       const isReadSuccess = await onReadPdfToImages(file, toType, true);
       if (!isReadSuccess) {
         onRemoveFile && onRemoveFile();
       }
     }
-  }, 200);
+  };
   useEffect(() => {
     readPdfToImages(fileData);
   }, [fileData]);
@@ -116,7 +119,7 @@ const FunctionalityPdfToImageDetail: FC<
           : defaultPdfToImageScale * maxSizeScaleNum,
       );
     } else {
-      onDownloadPdfImagesZip(currentShowImages, toType);
+      onDownloadPdfImagesZip(currentShowImages, toType, fileData);
     }
   };
   const onCancel = () => {
@@ -133,101 +136,113 @@ const FunctionalityPdfToImageDetail: FC<
     : currentDownloaderActionNum;
 
   //按钮配置列表
-  const buttonConfigs: IButtonConfig[] = [
-    {
-      type: 'button',
-      buttonProps: {
-        disabled: isLoading || currentShowImages.length === 0,
-        variant: 'outlined',
-        onClick: onSwitchAllSelect,
-        children: isSelectAll
-          ? t(
-              'functionality__pdf_to_image:components__to_image_detail__deselect_all',
-            )
-          : t(
-              'functionality__pdf_to_image:components__to_image_detail__select_all',
+  const buttonConfigs: IButtonConfig[] = useMemo(
+    () => [
+      {
+        type: 'button',
+        buttonProps: {
+          disabled: isLoading || currentShowImages.length === 0,
+          variant: 'outlined',
+          onClick: onSwitchAllSelect,
+          children: isSelectAll
+            ? t(
+                'functionality__pdf_to_image:components__to_image_detail__deselect_all',
+              )
+            : t(
+                'functionality__pdf_to_image:components__to_image_detail__select_all',
+              ),
+        },
+      },
+      {
+        type: 'button',
+        buttonProps: {
+          tooltip:
+            showPdfImagesType === 'pdfPageImages'
+              ? t(
+                  'functionality__pdf_to_image:components__to_image_detail__button__view_images__tooltip',
+                )
+              : t(
+                  'functionality__pdf_to_image:components__to_image_detail__button__view_pages__tooltip',
+                ),
+          tooltipKey: showPdfImagesType, //防止切换窗口高度变化过大，导致的tooltip位置不对
+          disabled: isLoading,
+          variant: 'outlined',
+          onClick: onSwitchPdfImagesType,
+          children:
+            showPdfImagesType === 'pdfPageImages'
+              ? t(
+                  'functionality__pdf_to_image:components__to_image_detail__view_images',
+                )
+              : t(
+                  'functionality__pdf_to_image:components__to_image_detail__view_pages',
+                ),
+        },
+      },
+      {
+        type: 'button',
+        buttonProps: {
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__remove__tooltip',
+          ),
+          disabled: isLoading,
+          variant: 'outlined',
+          color: 'error',
+          onClick: () => onRemoveFile && onRemoveFile(),
+          children: t(
+            'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
+          ),
+        },
+      },
+      {
+        isShow: !isLoading,
+        type: 'iconButton',
+        iconButtonProps: [
+          {
+            name: 'ControlPointTwoTone',
+            onClick: () => changeScale('enlarge'),
+            tooltip: t(
+              'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
             ),
-      },
-    },
-    {
-      type: 'button',
-      buttonProps: {
-        tooltip:
-          showPdfImagesType === 'pdfPageImages'
-            ? t(
-                'functionality__pdf_to_image:components__to_image_detail__button__view_images__tooltip',
-              )
-            : t(
-                'functionality__pdf_to_image:components__to_image_detail__button__view_pages__tooltip',
-              ),
-        tooltipKey: showPdfImagesType, //防止切换窗口高度变化过大，导致的tooltip位置不对
-        disabled: isLoading,
-        variant: 'outlined',
-        onClick: onSwitchPdfImagesType,
-        children:
-          showPdfImagesType === 'pdfPageImages'
-            ? t(
-                'functionality__pdf_to_image:components__to_image_detail__view_images',
-              )
-            : t(
-                'functionality__pdf_to_image:components__to_image_detail__view_pages',
-              ),
-      },
-    },
-    {
-      type: 'button',
-      buttonProps: {
-        tooltip: t(
-          'functionality__pdf_to_image:components__to_image_detail__button__remove__tooltip',
-        ),
-        disabled: isLoading,
-        variant: 'outlined',
-        color: 'error',
-        onClick: () => onRemoveFile && onRemoveFile(),
-        children: t(
-          'functionality__pdf_to_image:components__to_image_detail__remove_pdf',
-        ),
-      },
-    },
-    {
-      isShow: !isLoading,
-      type: 'iconButton',
-      iconButtonProps: [
-        {
-          name: 'ControlPointTwoTone',
-          onClick: () => changeScale('enlarge'),
-          tooltip: t(
-            'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
-          ),
-        },
-        {
-          name: 'RemoveCircleTwoTone',
-          onClick: () => changeScale('narrow'),
-          tooltip: t(
-            'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
-          ),
-          sx: {
-            marginLeft: 1,
           },
-        },
-      ],
-    },
-    {
-      isShow: isLoading,
-      type: 'button',
-      buttonProps: {
-        tooltip: t(
-          'functionality__pdf_to_image:components__to_image_detail__button__cancel__tooltip',
-        ),
-        variant: 'outlined',
-        color: 'error',
-        onClick: onCancel,
-        children: t(
-          t('functionality__pdf_to_image:components__to_image_detail__cancel'),
-        ),
+          {
+            name: 'RemoveCircleTwoTone',
+            onClick: () => changeScale('narrow'),
+            tooltip: t(
+              'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+            ),
+            sx: {
+              marginLeft: 1,
+            },
+          },
+        ],
       },
-    },
-  ];
+      {
+        isShow: isLoading,
+        type: 'button',
+        buttonProps: {
+          tooltip: t(
+            'functionality__pdf_to_image:components__to_image_detail__button__cancel__tooltip',
+          ),
+          variant: 'outlined',
+          color: 'error',
+          onClick: onCancel,
+          children: t(
+            t(
+              'functionality__pdf_to_image:components__to_image_detail__cancel',
+            ),
+          ),
+        },
+      },
+    ],
+    [
+      isLoading,
+      showPdfImagesType,
+      isSelectAll,
+      currentShowImages.length,
+      t,
+      onRemoveFile,
+    ],
+  );
   const selectImageList = useMemo(
     () => currentShowImages.filter((item) => item.isSelect),
     [currentShowImages],

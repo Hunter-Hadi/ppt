@@ -12,7 +12,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
 }) => {
   const { t } = useTranslation();
   const getTranslation = (key: string) => {
-    return t(key, descriptionInfo.i18nChangeObj);
+    return t(key, descriptionInfo.i18nVariables);
   };
   return (
     <Box
@@ -33,11 +33,11 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
               },
             }}
           >
-            {getTranslation(descriptionInfo.topLeft)}
+            {getTranslation(descriptionInfo.topFeatures)}
           </Typography>
         </Grid>
         <Grid item xs={12} sm={5} lg={4}>
-          {descriptionInfo.topRight.map((item, index) => (
+          {descriptionInfo.userExperienceList.map((item, index) => (
             <Stack pb={1} key={index} alignItems='center' direction='row'>
               <ToolsIcon name='CheckCircle' color='success' />
               <Typography
@@ -58,7 +58,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
       </Grid>
       {/* 中间 */}
       <Grid container gap={1} justifyContent='space-between'>
-        {descriptionInfo.middle.map((item, index) => (
+        {descriptionInfo.functionIntroductionList.map((item, index) => (
           <Grid
             item
             xs={12}
@@ -125,7 +125,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
           }}
         >
           <ToolsIcon
-            name={descriptionInfo.bottom.leftIconName}
+            name={descriptionInfo.operatingInstructions.iconName}
             color='primary'
             sx={{ fontSize: 'inherit' }} // 使用Grid级别的font size调整大小
           />
@@ -153,9 +153,11 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
               fontWeight: 700,
             }}
           >
-            {getTranslation(descriptionInfo.bottom.rightDescription.title)}
+            {getTranslation(
+              descriptionInfo.operatingInstructions.operationSteps.title,
+            )}
           </Typography>
-          {descriptionInfo.bottom.rightDescription.description.map(
+          {descriptionInfo.operatingInstructions.operationSteps.descriptionList.map(
             (item, index) => (
               <Typography
                 key={index}

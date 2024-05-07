@@ -363,7 +363,7 @@
     "tools__index_page__description": "Alle tools die je nodig hebt om productiever te zijn en slimmer te werken met documenten. 100% GRATIS en browser-gebaseerd voor volledige privacy.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF naar PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF naar JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDF samenvoegen",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDF samenvoegen",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF splitsen",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG naar PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG naar PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Exporteer elke PDF-pagina als een PNG-afbeelding of extraheren individuele afbeeldingen uit de PDF naar PNG's",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Exporteer elke PDF-pagina als een JPEG-afbeelding of extraheren individuele afbeeldingen uit de PDF naar JPEG's",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Exporteer elke pagina als een JPEG of extraheren individuele afbeeldingen uit de PDF naar JPEG's",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Voeg elk aantal PDF's samen in de door jou gekozen volgorde tot één PDF",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Voeg elk aantal PDF's samen in de door jou gekozen volgorde tot één PDF",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Voeg meerdere PDF-bestanden samen tot één met slechts een paar klikken",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Split de pagina's van een PDF in meerdere PDF's of verwijder eenvoudig pagina's uit een bestaande",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Split de pagina's van een PDF in meerdere PDF's of verwijder eenvoudig pagina's uit een bestaande.",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "Converteer PNG-afbeeldingen naar PDF online",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "Converteer PDF-pagina's naar JPEG-afbeeldingen of haal individuele afbeeldingen uit je PDF-bestanden online en gratis. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
     "pdf_tools__pdf_to_png__title": "PDF naar PNG - Converteer elke PDF naar afbeeldingen online en gratis | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "Converteer PDF-pagina's naar PNG-afbeeldingen of haal individuele afbeeldingen uit je PDF-bestanden online en gratis. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
-    "pdf_tools__merge_pdfs__title": "PDF samenvoegen - Combineer PDF-bestanden online en gratis | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "Combineer PDF-bestanden en maak een enkel document online en gratis. Met onze PDF-combinator is het samenvoegen van PDF's eenvoudiger dan ooit. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "pdf_tools__merge_pdf__title": "PDF samenvoegen - Combineer PDF-bestanden online en gratis | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "Combineer PDF-bestanden en maak een enkel document online en gratis. Met onze PDF-combinator is het samenvoegen van PDF's eenvoudiger dan ooit. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
     "pdf_tools__split_pdf__title": "PDF splitsen - PDF-pagina's online gratis scheiden | MaxAI.me",
     "pdf_tools__split_pdf__description": "Scheid eenvoudig pagina's of verwijder pagina's in uw PDF online gratis. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
     "pdf_tools__png_to_pdf__title": "PNG naar PDF - Converteer PNG-afbeeldingen naar PDF online en gratis | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "PDF's wissen",
     "components__pdf_merge__confirm_merge": "Bevestig samenvoegen",
     "components__pdf_merge__button__download__tooltip": "Samenvoegen en PDF downloaden",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Alle PDF's hieronder wissen",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Alle PDF's hieronder wissen",
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF-bestand hieronder toevoegen"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde bestandstype PDF",
     "components__pdf_to_html__button__download": "Downloaden",
-    "components__pdf_to_html__button__Convert": "Nog een converteren"
+    "components__pdf_to_html__button__convert": "Nog een converteren"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Kernfuncties:",

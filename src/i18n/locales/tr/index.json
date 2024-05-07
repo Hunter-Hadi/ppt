@@ -363,7 +363,7 @@
     "tools__index_page__description": "Daha verimli olmanız ve belgelerle daha akıllı çalışmanız için ihtiyacınız olan tüm araçlar. Tamamen gizlilik için %100 ÜCRETSİZ ve tarayıcı tabanlı.",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF'den PNG'ye",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF'den JPEG'e",
-    "tools__index_page__constant_obj__merge_pdfs__title": "PDF Birleştir",
+    "tools__index_page__constant_obj__merge_pdf__title": "PDF Birleştir",
     "tools__index_page__constant_obj__split_a_pdf__title": "PDF'yi Böl",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG'den PDF'e",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG'ten PDF'e",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "Her PDF sayfasını bir PNG görüntüsü olarak dışa aktarın veya PDF'den bireysel görüntüler çıkarın ve PNG'ye dönüştürün",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "Her PDF sayfasını bir JPEG görüntüsü olarak dışa aktarın veya PDF'den bireysel görüntüler çıkarın ve JPEG'e dönüştürün",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "Her sayfayı bir JPEG olarak dışa aktarın veya PDF'den bireysel görüntüler çıkarın ve JPEG'e dönüştürün",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "Seçtiğiniz sırayla istediğiniz miktarda PDF'yi tek bir PDF'e birleştirin",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "Birkaç tıklama ile birden fazla PDF dosyasını tek bir dosyada birleştirin",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "Seçtiğiniz sırayla istediğiniz miktarda PDF'yi tek bir PDF'e birleştirin",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "Birkaç tıklama ile birden fazla PDF dosyasını tek bir dosyada birleştirin",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "Bir PDF'in sayfalarını birden fazla PDF'ye bölebilir veya mevcut bir PDF'den sayfaları kaldırabilirsiniz",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "Bir PDF'in sayfalarını birden fazla PDF'ye bölebilir veya mevcut bir PDF'den sayfaları kaldırabilirsiniz",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "PNG görüntülerini çevrimiçi olarak PDF'e dönüştürün",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "PDF sayfalarını JPEG resimlerine dönüştürün veya PDF dosyalarınızdan bireysel resimler çıkarın. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
     "pdf_tools__pdf_to_png__title": "PDF'leri Ücretsiz Olarak Resimlere Dönüştür - MaxAI.me",
     "pdf_tools__pdf_to_png__description": "PDF sayfalarını PNG resimlerine dönüştürün veya PDF dosyalarınızdan bireysel resimler çıkarın. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
-    "pdf_tools__merge_pdfs__title": "PDF Birleştir - Ücretsiz Olarak PDF Dosyalarını Birleştirin | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "PDF dosyalarını birleştirin ve ücretsiz olarak tek bir belge oluşturun. PDF birleştiricimizle PDF'leri birleştirmek hiç olmadığı kadar kolay. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
+    "pdf_tools__merge_pdf__title": "PDF Birleştir - Ücretsiz Olarak PDF Dosyalarını Birleştirin | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "PDF dosyalarını birleştirin ve ücretsiz olarak tek bir belge oluşturun. PDF birleştiricimizle PDF'leri birleştirmek hiç olmadığı kadar kolay. Herhangi bir filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
     "pdf_tools__split_pdf__title": "PDF'yi Böl – Ücretsiz Olarak Çevrimiçi PDF Sayfalarını Ayır | MaxAI.me",
     "pdf_tools__split_pdf__description": "PDF'nizdeki sayfaları kolayca ayırın veya kaldırın. Filigran, dosya boyutu sınırları, indirmeler veya kayıt olma gerektirmez.",
     "pdf_tools__png_to_pdf__title": "PNG'den PDF'e - Ücretsiz Olarak PNG Resimleri PDF'e Dönüştür | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "PDF'leri Temizle",
     "components__pdf_merge__confirm_merge": "Birleştirmeyi Onayla",
     "components__pdf_merge__button__download__tooltip": "PDF'leri birleştir ve indir",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "Aşağıdaki tüm PDF'leri temizle",
+    "components__pdf_merge__button__clear_pdf__tooltip": "Aşağıdaki tüm PDF'leri temizle",
     "components__pdf_merge__button__add_pdfs__tooltip": "Aşağıya PDF dosyası ekle"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
     "components__pdf_to_html__button__download": "İndir",
-    "components__pdf_to_html__button__Convert": "Başka bir dönüştür"
+    "components__pdf_to_html__button__convert": "Başka bir dönüştür"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "Temel özellikler:",

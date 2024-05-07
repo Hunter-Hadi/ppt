@@ -363,7 +363,7 @@
     "tools__index_page__description": "দস্তাবেজ দিয়ে আরও উপকারী এবং স্মার্টভাবে কাজ করতে আপনি যে সমস্ত টুলগুলি প্রয়োজন হবে। 100% বিনামূল্যে এবং পূর্ণ গোপনীয়তা সংরক্ষণের জন্য ব্রাউজার ভিত্তিক।",
     "tools__index_page__constant_obj__pdf_to_png__title": "PDF থেকে PNG",
     "tools__index_page__constant_obj__pdf_to_jpeg__title": "PDF থেকে JPEG",
-    "tools__index_page__constant_obj__merge_pdfs__title": "পিডিএফ মার্জ",
+    "tools__index_page__constant_obj__merge_pdf__title": "পিডিএফ মার্জ",
     "tools__index_page__constant_obj__split_a_pdf__title": "একটি PDF ভাঙ্গো",
     "tools__index_page__constant_obj__png_to_pdf__title": "PNG থেকে PDF",
     "tools__index_page__constant_obj__jpeg_to_pdf__title": "JPEG থেকে PDF",
@@ -371,8 +371,8 @@
     "tools__index_page__constant_obj__pdf_to_png__secondary_description": "পিডিএফ পৃষ্ঠাগুলি পিএনজি ইমেজ হিসাবে রপ্তানি করুন বা পিডিএফ থেকে একক চিত্র উত্তোলন করুন",
     "tools__index_page__constant_obj__pdf_to_jpeg__main_description": "পিডিএফ পৃষ্ঠাগুলি জেপিজি ইমেজ হিসাবে রপ্তানি করুন বা পিডিএফ থেকে একক চিত্র উত্তোলন করুন",
     "tools__index_page__constant_obj__pdf_to_jpeg__secondary_description": "পৃষ্ঠাগুলি জেপিজি হিসাবে রপ্তানি করুন বা পিডিএফ থেকে একক চিত্র উত্তোলন করুন",
-    "tools__index_page__constant_obj__merge_pdfs__main_description": "আপনি যে কোন পরিমাণ পিডিএফ মার্জ করুন যেখানে আপনি চান সেই অর্ডারে একটি একক পিডিএফ হিসাবে",
-    "tools__index_page__constant_obj__merge_pdfs__secondary_description": "কয়েকটি পিডিএফ ফাইল একটিতে মার্জ করুন কয়েকটি ক্লিকের মাধ্যমে",
+    "tools__index_page__constant_obj__merge_pdf__main_description": "আপনি যে কোন পরিমাণ পিডিএফ মার্জ করুন যেখানে আপনি চান সেই অর্ডারে একটি একক পিডিএফ হিসাবে",
+    "tools__index_page__constant_obj__merge_pdf__secondary_description": "কয়েকটি পিডিএফ ফাইল একটিতে মার্জ করুন কয়েকটি ক্লিকের মাধ্যমে",
     "tools__index_page__constant_obj__split_a_pdf__main_description": "পিডিএফ পৃষ্ঠাগুলি বিভিন্ন পিডিএফ হিসাবে বিভক্ত করুন বা মাত্র পৃষ্ঠাগুলি সরান",
     "tools__index_page__constant_obj__split_a_pdf__secondary_description": "পিডিএফ পৃষ্ঠাগুলি বিভিন্ন পিডিএফ হিসাবে বিভক্ত করুন বা মাত্র পৃষ্ঠাগুলি সরান।",
     "tools__index_page__constant_obj__png_to_pdf__main_description": "পিএনজি ইমেজগুলি পিডিএফে রূপান্তর করুন অনলাইনে",
@@ -779,8 +779,8 @@
     "pdf_tools__pdf_to_jpeg__description": "ফ্রি অনলাইনে আপনার PDF পৃষ্ঠাগুলি JPEG ছবি বা একক ছবি সহ পরিবর্তন করুন। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
     "pdf_tools__pdf_to_png__title": "PDF থেকে PNG - ফ্রি অনলাইনে যেকোনো PDF ছবি পরিবর্তন করুন | MaxAI.me",
     "pdf_tools__pdf_to_png__description": "ফ্রি অনলাইনে আপনার PDF পৃষ্ঠাগুলি PNG ছবি বা একক ছবি সহ পরিবর্তন করুন। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
-    "pdf_tools__merge_pdfs__title": "PDF মার্জ করুন - ফ্রি অনলাইনে যেকোনো PDF ফাইল একত্রিত করুন | MaxAI.me",
-    "pdf_tools__merge_pdfs__description": "ফ্রি অনলাইনে আপনার PDF ফাইলগুলি মার্জ করে একটি একক ডকুমেন্ট তৈরি করুন। আমাদের PDF মার্জার দিয়ে, PDF মার্জ করা অনেক সহজ। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
+    "pdf_tools__merge_pdf__title": "PDF মার্জ করুন - ফ্রি অনলাইনে যেকোনো PDF ফাইল একত্রিত করুন | MaxAI.me",
+    "pdf_tools__merge_pdf__description": "ফ্রি অনলাইনে আপনার PDF ফাইলগুলি মার্জ করে একটি একক ডকুমেন্ট তৈরি করুন। আমাদের PDF মার্জার দিয়ে, PDF মার্জ করা অনেক সহজ। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
     "pdf_tools__split_pdf__title": "পিডিএফ বিভাজন করুন - মান্যতামূলক অনলাইনে পিডিএফ পৃষ্ঠা আলাদা করুন | MaxAI.me",
     "pdf_tools__split_pdf__description": "সহজেই আপনার পিডিএফ থেকে পৃষ্ঠা আলাদা করুন বা পৃষ্ঠা সরান মান্যতামূলক অনলাইনে। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
     "pdf_tools__png_to_pdf__title": "PNG থেকে PDF - ফ্রি অনলাইনে PNG ইমেজগুলি পরিণত করুন PDF-এ | MaxAI.me",
@@ -856,7 +856,7 @@
     "components__pdf_merge__empty_pdf": "পিডিএফ সাফ করুন",
     "components__pdf_merge__confirm_merge": "মার্জ করতে নিশ্চিত করুন",
     "components__pdf_merge__button__download__tooltip": "একত্রিত করে পিডিএফ ডাউনলোড করুন",
-    "components__pdf_merge__button__clear_pdfs__tooltip": "নীচের সব পিডিএফ মুছুন",
+    "components__pdf_merge__button__clear_pdf__tooltip": "নীচের সব পিডিএফ মুছুন",
     "components__pdf_merge__button__add_pdfs__tooltip": "নীচে পিডিএফ ফাইল যোগ করুন"
   },
   "functionality__pdf_split": {
@@ -898,7 +898,7 @@
   "functionality__pdf_to_html": {
     "components__pdf_to_html__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__pdf_to_html__button__download": "ডাউনলোড করুন",
-    "components__pdf_to_html__button__Convert": "আরেকটি রূপান্তর করুন"
+    "components__pdf_to_html__button__convert": "আরেকটি রূপান্তর করুন"
   },
   "pricing": {
     "better_plan_display__basic__sub_title": "কোর বৈশিষ্ট্যসমূহ:",
