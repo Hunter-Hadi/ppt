@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "İmzanızı çizin veya yükleyin.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "İmzanın boyutunu ve konumunu gerektiği gibi ayarlayın.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "İmzalı PDF'inizi şimdi indirmek için tıklayın, her şey hazır ve güvende.",
-    "tools__index_page__constant_obj__compress_pdf__title": "PDF Sıkıştır",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Metin ve gömülü resimleri tarayıcıda sıkıştırarak PDF boyutunu azaltın",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Keskin çevrimiçi PDF Sıkıştırma aracımızla PDF belgelerinizin boyutunu hızlı bir şekilde azaltın, yüksek kaliteli sonuçlar elde edin ve maksimum güvenlik ve verimlilik sağlayın.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Hızlı PDF sıkıştırma işlemi",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Harici yazılım kurulumu gerekmez",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Son derece güvenli ve gizli - dosyalarınız yerel olarak tarayıcınızda işlenir",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Hızlı ve Verimli Sıkıştırma",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Kaliteyi bozmadan hızlı PDF boyutu azaltma deneyimi yaşayın. Aracımız dosyalarınızı daha hızlı paylaşmak ve minimum depolama kullanımı için optimize eder.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Kaliteyi Koruyun",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Gelişmiş teknolojimiz, PDF'lerinizin görsel bütünlüğünün korunduğundan emin olur, hem resimlerin hem de metnin netliğini ve okunabilirliğini korur.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Geliştirilmiş Güvenlik için Yerel İşleme",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Gizliliğinizi önceliklendiriyoruz. Tüm sıkıştırma işlemi tarayıcınızda gerçekleştirilir, belgeleriniz cihazınızdan çıkmaz.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Evrensel Erişilebilirlik",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Her yerden erişilebilir, çevrimiçi PDF Sıkıştırma aracımız sayesinde herhangi bir kurulum yapmadan dosya boyutlarını azaltabilirsiniz.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Çevrimdışı Yetenek",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Çevrimdışıyken bile sıkıştırma yapın. Sayfayı ön yükleyin ve internet bağlantısı gerektirmeden dosya sıkıştırmaya devam edebilirsiniz.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Özel Sıkıştırma Ayarları",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Sıkıştırma düzeyini belgelerinizin türüne göre özelleştirin, dosya boyutu azaltma ve görsel kalite arasında denge sağlamak için özel ayarlamalar yapın ve her tür belge için en iyi sonuçları elde edin.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF'leri Kolayca Nasıl Sıkıştırabilirsiniz:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDF'nizi çevrimiçi sıkıştırma aracına yükleyin.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Aracımız dosyanızı hızlı bir şekilde işleyerek boyutunu azaltırken kaliteyi korur.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Sıkıştırılmış PDF'yi hemen cihazınıza indirin.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Tercih ettiğiniz PDF okuyucuda açarak sıkıştırılmış PDF'nin kalitesini ve boyutunu kontrol edin."
+    "team_plan__title__description1": "Takımınıza en gelişmiş yapay zeka üretkenlik araçlarını sunun.",
+    "team_plan__title__description2": "Takım planımız üç veya daha fazla üyeden oluşan gruplar için tasarlanmıştır."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Hayır, bu kullanım sınırlamaları doğrudan MaxAI tarafından işletilen GPT-4 gibi modellere özgüdür. Ücretli bir plana sahipseniz ve kendi API anahtarınızı kullanıyorsanız, MaxAI tarafından belirlenen herhangi bir kullanım sınırı olmadan onunla bağlantılı modelleri kullanabilirsiniz. Kullanım sınırları hakkında daha fazla bilgi için lütfen",
     "faq_list__question4__title": "MaxAI.me'yi nerede kullanabilirim?",
     "faq_list__question4__desc": "Herhangi bir Chromium tabanlı tarayıcıda (Chrome ve Edge gibi) herhangi bir web sitesinde MaxAI.me'yi kullanabilirsiniz. Metin yazmak, yazmayı geliştirmek, özetlemek, açıklamak, yazım ve dilbilgisi hatalarını düzeltmek, çevirmek veya yanıtlamak için kullanabilirsiniz.",
-    "faq_list__disclaimer_part1": "Abonelik yaparak otomatik ödemelere kaydoluyorsunuz. \"Planım\" bölümünden Stripe müşteri portalı aracılığıyla aboneliğinizi iptal edebilir veya yönetebilirsiniz. Tüm hizmetler, kaydolduğunuzda onayladığınız şekilde sunulmaktadır. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak hizmete programatik yöntemlerle erişemezsiniz. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara yol açarsa, yasal işlem yapma ve uygun tazminat talep etme hakkını saklı tutarız.",
-    "faq_list__disclaimer_part2": "kaydolmanızla onaylarsınız. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak hizmete programatik yöntemlerle erişemezsiniz. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara neden olursa, yasal işlem yapma ve uygun tazminat talep etme hakkımız saklıdır.",
+    "faq_list__disclaimer_part1": "Abonelik yaparak otomatik ödemelere kaydoluyorsunuz. \"Planım\" bölümünden Stripe müşteri portalı üzerinden aboneliğinizi iptal edebilir veya yönetebilirsiniz. Tüm hizmetler, kaydınızla onayladığınız şekilde sunulmaktadır. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak programatik yöntemlerle erişemezsiniz. Lütfen tüm ödemelerin kesin ve iade edilemez olduğunu bilin. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara yol açarsa, yasal işlem başlatma ve uygun tazminat talep etme hakkını saklı tutarız.",
+    "faq_list__disclaimer_part2": " kaydınızla onaylarsınız. Lütfen bu hizmetin yalnızca insanlar tarafından normal kullanım için olduğunu unutmayın. Hesabı başkalarıyla paylaşamaz veya resmi kullanıcı arayüzünü atlayarak programatik yöntemlerle erişemezsiniz. Lütfen tüm ödemelerin kesin ve iade edilemez olduğunu unutmayın. Hizmet Şartları'nın ihlalleri finansal veya diğer zararlara neden olursa, yasal işlem yapma ve uygun tazminat talep etme hakkını saklı tutarız.",
     "plan_features_table__gemini_tooltip_desc": "Google'ın en yetenekli ve genel modeli. Çoklu işlevsellik için baştan aşağıya inşa edildi. Gemini on MaxAI şu anda beta aşamasında olup, yalnızca metin ve kod desteği sağlamaktadır. Yakında resimler, videolar ve sesler için de destek ekleyecektir.",
     "footer__resources": "Kaynaklar",
     "promotion__banner__elite__title__limited_time_offer": "Sınırlı Süreli Teklif",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite Yıllık planında!",
     "promotion__limited_time_offer": "Sınırlı süreli teklif",
     "payment_type_switch__yearly__tip": "Yıllık olarak {{RATIO}}% tasarruf edin",
-    "footer__pdf_tools": "Ücretsiz çevrimiçi PDF araçları"
+    "footer__pdf_tools": "Ücretsiz çevrimiçi PDF araçları",
+    "faq_list__question5__title": "MaxAI takım planları sunuyor mu?",
+    "faq_list__question5__desc__part1": "Evet, MaxAI takım planları sunmaktadır. İlgileniyorsanız,",
+    "faq_list__question5__desc__part2": "Takım planları sayfamızı",
+    "faq_list__question5__desc__part3": "inceleyebilirsiniz."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF'i HTML'e Dönüştür - Ücretsiz Olarak PDF Dosyalarını HTML'e Dönüştürün | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Ücretsiz olarak PDF'i HTML'e dönüştürün. Düzeni koruyun ve resimleri HTML'e dönüştürün. Filigran, dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez.",
     "pdf_tools__sign_pdf__title": "PDF İmzalama - Ücretsiz Olarak Yerel Cihazlara Dijital İmza Ekleme | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Ücretsiz olarak dijital imzaları PDF dosyalarına kolayca ekleyin ve yerel cihazlarda güvenli bir şekilde saklayın, maksimum gizlilik ve güvenlik sağlayın. Filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez.",
-    "pdf_tools__compress_pdf__title": "PDF Sıkıştırma - Çevrimiçi PDF Boyutu Azaltma | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Hızlı ve güvenli performans için PDF dosyalarını tarayıcıda sıkıştırın. Filigran, dosya boyutu sınırı, indirme veya kayıt gerektirmez."
+    "pdf_tools__sign_pdf__description": "Ücretsiz olarak dijital imzaları PDF dosyalarına kolayca ekleyin ve yerel cihazlarda güvenli bir şekilde saklayın, maksimum gizlilik ve güvenlik sağlayın. Filigran, dosya boyutu sınırlaması, indirme veya kayıt gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Elit profesyoneller için en iyisi",
     "plan_button__save_with_yearly_plan": "Yıllık planla {{PRICE}} tasarruf edin",
     "plan_button__free_status__start_for_free": "Ücretsiz başlayın",
-    "better_plan_display__everything_in_plan_plus": "{{PLAN}} dahil her şey artı:"
+    "better_plan_display__everything_in_plan_plus": "{{PLAN}} dahil her şey artı:",
+    "features__gmail_instant_reply": "Gmail anında yanıt",
+    "features__outlook_instant_reply": "Outlook anında yanıt",
+    "features__facebook_instant_reply": "Facebook anında yanıt",
+    "features__linkedin_instant_reply": "LinkedIn anında yanıt",
+    "features__xtwitter_instant_reply": "X/Twitter anında yanıt",
+    "features__YouTube_instant_reply": "YouTube anında yanıt",
+    "features__instagram_instant_reply": "Instagram anında yanıt",
+    "features__reddit_instant_reply": "Reddit anında yanıt",
+    "features__whatsapp_instant_reply": "WhatsApp anında yanıt",
+    "features__discord_instant_reply": "Discord anında yanıt",
+    "features__telegram_instant_reply": "Telegram anında yanıt",
+    "features__messenger_instant_reply": "Messenger anında yanıt",
+    "features__slack_instant_reply": "Slack anında yanıt",
+    "features__summarize_ask_pdf": "Özetle ve PDF olarak sor",
+    "features__summarize_ask_youTube_video": "Özetle ve YouTube videosu olarak sor",
+    "features__summarize_ask_email": "Özetle ve e-posta olarak sor",
+    "features__summarize_ask_any_webpage": "Özetle ve herhangi bir web sayfası olarak sor",
+    "payment_info__team__per_user__desc": "kullanıcı başına"
   },
   "features__common": {
     "components__upload_button_drop_title": "Buraya bırakın"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF İmzala Ana Sayfa",
     "components__sign_pdf__icon__sign": "İmzala",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Bir şey yazın…"
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Düşük",
-    "components__compress_pdf__main__compress_basic_grade_title": "Temel",
-    "components__compress_pdf__main__compress_basic_grade_description": "Orta dosya boyutu, standart çözünürlük",
-    "components__compress_pdf__main__compress_strong_grade_title": "Güçlü",
-    "components__compress_pdf__main__compress_strong_grade_description": "Küçük dosya boyutu, düşük çözünürlük",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
-    "components__compress_pdf__main__compress_download": "Sıkıştır ve İndir",
-    "components__compress_pdf__main__choose_another_file": "Başka bir dosya seç",
-    "components__compress_pdf__main__current_pdf_size": "PDF mevcut boyutu",
-    "components__compress_pdf__main__original_pdf_size": "orijinal boyut",
-    "components__compress_pdf__main__different_pdf_size": "Öncekinden farklı {{DiFF_NUMBER}}% daha küçük!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimum dosya boyutu, daha yüksek çözünürlük",
-    "components__compress_pdf__main__compress_error": "Sıkıştırma başarısız oldu, lütfen PDF dosyasının şifreli veya anormal olup olmadığını kontrol edin!"
   }
 }

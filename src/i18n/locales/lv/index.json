@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Zīmējiet vai augšupielādējiet savu parakstu.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pielāgojiet paraksta izmēru un pozīciju pēc vajadzības.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Noklikšķiniet, lai lejupielādētu jūsu parakstīto PDF, viss ir gatavs un drošs.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Saspiež PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Samazini PDF izmēru, saspiežot tekstu un iegultās attēlus caur vietējo pārlūku",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Ātri samazini savu PDF dokumentu izmēru ar mūsu jaunākās paaudzes tiešsaistes PDF saspiešanas rīku, nodrošinot augstas kvalitātes rezultātus maksimālai drošībai un efektivitātei.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Ātra PDF saspiešanas process",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nav nepieciešama ārēja programmatūras instalācija",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Augsta drošība un konfidencialitāte - tavi faili tiek apstrādāti lokāli tavā pārlūkprogrammā",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Ātra un efektīva saspiešana",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Izbaudi ātru PDF izmēra samazināšanu, neupurējot kvalitāti. Mūsu rīks optimizē tavus failus, lai tos varētu ātrāk koplietot un minimāli izmantot krātuvi.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Saglabā kvalitāti",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Mūsu augstas tehnoloģijas nodrošina, ka taviem PDF ir saglabāta vizuālā integritāte, saglabājot gan attēlu, gan teksta skaidrību un lasāmību.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokāla apstrāde, lai uzlabotu drošību",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Mēs dodam priekšroku tavai privātumam. Visa saspiešanas process tiek veikts tavā pārlūkprogrammā, nodrošinot, ka tavas ​​dokumenti neatstāj tavu ierīci.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Vispārēja pieejamība",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Pieejams no jebkuras vietas, mūsu tiešsaistes PDF saspiešanas rīks ļauj samazināt failu izmērus jebkurā ierīcē bez jebkādām instalācijām.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Bezsaistes iespējas",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Iespējo saspiešanu pat tad, ja esi bezsaistē. Ielādējiet lapu iepriekš un varēsi turpināt faila saspiešanu bez interneta savienojuma.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Pielāgota saspiešanas iestatījumi",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Pielāgo saspiešanas līmeni saviem konkrētajiem vajadzībām, ļaujot pielāgot izmaiņas starp faila izmēra samazināšanu un vizuālo kvalitāti, nodrošinot optimālus rezultātus katram dokumenta veidam.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kā viegli saspiest PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Augšupielādē savu PDF uz tiešsaistes saspiešanas rīku.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Rīks ātri apstrādā tavu failu, samazinot tā izmēru, saglabājot kvalitāti.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Lejupielādē saspiesto PDF uz savu ierīci tūlīt pēc saspiešanas.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Pārbaudi saspiestā PDF kvalitāti un izmēru, atverot to ar tavu izvēlēto PDF lasītāju."
+    "team_plan__title__description1": "Nodrošiniet savai komandai vismodernākās AI produktivitātes rīkus.",
+    "team_plan__title__description2": "Mūsu komandas plāns ir izstrādāts grupām, kas sastāv no trīs vai vairāk dalībniekiem."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Nē, šie lietojuma ierobežojumi attiecas tikai uz modeļiem, piemēram, GPT-4, kas tiek tieši darbināti ar MaxAI. Ja esat maksas plānā un izmantojat savu API atslēgu, varat izmantot jebkurus ar to saistītos modeļus bez jebkādiem lietojuma ierobežojumiem, ko noteic MaxAI. Plašākai informācijai par lietojuma ierobežojumiem lūdzu, apmeklējiet mūsu",
     "faq_list__question4__title": "Kur varu izmantot MaxAI.me?",
     "faq_list__question4__desc": "Jūs varat izmantot MaxAI.me jebkurā tīmekļa vietnē jebkurā Chromium pamatotā pārlūkprogrammā (piemēram, Chrome un Edge), lai sastādītu, uzlabotu rakstīšanu, apkopotu, skaidrotu, labotu pareizrakstību un gramatiku, tulkojiet vai atbildiet uz jebkuru tekstu.",
-    "faq_list__disclaimer_part1": "Abonējot, jūs piesakāties automātiskajiem maksājumiem. Atceliet vai pārvaldiet abonementu caur Stripe klienta portālu sadaļā \"Mans plāns\". Visas pakalpojumu sniedz atbilstoši ",
-    "faq_list__disclaimer_part2": " ar kuru jūs piekrītat reģistrēšanās laikā. Lūdzu, ņemiet vērā, ka šis pakalpojums ir paredzēts tikai cilvēkiem un normālai lietošanai. Jūs nedrīkstat dalīties kontā ar citiem cilvēkiem vai izmantot programmēšanas metodes, lai piekļūtu pakalpojumam, apietot oficiālo lietotāja saskarni. Ja noteikumu pārkāpumi rezultē finansiālās vai citās zaudējumos, mēs paturam tiesības uzsākt juridiskus pasākumus un prasīt atbilstošu kompensāciju.",
+    "faq_list__disclaimer_part1": "Abonējot, jūs piesakāties automātiskajiem maksājumiem. Atceliet vai pārvaldiet abonementu caur Stripe klienta portālu sadaļā \"Mans plāns\". Visas pakalpojumu sniedz saskaņā ar ",
+    "faq_list__disclaimer_part2": " ar kuru jūs piekrītat reģistrēšanās laikā. Lūdzu, ņemiet vērā, ka šis pakalpojums ir paredzēts tikai cilvēkiem un normālai lietošanai. Jūs nedrīkstat dalīties kontā ar citiem cilvēkiem vai izmantot programmēšanas metodes, lai piekļūtu pakalpojumam, apietot oficiālo lietotāja saskarni. Lūdzu, ņemiet vērā, ka visi maksājumi ir galīgi un nav atmaksājami. Ja Pakalpojuma lietošanas noteikumu pārkāpumi rezultē finansiālos vai citos zaudējumos, mēs paturam tiesības uzsākt juridiskus pasākumus un prasīt atbilstošu kompensāciju.",
     "plan_features_table__gemini_tooltip_desc": "Google visvairāk spējīgais un vispārīgākais modelis. Izveidots no nulles multimodalitātei. Gemini uz MaxAI pašlaik ir beta fāzē, atbalstot tikai tekstu un kodu, drīzumā tiks pievienots atbalsts attēliem, video un audio.",
     "footer__resources": "Resursi",
     "promotion__banner__elite__title__limited_time_offer": "Ierobežots laika piedāvājums",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite gadu plānā!",
     "promotion__limited_time_offer": "Ierobežota laika piedāvājums",
     "payment_type_switch__yearly__tip": "Ietaupi līdz {{RATIO}}%",
-    "footer__pdf_tools": "Bezmaksas tiešsaistes PDF rīki"
+    "footer__pdf_tools": "Bezmaksas tiešsaistes PDF rīki",
+    "faq_list__question5__title": "Vai MaxAI piedāvā komandu plānus?",
+    "faq_list__question5__desc__part1": "Jā, MaxAI piedāvā komandu plānus. Ja jums tas interesē, varat apskatīt mūsu",
+    "faq_list__question5__desc__part2": "Komandu plānu lapu",
+    "faq_list__question5__desc__part3": "lai iegūtu vairāk informācijas."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF uz HTML - Konvertējiet PDF failus uz HTML tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Konvertējiet PDF uz HTML tiešsaistē bez maksas. Uzturiet izkārtojumu un konvertējiet attēlus uz HTML. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
     "pdf_tools__sign_pdf__title": "PDF parakstīšana - Digitālā paraksta pievienošana PDF failiem lokāli bez maksas | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Viegli pievienojiet digitālos parakstus PDF failiem bez maksas un droši uz vietējām ierīcēm, nodrošinot maksimālu privātumu un drošību. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības.",
-    "pdf_tools__compress_pdf__title": "Saspiež PDF - Tiešsaistes PDF izmēra samazināšana | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Saspiest PDF failus vietējā pārlūkprogrammā, lai nodrošinātu ātru un drošu veiktspēju. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības."
+    "pdf_tools__sign_pdf__description": "Viegli pievienojiet digitālos parakstus PDF failiem bez maksas un droši uz vietējām ierīcēm, nodrošinot maksimālu privātumu un drošību. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Vislabāk piemērots elitāriem profesionāļiem",
     "plan_button__save_with_yearly_plan": "Ietaupiet {{PRICE}} ar ikgadēju plānu",
     "plan_button__free_status__start_for_free": "Sāciet bez maksas",
-    "better_plan_display__everything_in_plan_plus": "Viss, kas ir {{PLAN}}, un vēl:"
+    "better_plan_display__everything_in_plan_plus": "Viss, kas ir {{PLAN}}, un vēl:",
+    "features__gmail_instant_reply": "Gmail ātra atbilde",
+    "features__outlook_instant_reply": "Outlook ātra atbilde",
+    "features__facebook_instant_reply": "Facebook ātra atbilde",
+    "features__linkedin_instant_reply": "LinkedIn ātra atbilde",
+    "features__xtwitter_instant_reply": "X/Twitter ātra atbilde",
+    "features__YouTube_instant_reply": "YouTube ātra atbilde",
+    "features__instagram_instant_reply": "Instagram ātra atbilde",
+    "features__reddit_instant_reply": "Reddit ātra atbilde",
+    "features__whatsapp_instant_reply": "WhatsApp ātra atbilde",
+    "features__discord_instant_reply": "Discord ātra atbilde",
+    "features__telegram_instant_reply": "Telegram ātra atbilde",
+    "features__messenger_instant_reply": "Messenger ātra atbilde",
+    "features__slack_instant_reply": "Slack ātra atbilde",
+    "features__summarize_ask_pdf": "Apkopot un jautāt PDF",
+    "features__summarize_ask_youTube_video": "Apkopot un jautāt YouTube video",
+    "features__summarize_ask_email": "Apkopot un jautāt e-pastu",
+    "features__summarize_ask_any_webpage": "Apkopot un jautāt jebkuru tīmekļa lapu",
+    "payment_info__team__per_user__desc": "par lietotāju"
   },
   "features__common": {
     "components__upload_button_drop_title": "Nometiet šeit"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Paraksta PDF sākumlapa",
     "components__sign_pdf__icon__sign": "Parakstīt",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ieraksti kaut ko..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Zems",
-    "components__compress_pdf__main__compress_basic_grade_title": "Pamata",
-    "components__compress_pdf__main__compress_basic_grade_description": "Vidējs faila izmērs, standarta izšķirtspēja",
-    "components__compress_pdf__main__compress_strong_grade_title": "Spēcīgs",
-    "components__compress_pdf__main__compress_strong_grade_description": "Mazs faila izmērs, zemāka izšķirtspēja",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Lūdzu, augšupielādē norādīto PDF faila tipu",
-    "components__compress_pdf__main__compress_download": "Saspiest un lejupielādēt",
-    "components__compress_pdf__main__choose_another_file": "Izvēlies citu failu",
-    "components__compress_pdf__main__current_pdf_size": "Pašreizējais PDF izmērs",
-    "components__compress_pdf__main__original_pdf_size": "oriģinālais izmērs",
-    "components__compress_pdf__main__different_pdf_size": "Atšķirīgs no iepriekšējā, {{DiFF_NUMBER}}% mazāks!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimālais faila izmērs, Augstāka izšķirtspēja",
-    "components__compress_pdf__main__compress_error": "Saspiešanas kļūda, lūdzu, pārbaudiet, vai PDF fails ir šifrēts vai neregulārs!"
   }
 }

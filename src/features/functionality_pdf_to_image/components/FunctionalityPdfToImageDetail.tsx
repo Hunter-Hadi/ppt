@@ -234,7 +234,14 @@ const FunctionalityPdfToImageDetail: FC<
         },
       },
     ],
-    [isLoading, showPdfImagesType, isSelectAll],
+    [
+      isLoading,
+      showPdfImagesType,
+      isSelectAll,
+      currentShowImages.length,
+      t,
+      onRemoveFile,
+    ],
   );
   const selectImageList = useMemo(
     () => currentShowImages.filter((item) => item.isSelect),

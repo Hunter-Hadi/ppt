@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Disegna o carica la tua firma.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Regola la dimensione e la posizione della firma come desiderato.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Fai clic per scaricare il tuo PDF firmato ora, tutto è pronto e sicuro.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Comprimi PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Riduci le dimensioni del PDF comprimendo il testo e le immagini incorporate tramite un browser locale",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Riduci rapidamente le dimensioni dei tuoi documenti PDF con il nostro innovativo strumento di compressione PDF online, garantendo risultati di alta qualità con massima sicurezza ed efficienza.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Processo di compressione PDF rapido",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nessuna installazione di software esterno necessaria",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Altamente sicuro e confidenziale: i tuoi file vengono elaborati localmente nel tuo browser",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Compressione Veloce ed Efficiente",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Sperimenta una riduzione rapida delle dimensioni dei file PDF senza compromettere la qualità. Il nostro strumento ottimizza i tuoi file per una condivisione più veloce e un utilizzo minimo dello spazio di archiviazione.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Mantieni la Qualità",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "La nostra tecnologia avanzata garantisce che l'integrità visiva dei tuoi PDF venga preservata, mantenendo la chiarezza e la leggibilità sia delle immagini che del testo.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Elaborazione Locale per una Sicurezza Migliorata",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Diamo priorità alla tua privacy. L'intero processo di compressione viene eseguito nel tuo browser, garantendo che i tuoi documenti non lascino il tuo dispositivo.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Accessibilità Universale",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Accessibile ovunque, il nostro strumento di compressione PDF online ti consente di ridurre le dimensioni dei file su qualsiasi dispositivo senza bisogno di alcuna installazione.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Capacità Offline",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Abilita la compressione anche quando sei offline. Carica in anticipo la pagina e potrai procedere con la compressione dei file senza bisogno di una connessione internet.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Impostazioni di Compressione Personalizzate",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Personalizza il livello di compressione in base alle tue esigenze specifiche, consentendo regolazioni personalizzate per bilanciare la riduzione delle dimensioni del file e la qualità visiva, garantendo risultati ottimali per ogni tipo di documento.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Come Comprimere Facilmente i PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Carica il tuo PDF nello strumento di compressione online.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Lo strumento elabora rapidamente il tuo file, riducendone le dimensioni mantenendo la qualità.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Scarica subito il PDF compresso sul tuo dispositivo dopo la compressione.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Verifica la qualità e le dimensioni del PDF compresso aprendolo sul tuo lettore PDF preferito."
+    "team_plan__title__description1": "Offri al tuo team gli strumenti di produttività AI più avanzati.",
+    "team_plan__title__description2": "Il nostro piano per team è progettato per gruppi di tre o più membri."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts in un clic",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "Dove posso utilizzare MaxAI.me?",
     "faq_list__question4__desc": "Puoi utilizzare MaxAI.me su qualsiasi sito web su qualsiasi browser basato su Chromium (come Chrome e Edge) per comporre, migliorare la scrittura, riassumere, spiegare, correggere errori di ortografia e grammatica, tradurre o rispondere a qualsiasi testo.",
     "faq_list__disclaimer_part1": "Iscrivendoti, ti stai iscrivendo ai pagamenti automatici. Annulla o gestisci la tua iscrizione tramite il portale clienti di Stripe da \"Il mio piano\". Tutti i servizi vengono forniti in base ai ",
-    "faq_list__disclaimer_part2": " che confermi con la tua registrazione. Si prega di notare che questo servizio è solo per uso umano normale. Non puoi condividere l'account con altre persone o utilizzare metodi programmatici per accedere al servizio, bypassando l'interfaccia utente ufficiale. Nel caso in cui violazioni dei Termini di servizio comportino danni finanziari o altri, ci riserviamo il diritto di intraprendere azioni legali e richiedere un'adeguata compensazione.",
+    "faq_list__disclaimer_part2": " che confermi con la tua registrazione. Si prega di notare che questo servizio è solo per uso umano normale. Non puoi condividere l'account con altre persone o utilizzare metodi programmatici per accedere al servizio, bypassando l'interfaccia utente ufficiale. Si prega di tenere presente che tutti i pagamenti sono definitivi e non rimborsabili. Nel caso in cui violazioni dei Termini di servizio comportino danni finanziari o altri, ci riserviamo il diritto di intraprendere azioni legali e richiedere un'adeguata compensazione.",
     "plan_features_table__gemini_tooltip_desc": "Il modello più capace e generale di Google. Costruito da zero per la multimodalità. Gemini su MaxAI è attualmente nella fase beta, supportando solo testo e codice, presto aggiungerà il supporto per immagini, video e audio.",
     "footer__resources": "Risorse",
     "promotion__banner__elite__title__limited_time_offer": "Offerta a tempo limitato",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "sul piano annuale MaxAI Elite!",
     "promotion__limited_time_offer": "Offerta a tempo limitato",
     "payment_type_switch__yearly__tip": "Risparmia fino al {{RATIO}}%",
-    "footer__pdf_tools": "Strumenti PDF gratuiti online"
+    "footer__pdf_tools": "Strumenti PDF gratuiti online",
+    "faq_list__question5__title": "Offre MaxAI piani di squadra?",
+    "faq_list__question5__desc__part1": "Sì, MaxAI offre piani di squadra. Se sei interessato, puoi dare un'occhiata alla nostra",
+    "faq_list__question5__desc__part2": "pagina dei piani di squadra",
+    "faq_list__question5__desc__part3": "per ulteriori informazioni."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF in HTML - Converti file PDF in HTML online gratuitamente | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Converti PDF in HTML online gratuitamente. Mantieni il layout e converti le immagini in HTML. Nessun watermark, limite di dimensione del file, download o registrazione richiesta.",
     "pdf_tools__sign_pdf__title": "Firma PDF - Aggiunta di firma digitale ai file PDF in locale gratuitamente | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Aggiungi facilmente firme digitali ai file PDF gratuitamente e in modo sicuro sui dispositivi locali, garantendo massima privacy e sicurezza. Nessun watermark, limite di dimensione del file, download o registrazione richiesta.",
-    "pdf_tools__compress_pdf__title": "Comprimi PDF - Riduzione delle Dimensioni dei PDF Online | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Comprimi i file PDF in un browser locale per garantire prestazioni veloci e sicure. Nessun watermark, limite di dimensione del file, download o registrazione richiesti."
+    "pdf_tools__sign_pdf__description": "Aggiungi facilmente firme digitali ai file PDF gratuitamente e in modo sicuro sui dispositivi locali, garantendo massima privacy e sicurezza. Nessun watermark, limite di dimensione del file, download o registrazione richiesta."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Il migliore per i professionisti di élite",
     "plan_button__save_with_yearly_plan": "Risparmia {{PRICE}} con il piano annuale",
     "plan_button__free_status__start_for_free": "Inizia gratuitamente",
-    "better_plan_display__everything_in_plan_plus": "Tutto in {{PLAN}} più:"
+    "better_plan_display__everything_in_plan_plus": "Tutto in {{PLAN}} più:",
+    "features__gmail_instant_reply": "Risposta istantanea Gmail",
+    "features__outlook_instant_reply": "Risposta istantanea Outlook",
+    "features__facebook_instant_reply": "Risposta istantanea Facebook",
+    "features__linkedin_instant_reply": "Risposta istantanea LinkedIn",
+    "features__xtwitter_instant_reply": "Risposta istantanea X/Twitter",
+    "features__YouTube_instant_reply": "Risposta istantanea YouTube",
+    "features__instagram_instant_reply": "Risposta istantanea Instagram",
+    "features__reddit_instant_reply": "Risposta istantanea Reddit",
+    "features__whatsapp_instant_reply": "Risposta istantanea WhatsApp",
+    "features__discord_instant_reply": "Risposta istantanea Discord",
+    "features__telegram_instant_reply": "Risposta istantanea Telegram",
+    "features__messenger_instant_reply": "Risposta istantanea Messenger",
+    "features__slack_instant_reply": "Risposta istantanea Slack",
+    "features__summarize_ask_pdf": "Sintetizza e chiedi PDF",
+    "features__summarize_ask_youTube_video": "Sintetizza e chiedi video YouTube",
+    "features__summarize_ask_email": "Sintetizza e chiedi email",
+    "features__summarize_ask_any_webpage": "Sintetizza e chiedi qualsiasi pagina web",
+    "payment_info__team__per_user__desc": "per utente"
   },
   "features__common": {
     "components__upload_button_drop_title": "Rilascia qui"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principale di firma PDF",
     "components__sign_pdf__icon__sign": "Firma",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Digita qualcosa..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Basso",
-    "components__compress_pdf__main__compress_basic_grade_title": "Base",
-    "components__compress_pdf__main__compress_basic_grade_description": "Dimensione del file media, risoluzione standard",
-    "components__compress_pdf__main__compress_strong_grade_title": "Elevata",
-    "components__compress_pdf__main__compress_strong_grade_description": "Dimensione del file ridotta, risoluzione inferiore",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Carica il tipo di file PDF specificato",
-    "components__compress_pdf__main__compress_download": "Comprimi e Scarica",
-    "components__compress_pdf__main__choose_another_file": "Scegli un altro file",
-    "components__compress_pdf__main__current_pdf_size": "Dimensione PDF attuale",
-    "components__compress_pdf__main__original_pdf_size": "dimensione originale",
-    "components__compress_pdf__main__different_pdf_size": "Diverso da prima, più piccolo del {{DiFF_NUMBER}}%!",
-    "components__compress_pdf__main__compress_low_grade_description": "Dimensione file massima, Risoluzione più alta",
-    "components__compress_pdf__main__compress_error": "Compressione fallita, controlla se il file PDF è criptato o anomalo!"
   }
 }

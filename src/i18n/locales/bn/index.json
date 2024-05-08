@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "আপনার স্বাক্ষর আঁকুন বা আপলোড করুন।",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "স্বাক্ষরের আকার এবং অবস্থান প্রয়োজন মত সংশোধন করুন।",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "এখন আপনার স্বাক্ষরিত PDF ডাউনলোড করতে ক্লিক করুন, সব কিছু প্রস্তুত এবং নিরাপদ।",
-    "tools__index_page__constant_obj__compress_pdf__title": "পিডিএফ সংকোচন",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "লোকাল ব্রাউজারের মাধ্যমে টেক্সট এবং সংযুক্ত ইমেজ সংকোচন করে পিডিএফ আকার হ্রাস করুন",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "আমাদের নবীনতম অনলাইন পিডিএফ সংকোচন টুল দিয়ে আপনার পিডিএফ ডকুমেন্টগুলির আকার দ্রুত হ্রাস করুন, উচ্চ মানের ফলাফল নিশ্চিত করে এবং সুরক্ষা ও দক্ষতার সাথে।",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "দ্রুত পিডিএফ সংকোচন প্রক্রিয়া",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "বাইরের কোনও সফ্টওয়্যার ইনস্টলেশন প্রয়োজন নেই",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "অত্যন্ত নিরাপদ এবং গোপনীয় - আপনার ফাইলগুলি আপনার ব্রাউজারে স্থানীয়ভাবে প্রসেস করা হয়",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "দ্রুত এবং দক্ষ সংকোচন",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "মান কম করে পিডিএফ আকার হ্রাস করুন বিনা মান ক্ষতি করে। আমাদের টুল আপনার ফাইলগুলি দ্রুত ভাগ করে স্টোরেজ ব্যবহার করার জন্য অপটিমাইজ করে।",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "মান বজায় রাখুন",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "আমাদের উন্নত প্রযুক্তি নিশ্চিত করে যে আপনার পিডিএফ এর দৃষ্টিশক্তি অপসারণ করা হয় না, ছবি এবং পাঠের স্পষ্টতা এবং পঠনযোগ্যতা রক্ষা করে।",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "সুরক্ষা বৃদ্ধির জন্য স্থানীয় প্রসেসিং",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "আমরা আপনার গোপনীয়তা প্রাথমিক করি। সম্পূর্ণ সংকোচন প্রক্রিয়াটি আপনার ব্রাউজারের মধ্যে সম্পাদিত হয়, যাতে আপনার ডকুমেন্টগুলি আপনার ডিভাইস ছাড়াই না চলে যায়।",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "সার্বজনীন অবস্থানবিশিষ্টতা",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "যেখানেই থেকেই অ্যাক্সেস করুন, আমাদের অনলাইন পিডিএফ সংকোচন টুল দিয়ে আপনি কোনও ইনস্টলেশন ছাড়াই ফাইলের আকার হ্রাস করতে পারবেন।",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "অফলাইন সুযোগ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "অনলাইন না থাকলেও সংকোচন সক্ষম করুন। পৃষ্ঠাটি প্রিলোড করুন এবং ইন্টারনেট সংযোগ ছাড়াই ফাইল সংকোচনে অগ্রসর হতে পারবেন।",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "কাস্টম সংকোচন সেটিংস",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "ফাইলের আকার হ্রাস করার জন্য সংকোচন স্তরটি আপনার বিশেষ প্রয়োজনীয়তা অনুযায়ী কাস্টমাইজ করুন, যাতে ফাইলের আকার হ্রাস এবং দৃষ্টিশক্তির মধ্যে সমন্বয় করা যায়, যাতে প্রতিটি ডকুমেন্টের জন্য সর্বোত্তম ফলাফল নিশ্চিত হয়।",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "কিভাবে সহজে পিডিএফ সংকোচন করবেন:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "আপনার পিডিএফ টুলে আপলোড করুন।",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "টুলটি দ্রুত আপনার ফাইলটি প্রসেস করে, আকার হ্রাস করে এবং মান বজায় রাখে।",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "সংকোচিত পিডিএফটি সংকোচনের পরবর্তীতে আপনার ডিভাইসে ডাউনলোড করুন।",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "আপনার পছন্দসই পিডিএফ রিডারে খোলে সংকোচিত পিডিএফের মান এবং আকার পরীক্ষা করুন।"
+    "team_plan__title__description1": "আপনার দলকে সর্বাধিক উন্নত এআই উৎপাদনশীলতা টুল দিন।",
+    "team_plan__title__description2": "আমাদের দল পরিকল্পনা তিন বা ততোধিক সদস্যদের জন্য ডিজাইন করা হয়েছে।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "না, এই ব্যবহারের সীমাগুলি ম্যাক্সএআই দ্বারা সরাসরি চালিত GPT-4 এর মতো মডেলগুলিতে প্রয়োজন। যদি আপনি একটি প্রদত্ত পরিকল্পনায় থাকেন এবং নিজস্ব API কী ব্যবহার করছেন, তবে আপনি ম্যাক্সএআই দ্বারা সেট করা কোনও ব্যবহারের সীমা ছাড়াই সেই সাথে যুক্ত মডেলগুলি ব্যবহার করতে পারেন। ব্যবহারের সীমার বিস্তারিত জানতে, আমাদের",
     "faq_list__question4__title": "MaxAI.me কোথায় ব্যবহার করতে পারি?",
     "faq_list__question4__desc": "আপনি যেকোনো ওয়েবসাইটে যেকোনো Chromium-ভিত্তিক ব্রাউজার (যেমন Chrome এবং Edge) এ MaxAI.me ব্যবহার করতে পারেন যাতে আপনি লেখা সংকলন, লেখা উন্নত করতে, সংক্ষেপ করতে, ব্যাখ্যা করতে, বানান ও ব্যাকরণ ঠিক করতে, অনুবাদ করতে বা যেকোনো লেখার উত্তর দেওয়ার জন্য।",
-    "faq_list__disclaimer_part1": "সাবস্ক্রাইব করে আপনি স্বয়ংক্রিয় পেমেন্টে নিবন্ধিত হচ্ছেন। \"আমার পরিকল্পনা\" থেকে আপনার সাবস্ক্রিপশন বাতিল করুন বা পরিচালনা করুন স্ট্রাইপের গ্রাহক পোর্টাল থেকে। সমস্ত সেবা এই ",
-    "faq_list__disclaimer_part2": " অনুযায়ী প্রদান করা হয়। সাইন-আপ করার সময় আপনি যা নিশ্চিত করেন তা অনুযায়ী সমস্ত সেবা প্রদান করা হয়। দয়া করে মনে রাখবেন যে এই সেবা কেবলমাত্র মানুষের, সাধারণ ব্যবহারের জন্য। আপনি অন্যান্য লোকের সাথে অ্যাকাউন্ট ভাগ করতে পারবেন না বা অফিসিয়াল ইউজার ইন্টারফেস অবগতি ছাড়াই পরিষ্কার পদ্ধতিতে সেবা অ্যাক্সেস করতে পারবেন না। যদি সার্ভিসের শর্তাদি লঙ্ঘন আর্থিক বা অন্যান্য ক্ষতির ফলে হয়, তবে আমরা আইনগত ব্যবস্থা নেওয়ার অধিকার রাখি এবং যোগ্য প্রতিপূর্তি চাই।",
+    "faq_list__disclaimer_part1": "সাবস্ক্রাইব করে আপনি স্বয়ংক্রিয় পেমেন্টে নিবন্ধিত হচ্ছেন। \"আমার পরিকল্পনা\" থেকে সাবস্ক্রিপশন বাতিল বা পরিচালনা করুন এবং সমস্ত সেবা প্রদান করা হয় এমনভাবে, যা আপনি সাইন-আপ করার সময় নিশ্চিত করেছেন। দয়া করে মনে রাখবেন যে এই সেবা কেবলমাত্র মানুষের সাধারণ ব্যবহারের জন্য প্রযোজ্য। আপনি অন্যান্য লোকের সাথে অ্যাকাউন্ট ভাগ করতে পারবেন না এবং অফিসিয়াল ইউজার ইন্টারফেস অবগতি ছাড়াই পরিষ্কার ইউজার ইন্টারফেস ব্যবহার করতে পারবেন না। দয়া করে মনে রাখবেন যে সমস্ত পেমেন্ট চূড়ান্ত এবং পরিবর্তনযোগ্য নয়। যদি সার্ভিসের শর্তাদি লঙ্ঘন আর্থিক বা অন্যান্য ক্ষতির ফলে হয়, তবে আমরা আইনগত ব্যবস্থা নেওয়ার অধিকার রাখি এবং যথাযথ প্রতিপূর্তি চাই।",
+    "faq_list__disclaimer_part2": "আপনি সাইন-আপ করার সময় নিশ্চিত করেছেন এবং সমস্ত সেবা প্রদান করা হয় এমনভাবে, যা আপনি সাইন-আপ করার সময় নিশ্চিত করেছেন। দয়া করে মনে রাখবেন যে এই সেবা কেবলমাত্র মানুষের সাধারণ ব্যবহারের জন্য প্রযোজ্য। আপনি অন্যান্য লোকের সাথে অ্যাকাউন্ট ভাগ করতে পারবেন না এবং অফিসিয়াল ইউজার ইন্টারফেস অবগতি ছাড়াই পরিষ্কার ইউজার ইন্টারফেস ব্যবহার করতে পারবেন না। দয়া করে মনে রাখবেন যে সমস্ত পেমেন্ট চূড়ান্ত এবং পরিবর্তনযোগ্য নয়। যদি সার্ভিসের শর্তাদি লঙ্ঘন আর্থিক বা অন্যান্য ক্ষতির ফলে হয়, তবে আমরা আইনগত ব্যবস্থা নেওয়ার অধিকার রাখি এবং যথাযথ প্রতিপূর্তি চাই।",
     "plan_features_table__gemini_tooltip_desc": "গুগলের সবচেয়ে ক্ষমতাশালী এবং সাধারণ মডেল। বহুমুখীয়তা জন্য মূলত নির্মিত। ম্যাক্সএআইতে জেমিনি বর্তমানে বেটা পর্যায়ে আছে, কেবলমাত্র টেক্সট এবং কোড সমর্থন করে, শীঘ্রই চিত্র, ভিডিও এবং অডিও সমর্থন যোগ করবে।",
     "footer__resources": "সম্পদসমূহ",
     "promotion__banner__elite__title__limited_time_offer": "সীমিত সময়ের অফার",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite বার্ষিক পরিকল্পনায়!",
     "promotion__limited_time_offer": "সীমিত সময়ের অফার",
     "payment_type_switch__yearly__tip": "আপনি {{RATIO}}% সংরক্ষণ করতে পারেন",
-    "footer__pdf_tools": "বিনামূল্যে অনলাইন পিডিএফ সরঞ্জাম"
+    "footer__pdf_tools": "বিনামূল্যে অনলাইন পিডিএফ সরঞ্জাম",
+    "faq_list__question5__title": "ম্যাক্সএআই টিম পরিকল্পনা অফার করে?",
+    "faq_list__question5__desc__part1": "হ্যাঁ, ম্যাক্সএআই টিম পরিকল্পনা অফার করে। আপনি যদি আগ্রহী হন, তাহলে আমাদের",
+    "faq_list__question5__desc__part2": "টিম পরিকল্পনা পৃষ্ঠা",
+    "faq_list__question5__desc__part3": "দেখতে পারেন আরও তথ্যের জন্য।"
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF থেকে HTML - ফ্রি অনলাইনে পিডিএফ ফাইলগুলি এইচটিএমএল এ রূপান্তর করুন | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "ফ্রি অনলাইনে পিডিএফ থেকে HTML এ রূপান্তর করুন। লেআউট বজায় রাখুন এবং ইমেজগুলি এইচটিএমএল এ রূপান্তর করুন। কোন ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
     "pdf_tools__sign_pdf__title": "পিডিএফ স্বাক্ষর - নিঃশুল্ক পিডিএফ ফাইলে ডিজিটাল স্বাক্ষর যোগ করা | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "বিনামূল্যে পিডিএফ ফাইলে ডিজিটাল স্বাক্ষর যুক্ত করুন এবং স্থানীয় ডিভাইসে নিরাপদ করুন, যাতে সর্বাধিক গোপনীয়তা এবং নিরাপত্তা নিশ্চিত হয়। কোনও ওয়াটারমার্ক, ফাইল আকার সীমা, ডাউনলোড বা নিবন্ধনের প্রয়োজন নেই।",
-    "pdf_tools__compress_pdf__title": "পিডিএফ সংকোচন - অনলাইন পিডিএফ আকার হ্রাস | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "দ্রুত এবং নিরাপদ কর্মক্ষমতায় পিডিএফ ফাইলগুলি লোকাল ব্রাউজারে সংকোচন করুন। কোনও ওয়াটারমার্ক, ফাইল আকার সীমা, ডাউনলোড বা নিবন্ধনের প্রয়োজন নেই।"
+    "pdf_tools__sign_pdf__description": "বিনামূল্যে পিডিএফ ফাইলে ডিজিটাল স্বাক্ষর যুক্ত করুন এবং স্থানীয় ডিভাইসে নিরাপদ করুন, যাতে সর্বাধিক গোপনীয়তা এবং নিরাপত্তা নিশ্চিত হয়। কোনও ওয়াটারমার্ক, ফাইল আকার সীমা, ডাউনলোড বা নিবন্ধনের প্রয়োজন নেই।"
   },
   "features_landing": {
     "cta_text": "ব্রাউজারে যোগ করুন",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "এলিট পেশাদারদের জন্য সেরা",
     "plan_button__save_with_yearly_plan": "{{PRICE}} বছরের পরিকল্পনায় সংরক্ষণ করুন",
     "plan_button__free_status__start_for_free": "বিনামূল্যে শুরু করুন",
-    "better_plan_display__everything_in_plan_plus": "প্ল্যানে সবকিছুই যেমনটি {{PLAN}} এর মধ্যে:"
+    "better_plan_display__everything_in_plan_plus": "প্ল্যানে সবকিছুই যেমনটি {{PLAN}} এর মধ্যে:",
+    "features__gmail_instant_reply": "জিমেইল তাৎক্ষণিক উত্তর",
+    "features__outlook_instant_reply": "আউটলুক তাৎক্ষণিক উত্তর",
+    "features__facebook_instant_reply": "ফেসবুক তাৎক্ষণিক উত্তর",
+    "features__linkedin_instant_reply": "লিংকডইন তাৎক্ষণিক উত্তর",
+    "features__xtwitter_instant_reply": "এক্স/টুইটার তাৎক্ষণিক উত্তর",
+    "features__YouTube_instant_reply": "ইউটিউব তাৎক্ষণিক উত্তর",
+    "features__instagram_instant_reply": "ইনস্টাগ্রাম তাৎক্ষণিক উত্তর",
+    "features__reddit_instant_reply": "রেডিট তাৎক্ষণিক উত্তর",
+    "features__whatsapp_instant_reply": "হোয়াটসঅ্যাপ তাৎক্ষণিক উত্তর",
+    "features__discord_instant_reply": "ডিসকর্ড তাৎক্ষণিক উত্তর",
+    "features__telegram_instant_reply": "টেলিগ্রাম তাৎক্ষণিক উত্তর",
+    "features__messenger_instant_reply": "মেসেঞ্জার তাৎক্ষণিক উত্তর",
+    "features__slack_instant_reply": "স্ল্যাক তাৎক্ষণিক উত্তর",
+    "features__summarize_ask_pdf": "সংক্ষিপ্ত করুন এবং পিডিএফ জিজ্ঞাসা করুন",
+    "features__summarize_ask_youTube_video": "সংক্ষিপ্ত করুন এবং ইউটিউব ভিডিও জিজ্ঞাসা করুন",
+    "features__summarize_ask_email": "সংক্ষিপ্ত করুন এবং ইমেল জিজ্ঞাসা করুন",
+    "features__summarize_ask_any_webpage": "সংক্ষিপ্ত করুন এবং যে কোন ওয়েবপেজ জিজ্ঞাসা করুন",
+    "payment_info__team__per_user__desc": "প্রতি ব্যবহারকারী"
   },
   "features__common": {
     "components__upload_button_drop_title": "এখানে পরিবর্তন করুন"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "সাইন পিডিএফ হোমপেজ",
     "components__sign_pdf__icon__sign": "স্বাক্ষর করুন",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "কিছু লিখুন..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "নিম্ন",
-    "components__compress_pdf__main__compress_basic_grade_title": "মৌলিক",
-    "components__compress_pdf__main__compress_basic_grade_description": "মাঝারি ফাইল আকার, মানসম্পন্ন রেজোলিউশন",
-    "components__compress_pdf__main__compress_strong_grade_title": "শক্তিশালী",
-    "components__compress_pdf__main__compress_strong_grade_description": "ছোট ফাইল আকার, নিম্ন রেজোলিউশন",
-    "components__compress_pdf__main__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
-    "components__compress_pdf__main__compress_download": "সংকোচন এবং ডাউনলোড করুন",
-    "components__compress_pdf__main__choose_another_file": "অন্য ফাইল চয়ন করুন",
-    "components__compress_pdf__main__current_pdf_size": "বর্তমান পিডিএফ আকার",
-    "components__compress_pdf__main__original_pdf_size": "মূল আকার",
-    "components__compress_pdf__main__different_pdf_size": "পূর্বের থেকে {{DiFF_NUMBER}}% ছোট!",
-    "components__compress_pdf__main__compress_low_grade_description": "সর্বাধিক ফাইল আকার, উচ্চ রেজোলিউশন",
-    "components__compress_pdf__main__compress_error": "সংকোচন ব্যর্থ, দয়া করে পিডিএফ ফাইলটি এনক্রিপ্ট করা আছে কিনা অথবা অস্বাভাবিক!"
   }
 }

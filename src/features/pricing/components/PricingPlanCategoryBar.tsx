@@ -1,6 +1,6 @@
 import { Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { FC, useMemo } from 'react';
+import { FC, useEffect, useMemo } from 'react';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 
 import {
@@ -52,6 +52,13 @@ const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
 
     return PRICING_CATEGORY;
   }, [PRICING_CATEGORY, onlyRenderCategory]);
+
+  useEffect(() => {
+    // 每次切换到team plan之后，再切回 individual plan，都默认选中yearly - @huangsong - 2024-05-02
+    if (pricingPlanCategory === 'individual') {
+      setPaymentType('yearly');
+    }
+  }, [pricingPlanCategory]);
 
   return (
     <Stack

@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nakreslete nebo nahrajte svůj podpis.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Upravte velikost a pozici podpisu podle potřeby.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Stáhněte si podepsané PDF, hotovo a zabezpečeno.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Zmenšit PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Zmenšete velikost PDF komprimací textu a vložených obrázků prostřednictvím lokálního prohlížeče",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Rychle zmenšete velikost svých PDF dokumentů pomocí našeho moderního online nástroje na kompresi PDF, který zaručuje vysokou kvalitu výsledků s maximální bezpečností a efektivitou.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Rychlý proces komprese PDF",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Není potřeba instalace externího softwaru",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Vysoká úroveň zabezpečení a důvěrnosti – vaše soubory jsou zpracovány přímo ve vašem prohlížeči",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Rychlá a efektivní komprese",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Zažijte rychlé zmenšení velikosti PDF bez kompromisů s kvalitou. Náš nástroj optimalizuje vaše soubory pro rychlejší sdílení a minimální využití úložného prostoru.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Zachování kvality",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Naše pokročilá technologie zajišťuje, že vizuální integrita vašich PDF zůstane zachována, přičemž se zachovává jasnost a čitelnost jak obrázků, tak textu.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokální zpracování pro zvýšenou bezpečnost",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Klade se důraz na vaše soukromí. Celý proces komprese probíhá ve vašem prohlížeči, což zaručuje, že vaše dokumenty neopustí váš zařízení.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Univerzální dostupnost",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Přístupný odkudkoli, náš online nástroj na kompresi PDF vám umožní zmenšit velikost souborů na libovolném zařízení bez nutnosti instalace.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Možnost offline použití",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Povolte kompresi i při absenci internetového připojení. Načtěte stránku předem a můžete pokračovat v kompresi souborů bez nutnosti připojení k internetu.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Vlastní nastavení komprese",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Nastavte úroveň komprese podle svých konkrétních potřeb, umožňující vlastní úpravy pro vyvážení mezi zmenšením velikosti souboru a vizuální kvalitou, což zaručuje optimální výsledky pro každý typ dokumentu.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Jak snadno zmenšit PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Nahrajte své PDF do online nástroje na kompresi.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Nástroj rychle zpracuje váš soubor a zmenší jeho velikost při zachování kvality.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Po kompresi ihned stáhněte zmenšené PDF na své zařízení.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Otevřete zmenšené PDF ve svém preferovaném čtečce PDF a zkontrolujte kvalitu a velikost souboru."
+    "team_plan__title__description1": "Poskytněte svému týmu nejvyspělejší nástroje pro produktivitu AI.",
+    "team_plan__title__description2": "Náš týmový plán je navržen pro skupiny tří a více členů."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "Kde mohu použít MaxAI.me?",
     "faq_list__question4__desc": "MaxAI.me můžete používat na libovolném webu v libovolném prohlížeči založeném na Chromium (například Chrome a Edge) k psaní, zlepšování psaní, shrnutí, vysvětlení, opravě pravopisu a gramatiky, překladu nebo odpovídání na libovolný text.",
     "faq_list__disclaimer_part1": "Přihlášením se přihlašujete k automatickým platbám. Zrušte nebo spravujte své předplatné prostřednictvím zákaznického portálu Stripe v sekci \"Můj plán\". Všechny služby jsou poskytovány v souladu s ",
-    "faq_list__disclaimer_part2": " které potvrzujete při registraci. Upozorňujeme, že tato služba je určena pouze pro lidské, normální použití. Nesmíte sdílet účet s jinými lidmi ani používat programové metody k přístupu ke službě, které obejdou oficiální uživatelské rozhraní. V případě porušení podmínek služby, které vedou k finančním nebo jiným škodám, si vyhrazujeme právo podniknout právní kroky a požadovat odpovídající odškodnění.",
+    "faq_list__disclaimer_part2": " které potvrzujete při registraci. Upozorňujeme, že tato služba je určena pouze pro lidské, normální použití. Nesmíte sdílet účet s jinými lidmi ani používat programové metody k přístupu ke službě, které obejdou oficiální uživatelské rozhraní. Buďte si prosím vědomi, že všechny platby jsou konečné a nevratné. V případě porušení podmínek služby, které vedou k finančním nebo jiným škodám, si vyhrazujeme právo podniknout právní kroky a požadovat odpovídající odškodnění.",
     "plan_features_table__gemini_tooltip_desc": "Nejvýkonnější a nejobecnější model od Googlu. Postavený od základů pro multimodalitu. Gemini na MaxAI je v současné době ve fázi beta verze, podporuje pouze text a kód a brzy přidá podporu pro obrázky, videa a zvuk.",
     "footer__resources": "Zdroje",
     "promotion__banner__elite__title__limited_time_offer": "Omezená nabídka",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "na ročním plánu MaxAI Elite!",
     "promotion__limited_time_offer": "Akce na omezenou dobu",
     "payment_type_switch__yearly__tip": "Ušetřete až {{RATIO}}%",
-    "footer__pdf_tools": "Bezplatné online nástroje pro PDF"
+    "footer__pdf_tools": "Bezplatné online nástroje pro PDF",
+    "faq_list__question5__title": "Nabízí MaxAI týmové plány?",
+    "faq_list__question5__desc__part1": "Ano, MaxAI nabízí týmové plány. Pokud máte zájem, můžete se podívat na naši",
+    "faq_list__question5__desc__part2": "stránku s týmovými plány",
+    "faq_list__question5__desc__part3": "pro více informací."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF na HTML - Převod PDF souborů do HTML online zdarma | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Převod PDF na HTML online zdarma. Udržujte rozvržení a převádějte obrázky do HTML. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
     "pdf_tools__sign_pdf__title": "Podepisování PDF - Přidání digitálního podpisu do PDF souborů lokálně zdarma | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Snadné přidávání digitálních podpisů do PDF souborů zdarma a zabezpečeně na místních zařízeních, zajistí maximální soukromí a bezpečnost. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
-    "pdf_tools__compress_pdf__title": "Zmenšit PDF – Online zmenšení velikosti PDF | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Zmenšete velikost PDF souborů v lokálním prohlížeči a zajistěte rychlý a bezpečný výkon. Bez vodoznaku, omezení velikosti souboru, stahování nebo registrace."
+    "pdf_tools__sign_pdf__description": "Snadné přidávání digitálních podpisů do PDF souborů zdarma a zabezpečeně na místních zařízeních, zajistí maximální soukromí a bezpečnost. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Nejlepší pro elitní profesionály",
     "plan_button__save_with_yearly_plan": "Ušetřete {{PRICE}} s ročním plánem",
     "plan_button__free_status__start_for_free": "Začít zdarma",
-    "better_plan_display__everything_in_plan_plus": "Všechno v {{PLAN}} plus:"
+    "better_plan_display__everything_in_plan_plus": "Všechno v {{PLAN}} plus:",
+    "features__gmail_instant_reply": "Okamžitá odpověď na Gmail",
+    "features__outlook_instant_reply": "Okamžitá odpověď na Outlook",
+    "features__facebook_instant_reply": "Okamžitá odpověď na Facebook",
+    "features__linkedin_instant_reply": "Okamžitá odpověď na LinkedIn",
+    "features__xtwitter_instant_reply": "Okamžitá odpověď na X/Twitter",
+    "features__YouTube_instant_reply": "Okamžitá odpověď na YouTube",
+    "features__instagram_instant_reply": "Okamžitá odpověď na Instagram",
+    "features__reddit_instant_reply": "Okamžitá odpověď na Reddit",
+    "features__whatsapp_instant_reply": "Okamžitá odpověď na WhatsApp",
+    "features__discord_instant_reply": "Okamžitá odpověď na Discord",
+    "features__telegram_instant_reply": "Okamžitá odpověď na Telegram",
+    "features__messenger_instant_reply": "Okamžitá odpověď na Messenger",
+    "features__slack_instant_reply": "Okamžitá odpověď na Slack",
+    "features__summarize_ask_pdf": "Shrnutí a dotaz na PDF",
+    "features__summarize_ask_youTube_video": "Shrnutí a dotaz na video na YouTube",
+    "features__summarize_ask_email": "Shrnutí a dotaz na email",
+    "features__summarize_ask_any_webpage": "Shrnutí a dotaz na jakoukoli webovou stránku",
+    "payment_info__team__per_user__desc": "na uživatele"
   },
   "features__common": {
     "components__upload_button_drop_title": "Přetáhněte sem"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domovská stránka pro podpis PDF",
     "components__sign_pdf__icon__sign": "Podpis",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Napište něco..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Nízká",
-    "components__compress_pdf__main__compress_basic_grade_title": "Základní",
-    "components__compress_pdf__main__compress_basic_grade_description": "Střední velikost souboru, standardní rozlišení",
-    "components__compress_pdf__main__compress_strong_grade_title": "Silná",
-    "components__compress_pdf__main__compress_strong_grade_description": "Malá velikost souboru, nižší rozlišení",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Nahrajte prosím požadovaný typ souboru PDF",
-    "components__compress_pdf__main__compress_download": "Zmenšit a stáhnout",
-    "components__compress_pdf__main__choose_another_file": "Vyberte jiný soubor",
-    "components__compress_pdf__main__current_pdf_size": "Aktuální velikost PDF",
-    "components__compress_pdf__main__original_pdf_size": "původní velikost",
-    "components__compress_pdf__main__different_pdf_size": "O {{DiFF_NUMBER}}% menší než předtím!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maximální velikost souboru, Vyšší rozlišení",
-    "components__compress_pdf__main__compress_error": "Komprese se nezdařila, zkontrolujte, zda je soubor PDF zašifrovaný nebo neobvyklý!"
   }
 }

@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "วาดหรืออัปโหลดลายเซ็นต์ของคุณ",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "ปรับขนาดและตำแหน่งของลายเซ็นต์ตามต้องการ",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "ดาวน์โหลดไฟล์ PDF ที่เซ็นต์แล้ว เพื่อให้พร้อมและปลอดภัย",
-    "tools__index_page__constant_obj__compress_pdf__title": "บีบอัด PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "ลดขนาดไฟล์ PDF โดยการบีบอัดข้อความและรูปภาพที่ฝังอยู่ผ่านเบราว์เซอร์ในเครื่อง",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "ลดขนาดเอกสาร PDF ของคุณอย่างรวดเร็วด้วยเครื่องมือบีบอัด PDF ออนไลน์ขั้นสูงของเรา ให้ผลลัพธ์ที่มีคุณภาพสูงพร้อมความปลอดภัยและประสิทธิภาพสูงสุด",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "กระบวนการบีบอัด PDF อย่างรวดเร็ว",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "ไม่ต้องติดตั้งซอฟต์แวร์ภายนอก",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "มีความปลอดภัยและเป็นความลับสูง - ไฟล์ของคุณจะถูกประมวลผ่านทางเบราว์เซอร์ในเครื่องของคุณ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "การบีบอัดอย่างรวดเร็วและมีประสิทธิภาพ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "ลดขนาดไฟล์ PDF อย่างรวดเร็วโดยไม่เสียคุณภาพ โปรแกรมของเราจะทำการปรับแต่งไฟล์ของคุณให้เหมาะสมสำหรับการแชร์และการใช้พื้นที่จำกัด",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "รักษาคุณภาพ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "เทคโนโลยีขั้นสูงของเราจะรักษาความสมบูรณ์ทางภาพของไฟล์ PDF ของคุณ รักษาความชัดเจนและความอ่านออกแบบทั้งในรูปภาพและข้อความ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "การประมวลผลในเครื่องเพื่อเพิ่มความปลอดภัย",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "เราให้ความสำคัญกับความเป็นส่วนตัวของคุณ กระบวนการบีบอัดทั้งหมดจะถูกดำเนินการภายในเบราว์เซอร์ของคุณ เพื่อให้เอกสารของคุณไม่ออกไปจากอุปกรณ์ของคุณ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "สามารถเข้าถึงได้ทุกที่",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "สามารถใช้เครื่องมือบีบอัด PDF ออนไลน์ของเราได้ทุกที่โดยไม่ต้องติดตั้งใด ๆ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "สามารถใช้งานได้แม้ในโหมดออฟไลน์",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "เปิดโหลดหน้าเว็บไว้ก่อน และคุณสามารถดำเนินการบีบอัดไฟล์ได้โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "การตั้งค่าการบีบอัดแบบกำหนดเอง",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "ปรับระดับการบีบอัดให้เหมาะกับความต้องการของคุณ ให้คุณสามารถปรับแต่งไฟล์ให้เหมาะสมระหว่างการลดขนาดไฟล์และคุณภาพทางภาพ เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดสำหรับทุกประเภทของเอกสาร",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "วิธีการบีบอัด PDF อย่างง่ายดาย:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "อัปโหลดไฟล์ PDF ของคุณเข้าสู่เครื่องมือบีบอัดออนไลน์",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "เครื่องมือจะประมวลผลไฟล์ของคุณอย่างรวดเร็วโดยลดขนาดไฟล์ให้เหมาะสมและคงคุณภาพ",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "ดาวน์โหลดไฟล์ PDF ที่บีบอัดแล้วไปยังอุปกรณ์ของคุณทันทีหลังจากการบีบอัด",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "เช็คคุณภาพและขนาดของไฟล์ PDF ที่บีบอัดโดยการเปิดไฟล์ด้วยโปรแกรมอ่าน PDF ที่คุณชื่นชอบ"
+    "team_plan__title__description1": "ให้ทีมของคุณได้ใช้เครื่องมือการผลิตภาพประสิทธิภาพ AI ที่ทันสมัยที่สุด",
+    "team_plan__title__description2": "แผนของเราสำหรับทีมถูกออกแบบมาสำหรับกลุ่มที่มีสมาชิก 3 คนขึ้นไป"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "ไม่, ข้อจำกัดการใช้งานเหล่านี้เฉพาะกับโมเดลเช่น GPT-4 ที่ดำเนินการโดยตรงโดย MaxAI หากคุณใช้แผนที่ที่เสียค่าใช้จ่ายและใช้ API key ของคุณเอง คุณสามารถใช้โมเดลใดๆ ที่เชื่อมโยงกับ API key ได้โดยไม่มีข้อจำกัดการใช้งานที่ตั้งโดย MaxAI สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับข้อจำกัดการใช้งาน โปรดดูที่",
     "faq_list__question4__title": "ฉันสามารถใช้ MaxAI.me ได้ที่ไหน?",
     "faq_list__question4__desc": "คุณสามารถใช้ MaxAI.me บนเว็บไซต์ใดก็ได้บนเบราว์เซอร์ที่ใช้ Chromium (เช่น Chrome และ Edge) เพื่อเขียน, ปรับปรุงการเขียน, สรุป, อธิบาย, แก้ไขการสะกดคำและไวยกรณ์, แปลหรือตอบกลับข้อความใดๆ",
-    "faq_list__disclaimer_part1": "เมื่อคุณสมัครสมาชิก คุณจะถูกลงทะเบียนในการชำระเงินอัตโนมัติ ยกเลิกหรือจัดการการสมัครสมาชิกของคุณผ่านพอร์ทัลลูกค้าของ Stripe จาก \"แผนของฉัน\" บริการทั้งหมดจะถูกส่งมอบตาม ",
-    "faq_list__disclaimer_part2": " ที่คุณยืนยันกับการสมัครสมาชิกของคุณ โปรดทราบว่าบริการนี้เป็นสำหรับการใช้งานทั่วไปของมนุษย์เท่านั้น คุณไม่สามารถแชร์บัญชีกับผู้อื่นหรือใช้วิธีการโปรแกรมเพื่อเข้าถึงบริการโดยผ่านอินเตอร์เฟซผู้ใช้ทางการอย่างเป็นทางการ ในกรณีที่การละเมิดข้อกำหนดการให้บริการส่งผลให้เกิดความเสียหายทางการเงินหรืออื่น ๆ เราขอสงวนสิทธิ์ในการดำเนินการทางกฎหมายและการค้นหาค่าชดเชยที่เหมาะสม",
+    "faq_list__disclaimer_part1": "เมื่อคุณสมัครสมาชิก คุณจะถูกลงทะเบียนในการชำระเงินอัตโนมัติ คุณสามารถยกเลิกหรือจัดการการสมัครสมาชิกของคุณผ่านพอร์ทัลลูกค้าของ Stripe จาก \"แผนของฉัน\" บริการทั้งหมดจะถูกส่งมอบตาม ",
+    "faq_list__disclaimer_part2": " ที่คุณยืนยันกับการสมัครสมาชิกของคุณ โปรดทราบว่าบริการนี้เป็นเพียงสำหรับการใช้งานทั่วไปของมนุษย์เท่านั้น คุณไม่สามารถแชร์บัญชีกับผู้อื่นหรือใช้วิธีการโปรแกรมเพื่อเข้าถึงบริการโดยผ่านอินเตอร์เฟซผู้ใช้ทางการอย่างเป็นทางการ โปรดทราบว่าการชำระเงินทั้งหมดเป็นสิ้นเชิงและไม่สามารถขอคืนได้ ในกรณีที่การละเมิดข้อกำหนดการให้บริการ导致ความเสียหายทางการเงินหรืออื่นๆ เราขอสงวนสิทธิ์ในการดำเนินการทางกฎหมายและการค้นหาค่าเสียหายที่เหมาะสม",
     "plan_features_table__gemini_tooltip_desc": "โมเดลที่สามารถใช้งานได้มากที่สุดและหลากหลายของ Google สร้างขึ้นมาเพื่อการใช้งานหลายรูปแบบ  Gemini on MaxAI อยู่ในช่วงเบต้า รองรับเฉพาะข้อความและโค้ดเท่านั้นในขณะนี้ จะเพิ่มการรองรับรูปภาพ วิดีโอ และเสียงเร็ว ๆ นี้",
     "footer__resources": "ทรัพยากร",
     "promotion__banner__elite__title__limited_time_offer": "ข้อเสนอจำกัดเวลา",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "ในแผน MaxAI Elite รายปี!",
     "promotion__limited_time_offer": "ข้อเสนอจำกัดเวลา",
     "payment_type_switch__yearly__tip": "ประหยัดสูงสุด {{RATIO}}%",
-    "footer__pdf_tools": "เครื่องมือ PDF ออนไลน์ฟรี"
+    "footer__pdf_tools": "เครื่องมือ PDF ออนไลน์ฟรี",
+    "faq_list__question5__title": "MaxAI มีแผนทีมหรือไม่?",
+    "faq_list__question5__desc__part1": "ใช่  MaxAI มีแผนทีมที่คุณสามารถตรวจสอบได้หากคุณสนใจ",
+    "faq_list__question5__desc__part2": "หน้าแผนทีมของเรา",
+    "faq_list__question5__desc__part3": "สำหรับข้อมูลเพิ่มเติม"
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF เป็น HTML - แปลงไฟล์ PDF เป็น HTML ออนไลน์ฟรี | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "แปลง PDF เป็น HTML ออนไลน์ฟรี รักษาเลย์เอาต์และแปลงรูปภาพเป็น HTML ไม่มีลายน้ำ ไม่จำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
     "pdf_tools__sign_pdf__title": "การเซ็น PDF - เพิ่มลายเซ็นดิจิตอลในไฟล์ PDF ในเครื่องฟรี | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "เพิ่มลายเซ็นดิจิตอลในไฟล์ PDF ได้อย่างง่ายดายและปลอดภัยบนอุปกรณ์ในเครือข่าย ให้ความเป็นส่วนตัวและความปลอดภัยสูงสุด ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
-    "pdf_tools__compress_pdf__title": "บีบอัด PDF - ลดขนาดไฟล์ PDF ออนไลน์ | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "บีบอัดไฟล์ PDF ในเบราว์เซอร์ในเครื่องเพื่อให้ได้ประสิทธิภาพที่รวดเร็วและปลอดภัย ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน"
+    "pdf_tools__sign_pdf__description": "เพิ่มลายเซ็นดิจิตอลในไฟล์ PDF ได้อย่างง่ายดายและปลอดภัยบนอุปกรณ์ในเครือข่าย ให้ความเป็นส่วนตัวและความปลอดภัยสูงสุด ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "เลือกทั้งหมด",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "เหมาะสำหรับผู้ใช้ที่มีความเชี่ยวชาญ",
     "plan_button__save_with_yearly_plan": "ประหยัด {{PRICE}} ด้วยแผนรายปี",
     "plan_button__free_status__start_for_free": "เริ่มต้นฟรี",
-    "better_plan_display__everything_in_plan_plus": "ทุกอย่างใน {{PLAN}} และ:"
+    "better_plan_display__everything_in_plan_plus": "ทุกอย่างใน {{PLAN}} และ:",
+    "features__gmail_instant_reply": "ตอบกลับทันทีใน Gmail",
+    "features__outlook_instant_reply": "ตอบกลับทันทีใน Outlook",
+    "features__facebook_instant_reply": "ตอบกลับทันทีใน Facebook",
+    "features__linkedin_instant_reply": "ตอบกลับทันทีใน LinkedIn",
+    "features__xtwitter_instant_reply": "ตอบกลับทันทีใน X/Twitter",
+    "features__YouTube_instant_reply": "ตอบกลับทันทีใน YouTube",
+    "features__instagram_instant_reply": "ตอบกลับทันทีใน Instagram",
+    "features__reddit_instant_reply": "ตอบกลับทันทีใน Reddit",
+    "features__whatsapp_instant_reply": "ตอบกลับทันทีใน WhatsApp",
+    "features__discord_instant_reply": "ตอบกลับทันทีใน Discord",
+    "features__telegram_instant_reply": "ตอบกลับทันทีใน Telegram",
+    "features__messenger_instant_reply": "ตอบกลับทันทีใน Messenger",
+    "features__slack_instant_reply": "ตอบกลับทันทีใน Slack",
+    "features__summarize_ask_pdf": "สรุปและถามเกี่ยวกับ PDF",
+    "features__summarize_ask_youTube_video": "สรุปและถามเกี่ยวกับวิดีโอ YouTube",
+    "features__summarize_ask_email": "สรุปและถามเกี่ยวกับอีเมล",
+    "features__summarize_ask_any_webpage": "สรุปและถามเกี่ยวกับหน้าเว็บใดก็ได้",
+    "payment_info__team__per_user__desc": "ต่อผู้ใช้"
   },
   "features__common": {
     "components__upload_button_drop_title": "วางที่นี่"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "หน้าหลักลงชื่อ PDF",
     "components__sign_pdf__icon__sign": "เซ็น",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "พิมพ์อะไรบางอย่าง..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "ต่ำ",
-    "components__compress_pdf__main__compress_basic_grade_title": "พื้นฐาน",
-    "components__compress_pdf__main__compress_basic_grade_description": "ขนาดไฟล์กลาง, ความละเอียดมาตรฐาน",
-    "components__compress_pdf__main__compress_strong_grade_title": "แข็งแกร่ง",
-    "components__compress_pdf__main__compress_strong_grade_description": "ขนาดไฟล์เล็ก, ความละเอียดต่ำ",
-    "components__compress_pdf__main__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
-    "components__compress_pdf__main__compress_download": "บีบอัดและดาวน์โหลด",
-    "components__compress_pdf__main__choose_another_file": "เลือกไฟล์อื่น",
-    "components__compress_pdf__main__current_pdf_size": "ขนาด PDF ปัจจุบัน",
-    "components__compress_pdf__main__original_pdf_size": "ขนาดเดิม",
-    "components__compress_pdf__main__different_pdf_size": "เล็กกว่าก่อน {{DiFF_NUMBER}}%!",
-    "components__compress_pdf__main__compress_low_grade_description": "ขนาดไฟล์สูงสุด, ความละเอียดสูง",
-    "components__compress_pdf__main__compress_error": "การบีบอัดล้มเหลว โปรดตรวจสอบว่าไฟล์ PDF ถูกเข้ารหัสหรือผิดปกติ!"
   }
 }

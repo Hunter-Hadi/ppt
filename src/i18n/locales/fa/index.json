@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "امضای خود را رسم کنید یا بارگذاری کنید.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "اندازه و موقعیت امضا را به عنوان نیازهای خود تنظیم کنید.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "برای دانلود PDF امضا شده خود کلیک کنید، همه چیز آماده و ایمن است.",
-    "tools__index_page__constant_obj__compress_pdf__title": "فشرده سازی PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "با کم کردن اندازه PDF، متن و تصاویر درون آن را از طریق مرورگر محلی فشرده سازی کنید",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "با استفاده از ابزار فشرده سازی PDF آنلاین پیشرفته ما، به سرعت اندازه سند‌های PDF خود را کاهش دهید و نتایج با کیفیت بالا و حفظ امنیت و کارایی حاصل کنید.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "فرآیند فشرده سازی سریع PDF",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "نیازی به نصب نرم‌افزار خارجی ندارد",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "بسیار امن و محرمانه - فایل‌های شما به صورت محلی در مرورگر شما پردازش می‌شوند",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "فشرده سازی سریع و کارآمد",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "با تجربه کاهش سریع اندازه PDF بدون کاهش کیفیت، فایل‌های خود را برای به اشتراک گذاری سریعتر و استفاده کمتر از فضای ذخیره‌سازی بهینه می‌کنیم.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "حفظ کیفیت",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "فناوری پیشرفته ما تضمین می‌کند که صحت بصری سند‌های PDF شما حفظ شود و وضوح و قابلیت خوانایی هم تصاویر و هم متن حفظ شود.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "پردازش محلی برای افزایش امنیت",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "ما حریم خصوصی شما را در اولویت قرار می‌دهیم. کل فرآیند فشرده سازی در مرورگر شما اجرا می‌شود و اطلاعات شما دستگاه شما را ترک نمی‌کند.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "دسترسی یکپارچه",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "با قابلیت دسترسی از هر کجا، ابزار فشرده سازی PDF آنلاین ما به شما امکان می‌دهد اندازه فایل‌ها را در هر دستگاهی کاهش دهید بدون نیاز به نصب هیچ برنامه‌ای.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "قابلیت آفلاین",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "حتی وقتی آفلاین هستید، می‌توانید فشرده سازی را فعال کنید. صفحه را پیش‌بارگذاری کنید و بدون نیاز به اتصال اینترنت، فشرده سازی فایل را انجام دهید.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "تنظیمات فشرده سازی سفارشی",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "سطح فشرده سازی را بر اساس نیازهای خاص خود تنظیم کنید و تنظیمات سفارشی را برای تعادل بین کاهش اندازه فایل و کیفیت بصری انجام دهید تا نتایج بهینه برای هر نوع سند حاصل شود.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "چگونه به راحتی PDF را فشرده کنیم:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDF خود را به ابزار فشرده سازی آنلاین بارگذاری کنید.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "ابزار به سرعت فایل شما را پردازش می‌کند و اندازه آن را با حفظ کیفیت کاهش می‌دهد.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "پس از فشرده سازی، PDF فشرده شده را به دستگاه خود دانلود کنید.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "کیفیت و اندازه PDF فشرده شده را با باز کردن آن در نرم‌افزار PDF مورد علاقه خود بررسی کنید."
+    "team_plan__title__description1": "به تیم خود ابزارهای پیشرفته تولیدی هوش مصنوعی بدهید.",
+    "team_plan__title__description2": "طرح تیم ما برای گروه‌های سه نفر و بیشتر طراحی شده است."
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "کجا می‌توانم از MaxAI.me استفاده کنم؟",
     "faq_list__question4__desc": "شما می‌توانید از MaxAI.me در هر وبسایتی روی هر مرورگری که بر پایه Chromium است (مانند Chrome و Edge) برای نوشتن، بهبود نوشتار، خلاصه‌سازی، توضیح دادن، اصلاح املای و گرامر، ترجمه یا پاسخ به هر متنی استفاده کنید.",
     "faq_list__disclaimer_part1": "با عضویت، شما در پرداخت‌های خودکار ثبت نام می‌کنید. از طریق پورتال مشتری Stripe از بخش \"طرح من\" اشتراک خود را لغو یا مدیریت کنید. تمامی خدمات بر اساس ",
-    "faq_list__disclaimer_part2": " که با ثبت نام خود تأیید می‌کنید، ارائه می‌شوند. لطفاً توجه داشته باشید که این سرویس فقط برای استفاده انسانی و عادی است. شما نمی‌توانید حساب خود را با دیگران به اشتراک بگذارید یا از روش‌های برنامه‌نویسی برای دسترسی به سرویس استفاده کنید و رابط کاربری رسمی را نادیده بگیرید. در صورتی که نقض قوانین خدمات منجر به خسارت‌های مالی یا دیگر خسارت‌ها شود، ما حق اقدام قانونی و جستجوی جبران مناسب را داریم.",
+    "faq_list__disclaimer_part2": " که با ثبت نام خود تأیید می‌کنید، ارائه می‌شوند. لطفاً توجه داشته باشید که این سرویس فقط برای استفاده انسانی و عادی است. شما نمی‌توانید حساب خود را با دیگران به اشتراک بگذارید یا از روش‌های برنامه‌نویسی برای دسترسی به سرویس استفاده کنید و رابط کاربری رسمی را نادیده بگیرید. لطفاً توجه داشته باشید که تمامی پرداخت‌ها قطعی و قابل استرداد نیستند. در صورتی که نقض قوانین خدمات منجر به خسارت‌های مالی یا دیگر خسارت‌ها شود، ما حق اقدام قانونی و جبران مناسب را داریم.",
     "plan_features_table__gemini_tooltip_desc": "قدرتمندترین و کلی‌ترین مدل گوگل. از پایه برای چندحالتی بودن ساخته شده است. Gemini در MaxAI در حال حاضر در فاز بتا قرار دارد و تنها پشتیبانی از متن و کد را دارد و به زودی پشتیبانی از تصاویر، ویدئوها و صدا را نیز اضافه خواهد کرد.",
     "footer__resources": "منابع",
     "promotion__banner__elite__title__limited_time_offer": "پیشنهاد محدود زمانی",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "در طرح سالانه MaxAI Elite!",
     "promotion__limited_time_offer": "پیشنهاد محدود به مدت زمان محدود",
     "payment_type_switch__yearly__tip": "تا {{RATIO}}% صرفه‌جویی کنید",
-    "footer__pdf_tools": "ابزارهای آنلاین رایگان PDF"
+    "footer__pdf_tools": "ابزارهای آنلاین رایگان PDF",
+    "faq_list__question5__title": "آیا MaxAI طرح‌های تیمی ارائه می‌دهد؟",
+    "faq_list__question5__desc__part1": "بله، MaxAI طرح‌های تیمی ارائه می‌دهد. اگر علاقه‌مند هستید، می‌توانید صفحه",
+    "faq_list__question5__desc__part2": "طرح‌های تیمی",
+    "faq_list__question5__desc__part3": "ما را بررسی کنید تا اطلاعات بیشتری دریافت کنید."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "تبدیل PDF به HTML - تبدیل فایل‌های PDF به HTML آنلاین رایگان | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "تبدیل PDF به HTML آنلاین رایگان. حفظ طرح و تبدیل تصاویر به HTML. بدون علامت‌گذاری آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
     "pdf_tools__sign_pdf__title": "امضای PDF - افزودن امضای دیجیتال به فایل های PDF به صورت محلی و رایگان | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "به راحتی امضای دیجیتال را به فایل های PDF به صورت رایگان و امن در دستگاه های محلی اضافه کنید و حریم خصوصی و امنیت حداکثری را تضمین کنید. بدون نشان آب، محدودیت اندازه فایل، بارگیری یا ثبت نام.",
-    "pdf_tools__compress_pdf__title": "فشرده سازی PDF - کاهش اندازه آنلاین PDF | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "فایل‌های PDF را در مرورگر محلی فشرده سازی کنید تا عملکرد سریع و امن را تضمین کنید. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام."
+    "pdf_tools__sign_pdf__description": "به راحتی امضای دیجیتال را به فایل های PDF به صورت رایگان و امن در دستگاه های محلی اضافه کنید و حریم خصوصی و امنیت حداکثری را تضمین کنید. بدون نشان آب، محدودیت اندازه فایل، بارگیری یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "بهترین برای حرفه‌ایان برجسته",
     "plan_button__save_with_yearly_plan": "با طرح سالیانه {{PRICE}} صرفه‌جویی کنید",
     "plan_button__free_status__start_for_free": "شروع رایگان",
-    "better_plan_display__everything_in_plan_plus": "همه چیز در {{PLAN}} به علاوه:"
+    "better_plan_display__everything_in_plan_plus": "همه چیز در {{PLAN}} به علاوه:",
+    "features__gmail_instant_reply": "پاسخ فوری Gmail",
+    "features__outlook_instant_reply": "پاسخ فوری Outlook",
+    "features__facebook_instant_reply": "پاسخ فوری Facebook",
+    "features__linkedin_instant_reply": "پاسخ فوری LinkedIn",
+    "features__xtwitter_instant_reply": "پاسخ فوری X/Twitter",
+    "features__YouTube_instant_reply": "پاسخ فوری YouTube",
+    "features__instagram_instant_reply": "پاسخ فوری Instagram",
+    "features__reddit_instant_reply": "پاسخ فوری Reddit",
+    "features__whatsapp_instant_reply": "پاسخ فوری WhatsApp",
+    "features__discord_instant_reply": "پاسخ فوری Discord",
+    "features__telegram_instant_reply": "پاسخ فوری Telegram",
+    "features__messenger_instant_reply": "پاسخ فوری Messenger",
+    "features__slack_instant_reply": "پاسخ فوری Slack",
+    "features__summarize_ask_pdf": "خلاصه کردن و پرسیدن PDF",
+    "features__summarize_ask_youTube_video": "خلاصه کردن و پرسیدن ویدیوی YouTube",
+    "features__summarize_ask_email": "خلاصه کردن و پرسیدن ایمیل",
+    "features__summarize_ask_any_webpage": "خلاصه کردن و پرسیدن هر صفحه وب",
+    "payment_info__team__per_user__desc": "برای هر کاربر"
   },
   "features__common": {
     "components__upload_button_drop_title": "اینجا را رها کنید"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحه اصلی امضای PDF",
     "components__sign_pdf__icon__sign": "امضا کنید",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "چیزی بنویسید..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "پایین",
-    "components__compress_pdf__main__compress_basic_grade_title": "پایه",
-    "components__compress_pdf__main__compress_basic_grade_description": "اندازه متوسط ​​فایل، رزولوشن استاندارد",
-    "components__compress_pdf__main__compress_strong_grade_title": "قوی",
-    "components__compress_pdf__main__compress_strong_grade_description": "اندازه کوچک فایل، رزولوشن پایین",
-    "components__compress_pdf__main__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
-    "components__compress_pdf__main__compress_download": "فشرده سازی و دانلود",
-    "components__compress_pdf__main__choose_another_file": "انتخاب فایل دیگر",
-    "components__compress_pdf__main__current_pdf_size": "اندازه فعلی PDF",
-    "components__compress_pdf__main__original_pdf_size": "اندازه اصلی",
-    "components__compress_pdf__main__different_pdf_size": "به مقدار {{DiFF_NUMBER}}٪ کوچکتر از قبل متفاوت است!",
-    "components__compress_pdf__main__compress_low_grade_description": "حداکثر اندازه فایل، رزولوشن بالاتر",
-    "components__compress_pdf__main__compress_error": "فشرده سازی ناموفق بود، لطفاً بررسی کنید که فایل PDF رمزگذاری شده یا غیرطبیعی است!"
   }
 }

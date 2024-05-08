@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Нарисуйте или загрузите свою подпись.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Настройте размер и положение подписи по необходимости.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Щелкните, чтобы скачать ваш подписанный PDF-файл прямо сейчас, все готово и безопасно.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Сжатие PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Уменьшите размер PDF, сжимая текст и встроенные изображения через локальный браузер",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Быстрое уменьшение размера ваших PDF-документов с помощью нашего передового онлайн-инструмента для сжатия PDF, обеспечивающего высокое качество результатов при максимальной безопасности и эффективности.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Быстрый процесс сжатия PDF",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Не требуется установка внешнего программного обеспечения",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Высокая безопасность и конфиденциальность – ваши файлы обрабатываются локально в вашем браузере",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Быстрое и эффективное сжатие",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Получите быстрое уменьшение размера PDF без потери качества. Наш инструмент оптимизирует ваши файлы для более быстрой передачи и минимального использования памяти.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Сохранение качества",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Наша передовая технология гарантирует сохранение визуальной целостности ваших PDF-файлов, сохраняя четкость и читаемость как изображений, так и текста.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Локальная обработка для повышенной безопасности",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Мы придерживаемся вашей конфиденциальности. Весь процесс сжатия выполняется в вашем браузере, что гарантирует, что ваши документы не покидают ваше устройство.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Универсальная доступность",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Доступно откуда угодно, наш онлайн-инструмент для сжатия PDF позволяет вам уменьшать размер файлов на любом устройстве без необходимости установки.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Возможность работы без подключения к Интернету",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Возможность сжатия даже в автономном режиме. Предварительно загрузите страницу, и вы сможете продолжить сжатие файлов без подключения к Интернету.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Настройки сжатия по умолчанию",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Настройте уровень сжатия в соответствии с вашими потребностями, позволяя настраивать баланс между уменьшением размера файла и визуальным качеством, обеспечивая оптимальные результаты для каждого типа документа.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Как легко сжать PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Загрузите свой PDF в онлайн-инструмент для сжатия.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Инструмент быстро обрабатывает ваш файл, уменьшая его размер при сохранении качества.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Скачайте сжатый PDF на свое устройство сразу после сжатия.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Проверьте качество и размер сжатого PDF, открыв его в вашем предпочитаемом программном обеспечении для чтения PDF."
+    "team_plan__title__description1": "Предоставьте вашей команде самые передовые инструменты искусственного интеллекта для повышения производительности.",
+    "team_plan__title__description2": "Наш план для команд разработан для групп из трех или более участников."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-клик Подсказки",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "Где я могу использовать MaxAI.me?",
     "faq_list__question4__desc": "Вы можете использовать MaxAI.me на любом веб-сайте в любых браузерах на основе Chromium (например, Chrome и Edge), чтобы составлять, улучшать тексты, делать резюме, объяснять, исправлять орфографию и грамматику, переводить или отвечать на любой текст.",
     "faq_list__disclaimer_part1": "Подписываясь, вы автоматически вступаете в систему автоматических платежей. Отменить или управлять подпиской можно через портал клиента Stripe в разделе \"Мой план\". Все услуги предоставляются в соответствии с ",
-    "faq_list__disclaimer_part2": " которые вы подтверждаете при регистрации. Обратите внимание, что эта услуга предназначена только для человека и нормального использования. Вы не можете делиться аккаунтом с другими людьми или использовать программные методы для доступа к услуге, обходя официальный пользовательский интерфейс. В случае нарушения условий использования, приводящего к финансовым или иным убыткам, мы оставляем за собой право предъявить иск и требовать соответствующей компенсации.",
+    "faq_list__disclaimer_part2": " которые вы подтверждаете при регистрации. Пожалуйста, обратите внимание, что эта услуга предназначена только для человека и нормального использования. Вы не можете делиться аккаунтом с другими людьми или использовать программные методы для доступа к услуге, обходя официальный пользовательский интерфейс. Пожалуйста, имейте в виду, что все платежи являются окончательными и не подлежат возврату. В случае нарушения условий использования, приводящего к финансовым или иным убыткам, мы оставляем за собой право предъявить иск и требовать соответствующей компенсации.",
     "plan_features_table__gemini_tooltip_desc": "Самая мощная и универсальная модель Google. Создана с нуля для мультимодальности. Gemini на MaxAI в настоящее время находится в бета-фазе, поддерживает только текст и код, скоро будет добавлена поддержка изображений, видео и аудио.",
     "footer__resources": "Ресурсы",
     "promotion__banner__elite__title__limited_time_offer": "Ограниченное предложение",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "на годовом плане MaxAI Elite!",
     "promotion__limited_time_offer": "Ограниченное предложение",
     "payment_type_switch__yearly__tip": "Сэкономьте до {{RATIO}}%",
-    "footer__pdf_tools": "Бесплатные онлайн-инструменты для PDF"
+    "footer__pdf_tools": "Бесплатные онлайн-инструменты для PDF",
+    "faq_list__question5__title": "Предлагает ли MaxAI командные планы?",
+    "faq_list__question5__desc__part1": "Да, MaxAI предлагает командные планы. Если вас интересует, вы можете ознакомиться с нашей",
+    "faq_list__question5__desc__part2": "страницей командных планов",
+    "faq_list__question5__desc__part3": "для получения дополнительной информации."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF в HTML - Преобразование файлов PDF в HTML онлайн бесплатно | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Преобразуйте PDF в HTML онлайн бесплатно. Сохраните макет и преобразуйте изображения в HTML. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации.",
     "pdf_tools__sign_pdf__title": "Подписание PDF - Добавление цифровой подписи в файлы PDF локально бесплатно | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Легко добавляйте цифровые подписи в файлы PDF бесплатно и безопасно на локальных устройствах, обеспечивая максимальную конфиденциальность и безопасность. Без водяных знаков, ограничений по размеру файла, загрузки или регистрации.",
-    "pdf_tools__compress_pdf__title": "Сжатие PDF – Уменьшение размера онлайн | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Сжимайте файлы PDF в локальном браузере, чтобы обеспечить быструю и безопасную работу. Без водяных знаков, ограничений на размер файла, загрузки или регистрации."
+    "pdf_tools__sign_pdf__description": "Легко добавляйте цифровые подписи в файлы PDF бесплатно и безопасно на локальных устройствах, обеспечивая максимальную конфиденциальность и безопасность. Без водяных знаков, ограничений по размеру файла, загрузки или регистрации."
   },
   "features_landing": {
     "cta_text": "Добавить в браузер",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Лучший для элитных профессионалов",
     "plan_button__save_with_yearly_plan": "Сэкономьте {{PRICE}} с годовым планом",
     "plan_button__free_status__start_for_free": "Начать бесплатно",
-    "better_plan_display__everything_in_plan_plus": "Все в {{PLAN}}, а также:"
+    "better_plan_display__everything_in_plan_plus": "Все в {{PLAN}}, а также:",
+    "features__gmail_instant_reply": "Мгновенный ответ Gmail",
+    "features__outlook_instant_reply": "Мгновенный ответ Outlook",
+    "features__facebook_instant_reply": "Мгновенный ответ Facebook",
+    "features__linkedin_instant_reply": "Мгновенный ответ LinkedIn",
+    "features__xtwitter_instant_reply": "Мгновенный ответ X/Twitter",
+    "features__YouTube_instant_reply": "Мгновенный ответ YouTube",
+    "features__instagram_instant_reply": "Мгновенный ответ Instagram",
+    "features__reddit_instant_reply": "Мгновенный ответ Reddit",
+    "features__whatsapp_instant_reply": "Мгновенный ответ WhatsApp",
+    "features__discord_instant_reply": "Мгновенный ответ Discord",
+    "features__telegram_instant_reply": "Мгновенный ответ Telegram",
+    "features__messenger_instant_reply": "Мгновенный ответ Messenger",
+    "features__slack_instant_reply": "Мгновенный ответ Slack",
+    "features__summarize_ask_pdf": "Суммировать и задать вопрос по PDF",
+    "features__summarize_ask_youTube_video": "Суммировать и задать вопрос по видео на YouTube",
+    "features__summarize_ask_email": "Суммировать и задать вопрос по электронной почте",
+    "features__summarize_ask_any_webpage": "Суммировать и задать вопрос по любой веб-странице",
+    "payment_info__team__per_user__desc": "за пользователя"
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетащите сюда"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Домашняя страница подписи PDF",
     "components__sign_pdf__icon__sign": "Подписать",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Введите что-нибудь..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Низкое",
-    "components__compress_pdf__main__compress_basic_grade_title": "Базовое",
-    "components__compress_pdf__main__compress_basic_grade_description": "Средний размер файла, стандартное разрешение",
-    "components__compress_pdf__main__compress_strong_grade_title": "Сильное",
-    "components__compress_pdf__main__compress_strong_grade_description": "Маленький размер файла, низкое разрешение",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
-    "components__compress_pdf__main__compress_download": "Сжать и скачать",
-    "components__compress_pdf__main__choose_another_file": "Выберите другой файл",
-    "components__compress_pdf__main__current_pdf_size": "Текущий размер PDF",
-    "components__compress_pdf__main__original_pdf_size": "оригинальный размер",
-    "components__compress_pdf__main__different_pdf_size": "Отличается от предыдущего на {{DiFF_NUMBER}}% меньше!",
-    "components__compress_pdf__main__compress_low_grade_description": "Максимальный размер файла, более высокое разрешение",
-    "components__compress_pdf__main__compress_error": "Сжатие не удалось, пожалуйста, проверьте, зашифрован ли файл PDF или является ли он аномальным!"
   }
 }

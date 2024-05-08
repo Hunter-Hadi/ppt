@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "आपले स्वाक्षर द्राव्य किंवा अपलोड करा.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "आवश्यक असलेल्या स्थानावर स्वाक्षराचा आकार आणि स्थान सुटवा.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "आता आपले हस्ताक्षरित PDF डाउनलोड करण्यासाठी क्लिक करा, सर्व काही तयार आहे आणि सुरक्षित आहे.",
-    "tools__index_page__constant_obj__compress_pdf__title": "PDF कमी करा",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "स्थानिक ब्राउझरद्वारे मजकूर आणि संलग्न छायाचित्रे कमी करण्यासाठी PDF आकार कमी करा",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "आपल्या PDF दस्तऐवजांचा आकार त्वरित कमी करा, आमच्या नवीनतम ऑनलाइन PDF कमी करण्याच्या टूलच्या सहाय्याने, उच्च गुणवत्तेच्या परिणामांसह आणि अधिक सुरक्षा आणि प्रभावशीलतेने.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "वेगवेगळ्या PDF कमी करण्याची प्रक्रिया",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "कोणतीही बाह्यिक सॉफ्टवेअर स्थापना आवश्यक नाही",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "अत्यंत सुरक्षित आणि गोपनीय - आपल्या फाइल्स आपल्या ब्राउझरमध्ये स्थानिकपणे प्रक्रिया केली जातात",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "वेगवेगळ्या आणि प्रभावी कमी करणे",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "गुणवत्तेच्या कमी केल्यासारख्या PDF आकारांचा वापर कमी करण्याचा अनुभव करा. आमचे टूल आपल्या फाइल्सला वेगवेगळ्या सामायिकीसाठी आणि किमान संग्रहाच्या वापरासाठी अपशिष्ट करते.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "गुणवत्ता ठेवा",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "आमच्या उन्नत तंत्रज्ञानाने आपल्या PDF ची दृष्टीची पूर्णता साठवते, छायाचित्रे आणि मजकूर दोन्हांची स्पष्टता आणि वाचनयोग्यता ठेवते.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "सुरक्षेसाठी स्थानिक प्रक्रिया",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "आपल्या गोपनीयतेला प्राधान्य देतो. पूर्ण कमी करण्याची प्रक्रिया आपल्या ब्राउझरमध्ये केली जाते, ज्यामुळे आपले दस्तऐवज आपल्या उपकरणातून बाहेर पडत नाहीत.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "सर्वसाधारण प्रवेशिका",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "कुठेही उपलब्ध, आमचे ऑनलाइन PDF कमी करण्याचे टूल आपल्याला कोणत्याही स्थापना आवश्यक नसता फाइल आकार कमी करण्यास मदत करते.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "ऑफलाइन क्षमता",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "जेव्हा आपण ऑफलाइन असतो तेव्हा कमी करणे सक्षम करा. पृष्ठ पूर्व-लोड करा आणि आपण इंटरनेट कनेक्शन आवश्यक नसता फाइल कमी करण्याच्या सोप्या प्रक्रियेसह सुरू करू शकता.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "कस्टम कमी करणे सेटिंग्ज",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "आपल्या विशिष्ट आवश्यकतांसाठी कमी करण्याचे स्तर विन्यास करा, फाइल आकार कमी करण्याच्या आणि दृष्टीची गुणवत्ता ठेवण्याच्या बीनबद्धतेमध्ये संतुलन करण्यासाठी, प्रत्येक प्रकारच्या दस्तऐवजासाठी उत्तम परिणाम सुनिश्चित करण्यास मदत करते.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF आसानपणे कमी करण्याचे कसे:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "ऑनलाइन कमी करण्याचे टूलवर आपला PDF अपलोड करा.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "टूल त्वरित आपली फाइल प्रक्रिया करतो, त्याची आकार कमी करतो आणि गुणवत्ता ठेवतो.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "कमी केलेल्या PDF ला तत्काळ आपल्या उपकरणावर डाउनलोड करा.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "आपल्या पसंतीच्या PDF वाचकावर त्याची गुणवत्ता आणि आकार तपासा, त्याची गुणवत्ता आणि आकार तपासताना."
+    "team_plan__title__description1": "तुमच्या टीमला सर्वाधिक उन्नत AI उत्पादकता उपकरणे द्या.",
+    "team_plan__title__description2": "आमच्या टीम योजनेमध्ये तीन किंवा अधिक सदस्यांच्या गटांसाठी डिझाइन केलेले आहे."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "नाही, हे वापरण्यासाठीच्या मॉडेल्सच्या वापराच्या मर्यादा MaxAI द्वारे संचालित GPT-4 अशा मॉडेल्सवर विशेष केले जातात. आपल्या पेड प्लॅनवर आहारभार करताना आपण आपल्या API कीसह जोडलेल्या कोणत्याही मॉडेल्सचा वापर करू शकता, MaxAI द्वारे संचालित केलेल्या कोणत्याही वापराच्या मर्यादांची सेटिंग नाहीत. वापराच्या मर्यादांबद्दल अधिक माहितीसाठी, कृपया आमच्या",
     "faq_list__question4__title": "MaxAI.me वापरण्यासाठी कुठल्या वेबसाइटवर वापरू शकता?",
     "faq_list__question4__desc": "आपण कोणत्याही वेबसाइटवर (उदा. Chrome आणि Edge) MaxAI.me वापरू शकता, त्यामध्ये लेखन करणे, लेखन सुधारणे, संक्षेपित करणे, समजावणे, अक्षरांची आणि व्याकरणाची दोषे ठरवणे, भाषांतर करणे किंवा कोणत्याही मजकूरावर प्रतिसाद देणे सामाविष्ट होते.",
-    "faq_list__disclaimer_part1": "ग्राहकता नोंदणी करण्यापासून, आपल्याला स्वयंचलित पेमेंटमध्ये नोंदणी करण्यात आलेले आहे. \"माझी योजना\" मधून सदस्यता रद्द किंवा व्यवस्थापित करा. सर्व सेवा खालीलप्रमाणे पुरविली जाते ",
-    "faq_list__disclaimer_part2": " आपल्या साइन-अपसह समर्थन करता येते. कृपया लक्षात घ्या की ही सेवा मानवी, सामान्य वापरासाठीची आहे. आपण खाते इतर लोकांसह सामायिक करू नये किंवा अधिकृत वापरकर्ता इंटरफेसवर अभिगम करण्यासाठी कार्यक्रमात्मक पद्धती वापरू नये. सेवेच्या अटींच्या उल्लंघनांच्या परिणामाने आर्थिक किंवा इतर क्षतींसाठी, आम्ही कायदेशीर कारवाई करण्याचे अधिकार ठेवतो आणि उचित मुदतीसाठी मागणी करतो.",
+    "faq_list__disclaimer_part1": "ग्राहकता घेण्याच्या मार्गाने, आपली स्वत:ची देयक भरण्यासाठी आपण स्वतःच्या प्रशासनिक वापरकर्ता पोर्टलद्वारे आपले सदस्यत्व रद्द किंवा व्यवस्थापित करू शकता. सर्व सेवा खालीलप्रमाणे पुरविली जातात ",
+    "faq_list__disclaimer_part2": " आपल्या साइन-अपसह संपर्कित आहात. कृपया लक्षात घ्या की ही सेवा मानवी, सामान्य वापरासाठीची आहे. आपण खाते इतर व्यक्तींसह सामायिक करू नये किंवा अधिकृत वापर इंटरफेसवर अभ्यासक्रमी विधींना प्रवेश करण्यासाठी वापरू नये हे लक्षात घ्या. कृपया लक्षात घ्या की सर्व देयक अंतिम आहेत आणि परतफेड नसतात. सेवेच्या उल्लंघनांच्या परिणामाने संबंधित सेवेच्या नियमांच्या उल्लंघनांच्या परिणामाने आर्थिक किंवा इतर क्षतींसाठी, आम्ही कायदेशीर कारवाई करण्याचे अधिकार ठेवतो आणि योग्य मुदतीसाठी मागणी करतो.",
     "plan_features_table__gemini_tooltip_desc": "गूगलचा सर्वात अधिक सक्षम आणि सामान्य मॉडेल. बहुसंवादासाठी जमिनीचे निर्माण केले गेले आहे. MaxAI वर जमिनी ही बेटा टप्प्यात आहे, फक्त मजकूर आणि कोडचा समर्थन करते, लवकरच इमेजेस, व्हिडिओ आणि ऑडिओचा समर्थन जोडण्यात येईल.",
     "footer__resources": "संसाधने",
     "promotion__banner__elite__title__limited_time_offer": "सीमित कालावधीचा ऑफर",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite वार्षिक योजनेवर!",
     "promotion__limited_time_offer": "सीमित कालावधीचा ऑफर",
     "payment_type_switch__yearly__tip": "तुमच्या खरेदीसाठी {{RATIO}}% वर्षात बचत करा",
-    "footer__pdf_tools": "विनामूल्य ऑनलाइन PDF साधने"
+    "footer__pdf_tools": "विनामूल्य ऑनलाइन PDF साधने",
+    "faq_list__question5__title": "MaxAI की टीम योजना उपलब्ध आहे का?",
+    "faq_list__question5__desc__part1": "होय, MaxAI टीम योजना उपलब्ध करते. आपल्याला आवडल्यास, आपण आमच्या",
+    "faq_list__question5__desc__part2": "टीम योजना पृष्ठ",
+    "faq_list__question5__desc__part3": "वर अधिक माहितीसाठी पहा."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF ते HTML - ऑनलाइन विनामूल्य आपल्या PDF फाइलला HTML मध्ये रूपांतरित करा | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "मोफत ऑनलाइन PDF ते HTML मध्ये रूपांतर करा. लेआउट ठेवा आणि छायाचित्रे HTML मध्ये रूपांतरित करा. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
     "pdf_tools__sign_pdf__title": "पीडीएफ चिन्हांकन - मुक्त ऑनलाइन पीडीएफ फाइलमध्ये डिजिटल स्वाक्षर जोडणे | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "मुक्तपणे डिजिटल स्वाक्षरे पीडीएफ फाइलमध्ये जोडा आणि स्थानिक उपकरणांवर सुरक्षित करा, ज्यामुळे जास्तीत जास्त गोपनीयता आणि सुरक्षा सुनिश्चित होतील. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाही.",
-    "pdf_tools__compress_pdf__title": "PDF कमी करा - ऑनलाइन PDF आकार कमी करणे | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "फास्ट आणि सुरक्षित प्रदर्शनासाठी स्थानिक ब्राउझरमध्ये PDF फाइल कमी करा. वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाहीत."
+    "pdf_tools__sign_pdf__description": "मुक्तपणे डिजिटल स्वाक्षरे पीडीएफ फाइलमध्ये जोडा आणि स्थानिक उपकरणांवर सुरक्षित करा, ज्यामुळे जास्तीत जास्त गोपनीयता आणि सुरक्षा सुनिश्चित होतील. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाही."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",
@@ -992,7 +973,25 @@
     "payment_info__elite_desc": "एलिट पेशेवरांसाठी सर्वोत्तम",
     "plan_button__save_with_yearly_plan": "{{PRICE}} वार्षिक योजनेसह बचत करा",
     "plan_button__free_status__start_for_free": "मोफत सुरू करा",
-    "better_plan_display__everything_in_plan_plus": "प्लानमध्ये सर्व काही + {{PLAN}}"
+    "better_plan_display__everything_in_plan_plus": "प्लानमध्ये सर्व काही + {{PLAN}}",
+    "features__gmail_instant_reply": "जीमेल तात्पुरता प्रतिसाद",
+    "features__outlook_instant_reply": "आउटलुक तात्पुरता प्रतिसाद",
+    "features__facebook_instant_reply": "फेसबुक तात्पुरता प्रतिसाद",
+    "features__linkedin_instant_reply": "लिंक्डइन तात्पुरता प्रतिसाद",
+    "features__xtwitter_instant_reply": "एक्स/ट्विटर तात्पुरता प्रतिसाद",
+    "features__YouTube_instant_reply": "यूट्यूब तात्पुरता प्रतिसाद",
+    "features__instagram_instant_reply": "इंस्टाग्राम तात्पुरता प्रतिसाद",
+    "features__reddit_instant_reply": "रेडिट तात्पुरता प्रतिसाद",
+    "features__whatsapp_instant_reply": "व्हाट्सअ‍ॅप तात्पुरता प्रतिसाद",
+    "features__discord_instant_reply": "डिस्कॉर्ड तात्पुरता प्रतिसाद",
+    "features__telegram_instant_reply": "टेलिग्राम तात्पुरता प्रतिसाद",
+    "features__messenger_instant_reply": "मैसेंजर तात्पुरता प्रतिसाद",
+    "features__slack_instant_reply": "स्लॅक तात्पुरता प्रतिसाद",
+    "features__summarize_ask_pdf": "संक्षेपित करा आणि पीडीएफ विचारा",
+    "features__summarize_ask_youTube_video": "संक्षेपित करा आणि यूट्यूब व्हिडिओ विचारा",
+    "features__summarize_ask_email": "संक्षेपित करा आणि ईमेल विचारा",
+    "features__summarize_ask_any_webpage": "संक्षेपित करा आणि कोणत्याही वेबपेजवर विचारा",
+    "payment_info__team__per_user__desc": "प्रति वापरकर्ता"
   },
   "functionality__sign_pdf": {
     "components__sign_pdf__button_popover__change_style": "शैली बदला",
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "हस्ताक्षर PDF होमपेज",
     "components__sign_pdf__icon__sign": "साइन करा",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "काहीतरी टाइप करा..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "किमान",
-    "components__compress_pdf__main__compress_basic_grade_title": "मूळ",
-    "components__compress_pdf__main__compress_basic_grade_description": "मध्यम फाइल आकार, मानक रेझोल्यूशन",
-    "components__compress_pdf__main__compress_strong_grade_title": "मजबूत",
-    "components__compress_pdf__main__compress_strong_grade_description": "लहान फाइल आकार, किमान रेझोल्यूशन",
-    "components__compress_pdf__main__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
-    "components__compress_pdf__main__compress_download": "कमी करा आणि डाउनलोड करा",
-    "components__compress_pdf__main__choose_another_file": "दुसरी फाइल निवडा",
-    "components__compress_pdf__main__current_pdf_size": "PDF ची वर्तमान आकार",
-    "components__compress_pdf__main__original_pdf_size": "मूळ आकार",
-    "components__compress_pdf__main__different_pdf_size": "मागीलपेक्षा {{DiFF_NUMBER}}% लहान!",
-    "components__compress_pdf__main__compress_low_grade_description": "कमाल फाइल साईज, उच्च रेजोल्यूशन",
-    "components__compress_pdf__main__compress_error": "कंप्रेशन अयशस्वी, कृपया तपासा की PDF फाइल संकेतशित आहे किंवा असामान्य आहे!"
   }
 }

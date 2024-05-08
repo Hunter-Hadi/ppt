@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "繪製或上傳您的簽名。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "根據需要調整簽名的大小和位置。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "點擊立即下載已簽署的 PDF，一切都準備就緒且安全。",
-    "tools__index_page__constant_obj__compress_pdf__title": "壓縮PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "透過本地瀏覽器壓縮文字和嵌入式圖像，減小PDF檔案大小",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "使用我們尖端的在線PDF壓縮工具快速減小PDF文件大小，確保高質量結果，同時提供最大的安全性和效率。",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "快速的PDF壓縮過程",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "無需安裝外部軟件",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "高度安全和保密 - 您的文件在本地瀏覽器中處理",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "快速高效的壓縮",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "迅速減小PDF大小，同時不影響質量。我們的工具優化您的文件，實現更快的共享和最小的存儲使用。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "保持質量",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "我們的先進技術確保保留PDF的視覺完整性，保持圖像和文字的清晰度和可讀性。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "本地處理以增強安全性",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "我們尊重您的隱私。整個壓縮過程在您的瀏覽器內執行，確保您的文件不會離開您的設備。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "通用訪問性",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "無論身在何處，我們的在線PDF壓縮工具都可以讓您在任何設備上減小文件大小，而無需安裝任何軟件。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "離線功能",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "即使在離線時也可以進行壓縮。預加載頁面，您可以在沒有互聯網連接的情況下進行文件壓縮。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "自定義壓縮設置",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "根據您的具體需求調整壓縮級別，平衡文件大小減小和視覺質量之間的關係，確保每種類型的文檔都能獲得最佳結果。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "如何輕鬆壓縮PDF：",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "將PDF上傳到在線壓縮工具。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "該工具快速處理您的文件，減小其大小，同時保持質量。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "壓縮完成後立即將壓縮的PDF下載到您的設備。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "通過在首選的PDF閱讀器上打開壓縮的PDF來檢查質量和大小。"
+    "team_plan__title__description1": "為您的團隊提供最先進的人工智慧生產力工具。",
+    "team_plan__title__description2": "我們的團隊方案專為三人或以上的成員設計。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "在哪裡可以使用MaxAI.me？",
     "faq_list__question4__desc": "您可以在任何基於Chromium的瀏覽器（如Chrome和Edge）上的任何網站上使用MaxAI.me來撰寫、改進寫作、摘要、解釋、修正拼寫和語法、翻譯或回覆任何文本。",
     "faq_list__disclaimer_part1": "訂閱後，您將自動進行付款。請通過Stripe的客戶門戶從“我的計劃”中取消或管理您的訂閱。所有服務均根據您在註冊時確認的內容提供。",
-    "faq_list__disclaimer_part2": "請注意，此服務僅供人類正常使用。您不得與他人共享帳戶，也不得使用程式化方法繞過官方用戶界面訪問服務。如果違反服務條款導致財務或其他損失，我們保留追究法律責任並尋求適當補償的權利。",
+    "faq_list__disclaimer_part2": "請注意，此服務僅供人類正常使用。您不得與他人共享帳戶，也不得使用程式化方法繞過官方用戶界面訪問服務。請注意，所有付款都是最終且不可退款的。如果違反服務條款導致財務或其他損失，我們保留追究法律責任並尋求適當補償的權利。",
     "plan_features_table__gemini_tooltip_desc": "Google最強大且通用的模型。從頭開始為多模態而建立。Gemini在MaxAI上目前處於測試階段，僅支援文字和程式碼，將很快添加對圖片、視頻和音頻的支援。",
     "footer__resources": "資源",
     "promotion__banner__elite__title__limited_time_offer": "限時優惠",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite 年度方案！",
     "promotion__limited_time_offer": "限時優惠",
     "payment_type_switch__yearly__tip": "最高可節省{{RATIO}}%",
-    "footer__pdf_tools": "免費在線 PDF 工具"
+    "footer__pdf_tools": "免費在線 PDF 工具",
+    "faq_list__question5__title": "MaxAI 是否提供團隊方案？",
+    "faq_list__question5__desc__part1": "是的，MaxAI 提供團隊方案。如果您有興趣，您可以查看我們的",
+    "faq_list__question5__desc__part2": "團隊方案頁面",
+    "faq_list__question5__desc__part3": "以獲取更多資訊。"
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF轉HTML - 免費在線將PDF文件轉換為HTML | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "免費在線將PDF轉換為HTML。保持版面佈局並將圖片轉換為HTML。無需水印、文件大小限制、下載或註冊。",
     "pdf_tools__sign_pdf__title": "簽署PDF-免費將數字簽名添加到本地PDF文件| MaxAI.me",
-    "pdf_tools__sign_pdf__description": "輕鬆在本地設備上免費添加數字簽名到PDF文件，確保最大的隱私和安全性。無水印、文件大小限制、下載或註冊要求。",
-    "pdf_tools__compress_pdf__title": "壓縮PDF - 在線PDF大小減小 | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "在本地瀏覽器中壓縮PDF文件，確保快速和安全的性能。無水印，文件大小限制，無需下載或註冊。"
+    "pdf_tools__sign_pdf__description": "輕鬆在本地設備上免費添加數字簽名到PDF文件，確保最大的隱私和安全性。無水印、文件大小限制、下載或註冊要求。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "頂尖專業人士的最佳選擇",
     "plan_button__save_with_yearly_plan": "年付節省 {{PRICE}}",
     "plan_button__free_status__start_for_free": "免費開始",
-    "better_plan_display__everything_in_plan_plus": "計劃中的所有內容，再加上："
+    "better_plan_display__everything_in_plan_plus": "計劃中的所有內容，再加上：",
+    "features__gmail_instant_reply": "Gmail即時回覆",
+    "features__outlook_instant_reply": "Outlook即時回覆",
+    "features__facebook_instant_reply": "Facebook即時回覆",
+    "features__linkedin_instant_reply": "LinkedIn即時回覆",
+    "features__xtwitter_instant_reply": "X/Twitter即時回覆",
+    "features__YouTube_instant_reply": "YouTube即時回覆",
+    "features__instagram_instant_reply": "Instagram即時回覆",
+    "features__reddit_instant_reply": "Reddit即時回覆",
+    "features__whatsapp_instant_reply": "WhatsApp即時回覆",
+    "features__discord_instant_reply": "Discord即時回覆",
+    "features__telegram_instant_reply": "Telegram即時回覆",
+    "features__messenger_instant_reply": "Messenger即時回覆",
+    "features__slack_instant_reply": "Slack即時回覆",
+    "features__summarize_ask_pdf": "摘要和詢問PDF",
+    "features__summarize_ask_youTube_video": "摘要和詢問YouTube視頻",
+    "features__summarize_ask_email": "摘要和詢問電子郵件",
+    "features__summarize_ask_any_webpage": "摘要和詢問任何網頁",
+    "payment_info__team__per_user__desc": "每位使用者"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放至此"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "簽署PDF首頁",
     "components__sign_pdf__icon__sign": "簽署",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "輸入文字..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "低",
-    "components__compress_pdf__main__compress_basic_grade_title": "基本",
-    "components__compress_pdf__main__compress_basic_grade_description": "中等文件大小，標準分辨率",
-    "components__compress_pdf__main__compress_strong_grade_title": "強",
-    "components__compress_pdf__main__compress_strong_grade_description": "小文件大小，較低分辨率",
-    "components__compress_pdf__main__unsupported_file_type_tip": "請上傳指定的PDF文件類型",
-    "components__compress_pdf__main__compress_download": "壓縮並下載",
-    "components__compress_pdf__main__choose_another_file": "選擇其他文件",
-    "components__compress_pdf__main__current_pdf_size": "當前PDF大小",
-    "components__compress_pdf__main__original_pdf_size": "原始大小",
-    "components__compress_pdf__main__different_pdf_size": "與之前不同 {{DiFF_NUMBER}}% 更小！",
-    "components__compress_pdf__main__compress_low_grade_description": "最大檔案大小，更高解析度",
-    "components__compress_pdf__main__compress_error": "壓縮失敗，請檢查PDF文件是否加密或異常！"
   }
 }

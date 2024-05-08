@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Nupieškite arba įkelkite savo parašą.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pritaikykite parašo dydį ir padėtį pagal poreikį.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Spustelėkite, norėdami dabar atsisiųsti pasirašytą PDF, viskas yra paruošta ir saugu.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Suspausti PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Sumažinkite PDF dydį suspausdami tekstą ir įterptas vaizdus per vietinį naršyklę",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Greitai sumažinkite savo PDF dokumentų dydį naudodami mūsų pažangią internetinę PDF suspaudimo priemonę, užtikrinant aukštą kokybę, maksimalią saugumą ir efektyvumą.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Greitas PDF suspaudimo procesas",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nereikia išorinės programinės įrangos diegimo",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Labai saugu ir konfidencialu - jūsų failai apdorojami vietiniame naršyklėje",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Greitas ir Efektyvus Suspaudimas",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Patirkite greitą PDF dydžio mažinimą nesutrikdant kokybės. Mūsų įrankis optimizuoja jūsų failus, kad būtų greitesnis bendrinimas ir minimalus saugojimo naudojimas.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Išlaikyti Kokybę",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Mūsų pažangi technologija užtikrina, kad jūsų PDF vaizdo vientisumas būtų išsaugotas, išlaikant tiek vaizdų, tiek teksto aiškumą ir skaitymą.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Vietinis apdorojimas užtikrinant didesnį saugumą",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Mes teikiame pirmenybę jūsų privatumui. Visas suspaudimo procesas vykdomas jūsų naršyklėje, užtikrinant, kad jūsų dokumentai neišeitų iš jūsų įrenginio.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Visuotinė prieinamumas",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Pasiekiamas iš bet kur, mūsų internetinė PDF suspaudimo priemonė leidžia sumažinti failų dydžius bet kuriame įrenginyje be jokių diegimų.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Nepriklausomybė nuo interneto",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Galite suspausti net ir be interneto ryšio. Įkraukite puslapį ir galėsite tęsti failo suspaudimą neturėdami interneto ryšio.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Individualūs suspaudimo nustatymai",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Prisitaikykite suspaudimo lygį pagal savo specifinius poreikius, leidžiant individualiai reguliuoti tarp failo dydžio mažinimo ir vaizdo kokybės, užtikrinant optimalius rezultatus kiekvienam dokumento tipui.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kaip lengvai suspausti PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Įkelkite savo PDF į internetinę suspaudimo priemonę.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Priemonė greitai apdoroja jūsų failą, sumažindama jo dydį, išlaikant kokybę.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Po suspaudimo iškart atsisiųskite suspaustą PDF į savo įrenginį.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Patikrinkite suspausto PDF kokybę ir dydį, atidarę jį norimu PDF skaitytuvu."
+    "team_plan__title__description1": "Suteikite savo komandai pažangiausius dirbtinio intelekto produktyvumo įrankius.",
+    "team_plan__title__description2": "Mūsų komandos planas skirtas grupėms, turinčioms tris ar daugiau narių."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Ne, šie naudojimo limitai yra specifiniai modeliams, pvz., GPT-4, kurie tiesiogiai veikiami MaxAI. Jei turite mokamą planą ir naudojate savo API raktą, galite naudoti bet kokius su juo susietus modelius be jokių naudojimo limitų, nustatytų MaxAI. Norėdami gauti daugiau informacijos apie naudojimo limitus, žr.",
     "faq_list__question4__title": "Kur galiu naudoti MaxAI.me?",
     "faq_list__question4__desc": "Galite naudoti MaxAI.me bet kurioje svetainėje, naudodami bet kokius Chromium pagrindinius naršykles (pvz., „Chrome“ ir „Edge“), kad sudarytumėte, pagerintumėte rašymą, santraukotumėte, paaiškintumėte, ištaisytumėte rašybą ir gramatiką, verstumėte ar atsakytumėte į bet kokį tekstą.",
-    "faq_list__disclaimer_part1": "Prenumeruodami jūs užsiprenumeruojate automatinį mokėjimą. Atšaukite arba valdykite savo prenumeratą per „Stripe“ klientų portalą, pasirinkę „Mano planą“. Visos paslaugos teikiamos pagal ",
-    "faq_list__disclaimer_part2": " su kuriuo sutinkate prisiregistravęs. Paminėkite, kad ši paslauga skirta tik žmogiškam, normaliam naudojimui. Negalite bendrinti paskyros su kitais žmonėmis arba naudoti programinių metodų, siekiant pasiekti paslaugą, apeinant oficialų vartotojo sąsają. Jei pažeidžiami paslaugos teikimo sąlygos ir tai sukelia finansinių ar kitokių nuostolių, mes pasiliekame teisę imtis teisinių veiksmų ir ieškoti tinkamo atlyginimo.",
+    "faq_list__disclaimer_part1": "Prenumeruodami, jūs užsiprenumeruojate automatinį mokėjimą. Atšaukite arba valdykite savo prenumeratą per „Stripe“ klientų portalą iš „Mano planas“. Visos paslaugos teikiamos pagal ",
+    "faq_list__disclaimer_part2": " su kuriuo sutinkate prisiregistravęs. Prašome atkreipti dėmesį, kad ši paslauga skirta tik žmogiškam, normaliam naudojimui. Jūs negalite bendrinti paskyros su kitais žmonėmis arba naudoti programinių metodų, siekiant pasiekti paslaugą, apeinant oficialų vartotojo sąsają. Būkite informuotas, kad visi mokėjimai yra galutiniai ir negrąžinami. Jei pažeidžiant paslaugos teikimo sąlygas atsiranda finansinių ar kitokių nuostolių, mes pasiliekame teisę imtis teisinių veiksmų ir ieškoti tinkamo kompensacijos.",
     "plan_features_table__gemini_tooltip_desc": "Google patikimiausias ir universalus modelis. Sukurtas nuo nulio daugiamodalumui. Gemini MaxAI yra beta fazėje ir šiuo metu palaiko tik tekstą ir kodą, netrukus bus pridėta palaikymas vaizdams, vaizdo įrašams ir garso įrašams.",
     "footer__resources": "Šaltiniai",
     "promotion__banner__elite__title__limited_time_offer": "Ribotas laikas pasiūlymas",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite metiniam planui!",
     "promotion__limited_time_offer": "Ribotas laiko pasiūlymas",
     "payment_type_switch__yearly__tip": "Sutaupykite iki {{RATIO}}%",
-    "footer__pdf_tools": "Nemokami internetiniai PDF įrankiai"
+    "footer__pdf_tools": "Nemokami internetiniai PDF įrankiai",
+    "faq_list__question5__title": "Ar MaxAI siūlo komandos planus?",
+    "faq_list__question5__desc__part1": "Taip, MaxAI siūlo komandos planus. Jei jus domina, galite apsilankyti mūsų",
+    "faq_list__question5__desc__part2": "Komandos planai puslapyje",
+    "faq_list__question5__desc__part3": "daugiau informacijos."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF į HTML - Nemokamai konvertuokite PDF failus į HTML | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Nemokamai konvertuokite PDF į HTML. Išlaikykite maketą ir konvertuokite paveikslėlius į HTML. Nereikia vandensženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos.",
     "pdf_tools__sign_pdf__title": "PDF pasirašymas - Nemokamai pridedama skaitmeninė parašo į PDF failus vietiniame režime | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Paprastai pridėkite skaitmeninius parašus prie PDF failų nemokamai ir saugiai naudojant vietinius įrenginius, užtikrinant maksimalią privatumą ir saugumą. Nėra vandens ženklo, failo dydžio ribos, atsisiuntimo ar registracijos reikalavimų.",
-    "pdf_tools__compress_pdf__title": "Suspausti PDF - Internetinis PDF dydžio mažinimas | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Suspauskite PDF failus vietinėje naršyklėje, užtikrinant greitą ir saugų veikimą. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimo ar registracijos nereikia."
+    "pdf_tools__sign_pdf__description": "Paprastai pridėkite skaitmeninius parašus prie PDF failų nemokamai ir saugiai naudojant vietinius įrenginius, užtikrinant maksimalią privatumą ir saugumą. Nėra vandens ženklo, failo dydžio ribos, atsisiuntimo ar registracijos reikalavimų."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Geriausias elitiniams profesionalams",
     "plan_button__save_with_yearly_plan": "Sutaupykite {{PRICE}} su metiniu planu",
     "plan_button__free_status__start_for_free": "Pradėti nemokamai",
-    "better_plan_display__everything_in_plan_plus": "Viskas, kas yra {{PLAN}}, plius:"
+    "better_plan_display__everything_in_plan_plus": "Viskas, kas yra {{PLAN}}, plius:",
+    "features__gmail_instant_reply": "Gmail greitas atsakymas",
+    "features__outlook_instant_reply": "Outlook greitas atsakymas",
+    "features__facebook_instant_reply": "Facebook greitas atsakymas",
+    "features__linkedin_instant_reply": "LinkedIn greitas atsakymas",
+    "features__xtwitter_instant_reply": "X/Twitter greitas atsakymas",
+    "features__YouTube_instant_reply": "YouTube greitas atsakymas",
+    "features__instagram_instant_reply": "Instagram greitas atsakymas",
+    "features__reddit_instant_reply": "Reddit greitas atsakymas",
+    "features__whatsapp_instant_reply": "WhatsApp greitas atsakymas",
+    "features__discord_instant_reply": "Discord greitas atsakymas",
+    "features__telegram_instant_reply": "Telegram greitas atsakymas",
+    "features__messenger_instant_reply": "Messenger greitas atsakymas",
+    "features__slack_instant_reply": "Slack greitas atsakymas",
+    "features__summarize_ask_pdf": "Santrauka ir paklausk PDF",
+    "features__summarize_ask_youTube_video": "Santrauka ir paklausk YouTube vaizdo įrašo",
+    "features__summarize_ask_email": "Santrauka ir paklausk el. paštu",
+    "features__summarize_ask_any_webpage": "Santrauka ir paklausk bet kurios svetainės",
+    "payment_info__team__per_user__desc": "už vartotoją"
   },
   "features__common": {
     "components__upload_button_drop_title": "Mesti čia"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pasirašykite PDF pagrindinį puslapį",
     "components__sign_pdf__icon__sign": "Pasirašyti",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Įveskite kažką..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Žemas",
-    "components__compress_pdf__main__compress_basic_grade_title": "Pagrindinis",
-    "components__compress_pdf__main__compress_basic_grade_description": "Vidutinis failo dydis, standartinė raiška",
-    "components__compress_pdf__main__compress_strong_grade_title": "Stiprus",
-    "components__compress_pdf__main__compress_strong_grade_description": "Mažas failo dydis, mažesnė raiška",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
-    "components__compress_pdf__main__compress_download": "Suspausti ir Atsisiųsti",
-    "components__compress_pdf__main__choose_another_file": "Pasirinkite kitą failą",
-    "components__compress_pdf__main__current_pdf_size": "PDF dabartinis dydis",
-    "components__compress_pdf__main__original_pdf_size": "pradinis dydis",
-    "components__compress_pdf__main__different_pdf_size": "Skiriasi nuo ankstesnio dydis {{DiFF_NUMBER}}% mažesnis!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimalus failo dydis, Aukštesnė raiška",
-    "components__compress_pdf__main__compress_error": "Suspaudimo klaida, prašome patikrinti, ar PDF failas yra užšifruotas arba netinkamas!"
   }
 }

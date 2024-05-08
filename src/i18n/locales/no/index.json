@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Tegn eller last opp signaturen din.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Juster størrelsen og posisjonen til signaturen etter behov.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klikk for å laste ned den signerte PDF-en din nå, alt er klart og trygt.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Komprimer PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Reduser størrelsen på PDF-filer ved å komprimere tekst og innebygde bilder gjennom en lokal nettleser",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Reduser raskt størrelsen på PDF-dokumentene dine med vårt toppmoderne online PDF-komprimeringsverktøy, og få høykvalitetsresultater med maksimal sikkerhet og effektivitet.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Rask prosess for PDF-komprimering",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Ingen ekstern programvareinstallasjon nødvendig",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Høyt sikkerhetsnivå og konfidensialitet – filene dine behandles lokalt i nettleseren din",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Rask og effektiv komprimering",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Opplev rask reduksjon av PDF-størrelsen uten å gå på kompromiss med kvaliteten. Vårt verktøy optimaliserer filene dine for raskere deling og minimal lagringsbruk.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Behold kvaliteten",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Vår avanserte teknologi sikrer at den visuelle integriteten til PDF-ene dine bevares, og beholder klarheten og lesbarheten til både bilder og tekst.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokal behandling for økt sikkerhet",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Vi prioriterer personvernet ditt. Hele komprimeringsprosessen utføres i nettleseren din, slik at dokumentene dine ikke forlater enheten din.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Universell tilgjengelighet",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Tilgjengelig fra hvor som helst, vårt online PDF-komprimeringsverktøy lar deg redusere filstørrelser på hvilken som helst enhet uten behov for installasjoner.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline-funksjonalitet",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktiver komprimering selv når du er offline. Last inn siden på forhånd, og du kan fortsette med filkomprimering uten å trenge en internettilkobling.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Tilpassede komprimeringsinnstillinger",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Tilpass komprimeringsnivået etter dine spesifikke behov, slik at du kan justere mellom reduksjon av filstørrelse og visuell kvalitet, og sikre optimale resultater for alle typer dokumenter.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hvordan enkelt komprimere PDF-er:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Last opp PDF-en din til det online komprimeringsverktøyet.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Verktøyet behandler raskt filen din, reduserer størrelsen mens den opprettholder kvaliteten.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Last ned den komprimerte PDF-en til enheten din umiddelbart etter komprimering.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Sjekk kvaliteten og størrelsen på den komprimerte PDF-en ved å åpne den i foretrukket PDF-leser."
+    "team_plan__title__description1": "Gi teamet ditt de mest avanserte AI-produktivitetsverktøyene.",
+    "team_plan__title__description2": "Vår teamplan er designet for grupper med tre eller flere medlemmer."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "Hvor kan jeg bruke MaxAI.me?",
     "faq_list__question4__desc": "Du kan bruke MaxAI.me på hvilken som helst nettside i hvilken som helst Chromium-basert nettleser (som Chrome og Edge) for å komponere, forbedre skriving, oppsummere, forklare, rette stave- og grammatikkfeil, oversette eller svare på hvilken som helst tekst.",
     "faq_list__disclaimer_part1": "Ved å abonnere, melder du deg på automatisk betaling. Avbryt eller administrer abonnementet ditt gjennom Stripe's kundesenter fra \"Min Plan\". Alle tjenester leveres i henhold til ",
-    "faq_list__disclaimer_part2": " du bekrefter ved påmelding. Vær oppmerksom på at denne tjenesten er kun for menneskelig, normal bruk. Du kan ikke dele kontoen med andre personer eller bruke programvaremetoder for å få tilgang til tjenesten, og omgå den offisielle brukergrensesnittet. Hvis brudd på vilkårene for tjenesten fører til økonomiske eller andre skader, forbeholder vi oss retten til å ta rettslige skritt og kreve passende kompensasjon.",
+    "faq_list__disclaimer_part2": " du bekrefter ved påmelding. Vær oppmerksom på at denne tjenesten er kun for menneskelig, normal bruk. Du kan ikke dele kontoen med andre personer eller bruke programvaremetoder for å få tilgang til tjenesten ved å omgå den offisielle brukergrensesnittet. Vær oppmerksom på at alle betalinger er endelige og ikke-refunderbare. Hvis brudd på vilkårene for tjenesten fører til økonomiske eller andre skader, forbeholder vi oss retten til å ta rettslige skritt og søke passende kompensasjon.",
     "plan_features_table__gemini_tooltip_desc": "Googles mest kapable og generelle modell. Bygget fra grunnen av for multimodalitet. Gemini på MaxAI er for øyeblikket i betafasen, og støtter bare tekst og kode, vil snart legge til støtte for bilder, videoer og lyd.",
     "footer__resources": "Ressurser",
     "promotion__banner__elite__title__limited_time_offer": "Begrenset Tids Tilbud",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "på MaxAI Elite Årlig plan!",
     "promotion__limited_time_offer": "Begrenset tidstilbud",
     "payment_type_switch__yearly__tip": "Spar opptil {{RATIO}}%",
-    "footer__pdf_tools": "Gratis online PDF-verktøy"
+    "footer__pdf_tools": "Gratis online PDF-verktøy",
+    "faq_list__question5__title": "Tilbyr MaxAI teamplaner?",
+    "faq_list__question5__desc__part1": "Ja, MaxAI tilbyr teamplaner. Hvis du er interessert, kan du sjekke ut vår",
+    "faq_list__question5__desc__part2": "Team planer side",
+    "faq_list__question5__desc__part3": "for mer informasjon."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF til HTML - Konverter PDF-filer til HTML online gratis | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Konverter PDF til HTML online gratis. Behold layoutet og konverter bilder til HTML. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves.",
     "pdf_tools__sign_pdf__title": "Signering av PDF - Legge til digital signatur i PDF-filer lokalt gratis | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Legg enkelt til digitale signaturer i PDF-filer gratis og sikkert på lokale enheter, og sikre maksimal personvern og sikkerhet. Ingen vannmerke, filstørrelsesbegrensning, nedlasting eller registrering er nødvendig.",
-    "pdf_tools__compress_pdf__title": "Komprimer PDF – Online reduksjon av PDF-størrelse | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Komprimer PDF-filer i en lokal nettleser for å sikre rask og sikker ytelse. Ingen vannmerke, filstørrelsesgrense, nedlasting eller registrering er nødvendig."
+    "pdf_tools__sign_pdf__description": "Legg enkelt til digitale signaturer i PDF-filer gratis og sikkert på lokale enheter, og sikre maksimal personvern og sikkerhet. Ingen vannmerke, filstørrelsesbegrensning, nedlasting eller registrering er nødvendig."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Best for elite-profesjonelle",
     "plan_button__save_with_yearly_plan": "Spar {{PRICE}} med årlig plan",
     "plan_button__free_status__start_for_free": "Start gratis",
-    "better_plan_display__everything_in_plan_plus": "Alt i {{PLAN}} pluss:"
+    "better_plan_display__everything_in_plan_plus": "Alt i {{PLAN}} pluss:",
+    "features__gmail_instant_reply": "Gmail umiddelbar svar",
+    "features__outlook_instant_reply": "Outlook umiddelbar svar",
+    "features__facebook_instant_reply": "Facebook umiddelbar svar",
+    "features__linkedin_instant_reply": "LinkedIn umiddelbar svar",
+    "features__xtwitter_instant_reply": "X/Twitter umiddelbar svar",
+    "features__YouTube_instant_reply": "YouTube umiddelbar svar",
+    "features__instagram_instant_reply": "Instagram umiddelbar svar",
+    "features__reddit_instant_reply": "Reddit umiddelbar svar",
+    "features__whatsapp_instant_reply": "WhatsApp umiddelbar svar",
+    "features__discord_instant_reply": "Discord umiddelbar svar",
+    "features__telegram_instant_reply": "Telegram umiddelbar svar",
+    "features__messenger_instant_reply": "Messenger umiddelbar svar",
+    "features__slack_instant_reply": "Slack umiddelbar svar",
+    "features__summarize_ask_pdf": "Oppsummer og spør PDF",
+    "features__summarize_ask_youTube_video": "Oppsummer og spør YouTube-video",
+    "features__summarize_ask_email": "Oppsummer og spør e-post",
+    "features__summarize_ask_any_webpage": "Oppsummer og spør hvilken som helst nettside",
+    "payment_info__team__per_user__desc": "per bruker"
   },
   "features__common": {
     "components__upload_button_drop_title": "Slipp her"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside",
     "components__sign_pdf__icon__sign": "Signer",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv noe…"
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Lav",
-    "components__compress_pdf__main__compress_basic_grade_title": "Grunnleggende",
-    "components__compress_pdf__main__compress_basic_grade_description": "Medium filstørrelse, standard oppløsning",
-    "components__compress_pdf__main__compress_strong_grade_title": "Sterk",
-    "components__compress_pdf__main__compress_strong_grade_description": "Liten filstørrelse, lavere oppløsning",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
-    "components__compress_pdf__main__compress_download": "Komprimer og Last ned",
-    "components__compress_pdf__main__choose_another_file": "Velg en annen fil",
-    "components__compress_pdf__main__current_pdf_size": "Gjeldende PDF-størrelse",
-    "components__compress_pdf__main__original_pdf_size": "opprinnelig størrelse",
-    "components__compress_pdf__main__different_pdf_size": "Annerledes enn før {{DiFF_NUMBER}}% mindre!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimal filstørrelse, Høyere oppløsning",
-    "components__compress_pdf__main__compress_error": "Komprimering mislyktes, vennligst sjekk om PDF-filen er kryptert eller unormal!"
   }
 }

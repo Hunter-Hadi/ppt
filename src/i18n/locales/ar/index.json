@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "قم برسم توقيعك أو تحميله.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "ضبط حجم وموضع التوقيع حسب الحاجة.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "انقر لتنزيل ملف PDF الموقع الخاص بك الآن، كل شيء جاهز وآمن.",
-    "tools__index_page__constant_obj__compress_pdf__title": "ضغط PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "قم بتقليل حجم ملفات PDF عن طريق ضغط النصوص والصور المدمجة باستخدام المتصفح المحلي",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "قم بتقليل حجم مستندات PDF الخاصة بك بسرعة باستخدام أداة ضغط PDF الحديثة لدينا، مع ضمان نتائج عالية الجودة وأمان وكفاءة قصوى.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "عملية ضغط PDF سريعة",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "لا حاجة لتثبيت برامج خارجية",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "آمنة وسرية للغاية - يتم معالجة ملفاتك محليًا في المتصفح الخاص بك",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "ضغط سريع وفعال",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "استمتع بتقليل حجم ملفات PDF بسرعة دون المساس بالجودة. تقوم أداةنا بتحسين ملفاتك لمشاركتها بشكل أسرع واستخدام تخزين أقل.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "الحفاظ على الجودة",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "تضمن تقنيتنا المتقدمة الحفاظ على سلامة الصور والنصوص في ملفات PDF الخاصة بك، مع الحفاظ على وضوحها وقراءتها.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "معالجة محلية لتعزيز الأمان",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "نحن نولي اهتمامًا كبيرًا لخصوصيتك. يتم تنفيذ عملية الضغط بأكملها داخل المتصفح الخاص بك، مما يضمن عدم مغادرة مستنداتك جهازك.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "إمكانية الوصول الشاملة",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "يمكن الوصول إليها من أي مكان، تتيح لك أداة ضغط PDF الخاصة بنا تقليل حجم الملفات على أي جهاز دون الحاجة إلى أي تثبيتات.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "القدرة على العمل دون اتصال",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "قم بتمكين الضغط حتى عندما تكون غير متصل بالإنترنت. قم بتحميل الصفحة مسبقًا ويمكنك الاستمرار في ضغط الملف دون الحاجة إلى اتصال بالإنترنت.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "إعدادات ضغط مخصصة",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "قم بتخصيص مستوى الضغط حسب احتياجاتك الخاصة، مما يتيح لك إجراء تعديلات مخصصة لتحقيق التوازن بين تقليل حجم الملف وجودة الصورة، مع ضمان الحصول على نتائج مثالية لكل نوع من المستندات.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "كيفية ضغط ملفات PDF بسهولة:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "قم بتحميل ملف PDF الخاص بك إلى أداة الضغط عبر الإنترنت.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "تقوم الأداة بمعالجة ملفك بسرعة، مما يقلل من حجمه دون التأثير على الجودة.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "قم بتنزيل ملف PDF المضغوط إلى جهازك فور الضغط.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "تحقق من جودة وحجم ملف PDF المضغوط عن طريق فتحه في قارئ PDF المفضل لديك."
+    "team_plan__title__description1": "امنح فريقك أدوات إنتاجية متقدمة بالذكاء الاصطناعي.",
+    "team_plan__title__description2": "تم تصميم خطة الفريق للمجموعات المكونة من ثلاثة أعضاء أو أكثر."
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "أين يمكنني استخدام MaxAI.me؟",
     "faq_list__question4__desc": "يمكنك استخدام MaxAI.me على أي موقع ويب على أي متصفحات تعتمد على Chromium (مثل Chrome و Edge) للتأليف وتحسين الكتابة وتلخيصها وشرحها وإصلاح الإملاء والقواعد النحوية والترجمة أو الرد على أي نص.",
     "faq_list__disclaimer_part1": "من خلال الاشتراك، أنت تقوم بالتسجيل في الدفع التلقائي. قم بإلغاء الاشتراك أو إدارته من خلال بوابة عملاء Stripe في \"خطتي\". يتم تقديم جميع الخدمات وفقًا لـ ",
-    "faq_list__disclaimer_part2": " الذي تؤكده عند التسجيل. يرجى ملاحظة أن هذه الخدمة مخصصة للاستخدام البشري العادي فقط. قد لا تشارك الحساب مع أشخاص آخرين أو تستخدم طرق برمجية للوصول إلى الخدمة بشكل يتجاوز واجهة المستخدم الرسمية. في حالة انتهاك شروط الخدمة يؤدي إلى أضرار مالية أو أضرار أخرى، نحتفظ بالحق في متابعة الإجراءات القانونية وطلب التعويض المناسب.",
+    "faq_list__disclaimer_part2": " الذي تؤكده عند التسجيل. يُرجى ملاحظة أن هذه الخدمة مخصصة للاستخدام البشري العادي فقط. قد لا تشارك الحساب مع أشخاص آخرين أو تستخدم طرق برمجية للوصول إلى الخدمة بشكل يتجاوز واجهة المستخدم الرسمية. يُرجى ملاحظة أن جميع المدفوعات نهائية وغير قابلة للاسترداد. في حالة انتهاكات شروط الخدمة تؤدي إلى أضرار مالية أو أضرار أخرى، نحتفظ بالحق في متابعة الإجراءات القانونية وطلب التعويض المناسب.",
     "plan_features_table__gemini_tooltip_desc": "النموذج الأكثر قدرة وعام من Google. تم بناؤه من الألف إلى الياء للتعددية. يعمل Gemini على MaxAI حاليًا في المرحلة التجريبية، ويدعم فقط النصوص والشفرات، وسيتم دعم الصور ومقاطع الفيديو والصوت قريبًا.",
     "footer__resources": "الموارد",
     "promotion__banner__elite__title__limited_time_offer": "عرض لفترة محدودة",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "على خطة MaxAI Elite السنوية!",
     "promotion__limited_time_offer": "عرض لفترة محدودة",
     "payment_type_switch__yearly__tip": "وفّر حتى {{RATIO}}%",
-    "footer__pdf_tools": "أدوات PDF المجانية عبر الإنترنت"
+    "footer__pdf_tools": "أدوات PDF المجانية عبر الإنترنت",
+    "faq_list__question5__title": "هل تقدم MaxAI خططًا للفرق؟",
+    "faq_list__question5__desc__part1": "نعم، يقدم MaxAI خططًا للفرق. إذا كنت مهتمًا، يمكنك التحقق من صفحة",
+    "faq_list__question5__desc__part2": "خطط الفرق",
+    "faq_list__question5__desc__part3": "لمزيد من المعلومات."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "تحويل PDF إلى HTML - تحويل ملفات PDF إلى HTML عبر الإنترنت مجانًا | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "تحويل ملف PDF إلى HTML عبر الإنترنت مجانًا. الحفاظ على التنسيق وتحويل الصور إلى HTML. لا يوجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيل الدخول المطلوب.",
     "pdf_tools__sign_pdf__title": "توقيع ملف PDF - إضافة توقيع رقمي لملفات PDF محليًا مجانًا | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "أضف بسهولة توقيعات رقمية إلى ملفات PDF مجانًا وآمنة على الأجهزة المحلية، مع ضمان الخصوصية والأمان القصوى. لا يوجد علامة مائية، أو حد لحجم الملف، أو تحميل، أو تسجيل مطلوب.",
-    "pdf_tools__compress_pdf__title": "ضغط PDF - تقليل حجم ملفات PDF عبر الإنترنت | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "قم بضغط ملفات PDF في المتصفح المحلي لضمان أداء سريع وآمن. لا علامة مائية، ولا حدود لحجم الملف، ولا حاجة للتنزيل أو التسجيل."
+    "pdf_tools__sign_pdf__description": "أضف بسهولة توقيعات رقمية إلى ملفات PDF مجانًا وآمنة على الأجهزة المحلية، مع ضمان الخصوصية والأمان القصوى. لا يوجد علامة مائية، أو حد لحجم الملف، أو تحميل، أو تسجيل مطلوب."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "الأفضل للمحترفين المتميزين",
     "plan_button__save_with_yearly_plan": "وفّر {{PRICE}} مع خطة سنوية",
     "plan_button__free_status__start_for_free": "ابدأ مجاناً",
-    "better_plan_display__everything_in_plan_plus": "كل شيء في {{PLAN}} بالإضافة إلى:"
+    "better_plan_display__everything_in_plan_plus": "كل شيء في {{PLAN}} بالإضافة إلى:",
+    "features__gmail_instant_reply": "الرد الفوري على Gmail",
+    "features__outlook_instant_reply": "الرد الفوري على Outlook",
+    "features__facebook_instant_reply": "الرد الفوري على Facebook",
+    "features__linkedin_instant_reply": "الرد الفوري على LinkedIn",
+    "features__xtwitter_instant_reply": "الرد الفوري على X/Twitter",
+    "features__YouTube_instant_reply": "الرد الفوري على YouTube",
+    "features__instagram_instant_reply": "الرد الفوري على Instagram",
+    "features__reddit_instant_reply": "الرد الفوري على Reddit",
+    "features__whatsapp_instant_reply": "الرد الفوري على WhatsApp",
+    "features__discord_instant_reply": "الرد الفوري على Discord",
+    "features__telegram_instant_reply": "الرد الفوري على Telegram",
+    "features__messenger_instant_reply": "الرد الفوري على Messenger",
+    "features__slack_instant_reply": "الرد الفوري على Slack",
+    "features__summarize_ask_pdf": "تلخيص وطلب ملف PDF",
+    "features__summarize_ask_youTube_video": "تلخيص وطلب فيديو YouTube",
+    "features__summarize_ask_email": "تلخيص وطلب بريد إلكتروني",
+    "features__summarize_ask_any_webpage": "تلخيص وطلب أي صفحة ويب",
+    "payment_info__team__per_user__desc": "لكل مستخدم"
   },
   "features__common": {
     "components__upload_button_drop_title": "اسحب هنا"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحة الصفحة الرئيسية لتوقيع PDF",
     "components__sign_pdf__icon__sign": "توقيع",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "اكتب شيئًا..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "منخفض",
-    "components__compress_pdf__main__compress_basic_grade_title": "أساسي",
-    "components__compress_pdf__main__compress_basic_grade_description": "حجم ملف متوسط، دقة قياسية",
-    "components__compress_pdf__main__compress_strong_grade_title": "قوي",
-    "components__compress_pdf__main__compress_strong_grade_description": "حجم ملف صغير، دقة أقل",
-    "components__compress_pdf__main__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
-    "components__compress_pdf__main__compress_download": "ضغط وتنزيل",
-    "components__compress_pdf__main__choose_another_file": "اختر ملف آخر",
-    "components__compress_pdf__main__current_pdf_size": "حجم الـPDF الحالي",
-    "components__compress_pdf__main__original_pdf_size": "الحجم الأصلي",
-    "components__compress_pdf__main__different_pdf_size": "أصغر بنسبة {{DiFF_NUMBER}}% من السابق!",
-    "components__compress_pdf__main__compress_low_grade_description": "أقصى حجم للملف، دقة أعلى",
-    "components__compress_pdf__main__compress_error": "فشل ضغط الملف، يرجى التحقق مما إذا كان ملف PDF مشفرًا أو غير طبيعي!"
   }
 }

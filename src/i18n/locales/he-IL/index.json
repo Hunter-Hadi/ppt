@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "צייר או העלה את החתימה שלך.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "התאם את גודל החתימה ומיקומה כפי שנדרש.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "לחץ כדי להוריד את ה-PDF שחתמת, הכל מוכן ובטוח.",
-    "tools__index_page__constant_obj__compress_pdf__title": "דחיסת PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "הפחת את גודל ה-PDF על ידי דחיסת טקסט ותמונות מוטבעות באמצעות דפדפן מקומי",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "הפחת במהירות את גודל מסמכי ה-PDF שלך עם כלי הדחיסה המתקדם שלנו, והבטיח תוצאות איכותיות עם מקסימום אבטחה ויעילות.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "תהליך דחיסת PDF מהיר",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "אין צורך בהתקנת תוכנה חיצונית",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "בטיחות גבוהה וסודיות מרבית - הקבצים שלך מעובדים באופן מקומי בדפדפן שלך",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "דחיסה מהירה ויעילה",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "חווי דחיסת גודל PDF מהירה ללא התפשרות על איכות. הכלי שלנו ממטב את הקבצים שלך לשיתוף מהיר ושימוש מינימלי באחסון.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "שמירה על איכות",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "הטכנולוגיה המתקדמת שלנו מבטיחה שתתוך הראייה של ה-PDF שלך יישמר, והתמידות והקריאות של התמונות והטקסט יישמרו.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "עיבוד מקומי לבטיחות משופרת",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "אנחנו נותנים עדיפות לפרטיות שלך. תהליך הדחיסה המלא מבוצע בתוך הדפדפן שלך, ומבטיח שהמסמכים שלך לא יעזבו את המכשיר שלך.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "נגישות אוניברסלית",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "נגיש מכל מקום, הכלי לדחיסת PDF המקוון שלנו מאפשר לך להפחית גודל קבצים בכל מכשיר מבלי להתקין כל דבר.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "יכולת לעבוד במצב לא מקוון",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "אפשר דחיסה גם כשאתה לא מחובר לאינטרנט. טען מראש את הדף, ותוכל להמשיך עם דחיסת הקובץ בלי צורך בחיבור לאינטרנט.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "הגדרות דחיסה מותאמות אישית",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "התאם את רמת הדחיסה לצרכים המדויקים שלך, ואפשר תיקונים מותאמים אישית כדי לאזן בין דחיסת גודל הקובץ לבין איכות הוויזואלית, ולהבטיח תוצאות אופטימליות לכל סוג של מסמך.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "איך לדחוס PDF בקלות:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "העלה את ה-PDF שלך לכלי הדחיסה המקוון.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "הכלי מעבד את הקובץ שלך במהירות, ומפחית את גודלו בלתי מוגבל בשמירה על איכות.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "הורד את ה-PDF הדחוס למכשיר שלך מיד לאחר הדחיסה.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "בדוק את איכות וגודל ה-PDF הדחוס על ידי פתיחתו בקורא ה-PDF המועדף עליך."
+    "team_plan__title__description1": "הענק לצוות שלך את הכלים המתקדמים ביותר ליעילות AI.",
+    "team_plan__title__description2": "תוכנית הצוות שלנו מיועדת לקבוצות של שלושה חברים או יותר."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "לא, המגבלות האלו חלות על מודלים כמו GPT-4 שפעלים ישירות על ידי MaxAI. אם אתה בתוכנית מוזמנת ומשתמש במפתח ה-API שלך, תוכל להשתמש בכל המודלים המקושרים אליו ללא הגבלות שימוש שנקבעו על ידי MaxAI. לפרטים נוספים על הגבלות השימוש, עיין ב",
     "faq_list__question4__title": "היכן אני יכול להשתמש ב-MaxAI.me?",
     "faq_list__question4__desc": "ניתן להשתמש ב-MaxAI.me בכל אתר אינטרנט בכל דפדפן המבוסס על Chromium (כמו Chrome ו-Edge) כדי לחבר, לשפר כתיבה, לסכם, להסביר, לתקן איות ודקדוק, לתרגם או להגיב לכל טקסט.",
-    "faq_list__disclaimer_part1": "על ידי הרשמה, אתה מתחייב לתשלום אוטומטי. באפשרותך לבטל או לנהל את המינוי שלך דרך פורטל הלקוח של Stripe מתוך \"התוכנית שלי\". כל השירותים מועברים על פי ",
-    "faq_list__disclaimer_part2": "אתה מאשר זאת בעת ההרשמה שלך. שים לב ששירות זה מיועד לשימוש אנושי רגיל בלבד. אין לך רשות לשתף את החשבון עם אנשים אחרים או להשתמש בשיטות תכנותיות לגישה לשירות, ולעבור על ממשק המשתמש הרשמי. במקרה של הפרת תנאי השירות שגורמת לנזקים כלכליים או אחרים, אנו שומרים על הזכות להגיש תביעה משפטית ולדרוש פיצויים מתאימים.",
+    "faq_list__disclaimer_part1": "על ידי הרשמה, אתה מתחייב לתשלומים אוטומטיים. באפשרותך לבטל או לנהל את המינוי שלך דרך פורטל הלקוח של Stripe מתוך \"התוכנית שלי\". כל השירותים מועברים על פי ",
+    "faq_list__disclaimer_part2": " אתה מאשר את זה בעת ההרשמה שלך. יש לציין כי השירות הזה מיועד לשימוש אנושי ורגיל בלבד. אסור לשתף את החשבון עם אנשים אחרים או להשתמש בשיטות תכנותיות לגישה לשירות, על פי דרך חוקית, שמתעלמות מממשק המשתמש הרשמי. יש לקחת בחשבון כי כל התשלומים הם סופיים ואינם ניתנים להחזר. במקרה של הפרת תנאי השירות שגורמת לנזקים כלכליים או אחרים, אנו שומרים על הזכות להגיש תביעה משפטית ולדרוש פיצויים מתאימים.",
     "plan_features_table__gemini_tooltip_desc": "הדגם הכי מוכשר וכללי של Google. בנוי מאפס עבור מולטימודליות. Gemini על MaxAI נמצא כרגע בשלב הבטא, תומך רק בטקסט ובקוד, יתמוך בקרוב גם בתמונות, וידאו ושמע.",
     "footer__resources": "משאבים",
     "promotion__banner__elite__title__limited_time_offer": "הצעת זמן מוגבל",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "בתוכנית השנתית של MaxAI Elite!",
     "promotion__limited_time_offer": "הצעת זמן מוגבל",
     "payment_type_switch__yearly__tip": "חסוך עד {{RATIO}}%",
-    "footer__pdf_tools": "כלי PDF מקוונים חינמיים"
+    "footer__pdf_tools": "כלי PDF מקוונים חינמיים",
+    "faq_list__question5__title": "האם MaxAI מציע תוכניות צוות?",
+    "faq_list__question5__desc__part1": "כן, MaxAI מציע תוכניות צוות. אם אתה מעוניין, תוכל לבדוק את",
+    "faq_list__question5__desc__part2": "דף התוכניות לצוות",
+    "faq_list__question5__desc__part3": "למידע נוסף."
   },
   "affiliate": {
     "hero_section__indicator__label": "#1 מוצר של השבוע",
@@ -812,9 +795,7 @@
     "pdf_tools__pdf_to_html__title": "PDF ל-HTML - המרת קבצי PDF ל-HTML באופן מקוון חינמי | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "המרת PDF ל-HTML באופן מקוון חינמי. שמירה על פריסה והמרת תמונות ל-HTML. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
     "pdf_tools__sign_pdf__title": "חתימה על PDF - הוספת חתימה דיגיטלית לקבצי PDF באופן מקומי ובחינם | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "הוסף בקלות חתימה דיגיטלית לקבצי PDF בחינם ובטוח על התקנים המקומיים שלך, ובכך מבטיח פרטיות ואבטחה מרבית. ללא סימון מים, מגבלת גודל קובץ, הורדה או הרשמה.",
-    "pdf_tools__compress_pdf__title": "דחיסת PDF - הפחתת גודל PDF מקוון | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "דחיסת קבצי PDF בדפדפן מקומי כדי להבטיח ביצועים מהירים ומאובטחים. ללא סימני מים, הגבלת גודל קובץ, הורדה או הרשמה."
+    "pdf_tools__sign_pdf__description": "הוסף בקלות חתימה דיגיטלית לקבצי PDF בחינם ובטוח על התקנים המקומיים שלך, ובכך מבטיח פרטיות ואבטחה מרבית. ללא סימון מים, מגבלת גודל קובץ, הורדה או הרשמה."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -988,7 +969,25 @@
     "payment_info__elite_desc": "מתאים למקצוענים מהשורה הראשונה",
     "plan_button__save_with_yearly_plan": "חסוך {{PRICE}} עם תוכנית שנתית",
     "plan_button__free_status__start_for_free": "התחל בחינם",
-    "better_plan_display__everything_in_plan_plus": "הכל בתוך {{PLAN}} פלוס:"
+    "better_plan_display__everything_in_plan_plus": "הכל בתוך {{PLAN}} פלוס:",
+    "features__gmail_instant_reply": "תשובה מיידית ב-Gmail",
+    "features__outlook_instant_reply": "תשובה מיידית ב-Outlook",
+    "features__facebook_instant_reply": "תשובה מיידית ב-Facebook",
+    "features__linkedin_instant_reply": "תשובה מיידית ב-LinkedIn",
+    "features__xtwitter_instant_reply": "תשובה מיידית ב-X/Twitter",
+    "features__YouTube_instant_reply": "תשובה מיידית ב-YouTube",
+    "features__instagram_instant_reply": "תשובה מיידית ב-Instagram",
+    "features__reddit_instant_reply": "תשובה מיידית ב-Reddit",
+    "features__whatsapp_instant_reply": "תשובה מיידית ב-WhatsApp",
+    "features__discord_instant_reply": "תשובה מיידית ב-Discord",
+    "features__telegram_instant_reply": "תשובה מיידית ב-Telegram",
+    "features__messenger_instant_reply": "תשובה מיידית ב-Messenger",
+    "features__slack_instant_reply": "תשובה מיידית ב-Slack",
+    "features__summarize_ask_pdf": "סיכום ושאלה ב-PDF",
+    "features__summarize_ask_youTube_video": "סיכום ושאלה בסרטון YouTube",
+    "features__summarize_ask_email": "סיכום ושאלה בדוא\"ל",
+    "features__summarize_ask_any_webpage": "סיכום ושאלה בכל עמוד אינטרנט",
+    "payment_info__team__per_user__desc": "לכל משתמש"
   },
   "features__common": {
     "components__upload_button_drop_title": "הפניה כאן"
@@ -1030,20 +1029,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "דף הבית של חתימת PDF",
     "components__sign_pdf__icon__sign": "חתום",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "הקלד משהו..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "נמוך",
-    "components__compress_pdf__main__compress_basic_grade_title": "בסיסי",
-    "components__compress_pdf__main__compress_basic_grade_description": "גודל קובץ בינוני, רזולוציה סטנדרטית",
-    "components__compress_pdf__main__compress_strong_grade_title": "חזק",
-    "components__compress_pdf__main__compress_strong_grade_description": "גודל קובץ קטן, רזולוציה נמוכה",
-    "components__compress_pdf__main__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
-    "components__compress_pdf__main__compress_download": "דחיסה והורדה",
-    "components__compress_pdf__main__choose_another_file": "בחר קובץ אחר",
-    "components__compress_pdf__main__current_pdf_size": "גודל ה-PDF הנוכחי",
-    "components__compress_pdf__main__original_pdf_size": "גודל מקורי",
-    "components__compress_pdf__main__different_pdf_size": "שונה מהקודם ב-{{DiFF_NUMBER}}% קטן!",
-    "components__compress_pdf__main__compress_low_grade_description": "גודל קובץ מרבי, רזולוציה גבוהה",
-    "components__compress_pdf__main__compress_error": "הדחיסה נכשלה, אנא בדוק אם קובץ ה-PDF מוצפן או לא תקין!"
   }
 }

@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Rajzold vagy töltsd fel az aláírásodat.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Állítsd be az aláírás méretét és pozícióját szükség szerint.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kattintson a letöltéshez az aláírt PDF-re, minden készen áll és biztonságban van.",
-    "tools__index_page__constant_obj__compress_pdf__title": "PDF tömörítése",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "A PDF méretének csökkentése a szöveg és beágyazott képek tömörítésével helyben a böngészőben",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Gyorsan csökkentse PDF dokumentumainak méretét a legmodernebb online PDF tömörítő eszközünkkel, amely biztosítja a magas minőséget maximális biztonság és hatékonyság mellett.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Gyors PDF tömörítési folyamat",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nincs szükség külső szoftver telepítésére",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Magas biztonság és bizalmas kezelés – a fájlok helyben vannak feldolgozva a böngészőben",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Gyors és hatékony tömörítés",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Tapasztalja meg a gyors PDF méretcsökkentést anélkül, hogy a minőségen kompromisszumot kellene kötnie. Az eszközünk optimalizálja a fájlokat gyorsabb megosztáshoz és minimális tárolási igényhez.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Minőség megőrzése",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Fejlett technológiánk biztosítja, hogy a PDF-ek vizuális integritása megmaradjon, megőrizve mind az képek, mind a szöveg tisztaságát és olvashatóságát.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Helyi feldolgozás a megnövelt biztonság érdekében",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Fontosnak tartjuk a magánéletét. Az egész tömörítési folyamat a böngészőjében történik, így a dokumentumai nem hagyják el az eszközét.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Egyetemes hozzáférhetőség",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Bárhol elérhető, online PDF tömörítő eszközünk lehetővé teszi a fájlok méretének csökkentését bármilyen eszközön, telepítés nélkül.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline képesség",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Engedélyezze a tömörítést akkor is, ha nincs internetkapcsolat. Töltse be az oldalt, és folytathatja a fájltömörítést internetkapcsolat nélkül.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Egyedi tömörítési beállítások",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Szabja testre a tömörítés szintjét az egyedi igényei szerint, lehetővé téve testreszabott beállításokat a fájlméret csökkentése és a vizuális minőség közötti egyensúly megteremtéséhez, optimális eredményeket biztosítva minden dokumentumtípushoz.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hogyan tömörítheti könnyedén a PDF-eket:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Töltse fel a PDF-et az online tömörítő eszközbe.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Az eszköz gyorsan feldolgozza a fájlt, méretét csökkentve, miközben a minőséget megőrzi.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Töltse le a tömörített PDF-et azonnal a készülékére a tömörítés után.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Ellenőrizze a tömörített PDF minőségét és méretét, amikor megnyitja azt a kívánt PDF olvasóban."
+    "team_plan__title__description1": "Adja csapatának a legfejlettebb AI termelékenységi eszközöket.",
+    "team_plan__title__description2": "Csapatunk terve három vagy több tagú csoportok számára készült."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Nem, ezeket a használati korlátokat kizárólag a MaxAI által közvetlenül üzemeltetett GPT-4 típusú modellekre alkalmazzák. Ha fizetős tervben vagy, és saját API-kulcsot használsz, akkor bármelyik hozzákapcsolt modellt használhatod a MaxAI által meghatározott használati korlátok nélkül. További részletekért az használati korlátokkal kapcsolatban lásd a",
     "faq_list__question4__title": "Hol használhatom a MaxAI.me-t?",
     "faq_list__question4__desc": "A MaxAI.me-t bármely webhelyen, bármilyen Chromium-alapú böngészőben (pl. Chrome és Edge) használhatod szövegírásra, írásfejlesztésre, összefoglalásra, magyarázatra, helyesírás és nyelvtan javítására, fordításra vagy válaszadásra.",
-    "faq_list__disclaimer_part1": "Az automatikus fizetési rendszerbe való feliratkozással elfogadja a Stripe ügyfélportálján keresztül történő \"Saját Tervem\" menüpontban történő lemondást vagy kezelést. Az összes szolgáltatás az alábbiak szerint kerülnek kézbesítésre: ",
-    "faq_list__disclaimer_part2": " amit a regisztrációval megerősített. Kérjük, vegye figyelembe, hogy ez a szolgáltatás csak emberi, normál használatra szolgál. Nem oszthatja meg más emberekkel a fiókot, és nem használhat programozási módszereket a hivatalos felhasználói felület kikerülésére. Amennyiben a Szolgáltatási feltételek megsértése anyagi vagy egyéb károkat okoz, fenntartjuk a jogot arra, hogy jogi lépéseket tegyünk és megfelelő kártérítést követeljünk.",
+    "faq_list__disclaimer_part1": "Az automatikus fizetési rendszerbe való feliratkozással elfogadja a Stripe ügyfélportálján keresztül történő \"Saját Tervem\" menüpontban történő lemondást vagy kezelést. Minden szolgáltatás az Ön által aláírt szerződés szerint kerül nyújtásra. Kérjük, vegye figyelembe, hogy ez a szolgáltatás csak emberi, normál használatra szolgál. Nem oszthatja meg más emberekkel a fiókot, és nem használhat programozási módszereket a hivatalos felhasználói felület kikerülésére. Kérjük, vegye figyelembe, hogy minden fizetés végleges és nem visszatéríthető. Abban az esetben, ha a Szolgáltatási Feltételek megsértése anyagi vagy egyéb károkat okoz, fenntartjuk a jogot arra, hogy jogi lépéseket tegyünk és megfelelő kártérítést követeljünk.",
+    "faq_list__disclaimer_part2": " megerősíted a regisztrációt. Kérjük vedd figyelembe, hogy ez a szolgáltatás csak emberi, normál használatra szolgál. Nem oszthatod meg más emberekkel a fiókot, és nem használhatsz programozási módszereket a hivatalos felhasználói felület kikerülésére. Kérjük vedd figyelembe, hogy minden fizetés végleges és nem visszatéríthető. Abban az esetben, ha a Szolgáltatási feltételek megsértése anyagi vagy egyéb károkat okoz, fenntartjuk a jogot, hogy jogi lépéseket tegyünk és megfelelő kártérítést követeljünk.",
     "plan_features_table__gemini_tooltip_desc": "Google legképzettebb és általános modellje. A multimodalitásra épült alapoktól kezdve. A Gemini a MaxAI-n jelenleg béta fázisban van, csak szöveget és kódot támogat, hamarosan képeket, videókat és hangot is hozzáad.",
     "footer__resources": "Erőforrások",
     "promotion__banner__elite__title__limited_time_offer": "Korlátozott ideig érvényes ajánlat",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "a MaxAI Elite Éves csomagján!",
     "promotion__limited_time_offer": "Korlátozott ideig érvényes ajánlat",
     "payment_type_switch__yearly__tip": "Akár {{RATIO}}% megtakarítás",
-    "footer__pdf_tools": "Ingyenes online PDF eszközök"
+    "footer__pdf_tools": "Ingyenes online PDF eszközök",
+    "faq_list__question5__title": "Kínál-e a MaxAI csapatcsomagokat?",
+    "faq_list__question5__desc__part1": "Igen, a MaxAI kínál csapatcsomagokat. Ha érdekel, akkor megnézheted a",
+    "faq_list__question5__desc__part2": "Csapatcsomagok oldalunkat",
+    "faq_list__question5__desc__part3": "további információért."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF to HTML - PDF fájlok ingyenes online átalakítása HTML-be | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "PDF ingyenes online átalakítása HTML-be. Diagramok és képek megtartása HTML formátumban. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
     "pdf_tools__sign_pdf__title": "PDF aláírása - Digitális aláírás hozzáadása PDF fájlokhoz helyileg ingyen | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Egyszerűen adja hozzá a digitális aláírást PDF fájlokhoz ingyen és biztonságosan a helyi eszközökön, maximális adatvédelemmel és biztonsággal. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges.",
-    "pdf_tools__compress_pdf__title": "PDF tömörítése – Online PDF méretcsökkentés | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Tömörítse a PDF fájlokat helyben a böngészőben, hogy gyors és biztonságos teljesítményt érjen el. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges."
+    "pdf_tools__sign_pdf__description": "Egyszerűen adja hozzá a digitális aláírást PDF fájlokhoz ingyen és biztonságosan a helyi eszközökön, maximális adatvédelemmel és biztonsággal. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Legjobb elit szakembereknek",
     "plan_button__save_with_yearly_plan": "Mentés {{PRICE}} éves tervvel",
     "plan_button__free_status__start_for_free": "Ingyenes kezdés",
-    "better_plan_display__everything_in_plan_plus": "Minden, ami a {{PLAN}}-ban van, plusz:"
+    "better_plan_display__everything_in_plan_plus": "Minden, ami a {{PLAN}}-ban van, plusz:",
+    "features__gmail_instant_reply": "Gmail azonnali válasz",
+    "features__outlook_instant_reply": "Outlook azonnali válasz",
+    "features__facebook_instant_reply": "Facebook azonnali válasz",
+    "features__linkedin_instant_reply": "LinkedIn azonnali válasz",
+    "features__xtwitter_instant_reply": "X/Twitter azonnali válasz",
+    "features__YouTube_instant_reply": "YouTube azonnali válasz",
+    "features__instagram_instant_reply": "Instagram azonnali válasz",
+    "features__reddit_instant_reply": "Reddit azonnali válasz",
+    "features__whatsapp_instant_reply": "WhatsApp azonnali válasz",
+    "features__discord_instant_reply": "Discord azonnali válasz",
+    "features__telegram_instant_reply": "Telegram azonnali válasz",
+    "features__messenger_instant_reply": "Messenger azonnali válasz",
+    "features__slack_instant_reply": "Slack azonnali válasz",
+    "features__summarize_ask_pdf": "Összefoglalás és PDF kérdezés",
+    "features__summarize_ask_youTube_video": "Összefoglalás és YouTube videó kérdezés",
+    "features__summarize_ask_email": "Összefoglalás és e-mail kérdezés",
+    "features__summarize_ask_any_webpage": "Összefoglalás és bármely weboldal kérdezés",
+    "payment_info__team__per_user__desc": "felhasználónként"
   },
   "features__common": {
     "components__upload_button_drop_title": "Húzd ide"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Aláírt PDF kezdőlap",
     "components__sign_pdf__icon__sign": "Aláírás",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Írjon be valamit..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Alacsony",
-    "components__compress_pdf__main__compress_basic_grade_title": "Alap",
-    "components__compress_pdf__main__compress_basic_grade_description": "Közepes fájlméret, alap felbontás",
-    "components__compress_pdf__main__compress_strong_grade_title": "Erős",
-    "components__compress_pdf__main__compress_strong_grade_description": "Kis fájlméret, alacsonyabb felbontás",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Kérjük, töltse fel a megadott PDF fájltípust",
-    "components__compress_pdf__main__compress_download": "Tömörítés és letöltés",
-    "components__compress_pdf__main__choose_another_file": "Válasszon másik fájlt",
-    "components__compress_pdf__main__current_pdf_size": "Aktuális PDF méret",
-    "components__compress_pdf__main__original_pdf_size": "eredeti méret",
-    "components__compress_pdf__main__different_pdf_size": "Különbözik az előzőtől {{DiFF_NUMBER}}%-kal kisebb!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maximális fájlméret, Nagyobb felbontás",
-    "components__compress_pdf__main__compress_error": "A tömörítés sikertelen, kérjük ellenőrizze, hogy a PDF fájl titkosított vagy rendellenes-e!"
   }
 }

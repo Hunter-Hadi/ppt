@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Joonistage või laadige üles oma allkiri.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Reguleerige allkirja suurust ja asendit vastavalt vajadusele.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klõpsake allalaadimiseks oma allkirjastatud PDF-i, kõik on valmis ja turvaline.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Vähenda PDF-i",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Vähendage PDF-i suurust teksti ja manustatud piltide kokkusurumise teel kohaliku brauseri abil",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Vähendage kiiresti oma PDF-dokumentide suurust meie tipptasemel veebipõhise PDF-i kokkusurumise tööriistaga, tagades kõrgekvaliteedilised tulemused maksimaalse turvalisuse ja tõhususega.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Kiire PDF-i kokkusurumise protsess",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Välise tarkvara installimine pole vajalik",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Kõrgelt turvaline ja konfidentsiaalne – teie failid töödeldakse kohapeal teie brauseris",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Kiire ja tõhus kokkusurumine",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Kogege kiiret PDF-i suuruse vähendamist, kompromiteerimata kvaliteeti. Meie tööriist optimeerib teie failid kiiremaks jagamiseks ja minimaalseks salvestamiseks.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Säilitage kvaliteet",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Meie edasijõudnud tehnoloogia tagab, et teie PDF-ide visuaalne terviklikkus säilib, säilitades nii piltide kui ka teksti selguse ja loetavuse.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Kohalik töötlemine parendatud turvalisuse tagamiseks",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Meie prioriteet on teie privaatsus. Kogu kokkusurumisprotsess viiakse läbi teie brauseris, tagades, et teie dokumendid ei lahkunud teie seadmest.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Universaalne ligipääsetavus",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Saadaval igalt poolt, meie veebipõhine PDF-i kokkusurumise tööriist võimaldab teil failide suurust vähendada mis tahes seadmel ilma installimist vajamata.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Võimalus töötada ilma internetiühenduseta",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Lubage kokkusurumine isegi siis, kui olete võrguühenduseta. Eellaadige leht ja saate failide kokkusurumist jätkata ilma internetiühendust vajamata.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Kohandatavad kokkusurumise seaded",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Kohandage kokkusurumise taset vastavalt oma konkreetsetele vajadustele, võimaldades kohandatud reguleerimisi faili suuruse vähendamise ja visuaalse kvaliteedi tasakaalu saavutamiseks, tagades optimaalsed tulemused igat tüüpi dokumentide jaoks.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kuidas hõlpsasti PDF-e kokku suruda:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Laadige üles oma PDF-i veebipõhisesse kokkusurumise tööriista.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Tööriist töötleb teie faili kiiresti, vähendades selle suurust, säilitades samal ajal kvaliteedi.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Allalaadimiseks tõmmake kokkusurutud PDF kohe pärast kokkusurumist oma seadmesse.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Kontrollige kokkusurutud PDF-i kvaliteeti ja suurust, avades selle eelistatud PDF-lugejas."
+    "team_plan__title__description1": "Andke oma meeskonnale kõige arenenumad AI tootlikkuse tööriistad.",
+    "team_plan__title__description2": "Meie meeskonna plaan on mõeldud kolme või enama liikmega gruppidele."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Ei, need kasutuspiirangud kehtivad ainult MaxAI poolt otse käitatavatele mudelitele, nagu GPT-4. Kui olete tasulise plaani kasutaja ja kasutate oma API võtit, saate seda seostada mis tahes mudelitega ilma MaxAI seatud kasutuspiiranguteta. Lisateabe saamiseks kasutuspiirangute kohta vaadake meie",
     "faq_list__question4__title": "Kus saan MaxAI.me-d kasutada?",
     "faq_list__question4__desc": "Saate kasutada MaxAI.me-d mis tahes veebisaidil, mis töötab Chromium-põhistel brauseritel (nagu Chrome ja Edge), et luua, parandada kirjutamist, kokku võtta, selgitada, parandada õigekirja ja grammatikat, tõlkida või vastata mis tahes tekstile.",
-    "faq_list__disclaimer_part1": "Tellimuse esitamisega registreerute automaatsete maksete jaoks. Tühistage või haldage tellimust Stripe'i kliendiportaali kaudu osas „Minu plaan“. Kõik teenused osutatakse vastavalt ",
-    "faq_list__disclaimer_part2": " mida te oma registreerimisel kinnitate. Pange tähele, et see teenus on mõeldud ainult inimestele tavaliseks kasutamiseks. Te ei tohi kontot jagada teiste inimestega ega kasutada teenusele juurdepääsuks ametliku kasutajaliidese möödaviimiseks programmeerilisi meetodeid. Teenusetingimuste rikkumise korral, mis põhjustavad finants- või muud kahju, jätame endale õiguse algatada õiguslikke samme ja nõuda asjakohast hüvitist.",
+    "faq_list__disclaimer_part1": "Tellimusega nõustute automaatsete maksetega. Tühistage või haldage tellimust Stripe'i kliendiportaalist osas \"Minu plaan\". Kõik teenused osutatakse vastavalt ",
+    "faq_list__disclaimer_part2": " mida te oma registreerimisega kinnitate. Pange tähele, et see teenus on mõeldud ainult inimestele tavaliseks kasutamiseks. Te ei tohi kontot jagada teiste inimestega ega kasutada programmeerimismeetodeid teenusele juurdepääsuks, mööda ametlikku kasutajaliidest. Olge teadlik, et kõik maksed on lõplikud ja neid ei tagastata. Juhul kui rikkumised Teenusetingimuste osas põhjustavad finantsilisi või muid kahjusid, jätame endale õiguse algatada õiguslikke samme ja nõuda asjakohast hüvitist.",
     "plan_features_table__gemini_tooltip_desc": "Google'i võimsaim ja üldisem mudel. Ehitatud mitmekülgsuseks algusest peale. Gemini MaxAI-s on praegu beetaversioon, toetades ainult teksti ja koodi, lisatakse varsti tugi piltidele, videotele ja helile.",
     "footer__resources": "Materjalid",
     "promotion__banner__elite__title__limited_time_offer": "Piiratud aja pakkumine",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite aastaplaanil!",
     "promotion__limited_time_offer": "Piiratud aja pakkumine",
     "payment_type_switch__yearly__tip": "Säästa kuni {{RATIO}}%",
-    "footer__pdf_tools": "Tasuta veebipõhised PDF tööriistad"
+    "footer__pdf_tools": "Tasuta veebipõhised PDF tööriistad",
+    "faq_list__question5__title": "Kas MaxAI pakub meeskonna plaane?",
+    "faq_list__question5__desc__part1": "Jah, MaxAI pakub meeskonna plaane. Kui olete huvitatud, saate tutvuda meie",
+    "faq_list__question5__desc__part2": "Meeskonna plaanide lehega",
+    "faq_list__question5__desc__part3": "lisateabe saamiseks."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF HTML-iks - Teisenda PDF-failid HTML-iks veebis tasuta | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Teisenda PDF HTML-iks veebis tasuta. Säilita paigutus ja teisenda pildid HTML-iks. Pole vesimärke, faili suuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__sign_pdf__title": "PDF-i allkirjastamine - digitaalse allkirja lisamine PDF-failidele tasuta kohapeal | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Lisage lihtsalt digitaalsed allkirjad PDF-failidele tasuta ja turvaliselt kohalikel seadmetel, tagades maksimaalse privaatsuse ja turvalisuse. Vesimärki, faili suuruse piirangut, allalaadimist ega registreerimist pole vaja.",
-    "pdf_tools__compress_pdf__title": "Vähenda PDF-i – Veebipõhine PDF-i suuruse vähendamine | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Vähendage PDF-faile kohalikus brauseris, et tagada kiire ja turvaline jõudlus. Pole vesimärki, faili suuruse piirangut, allalaadimist ega registreerimist."
+    "pdf_tools__sign_pdf__description": "Lisage lihtsalt digitaalsed allkirjad PDF-failidele tasuta ja turvaliselt kohalikel seadmetel, tagades maksimaalse privaatsuse ja turvalisuse. Vesimärki, faili suuruse piirangut, allalaadimist ega registreerimist pole vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Parim eliitprofessionaalidele",
     "plan_button__save_with_yearly_plan": "Säästa {{PRICE}} aastaplaaniga",
     "plan_button__free_status__start_for_free": "Alusta tasuta",
-    "better_plan_display__everything_in_plan_plus": "Kõik {{PLAN}} pluss:"
+    "better_plan_display__everything_in_plan_plus": "Kõik {{PLAN}} pluss:",
+    "features__gmail_instant_reply": "Gmaili kiire vastus",
+    "features__outlook_instant_reply": "Outlooki kiire vastus",
+    "features__facebook_instant_reply": "Facebooki kiire vastus",
+    "features__linkedin_instant_reply": "LinkedIni kiire vastus",
+    "features__xtwitter_instant_reply": "X/Twitteri kiire vastus",
+    "features__YouTube_instant_reply": "YouTube'i kiire vastus",
+    "features__instagram_instant_reply": "Instagrami kiire vastus",
+    "features__reddit_instant_reply": "Redditi kiire vastus",
+    "features__whatsapp_instant_reply": "WhatsAppi kiire vastus",
+    "features__discord_instant_reply": "Discordi kiire vastus",
+    "features__telegram_instant_reply": "Telegrami kiire vastus",
+    "features__messenger_instant_reply": "Messengeri kiire vastus",
+    "features__slack_instant_reply": "Slacki kiire vastus",
+    "features__summarize_ask_pdf": "Kokkuvõtte tegemine ja PDF-i küsimine",
+    "features__summarize_ask_youTube_video": "Kokkuvõtte tegemine ja YouTube'i video küsimine",
+    "features__summarize_ask_email": "Kokkuvõtte tegemine ja e-posti küsimine",
+    "features__summarize_ask_any_webpage": "Kokkuvõtte tegemine ja küsimine mis tahes veebilehelt",
+    "payment_info__team__per_user__desc": "kasutaja kohta"
   },
   "features__common": {
     "components__upload_button_drop_title": "Aseta siia"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allkirjasta PDF koduleht",
     "components__sign_pdf__icon__sign": "Allkirjasta",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Kirjuta midagi..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Madal",
-    "components__compress_pdf__main__compress_basic_grade_title": "Põhiline",
-    "components__compress_pdf__main__compress_basic_grade_description": "Keskmine faili suurus, standardresolutsioon",
-    "components__compress_pdf__main__compress_strong_grade_title": "Tugev",
-    "components__compress_pdf__main__compress_strong_grade_description": "Väike faili suurus, madalam resolutsioon",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
-    "components__compress_pdf__main__compress_download": "Suru kokku ja laadi alla",
-    "components__compress_pdf__main__choose_another_file": "Vali teine fail",
-    "components__compress_pdf__main__current_pdf_size": "PDF-i praegune suurus",
-    "components__compress_pdf__main__original_pdf_size": "algne suurus",
-    "components__compress_pdf__main__different_pdf_size": "Erinev eelmisest {{DiFF_NUMBER}}% väiksem!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimaalne failisuurus, kõrgem resolutsioon",
-    "components__compress_pdf__main__compress_error": "Kokkutõmbamine ebaõnnestus, palun kontrollige, kas PDF-fail on krüpteeritud või ebanormaalne!"
   }
 }

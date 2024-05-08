@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 import { ceil, divide } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument, PDFImage } from 'pdf-lib/cjs/api';
-import { FC, useMemo, useState } from 'react';
+import { FC, useCallback, useMemo, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
 import {
@@ -96,7 +96,6 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   const onUploadFile = async (fileList: FileList) => {
     setIsLoading(true);
     const imageUrls = await convertFileListToImageUrls(fileList);
-    console.log('simply imageUrls', imageUrls);
     setImageInfoList((list) => [...list, ...imageUrls]);
     setIsLoading(false);
   };
@@ -107,12 +106,12 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       ),
     );
   };
-  const getUserSelectPageSize = () => {
+  const getUserSelectPageSize = useCallback(() => {
     return PDF_PAGE_SIZE_OPTIONS.find(
       (page) => page.name === userSelectSizeType,
     );
-  };
-  const convertToPDF = async () => {
+  }, [userSelectSizeType]);
+  const convertToPDF = useCallback(async () => {
     try {
       const pdfDoc = await PDFDocument.create();
       setIsLoading(true);
@@ -188,7 +187,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       setIsLoading(false);
       console.error('Error converting images to PDF:', error);
     }
-  };
+  }, [imageInfoList, userSelectPositionType, getUserSelectPageSize]);
   const onDeleteInfo = (id: string) => {
     if (imageInfoList) {
       const newPdfInfoList = imageInfoList.filter((pdf) => pdf.id !== id);
@@ -240,26 +239,29 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         },
       },
     ],
-    [isLoading],
+    [accept, isLoading, t],
   );
   const isEmptyList = imageInfoList.length === 0;
-  const bottomButtonConfigs: IButtonConfig[] = [
-    {
-      type: 'button',
-      isShow: !isEmptyList,
-      buttonProps: {
-        onClick: convertToPDF,
-        disabled: isLoading,
-        variant: 'contained',
-        tooltip: t(
-          'functionality__image_to_pdf:components__image_to_pdf__download__tooltip',
-        ),
-        children: t(
-          'functionality__image_to_pdf:components__image_to_pdf__download',
-        ),
+  const bottomButtonConfigs: IButtonConfig[] = useMemo(
+    () => [
+      {
+        type: 'button',
+        isShow: !isEmptyList,
+        buttonProps: {
+          onClick: convertToPDF,
+          disabled: isLoading,
+          variant: 'contained',
+          tooltip: t(
+            'functionality__image_to_pdf:components__image_to_pdf__download__tooltip',
+          ),
+          children: t(
+            'functionality__image_to_pdf:components__image_to_pdf__download',
+          ),
+        },
       },
-    },
-  ];
+    ],
+    [isLoading, t, isEmptyList, convertToPDF],
+  );
   return (
     <Stack
       flexDirection='column'

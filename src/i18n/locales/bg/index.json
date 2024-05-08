@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Нарисувайте или качете вашата подписка.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Настройте размера и позицията на подписката според нуждите си.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Щракнете, за да изтеглите вашия подписан PDF сега, всичко е готово и безопасно.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Свиване на PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Намалете размера на PDF файла, като свивате текста и вградените изображения чрез локален браузър",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Бързо намалете размера на вашите PDF документи с нашия иновативен онлайн инструмент за свиване на PDF, гарантиращ висококачествени резултати с максимална сигурност и ефективност.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Бърз процес на свиване на PDF",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Не се изисква инсталиране на външен софтуер",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Изключително сигурно и поверително - вашите файлове се обработват локално във вашия браузър",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Бързо и ефективно свиване",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Изживейте бързо намаляване на размера на PDF без да компрометирате качеството. Нашето инструмент оптимизира вашите файлове за по-бързо споделяне и минимално използване на памет.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Запазване на качеството",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Нашата напреднала технология гарантира, че визуалната цялост на вашия PDF се запазва, като запазва яснотата и четливостта както на изображенията, така и на текста.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Локална обработка за подобрена сигурност",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Ние отдаваме значение на вашата поверителност. Целият процес на свиване се изпълнява във вашия браузър, за да се гарантира, че вашите документи не напускат устройството ви.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Универсална достъпност",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Достъпен от всяко място, нашият онлайн инструмент за свиване на PDF ви позволява да намалите размера на файловете на всяко устройство без да се налага инсталиране.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Възможност за работа без интернет",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Активирайте свиването дори когато сте извън линия. Заредете страницата и можете да продължите със свиването на файла без нужда от интернет връзка.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Настройки за персонализирано свиване",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Настройте нивото на свиване според вашите конкретни нужди, позволявайки персонализирани настройки за балансиране между намаляване на размера на файла и визуалното качество, гарантирайки оптимални резултати за всеки тип документ.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Как да свивате PDF лесно:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Качете вашия PDF в онлайн инструмента за свиване.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Инструментът бързо обработва файла ви, намалявайки размера му, като запазва качеството.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Изтеглете сваления компресиран PDF на вашето устройство веднага след свиването.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Проверете качеството и размера на сваления PDF, като го отворите в предпочитания от вас PDF четец."
+    "team_plan__title__description1": "Дайте на вашия екип най-развитите инструменти за продуктивност с изкуствен интелект.",
+    "team_plan__title__description2": "Нашата екипна планова е предназначена за групи от три или повече членове."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Не, тези ограничения за използване са специфични за модели като GPT-4, които се управляват директно от MaxAI. Ако сте на платен план и използвате своя собствен API ключ, можете да използвате всички модели, свързани с него, без никакви ограничения за използване, зададени от MaxAI. За повече подробности относно ограниченията за използване, моля, вижте нашите",
     "faq_list__question4__title": "Къде мога да използвам MaxAI.me?",
     "faq_list__question4__desc": "Можете да използвате MaxAI.me на всяка уеб страница във всеки браузър, базиран на Chromium (като Chrome и Edge), за да съставяте, подобрявате писане, резюмирате, обяснявате, коригирате правопис и граматика, превеждате или отговаряте на всякакъв текст.",
-    "faq_list__disclaimer_part1": "С абонирането се записвате за автоматични плащания. Отменете или управлявайте абонамента си чрез клиентския портал на Stripe от „Моят план“. Всички услуги се предоставят в съответствие с ",
-    "faq_list__disclaimer_part2": " които потвърждавате с регистрацията си. Моля, имайте предвид, че тази услуга е само за хора и нормална употреба. Не можете да споделяте акаунта с други хора или да използвате програмни методи за достъп до услугата, като обходите официалния потребителски интерфейс. В случай на нарушения на Условията за ползване, които довеждат до финансови или други щети, запазваме си правото да предприемем съдебни действия и да търсим подходяща компенсация.",
+    "faq_list__disclaimer_part1": "С абонирането си, вие се записвате за автоматични плащания. Отменете или управлявайте абонамента си чрез клиентския портал на Stripe от „Моят план“. Всички услуги се предоставят в съответствие с ",
+    "faq_list__disclaimer_part2": " които потвърждавате с регистрацията си. Моля, имайте предвид, че тази услуга е предназначена само за хора и нормална употреба. Не можете да споделяте акаунта с други хора или да използвате програмни методи за достъп до услугата, като обходите официалния потребителски интерфейс. Моля, имайте предвид, че всички плащания са окончателни и не могат да бъдат възстановени. В случай на нарушения на Условията за ползване, които довеждат до финансови или други щети, ние запазваме правото да предприемем съдебни действия и да търсим подходяща компенсация.",
     "plan_features_table__gemini_tooltip_desc": "Най-способната и обща модел на Google. Построен от самото начало за мултимодалност. Gemini в MaxAI в момента е в бета фаза, поддържа само текст и код и скоро ще добави поддръжка за изображения, видеа и аудио.",
     "footer__resources": "Ресурси",
     "promotion__banner__elite__title__limited_time_offer": "Ограничено време на офертата",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "на годишния план MaxAI Elite!",
     "promotion__limited_time_offer": "Оферта с ограничено време",
     "payment_type_switch__yearly__tip": "Спестете до {{RATIO}}%",
-    "footer__pdf_tools": "Безплатни онлайн инструменти за PDF"
+    "footer__pdf_tools": "Безплатни онлайн инструменти за PDF",
+    "faq_list__question5__title": "Предлага ли MaxAI екипни планове?",
+    "faq_list__question5__desc__part1": "Да, MaxAI предлага екипни планове. Ако сте заинтересовани, можете да разгледате нашата",
+    "faq_list__question5__desc__part2": "страница с екипни планове",
+    "faq_list__question5__desc__part3": "за повече информация."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF към HTML - Конвертиране на PDF файлове в HTML онлайн безплатно | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Конвертирайте PDF в HTML онлайн безплатно. Запазване на оформлението и конвертиране на изображения в HTML. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
     "pdf_tools__sign_pdf__title": "Подписване на PDF - Добавяне на цифров подпис към PDF файлове локално безплатно | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Лесно добавете цифрови подписи към PDF файлове безплатно и сигурно на локални устройства, гарантирайки максимална поверителност и защита. Без воден знак, ограничение на размера на файла, изтегляне или регистрация.",
-    "pdf_tools__compress_pdf__title": "Свиване на PDF - Онлайн намаляване на размера на PDF | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Свиване на PDF файлове в локален браузър, за да се гарантира бърза и сигурна работа. Без воден знак, ограничение на размера на файла, изтегляне или регистрация."
+    "pdf_tools__sign_pdf__description": "Лесно добавете цифрови подписи към PDF файлове безплатно и сигурно на локални устройства, гарантирайки максимална поверителност и защита. Без воден знак, ограничение на размера на файла, изтегляне или регистрация."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Най-добро за елитни професионалисти",
     "plan_button__save_with_yearly_plan": "Спестете {{PRICE}} с годишен план",
     "plan_button__free_status__start_for_free": "Започнете безплатно",
-    "better_plan_display__everything_in_plan_plus": "Всичко в {{PLAN}} плюс:"
+    "better_plan_display__everything_in_plan_plus": "Всичко в {{PLAN}} плюс:",
+    "features__gmail_instant_reply": "Gmail мигновенен отговор",
+    "features__outlook_instant_reply": "Outlook мигновенен отговор",
+    "features__facebook_instant_reply": "Facebook мигновенен отговор",
+    "features__linkedin_instant_reply": "LinkedIn мигновенен отговор",
+    "features__xtwitter_instant_reply": "X/Twitter мигновенен отговор",
+    "features__YouTube_instant_reply": "YouTube мигновенен отговор",
+    "features__instagram_instant_reply": "Instagram мигновенен отговор",
+    "features__reddit_instant_reply": "Reddit мигновенен отговор",
+    "features__whatsapp_instant_reply": "WhatsApp мигновенен отговор",
+    "features__discord_instant_reply": "Discord мигновенен отговор",
+    "features__telegram_instant_reply": "Telegram мигновенен отговор",
+    "features__messenger_instant_reply": "Messenger мигновенен отговор",
+    "features__slack_instant_reply": "Slack мигновенен отговор",
+    "features__summarize_ask_pdf": "Резюмиране и питане за PDF",
+    "features__summarize_ask_youTube_video": "Резюмиране и питане за YouTube видео",
+    "features__summarize_ask_email": "Резюмиране и питане за имейл",
+    "features__summarize_ask_any_webpage": "Резюмиране и питане за всяка уеб страница",
+    "payment_info__team__per_user__desc": "на потребител"
   },
   "features__common": {
     "components__upload_button_drop_title": "Поставете тук"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Начална страница за подписване на PDF",
     "components__sign_pdf__icon__sign": "Подписване",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Въведете нещо..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Ниско",
-    "components__compress_pdf__main__compress_basic_grade_title": "Основно",
-    "components__compress_pdf__main__compress_basic_grade_description": "Среден размер на файла, стандартна резолюция",
-    "components__compress_pdf__main__compress_strong_grade_title": "Силно",
-    "components__compress_pdf__main__compress_strong_grade_description": "Малък размер на файла, по-ниска резолюция",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
-    "components__compress_pdf__main__compress_download": "Свиване и изтегляне",
-    "components__compress_pdf__main__choose_another_file": "Изберете друг файл",
-    "components__compress_pdf__main__current_pdf_size": "Текущ размер на PDF",
-    "components__compress_pdf__main__original_pdf_size": "оригинален размер",
-    "components__compress_pdf__main__different_pdf_size": "Различен от преди {{DiFF_NUMBER}}% по-малък!",
-    "components__compress_pdf__main__compress_low_grade_description": "Максимален размер на файла, По-висока резолюция",
-    "components__compress_pdf__main__compress_error": "Сживането не бе успешно, моля проверете дали PDF файла е криптиран или аномален!"
   }
 }

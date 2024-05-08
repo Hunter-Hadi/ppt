@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Lukis atau muat naik tandatangan anda.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Sesuaikan saiz dan kedudukan tandatangan mengikut keperluan.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klik untuk muat turun PDF yang telah ditandatangani anda sekarang, semuanya sudah siap dan selamat.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Kompres PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Kurangkan saiz PDF dengan memampatkan teks dan imej yang terbenam melalui pelayar tempatan",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Kurangkan dengan cepat saiz dokumen PDF anda dengan alat Kompresi PDF dalam talian kami yang terkini, memastikan hasil berkualiti tinggi dengan keselamatan dan kecekapan maksimum.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Proses kompresi PDF yang pantas",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Tiada pemasangan perisian luaran diperlukan",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Tingkat keselamatan dan kerahsiaan yang tinggi - fail anda diproses secara tempatan dalam pelayar anda",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Kompresi Pantas dan Cekap",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Alami pengurangan saiz PDF yang pantas tanpa mengorbankan kualiti. Alat kami mengoptimumkan fail anda untuk perkongsian yang lebih cepat dan penggunaan storan yang minima.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Menjaga Kualiti",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Teknologi terkini kami memastikan integriti visual PDF anda dikekalkan, mengekalkan kejelasan dan kebolehbacaan imej dan teks.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Pemprosesan Tempatan untuk Keselamatan yang Ditingkatkan",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Kami memberi keutamaan kepada privasi anda. Seluruh proses kompresi dilaksanakan dalam pelayar anda, memastikan dokumen anda tidak meninggalkan peranti anda.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Aksesibiliti Universal",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Boleh diakses dari mana-mana sahaja, alat Kompresi PDF dalam talian kami membolehkan anda mengurangkan saiz fail pada sebarang peranti tanpa memerlukan sebarang pemasangan.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Kemampuan Luring",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktifkan kompresi walaupun anda sedang luar talian. Muat pra-laman tersebut, dan anda boleh meneruskan dengan kompresi fail tanpa memerlukan sambungan internet.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Tetapan Kompresi Tersuai",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Sesuaikan tahap kompresi mengikut keperluan anda, membolehkan penyesuaian khusus untuk menyeimbangkan antara pengurangan saiz fail dan kualiti visual, memastikan hasil yang optimum untuk setiap jenis dokumen.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cara Mudah Memampatkan PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Muat naik PDF anda ke alat pemampatan dalam talian.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Alat tersebut dengan cepat memproses fail anda, mengurangkan saiznya sambil menjaga kualiti.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Muat turun PDF yang telah dipampatkan ke peranti anda segera selepas pemampatan.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Semak kualiti dan saiz PDF yang telah dipampatkan dengan membukanya di pembaca PDF pilihan anda."
+    "team_plan__title__description1": "Berikan pasukan anda alat produktiviti AI yang paling canggih.",
+    "team_plan__title__description2": "Rancangan pasukan kami direka untuk kumpulan tiga orang atau lebih."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Tidak, had penggunaan ini adalah khusus untuk model seperti GPT-4 yang dioperasikan secara langsung oleh MaxAI. Jika anda menggunakan rancangan berbayar dan menggunakan kunci API anda sendiri, anda boleh menggunakan mana-mana model yang dikaitkan dengannya tanpa sebarang had penggunaan yang ditetapkan oleh MaxAI. Untuk maklumat lanjut mengenai had penggunaan, sila lihat",
     "faq_list__question4__title": "Di mana saya boleh menggunakan MaxAI.me?",
     "faq_list__question4__desc": "Anda boleh menggunakan MaxAI.me pada mana-mana laman web pada mana-mana pelayar berasaskan Chromium (seperti Chrome dan Edge) untuk menghasilkan, meningkatkan penulisan, merangkum, menjelaskan, memperbetulkan ejaan & tatabahasa, menterjemah, atau menjawab teks apa pun.",
-    "faq_list__disclaimer_part1": "Dengan melanggan, anda sedang mendaftar untuk pembayaran automatik. Batal atau urus langganan anda melalui portal pelanggan Stripe dari \"Rancangan Saya\". Semua perkhidmatan disampaikan mengikut ",
-    "faq_list__disclaimer_part2": " yang anda sahkan semasa pendaftaran. Sila ambil perhatian bahawa perkhidmatan ini hanya untuk penggunaan manusia biasa. Anda tidak boleh berkongsi akaun dengan orang lain atau menggunakan kaedah program untuk mengakses perkhidmatan ini, melanggar antara muka pengguna rasmi. Sekiranya pelanggaran Terma Perkhidmatan menyebabkan kerugian kewangan atau lain-lain, kami berhak untuk mengambil tindakan undang-undang dan mencari pampasan yang sewajarnya.",
+    "faq_list__disclaimer_part1": "Dengan melanggan, anda mendaftar untuk pembayaran automatik. Batal atau urus langganan anda melalui portal pelanggan Stripe dari \"Rancangan Saya\". Semua perkhidmatan disampaikan mengikut ",
+    "faq_list__disclaimer_part2": " yang anda sahkan semasa pendaftaran. Sila ambil perhatian bahawa perkhidmatan ini hanya untuk penggunaan manusia biasa. Anda tidak boleh berkongsi akaun dengan orang lain atau menggunakan kaedah program untuk mengakses perkhidmatan ini, melanggar antara muka pengguna rasmi. Harap maklum bahawa semua pembayaran adalah muktamad dan tidak boleh dikembalikan. Sekiranya pelanggaran Terma Perkhidmatan menyebabkan kerugian kewangan atau lain-lain, kami berhak untuk mengambil tindakan undang-undang dan mencari pampasan yang sewajarnya.",
     "plan_features_table__gemini_tooltip_desc": "Model paling cekap dan umum Google. Dibina dari bawah ke atas untuk multimodaliti. Gemini di MaxAI kini dalam fasa beta, hanya menyokong teks dan kod, akan segera menambah sokongan untuk imej, video, dan audio.",
     "footer__resources": "Sumber",
     "promotion__banner__elite__title__limited_time_offer": "Tawaran Terhad Masa",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "pada pelan Tahunan MaxAI Elite!",
     "promotion__limited_time_offer": "Tawaran Terhad Masa",
     "payment_type_switch__yearly__tip": "Jimat sehingga {{RATIO}}%",
-    "footer__pdf_tools": "Alat PDF dalam talian percuma"
+    "footer__pdf_tools": "Alat PDF dalam talian percuma",
+    "faq_list__question5__title": "Adakah MaxAI menawarkan pelan pasukan?",
+    "faq_list__question5__desc__part1": "Ya, MaxAI menawarkan pelan pasukan. Jika anda berminat, anda boleh melihat",
+    "faq_list__question5__desc__part2": "Halaman pelan pasukan kami",
+    "faq_list__question5__desc__part3": "untuk maklumat lanjut."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF ke HTML - Tukar Fail PDF kepada HTML Dalam Talian secara Percuma | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Tukar PDF kepada HTML dalam talian secara percuma. Mengekalkan layout dan menukar imej kepada HTML. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__sign_pdf__title": "Menandatangani PDF - Menambah Tandatangan Digital ke Fail PDF Tempatan secara Percuma | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Tambah tandatangan digital ke fail PDF secara percuma dan selamat pada peranti tempatan, memastikan privasi dan keselamatan maksimum. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan.",
-    "pdf_tools__compress_pdf__title": "Kompres PDF - Pengurangan Saiz PDF Dalam Talian | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Kompres fail PDF dalam pelayar tempatan untuk memastikan prestasi yang pantas dan selamat. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan."
+    "pdf_tools__sign_pdf__description": "Tambah tandatangan digital ke fail PDF secara percuma dan selamat pada peranti tempatan, memastikan privasi dan keselamatan maksimum. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Terbaik untuk profesional elit",
     "plan_button__save_with_yearly_plan": "Jimat {{PRICE}} dengan pelan tahunan",
     "plan_button__free_status__start_for_free": "Mula secara percuma",
-    "better_plan_display__everything_in_plan_plus": "Semua dalam {{PLAN}} ditambah lagi:"
+    "better_plan_display__everything_in_plan_plus": "Semua dalam {{PLAN}} ditambah lagi:",
+    "features__gmail_instant_reply": "Balasan segera Gmail",
+    "features__outlook_instant_reply": "Balasan segera Outlook",
+    "features__facebook_instant_reply": "Balasan segera Facebook",
+    "features__linkedin_instant_reply": "Balasan segera LinkedIn",
+    "features__xtwitter_instant_reply": "Balasan segera X/Twitter",
+    "features__YouTube_instant_reply": "Balasan segera YouTube",
+    "features__instagram_instant_reply": "Balasan segera Instagram",
+    "features__reddit_instant_reply": "Balasan segera Reddit",
+    "features__whatsapp_instant_reply": "Balasan segera WhatsApp",
+    "features__discord_instant_reply": "Balasan segera Discord",
+    "features__telegram_instant_reply": "Balasan segera Telegram",
+    "features__messenger_instant_reply": "Balasan segera Messenger",
+    "features__slack_instant_reply": "Balasan segera Slack",
+    "features__summarize_ask_pdf": "Ringkaskan & tanya PDF",
+    "features__summarize_ask_youTube_video": "Ringkaskan & tanya video YouTube",
+    "features__summarize_ask_email": "Ringkaskan & tanya e-mel",
+    "features__summarize_ask_any_webpage": "Ringkaskan & tanya laman web mana-mana",
+    "payment_info__team__per_user__desc": "setiap pengguna"
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Laman Utama Tandatangan PDF",
     "components__sign_pdf__icon__sign": "Tandatangan",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Taip sesuatu..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Rendah",
-    "components__compress_pdf__main__compress_basic_grade_title": "Asas",
-    "components__compress_pdf__main__compress_basic_grade_description": "Saiz fail sederhana, resolusi standard",
-    "components__compress_pdf__main__compress_strong_grade_title": "Kuat",
-    "components__compress_pdf__main__compress_strong_grade_description": "Saiz fail kecil, resolusi lebih rendah",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
-    "components__compress_pdf__main__compress_download": "Mampatkan & Muat Turun",
-    "components__compress_pdf__main__choose_another_file": "Pilih fail lain",
-    "components__compress_pdf__main__current_pdf_size": "Saiz semasa PDF",
-    "components__compress_pdf__main__original_pdf_size": "saiz asal",
-    "components__compress_pdf__main__different_pdf_size": "Berbeza daripada sebelumnya {{DiFF_NUMBER}}% lebih kecil!",
-    "components__compress_pdf__main__compress_low_grade_description": "Saiz fail maksimum, Resolusi yang lebih tinggi",
-    "components__compress_pdf__main__compress_error": "Pemampatan gagal, sila semak sama ada fail PDF dienkripsi atau tidak normal!"
   }
 }

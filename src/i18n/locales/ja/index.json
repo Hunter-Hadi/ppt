@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "署名を描画またはアップロードする。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "署名のサイズと位置を調整します。",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "今すぐ署名済みのPDFをダウンロードしてください。すべてが準備され、安全です。",
-    "tools__index_page__constant_obj__compress_pdf__title": "PDFを圧縮する",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "テキストと埋め込み画像をブラウザで圧縮して、PDFのサイズを削減します",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "最新のオンラインPDF圧縮ツールを使用して、PDFドキュメントのサイズを迅速に削減し、高品質な結果を確保します。セキュリティと効率性を最大限に保ちます。",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "迅速なPDF圧縮プロセス",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "外部ソフトウェアのインストールは不要です",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "高度なセキュリティと機密性 - ファイルはブラウザ内でローカルに処理されます",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "高速かつ効率的な圧縮",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "品質を損なうことなく、PDFのサイズを素早く削減できます。ファイルを最適化して、より速い共有と最小限のストレージ使用を実現します。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "品質を維持",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "画像とテキストの明瞭さと読みやすさを保ちながら、PDFの視覚的な完全性を確保するために、高度な技術を使用しています。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "セキュリティ強化のためのローカル処理",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "プライバシーを重視しています。圧縮プロセス全体がブラウザ内で実行されるため、ドキュメントがデバイスから出ることはありません。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "ユニバーサルアクセシビリティ",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "どこからでもアクセスできるオンラインPDF圧縮ツールで、インストールは必要ありません。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "オフライン対応",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "オフラインの場合でも圧縮を有効にします。ページをプリロードして、インターネット接続なしでファイルの圧縮を行うことができます。",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "カスタム圧縮設定",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "ファイルサイズの削減と視覚品質のバランスを調整するためのカスタム調整が可能です。あらゆる種類のドキュメントに最適な結果を保証します。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDFを簡単に圧縮する方法：",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDFをオンライン圧縮ツールにアップロードします。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "ツールがファイルを迅速に処理し、サイズを削減しながら品質を維持します。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "圧縮後すぐにPDFをデバイスにダウンロードします。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "お好みのPDFリーダーで開いて、圧縮されたPDFの品質とサイズを確認します。"
+    "team_plan__title__description1": "チームに最も先進的なAI生産性ツールを提供します。",
+    "team_plan__title__description2": "当社のチームプランは3人以上のメンバー向けに設計されています。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "いいえ、これらの使用制限は、MaxAIが直接操作するGPT-4などのモデルに特有です。有料プランを利用して独自のAPIキーを使用している場合、MaxAIによって設定された使用制限はありません。詳細については、",
     "faq_list__question4__title": "MaxAI.meはどこで使用できますか？",
     "faq_list__question4__desc": "MaxAI.meは、任意のテキストに対して作成、改善、要約、説明、スペルと文法の修正、翻訳、または返信するために、任意のChromiumベースのブラウザ（ChromeやEdgeなど）上の任意のウェブサイトで使用できます。",
-    "faq_list__disclaimer_part1": "購読することで、自動支払いに登録されます。Stripeの顧客ポータルから「マイプラン」を通じて、購読をキャンセルまたは管理できます。すべてのサービスは、サインアップ時に確認した条件に従って提供されます。",
-    "faq_list__disclaimer_part2": "このサービスは人間の通常の使用のためのものです。他の人とアカウントを共有したり、公式のユーザーインターフェースを迂回してプログラム的な方法でサービスにアクセスしたりすることはできません。利用規約の違反が財務上またはその他の損害を引き起こす場合、法的措置を講じ、適切な補償を求める権利を留保します。",
+    "faq_list__disclaimer_part1": "購読することで、自動支払いに登録されます。Stripeの顧客ポータルから「マイプラン」を通じてサブスクリプションをキャンセルまたは管理できます。すべてのサービスは、サインアップ時に確認した条件に従って提供されます。",
+    "faq_list__disclaimer_part2": "このサービスは人間の通常の使用のためのものです。他の人とアカウントを共有したり、公式のユーザーインターフェースを迂回してプログラム的な方法でサービスにアクセスしたりすることはできません。すべての支払いは最終的で返金はできません。利用規約の違反が財務上またはその他の損害を引き起こす場合、法的措置を講じ、適切な補償を求める権利を留保します。",
     "plan_features_table__gemini_tooltip_desc": "Googleの最も能力があり、汎用性のあるモデル。マルチモダリティに対応するために一から作られました。MaxAI上のGeminiは現在ベータフェーズで、テキストとコードのみをサポートしていますが、近々画像、動画、音声のサポートも追加されます。",
     "footer__resources": "リソース",
     "promotion__banner__elite__title__limited_time_offer": "期間限定オファー",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite 年間プランで節約！",
     "promotion__limited_time_offer": "期間限定オファー",
     "payment_type_switch__yearly__tip": "最大{{RATIO}}%節約",
-    "footer__pdf_tools": "無料オンラインPDFツール"
+    "footer__pdf_tools": "無料オンラインPDFツール",
+    "faq_list__question5__title": "MaxAIはチームプランを提供していますか？",
+    "faq_list__question5__desc__part1": "はい、MaxAIはチームプランを提供しています。興味がある場合は、当社の",
+    "faq_list__question5__desc__part2": "チームプランページ",
+    "faq_list__question5__desc__part3": "をご覧ください。"
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDFをHTMLに変換 - 無料でオンラインでPDFファイルをHTMLに変換 | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "無料でPDFをHTMLに変換します。レイアウトを維持し、画像をHTMLに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは不要です。",
     "pdf_tools__sign_pdf__title": "無料でローカルにデジタル署名を追加する - PDFファイルに署名 | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "無料でPDFファイルにデジタル署名を簡単に追加し、ローカルデバイス上で安全に行います。ウォーターマークやファイルサイズ制限もなく、ダウンロードや登録も不要です。",
-    "pdf_tools__compress_pdf__title": "PDFを圧縮する - オンラインPDFサイズ削減 | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "ローカルブラウザでPDFファイルを圧縮して、高速かつ安全なパフォーマンスを実現します。ウォーターマーク、ファイルサイズ制限、ダウンロードや登録は必要ありません。"
+    "pdf_tools__sign_pdf__description": "無料でPDFファイルにデジタル署名を簡単に追加し、ローカルデバイス上で安全に行います。ウォーターマークやファイルサイズ制限もなく、ダウンロードや登録も不要です。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "エリートプロフェッショナルに最適",
     "plan_button__save_with_yearly_plan": "年間プランで{{PRICE}}を節約",
     "plan_button__free_status__start_for_free": "無料で開始",
-    "better_plan_display__everything_in_plan_plus": "プランに含まれるすべてのものに加えて:"
+    "better_plan_display__everything_in_plan_plus": "プランに含まれるすべてのものに加えて:",
+    "features__gmail_instant_reply": "Gmailの即時返信",
+    "features__outlook_instant_reply": "Outlookの即時返信",
+    "features__facebook_instant_reply": "Facebookの即時返信",
+    "features__linkedin_instant_reply": "LinkedInの即時返信",
+    "features__xtwitter_instant_reply": "X/Twitterの即時返信",
+    "features__YouTube_instant_reply": "YouTubeの即時返信",
+    "features__instagram_instant_reply": "Instagramの即時返信",
+    "features__reddit_instant_reply": "Redditの即時返信",
+    "features__whatsapp_instant_reply": "WhatsAppの即時返信",
+    "features__discord_instant_reply": "Discordの即時返信",
+    "features__telegram_instant_reply": "Telegramの即時返信",
+    "features__messenger_instant_reply": "Messengerの即時返信",
+    "features__slack_instant_reply": "Slackの即時返信",
+    "features__summarize_ask_pdf": "PDFの要約と質問",
+    "features__summarize_ask_youTube_video": "YouTube動画の要約と質問",
+    "features__summarize_ask_email": "メールの要約と質問",
+    "features__summarize_ask_any_webpage": "任意のウェブページの要約と質問",
+    "payment_info__team__per_user__desc": "ユーザーごと"
   },
   "features__common": {
     "components__upload_button_drop_title": "ここにドロップ"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF署名ホームページ",
     "components__sign_pdf__icon__sign": "署名",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "何かを入力してください…"
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "低",
-    "components__compress_pdf__main__compress_basic_grade_title": "基本",
-    "components__compress_pdf__main__compress_basic_grade_description": "中程度のファイルサイズ、標準解像度",
-    "components__compress_pdf__main__compress_strong_grade_title": "強力",
-    "components__compress_pdf__main__compress_strong_grade_description": "小さなファイルサイズ、低解像度",
-    "components__compress_pdf__main__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
-    "components__compress_pdf__main__compress_download": "圧縮してダウンロード",
-    "components__compress_pdf__main__choose_another_file": "別のファイルを選択",
-    "components__compress_pdf__main__current_pdf_size": "現在のPDFサイズ",
-    "components__compress_pdf__main__original_pdf_size": "元のサイズ",
-    "components__compress_pdf__main__different_pdf_size": "以前から{{DiFF_NUMBER}}%小さくなりました！",
-    "components__compress_pdf__main__compress_low_grade_description": "ファイルサイズの最大化、より高い解像度",
-    "components__compress_pdf__main__compress_error": "圧縮に失敗しました。PDFファイルが暗号化されているか、異常な状態であるかを確認してください！"
   }
 }

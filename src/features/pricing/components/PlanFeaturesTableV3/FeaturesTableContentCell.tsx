@@ -13,6 +13,7 @@ import React, { FC, useMemo } from 'react';
 
 import LazyLoadImage from '@/features/common/components/LazyLoadImage';
 import { IWithMuiSxProps } from '@/features/common/types';
+import { FeaturesIcons } from '@/features/pricing/components/FeaturesIcons';
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 
 import {
@@ -58,7 +59,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
 
   const renderCellData = () => {
     const fontSize = rowType === 'secondary' ? 14 : 16;
-    const color = rowType === 'secondary' ? '#00000061' : 'text.primary';
+    const color = rowType === 'secondary' ? 'text.secondary' : 'text.primary';
     if (!data) {
       return (
         <Box
@@ -200,13 +201,14 @@ const FeaturesTableContentCell: FC<IProps> = ({
         <Stack
           key={data.title}
           spacing={0.5}
+          justifyContent='center'
           sx={[
             {
               px: {
                 xs: 2,
                 md: 3,
               },
-              py: 1.5,
+              py: rowType === 'secondary' ? 1 : 1.5,
               boxSizing: 'border-box',
               flexShrink: 0,
               height: '100%',
@@ -214,13 +216,11 @@ const FeaturesTableContentCell: FC<IProps> = ({
           ]}
         >
           <Stack direction={'row'} alignItems='center' spacing={1}>
-            {rowType === 'secondary' && (
-              <Box
+            {data.icon && (
+              <FeaturesIcons
+                name={data.icon}
                 sx={{
-                  width: 4,
-                  height: 4,
-                  borderRadius: '50%',
-                  bgcolor: color,
+                  fontSize: 20,
                 }}
               />
             )}
@@ -287,6 +287,11 @@ const FeaturesTableContentCell: FC<IProps> = ({
                         {t(data.tooltip.desc)}
                       </Typography>
                     )}
+                    {data.tooltip?.moreDescription && (
+                      <Typography variant='caption'>
+                        {t(data.tooltip.moreDescription)}
+                      </Typography>
+                    )}
                   </Stack>
                 ) : null
               }
@@ -307,6 +312,40 @@ const FeaturesTableContentCell: FC<IProps> = ({
                 <></>
               )}
             </Tooltip>
+            {data.video && data.video?.link && (
+              <Stack
+                direction={'row'}
+                spacing={0.2}
+                alignItems='center'
+                borderRadius={100}
+                bgcolor='#00000014'
+                pl={'4px'}
+                pr={'6px'}
+                py={'2px'}
+                sx={{
+                  cursor: 'pointer',
+                }}
+                onClick={() => {
+                  data.video?.link && openVideoPopup(data.video.link);
+                }}
+              >
+                <PlayCircleOutlinedIcon
+                  sx={{
+                    fontSize: 16,
+                    color: 'text.secondary',
+                  }}
+                />
+                {data.video.time && (
+                  <Typography
+                    variant='custom'
+                    fontSize={12}
+                    color='customText.secondary'
+                  >
+                    {data.video.time}
+                  </Typography>
+                )}
+              </Stack>
+            )}
           </Stack>
           {data.desc && (
             <Typography

@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Piirrä tai lataa allekirjoituksesi.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Säädä allekirjoituksen kokoa ja sijaintia tarpeen mukaan.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Napsauta ladataksesi allekirjoitetun PDF-tiedoston nyt, kaikki on valmiina ja turvallista.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Pakkaa PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Pienennä PDF-tiedoston kokoa pakkaamalla tekstiä ja upotettuja kuvia paikallisessa selaimessa",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Pienennä PDF-dokumenttien kokoa nopeasti huippuluokan verkkopohjaisella PDF-pakkaustyökalullamme, joka takaa korkealaatuiset tulokset maksimaalisella turvallisuudella ja tehokkuudella.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Nopea PDF-pakkausprosessi",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Ei tarvetta ulkoiselle ohjelmistolle",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Erittäin turvallinen ja luottamuksellinen – tiedostosi käsitellään paikallisesti selaimessasi",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Nopea ja tehokas pakkaus",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Koe nopea PDF-tiedostojen pienennys kompromissitta laadusta. Työkalumme optimoi tiedostosi nopeampaa jakamista ja vähäistä tallennustilankäyttöä varten.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Säilytä laatu",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Edistyksellinen teknologiamme varmistaa, että PDF-tiedostojen visuaalinen eheys säilyy, säilyttäen sekä kuvien että tekstin selkeyden ja luettavuuden.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Paikallinen käsittely parannetun turvallisuuden takaamiseksi",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Arvostamme yksityisyyttäsi. Koko pakkausprosessi suoritetaan selaimessasi, joten tiedostosi eivät poistu laitteeltasi.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Yleinen saavutettavuus",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Voit käyttää verkkopohjaista PDF-pakkaustyökaluamme mistä tahansa laitteesta ilman asennuksia.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline-ominaisuus",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Voit pakata tiedostoja myös offline-tilassa. Lataa sivu etukäteen, ja voit jatkaa tiedoston pakkausta ilman internet-yhteyttä.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Mukautetut pakkausasetukset",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Säädä pakkaustasoa tarpeidesi mukaan, jotta voit tasapainottaa tiedostokoon pienenemisen ja visuaalisen laadun välillä, varmistaen optimaaliset tulokset kaiken tyyppisille dokumenteille.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kuinka pakata PDF-tiedostoja helposti:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Lataa PDF-tiedostosi verkkopohjaiseen pakkaustyökaluun.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Työkalu käsittelee tiedostosi nopeasti, pienentäen sen kokoa säilyttäen samalla laatua.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Lataa pakattu PDF-tiedosto laitteellesi heti pakkaamisen jälkeen.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Tarkista pakatun PDF-tiedoston laatu ja koko avaamalla se haluamallasi PDF-lukijalla."
+    "team_plan__title__description1": "Anna tiimillesi edistyneimmät tekoälytyökalut tuottavuuden parantamiseksi.",
+    "team_plan__title__description2": "Tiimisuunnitelmamme on suunniteltu kolmen tai useamman jäsenen ryhmille."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -699,8 +678,8 @@
     "faq_list__question3__desc": "Ei, nämä käyttörajat koskevat suoraan MaxAI:n toimittamia malleja, kuten GPT-4. Jos olet maksullisella suunnitelmalla ja käytät omaa API-avaintasi, voit käyttää siihen liitettyjä malleja ilman MaxAI:n asettamia käyttörajoituksia. Lisätietoja käyttörajoituksista löydät",
     "faq_list__question4__title": "Missä voin käyttää MaxAI.me-palvelua?",
     "faq_list__question4__desc": "Voit käyttää MaxAI.me-palvelua millä tahansa verkkosivustolla millä tahansa Chromium-pohjaisella selaimella (kuten Chrome ja Edge) tekstien kirjoittamiseen, parantamiseen, tiivistämiseen, selittämiseen, oikeinkirjoituksen ja kieliopin korjaamiseen, kääntämiseen tai vastaamiseen.",
-    "faq_list__disclaimer_part1": "Tilaamalla hyväksyt automaattiset maksut. Peruuta tai hallitse tilaustasi Stripecustomer-keskuksesta kohdasta \"Oma suunnitelma\". Kaikki palvelut toimitetaan ",
-    "faq_list__disclaimer_part2": " mukaisesti, johon vahvistat rekisteröityessäsi. Huomaa, että tämä palvelu on tarkoitettu vain ihmisten normaaliin käyttöön. Et saa jakaa tiliä muiden kanssa tai käyttää ohjelmallisia menetelmiä päästäksesi palveluun ohi virallisen käyttöliittymän. Mikäli rikkomukset käyttöehtoja vastaan aiheuttavat taloudellista tai muuta vahinkoa, pidätämme oikeuden ryhtyä oikeustoimiin ja vaatia asianmukaista korvausta.",
+    "faq_list__disclaimer_part1": "Tilaamalla hyväksyt automaattiset maksut. Peruuta tai hallitse tilaustasi Stripen asiakasportaalista kohdasta \"Oma suunnitelma\". Kaikki palvelut toimitetaan ",
+    "faq_list__disclaimer_part2": " johon vahvistat rekisteröityessäsi. Huomaa, että tämä palvelu on tarkoitettu vain ihmisten normaaliin käyttöön. Et saa jakaa tiliä muiden ihmisten kanssa tai käyttää ohjelmallisia menetelmiä päästäksesi palveluun ohittamalla virallisen käyttöliittymän. Ole tietoinen siitä, että kaikki maksut ovat lopullisia eikä niitä voi palauttaa. Mikäli palveluehtojen rikkomukset aiheuttavat taloudellisia tai muita vahinkoja, pidätämme oikeuden ryhtyä oikeustoimiin ja vaatia asianmukaista korvausta.",
     "plan_features_table__gemini_tooltip_desc": "Googlen kyvykkäin ja yleisin malli. Rakennettu alusta asti monimuotoisuutta varten. Gemini MaxAI:ssa on tällä hetkellä beetavaihe, joka tukee vain tekstiä ja koodia, mutta pian lisätään tuki kuvien, videoiden ja äänen käytölle.",
     "footer__resources": "Resurssit",
     "promotion__banner__elite__title__limited_time_offer": "Rajoitettu aika tarjous",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "MaxAI Elite Vuosittainen suunnitelma!",
     "promotion__limited_time_offer": "Rajoitettu ajan tarjous",
     "payment_type_switch__yearly__tip": "Säästä jopa {{RATIO}}%",
-    "footer__pdf_tools": "Ilmaiset verkkopohjaiset PDF-työkalut"
+    "footer__pdf_tools": "Ilmaiset verkkopohjaiset PDF-työkalut",
+    "faq_list__question5__title": "Tarjoaako MaxAI tiimisuunnitelmia?",
+    "faq_list__question5__desc__part1": "Kyllä, MaxAI tarjoaa tiimisuunnitelmia. Jos olet kiinnostunut, voit tarkistaa",
+    "faq_list__question5__desc__part2": "Tiimisuunnitelmat-sivumme",
+    "faq_list__question5__desc__part3": "lisätietoja varten."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF HTML-muunnin - Muunna PDF-tiedostot HTML:ksi ilmaiseksi | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Muunna PDF HTML:ksi ilmaiseksi. Säilytä asettelu ja muunna kuvat HTML:ksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaaditaan.",
     "pdf_tools__sign_pdf__title": "PDF:n allekirjoittaminen - Lisää digitaalinen allekirjoitus PDF-tiedostoihin paikallisesti ilmaiseksi | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Lisää helposti digitaalisia allekirjoituksia PDF-tiedostoihin ilmaiseksi ja turvallisesti paikallisilla laitteilla, varmistaen maksimaalisen yksityisyyden ja tietoturvan. Ei vesileimaa, tiedostokokorajoitusta, latausta tai rekisteröitymistä vaadita.",
-    "pdf_tools__compress_pdf__title": "Pakkaa PDF – Verkkopohjainen PDF-koon pienennys | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Pakkaa PDF-tiedostot paikallisessa selaimessa varmistaen nopean ja turvallisen suorituskyvyn. Ei vesileimaa, tiedostokokorajoitusta, latausta tai rekisteröitymistä vaadita."
+    "pdf_tools__sign_pdf__description": "Lisää helposti digitaalisia allekirjoituksia PDF-tiedostoihin ilmaiseksi ja turvallisesti paikallisilla laitteilla, varmistaen maksimaalisen yksityisyyden ja tietoturvan. Ei vesileimaa, tiedostokokorajoitusta, latausta tai rekisteröitymistä vaadita."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Paras huippuammattilaisille",
     "plan_button__save_with_yearly_plan": "Säästä {{PRICE}} vuosittaisella suunnitelmalla",
     "plan_button__free_status__start_for_free": "Aloita ilmaiseksi",
-    "better_plan_display__everything_in_plan_plus": "Kaikki {{PLAN}} lisäksi:"
+    "better_plan_display__everything_in_plan_plus": "Kaikki {{PLAN}} lisäksi:",
+    "features__gmail_instant_reply": "Gmail pikavastaus",
+    "features__outlook_instant_reply": "Outlook pikavastaus",
+    "features__facebook_instant_reply": "Facebook pikavastaus",
+    "features__linkedin_instant_reply": "LinkedIn pikavastaus",
+    "features__xtwitter_instant_reply": "X/Twitter pikavastaus",
+    "features__YouTube_instant_reply": "YouTube pikavastaus",
+    "features__instagram_instant_reply": "Instagram pikavastaus",
+    "features__reddit_instant_reply": "Reddit pikavastaus",
+    "features__whatsapp_instant_reply": "WhatsApp pikavastaus",
+    "features__discord_instant_reply": "Discord pikavastaus",
+    "features__telegram_instant_reply": "Telegram pikavastaus",
+    "features__messenger_instant_reply": "Messenger pikavastaus",
+    "features__slack_instant_reply": "Slack pikavastaus",
+    "features__summarize_ask_pdf": "Tiivistä ja kysy PDF",
+    "features__summarize_ask_youTube_video": "Tiivistä ja kysy YouTube-video",
+    "features__summarize_ask_email": "Tiivistä ja kysy sähköposti",
+    "features__summarize_ask_any_webpage": "Tiivistä ja kysy mikä tahansa verkkosivu",
+    "payment_info__team__per_user__desc": "käyttäjää kohden"
   },
   "features__common": {
     "components__upload_button_drop_title": "Pudota tähän"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allekirjoita PDF -etusivu",
     "components__sign_pdf__icon__sign": "Allekirjoita",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Kirjoita jotain..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Alhainen",
-    "components__compress_pdf__main__compress_basic_grade_title": "Perus",
-    "components__compress_pdf__main__compress_basic_grade_description": "Keskimääräinen tiedostokoko, vakioratkaisu",
-    "components__compress_pdf__main__compress_strong_grade_title": "Vahva",
-    "components__compress_pdf__main__compress_strong_grade_description": "Pieni tiedostokoko, alhainen resoluutio",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
-    "components__compress_pdf__main__compress_download": "Pakkaa ja lataa",
-    "components__compress_pdf__main__choose_another_file": "Valitse toinen tiedosto",
-    "components__compress_pdf__main__current_pdf_size": "Nykyinen PDF-koko",
-    "components__compress_pdf__main__original_pdf_size": "alkuperäinen koko",
-    "components__compress_pdf__main__different_pdf_size": "Eroaa aiemmasta {{DiFF_NUMBER}}% pienempi!",
-    "components__compress_pdf__main__compress_low_grade_description": "Tiedostokoko maksimi, Korkeampi resoluutio",
-    "components__compress_pdf__main__compress_error": "Pakkaus epäonnistui, tarkista onko PDF-tiedosto salattu tai poikkeava!"
   }
 }

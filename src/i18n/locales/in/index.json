@@ -532,29 +532,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Gambar atau unggah tanda tangan Anda.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Sesuaikan ukuran dan posisi tanda tangan sesuai kebutuhan.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Unduh PDF yang telah ditandatangani, semua siap dan aman.",
-    "tools__index_page__constant_obj__compress_pdf__title": "Kompres PDF",
-    "tools__index_page__constant_obj__compress_pdf__main_description": "Kurangi ukuran PDF dengan memampatkan teks dan gambar yang tertanam melalui browser lokal",
-    "pdf_tools__detail_description_object__compress_pdf__top_left": "Kurangi ukuran dokumen PDF Anda dengan cepat menggunakan alat Kompresi PDF online terbaru kami, untuk hasil berkualitas tinggi dengan keamanan dan efisiensi maksimal.",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Proses kompresi PDF yang cepat",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Tidak perlu instalasi perangkat lunak eksternal",
-    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Aman dan rahasia – file Anda diproses secara lokal di browser Anda",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Kompresi Cepat dan Efisien",
-    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Mengalami pengurangan ukuran PDF yang cepat tanpa mengorbankan kualitas. Alat kami mengoptimalkan file Anda untuk berbagi lebih cepat dan penggunaan penyimpanan minimal.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Pertahankan Kualitas",
-    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Teknologi canggih kami memastikan integritas visual PDF Anda tetap terjaga, menjaga kejelasan dan kemudahan membaca baik gambar maupun teks.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Pemrosesan Lokal untuk Keamanan Lebih Tinggi",
-    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Kami mengutamakan privasi Anda. Seluruh proses kompresi dilakukan di dalam browser Anda, memastikan dokumen Anda tidak meninggalkan perangkat Anda.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Aksesibilitas Universal",
-    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Dapat diakses dari mana saja, alat Kompresi PDF online kami memungkinkan Anda mengurangi ukuran file pada perangkat apa pun tanpa perlu instalasi.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Kemampuan Offline",
-    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktifkan kompresi bahkan saat Anda offline. Muat halaman sebelumnya, dan Anda dapat melanjutkan kompresi file tanpa koneksi internet.",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Pengaturan Kompresi Kustom",
-    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Sesuaikan tingkat kompresi sesuai kebutuhan Anda, memungkinkan penyesuaian khusus untuk menyeimbangkan antara pengurangan ukuran file dan kualitas visual, untuk hasil optimal pada setiap jenis dokumen.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cara Mudah Kompres PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Unggah PDF Anda ke alat kompresi online.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Alat ini dengan cepat memproses file Anda, mengurangi ukurannya sambil menjaga kualitasnya.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Unduh PDF yang sudah dikompresi ke perangkat Anda segera setelah kompresi.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Periksa kualitas dan ukuran PDF yang sudah dikompresi dengan membukanya di pembaca PDF pilihan Anda."
+    "team_plan__title__description1": "Berikan tim Anda alat produktivitas AI paling canggih.",
+    "team_plan__title__description2": "Rencana tim kami dirancang untuk kelompok dengan tiga anggota atau lebih."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompts",
@@ -700,7 +679,7 @@
     "faq_list__question4__title": "Di mana saya bisa menggunakan MaxAI.me?",
     "faq_list__question4__desc": "Anda dapat menggunakan MaxAI.me di situs web apa pun pada browser berbasis Chromium (seperti Chrome dan Edge) untuk membuat, meningkatkan tulisan, merangkum, menjelaskan, memperbaiki ejaan & tata bahasa, menerjemahkan, atau membalas teks apa pun.",
     "faq_list__disclaimer_part1": "Dengan berlangganan, Anda akan terdaftar dalam pembayaran otomatis. Batalkan atau kelola langganan Anda melalui portal pelanggan Stripe dari \"Rencana Saya\". Semua layanan disampaikan sesuai dengan ",
-    "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar. Harap dicatat bahwa layanan ini hanya untuk penggunaan manusia biasa. Anda tidak boleh membagikan akun dengan orang lain atau menggunakan metode programatik untuk mengakses layanan ini, dengan cara melewati antarmuka pengguna resmi. Jika pelanggaran Ketentuan Layanan mengakibatkan kerugian keuangan atau lainnya, kami berhak untuk menempuh tindakan hukum dan mencari kompensasi yang sesuai.",
+    "faq_list__disclaimer_part2": " yang Anda konfirmasi saat mendaftar. Harap dicatat bahwa layanan ini hanya untuk penggunaan manusia biasa. Anda tidak boleh membagikan akun dengan orang lain atau menggunakan metode programatik untuk mengakses layanan ini, melewati antarmuka pengguna resmi. Harap diketahui bahwa semua pembayaran bersifat final dan tidak dapat dikembalikan. Jika pelanggaran Ketentuan Layanan mengakibatkan kerugian keuangan atau kerugian lainnya, kami berhak untuk menempuh tindakan hukum dan mencari kompensasi yang sesuai.",
     "plan_features_table__gemini_tooltip_desc": "Model tercanggih dan umum dari Google. Dibangun dari awal untuk multimodalitas. Gemini di MaxAI saat ini dalam fase beta, hanya mendukung teks dan kode, akan segera menambahkan dukungan untuk gambar, video, dan audio.",
     "footer__resources": "Sumber Daya",
     "promotion__banner__elite__title__limited_time_offer": "Penawaran Terbatas",
@@ -708,7 +687,11 @@
     "promotion__banner__elite__title__part2": "pada paket MaxAI Elite Tahunan!",
     "promotion__limited_time_offer": "Penawaran Terbatas",
     "payment_type_switch__yearly__tip": "Simpan hingga {{RATIO}}%",
-    "footer__pdf_tools": "Alat PDF online gratis"
+    "footer__pdf_tools": "Alat PDF online gratis",
+    "faq_list__question5__title": "Apakah MaxAI menawarkan paket tim?",
+    "faq_list__question5__desc__part1": "Ya, MaxAI menawarkan paket tim. Jika Anda tertarik, Anda dapat melihat halaman",
+    "faq_list__question5__desc__part2": "Paket Tim kami",
+    "faq_list__question5__desc__part3": "untuk informasi lebih lanjut."
   },
   "privacy": {},
   "industry": {
@@ -813,9 +796,7 @@
     "pdf_tools__pdf_to_html__title": "PDF ke HTML - Konversi File PDF ke HTML Online Gratis | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Konversi PDF ke HTML secara online secara gratis. Pertahankan tata letak dan konversikan gambar ke HTML. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__sign_pdf__title": "Menandatangani PDF - Menambahkan Tanda Tangan Digital ke File PDF Secara Lokal Gratis | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Mudah menambahkan tanda tangan digital ke file PDF secara gratis dan aman di perangkat lokal, memastikan privasi dan keamanan maksimum. Tanpa watermark, batasan ukuran file, unduhan, atau registrasi yang diperlukan.",
-    "pdf_tools__compress_pdf__title": "Kompres PDF – Pengurangan Ukuran PDF Online | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Kompres file PDF dalam browser lokal untuk memastikan kinerja yang cepat dan aman. Tanpa watermark, batasan ukuran file, unduhan, atau registrasi yang diperlukan."
+    "pdf_tools__sign_pdf__description": "Mudah menambahkan tanda tangan digital ke file PDF secara gratis dan aman di perangkat lokal, memastikan privasi dan keamanan maksimum. Tanpa watermark, batasan ukuran file, unduhan, atau registrasi yang diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",
@@ -989,7 +970,25 @@
     "payment_info__elite_desc": "Terbaik untuk profesional elit",
     "plan_button__save_with_yearly_plan": "Simpan {{PRICE}} dengan paket tahunan",
     "plan_button__free_status__start_for_free": "Mulai gratis",
-    "better_plan_display__everything_in_plan_plus": "Semua fitur dalam {{PLAN}} ditambah:"
+    "better_plan_display__everything_in_plan_plus": "Semua fitur dalam {{PLAN}} ditambah:",
+    "features__gmail_instant_reply": "Balasan instan Gmail",
+    "features__outlook_instant_reply": "Balasan instan Outlook",
+    "features__facebook_instant_reply": "Balasan instan Facebook",
+    "features__linkedin_instant_reply": "Balasan instan LinkedIn",
+    "features__xtwitter_instant_reply": "Balasan instan X/Twitter",
+    "features__YouTube_instant_reply": "Balasan instan YouTube",
+    "features__instagram_instant_reply": "Balasan instan Instagram",
+    "features__reddit_instant_reply": "Balasan instan Reddit",
+    "features__whatsapp_instant_reply": "Balasan instan WhatsApp",
+    "features__discord_instant_reply": "Balasan instan Discord",
+    "features__telegram_instant_reply": "Balasan instan Telegram",
+    "features__messenger_instant_reply": "Balasan instan Messenger",
+    "features__slack_instant_reply": "Balasan instan Slack",
+    "features__summarize_ask_pdf": "Ringkasan & tanya PDF",
+    "features__summarize_ask_youTube_video": "Ringkasan & tanya video YouTube",
+    "features__summarize_ask_email": "Ringkasan & tanya email",
+    "features__summarize_ask_any_webpage": "Ringkasan & tanya halaman web apa pun",
+    "payment_info__team__per_user__desc": "per pengguna"
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"
@@ -1031,20 +1030,5 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Beranda Tanda Tangan PDF",
     "components__sign_pdf__icon__sign": "Tanda Tangan",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ketik sesuatu..."
-  },
-  "functionality__compress_pdf": {
-    "components__compress_pdf__main__compress_low_grade_title": "Rendah",
-    "components__compress_pdf__main__compress_basic_grade_title": "Dasar",
-    "components__compress_pdf__main__compress_basic_grade_description": "Ukuran file sedang, resolusi standar",
-    "components__compress_pdf__main__compress_strong_grade_title": "Kuat",
-    "components__compress_pdf__main__compress_strong_grade_description": "Ukuran file kecil, resolusi lebih rendah",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
-    "components__compress_pdf__main__compress_download": "Kompres & Unduh",
-    "components__compress_pdf__main__choose_another_file": "Pilih file lain",
-    "components__compress_pdf__main__current_pdf_size": "Ukuran PDF saat ini",
-    "components__compress_pdf__main__original_pdf_size": "ukuran asli",
-    "components__compress_pdf__main__different_pdf_size": "Berbeda dari sebelumnya {{DiFF_NUMBER}}% lebih kecil!",
-    "components__compress_pdf__main__compress_low_grade_description": "Ukuran file maksimum, Resolusi lebih tinggi",
-    "components__compress_pdf__main__compress_error": "Kompresi gagal, harap periksa apakah file PDF terenkripsi atau tidak normal!"
   }
 }
