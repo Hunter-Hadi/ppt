@@ -145,16 +145,20 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
   };
 
   const desc = useMemo(() => {
-    if (type == 'pro' || type === 'pro_yearly') {
-      return t('modules:plan_payment_info__pro_desc');
+    if (type.includes('basic')) {
+      return t('pricing:payment_info__basic_desc');
     }
 
-    if (type == 'elite' || type === 'elite_yearly') {
-      return t('modules:plan_payment_info__elite_desc');
+    if (type.includes('pro')) {
+      return t('pricing:payment_info__pro_desc');
+    }
+
+    if (type.includes('elite')) {
+      return t('pricing:payment_info__elite_desc');
     }
 
     // free
-    return t('modules:plan_payment_info__free_desc');
+    return t('pricing:payment_info__free_desc');
   }, [type, t]);
 
   if (variant === 'mini') {
