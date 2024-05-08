@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Tamanho atual do PDF",
     "components__compress_pdf__main__original_pdf_size": "tamanho original",
     "components__compress_pdf__main__different_pdf_size": "Diferente do anterior {{DiFF_NUMBER}}% menor!",
-    "components__compress_pdf__main__compress_low_grade_description": "Tamanho máximo do ficheiro, Resolução mais alta"
+    "components__compress_pdf__main__compress_low_grade_description": "Tamanho máximo do ficheiro, Resolução mais alta",
+    "components__compress_pdf__main__compress_error": "A compressão falhou, por favor verifique se o ficheiro PDF está encriptado ou é anormal!"
   }
 }

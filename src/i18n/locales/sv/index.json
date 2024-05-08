@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Aktuell PDF-storlek",
     "components__compress_pdf__main__original_pdf_size": "ursprunglig storlek",
     "components__compress_pdf__main__different_pdf_size": "Annorlunda än tidigare {{DiFF_NUMBER}}% mindre!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maximal filstorlek, Hög upplösning"
+    "components__compress_pdf__main__compress_low_grade_description": "Maximal filstorlek, Hög upplösning",
+    "components__compress_pdf__main__compress_error": "Komprimering misslyckades, kontrollera om PDF-filen är krypterad eller onormal!"
   }
 }

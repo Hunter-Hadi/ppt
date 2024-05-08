@@ -173,8 +173,8 @@ export const copyFabricSelectedObject = (editor: FabricJSEditor) => {
       if (clonedObj.type === 'activeSelection') {
         // 对组内每个对象进行处理
         clonedObj.canvas = canvas;
-        clonedObj.forEachObject(function (obj) {
-          canvas.add(obj);
+        clonedObj.forEachObject(function (objectInfo) {
+          canvas.add(objectInfo);
         });
 
         // 根据复制的选择设置新的活动选择

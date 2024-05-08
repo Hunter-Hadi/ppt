@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "PDF ची वर्तमान आकार",
     "components__compress_pdf__main__original_pdf_size": "मूळ आकार",
     "components__compress_pdf__main__different_pdf_size": "मागीलपेक्षा {{DiFF_NUMBER}}% लहान!",
-    "components__compress_pdf__main__compress_low_grade_description": "कमाल फाइल साईज, उच्च रेजोल्यूशन"
+    "components__compress_pdf__main__compress_low_grade_description": "कमाल फाइल साईज, उच्च रेजोल्यूशन",
+    "components__compress_pdf__main__compress_error": "कंप्रेशन अयशस्वी, कृपया तपासा की PDF फाइल संकेतशित आहे किंवा असामान्य आहे!"
   }
 }

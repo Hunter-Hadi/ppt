@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Aktuális PDF méret",
     "components__compress_pdf__main__original_pdf_size": "eredeti méret",
     "components__compress_pdf__main__different_pdf_size": "Különbözik az előzőtől {{DiFF_NUMBER}}%-kal kisebb!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maximális fájlméret, Nagyobb felbontás"
+    "components__compress_pdf__main__compress_low_grade_description": "Maximális fájlméret, Nagyobb felbontás",
+    "components__compress_pdf__main__compress_error": "A tömörítés sikertelen, kérjük ellenőrizze, hogy a PDF fájl titkosított vagy rendellenes-e!"
   }
 }

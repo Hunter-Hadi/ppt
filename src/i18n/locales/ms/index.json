@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Saiz semasa PDF",
     "components__compress_pdf__main__original_pdf_size": "saiz asal",
     "components__compress_pdf__main__different_pdf_size": "Berbeza daripada sebelumnya {{DiFF_NUMBER}}% lebih kecil!",
-    "components__compress_pdf__main__compress_low_grade_description": "Saiz fail maksimum, Resolusi yang lebih tinggi"
+    "components__compress_pdf__main__compress_low_grade_description": "Saiz fail maksimum, Resolusi yang lebih tinggi",
+    "components__compress_pdf__main__compress_error": "Pemampatan gagal, sila semak sama ada fail PDF dienkripsi atau tidak normal!"
   }
 }

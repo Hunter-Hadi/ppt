@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Ukubwa wa sasa wa PDF",
     "components__compress_pdf__main__original_pdf_size": "ukubwa halisi",
     "components__compress_pdf__main__different_pdf_size": "Tofauti na hapo awali {{DiFF_NUMBER}}% ndogo!",
-    "components__compress_pdf__main__compress_low_grade_description": "Ukubwa wa faili ya juu, Azimio kubwa"
+    "components__compress_pdf__main__compress_low_grade_description": "Ukubwa wa faili ya juu, Azimio kubwa",
+    "components__compress_pdf__main__compress_error": "Ukandamizaji umeshindwa, tafadhali angalia kama faili ya PDF imefichwa au ni isiyo ya kawaida!"
   }
 }

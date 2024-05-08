@@ -35,17 +35,20 @@ const FunctionalityCompressPdfMain = () => {
 
     return $img;
   };
-  const pdfPngToJpeg = (obj: PDFRawStream, newData: Uint8Array) => {
-    obj.dict.delete(PDFName.of('Interpolate'));
-    obj.dict.delete(PDFName.of('SMask'));
-    obj.dict.delete(PDFName.of('Intent'));
+  const pdfPngToJpeg = (pdfRawStream: PDFRawStream, newData: Uint8Array) => {
+    pdfRawStream.dict.delete(PDFName.of('Interpolate'));
+    pdfRawStream.dict.delete(PDFName.of('SMask'));
+    pdfRawStream.dict.delete(PDFName.of('Intent'));
 
-    obj.dict.set(PDFName.of('Filter'), PDFName.of('DCTDecode'));
-    obj.dict.set(PDFName.of('Length'), PDFNumber.of(newData.byteLength));
-    obj.dict.set(PDFName.of('ColorSpace'), PDFName.of('DeviceRGB'));
+    pdfRawStream.dict.set(PDFName.of('Filter'), PDFName.of('DCTDecode'));
+    pdfRawStream.dict.set(
+      PDFName.of('Length'),
+      PDFNumber.of(newData.byteLength),
+    );
+    pdfRawStream.dict.set(PDFName.of('ColorSpace'), PDFName.of('DeviceRGB'));
 
     //@ts-ignore
-    obj.contents = newData;
+    pdfRawStream.contents = newData;
   };
   const onCompressPdf = async () => {
     try {
@@ -84,21 +87,33 @@ const FunctionalityCompressPdfMain = () => {
               });
 
               if (image.type === 'png') {
-                pdfPngToJpeg(image.obj, newData);
+                pdfPngToJpeg(image.pdfObject, newData);
               } else {
                 // @ts-ignore
-                image.obj.contents = newData;
+                image.pdfObject.contents = newData;
               }
             }
           }
 
           const bytes = await doc!.save();
-          const blob = new Blob([bytes], { type: 'application/pdf' });
-          setPdfSizeDiff({
-            before: pdfData!.byteLength,
-            after: bytes.byteLength,
-          });
-          onDownload(blob);
+
+          if (bytes.byteLength > pdfData!.byteLength) {
+            //转检查，如果大于之前的，则下载原始文件
+            //因为图片会重新编码，导致概率可能会变大
+            const blob = new Blob([pdfData], { type: 'application/pdf' });
+            setPdfSizeDiff({
+              before: pdfData!.byteLength,
+              after: pdfData.byteLength,
+            });
+            onDownload(blob);
+          } else {
+            const blob = new Blob([bytes], { type: 'application/pdf' });
+            setPdfSizeDiff({
+              before: pdfData!.byteLength,
+              after: bytes.byteLength,
+            });
+            onDownload(blob);
+          }
           setIsLoading(false);
         } catch (err) {
           console.warn(err);
@@ -106,9 +121,11 @@ const FunctionalityCompressPdfMain = () => {
       }
     } catch (e) {
       setIsLoading(false);
-      console.error('simply mergePdfFiles error', e);
+      console.log('simply onCompressPdf error', e);
       functionalityCommonSnackNotifications(
-        t('functionality__pdf_split:components__pdf_split__error_maximum'),
+        t(
+          'functionality__compress_pdf:components__compress_pdf__main__compress_error',
+        ),
       );
     }
   };
@@ -170,21 +187,10 @@ const FunctionalityCompressPdfMain = () => {
         },
       },
     ],
-    [isLoading, file, compressionGrade],
+    [isLoading, file, compressionGrade, t],
   );
-  const BoxViewWrap = (props) => (
-    <Stack
-      sx={{
-        width: '100%',
-        position: 'relative',
-        minHeight: 200,
-      }}
-      alignItems='center'
-      direction='column'
-    >
-      {props.children}
-    </Stack>
-  );
+
+  //压缩等级列表
   const compressGradeList = [
     {
       title: t(
@@ -235,7 +241,15 @@ const FunctionalityCompressPdfMain = () => {
         />
       )}
       {file && (
-        <BoxViewWrap>
+        <Stack
+          sx={{
+            width: '100%',
+            position: 'relative',
+            minHeight: 200,
+          }}
+          alignItems='center'
+          direction='column'
+        >
           <Box
             sx={{
               mb: 5,
@@ -359,7 +373,7 @@ const FunctionalityCompressPdfMain = () => {
               </p>
             </Typography>
           )}
-        </BoxViewWrap>
+        </Stack>
       )}
     </Stack>
   );

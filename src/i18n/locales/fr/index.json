@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Taille actuelle du PDF",
     "components__compress_pdf__main__original_pdf_size": "taille d'origine",
     "components__compress_pdf__main__different_pdf_size": "Différent de avant {{DiFF_NUMBER}}% plus petit !",
-    "components__compress_pdf__main__compress_low_grade_description": "Taille de fichier maximale, Résolution plus élevée"
+    "components__compress_pdf__main__compress_low_grade_description": "Taille de fichier maximale, Résolution plus élevée",
+    "components__compress_pdf__main__compress_error": "La compression a échoué, veuillez vérifier si le fichier PDF est chiffré ou anormal !"
   }
 }

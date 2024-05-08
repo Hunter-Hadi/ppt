@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Huidige grootte van PDF",
     "components__compress_pdf__main__original_pdf_size": "oorspronkelijke grootte",
     "components__compress_pdf__main__different_pdf_size": "Verschilt van eerder {{DiFF_NUMBER}}% kleiner!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maximale bestandsgrootte, Hogere resolutie"
+    "components__compress_pdf__main__compress_low_grade_description": "Maximale bestandsgrootte, Hogere resolutie",
+    "components__compress_pdf__main__compress_error": "Compressie mislukt, controleer of het PDF-bestand versleuteld of abnormaal is!"
   }
 }

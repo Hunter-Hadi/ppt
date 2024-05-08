@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Aktuální velikost PDF",
     "components__compress_pdf__main__original_pdf_size": "původní velikost",
     "components__compress_pdf__main__different_pdf_size": "O {{DiFF_NUMBER}}% menší než předtím!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maximální velikost souboru, Vyšší rozlišení"
+    "components__compress_pdf__main__compress_low_grade_description": "Maximální velikost souboru, Vyšší rozlišení",
+    "components__compress_pdf__main__compress_error": "Komprese se nezdařila, zkontrolujte, zda je soubor PDF zašifrovaný nebo neobvyklý!"
   }
 }

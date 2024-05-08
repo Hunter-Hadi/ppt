@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Trenutna veličina PDF-a",
     "components__compress_pdf__main__original_pdf_size": "izvorna veličina",
     "components__compress_pdf__main__different_pdf_size": "Različito od prije {{DiFF_NUMBER}}% manje!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimalna veličina datoteke, Viša rezolucija"
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimalna veličina datoteke, Viša rezolucija",
+    "components__compress_pdf__main__compress_error": "Kompresija nije uspjela, molimo provjerite je li PDF datoteka šifrirana ili nepravilna!"
   }
 }

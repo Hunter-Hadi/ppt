@@ -27,7 +27,8 @@ export function compressPdfStreams(doc: PDFDocument) {
       );
       pdfObject.dict.set(PDFName.of('Filter'), PDFName.of('FlateDecode'));
       // 更新对象的 contents 属性
-      (pdfObject as { contents: any }).contents = newData;
+      // @ts-ignore
+      pdfObject.contents = newData;
     }
   }
 }

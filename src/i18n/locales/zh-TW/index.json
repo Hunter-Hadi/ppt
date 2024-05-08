@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "當前PDF大小",
     "components__compress_pdf__main__original_pdf_size": "原始大小",
     "components__compress_pdf__main__different_pdf_size": "與之前不同 {{DiFF_NUMBER}}% 更小！",
-    "components__compress_pdf__main__compress_low_grade_description": "最大檔案大小，更高解析度"
+    "components__compress_pdf__main__compress_low_grade_description": "最大檔案大小，更高解析度",
+    "components__compress_pdf__main__compress_error": "壓縮失敗，請檢查PDF文件是否加密或異常！"
   }
 }

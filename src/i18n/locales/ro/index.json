@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Dimensiunea actuală a PDF-ului",
     "components__compress_pdf__main__original_pdf_size": "dimensiune originală",
     "components__compress_pdf__main__different_pdf_size": "Diferit față de anterior {{DiFF_NUMBER}}% mai mic!",
-    "components__compress_pdf__main__compress_low_grade_description": "Dimensiune maximă a fișierului, Rezoluție mai mare"
+    "components__compress_pdf__main__compress_low_grade_description": "Dimensiune maximă a fișierului, Rezoluție mai mare",
+    "components__compress_pdf__main__compress_error": "Compresia a eșuat, vă rugăm să verificați dacă fișierul PDF este criptat sau anormal!"
   }
 }

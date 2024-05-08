@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Obecny rozmiar PDF",
     "components__compress_pdf__main__original_pdf_size": "oryginalny rozmiar",
     "components__compress_pdf__main__different_pdf_size": "Różnica w stosunku do poprzedniego {{DiFF_NUMBER}}% mniejsza!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksymalny rozmiar pliku, Wyższa rozdzielczość"
+    "components__compress_pdf__main__compress_low_grade_description": "Maksymalny rozmiar pliku, Wyższa rozdzielczość",
+    "components__compress_pdf__main__compress_error": "Kompresja nie powiodła się, sprawdź, czy plik PDF jest zaszyfrowany lub nieprawidłowy!"
   }
 }

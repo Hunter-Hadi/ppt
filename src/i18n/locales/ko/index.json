@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "PDF 현재 크기",
     "components__compress_pdf__main__original_pdf_size": "원본 크기",
     "components__compress_pdf__main__different_pdf_size": "이전과 다른 {{DiFF_NUMBER}}% 작아짐!",
-    "components__compress_pdf__main__compress_low_grade_description": "최대 파일 크기, 더 높은 해상도"
+    "components__compress_pdf__main__compress_low_grade_description": "최대 파일 크기, 더 높은 해상도",
+    "components__compress_pdf__main__compress_error": "압축에 실패했습니다. PDF 파일이 암호화되었거나 비정상적인지 확인해주세요!"
   }
 }

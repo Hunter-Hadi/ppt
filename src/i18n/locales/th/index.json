@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "ขนาด PDF ปัจจุบัน",
     "components__compress_pdf__main__original_pdf_size": "ขนาดเดิม",
     "components__compress_pdf__main__different_pdf_size": "เล็กกว่าก่อน {{DiFF_NUMBER}}%!",
-    "components__compress_pdf__main__compress_low_grade_description": "ขนาดไฟล์สูงสุด, ความละเอียดสูง"
+    "components__compress_pdf__main__compress_low_grade_description": "ขนาดไฟล์สูงสุด, ความละเอียดสูง",
+    "components__compress_pdf__main__compress_error": "การบีบอัดล้มเหลว โปรดตรวจสอบว่าไฟล์ PDF ถูกเข้ารหัสหรือผิดปกติ!"
   }
 }

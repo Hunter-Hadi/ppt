@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Pašreizējais PDF izmērs",
     "components__compress_pdf__main__original_pdf_size": "oriģinālais izmērs",
     "components__compress_pdf__main__different_pdf_size": "Atšķirīgs no iepriekšējā, {{DiFF_NUMBER}}% mazāks!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimālais faila izmērs, Augstāka izšķirtspēja"
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimālais faila izmērs, Augstāka izšķirtspēja",
+    "components__compress_pdf__main__compress_error": "Saspiešanas kļūda, lūdzu, pārbaudiet, vai PDF fails ir šifrēts vai neregulārs!"
   }
 }

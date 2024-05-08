@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "PDF dabartinis dydis",
     "components__compress_pdf__main__original_pdf_size": "pradinis dydis",
     "components__compress_pdf__main__different_pdf_size": "Skiriasi nuo ankstesnio dydis {{DiFF_NUMBER}}% mažesnis!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maksimalus failo dydis, Aukštesnė raiška"
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimalus failo dydis, Aukštesnė raiška",
+    "components__compress_pdf__main__compress_error": "Suspaudimo klaida, prašome patikrinti, ar PDF failas yra užšifruotas arba netinkamas!"
   }
 }

@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Kích thước PDF hiện tại",
     "components__compress_pdf__main__original_pdf_size": "kích thước gốc",
     "components__compress_pdf__main__different_pdf_size": "Khác so với trước {{DiFF_NUMBER}}% nhỏ hơn!",
-    "components__compress_pdf__main__compress_low_grade_description": "Dung lượng tệ nhất, Độ phân giải cao hơn"
+    "components__compress_pdf__main__compress_low_grade_description": "Dung lượng tệ nhất, Độ phân giải cao hơn",
+    "components__compress_pdf__main__compress_error": "Nén không thành công, vui lòng kiểm tra xem tệp PDF có được mã hóa hay không hoặc có bất thường không!"
   }
 }

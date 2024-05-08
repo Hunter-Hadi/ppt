@@ -262,47 +262,49 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   };
 
   //控制边界，不超过画布
-  const constrainWithinCanvas = (obj, padding = 0) => {
-    if (!obj.canvas) return;
+  const constrainWithinCanvas = (targetObject, padding = 0) => {
+    if (!targetObject.canvas) return;
     if (
-      obj.currentHeight > obj.canvas.height - padding * 2 ||
-      obj.currentWidth > obj.canvas.width - padding * 2
+      targetObject.currentHeight > targetObject.canvas.height - padding * 2 ||
+      targetObject.currentWidth > targetObject.canvas.width - padding * 2
     ) {
       return;
     }
     if (
-      obj.getBoundingRect().top < padding ||
-      obj.getBoundingRect().left < padding
+      targetObject.getBoundingRect().top < padding ||
+      targetObject.getBoundingRect().left < padding
     ) {
-      obj.top = Math.max(
-        obj.top,
-        obj.top - obj.getBoundingRect().top + padding,
+      targetObject.top = Math.max(
+        targetObject.top,
+        targetObject.top - targetObject.getBoundingRect().top + padding,
       );
-      obj.left = Math.max(
-        obj.left,
-        obj.left - obj.getBoundingRect().left + padding,
+      targetObject.left = Math.max(
+        targetObject.left,
+        targetObject.left - targetObject.getBoundingRect().left + padding,
       );
     }
     if (
-      obj.getBoundingRect().top + obj.getBoundingRect().height >
-        obj.canvas.height - padding ||
-      obj.getBoundingRect().left + obj.getBoundingRect().width >
-        obj.canvas.width - padding
+      targetObject.getBoundingRect().top +
+        targetObject.getBoundingRect().height >
+        targetObject.canvas.height - padding ||
+      targetObject.getBoundingRect().left +
+        targetObject.getBoundingRect().width >
+        targetObject.canvas.width - padding
     ) {
-      obj.top = Math.min(
-        obj.top,
-        obj.canvas.height -
-          obj.getBoundingRect().height +
-          obj.top -
-          obj.getBoundingRect().top -
+      targetObject.top = Math.min(
+        targetObject.top,
+        targetObject.canvas.height -
+          targetObject.getBoundingRect().height +
+          targetObject.top -
+          targetObject.getBoundingRect().top -
           padding,
       );
-      obj.left = Math.min(
-        obj.left,
-        obj.canvas.width -
-          obj.getBoundingRect().width +
-          obj.left -
-          obj.getBoundingRect().left -
+      targetObject.left = Math.min(
+        targetObject.left,
+        targetObject.canvas.width -
+          targetObject.getBoundingRect().width +
+          targetObject.left -
+          targetObject.getBoundingRect().left -
           padding,
       );
     }
@@ -322,15 +324,13 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         });
         // 对象添加
         editor.canvas.on('object:added', function (options) {
-          var obj = options.target;
-          console.log('一个对象被添加', obj);
-          changObjectToList(obj, 'add');
+          console.log('一个对象被添加', options.target);
+          changObjectToList(options.target, 'add');
         });
         // 对象删除
         editor.canvas.on('object:removed', function (options) {
-          var obj = options.target;
-          console.log('一个对象被移除', obj);
-          changObjectToList(obj, 'del');
+          console.log('一个对象被移除', options.target);
+          changObjectToList(options.target, 'del');
         });
         //鼠标抬起事件
         editor.canvas.on('mouse:up', function (event) {

@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Ukuran PDF saat ini",
     "components__compress_pdf__main__original_pdf_size": "ukuran asli",
     "components__compress_pdf__main__different_pdf_size": "Berbeda dari sebelumnya {{DiFF_NUMBER}}% lebih kecil!",
-    "components__compress_pdf__main__compress_low_grade_description": "Ukuran file maksimum, Resolusi lebih tinggi"
+    "components__compress_pdf__main__compress_low_grade_description": "Ukuran file maksimum, Resolusi lebih tinggi",
+    "components__compress_pdf__main__compress_error": "Kompresi gagal, harap periksa apakah file PDF terenkripsi atau tidak normal!"
   }
 }

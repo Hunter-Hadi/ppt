@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Aktuelle PDF-Größe",
     "components__compress_pdf__main__original_pdf_size": "ursprüngliche Größe",
     "components__compress_pdf__main__different_pdf_size": "Anders als zuvor {{DiFF_NUMBER}}% kleiner!",
-    "components__compress_pdf__main__compress_low_grade_description": "Maximale Dateigröße, Höhere Auflösung"
+    "components__compress_pdf__main__compress_low_grade_description": "Maximale Dateigröße, Höhere Auflösung",
+    "components__compress_pdf__main__compress_error": "Komprimierung fehlgeschlagen, bitte überprüfen Sie, ob die PDF-Datei verschlüsselt oder abnorm ist!"
   }
 }

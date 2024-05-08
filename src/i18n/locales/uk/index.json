@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "موجودہ PDF سائز",
     "components__compress_pdf__main__original_pdf_size": "اصل سائز",
     "components__compress_pdf__main__different_pdf_size": "پہلے سے {{DiFF_NUMBER}}٪ چھوٹا!",
-    "components__compress_pdf__main__compress_low_grade_description": "زیادہ سے زیادہ فائل سائز، بلند ترین ریزولوشن"
+    "components__compress_pdf__main__compress_low_grade_description": "زیادہ سے زیادہ فائل سائز، بلند ترین ریزولوشن",
+    "components__compress_pdf__main__compress_error": "تنگ کرنے میں ناکامی ، براہ کرم چیک کریں کہ پی ڈی ایف فائل خفیف یا غیر عادی نہیں ہے!"
   }
 }

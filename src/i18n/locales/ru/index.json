@@ -1044,6 +1044,7 @@
     "components__compress_pdf__main__current_pdf_size": "Текущий размер PDF",
     "components__compress_pdf__main__original_pdf_size": "оригинальный размер",
     "components__compress_pdf__main__different_pdf_size": "Отличается от предыдущего на {{DiFF_NUMBER}}% меньше!",
-    "components__compress_pdf__main__compress_low_grade_description": "Максимальный размер файла, более высокое разрешение"
+    "components__compress_pdf__main__compress_low_grade_description": "Максимальный размер файла, более высокое разрешение",
+    "components__compress_pdf__main__compress_error": "Сжатие не удалось, пожалуйста, проверьте, зашифрован ли файл PDF или является ли он аномальным!"
   }
 }

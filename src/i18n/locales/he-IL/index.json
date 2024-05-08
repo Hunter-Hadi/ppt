@@ -1043,6 +1043,7 @@
     "components__compress_pdf__main__current_pdf_size": "גודל ה-PDF הנוכחי",
     "components__compress_pdf__main__original_pdf_size": "גודל מקורי",
     "components__compress_pdf__main__different_pdf_size": "שונה מהקודם ב-{{DiFF_NUMBER}}% קטן!",
-    "components__compress_pdf__main__compress_low_grade_description": "גודל קובץ מרבי, רזולוציה גבוהה"
+    "components__compress_pdf__main__compress_low_grade_description": "גודל קובץ מרבי, רזולוציה גבוהה",
+    "components__compress_pdf__main__compress_error": "הדחיסה נכשלה, אנא בדוק אם קובץ ה-PDF מוצפן או לא תקין!"
   }
 }

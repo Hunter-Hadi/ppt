@@ -746,7 +746,8 @@
 
     "components__compress_pdf__main__current_pdf_size": "PDF current size",
     "components__compress_pdf__main__original_pdf_size": "original size",
-    "components__compress_pdf__main__different_pdf_size": "Different from before {{DiFF_NUMBER}}% smaller!"
+    "components__compress_pdf__main__different_pdf_size": "Different from before {{DiFF_NUMBER}}% smaller!",
+    "components__compress_pdf__main__compress_error": "Compression failed, please check if the PDF file is encrypted or abnormal!"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Prompts",
