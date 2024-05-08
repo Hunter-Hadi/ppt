@@ -70,10 +70,7 @@ const FunctionalityCompressPdfMain = () => {
                 image.type === 'png'
                   ? await createPngFromPdf(image)
                   : image.data;
-              const imageInfo = uInt8ArrayToImage(
-                arr as Blob,
-                `image/${image.type}`,
-              );
+              const imageInfo = uInt8ArrayToImage(arr, `image/${image.type}`);
               let quality = 0.85;
               if (compressionGrade === 'strong') {
                 quality = 0.1;
