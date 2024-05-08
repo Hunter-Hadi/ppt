@@ -30,10 +30,10 @@ const FunctionalityCompressPdfMain = () => {
 
   const uInt8ArrayToImage = (arr: Uint8Array | Blob, type: string) => {
     const b = arr instanceof Blob ? arr : new Blob([arr], { type });
-    const $img = document.createElement('img');
-    $img.src = URL.createObjectURL(b);
+    const imageDocument = document.createElement('img');
+    imageDocument.src = URL.createObjectURL(b);
 
-    return $img;
+    return imageDocument;
   };
   const pdfPngToJpeg = (pdfRawStream: PDFRawStream, newData: Uint8Array) => {
     pdfRawStream.dict.delete(PDFName.of('Interpolate'));
@@ -47,8 +47,7 @@ const FunctionalityCompressPdfMain = () => {
     );
     pdfRawStream.dict.set(PDFName.of('ColorSpace'), PDFName.of('DeviceRGB'));
 
-    //@ts-ignore
-    pdfRawStream.contents = newData;
+    (pdfRawStream as { contents: Uint8Array }).contents = newData;
   };
   const onCompressPdf = async () => {
     try {
@@ -70,7 +69,10 @@ const FunctionalityCompressPdfMain = () => {
                 image.type === 'png'
                   ? await createPngFromPdf(image)
                   : image.data;
-              const imageInfo = uInt8ArrayToImage(arr, `image/${image.type}`);
+              const imageDocument = uInt8ArrayToImage(
+                arr,
+                `image/${image.type}`,
+              );
               let quality = 0.85;
               if (compressionGrade === 'strong') {
                 quality = 0.1;
@@ -78,7 +80,7 @@ const FunctionalityCompressPdfMain = () => {
                 quality = 0.5;
               }
               const newData = await imageToUint8Array({
-                imageInfo,
+                imageDocument,
                 type: 'image/jpeg',
                 quality,
               });
@@ -86,8 +88,8 @@ const FunctionalityCompressPdfMain = () => {
               if (image.type === 'png') {
                 pdfPngToJpeg(image.pdfObject, newData);
               } else {
-                // @ts-ignore
-                image.pdfObject.contents = newData;
+                (image.pdfObject as { contents: Uint8Array }).contents =
+                  newData;
               }
             }
           }
