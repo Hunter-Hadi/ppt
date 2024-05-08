@@ -1,5 +1,6 @@
 import StarIcon from '@mui/icons-material/Star';
 import { Box, Stack, SxProps, Typography } from '@mui/material';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 import { useRecoilValue } from 'recoil';
@@ -11,11 +12,12 @@ import {
 } from '@/features/pricing/store';
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
 import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils';
+import { CURRENT_PROMOTION_PATHNAME } from '@/features/promotion/constants';
 
 import PaymentTypeSwitch from '../PaymentTypeSwitch';
 import PlanPaymentInfo from '../PlanPaymentInfo';
 import { IFeatureColumnType } from './type';
-interface IProps {
+export interface IFeaturesTableHeaderCellProps {
   columnType: IFeatureColumnType;
 
   showPaymentSwitch?: boolean;
@@ -26,7 +28,7 @@ interface IProps {
   inFixed?: boolean;
 }
 
-const FeaturesTableHeaderCell: FC<IProps> = ({
+const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
   isPopular = false,
   showPaymentSwitch = false,
   columnType,
@@ -35,6 +37,7 @@ const FeaturesTableHeaderCell: FC<IProps> = ({
   inFixed,
   sx,
 }) => {
+  const { pathname } = useRouter();
   const { t } = useTranslation();
   const paymentType = useRecoilValue(PricingPaymentTypeAtom);
   const pricingPlanCategory = useRecoilValue(PricingPlanCategoryState);
@@ -179,6 +182,10 @@ const FeaturesTableHeaderCell: FC<IProps> = ({
   const paymentPlanType = getCurrentPricingPaymentPlan(columnType);
 
   const moreContentType = useMemo(() => {
+    // TODO: refine
+    if (pathname === CURRENT_PROMOTION_PATHNAME) {
+      return null;
+    }
     if (
       paymentPlanType === 'free' ||
       paymentType === 'yearly' ||

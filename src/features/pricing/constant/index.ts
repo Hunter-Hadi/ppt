@@ -10,13 +10,13 @@ export const PLAN_PRICE_MAP: Record<RENDER_PLAN_TYPE, number> = {
   basic_yearly: 99.99,
   basic_team: 9.99,
 
-  pro: 19.99,
-  pro_yearly: 199.99,
+  pro: 20,
+  pro_yearly: 200,
   pro_team: 19.99,
 
-  elite: 39.99,
-  elite_yearly: 239.99,
-  elite_team: 39.99,
+  elite: 40,
+  elite_yearly: 300,
+  elite_team: 40,
 };
 
 // 不同 plan 对应的 productivity 价值

@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
-import LazyLoadImage from '@/features/common/components/LazyLoadImage';
+import LazyLoadImage from '@/features/common/components/LazyLoadImageV2';
 import { IWithMuiSxProps } from '@/features/common/types';
 import { FeaturesIcons } from '@/features/pricing/components/FeaturesIcons';
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';

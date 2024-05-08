@@ -1,5 +1,5 @@
 import { Box, debounce, Stack, SxProps } from '@mui/material';
-import React, { FC, useEffect, useRef, useState } from 'react';
+import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { useRecoilValue } from 'recoil';
 
 import { AppHeaderHeightState } from '@/store';
@@ -9,62 +9,21 @@ import FeaturesTableContent from './FeaturesTableContent';
 import FeaturesTableHeader from './FeaturesTableHeader';
 import { IFeatureColumnsType, IFeatureColumnType } from './type';
 
-interface IProps {
+export interface IPlanFeaturesTableProps {
+  noFixedHeader?: boolean;
   sx?: SxProps;
   popularPlan?: IFeatureColumnType;
+  needToHiddenPlan?: IFeatureColumnType[];
+  notShowPaymentSwitch?: boolean;
 }
 
-export const FeatureTableColumns: IFeatureColumnsType = [
-  {
-    key: 'features',
-    columnType: 'features',
-    sx: {
-      width: 350,
-    },
-  },
-  {
-    key: 'elite',
-    columnType: 'elite',
-    sx: {
-      width: {
-        xs: 230,
-        md: 300,
-      },
-    },
-  },
-  {
-    key: 'pro',
-    columnType: 'pro',
-    sx: {
-      width: {
-        xs: 230,
-        md: 300,
-      },
-    },
-  },
-  // {
-  //   key: 'basic',
-  //   columnType: 'basic',
-  //   sx: {
-  //     width: {
-  //       xs: 220,
-  //       md: 240,
-  //     },
-  //   },
-  // },
-  {
-    key: 'free',
-    columnType: 'free',
-    sx: {
-      width: {
-        xs: 230,
-        md: 300,
-      },
-    },
-  },
-];
-
-const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
+const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
+  noFixedHeader,
+  sx,
+  popularPlan,
+  needToHiddenPlan = [],
+  notShowPaymentSwitch = false,
+}) => {
   // fixed table header 的容器
   const tableFixedHeaderContainerRef = useRef<HTMLElement>(null);
 
@@ -82,6 +41,44 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
   const [fixedHeaderLeft, setFixedHeaderLeft] = useState<number>(0);
 
   const appHeaderHeight = useRecoilValue(AppHeaderHeightState);
+
+  const featureTableColumns = useMemo<IFeatureColumnsType>(() => {
+    const columnType: IFeatureColumnType[] = [
+      'features',
+      'elite',
+      'pro',
+      // 'basic',
+      'free',
+    ];
+    const filteredColumnType = columnType.filter(
+      (type) => !needToHiddenPlan.includes(type),
+    );
+
+    // features 列的宽度比例
+    const featuresColumnWidthRatio = 0.28;
+
+    return filteredColumnType.map((type) => {
+      const width =
+        type === 'features'
+          ? `${Math.round(featuresColumnWidthRatio * 100)}%`
+          : `${Math.round(
+              ((1 - featuresColumnWidthRatio) /
+                (filteredColumnType.length - 1)) *
+                100,
+            )}%`;
+      return {
+        key: type,
+        columnType: type,
+        sx: {
+          width: {
+            // TODO: refine 适配不同屏幕宽度
+            xs: '50%',
+            sm: width,
+          },
+        },
+      };
+    });
+  }, [needToHiddenPlan]);
 
   useEffect(() => {
     // 初始化 fixed table header 的宽度
@@ -162,7 +159,7 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
 
   return (
     <>
-      {showFixedHeader ? (
+      {showFixedHeader && !noFixedHeader ? (
         // fixed table header
         <Box
           overflow='hidden'
@@ -196,15 +193,19 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
             }}
           >
             <FeaturesTableHeader
+              featureTableColumns={featureTableColumns}
               inFixed
               popularPlan={popularPlan}
               showPaymentSwitch
+              needToHiddenPlan={needToHiddenPlan}
             />
           </Box>
         </Box>
       ) : null}
       <Stack sx={sx} spacing={4}>
-        <PaymentTypeSwitch sx={{ mx: 'auto !important' }} />
+        {!notShowPaymentSwitch && (
+          <PaymentTypeSwitch sx={{ mx: 'auto !important' }} />
+        )}
 
         <Box
           ref={tableContainerRef}
@@ -218,9 +219,17 @@ const PlanFeaturesTable: FC<IProps> = ({ sx, popularPlan }) => {
             popularPlan && <Box height={36} />
           }
           {/* header */}
-          <FeaturesTableHeader popularPlan={popularPlan} />
+          <FeaturesTableHeader
+            featureTableColumns={featureTableColumns}
+            popularPlan={popularPlan}
+            needToHiddenPlan={needToHiddenPlan}
+          />
           {/* content */}
-          <FeaturesTableContent popularPlan={popularPlan} />
+          <FeaturesTableContent
+            featureTableColumns={featureTableColumns}
+            popularPlan={popularPlan}
+            needToHiddenPlan={needToHiddenPlan}
+          />
         </Box>
       </Stack>
     </>
