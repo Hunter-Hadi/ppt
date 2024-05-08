@@ -10,7 +10,6 @@ import { Box, Button, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo, useRef, useState } from 'react';
 import React from 'react';
-import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
 import { IFabricAddObjectType } from '../utils/fabricjsTools';
@@ -20,11 +19,6 @@ import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationVi
 import FunctionalitySignPdfShowPdfViewPdfViewMain, {
   IFunctionalitySignPdfShowPdfViewHandles,
 } from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewPdfViewMain';
-
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();
 
 export interface IActiveDragData {
   dragType: 'start' | 'end';
