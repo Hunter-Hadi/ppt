@@ -59,7 +59,7 @@ export const createPngFromPdf = (image: IPdfLibImage): Promise<Uint8Array> => {
 
       const componentsPerPixel = ComponentsPerPixelOfColorType[colorType];
       png.data = new Uint8Array(width * height * componentsPerPixel) as Buffer;
-
+      // 填充PNG数据
       let colorPixelIdx = 0;
       let pixelIdx = 0;
       while (pixelIdx < png.data.length) {
@@ -87,7 +87,7 @@ export const createPngFromPdf = (image: IPdfLibImage): Promise<Uint8Array> => {
           throw new Error(`Unknown colorType=${colorType}`);
         }
       }
-
+      // 封装和转换PNG流数据为Uint8Array
       const buffer: Buffer[] = [];
       png
         .pack()
