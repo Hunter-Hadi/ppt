@@ -1,6 +1,6 @@
 import { IconButton, IconButtonProps } from '@mui/material';
 import Button, { ButtonProps } from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
+import Grid, { RegularBreakpoints } from '@mui/material/Grid';
 import React from 'react';
 
 import UploadButton, {
@@ -30,17 +30,14 @@ export type IButtonConfig = {
 
 type IFunctionalityCommonButtonListViewProps = {
   buttonConfigs: IButtonConfig[];
-  gridSize?: {
-    xs: number;
-    md: number;
-  };
+  gridBreakpoints?: RegularBreakpoints;
 };
 /**
  * 公共按钮列表组件 作用是把需要重复的按钮视图组件抽离出来，统一高度大小和样式和管理，以及更好的可视化
  */
 export const FunctionalityCommonButtonListView: React.FC<
   IFunctionalityCommonButtonListViewProps
-> = ({ buttonConfigs, gridSize }) => {
+> = ({ buttonConfigs, gridBreakpoints }) => {
   const getButtonProps = (params: IButtonProps | undefined) => {
     if (params) {
       const { tooltip, tooltipKey, ...buttonProps } = params;
@@ -65,8 +62,8 @@ export const FunctionalityCommonButtonListView: React.FC<
             key={index}
             xs={6}
             md={2}
-            {...gridSize}
             display={config.type === 'iconButton' ? 'flex' : 'block'}
+            {...gridBreakpoints}
           >
             <React.Fragment>
               {config.type === 'button' && (

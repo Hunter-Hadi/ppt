@@ -338,7 +338,7 @@ const FunctionalityCompressPdfMain = () => {
           </Box>
           <FunctionalityCommonButtonListView
             buttonConfigs={compressBeforeButtonConfigs}
-            gridSize={{ xs: 12, md: 4 }}
+            gridBreakpoints={{ xs: 12, md: 6, lg: 4 }}
           />
           {pdfSizeDiff && (
             <Typography
