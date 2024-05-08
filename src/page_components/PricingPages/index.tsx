@@ -13,7 +13,6 @@ import {
   PricingPaymentTypeAtom,
   PricingPlanCategoryState,
 } from '@/features/pricing/store';
-import PromotionBannerForElite from '@/features/promotion/components/promotion_banners/PromotionBannerForElite';
 
 const PricingPages = () => {
   const { t } = useTranslation();
@@ -40,7 +39,7 @@ const PricingPages = () => {
     >
       <AppDefaultSeoLayout title={t('seo:pricing__title')} />
       {/* <PricingPlanCategoryBar /> */}
-      <PromotionBannerForElite />
+      {/* <PromotionBannerForElite /> */}
       <TeamPlanTips />
 
       <Stack

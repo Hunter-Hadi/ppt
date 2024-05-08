@@ -3,21 +3,32 @@ import React, { FC } from 'react';
 
 import { PLAN_FEATURES_V3_DATA_ROWS } from '@/features/pricing/constant/features_v3';
 
-import { FeatureTableColumns } from '.';
 import FeaturesTableContentCell from './FeaturesTableContentCell';
-import { IFeatureColumnType } from './type';
+import { IFeatureColumnsType, IFeatureColumnType } from './type';
 
 interface IProps {
   popularPlan?: IFeatureColumnType;
+  needToHiddenPlan?: IFeatureColumnType[];
+  featureTableColumns: IFeatureColumnsType;
 }
 
-const FeaturesTableContent: FC<IProps> = ({ popularPlan }) => {
+const FeaturesTableContent: FC<IProps> = ({
+  featureTableColumns,
+  popularPlan,
+  needToHiddenPlan,
+}) => {
   return (
     <Stack>
       {PLAN_FEATURES_V3_DATA_ROWS.map((featureData, index) => {
+        // if (needToHiddenPlan?.includes(columnData.columnType)) {
+        //   return null;
+        // }
+        console.log(`featureData`, featureData);
+
         const iconSize = featureData.meta?.type === 'secondary' ? 20 : 24;
         const isDeepen = featureData.meta?.type === 'deepen';
         const rowType = featureData.meta?.type;
+
         return (
           <Stack
             key={`features-table-content-tr-${index}`}
@@ -27,13 +38,17 @@ const FeaturesTableContent: FC<IProps> = ({ popularPlan }) => {
               bgcolor: isDeepen ? '#F9FAFB' : 'transparent',
             }}
           >
-            {FeatureTableColumns.map((columnData, columnIndex) => {
+            {featureTableColumns.map((columnData, columnIndex) => {
+              if (needToHiddenPlan?.includes(columnData.columnType)) {
+                return null;
+              }
+
               const data = featureData[columnData.key];
               const isPopular = popularPlan === columnData.columnType;
 
               const isFirstColumn = columnIndex === 0;
               const isLastColumn =
-                columnIndex === FeatureTableColumns.length - 1;
+                columnIndex === featureTableColumns.length - 1;
               const isFirstRow = index === 0;
               const isLastRow = index === PLAN_FEATURES_V3_DATA_ROWS.length - 1;
 
