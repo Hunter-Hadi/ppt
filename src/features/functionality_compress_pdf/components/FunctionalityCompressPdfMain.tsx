@@ -8,6 +8,7 @@ import {
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
@@ -131,10 +132,7 @@ const FunctionalityCompressPdfMain = () => {
   const onDownload = (blobUrl: Blob) => {
     if (blobUrl && file) {
       const fileName = functionalityCommonRemoveAndAddFileExtension(file.name);
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blobUrl);
-      a.download = fileName;
-      a.click();
+      downloadUrl(blobUrl, fileName, 'application/pdf');
     }
   };
   const onUploadFile = async (fileList: FileList) => {
