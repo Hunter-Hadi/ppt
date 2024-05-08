@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_title": "Ինչպե՞ս ստուգել PDF փաստաթղթերը օնլայն:",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "Բացեք ձեր PDF-ը PDF ստուգիչում:",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "Նկարեք կամ վերբեռնեք ձեր ստուգաթերթը:",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Համապատասխանեք ստուգաթերթի չափսը և դնեք դրանից հետո՝ համապատասխանելով ձեր պահանջներին:"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Համապատասխանեք ստուգաթերթի չափսը և դնեք դրանից հետո՝ համապատասխանելով ձեր պահանջներին:",
+    "tools__index_page__constant_obj__compress_pdf__title": "Պահպանեք PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Փոքրացրեք PDF-ի չափը, սահմանելով տեքստը և ներդրված պատկերները ձեր բրաուզերով",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Արագացրեք ձեր PDF փաստաթղթերի չափը մեր առաջինային օնլայն PDF խաղարկման գործիքով, որը ապահովում է բարդացնել բարդացած PDF չափը, համապատասխանում է բարդացած արդյունքներին բարդացած ապահովում և արդյունքներին",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Արագ PDF խաղարկման գործընթաց",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Առանց արտահանման սոֆթվարի տեղադրումից",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Անվտանգ և գաղտնի – ձեր ֆայլերը մշակվում են ձեր բրաուզերում",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Արագ և արագանալի խաղարկում",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Արագացրեք PDF-ի չափը առաջարկվող որակից առաջ, առանց որևէ որակի պատճառների կամ հատկապես թարմացման",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Պահպանեք որակը",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Մեր առաջինային տեխնոլոգիան ապահովում է, որ PDF-երը պահպանվում են դրանց տեքստի և պատկերի համարը, պահպանելով դրանց համարժեքությունը և ընթացիկությունը",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Ապահովեք ավելի անվտանգությունը տեղադրման միջոցներով",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Մենք համապատասխանում ենք ձեր գաղտնիությանը: Ամբողջ խաղարկման գործընթացը կատարվում է ձեր բրաուզերում, դատարկված է ձեր սարքում չի թույլատրում որևէ տեղադրումներ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Համաշխարհային հասանելիություն",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Մեր օնլայն PDF խաղարկման գործիքը հասանելի է ամբողջությամբ, դրանից հետո դուք կարող եք խառնել ֆայլերի չափը և չափը աճելու համար որևէ տեղադրումներ չեն պահանջվում",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Արտահանեք աշխատանքը անհասանելի դեպքում",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Ակտիվացրեք խաղարկումը, նախքան աշխատանքից դուրս գալու: Բեռնեք էջը և կարող եք շարունակել ֆայլի խաղարկումը, առանց ինտերնետի կապի",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Անհատական խաղարկման կարգավորման արտադրանքներ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Ձեր համարժեքության համար կարող եք անհատական խաղարկման մակարդակը վերահսկել, թույլատրելով անհատական ապահովում և տեքստի և պատկերի գերազանցումը, համապատասխանում է բարդացած փաստաթղթերի համար առավելագույն արդյունքներին",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Ինչպես հեշտությամբ խաղարկել PDF-երը:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Վերբեռնեք ձեր PDF-ը օնլայն խաղարկման գործիքում",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Գործիքը արագությամբ մշակում է ձեր ֆայլը, խառնելով դրա չափը, իսկ պահպանելով որակը",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Բեռնեք խաղարկված PDF-ը ձեր սարքում անմիջապես խաղարկման հետաքրքիր",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Ստուգեք խաղարկված PDF-ի որակը և չափը, բացելով դա ձեր նախընտրած PDF ընթացիկային ծրագրով"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF-ից HTML-ի - Փոխարինեք PDF ֆայլերը HTML-ով անվճար | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Փոխարինեք PDF-ը HTML-ով անվճար։ Խնդրում ենք պահպանել դասավորությունը և պատկերները HTML-ում։ Ոչ ջուրկներ, ֆայլի չափսի սահմանափակումներ, ներբեռնումներ կամ գրանցումներ չեն պահանջվում։",
     "pdf_tools__sign_pdf__title": "PDF-ի ստուգում - Ավելացնել թվային ստուգաթերթ PDF ֆայլերին անվճար | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Ավելացրեք թվային ստորագրություններ PDF ֆայլերին անվճար և ապահովեք տեղադրման սահմանափակումը վերաբերվող սարքավորումներում, հավանականությամբ ապահովեք առավելագույն գաղտնիքները և անվճարությունը: Ոչ ջուրվածք, ֆայլի չափսի սահմանափակում, բեռնում կամ գրանցում չեն պահանջվում:"
+    "pdf_tools__sign_pdf__description": "Ավելացրեք թվային ստորագրություններ PDF ֆայլերին անվճար և ապահովեք տեղադրման սահմանափակումը վերաբերվող սարքավորումներում, հավանականությամբ ապահովեք առավելագույն գաղտնիքները և անվճարությունը: Ոչ ջուրվածք, ֆայլի չափսի սահմանափակում, բեռնում կամ գրանցում չեն պահանջվում:",
+    "pdf_tools__compress_pdf__title": "Ցածրացրեք PDF – Օնլայն PDF-ի չափը բարդացող | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Առանց զգալի, ֆայլի չափի սահմանափակման, բեռնման կամ գրանցման պահանջանումների, առանց ջուրվածության և առանց լուծման"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Ստուգեք PDF-ի էջը",
     "components__sign_pdf__icon__sign": "Ստուգել",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Տպեք ինչ-որ՝"
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Ցածր",
+    "components__compress_pdf__main__compress_low_grade_description": "Առավելագույն ֆայլի չափ, բարդացած վերահսկում",
+    "components__compress_pdf__main__compress_basic_grade_title": "Հիմնական",
+    "components__compress_pdf__main__compress_basic_grade_description": "Միջին ֆայլի չափ, ստանդարտ վերահսկում",
+    "components__compress_pdf__main__compress_strong_grade_title": "Թուլային",
+    "components__compress_pdf__main__compress_strong_grade_description": "Փոքր ֆայլի չափ, նվազագույն վերահսկում",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
+    "components__compress_pdf__main__compress_download": "Ցածրացնել և բեռնել",
+    "components__compress_pdf__main__choose_another_file": "Ընտրեք մեկ այլ ֆայլ",
+    "components__compress_pdf__main__current_pdf_size": "PDF-ի ընթացիկ չափը",
+    "components__compress_pdf__main__original_pdf_size": "սկզբնական չափը",
+    "components__compress_pdf__main__different_pdf_size": "Տարբեր {{DiFF_NUMBER}}% փոքր!",
+    "components__compress_pdf__main__compress_error": "Խաղարկման ձախողությունը ձախողվեց, խնդրում ենք ստուգել, թե արդյոք PDF ֆայլը կոդավորված է կամ անվտանգ է!"
   }
 }

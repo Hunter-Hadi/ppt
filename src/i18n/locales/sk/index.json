@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Prispôsobte veľkosť a pozíciu podpisu podľa potreby.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kliknite sem pre stiahnutie vášho podpísaného PDF, všetko je pripravené a bezpečné.",
     "team_plan__title__description1": "Poskytnite svojmu tímu najpokročilejšie nástroje na zvýšenie produktivity pomocou AI.",
-    "team_plan__title__description2": "Náš tímový plán je navrhnutý pre skupiny s tromi alebo viacerými členmi."
+    "team_plan__title__description2": "Náš tímový plán je navrhnutý pre skupiny s tromi alebo viacerými členmi.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Zmenšiť PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Znížte veľkosť PDF komprimáciou textu a vložených obrázkov prostredníctvom lokálneho prehliadača",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Rýchle zmenšenie veľkosti vašich PDF dokumentov pomocou nášho moderného online nástroja na kompresiu PDF, zabezpečujúceho vysokú kvalitu s maximálnou bezpečnosťou a efektivitou.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Rýchly proces komprimácie PDF",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nie je potrebná inštalácia externého softvéru",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Vysoko bezpečné a dôverné – vaše súbory sa spracovávajú lokálne vo vašom prehliadači",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Rýchla a efektívna komprimácia",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Zaznamenajte rýchle zmenšenie veľkosti PDF bez kompromisov s kvalitou. Náš nástroj optimalizuje vaše súbory pre rýchlejšie zdieľanie a minimálne využitie úložného priestoru.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Zachovanie kvality",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Naša pokročilá technológia zabezpečuje, že vizuálna integrita vašich PDF zostáva zachovaná, pričom sa udržuje jasnosť a čitateľnosť obrázkov aj textu.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokálne spracovanie pre zvýšenú bezpečnosť",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Dávame prednosť vašej súkromiu. Celý proces komprimácie sa vykonáva vo vašom prehliadači, čo zaručuje, že vaše dokumenty neopustia váš zariadenie.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Univerzálna dostupnosť",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Prístupný odkiaľkoľvek, náš online nástroj na kompresiu PDF vám umožňuje zmenšiť veľkosť súborov na akomkoľvek zariadení bez potreby inštalácií.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline schopnosť",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Povoľte kompresiu aj vtedy, keď ste offline. Prednačítajte stránku a môžete pokračovať v komprimácii súborov bez potreby pripojenia na internet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Vlastné nastavenia komprimácie",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Prispôsobte úroveň komprimácie svojim konkrétnym potrebám a umožnite vlastné úpravy pre vyváženie medzi zmenšením veľkosti súboru a vizuálnou kvalitou, čo zaručuje optimálne výsledky pre každý typ dokumentu.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Ako jednoducho komprimovať PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Nahrajte svoje PDF do online nástroja na kompresiu.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Nástroj rýchlo spracuje váš súbor a zmenší jeho veľkosť pri zachovaní kvality.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Okamžite po komprimácii si stiahnite zmenšené PDF na svoje zariadenie.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Skontrolujte kvalitu a veľkosť zmenšeného PDF otvorením ho vo vašom preferovanom čítači PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutím na podnety",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF na HTML - Konvertujte súbory PDF na HTML online zdarma | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Konvertujte PDF na HTML online zdarma. Zachovajte rozloženie a konvertujte obrázky do HTML. Žiadne vodoznaky, obmedzenia veľkosti súboru, sťahovania ani registrácie nie sú potrebné.",
     "pdf_tools__sign_pdf__title": "Podpisovanie PDF - Pridanie digitálneho podpisu do PDF súborov lokálne a zdarma | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Jednoduché pridávanie digitálnych podpisov do PDF súborov zdarma a zabezpečene na lokálnych zariadeniach, zaručujúc maximálnu súkromie a bezpečnosť. Bez vodoznaku, obmedzenia veľkosti súboru, sťahovania alebo registrácie."
+    "pdf_tools__sign_pdf__description": "Jednoduché pridávanie digitálnych podpisov do PDF súborov zdarma a zabezpečene na lokálnych zariadeniach, zaručujúc maximálnu súkromie a bezpečnosť. Bez vodoznaku, obmedzenia veľkosti súboru, sťahovania alebo registrácie.",
+    "pdf_tools__compress_pdf__title": "Zmenšiť PDF – Online zmenšenie veľkosti PDF | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Zmenšite veľkosť PDF súborov v lokálnom prehliadači a zabezpečte rýchle a bezpečné spracovanie. Bez vodoznaku, obmedzenia veľkosti súboru, sťahovania alebo registrácie."
   },
   "features_landing": {
     "cta_text": "Pridať do prehliadača",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domovská stránka podpisu PDF",
     "components__sign_pdf__icon__sign": "Podpísať",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Napíšte niečo..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Nízka",
+    "components__compress_pdf__main__compress_low_grade_description": "Maximálna veľkosť súboru, vyššie rozlíšenie",
+    "components__compress_pdf__main__compress_basic_grade_title": "Základná",
+    "components__compress_pdf__main__compress_basic_grade_description": "Stredná veľkosť súboru, štandardné rozlíšenie",
+    "components__compress_pdf__main__compress_strong_grade_title": "Silná",
+    "components__compress_pdf__main__compress_strong_grade_description": "Malá veľkosť súboru, nižšie rozlíšenie",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Prosím nahrajte požadovaný typ súboru PDF",
+    "components__compress_pdf__main__compress_download": "Komprimovať a Stiahnuť",
+    "components__compress_pdf__main__choose_another_file": "Vyberte iný súbor",
+    "components__compress_pdf__main__current_pdf_size": "Aktuálna veľkosť PDF",
+    "components__compress_pdf__main__original_pdf_size": "pôvodná veľkosť",
+    "components__compress_pdf__main__different_pdf_size": "O {{DiFF_NUMBER}}% menšie ako predtým!",
+    "components__compress_pdf__main__compress_error": "Komprimácia zlyhala, prosím skontrolujte, či je PDF súbor zašifrovaný alebo neobvyklý!"
   }
 }

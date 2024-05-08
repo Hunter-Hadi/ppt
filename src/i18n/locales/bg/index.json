@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Настройте размера и позицията на подписката според нуждите си.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Щракнете, за да изтеглите вашия подписан PDF сега, всичко е готово и безопасно.",
     "team_plan__title__description1": "Дайте на вашия екип най-развитите инструменти за продуктивност с изкуствен интелект.",
-    "team_plan__title__description2": "Нашата екипна планова е предназначена за групи от три или повече членове."
+    "team_plan__title__description2": "Нашата екипна планова е предназначена за групи от три или повече членове.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Свиване на PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Намалете размера на PDF файла, като свивате текста и вградените изображения чрез локален браузър",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Бързо намалете размера на вашите PDF документи с нашия иновативен онлайн инструмент за свиване на PDF, гарантиращ висококачествени резултати с максимална сигурност и ефективност.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Бърз процес на свиване на PDF",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Не се изисква инсталиране на външен софтуер",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Изключително сигурно и поверително - вашите файлове се обработват локално във вашия браузър",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Бързо и ефективно свиване",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Изживейте бързо намаляване на размера на PDF без да компрометирате качеството. Нашето инструмент оптимизира вашите файлове за по-бързо споделяне и минимално използване на памет.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Запазване на качеството",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Нашата напреднала технология гарантира, че визуалната цялост на вашия PDF се запазва, като запазва яснотата и четливостта както на изображенията, така и на текста.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Локална обработка за подобрена сигурност",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Ние отдаваме значение на вашата поверителност. Целият процес на свиване се изпълнява във вашия браузър, гарантирайки, че вашите документи не напускат устройството ви.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Универсална достъпност",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Достъпен от всяко място, нашият онлайн инструмент за свиване на PDF ви позволява да намалите размера на файловете на всяко устройство без да се налага инсталиране.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Възможност за работа без интернет",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Активирайте свиването дори когато сте извън линия. Заредете страницата и можете да продължите със свиването на файла без нужда от интернет връзка.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Настройки за персонализирано свиване",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Настройте нивото на свиване според вашите конкретни нужди, позволявайки персонализирани настройки за балансиране между намаляване на размера на файла и визуалното качество, гарантирайки оптимални резултати за всеки тип документ.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Как да свивате PDF лесно:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Качете вашия PDF в онлайн инструмента за свиване.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Инструментът бързо обработва файла ви, намалявайки размера му, като запазва качеството.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Изтеглете свития PDF на вашето устройство веднага след свиването.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Проверете качеството и размера на свития PDF, като го отворите в предпочитания от вас PDF четец."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Клик Подсказки",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF към HTML - Конвертиране на PDF файлове в HTML онлайн безплатно | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Конвертирайте PDF в HTML онлайн безплатно. Запазване на оформлението и конвертиране на изображения в HTML. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
     "pdf_tools__sign_pdf__title": "Подписване на PDF - Добавяне на цифров подпис към PDF файлове локално безплатно | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Лесно добавете цифрови подписи към PDF файлове безплатно и сигурно на локални устройства, гарантирайки максимална поверителност и защита. Без воден знак, ограничение на размера на файла, изтегляне или регистрация."
+    "pdf_tools__sign_pdf__description": "Лесно добавете цифрови подписи към PDF файлове безплатно и сигурно на локални устройства, гарантирайки максимална поверителност и защита. Без воден знак, ограничение на размера на файла, изтегляне или регистрация.",
+    "pdf_tools__compress_pdf__title": "Свиване на PDF - Онлайн намаляване на размера на PDF | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Свиване на PDF файлове в локален браузър, за да се гарантира бърза и сигурна работа. Без воден знак, ограничение на размера на файла, изтегляне или регистрация."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Начална страница за подписване на PDF",
     "components__sign_pdf__icon__sign": "Подписване",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Въведете нещо..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Ниско",
+    "components__compress_pdf__main__compress_low_grade_description": "Максимален размер на файла, по-висока резолюция",
+    "components__compress_pdf__main__compress_basic_grade_title": "Основно",
+    "components__compress_pdf__main__compress_basic_grade_description": "Среден размер на файла, стандартна резолюция",
+    "components__compress_pdf__main__compress_strong_grade_title": "Силно",
+    "components__compress_pdf__main__compress_strong_grade_description": "Малък размер на файла, по-ниска резолюция",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
+    "components__compress_pdf__main__compress_download": "Свиване и изтегляне",
+    "components__compress_pdf__main__choose_another_file": "Изберете друг файл",
+    "components__compress_pdf__main__current_pdf_size": "Текущ размер на PDF",
+    "components__compress_pdf__main__original_pdf_size": "оригинален размер",
+    "components__compress_pdf__main__different_pdf_size": "Различен от преди {{DiFF_NUMBER}}% по-малък!",
+    "components__compress_pdf__main__compress_error": "Грешка при свиването, моля, проверете дали PDF файла е криптиран или аномален!"
   }
 }

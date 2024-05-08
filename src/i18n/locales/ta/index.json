@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_title": "ஒரு PDF ஐ எப்படி கையொப்பமிடுவது:",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "உங்கள் PDF-ஐ PDF கையொப்பம் செய்யலாம்.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "உங்கள் கையொப்பத்தை வரையறுக்கலாம் அல்லது பதிவேற்றலாம்.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "அளவுகொண்டு மற்றும் இடத்தை மாற்றி உங்கள் கையொப்பத்தை அமைக்கலாம்."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "அளவுகொண்டு மற்றும் இடத்தை மாற்றி உங்கள் கையொப்பத்தை அமைக்கலாம்.",
+    "tools__index_page__constant_obj__compress_pdf__title": "பிடிஎப் மூலம் சுருக்கமாக்கு",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "உள்ளீட்டு உலாவியில் உள்ள உரையும் சேர்ந்த படங்களும் மூலம் பிடிஎப் அளவை குறைக்கவும்",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "எங்கள் முன்னணி ஆன்லைன் பிடிஎப் சுருக்கம் கருவியைப் பயன்படுத்தி உங்கள் பிடிஎப் ஆவணங்களின் அளவை விரைவில் குறைக்கலாம், அதுவே உயர்ந்த தகுதியுடன் மாற்றப்பட்டுள்ளது.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "வேகமான பிடிஎப் சுருக்கம் செயல்பாடு",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "வெளியேறும் மென்பொருள் நிறுவல் தேவையில்லை",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "மிகவும் பாதுகாப்பான மற்றும் மக்களவை - உங்கள் கோப்புகள் உங்கள் உலாவியில் இருந்து மீண்டும் மீண்டும் செயல்படுகின்றன.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "வேகமான மற்றும் செயல்பாட்டு சுருக்கம்",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "தகுந்த தன்மையுடன் உங்கள் பிடிஎப் அளவை குறைக்கலாம் என்பதை மறக்காது. எங்கள் கருவி உங்கள் கோப்புகளை வேகமாக பகிர்ந்து கொள்ளும் மற்றும் குறைந்த சேமிப்பு பயன்படுத்தும்.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "தன்மையை பாதுகாக்கும்",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "எங்கள் மேம்பாட்டு தொழில்நுட்பம் உங்கள் பிடிஎப் ஆவணங்களின் பாராமரிப்பை தகுதிப்படுத்துகிறது, படங்களும் உரையும் வெளிப்படையாக இருக்கும் மற்றும் படிக்கத் தகுந்த வெளிச்சம் மற்றும் வாசிப்புக்கு அழகாக இருக்கும்.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "மேலாண்மையை அதிகரிக்கும் உள்ளீட்டு செயலாக்கம்",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "உங்கள் தனியுரிமையை முதன்முதலில் வழங்குகிறோம். முழு சுருக்கம் செயல்பாடு உங்கள் உலாவியில் நடக்கும், அதனால் உங்கள் ஆவணங்கள் உங்கள் சாதனத்திலிருந்து வெளியேறாமல் இருக்கும்.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "ஒருங்கிணைத்த அணுகல்வாய்ப்பு",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "எங்கிருந்தும் அணுகலாம், எங்கள் ஆன்லைன் பிடிஎப் சுருக்கம் கருவி நீங்கள் எந்த நிலையிலும் கோப்பு அளவை குறைக்க முடியும், எந்த நிறுவல்களும் தேவையில்லை.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "ஆஃப்லைன் முடக்கம்",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "ஆஃப்லைன் முடக்கம் செய்யும்போதும் நீங்கள் சுருக்கம் செய்யலாம். பக்கத்தை முன்னெடுக்கவும், இணைய இணைப்பு தேவைப்படாது பிடிஎப் சுருக்கத்தை மேலும் செய்யலாம்.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "தனிப்பட்ட சுருக்கம் அமைப்புகள்",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "கோப்பு அளவை குறைக்க உங்கள் குறிப்பிட்ட தேவைகளுக்கு ஏற்ற சுருக்க நிலையை மாற்றலாம், ஆவண அளவு மற்றும் வெளிச்சம் முதன்முதலில் பொருத்தப்படும் என்பதை உறுதிப்படுத்துகின்றது, அதனால் அனைத்து வகையான ஆவணங்களுக்கும் சிறந்த முடிவுகளை உருவாக்குகின்றது.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "எளிதாக பிடிஎப்எஃப் சுருக்கம் செய்வது எப்படி:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "உங்கள் பிடிஎப் ஐ ஆன்லைன் சுருக்கம் கருவிக்கு பதிவேற்றுக.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "கருவி உங்கள் கோப்பை விரைவில் செயலாக்கி, அதன் அளவை குறைக்கும் போதும் தன்மையை பாதுகாக்கும்.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "சுருக்கப்பட்ட பிடிஎப்எஃபை உங்கள் சாதனத்தில் உள்ள பிடிஎப் வாசிப்பால் உள்ளீடுகளின் தரம் மற்றும் அளவை சரிபார்க்கலாம்.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "உங்கள் விருதுபடி பிடிஎப் வாசிப்பால் அளவு மற்றும் அளவுக்கு மாற்றம் செய்ய பிடிஎப்எஃபை திறந்துவிட்டு செல்லலாம்."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF மாற்று HTML - இலவசமாக PDF கோப்புகளை HTML ஆக மாற்று | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "இலவசமாக PDF ஐ HTML ஆக மாற்றுங்கள். தலைப்புகளையும் படங்களையும் HTML ஆக மாற்றுங்கள். வாட்டர்மார்க்குகள், கோப்பு அளவு வரம்புகள், பதிவிறக்குகள் அல்லது பதிவுகள் தேவையில்லை.",
     "pdf_tools__sign_pdf__title": "பிடிஎப் கையொப்பம் - இலவசமாக உள்ளூரில் பிடிஎப் கோப்புக்கு அல்லது பிடிஎப் கோப்புகளுக்கு மின்னஞ்சல் கையொப்பத்தைச் சேர்க்குக | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "மின்னஞ்சல் அல்லது பதிவு தேவையில்லாத இலவசமான மின்னஞ்சல் கையொப்பத்தை உள்ளூரில் பிடிஎப் கோப்புக்கு சேர்க்கவும், அதனால் அதிகாரமற்ற தனிநபர் மற்றும் பாதுகாப்பான சூழலை உருவாக்குகின்றன. மீண்டும் மின்னஞ்சல் அல்லது பதிவு தேவையில்லை, பதிவிறக்கம் அல்லது பதிவு செய்ய தவறான அளவு எதுவும் இல்லை."
+    "pdf_tools__sign_pdf__description": "மின்னஞ்சல் அல்லது பதிவு தேவையில்லாத இலவசமான மின்னஞ்சல் கையொப்பத்தை உள்ளூரில் பிடிஎப் கோப்புக்கு சேர்க்கவும், அதனால் அதிகாரமற்ற தனிநபர் மற்றும் பாதுகாப்பான சூழலை உருவாக்குகின்றன. மீண்டும் மின்னஞ்சல் அல்லது பதிவு தேவையில்லை, பதிவிறக்கம் அல்லது பதிவு செய்ய தவறான அளவு எதுவும் இல்லை.",
+    "pdf_tools__compress_pdf__title": "பிடிஎப் சுருக்கம் – ஆன்லைன் பிடிஎப் அளவை குறைக்கும் | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "விரைவான மற்றும் பாதுகாப்பான செயல்பாட்டில் உள்ளீட்டு உலாவியில் பிடிஎப் ஆவணங்களை சுருக்கமாக்குங்கள். நீர்மார்க்கும், கோப்பு அளவு வரம்பு, பதிவிறக்கு அல்லது பதிவு தேவையில்லை."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "அனைத்தையும் தேர்ந்தெடு",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "கையொப்பம் PDF முகப்புக்கு",
     "components__sign_pdf__icon__sign": "கையொப்பம்",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "ஏதாவது தட்டச்சு செய்யுங்கள்..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "குறைந்த",
+    "components__compress_pdf__main__compress_low_grade_description": "அதிகபட்ச கோப்பு அளவு, உயர்நிலை வரைவு",
+    "components__compress_pdf__main__compress_basic_grade_title": "அடிப்படை",
+    "components__compress_pdf__main__compress_basic_grade_description": "இடம்பெருக்க கோப்பு அளவு, நிலையான வரைவு",
+    "components__compress_pdf__main__compress_strong_grade_title": "வலுவான",
+    "components__compress_pdf__main__compress_strong_grade_description": "சிறிய கோப்பு அளவு, குறைந்த வரைவு",
+    "components__compress_pdf__main__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
+    "components__compress_pdf__main__compress_download": "சுருக்கம் செய்யுங்கள் & பதிவிறக்குங்கள்",
+    "components__compress_pdf__main__choose_another_file": "மற்றொரு கோப்பைத் தேர்வுசெய்க",
+    "components__compress_pdf__main__current_pdf_size": "PDF தற்போதைய அளவு",
+    "components__compress_pdf__main__original_pdf_size": "மூல அளவு",
+    "components__compress_pdf__main__different_pdf_size": "முன்புகொண்ட அளவிலிருந்து {{DiFF_NUMBER}}% சிறியது!",
+    "components__compress_pdf__main__compress_error": "சுருக்கம் தோல்வியுற்றது, பிடிஎப் கோப்பு முறையை எழுதியவை அல்லாது அல்லது அஸ்தமானமானது!"
   }
 }

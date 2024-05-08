@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pielāgojiet paraksta izmēru un pozīciju pēc vajadzības.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Noklikšķiniet, lai lejupielādētu jūsu parakstīto PDF, viss ir gatavs un drošs.",
     "team_plan__title__description1": "Nodrošiniet savai komandai vismodernākās AI produktivitātes rīkus.",
-    "team_plan__title__description2": "Mūsu komandas plāns ir izstrādāts grupām, kas sastāv no trīs vai vairāk dalībniekiem."
+    "team_plan__title__description2": "Mūsu komandas plāns ir izstrādāts grupām, kas sastāv no trīs vai vairāk dalībniekiem.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Saspiež PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Samaziniet PDF izmēru, saspiežot tekstu un iegultās attēlus caur vietējo pārlūku",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Ātri samaziniet savu PDF dokumentu izmēru ar mūsu jaunākās paaudzes tiešsaistes PDF saspiešanas rīku, nodrošinot augstas kvalitātes rezultātus maksimālai drošībai un efektivitātei.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Ātra PDF saspiešanas process",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nav nepieciešama ārēja programmatūras instalēšana",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Augsta drošība un konfidencialitāte - jūsu faili tiek apstrādāti lokāli jūsu pārlūkprogrammā",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Ātra un efektīva saspiešana",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Izbaudiet ātru PDF izmēra samazināšanu, neupurējot kvalitāti. Mūsu rīks optimizē jūsu failus, lai tos varētu ātrāk koplietot un minimāli izmantot krātuvi.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Uzturiet kvalitāti",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Mūsu augstas tehnoloģijas nodrošina, ka jūsu PDF vizuālā integritāte tiek saglabāta, saglabājot gan attēlu, gan teksta skaidrību un lasāmību.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokāla apstrāde, lai uzlabotu drošību",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Mēs dodam priekšroku jūsu privātumam. Visa saspiešanas process tiek veikts jūsu pārlūkprogrammā, nodrošinot, ka jūsu dokumenti neatstāj jūsu ierīci.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Vispārēja pieejamība",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Pieejams no jebkuras vietas, mūsu tiešsaistes PDF saspiešanas rīks ļauj samazināt failu izmērus jebkurā ierīcē bez jebkādām instalēšanām.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Bezsaistes iespējas",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Iespējojiet saspiešanu pat tad, ja esat bezsaistē. Ielādējiet lapu iepriekš un varat turpināt faila saspiešanu bez interneta pieslēguma.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Pielāgota saspiešanas iestatījumi",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Pielāgojiet saspiešanas līmeni savām konkrētajām vajadzībām, ļaujot pielāgot izmaiņas starp faila izmēra samazināšanu un vizuālo kvalitāti, nodrošinot optimālus rezultātus katram dokumenta veidam.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kā viegli saspiest PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Augšupielādējiet savu PDF uz tiešsaistes saspiešanas rīku.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Rīks ātri apstrādā jūsu failu, samazinot tā izmēru, saglabājot kvalitāti.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Lejupielādējiet saspiesto PDF uzreiz pēc saspiešanas savā ierīcē.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Pārbaudiet saspiestā PDF kvalitāti un izmēru, atverot to ar vēlamo PDF lasītāju."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF uz HTML - Konvertējiet PDF failus uz HTML tiešsaistē bez maksas | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Konvertējiet PDF uz HTML tiešsaistē bez maksas. Uzturiet izkārtojumu un konvertējiet attēlus uz HTML. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
     "pdf_tools__sign_pdf__title": "PDF parakstīšana - Digitālā paraksta pievienošana PDF failiem lokāli bez maksas | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Viegli pievienojiet digitālos parakstus PDF failiem bez maksas un droši uz vietējām ierīcēm, nodrošinot maksimālu privātumu un drošību. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības."
+    "pdf_tools__sign_pdf__description": "Viegli pievienojiet digitālos parakstus PDF failiem bez maksas un droši uz vietējām ierīcēm, nodrošinot maksimālu privātumu un drošību. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības.",
+    "pdf_tools__compress_pdf__title": "Saspiest PDF - Tiešsaistes PDF izmēra samazināšana | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Saspiest PDF failus vietējā pārlūkprogrammā, lai nodrošinātu ātru un drošu veiktspēju. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Paraksta PDF sākumlapa",
     "components__sign_pdf__icon__sign": "Parakstīt",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ieraksti kaut ko..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Zems",
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimāls faila izmērs, augstāka izšķirtspēja",
+    "components__compress_pdf__main__compress_basic_grade_title": "Pamata",
+    "components__compress_pdf__main__compress_basic_grade_description": "Vidējs faila izmērs, standarta izšķirtspēja",
+    "components__compress_pdf__main__compress_strong_grade_title": "Spēcīgs",
+    "components__compress_pdf__main__compress_strong_grade_description": "Mazs faila izmērs, zemāka izšķirtspēja",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
+    "components__compress_pdf__main__compress_download": "Saspiest un lejupielādēt",
+    "components__compress_pdf__main__choose_another_file": "Izvēlieties citu failu",
+    "components__compress_pdf__main__current_pdf_size": "Pašreizējais PDF izmērs",
+    "components__compress_pdf__main__original_pdf_size": "oriģinālais izmērs",
+    "components__compress_pdf__main__different_pdf_size": "Atšķirīgs no iepriekšējā, {{DiFF_NUMBER}}% mazāks!",
+    "components__compress_pdf__main__compress_error": "Saspiešana neizdevās, lūdzu, pārbaudiet, vai PDF fails ir šifrēts vai neregulārs!"
   }
 }

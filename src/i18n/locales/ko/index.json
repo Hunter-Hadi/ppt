@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "서명의 크기와 위치 조정",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "지금 서명된 PDF를 다운로드하려면 클릭하세요. 모든 것이 준비되어 안전합니다.",
     "team_plan__title__description1": "팀에 가장 고급 AI 생산성 도구를 제공하세요.",
-    "team_plan__title__description2": "저희 팀 플랜은 3명 이상의 그룹을 위해 설계되었습니다."
+    "team_plan__title__description2": "저희 팀 플랜은 3명 이상의 그룹을 위해 설계되었습니다.",
+    "tools__index_page__constant_obj__compress_pdf__title": "PDF 압축",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "로컬 브라우저를 통해 텍스트와 포함된 이미지를 압축하여 PDF 크기를 줄입니다.",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "혁신적인 온라인 PDF 압축 도구로 PDF 문서의 크기를 빠르게 줄이고, 최고 수준의 보안과 효율성으로 고품질 결과를 보장합니다.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "빠른 PDF 압축 프로세스",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "외부 소프트웨어 설치가 필요하지 않습니다",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "매우 안전하고 기밀 유지 - 파일은 로컬 브라우저에서 처리됩니다",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "빠르고 효율적인 압축",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "품질을 저하시키지 않고 PDF 크기를 신속하게 줄여보세요. 우리의 도구는 파일을 최적화하여 더 빠른 공유와 최소한의 저장 공간 사용을 가능하게 합니다.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "품질 유지",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "고급 기술을 통해 이미지와 텍스트의 명확성과 가독성을 유지하여 PDF의 시각적 무결성을 보존합니다.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "강화된 보안을 위한 로컬 처리",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "개인 정보 보호를 우선시합니다. 압축 프로세스 전체가 브라우저 내에서 실행되므로 문서가 장치를 벗어나지 않습니다.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "전체 접근성",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "어디서든 접근할 수 있으며, 온라인 PDF 압축 도구를 사용하여 설치 없이 파일 크기를 줄일 수 있습니다.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "오프라인 기능",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "오프라인 상태에서도 압축을 활성화하세요. 페이지를 미리 로드하고 인터넷 연결이 필요하지 않은 상태에서 파일 압축을 진행할 수 있습니다.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "사용자 정의 압축 설정",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "파일 크기 감소와 시각적 품질 사이의 균형을 맞추기 위해 압축 수준을 사용자 정의하세요. 모든 종류의 문서에 최적의 결과를 보장합니다.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF 압축 방법:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDF를 온라인 압축 도구에 업로드하세요.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "도구가 파일을 신속하게 처리하여 크기를 줄이고 품질을 유지합니다.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "압축된 PDF를 바로 다운로드하세요.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "선호하는 PDF 리더기에서 압축된 PDF의 품질과 크기를 확인하세요."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF를 HTML로 변환 - 온라인으로 무료로 PDF 파일을 HTML로 변환 | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "무료로 PDF를 HTML로 변환하세요. 레이아웃을 유지하고 이미지를 HTML로 변환합니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__sign_pdf__title": "PDF에 서명하기 - 로컬에서 무료로 디지털 서명을 PDF 파일에 추가 | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "로컬 기기에서 PDF 파일에 쉽게 디지털 서명을 추가하여 최대한의 개인 정보 보호와 보안을 유지하세요. 워터마크, 파일 크기 제한, 다운로드 또는 등록이 필요하지 않습니다."
+    "pdf_tools__sign_pdf__description": "로컬 기기에서 PDF 파일에 쉽게 디지털 서명을 추가하여 최대한의 개인 정보 보호와 보안을 유지하세요. 워터마크, 파일 크기 제한, 다운로드 또는 등록이 필요하지 않습니다.",
+    "pdf_tools__compress_pdf__title": "PDF 압축 - 온라인 PDF 크기 감소 | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "로컬 브라우저에서 PDF 파일을 압축하여 빠르고 안전한 성능을 보장합니다. 워터마크, 파일 크기 제한, 다운로드 또는 등록이 필요하지 않습니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF 서명 홈페이지",
     "components__sign_pdf__icon__sign": "서명",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "무언가를 입력하세요..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "낮음",
+    "components__compress_pdf__main__compress_low_grade_description": "최대 파일 크기, 높은 해상도",
+    "components__compress_pdf__main__compress_basic_grade_title": "기본",
+    "components__compress_pdf__main__compress_basic_grade_description": "중간 파일 크기, 표준 해상도",
+    "components__compress_pdf__main__compress_strong_grade_title": "강력",
+    "components__compress_pdf__main__compress_strong_grade_description": "작은 파일 크기, 낮은 해상도",
+    "components__compress_pdf__main__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요.",
+    "components__compress_pdf__main__compress_download": "압축 및 다운로드",
+    "components__compress_pdf__main__choose_another_file": "다른 파일 선택",
+    "components__compress_pdf__main__current_pdf_size": "PDF 현재 크기",
+    "components__compress_pdf__main__original_pdf_size": "원본 크기",
+    "components__compress_pdf__main__different_pdf_size": "이전과 다른 {{DiFF_NUMBER}}% 작아짐!",
+    "components__compress_pdf__main__compress_error": "압축 실패, PDF 파일이 암호화되었거나 비정상적인지 확인하세요!"
   }
 }

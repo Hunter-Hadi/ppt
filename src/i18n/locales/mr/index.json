@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "आवश्यक असलेल्या स्थानावर स्वाक्षराचा आकार आणि स्थान सुटवा.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "आता आपले हस्ताक्षरित PDF डाउनलोड करण्यासाठी क्लिक करा, सर्व काही तयार आहे आणि सुरक्षित आहे.",
     "team_plan__title__description1": "तुमच्या टीमला सर्वाधिक उन्नत AI उत्पादकता उपकरणे द्या.",
-    "team_plan__title__description2": "आमच्या टीम योजनेमध्ये तीन किंवा अधिक सदस्यांच्या गटांसाठी डिझाइन केलेले आहे."
+    "team_plan__title__description2": "आमच्या टीम योजनेमध्ये तीन किंवा अधिक सदस्यांच्या गटांसाठी डिझाइन केलेले आहे.",
+    "tools__index_page__constant_obj__compress_pdf__title": "PDF कमी करा",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "स्थानिक ब्राउझरद्वारे मजकूर आणि संलग्न इमेजेस कमी करण्याच्या माध्यमातून PDF आकार कमी करा",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "आपल्या PDF दस्तऐवजांचा आकार त्वरित कमी करा, आमच्या नवीनतम ऑनलाइन PDF कमी करण्याच्या टूलच्या सहाय्याने, उच्च गुणवत्तेच्या परिणामांसह आणि अधिक सुरक्षा आणि प्रभावशीलतेने.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "वेगवेगळ्या PDF कमी करण्याची प्रक्रिया",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "कोणतीही बाह्यिक सॉफ्टवेअर स्थापना आवश्यक नाही",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "अत्यंत सुरक्षित आणि गोपनीय - आपल्या फाइल्स आपल्या ब्राउझरमध्ये स्थानिकपणे प्रक्रिया केली जातात",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "वेगवेगळ्या आणि प्रभावी कमी करणे",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "गुणवत्तेच्या कमी केल्यासही त्वरित PDF आकार कमी करण्याची अनुभवा. आमचे टूल आपल्या फाइल्सला वेगवेगळ्या सामायिकीसाठी आणि किमान संग्रहाच्या वापरासाठी ऑप्टिमाईझ करते.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "गुणवत्ता ठेवा",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "आमच्या उन्नत तंत्रज्ञानाने आपल्या PDF ची दृष्टीची पूर्णता साठवते, इमेजेस आणि मजकूर ची स्पष्टता आणि वाचनयोग्यता ठेवते.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "सुरक्षेसाठी स्थानिक प्रक्रिया",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "आपल्या गोपनीयतेला प्राधान्य देतो. पूर्ण कमी करण्याची प्रक्रिया आपल्या ब्राउझरमध्ये केली जाते, ज्यामुळे आपले दस्तऐवज आपल्या डिव्हाइसला निघत नाहीत.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "सर्वसाधारण प्रवेश",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "कुठेही उपलब्ध, आमचे ऑनलाइन PDF कमी करण्याचे टूल आपल्याला कोणत्याही स्थापना आवश्यक नसता फाइल आकार कमी करण्यासाठी अनुमती देते.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "ऑफलाइन क्षमता",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "जेव्हा आपण ऑफलाइन असतो तेव्हा कमी करणे सक्षम करा. पेज पूर्वभारल्यानंतर, आपण इंटरनेट कनेक्शन आवश्यक नसता फाइल कमी करण्याच्या सोप्या प्रक्रियेसह सुरू करू शकता.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "कस्टम कमी करणे सेटिंग्ज",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "आपल्या विशिष्ट आवश्यकतांसाठी कमी करणे स्तर विन्यास करा, फाइल आकार कमी करण्याच्या आणि दृष्टीची गुणवत्ता ठेवण्याच्या बरोबरीसाठी सुधारणा करण्याची परवानगी देते, प्रत्येक प्रकारच्या दस्तऐवजासाठी उत्तम परिणाम सुनिश्चित करते.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF आसानपणे कमी करण्याचे कसे:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "ऑनलाइन कमी करण्याच्या टूलवर आपले PDF अपलोड करा.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "टूल त्वरितपणे आपली फाइल प्रक्रिया करते, त्याची आकार कमी करते आणि गुणवत्ता ठेवते.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "कमी केलेले PDF त्वरितपणे आपल्या डिव्हाइसवर डाउनलोड करा.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "आपल्या पसंतीच्या PDF वाचकावर त्याची गुणवत्ता आणि आकार तपासा, त्याची गुणवत्ता आणि आकार तपासा."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF ते HTML - ऑनलाइन विनामूल्य आपल्या PDF फाइलला HTML मध्ये रूपांतरित करा | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "मोफत ऑनलाइन PDF ते HTML मध्ये रूपांतर करा. लेआउट ठेवा आणि छायाचित्रे HTML मध्ये रूपांतरित करा. कोणतेही वॉटरमार्क, फाइल आकार सीमा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत.",
     "pdf_tools__sign_pdf__title": "पीडीएफ चिन्हांकन - मुक्त ऑनलाइन पीडीएफ फाइलमध्ये डिजिटल स्वाक्षर जोडणे | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "मुक्तपणे डिजिटल स्वाक्षरे पीडीएफ फाइलमध्ये जोडा आणि स्थानिक उपकरणांवर सुरक्षित करा, ज्यामुळे जास्तीत जास्त गोपनीयता आणि सुरक्षा सुनिश्चित होतील. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाही."
+    "pdf_tools__sign_pdf__description": "मुक्तपणे डिजिटल स्वाक्षरे पीडीएफ फाइलमध्ये जोडा आणि स्थानिक उपकरणांवर सुरक्षित करा, ज्यामुळे जास्तीत जास्त गोपनीयता आणि सुरक्षा सुनिश्चित होतील. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाही.",
+    "pdf_tools__compress_pdf__title": "PDF कमी करा - ऑनलाइन PDF आकार कमी | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "जलद आणि सुरक्षित प्रदर्शनासाठी स्थानिक ब्राउझरमध्ये PDF फाइल कमी करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाहीत."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "हस्ताक्षर PDF होमपेज",
     "components__sign_pdf__icon__sign": "साइन करा",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "काहीतरी टाइप करा..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "किमान",
+    "components__compress_pdf__main__compress_low_grade_description": "किमान फाइल आकार, उच्च रेझोल्यूशन",
+    "components__compress_pdf__main__compress_basic_grade_title": "मुख्य",
+    "components__compress_pdf__main__compress_basic_grade_description": "मध्यम फाइल आकार, मानक रेझोल्यूशन",
+    "components__compress_pdf__main__compress_strong_grade_title": "मजबूत",
+    "components__compress_pdf__main__compress_strong_grade_description": "लहान फाइल आकार, किमान रेझोल्यूशन",
+    "components__compress_pdf__main__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
+    "components__compress_pdf__main__compress_download": "कमी करा आणि डाउनलोड करा",
+    "components__compress_pdf__main__choose_another_file": "दुसरी फाइल निवडा",
+    "components__compress_pdf__main__current_pdf_size": "PDF वर्तमान आकार",
+    "components__compress_pdf__main__original_pdf_size": "मूळ आकार",
+    "components__compress_pdf__main__different_pdf_size": "पूर्वीच्या पेक्षा {{DiFF_NUMBER}}% लहान!",
+    "components__compress_pdf__main__compress_error": "कमी करणे अयशस्वी, कृपया PDF फाइल संकेतशब्दांकित किंवा असामान्य आहे ते तपासा!"
   }
 }

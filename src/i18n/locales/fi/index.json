@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Säädä allekirjoituksen kokoa ja sijaintia tarpeen mukaan.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Napsauta ladataksesi allekirjoitetun PDF-tiedoston nyt, kaikki on valmiina ja turvallista.",
     "team_plan__title__description1": "Anna tiimillesi edistyneimmät tekoälytyökalut tuottavuuden parantamiseksi.",
-    "team_plan__title__description2": "Tiimisuunnitelmamme on suunniteltu kolmen tai useamman jäsenen ryhmille."
+    "team_plan__title__description2": "Tiimisuunnitelmamme on suunniteltu kolmen tai useamman jäsenen ryhmille.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Pakkaa PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Pienennä PDF-tiedoston kokoa pakkaamalla tekstiä ja upotettuja kuvia paikallisessa selaimessa",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Pienennä PDF-dokumenttien kokoa nopeasti huippuluokan verkkopohjaisella PDF-pakkaustyökalullamme, joka takaa korkealaatuiset tulokset maksimaalisella turvallisuudella ja tehokkuudella.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Nopea PDF-pakkausprosessi",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Ei tarvetta ulkoiselle ohjelmistolle",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Erittäin turvallinen ja luottamuksellinen – tiedostosi käsitellään paikallisesti selaimessasi",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Nopea ja tehokas pakkaus",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Koe nopea PDF-tiedostojen pienennys kompromissitta laadusta. Työkalumme optimoi tiedostosi nopeampaa jakamista ja vähäistä tallennustilankäyttöä varten.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Säilytä laatu",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Edistyksellinen teknologiamme varmistaa, että PDF-tiedostojen visuaalinen eheys säilyy, säilyttäen sekä kuvien että tekstin selkeyden ja luettavuuden.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Paikallinen käsittely parannetun turvallisuuden takaamiseksi",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Asiakkaan yksityisyys on meille ensisijainen. Koko pakkausprosessi suoritetaan selaimessasi, joten tiedostosi eivät poistu laitteeltasi.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Yleinen saavutettavuus",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Verkkopohjaisen PDF-pakkaustyökalumme avulla voit pienentää tiedostokokoja millä tahansa laitteella ilman asennuksia.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline-ominaisuus",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Voit suorittaa pakkaamisen myös offline-tilassa. Esilataa sivu ja voit jatkaa tiedoston pakkausta ilman internet-yhteyttä.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Mukautetut pakkausasetukset",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Säädä pakkaustasoa tarpeidesi mukaan, mahdollistaen mukautetut säädöt tiedostokoon pienentämisen ja visuaalisen laadun tasapainottamiseksi, varmistaen optimaaliset tulokset jokaiselle dokumenttityypille.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kuinka pakata PDF-tiedostoja helposti:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Lataa PDF-tiedostosi verkkopohjaiseen pakkaustyökaluun.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Työkalu käsittelee tiedostosi nopeasti, pienentäen sen kokoa säilyttäen samalla laatua.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Lataa pakattu PDF-tiedosto laitteellesi heti pakkaamisen jälkeen.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Tarkista pakatun PDF-tiedoston laatu ja koko avaamalla se haluamallasi PDF-lukijalla."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikkaa Ehdotuksia",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF HTML-muunnin - Muunna PDF-tiedostot HTML:ksi ilmaiseksi | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Muunna PDF HTML:ksi ilmaiseksi. Säilytä asettelu ja muunna kuvat HTML:ksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä vaaditaan.",
     "pdf_tools__sign_pdf__title": "PDF:n allekirjoittaminen - Lisää digitaalinen allekirjoitus PDF-tiedostoihin paikallisesti ilmaiseksi | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Lisää helposti digitaalisia allekirjoituksia PDF-tiedostoihin ilmaiseksi ja turvallisesti paikallisilla laitteilla, varmistaen maksimaalisen yksityisyyden ja tietoturvan. Ei vesileimaa, tiedostokokorajoitusta, latausta tai rekisteröitymistä vaadita."
+    "pdf_tools__sign_pdf__description": "Lisää helposti digitaalisia allekirjoituksia PDF-tiedostoihin ilmaiseksi ja turvallisesti paikallisilla laitteilla, varmistaen maksimaalisen yksityisyyden ja tietoturvan. Ei vesileimaa, tiedostokokorajoitusta, latausta tai rekisteröitymistä vaadita.",
+    "pdf_tools__compress_pdf__title": "Pakkaa PDF – Verkkopohjainen PDF-koon pienennys | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Pakkaa PDF-tiedostot paikallisessa selaimessa varmistaen nopean ja turvallisen suorituskyvyn. Ei vesileimaa, tiedostokoon rajoitusta, latausta tai rekisteröitymistä vaadita."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allekirjoita PDF -etusivu",
     "components__sign_pdf__icon__sign": "Allekirjoita",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Kirjoita jotain..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Alhainen",
+    "components__compress_pdf__main__compress_low_grade_description": "Suurin tiedostokoko, korkeampi resoluutio",
+    "components__compress_pdf__main__compress_basic_grade_title": "Perus",
+    "components__compress_pdf__main__compress_basic_grade_description": "Keskimääräinen tiedostokoko, vakioratkaisu",
+    "components__compress_pdf__main__compress_strong_grade_title": "Vahva",
+    "components__compress_pdf__main__compress_strong_grade_description": "Pieni tiedostokoko, alempi resoluutio",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Lataa määritetty PDF-tiedostotyyppi",
+    "components__compress_pdf__main__compress_download": "Pakkaa ja lataa",
+    "components__compress_pdf__main__choose_another_file": "Valitse toinen tiedosto",
+    "components__compress_pdf__main__current_pdf_size": "Nykyinen PDF-koko",
+    "components__compress_pdf__main__original_pdf_size": "alkuperäinen koko",
+    "components__compress_pdf__main__different_pdf_size": "Eroaa aiemmasta {{DiFF_NUMBER}}% pienempi!",
+    "components__compress_pdf__main__compress_error": "Pakkaus epäonnistui, tarkista onko PDF-tiedosto salattu tai poikkeava!"
   }
 }

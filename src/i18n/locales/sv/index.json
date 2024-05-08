@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Justera storlek och position för signaturen vid behov.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klicka för att ladda ner din signerade PDF nu, allt är klart och säkert.",
     "team_plan__title__description1": "Ge ditt team de mest avancerade AI-produktivitetsverktygen.",
-    "team_plan__title__description2": "Vår teamplan är utformad för grupper med tre eller fler medlemmar."
+    "team_plan__title__description2": "Vår teamplan är utformad för grupper med tre eller fler medlemmar.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Komprimera PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Minska storleken på PDF-filer genom att komprimera text och inbäddade bilder via en lokal webbläsare",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Minska snabbt storleken på dina PDF-dokument med vår toppmoderna onlineverktyg för PDF-komprimering, vilket garanterar högkvalitativa resultat med maximal säkerhet och effektivitet.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Snabb process för PDF-komprimering",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Ingen extern programvara behövs",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Hög säkerhet och konfidentialitet – dina filer bearbetas lokalt i din webbläsare",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Snabb och effektiv komprimering",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Upplev snabb minskning av PDF-storlek utan att kompromissa med kvaliteten. Vårt verktyg optimerar dina filer för snabbare delning och minimal lagringsanvändning.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Bevara kvaliteten",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Vår avancerade teknik säkerställer att den visuella integriteten hos dina PDF-filer bevaras, vilket bibehåller tydligheten och läsbarheten hos både bilder och text.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Lokal bearbetning för förbättrad säkerhet",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Vi prioriterar din integritet. Hela komprimeringsprocessen utförs i din webbläsare, vilket garanterar att dina dokument inte lämnar din enhet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Universell tillgänglighet",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Tillgängligt var som helst, vårt onlineverktyg för PDF-komprimering gör det möjligt för dig att minska filstorlekar på valfri enhet utan att behöva installera något.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline-funktion",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktivera komprimering även när du är offline. Förhandsläs sidan och du kan fortsätta med filkomprimering utan internetanslutning.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Anpassade komprimeringsinställningar",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Anpassa komprimeringsnivån efter dina specifika behov, vilket möjliggör anpassade justeringar för att balansera mellan minskning av filstorlek och visuell kvalitet, vilket garanterar optimala resultat för varje typ av dokument.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hur du enkelt komprimerar PDF-filer:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Ladda upp din PDF till det onlineverktyg för komprimering.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Verktyget bearbetar snabbt din fil och minskar dess storlek samtidigt som kvaliteten bibehålls.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Ladda ner den komprimerade PDF-filen till din enhet omedelbart efter komprimering.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Kontrollera kvaliteten och storleken på den komprimerade PDF-filen genom att öppna den i din föredragna PDF-läsare."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF till HTML - Konvertera PDF-filer till HTML online gratis | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Konvertera PDF till HTML online gratis. Behåll layouten och konvertera bilder till HTML. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
     "pdf_tools__sign_pdf__title": "Signera PDF - Lägg till digital signatur i PDF-filer lokalt gratis | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Lägg enkelt till digitala signaturer i PDF-filer gratis och säkert på lokala enheter, vilket garanterar maximal integritet och säkerhet. Ingen vattenstämpel, filstorleksbegränsning, nedladdning eller registrering krävs."
+    "pdf_tools__sign_pdf__description": "Lägg enkelt till digitala signaturer i PDF-filer gratis och säkert på lokala enheter, vilket garanterar maximal integritet och säkerhet. Ingen vattenstämpel, filstorleksbegränsning, nedladdning eller registrering krävs.",
+    "pdf_tools__compress_pdf__title": "Komprimera PDF – Online PDF-storleksminskning | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Komprimera PDF-filer i en lokal webbläsare för att säkerställa snabb och säker prestanda. Ingen vattenstämpel, filstorleksbegränsning, nedladdning eller registrering krävs."
   },
   "features_landing": {
     "cta_text": "Lägg till i webbläsaren",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signera PDF Hemsida",
     "components__sign_pdf__icon__sign": "Signera",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv något…"
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Låg",
+    "components__compress_pdf__main__compress_low_grade_description": "Maximal filstorlek, högre upplösning",
+    "components__compress_pdf__main__compress_basic_grade_title": "Grundläggande",
+    "components__compress_pdf__main__compress_basic_grade_description": "Medium filstorlek, standardupplösning",
+    "components__compress_pdf__main__compress_strong_grade_title": "Stark",
+    "components__compress_pdf__main__compress_strong_grade_description": "Liten filstorlek, lägre upplösning",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
+    "components__compress_pdf__main__compress_download": "Komprimera och ladda ner",
+    "components__compress_pdf__main__choose_another_file": "Välj en annan fil",
+    "components__compress_pdf__main__current_pdf_size": "Aktuell PDF-storlek",
+    "components__compress_pdf__main__original_pdf_size": "ursprunglig storlek",
+    "components__compress_pdf__main__different_pdf_size": "Annorlunda än tidigare {{DiFF_NUMBER}}% mindre!",
+    "components__compress_pdf__main__compress_error": "Komprimering misslyckades, kontrollera om PDF-filen är krypterad eller onormal!"
   }
 }

@@ -606,9 +606,7 @@
     "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Upload your PDF to the online compression tool.",
     "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "The tool quickly processes your file, reducing its size while maintaining quality.",
     "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Download the compressed PDF to your device immediately after compression.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Check the quality and size of the compressed PDF by opening it on your preferred PDF reader.",
-
-    "pdf_tools__detail_page__more_pdf_tools": "More Free Online PDF Tools"
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Check the quality and size of the compressed PDF by opening it on your preferred PDF reader."
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"

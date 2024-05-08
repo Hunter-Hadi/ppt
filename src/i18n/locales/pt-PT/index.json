@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajuste o tamanho e a posição da assinatura conforme necessário.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Clique para baixar o seu PDF assinado agora, tudo está pronto e seguro.",
     "team_plan__title__description1": "Dê à sua equipa as ferramentas de produtividade AI mais avançadas.",
-    "team_plan__title__description2": "O nosso plano de equipa é projetado para grupos de três ou mais membros."
+    "team_plan__title__description2": "O nosso plano de equipa é projetado para grupos de três ou mais membros.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Comprimir PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Reduza o tamanho do PDF comprimindo texto e imagens incorporadas através de um navegador local",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Reduza rapidamente o tamanho dos seus documentos PDF com a nossa avançada ferramenta de compressão de PDF online, garantindo resultados de alta qualidade com máxima segurança e eficiência.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Processo rápido de compressão de PDF",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Não é necessário instalar software externo",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Altamente seguro e confidencial - os seus ficheiros são processados localmente no seu navegador",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Compressão Rápida e Eficiente",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Experimente uma redução rápida do tamanho do PDF sem comprometer a qualidade. A nossa ferramenta otimiza os seus ficheiros para uma partilha mais rápida e um uso mínimo de armazenamento.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Manter a Qualidade",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "A nossa tecnologia avançada garante que a integridade visual dos seus PDFs é preservada, mantendo a clareza e legibilidade tanto das imagens como do texto.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Processamento Local para uma Segurança Reforçada",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Damos prioridade à sua privacidade. Todo o processo de compressão é executado no seu navegador, garantindo que os seus documentos não saem do seu dispositivo.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Acessibilidade Universal",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Aceda a partir de qualquer lugar, a nossa ferramenta de compressão de PDF online permite-lhe reduzir o tamanho dos ficheiros em qualquer dispositivo sem necessidade de instalações.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Capacidade Offline",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Ative a compressão mesmo quando estiver offline. Carregue antecipadamente a página e poderá prosseguir com a compressão de ficheiros sem necessidade de ligação à internet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Definições Personalizadas de Compressão",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Ajuste o nível de compressão às suas necessidades específicas, permitindo ajustes personalizados entre a redução do tamanho do ficheiro e a qualidade visual, garantindo resultados ótimos para todos os tipos de documentos.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Como Comprimir PDFs Facilmente:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Carregue o seu PDF na ferramenta de compressão online.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "A ferramenta processa rapidamente o seu ficheiro, reduzindo o tamanho mantendo a qualidade.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Faça o download do PDF comprimido para o seu dispositivo imediatamente após a compressão.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Verifique a qualidade e o tamanho do PDF comprimido abrindo-o no seu leitor de PDF preferido."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts de 1 Clique",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF para HTML - Converter Arquivos PDF em HTML Online Gratuitamente | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Converter PDF para HTML online gratuitamente. Manter layout e converter imagens para HTML. Sem marcas d'água, limites de tamanho de arquivo, downloads ou registros necessários.",
     "pdf_tools__sign_pdf__title": "Assinar PDF - Adicionar Assinatura Digital a Arquivos PDF Localmente Gratuitamente | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Adicione facilmente assinaturas digitais a arquivos PDF gratuitamente e com segurança em dispositivos locais, garantindo privacidade e segurança máximas. Sem marca d'água, limite de tamanho de arquivo, download ou registro necessários."
+    "pdf_tools__sign_pdf__description": "Adicione facilmente assinaturas digitais a arquivos PDF gratuitamente e com segurança em dispositivos locais, garantindo privacidade e segurança máximas. Sem marca d'água, limite de tamanho de arquivo, download ou registro necessários.",
+    "pdf_tools__compress_pdf__title": "Comprimir PDF - Redução de Tamanho de PDF Online | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Comprima ficheiros PDF num navegador local para garantir um desempenho rápido e seguro. Sem marca d'água, limite de tamanho de ficheiro, download ou registo necessários."
   },
   "features_landing": {
     "cta_text": "Adicionar ao Navegador",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Página Inicial de Assinatura de PDF",
     "components__sign_pdf__icon__sign": "Assinar",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Digite algo..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Baixo",
+    "components__compress_pdf__main__compress_low_grade_description": "Tamanho máximo do ficheiro, Resolução mais alta",
+    "components__compress_pdf__main__compress_basic_grade_title": "Básico",
+    "components__compress_pdf__main__compress_basic_grade_description": "Tamanho médio do ficheiro, resolução padrão",
+    "components__compress_pdf__main__compress_strong_grade_title": "Forte",
+    "components__compress_pdf__main__compress_strong_grade_description": "Tamanho pequeno do ficheiro, resolução inferior",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Por favor, carregue o tipo de ficheiro PDF especificado",
+    "components__compress_pdf__main__compress_download": "Comprimir e Descarregar",
+    "components__compress_pdf__main__choose_another_file": "Escolher outro ficheiro",
+    "components__compress_pdf__main__current_pdf_size": "Tamanho atual do PDF",
+    "components__compress_pdf__main__original_pdf_size": "tamanho original",
+    "components__compress_pdf__main__different_pdf_size": "Diferente do anterior, {{DiFF_NUMBER}}% menor!",
+    "components__compress_pdf__main__compress_error": "Falha na compressão, por favor verifique se o ficheiro PDF está encriptado ou é anormal!"
   }
 }

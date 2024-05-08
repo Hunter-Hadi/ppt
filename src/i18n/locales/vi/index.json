@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Điều chỉnh kích thước và vị trí của chữ ký theo nhu cầu.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Nhấp để tải xuống PDF đã ký của bạn ngay bây giờ, mọi thứ đã sẵn sàng và an toàn.",
     "team_plan__title__description1": "Cung cấp cho đội của bạn các công cụ năng suất AI tiên tiến nhất.",
-    "team_plan__title__description2": "Gói dịch vụ của chúng tôi dành cho nhóm từ ba thành viên trở lên."
+    "team_plan__title__description2": "Gói dịch vụ của chúng tôi dành cho nhóm từ ba thành viên trở lên.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Nén PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Giảm kích thước PDF bằng cách nén văn bản và hình ảnh được nhúng thông qua trình duyệt cục bộ",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Nhanh chóng giảm kích thước tài liệu PDF của bạn với công cụ Nén PDF trực tuyến tiên tiến của chúng tôi, đảm bảo kết quả chất lượng cao với độ an toàn và hiệu suất tối đa.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Quá trình nén PDF nhanh chóng",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Không cần cài đặt phần mềm bên ngoài",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Bảo mật và bảo mật cao - tệp của bạn được xử lý cục bộ trong trình duyệt của bạn",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Nén Nhanh và Hiệu Quả",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Trải nghiệm việc giảm kích thước PDF nhanh chóng mà không ảnh hưởng đến chất lượng. Công cụ của chúng tôi tối ưu hóa tệp của bạn để chia sẻ nhanh hơn và sử dụng bộ nhớ tối thiểu.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Bảo Quản Chất Lượng",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Công nghệ tiên tiến của chúng tôi đảm bảo tính toàn vẹn hình ảnh của PDF của bạn được bảo tồn, giữ nguyên độ rõ nét và khả năng đọc của cả hình ảnh và văn bản.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Xử Lý Cục Bộ Để Tăng Cường Bảo Mật",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Chúng tôi ưu tiên quyền riêng tư của bạn. Toàn bộ quá trình nén được thực hiện trong trình duyệt của bạn, đảm bảo tài liệu của bạn không rời khỏi thiết bị của bạn.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Khả Năng Truy Cập Toàn Diện",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Truy cập từ bất kỳ đâu, công cụ Nén PDF trực tuyến của chúng tôi cho phép bạn giảm kích thước tệp trên bất kỳ thiết bị nào mà không cần cài đặt.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Khả Năng Ngoại Tuyến",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Cho phép nén ngay cả khi bạn không có kết nối internet. Tải trang trước, và bạn có thể tiếp tục nén tệp mà không cần kết nối internet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Cài Đặt Nén Tùy Chỉnh",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Tùy chỉnh mức nén theo nhu cầu cụ thể của bạn, cho phép điều chỉnh tùy chỉnh để cân bằng giữa việc giảm kích thước tệp và chất lượng hình ảnh, đảm bảo kết quả tối ưu cho mọi loại tài liệu.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cách Dễ Dàng Nén PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Tải lên PDF của bạn lên công cụ nén trực tuyến.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Công cụ sẽ nhanh chóng xử lý tệp của bạn, giảm kích thước mà vẫn giữ chất lượng.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Tải xuống PDF đã được nén ngay sau khi nén.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Kiểm tra chất lượng và kích thước của PDF đã được nén bằng cách mở nó trên trình đọc PDF ưa thích của bạn."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Gợi ý",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF sang HTML - Chuyển đổi Tệp PDF sang HTML Trực tuyến Miễn phí | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Chuyển đổi PDF sang HTML trực tuyến miễn phí. Giữ nguyên bố cục và chuyển đổi hình ảnh sang HTML. Không có dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký cần thiết.",
     "pdf_tools__sign_pdf__title": "Ký PDF - Thêm Chữ Ký Số vào Tệp PDF Địa phương Miễn phí | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Dễ dàng thêm chữ ký số vào tệp PDF miễn phí và an toàn trên các thiết bị địa phương, đảm bảo quyền riêng tư và bảo mật tối đa. Không có dấu nước, giới hạn kích thước tệp, không cần tải xuống hoặc đăng ký."
+    "pdf_tools__sign_pdf__description": "Dễ dàng thêm chữ ký số vào tệp PDF miễn phí và an toàn trên các thiết bị địa phương, đảm bảo quyền riêng tư và bảo mật tối đa. Không có dấu nước, giới hạn kích thước tệp, không cần tải xuống hoặc đăng ký.",
+    "pdf_tools__compress_pdf__title": "Nén PDF - Giảm kích thước PDF trực tuyến | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Nén tệp PDF trong trình duyệt cục bộ để đảm bảo hiệu suất nhanh chóng và an toàn. Không có dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Trang chủ Ký PDF",
     "components__sign_pdf__icon__sign": "Ký",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Nhập gì đó..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Thấp",
+    "components__compress_pdf__main__compress_low_grade_description": "Kích thước tệp tối đa, Độ phân giải cao",
+    "components__compress_pdf__main__compress_basic_grade_title": "Cơ bản",
+    "components__compress_pdf__main__compress_basic_grade_description": "Kích thước tệp trung bình, độ phân giải tiêu chuẩn",
+    "components__compress_pdf__main__compress_strong_grade_title": "Mạnh",
+    "components__compress_pdf__main__compress_strong_grade_description": "Kích thước tệp nhỏ, độ phân giải thấp",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
+    "components__compress_pdf__main__compress_download": "Nén & Tải xuống",
+    "components__compress_pdf__main__choose_another_file": "Chọn tệp khác",
+    "components__compress_pdf__main__current_pdf_size": "Kích thước PDF hiện tại",
+    "components__compress_pdf__main__original_pdf_size": "kích thước gốc",
+    "components__compress_pdf__main__different_pdf_size": "Khác so với trước {{DiFF_NUMBER}}% nhỏ hơn!",
+    "components__compress_pdf__main__compress_error": "Quá trình nén thất bại, vui lòng kiểm tra xem tệp PDF có được mã hóa hoặc không bình thường!"
   }
 }

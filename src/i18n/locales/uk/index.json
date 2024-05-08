@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "دستخط کی سائز اور پوزیشن کو ضرورت کے مطابق ترمیم کریں۔",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "ابھی اپنے سائن کیے گئے پی ڈی ایف کو ڈاؤن لوڈ کرنے کے لئے کلک کریں، سب کچھ تیار اور محفوظ ہے۔",
     "team_plan__title__description1": "اپنی ٹیم کو سب سے تجدید شدہ AI پیداوار کی آلات فراہم کریں۔",
-    "team_plan__title__description2": "ہمارا ٹیم منصوبہ تین یا اس سے زیادہ ممبرز کے لئے تشکیل دیا گیا ہے۔"
+    "team_plan__title__description2": "ہمارا ٹیم منصوبہ تین یا اس سے زیادہ ممبرز کے لئے تشکیل دیا گیا ہے۔",
+    "tools__index_page__constant_obj__compress_pdf__title": "PDF کمپریس کریں",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "مقامی براؤزر کے ذریعہ متن اور شامل شدہ تصاویر کو کمپریس کرکے PDF کا سائز کم کریں",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "ہمارے تازہ ترین آن لائن PDF کمپریشن ٹول کے ساتھ آپ کے PDF دستاویزات کا سائز تیزی سے کم کریں، جبکہ امن اور کارآمدی کے ساتھ بلند کوالٹی کے نتائج یقینی بنائیں۔",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "تیز PDF کمپریشن پروسیس",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "بیرونی سافٹ ویئر کی انسٹالیشن کی ضرورت نہیں",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "بہت امن اور خفیہ - آپ کے فائلز مقامی طور پر آپ کے براؤزر میں پروسیس ہوتی ہیں",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "تیز اور کارآمد کمپریشن",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "کوالٹی پر قابو نہیں کرتے ہوئے تیز PDF سائز کم کرنے کا تجربہ کریں۔ ہمارا ٹول آپ کی فائلوں کو تیز تر شیئرنگ اور کم سٹوریج استعمال کے لئے اپٹائمائز کرتا ہے۔",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "کوالٹی برقرار رکھیں",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "ہماری ایڈوانس ٹیکنالوجی یقینی بناتی ہے کہ آپ کے PDF کی تصاویر اور متن کی وضاحت برقرار رہتی ہے، تصاویر اور متن کی صفائی اور پڑھنے کی قابلیت برقرار رکھتی ہے۔",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "امن کیلئے مقامی پروسیسنگ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "ہم آپ کی خصوصیت کو ترجیح دیتے ہیں۔ پوری کمپریشن پروسیس آپ کے براؤزر کے اندر انجام دی جاتی ہے، یہ یقینی بنانے کے لئے کہ آپ کے دستاویزات آپ کے آلے سے باہر نہیں جاتے ہیں۔",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "عمومی رسائی",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "کہیں سے بھی رسائی حاصل کریں، ہمارا آن لائن PDF کمپریشن ٹول آپ کو کسی بھی ڈیوائس پر فائل سائز کم کرنے کی اجازت دیتا ہے بغیر کسی انسٹالیشن کی ضرورت کے۔",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "آف لائن قابلیت",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "آپ آف لائن ہونے کے باوجود بھی کمپریشن کو ممکن بنائیں۔ صفحہ کو پہلے سے لوڈ کریں، اور آپ انٹرنیٹ کنکشن کی ضرورت کے بغیر فائل کمپریشن کے ساتھ آگے بڑھ سکتے ہیں۔",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "کسٹم کمپریشن ترتیبات",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "کمپریشن سطح کو آپ کی خاص ضروریات کے مطابق ترتیب دیں، فائل سائز کم کرنے اور وجوہاتی کوالٹی کے درمیان توازن کے لئے کسٹم ایڈجسٹمنٹ کی اجازت دیں، یقینی بنائیں کہ ہر قسم کے دستاویز کے لئے بہترین نتائج حاصل ہوں۔",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF کو آسانی سے کمپریس کیسے کریں:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "اپنے PDF کو آن لائن کمپریشن ٹول پر اپ لوڈ کریں۔",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "ٹول جلدی سے آپ کی فائل کو پروسیس کرتا ہے، اس کا سائز کم کرتا ہوئے کوالٹی برقرار رکھتا ہے۔",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "کمپریس شدہ PDF کو فوری طور پر اپنے آلے میں ڈاؤن لوڈ کریں۔",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "اپنے ترجیح دی گئی PDF ریڈر پر اسے کھول کر کمپریس شدہ PDF کی کوالٹی اور سائز چیک کریں۔"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF سے HTML میں تبدیل کریں - مفت آن لائن پی ڈی ایف فائلز کو ایچ ٹی ایم ایل میں تبدیل کریں | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "مفت آن لائن پی ڈی ایف کو ایچ ٹی ایم ایل میں تبدیل کریں۔ ترتیب برقرار رکھیں اور تصاویر کو HTML میں تبدیل کریں۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
     "pdf_tools__sign_pdf__title": "PDF فائلوں میں ڈیجیٹل دستخط شامل کرنا - مفت مقامی طریقے سے | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "آسانی سے PDF فائلوں میں ڈیجیٹل دستخط شامل کریں، مفت اور محفوظ لوکل آلات پر، یقینی بناتے ہوئے کہ زیادہ سے زیادہ خصوصیت اور حفاظت میسر ہوتی ہے۔ کوئی واٹرمارک، فائل سائز کی حد، ڈاؤن لوڈ یا رجسٹریشن کی ضرورت نہیں ہوتی۔"
+    "pdf_tools__sign_pdf__description": "آسانی سے PDF فائلوں میں ڈیجیٹل دستخط شامل کریں، مفت اور محفوظ لوکل آلات پر، یقینی بناتے ہوئے کہ زیادہ سے زیادہ خصوصیت اور حفاظت میسر ہوتی ہے۔ کوئی واٹرمارک، فائل سائز کی حد، ڈاؤن لوڈ یا رجسٹریشن کی ضرورت نہیں ہوتی۔",
+    "pdf_tools__compress_pdf__title": "PDF کمپریس کریں - آن لائن PDF سائز کم کرنا | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "فوری اور محفوظ پرفارمنس کے لئے لوکل براؤزر میں PDF فائلوں کو کمپریس کریں۔ کوئی واٹرمارک، فائل سائز کی حد، ڈاؤن لوڈ یا رجسٹریشن کی ضرورت نہیں۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "سائن پی ڈی ایف ہوم پیج",
     "components__sign_pdf__icon__sign": "سائن کریں",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "کچھ ٹائپ کریں..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "کم",
+    "components__compress_pdf__main__compress_low_grade_description": "زیادہ سائز، بلند تفصیلات",
+    "components__compress_pdf__main__compress_basic_grade_title": "بنیادی",
+    "components__compress_pdf__main__compress_basic_grade_description": "میڈیم سائز، عام تفصیلات",
+    "components__compress_pdf__main__compress_strong_grade_title": "مضبوط",
+    "components__compress_pdf__main__compress_strong_grade_description": "چھوٹی سائز، کم تفصیلات",
+    "components__compress_pdf__main__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کو اپ لوڈ کریں",
+    "components__compress_pdf__main__compress_download": "کمپریس کریں اور ڈاؤن لوڈ کریں",
+    "components__compress_pdf__main__choose_another_file": "کوئی دوسری فائل منتخب کریں",
+    "components__compress_pdf__main__current_pdf_size": "موجودہ PDF سائز",
+    "components__compress_pdf__main__original_pdf_size": "اصل سائز",
+    "components__compress_pdf__main__different_pdf_size": "پہلے سے {{DiFF_NUMBER}}٪ چھوٹا!",
+    "components__compress_pdf__main__compress_error": "کمپریشن ناکام ہوگئی، براہ کرم چیک کریں کہ PDF فائل محفوظ یا غیر عادی ہے!"
   }
 }

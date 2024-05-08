@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Ajusta la mida i posició de la signatura segons sigui necessari.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Feu clic per descarregar el vostre PDF signat ara mateix, tot està llest i segur.",
     "team_plan__title__description1": "Proporcioneu al vostre equip les eines de productivitat d'IA més avançades.",
-    "team_plan__title__description2": "El nostre pla per a equips està dissenyat per a grups de tres o més membres."
+    "team_plan__title__description2": "El nostre pla per a equips està dissenyat per a grups de tres o més membres.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Comprimeix PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Redueix la mida del PDF comprimint el text i les imatges incrustades a través d'un navegador local",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Redueix ràpidament la mida dels teus documents PDF amb la nostra eina de compressió de PDF en línia de última generació, garantint resultats de alta qualitat amb màxima seguretat i eficiència.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Procés de compressió de PDF ràpid",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "No és necessària cap instal·lació de programari extern",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Altament segur i confidencial: els teus fitxers es processen localment al teu navegador",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Compressió ràpida i eficient",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Experimenta una reducció ràpida de la mida del PDF sense comprometre la qualitat. La nostra eina optimitza els teus fitxers per a un intercanvi més ràpid i un ús mínim d'emmagatzematge.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Mantén la qualitat",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "La nostra tecnologia avançada garanteix que la integritat visual dels teus PDF es mantingui, conservant la claredat i la llegibilitat tant de les imatges com del text.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Processament local per a una seguretat millorada",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Prioritzem la teva privadesa. Tot el procés de compressió s'executa dins del teu navegador, garantint que els teus documents no surtin del teu dispositiu.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Accessibilitat universal",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Accessible des de qualsevol lloc, la nostra eina de compressió de PDF en línia et permet reduir la mida dels fitxers en qualsevol dispositiu sense necessitat de cap instal·lació.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Capacitat fora de línia",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Permet la compressió fins i tot quan estàs fora de línia. Precarrega la pàgina i podràs continuar amb la compressió de fitxers sense necessitat d'una connexió a Internet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Configuració personalitzada de la compressió",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Adapta el nivell de compressió a les teves necessitats específiques, permetent ajustaments personalitzats per equilibrar la reducció de la mida del fitxer i la qualitat visual, garantint resultats òptims per a tot tipus de documents.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Comprimiu fàcilment els PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Puja el teu PDF a l'eina de compressió en línia.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "L'eina processa ràpidament el teu fitxer, reduint-ne la mida sense perdre qualitat.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Descarrega el PDF comprimit al teu dispositiu immediatament després de la compressió.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Comprova la qualitat i la mida del PDF comprimit obrint-lo amb el lector de PDF preferit."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF a HTML - Converteix fitxers PDF a HTML en línia de forma gratuïta | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Converteix PDF a HTML en línia de forma gratuïta. Manté l'estructura i converteix les imatges a HTML. Sense marques d'aigua, límits de mida de fitxer, descàrregues o registres necessaris.",
     "pdf_tools__sign_pdf__title": "Signatura de PDF - Afegir signatura digital a fitxers PDF localment de manera gratuïta | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Afegeix fàcilment signatures digitals a fitxers PDF de manera gratuïta i segura en dispositius locals, garantint la màxima privadesa i seguretat. Sense marques d'aigua, límit de mida de fitxer, descàrrega o registre requerit."
+    "pdf_tools__sign_pdf__description": "Afegeix fàcilment signatures digitals a fitxers PDF de manera gratuïta i segura en dispositius locals, garantint la màxima privadesa i seguretat. Sense marques d'aigua, límit de mida de fitxer, descàrrega o registre requerit.",
+    "pdf_tools__compress_pdf__title": "Comprimeix PDF: Reducció de mida de PDF en línia | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Comprimeix fitxers PDF en un navegador local per garantir un rendiment ràpid i segur. Sense marca d'aigua, límit de mida de fitxer, descàrrega ni registre necessari."
   },
   "features_landing": {
     "cta_text": "Afegir al navegador",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pàgina d'inici de Signar PDF",
     "components__sign_pdf__icon__sign": "Signar",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Escriu alguna cosa..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Baixa",
+    "components__compress_pdf__main__compress_low_grade_description": "Mida màxima del fitxer, resolució més alta",
+    "components__compress_pdf__main__compress_basic_grade_title": "Bàsica",
+    "components__compress_pdf__main__compress_basic_grade_description": "Mida mitjana del fitxer, resolució estàndard",
+    "components__compress_pdf__main__compress_strong_grade_title": "Forte",
+    "components__compress_pdf__main__compress_strong_grade_description": "Mida petita del fitxer, resolució més baixa",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Puja el tipus de fitxer PDF especificat",
+    "components__compress_pdf__main__compress_download": "Comprimeix i descarrega",
+    "components__compress_pdf__main__choose_another_file": "Tria un altre fitxer",
+    "components__compress_pdf__main__current_pdf_size": "Mida actual del PDF",
+    "components__compress_pdf__main__original_pdf_size": "mida original",
+    "components__compress_pdf__main__different_pdf_size": "Diferent de {{DiFF_NUMBER}}% més petit que abans!",
+    "components__compress_pdf__main__compress_error": "La compressió ha fallat, comprova si el fitxer PDF està encriptat o és anormal!"
   }
 }

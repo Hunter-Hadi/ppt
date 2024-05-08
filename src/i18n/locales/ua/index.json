@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Налаштуйте розмір та положення підпису за потребою.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Натисніть, щоб завантажити ваш підписаний PDF зараз, все готово і безпечно.",
     "team_plan__title__description1": "Надайте своїй команді найпродуктивніші інструменти штучного інтелекту.",
-    "team_plan__title__description2": "Наш план для команд розрахований на групи з трьох або більше учасників."
+    "team_plan__title__description2": "Наш план для команд розрахований на групи з трьох або більше учасників.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Стиснути PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Зменшити розмір PDF, стискаючи текст та вбудовані зображення через локальний браузер",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Швидко зменшуйте розмір ваших документів у форматі PDF за допомогою нашого передового онлайн-інструменту для стиснення PDF, забезпечуючи високу якість результатів при максимальній безпеці та ефективності.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Швидкий процес стиснення PDF",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Не потрібна зовнішня установка програмного забезпечення",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Висока безпека та конфіденційність – ваші файли обробляються локально у вашому браузері",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Швидке та ефективне стиснення",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Наш інструмент забезпечує швидке зменшення розміру PDF без втрати якості. Ми оптимізуємо ваші файли для швидкого обміну та мінімального використання пам'яті.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Збереження якості",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Наша передова технологія забезпечує збереження візуальної цілісності ваших PDF, зберігаючи чіткість та читабельність як зображень, так і тексту.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Локальна обробка для підвищеної безпеки",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Ми надаємо перевагу вашій конфіденційності. Весь процес стиснення виконується у вашому браузері, що гарантує, що ваші документи не залишають ваш пристрій.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Універсальна доступність",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Наш онлайн-інструмент для стиснення PDF доступний з будь-якого місця, що дозволяє вам зменшувати розмір файлів на будь-якому пристрої без необхідності встановлення додаткових програм.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Можливість роботи в автономному режимі",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Активуйте стиснення навіть у відсутності підключення до Інтернету. Завантажте сторінку наперед, і ви зможете продовжити стиснення файлів без потреби в Інтернет-підключенні.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Налаштування стиснення за замовчуванням",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Налаштуйте рівень стиснення згідно з вашими потребами, дозволяючи налаштувати збалансованість між зменшенням розміру файлу та якістю візуального відображення, що гарантує оптимальні результати для будь-якого типу документа.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Як легко стиснути PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Завантажте свій PDF до онлайн-інструменту для стиснення.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Інструмент швидко обробляє ваш файл, зменшуючи його розмір при збереженні якості.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Завантажте стиснений PDF на свій пристрій безпосередньо після стиснення.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Перевірте якість та розмір стисненого PDF, відкривши його у вашому улюбленому програмному забезпеченні для перегляду PDF."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF до HTML - Конвертувати файли PDF в HTML онлайн безкоштовно | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Конвертувати PDF в HTML онлайн безкоштовно. Зберегти макет та конвертувати зображення в HTML. Немає водяних знаків, обмежень на розмір файлу, завантажень або реєстрації.",
     "pdf_tools__sign_pdf__title": "Підписання PDF - Додавання цифрового підпису до PDF-файлів локально безкоштовно | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Легко додавайте цифрові підписи до PDF-файлів безкоштовно та безпечно на локальних пристроях, забезпечуючи максимальну конфіденційність та безпеку. Без водяного знаку, обмеження розміру файлу, завантаження або реєстрації."
+    "pdf_tools__sign_pdf__description": "Легко додавайте цифрові підписи до PDF-файлів безкоштовно та безпечно на локальних пристроях, забезпечуючи максимальну конфіденційність та безпеку. Без водяного знаку, обмеження розміру файлу, завантаження або реєстрації.",
+    "pdf_tools__compress_pdf__title": "Стиснути PDF – Зменшення розміру онлайн | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Стисніть файли PDF у локальному браузері, щоб забезпечити швидку та безпечну роботу. Без водяного знаку, обмеження розміру файлу, завантаження або реєстрації."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Вибрати все",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Домашня сторінка підпису PDF",
     "components__sign_pdf__icon__sign": "Підписати",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Введіть щось..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Низька",
+    "components__compress_pdf__main__compress_low_grade_description": "Максимальний розмір файлу, вища роздільна здатність",
+    "components__compress_pdf__main__compress_basic_grade_title": "Базова",
+    "components__compress_pdf__main__compress_basic_grade_description": "Середній розмір файлу, стандартна роздільна здатність",
+    "components__compress_pdf__main__compress_strong_grade_title": "Висока",
+    "components__compress_pdf__main__compress_strong_grade_description": "Малий розмір файлу, нижча роздільна здатність",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
+    "components__compress_pdf__main__compress_download": "Стиснути та завантажити",
+    "components__compress_pdf__main__choose_another_file": "Вибрати інший файл",
+    "components__compress_pdf__main__current_pdf_size": "Поточний розмір PDF",
+    "components__compress_pdf__main__original_pdf_size": "початковий розмір",
+    "components__compress_pdf__main__different_pdf_size": "Відмінно від попереднього {{DiFF_NUMBER}}% менше!",
+    "components__compress_pdf__main__compress_error": "Не вдалося стиснути, перевірте, чи файл PDF зашифрований або має нестандартний формат!"
   }
 }
