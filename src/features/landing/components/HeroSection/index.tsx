@@ -1,6 +1,7 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import React, { FC, useMemo } from 'react';
 
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
 import HeroVideoBox from '@/features/landing/components/HeroSection/HeroVideoBox';
@@ -17,9 +18,59 @@ interface IProps {
 const HeroSection: FC<IProps> = ({ propRef }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
+  const { query } = useRouter();
+
+  const { landingTitle, landingDescription } = query;
+
   const { t } = useTranslation();
 
   const { openVideoPopup } = useVideoPopupController();
+
+  const title = useMemo(() => {
+    if (landingTitle) {
+      const afterParsingTitle = decodeURIComponent(`${landingTitle}`);
+      return (
+        <>
+          {afterParsingTitle.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </>
+      );
+    } else {
+      return (
+        <>
+          {t('pages:home_page__hero_section__title__part1')}
+          <br />
+          {t('pages:home_page__hero_section__title__part2')}
+          <br />
+          {t('pages:home_page__hero_section__title__part3')}
+        </>
+      );
+    }
+  }, [landingTitle, t]);
+
+  const description = useMemo(() => {
+    if (landingDescription) {
+      const afterParsingDescription = decodeURIComponent(
+        `${landingDescription}`,
+      );
+      return (
+        <>
+          {afterParsingDescription.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </>
+      );
+    } else {
+      return <>{t('pages:home_page__hero_section__desc')}</>;
+    }
+  }, [landingDescription, t]);
 
   return (
     <Box
@@ -58,11 +109,7 @@ const HeroSection: FC<IProps> = ({ propRef }) => {
                 fontWeight={700}
                 mb={3}
               >
-                {t('pages:home_page__hero_section__title__part1')}
-                <br />
-                {t('pages:home_page__hero_section__title__part2')}
-                <br />
-                {t('pages:home_page__hero_section__title__part3')}
+                {title}
               </Typography>
               <Typography
                 variant='body2'
@@ -74,7 +121,7 @@ const HeroSection: FC<IProps> = ({ propRef }) => {
                 }}
                 color='text.secondary'
               >
-                {t('pages:home_page__hero_section__desc')}
+                {description}
               </Typography>
               <Stack
                 direction='row'
