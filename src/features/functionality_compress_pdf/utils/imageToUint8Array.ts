@@ -1,3 +1,5 @@
+import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array';
+
 // 将图片转换为 Uint8Array 数据
 export function imageToUint8Array({
   imageDocument,
@@ -38,16 +40,12 @@ export function imageToUint8Array({
         // 将画布内容转换为 Blob 数据
         canvas.toBlob(
           (blob) => {
-            const reader = new FileReader();
-            reader.onload = () => {
-              const arrayBuffer = reader.result as ArrayBuffer;
-              const uint8Array = new Uint8Array(arrayBuffer);
+            if (blob) {
+              const uint8Array = fileToUInt8Array(blob);
               resolve(uint8Array);
-            };
-            reader.onerror = () => {
+            } else {
               reject(new Error('Error reading blob data.'));
-            };
-            reader.readAsArrayBuffer(blob!);
+            }
           },
           type,
           quality,

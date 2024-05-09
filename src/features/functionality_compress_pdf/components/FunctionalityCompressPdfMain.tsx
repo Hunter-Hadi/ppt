@@ -315,7 +315,7 @@ const FunctionalityCompressPdfMain = () => {
                           color='text.primary'
                         >
                           {item.title}
-                        </Typography>{' '}
+                        </Typography>
                       </Box>
                       <Box>
                         <Typography
