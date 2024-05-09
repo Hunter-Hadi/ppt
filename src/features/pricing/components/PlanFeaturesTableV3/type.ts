@@ -7,11 +7,14 @@ export type IFeatureColumnType =
   | 'pro'
   | 'elite';
 
-export type IFeatureColumnsType = {
+export type IPlanFeatureColumnData = {
   key: IFeatureColumnType;
   columnType: IFeatureColumnType;
   sx: SxProps;
-}[];
+  meta?: {
+    compareMonthlyPrice?: boolean;
+  };
+};
 
 export interface IFeaturesLabelCellDataType {
   title?: string;

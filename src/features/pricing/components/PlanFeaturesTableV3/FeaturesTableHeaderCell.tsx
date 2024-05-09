@@ -16,8 +16,9 @@ import { CURRENT_PROMOTION_PATHNAME } from '@/features/promotion/constants';
 
 import PaymentTypeSwitch from '../PaymentTypeSwitch';
 import PlanPaymentInfo from '../PlanPaymentInfo';
-import { IFeatureColumnType } from './type';
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
 export interface IFeaturesTableHeaderCellProps {
+  columnData: IPlanFeatureColumnData;
   columnType: IFeatureColumnType;
 
   showPaymentSwitch?: boolean;
@@ -29,6 +30,7 @@ export interface IFeaturesTableHeaderCellProps {
 }
 
 const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
+  columnData,
   isPopular = false,
   showPaymentSwitch = false,
   columnType,
@@ -177,7 +179,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
     }
 
     return resultSx;
-  }, [isPopular, sx, columnType, isFirst, isLast, inFixed]);
+  }, [isPopular, sx, isFirst, isLast, inFixed]);
 
   const paymentPlanType = getCurrentPricingPaymentPlan(columnType);
 
@@ -195,7 +197,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
     } else {
       return 'yearly-sell';
     }
-  }, [paymentPlanType, paymentType]);
+  }, [paymentPlanType, paymentType, pathname, pricingPlanCategory]);
 
   if (columnType === 'features') {
     return (
@@ -255,6 +257,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
       {renderSaveFlag(getCurrentPricingPaymentPlan(columnType), isPopular)}
 
       <PlanPaymentInfo
+        compareMonthlyPrice={columnData.meta?.compareMonthlyPrice}
         isPopular={isPopular}
         type={paymentPlanType}
         showDesc

@@ -4,12 +4,12 @@ import React, { FC } from 'react';
 import { PLAN_FEATURES_V3_DATA_ROWS } from '@/features/pricing/constant/features_v3';
 
 import FeaturesTableContentCell from './FeaturesTableContentCell';
-import { IFeatureColumnsType, IFeatureColumnType } from './type';
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
 
 interface IProps {
   popularPlan?: IFeatureColumnType;
   needToHiddenPlan?: IFeatureColumnType[];
-  featureTableColumns: IFeatureColumnsType;
+  featureTableColumns: IPlanFeatureColumnData[];
 }
 
 const FeaturesTableContent: FC<IProps> = ({

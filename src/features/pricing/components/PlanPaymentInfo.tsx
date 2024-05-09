@@ -7,88 +7,53 @@ import { PLAN_PRICE_MAP } from '@/features/pricing/constant';
 import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
 import { truncateToDecimalPlaces } from '@/utils/dataHelper/numberHelper';
 
+import { transformRenderTypeToPlanType } from '../utils';
 import PlanProductivityValue from './PlanProductivityValue';
 
 interface IProps {
   type?: RENDER_PLAN_TYPE;
   showDesc?: boolean;
   sx?: SxProps;
-  size?: 'normal' | 'mini';
-  variant?: 'normal' | 'mini';
   isPopular?: boolean;
+  compareMonthlyPrice?: boolean;
 }
-
-const PlanProductivity = {
-  free: 1,
-  pro: 3,
-  elite: 5,
-  pro_yearly: 3,
-  elite_yearly: 5,
-};
-
-const fontSxMap = {
-  normal: {
-    title: {
-      fontSize: 20,
-      fontWeight: 700,
-      lineHeight: 1.2,
-    },
-    price: {
-      fontSize: 48,
-      fontWeight: 900,
-      lineHeight: 1.2,
-    },
-    paymentInfo: {
-      fontSize: 16,
-      fontWeight: 400,
-      lineHeight: 1.5,
-    },
-    desc: {
-      fontSize: 20,
-      fontWeight: 400,
-      lineHeight: 1.5,
-    },
-  },
-  mini: {
-    title: {
-      fontSize: 16,
-      fontWeight: 600,
-      lineHeight: 1.2,
-    },
-    price: {
-      fontSize: 32,
-      fontWeight: 700,
-      lineHeight: 1.2,
-    },
-    paymentInfo: {
-      fontSize: 14,
-      fontWeight: 400,
-      lineHeight: 1.35,
-    },
-    desc: {
-      fontSize: 16,
-      fontWeight: 400,
-      lineHeight: 1.5,
-    },
-  },
-};
 
 const PlanPaymentInfo: FC<IProps> = (props) => {
   const { t } = useTranslation();
-  const {
-    type = 'free',
-    sx,
-    showDesc,
-    size = 'normal',
-    variant = 'normal',
-    isPopular,
-  } = props;
+  const { type = 'free', sx, showDesc, isPopular, compareMonthlyPrice } = props;
 
   const isTeamPlan = ['basic_team', 'pro_team', 'elite_team'].includes(type);
 
-  // const paymentType = useRecoilValue(PricingPaymentTypeAtom);
-
-  const fontSx = useMemo(() => fontSxMap[size], [size]);
+  const fontSx = useMemo(
+    () => ({
+      title: {
+        fontSize: 20,
+        fontWeight: 700,
+        lineHeight: 1.2,
+      },
+      compareMonthlyPrice: {
+        fontSize: 24,
+        fontWeight: 900,
+        lineHeight: 1.4,
+      },
+      price: {
+        fontSize: 48,
+        fontWeight: 900,
+        lineHeight: 1.2,
+      },
+      paymentInfo: {
+        fontSize: 16,
+        fontWeight: 400,
+        lineHeight: 1.5,
+      },
+      desc: {
+        fontSize: 20,
+        fontWeight: 400,
+        lineHeight: 1.5,
+      },
+    }),
+    [],
+  );
 
   const title = useMemo(() => {
     if (type !== 'free') {
@@ -106,7 +71,21 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
 
       if (isYearly) {
         return (
-          <Stack direction={'row'} alignItems='center' spacing={1}>
+          <Stack direction={'row'} alignItems='center' spacing={0.5}>
+            {compareMonthlyPrice && (
+              <Typography
+                variant='custom'
+                component='p'
+                sx={{
+                  ...fontSx.compareMonthlyPrice,
+                  color: '#9a989e',
+                  textDecorationLine: 'line-through',
+                }}
+              >
+                $
+                {PLAN_PRICE_MAP[transformRenderTypeToPlanType(type, 'monthly')]}
+              </Typography>
+            )}
             <Typography variant='custom' component='p' sx={fontSx.price}>
               ${truncateToDecimalPlaces(PLAN_PRICE_MAP[type] / 12, 2)}
             </Typography>
@@ -118,7 +97,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
         );
       } else {
         return (
-          <Stack direction={'row'} alignItems='center' spacing={1}>
+          <Stack direction={'row'} alignItems='center' spacing={0.5}>
             <Typography variant='custom' component='p' sx={fontSx.price}>
               ${PLAN_PRICE_MAP[type]}
             </Typography>
@@ -156,27 +135,6 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
     // free
     return t('modules:plan_payment_info__free_desc');
   }, [type, t]);
-
-  if (variant === 'mini') {
-    return (
-      <Stack spacing={1} sx={sx}>
-        <Typography
-          variant='custom'
-          sx={{
-            ...fontSx.title,
-            color: isPopular ? 'primary.main' : 'text.primary',
-          }}
-        >
-          {title}
-        </Typography>
-        {showDesc && (
-          <Typography variant='custom' sx={fontSx.desc}>
-            {desc}
-          </Typography>
-        )}
-      </Stack>
-    );
-  }
 
   return (
     <Stack spacing={1} sx={sx}>

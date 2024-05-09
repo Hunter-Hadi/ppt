@@ -7,7 +7,7 @@ import { AppHeaderHeightState } from '@/store';
 import PaymentTypeSwitch from '../PaymentTypeSwitch';
 import FeaturesTableContent from './FeaturesTableContent';
 import FeaturesTableHeader from './FeaturesTableHeader';
-import { IFeatureColumnsType, IFeatureColumnType } from './type';
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
 
 export interface IPlanFeaturesTableProps {
   noFixedHeader?: boolean;
@@ -42,7 +42,7 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
 
   const appHeaderHeight = useRecoilValue(AppHeaderHeightState);
 
-  const featureTableColumns = useMemo<IFeatureColumnsType>(() => {
+  const featureTableColumns = useMemo<IPlanFeatureColumnData[]>(() => {
     const columnType: IFeatureColumnType[] = [
       'features',
       'elite',
@@ -56,6 +56,23 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
 
     // features 列的宽度比例
     const featuresColumnWidthRatio = 0.28;
+    // 不同 column type 的 meta 信息
+    const columnMetaMap: Record<
+      IFeatureColumnType,
+      IPlanFeatureColumnData['meta']
+    > = {
+      features: {},
+      basic: {
+        compareMonthlyPrice: true,
+      },
+      pro: {
+        compareMonthlyPrice: true,
+      },
+      elite: {
+        compareMonthlyPrice: true,
+      },
+      free: {},
+    };
 
     return filteredColumnType.map((type) => {
       const width =
@@ -66,9 +83,11 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
                 (filteredColumnType.length - 1)) *
                 100,
             )}%`;
+
       return {
         key: type,
         columnType: type,
+        meta: columnMetaMap[type],
         sx: {
           width: {
             // TODO: refine 适配不同屏幕宽度

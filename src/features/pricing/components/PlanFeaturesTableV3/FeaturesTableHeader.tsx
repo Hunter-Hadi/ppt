@@ -2,9 +2,9 @@ import { Stack } from '@mui/material';
 import React, { FC } from 'react';
 
 import FeaturesTableHeaderCell from './FeaturesTableHeaderCell';
-import { IFeatureColumnsType, IFeatureColumnType } from './type';
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
 interface IProps {
-  featureTableColumns: IFeatureColumnsType;
+  featureTableColumns: IPlanFeatureColumnData[];
   popularPlan?: IFeatureColumnType;
   inFixed?: boolean;
   showPaymentSwitch?: boolean;
@@ -29,6 +29,7 @@ const FeaturesTableHeader: FC<IProps> = ({
         const isPopular = popularPlan === columnData.columnType;
         return (
           <FeaturesTableHeaderCell
+            columnData={columnData}
             key={`features-table-header-cell-${columnData.key}`}
             columnType={columnData.columnType}
             isFirst={isFirst}
