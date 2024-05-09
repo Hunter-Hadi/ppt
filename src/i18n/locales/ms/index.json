@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Sesuaikan saiz dan kedudukan tandatangan mengikut keperluan.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klik untuk muat turun PDF yang telah ditandatangani anda sekarang, semuanya sudah siap dan selamat.",
     "team_plan__title__description1": "Berikan pasukan anda alat produktiviti AI yang paling canggih.",
-    "team_plan__title__description2": "Rancangan pasukan kami direka untuk kumpulan tiga orang atau lebih."
+    "team_plan__title__description2": "Rancangan pasukan kami direka untuk kumpulan tiga orang atau lebih.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Kompres PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Kurangkan saiz PDF dengan memampatkan teks dan imej yang terbenam melalui pelayar tempatan",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Kurangkan dengan cepat saiz dokumen PDF anda dengan alat Kompresi PDF dalam talian kami yang terkini, memastikan hasil berkualiti tinggi dengan keselamatan dan kecekapan maksimum.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Proses pemampatan PDF yang pantas",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Tiada pemasangan perisian luaran diperlukan",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Tingkat keselamatan dan kerahsiaan yang tinggi - fail anda diproses secara tempatan dalam pelayar anda",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Pemampatan Pantas dan Cekap",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Alami pengurangan saiz PDF yang pantas tanpa mengorbankan kualiti. Alat kami mengoptimumkan fail anda untuk perkongsian yang lebih cepat dan penggunaan storan yang minima.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Mengekalkan Kualiti",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Teknologi terkini kami memastikan integriti visual PDF anda dikekalkan, mengekalkan kejelasan dan kebolehbacaan imej dan teks.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Pemprosesan Tempatan untuk Keselamatan Lebih Baik",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Kami memberi keutamaan kepada privasi anda. Seluruh proses pemampatan dilaksanakan dalam pelayar anda, memastikan dokumen anda tidak meninggalkan peranti anda.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Aksesibiliti Universal",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Boleh diakses dari mana-mana sahaja, alat Kompresi PDF dalam talian kami membolehkan anda mengurangkan saiz fail pada sebarang peranti tanpa memerlukan sebarang pemasangan.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Kemampuan Luring",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktifkan pemampatan walaupun anda sedang luring. Muat pra-laman tersebut, dan anda boleh meneruskan pemampatan fail tanpa memerlukan sambungan internet.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Tetapan Pemampatan Tersuai",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Sesuaikan tahap pemampatan mengikut keperluan anda, membolehkan penyesuaian khusus untuk menyeimbangkan antara pengurangan saiz fail dan kualiti visual, memastikan hasil yang optimum untuk setiap jenis dokumen.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cara Mudah Memampatkan PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Muat naik PDF anda ke alat pemampatan dalam talian.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Alat tersebut dengan cepat memproses fail anda, mengurangkan saiznya sambil mengekalkan kualiti.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Muat turun PDF yang telah dipampatkan ke peranti anda segera selepas pemampatan.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Semak kualiti dan saiz PDF yang telah dipampatkan dengan membukanya di pembaca PDF pilihan anda."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF ke HTML - Tukar Fail PDF kepada HTML Dalam Talian secara Percuma | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Tukar PDF kepada HTML dalam talian secara percuma. Mengekalkan layout dan menukar imej kepada HTML. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
     "pdf_tools__sign_pdf__title": "Menandatangani PDF - Menambah Tandatangan Digital ke Fail PDF Tempatan secara Percuma | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Tambah tandatangan digital ke fail PDF secara percuma dan selamat pada peranti tempatan, memastikan privasi dan keselamatan maksimum. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan."
+    "pdf_tools__sign_pdf__description": "Tambah tandatangan digital ke fail PDF secara percuma dan selamat pada peranti tempatan, memastikan privasi dan keselamatan maksimum. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan.",
+    "pdf_tools__compress_pdf__title": "Kompres PDF - Pengurangan Saiz PDF Dalam Talian | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Kompres fail PDF dalam pelayar tempatan untuk memastikan prestasi yang pantas dan selamat. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Laman Utama Tandatangan PDF",
     "components__sign_pdf__icon__sign": "Tandatangan",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Taip sesuatu..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Rendah",
+    "components__compress_pdf__main__compress_low_grade_description": "Saiz fail maksimum, Resolusi lebih tinggi",
+    "components__compress_pdf__main__compress_basic_grade_title": "Asas",
+    "components__compress_pdf__main__compress_basic_grade_description": "Saiz fail sederhana, resolusi standard",
+    "components__compress_pdf__main__compress_strong_grade_title": "Kuat",
+    "components__compress_pdf__main__compress_strong_grade_description": "Saiz fail kecil, resolusi lebih rendah",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
+    "components__compress_pdf__main__compress_download": "Mampatkan & Muat Turun",
+    "components__compress_pdf__main__choose_another_file": "Pilih fail lain",
+    "components__compress_pdf__main__current_pdf_size": "Saiz semasa PDF",
+    "components__compress_pdf__main__original_pdf_size": "saiz asal",
+    "components__compress_pdf__main__different_pdf_size": "Berbeza daripada sebelumnya {{DiFF_NUMBER}}% lebih kecil!",
+    "components__compress_pdf__main__compress_error": "Pemampatan gagal, sila semak jika fail PDF dienkripsi atau tidak normal!"
   }
 }

@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_title": "કેવી રીતે PDF પર હસ્તક્ષેપ કરવું:",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF સાઇનરમાં તમારો PDF ખોલો.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "તમારી સહી ઉમેરો અથવા અપલોડ કરો.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "આવશ્યક હોય તેવી સહીની કદ અને સ્થાન સુધારો."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "આવશ્યક હોય તેવી સહીની કદ અને સ્થાન સુધારો.",
+    "tools__index_page__constant_obj__compress_pdf__title": "પીડીએફ કોમ્પ્રેસ કરો",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "લોકલ બ્રાઉઝર દ્વારા ટેક્સ્ટ અને એમ્બેડેડ છબીઓને કોમ્પ્રેસ કરીને પીડીએફ કદ ઘટાડો",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "આપના પીડીએફ દસ્તાવેજોની કદને તૂરંત ઘટાડો આપના નવીનતમ ઑનલાઇન પીડીએફ કોમ્પ્રેશન સાધનથી, જે ઉચ્ચ ગુણવત્તાની પરિણામો, મહત્તમ સુરક્ષા અને કુશળતાથી મૂકવે છે.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "ઝડપી પીડીએફ કોમ્પ્રેશન પ્રક્રિયા",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "બાહ્ય સોફ્ટવેર સ્થાપિત કરવાની જરૂર નથી",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "ખૂબ સુરક્ષિત અને ગોપનીય - આપના ફાઈલો આપના બ્રાઉઝરમાં સ્થાનિક રીતે પ્રક્રિયા થાય છે",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "ઝડપી અને કુશળ કોમ્પ્રેશન",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "ગુણવત્તા પર સંકોચન કરીને પીડીએફ કદને ઝડપી ઘટાડો. અમારી સાધનો આપના ફાઈલોને ઝડપી શેર કરવા અને ઓછી સ્ટોરેજ ઉપયોગ કરવા માટે ઓપટિમાઇઝ કરે છે.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "ગુણવત્તા બનાવો",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "અમારી આધુનિક ટેકનોલોજી ખાસ કરીને આપના પીડીએફની દ્રષ્ટિશક્ષતાને ઉજવણી કરે છે, છબીઓ અને ટેક્સ્ટની સ્પષ્ટતા અને વાંચયોગ્યતાને રાખે છે.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "વધારે સુરક્ષા માટે સ્થાનિક પ્રક્રિયા",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "અમે આપની ગોપનીયતાને પ્રાથમિકતા આપીએ છીએ. સંકોચન પ્રક્રિયા આપના બ્રાઉઝરમાં થાય છે, જે આપના દસ્તાવેજોને આપના ડિવાઇસમાં છોડતા નથી.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "સર્વસાધારણ ઍક્સેસિબિલિટી",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "ક્યાંથી પણ ઍક્સેસ કરી શકાય છે, અમારી ઑનલાઇન પીડીએફ કોમ્પ્રેશન સાધન આપને કોઈ સ્થાપનો જરૂર ન હોય તેવી ક્ષમતાથી ફાઈલ કદ ઘટાડી શકો છો.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "ઑફલાઇન ક્ષમતા",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "આપ ઑફલાઇન હોવાની સમયગાળો પણ સંકોચન સક્ષમ બનાવો. પેજ પ્રીલોડ કરો અને તમે ઇન્ટરનેટ કનેક્શન જરૂર ન હોવાથી ફાઈલ સંકોચન સાથે આગળ વધી શકો છો.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "કસ્ટમ સંકોચન સેટિંગ્સ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "સંકોચન સ્તરને આપની વિશેષ જરૂરિયાતોને અનુસાર મુદ્રણ કરો, ફાઈલ કદ ઘટાડવા અને દૃષ્ટિશ્રુતિમાં ગુણવત્તાને સંતુલિત કરવા માટે કસ્ટમ સુયોજનોને મંજૂરી આપો, જે દસ્તાવેજનો પ્રકાર માટે ઉત્તમ પરિણામો આપે છે.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "કેવી રીતે આસાનીથી પીડીએફ સંકોચવું:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "આપની પીડીએફને ઑનલાઇન સંકોચન સાધનમાં અપલોડ કરો.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "સાધન તત્પરથી આપની ફાઈલને પ્રક્રિયા કરીને તેની કદને ઘટાડી રાખો, જ્યાંથી ગુણવત્તા બની રહી શકે.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "સંકોચિત પીડીએફને તકમાશા કરો અને તમારા પસંદગીના પીડીએફ રીડર પર તેની ગુણવત્તા અને કદને ચેક કરો.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "આપના પસંદગીના પીડીએફ રીડર પર તેની ગુણવત્તા અને કદને ચેક કરીને સંકોચિત પીડીએફને તકમાશા કરો."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF થી HTML માં - મફત માટે પીડીએફ ફાઇલો ને HTML માં રૂપાંતરિત કરો | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "મફત માટે PDF ને HTML માં રૂપાંતરિત કરો. લેઆઉટ બનાવો અને છબીઓને HTML માં રૂપાંતરિત કરો. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
     "pdf_tools__sign_pdf__title": "પીડીએફ પર હસ્તક્ષેપ - મુક્ત માટે સ્થાનિક રીતે ડિજિટલ સહી ઉમેરવી | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "મુકાબલો અને સુરક્ષા માટે લોકલ ઉપકરણો પર મફત અને સુરક્ષિત પીડીએફ ફાઈલમાં ડિજિટલ હસ્તાક્ષરો ઉમેરો. કોઈ વોટરમાર્ક, ફાઈલ સાઇઝ મરીજ નથી, ડાઉનલોડ અથવા રજીસ્ટ્રેશન જરૂરી નથી."
+    "pdf_tools__sign_pdf__description": "મુકાબલો અને સુરક્ષા માટે લોકલ ઉપકરણો પર મફત અને સુરક્ષિત પીડીએફ ફાઈલમાં ડિજિટલ હસ્તાક્ષરો ઉમેરો. કોઈ વોટરમાર્ક, ફાઈલ સાઇઝ મરીજ નથી, ડાઉનલોડ અથવા રજીસ્ટ્રેશન જરૂરી નથી.",
+    "pdf_tools__compress_pdf__title": "પીડીએફ સંકોચવું - ઓનલાઇન પીડીએફ કદ ઘટાડવું | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "ઝડપી અને સુરક્ષિત પ્રદર્શન માટે લોકલ બ્રાઉઝરમાં પીડીએફ ફાઈલોને સંકોચવો. કોઈ વોટરમાર્ક, ફાઈલ કદ મર્યાદા, ડાઉનલોડ અથવા નોંધણીની જરૂર નથી."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF પર હસ્તક્ષેપ મુખપૃષ્ઠ",
     "components__sign_pdf__icon__sign": "હસ્તક્ષેપ",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "કંઈ લખો..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "ઓછી",
+    "components__compress_pdf__main__compress_low_grade_description": "મહત્તમ ફાઈલ કદ, ઉચ્ચ રેઝોલ્યૂશન",
+    "components__compress_pdf__main__compress_basic_grade_title": "મૂળભૂત",
+    "components__compress_pdf__main__compress_basic_grade_description": "મધ્યમ ફાઈલ કદ, માનક રેઝોલ્યૂશન",
+    "components__compress_pdf__main__compress_strong_grade_title": "મજબૂત",
+    "components__compress_pdf__main__compress_strong_grade_description": "નાની ફાઈલ કદ, નીચી રેઝોલ્યૂશન",
+    "components__compress_pdf__main__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઈલ પ્રકાર અપલોડ કરો",
+    "components__compress_pdf__main__compress_download": "સંકોચવું અને ડાઉનલોડ કરો",
+    "components__compress_pdf__main__choose_another_file": "બીજી ફાઈલ પસંદ કરો",
+    "components__compress_pdf__main__current_pdf_size": "પીડીએફ વર્તમાન કદ",
+    "components__compress_pdf__main__original_pdf_size": "ઓરિજિનલ કદ",
+    "components__compress_pdf__main__different_pdf_size": "પહેલાથી થોડાં થયેલ {{DiFF_NUMBER}}% નાનું!",
+    "components__compress_pdf__main__compress_error": "સંકોચન અસફળ, કૃપા કરીને ચેક કરો કે પીડીએફ ફાઈલ એન્ક્રિપ્ટ છે કે અસામાન્ય છે!"
   }
 }

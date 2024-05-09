@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Reguleerige allkirja suurust ja asendit vastavalt vajadusele.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Klõpsake allalaadimiseks oma allkirjastatud PDF-i, kõik on valmis ja turvaline.",
     "team_plan__title__description1": "Andke oma meeskonnale kõige arenenumad AI tootlikkuse tööriistad.",
-    "team_plan__title__description2": "Meie meeskonna plaan on mõeldud kolme või enama liikmega gruppidele."
+    "team_plan__title__description2": "Meie meeskonna plaan on mõeldud kolme või enama liikmega gruppidele.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Vähenda PDF-i",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Vähendage PDF-i suurust teksti ja manustatud piltide kokkusurumise teel kohaliku brauseri abil",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Vähendage kiiresti oma PDF-dokumentide suurust meie tipptasemel veebipõhise PDF-i kokkusurumise tööriistaga, tagades kõrgekvaliteedilised tulemused maksimaalse turvalisuse ja tõhususega.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Kiire PDF-i kokkusurumise protsess",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Välise tarkvara installimine pole vajalik",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Kõrgelt turvaline ja konfidentsiaalne – teie failid töödeldakse kohapeal teie brauseris",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Kiire ja tõhus kokkusurumine",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Kogege kiiret PDF-i suuruse vähendamist, kompromiteerimata kvaliteeti. Meie tööriist optimeerib teie failid kiiremaks jagamiseks ja minimaalseks salvestamiseks.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Säilitage kvaliteet",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Meie edasijõudnud tehnoloogia tagab, et teie PDF-ide visuaalne terviklikkus säilib, säilitades nii piltide kui ka teksti selguse ja loetavuse.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Kohalik töötlemine parema turvalisuse tagamiseks",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Meie prioriteet on teie privaatsus. Kogu kokkusurumisprotsess viiakse läbi teie brauseris, tagades, et teie dokumendid ei lahkunud teie seadmest.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Universaalne ligipääsetavus",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Saadaval igalt poolt, meie veebipõhine PDF-i kokkusurumise tööriist võimaldab teil failide suurust vähendada mis tahes seadmel ilma installimist vajamata.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Võimalus töötada ilma internetiühenduseta",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Lubage kokkusurumine isegi siis, kui olete võrguühenduseta. Eellaadige leht ja saate faili kokkusurumist jätkata ilma internetiühenduseta.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Kohandatavad kokkusurumise seaded",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Kohandage kokkusurumise taset vastavalt oma konkreetsetele vajadustele, võimaldades kohandatud reguleerimisi faili suuruse vähendamise ja visuaalse kvaliteedi tasakaalu saavutamiseks, tagades optimaalsed tulemused igat tüüpi dokumentide jaoks.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kuidas hõlpsasti PDF-e kokku suruda:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Laadige üles oma PDF-i veebipõhisesse kokkusurumise tööriista.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Tööriist töötleb teie faili kiiresti, vähendades selle suurust, säilitades samal ajal kvaliteedi.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Allalaadige kohe pärast kokkusurumist kokkusurutud PDF oma seadmesse.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Avage eelistatud PDF-lugejas kokkusurutud PDF-i kvaliteet ja suurus kontrollimiseks."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klõpsa vihjed",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF HTML-iks - Teisenda PDF-failid HTML-iks veebis tasuta | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Teisenda PDF HTML-iks veebis tasuta. Säilita paigutus ja teisenda pildid HTML-iks. Pole vesimärke, faili suuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__sign_pdf__title": "PDF-i allkirjastamine - digitaalse allkirja lisamine PDF-failidele tasuta kohapeal | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Lisage lihtsalt digitaalsed allkirjad PDF-failidele tasuta ja turvaliselt kohalikel seadmetel, tagades maksimaalse privaatsuse ja turvalisuse. Vesimärki, faili suuruse piirangut, allalaadimist ega registreerimist pole vaja."
+    "pdf_tools__sign_pdf__description": "Lisage lihtsalt digitaalsed allkirjad PDF-failidele tasuta ja turvaliselt kohalikel seadmetel, tagades maksimaalse privaatsuse ja turvalisuse. Vesimärki, faili suuruse piirangut, allalaadimist ega registreerimist pole vaja.",
+    "pdf_tools__compress_pdf__title": "Vähenda PDF-i – Veebipõhine PDF-i suuruse vähendamine | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Vähendage PDF-faile kohalikus brauseris, et tagada kiire ja turvaline jõudlus. Pole vesimärki, faili suuruse piirangut, allalaadimist ega registreerimist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allkirjasta PDF koduleht",
     "components__sign_pdf__icon__sign": "Allkirjasta",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Kirjuta midagi..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Madal",
+    "components__compress_pdf__main__compress_low_grade_description": "Maksimaalne faili suurus, kõrgem resolutsioon",
+    "components__compress_pdf__main__compress_basic_grade_title": "Põhiline",
+    "components__compress_pdf__main__compress_basic_grade_description": "Keskmine faili suurus, standardresolutsioon",
+    "components__compress_pdf__main__compress_strong_grade_title": "Tugev",
+    "components__compress_pdf__main__compress_strong_grade_description": "Väike faili suurus, madalam resolutsioon",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
+    "components__compress_pdf__main__compress_download": "Suru kokku ja laadi alla",
+    "components__compress_pdf__main__choose_another_file": "Vali teine fail",
+    "components__compress_pdf__main__current_pdf_size": "PDF-i praegune suurus",
+    "components__compress_pdf__main__original_pdf_size": "algne suurus",
+    "components__compress_pdf__main__different_pdf_size": "Erineb eelmisest {{DiFF_NUMBER}}% väiksem!",
+    "components__compress_pdf__main__compress_error": "Kokkusurumine ebaõnnestus, palun kontrollige, kas PDF-fail on krüpteeritud või ebanormaalne!"
   }
 }

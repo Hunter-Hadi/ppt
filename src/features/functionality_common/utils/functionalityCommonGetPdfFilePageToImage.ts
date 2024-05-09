@@ -48,7 +48,7 @@ export const generatePdfPageToImage = async (
  * 查找Pdf内的图像
  * @param page - pdf的页面数据 - 通过pdfDocument.getPage(pageNum)获得
  */
-const findPdfToImage = async (page: any) => {
+export const findPdfToImage = async (page: any) => {
   const ops = await page.getOperatorList();
   const list = await new Promise<{ url: string; definedIndex: number }[]>(
     (resolve) => {

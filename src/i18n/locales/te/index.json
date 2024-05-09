@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_title": "ఒక PDF ఆన్‌లైన్‌లో సైన్ చేయడం ఎలా:",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF సైన్ చేయించడానికి మీ PDFని తెరవండి.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "మీ సంతకాన్ని గీయండి లేదా అప్‌లోడ్ చేయండి.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "సంతకాన్ని పరిమాణంగా మరియు స్థానంగా సరిపోసుకోండి."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "సంతకాన్ని పరిమాణంగా మరియు స్థానంగా సరిపోసుకోండి.",
+    "tools__index_page__constant_obj__compress_pdf__title": "పిడిఎఫ్ ని తగ్గించు",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "లోకల్ బ్రౌజర్ ద్వారా టెక్స్ట్ మరియు అంకెడ్ చిత్రాలను తగ్గించి, పిడిఎఫ్ పరిమాణాన్ని తక్కువ చేస్తుంది",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "మా తాజాగా అన్లైన్ పిడిఎఫ్ తగ్గింపు ఉపకరణంతో మీ పిడిఎఫ్ పత్రాల పరిమాణాన్ని తక్కువ చేసేందుకు, ఉన్నత-గుణమైన ఫలితాలను మరియు గడువుగా భద్రతా మరియు పనిచేయబడే పరికరాన్ని ఖచ్చితంగా అందిస్తుంది.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "త్వరిత పిడిఎఫ్ తగ్గింపు ప్రక్రియ",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "బాహ్య సాఫ్ట్‌వేర్ ఇన్‌స్టాలేషన్ అవసరం లేదు",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "అత్యుత్తమ భద్రతా మరియు గోప్యత – మీ ఫైళ్లు మీ బ్రౌజర్‌లో స్థానికంగా ప్రాసెస్ చేయబడుతుంది",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "త్వరిత మరియు కౌశల్యమైన తగ్గింపు",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "గుణములను తీసుకోకుండా పిడిఎఫ్ పరిమాణాన్ని తక్కువ చేసేందుకు త్వరగా తగ్గించండి. మా పరికరం మీ ఫైళ్లను త్వరగా షేరింగ్ చేయడానికి మరియు కనీసం స్టోరేజ్ ఉపయోగం చేయడానికి మీ ఫైళ్లను అప్టిమైజ్ చేస్తుంది.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "గుణమును పొందండి",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "మా ఆధ్విత్యం మీ పిడిఎఫ్‌ల దృశ్య పూర్తిగా ఉండటానికి, చిత్రాలు మరియు టెక్స్ట్ యొక్క స్పష్టత మరియు చదివిన స్పష్టతను ఉంచడానికి మా అభినందనీయ సాధనం ఖచ్చితంగా ఉంది.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "మరియున్నటి భద్రతకు లోకల్ ప్రాసెసింగ్",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "మేము మీ గోప్యతను ప్రాధాన్యత ఇస్తాము. తగ్గింపు ప్రక్రియ మీ బ్రౌజర్‌లో నిర్వహించబడుతుంది, మీ పత్రాలు మీ పరికరం నుండి వెళ్ళవద్దు.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "సార్వత్రిక ప్రాప్యత",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "ఎక్కువగా ఎక్కువ అవసరం లేదు, మా ఆన్‌లైన్ పిడిఎఫ్ తగ్గింపు పరికరం మీరు ఏ పరికరం ఇన్‌స్టాల్ చేయకుండా ఎక్కువగా ఎక్కువ అవసరం లేదు.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "ఆఫ్‌లైన్ సామర్థ్యం",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "మీరు ఆఫ్‌లైన్ ఉన్నప్పుడు కూడా తగ్గించడానికి అనుమతిస్తుంది. పేజీని ప్రీలోడ్ చేసి, మీరు ఇంటర్నెట్ కనెక్షన్ అవసరం లేకుండా ఫైళ్ తగ్గించడానికి ముందుగా ప్రారంభించవచ్చు.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "కస్టమ్ తగ్గింపు సెట్టింగ్లు",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "మీ నిర్దిష్ట అవసరాలకు తగ్గింపు స్థాయిని అనుకూలంగా చేయడానికి, తగ్గింపు స్థాయి తగ్గింపు మరియు విజువల్ గుణమైన నిపుణత మధ్య సంఘటన ఉంచడానికి అనుమతిస్తుంది, ప్రతి రకముల పత్రంకి అనుకూల ఫలితాలను ఖచ్చితంగా అనుమతిస్తుంది.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "పిడిఎఫ్‌లను సులభంగా తగ్గించడానికి ఎలా:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "మీ పిడిఎఫ్‌ని ఆన్‌లైన్ తగ్గించడానికి అప్‌లోడ్ చేయండి.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "పరికరం మీ ఫైళ్‌ని త్వరగా ప్రాసెస్ చేసి, అదనపు గురించి మీ ఫైళ్‌ని తగ్గించండి.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "తగ్గించబడిన పిడిఎఫ్‌ని మీ పరికరంలో ఉన్న తక్కువ సమయంలో డౌన్‌లోడ్ చేయండి.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "మీ ప్రియమైన పిడిఎఫ్ రీడర్‌లో అదనపు పిడిఎఫ్‌ని తెరవడానికి తగ్గించిన పిడిఎఫ్ యొక్క గుణమును మరియు పరిమాణాన్ని తనిఖీ చేయండి."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF ను HTMLకు - PDFను ఉచితంగా HTMLకు మార్చండి | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "ఉచితంగా PDFను HTMLకు మార్చండి. లేఅవుట్ నిర్వహణనీయతను మరియు చిత్రాలను HTMLకు మార్చండి. ఏ వాటర్‌మార్క్లు, ఫైల్ పరిమితులు, డౌన్‌లోడ్‌లు లేదా సైన్‌అప్లోడ్‌లు అవసరం లేవు.",
     "pdf_tools__sign_pdf__title": "పత్రాలకు సైన్ చేయడం - ఉచితంగా పత్రాలకు డిజిటల్ సైన్ చేరుకోండి | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "ఉచితంగా మరియు భద్రంగా ప్రాంతీయ పరికరాలలో PDF ఫైళ్లకు డిజిటల్ సైన్ చేరుకోండి, మీరు అత్యావశ్యకంగా ప్రైవసీ మరియు భద్రతను ఖచ్చితం చేసేందుకు లోకల్ ఉపకరణాలలో ఉచితంగా సైన్ చేయండి. వాటర్‌మార్క్, ఫైల్ పరిమితి, డౌన్‌లోడ్ లేదా నమోదు అవసరం లేనివి కాదు."
+    "pdf_tools__sign_pdf__description": "ఉచితంగా మరియు భద్రంగా ప్రాంతీయ పరికరాలలో PDF ఫైళ్లకు డిజిటల్ సైన్ చేరుకోండి, మీరు అత్యావశ్యకంగా ప్రైవసీ మరియు భద్రతను ఖచ్చితం చేసేందుకు లోకల్ ఉపకరణాలలో ఉచితంగా సైన్ చేయండి. వాటర్‌మార్క్, ఫైల్ పరిమితి, డౌన్‌లోడ్ లేదా నమోదు అవసరం లేనివి కాదు.",
+    "pdf_tools__compress_pdf__title": "పిడిఎఫ్ తగ్గించు – ఆన్‌లైన్ పిడిఎఫ్ పరిమాణం తగ్గించినపుడు | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "త్వరిత మరియు భద్రతాన్ని ఖచ్చితంగా నిర్వహించడానికి లోకల్ బ్రౌజర్‌లో పిడిఎఫ్ ఫైళ్లను తగ్గించండి. వాటర్‌మార్క్, ఫైల్ పరిమితి, డౌన్‌లోడ్ లేదా నమోదు అవసరం లేదు."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "అన్నింటినీ ఎంచుకోండి",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF సైన్ హోమ్‌పేజీ",
     "components__sign_pdf__icon__sign": "సైన్",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "ఏదైనా టైప్ చేయండి..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "తక్కువ",
+    "components__compress_pdf__main__compress_low_grade_description": "గరిష్ఠ ఫైల్ పరిమాణం, అధిక రిజల్యూషన్",
+    "components__compress_pdf__main__compress_basic_grade_title": "బేసిక్",
+    "components__compress_pdf__main__compress_basic_grade_description": "మధ్యస్థ ఫైల్ పరిమాణం, స్టాండర్డ్ రిజల్యూషన్",
+    "components__compress_pdf__main__compress_strong_grade_title": "బలం",
+    "components__compress_pdf__main__compress_strong_grade_description": "చిన్న ఫైల్ పరిమాణం, తక్కువ రిజల్యూషన్",
+    "components__compress_pdf__main__unsupported_file_type_tip": "దయచేసి ప్రస్తుతించిన పిడిఎఫ్ ఫైల్ రకంను అప్‌లోడ్ చేయండి",
+    "components__compress_pdf__main__compress_download": "తగ్గించి & డౌన్‌లోడ్ చేయండి",
+    "components__compress_pdf__main__choose_another_file": "మరొక ఫైల్ ఎంచుకోండి",
+    "components__compress_pdf__main__current_pdf_size": "పిడిఎఫ్ ప్రస్తుత పరిమాణం",
+    "components__compress_pdf__main__original_pdf_size": "ఆదివారమైన పరిమాణం",
+    "components__compress_pdf__main__different_pdf_size": "ముందుగా ఉన్నదికి కనీసం {{DiFF_NUMBER}}% తక్కువ!",
+    "components__compress_pdf__main__compress_error": "తగ్గించడం విఫలమైంది, దయచేసి పిడిఎఫ్ ఫైల్ ఎన్‌క్రిప్టెడ్ లేదా అసాధారణగా ఉండదు!"
   }
 }

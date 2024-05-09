@@ -9,6 +9,7 @@
     "jpeg-to-pdf": "jpeg-to-pdf",
     "heic-to-pdf": "heic-to-pdf",
     "pdf-to-html": "pdf-to-html",
-    "sign-pdf": "sign-pdf"
+    "sign-pdf": "sign-pdf",
+    "compress-pdf": "compress-pdf"
   }
 }

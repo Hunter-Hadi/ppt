@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Állítsd be az aláírás méretét és pozícióját szükség szerint.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Kattintson a letöltéshez az aláírt PDF-re, minden készen áll és biztonságban van.",
     "team_plan__title__description1": "Adja csapatának a legfejlettebb AI termelékenységi eszközöket.",
-    "team_plan__title__description2": "Csapatunk terve három vagy több tagú csoportok számára készült."
+    "team_plan__title__description2": "Csapatunk terve három vagy több tagú csoportok számára készült.",
+    "tools__index_page__constant_obj__compress_pdf__title": "PDF tömörítése",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "A PDF méretének csökkentése a szöveg és beágyazott képek tömörítésével helyben a böngészőben",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Gyorsan csökkentse PDF dokumentumainak méretét a legmodernebb online PDF tömörítő eszközünkkel, amely biztosítja a magas minőséget maximális biztonság és hatékonyság mellett.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Gyors PDF tömörítési folyamat",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nincs szükség külső szoftver telepítésére",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Magas biztonság és bizalmas kezelés – a fájlok helyben vannak feldolgozva a böngészőben",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Gyors és hatékony tömörítés",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Tapasztalja meg a gyors PDF méretcsökkentést anélkül, hogy a minőségen kompromisszumot kellene kötnie. Az eszközünk optimalizálja a fájlokat gyorsabb megosztáshoz és minimális tárolási igényhez.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Minőség megőrzése",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Fejlett technológiánk biztosítja, hogy a PDF-ek vizuális integritása megmaradjon, megőrizve mind az képek, mind a szöveg tisztaságát és olvashatóságát.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Helyi feldolgozás a megnövelt biztonság érdekében",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Fontosnak tartjuk a magánéletét. Az egész tömörítési folyamat a böngészőjében történik, így a dokumentumai nem hagyják el az eszközét.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Egyetemes hozzáférhetőség",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Bárhol elérhető, online PDF tömörítő eszközünk lehetővé teszi a fájlok méretének csökkentését bármilyen eszközön, telepítés nélkül.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Offline képesség",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Engedélyezze a tömörítést akkor is, ha nincs internetkapcsolat. Töltse be az oldalt, és folytathatja a fájltömörítést internetkapcsolat nélkül.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Egyedi tömörítési beállítások",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Szabja testre a tömörítési szintet az egyedi igényei szerint, lehetővé téve testreszabott beállításokat a fájlméret csökkentése és a vizuális minőség közötti egyensúly megteremtéséhez, optimális eredményeket biztosítva minden típusú dokumentumhoz.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hogyan tömörítheti könnyedén a PDF-eket:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Töltse fel a PDF-et az online tömörítő eszközbe.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Az eszköz gyorsan feldolgozza a fájlt, méretét csökkentve, miközben a minőséget megőrzi.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Töltse le a tömörített PDF-et azonnal a készülékére a tömörítés után.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Ellenőrizze a tömörített PDF minőségét és méretét, amikor megnyitja azt a kívánt PDF olvasóban."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF to HTML - PDF fájlok ingyenes online átalakítása HTML-be | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "PDF ingyenes online átalakítása HTML-be. Diagramok és képek megtartása HTML formátumban. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztráció szükséges.",
     "pdf_tools__sign_pdf__title": "PDF aláírása - Digitális aláírás hozzáadása PDF fájlokhoz helyileg ingyen | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Egyszerűen adja hozzá a digitális aláírást PDF fájlokhoz ingyen és biztonságosan a helyi eszközökön, maximális adatvédelemmel és biztonsággal. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges."
+    "pdf_tools__sign_pdf__description": "Egyszerűen adja hozzá a digitális aláírást PDF fájlokhoz ingyen és biztonságosan a helyi eszközökön, maximális adatvédelemmel és biztonsággal. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges.",
+    "pdf_tools__compress_pdf__title": "PDF tömörítése – Online PDF méretcsökkentés | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Tömörítse a PDF fájlokat helyben a böngészőben, hogy gyors és biztonságos teljesítményt érjen el. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Aláírt PDF kezdőlap",
     "components__sign_pdf__icon__sign": "Aláírás",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Írjon be valamit..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Alacsony",
+    "components__compress_pdf__main__compress_low_grade_description": "Maximális fájlméret, magasabb felbontás",
+    "components__compress_pdf__main__compress_basic_grade_title": "Alap",
+    "components__compress_pdf__main__compress_basic_grade_description": "Közepes fájlméret, standard felbontás",
+    "components__compress_pdf__main__compress_strong_grade_title": "Erős",
+    "components__compress_pdf__main__compress_strong_grade_description": "Kis fájlméret, alacsonyabb felbontás",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Kérjük, töltsön fel a megadott PDF fájltípust",
+    "components__compress_pdf__main__compress_download": "Tömörítés és letöltés",
+    "components__compress_pdf__main__choose_another_file": "Válasszon másik fájlt",
+    "components__compress_pdf__main__current_pdf_size": "Aktuális PDF méret",
+    "components__compress_pdf__main__original_pdf_size": "eredeti méret",
+    "components__compress_pdf__main__different_pdf_size": "Különbözik az előzőtől {{DiFF_NUMBER}}%-kal kisebb!",
+    "components__compress_pdf__main__compress_error": "A tömörítés sikertelen, kérjük, ellenőrizze, hogy a PDF fájl titkosított vagy rendellenes-e!"
   }
 }

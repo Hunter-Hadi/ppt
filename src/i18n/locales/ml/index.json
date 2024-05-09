@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_title": "ഒരു PDF ഓൺലൈൻ സൈൻ ചെയ്യാൻ എങ്ങനെ:",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "PDF സൈനർലേക്ക് നിങ്ങളുടെ PDF തുറക്കുക.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "നിങ്ങളുടെ സൈനത്തർ ഡ്രോ അല്ലെങ്കിൽ അപ്ലോഡ് ചെയ്യുക.",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "സൈനത്തിന്റെ വലിപ്പം അവസ്ഥാനം നൽകുക, ആവശ്യമാനമാക്കുക."
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "സൈനത്തിന്റെ വലിപ്പം അവസ്ഥാനം നൽകുക, ആവശ്യമാനമാക്കുക.",
+    "tools__index_page__constant_obj__compress_pdf__title": "പിഡിഎഫ് കുറഞ്ഞതാക്കുക",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "സ്ഥാനിയ ബ്രൌസറിൽ ടെക്സ്റ്റും എംബെഡ്ഡുചെയ്ത ചിത്രങ്ങളും കൊണ്ട് പിഡിഎഫ് വലുപ്പം കുറയ്ക്കുക",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "ഉച്ചനില സുരക്ഷിതമായി പിഡിഎഫ് പത്രങ്ങളുടെ വലുപ്പം കുറയ്ക്കുകയും അതിനാൽ ഉയർന്ന ഗുണനില ഫലങ്ങൾ ഉണ്ടാക്കുകയും ചെയ്യുന്ന ഓൺലൈൻ പിഡിഎഫ് കുറഞ്ഞതാക്കൽ ഉപകരണം ഉപയോഗിക്കുക",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "വേഗത്തിലുള്ള പിഡിഎഫ് കുറഞ്ഞതാക്കൽ പ്രക്രിയ",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "പുതിയതായി സോഫ്റ്റ്‌വെയർ ഇൻസ്റ്റാൾ ചെയ്യാൻ ആവശ്യമില്ല",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "ഉച്ചനില സുരക്ഷിതവും അന്തരീക്ഷത്തിൽ നിന്നുള്ളവയാണ് - നിങ്ങളുടെ ഫയലുകൾ നിങ്ങളുടെ ബ്രൌസറിൽ സ്ഥാനികമായി പ്രോസസ്സ് ചെയ്യുന്നു",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "വേഗത്തിൽ പിഡിഎഫ് കുറഞ്ഞതാക്കൽ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "ഗുണനില കിട്ടാതെ പിഡിഎഫ് വലുപ്പം കുറയ്ക്കുകയും അതിനാൽ ഫാസ്റ്റായി പങ്കിടാൻ നിങ്ങളുടെ ഫയലുകൾ ഓപ്റ്റിമൈസ് ചെയ്യുന്നു",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "ഗുണം പരിപാലിക്കുക",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "ഞങ്ങളുടെ അഗ്രസാധാരണ താളിക്കാവുന്നതായി നിങ്ങളുടെ പിഡിഎഫുകൾക്ക് ദൃശ്യ സമൃദ്ധത പരിരക്കുന്നു, ചിത്രങ്ങളും ടെക്സ്റ്റും സ്പഷ്ടതയും വായനായോഗ്യതയും പരിരക്കുന്നു",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "ഉച്ചനില പ്രോസസ്സിംഗ് പരിപാലനം വഴി സുരക്ഷ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "നിങ്ങളുടെ സ്വകാര്യത ഞങ്ങളുടെ പ്രധാനതയാണ്. പിഡിഎഫ് കുറഞ്ഞതാക്കൽ പ്രക്രിയ നിങ്ങളുടെ ബ്രൌസറിൽ നടത്താനും നിങ്ങളുടെ പ്രമാണങ്ങൾ നിങ്ങളുടെ ഉപകരണത്തിൽ പൊതുവേ അക്കാദമികമാക്കാനും ഉണ്ടാക്കുന്നു",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "സാധാരണ പ്രവർത്തനം",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "എവിടെയും നിന്നും പ്രവർത്തിക്കാൻ കഴിയുന്നതായി, ഞങ്ങളുടെ ഓൺലൈൻ പിഡിഎഫ് കുറഞ്ഞതാക്കൽ ഉപകരണം നിങ്ങളുടെ ഉപകരണങ്ങളിൽ അനുവദനീയമാക്കുന്നുണ്ട്",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "ഓഫ്ലൈൻ കഴിവ്",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "ഓഫ്ലൈൻ ആയാലും കുറഞ്ഞതാക്കൽ സജീവമാക്കുക. പേജ് പ്രീലോഡ് ചെയ്തിട്ടുണ്ടാക്കുക, അതുവഴി ഇന്റർനെറ്റ് കണക്ഷൻ ആവശ്യമില്ലാതെ ഫയൽ കുറഞ്ഞതാക്കലിനു തുടരാം",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "ഉപയോഗസ്ഥാപനങ്ങൾ ക്രമീകരിക്കുക",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "ഫയൽ വലുപ്പം കുറയ്ക്കൽ നിലവിലെ ആവശ്യങ്ങൾക്ക് അനുയോജ്യമായ ക്രമീകരണങ്ങൾക്ക് അനുവദിക്കുക, ചിത്രങ്ങളും ടെക്സ്റ്റും വിശ്വസനീയതയും പരിരക്കുന്നതായി ഉള്ള ഒപ്റ്റിമൽ ഫലങ്ങൾ ഉണ്ടാക്കുന്നതിന് അനുവദിക്കുന്നു",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "എളുപ്പത്തിൽ പിഡിഎഫുകൾ കുറഞ്ഞതാക്കാൻ എങ്ങനെ:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "നിങ്ങളുടെ പിഡിഎഫ് ഓൺലൈൻ കുറഞ്ഞതാക്കൽ ഉപകരണത്തിലേക്ക് അപ്ലോഡ് ചെയ്യുക",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "ഉങ്ങളുടെ ഫയല് വീണ്ടും സ്ഥാനികമായി പ്രോസസ്സ് ചെയ്യുന്നു, ഗുണനില കുറഞ്ഞതാക്കാൻ പിഡിഎഫ് വലുപ്പം പരിരക്കുകയും ചെയ്യുന്നു",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "കുറഞ്ഞതാക്കിയ പിഡിഎഫ് താഴെപ്പറയുന്നതിലേക്ക് ഡൗൺലോഡ് ചെയ്യുക",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "നിങ്ങളുടെ പ്രിയപ്പെട്ട പിഡിഎഫ് റീഡർ തുറക്കാൻ അതിലേക്ക് പിഡിഎഫ് വലുപ്പം കുറഞ്ഞതാക്കിയ പിഡിഎഫ് പരിശോധിക്കുക"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF മുതൽ HTML വരെ - സൗജന്യമായി PDF ഫയലുകൾ HTML ആക്കുക | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "സൗജന്യമായി PDF മുതൽ HTML വരെ പരിവർത്തനം ചെയ്യുക. ലേഔട്ട് പരിശോധിക്കുകയും ചിത്രങ്ങൾ HTML ആക്കുകയും ചെയ്യുന്നു. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
     "pdf_tools__sign_pdf__title": "പിഡിഎഫ് സൈൻ ചെയ്യുന്നത് - സൗജന്യമായി പിഡിഎഫ് ഫയലുകൾക്ക് ഡിജിറ്റൽ സൈൻ ചേർക്കുന്നത് | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "പിഡിഎഫ് ഫയലുകൾക്ക് സൈന്‍ ചെയ്യാൻ എളുപ്പത്തിൽ ഡിജിറ്റൽ സൈനത്തെ ചേർക്കുക, അടയാളം മറ്റ് ഉപകരണങ്ങളിൽ സുരക്ഷിതമായി ലോകൽ ഉപയോഗിക്കുക. വലിപ്പം പ്രൈവസി അനുഭവത്തിനും സുരക്ഷയ്ക്കും ശ്രദ്ധിക്കുന്നതിന് അതിന്റെ പരമാവധി സുരക്ഷയും സ്വതന്ത്രതയും ഉണ്ടാക്കുന്നു. വാടർമാർക്ക്, ഫയൽ വലിപ്പം, ഡൗൺലോഡ് അല്ലെങ്കിൽ രജിസ്ട്രേഷൻ ആവശ്യമില്ല."
+    "pdf_tools__sign_pdf__description": "പിഡിഎഫ് ഫയലുകൾക്ക് സൈന്‍ ചെയ്യാൻ എളുപ്പത്തിൽ ഡിജിറ്റൽ സൈനത്തെ ചേർക്കുക, അടയാളം മറ്റ് ഉപകരണങ്ങളിൽ സുരക്ഷിതമായി ലോകൽ ഉപയോഗിക്കുക. വലിപ്പം പ്രൈവസി അനുഭവത്തിനും സുരക്ഷയ്ക്കും ശ്രദ്ധിക്കുന്നതിന് അതിന്റെ പരമാവധി സുരക്ഷയും സ്വതന്ത്രതയും ഉണ്ടാക്കുന്നു. വാടർമാർക്ക്, ഫയൽ വലിപ്പം, ഡൗൺലോഡ് അല്ലെങ്കിൽ രജിസ്ട്രേഷൻ ആവശ്യമില്ല.",
+    "pdf_tools__compress_pdf__title": "പിഡിഎഫ് കുറഞ്ഞതാക്കൽ - ഓൺലൈൻ പിഡിഎഫ് വലുപ്പം കുറയ്ക്കൽ | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "ഫാസ്റ്റ് ആയിരിക്കാനുള്ള പ്രദർശനത്തിനും സുരക്ഷിതമായിരിക്കാനുള്ള സ്ഥാനിയ ബ്രൌസറിൽ പിഡിഎഫ് ഫയലുകൾ കുറഞ്ഞതാക്കുക. വാടർമാർക്ക്, ഫയൽ വലുപ്പം പരിധി, ഡൗൺലോഡ് അല്ലെങ്കിൽ രജിസ്ട്രേഷൻ ആവശ്യമില്ല."
   },
   "functionality__pdf_to_image": {
     "components__index__unsupported_file_type_tip": "ദയവായി നിര്‍ദിഷ്ടപ്പെടുന്ന PDF ഫയല്‍ തരം അപ്‌ലോഡ് ചെയ്യുക",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF സൈൻ ഹോംപേജ്",
     "components__sign_pdf__icon__sign": "സൈൻ",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "എന്തെങ്കിലും ടൈപ്പ് ചെയ്യുക..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "കുറഞ്ഞത്",
+    "components__compress_pdf__main__compress_low_grade_description": "പരമാവധി ഫയൽ വലുപ്പം, ഉയർന്ന റെസല്യൂഷൻ",
+    "components__compress_pdf__main__compress_basic_grade_title": "ബേസിക്",
+    "components__compress_pdf__main__compress_basic_grade_description": "മധ്യമം ഫയൽ വലുപ്പം, നിയമാനുസരണം റെസല്യൂഷൻ",
+    "components__compress_pdf__main__compress_strong_grade_title": "ശക്തമായ",
+    "components__compress_pdf__main__compress_strong_grade_description": "ചെറിയ ഫയൽ വലുപ്പം, കുറഞ്ഞ റെസല്യൂഷൻ",
+    "components__compress_pdf__main__unsupported_file_type_tip": "ദയവായി നിർദിഷ്ടപ്പെടുന്ന PDF ഫയൽ തരം അപ്ലോഡ് ചെയ്യുക",
+    "components__compress_pdf__main__compress_download": "കുറഞ്ഞതാക്കുക & ഡൗൺലോഡ് ചെയ്യുക",
+    "components__compress_pdf__main__choose_another_file": "മറ്റൊരു ഫയൽ തിരഞ്ഞെടുക്കുക",
+    "components__compress_pdf__main__current_pdf_size": "PDF നിലവിലെ വലുപ്പം",
+    "components__compress_pdf__main__original_pdf_size": "ഓരിജിനൽ വലുപ്പം",
+    "components__compress_pdf__main__different_pdf_size": "മുമ്പ് കാണുന്നതിനും {{DiFF_NUMBER}}% കുറഞ്ഞതായി!",
+    "components__compress_pdf__main__compress_error": "കുറഞ്ഞതാക്കല്‍ പരാജയപ്പെട്ടു, ദയവായി PDF ഫയൽ എൻക്രിപ്റ്റുചെയ്യപ്പെട്ടിരിക്കുന്നോ അസാധാരണമാണോ പരിശോധിക്കുക!"
   }
 }

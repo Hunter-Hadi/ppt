@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_title": "እንዴት እንደሚጠቀሙ PDF ማስቀያሚያ ይፈጥሩ:",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_1": "የሚጠቀሙትን PDF በ PDF Signer ክፍል ክፍል ይጠቀሙ።",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_2": "የሚጠቀሙትን አማራጭ ወይም ምልክት ይጠቀሙ።",
-    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "የሚጠቀሙትን አማራጭ የሚጠቀሙ የመጠቀሚያውን መጠቀሚያ እንዴት እንደሚጠቀሙ የሚያሳይ ፕሮግራም መፍጠር በነፃ እንዲሁም የሚጠቀሙ ፕሮግራሞችን በብርሃን ውስጥ ያክሉ።"
+    "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "የሚጠቀሙትን አማራጭ የሚጠቀሙ የመጠቀሚያውን መጠቀሚያ እንዴት እንደሚጠቀሙ የሚያሳይ ፕሮግራም መፍጠር በነፃ እንዲሁም የሚጠቀሙ ፕሮግራሞችን በብርሃን ውስጥ ያክሉ።",
+    "tools__index_page__constant_obj__compress_pdf__title": "ፕድፊን ማጥፊያ",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "በቀላሉ የተመረጡ ፕድፊን ማጥፊያዎችን በቀላሉ በጭነት እና በየትኛው ስልክ ላይ የተገኙ ጥቅሞችን በመጠቀም የፕድፊን መጠን ማሳየት ይችላሉ",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "በአጠቃላይ የፕድፊን መጠን ማጥፊያ በኩል የፕድፊን መጠን መጠን በቀላሉ አግኝቷል፣ በብዛት የሚገኙትን የሚያስተካክል እና የሚያስተካክል ሁኔታዎችን የሚያስተካክል ፕድፊን መጠን ማሳየት ይችላሉ።",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "በቀላሉ ፕድፊን መጠን ማጥፊያ ልቀት በቀላሉ",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "የሌለው የማስተካከል አጠቃላይ ሲሆን በቀላሉ ማጥፊያ ማግኘት ይችላሉ",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "በቀላሉ የሚገኙትን እና የሚሰራውን ፕድፊን መጠን ማሳየት ይችላሉ - የሚሰራውን ፋይልዎችን በቀላሉ እና የሚሰራውን ማስተካከል በቀላሉ ማግኘት ይችላሉ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "በጥቅም እና በቀላሉ ማጥፊያ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "በጥቅም እና በቀላሉ ማጥፊያ ማጥፊያዎችን በቀላሉ በትክክል የተገኙ የፕድፊን መጠን ማሳየት ይችላሉ፣ በቀላሉ ማጥፊያ ማጥፊያዎችን ለበለጠ እና በቀላሉ የተገኘ የፕድፊን መጠን ማሳየት ይችላሉ።",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "ማስተካከል ለመቀነስ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "የሚገኙትን የፕድፊን መጠን ማስተካከል በቀላሉ እና በቀላሉ የፕድፊን መጠን ማስተካከል በቀላሉ የፕድፊን መጠን ማሳየት ይችላሉ። የሚገኙትን የፕድፊን መጠን ማስተካከል በቀላሉ እና በቀላሉ የፕድፊን መጠን ማስተካከል በቀላሉ የፕድፊን መጠን ማሳየት ይችላሉ።",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "የተለያዩ የማስተካከል ለመቀነስ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "የሚገኙትን የፕድፊን መጠን ማስተካከል በቀላሉ እና በቀላሉ የፕድፊን መጠን ማስተካከል በቀላሉ የፕድፊን መጠን ማሳየት ይችላሉ። የሚገኙትን የፕድፊን መጠን ማስተካከል በቀላሉ እና በቀላሉ የፕድፊን መጠን ማስተካከል በቀላሉ የፕድፊን መጠን ማሳየት ይችላሉ።",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "የአገልግሎት መተግበሪያ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "በሚገኙት አካባቢ የፕድፊን መጠን ማጥፊያ በቀላሉ ለመጠን የሚገኘውን ፕድፊን መጠን ማሳየት ይችላሉ፣ በሚገኙት አካባቢ የፕድፊን መጠን ማጥፊያ በቀላሉ ለመጠን የሚገኘውን ፕድፊን መጠን ማሳየት ይችላሉ።",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "የግል እንዲሁም የማስተካከል ለመቀነስ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "የግል እናትን ለመጠን የሚገኘውን ፕድፊን መጠን ማስተካከል በቀላሉ ለመጠን የሚገኘውን ፕድፊን መጠን ማሳየት ይችላሉ፣ የግል እናትን ለመጠን የሚገኘውን ፕድፊን መጠን ማስተካከል በቀላሉ ለመጠን የሚገኘውን ፕድፊን መጠን ማሳየት ይችላሉ።",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "የማስተካከል ዝርዝር አማራጭ",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "የማስተካከል ዝርዝርዎን የሚለውን የማስተካከል ደረጃ ይምረጡ፣ ፕድፊን መጠን ማስተካከል እና የማስተካከል ደረጃ የሚለውን የማስተካከል ዝርዝር አማራጭ ይችላሉ፣ የማስተካከል ዝርዝርዎን የሚለውን የማስተካከል ደረጃ ይምረጡ፣ ፕድፊን መጠን ማስተካከል እና የማስተካከል ደረጃ የሚለውን የማስተካከል ዝርዝር አማራጭ ይችላሉ።",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "ምስልን እንዴት እንደሚቀነስ ፕድፊን ማጥፊያ:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "የሚገባቸውን ፕድፊን በመጠቀም ያስገቡ።",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "የሚገባቸውን ፋይሎች በቀላሉ በቀላሉ የሚገባቸውን ፕድፊን በመጠቀም ያስገቡ።",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "የተጠቀሙትን ፕድፊን በመጠቀም ያስገቡ።",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "የተጠቀሙትን ፕድፊን በመጠቀም ያስገቡ።"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF ለ HTML - የፖፊክስ ፋይሎችን በነፃ እናውቃለን | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "የፖፊክስ ን HTML ለውጥ በነፃ እናውቃለን. ለማስተላለፍ እና ምስሎችን HTML ለውጥ በመቀላቀል ለማስተላለፍ. የውሃብስ, የፋይል መጠንቀቂያዎች, የልብ መጠንቀቂያዎች, ወይም የምስል ማረጋገጫ የለም.",
     "pdf_tools__sign_pdf__title": "ፕድፊንግ ማስቀረበር - የፕድፊንግ ፊልሞችን በነፃ እናወራለን | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "በነፃ እና በሌላ አካባቢዎች የፕድፊንግ ፊልሞችን በነፃ አስቀምጥ የሚፈልጉትን የሚጠቀሙበት የሚገኙበት ነገር አይሁኑም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም።"
+    "pdf_tools__sign_pdf__description": "በነፃ እና በሌላ አካባቢዎች የፕድፊንግ ፊልሞችን በነፃ አስቀምጥ የሚፈልጉትን የሚጠቀሙበት የሚገኙበት ነገር አይሁኑም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም። የሚገኙበት የፕድፊንግ መረጃዎችን አይሰጡም።",
+    "pdf_tools__compress_pdf__title": "ፕድፊን ማጥፊያ - የፕድፊን መጠን መጠንና የተጠቃሚ መጠን | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "ፕድፊን መጠንን በቀላሉ ማጥፊያ በቀላሉ የሚገኙትን ፕድፊን መጠን ማሳየት ይችላሉ፣ የሚገኙትን ፕድፊን መጠን ማሳየት በቀላሉ የሚገኘውን ፕድፊን መጠን ማሳየት ይችላሉ።"
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF ማስቀያሚያ መግቢያ",
     "components__sign_pdf__icon__sign": "ፈትል",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "አይደለም ነዎት..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "አነስተኛ",
+    "components__compress_pdf__main__compress_low_grade_description": "የፕድፊን መጠን ማጥፊያ የሚገባቸውን ፕድፊን በመጠቀም የሚገባቸውን ፕድፊን መጠን ማሳየት ይችላሉ።",
+    "components__compress_pdf__main__compress_basic_grade_title": "መጀመሪያ",
+    "components__compress_pdf__main__compress_basic_grade_description": "መጀመሪያ የፕድፊን መጠን ማጥፊያ የሚገባቸውን ፕድፊን በመጠቀም የሚገባቸውን ፕድፊን መጠን ማሳየት ይችላሉ።",
+    "components__compress_pdf__main__compress_strong_grade_title": "ጥቁም",
+    "components__compress_pdf__main__compress_strong_grade_description": "ጥቁም የፕድፊን መጠን ማጥፊያ የሚገባቸውን ፕድፊን በመጠቀም የሚገባቸውን ፕድፊን መጠን ማሳየት ይችላሉ።",
+    "components__compress_pdf__main__unsupported_file_type_tip": "እባክዎ የተጠቃሚ ፕድፊን የሚገባቸውን የፕድፊን ዓይነት ይምረጡ",
+    "components__compress_pdf__main__compress_download": "ማጥፊያ እና ማውረድ",
+    "components__compress_pdf__main__choose_another_file": "ሌላ ፋይል ይምረጡ",
+    "components__compress_pdf__main__current_pdf_size": "የአሁኑ ፕድፊን መጠን",
+    "components__compress_pdf__main__original_pdf_size": "የተመረጡ ፕድፊን መጠን",
+    "components__compress_pdf__main__different_pdf_size": "በቀላሉ {{DiFF_NUMBER}}% ብቻ በመቀመር!",
+    "components__compress_pdf__main__compress_error": "ማጥፊያ አልተሳካም፣ እባክዎ የፕድፊን ፋይል ተመሳሳይ ወይም አውታረ ነው!"
   }
 }

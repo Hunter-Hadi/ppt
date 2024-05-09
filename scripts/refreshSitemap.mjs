@@ -144,7 +144,7 @@ async function generatePromptsPages() {
 }
 
 async function generateToolsPages() {
-  const toolsPages = Object.keys(pdfToolsCodeMap.childrens).map(
+  const toolsPages = Object.keys(pdfToolsCodeMap.childrenObject).map(
     (url) => `${pdfToolsCodeMap.topUrlKey}/${url}`,
   );
 

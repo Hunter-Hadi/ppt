@@ -45,6 +45,12 @@ const FunctionalitySignPdfMain = lazy(
       '@/features/functionality_sign_pdf/components/FunctionalitySignPdfMain'
     ),
 );
+const FunctionalityCompressPdfMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_compress_pdf/components/FunctionalityCompressPdfMain'
+    ),
+);
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -94,6 +100,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__sign_pdf__title'),
       description: t('seo:pdf_tools__sign_pdf__description'),
     },
+    'compress-pdf': {
+      title: t('seo:pdf_tools__compress_pdf__title'),
+      description: t('seo:pdf_tools__compress_pdf__description'),
+    },
   };
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];
   const toolList = useMemo(
@@ -136,6 +146,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           )}
           {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
           {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
+          {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
         </Suspense>
       </Box>
       {toolsDetailDescriptionData && (

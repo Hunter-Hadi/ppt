@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "Pritaikykite parašo dydį ir padėtį pagal poreikį.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Spustelėkite, norėdami dabar atsisiųsti pasirašytą PDF, viskas yra paruošta ir saugu.",
     "team_plan__title__description1": "Suteikite savo komandai pažangiausius dirbtinio intelekto produktyvumo įrankius.",
-    "team_plan__title__description2": "Mūsų komandos planas skirtas grupėms, turinčioms tris ar daugiau narių."
+    "team_plan__title__description2": "Mūsų komandos planas skirtas grupėms, turinčioms tris ar daugiau narių.",
+    "tools__index_page__constant_obj__compress_pdf__title": "Suspausti PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "Sumažinkite PDF dydį suspausdami tekstą ir įterptas vaizdus per vietinį naršyklę",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "Greitai sumažinkite savo PDF dokumentų dydį naudodami mūsų pažangią internetinę PDF suspaudimo priemonę, užtikrinant aukštą kokybę, maksimalią saugumą ir efektyvumą.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "Greitas PDF suspaudimo procesas",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "Nereikia išorinės programinės įrangos diegimo",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "Labai saugu ir konfidencialu - jūsų failai apdorojami vietiniame naršyklėje",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "Greitas ir Efektyvus Suspaudimas",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "Patirkite greitą PDF dydžio mažinimą nesutrikdant kokybės. Mūsų įrankis optimizuoja jūsų failus, kad būtų greitesnis bendrinimas ir minimalus saugojimo naudojimas.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "Išlaikyti Kokybę",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "Mūsų pažangi technologija užtikrina, kad jūsų PDF vaizdo vientisumas būtų išsaugotas, išlaikant tiek vaizdų, tiek teksto aiškumą ir skaitymą.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "Vietinis apdorojimas užtikrinant didesnį saugumą",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "Mes teikiame pirmenybę jūsų privatumui. Visas suspaudimo procesas vykdomas jūsų naršyklėje, užtikrinant, kad jūsų dokumentai neišeitų iš jūsų įrenginio.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "Visuotinė prieinamumas",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "Pasiekiamas iš bet kur, mūsų internetinė PDF suspaudimo priemonė leidžia sumažinti failų dydžius bet kuriame įrenginyje be jokių diegimų.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "Nepriklausomybė nuo interneto",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Galite suspausti net ir be interneto ryšio. Įkraukite puslapį ir galėsite tęsti failo suspaudimą neturėdami interneto ryšio.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Individualūs suspaudimo nustatymai",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Prisitaikykite suspaudimo lygį pagal savo specifinius poreikius, leidžiant individualiai reguliuoti tarp failo dydžio mažinimo ir vaizdo kokybės, užtikrinant optimalius rezultatus kiekvienam dokumento tipui.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kaip lengvai suspausti PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Įkelkite savo PDF į internetinę suspaudimo priemonę.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Priemonė greitai apdoroja jūsų failą, sumažindama jo dydį, išlaikant kokybę.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Po suspaudimo iškart atsisiųskite suspaustą PDF į savo įrenginį.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Patikrinkite suspausto PDF kokybę ir dydį, atidarę jį norimu PDF skaitytuvu."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -796,7 +819,9 @@
     "pdf_tools__pdf_to_html__title": "PDF į HTML - Nemokamai konvertuokite PDF failus į HTML | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "Nemokamai konvertuokite PDF į HTML. Išlaikykite maketą ir konvertuokite paveikslėlius į HTML. Nereikia vandensženklų, failo dydžio apribojimų, atsisiuntimų ar registracijos.",
     "pdf_tools__sign_pdf__title": "PDF pasirašymas - Nemokamai pridedama skaitmeninė parašo į PDF failus vietiniame režime | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "Paprastai pridėkite skaitmeninius parašus prie PDF failų nemokamai ir saugiai naudojant vietinius įrenginius, užtikrinant maksimalią privatumą ir saugumą. Nėra vandens ženklo, failo dydžio ribos, atsisiuntimo ar registracijos reikalavimų."
+    "pdf_tools__sign_pdf__description": "Paprastai pridėkite skaitmeninius parašus prie PDF failų nemokamai ir saugiai naudojant vietinius įrenginius, užtikrinant maksimalią privatumą ir saugumą. Nėra vandens ženklo, failo dydžio ribos, atsisiuntimo ar registracijos reikalavimų.",
+    "pdf_tools__compress_pdf__title": "Suspausti PDF - Internetinis PDF dydžio mažinimas | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "Suspauskite PDF failus vietinėje naršyklėje, užtikrinant greitą ir saugų veikimą. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimo ar registracijos nereikia."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",
@@ -1030,5 +1055,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pasirašykite PDF pagrindinį puslapį",
     "components__sign_pdf__icon__sign": "Pasirašyti",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Įveskite kažką..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "Žemas",
+    "components__compress_pdf__main__compress_low_grade_description": "Didžiausias failo dydis, aukštesnė raiška",
+    "components__compress_pdf__main__compress_basic_grade_title": "Pagrindinis",
+    "components__compress_pdf__main__compress_basic_grade_description": "Vidutinis failo dydis, standartinė raiška",
+    "components__compress_pdf__main__compress_strong_grade_title": "Stiprus",
+    "components__compress_pdf__main__compress_strong_grade_description": "Mažas failo dydis, žemesnė raiška",
+    "components__compress_pdf__main__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
+    "components__compress_pdf__main__compress_download": "Suspausti ir Atsisiųsti",
+    "components__compress_pdf__main__choose_another_file": "Pasirinkite kitą failą",
+    "components__compress_pdf__main__current_pdf_size": "PDF dabartinis dydis",
+    "components__compress_pdf__main__original_pdf_size": "pradinis dydis",
+    "components__compress_pdf__main__different_pdf_size": "Skiriasi nuo ankstesnio dydis {{DiFF_NUMBER}}% mažesnis!",
+    "components__compress_pdf__main__compress_error": "Suspaudimas nepavyko, prašome patikrinti, ar PDF failas yra užšifruotas arba netinkamas!"
   }
 }

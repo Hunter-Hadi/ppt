@@ -533,7 +533,30 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_3": "התאם את גודל החתימה ומיקומה כפי שנדרש.",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "לחץ כדי להוריד את ה-PDF שחתמת, הכל מוכן ובטוח.",
     "team_plan__title__description1": "הענק לצוות שלך את הכלים המתקדמים ביותר ליעילות AI.",
-    "team_plan__title__description2": "תוכנית הצוות שלנו מיועדת לקבוצות של שלושה חברים או יותר."
+    "team_plan__title__description2": "תוכנית הצוות שלנו מיועדת לקבוצות של שלושה חברים או יותר.",
+    "tools__index_page__constant_obj__compress_pdf__title": "דחיסת PDF",
+    "tools__index_page__constant_obj__compress_pdf__main_description": "הפחת את גודל ה-PDF על ידי דחיסת טקסט ותמונות מוטבעות באמצעות דפדפן מקומי",
+    "pdf_tools__detail_description_object__compress_pdf__top_left": "הפחת במהירות את גודל מסמכי ה-PDF שלך עם כלי הדחיסה המתקדם שלנו, והבטיח תוצאות איכותיות עם מקסימום אבטחה ויעילות.",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_1": "תהליך דחיסת PDF מהיר",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_2": "אין צורך בהתקנת תוכנה חיצונית",
+    "pdf_tools__detail_description_object__compress_pdf__top_right_3": "בטיחות גבוהה וסודיות מרבית - הקבצים שלך מעובדים באופן מקומי בדפדפן שלך",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_title": "דחיסה מהירה ויעילה",
+    "pdf_tools__detail_description_object__compress_pdf__middle_1_description": "חווי דחיסת גודל PDF מהירה מבלי לפגוע באיכות. הכלי שלנו ממטב את הקבצים שלך לשיתוף מהיר יותר ושימוש באחסון מינימלי.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_title": "שמירה על איכות",
+    "pdf_tools__detail_description_object__compress_pdf__middle_2_description": "הטכנולוגיה המתקדמת שלנו מבטיחה שתתוך הראייה של ה-PDF שלך יישמר, והתמידות והקריאות של התמונות והטקסט יישמרו.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_title": "עיבוד מקומי לבטיחות משופרת",
+    "pdf_tools__detail_description_object__compress_pdf__middle_3_description": "אנחנו נותנים עדיפות לפרטיות שלך. תהליך הדחיסה המלא מבוצע בתוך הדפדפן שלך, ומבטיח שהמסמכים שלך לא יעזבו את המכשיר שלך.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_title": "נגישות אוניברסלית",
+    "pdf_tools__detail_description_object__compress_pdf__middle_4_description": "נגיש מכל מקום, הכלי לדחיסת PDF המקוון שלנו מאפשר לך להפחית גודלי קבצים בכל מכשיר בלי צורך בהתקנות.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_title": "יכולת לעבוד במצב לא מקוון",
+    "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "אפשר דחיסה גם כשאתה לא מחובר לאינטרנט. טען מראש את הדף, ותוכל להמשיך עם דחיסת הקובץ בלי צורך בחיבור לאינטרנט.",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "הגדרות דחיסה מותאמות אישית",
+    "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "התאם את רמת הדחיסה לצרכים המדויקים שלך, ואפשר תיקונים מותאמים אישית כדי לאזן בין דחיסת גודל הקובץ לבין איכות הוויזואלית, ולהבטיח תוצאות אופטימליות לכל סוג של מסמך.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "איך לדחוס PDFים בקלות:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "העלה את ה-PDF שלך לכלי הדחיסה המקוון.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "הכלי מעבד את הקובץ שלך במהירות, ומפחית את גודלו בשמירה על האיכות.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "הורד את ה-PDF הדחוס למכשיר שלך מיד לאחר הדחיסה.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "בדוק את האיכות והגודל של ה-PDF הדחוס על ידי פתיחתו בקורא ה-PDF המועדף עליך."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -795,7 +818,9 @@
     "pdf_tools__pdf_to_html__title": "PDF ל-HTML - המרת קבצי PDF ל-HTML באופן מקוון חינמי | MaxAI.me",
     "pdf_tools__pdf_to_html__description": "המרת PDF ל-HTML באופן מקוון חינמי. שמירה על פריסה והמרת תמונות ל-HTML. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
     "pdf_tools__sign_pdf__title": "חתימה על PDF - הוספת חתימה דיגיטלית לקבצי PDF באופן מקומי ובחינם | MaxAI.me",
-    "pdf_tools__sign_pdf__description": "הוסף בקלות חתימה דיגיטלית לקבצי PDF בחינם ובטוח על התקנים המקומיים שלך, ובכך מבטיח פרטיות ואבטחה מרבית. ללא סימון מים, מגבלת גודל קובץ, הורדה או הרשמה."
+    "pdf_tools__sign_pdf__description": "הוסף בקלות חתימה דיגיטלית לקבצי PDF בחינם ובטוח על התקנים המקומיים שלך, ובכך מבטיח פרטיות ואבטחה מרבית. ללא סימון מים, מגבלת גודל קובץ, הורדה או הרשמה.",
+    "pdf_tools__compress_pdf__title": "דחיסת PDF - הפחתת גודל PDF מקוון | MaxAI.me",
+    "pdf_tools__compress_pdf__description": "דחיסת קבצי PDF בדפדפן מקומי כדי להבטיח ביצועים מהירים ומאובטחים. אין סימני מים, הגבלת גודל קובץ, הורדה או הרשמה נדרשת."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -1029,5 +1054,20 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "דף הבית של חתימת PDF",
     "components__sign_pdf__icon__sign": "חתום",
     "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "הקלד משהו..."
+  },
+  "functionality__compress_pdf": {
+    "components__compress_pdf__main__compress_low_grade_title": "נמוך",
+    "components__compress_pdf__main__compress_low_grade_description": "גודל קובץ מרבי, רזולוציה גבוהה",
+    "components__compress_pdf__main__compress_basic_grade_title": "בסיסי",
+    "components__compress_pdf__main__compress_basic_grade_description": "גודל קובץ בינוני, רזולוציה סטנדרטית",
+    "components__compress_pdf__main__compress_strong_grade_title": "חזק",
+    "components__compress_pdf__main__compress_strong_grade_description": "גודל קובץ קטן, רזולוציה נמוכה",
+    "components__compress_pdf__main__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__compress_pdf__main__compress_download": "דחיסה והורדה",
+    "components__compress_pdf__main__choose_another_file": "בחר קובץ אחר",
+    "components__compress_pdf__main__current_pdf_size": "גודל ה-PDF הנוכחי",
+    "components__compress_pdf__main__original_pdf_size": "גודל מקורי",
+    "components__compress_pdf__main__different_pdf_size": "שונה מהקודם ב-{{DiFF_NUMBER}}% קטן יותר!",
+    "components__compress_pdf__main__compress_error": "הדחיסה נכשלה, אנא בדוק אם קובץ ה-PDF מוצפן או לא תקין!"
   }
 }
