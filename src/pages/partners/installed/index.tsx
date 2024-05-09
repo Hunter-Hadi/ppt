@@ -1,15 +1,17 @@
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Container, Stack, Typography } from '@mui/material';
 import { useRouter } from 'next/router';
 import React, { useEffect, useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
+import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import usePartnersInfo from '@/features/partners/hooks/usePartnersInfo';
 import { useSendRefCount } from '@/hooks/useSendRefCount';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
 import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
 import TryExtensionButton from '@/page_components/partners_components/TryExtensionButton';
+import ToolsHome from '@/page_components/PdfToolsPages/components/ToolsHome';
 
 const PartnersInstallPage = () => {
   const router = useRouter();
@@ -17,6 +19,8 @@ const PartnersInstallPage = () => {
   const { name, propRef, changelogText, changelogLink } = usePartnersInfo();
 
   useSendRefCount(propRef, 'partners-installed');
+
+  const { hasExtension } = useCheckExtension();
 
   const partnersName = useMemo(() => {
     if (!name) {
@@ -83,10 +87,25 @@ const PartnersInstallPage = () => {
         ) : null}
       </Stack>
       <Box position='relative'>
-        <TryExtensionButton propRef={propRef} />
-        <HomePageContent propRef={propRef} />
+        <TryExtensionButton
+          propRef={propRef}
+          text={hasExtension ? `Try our partner's free tools` : null}
+          href={hasExtension ? '/pdf-tools' : null}
+          target={hasExtension ? '_self' : undefined}
+        />
+        {hasExtension ? (
+          <Container
+            sx={{
+              py: 4,
+            }}
+          >
+            <ToolsHome />
+          </Container>
+        ) : (
+          <HomePageContent propRef={propRef} />
+        )}
       </Box>
-      <FixedCtaButton propRef={propRef} />
+      {!hasExtension && <FixedCtaButton propRef={propRef} />}
     </Box>
   );
 };

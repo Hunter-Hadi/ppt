@@ -6,13 +6,22 @@ import { EXTENSION_SHARE_TRACKER_LINK } from '@/global_constants';
 interface IProps {
   sx?: SxProps;
   propRef?: string;
+  text?: string | null;
+  href?: string | null;
+  target?: React.HTMLAttributeAnchorTarget;
 }
 
-const TryExtensionButton: FC<IProps> = ({ sx, propRef }) => {
+const TryExtensionButton: FC<IProps> = ({
+  sx,
+  propRef,
+  text,
+  href,
+  target = '_blank',
+}) => {
   return (
     <Button
-      href={`${EXTENSION_SHARE_TRACKER_LINK}?ref=${propRef}`}
-      target='_blank'
+      href={href ? href : `${EXTENSION_SHARE_TRACKER_LINK}?ref=${propRef}`}
+      target={target}
       sx={{
         position: 'absolute',
         top: -24,
@@ -26,7 +35,10 @@ const TryExtensionButton: FC<IProps> = ({ sx, propRef }) => {
         ...sx,
       }}
     >
-      <Typography color='primary'>{`Try our partner's new extension 👇`}</Typography>
+      {}
+      <Typography color='primary'>
+        {text ? text : `Try our partner's new extension 👇`}
+      </Typography>
     </Button>
   );
 };
