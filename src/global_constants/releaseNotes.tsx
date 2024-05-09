@@ -1,5 +1,21 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.2.1',
+    date: '2024-04-29',
+
+    content: [
+      {
+        title: 'Instant reply on Messenger',
+        lists: [
+          {
+            module: 'Messenger instant reply',
+            desc: 'Accelerate your message replies by 10X in 1 click on Messenger.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.2.0',
     date: '2024-04-28',
 
