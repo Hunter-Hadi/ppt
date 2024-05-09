@@ -1,5 +1,21 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.2.4',
+    date: '2024-05-07',
+
+    content: [
+      {
+        title: 'Create your own prompts for 1-click AI summary',
+        lists: [
+          {
+            module: 'Summarize any page in your way',
+            desc: 'You can now personalize your AI summary by adding your own prompt. This feature allows you to get summaries for any page, PDF, YouTube video, or email. Enjoy the freedom to customize your AI summary experience.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.2.1',
     date: '2024-04-29',
 
