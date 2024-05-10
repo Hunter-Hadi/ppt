@@ -11,13 +11,13 @@ import FeaturesSelectorNav from './FeaturesSelectorNav';
 const WHITE_LIST_FEATURES_ITEM_KEY: IFeaturesCarouselItemKey[] = [
   'Chat',
   'Rewriter',
-  'Reply',
   'Summary',
+  'Reply',
+  'Reader',
+  'Prompts',
   'Search',
   'Art',
   'Translator',
-  'Prompts',
-  'Search',
 ];
 
 export type IFeaturesCarouselItemKey =
