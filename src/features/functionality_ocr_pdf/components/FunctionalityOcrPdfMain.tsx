@@ -20,6 +20,7 @@ import FunctionalityCommonOptionSelector from '@/features/functionality_common/c
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 import { pdfPageBackgroundToCanvas } from '@/features/functionality_common/utils/functionalityCommonPdfPageBackgroundToCanvas';
 import { textGetLanguageName } from '@/features/functionality_common/utils/textGetLanguageName';
@@ -111,7 +112,10 @@ const FunctionalityOcrPdfMain = () => {
           ); //开始OCR识别
           setPagesBackgroundCanvas(pdfPagesBackgroundCanvas); //储存最新的背景图片Canvas 列表
           if (blob) {
-            downloadUrl(blob, `MAX_AI.pdf`); //下载
+            const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+              file.name,
+            );
+            downloadUrl(blob, fileName); //下载
           } else {
             throw new Error('ocrCanvasToPdfReturnBlob error');
           }
@@ -352,7 +356,7 @@ const FunctionalityOcrPdfMain = () => {
             <FunctionalityCommonOptionSelector
               disabled={isLoading}
               list={conversionGradeList}
-              activeId={conversionGrade}
+              selectKey={conversionGrade}
               onSelect={(key) => setConversionGrade(key as 'default' | 'high')}
             />
             <Grid container justifyContent='center' mt={2}>

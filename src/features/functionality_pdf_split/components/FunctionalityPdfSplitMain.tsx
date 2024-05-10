@@ -25,7 +25,7 @@ import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 export const FunctionalityPdfSplitMain = () => {
@@ -81,7 +81,7 @@ export const FunctionalityPdfSplitMain = () => {
     if (selectPdfPageList.length > 0) {
       if (isMergeSinglePDf) {
         const downloadPdfData = await getMergePdfFiles(selectPdfPageList);
-        const fileName = functionalityCommonRemoveAndAddFileExtension(
+        const fileName = functionalityCommonFileNameRemoveAndAddExtension(
           'split-' + activeFile?.name || '',
         );
         if (downloadPdfData) {
@@ -96,7 +96,7 @@ export const FunctionalityPdfSplitMain = () => {
   };
   const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
     const zip = new JSZip();
-    const folderName = functionalityCommonRemoveAndAddFileExtension(
+    const folderName = functionalityCommonFileNameRemoveAndAddExtension(
       'split-' + activeFile?.name || '',
       'pdf',
       '',

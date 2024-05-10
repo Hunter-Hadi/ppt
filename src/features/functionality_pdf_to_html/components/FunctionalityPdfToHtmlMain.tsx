@@ -9,7 +9,7 @@ import {
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 import { convertPdfToHTMLDivElement } from '@/features/functionality_pdf_to_html/utils/convertPdfToHTML';
 
@@ -28,7 +28,7 @@ const FunctionalityPdfToHtmlMain = () => {
     setIsLoading(true);
     if (fileList[0]) {
       //去除文件名后缀
-      const fileName = functionalityCommonRemoveAndAddFileExtension(
+      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
         fileList[0]?.name || '',
         'pdf',
         '',

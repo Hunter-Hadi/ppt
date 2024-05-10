@@ -6,13 +6,13 @@ interface IFunctionalityCommonOptionSelector {
     title: string;
     tips: string;
   }[];
-  activeId: string;
+  selectKey: string;
   onSelect: (id: string) => void;
   disabled?: boolean;
 }
 const FunctionalityCommonOptionSelector: FC<
   IFunctionalityCommonOptionSelector
-> = ({ list, onSelect, activeId, disabled }) => {
+> = ({ list, onSelect, selectKey, disabled }) => {
   return (
     <Box>
       {list.map((option, index) => (
@@ -31,7 +31,7 @@ const FunctionalityCommonOptionSelector: FC<
                 padding: 1.5,
                 cursor: disabled ? '' : 'pointer',
                 border: `1px solid ${
-                  option.key === activeId ? '#9065B0' : '#e8e8e8'
+                  option.key === selectKey ? '#9065B0' : '#e8e8e8'
                 }`,
                 bgcolor: disabled ? '#f4f4f4' : 'transcript',
                 borderRadius: 1,
@@ -47,7 +47,7 @@ const FunctionalityCommonOptionSelector: FC<
                 justifyContent='center'
                 sx={{
                   border: `1px solid ${
-                    option.key === activeId ? '#9065B0' : '#e8e8e8'
+                    option.key === selectKey ? '#9065B0' : '#e8e8e8'
                   }`,
                   width: 20,
                   height: 20,
@@ -56,7 +56,8 @@ const FunctionalityCommonOptionSelector: FC<
               >
                 <Box
                   sx={{
-                    bgcolor: option.key === activeId ? '#9065B0' : 'transcript',
+                    bgcolor:
+                      option.key === selectKey ? '#9065B0' : 'transcript',
                     width: 17,
                     height: 17,
                     borderRadius: 10,

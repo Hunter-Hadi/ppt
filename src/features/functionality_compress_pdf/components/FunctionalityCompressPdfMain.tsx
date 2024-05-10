@@ -10,7 +10,7 @@ import {
 import FunctionalityCommonOptionSelector from '@/features/functionality_common/components/FunctionalityCommonOptionSelector';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 import { compressPdfStreams } from '../utils/compressPdfStreams';
@@ -132,7 +132,9 @@ const FunctionalityCompressPdfMain = () => {
   };
   const onDownload = (blobUrl: Blob) => {
     if (blobUrl && file) {
-      const fileName = functionalityCommonRemoveAndAddFileExtension(file.name);
+      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+        file.name,
+      );
       downloadUrl(blobUrl, fileName, 'application/pdf');
     }
   };
@@ -257,7 +259,7 @@ const FunctionalityCompressPdfMain = () => {
             <FunctionalityCommonOptionSelector
               disabled={isLoading}
               list={compressGradeList}
-              activeId={compressionGrade}
+              selectKey={compressionGrade}
               onSelect={(key) =>
                 setCompressionGrade(key as 'low' | 'basic' | 'strong')
               }

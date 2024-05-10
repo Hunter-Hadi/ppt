@@ -1,4 +1,4 @@
-export const functionalityCommonRemoveAndAddFileExtension = (
+export const functionalityCommonFileNameRemoveAndAddExtension = (
   fileName: string,
   extensionType: string = 'pdf',
   addExtensionType?: string,
