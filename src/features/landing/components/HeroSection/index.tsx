@@ -1,5 +1,4 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
-import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
@@ -7,70 +6,43 @@ import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTo
 import HeroVideoBox from '@/features/landing/components/HeroSection/HeroVideoBox';
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
-import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
   propRef?: string;
+  propTitle?: React.ReactNode;
+  propDescription?: React.ReactNode;
 }
 
-const HeroSection: FC<IProps> = ({ propRef }) => {
+const HeroSection: FC<IProps> = ({ propRef, propTitle, propDescription }) => {
   const { browserAgent: agent } = useBrowserAgent();
-
-  const { query } = useRouter();
-
-  const { landingTitle, landingDescription } = query;
 
   const { t } = useTranslation();
 
-  const { openVideoPopup } = useVideoPopupController();
+  // const { openVideoPopup } = useVideoPopupController();
 
   const title = useMemo(() => {
-    if (landingTitle) {
-      const afterParsingTitle = decodeURIComponent(`${landingTitle}`);
-      return (
-        <>
-          {afterParsingTitle.split('\n').map((line, index) => (
-            <React.Fragment key={index}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
-        </>
-      );
-    } else {
-      return (
-        <>
-          {t('pages:home_page__hero_section__title__part1')}
-          <br />
-          {t('pages:home_page__hero_section__title__part2')}
-          <br />
-          {t('pages:home_page__hero_section__title__part3')}
-        </>
-      );
-    }
-  }, [landingTitle, t]);
+    return propTitle ? (
+      propTitle
+    ) : (
+      <>
+        {t('pages:home_page__hero_section__title__part1')}
+        <br />
+        {t('pages:home_page__hero_section__title__part2')}
+        <br />
+        {t('pages:home_page__hero_section__title__part3')}
+      </>
+    );
+  }, [propTitle, t]);
 
   const description = useMemo(() => {
-    if (landingDescription) {
-      const afterParsingDescription = decodeURIComponent(
-        `${landingDescription}`,
-      );
-      return (
-        <>
-          {afterParsingDescription.split('\n').map((line, index) => (
-            <React.Fragment key={index}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
-        </>
-      );
-    } else {
-      return <>{t('pages:home_page__hero_section__desc')}</>;
-    }
-  }, [landingDescription, t]);
+    return propDescription ? (
+      propDescription
+    ) : (
+      <>{t('pages:home_page__hero_section__desc')}</>
+    );
+  }, [propDescription, t]);
 
   return (
     <Box
