@@ -7,8 +7,8 @@ export async function ocrCanvasToPdfReturnBlob(
   canvases: HTMLCanvasElement[], //canvas数组
   language: string, //语言
   callBackProgress?: (
-    allPage: number,
-    currentNum: number,
+    totalQuantity: number, //总页数
+    currentNum: number, //当前页数
     progressType: 'ocr' | 'embedPage',
   ) => void, //回调函数
   processesNumber?: number, //进程数,不设置根据硬件线程数/2跑，错误会为2重试一次.

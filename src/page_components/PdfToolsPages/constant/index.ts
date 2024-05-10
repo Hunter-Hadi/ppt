@@ -127,11 +127,11 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   },
   'ocr-pdf': {
     icon: 'CropOriginal',
-    title: 'OCR PDF',
+    title: 'pages:tools__index_page__constant_obj__ocr_pdf__title',
     description:
-      'OCR scanned PDF documents, so you can easily choose to copy and search for text',
+      'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
     secondaryDescription:
-      'OCR your PDF to extract text from scanned documents.',
+      'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
     urlKey: routerChildrenObject['ocr-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },

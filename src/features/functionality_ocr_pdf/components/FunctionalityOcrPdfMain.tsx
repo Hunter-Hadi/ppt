@@ -21,47 +21,50 @@ import { downloadUrl } from '@/features/functionality_common/utils/functionality
 import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 import { pdfPageBackgroundToCanvas } from '@/features/functionality_common/utils/functionalityCommonPdfPageBackgroundToCanvas';
+import { textGetLanguageName } from '@/features/functionality_common/utils/textGetLanguageName';
+import { ocrCanvasToPdfReturnBlob } from '@/features/functionality_ocr_pdf/utils/ocrCanvasToPdfReturnBlob';
 
-import { ocrLanguages } from '../constant/languages';
-import { ocrCanvasToPdfReturnBlob } from '../utils/ocrCanvasToPdfReturnBlob';
-import { textGetLanguageName } from '../utils/textGetLanguageName';
+import { ocrOfficialSupportLanguages } from '../constant/ocrOfficialSupportLanguages';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
+type PDFDocumentProxy = any; //没有导出PDFDocumentProxy，所以这里用any代替，并且代码感知规范好一点
+
 const FunctionalityOcrPdfMain = () => {
+  console.log('simply', ocrOfficialSupportLanguages);
   const { t } = useTranslation();
-  const defaultConversionGrade = 'default';
+  const defaultConversionGrade = 'default'; //默认图片分辨率等级  默认为2倍  高 为4倍
   const [file, setFile] = useState<File | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [loadingTitle, setLoadingTitle] = useState<string>('');
-  const oldConversionLanguage = useRef('eng');
-  const [conversionLanguage, setConversionLanguage] = useState<string>('eng');
+  const [loadingTitle, setLoadingTitle] = useState<string>(''); //loading标题
+  const oldConversionLanguage = useRef('eng'); //上一次用户选择的语言
+  const [conversionLanguage, setConversionLanguage] = useState<string>('eng'); //当前用户选择的语言
   const [conversionGrade, setConversionGrade] = useState<'default' | 'high'>(
     defaultConversionGrade,
-  );
+  ); //当前用户选择的图片分辨率等级
   const [pagesBackgroundCanvas, setPagesBackgroundCanvas] = useState<
-    any | undefined
-  >(undefined); //pdf背景图片数据列表，会在识别的时候用到
-  const [pdFDocument, setPdFDocument] = useState<any | undefined>(undefined);
-  //开始OCR PDF并下载
+    HTMLCanvasElement[]
+  >([]); //pdf背景图片数据列表，会在识别的时候用到
+  const [pdFDocument, setPdFDocument] = useState<PDFDocumentProxy | undefined>(
+    undefined,
+  ); //pdf文档数据，会在识别的时候用到
   useEffect(() => {
-    setLoadingTitle('');
+    if (!isLoading) {
+      //如果不是loading状态，默认清空loading标题
+      setLoadingTitle('');
+    }
   }, [isLoading]);
   //获取PDF的图片Canvas
   const renderFilesToBackgroundCanvas = useCallback(
-    async (pdFDocument: any) => {
-      const insertPages: any[] = [];
+    async (pdFDocument: PDFDocumentProxy) => {
+      const insertPages: HTMLCanvasElement[] = [];
       for (let index = 1; index < pdFDocument.numPages + 1; index++) {
         setLoadingTitle(`PDF Loading ${index}/${pdFDocument.numPages}`);
         const page = await pdFDocument.getPage(index); //获取PDF页面数据
         const canvas = await pdfPageBackgroundToCanvas(page, {
           viewportScale: conversionGrade === defaultConversionGrade ? 1 : 2,
         }); //获取背景图片Canvas
-        console.log(
-          'viewportScale',
-          conversionGrade === defaultConversionGrade ? 2 : 4,
-        );
         insertPages.push(canvas);
       }
       oldConversionLanguage.current = conversionGrade;
@@ -69,36 +72,40 @@ const FunctionalityOcrPdfMain = () => {
     },
     [conversionGrade],
   );
+  //OCR识别PDF并下载
   const onOcrPdfAndDownload = useCallback(async () => {
     try {
       if (file) {
         //开始识别
         setIsLoading(true);
         try {
-          if (!pdFDocument || !pagesBackgroundCanvas) return;
+          if (!pdFDocument || pagesBackgroundCanvas.length === 0) return;
           let pdfPagesBackgroundCanvas = pagesBackgroundCanvas;
           if (conversionGrade !== oldConversionLanguage.current) {
             pdfPagesBackgroundCanvas = await renderFilesToBackgroundCanvas(
               pdFDocument,
-            );
+            ); //重新获取背景图片Canvas
           }
           const currentPdfUint8Array = await fileToUInt8Array(file);
           const currentPdfDocument = await PDFDocument.load(
             currentPdfUint8Array,
-          ); //ocrCanvasToPdfReturnBlob 支持的数据格式，这里每次重新load成PDFDocument，是因为ocrCanvasToPdf会更改PDFDocument的数据，导致后面异常
+          ); //ocrCanvasToPdfReturnBlob 支持的数据格式，这里每次重新load成PDFDocument，是因为ocrCanvasToPdf会更改当前的PDFDocument的数据，导致后面异常
           const blob = await ocrCanvasToPdfReturnBlob(
             currentPdfDocument,
             pdfPagesBackgroundCanvas,
             conversionLanguage,
-            (allPage, currentNum, type) => {
+            (totalQuantity, currentNum, type) => {
               if (type === 'ocr') {
-                setLoadingTitle(`OCR ${currentNum}/${allPage}`);
+                setLoadingTitle(`OCR ${currentNum}/${totalQuantity}`);
               } else {
-                setLoadingTitle(`PDF Embed ${currentNum}/${allPage}`);
+                setLoadingTitle(
+                  `${t(
+                    'functionality__ocr_pdf:components__ocr_pdf__main__pdf_embed',
+                  )} ${currentNum}/${totalQuantity}`,
+                );
               }
             },
-          ); //识别
-          setLoadingTitle('');
+          ); //开始OCR识别
           setPagesBackgroundCanvas(pdfPagesBackgroundCanvas); //储存最新的背景图片Canvas 列表
           if (blob) {
             downloadUrl(blob, `MAX_AI.pdf`); //下载
@@ -113,9 +120,7 @@ const FunctionalityOcrPdfMain = () => {
     } catch (e) {
       setIsLoading(false);
       functionalityCommonSnackNotifications(
-        t(
-          'functionality__compress_pdf:components__compress_pdf__main__compress_error',
-        ),
+        t('functionality__ocr_pdf:components__ocr_pdf__main__ocr_error'),
       );
     }
   }, [
@@ -130,14 +135,16 @@ const FunctionalityOcrPdfMain = () => {
   ]);
 
   //获取PDF主要的语言
-  const getPdfMainLanguage = async (pdfDocument: any) => {
+  const getPdfMainLanguage = async (pdfDocument: PDFDocumentProxy) => {
     if (pdfDocument) {
       const centerNumber = Math.max(1, Math.floor(pdfDocument.numPages / 2));
       const page = await pdfDocument.getPage(centerNumber);
       let textContent = await page.getTextContent({
         includeMarkedContent: true,
       }); //获取文本内容列表
-      let allText = textContent.items.map((v) => (v as any).str).join('');
+      let allText = textContent.items
+        .map((v) => (v as { str: string }).str)
+        .join('');
       if (allText.length === 0) {
         //没有数据，循环获取到就不拿了，不做过多判断，不让用户等待太久时间
         for (let i = 1; i <= pdfDocument.numPages; i++) {
@@ -146,7 +153,9 @@ const FunctionalityOcrPdfMain = () => {
           textContent = await page.getTextContent({
             includeMarkedContent: true,
           }); //获取文本内容列表
-          allText = textContent.items.map((v) => (v as any).str).join('');
+          allText = textContent.items
+            .map((v) => (v as { str: string }).str)
+            .join('');
           if (allText.length > 0) {
             break;
           }
@@ -155,8 +164,10 @@ const FunctionalityOcrPdfMain = () => {
       const textLanguage = textGetLanguageName(
         allText,
         1000,
-        ocrLanguages.map((v) => (v.id === 'chi_sim' ? 'cmn' : v.id)),
-      );
+        ocrOfficialSupportLanguages.map((v) =>
+          v.id === 'chi_sim' ? 'cmn' : v.id,
+        ),
+      ); //传入文本获取主要的语言
       if (textLanguage === 'cmn') {
         //只有cmn中文和tesseract库语言不匹配
         setConversionLanguage('chi_sim');
@@ -190,9 +201,7 @@ const FunctionalityOcrPdfMain = () => {
         setIsLoading(false);
         console.log('simply onUploadFile error', e);
         functionalityCommonSnackNotifications(
-          t(
-            'functionality__compress_pdf:components__compress_pdf__main__compress_error',
-          ),
+          t('functionality__ocr_pdf:components__ocr_pdf__main__upload_error'),
         );
       }
     }
@@ -201,7 +210,7 @@ const FunctionalityOcrPdfMain = () => {
   const handleUnsupportedFileType = () => {
     functionalityCommonSnackNotifications(
       t(
-        'functionality__compress_pdf:components__compress_pdf__main__unsupported_file_type_tip',
+        'functionality__ocr_pdf:components__ocr_pdf__main__unsupported_file_type_tip',
       ),
     );
   };
@@ -214,7 +223,9 @@ const FunctionalityOcrPdfMain = () => {
           children: (
             <Stack gap={2} direction='row' alignItems='center'>
               {isLoading && <CircularProgress size={20} />}
-              <Box>Download</Box>
+              {t(
+                'functionality__ocr_pdf:components__ocr_pdf__main__ocr_and_download',
+              )}
             </Stack>
           ),
           variant: 'contained',
@@ -226,7 +237,7 @@ const FunctionalityOcrPdfMain = () => {
         type: 'button',
         buttonProps: {
           children: t(
-            'functionality__compress_pdf:components__compress_pdf__main__choose_another_file',
+            'functionality__ocr_pdf:components__ocr_pdf__main__choose_another_file',
           ),
           variant: 'outlined',
           disabled: isLoading,
@@ -240,24 +251,33 @@ const FunctionalityOcrPdfMain = () => {
     [isLoading, t, onOcrPdfAndDownload],
   );
 
-  //压缩等级列表
+  //图片分辨率等级列表
   const conversionGradeList = [
     {
-      title: 'Faster conversion time',
-      tips: t('Faster conversion time'),
+      title: t(
+        'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_title_1',
+      ),
+      tips: t(
+        'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_tips_1',
+      ),
       key: defaultConversionGrade,
     },
     {
-      title: t('High Accuracy'),
-      tips: t('Increases accuracy and conversion time'),
+      title: t(
+        'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_title_2',
+      ),
+      tips: t(
+        'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_tips_2',
+      ),
       key: 'high',
     },
   ];
-  const autocompleteValue = useMemo(() => {
-    return (ocrLanguages as any[]).find(
+
+  const autocompleteSelectValue = useMemo(() => {
+    return ocrOfficialSupportLanguages.find(
       (option) => option.id === conversionLanguage,
     );
-  }, [ocrLanguages, conversionLanguage]);
+  }, [conversionLanguage]);
   return (
     <Stack
       flexDirection='column'
@@ -416,17 +436,21 @@ const FunctionalityOcrPdfMain = () => {
                   }}
                   color='text.primary'
                 >
-                  Document conversionLanguage:
+                  {t(
+                    'functionality__ocr_pdf:components__ocr_pdf__main__document_conversionLanguage',
+                  )}
+                  :
                 </Typography>
                 <Autocomplete
                   id='combo-box-demo'
-                  defaultValue={autocompleteValue}
-                  options={ocrLanguages}
+                  defaultValue={autocompleteSelectValue}
+                  options={ocrOfficialSupportLanguages}
                   sx={{ flex: 1 }}
                   disableClearable
                   clearIcon={null}
+                  getOptionLabel={(option) => option.translation}
                   renderInput={(params) => <TextField {...params} />}
-                  onChange={(event: any, newValue) => {
+                  onChange={(_, newValue) => {
                     if (newValue) {
                       setConversionLanguage((newValue as { id: string }).id);
                     }

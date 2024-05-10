@@ -111,8 +111,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__compress_pdf__description'),
     },
     'ocr-pdf': {
-      title: 'notI18:ocr-pdf',
-      description: 'notI18:ocr-pdf',
+      title: t('seo:pdf_tools__ocr_pdf__title'),
+      description: t('seo:pdf_tools__ocr_pdf__description'),
     },
   };
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];

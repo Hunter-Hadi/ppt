@@ -2,46 +2,67 @@ import { franc } from 'franc';
 import countBy from 'lodash-es/countBy';
 import maxBy from 'lodash-es/maxBy';
 
-function removeMarkdownImageAndLinks(markdownText: string): string {
-  const regex =
-    /(?=\[(!\[.+?\]\(.+?\)|.+?)]\(((https?:\/\/|data:image)[^)]+)\))/gi;
-  let match;
-  const links: any[] = [];
-  while ((match = regex.exec(markdownText)) !== null) {
-    links.push({
-      text: match[1],
-      link: match[2],
-    });
-  }
-  let cleanedText = markdownText;
-  //remove links
-  links.forEach(({ text, link }) => {
-    // 为了避免干扰，都去掉
-    cleanedText = markdownText.replace(text, '');
-    cleanedText = markdownText.replace(link, '');
-  });
-  // 不知道为什么滤不干净, 再次过滤 []()
-  const lineWordRegex = /\[(?<Name>[^\]]+)]\([^)]+\)/g;
-  let linkWordMatch;
-  const linkWords: any[] = [];
-  while ((linkWordMatch = lineWordRegex.exec(cleanedText)) !== null) {
-    linkWords.push(linkWordMatch.groups.Name); // 使用命名捕获组 'Name' 获取链接文本
-  }
-  linkWords.forEach((linkWord) => {
-    if (linkWord.groups?.Name) {
-      cleanedText = cleanedText.replace(linkWord[0], linkWord.groups.Name);
+const removeMarkdownImageAndLinks = (markdownText: string) => {
+  try {
+    const regex =
+      /(?=\[(!\[.+?\]\(.+?\)|.+?)]\(((https?:\/\/|data:image)[^)]+)\))/gi;
+    let match;
+    const links: {
+      text: string;
+      link: string;
+    }[] = [];
+    while ((match = regex.exec(markdownText)) !== null) {
+      links.push({
+        text: match[1],
+        link: match[2],
+      });
     }
-  });
-  // 去掉剩下的urls
-  const urlRegex = /(?:(?:https?|ftp):\/\/)?[\w/\-?=%.]+\.[\w/\-&?=%.]+/gi;
-  cleanedText = cleanedText.replace(urlRegex, '');
-  const chunks = cleanedText.split('\n').map((chunk) => {
-    // 去掉markdown的格式, #, ##, -, *, >, `
-    const regex = /^(?:\s*[-*]\s+|#+\s+|>\s+|`|\*\*.*\*\*|\[[^\]]+])/g;
-    return chunk.replace(regex, '');
-  });
-  return chunks.join('\n');
-}
+    let cleanedText = markdownText;
+    //remove links
+    links.forEach(({ text, link }) => {
+      // 为了避免干扰，都去掉
+      cleanedText = markdownText.replace(text, '');
+      cleanedText = markdownText.replace(link, '');
+    });
+    // 不知道为什么滤不干净, 再次过滤 []()
+    // 使用正则表达式匹配所有Markdown链接
+    var linkWordsRegex = /\[([^\]]+)]\([^)]+\)/g;
+    var linkWordsMatches;
+    var linkWords: {
+      fullMatch: string;
+      Name: string;
+    }[] = [];
+
+    // 循环所有匹配项并将其添加到数组中
+    while ((linkWordsMatches = linkWordsRegex.exec(cleanedText)) !== null) {
+      // 匹配到的文本整体是 linkWordsMatches[0]
+      // 捕获组内链接文本是 linkWordsMatches[1]
+      linkWords.push({
+        fullMatch: linkWordsMatches[0],
+        Name: linkWordsMatches[1],
+      });
+    }
+
+    // 遍历匹配到的链接文字
+    linkWords.forEach(function (linkWord) {
+      if (linkWord.Name) {
+        // 替换整个匹配文本为 Name
+        cleanedText = cleanedText.replace(linkWord.fullMatch, linkWord.Name);
+      }
+    });
+    // 去掉剩下的urls
+    const urlRegex = /(?:(?:https?|ftp):\/\/)?[\w/\-?=%.]+\.[\w/\-&?=%.]+/gi;
+    cleanedText = cleanedText.replace(urlRegex, '');
+    const chunks = cleanedText.split('\n').map((chunk) => {
+      // 去掉markdown的格式, #, ##, -, *, >, `
+      const regex = /^(?:\s*[-*]\s+|#+\s+|>\s+|`|\*\*.*\*\*|\[[^\]]+])/g;
+      return chunk.replace(regex, '');
+    });
+    return chunks.join('\n');
+  } catch (e) {
+    return markdownText;
+  }
+};
 
 /**
  * 获取文本的语言名称 只返回top20的语言
@@ -51,8 +72,8 @@ function removeMarkdownImageAndLinks(markdownText: string): string {
 export const textGetLanguageName = (
   text: string,
   sliceLength = 1000,
-  returnSpecifiedLanguageList?: string[],
-  fallbackLanguageName = 'eng',
+  returnSpecifiedLanguageList?: string[], //传入 将只能返回指定的语言列表，否则返回fallbackLanguageName
+  fallbackDefaultLanguageName = 'eng', //默认返回的语言
 ) => {
   // 截取的内容
   let sliceOfText = '';
@@ -137,5 +158,5 @@ export const textGetLanguageName = (
     }
   }
 
-  return fallbackLanguageName;
+  return fallbackDefaultLanguageName;
 };
