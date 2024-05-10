@@ -2,7 +2,7 @@ import { PDFDocument } from 'pdf-lib';
 import { createScheduler, createWorker } from 'tesseract.js';
 
 //OCR识别canvas并生成PDF
-export async function ocrCanvasToPdf(
+export async function ocrCanvasToPdfReturnBlob(
   origDoc: PDFDocument, //PDF文档
   canvases: HTMLCanvasElement[], //canvas数组
   language: string, //语言
@@ -14,6 +14,7 @@ export async function ocrCanvasToPdf(
   processesNumber?: number, //进程数,不设置根据硬件线程数/2跑，错误会为2重试一次.
 ) {
   try {
+    console.log('simply language', language);
     let currentProcessesNumber =
       processesNumber ||
       Math.min(
@@ -90,6 +91,12 @@ export async function ocrCanvasToPdf(
       //如果设置了进程数，且错误了，直接返回
       return false;
     }
-    return ocrCanvasToPdf(origDoc, canvases, language, callBackProgress, 2); //错误重试一次，并设置进程数为2
+    return ocrCanvasToPdfReturnBlob(
+      origDoc,
+      canvases,
+      language,
+      callBackProgress,
+      2,
+    ); //错误重试一次，并设置进程数为2
   }
 }

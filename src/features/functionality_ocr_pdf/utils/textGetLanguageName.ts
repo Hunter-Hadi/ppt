@@ -5,10 +5,14 @@ import maxBy from 'lodash-es/maxBy';
 function removeMarkdownImageAndLinks(markdownText: string): string {
   const regex =
     /(?=\[(!\[.+?\]\(.+?\)|.+?)]\(((https?:\/\/|data:image)[^)]+)\))/gi;
-  const links = [...markdownText.matchAll(regex)].map((m) => ({
-    text: m[1],
-    link: m[2],
-  }));
+  let match;
+  const links: any[] = [];
+  while ((match = regex.exec(markdownText)) !== null) {
+    links.push({
+      text: match[1],
+      link: match[2],
+    });
+  }
   let cleanedText = markdownText;
   //remove links
   links.forEach(({ text, link }) => {
@@ -17,7 +21,12 @@ function removeMarkdownImageAndLinks(markdownText: string): string {
     cleanedText = markdownText.replace(link, '');
   });
   // 不知道为什么滤不干净, 再次过滤 []()
-  const linkWords = [...cleanedText.matchAll(/\[(?<Name>[^\]]+)]\([^)]+\)/g)];
+  const lineWordRegex = /\[(?<Name>[^\]]+)]\([^)]+\)/g;
+  let linkWordMatch;
+  const linkWords: any[] = [];
+  while ((linkWordMatch = lineWordRegex.exec(cleanedText)) !== null) {
+    linkWords.push(linkWordMatch.groups.Name); // 使用命名捕获组 'Name' 获取链接文本
+  }
   linkWords.forEach((linkWord) => {
     if (linkWord.groups?.Name) {
       cleanedText = cleanedText.replace(linkWord[0], linkWord.groups.Name);
@@ -34,29 +43,6 @@ function removeMarkdownImageAndLinks(markdownText: string): string {
   return chunks.join('\n');
 }
 
-// 优先使用的语言
-const top20Languages = [
-  'eng', // 英语
-  'cmn', // 汉语（官话方言）
-  'hin', // 印地语
-  'spa', // 西班牙语
-  'ara', // 阿拉伯语
-  'ben', // 孟加拉语
-  'rus', // 俄语
-  'por', // 葡萄牙语
-  'ind', // 印尼语
-  'urd', // 乌尔都语
-  'deu', // 德语
-  'jpn', // 日语
-  'swa', // 斯瓦希里语
-  'mar', // 马拉地语
-  'tel', // 泰卢固语
-  // 'yue',    // 粤语franc 不支持该语言
-  'ita', // 意大利语
-  'kor', // 韩语
-  'pol', // 波兰语
-];
-
 /**
  * 获取文本的语言名称 只返回top20的语言
  * @param text
@@ -65,6 +51,7 @@ const top20Languages = [
 export const textGetLanguageName = (
   text: string,
   sliceLength = 1000,
+  returnSpecifiedLanguageList?: string[],
   fallbackLanguageName = 'eng',
 ) => {
   // 截取的内容
@@ -108,21 +95,26 @@ export const textGetLanguageName = (
         (isoCode) => isoCodeCount[isoCode],
       );
       if (maxIsoCode) {
-        if (top20Languages.includes(maxIsoCode)) {
+        if (returnSpecifiedLanguageList) {
+          //有returnSpecifiedLanguageList 则要判断是否在其中，才返回
+          if (returnSpecifiedLanguageList.includes(maxIsoCode)) {
+            return maxIsoCode;
+          }
+          // 如果不是top20的语言, 则看看第二多的是不是top20的语言
+          const secondMaxIsoCode = maxBy(
+            Object.keys(isoCodeCount),
+            (isoCode) => isoCodeCount[isoCode] !== isoCodeCount[maxIsoCode],
+          );
+          //  如果第二多的是top20的语言，并且差距第一不到2, 则使用第二多的
+          if (
+            secondMaxIsoCode &&
+            returnSpecifiedLanguageList.includes(secondMaxIsoCode) &&
+            isoCodeCount[maxIsoCode] - isoCodeCount[secondMaxIsoCode] <= 2
+          ) {
+            return secondMaxIsoCode;
+          }
+        } else {
           return maxIsoCode;
-        }
-        // 如果不是top20的语言, 则看看第二多的是不是top20的语言
-        const secondMaxIsoCode = maxBy(
-          Object.keys(isoCodeCount),
-          (isoCode) => isoCodeCount[isoCode] !== isoCodeCount[maxIsoCode],
-        );
-        //  如果第二多的是top20的语言，并且差距第一不到2, 则使用第二多的
-        if (
-          secondMaxIsoCode &&
-          top20Languages.includes(secondMaxIsoCode) &&
-          isoCodeCount[maxIsoCode] - isoCodeCount[secondMaxIsoCode] <= 2
-        ) {
-          return secondMaxIsoCode;
         }
       }
     }
@@ -134,10 +126,16 @@ export const textGetLanguageName = (
   }
   // 如果没有找到, 匹配全文
   const fullSliceOfTextIsoCode = franc(sliceOfText);
-  console.log('fullSliceOfTextIsoCode', fullSliceOfTextIsoCode);
-  // 如果是top20的语言, 则直接返回
-  if (top20Languages.includes(fullSliceOfTextIsoCode)) {
-    return fullSliceOfTextIsoCode || fallbackLanguageName;
+  if (fullSliceOfTextIsoCode) {
+    if (returnSpecifiedLanguageList) {
+      //有returnSpecifiedLanguageList 则要判断是否在其中，才返回
+      if (returnSpecifiedLanguageList.includes(fullSliceOfTextIsoCode)) {
+        return fullSliceOfTextIsoCode;
+      }
+    } else {
+      return fullSliceOfTextIsoCode;
+    }
   }
+
   return fallbackLanguageName;
 };

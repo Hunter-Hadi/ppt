@@ -1,15 +1,15 @@
 import {
+  Autocomplete,
   Box,
   CircularProgress,
   Grid,
-  MenuItem,
-  Select,
   Stack,
+  TextField,
   Typography,
 } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 
 import {
@@ -23,7 +23,7 @@ import { functionalityCommonSnackNotifications } from '@/features/functionality_
 import { pdfPageBackgroundToCanvas } from '@/features/functionality_common/utils/functionalityCommonPdfPageBackgroundToCanvas';
 
 import { ocrLanguages } from '../constant/languages';
-import { ocrCanvasToPdf } from '../utils/ocrCanvasToPdf';
+import { ocrCanvasToPdfReturnBlob } from '../utils/ocrCanvasToPdfReturnBlob';
 import { textGetLanguageName } from '../utils/textGetLanguageName';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -40,36 +40,53 @@ const FunctionalityOcrPdfMain = () => {
   const [conversionGrade, setConversionGrade] = useState<'default' | 'high'>(
     defaultConversionGrade,
   );
-
   const [pagesBackgroundCanvas, setPagesBackgroundCanvas] = useState<
     any | undefined
   >(undefined); //pdf背景图片数据列表，会在识别的时候用到
-  const [pdFDocumentProxy, setPdFDocumentProxy] = useState<any | undefined>(
-    undefined,
-  );
-
+  const [pdFDocument, setPdFDocument] = useState<any | undefined>(undefined);
   //开始OCR PDF并下载
   useEffect(() => {
     setLoadingTitle('');
   }, [isLoading]);
-  const onOcrPdfAndDownload = async () => {
+  //获取PDF的图片Canvas
+  const renderFilesToBackgroundCanvas = useCallback(
+    async (pdFDocument: any) => {
+      const insertPages: any[] = [];
+      for (let index = 1; index < pdFDocument.numPages + 1; index++) {
+        setLoadingTitle(`PDF Loading ${index}/${pdFDocument.numPages}`);
+        const page = await pdFDocument.getPage(index); //获取PDF页面数据
+        const canvas = await pdfPageBackgroundToCanvas(page, {
+          viewportScale: conversionGrade === defaultConversionGrade ? 1 : 2,
+        }); //获取背景图片Canvas
+        console.log(
+          'viewportScale',
+          conversionGrade === defaultConversionGrade ? 2 : 4,
+        );
+        insertPages.push(canvas);
+      }
+      oldConversionLanguage.current = conversionGrade;
+      return insertPages;
+    },
+    [conversionGrade],
+  );
+  const onOcrPdfAndDownload = useCallback(async () => {
     try {
       if (file) {
         //开始识别
         setIsLoading(true);
         try {
-          if (!pdFDocumentProxy || !pagesBackgroundCanvas) return;
+          if (!pdFDocument || !pagesBackgroundCanvas) return;
           let pdfPagesBackgroundCanvas = pagesBackgroundCanvas;
           if (conversionGrade !== oldConversionLanguage.current) {
             pdfPagesBackgroundCanvas = await renderFilesToBackgroundCanvas(
-              pdFDocumentProxy,
+              pdFDocument,
             );
           }
           const currentPdfUint8Array = await fileToUInt8Array(file);
           const currentPdfDocument = await PDFDocument.load(
             currentPdfUint8Array,
-          ); //ocrCanvasToPdf 支持的数据格式，这里每次重新load成PDFDocument，是因为ocrCanvasToPdf会更改PDFDocument的数据，导致后面异常
-          const blob = await ocrCanvasToPdf(
+          ); //ocrCanvasToPdfReturnBlob 支持的数据格式，这里每次重新load成PDFDocument，是因为ocrCanvasToPdf会更改PDFDocument的数据，导致后面异常
+          const blob = await ocrCanvasToPdfReturnBlob(
             currentPdfDocument,
             pdfPagesBackgroundCanvas,
             conversionLanguage,
@@ -86,7 +103,7 @@ const FunctionalityOcrPdfMain = () => {
           if (blob) {
             downloadUrl(blob, `MAX_AI.pdf`); //下载
           } else {
-            throw new Error('ocrCanvasToPdf error');
+            throw new Error('ocrCanvasToPdfReturnBlob error');
           }
         } catch (err) {
           console.warn(err);
@@ -101,42 +118,31 @@ const FunctionalityOcrPdfMain = () => {
         ),
       );
     }
-  };
+  }, [
+    conversionGrade,
+    conversionLanguage,
+    file,
+    oldConversionLanguage,
+    pagesBackgroundCanvas,
+    pdFDocument,
+    t,
+    renderFilesToBackgroundCanvas,
+  ]);
 
-  //获取PDF的图片Canvas
-  const renderFilesToBackgroundCanvas = async (pdFDocumentProxy: any) => {
-    const insertPages: any[] = [];
-    for (let index = 1; index < pdFDocumentProxy.numPages + 1; index++) {
-      setLoadingTitle(`PDF Loading ${index}/${pdFDocumentProxy.numPages}`);
-      const page = await pdFDocumentProxy.getPage(index); //获取PDF页面数据
-      const canvas = await pdfPageBackgroundToCanvas(page, {
-        viewportScale: conversionGrade === defaultConversionGrade ? 1 : 2,
-      }); //获取背景图片Canvas
-      console.log(
-        'viewportScale',
-        conversionGrade === defaultConversionGrade ? 2 : 4,
-      );
-      insertPages.push(canvas);
-    }
-    oldConversionLanguage.current = conversionGrade;
-    return insertPages;
-  };
   //获取PDF主要的语言
-  const getPdfMainLanguage = async (nowFile: File) => {
-    if (nowFile) {
-      const buff = await fileToUInt8Array(nowFile);
-      const pdf = await pdfjs.getDocument(buff).promise;
-      const centerNumber = Math.max(1, Math.floor(pdf.numPages / 2));
-      const page = await pdf.getPage(centerNumber);
+  const getPdfMainLanguage = async (pdfDocument: any) => {
+    if (pdfDocument) {
+      const centerNumber = Math.max(1, Math.floor(pdfDocument.numPages / 2));
+      const page = await pdfDocument.getPage(centerNumber);
       let textContent = await page.getTextContent({
         includeMarkedContent: true,
       }); //获取文本内容列表
       let allText = textContent.items.map((v) => (v as any).str).join('');
       if (allText.length === 0) {
         //没有数据，循环获取到就不拿了，不做过多判断，不让用户等待太久时间
-        for (let i = 1; i <= pdf.numPages; i++) {
+        for (let i = 1; i <= pdfDocument.numPages; i++) {
           if (i === centerNumber) continue;
-          const page = await pdf.getPage(i);
+          const page = await pdfDocument.getPage(i);
           textContent = await page.getTextContent({
             includeMarkedContent: true,
           }); //获取文本内容列表
@@ -146,7 +152,11 @@ const FunctionalityOcrPdfMain = () => {
           }
         }
       }
-      const textLanguage = textGetLanguageName(allText);
+      const textLanguage = textGetLanguageName(
+        allText,
+        1000,
+        ocrLanguages.map((v) => (v.id === 'chi_sim' ? 'cmn' : v.id)),
+      );
       if (textLanguage === 'cmn') {
         //只有cmn中文和tesseract库语言不匹配
         setConversionLanguage('chi_sim');
@@ -163,17 +173,16 @@ const FunctionalityOcrPdfMain = () => {
         setLoadingTitle('PDF 加载中...');
         setIsLoading(true);
         const nowFile = fileList[0];
-        getPdfMainLanguage(nowFile); //拿主要的语言
         const currentPdfUint8Array = await fileToUInt8Array(nowFile);
-        await PDFDocument.load(currentPdfUint8Array); //用于检测PDF是否加密或者异常
-        const currentPdFDocumentProxy = await pdfjs.getDocument(
-          currentPdfUint8Array,
-        ).promise;
+        await PDFDocument.load(currentPdfUint8Array); //放在这里作用是检测PDF是否加密或者异常，会进入try catch
+        const currentPdfDocument = await pdfjs.getDocument(currentPdfUint8Array)
+          .promise;
+        getPdfMainLanguage(currentPdfDocument); //拿主要的语言
         const currentBackgroundCanvas = await renderFilesToBackgroundCanvas(
-          currentPdFDocumentProxy,
+          currentPdfDocument,
         ); //获取背景图片Canvas
         //一个PDf可以不用二次获取上面的数据，当用户不满意的时候，可以直接选择高精度OCR
-        setPdFDocumentProxy(currentPdFDocumentProxy);
+        setPdFDocument(currentPdfDocument);
         setPagesBackgroundCanvas(currentBackgroundCanvas);
         setIsLoading(false);
       } catch (e) {
@@ -228,7 +237,7 @@ const FunctionalityOcrPdfMain = () => {
         },
       },
     ],
-    [isLoading, file, conversionGrade, t],
+    [isLoading, t, onOcrPdfAndDownload],
   );
 
   //压缩等级列表
@@ -244,6 +253,11 @@ const FunctionalityOcrPdfMain = () => {
       key: 'high',
     },
   ];
+  const autocompleteValue = useMemo(() => {
+    return (ocrLanguages as any[]).find(
+      (option) => option.id === conversionLanguage,
+    );
+  }, [ocrLanguages, conversionLanguage]);
   return (
     <Stack
       flexDirection='column'
@@ -404,33 +418,20 @@ const FunctionalityOcrPdfMain = () => {
                 >
                   Document conversionLanguage:
                 </Typography>
-                <Select
-                  value={conversionLanguage}
-                  onChange={(event) =>
-                    setConversionLanguage(event.target.value)
-                  }
-                  displayEmpty
-                  size='small'
-                  sx={{
-                    flex: 1,
+                <Autocomplete
+                  id='combo-box-demo'
+                  defaultValue={autocompleteValue}
+                  options={ocrLanguages}
+                  sx={{ flex: 1 }}
+                  disableClearable
+                  clearIcon={null}
+                  renderInput={(params) => <TextField {...params} />}
+                  onChange={(event: any, newValue) => {
+                    if (newValue) {
+                      setConversionLanguage((newValue as { id: string }).id);
+                    }
                   }}
-                  MenuProps={{
-                    PaperProps: {
-                      style: {
-                        height: 366,
-                      },
-                    },
-                  }}
-                >
-                  {ocrLanguages.map((conversionLanguage) => (
-                    <MenuItem
-                      key={conversionLanguage.code}
-                      value={conversionLanguage.code}
-                    >
-                      {conversionLanguage.name}
-                    </MenuItem>
-                  ))}
-                </Select>
+                />
               </Grid>
             </Grid>
           </Box>
