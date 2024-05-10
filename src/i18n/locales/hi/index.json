@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "उच्च सटीकता",
     "components__ocr_pdf__main__conversion_grade_tips_2": "सटीकता और परिवर्तन समय में वृद्धि",
     "components__ocr_pdf__main__document_conversionLanguage": "दस्तावेज़ परिवर्तन भाषा",
-    "components__ocr_pdf__main__ocr_and_download": "संपीड़ित करें और डाउनलोड करें"
+    "components__ocr_pdf__main__ocr_loading": "पीडीएफ लोड हो रहा है",
+    "components__ocr_pdf__main__ocr_and_download": "OCR और डाउनलोड"
   }
 }

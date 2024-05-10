@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Alta Precisão",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Aumenta a precisão e o tempo de conversão",
     "components__ocr_pdf__main__document_conversionLanguage": "Idioma de conversão do documento",
-    "components__ocr_pdf__main__ocr_and_download": "Comprimir e Baixar"
+    "components__ocr_pdf__main__ocr_loading": "Carregando PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR e Download"
   }
 }

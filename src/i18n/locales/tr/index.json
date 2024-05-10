@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Yüksek Doğruluk",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Doğruluğu ve dönüşüm süresini artırır",
     "components__ocr_pdf__main__document_conversionLanguage": "Belge Dönüştürme Dili",
-    "components__ocr_pdf__main__ocr_and_download": "Sıkıştır ve İndir"
+    "components__ocr_pdf__main__ocr_loading": "PDF Yükleniyor",
+    "components__ocr_pdf__main__ocr_and_download": "OCR ve İndir"
   }
 }

@@ -1,3 +1,4 @@
+//文件转换为Uint8Array
 export const fileToUInt8Array = (file: File | Blob): Promise<Uint8Array> => {
   return new Promise<Uint8Array>((resolve, reject) => {
     const reader = new FileReader();

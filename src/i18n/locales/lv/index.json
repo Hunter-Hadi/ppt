@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Augsta precizitāte",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Palielina precizitāti un konvertēšanas laiku",
     "components__ocr_pdf__main__document_conversionLanguage": "Dokumenta konvertēšanas valoda",
-    "components__ocr_pdf__main__ocr_and_download": "Saspiež un lejupielādē"
+    "components__ocr_pdf__main__ocr_loading": "PDF Ielāde",
+    "components__ocr_pdf__main__ocr_and_download": "OCR un Lejupielādēt"
   }
 }

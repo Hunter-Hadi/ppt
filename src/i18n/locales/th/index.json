@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "ความแม่นยำสูง",
     "components__ocr_pdf__main__conversion_grade_tips_2": "เพิ่มความแม่นยำและเวลาแปลง",
     "components__ocr_pdf__main__document_conversionLanguage": "ภาษาการแปลงเอกสาร",
-    "components__ocr_pdf__main__ocr_and_download": "บีบอัดและดาวน์โหลด"
+    "components__ocr_pdf__main__ocr_loading": "การโหลด PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR และดาวน์โหลด"
   }
 }

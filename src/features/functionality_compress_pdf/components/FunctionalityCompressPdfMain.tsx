@@ -1,4 +1,4 @@
-import { Box, CircularProgress, Grid, Stack, Typography } from '@mui/material';
+import { Box, CircularProgress, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument, PDFName, PDFNumber, PDFRawStream } from 'pdf-lib';
 import { useMemo, useState } from 'react';
@@ -7,6 +7,7 @@ import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
+import FunctionalityCommonOptionSelector from '@/features/functionality_common/components/FunctionalityCommonOptionSelector';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
@@ -253,86 +254,14 @@ const FunctionalityCompressPdfMain = () => {
               width: '100%',
             }}
           >
-            {compressGradeList.map((item, index) => (
-              <Grid container key={index} justifyContent='center'>
-                <Grid item xs={12} lg={8}>
-                  <Stack
-                    direction='row'
-                    alignItems='center'
-                    onClick={() => {
-                      if (!isLoading) {
-                        setCompressionGrade(
-                          item.key as 'low' | 'basic' | 'strong',
-                        );
-                      }
-                    }}
-                    gap={2}
-                    sx={{
-                      padding: 1.5,
-                      cursor: isLoading ? '' : 'pointer',
-                      border: `1px solid ${
-                        item.key === compressionGrade ? '#9065B0' : '#e8e8e8'
-                      }`,
-                      borderRadius: 1,
-                      mt: 1,
-                      '&:hover': {
-                        bgcolor: isLoading ? 'transcript' : '#f4f4f4',
-                      },
-                    }}
-                  >
-                    <Stack
-                      direction='row'
-                      alignItems='center'
-                      justifyContent='center'
-                      sx={{
-                        border: `1px solid ${
-                          item.key === compressionGrade ? '#9065B0' : '#e8e8e8'
-                        }`,
-                        width: 20,
-                        height: 20,
-                        borderRadius: 10,
-                      }}
-                    >
-                      <Box
-                        sx={{
-                          bgcolor:
-                            item.key === compressionGrade
-                              ? '#9065B0'
-                              : 'transcript',
-                          width: 17,
-                          height: 17,
-                          borderRadius: 10,
-                        }}
-                      ></Box>
-                    </Stack>
-                    <Box>
-                      <Box>
-                        <Typography
-                          fontSize={{
-                            xs: 14,
-                            lg: 16,
-                          }}
-                          color='text.primary'
-                        >
-                          {item.title}
-                        </Typography>
-                      </Box>
-                      <Box>
-                        <Typography
-                          fontSize={{
-                            xs: 12,
-                            lg: 14,
-                          }}
-                          color='text.secondary'
-                        >
-                          {item.tips}
-                        </Typography>
-                      </Box>
-                    </Box>
-                  </Stack>
-                </Grid>
-              </Grid>
-            ))}
+            <FunctionalityCommonOptionSelector
+              disabled={isLoading}
+              list={compressGradeList}
+              activeId={compressionGrade}
+              onSelect={(key) =>
+                setCompressionGrade(key as 'low' | 'basic' | 'strong')
+              }
+            />
           </Box>
           <FunctionalityCommonButtonListView
             buttonConfigs={compressBeforeButtonConfigs}

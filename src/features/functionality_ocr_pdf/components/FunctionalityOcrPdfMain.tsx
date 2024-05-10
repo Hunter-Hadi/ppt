@@ -16,15 +16,15 @@ import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
+import FunctionalityCommonOptionSelector from '@/features/functionality_common/components/FunctionalityCommonOptionSelector';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 import { pdfPageBackgroundToCanvas } from '@/features/functionality_common/utils/functionalityCommonPdfPageBackgroundToCanvas';
 import { textGetLanguageName } from '@/features/functionality_common/utils/textGetLanguageName';
+import { ocrOfficialSupportLanguages } from '@/features/functionality_ocr_pdf/constant/ocrOfficialSupportLanguages';
 import { ocrCanvasToPdfReturnBlob } from '@/features/functionality_ocr_pdf/utils/ocrCanvasToPdfReturnBlob';
-
-import { ocrOfficialSupportLanguages } from '../constant/ocrOfficialSupportLanguages';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
@@ -32,7 +32,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 type PDFDocumentProxy = any; //没有导出PDFDocumentProxy，所以这里用any代替，并且代码感知规范好一点
 
 const FunctionalityOcrPdfMain = () => {
-  console.log('simply', ocrOfficialSupportLanguages);
   const { t } = useTranslation();
   const defaultConversionGrade = 'default'; //默认图片分辨率等级  默认为2倍  高 为4倍
   const [file, setFile] = useState<File | null>(null);
@@ -60,7 +59,11 @@ const FunctionalityOcrPdfMain = () => {
     async (pdFDocument: PDFDocumentProxy) => {
       const insertPages: HTMLCanvasElement[] = [];
       for (let index = 1; index < pdFDocument.numPages + 1; index++) {
-        setLoadingTitle(`PDF Loading ${index}/${pdFDocument.numPages}`);
+        setLoadingTitle(
+          `${t(
+            'functionality__ocr_pdf:components__ocr_pdf__main__ocr_loading',
+          )} ${index}/${pdFDocument.numPages}`,
+        );
         const page = await pdFDocument.getPage(index); //获取PDF页面数据
         const canvas = await pdfPageBackgroundToCanvas(page, {
           viewportScale: conversionGrade === defaultConversionGrade ? 1 : 2,
@@ -100,7 +103,7 @@ const FunctionalityOcrPdfMain = () => {
               } else {
                 setLoadingTitle(
                   `${t(
-                    'functionality__ocr_pdf:components__ocr_pdf__main__pdf_embed',
+                    'functionality__ocr_pdf:components__ocr_pdf__main__loading_title__pdf_embed',
                   )} ${currentNum}/${totalQuantity}`,
                 );
               }
@@ -118,6 +121,7 @@ const FunctionalityOcrPdfMain = () => {
         setIsLoading(false);
       }
     } catch (e) {
+      console.log('simply onOcrPdfAndDownload error', e);
       setIsLoading(false);
       functionalityCommonSnackNotifications(
         t('functionality__ocr_pdf:components__ocr_pdf__main__ocr_error'),
@@ -181,7 +185,11 @@ const FunctionalityOcrPdfMain = () => {
     if (fileList[0]) {
       try {
         setFile(fileList[0]);
-        setLoadingTitle('PDF 加载中...');
+        setLoadingTitle(
+          `${t(
+            'functionality__ocr_pdf:components__ocr_pdf__main__ocr_loading',
+          )}...`,
+        );
         setIsLoading(true);
         const nowFile = fileList[0];
         const currentPdfUint8Array = await fileToUInt8Array(nowFile);
@@ -341,84 +349,12 @@ const FunctionalityOcrPdfMain = () => {
               width: '100%',
             }}
           >
-            {conversionGradeList.map((item, index) => (
-              <Grid container key={index} justifyContent='center'>
-                <Grid item xs={12} lg={8}>
-                  <Stack
-                    direction='row'
-                    alignItems='center'
-                    onClick={() => {
-                      if (!isLoading) {
-                        setConversionGrade(item.key as 'default' | 'high');
-                      }
-                    }}
-                    gap={2}
-                    sx={{
-                      padding: 1.5,
-                      cursor: isLoading ? '' : 'pointer',
-                      border: `1px solid ${
-                        item.key === conversionGrade ? '#9065B0' : '#e8e8e8'
-                      }`,
-                      borderRadius: 1,
-                      mt: 1,
-                      '&:hover': {
-                        bgcolor: isLoading ? 'transcript' : '#f4f4f4',
-                      },
-                    }}
-                  >
-                    <Stack
-                      direction='row'
-                      alignItems='center'
-                      justifyContent='center'
-                      sx={{
-                        border: `1px solid ${
-                          item.key === conversionGrade ? '#9065B0' : '#e8e8e8'
-                        }`,
-                        width: 20,
-                        height: 20,
-                        borderRadius: 10,
-                      }}
-                    >
-                      <Box
-                        sx={{
-                          bgcolor:
-                            item.key === conversionGrade
-                              ? '#9065B0'
-                              : 'transcript',
-                          width: 17,
-                          height: 17,
-                          borderRadius: 10,
-                        }}
-                      ></Box>
-                    </Stack>
-                    <Box>
-                      <Box>
-                        <Typography
-                          fontSize={{
-                            xs: 14,
-                            lg: 16,
-                          }}
-                          color='text.primary'
-                        >
-                          {item.title}
-                        </Typography>{' '}
-                      </Box>
-                      <Box>
-                        <Typography
-                          fontSize={{
-                            xs: 12,
-                            lg: 14,
-                          }}
-                          color='text.secondary'
-                        >
-                          {item.tips}
-                        </Typography>
-                      </Box>
-                    </Box>
-                  </Stack>
-                </Grid>
-              </Grid>
-            ))}
+            <FunctionalityCommonOptionSelector
+              disabled={isLoading}
+              list={conversionGradeList}
+              activeId={conversionGrade}
+              onSelect={(key) => setConversionGrade(key as 'default' | 'high')}
+            />
             <Grid container justifyContent='center' mt={2}>
               <Grid
                 item
@@ -442,7 +378,7 @@ const FunctionalityOcrPdfMain = () => {
                   :
                 </Typography>
                 <Autocomplete
-                  id='combo-box-demo'
+                  id='ocr-pdf-autocomplete'
                   defaultValue={autocompleteSelectValue}
                   options={ocrOfficialSupportLanguages}
                   sx={{ flex: 1 }}

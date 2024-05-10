@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Usahihi wa Juu",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Inaboresha usahihi na muda wa uongofu",
     "components__ocr_pdf__main__document_conversionLanguage": "Lugha ya Kubadilisha Hati",
-    "components__ocr_pdf__main__ocr_and_download": "Finya & Pakua"
+    "components__ocr_pdf__main__ocr_loading": "Upakiaji wa PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR na Pakua"
   }
 }

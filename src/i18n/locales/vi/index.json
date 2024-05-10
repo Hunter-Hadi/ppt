@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Độ chính xác Cao",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Tăng độ chính xác và thời gian chuyển đổi",
     "components__ocr_pdf__main__document_conversionLanguage": "Ngôn ngữ chuyển đổi tài liệu",
-    "components__ocr_pdf__main__ocr_and_download": "Nén & Tải xuống"
+    "components__ocr_pdf__main__ocr_loading": "Đang tải PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR và Tải xuống"
   }
 }

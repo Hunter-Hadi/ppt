@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "دقة عالية",
     "components__ocr_pdf__main__conversion_grade_tips_2": "زيادة الدقة ووقت التحويل",
     "components__ocr_pdf__main__document_conversionLanguage": "لغة تحويل المستند",
-    "components__ocr_pdf__main__ocr_and_download": "ضغط وتنزيل"
+    "components__ocr_pdf__main__ocr_loading": "تحميل PDF",
+    "components__ocr_pdf__main__ocr_and_download": "تحويل النص إلى نص وتنزيل"
   }
 }

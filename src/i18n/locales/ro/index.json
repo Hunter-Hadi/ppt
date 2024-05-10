@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Precizie ridicată",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Crește precizia și timpul de conversie",
     "components__ocr_pdf__main__document_conversionLanguage": "Limba de conversie a documentului",
-    "components__ocr_pdf__main__ocr_and_download": "Comprimare și descărcare"
+    "components__ocr_pdf__main__ocr_loading": "Încărcare PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR și Descărcare"
   }
 }

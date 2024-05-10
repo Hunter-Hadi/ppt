@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "मोठी अचूकता",
     "components__ocr_pdf__main__conversion_grade_tips_2": "अचूकता व रूपांतरण कालावधी वाढवते",
     "components__ocr_pdf__main__document_conversionLanguage": "कागदपत्र रूपांतरण भाषा",
-    "components__ocr_pdf__main__ocr_and_download": "संकुचित करा आणि डाउनलोड करा"
+    "components__ocr_pdf__main__ocr_loading": "PDF लोड होत आहे",
+    "components__ocr_pdf__main__ocr_and_download": "OCR आणि डाउनलोड"
   }
 }

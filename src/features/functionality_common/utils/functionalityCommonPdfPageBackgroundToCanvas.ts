@@ -2,8 +2,10 @@ interface IOpts {
   viewportScale: number;
   hideText?: boolean;
 }
+
+// 从PDF页面创建一个canvas元素，包含了页面的背景,options可以配置去除文字只要图片
 export async function pdfPageBackgroundToCanvas(
-  page: any,
+  pdfPage: any,
   options: IOpts,
 ): Promise<HTMLCanvasElement> {
   // 保存原始的CanvasRenderingContext2D的文本方法
@@ -17,7 +19,7 @@ export async function pdfPageBackgroundToCanvas(
   }
 
   // 根据提供的选项中的viewportScale设置viewport
-  const viewport = page.getViewport({ scale: options.viewportScale || 1 });
+  const viewport = pdfPage.getViewport({ scale: options.viewportScale || 1 });
 
   // 创建一个新的canvas元素，并设置其宽高为viewport的宽高
   const canvas = document.createElement('canvas');
@@ -26,7 +28,7 @@ export async function pdfPageBackgroundToCanvas(
   canvas.height = viewport.height;
 
   // 渲染PDF页面到canvas
-  await page.render({
+  await pdfPage.render({
     canvasContext: context,
     viewport: viewport,
   }).promise;

@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Visoka preciznost",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Povećava preciznost i vrijeme konverzije",
     "components__ocr_pdf__main__document_conversionLanguage": "Jezik pretvorbe dokumenta",
-    "components__ocr_pdf__main__ocr_and_download": "Komprimiraj i preuzmi"
+    "components__ocr_pdf__main__ocr_loading": "Učitavanje PDF-a",
+    "components__ocr_pdf__main__ocr_and_download": "OCR i Preuzmi"
   }
 }

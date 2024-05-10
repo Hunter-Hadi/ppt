@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "Ketepatan Tinggi",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Meningkatkan ketepatan dan masa penukaran",
     "components__ocr_pdf__main__document_conversionLanguage": "Bahasa Penukaran Dokumen",
-    "components__ocr_pdf__main__ocr_and_download": "Kompres & Muat Turun"
+    "components__ocr_pdf__main__ocr_loading": "Pemuatan PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR & Muat Turun"
   }
 }

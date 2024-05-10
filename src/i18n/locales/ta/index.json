@@ -1107,6 +1107,7 @@
     "components__ocr_pdf__main__conversion_grade_title_2": "உயர் சரிபார்ப்பு",
     "components__ocr_pdf__main__conversion_grade_tips_2": "சரிபார்ப்பு நேரத்தையும் சரியாக்கும்",
     "components__ocr_pdf__main__document_conversionLanguage": "ஆவண மொழிமுகம்",
-    "components__ocr_pdf__main__ocr_and_download": "மூடுக & பதிவிறக்கு"
+    "components__ocr_pdf__main__ocr_loading": "பி.டி.எப் ஏற்றுக்கொள்ளும்",
+    "components__ocr_pdf__main__ocr_and_download": "எழுதியவை மற்றும் பதிவிறக்கம்"
   }
 }
