@@ -102,17 +102,20 @@ const FunctionalityPdfToHtmlMain = () => {
     ],
     [isLoading, downloadHtml, t],
   );
-  const BoxViewWrap = (props) => (
-    <Box
-      sx={{
-        width: '100%',
-        position: 'relative',
-        minHeight: 200,
-        pt: 10,
-      }}
-    >
-      {props.children}
-    </Box>
+  const BoxViewWrap = useCallback(
+    (props) => (
+      <Box
+        sx={{
+          width: '100%',
+          position: 'relative',
+          minHeight: 200,
+          pt: 10,
+        }}
+      >
+        {props.children}
+      </Box>
+    ),
+    [],
   );
   return (
     <Stack

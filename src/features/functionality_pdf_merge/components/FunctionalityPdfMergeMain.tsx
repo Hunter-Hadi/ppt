@@ -3,7 +3,7 @@ import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
@@ -210,16 +210,19 @@ const FunctionalityPdfMergeMain = () => {
     ],
     [isLoading, t],
   );
-  const BoxViewWrap = (props) => (
-    <Box
-      sx={{
-        width: '100%',
-        position: 'relative',
-        minHeight: 200,
-      }}
-    >
-      {props.children}
-    </Box>
+  const BoxViewWrap = useCallback(
+    (props) => (
+      <Box
+        sx={{
+          width: '100%',
+          position: 'relative',
+          minHeight: 200,
+        }}
+      >
+        {props.children}
+      </Box>
+    ),
+    [],
   );
   return (
     <Stack
