@@ -5,6 +5,7 @@ import {
   Grid,
   Stack,
   TextField,
+  TextFieldProps,
   Typography,
 } from '@mui/material';
 import { useTranslation } from 'next-i18next';
@@ -386,7 +387,14 @@ const FunctionalityOcrPdfMain = () => {
                   sx={{ flex: 1 }}
                   disableClearable
                   getOptionLabel={(option) => option.translation}
-                  renderInput={(params) => <TextField {...params} />}
+                  renderInput={(params) => (
+                    <TextField
+                      {...(params as TextFieldProps)}
+                      inputProps={{
+                        ...params.inputProps,
+                      }}
+                    />
+                  )}
                   onChange={(_, newValue) => {
                     if (newValue) {
                       setScanningLanguage((newValue as { id: string }).id);
