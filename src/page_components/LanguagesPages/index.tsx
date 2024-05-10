@@ -13,8 +13,8 @@ const LanguagesPages = () => {
   const router = useRouter();
 
   const redirectUrl = useMemo(() => {
-    if (decodeURIComponent && router.query.redirect) {
-      return decodeURIComponent(router.query.redirect as string);
+    if (router.query.redirect) {
+      return router.query.redirect as string;
     } else {
       return '/';
     }
