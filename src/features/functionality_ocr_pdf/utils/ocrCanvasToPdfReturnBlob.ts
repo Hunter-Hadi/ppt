@@ -13,43 +13,38 @@ export async function ocrCanvasToPdfReturnBlob(
   ) => void, //回调函数
   processesNumber?: number, //进程数,不设置根据硬件线程数/2跑，错误会为2重试一次.
 ) {
+  const scheduler = createScheduler(); //创建调度器
   try {
-    console.log('simply language', language);
     let currentProcessesNumber =
       processesNumber ||
       Math.min(
         canvases.length,
         Math.max(1, Math.floor(navigator.hardwareConcurrency / 2)),
       ); //设置线程为  硬件线程数/2
-    console.log('simply currentProcessesNumber', currentProcessesNumber);
 
     const startTime = new Date().valueOf(); //开始时间
 
-    const scheduler = createScheduler(); //创建调度器
     for (let index = 0; index < currentProcessesNumber; index++) {
       const worker = await createWorker(language, 1); //创建worker
       scheduler.addWorker(worker); //添加worker
     }
+    const pdfDataArr: Uint8Array[] = [];
 
+    callBackProgress && callBackProgress(canvases.length, 0, 'ocr');
+    await Promise.all(
+      canvases.map((canvas, index) => {
+        return scheduler
+          .addJob('recognize', canvas, { pdfTextOnly: true }, { pdf: true }) //添加识别任务并开始识别工作
+          .then((recognizeData) => {
+            pdfDataArr[index] = recognizeData.data.pdf as unknown as Uint8Array;
+            callBackProgress &&
+              callBackProgress(canvases.length, pdfDataArr.length, 'ocr'); //回调当前进度函数
+          });
+      }),
+    );
+
+    await scheduler.terminate(); //释放 调度器 资源
     try {
-      const pdfDataArr: Uint8Array[] = [];
-
-      callBackProgress && callBackProgress(canvases.length, 0, 'ocr');
-      await Promise.all(
-        canvases.map((canvas, index) => {
-          return scheduler
-            .addJob('recognize', canvas, { pdfTextOnly: true }, { pdf: true }) //添加识别任务并开始识别工作
-            .then((recognizeData) => {
-              pdfDataArr[index] = recognizeData.data
-                .pdf as unknown as Uint8Array;
-              callBackProgress &&
-                callBackProgress(canvases.length, pdfDataArr.length, 'ocr'); //回调当前进度函数
-            });
-        }),
-      );
-
-      await scheduler.terminate(); //释放 调度器 资源
-
       callBackProgress && callBackProgress(canvases.length, 0, 'embedPage');
 
       for (let index = 0; index < pdfDataArr.length; index++) {
@@ -75,7 +70,7 @@ export async function ocrCanvasToPdfReturnBlob(
       console.log(
         canvases.length,
         '个页面',
-        processesNumber,
+        currentProcessesNumber,
         '个进程--：用的时间为：',
         (endTime - startTime) / 1000,
         'ms',
@@ -83,10 +78,12 @@ export async function ocrCanvasToPdfReturnBlob(
 
       return blob;
     } catch (err) {
-      scheduler.terminate(); //释放资源
-      throw err;
+      console.error('ocrCanvasToPdfReturnBlob error:2', err);
+      return false;
     }
   } catch (err) {
+    console.error('ocrCanvasToPdfReturnBlob error:1', err);
+    scheduler.terminate(); //释放资源
     if (processesNumber) {
       //如果设置了进程数，且错误了，直接返回
       return false;

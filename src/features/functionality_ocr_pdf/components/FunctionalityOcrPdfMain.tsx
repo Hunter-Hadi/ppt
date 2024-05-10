@@ -23,7 +23,7 @@ import { fileToUInt8Array } from '@/features/functionality_common/utils/function
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 import { pdfPageBackgroundToCanvas } from '@/features/functionality_common/utils/functionalityCommonPdfPageBackgroundToCanvas';
-import { textGetLanguageName } from '@/features/functionality_common/utils/textGetLanguageName';
+import { textGetLanguageName } from '@/features/functionality_common/utils/functionalityCommonTextGetLanguageName';
 import { ocrOfficialSupportLanguages } from '@/features/functionality_ocr_pdf/constant/ocrOfficialSupportLanguages';
 import { ocrCanvasToPdfReturnBlob } from '@/features/functionality_ocr_pdf/utils/ocrCanvasToPdfReturnBlob';
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(

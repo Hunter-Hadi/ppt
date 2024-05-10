@@ -68,38 +68,37 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
             sx={{
               mt: 8,
             }}
-            display='flex'
-            direction='column'
-            alignItems='center'
           >
-            <ToolsIcon name={item.iconName} fontSize='large' color='action' />
-            <Typography
-              sx={{
-                fontSize: {
-                  xs: 14,
-                  lg: 16,
-                  fontWeight: 700,
-                },
-                mt: 2,
-                color: 'text.primary',
-                textAlign: 'center',
-              }}
-            >
-              {getTranslation(item.title)}
-            </Typography>
-            <Typography
-              color='text.secondary'
-              sx={{
-                fontSize: {
-                  xs: 14,
-                  lg: 16,
-                },
-                mt: 2,
-                textAlign: 'center',
-              }}
-            >
-              {getTranslation(item.description)}
-            </Typography>
+            <Stack display='flex' direction='column' alignItems='center'>
+              <ToolsIcon name={item.iconName} fontSize='large' color='action' />
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 14,
+                    lg: 16,
+                    fontWeight: 700,
+                  },
+                  mt: 2,
+                  color: 'text.primary',
+                  textAlign: 'center',
+                }}
+              >
+                {getTranslation(item.title)}
+              </Typography>
+              <Typography
+                color='text.secondary'
+                sx={{
+                  fontSize: {
+                    xs: 14,
+                    lg: 16,
+                  },
+                  mt: 2,
+                  textAlign: 'center',
+                }}
+              >
+                {getTranslation(item.description)}
+              </Typography>
+            </Stack>
           </Grid>
         ))}
       </Grid>
@@ -138,39 +137,40 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
           lg={5}
           sm={5}
           my={10}
-          direction='column'
           sx={{
             order: { xs: 1, sm: 2 }, // xs时文字在图案上方
           }}
         >
-          <Typography
-            color='text.primary'
-            sx={{
-              fontSize: {
-                xs: 20,
-                lg: 22,
-              },
-              fontWeight: 700,
-            }}
-          >
-            {getTranslation(
-              descriptionInfo.operatingInstructions.operationSteps.title,
+          <Stack direction='column'>
+            <Typography
+              color='text.primary'
+              sx={{
+                fontSize: {
+                  xs: 20,
+                  lg: 22,
+                },
+                fontWeight: 700,
+              }}
+            >
+              {getTranslation(
+                descriptionInfo.operatingInstructions.operationSteps.title,
+              )}
+            </Typography>
+            {descriptionInfo.operatingInstructions.operationSteps.descriptionList.map(
+              (item, index) => (
+                <Typography
+                  key={index}
+                  color='text.secondary'
+                  sx={{
+                    fontSize: { xs: 14, lg: 16 },
+                    mt: 1,
+                  }}
+                >
+                  {`${index + 1}. ${getTranslation(item)}`}
+                </Typography>
+              ),
             )}
-          </Typography>
-          {descriptionInfo.operatingInstructions.operationSteps.descriptionList.map(
-            (item, index) => (
-              <Typography
-                key={index}
-                color='text.secondary'
-                sx={{
-                  fontSize: { xs: 14, lg: 16 },
-                  mt: 1,
-                }}
-              >
-                {`${index + 1}. ${getTranslation(item)}`}
-              </Typography>
-            ),
-          )}
+          </Stack>
         </Grid>
       </Grid>
     </Box>
