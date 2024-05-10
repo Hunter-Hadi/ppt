@@ -101,9 +101,6 @@ dependencies:
   inquirer:
     specifier: ^9.2.17
     version: 9.2.17
-  iso-639-3:
-    specifier: ^3.0.1
-    version: 3.0.1
   isomorphic-unfetch:
     specifier: ^4.0.2
     version: 4.0.2
@@ -6717,10 +6714,6 @@ packages:
 
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
-
-  /iso-639-3@3.0.1:
-    resolution: {integrity: sha512-SdljCYXOexv/JmbQ0tvigHN43yECoscVpe2y2hlEqy/CStXQlroPhZLj7zKLRiGqLJfw8k7B973UAMDoQczVgQ==}
-    dev: false
 
   /isobject@3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
