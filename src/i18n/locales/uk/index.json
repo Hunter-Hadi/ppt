@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "تیز تبدیلی کا وقت",
     "components__ocr_pdf__main__conversion_grade_title_2": "بلند درستگی",
     "components__ocr_pdf__main__conversion_grade_tips_2": "درستگی اور تبدیلی کا وقت بڑھاتا ہے",
-    "components__ocr_pdf__main__document_conversionLanguage": "دستاویز کی تبدیلی زبان",
     "components__ocr_pdf__main__ocr_loading": "PDF لوڈ ہو رہا ہے",
-    "components__ocr_pdf__main__ocr_and_download": "OCR اور ڈاؤن لوڈ کریں"
+    "components__ocr_pdf__main__ocr_and_download": "OCR اور ڈاؤن لوڈ کریں",
+    "components__ocr_pdf__main__document_scanning_language": "دستاویز اسکیننگ زبان"
   }
 }

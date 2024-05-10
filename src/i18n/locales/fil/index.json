@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "Mas mabilis na oras ng pag-convert",
     "components__ocr_pdf__main__conversion_grade_title_2": "Mataas na Katumpakan",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Nagpapataas ng katumpakan at oras ng pag-convert",
-    "components__ocr_pdf__main__document_conversionLanguage": "Wika ng Pag-convert ng Dokumento",
     "components__ocr_pdf__main__ocr_loading": "Paglo-load ng PDF",
-    "components__ocr_pdf__main__ocr_and_download": "OCR at I-download"
+    "components__ocr_pdf__main__ocr_and_download": "OCR at I-download",
+    "components__ocr_pdf__main__document_scanning_language": "Wika ng pagsusuri ng dokumento"
   }
 }

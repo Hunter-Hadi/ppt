@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "Temps de conversió més ràpid",
     "components__ocr_pdf__main__conversion_grade_title_2": "Alta Precisió",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Augmenta la precisió i el temps de conversió",
-    "components__ocr_pdf__main__document_conversionLanguage": "Idioma de conversió del document",
     "components__ocr_pdf__main__ocr_loading": "Carregant PDF",
-    "components__ocr_pdf__main__ocr_and_download": "OCR i Descarrega"
+    "components__ocr_pdf__main__ocr_and_download": "OCR i Descarrega",
+    "components__ocr_pdf__main__document_scanning_language": "Idioma d'escaneig de documents"
   }
 }

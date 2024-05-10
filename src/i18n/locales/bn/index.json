@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "দ্রুত রূপান্তর সময়",
     "components__ocr_pdf__main__conversion_grade_title_2": "উচ্চ নির্ভরযোগ্যতা",
     "components__ocr_pdf__main__conversion_grade_tips_2": "নির্ভরযোগ্যতা এবং রূপান্তর সময় বাড়ায়",
-    "components__ocr_pdf__main__document_conversionLanguage": "ডকুমেন্ট রূপান্তর ভাষা",
     "components__ocr_pdf__main__ocr_loading": "পিডিএফ লোডিং",
-    "components__ocr_pdf__main__ocr_and_download": "OCR এবং ডাউনলোড"
+    "components__ocr_pdf__main__ocr_and_download": "OCR এবং ডাউনলোড",
+    "components__ocr_pdf__main__document_scanning_language": "ডকুমেন্ট স্ক্যানিং ভাষা"
   }
 }

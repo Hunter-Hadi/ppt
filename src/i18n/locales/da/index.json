@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "Hurtigere konverteringstid",
     "components__ocr_pdf__main__conversion_grade_title_2": "Høj nøjagtighed",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Øger nøjagtigheden og konverteringstiden",
-    "components__ocr_pdf__main__document_conversionLanguage": "Dokumentkonverteringssprog",
     "components__ocr_pdf__main__ocr_loading": "Indlæser PDF",
-    "components__ocr_pdf__main__ocr_and_download": "OCR og Download"
+    "components__ocr_pdf__main__ocr_and_download": "OCR og Download",
+    "components__ocr_pdf__main__document_scanning_language": "Sprog til dokumentscanning"
   }
 }

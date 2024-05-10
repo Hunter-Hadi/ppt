@@ -1105,8 +1105,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "זמן המרה מהיר יותר",
     "components__ocr_pdf__main__conversion_grade_title_2": "דיוק גבוה",
     "components__ocr_pdf__main__conversion_grade_tips_2": "משפר דיוק וזמן המרה",
-    "components__ocr_pdf__main__document_conversionLanguage": "שפת המרת המסמך",
     "components__ocr_pdf__main__ocr_loading": "טעינת PDF",
-    "components__ocr_pdf__main__ocr_and_download": "OCR והורדה"
+    "components__ocr_pdf__main__ocr_and_download": "OCR והורדה",
+    "components__ocr_pdf__main__document_scanning_language": "שפת סריקת מסמך ראשית"
   }
 }

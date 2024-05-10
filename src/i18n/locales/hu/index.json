@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "Gyorsabb konverziós idő",
     "components__ocr_pdf__main__conversion_grade_title_2": "Magas pontosság",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Növeli a pontosságot és a konverziós időt",
-    "components__ocr_pdf__main__document_conversionLanguage": "Dokumentum konverzió nyelve",
     "components__ocr_pdf__main__ocr_loading": "PDF Betöltése",
-    "components__ocr_pdf__main__ocr_and_download": "OCR és Letöltés"
+    "components__ocr_pdf__main__ocr_and_download": "OCR és Letöltés",
+    "components__ocr_pdf__main__document_scanning_language": "Dokumentum szkennelési nyelv"
   }
 }

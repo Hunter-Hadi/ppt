@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "변환 시간 단축",
     "components__ocr_pdf__main__conversion_grade_title_2": "높은 정확도",
     "components__ocr_pdf__main__conversion_grade_tips_2": "정확도와 변환 시간 향상",
-    "components__ocr_pdf__main__document_conversionLanguage": "문서 변환 언어",
     "components__ocr_pdf__main__ocr_loading": "PDF 로딩 중",
-    "components__ocr_pdf__main__ocr_and_download": "OCR 및 다운로드"
+    "components__ocr_pdf__main__ocr_and_download": "OCR 및 다운로드",
+    "components__ocr_pdf__main__document_scanning_language": "문서 스캐닝 언어"
   }
 }

@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "Greitesnis konvertavimo laikas",
     "components__ocr_pdf__main__conversion_grade_title_2": "Aukštas tikslumas",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Padidina tikslumą ir konvertavimo laiką",
-    "components__ocr_pdf__main__document_conversionLanguage": "Dokumento konversijos kalba",
     "components__ocr_pdf__main__ocr_loading": "PDF Įkėlimas",
-    "components__ocr_pdf__main__ocr_and_download": "OCR ir atsisiųsti"
+    "components__ocr_pdf__main__ocr_and_download": "OCR ir atsisiųsti",
+    "components__ocr_pdf__main__document_scanning_language": "Dokumentų skenavimo kalba"
   }
 }

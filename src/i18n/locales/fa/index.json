@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "زمان تبدیل سریعتر",
     "components__ocr_pdf__main__conversion_grade_title_2": "دقت بالا",
     "components__ocr_pdf__main__conversion_grade_tips_2": "افزایش دقت و زمان تبدیل",
-    "components__ocr_pdf__main__document_conversionLanguage": "زبان تبدیل سند",
     "components__ocr_pdf__main__ocr_loading": "بارگذاری PDF",
-    "components__ocr_pdf__main__ocr_and_download": "تشخیص اپتیکال کاراکتر و دانلود"
+    "components__ocr_pdf__main__ocr_and_download": "تشخیص اپتیکال کاراکتر و دانلود",
+    "components__ocr_pdf__main__document_scanning_language": "زبان اسکن سند"
   }
 }

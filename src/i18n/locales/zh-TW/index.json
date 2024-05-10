@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "轉換時間更快",
     "components__ocr_pdf__main__conversion_grade_title_2": "高準確性",
     "components__ocr_pdf__main__conversion_grade_tips_2": "提高準確性和轉換時間",
-    "components__ocr_pdf__main__document_conversionLanguage": "文檔轉換語言",
     "components__ocr_pdf__main__ocr_loading": "PDF 載入中",
-    "components__ocr_pdf__main__ocr_and_download": "OCR與下載"
+    "components__ocr_pdf__main__ocr_and_download": "OCR與下載",
+    "components__ocr_pdf__main__document_scanning_language": "文件掃描語言"
   }
 }

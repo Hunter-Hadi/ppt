@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "По-бързо време за преобразуване",
     "components__ocr_pdf__main__conversion_grade_title_2": "Висока точност",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Увеличава точността и времето за преобразуване",
-    "components__ocr_pdf__main__document_conversionLanguage": "Език на преобразуване на документа",
     "components__ocr_pdf__main__ocr_loading": "Зареждане на PDF",
-    "components__ocr_pdf__main__ocr_and_download": "OCR и изтегляне"
+    "components__ocr_pdf__main__ocr_and_download": "OCR и изтегляне",
+    "components__ocr_pdf__main__document_scanning_language": "Език за сканиране на документи"
   }
 }

@@ -34,15 +34,15 @@ type PDFDocumentProxy = any; //没有导出PDFDocumentProxy，所以这里用any
 
 const FunctionalityOcrPdfMain = () => {
   const { t } = useTranslation();
-  const defaultConversionGrade = 'default'; //默认图片分辨率等级  默认为2倍  高 为4倍
+  const defaultScanningGrade = 'default'; //默认图片分辨率扫描canvas分辨率等级  默认为原来分辨率的2倍  高为4倍
   const [file, setFile] = useState<File | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [loadingTitle, setLoadingTitle] = useState<string>(''); //loading标题
-  const oldConversionLanguage = useRef('eng'); //上一次用户选择的语言
-  const [conversionLanguage, setConversionLanguage] = useState<string>('eng'); //当前用户选择的语言
-  const [conversionGrade, setConversionGrade] = useState<'default' | 'high'>(
-    defaultConversionGrade,
-  ); //当前用户选择的图片分辨率等级
+  const [scanningLanguage, setScanningLanguage] = useState<string>('eng'); //当前用户选择的扫描语言
+  const oldScanningGrade = useRef('eng'); //上一次用户选择的扫描等级
+  const [scanningGrade, setScanningGrade] = useState<'default' | 'high'>(
+    defaultScanningGrade,
+  ); //当前用户选择的图片分辨率扫描等级
   const [pagesBackgroundCanvas, setPagesBackgroundCanvas] = useState<
     HTMLCanvasElement[]
   >([]); //pdf背景图片数据列表，会在识别的时候用到
@@ -67,14 +67,14 @@ const FunctionalityOcrPdfMain = () => {
         );
         const page = await pdFDocument.getPage(index); //获取PDF页面数据
         const canvas = await pdfPageBackgroundToCanvas(page, {
-          viewportScale: conversionGrade === defaultConversionGrade ? 1 : 2,
+          viewportScale: scanningGrade === defaultScanningGrade ? 2 : 4,
         }); //获取背景图片Canvas
         insertPages.push(canvas);
       }
-      oldConversionLanguage.current = conversionGrade;
+      oldScanningGrade.current = scanningGrade;
       return insertPages;
     },
-    [conversionGrade],
+    [scanningGrade, t],
   );
   //OCR识别PDF并下载
   const onOcrPdfAndDownload = useCallback(async () => {
@@ -85,7 +85,7 @@ const FunctionalityOcrPdfMain = () => {
         try {
           if (!pdFDocument || pagesBackgroundCanvas.length === 0) return;
           let pdfPagesBackgroundCanvas = pagesBackgroundCanvas;
-          if (conversionGrade !== oldConversionLanguage.current) {
+          if (scanningGrade !== oldScanningGrade.current) {
             pdfPagesBackgroundCanvas = await renderFilesToBackgroundCanvas(
               pdFDocument,
             ); //重新获取背景图片Canvas
@@ -94,10 +94,11 @@ const FunctionalityOcrPdfMain = () => {
           const currentPdfDocument = await PDFDocument.load(
             currentPdfUint8Array,
           ); //ocrCanvasToPdfReturnBlob 支持的数据格式，这里每次重新load成PDFDocument，是因为ocrCanvasToPdf会更改当前的PDFDocument的数据，导致后面异常
+
           const blob = await ocrCanvasToPdfReturnBlob(
             currentPdfDocument,
             pdfPagesBackgroundCanvas,
-            conversionLanguage,
+            scanningLanguage,
             (totalQuantity, currentNum, type) => {
               if (type === 'ocr') {
                 setLoadingTitle(`OCR ${currentNum}/${totalQuantity}`);
@@ -110,6 +111,7 @@ const FunctionalityOcrPdfMain = () => {
               }
             },
           ); //开始OCR识别
+
           setPagesBackgroundCanvas(pdfPagesBackgroundCanvas); //储存最新的背景图片Canvas 列表
           if (blob) {
             const fileName = functionalityCommonFileNameRemoveAndAddExtension(
@@ -132,10 +134,10 @@ const FunctionalityOcrPdfMain = () => {
       );
     }
   }, [
-    conversionGrade,
-    conversionLanguage,
+    scanningGrade,
+    scanningLanguage,
     file,
-    oldConversionLanguage,
+    oldScanningGrade,
     pagesBackgroundCanvas,
     pdFDocument,
     t,
@@ -178,9 +180,9 @@ const FunctionalityOcrPdfMain = () => {
       ); //传入文本获取主要的语言
       if (textLanguage === 'cmn') {
         //只有cmn中文和tesseract库语言不匹配
-        setConversionLanguage('chi_sim');
+        setScanningLanguage('chi_sim');
       } else if (textLanguage) {
-        setConversionLanguage(textLanguage);
+        setScanningLanguage(textLanguage);
       }
     }
   };
@@ -232,13 +234,8 @@ const FunctionalityOcrPdfMain = () => {
       {
         type: 'button',
         buttonProps: {
-          children: (
-            <Stack gap={2} direction='row' alignItems='center'>
-              {isLoading && <CircularProgress size={20} />}
-              {t(
-                'functionality__ocr_pdf:components__ocr_pdf__main__ocr_and_download',
-              )}
-            </Stack>
+          children: t(
+            'functionality__ocr_pdf:components__ocr_pdf__main__ocr_and_download',
           ),
           variant: 'contained',
           disabled: isLoading,
@@ -264,7 +261,7 @@ const FunctionalityOcrPdfMain = () => {
   );
 
   //图片分辨率等级列表
-  const conversionGradeList = [
+  const scanningGradeList = [
     {
       title: t(
         'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_title_1',
@@ -272,7 +269,7 @@ const FunctionalityOcrPdfMain = () => {
       tips: t(
         'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_tips_1',
       ),
-      key: defaultConversionGrade,
+      key: defaultScanningGrade,
     },
     {
       title: t(
@@ -287,9 +284,9 @@ const FunctionalityOcrPdfMain = () => {
 
   const autocompleteSelectValue = useMemo(() => {
     return ocrOfficialSupportLanguages.find(
-      (option) => option.id === conversionLanguage,
+      (option) => option.id === scanningLanguage,
     );
-  }, [conversionLanguage]);
+  }, [scanningLanguage]);
   return (
     <Stack
       flexDirection='column'
@@ -355,9 +352,9 @@ const FunctionalityOcrPdfMain = () => {
           >
             <FunctionalityCommonOptionSelector
               disabled={isLoading}
-              list={conversionGradeList}
-              selectKey={conversionGrade}
-              onSelect={(key) => setConversionGrade(key as 'default' | 'high')}
+              list={scanningGradeList}
+              selectKey={scanningGrade}
+              onSelect={(key) => setScanningGrade(key as 'default' | 'high')}
             />
             <Grid container justifyContent='center' mt={2}>
               <Grid
@@ -377,7 +374,7 @@ const FunctionalityOcrPdfMain = () => {
                   color='text.primary'
                 >
                   {t(
-                    'functionality__ocr_pdf:components__ocr_pdf__main__document_conversionLanguage',
+                    'functionality__ocr_pdf:components__ocr_pdf__main__document_scanning_language',
                   )}
                   :
                 </Typography>
@@ -385,14 +382,14 @@ const FunctionalityOcrPdfMain = () => {
                   id='ocr-pdf-autocomplete'
                   defaultValue={autocompleteSelectValue}
                   options={ocrOfficialSupportLanguages}
+                  size='small'
                   sx={{ flex: 1 }}
                   disableClearable
-                  clearIcon={null}
                   getOptionLabel={(option) => option.translation}
                   renderInput={(params) => <TextField {...params} />}
                   onChange={(_, newValue) => {
                     if (newValue) {
-                      setConversionLanguage((newValue as { id: string }).id);
+                      setScanningLanguage((newValue as { id: string }).id);
                     }
                   }}
                 />

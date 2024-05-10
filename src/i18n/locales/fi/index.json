@@ -1106,8 +1106,8 @@
     "components__ocr_pdf__main__conversion_grade_tips_1": "Nopeampi muuntamisaika",
     "components__ocr_pdf__main__conversion_grade_title_2": "Korkea tarkkuus",
     "components__ocr_pdf__main__conversion_grade_tips_2": "Lisää tarkkuutta ja muuntamisaikaa",
-    "components__ocr_pdf__main__document_conversionLanguage": "Asiakirjan kielimuunnos",
     "components__ocr_pdf__main__ocr_loading": "PDF:n lataus",
-    "components__ocr_pdf__main__ocr_and_download": "OCR ja Lataa"
+    "components__ocr_pdf__main__ocr_and_download": "OCR ja Lataa",
+    "components__ocr_pdf__main__document_scanning_language": "Dokumentin skannauskieli"
   }
 }
