@@ -46,7 +46,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
           <Typography
             sx={{
               fontSize: {
-                lg: 14,
+                xs: 14,
               },
               fontWeight: 'bold',
             }}
@@ -65,7 +65,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
             <Typography
               sx={{
                 fontSize: {
-                  lg: 12,
+                  xs: 12,
                   color: 'white',
                 },
                 fontWeight: 'bold',
@@ -92,7 +92,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
             color='text.secondary'
             sx={{
               fontSize: {
-                lg: 14,
+                xs: 14,
               },
               fontWeight: 'bold',
             }}
@@ -109,7 +109,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
             <Typography
               sx={{
                 fontSize: {
-                  lg: 14,
+                  xs: 14,
                 },
                 fontWeight: 'bold',
               }}
@@ -129,7 +129,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
           <Typography
             sx={{
               fontSize: {
-                lg: 14,
+                xs: 14,
               },
               fontWeight: 'bold',
             }}
@@ -173,7 +173,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
               color='text.secondary'
               sx={{
                 fontSize: {
-                  lg: 14,
+                  xs: 14,
                 },
                 fontWeight: 'bold',
               }}
