@@ -203,7 +203,7 @@ const FunctionalityOcrPdfMain = () => {
         await PDFDocument.load(currentPdfUint8Array); //放在这里作用是检测PDF是否加密或者异常，会进入try catch
         const currentPdfDocument = await pdfjs.getDocument(currentPdfUint8Array)
           .promise;
-        getPdfMainLanguage(currentPdfDocument); //拿主要的语言
+        await getPdfMainLanguage(currentPdfDocument); //拿主要的语言
         const currentBackgroundCanvas = await renderFilesToBackgroundCanvas(
           currentPdfDocument,
         ); //获取背景图片Canvas
