@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 import { ceil, divide } from 'lodash-es';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument, PDFImage } from 'pdf-lib/cjs/api';
-import { useCallback, useMemo, useState } from 'react';
+import { FC, useCallback, useMemo, useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 
 import {
@@ -36,10 +36,18 @@ import {
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
   file: File | Blob;
 };
-
-const FunctionalityImageToPdfMain = ({}) => {
+interface IFunctionalityImageToPdfMainProps {
+  accept?: string;
+}
+const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
+  accept,
+}) => {
+  const uploadAccept = useMemo(
+    () => accept || 'image/png, image/jpeg,image/heic', //如果没有传入accept参数，默认支持png,jpeg,heic。防止无法上传文件情况
+    [accept],
+  );
   const { t } = useTranslation();
-  const accept = 'image/png';
+
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const [userSelectSizeType, setUserSelectSizeType] = useState<string>('A4');
@@ -210,7 +218,7 @@ const FunctionalityImageToPdfMain = ({}) => {
             },
           },
           inputProps: {
-            accept: accept,
+            accept: uploadAccept,
             multiple: true,
           },
           handleUnsupportedFileType: handleUnsupportedFileTypeTip,
@@ -235,7 +243,7 @@ const FunctionalityImageToPdfMain = ({}) => {
         },
       },
     ],
-    [accept, isLoading, t],
+    [uploadAccept, isLoading, t],
   );
   const isEmptyList = imageInfoList.length === 0;
   const bottomButtonConfigs: IButtonConfig[] = useMemo(
@@ -271,7 +279,7 @@ const FunctionalityImageToPdfMain = ({}) => {
       {imageInfoList.length === 0 && !isLoading && (
         <FunctionalityCommonUploadButton
           inputProps={{
-            accept: accept,
+            accept: uploadAccept,
             multiple: true,
           }}
           onChange={onUploadFile}

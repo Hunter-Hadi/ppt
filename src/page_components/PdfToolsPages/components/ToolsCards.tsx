@@ -37,6 +37,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
             <ProLink
               href={`/${toolData.urlPrefixPath}/${toolData.urlKey}`}
               color='inherit'
+              hardRefresh={true}
               target='_self'
               sx={{
                 flex: 1,

@@ -151,7 +151,9 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
           {(urlKey === 'png-to-pdf' ||
             urlKey === 'jpeg-to-pdf' ||
-            urlKey === 'heic-to-pdf') && <FunctionalityImageToPdfMain />}
+            urlKey === 'heic-to-pdf') && (
+            <FunctionalityImageToPdfMain accept={currentToolData.accept} />
+          )}
           {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
           {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
           {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}

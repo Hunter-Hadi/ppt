@@ -19,6 +19,7 @@ export interface IToolData {
   secondaryDescription: string; //进入页面后的提示
   urlKey: IToolUrkKeyType;
   urlPrefixPath?: string;
+  accept?: string;
 }
 const routerChildrenObject = toolsCodeMap.childrenObject as {
   [key in IToolUrkKeyType]: IToolUrkKeyType;
@@ -74,6 +75,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__png_to_pdf__secondary_description',
     urlKey: routerChildrenObject['png-to-pdf'],
     urlPrefixPath: toolsTopUrlKey,
+    accept: 'image/png',
   },
   'jpeg-to-pdf': {
     icon: 'CropOriginal',
@@ -84,6 +86,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__secondary_description',
     urlKey: routerChildrenObject['jpeg-to-pdf'],
     urlPrefixPath: toolsTopUrlKey,
+    accept: 'image/jpg',
   },
   'heic-to-pdf': {
     icon: 'CropOriginal',
@@ -94,6 +97,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__heic_to_pdf__secondary_description',
     urlKey: routerChildrenObject['heic-to-pdf'],
     urlPrefixPath: toolsTopUrlKey,
+    accept: 'image/heic',
   },
   'pdf-to-html': {
     icon: 'CropOriginal',
