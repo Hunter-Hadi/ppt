@@ -191,33 +191,37 @@ const FunctionalityCompressPdfMain = () => {
   );
 
   //压缩等级列表
-  const compressGradeList = [
+  const compressGradeOptions: {
+    label: string;
+    tips: string;
+    value: 'low' | 'basic' | 'strong';
+  }[] = [
     {
-      title: t(
+      label: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_low_grade_title',
       ),
       tips: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_low_grade_description',
       ),
-      key: 'low',
+      value: 'low',
     },
     {
-      title: t(
+      label: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_basic_grade_title',
       ),
       tips: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_basic_grade_description',
       ),
-      key: 'basic',
+      value: 'basic',
     },
     {
-      title: t(
+      label: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_strong_grade_title',
       ),
       tips: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_strong_grade_description',
       ),
-      key: 'strong',
+      value: 'strong',
     },
   ];
   return (
@@ -258,11 +262,9 @@ const FunctionalityCompressPdfMain = () => {
           >
             <FunctionalityCommonOptionSelector
               disabled={isLoading}
-              list={compressGradeList}
+              list={compressGradeOptions}
               selectKey={compressionGrade}
-              onSelect={(key) =>
-                setCompressionGrade(key as 'low' | 'basic' | 'strong')
-              }
+              onSelect={(item) => setCompressionGrade(item.value)}
             />
           </Box>
           <FunctionalityCommonButtonListView

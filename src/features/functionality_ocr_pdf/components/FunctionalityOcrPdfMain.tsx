@@ -262,24 +262,28 @@ const FunctionalityOcrPdfMain = () => {
   );
 
   //图片分辨率等级列表
-  const scanningGradeList = [
+  const scanningGradeOptions: {
+    label: string;
+    tips: string;
+    value: 'default' | 'high';
+  }[] = [
     {
-      title: t(
+      label: t(
         'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_title_1',
       ),
       tips: t(
         'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_tips_1',
       ),
-      key: defaultScanningGrade,
+      value: defaultScanningGrade,
     },
     {
-      title: t(
+      label: t(
         'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_title_2',
       ),
       tips: t(
         'functionality__ocr_pdf:components__ocr_pdf__main__conversion_grade_tips_2',
       ),
-      key: 'high',
+      value: 'high',
     },
   ];
 
@@ -353,9 +357,9 @@ const FunctionalityOcrPdfMain = () => {
           >
             <FunctionalityCommonOptionSelector
               disabled={isLoading}
-              list={scanningGradeList}
+              list={scanningGradeOptions}
               selectKey={scanningGrade}
-              onSelect={(key) => setScanningGrade(key as 'default' | 'high')}
+              onSelect={(item) => setScanningGrade(item.value)}
             />
             <Grid container justifyContent='center' mt={2}>
               <Grid
