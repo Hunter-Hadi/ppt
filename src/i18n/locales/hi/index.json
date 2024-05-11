@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "लेखन सहायता और वेबपेज संक्षेपण से ChatPDF और AI पेंटिंग तक, MaxAI.me आपको सबसे उन्नत AI मॉडलों, जैसे ChatGPT, Claude और Gemini की मदद से पढ़ने, लिखने और निर्माण करने की शक्ति प्रदान करता है। अपने ब्राउज़िंग अनुभव को अपग्रेड करें और अपनी उत्पादकता की क्षमता को MaxAI.me के साथ खोलें!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__to_image_detail__select_all": "सभी का चयन करें",
     "components__to_image_detail__deselect_all": "सभी का चयन हटाएं",
     "components__to_image_detail__download_images": "छवियाँ डाउनलोड करें",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "इस PDF को हटाएं और नया चुनें"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__pdf_merge__add_pdf": "पीडीएफ जोड़ें",
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ़ करें",
     "components__pdf_merge__confirm_merge": "मर्ज करने की पुष्टि करें",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "नीचे PDF फ़ाइल जोड़ें"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__pdf_split__add_pdf": "पीडीएफ जोड़ें",
     "components__pdf_split__remove_pdf": "पीडीएफ हटाएं",
     "components__pdf_split__select_all": "सभी का चयन करें",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "एन्क्रिप्टेड या असामान्य है, पीडीएफ को संशोधित करने में असमर्थ, छोड़ दिया गया",
     "components__common__drag__dropping_tip": "आप आर्डर को खींचकर बदल सकते हैं",
     "components__common__upload_button_tips": "या यहाँ फ़ाइलें छोड़ें",
-    "components__common__upload_button_title": "फ़ाइलें चुनें"
+    "components__common__upload_button_title": "फ़ाइलें चुनें",
+    "components__common__upload_button__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "केवल छवि प्रकार की छवियाँ अपलोड की जा सकती हैं",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "नीचे"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__pdf_to_html__button__download": "डाउनलोड करें",
     "components__pdf_to_html__button__convert": "एक और बदलें"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "ड्रा करें",
     "components__sign_pdf__operation_view__type": "प्रकार",
     "components__sign_pdf__operation_view__upload": "अपलोड करें",
-    "components__sign_pdf__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__sign_pdf__detail__empty_sign": "खाली हस्ताक्षर",
     "components__sign_pdf__detail__empty_text": "खाली पाठ",
     "components__sign_pdf__detail__finish": "समाप्त करें और हस्ताक्षर करें",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "डाउनलोड",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "हस्ताक्षर पीडीएफ होमपेज",
     "components__sign_pdf__icon__sign": "हस्ताक्षर करें",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "कुछ लिखें..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "कुछ लिखें...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "केवल छवि प्रकार की छवियाँ अपलोड की जा सकती हैं"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "कम",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "मध्यम फ़ाइल आकार, मानक रिज़ॉल्यूशन",
     "components__compress_pdf__main__compress_strong_grade_title": "मजबूत",
     "components__compress_pdf__main__compress_strong_grade_description": "छोटा फ़ाइल आकार, कम रिज़ॉल्यूशन",
-    "components__compress_pdf__main__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फ़ाइल प्रकार अपलोड करें",
     "components__compress_pdf__main__compress_download": "संकुचित करें और डाउनलोड करें",
     "components__compress_pdf__main__choose_another_file": "एक अन्य फ़ाइल चुनें",
     "components__compress_pdf__main__current_pdf_size": "पीडीएफ मौजूदा आकार",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF एम्बेड",
-    "components__ocr_pdf__main__ocr_error": "OCR अपवाद, चाहे विद्यापत्र असाधारण ढंग से एन्क्रिप्टेड हो या फ़ाइल बहुत बड़ी हो",
     "components__ocr_pdf__main__upload_error": "कृपया जांचें कि PDF फ़ाइल एन्क्रिप्टेड या असामान्य नहीं है!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फ़ाइल प्रकार अपलोड करें",
     "components__ocr_pdf__main__choose_another_file": "एक और फ़ाइल चुनें",
     "components__ocr_pdf__main__conversion_grade_title_1": "सामान्य सटीकता",
     "components__ocr_pdf__main__conversion_grade_tips_1": "तेज़ी से परिवर्तन समय",

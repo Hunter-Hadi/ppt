@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Alates kirjutamise abist ja veebilehe kokkuvõtetest kuni ChatPDF-i ja AI-maalimiseni võimaldab MaxAI.me teil lugeda, kirjutada ja luua kõige arenenumate AI-mudelite abil, sealhulgas ChatGPT, Claude ja Gemini. Täiustage oma sirvimiskogemust ja avage oma tootlikkuse potentsiaal juba täna MaxAI.me abil!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__to_image_detail__select_all": "Vali kõik",
     "components__to_image_detail__deselect_all": "Tühista valik",
     "components__to_image_detail__download_images": "Laadi pildid alla",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Eemalda see PDF ja vali uus"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__pdf_merge__add_pdf": "Lisa PDF",
     "components__pdf_merge__empty_pdf": "Tühjenda PDF-id",
     "components__pdf_merge__confirm_merge": "Kinnita ühendamine",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Lisa PDF-fail allpool"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__pdf_split__add_pdf": "Lisa PDF-id",
     "components__pdf_split__remove_pdf": "Eemalda PDF",
     "components__pdf_split__select_all": "Vali kõik",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "on krüpteeritud või ebanormaalne, PDF-i ei saa manipuleerida, jäetakse vahele",
     "components__common__drag__dropping_tip": "Saate järjestust reguleerida lohistades ja kukutades",
     "components__common__upload_button_tips": "või aseta failid siia",
-    "components__common__upload_button_title": "VALI FAILID"
+    "components__common__upload_button_title": "VALI FAILID",
+    "components__common__upload_button__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Ainult pilditüüpi pilte saab üles laadida",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "All"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__pdf_to_html__button__download": "Laadi alla",
     "components__pdf_to_html__button__convert": "Teisenda uus"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Joonista",
     "components__sign_pdf__operation_view__type": "Tüüp",
     "components__sign_pdf__operation_view__upload": "Laadi üles",
-    "components__sign_pdf__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__sign_pdf__detail__empty_sign": "Tühi allkiri",
     "components__sign_pdf__detail__empty_text": "Tühi tekst",
     "components__sign_pdf__detail__finish": "Lõpeta ja allkirjasta",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Laadi alla",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Allkirjasta PDF koduleht",
     "components__sign_pdf__icon__sign": "Allkirjasta",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Kirjuta midagi..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Kirjuta midagi...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Ainult pilditüübi pilte saab üles laadida"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Madal",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Keskmine faili suurus, standardresolutsioon",
     "components__compress_pdf__main__compress_strong_grade_title": "Tugev",
     "components__compress_pdf__main__compress_strong_grade_description": "Väike faili suurus, madalam resolutsioon",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__compress_pdf__main__compress_download": "Suru kokku ja laadi alla",
     "components__compress_pdf__main__choose_another_file": "Vali teine fail",
     "components__compress_pdf__main__current_pdf_size": "PDF-i praegune suurus",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF-i manustamine",
-    "components__ocr_pdf__main__ocr_error": "OCR erind, kas dokument on krüpteeritud ebanormaalselt või fail on liiga suur",
     "components__ocr_pdf__main__upload_error": "Palun kontrollige, kas PDF-fail on krüpteeritud või ebanormaalne!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Palun laadige üles määratud PDF-failitüüp",
     "components__ocr_pdf__main__choose_another_file": "Valige teine fail",
     "components__ocr_pdf__main__conversion_grade_title_1": "Tavaline täpsus",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Kiirem konversiooniaeg",

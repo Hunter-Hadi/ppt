@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Od asistence při psaní a shrnutí webových stránek po ChatPDF a malování pomocí umělé inteligence, MaxAI.me vám umožňuje číst, psát a tvořit s pomocí nejmodernějších modelů umělé inteligence, včetně ChatGPT, Claude a Gemini. Vylepšete svůj prohlížeč a odemkněte svůj potenciál produktivity s MaxAI.me ještě dnes!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
     "components__to_image_detail__select_all": "Vybrat vše",
     "components__to_image_detail__deselect_all": "Zrušit výběr všech",
     "components__to_image_detail__download_images": "Stáhnout obrázky",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Odstranit toto PDF a vybrat nové"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
     "components__pdf_merge__add_pdf": "Přidat PDF",
     "components__pdf_merge__empty_pdf": "Vymazat PDF",
     "components__pdf_merge__confirm_merge": "Potvrdit sloučení",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Přidat PDF soubor níže"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ souboru PDF",
     "components__pdf_split__add_pdf": "Přidat PDF",
     "components__pdf_split__remove_pdf": "Odstranit PDF",
     "components__pdf_split__select_all": "Vybrat vše",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "je zašifrován nebo je v neobvyklém stavu, nelze manipulovat s PDF, přeskočeno",
     "components__common__drag__dropping_tip": "Můžete upravit pořadí přetažením",
     "components__common__upload_button_tips": "nebo sem přetáhněte soubory",
-    "components__common__upload_button_title": "VYBRAT SOUBORY"
+    "components__common__upload_button_title": "VYBRAT SOUBORY",
+    "components__common__upload_button__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky typu obrázek",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Dole"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Nahrajte prosím požadovaný typ souboru PDF",
     "components__pdf_to_html__button__download": "Stáhnout",
     "components__pdf_to_html__button__convert": "Převést další"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Kreslit",
     "components__sign_pdf__operation_view__type": "Typ",
     "components__sign_pdf__operation_view__upload": "Nahrát",
-    "components__sign_pdf__unsupported_file_type_tip": "Prosím, nahrajte požadovaný typ souboru PDF",
     "components__sign_pdf__detail__empty_sign": "Prázdný podpis",
     "components__sign_pdf__detail__empty_text": "Prázdný text",
     "components__sign_pdf__detail__finish": "Dokončit a podepsat",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Stáhnout",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domovská stránka pro podpis PDF",
     "components__sign_pdf__icon__sign": "Podpis",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Napište něco..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Napište něco...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Lze nahrát pouze obrázky typu obrázek"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Nízká",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Střední velikost souboru, standardní rozlišení",
     "components__compress_pdf__main__compress_strong_grade_title": "Silná",
     "components__compress_pdf__main__compress_strong_grade_description": "Malá velikost souboru, nižší rozlišení",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Nahrajte prosím specifikovaný typ PDF souboru",
     "components__compress_pdf__main__compress_download": "Komprimovat a stáhnout",
     "components__compress_pdf__main__choose_another_file": "Vybrat jiný soubor",
     "components__compress_pdf__main__current_pdf_size": "Aktuální velikost PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Vložení PDF",
-    "components__ocr_pdf__main__ocr_error": "OCR výjimka, zda je dokument zašifrovaný neobvykle nebo je soubor příliš velký",
     "components__ocr_pdf__main__upload_error": "Zkontrolujte, zda je PDF soubor zašifrovaný nebo neobvyklý!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF",
     "components__ocr_pdf__main__choose_another_file": "Vybrat jiný soubor",
     "components__ocr_pdf__main__conversion_grade_title_1": "Normální přesnost",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Rychlejší doba konverze",

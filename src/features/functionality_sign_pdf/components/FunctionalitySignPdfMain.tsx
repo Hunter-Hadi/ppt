@@ -6,7 +6,6 @@ import { useRecoilState } from 'recoil';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 import {
   FunctionalitySignPdfOperationOBjectAtom,
@@ -29,13 +28,6 @@ const FunctionalitySignPdfMain = () => {
     if (fileList?.length > 0) {
       setFileData(fileList[0]);
     }
-  };
-  const handleUnsupportedFileType = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__sign_pdf:components__sign_pdf__unsupported_file_type_tip',
-      ),
-    );
   };
   const onClearReturn = () => {
     setFileData(null);
@@ -70,7 +62,6 @@ const FunctionalitySignPdfMain = () => {
             multiple: false,
           }}
           onChange={onChangeFile}
-          handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
       {fileData && (

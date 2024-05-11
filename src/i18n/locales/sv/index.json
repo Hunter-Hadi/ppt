@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Från skrivhjälp och sammanfattning av webbsidor till ChatPDF och AI-målning ger MaxAI.me dig möjlighet att läsa, skriva och skapa med hjälp av de mest avancerade AI-modellerna, inklusive ChatGPT, Claude och Gemini. Uppgradera din webbläsningsupplevelse och lås upp ditt produktivitetspotentiell med MaxAI.me idag!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components__to_image_detail__select_all": "Välj alla",
     "components__to_image_detail__deselect_all": "Avmarkera alla",
     "components__to_image_detail__download_images": "Ladda ner bilder",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Ta bort denna PDF och välj en ny"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
     "components__pdf_merge__add_pdf": "Lägg till PDF",
     "components__pdf_merge__empty_pdf": "Rensa PDF:er",
     "components__pdf_merge__confirm_merge": "Bekräfta sammanfogning",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Lägg till PDF-fil nedan"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
     "components__pdf_split__add_pdf": "Lägg till PDF:er",
     "components__pdf_split__remove_pdf": "Ta bort PDF",
     "components__pdf_split__select_all": "Välj alla",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "är krypterad eller onormal, kan inte manipulera PDF:en, hoppades över",
     "components__common__drag__dropping_tip": "Du kan justera ordningen genom att dra och släppa",
     "components__common__upload_button_tips": "eller släpp filer här",
-    "components__common__upload_button_title": "VÄLJ FILER"
+    "components__common__upload_button_title": "VÄLJ FILER",
+    "components__common__upload_button__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Endast bilder av bildtyp kan laddas upp",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Nederst"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
     "components__pdf_to_html__button__download": "Ladda ner",
     "components__pdf_to_html__button__convert": "Konvertera en annan"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Rita",
     "components__sign_pdf__operation_view__type": "Typ",
     "components__sign_pdf__operation_view__upload": "Ladda upp",
-    "components__sign_pdf__unsupported_file_type_tip": "Var god ladda upp den angivna filtypen för PDF",
     "components__sign_pdf__detail__empty_sign": "Tom Signatur",
     "components__sign_pdf__detail__empty_text": "Tom Text",
     "components__sign_pdf__detail__finish": "Slutför och signera",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Nedladdning",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signera PDF Hemsida",
     "components__sign_pdf__icon__sign": "Signera",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv något…"
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv något…",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Endast bilder av bildtyp kan laddas upp"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Låg",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Medium filstorlek, standardupplösning",
     "components__compress_pdf__main__compress_strong_grade_title": "Stark",
     "components__compress_pdf__main__compress_strong_grade_description": "Liten filstorlek, lägre upplösning",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
     "components__compress_pdf__main__compress_download": "Komprimera och ladda ner",
     "components__compress_pdf__main__choose_another_file": "Välj en annan fil",
     "components__compress_pdf__main__current_pdf_size": "Aktuell PDF-storlek",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF-bädda in",
-    "components__ocr_pdf__main__ocr_error": "OCR-undantag, antingen är dokumentet krypterat onormalt eller filen är för stor",
     "components__ocr_pdf__main__upload_error": "Kontrollera om PDF-filen är krypterad eller onormal!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Ladda upp den angivna PDF-filtypen",
     "components__ocr_pdf__main__choose_another_file": "Välj en annan fil",
     "components__ocr_pdf__main__conversion_grade_title_1": "Normal noggrannhet",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Snabbare konverteringstid",

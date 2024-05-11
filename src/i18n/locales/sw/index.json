@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Kutoka kusaidia kuandika na muhtasari wa kurasa za wavuti hadi ChatPDF na uchoraji wa AI, MaxAI.me inakuwezesha kusoma, kuandika, na kuunda kwa msaada wa mifano ya AI ya hali ya juu, ikiwa ni pamoja na ChatGPT, Claude, na Gemini. Boresha uzoefu wako wa kuvinjari na fungua uwezo wako wa uzalishaji na MaxAI.me leo!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
     "components__to_image_detail__select_all": "Chagua Yote",
     "components__to_image_detail__deselect_all": "Batilisha Uchaguzi Wote",
     "components__to_image_detail__download_images": "Pakua picha",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Ondoa PDF hii na chagua nyingine"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
     "components__pdf_merge__add_pdf": "Ongeza PDF",
     "components__pdf_merge__empty_pdf": "Futa PDFs",
     "components__pdf_merge__confirm_merge": "Thibitisha kuunganisha",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Ongeza faili ya PDF hapa chini"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Tafadhali pakia aina ya faili ya PDF iliyotajwa",
     "components__pdf_split__add_pdf": "Ongeza PDF",
     "components__pdf_split__remove_pdf": "Ondoa PDF",
     "components__pdf_split__select_all": "Chagua Yote",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "imefichwa au ni batili, haiwezekani kubadilisha PDF, imepuuzwa",
     "components__common__drag__dropping_tip": "Unaweza kurekebisha mpangilio kwa kuvuta na kuacha",
     "components__common__upload_button_tips": "au buruta faili hapa",
-    "components__common__upload_button_title": "CHAGUA FAILI"
+    "components__common__upload_button_title": "CHAGUA FAILI",
+    "components__common__upload_button__unsupported_file_type_tip": "Tafadhali pakia faili ya PDF iliyotajwa"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Picha za aina ya picha tu zinaweza kupakiwa",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Chini"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
     "components__pdf_to_html__button__download": "Pakua",
     "components__pdf_to_html__button__convert": "Geuza nyingine"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Chora",
     "components__sign_pdf__operation_view__type": "Aina",
     "components__sign_pdf__operation_view__upload": "Pakia",
-    "components__sign_pdf__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
     "components__sign_pdf__detail__empty_sign": "Saini Tupu",
     "components__sign_pdf__detail__empty_text": "Nakala Tupu",
     "components__sign_pdf__detail__finish": "Maliza & Saini",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Pakua",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Nyumbani kwa Kusaini PDF",
     "components__sign_pdf__icon__sign": "Saini",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Andika kitu..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Andika kitu...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Ni picha tu za aina ya picha zinazoweza kupakiwa"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Chini",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Ukubwa wa faili wa wastani, azimio la kawaida",
     "components__compress_pdf__main__compress_strong_grade_title": "Imara",
     "components__compress_pdf__main__compress_strong_grade_description": "Ukubwa mdogo wa faili, azimio la chini",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
     "components__compress_pdf__main__compress_download": "Punguza & Pakua",
     "components__compress_pdf__main__choose_another_file": "Chagua faili nyingine",
     "components__compress_pdf__main__current_pdf_size": "Ukubwa wa sasa wa PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Ingiza PDF",
-    "components__ocr_pdf__main__ocr_error": "Hitilafu ya OCR, iwe hati imefichwa kwa njia isiyo ya kawaida au faili ni kubwa sana",
     "components__ocr_pdf__main__upload_error": "Tafadhali angalia ikiwa faili ya PDF imefichwa au ni isiyo ya kawaida!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Tafadhali pakia aina sahihi ya faili ya PDF",
     "components__ocr_pdf__main__choose_another_file": "Chagua faili nyingine",
     "components__ocr_pdf__main__conversion_grade_title_1": "Usahihi wa Kawaida",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Muda wa uongofu haraka",

@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Des de l'assistència en l'escriptura i la sumarització de pàgines web fins a ChatPDF i la pintura amb IA, MaxAI.me et permet llegir, escriure i crear amb l'ajuda dels models d'IA més avançats, incloent-hi ChatGPT, Claude i Gemini. Millora la teva experiència de navegació i desbloqueja el teu potencial de productivitat amb MaxAI.me avui mateix!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat",
     "components__to_image_detail__select_all": "Selecciona-ho tot",
     "components__to_image_detail__deselect_all": "Desselecciona-ho tot",
     "components__to_image_detail__download_images": "Descarrega les imatges",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Elimina aquest PDF i selecciona'n un de nou"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
     "components__pdf_merge__add_pdf": "Afegiu PDF",
     "components__pdf_merge__empty_pdf": "Netegeu els PDFs",
     "components__pdf_merge__confirm_merge": "Confirmeu la fusió",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Afegeix un fitxer PDF a sota"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Pregueu pugeu el tipus de fitxer PDF especificat",
     "components__pdf_split__add_pdf": "Afegiu PDFs",
     "components__pdf_split__remove_pdf": "Elimina PDF",
     "components__pdf_split__select_all": "Selecciona-ho tot",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "està encriptat o és anormal, no es pot manipular el PDF, saltat",
     "components__common__drag__dropping_tip": "Podeu ajustar l'ordre arrossegant i deixant anar",
     "components__common__upload_button_tips": "o deixa els fitxers aquí",
-    "components__common__upload_button_title": "TRIA FITXERS"
+    "components__common__upload_button_title": "TRIA FITXERS",
+    "components__common__upload_button__unsupported_file_type_tip": "Si us plau, pugeu el tipus de fitxer PDF especificat"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Només es poden carregar imatges de tipus imatge",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Baix"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Si us plau, puja el tipus de fitxer PDF especificat",
     "components__pdf_to_html__button__download": "Descarrega",
     "components__pdf_to_html__button__convert": "Converteix un altre"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Dibuixa",
     "components__sign_pdf__operation_view__type": "Tipus",
     "components__sign_pdf__operation_view__upload": "Carrega",
-    "components__sign_pdf__unsupported_file_type_tip": "Si us plau, carrega el tipus de fitxer PDF especificat",
     "components__sign_pdf__detail__empty_sign": "Signatura buida",
     "components__sign_pdf__detail__empty_text": "Text buit",
     "components__sign_pdf__detail__finish": "Finalitza i Signa",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Descarregar",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pàgina d'inici de Signar PDF",
     "components__sign_pdf__icon__sign": "Signar",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Escriu alguna cosa..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Escriu alguna cosa...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Només es poden pujar imatges de tipus d'imatge"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Baixa",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Mida mitjana del fitxer, resolució estàndard",
     "components__compress_pdf__main__compress_strong_grade_title": "Forte",
     "components__compress_pdf__main__compress_strong_grade_description": "Mida petita del fitxer, resolució més baixa",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Puja el tipus de fitxer PDF especificat",
     "components__compress_pdf__main__compress_download": "Comprimeix i descarrega",
     "components__compress_pdf__main__choose_another_file": "Tria un altre fitxer",
     "components__compress_pdf__main__current_pdf_size": "Mida actual del PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Incrusta PDF",
-    "components__ocr_pdf__main__ocr_error": "Excepció OCR, ja sigui que el document estigui xifrat de manera anormal o que el fitxer sigui massa gran",
     "components__ocr_pdf__main__upload_error": "Comprova si el fitxer PDF està xifrat o és anormal!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Puja el tipus de fitxer PDF especificat",
     "components__ocr_pdf__main__choose_another_file": "Tria un altre fitxer",
     "components__ocr_pdf__main__conversion_grade_title_1": "Precisió Normal",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Temps de conversió més ràpid",

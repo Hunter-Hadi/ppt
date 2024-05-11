@@ -8,6 +8,7 @@ import {
 } from 'react';
 
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 import { changeImageColor } from '../../utils/colorTools';
 import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
@@ -156,7 +157,13 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
       onChangeImgSvg(files[0]);
     }
   };
-  const handleUnsupportedFileTypeTip = () => {};
+  const handleUnsupportedFileTypeTip = () => {
+    functionalityCommonSnackNotifications(
+      t(
+        'functionality__sign_pdf:components__sign_pdf__operation_signature_upload__error_uploaded__tips',
+      ),
+    );
+  };
   return (
     <Box>
       <Stack direction='row' mb={1} gap={1}>

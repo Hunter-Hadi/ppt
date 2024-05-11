@@ -64,13 +64,6 @@ export const FunctionalityPdfSplitMain = () => {
       setIsLoading(false);
     }
   };
-  const handleUnsupportedFileTypeTip = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__pdf_split:components__pdf_split__unsupported_file_type_tip',
-      ),
-    );
-  };
   const selectPdfPageList = useMemo(
     () => convertedPdfImages.filter((item) => item.isSelect),
     [convertedPdfImages],
@@ -260,7 +253,6 @@ export const FunctionalityPdfSplitMain = () => {
             accept: 'application/pdf',
           }}
           onChange={onUploadFile}
-          handleUnsupportedFileType={handleUnsupportedFileTypeTip}
         />
       )}
       {convertedPdfImages.length > 0 && (

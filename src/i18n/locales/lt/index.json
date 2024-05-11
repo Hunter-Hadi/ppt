@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Nuo rašymo pagalbos ir tinklalapių santraukos iki ChatPDF ir AI piešimo, „MaxAI.me“ suteikia jums galimybę skaityti, rašyti ir kurti su pažangiausiais dirbtinio intelekto modeliais, įskaitant ChatGPT, Claude ir Gemini. Atnaujinkite naršymo patirtį ir atraskite savo produktyvumo potencialą su „MaxAI.me“ jau šiandien!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__to_image_detail__select_all": "Pasirinkti viską",
     "components__to_image_detail__deselect_all": "Atšaukti pasirinkimą",
     "components__to_image_detail__download_images": "Atsisiųsti paveikslėlius",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Pašalinti šį PDF ir pasirinkti naują"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__pdf_merge__add_pdf": "Pridėti PDF",
     "components__pdf_merge__empty_pdf": "Išvalyti PDF",
     "components__pdf_merge__confirm_merge": "Patvirtinti sujungimą",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Pridėti PDF failą žemiau"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__pdf_split__add_pdf": "Pridėti PDF",
     "components__pdf_split__remove_pdf": "Pašalinti PDF",
     "components__pdf_split__select_all": "Pasirinkti visus",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "yra užšifruotas arba netinkamas, negalima manipuliuoti PDF, praleistas",
     "components__common__drag__dropping_tip": "Galite keisti tvarką vilkdami ir numetę",
     "components__common__upload_button_tips": "arba mesti failus čia",
-    "components__common__upload_button_title": "PASIRINKTI FAILUS"
+    "components__common__upload_button_title": "PASIRINKTI FAILUS",
+    "components__common__upload_button__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Galima įkelti tik paveikslėlius formato",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Apačia"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__pdf_to_html__button__download": "Atsisiųsti",
     "components__pdf_to_html__button__convert": "Konvertuoti kitą"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Piešti",
     "components__sign_pdf__operation_view__type": "Tipas",
     "components__sign_pdf__operation_view__upload": "Įkelti",
-    "components__sign_pdf__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__sign_pdf__detail__empty_sign": "Tuščia parašo vieta",
     "components__sign_pdf__detail__empty_text": "Tuščias tekstas",
     "components__sign_pdf__detail__finish": "Baigti ir pasirašyti",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Atsisiųsti",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pasirašykite PDF pagrindinį puslapį",
     "components__sign_pdf__icon__sign": "Pasirašyti",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Įveskite kažką..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Įveskite kažką...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Galima įkelti tik paveikslėlius, kurie yra paveikslėlio tipo"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Žemas",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Vidutinis failo dydis, standartinė raiška",
     "components__compress_pdf__main__compress_strong_grade_title": "Stiprus",
     "components__compress_pdf__main__compress_strong_grade_description": "Mažas failo dydis, žemesnė raiška",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__compress_pdf__main__compress_download": "Suspausti ir Atsisiųsti",
     "components__compress_pdf__main__choose_another_file": "Pasirinkite kitą failą",
     "components__compress_pdf__main__current_pdf_size": "PDF dabartinis dydis",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF Įterpimas",
-    "components__ocr_pdf__main__ocr_error": "OCR išimtis, arba dokumentas yra nustatytas netinkamai arba failas per didelis",
     "components__ocr_pdf__main__upload_error": "Patikrinkite, ar PDF failas yra užšifruotas arba netinkamas!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Įkelkite nurodytą PDF failo tipą",
     "components__ocr_pdf__main__choose_another_file": "Pasirinkite kitą failą",
     "components__ocr_pdf__main__conversion_grade_title_1": "Normalus tikslumas",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Greitesnis konvertavimo laikas",

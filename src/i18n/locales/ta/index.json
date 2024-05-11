@@ -856,7 +856,6 @@
     "components__to_image_detail__cancel": "ரத்துசெய்",
     "components__to_image_detail__normal_quality": "சாதாரண தரம்",
     "components__to_image_detail__high_quality": "உயர் தரம்",
-    "components__index__unsupported_file_type_tip": "தயவுசெய்து குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக",
     "components__to_image_detail__view_pages": "பக்கங்களைக் காண்பி",
     "components__to_image_detail__view_images": "படங்களைக் காண்பி",
     "components__to_image__downloader_tip": "தயவுசெய்து குறைந்தபட்சம் ஒரு படத்தைத் தேர்ந்தெடுக்கவும்.",
@@ -905,7 +904,6 @@
     "more_over_section__description__part2": "எழுத்துக்கள் உதவி மற்றும் வலைப்பக்க சுருக்கம் முதன்மையாக இருக்கும், ChatPDF மற்றும் AI ஓவியம் போன்ற அதிர்வெண்ட் ஐயத்துடன் MaxAI.me உங்களை முடிவுக்கு எழுதுகிறது. மேலும், ChatGPT, Claude மற்றும் Gemini போன்ற மிகுந்த ஐய மாதிரிகளையும் பெற்றுக்கொள்ளலாம். இன்னும் மேலதிக அனுபவத்தைப் பெற்றுக்கொள்ளுங்கள் மற்றும் உங்கள் உறவுகளை மீட்க மேற்கொள்ளுங்கள் MaxAI.me மூலம் இன்று!"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
     "components__pdf_merge__add_pdf": "PDF ஐச் சேர்க்கவும்",
     "components__pdf_merge__empty_pdf": "PDF காலியாக்கவும்",
     "components__pdf_merge__confirm_merge": "ஒன்றிணைத்துக்கொள்ள உறுதிப்படுத்தவும்",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "கீழே பி.டி.எப்பகத்தைச் சேர்க்க"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
     "components__pdf_split__add_pdf": "PDFகளைச் சேர்க்கவும்",
     "components__pdf_split__remove_pdf": "PDF ஐ அகற்று",
     "components__pdf_split__select_all": "அனைத்தையும் தேர்ந்தெடு",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "மறுக்கப்பட்டது அல்லது அஸ்திரமானது, பிடிபி செயல்படுத்த முடியாது, தவிர்க்கப்பட்டது",
     "components__common__drag__dropping_tip": "நீங்கள் மாற்றத்தை இழுத்து விடுவதன் மூலம் வரிசையை அமைக்கலாம்",
     "components__common__upload_button_tips": "அல்லது கோப்புகளை இங்கே விடுங்கள்",
-    "components__common__upload_button_title": "கோப்புகளை தேர்ந்தெடுக்கவும்"
+    "components__common__upload_button_title": "கோப்புகளை தேர்ந்தெடுக்கவும்",
+    "components__common__upload_button__unsupported_file_type_tip": "தயவுசெய்து குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "படங்கள் வகையில் மட்டுமே பதிவேற்றப்படும்",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "கீழ்"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
     "components__pdf_to_html__button__download": "பதிவிறக்கு",
     "components__pdf_to_html__button__convert": "மற்றொருபோது மாற்று"
   },
@@ -1060,7 +1057,6 @@
     "components__sign_pdf__operation_view__draw": "வரையறு",
     "components__sign_pdf__operation_view__type": "வகை",
     "components__sign_pdf__operation_view__upload": "பதிவேற்று",
-    "components__sign_pdf__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
     "components__sign_pdf__detail__empty_sign": "காலியான கையொப்பம்",
     "components__sign_pdf__detail__empty_text": "காலியான உரை",
     "components__sign_pdf__detail__finish": "முடிவு செய்யுங்கள் & கையொப்பம் செய்யுங்கள்",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "பதிவிறக்கம்",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "கையொப்பம் PDF முகப்புக்கு",
     "components__sign_pdf__icon__sign": "கையொப்பம்",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "ஏதாவது தட்டச்சு செய்யுங்கள்..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "ஏதாவது தட்டச்சு செய்யுங்கள்...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "மட்டும் படங்கள் பதிவேற்ற முடியும்"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "குறைந்த",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "இடம்பெருக்க கோப்பு அளவு, நிலையான வரைவு",
     "components__compress_pdf__main__compress_strong_grade_title": "வலுவான",
     "components__compress_pdf__main__compress_strong_grade_description": "சிறிய கோப்பு அளவு, குறைந்த வரைவு",
-    "components__compress_pdf__main__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றவும்",
     "components__compress_pdf__main__compress_download": "சுருக்கம் செய்யுங்கள் & பதிவிறக்குங்கள்",
     "components__compress_pdf__main__choose_another_file": "மற்றொரு கோப்பைத் தேர்வுசெய்க",
     "components__compress_pdf__main__current_pdf_size": "PDF தற்போதைய அளவு",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF உள்ளூர்வானம்",
-    "components__ocr_pdf__main__ocr_error": "OCR விதிவிலக்கு, ஆவணம் அசாதாரணமாக மற்றும் கோப்பு மிகப்பெரியதாக இருக்கும்",
     "components__ocr_pdf__main__upload_error": "தயவுசெய்து பார்க்கவும் பிடிஎஃப் கோப்பு மின்னஞ்சல் அல்லது அசாதாரணமானதாக உள்ளது!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "குறிப்பிட்ட PDF கோப்பு வகையை பதிவேற்றுக",
     "components__ocr_pdf__main__choose_another_file": "மற்றொரு கோப்பைத் தேர்ந்தெடுக்கவும்",
     "components__ocr_pdf__main__conversion_grade_title_1": "சாதாரண சரிபார்ப்பு",
     "components__ocr_pdf__main__conversion_grade_tips_1": "வேகமான மாற்ற நேரம்",

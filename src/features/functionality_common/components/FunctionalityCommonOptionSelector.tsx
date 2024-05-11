@@ -3,7 +3,7 @@ import { Box, Grid, Stack, Typography } from '@mui/material';
 type IOptionItem = {
   value: string;
   label: string;
-  [key: string]: string;
+  tips: string;
 };
 interface IFunctionalityCommonOptionSelector<T = IOptionItem> {
   list: T[];
@@ -79,7 +79,7 @@ function FunctionalityCommonOptionSelector<
                     }}
                     color='text.primary'
                   >
-                    {option.title}
+                    {option.label}
                   </Typography>
                 </Box>
                 <Box>

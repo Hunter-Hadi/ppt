@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Fra skrivehjelp og oppsummering av nettsider til ChatPDF og AI-maling, gir MaxAI.me deg muligheten til å lese, skrive og skape med hjelp av de mest avanserte AI-modellene, inkludert ChatGPT, Claude og Gemini. Oppgrader leseopplevelsen din og lås opp ditt produktivitetspotensial med MaxAI.me i dag!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__to_image_detail__select_all": "Velg alle",
     "components__to_image_detail__deselect_all": "Opphev valg for alle",
     "components__to_image_detail__download_images": "Last ned bilder",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Fjern denne PDF-en og velg en ny"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__pdf_merge__add_pdf": "Legg til PDF",
     "components__pdf_merge__empty_pdf": "Tøm PDF-er",
     "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Legg til PDF-fil nedenfor"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__pdf_split__add_pdf": "Legg til PDF-er",
     "components__pdf_split__remove_pdf": "Fjern PDF",
     "components__pdf_split__select_all": "Velg alle",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over",
     "components__common__drag__dropping_tip": "Du kan justere rekkefølgen ved å dra og slippe",
     "components__common__upload_button_tips": "eller slipp filer her",
-    "components__common__upload_button_title": "VELG FILER"
+    "components__common__upload_button_title": "VELG FILER",
+    "components__common__upload_button__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Bunn"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Vennligst last opp den angitte filtypen for PDF",
     "components__pdf_to_html__button__download": "Last ned",
     "components__pdf_to_html__button__convert": "Konverter en annen"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Tegn",
     "components__sign_pdf__operation_view__type": "Type",
     "components__sign_pdf__operation_view__upload": "Last opp",
-    "components__sign_pdf__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__sign_pdf__detail__empty_sign": "Tom Signatur",
     "components__sign_pdf__detail__empty_text": "Tom Tekst",
     "components__sign_pdf__detail__finish": "Fullfør og signér",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Last ned",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside",
     "components__sign_pdf__icon__sign": "Signer",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv noe…"
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv noe…",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Lav",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Medium filstørrelse, standard oppløsning",
     "components__compress_pdf__main__compress_strong_grade_title": "Sterk",
     "components__compress_pdf__main__compress_strong_grade_description": "Liten filstørrelse, lav oppløsning",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__compress_pdf__main__compress_download": "Komprimer og Last ned",
     "components__compress_pdf__main__choose_another_file": "Velg en annen fil",
     "components__compress_pdf__main__current_pdf_size": "Gjeldende PDF-størrelse",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF Innbygging",
-    "components__ocr_pdf__main__ocr_error": "OCR-feil, enten dokumentet er unormalt kryptert eller filen er for stor",
     "components__ocr_pdf__main__upload_error": "Vennligst sjekk om PDF-filen er kryptert eller unormal!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__ocr_pdf__main__choose_another_file": "Velg en annen fil",
     "components__ocr_pdf__main__conversion_grade_title_1": "Normal nøyaktighet",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Raskere konverteringstid",

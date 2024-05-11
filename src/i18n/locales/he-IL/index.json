@@ -883,7 +883,6 @@
     "more_over_section__description__part2": "מתוך עזרה בכתיבה וסיכום דפי אינטרנט ועד ChatPDF וציור AI, MaxAI.me מעניק לך את היכולת לקרוא, לכתוב וליצור בעזרת המודלים המתקדמים ביותר, כולל ChatGPT, Claude ו-Gemini. שדרג את חוויית הגלישה שלך ופתח את הפוטנציאל המוצק של הפרודוקטיביות שלך עם MaxAI.me היום!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__to_image_detail__select_all": "בחר הכל",
     "components__to_image_detail__deselect_all": "בטל בחירת הכל",
     "components__to_image_detail__download_images": "הורד תמונות",
@@ -904,7 +903,6 @@
     "components__to_image_detail__button__remove__tooltip": "הסר את קובץ ה-PDF הזה ובחר חדש"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__pdf_merge__add_pdf": "הוסף PDF",
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
@@ -913,7 +911,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "הוסף קובץ PDF למטה"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__pdf_split__add_pdf": "הוסף PDF",
     "components__pdf_split__remove_pdf": "הסר PDF",
     "components__pdf_split__select_all": "בחר הכל",
@@ -932,7 +929,8 @@
     "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לעבוד עם ה- PDF, דילג",
     "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור",
     "components__common__upload_button_tips": "או השלך קבצים כאן",
-    "components__common__upload_button_title": "בחר קבצים"
+    "components__common__upload_button_title": "בחר קבצים",
+    "components__common__upload_button__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
@@ -949,7 +947,6 @@
     "components__image_to_pdf__position_bottom": "תחתית"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "אנא העלה את סוג הקובץ המצוין של PDF",
     "components__pdf_to_html__button__download": "הורדה",
     "components__pdf_to_html__button__convert": "המרה נוספת"
   },
@@ -1058,7 +1055,6 @@
     "components__sign_pdf__operation_view__draw": "צייר",
     "components__sign_pdf__operation_view__type": "הקלד",
     "components__sign_pdf__operation_view__upload": "העלה",
-    "components__sign_pdf__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__sign_pdf__detail__empty_sign": "חתימה ריקה",
     "components__sign_pdf__detail__empty_text": "טקסט ריק",
     "components__sign_pdf__detail__finish": "סיום וחתימה",
@@ -1078,7 +1074,8 @@
     "components__sign_pdf__complete_signature_info__download": "הורדה",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "דף הבית של חתימת PDF",
     "components__sign_pdf__icon__sign": "חתום",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "הקלד משהו..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "הקלד משהו...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "נמוך",
@@ -1087,7 +1084,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "גודל קובץ בינוני, רזולוציה סטנדרטית",
     "components__compress_pdf__main__compress_strong_grade_title": "חזק",
     "components__compress_pdf__main__compress_strong_grade_description": "גודל קובץ קטן, רזולוציה נמוכה",
-    "components__compress_pdf__main__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__compress_pdf__main__compress_download": "דחיסה והורדה",
     "components__compress_pdf__main__choose_another_file": "בחר קובץ אחר",
     "components__compress_pdf__main__current_pdf_size": "גודל ה-PDF הנוכחי",
@@ -1097,9 +1093,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "הטמעת PDF",
-    "components__ocr_pdf__main__ocr_error": "שגיאת OCR, האם המסמך מוצפן באופן לא תקני או שהקובץ גדול מדי",
     "components__ocr_pdf__main__upload_error": "אנא בדוק אם קובץ ה-PDF מוצפן או לא תקני!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "אנא העלה את סוג קובץ ה-PDF המצוין",
     "components__ocr_pdf__main__choose_another_file": "בחר קובץ אחר",
     "components__ocr_pdf__main__conversion_grade_title_1": "דיוק רגיל",
     "components__ocr_pdf__main__conversion_grade_tips_1": "זמן המרה מהיר יותר",

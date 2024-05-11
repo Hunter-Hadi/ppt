@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "De la asistență în scris și rezumarea paginilor web până la ChatPDF și pictură AI, MaxAI.me îți oferă puterea de a citi, scrie și crea cu ajutorul celor mai avansate modele AI, inclusiv ChatGPT, Claude și Gemini. Upgradează-ți experiența de navigare și deblochează-ți potențialul de productivitate cu MaxAI.me astăzi!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__to_image_detail__select_all": "Selectează tot",
     "components__to_image_detail__deselect_all": "Deselectează tot",
     "components__to_image_detail__download_images": "Descarcă imagini",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Eliminați acest PDF și selectați unul nou"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__pdf_merge__add_pdf": "Adăugați PDF",
     "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
     "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Adăugați fișierul PDF mai jos"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__pdf_split__add_pdf": "Adăugați PDF-uri",
     "components__pdf_split__remove_pdf": "Eliminați PDF",
     "components__pdf_split__select_all": "Selectați tot",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "este criptat sau anormal, nu se poate manipula PDF-ul, s-a trecut peste",
     "components__common__drag__dropping_tip": "Puteți ajusta ordinea prin tragere și fixare",
     "components__common__upload_button_tips": "sau lăsați fișierele aici",
-    "components__common__upload_button_title": "ALEGEȚI FIȘIERELE"
+    "components__common__upload_button_title": "ALEGEȚI FIȘIERELE",
+    "components__common__upload_button__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Pot fi încărcate doar imagini de tip imagine",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Jos"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Vă rugăm să încărcați tipul specificat de fișier PDF",
     "components__pdf_to_html__button__download": "Descarcă",
     "components__pdf_to_html__button__convert": "Convertește altul"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Desenează",
     "components__sign_pdf__operation_view__type": "Tip",
     "components__sign_pdf__operation_view__upload": "Încarcă",
-    "components__sign_pdf__unsupported_file_type_tip": "Te rugăm să încarci tipul specificat de fișier PDF",
     "components__sign_pdf__detail__empty_sign": "Semnătură goală",
     "components__sign_pdf__detail__empty_text": "Text gol",
     "components__sign_pdf__detail__finish": "Finalizează și semnează",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Descărcare",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principală Semnare PDF",
     "components__sign_pdf__icon__sign": "Semnează",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Tastează ceva..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Tastează ceva...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Doar imagini de tip imagine pot fi încărcate"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Scăzut",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Dimensiune medie a fișierului, rezoluție standard",
     "components__compress_pdf__main__compress_strong_grade_title": "Puternic",
     "components__compress_pdf__main__compress_strong_grade_description": "Dimensiune mică a fișierului, rezoluție mai mică",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__compress_pdf__main__compress_download": "Comprimare și Descărcare",
     "components__compress_pdf__main__choose_another_file": "Alegeți alt fișier",
     "components__compress_pdf__main__current_pdf_size": "Dimensiunea actuală a PDF-ului",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Includere PDF",
-    "components__ocr_pdf__main__ocr_error": "Excepție OCR, fie documentul este criptat în mod anormal, fie fișierul este prea mare",
     "components__ocr_pdf__main__upload_error": "Vă rugăm să verificați dacă fișierul PDF este criptat sau are probleme!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Vă rugăm să încărcați tipul specificat de fișier PDF",
     "components__ocr_pdf__main__choose_another_file": "Alegeți alt fișier",
     "components__ocr_pdf__main__conversion_grade_title_1": "Precizie normală",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Timp de conversie mai rapid",

@@ -856,7 +856,6 @@
     "components__to_image_detail__cancel": "Скасувати",
     "components__to_image_detail__normal_quality": "Звичайна якість",
     "components__to_image_detail__high_quality": "Висока якість",
-    "components__index__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__to_image_detail__view_pages": "Переглянути сторінки",
     "components__to_image_detail__view_images": "Переглянути зображення",
     "components__to_image__downloader_tip": "Будь ласка, виберіть принаймні одне зображення.",
@@ -905,7 +904,6 @@
     "more_over_section__description__part2": "Від допомоги при написанні та підсумовуванні веб-сторінок до ChatPDF та малювання за допомогою штучного інтелекту, MaxAI.me дає вам можливість читати, писати та створювати за допомогою найпродуктивніших моделей штучного інтелекту, включаючи ChatGPT, Claude та Gemini. Покращуйте свій досвід перегляду та розкривайте свій потенціал продуктивності з MaxAI.me вже сьогодні!"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__pdf_merge__add_pdf": "Додати PDF",
     "components__pdf_merge__empty_pdf": "Очистити PDF",
     "components__pdf_merge__confirm_merge": "Підтвердити об'єднання",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Додати файл PDF нижче"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__pdf_split__add_pdf": "Додати PDF",
     "components__pdf_split__remove_pdf": "Видалити PDF",
     "components__pdf_split__select_all": "Вибрати все",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "зашифровано або ненормальне, не можна обробити PDF, пропущено",
     "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи",
     "components__common__upload_button_tips": "або перетягніть файли сюди",
-    "components__common__upload_button_title": "ВИБРАТИ ФАЙЛИ"
+    "components__common__upload_button_title": "ВИБРАТИ ФАЙЛИ",
+    "components__common__upload_button__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можна завантажувати лише зображення типу image",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Низ"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__pdf_to_html__button__download": "Завантажити",
     "components__pdf_to_html__button__convert": "Конвертувати ще"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Малювати",
     "components__sign_pdf__operation_view__type": "Тип",
     "components__sign_pdf__operation_view__upload": "Завантажити",
-    "components__sign_pdf__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__sign_pdf__detail__empty_sign": "Порожній підпис",
     "components__sign_pdf__detail__empty_text": "Порожній текст",
     "components__sign_pdf__detail__finish": "Завершити та підписати",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Завантажити",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Домашня сторінка підпису PDF",
     "components__sign_pdf__icon__sign": "Підписати",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Введіть щось..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Введіть щось...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Можна завантажити лише зображення типу зображення"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Низька",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Середній розмір файлу, стандартна роздільна здатність",
     "components__compress_pdf__main__compress_strong_grade_title": "Висока",
     "components__compress_pdf__main__compress_strong_grade_description": "Малий розмір файлу, нижча роздільна здатність",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__compress_pdf__main__compress_download": "Стиснути та завантажити",
     "components__compress_pdf__main__choose_another_file": "Вибрати інший файл",
     "components__compress_pdf__main__current_pdf_size": "Поточний розмір PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Вставка PDF",
-    "components__ocr_pdf__main__ocr_error": "OCR виняток, чи документ зашифрований аномально або файл занадто великий",
     "components__ocr_pdf__main__upload_error": "Будь ласка, перевірте, чи PDF-файл зашифрований або має аномалії!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
     "components__ocr_pdf__main__choose_another_file": "Вибрати інший файл",
     "components__ocr_pdf__main__conversion_grade_title_1": "Звичайна точність",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Швидший час перетворення",

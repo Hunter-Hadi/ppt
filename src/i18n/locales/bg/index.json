@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "От помощ при писане и резюмиране на уеб страници до ChatPDF и AI рисуване, MaxAI.me ви дава възможност да четете, пишете и създавате с помощта на най-развитите AI модели, включително ChatGPT, Claude и Gemini. Подобрете своето преживяване при сърфиране и отключете вашия потенциал за продуктивност с MaxAI.me днес!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__to_image_detail__select_all": "Избери всички",
     "components__to_image_detail__deselect_all": "Отмени избора на всички",
     "components__to_image_detail__download_images": "Изтегли изображенията",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Премахнете този PDF и изберете нов"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__pdf_merge__add_pdf": "Добави PDF",
     "components__pdf_merge__empty_pdf": "Изчисти PDF-ове",
     "components__pdf_merge__confirm_merge": "Потвърди обединяването",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Добавете PDF файл по-долу"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__pdf_split__add_pdf": "Добави PDF",
     "components__pdf_split__remove_pdf": "Премахни PDF",
     "components__pdf_split__select_all": "Избери всички",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "е криптиран или аномален, не може да се манипулира PDF, пропуснат",
     "components__common__drag__dropping_tip": "Можете да промените реда, като ги влачите и пускате",
     "components__common__upload_button_tips": "или поставете файлове тук",
-    "components__common__upload_button_title": "ИЗБЕРЕТЕ ФАЙЛОВЕ"
+    "components__common__upload_button_title": "ИЗБЕРЕТЕ ФАЙЛОВЕ",
+    "components__common__upload_button__unsupported_file_type_tip": "Моля качете определения PDF файлов тип"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Могат да бъдат качени само изображения от тип изображение",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Долу"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Моля, качете определения тип файл PDF",
     "components__pdf_to_html__button__download": "Изтегли",
     "components__pdf_to_html__button__convert": "Конвертирай отново"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Рисувайте",
     "components__sign_pdf__operation_view__type": "Тип",
     "components__sign_pdf__operation_view__upload": "Качи",
-    "components__sign_pdf__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__sign_pdf__detail__empty_sign": "Празна подпис",
     "components__sign_pdf__detail__empty_text": "Празен текст",
     "components__sign_pdf__detail__finish": "Завърши и подпиши",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Изтегляне",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Начална страница за подписване на PDF",
     "components__sign_pdf__icon__sign": "Подписване",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Въведете нещо..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Въведете нещо...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Могат да бъдат качени само изображения от тип изображение"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Ниско",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Среден размер на файла, стандартна резолюция",
     "components__compress_pdf__main__compress_strong_grade_title": "Силно",
     "components__compress_pdf__main__compress_strong_grade_description": "Малък размер на файла, по-ниска резолюция",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__compress_pdf__main__compress_download": "Свиване и изтегляне",
     "components__compress_pdf__main__choose_another_file": "Изберете друг файл",
     "components__compress_pdf__main__current_pdf_size": "Текущ размер на PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Вграждане на PDF",
-    "components__ocr_pdf__main__ocr_error": "OCR изключение, независимо дали документът е криптиран по аномален начин или файла е твърде голям",
     "components__ocr_pdf__main__upload_error": "Моля, проверете дали PDF файлът е криптиран или аномален!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Моля, качете определения тип PDF файл",
     "components__ocr_pdf__main__choose_another_file": "Изберете друг файл",
     "components__ocr_pdf__main__conversion_grade_title_1": "Нормална точност",
     "components__ocr_pdf__main__conversion_grade_tips_1": "По-бързо време за преобразуване",

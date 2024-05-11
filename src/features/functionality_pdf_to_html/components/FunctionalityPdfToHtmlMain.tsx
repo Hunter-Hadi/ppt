@@ -66,13 +66,6 @@ const FunctionalityPdfToHtmlMain = () => {
       );
     }
   }, [htmlString, fileName]);
-  const handleUnsupportedFileType = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__pdf_to_html:components__pdf_to_html__unsupported_file_type_tip',
-      ),
-    );
-  };
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -134,7 +127,6 @@ const FunctionalityPdfToHtmlMain = () => {
             multiple: true,
           }}
           onChange={onUploadFile}
-          handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
       {htmlString && (

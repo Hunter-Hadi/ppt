@@ -856,7 +856,6 @@
     "components__to_image_detail__cancel": "Hủy",
     "components__to_image_detail__normal_quality": "Chất lượng bình thường",
     "components__to_image_detail__high_quality": "Chất lượng cao",
-    "components__index__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__to_image_detail__view_pages": "Xem trang",
     "components__to_image_detail__view_images": "Xem hình ảnh",
     "components__to_image__downloader_tip": "Vui lòng chọn ít nhất một hình ảnh.",
@@ -905,7 +904,6 @@
     "more_over_section__description__part2": "Từ việc hỗ trợ viết và tóm tắt trang web cho đến ChatPDF và vẽ tranh AI, MaxAI.me giúp bạn đọc, viết và sáng tạo với sự trợ giúp từ các mô hình AI tiên tiến nhất, bao gồm ChatGPT, Claude và Gemini. Nâng cấp trải nghiệm duyệt web của bạn và mở khóa tiềm năng năng suất với MaxAI.me ngay hôm nay!"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__pdf_merge__add_pdf": "Thêm PDF",
     "components__pdf_merge__empty_pdf": "Xóa PDF",
     "components__pdf_merge__confirm_merge": "Xác nhận để gộp",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Thêm tệp PDF bên dưới"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__pdf_split__add_pdf": "Thêm PDF",
     "components__pdf_split__remove_pdf": "Xóa PDF",
     "components__pdf_split__select_all": "Chọn tất cả",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "đã được mã hóa hoặc không bình thường, không thể thao tác với PDF, đã bỏ qua",
     "components__common__drag__dropping_tip": "Bạn có thể điều chỉnh thứ tự bằng cách kéo và thả",
     "components__common__upload_button_tips": "hoặc thả tệp vào đây",
-    "components__common__upload_button_title": "CHỌN TỆP"
+    "components__common__upload_button_title": "CHỌN TỆP",
+    "components__common__upload_button__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại hình ảnh",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Dưới cùng"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
     "components__pdf_to_html__button__download": "Tải xuống",
     "components__pdf_to_html__button__convert": "Chuyển đổi khác"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Vẽ",
     "components__sign_pdf__operation_view__type": "Loại",
     "components__sign_pdf__operation_view__upload": "Tải lên",
-    "components__sign_pdf__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__sign_pdf__detail__empty_sign": "Chữ ký trống",
     "components__sign_pdf__detail__empty_text": "Văn bản trống",
     "components__sign_pdf__detail__finish": "Hoàn thành và Ký",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Tải xuống",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Trang chủ Ký PDF",
     "components__sign_pdf__icon__sign": "Ký",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Nhập gì đó..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Nhập gì đó...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại hình ảnh"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Thấp",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Kích thước tệp trung bình, độ phân giải tiêu chuẩn",
     "components__compress_pdf__main__compress_strong_grade_title": "Mạnh",
     "components__compress_pdf__main__compress_strong_grade_description": "Kích thước tệp nhỏ, độ phân giải thấp",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__compress_pdf__main__compress_download": "Nén & Tải xuống",
     "components__compress_pdf__main__choose_another_file": "Chọn tệp khác",
     "components__compress_pdf__main__current_pdf_size": "Kích thước PDF hiện tại",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Nhúng PDF",
-    "components__ocr_pdf__main__ocr_error": "Ngoại lệ OCR, có thể do tài liệu được mã hóa không bình thường hoặc tệp quá lớn",
     "components__ocr_pdf__main__upload_error": "Vui lòng kiểm tra xem tệp PDF có được mã hóa hay không!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Vui lòng tải lên loại tệp PDF đã chỉ định",
     "components__ocr_pdf__main__choose_another_file": "Chọn tệp khác",
     "components__ocr_pdf__main__conversion_grade_title_1": "Độ chính xác Bình thường",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Thời gian chuyển đổi nhanh hơn",

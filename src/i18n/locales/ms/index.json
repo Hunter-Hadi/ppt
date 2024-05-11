@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Dari bantuan penulisan dan ringkasan laman web hingga ChatPDF dan seni AI, MaxAI.me memberdayakan anda untuk membaca, menulis, dan mencipta dengan bantuan model AI paling canggih, termasuk ChatGPT, Claude, dan Gemini. Tingkatkan pengalaman pelayaran anda dan buka potensi produktiviti anda dengan MaxAI.me hari ini!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__to_image_detail__select_all": "Pilih Semua",
     "components__to_image_detail__deselect_all": "Batal Pilih Semua",
     "components__to_image_detail__download_images": "Muat turun imej",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Buang PDF ini dan pilih yang baru"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
     "components__pdf_merge__add_pdf": "Tambah PDF",
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Tambah fail PDF di bawah"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__pdf_split__add_pdf": "Tambah PDF",
     "components__pdf_split__remove_pdf": "Buang PDF",
     "components__pdf_split__select_all": "Pilih Semua",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati",
     "components__common__drag__dropping_tip": "Anda boleh mengubah susunan dengan menyeret dan menjatuhkan",
     "components__common__upload_button_tips": "atau letakkan fail di sini",
-    "components__common__upload_button_title": "PILIH FAIL"
+    "components__common__upload_button_title": "PILIH FAIL",
+    "components__common__upload_button__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis imej boleh dimuat naik",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Bawah"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__pdf_to_html__button__download": "Muat turun",
     "components__pdf_to_html__button__convert": "Tukar yang lain"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Lukis",
     "components__sign_pdf__operation_view__type": "Jenis",
     "components__sign_pdf__operation_view__upload": "Muat Naik",
-    "components__sign_pdf__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__sign_pdf__detail__empty_sign": "Tandatangan Kosong",
     "components__sign_pdf__detail__empty_text": "Teks Kosong",
     "components__sign_pdf__detail__finish": "Selesai & Tandatangan",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Muat Turun",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Laman Utama Tandatangan PDF",
     "components__sign_pdf__icon__sign": "Tandatangan",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Taip sesuatu..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Taip sesuatu...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Hanya imej jenis imej boleh dimuat naik"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Rendah",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Saiz fail sederhana, resolusi standard",
     "components__compress_pdf__main__compress_strong_grade_title": "Kuat",
     "components__compress_pdf__main__compress_strong_grade_description": "Saiz fail kecil, resolusi lebih rendah",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__compress_pdf__main__compress_download": "Mampatkan & Muat Turun",
     "components__compress_pdf__main__choose_another_file": "Pilih fail lain",
     "components__compress_pdf__main__current_pdf_size": "Saiz semasa PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Penyisipan PDF",
-    "components__ocr_pdf__main__ocr_error": "Pengecualian OCR, sama ada dokumen terenkripsi secara tidak normal atau fail terlalu besar",
     "components__ocr_pdf__main__upload_error": "Sila semak jika fail PDF terenkripsi atau tidak normal!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__ocr_pdf__main__choose_another_file": "Pilih fail lain",
     "components__ocr_pdf__main__conversion_grade_title_1": "Ketepatan Normal",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Masa penukaran yang lebih cepat",

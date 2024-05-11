@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Mula sa tulong sa pagsusulat at pagbuod ng webpage hanggang sa ChatPDF at AI painting, pinapahusay ka ng MaxAI.me na magbasa, sumulat, at lumikha gamit ang tulong ng pinakamahusay na AI models, kabilang ang ChatGPT, Claude, at Gemini. I-upgrade ang iyong karanasan sa pag-browse at buksan ang iyong potensyal sa produktibidad gamit ang MaxAI.me ngayon!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__to_image_detail__select_all": "Piliin Lahat",
     "components__to_image_detail__deselect_all": "Tanggalin ang Lahat",
     "components__to_image_detail__download_images": "I-download ang mga imahe",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Tanggalin ang PDF na ito at pumili ng bago"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
     "components__pdf_merge__add_pdf": "Magdagdag ng PDF",
     "components__pdf_merge__empty_pdf": "Burahin ang mga PDF",
     "components__pdf_merge__confirm_merge": "Kumpirmahin ang pag-merge",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Magdagdag ng PDF file sa ibaba"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
     "components__pdf_split__add_pdf": "Magdagdag ng mga PDF",
     "components__pdf_split__remove_pdf": "Tanggalin ang PDF",
     "components__pdf_split__select_all": "Piliin Lahat",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "naka-encrypt o hindi normal, hindi maiproseso ang PDF, na-skip",
     "components__common__drag__dropping_tip": "Maaari mong ayusin ang pagkakasunud-sunod sa pamamagitan ng pag-drag at pag-drop",
     "components__common__upload_button_tips": "o i-drop ang mga file dito",
-    "components__common__upload_button_title": "PUMILI NG MGA FILE"
+    "components__common__upload_button_title": "PUMILI NG MGA FILE",
+    "components__common__upload_button__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng file ng PDF"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Maaaring i-upload lamang ang mga imahe ng uri ng imahe",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Ibabaw"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng PDF file",
     "components__pdf_to_html__button__download": "I-download",
     "components__pdf_to_html__button__convert": "I-convert muli"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Guhit",
     "components__sign_pdf__operation_view__type": "Uri",
     "components__sign_pdf__operation_view__upload": "I-upload",
-    "components__sign_pdf__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__sign_pdf__detail__empty_sign": "Walang Lagda",
     "components__sign_pdf__detail__empty_text": "Walang Teksto",
     "components__sign_pdf__detail__finish": "Tapos na & Lagda",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "I-download",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Tahanan ng Pagsasagawa ng PDF",
     "components__sign_pdf__icon__sign": "Lagda",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Magtype ng isang bagay..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Magtype ng isang bagay...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Maaaring mag-upload lamang ng mga imahe ng uri ng imahe"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Mababa",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Katamtamang laki ng file, karaniwang resolusyon",
     "components__compress_pdf__main__compress_strong_grade_title": "Matatag",
     "components__compress_pdf__main__compress_strong_grade_description": "Maliit na laki ng file, mas mababang resolusyon",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__compress_pdf__main__compress_download": "Kompres & I-download",
     "components__compress_pdf__main__choose_another_file": "Pumili ng ibang file",
     "components__compress_pdf__main__current_pdf_size": "Laki ng kasalukuyang PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "I-embed ang PDF",
-    "components__ocr_pdf__main__ocr_error": "OCR exception, kung ang dokumento ay naka-encrypt o sobrang laki ng file",
     "components__ocr_pdf__main__upload_error": "Mangyaring suriin kung ang PDF file ay naka-encrypt o hindi normal!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Mangyaring i-upload ang tinukoy na uri ng PDF file",
     "components__ocr_pdf__main__choose_another_file": "Pumili ng ibang file",
     "components__ocr_pdf__main__conversion_grade_title_1": "Normal na Katumpakan",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Mas mabilis na oras ng pag-convert",

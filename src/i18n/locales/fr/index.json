@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "De l'assistance à l'écriture et à la synthèse de pages web à ChatPDF et à la peinture IA, MaxAI.me vous permet de lire, d'écrire et de créer avec l'aide des modèles d'IA les plus avancés, notamment ChatGPT, Claude et Gemini. Améliorez votre expérience de navigation et libérez votre potentiel de productivité avec MaxAI.me dès aujourd'hui!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__to_image_detail__select_all": "Tout sélectionner",
     "components__to_image_detail__deselect_all": "Tout désélectionner",
     "components__to_image_detail__download_images": "Télécharger les images",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Supprimer ce PDF et en sélectionner un nouveau"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__pdf_merge__add_pdf": "Ajouter un PDF",
     "components__pdf_merge__empty_pdf": "Effacer les PDF",
     "components__pdf_merge__confirm_merge": "Confirmer la fusion",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Ajouter un fichier PDF ci-dessous"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__pdf_split__add_pdf": "Ajouter des PDF",
     "components__pdf_split__remove_pdf": "Supprimer le PDF",
     "components__pdf_split__select_all": "Tout sélectionner",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "est chiffré ou anormal, impossible de manipuler le PDF, ignoré",
     "components__common__drag__dropping_tip": "Vous pouvez ajuster l'ordre en faisant glisser et déposer",
     "components__common__upload_button_tips": "ou déposez les fichiers ici",
-    "components__common__upload_button_title": "CHOISISSEZ DES FICHIERS"
+    "components__common__upload_button_title": "CHOISISSEZ DES FICHIERS",
+    "components__common__upload_button__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Seules les images de type image peuvent être téléchargées",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Bas"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__pdf_to_html__button__download": "Télécharger",
     "components__pdf_to_html__button__convert": "Convertir un autre"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Dessiner",
     "components__sign_pdf__operation_view__type": "Type",
     "components__sign_pdf__operation_view__upload": "Télécharger",
-    "components__sign_pdf__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__sign_pdf__detail__empty_sign": "Signature vide",
     "components__sign_pdf__detail__empty_text": "Texte vide",
     "components__sign_pdf__detail__finish": "Terminer et signer",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Télécharger",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Page d'accueil de la signature PDF",
     "components__sign_pdf__icon__sign": "Signer",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Saisissez quelque chose..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Saisissez quelque chose...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Seules les images de type image peuvent être téléchargées"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Faible",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Taille moyenne du fichier, résolution standard",
     "components__compress_pdf__main__compress_strong_grade_title": "Fort",
     "components__compress_pdf__main__compress_strong_grade_description": "Petite taille de fichier, résolution inférieure",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__compress_pdf__main__compress_download": "Compresser et télécharger",
     "components__compress_pdf__main__choose_another_file": "Choisir un autre fichier",
     "components__compress_pdf__main__current_pdf_size": "Taille actuelle du PDF",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Intégration PDF",
-    "components__ocr_pdf__main__ocr_error": "Exception OCR, que le document soit chiffré de manière anormale ou que le fichier soit trop volumineux",
     "components__ocr_pdf__main__upload_error": "Veuillez vérifier si le fichier PDF est chiffré ou anormal !",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
     "components__ocr_pdf__main__choose_another_file": "Choisir un autre fichier",
     "components__ocr_pdf__main__conversion_grade_title_1": "Précision normale",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Temps de conversion plus rapide",

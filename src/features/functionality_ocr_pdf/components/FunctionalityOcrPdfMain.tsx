@@ -87,6 +87,7 @@ const FunctionalityOcrPdfMain = () => {
           if (!pdFDocument || pagesBackgroundCanvas.length === 0) return;
           let pdfPagesBackgroundCanvas = pagesBackgroundCanvas;
           if (scanningGrade !== oldScanningGrade.current) {
+            //不是上次的扫描等级，需要重新获取背景图片Canvas
             pdfPagesBackgroundCanvas = await renderFilesToBackgroundCanvas(
               pdFDocument,
             ); //重新获取背景图片Canvas
@@ -131,7 +132,7 @@ const FunctionalityOcrPdfMain = () => {
       console.log('simply onOcrPdfAndDownload error', e);
       setIsLoading(false);
       functionalityCommonSnackNotifications(
-        t('functionality__ocr_pdf:components__ocr_pdf__main__ocr_error'),
+        t('functionality__ocr_pdf:components__ocr_pdf__main__upload_error'),
       );
     }
   }, [
@@ -145,27 +146,27 @@ const FunctionalityOcrPdfMain = () => {
     renderFilesToBackgroundCanvas,
   ]);
 
-  //获取PDF主要的语言
+  //获取PDF主要的语言：该功能是  假如上传的PDF主要语言是中文，那么就会默认选择中文识别，当然只是简单的通过PDF内的文字判断语言，不一定准确
   const getPdfMainLanguage = async (pdfDocument: PDFDocumentProxy) => {
     if (pdfDocument) {
-      const centerNumber = Math.max(1, Math.floor(pdfDocument.numPages / 2));
-      const page = await pdfDocument.getPage(centerNumber);
+      const centerNumber = Math.max(1, Math.floor(pdfDocument.numPages / 2)); //获取PDF中间页码
+      const page = await pdfDocument.getPage(centerNumber); //获取PDF中间页码的文本内容
       let textContent = await page.getTextContent({
         includeMarkedContent: true,
-      }); //获取文本内容列表
+      }); //获取PDF页面文本内容列表
       let allText = textContent.items
-        .map((v) => (v as { str: string }).str)
+        .map((textContentItem) => (textContentItem as { str: string }).str)
         .join('');
       if (allText.length === 0) {
         //没有数据，循环获取到就不拿了，不做过多判断，不让用户等待太久时间
         for (let i = 1; i <= pdfDocument.numPages; i++) {
-          if (i === centerNumber) continue;
+          if (i === centerNumber) continue; //跳过已经处理过的中间页码
           const page = await pdfDocument.getPage(i);
           textContent = await page.getTextContent({
             includeMarkedContent: true,
           }); //获取文本内容列表
           allText = textContent.items
-            .map((v) => (v as { str: string }).str)
+            .map((textContentItem) => (textContentItem as { str: string }).str)
             .join('');
           if (allText.length > 0) {
             break;
@@ -220,14 +221,6 @@ const FunctionalityOcrPdfMain = () => {
         );
       }
     }
-  };
-  //不支持的文件类型提示
-  const handleUnsupportedFileType = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__ocr_pdf:components__ocr_pdf__main__unsupported_file_type_tip',
-      ),
-    );
   };
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
@@ -309,7 +302,6 @@ const FunctionalityOcrPdfMain = () => {
             multiple: true,
           }}
           onChange={onUploadFile}
-          handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
       {isLoading && (

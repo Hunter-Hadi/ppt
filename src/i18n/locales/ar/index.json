@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "من مساعدة الكتابة وتلخيص صفحات الويب إلى ChatPDF ورسم الذكاء الاصطناعي، يمنحك MaxAI.me القدرة على القراءة والكتابة والإبداع بمساعدة أكثر نماذج الذكاء الاصطناعي تقدمًا، بما في ذلك ChatGPT وClaude وGemini. قم بترقية تجربة التصفح الخاصة بك واستفد من إمكانات إنتاجيتك مع MaxAI.me اليوم!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__to_image_detail__select_all": "تحديد الكل",
     "components__to_image_detail__deselect_all": "إلغاء تحديد الكل",
     "components__to_image_detail__download_images": "تنزيل الصور",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "إزالة هذا الملف PDF وتحديد ملف جديد"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
     "components__pdf_merge__add_pdf": "إضافة PDF",
     "components__pdf_merge__empty_pdf": "مسح PDFs",
     "components__pdf_merge__confirm_merge": "تأكيد الدمج",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "إضافة ملف PDF أدناه"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
     "components__pdf_split__add_pdf": "إضافة ملفات PDF",
     "components__pdf_split__remove_pdf": "إزالة ملف PDF",
     "components__pdf_split__select_all": "تحديد الكل",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على التلاعب بملف PDF، تم تخطيها",
     "components__common__drag__dropping_tip": "يمكنك ضبط الترتيب عن طريق سحب وإفلات",
     "components__common__upload_button_tips": "أو اسحب الملفات هنا",
-    "components__common__upload_button_title": "اختر الملفات"
+    "components__common__upload_button_title": "اختر الملفات",
+    "components__common__upload_button__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع الصورة فقط",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "أسفل"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__pdf_to_html__button__download": "تحميل",
     "components__pdf_to_html__button__convert": "تحويل آخر"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "رسم",
     "components__sign_pdf__operation_view__type": "نوع",
     "components__sign_pdf__operation_view__upload": "تحميل",
-    "components__sign_pdf__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__sign_pdf__detail__empty_sign": "توقيع فارغ",
     "components__sign_pdf__detail__empty_text": "نص فارغ",
     "components__sign_pdf__detail__finish": "إنهاء وتوقيع",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "تنزيل",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحة الصفحة الرئيسية لتوقيع PDF",
     "components__sign_pdf__icon__sign": "توقيع",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "اكتب شيئًا..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "اكتب شيئًا...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "يمكن تحميل صور فقط من نوع الصورة"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "منخفض",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "حجم ملف متوسط، دقة قياسية",
     "components__compress_pdf__main__compress_strong_grade_title": "قوي",
     "components__compress_pdf__main__compress_strong_grade_description": "حجم ملف صغير، دقة أقل",
-    "components__compress_pdf__main__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__compress_pdf__main__compress_download": "ضغط وتنزيل",
     "components__compress_pdf__main__choose_another_file": "اختر ملف آخر",
     "components__compress_pdf__main__current_pdf_size": "حجم الـPDF الحالي",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "تضمين PDF",
-    "components__ocr_pdf__main__ocr_error": "استثناء OCR ، سواء كان المستند مشفرًا بشكل غير طبيعي أو كان الملف كبيرًا جدًا",
     "components__ocr_pdf__main__upload_error": "يرجى التحقق مما إذا كان ملف PDF مشفرًا أو غير طبيعي!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__ocr_pdf__main__choose_another_file": "اختر ملفًا آخر",
     "components__ocr_pdf__main__conversion_grade_title_1": "دقة عادية",
     "components__ocr_pdf__main__conversion_grade_tips_1": "وقت تحويل أسرع",

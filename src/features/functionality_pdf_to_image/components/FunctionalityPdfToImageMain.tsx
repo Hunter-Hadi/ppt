@@ -4,7 +4,6 @@ import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 const FunctionalityPdfToImageDetail = lazy(
   () =>
@@ -27,13 +26,6 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
     if (fileList?.length > 0) {
       setFileData(fileList[0]);
     }
-  };
-  const handleUnsupportedFileType = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__pdf_to_image:components__index__unsupported_file_type_tip',
-      ),
-    );
   };
   const toImageType = useMemo(() => {
     switch (toType) {
@@ -59,7 +51,6 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
             multiple: false,
           }}
           onChange={onChangeFile}
-          handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
       {fileData && toImageType && (

@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Od pomoči pri pisanju in povzetku spletnih strani do ChatPDF in AI slikarstva, MaxAI.me vam omogoča branje, pisanje in ustvarjanje z uporabo najnaprednejših AI modelov, vključno s ChatGPT, Claude in Gemini. Nadgradite svojo izkušnjo brskanja in odklenite svoj potencial za produktivnost z MaxAI.me že danes!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__to_image_detail__select_all": "Izberi vse",
     "components__to_image_detail__deselect_all": "Odstrani izbor",
     "components__to_image_detail__download_images": "Prenesi slike",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Odstrani ta PDF in izberi novega"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Naložite določeno vrsto PDF datoteke",
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Počisti PDF-je",
     "components__pdf_merge__confirm_merge": "Potrdi združevanje",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteko spodaj"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__pdf_split__add_pdf": "Dodaj PDF-je",
     "components__pdf_split__remove_pdf": "Odstrani PDF",
     "components__pdf_split__select_all": "Izberi vse",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "je šifriran ali nenavaden, ni mogoče manipulirati s PDF-jem, preskočeno",
     "components__common__drag__dropping_tip": "Vrstni red lahko prilagodite z vlečenjem in spuščanjem",
     "components__common__upload_button_tips": "ali spustite datoteke sem",
-    "components__common__upload_button_title": "IZBERI DATOTEKE"
+    "components__common__upload_button_title": "IZBERI DATOTEKE",
+    "components__common__upload_button__unsupported_file_type_tip": "Naložite samo določeno vrsto datoteke PDF"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Samo slike vrste slike lahko naložite",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Spodaj"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__pdf_to_html__button__download": "Prenesi",
     "components__pdf_to_html__button__convert": "Pretvori drugo"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Nariši",
     "components__sign_pdf__operation_view__type": "Vrsta",
     "components__sign_pdf__operation_view__upload": "Naloži",
-    "components__sign_pdf__unsupported_file_type_tip": "Naložite določeno vrsto PDF datoteke",
     "components__sign_pdf__detail__empty_sign": "Prazen podpis",
     "components__sign_pdf__detail__empty_text": "Prazen tekst",
     "components__sign_pdf__detail__finish": "Končaj in podpiši",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Prenesi",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domov",
     "components__sign_pdf__icon__sign": "Podpiši",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Vnesite nekaj..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Vnesite nekaj...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Samo slike vrste slike lahko naložite"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Nizka",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Srednja velikost datoteke, standardna ločljivost",
     "components__compress_pdf__main__compress_strong_grade_title": "Močna",
     "components__compress_pdf__main__compress_strong_grade_description": "Majhna velikost datoteke, nižja ločljivost",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Naložite določen tip datoteke PDF",
     "components__compress_pdf__main__compress_download": "Stisni in prenesi",
     "components__compress_pdf__main__choose_another_file": "Izberite drugo datoteko",
     "components__compress_pdf__main__current_pdf_size": "Trenutna velikost PDF-ja",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Vdelava PDF",
-    "components__ocr_pdf__main__ocr_error": "Izjema OCR, ali je dokument nenavadno šifriran ali pa je datoteka prevelika",
     "components__ocr_pdf__main__upload_error": "Preverite, ali je PDF datoteka šifrirana ali nenavadna!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Naložite določen tip datoteke PDF",
     "components__ocr_pdf__main__choose_another_file": "Izberite drugo datoteko",
     "components__ocr_pdf__main__conversion_grade_title_1": "Običajna natančnost",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Hitrejši čas pretvorbe",

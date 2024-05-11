@@ -856,7 +856,6 @@
     "components__to_image_detail__cancel": "ยกเลิก",
     "components__to_image_detail__normal_quality": "คุณภาพปกติ",
     "components__to_image_detail__high_quality": "คุณภาพสูง",
-    "components__index__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__to_image_detail__view_pages": "ดูหน้า",
     "components__to_image_detail__view_images": "ดูรูปภาพ",
     "components__to_image__downloader_tip": "กรุณาเลือกอย่างน้อยหนึ่งรูปภาพ",
@@ -905,7 +904,6 @@
     "more_over_section__description__part2": "ตั้งแต่การช่วยเขียนและสรุปหน้าเว็บไปจนถึง ChatPDF และการวาดภาพด้วย AI  MaxAI.me ช่วยให้คุณอ่าน เขียน และสร้างสรรค์ด้วยความช่วยเหลือจากโมเดล AI ที่ทันสมัยที่สุด เช่น ChatGPT, Claude, และ Gemini อัพเกรดประสบการณ์การเรียกดูของคุณและปลดล็อกศักยภาพในการผลิตภัณฑ์ของคุณด้วย MaxAI.me วันนี้!"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__pdf_merge__add_pdf": "เพิ่ม PDF",
     "components__pdf_merge__empty_pdf": "ล้าง PDF",
     "components__pdf_merge__confirm_merge": "ยืนยันการรวม",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "เพิ่มไฟล์ PDF ด้านล่าง"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__pdf_split__add_pdf": "เพิ่ม PDF",
     "components__pdf_split__remove_pdf": "ลบ PDF",
     "components__pdf_split__select_all": "เลือกทั้งหมด",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "ถูกเข้ารหัสหรือผิดปกติ ไม่สามารถจัดการไฟล์ PDF ได้ ข้าม",
     "components__common__drag__dropping_tip": "คุณสามารถปรับลำดับได้โดยลากและวาง",
     "components__common__upload_button_tips": "หรือวางไฟล์ที่นี่",
-    "components__common__upload_button_title": "เลือกไฟล์"
+    "components__common__upload_button_title": "เลือกไฟล์",
+    "components__common__upload_button__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "สามารถอัปโหลดภาพเฉพาะชนิดภาพเท่านั้น",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "ล่าง"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "กรุณาอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__pdf_to_html__button__download": "ดาวน์โหลด",
     "components__pdf_to_html__button__convert": "แปลงอื่น"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "วาด",
     "components__sign_pdf__operation_view__type": "ประเภท",
     "components__sign_pdf__operation_view__upload": "อัปโหลด",
-    "components__sign_pdf__unsupported_file_type_tip": "กรุณาอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__sign_pdf__detail__empty_sign": "ลายเซ็นว่างเปล่า",
     "components__sign_pdf__detail__empty_text": "ข้อความว่างเปล่า",
     "components__sign_pdf__detail__finish": "เสร็จสิ้นและลงลายเซ็น",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "ดาวน์โหลด",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "หน้าหลักลงชื่อ PDF",
     "components__sign_pdf__icon__sign": "เซ็น",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "พิมพ์อะไรบางอย่าง..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "พิมพ์อะไรบางอย่าง...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "สามารถอัปโหลดเฉพาะรูปภาพประเภทภาพเท่านั้น"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "ต่ำ",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "ขนาดไฟล์กลาง, ความละเอียดมาตรฐาน",
     "components__compress_pdf__main__compress_strong_grade_title": "แข็งแกร่ง",
     "components__compress_pdf__main__compress_strong_grade_description": "ขนาดไฟล์เล็ก, ความละเอียดต่ำ",
-    "components__compress_pdf__main__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__compress_pdf__main__compress_download": "บีบอัดและดาวน์โหลด",
     "components__compress_pdf__main__choose_another_file": "เลือกไฟล์อื่น",
     "components__compress_pdf__main__current_pdf_size": "ขนาด PDF ปัจจุบัน",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "ฝัง PDF",
-    "components__ocr_pdf__main__ocr_error": "ข้อยกเว้น OCR ไม่ว่าเอกสารจะถูกเข้ารหัสผิดปกติหรือไฟล์จะใหญ่เกินไป",
     "components__ocr_pdf__main__upload_error": "กรุณาตรวจสอบว่าไฟล์ PDF ถูกเข้ารหัสหรือผิดปกติหรือไม่!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "กรุณาอัปโหลดไฟล์ PDF ที่ระบุ",
     "components__ocr_pdf__main__choose_another_file": "เลือกไฟล์อื่น",
     "components__ocr_pdf__main__conversion_grade_title_1": "ความแม่นยำปกติ",
     "components__ocr_pdf__main__conversion_grade_tips_1": "เวลาแปลงเร็วขึ้น",

@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "লেখা সহায়তা এবং ওয়েবপেজ সংক্ষেপণ থেকে চ্যাটপিডিএফ এবং এআই পেইন্টিং পর্যন্ত, MaxAI.me আপনাকে সর্বোচ্চ এআই মডেলগুলির সাহায্যে পড়া, লেখা এবং সৃষ্টি করার সুযোগ দেয়। এটি ছাড়াও ChatGPT, Claude এবং Gemini সহ সর্বোচ্চ এআই মডেলগুলির সাহায্যে আপনার ব্রাউজিং অভিজ্ঞতা আপগ্রেড করুন এবং আপনার উদ্যোগশীলতা সম্ভাবনা আনলক করুন। MaxAI.me এখনই ব্যবহার করুন!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__to_image_detail__select_all": "সব নির্বাচন করুন",
     "components__to_image_detail__deselect_all": "সব অগ্রাহ্য করুন",
     "components__to_image_detail__download_images": "ছবি ডাউনলোড করুন",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "এই পিডিএফ মুছে ফেলুন এবং নতুনটি নির্বাচন করুন"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "অনুগ্রহ করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__pdf_merge__add_pdf": "পিডিএফ যোগ করুন",
     "components__pdf_merge__empty_pdf": "পিডিএফ সাফ করুন",
     "components__pdf_merge__confirm_merge": "মার্জ করতে নিশ্চিত করুন",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "নীচে পিডিএফ ফাইল যোগ করুন"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "দয়া করে নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__pdf_split__add_pdf": "পিডিএফ যোগ করুন",
     "components__pdf_split__remove_pdf": "পিডিএফ সরান",
     "components__pdf_split__select_all": "সব নির্বাচন করুন",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "এনক্রিপ্ট বা অস্বাভাবিক, পিডিএফ সংশোধন করতে অক্ষম, এই পাস করা হয়েছে",
     "components__common__drag__dropping_tip": "আপনি ড্র্যাগ এবং ড্রপ করে ক্রম পরিবর্তন করতে পারেন",
     "components__common__upload_button_tips": "অথবা ফাইলগুলি এখানে পরিবর্তন করুন",
-    "components__common__upload_button_title": "ফাইলগুলি চয়ন করুন"
+    "components__common__upload_button_title": "ফাইলগুলি চয়ন করুন",
+    "components__common__upload_button__unsupported_file_type_tip": "দয়া করে নির্দিষ্ট PDF ফাইল টাইপ আপলোড করুন"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "শুধুমাত্র ইমেজ টাইপের ছবি আপলোড করা যাবে",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "নীচে"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__pdf_to_html__button__download": "ডাউনলোড করুন",
     "components__pdf_to_html__button__convert": "আরেকটি রূপান্তর করুন"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "আঁকুন",
     "components__sign_pdf__operation_view__type": "প্রকার",
     "components__sign_pdf__operation_view__upload": "আপলোড করুন",
-    "components__sign_pdf__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল আপলোড করুন",
     "components__sign_pdf__detail__empty_sign": "খালি স্বাক্ষর",
     "components__sign_pdf__detail__empty_text": "খালি টেক্সট",
     "components__sign_pdf__detail__finish": "সমাপ্ত করুন এবং স্বাক্ষর করুন",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "ডাউনলোড",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "সাইন পিডিএফ হোমপেজ",
     "components__sign_pdf__icon__sign": "স্বাক্ষর করুন",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "কিছু লিখুন..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "কিছু লিখুন...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "শুধুমাত্র চিত্র টাইপের চিত্র আপলোড করা যাবে"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "নিম্ন",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "মাঝারি ফাইল আকার, মানদর্শী রেজোলিউশন",
     "components__compress_pdf__main__compress_strong_grade_title": "শক্তিশালী",
     "components__compress_pdf__main__compress_strong_grade_description": "ছোট ফাইল আকার, নিম্ন রেজোলিউশন",
-    "components__compress_pdf__main__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__compress_pdf__main__compress_download": "সংকোচন এবং ডাউনলোড করুন",
     "components__compress_pdf__main__choose_another_file": "অন্য ফাইল চয়ন করুন",
     "components__compress_pdf__main__current_pdf_size": "বর্তমান পিডিএফ আকার",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF ইম্বেড",
-    "components__ocr_pdf__main__ocr_error": "OCR অস্বাভাবিকভাবে এনক্রিপ্ট করা হয় কিনা বা ফাইলটি অত্যন্ত বড় কিনা তা চেক করুন",
     "components__ocr_pdf__main__upload_error": "দয়া করে চেক করুন আপনার পিডিএফ ফাইলটি এনক্রিপ্ট করা হয়েছে কিনা বা অস্বাভাবিক কিনা!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "নির্দিষ্ট পিডিএফ ফাইল টাইপ আপলোড করুন",
     "components__ocr_pdf__main__choose_another_file": "অন্য ফাইল চয়ন করুন",
     "components__ocr_pdf__main__conversion_grade_title_1": "সাধারণ নির্ভরযোগ্যতা",
     "components__ocr_pdf__main__conversion_grade_tips_1": "দ্রুত রূপান্তর সময়",

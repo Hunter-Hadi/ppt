@@ -856,7 +856,6 @@
     "components__to_image_detail__cancel": "منسوخ کریں",
     "components__to_image_detail__normal_quality": "عام معیار",
     "components__to_image_detail__high_quality": "اعلی معیار",
-    "components__index__unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کی اپ لوڈ کریں",
     "components__to_image_detail__view_pages": "صفحات دیکھیں",
     "components__to_image_detail__view_images": "تصاویر دیکھیں",
     "components__to_image__downloader_tip": "براہ کرم کم از کم ایک تصویر منتخب کریں۔",
@@ -905,7 +904,6 @@
     "more_over_section__description__part2": "لکھنے کی مدد اور ویب پیج خلاصہ کاری سے ChatPDF اور AI پینٹنگ تک، MaxAI.me آپ کو مدد کے ساتھ پڑھنے، لکھنے اور تخلیق کرنے کی صلاحیت فراہم کرتا ہے۔ ChatGPT، Claude اور Gemini جیسے سب سے تجدید شدہ AI ماڈلز کی مدد سے اپنی براؤزنگ تجربے کو اپ گریڈ کریں اور اپنے پروڈکٹوٹی کی صلاحیت کو آزاد کریں۔ MaxAI.me آج ہی استعمال کریں!"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "مخصوص شدہ پی ڈی ایف فائل کو اپ لوڈ کریں",
     "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",
     "components__pdf_merge__empty_pdf": "پی ڈی ایف صاف کریں",
     "components__pdf_merge__confirm_merge": "مرج کرنے کی تصدیق کریں",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "نیچے PDF فائل شامل کریں"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "مخصوص شدہ پی ڈی ایف فائل کو اپ لوڈ کریں",
     "components__pdf_split__add_pdf": "پی ڈی ایفز شامل کریں",
     "components__pdf_split__remove_pdf": "پی ڈی ایف ہٹائیں",
     "components__pdf_split__select_all": "سب کو منتخب کریں",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "PDF محفوظ ہے یا غیر معمولی ہے، پی ڈی ایف کو ترتیب نہیں دیا جاسکتا، چھوڑ دیا گیا",
     "components__common__drag__dropping_tip": "آپ ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
     "components__common__upload_button_tips": "یا یہاں فائلیں ڈراپ کریں",
-    "components__common__upload_button_title": "فائلیں منتخب کریں"
+    "components__common__upload_button_title": "فائلیں منتخب کریں",
+    "components__common__upload_button__unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کو اپ لوڈ کریں"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "صرف تصویر قسم کی تصاویر اپلوڈ کی جا سکتی ہیں",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "نیچے"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کو اپ لوڈ کریں",
     "components__pdf_to_html__button__download": "ڈاؤن لوڈ کریں",
     "components__pdf_to_html__button__convert": "دوسرا تبدیل کریں"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "کھینچیں",
     "components__sign_pdf__operation_view__type": "ٹائپ کریں",
     "components__sign_pdf__operation_view__upload": "اپ لوڈ کریں",
-    "components__sign_pdf__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کو اپ لوڈ کریں",
     "components__sign_pdf__detail__empty_sign": "خالی سگنیچر",
     "components__sign_pdf__detail__empty_text": "خالی ٹیکسٹ",
     "components__sign_pdf__detail__finish": "مکمل کریں اور دستخط کریں",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "ڈاؤن لوڈ",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "سائن پی ڈی ایف ہوم پیج",
     "components__sign_pdf__icon__sign": "سائن کریں",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "کچھ ٹائپ کریں..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "کچھ ٹائپ کریں...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "صرف تصویر کی قسم کی تصاویر اپ لوڈ کی جا سکتی ہیں"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "کم",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "میڈیم سائز، عام تفصیلات",
     "components__compress_pdf__main__compress_strong_grade_title": "مضبوط",
     "components__compress_pdf__main__compress_strong_grade_description": "چھوٹی سائز، کم تفصیلات",
-    "components__compress_pdf__main__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کو اپ لوڈ کریں",
     "components__compress_pdf__main__compress_download": "کمپریس کریں اور ڈاؤن لوڈ کریں",
     "components__compress_pdf__main__choose_another_file": "کوئی دوسری فائل منتخب کریں",
     "components__compress_pdf__main__current_pdf_size": "موجودہ PDF سائز",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF ایمبیڈ",
-    "components__ocr_pdf__main__ocr_error": "OCR استثناء، چاہے وثیقہ غیر معمولی طور پر خفیہ کیا گیا ہو یا فائل بہت بڑی ہو",
     "components__ocr_pdf__main__upload_error": "براہ کرم چیک کریں کہ PDF فائل خفیہ کی گئی ہے یا غیر معمولی ہے!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "براہ کرم مخصوص شدہ PDF فائل کی اپ لوڈ کریں",
     "components__ocr_pdf__main__choose_another_file": "کوئی دوسری فائل منتخب کریں",
     "components__ocr_pdf__main__conversion_grade_title_1": "عام درستگی",
     "components__ocr_pdf__main__conversion_grade_tips_1": "تیز تبدیلی کا وقت",

@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Od pomoći pri pisanju i sažimanju veb stranica do ChatPDF-a i AI slikarstva, MaxAI.me vam omogućava da čitate, pišete i stvarate uz pomoć najnaprednijih AI modela, uključujući ChatGPT, Claude i Gemini. Nadogradite svoje iskustvo pretraživanja i otključajte svoj potencijal za produktivnost sa MaxAI.me-om danas!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Otpremite određeni tip PDF datoteke",
     "components__to_image_detail__select_all": "Izaberite sve",
     "components__to_image_detail__deselect_all": "Poništite izbor svih",
     "components__to_image_detail__download_images": "Preuzmite slike",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Ukloni ovaj PDF i izaberi novi"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Očisti PDF-ove",
     "components__pdf_merge__confirm_merge": "Potvrdi spajanje",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF fajl ispod"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Molimo vas da otpremite odgovarajući tip PDF fajla",
     "components__pdf_split__add_pdf": "Dodaj PDF-ove",
     "components__pdf_split__remove_pdf": "Ukloni PDF",
     "components__pdf_split__select_all": "Selektuj sve",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "je šifrovan ili nepravilan, nemoguće manipulisati PDF-om, preskočeno",
     "components__common__drag__dropping_tip": "Možete prilagoditi redosled prevlačenjem",
     "components__common__upload_button_tips": "ili prevuci fajlove ovde",
-    "components__common__upload_button_title": "IZABERI FAJLOVE"
+    "components__common__upload_button_title": "IZABERI FAJLOVE",
+    "components__common__upload_button__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Samo slike tipa image mogu biti otpremljene",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Dno"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Molimo vas da otpremite određeni tip PDF fajla",
     "components__pdf_to_html__button__download": "Preuzmi",
     "components__pdf_to_html__button__convert": "Konvertuj ponovo"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Nacrtaj",
     "components__sign_pdf__operation_view__type": "Unesi",
     "components__sign_pdf__operation_view__upload": "Otpremi",
-    "components__sign_pdf__unsupported_file_type_tip": "Molimo otpremite odgovarajući tip PDF fajla",
     "components__sign_pdf__detail__empty_sign": "Prazan potpis",
     "components__sign_pdf__detail__empty_text": "Prazan tekst",
     "components__sign_pdf__detail__finish": "Završi i potpiši",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Preuzmi",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Početna stranica za potpisivanje PDF-a",
     "components__sign_pdf__icon__sign": "Potpiši",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Unesite nešto..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Unesite nešto...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Samo slike tipa slike mogu biti otpremljene"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Nisko",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Srednja veličina fajla, standardna rezolucija",
     "components__compress_pdf__main__compress_strong_grade_title": "Jako",
     "components__compress_pdf__main__compress_strong_grade_description": "Mala veličina fajla, niža rezolucija",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Molimo otpremite odgovarajući tip PDF fajla",
     "components__compress_pdf__main__compress_download": "Kompresuj i preuzmi",
     "components__compress_pdf__main__choose_another_file": "Izaberite drugi fajl",
     "components__compress_pdf__main__current_pdf_size": "Trenutna veličina PDF-a",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "Ugrađeni PDF",
-    "components__ocr_pdf__main__ocr_error": "OCR izuzetak, bilo da je dokument nenormalno šifrovan ili je fajl prevelik",
     "components__ocr_pdf__main__upload_error": "Proverite da li je PDF fajl šifrovan ili nenormalan!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Otpremite određeni tip PDF fajla",
     "components__ocr_pdf__main__choose_another_file": "Izaberite drugi fajl",
     "components__ocr_pdf__main__conversion_grade_title_1": "Normalna tačnost",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Brže vreme konverzije",

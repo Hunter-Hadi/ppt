@@ -640,10 +640,10 @@
     "components__common__pdf_encryption_tip": "is encrypted or abnormal, unable to manipulate the PDF, skipped",
     "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping",
     "components__common__upload_button_tips": "or drop files here",
-    "components__common__upload_button_title": "CHOOSE FILES"
+    "components__common__upload_button_title": "CHOOSE FILES",
+    "components__common__upload_button__unsupported_file_type_tip": "Please upload the specified PDF file type"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__pdf_merge__add_pdf": "Add PDFs",
     "components__pdf_merge__empty_pdf": "Clear PDFs",
     "components__pdf_merge__confirm_merge": "Confirm to merge",
@@ -653,12 +653,10 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Add PDF file below"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__pdf_to_html__button__download": "Download",
     "components__pdf_to_html__button__convert": "Convert another"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__pdf_split__add_pdf": "Add PDFs",
     "components__pdf_split__remove_pdf": "Remove PDF",
     "components__pdf_split__select_all": "Select All",
@@ -675,7 +673,6 @@
     "components__pdf_split__button__cancel__tooltip": "Cancel current progress"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__to_image_detail__select_all": "Select All",
     "components__to_image_detail__deselect_all": "Deselect all",
     "components__to_image_detail__download_images": "Download images",
@@ -731,7 +728,6 @@
     "components__sign_pdf__operation_view__type": "Type",
     "components__sign_pdf__operation_view__upload": "Upload",
 
-    "components__sign_pdf__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__sign_pdf__detail__empty_sign": "Empty Signature",
     "components__sign_pdf__detail__empty_text": "Empty Text",
     "components__sign_pdf__detail__finish": "Finish & Sign",
@@ -753,7 +749,8 @@
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Sign PDF Homepage",
 
     "components__sign_pdf__icon__sign": "Sign",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Type something…"
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Type something…",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Only images of image type can be uploaded"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Low",
@@ -765,8 +762,6 @@
     "components__compress_pdf__main__compress_strong_grade_title": "Strong",
     "components__compress_pdf__main__compress_strong_grade_description": "Small file size, lower resolution",
 
-    "components__compress_pdf__main__unsupported_file_type_tip": "Please upload the specified PDF file type",
-
     "components__compress_pdf__main__compress_download": "Compress & Download",
     "components__compress_pdf__main__choose_another_file": "Choose another file",
 
@@ -777,9 +772,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF Embed",
-    "components__ocr_pdf__main__ocr_error": "OCR exception, whether the document is encrypted abnormally or the file is too large",
     "components__ocr_pdf__main__upload_error": "Please check if the PDF file is encrypted or abnormal!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Please upload the specified PDF file type",
     "components__ocr_pdf__main__choose_another_file": "Choose another file",
 
     "components__ocr_pdf__main__conversion_grade_title_1": "Normal Accuracy",

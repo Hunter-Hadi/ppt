@@ -884,7 +884,6 @@
     "more_over_section__description__part2": "Sākot no rakstības palīdzības un lapas kopsavilkuma līdz ChatPDF un AI gleznošanai, MaxAI.me ļauj jums lasīt, rakstīt un radīt ar vismodernākajiem AI modeļiem, ieskaitot ChatGPT, Claude un Gemini. Uzlabojiet savu pārlūkošanas pieredzi un atklājiet savu produktivitātes potenciālu ar MaxAI.me jau šodien!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__to_image_detail__select_all": "Izvēlēties visu",
     "components__to_image_detail__deselect_all": "Noņemt atlasi",
     "components__to_image_detail__download_images": "Lejupielādēt attēlus",
@@ -905,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Noņemt šo PDF un izvēlēties jaunu"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_merge__add_pdf": "Pievienot PDF",
     "components__pdf_merge__empty_pdf": "Notīrīt PDF",
     "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
@@ -914,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Pievienot PDF failu zemāk"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_split__add_pdf": "Pievienot PDF",
     "components__pdf_split__remove_pdf": "Noņemt PDF",
     "components__pdf_split__select_all": "Izvēlēties visu",
@@ -933,7 +930,8 @@
     "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists",
     "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot",
     "components__common__upload_button_tips": "vai nometiet failus šeit",
-    "components__common__upload_button_title": "IZVĒLĒTIES FAILUS"
+    "components__common__upload_button_title": "IZVĒLĒTIES FAILUS",
+    "components__common__upload_button__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti",
@@ -950,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Apakša"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_to_html__button__download": "Lejupielādēt",
     "components__pdf_to_html__button__convert": "Konvertēt vēlreiz"
   },
@@ -1059,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Zīmēt",
     "components__sign_pdf__operation_view__type": "Tips",
     "components__sign_pdf__operation_view__upload": "Augšupielādēt",
-    "components__sign_pdf__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__sign_pdf__detail__empty_sign": "Tukša paraksts",
     "components__sign_pdf__detail__empty_text": "Tukšs teksts",
     "components__sign_pdf__detail__finish": "Pabeigt un parakstīt",
@@ -1079,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Lejupielādēt",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Paraksta PDF sākumlapa",
     "components__sign_pdf__icon__sign": "Parakstīt",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ieraksti kaut ko..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ieraksti kaut ko...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Zems",
@@ -1088,7 +1085,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Vidējs faila izmērs, standarta izšķirtspēja",
     "components__compress_pdf__main__compress_strong_grade_title": "Spēcīgs",
     "components__compress_pdf__main__compress_strong_grade_description": "Mazs faila izmērs, zemāka izšķirtspēja",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__compress_pdf__main__compress_download": "Saspiest un lejupielādēt",
     "components__compress_pdf__main__choose_another_file": "Izvēlieties citu failu",
     "components__compress_pdf__main__current_pdf_size": "Pašreizējais PDF izmērs",
@@ -1098,9 +1094,7 @@
   },
   "functionality__ocr_pdf": {
     "components__ocr_pdf__main__loading_title__pdf_embed": "PDF iegulšana",
-    "components__ocr_pdf__main__ocr_error": "OCR izņēmums, vai nu dokuments ir neparasti šifrēts, vai fails ir pārāk liels",
     "components__ocr_pdf__main__upload_error": "Lūdzu, pārbaudiet, vai PDF fails nav šifrēts vai neparasts!",
-    "components__ocr_pdf__main__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__ocr_pdf__main__choose_another_file": "Izvēlieties citu failu",
     "components__ocr_pdf__main__conversion_grade_title_1": "Normāla precizitāte",
     "components__ocr_pdf__main__conversion_grade_tips_1": "Ātrāka konvertēšanas laiks",

@@ -143,13 +143,6 @@ const FunctionalityCompressPdfMain = () => {
       setFile(fileList[0]);
     }
   };
-  const handleUnsupportedFileType = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__compress_pdf:components__compress_pdf__main__unsupported_file_type_tip',
-      ),
-    );
-  };
   //按钮配置列表
   const compressBeforeButtonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -241,7 +234,6 @@ const FunctionalityCompressPdfMain = () => {
             multiple: true,
           }}
           onChange={onUploadFile}
-          handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
       {file && (
