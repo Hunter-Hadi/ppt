@@ -10,15 +10,16 @@ export type IToolUrkKeyType =
   | 'heic-to-pdf'
   | 'pdf-to-html'
   | 'sign-pdf'
-  | 'compress-pdf';
+  | 'compress-pdf'
+  | 'ocr-pdf';
 export interface IToolData {
   icon: string;
   title: string;
   description: string;
   secondaryDescription: string; //进入页面后的提示
   urlKey: IToolUrkKeyType;
-  accept: string;
   urlPrefixPath?: string;
+  accept?: string;
 }
 const routerChildrenObject = toolsCodeMap.childrenObject as {
   [key in IToolUrkKeyType]: IToolUrkKeyType;
@@ -33,7 +34,6 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__merge_pdf__secondary_description',
     urlKey: routerChildrenObject['merge-pdf'],
-    accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
   'split-pdf': {
@@ -44,7 +44,6 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__split_a_pdf__secondary_description',
     urlKey: routerChildrenObject['split-pdf'],
-    accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
   'pdf-to-png': {
@@ -55,7 +54,6 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_png__secondary_description',
     urlKey: routerChildrenObject['pdf-to-png'],
-    accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
   'pdf-to-jpeg': {
@@ -66,7 +64,6 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_jpeg__secondary_description',
     urlKey: routerChildrenObject['pdf-to-jpeg'],
-    accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
   'png-to-pdf': {
@@ -77,8 +74,8 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__png_to_pdf__secondary_description',
     urlKey: routerChildrenObject['png-to-pdf'],
-    accept: 'image/png',
     urlPrefixPath: toolsTopUrlKey,
+    accept: 'image/png',
   },
   'jpeg-to-pdf': {
     icon: 'CropOriginal',
@@ -88,8 +85,8 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__secondary_description',
     urlKey: routerChildrenObject['jpeg-to-pdf'],
-    accept: 'image/jpg',
     urlPrefixPath: toolsTopUrlKey,
+    accept: 'image/jpg',
   },
   'heic-to-pdf': {
     icon: 'CropOriginal',
@@ -99,8 +96,8 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__heic_to_pdf__secondary_description',
     urlKey: routerChildrenObject['heic-to-pdf'],
-    accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
+    accept: 'image/heic',
   },
   'pdf-to-html': {
     icon: 'CropOriginal',
@@ -110,7 +107,6 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_to_html__description',
     urlKey: routerChildrenObject['pdf-to-html'],
-    accept: 'image/heic',
     urlPrefixPath: toolsTopUrlKey,
   },
   'sign-pdf': {
@@ -121,7 +117,6 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__sign_pdf__secondary_description',
     urlKey: routerChildrenObject['sign-pdf'],
-    accept: 'application/pdf',
     urlPrefixPath: toolsTopUrlKey,
   },
   'compress-pdf': {
@@ -132,7 +127,16 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__compress_pdf__main_description',
     urlKey: routerChildrenObject['compress-pdf'],
-    accept: 'application/pdf',
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'ocr-pdf': {
+    icon: 'CropOriginal',
+    title: 'pages:tools__index_page__constant_obj__ocr_pdf__title',
+    description:
+      'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
+    secondaryDescription:
+      'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
+    urlKey: routerChildrenObject['ocr-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 };

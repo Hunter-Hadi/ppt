@@ -51,6 +51,12 @@ const FunctionalityCompressPdfMain = lazy(
       '@/features/functionality_compress_pdf/components/FunctionalityCompressPdfMain'
     ),
 );
+const FunctionalityOcrPdfMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_ocr_pdf/components/FunctionalityOcrPdfMain'
+    ),
+);
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -104,6 +110,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__compress_pdf__title'),
       description: t('seo:pdf_tools__compress_pdf__description'),
     },
+    'ocr-pdf': {
+      title: t('seo:pdf_tools__ocr_pdf__title'),
+      description: t('seo:pdf_tools__ocr_pdf__description'),
+    },
   };
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];
   const toolList = useMemo(
@@ -147,6 +157,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
           {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
           {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
+          {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
         </Suspense>
       </Box>
       {toolsDetailDescriptionData && (

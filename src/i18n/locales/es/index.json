@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "No necesitas comprar software costoso para combinar archivos PDF. La herramienta de PDF de MaxAI.me está disponible de forma gratuita en línea, se ejecuta en un navegador sin cargar a la red para garantizar que tus archivos y datos estén siempre seguros.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Procesamiento local",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "Una característica clave de nuestro servicio es que todas las operaciones de combinación de PDFs se realizan localmente. Esto asegura que todo el procedimiento de procesamiento se realice directamente en tu dispositivo sin necesidad de esperas basadas en la nube. Mejora la seguridad y garantiza la confiabilidad.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Cómo combinar archivos PDF en línea:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Arrastra y suelta tus archivos en la herramienta de combinación de PDFs en línea.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Reorganiza páginas individuales o archivos completos según sea necesario.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Agrega más archivos, rota o elimina páginas o archivos completos.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Haz clic en \"Confirmar para combinar\" para combinar y descargar tu PDF.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Cómo combinar archivos PDF en línea:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Arrastra y suelta tus archivos en la herramienta de combinación de PDFs en línea.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Reorganiza páginas individuales o archivos completos según sea necesario.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Agrega más archivos, rota o elimina páginas o archivos completos.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Haz clic en \"Confirmar para combinar\" para combinar y descargar tu PDF.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Separa páginas en PDF fácilmente en línea de forma gratuita. Nuestro divisor de PDFs se puede usar sin crear una cuenta.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Separa tu PDF en archivos separados",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Separa el contenido del PDF en segundos",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Nuestro servicio en línea puede convertir PDF a imágenes en cualquier navegador y sistema operativo: Windows, Mac y Linux, así como iOS y Android. No necesita instalar ningún software ni crear una cuenta.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Trabaje sobre la marcha",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "¿A menudo está fuera de casa sin acceso a Internet? Nuestro servicio en línea puede funcionar sin conexión a la red. Solo necesita mantener abierta la página actual.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Cómo convertir PDF a {{TYPE}} en línea:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Arrastre y suelte su archivo en el convertidor de PDF a {{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Elija \"Convertir páginas completas\" o \"Extraer imágenes individuales\".",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "Convertiremos su PDF a {{TYPE}} en cuestión de segundos.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Descargue el archivo (o archivos) convertido(s) en la página de resultados.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Cómo convertir PDF a {{TYPE}} en línea:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Arrastre y suelte su archivo en el convertidor de PDF a {{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Elija \"Convertir páginas completas\" o \"Extraer imágenes individuales\".",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "Convertiremos su PDF a {{TYPE}} en cuestión de segundos.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Descargue el archivo (o archivos) convertido(s) en la página de resultados.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Convierta imágenes a PDF de forma gratuita en línea. Nuestro convertidor de {{TYPE}} a PDF convierte cualquier archivo de imagen en un archivo PDF personalizado (sin límites de tamaño, sin marcas de agua).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Convertidor en línea fácil de usar de {{TYPE}} a PDF",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Sin instalación: funciona en su navegador",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Procesamiento local",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Todos los archivos que cargue se procesan en su navegador para garantizar la privacidad completa. No se cargan a la nube, lo que garantiza una seguridad y privacidad absolutas.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Cómo convertir {{TYPE}} a PDF en línea:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Cargue su imagen en el convertidor de {{TYPE}} a PDF.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Ajuste el tamaño, orientación y margen según sea necesario.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Haga clic en \"¡Crear PDF ahora!\" y comenzaremos la conversión.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "¡Eso es todo! Guarde el PDF convertido en su dispositivo.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Cómo convertir {{TYPE}} a PDF en línea:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Cargue su imagen en el convertidor de {{TYPE}} a PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Ajuste el tamaño, orientación y margen según sea necesario.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Haga clic en \"¡Crear PDF ahora!\" y comenzaremos la conversión.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "¡Eso es todo! Guarde el PDF convertido en su dispositivo.",
     "pdf_tools__detail_page__more_pdf_tools": "Más herramientas gratuitas en línea para PDF",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF a HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Convierte un PDF a HTML manteniendo la estructura de diseño e imágenes",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Nuestro convertidor de PDF a HTML es completamente accesible en línea, por lo que puedes convertir documentos en cualquier dispositivo y en cualquier momento sin necesidad de instalar ningún software.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Convierte sin conexión a Internet",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Con nuestra herramienta, puedes iniciar la conversión sin conexión. Solo necesitas cargar la página antes de desconectarte y la conversión se realizará sin conexión a Internet.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Cómo convertir fácilmente PDF a HTML:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Carga tu PDF en el convertidor en línea de PDF a HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Deja que la herramienta procese el archivo y lo convierta al formato HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Una vez que la conversión esté completa, descarga tu nuevo archivo HTML directamente.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Abre el archivo HTML descargado en cualquier navegador web para revisar los resultados.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Cómo convertir fácilmente PDF a HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Carga tu PDF en el convertidor en línea de PDF a HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "Deja que la herramienta procese el archivo y lo convierta al formato HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "Una vez que la conversión esté completa, descarga tu nuevo archivo HTML directamente.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Abre el archivo HTML descargado en cualquier navegador web para revisar los resultados.",
     "pricing__better_plan__title": "IA en un clic en cualquier lugar, menos tiempo, mejores resultados",
     "pricing__compare_plans__title": "Comparar planes",
     "pricing__plan_category__individual__label": "Planes individuales",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Habilite la compresión incluso cuando esté sin conexión. Cargue la página y podrá proceder con la compresión de archivos sin necesidad de una conexión a Internet.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Configuración personalizada de compresión",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Adapte el nivel de compresión a sus necesidades específicas, permitiendo ajustes personalizados para equilibrar la reducción del tamaño del archivo y la calidad visual, garantizando resultados óptimos para cada tipo de documento.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cómo comprimir fácilmente los PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Cargue su PDF en la herramienta de compresión en línea.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "La herramienta procesa rápidamente su archivo, reduciendo su tamaño sin comprometer la calidad.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Descargue el PDF comprimido a su dispositivo inmediatamente después de la compresión.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Verifique la calidad y el tamaño del PDF comprimido abriéndolo en su lector de PDF preferido."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Cómo comprimir fácilmente los PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Cargue su PDF en la herramienta de compresión en línea.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "La herramienta procesa rápidamente su archivo, reduciendo su tamaño sin comprometer la calidad.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Descargue el PDF comprimido a su dispositivo inmediatamente después de la compresión.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Verifique la calidad y el tamaño del PDF comprimido abriéndolo en su lector de PDF preferido.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Extrae fácilmente texto de tus documentos escaneados con nuestra herramienta OCR PDF. Rápida, localizada y compatible con hasta 99 idiomas. No es necesario cargar ningún contenido al servidor.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Extracción rápida y precisa de texto de los PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "No se requiere instalación de software",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Compatible con una amplia gama de hasta 99 idiomas",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Conversión rápida y eficiente de OCR PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Transforma rápidamente tus documentos PDF escaneados en texto editable. Nuestra tecnología OCR garantiza un reconocimiento rápido y preciso, incluso con diseños complejos y múltiples idiomas.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "OCR localizado para uso global",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Nuestra herramienta OCR está diseñada para comprender y convertir con precisión el texto de hasta 99 idiomas, asegurando la inclusión y accesibilidad para usuarios de todo el mundo.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Seguro y privado",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Con todo el procesamiento realizado localmente en tu navegador, tus documentos nunca abandonan tu dispositivo, ofreciéndote la máxima privacidad y seguridad.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Sin descargas, sin complicaciones",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Nuestra herramienta OCR PDF funciona en línea, lo que significa que no necesitarás descargar ni instalar ningún software. Simplemente carga tu documento y deja que nuestra herramienta haga el resto.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Accesibilidad sin esfuerzo",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Accesible desde cualquier lugar y en cualquier momento, en todos los principales navegadores y sistemas operativos. Ya sea que estés en Windows, Mac, Linux, iOS o Android, nuestra herramienta está lista cuando tú lo estés.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Precisión excepcional",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Aprovechando la tecnología OCR avanzada, nuestra herramienta ofrece una extracción de texto precisa y de alta calidad, minimizando errores y ahorrando tiempo en correcciones manuales.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Cómo extraer texto de los PDF en línea:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Carga tu archivo PDF escaneado en nuestra herramienta OCR.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Elige el idioma principal de tu documento.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Nuestra herramienta procesará tu PDF, extrayendo el texto de manera precisa y rápida.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Descarga el OCR PDF en la página de resultados para ver la calidad.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR de PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR de documentos PDF escaneados, para que puedas copiar y buscar texto fácilmente"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts en 1 clic",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "Firmar PDF - Agregar firma digital a archivos PDF localmente de forma gratuita | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Agrega fácilmente firmas digitales a archivos PDF de forma gratuita y segura en dispositivos locales, garantizando la máxima privacidad y seguridad. Sin marcas de agua, límite de tamaño de archivo, descarga ni registro requeridos.",
     "pdf_tools__compress_pdf__title": "Comprimir PDF: Reducción del tamaño de PDF en línea | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Comprima archivos PDF en un navegador local para garantizar un rendimiento rápido y seguro. Sin marca de agua, límite de tamaño de archivo, descarga ni registro requeridos."
+    "pdf_tools__compress_pdf__description": "Comprima archivos PDF en un navegador local para garantizar un rendimiento rápido y seguro. Sin marca de agua, límite de tamaño de archivo, descarga ni registro requeridos.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF: Reconocimiento de texto rápido y local en PDF gratis | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Convierte documentos PDF no buscables en texto buscable y seleccionable en segundos. Sin marcas de agua, límites de tamaño de archivo, descargas ni registros requeridos."
   },
   "features_landing": {
     "cta_text": "Agregar al navegador",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "Desde asistencia en la escritura y resúmenes de páginas web hasta ChatPDF y pintura con IA, MaxAI.me te permite leer, escribir y crear con la ayuda de los modelos de IA más avanzados, incluidos ChatGPT, Claude y Gemini. Mejora tu experiencia de navegación y desbloquea tu potencial de productividad con MaxAI.me ¡hoy mismo!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
     "components__to_image_detail__select_all": "Seleccionar todo",
     "components__to_image_detail__deselect_all": "Deseleccionar todo",
     "components__to_image_detail__download_images": "Descargar imágenes",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Eliminar este PDF y seleccionar uno nuevo"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
     "components__pdf_merge__add_pdf": "Agregar PDF",
     "components__pdf_merge__empty_pdf": "Limpiar PDFs",
     "components__pdf_merge__confirm_merge": "Confirmar fusión",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Agregar archivo PDF a continuación"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
     "components__pdf_split__add_pdf": "Agregar PDFs",
     "components__pdf_split__remove_pdf": "Eliminar PDF",
     "components__pdf_split__select_all": "Seleccionar todo",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "está encriptado o es anormal, no se puede manipular el PDF, omitido",
     "components__common__drag__dropping_tip": "Puedes ajustar el orden arrastrando y soltando",
     "components__common__upload_button_tips": "o soltar archivos aquí",
-    "components__common__upload_button_title": "ELEGIR ARCHIVOS"
+    "components__common__upload_button_title": "ELEGIR ARCHIVOS",
+    "components__common__upload_button__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Solo se pueden subir imágenes de tipo imagen",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Abajo"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
     "components__pdf_to_html__button__download": "Descargar",
     "components__pdf_to_html__button__convert": "Convertir otro"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Dibujar",
     "components__sign_pdf__operation_view__type": "Tipo",
     "components__sign_pdf__operation_view__upload": "Cargar",
-    "components__sign_pdf__unsupported_file_type_tip": "Por favor, carga el tipo de archivo PDF especificado",
     "components__sign_pdf__detail__empty_sign": "Firma vacía",
     "components__sign_pdf__detail__empty_text": "Texto vacío",
     "components__sign_pdf__detail__finish": "Finalizar y Firmar",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Descargar",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Página principal de firmar PDF",
     "components__sign_pdf__icon__sign": "Firmar",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Escriba algo..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Escriba algo...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Solo se pueden subir imágenes de tipo imagen"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Bajo",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Tamaño de archivo medio, resolución estándar",
     "components__compress_pdf__main__compress_strong_grade_title": "Fuerte",
     "components__compress_pdf__main__compress_strong_grade_description": "Tamaño de archivo pequeño, menor resolución",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Por favor, cargue el tipo de archivo PDF especificado",
     "components__compress_pdf__main__compress_download": "Comprimir y Descargar",
     "components__compress_pdf__main__choose_another_file": "Elegir otro archivo",
     "components__compress_pdf__main__current_pdf_size": "Tamaño actual del PDF",
     "components__compress_pdf__main__original_pdf_size": "tamaño original",
     "components__compress_pdf__main__different_pdf_size": "¡Diferente al anterior, un {{DiFF_NUMBER}}% más pequeño!",
     "components__compress_pdf__main__compress_error": "Error de compresión, por favor verifique si el archivo PDF está encriptado o es anormal."
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "Incrustación de PDF",
+    "components__ocr_pdf__main__upload_error": "¡Por favor, verifica si el archivo PDF está encriptado o es anormal!",
+    "components__ocr_pdf__main__choose_another_file": "Elige otro archivo",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Precisión normal",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Tiempo de conversión más rápido",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Alta precisión",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Aumenta la precisión y el tiempo de conversión",
+    "components__ocr_pdf__main__ocr_loading": "Cargando PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR y Descargar",
+    "components__ocr_pdf__main__document_scanning_language": "Idioma de escaneo de documentos"
   }
 }

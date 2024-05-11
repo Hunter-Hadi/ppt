@@ -4,7 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { FC, useMemo } from 'react';
 
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 
 import FunctionalitySignPdfIcon from './FunctionalitySignPdfIcon';
 
@@ -18,7 +18,8 @@ const FunctionalitySignCompleteSignatureInfo: FC<
 > = ({ downloadUint8Array, onClearReturn, fileName }) => {
   const { t } = useTranslation();
   const onDownload = () => {
-    const newFileName = functionalityCommonRemoveAndAddFileExtension(fileName);
+    const newFileName =
+      functionalityCommonFileNameRemoveAndAddExtension(fileName);
     downloadUrl(downloadUint8Array, newFileName);
   };
   const currentTime = useMemo(() => dayjs().format('YYYY-MM-DD'), []);
@@ -45,7 +46,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
           <Typography
             sx={{
               fontSize: {
-                lg: 14,
+                xs: 14,
               },
               fontWeight: 'bold',
             }}
@@ -64,7 +65,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
             <Typography
               sx={{
                 fontSize: {
-                  lg: 12,
+                  xs: 12,
                   color: 'white',
                 },
                 fontWeight: 'bold',
@@ -91,7 +92,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
             color='text.secondary'
             sx={{
               fontSize: {
-                lg: 14,
+                xs: 14,
               },
               fontWeight: 'bold',
             }}
@@ -108,7 +109,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
             <Typography
               sx={{
                 fontSize: {
-                  lg: 14,
+                  xs: 14,
                 },
                 fontWeight: 'bold',
               }}
@@ -128,7 +129,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
           <Typography
             sx={{
               fontSize: {
-                lg: 14,
+                xs: 14,
               },
               fontWeight: 'bold',
             }}
@@ -172,7 +173,7 @@ const FunctionalitySignCompleteSignatureInfo: FC<
               color='text.secondary'
               sx={{
                 fontSize: {
-                  lg: 14,
+                  xs: 14,
                 },
                 fontWeight: 'bold',
               }}

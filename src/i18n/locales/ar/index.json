@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "لا تحتاج إلى شراء برامج مكلفة لدمج ملفات PDF. أداة MaxAI.me PDF متاحة للاستخدام المجاني عبر الإنترنت ، تعمل في المستعرض دون التحميل إلى الشبكة لضمان أمان الملفات والبيانات دائمًا.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "معالجة محلية",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "ميزة رئيسية لخدمتنا هي أن جميع عمليات دمج PDF تتم محليًا. يضمن ذلك أن الإجراءات التجهيزية بأكملها تتم مباشرة على جهازك دون الحاجة إلى انتظار قائم على السحابة. يعزز الأمان ويضمن الموثوقية.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "كيفية دمج ملفات PDF عبر الإنترنت:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "اسحب وأفلت ملفاتك في أداة دمج PDF عبر الإنترنت.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "إعادة ترتيب الصفحات الفردية أو الملفات بأكملها حسب الحاجة.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "إضافة المزيد من الملفات ، تدوير أو حذف الصفحات أو الملفات بأكملها.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "انقر فوق \"تأكيد الدمج\" للدمج وتنزيل ملف PDF الخاص بك.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "كيفية دمج ملفات PDF عبر الإنترنت:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "اسحب وأفلت ملفاتك في أداة دمج PDF عبر الإنترنت.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "إعادة ترتيب الصفحات الفردية أو الملفات بأكملها حسب الحاجة.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "إضافة المزيد من الملفات ، تدوير أو حذف الصفحات أو الملفات بأكملها.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "انقر فوق \"تأكيد الدمج\" للدمج وتنزيل ملف PDF الخاص بك.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "افصل الصفحات في ملف PDF بسهولة عبر الإنترنت مجانًا. يمكن استخدام مقسم PDF لدينا دون إنشاء حساب.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "افصل ملف PDF الخاص بك إلى ملفات منفصلة",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "افصل محتوى PDF في ثوانٍ",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "يمكن لخدمتنا عبر الإنترنت تغيير PDF إلى صور في أي متصفح ونظام تشغيل: Windows و Mac و Linux ، بالإضافة إلى iOS و Android. لا حاجة لتثبيت أي برامج أو إنشاء حساب.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "العمل أثناء التنقل",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "غالبًا ما تكون في الطريق بدون اتصال بالإنترنت؟ يمكن لخدمتنا عبر الإنترنت العمل بدون اتصال بالشبكة. كل ما عليك فعله هو الاحتفاظ بالصفحة الحالية مفتوحة.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "كيفية تحويل PDF إلى {{TYPE}} عبر الإنترنت:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "اسحب وأفلت ملفك في محول PDF إلى {{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "اختر \"تحويل الصفحات بأكملها\" أو \"استخراج صور فردية\".",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "سنقوم بتحويل PDF الخاص بك إلى {{TYPE}} في ثوانٍ قليلة.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "قم بتنزيل الملف (الملفات) المحولة على صفحة النتائج.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "كيفية تحويل PDF إلى {{TYPE}} عبر الإنترنت:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "اسحب وأفلت ملفك في محول PDF إلى {{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "اختر \"تحويل الصفحات بأكملها\" أو \"استخراج صور فردية\".",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "سنقوم بتحويل PDF الخاص بك إلى {{TYPE}} في ثوانٍ قليلة.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "قم بتنزيل الملف (الملفات) المحولة على صفحة النتائج.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "تحويل الصور إلى ملف PDF مجانًا عبر الإنترنت. يحول محولنا من {{TYPE}} إلى PDF أي ملف صورة إلى ملف PDF مخصص (لا حدود للحجم، ولا علامات مائية).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "محول {{TYPE}} إلى PDF سهل الاستخدام عبر الإنترنت",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "بدون تثبيت - يعمل في المتصفح الخاص بك",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "معالجة محلية",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "يتم معالجة جميع الملفات التي تقوم بتحميلها في المتصفح الخاص بك لضمان الخصوصية الكاملة. لا يتم تحميلها إلى السحابة، مما يضمن الأمان والخصوصية التامة.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "كيفية تحويل {{TYPE}} إلى PDF عبر الإنترنت:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "قم بتحميل صورتك إلى محول {{TYPE}} إلى PDF.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "ضبط الحجم والاتجاه والهامش حسب الحاجة.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "انقر فوق \"إنشاء PDF الآن!\" وسنبدأ في التحويل.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "هذا كل شيء! احفظ الملف PDF المحول على جهازك.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "كيفية تحويل {{TYPE}} إلى PDF عبر الإنترنت:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "قم بتحميل صورتك إلى محول {{TYPE}} إلى PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "ضبط الحجم والاتجاه والهامش حسب الحاجة.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "انقر فوق \"إنشاء PDF الآن!\" وسنبدأ في التحويل.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "هذا كل شيء! احفظ الملف PDF المحول على جهازك.",
     "pdf_tools__detail_page__more_pdf_tools": "المزيد من أدوات PDF المجانية عبر الإنترنت",
     "tools__index_page__constant_obj__pdf_to_html__title": "تحويل PDF إلى HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "تحويل ملف PDF إلى HTML مع الحفاظ على تنسيق الصفحة والصور",
@@ -490,11 +490,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "محول PDF إلى HTML لدينا متاح بالكامل عبر الإنترنت، حتى تتمكن من تحويل المستندات على أي جهاز وفي أي وقت دون الحاجة إلى تثبيت أي برامج.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "تحويل بدون اتصال بالإنترنت",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "مع أداةنا، يمكنك بدء التحويل دون اتصال بالإنترنت. كل ما تحتاجه هو تحميل الصفحة قبل القطع عن الاتصال، وسيتم إجراء التحويل دون الحاجة إلى اتصال بالإنترنت.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "كيفية تحويل PDF إلى HTML بسهولة:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "قم بتحميل ملف PDF الخاص بك إلى محول PDF إلى HTML عبر الإنترنت.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "اسمح للأداة بمعالجة الملف وتحويله إلى تنسيق HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "بمجرد الانتهاء من التحويل، قم بتنزيل ملف HTML الجديد مباشرةً.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "افتح ملف HTML المُنزّل في أي مستعرض ويب لمراجعة النتائج.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "كيفية تحويل PDF إلى HTML بسهولة:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "قم بتحميل ملف PDF الخاص بك إلى محول PDF إلى HTML عبر الإنترنت.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "اسمح للأداة بمعالجة الملف وتحويله إلى تنسيق HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "بمجرد الانتهاء من التحويل، قم بتنزيل ملف HTML الجديد مباشرةً.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "افتح ملف HTML المُنزّل في أي مستعرض ويب لمراجعة النتائج.",
     "home_page__features_carousel__feature_reader__label": "قارئ الذكاء الاصطناعي",
     "home_page__features_carousel__feature_reader__title": "جعل المعلومات المعقدة سهلة الفهم، تمامًا كخبير.",
     "home_page__features_carousel__feature_reader__description1": "شرح أي كلمة أو مصطلح أو فقرة",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "قم بتمكين الضغط حتى عندما تكون غير متصل بالإنترنت. قم بتحميل الصفحة مسبقًا ويمكنك الاستمرار في ضغط الملف دون الحاجة إلى اتصال بالإنترنت.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "إعدادات ضغط مخصصة",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "قم بتخصيص مستوى الضغط حسب احتياجاتك الخاصة، مما يتيح لك إجراء تعديلات مخصصة لتحقيق التوازن بين تقليل حجم الملف وجودة الصورة، مع ضمان الحصول على نتائج مثالية لكل نوع من المستندات.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "كيفية ضغط ملفات PDF بسهولة:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "قم بتحميل ملف PDF الخاص بك إلى أداة الضغط عبر الإنترنت.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "تقوم الأداة بمعالجة ملفك بسرعة، مما يقلل من حجمه دون التأثير على الجودة.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "قم بتنزيل ملف PDF المضغوط إلى جهازك فور الضغط.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "تحقق من جودة وحجم ملف PDF المضغوط عن طريق فتحه في قارئ PDF المفضل لديك."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "كيفية ضغط ملفات PDF بسهولة:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "قم بتحميل ملف PDF الخاص بك إلى أداة الضغط عبر الإنترنت.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "تقوم الأداة بمعالجة ملفك بسرعة، مما يقلل من حجمه دون التأثير على الجودة.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "قم بتنزيل ملف PDF المضغوط إلى جهازك فور الضغط.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "تحقق من جودة وحجم ملف PDF المضغوط عن طريق فتحه في قارئ PDF المفضل لديك.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "استخرج النص بسهولة من مستنداتك الممسوحة ضوئيًا باستخدام أداة OCR PDF لدينا. سريعة ومحلية وتدعم ما يصل إلى 99 لغة - ولا حاجة لتحميل أي محتوى على الخادم.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "استخراج النص بسرعة ودقة من ملفات PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "لا حاجة لتثبيت البرامج",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "تدعم مجموعة واسعة تصل إلى 99 لغة",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "تحويل سريع وفعال لملفات PDF باستخدام OCR",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "حول مستندات PDF الممسوحة ضوئيًا إلى نص قابل للتحرير بسرعة. تضمن تقنية OCR لدينا التعرف السريع والدقيق ، حتى مع التخطيطات المعقدة واللغات المتعددة.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "OCR محلي للاستخدام العالمي",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "تم تصميم أداة OCR لدينا لفهم النص وتحويله بدقة من ما يصل إلى 99 لغة ، مما يضمن الشمولية والوصولية للمستخدمين في جميع أنحاء العالم.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "آمن وخاص",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "مع جميع عمليات المعالجة التي تتم محليًا في المتصفح الخاص بك ، لا تترك مستنداتك جهازك أبدًا ، مما يوفر لك أقصى درجات الخصوصية والأمان.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "بدون تنزيلات ، بدون متاعب",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "تعمل أداة OCR PDF لدينا عبر الإنترنت ، مما يعني أنه لن يكون لديك حاجة لتنزيل أو تثبيت أي برامج. قم ببساطة بتحميل المستند الخاص بك واسمح لأداةنا بالقيام بالباقي.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "سهولة الوصول",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "يمكن الوصول إليه من أي مكان وفي أي وقت ، عبر جميع المتصفحات الرئيسية وأنظمة التشغيل. سواء كنت تستخدم Windows أو Mac أو Linux أو iOS أو Android ، فإن أداةنا جاهزة عندما تكون أنت.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "دقة استثنائية",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "من خلال استخدام تقنية OCR المتقدمة ، توفر أداةنا استخراج نص عالي الجودة ودقيق ، مما يقلل من الأخطاء ويوفر الوقت في التصحيح اليدوي.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "كيفية استخراج النص من ملفات PDF عبر الإنترنت:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "قم بتحميل ملف PDF الممسوح ضوئيًا إلى أداة OCR لدينا.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "اختر اللغة الأساسية للمستند الخاص بك.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "سوف تقوم أداةنا بمعالجة ملف PDF الخاص بك واستخراج النص بدقة وبسرعة.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "قم بتنزيل ملف OCR PDF في صفحة النتائج لعرض الجودة.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "تحويل PDF إلى نص",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "قم بتحويل مستند PDF الممسوح ضوئيًا إلى نص قابل للنسخ والبحث بسهولة"
   },
   "prompt_library": {
     "use_prompt_library__title": "نصائح بنقرة واحدة",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "توقيع ملف PDF - إضافة توقيع رقمي لملفات PDF محليًا مجانًا | MaxAI.me",
     "pdf_tools__sign_pdf__description": "أضف بسهولة توقيعات رقمية إلى ملفات PDF مجانًا وآمنة على الأجهزة المحلية، مع ضمان الخصوصية والأمان القصوى. لا يوجد علامة مائية، أو حد لحجم الملف، أو تحميل، أو تسجيل مطلوب.",
     "pdf_tools__compress_pdf__title": "ضغط PDF - تقليل حجم ملفات PDF عبر الإنترنت | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "قم بضغط ملفات PDF في المتصفح المحلي لضمان أداء سريع وآمن. بدون علامة مائية، حد حجم الملف، تنزيل أو تسجيل مطلوب."
+    "pdf_tools__compress_pdf__description": "قم بضغط ملفات PDF في المتصفح المحلي لضمان أداء سريع وآمن. بدون علامة مائية، حد حجم الملف، تنزيل أو تسجيل مطلوب.",
+    "pdf_tools__ocr_pdf__title": "تحويل مستندات PDF غير القابلة للبحث إلى نص قابل للبحث والتحديد بسرعة ومحليًا مجانًا | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "قم بتحويل مستندات PDF غير القابلة للبحث إلى نص قابل للبحث والتحديد في ثوانٍ. لا توجد علامات مائية أو حدود لحجم الملف أو عمليات التنزيل أو التسجيل المطلوبة."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "من مساعدة الكتابة وتلخيص صفحات الويب إلى ChatPDF ورسم الذكاء الاصطناعي، يمنحك MaxAI.me القدرة على القراءة والكتابة والإبداع بمساعدة أكثر نماذج الذكاء الاصطناعي تقدمًا، بما في ذلك ChatGPT وClaude وGemini. قم بترقية تجربة التصفح الخاصة بك واستفد من إمكانات إنتاجيتك مع MaxAI.me اليوم!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__to_image_detail__select_all": "تحديد الكل",
     "components__to_image_detail__deselect_all": "إلغاء تحديد الكل",
     "components__to_image_detail__download_images": "تنزيل الصور",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "إزالة هذا الملف PDF وتحديد ملف جديد"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
     "components__pdf_merge__add_pdf": "إضافة PDF",
     "components__pdf_merge__empty_pdf": "مسح PDFs",
     "components__pdf_merge__confirm_merge": "تأكيد الدمج",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "إضافة ملف PDF أدناه"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "يرجى تحميل نوع ملف PDF المحدد",
     "components__pdf_split__add_pdf": "إضافة ملفات PDF",
     "components__pdf_split__remove_pdf": "إزالة ملف PDF",
     "components__pdf_split__select_all": "تحديد الكل",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "مشفرة أو غير طبيعية، غير قادر على التلاعب بملف PDF، تم تخطيها",
     "components__common__drag__dropping_tip": "يمكنك ضبط الترتيب عن طريق سحب وإفلات",
     "components__common__upload_button_tips": "أو اسحب الملفات هنا",
-    "components__common__upload_button_title": "اختر الملفات"
+    "components__common__upload_button_title": "اختر الملفات",
+    "components__common__upload_button__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع الصورة فقط",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "أسفل"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__pdf_to_html__button__download": "تحميل",
     "components__pdf_to_html__button__convert": "تحويل آخر"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "رسم",
     "components__sign_pdf__operation_view__type": "نوع",
     "components__sign_pdf__operation_view__upload": "تحميل",
-    "components__sign_pdf__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__sign_pdf__detail__empty_sign": "توقيع فارغ",
     "components__sign_pdf__detail__empty_text": "نص فارغ",
     "components__sign_pdf__detail__finish": "إنهاء وتوقيع",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "تنزيل",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحة الصفحة الرئيسية لتوقيع PDF",
     "components__sign_pdf__icon__sign": "توقيع",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "اكتب شيئًا..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "اكتب شيئًا...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "يمكن تحميل صور فقط من نوع الصورة"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "منخفض",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "حجم ملف متوسط، دقة قياسية",
     "components__compress_pdf__main__compress_strong_grade_title": "قوي",
     "components__compress_pdf__main__compress_strong_grade_description": "حجم ملف صغير، دقة أقل",
-    "components__compress_pdf__main__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
     "components__compress_pdf__main__compress_download": "ضغط وتنزيل",
     "components__compress_pdf__main__choose_another_file": "اختر ملف آخر",
     "components__compress_pdf__main__current_pdf_size": "حجم الـPDF الحالي",
     "components__compress_pdf__main__original_pdf_size": "الحجم الأصلي",
     "components__compress_pdf__main__different_pdf_size": "أصغر بنسبة {{DiFF_NUMBER}}% من السابق!",
     "components__compress_pdf__main__compress_error": "فشل الضغط، يرجى التحقق مما إذا كان ملف PDF مشفرًا أو غير طبيعي!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "تضمين PDF",
+    "components__ocr_pdf__main__upload_error": "يرجى التحقق مما إذا كان ملف PDF مشفرًا أو غير طبيعي!",
+    "components__ocr_pdf__main__choose_another_file": "اختر ملفًا آخر",
+    "components__ocr_pdf__main__conversion_grade_title_1": "دقة عادية",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "وقت تحويل أسرع",
+    "components__ocr_pdf__main__conversion_grade_title_2": "دقة عالية",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "زيادة الدقة ووقت التحويل",
+    "components__ocr_pdf__main__ocr_loading": "تحميل PDF",
+    "components__ocr_pdf__main__ocr_and_download": "تحويل النص إلى نص وتنزيل",
+    "components__ocr_pdf__main__document_scanning_language": "لغة مسح المستند"
   }
 }

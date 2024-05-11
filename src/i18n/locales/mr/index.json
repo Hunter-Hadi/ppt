@@ -418,11 +418,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "PDF फाइल्स संयोजित करण्यासाठी तुम्हाला महागाईचे सॉफ्टवेअर खरेदी करण्याची गरज नाही. MaxAI.me PDF टूल ऑनलाइन वापरासाठी विनामूल्य उपलब्ध आहे, ज्यामुळे तुमच्या फाइल्स आणि डेटांची सदैव सुरक्षा सुनिश्चित करण्यात येते.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "स्थानिक प्रोसेसिंग",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "आमच्या सेवेची एक महत्त्वाची वैशिष्ट्ये ही आहेत की सर्व PDF संयोजन क्रिया स्थानिकपणे केली जातात. हे सुनिश्चित करते की पूर्ण प्रक्रिया बादलता नाही, त्यामुळे तुमच्या डिव्हाइसवर अधिप्रसारण अपेक्षित नाही. हे सुरक्षा वाढवते आणि विश्वसनीयता खात्री करते.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "ऑनलाइन PDF फाइल्स संयोजित कसे करावे:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "आपल्या फाइल्सला ऑनलाइन संयोजित करण्यासाठी त्यांना ड्रॅग आणि ड्रॉप करा.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "आवडलेले पृष्ठ वा संपूर्ण फाइले आवश्यक असल्यास त्यांना व्यवस्थित करा.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "अधिक फाइल्या जोडा, पृष्ठ वा संपूर्ण फाइले पाळा किंवा हटवा.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "तुमची PDF संयोजित करण्यासाठी 'पुष्टी करा' वर क्लिक करा आणि ती डाउनलोड करा.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "ऑनलाइन PDF फाइल्स संयोजित कसे करावे:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "आपल्या फाइल्सला ऑनलाइन संयोजित करण्यासाठी त्यांना ड्रॅग आणि ड्रॉप करा.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "आवडलेले पृष्ठ वा संपूर्ण फाइले आवश्यक असल्यास त्यांना व्यवस्थित करा.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "अधिक फाइल्या जोडा, पृष्ठ वा संपूर्ण फाइले पाळा किंवा हटवा.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "तुमची PDF संयोजित करण्यासाठी 'पुष्टी करा' वर क्लिक करा आणि ती डाउनलोड करा.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "मुफ्त ऑनलाइनसाठी पीडीएफ मध्ये पृष्ठे विभाजित करा. आमचा पीडीएफ स्प्लिटर खाते तयार केल्याशिवायचा वापर केला जाऊ शकतो.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "तुमचे पीडीएफ विभाजित करा",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "सेकंदात पीडीएफ सामग्री विभाजित करा",
@@ -460,11 +460,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "आपली ऑनलाइन सेवा कोणत्याही ब्राउझर आणि ऑपरेटिंग सिस्टममध्ये पीडीएफ ते छायाचित्रे बदलू शकते: Windows, Mac आणि Linux, सापडलेले iOS आणि Android असेल तरी. आपल्याला कोणतीही सॉफ्टवेअर स्थापित करावी किंवा खाते तयार करावी लागेल नाही.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "चालवा वर",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "अक्सर इंटरनेट संपर्यंत जाणाऱ्या असताना रस्त्यावर असता? आपली ऑनलाइन सेवा नेटवर्क कनेक्शन नसताना कार्य करू शकते. आपल्याला वर्तमान पृष्ठ उघडणे आवश्यक आहे.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "पीडीएफ ते {{TYPE}} ऑनलाइन कसे रूपांतरित करावे:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "आपली फाईल पीडीएफ ते {{TYPE}} रूपांतरित करण्यासाठी ड्रॅग आणि ड्रॉप करा.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "“संपूर्ण पृष्ठे रूपांतरित करा” किंवा “एकटे छायाचित्रे निघा.” निवडा.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "आपली पीडीएफ ते {{TYPE}} सेकंदात रूपांतरित करू.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "निकाल पृष्ठावरील परिणाम पृष्ठावर डाउनलोड करा.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "पीडीएफ ते {{TYPE}} ऑनलाइन कसे रूपांतरित करावे:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "आपली फाईल पीडीएफ ते {{TYPE}} रूपांतरित करण्यासाठी ड्रॅग आणि ड्रॉप करा.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "“संपूर्ण पृष्ठे रूपांतरित करा” किंवा “एकटे छायाचित्रे निघा.” निवडा.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "आपली पीडीएफ ते {{TYPE}} सेकंदात रूपांतरित करू.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "निकाल पृष्ठावरील परिणाम पृष्ठावर डाउनलोड करा.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "मुक्त ऑनलाइन छायाचित्रे पीडीएफमध्ये रूपांतरित करा. आमचा {{TYPE}} ते पीडीएफ कनवर्टर कोणतेही छायाचित्र फाईल एक वैयक्तिक पीडीएफ फाईल म्हणून बदलतो (कोणतीही आकार सीमा, कोणतेही वॉटरमार्क नसतात).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "वापरण्यासाठी सोपे ऑनलाइन {{TYPE}} ते पीडीएफ कनवर्टर",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "स्थापना नाही - तुमच्या ब्राउझरमध्ये कार्य करतो",
@@ -480,11 +480,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "स्थानिक प्रक्रिया",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "आपल्याला अद्यतनित करण्यासाठी आपल्या ब्राउझरमध्ये अपलोड केलेल्या सर्व फाइल संपूर्ण गोपनीयतेने प्रक्रिया केली जाते. त्यांनी बादलात अपलोड केलेल्या नाहीत, अशा प्रकारे पूर्ण सुरक्षा आणि गोपनीयता सुनिश्चित करण्यात येते.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "{{TYPE}} ला PDF मध्ये कसे रूपांतरित करावे:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "{{TYPE}} ला PDF रूपांतरित करण्यासाठी आपली इमेज अपलोड करा.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "आकार, ओळखपत्र, आणि मागच्या प्रमाणे सुटवा.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "“PDF तयार करा आता!” या वर क्लिक करा आणि आम्ही रूपांतरित करण्याची सुरुवात करू.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "हे सगळं आहे! रूपांतरित केलेले PDF आपल्या डिव्हाइसवर सेव्ह करा.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "{{TYPE}} ला PDF मध्ये कसे रूपांतरित करावे:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "{{TYPE}} ला PDF रूपांतरित करण्यासाठी आपली इमेज अपलोड करा.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "आकार, ओळखपत्र, आणि मागच्या प्रमाणे सुटवा.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "“PDF तयार करा आता!” या वर क्लिक करा आणि आम्ही रूपांतरित करण्याची सुरुवात करू.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "हे सगळं आहे! रूपांतरित केलेले PDF आपल्या डिव्हाइसवर सेव्ह करा.",
     "pdf_tools__detail_description_object__pdf_to_html__top_left": "आपल्या वेब पृष्ठांसाठी लेआउट, संरचना आणि छायाचित्रे ठेवता ही विनामूल्य ऑनलाइन PDF ते HTML रूपांतरित करणारी आमची मदत करते.",
     "pdf_tools__detail_description_object__pdf_to_html__top_right_1": "क्षणातील PDF ते HTML रूपांतरण",
     "pdf_tools__detail_description_object__pdf_to_html__top_right_2": "कोणतेही सॉफ्टवेअर स्थापन आवश्यक नाही",
@@ -501,11 +501,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "आमचे PDF ते HTML रूपांतरण संपूर्णपणे ऑनलाइन उपलब्ध आहे, म्हणून आपण कोणत्याही डिव्हाइसवर, कोणत्याही काळात, कोणत्याही सॉफ्टवेअर स्थापित करण्याची गरज नाही.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "इंटरनेट नसताना रूपांतरण करा",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "आमच्या साधनामुळे, आपण ऑफलाइन रूपांतरण सुरू करू शकता. आपल्याला डिस्कनेक्ट करण्यापूर्वी पृष्ठ लोड करायला आवश्यक आहे, आणि रूपांतरण इंटरनेट कनेक्शन नसतान होईल.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "PDF ला HTML मध्ये सोप्या पद्धतीने कसे रूपांतरित करावे:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "आपले PDF ऑनलाइन PDF ते HTML रूपांतरकाकडे अपलोड करा.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "साधनाला फाइल प्रक्रिया करण्यासाठी द्या आणि ती HTML स्वरूपात रूपांतरित करा.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "रूपांतरण पूर्ण झाल्यानंतर, आपली नवीन HTML फाइल थेट डाउनलोड करा.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "निकष्ट निकष्ट निकष्ट! परिणामांची समीक्षा करण्यासाठी कोणत्याही वेब ब्राउझरमध्ये डाउनलोड केलेली HTML उघडा.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "PDF ला HTML मध्ये सोप्या पद्धतीने कसे रूपांतरित करावे:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "आपले PDF ऑनलाइन PDF ते HTML रूपांतरकाकडे अपलोड करा.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "साधनाला फाइल प्रक्रिया करण्यासाठी द्या आणि ती HTML स्वरूपात रूपांतरित करा.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "रूपांतरण पूर्ण झाल्यानंतर, आपली नवीन HTML फाइल थेट डाउनलोड करा.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "निकष्ट निकष्ट निकष्ट! परिणामांची समीक्षा करण्यासाठी कोणत्याही वेब ब्राउझरमध्ये डाउनलोड केलेली HTML उघडा.",
     "pdf_tools__detail_page__more_pdf_tools": "अधिक विनामूल्य ऑनलाइन PDF साधने",
     "tools__index_page__constant_obj__sign_pdf__title": "PDF चिन्हांकन करा",
     "tools__index_page__constant_obj__sign_pdf__main_description": "विनामूल्य ऑनलाइन PDF चिन्हांकन",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "जेव्हा आपण ऑफलाइन असतो तेव्हा कमी करणे सक्षम करा. पेज पूर्वभारल्यानंतर, आपण इंटरनेट कनेक्शन आवश्यक नसता फाइल कमी करण्याच्या सोप्या प्रक्रियेसह सुरू करू शकता.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "कस्टम कमी करणे सेटिंग्ज",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "आपल्या विशिष्ट आवश्यकतांसाठी कमी करणे स्तर विन्यास करा, फाइल आकार कमी करण्याच्या आणि दृष्टीची गुणवत्ता ठेवण्याच्या बरोबरीसाठी सुधारणा करण्याची परवानगी देते, प्रत्येक प्रकारच्या दस्तऐवजासाठी उत्तम परिणाम सुनिश्चित करते.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF आसानपणे कमी करण्याचे कसे:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "ऑनलाइन कमी करण्याच्या टूलवर आपले PDF अपलोड करा.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "टूल त्वरितपणे आपली फाइल प्रक्रिया करते, त्याची आकार कमी करते आणि गुणवत्ता ठेवते.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "कमी केलेले PDF त्वरितपणे आपल्या डिव्हाइसवर डाउनलोड करा.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "आपल्या पसंतीच्या PDF वाचकावर त्याची गुणवत्ता आणि आकार तपासा, त्याची गुणवत्ता आणि आकार तपासा."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "PDF आसानपणे कमी करण्याचे कसे:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "ऑनलाइन कमी करण्याच्या टूलवर आपले PDF अपलोड करा.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "टूल त्वरितपणे आपली फाइल प्रक्रिया करते, त्याची आकार कमी करते आणि गुणवत्ता ठेवते.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "कमी केलेले PDF त्वरितपणे आपल्या डिव्हाइसवर डाउनलोड करा.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "आपल्या पसंतीच्या PDF वाचकावर त्याची गुणवत्ता आणि आकार तपासा, त्याची गुणवत्ता आणि आकार तपासा.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "आमच्या OCR PDF उपकरणासह तुमच्या स्कॅन केलेल्या कागदपत्रांमधून मजकूर आसावे. झटपट, स्थानिकीकृत आणि 99 भाषांपर्यंत समर्थन - आणि सर्व्हरवर कोणतेही सामग्री अपलोड करण्याची आवश्यकता नाही.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "PDF पासून फास्ट आणि अचूक मजकूर निघाले",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "कोणतेही सॉफ्टवेअर स्थापन आवश्यक नाही",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "99 भाषांपर्यंत विस्तृत रेंज समर्थन करते",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "झटपट आणि कुशल OCR PDF रूपांतरण",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "तुमच्या स्कॅन केलेल्या PDF कागदपत्रांमधून तुमचे मजकूर संपादनक्षम मजकूरांमध्ये बदला. आमच्या OCR तंत्रज्ञानाने वेगवेगळ्या ठिकाणांवरील आणि अनेक भाषांमध्ये दक्षता असलेल्या मजकूरांसह जलद आणि अचूक मान्यता सुनिश्चित करते.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "वैश्विक उपयोगासाठी स्थानिकीकृत OCR",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "आमचे OCR उपकरण 99 भाषांपर्यंत टेक्स्ट समजते आणि यथार्थपूर्वक रूपांतरित करते, ज्यामुळे वैश्विक उपयोगासाठी समावेशीता आणि प्रवेश्यता सुनिश्चित करते.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "सुरक्षित आणि खाजगी",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "तुमच्या ब्राउझरमध्ये सर्व प्रक्रिया स्थानिकपणे केल्या जातात, तुमचे कागदपत्र कधीही तुमच्या डिव्हाइसला निघत नाहीत, ज्यामुळे तुम्हाला अत्यंत गोपनीयता आणि सुरक्षा मिळते.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "कोणतेही डाउनलोड करण्याची आवड नाही",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "आमचे OCR PDF उपकरण ऑनलाइन कार्यरत असतात, अर्थात तुम्हाला कोणतेही सॉफ्टवेअर डाउनलोड किंवा स्थापित करावे लागेल नाही. फक्त तुमचे कागदपत्र अपलोड करा आणि आमच्या उपकरणाला बाकीचं करण्याची जागा द्या.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "अविचलित प्रवेश्यता",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "कोणत्याही मुख्य ब्राउझर आणि ऑपरेटिंग सिस्टमवर आपल्याला कुठेही, कोणत्याही वेळेस, कोणत्याही स्थानावरून प्रवेश्यता मिळते. तुम्ही Windows, Mac, Linux, iOS किंवा Android वर असलात, आमचे उपकरण जेव्हा तुम्ही असता तेव्हा तयार आहे.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "अद्वितीय अचूकता",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "उन्नत OCR तंत्रज्ञानाचा वापर करून, आमचे उपकरण उच्च-गुणवत्तेचे, अचूक मजकूर निघाले, त्रुटींचे कमी करून मॅन्युअल सुधारणांवर वेळ वाचवते.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "PDF पासून मजकूर कसे निघाले:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "तुमचे स्कॅन केलेले PDF फाइल आमच्या OCR उपकरणाकडे अपलोड करा.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "तुमच्या कागदपत्राची प्राथमिक भाषा निवडा.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "आमचे उपकरण तुमचे PDF प्रक्रिया करेल, मजकूर यथार्थपूर्वक आणि झटपट निघाले जाईल.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "गुणवत्तेचे पहा, OCR PDF डाउनलोड करण्यासाठी परिणाम पृष्ठावर जा.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "स्कॅन केलेले PDF दस्तावेजीकरण करा, त्यामुळे आपण सोप्या पद्धतीने मजकूर कॉपी करू शकता आणि शोधू शकता"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "पीडीएफ चिन्हांकन - मुक्त ऑनलाइन पीडीएफ फाइलमध्ये डिजिटल स्वाक्षर जोडणे | MaxAI.me",
     "pdf_tools__sign_pdf__description": "मुक्तपणे डिजिटल स्वाक्षरे पीडीएफ फाइलमध्ये जोडा आणि स्थानिक उपकरणांवर सुरक्षित करा, ज्यामुळे जास्तीत जास्त गोपनीयता आणि सुरक्षा सुनिश्चित होतील. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाही.",
     "pdf_tools__compress_pdf__title": "PDF कमी करा - ऑनलाइन PDF आकार कमी | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "जलद आणि सुरक्षित प्रदर्शनासाठी स्थानिक ब्राउझरमध्ये PDF फाइल कमी करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाहीत."
+    "pdf_tools__compress_pdf__description": "जलद आणि सुरक्षित प्रदर्शनासाठी स्थानिक ब्राउझरमध्ये PDF फाइल कमी करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा नोंदणी आवश्यक नाहीत.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - व्हूपचे आणि स्थानिक पीडीएफ मजकूर मोफत ओळखणे | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "गैर-शोधयोग्य पीडीएफ दस्तऐवजांना केवळ सापडण्यासाठी आणि निवडण्यासाठी मजकूरमध्ये रुपांतरित करा. कोणतेही वॉटरमार्क, फाइल आकार मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाहीत."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "लेखन मदती आणि वेबपृष्ठ संक्षेपणापर्यंत, ChatPDF आणि AI पेंटिंगसह MaxAI.me आपल्या मदती करते, ज्यामुळे आपण सर्वोत्कृष्ट AI मॉडेल्सच्या सहाय्याने वाचा, लिहा आणि तयार करा. आपल्या ब्राउझिंग अनुभवाची अपग्रेड करा आणि आपल्या उत्पादकता संभाव्यतेचा लॉक उघडा MaxAI.meच्या सहाय्याने!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
     "components__to_image_detail__select_all": "सर्व निवडा",
     "components__to_image_detail__deselect_all": "सर्व निवड काढा",
     "components__to_image_detail__download_images": "प्रतिमा डाउनलोड करा",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "हे PDF काढून नवीन निवडा"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
     "components__pdf_merge__add_pdf": "पीडीएफ जोडा",
     "components__pdf_merge__empty_pdf": "पीडीएफ साफ करा",
     "components__pdf_merge__confirm_merge": "संयोजन करण्यासाठी पुष्टी करा",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "खालील PDF फाइल जोडा"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
     "components__pdf_split__add_pdf": "पीडीएफ जोडा",
     "components__pdf_split__remove_pdf": "पीडीएफ काढा",
     "components__pdf_split__select_all": "सर्व निवडा",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "एन्क्रिप्टेड असलेले किंवा असामान्य असलेले PDF, पीडीएफ संपादित करण्यास अक्षम, वगळले",
     "components__common__drag__dropping_tip": "तुम्ही ड्रॅग करून ड्रॉप करण्याद्वारे क्रम सुधारू शकता",
     "components__common__upload_button_tips": "किंवा येथे फाइल ड्रॉप करा",
-    "components__common__upload_button_title": "फाइल निवडा"
+    "components__common__upload_button_title": "फाइल निवडा",
+    "components__common__upload_button__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "केवळ चित्र प्रकाराची चित्रे अपलोड केली जाऊ शकतात",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "खाली"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
     "components__pdf_to_html__button__download": "डाउनलोड करा",
     "components__pdf_to_html__button__convert": "दुसरे रूपांतर करा"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "ड्रॉ करा",
     "components__sign_pdf__operation_view__type": "प्रकार",
     "components__sign_pdf__operation_view__upload": "अपलोड करा",
-    "components__sign_pdf__unsupported_file_type_tip": "कृपया निर्दिष्ट पीडीएफ फाइल प्रकार अपलोड करा",
     "components__sign_pdf__detail__empty_sign": "रिक्त सही",
     "components__sign_pdf__detail__empty_text": "रिक्त मजकूर",
     "components__sign_pdf__detail__finish": "समाप्त करा आणि हस्ताक्षर करा",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "डाउनलोड",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "हस्ताक्षर PDF होमपेज",
     "components__sign_pdf__icon__sign": "साइन करा",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "काहीतरी टाइप करा..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "काहीतरी टाइप करा...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "केवळ छवी प्रकारची छवी अपलोड केली जाऊ शकते"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "किमान",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "मध्यम फाइल आकार, मानक रेझोल्यूशन",
     "components__compress_pdf__main__compress_strong_grade_title": "मजबूत",
     "components__compress_pdf__main__compress_strong_grade_description": "लहान फाइल आकार, किमान रेझोल्यूशन",
-    "components__compress_pdf__main__unsupported_file_type_tip": "कृपया निर्दिष्ट PDF फाइल प्रकार अपलोड करा",
     "components__compress_pdf__main__compress_download": "कमी करा आणि डाउनलोड करा",
     "components__compress_pdf__main__choose_another_file": "दुसरी फाइल निवडा",
     "components__compress_pdf__main__current_pdf_size": "PDF वर्तमान आकार",
     "components__compress_pdf__main__original_pdf_size": "मूळ आकार",
     "components__compress_pdf__main__different_pdf_size": "पूर्वीच्या पेक्षा {{DiFF_NUMBER}}% लहान!",
     "components__compress_pdf__main__compress_error": "कमी करणे अयशस्वी, कृपया PDF फाइल संकेतशब्दांकित किंवा असामान्य आहे ते तपासा!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "PDF एंबेड",
+    "components__ocr_pdf__main__upload_error": "कृपया तपासा की PDF फाइल संकेतशब्दित किंवा असामान्य आहे!",
+    "components__ocr_pdf__main__choose_another_file": "दुसरी फाइल निवडा",
+    "components__ocr_pdf__main__conversion_grade_title_1": "सामान्य अचूकता",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "जलद रूपांतरण कालावधी",
+    "components__ocr_pdf__main__conversion_grade_title_2": "मोठी अचूकता",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "अचूकता व रूपांतरण कालावधी वाढवते",
+    "components__ocr_pdf__main__ocr_loading": "PDF लोड होत आहे",
+    "components__ocr_pdf__main__ocr_and_download": "OCR आणि डाउनलोड",
+    "components__ocr_pdf__main__document_scanning_language": "दस्तावेज स्कॅनिंग भाषा"
   }
 }

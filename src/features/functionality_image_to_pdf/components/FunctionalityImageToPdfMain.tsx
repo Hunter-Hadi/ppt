@@ -37,11 +37,15 @@ type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
   file: File | Blob;
 };
 interface IFunctionalityImageToPdfMainProps {
-  accept: string;
+  accept?: string;
 }
 const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   accept,
 }) => {
+  const uploadAccept = useMemo(
+    () => accept || 'image/png, image/jpeg,image/heic', //如果没有传入accept参数，默认支持png,jpeg,heic。防止无法上传文件情况
+    [accept],
+  );
   const { t } = useTranslation();
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -214,7 +218,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             },
           },
           inputProps: {
-            accept: accept || 'image/png',
+            accept: uploadAccept,
             multiple: true,
           },
           handleUnsupportedFileType: handleUnsupportedFileTypeTip,
@@ -239,7 +243,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         },
       },
     ],
-    [accept, isLoading, t],
+    [uploadAccept, isLoading, t],
   );
   const isEmptyList = imageInfoList.length === 0;
   const bottomButtonConfigs: IButtonConfig[] = useMemo(
@@ -275,7 +279,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       {imageInfoList.length === 0 && !isLoading && (
         <FunctionalityCommonUploadButton
           inputProps={{
-            accept: accept || 'image/png',
+            accept: uploadAccept,
             multiple: true,
           }}
           onChange={onUploadFile}

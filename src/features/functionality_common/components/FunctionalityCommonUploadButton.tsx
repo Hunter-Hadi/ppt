@@ -6,6 +6,7 @@ import UploadButton, {
   IUploadButtonProps,
 } from '@/features/common/components/UploadButton';
 import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 interface IFunctionalityCommonUploadButton {
   wrapBoxSx?: SxProps<Theme>;
@@ -29,10 +30,25 @@ const FunctionalityCommonUploadButton: FC<
   themeColor = 'primary',
   buttonTitle,
   dropDescription,
+  inputProps,
+  handleUnsupportedFileType,
   ...props
 }) => {
   const { t } = useTranslation();
   const isPrimary = themeColor === 'primary';
+  const onHandleUnsupportedFileType = () => {
+    if (!inputProps?.accept || inputProps?.accept === 'application/pdf') {
+      //!inputProps?.accept是因为该工具默认指定上传的是PDF文件
+      // 因为目前工具最多的是只上传PDF类型文件，所以这里做提示PDF类型文件，其它的需要自己额外加逻辑，不做过多的复杂逻辑处理
+      functionalityCommonSnackNotifications(
+        t(
+          'functionality__common:components__common__upload_button__unsupported_file_type_tip',
+        ),
+      );
+    } else {
+      handleUnsupportedFileType && handleUnsupportedFileType();
+    }
+  };
   return (
     <Box
       sx={{
@@ -74,7 +90,9 @@ const FunctionalityCommonUploadButton: FC<
           inputProps={{
             accept: 'application/pdf',
             multiple: true,
+            ...inputProps,
           }}
+          handleUnsupportedFileType={onHandleUnsupportedFileType}
           {...props}
         >
           {isShowUploadIcon && (

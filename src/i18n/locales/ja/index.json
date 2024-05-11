@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "高価なソフトウェアを購入する必要はありません。MaxAI.me PDFツールは無料でオンラインで使用でき、ネットワークへのアップロードがないため、常にファイルとデータが安全です。",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "ローカル処理",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "当サービスの主な特徴は、すべてのPDF結合操作がローカルで行われることです。これにより、クラウドベースの待ち時間なしで、処理手順全体が直接デバイス上で行われます。セキュリティが向上し、信頼性が保証されます。",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "オンラインでPDFファイルを結合する方法：",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "ファイルをオンラインのMerge PDFツールにドラッグ＆ドロップします。",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "必要に応じて個々のページまたはファイル全体を並べ替えます。",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "さらにファイルを追加したり、ページやファイル全体を回転・削除したりします。",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "「結合を確定」をクリックしてPDFを結合し、ダウンロードします。",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "オンラインでPDFファイルを結合する方法：",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "ファイルをオンラインのMerge PDFツールにドラッグ＆ドロップします。",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "必要に応じて個々のページまたはファイル全体を並べ替えます。",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "さらにファイルを追加したり、ページやファイル全体を回転・削除したりします。",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "「結合を確定」をクリックしてPDFを結合し、ダウンロードします。",
     "pdf_tools__detail_description_object__split_pdf__top_left": "無料でオンライン上で簡単にPDFのページを分割します。PDFスプリッターはアカウントを作成せずに使用できます。",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "PDFを個別のファイルに分割します",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "数秒でPDFのコンテンツを分割します",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "当社のオンラインサービスは、Windows、Mac、Linux、iOS、Androidを含む、どのブラウザやオペレーティングシステムでもPDFを画像に変換できます。ソフトウェアのインストールやアカウントの作成は必要ありません。",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "移動中に作業",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "インターネットに接続できない場所でも、当社のオンラインサービスはネットワーク接続なしで動作します。現在のページを開いたままでいるだけです。",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "PDFを{{TYPE}}に変換する方法:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "PDFから{{TYPE}}コンバータにファイルをドラッグ＆ドロップします。",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "「全ページを変換」または「単一の画像を抽出」を選択します。",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "数秒でPDFを{{TYPE}}に変換します。",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "結果ページで変換されたファイルをダウンロードします。",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "PDFを{{TYPE}}に変換する方法:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "PDFから{{TYPE}}コンバータにファイルをドラッグ＆ドロップします。",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "「全ページを変換」または「単一の画像を抽出」を選択します。",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "数秒でPDFを{{TYPE}}に変換します。",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "結果ページで変換されたファイルをダウンロードします。",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "無料オンラインで画像をPDFに変換します。当社の{{TYPE}}からPDFへのコンバータは、任意の画像ファイルをカスタムPDFファイルに変換します（サイズ制限なし、ウォーターマークなし）。",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "使いやすいオンライン{{TYPE}}からPDFへのコンバータ",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "インストール不要—ブラウザで動作します",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "ローカル処理",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "アップロードしたすべてのファイルはブラウザ内で処理されるため、完全なプライバシーが保証されます。クラウドにアップロードされることはありませんので、絶対的なセキュリティとプライバシーが確保されます。",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "{{TYPE}}をPDFに変換する方法:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "{{TYPE}}からPDFコンバータに画像をアップロードします。",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "必要に応じてサイズ、向き、余白を調整します。",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "「今すぐPDFを作成」をクリックして変換を開始します。",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "以上です！変換されたPDFをデバイスに保存します。",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "{{TYPE}}をPDFに変換する方法:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "{{TYPE}}からPDFコンバータに画像をアップロードします。",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "必要に応じてサイズ、向き、余白を調整します。",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "「今すぐPDFを作成」をクリックして変換を開始します。",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "以上です！変換されたPDFをデバイスに保存します。",
     "pdf_tools__detail_page__more_pdf_tools": "その他の無料オンラインPDFツール",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDFをHTMLに変換する",
     "tools__index_page__constant_obj__pdf_to_html__description": "レイアウト構造と画像を保持したまま、PDFをHTMLに変換します",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "PDFからHTMLへの変換ツールは完全にオンラインで利用できるため、ソフトウェアのインストールは必要ありません。いつでもどのデバイスでもドキュメントを変換できます。",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "インターネットなしで変換",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "当社のツールを使用すると、オフラインで変換を開始できます。接続を切断する前にページを読み込むだけで、インターネット接続なしで変換が行われます。",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "PDFからHTMLへの簡単な変換方法：",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "オンラインPDFからHTMLへの変換ツールにPDFをアップロードします。",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "ツールがファイルを処理し、HTML形式に変換します。",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "変換が完了したら、新しいHTMLファイルを直接ダウンロードします。",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "結果を確認するために、ダウンロードしたHTMLを任意のウェブブラウザで開きます。",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "PDFからHTMLへの簡単な変換方法：",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "オンラインPDFからHTMLへの変換ツールにPDFをアップロードします。",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "ツールがファイルを処理し、HTML形式に変換します。",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "変換が完了したら、新しいHTMLファイルを直接ダウンロードします。",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "結果を確認するために、ダウンロードしたHTMLを任意のウェブブラウザで開きます。",
     "pricing__better_plan__title": "1クリックでどこでもAI、時間を節約してより良い結果を得る",
     "pricing__compare_plans__title": "プランの比較",
     "pricing__plan_category__individual__label": "個人プラン",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "オフラインの場合でも圧縮を有効にします。ページをプリロードして、インターネット接続なしでファイルの圧縮を行うことができます。",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "カスタム圧縮設定",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "特定のニーズに合わせて圧縮レベルを調整できるため、ファイルサイズの縮小と視覚的品質のバランスを取りながら、あらゆる種類のドキュメントに最適な結果を保証します。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDFを簡単に圧縮する方法：",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDFをオンライン圧縮ツールにアップロードします。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "ツールがファイルを迅速に処理し、サイズを縮小しながら品質を維持します。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "圧縮後すぐに、圧縮されたPDFをデバイスにダウンロードします。",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "お好みのPDFリーダーで開いて、圧縮されたPDFの品質とサイズを確認します。"
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "PDFを簡単に圧縮する方法：",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "PDFをオンライン圧縮ツールにアップロードします。",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "ツールがファイルを迅速に処理し、サイズを縮小しながら品質を維持します。",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "圧縮後すぐに、圧縮されたPDFをデバイスにダウンロードします。",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "お好みのPDFリーダーで開いて、圧縮されたPDFの品質とサイズを確認します。",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "OCR PDFツールを使用して、スキャンされたドキュメントからテキストを簡単に抽出できます。高速でローカライズされており、99言語までサポートしています - サーバーにコンテンツをアップロードする必要はありません。",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "PDFからの高速かつ正確なテキスト抽出",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "ソフトウェアのインストールは不要です",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "99言語までの幅広いサポート",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "迅速かつ効率的なOCR PDF変換",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "スキャンされたPDFドキュメントを素早く編集可能なテキストに変換します。複雑なレイアウトや複数の言語でも、当社のOCR技術により高速かつ正確な認識が実現されます。",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "グローバル利用のためのローカライズOCR",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "当社のOCRツールは、99言語までのテキストを理解し正確に変換するよう設計されており、世界中のユーザーに包括性とアクセシビリティを提供します。",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "安全でプライベート",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "すべての処理はブラウザ内でローカルに行われるため、ドキュメントはデバイスから一切出ません。最高のプライバシーとセキュリティを提供します。",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "ダウンロード不要、手間いらず",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "当社のOCR PDFツールはオンラインで動作するため、ソフトウェアのダウンロードやインストールは必要ありません。ドキュメントをアップロードするだけで、あとは当社のツールが処理します。",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "簡単なアクセシビリティ",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "主要なブラウザとオペレーティングシステムでいつでもどこからでもアクセスできます。Windows、Mac、Linux、iOS、Androidに対応しており、あなたが準備できているときに当社のツールも準備ができています。",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "卓越した精度",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "高度なOCR技術を活用することで、当社のツールは高品質で正確なテキスト抽出を提供し、エラーを最小限に抑え、手動修正にかかる時間を節約します。",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "PDFからテキストを抽出する方法：",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "スキャンされたPDFファイルを当社のOCRツールにアップロードします。",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "ドキュメントの主要言語を選択します。",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "当社のツールがPDFを処理し、テキストを正確かつ迅速に抽出します。",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "品質を確認するためにOCR PDFを結果ページでダウンロードします。",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "スキャンされたPDFドキュメントをOCR処理し、テキストのコピーと検索が簡単にできます"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "無料でローカルにデジタル署名を追加する - PDFファイルに署名 | MaxAI.me",
     "pdf_tools__sign_pdf__description": "無料でPDFファイルにデジタル署名を簡単に追加し、ローカルデバイス上で安全に行います。ウォーターマークやファイルサイズ制限もなく、ダウンロードや登録も不要です。",
     "pdf_tools__compress_pdf__title": "PDFを圧縮する - オンラインPDFサイズ縮小 | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "ローカルブラウザでPDFファイルを圧縮して、高速かつ安全なパフォーマンスを実現します。ウォーターマーク、ファイルサイズ制限、ダウンロードや登録は必要ありません。"
+    "pdf_tools__compress_pdf__description": "ローカルブラウザでPDFファイルを圧縮して、高速かつ安全なパフォーマンスを実現します。ウォーターマーク、ファイルサイズ制限、ダウンロードや登録は必要ありません。",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - 高速＆ローカルPDFテキスト認識 | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "非検索可能なPDFドキュメントを数秒で検索可能なテキストに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは不要です。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "文章作成支援やウェブページの要約からChatPDFやAIペイントまで、ChatGPT、Claude、Geminiなどの最先端のAIモデルを活用して読み書きや創造をサポートします。MaxAI.meでブラウジング体験をアップグレードし、生産性の可能性を解き放ちましょう！"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__to_image_detail__select_all": "すべて選択",
     "components__to_image_detail__deselect_all": "すべて選択解除",
     "components__to_image_detail__download_images": "画像をダウンロード",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "このPDFを削除し、新しいものを選択"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__pdf_merge__add_pdf": "PDFを追加",
     "components__pdf_merge__empty_pdf": "PDFをクリア",
     "components__pdf_merge__confirm_merge": "マージを確認",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "以下にPDFファイルを追加"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__pdf_split__add_pdf": "PDFを追加",
     "components__pdf_split__remove_pdf": "PDFを削除",
     "components__pdf_split__select_all": "すべて選択",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "暗号化されているか異常なため、PDFを操作できません。スキップされました",
     "components__common__drag__dropping_tip": "ドラッグアンドドロップで順序を調整できます",
     "components__common__upload_button_tips": "またはここにファイルをドロップ",
-    "components__common__upload_button_title": "ファイルを選択"
+    "components__common__upload_button_title": "ファイルを選択",
+    "components__common__upload_button__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "アップロードできるのは画像タイプのみです",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "下部"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__pdf_to_html__button__download": "ダウンロード",
     "components__pdf_to_html__button__convert": "別のファイルを変換"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "描画",
     "components__sign_pdf__operation_view__type": "タイプ",
     "components__sign_pdf__operation_view__upload": "アップロード",
-    "components__sign_pdf__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__sign_pdf__detail__empty_sign": "署名なし",
     "components__sign_pdf__detail__empty_text": "テキストなし",
     "components__sign_pdf__detail__finish": "完了して署名",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "ダウンロード",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF署名ホームページ",
     "components__sign_pdf__icon__sign": "署名",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "何かを入力してください…"
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "何かを入力してください…",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "画像タイプのみがアップロードできます"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "低",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "中程度のファイルサイズ、標準解像度",
     "components__compress_pdf__main__compress_strong_grade_title": "強力",
     "components__compress_pdf__main__compress_strong_grade_description": "小さなファイルサイズ、低解像度",
-    "components__compress_pdf__main__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
     "components__compress_pdf__main__compress_download": "圧縮してダウンロード",
     "components__compress_pdf__main__choose_another_file": "別のファイルを選択",
     "components__compress_pdf__main__current_pdf_size": "現在のPDFサイズ",
     "components__compress_pdf__main__original_pdf_size": "元のサイズ",
     "components__compress_pdf__main__different_pdf_size": "以前と比べて{{DiFF_NUMBER}}%小さくなりました！",
     "components__compress_pdf__main__compress_error": "圧縮に失敗しました。PDFファイルが暗号化されているか、異常な状態であるかを確認してください！"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "PDF埋め込み",
+    "components__ocr_pdf__main__upload_error": "PDFファイルが暗号化されているか異常でないかを確認してください！",
+    "components__ocr_pdf__main__choose_another_file": "別のファイルを選択",
+    "components__ocr_pdf__main__conversion_grade_title_1": "通常の精度",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "変換時間が短くなります",
+    "components__ocr_pdf__main__conversion_grade_title_2": "高い精度",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "精度と変換時間が向上します",
+    "components__ocr_pdf__main__ocr_loading": "PDFの読み込み",
+    "components__ocr_pdf__main__ocr_and_download": "OCRとダウンロード",
+    "components__ocr_pdf__main__document_scanning_language": "ドキュメントのスキャン言語"
   }
 }

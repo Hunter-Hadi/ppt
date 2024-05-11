@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "PDF 파일을 병합하기 위해 비싼 소프트웨어를 구매할 필요가 없습니다. MaxAI.me PDF 도구는 온라인에서 무료로 사용할 수 있으며, 파일과 데이터가 항상 안전하도록 네트워크에 업로드하지 않고 브라우저에서 실행됩니다.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "로컬 처리",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "저희 서비스의 주요 기능 중 하나는 모든 PDF 병합 작업이 로컬에서 진행된다는 것입니다. 이렇게 하면 클라우드 기반 대기 시간 없이 디바이스에서 직접 처리되므로 보안이 강화되고 신뢰성이 보장됩니다.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "온라인에서 PDF 파일 병합하는 방법:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "파일을 온라인 PDF 병합 도구로 끌어다 놓으세요.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "필요에 따라 개별 페이지 또는 전체 파일을 재정렬하세요.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "파일을 추가하거나 페이지 또는 전체 파일을 회전 또는 삭제하세요.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "“병합 확인”을 클릭하여 PDF를 병합하고 다운로드하세요.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "온라인에서 PDF 파일 병합하는 방법:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "파일을 온라인 PDF 병합 도구로 끌어다 놓으세요.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "필요에 따라 개별 페이지 또는 전체 파일을 재정렬하세요.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "파일을 추가하거나 페이지 또는 전체 파일을 회전 또는 삭제하세요.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "“병합 확인”을 클릭하여 PDF를 병합하고 다운로드하세요.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "무료로 온라인에서 PDF의 페이지를 쉽게 분리하세요. PDF 분할기를 사용하면 계정을 만들지 않고도 사용할 수 있습니다.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "PDF를 개별 파일로 분할하세요.",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "몇 초 안에 PDF 내용을 분리하세요.",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Windows, Mac 및 Linux뿐만 아니라 iOS 및 Android를 비롯한 모든 브라우저와 운영 체제에서 PDF를 이미지로 변환할 수 있는 온라인 서비스입니다. 소프트웨어를 설치하거나 계정을 만들 필요가 없습니다.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "이동 중 작업",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "인터넷에 연결되지 않은 길 위에서 작업해야 할 때도 있습니다. 저희 온라인 서비스는 네트워크 연결 없이도 작동합니다. 현재 페이지를 열어두기만 하면 됩니다.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "PDF를 {{TYPE}}로 온라인으로 변환하는 방법:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "PDF에서 {{TYPE}} 변환기에 파일을 끌어다 놓으세요.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "“전체 페이지 변환” 또는 “단일 이미지 추출”을 선택하세요.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "PDF를 {{TYPE}}로 변환하는 데 몇 초가 걸립니다.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "결과 페이지에서 변환된 파일을 다운로드하세요.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "PDF를 {{TYPE}}로 온라인으로 변환하는 방법:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "PDF에서 {{TYPE}} 변환기에 파일을 끌어다 놓으세요.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "“전체 페이지 변환” 또는 “단일 이미지 추출”을 선택하세요.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "PDF를 {{TYPE}}로 변환하는 데 몇 초가 걸립니다.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "결과 페이지에서 변환된 파일을 다운로드하세요.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "무료 온라인 {{TYPE}}에서 PDF로 변환하세요. 저희 {{TYPE}}에서 PDF 변환기를 사용하면 이미지 파일을 사용자 정의 PDF 파일로 변환할 수 있습니다(크기 제한 없음, 워터마크 없음).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "쉽게 사용할 수 있는 온라인 {{TYPE}}에서 PDF 변환기",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "설치 필요 없음 - 브라우저에서 작동",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "로컬 처리",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "업로드한 모든 파일은 브라우저에서 처리되어 완전한 개인 정보 보호가 보장됩니다. 클라우드에 업로드되지 않으므로 절대적인 보안과 개인 정보 보호가 유지됩니다.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "{{TYPE}}를 PDF로 온라인으로 변환하는 방법:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "{{TYPE}}를 PDF 변환기에 이미지를 업로드하세요.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "크기, 방향 및 여백을 필요에 따라 조정하세요.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "“지금 PDF 만들기!”를 클릭하면 변환 작업이 시작됩니다.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "그게 다입니다! 변환된 PDF를 기기에 저장하세요.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "{{TYPE}}를 PDF로 온라인으로 변환하는 방법:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "{{TYPE}}를 PDF 변환기에 이미지를 업로드하세요.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "크기, 방향 및 여백을 필요에 따라 조정하세요.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "“지금 PDF 만들기!”를 클릭하면 변환 작업이 시작됩니다.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "그게 다입니다! 변환된 PDF를 기기에 저장하세요.",
     "pdf_tools__detail_page__more_pdf_tools": "더 많은 무료 온라인 PDF 도구",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF를 HTML로 변환",
     "tools__index_page__constant_obj__pdf_to_html__description": "레이아웃 구조와 이미지를 유지한 채 PDF를 HTML로 변환",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "PDF to HTML 변환기는 온라인으로 완전히 접근 가능하므로 어떤 기기에서든 언제든지 문서를 변환할 수 있으며 소프트웨어를 설치할 필요가 없습니다.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "인터넷 없이 변환",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "우리의 도구를 사용하여 오프라인에서 변환을 시작할 수 있습니다. 연결을 끊기 전에 페이지를 로드하면 인터넷 연결 없이도 변환이 진행됩니다.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "PDF를 HTML로 쉽게 변환하는 방법:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "PDF를 온라인 PDF to HTML 변환기에 업로드하세요.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "도구가 파일을 처리하고 HTML 형식으로 변환합니다.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "변환이 완료되면 새로운 HTML 파일을 직접 다운로드하세요.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "결과를 검토하기 위해 다운로드한 HTML을 웹 브라우저에서 열어보세요.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "PDF를 HTML로 쉽게 변환하는 방법:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "PDF를 온라인 PDF to HTML 변환기에 업로드하세요.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "도구가 파일을 처리하고 HTML 형식으로 변환합니다.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "변환이 완료되면 새로운 HTML 파일을 직접 다운로드하세요.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "결과를 검토하기 위해 다운로드한 HTML을 웹 브라우저에서 열어보세요.",
     "pricing__better_plan__title": "1클릭 AI 어디서나, 시간 절약, 더 나은 결과",
     "pricing__compare_plans__title": "요금제 비교",
     "pricing__plan_category__individual__label": "개인 요금제",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "오프라인 상태에서도 압축을 활성화하세요. 페이지를 미리 로드하고 인터넷 연결이 필요하지 않은 상태에서 파일 압축을 진행할 수 있습니다.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "사용자 정의 압축 설정",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "파일 크기 감소와 시각적 품질 사이의 균형을 맞추기 위해 압축 수준을 사용자 정의하세요. 모든 종류의 문서에 최적의 결과를 보장합니다.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "PDF 압축 방법:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDF를 온라인 압축 도구에 업로드하세요.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "도구가 파일을 신속하게 처리하여 크기를 줄이고 품질을 유지합니다.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "압축된 PDF를 바로 다운로드하세요.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "선호하는 PDF 리더기에서 압축된 PDF의 품질과 크기를 확인하세요."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "PDF 압축 방법:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "PDF를 온라인 압축 도구에 업로드하세요.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "도구가 파일을 신속하게 처리하여 크기를 줄이고 품질을 유지합니다.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "압축된 PDF를 바로 다운로드하세요.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "선호하는 PDF 리더기에서 압축된 PDF의 품질과 크기를 확인하세요.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "스캔된 문서에서 손쉽게 텍스트를 추출하세요. OCR PDF 도구로 빠르고 지역화되며, 최대 99개 언어를 지원합니다 - 그리고 서버에 콘텐츠를 업로드할 필요가 없습니다.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "PDF에서 빠르고 정확한 텍스트 추출",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "소프트웨어 설치가 필요하지 않음",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "최대 99개 언어를 지원",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "빠르고 효율적인 OCR PDF 변환",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "스캔된 PDF 문서를 신속하게 편집 가능한 텍스트로 변환하세요. 복잡한 레이아웃과 다국어에도 빠르고 정확한 인식을 보장하는 OCR 기술을 사용합니다.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "글로벌 사용을 위한 로컬라이즈된 OCR",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "OCR 도구는 최대 99개 언어의 텍스트를 이해하고 정확하게 변환할 수 있도록 설계되었습니다. 전 세계 사용자들을 위한 포용성과 접근성을 보장합니다.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "안전하고 개인 정보 보호",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "브라우저에서 모든 처리가 로컬에서 이루어지므로 문서는 기기를 벗어나지 않아 최고의 개인 정보 보호와 보안을 제공합니다.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "다운로드 없이 간편하게",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "OCR PDF 도구는 온라인으로 작동하기 때문에 소프트웨어를 다운로드하거나 설치할 필요가 없습니다. 문서를 업로드하고, 나머지는 우리 도구에 맡기세요.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "쉽게 접근 가능",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "주요 브라우저와 운영 체제에서 언제 어디서나 접근할 수 있습니다. Windows, Mac, Linux, iOS, Android에서 모두 사용할 수 있는 우리 도구는 언제든 준비되어 있습니다.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "뛰어난 정확도",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "고급 OCR 기술을 활용하여 우리 도구는 고품질의 정확한 텍스트 추출을 제공하며, 오류를 최소화하고 수동 수정에 소요되는 시간을 절약합니다.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "PDF에서 텍스트 추출하는 방법:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "스캔된 PDF 파일을 OCR 도구에 업로드하세요.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "문서의 주요 언어를 선택하세요.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "우리 도구가 PDF를 처리하여 텍스트를 정확하고 신속하게 추출합니다.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "결과 페이지에서 품질을 확인하기 위해 OCR PDF를 다운로드하세요.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "PDF 문서를 OCR로 변환하여 텍스트를 쉽게 복사하고 검색할 수 있습니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-클릭 프롬프트",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "PDF에 서명하기 - 로컬에서 무료로 디지털 서명을 PDF 파일에 추가 | MaxAI.me",
     "pdf_tools__sign_pdf__description": "로컬 기기에서 PDF 파일에 쉽게 디지털 서명을 추가하여 최대한의 개인 정보 보호와 보안을 유지하세요. 워터마크, 파일 크기 제한, 다운로드 또는 등록이 필요하지 않습니다.",
     "pdf_tools__compress_pdf__title": "PDF 압축 - 온라인 PDF 크기 감소 | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "로컬 브라우저에서 PDF 파일을 압축하여 빠르고 안전한 성능을 보장합니다. 워터마크, 파일 크기 제한, 다운로드 또는 등록이 필요하지 않습니다."
+    "pdf_tools__compress_pdf__description": "로컬 브라우저에서 PDF 파일을 압축하여 빠르고 안전한 성능을 보장합니다. 워터마크, 파일 크기 제한, 다운로드 또는 등록이 필요하지 않습니다.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - 빠르고 로컬 PDF 텍스트 인식 | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "검색할 수 없는 PDF 문서를 몇 초 안에 검색 가능하고 선택 가능한 텍스트로 변환하세요. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "글쓰기 지원, 웹페이지 요약, ChatPDF 및 AI 그림 그리기까지, MaxAI.me는 ChatGPT, Claude, Gemini 등 최첨단 AI 모델의 도움으로 읽기, 쓰기, 창작을 할 수 있도록 지원합니다. 오늘 바로 MaxAI.me와 함께하여 브라우징 경험을 업그레이드하고 생산성 잠재력을 발휘하세요!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
     "components__to_image_detail__select_all": "모두 선택",
     "components__to_image_detail__deselect_all": "모두 선택 해제",
     "components__to_image_detail__download_images": "이미지 다운로드",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "이 PDF 제거하고 새로운 파일 선택"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
     "components__pdf_merge__add_pdf": "PDF 추가",
     "components__pdf_merge__empty_pdf": "PDF 지우기",
     "components__pdf_merge__confirm_merge": "병합 확인",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "아래에 PDF 파일 추가"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
     "components__pdf_split__add_pdf": "PDF 추가",
     "components__pdf_split__remove_pdf": "PDF 제거",
     "components__pdf_split__select_all": "모두 선택",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "암호화되었거나 비정상적이어서 PDF를 조작할 수 없습니다. 건너뛰었습니다.",
     "components__common__drag__dropping_tip": "드래그 앤 드롭으로 순서를 조정할 수 있습니다.",
     "components__common__upload_button_tips": "또는 파일을 여기에 놓으세요",
-    "components__common__upload_button_title": "파일 선택"
+    "components__common__upload_button_title": "파일 선택",
+    "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "하단"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
     "components__pdf_to_html__button__download": "다운로드",
     "components__pdf_to_html__button__convert": "다른 파일 변환"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "그리기",
     "components__sign_pdf__operation_view__type": "유형",
     "components__sign_pdf__operation_view__upload": "업로드",
-    "components__sign_pdf__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요",
     "components__sign_pdf__detail__empty_sign": "빈 서명",
     "components__sign_pdf__detail__empty_text": "빈 텍스트",
     "components__sign_pdf__detail__finish": "완료 및 서명",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "다운로드",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "PDF 서명 홈페이지",
     "components__sign_pdf__icon__sign": "서명",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "무언가를 입력하세요..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "무언가를 입력하세요...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "낮음",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "중간 파일 크기, 표준 해상도",
     "components__compress_pdf__main__compress_strong_grade_title": "강력",
     "components__compress_pdf__main__compress_strong_grade_description": "작은 파일 크기, 낮은 해상도",
-    "components__compress_pdf__main__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드하세요.",
     "components__compress_pdf__main__compress_download": "압축 및 다운로드",
     "components__compress_pdf__main__choose_another_file": "다른 파일 선택",
     "components__compress_pdf__main__current_pdf_size": "PDF 현재 크기",
     "components__compress_pdf__main__original_pdf_size": "원본 크기",
     "components__compress_pdf__main__different_pdf_size": "이전과 다른 {{DiFF_NUMBER}}% 작아짐!",
     "components__compress_pdf__main__compress_error": "압축 실패, PDF 파일이 암호화되었거나 비정상적인지 확인하세요!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "PDF 임베드",
+    "components__ocr_pdf__main__upload_error": "PDF 파일이 암호화되었거나 비정상적인지 확인하세요!",
+    "components__ocr_pdf__main__choose_another_file": "다른 파일 선택",
+    "components__ocr_pdf__main__conversion_grade_title_1": "일반 정확도",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "변환 시간 단축",
+    "components__ocr_pdf__main__conversion_grade_title_2": "높은 정확도",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "정확도와 변환 시간 향상",
+    "components__ocr_pdf__main__ocr_loading": "PDF 로딩 중",
+    "components__ocr_pdf__main__ocr_and_download": "OCR 및 다운로드",
+    "components__ocr_pdf__main__document_scanning_language": "문서 스캐닝 언어"
   }
 }

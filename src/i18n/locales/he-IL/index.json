@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "אין צורך לרכוש תוכנה יקרה כדי למזג קבצי PDF. כלי ה-PDF של MaxAI.me זמין לשימוש מקוון בחינם, רץ בדפדפן בלי להעלות לרשת כדי להבטיח שהקבצים והנתונים שלך תמיד יהיו מאובטחים.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "עיבוד מקומי",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "תכונה מרכזית של השירות שלנו היא שכל פעולות המיזוג של PDF מתבצעות מקומית. זה מבטיח שכל התהליך מתרחש ישירות במכשיר שלך בלי צורך בהמתנה בענן. זה משפר את האבטחה ומבטיח אמינות.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "איך למזג קבצי PDF באינטרנט:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "גרור ושחרר את הקבצים שלך לכלי מיזוג PDF מקוון.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "סדר מחדש עמודים יחידים או קבצים שלמים כפי שנדרש.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "הוסף קבצים נוספים, הטוה או מחק עמודים או קבצים שלמים.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "לחץ על \"אישור למיזוג\" כדי למזג ולהוריד את ה-PDF שלך.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "איך למזג קבצי PDF באינטרנט:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "גרור ושחרר את הקבצים שלך לכלי מיזוג PDF מקוון.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "סדר מחדש עמודים יחידים או קבצים שלמים כפי שנדרש.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "הוסף קבצים נוספים, הטוה או מחק עמודים או קבצים שלמים.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "לחץ על \"אישור למיזוג\" כדי למזג ולהוריד את ה-PDF שלך.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "הפרד עמודים ב-PDF בקלות מקוון בחינם. מפצל ה-PDF שלנו ניתן לשימוש בלי ליצור חשבון.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "פצל את ה-PDF שלך לקבצים נפרדים",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "הפרד תוכן PDF בשניות",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "שירות האינטרנט שלנו יכול להמיר PDF לתמונות בכל דפדפן ומערכת הפעלה: Windows, Mac ו-Linux, וגם iOS ו-Android. אין צורך להתקין תוכנה או ליצור חשבון.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "עבודה בדרכים",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "לעיתים קרובות בדרכים ללא גישה לאינטרנט? שירות האינטרנט שלנו יכול לעבוד בלעדיו. אתה רק צריך לשמור על הדף הנוכחי פתוח.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "איך להמיר PDF ל-{{TYPE}} באינטרנט:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "גרור ושחרר את הקובץ שלך לממיר PDF ל-{{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "בחר “המרת עמודים שלמים” או “חלץ תמונות יחידות”.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "אנחנו נמיר את ה-PDF שלך ל-{{TYPE}} בשניות.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "הורד את הקובץ/קבצים המומרים בדף התוצאות.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "איך להמיר PDF ל-{{TYPE}} באינטרנט:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "גרור ושחרר את הקובץ שלך לממיר PDF ל-{{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "בחר “המרת עמודים שלמים” או “חלץ תמונות יחידות”.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "אנחנו נמיר את ה-PDF שלך ל-{{TYPE}} בשניות.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "הורד את הקובץ/קבצים המומרים בדף התוצאות.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "המר תמונות ל-PDF בחינם באינטרנט. ממיר ה-PDF שלנו ממיר כל קובץ תמונה לקובץ PDF מותאם אישית (אין מגבלות גודל, אין סימני מים).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "ממיר ה-PDF לתמונה באינטרנט קל לשימוש",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "אין צורך בהתקנה - עובד בדפדפן שלך",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "עיבוד מקומי",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "כל הקבצים שתעלה מעובדים בדפדפן שלך לפרטיות מוחלטת. הם אינם מועלים לענן, ומבטיחים אבטחה ופרטיות מוחלטות.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "איך להמיר {{TYPE}} ל-PDF באינטרנט:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "העלה את התמונה שלך לממיר {{TYPE}} ל-PDF.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "התאם את הגודל, הכיוון והשוליים כפי שנדרש.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "לחץ על “צור PDF עכשיו!” ואנחנו נתחיל להמיר.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "זה הכל! שמור את ה-PDF המומר במכשיר שלך.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "איך להמיר {{TYPE}} ל-PDF באינטרנט:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "העלה את התמונה שלך לממיר {{TYPE}} ל-PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "התאם את הגודל, הכיוון והשוליים כפי שנדרש.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "לחץ על “צור PDF עכשיו!” ואנחנו נתחיל להמיר.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "זה הכל! שמור את ה-PDF המומר במכשיר שלך.",
     "pdf_tools__detail_page__more_pdf_tools": "עוד כלי PDF מקוונים חינמיים",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF ל-HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "המרת PDF ל-HTML תוך שמירה על מבנה הפריסה והתמונות",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "ממיר ה-PDF ל-HTML שלנו נגיש לחלוטין באינטרנט, כך שתוכל להמיר מסמכים בכל מכשיר, בכל זמן, ללא צורך בהתקנת תוכנה.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "המרה ללא חיבור לאינטרנט",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "עם הכלי שלנו, תוכל להתחיל את ההמרה במצב לא מחובר. הכל שנדרש ממך הוא לטעון את הדף לפני התנתקות, וההמרה תתבצע גם ללא חיבור לאינטרנט.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "איך להמיר PDF ל-HTML בקלות:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "העלה את ה-PDF שלך לממיר ה-PDF ל-HTML המקוון.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "המתן לסיום עיבוד הקובץ והמרתו לתבנית HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "לאחר שההמרה הושלמה, הורד את הקובץ ה-HTML החדש שלך ישירות.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "פתח את ה-HTML שהורדת בכל דפדפן ובדוק את התוצאות.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "איך להמיר PDF ל-HTML בקלות:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "העלה את ה-PDF שלך לממיר ה-PDF ל-HTML המקוון.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "המתן לסיום עיבוד הקובץ והמרתו לתבנית HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "לאחר שההמרה הושלמה, הורד את הקובץ ה-HTML החדש שלך ישירות.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "פתח את ה-HTML שהורדת בכל דפדפן ובדוק את התוצאות.",
     "pricing__better_plan__title": "AI בלחיצה אחת בכל מקום, פחות זמן, תוצאות טובות יותר",
     "pricing__compare_plans__title": "השווה בין התוכניות",
     "pricing__plan_category__individual__label": "תוכניות אישיות",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "אפשר דחיסה גם כשאתה לא מחובר לאינטרנט. טען מראש את הדף, ותוכל להמשיך עם דחיסת הקובץ בלי צורך בחיבור לאינטרנט.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "הגדרות דחיסה מותאמות אישית",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "התאם את רמת הדחיסה לצרכים המדויקים שלך, ואפשר תיקונים מותאמים אישית כדי לאזן בין דחיסת גודל הקובץ לבין איכות הוויזואלית, ולהבטיח תוצאות אופטימליות לכל סוג של מסמך.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "איך לדחוס PDFים בקלות:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "העלה את ה-PDF שלך לכלי הדחיסה המקוון.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "הכלי מעבד את הקובץ שלך במהירות, ומפחית את גודלו בשמירה על האיכות.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "הורד את ה-PDF הדחוס למכשיר שלך מיד לאחר הדחיסה.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "בדוק את האיכות והגודל של ה-PDF הדחוס על ידי פתיחתו בקורא ה-PDF המועדף עליך."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "איך לדחוס PDFים בקלות:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "העלה את ה-PDF שלך לכלי הדחיסה המקוון.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "הכלי מעבד את הקובץ שלך במהירות, ומפחית את גודלו בשמירה על האיכות.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "הורד את ה-PDF הדחוס למכשיר שלך מיד לאחר הדחיסה.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "בדוק את האיכות והגודל של ה-PDF הדחוס על ידי פתיחתו בקורא ה-PDF המועדף עליך.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "לחץ כאן להורדת הקובץ",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "המרת טקסט מהירה ומדויקת מ- PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "אין צורך בהתקנת תוכנה",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "תומך במגוון רחב של עד 99 שפות",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "המרת OCR PDF מהירה ויעילה",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "המרת מסמכי PDF סרוקים לטקסט שניתן לעריכה במהירות. טכנולוגיית ה-OCR שלנו מבטיחה זיהוי מהיר ומדויק, גם עם פריסה מורכבת ושפות מרובות.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "OCR מקומי לשימוש גלובלי",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "הכלי שלנו ל-OCR מיועד להבנת והמרת טקסט בעד 99 שפות, מבטיח הכללה ונגישות למשתמשים מכל העולם.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "מאובטח ופרטי",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "עם כל העיבוד שנעשה מקומית בדפדפן שלך, המסמכים שלך לעולם לא יוצאים מהמכשיר שלך, ומציעים לך את הפרטיות והאבטחה המירבית.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "ללא הורדות, ללא טרחות",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "הכלי שלנו ל-OCR PDF פועל במצב מקוון, כלומר לא תצטרך להוריד או להתקין תוכנה. פשוט העלה את המסמך שלך ותן לכלי שלנו לעשות את השאר.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "נגישות בקלות",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "נגיש מכל מקום, בכל זמן, בכל הדפדפנים המרכזיים ומערכות ההפעלה. בין אם אתה ב- Windows, Mac, Linux, iOS או Android, הכלי שלנו מוכן כשאתה צריך אותו.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "דיוק יוצא דופן",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "בעזרת טכנולוגיית OCR מתקדמת, הכלי שלנו מספק חילוץ טקסט באיכות גבוהה ודיוק, מקטין שגיאות וחוסך זמן בתיקונים ידניים.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "איך לחלץ טקסט מ- PDF באופן מקוון:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "העלה את קובץ ה-PDF הסרוק שלך לכלי ה-OCR שלנו.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "בחר את השפה הראשית של המסמך שלך.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "הכלי שלנו יעבד את ה-PDF שלך, יחלץ את הטקסט בדיוק ובמהירות.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "הורד את ה-OCR PDF מהדף התוצאות כדי לראות את האיכות.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "סריקת קובץ PDF באמצעות OCR, כך שתוכל לבחור להעתיק ולחפש טקסט בקלות"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -820,7 +843,9 @@
     "pdf_tools__sign_pdf__title": "חתימה על PDF - הוספת חתימה דיגיטלית לקבצי PDF באופן מקומי ובחינם | MaxAI.me",
     "pdf_tools__sign_pdf__description": "הוסף בקלות חתימה דיגיטלית לקבצי PDF בחינם ובטוח על התקנים המקומיים שלך, ובכך מבטיח פרטיות ואבטחה מרבית. ללא סימון מים, מגבלת גודל קובץ, הורדה או הרשמה.",
     "pdf_tools__compress_pdf__title": "דחיסת PDF - הפחתת גודל PDF מקוון | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "דחיסת קבצי PDF בדפדפן מקומי כדי להבטיח ביצועים מהירים ומאובטחים. אין סימני מים, הגבלת גודל קובץ, הורדה או הרשמה נדרשת."
+    "pdf_tools__compress_pdf__description": "דחיסת קבצי PDF בדפדפן מקומי כדי להבטיח ביצועים מהירים ומאובטחים. אין סימני מים, הגבלת גודל קובץ, הורדה או הרשמה נדרשת.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - זיהוי טקסט מהיר ומקומי לקבצי PDF בחינם | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "המרת מסמכי PDF שאינם ניתנים לחיפוש לטקסט ניתן לחיפוש וניתן לבחירה בשניות. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -858,7 +883,6 @@
     "more_over_section__description__part2": "מתוך עזרה בכתיבה וסיכום דפי אינטרנט ועד ChatPDF וציור AI, MaxAI.me מעניק לך את היכולת לקרוא, לכתוב וליצור בעזרת המודלים המתקדמים ביותר, כולל ChatGPT, Claude ו-Gemini. שדרג את חוויית הגלישה שלך ופתח את הפוטנציאל המוצק של הפרודוקטיביות שלך עם MaxAI.me היום!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__to_image_detail__select_all": "בחר הכל",
     "components__to_image_detail__deselect_all": "בטל בחירת הכל",
     "components__to_image_detail__download_images": "הורד תמונות",
@@ -879,7 +903,6 @@
     "components__to_image_detail__button__remove__tooltip": "הסר את קובץ ה-PDF הזה ובחר חדש"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__pdf_merge__add_pdf": "הוסף PDF",
     "components__pdf_merge__empty_pdf": "נקה PDFs",
     "components__pdf_merge__confirm_merge": "אשר מיזוג",
@@ -888,7 +911,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "הוסף קובץ PDF למטה"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__pdf_split__add_pdf": "הוסף PDF",
     "components__pdf_split__remove_pdf": "הסר PDF",
     "components__pdf_split__select_all": "בחר הכל",
@@ -907,7 +929,8 @@
     "components__common__pdf_encryption_tip": "מוצפן או לא תקין, לא ניתן לעבוד עם ה- PDF, דילג",
     "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור",
     "components__common__upload_button_tips": "או השלך קבצים כאן",
-    "components__common__upload_button_title": "בחר קבצים"
+    "components__common__upload_button_title": "בחר קבצים",
+    "components__common__upload_button__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
@@ -924,7 +947,6 @@
     "components__image_to_pdf__position_bottom": "תחתית"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "אנא העלה את סוג הקובץ המצוין של PDF",
     "components__pdf_to_html__button__download": "הורדה",
     "components__pdf_to_html__button__convert": "המרה נוספת"
   },
@@ -1033,7 +1055,6 @@
     "components__sign_pdf__operation_view__draw": "צייר",
     "components__sign_pdf__operation_view__type": "הקלד",
     "components__sign_pdf__operation_view__upload": "העלה",
-    "components__sign_pdf__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__sign_pdf__detail__empty_sign": "חתימה ריקה",
     "components__sign_pdf__detail__empty_text": "טקסט ריק",
     "components__sign_pdf__detail__finish": "סיום וחתימה",
@@ -1053,7 +1074,8 @@
     "components__sign_pdf__complete_signature_info__download": "הורדה",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "דף הבית של חתימת PDF",
     "components__sign_pdf__icon__sign": "חתום",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "הקלד משהו..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "הקלד משהו...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "נמוך",
@@ -1062,12 +1084,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "גודל קובץ בינוני, רזולוציה סטנדרטית",
     "components__compress_pdf__main__compress_strong_grade_title": "חזק",
     "components__compress_pdf__main__compress_strong_grade_description": "גודל קובץ קטן, רזולוציה נמוכה",
-    "components__compress_pdf__main__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
     "components__compress_pdf__main__compress_download": "דחיסה והורדה",
     "components__compress_pdf__main__choose_another_file": "בחר קובץ אחר",
     "components__compress_pdf__main__current_pdf_size": "גודל ה-PDF הנוכחי",
     "components__compress_pdf__main__original_pdf_size": "גודל מקורי",
     "components__compress_pdf__main__different_pdf_size": "שונה מהקודם ב-{{DiFF_NUMBER}}% קטן יותר!",
     "components__compress_pdf__main__compress_error": "הדחיסה נכשלה, אנא בדוק אם קובץ ה-PDF מוצפן או לא תקין!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "הטמעת PDF",
+    "components__ocr_pdf__main__upload_error": "אנא בדוק אם קובץ ה-PDF מוצפן או לא תקני!",
+    "components__ocr_pdf__main__choose_another_file": "בחר קובץ אחר",
+    "components__ocr_pdf__main__conversion_grade_title_1": "דיוק רגיל",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "זמן המרה מהיר יותר",
+    "components__ocr_pdf__main__conversion_grade_title_2": "דיוק גבוה",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "משפר דיוק וזמן המרה",
+    "components__ocr_pdf__main__ocr_loading": "טעינת PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR והורדה",
+    "components__ocr_pdf__main__document_scanning_language": "שפת סריקת מסמך ראשית"
   }
 }

@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "شما نیازی به خرید نرم‌افزار گران‌قیمت برای ترکیب فایل‌های PDF ندارید. ابزار PDF MaxAI.me برای استفاده آنلاین رایگان در دسترس است و در مرورگر اجرا می‌شود بدون آپلود به شبکه تا اطمینان حاصل شود که فایل‌ها و داده‌های شما همیشه امن هستند.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "پردازش محلی",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "یکی از ویژگی‌های کلیدی سرویس ما این است که تمام عملیات ترکیب PDF به صورت محلی انجام می‌شود. این باعث می‌شود که کل فرآیند پردازش مستقیماً در دستگاه شما انجام شود بدون نیاز به انتظارهای مبتنی بر ابر. این امر امنیت را تقویت می‌کند و قابلیت اعتماد را تضمین می‌کند.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "چگونه فایل‌های PDF را آنلاین ترکیب کنیم:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "فایل‌های خود را به ابزار ترکیب PDF آنلاین بکشید و رها کنید.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "صفحات یا فایل‌های کامل را به دلخواه مرتب کنید.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "فایل‌های بیشتری را اضافه کنید، صفحات را چرخانید یا حذف کنید.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "روی «تأیید برای ترکیب» کلیک کنید تا PDF خود را ترکیب کنید و دانلود کنید.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "چگونه فایل‌های PDF را آنلاین ترکیب کنیم:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "فایل‌های خود را به ابزار ترکیب PDF آنلاین بکشید و رها کنید.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "صفحات یا فایل‌های کامل را به دلخواه مرتب کنید.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "فایل‌های بیشتری را اضافه کنید، صفحات را چرخانید یا حذف کنید.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "روی «تأیید برای ترکیب» کلیک کنید تا PDF خود را ترکیب کنید و دانلود کنید.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "جدا کردن صفحات در PDF به راحتی آنلاین و به صورت رایگان. جداکننده PDF ما بدون نیاز به ایجاد حساب کاربری قابل استفاده است.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "PDF خود را به فایل‌های جداگانه تقسیم کنید",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "محتوای PDF را در ثانیه جدا کنید",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "سرویس آنلاین ما می تواند PDF را در هر مرورگر و سیستم عاملی تغییر دهد: ویندوز، مک و لینوکس، و همچنین iOS و اندروید. شما نیازی به نصب هیچ نرم افزاری یا ایجاد یک حساب کاربری ندارید.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "کار در حال حرکت",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "غالباً بدون دسترسی به اینترنت در جاده هستید؟ سرویس آنلاین ما بدون اتصال به شبکه کار می کند. فقط کافی است صفحه فعلی را باز نگه دارید.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "چگونه PDF را به {{TYPE}} آنلاین تبدیل کنیم:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "فایل خود را در تبدیل کننده PDF به {{TYPE}} بکشید و رها کنید.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "گزینه \"تبدیل صفحات کامل\" یا \"استخراج تصاویر تکی\" را انتخاب کنید.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "ما PDF شما را در عرض چند ثانیه به {{TYPE}} تبدیل خواهیم کرد.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "فایل (های) تبدیل شده را در صفحه نتایج دانلود کنید.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "چگونه PDF را به {{TYPE}} آنلاین تبدیل کنیم:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "فایل خود را در تبدیل کننده PDF به {{TYPE}} بکشید و رها کنید.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "گزینه \"تبدیل صفحات کامل\" یا \"استخراج تصاویر تکی\" را انتخاب کنید.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "ما PDF شما را در عرض چند ثانیه به {{TYPE}} تبدیل خواهیم کرد.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "فایل (های) تبدیل شده را در صفحه نتایج دانلود کنید.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "تبدیل تصاویر به PDF به صورت رایگان آنلاین. تبدیل کننده ما {{TYPE}} به PDF هر فایل تصویری را به یک فایل PDF سفارشی تبدیل می کند (بدون محدودیت اندازه، بدون نشان آب).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "تبدیل کننده آنلاین آسان {{TYPE}} به PDF",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "بدون نصب - در مرورگر شما کار می کند",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "پردازش محلی",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "تمامی فایل هایی که بارگذاری می کنید در مرورگر شما پردازش می شوند تا حریم خصوصی کامل را تضمین کنند. آنها به ابر آپلود نمی شوند و امنیت و حریم خصوصی کامل را تضمین می کنند.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "چگونه {{TYPE}} را به PDF آنلاین تبدیل کنیم:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "تصویر خود را در تبدیل کننده {{TYPE}} به PDF بارگذاری کنید.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "اندازه، جهت و حاشیه را به عنوان نیاز تنظیم کنید.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "روی \"ایجاد PDF هم اکنون!\" کلیک کنید و ما شروع به تبدیل می کنیم.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "همین است! PDF تبدیل شده را در دستگاه خود ذخیره کنید.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "چگونه {{TYPE}} را به PDF آنلاین تبدیل کنیم:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "تصویر خود را در تبدیل کننده {{TYPE}} به PDF بارگذاری کنید.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "اندازه، جهت و حاشیه را به عنوان نیاز تنظیم کنید.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "روی \"ایجاد PDF هم اکنون!\" کلیک کنید و ما شروع به تبدیل می کنیم.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "همین است! PDF تبدیل شده را در دستگاه خود ذخیره کنید.",
     "pdf_tools__detail_page__more_pdf_tools": "ابزارهای PDF آنلاین رایگان بیشتر",
     "tools__index_page__constant_obj__pdf_to_html__title": "تبدیل PDF به HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "تبدیل یک فایل PDF به HTML با حفظ ساختار طرح و تصاویر",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "مبدل PDF به HTML ما به طور کامل آنلاین قابل دسترس است، بنابراین شما می‌توانید سند‌ها را در هر دستگاه و هر زمان بدون نیاز به نصب هرگونه نرم‌افزار تبدیل کنید.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "تبدیل بدون اینترنت",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "با ابزار ما، می‌توانید تبدیل را در حالت آفلاین آغاز کنید. تنها کافی است صفحه را قبل از قطع اتصال بارگذاری کنید و تبدیل همچنان بدون اتصال به اینترنت انجام می‌شود.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "چگونه به راحتی PDF را به HTML تبدیل کنیم:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "فایل PDF خود را به مبدل آنلاین PDF به HTML بارگذاری کنید.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "بگذارید ابزار فایل را پردازش کند و آن را به فرمت HTML تبدیل کند.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "پس از تکمیل تبدیل، فایل HTML جدید خود را مستقیماً دانلود کنید.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "HTML دانلود شده را در هر مرورگر وب باز کنید تا نتایج را بررسی کنید.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "چگونه به راحتی PDF را به HTML تبدیل کنیم:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "فایل PDF خود را به مبدل آنلاین PDF به HTML بارگذاری کنید.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "بگذارید ابزار فایل را پردازش کند و آن را به فرمت HTML تبدیل کند.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "پس از تکمیل تبدیل، فایل HTML جدید خود را مستقیماً دانلود کنید.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "HTML دانلود شده را در هر مرورگر وب باز کنید تا نتایج را بررسی کنید.",
     "pricing__better_plan__title": "هوش مصنوعی 1-کلیک در هر جایی، کمتر زمان، نتایج بهتر",
     "pricing__compare_plans__title": "مقایسه طرح‌ها",
     "pricing__plan_category__individual__label": "طرح‌های فردی",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "حتی وقتی آفلاین هستید، فشرده سازی را فعال کنید. صفحه را پیش‌بارگذاری کنید و بدون نیاز به اتصال اینترنت، فشرده سازی فایل را انجام دهید.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "تنظیمات فشرده سازی سفارشی",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "سطح فشرده سازی را بر اساس نیازهای خاص خود تنظیم کنید و تنظیمات سفارشی را برای تعادل بین کاهش اندازه فایل و کیفیت بصری انجام دهید تا نتایج بهینه برای هر نوع سند حاصل شود.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "چگونه به راحتی PDF را فشرده کنیم:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "PDF خود را به ابزار فشرده سازی آنلاین بارگذاری کنید.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "ابزار به سرعت فایل شما را پردازش می‌کند و اندازه آن را با حفظ کیفیت کاهش می‌دهد.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "پس از فشرده سازی، PDF فشرده شده را به دستگاه خود دانلود کنید.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "کیفیت و اندازه PDF فشرده شده را با باز کردن آن در نرم‌افزار PDF مورد علاقه خود بررسی کنید."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "چگونه به راحتی PDF را فشرده کنیم:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "PDF خود را به ابزار فشرده سازی آنلاین بارگذاری کنید.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "ابزار به سرعت فایل شما را پردازش می‌کند و اندازه آن را با حفظ کیفیت کاهش می‌دهد.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "پس از فشرده سازی، PDF فشرده شده را به دستگاه خود دانلود کنید.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "کیفیت و اندازه PDF فشرده شده را با باز کردن آن در نرم‌افزار PDF مورد علاقه خود بررسی کنید.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "بدون تلاش متن را از سند های اسکن شده خود با ابزار OCR PDF ما استخراج کنید. سریع، محلی و پشتیبانی از تا 99 زبان - و نیازی به بارگذاری هر محتوایی به سرور نیست.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "استخراج سریع و دقیق متن از فایل های PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "نیازی به نصب نرم افزار نیست",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "پشتیبانی از مجموعه گسترده ای تا 99 زبان",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "تبدیل سریع و کارآمد OCR PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "سند های PDF اسکن شده خود را به متن قابل ویرایش به سرعت تبدیل کنید. فناوری OCR ما تضمین می کند که حتی با طرح های پیچیده و چند زبانی، تشخیص سریع و دقیق را انجام می دهد.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "OCR محلی برای استفاده جهانی",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "ابزار OCR ما برای درک و تبدیل دقیق متن از تا 99 زبان طراحی شده است، تضمین کننده جامعیت و قابلیت دسترسی برای کاربران در سراسر جهان.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "امنیت و حریم خصوصی",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "با انجام تمام پردازش ها به صورت محلی در مرورگر شما، سند های شما هرگز دستگاه شما را ترک نمی کنند و حریم خصوصی و امنیت بیشتری را برای شما فراهم می کنند.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "بدون دانلود، بدون دردسر",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "ابزار OCR PDF ما آنلاین عمل می کند، به این معنی که نیازی به دانلود یا نصب هر نرم افزاری ندارید. فقط سند خود را بارگذاری کنید و اجازه دهید ابزار ما بقیه کار را انجام دهد.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "دسترسی آسان",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "از هر جایی، در هر زمان، در تمام مرورگرهای اصلی و سیستم عامل ها قابل دسترسی است. برای شما آماده است، آیا شما در ویندوز، مک، لینوکس، iOS یا اندروید هستید.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "دقت استثنایی",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "با بهره گیری از فناوری OCR پیشرفته، ابزار ما استخراج متن با کیفیت و دقت بالا را ارائه می دهد، کمینه کردن خطاها و صرفه جویی در زمان تصحیح دستی.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "چگونه متن را از PDF ها آنلاین استخراج کنیم:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "فایل PDF اسکن شده خود را به ابزار OCR ما بارگذاری کنید.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "زبان اصلی سند خود را انتخاب کنید.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "ابزار ما سند PDF شما را پردازش کرده و متن را به دقت و به سرعت استخراج می کند.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "برای مشاهده کیفیت، OCR PDF را در صفحه نتایج دانلود کنید.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "تبدیل PDF اسکن شده به متن، بنابراین می‌توانید به راحتی متن را کپی و جستجو کنید"
   },
   "prompt_library": {
     "use_prompt_library__title": "الگوهای 1-کلیک",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "امضای PDF - افزودن امضای دیجیتال به فایل های PDF به صورت محلی و رایگان | MaxAI.me",
     "pdf_tools__sign_pdf__description": "به راحتی امضای دیجیتال را به فایل های PDF به صورت رایگان و امن در دستگاه های محلی اضافه کنید و حریم خصوصی و امنیت حداکثری را تضمین کنید. بدون نشان آب، محدودیت اندازه فایل، بارگیری یا ثبت نام.",
     "pdf_tools__compress_pdf__title": "فشرده سازی PDF - کاهش اندازه PDF آنلاین | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "با فشرده سازی فایل‌های PDF در مرورگر محلی، عملکرد سریع و امن را تضمین کنید. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام."
+    "pdf_tools__compress_pdf__description": "با فشرده سازی فایل‌های PDF در مرورگر محلی، عملکرد سریع و امن را تضمین کنید. بدون نشان آب، محدودیت اندازه فایل، دانلود یا ثبت نام.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - تشخیص متن سریع و محلی برای فایل های PDF رایگان | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "تبدیل اسناد PDF غیر قابل جستجو به متن قابل جستجو و قابل انتخاب در عرض چند ثانیه. بدون نشان آب، محدودیت حجم فایل، دانلود یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "از کمک به نوشتن و خلاصه صفحات وب تا ChatPDF و نقاشی هوش مصنوعی، MaxAI.me شما را قادر می سازد تا با استفاده از پیشرفته ترین مدل های هوش مصنوعی از جمله ChatGPT، Claude و Gemini بخوانید، بنویسید و ایجاد کنید. تجربه مرورگر خود را ارتقا دهید و ظرفیت تولیدی خود را با MaxAI.me بهبود بخشید!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را آپلود کنید",
     "components__to_image_detail__select_all": "انتخاب همه",
     "components__to_image_detail__deselect_all": "عدم انتخاب همه",
     "components__to_image_detail__download_images": "دانلود تصاویر",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "حذف این PDF و انتخاب یکی جدید"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__pdf_merge__add_pdf": "افزودن PDF",
     "components__pdf_merge__empty_pdf": "پاک کردن PDF ها",
     "components__pdf_merge__confirm_merge": "تأیید ادغام",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "افزودن فایل PDF زیر"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__pdf_split__add_pdf": "افزودن PDF",
     "components__pdf_split__remove_pdf": "حذف PDF",
     "components__pdf_split__select_all": "انتخاب همه",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "رمزگذاری شده است یا غیرطبیعی است، قادر به دستکاری PDF نیست، رد شد",
     "components__common__drag__dropping_tip": "می‌توانید با کشیدن و رها کردن ترتیب را تنظیم کنید",
     "components__common__upload_button_tips": "یا فایل‌ها را اینجا رها کنید",
-    "components__common__upload_button_title": "انتخاب فایل‌ها"
+    "components__common__upload_button_title": "انتخاب فایل‌ها",
+    "components__common__upload_button__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "فقط تصاویر از نوع تصویر قابل بارگذاری هستند",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "پایین"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__pdf_to_html__button__download": "دانلود",
     "components__pdf_to_html__button__convert": "تبدیل دیگری"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "رسم",
     "components__sign_pdf__operation_view__type": "نوع",
     "components__sign_pdf__operation_view__upload": "بارگذاری",
-    "components__sign_pdf__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__sign_pdf__detail__empty_sign": "امضای خالی",
     "components__sign_pdf__detail__empty_text": "متن خالی",
     "components__sign_pdf__detail__finish": "پایان دادن و امضا کردن",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "دانلود",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "صفحه اصلی امضای PDF",
     "components__sign_pdf__icon__sign": "امضا کنید",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "چیزی بنویسید..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "چیزی بنویسید...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "تنها تصاویر از نوع تصویر قابل بارگذاری هستند"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "پایین",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "اندازه متوسط فایل، رزولوشن استاندارد",
     "components__compress_pdf__main__compress_strong_grade_title": "قوی",
     "components__compress_pdf__main__compress_strong_grade_description": "اندازه کوچک فایل، رزولوشن پایین",
-    "components__compress_pdf__main__unsupported_file_type_tip": "لطفاً نوع فایل PDF مشخص شده را بارگذاری کنید",
     "components__compress_pdf__main__compress_download": "فشرده سازی و دانلود",
     "components__compress_pdf__main__choose_another_file": "انتخاب فایل دیگر",
     "components__compress_pdf__main__current_pdf_size": "اندازه فعلی PDF",
     "components__compress_pdf__main__original_pdf_size": "اندازه اصلی",
     "components__compress_pdf__main__different_pdf_size": "به مقدار {{DiFF_NUMBER}}٪ کوچکتر از قبل!",
     "components__compress_pdf__main__compress_error": "فشرده سازی ناموفق بود، لطفاً بررسی کنید که آیا فایل PDF رمزگذاری شده یا غیرطبیعی است!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "قرار دادن PDF",
+    "components__ocr_pdf__main__upload_error": "لطفاً بررسی کنید که آیا فایل PDF رمزگذاری شده یا غیر عادی است!",
+    "components__ocr_pdf__main__choose_another_file": "انتخاب فایل دیگر",
+    "components__ocr_pdf__main__conversion_grade_title_1": "دقت عادی",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "زمان تبدیل سریعتر",
+    "components__ocr_pdf__main__conversion_grade_title_2": "دقت بالا",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "افزایش دقت و زمان تبدیل",
+    "components__ocr_pdf__main__ocr_loading": "بارگذاری PDF",
+    "components__ocr_pdf__main__ocr_and_download": "تشخیص اپتیکال کاراکتر و دانلود",
+    "components__ocr_pdf__main__document_scanning_language": "زبان اسکن سند"
   }
 }

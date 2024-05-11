@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "Jums nav jāiegādājas dārga programmatūra, lai apvienotu PDF failus. MaxAI.me PDF rīks ir pieejams bez maksas tiešsaistē, darbojoties pārlūkprogrammā, neaugšupielādējot tīklā, lai nodrošinātu, ka jūsu faili un dati vienmēr ir drošībā.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Vietējā apstrāde",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "Mūsu pakalpojuma galvenā iezīme ir tā, ka visi PDF apvienošanas darbības tiek veiktas lokāli. Tas nodrošina, ka visa apstrādes procedūra notiek tieši jūsu ierīcē, bez nepieciešamības gaidīt mākoņos. Tas uzlabo drošību un garantē uzticamību.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Kā apvienot PDF failus tiešsaistē:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Velciet un nomestiet savus failus tiešsaistes PDF apvienošanas rīkā.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Pārkārtot atsevišķas lapas vai visus failus pēc nepieciešamības.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Pievienojiet vairāk failu, pagrieziet vai dzēsiet lapas vai veselus failus.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Noklikšķiniet uz “Apstiprināt apvienošanai”, lai apvienotu un lejupielādētu savu PDF.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Kā apvienot PDF failus tiešsaistē:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Velciet un nomestiet savus failus tiešsaistes PDF apvienošanas rīkā.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Pārkārtot atsevišķas lapas vai visus failus pēc nepieciešamības.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Pievienojiet vairāk failu, pagrieziet vai dzēsiet lapas vai veselus failus.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Noklikšķiniet uz “Apstiprināt apvienošanai”, lai apvienotu un lejupielādētu savu PDF.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Viegli atdaliet lapas PDF tiešsaistē bez maksas. Mūsu PDF sadalītājs var tikt izmantots bez konta izveides.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Sadali savu PDF atsevišķos failos",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Atdaliet PDF saturu sekundēs",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Mūsu tiešsaistes serviss var mainīt PDF uz attēliem jebkurā pārlūkprogrammā un operētājsistēmā: Windows, Mac un Linux, kā arī iOS un Android. Jums nav jāinstalē nekāda programmatūra vai jāizveido konts.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Strādājiet ceļojumā",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "Bieži esat ceļā bez interneta piekļuves? Mūsu tiešsaistes serviss var strādāt bez tīkla savienojuma. Jums tikai jāturpina atvērtā lapa.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Kā konvertēt PDF uz {{TYPE}} tiešsaistē:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Velciet un nomestiet failu PDF uz {{TYPE}} konvertorā.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Izvēlieties “Konvertēt visas lapas” vai “Iegūt atsevišķus attēlus”.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "Mēs pārveidosim jūsu PDF uz {{TYPE}} dažu sekunžu laikā.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Lejupielādējiet konvertēto failu(-us) rezultātu lapā.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Kā konvertēt PDF uz {{TYPE}} tiešsaistē:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Velciet un nomestiet failu PDF uz {{TYPE}} konvertorā.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Izvēlieties “Konvertēt visas lapas” vai “Iegūt atsevišķus attēlus”.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "Mēs pārveidosim jūsu PDF uz {{TYPE}} dažu sekunžu laikā.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Lejupielādējiet konvertēto failu(-us) rezultātu lapā.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Bezmaksas tiešsaistes attēlu uz PDF konvertācija. Mūsu {{TYPE}} uz PDF konvertors pārvērš jebkuru attēla failu par pielāgotu PDF failu (bez izmēra ierobežojumiem, bez ūdenszīmēm).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Viegli lietojams tiešsaistes {{TYPE}} uz PDF konvertors",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Nav instalācijas—strādā jūsu pārlūkprogrammā",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Lokāla apstrāde",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Visi augšupielādētie faili tiek apstrādāti jūsu pārlūkprogrammā, nodrošinot pilnīgu privātumu. Tie netiek augšupielādēti uz mākoņa, garantējot absolūtu drošību un privātumu.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Kā konvertēt {{TYPE}} uz PDF tiešsaistē:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Augšupielādējiet savu attēlu uz {{TYPE}} uz PDF konvertoru.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Pielāgojiet izmēru, orientāciju un margu pēc vajadzības.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Noklikšķiniet uz “Izveidot PDF tagad!” un mēs sāksim konvertēt.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Tas viss! Saglabājiet konvertēto PDF savā ierīcē.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Kā konvertēt {{TYPE}} uz PDF tiešsaistē:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Augšupielādējiet savu attēlu uz {{TYPE}} uz PDF konvertoru.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Pielāgojiet izmēru, orientāciju un margu pēc vajadzības.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Noklikšķiniet uz “Izveidot PDF tagad!” un mēs sāksim konvertēt.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "Tas viss! Saglabājiet konvertēto PDF savā ierīcē.",
     "pdf_tools__detail_page__more_pdf_tools": "Vairāk bezmaksas tiešsaistes PDF rīku",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF uz HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Konvertēt PDF uz HTML, saglabājot izkārtojuma struktūru un attēlus",
@@ -490,11 +490,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Mūsu PDF uz HTML konvertors ir pilnībā pieejams tiešsaistē, tāpēc jūs varat konvertēt dokumentus jebkurā ierīcē, jebkurā laikā, neinstalējot nekādu programmatūru.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Konvertēt bez interneta",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Ar mūsu rīku jūs varat sākt konvertāciju bezsaistē. Jums tikai jāielādē lapa pirms atvienošanās, un konvertācija joprojām notiks bez interneta savienojuma.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Kā viegli pārveidot PDF par HTML:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Augšupielādējiet savu PDF uz tiešsaistes PDF uz HTML konvertoru.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Ļaujiet rīkam apstrādāt failu un pārveidot to HTML formātā.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Pabeidzot konvertāciju, lejupielādējiet jauno HTML failu tieši.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Atveriet lejupielādēto HTML jebkurā tīmekļa pārlūkprogrammā, lai pārskatītu rezultātus.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Kā viegli pārveidot PDF par HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Augšupielādējiet savu PDF uz tiešsaistes PDF uz HTML konvertoru.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "Ļaujiet rīkam apstrādāt failu un pārveidot to HTML formātā.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "Pabeidzot konvertāciju, lejupielādējiet jauno HTML failu tieši.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Atveriet lejupielādēto HTML jebkurā tīmekļa pārlūkprogrammā, lai pārskatītu rezultātus.",
     "home_page__features_carousel__feature_reader__label": "AI Lasītājs",
     "home_page__features_carousel__feature_reader__title": "Padariet sarežģītu informāciju viegli saprotamu, tāpat kā eksperts.",
     "home_page__features_carousel__feature_reader__description1": "Izskaidrojiet jebkuru vārdu, terminu vai rindkopu",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Iespējojiet saspiešanu pat tad, ja esat bezsaistē. Ielādējiet lapu iepriekš un varat turpināt faila saspiešanu bez interneta pieslēguma.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Pielāgota saspiešanas iestatījumi",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Pielāgojiet saspiešanas līmeni savām konkrētajām vajadzībām, ļaujot pielāgot izmaiņas starp faila izmēra samazināšanu un vizuālo kvalitāti, nodrošinot optimālus rezultātus katram dokumenta veidam.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kā viegli saspiest PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Augšupielādējiet savu PDF uz tiešsaistes saspiešanas rīku.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Rīks ātri apstrādā jūsu failu, samazinot tā izmēru, saglabājot kvalitāti.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Lejupielādējiet saspiesto PDF uzreiz pēc saspiešanas savā ierīcē.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Pārbaudiet saspiestā PDF kvalitāti un izmēru, atverot to ar vēlamo PDF lasītāju."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Kā viegli saspiest PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Augšupielādējiet savu PDF uz tiešsaistes saspiešanas rīku.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "Rīks ātri apstrādā jūsu failu, samazinot tā izmēru, saglabājot kvalitāti.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Lejupielādējiet saspiesto PDF uzreiz pēc saspiešanas savā ierīcē.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Pārbaudiet saspiestā PDF kvalitāti un izmēru, atverot to ar vēlamo PDF lasītāju.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Viegli izvilkt tekstu no jūsu skenētajiem dokumentiem ar mūsu OCR PDF rīku. Ātri, lokalizēti un atbalsta līdz pat 99 valodām - un nav nepieciešams augšupielādēt saturu uz serveri.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Ātra un precīza teksta izvilkšana no PDF failiem",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "Nav nepieciešama programmatūras instalēšana",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Atbalsta plašu līdz pat 99 valodu klāstu",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Ātra un efektīva OCR PDF konvertēšana",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Ātri pārvērtiet savus skenētos PDF dokumentus par rediģējamu tekstu. Mūsu OCR tehnoloģija nodrošina ātru un precīzu atpazīšanu, pat ar sarežģītiem izkārtojumiem un vairākām valodām.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "Lokalizēta OCR globālai lietošanai",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Mūsu OCR rīks ir izstrādāts, lai saprastu un precīzi pārvērstu tekstu no līdz pat 99 valodām, nodrošinot iekļaušanu un pieejamību lietotājiem visā pasaulē.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Drošs un privāts",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Visa apstrāde tiek veikta lokāli jūsu pārlūkprogrammā, tāpēc jūsu dokumenti nekad neatstāj jūsu ierīci, nodrošinot maksimālu privātumu un drošību.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Nav lejupielādes, nav problēmu",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Mūsu OCR PDF rīks darbojas tiešsaistē, tāpēc jums nav jālejupielādē vai jāinstalē nekāda programmatūra. Vienkārši augšupielādējiet savu dokumentu un ļaujiet mūsu rīkam paveikt pārējo.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Viegla pieejamība",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Pieejams jebkurā vietā, jebkurā laikā, visos galvenajos pārlūkprogrammās un operētājsistēmās. Vai esat Windows, Mac, Linux, iOS vai Android lietotājs - mūsu rīks ir gatavs, kad jūs esat.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Izcila precizitāte",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Izmantojot augstas klases OCR tehnoloģiju, mūsu rīks nodrošina augstas kvalitātes, precīzu teksta izvilkšanu, samazinot kļūdas un ietaupot laiku manuālai labošanai.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Kā izvilkt tekstu no PDF tiešsaistē:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Augšupielādējiet savu skenēto PDF failu uz mūsu OCR rīku.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Izvēlieties dokumenta pamatvalodu.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Mūsu rīks apstrādās jūsu PDF, precīzi un ātri izvilks tekstu.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Lejupielādējiet OCR PDF rezultātu lapā, lai apskatītu kvalitāti.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenētu PDF dokumentu, lai jūs varat viegli izvēlēties kopēt un meklēt tekstu"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikšķa pamudinājumi",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "PDF parakstīšana - Digitālā paraksta pievienošana PDF failiem lokāli bez maksas | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Viegli pievienojiet digitālos parakstus PDF failiem bez maksas un droši uz vietējām ierīcēm, nodrošinot maksimālu privātumu un drošību. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības.",
     "pdf_tools__compress_pdf__title": "Saspiest PDF - Tiešsaistes PDF izmēra samazināšana | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Saspiest PDF failus vietējā pārlūkprogrammā, lai nodrošinātu ātru un drošu veiktspēju. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības."
+    "pdf_tools__compress_pdf__description": "Saspiest PDF failus vietējā pārlūkprogrammā, lai nodrošinātu ātru un drošu veiktspēju. Nav ūdenszīmes, faila izmēra ierobežojuma, lejupielādes vai reģistrācijas prasības.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - Ātra un lokāla PDF teksta atpazīšana bez maksas | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Pārvērtiet neiešķiramo PDF dokumentu par meklējamu un izvēlējamu tekstu sekundēs. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "Sākot no rakstības palīdzības un lapas kopsavilkuma līdz ChatPDF un AI gleznošanai, MaxAI.me ļauj jums lasīt, rakstīt un radīt ar vismodernākajiem AI modeļiem, ieskaitot ChatGPT, Claude un Gemini. Uzlabojiet savu pārlūkošanas pieredzi un atklājiet savu produktivitātes potenciālu ar MaxAI.me jau šodien!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__to_image_detail__select_all": "Izvēlēties visu",
     "components__to_image_detail__deselect_all": "Noņemt atlasi",
     "components__to_image_detail__download_images": "Lejupielādēt attēlus",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Noņemt šo PDF un izvēlēties jaunu"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_merge__add_pdf": "Pievienot PDF",
     "components__pdf_merge__empty_pdf": "Notīrīt PDF",
     "components__pdf_merge__confirm_merge": "Apstiprināt apvienošanu",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Pievienot PDF failu zemāk"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_split__add_pdf": "Pievienot PDF",
     "components__pdf_split__remove_pdf": "Noņemt PDF",
     "components__pdf_split__select_all": "Izvēlēties visu",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "ir šifrēts vai neregulārs, nav iespējams manipulēt ar PDF, izlaists",
     "components__common__drag__dropping_tip": "Jūs varat mainīt secību, vilkt un nomestot",
     "components__common__upload_button_tips": "vai nometiet failus šeit",
-    "components__common__upload_button_title": "IZVĒLĒTIES FAILUS"
+    "components__common__upload_button_title": "IZVĒLĒTIES FAILUS",
+    "components__common__upload_button__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Apakša"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__pdf_to_html__button__download": "Lejupielādēt",
     "components__pdf_to_html__button__convert": "Konvertēt vēlreiz"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Zīmēt",
     "components__sign_pdf__operation_view__type": "Tips",
     "components__sign_pdf__operation_view__upload": "Augšupielādēt",
-    "components__sign_pdf__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__sign_pdf__detail__empty_sign": "Tukša paraksts",
     "components__sign_pdf__detail__empty_text": "Tukšs teksts",
     "components__sign_pdf__detail__finish": "Pabeigt un parakstīt",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Lejupielādēt",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Paraksta PDF sākumlapa",
     "components__sign_pdf__icon__sign": "Parakstīt",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ieraksti kaut ko..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Ieraksti kaut ko...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Tikai attēli no attēla tipa var tikt augšupielādēti"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Zems",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Vidējs faila izmērs, standarta izšķirtspēja",
     "components__compress_pdf__main__compress_strong_grade_title": "Spēcīgs",
     "components__compress_pdf__main__compress_strong_grade_description": "Mazs faila izmērs, zemāka izšķirtspēja",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Lūdzu, augšupielādējiet norādīto PDF faila tipu",
     "components__compress_pdf__main__compress_download": "Saspiest un lejupielādēt",
     "components__compress_pdf__main__choose_another_file": "Izvēlieties citu failu",
     "components__compress_pdf__main__current_pdf_size": "Pašreizējais PDF izmērs",
     "components__compress_pdf__main__original_pdf_size": "oriģinālais izmērs",
     "components__compress_pdf__main__different_pdf_size": "Atšķirīgs no iepriekšējā, {{DiFF_NUMBER}}% mazāks!",
     "components__compress_pdf__main__compress_error": "Saspiešana neizdevās, lūdzu, pārbaudiet, vai PDF fails ir šifrēts vai neregulārs!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "PDF iegulšana",
+    "components__ocr_pdf__main__upload_error": "Lūdzu, pārbaudiet, vai PDF fails nav šifrēts vai neparasts!",
+    "components__ocr_pdf__main__choose_another_file": "Izvēlieties citu failu",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Normāla precizitāte",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Ātrāka konvertēšanas laiks",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Augsta precizitāte",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Palielina precizitāti un konvertēšanas laiku",
+    "components__ocr_pdf__main__ocr_loading": "PDF Ielāde",
+    "components__ocr_pdf__main__ocr_and_download": "OCR un Lejupielādēt",
+    "components__ocr_pdf__main__document_scanning_language": "Dokumentu skenēšanas valoda"
   }
 }

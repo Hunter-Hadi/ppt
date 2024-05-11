@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "Anda tidak perlu membeli perisian mahal untuk menggabungkan fail PDF. Alat PDF MaxAI.me tersedia secara percuma untuk digunakan dalam talian, berjalan dalam pelayar tanpa dimuat naik ke rangkaian untuk memastikan bahawa fail dan data anda sentiasa selamat.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Pemprosesan Tempatan",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "Ciri utama perkhidmatan kami adalah semua operasi penggabungan PDF dilakukan secara tempatan. Ini memastikan bahawa seluruh prosedur pemprosesan berlaku terus pada peranti anda tanpa perlu menunggu berasaskan awan. Ia meningkatkan keselamatan dan menjamin kebolehpercayaan.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Cara Menggabungkan Fail PDF Dalam Talian:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Seret & lepas fail anda ke alat Penggabung PDF dalam talian.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Susun semula halaman individu atau fail keseluruhan mengikut keperluan.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Tambah lebih banyak fail, putar, atau padam halaman atau fail keseluruhan.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Klik “Sahkan untuk menggabungkan” untuk menggabungkan dan muat turun PDF anda.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Cara Menggabungkan Fail PDF Dalam Talian:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Seret & lepas fail anda ke alat Penggabung PDF dalam talian.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Susun semula halaman individu atau fail keseluruhan mengikut keperluan.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Tambah lebih banyak fail, putar, atau padam halaman atau fail keseluruhan.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Klik “Sahkan untuk menggabungkan” untuk menggabungkan dan muat turun PDF anda.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Pisahkan halaman dalam PDF dengan mudah dalam talian secara percuma. Pemisah PDF kami boleh digunakan tanpa membuat akaun.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Pisahkan PDF anda menjadi fail yang berasingan",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Pisahkan kandungan PDF dalam beberapa saat",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Layanan online kami dapat mengubah PDF menjadi gambar di semua browser dan sistem operasi: Windows, Mac, dan Linux, serta iOS dan Android. Anda tidak perlu menginstal perangkat lunak apa pun atau membuat akun.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Bekerja saat Bepergian",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "Sering bepergian tanpa akses internet? Layanan online kami dapat berfungsi tanpa koneksi jaringan. Anda hanya perlu menjaga halaman saat ini tetap terbuka.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Cara Mengonversi PDF ke {{TYPE}} secara Online:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Seret & lepaskan file Anda di konverter PDF ke {{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Pilih “Konversi seluruh halaman” atau “Ekstrak gambar tunggal.”",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "Kami akan mengonversi PDF Anda ke {{TYPE}} dalam hitungan detik.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Unduh file yang telah dikonversi di halaman hasil.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Cara Mengonversi PDF ke {{TYPE}} secara Online:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Seret & lepaskan file Anda di konverter PDF ke {{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Pilih “Konversi seluruh halaman” atau “Ekstrak gambar tunggal.”",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "Kami akan mengonversi PDF Anda ke {{TYPE}} dalam hitungan detik.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Unduh file yang telah dikonversi di halaman hasil.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Konversi Gambar ke PDF secara gratis online. Konverter {{TYPE}} ke PDF kami mengubah file gambar menjadi file PDF kustom (Tanpa batasan ukuran, tanpa tanda air).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Konverter {{TYPE}} ke PDF online yang mudah digunakan",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Tidak perlu pemasangan—bekerja di browser Anda",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Pemrosesan Lokal",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Semua file yang Anda unggah diproses di browser Anda untuk privasi yang lengkap. Mereka tidak diunggah ke cloud, memastikan keamanan dan privasi yang mutlak.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Cara Mengonversi {{TYPE}} ke PDF secara Online:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Unggah gambar Anda ke konverter {{TYPE}} ke PDF.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Atur ukuran, orientasi, dan margin sesuai kebutuhan.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klik “Buat PDF sekarang!” dan kami akan mulai mengonversi.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Itu saja! Simpan PDF yang telah dikonversi ke perangkat Anda.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Cara Mengonversi {{TYPE}} ke PDF secara Online:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Unggah gambar Anda ke konverter {{TYPE}} ke PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Atur ukuran, orientasi, dan margin sesuai kebutuhan.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Klik “Buat PDF sekarang!” dan kami akan mulai mengonversi.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "Itu saja! Simpan PDF yang telah dikonversi ke perangkat Anda.",
     "pdf_tools__detail_page__more_pdf_tools": "Lebih Banyak Alat PDF Online Gratis",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF ke HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Tukar PDF kepada HTML sambil mengekalkan struktur layout dan imej",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Penukar PDF ke HTML kami boleh diakses sepenuhnya dalam talian, jadi anda boleh menukar dokumen pada sebarang peranti, pada bila-bila masa, tanpa perlu memasang sebarang perisian.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Tukar Tanpa Internet",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Dengan alat kami, anda boleh memulakan penukaran secara luar talian. Yang anda perlukan hanyalah memuatkan halaman sebelum memutuskan sambungan, dan penukaran masih akan berlaku tanpa sambungan internet.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Cara Mudah Menukar PDF ke HTML:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Muat naik PDF anda ke penukar PDF ke HTML dalam talian.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Biarkan alat memproses fail dan menukarkannya kepada format HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Setelah penukaran selesai, muat turun fail HTML baru anda secara terus.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Buka HTML yang dimuat turun dalam mana-mana pelayar web untuk mengkaji hasil.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Cara Mudah Menukar PDF ke HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Muat naik PDF anda ke penukar PDF ke HTML dalam talian.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "Biarkan alat memproses fail dan menukarkannya kepada format HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "Setelah penukaran selesai, muat turun fail HTML baru anda secara terus.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Buka HTML yang dimuat turun dalam mana-mana pelayar web untuk mengkaji hasil.",
     "pricing__better_plan__title": "AI 1-klik di mana-mana, kurang masa, hasil yang lebih baik",
     "pricing__compare_plans__title": "Bandingkan pelan",
     "pricing__plan_category__individual__label": "Pelan individu",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktifkan pemampatan walaupun anda sedang luring. Muat pra-laman tersebut, dan anda boleh meneruskan pemampatan fail tanpa memerlukan sambungan internet.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Tetapan Pemampatan Tersuai",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Sesuaikan tahap pemampatan mengikut keperluan anda, membolehkan penyesuaian khusus untuk menyeimbangkan antara pengurangan saiz fail dan kualiti visual, memastikan hasil yang optimum untuk setiap jenis dokumen.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cara Mudah Memampatkan PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Muat naik PDF anda ke alat pemampatan dalam talian.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Alat tersebut dengan cepat memproses fail anda, mengurangkan saiznya sambil mengekalkan kualiti.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Muat turun PDF yang telah dipampatkan ke peranti anda segera selepas pemampatan.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Semak kualiti dan saiz PDF yang telah dipampatkan dengan membukanya di pembaca PDF pilihan anda."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Cara Mudah Memampatkan PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Muat naik PDF anda ke alat pemampatan dalam talian.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "Alat tersebut dengan cepat memproses fail anda, mengurangkan saiznya sambil mengekalkan kualiti.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Muat turun PDF yang telah dipampatkan ke peranti anda segera selepas pemampatan.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Semak kualiti dan saiz PDF yang telah dipampatkan dengan membukanya di pembaca PDF pilihan anda.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Mudahnya mengeluarkan teks dari dokumen yang telah anda imbas dengan alat OCR PDF kami. Pantas, tempatan, dan menyokong sehingga 99 bahasa - Dan tiada keperluan untuk memuat naik kandungan ke pelayan.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Pengekstrakan teks yang pantas dan tepat daripada PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "Tiada pemasangan perisian yang diperlukan",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Menyokong pelbagai bahasa sehingga 99",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Penukaran OCR PDF yang Pantas & Cekap",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Ubah dokumen PDF yang telah anda imbas menjadi teks yang boleh diedit dengan cepat. Teknologi OCR kami memastikan pengiktirafan yang pantas dan tepat, walaupun dengan susunan yang kompleks dan pelbagai bahasa.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "OCR Tempatan untuk Penggunaan Global",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Alat OCR kami direka untuk memahami dan menukar teks dengan tepat dari sehingga 99 bahasa, memastikan inklusiviti dan aksesibiliti untuk pengguna di seluruh dunia.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Selamat dan Peribadi",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Dengan semua pemprosesan dilakukan secara tempatan di pelayar anda, dokumen anda tidak pernah meninggalkan peranti anda, menawarkan privasi dan keselamatan yang maksimum.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Tiada Muat Turun, Tiada Masalah",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Alat OCR PDF kami beroperasi dalam talian, bermakna anda tidak perlu memuat turun atau memasang sebarang perisian. Hanya muat naik dokumen anda, dan biarkan alat kami melakukan selebihnya.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Aksesibiliti Tanpa Usaha",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Boleh diakses dari mana-mana, pada bila-bila masa, melalui semua pelayar utama dan sistem operasi. Sama ada anda menggunakan Windows, Mac, Linux, iOS, atau Android, alat kami sedia apabila anda perlukan.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Ketepatan Luar Biasa",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Dengan menggunakan teknologi OCR yang canggih, alat kami memberikan pengekstrakan teks berkualiti tinggi dan tepat, mengurangkan kesilapan dan menjimatkan masa dalam pembetulan manual.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Cara Mengeluarkan Teks dari PDF Secara Dalam Talian:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Muat naik fail PDF yang telah anda imbas ke alat OCR kami.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Pilih bahasa utama dokumen anda.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Alat kami akan memproses PDF anda, mengeluarkan teks dengan tepat dan pantas.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Muat turun OCR PDF di halaman hasil untuk melihat kualiti.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Dokumen PDF OCR"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Pemula",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "Menandatangani PDF - Menambah Tandatangan Digital ke Fail PDF Tempatan secara Percuma | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Tambah tandatangan digital ke fail PDF secara percuma dan selamat pada peranti tempatan, memastikan privasi dan keselamatan maksimum. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan.",
     "pdf_tools__compress_pdf__title": "Kompres PDF - Pengurangan Saiz PDF Dalam Talian | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Kompres fail PDF dalam pelayar tempatan untuk memastikan prestasi yang pantas dan selamat. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan."
+    "pdf_tools__compress_pdf__description": "Kompres fail PDF dalam pelayar tempatan untuk memastikan prestasi yang pantas dan selamat. Tiada cap air, had saiz fail, muat turun atau pendaftaran yang diperlukan.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - Pengenalan Teks PDF Pantas & Tempatan Percuma | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Tukar dokumen PDF yang tidak boleh dicari kepada teks yang boleh dicari dan dipilih dalam beberapa saat. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "Dari bantuan penulisan dan ringkasan laman web hingga ChatPDF dan seni AI, MaxAI.me memberdayakan anda untuk membaca, menulis, dan mencipta dengan bantuan model AI paling canggih, termasuk ChatGPT, Claude, dan Gemini. Tingkatkan pengalaman pelayaran anda dan buka potensi produktiviti anda dengan MaxAI.me hari ini!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__to_image_detail__select_all": "Pilih Semua",
     "components__to_image_detail__deselect_all": "Batal Pilih Semua",
     "components__to_image_detail__download_images": "Muat turun imej",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Buang PDF ini dan pilih yang baru"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
     "components__pdf_merge__add_pdf": "Tambah PDF",
     "components__pdf_merge__empty_pdf": "Kosongkan PDF",
     "components__pdf_merge__confirm_merge": "Sahkan untuk menggabungkan",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Tambah fail PDF di bawah"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__pdf_split__add_pdf": "Tambah PDF",
     "components__pdf_split__remove_pdf": "Buang PDF",
     "components__pdf_split__select_all": "Pilih Semua",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "dikunci atau tidak normal, tidak dapat memanipulasi PDF, dilewati",
     "components__common__drag__dropping_tip": "Anda boleh mengubah susunan dengan menyeret dan menjatuhkan",
     "components__common__upload_button_tips": "atau letakkan fail di sini",
-    "components__common__upload_button_title": "PILIH FAIL"
+    "components__common__upload_button_title": "PILIH FAIL",
+    "components__common__upload_button__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis imej boleh dimuat naik",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Bawah"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__pdf_to_html__button__download": "Muat turun",
     "components__pdf_to_html__button__convert": "Tukar yang lain"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Lukis",
     "components__sign_pdf__operation_view__type": "Jenis",
     "components__sign_pdf__operation_view__upload": "Muat Naik",
-    "components__sign_pdf__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__sign_pdf__detail__empty_sign": "Tandatangan Kosong",
     "components__sign_pdf__detail__empty_text": "Teks Kosong",
     "components__sign_pdf__detail__finish": "Selesai & Tandatangan",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Muat Turun",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Laman Utama Tandatangan PDF",
     "components__sign_pdf__icon__sign": "Tandatangan",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Taip sesuatu..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Taip sesuatu...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Hanya imej jenis imej boleh dimuat naik"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Rendah",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Saiz fail sederhana, resolusi standard",
     "components__compress_pdf__main__compress_strong_grade_title": "Kuat",
     "components__compress_pdf__main__compress_strong_grade_description": "Saiz fail kecil, resolusi lebih rendah",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditentukan",
     "components__compress_pdf__main__compress_download": "Mampatkan & Muat Turun",
     "components__compress_pdf__main__choose_another_file": "Pilih fail lain",
     "components__compress_pdf__main__current_pdf_size": "Saiz semasa PDF",
     "components__compress_pdf__main__original_pdf_size": "saiz asal",
     "components__compress_pdf__main__different_pdf_size": "Berbeza daripada sebelumnya {{DiFF_NUMBER}}% lebih kecil!",
     "components__compress_pdf__main__compress_error": "Pemampatan gagal, sila semak jika fail PDF dienkripsi atau tidak normal!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "Penyisipan PDF",
+    "components__ocr_pdf__main__upload_error": "Sila semak jika fail PDF terenkripsi atau tidak normal!",
+    "components__ocr_pdf__main__choose_another_file": "Pilih fail lain",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Ketepatan Normal",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Masa penukaran yang lebih cepat",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Ketepatan Tinggi",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Meningkatkan ketepatan dan masa penukaran",
+    "components__ocr_pdf__main__ocr_loading": "Pemuatan PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR & Muat Turun",
+    "components__ocr_pdf__main__document_scanning_language": "Bahasa pindaan dokumen utama"
   }
 }

@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "Za združevanje PDF-jev vam ni treba kupiti drage programske opreme. Orodje MaxAI.me PDF je na voljo brezplačno na spletu, deluje v brskalniku brez nalaganja v omrežje, da zagotovi, da so vaše datoteke in podatki vedno varni.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Lokalna obdelava",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "Ključna značilnost naše storitve je, da se vsi postopki združevanja PDF-jev izvajajo lokalno. To zagotavlja, da celoten postopek obdelave poteka neposredno na vaši napravi, brez čakanja v oblaku. Povečuje varnost in zagotavlja zanesljivost.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Kako združiti PDF-datoteke na spletu:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Povlecite in spustite datoteke v spletno orodje za združevanje PDF-jev.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Preuredite posamezne strani ali celotne datoteke po potrebi.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Dodajte več datotek, zavrtite ali izbrišite strani ali celotne datoteke.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Kliknite »Potrdi za združevanje«, da združite in prenesete svoj PDF.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Kako združiti PDF-datoteke na spletu:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Povlecite in spustite datoteke v spletno orodje za združevanje PDF-jev.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Preuredite posamezne strani ali celotne datoteke po potrebi.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Dodajte več datotek, zavrtite ali izbrišite strani ali celotne datoteke.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Kliknite »Potrdi za združevanje«, da združite in prenesete svoj PDF.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Enostavno ločite strani v PDF-ju na spletu brezplačno. Naš delilnik PDF-jev lahko uporabljate brez ustvarjanja računa.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Razdelite svoj PDF na ločene datoteke",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Ločite vsebino PDF-ja v nekaj sekundah",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Naša spletna storitev lahko spremeni PDF v slike v katerem koli brskalniku in operacijskem sistemu: Windows, Mac in Linux, pa tudi iOS in Android. Ni vam treba namestiti nobene programske opreme ali ustvariti računa.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Delajte na poti",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "Pogosto ste na poti brez dostopa do interneta? Naša spletna storitev lahko deluje brez omrežne povezave. Samo morate imeti odprto trenutno stran.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Kako pretvoriti PDF v {{TYPE}} na spletu:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Povlecite in spustite datoteko v pretvornik PDF v {{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Izberite »Pretvori celotne strani« ali »Izvleči posamezne slike«.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "Vaš PDF bomo pretvorili v {{TYPE}} v nekaj sekundah.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Na strani z rezultati prenesite pretvorjeno datoteko (ali datoteke).",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Kako pretvoriti PDF v {{TYPE}} na spletu:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Povlecite in spustite datoteko v pretvornik PDF v {{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Izberite »Pretvori celotne strani« ali »Izvleči posamezne slike«.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "Vaš PDF bomo pretvorili v {{TYPE}} v nekaj sekundah.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Na strani z rezultati prenesite pretvorjeno datoteko (ali datoteke).",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Brezplačno pretvorite slike v PDF na spletu. Naš pretvornik {{TYPE}} v PDF pretvori katero koli slikovno datoteko v prilagojen PDF (brez omejitev velikosti, brez vodnih žigov).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Enostaven za uporabo spletni pretvornik {{TYPE}} v PDF",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Brez namestitve - deluje v brskalniku",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Lokalna obdelava",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Vse datoteke, ki jih naložite, se obdelujejo v vašem brskalniku za popolno zasebnost. Niso naložene v oblak, kar zagotavlja absolutno varnost in zasebnost.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Kako pretvoriti {{TYPE}} v PDF na spletu:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Naložite sliko v pretvornik {{TYPE}} v PDF.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Prilagodite velikost, usmerjenost in rob po potrebi.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Kliknite »Ustvari PDF zdaj!« in začeli bomo s pretvorbo.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "To je vse! Shranite pretvorjeni PDF na svojo napravo.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Kako pretvoriti {{TYPE}} v PDF na spletu:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Naložite sliko v pretvornik {{TYPE}} v PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Prilagodite velikost, usmerjenost in rob po potrebi.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Kliknite »Ustvari PDF zdaj!« in začeli bomo s pretvorbo.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "To je vse! Shranite pretvorjeni PDF na svojo napravo.",
     "pdf_tools__detail_page__more_pdf_tools": "Več brezplačnih spletnih orodij za PDF",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF v HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Pretvori PDF v HTML in ohrani strukturo postavitve ter slike",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Naš pretvornik PDF v HTML je popolnoma dostopen na spletu, tako da lahko dokumente pretvarjate na kateri koli napravi, kadarkoli, brez namestitve programske opreme.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Pretvorba brez internetne povezave",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Z našim orodjem lahko začnete pretvorbo brez povezave. Potrebujete samo, da naložite stran pred prekinjanjem povezave, in pretvorba bo še vedno potekala brez internetne povezave.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Kako enostavno pretvoriti PDF v HTML:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Naložite svoj PDF v spletni pretvornik PDF v HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Pustite, da orodje obdela datoteko in jo pretvori v format HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Ko je pretvorba končana, prenesite novo HTML datoteko neposredno.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Odpri preneseni HTML v katerem koli spletnem brskalniku, da pregledaš rezultate.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Kako enostavno pretvoriti PDF v HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Naložite svoj PDF v spletni pretvornik PDF v HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "Pustite, da orodje obdela datoteko in jo pretvori v format HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "Ko je pretvorba končana, prenesite novo HTML datoteko neposredno.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Odpri preneseni HTML v katerem koli spletnem brskalniku, da pregledaš rezultate.",
     "pricing__better_plan__title": "1-klik AI kjerkoli, manj časa, boljši rezultati",
     "pricing__compare_plans__title": "Primerjaj načrte",
     "pricing__plan_category__individual__label": "Posamezni načrti",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Omogočite stiskanje tudi brez povezave. Predhodno naložite stran in lahko nadaljujete s stiskanjem datotek brez internetne povezave.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Prilagodljive nastavitve stiskanja",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Prilagodite stopnjo stiskanja svojim specifičnim potrebam, omogoča prilagoditve med zmanjševanjem velikosti datoteke in vizualno kakovostjo, zagotavlja optimalne rezultate za vsak tip dokumenta.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Kako enostavno stisniti PDF-je:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Naložite svoj PDF v spletno orodje za stiskanje.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Orodje hitro obdela vašo datoteko, zmanjšuje njeno velikost, hkrati pa ohranja kakovost.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Po stiskanju takoj prenesite stisnjeni PDF na svojo napravo.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Preverite kakovost in velikost stisnjenega PDF-ja tako, da ga odprete v svojem izbranem bralniku PDF-jev."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Kako enostavno stisniti PDF-je:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Naložite svoj PDF v spletno orodje za stiskanje.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "Orodje hitro obdela vašo datoteko, zmanjšuje njeno velikost, hkrati pa ohranja kakovost.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Po stiskanju takoj prenesite stisnjeni PDF na svojo napravo.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Preverite kakovost in velikost stisnjenega PDF-ja tako, da ga odprete v svojem izbranem bralniku PDF-jev.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Brez napora izvlecite besedilo iz skeniranih dokumentov z našim orodjem OCR PDF. Hitro, lokalizirano in podpira do 99 jezikov - In ni potrebe po nalaganju vsebine na strežnik.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Hitro in natančno izvlečenje besedila iz PDF-jev",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "Ni potrebna namestitev programske opreme",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Podpira obsežen nabor do 99 jezikov",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Hitra in učinkovita pretvorba OCR PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Spremenite svoje skenirane PDF dokumente v urejen besedilo hitro. Naša tehnologija OCR zagotavlja hitro in natančno prepoznavanje, tudi pri kompleksnih postavitvah in več jezikih.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "Lokalizirana OCR za globalno uporabo",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Naše orodje OCR je zasnovano za razumevanje in natančno pretvorbo besedila iz do 99 jezikov, kar zagotavlja vključenost in dostopnost za uporabnike po vsem svetu.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Varno in zasebno",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Z vso obdelavo, ki se izvaja lokalno v vašem brskalniku, vaši dokumenti nikoli ne zapustijo vaše naprave, kar vam zagotavlja največjo zasebnost in varnost.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Brez prenosov, brez težav",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Naše orodje OCR PDF deluje na spletu, kar pomeni, da ne boste potrebovali prenosa ali namestitve programske opreme. Preprosto naložite svoj dokument in pustite, da naše orodje opravi preostanek.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Enostavna dostopnost",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Dostopno od kjerkoli, kadarkoli, na vseh glavnih brskalnikih in operacijskih sistemih. Ne glede na to, ali uporabljate Windows, Mac, Linux, iOS ali Android, je naše orodje pripravljeno, ko ste vi.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Izjemna natančnost",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Z izkoriščanjem napredne tehnologije OCR naše orodje zagotavlja visokokakovostno in natančno izvlečenje besedila, kar zmanjšuje napake in prihrani čas pri ročnih popravkih.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Kako izvleči besedilo iz PDF-jev na spletu:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Naložite svojo skenirano PDF datoteko v naše orodje OCR.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Izberite glavni jezik vašega dokumenta.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Naše orodje bo obdelalo vaš PDF in natančno ter hitro izvleklo besedilo.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Prenesite OCR PDF na strani rezultatov, da si ogledate kakovost.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Optično prepoznajte besedilo v skeniranem PDF dokumentu, da lahko enostavno izberete in iščete besedilo"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikni Predloge",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "Podpisovanje PDF-jev - Dodajanje digitalnega podpisa PDF datotekam lokalno brezplačno | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Enostavno dodajte digitalne podpise PDF datotekam brezplačno in varno na lokalnih napravah, zagotavljajoč maksimalno zasebnost in varnost. Brez vodnega žiga, omejitve velikosti datoteke, prenosa ali registracije.",
     "pdf_tools__compress_pdf__title": "Stisni PDF - Zmanjšanje velikosti PDF-jev na spletu | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Stisnite PDF datoteke v lokalnem brskalniku, da zagotovite hitro in varno delovanje. Brez vodnega žiga, omejitve velikosti datoteke, prenosa ali registracije."
+    "pdf_tools__compress_pdf__description": "Stisnite PDF datoteke v lokalnem brskalniku, da zagotovite hitro in varno delovanje. Brez vodnega žiga, omejitve velikosti datoteke, prenosa ali registracije.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - Hitro in lokalno prepoznavanje besedila v PDF | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Pretvorite neiskalne dokumente PDF v iskalno in izbirno besedilo v nekaj sekundah. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "Od pomoči pri pisanju in povzetku spletnih strani do ChatPDF in AI slikarstva, MaxAI.me vam omogoča branje, pisanje in ustvarjanje z uporabo najnaprednejših AI modelov, vključno s ChatGPT, Claude in Gemini. Nadgradite svojo izkušnjo brskanja in odklenite svoj potencial za produktivnost z MaxAI.me že danes!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__to_image_detail__select_all": "Izberi vse",
     "components__to_image_detail__deselect_all": "Odstrani izbor",
     "components__to_image_detail__download_images": "Prenesi slike",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Odstrani ta PDF in izberi novega"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Naložite določeno vrsto PDF datoteke",
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Počisti PDF-je",
     "components__pdf_merge__confirm_merge": "Potrdi združevanje",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj PDF datoteko spodaj"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__pdf_split__add_pdf": "Dodaj PDF-je",
     "components__pdf_split__remove_pdf": "Odstrani PDF",
     "components__pdf_split__select_all": "Izberi vse",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "je šifriran ali nenavaden, ni mogoče manipulirati s PDF-jem, preskočeno",
     "components__common__drag__dropping_tip": "Vrstni red lahko prilagodite z vlečenjem in spuščanjem",
     "components__common__upload_button_tips": "ali spustite datoteke sem",
-    "components__common__upload_button_title": "IZBERI DATOTEKE"
+    "components__common__upload_button_title": "IZBERI DATOTEKE",
+    "components__common__upload_button__unsupported_file_type_tip": "Naložite samo določeno vrsto datoteke PDF"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Samo slike vrste slike lahko naložite",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Spodaj"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Naložite določeno vrsto datoteke PDF",
     "components__pdf_to_html__button__download": "Prenesi",
     "components__pdf_to_html__button__convert": "Pretvori drugo"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Nariši",
     "components__sign_pdf__operation_view__type": "Vrsta",
     "components__sign_pdf__operation_view__upload": "Naloži",
-    "components__sign_pdf__unsupported_file_type_tip": "Naložite določeno vrsto PDF datoteke",
     "components__sign_pdf__detail__empty_sign": "Prazen podpis",
     "components__sign_pdf__detail__empty_text": "Prazen tekst",
     "components__sign_pdf__detail__finish": "Končaj in podpiši",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Prenesi",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Domov",
     "components__sign_pdf__icon__sign": "Podpiši",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Vnesite nekaj..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Vnesite nekaj...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Samo slike vrste slike lahko naložite"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Nizka",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Srednja velikost datoteke, standardna ločljivost",
     "components__compress_pdf__main__compress_strong_grade_title": "Močna",
     "components__compress_pdf__main__compress_strong_grade_description": "Majhna velikost datoteke, nižja ločljivost",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Naložite določen tip datoteke PDF",
     "components__compress_pdf__main__compress_download": "Stisni in prenesi",
     "components__compress_pdf__main__choose_another_file": "Izberite drugo datoteko",
     "components__compress_pdf__main__current_pdf_size": "Trenutna velikost PDF-ja",
     "components__compress_pdf__main__original_pdf_size": "izvirna velikost",
     "components__compress_pdf__main__different_pdf_size": "Različno od prej {{DiFF_NUMBER}}% manjše!",
     "components__compress_pdf__main__compress_error": "Stiskanje ni uspelo, preverite, ali je datoteka PDF šifrirana ali nepravilna!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "Vdelava PDF",
+    "components__ocr_pdf__main__upload_error": "Preverite, ali je PDF datoteka šifrirana ali nenavadna!",
+    "components__ocr_pdf__main__choose_another_file": "Izberite drugo datoteko",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Običajna natančnost",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Hitrejši čas pretvorbe",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Visoka natančnost",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Povečuje natančnost in čas pretvorbe",
+    "components__ocr_pdf__main__ocr_loading": "Nalaganje PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR in prenos",
+    "components__ocr_pdf__main__document_scanning_language": "Jezik skeniranja dokumentov"
   }
 }

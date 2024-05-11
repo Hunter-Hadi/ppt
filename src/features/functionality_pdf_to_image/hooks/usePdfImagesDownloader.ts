@@ -6,7 +6,7 @@ import { pdfjs } from 'react-pdf';
 
 import { IFunctionalityPdfToImageType } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { dataURLtoBlob } from '@/features/functionality_common/utils/functionalityCommonDataTool';
-import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -35,7 +35,7 @@ const usePdfImagesDownloader = () => {
         setCurrentDownloaderActionNum(0);
         setDownloaderIsLoading(true);
         const zip = new JSZip();
-        const folderName = functionalityCommonRemoveAndAddFileExtension(
+        const folderName = functionalityCommonFileNameRemoveAndAddExtension(
           'images-' + file?.name || '',
           'pdf',
           '',

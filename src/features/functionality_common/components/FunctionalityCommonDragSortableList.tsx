@@ -90,6 +90,7 @@ const FunctionalityCommonDragSortableList = <T,>({
 
   const handleDragEnd = useCallback(
     (event) => {
+      // 拖拽结束 找到拖拽的元素和目标元素，进行排序
       const { active, over } = event;
       setActiveDragId(null);
       if (over && active.id !== over.id) {

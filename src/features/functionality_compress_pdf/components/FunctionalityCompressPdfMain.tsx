@@ -1,4 +1,4 @@
-import { Box, CircularProgress, Grid, Stack, Typography } from '@mui/material';
+import { Box, CircularProgress, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument, PDFName, PDFNumber, PDFRawStream } from 'pdf-lib';
 import { useMemo, useState } from 'react';
@@ -7,9 +7,10 @@ import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
+import FunctionalityCommonOptionSelector from '@/features/functionality_common/components/FunctionalityCommonOptionSelector';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonRemoveAndAddFileExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 import { compressPdfStreams } from '../utils/compressPdfStreams';
@@ -131,7 +132,9 @@ const FunctionalityCompressPdfMain = () => {
   };
   const onDownload = (blobUrl: Blob) => {
     if (blobUrl && file) {
-      const fileName = functionalityCommonRemoveAndAddFileExtension(file.name);
+      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+        file.name,
+      );
       downloadUrl(blobUrl, fileName, 'application/pdf');
     }
   };
@@ -139,13 +142,6 @@ const FunctionalityCompressPdfMain = () => {
     if (fileList[0]) {
       setFile(fileList[0]);
     }
-  };
-  const handleUnsupportedFileType = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__compress_pdf:components__compress_pdf__main__unsupported_file_type_tip',
-      ),
-    );
   };
   //按钮配置列表
   const compressBeforeButtonConfigs: IButtonConfig[] = useMemo(
@@ -188,33 +184,37 @@ const FunctionalityCompressPdfMain = () => {
   );
 
   //压缩等级列表
-  const compressGradeList = [
+  const compressGradeOptions: {
+    label: string;
+    tips: string;
+    value: 'low' | 'basic' | 'strong';
+  }[] = [
     {
-      title: t(
+      label: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_low_grade_title',
       ),
       tips: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_low_grade_description',
       ),
-      key: 'low',
+      value: 'low',
     },
     {
-      title: t(
+      label: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_basic_grade_title',
       ),
       tips: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_basic_grade_description',
       ),
-      key: 'basic',
+      value: 'basic',
     },
     {
-      title: t(
+      label: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_strong_grade_title',
       ),
       tips: t(
         'functionality__compress_pdf:components__compress_pdf__main__compress_strong_grade_description',
       ),
-      key: 'strong',
+      value: 'strong',
     },
   ];
   return (
@@ -234,7 +234,6 @@ const FunctionalityCompressPdfMain = () => {
             multiple: true,
           }}
           onChange={onUploadFile}
-          handleUnsupportedFileType={handleUnsupportedFileType}
         />
       )}
       {file && (
@@ -253,86 +252,12 @@ const FunctionalityCompressPdfMain = () => {
               width: '100%',
             }}
           >
-            {compressGradeList.map((item, index) => (
-              <Grid container key={index} justifyContent='center'>
-                <Grid item xs={12} lg={8}>
-                  <Stack
-                    direction='row'
-                    alignItems='center'
-                    onClick={() => {
-                      if (!isLoading) {
-                        setCompressionGrade(
-                          item.key as 'low' | 'basic' | 'strong',
-                        );
-                      }
-                    }}
-                    gap={2}
-                    sx={{
-                      padding: 1.5,
-                      cursor: isLoading ? '' : 'pointer',
-                      border: `1px solid ${
-                        item.key === compressionGrade ? '#9065B0' : '#e8e8e8'
-                      }`,
-                      borderRadius: 1,
-                      mt: 1,
-                      '&:hover': {
-                        bgcolor: isLoading ? 'transcript' : '#f4f4f4',
-                      },
-                    }}
-                  >
-                    <Stack
-                      direction='row'
-                      alignItems='center'
-                      justifyContent='center'
-                      sx={{
-                        border: `1px solid ${
-                          item.key === compressionGrade ? '#9065B0' : '#e8e8e8'
-                        }`,
-                        width: 20,
-                        height: 20,
-                        borderRadius: 10,
-                      }}
-                    >
-                      <Box
-                        sx={{
-                          bgcolor:
-                            item.key === compressionGrade
-                              ? '#9065B0'
-                              : 'transcript',
-                          width: 17,
-                          height: 17,
-                          borderRadius: 10,
-                        }}
-                      ></Box>
-                    </Stack>
-                    <Box>
-                      <Box>
-                        <Typography
-                          fontSize={{
-                            xs: 14,
-                            lg: 16,
-                          }}
-                          color='text.primary'
-                        >
-                          {item.title}
-                        </Typography>{' '}
-                      </Box>
-                      <Box>
-                        <Typography
-                          fontSize={{
-                            xs: 12,
-                            lg: 14,
-                          }}
-                          color='text.secondary'
-                        >
-                          {item.tips}
-                        </Typography>
-                      </Box>
-                    </Box>
-                  </Stack>
-                </Grid>
-              </Grid>
-            ))}
+            <FunctionalityCommonOptionSelector
+              disabled={isLoading}
+              list={compressGradeOptions}
+              selectKey={compressionGrade}
+              onSelect={(item) => setCompressionGrade(item.value)}
+            />
           </Box>
           <FunctionalityCommonButtonListView
             buttonConfigs={compressBeforeButtonConfigs}

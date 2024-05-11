@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "U hoeft geen dure software aan te schaffen om PDF-bestanden samen te voegen. De MaxAI.me PDF-tool is gratis online beschikbaar en werkt in een browser zonder upload naar het netwerk om ervoor te zorgen dat uw bestanden en gegevens altijd veilig zijn.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Lokale verwerking",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "Een belangrijke functie van onze service is dat alle PDF-samenvoegingsbewerkingen lokaal worden uitgevoerd. Dit zorgt ervoor dat het volledige verwerkingsproces rechtstreeks op uw apparaat plaatsvindt zonder de noodzaak van cloudgebaseerde wachttijden. Het verbetert de beveiliging en garandeert betrouwbaarheid.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Hoe PDF-bestanden online samenvoegen:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Sleep uw bestanden naar de online Merge PDF-tool.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Herschik individuele pagina's of hele bestanden indien nodig.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Voeg meer bestanden toe, roteer of verwijder pagina's of hele bestanden.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Klik op 'Bevestigen om samen te voegen' om uw PDF samen te voegen en te downloaden.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Hoe PDF-bestanden online samenvoegen:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Sleep uw bestanden naar de online Merge PDF-tool.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Herschik individuele pagina's of hele bestanden indien nodig.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Voeg meer bestanden toe, roteer of verwijder pagina's of hele bestanden.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Klik op 'Bevestigen om samen te voegen' om uw PDF samen te voegen en te downloaden.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Scheid pagina's in PDF eenvoudig online en gratis. Onze PDF-splitter kan worden gebruikt zonder een account aan te maken.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Split uw PDF in afzonderlijke bestanden",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Scheid PDF-inhoud in enkele seconden",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Onze online service kan PDF naar afbeeldingen converteren in elke browser en elk besturingssysteem: Windows, Mac en Linux, evenals iOS en Android. U hoeft geen software te installeren of een account aan te maken.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Werk onderweg",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "Vaak onderweg zonder internettoegang? Onze online service kan werken zonder netwerkverbinding. U hoeft alleen de huidige pagina open te houden.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Hoe PDF naar {{TYPE}} Online te Converteren:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Sleep uw bestand naar de PDF naar {{TYPE}} converter.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Kies 'Volledige pagina's converteren' of 'Enkele afbeeldingen extraheren'.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "We zetten uw PDF binnen enkele seconden om naar {{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Download de geconverteerde bestand(en) op de resultatenpagina.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Hoe PDF naar {{TYPE}} Online te Converteren:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Sleep uw bestand naar de PDF naar {{TYPE}} converter.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Kies 'Volledige pagina's converteren' of 'Enkele afbeeldingen extraheren'.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "We zetten uw PDF binnen enkele seconden om naar {{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Download de geconverteerde bestand(en) op de resultatenpagina.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Converteer afbeeldingen gratis online naar PDF. Onze {{TYPE}} naar PDF Converter verandert elk afbeeldingsbestand in een aangepast PDF-bestand (geen groottebeperkingen, geen watermerken).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Eenvoudig te gebruiken online {{TYPE}} naar PDF converter",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Geen installatie - werkt in uw browser",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Lokale verwerking",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Alle bestanden die u uploadt, worden in uw browser verwerkt voor volledige privacy. Ze worden niet geüpload naar de cloud, wat zorgt voor absolute beveiliging en privacy.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "GeschiedenisEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Hoe {{TYPE}} naar PDF Online te Converteren:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Upload uw afbeelding naar de {{TYPE}} naar PDF converter.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Pas de grootte, oriëntatie en marge aan indien nodig.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klik op 'Maak nu PDF!' en we beginnen met converteren.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Dat is alles! Sla de geconverteerde PDF op uw apparaat op.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Hoe {{TYPE}} naar PDF Online te Converteren:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Upload uw afbeelding naar de {{TYPE}} naar PDF converter.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Pas de grootte, oriëntatie en marge aan indien nodig.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Klik op 'Maak nu PDF!' en we beginnen met converteren.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "Dat is alles! Sla de geconverteerde PDF op uw apparaat op.",
     "pdf_tools__detail_page__more_pdf_tools": "Meer Gratis Online PDF Tools",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF naar HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Converteer een PDF naar HTML met behoud van lay-outstructuur en afbeeldingen",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Onze PDF naar HTML-converter is volledig online toegankelijk, zodat u documenten op elk apparaat kunt converteren, op elk moment, zonder dat u software hoeft te installeren.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Converteren zonder internet",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Met onze tool kunt u de conversie offline starten. U hoeft alleen de pagina te laden voordat u verbinding verbreekt, en de conversie vindt nog steeds plaats zonder internetverbinding.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Hoe u eenvoudig PDF naar HTML kunt converteren:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Upload uw PDF naar de online PDF naar HTML-converter.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Laat de tool het bestand verwerken en converteren naar HTML-formaat.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Zodra de conversie is voltooid, downloadt u uw nieuwe HTML-bestand rechtstreeks.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Open de gedownloade HTML in een willekeurige webbrowser om de resultaten te bekijken.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Hoe u eenvoudig PDF naar HTML kunt converteren:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Upload uw PDF naar de online PDF naar HTML-converter.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "Laat de tool het bestand verwerken en converteren naar HTML-formaat.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "Zodra de conversie is voltooid, downloadt u uw nieuwe HTML-bestand rechtstreeks.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Open de gedownloade HTML in een willekeurige webbrowser om de resultaten te bekijken.",
     "pricing__better_plan__title": "1-klik AI overal, minder tijd, betere resultaten",
     "pricing__compare_plans__title": "Vergelijk plannen",
     "pricing__plan_category__individual__label": "Individuele plannen",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Activeer compressie zelfs wanneer u offline bent. Laad de pagina vooraf en u kunt doorgaan met het comprimeren van bestanden zonder internetverbinding.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Aangepaste Compressie-instellingen",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Pas het compressieniveau aan naar uw specifieke behoeften, waardoor aangepaste aanpassingen mogelijk zijn om een balans te vinden tussen verkleining van bestandsgrootte en visuele kwaliteit, met optimale resultaten voor elk type document.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hoe u eenvoudig PDF's kunt comprimeren:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Upload uw PDF naar de online compressietool.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "De tool verwerkt uw bestand snel, waarbij de grootte wordt verkleind terwijl de kwaliteit behouden blijft.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Download de gecomprimeerde PDF direct naar uw apparaat na compressie.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Controleer de kwaliteit en grootte van de gecomprimeerde PDF door deze te openen in uw favoriete PDF-lezer."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Hoe u eenvoudig PDF's kunt comprimeren:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Upload uw PDF naar de online compressietool.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "De tool verwerkt uw bestand snel, waarbij de grootte wordt verkleind terwijl de kwaliteit behouden blijft.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Download de gecomprimeerde PDF direct naar uw apparaat na compressie.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Controleer de kwaliteit en grootte van de gecomprimeerde PDF door deze te openen in uw favoriete PDF-lezer.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Moeiteloos tekst extraheren uit uw gescande documenten met onze OCR PDF-tool. Snel, lokaal en ondersteunt tot 99 talen - En er is geen noodzaak om inhoud naar de server te uploaden.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Snelle en nauwkeurige tekstextractie uit PDF's",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "Geen software-installatie vereist",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Ondersteunt een uitgebreid scala aan maximaal 99 talen",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Snelle en efficiënte OCR PDF-conversie",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Transformeer uw gescande PDF-documenten snel in bewerkbare tekst. Onze OCR-technologie zorgt voor snelle en nauwkeurige herkenning, zelfs bij complexe lay-outs en meerdere talen.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "Gelokaliseerde OCR voor wereldwijd gebruik",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Onze OCR-tool is ontworpen om tekst van maximaal 99 talen te begrijpen en nauwkeurig om te zetten, waardoor inclusiviteit en toegankelijkheid voor gebruikers over de hele wereld worden gegarandeerd.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Veilig en privé",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Met alle verwerking lokaal in uw browser verlaten uw documenten nooit uw apparaat, waardoor u de hoogste privacy en beveiliging krijgt.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Geen downloads, geen gedoe",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Onze OCR PDF-tool werkt online, wat betekent dat u geen software hoeft te downloaden of te installeren. Upload eenvoudig uw document en laat onze tool de rest doen.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Eenvoudige toegankelijkheid",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Toegankelijk vanaf elke locatie, op elk moment, via alle belangrijke browsers en besturingssystemen. Of u nu Windows, Mac, Linux, iOS of Android gebruikt, onze tool is klaar wanneer u dat bent.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Uitzonderlijke nauwkeurigheid",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Met geavanceerde OCR-technologie levert onze tool tekstextractie van hoge kwaliteit en nauwkeurigheid, waardoor fouten worden geminimaliseerd en tijd wordt bespaard bij handmatige correcties.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Hoe tekst uit PDF's online te extraheren:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Upload uw gescande PDF-bestand naar onze OCR-tool.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Kies de primaire taal van uw document.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Onze tool verwerkt uw PDF en extraheren de tekst nauwkeurig en snel.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Download de OCR PDF op de resultatenpagina om de kwaliteit te bekijken.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR gescand PDF-document, zodat u eenvoudig tekst kunt kopiëren en zoeken"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "PDF-ondertekening - Digitale handtekening toevoegen aan PDF-bestanden lokaal en gratis | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Voeg eenvoudig digitale handtekeningen toe aan PDF-bestanden, gratis en veilig op lokale apparaten, met maximale privacy en beveiliging. Geen watermerk, bestandsgroottebeperking, download of registratie vereist.",
     "pdf_tools__compress_pdf__title": "PDF Comprimeren - Online PDF Groottevermindering | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Comprimeer PDF-bestanden in een lokale browser om snelle en veilige prestaties te garanderen. Geen watermerk, bestandsgroottebeperking, download of registratie vereist."
+    "pdf_tools__compress_pdf__description": "Comprimeer PDF-bestanden in een lokale browser om snelle en veilige prestaties te garanderen. Geen watermerk, bestandsgroottebeperking, download of registratie vereist.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - Snelle en Lokale Tekstherkenning voor Gratis | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Zet niet-doorzoekbare PDF-documenten om in doorzoekbare en selecteerbare tekst in enkele seconden. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "Van schrijfassistentie en websamenvatting tot ChatPDF en AI-schilderen, MaxAI.me stelt je in staat om te lezen, schrijven en creëren met behulp van de meest geavanceerde AI-modellen, waaronder ChatGPT, Claude en Gemini. Upgrade vandaag nog je browse-ervaring en ontgrendel je productiviteitspotentieel met MaxAI.me!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
     "components__to_image_detail__select_all": "Selecteer alles",
     "components__to_image_detail__deselect_all": "Deselecteer alles",
     "components__to_image_detail__download_images": "Download afbeeldingen",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Verwijder deze PDF en selecteer een nieuwe"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
     "components__pdf_merge__add_pdf": "PDF toevoegen",
     "components__pdf_merge__empty_pdf": "PDF's wissen",
     "components__pdf_merge__confirm_merge": "Bevestig samenvoegen",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF-bestand hieronder toevoegen"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Upload het gespecificeerde bestandstype van PDF",
     "components__pdf_split__add_pdf": "PDF's toevoegen",
     "components__pdf_split__remove_pdf": "PDF verwijderen",
     "components__pdf_split__select_all": "Alles selecteren",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "is versleuteld of abnormaal, kan de PDF niet manipuleren, overgeslagen",
     "components__common__drag__dropping_tip": "U kunt de volgorde aanpassen door te slepen en neer te zetten",
     "components__common__upload_button_tips": "of plaats bestanden hier",
-    "components__common__upload_button_title": "KIES BESTANDEN"
+    "components__common__upload_button_title": "KIES BESTANDEN",
+    "components__common__upload_button__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Alleen afbeeldingen van het type afbeelding kunnen worden geüpload",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Onder"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde bestandstype PDF",
     "components__pdf_to_html__button__download": "Downloaden",
     "components__pdf_to_html__button__convert": "Nog een converteren"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Tekenen",
     "components__sign_pdf__operation_view__type": "Type",
     "components__sign_pdf__operation_view__upload": "Uploaden",
-    "components__sign_pdf__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
     "components__sign_pdf__detail__empty_sign": "Lege handtekening",
     "components__sign_pdf__detail__empty_text": "Lege tekst",
     "components__sign_pdf__detail__finish": "Voltooien en ondertekenen",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Downloaden",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signeer PDF Homepage",
     "components__sign_pdf__icon__sign": "Ondertekenen",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Typ iets…"
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Typ iets…",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Alleen afbeeldingen van het type afbeelding kunnen worden geüpload"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Laag",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Gemiddelde bestandsgrootte, standaardresolutie",
     "components__compress_pdf__main__compress_strong_grade_title": "Sterk",
     "components__compress_pdf__main__compress_strong_grade_description": "Kleine bestandsgrootte, lagere resolutie",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Upload alstublieft het gespecificeerde PDF-bestandstype",
     "components__compress_pdf__main__compress_download": "Comprimeren en Downloaden",
     "components__compress_pdf__main__choose_another_file": "Kies een ander bestand",
     "components__compress_pdf__main__current_pdf_size": "Huidige PDF-grootte",
     "components__compress_pdf__main__original_pdf_size": "oorspronkelijke grootte",
     "components__compress_pdf__main__different_pdf_size": "Anders dan voorheen {{DiFF_NUMBER}}% kleiner!",
     "components__compress_pdf__main__compress_error": "Compressie mislukt, controleer of het PDF-bestand versleuteld of abnormaal is!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "PDF insluiten",
+    "components__ocr_pdf__main__upload_error": "Controleer of het PDF-bestand is versleuteld of abnormaal is!",
+    "components__ocr_pdf__main__choose_another_file": "Kies een ander bestand",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Normale nauwkeurigheid",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Snellere conversietijd",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Hoge nauwkeurigheid",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Verhoogt de nauwkeurigheid en conversietijd",
+    "components__ocr_pdf__main__ocr_loading": "PDF Laden",
+    "components__ocr_pdf__main__ocr_and_download": "OCR en Downloaden",
+    "components__ocr_pdf__main__document_scanning_language": "Taal voor het scannen van documenten"
   }
 }

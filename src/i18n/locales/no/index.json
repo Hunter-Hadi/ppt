@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "Du trenger ikke å kjøpe dyre programvare for å kombinere PDF-filer. MaxAI.me PDF-verktøyet er tilgjengelig gratis for bruk online, og kjører i en nettleser uten opplasting til nettverket for å sikre at filene og dataene dine alltid er trygge.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Lokal prosessering",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "En nøkkelfunksjon i tjenesten vår er at alle PDF-sammenslåingsoperasjoner utføres lokalt. Dette sikrer at hele prosesseringsprosedyren skjer direkte på enheten din uten behov for ventetid i skyen. Det forbedrer sikkerheten og garanterer pålitelighet.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Slik slår du sammen PDF-filer online:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Dra og slipp filene dine i det nettbaserte Merge PDF-verktøyet.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Omorganiser enkeltsider eller hele filer etter behov.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Legg til flere filer, roter eller slett sider eller hele filer.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Klikk på \"Bekreft for å slå sammen\" for å kombinere og laste ned PDF-en din.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Slik slår du sammen PDF-filer online:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Dra og slipp filene dine i det nettbaserte Merge PDF-verktøyet.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Omorganiser enkeltsider eller hele filer etter behov.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Legg til flere filer, roter eller slett sider eller hele filer.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Klikk på \"Bekreft for å slå sammen\" for å kombinere og laste ned PDF-en din.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Del opp sider i PDF enkelt online gratis. Vår PDF-deler kan brukes uten å opprette en konto.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Del opp PDF-en din i separate filer",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Del opp PDF-innhold på sekunder",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Vår nettbaserte tjeneste kan konvertere PDF til bilder i hvilken som helst nettleser og operativsystem: Windows, Mac og Linux, samt iOS og Android. Du trenger ikke å installere noen programvare eller opprette en konto.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Arbeid på farten",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "Er du ofte på veien uten internettilgang? Vår nettbaserte tjeneste kan fungere uten nettverkstilkobling. Du trenger bare å ha den gjeldende siden åpen.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Slik konverterer du PDF til {{TYPE}} på nettet:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Dra og slipp filen din i PDF-til-{{TYPE}}-konverteren.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Velg \"Konverter hele sider\" eller \"Hent ut enkeltbilder\".",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "Vi konverterer PDF-en din til {{TYPE}} på noen få sekunder.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Last ned den konverterte filen(e) på resultatsiden.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Slik konverterer du PDF til {{TYPE}} på nettet:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Dra og slipp filen din i PDF-til-{{TYPE}}-konverteren.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Velg \"Konverter hele sider\" eller \"Hent ut enkeltbilder\".",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "Vi konverterer PDF-en din til {{TYPE}} på noen få sekunder.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Last ned den konverterte filen(e) på resultatsiden.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Konverter bilder til PDF gratis på nettet. Vår {{TYPE}} til PDF-konverterer gjør om hvilken som helst bildefil til en tilpasset PDF-fil (ingen størrelsesbegrensninger, ingen vannmerker).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Enkel å bruke nettbasert {{TYPE}} til PDF-konverterer",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Ingen installasjon – fungerer i nettleseren din",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Lokal prosessering",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Alle filene du laster opp, blir behandlet i nettleseren din for fullstendig personvern. De blir ikke lastet opp til skyen, noe som sikrer absolutt sikkerhet og personvern.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Slik konverterer du {{TYPE}} til PDF på nettet:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Last opp bildet ditt til {{TYPE}} til PDF-konvertereren.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Juster størrelsen, orienteringen og margen etter behov.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Klikk \"Opprett PDF nå!\" og vi starter konverteringen.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Det er alt! Lagre den konverterte PDF-en på enheten din.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Slik konverterer du {{TYPE}} til PDF på nettet:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Last opp bildet ditt til {{TYPE}} til PDF-konvertereren.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Juster størrelsen, orienteringen og margen etter behov.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Klikk \"Opprett PDF nå!\" og vi starter konverteringen.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "Det er alt! Lagre den konverterte PDF-en på enheten din.",
     "pdf_tools__detail_page__more_pdf_tools": "Flere gratis nettbaserte PDF-verktøy",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF til HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Konverter en PDF til HTML samtidig som du beholder layoutstruktur og bilder",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Vår PDF til HTML-konverter er fullt tilgjengelig online, slik at du kan konvertere dokumenter på hvilken som helst enhet, når som helst, uten å måtte installere noen programvare.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Konverter uten internett",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Med vårt verktøy kan du starte konverteringen offline. Alt du trenger å gjøre er å laste inn siden før du kobler fra, og konverteringen vil likevel finne sted uten en internettilkobling.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Hvordan enkelt konvertere PDF til HTML:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Last opp PDF-en din til den online PDF til HTML-konverteren.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "La verktøyet behandle filen og konvertere den til HTML-format.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Når konverteringen er fullført, last ned den nye HTML-filen direkte.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Åpne den nedlastede HTML-en i hvilken som helst nettleser for å se gjennom resultatene.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Hvordan enkelt konvertere PDF til HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Last opp PDF-en din til den online PDF til HTML-konverteren.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "La verktøyet behandle filen og konvertere den til HTML-format.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "Når konverteringen er fullført, last ned den nye HTML-filen direkte.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Åpne den nedlastede HTML-en i hvilken som helst nettleser for å se gjennom resultatene.",
     "pricing__better_plan__title": "1-klikk AI hvor som helst, mindre tid, bedre resultater",
     "pricing__compare_plans__title": "Sammenlign planer",
     "pricing__plan_category__individual__label": "Individuelle planer",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Aktiver komprimering selv når du er offline. Last inn siden på forhånd, og du kan fortsette med filkomprimering uten å trenge en internettilkobling.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Tilpassede komprimeringsinnstillinger",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Tilpass komprimeringsnivået etter dine spesifikke behov, slik at du kan justere mellom reduksjon av filstørrelse og visuell kvalitet, og sikre optimale resultater for alle typer dokumenter.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Hvordan enkelt komprimere PDF-er:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Last opp PDF-en din til det online komprimeringsverktøyet.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Verktøyet behandler raskt filen din, reduserer størrelsen mens den opprettholder kvaliteten.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Last ned den komprimerte PDF-en til enheten din umiddelbart etter komprimering.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Sjekk kvaliteten og størrelsen på den komprimerte PDF-en ved å åpne den i foretrukket PDF-leser."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Hvordan enkelt komprimere PDF-er:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Last opp PDF-en din til det online komprimeringsverktøyet.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "Verktøyet behandler raskt filen din, reduserer størrelsen mens den opprettholder kvaliteten.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Last ned den komprimerte PDF-en til enheten din umiddelbart etter komprimering.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Sjekk kvaliteten og størrelsen på den komprimerte PDF-en ved å åpne den i foretrukket PDF-leser.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Ekstraher tekst fra skannede dokumenter med letthet ved hjelp av vår OCR PDF-verktøy. Rask, lokalisert og støtter opptil 99 språk - Og det er ikke nødvendig å laste opp innhold til serveren.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Rask og nøyaktig tekstutvinning fra PDF-er",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "Ingen programvareinstallasjon kreves",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Støtter et bredt spekter av opptil 99 språk",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Rask og effektiv OCR PDF-konvertering",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Gjør dine skannede PDF-dokumenter om til redigerbar tekst raskt. Vår OCR-teknologi sikrer rask og nøyaktig gjenkjennelse, selv med komplekse oppsett og flere språk.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "Lokalisert OCR for global bruk",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Vårt OCR-verktøy er designet for å forstå og nøyaktig konvertere tekst fra opptil 99 språk, og sikrer inkludering og tilgjengelighet for brukere over hele verden.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Sikkert og privat",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Med all behandling gjort lokalt i nettleseren din, forlater aldri dokumentene dine enheten din, og gir deg maksimal personvern og sikkerhet.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Ingen nedlastinger, ingen problemer",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Vårt OCR PDF-verktøy fungerer online, noe som betyr at du ikke trenger å laste ned eller installere noen programvare. Bare last opp dokumentet ditt, og la verktøyet vårt gjøre resten.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Enkel tilgjengelighet",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Tilgjengelig fra hvor som helst, når som helst, på alle større nettlesere og operativsystemer. Enten du bruker Windows, Mac, Linux, iOS eller Android, er verktøyet vårt klart når du er klar.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Eksepsjonell nøyaktighet",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Ved hjelp av avansert OCR-teknologi leverer verktøyet vårt høykvalitets og nøyaktig tekstutvinning, og minimerer feil og sparer tid på manuelle korrigeringer.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Hvordan ekstrahere tekst fra PDF-er online:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Last opp den skannede PDF-filen til vårt OCR-verktøy.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Velg hovedspråket i dokumentet ditt.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Verktøyet vårt vil behandle PDF-en din, og ekstrahere teksten nøyaktig og raskt.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Last ned OCR PDF-en på resultatsiden for å se kvaliteten.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-skannet PDF-dokument, slik at du enkelt kan velge å kopiere og søke etter tekst"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klikk Prompts",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "Signering av PDF - Legge til digital signatur i PDF-filer lokalt gratis | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Legg enkelt til digitale signaturer i PDF-filer gratis og sikkert på lokale enheter, og sikre maksimal personvern og sikkerhet. Ingen vannmerke, filstørrelsesbegrensning, nedlasting eller registrering er nødvendig.",
     "pdf_tools__compress_pdf__title": "Komprimer PDF – Online reduksjon av PDF-størrelse | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Komprimer PDF-filer i en lokal nettleser for å sikre rask og sikker ytelse. Ingen vannmerke, filstørrelsesgrense, nedlasting eller registrering kreves."
+    "pdf_tools__compress_pdf__description": "Komprimer PDF-filer i en lokal nettleser for å sikre rask og sikker ytelse. Ingen vannmerke, filstørrelsesgrense, nedlasting eller registrering kreves.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - Rask og lokal tekstgjenkjenning for gratis | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Konverter ikke-søkbare PDF-dokumenter til søkbart og valgbart tekst på sekunder. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "Fra skrivehjelp og oppsummering av nettsider til ChatPDF og AI-maling, gir MaxAI.me deg muligheten til å lese, skrive og skape med hjelp av de mest avanserte AI-modellene, inkludert ChatGPT, Claude og Gemini. Oppgrader leseopplevelsen din og lås opp ditt produktivitetspotensial med MaxAI.me i dag!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__to_image_detail__select_all": "Velg alle",
     "components__to_image_detail__deselect_all": "Opphev valg for alle",
     "components__to_image_detail__download_images": "Last ned bilder",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Fjern denne PDF-en og velg en ny"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__pdf_merge__add_pdf": "Legg til PDF",
     "components__pdf_merge__empty_pdf": "Tøm PDF-er",
     "components__pdf_merge__confirm_merge": "Bekreft å slå sammen",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Legg til PDF-fil nedenfor"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__pdf_split__add_pdf": "Legg til PDF-er",
     "components__pdf_split__remove_pdf": "Fjern PDF",
     "components__pdf_split__select_all": "Velg alle",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "er kryptert eller unormal, kan ikke manipulere PDF-en, hoppet over",
     "components__common__drag__dropping_tip": "Du kan justere rekkefølgen ved å dra og slippe",
     "components__common__upload_button_tips": "eller slipp filer her",
-    "components__common__upload_button_title": "VELG FILER"
+    "components__common__upload_button_title": "VELG FILER",
+    "components__common__upload_button__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Bunn"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Vennligst last opp den angitte filtypen for PDF",
     "components__pdf_to_html__button__download": "Last ned",
     "components__pdf_to_html__button__convert": "Konverter en annen"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Tegn",
     "components__sign_pdf__operation_view__type": "Type",
     "components__sign_pdf__operation_view__upload": "Last opp",
-    "components__sign_pdf__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__sign_pdf__detail__empty_sign": "Tom Signatur",
     "components__sign_pdf__detail__empty_text": "Tom Tekst",
     "components__sign_pdf__detail__finish": "Fullfør og signér",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Last ned",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Signer PDF Hjemmeside",
     "components__sign_pdf__icon__sign": "Signer",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv noe…"
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Skriv noe…",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Lav",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Medium filstørrelse, standard oppløsning",
     "components__compress_pdf__main__compress_strong_grade_title": "Sterk",
     "components__compress_pdf__main__compress_strong_grade_description": "Liten filstørrelse, lav oppløsning",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
     "components__compress_pdf__main__compress_download": "Komprimer og Last ned",
     "components__compress_pdf__main__choose_another_file": "Velg en annen fil",
     "components__compress_pdf__main__current_pdf_size": "Gjeldende PDF-størrelse",
     "components__compress_pdf__main__original_pdf_size": "opprinnelig størrelse",
     "components__compress_pdf__main__different_pdf_size": "Annerledes enn før {{DiFF_NUMBER}}% mindre!",
     "components__compress_pdf__main__compress_error": "Komprimering mislyktes, vennligst sjekk om PDF-filen er kryptert eller unormal!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "PDF Innbygging",
+    "components__ocr_pdf__main__upload_error": "Vennligst sjekk om PDF-filen er kryptert eller unormal!",
+    "components__ocr_pdf__main__choose_another_file": "Velg en annen fil",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Normal nøyaktighet",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Raskere konverteringstid",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Høy nøyaktighet",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Øker nøyaktigheten og konverteringstiden",
+    "components__ocr_pdf__main__ocr_loading": "PDF Lasting",
+    "components__ocr_pdf__main__ocr_and_download": "OCR og Nedlasting",
+    "components__ocr_pdf__main__document_scanning_language": "Språk for skanning av dokumenter"
   }
 }

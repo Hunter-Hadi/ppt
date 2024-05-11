@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "Nu aveți nevoie să achiziționați software scump pentru a combina fișiere PDF. Instrumentul PDF MaxAI.me este disponibil gratuit pentru utilizare online, rulând într-un browser fără încărcare în rețea pentru a vă asigura că fișierele și datele dvs. sunt întotdeauna în siguranță.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Procesare locală",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "O caracteristică cheie a serviciului nostru este că toate operațiunile de combinare a PDF-urilor sunt efectuate local. Acest lucru asigură că întregul proces de procesare are loc direct pe dispozitivul dvs., fără a fi nevoie de așteptări bazate pe cloud. Îmbunătățește securitatea și garantează fiabilitatea.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Cum să combinați fișiere PDF online:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Trageți și plasați fișierele în instrumentul online Merge PDF.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Rearanjați pagini individuale sau fișiere întregi după cum este necesar.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Adăugați mai multe fișiere, rotiți sau ștergeți pagini sau fișiere întregi.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Faceți clic pe „Confirmare pentru combinare” pentru a combina și descărca PDF-ul dvs.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Cum să combinați fișiere PDF online:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Trageți și plasați fișierele în instrumentul online Merge PDF.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Rearanjați pagini individuale sau fișiere întregi după cum este necesar.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Adăugați mai multe fișiere, rotiți sau ștergeți pagini sau fișiere întregi.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Faceți clic pe „Confirmare pentru combinare” pentru a combina și descărca PDF-ul dvs.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Separați paginile în PDF ușor online gratuit. Divizorul nostru de PDF-uri poate fi utilizat fără a crea un cont.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Separați PDF-ul în fișiere separate",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Separați conținutul PDF-ului în câteva secunde",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Serviciul nostru online poate converti PDF-ul în imagini în orice browser și sistem de operare: Windows, Mac și Linux, precum și iOS și Android. Nu trebuie să instalați niciun software sau să creați un cont.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Lucrați în mișcare",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "Adesea în călătorii fără acces la internet? Serviciul nostru online poate funcționa fără o conexiune la rețea. trebuie doar să păstrați pagina curentă deschisă.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Cum să convertiți PDF-ul în {{TYPE}} online:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Trageți și plasați fișierul în convertorul PDF în {{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Alegeți „Conversie întreaga pagină” sau „Extragere imagini separate”.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "Vom converti PDF-ul dvs. în {{TYPE}} în câteva secunde.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Descărcați fișierul (sau fișierele) convertit(e) de pe pagina rezultatelor.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Cum să convertiți PDF-ul în {{TYPE}} online:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Trageți și plasați fișierul în convertorul PDF în {{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Alegeți „Conversie întreaga pagină” sau „Extragere imagini separate”.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "Vom converti PDF-ul dvs. în {{TYPE}} în câteva secunde.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Descărcați fișierul (sau fișierele) convertit(e) de pe pagina rezultatelor.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Convertiți imagini în PDF gratuit online. Convertorul nostru {{TYPE}} în PDF transformă orice fișier imagine într-un fișier PDF personalizat (fără limite de dimensiune, fără filigrane).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Convertor online {{TYPE}} în PDF ușor de utilizat",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Fără instalare - funcționează în browserul dvs.",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Procesare locală",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Toate fișierele pe care le încărcați sunt procesate în browserul dvs. pentru confidențialitate completă. Ele nu sunt încărcate în cloud, asigurând securitatea și confidențialitatea absolute.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoryEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Cum să convertiți {{TYPE}} în PDF online:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Încărcați imaginea în convertorul {{TYPE}} în PDF.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Ajustați dimensiunea, orientarea și marginile după nevoie.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Dați clic pe „Creați PDF acum!” și vom începe conversia.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "Atât! Salvați PDF-ul convertit pe dispozitivul dvs.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Cum să convertiți {{TYPE}} în PDF online:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Încărcați imaginea în convertorul {{TYPE}} în PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Ajustați dimensiunea, orientarea și marginile după nevoie.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Dați clic pe „Creați PDF acum!” și vom începe conversia.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "Atât! Salvați PDF-ul convertit pe dispozitivul dvs.",
     "pdf_tools__detail_page__more_pdf_tools": "Mai multe instrumente gratuite online pentru PDF",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF în HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Convertește un PDF în HTML păstrând structura de aspect și imaginile",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Conversorul nostru de la PDF la HTML este complet accesibil online, astfel încât poți converti documente de pe orice dispozitiv, în orice moment, fără a fi nevoie să instalezi vreun software.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Conversie fără internet",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Cu instrumentul nostru, poți iniția conversia offline. Tot ce trebuie să faci este să încarci pagina înainte de a te deconecta, iar conversia va avea loc fără o conexiune la internet.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Cum să convertești ușor PDF-ul în HTML:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Încarcă PDF-ul tău în convertorul online de la PDF la HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Permite instrumentului să proceseze fișierul și să-l convertească în format HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "După ce conversia este completă, descarcă noul fișier HTML direct.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Deschide fișierul HTML descărcat în orice browser web pentru a verifica rezultatele.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Cum să convertești ușor PDF-ul în HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Încarcă PDF-ul tău în convertorul online de la PDF la HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "Permite instrumentului să proceseze fișierul și să-l convertească în format HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "După ce conversia este completă, descarcă noul fișier HTML direct.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Deschide fișierul HTML descărcat în orice browser web pentru a verifica rezultatele.",
     "pricing__better_plan__title": "1-click AI oriunde, mai puțin timp, rezultate mai bune",
     "pricing__compare_plans__title": "Compară planurile",
     "pricing__plan_category__individual__label": "Planuri individuale",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Permiteți comprimarea chiar și atunci când sunteți offline. Încărcați pagina în prealabil și puteți continua cu comprimarea fișierelor fără a avea nevoie de o conexiune la internet.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Setări personalizate de comprimare",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Personalizați nivelul de comprimare în funcție de nevoile dvs. specifice, permițând ajustări personalizate pentru a echilibra reducerea dimensiunii fișierului și calitatea vizuală, asigurând rezultate optime pentru fiecare tip de document.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Cum să comprimați ușor PDF-urile:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Încărcați PDF-ul în instrumentul de compresie online.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Instrumentul procesează rapid fișierul, reducându-i dimensiunea păstrând totodată calitatea.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Descărcați PDF-ul comprimat pe dispozitivul dvs. imediat după comprimare.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Verificați calitatea și dimensiunea PDF-ului comprimat deschizându-l în cititorul dvs. preferat de PDF-uri."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Cum să comprimați ușor PDF-urile:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Încărcați PDF-ul în instrumentul de compresie online.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "Instrumentul procesează rapid fișierul, reducându-i dimensiunea păstrând totodată calitatea.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Descărcați PDF-ul comprimat pe dispozitivul dvs. imediat după comprimare.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Verificați calitatea și dimensiunea PDF-ului comprimat deschizându-l în cititorul dvs. preferat de PDF-uri.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Extrageți cu ușurință textul din documentele scanate cu ajutorul instrumentului nostru OCR PDF. Rapid, localizat și suportă până la 99 de limbi - Și nu este nevoie să încărcați conținutul pe server.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Extragere rapidă și precisă a textului din fișierele PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "Nu este necesară instalarea de software",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Suportă o gamă extinsă de până la 99 de limbi",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Conversie OCR PDF rapidă și eficientă",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Transformați rapid documentele PDF scanate în text editabil. Tehnologia noastră OCR asigură o recunoaștere rapidă și precisă, chiar și cu aspecte complexe și mai multe limbi.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "OCR localizat pentru utilizare globală",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Instrumentul nostru OCR este conceput pentru a înțelege și converti cu precizie textul din până la 99 de limbi, asigurând incluziunea și accesibilitatea pentru utilizatorii din întreaga lume.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Sigur și privat",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Cu toate procesările efectuate local în browserul dvs., documentele dvs. nu părăsesc niciodată dispozitivul, oferindu-vă cea mai mare confidențialitate și securitate.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Fără descărcări, fără complicații",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Instrumentul nostru OCR PDF funcționează online, ceea ce înseamnă că nu va trebui să descărcați sau să instalați niciun software. Încărcați pur și simplu documentul și lăsați instrumentul nostru să facă restul.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Accesibilitate fără efort",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Accesibil de oriunde, oricând, pe toate browserele majore și sistemele de operare. Indiferent dacă utilizați Windows, Mac, Linux, iOS sau Android, instrumentul nostru este pregătit când sunteți dumneavoastră.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Precizie excepțională",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Beneficiind de tehnologia avansată OCR, instrumentul nostru oferă o extragere precisă a textului de înaltă calitate, minimizând erorile și economisind timp pentru corecții manuale.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Cum să extrageți text din fișierele PDF online:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Încărcați fișierul PDF scanat în instrumentul nostru OCR.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Alegeți limba principală a documentului dumneavoastră.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Instrumentul nostru va procesa PDF-ul dumneavoastră, extrăgând textul cu precizie și rapiditate.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Descărcați OCR PDF-ul de pe pagina rezultatelor pentru a vizualiza calitatea.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR document PDF scanat, astfel încât să puteți alege ușor să copiați și să căutați textul"
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts cu un singur clic",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "Semnarea PDF-urilor - Adăugarea unei semnături digitale la fișierele PDF local, gratuit | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Adaugă cu ușurință semnături digitale la fișierele PDF gratuit și în siguranță pe dispozitive locale, asigurând confidențialitatea și securitatea maximă. Fără filigran, limită de dimensiune a fișierului, descărcare sau înregistrare necesară.",
     "pdf_tools__compress_pdf__title": "Comprimare PDF - Reducere dimensiune PDF online | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Comprimați fișierele PDF într-un browser local pentru a asigura performanță rapidă și sigură. Fără filigran, limită de dimensiune a fișierului, descărcare sau înregistrare necesară."
+    "pdf_tools__compress_pdf__description": "Comprimați fișierele PDF într-un browser local pentru a asigura performanță rapidă și sigură. Fără filigran, limită de dimensiune a fișierului, descărcare sau înregistrare necesară.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - Recunoaștere text PDF rapidă și locală gratuită | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Convertește documente PDF care nu pot fi căutate în text căutabil și selectabil în câteva secunde. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "De la asistență în scris și rezumarea paginilor web până la ChatPDF și pictură AI, MaxAI.me îți oferă puterea de a citi, scrie și crea cu ajutorul celor mai avansate modele AI, inclusiv ChatGPT, Claude și Gemini. Upgradează-ți experiența de navigare și deblochează-ți potențialul de productivitate cu MaxAI.me astăzi!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__to_image_detail__select_all": "Selectează tot",
     "components__to_image_detail__deselect_all": "Deselectează tot",
     "components__to_image_detail__download_images": "Descarcă imagini",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Eliminați acest PDF și selectați unul nou"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__pdf_merge__add_pdf": "Adăugați PDF",
     "components__pdf_merge__empty_pdf": "Goliți PDF-urile",
     "components__pdf_merge__confirm_merge": "Confirmați fuzionarea",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Adăugați fișierul PDF mai jos"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__pdf_split__add_pdf": "Adăugați PDF-uri",
     "components__pdf_split__remove_pdf": "Eliminați PDF",
     "components__pdf_split__select_all": "Selectați tot",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "este criptat sau anormal, nu se poate manipula PDF-ul, s-a trecut peste",
     "components__common__drag__dropping_tip": "Puteți ajusta ordinea prin tragere și fixare",
     "components__common__upload_button_tips": "sau lăsați fișierele aici",
-    "components__common__upload_button_title": "ALEGEȚI FIȘIERELE"
+    "components__common__upload_button_title": "ALEGEȚI FIȘIERELE",
+    "components__common__upload_button__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Pot fi încărcate doar imagini de tip imagine",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Jos"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Vă rugăm să încărcați tipul specificat de fișier PDF",
     "components__pdf_to_html__button__download": "Descarcă",
     "components__pdf_to_html__button__convert": "Convertește altul"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Desenează",
     "components__sign_pdf__operation_view__type": "Tip",
     "components__sign_pdf__operation_view__upload": "Încarcă",
-    "components__sign_pdf__unsupported_file_type_tip": "Te rugăm să încarci tipul specificat de fișier PDF",
     "components__sign_pdf__detail__empty_sign": "Semnătură goală",
     "components__sign_pdf__detail__empty_text": "Text gol",
     "components__sign_pdf__detail__finish": "Finalizează și semnează",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Descărcare",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Pagina principală Semnare PDF",
     "components__sign_pdf__icon__sign": "Semnează",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Tastează ceva..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Tastează ceva...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Doar imagini de tip imagine pot fi încărcate"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Scăzut",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Dimensiune medie a fișierului, rezoluție standard",
     "components__compress_pdf__main__compress_strong_grade_title": "Puternic",
     "components__compress_pdf__main__compress_strong_grade_description": "Dimensiune mică a fișierului, rezoluție mai mică",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
     "components__compress_pdf__main__compress_download": "Comprimare și Descărcare",
     "components__compress_pdf__main__choose_another_file": "Alegeți alt fișier",
     "components__compress_pdf__main__current_pdf_size": "Dimensiunea actuală a PDF-ului",
     "components__compress_pdf__main__original_pdf_size": "dimensiune originală",
     "components__compress_pdf__main__different_pdf_size": "Diferit față de anterior {{DiFF_NUMBER}}% mai mic!",
     "components__compress_pdf__main__compress_error": "Comprimarea a eșuat, vă rugăm să verificați dacă fișierul PDF este criptat sau anormal!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "Includere PDF",
+    "components__ocr_pdf__main__upload_error": "Vă rugăm să verificați dacă fișierul PDF este criptat sau are probleme!",
+    "components__ocr_pdf__main__choose_another_file": "Alegeți alt fișier",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Precizie normală",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Timp de conversie mai rapid",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Precizie ridicată",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Crește precizia și timpul de conversie",
+    "components__ocr_pdf__main__ocr_loading": "Încărcare PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR și Descărcare",
+    "components__ocr_pdf__main__document_scanning_language": "Limba scanării documentului"
   }
 }

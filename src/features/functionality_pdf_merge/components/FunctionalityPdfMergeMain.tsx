@@ -3,7 +3,7 @@ import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
@@ -42,13 +42,6 @@ const FunctionalityPdfMergeMain = () => {
     const newFileList = await getPdfFileInfoList(fileList);
     setPdfInfoList((list) => [...list, ...newFileList]);
     setIsLoading(false);
-  };
-  const handleUnsupportedFileTypeTip = () => {
-    functionalityCommonSnackNotifications(
-      t(
-        'functionality__pdf_merge:components__pdf_merge__unsupported_file_type_tip',
-      ),
-    );
   };
   /**
    * 获取pdf的第一页作为图片
@@ -186,7 +179,6 @@ const FunctionalityPdfMergeMain = () => {
             accept: 'application/pdf',
             multiple: true,
           },
-          handleUnsupportedFileType: handleUnsupportedFileTypeTip,
           children: t(
             'functionality__pdf_merge:components__pdf_merge__add_pdf',
           ),
@@ -210,16 +202,19 @@ const FunctionalityPdfMergeMain = () => {
     ],
     [isLoading, t],
   );
-  const BoxViewWrap = (props) => (
-    <Box
-      sx={{
-        width: '100%',
-        position: 'relative',
-        minHeight: 200,
-      }}
-    >
-      {props.children}
-    </Box>
+  const BoxViewWrap = useCallback(
+    (props) => (
+      <Box
+        sx={{
+          width: '100%',
+          position: 'relative',
+          minHeight: 200,
+        }}
+      >
+        {props.children}
+      </Box>
+    ),
+    [],
   );
   return (
     <Stack
@@ -241,7 +236,6 @@ const FunctionalityPdfMergeMain = () => {
             multiple: true,
           }}
           onChange={onUploadFile}
-          handleUnsupportedFileType={handleUnsupportedFileTypeTip}
         />
       )}
       {!isListEmpty && (

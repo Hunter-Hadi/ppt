@@ -1,4 +1,5 @@
-export const functionalityCommonRemoveAndAddFileExtension = (
+//给文件名添加后缀，以及添加提示
+export const functionalityCommonFileNameRemoveAndAddExtension = (
   fileName: string,
   extensionType: string = 'pdf',
   addExtensionType?: string,

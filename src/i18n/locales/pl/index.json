@@ -398,11 +398,11 @@
     "pdf_tools__detail_description_object__merge_pdf__middle_5_description": "Nie musisz kupować drogiego oprogramowania do łączenia plików PDF. Narzędzie PDF MaxAI.me jest dostępne za darmo online, działa w przeglądarce bez wysyłania do sieci, aby zapewnić ciągłe bezpieczeństwo Twoich plików i danych.",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_title": "Lokalne przetwarzanie",
     "pdf_tools__detail_description_object__merge_pdf__middle_6_description": "Kluczową cechą naszej usługi jest to, że wszystkie operacje scalania PDF są wykonywane lokalnie. Zapewnia to, że cała procedura przetwarzania odbywa się bezpośrednio na Twoim urządzeniu, bez konieczności oczekiwania w chmurze. Zwiększa to bezpieczeństwo i gwarantuje niezawodność.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_title": "Jak połączyć pliki PDF online:",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_1": "Przeciągnij i upuść swoje pliki do narzędzia Merge PDF online.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_2": "Zmień kolejność poszczególnych stron lub całych plików według potrzeb.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_3": "Dodaj więcej plików, obróć lub usuń strony lub całe pliki.",
-    "pdf_tools__detail_description_object__merge_pdf__bottom_rightDescription_description_4": "Kliknij „Potwierdź scalanie”, aby połączyć i pobrać swoje pliki PDF.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_title": "Jak połączyć pliki PDF online:",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_1": "Przeciągnij i upuść swoje pliki do narzędzia Merge PDF online.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_2": "Zmień kolejność poszczególnych stron lub całych plików według potrzeb.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_3": "Dodaj więcej plików, obróć lub usuń strony lub całe pliki.",
+    "pdf_tools__detail_description_object__merge_pdf__bottom_right_description_4": "Kliknij „Potwierdź scalanie”, aby połączyć i pobrać swoje pliki PDF.",
     "pdf_tools__detail_description_object__split_pdf__top_left": "Łatwe oddzielanie stron w pliku PDF online za darmo. Nasz podziałnik PDF może być używany bez tworzenia konta.",
     "pdf_tools__detail_description_object__split_pdf__top_right_1": "Podziel swoje plik PDF na osobne pliki",
     "pdf_tools__detail_description_object__split_pdf__top_right_2": "Oddziel zawartość PDF w kilka sekund",
@@ -440,11 +440,11 @@
     "pdf_tools__detail_description_object__pdf_to_image__middle_5_description": "Nasza usługa online może zamieniać PDF na obrazy w dowolnej przeglądarce i systemie operacyjnym: Windows, Mac oraz Linux, a także iOS i Android. Nie musisz instalować żadnego oprogramowania ani zakładać konta.",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_title": "Pracuj w podróży",
     "pdf_tools__detail_description_object__pdf_to_image__middle_6_description": "Często jesteś w drodze bez dostępu do Internetu? Nasza usługa online działa bez połączenia sieciowego. Wystarczy, że będziesz mieć otwartą aktualną stronę.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_title": "Jak przekonwertować PDF na {{TYPE}} online:",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_1": "Przeciągnij i upuść swój plik w konwerterze PDF na {{TYPE}}.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_2": "Wybierz „Konwertuj całe strony” lub „Wyodrębnij pojedyncze obrazy”.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_3": "Przekonwertujemy Twój plik PDF na {{TYPE}} w kilka sekund.",
-    "pdf_tools__detail_description_object__pdf_to_image__bottom_rightDescription_description_4": "Pobierz przekonwertowane pliki na stronie wyników.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_title": "Jak przekonwertować PDF na {{TYPE}} online:",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_1": "Przeciągnij i upuść swój plik w konwerterze PDF na {{TYPE}}.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_2": "Wybierz „Konwertuj całe strony” lub „Wyodrębnij pojedyncze obrazy”.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_3": "Przekonwertujemy Twój plik PDF na {{TYPE}} w kilka sekund.",
+    "pdf_tools__detail_description_object__pdf_to_image__bottom_right_description_4": "Pobierz przekonwertowane pliki na stronie wyników.",
     "pdf_tools__detail_description_object__image_to_pdf__top_left": "Darmowa konwersja obrazów na PDF online. Nasz konwerter {{TYPE}} na PDF zamienia dowolny plik obrazu w niestandardowy plik PDF (bez ograniczeń rozmiaru, bez znaków wodnych).",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_1": "Łatwy w użyciu konwerter {{TYPE}} na PDF online",
     "pdf_tools__detail_description_object__image_to_pdf__top_right_2": "Bez instalacji - działa w Twojej przeglądarce",
@@ -462,11 +462,11 @@
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_title": "Lokalne przetwarzanie",
     "pdf_tools__detail_description_object__image_to_pdf__middle_6_description": "Wszystkie przesłane przez Ciebie pliki są przetwarzane w Twojej przeglądarce dla pełnej prywatności. Nie są przesyłane do chmury, co zapewnia absolutne bezpieczeństwo i prywatność.",
     "pdf_tools__detail_description_object__image_to_pdf__bottom_leftIconName": "HistoriaEdu",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_title": "Jak przekonwertować {{TYPE}} na PDF online:",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_1": "Prześlij swój obraz do konwertera {{TYPE}} na PDF.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_2": "Dostosuj rozmiar, orientację i marginesy według potrzeb.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_3": "Kliknij „Utwórz PDF teraz!” i rozpoczniemy konwersję.",
-    "pdf_tools__detail_description_object__image_to_pdf__bottom_rightDescription_description_4": "To wszystko! Zapisz przekonwertowany plik PDF na swoim urządzeniu.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_title": "Jak przekonwertować {{TYPE}} na PDF online:",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_1": "Prześlij swój obraz do konwertera {{TYPE}} na PDF.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_2": "Dostosuj rozmiar, orientację i marginesy według potrzeb.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_3": "Kliknij „Utwórz PDF teraz!” i rozpoczniemy konwersję.",
+    "pdf_tools__detail_description_object__image_to_pdf__bottom_right_description_4": "To wszystko! Zapisz przekonwertowany plik PDF na swoim urządzeniu.",
     "pdf_tools__detail_page__more_pdf_tools": "Więcej darmowych narzędzi PDF online",
     "tools__index_page__constant_obj__pdf_to_html__title": "PDF do HTML",
     "tools__index_page__constant_obj__pdf_to_html__description": "Konwertuj PDF do HTML, zachowując strukturę układu i obrazy",
@@ -486,11 +486,11 @@
     "pdf_tools__detail_description_object__pdf_to_html__middle_5_description": "Nasz konwerter PDF na HTML jest w pełni dostępny online, dzięki czemu możesz konwertować dokumenty na dowolnym urządzeniu, o dowolnej porze, bez konieczności instalowania jakiegokolwiek oprogramowania.",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_title": "Konwersja bez dostępu do Internetu",
     "pdf_tools__detail_description_object__pdf_to_html__middle_6_description": "Dzięki naszemu narzędziu możesz rozpocząć konwersję w trybie offline. Wystarczy załadować stronę przed odłączeniem się od Internetu, a konwersja nadal będzie miała miejsce bez połączenia internetowego.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_title": "Jak łatwo przekonwertować PDF na HTML:",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_1": "Prześlij swój plik PDF do konwertera PDF na HTML online.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_2": "Pozwól narzędziu przetworzyć plik i skonwertować go do formatu HTML.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_3": "Po zakończeniu konwersji pobierz nowy plik HTML bezpośrednio.",
-    "pdf_tools__detail_description_object__pdf_to_html__bottom_rightDescription_description_4": "Otwórz pobrany plik HTML w dowolnej przeglądarce internetowej, aby przejrzeć wyniki.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_title": "Jak łatwo przekonwertować PDF na HTML:",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_1": "Prześlij swój plik PDF do konwertera PDF na HTML online.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_2": "Pozwól narzędziu przetworzyć plik i skonwertować go do formatu HTML.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_3": "Po zakończeniu konwersji pobierz nowy plik HTML bezpośrednio.",
+    "pdf_tools__detail_description_object__pdf_to_html__bottom_right_description_4": "Otwórz pobrany plik HTML w dowolnej przeglądarce internetowej, aby przejrzeć wyniki.",
     "pricing__better_plan__title": "1-kliknięcie AI w dowolnym miejscu, mniej czasu, lepsze wyniki",
     "pricing__compare_plans__title": "Porównaj plany",
     "pricing__plan_category__individual__label": "Plany indywidualne",
@@ -552,11 +552,34 @@
     "pdf_tools__detail_description_object__compress_pdf__middle_5_description": "Włącz kompresję nawet gdy jesteś offline. Wczytaj stronę i możesz kontynuować kompresję plików bez potrzeby połączenia internetowego.",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_title": "Niestandardowe ustawienia kompresji",
     "pdf_tools__detail_description_object__compress_pdf__middle_6_description": "Dostosuj poziom kompresji do swoich konkretnych potrzeb, umożliwiając dostosowanie między zmniejszeniem rozmiaru pliku a jakością wizualną, zapewniając optymalne wyniki dla każdego rodzaju dokumentu.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_title": "Jak łatwo skompresować pliki PDF:",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_1": "Prześlij swoje PDF do narzędzia do kompresji online.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_2": "Narzędzie szybko przetwarza Twój plik, zmniejszając jego rozmiar przy zachowaniu jakości.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_3": "Pobierz skompresowany plik PDF na swoje urządzenie natychmiast po kompresji.",
-    "pdf_tools__detail_description_object__compress_pdf__bottom_rightDescription_description_4": "Sprawdź jakość i rozmiar skompresowanego pliku PDF, otwierając go w preferowanym czytniku PDF."
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_title": "Jak łatwo skompresować pliki PDF:",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_1": "Prześlij swoje PDF do narzędzia do kompresji online.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_2": "Narzędzie szybko przetwarza Twój plik, zmniejszając jego rozmiar przy zachowaniu jakości.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_3": "Pobierz skompresowany plik PDF na swoje urządzenie natychmiast po kompresji.",
+    "pdf_tools__detail_description_object__compress_pdf__bottom_right_description_4": "Sprawdź jakość i rozmiar skompresowanego pliku PDF, otwierając go w preferowanym czytniku PDF.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_left": "Bezproblemowo wyodrębniaj tekst ze swoich zeskanowanych dokumentów za pomocą naszego narzędzia OCR PDF. Szybkie, lokalizowane i obsługujące aż 99 języków - i nie ma potrzeby przesyłania żadnej zawartości na serwer.",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_1": "Szybkie i dokładne wyodrębnianie tekstu z plików PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_2": "Nie wymaga instalacji oprogramowania",
+    "pdf_tools__detail_description_object__ocr_pdf__top_right_3": "Obsługuje szeroki zakres aż 99 języków",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_title": "Szybka i wydajna konwersja OCR PDF",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_1_description": "Szybko przekształć swoje zeskanowane dokumenty PDF w edytowalny tekst. Nasza technologia OCR zapewnia szybkie i dokładne rozpoznawanie, nawet przy skomplikowanym układzie i wielu językach.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_title": "Lokalizowany OCR dla użytku globalnego",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_2_description": "Nasze narzędzie OCR zostało zaprojektowane tak, aby rozumieć i dokładnie konwertować tekst z aż 99 języków, zapewniając włączność i dostępność dla użytkowników na całym świecie.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_title": "Bezpieczne i prywatne",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_3_description": "Wszystkie przetwarzanie odbywa się lokalnie w Twojej przeglądarce, dzięki czemu Twoje dokumenty nigdy nie opuszczają Twojego urządzenia, co zapewnia maksymalną prywatność i bezpieczeństwo.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_title": "Bez pobierania, bez problemów",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_4_description": "Nasze narzędzie OCR PDF działa online, co oznacza, że nie będziesz musiał pobierać ani instalować żadnego oprogramowania. Po prostu prześlij swój dokument i pozwól naszemu narzędziu zrobić resztę.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_title": "Bezproblemowy dostęp",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_5_description": "Dostępny z dowolnego miejsca, o dowolnej porze, na wszystkich głównych przeglądarkach i systemach operacyjnych. Niezależnie od tego, czy korzystasz z systemu Windows, Mac, Linux, iOS czy Androida, nasze narzędzie jest gotowe, gdy Ty jesteś.",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_title": "Wyjątkowa dokładność",
+    "pdf_tools__detail_description_object__ocr_pdf__middle_6_description": "Dzięki zaawansowanej technologii OCR nasze narzędzie zapewnia wysoką jakość i dokładne wyodrębnianie tekstu, minimalizując błędy i oszczędzając czas na ręcznych poprawkach.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_title": "Jak wyodrębnić tekst z plików PDF online:",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Prześlij swój zeskanowany plik PDF do naszego narzędzia OCR.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Wybierz główny język swojego dokumentu.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Nasze narzędzie przetworzy Twoje PDF, dokładnie i szybko wyodrębniając tekst.",
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Pobierz plik OCR PDF na stronie wyników, aby zobaczyć jakość.",
+    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Przekształć zeskanowany dokument PDF na tekst, abyś mógł łatwo kopiować i wyszukiwać tekst"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -821,7 +844,9 @@
     "pdf_tools__sign_pdf__title": "Podpisywanie PDF - Dodawanie cyfrowego podpisu do plików PDF lokalnie za darmo | MaxAI.me",
     "pdf_tools__sign_pdf__description": "Łatwe dodawanie cyfrowych podpisów do plików PDF za darmo i bezpiecznie na urządzeniach lokalnych, zapewniając maksymalną prywatność i bezpieczeństwo. Brak znaku wodnego, limitu rozmiaru pliku, pobierania lub rejestracji.",
     "pdf_tools__compress_pdf__title": "Skompresuj PDF - Redukcja rozmiaru pliku PDF online | MaxAI.me",
-    "pdf_tools__compress_pdf__description": "Skompresuj pliki PDF w przeglądarce lokalnej, aby zapewnić szybkość i bezpieczeństwo. Bez znaku wodnego, limitu rozmiaru pliku, pobierania ani rejestracji."
+    "pdf_tools__compress_pdf__description": "Skompresuj pliki PDF w przeglądarce lokalnej, aby zapewnić szybkość i bezpieczeństwo. Bez znaku wodnego, limitu rozmiaru pliku, pobierania ani rejestracji.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - Szybkie i lokalne rozpoznawanie tekstu w plikach PDF za darmo | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "Konwertuj nieprzeszukiwalne dokumenty PDF na przeszukiwalny i zaznaczalny tekst w kilka sekund. Bez znaków wodnych, ograniczeń wielkości pliku, pobierania ani rejestracji."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -859,7 +884,6 @@
     "more_over_section__description__part2": "Od pomocy pisania i podsumowywania stron internetowych po ChatPDF i malowanie AI, MaxAI.me umożliwia czytanie, pisanie i tworzenie z pomocą najbardziej zaawansowanych modeli AI, w tym ChatGPT, Claude i Gemini. Ulepsz swoje doświadczenie przeglądania i odblokuj swój potencjał produktywności dzięki MaxAI.me już dziś!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__to_image_detail__select_all": "Zaznacz wszystko",
     "components__to_image_detail__deselect_all": "Odznacz wszystko",
     "components__to_image_detail__download_images": "Pobierz obrazy",
@@ -880,7 +904,6 @@
     "components__to_image_detail__button__remove__tooltip": "Usuń ten plik PDF i wybierz nowy"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__pdf_merge__add_pdf": "Dodaj PDF",
     "components__pdf_merge__empty_pdf": "Wyczyść PDF-y",
     "components__pdf_merge__confirm_merge": "Potwierdź scalenie",
@@ -889,7 +912,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Dodaj plik PDF poniżej"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__pdf_split__add_pdf": "Dodaj PDF-y",
     "components__pdf_split__remove_pdf": "Usuń PDF",
     "components__pdf_split__select_all": "Zaznacz wszystko",
@@ -908,7 +930,8 @@
     "components__common__pdf_encryption_tip": "jest zaszyfrowany lub nieprawidłowy, nie można manipulować plikiem PDF, pominięto",
     "components__common__drag__dropping_tip": "Możesz dostosować kolejność, przeciągając i upuszczając",
     "components__common__upload_button_tips": "lub upuść pliki tutaj",
-    "components__common__upload_button_title": "WYBIERZ PLIKI"
+    "components__common__upload_button_title": "WYBIERZ PLIKI",
+    "components__common__upload_button__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Można przesyłać tylko obrazy typu obraz",
@@ -925,7 +948,6 @@
     "components__image_to_pdf__position_bottom": "Dół"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__pdf_to_html__button__download": "Pobierz",
     "components__pdf_to_html__button__convert": "Konwertuj inny"
   },
@@ -1034,7 +1056,6 @@
     "components__sign_pdf__operation_view__draw": "Rysuj",
     "components__sign_pdf__operation_view__type": "Typ",
     "components__sign_pdf__operation_view__upload": "Prześlij",
-    "components__sign_pdf__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__sign_pdf__detail__empty_sign": "Pusta sygnatura",
     "components__sign_pdf__detail__empty_text": "Pusty tekst",
     "components__sign_pdf__detail__finish": "Zakończ i podpisz",
@@ -1054,7 +1075,8 @@
     "components__sign_pdf__complete_signature_info__download": "Pobierz",
     "components__sign_pdf__complete_signature_info__sign_pdf_homepage": "Strona główna podpisu PDF",
     "components__sign_pdf__icon__sign": "Podpisz",
-    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Wpisz coś..."
+    "components__sign_pdf__operation_oBject_default__type__text_field__type_something": "Wpisz coś...",
+    "components__sign_pdf__operation_signature_upload__error_uploaded__tips": "Można przesyłać tylko obrazy typu obraz"
   },
   "functionality__compress_pdf": {
     "components__compress_pdf__main__compress_low_grade_title": "Niski",
@@ -1063,12 +1085,23 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Średni rozmiar pliku, standardowa rozdzielczość",
     "components__compress_pdf__main__compress_strong_grade_title": "Silny",
     "components__compress_pdf__main__compress_strong_grade_description": "Mały rozmiar pliku, niższa rozdzielczość",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
     "components__compress_pdf__main__compress_download": "Skompresuj i pobierz",
     "components__compress_pdf__main__choose_another_file": "Wybierz inny plik",
     "components__compress_pdf__main__current_pdf_size": "Obecny rozmiar PDF",
     "components__compress_pdf__main__original_pdf_size": "oryginalny rozmiar",
     "components__compress_pdf__main__different_pdf_size": "Różnica w stosunku do poprzedniego {{DiFF_NUMBER}}% mniejsza!",
     "components__compress_pdf__main__compress_error": "Kompresja nie powiodła się, proszę sprawdzić, czy plik PDF jest zaszyfrowany lub nieprawidłowy!"
+  },
+  "functionality__ocr_pdf": {
+    "components__ocr_pdf__main__loading_title__pdf_embed": "Osadź PDF",
+    "components__ocr_pdf__main__upload_error": "Sprawdź, czy plik PDF jest zaszyfrowany lub nieprawidłowy!",
+    "components__ocr_pdf__main__choose_another_file": "Wybierz inny plik",
+    "components__ocr_pdf__main__conversion_grade_title_1": "Normalna dokładność",
+    "components__ocr_pdf__main__conversion_grade_tips_1": "Szybszy czas konwersji",
+    "components__ocr_pdf__main__conversion_grade_title_2": "Wysoka dokładność",
+    "components__ocr_pdf__main__conversion_grade_tips_2": "Zwiększa dokładność i czas konwersji",
+    "components__ocr_pdf__main__ocr_loading": "Ładowanie pliku PDF",
+    "components__ocr_pdf__main__ocr_and_download": "OCR i Pobierz",
+    "components__ocr_pdf__main__document_scanning_language": "Język skanowania dokumentów"
   }
 }
