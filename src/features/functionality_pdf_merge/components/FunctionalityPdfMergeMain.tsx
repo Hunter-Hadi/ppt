@@ -295,8 +295,9 @@ const FunctionalityPdfMergeMain = () => {
                           name='CloseTwoTone'
                           fontSize='small'
                           sx={{
-                            bgcolor: '#d1d5db',
+                            bgcolor: '#9065B0',
                             borderRadius: 3,
+                            color: '#fff',
                           }}
                         />
                       </IconButton>
