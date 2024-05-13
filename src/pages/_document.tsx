@@ -10,6 +10,15 @@ export default function Document(props: any) {
     <Html lang={currentLocale}>
       {/* @ts-ignore */}
       <Head>
+        {/* clarity start */}
+        <script
+          type='text/javascript'
+          dangerouslySetInnerHTML={{
+            __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "mbdmb437kn");`,
+          }}
+        />
+        {/* clarity end */}
+
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');`,
