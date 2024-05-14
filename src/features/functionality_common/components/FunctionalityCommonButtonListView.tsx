@@ -62,6 +62,10 @@ export const FunctionalityCommonButtonListView: React.FC<
             key={index}
             xs={6}
             md={2}
+            justifyContent={{
+              xs: 'center',
+              md: 'start',
+            }}
             display={config.type === 'iconButton' ? 'flex' : 'block'}
             {...gridBreakpoints}
           >
