@@ -10,7 +10,7 @@ import FileSaver from 'file-saver';
 import JSZip from 'jszip';
 import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 
 import {
   FunctionalityCommonButtonListView,
@@ -223,20 +223,23 @@ export const FunctionalityPdfSplitMain = () => {
     ],
     [currentIsLoading, isSelectAll, convertedPdfImages, t],
   );
-  const StackViewWrap = (props) => (
-    <Stack
-      direction='row'
-      flexWrap='wrap'
-      justifyContent='center'
-      my={3}
-      gap={2}
-      sx={{
-        position: 'relative',
-        minHeight: 200,
-      }}
-    >
-      {props.children}
-    </Stack>
+  const StackViewWrap = useCallback(
+    (props) => (
+      <Stack
+        direction='row'
+        flexWrap='wrap'
+        justifyContent='center'
+        my={3}
+        gap={2}
+        sx={{
+          position: 'relative',
+          minHeight: 200,
+        }}
+      >
+        {props.children}
+      </Stack>
+    ),
+    [],
   );
   return (
     <Stack

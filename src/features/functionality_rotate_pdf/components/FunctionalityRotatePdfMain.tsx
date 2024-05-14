@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { degrees, PDFDocument } from 'pdf-lib';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
 import {
   FunctionalityCommonButtonListView,
@@ -46,10 +46,20 @@ export const FunctionalityRotatePdfMain = () => {
     currentPdfActionNum,
     setPdfTotalPages,
   } = useFunctionalityCommonPdfToImageConversion(); //pdf转图片类型 工具 的hook
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale(); //放大缩小hooks
+  const onUploadFile = async (fileList: FileList) => {
+    //用户上传，读取pdf文件显示的图片列表
+    if (fileList && fileList.length > 0) {
+      setFile(fileList[0]);
+      setIsLoading(true);
+      await onReadPdfToImages(fileList[0], 'png', false); //开始读取PDF生成为图片显示
+      setIsLoading(false);
+    }
+  };
   useEffect(() => {
     if (convertedPdfImages.length > 0) {
-      console.log('simply convertedPdfImages', convertedPdfImages);
       //这里应该是在onUploadFile的onReadPdfToImages后处理更好，之前没有考虑到，先放在这里
+      //对生成好的图片信息列表，添加字短rotateAngle
       setPdfPageImageInfoList(
         convertedPdfImages.map((convertedPdfImage) => ({
           ...convertedPdfImage,
@@ -58,42 +68,53 @@ export const FunctionalityRotatePdfMain = () => {
       );
     }
   }, [convertedPdfImages]);
-  const { changeScale, currentScale } = useFunctionalityCommonChangeScale(); //放大缩小hooks
-  const onUploadFile = async (fileList: FileList) => {
-    //用户上传，读取pdf文件显示的图片列表
-    if (fileList && fileList.length > 0) {
-      setFile(fileList[0]);
-      setIsLoading(true);
-      await onReadPdfToImages(fileList[0], 'png', false);
-      setIsLoading(false);
-    }
-  };
   const confirmToRotatePdf = async () => {
     //确认并旋转PDF
-    setIsLoading(true);
-    setPdfTotalPages(0);
-    if (!file) return;
-    const buff = await file.arrayBuffer(); //获取文件的二进制数据
-    const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
-    const pageCount = pdfDocument.getPageCount(); //获取pdf文件的页数
-    for (let i = 0; i < pageCount; i++) {
-      const pdfPage = pdfDocument.getPage(i);
-      const oldRotationInfo = pdfPage.getRotation(); //获取旧的旋转输入
-      pdfPage.setRotation(
-        degrees(oldRotationInfo.angle + pdfPageImageInfoList[i].rotateAngle), //之前的旋转加现在的旋转等于新的角度
-      ); //设置旋转角度
-    }
+    try {
+      setIsLoading(true);
+      setPdfTotalPages(0);
+      if (!file) return;
+      const buff = await file.arrayBuffer(); //获取文件的二进制数据
+      // 创建一个新的 PDF 文档，它将成为最终合并的文档
+      const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
+      for (let i = 0; i < pdfPageImageInfoList.length; i++) {
+        const pdfImageInfo = pdfPageImageInfoList[i];
+        if (pdfImageInfo.rotateAngle === 0) continue;
+        const pdfPage = pdfDocument.getPage(pdfImageInfo.definedIndex - 1); //获取最初的页数
+        const oldRotationInfo = pdfPage.getRotation(); //获取旧的旋转输入
+        pdfPage.setRotation(
+          degrees(oldRotationInfo.angle + pdfImageInfo.rotateAngle), //之前的旋转加现在的旋转等于新的角度
+        ); //设置旋转角度
+      }
+      const pageCount = pdfDocument.getPageCount(); //获取pdf文件的总页数
+      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+        'rotate-' + file?.name || '',
+      ); //获取规定规范的文件名
+      if (pdfPageImageInfoList.length === pageCount) {
+        //是否跟获取的pdf页面加载的一致
+        const bytes = await pdfDocument.save(); //保存pdf文件
+        downloadUrl(bytes, fileName);
+      } else {
+        //因为用户加载的时候点击取消，相当于可以只显示部分页面给他
+        const mergedPdfDoc = await PDFDocument.create();
+        const pages = await mergedPdfDoc.copyPages(
+          pdfDocument,
+          pdfPageImageInfoList.map((_, index) => index),
+        );
+        pages.forEach((page) => {
+          mergedPdfDoc.addPage(page);
+        });
+        const bytes = await mergedPdfDoc.save(); //保存pdf文件
+        downloadUrl(bytes, fileName);
+      }
 
-    const bytes = await pdfDocument.save(); //保存pdf文件
-    const blob = new Blob([bytes], { type: 'application/pdf' }); //创建blob对象
-    const fileName = functionalityCommonFileNameRemoveAndAddExtension(
-      'rotate-' + file?.name || '',
-    ); //获取规定规范的文件名
-    downloadUrl(blob, fileName);
-    setIsLoading(false);
+      setIsLoading(false);
+    } catch (error) {
+      console.log('simply confirmToRotatePdf error', error);
+    }
   };
   const onRemovePdfFile = () => {
-    //删除当前的文件
+    //删除当前的文件/图片信息
     setConvertedPdfImages([]);
     setPdfPageImageInfoList([]);
     setFile(null);
@@ -200,20 +221,23 @@ export const FunctionalityRotatePdfMain = () => {
     ],
     [currentIsLoading, pdfPageImageInfoList, t],
   );
-  const StackViewWrap = (props) => (
-    <Stack
-      direction='row'
-      flexWrap='wrap'
-      justifyContent='center'
-      my={3}
-      gap={2}
-      sx={{
-        position: 'relative',
-        minHeight: 200,
-      }}
-    >
-      {props.children}
-    </Stack>
+  const StackViewWrap = useCallback(
+    (props) => (
+      <Stack
+        direction='row'
+        flexWrap='wrap'
+        justifyContent='center'
+        my={3}
+        gap={2}
+        sx={{
+          position: 'relative',
+          minHeight: 200,
+        }}
+      >
+        {props.children}
+      </Stack>
+    ),
+    [],
   );
   return (
     <Stack
