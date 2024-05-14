@@ -1,5 +1,5 @@
 import { makeStaticPaths, makeStaticProps } from '@/i18n/utils/staticHelper';
-import AIRewriterPages from '@/page_components/FeaturesLandingPages/aiRewriterPages';
+import AIRewriterPages from '@/page_components/FeaturesLandingPages/AIRewriterPages';
 
 export default AIRewriterPages;
 
