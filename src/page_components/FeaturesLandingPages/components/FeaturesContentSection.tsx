@@ -10,15 +10,20 @@ import React, { FC, useMemo } from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
-import FeaturesLandingIcons from '@/page_components/FeaturesPages/components/FeaturesLandingIcons';
+import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons';
+import PictureRetouchingIcon, {
+  IPictureRetouchingProps,
+} from '@/page_components/FeaturesLandingPages/components/PictureRetouchingIcon';
 
 interface IProps {
   icon: string;
   title: string;
-  description: string | string[];
+  description: React.ReactNode;
   imageUrl: string;
 
   textWithImageLayout?: 'textToImage' | 'imageToText';
+
+  pictureRetouchingDirection?: false | IPictureRetouchingProps['direction'];
 }
 const FeaturesContentSection: FC<IProps> = ({
   icon,
@@ -26,6 +31,7 @@ const FeaturesContentSection: FC<IProps> = ({
   description,
   imageUrl,
   textWithImageLayout = 'textToImage',
+  pictureRetouchingDirection = false,
 }) => {
   const { t } = useTranslation();
   const theme = useTheme();
@@ -53,7 +59,7 @@ const FeaturesContentSection: FC<IProps> = ({
       }}
     >
       <Box maxWidth={1312} mx='auto' px={4}>
-        <Grid container spacing={12}>
+        <Grid container alignItems='center' spacing={12}>
           <Grid item xs={12} sm={6} order={textBoxOrder}>
             <Stack height={'100%'} justifyContent='center'>
               <Box
@@ -88,20 +94,7 @@ const FeaturesContentSection: FC<IProps> = ({
                   {description}
                 </Typography>
               ) : (
-                <>
-                  {description.map((descriptionItem) => (
-                    <Typography
-                      key={descriptionItem}
-                      variant='custom'
-                      fontSize={18}
-                      color='text.secondary'
-                      mt={2}
-                      lineHeight={1.5}
-                    >
-                      {descriptionItem}
-                    </Typography>
-                  ))}
-                </>
+                description
               )}
 
               <CTAInstallButton
@@ -125,13 +118,22 @@ const FeaturesContentSection: FC<IProps> = ({
               />
             </Stack>
           </Grid>
-          <Grid item xs={12} sm={6} order={imageBoxOrder}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            order={imageBoxOrder}
+            sx={{ position: 'relative' }}
+          >
             <ResponsiveImage
               src={imageUrl}
               alt={title}
-              width={1152}
+              width={1168}
               height={864}
             />
+            {pictureRetouchingDirection && (
+              <PictureRetouchingIcon direction={pictureRetouchingDirection} />
+            )}
           </Grid>
         </Grid>
       </Box>

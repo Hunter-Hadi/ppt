@@ -1,5 +1,5 @@
 import { makeStaticPaths, makeStaticProps } from '@/i18n/utils/staticHelper';
-import YoutubeSummaryPages from '@/page_components/FeaturesPages/YoutubeSummaryPages';
+import YoutubeSummaryPages from '@/page_components/FeaturesLandingPages/YoutubeSummaryPages';
 
 export default YoutubeSummaryPages;
 

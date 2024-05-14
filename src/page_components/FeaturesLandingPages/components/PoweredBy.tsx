@@ -1,7 +1,7 @@
 import Typography from '@mui/material/Typography';
 import React, { FC } from 'react';
 
-import FeaturesLandingIcons from '@/page_components/FeaturesPages/components/FeaturesLandingIcons';
+import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons';
 
 interface IProps {
   name: string;
