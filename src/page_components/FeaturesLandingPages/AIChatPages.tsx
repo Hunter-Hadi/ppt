@@ -97,7 +97,9 @@ const AIChatPages = () => {
       <UserComment />
 
       {/* call to action section */}
-      <CallToActionSection />
+      <CallToActionSection
+        ctaButtonTrackerLinkProps={{ pathnameRefEnable: true }}
+      />
     </Stack>
   );
 };
