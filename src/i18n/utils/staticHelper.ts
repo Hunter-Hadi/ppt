@@ -6,7 +6,9 @@ import { i18nLocales } from '@/i18n/utils';
 const POPULAR_LANGUAGE_LOCALE = ['en', 'zh-CN', 'fr'];
 
 // 生成带有 i18n 数据的 getStaticProps
-export function makeStaticProps() {
+export function makeStaticProps(
+  makeStaticPropsResult?: () => GetStaticPropsResult,
+) {
   return async function getStaticProps(ctx) {
     const locale = ctx?.params?.locale?.toString() || 'en';
 
