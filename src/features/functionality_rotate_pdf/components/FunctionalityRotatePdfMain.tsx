@@ -23,8 +23,8 @@ import useFunctionalityCommonPdfToImageConversion, {
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import FunctionalityRotatePdfIcon from '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfIcon';
 
-import FunctionalityRotatePdfIcon from './FunctionalityRotatePdfIcon';
 type IFunctionalityRotatePdfType = IFunctionalityPdfToImageType & {
   rotateAngle: number;
 };
@@ -75,7 +75,6 @@ export const FunctionalityRotatePdfMain = () => {
       setPdfTotalPages(0);
       if (!file) return;
       const buff = await file.arrayBuffer(); //获取文件的二进制数据
-      // 创建一个新的 PDF 文档，它将成为最终合并的文档
       const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
       for (let i = 0; i < pdfPageImageInfoList.length; i++) {
         const pdfImageInfo = pdfPageImageInfoList[i];
@@ -96,18 +95,17 @@ export const FunctionalityRotatePdfMain = () => {
         downloadUrl(bytes, fileName);
       } else {
         //因为用户加载的时候点击取消，相当于可以只显示部分页面给他
-        const mergedPdfDoc = await PDFDocument.create();
-        const pages = await mergedPdfDoc.copyPages(
+        const newPdfDocument = await PDFDocument.create(); //新的PDF来copy 截取的页面
+        const pages = await newPdfDocument.copyPages(
           pdfDocument,
-          pdfPageImageInfoList.map((_, index) => index),
+          pdfPageImageInfoList.map((_, index) => index), //截取的index
         );
         pages.forEach((page) => {
-          mergedPdfDoc.addPage(page);
+          newPdfDocument.addPage(page); //添加到
         });
-        const bytes = await mergedPdfDoc.save(); //保存pdf文件
+        const bytes = await newPdfDocument.save(); //保存pdf文件
         downloadUrl(bytes, fileName);
       }
-
       setIsLoading(false);
     } catch (error) {
       console.log('simply confirmToRotatePdf error', error);
