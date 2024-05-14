@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Jimatkan 90% masa membaca & menonton anda dengan mendapatkan ringkasan dan jawapan segera.",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "Pantaskan respon & draf e-mel, media sosial, dan pesanan anda dengan 10X klik.",
-    "features_landing__ai_reading_assistant__title": "AI Reading Assistant | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Memudahkan pemahaman maklumat kompleks, seperti pakar.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "Selesaikan tugas harian anda dalam beberapa minit sekarang, bukan jam lagi.",
     "features_landing__ai_search__title": "AI Search | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Translator | MaxAI.me",
     "features_landing__ai_translator__description": "Membolehkan pembacaan dwibahasa dengan satu klik untuk meningkatkan kecekapan pengambilan maklumat.",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "Memahami dan menganalisis mana-mana imej dengan model AI penglihatan yang paling canggih."
+    "features_landing__ai_vision__description": "Memahami dan menganalisis mana-mana imej dengan model AI penglihatan yang paling canggih.",
+    "features_landing__ai_reader__title": "Pembantu Membaca AI | MaxAI.me",
+    "features_landing__ai_reader__description": "Memudahkan pemahaman maklumat kompleks, seperti pakar."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",

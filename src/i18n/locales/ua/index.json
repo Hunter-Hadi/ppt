@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Збережіть 90% часу на читання та перегляд, отримуючи резюме та миттєві відповіді.",
     "features_landing__ai_reply__title": "AI Миттєва Відповідь | MaxAI.me",
     "features_landing__ai_reply__description": "Прискорте ваші відповіді та чернетки електронної пошти, соціальних медіа та повідомлень в 10 разів за 1 клік.",
-    "features_landing__ai_reading_assistant__title": "AI Асистент для Читання | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Зробіть складну інформацію легко зрозумілою, як експерт.",
     "features_landing__ai_prompts__title": "AI Підказки | MaxAI.me",
     "features_landing__ai_prompts__description": "Завершуйте ваші щоденні завдання за кілька хвилин, а не годин.",
     "features_landing__ai_search__title": "AI Пошук | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Перекладач | MaxAI.me",
     "features_landing__ai_translator__description": "Увімкніть двомовне читання одним кліком, щоб покращити ефективність отримання інформації.",
     "features_landing__ai_vision__title": "AI Візія | MaxAI.me",
-    "features_landing__ai_vision__description": "Розумійте та аналізуйте будь-яке зображення за допомогою найпродуктивніших моделей штучного інтелекту."
+    "features_landing__ai_vision__description": "Розумійте та аналізуйте будь-яке зображення за допомогою найпродуктивніших моделей штучного інтелекту.",
+    "features_landing__ai_reader__title": "AI Читаючий Асистент | MaxAI.me",
+    "features_landing__ai_reader__description": "Робіть складну інформацію легко зрозумілою, як експерт."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Вибрати все",

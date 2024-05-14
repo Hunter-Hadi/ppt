@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "要約と即時回答で読書と視聴時間を90%節約しましょう。",
     "features_landing__ai_reply__title": "AI インスタントリプライ | MaxAI.me",
     "features_landing__ai_reply__description": "1クリックでメール、ソーシャルメディア、メッセージの返信と下書きを10倍速く進めましょう。",
-    "features_landing__ai_reading_assistant__title": "AI 読み上げアシスタント | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "専門家のように複雑な情報を理解しやすくします。",
     "features_landing__ai_prompts__title": "AI プロンプト | MaxAI.me",
     "features_landing__ai_prompts__description": "日常のタスクを数分で完了させましょう。もう時間の無駄使いはありません。",
     "features_landing__ai_search__title": "AI 検索 | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI 翻訳 | MaxAI.me",
     "features_landing__ai_translator__description": "バイリンガルな読書を1クリックで実現し、情報検索効率を向上させます。",
     "features_landing__ai_vision__title": "AI ビジョン | MaxAI.me",
-    "features_landing__ai_vision__description": "最も高度なAIビジョンモデルでどんな画像でも理解し分析します。"
+    "features_landing__ai_vision__description": "最も高度なAIビジョンモデルでどんな画像でも理解し分析します。",
+    "features_landing__ai_reader__title": "AI読み上げアシスタント | MaxAI.me",
+    "features_landing__ai_reader__description": "専門家のように、複雑な情報を簡単に理解できます。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -1012,7 +1012,27 @@
     "ai_vision_pages__section2__description": "AIビジョンで画像を分析する最速の方法です。スクリーンショットを撮ってすぐに質問できます。毎日貴重な時間を節約しながら、よりスマートに研究しましょう。",
     "ai_vision_pages__section3__title": "使いたい場所で動作します",
     "ai_vision_pages__section3__description": "必要な場所で画像を分析できます。MaxAIは使用しているすべてのWebアプリやサイトで動作します。コピーも貼り付けも不要で、コンテキストの切り替えもありません。",
-    "ai_vision_pages__section4__title": "最高のAIモデルでパワーアップ"
+    "ai_vision_pages__section4__title": "最高のAIモデルでパワーアップ",
+    "ai_art_pages__section1__title": "創造力と生産性を10倍にする",
+    "ai_art_pages__section1__description": "究極のAIアートジェネレーターで創造的なビジョンを高めましょう。会話型のAIドローイングツールで探索し、作成し、反復しましょう。シンプルでパワフル、変革的です。",
+    "ai_art_pages__section2__title": "素早くアートを作成",
+    "ai_art_pages__section2__description": "これまでにない簡単で最速のAIアート作成体験。プロのプロンプトを使用することは完全にオプションですが、スマートなAIアートプロンプト最適化機能を使用すれば、サイドバーに簡単なメモを提供するだけで、切り替えの手間なしに最適化されたAIアートを入手できます。",
+    "ai_art_pages__section3__title": "最高のAIモデルによる強力なパフォーマンス",
+    "ai_art_pages__section3__description": "当社のAIアートジェネレーターは、DALL·E 3などの最新の先端画像AIモデルによってパワードされています。さらに高度なAIアートモデルも近日公開予定です。",
+    "ai_translator_pages__title": "これまでにない最高のAI翻訳体験",
+    "ai_translator_pages__description": "1クリックでバイリンガルな読書を可能にし、情報検索効率を向上させます。",
+    "ai_translator_pages__section1__title": "没入型AI翻訳体験",
+    "ai_translator_pages__section1__description": "革新的な並列表示により、外国語のウェブページを読む次のレベルの体験をお楽しみください。元の言語と翻訳された言語を比較して理解することができます。速くて効果的で楽しいです。",
+    "ai_translator_pages__section2__title": "使いたい場所で動作します",
+    "ai_translator_pages__section2__description": "任意のウェブページで1クリックするだけで、即座に没入型の翻訳をお楽しみください。MaxAIは使用するすべてのWebアプリとサイトで動作します。コピーも貼り付けも不要です。",
+    "ai_translator_pages__section3__title": "58言語に対応",
+    "ai_translator_pages__section3__description": "包括的な言語サポートを提供する強力なAI翻訳機能で、簡単に翻訳できます。言語に関係なく、あらゆる翻訳ニーズに対応します。",
+    "ai_translator_pages__section4__title": "高品質な翻訳",
+    "ai_translator_pages__section4__description": "人間の能力を400％超える、比類のない翻訳品質を体験してください。",
+    "ai_translator_pages__section5__title": "無料です",
+    "ai_translator_pages__section5__description": "はい、完全に無料です！",
+    "ai_vision_pages__title": "最先端のAIビジョンモデルで画像を分析",
+    "ai_vision_pages__description": "最も高度なAIビジョンモデルを使用して、任意の画像を理解し分析します。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "すべて選択",

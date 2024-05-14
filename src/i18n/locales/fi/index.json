@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Säästä 90% lukemis- ja katseluaikastasi saamalla yhteenvedot ja välittömät vastaukset.",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "Kiihdytä sähköposteja, sosiaalisen median viestejä ja luonnoksia 10-kertaisesti yhdellä napsautuksella.",
-    "features_landing__ai_reading_assistant__title": "AI Reading Assistant | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Tee monimutkainen tieto helposti ymmärrettäväksi, aivan kuin asiantuntija.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "Täydennä päivittäiset tehtäväsi minuuteissa, ei enää tunteja.",
     "features_landing__ai_search__title": "AI Search | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Translator | MaxAI.me",
     "features_landing__ai_translator__description": "Mahdollista kaksikielinen lukeminen yhdellä napsautuksella parantaaksesi tiedonhankinnan tehokkuutta.",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "Ymmärrä ja analysoi mikä tahansa kuva kehittyneimpien AI-näkömallien avulla."
+    "features_landing__ai_vision__description": "Ymmärrä ja analysoi mikä tahansa kuva kehittyneimpien AI-näkömallien avulla.",
+    "features_landing__ai_reader__title": "AI-lukemisavustaja | MaxAI.me",
+    "features_landing__ai_reader__description": "Tee monimutkainen tieto helposti ymmärrettäväksi, aivan kuin asiantuntija."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",

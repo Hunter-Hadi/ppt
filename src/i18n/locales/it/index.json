@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Risparmia il 90% del tempo di lettura e visione ottenendo riassunti e risposte istantanee.",
     "features_landing__ai_reply__title": "Risposta istantanea AI | MaxAI.me",
     "features_landing__ai_reply__description": "Accelerare le risposte e le bozze di posta elettronica, social media e messaggistica del 10X in 1 clic.",
-    "features_landing__ai_reading_assistant__title": "Assistente alla lettura AI | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Rendi facile capire informazioni complesse, proprio come un esperto.",
     "features_landing__ai_prompts__title": "Promemoria AI | MaxAI.me",
     "features_landing__ai_prompts__description": "Completa i tuoi compiti giornalieri in pochi minuti, non più ore.",
     "features_landing__ai_search__title": "Ricerca AI | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "Traduttore AI | MaxAI.me",
     "features_landing__ai_translator__description": "Abilita la lettura bilingue con un solo clic per migliorare l'efficienza del recupero delle informazioni.",
     "features_landing__ai_vision__title": "Visione AI | MaxAI.me",
-    "features_landing__ai_vision__description": "Comprendi e analizza qualsiasi immagine con i modelli di visione AI più avanzati."
+    "features_landing__ai_vision__description": "Comprendi e analizza qualsiasi immagine con i modelli di visione AI più avanzati.",
+    "features_landing__ai_reader__title": "Assistente di lettura AI | MaxAI.me",
+    "features_landing__ai_reader__description": "Rendi facile da capire le informazioni complesse, proprio come un esperto."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",

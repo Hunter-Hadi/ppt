@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Economisește 90% din timpul petrecut citind și vizionând prin obținerea de rezumate și răspunsuri instantanee.",
     "features_landing__ai_reply__title": "Răspuns Instant AI | MaxAI.me",
     "features_landing__ai_reply__description": "Accelerarea răspunsurilor și proiectelor tale de e-mail, social media și mesagerie cu 10X într-un singur clic.",
-    "features_landing__ai_reading_assistant__title": "Asistent de Lectură AI | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Facilitează înțelegerea informațiilor complexe, la fel ca un expert.",
     "features_landing__ai_prompts__title": "Prompts AI | MaxAI.me",
     "features_landing__ai_prompts__description": "Finalizează sarcinile tale zilnice în câteva minute, nu mai multe ore.",
     "features_landing__ai_search__title": "Căutare AI | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "Traducător AI | MaxAI.me",
     "features_landing__ai_translator__description": "Permite citirea bilingvă cu un singur clic pentru a îmbunătăți eficiența recuperării informațiilor.",
     "features_landing__ai_vision__title": "Viziune AI | MaxAI.me",
-    "features_landing__ai_vision__description": "Înțelege și analizează orice imagine cu cele mai avansate modele de viziune AI."
+    "features_landing__ai_vision__description": "Înțelege și analizează orice imagine cu cele mai avansate modele de viziune AI.",
+    "features_landing__ai_reader__title": "Asistent de citire AI | MaxAI.me",
+    "features_landing__ai_reader__description": "Facilitați înțelegerea informațiilor complexe, la fel ca un expert."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",

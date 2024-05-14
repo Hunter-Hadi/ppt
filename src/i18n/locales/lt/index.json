@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Sutaupykite 90% laiko skaitydami ir žiūrėdami gavę santraukas ir momentinius atsakymus.",
     "features_landing__ai_reply__title": "AI Momentinis Atsakymas | MaxAI.me",
     "features_landing__ai_reply__description": "Pagreitinkite savo el. pašto, socialinių tinklų ir pranešimų atsakymus bei projektus 10 kartų spustelėjus.",
-    "features_landing__ai_reading_assistant__title": "AI Skaitymo Asistentas | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Padarykite sudėtingą informaciją suprantamą, kaip ekspertas.",
     "features_landing__ai_prompts__title": "AI Užduotys | MaxAI.me",
     "features_landing__ai_prompts__description": "Užbaikite savo kasdieninius uždavinius per kelias minutes, o ne valandas.",
     "features_landing__ai_search__title": "AI Paieška | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Vertėjas | MaxAI.me",
     "features_landing__ai_translator__description": "Leiskite dvikalbiam skaitymui vienu paspaudimu pagerinti informacijos gavimo efektyvumą.",
     "features_landing__ai_vision__title": "AI Matymas | MaxAI.me",
-    "features_landing__ai_vision__description": "Supraskite ir analizuokite bet kokį vaizdą naudojant pažangiausius dirbtinio intelekto matymo modelius."
+    "features_landing__ai_vision__description": "Supraskite ir analizuokite bet kokį vaizdą naudojant pažangiausius dirbtinio intelekto matymo modelius.",
+    "features_landing__ai_reader__title": "AI Skaitymo Asistentas | MaxAI.me",
+    "features_landing__ai_reader__description": "Padarykite sudėtingą informaciją lengvai suprantamą, kaip ekspertas."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",

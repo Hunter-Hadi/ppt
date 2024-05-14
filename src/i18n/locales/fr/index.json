@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Économisez 90% de votre temps de lecture et de visionnage en obtenant des résumés et des réponses instantanées.",
     "features_landing__ai_reply__title": "Réponse instantanée IA | MaxAI.me",
     "features_landing__ai_reply__description": "Accélérez vos réponses et brouillons d'e-mails, de médias sociaux et de messagerie de 10 fois en 1 clic.",
-    "features_landing__ai_reading_assistant__title": "Assistant de lecture IA | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Rendez l'information complexe facile à comprendre, comme un expert.",
     "features_landing__ai_prompts__title": "Incitations IA | MaxAI.me",
     "features_landing__ai_prompts__description": "Terminez vos tâches quotidiennes en quelques minutes maintenant, plus en quelques heures.",
     "features_landing__ai_search__title": "Recherche IA | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "Traducteur IA | MaxAI.me",
     "features_landing__ai_translator__description": "Permettez la lecture bilingue d'un simple clic pour améliorer l'efficacité de la récupération d'informations.",
     "features_landing__ai_vision__title": "Vision IA | MaxAI.me",
-    "features_landing__ai_vision__description": "Comprenez et analysez n'importe quelle image avec les modèles de vision IA les plus avancés."
+    "features_landing__ai_vision__description": "Comprenez et analysez n'importe quelle image avec les modèles de vision IA les plus avancés.",
+    "features_landing__ai_reader__title": "Assistant de lecture IA | MaxAI.me",
+    "features_landing__ai_reader__description": "Rendez les informations complexes faciles à comprendre, comme un expert."
   },
   "features_landing": {
     "cta_text": "Ajouter au navigateur",

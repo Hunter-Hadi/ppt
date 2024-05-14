@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Tiết kiệm 90% thời gian đọc và xem của bạn bằng cách nhận tóm tắt và câu trả lời tức thì.",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "Tăng tốc email, mạng xã hội và phản hồi tin nhắn & bản nháp của bạn lên 10 lần bằng 1 cú nhấp chuột.",
-    "features_landing__ai_reading_assistant__title": "Trợ lý đọc AI | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Làm cho thông tin phức tạp dễ hiểu, giống như một chuyên gia.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "Hoàn thành các nhiệm vụ hàng ngày của bạn trong vài phút, không còn là vài giờ nữa.",
     "features_landing__ai_search__title": "Tìm kiếm AI | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "Dịch AI | MaxAI.me",
     "features_landing__ai_translator__description": "Cho phép đọc song ngữ chỉ với một cú nhấp chuột để cải thiện hiệu suất truy xuất thông tin.",
     "features_landing__ai_vision__title": "Tầm nhìn AI | MaxAI.me",
-    "features_landing__ai_vision__description": "Hiểu và phân tích bất kỳ hình ảnh nào với các mô hình tầm nhìn AI tiên tiến nhất."
+    "features_landing__ai_vision__description": "Hiểu và phân tích bất kỳ hình ảnh nào với các mô hình tầm nhìn AI tiên tiến nhất.",
+    "features_landing__ai_reader__title": "Trợ lý đọc AI | MaxAI.me",
+    "features_landing__ai_reader__description": "Làm cho thông tin phức tạp dễ hiểu, giống như một chuyên gia."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",

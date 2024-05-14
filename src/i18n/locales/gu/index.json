@@ -853,8 +853,6 @@
     "features_landing__ai_summary__description": "સારાંશો અને તકતવાર જવાબો મેળવીને તમારા વાંચવાનો અને જુઓવાનો 90% સમય બચાવો.",
     "features_landing__ai_reply__title": "AI તકતવાર જવાબ | MaxAI.me",
     "features_landing__ai_reply__description": "1 ક્લિકમાં તમારા ઇમેઇલ, સોશિયલ મીડિયા અને સંદેશવાહક પ્રતિસાદો અને ડ્રાફ્ટ્સને 10X સંકલનમાં આગળ વધારો.",
-    "features_landing__ai_reading_assistant__title": "AI વાંચન સહાયક | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "એક્સપર્ટ જેવી રીતે જટિલ માહિતીને સરળ બનાવો.",
     "features_landing__ai_prompts__title": "AI પ્રોમ્પ્ટ્સ | MaxAI.me",
     "features_landing__ai_prompts__description": "આજેના દિવસના કાર્યોને મિનિટમાં પૂર્ણ કરો, અને હજુ સુધી કેવી રીતે કરવું તે પણ નથી.",
     "features_landing__ai_search__title": "AI શોધ | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_vision__title": "AI વિઝન | MaxAI.me",
     "features_landing__ai_vision__description": "સૌથી તકતવાર AI વિઝન મોડલોથી કોઈપણ છબીને સમજો અને વિશ્લેષણ કરો.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - ફાસ્ટ અને સ્થાનિકૃત PDF ટેક્સ્ટ ઓળખન | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "નકળ કરી શકાય તેવી પીડીએફ દસ્તાવેજોને સર્ચયોગ્ય અને પસંદ કરી શકાય ટેક્સ્ટમાં રૂપાંતરિત કરો. કોઈ વોટરમાર્ક, ફાઈલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી."
+    "pdf_tools__ocr_pdf__description": "નકળ કરી શકાય તેવી પીડીએફ દસ્તાવેજોને સર્ચયોગ્ય અને પસંદ કરી શકાય ટેક્સ્ટમાં રૂપાંતરિત કરો. કોઈ વોટરમાર્ક, ફાઈલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
+    "features_landing__ai_reader__title": "એઆઈ વાંચક સહાયક | MaxAI.me",
+    "features_landing__ai_reader__description": "મહત્વપૂર્ણ માહિતીને સરળ બનાવો, જેમ કે એક વિશેષજ્ઞ જેવું."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",
@@ -1031,7 +1031,8 @@
     "ai_vision_pages__section2__description": "AI વિઝન સાથે છબીઓને વિશ્લેષણ કરવાની સરળતાથી સૌથી ઝડપી રીત. ફક્ત સ્ક્રીનશોટ લેવું અને તક્ષણિક પ્રશ્નો પૂછો. દિવસભરની મહત્ત્વની ઘણી કલાકો ઉપયોગમાં લઈને સંશોધન કરો.",
     "ai_vision_pages__section3__title": "જ્યાં તમે કામ કરો ત્યાં કામ કરે છે",
     "ai_vision_pages__section3__description": "જ્યાં તમે તેની જરૂર છે ત્યાં કોઈપણ છબીને વિશ્લેષણ કરો. MaxAI તમે વપરાશ કરેલ તમામ વેબ એપ્સ અને સાઇટ્સ પર કાર્ય કરે છે. કોપીંગ, પેસ્ટિંગ, કન્ટેક્સ્ટ સ્વિચિંગ નથી.",
-    "ai_vision_pages__section4__title": "શ્રેષ્ઠ AI મોડેલ્સ દ્વારા સમર્થિત વિઝન સાથે"
+    "ai_vision_pages__section4__title": "શ્રેષ્ઠ AI મોડેલ્સ દ્વારા સમર્થિત વિઝન સાથે",
+    "ai_prompts_pages__section1__title": "ઉચ્ચ ગુણવત્તાવાળી એઆઈ પ્રોમ્પ્ટ્સ લાઇબ્રેરી"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "બધા પસંદ કરો",

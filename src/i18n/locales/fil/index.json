@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "I-save ang 90% ng iyong oras sa pagbabasa at panonood sa pamamagitan ng pagkuha ng mga buod at instant na mga sagot.",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "Paigtingin ang iyong mga tugon at draft sa email, social media, at messaging nang 10 beses sa 1 click.",
-    "features_landing__ai_reading_assistant__title": "AI Reading Assistant | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Gawing madali ang komplikadong impormasyon na maintindihan, tulad ng isang eksperto.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "Tapusin ang iyong araw-araw na gawain sa loob ng ilang minuto, hindi na oras.",
     "features_landing__ai_search__title": "AI Search | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Translator | MaxAI.me",
     "features_landing__ai_translator__description": "Paganahin ang bilingual na pagbasa sa isang solong click upang mapabuti ang pagkuha ng impormasyon.",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "Maunawaan at suriin ang anumang imahe gamit ang pinakasusi at advanced na AI vision models."
+    "features_landing__ai_vision__description": "Maunawaan at suriin ang anumang imahe gamit ang pinakasusi at advanced na AI vision models.",
+    "features_landing__ai_reader__title": "AI Reading Assistant | MaxAI.me",
+    "features_landing__ai_reader__description": "Gawing madali ang komplikadong impormasyon na maintindihan, tulad ng isang eksperto."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",

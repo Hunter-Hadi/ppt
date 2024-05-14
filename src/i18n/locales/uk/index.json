@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "خلاصے اور فوری جوابات حاصل کرکے اپنی پڑھائی اور دیکھنے کے وقت کو 90٪ بچائیں۔",
     "features_landing__ai_reply__title": "AI فوری جواب | MaxAI.me",
     "features_landing__ai_reply__description": "1 کلک میں ای میل، سوشل میڈیا، اور میسجنگ کے جوابات اور ڈرافٹس کو 10X تک تیز کریں۔",
-    "features_landing__ai_reading_assistant__title": "AI ریڈنگ اسسٹنٹ | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "ماہر کی طرح پیچیدہ معلومات کو سمجھنا آسان بنائیں۔",
     "features_landing__ai_prompts__title": "AI پرومپٹس | MaxAI.me",
     "features_landing__ai_prompts__description": "اب روزانہ کے کاموں کو منٹوں میں مکمل کریں، اب گھنٹوں نہیں۔",
     "features_landing__ai_search__title": "AI تلاش | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI مترجم | MaxAI.me",
     "features_landing__ai_translator__description": "معلومات کی بازیابی کارآمدی بہتر کرنے کے لئے ایک کلک کے ساتھ دو زبانی پڑھائی کو فعال کریں۔",
     "features_landing__ai_vision__title": "AI وژن | MaxAI.me",
-    "features_landing__ai_vision__description": "سب سے تقدیری AI وژن ماڈل کے ساتھ کسی بھی تصویر کو سمجھیں اور تجزیہ کریں۔"
+    "features_landing__ai_vision__description": "سب سے تقدیری AI وژن ماڈل کے ساتھ کسی بھی تصویر کو سمجھیں اور تجزیہ کریں۔",
+    "features_landing__ai_reader__title": "AI پڑھنے والا معاون | MaxAI.me",
+    "features_landing__ai_reader__description": "ماہر کی طرح پیچیدہ معلومات کو سمجھنا آسان بنائیں۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",

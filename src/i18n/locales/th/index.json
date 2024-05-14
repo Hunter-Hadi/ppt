@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "ประหยัดเวลาในการอ่านและดูได้ถึง 90% โดยการรับสรุปและคำตอบทันที",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "เพิ่มความเร็วให้กับการตอบกลับอีเมล์ เฟสบุ๊ค และการสื่อสารผ่านแชท 10 เท่าด้วยการคลิกเดียว",
-    "features_landing__ai_reading_assistant__title": "AI Reading Assistant | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "ทำให้ข้อมูลที่ซับซ้อนเป็นเรื่องง่ายต่อการเข้าใจ แบบเช่นผู้เชี่ยวชาญ",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "ทำให้งานประจำวันของคุณเสร็จสิ้นในไม่กี่นาที ไม่ใช่หลายชั่วโมงอีกต่อไป",
     "features_landing__ai_search__title": "AI Search | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Translator | MaxAI.me",
     "features_landing__ai_translator__description": "เปิดใช้งานการอ่านภาษาคู่ขนาดใหญ่ด้วยการคลิกเดียวเพื่อเพิ่มประสิทธิภาพในการเรียกคืนข้อมูล",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "เข้าใจและวิเคราะห์ภาพใด ๆ ด้วยโมเดล AI ที่ทันสมัยที่สุด"
+    "features_landing__ai_vision__description": "เข้าใจและวิเคราะห์ภาพใด ๆ ด้วยโมเดล AI ที่ทันสมัยที่สุด",
+    "features_landing__ai_reader__title": "ผู้ช่วยอ่าน AI | MaxAI.me",
+    "features_landing__ai_reader__description": "ทำให้ข้อมูลที่ซับซ้อนเป็นเรื่องง่ายต่อการเข้าใจ เหมือนผู้เชี่ยวชาญ"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "เลือกทั้งหมด",

@@ -854,8 +854,6 @@
     "features_landing__ai_summary__description": "חסוך 90% מזמן הקריאה והצפייה שלך על ידי קבלת סיכומים ותשובות מיידיות.",
     "features_landing__ai_reply__title": "תשובה מיידית AI | MaxAI.me",
     "features_landing__ai_reply__description": "האצה את תגובות האימייל, הרשתות החברתיות וההודעות שלך ב-10 פעמים בלחיצה אחת.",
-    "features_landing__ai_reading_assistant__title": "עוזר קריאה AI | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "הפוך מידע מורכב לקל להבנה, בדיוק כמו מומחה.",
     "features_landing__ai_prompts__title": "AI עצות | MaxAI.me",
     "features_landing__ai_prompts__description": "השלם את המשימות היומיות שלך בדקות ולא בשעות יותר.",
     "features_landing__ai_search__title": "חיפוש AI | MaxAI.me",
@@ -865,7 +863,9 @@
     "features_landing__ai_translator__title": "מתרגם AI | MaxAI.me",
     "features_landing__ai_translator__description": "אפשר קריאה דו-לשונית בלחיצה אחת כדי לשפר את יעילות האיחזור של מידע.",
     "features_landing__ai_vision__title": "AI ראייה | MaxAI.me",
-    "features_landing__ai_vision__description": "הבנה וניתוח של כל תמונה עם מודלי AI ראייה מתקדמים ביותר."
+    "features_landing__ai_vision__description": "הבנה וניתוח של כל תמונה עם מודלי AI ראייה מתקדמים ביותר.",
+    "features_landing__ai_reader__title": "עוזר קריאה באמצעות AI | MaxAI.me",
+    "features_landing__ai_reader__description": "הפוך מידע מורכב לקל להבנה, כמו מומחה."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",

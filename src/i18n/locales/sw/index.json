@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Hifadhi asilimia 90 ya wakati wako wa kusoma na kuangalia kwa kupata muhtasari na majibu ya papo hapo.",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "Harakisha majibu yako ya barua pepe, mitandao ya kijamii, na ujumbe kwa mara 10 zaidi kwa kubofya moja.",
-    "features_landing__ai_reading_assistant__title": "AI Reading Assistant | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Fanya habari ngumu iwe rahisi kuelewa, kama mtaalamu.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "Kamilisha kazi zako za kila siku ndani ya dakika, sio masaa tena.",
     "features_landing__ai_search__title": "AI Search | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Translator | MaxAI.me",
     "features_landing__ai_translator__description": "Wezesha kusoma lugha mbili kwa kubofya moja ili kuongeza ufanisi wa kupata habari.",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "Elewa na uchambue picha yoyote na mifano ya AI ya kuona iliyosonga mbele zaidi."
+    "features_landing__ai_vision__description": "Elewa na uchambue picha yoyote na mifano ya AI ya kuona iliyosonga mbele zaidi.",
+    "features_landing__ai_reader__title": "Msaidizi wa Kusoma AI | MaxAI.me",
+    "features_landing__ai_reader__description": "Fanya habari ngumu kuwa rahisi kuelewa, kama mtaalamu."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",

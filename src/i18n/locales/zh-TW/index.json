@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "通過獲取摘要和即時答案，節省 90% 的閱讀和觀看時間。",
     "features_landing__ai_reply__title": "AI 即時回覆 | MaxAI.me",
     "features_landing__ai_reply__description": "點擊一次，將電子郵件、社交媒體和消息回覆及草稿加速 10 倍。",
-    "features_landing__ai_reading_assistant__title": "AI 閱讀助手 | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "使複雜信息易於理解，就像專家一樣。",
     "features_landing__ai_prompts__title": "AI 提示 | MaxAI.me",
     "features_landing__ai_prompts__description": "現在只需幾分鐘完成您的日常任務，不再需要幾小時。",
     "features_landing__ai_search__title": "AI 搜索 | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI 翻譯 | MaxAI.me",
     "features_landing__ai_translator__description": "通過單擊一次實現雙語閱讀，提高信息檢索效率。",
     "features_landing__ai_vision__title": "AI 視覺 | MaxAI.me",
-    "features_landing__ai_vision__description": "使用最先進的 AI 視覺模型理解和分析任何圖像。"
+    "features_landing__ai_vision__description": "使用最先進的 AI 視覺模型理解和分析任何圖像。",
+    "features_landing__ai_reader__title": "AI 閱讀助手 | MaxAI.me",
+    "features_landing__ai_reader__description": "使複雜資訊易於理解，就像專家一樣。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",

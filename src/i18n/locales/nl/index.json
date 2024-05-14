@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Bespaar 90% van je lees- en kijktijd door samenvattingen en directe antwoorden te krijgen.",
     "features_landing__ai_reply__title": "AI Direct Antwoord | MaxAI.me",
     "features_landing__ai_reply__description": "Versnel je e-mail-, sociale media- en berichtenreacties en -concepten met 10X in 1 klik.",
-    "features_landing__ai_reading_assistant__title": "AI Leesassistent | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Maak complexe informatie gemakkelijk te begrijpen, net als een expert.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "Voltooi je dagelijkse taken nu in minuten, niet meer in uren.",
     "features_landing__ai_search__title": "AI Zoeken | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Vertaler | MaxAI.me",
     "features_landing__ai_translator__description": "Maak tweetalig lezen mogelijk met één klik om de efficiëntie van informatieopvraging te verbeteren.",
     "features_landing__ai_vision__title": "AI Visie | MaxAI.me",
-    "features_landing__ai_vision__description": "Begrijp en analyseer elke afbeelding met de meest geavanceerde AI-visiemodellen."
+    "features_landing__ai_vision__description": "Begrijp en analyseer elke afbeelding met de meest geavanceerde AI-visiemodellen.",
+    "features_landing__ai_reader__title": "AI Leesassistent | MaxAI.me",
+    "features_landing__ai_reader__description": "Maak complexe informatie gemakkelijk te begrijpen, net als een expert."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",

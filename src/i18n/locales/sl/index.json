@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Prihranite 90% časa za branje in gledanje s povzetki in takojšnjimi odgovori.",
     "features_landing__ai_reply__title": "AI Takojšen Odgovor | MaxAI.me",
     "features_landing__ai_reply__description": "Pospešite odgovore in osnutke e-pošte, družbenih medijev in sporočil za 10-krat s klikom.",
-    "features_landing__ai_reading_assistant__title": "AI Bralni Pomočnik | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "S kompleksnimi informacijami se seznanite tako kot strokovnjak.",
     "features_landing__ai_prompts__title": "AI Vprašanja | MaxAI.me",
     "features_landing__ai_prompts__description": "Dokončajte svoje dnevne naloge v nekaj minutah, ne več ur.",
     "features_landing__ai_search__title": "AI Iskanje | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Prevajalnik | MaxAI.me",
     "features_landing__ai_translator__description": "Omogočite dvojezično branje s klikom in izboljšajte učinkovitost pridobivanja informacij.",
     "features_landing__ai_vision__title": "AI Vizija | MaxAI.me",
-    "features_landing__ai_vision__description": "Razumite in analizirajte katero koli sliko z najnaprednejšimi modeli umetne inteligence za vizijo."
+    "features_landing__ai_vision__description": "Razumite in analizirajte katero koli sliko z najnaprednejšimi modeli umetne inteligence za vizijo.",
+    "features_landing__ai_reader__title": "Pomočnik za branje z umetno inteligenco | MaxAI.me",
+    "features_landing__ai_reader__description": "Naredite kompleksne informacije enostavne za razumevanje, kot pravi strokovnjak."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",

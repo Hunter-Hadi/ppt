@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "सारांश और तत्काल उत्तर प्राप्त करके अपने पठन और देखने का समय 90% बचाएं।",
     "features_landing__ai_reply__title": "AI तत्काल जवाब | MaxAI.me",
     "features_landing__ai_reply__description": "एक क्लिक में अपने ईमेल, सोशल मीडिया और संदेशन के जवाब और प्रारूपों को 10X तक तेज़ करें।",
-    "features_landing__ai_reading_assistant__title": "AI पठन सहायक | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "एक विशेषज्ञ की तरह कठिन जानकारी को समझना आसान बनाएं।",
     "features_landing__ai_prompts__title": "AI प्रॉम्प्ट्स | MaxAI.me",
     "features_landing__ai_prompts__description": "अब अपने दैनिक कार्यों को मिनटों में पूरा करें, और घंटों नहीं।",
     "features_landing__ai_search__title": "AI सर्च | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI अनुवादक | MaxAI.me",
     "features_landing__ai_translator__description": "सुधारित जानकारी प्राप्ति क्षमता को बढ़ाने के लिए एक क्लिक में द्विभाषी पठन सक्षम करें।",
     "features_landing__ai_vision__title": "AI विज़न | MaxAI.me",
-    "features_landing__ai_vision__description": "सबसे उन्नत AI विज़न मॉडल के साथ किसी भी छवि को समझें और विश्लेषण करें।"
+    "features_landing__ai_vision__description": "सबसे उन्नत AI विज़न मॉडल के साथ किसी भी छवि को समझें और विश्लेषण करें।",
+    "features_landing__ai_reader__title": "AI पढ़ने वाला सहायक | MaxAI.me",
+    "features_landing__ai_reader__description": "विशेषज्ञ की तरह, जटिल जानकारी को समझना आसान बनाएं।"
   },
   "features_landing": {
     "cta_text": "ब्राउज़र में जोड़ें",
