@@ -1838,7 +1838,7 @@ const ClaudeLogo: FC<SvgIconProps> = (props) => {
   return (
     <SvgIcon viewBox='0 0 20 20' sx={props.sx}>
       <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-        <g clip-path='url(#clip0_10089_20036)'>
+        <g clipPath='url(#clip0_10089_20036)'>
           <path
             d='M0 8C0 3.58172 3.58172 0 8 0H16C20.4183 0 24 3.58172 24 8V16C24 20.4183 20.4183 24 16 24H8C3.58172 24 0 20.4183 0 16V8Z'
             fill='#F2DFBC'

@@ -63,7 +63,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='207.5'
             y2='1.01986'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='229.864'
@@ -71,7 +71,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='236.092'
             y2='1.39079'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='256.656'
@@ -79,7 +79,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='264.662'
             y2='2.10368'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='283.65'
@@ -87,7 +87,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='293.192'
             y2='2.73735'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='17.7088'
@@ -95,7 +95,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='8.16716'
             y2='4.26944'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='44.4605'
@@ -103,7 +103,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='36.4542'
             y2='3.38926'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='71.0519'
@@ -111,7 +111,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='64.8241'
             y2='2.39079'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='97.5291'
@@ -119,7 +119,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='93.269'
             y2='1.7039'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='123.937'
@@ -127,7 +127,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='121.774'
             y2='1.36324'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='150.324'
@@ -135,7 +135,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='150.324'
             y2='1.00036'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='176.742'
@@ -143,7 +143,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='178.905'
             y2='1.01594'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='175.217'
@@ -151,7 +151,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='179.477'
             y2='22.8177'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='201.837'
@@ -159,7 +159,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='208.065'
             y2='23.1877'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='228.628'
@@ -167,7 +167,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='236.635'
             y2='23.9015'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='255.627'
@@ -175,7 +175,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='265.168'
             y2='24.5352'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='282.859'
@@ -183,7 +183,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='293.646'
             y2='25.0458'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='16.4371'
@@ -191,7 +191,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='8.43071'
             y2='25.1871'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='43.0285'
@@ -199,7 +199,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='36.8007'
             y2='24.1877'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='69.5017'
@@ -207,7 +207,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='65.2416'
             y2='23.5018'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='95.9097'
@@ -215,7 +215,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='93.7468'
             y2='23.1601'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='122.297'
@@ -223,7 +223,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='122.297'
             y2='22.7972'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='148.718'
@@ -231,7 +231,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='150.881'
             y2='22.8128'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='147.189'
@@ -239,7 +239,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='151.449'
             y2='44.6156'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='173.814'
@@ -247,7 +247,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='180.042'
             y2='44.9855'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='200.605'
@@ -255,7 +255,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='208.611'
             y2='45.6984'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='227.603'
@@ -263,7 +263,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='237.145'
             y2='46.3321'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='254.836'
@@ -271,7 +271,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='265.623'
             y2='46.8427'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='282.33'
@@ -279,7 +279,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='294.034'
             y2='47.9584'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='15.0012'
@@ -287,7 +287,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='8.77331'
             y2='45.9855'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='41.4783'
@@ -295,7 +295,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='37.2182'
             y2='45.2996'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='67.8863'
@@ -303,7 +303,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='65.7234'
             y2='44.958'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='94.2734'
@@ -311,7 +311,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='94.2734'
             y2='44.5951'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='120.691'
@@ -319,7 +319,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='122.854'
             y2='44.6107'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='119.166'
@@ -327,7 +327,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='123.426'
             y2='66.4124'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='145.786'
@@ -335,7 +335,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='152.014'
             y2='66.7834'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='172.578'
@@ -343,7 +343,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='180.584'
             y2='67.4963'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='199.576'
@@ -351,7 +351,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='209.118'
             y2='68.1299'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='226.812'
@@ -359,7 +359,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='237.599'
             y2='68.6405'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='254.306'
@@ -367,7 +367,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='266.011'
             y2='69.7563'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='282.08'
@@ -375,7 +375,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='294.347'
             y2='70.6404'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='13.4509'
@@ -383,7 +383,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='9.19083'
             y2='67.0965'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='39.8589'
@@ -391,7 +391,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='37.696'
             y2='66.7558'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='66.2461'
@@ -399,7 +399,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='66.2461'
             y2='66.3929'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='92.6675'
@@ -407,7 +407,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='94.8304'
             y2='66.4085'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='91.1384'
@@ -415,7 +415,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='95.3985'
             y2='88.2103'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='117.763'
@@ -423,7 +423,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='123.991'
             y2='88.5802'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='144.554'
@@ -431,7 +431,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='152.561'
             y2='89.2941'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='171.553'
@@ -439,7 +439,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='181.094'
             y2='89.9268'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='198.785'
@@ -447,7 +447,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='209.572'
             y2='90.4384'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='226.279'
@@ -455,7 +455,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='237.984'
             y2='91.5531'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='254.053'
@@ -463,7 +463,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='266.319'
             y2='92.4382'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='11.8355'
@@ -471,7 +471,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='9.6726'
             y2='88.5527'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='38.2227'
@@ -479,7 +479,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='38.2227'
             y2='88.1898'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='64.6402'
@@ -487,7 +487,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='66.8031'
             y2='88.2054'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='297.68'
@@ -495,7 +495,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='285.224'
             y2='95.418'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='63.115'
@@ -503,7 +503,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='67.3751'
             y2='110.007'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='89.7355'
@@ -511,7 +511,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='95.9634'
             y2='110.378'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='116.527'
@@ -519,7 +519,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='124.533'
             y2='111.091'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='143.525'
@@ -527,7 +527,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='153.067'
             y2='111.725'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='170.762'
@@ -535,7 +535,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='181.549'
             y2='112.235'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='198.256'
@@ -543,7 +543,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='209.96'
             y2='113.351'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='226.029'
@@ -551,7 +551,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='238.296'
             y2='114.235'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='10.1953'
@@ -559,7 +559,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='10.1953'
             y2='109.988'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='36.6168'
@@ -567,7 +567,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='38.7797'
             y2='110.003'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='269.652'
@@ -575,7 +575,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='257.197'
             y2='117.216'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='297.365'
@@ -583,7 +583,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='285.099'
             y2='116.205'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='35.0877'
@@ -591,7 +591,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='39.3478'
             y2='131.805'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='61.7121'
@@ -599,7 +599,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='67.9399'
             y2='132.175'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='88.5035'
@@ -607,7 +607,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='96.5099'
             y2='132.889'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='115.502'
@@ -615,7 +615,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='125.043'
             y2='133.523'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='142.734'
@@ -623,7 +623,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='153.521'
             y2='134.033'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='170.228'
@@ -631,7 +631,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='181.933'
             y2='135.149'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='198.002'
@@ -639,7 +639,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='210.269'
             y2='136.033'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='8.58941'
@@ -647,7 +647,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='10.7523'
             y2='131.801'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='241.629'
@@ -655,7 +655,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='229.173'
             y2='139.013'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='269.338'
@@ -663,7 +663,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='257.072'
             y2='138.003'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='296.775'
@@ -671,7 +671,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='285.071'
             y2='137.028'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='7.06421'
@@ -679,7 +679,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='11.3243'
             y2='153.603'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='33.6848'
@@ -687,7 +687,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='39.9126'
             y2='153.973'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='60.4761'
@@ -695,7 +695,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='68.4825'
             y2='154.686'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='87.4744'
@@ -703,7 +703,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='97.016'
             y2='155.319'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='114.711'
@@ -711,7 +711,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='125.498'
             y2='155.83'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='142.205'
@@ -719,7 +719,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='153.909'
             y2='156.946'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='169.979'
@@ -727,7 +727,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='182.245'
             y2='157.831'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='295.93'
@@ -735,7 +735,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='285.143'
             y2='157.562'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='213.605'
@@ -743,7 +743,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='201.15'
             y2='160.811'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='241.315'
@@ -751,7 +751,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='229.048'
             y2='159.8'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='268.748'
@@ -759,7 +759,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='257.043'
             y2='158.825'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='5.66132'
@@ -767,7 +767,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='11.8892'
             y2='175.771'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='32.4527'
@@ -775,7 +775,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='40.4591'
             y2='176.484'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='59.451'
@@ -783,7 +783,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='68.9926'
             y2='177.117'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='86.6836'
@@ -791,7 +791,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='97.4705'
             y2='177.628'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='114.178'
@@ -799,7 +799,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='125.882'
             y2='178.744'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='141.951'
@@ -807,7 +807,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='154.218'
             y2='179.628'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='267.902'
@@ -815,7 +815,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='257.115'
             y2='179.36'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='294.853'
@@ -823,7 +823,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='285.312'
             y2='178.649'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='185.578'
@@ -831,7 +831,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='173.122'
             y2='182.607'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='213.287'
@@ -839,7 +839,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='201.021'
             y2='181.597'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='240.724'
@@ -847,7 +847,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='229.02'
             y2='180.623'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='4.42536'
@@ -855,7 +855,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='12.4317'
             y2='198.281'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='31.4236'
@@ -863,7 +863,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='40.9652'
             y2='198.914'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='58.6602'
@@ -871,7 +871,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='69.4471'
             y2='199.426'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='86.1541'
@@ -879,7 +879,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='97.8586'
             y2='200.541'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='113.928'
@@ -887,7 +887,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='126.194'
             y2='201.426'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='239.879'
@@ -895,7 +895,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='229.092'
             y2='201.158'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='266.826'
@@ -903,7 +903,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='257.284'
             y2='200.446'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='293.578'
@@ -911,7 +911,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='285.571'
             y2='199.567'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='157.555'
@@ -919,7 +919,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='145.099'
             y2='204.405'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='185.264'
@@ -927,7 +927,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='172.997'
             y2='203.395'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='212.701'
@@ -935,7 +935,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='200.996'
             y2='202.421'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='3.40018'
@@ -943,7 +943,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='12.9418'
             y2='220.712'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='30.6328'
@@ -951,7 +951,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='41.4198'
             y2='221.223'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='58.1267'
@@ -959,7 +959,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='69.8313'
             y2='222.338'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='85.9006'
@@ -967,7 +967,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='98.167'
             y2='223.222'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='211.852'
@@ -975,7 +975,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='201.065'
             y2='222.955'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='238.803'
@@ -983,7 +983,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='229.261'
             y2='222.244'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='265.55'
@@ -991,7 +991,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='257.544'
             y2='221.364'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='292.146'
@@ -999,7 +999,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='285.918'
             y2='220.365'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='129.527'
@@ -1007,7 +1007,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='117.072'
             y2='226.203'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='157.237'
@@ -1015,7 +1015,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='144.97'
             y2='225.192'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='184.674'
@@ -1023,7 +1023,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='172.969'
             y2='224.218'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='2.60938'
@@ -1031,7 +1031,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='13.3963'
             y2='243.02'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='30.1033'
@@ -1039,7 +1039,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='41.8078'
             y2='244.136'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='57.8771'
@@ -1047,7 +1047,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='70.1436'
             y2='245.02'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='183.828'
@@ -1055,7 +1055,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='173.041'
             y2='244.752'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='210.775'
@@ -1063,7 +1063,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='201.234'
             y2='244.042'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='237.527'
@@ -1071,7 +1071,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='229.521'
             y2='243.162'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='264.118'
@@ -1079,7 +1079,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='257.891'
             y2='242.162'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='290.595'
@@ -1087,7 +1087,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='286.335'
             y2='241.476'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='101.504'
@@ -1095,7 +1095,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='89.0482'
             y2='248'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='129.213'
@@ -1103,7 +1103,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='116.947'
             y2='246.99'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='156.65'
@@ -1111,7 +1111,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='144.946'
             y2='246.016'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='2.07595'
@@ -1119,7 +1119,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='13.7805'
             y2='265.933'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='29.8498'
@@ -1127,7 +1127,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='42.1163'
             y2='266.818'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='155.801'
@@ -1135,7 +1135,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='145.014'
             y2='266.55'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='182.752'
@@ -1143,7 +1143,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='173.21'
             y2='265.839'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='209.503'
@@ -1151,7 +1151,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='201.497'
             y2='264.959'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='236.095'
@@ -1159,7 +1159,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='229.867'
             y2='263.96'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='262.568'
@@ -1167,7 +1167,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='258.308'
             y2='263.274'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='288.976'
@@ -1175,7 +1175,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='286.813'
             y2='262.933'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='73.4766'
@@ -1183,7 +1183,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='61.0209'
             y2='269.798'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='101.186'
@@ -1191,7 +1191,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='88.9193'
             y2='268.788'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='128.623'
@@ -1199,7 +1199,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='116.918'
             y2='267.812'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='1.82635'
@@ -1207,7 +1207,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='14.0928'
             y2='288.615'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='127.777'
@@ -1215,7 +1215,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='116.99'
             y2='288.347'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='154.724'
@@ -1223,7 +1223,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='145.183'
             y2='287.637'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='181.476'
@@ -1231,7 +1231,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='173.47'
             y2='286.756'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='208.068'
@@ -1239,7 +1239,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='201.84'
             y2='285.758'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='234.545'
@@ -1247,7 +1247,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='230.285'
             y2='285.071'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='260.953'
@@ -1255,7 +1255,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='258.79'
             y2='284.73'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='287.34'
@@ -1263,7 +1263,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='287.34'
             y2='284.368'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='45.4531'
@@ -1271,7 +1271,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='32.9974'
             y2='291.595'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='73.1623'
@@ -1279,7 +1279,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='60.8958'
             y2='290.585'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='100.599'
@@ -1287,7 +1287,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='88.8949'
             y2='289.61'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='99.75'
@@ -1295,7 +1295,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='88.9631'
             y2='310.145'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='126.701'
@@ -1303,7 +1303,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='117.159'
             y2='309.434'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='153.453'
@@ -1311,7 +1311,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='145.446'
             y2='308.554'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='180.044'
@@ -1319,7 +1319,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='173.816'
             y2='307.555'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='206.517'
@@ -1327,7 +1327,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='202.257'
             y2='306.869'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='232.925'
@@ -1335,7 +1335,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='230.762'
             y2='306.527'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='259.312'
@@ -1343,7 +1343,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='259.312'
             y2='306.164'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='285.734'
@@ -1351,7 +1351,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='287.897'
             y2='306.18'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='17.4258'
@@ -1359,7 +1359,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='4.97009'
             y2='313.393'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='45.1349'
@@ -1367,7 +1367,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='32.8685'
             y2='312.382'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='72.572'
@@ -1375,7 +1375,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='60.8675'
             y2='311.408'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='284.205'
@@ -1383,7 +1383,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='288.465'
             y2='327.982'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='71.7266'
@@ -1391,7 +1391,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='60.9396'
             y2='331.942'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='98.6736'
@@ -1399,7 +1399,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='89.132'
             y2='331.231'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='125.425'
@@ -1407,7 +1407,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='117.419'
             y2='330.351'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='152.017'
@@ -1415,7 +1415,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='145.789'
             y2='329.353'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='178.494'
@@ -1423,7 +1423,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='174.234'
             y2='328.666'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='204.902'
@@ -1431,7 +1431,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='202.739'
             y2='328.325'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='231.289'
@@ -1439,7 +1439,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='231.289'
             y2='327.962'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='257.707'
@@ -1447,7 +1447,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='259.87'
             y2='327.978'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='17.1115'
@@ -1455,7 +1455,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='4.84504'
             y2='334.179'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='44.5486'
@@ -1463,7 +1463,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='32.8441'
             y2='333.205'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='256.181'
@@ -1471,7 +1471,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='260.441'
             y2='349.78'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='282.802'
@@ -1479,7 +1479,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='289.03'
             y2='350.15'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='43.6992'
@@ -1487,7 +1487,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='32.9123'
             y2='353.74'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='70.6502'
@@ -1495,7 +1495,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='61.1086'
             y2='353.029'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='97.4019'
@@ -1503,7 +1503,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='89.3956'
             y2='352.149'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='123.993'
@@ -1511,7 +1511,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='117.766'
             y2='351.15'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='150.467'
@@ -1519,7 +1519,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='146.206'
             y2='350.464'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='176.875'
@@ -1527,7 +1527,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='174.712'
             y2='350.123'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='203.262'
@@ -1535,7 +1535,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='203.262'
             y2='349.76'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='229.683'
@@ -1543,7 +1543,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='231.846'
             y2='349.776'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='16.5213'
@@ -1551,7 +1551,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='4.81674'
             y2='355.003'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='228.154'
@@ -1559,7 +1559,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='232.414'
             y2='371.577'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='254.779'
@@ -1567,7 +1567,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='261.006'
             y2='371.947'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='281.57'
@@ -1575,7 +1575,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='289.576'
             y2='372.66'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='15.6758'
@@ -1583,7 +1583,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='4.88883'
             y2='375.538'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='42.6228'
@@ -1591,7 +1591,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='33.0812'
             y2='374.826'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='69.3746'
@@ -1599,7 +1599,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='61.3682'
             y2='373.946'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='95.966'
@@ -1607,7 +1607,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='89.7382'
             y2='372.947'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='122.443'
@@ -1615,7 +1615,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='118.183'
             y2='372.262'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='148.851'
@@ -1623,7 +1623,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='146.688'
             y2='371.92'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='175.238'
@@ -1631,7 +1631,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='175.238'
             y2='371.557'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='201.656'
@@ -1639,7 +1639,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='203.819'
             y2='371.573'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='200.131'
@@ -1647,7 +1647,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='204.391'
             y2='393.374'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='226.751'
@@ -1655,7 +1655,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='232.979'
             y2='393.745'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='253.543'
@@ -1663,7 +1663,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='261.549'
             y2='394.458'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='280.541'
@@ -1671,7 +1671,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='290.082'
             y2='395.092'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='14.5994'
@@ -1679,7 +1679,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='5.05778'
             y2='396.624'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='41.3511'
@@ -1687,7 +1687,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='33.3448'
             y2='395.744'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='67.9426'
@@ -1695,7 +1695,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='61.7147'
             y2='394.745'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='94.4158'
@@ -1703,7 +1703,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='90.1557'
             y2='394.058'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='120.824'
@@ -1711,7 +1711,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='118.661'
             y2='393.718'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='147.211'
@@ -1719,7 +1719,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='147.211'
             y2='393.355'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
           <line
             x1='173.632'
@@ -1727,7 +1727,7 @@ const PictureRetouchingIcon: FC<IPictureRetouchingProps> = ({
             x2='175.795'
             y2='393.37'
             stroke='#9E77ED'
-            stroke-width='2'
+            strokeWidth='2'
           />
         </g>
       </svg>

@@ -11,6 +11,7 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, useState } from 'react';
 
 import ProLink from '@/components/ProLink';
+import { removeLocaleInPathname } from '@/i18n/utils';
 
 interface IProps {
   isSmallScreen?: boolean;
@@ -75,7 +76,8 @@ const FEATURES_MENU_LIST = [
 const FeaturesItem: FC<IProps> = ({ isSmallScreen }) => {
   const { t } = useTranslation();
 
-  const { pathname } = useRouter();
+  const router = useRouter();
+  const pathname = removeLocaleInPathname(router.pathname);
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
