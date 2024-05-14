@@ -26,18 +26,18 @@ import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/fun
 
 import FunctionalityRotatePdfIcon from './FunctionalityRotatePdfIcon';
 type IFunctionalityRotatePdfType = IFunctionalityPdfToImageType & {
-  rotate: number;
+  rotateAngle: number;
 };
 
 export const FunctionalityRotatePdfMain = () => {
   const { t } = useTranslation();
-  const [pdfPageImageList, setPdfPageImageList] = useState<
+  const [pdfPageImageInfoList, setPdfPageImageInfoList] = useState<
     IFunctionalityRotatePdfType[]
-  >([]);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [file, setFile] = useState<File | null>(null);
+  >([]); //PDF页面的图片列信息表
+  const [isLoading, setIsLoading] = useState<boolean>(false); //是否加载
+  const [file, setFile] = useState<File | null>(null); //文件
   const {
-    convertedPdfImages,
+    convertedPdfImages, //转换完的图片信息列表
     setConvertedPdfImages,
     pdfIsLoading,
     onReadPdfToImages,
@@ -45,19 +45,20 @@ export const FunctionalityRotatePdfMain = () => {
     pdfTotalPages,
     currentPdfActionNum,
     setPdfTotalPages,
-  } = useFunctionalityCommonPdfToImageConversion();
+  } = useFunctionalityCommonPdfToImageConversion(); //pdf转图片类型 工具 的hook
   useEffect(() => {
     if (convertedPdfImages.length > 0) {
+      console.log('simply convertedPdfImages', convertedPdfImages);
       //这里应该是在onUploadFile的onReadPdfToImages后处理更好，之前没有考虑到，先放在这里
-      setPdfPageImageList(
+      setPdfPageImageInfoList(
         convertedPdfImages.map((convertedPdfImage) => ({
           ...convertedPdfImage,
-          rotate: 0,
+          rotateAngle: 0,
         })),
       );
     }
   }, [convertedPdfImages]);
-  const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale(); //放大缩小hooks
   const onUploadFile = async (fileList: FileList) => {
     //用户上传，读取pdf文件显示的图片列表
     if (fileList && fileList.length > 0) {
@@ -67,39 +68,49 @@ export const FunctionalityRotatePdfMain = () => {
       setIsLoading(false);
     }
   };
-  const confirmToSplit = async () => {
+  const confirmToRotatePdf = async () => {
+    //确认并旋转PDF
     setIsLoading(true);
     setPdfTotalPages(0);
     if (!file) return;
     const buff = await file.arrayBuffer(); //获取文件的二进制数据
-    const downloadDoc = await PDFDocument.load(buff); //加载pdf文件
-    const pageCount = downloadDoc.getPageCount(); //获取pdf文件的页数
+    const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
+    const pageCount = pdfDocument.getPageCount(); //获取pdf文件的页数
     for (let i = 0; i < pageCount; i++) {
-      const page = downloadDoc.getPage(i);
-      page.setRotation(degrees(pdfPageImageList[i].rotate)); //设置旋转角度
+      const pdfPage = pdfDocument.getPage(i);
+      const oldRotationInfo = pdfPage.getRotation(); //获取旧的旋转输入
+      pdfPage.setRotation(
+        degrees(oldRotationInfo.angle + pdfPageImageInfoList[i].rotateAngle), //之前的旋转加现在的旋转等于新的角度
+      ); //设置旋转角度
     }
 
-    const bytes = await downloadDoc.save(); //保存pdf文件
+    const bytes = await pdfDocument.save(); //保存pdf文件
     const blob = new Blob([bytes], { type: 'application/pdf' }); //创建blob对象
     const fileName = functionalityCommonFileNameRemoveAndAddExtension(
-      'split-' + file?.name || '',
+      'rotate-' + file?.name || '',
     ); //获取规定规范的文件名
     downloadUrl(blob, fileName);
     setIsLoading(false);
   };
-  const onRemoveFile = () => {
+  const onRemovePdfFile = () => {
+    //删除当前的文件
     setConvertedPdfImages([]);
-    setPdfPageImageList([]);
+    setPdfPageImageInfoList([]);
     setFile(null);
   };
+  const changeRotateNumberCorrect = (rotateNumber: number) => {
+    //大于360就是0，不然数字会一直累积
+    const newRotateNumber = rotateNumber + 90;
+    return newRotateNumber === 360 ? 0 : newRotateNumber;
+  };
   const onRotateSelect = (pdfImageInfo: IFunctionalityRotatePdfType) => {
-    //旋转图片
-    setPdfPageImageList((currentPdfPageImageList) => {
+    //旋转此刻图片
+    setPdfPageImageInfoList((currentPdfPageImageList) => {
       return currentPdfPageImageList.map((pdfPageImage) => {
         if (pdfPageImage.id === pdfImageInfo.id) {
           return {
             ...pdfPageImage,
-            rotate: pdfPageImage.rotate + 90,
+            rotateAngle: changeRotateNumberCorrect(pdfPageImage.rotateAngle),
           };
         } else {
           return pdfPageImage;
@@ -108,11 +119,12 @@ export const FunctionalityRotatePdfMain = () => {
     });
   };
   const onRotateAll = () => {
-    setPdfPageImageList((currentPdfPageImageList) => {
+    //旋转全部的图片
+    setPdfPageImageInfoList((currentPdfPageImageList) => {
       return currentPdfPageImageList.map((pdfPageImage) => {
         return {
           ...pdfPageImage,
-          rotate: pdfPageImage.rotate + 90,
+          rotateAngle: changeRotateNumberCorrect(pdfPageImage.rotateAngle),
         };
       });
     });
@@ -124,9 +136,11 @@ export const FunctionalityRotatePdfMain = () => {
       {
         type: 'button',
         buttonProps: {
-          children: 'Rotate All',
+          children: t(
+            'functionality__rotate_pdf:components__rotate_pdf__main__rotate_all',
+          ),
           variant: 'outlined',
-          disabled: currentIsLoading || pdfPageImageList.length === 0,
+          disabled: currentIsLoading || pdfPageImageInfoList.length === 0,
           onClick: onRotateAll,
         },
       },
@@ -134,15 +148,15 @@ export const FunctionalityRotatePdfMain = () => {
         type: 'button',
         buttonProps: {
           tooltip: t(
-            'functionality__pdf_split:components__pdf_split__button__remove__tooltip',
+            'functionality__rotate_pdf:components__rotate_pdf__main__remove_pdf_tooltip',
           ),
           children: t(
-            'functionality__pdf_split:components__pdf_split__remove_pdf',
+            'functionality__rotate_pdf:components__rotate_pdf__main__remove_pdf',
           ),
           variant: 'outlined',
           color: 'error',
           disabled: currentIsLoading,
-          onClick: () => onRemoveFile(),
+          onClick: onRemovePdfFile,
         },
       },
       {
@@ -150,12 +164,14 @@ export const FunctionalityRotatePdfMain = () => {
         type: 'button',
         buttonProps: {
           tooltip: t(
-            'functionality__pdf_split:components__pdf_split__button__cancel__tooltip',
+            'functionality__rotate_pdf:components__rotate_pdf__button__cancel__tooltip',
           ),
-          children: t('functionality__pdf_split:components__pdf_split__cancel'),
+          children: t(
+            'functionality__rotate_pdf:components__rotate_pdf__cancel',
+          ),
           variant: 'outlined',
           color: 'error',
-          onClick: () => onCancelPdfActive(),
+          onClick: onCancelPdfActive,
         },
       },
       {
@@ -166,14 +182,14 @@ export const FunctionalityRotatePdfMain = () => {
             name: 'ControlPointTwoTone',
             onClick: () => changeScale('enlarge'),
             tooltip: t(
-              'functionality__pdf_to_image:components__to_image_detail__button__zoom_in__tooltip',
+              'functionality__rotate_pdf:components__rotate_pdf__button__zoom_in__tooltip',
             ),
           },
           {
             name: 'RemoveCircleTwoTone',
             onClick: () => changeScale('narrow'),
             tooltip: t(
-              'functionality__pdf_to_image:components__to_image_detail__button__zoom_out__tooltip',
+              'functionality__rotate_pdf:components__rotate_pdf__button__zoom_out__tooltip',
             ),
             sx: {
               marginLeft: 1,
@@ -182,7 +198,7 @@ export const FunctionalityRotatePdfMain = () => {
         ],
       },
     ],
-    [currentIsLoading, pdfPageImageList, t],
+    [currentIsLoading, pdfPageImageInfoList, t],
   );
   const StackViewWrap = (props) => (
     <Stack
@@ -208,7 +224,7 @@ export const FunctionalityRotatePdfMain = () => {
         width: '100%',
       }}
     >
-      {!currentIsLoading && pdfPageImageList.length === 0 && (
+      {!currentIsLoading && pdfPageImageInfoList.length === 0 && (
         <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
@@ -216,13 +232,13 @@ export const FunctionalityRotatePdfMain = () => {
           onChange={onUploadFile}
         />
       )}
-      {pdfPageImageList.length > 0 && (
+      {pdfPageImageInfoList.length > 0 && (
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
 
-      {pdfPageImageList.length > 0 && !currentIsLoading && (
+      {pdfPageImageInfoList.length > 0 && !currentIsLoading && (
         <StackViewWrap>
-          {pdfPageImageList.map((imageInfo, index) => (
+          {pdfPageImageInfoList.map((imageInfo, index) => (
             <FunctionalityCommonImage
               key={imageInfo.id}
               name={String(index + 1)}
@@ -233,7 +249,7 @@ export const FunctionalityRotatePdfMain = () => {
                 overflow: 'hidden',
               }}
               imgStyle={{
-                transform: `rotate(${imageInfo.rotate}deg)`,
+                transform: `rotate(${imageInfo.rotateAngle}deg)`,
               }}
             >
               <Box
@@ -279,7 +295,7 @@ export const FunctionalityRotatePdfMain = () => {
           </Stack>
         </StackViewWrap>
       )}
-      {pdfPageImageList?.length > 0 && (
+      {pdfPageImageInfoList?.length > 0 && (
         <Grid
           container
           direction='row'
@@ -290,7 +306,7 @@ export const FunctionalityRotatePdfMain = () => {
           <Grid item xs={10} md={2}>
             <FunctionalityCommonTooltip
               title={t(
-                'functionality__pdf_split:components__pdf_split__button__download__tooltip',
+                'functionality__rotate_pdf:components__rotate_pdf__button__download__tooltip',
               )}
             >
               <Button
@@ -298,9 +314,11 @@ export const FunctionalityRotatePdfMain = () => {
                 disabled={currentIsLoading}
                 size='large'
                 variant='contained'
-                onClick={() => confirmToSplit()}
+                onClick={() => confirmToRotatePdf()}
               >
-                Download
+                {t(
+                  'functionality__rotate_pdf:components__rotate_pdf__button__download',
+                )}
               </Button>
             </FunctionalityCommonTooltip>
           </Grid>
