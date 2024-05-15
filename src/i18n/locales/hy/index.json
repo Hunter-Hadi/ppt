@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "MaxAI-ն թիվապատասխանում է",
     "home_page__in_numbers__privacy_friendly__title": "100% գաղտնի է",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me-ն ապահովում է նվագարկման նվագարկման և ապահովման մինիմալ տվյալների գնահատականը: Մենք չենք գիտակցված ձեր զննարկման/խոսաքանակի մանրամասների կամ տվյալների մասին ավելին, որպեսզի մոտեցնենք մուտքագրման հարցերը:",
-    "home_page__in_numbers__privacy_friendly__explore": "Գնահատեք մեր գաղտնիության հաստատությունը MaxAl.me-ում",
+    "home_page__in_numbers__privacy_friendly__explore": "Գնացեք մեր գաղտնիության հավաքածուներին MaxAI.me-ում",
     "home_page__in_numbers__professionals__sub_title": "աշխատակիցներ",
     "home_page__in_numbers__professionals__description": "որոշակի աշխատանքային ապահովումով աշխատողները աշխատում են MaxAI-ի հետ աշխատանքային ապահովումով",
     "home_page__in_numbers__ratings__sub_title": "5-աստղանյութեր",
@@ -859,7 +859,6 @@
     "more_over_section__description__part2": "Սա ներառում է գրավելու, էջի ամփոփումների ու ChatPDF-ից AI նկարագրության միջոցով նկարելու միջավայրերում: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին: MaxAI.me-ը ապահովում է խոսքերով պատասխաններ, օգնելով ձեզ հասկանալ թեմայի հիմնական մասերը և ստանալ հարցերի պատասխաններ, համապատասխանելով հարցերին կամ բացատրության մասերին:"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
     "components__to_image_detail__select_all": "Ընտրել բոլորը",
     "components__to_image_detail__deselect_all": "Չեղարկել բոլորը",
     "components__to_image_detail__download_images": "Ներբեռնել պատկերները",
@@ -880,7 +879,6 @@
     "components__to_image_detail__button__remove__tooltip": "Ջնջել այս PDF-ն և ընտրել նորը"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
     "components__pdf_merge__add_pdf": "Ավելացնել PDF",
     "components__pdf_merge__empty_pdf": "Մաքրել PDF-ները",
     "components__pdf_merge__confirm_merge": "Հաստատել միավորումը",
@@ -889,7 +887,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "Ավելացնել PDF ֆայլ ստորեւ"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակին",
     "components__pdf_split__add_pdf": "Ավելացնել PDF-եր",
     "components__pdf_split__remove_pdf": "Հեռացնել PDF",
     "components__pdf_split__select_all": "Ընտրել բոլորը",
@@ -925,7 +922,6 @@
     "components__image_to_pdf__position_bottom": "Ներքև"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
     "components__pdf_to_html__button__download": "Ներբեռնել",
     "components__pdf_to_html__button__convert": "Վերափոխել մեկը"
   },
@@ -978,7 +974,7 @@
     "features__pro_search__tooltip__description": "Ստացեք պատասխաններ ամենակարևոր հարցերին լրացող վեբ ինսայթներով։",
     "features__advanced_options__title": "Առաջադրանքների ընտրանքներ",
     "features__advanced_options__description": "Որոնման մեծագույնը և ավելին",
-    "features__advanced_options__tooltip__description": "Ընտրեք աշխատանքը աշխատանքային աշխատանքային լեզուն, ընտրեք աշխատանքային ժամանակի միջավայրը և աշխատանքային ժամանակի միջավայրը, ընտրեք աշխատանքային ժամանակի միջավայրը և ընտրեք Al պատասխանի լեզուն։",
+    "features__advanced_options__tooltip__description": "Ընտրեք աշխարհի լավագույն որոնիչներից, ստացեք ավելի շատ որոնման արդյունքներ, նշանակեք որոնման ժամանակաշրջանը և տարածաշրջանը, ընտրեք AI պատասխանի լեզուն Web Access-ով:",
     "features__category__best_ai_models": "Լավագույն AI մոդելներ",
     "features__category__writing_features": "Գրադարանային հատկություններ",
     "features__category__reading_features": "Կարդալու հատկություններ",
@@ -1035,7 +1031,6 @@
     "components__sign_pdf__operation_view__draw": "Նկարել",
     "components__sign_pdf__operation_view__type": "Տպել",
     "components__sign_pdf__operation_view__upload": "Վերբեռնել",
-    "components__sign_pdf__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
     "components__sign_pdf__detail__empty_sign": "Դատարկ ստուգաթերթ",
     "components__sign_pdf__detail__empty_text": "Դատարկ տեքստ",
     "components__sign_pdf__detail__finish": "Ավարտել և ստուգել",
@@ -1063,7 +1058,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "Միջին ֆայլի չափ, ստանդարտ վերահսկում",
     "components__compress_pdf__main__compress_strong_grade_title": "Թուլային",
     "components__compress_pdf__main__compress_strong_grade_description": "Փոքր ֆայլի չափ, նվազագույն վերահսկում",
-    "components__compress_pdf__main__unsupported_file_type_tip": "Խնդրում ենք վերբեռնել նշված PDF ֆայլի տեսակը",
     "components__compress_pdf__main__compress_download": "Ցածրացնել և բեռնել",
     "components__compress_pdf__main__choose_another_file": "Ընտրեք մեկ այլ ֆայլ",
     "components__compress_pdf__main__current_pdf_size": "PDF-ի ընթացիկ չափը",

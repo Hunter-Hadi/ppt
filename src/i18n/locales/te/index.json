@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "సంఖ్యలో MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% గోప్యతా సౌహార్దం",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me నిర్వహించిన కనిష్ఠ డేటా సేకరణ మరియు శక్తివంత భద్రతను ఖచ్చితం చేస్తుంది. మీ బ్రౌజింగ్ / చాట్ వివరాలు లోపల లేమో లేక డేటా గురించి తెలియదు.",
-    "home_page__in_numbers__privacy_friendly__explore": "MaxAl.me లో మా గోప్యతా ప్రతిజ్ఞను అన్వేషించండి",
+    "home_page__in_numbers__privacy_friendly__explore": "MaxAI.me లో మా గోప్యతా ప్రతిజ్ఞను అన్వేషించండి",
     "home_page__in_numbers__professionals__sub_title": "ప్రొఫెషనల్స్",
     "home_page__in_numbers__professionals__description": "ప్రపంచవ్యాప్తంగా MaxAI నమ్మకం పొందినవి",
     "home_page__in_numbers__ratings__sub_title": "5-స్టార్ రేటింగ్లు",
@@ -831,7 +831,6 @@
     "components__to_image_detail__cancel": "రద్దు చేయండి",
     "components__to_image_detail__normal_quality": "సాధారణ గుర్తింపు",
     "components__to_image_detail__high_quality": "అధిక గుర్తింపు",
-    "components__index__unsupported_file_type_tip": "దయచేసి ప్రస్తుతం ఉన్న PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
     "components__to_image_detail__view_pages": "పేజీలను చూడండి",
     "components__to_image_detail__view_images": "చిత్రాలను చూడండి",
     "components__to_image__downloader_tip": "దయచేసి కనీసం ఒక చిత్రం ఎంచుకోండి.",
@@ -880,7 +879,6 @@
     "more_over_section__description__part2": "రచన సహాయం మరియు వెబ్‌పేజ్ సారాంశీకరణ నుండి ChatPDF మరియు AI పెంటింగ్ వరకు, MaxAI.me ద్వారా మీరు చదవడం, రాయడం మరియు సృష్టించడం కోసం అత్యంత ఆధునిక AI మోడల్స్‌ను, కాబట్టి ChatGPT, Claude మరియు Gemini ని ఉపయోగించి సాధ్యం చేస్తుంది. మీ బ్రౌజింగ్ అనుభవాన్ని మెరుగుపరచండి మరియు మీ ఉత్పత్తి సామర్థ్యాన్ని అన్లాక్ చేయండి MaxAI.me తో!"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "దయచేసి నిర్దిష్టమైన PDF ఫైల్ ను అప్‌లోడ్ చేయండి",
     "components__pdf_merge__add_pdf": "PDF ని జోడించండి",
     "components__pdf_merge__empty_pdf": "PDFs ని తొలగించండి",
     "components__pdf_merge__confirm_merge": "మరియుంది చేయడానికి నిర్ధారించండి",
@@ -895,12 +893,10 @@
     "components__common__upload_button_title": "ఫైళ్ళను ఎంచుకోండి"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "దయచేసి ప్రస్తుత PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
     "components__pdf_to_html__button__download": "డౌన్‌లోడ్",
     "components__pdf_to_html__button__convert": "మరొకటిని మార్చండి"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "దయచేసి ప్రస్తుత PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
     "components__pdf_split__add_pdf": "PDF ఫైళ్ళను జోడించండి",
     "components__pdf_split__remove_pdf": "PDF ను తొలగించండి",
     "components__pdf_split__select_all": "అన్నింటినీ ఎంచుకోండి",
@@ -978,7 +974,7 @@
     "features__pro_search__tooltip__description": "విస్తృత వెబ్ ఇన్సైట్స్‌తో కఠిన ప్రశ్నలకు సమాధానం పొందండి.",
     "features__advanced_options__title": "అద్వితీయ ఎంపికలు",
     "features__advanced_options__description": "శోధన ఇంజన్ & మరే",
-    "features__advanced_options__tooltip__description": "ప్రపంచంలోని టాప్ శోధన ఇంజన్‌లను ఎంచుకోండి, మరియు మరికొన్ని శోధన ఫలితాలను పొందండి, శోధన సమయ శ్రేణి మరియు ప్రాంతాన్ని ఎంచుకోండి, మరియు వెబ్ ప్రవేశంతో Al సమాధాన భాషను ఎంచుకోండి.",
+    "features__advanced_options__tooltip__description": "ప్రపంచవ్యాప్తంగా ఉన్న ముఖ్య శోధన యంత్రాల నుండి ఎంచుకోండి, మరియు మరింత శోధ ఫలితాలను పొందండి, శోధన సమయ శ్రేణి మరియు ప్రాంతాన్ని నిర్ధారించండి, మరియు Web Access తో AI సమాధాన భాషను ఎంచుకోండి.",
     "features__category__best_ai_models": "అత్యుత్తమ AI మోడల్స్",
     "features__category__writing_features": "రచన లక్షణాలు",
     "features__category__reading_features": "చదవడం లక్షణాలు",
@@ -1035,7 +1031,6 @@
     "components__sign_pdf__operation_view__draw": "గీయండి",
     "components__sign_pdf__operation_view__type": "రకం",
     "components__sign_pdf__operation_view__upload": "అప్‌లోడ్ చేయండి",
-    "components__sign_pdf__unsupported_file_type_tip": "దయచేసి ప్రస్తుతించిన PDF ఫైల్ రకాన్ని అప్‌లోడ్ చేయండి",
     "components__sign_pdf__detail__empty_sign": "ఖాళీ సంతకం",
     "components__sign_pdf__detail__empty_text": "ఖాళీ వచనం",
     "components__sign_pdf__detail__finish": "ముగింపు & సైన్ చేయండి",
@@ -1063,7 +1058,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "మధ్యస్థ ఫైల్ పరిమాణం, స్టాండర్డ్ రిజల్యూషన్",
     "components__compress_pdf__main__compress_strong_grade_title": "బలం",
     "components__compress_pdf__main__compress_strong_grade_description": "చిన్న ఫైల్ పరిమాణం, తక్కువ రిజల్యూషన్",
-    "components__compress_pdf__main__unsupported_file_type_tip": "దయచేసి ప్రస్తుతించిన పిడిఎఫ్ ఫైల్ రకంను అప్‌లోడ్ చేయండి",
     "components__compress_pdf__main__compress_download": "తగ్గించి & డౌన్‌లోడ్ చేయండి",
     "components__compress_pdf__main__choose_another_file": "మరొక ఫైల్ ఎంచుకోండి",
     "components__compress_pdf__main__current_pdf_size": "పిడిఎఫ్ ప్రస్తుత పరిమాణం",

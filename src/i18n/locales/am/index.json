@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "MaxAI በቁጥጥር ውስጥ",
     "home_page__in_numbers__privacy_friendly__title": "100% ግል የሚያስታወቀው",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me የሚጠቀሙበት የማረጋገጫ እና የተለመደ የሆነውን የማስተላለፊያ ጥቅም መልክት እና የማረጋገጫ መረጃዎች አልተሳካም.",
-    "home_page__in_numbers__privacy_friendly__explore": "የማረጋገጫ አገልግሎትን ይመልከቱ MaxAl.me",
+    "home_page__in_numbers__privacy_friendly__explore": "የምንግዛቤ ተጠቃሚዎችን በ MaxAI.me ይመልከቱ",
     "home_page__in_numbers__professionals__sub_title": "የሚከተለውን ሠራተኞች",
     "home_page__in_numbers__professionals__description": "የMaxAI በተለመደ ሠራተኞች",
     "home_page__in_numbers__ratings__sub_title": "5-አመት የሚያሳየው ሙዚቃዎች",
@@ -859,7 +859,6 @@
     "more_over_section__description__part2": "ከጽሁፎች መልካም እና የAI-ተጠቂዎችን ማስተላለፍ እና የድርጅቶችን መጠቀም እንዲሁም ChatPDF እና AI painting የሚገኙትን በMaxAI.me ለማድረግ የሚታይ ነው። የማንኛውም የAI ሞዴሎችን በChatGPT እና Claude እና Gemini የሚገኘውን ለማድረግ የሚታይ ነው። MaxAI.me በየትኛውም ትርጉም የሚገኘውን ለማድረግ የሚታይ ነው።"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "እባክዎ የተጠቀሱ PDF ፋይል አስገቡ",
     "components__to_image_detail__select_all": "ሁሉንም ይምረጡ",
     "components__to_image_detail__deselect_all": "ሁሉንም ይምረጡ",
     "components__to_image_detail__download_images": "ምስልን ወደሚጫኑ ይለፉ",
@@ -880,7 +879,6 @@
     "components__to_image_detail__button__remove__tooltip": "ይጠፋል የPDF እና ነጥብ ማስወገጃ ይሰርዝ"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "እባክዎ የተጠቃሚውን PDF ፋይል አስገቡ",
     "components__pdf_merge__add_pdf": "PDF ጨምር",
     "components__pdf_merge__empty_pdf": "PDFs ማስጀመሪያ",
     "components__pdf_merge__confirm_merge": "አግኝተው ለመቀመጥ ይፈልጋሉ",
@@ -889,7 +887,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "PDF ፋይል ወደፊት ጨምር"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "እባክዎ የተጠቀሱ PDF ፋይል አስገቡ",
     "components__pdf_split__add_pdf": "PDF አክል",
     "components__pdf_split__remove_pdf": "PDF አስወግድ",
     "components__pdf_split__select_all": "ሁሉንም ይምረጡ",
@@ -925,7 +922,6 @@
     "components__image_to_pdf__position_bottom": "ግራ"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "እባክዎ የተጠቀሱትን PDF ፋይል አስገቡ",
     "components__pdf_to_html__button__download": "ደርብ ይሙሉ",
     "components__pdf_to_html__button__convert": "ሌላውን አስራልት"
   },
@@ -1035,7 +1031,6 @@
     "components__sign_pdf__operation_view__draw": "ጫን",
     "components__sign_pdf__operation_view__type": "አይደለም",
     "components__sign_pdf__operation_view__upload": "ዩነስ",
-    "components__sign_pdf__unsupported_file_type_tip": "እባክዎ የተጠቀሙ PDF ፋይል አስገቡ",
     "components__sign_pdf__detail__empty_sign": "ባህሪ አማራጭ",
     "components__sign_pdf__detail__empty_text": "ባህሪ ጽሑፍ",
     "components__sign_pdf__detail__finish": "መጨመር & ፈትል",
@@ -1063,7 +1058,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "መጀመሪያ የፕድፊን መጠን ማጥፊያ የሚገባቸውን ፕድፊን በመጠቀም የሚገባቸውን ፕድፊን መጠን ማሳየት ይችላሉ።",
     "components__compress_pdf__main__compress_strong_grade_title": "ጥቁም",
     "components__compress_pdf__main__compress_strong_grade_description": "ጥቁም የፕድፊን መጠን ማጥፊያ የሚገባቸውን ፕድፊን በመጠቀም የሚገባቸውን ፕድፊን መጠን ማሳየት ይችላሉ።",
-    "components__compress_pdf__main__unsupported_file_type_tip": "እባክዎ የተጠቃሚ ፕድፊን የሚገባቸውን የፕድፊን ዓይነት ይምረጡ",
     "components__compress_pdf__main__compress_download": "ማጥፊያ እና ማውረድ",
     "components__compress_pdf__main__choose_another_file": "ሌላ ፋይል ይምረጡ",
     "components__compress_pdf__main__current_pdf_size": "የአሁኑ ፕድፊን መጠን",

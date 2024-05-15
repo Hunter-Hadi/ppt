@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "આંકડામાં MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% ગોપનીયતા મિત્રતાપૂર્ણ",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me માં ઓછી ડેટા સંગ્રહ અને મજબૂત સુરક્ષા આપે છે. અમે તમારા બ્રાઉઝિંગ / ચેટિંગ વિગતો અથવા લોગિન મહત્વપૂર્ણ વિગતો પર અવગણ છીએ.",
-    "home_page__in_numbers__privacy_friendly__explore": "માક્સએલ.મે પર અમારી ગોપનીયતા પ્રતિબદ્ધતા અન્વેષણ કરો",
+    "home_page__in_numbers__privacy_friendly__explore": "મારી પ્રાઇવસી પ્રતિબંધક જોગવાઈનું અભિયાન જોવા માટે MaxAI.me પર જાઓ",
     "home_page__in_numbers__professionals__sub_title": "વ્યાવસાયિકો",
     "home_page__in_numbers__professionals__description": "જેમાં વિશ્વાસ કરે છે MaxAI વિશ્વભરમાં",
     "home_page__in_numbers__ratings__sub_title": "5-તારાંકની રેટિંગ્સ",
@@ -859,7 +859,6 @@
     "more_over_section__description__part2": "લેખન મદદ અને વેબપેજ સંક્ષેપણથી ChatPDF અને AI પેંટિંગ સુધી, MaxAI.me તમને એઆઈ-પવર્ડ સૌથી અગ્રગણ્ય મોડલ્સની સહાયથી વાંચવા, લખવા અને બનાવવાની શક્તિ આપે છે. તમારી બ્રાઉઝિંગ અનુભવને અપગ્રેડ કરો અને આજે માટે MaxAI.meની સાથે તમારી ઉત્પાદકતા સામર્થ્યને ખોલો!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઇલ પ્રકાર અપલોડ કરો",
     "components__to_image_detail__select_all": "બધા પસંદ કરો",
     "components__to_image_detail__deselect_all": "બધા પસંદ રદ કરો",
     "components__to_image_detail__download_images": "છબીઓ ડાઉનલોડ કરો",
@@ -880,7 +879,6 @@
     "components__to_image_detail__button__remove__tooltip": "આ પીડીએફ કાઢી નવી પસંદ કરો"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
     "components__pdf_merge__add_pdf": "PDF ઉમેરો",
     "components__pdf_merge__empty_pdf": "PDF ખાલી કરો",
     "components__pdf_merge__confirm_merge": "જોડવાની પુષ્ટિ કરો",
@@ -889,7 +887,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "નીચે પીડીએફ ફાઇલ ઉમેરો"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ PDF ફાઇલ પ્રકાર અપલોડ કરો",
     "components__pdf_split__add_pdf": "PDF ઉમેરો",
     "components__pdf_split__remove_pdf": "PDF કાઢી નાંખો",
     "components__pdf_split__select_all": "બધા પસંદ કરો",
@@ -925,7 +922,6 @@
     "components__image_to_pdf__position_bottom": "નીચે"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઇલ પ્રકાર અપલોડ કરો",
     "components__pdf_to_html__button__download": "ડાઉનલોડ કરો",
     "components__pdf_to_html__button__convert": "બીજું રૂપાંતર કરો"
   },
@@ -978,7 +974,7 @@
     "features__pro_search__tooltip__description": "વિસ્તૃત વેબ અનુશોધન સાથે સબસે મુશ્કેલ પ્રશ્નોના જવાબ મેળવો.",
     "features__advanced_options__title": "અગ્રગમ્ય વિકલ્પો",
     "features__advanced_options__description": "શોધ ઇજન અને વધુ",
-    "features__advanced_options__tooltip__description": "વિશ્વના શ્રેષ્ઠ શોધ ઇજન્સમાંથી પસંદ કરો, વધુ શોધ પરિણામો મેળવો, શોધ સમય રેંજ અને પ્રદેશ નિર્દિષ્ટ કરો, અને વેબ ઍક્સેસ સાથે Al પ્રતિસાદ ભાષા પસંદ કરો.",
+    "features__advanced_options__tooltip__description": "વિશ્વના ટોચના સર્ચ ઇજનિયરોમાંથી પસંદ કરો, વધુ સર્ચ પરિણામો મેળવો, સર્ચ સમય મર્યાદા અને પ્રદેશ નિર્ધારિત કરો, અને વેબ ઍક્સેસ સાથે AI પ્રતિસાદ ભાષા પસંદ કરો.",
     "features__category__best_ai_models": "શ્રેષ્ઠ AI મોડેલ્સ",
     "features__category__writing_features": "લેખન વ્યાજો",
     "features__category__reading_features": "વાંચન વ્યાજો",
@@ -1035,7 +1031,6 @@
     "components__sign_pdf__operation_view__draw": "આકાર બનાવો",
     "components__sign_pdf__operation_view__type": "ટાઇપ કરો",
     "components__sign_pdf__operation_view__upload": "અપલોડ કરો",
-    "components__sign_pdf__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઈલ અપલોડ કરો",
     "components__sign_pdf__detail__empty_sign": "ખાલી સહી",
     "components__sign_pdf__detail__empty_text": "ખાલી ટેક્સ્ટ",
     "components__sign_pdf__detail__finish": "સમાપ્ત કરો અને સહી કરો",
@@ -1063,7 +1058,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "મધ્યમ ફાઈલ કદ, માનક રેઝોલ્યૂશન",
     "components__compress_pdf__main__compress_strong_grade_title": "મજબૂત",
     "components__compress_pdf__main__compress_strong_grade_description": "નાની ફાઈલ કદ, નીચી રેઝોલ્યૂશન",
-    "components__compress_pdf__main__unsupported_file_type_tip": "કૃપા કરીને નિર્દિષ્ટ પીડીએફ ફાઈલ પ્રકાર અપલોડ કરો",
     "components__compress_pdf__main__compress_download": "સંકોચવું અને ડાઉનલોડ કરો",
     "components__compress_pdf__main__choose_another_file": "બીજી ફાઈલ પસંદ કરો",
     "components__compress_pdf__main__current_pdf_size": "પીડીએફ વર્તમાન કદ",

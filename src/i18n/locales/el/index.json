@@ -83,7 +83,8 @@
     "home_page__features_carousel__feature_chat__description4": "Κλειδί OpenAI API και περισσότερα κορυφαία μοντέλα τεχνητής νοημοσύνης της επιλογής σας",
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Κάντε κλικ για να κατεβάσετε το υπογεγραμμένο PDF σας τώρα, όλα είναι έτοιμα και ασφαλή.",
     "home_page__features_carousel__feature_art__description3": "Απλό, ισχυρό, μετασχηματιστικό",
-    "home_page__features_carousel__feature_art__description4": "Περισσότερα προηγμένα μοντέλα τέχνης AI και χαρακτηριστικά σύντομα διαθέσιμα"
+    "home_page__features_carousel__feature_art__description4": "Περισσότερα προηγμένα μοντέλα τέχνης AI και χαρακτηριστικά σύντομα διαθέσιμα",
+    "home_page__in_numbers__privacy_friendly__explore": "Εξερευνήστε τη δέσμευσή μας για την ιδιωτικότητα στο MaxAI.me"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Κλικ Προτροπές",
@@ -253,5 +254,8 @@
     "pdf_tools__title": "Δωρεάν Εργαλεία PDF Online - Μετατροπή, Συμπίεση, Επεξεργασία | MaxAI.me",
     "default__title": "MaxAI.me: 1-Click AI Παντού (GPT-4, Claude 3, Gemini 1.5)",
     "default__description": "Συνομιλία AI, αναδιατύπωση, περίληψη, άμεση απάντηση, βοηθός ανάγνωσης, υπόδειξη, αναζήτηση, τέχνη και μεταφραστής. Με την υποστήριξη του GPT-4, Claude 3, Gemini 1.5."
+  },
+  "pricing": {
+    "features__advanced_options__tooltip__description": "Επιλέξτε από τις κορυφαίες μηχανές αναζήτησης στον κόσμο, λάβετε περισσότερα αποτελέσματα αναζήτησης, καθορίστε το χρονικό εύρος και την περιοχή αναζήτησης και επιλέξτε τη γλώσσα απόκρισης AI με την πρόσβαση στον Ιστό."
   }
 }

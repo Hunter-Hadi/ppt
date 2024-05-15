@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "ಸಂಖ್ಯೆಗಳಲ್ಲಿ MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% ಗೌಪ್ಯತೆ ಸ್ನೇಹಿತ",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್/ಚಾಟ್ ವಿವರಗಳ ಅಥವಾ ಲಾಗಿನ್ ಅಗತ್ಯವಾದ ಮೇಲೆ ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಕಡಿಮೆ ಸಂಗ್ರಹಿಸುವುದು ಮತ್ತು ಬಲವಾದ ಭದ್ರತೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.",
-    "home_page__in_numbers__privacy_friendly__explore": "MaxAl.me ನ ಗೌಪ್ಯತೆ ಪ್ರಮಾಣವನ್ನು ಅನ್ವೇಷಿಸಿ",
+    "home_page__in_numbers__privacy_friendly__explore": "MaxAI.me ನಲ್ಲಿ ನಮ್ಮ ಗೌಪ್ಯತಾ ಪ್ರತಿಜ್ಞೆಯನ್ನು ಅನ್ವೇಷಿಸಿ",
     "home_page__in_numbers__professionals__sub_title": "ವ್ಯಾಪಾರಿಗಳು",
     "home_page__in_numbers__professionals__description": "ಜಗತ್ತಿನಲ್ಲಿ MaxAI ನಂಬಿಕೆಯಿಂದ ನಿರೀಕ್ಷಿಸುವವರು",
     "home_page__in_numbers__ratings__sub_title": "5 ತಾರೆಯ ಮೌಲ್ಯಮಾಪನಗಳು",
@@ -859,7 +859,6 @@
     "more_over_section__description__part2": "ಬರವಣಿಗೆ ಸಹಾಯ, ವೆಬ್‌ಪೇಜ್ ಸಂಗ್ರಹಣೆ, ChatPDF ಮತ್ತು ಏಐ ಚಿತ್ರಕಲೆ ಹೀಗೆ ಅನೇಕ ಏಐ ಸೌಲಭ್ಯಗಳನ್ನು ಹೊಂದಿರಿ. ChatGPT, Claude ಮತ್ತು Gemini ಈ ಹೊಸದಾಗಿ ಬಂದ ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಸಹಾಯದಿಂದ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ, ನಿಮ್ಮ ಉತ್ಪಾದಕತೆಯ ಸಾಧ್ಯತೆಯನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ. MaxAI.me ನೊಂದಿಗೆ ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್ ಅನುಭವವನ್ನು ಮೆಟ್ಟಿನಿಟ್ ಮಾಡಿ!"
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__to_image_detail__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
     "components__to_image_detail__deselect_all": "ಎಲ್ಲನ್ನೂ ಆಯ್ಕೆ ರದ್ದು ಮಾಡಿ",
     "components__to_image_detail__download_images": "ಚಿತ್ರಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
@@ -880,7 +879,6 @@
     "components__to_image_detail__button__remove__tooltip": "ಈ ಪಿಡಿಎಫ್ ತೆರವುಗೊಳಿಸಿ ಮತ್ತೊಂದನ್ನು ಆಯ್ಕೆಮಾಡಿ"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_merge__add_pdf": "ಪಿಡಿಎಫ್ ಸೇರಿಸಿ",
     "components__pdf_merge__empty_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "components__pdf_merge__confirm_merge": "ಮರುಹೊಂದಿಸುವುದನ್ನು ಖಚಿತಪಡಿಸಿ",
@@ -889,7 +887,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "ಕೆಳಗೆ ಪಿಡಿಎಫ್ ಕಡತವನ್ನು ಸೇರಿಸಿ"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_split__add_pdf": "ಪಿಡಿಎಫ್‌ಗಳನ್ನು ಸೇರಿಸಿ",
     "components__pdf_split__remove_pdf": "ಪಿಡಿಎಫ್ ತೆಗೆದುಹಾಕಿ",
     "components__pdf_split__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",
@@ -925,7 +922,6 @@
     "components__image_to_pdf__position_bottom": "ಕೆಳಗೆ"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿಗ್ದಿತ ಪಿಡಿಎಫ್ ಫೈಲ್ ವರ್ಗಕ್ಕೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_to_html__button__download": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__pdf_to_html__button__convert": "ಇನ್ನೊಂದನ್ನು ಪರಿವರ್ತಿಸಿ"
   },
@@ -978,7 +974,7 @@
     "features__pro_search__tooltip__description": "ವಿಸ್ತರಿಸಿದ ವೆಬ್ ಅರಿವುಗಳೊಂದಿಗೆ ಕಠಿಣ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಗಳನ್ನು ಪಡೆಯಿರಿ.",
     "features__advanced_options__title": "ಮುಂದಿನ ಆಯ್ಕೆಗಳು",
     "features__advanced_options__description": "ಹುಡುಕಾಟ ಇಂಜಿನ್ ಮತ್ತು ಇನ್ನಷ್ಟು",
-    "features__advanced_options__tooltip__description": "ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ಹುಡುಕಾಟ ಇಂಜಿನ್‌ಗಳಿಂದ ಆಯ್ಕೆ ಮಾಡಿ, ಹೆಚ್ಚು ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಿರಿ, ಹುಡುಕಾಟ ಸಮಯ ಶ್ರೇಣಿ ಮತ್ತು ಪ್ರದೇಶವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ, ಮತ್ತು ವೆಬ್ ಪ್ರವೇಶದೊಂದಿಗೆ ಆಲ್ ಪ್ರತಿಕ್ರಿಯೆ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "features__advanced_options__tooltip__description": "ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ಹುಡುಕು ಇಂಜಿನ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಹೆಚ್ಚು ಹುಡುಕು ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಿರಿ, ಹುಡುಕು ಸಮಯ ಶ್ರೇಣಿ ಮತ್ತು ಪ್ರದೇಶವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ, ಮತ್ತು ವೆಬ್ ಆಕ್ಸೆಸ್ ನೊಂದಿಗೆ ಎನ್ನುವುದರಿಂದ AI ಪ್ರತಿಕ್ರಿಯೆ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
     "features__category__best_ai_models": "ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳು",
     "features__category__writing_features": "ಬರಹ ವೈಶಿಷ್ಟ್ಯಗಳು",
     "features__category__reading_features": "ಓದುವ ವೈಶಿಷ್ಟ್ಯಗಳು",
@@ -1035,7 +1031,6 @@
     "components__sign_pdf__operation_view__draw": "ರೇಖಾಚಿತ್ರಿಸಿ",
     "components__sign_pdf__operation_view__type": "ಟೈಪ್ ಮಾಡಿ",
     "components__sign_pdf__operation_view__upload": "ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
-    "components__sign_pdf__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__sign_pdf__detail__empty_sign": "ಖಾಲಿ ಸಹಿ",
     "components__sign_pdf__detail__empty_text": "ಖಾಲಿ ಪಠ್ಯ",
     "components__sign_pdf__detail__finish": "ಮುಗಿಸಿ & ಸೈನ್ ಮಾಡಿ",
@@ -1063,7 +1058,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "ಮಧ್ಯಮ ಫೈಲ್ ಗಾತ್ರ, ಸಾಮಾನ್ಯ ವಿನಂತಿ",
     "components__compress_pdf__main__compress_strong_grade_title": "ಬಲವಾದ",
     "components__compress_pdf__main__compress_strong_grade_description": "ಸಣ್ಣ ಫೈಲ್ ಗಾತ್ರ, ಕಡಿಮೆ ವಿನಂತಿ",
-    "components__compress_pdf__main__unsupported_file_type_tip": "ದಯವಿಟ್ಟು ನಿರ್ದಿಷ್ಟ ಪಿಡಿಎಫ್ ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__compress_pdf__main__compress_download": "ಸಂಕುಚಿಸಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__compress_pdf__main__choose_another_file": "ಇನ್ನೊಂದು ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ",
     "components__compress_pdf__main__current_pdf_size": "ಪಿಡಿಎಫ್ ಪ್ರಸ್ತುತ ಗಾತ್ರ",

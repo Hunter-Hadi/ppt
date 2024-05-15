@@ -143,7 +143,7 @@
     "home_page__in_numbers__title": "എണ്ണങ്ങളിൽ MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% പ്രൈവസി ഫ്രണ്ട്ലി",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me സ്വന്തമായി ഡാറ്റ ശേഖരണം കുറവാക്കുന്നുവെന്ന് ഉറപ്പിച്ചുകൊണ്ട് സുരക്ഷയും അതിനെ മജ്ജിക്കുന്നു. ഞങ്ങൾ നിങ്ങളുടെ ബ്രൗസിംഗ് / ചാറ്റിംഗ് വിവരങ്ങൾ അല്ലെങ്കിൽ ലോഗിൻ അവശേഷികളിലേക്ക് അജ്ഞാതമാണ്.",
-    "home_page__in_numbers__privacy_friendly__explore": "MaxAl.me-യുടെ പ്രൈവസി പ്രതിജ്ഞ അവലോകനം",
+    "home_page__in_numbers__privacy_friendly__explore": "ഞങ്ങളുടെ സ്വകാര്യതാ പ്രമാണം MaxAI.me എന്നിലേക്ക് അന്വേഷിക്കുക",
     "home_page__in_numbers__professionals__sub_title": "പേര്",
     "home_page__in_numbers__professionals__description": "ലോകത്തെയും വിശ്വസ്തമാക്കിയവർ",
     "home_page__in_numbers__ratings__sub_title": "5-സ്റ്റാർ റേറ്റിംഗുകൾ",
@@ -824,7 +824,6 @@
     "pdf_tools__compress_pdf__description": "ഫാസ്റ്റ് ആയിരിക്കാനുള്ള പ്രദർശനത്തിനും സുരക്ഷിതമായിരിക്കാനുള്ള സ്ഥാനിയ ബ്രൌസറിൽ പിഡിഎഫ് ഫയലുകൾ കുറഞ്ഞതാക്കുക. വാടർമാർക്ക്, ഫയൽ വലുപ്പം പരിധി, ഡൗൺലോഡ് അല്ലെങ്കിൽ രജിസ്ട്രേഷൻ ആവശ്യമില്ല."
   },
   "functionality__pdf_to_image": {
-    "components__index__unsupported_file_type_tip": "ദയവായി നിര്‍ദിഷ്ടപ്പെടുന്ന PDF ഫയല്‍ തരം അപ്‌ലോഡ് ചെയ്യുക",
     "components__to_image_detail__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
     "components__to_image_detail__deselect_all": "എല്ലാം തിരഞ്ഞെടുക്കാതാക്കുക",
     "components__to_image_detail__download_images": "ചിത്രങ്ങള്‍ ഡൗണ്‍ലോഡ് ചെയ്യുക",
@@ -880,7 +879,6 @@
     "more_over_section__description__part2": "എഴുത്ത് സഹായംകൊണ്ട് പേജ് സംഗ്രഹിക്കൽ, ChatPDF ഉം AI ചിത്രകല ഉണ്ടാക്കൽ വരെയുള്ള മികച്ച AI മോഡലുകളുടെ സഹായത്തോടെ MaxAI.me നിങ്ങളെ ശക്തമാക്കുന്നു. ChatGPT, Claude, Gemini എന്നിവയുടെ സഹായത്തോടെ നിങ്ങളുടെ ബ്രൗസിംഗ് അനുഭവവും ഉറപ്പും മേഘനിലയാക്കുക. MaxAI.me ഇന്ന് ഉപയോഗിക്കുക!"
   },
   "functionality__pdf_merge": {
-    "components__pdf_merge__unsupported_file_type_tip": "ദയവായി നിർദ്ദേശിച്ച PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
     "components__pdf_merge__add_pdf": "PDF ചേർക്കുക",
     "components__pdf_merge__empty_pdf": "PDF മായ്ക്കുക",
     "components__pdf_merge__confirm_merge": "ഒരുപാട് ചേർക്കാൻ സ്ഥിരീകരിക്കുക",
@@ -889,7 +887,6 @@
     "components__pdf_merge__button__add_pdfs__tooltip": "താഴെ പിഡിഎഫ് ഫയൽ ചേർക്കുക"
   },
   "functionality__pdf_split": {
-    "components__pdf_split__unsupported_file_type_tip": "ദയവായി നിർദ്ദേശിച്ച PDF ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
     "components__pdf_split__add_pdf": "PDF കൂട്ടുക",
     "components__pdf_split__remove_pdf": "PDF നീക്കുക",
     "components__pdf_split__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
@@ -925,7 +922,6 @@
     "components__image_to_pdf__position_bottom": "അടിഞ്ഞാറിലേക്ക്"
   },
   "functionality__pdf_to_html": {
-    "components__pdf_to_html__unsupported_file_type_tip": "ദയവായി നിർദിഷ്ടപ്പെടുത്തിയ PDF ഫയൽ തരം അപ്ലോഡ് ചെയ്യുക",
     "components__pdf_to_html__button__download": "ഡൗൺലോഡ്",
     "components__pdf_to_html__button__convert": "മറ്റൊരു പരിവർത്തനം"
   },
@@ -978,7 +974,7 @@
     "features__pro_search__tooltip__description": "വിശ്വാസപ്പെടുത്തപ്പെട്ട വെബ് അറിവുകൾ ഉപയോഗിച്ച് ഏറ്റവും കഠിനമായ ചോദ്യങ്ങളിലേക്ക് ഉത്തരങ്ങൾ നൽകുക.",
     "features__advanced_options__title": "അടുത്തിടെയുള്ള ഓപ്ഷനുകൾ",
     "features__advanced_options__description": "തിരച്ചിലുകൾ എഞ്ചിൻ & കൂടുതൽ",
-    "features__advanced_options__tooltip__description": "ലോകത്തിന്റെ ഏറ്റവും മുകളിൽ നിന്നുള്ള തിരച്ചിലുകൾ തിരഞ്ഞെടുക്കുക, കൂടുതൽ തിരച്ചിലുകൾ നേരിട്ട് നൽകുക, തിരച്ചിലുള്ള സമയ പരിധിയും പ്രദേശവും നിരോധിക്കുക, വെബ് ആക്സസ് ഉപയോഗിച്ച് Al പ്രതികരണ ഭാഷ തിരഞ്ഞെടുക്കുക.",
+    "features__advanced_options__tooltip__description": "ലോകത്തിന്‍റെ മുകളില്‍ ഉള്ള സേരിച്ചുള്ള തിരയുന്നവരുടെ നിരവധി ഫലങ്ങള്‍, തിരയുന്ന സമയം പരിധികള്‍ അറിയാന്‍, പ്രദേശം തിരഞ്ഞെടുക്കാനും, വെബ് ആക്‌സസിനൊപ്പം എ.ഐ. പ്രതികര ഭാഷ തിരഞ്ഞെടുക്കാനും ലഭ്യമാണ്.",
     "features__category__best_ai_models": "ഏറ്റവും മികച്ച AI മോഡലുകൾ",
     "features__category__writing_features": "എഴുത്ത് സവിശേഷതകൾ",
     "features__category__reading_features": "വായന സവിശേഷതകൾ",
@@ -1035,7 +1031,6 @@
     "components__sign_pdf__operation_view__draw": "ഡ്രോ",
     "components__sign_pdf__operation_view__type": "ടൈപ്പ്",
     "components__sign_pdf__operation_view__upload": "അപ്ലോഡ്",
-    "components__sign_pdf__unsupported_file_type_tip": "ദയവായി നിർദിഷ്ടപ്പെട്ട PDF ഫയൽ അപ്ലോഡ് ചെയ്യുക",
     "components__sign_pdf__detail__empty_sign": "ശൂന്യമായ സൈൻ",
     "components__sign_pdf__detail__empty_text": "ശൂന്യമായ ടെക്സ്റ്റ്",
     "components__sign_pdf__detail__finish": "പൂർത്തിയാക്കുക & സൈൻ ചെയ്യുക",
@@ -1063,7 +1058,6 @@
     "components__compress_pdf__main__compress_basic_grade_description": "മധ്യമം ഫയൽ വലുപ്പം, നിയമാനുസരണം റെസല്യൂഷൻ",
     "components__compress_pdf__main__compress_strong_grade_title": "ശക്തമായ",
     "components__compress_pdf__main__compress_strong_grade_description": "ചെറിയ ഫയൽ വലുപ്പം, കുറഞ്ഞ റെസല്യൂഷൻ",
-    "components__compress_pdf__main__unsupported_file_type_tip": "ദയവായി നിർദിഷ്ടപ്പെടുന്ന PDF ഫയൽ തരം അപ്ലോഡ് ചെയ്യുക",
     "components__compress_pdf__main__compress_download": "കുറഞ്ഞതാക്കുക & ഡൗൺലോഡ് ചെയ്യുക",
     "components__compress_pdf__main__choose_another_file": "മറ്റൊരു ഫയൽ തിരഞ്ഞെടുക്കുക",
     "components__compress_pdf__main__current_pdf_size": "PDF നിലവിലെ വലുപ്പം",
