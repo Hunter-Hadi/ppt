@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Isalin sa pagitan ng anumang wika",
     "home_page__features_carousel__feature_prompts__label": "AI Prompts",
     "home_page__features_carousel__feature_prompts__title": "Tapusin ang iyong araw-araw na gawain sa loob ng ilang minuto, hindi na oras.",
-    "home_page__features_carousel__feature_prompts__description1": "Mataas na kalidad na AI prompts library",
+    "home_page__features_carousel__feature_prompts__description1": "Mataas na kalidad na AI prompt library",
     "home_page__features_carousel__feature_prompts__description2": "Lumikha at pamahalaan ang iyong sariling mga prompts",
     "home_page__features_carousel__feature_prompts__description3": "Muling gamitin ang iyong sariling mga prompts",
     "home_page__features_carousel__feature_prompts__description4": "Pasadyang tono at estilo ng pagsusulat",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "I-OCR ang nasken na dokumento sa PDF, upang madaling pumili ng kopya at maghanap ng teksto"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Click Mga Prompt",
-    "use_prompt_library__title__tooltip": "Mga prompt sa 1-click",
+    "use_prompt_library__title": "Mataas na kalidad na AI prompt library",
+    "use_prompt_library__title__tooltip": "Aklatan ng mga AI prompt",
     "tab__favorites__title": "Mga Paborito",
     "tab__public__title": "Pampubliko",
     "tab__own__title": "Sarili",
@@ -625,7 +625,7 @@
     "footer__title": "AI tool para sa produktibidad",
     "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, at pagsasalin. Pinapagana ng GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Mga Produkto",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "Mataas na kalidad na AI prompt library",
     "footer__follow_us": "Sundan Kami",
     "footer__help": "Tulong",
     "footer__how_to_use": "Paano Gamitin",
@@ -804,7 +804,7 @@
     "privacy__title": "Patakaran sa Privacy | MaxAI.me",
     "privacy__description": "Basahin ang patakaran sa privacy ng MaxAI.me.",
     "prompts__title": "Mga Prompt | MaxAI.me",
-    "prompts__description": "Tapusin ang iyong pang-araw-araw na mga gawain gamit ang Pamamahala ng Mga Prompt at 1-Click Prompts sa loob ng ilang minuto na dati ay tumatagal ng oras.",
+    "prompts__description": "Tapusin ang iyong pang-araw-araw na mga gawain gamit ang Pamamahala ng Prompt at Mataas na kalidad na AI prompt library sa loob ng ilang minuto na dati ay tumatagal ng oras.",
     "release_notes__title": "Mga Release Notes | MaxAI.me",
     "share_conversation__title": "Ibahagi ang Usapan | MaxAI.me",
     "uninstall__title": "Tanggalin | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Ang pinakamabilis na paraan upang suriin ang mga imahe gamit ang AI vision. Kuhanin lamang ang isang screenshot at itanong agad ang anumang mga tanong. Mas matalino ang iyong pananaliksik habang binabalik ang mahahalagang oras araw-araw.",
     "ai_vision_pages__section3__title": "Gumagana kung saan ka nagtatrabaho",
     "ai_vision_pages__section3__description": "Surin ang anumang imahe, mismong sa lugar na kailangan mo ito. Gumagana ang MaxAI sa lahat ng web apps at sites na ginagamit mo. Walang pagkopya, walang pagpindot, walang paglipat ng konteksto.",
-    "ai_vision_pages__section4__title": "Pinapagana ng pinakamahusay na AI models na may vision"
+    "ai_vision_pages__section4__title": "Pinapagana ng pinakamahusay na AI models na may vision",
+    "cta_text__add_to_browser_for_free": "Idagdag sa {{BROWSER}} nang libre"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Piliin Lahat",

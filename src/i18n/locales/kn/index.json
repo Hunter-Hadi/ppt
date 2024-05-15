@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "ಯಾವುದೇ ಭಾಷೆಗಳ ನಡುವೆ ಅನುವಾದಿಸಿ",
     "home_page__features_carousel__feature_prompts__label": "ಏಎಯ್ ಪ್ರಮ್ಪ್ಟ್ಸ್",
     "home_page__features_carousel__feature_prompts__title": "ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ಮುಗಿಸಿ, ಹೊರತು ಹೊರಗೆ ಕಾಲವನ್ನು ವ್ಯಯಿಸಬೇಡಿ.",
-    "home_page__features_carousel__feature_prompts__description1": "ಉನ್ನತ ಗುಣಮಟ್ಟದ ಏಎಯ್ ಪ್ರಮ್ಪ್ಟ್ಸ್ ಲೈಬ್ರರಿ",
+    "home_page__features_carousel__feature_prompts__description1": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
     "home_page__features_carousel__feature_prompts__description2": "ನಿಮ್ಮ ಪ್ರಮ್ಪ್ಟ್ಸ್ ರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ",
     "home_page__features_carousel__feature_prompts__description3": "ನಿಮ್ಮ ಪ್ರಮ್ಪ್ಟ್ಸ್ ಮರುಪಯೋಗಿಸಿ",
     "home_page__features_carousel__feature_prompts__description4": "ವೈಯಕ್ತಿಕ ಧ್ವನಿ ಮತ್ತು ಬರಹ ಶೈಲಿ",
@@ -582,8 +582,8 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ಗುಣಮಟ್ಟವನ್ನು ನೋಡಲು OCR PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
-    "use_prompt_library__title__tooltip": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
+    "use_prompt_library__title": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
+    "use_prompt_library__title__tooltip": "AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
     "tab__favorites__title": "ಮೆಚ್ಚುಗೆಯ ವಸ್ತುಗಳು",
     "tab__public__title": "ಪ್ರಕಟಣೆ",
     "tab__own__title": "ನನ್ನದು",
@@ -625,7 +625,7 @@
     "footer__title": "ಯುಎಕ್ಸ್ ಉಪಕರಣ",
     "footer__desc": "AI ಚಾಟ್, ಮರುವರ್ತಿಸುವವರು, ಸಂಗ್ರಹ, ತಕ್ಷಣ ಉತ್ತರ, ಓದುವ ಸಹಾಯಕ, ಪ್ರಾಂಪ್ಟ್ಸ್, ಹುಡುಕು, ಕಲೆ ಮತ್ತು ಅನುವಾದಕ. GPT-4, Claude 3, Gemini 1.5 ದ್ವಾರಾ ಪ್ರಾಮುಖ್ಯವಾಗಿ ನಡೆಸಲಾಗುತ್ತದೆ.",
     "footer__products": "ಉತ್ಪನ್ನಗಳು",
-    "footer__1_click_prompts": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್‌ಗಳು",
+    "footer__1_click_prompts": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
     "footer__follow_us": "ನಮ್ಮ ಹಕ್ಕುಗಳನ್ನು ಅನುಸರಿಸಿ",
     "footer__help": "ಸಹಾಯ",
     "footer__how_to_use": "ಹೇಗೆ ಬಳಸಬೇಕು",
@@ -804,7 +804,7 @@
     "privacy__title": "ಗೌಪ್ಯತೆ ನೀತಿ | MaxAI.me",
     "privacy__description": "MaxAI.me ಗೌಪ್ಯತೆ ನೀತಿಯನ್ನು ಓದಿ.",
     "prompts__title": "ಪ್ರಾಂಪ್ಟ್ಸ್ | MaxAI.me",
-    "prompts__description": "ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಪ್ರಾಂಪ್ಟ್ ನಿರ್ವಹಣೆ ಮತ್ತು 1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಸ್ ಅನ್ನು ಬಳಕೆದಾರರಿಗೆ ಒಂದು ನಿಮಿಷದಲ್ಲಿ ಮುಗಿಸಲು ಹೇಗೆ ಮಾಡಲು ನೋಡಿಕೆಗಳನ್ನು ಬಳಸಿ.",
+    "prompts__description": "ಪ್ರಾಂಪ್ಟ್ ಮ್ಯಾನೇಜ್ಮೆಂಟ್ ಮತ್ತು ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ ನೋಡಿ, ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ಮುಗಿಸಿ.",
     "release_notes__title": "ವಿಮೊಚನೆ ನೋಟಗಳು | MaxAI.me",
     "share_conversation__title": "ಸಂಭಾಷಣೆ ಹಂಚಿಕೆ | MaxAI.me",
     "uninstall__title": "ಅಸ್ಥಾಪನೆ ರದ್ದುಮಾಡಿ | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "AI ದೃಷ್ಟಿಯೊಂದಿಗೆ ಚಿತ್ರಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುವ ಅತ್ಯಂತ ವೇಗವಾದ ಮಾರ್ಗ. ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತೆಗೆದುಕೊಂಡು ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿ. ಪ್ರತಿದಿನ ಅನರ್ಥಕ್ಕೆ ಹೋಗುವುದೊಂದನ್ನು ಪುನಃ ಪಡೆಯುವ ಮೂಲಕ ಸ್ಮಾರ್ಟ್‌ಗೆ ಪುನಃ ಪ್ರತಿಷ್ಠಿಸಿ.",
     "ai_vision_pages__section3__title": "ನೀವು ಕೆಲಸ ಮಾಡುವ ಸ್ಥಳದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ",
     "ai_vision_pages__section3__description": "ನೀವು ಅದನ್ನು ಬೇಕಾದರೆ ಎಲ್ಲಾ ಚಿತ್ರಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ, ನೀವು ಅದಕ್ಕೆ ಬೇಕಾದರೆ ಹೋಗುವ ಸ್ಥಳದಲ್ಲಿ. MaxAI ನೀವು ಬಳಸುವ ಎಲ್ಲ ವೆಬ್ ಆ್ಯಪ್ಸ್ ಮತ್ತು ಸೈಟ್‌ಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ನಕಲಿಯಾಗುವುದಿಲ್ಲ, ಹಾಕುವುದಿಲ್ಲ, ಸಂದರ್ಭ ಬದಲಾಯಿಸುವುದಿಲ್ಲ.",
-    "ai_vision_pages__section4__title": "ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಬಲದಿಂದ ಪ್ರಾಧಾನ್ಯ ಪಡೆದಿದೆ"
+    "ai_vision_pages__section4__title": "ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಬಲದಿಂದ ಪ್ರಾಧಾನ್ಯ ಪಡೆದಿದೆ",
+    "cta_text__add_to_browser_for_free": "ಉಚಿತವಾಗಿ {{BROWSER}} ಗೆ ಸೇರಿಸಿ"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",

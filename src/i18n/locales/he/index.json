@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "תרגום בין שפות",
     "home_page__features_carousel__feature_prompts__label": "AI Prompts",
     "home_page__features_carousel__feature_prompts__title": "השלמת משימות היומיות שלך בדקות, לא בשעות יותר.",
-    "home_page__features_carousel__feature_prompts__description1": "ספריית AI prompts ברמה גבוהה",
+    "home_page__features_carousel__feature_prompts__description1": "ספריית תמיכה ב-AI איכותית",
     "home_page__features_carousel__feature_prompts__description2": "יצירה וניהול של prompts משלך",
     "home_page__features_carousel__feature_prompts__description3": "שימוש חוזר בprompts שלך",
     "home_page__features_carousel__feature_prompts__description4": "סגנון וסגנון כתיבה מותאמים אישית",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "סריקת קובץ PDF באמצעות OCR, כך שתוכל לבחור להעתיק ולחפש טקסט בקלות"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-לחיצה על הצעות",
-    "use_prompt_library__title__tooltip": "לחיצה אחת על הצעות",
+    "use_prompt_library__title": "ספריית פרומפטים מתקדמת",
+    "use_prompt_library__title__tooltip": "ספריית הצעות AI",
     "tab__favorites__title": "מועדפים",
     "tab__public__title": "ציבורי",
     "tab__own__title": "שלי",
@@ -625,7 +625,7 @@
     "footer__title": "כלי יעילות AI",
     "footer__desc": "צ'אט AI, מחדש, סיכום, תשובה מיידית, עוזר קריאה, רמזים, חיפוש, אמנות ומתרגם. מופעל על ידי GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "מוצרים",
-    "footer__1_click_prompts": "1-לחיצה Prompts",
+    "footer__1_click_prompts": "ספריית פרומפטים מתקדמת",
     "footer__follow_us": "עקוב אחרינו",
     "footer__help": "עזרה",
     "footer__how_to_use": "איך להשתמש",
@@ -803,7 +803,7 @@
     "privacy__title": "מדיניות פרטיות | MaxAI.me",
     "privacy__description": "קרא את מדיניות הפרטיות של MaxAI.me.",
     "prompts__title": "פרומפטים | MaxAI.me",
-    "prompts__description": "השלם את המשימות היומיות שלך עם ניהול פרומפטים ופרומפטים בלחיצה אחת בדקות שלקחו לך שעות.",
+    "prompts__description": "השלמת משימות יומיות באמצעות ניהול פרומפטים וספריית פרומפטים מתקדמת של AI בדקות שלקחו לך שעות.",
     "release_notes__title": "הודעות גרסה | MaxAI.me",
     "share_conversation__title": "שתף שיחה | MaxAI.me",
     "uninstall__title": "הסרה | MaxAI.me",
@@ -1031,7 +1031,8 @@
     "ai_vision_pages__section2__description": "הדרך המהירה ביותר לנתח תמונות עם ראיית AI. פשוט צלם מסך ושאל שאלות כלשהן מיד. עבודה חכמה יותר תוך שחזור שעות יקרות בכל יום.",
     "ai_vision_pages__section3__title": "עובד במקום שבו אתה עובד",
     "ai_vision_pages__section3__description": "נתח כל תמונה, בדיוק במקום שאתה זקוק לזה. MaxAI עובד בכל אפליקציות הרשת והאתרים שאתה משתמש בהם. אין העתקה, אין הדבקה, אין החלפת הקשר.",
-    "ai_vision_pages__section4__title": "מופעל על ידי המודלים הטובים ביותר של AI עם ראייה"
+    "ai_vision_pages__section4__title": "מופעל על ידי המודלים הטובים ביותר של AI עם ראייה",
+    "cta_text__add_to_browser_for_free": "הוסף ל{{BROWSER}} בחינם"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "בחר הכל",

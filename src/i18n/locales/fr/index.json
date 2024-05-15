@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Traduisez entre toutes les langues",
     "home_page__features_carousel__feature_prompts__label": "Sugestions IA",
     "home_page__features_carousel__feature_prompts__title": "Terminez vos tâches quotidiennes en quelques minutes maintenant, plus en heures.",
-    "home_page__features_carousel__feature_prompts__description1": "Bibliothèque de sugestions IA de haute qualité",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliothèque de prompts IA de haute qualité",
     "home_page__features_carousel__feature_prompts__description2": "Créez et gérez vos propres sugestions",
     "home_page__features_carousel__feature_prompts__description3": "Réutilisez vos propres sugestions",
     "home_page__features_carousel__feature_prompts__description4": "Ton personnalisé et styles d'écriture",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR le document PDF numérisé, afin que vous puissiez facilement choisir de copier et rechercher du texte"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Clic pour les suggestions",
-    "use_prompt_library__title__tooltip": "Suggestions en 1 clic",
+    "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",
+    "use_prompt_library__title__tooltip": "Bibliothèque de suggestions d'IA",
     "tab__favorites__title": "Favoris",
     "tab__public__title": "Public",
     "tab__own__title": "Propre",
@@ -625,7 +625,7 @@
     "footer__title": "Outil de productivité IA",
     "footer__desc": "Chatbot IA, rédacteur, résumé, réponse instantanée, assistant de lecture, suggestions, recherche, art et traducteur. Propulsé par GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produits",
-    "footer__1_click_prompts": "Prompts en 1 clic",
+    "footer__1_click_prompts": "Bibliothèque de prompts IA de haute qualité",
     "footer__follow_us": "Suivez-nous",
     "footer__help": "Aide",
     "footer__how_to_use": "Comment utiliser",
@@ -804,7 +804,7 @@
     "privacy__title": "Politique de confidentialité | MaxAI.me",
     "privacy__description": "Lisez la politique de confidentialité de MaxAI.me.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Terminez vos tâches quotidiennes avec la gestion des prompts et les prompts en un clic en quelques minutes au lieu de plusieurs heures.",
+    "prompts__description": "Terminez vos tâches quotidiennes avec la gestion des prompts et la bibliothèque de prompts IA de haute qualité en quelques minutes au lieu de plusieurs heures.",
     "release_notes__title": "Notes de version | MaxAI.me",
     "share_conversation__title": "Partager la conversation | MaxAI.me",
     "uninstall__title": "Désinstaller | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "La façon la plus rapide d'analyser des images avec la vision IA. Prenez simplement une capture d'écran et posez immédiatement toutes vos questions. Faites des recherches plus intelligentes tout en récupérant des heures précieuses chaque jour.",
     "ai_vision_pages__section3__title": "Fonctionne là où vous travaillez",
     "ai_vision_pages__section3__description": "Analysez n'importe quelle image, là où vous en avez besoin. MaxAI fonctionne sur toutes les applications Web et les sites que vous utilisez. Pas de copier-coller, pas de changement de contexte.",
-    "ai_vision_pages__section4__title": "Alimenté par les meilleurs modèles d'IA avec vision"
+    "ai_vision_pages__section4__title": "Alimenté par les meilleurs modèles d'IA avec vision",
+    "cta_text__add_to_browser_for_free": "Ajouter à {{BROWSER}} gratuitement"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Tout sélectionner",

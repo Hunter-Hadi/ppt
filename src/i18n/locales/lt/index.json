@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Versti tarp bet kokių kalbų",
     "home_page__features_carousel__feature_prompts__label": "AI Užduotys",
     "home_page__features_carousel__feature_prompts__title": "Užbaikite savo kasdienius uždavinius per minutes, o ne valandas.",
-    "home_page__features_carousel__feature_prompts__description1": "Aukštos kokybės AI užduočių biblioteka",
+    "home_page__features_carousel__feature_prompts__description1": "Aukštos kokybės dirbtinio intelekto užuominų biblioteka",
     "home_page__features_carousel__feature_prompts__description2": "Kurkite ir tvarkykite savo pačių užduotis",
     "home_page__features_carousel__feature_prompts__description3": "Panaudokite savo pačių užduotis",
     "home_page__features_carousel__feature_prompts__description4": "Individualus tonas ir rašymo stiliai",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Atpažinkite skenuotą PDF dokumentą, kad galėtumėte lengvai pasirinkti kopijuoti ir ieškoti teksto"
   },
   "prompt_library": {
-    "use_prompt_library__title": "Vieno paspaudimo užduotys",
-    "use_prompt_library__title__tooltip": "Vieno paspaudimo užduotys",
+    "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",
+    "use_prompt_library__title__tooltip": "AI naudojimo užuominų biblioteka",
     "tab__favorites__title": "Mėgstamiausi",
     "tab__public__title": "Vieši",
     "tab__own__title": "Savos",
@@ -625,7 +625,7 @@
     "footer__title": "AI produktyvumo įrankis",
     "footer__desc": "AI pokalbis, peržodinimas, santrauka, momentinis atsakymas, skaitymo asistentas, užuominos, paieška, menas ir vertėjas. Veikia su GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produktai",
-    "footer__1_click_prompts": "Vieno paspaudimo užduotys",
+    "footer__1_click_prompts": "Aukštos kokybės AI užduočių biblioteka",
     "footer__follow_us": "Sekite mus",
     "footer__help": "Pagalba",
     "footer__how_to_use": "Kaip naudotis",
@@ -804,7 +804,7 @@
     "privacy__title": "Privatumo politika | MaxAI.me",
     "privacy__description": "Skaitykite MaxAI.me privatumo politiką.",
     "prompts__title": "Užduotys | MaxAI.me",
-    "prompts__description": "Užbaikite savo kasdienius uždavinius su Užduočių valdymu ir 1 paspaudimu užduotimis per kelias minutes, kurios anksčiau užtrukdavo valandas.",
+    "prompts__description": "Užbaikite savo kasdienines užduotis naudodami Užduočių valdymą ir aukštos kokybės AI užduočių biblioteką per kelias minutes, kurios anksčiau užtrukdavo valandas.",
     "release_notes__title": "Atnaujinimų žinutės | MaxAI.me",
     "share_conversation__title": "Dalintis pokalbiu | MaxAI.me",
     "uninstall__title": "Pašalinti | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Greičiausias būdas analizuoti nuotraukas su AI vizija. Tiesiog padarykite ekrano kopiją ir nedelsiant užduokite klausimus. Išmaniai tyrinėkite, tuo pačiu atgavę brangius valandas kasdien.",
     "ai_vision_pages__section3__title": "Veikia ten, kur dirbate",
     "ai_vision_pages__section3__description": "Analizuokite bet kurią nuotrauką tiesiog ten, kur jums reikia. MaxAI veikia visose interneto programose ir svetainėse, kurias naudojate. Nekopijuojant, neįklijuojant, nekeičiant konteksto.",
-    "ai_vision_pages__section4__title": "Varoma geriausiais AI modeliais su vizija"
+    "ai_vision_pages__section4__title": "Varoma geriausiais AI modeliais su vizija",
+    "cta_text__add_to_browser_for_free": "Pridėti į {{BROWSER}} nemokamai"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Pasirinkti viską",

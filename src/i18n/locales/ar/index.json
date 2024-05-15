@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "ترجمة بين أي لغات",
     "home_page__features_carousel__feature_prompts__label": "تلميحات الذكاء الاصطناعي",
     "home_page__features_carousel__feature_prompts__title": "أكمل مهامك اليومية في دقائق الآن، وليس ساعات بعد الآن.",
-    "home_page__features_carousel__feature_prompts__description1": "مكتبة تلميحات الذكاء الاصطناعي عالية الجودة",
+    "home_page__features_carousel__feature_prompts__description1": "مكتبة AI عالية الجودة للتلميحات",
     "home_page__features_carousel__feature_prompts__description2": "إنشاء وإدارة تلميحاتك الخاصة",
     "home_page__features_carousel__feature_prompts__description3": "إعادة استخدام تلميحاتك الخاصة",
     "home_page__features_carousel__feature_prompts__description4": "نغمة وأنماط كتابة مخصصة",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "قم بتحويل مستند PDF الممسوح ضوئيًا إلى نص قابل للنسخ والبحث بسهولة"
   },
   "prompt_library": {
-    "use_prompt_library__title": "نصائح بنقرة واحدة",
-    "use_prompt_library__title__tooltip": "نصائح بنقرة واحدة",
+    "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
+    "use_prompt_library__title__tooltip": "مكتبة الاقتراحات الذكية",
     "tab__favorites__title": "المفضلة",
     "tab__public__title": "عامة",
     "tab__own__title": "خاصة",
@@ -625,7 +625,7 @@
     "footer__title": "أداة إنتاجية للذكاء الاصطناعي",
     "footer__desc": "الدردشة الذكية، إعادة الكتابة، الملخص، الرد الفوري، مساعد القراءة، التلميحات، البحث، الفن، والمترجم. يعمل بواسطة GPT-4، Claude 3، Gemini 1.5.",
     "footer__products": "المنتجات",
-    "footer__1_click_prompts": "مشروعات بنقرة واحدة",
+    "footer__1_click_prompts": "مكتبة نصوص AI عالية الجودة",
     "footer__follow_us": "تابعنا",
     "footer__help": "المساعدة",
     "footer__how_to_use": "كيفية الاستخدام",
@@ -804,7 +804,7 @@
     "privacy__title": "سياسة الخصوصية | MaxAI.me",
     "privacy__description": "اقرأ سياسة الخصوصية الخاصة بـ MaxAI.me.",
     "prompts__title": "التلميحات | MaxAI.me",
-    "prompts__description": "أكمل مهامك اليومية باستخدام إدارة التلميحات والتلميحات بنقرة واحدة في دقائق تستغرق ساعاتًا في الماضي.",
+    "prompts__description": "أكمل مهامك اليومية باستخدام إدارة النصوص ومكتبة نصوص AI عالية الجودة في دقائق بدلاً من ساعات.",
     "release_notes__title": "ملاحظات الإصدار | MaxAI.me",
     "share_conversation__title": "مشاركة المحادثة | MaxAI.me",
     "uninstall__title": "إلغاء التثبيت | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "أسرع طريقة لتحليل الصور باستخدام الذكاء الاصطناعي. ما عليك سوى التقاط صورة شاشة وطرح أي أسئلة فورًا. ابحث بشكل أكثر ذكاءً واستعد ساعات ثمينة كل يوم.",
     "ai_vision_pages__section3__title": "يعمل حيث تعمل",
     "ai_vision_pages__section3__description": "قم بتحليل أي صورة، في المكان الذي تحتاجه. يعمل MaxAI عبر جميع تطبيقات الويب والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو تبديل السياق.",
-    "ai_vision_pages__section4__title": "مدعوم بأفضل نماذج الذكاء الاصطناعي مع الرؤية"
+    "ai_vision_pages__section4__title": "مدعوم بأفضل نماذج الذكاء الاصطناعي مع الرؤية",
+    "cta_text__add_to_browser_for_free": "أضف إلى {{BROWSER}} مجانًا"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "تحديد الكل",

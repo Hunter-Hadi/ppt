@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Tafsiri kati ya lugha yoyote",
     "home_page__features_carousel__feature_prompts__label": "Mawaidha ya AI",
     "home_page__features_carousel__feature_prompts__title": "Kamilisha kazi zako za kila siku ndani ya dakika, si masaa tena.",
-    "home_page__features_carousel__feature_prompts__description1": "Maktaba ya mawaidha ya AI ya ubora wa juu",
+    "home_page__features_carousel__feature_prompts__description1": "Maktaba ya maelekezo ya AI ya ubora wa juu",
     "home_page__features_carousel__feature_prompts__description2": "Unda na usimamie mawaidha yako mwenyewe",
     "home_page__features_carousel__feature_prompts__description3": "Tumia tena mawaidha yako mwenyewe",
     "home_page__features_carousel__feature_prompts__description4": "Mtindo wa sauti na uandishi wa kipekee",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Tafuta maandishi kwenye hati ya PDF iliyosanifiwa ili uweze kuchagua na kutafuta maandishi"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Bonyeza Vichocheo",
-    "use_prompt_library__title__tooltip": "Vichocheo vya bonyeza 1",
+    "use_prompt_library__title": "Maktaba ya maelekezo ya AI ya ubora wa juu",
+    "use_prompt_library__title__tooltip": "Maktaba ya maelezo ya AI",
     "tab__favorites__title": "Vipendwa",
     "tab__public__title": "Umma",
     "tab__own__title": "Yako",
@@ -625,7 +625,7 @@
     "footer__title": "Zana ya Ufanisi wa AI",
     "footer__desc": "Mazungumzo ya AI, mhariri, muhtasari, majibu ya papo hapo, msaidizi wa kusoma, vidokezo, utafutaji, sanaa, na mkalimani. Imewezeshwa na GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Bidhaa",
-    "footer__1_click_prompts": "Majedwali ya Bonyeza 1",
+    "footer__1_click_prompts": "Maktaba ya maelekezo ya AI ya ubora wa juu",
     "footer__follow_us": "Tufuate",
     "footer__help": "Msaada",
     "footer__how_to_use": "Jinsi ya kutumia",
@@ -804,7 +804,7 @@
     "privacy__title": "Sera ya Faragha | MaxAI.me",
     "privacy__description": "Soma sera ya faragha ya MaxAI.me.",
     "prompts__title": "Vidokezo | MaxAI.me",
-    "prompts__description": "Kamilisha kazi zako za kila siku na Usimamizi wa Vidokezo na Vidokezo vya Bonyeza-1 kwa dakika ambazo hapo awali zilichukua masaa.",
+    "prompts__description": "Kamilisha kazi zako za kila siku na Usimamizi wa Maelekezo na Maktaba ya maelekezo ya AI ya ubora wa juu kwa dakika chache tu ambazo hapo awali zilichukua masaa.",
     "release_notes__title": "Maelezo ya Kutolewa | MaxAI.me",
     "share_conversation__title": "Shiriki Mazungumzo | MaxAI.me",
     "uninstall__title": "Ondoa | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Njia ya haraka zaidi ya kuchambua picha na AI vision. Chukua tu picha ya skrini na uliza maswali yoyote mara moja. Fanya utafiti kwa busara wakati unapata masaa muhimu kila siku.",
     "ai_vision_pages__section3__title": "Inafanya kazi mahali unapotumia",
     "ai_vision_pages__section3__description": "Changanua picha yoyote, mahali ambapo unaihitaji. MaxAI inafanya kazi katika programu za wavuti na tovuti zote unazotumia. Hakuna kunakili, hakuna kubandika, hakuna kubadilisha muktadha.",
-    "ai_vision_pages__section4__title": "Imewezeshwa na mifano bora ya AI na maono"
+    "ai_vision_pages__section4__title": "Imewezeshwa na mifano bora ya AI na maono",
+    "cta_text__add_to_browser_for_free": "Ongeza kwa {{BROWSER}} bure"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chagua Yote",

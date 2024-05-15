@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR de documentos PDF escaneados, para que puedas copiar y buscar texto fácilmente"
   },
   "prompt_library": {
-    "use_prompt_library__title": "Prompts en 1 clic",
-    "use_prompt_library__title__tooltip": "prompts en 1 clic",
+    "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",
+    "use_prompt_library__title__tooltip": "Biblioteca de sugerencias de IA",
     "tab__favorites__title": "Favoritos",
     "tab__public__title": "Público",
     "tab__own__title": "Propio",
@@ -625,7 +625,7 @@
     "footer__title": "Herramienta de productividad de IA",
     "footer__desc": "Chat de IA, reescritor, resumen, respuesta instantánea, asistente de lectura, sugerencias, búsqueda, arte y traductor. Potenciado por GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Productos",
-    "footer__1_click_prompts": "Prompts de 1 clic",
+    "footer__1_click_prompts": "Biblioteca de sugerencias de IA de alta calidad",
     "footer__follow_us": "Síguenos",
     "footer__help": "Ayuda",
     "footer__how_to_use": "Cómo usar",
@@ -804,7 +804,7 @@
     "privacy__title": "Política de privacidad | MaxAI.me",
     "privacy__description": "Lee la política de privacidad de MaxAI.me.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Completa tus tareas diarias con la gestión de prompts y los prompts de 1 clic en minutos, ¡lo que solía llevar horas!",
+    "prompts__description": "Completa tus tareas diarias con la gestión de sugerencias y la biblioteca de sugerencias de IA de alta calidad en minutos, lo que solía llevar horas.",
     "release_notes__title": "Notas de la versión | MaxAI.me",
     "share_conversation__title": "Compartir conversación | MaxAI.me",
     "uninstall__title": "Desinstalar | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "La forma más rápida de analizar imágenes con visión artificial. Simplemente toma una captura de pantalla y haz cualquier pregunta de inmediato. Investiga de manera más inteligente mientras recuperas horas valiosas todos los días.",
     "ai_vision_pages__section3__title": "Funciona donde trabajas",
     "ai_vision_pages__section3__description": "Analiza cualquier imagen justo donde la necesitas. MaxAI funciona en todas las aplicaciones web y sitios que utilizas. Sin copiar, sin pegar, sin cambiar de contexto.",
-    "ai_vision_pages__section4__title": "Potenciado por los mejores modelos de IA con visión"
+    "ai_vision_pages__section4__title": "Potenciado por los mejores modelos de IA con visión",
+    "cta_text__add_to_browser_for_free": "Añadir a {{BROWSER}} de forma gratuita"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Seleccionar todo",

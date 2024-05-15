@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Prevedite između bilo kojih jezika",
     "home_page__features_carousel__feature_prompts__label": "AI Podražaji",
     "home_page__features_carousel__feature_prompts__title": "Završite svoje dnevne zadatke u minutama, a ne više satima.",
-    "home_page__features_carousel__feature_prompts__description1": "Biblioteka visokokvalitetnih AI podražaja",
+    "home_page__features_carousel__feature_prompts__description1": "Visoka kvaliteta AI biblioteke uputa",
     "home_page__features_carousel__feature_prompts__description2": "Kreirajte i upravljajte vlastitim podražajima",
     "home_page__features_carousel__feature_prompts__description3": "Ponovno koristite vlastite podražaje",
     "home_page__features_carousel__feature_prompts__description4": "Prilagođeni ton i stil pisanja",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenirani PDF dokument, tako da možete jednostavno odabrati kopiranje i pretraživanje teksta"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klikni Prompts",
-    "use_prompt_library__title__tooltip": "1-klikni prompts",
+    "use_prompt_library__title": "Visokokvalitetna AI biblioteka uputa",
+    "use_prompt_library__title__tooltip": "Knjižnica AI uputa",
     "tab__favorites__title": "Favoriti",
     "tab__public__title": "Javno",
     "tab__own__title": "Vlastito",
@@ -625,7 +625,7 @@
     "footer__title": "Alat za produktivnost AI",
     "footer__desc": "AI chat, prepravljač, sažetak, trenutni odgovor, pomoćnik za čitanje, upute, pretraživanje, umjetnost i prevoditelj. Pokreće GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Proizvodi",
-    "footer__1_click_prompts": "1-klik Prompts",
+    "footer__1_click_prompts": "Visokokvalitetna AI biblioteka uputa",
     "footer__follow_us": "Pratite nas",
     "footer__help": "Pomoć",
     "footer__how_to_use": "Kako koristiti",
@@ -804,7 +804,7 @@
     "privacy__title": "Pravila privatnosti | MaxAI.me",
     "privacy__description": "Pročitajte pravila privatnosti MaxAI.me.",
     "prompts__title": "Podražaji | MaxAI.me",
-    "prompts__description": "Završite svoje svakodnevne zadatke s upravljanjem podražajima i jednim klikom na podražaje u minutama koje su prije trajale sate.",
+    "prompts__description": "Završite svoje svakodnevne zadatke s Upravljanjem uputama i visokokvalitetnom AI bibliotekom uputa u nekoliko minuta koje su prije trajale sate.",
     "release_notes__title": "Bilješke o izdanju | MaxAI.me",
     "share_conversation__title": "Podijeli razgovor | MaxAI.me",
     "uninstall__title": "Deinstalacija | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Najbrži način za analizu slika pomoću AI vizije. Jednostavno napravite snimak ekrana i odmah postavite pitanja. Pametnije istražujte dok vraćate dragocjene sate svaki dan.",
     "ai_vision_pages__section3__title": "Radi tamo gdje radite",
     "ai_vision_pages__section3__description": "Analizirajte bilo koju sliku tamo gdje vam je potrebna. MaxAI radi na svim web aplikacijama i stranicama koje koristite. Nema kopiranja, nema lijepljenja, nema prebacivanja konteksta.",
-    "ai_vision_pages__section4__title": "Pokreće najbolje AI modele s vizijom"
+    "ai_vision_pages__section4__title": "Pokreće najbolje AI modele s vizijom",
+    "cta_text__add_to_browser_for_free": "Dodajte u {{BROWSER}} besplatno"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Odaberi sve",

@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "ഏതെങ്കിലും ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്യുക",
     "home_page__features_carousel__feature_prompts__label": "എ.ഐ. പ്രോംപ്റ്റുകൾ",
     "home_page__features_carousel__feature_prompts__title": "ദിവസവും മിനിറ്റുകൾക്ക് പൂർത്തിയാക്കുക, അന്ന് മിനിറ്റുകൾക്ക് മാത്രമേ.",
-    "home_page__features_carousel__feature_prompts__description1": "ഉന്നത ഗുണമേന്മയുള്ള എ.ഐ. പ്രോംപ്റ്റുകൾ ലൈബ്രറി",
+    "home_page__features_carousel__feature_prompts__description1": "ഉയർന്ന ഗുണമേന്മയുള്ള AI പ്രോംപ്റ്റ് ലൈബ്രറി",
     "home_page__features_carousel__feature_prompts__description2": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ സൃഷ്ടിക്കുകയും അവയുടെ പരിചയം നിയന്ത്രിക്കുകയും ചെയ്യുക",
     "home_page__features_carousel__feature_prompts__description3": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ പുനരായി ഉപയോഗിക്കുക",
     "home_page__features_carousel__feature_prompts__description4": "പ്രത്യേക ടോൺ & രചനാ ശൈലികൾ",
@@ -582,8 +582,8 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ഗുണത്തിന് കാണാൻ OCR PDF ഡൌണ്‍ലോഡ് ചെയ്യുക."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",
-    "use_prompt_library__title__tooltip": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",
+    "use_prompt_library__title": "ഉയർന്ന ഗുണമേന്മായ AI പ്രോംപ്റ്റ് ലൈബ്രറി",
+    "use_prompt_library__title__tooltip": "എ.ഐ. പ്രോംപ്റ്റ് ലൈബ്രറി",
     "tab__favorites__title": "പ്രിയങ്കരമായവ",
     "tab__public__title": "പൊതുവായി",
     "tab__own__title": "ഞങ്ങളുടെ",
@@ -625,7 +625,7 @@
     "footer__title": "എ.ഐ. ഉപയോഗ്യതാ ഉപകരണം",
     "footer__desc": "AI ചാറ്റ്, രീവ്രൈറ്റർ, സംഗ്രഹം, തത്സമയ ഉത്തരം, വായന സഹായി, പ്രോംപ്റ്റുകൾ, തിരയൽ, കല, അനുവാദകൻ. GPT-4, Claude 3, Gemini 1.5 പ്രവർത്തിപ്പിക്കുന്നു.",
     "footer__products": "ഉത്പാദനങ്ങൾ",
-    "footer__1_click_prompts": "1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ",
+    "footer__1_click_prompts": "ഉയർന്ന ഗുണമേന്മായ AI പ്രോംപ്റ്റ് ലൈബ്രറി",
     "footer__follow_us": "ഞങ്ങളെ പിന്തുടരുക",
     "footer__help": "സഹായം",
     "footer__how_to_use": "ഉപയോഗിക്കാൻ എങ്ങനെ",
@@ -804,7 +804,7 @@
     "privacy__title": "സ്വകാര്യതാ നയം | MaxAI.me",
     "privacy__description": "MaxAI.me സ്വകാര്യതാ നയം വായിക്കുക.",
     "prompts__title": "പ്രോംപ്റ്റുകൾ | MaxAI.me",
-    "prompts__description": "മിനിറ്റുകൾക്ക് എടുക്കുന്നത് മുടക്കാതെ പ്രോംപ്റ്റ് മാനേജ്മെന്റ് അനുസരിച്ച് 1-ക്ലിക്ക് പ്രോംപ്റ്റുകൾ ഉപയോഗിക്കുക.",
+    "prompts__description": "മിനിറ്റുകൾ എടുക്കുന്നതിന് മുമ്പ് അടുത്തറിയ നിരവധി ദിവസങ്ങളിൽ Prompt Management ഉം ഉയർന്ന ഗുണമേന്മായ AI പ്രോംപ്റ്റ് ലൈബ്രറി ഉം ഉപയോഗിക്കുക.",
     "release_notes__title": "പുറത്തിറക്കൽ കുറിപ്പുകൾ | MaxAI.me",
     "share_conversation__title": "സംഭാഷണം പങ്കിടുക | MaxAI.me",
     "uninstall__title": "അൺഇൻസ്റ്റാൾ ചെയ്യുക | MaxAI.me",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI വിഷനുമായി ചിത്രങ്ങൾ വിശകലനം നേടാൻ ഏറ്റവും വേഗത്തിൽ സ്ക്രീൻഷോട്ട് എടുക്കുക. പ്രതിസന്ധിയിൽ ദിവസങ്ങളും പ്രശ്നങ്ങളും ചോദിക്കുക.",
     "ai_vision_pages__section3__title": "നിങ്ങൾ പ്രവർത്തിക്കുന്നതിലേക്ക് പ്രവർത്തിക്കുക",
     "ai_vision_pages__section3__description": "ആവശ്യമുള്ള ഏതെങ്കിലും ചിത്രത്തിനുള്ളിൽ അധിഷ്ഠിപ്പിക്കുക. MaxAI നിങ്ങൾ ഉപയോഗിക്കുന്ന എല്ലാ വെബ് ആപ്പുകളിലും സൈറ്റുകളിലും പ്രവർത്തിക്കുന്നു. പകർപ്പവകാശം, പേസ്റ്റിംഗ്, കൺടെക്സ്റ്റ് സ്വിച്ചിംഗ് ഇല്ല.",
-    "ai_vision_pages__section4__title": "ഏറ്റവും മികച്ച AI മോഡലുകൾ വിഷനുമായി"
+    "ai_vision_pages__section4__title": "ഏറ്റവും മികച്ച AI മോഡലുകൾ വിഷനുമായി",
+    "cta_text__add_to_browser_for_free": "സൗജന്യമായി {{BROWSER}} ലേക്ക് ചേർക്കുക"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF ചേർക്കുക",

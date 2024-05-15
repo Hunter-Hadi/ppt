@@ -9,6 +9,7 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
+import useBrowserAgent from '@/features/common/hooks/useBrowserAgent';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons';
 import PictureRetouchingIcon, {
@@ -36,6 +37,8 @@ const FeaturesContentSection: FC<IProps> = ({
   const { t } = useTranslation();
   const theme = useTheme();
   const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+
+  const { browserAgent } = useBrowserAgent();
 
   const textBoxOrder = useMemo(() => {
     if (isDownSm) {
@@ -99,7 +102,7 @@ const FeaturesContentSection: FC<IProps> = ({
 
               <CTAInstallButton
                 sx={{
-                  width: 200,
+                  width: 'max-content',
                   height: 44,
                   // borderRadius: 2,
                   fontSize: 16,
@@ -114,7 +117,9 @@ const FeaturesContentSection: FC<IProps> = ({
                 startIcon={null}
                 endIcon={<ArrowForwardOutlinedIcon />}
                 variant={'contained'}
-                text={t('features_landing:cta_text')}
+                text={t('features_landing:cta_text__add_to_browser_for_free', {
+                  BROWSER: browserAgent,
+                })}
               />
             </Stack>
           </Grid>

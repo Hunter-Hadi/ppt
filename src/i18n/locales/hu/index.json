@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Fordítson bármely nyelv között",
     "home_page__features_carousel__feature_prompts__label": "AI Segítségek",
     "home_page__features_carousel__feature_prompts__title": "Végezze el mindennapi feladatait percek alatt, nem órák alatt.",
-    "home_page__features_carousel__feature_prompts__description1": "Magas minőségű AI segítségkönyvtár",
+    "home_page__features_carousel__feature_prompts__description1": "Magas minőségű AI prompt könyvtár",
     "home_page__features_carousel__feature_prompts__description2": "Hozzon létre és kezeljen saját segítségeket",
     "home_page__features_carousel__feature_prompts__description3": "Újrahasználja saját segítségeit",
     "home_page__features_carousel__feature_prompts__description4": "Egyedi hangnem és írási stílus",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Szövegfelismeréses PDF"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Kattintásos Segítség",
-    "use_prompt_library__title__tooltip": "1-kattintásos segítség",
+    "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",
+    "use_prompt_library__title__tooltip": "AI prompt könyvtár",
     "tab__favorites__title": "Kedvencek",
     "tab__public__title": "Nyilvános",
     "tab__own__title": "Saját",
@@ -625,7 +625,7 @@
     "footer__title": "AI termelékenységi eszköz",
     "footer__desc": "AI chat, átíró, összefoglaló, azonnali válasz, olvasást segítő, promptok, keresés, művészet és fordító. GPT-4, Claude 3 és Gemini 1.5 által támogatott.",
     "footer__products": "Termékek",
-    "footer__1_click_prompts": "1 kattintásos segédletek",
+    "footer__1_click_prompts": "Magas minőségű AI prompt könyvtár",
     "footer__follow_us": "Kövess minket",
     "footer__help": "Segítség",
     "footer__how_to_use": "Hogyan használd",
@@ -804,7 +804,7 @@
     "privacy__title": "Adatvédelmi irányelvek | MaxAI.me",
     "privacy__description": "Olvassa el a MaxAI.me adatvédelmi irányelveit.",
     "prompts__title": "Felhívások | MaxAI.me",
-    "prompts__description": "Végezze el mindennapi feladatait Felhíváskezeléssel és 1 kattintással percek alatt, amelyek órákat vettek igénybe.",
+    "prompts__description": "Végezze el mindennapi feladatait a Prompt kezelés és a Magas minőségű AI prompt könyvtár segítségével percek alatt, amelyek korábban órákig tartottak.",
     "release_notes__title": "Verziókövetés | MaxAI.me",
     "share_conversation__title": "Beszélgetés megosztása | MaxAI.me",
     "uninstall__title": "Eltávolítás | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "A leggyorsabb módja a képek elemzésének AI látással. Egyszerűen készítsen egy képernyőképet és tegyen fel bármilyen kérdést azonnal. Okosabban kutasson, miközben minden nap visszaszerez értékes órákat.",
     "ai_vision_pages__section3__title": "Működik ott, ahol dolgozik",
     "ai_vision_pages__section3__description": "Elemzze bármely képet ott, ahol szüksége van rá. A MaxAI minden webes alkalmazáson és webhelyen működik, amelyeket használ. Nincs másolás, beillesztés vagy kontextusváltás.",
-    "ai_vision_pages__section4__title": "A legjobb AI modellekkel, látással megerősítve"
+    "ai_vision_pages__section4__title": "A legjobb AI modellekkel, látással megerősítve",
+    "cta_text__add_to_browser_for_free": "Ingyenesen hozzáadás a {{BROWSER}}-hoz"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Összes kiválasztása",

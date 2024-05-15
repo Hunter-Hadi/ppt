@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "แปลภาษาใดๆ",
     "home_page__features_carousel__feature_prompts__label": "AI Prompts",
     "home_page__features_carousel__feature_prompts__title": "เสร็จสิ้นงานประจำวันของคุณในไม่กี่นาที ไม่ใช่หลายชั่วโมงอีกต่อไป",
-    "home_page__features_carousel__feature_prompts__description1": "คลัง AI prompts คุณภาพสูง",
+    "home_page__features_carousel__feature_prompts__description1": "ไลบรารีคำแนะนำ AI คุณภาพสูง",
     "home_page__features_carousel__feature_prompts__description2": "สร้างและจัดการ prompts ของคุณเอง",
     "home_page__features_carousel__feature_prompts__description3": "นำ prompts ของคุณมาใช้ซ้ำได้",
     "home_page__features_carousel__feature_prompts__description4": "สร้างลักษณะและสไตล์การเขียนที่กำหนดเอง",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "แปลงเอกสาร PDF ที่ถูกสแกนด้วย OCR เพื่อให้คุณสามารถคัดลอกและค้นหาข้อความได้ง่ายๆ"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-คลิก เทมเพลต",
-    "use_prompt_library__title__tooltip": "1-คลิก เทมเพลต",
+    "use_prompt_library__title": "ไลบรารีคำแนะนำ AI คุณภาพสูง",
+    "use_prompt_library__title__tooltip": "ไลบรารีคำแนะนำของ AI",
     "tab__favorites__title": "รายการโปรด",
     "tab__public__title": "สาธารณะ",
     "tab__own__title": "ของฉัน",
@@ -625,7 +625,7 @@
     "footer__title": "เครื่องมือเพิ่มประสิทธิภาพ AI",
     "footer__desc": "แชท AI, เครื่องหมายเขียนใหม่, สรุป, ตอบกลับทันที, ผู้ช่วยการอ่าน, คำแนะนำ, ค้นหา, ศิลปะ, และแปลภาษา ขับเคลื่อนด้วย GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "ผลิตภัณฑ์",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "ไลบรารีคำแนะนำ AI คุณภาพสูง",
     "footer__follow_us": "ติดตามเรา",
     "footer__help": "ช่วยเหลือ",
     "footer__how_to_use": "วิธีการใช้",
@@ -804,7 +804,7 @@
     "privacy__title": "นโยบายความเป็นส่วนตัว | MaxAI.me",
     "privacy__description": "อ่านนโยบายความเป็นส่วนตัวของ MaxAI.me",
     "prompts__title": "คำให้การ | MaxAI.me",
-    "prompts__description": "ทำภารกิจประจำวันของคุณให้เสร็จสิ้นด้วยการจัดการคำให้การและคำให้การด้วยคลิกเดียวในเวลาไม่กี่นาทีซึ่งใช้เวลาหลายชั่วโมงก่อนหน้านี้",
+    "prompts__description": "ทำภารกิจประจำวันของคุณให้เสร็จสมบูรณ์ด้วยการจัดการคำแนะนำและไลบรารีคำแนะนำ AI คุณภาพสูงในเวลาไม่กี่นาทีที่ใช้เวลาเป็นชั่วโมง",
     "release_notes__title": "บันทึกการอัปเดต | MaxAI.me",
     "share_conversation__title": "แชร์การสนทนา | MaxAI.me",
     "uninstall__title": "ถอนการติดตั้ง | MaxAI.me",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "วิธีที่รวดเร็วที่สุดในการวิเคราะห์ภาพด้วย AI vision แค่ถ่ายภาพหน้าจอแล้วถามคำถามทันที เพิ่มประสิทธิภาพในการวิจัยในขณะที่ประหยัดเวลามากขึ้นทุกวัน",
     "ai_vision_pages__section3__title": "ทำงานที่คุณทำงาน",
     "ai_vision_pages__section3__description": "วิเคราะห์ภาพใดก็ได้ ตรงที่คุณต้องการ  MaxAI ทำงานบนแอปและเว็บไซต์ที่คุณใช้ ไม่ต้องคัดลอก ไม่ต้องวาง ไม่ต้องสลับบริบท",
-    "ai_vision_pages__section4__title": "ขับเคลื่อนด้วยโมเดล AI ที่ดีที่สุดด้วยการมองเห็น"
+    "ai_vision_pages__section4__title": "ขับเคลื่อนด้วยโมเดล AI ที่ดีที่สุดด้วยการมองเห็น",
+    "cta_text__add_to_browser_for_free": "เพิ่มลงใน {{BROWSER}} ฟรี"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "เพิ่ม PDF",

@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Распознавание текста в PDF"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-клик Подсказки",
-    "use_prompt_library__title__tooltip": "1-клик подсказки",
+    "use_prompt_library__title": "Библиотека высококачественных AI подсказок",
+    "use_prompt_library__title__tooltip": "Библиотека подсказок ИИ",
     "tab__favorites__title": "Избранное",
     "tab__public__title": "Общедоступное",
     "tab__own__title": "Собственное",
@@ -625,7 +625,7 @@
     "footer__title": "Инструмент повышения производительности ИИ",
     "footer__desc": "AI-чат, переформулировщик, резюме, мгновенный ответ, помощник в чтении, подсказки, поиск, искусство и переводчик. Работает на основе GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Продукты",
-    "footer__1_click_prompts": "1-Click Подсказки",
+    "footer__1_click_prompts": "Библиотека высококачественных AI подсказок",
     "footer__follow_us": "Подписывайтесь на нас",
     "footer__help": "Помощь",
     "footer__how_to_use": "Как использовать",
@@ -804,7 +804,7 @@
     "privacy__title": "Политика конфиденциальности | MaxAI.me",
     "privacy__description": "Ознакомьтесь с политикой конфиденциальности MaxAI.me.",
     "prompts__title": "Подсказки | MaxAI.me",
-    "prompts__description": "Завершите свои повседневные задачи с помощью управления подсказками и однократных подсказок в течение нескольких минут, что раньше занимало часы.",
+    "prompts__description": "Завершите свои повседневные задачи с помощью управления подсказками и библиотеки высокого качества AI за несколько минут, вместо часов.",
     "release_notes__title": "Примечания к выпуску | MaxAI.me",
     "share_conversation__title": "Поделиться беседой | MaxAI.me",
     "uninstall__title": "Удаление | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Самый быстрый способ анализировать изображения с помощью AI-видения. Просто сделайте скриншот и сразу задавайте любые вопросы. Исследуйте умнее, экономя драгоценные часы каждый день.",
     "ai_vision_pages__section3__title": "Работает там, где вы работаете",
     "ai_vision_pages__section3__description": "Анализируйте любое изображение прямо там, где вам это нужно. MaxAI работает во всех веб-приложениях и сайтах, которые вы используете. Нет копирования, вставки или переключения контекста.",
-    "ai_vision_pages__section4__title": "Работает на лучших моделях искусственного интеллекта с видением"
+    "ai_vision_pages__section4__title": "Работает на лучших моделях искусственного интеллекта с видением",
+    "cta_text__add_to_browser_for_free": "Добавить в {{BROWSER}} бесплатно"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Выбрать все",

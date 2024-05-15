@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-skannet PDF-dokument, slik at du enkelt kan velge å kopiere og søke etter tekst"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klikk Prompts",
-    "use_prompt_library__title__tooltip": "1-klikk prompts",
+    "use_prompt_library__title": "Høykvalitets AI-promptbibliotek",
+    "use_prompt_library__title__tooltip": "AI-promptbibliotek",
     "tab__favorites__title": "Favoritter",
     "tab__public__title": "Offentlig",
     "tab__own__title": "Egen",
@@ -625,7 +625,7 @@
     "footer__title": "AI produktivitetsverktøy",
     "footer__desc": "AI-chat, omskriving, sammendrag, umiddelbar svar, leseassistent, forslag, søk, kunst og oversetter. Drevet av GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkter",
-    "footer__1_click_prompts": "1-Klikk-prompter",
+    "footer__1_click_prompts": "Høykvalitets AI-promptbibliotek",
     "footer__follow_us": "Følg oss",
     "footer__help": "Hjelp",
     "footer__how_to_use": "Hvordan bruke",
@@ -804,7 +804,7 @@
     "privacy__title": "Personvernregler | MaxAI.me",
     "privacy__description": "Les MaxAI.me personvernregler.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Fullfør dine daglige oppgaver med Prompt Management og 1-Click Prompts på minutter som tidligere tok timer.",
+    "prompts__description": "Fullfør dine daglige oppgaver med Prompt Management og Høykvalitets AI-promptbibliotek på få minutter, noe som tidligere tok timer.",
     "release_notes__title": "Utgivelsesnotater | MaxAI.me",
     "share_conversation__title": "Del samtale | MaxAI.me",
     "uninstall__title": "Avinstaller | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Den raskeste måten å analysere bilder med AI-visjon. Ta bare et skjermbilde og still spørsmål umiddelbart. Forsk smartere samtidig som du sparer verdifulle timer hver dag.",
     "ai_vision_pages__section3__title": "Fungerer der du jobber",
     "ai_vision_pages__section3__description": "Analyser hvilket som helst bilde, akkurat der du trenger det. MaxAI fungerer på tvers av alle webapper og nettsteder du bruker. Ingen kopiering, ingen liming, ingen kontekstbytte.",
-    "ai_vision_pages__section4__title": "Drevet av de beste AI-modellene med visjon"
+    "ai_vision_pages__section4__title": "Drevet av de beste AI-modellene med visjon",
+    "cta_text__add_to_browser_for_free": "Legg til i {{BROWSER}} gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Velg alle",

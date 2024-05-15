@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Překládejte mezi jakýmikoliv jazyky",
     "home_page__features_carousel__feature_prompts__label": "AI Nápovědy",
     "home_page__features_carousel__feature_prompts__title": "Dokončete své denní úkoly za minuty, ne hodiny.",
-    "home_page__features_carousel__feature_prompts__description1": "Knihovna vysoce kvalitních AI nápověd",
+    "home_page__features_carousel__feature_prompts__description1": "Knihovna vysoce kvalitních AI promptů",
     "home_page__features_carousel__feature_prompts__description2": "Vytvářejte a spravujte vlastní nápovědy",
     "home_page__features_carousel__feature_prompts__description3": "Opakovaně používejte své vlastní nápovědy",
     "home_page__features_carousel__feature_prompts__description4": "Vlastní tón a styl psaní",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Převeďte naskenovaný dokument PDF na text, abyste mohli snadno vybrat a vyhledávat text"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Kliknutí na Nápovědy",
-    "use_prompt_library__title__tooltip": "1-kliknutí na nápovědy",
+    "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",
+    "use_prompt_library__title__tooltip": "Knihovna AI promptů",
     "tab__favorites__title": "Oblíbené",
     "tab__public__title": "Veřejné",
     "tab__own__title": "Vlastní",
@@ -625,7 +625,7 @@
     "footer__title": "Nástroj pro produktivitu AI",
     "footer__desc": "AI chat, přepisovač, shrnutí, okamžitá odpověď, čtecí asistent, podněty, vyhledávání, umění a překladač. Poháněno GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkty",
-    "footer__1_click_prompts": "1-Kliknutí podněty",
+    "footer__1_click_prompts": "Knihovna vysoké kvality pro AI prompty",
     "footer__follow_us": "Sledujte nás",
     "footer__help": "Nápověda",
     "footer__how_to_use": "Jak používat",
@@ -804,7 +804,7 @@
     "privacy__title": "Zásady ochrany osobních údajů | MaxAI.me",
     "privacy__description": "Přečtěte si zásady ochrany osobních údajů MaxAI.me.",
     "prompts__title": "Podněty | MaxAI.me",
-    "prompts__description": "Dokončete své každodenní úkoly s řízením podnětů a jedním kliknutím na podněty za minuty, které dříve trvaly hodiny.",
+    "prompts__description": "Dokončete své každodenní úkoly s řízením promptů a knihovnou vysoké kvality pro AI prompty za minuty, které dříve trvaly hodiny.",
     "release_notes__title": "Poznámky k vydání | MaxAI.me",
     "share_conversation__title": "Sdílet konverzaci | MaxAI.me",
     "uninstall__title": "Odinstalovat | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Nejrychlejší způsob, jak analyzovat obrázky pomocí AI vision. Stačí udělat snímek obrazovky a okamžitě položit jakékoliv otázky. Vylepšete svůj výzkum a ušetřete cenné hodiny každý den.",
     "ai_vision_pages__section3__title": "Funguje tam, kde pracujete",
     "ai_vision_pages__section3__description": "Analyzujte libovolný obrázek přímo tam, kde ho potřebujete. MaxAI funguje ve všech webových aplikacích a stránkách, které používáte. Žádné kopírování, žádné vkládání, žádné přepínání kontextu.",
-    "ai_vision_pages__section4__title": "Poháněno nejlepšími AI modely s vizí"
+    "ai_vision_pages__section4__title": "Poháněno nejlepšími AI modely s vizí",
+    "cta_text__add_to_browser_for_free": "Přidat do {{BROWSER}} zdarma"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Vybrat vše",

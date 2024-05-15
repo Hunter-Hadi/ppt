@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Herhangi bir dil arasında çeviri yapın",
     "home_page__features_carousel__feature_prompts__label": "AI İpucu",
     "home_page__features_carousel__feature_prompts__title": "Günlük görevlerinizi artık saatler değil dakikalar içinde tamamlayın.",
-    "home_page__features_carousel__feature_prompts__description1": "Yüksek kaliteli AI ipucu kütüphanesi",
+    "home_page__features_carousel__feature_prompts__description1": "Yüksek kaliteli AI prompt kütüphanesi",
     "home_page__features_carousel__feature_prompts__description2": "Kendi ipuçlarınızı oluşturun ve yönetin",
     "home_page__features_carousel__feature_prompts__description3": "Kendi ipuçlarınızı yeniden kullanın",
     "home_page__features_carousel__feature_prompts__description4": "Özel ton ve yazım stilleri",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Taramalı PDF belgesini OCR yaparak metni kopyalayabilir ve arayabilirsiniz"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Tıklama İpucu",
-    "use_prompt_library__title__tooltip": "1 tıklama ipuçları",
+    "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
+    "use_prompt_library__title__tooltip": "AI prompt kütüphanesi",
     "tab__favorites__title": "Favoriler",
     "tab__public__title": "Herkese Açık",
     "tab__own__title": "Kendi",
@@ -625,7 +625,7 @@
     "footer__title": "AI üretkenlik aracı",
     "footer__desc": "AI sohbeti, yeniden yazıcı, özet, anlık yanıt, okuma yardımcısı, ipuçları, arama, sanat ve çevirmen. GPT-4, Claude 3, Gemini 1.5 tarafından desteklenmektedir.",
     "footer__products": "Ürünler",
-    "footer__1_click_prompts": "1-Tıklamayla İpucu",
+    "footer__1_click_prompts": "Yüksek kaliteli AI prompt kütüphanesi",
     "footer__follow_us": "Bizi Takip Edin",
     "footer__help": "Yardım",
     "footer__how_to_use": "Nasıl kullanılır",
@@ -804,7 +804,7 @@
     "privacy__title": "Gizlilik Politikası | MaxAI.me",
     "privacy__description": "MaxAI.me gizlilik politikasını okuyun.",
     "prompts__title": "İpucular | MaxAI.me",
-    "prompts__description": "Saatler süren görevlerinizi dakikalar içinde tamamlayın. İpucu Yönetimi ve 1-Tıklama İpuçları ile günlük işlerinizi hızlıca tamamlayın.",
+    "prompts__description": "Saatler süren işleri dakikalar içinde tamamlayın. Prompt Yönetimi ve yüksek kaliteli AI prompt kütüphanesi ile günlük görevlerinizi tamamlayın.",
     "release_notes__title": "Sürüm Notları | MaxAI.me",
     "share_conversation__title": "Konuşmayı Paylaş | MaxAI.me",
     "uninstall__title": "Kaldır | MaxAI.me",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI vizyon ile görüntüleri analiz etmenin en hızlı yolu. Sadece bir ekran görüntüsü alın ve hemen herhangi bir soru sorun. Her gün değerli saatler kazanarak daha akıllıca araştırma yapın.",
     "ai_vision_pages__section3__title": "Çalıştığınız yerde çalışır",
     "ai_vision_pages__section3__description": "İhtiyacınız olan yerde herhangi bir görüntüyü analiz edin. MaxAI, kullandığınız tüm web uygulamaları ve sitelerinde çalışır. Kopyalama, yapıştırma veya bağlam değiştirme yok.",
-    "ai_vision_pages__section4__title": "En iyi AI modelleriyle desteklenir"
+    "ai_vision_pages__section4__title": "En iyi AI modelleriyle desteklenir",
+    "cta_text__add_to_browser_for_free": "Ücretsiz olarak {{BROWSER}}'a ekle"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF Ekle",

@@ -582,8 +582,8 @@
     "external_add_to_edge_for_free__mini": "将MaxAI添加到Edge"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Click提示",
-    "use_prompt_library__title__tooltip": "1点击提示",
+    "use_prompt_library__title": "高质量的AI提示库",
+    "use_prompt_library__title__tooltip": "AI提示库",
     "tab__favorites__title": "收藏夹",
     "tab__public__title": "公共",
     "tab__own__title": "自己的",
@@ -625,7 +625,7 @@
     "footer__title": "AI 生产力工具",
     "footer__desc": "AI聊天、改写器、摘要、即时回复、阅读助手、提示、搜索、艺术和翻译。由GPT-4、Claude 3、Gemini 1.5提供支持。",
     "footer__products": "产品",
-    "footer__1_click_prompts": "1-Click提示",
+    "footer__1_click_prompts": "高质量的AI提示库",
     "footer__follow_us": "关注我们",
     "footer__help": "帮助",
     "footer__how_to_use": "如何使用",
@@ -804,7 +804,7 @@
     "privacy__title": "隐私政策 | MaxAI.me",
     "privacy__description": "阅读MaxAI.me的隐私政策。",
     "prompts__title": "提示 | MaxAI.me",
-    "prompts__description": "使用Prompt管理和一键提示，在几分钟内完成以前需要数小时才能完成的日常任务。",
+    "prompts__description": "使用Prompt管理和高质量的AI提示库，在几分钟内完成以前需要数小时才能完成的日常任务。",
     "release_notes__title": "发布说明 | MaxAI.me",
     "share_conversation__title": "分享对话 | MaxAI.me",
     "uninstall__title": "卸载 | MaxAI.me",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "使用 AI 视觉分析图像的最快方式。只需截屏并立即提出任何问题。每天节省宝贵的时间，更加智能地进行研究。",
     "ai_vision_pages__section3__title": "适用于您工作的地方",
     "ai_vision_pages__section3__description": "在您需要的地方分析任何图像。MaxAI 可在您使用的所有网络应用和网站上运行。无需复制、粘贴或切换上下文。",
-    "ai_vision_pages__section4__title": "由最佳 AI 视觉模型驱动"
+    "ai_vision_pages__section4__title": "由最佳 AI 视觉模型驱动",
+    "cta_text__add_to_browser_for_free": "免费添加到{{BROWSER}}"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "添加PDF",

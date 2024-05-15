@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "የሚተላለፉ ቋንቋዎች መጻፍ",
     "home_page__features_carousel__feature_prompts__label": "የማስተማርና የማስታወቂያ ቅጽ",
     "home_page__features_carousel__feature_prompts__title": "የቀኑ ስራዎችን በደብቀው ያስቀምጡ በደብቀው የሚቀርብ መልኩነትን ይቀርባል።",
-    "home_page__features_carousel__feature_prompts__description1": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽ መታወቂያ",
+    "home_page__features_carousel__feature_prompts__description1": "የልማት አስተዳደር AI መጽሐፍ ቤቶች",
     "home_page__features_carousel__feature_prompts__description2": "የሚፈጠሩትን የማስተማርና የማስታወቂያ ቅጽ ፍጠር እና ማስተማርና",
     "home_page__features_carousel__feature_prompts__description3": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽን ያግኙ",
     "home_page__features_carousel__feature_prompts__description4": "የሚተላለፉ ቆንጆ & የጽሑፍ አስደሳች አይነት",
@@ -582,8 +582,8 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "የማስተላለፍ መጠን የ OCR ፕድስ እንዴት ይመልከቱ."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
-    "use_prompt_library__title__tooltip": "1-ከሪካውን በኩል ይጠቀሙ",
+    "use_prompt_library__title": "የልማት የሚጠቀሙ የሳምንት መልእክት",
+    "use_prompt_library__title__tooltip": "የማስታወቂያ መፃፍ",
     "tab__favorites__title": "የተወደዱ",
     "tab__public__title": "የህዝብ",
     "tab__own__title": "የእርስዎ",
@@ -625,7 +625,7 @@
     "footer__title": "የማስተርኳዎች ማስተርኳዎች",
     "footer__desc": "የማክስ ቻት, የመግባቢያ ዝርዝር, መግብያ ማስተካከያ, በቀላሉ መልክት, የማስታወቂያ አስራር, የማስተካከያ ማስተላለፊያ, የማይፈልግ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች. በ GPT-4, Claude 3, Gemini 1.5 የሚሰጥ ነው.",
     "footer__products": "ንግድ",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "የልማት የሚጠቀሙ የሳምንት መልእክት",
     "footer__follow_us": "እኛን አሁን እንዴት እንደሚከተለው እናሳውቃለን",
     "footer__help": "እገዛ",
     "footer__how_to_use": "እንዴት እንደሚጠቀም እንዳለን",
@@ -804,7 +804,7 @@
     "privacy__title": "ግላዊ መርህ | MaxAI.me",
     "privacy__description": "አጠቃላይ MaxAI.me ግላዊ መርህን ያንብቡ።",
     "prompts__title": "ፕሮምፕትስ | MaxAI.me",
-    "prompts__description": "የቀጥታ መስመር እና 1-ጁንት ፕሮምፕትስ በደብቅ የሚሆኑ የቀጥታ ስራዎችን በደብቅ ያስተካክሉ።",
+    "prompts__description": "የቀጥታ ማስተላለፊያና የልማት የሚጠቀሙ የሳምንት መልእክት በደብቅ የሚሆኑ የቀጥታ ማስተላለፊያዎችን በየቀኑ ያስቀምጡ.",
     "release_notes__title": "የማስታወቂያ መረጃዎች | MaxAI.me",
     "share_conversation__title": "ክስ ማስተላለፍ | MaxAI.me",
     "uninstall__title": "ማስተላለፍ | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section3__title": "በስራው የሚከተለው",
     "ai_vision_pages__section3__description": "በስራው የሚከተለው በስራው የሚከተለው የAI መልእክት መሆኑን የሚያሳይ ነው።",
     "ai_vision_pages__section4__title": "በየትኛው የAI ሞዴሎች የተጠቀሰው መልእክት",
-    "ai_prompts_pages__section1__title": "የማሳያ መግለጫዎች የሚገኙ የማሳያ AI መረጃዎች"
+    "ai_prompts_pages__section1__title": "የማሳያ መግለጫዎች የሚገኙ የማሳያ AI መረጃዎች",
+    "cta_text__add_to_browser_for_free": "በ{{BROWSER}} ለነፃ ያክልሉ"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "ሁሉንም ይምረጡ",

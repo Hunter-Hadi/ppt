@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Tradueix entre qualsevol idioma",
     "home_page__features_carousel__feature_prompts__label": "Suggeriments d'IA",
     "home_page__features_carousel__feature_prompts__title": "Completa les teves tasques diàries en minuts, no en hores.",
-    "home_page__features_carousel__feature_prompts__description1": "Biblioteca de suggeriments d'IA de alta qualitat",
+    "home_page__features_carousel__feature_prompts__description1": "Llibreria d'indicacions d'IA d'alta qualitat",
     "home_page__features_carousel__feature_prompts__description2": "Crea i gestiona els teus propis suggeriments",
     "home_page__features_carousel__feature_prompts__description3": "Reutilitza els teus propis suggeriments",
     "home_page__features_carousel__feature_prompts__description4": "Estil personalitzat i estils d'escriptura",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR document PDF escanejat, perquè puguis triar fàcilment copiar i cercar text"
   },
   "prompt_library": {
-    "use_prompt_library__title": "Prompts amb un clic",
-    "use_prompt_library__title__tooltip": "prompts amb un clic",
+    "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",
+    "use_prompt_library__title__tooltip": "Biblioteca de suggeriments d'IA",
     "tab__favorites__title": "Favorits",
     "tab__public__title": "Públic",
     "tab__own__title": "Propi",
@@ -625,7 +625,7 @@
     "footer__title": "Eina de productivitat d'IA",
     "footer__desc": "Xat d'IA, reescriptor, resum, resposta instantània, assistent de lectura, suggeriments, cerca, art i traductor. Amb la tecnologia de GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Productes",
-    "footer__1_click_prompts": "Prompts d'un clic",
+    "footer__1_click_prompts": "Llibreria de suggeriments d'IA de alta qualitat",
     "footer__follow_us": "Segueix-nos",
     "footer__help": "Ajuda",
     "footer__how_to_use": "Com utilitzar",
@@ -804,7 +804,7 @@
     "privacy__title": "Política de privadesa | MaxAI.me",
     "privacy__description": "Llegeix la política de privadesa de MaxAI.me.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Completa les teves tasques diàries amb la gestió de prompts i els Prompts d'un sol clic en minuts, quan abans trigaves hores.",
+    "prompts__description": "Completa les teves tasques diàries amb la gestió de suggeriments i la llibreria de suggeriments d'IA de alta qualitat en minuts, quan abans trigaves hores.",
     "release_notes__title": "Notes de la versió | MaxAI.me",
     "share_conversation__title": "Comparteix conversa | MaxAI.me",
     "uninstall__title": "Desinstal·la | MaxAI.me",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "La manera més ràpida d'analitzar imatges amb visió IA. Simplement fes una captura de pantalla i fes preguntes immediatament. Investiga de manera més intel·ligent mentre recuperes hores precioses cada dia.",
     "ai_vision_pages__section3__title": "Funciona on treballes",
     "ai_vision_pages__section3__description": "Analitza qualsevol imatge, just on ho necessites. MaxAI funciona en totes les aplicacions web i llocs que utilitzes. Sense copiar, sense enganxar, sense canviar de context.",
-    "ai_vision_pages__section4__title": "Potenciat pels millors models d'IA amb visió"
+    "ai_vision_pages__section4__title": "Potenciat pels millors models d'IA amb visió",
+    "cta_text__add_to_browser_for_free": "Afegiu-ho a {{BROWSER}} de franc"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selecciona-ho tot",

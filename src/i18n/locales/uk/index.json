@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "کسی بھی زبانوں کے درمیان ترجمہ کریں",
     "home_page__features_carousel__feature_prompts__label": "AI پرومپٹس",
     "home_page__features_carousel__feature_prompts__title": "اب روزانہ کے کاموں کو منٹوں میں مکمل کریں، اب نہیں گھنٹوں میں۔",
-    "home_page__features_carousel__feature_prompts__description1": "بلند معیار کے AI پرومپٹس لائبریری",
+    "home_page__features_carousel__feature_prompts__description1": "بلند معیار کی AI پرومپٹ لائبریری",
     "home_page__features_carousel__feature_prompts__description2": "اپنے خود کے پرومپٹس بنائیں اور منظم کریں",
     "home_page__features_carousel__feature_prompts__description3": "اپنے خود کے پرومپٹس دوبارہ استعمال کریں",
     "home_page__features_carousel__feature_prompts__description4": "کسٹم ٹون اور رائٹنگ سٹائلز",
@@ -582,8 +582,8 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "اسکین شدہ پی ڈی ایف کاغذ کو OCR کریں تاکہ آپ آسانی سے متن کا انتخاب کر سکیں اور تلاش کر سکیں"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-کلک پرومپٹس",
-    "use_prompt_library__title__tooltip": "1-کلک پرومپٹس",
+    "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
+    "use_prompt_library__title__tooltip": "AI پرومپ لائبریری",
     "tab__favorites__title": "پسندیدہ",
     "tab__public__title": "عوامی",
     "tab__own__title": "اپنا",
@@ -625,7 +625,7 @@
     "footer__title": "AI پیداواری کا آلہ",
     "footer__desc": "AI چیٹ، ریترائٹر، خلاصہ، فوری جواب، پڑھنے کا معاون، پرومپٹس، تلاش، آرٹ، اور ترجمہ. GPT-4، Claude 3، Gemini 1.5 کی طاقت سے محرک",
     "footer__products": "مصنوعات",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "بلند معیار کی AI پرومپ لائبریری",
     "footer__follow_us": "ہماری تعاقب کریں",
     "footer__help": "مدد",
     "footer__how_to_use": "استعمال کیسے کریں",
@@ -804,7 +804,7 @@
     "privacy__title": "پرائیویسی پالیسی | میکس اے آئی",
     "privacy__description": "میکس اے آئی کی پرائیویسی پالیسی پڑھیں۔",
     "prompts__title": "پرومپٹس | میکس اے آئی",
-    "prompts__description": "پرومپٹ مینجمنٹ اور 1-کلک پرومپٹس کے ساتھ روزانہ کے کاموں کو مکمل کریں جو گھنٹوں لیتے تھے۔",
+    "prompts__description": "اپنے روزمرہ کے کاموں کو مکمل کریں مماثلت اور بلند معیار کی AI پرومپ لائبریری کے ساتھ جو گھنٹوں لیتے تھے وہ منٹوں میں۔",
     "release_notes__title": "ریلیز نوٹس | میکس اے آئی",
     "share_conversation__title": "بات چیت کا اشتراک کریں | میکس اے آئی",
     "uninstall__title": "ڈی انسٹال کریں | میکس اے آئی",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI وژن کے ساتھ تصاویر کا تجزیہ کرنے کا سب سے تیز طریقہ. بس ایک سکرین شاٹ لیں اور فوراً کوئی بھی سوال پوچھیں. ہر روز قیمتی گھنٹے واپس لے لیں اور ذہین تحقیق کریں.",
     "ai_vision_pages__section3__title": "جہاں آپ کام کرتے ہیں وہاں کام کرتا ہے",
     "ai_vision_pages__section3__description": "کسی بھی تصویر کا تجزیہ کریں، جہاں آپ کو ضرورت ہو. MaxAI آپ کے استعمال کردہ تمام ویب ایپس اور سائٹس پر کام کرتا ہے. کوئی کاپی کرنے کی ضرورت نہیں، کوئی پیسٹ کرنے کی ضرورت نہیں، کوئی کنٹیکسٹ سوئچ کرنے کی ضرورت نہیں.",
-    "ai_vision_pages__section4__title": "بہترین AI ماڈلز کے ذریعے طاقتور"
+    "ai_vision_pages__section4__title": "بہترین AI ماڈلز کے ذریعے طاقتور",
+    "cta_text__add_to_browser_for_free": "مفت کے لئے {{BROWSER}} میں شامل کریں"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",
