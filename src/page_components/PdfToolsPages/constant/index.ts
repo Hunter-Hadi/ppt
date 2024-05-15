@@ -87,7 +87,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__secondary_description',
     urlKey: routerChildrenObject['jpeg-to-pdf'],
     urlPrefixPath: toolsTopUrlKey,
-    accept: 'image/jpg',
+    accept: 'image/jpg,image/jpeg',
   },
   'heic-to-pdf': {
     icon: 'CropOriginal',
