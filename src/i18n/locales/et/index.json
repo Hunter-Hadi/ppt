@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skannitud PDF-dokument, et saaksite teksti lihtsalt kopeerida ja otsida"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klõpsa vihjed",
+    "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",
     "use_prompt_library__title__tooltip": "1-klõpsu vihjed",
     "tab__favorites__title": "Lemmikud",
     "tab__public__title": "Avalik",
@@ -625,7 +625,7 @@
     "footer__title": "AI tootlikkuse tööriist",
     "footer__desc": "AI vestlus, ümberkirjutaja, kokkuvõte, kiire vastus, lugemisabiline, vihjed, otsing, kunst ja tõlkija. Töötab GPT-4, Claude 3, Gemini 1.5 abil.",
     "footer__products": "Tooted",
-    "footer__1_click_prompts": "1-kliki vihjed",
+    "footer__1_click_prompts": "Kõrgekvaliteediline AI-promptide raamatukogu",
     "footer__follow_us": "Jälgi meid",
     "footer__help": "Abi",
     "footer__how_to_use": "Kasutusjuhend",
@@ -804,7 +804,7 @@
     "privacy__title": "Privaatsuspoliitika | MaxAI.me",
     "privacy__description": "Loe MaxAI.me privaatsuspoliitikat.",
     "prompts__title": "Käsud | MaxAI.me",
-    "prompts__description": "Täida oma igapäevased ülesanded Käskude haldamise ja 1-klõpsuliste käskude abil minutitega, mis varem võtsid tunde.",
+    "prompts__description": "Täitke oma igapäevased ülesanded Prompt Managementi ja kõrgekvaliteedilise AI-promptide raamatukoguga minutitega, mis varem võttis tunde.",
     "release_notes__title": "Väljalaske märkused | MaxAI.me",
     "share_conversation__title": "Jaga vestlust | MaxAI.me",
     "uninstall__title": "Eemalda | MaxAI.me",

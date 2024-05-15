@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "PDF 문서를 OCR로 변환하여 텍스트를 쉽게 복사하고 검색할 수 있습니다."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-클릭 프롬프트",
+    "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",
     "use_prompt_library__title__tooltip": "1-클릭 프롬프트",
     "tab__favorites__title": "즐겨찾기",
     "tab__public__title": "공개",
@@ -625,7 +625,7 @@
     "footer__title": "AI 생산성 도구",
     "footer__desc": "AI 챗봇, 리라이터, 요약, 즉각적인 답변, 독서 보조, 프롬프트, 검색, 예술 및 번역기. GPT-4, Claude 3, Gemini 1.5로 구동됩니다.",
     "footer__products": "제품",
-    "footer__1_click_prompts": "1-클릭 프롬프트",
+    "footer__1_click_prompts": "고품질 AI 프롬프트 라이브러리",
     "footer__follow_us": "팔로우하기",
     "footer__help": "도움말",
     "footer__how_to_use": "사용 방법",
@@ -804,7 +804,7 @@
     "privacy__title": "개인정보 처리방침 | MaxAI.me",
     "privacy__description": "MaxAI.me의 개인정보 처리방침을 읽어보세요.",
     "prompts__title": "프롬프트 | MaxAI.me",
-    "prompts__description": "Prompt 관리와 1-클릭 프롬프트로 일상 업무를 몇 분 만에 완료하세요. 이전에는 몇 시간이 걸렸던 작업도 가능합니다.",
+    "prompts__description": "시간이 걸리던 일상 업무를 몇 분 안에 완료하세요. 프롬프트 관리 및 고품질 AI 프롬프트 라이브러리로.",
     "release_notes__title": "릴리스 노트 | MaxAI.me",
     "share_conversation__title": "대화 공유 | MaxAI.me",
     "uninstall__title": "제거하기 | MaxAI.me",

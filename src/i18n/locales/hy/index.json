@@ -582,7 +582,7 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Ներբեռնեք OCR PDF-ը արդյունքների էջում որպեսզի տեսնեք որակը:"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Սեղմումով նախատեսված հարցեր",
+    "use_prompt_library__title": "Որակյալ AI խորհրդատու գրադարան",
     "use_prompt_library__title__tooltip": "1-սեղմումով հարցեր",
     "tab__favorites__title": "Իմ ընտրանքները",
     "tab__public__title": "Հանրային",
@@ -625,7 +625,7 @@
     "footer__title": "AI արտադրության գործիք",
     "footer__desc": "AI զրուցարան, վերագրիչ, ամփոփում, անմիջապես պատասխան, կարդալու օգնական, հուշաթերթեր, որոնում, արվեստ և թարգմանիչ: Գործարկված է GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Արտադրանքներ",
-    "footer__1_click_prompts": "1-Սեղմումով հուշումներ",
+    "footer__1_click_prompts": "Որակյալ AI խորհրդատու գրադարան",
     "footer__follow_us": "Հետևեք մեզ",
     "footer__help": "Օգնություն",
     "footer__how_to_use": "Ինչպե՞ս օգտագործել",
@@ -804,7 +804,7 @@
     "privacy__title": "Գաղտնիության պայմաններ | MaxAI.me",
     "privacy__description": "Կարդացեք MaxAI.me գաղտնիության պայմանները։",
     "prompts__title": "Հրաշալիություններ | MaxAI.me",
-    "prompts__description": "Ավարտեք ձեր հավելվածները Օրական խնդիրներով և 1-Սենյակային հրաշալիություններով, որոնք առաջարկում են ժամանակավորել ժամանակը։",
+    "prompts__description": "Ավարտեք ձեր համակարգչային առաջադրանքները մի քանի րոպեում Prompt Management և որակյալ AI խորհրդատու գրադարանի միջոցով, որը նախօրոք անհաշվելի էր ժամանակներով։",
     "release_notes__title": "Թողարկման նշումներ | MaxAI.me",
     "share_conversation__title": "Կիսվել խոսակցությանը | MaxAI.me",
     "uninstall__title": "Հեռացնել | MaxAI.me",

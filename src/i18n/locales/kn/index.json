@@ -582,7 +582,7 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ಗುಣಮಟ್ಟವನ್ನು ನೋಡಲು OCR PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
+    "use_prompt_library__title": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
     "use_prompt_library__title__tooltip": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಗಳು",
     "tab__favorites__title": "ಮೆಚ್ಚುಗೆಯ ವಸ್ತುಗಳು",
     "tab__public__title": "ಪ್ರಕಟಣೆ",
@@ -625,7 +625,7 @@
     "footer__title": "ಯುಎಕ್ಸ್ ಉಪಕರಣ",
     "footer__desc": "AI ಚಾಟ್, ಮರುವರ್ತಿಸುವವರು, ಸಂಗ್ರಹ, ತಕ್ಷಣ ಉತ್ತರ, ಓದುವ ಸಹಾಯಕ, ಪ್ರಾಂಪ್ಟ್ಸ್, ಹುಡುಕು, ಕಲೆ ಮತ್ತು ಅನುವಾದಕ. GPT-4, Claude 3, Gemini 1.5 ದ್ವಾರಾ ಪ್ರಾಮುಖ್ಯವಾಗಿ ನಡೆಸಲಾಗುತ್ತದೆ.",
     "footer__products": "ಉತ್ಪನ್ನಗಳು",
-    "footer__1_click_prompts": "1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್‌ಗಳು",
+    "footer__1_click_prompts": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
     "footer__follow_us": "ನಮ್ಮ ಹಕ್ಕುಗಳನ್ನು ಅನುಸರಿಸಿ",
     "footer__help": "ಸಹಾಯ",
     "footer__how_to_use": "ಹೇಗೆ ಬಳಸಬೇಕು",
@@ -804,7 +804,7 @@
     "privacy__title": "ಗೌಪ್ಯತೆ ನೀತಿ | MaxAI.me",
     "privacy__description": "MaxAI.me ಗೌಪ್ಯತೆ ನೀತಿಯನ್ನು ಓದಿ.",
     "prompts__title": "ಪ್ರಾಂಪ್ಟ್ಸ್ | MaxAI.me",
-    "prompts__description": "ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಪ್ರಾಂಪ್ಟ್ ನಿರ್ವಹಣೆ ಮತ್ತು 1-ಕ್ಲಿಕ್ ಪ್ರಾಂಪ್ಟ್ಸ್ ಅನ್ನು ಬಳಕೆದಾರರಿಗೆ ಒಂದು ನಿಮಿಷದಲ್ಲಿ ಮುಗಿಸಲು ಹೇಗೆ ಮಾಡಲು ನೋಡಿಕೆಗಳನ್ನು ಬಳಸಿ.",
+    "prompts__description": "ಪ್ರಾಂಪ್ಟ್ ಮ್ಯಾನೇಜ್ಮೆಂಟ್ ಮತ್ತು ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ ನೋಡಿ, ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ಮುಗಿಸಿ.",
     "release_notes__title": "ವಿಮೊಚನೆ ನೋಟಗಳು | MaxAI.me",
     "share_conversation__title": "ಸಂಭಾಷಣೆ ಹಂಚಿಕೆ | MaxAI.me",
     "uninstall__title": "ಅಸ್ಥಾಪನೆ ರದ್ದುಮಾಡಿ | MaxAI.me",

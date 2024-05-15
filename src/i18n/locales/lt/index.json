@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Atpažinkite skenuotą PDF dokumentą, kad galėtumėte lengvai pasirinkti kopijuoti ir ieškoti teksto"
   },
   "prompt_library": {
-    "use_prompt_library__title": "Vieno paspaudimo užduotys",
+    "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",
     "use_prompt_library__title__tooltip": "Vieno paspaudimo užduotys",
     "tab__favorites__title": "Mėgstamiausi",
     "tab__public__title": "Vieši",
@@ -625,7 +625,7 @@
     "footer__title": "AI produktyvumo įrankis",
     "footer__desc": "AI pokalbis, peržodinimas, santrauka, momentinis atsakymas, skaitymo asistentas, užuominos, paieška, menas ir vertėjas. Veikia su GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produktai",
-    "footer__1_click_prompts": "Vieno paspaudimo užduotys",
+    "footer__1_click_prompts": "Aukštos kokybės AI užduočių biblioteka",
     "footer__follow_us": "Sekite mus",
     "footer__help": "Pagalba",
     "footer__how_to_use": "Kaip naudotis",
@@ -804,7 +804,7 @@
     "privacy__title": "Privatumo politika | MaxAI.me",
     "privacy__description": "Skaitykite MaxAI.me privatumo politiką.",
     "prompts__title": "Užduotys | MaxAI.me",
-    "prompts__description": "Užbaikite savo kasdienius uždavinius su Užduočių valdymu ir 1 paspaudimu užduotimis per kelias minutes, kurios anksčiau užtrukdavo valandas.",
+    "prompts__description": "Užbaikite savo kasdienines užduotis naudodami Užduočių valdymą ir aukštos kokybės AI užduočių biblioteką per kelias minutes, kurios anksčiau užtrukdavo valandas.",
     "release_notes__title": "Atnaujinimų žinutės | MaxAI.me",
     "share_conversation__title": "Dalintis pokalbiu | MaxAI.me",
     "uninstall__title": "Pašalinti | MaxAI.me",

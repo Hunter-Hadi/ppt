@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Szövegfelismeréses PDF"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Kattintásos Segítség",
+    "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",
     "use_prompt_library__title__tooltip": "1-kattintásos segítség",
     "tab__favorites__title": "Kedvencek",
     "tab__public__title": "Nyilvános",
@@ -625,7 +625,7 @@
     "footer__title": "AI termelékenységi eszköz",
     "footer__desc": "AI chat, átíró, összefoglaló, azonnali válasz, olvasást segítő, promptok, keresés, művészet és fordító. GPT-4, Claude 3 és Gemini 1.5 által támogatott.",
     "footer__products": "Termékek",
-    "footer__1_click_prompts": "1 kattintásos segédletek",
+    "footer__1_click_prompts": "Magas minőségű AI prompt könyvtár",
     "footer__follow_us": "Kövess minket",
     "footer__help": "Segítség",
     "footer__how_to_use": "Hogyan használd",
@@ -804,7 +804,7 @@
     "privacy__title": "Adatvédelmi irányelvek | MaxAI.me",
     "privacy__description": "Olvassa el a MaxAI.me adatvédelmi irányelveit.",
     "prompts__title": "Felhívások | MaxAI.me",
-    "prompts__description": "Végezze el mindennapi feladatait Felhíváskezeléssel és 1 kattintással percek alatt, amelyek órákat vettek igénybe.",
+    "prompts__description": "Végezze el mindennapi feladatait a Prompt kezelés és a Magas minőségű AI prompt könyvtár segítségével percek alatt, amelyek korábban órákig tartottak.",
     "release_notes__title": "Verziókövetés | MaxAI.me",
     "share_conversation__title": "Beszélgetés megosztása | MaxAI.me",
     "uninstall__title": "Eltávolítás | MaxAI.me",

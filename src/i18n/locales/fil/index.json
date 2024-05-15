@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "I-OCR ang nasken na dokumento sa PDF, upang madaling pumili ng kopya at maghanap ng teksto"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Click Mga Prompt",
+    "use_prompt_library__title": "Mataas na kalidad na AI prompt library",
     "use_prompt_library__title__tooltip": "Mga prompt sa 1-click",
     "tab__favorites__title": "Mga Paborito",
     "tab__public__title": "Pampubliko",
@@ -625,7 +625,7 @@
     "footer__title": "AI tool para sa produktibidad",
     "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, at pagsasalin. Pinapagana ng GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Mga Produkto",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "Mataas na kalidad na AI prompt library",
     "footer__follow_us": "Sundan Kami",
     "footer__help": "Tulong",
     "footer__how_to_use": "Paano Gamitin",
@@ -804,7 +804,7 @@
     "privacy__title": "Patakaran sa Privacy | MaxAI.me",
     "privacy__description": "Basahin ang patakaran sa privacy ng MaxAI.me.",
     "prompts__title": "Mga Prompt | MaxAI.me",
-    "prompts__description": "Tapusin ang iyong pang-araw-araw na mga gawain gamit ang Pamamahala ng Mga Prompt at 1-Click Prompts sa loob ng ilang minuto na dati ay tumatagal ng oras.",
+    "prompts__description": "Tapusin ang iyong pang-araw-araw na mga gawain gamit ang Pamamahala ng Prompt at Mataas na kalidad na AI prompt library sa loob ng ilang minuto na dati ay tumatagal ng oras.",
     "release_notes__title": "Mga Release Notes | MaxAI.me",
     "share_conversation__title": "Ibahagi ang Usapan | MaxAI.me",
     "uninstall__title": "Tanggalin | MaxAI.me",

@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Przekształć zeskanowany dokument PDF na tekst, abyś mógł łatwo kopiować i wyszukiwać tekst"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Kliknij Wskazówki",
+    "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",
     "use_prompt_library__title__tooltip": "1-kliknięcie wskazówek",
     "tab__favorites__title": "Ulubione",
     "tab__public__title": "Publiczne",
@@ -625,7 +625,7 @@
     "footer__title": "Narzędzie do produktywności AI",
     "footer__desc": "AI chat, rewriter, podsumowanie, natychmiastowa odpowiedź, asystent do czytania, podpowiedzi, wyszukiwanie, sztuka i tłumacz. Zasilany przez GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkty",
-    "footer__1_click_prompts": "1-Kliknij Prompty",
+    "footer__1_click_prompts": "Wysokiej jakości biblioteka promptów AI",
     "footer__follow_us": "Śledź nas",
     "footer__help": "Pomoc",
     "footer__how_to_use": "Jak korzystać",
@@ -804,7 +804,7 @@
     "privacy__title": "Polityka prywatności | MaxAI.me",
     "privacy__description": "Przeczytaj politykę prywatności MaxAI.me.",
     "prompts__title": "Podpowiedzi | MaxAI.me",
-    "prompts__description": "Ukończ codzienne zadania z Zarządzaniem Podpowiedziami i Podpowiedziami w jednym kliknięciu w kilka minut, które wcześniej zajmowały godziny.",
+    "prompts__description": "Zakończ codzienne zadania z zarządzaniem promptami i wysokiej jakości biblioteką promptów AI w kilka minut, które wcześniej zajmowały godziny.",
     "release_notes__title": "Notatki wydania | MaxAI.me",
     "share_conversation__title": "Udostępnij rozmowę | MaxAI.me",
     "uninstall__title": "Odinstaluj | MaxAI.me",

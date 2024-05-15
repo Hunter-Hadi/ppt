@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "স্ক্যানকৃত পিডিএফ ডকুমেন্টের ওসিআর, যাতে আপনি সহজেই লেখা কপি করতে এবং অনুসন্ধান করতে পারেন"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-ক্লিক প্রম্পট",
+    "use_prompt_library__title": "উচ্চ মানের AI প্রম্পট লাইব্রেরি",
     "use_prompt_library__title__tooltip": "1-ক্লিক প্রম্পট",
     "tab__favorites__title": "পছন্দসই",
     "tab__public__title": "পাবলিক",
@@ -625,7 +625,7 @@
     "footer__title": "এআই প্রোডাক্টিভিটি টুল",
     "footer__desc": "এইচটি চ্যাট, রিওরাইটার, সারসংক্ষেপ, তাৎক্ষণিক উত্তর, পাঠক সহায়ক, প্রম্পট, অনুসন্ধান, শিল্প, এবং অনুবাদ। GPT-4, Claude 3, Gemini 1.5 দ্বারা প্রস্তুত।",
     "footer__products": "পণ্য",
-    "footer__1_click_prompts": "1-ক্লিক প্রম্পট",
+    "footer__1_click_prompts": "উচ্চ মানের AI প্রম্পট লাইব্রেরি",
     "footer__follow_us": "আমাদের অনুসরণ করুন",
     "footer__help": "সাহায্য",
     "footer__how_to_use": "কিভাবে ব্যবহার করবেন",
@@ -804,7 +804,7 @@
     "privacy__title": "গোপনীয়তা নীতি | MaxAI.me",
     "privacy__description": "MaxAI.me এর গোপনীয়তা নীতি পড়ুন।",
     "prompts__title": "প্রম্পট | MaxAI.me",
-    "prompts__description": "আপনার প্রতিদিনের কাজগুলি সম্পূর্ণ করুন প্রম্পট ম্যানেজমেন্ট এবং 1-ক্লিক প্রম্পট দিয়ে মিনিটেই যা ঘন্টার সময় নিত।",
+    "prompts__description": "ঘনিষ্ঠতা সহ আপনার প্রতিদিনের কাজগুলি সম্পূর্ণ করুন প্রম্পট ম্যানেজমেন্ট এবং উচ্চ মানের AI প্রম্পট লাইব্রেরি দিয়ে মাত্র কয়েক মিনিটে, যা আগে ঘন্টাগুলি নিত।",
     "release_notes__title": "রিলিজ নোটস | MaxAI.me",
     "share_conversation__title": "কথোপকথন শেয়ার করুন | MaxAI.me",
     "uninstall__title": "আনইনস্টল করুন | MaxAI.me",

@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "تبدیل PDF اسکن شده به متن، بنابراین می‌توانید به راحتی متن را کپی و جستجو کنید"
   },
   "prompt_library": {
-    "use_prompt_library__title": "الگوهای 1-کلیک",
+    "use_prompt_library__title": "کتابخانه پیشنهاد با کیفیت بالا",
     "use_prompt_library__title__tooltip": "الگوهای 1-کلیک",
     "tab__favorites__title": "مورد علاقه‌ها",
     "tab__public__title": "عمومی",
@@ -625,7 +625,7 @@
     "footer__title": "ابزار بهره‌وری هوش مصنوعی",
     "footer__desc": "چت هوش مصنوعی، بازنویسی، خلاصه، پاسخ فوری، کمک خواندن، راهنماها، جستجو، هنر و مترجم. قدرت گرفته از GPT-4، Claude 3، Gemini 1.5.",
     "footer__products": "محصولات",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "کتابخانه پیشنهاد با کیفیت بالا",
     "footer__follow_us": "ما را دنبال کنید",
     "footer__help": "کمک",
     "footer__how_to_use": "چگونه استفاده کنیم",
@@ -804,7 +804,7 @@
     "privacy__title": "سیاست حفظ حریم خصوصی | MaxAI.me",
     "privacy__description": "سیاست حفظ حریم خصوصی MaxAI.me را بخوانید.",
     "prompts__title": "پیشنهادات | MaxAI.me",
-    "prompts__description": "وظایف روزمره خود را با مدیریت Prompt و پیشنهادات 1-Click در عرض چند دقیقه که قبلاً ساعت‌ها طول می‌کشید، تکمیل کنید.",
+    "prompts__description": "انجام وظایف روزمره خود را با مدیریت پیشنهاد و کتابخانه پیشنهاد با کیفیت بالا در عرض چند دقیقه که قبلاً ساعت‌ها طول می‌کشید، تکمیل کنید.",
     "release_notes__title": "یادداشت‌های نسخه | MaxAI.me",
     "share_conversation__title": "بازگویی مکالمه | MaxAI.me",
     "uninstall__title": "حذف نصب | MaxAI.me",
@@ -1255,6 +1255,5 @@
     "components__ocr_pdf__main__ocr_loading": "بارگذاری PDF",
     "components__ocr_pdf__main__ocr_and_download": "تشخیص اپتیکال کاراکتر و دانلود",
     "components__ocr_pdf__main__document_scanning_language": "زبان اسکن سند"
-  },
-  "": ""
+  }
 }

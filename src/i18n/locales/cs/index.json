@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Převeďte naskenovaný dokument PDF na text, abyste mohli snadno vybrat a vyhledávat text"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Kliknutí na Nápovědy",
+    "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",
     "use_prompt_library__title__tooltip": "1-kliknutí na nápovědy",
     "tab__favorites__title": "Oblíbené",
     "tab__public__title": "Veřejné",
@@ -625,7 +625,7 @@
     "footer__title": "Nástroj pro produktivitu AI",
     "footer__desc": "AI chat, přepisovač, shrnutí, okamžitá odpověď, čtecí asistent, podněty, vyhledávání, umění a překladač. Poháněno GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkty",
-    "footer__1_click_prompts": "1-Kliknutí podněty",
+    "footer__1_click_prompts": "Knihovna vysoké kvality pro AI prompty",
     "footer__follow_us": "Sledujte nás",
     "footer__help": "Nápověda",
     "footer__how_to_use": "Jak používat",
@@ -804,7 +804,7 @@
     "privacy__title": "Zásady ochrany osobních údajů | MaxAI.me",
     "privacy__description": "Přečtěte si zásady ochrany osobních údajů MaxAI.me.",
     "prompts__title": "Podněty | MaxAI.me",
-    "prompts__description": "Dokončete své každodenní úkoly s řízením podnětů a jedním kliknutím na podněty za minuty, které dříve trvaly hodiny.",
+    "prompts__description": "Dokončete své každodenní úkoly s řízením promptů a knihovnou vysoké kvality pro AI prompty za minuty, které dříve trvaly hodiny.",
     "release_notes__title": "Poznámky k vydání | MaxAI.me",
     "share_conversation__title": "Sdílet konverzaci | MaxAI.me",
     "uninstall__title": "Odinstalovat | MaxAI.me",

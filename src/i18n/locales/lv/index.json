@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenētu PDF dokumentu, lai jūs varat viegli izvēlēties kopēt un meklēt tekstu"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klikšķa pamudinājumi",
+    "use_prompt_library__title": "Augstas kvalitātes AI pamatbibliotēka",
     "use_prompt_library__title__tooltip": "1-klikšķa pamudinājumi",
     "tab__favorites__title": "Izlase",
     "tab__public__title": "Publiski",
@@ -625,7 +625,7 @@
     "footer__title": "AI produktivitātes rīks",
     "footer__desc": "AI tērzēšana, pārrakstītājs, kopsavilkums, nekavējoties atbildēt, lasīšanas palīgs, norādes, meklēšana, māksla un tulks. Darbina GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkti",
-    "footer__1_click_prompts": "1-klikšķa pamudinājumi",
+    "footer__1_click_prompts": "Augstas kvalitātes AI pamatbibliotēka",
     "footer__follow_us": "Seko mums",
     "footer__help": "Palīdzība",
     "footer__how_to_use": "Kā lietot",
@@ -804,7 +804,7 @@
     "privacy__title": "Privātuma politika | MaxAI.me",
     "privacy__description": "Iepazīstieties ar MaxAI.me privātuma politiku.",
     "prompts__title": "Uzdevumi | MaxAI.me",
-    "prompts__description": "Pabeidziet ikdienas uzdevumus ar Uzdevumu pārvaldību un 1-klikšķa Uzdevumiem minūšu laikā, kas agrāk prasīja stundas.",
+    "prompts__description": "Pabeidziet ikdienas uzdevumus ar Promptu pārvaldību un augstas kvalitātes AI pamatbibliotēku minūtēs, kas agrāk prasīja stundas.",
     "release_notes__title": "Jaunievedumu piezīmes | MaxAI.me",
     "share_conversation__title": "Dalīties sarunā | MaxAI.me",
     "uninstall__title": "Atinstalēt | MaxAI.me",

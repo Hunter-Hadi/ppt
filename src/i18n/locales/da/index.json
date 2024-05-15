@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-scannet PDF-dokument, så du nemt kan vælge at kopiere og søge efter tekst"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klik Prompts",
+    "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",
     "use_prompt_library__title__tooltip": "1-klik prompts",
     "tab__favorites__title": "Favoritter",
     "tab__public__title": "Offentlig",
@@ -625,7 +625,7 @@
     "footer__title": "AI produktivitetsværktøj",
     "footer__desc": "AI chat, omskrivning, resumé, øjeblikkelig svar, læseassistent, prompts, søgning, kunst og oversætter. Drevet af GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkter",
-    "footer__1_click_prompts": "1-Klik Prompts",
+    "footer__1_click_prompts": "Høj kvalitet AI prompt bibliotek",
     "footer__follow_us": "Følg os",
     "footer__help": "Hjælp",
     "footer__how_to_use": "Sådan bruger du",
@@ -804,7 +804,7 @@
     "privacy__title": "Fortrolighedspolitik | MaxAI.me",
     "privacy__description": "Læs MaxAI.me's fortrolighedspolitik.",
     "prompts__title": "Prompter | MaxAI.me",
-    "prompts__description": "Udfør dine daglige opgaver med Prompt Management og 1-Click Prompts på få minutter, som tidligere tog timer.",
+    "prompts__description": "Udfør dine daglige opgaver med Prompt Management og Høj kvalitet AI prompt bibliotek på få minutter, som tidligere tog timer.",
     "release_notes__title": "Versionsnoter | MaxAI.me",
     "share_conversation__title": "Del samtale | MaxAI.me",
     "uninstall__title": "Afinstaller | MaxAI.me",

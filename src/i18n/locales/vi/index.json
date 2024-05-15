@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Chuyển đổi PDF đã quét thành văn bản, để bạn dễ dàng sao chép và tìm kiếm từ"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Click Gợi ý",
+    "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",
     "use_prompt_library__title__tooltip": "Gợi ý 1-click",
     "tab__favorites__title": "Yêu thích",
     "tab__public__title": "Công khai",
@@ -625,7 +625,7 @@
     "footer__title": "Công cụ năng suất AI",
     "footer__desc": "Trò chuyện AI, tái viết, tóm tắt, trả lời tức thì, trợ lý đọc, gợi ý, tìm kiếm, nghệ thuật và dịch. Được cung cấp bởi GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Sản phẩm",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "Thư viện gợi ý AI chất lượng cao",
     "footer__follow_us": "Theo dõi chúng tôi",
     "footer__help": "Trợ giúp",
     "footer__how_to_use": "Cách sử dụng",
@@ -804,7 +804,7 @@
     "privacy__title": "Chính sách bảo mật | MaxAI.me",
     "privacy__description": "Đọc chính sách bảo mật của MaxAI.me.",
     "prompts__title": "Gợi ý | MaxAI.me",
-    "prompts__description": "Hoàn thành các nhiệm vụ hàng ngày của bạn với Quản lý Gợi ý và Gợi ý 1-Click trong vài phút thay vì mất hàng giờ.",
+    "prompts__description": "Hoàn thành các nhiệm vụ hàng ngày của bạn với Quản lý Gợi ý và Thư viện gợi ý AI chất lượng cao trong vài phút thay vì mất giờ đồng hồ.",
     "release_notes__title": "Ghi chú phát hành | MaxAI.me",
     "share_conversation__title": "Chia sẻ cuộc trò chuyện | MaxAI.me",
     "uninstall__title": "Gỡ cài đặt | MaxAI.me",

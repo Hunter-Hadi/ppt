@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "แปลงเอกสาร PDF ที่ถูกสแกนด้วย OCR เพื่อให้คุณสามารถคัดลอกและค้นหาข้อความได้ง่ายๆ"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-คลิก เทมเพลต",
+    "use_prompt_library__title": "ไลบรารีคำแนะนำ AI คุณภาพสูง",
     "use_prompt_library__title__tooltip": "1-คลิก เทมเพลต",
     "tab__favorites__title": "รายการโปรด",
     "tab__public__title": "สาธารณะ",
@@ -625,7 +625,7 @@
     "footer__title": "เครื่องมือเพิ่มประสิทธิภาพ AI",
     "footer__desc": "แชท AI, เครื่องหมายเขียนใหม่, สรุป, ตอบกลับทันที, ผู้ช่วยการอ่าน, คำแนะนำ, ค้นหา, ศิลปะ, และแปลภาษา ขับเคลื่อนด้วย GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "ผลิตภัณฑ์",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "ไลบรารีคำแนะนำ AI คุณภาพสูง",
     "footer__follow_us": "ติดตามเรา",
     "footer__help": "ช่วยเหลือ",
     "footer__how_to_use": "วิธีการใช้",
@@ -804,7 +804,7 @@
     "privacy__title": "นโยบายความเป็นส่วนตัว | MaxAI.me",
     "privacy__description": "อ่านนโยบายความเป็นส่วนตัวของ MaxAI.me",
     "prompts__title": "คำให้การ | MaxAI.me",
-    "prompts__description": "ทำภารกิจประจำวันของคุณให้เสร็จสิ้นด้วยการจัดการคำให้การและคำให้การด้วยคลิกเดียวในเวลาไม่กี่นาทีซึ่งใช้เวลาหลายชั่วโมงก่อนหน้านี้",
+    "prompts__description": "ทำภารกิจประจำวันของคุณให้เสร็จสมบูรณ์ด้วยการจัดการคำแนะนำและไลบรารีคำแนะนำ AI คุณภาพสูงในเวลาไม่กี่นาทีที่ใช้เวลาเป็นชั่วโมง",
     "release_notes__title": "บันทึกการอัปเดต | MaxAI.me",
     "share_conversation__title": "แชร์การสนทนา | MaxAI.me",
     "uninstall__title": "ถอนการติดตั้ง | MaxAI.me",

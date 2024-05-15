@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "மீட்டமைக்கப்பட்ட பி.டி.ஆர் ஆவணத்தில் உரையை நகலெடுக்க, தேடல் செய்ய முடியும்"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-கிளிக் புரோம்ட்கள்",
+    "use_prompt_library__title": "உயர் தரமான AI புத்தக நூலகம்",
     "use_prompt_library__title__tooltip": "1-கிளிக் புரோம்ட்கள்",
     "tab__favorites__title": "பிடித்தவை",
     "tab__public__title": "பொது",
@@ -625,7 +625,7 @@
     "footer__title": "அறிவியல் உத்தரவாத கருவி",
     "footer__desc": "ஏதேனும் கேள்விகளுக்கு பதிலளிக்கும் AI உரையாளர், மறுசீரமைப்பாளர், சுருக்கம், உதவி படிவம், படத்தை தேடுபவர், அறிவியல், மற்றும் மொழிபெயர்ப்பாளர். GPT-4, Claude 3, Gemini 1.5 ஆனவை மூலம் செயல்படுகின்றன.",
     "footer__products": "தயாரிப்புகள்",
-    "footer__1_click_prompts": "1-கிளிக் உதவிகள்",
+    "footer__1_click_prompts": "உயர் தரமான AI புத்தக நூலகம்",
     "footer__follow_us": "எங்களை பின்பற்றுங்கள்",
     "footer__help": "உதவி",
     "footer__how_to_use": "எப்படி பயன்படுத்துவது",
@@ -804,7 +804,7 @@
     "privacy__title": "தனியுரிமை கொள்கை | MaxAI.me",
     "privacy__description": "MaxAI.me தனியுரிமை கொள்கையைப் படிக்கவும்.",
     "prompts__title": "உரையாடல்கள் | MaxAI.me",
-    "prompts__description": "நேரடி மணிகளில் மட்டுமே எடுக்கும் உங்கள் அனைத்து தொழில்நுட்ப பணிகளையும் முடிக்கும் உரையாடல் மேலாளர்களுடன் ஒரு கிளிக்கில் முடியும்.",
+    "prompts__description": "மணிநேரத்தில் எடுத்துக்காட்டு மற்றும் உயர் தரமான AI புத்தக நூலகத்தைப் பயன்படுத்தி உங்கள் அனைத்து தினசரி பணிகளையும் முடிக்கவும் மணிக்குள் நேரத்தில் முடிக்கலாம்.",
     "release_notes__title": "வெளியீட்டு குறிப்புகள் | MaxAI.me",
     "share_conversation__title": "உரையாடலை பகிர்ந்து கொள்ளுங்கள் | MaxAI.me",
     "uninstall__title": "நீக்குக | MaxAI.me",

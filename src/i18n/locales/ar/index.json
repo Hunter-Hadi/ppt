@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "قم بتحويل مستند PDF الممسوح ضوئيًا إلى نص قابل للنسخ والبحث بسهولة"
   },
   "prompt_library": {
-    "use_prompt_library__title": "نصائح بنقرة واحدة",
+    "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
     "use_prompt_library__title__tooltip": "نصائح بنقرة واحدة",
     "tab__favorites__title": "المفضلة",
     "tab__public__title": "عامة",
@@ -625,7 +625,7 @@
     "footer__title": "أداة إنتاجية للذكاء الاصطناعي",
     "footer__desc": "الدردشة الذكية، إعادة الكتابة، الملخص، الرد الفوري، مساعد القراءة، التلميحات، البحث، الفن، والمترجم. يعمل بواسطة GPT-4، Claude 3، Gemini 1.5.",
     "footer__products": "المنتجات",
-    "footer__1_click_prompts": "مشروعات بنقرة واحدة",
+    "footer__1_click_prompts": "مكتبة نصوص AI عالية الجودة",
     "footer__follow_us": "تابعنا",
     "footer__help": "المساعدة",
     "footer__how_to_use": "كيفية الاستخدام",
@@ -804,7 +804,7 @@
     "privacy__title": "سياسة الخصوصية | MaxAI.me",
     "privacy__description": "اقرأ سياسة الخصوصية الخاصة بـ MaxAI.me.",
     "prompts__title": "التلميحات | MaxAI.me",
-    "prompts__description": "أكمل مهامك اليومية باستخدام إدارة التلميحات والتلميحات بنقرة واحدة في دقائق تستغرق ساعاتًا في الماضي.",
+    "prompts__description": "أكمل مهامك اليومية باستخدام إدارة النصوص ومكتبة نصوص AI عالية الجودة في دقائق بدلاً من ساعات.",
     "release_notes__title": "ملاحظات الإصدار | MaxAI.me",
     "share_conversation__title": "مشاركة المحادثة | MaxAI.me",
     "uninstall__title": "إلغاء التثبيت | MaxAI.me",

@@ -785,7 +785,7 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Loading"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Click Prompts",
+    "use_prompt_library__title": "High quality AI prompt library",
     "use_prompt_library__title__tooltip": "1-click prompts",
     "tab__favorites__title": "Favorites",
     "tab__public__title": "Public",
@@ -830,7 +830,7 @@
     "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, and translator. Powered by GPT-4, Claude 3, Gemini 1.5.",
 
     "footer__products": "Products",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "High quality AI prompt library",
     "footer__follow_us": "Follow Us",
     "footer__help": "Help",
     "footer__how_to_use": "How to use",
@@ -1032,7 +1032,7 @@
     "privacy__description": "Read the MaxAI.me privacy policy.",
 
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Complete your everyday tasks with Prompt Management and 1-Click Prompts in minutes that used to take hours.",
+    "prompts__description": "Complete your everyday tasks with Prompt Management and High quality AI prompt library in minutes that used to take hours.",
 
     "release_notes__title": "Release notes | MaxAI.me",
 

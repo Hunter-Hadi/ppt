@@ -582,7 +582,7 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ગુણવત્તા જોવા માટે OCR PDFને પરિણામો પૃષ્ઠમાં ડાઉનલોડ કરો."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-ક્લિક પ્રોમ્પ્ટ્સ",
+    "use_prompt_library__title": "ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી",
     "use_prompt_library__title__tooltip": "1-ક્લિક પ્રોમ્પ્ટ્સ",
     "tab__favorites__title": "મનપસંદ",
     "tab__public__title": "સાર્વજનિક",
@@ -625,7 +625,7 @@
     "footer__title": "એઆઈ ઉત્પાદકતા સાધન",
     "footer__desc": "એઆઈ ચેટ, રીવ્રાઇટર, સંક્ષેપ, તત્વચ્છ જવાબ, વાંચન સહાયક, પ્રોમ્પ્ટ્સ, શોધ, કલા અને અનુવાદક. GPT-4, Claude 3, Gemini 1.5 દ્વારા પ્રાર્થના કરેલ.",
     "footer__products": "ઉત્પાદનો",
-    "footer__1_click_prompts": "1-ક્લિક પ્રોમ્પ્ટ્સ",
+    "footer__1_click_prompts": "ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી",
     "footer__follow_us": "અમને અનુસરો",
     "footer__help": "મદદ",
     "footer__how_to_use": "કેવી રીતે વપરાશ કરવું",
@@ -804,7 +804,7 @@
     "privacy__title": "ગોપનીયતા નીતિ | MaxAI.me",
     "privacy__description": "MaxAI.me ગોપનીયતા નીતિ વાંચો.",
     "prompts__title": "પ્રોમ્પ્ટ્સ | MaxAI.me",
-    "prompts__description": "પ્રોમ્પ્ટ મેનેજમેન્ટ અને 1-ક્લિક પ્રોમ્પ્ટ્સ સાથે તમારા દૈનિક કાર્યો પૂરા કરો, જે હજુ સમય લેવાનું હતું.",
+    "prompts__description": "કેવલ મિનિટમાં તમારા દિનચર્યાઓ પૂર્ણ કરો જેમાં Prompt Management અને ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી શામેલ છે જે પહેલાથી કઈ કલાકો લેતી હતી.",
     "release_notes__title": "રિલીઝ નોટ્સ | MaxAI.me",
     "share_conversation__title": "વાર્તા શેર કરો | MaxAI.me",
     "uninstall__title": "અનઇન્સ્ટોલ | MaxAI.me",

@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenirani PDF dokument, tako da možete jednostavno odabrati kopiranje i pretraživanje teksta"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klikni Prompts",
+    "use_prompt_library__title": "Visokokvalitetna AI biblioteka uputa",
     "use_prompt_library__title__tooltip": "1-klikni prompts",
     "tab__favorites__title": "Favoriti",
     "tab__public__title": "Javno",
@@ -625,7 +625,7 @@
     "footer__title": "Alat za produktivnost AI",
     "footer__desc": "AI chat, prepravljač, sažetak, trenutni odgovor, pomoćnik za čitanje, upute, pretraživanje, umjetnost i prevoditelj. Pokreće GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Proizvodi",
-    "footer__1_click_prompts": "1-klik Prompts",
+    "footer__1_click_prompts": "Visokokvalitetna AI biblioteka uputa",
     "footer__follow_us": "Pratite nas",
     "footer__help": "Pomoć",
     "footer__how_to_use": "Kako koristiti",
@@ -804,7 +804,7 @@
     "privacy__title": "Pravila privatnosti | MaxAI.me",
     "privacy__description": "Pročitajte pravila privatnosti MaxAI.me.",
     "prompts__title": "Podražaji | MaxAI.me",
-    "prompts__description": "Završite svoje svakodnevne zadatke s upravljanjem podražajima i jednim klikom na podražaje u minutama koje su prije trajale sate.",
+    "prompts__description": "Završite svoje svakodnevne zadatke s Upravljanjem uputama i visokokvalitetnom AI bibliotekom uputa u nekoliko minuta koje su prije trajale sate.",
     "release_notes__title": "Bilješke o izdanju | MaxAI.me",
     "share_conversation__title": "Podijeli razgovor | MaxAI.me",
     "uninstall__title": "Deinstalacija | MaxAI.me",

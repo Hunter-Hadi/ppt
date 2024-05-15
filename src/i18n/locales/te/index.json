@@ -582,7 +582,7 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "క్వాలిటీని చూడడానికి OCR PDF ను డౌన్‌లోడ్ చేయండి."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-క్లిక్ ప్రాంప్టులు",
+    "use_prompt_library__title": "ఉచిత గుర్తు లైబ్రరీ",
     "use_prompt_library__title__tooltip": "1-క్లిక్ ప్రాంప్టులు",
     "tab__favorites__title": "ఇష్టమైనవి",
     "tab__public__title": "పబ్లిక్",
@@ -625,7 +625,7 @@
     "footer__title": "AI ఉత్పాదకత సాధనం",
     "footer__desc": "AI చాట్, రీవ్రైటర్, సారాంశం, తక్షణ సమాధానం, చదివే సహాయకుడు, ప్రాంప్ట్స్, శోధన, కళా, మరియు అనువాదకుడు. GPT-4, Claude 3, Gemini 1.5 ద్వారా ప్రాధాన్యత పొందినది.",
     "footer__products": "ఉత్పత్తులు",
-    "footer__1_click_prompts": "1-క్లిక్ ప్రాంప్ట్‌లు",
+    "footer__1_click_prompts": "ఉచిత గుర్తు లైబ్రరీ",
     "footer__follow_us": "మాకు అనుసరించండి",
     "footer__help": "సహాయం",
     "footer__how_to_use": "ఎలా ఉపయోగించాలని",
@@ -804,7 +804,7 @@
     "privacy__title": "గోప్యతా నియమాలు | MaxAI.me",
     "privacy__description": "MaxAI.me గోప్యతా నియమాలను చదవండండి.",
     "prompts__title": "ప్రాంప్ట్లు | MaxAI.me",
-    "prompts__description": "మీ రోజువారీ పనులను పూర్తి చేయండి మరియు 1-క్లిక్ ప్రాంప్ట్లుతో గంటలు పడే ప్రాంప్ట్లను కొనసాగించండి.",
+    "prompts__description": "గంటలు పడే వారందరి పనులను కొన్ని నిమిషాల్లో పూర్తి చేయండి మరియు ఉచిత గుర్తు లైబ్రరీని ఉపయోగించి మినటంలో పూర్తి చేసేందుకు.",
     "release_notes__title": "విడుదల మంచిపత్రాలు | MaxAI.me",
     "share_conversation__title": "సంభాషణను షేర్ చేయండి | MaxAI.me",
     "uninstall__title": "అనిస్టాల్ చేయండి | MaxAI.me",

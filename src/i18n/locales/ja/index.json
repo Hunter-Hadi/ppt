@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "スキャンされたPDFドキュメントをOCR処理し、テキストのコピーと検索が簡単にできます"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1クリックプロンプト",
+    "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
     "use_prompt_library__title__tooltip": "1クリックのプロンプト",
     "tab__favorites__title": "お気に入り",
     "tab__public__title": "公開",
@@ -625,7 +625,7 @@
     "footer__title": "AI生産性ツール",
     "footer__desc": "AIチャット、リライト、要約、インスタント返信、読み上げアシスタント、プロンプト、検索、アート、翻訳。GPT-4、Claude 3、Gemini 1.5によって提供されています。",
     "footer__products": "製品",
-    "footer__1_click_prompts": "1クリックプロンプト",
+    "footer__1_click_prompts": "高品質なAIプロンプトライブラリ",
     "footer__follow_us": "フォローする",
     "footer__help": "ヘルプ",
     "footer__how_to_use": "使い方",
@@ -804,7 +804,7 @@
     "privacy__title": "プライバシーポリシー | MaxAI.me",
     "privacy__description": "MaxAI.meのプライバシーポリシーをご覧ください。",
     "prompts__title": "プロンプト | MaxAI.me",
-    "prompts__description": "Prompt Managementと1-Click Promptsで、従来数時間かかっていた日常のタスクを数分で完了させましょう。",
+    "prompts__description": "Prompt Managementと高品質なAIプロンプトライブラリを使用して、数時間かかっていた日常のタスクを数分で完了させましょう。",
     "release_notes__title": "リリースノート | MaxAI.me",
     "share_conversation__title": "会話の共有 | MaxAI.me",
     "uninstall__title": "アンインストール | MaxAI.me",
@@ -1255,6 +1255,5 @@
     "components__ocr_pdf__main__ocr_loading": "PDFの読み込み",
     "components__ocr_pdf__main__ocr_and_download": "OCRとダウンロード",
     "components__ocr_pdf__main__document_scanning_language": "ドキュメントのスキャン言語"
-  },
-  "": ""
+  }
 }

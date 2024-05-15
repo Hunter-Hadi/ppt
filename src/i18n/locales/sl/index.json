@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "Optično prepoznajte besedilo v skeniranem PDF dokumentu, da lahko enostavno izberete in iščete besedilo"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klikni Predloge",
+    "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",
     "use_prompt_library__title__tooltip": "1-klikni predloge",
     "tab__favorites__title": "Priljubljene",
     "tab__public__title": "Javno",
@@ -625,7 +625,7 @@
     "footer__title": "Orodje za produktivnost AI",
     "footer__desc": "AI klepet, preoblikovalec, povzetek, takojšen odgovor, pomočnik pri branju, namigi, iskanje, umetnost in prevajalnik. Poganja jih GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Izdelki",
-    "footer__1_click_prompts": "1-klik Prompts",
+    "footer__1_click_prompts": "Knjižnica visokokakovostnih AI spodbud",
     "footer__follow_us": "Sledi nam",
     "footer__help": "Pomoč",
     "footer__how_to_use": "Kako uporabljati",
@@ -804,7 +804,7 @@
     "privacy__title": "Politika zasebnosti | MaxAI.me",
     "privacy__description": "Preberite politiko zasebnosti MaxAI.me.",
     "prompts__title": "Namigi | MaxAI.me",
-    "prompts__description": "Dokončajte svoje vsakodnevne naloge z upravljanjem namigov in enostavnimi namigi v nekaj minutah, kar je prej trajalo ure.",
+    "prompts__description": "Dokončajte svoje vsakodnevne naloge z upravljanjem spodbud in knjižnico visokokakovostnih AI spodbud v nekaj minutah, kar je prej trajalo ure.",
     "release_notes__title": "Opombe o izdaji | MaxAI.me",
     "share_conversation__title": "Delite pogovor | MaxAI.me",
     "uninstall__title": "Odstrani | MaxAI.me",

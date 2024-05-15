@@ -582,7 +582,7 @@
     "external_add_to_edge_for_free__mini": "将MaxAI添加到Edge"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Click提示",
+    "use_prompt_library__title": "高质量的AI提示库",
     "use_prompt_library__title__tooltip": "1点击提示",
     "tab__favorites__title": "收藏夹",
     "tab__public__title": "公共",
@@ -625,7 +625,7 @@
     "footer__title": "AI 生产力工具",
     "footer__desc": "AI聊天、改写器、摘要、即时回复、阅读助手、提示、搜索、艺术和翻译。由GPT-4、Claude 3、Gemini 1.5提供支持。",
     "footer__products": "产品",
-    "footer__1_click_prompts": "1-Click提示",
+    "footer__1_click_prompts": "高质量的AI提示库",
     "footer__follow_us": "关注我们",
     "footer__help": "帮助",
     "footer__how_to_use": "如何使用",
@@ -804,7 +804,7 @@
     "privacy__title": "隐私政策 | MaxAI.me",
     "privacy__description": "阅读MaxAI.me的隐私政策。",
     "prompts__title": "提示 | MaxAI.me",
-    "prompts__description": "使用Prompt管理和一键提示，在几分钟内完成以前需要数小时才能完成的日常任务。",
+    "prompts__description": "使用Prompt管理和高质量的AI提示库，在几分钟内完成以前需要数小时才能完成的日常任务。",
     "release_notes__title": "发布说明 | MaxAI.me",
     "share_conversation__title": "分享对话 | MaxAI.me",
     "uninstall__title": "卸载 | MaxAI.me",

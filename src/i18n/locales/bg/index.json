@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR сканиран PDF документ, така че можете лесно да изберете да копирате и търсите текст"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Клик Подсказки",
+    "use_prompt_library__title": "Библиотека с висококачествени AI подсказки",
     "use_prompt_library__title__tooltip": "1-клик подсказки",
     "tab__favorites__title": "Избрани",
     "tab__public__title": "Публични",
@@ -625,7 +625,7 @@
     "footer__title": "Инструмент за продуктивност с изкуствен интелект",
     "footer__desc": "AI чат, пренаписвач, резюме, мигновен отговор, помощник за четене, подсказки, търсене, изкуство и преводач. Захранва се от GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Продукти",
-    "footer__1_click_prompts": "1-Click Подканвания",
+    "footer__1_click_prompts": "Библиотека с висококачествени AI подсказки",
     "footer__follow_us": "Следвайте ни",
     "footer__help": "Помощ",
     "footer__how_to_use": "Как да използвате",
@@ -804,7 +804,7 @@
     "privacy__title": "Политика за поверителност | MaxAI.me",
     "privacy__description": "Прочетете политиката за поверителност на MaxAI.me.",
     "prompts__title": "Подканвания | MaxAI.me",
-    "prompts__description": "Завършете вашите ежедневни задачи с Управление на подканвания и 1-Click Подканвания за минути, които преди отнемаха часове.",
+    "prompts__description": "Завършете вашите ежедневни задачи с Управление на подсказките и Библиотека с висококачествени AI подсказки за минути, които обикновено отнемат часове.",
     "release_notes__title": "Бележки за версията | MaxAI.me",
     "share_conversation__title": "Сподели разговор | MaxAI.me",
     "uninstall__title": "Деинсталиране | MaxAI.me",

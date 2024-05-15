@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "स्कैन किए गए पीडीएफ दस्तावेज़ को OCR करें, ताकि आप आसानी से पाठ की प्रतिलिपि और खोज कर सकें"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
+    "use_prompt_library__title": "उच्च गुणवत्ता वाली AI प्रॉम्प्ट पुस्तकालय",
     "use_prompt_library__title__tooltip": "1-क्लिक प्रॉम्प्ट",
     "tab__favorites__title": "पसंदीदा",
     "tab__public__title": "सार्वजनिक",
@@ -625,7 +625,7 @@
     "footer__title": "एआई उत्पादकता टूल",
     "footer__desc": "AI चैट, रीव्राइटर, सारांश, तत्क्षण जवाब, पठन सहायक, प्रोम्प्ट, खोज, कला और अनुवाद। GPT-4, Claude 3, Gemini 1.5 द्वारा संचालित।",
     "footer__products": "उत्पाद",
-    "footer__1_click_prompts": "1-क्लिक प्रॉम्प्ट्स",
+    "footer__1_click_prompts": "उच्च गुणवत्ता वाली AI प्रॉम्प्ट पुस्तकालय",
     "footer__follow_us": "हमें फ़ॉलो करें",
     "footer__help": "सहायता",
     "footer__how_to_use": "कैसे उपयोग करें",
@@ -804,7 +804,7 @@
     "privacy__title": "गोपनीयता नीति | MaxAI.me",
     "privacy__description": "MaxAI.me गोपनीयता नीति पढ़ें।",
     "prompts__title": "प्रॉम्प्ट्स | MaxAI.me",
-    "prompts__description": "प्रॉम्प्ट प्रबंधन और 1-क्लिक प्रॉम्प्ट्स के साथ अपने दैनिक कार्यों को पूरा करें, जो पहले घंटों लगते थे, उसे मिनटों में।",
+    "prompts__description": "प्रॉम्प्ट प्रबंधन और उच्च गुणवत्ता वाली AI प्रॉम्प्ट पुस्तकालय के साथ अपने दैनिक कार्यों को पूरा करें, जो पहले घंटों लगते थे, उसे मिनटों में पूरा करें।",
     "release_notes__title": "रिलीज नोट्स | MaxAI.me",
     "share_conversation__title": "बातचीत साझा करें | MaxAI.me",
     "uninstall__title": "अनइंस्टॉल करें | MaxAI.me",

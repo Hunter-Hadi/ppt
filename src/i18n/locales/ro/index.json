@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR document PDF scanat, astfel încât să puteți alege ușor să copiați și să căutați textul"
   },
   "prompt_library": {
-    "use_prompt_library__title": "Prompts cu un singur clic",
+    "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
     "use_prompt_library__title__tooltip": "Prompts cu un singur clic",
     "tab__favorites__title": "Favorite",
     "tab__public__title": "Public",
@@ -625,7 +625,7 @@
     "footer__title": "Instrument de productivitate AI",
     "footer__desc": "Chat AI, rewriter, rezumat, răspuns instant, asistent de lectură, sugestii, căutare, artă și traducător. Propulsat de GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produse",
-    "footer__1_click_prompts": "Prompts cu un singur clic",
+    "footer__1_click_prompts": "Bibliotecă de prompt-uri AI de înaltă calitate",
     "footer__follow_us": "Urmărește-ne",
     "footer__help": "Ajutor",
     "footer__how_to_use": "Cum să folosești",
@@ -804,7 +804,7 @@
     "privacy__title": "Politica de confidențialitate | MaxAI.me",
     "privacy__description": "Citiți politica de confidențialitate MaxAI.me.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Finalizați sarcinile de zi cu zi cu Managementul Prompt și Prompts cu un singur clic în câteva minute, în loc de ore.",
+    "prompts__description": "Finalizați sarcinile de zi cu zi cu Managementul Prompt și Biblioteca de prompt-uri AI de înaltă calitate în câteva minute, în loc de ore.",
     "release_notes__title": "Note de lansare | MaxAI.me",
     "share_conversation__title": "Partajați conversația | MaxAI.me",
     "uninstall__title": "Dezinstalare | MaxAI.me",

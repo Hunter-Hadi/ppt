@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR gescand PDF-document, zodat u eenvoudig tekst kunt kopiëren en zoeken"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klik Prompten",
+    "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",
     "use_prompt_library__title__tooltip": "1-klik prompten",
     "tab__favorites__title": "Favorieten",
     "tab__public__title": "Openbaar",
@@ -625,7 +625,7 @@
     "footer__title": "AI productiviteitstool",
     "footer__desc": "AI-chat, herschrijver, samenvatting, direct antwoord, leesassistent, suggesties, zoeken, kunst en vertaler. Aangedreven door GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Producten",
-    "footer__1_click_prompts": "1-Klik prompts",
+    "footer__1_click_prompts": "Hoogwaardige AI-promptbibliotheek",
     "footer__follow_us": "Volg ons",
     "footer__help": "Help",
     "footer__how_to_use": "Hoe te gebruiken",
@@ -804,7 +804,7 @@
     "privacy__title": "Privacybeleid | MaxAI.me",
     "privacy__description": "Lees het privacybeleid van MaxAI.me.",
     "prompts__title": "Aanwijzingen | MaxAI.me",
-    "prompts__description": "Voltooi uw dagelijkse taken met Promptbeheer en 1-klik-aanwijzingen in enkele minuten in plaats van uren.",
+    "prompts__description": "Voltooi uw dagelijkse taken in enkele minuten met Promptbeheer en een hoogwaardige AI-promptbibliotheek, waar u vroeger uren mee bezig was.",
     "release_notes__title": "Release-opmerkingen | MaxAI.me",
     "share_conversation__title": "Gesprek delen | MaxAI.me",
     "uninstall__title": "Deïnstalleren | MaxAI.me",

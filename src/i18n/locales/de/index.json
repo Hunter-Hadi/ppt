@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "PDF-Dokument OCR-Texterkennung, damit Sie Text kopieren und suchen können"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klick-Vorlagen",
+    "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
     "use_prompt_library__title__tooltip": "1-Klick-Vorlagen",
     "tab__favorites__title": "Favoriten",
     "tab__public__title": "Öffentlich",
@@ -625,7 +625,7 @@
     "footer__title": "KI-Produktivitätstool",
     "footer__desc": "AI-Chat, Umformulierer, Zusammenfassung, Sofortantwort, Lesehilfe, Hinweise, Suche, Kunst und Übersetzer. Angetrieben von GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkte",
-    "footer__1_click_prompts": "1-Klick-Prompts",
+    "footer__1_click_prompts": "Hochwertige KI-Prompt-Bibliothek",
     "footer__follow_us": "Folge uns",
     "footer__help": "Hilfe",
     "footer__how_to_use": "Wie benutzt man",
@@ -804,7 +804,7 @@
     "privacy__title": "Datenschutzrichtlinie | MaxAI.me",
     "privacy__description": "Lesen Sie die Datenschutzrichtlinie von MaxAI.me.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Erledigen Sie Ihre alltäglichen Aufgaben mit Prompt Management und 1-Klick-Prompts in Minuten, anstatt Stunden zu benötigen.",
+    "prompts__description": "Erledigen Sie Ihre alltäglichen Aufgaben mit Prompt-Management und der hochwertigen KI-Prompt-Bibliothek in Minuten, die früher Stunden gedauert haben.",
     "release_notes__title": "Versionshinweise | MaxAI.me",
     "share_conversation__title": "Gespräch teilen | MaxAI.me",
     "uninstall__title": "Deinstallieren | MaxAI.me",

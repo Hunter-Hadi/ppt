@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "اسکین شدہ پی ڈی ایف کاغذ کو OCR کریں تاکہ آپ آسانی سے متن کا انتخاب کر سکیں اور تلاش کر سکیں"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-کلک پرومپٹس",
+    "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
     "use_prompt_library__title__tooltip": "1-کلک پرومپٹس",
     "tab__favorites__title": "پسندیدہ",
     "tab__public__title": "عوامی",
@@ -625,7 +625,7 @@
     "footer__title": "AI پیداواری کا آلہ",
     "footer__desc": "AI چیٹ، ریترائٹر، خلاصہ، فوری جواب، پڑھنے کا معاون، پرومپٹس، تلاش، آرٹ، اور ترجمہ. GPT-4، Claude 3، Gemini 1.5 کی طاقت سے محرک",
     "footer__products": "مصنوعات",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "بلند معیار کی AI پرومپ لائبریری",
     "footer__follow_us": "ہماری تعاقب کریں",
     "footer__help": "مدد",
     "footer__how_to_use": "استعمال کیسے کریں",
@@ -804,7 +804,7 @@
     "privacy__title": "پرائیویسی پالیسی | میکس اے آئی",
     "privacy__description": "میکس اے آئی کی پرائیویسی پالیسی پڑھیں۔",
     "prompts__title": "پرومپٹس | میکس اے آئی",
-    "prompts__description": "پرومپٹ مینجمنٹ اور 1-کلک پرومپٹس کے ساتھ روزانہ کے کاموں کو مکمل کریں جو گھنٹوں لیتے تھے۔",
+    "prompts__description": "اپنے روزمرہ کے کاموں کو مکمل کریں مماثلت اور بلند معیار کی AI پرومپ لائبریری کے ساتھ جو گھنٹوں لیتے تھے وہ منٹوں میں۔",
     "release_notes__title": "ریلیز نوٹس | میکس اے آئی",
     "share_conversation__title": "بات چیت کا اشتراک کریں | میکس اے آئی",
     "uninstall__title": "ڈی انسٹال کریں | میکس اے آئی",

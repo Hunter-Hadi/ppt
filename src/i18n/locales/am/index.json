@@ -582,7 +582,7 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "የማስተላለፍ መጠን የ OCR ፕድስ እንዴት ይመልከቱ."
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-ከሪካውን በኩል ይጠቀሙ",
+    "use_prompt_library__title": "የልማት የሚጠቀሙ የሳምንት መልእክት",
     "use_prompt_library__title__tooltip": "1-ከሪካውን በኩል ይጠቀሙ",
     "tab__favorites__title": "የተወደዱ",
     "tab__public__title": "የህዝብ",
@@ -625,7 +625,7 @@
     "footer__title": "የማስተርኳዎች ማስተርኳዎች",
     "footer__desc": "የማክስ ቻት, የመግባቢያ ዝርዝር, መግብያ ማስተካከያ, በቀላሉ መልክት, የማስታወቂያ አስራር, የማስተካከያ ማስተላለፊያ, የማይፈልግ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች, የማይፈልግ የሚፈልጉ የሚፈልጉ የሚፈልጉ መጠቀሚያዎች. በ GPT-4, Claude 3, Gemini 1.5 የሚሰጥ ነው.",
     "footer__products": "ንግድ",
-    "footer__1_click_prompts": "1-Click Prompts",
+    "footer__1_click_prompts": "የልማት የሚጠቀሙ የሳምንት መልእክት",
     "footer__follow_us": "እኛን አሁን እንዴት እንደሚከተለው እናሳውቃለን",
     "footer__help": "እገዛ",
     "footer__how_to_use": "እንዴት እንደሚጠቀም እንዳለን",
@@ -804,7 +804,7 @@
     "privacy__title": "ግላዊ መርህ | MaxAI.me",
     "privacy__description": "አጠቃላይ MaxAI.me ግላዊ መርህን ያንብቡ።",
     "prompts__title": "ፕሮምፕትስ | MaxAI.me",
-    "prompts__description": "የቀጥታ መስመር እና 1-ጁንት ፕሮምፕትስ በደብቅ የሚሆኑ የቀጥታ ስራዎችን በደብቅ ያስተካክሉ።",
+    "prompts__description": "የቀጥታ ማስተላለፊያና የልማት የሚጠቀሙ የሳምንት መልእክት በደብቅ የሚሆኑ የቀጥታ ማስተላለፊያዎችን በየቀኑ ያስቀምጡ.",
     "release_notes__title": "የማስታወቂያ መረጃዎች | MaxAI.me",
     "share_conversation__title": "ክስ ማስተላለፍ | MaxAI.me",
     "uninstall__title": "ማስተላለፍ | MaxAI.me",

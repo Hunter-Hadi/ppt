@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR 掃描的 PDF 文件，讓您輕鬆選擇複製和搜索文字"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Click 提示",
+    "use_prompt_library__title": "高品質 AI 提示庫",
     "use_prompt_library__title__tooltip": "1-click 提示",
     "tab__favorites__title": "收藏",
     "tab__public__title": "公開",
@@ -625,7 +625,7 @@
     "footer__title": "AI 生產力工具",
     "footer__desc": "AI 聊天、改寫、摘要、即時回覆、閱讀助手、提示、搜尋、藝術和翻譯。由 GPT-4、Claude 3 和 Gemini 1.5 提供動力。",
     "footer__products": "產品",
-    "footer__1_click_prompts": "一鍵提示",
+    "footer__1_click_prompts": "高品質 AI 提示庫",
     "footer__follow_us": "關注我們",
     "footer__help": "幫助",
     "footer__how_to_use": "如何使用",
@@ -804,7 +804,7 @@
     "privacy__title": "隱私政策 | MaxAI.me",
     "privacy__description": "閱讀MaxAI.me的隱私政策。",
     "prompts__title": "提示 | MaxAI.me",
-    "prompts__description": "使用Prompt管理和1-Click Prompt，在幾分鐘內完成以前需要幾小時的日常任務。",
+    "prompts__description": "在幾分鐘內完成以前需要花費數小時的每日任務，使用提示管理和高品質 AI 提示庫。",
     "release_notes__title": "發布說明 | MaxAI.me",
     "share_conversation__title": "分享對話 | MaxAI.me",
     "uninstall__title": "卸載 | MaxAI.me",

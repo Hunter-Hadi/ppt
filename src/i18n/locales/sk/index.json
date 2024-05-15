@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenovaného PDF dokumentu, takže môžete jednoducho vybrať a vyhľadávať text"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Kliknutím na podnety",
+    "use_prompt_library__title": "Knižnica vysoko kvalitných AI promptov",
     "use_prompt_library__title__tooltip": "Podnety jedným kliknutím",
     "tab__favorites__title": "Obľúbené",
     "tab__public__title": "Verejné",
@@ -625,7 +625,7 @@
     "footer__title": "Nástroj na zvýšenie produktivity pomocou AI",
     "footer__desc": "AI chat, prepracovávač, súhrn, okamžitá odpoveď, čítačka, podnety, vyhľadávanie, umenie a prekladač. Poháňané GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkty",
-    "footer__1_click_prompts": "1-kliknutie podnety",
+    "footer__1_click_prompts": "Knižnica vysoko kvalitných AI promptov",
     "footer__follow_us": "Sledujte nás",
     "footer__help": "Pomoc",
     "footer__how_to_use": "Ako používať",
@@ -804,7 +804,7 @@
     "privacy__title": "Zásady ochrany osobných údajov | MaxAI.me",
     "privacy__description": "Prečítajte si zásady ochrany osobných údajov MaxAI.me.",
     "prompts__title": "Podnety | MaxAI.me",
-    "prompts__description": "Dokončite svoje každodenné úlohy s riadením podnetov a jedným kliknutím na podnety za minúty, ktoré predtým trvali hodiny.",
+    "prompts__description": "Dokončite svoje každodenné úlohy s Prompt Managementom a knižnicou vysoko kvalitných AI promptov za minúty, ktoré predtým trvali hodiny.",
     "release_notes__title": "Poznámky k vydaniu | MaxAI.me",
     "share_conversation__title": "Zdieľať konverzáciu | MaxAI.me",
     "uninstall__title": "Odinštalovať | MaxAI.me",

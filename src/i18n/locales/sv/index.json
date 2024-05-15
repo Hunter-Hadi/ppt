@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-skannad PDF-dokument, så att du enkelt kan välja att kopiera och söka efter text"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Klicka på Förslag",
+    "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",
     "use_prompt_library__title__tooltip": "1-klicka på förslag",
     "tab__favorites__title": "Favoriter",
     "tab__public__title": "Offentlig",
@@ -625,7 +625,7 @@
     "footer__title": "AI produktivitetsverktyg",
     "footer__desc": "AI-chatt, omskrivare, sammanfattning, omedelbart svar, läshjälp, förslag, sökning, konst och översättare. Drivs av GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produkter",
-    "footer__1_click_prompts": "1-klicks-promptar",
+    "footer__1_click_prompts": "Högkvalitativ AI-promptbibliotek",
     "footer__follow_us": "Följ oss",
     "footer__help": "Hjälp",
     "footer__how_to_use": "Hur man använder",
@@ -804,7 +804,7 @@
     "privacy__title": "Integritetspolicy | MaxAI.me",
     "privacy__description": "Läs MaxAI.me:s integritetspolicy.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Slutför dina vardagliga uppgifter med Prompthantering och 1-klicks Prompts på några minuter istället för timmar.",
+    "prompts__description": "Slutför dina vardagssysslor med Prompthantering och högkvalitativt AI-promptbibliotek på några minuter istället för timmar.",
     "release_notes__title": "Versionshistorik | MaxAI.me",
     "share_conversation__title": "Dela Konversation | MaxAI.me",
     "uninstall__title": "Avinstallera | MaxAI.me",
@@ -1255,6 +1255,5 @@
     "components__ocr_pdf__main__ocr_loading": "PDF-laddning",
     "components__ocr_pdf__main__ocr_and_download": "OCR och Hämta",
     "components__ocr_pdf__main__document_scanning_language": "Språk för dokumentskanning"
-  },
-  "": ""
+  }
 }

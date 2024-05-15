@@ -582,7 +582,7 @@
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR le document PDF numérisé, afin que vous puissiez facilement choisir de copier et rechercher du texte"
   },
   "prompt_library": {
-    "use_prompt_library__title": "1-Clic pour les suggestions",
+    "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",
     "use_prompt_library__title__tooltip": "Suggestions en 1 clic",
     "tab__favorites__title": "Favoris",
     "tab__public__title": "Public",
@@ -625,7 +625,7 @@
     "footer__title": "Outil de productivité IA",
     "footer__desc": "Chatbot IA, rédacteur, résumé, réponse instantanée, assistant de lecture, suggestions, recherche, art et traducteur. Propulsé par GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Produits",
-    "footer__1_click_prompts": "Prompts en 1 clic",
+    "footer__1_click_prompts": "Bibliothèque de prompts IA de haute qualité",
     "footer__follow_us": "Suivez-nous",
     "footer__help": "Aide",
     "footer__how_to_use": "Comment utiliser",
@@ -804,7 +804,7 @@
     "privacy__title": "Politique de confidentialité | MaxAI.me",
     "privacy__description": "Lisez la politique de confidentialité de MaxAI.me.",
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Terminez vos tâches quotidiennes avec la gestion des prompts et les prompts en un clic en quelques minutes au lieu de plusieurs heures.",
+    "prompts__description": "Terminez vos tâches quotidiennes avec la gestion des prompts et la bibliothèque de prompts IA de haute qualité en quelques minutes au lieu de plusieurs heures.",
     "release_notes__title": "Notes de version | MaxAI.me",
     "share_conversation__title": "Partager la conversation | MaxAI.me",
     "uninstall__title": "Désinstaller | MaxAI.me",
@@ -1255,6 +1255,5 @@
     "components__ocr_pdf__main__ocr_loading": "Chargement du PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR et Télécharger",
     "components__ocr_pdf__main__document_scanning_language": "Langue de numérisation des documents"
-  },
-  "": ""
+  }
 }
