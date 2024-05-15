@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Mūsu rīks apstrādās jūsu PDF, precīzi un ātri izvilks tekstu.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Lejupielādējiet OCR PDF rezultātu lapā, lai apskatītu kvalitāti.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenētu PDF dokumentu, lai jūs varat viegli izvēlēties kopēt un meklēt tekstu"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenētu PDF dokumentu, lai jūs varat viegli izvēlēties kopēt un meklēt tekstu",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Pagriezt PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Pagrieziet visus vai atsevišķus lapas PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Vienkārši noklikšķiniet uz lapas, lai to pagrieztu. Pēc tam varat lejupielādēt modificēto PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Bez problēmām pagrieziet lapas savos PDF dokumentos, izmantojot mūsu intuitīvo tiešsaistes rīku Pagriezt PDF. Sasniedziet pilnīgu orientāciju ar tikai dažiem klikšķiem, vienlaikus nodrošinot, ka jūsu dokumenti paliek droši un privāti.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Tūlītēja lapas pagriešana, lai iegūtu perfektu dokumenta izkārtojumu",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Nav nepieciešama papildu programmatūra",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Ātri apstrādājiet failus, izmantojot vietēji drošu pārlūku",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Viegla lapas orientācija",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Sekundēs pielāgojiet savu PDF lapu orientāciju. Vai nu jums ir nepieciešama vienas lapas pagriešana, vai visa dokuments, mūsu rīks nodrošina elastību jebkurā scenārijā.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Lietotājam draudzīga saskarne",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Mūsu intuitīvā saskarne padara PDF pagriešanu vienkāršu. Vienkārši augšupielādējiet savu dokumentu, atlasiet lapas, kuras vēlaties pielāgot, un pagrieziet tās ar vienu klikšķi.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Uzturiet dokumenta integritāti",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Mēs nodrošinām, ka jūsu dokumenta izkārtojums un formatējums paliek nemainīgs, saglabājot faila kvalitāti un saturu pēc pagriešanas.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Pieejams no jebkura ierīces",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Pagrieziet PDF jebkurā laikā un vietā. Mūsu pārlūkprogrammas pamatotie rīki bez problēmām darbojas visās ierīcēs un operētājsistēmās, bez instalācijas nepieciešamības.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Droša un privāta apstrāde",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Privātums ir galvenais. Jūsu dokumenti tiek apstrādāti pārlūkprogrammā, nodrošinot, ka jūsu faili nekad neatstāj jūsu ierīci un netiek saglabāti vai skatīti no mūsu puses.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Tūlītēja lejupielāde pēc pagriešanas",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Pēc pagriešanas lejupielādējiet savu PDF tieši no rīka. Nav jāgaida - piekļūstiet savam perfekti orientētajam dokumentam nekavējoties.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kā pagriezt PDF lapas tiešsaistē:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Augšupielādējiet PDF dokumentu, kuru vēlaties pagriezt.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Atlasiet konkrētas lapas pagriešanai vai piemērojiet pagriešanu visām lapām.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Lejupielādējiet savu laboto PDF, kurā lapas tagad ir pareizajā orientācijā, gatavas jebkurai lietošanai."
   },
   "prompt_library": {
     "use_prompt_library__title": "Augstas kvalitātes AI pamatbibliotēka",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "AI Redzējums | MaxAI.me",
     "features_landing__ai_vision__description": "Saprotiet un analizējiet jebkuru attēlu ar vismodernākajiem AI redzes modeļiem.",
     "features_landing__ai_reader__title": "AI lasīšanas asistents | MaxAI.me",
-    "features_landing__ai_reader__description": "Padariet sarežģītu informāciju viegli saprotamu, tāpat kā eksperts."
+    "features_landing__ai_reader__description": "Padariet sarežģītu informāciju viegli saprotamu, tāpat kā eksperts.",
+    "pdf_tools__rotate_pdf__title": "Pagriezt PDF - Viegli pagriezt lapas PDF dokumentos tiešsaistē | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Viegli pagriezt lapas savos PDF dokumentos tiešsaistē bez maksas. Pielāgojiet jebkuras PDF lapas orientāciju ar vienu klikšķi - nav faila izmēra ierobežojumu, lejupielādēm vai reģistrācijas nepieciešamības."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Ielāde",
     "components__ocr_pdf__main__ocr_and_download": "OCR un Lejupielādēt",
     "components__ocr_pdf__main__document_scanning_language": "Dokumentu skenēšanas valoda"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Pagriezt visu",
+    "components__rotate_pdf__main__remove_pdf": "Noņemt PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Noņemiet šo PDF un atlasiet jaunu",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Pietuvināt",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Attālināt",
+    "components__rotate_pdf__cancel": "Atcelt",
+    "components__rotate_pdf__button__cancel__tooltip": "Atcelt pašreizējo progresu",
+    "components__rotate_pdf__button__download__tooltip": "Pagriezt un lejupielādēt PDF",
+    "components__rotate_pdf__button__download": "Lejupielādēt"
   }
 }

@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "எங்கள் கருவி உங்கள் PDF ஐ செயலாக்கி, உரையை சரியாக மற்றும் வேகமாக எடுக்கும்.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "தரம் பார்க்க எங்கள் OCR PDF ஐ பதிவிறக்கம் செய்யுங்கள்.",
     "tools__index_page__constant_obj__ocr_pdf__title": "பி.டி.ஆர் பி.டி.எஃப்",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "மீட்டமைக்கப்பட்ட பி.டி.ஆர் ஆவணத்தில் உரையை நகலெடுக்க, தேடல் செய்ய முடியும்"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "மீட்டமைக்கப்பட்ட பி.டி.ஆர் ஆவணத்தில் உரையை நகலெடுக்க, தேடல் செய்ய முடியும்",
+    "tools__index_page__constant_obj__rotate_pdf__title": "பி.டி.எப் திரும்பப்போக்கு",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "பி.டி.எப் உள்ளிட்ட அனைத்து பக்கங்களையும் அல்லது தனிப்பட்ட பக்கங்களையும் திரும்பப்போக்கவும்",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "அத்தியாயத்தை திரும்பப்போக்க ஒரு பக்கத்தை கிளிக் செய்யவும். பின்னர் உங்கள் மாற்றப்பட்ட பி.டி.எப்பைப் பதிவிறக்கம் செய்யலாம்.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "எங்கள் உலாவியில் உள்ள பி.டி.எப் திரும்பப்போக்க கருவியைப் பயன்படுத்தி உங்கள் பி.டி.எப்பு ஆவணங்களில் பக்கங்களை மேம்படுத்தலாம். சிறந்த அமைப்பை ஒரு கிளிக்கும் மூலம் முழுமையான நிலையைப் பெறுங்கள், அதைப் பாதுகாக்கும் மற்றும் தனிப்பட்ட பக்கங்களையும் பாதுகாக்கும்.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "முழுமையான ஆவண அமைப்புக்கு உடனடியாக பக்கங்களை திரும்பப்போக்கம்",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "கூடுதல் மென்பொருள் தேவையில்லை",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "இடம் பெறுநரின் பயன்பாட்டைப் பயன்படுத்தி விரைவில் கோப்புகளை செயலாக்கம் செய்யுங்கள்",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "எளிதான பக்க நிலையைப் பெறுதல்",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "பக்கங்களின் நிலையை ஒரு நேரத்தில் மாற்றவும். ஒரு பக்கத்தையோ முழு ஆவணத்தையோ நீங்கள் தேவைப்படும் எந்த செயல்பாட்டிற்கும் எளிதான முறையில் எளிதாக மாற்றலாம்.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "பயனர் அமைப்பு உதவிக்குரிய முகவரி",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "எங்கள் உள்ளிட்ட முகவரியில் பி.டி.எப்பை திரும்பப்போக்க மிகுந்த எளிதாக செய்யலாம். உங்கள் ஆவணத்தை பதிவேற்றுவதன் பின், நீங்கள் மாற்ற வேண்டிய பக்கங்களைத் தேர்வு செய்யலாம் மற்றும் ஒரு கிளிக்கும் மூலம் அவைகளை திரும்பப்போக்கலாம்.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "ஆவண மேலாண்மையை பாதுகாக்குங்கள்",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "உங்கள் ஆவணத்தின் அமைப்புகள் மற்றும் வடிவமைப்பு பாதுகாக்கப்படும், அதுவே உங்கள் கோப்பின் தரம் மற்றும் உள்ளடக்கத்தை பாதுகாக்கும்.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "எந்த சாதனத்திலும் அணுகலாம்",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "எந்த சாதனத்திலும் எந்த நிறுவனத்திலும் எந்த நிரல் நிறுவலின் தேவையில்லாமல் பி.டி.எப்பை திரும்பப்போக்கலாம். எங்கள் உலாவியில் உள்ள கருவிகள் அனைத்து சாதனங்களிலும் முழுமையாக செயல்படும்.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "பாதுகாப்பான மற்றும் தனியாக்கப்பட்ட செயலாக்கம்",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "தனிப்பட்டது முக்கியம். உங்கள் ஆவணங்கள் உங்கள் சாதனத்தில் செயலாக்கப்படும், எங்களால் அவை எவ்வாறும் விருப்பப்படாது அல்லது சேமிக்கப்படாது.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "திரும்பப்போக்கம் பின்னர் உடனடியாக பதிவிறக்கம்",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "திரும்பப்போக்கப்பட்டதும், உங்கள் பி.டி.எப்பை உள்ளடக்கிலிருந்து பதிவிறக்கம் செய்யலாம். காத்திருக்கும் இடத்தில் காத்திருக்காது - உங்கள் முழுமையான நிலையான ஆவணத்தைத் தகவல் அணுகலாம்.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "பி.டி.எப் பக்கங்களை எப்படி திரும்பப்போக்குவது:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "திரும்பப்போக்க விரும்பும் பி.டி.எப்பு ஆவணத்தை பதிவேற்றுக.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "திரும்பப்போக்கத்தை அனைத்து பக்கங்களுக்கும் அல்லது சிறந்த பக்கங்களுக்கு பயன்படுத்துக.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "உங்கள் மாற்றப்பட்ட பி.டி.எப்பைப் பதிவிறக்கம் செய்யுங்கள், இப்போது சரியான நிலையில் உள்ளது, எந்த பயனுக்கும் தயார்."
   },
   "prompt_library": {
     "use_prompt_library__title": "உயர் தரமான AI புத்தக நூலகம்",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "ஏதேனும் பார்வை | MaxAI.me",
     "features_landing__ai_vision__description": "அதிக மேம்படுத்தப்பட்ட AI பார்வை மாதிரிகளுடன் எந்த படத்தையும் புரிந்துகொள்ளுங்கள் மற்றும் பகுப்பாய்வு செய்யுங்கள்.",
     "features_landing__ai_reader__title": "ஐஎய் படித்தல் உதவி | MaxAI.me",
-    "features_landing__ai_reader__description": "மேலும் அறிவிப்புகளை எளிதாக புரிந்துகொள்ள, ஒரு ஆர்வத்தினர் போன்றவர்களுக்கு போக்குக்குழு."
+    "features_landing__ai_reader__description": "மேலும் அறிவிப்புகளை எளிதாக புரிந்துகொள்ள, ஒரு ஆர்வத்தினர் போன்றவர்களுக்கு போக்குக்குழு.",
+    "pdf_tools__rotate_pdf__title": "பி.டி.எப் திரும்பப்போக்கு - பி.டி.எப் ஆவணங்களில் பக்கங்களை எளிதாக திரும்பப்போக்குங்கள் | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "இலவசமாக உங்கள் பி.டி.எப் ஆவணங்களில் பக்கங்களை எளிதாக திரும்பப்போக்கலாம். ஒரு கிளிக்கும் மூலம் எந்த பி.டி.எப்பு பக்கத்தையும் நிலையாக்கலாம் - கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "அனைத்தையும் தேர்ந்தெடு",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "பி.டி.எப் ஏற்றுக்கொள்ளும்",
     "components__ocr_pdf__main__ocr_and_download": "எழுதியவை மற்றும் பதிவிறக்கம்",
     "components__ocr_pdf__main__document_scanning_language": "ஆவண ஸ்கேனிங் மொழி"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "அனைத்தையும் திரும்பப்போக்கு",
+    "components__rotate_pdf__main__remove_pdf": "பி.டி.எப்பை அகற்று",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "இந்த பி.டி.எப்பை அகற்றி புதியதைத் தேர்வு செய்யுங்கள்",
+    "components__rotate_pdf__button__zoom_in__tooltip": "மிகுந்தமாக்கு",
+    "components__rotate_pdf__button__zoom_out__tooltip": "மிகுந்தமாக்கு",
+    "components__rotate_pdf__cancel": "ரத்துசெய்",
+    "components__rotate_pdf__button__cancel__tooltip": "தற்போதைய முன்னோட்டத்தை ரத்துசெய்",
+    "components__rotate_pdf__button__download__tooltip": "பி.டி.எப்பை திரும்பப்போக்கி பதிவிறக்கம் செய்யுங்கள்",
+    "components__rotate_pdf__button__download": "பதிவிறக்கு"
   }
 }

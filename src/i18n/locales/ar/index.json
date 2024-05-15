@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "سوف تقوم أداةنا بمعالجة ملف PDF الخاص بك واستخراج النص بدقة وبسرعة.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "قم بتنزيل ملف OCR PDF في صفحة النتائج لعرض الجودة.",
     "tools__index_page__constant_obj__ocr_pdf__title": "تحويل PDF إلى نص",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "قم بتحويل مستند PDF الممسوح ضوئيًا إلى نص قابل للنسخ والبحث بسهولة"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "قم بتحويل مستند PDF الممسوح ضوئيًا إلى نص قابل للنسخ والبحث بسهولة",
+    "tools__index_page__constant_obj__rotate_pdf__title": "تدوير ملف PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "قم بتدوير جميع الصفحات أو صفحات فردية في ملف PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "انقر ببساطة على صفحة لتدويرها. يمكنك بعد ذلك تنزيل ملف PDF المعدل.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "قم بتدوير الصفحات في مستندات PDF الخاصة بك باستخدام أداة تدوير PDF السهلة الاستخدام عبر الإنترنت لدينا. حقق التوجيه المثالي ببضع نقرات فقط، وذلك مع ضمان بقاء سرية وأمان مستنداتك.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "تدوير الصفحات فورًا لتحقيق تخطيط مستند مثالي",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "لا حاجة إلى برامج إضافية",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "معالجة الملفات بسرعة باستخدام متصفح آمن محليًا",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "توجيه الصفحات بكل سهولة",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "قم بضبط توجيه صفحات PDF الخاصة بك في ثوانٍ. سواء كنت بحاجة إلى تدوير صفحة واحدة أو المستند بأكمله، فإن أداةنا توفر المرونة لأي سيناريو.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "واجهة سهلة الاستخدام",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "تجعل واجهتنا البديهية تدوير ملفات PDF بسيطًا. قم بتحميل المستند الخاص بك، وحدد الصفحات التي تحتاج إلى ضبطها، وقم بتدويرها بنقرة واحدة.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "الحفاظ على سلامة المستند",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "نضمن أن تصميم وتنسيق مستندك يبقى سليمًا، مما يحافظ على جودة الملف ودقة محتواه بعد التدوير.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "الوصول من أي جهاز",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "قم بتدوير ملف PDF في أي وقت وأي مكان. تعمل أدواتنا المستندة إلى المتصفح بسلاسة على جميع الأجهزة وأنظمة التشغيل دون الحاجة إلى التثبيت.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "معالجة آمنة وخاصة",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "الخصوصية هي الأهم. يتم معالجة مستنداتك في المتصفح، مما يضمن أن ملفاتك لا تغادر جهازك ولا يتم تخزينها أو عرضها بواسطتنا.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "تنزيل فوري بعد التدوير",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "بمجرد التدوير، قم بتنزيل ملف PDF الخاص بك مباشرة من الأداة. لا توجد فترة انتظار - قم بالوصول إلى مستندك الموجه بشكل مثالي على الفور.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "كيفية تدوير صفحات ملف PDF عبر الإنترنت:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "قم بتحميل مستند PDF الذي ترغب في تدويره.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "حدد الصفحات المحددة للتدوير أو قم بتطبيق التدوير على جميع الصفحات.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "قم بتنزيل ملف PDF المعدل الخاص بك، حيث تكون الصفحات الآن في التوجيه الصحيح وجاهزة لأي استخدام."
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "رؤية الذكاء الاصطناعي | MaxAI.me",
     "features_landing__ai_vision__description": "فهم وتحليل أي صورة باستخدام نماذج الرؤية الذكاء الاصطناعي المتقدمة.",
     "features_landing__ai_reader__title": "مساعد قراءة الذكاء الاصطناعي | MaxAI.me",
-    "features_landing__ai_reader__description": "جعل المعلومات المعقدة سهلة الفهم، تمامًا كخبير."
+    "features_landing__ai_reader__description": "جعل المعلومات المعقدة سهلة الفهم، تمامًا كخبير.",
+    "pdf_tools__rotate_pdf__title": "تدوير ملف PDF - قم بتدوير صفحات مستندات PDF عبر الإنترنت بسهولة | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "قم بتدوير صفحات مستندات PDF الخاصة بك بسهولة عبر الإنترنت مجانًا. قم بضبط توجيه أي صفحة PDF بنقرة واحدة فقط - لا حدود لحجم الملف، ولا حاجة للتنزيل أو التسجيل."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "تحميل PDF",
     "components__ocr_pdf__main__ocr_and_download": "تحويل النص إلى نص وتنزيل",
     "components__ocr_pdf__main__document_scanning_language": "لغة مسح المستند"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "تدوير الكل",
+    "components__rotate_pdf__main__remove_pdf": "إزالة ملف PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "قم بإزالة هذا الملف PDF وحدد ملف جديد",
+    "components__rotate_pdf__button__zoom_in__tooltip": "تكبير",
+    "components__rotate_pdf__button__zoom_out__tooltip": "تصغير",
+    "components__rotate_pdf__cancel": "إلغاء",
+    "components__rotate_pdf__button__cancel__tooltip": "إلغاء التقدم الحالي",
+    "components__rotate_pdf__button__download__tooltip": "تدوير وتنزيل ملف PDF",
+    "components__rotate_pdf__button__download": "تنزيل"
   }
 }

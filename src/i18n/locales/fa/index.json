@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "ابزار ما سند PDF شما را پردازش کرده و متن را به دقت و به سرعت استخراج می کند.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "برای مشاهده کیفیت، OCR PDF را در صفحه نتایج دانلود کنید.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "تبدیل PDF اسکن شده به متن، بنابراین می‌توانید به راحتی متن را کپی و جستجو کنید"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "تبدیل PDF اسکن شده به متن، بنابراین می‌توانید به راحتی متن را کپی و جستجو کنید",
+    "tools__index_page__constant_obj__rotate_pdf__title": "چرخش PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "چرخش تمام صفحات یا صفحات فرد یا زوج در یک PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "به راحتی بر روی یک صفحه کلیک کنید تا آن را چرخانید. سپس می‌توانید PDF تغییر یافته خود را دانلود کنید.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "با استفاده از ابزار چرخش PDF آنلاین و قابل فهم ما، به راحتی صفحات را در اسناد PDF خود چرخانده و جهت دقیق را بدست آورید. همه این‌ها با چند کلیک و در عین حال حفظ امنیت و حریم خصوصی سند شما.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "چرخش فوری صفحات برای طرح سند کامل",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "بدون نیاز به نرم‌افزار اضافی",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "پردازش سریع فایل‌ها با استفاده از مرورگر محلی و امن",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "جهت‌دهی صفحات بدون زحمت",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "با چند کلیک، جهت صفحات PDF خود را در عرض چند ثانیه تنظیم کنید. برای هر حالتی، این ابزار انعطاف پذیری را فراهم می‌کند.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "رابط کاربری ساده و کاربرپسند",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "رابط کاربری ساده ما چرخاندن PDF را آسان می‌کند. فقط سند خود را بارگذاری کنید، صفحاتی که نیاز به تنظیم دارید را انتخاب کنید و با یک کلیک آن‌ها را چرخانید.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "حفظ اصالت سند",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "ما تضمین می‌کنیم که طرح و قالب سند شما حفظ می‌شود و پس از چرخش، کیفیت و دقت محتوای فایل شما حفظ می‌شود.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "دسترسی از هر دستگاهی",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "هر زمان و هر مکان، چرخش PDF را انجام دهید. ابزارهای ما بر پایه مرورگر بر روی همه دستگاه‌ها و سیستم‌عامل‌ها به صورت بی‌درنگ کار می‌کنند و نیازی به نصب ندارند.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "پردازش امن و خصوصی",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "حریم خصوصی بسیار مهم است. سند شما در مرورگر پردازش می‌شود و فایل‌های شما هرگز دستگاه شما را ترک نمی‌کنند و توسط ما ذخیره یا مشاهده نمی‌شوند.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "دانلود فوری پس از چرخش",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "بعد از چرخش، PDF خود را مستقیماً از ابزار دانلود کنید. منتظر نمانید - به سند با جهت دقیق خود دسترسی پیدا کنید.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "چگونه صفحات PDF را آنلاین چرخانیم:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "سند PDF مورد نظر خود را بارگذاری کنید.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "صفحات خاصی را برای چرخش انتخاب کنید یا چرخش را بر روی تمام صفحات اعمال کنید.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "PDF اصلاح شده خود را با صفحات در جهت صحیح دانلود کنید و آماده استفاده شوید."
   },
   "prompt_library": {
     "use_prompt_library__title": "کتابخانه پیشنهاد با کیفیت بالا",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "بینایی هوشمند | MaxAI.me",
     "features_landing__ai_vision__description": "هر تصویری را با پیشرفته‌ترین مدل‌های بینایی هوش مصنوعی تحلیل و درک کنید.",
     "features_landing__ai_reader__title": "معاون خواندن هوش مصنوعی | MaxAI.me",
-    "features_landing__ai_reader__description": "اطلاعات پیچیده را به سادگی قابل فهم کنید، تقریباً مثل یک کارشناس."
+    "features_landing__ai_reader__description": "اطلاعات پیچیده را به سادگی قابل فهم کنید، تقریباً مثل یک کارشناس.",
+    "pdf_tools__rotate_pdf__title": "چرخش PDF - به راحتی صفحات در اسناد PDF آنلاین چرخانید | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "بدون زحمت، صفحات در اسناد PDF خود را به راحتی آنلاین چرخانید. با یک کلیک جهت هر صفحه PDF را تنظیم کنید - بدون محدودیت حجم فایل، دانلود یا ثبت نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "بارگذاری PDF",
     "components__ocr_pdf__main__ocr_and_download": "تشخیص اپتیکال کاراکتر و دانلود",
     "components__ocr_pdf__main__document_scanning_language": "زبان اسکن سند"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "چرخش همه",
+    "components__rotate_pdf__main__remove_pdf": "حذف PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "این PDF را حذف کنید و یکی جدید انتخاب کنید",
+    "components__rotate_pdf__button__zoom_in__tooltip": "بزرگ‌نمایی",
+    "components__rotate_pdf__button__zoom_out__tooltip": "کوچک‌نمایی",
+    "components__rotate_pdf__cancel": "لغو",
+    "components__rotate_pdf__button__cancel__tooltip": "لغو پیشرفت فعلی",
+    "components__rotate_pdf__button__download__tooltip": "چرخش و دانلود PDF",
+    "components__rotate_pdf__button__download": "دانلود"
   }
 }

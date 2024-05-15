@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "మీ స్కాన్ చేసిన PDF ఫైల్‌ను మన OCR టూల్‌కు అప్‌లోడ్ చేయండి.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "మీ పత్రంలో ప్రాథమిక భాషను ఎంచుకోండి.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "మన టూల్ మీ PDF ను ప్రాసెస్ చేసి, వచనాన్ని ఖచ్చితంగా మరియు త్వరగా ఎగుమతి చేస్తుంది.",
-    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "క్వాలిటీని చూడడానికి OCR PDF ను డౌన్‌లోడ్ చేయండి."
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "క్వాలిటీని చూడడానికి OCR PDF ను డౌన్‌లోడ్ చేయండి.",
+    "tools__index_page__constant_obj__rotate_pdf__title": "పిడిఎఫ్ తిరుగుట",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "పిడిఎఫ్‌లో అన్ని లేదా వ్యక్తిగత పేజీలను తిరుగుటించండి",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "తిరుగుటించడానికి పేజీపై క్లిక్ చేసి. మీరు మార్చిన పిడిఎఫ్‌ను డౌన్‌లోడ్ చేయవచ్చు.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "మా సులభమైన ఆన్‌లైన్ పిడిఎఫ్ తిరుగుట ఉపకరణంతో మీ పిడిఎఫ్ పత్రాలను స్వచ్ఛంగా తిరుగుటించండి. కొనసాగించిన కొరకు సరైన అభివృద్ధిని పొందండి, మీ పత్రాలు సురక్షితంగా ఉంచండి.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "పరిపూర్ణ డాక్యూమెంట్ లేఔట్ కోసం తక్కువ సమయంలో పేజీ తిరుగుట",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "అదనపు సాఫ్ట్‌వేర్ అవసరం లేదు",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "స్థానికంగా భద్రతా బ్రౌజర్‌ను ఉపయోగించి ఫైళ్లను త్వరగా ప్రాసెస్ చేయండి",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "అన్నింటినీ సులభంగా పేజీ ఓరియంటేషన్",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "మీ పిడిఎఫ్ పేజీల ఓరియంటేషన్‌ను కొనసాగించడానికి కొనసాగించండి. మీరు ఒక పేజీని తిరుగుటించాలనుకుంటే లేదా పిడిఎఫ్ డాక్యూమెంట్ మొత్తాన్ని తిరుగుటించాలనుకుంటే, మా ఉపకరణం మీకు అన్ని సన్నివేశాలకు సౌలభ్యం అందిస్తుంది.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "వాడుకరి సౌలభ్యకరమైన ఇంటర్‌ఫేస్",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "మా సులభమైన ఇంటర్‌ఫేస్ పిడిఎఫ్‌లను తిరుగుటించడానికి సౌలభ్యపరమైనది. మీ పత్రాన్ని అప్‌లోడ్ చేసి, మీరు సరిపోయిన పేజీలను ఎంచుకోండి మరియు ఒక నొక్కిని ఉపయోగించి వారు ఒకే క్లిక్‌తో తిరుగుకోండి.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "పత్రం అంతర్గతంగా ఉంచండి",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "మేము మీ పత్రంలో లేఔట్ మరియు ఫార్మాటింగ్‌ను అందించడంలో నిజాయితీని నిలువుగా ఉంచండి, మీ ఫైల్‌ని తిరుగుకోవడంలో మరియు కంటెంట్ యాక్యూరేసీ తప్పనిసరిగా ఉంచడంలో.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "ఏ పరికరం నుండి అందుబాటులో ఉండండి",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "ఎవరైనా సమయంలో ఎక్కువ సాధనాలను ఉపయోగించి PDFను తిరుగుకోవడం సౌలభ్యం. మా బ్రౌజర్ ఆధారిత సాధనాలు ఇన్‌స్టాలేషన్ అవసరం లేదు.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "భద్రం మరియు ప్రైవేట్ ప్రాసెసింగ్",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "గోప్యత ప్రధానం. మీ ఫైళ్లు బ్రౌజర్‌లో ప్రాసెస్ చేయబడుతుంది, మీ ఫైళ్లు మీ పరికరంలో నిలువుగా ఉండవచ్చు మరియు మాకు సేవ్ చేయబడవు.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "తక్కువ సమయంలో డౌన్‌లోడ్ అవుతుంది",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "తిరుగుటించిన తరువాత, మీ PDFను తక్కువ సమయంలో డౌన్‌లోడ్ చేయండి. ఎదురుచూస్తున్నట్లు లేవు - మీ సరైన ఓరియంటేషన్ పత్రాన్ని తక్కువ సమయంలో పొందండి.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "పిడిఎఫ్ పేజీలను ఎలా తిరుగుకోవాలి:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "తిరుగుటించాలని మీకు అవసరంగా ఉన్న PDF పత్రాన్ని అప్‌లోడ్ చేయండి.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "తిరుగుటించాలని పేజీలను ఎంచుకోండి లేదా అన్ని పేజీలకు తిరుగుటించండి.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "మీ మార్చిన PDFను డౌన్‌లోడ్ చేసి, పేజీలు కారెక్ట్ ఓరియంటేషన్‌లో ఉంచండి, ఏ ఉపయోగం కోసం సిద్ధంగా."
   },
   "prompt_library": {
     "use_prompt_library__title": "ఉచిత గుర్తు లైబ్రరీ",
@@ -866,7 +889,9 @@
     "pdf_tools__ocr_pdf__title": "OCR PDF - ఉచితంగా మరియు స్థానికంగా PDF వచనాన్ని గుర్తించండి | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "అనువర్తనం చేయలేని PDF పత్రాలను కొన్ని సెకన్లలో వచనాన్ని గుర్తించడానికి, ఎంటిని లిమిట్లు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్‌లు లేవు.",
     "features_landing__ai_reader__title": "AI రీడింగ్ అసిస్టెంట్ | MaxAI.me",
-    "features_landing__ai_reader__description": "విశేషాలను సులభంగా అర్థం చేయండి, మార్పులతో ఒక నిపుణుడిగా."
+    "features_landing__ai_reader__description": "విశేషాలను సులభంగా అర్థం చేయండి, మార్పులతో ఒక నిపుణుడిగా.",
+    "pdf_tools__rotate_pdf__title": "పిడిఎఫ్ తిరుగుట - పిడిఎఫ్ పత్రాలలో పేజీలను సులభంగా తిరుగుటించండి | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "ఉచితంగా పిడిఎఫ్ పత్రాలలో పేజీలను సులభంగా తిరుగుటించండి. ఒక క్లిక్‌తో ఏ పిడిఎఫ్ పేజీని ఓరియంటేషన్ మార్చండి - ఫైల్ సెల్లుబాటులు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్లు కూడా కావు."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "అన్నింటినీ ఎంచుకోండి",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__document_scanning_language": "పత్రం స్కానింగ్ భాష",
     "components__ocr_pdf__main__ocr_and_download": "OCR & డౌన్‌లోడ్",
     "components__ocr_pdf__main__ocr_loading": "PDF లోడ్ అవుతోంది"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "అన్నినీ తిరుగుట",
+    "components__rotate_pdf__main__remove_pdf": "PDFను తీసివేయండి",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "ఈ PDFను తీసివేయి మరియు కొత్తదిని ఎంచుకోండి",
+    "components__rotate_pdf__button__zoom_in__tooltip": "పెరిగించు",
+    "components__rotate_pdf__button__zoom_out__tooltip": "తక్కువ చూడండి",
+    "components__rotate_pdf__cancel": "రద్దు చేయండి",
+    "components__rotate_pdf__button__cancel__tooltip": "ప్రస్తుత ప్రగతిని రద్దు చేయండి",
+    "components__rotate_pdf__button__download__tooltip": "PDFను తిరుగుటించి డౌన్‌లోడ్ చేయండి",
+    "components__rotate_pdf__button__download": "డౌన్‌లోడ్"
   }
 }

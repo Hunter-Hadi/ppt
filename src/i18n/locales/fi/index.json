@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Työkalumme käsittelee PDF-tiedostosi, poimii tekstin tarkasti ja nopeasti.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Lataa OCR PDF tulossivulta nähdäksesi laadun.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-skannattu PDF-tiedosto, jotta voit helposti valita kopioitavan ja tekstiä etsittävän tekstin"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-skannattu PDF-tiedosto, jotta voit helposti valita kopioitavan ja tekstiä etsittävän tekstin",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Käännä PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Käännä kaikki tai yksittäiset sivut PDF-tiedostossa",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Napsauta vain sivua kääntääksesi sen. Voit sitten ladata muokatun PDF-tiedoston.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Käännä sivuja saumattomasti PDF-dokumenteissasi käyttämällä intuitiivista verkkopohjaista Käännä PDF -työkaluamme. Saavuta täydellinen suuntaus muutamalla napsautuksella, samalla varmistaen, että asiakirjasi pysyvät turvallisina ja yksityisinä.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Välitön sivujen kääntö täydellisen asiakirjan asettelun saavuttamiseksi",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Ei tarvita lisäohjelmistoja",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Käsittele tiedostoja nopeasti paikallisesti turvallisessa selaimessa",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Vaivaton sivun suuntaus",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Säädä PDF-sivujen suuntausta sekunneissa. Olipa kyse yhden sivun kääntämisestä tai koko asiakirjasta, työkalumme tarjoaa joustavuutta mihin tahansa tilanteeseen.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Käyttäjäystävällinen käyttöliittymä",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Intuitiivinen käyttöliittymämme tekee PDF-tiedostojen kääntämisestä helppoa. Lataa vain asiakirjasi, valitse sivut, jotka haluat säätää, ja käännä ne yhdellä napsautuksella.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Säilytä asiakirjan eheys",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Varmistamme, että asiakirjasi asettelu ja muotoilu säilyvät ennallaan, säilyttäen tiedoston laadun ja sisällön tarkkuuden käännöksen jälkeen.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Käytettävissä mistä tahansa laitteesta",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Käännä PDF-tiedostoja milloin tahansa ja missä tahansa. Verkkopohjaiset työkalumme toimivat saumattomasti kaikilla laitteilla ja käyttöjärjestelmillä ilman asennusta.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Turvallinen ja yksityinen käsittely",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Yksityisyys on ensisijainen. Asiakirjasi käsitellään selaimessa, joten tiedostosi eivät koskaan poistu laitteeltasi eikä niitä tallenneta tai tarkastella meidän toimestamme.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Välittömät lataukset käännöksen jälkeen",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Kun olet kääntänyt PDF-tiedoston, voit ladata sen suoraan työkalusta. Sinun ei tarvitse odottaa - pääset heti käsiksi täydellisesti suunnattuun asiakirjaasi.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kuinka kääntää PDF-sivuja verkossa:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Lataa PDF-tiedosto, jonka haluat kääntää.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Valitse sivut, jotka haluat kääntää, tai käännä kaikki sivut.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Lataa muokattu PDF-tiedosto, jossa sivut ovat oikeassa suunnassa ja valmiina käytettäväksi."
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
     "features_landing__ai_vision__description": "Ymmärrä ja analysoi mikä tahansa kuva kehittyneimpien AI-näkömallien avulla.",
     "features_landing__ai_reader__title": "AI-lukemisavustaja | MaxAI.me",
-    "features_landing__ai_reader__description": "Tee monimutkainen tieto helposti ymmärrettäväksi, aivan kuin asiantuntija."
+    "features_landing__ai_reader__description": "Tee monimutkainen tieto helposti ymmärrettäväksi, aivan kuin asiantuntija.",
+    "pdf_tools__rotate_pdf__title": "Käännä PDF - Käännä sivuja helposti PDF-dokumenteissa verkossa | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Käännä PDF-sivuja vaivattomasti verkossa ilmaiseksi. Säädä minkä tahansa PDF-sivun suuntausta yhdellä napsautuksella - ei tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF:n lataus",
     "components__ocr_pdf__main__ocr_and_download": "OCR ja Lataa",
     "components__ocr_pdf__main__document_scanning_language": "Dokumentin skannauskieli"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Käännä kaikki",
+    "components__rotate_pdf__main__remove_pdf": "Poista PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Poista tämä PDF ja valitse uusi",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Lähennä",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Loitonna",
+    "components__rotate_pdf__cancel": "Peruuta",
+    "components__rotate_pdf__button__cancel__tooltip": "Peruuta nykyinen edistyminen",
+    "components__rotate_pdf__button__download__tooltip": "Käännä ja lataa PDF",
+    "components__rotate_pdf__button__download": "Lataa"
   }
 }

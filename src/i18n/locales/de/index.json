@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Unser Tool verarbeitet Ihr PDF und extrahiert den Text genau und schnell.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Laden Sie das OCR-PDF auf der Ergebnisseite herunter, um die Qualität anzuzeigen.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "PDF-Dokument OCR-Texterkennung, damit Sie Text kopieren und suchen können"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "PDF-Dokument OCR-Texterkennung, damit Sie Text kopieren und suchen können",
+    "tools__index_page__constant_obj__rotate_pdf__title": "PDF drehen",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Drehen Sie alle oder einzelne Seiten in einem PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Klicken Sie einfach auf eine Seite, um sie zu drehen. Anschließend können Sie Ihr modifiziertes PDF herunterladen.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Drehen Sie nahtlos Seiten in Ihren PDF-Dokumenten mit unserem intuitiven Online-Tool zum Drehen von PDFs. Erzielen Sie die perfekte Ausrichtung mit nur wenigen Klicks und stellen Sie dabei sicher, dass Ihre Dokumente sicher und privat bleiben.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Sofortige Seitenrotation für ein perfektes Layout des Dokuments",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Keine zusätzliche Software erforderlich",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Verarbeiten Sie Dateien schnell mit einem lokal sicheren Browser",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Mühelose Seitenausrichtung",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Passen Sie die Ausrichtung Ihrer PDF-Seiten in Sekundenschnelle an. Ob Sie eine einzelne Seite oder das gesamte Dokument drehen müssen, unser Tool bietet die Flexibilität für jede Situation.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Benutzerfreundliche Benutzeroberfläche",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Unsere intuitive Benutzeroberfläche macht das Drehen von PDFs einfach. Laden Sie einfach Ihr Dokument hoch, wählen Sie die Seiten aus, die Sie anpassen möchten, und drehen Sie sie mit einem einzigen Klick.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Wahrung der Dokumentintegrität",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Wir stellen sicher, dass das Layout und die Formatierung Ihres Dokuments intakt bleiben und die Qualität und Genauigkeit des Inhalts nach der Rotation erhalten bleiben.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Von jedem Gerät aus zugänglich",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Drehen Sie PDFs jederzeit und überall. Unsere browserbasierten Tools funktionieren nahtlos auf allen Geräten und Betriebssystemen, ohne dass eine Installation erforderlich ist.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Sichere und private Verarbeitung",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Datenschutz hat oberste Priorität. Ihre Dokumente werden im Browser verarbeitet, sodass Ihre Dateien niemals Ihr Gerät verlassen und von uns nicht gespeichert oder eingesehen werden.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Sofortiger Download nach der Rotation",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Nach der Rotation können Sie Ihr PDF direkt aus dem Tool herunterladen. Es gibt kein Warten - greifen Sie sofort auf Ihr perfekt ausgerichtetes Dokument zu.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "So drehen Sie PDF-Seiten online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Laden Sie das PDF-Dokument hoch, das Sie drehen möchten.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Wählen Sie bestimmte Seiten für die Rotation aus oder wenden Sie die Rotation auf alle Seiten an.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Laden Sie Ihr geändertes PDF herunter, bei dem die Seiten jetzt in der richtigen Ausrichtung sind und für jede Verwendung bereit sind."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
     "features_landing__ai_vision__description": "Verstehen und analysieren Sie jedes Bild mit den fortschrittlichsten KI-Vision-Modellen.",
     "features_landing__ai_reader__title": "AI Lesehilfe | MaxAI.me",
-    "features_landing__ai_reader__description": "Komplexe Informationen leicht verständlich machen, wie ein Experte."
+    "features_landing__ai_reader__description": "Komplexe Informationen leicht verständlich machen, wie ein Experte.",
+    "pdf_tools__rotate_pdf__title": "PDF drehen - Seiten in PDF-Dokumenten einfach drehen | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Drehen Sie Seiten in Ihren PDF-Dokumenten mühelos online und kostenlos. Passen Sie die Ausrichtung jeder PDF-Seite mit nur einem Klick an - keine Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich."
   },
   "features_landing": {
     "cta_text": "Zum Browser hinzufügen",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF wird geladen",
     "components__ocr_pdf__main__ocr_and_download": "OCR und Herunterladen",
     "components__ocr_pdf__main__document_scanning_language": "Sprache der Dokumentenscan"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Alle drehen",
+    "components__rotate_pdf__main__remove_pdf": "PDF entfernen",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Entfernen Sie dieses PDF und wählen Sie ein neues aus",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Vergrößern",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Verkleinern",
+    "components__rotate_pdf__cancel": "Abbrechen",
+    "components__rotate_pdf__button__cancel__tooltip": "Aktuellen Fortschritt abbrechen",
+    "components__rotate_pdf__button__download__tooltip": "PDF drehen und herunterladen",
+    "components__rotate_pdf__button__download": "Herunterladen"
   }
 }

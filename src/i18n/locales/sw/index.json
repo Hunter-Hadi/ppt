@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Zana yetu itasindika PDF yako, ikichukua maandishi kwa usahihi na haraka.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Pakua OCR PDF kwenye ukurasa wa matokeo ili kuona ubora.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Tafuta maandishi kwenye hati ya PDF iliyosanifiwa ili uweze kuchagua na kutafuta maandishi"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Tafuta maandishi kwenye hati ya PDF iliyosanifiwa ili uweze kuchagua na kutafuta maandishi",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Geuza PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Geuza kurasa zote au kurasa binafsi katika PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Bonyeza tu kwenye ukurasa ili kuugeuza. Kisha unaweza kupakua PDF yako iliyobadilishwa.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Geuza kurasa kwa urahisi ndani ya hati zako za PDF kwa kutumia zana yetu rahisi ya Geuza PDF mtandaoni. Fikia mwelekeo kamili kwa kubonyeza chache tu, wakati huo huo uhakikishe hati zako zinabaki salama na faragha.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Geuza ukurasa mara moja kwa mpangilio kamili wa hati",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Hakuna programu ya ziada inayohitajika",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Pakua faili haraka kwa kutumia kivinjari salama cha ndani",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Mwelekeo Rahisi wa Kurasa",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Badilisha mwelekeo wa kurasa zako za PDF kwa sekunde. Iwe unahitaji kuigeuza kurasa moja au hati nzima, zana yetu inakupa uwezo wa kubadilika kwa hali yoyote.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Kiolesura cha Kirafiki kwa Mtumiaji",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Kiolesura chetu cha kirafiki kinawezesha kuigeuza PDF kwa urahisi. Tupeleke hati yako, chagua kurasa unazohitaji kurekebisha, na ugeuze kwa bonyeza moja tu.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Uhifadhi Utimamu wa Hati",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Tunahakikisha muundo na mpangilio wa hati yako unabaki salama, ukilinda ubora na usahihi wa yaliyomo baada ya kugeuza.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Inapatikana Kutoka Kifaa Cho Chote",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Geuza PDF wakati wowote, mahali popote. Zana zetu zinazotegemea kivinjari zinafanya kazi vizuri kwenye vifaa vyote na mifumo ya uendeshaji bila hitaji la usakinishaji.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Usindikaji Salama na Faragha",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Faragha ni muhimu. Hati zako zinasindika kwenye kivinjari, zikihakikisha faili zako haziondoki kwenye kifaa chako na hazihifadhiwi au kuonekana na sisi.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Upakuaji wa Papo hapo Baada ya Kugeuza",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Baada ya kugeuza, pakua PDF yako moja kwa moja kutoka kwenye zana. Hakuna kusubiri—fikia hati yako iliyoelekezwa vizuri mara moja.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Jinsi ya Kuigeuza Kurasa za PDF Mtandaoni:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Pakia hati ya PDF unayotaka kuigeuza.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Chagua kurasa maalum za kugeuza au tumia geuzo kwa kurasa zote.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Pakua PDF yako iliyobadilishwa, na kurasa sasa zikiwa katika mwelekeo sahihi, tayari kwa matumizi yoyote."
   },
   "prompt_library": {
     "use_prompt_library__title": "Maktaba ya maelekezo ya AI ya ubora wa juu",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
     "features_landing__ai_vision__description": "Elewa na uchambue picha yoyote na mifano ya AI ya kuona iliyosonga mbele zaidi.",
     "features_landing__ai_reader__title": "Msaidizi wa Kusoma AI | MaxAI.me",
-    "features_landing__ai_reader__description": "Fanya habari ngumu kuwa rahisi kuelewa, kama mtaalamu."
+    "features_landing__ai_reader__description": "Fanya habari ngumu kuwa rahisi kuelewa, kama mtaalamu.",
+    "pdf_tools__rotate_pdf__title": "Geuza PDF - Geuza Kurasa kwa urahisi katika Hati za PDF Mtandaoni | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Geuza kurasa ndani ya hati zako za PDF mtandaoni kwa urahisi bila malipo. Badilisha mwelekeo wa kurasa yoyote ya PDF kwa bonyeza moja tu - hakuna ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "Upakiaji wa PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR na Pakua",
     "components__ocr_pdf__main__document_scanning_language": "Lugha ya skanningi ya hati"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Geuza Zote",
+    "components__rotate_pdf__main__remove_pdf": "Ondoa PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Ondoa PDF hii na chagua nyingine",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Kuza",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Punguza",
+    "components__rotate_pdf__cancel": "Ghairi",
+    "components__rotate_pdf__button__cancel__tooltip": "Ghairi maendeleo ya sasa",
+    "components__rotate_pdf__button__download__tooltip": "Geuza na pakua PDF",
+    "components__rotate_pdf__button__download": "Pakua"
   }
 }
