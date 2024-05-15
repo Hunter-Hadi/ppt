@@ -84,7 +84,7 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Κάντε κλικ για να κατεβάσετε το υπογεγραμμένο PDF σας τώρα, όλα είναι έτοιμα και ασφαλή.",
     "home_page__features_carousel__feature_art__description3": "Απλό, ισχυρό, μετασχηματιστικό",
     "home_page__features_carousel__feature_art__description4": "Περισσότερα προηγμένα μοντέλα τέχνης AI και χαρακτηριστικά σύντομα διαθέσιμα",
-    "home_page__features_carousel__feature_prompts__description1": "Βιβλιοθήκη υψηλής ποιότητας AI prompt"
+    "home_page__features_carousel__feature_prompts__description1": "Βιβλιοθήκη AI προτροπών"
   },
   "prompt_library": {
     "use_prompt_library__title": "Βιβλιοθήκη προτροπών υψηλής ποιότητας AI",
@@ -130,7 +130,7 @@
     "footer__title": "Εργαλείο παραγωγικότητας AI",
     "footer__desc": "Συνομιλία AI, αναδιατύπωση, περίληψη, άμεση απάντηση, βοηθός ανάγνωσης, υπόδειξη, αναζήτηση, τέχνη και μεταφραστής. Με την υποστήριξη του GPT-4, Claude 3, Gemini 1.5.",
     "footer__products": "Προϊόντα",
-    "footer__1_click_prompts": "Βιβλιοθήκη προτροπών υψηλής ποιότητας AI",
+    "footer__1_click_prompts": "Βιβλιοθήκη AI προτροπών",
     "footer__follow_us": "Ακολουθήστε μας",
     "footer__help": "Βοήθεια",
     "footer__how_to_use": "Πώς να χρησιμοποιήσετε",
@@ -254,6 +254,6 @@
     "pdf_tools__title": "Δωρεάν Εργαλεία PDF Online - Μετατροπή, Συμπίεση, Επεξεργασία | MaxAI.me",
     "default__title": "MaxAI.me: 1-Click AI Παντού (GPT-4, Claude 3, Gemini 1.5)",
     "default__description": "Συνομιλία AI, αναδιατύπωση, περίληψη, άμεση απάντηση, βοηθός ανάγνωσης, υπόδειξη, αναζήτηση, τέχνη και μεταφραστής. Με την υποστήριξη του GPT-4, Claude 3, Gemini 1.5.",
-    "prompts__description": "Ολοκληρώστε τις καθημερινές σας εργασίες με τη Διαχείριση Προτροπών και τη Βιβλιοθήκη προτροπών υψηλής ποιότητας AI σε λίγα λεπτά που παλιότερα πήραν ώρες."
+    "prompts__description": "Ολοκληρώστε τις καθημερινές σας εργασίες με τη Διαχείριση Προτροπών και τη Βιβλιοθήκη AI προτροπών σε λίγα λεπτά που χρειαζόταν ώρες."
   }
 }
