@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Ahorra el 90% de tu tiempo de lectura y visualización obteniendo resúmenes y respuestas instantáneas.",
     "features_landing__ai_reply__title": "Respuesta instantánea de IA | MaxAI.me",
     "features_landing__ai_reply__description": "Acelera tus respuestas y borradores de correo electrónico, redes sociales y mensajería en un 10X con 1 clic.",
-    "features_landing__ai_reading_assistant__title": "Asistente de lectura de IA | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Haz que la información compleja sea fácil de entender, como un experto.",
     "features_landing__ai_prompts__title": "Indicaciones de IA | MaxAI.me",
     "features_landing__ai_prompts__description": "Completa tus tareas diarias en minutos ahora, ya no en horas.",
     "features_landing__ai_search__title": "Búsqueda de IA | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "Traductor de IA | MaxAI.me",
     "features_landing__ai_translator__description": "Habilita la lectura bilingüe con un solo clic para mejorar la eficiencia de recuperación de información.",
     "features_landing__ai_vision__title": "Visión de IA | MaxAI.me",
-    "features_landing__ai_vision__description": "Comprende y analiza cualquier imagen con los modelos de visión de IA más avanzados."
+    "features_landing__ai_vision__description": "Comprende y analiza cualquier imagen con los modelos de visión de IA más avanzados.",
+    "features_landing__ai_reader__title": "Asistente de Lectura de IA | MaxAI.me",
+    "features_landing__ai_reader__description": "Haga que la información compleja sea fácil de entender, como un experto."
   },
   "features_landing": {
     "cta_text": "Agregar al Navegador",

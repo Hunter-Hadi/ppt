@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Mentse meg az olvasás és nézés idejének 90%-át összefoglalók és azonnali válaszok segítségével.",
     "features_landing__ai_reply__title": "AI Azonnali Válasz | MaxAI.me",
     "features_landing__ai_reply__description": "Gyorsítsa fel az e-mail, közösségi média és üzenetválaszokat és tervezeteit 10-szeresére 1 kattintással.",
-    "features_landing__ai_reading_assistant__title": "AI Olvasási Segéd | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Tegye könnyen érthetővé a bonyolult információkat, mint egy szakértő.",
     "features_landing__ai_prompts__title": "AI segítség | MaxAI.me",
     "features_landing__ai_prompts__description": "Végezze el napi feladatait percek alatt, már nem órák alatt.",
     "features_landing__ai_search__title": "AI Keresés | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Fordító | MaxAI.me",
     "features_landing__ai_translator__description": "Két nyelvű olvasást tesz lehetővé egyetlen kattintással az információk visszakeresésének hatékonyságának javítása érdekében.",
     "features_landing__ai_vision__title": "AI Látás | MaxAI.me",
-    "features_landing__ai_vision__description": "Értsen és elemezzen bármilyen képet a legfejlettebb AI látás modellekkel."
+    "features_landing__ai_vision__description": "Értsen és elemezzen bármilyen képet a legfejlettebb AI látás modellekkel.",
+    "features_landing__ai_reader__title": "AI Olvasó Asszisztens | MaxAI.me",
+    "features_landing__ai_reader__description": "Tegye könnyen érthetővé a bonyolult információkat, akár egy szakértő."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",

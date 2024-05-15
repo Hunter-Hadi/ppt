@@ -853,8 +853,6 @@
     "features_landing__ai_summary__description": "ಸಾರಾಂಶಗಳು ಮತ್ತು ತಕ್ಷಣ ಉತ್ತರಗಳನ್ನು ಪಡೆಯುವ ಮೂಲಕ 90% ಓದುವ ಮತ್ತು ವೀಕ್ಷಿಸುವ ಸಮಯವನ್ನು ಉಳಿಸಿ.",
     "features_landing__ai_reply__title": "AI ತಕ್ಷಣ ಉತ್ತರ | MaxAI.me",
     "features_landing__ai_reply__description": "1 ಕ್ಲಿಕ್‌ನಲ್ಲಿ 10X ವೇಗದಲ್ಲಿ ನಿಮ್ಮ ಇಮೇಲ್, ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮ ಮತ್ತು ಸಂದೇಶಗಳ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಹೆಚ್ಚಿಸಿ.",
-    "features_landing__ai_reading_assistant__title": "AI ಓದುವ ಸಹಾಯಕ | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "ವಿಶೇಷವಾದ ಜ್ಞಾನವನ್ನು ಸುಲಭವಾಗಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ, ಒಂದು ತಜ್ಞನಂತೆ.",
     "features_landing__ai_prompts__title": "AI ಪ್ರಾಂಪ್ಟ್‌ಗಳು | MaxAI.me",
     "features_landing__ai_prompts__description": "ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ನಿಮಿಷಗಳಲ್ಲಿ ಮುಗಿಸಿ, ಹೊರಗೆ ಹೋಗಬೇಡಿ.",
     "features_landing__ai_search__title": "AI ಹುಡುಕಾಟ | MaxAI.me",
@@ -864,7 +862,11 @@
     "features_landing__ai_translator__title": "AI ಭಾಷಾಂತರಕ್ಕೆ | MaxAI.me",
     "features_landing__ai_translator__description": "ಒಂದು ಕ್ಲಿಕ್‌ನಲ್ಲಿ ಪ್ರಾಥಮಿಕ ಭಾಷೆಯಲ್ಲಿ ಬೈಲಿಂಗ್ವಲ್ ಓದುವ ಸಾಧನ ಪ್ರಭಾವಿಯನ್ನು ಹೆಚ್ಚಿಸಿ.",
     "features_landing__ai_vision__title": "AI ವಿಜನ್ | MaxAI.me",
-    "features_landing__ai_vision__description": "ಅತ್ಯುತ್ತಮ AI ವಿಜನ್ ಮಾದರಿಗಳೊಂದಿಗೆ ಯಾವುದೇ ಚಿತ್ರವನ್ನು ಗ್ರಹಿಸಿ ವಿಶ್ಲೇಷಿಸಿ."
+    "features_landing__ai_vision__description": "ಅತ್ಯುತ್ತಮ AI ವಿಜನ್ ಮಾದರಿಗಳೊಂದಿಗೆ ಯಾವುದೇ ಚಿತ್ರವನ್ನು ಗ್ರಹಿಸಿ ವಿಶ್ಲೇಷಿಸಿ.",
+    "features_landing__ai_reader__title": "AI ಓದುಗಾರ | MaxAI.me",
+    "features_landing__ai_reader__description": "ವಿಶೇಷಜ್ಞನಂತೆ ಕಠಿಣ ಮಾಹಿತಿಯನ್ನು ಸುಲಭವಾಗಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - ಫಾಸ್ಟ್ & ಲೋಕಲ್ ಪಿಡಿಎಫ್ ಪಠ್ಯ ಗುರುತಿಕೆ ಉಚಿತ | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "ಅನುಕ್ರಮಿಸಲಾಗದ ಪಿಡಿಎಫ್ ಆವರಣಗಳನ್ನು ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಅನುಕ್ರಮಿಸಲು ಮತ್ತು ಆಯ್ಕೆಗೆ ಒಳಪಡಿಸಲು. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
   },
   "features_landing": {
     "cta_text": "ಬ್ರೌಸರ್‌ಗೆ ಸೇರಿಸಿ",

@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Estalvia el 90% del temps de lectura i visualització obtenint resums i respostes instantànies.",
     "features_landing__ai_reply__title": "Resposta Instantània d'IA | MaxAI.me",
     "features_landing__ai_reply__description": "Acceleri les seves respostes i esborranys d'email, xarxes socials i missatgeria en un 10X amb 1 clic.",
-    "features_landing__ai_reading_assistant__title": "Assistent de Lectura d'IA | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Facilita la comprensió de la informació complexa, com ho faria un expert.",
     "features_landing__ai_prompts__title": "Prompts d'IA | MaxAI.me",
     "features_landing__ai_prompts__description": "Completa les teves tasques diàries en minuts, no en hores.",
     "features_landing__ai_search__title": "Cerca d'IA | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "Traductor d'IA | MaxAI.me",
     "features_landing__ai_translator__description": "Permet la lectura bilingüe amb un sol clic per millorar l'eficiència de recuperació de la informació.",
     "features_landing__ai_vision__title": "Visió d'IA | MaxAI.me",
-    "features_landing__ai_vision__description": "Comprengui i analitzi qualsevol imatge amb els models de visió d'IA més avançats."
+    "features_landing__ai_vision__description": "Comprengui i analitzi qualsevol imatge amb els models de visió d'IA més avançats.",
+    "features_landing__ai_reader__title": "Assistent de Lectura d'IA | MaxAI.me",
+    "features_landing__ai_reader__description": "Facilita la comprensió de la informació complexa, com un expert."
   },
   "features_landing": {
     "cta_text": "Afegir al navegador",

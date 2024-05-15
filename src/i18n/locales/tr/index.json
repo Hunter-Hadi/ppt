@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Özetler ve anlık cevaplar alarak okuma ve izleme sürenizin %90'ını tasarruf edin.",
     "features_landing__ai_reply__title": "AI Anlık Cevap | MaxAI.me",
     "features_landing__ai_reply__description": "E-posta, sosyal medya ve mesajlaşma yanıtlarınızı ve taslaklarınızı 1 tıklamayla 10 kat hızlandırın.",
-    "features_landing__ai_reading_assistant__title": "AI Okuma Asistanı | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Uzman gibi karmaşık bilgileri anlamak için kolaylaştırın.",
     "features_landing__ai_prompts__title": "AI İpucu | MaxAI.me",
     "features_landing__ai_prompts__description": "Günlük görevlerinizi artık saatler değil dakikalar içinde tamamlayın.",
     "features_landing__ai_search__title": "AI Arama | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Çevirmen | MaxAI.me",
     "features_landing__ai_translator__description": "Bir tıklamayla ikinci dilde okuma yaparak bilgi alım verimliliğinizi artırın.",
     "features_landing__ai_vision__title": "AI Görüş | MaxAI.me",
-    "features_landing__ai_vision__description": "En gelişmiş yapay zeka görüş modelleriyle herhangi bir görüntüyü anlayın ve analiz edin."
+    "features_landing__ai_vision__description": "En gelişmiş yapay zeka görüş modelleriyle herhangi bir görüntüyü anlayın ve analiz edin.",
+    "features_landing__ai_reader__title": "AI Okuma Yardımcısı | MaxAI.me",
+    "features_landing__ai_reader__description": "Uzman gibi karmaşık bilgileri anlamak kolaylaştırın."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",

@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Ietaupiet 90% lasīšanas un skatīšanās laika, saņemot kopsavilkumus un nekavējoties atbildes.",
     "features_landing__ai_reply__title": "AI Nekavējoties Atbildēt | MaxAI.me",
     "features_landing__ai_reply__description": "Paātriniet e-pasta, sociālo mediju un ziņojumu atbildes un projektus par 10X ar 1 klikšķi.",
-    "features_landing__ai_reading_assistant__title": "AI Lasīšanas Palīgs | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Padarīt sarežģītu informāciju viegli saprotamu, tieši tāpat kā eksperts.",
     "features_landing__ai_prompts__title": "AI Uzaicinājumi | MaxAI.me",
     "features_landing__ai_prompts__description": "Pabeidziet savas ikdienas uzdevumus minūtēs, nevis stundās.",
     "features_landing__ai_search__title": "AI Meklēšana | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Tulks | MaxAI.me",
     "features_landing__ai_translator__description": "Iespējojiet divvalodu lasīšanu ar vienu klikšķi, lai uzlabotu informācijas izgūšanas efektivitāti.",
     "features_landing__ai_vision__title": "AI Redzējums | MaxAI.me",
-    "features_landing__ai_vision__description": "Saprotiet un analizējiet jebkuru attēlu ar vismodernākajiem AI redzes modeļiem."
+    "features_landing__ai_vision__description": "Saprotiet un analizējiet jebkuru attēlu ar vismodernākajiem AI redzes modeļiem.",
+    "features_landing__ai_reader__title": "AI lasīšanas asistents | MaxAI.me",
+    "features_landing__ai_reader__description": "Padariet sarežģītu informāciju viegli saprotamu, tāpat kā eksperts."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",

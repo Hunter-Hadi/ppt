@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "সারসংক্ষেপ এবং তাৎক্ষণিক উত্তর পেতে ৯০% পড়া এবং দেখার সময় সংরক্ষণ করুন।",
     "features_landing__ai_reply__title": "এইচটি তাৎক্ষণিক উত্তর | MaxAI.me",
     "features_landing__ai_reply__description": "এক ক্লিকে ১০গুন আপনার ইমেল, সামাজিক মাধ্যম এবং বার্তা প্রতিক্রিয়া এবং খসড়া দ্রাফট ত্ত আপনার প্রতিক্রিয়া ত্ত গতিবহীন করুন।",
-    "features_landing__ai_reading_assistant__title": "এইচটি পঠন সহায়ক | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "একজন বিশেষজ্ঞের মতো সহজ করে কমপ্লেক্স তথ্য বুঝান, এটি একজন এক্সপার্টের মতো।",
     "features_landing__ai_prompts__title": "এইচটি প্রম্পট | MaxAI.me",
     "features_landing__ai_prompts__description": "আপনার দৈনিক কাজগুলি এখন মিনিটে শেষ করুন, আর ঘন্টার পর ঘন্টা নয়।",
     "features_landing__ai_search__title": "এইচটি অনুসন্ধান | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "এইচটি অনুবাদক | MaxAI.me",
     "features_landing__ai_translator__description": "তথ্য পুনরুদ্ধার দক্ষতা উন্নত করতে একক ক্লিক দিয়ে দ্বিভাষিক পঠন সক্ষম করুন।",
     "features_landing__ai_vision__title": "এইচটি ভিশন | MaxAI.me",
-    "features_landing__ai_vision__description": "সর্বাধিক উন্নত এআই ভিশন মডেলগুলি দিয়ে কোনও ছবি বোঝার এবং বিশ্লেষণ করার সক্ষমতা পান।"
+    "features_landing__ai_vision__description": "সর্বাধিক উন্নত এআই ভিশন মডেলগুলি দিয়ে কোনও ছবি বোঝার এবং বিশ্লেষণ করার সক্ষমতা পান।",
+    "features_landing__ai_reader__title": "এই এআই রিডিং সহায়ক | MaxAI.me",
+    "features_landing__ai_reader__description": "একজন বিশেষজ্ঞের মতো কঠিন তথ্যগুলি সহজে বোঝান।"
   },
   "features_landing": {
     "cta_text": "ব্রাউজারে যোগ করুন",

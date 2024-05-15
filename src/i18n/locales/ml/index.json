@@ -853,8 +853,6 @@
     "features_landing__ai_summary__description": "സംഗ്രഹങ്ങളും തിരഞ്ഞെടുക്കലുകളും ഉപയോഗിച്ച് 90% വായനാക്കളും കാണാനും പ്രത്യുത്തരങ്ങളും എടുക്കാനും സമയം സംരക്ഷിക്കാനും സഹായിക്കുന്ന ഏറ്റവും വേഗത്തിലെഴുത്ത്.",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "1 ക്ലിക്കിൽ 10X വേഗത്തിൽ ഇമെയിലുകളും, സോഷ്യൽ മീഡിയയും, സന്ദേശങ്ങളും ഉത്തരങ്ങളും പരിഷ്ക്കരണങ്ങളും അടയ്ക്കുന്നു.",
-    "features_landing__ai_reading_assistant__title": "AI Reading Assistant | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "വിശദമായി അറിവുകളും അനുഭവങ്ങളും പ്രശ്നങ്ങളും എളുപ്പത്തിൽ മനസ്സിലാക്കുന്നു, ഒരു വിദ്യാർത്ഥിയുടെയോ അഭിപ്രായങ്ങളുടെയോ പേരുകളുടെയോ പ്രശ്നങ്ങളുടെയോ ഉപയോഗിക്കാവുന്നതാണ്.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "ഇപ്പോഴുള്ള ദിവസവും മിനിറ്റുകളിൽ നിങ്ങളുടെ പ്രവർത്തനങ്ങളെ പൂർണ്ണമായും പൂർത്തിയാക്കുക.",
     "features_landing__ai_search__title": "AI Search | MaxAI.me",
@@ -864,7 +862,11 @@
     "features_landing__ai_translator__title": "AI Translator | MaxAI.me",
     "features_landing__ai_translator__description": "ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് പ്രാഥമിക ഭാഷയിൽ വായനാക്കയും വിവരങ്ങളുടെ പരിഹാരത്തിന് ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് ബയിലിംഗ്വൽ റീട്രീവൽ എഫിഷന്‍സി പ്രാപ്തമാക്കുക.",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "ഏറ്റവും അഗ്രസാധാരണമായ AI വിഷന്‍ മോഡലുകളുമായി ഏതെങ്കിലും ഇമേജ് മനസ്സിലാക്കുകയും വിശകലനം ചെയ്യുകയും ചെയ്യുന്നു."
+    "features_landing__ai_vision__description": "ഏറ്റവും അഗ്രസാധാരണമായ AI വിഷന്‍ മോഡലുകളുമായി ഏതെങ്കിലും ഇമേജ് മനസ്സിലാക്കുകയും വിശകലനം ചെയ്യുകയും ചെയ്യുന്നു.",
+    "features_landing__ai_reader__title": "എ.ഐ. റീഡിംഗ് അസിസ്റ്റന്റ് | MaxAI.me",
+    "features_landing__ai_reader__description": "വിദ്യാർത്ഥികളെ പഠിപ്പിക്കാൻ പഠനങ്ങൾ എളുപ്പമാക്കുക, ഒരു വിദ്യാർത്ഥിയുടെ പേരിൽ.",
+    "pdf_tools__ocr_pdf__title": "OCR PDF - ഫാസ്റ്റ് & ലോകൽ PDF ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫോർ ഫ്രീ | MaxAI.me",
+    "pdf_tools__ocr_pdf__description": "അടയാളപ്പെടാത്ത PDF രേഖകളെ സെൽക്റ്റേബിൾ ടെക്സ്റ്റാക്കുകയും തിരഞ്ഞെടുക്കാനുള്ള ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫ്രീയാക്കുക. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",

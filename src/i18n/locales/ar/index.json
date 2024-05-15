@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "وفّر 90% من وقت قراءتك ومشاهدتك من خلال الحصول على ملخصات وإجابات فورية.",
     "features_landing__ai_reply__title": "الرد الفوري الذكاء الاصطناعي | MaxAI.me",
     "features_landing__ai_reply__description": "زود استجاباتك ومسودات البريد الإلكتروني ووسائل التواصل الاجتماعي بمضاعفة 10 مرات بنقرة واحدة.",
-    "features_landing__ai_reading_assistant__title": "مساعد القراءة الذكاء الاصطناعي | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "اجعل المعلومات المعقدة سهلة الفهم، تمامًا مثل خبير.",
     "features_landing__ai_prompts__title": "تلميحات الذكاء الاصطناعي | MaxAI.me",
     "features_landing__ai_prompts__description": "أكمل مهامك اليومية في دقائق الآن، وليس بعد ساعات.",
     "features_landing__ai_search__title": "البحث الذكاء الاصطناعي | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "مترجم الذكاء الاصطناعي | MaxAI.me",
     "features_landing__ai_translator__description": "قم بتمكين القراءة ثنائية اللغة بنقرة واحدة لتحسين كفاءة استرجاع المعلومات.",
     "features_landing__ai_vision__title": "رؤية الذكاء الاصطناعي | MaxAI.me",
-    "features_landing__ai_vision__description": "فهم وتحليل أي صورة باستخدام نماذج الرؤية الذكاء الاصطناعي المتقدمة."
+    "features_landing__ai_vision__description": "فهم وتحليل أي صورة باستخدام نماذج الرؤية الذكاء الاصطناعي المتقدمة.",
+    "features_landing__ai_reader__title": "مساعد قراءة الذكاء الاصطناعي | MaxAI.me",
+    "features_landing__ai_reader__description": "جعل المعلومات المعقدة سهلة الفهم، تمامًا كخبير."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",

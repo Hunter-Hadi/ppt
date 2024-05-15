@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "சுருக்கங்களை மற்றும் உடனடியாக பதில்களைப் பெற்று உங்கள் வாசிப்பு மற்றும் பார்வையிடும் நேரத்தை 90% சேமிக்கவும்.",
     "features_landing__ai_reply__title": "ஏதேனும் உடனடியாக பதில் | MaxAI.me",
     "features_landing__ai_reply__description": "1 கிளிக்கில் உங்கள் மின்னஞ்சல்கள், சமூக வலைத்தளங்கள் மற்றும் செயல்படுத்துவதற்கான பதில்களை அதிகரிக்கவும்.",
-    "features_landing__ai_reading_assistant__title": "ஏதேனும் படிக்கும் உதவி | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "ஒரு ஆய்வாளர் போன்ற மூலக் கருவியைப் போல சொல்லாட்டமாக்குங்கள்.",
     "features_landing__ai_prompts__title": "ஏதேனும் உதவி | MaxAI.me",
     "features_landing__ai_prompts__description": "நிமிடங்களில் உங்கள் தினசரி பணிகளை முடிக்கவும், மேலும் மணிநேரங்களில் அல்லதும் மேலும் எடுத்துக்காட்டவும் முடியும்.",
     "features_landing__ai_search__title": "ஏதேனும் தேடல் | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "ஏதேனும் மொழிபெயர்ப்பாளர் | MaxAI.me",
     "features_landing__ai_translator__description": "தகவல் பெறுதல் செய்ய ஒரு கிளிக்கில் இருக்கும் இரண்டு மொழிகளுடன் பேச்சை இயக்குங்கள்.",
     "features_landing__ai_vision__title": "ஏதேனும் பார்வை | MaxAI.me",
-    "features_landing__ai_vision__description": "அதிக மேம்படுத்தப்பட்ட AI பார்வை மாதிரிகளுடன் எந்த படத்தையும் புரிந்துகொள்ளுங்கள் மற்றும் பகுப்பாய்வு செய்யுங்கள்."
+    "features_landing__ai_vision__description": "அதிக மேம்படுத்தப்பட்ட AI பார்வை மாதிரிகளுடன் எந்த படத்தையும் புரிந்துகொள்ளுங்கள் மற்றும் பகுப்பாய்வு செய்யுங்கள்.",
+    "features_landing__ai_reader__title": "ஐஎய் படித்தல் உதவி | MaxAI.me",
+    "features_landing__ai_reader__description": "மேலும் அறிவிப்புகளை எளிதாக புரிந்துகொள்ள, ஒரு ஆர்வத்தினர் போன்றவர்களுக்கு போக்குக்குழு."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "அனைத்தையும் தேர்ந்தெடு",

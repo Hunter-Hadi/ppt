@@ -853,8 +853,6 @@
     "features_landing__ai_summary__description": "సారాంశాలు మరియు త్వరగత సమాధానాలను పొందడం ద్వారా మీ చదవడం మరియు చూడడం సమయాన్ని 90% సేవ్ చేయండి.",
     "features_landing__ai_reply__title": "AI తక్షణ సమాధానం | MaxAI.me",
     "features_landing__ai_reply__description": "1 క్లిక్‌లో 10X లో మీ ఇమెయిల్, సోషల్ మీడియా, మరియు సందేశాల సమాధానాలను మీరు త్వరగతంగా పూర్తి చేయండి.",
-    "features_landing__ai_reading_assistant__title": "AI రీడింగ్ అసిస్టెంట్ | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "అనుభవజ్ఞుల వంటి కంప్లెక్స్ సమాచారాన్ని సులభంగా అర్ధం చేయండి.",
     "features_landing__ai_prompts__title": "AI ప్రాంప్ట్‌లు | MaxAI.me",
     "features_landing__ai_prompts__description": "మీ రోజువారీ పనులను కొనసాగించడంలో నిమిషాలలో పూర్తి చేయండి.",
     "features_landing__ai_search__title": "AI శోధన | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_vision__title": "AI విజన్ | MaxAI.me",
     "features_landing__ai_vision__description": "అత్యుత్తమ AI విజన్ మోడల్స్‌తో ఏ చిత్రాన్ని అర్థం చేయండి మరియు విశ్లేషించండి.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - ఉచితంగా మరియు స్థానికంగా PDF వచనాన్ని గుర్తించండి | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "అనువర్తనం చేయలేని PDF పత్రాలను కొన్ని సెకన్లలో వచనాన్ని గుర్తించడానికి, ఎంటిని లిమిట్లు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్‌లు లేవు."
+    "pdf_tools__ocr_pdf__description": "అనువర్తనం చేయలేని PDF పత్రాలను కొన్ని సెకన్లలో వచనాన్ని గుర్తించడానికి, ఎంటిని లిమిట్లు, డౌన్‌లోడ్‌లు లేవు, సైన్‌అప్‌లు లేవు.",
+    "features_landing__ai_reader__title": "AI రీడింగ్ అసిస్టెంట్ | MaxAI.me",
+    "features_landing__ai_reader__description": "విశేషాలను సులభంగా అర్థం చేయండి, మార్పులతో ఒక నిపుణుడిగా."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "అన్నింటినీ ఎంచుకోండి",

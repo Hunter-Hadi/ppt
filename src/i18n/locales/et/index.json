@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Säästa 90% oma lugemis- ja vaatamisajast, saades kokkuvõtteid ja kiireid vastuseid.",
     "features_landing__ai_reply__title": "AI Kiirvastus | MaxAI.me",
     "features_landing__ai_reply__description": "Kiirenda oma e-kirjade, sotsiaalmeedia ja sõnumite vastuseid ja mustandeid 10X ühe klõpsuga.",
-    "features_landing__ai_reading_assistant__title": "AI Lugemisabiline | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Muuda keeruline teave lihtsasti mõistetavaks, nagu ekspert.",
     "features_landing__ai_prompts__title": "AI Abipalad | MaxAI.me",
     "features_landing__ai_prompts__description": "Täida oma igapäevased ülesanded minutitega, mitte enam tundidega.",
     "features_landing__ai_search__title": "AI Otsing | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Tõlkija | MaxAI.me",
     "features_landing__ai_translator__description": "Võimalda kakskeelne lugemine ühe klõpsuga, et parandada teabe hankimise tõhusust.",
     "features_landing__ai_vision__title": "AI Nägemus | MaxAI.me",
-    "features_landing__ai_vision__description": "Mõista ja analüüsi kõiki pilte kõige arenenumate AI nägemismudelite abil."
+    "features_landing__ai_vision__description": "Mõista ja analüüsi kõiki pilte kõige arenenumate AI nägemismudelite abil.",
+    "features_landing__ai_reader__title": "AI Lugemisabiline | MaxAI.me",
+    "features_landing__ai_reader__description": "Muuda keeruline teave lihtsasti mõistetavaks, nagu ekspert."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",

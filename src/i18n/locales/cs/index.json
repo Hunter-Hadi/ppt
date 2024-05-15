@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Ušetřete 90% času při čtení a sledování získáváním shrnutí a okamžitých odpovědí.",
     "features_landing__ai_reply__title": "AI Okamžitá odpověď | MaxAI.me",
     "features_landing__ai_reply__description": "Zrychlete své e-maily, sociální média a odpovědi ve zprávách o 10x kliknutím.",
-    "features_landing__ai_reading_assistant__title": "AI Čtecí asistent | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Udělejte složité informace snadno srozumitelnými, jako odborník.",
     "features_landing__ai_prompts__title": "AI podněty | MaxAI.me",
     "features_landing__ai_prompts__description": "Dokončete své každodenní úkoly za minuty, ne hodiny.",
     "features_landing__ai_search__title": "AI Hledání | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Překladač | MaxAI.me",
     "features_landing__ai_translator__description": "Zapněte dvojjazyčné čtení jedním kliknutím a zlepšete efektivitu získávání informací.",
     "features_landing__ai_vision__title": "AI Vidění | MaxAI.me",
-    "features_landing__ai_vision__description": "Porozumějte a analyzujte jakýkoli obrázek s nejvyspělejšími modely AI vidění."
+    "features_landing__ai_vision__description": "Porozumějte a analyzujte jakýkoli obrázek s nejvyspělejšími modely AI vidění.",
+    "features_landing__ai_reader__title": "Asistent pro čtení pomocí AI | MaxAI.me",
+    "features_landing__ai_reader__description": "Udělejte složité informace snadno srozumitelné, jako odborník."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",

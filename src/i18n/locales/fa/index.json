@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "۹۰٪ از زمان خواندن و تماشا کردن خود را با دریافت خلاصه و پاسخ فوری صرفه جویی کنید.",
     "features_landing__ai_reply__title": "پاسخ فوری هوشمند | MaxAI.me",
     "features_landing__ai_reply__description": "پاسخ‌ها و پیش نویس‌های ایمیل، رسانه‌های اجتماعی و پیام‌رسان‌ها را با یک کلیک ۱۰ برابر سریع‌تر کنید.",
-    "features_landing__ai_reading_assistant__title": "دستیار خواندن هوشمند | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "اطلاعات پیچیده را به راحتی درک کنید، تمام مثل یک متخصص.",
     "features_landing__ai_prompts__title": "پیشنهادهای هوشمند | MaxAI.me",
     "features_landing__ai_prompts__description": "وظایف روزانه خود را در عرض چند دقیقه انجام دهید، دیگر نیازی به ساعت‌ها نیست.",
     "features_landing__ai_search__title": "جستجوی هوشمند | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "مترجم هوشمند | MaxAI.me",
     "features_landing__ai_translator__description": "با یک کلیک خواندن دو زبانه را فعال کنید تا بهبود کارایی بازیابی اطلاعات داشته باشید.",
     "features_landing__ai_vision__title": "بینایی هوشمند | MaxAI.me",
-    "features_landing__ai_vision__description": "هر تصویری را با پیشرفته‌ترین مدل‌های بینایی هوش مصنوعی تحلیل و درک کنید."
+    "features_landing__ai_vision__description": "هر تصویری را با پیشرفته‌ترین مدل‌های بینایی هوش مصنوعی تحلیل و درک کنید.",
+    "features_landing__ai_reader__title": "معاون خواندن هوش مصنوعی | MaxAI.me",
+    "features_landing__ai_reader__description": "اطلاعات پیچیده را به سادگی قابل فهم کنید، تقریباً مثل یک کارشناس."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",

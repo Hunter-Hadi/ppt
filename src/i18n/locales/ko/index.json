@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "요약과 즉각적인 답변으로 독서 및 시청 시간을 90% 절약하세요.",
     "features_landing__ai_reply__title": "AI Instant Reply | MaxAI.me",
     "features_landing__ai_reply__description": "1회 클릭으로 이메일, 소셜 미디어 및 메시징 응답 및 초안을 10배 더 빠르게 작성하세요.",
-    "features_landing__ai_reading_assistant__title": "AI Reading Assistant | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "전문가처럼 복잡한 정보를 이해하기 쉽게 만드세요.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "매일 걸리던 작업을 몇 분 안에 완료하세요.",
     "features_landing__ai_search__title": "AI Search | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Translator | MaxAI.me",
     "features_landing__ai_translator__description": "단 한 번의 클릭으로 이중 언어 독서를 가능하게 하여 정보 검색 효율을 향상시키세요.",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "가장 고급 AI 비전 모델로 모든 이미지를 이해하고 분석하세요."
+    "features_landing__ai_vision__description": "가장 고급 AI 비전 모델로 모든 이미지를 이해하고 분석하세요.",
+    "features_landing__ai_reader__title": "AI 독해 보조 | MaxAI.me",
+    "features_landing__ai_reader__description": "전문가처럼 복잡한 정보를 쉽게 이해하세요."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",

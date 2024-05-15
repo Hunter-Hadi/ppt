@@ -855,8 +855,6 @@
     "features_landing__ai_summary__description": "Spar 90% af din læse- og seertid ved at få resuméer og øjeblikkelige svar.",
     "features_landing__ai_reply__title": "AI Øjeblikkelig Svar | MaxAI.me",
     "features_landing__ai_reply__description": "Fremskynd dine e-mail-, sociale medie- og besked-svar og udkast med 10X i 1 klik.",
-    "features_landing__ai_reading_assistant__title": "AI Læseassistent | MaxAI.me",
-    "features_landing__ai_reading_assistant__description": "Gør kompleks information let at forstå, præcis som en ekspert.",
     "features_landing__ai_prompts__title": "AI prompts | MaxAI.me",
     "features_landing__ai_prompts__description": "Fuldfør dine daglige opgaver på få minutter nu, ikke flere timer.",
     "features_landing__ai_search__title": "AI Søgning | MaxAI.me",
@@ -866,7 +864,9 @@
     "features_landing__ai_translator__title": "AI Oversætter | MaxAI.me",
     "features_landing__ai_translator__description": "Aktivér tosproget læsning med et enkelt klik for at forbedre effektiviteten af informationssøgning.",
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
-    "features_landing__ai_vision__description": "Forstå og analysér ethvert billede med de mest avancerede AI-visionmodeller."
+    "features_landing__ai_vision__description": "Forstå og analysér ethvert billede med de mest avancerede AI-visionmodeller.",
+    "features_landing__ai_reader__title": "AI Læseassistent | MaxAI.me",
+    "features_landing__ai_reader__description": "Gør kompleks information let at forstå, præcis som en ekspert."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",
