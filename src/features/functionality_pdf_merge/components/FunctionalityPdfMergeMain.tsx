@@ -1,4 +1,11 @@
-import { Box, Button, Grid, IconButton, Stack } from '@mui/material';
+import {
+  Box,
+  Button,
+  CircularProgress,
+  Grid,
+  IconButton,
+  Stack,
+} from '@mui/material';
 import ceil from 'lodash-es/ceil';
 import divide from 'lodash-es/divide';
 import { useTranslation } from 'next-i18next';
@@ -7,7 +14,6 @@ import React, { useCallback, useMemo, useState } from 'react';
 import { pdfjs } from 'react-pdf';
 import { v4 as uuidV4 } from 'uuid';
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
@@ -33,6 +39,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 const FunctionalityPdfMergeMain = () => {
   const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isDownloadLoading, setIsDownloadLoading] = useState<boolean>(false);
+
   const [pdfInfoList, setPdfInfoList] = useState<
     IFunctionalityPdfFileInfoType[]
   >([]); //展示的pdf信息 列表
@@ -136,26 +144,25 @@ const FunctionalityPdfMergeMain = () => {
   };
   const onDownloadZip = async () => {
     if (pdfInfoList) {
-      setIsLoading(true);
+      setIsDownloadLoading(true);
       const files = pdfInfoList.map((pdfInfo) => pdfInfo.file);
       if (files) {
         const downloadPdfData = await mergePdfFiles(files);
         if (downloadPdfData) {
           downloadUrl(downloadPdfData, 'merge(Powered by MaxAI).pdf');
         }
-        setIsLoading(false);
       }
+      setIsDownloadLoading(false);
     }
   };
-
+  const currentIsLoading = isLoading || isDownloadLoading;
   const onDeletePdf = (id: string) => {
-    if (pdfInfoList) {
+    if (pdfInfoList && !currentIsLoading) {
       const newPdfInfoList = pdfInfoList.filter((pdf) => pdf.id !== id);
       setPdfInfoList(newPdfInfoList);
     }
   };
   const isListEmpty = pdfInfoList.length === 0;
-
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -169,7 +176,7 @@ const FunctionalityPdfMergeMain = () => {
           isDrag: false,
           buttonProps: {
             variant: 'outlined',
-            disabled: isLoading,
+            disabled: currentIsLoading,
             sx: {
               height: 48,
               width: '100%',
@@ -194,13 +201,13 @@ const FunctionalityPdfMergeMain = () => {
             'functionality__pdf_merge:components__pdf_merge__empty_pdf',
           ),
           variant: 'outlined',
-          disabled: isLoading,
+          disabled: currentIsLoading,
           color: 'error',
           onClick: () => setPdfInfoList([]),
         },
       },
     ],
-    [isLoading, t],
+    [currentIsLoading, isLoading, t],
   );
   const BoxViewWrap = useCallback(
     (props) => (
@@ -246,6 +253,7 @@ const FunctionalityPdfMergeMain = () => {
           <FunctionalityCommonDragSortableList
             list={pdfInfoList}
             onUpdateList={setPdfInfoList}
+            disabled={currentIsLoading}
             replacementElement={(dragInfo) => (
               <FunctionalityCommonImage
                 sx={{
@@ -295,7 +303,7 @@ const FunctionalityPdfMergeMain = () => {
                           name='CloseTwoTone'
                           fontSize='small'
                           sx={{
-                            bgcolor: '#9065B0',
+                            bgcolor: currentIsLoading ? '#f6f6f6' : '#9065B0',
                             borderRadius: 3,
                             color: '#fff',
                           }}
@@ -311,7 +319,16 @@ const FunctionalityPdfMergeMain = () => {
       )}
       {isLoading && (
         <BoxViewWrap>
-          <AppLoadingLayout sx={{ position: 'absolute', top: 10 }} loading />
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 50,
+              left: '50%',
+              transform: 'translateX(-50%)',
+            }}
+          >
+            <CircularProgress />
+          </Box>
         </BoxViewWrap>
       )}
       {!isListEmpty && (
@@ -331,12 +348,16 @@ const FunctionalityPdfMergeMain = () => {
               <Button
                 sx={{ width: '100%', height: 48 }}
                 size='large'
-                disabled={pdfInfoList.length < 2 || isLoading}
+                disabled={pdfInfoList.length < 2 || currentIsLoading}
                 variant='contained'
                 onClick={() => onDownloadZip()}
               >
-                {t(
-                  'functionality__pdf_merge:components__pdf_merge__confirm_merge',
+                {isDownloadLoading ? (
+                  <CircularProgress size={25} />
+                ) : (
+                  t(
+                    'functionality__pdf_merge:components__pdf_merge__confirm_merge',
+                  )
                 )}
               </Button>
             </FunctionalityCommonTooltip>
