@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Aracımız PDF'nizi işleyecek, metni doğru ve hızlı bir şekilde çıkaracak.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Kaliteyi görüntülemek için OCR PDF'yi sonuç sayfasından indirin.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Taramalı PDF belgesini OCR yaparak metni kopyalayabilir ve arayabilirsiniz"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Taramalı PDF belgesini OCR yaparak metni kopyalayabilir ve arayabilirsiniz",
+    "tools__index_page__constant_obj__rotate_pdf__title": "PDF Döndür",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Bir PDF içindeki tüm sayfaları veya bireysel sayfaları döndürün",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Döndürmek istediğiniz bir sayfaya tıklayın. Ardından değiştirilmiş PDF'inizi indirebilirsiniz.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Sezgisel çevrimiçi PDF Döndürme aracımızı kullanarak PDF belgelerinizdeki sayfaları sorunsuz bir şekilde döndürebilirsiniz. Belgelerinizin güvenli ve özel kalmasını sağlarken mükemmel yönlendirme elde edin, sadece birkaç tıklama ile.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Mükemmel belge düzeni için anında sayfa döndürme",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Ek yazılıma gerek yok",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Yerel olarak güvenli bir tarayıcı kullanarak hızlı işlem yapın",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Zahmetsiz Sayfa Yönlendirmesi",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "PDF sayfalarınızın yönlendirmesini saniyeler içinde ayarlayın. Tek bir sayfa döndürmek veya tüm belgeyi döndürmek isteseniz de, aracımız her senaryo için esneklik sağlar.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Kullanıcı Dostu Arayüz",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Sezgisel arayüzümüz PDF'leri döndürmeyi kolaylaştırır. Belgenizi yükleyin, düzenlemek istediğiniz sayfaları seçin ve tek bir tıklama ile döndürün.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Belge Bütünlüğünü Koruma",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Belgenizin düzeni ve biçimlendirmesi korunur, dosyanızın kalitesi ve içerik doğruluğu döndürme sonrasında da muhafaza edilir.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Her Cihazdan Erişilebilir",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "PDF'leri istediğiniz zaman, istediğiniz yerden döndürün. Tarayıcı tabanlı araçlarımız, kurulum yapmanıza gerek olmadan tüm cihazlarda ve işletim sistemlerinde sorunsuz çalışır.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Güvenli ve Özel İşleme",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Gizlilik önemlidir. Belgeleriniz tarayıcıda işlenir, dosyalarınız hiçbir zaman cihazınızdan çıkmaz ve biz tarafından saklanmaz veya görüntülenmez.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Döndürme Sonrası Anında İndirme",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Döndürdükten sonra PDF'inizi doğrudan araçtan indirin. Beklemek zorunda kalmazsınız - mükemmel yönlendirilmiş belgenize hemen erişin.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "PDF Sayfalarını Çevrimiçi Nasıl Döndürürsünüz:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Döndürmek istediğiniz PDF belgesini yükleyin.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Belirli sayfaları döndürün veya tüm sayfalara uygulayın.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Doğru yönlendirmeye sahip olarak düzenlenmiş PDF'inizi herhangi bir amaç için kullanıma hazır şekilde indirin."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Tıklama İpucu",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "PDF Sıkıştırma - Çevrimiçi PDF Boyutu Azaltma | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Hızlı ve güvenli performans için PDF dosyalarını tarayıcıda sıkıştırın. Filigran, dosya boyutu sınırı, indirme veya kayıt gerektirmez.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Hızlı ve Yerel PDF Metin Tanıma | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Arama yapılabilen olmayan PDF belgelerini saniyeler içinde aranabilir ve seçilebilir metne dönüştürün. Filigran, dosya boyutu sınırlamaları, indirmeler veya kayıt gerektirmez."
+    "pdf_tools__ocr_pdf__description": "Arama yapılabilen olmayan PDF belgelerini saniyeler içinde aranabilir ve seçilebilir metne dönüştürün. Filigran, dosya boyutu sınırlamaları, indirmeler veya kayıt gerektirmez.",
+    "pdf_tools__rotate_pdf__title": "PDF Döndür - PDF Belgelerinde Sayfaları Kolayca Döndür | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Ücretsiz olarak çevrimiçi PDF belgelerinizdeki sayfaları kolayca döndürün. Bir tıklama ile herhangi bir PDF sayfasının yönlendirmesini ayarlayın - dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Yükleniyor",
     "components__ocr_pdf__main__ocr_and_download": "OCR ve İndir",
     "components__ocr_pdf__main__document_scanning_language": "Belge tarama dili"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Tümünü Döndür",
+    "components__rotate_pdf__main__remove_pdf": "PDF Kaldır",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Bu PDF'i kaldırın ve yeni bir tane seçin",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Yakınlaştır",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Uzaklaştır",
+    "components__rotate_pdf__cancel": "İptal",
+    "components__rotate_pdf__button__cancel__tooltip": "Mevcut ilerlemeyi iptal edin",
+    "components__rotate_pdf__button__download__tooltip": "PDF'i döndür ve indir",
+    "components__rotate_pdf__button__download": "İndir"
   }
 }

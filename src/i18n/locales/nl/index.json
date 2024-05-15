@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Onze tool verwerkt uw PDF en extraheren de tekst nauwkeurig en snel.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Download de OCR PDF op de resultatenpagina om de kwaliteit te bekijken.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR gescand PDF-document, zodat u eenvoudig tekst kunt kopiëren en zoeken"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR gescand PDF-document, zodat u eenvoudig tekst kunt kopiëren en zoeken",
+    "tools__index_page__constant_obj__rotate_pdf__title": "PDF roteren",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Roteer alle of individuele pagina's in een PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Klik eenvoudig op een pagina om deze te roteren. U kunt vervolgens uw gewijzigde PDF downloaden.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Naadloos pagina's roteren binnen uw PDF-documenten met behulp van onze intuïtieve online PDF roteer tool. Bereik de perfecte oriëntatie met slechts een paar klikken, terwijl u ervoor zorgt dat uw documenten veilig en privé blijven.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Directe paginarotatie voor een perfecte lay-out van het document",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Geen extra software vereist",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Verwerk bestanden snel met een lokaal beveiligde browser",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Moeiteloze paginariëntatie",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Pas de oriëntatie van uw PDF-pagina's aan in enkele seconden. Of u nu een enkele pagina wilt roteren of het hele document, onze tool biedt de flexibiliteit voor elke situatie.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Gebruiksvriendelijke interface",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Onze intuïtieve interface maakt het roteren van PDF's eenvoudig. Upload eenvoudig uw document, selecteer de pagina's die u wilt aanpassen en roteer ze met één klik.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Behoud de integriteit van het document",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "We zorgen ervoor dat de lay-out en opmaak van uw document behouden blijven, waardoor de kwaliteit en nauwkeurigheid van de inhoud na rotatie behouden blijven.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Toegankelijk vanaf elk apparaat",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Roteer PDF altijd en overal. Onze browsergebaseerde tools werken naadloos op alle apparaten en besturingssystemen zonder installatie.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Veilige en privéverwerking",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Privacy is van het grootste belang. Uw documenten worden in de browser verwerkt, zodat uw bestanden nooit uw apparaat verlaten en niet door ons worden opgeslagen of bekeken.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Directe downloads na rotatie",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Download uw PDF direct vanuit de tool nadat deze is geroteerd. U hoeft niet te wachten - u heeft direct toegang tot uw perfect georiënteerde document.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Hoe PDF-pagina's online roteren:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Upload het PDF-document dat u wilt roteren.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Selecteer specifieke pagina's voor rotatie of pas de rotatie toe op alle pagina's.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download uw gewijzigde PDF, waarbij de pagina's nu in de juiste oriëntatie staan, klaar voor elk gebruik."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klik Prompten",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "PDF Comprimeren - Online PDF Groottevermindering | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Comprimeer PDF-bestanden in een lokale browser om snelle en veilige prestaties te garanderen. Geen watermerk, bestandsgroottebeperking, download of registratie vereist.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Snelle en Lokale Tekstherkenning voor Gratis | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Zet niet-doorzoekbare PDF-documenten om in doorzoekbare en selecteerbare tekst in enkele seconden. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
+    "pdf_tools__ocr_pdf__description": "Zet niet-doorzoekbare PDF-documenten om in doorzoekbare en selecteerbare tekst in enkele seconden. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "pdf_tools__rotate_pdf__title": "PDF roteren - Eenvoudig pagina's roteren in PDF-documenten online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Draai moeiteloos pagina's binnen uw PDF-documenten online en gratis. Pas de oriëntatie van elke PDF-pagina aan met slechts één klik - geen bestandsgroottebeperkingen, downloads of aanmeldingen nodig."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Laden",
     "components__ocr_pdf__main__ocr_and_download": "OCR en Downloaden",
     "components__ocr_pdf__main__document_scanning_language": "Taal voor het scannen van documenten"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Alles roteren",
+    "components__rotate_pdf__main__remove_pdf": "PDF verwijderen",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Verwijder deze PDF en selecteer een nieuwe",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Inzoomen",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Uitzoomen",
+    "components__rotate_pdf__cancel": "Annuleren",
+    "components__rotate_pdf__button__cancel__tooltip": "Huidige voortgang annuleren",
+    "components__rotate_pdf__button__download__tooltip": "PDF roteren en downloaden",
+    "components__rotate_pdf__button__download": "Downloaden"
   }
 }

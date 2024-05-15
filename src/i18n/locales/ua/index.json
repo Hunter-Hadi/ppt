@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Наш інструмент обробить ваш PDF, точно та швидко вилучивши текст.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Завантажте OCR PDF на сторінці результатів, щоб переглянути якість.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR сканованого PDF-документа, щоб ви могли легко копіювати та шукати текст"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR сканованого PDF-документа, щоб ви могли легко копіювати та шукати текст",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Повернути PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Повернути всі або окремі сторінки у PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Просто клацніть на сторінку, щоб її повернути. Потім ви можете завантажити змінений PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Безперешкодно повертайте сторінки у своїх PDF-документах за допомогою нашого інтуїтивного онлайн-інструменту Rotate PDF. Досягайте ідеальної орієнтації всього за кілька кліків, забезпечуючи при цьому безпеку та конфіденційність вашого документа.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Миттєва поворот сторінок для ідеального розташування документа",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Не потрібне додаткове програмне забезпечення",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Швидка обробка файлів за допомогою безпечного браузера на вашому пристрої",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Беззусильна орієнтація сторінок",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Налаштуйте орієнтацію сторінок у своїх PDF всього за кілька секунд. Незалежно від того, чи потрібно повернути одну сторінку або весь документ, наш інструмент надає гнучкість для будь-якого сценарію.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Зручний інтерфейс",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Наш інтуїтивний інтерфейс робить поворот PDF легким. Просто завантажте свій документ, виберіть сторінки, які потрібно налаштувати, і поверніть їх одним кліком.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Збереження цілісності документа",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Ми гарантуємо, що макет і форматування вашого документа залишаться незмінними, зберігаючи якість та точність вмісту після повороту.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Доступний з будь-якого пристрою",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Повертайте PDF в будь-який час та в будь-якому місці. Наші інструменти на основі браузера працюють безперешкодно на всіх пристроях та операційних системах без необхідності встановлення.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Безпечна та конфіденційна обробка",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Конфіденційність - це головне. Ваші документи обробляються у браузері, що гарантує, що файли ніколи не залишають вашого пристрою та не зберігаються або переглядаються нами.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Миттєве завантаження після повороту",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Після повороту завантажуйте свій PDF безпосередньо з інструменту. Немає потреби чекати - отримайте доступ до свого документа з ідеальною орієнтацією негайно.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Як повернути сторінки PDF онлайн:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Завантажте PDF-документ, який ви хочете повернути.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Виберіть конкретні сторінки для повороту або застосуйте поворот до всіх сторінок.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Завантажте змінений PDF з правильною орієнтацією сторінок, готовий до будь-якого використання."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Підказки",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Стиснути PDF – Зменшення розміру онлайн | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Стисніть файли PDF у локальному браузері, щоб забезпечити швидку та безпечну роботу. Без водяного знаку, обмеження розміру файлу, завантаження або реєстрації.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Швидке та локальне розпізнавання тексту у PDF | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Перетворіть нездатні до пошуку документи у форматі PDF на документи з можливістю пошуку та вибору тексту за кілька секунд. Без водяних знаків, обмежень на розмір файлу, завантажень або реєстрації."
+    "pdf_tools__ocr_pdf__description": "Перетворіть нездатні до пошуку документи у форматі PDF на документи з можливістю пошуку та вибору тексту за кілька секунд. Без водяних знаків, обмежень на розмір файлу, завантажень або реєстрації.",
+    "pdf_tools__rotate_pdf__title": "Повернути PDF - Легко повертайте сторінки у PDF-документах онлайн | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Без зусиль повертайте сторінки у своїх PDF-документах онлайн безкоштовно. Налаштуйте орієнтацію будь-якої сторінки PDF одним кліком - немає обмежень за розміром файлу, завантажень або реєстрації."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Вибрати все",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Завантаження PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR та Завантажити",
     "components__ocr_pdf__main__document_scanning_language": "Мова сканування документів"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Повернути всі",
+    "components__rotate_pdf__main__remove_pdf": "Видалити PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Видалити цей PDF та вибрати новий",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Збільшити",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Зменшити",
+    "components__rotate_pdf__cancel": "Скасувати",
+    "components__rotate_pdf__button__cancel__tooltip": "Скасувати поточний прогрес",
+    "components__rotate_pdf__button__download__tooltip": "Повернути та завантажити PDF",
+    "components__rotate_pdf__button__download": "Завантажити"
   }
 }

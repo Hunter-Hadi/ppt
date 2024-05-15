@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "हमारा उपकरण आपके PDF को प्रसंस्कृत करेगा, पाठ को सटीकता से और तेजी से निकालेगा।",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "परिणाम पृष्ठ पर OCR PDF डाउनलोड करें और गुणवत्ता देखें।",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR पीडीएफ",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "स्कैन किए गए पीडीएफ दस्तावेज़ को OCR करें, ताकि आप आसानी से पाठ की प्रतिलिपि और खोज कर सकें"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "स्कैन किए गए पीडीएफ दस्तावेज़ को OCR करें, ताकि आप आसानी से पाठ की प्रतिलिपि और खोज कर सकें",
+    "tools__index_page__constant_obj__rotate_pdf__title": "पीडीएफ घुमाएं",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "पीडीएफ में सभी या व्यक्तिगत पृष्ठों को घुमाएं",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "इसे घुमाने के लिए किसी पृष्ठ पर क्लिक करें। फिर आप अपने संशोधित पीडीएफ को डाउनलोड कर सकते हैं।",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "हमारे सुव्यवस्थित ऑनलाइन पीडीएफ घुमाने टूल का उपयोग करके अपने पीडीएफ दस्तावेज़ों में पृष्ठों को सुव्यवस्थित रूप से घुमाएं। कुछ क्लिक के साथ पूर्ण ओरिएंटेशन प्राप्त करें, साथ ही अपने दस्तावेज़ सुरक्षित और निजी रहें।",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "उत्कृष्ट दस्तावेज़ लेआउट के लिए तत्काल पृष्ठ घुमाना",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "कोई अतिरिक्त सॉफ़्टवेयर की आवश्यकता नहीं",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "स्थानीय सुरक्षित ब्राउज़र का उपयोग करके त्वरित फ़ाइल प्रोसेस करें",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "बिना कठिनाई के पृष्ठ ओरिएंटेशन",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "कुछ ही सेकंड में अपने पीडीएफ पृष्ठों की ओरिएंटेशन समायोजित करें। चाहे आपको एकल पृष्ठ घुमाना हो या पूरे दस्तावेज़ को, हमारा टूल हर स्थिति के लिए लचीलापूर्णता प्रदान करता है।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "उपयोगकर्ता मित्रपूर्ण इंटरफ़ेस",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "हमारा सुव्यवस्थित इंटरफ़ेस पीडीएफ घुमाने को सरल बनाता है। आपके दस्तावेज़ को अपलोड करें, समायोजित करने के लिए आपको आवश्यक पृष्ठों का चयन करें और उन्हें एक क्लिक के साथ घुमाएं।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "दस्तावेज़ सत्यापन बनाए रखें",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "हम सुनिश्चित करते हैं कि आपके दस्तावेज़ का लेआउट और स्वरूप अच्छी तरह से बरकरार रहें, जिससे आपकी फ़ाइल की गुणवत्ता और सामग्री की सटीकता पोस्ट-घुमाने में सुरक्षित रहें।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "किसी भी डिवाइस से पहुंचने योग्य",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "कभी भी, कहीं भी पीडीएफ घुमाएं। हमारे ब्राउज़र आधारित उपकरण सभी डिवाइस और ऑपरेटिंग सिस्टम पर सहजता से काम करते हैं, इंस्टॉलेशन की आवश्यकता नहीं होती है।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "सुरक्षित और निजी प्रोसेसिंग",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "गोपनीयता महत्वपूर्ण है। आपके दस्तावेज़ ब्राउज़र में प्रोसेस किए जाते हैं, जिससे आपकी फ़ाइलें कभी भी आपके डिवाइस से बाहर नहीं जाती हैं और हमारे द्वारा संग्रहीत या देखे नहीं जाते हैं।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "घुमाने के बाद तत्काल डाउनलोड",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "एक बार घुमाने के बाद, अपने पीडीएफ को सीधे टूल से डाउनलोड करें। कोई इंतजार नहीं होगा - अपने पूरी ओरिएंटेड दस्तावेज़ तक तुरंत पहुंचें।",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "पीडीएफ पृष्ठों को घुमाने का तरीका ऑनलाइन:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "घुमाने के लिए पीडीएफ दस्तावेज़ अपलोड करें।",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "घुमाने के लिए विशिष्ट पृष्ठों का चयन करें या सभी पृष्ठों पर घुमाना लागू करें।",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "अपने संशोधित पीडीएफ को डाउनलोड करें, जहां पृष्ठ अब सही ओरिएंटेशन में होंगे, किसी भी उपयोग के लिए तैयार।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-क्लिक प्रॉम्प्ट",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "पीडीएफ संकुचित करें - ऑनलाइन पीडीएफ आकार कम करें | MaxAI.me",
     "pdf_tools__compress_pdf__description": "तेज और सुरक्षित प्रदर्शन सुनिश्चित करने के लिए स्थानीय ब्राउज़र में पीडीएफ फ़ाइलों को संकुचित करें। कोई वॉटरमार्क, फ़ाइल आकार सीमा, डाउनलोड या पंजीकरण की आवश्यकता नहीं है।",
     "pdf_tools__ocr_pdf__title": "OCR PDF - फ्री में तेज़ और स्थानीय पीडीएफ़ पाठ पहचान | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "गैर-खोजने योग्य पीडीएफ़ दस्तावेज़ को कुछ ही सेकंड में खोजने योग्य और चयन करने योग्य पाठ में बदलें। कोई वॉटरमार्क, फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।"
+    "pdf_tools__ocr_pdf__description": "गैर-खोजने योग्य पीडीएफ़ दस्तावेज़ को कुछ ही सेकंड में खोजने योग्य और चयन करने योग्य पाठ में बदलें। कोई वॉटरमार्क, फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",
+    "pdf_tools__rotate_pdf__title": "पीडीएफ घुमाएं - पीडीएफ दस्तावेज़ों में पृष्ठों को आसानी से घुमाएं | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "बिना किसी शुल्क के अपने पीडीएफ दस्तावेज़ों में पृष्ठों को आसानी से घुमाएं। केवल एक क्लिक के साथ किसी भी पीडीएफ पृष्ठ की ओरिएंटेशन समायोजित करें - कोई फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।"
   },
   "features_landing": {
     "cta_text": "ब्राउज़र में जोड़ें",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "पीडीएफ लोड हो रहा है",
     "components__ocr_pdf__main__ocr_and_download": "OCR और डाउनलोड",
     "components__ocr_pdf__main__document_scanning_language": "दस्तावेज़ स्कैनिंग भाषा"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "सभी घुमाएं",
+    "components__rotate_pdf__main__remove_pdf": "पीडीएफ हटाएं",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "इस पीडीएफ को हटाएं और एक नया चुनें",
+    "components__rotate_pdf__button__zoom_in__tooltip": "ज़ूम इन करें",
+    "components__rotate_pdf__button__zoom_out__tooltip": "ज़ूम आउट करें",
+    "components__rotate_pdf__cancel": "रद्द करें",
+    "components__rotate_pdf__button__cancel__tooltip": "वर्तमान प्रगति को रद्द करें",
+    "components__rotate_pdf__button__download__tooltip": "पीडीएफ घुमाएं और डाउनलोड करें",
+    "components__rotate_pdf__button__download": "डाउनलोड करें"
   }
 }

@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Vårt verktyg kommer att bearbeta din PDF och extrahera texten noggrant och snabbt.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Ladda ner OCR PDF på resultatssidan för att se kvaliteten.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-skannad PDF-dokument, så att du enkelt kan välja att kopiera och söka efter text"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR-skannad PDF-dokument, så att du enkelt kan välja att kopiera och söka efter text",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Rotera PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Rotera alla eller enskilda sidor i en PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Klicka helt enkelt på en sida för att rotera den. Du kan sedan ladda ner din modifierade PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Snyggt rotera sidor i dina PDF-dokument med vår intuitiva online Rotate PDF-verktyg. Uppnå perfekt orientering med bara några få klick, samtidigt som du säkerställer att dina dokument förblir säkra och privata.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Omedelbar sidrotation för perfekt dokumentlayout",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Ingen extra programvara krävs",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Snabbt bearbeta filer med en lokalt säker webbläsare",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Enkel sidorientering",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Justera orienteringen av dina PDF-sidor på några sekunder. Oavsett om du behöver rotera en enskild sida eller hela dokumentet ger vårt verktyg flexibilitet för alla scenarier.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Användarvänligt gränssnitt",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Vårt intuitiva gränssnitt gör det enkelt att rotera PDF-filer. Ladda helt enkelt upp ditt dokument, välj de sidor du behöver justera och rotera dem med ett enda klick.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Bevara dokumentets integritet",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Vi ser till att layouten och formateringen av ditt dokument förblir intakt, vilket bevarar filens kvalitet och innehållsgenomsynlighet efter rotationen.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Tillgänglig från valfri enhet",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Rotera PDF när som helst, var som helst. Våra webbläsarbaserade verktyg fungerar sömlöst på alla enheter och operativsystem utan installation.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Säker och privat bearbetning",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Sekretess är viktig. Dina dokument bearbetas i webbläsaren, vilket säkerställer att dina filer aldrig lämnar din enhet och inte lagras eller ses av oss.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Omedelbar nedladdning efter rotation",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "När du har roterat kan du ladda ner din PDF direkt från verktyget. Det finns ingen väntan - få omedelbar åtkomst till ditt perfekt orienterade dokument.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Så här roterar du PDF-sidor online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Ladda upp den PDF-fil du vill rotera.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Välj specifika sidor för rotation eller applicera rotationen på alla sidor.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Ladda ner din ändrade PDF, med sidor nu i rätt orientering, redo för användning."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Klicka på Förslag",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Komprimera PDF – Online PDF-storleksminskning | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Komprimera PDF-filer i en lokal webbläsare för att säkerställa snabb och säker prestanda. Ingen vattenstämpel, filstorleksbegränsning, nedladdning eller registrering krävs.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Snabb och lokal textigenkänning för PDF gratis | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Konvertera icke-sökbara PDF-dokument till sökbar och markerbar text på några sekunder. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs."
+    "pdf_tools__ocr_pdf__description": "Konvertera icke-sökbara PDF-dokument till sökbar och markerbar text på några sekunder. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "pdf_tools__rotate_pdf__title": "Rotera PDF - Enkelt rotera sidor i PDF-dokument online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Rotera sidor i dina PDF-dokument online utan ansträngning och gratis. Justera orienteringen av vilken PDF-sida som helst med bara ett klick - inga filstorleksbegränsningar, nedladdningar eller registreringar krävs."
   },
   "features_landing": {
     "cta_text": "Lägg till i webbläsaren",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF-laddning",
     "components__ocr_pdf__main__ocr_and_download": "OCR och Hämta",
     "components__ocr_pdf__main__document_scanning_language": "Språk för dokumentskanning"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Rotera Alla",
+    "components__rotate_pdf__main__remove_pdf": "Ta bort PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Ta bort denna PDF och välj en ny",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Zooma in",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Zooma ut",
+    "components__rotate_pdf__cancel": "Avbryt",
+    "components__rotate_pdf__button__cancel__tooltip": "Avbryt aktuell framsteg",
+    "components__rotate_pdf__button__download__tooltip": "Rotera och ladda ner PDF",
+    "components__rotate_pdf__button__download": "Ladda ner"
   }
 }

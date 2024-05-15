@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Nossa ferramenta processará seu PDF, extraindo o texto com precisão e rapidez.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Faça o download do OCR PDF na página de resultados para visualizar a qualidade.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR de PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Converta documentos PDF digitalizados em texto, para que você possa copiar e pesquisar facilmente"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Converta documentos PDF digitalizados em texto, para que você possa copiar e pesquisar facilmente",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Girar PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Gire todas ou páginas individuais em um PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Basta clicar em uma página para girá-la. Em seguida, você pode baixar o seu PDF modificado.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Gire as páginas dos seus documentos PDF de forma perfeita usando a nossa intuitiva ferramenta Girar PDF online. Alcance a orientação perfeita com apenas alguns cliques, garantindo que seus documentos permaneçam seguros e privados.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Rotação instantânea de páginas para um layout de documento perfeito",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Nenhum software adicional necessário",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Processamento rápido de arquivos usando um navegador local seguro",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Orientação de Página Sem Esforço",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Ajuste a orientação das páginas do seu PDF em segundos. Seja para girar uma única página ou todo o documento, nossa ferramenta oferece flexibilidade para qualquer cenário.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Interface Amigável ao Usuário",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Nossa interface intuitiva torna a rotação de PDFs simples. Basta fazer o upload do seu documento, selecionar as páginas que você precisa ajustar e girá-las com um único clique.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Manter a Integridade do Documento",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Garantimos que o layout e a formatação do seu documento permaneçam intactos, preservando a qualidade e a precisão do conteúdo do arquivo após a rotação.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Acesso a Partir de Qualquer Dispositivo",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Gire PDF a qualquer momento e em qualquer lugar. Nossas ferramentas baseadas em navegador funcionam perfeitamente em todos os dispositivos e sistemas operacionais, sem a necessidade de instalação.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Processamento Seguro e Privado",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "A privacidade é fundamental. Seus documentos são processados no navegador, garantindo que seus arquivos nunca saiam do seu dispositivo e não sejam armazenados ou visualizados por nós.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Downloads Imediatos Após a Rotação",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Após a rotação, faça o download do seu PDF diretamente da ferramenta. Não há espera - acesse imediatamente o seu documento perfeitamente orientado.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Como Girar Páginas de um PDF Online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Faça o upload do documento PDF que deseja girar.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Selecione as páginas específicas para girar ou aplique a rotação a todas as páginas.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Baixe o seu PDF modificado, com as páginas agora na orientação correta, pronto para qualquer uso."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts em 1 Clique",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Comprimir PDF - Redução de Tamanho de PDF Online | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Comprima arquivos PDF em um navegador local para garantir desempenho rápido e seguro. Sem marca d'água, limite de tamanho de arquivo, download ou registro necessários.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Reconhecimento de Texto em PDF Rápido e Local | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Converta documentos PDF não pesquisáveis em texto pesquisável e selecionável em segundos. Sem marcas d'água, limites de tamanho de arquivo, downloads ou cadastros necessários."
+    "pdf_tools__ocr_pdf__description": "Converta documentos PDF não pesquisáveis em texto pesquisável e selecionável em segundos. Sem marcas d'água, limites de tamanho de arquivo, downloads ou cadastros necessários.",
+    "pdf_tools__rotate_pdf__title": "Girar PDF - Gire Páginas em Documentos PDF Online Facilmente | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Gire páginas dos seus documentos PDF online de forma fácil e gratuita. Ajuste a orientação de qualquer página do PDF com apenas um clique - sem limites de tamanho de arquivo, downloads ou cadastros necessários."
   },
   "features_landing": {
     "cta_text": "Adicionar ao Navegador",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Carregando PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR e Download",
     "components__ocr_pdf__main__document_scanning_language": "Idioma de digitalização do documento"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Girar Todas",
+    "components__rotate_pdf__main__remove_pdf": "Remover PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Remova este PDF e selecione um novo",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Aumentar zoom",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Diminuir zoom",
+    "components__rotate_pdf__cancel": "Cancelar",
+    "components__rotate_pdf__button__cancel__tooltip": "Cancelar progresso atual",
+    "components__rotate_pdf__button__download__tooltip": "Girar e baixar PDF",
+    "components__rotate_pdf__button__download": "Baixar"
   }
 }

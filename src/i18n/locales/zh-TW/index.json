@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "我們的工具將處理您的PDF，準確且迅速地提取文本。",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "在結果頁面上下載OCR PDF以查看質量。",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR 掃描的 PDF 文件，讓您輕鬆選擇複製和搜索文字"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR 掃描的 PDF 文件，讓您輕鬆選擇複製和搜索文字",
+    "tools__index_page__constant_obj__rotate_pdf__title": "旋轉PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "旋轉PDF中的所有或個別頁面",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "只需點擊頁面即可將其旋轉。然後，您可以下載修改後的PDF。",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "使用我們直觀的線上旋轉PDF工具，無縫旋轉PDF文件中的頁面。只需幾個點擊即可實現完美的方向，同時確保您的文件安全和私密。",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "即時頁面旋轉，實現完美的文檔布局",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "無需額外的軟件",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "使用本地安全瀏覽器快速處理文件",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "輕鬆調整頁面方向",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "在幾秒鐘內調整PDF頁面的方向。無論您需要旋轉單個頁面還是整個文檔，我們的工具都提供了任何情況下的靈活性。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "用戶友好界面",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "我們直觀的界面使旋轉PDF變得簡單。只需上傳您的文檔，選擇需要調整的頁面，然後點擊旋轉即可。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "保持文檔完整性",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "我們確保您的文檔的版面和格式保持完整，保留文件的質量和內容準確性。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "從任何設備訪問",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "隨時隨地旋轉PDF。我們基於瀏覽器的工具在所有設備和操作系統上無縫運行，無需安裝。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "安全和私密處理",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "隱私至上。您的文檔在瀏覽器中處理，確保您的文件永遠不會離開您的設備，我們也不會存儲或查看您的文件。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "旋轉後立即下載",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "旋轉後，直接從工具中下載PDF。無需等待，立即訪問您完美方向的文檔。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "如何在線旋轉PDF頁面：",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "上傳要旋轉的PDF文檔。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "選擇要旋轉的特定頁面或將旋轉應用於所有頁面。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下載修改後的PDF，頁面現在以正確的方向準備好任何用途。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click 提示",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "壓縮PDF - 在線PDF大小減小 | MaxAI.me",
     "pdf_tools__compress_pdf__description": "在本地瀏覽器中壓縮PDF文件，確保快速和安全的性能。無水印，文件大小限制，無需下載或註冊。",
     "pdf_tools__ocr_pdf__title": "OCR PDF - 快速且本地的免費PDF文字識別 | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "將非可搜索的PDF文件轉換為可搜索和可選擇的文本，只需幾秒鐘。無需浮水印、文件大小限制、下載或註冊。"
+    "pdf_tools__ocr_pdf__description": "將非可搜索的PDF文件轉換為可搜索和可選擇的文本，只需幾秒鐘。無需浮水印、文件大小限制、下載或註冊。",
+    "pdf_tools__rotate_pdf__title": "旋轉PDF - 在線輕鬆旋轉PDF文檔中的頁面 | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "輕鬆在線旋轉PDF文檔中的頁面，無需付費。只需點擊一下即可調整任何PDF頁面的方向-無文件大小限制，無需下載或註冊。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF 載入中",
     "components__ocr_pdf__main__ocr_and_download": "OCR與下載",
     "components__ocr_pdf__main__document_scanning_language": "文件掃描語言"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "全部旋轉",
+    "components__rotate_pdf__main__remove_pdf": "刪除PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "刪除此PDF並選擇新的",
+    "components__rotate_pdf__button__zoom_in__tooltip": "放大",
+    "components__rotate_pdf__button__zoom_out__tooltip": "縮小",
+    "components__rotate_pdf__cancel": "取消",
+    "components__rotate_pdf__button__cancel__tooltip": "取消當前進度",
+    "components__rotate_pdf__button__download__tooltip": "旋轉並下載PDF",
+    "components__rotate_pdf__button__download": "下載"
   }
 }

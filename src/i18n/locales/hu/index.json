@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Az eszközünk feldolgozza a PDF-t, pontosan és gyorsan kinyerve a szöveget.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "A minőséget megtekintéshez töltse le az OCR PDF-et az eredmények oldaláról.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Szövegfelismeréses PDF"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Szövegfelismeréses PDF",
+    "tools__index_page__constant_obj__rotate_pdf__title": "PDF forgatása",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Forgassa meg az összes vagy egyedi oldalakat a PDF-ben",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Csak kattintson egy oldalra annak elforgatásához. A módosított PDF-t letöltheti.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Zökkenőmentesen forgathatja a PDF-dokumentumok oldalait intuitív online PDF forgatási eszközünkkel. Tökéletes irányítást érhet el néhány kattintással, miközben biztosítja dokumentumai biztonságát és magánéletét.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Azonnali oldal forgatás a tökéletes dokumentum elrendezéshez",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Nincs szükség további szoftverre",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Gyors feldolgozás helyileg biztonságos böngésző használatával",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Könnyű oldalirányítás",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Állítsa be a PDF-oldalak irányát másodpercek alatt. Legyen szó egyetlen oldal forgatásáról vagy az egész dokumentumról, eszközünk lehetővé teszi a rugalmasságot bármely helyzetben.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Felhasználóbarát felület",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Intuitív felületünk egyszerűvé teszi a PDF-ek forgatását. Egyszerűen töltse fel a dokumentumot, válassza ki azokat az oldalakat, amelyeket módosítani szeretne, és forgassa meg őket egyetlen kattintással.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Dokumentum integritásának megőrzése",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Biztosítjuk, hogy a dokumentum elrendezése és formázása érintetlen maradjon, megőrizve a fájl minőségét és tartalmi pontosságát a forgatás után.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Hozzáférhető bármilyen eszközről",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Bármikor, bárhol forgathatja a PDF-t. Böngésző alapú eszközeink zökkenőmentesen működnek minden eszközön és operációs rendszeren telepítés nélkül.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Biztonságos és magánélet védelme",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "A magánélet kiemelten fontos. A dokumentumokat a böngészőben dolgozzuk fel, biztosítva, hogy a fájlok soha ne hagyják el az eszközét, és ne legyenek tárolva vagy megtekintve számunkra.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Azonnali letöltés a forgatás után",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Miután elforgatta, közvetlenül letöltheti a PDF-t az eszközből. Nincs várakozás - azonnal hozzáférhet a tökéletesen irányított dokumentumához.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Hogyan forgathatók PDF-oldalak online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Töltse fel a forgatni kívánt PDF-dokumentumot.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Válassza ki az oldalakat a forgatáshoz, vagy alkalmazza a forgatást az összes oldalra.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Töltse le módosított PDF-jét, amelyben az oldalak már a megfelelő irányban vannak, bármilyen felhasználásra készen."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kattintásos Segítség",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "PDF tömörítése – Online PDF méretcsökkentés | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Tömörítse a PDF fájlokat helyben a böngészőben, hogy gyors és biztonságos teljesítményt érjen el. Nincs vízjel, fájlméret korlát, letöltés vagy regisztráció szükséges.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Gyors és helyi PDF szövegfelismerés ingyen | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Átalakítja a nem kereső PDF dokumentumokat keresővé és kiválaszthatóvá másodpercek alatt. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
+    "pdf_tools__ocr_pdf__description": "Átalakítja a nem kereső PDF dokumentumokat keresővé és kiválaszthatóvá másodpercek alatt. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
+    "pdf_tools__rotate_pdf__title": "PDF forgatása - Egyszerűen forgassa a PDF-dokumentum oldalait online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Problémamentesen forgathatja a PDF-dokumentumok oldalait ingyenesen online. Állítsa be bármely PDF-oldal irányát egyetlen kattintással - nincsenek fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Betöltése",
     "components__ocr_pdf__main__ocr_and_download": "OCR és Letöltés",
     "components__ocr_pdf__main__document_scanning_language": "Dokumentum szkennelési nyelv"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Összes forgatása",
+    "components__rotate_pdf__main__remove_pdf": "PDF eltávolítása",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Ez a PDF eltávolítása és új kiválasztása",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Nagyítás",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Kicsinyítés",
+    "components__rotate_pdf__cancel": "Mégse",
+    "components__rotate_pdf__button__cancel__tooltip": "Aktuális folyamat megszakítása",
+    "components__rotate_pdf__button__download__tooltip": "PDF forgatása és letöltése",
+    "components__rotate_pdf__button__download": "Letöltés"
   }
 }

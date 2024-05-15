@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "আমাদের টুলটি আপনার পিডিএফটি প্রসেস করবে, পাঠ্যটি সঠিকভাবে এবং দ্রুতভাবে উত্তোলন করবে।",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "গুণমানটি দেখতে OCR পিডিএফটি ডাউনলোড করুন।",
     "tools__index_page__constant_obj__ocr_pdf__title": "পিডিএফ ওসিআর",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "স্ক্যানকৃত পিডিএফ ডকুমেন্টের ওসিআর, যাতে আপনি সহজেই লেখা কপি করতে এবং অনুসন্ধান করতে পারেন"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "স্ক্যানকৃত পিডিএফ ডকুমেন্টের ওসিআর, যাতে আপনি সহজেই লেখা কপি করতে এবং অনুসন্ধান করতে পারেন",
+    "tools__index_page__constant_obj__rotate_pdf__title": "পিডিএফ ঘুরান",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "পিডিএফে সমস্ত বা ব্যক্তিগত পৃষ্ঠাগুলি ঘুরান",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "ঘুরান ক্লিক করুন। তারপর আপনি আপনার পরিবর্তিত পিডিএফটি ডাউনলোড করতে পারবেন।",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "আমাদের সুবিধাজনক অনলাইন পিডিএফ ঘুরান টুল ব্যবহার করে আপনার পিডিএফ ডকুমেন্টের ভিতরে পৃষ্ঠাগুলি সহজেই ঘুরান। কয়েকটি ক্লিকের মাধ্যমে সম্পূর্ণ অভিন্যাসে উচ্চতা অর্জন করুন, এবং আপনার ডকুমেন্টগুলি নিরাপদ এবং ব্যক্তিগত থাকবে এমন নিশ্চিত করুন।",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "সম্পূর্ণ ডকুমেন্ট লেআউটের জন্য তাৎক্ষণিক পৃষ্ঠা ঘুরান",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "অতিরিক্ত সফ্টওয়্যার প্রয়োজন নেই",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "স্থানীয়ভাবে নিরাপদ ব্রাউজার ব্যবহার করে দ্রুত ফাইল প্রসেস করুন",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "সহজেই পৃষ্ঠার অভিন্যাস",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "আপনার পিডিএফ পৃষ্ঠাগুলির অভিন্যাস সেকেন্ডেই সংশোধন করুন। আপনি যদি একটি পৃষ্ঠা ঘুরাতে চান বা সম্পূর্ণ ডকুমেন্ট, আমাদের টুলটি যেকোনো স্থিতিতে প্রযোজ্যতা প্রদান করে।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "ব্যবহারকারী বন্ধুত্বপূর্ণ ইন্টারফেস",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "আমাদের সুবিধাজনক ইন্টারফেস পিডিএফ ঘুরান সহজ করে। আপনার ডকুমেন্ট আপলোড করুন, প্রয়োজনীয় পৃষ্ঠাগুলি নির্বাচন করুন এবং একক ক্লিকে তাদের ঘুরান।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "ডকুমেন্ট সংরক্ষণ বজায় রাখুন",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "আমরা নিশ্চিত করি যে আপনার ডকুমেন্টের লেআউট এবং ফরম্যাটিং অপরিবর্তিত থাকে, যা আপনার ফাইলের মান এবং সঠিকতা পরিবর্তনের পরেও সংরক্ষিত থাকে।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "যে কোন ডিভাইস থেকে অ্যাক্সেস করা যায়",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "পিডিএফ ঘুরান যে কোন সময়, যে কোন জায়গায়। আমাদের ব্রাউজার ভিত্তিক টুলগুলি সকল ডিভাইস এবং অপারেটিং সিস্টেমে সহজেই কাজ করে, ইনস্টলেশনের প্রয়োজন ছাড়াই।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "নিরাপত্তা এবং ব্যক্তিগত প্রসেসিং",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "গোপনীয়তা অত্যন্ত গুরুত্বপূর্ণ। আপনার ডকুমেন্টগুলি ব্রাউজারে প্রসেস করা হয়, যাতে আপনার ফাইলগুলি আপনার ডিভাইস ছেড়ে যায় না এবং আমরা তাদের সংরক্ষণ বা দেখা করি না।",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "ঘুরানোর পর তাৎক্ষণিক ডাউনলোড",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "ঘুরানোর পরে, টুল থেকে আপনার পিডিএফটি ডাউনলোড করুন। অপেক্ষা করতে হবে না - আপনার পরিপূর্ণ অভিন্যাসিত ডকুমেন্টে সরাসরি অ্যাক্সেস করুন।",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "পিডিএফ পৃষ্ঠাগুলি অনলাইনে ঘুরানোর পদ্ধতি:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ঘুরানোর জন্য পিডিএফ ডকুমেন্ট আপলোড করুন।",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ঘুরানোর জন্য নির্দিষ্ট পৃষ্ঠা নির্বাচন করুন বা সমস্ত পৃষ্ঠাগুলির উপর ঘুরান।",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "আপনার সংশোধিত পিডিএফটি ডাউনলোড করুন, যেখানে পৃষ্ঠাগুলি এখন সঠিক অভিন্যাসে থাকবে, যেকোনো ব্যবহারের জন্য প্রস্তুত।"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-ক্লিক প্রম্পট",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "পিডিএফ সংকোচন - অনলাইন পিডিএফ আকার হ্রাস | MaxAI.me",
     "pdf_tools__compress_pdf__description": "দ্রুত এবং নিরাপদ কর্মক্ষমতার জন্য লোকাল ব্রাউজারে পিডিএফ ফাইলগুলি সংকোচন করুন। কোনও ওয়াটারমার্ক, ফাইল আকার সীমা, ডাউনলোড বা নিবন্ধনের প্রয়োজন নেই।",
     "pdf_tools__ocr_pdf__title": "OCR PDF - ফ্রি এবং স্থানীয় পিডিএফ টেক্সট চেনার জন্য দ্রুত | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "অনুসন্ধানযোগ্য নয় পিডিএফ ডকুমেন্টগুলি সেকেন্ডের মধ্যে অনুসন্ধানযোগ্য এবং নির্বাচনযোগ্য পাঠ্যে রূপান্তর করুন। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।"
+    "pdf_tools__ocr_pdf__description": "অনুসন্ধানযোগ্য নয় পিডিএফ ডকুমেন্টগুলি সেকেন্ডের মধ্যে অনুসন্ধানযোগ্য এবং নির্বাচনযোগ্য পাঠ্যে রূপান্তর করুন। কোনও ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।",
+    "pdf_tools__rotate_pdf__title": "পিডিএফ ঘুরান - পিডিএফ ডকুমেন্টের ভিতরে সহজেই পৃষ্ঠাগুলি ঘুরান | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "বিনামূল্যে অনলাইনে আপনার পিডিএফ ডকুমেন্টের ভিতরে পৃষ্ঠাগুলি সহজেই ঘুরান। ক্লিকের মাধ্যমে যেকোনো পিডিএফ পৃষ্ঠার অভিন্যাস সংশোধন করুন - কোনো ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপের প্রয়োজন নেই।"
   },
   "features_landing": {
     "cta_text": "ব্রাউজারে যোগ করুন",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "পিডিএফ লোডিং",
     "components__ocr_pdf__main__ocr_and_download": "OCR এবং ডাউনলোড",
     "components__ocr_pdf__main__document_scanning_language": "ডকুমেন্ট স্ক্যানিং ভাষা"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "সমস্ত ঘুরান",
+    "components__rotate_pdf__main__remove_pdf": "পিডিএফ সরান",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "এই পিডিএফটি সরান এবং নতুনটি নির্বাচন করুন",
+    "components__rotate_pdf__button__zoom_in__tooltip": "বৃদ্ধি করুন",
+    "components__rotate_pdf__button__zoom_out__tooltip": "কমান",
+    "components__rotate_pdf__cancel": "বাতিল করুন",
+    "components__rotate_pdf__button__cancel__tooltip": "বর্তমান অগ্রগতি বাতিল করুন",
+    "components__rotate_pdf__button__download__tooltip": "পিডিএফ ঘুরান এবং ডাউনলোড করুন",
+    "components__rotate_pdf__button__download": "ডাউনলোড করুন"
   }
 }

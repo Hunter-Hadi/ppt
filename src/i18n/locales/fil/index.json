@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Ang aming tool ay magproseso ng iyong PDF, na eksaktong kukuha ng teksto nang mabilis.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "I-download ang OCR PDF sa pahina ng mga resulta upang tingnan ang kalidad.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "I-OCR ang nasken na dokumento sa PDF, upang madaling pumili ng kopya at maghanap ng teksto"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "I-OCR ang nasken na dokumento sa PDF, upang madaling pumili ng kopya at maghanap ng teksto",
+    "tools__index_page__constant_obj__rotate_pdf__title": "I-rotate ang PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "I-rotate ang lahat o indibidwal na mga pahina sa isang PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Mag-click lamang sa isang pahina upang i-rotate ito. Maaari mo nang i-download ang iyong binagong PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Nang walang abala, i-rotate ang mga pahina sa loob ng iyong mga dokumento sa PDF gamit ang aming madaling gamiting Rotate PDF tool online. Makamit ang perpektong orientasyon sa ilang pag-click lamang, habang pinapanatili ang seguridad at privacy ng iyong mga dokumento.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Agaran na pag-rotate ng pahina para sa perpektong disenyo ng dokumento",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Walang karagdagang software na kinakailangan",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Mabilis na proseso ng mga file gamit ang lokal na ligtas na browser",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Madaling Pag-Orientasyon ng Pahina",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "I-adjust ang orientasyon ng iyong mga pahina sa PDF sa loob ng ilang segundo. Maaaring i-rotate ang isang pahina o buong dokumento, nagbibigay ng kakayahang umangkop sa anumang sitwasyon.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Madaling Gamiting Interface",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Ang aming madaling gamiting interface ay nagpapadali ng pag-rotate ng mga PDF. I-upload lamang ang iyong dokumento, piliin ang mga pahina na kailangan mong i-adjust, at i-rotate ito sa isang solong click.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Panatilihin ang Integridad ng Dokumento",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Tinitiyak namin na nananatiling buo ang layout at format ng iyong dokumento, pinapanatili ang kalidad at katumpakan ng nilalaman ng iyong file matapos ma-rotate.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Magamit Mula sa Anumang Device",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "I-rotate ang PDF anumang oras, saanman. Ang aming mga tool na batay sa browser ay gumagana nang walang abala sa lahat ng mga device at operating system nang walang pangangailangan ng pag-install.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Ligtas at Pribadong Proseso",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Ang privacy ay mahalaga. Ang iyong mga dokumento ay ina-process sa loob ng browser, tiyaking hindi umaalis ang iyong mga file mula sa iyong device at hindi ito iniimbak o tinitingnan ng amin.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Agaran na Pag-download Matapos ma-Rotate",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Kapag na-rotate na, i-download ang iyong PDF nang direkta mula sa tool. Walang paghihintay—ma-access mo agad ang iyong perpektong orientadong dokumento.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Paano I-Rotate ang Mga Pahina sa PDF Online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "I-upload ang PDF na dokumento na nais mong i-rotate.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Pumili ng partikular na mga pahina para sa rotation o i-apply ang rotation sa lahat ng mga pahina.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "I-download ang iyong binagong PDF, kung saan ang mga pahina ay nasa tamang orientasyon na, handa para sa anumang gamit."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Click Mga Prompt",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Kompres PDF – Online na Paghahati ng Laki ng PDF | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Kompres ang mga file ng PDF sa lokal na browser upang tiyakin ang mabilis at ligtas na pagganap. Walang watermark, limitasyon sa laki ng file, pag-download, o pagsusuri na kinakailangan.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Mabilis at Lokal na Pagkilala ng Teksto sa Libre | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "I-convert ang mga hindi mahanap na dokumento sa PDF tungo sa searchable at selectable na teksto sa loob ng ilang segundo. Walang watermarks, limitasyon sa laki ng file, pag-download, o pag-sign up na kailangan."
+    "pdf_tools__ocr_pdf__description": "I-convert ang mga hindi mahanap na dokumento sa PDF tungo sa searchable at selectable na teksto sa loob ng ilang segundo. Walang watermarks, limitasyon sa laki ng file, pag-download, o pag-sign up na kailangan.",
+    "pdf_tools__rotate_pdf__title": "I-rotate ang PDF - Madaling I-Rotate ang Mga Pahina sa Dokumentong PDF Online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Nang walang abala, i-rotate ang mga pahina sa loob ng iyong mga dokumento sa PDF online nang libre. I-adjust ang orientasyon ng anumang pahina sa PDF sa isang click lamang - walang limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Paglo-load ng PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR at I-download",
     "components__ocr_pdf__main__document_scanning_language": "Wika ng pagsusuri ng dokumento"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "I-Rotate Lahat",
+    "components__rotate_pdf__main__remove_pdf": "Tanggalin ang PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Tanggalin ang PDF na ito at pumili ng bago",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Zoom in",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Zoom out",
+    "components__rotate_pdf__cancel": "Kanselahin",
+    "components__rotate_pdf__button__cancel__tooltip": "Kanselahin ang kasalukuyang progreso",
+    "components__rotate_pdf__button__download__tooltip": "I-Rotate at i-download ang PDF",
+    "components__rotate_pdf__button__download": "I-download"
   }
 }

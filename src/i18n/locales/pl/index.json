@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Nasze narzędzie przetworzy Twoje PDF, dokładnie i szybko wyodrębniając tekst.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Pobierz plik OCR PDF na stronie wyników, aby zobaczyć jakość.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Przekształć zeskanowany dokument PDF na tekst, abyś mógł łatwo kopiować i wyszukiwać tekst"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Przekształć zeskanowany dokument PDF na tekst, abyś mógł łatwo kopiować i wyszukiwać tekst",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Obróć PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Obróć wszystkie lub poszczególne strony w pliku PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Po prostu kliknij na stronie, aby ją obrócić. Następnie możesz pobrać zmodyfikowany plik PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Bezproblemowo obracaj strony w swoich dokumentach PDF za pomocą naszego intuicyjnego narzędzia Obróć PDF online. Osiągnij idealną orientację za pomocą kilku kliknięć, jednocześnie dbając o bezpieczeństwo i prywatność Twoich dokumentów.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Natychmiastowe obracanie stron dla doskonałego układu dokumentu",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Nie wymaga dodatkowego oprogramowania",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Szybka obróbka plików przy użyciu lokalnie bezpiecznej przeglądarki",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Bezproblemowa orientacja stron",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Dostosuj orientację stron w swoich plikach PDF w kilka sekund. Niezależnie od tego, czy potrzebujesz obrócić pojedynczą stronę, czy cały dokument, nasze narzędzie zapewnia elastyczność dla każdego scenariusza.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Przyjazny interfejs użytkownika",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Nasz intuicyjny interfejs sprawia, że obracanie plików PDF jest łatwe. Po prostu przesłać swój dokument, wybrać strony, które chcesz dostosować i obrócić je jednym kliknięciem.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Zachowanie integralności dokumentu",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Zapewniamy, że układ i formatowanie Twojego dokumentu pozostają nietknięte, zachowując jakość i dokładność treści po obróceniu.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Dostępne na dowolnym urządzeniu",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Obracaj pliki PDF w dowolnym czasie i miejscu. Nasze narzędzia działają płynnie na wszystkich urządzeniach i systemach operacyjnych bez konieczności instalacji.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Bezpieczna i prywatna obróbka",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Prywatność jest najważniejsza. Twoje dokumenty są przetwarzane w przeglądarce, co oznacza, że pliki nigdy nie opuszczają Twojego urządzenia i nie są przechowywane ani przeglądane przez nas.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Natychmiastowe pobieranie po obróceniu",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Po obróceniu pobierz swoje PDF bezpośrednio z narzędzia. Nie musisz czekać - od razu uzyskaj dostęp do doskonale ułożonego dokumentu.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Jak obrócić strony w pliku PDF online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Prześlij plik PDF, który chcesz obrócić.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Wybierz konkretne strony do obrócenia lub zastosuj obrót do wszystkich stron.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Pobierz zmodyfikowany plik PDF z poprawioną orientacją, gotowy do dowolnego użycia."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknij Wskazówki",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Skompresuj PDF - Redukcja rozmiaru pliku PDF online | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Skompresuj pliki PDF w przeglądarce lokalnej, aby zapewnić szybkość i bezpieczeństwo. Bez znaku wodnego, limitu rozmiaru pliku, pobierania ani rejestracji.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Szybkie i lokalne rozpoznawanie tekstu w plikach PDF za darmo | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Konwertuj nieprzeszukiwalne dokumenty PDF na przeszukiwalny i zaznaczalny tekst w kilka sekund. Bez znaków wodnych, ograniczeń wielkości pliku, pobierania ani rejestracji."
+    "pdf_tools__ocr_pdf__description": "Konwertuj nieprzeszukiwalne dokumenty PDF na przeszukiwalny i zaznaczalny tekst w kilka sekund. Bez znaków wodnych, ograniczeń wielkości pliku, pobierania ani rejestracji.",
+    "pdf_tools__rotate_pdf__title": "Obróć PDF - Łatwe obracanie stron w dokumentach PDF online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Bezproblemowo obracaj strony w swoich dokumentach PDF online za darmo. Dostosuj orientację dowolnej strony PDF jednym kliknięciem - bez ograniczeń rozmiaru pliku, pobierania ani rejestracji."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Ładowanie pliku PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR i Pobierz",
     "components__ocr_pdf__main__document_scanning_language": "Język skanowania dokumentów"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Obróć wszystko",
+    "components__rotate_pdf__main__remove_pdf": "Usuń PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Usuń ten plik PDF i wybierz nowy",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Powiększ",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Pomniejsz",
+    "components__rotate_pdf__cancel": "Anuluj",
+    "components__rotate_pdf__button__cancel__tooltip": "Anuluj bieżący postęp",
+    "components__rotate_pdf__button__download__tooltip": "Obróć i pobierz PDF",
+    "components__rotate_pdf__button__download": "Pobierz"
   }
 }

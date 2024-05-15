@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Mūsų įrankis apdoros jūsų PDF, tiksliai ir greitai ištraukdamas tekstą.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Atsisiųskite OCR PDF rezultatų puslapyje, kad pamatytumėte kokybę.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Atpažinkite skenuotą PDF dokumentą, kad galėtumėte lengvai pasirinkti kopijuoti ir ieškoti teksto"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Atpažinkite skenuotą PDF dokumentą, kad galėtumėte lengvai pasirinkti kopijuoti ir ieškoti teksto",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Pasukti PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Pasukite visus arba atskirus puslapius PDF dokumente",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Tiesiog spustelėkite ant puslapio, kad jį pasuktumėte. Tuomet galėsite atsisiųsti pakeistą PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Nematomai pasukite puslapius savo PDF dokumentuose naudodami mūsų intuityvų internetinį Pasukti PDF įrankį. Pasiekite puikų orientavimą vos keliais paspaudimais, užtikrindami, kad jūsų dokumentai būtų saugūs ir privati.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Momentinis puslapių pasukimas puikiam dokumento išdėstymui",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Nereikia papildomos programinės įrangos",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Greitai apdorokite failus naudodami vietinai saugų naršyklę",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Be pastangų orientuokite puslapius",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Per kelias sekundes sureguliuokite savo PDF puslapių orientaciją. Nesvarbu, ar jums reikia pasukti vieną puslapį, ar visą dokumentą, mūsų įrankis suteikia lankstumą bet kuriam scenarijui.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Naudotojo draugiškas sąsajos",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Mūsų intuityvi sąsaja padaro PDF pasukimą paprastu. Tiesiog įkelkite savo dokumentą, pasirinkite puslapius, kuriuos norite sureguliuoti, ir pasukite juos vienu paspaudimu.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Išlaikykite dokumento vientisumą",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Užtikriname, kad jūsų dokumento išdėstymas ir formatavimas išliktų nepakitę, išsaugodami jūsų failo kokybę ir turinio tikslumą po pasukimo.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Pasiekiamas iš bet kurio įrenginio",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Pasukite PDF bet kada ir bet kur. Mūsų naršyklės pagrindu veikiantys įrankiai puikiai veikia visuose įrenginiuose ir operacinėse sistemose, nereikalaujant jokios diegimo.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Saugus ir privatus apdorojimas",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Privatumas yra labai svarbus. Jūsų dokumentai apdorojami naršyklėje, užtikrinant, kad jūsų failai niekada nepaliktų jūsų įrenginio ir nebus saugomi ar peržiūrimi mūsų.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Momentiniai atsisiuntimai po pasukimo",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Kai pasuktas, atsisiųskite savo PDF tiesiai iš įrankio. Nereikia laukti - prieigą prie savo puikiai orientuoto dokumento gausite nedelsiant.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kaip pasukti PDF puslapius internete:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Įkelkite norimą pasukti PDF dokumentą.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Pasirinkite konkretų puslapių pasukimą arba taikykite pasukimą visiems puslapiams.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Atsisiųskite pakeistą PDF, kurio puslapiai dabar yra teisingoje orientacijoje ir paruošti bet kokiam naudojimui."
   },
   "prompt_library": {
     "use_prompt_library__title": "Vieno paspaudimo užduotys",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Suspausti PDF - Internetinis PDF dydžio mažinimas | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Suspauskite PDF failus vietinėje naršyklėje, užtikrinant greitą ir saugų veikimą. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimo ar registracijos nereikia.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Greitas ir vietinis PDF teksto atpažinimas nemokamai | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Paversti neieškomus PDF dokumentus į ieškomą ir pasirenkamą tekstą per kelias sekundes. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar prisijungimų nereikia."
+    "pdf_tools__ocr_pdf__description": "Paversti neieškomus PDF dokumentus į ieškomą ir pasirenkamą tekstą per kelias sekundes. Jokių vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar prisijungimų nereikia.",
+    "pdf_tools__rotate_pdf__title": "Pasukti PDF - Paprastai pasukite puslapius PDF dokumentuose internete | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Nemokamai ir be pastangų pasukite puslapius savo PDF dokumentuose internete. Reguliuokite bet kurio PDF puslapio orientaciją vienu paspaudimu - nereikia failo dydžio apribojimų, atsisiuntimų ar registracijos."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Įkėlimas",
     "components__ocr_pdf__main__ocr_and_download": "OCR ir atsisiųsti",
     "components__ocr_pdf__main__document_scanning_language": "Dokumentų skenavimo kalba"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Pasukti visus",
+    "components__rotate_pdf__main__remove_pdf": "Pašalinti PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Pašalinti šį PDF ir pasirinkti naują",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Artinti",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Tolinti",
+    "components__rotate_pdf__cancel": "Atšaukti",
+    "components__rotate_pdf__button__cancel__tooltip": "Atšaukti dabartinę pažangą",
+    "components__rotate_pdf__button__download__tooltip": "Pasukti ir atsisiųsti PDF",
+    "components__rotate_pdf__button__download": "Atsisiųsti"
   }
 }

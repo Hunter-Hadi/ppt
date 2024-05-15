@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "La nostra eina processarà el teu PDF, extreient el text amb precisió i rapidesa.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Descarrega l'OCR PDF a la pàgina de resultats per veure la qualitat.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR document PDF escanejat, perquè puguis triar fàcilment copiar i cercar text"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR document PDF escanejat, perquè puguis triar fàcilment copiar i cercar text",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Gira el PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Gira totes o pàgines individuals en un PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Feu clic en una pàgina per girar-la. A continuació, podeu descarregar el vostre PDF modificat.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Gireu les pàgines dels vostres documents PDF de manera fluida utilitzant la nostra intuitiva eina Gira el PDF en línia. Aconseguiu una orientació perfecta amb només uns pocs clics, tot garantint que els vostres documents romanen segurs i privats.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Rotació instantània de pàgines per a una disposició perfecta del document",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "No es requereix cap programari addicional",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Processa ràpidament fitxers utilitzant un navegador local segur",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Orientació de pàgines sense esforç",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Ajusteu l'orientació de les pàgines del vostre PDF en segons. Tant si necessiteu girar una sola pàgina com tot el document, la nostra eina proporciona la flexibilitat per a qualsevol escenari.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Interfície fàcil d'utilitzar",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "La nostra interfície intuïtiva fa que girar els PDF sigui senzill. Simplement carregueu el vostre document, seleccioneu les pàgines que cal ajustar i gireu-les amb un sol clic.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Manteniu la integritat del document",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Ens assegurem que la disposició i el format del vostre document romanen intactes, preservant la qualitat i l'exactitud del contingut del fitxer després de la rotació.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Accessible des de qualsevol dispositiu",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Gireu el PDF en qualsevol moment i des de qualsevol lloc. Les nostres eines basades en navegador funcionen perfectament en tots els dispositius i sistemes operatius sense necessitat d'instal·lació.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Processament segur i privat",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "La privacitat és fonamental. Els vostres documents es processen al navegador, garantint que els fitxers mai surtin del vostre dispositiu i no siguin emmagatzemats ni visualitzats per nosaltres.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Descàrregues instantànies després de la rotació",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Un cop girat, descarregueu el vostre PDF directament des de l'eina. No cal esperar: accediu immediatament al vostre document perfectament orientat.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Com girar pàgines de PDF en línia:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Carregueu el document PDF que voleu girar.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Seleccioneu les pàgines específiques per a la rotació o apliqueu la rotació a totes les pàgines.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarregueu el vostre PDF modificat, amb les pàgines ara en la orientació correcta, llest per a qualsevol ús."
   },
   "prompt_library": {
     "use_prompt_library__title": "Prompts amb un clic",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Comprimeix PDF: Reducció de mida de PDF en línia | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Comprimeix fitxers PDF en un navegador local per garantir un rendiment ràpid i segur. Sense marca d'aigua, límit de mida de fitxer, descàrrega ni registre necessari.",
     "pdf_tools__ocr_pdf__title": "OCR PDF: Reconeixement de text ràpid i local per a PDF gratuït | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Converteix documents PDF no cercables en text cercable i seleccionable en segons. Sense marques d'aigua, límits de mida de fitxer, descàrregues ni registres necessaris."
+    "pdf_tools__ocr_pdf__description": "Converteix documents PDF no cercables en text cercable i seleccionable en segons. Sense marques d'aigua, límits de mida de fitxer, descàrregues ni registres necessaris.",
+    "pdf_tools__rotate_pdf__title": "Gira el PDF - Gira les pàgines dels documents PDF fàcilment en línia | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Gireu les pàgines dels vostres documents PDF en línia de manera senzilla i gratuïta. Ajusteu l'orientació de qualsevol pàgina de PDF amb només un clic, sense límits de mida de fitxer, descàrregues ni registres necessaris."
   },
   "features_landing": {
     "cta_text": "Afegir al navegador",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Carregant PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR i Descarrega",
     "components__ocr_pdf__main__document_scanning_language": "Idioma d'escaneig de documents"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Gira-ho tot",
+    "components__rotate_pdf__main__remove_pdf": "Elimina el PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Elimina aquest PDF i selecciona'n un de nou",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Augmenta la mida",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Redueix la mida",
+    "components__rotate_pdf__cancel": "Cancel·la",
+    "components__rotate_pdf__button__cancel__tooltip": "Cancel·la el progrés actual",
+    "components__rotate_pdf__button__download__tooltip": "Gira i descarrega el PDF",
+    "components__rotate_pdf__button__download": "Descarrega"
   }
 }

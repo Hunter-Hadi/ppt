@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "当社のツールがPDFを処理し、テキストを正確かつ迅速に抽出します。",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "品質を確認するためにOCR PDFを結果ページでダウンロードします。",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "スキャンされたPDFドキュメントをOCR処理し、テキストのコピーと検索が簡単にできます"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "スキャンされたPDFドキュメントをOCR処理し、テキストのコピーと検索が簡単にできます",
+    "tools__index_page__constant_obj__rotate_pdf__title": "PDFを回転",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "PDF内のすべてまたは個別のページを回転",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "回転したいページをクリックするだけで回転できます。変更したPDFをダウンロードできます。",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "直感的なオンラインRotate PDFツールを使用して、PDFドキュメント内のページをシームレスに回転させることができます。数回のクリックで完璧な向きを実現し、ドキュメントのセキュリティとプライバシーを確保します。",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "完璧なドキュメントレイアウトのための即時ページ回転",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "追加のソフトウェアは必要ありません",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "ローカルに安全なブラウザを使用してファイルを素早く処理",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "簡単なページの向き調整",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "数秒でPDFページの向きを調整できます。単一のページを回転させるか、ドキュメント全体を回転させるかに関わらず、ツールはあらゆるシナリオに対応します。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "使いやすいインターフェース",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "直感的なインターフェースでPDFの回転が簡単です。ドキュメントをアップロードし、調整する必要のあるページを選択して、クリックするだけで回転させることができます。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "ドキュメントの完全性を保つ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "ドキュメントのレイアウトと書式が維持され、回転後もファイルの品質と内容の正確性が保たれるようにします。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "どのデバイスからでもアクセス可能",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "いつでもどこでもPDFを回転できます。ブラウザベースのツールは、インストールする必要なく、すべてのデバイスとオペレーティングシステムでシームレスに動作します。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "安全かつプライベートな処理",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "プライバシーが最重要です。ドキュメントはブラウザ内で処理されるため、ファイルはデバイスから出ることなく、弊社によって保存または表示されることはありません。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "回転後すぐにダウンロード",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "回転後、ツールから直接PDFをダウンロードできます。待つ必要はありません。完璧な向きのドキュメントにすぐにアクセスできます。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "オンラインでPDFページを回転する方法：",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "回転させたいPDFドキュメントをアップロードします。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "特定のページを回転させるか、すべてのページに回転を適用します。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "正しい向きのページで修正されたPDFをダウンロードして、すぐに使用できます。"
   },
   "prompt_library": {
     "use_prompt_library__title": "1クリックプロンプト",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "PDFを圧縮する - オンラインPDFサイズ縮小 | MaxAI.me",
     "pdf_tools__compress_pdf__description": "ローカルブラウザでPDFファイルを圧縮して、高速かつ安全なパフォーマンスを実現します。ウォーターマーク、ファイルサイズ制限、ダウンロードや登録は必要ありません。",
     "pdf_tools__ocr_pdf__title": "OCR PDF - 高速＆ローカルPDFテキスト認識 | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "非検索可能なPDFドキュメントを数秒で検索可能なテキストに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは不要です。"
+    "pdf_tools__ocr_pdf__description": "非検索可能なPDFドキュメントを数秒で検索可能なテキストに変換します。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは不要です。",
+    "pdf_tools__rotate_pdf__title": "PDFを回転 - オンラインでPDFドキュメント内のページを簡単に回転 | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "無料でオンライン上でPDFドキュメント内のページを簡単に回転できます。クリックするだけで任意のPDFページの向きを調整します - ファイルサイズ制限、ダウンロード、サインアップは必要ありません。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDFの読み込み",
     "components__ocr_pdf__main__ocr_and_download": "OCRとダウンロード",
     "components__ocr_pdf__main__document_scanning_language": "ドキュメントのスキャン言語"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "すべて回転",
+    "components__rotate_pdf__main__remove_pdf": "PDFを削除",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "このPDFを削除して新しいPDFを選択",
+    "components__rotate_pdf__button__zoom_in__tooltip": "拡大",
+    "components__rotate_pdf__button__zoom_out__tooltip": "縮小",
+    "components__rotate_pdf__cancel": "キャンセル",
+    "components__rotate_pdf__button__cancel__tooltip": "現在の進行状況をキャンセル",
+    "components__rotate_pdf__button__download__tooltip": "PDFを回転してダウンロード",
+    "components__rotate_pdf__button__download": "ダウンロード"
   }
 }

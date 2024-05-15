@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Náš nástroj zpracuje váš PDF a přesně a rychle extrahuje text.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Na stránce s výsledky si stáhněte OCR PDF pro zobrazení kvality.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Převeďte naskenovaný dokument PDF na text, abyste mohli snadno vybrat a vyhledávat text"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Převeďte naskenovaný dokument PDF na text, abyste mohli snadno vybrat a vyhledávat text",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Otočit PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Otočte všechny nebo jednotlivé stránky v PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Jednoduše klikněte na stránku, kterou chcete otočit. Poté si můžete stáhnout upravené PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Bezproblémově otáčejte stránky ve svých dokumentech PDF pomocí našeho intuitivního online nástroje Rotate PDF. Dosáhněte dokonalé orientace jen pár kliknutími a zároveň zajistěte bezpečnost a soukromí vašich dokumentů.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Okamžité otočení stránky pro dokonalé rozložení dokumentu",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Není potřeba žádný další software",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Rychlé zpracování souborů pomocí lokálně zabezpečeného prohlížeče",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Snadná orientace stránky",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "V sekundách upravte orientaci stránek ve vašich PDF. Ať už potřebujete otočit jednu stránku nebo celý dokument, náš nástroj poskytuje flexibilitu pro jakoukoli situaci.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Přívětivé uživatelské rozhraní",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Naše intuitivní rozhraní usnadňuje otáčení PDF. Stačí nahrát váš dokument, vybrat stránky, které chcete upravit, a otočit je jedním kliknutím.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Zachování integrity dokumentu",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Zajišťujeme, že rozložení a formátování vašeho dokumentu zůstane nedotčeno, zachováváme tak kvalitu a přesnost obsahu souboru po otočení.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Přístupné z jakéhokoli zařízení",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Otočte PDF kdykoli a kdekoli. Naše nástroje v prohlížeči bez problémů fungují na všech zařízeních a operačních systémech bez nutnosti instalace.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Bezpečné a soukromé zpracování",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Soukromí je důležité. Vaše dokumenty jsou zpracovávány v prohlížeči, což zajišťuje, že vaše soubory nikdy neopustí vaše zařízení a nejsou ukládány ani prohlíženy námi.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Okamžité stažení po otočení",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Po otočení si můžete své PDF přímo ze nástroje stáhnout. Nemusíte čekat - ihned získáte svůj perfektně orientovaný dokument.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Jak otočit stránky PDF online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Nahrajte PDF dokument, který chcete otočit.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Vyberte konkrétní stránky pro otočení nebo aplikujte otočení na všechny stránky.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Stáhněte si upravené PDF s již správnou orientací stránek, připravené pro jakékoli použití."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Kliknutí na Nápovědy",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Komprimovat PDF – Online zmenšení velikosti PDF | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Komprimujte PDF soubory v lokálním prohlížeči, abyste zajistili rychlý a bezpečný výkon. Bez vodoznaku, omezení velikosti souboru, stažení nebo registrace.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Rychlé a lokální rozpoznávání textu v PDF zdarma | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Převeďte nevyhledávatelné dokumenty PDF na vyhledávatelný a vybíratelný text během několika sekund. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány."
+    "pdf_tools__ocr_pdf__description": "Převeďte nevyhledávatelné dokumenty PDF na vyhledávatelný a vybíratelný text během několika sekund. Žádné vodoznaky, omezení velikosti souboru, stahování ani registrace nejsou vyžadovány.",
+    "pdf_tools__rotate_pdf__title": "Otočit PDF - Snadné otočení stránek v dokumentech PDF online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Snadno otočte stránky ve vašich dokumentech PDF online zdarma. Upravte orientaci libovolné stránky PDF jedním kliknutím - žádná omezení velikosti souboru, žádná stahování ani registrace nejsou potřeba."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Načítání PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR a Stáhnout",
     "components__ocr_pdf__main__document_scanning_language": "Jazyk skenování dokumentů"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Otočit vše",
+    "components__rotate_pdf__main__remove_pdf": "Odstranit PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Odstranit toto PDF a vybrat nové",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Přiblížit",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Oddálit",
+    "components__rotate_pdf__cancel": "Zrušit",
+    "components__rotate_pdf__button__cancel__tooltip": "Zrušit aktuální postup",
+    "components__rotate_pdf__button__download__tooltip": "Otočit a stáhnout PDF",
+    "components__rotate_pdf__button__download": "Stáhnout"
   }
 }

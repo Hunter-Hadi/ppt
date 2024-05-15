@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Naš alat će obraditi vaš PDF i precizno i brzo izdvojiti tekst.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Preuzmite OCR PDF na stranici rezultata da biste videli kvalitet.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenirani PDF dokument, tako da možete lako odabrati kopiranje i pretragu teksta"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skenirani PDF dokument, tako da možete lako odabrati kopiranje i pretragu teksta",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Rotiraj PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Rotiraj sve ili pojedinačne stranice u PDF-u",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Jednostavno kliknite na stranicu da je rotirate. Možete preuzeti izmenjeni PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Bez problema rotirajte stranice u vašim PDF dokumentima koristeći naš intuitivni online alat za rotiranje PDF-a. Postignite savršenu orijentaciju sa samo nekoliko klikova, uz obezbeđivanje sigurnosti i privatnosti vaših dokumenata.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Trenutna rotacija stranica za savršen raspored dokumenata",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Nije potrebna dodatna softver",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Brzo obradite fajlove koristeći lokalno bezbedan pregledač",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Laka orijentacija stranica",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Podesite orijentaciju vaših PDF stranica za nekoliko sekundi. Bez obzira da li vam je potrebna rotacija jedne stranice ili celog dokumenta, naš alat pruža fleksibilnost za svaki scenario.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Korisnički prijateljski interfejs",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Naš intuitivni interfejs čini rotiranje PDF-a jednostavnim. Samo otpremite svoj dokument, izaberite stranice koje treba da podesite i rotirajte ih jednim klikom.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Održavanje integriteta dokumenata",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Obezbeđujemo da raspored i formatiranje vašeg dokumenta ostanu netaknuti, čuvajući kvalitet i tačnost sadržaja fajla nakon rotacije.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Pristupačno sa bilo kog uređaja",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Rotirajte PDF u bilo koje vreme i sa bilo kog uređaja. Naši alati zasnovani na pregledaču besprekorno funkcionišu na svim uređajima i operativnim sistemima bez potrebe za instalacijom.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Sigurna i privatna obrada",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Privatnost je najvažnija. Vaši dokumenti se obrađuju u pregledaču, što garantuje da vaši fajlovi nikada ne napuštaju vaš uređaj i da ih mi ne čuvamo ili pregledamo.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Trenutno preuzimanje nakon rotacije",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Kada završite sa rotacijom, preuzmite svoj PDF direktno iz alata. Nema čekanja - odmah pristupite svom savršeno orijentisanom dokumentu.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kako rotirati stranice PDF-a online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Otpremite PDF dokument koji želite da rotirate.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Izaberite specifične stranice za rotaciju ili primenite rotaciju na sve stranice.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Preuzmite izmenjeni PDF, sa stranicama sada u ispravnoj orijentaciji, spreman za bilo koju upotrebu."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-klik Prompts",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Smanji PDF - Online smanjenje veličine PDF-a | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Smanjite veličinu PDF fajlova u lokalnom pregledaču kako biste obezbedili brzo i sigurno izvođenje. Bez vodenog žiga, ograničenja veličine fajla, preuzimanja ili registracije.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Brzo i lokalno prepoznavanje teksta u PDF-u besplatno | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Pretvorite ne-pretražive PDF dokumente u pretraživ i selektibilan tekst za sekunde. Bez vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijavljivanja."
+    "pdf_tools__ocr_pdf__description": "Pretvorite ne-pretražive PDF dokumente u pretraživ i selektibilan tekst za sekunde. Bez vodenih žigova, ograničenja veličine fajla, preuzimanja ili prijavljivanja.",
+    "pdf_tools__rotate_pdf__title": "Rotiraj PDF - Lako rotirajte stranice u PDF dokumentima online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Lako rotirajte stranice u vašim PDF dokumentima online, besplatno. Podesite orijentaciju bilo koje PDF stranice jednim klikom - bez ograničenja veličine fajla, preuzimanja ili registracije."
   },
   "features_landing": {
     "cta_text": "Dodaj u pregledač",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Učitavanje PDF-a",
     "components__ocr_pdf__main__ocr_and_download": "OCR i Preuzmi",
     "components__ocr_pdf__main__document_scanning_language": "Jezik skeniranja dokumenata"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Rotiraj sve",
+    "components__rotate_pdf__main__remove_pdf": "Ukloni PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Uklonite ovaj PDF i izaberite novi",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Povećaj",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Smanji",
+    "components__rotate_pdf__cancel": "Otkaži",
+    "components__rotate_pdf__button__cancel__tooltip": "Otkaži trenutni napredak",
+    "components__rotate_pdf__button__download__tooltip": "Rotiraj i preuzmi PDF",
+    "components__rotate_pdf__button__download": "Preuzmi"
   }
 }

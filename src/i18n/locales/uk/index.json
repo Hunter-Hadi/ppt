@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "ہمارا ٹول آپ کے PDF کو پروسیس کرے گا، متن کو درستی سے اور تیزی سے نکالے گا۔",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "کوالٹی دیکھنے کے لئے OCR PDF کو نتائج کی صفحے پر ڈاؤن لوڈ کریں۔",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "اسکین شدہ پی ڈی ایف کاغذ کو OCR کریں تاکہ آپ آسانی سے متن کا انتخاب کر سکیں اور تلاش کر سکیں"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "اسکین شدہ پی ڈی ایف کاغذ کو OCR کریں تاکہ آپ آسانی سے متن کا انتخاب کر سکیں اور تلاش کر سکیں",
+    "tools__index_page__constant_obj__rotate_pdf__title": "PDF گھمائیں",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "PDF میں تمام یا انفرادی صفحات کو گھمائیں",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "صرف ایک صفحہ پر کلک کریں تاکہ آپ اسے گھما سکیں۔ پھر آپ اپنے ترمیم شدہ PDF کو ڈاؤن لوڈ کرسکتے ہیں۔",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "ہمارے آسان طریقے سے آن لائن Rotate PDF ٹول کا استعمال کرتے ہوئے اپنے PDF دستاویزات میں صفحات کو بے درد گھمائیں۔ صرف چند کلکس کے ساتھ مکمل رویت حاصل کریں، جبکہ اپنے دستاویزات کی حفاظت اور خصوصیت کو یقینی بنائیں۔",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "مکمل دستاویز کی لئے فوری صفحہ گھمانا",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "کوئی اضافی سافٹ ویئر کی ضرورت نہیں",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "مقامی طور پر محفوظ براؤزر کا استعمال کرتے ہوئے تیزی سے فائلوں کو پروسیس کریں",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "آسان صفحہ رویت",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "اپنے PDF صفحات کی رویت کو سیکنڈوں میں ترتیب دیں۔ چاہے آپ کوئی ایک صفحہ گھمانا چاہتے ہیں یا پورے دستاویز کو، ہمارا ٹول ہر سیٹنگ کے لئے لچک پیش کرتا ہے۔",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "صارف دوستانہ انٹرفیس",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "ہمارا آسان سمجھ میں آنے والا انٹرفیس PDF کو گھمانا آسان بناتا ہے۔ صرف اپنے دستاویز کو اپ لوڈ کریں، ضرورت کے صفحات منتخب کریں، اور ایک کلک کے ساتھ انہیں گھمائیں۔",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "دستاویز کی حفاظت برقرار رکھیں",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "ہم یقینی بناتے ہیں کہ آپ کے دستاویز کا ترتیب اور فارمیٹ برقرار رہتا ہے، جس سے آپ کی فائل کی کوالٹی اور مواد کی درستگی پوسٹ-رویشن کو برقرار رکھا جاتا ہے۔",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "کسی بھی آلے سے قابل رسائی",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "PDF کو کبھی بھی، کہیں بھی گھمائیں۔ ہمارے براؤزر بیسڈ ٹولز تمام آلات اور آپریٹنگ سسٹمز پر بلا مقابلہ کام کرتے ہیں، بغیر کسی انسٹالیشن کی ضرورت کے۔",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "محفوظ اور خصوصی پروسیسنگ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "خصوصیت اہم ہے۔ آپ کے دستاویزات براؤزر میں پروسیس ہوتے ہیں، یہ یقینی بنانے کے لئے کہ آپ کی فائلیں کبھی بھی آپ کے آلے سے باہر نہیں جاتیں اور ہمارے ذریعہ سٹور یا دیکھیں نہیں جاتیں۔",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "گھمانے کے بعد فوری ڈاؤن لوڈز",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "جب گھما دیں، تو اپنے PDF کو ٹول سے سیدھے سے ڈاؤن لوڈ کریں۔ انتظار کرنے کی کوئی ضرورت نہیں ہے - اپنے مکمل رویت کے دستاویز تک فوراً رسائی حاصل کریں۔",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "آن لائن PDF صفحات کو گھمانے کا طریقہ:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "گھمانے کے لئے وہ PDF دستاویز اپ لوڈ کریں جسے آپ گھمانا چاہتے ہیں۔",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "مخصوص صفحات کو گھمانے کے لئے منتخب کریں یا تمام صفحات پر گھمائیں۔",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "آپ کے ترتیب میں درست رویت کے ساتھ اپنے ترمیم شدہ PDF کو ڈاؤن لوڈ کریں، جو کسی بھی استعمال کے لئے تیار ہو۔"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-کلک پرومپٹس",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "PDF کمپریس کریں - آن لائن PDF سائز کم کرنا | MaxAI.me",
     "pdf_tools__compress_pdf__description": "فوری اور محفوظ پرفارمنس کے لئے لوکل براؤزر میں PDF فائلوں کو کمپریس کریں۔ کوئی واٹرمارک، فائل سائز کی حد، ڈاؤن لوڈ یا رجسٹریشن کی ضرورت نہیں۔",
     "pdf_tools__ocr_pdf__title": "OCR PDF - فاسٹ اور لوکل پی ڈی ایف متن تشخیص مفت | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "غیر قابل تلاش پی ڈی ایف دستاویزات کو چند سیکنڈ میں تلاش پذیر اور منتخب کرنے والے متن میں تبدیل کریں۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈ یا سائن اپ کی ضرورت نہیں ہوتی۔"
+    "pdf_tools__ocr_pdf__description": "غیر قابل تلاش پی ڈی ایف دستاویزات کو چند سیکنڈ میں تلاش پذیر اور منتخب کرنے والے متن میں تبدیل کریں۔ کوئی واٹرمارکس، فائل سائز کی حدود، ڈاؤن لوڈ یا سائن اپ کی ضرورت نہیں ہوتی۔",
+    "pdf_tools__rotate_pdf__title": "PDF گھمائیں - آسانی سے PDF دستاویزات میں صفحات گھمائیں آن لائن | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "بلا مقابلہ آن لائن PDF دستاویزات میں صفحات بلا درد گھمائیں۔ کسی بھی کلک کے ساتھ کسی بھی PDF صفحے کی رویت ترتیب دیں - کوئی فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF لوڈ ہو رہا ہے",
     "components__ocr_pdf__main__ocr_and_download": "OCR اور ڈاؤن لوڈ کریں",
     "components__ocr_pdf__main__document_scanning_language": "دستاویز اسکیننگ زبان"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "تمام گھمائیں",
+    "components__rotate_pdf__main__remove_pdf": "PDF ہٹائیں",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "اس PDF کو ہٹائیں اور نیا منتخب کریں",
+    "components__rotate_pdf__button__zoom_in__tooltip": "زوم ان",
+    "components__rotate_pdf__button__zoom_out__tooltip": "زوم آؤٹ",
+    "components__rotate_pdf__cancel": "منسوخ کریں",
+    "components__rotate_pdf__button__cancel__tooltip": "موجودہ پیش رفت منسوخ کریں",
+    "components__rotate_pdf__button__download__tooltip": "PDF گھمائیں اور ڈاؤن لوڈ کریں",
+    "components__rotate_pdf__button__download": "ڈاؤن لوڈ"
   }
 }

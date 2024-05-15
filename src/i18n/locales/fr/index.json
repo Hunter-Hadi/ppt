@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Notre outil traitera votre PDF, extrayant le texte avec précision et rapidité.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Téléchargez le PDF OCR sur la page des résultats pour visualiser la qualité.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR le document PDF numérisé, afin que vous puissiez facilement choisir de copier et rechercher du texte"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR le document PDF numérisé, afin que vous puissiez facilement choisir de copier et rechercher du texte",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Faire pivoter le PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Faites pivoter toutes les pages ou des pages individuelles dans un PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Cliquez simplement sur une page pour la faire pivoter. Vous pouvez ensuite télécharger votre PDF modifié.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Faites pivoter les pages de vos documents PDF en toute simplicité grâce à notre outil intuitif Rotate PDF en ligne. Obtenez une orientation parfaite en quelques clics, tout en veillant à ce que vos documents restent sécurisés et confidentiels.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Rotation instantanée des pages pour une mise en page parfaite",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Aucun logiciel supplémentaire requis",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Traitement rapide des fichiers à l'aide d'un navigateur sécurisé local",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Orientation des pages sans effort",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Ajustez l'orientation des pages de votre PDF en quelques secondes. Que vous ayez besoin de faire pivoter une seule page ou l'ensemble du document, notre outil offre la flexibilité nécessaire pour chaque scénario.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Interface conviviale",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Notre interface intuitive facilite la rotation des PDF. Il vous suffit de télécharger votre document, de sélectionner les pages à ajuster et de les faire pivoter d'un simple clic.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Maintien de l'intégrité du document",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Nous veillons à ce que la mise en page et la mise en forme de votre document restent intactes, préservant ainsi la qualité et l'exactitude du contenu de votre fichier après la rotation.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Accessible depuis n'importe quel appareil",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Faites pivoter des PDF à tout moment, où que vous soyez. Nos outils basés sur navigateur fonctionnent parfaitement sur tous les appareils et systèmes d'exploitation, sans nécessiter d'installation.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Traitement sécurisé et confidentiel",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "La confidentialité est primordiale. Vos documents sont traités dans le navigateur, ce qui garantit qu'ils ne quittent jamais votre appareil et ne sont ni stockés ni consultés par nous.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Téléchargements instantanés après la rotation",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Une fois la rotation effectuée, téléchargez votre PDF directement depuis l'outil. Plus besoin d'attendre : accédez immédiatement à votre document parfaitement orienté.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Comment faire pivoter les pages d'un PDF en ligne :",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Téléchargez le document PDF que vous souhaitez faire pivoter.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Sélectionnez les pages spécifiques à faire pivoter ou appliquez la rotation à toutes les pages.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Téléchargez votre PDF modifié, avec les pages maintenant dans la bonne orientation, prêt pour toute utilisation."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-Clic pour les suggestions",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "Compresser des PDF - Réduction de la taille des fichiers PDF en ligne | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Comprimez des fichiers PDF dans un navigateur local pour garantir des performances rapides et sécurisées. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - Reconnaissance de texte PDF rapide et locale gratuitement | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Convertir des documents PDF non consultables en texte consultable et sélectionnable en quelques secondes. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis."
+    "pdf_tools__ocr_pdf__description": "Convertir des documents PDF non consultables en texte consultable et sélectionnable en quelques secondes. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
+    "pdf_tools__rotate_pdf__title": "Faire pivoter le PDF - Faites pivoter facilement les pages dans les documents PDF en ligne | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Faites pivoter les pages de vos documents PDF en toute simplicité en ligne et gratuitement. Ajustez l'orientation de n'importe quelle page PDF d'un simple clic, sans limite de taille de fichier, de téléchargement ni d'inscription nécessaire."
   },
   "features_landing": {
     "cta_text": "Ajouter au navigateur",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "Chargement du PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR et Télécharger",
     "components__ocr_pdf__main__document_scanning_language": "Langue de numérisation des documents"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Tout faire pivoter",
+    "components__rotate_pdf__main__remove_pdf": "Supprimer le PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Supprimez ce PDF et sélectionnez-en un nouveau",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Zoom avant",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Zoom arrière",
+    "components__rotate_pdf__cancel": "Annuler",
+    "components__rotate_pdf__button__cancel__tooltip": "Annuler la progression actuelle",
+    "components__rotate_pdf__button__download__tooltip": "Faire pivoter et télécharger le PDF",
+    "components__rotate_pdf__button__download": "Télécharger"
   }
 }

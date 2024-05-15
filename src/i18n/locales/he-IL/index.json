@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "הכלי שלנו יעבד את ה-PDF שלך, יחלץ את הטקסט בדיוק ובמהירות.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "הורד את ה-OCR PDF מהדף התוצאות כדי לראות את האיכות.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "סריקת קובץ PDF באמצעות OCR, כך שתוכל לבחור להעתיק ולחפש טקסט בקלות"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "סריקת קובץ PDF באמצעות OCR, כך שתוכל לבחור להעתיק ולחפש טקסט בקלות",
+    "tools__index_page__constant_obj__rotate_pdf__title": "הטיה של PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "הטיה של כל העמודים או עמודים יחידים ב-PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "לחץ על עמוד כדי להטות אותו. תוכל להוריד את ה-PDF ששונה.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "הטות עמודים במסמכי ה-PDF שלך באמצעות כלי ההטיה המקוון והברור שלנו. השג כיוון מושלם בכמה לחיצות, תוך הבטחת שמירה על פרטיות המסמך שלך.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "הטיה מיידית של עמודים לפריסת מסמך מושלמת",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "אין צורך בתוכנה נוספת",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "עיבוד מהיר של קבצים באמצעות דפדפן מאובטח מקומי",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "הטיה ללא מאמץ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "כוונן את הכיוון של עמודי ה-PDF שלך בשניות. בין שתצטרך להטות עמוד יחיד או את כל המסמך, הכלי שלנו מספק את הגמישות לכל תרחיש.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "ממשק ידידותי למשתמש",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "הממשק האינטואיטיבי שלנו הופך את ההטיות של PDF לפשוטות. פשוט העלה את המסמך שלך, בחר את העמודים שאתה רוצה לכוונן, והטות אותם בלחיצה אחת.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "שמירה על תקינות המסמך",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "אנחנו מבטיחים שפריסת המסמך ועיצובו יישארו שלמים, וכך נשמרת איכות הקובץ ודיוק התוכן לאחר ההטיה.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "גישה מכל מכשיר",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "הטות PDF בכל עת ובכל מקום. הכלים שלנו בדפדפן עובדים בצורה חלקה על כל המכשירים ומערכות הפעלה ללא צורך בהתקנה.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "עיבוד מאובטח ופרטי",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "הפרטיות היא עיקר. המסמכים שלך מעובדים בדפדפן, מבטיחים שהקבצים שלך לעולם לא יעזבו את המכשיר שלך ולא יאוחסנו או יוצגו על ידינו.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "הורדות מיידיות לאחר ההטיה",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "לאחר ההטיה, הורד את ה-PDF שלך ישירות מהכלי. אין צורך להמתין - גש למסמך שכוון בדיוק.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "איך להטות עמודי PDF מקוון:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "העלה את מסמך ה-PDF שברצונך להטות.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "בחר עמודים ספציפיים להטיה או החל את ההטיה על כל העמודים.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "הורד את ה-PDF ששונה, כאשר העמודים מובנים בכיוון הנכון, מוכן לשימוש."
   },
   "prompt_library": {
     "use_prompt_library__title": "1-לחיצה על הצעות",
@@ -845,7 +868,9 @@
     "pdf_tools__compress_pdf__title": "דחיסת PDF - הפחתת גודל PDF מקוון | MaxAI.me",
     "pdf_tools__compress_pdf__description": "דחיסת קבצי PDF בדפדפן מקומי כדי להבטיח ביצועים מהירים ומאובטחים. אין סימני מים, הגבלת גודל קובץ, הורדה או הרשמה נדרשת.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - זיהוי טקסט מהיר ומקומי לקבצי PDF בחינם | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "המרת מסמכי PDF שאינם ניתנים לחיפוש לטקסט ניתן לחיפוש וניתן לבחירה בשניות. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
+    "pdf_tools__ocr_pdf__description": "המרת מסמכי PDF שאינם ניתנים לחיפוש לטקסט ניתן לחיפוש וניתן לבחירה בשניות. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "pdf_tools__rotate_pdf__title": "הטיה של PDF - הטיה פשוטה של עמודים במסמכי PDF מקוונים | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "הטיה פשוטה של עמודים במסמכי PDF מקוונים בחינם. כוון את הכיוון של כל עמוד ב-PDF בלחיצה אחת - ללא הגבלות גודל קובץ, הורדות או הרשמות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -1102,5 +1127,16 @@
     "components__ocr_pdf__main__ocr_loading": "טעינת PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR והורדה",
     "components__ocr_pdf__main__document_scanning_language": "שפת סריקת מסמך ראשית"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "הטות הכל",
+    "components__rotate_pdf__main__remove_pdf": "הסרת PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "הסר את ה-PDF הזה ובחר חדש",
+    "components__rotate_pdf__button__zoom_in__tooltip": "התקרב",
+    "components__rotate_pdf__button__zoom_out__tooltip": "התרחק",
+    "components__rotate_pdf__cancel": "ביטול",
+    "components__rotate_pdf__button__cancel__tooltip": "ביטול התהליך הנוכחי",
+    "components__rotate_pdf__button__download__tooltip": "הטיה והורדת PDF",
+    "components__rotate_pdf__button__download": "הורדה"
   }
 }

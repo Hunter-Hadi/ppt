@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "เครื่องมือของเราจะประมวลผล PDF ของคุณและสกัดข้อความอย่างแม่นยำและรวดเร็ว",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ดาวน์โหลด OCR PDF บนหน้าผลลัพธ์เพื่อดูคุณภาพ",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "แปลงเอกสาร PDF ที่ถูกสแกนด้วย OCR เพื่อให้คุณสามารถคัดลอกและค้นหาข้อความได้ง่ายๆ"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "แปลงเอกสาร PDF ที่ถูกสแกนด้วย OCR เพื่อให้คุณสามารถคัดลอกและค้นหาข้อความได้ง่ายๆ",
+    "tools__index_page__constant_obj__rotate_pdf__title": "หมุน PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "หมุนหน้าทั้งหมดหรือหน้าแต่ละหน้าใน PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "คลิกที่หน้าเพื่อหมุน จากนั้นคุณสามารถดาวน์โหลด PDF ที่แก้ไขแล้วของคุณได้",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "หมุนหน้าภายในเอกสาร PDF ของคุณได้อย่างราบรื่นด้วยเครื่องมือหมุน PDF ออนไลน์ที่ใช้งานง่ายของเรา เพียงไม่กี่คลิกเท่านั้นคุณสามารถปรับการวางแนวได้อย่างสมบูรณ์ โดยยังรักษาความปลอดภัยและความเป็นส่วนตัวของเอกสารของคุณ",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "หมุนหน้าทันทีเพื่อการจัดเลยเอกสารที่สมบูรณ์",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "ไม่ต้องใช้ซอฟต์แวร์เพิ่มเติม",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "ประมวลผลไฟล์อย่างรวดเร็วโดยใช้เบราว์เซอร์ที่ปลอดภัยภายในเครื่อง",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "การปรับแนวหน้าอย่างง่ายดาย",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "ปรับแนวหน้าของ PDF ของคุณได้อย่างรวดเร็ว ไม่ว่าคุณจะต้องการหมุนหน้าเดียวหรือเอกสารทั้งหมด เครื่องมือของเรามีความยืดหยุ่นสำหรับสถานการณ์ใดก็ได้",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "อินเตอร์เฟซที่ใช้งานง่าย",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "อินเตอร์เฟซที่ใช้งานง่ายของเราทำให้การหมุน PDF เป็นเรื่องง่ายดาย เพียงอัปโหลดเอกสารของคุณ เลือกหน้าที่คุณต้องการปรับและหมุนด้วยคลิกเดียว",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "รักษาความถูกต้องของเอกสาร",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "เรารักษาการจัดวางและการจัดรูปแบบของเอกสารของคุณไว้ในสภาพเดิม รักษาคุณภาพและความถูกต้องของเนื้อหาในไฟล์ของคุณหลังจากการหมุน",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "เข้าถึงได้จากอุปกรณ์ใดก็ได้",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "หมุน PDF ได้ตลอดเวลาทุกที่ทุกเวลา เครื่องมือของเราที่ใช้งานผ่านเบราว์เซอร์ทำงานได้อย่างราบรื่นบนอุปกรณ์และระบบปฏิบัติการทุกประเภทโดยไม่ต้องติดตั้ง",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "การประมวลผลที่ปลอดภัยและเป็นส่วนตัว",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "ความเป็นส่วนตัวเป็นสิ่งสำคัญ เราประมวลผลเอกสารของคุณในเบราว์เซอร์เพื่อให้มั่นใจว่าไฟล์ของคุณจะไม่ออกไปจากอุปกรณ์ของคุณและไม่ถูกเก็บรักษาหรือดูข้อมูลโดยเรา",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "ดาวน์โหลดทันทีหลังจากการหมุน",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "หลังจากที่หมุนแล้ว คุณสามารถดาวน์โหลด PDF ของคุณโดยตรงจากเครื่องมือ เราไม่มีการรอคอย - คุณสามารถเข้าถึงเอกสารที่ได้รับการจัดวางอย่างสมบูรณ์ทันที",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "วิธีการหมุนหน้า PDF ออนไลน์:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "อัปโหลดเอกสาร PDF ที่คุณต้องการหมุน",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "เลือกหน้าที่ต้องการหมุนหรือใช้การหมุนกับทุกหน้า",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "ดาวน์โหลด PDF ที่แก้ไขแล้วของคุณ ที่มีหน้าอยู่ในทิศทางที่ถูกต้องพร้อมใช้งานใด ๆ"
   },
   "prompt_library": {
     "use_prompt_library__title": "1-คลิก เทมเพลต",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "บีบอัด PDF - ลดขนาดไฟล์ PDF ออนไลน์ | MaxAI.me",
     "pdf_tools__compress_pdf__description": "บีบอัดไฟล์ PDF ในเบราว์เซอร์ในเครื่องเพื่อให้ได้ประสิทธิภาพที่รวดเร็วและปลอดภัย ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน",
     "pdf_tools__ocr_pdf__title": "OCR PDF - การรู้จำข้อความใน PDF อย่างรวดเร็วและใกล้ตัว | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "แปลงเอกสาร PDF ที่ไม่สามารถค้นหาได้เป็นข้อความที่สามารถค้นหาและเลือกได้ในไม่กี่วินาที ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการลงทะเบียนที่จำเป็น"
+    "pdf_tools__ocr_pdf__description": "แปลงเอกสาร PDF ที่ไม่สามารถค้นหาได้เป็นข้อความที่สามารถค้นหาและเลือกได้ในไม่กี่วินาที ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการลงทะเบียนที่จำเป็น",
+    "pdf_tools__rotate_pdf__title": "หมุน PDF - หมุนหน้าในเอกสาร PDF ออนไลน์อย่างง่ายดาย | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "หมุนหน้าในเอกสาร PDF ของคุณอย่างง่ายดายออนไลน์ฟรี ปรับแนวหน้าของเอกสาร PDF ใดก็ได้ด้วยแค่คลิกเดียว - ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือลงทะเบียน"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "เลือกทั้งหมด",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "การโหลด PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR และดาวน์โหลด",
     "components__ocr_pdf__main__document_scanning_language": "ภาษาสแกนเอกสาร"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "หมุนทั้งหมด",
+    "components__rotate_pdf__main__remove_pdf": "ลบ PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "ลบ PDF นี้และเลือกใหม่",
+    "components__rotate_pdf__button__zoom_in__tooltip": "ขยายภาพ",
+    "components__rotate_pdf__button__zoom_out__tooltip": "ย่อภาพ",
+    "components__rotate_pdf__cancel": "ยกเลิก",
+    "components__rotate_pdf__button__cancel__tooltip": "ยกเลิกการดำเนินการปัจจุบัน",
+    "components__rotate_pdf__button__download__tooltip": "หมุนและดาวน์โหลด PDF",
+    "components__rotate_pdf__button__download": "ดาวน์โหลด"
   }
 }

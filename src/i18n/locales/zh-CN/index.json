@@ -565,7 +565,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "我们的工具将处理您的PDF，准确快速地提取文本。",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "在结果页面上下载OCR PDF以查看质量。",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR 扫描的 PDF 文档，让您可以轻松选择复制和搜索文本"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR 扫描的 PDF 文档，让您可以轻松选择复制和搜索文本",
+    "tools__index_page__constant_obj__rotate_pdf__title": "旋转PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "旋转PDF中的所有或单个页面",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "只需点击页面即可将其旋转。然后，您可以下载修改后的PDF。",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "使用我们直观的在线旋转PDF工具，无缝旋转PDF文档中的页面。只需几次点击即可实现完美的方向，同时确保您的文档安全和私密。",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "即时页面旋转，实现完美的文档布局",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "无需额外的软件",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "使用本地安全浏览器快速处理文件",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "轻松调整页面方向",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "在几秒钟内调整PDF页面的方向。无论您需要旋转单个页面还是整个文档，我们的工具都提供了适应任何情况的灵活性。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "用户友好界面",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "我们直观的界面使旋转PDF变得简单。只需上传您的文档，选择需要调整的页面，然后通过单击将它们旋转。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "保持文档完整性",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "我们确保您的文档布局和格式保持完整，保留文件的质量和内容准确性。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "可从任何设备访问",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "随时随地旋转PDF。我们基于浏览器的工具在所有设备和操作系统上无缝运行，无需安装。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "安全和私密处理",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "隐私至关重要。您的文档在浏览器中处理，确保您的文件永远不会离开您的设备，并且我们不会存储或查看文件。",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "旋转后立即下载",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "旋转后，直接从工具下载您的PDF。无需等待，立即访问您完美方向的文档。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "如何在线旋转PDF页面：",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "上传要旋转的PDF文档。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "选择要旋转的特定页面或将旋转应用于所有页面。",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下载已更改方向的PDF，准备进行任何使用。"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -846,7 +869,9 @@
     "pdf_tools__compress_pdf__title": "压缩PDF - 在线PDF大小减小 | MaxAI.me",
     "pdf_tools__compress_pdf__description": "通过本地浏览器压缩PDF文件，以确保快速和安全的性能。无水印，文件大小限制，无需下载或注册。",
     "pdf_tools__ocr_pdf__title": "OCR PDF-快速和本地PDF文本识别免费| MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "将非可搜索的PDF文档转换为可搜索和可选择的文本，仅需几秒钟。无需水印、文件大小限制、下载或注册。"
+    "pdf_tools__ocr_pdf__description": "将非可搜索的PDF文档转换为可搜索和可选择的文本，仅需几秒钟。无需水印、文件大小限制、下载或注册。",
+    "pdf_tools__rotate_pdf__title": "旋转PDF - 在线轻松旋转PDF文档中的页面 | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "轻松在您的PDF文档中在线旋转页面，完全免费。只需点击即可调整任何PDF页面的方向-无需文件大小限制、下载或注册。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全选",
@@ -1103,5 +1128,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF加载中",
     "components__ocr_pdf__main__ocr_and_download": "OCR和下载",
     "components__ocr_pdf__main__document_scanning_language": "文档扫描语言"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "全部旋转",
+    "components__rotate_pdf__main__remove_pdf": "删除PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "删除此PDF并选择新的PDF",
+    "components__rotate_pdf__button__zoom_in__tooltip": "放大",
+    "components__rotate_pdf__button__zoom_out__tooltip": "缩小",
+    "components__rotate_pdf__cancel": "取消",
+    "components__rotate_pdf__button__cancel__tooltip": "取消当前进度",
+    "components__rotate_pdf__button__download__tooltip": "旋转并下载PDF",
+    "components__rotate_pdf__button__download": "下载"
   }
 }
