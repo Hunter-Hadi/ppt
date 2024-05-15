@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import * as React from 'react';
 import { FC, useState } from 'react';
@@ -30,6 +31,8 @@ const INDUSTRIES_MENU_LIST = [
 
 const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
   const { t } = useTranslation();
+
+  const { pathname } = useRouter();
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
@@ -100,6 +103,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
           {INDUSTRIES_MENU_LIST.map((industriesItem) => (
             <MenuItem
               key={industriesItem.href}
+              selected={pathname === industriesItem.href}
               sx={{
                 borderRadius: '8px',
                 mb: 1,
@@ -202,6 +206,7 @@ const IndustriesItem: FC<IProps> = ({ isSmallScreen }) => {
         {INDUSTRIES_MENU_LIST.map((industriesItem) => (
           <MenuItem
             key={industriesItem.href}
+            selected={pathname === industriesItem.href}
             sx={{
               borderRadius: '8px',
               fontSize: '16px !important',

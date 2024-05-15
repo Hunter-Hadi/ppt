@@ -4,8 +4,8 @@ import Typography from '@mui/material/Typography';
 import React, { FC } from 'react';
 
 import CTAInstallButton from '@/page_components/CTAInstallButton';
-import FeaturesLandingIcons from '@/page_components/FeaturesPages/components/FeaturesLandingIcons';
-import PoweredBy from '@/page_components/FeaturesPages/components/PoweredBy';
+import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons';
+import PoweredBy from '@/page_components/FeaturesLandingPages/components/PoweredBy';
 
 interface IProps {
   title: string;

@@ -6,17 +6,29 @@ import { i18nLocales } from '@/i18n/utils';
 const POPULAR_LANGUAGE_LOCALE = ['en', 'zh-CN', 'fr'];
 
 // 生成带有 i18n 数据的 getStaticProps
-export function makeStaticProps() {
-  return async function getStaticProps(ctx) {
-    const locale = ctx?.params?.locale?.toString() || 'en';
+export function makeStaticProps(
+  makeStaticPropsResult?: () => GetStaticPropsResult<{ [key: string]: any }>,
+) {
+  const originalStaticPropsResult = (
+    makeStaticPropsResult || (() => ({ props: {}, revalidate: undefined }))
+  )();
 
-    return {
-      props: {
-        ...(await serverSideTranslations(locale)),
-      },
-      // revalidate: 86400 * 30, // 24 hours * 30
+  debugger;
+
+  if ('props' in originalStaticPropsResult) {
+    return async function getStaticProps(ctx) {
+      const locale = ctx?.params?.locale?.toString() || 'en';
+      return {
+        props: {
+          ...(await serverSideTranslations(locale)),
+          ...originalStaticPropsResult.props,
+        },
+        revalidate: originalStaticPropsResult.revalidate,
+      };
     };
-  };
+  } else {
+    return originalStaticPropsResult;
+  }
 }
 
 // 生成所有 i18n code 的 静态路由

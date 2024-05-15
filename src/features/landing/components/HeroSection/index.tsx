@@ -3,19 +3,32 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
-import HeroVideoBox from '@/features/landing/components/HeroSection/HeroVideoBox';
+import HeroVideoBox, {
+  IHeroVideoProps,
+} from '@/features/landing/components/HeroSection/HeroVideoBox';
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
+import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
   propRef?: string;
   propTitle?: React.ReactNode;
   propDescription?: React.ReactNode;
+
+  heroVideoProps?: IHeroVideoProps;
+
+  trackerLinkProps?: IUseShareTrackerLinkProps;
 }
 
-const HeroSection: FC<IProps> = ({ propRef, propTitle, propDescription }) => {
+const HeroSection: FC<IProps> = ({
+  propRef,
+  propTitle,
+  propDescription,
+  heroVideoProps,
+  trackerLinkProps,
+}) => {
   const { browserAgent: agent } = useBrowserAgent();
 
   const { t } = useTranslation();
@@ -178,6 +191,7 @@ const HeroSection: FC<IProps> = ({ propRef, propTitle, propDescription }) => {
                     defaultRef: propRef ?? 'homepage',
                     queryRefEnable: true,
                     pathnameRefEnable: false,
+                    ...trackerLinkProps,
                   }}
                   sx={{
                     width: agent === 'Chrome' ? '100%' : 'max-content',
@@ -192,6 +206,7 @@ const HeroSection: FC<IProps> = ({ propRef, propTitle, propDescription }) => {
                     defaultRef: propRef ?? 'homepage',
                     queryRefEnable: true,
                     pathnameRefEnable: false,
+                    ...trackerLinkProps,
                   }}
                   sx={{
                     width: agent === 'Edge' ? '100%' : 'max-content',
@@ -202,7 +217,7 @@ const HeroSection: FC<IProps> = ({ propRef, propTitle, propDescription }) => {
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={6}>
-            <HeroVideoBox />
+            <HeroVideoBox {...heroVideoProps} />
           </Grid>
         </Grid>
       </Box>
