@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",
-    "use_prompt_library__title__tooltip": "1-клік підказки",
+    "use_prompt_library__title__tooltip": "Бібліотека AI-підказок",
     "tab__favorites__title": "Улюблені",
     "tab__public__title": "Публічні",
     "tab__own__title": "Власні",

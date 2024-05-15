@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "高质量的AI提示库",
-    "use_prompt_library__title__tooltip": "1点击提示",
+    "use_prompt_library__title__tooltip": "AI提示库",
     "tab__favorites__title": "收藏夹",
     "tab__public__title": "公共",
     "tab__own__title": "自己的",

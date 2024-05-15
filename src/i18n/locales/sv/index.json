@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",
-    "use_prompt_library__title__tooltip": "1-klicka på förslag",
+    "use_prompt_library__title__tooltip": "AI promptbibliotek",
     "tab__favorites__title": "Favoriter",
     "tab__public__title": "Offentlig",
     "tab__own__title": "Egen",

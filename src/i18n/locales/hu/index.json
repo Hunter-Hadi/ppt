@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",
-    "use_prompt_library__title__tooltip": "1-kattintásos segítség",
+    "use_prompt_library__title__tooltip": "AI prompt könyvtár",
     "tab__favorites__title": "Kedvencek",
     "tab__public__title": "Nyilvános",
     "tab__own__title": "Saját",

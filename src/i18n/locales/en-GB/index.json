@@ -718,7 +718,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",
-    "use_prompt_library__title__tooltip": "1-click prompts",
+    "use_prompt_library__title__tooltip": "AI prompt library",
     "tab__favorites__title": "Favorites",
     "tab__public__title": "Public",
     "tab__own__title": "Own",

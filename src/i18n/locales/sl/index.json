@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",
-    "use_prompt_library__title__tooltip": "1-klikni predloge",
+    "use_prompt_library__title__tooltip": "Knjižnica AI spodbud",
     "tab__favorites__title": "Priljubljene",
     "tab__public__title": "Javno",
     "tab__own__title": "Lastno",

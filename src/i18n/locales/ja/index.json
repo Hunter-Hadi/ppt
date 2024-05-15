@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
-    "use_prompt_library__title__tooltip": "1クリックのプロンプト",
+    "use_prompt_library__title__tooltip": "AIプロンプトライブラリ",
     "tab__favorites__title": "お気に入り",
     "tab__public__title": "公開",
     "tab__own__title": "自分のもの",

@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
-    "use_prompt_library__title__tooltip": "Prompts cu un singur clic",
+    "use_prompt_library__title__tooltip": "Bibliotecă de sugestii AI",
     "tab__favorites__title": "Favorite",
     "tab__public__title": "Public",
     "tab__own__title": "Propriu",

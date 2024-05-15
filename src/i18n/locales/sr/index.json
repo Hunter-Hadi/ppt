@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteka AI uputa visokog kvaliteta",
-    "use_prompt_library__title__tooltip": "1-klik prompts",
+    "use_prompt_library__title__tooltip": "Biblioteka AI uputa",
     "tab__favorites__title": "Omiljeni",
     "tab__public__title": "Javno",
     "tab__own__title": "Svoje",

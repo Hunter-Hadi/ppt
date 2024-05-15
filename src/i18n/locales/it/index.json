@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Libreria di prompt AI di alta qualità",
-    "use_prompt_library__title__tooltip": "Prompts in un clic",
+    "use_prompt_library__title__tooltip": "Libreria di suggerimenti IA",
     "tab__favorites__title": "Preferiti",
     "tab__public__title": "Pubblico",
     "tab__own__title": "Proprio",

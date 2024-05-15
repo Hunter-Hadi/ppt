@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",
-    "use_prompt_library__title__tooltip": "1-클릭 프롬프트",
+    "use_prompt_library__title__tooltip": "AI 프롬프트 라이브러리",
     "tab__favorites__title": "즐겨찾기",
     "tab__public__title": "공개",
     "tab__own__title": "나의 것",

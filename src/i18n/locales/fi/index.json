@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",
-    "use_prompt_library__title__tooltip": "1-klikkaa ehdotuksia",
+    "use_prompt_library__title__tooltip": "AI:n ohjekirjasto",
     "tab__favorites__title": "Suosikit",
     "tab__public__title": "Julkinen",
     "tab__own__title": "Oma",

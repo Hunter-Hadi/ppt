@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Որակյալ AI խորհրդատու գրադարան",
-    "use_prompt_library__title__tooltip": "1-սեղմումով հարցեր",
+    "use_prompt_library__title__tooltip": "AI խնդրագրական գրադարան",
     "tab__favorites__title": "Իմ ընտրանքները",
     "tab__public__title": "Հանրային",
     "tab__own__title": "Իմ սեփական",

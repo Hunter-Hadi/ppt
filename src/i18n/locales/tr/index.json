@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
-    "use_prompt_library__title__tooltip": "1 tıklama ipuçları",
+    "use_prompt_library__title__tooltip": "AI prompt kütüphanesi",
     "tab__favorites__title": "Favoriler",
     "tab__public__title": "Herkese Açık",
     "tab__own__title": "Kendi",

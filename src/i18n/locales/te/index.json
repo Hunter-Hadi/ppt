@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "ఉచిత గుర్తు లైబ్రరీ",
-    "use_prompt_library__title__tooltip": "1-క్లిక్ ప్రాంప్టులు",
+    "use_prompt_library__title__tooltip": "AI ప్రాంప్ట్ లైబ్రరీ",
     "tab__favorites__title": "ఇష్టమైనవి",
     "tab__public__title": "పబ్లిక్",
     "tab__own__title": "స్వంతం",

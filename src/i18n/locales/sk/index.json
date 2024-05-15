@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Knižnica vysoko kvalitných AI promptov",
-    "use_prompt_library__title__tooltip": "Podnety jedným kliknutím",
+    "use_prompt_library__title__tooltip": "Knižnica návodov AI",
     "tab__favorites__title": "Obľúbené",
     "tab__public__title": "Verejné",
     "tab__own__title": "Vlastné",

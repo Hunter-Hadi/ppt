@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",
-    "use_prompt_library__title__tooltip": "prompts amb un clic",
+    "use_prompt_library__title__tooltip": "Biblioteca de suggeriments d'IA",
     "tab__favorites__title": "Favorits",
     "tab__public__title": "Públic",
     "tab__own__title": "Propi",

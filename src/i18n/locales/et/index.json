@@ -583,7 +583,7 @@
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",
-    "use_prompt_library__title__tooltip": "1-klõpsu vihjed",
+    "use_prompt_library__title__tooltip": "AI kasutamiseks mõeldud kirjade kogu",
     "tab__favorites__title": "Lemmikud",
     "tab__public__title": "Avalik",
     "tab__own__title": "Oma",
