@@ -105,7 +105,9 @@ const PartnersUnInstallPage = () => {
           <HomePageContent propRef={propRef} />
         )}
       </Box>
-      {!hasExtension && <FixedCtaButton propRef={propRef} />}
+      {!hasExtension && (
+        <FixedCtaButton propRef={propRef} partnerPageType='uninstalled' />
+      )}
     </Box>
   );
 };

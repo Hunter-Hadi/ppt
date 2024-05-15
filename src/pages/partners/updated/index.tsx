@@ -105,7 +105,9 @@ const PartnersUpdatedPage = () => {
           <HomePageContent propRef={propRef} />
         )}
       </Box>
-      {!hasExtension && <FixedCtaButton propRef={propRef} />}
+      {!hasExtension && (
+        <FixedCtaButton propRef={propRef} partnerPageType='updated' />
+      )}
     </Box>
   );
 };

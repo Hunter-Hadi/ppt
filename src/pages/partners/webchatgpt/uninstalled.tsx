@@ -6,12 +6,12 @@ import React, { useEffect, useState } from 'react';
 import UAParser from 'ua-parser-js';
 
 import HomePageContent from '@/features/landing/components/HomePageContent';
-import FixedFooter from '@/features/webchatgpt/components/FixedFooter';
 import WebChatGPTSingleSurvey from '@/features/webchatgpt/components/Survey';
 import WebChatGPTSurveyExplain from '@/features/webchatgpt/components/Survey/SurveyExplain';
 import { UNINSTALL_SURVET_NAME } from '@/features/webchatgpt/constant';
 import WebChatGPTHeader from '@/features/webchatgpt/layout/WebChatGPTHeader';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
 import TryExtensionButton from '@/page_components/partners_components/TryExtensionButton';
 import { USER_API } from '@/utils/api';
 import { post } from '@/utils/crx_request';
@@ -171,7 +171,7 @@ const WebChatGPTUninstalled = () => {
       </Stack>
       <Box pb={11}>
         <HomePageContent propRef={propRef} />
-        <FixedFooter propRef={propRef} />
+        <FixedCtaButton propRef={propRef} partnerPageType='uninstalled' />
       </Box>
     </Stack>
   );

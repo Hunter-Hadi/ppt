@@ -10,10 +10,13 @@ import CTAInstallButton from '../CTAInstallButton';
 
 interface IProps {
   propRef?: string;
+  partnerPageType: 'updated' | 'installed' | 'uninstalled';
 }
 
-const FixedCtaButton: FC<IProps> = ({ propRef }) => {
+const FixedCtaButton: FC<IProps> = ({ propRef, partnerPageType }) => {
   const { ref: pathnameRef } = useInstallChromeExtensionLink();
+
+  const ref = propRef ?? pathnameRef;
 
   return (
     <Stack
@@ -47,7 +50,7 @@ const FixedCtaButton: FC<IProps> = ({ propRef }) => {
         }}
       />
       <ProLink
-        href={`${MAXAI_WWW_SHARE_TRACKER_LINK}?ref=${propRef ?? pathnameRef}`}
+        href={`${MAXAI_WWW_SHARE_TRACKER_LINK}?partner=${partnerPageType}_${ref}`}
         target='_blank'
       >
         <Typography

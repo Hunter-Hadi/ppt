@@ -67,7 +67,7 @@ const J2teamSecurityUpdated = () => {
         <TryExtensionButton propRef={propRef} />
         <HomePageContent propRef={propRef} />
       </Box>
-      <FixedCtaButton propRef={propRef} />
+      <FixedCtaButton propRef={propRef} partnerPageType='updated' />
     </Box>
   );
 };

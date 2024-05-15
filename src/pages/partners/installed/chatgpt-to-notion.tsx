@@ -71,7 +71,7 @@ const ChatgptToNotion = () => {
         <TryExtensionButton propRef={propRef} />
         <HomePageContent propRef={propRef} />
       </Box>
-      <FixedCtaButton propRef={propRef} />
+      <FixedCtaButton propRef={propRef} partnerPageType='installed' />
     </Box>
   );
 };

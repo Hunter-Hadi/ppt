@@ -74,10 +74,10 @@ export const EXTENSION_SHARE_TRACKER_LINK =
 export const EXTENSION_EDGE_SHARE_TRACKER_LINK =
   APP_EXTERNAL_LINKS['EDGE_EXTENSION'];
 
-export const MAXAI_WWW_SHARE_TRACKER_LINK =
-  'https://api.maxai.me/app/maxai-web';
-export const MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK =
-  'https://api.maxai.me/app/prompts-web';
+export const MAXAI_WWW_SHARE_TRACKER_LINK = WWW_PROJECT_LINK;
+
+// export const MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK =
+//   'https://api.maxai.me/app/prompts-web';
 
 // prompt library 代理容器的 base path
 export const PROMPT_LIBRARY_PROXY_BASE_PATH = '/prompt';
