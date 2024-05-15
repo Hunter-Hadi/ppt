@@ -63,10 +63,17 @@ export const AD_BLOG_CHROME_EXTENSION_PNG =
 export const QUOTA_TEXT = 'Free AI without a daily limit';
 
 export const EXTENSION_INSTALL_TRACKER_LINK = `https://api.maxai.me/app/install`;
+
+// 这些改为直接跳转具体的 chrome 或者 edge 的安装连接，这样能增加跳转成功率（我们自己的api在有些国家不一定能打开，而且慢） - 2024-05-15 - @huangsong
+// export const EXTENSION_SHARE_TRACKER_LINK =
+//   'https://api.maxai.me/app/maxai-ext';
+// export const EXTENSION_EDGE_SHARE_TRACKER_LINK =
+//   'https://api.maxai.me/app/maxai-edge';
 export const EXTENSION_SHARE_TRACKER_LINK =
-  'https://api.maxai.me/app/maxai-ext';
+  APP_EXTERNAL_LINKS['CHROME_EXTENSION'];
 export const EXTENSION_EDGE_SHARE_TRACKER_LINK =
-  'https://api.maxai.me/app/maxai-edge';
+  APP_EXTERNAL_LINKS['EDGE_EXTENSION'];
+
 export const MAXAI_WWW_SHARE_TRACKER_LINK =
   'https://api.maxai.me/app/maxai-web';
 export const MAXAI_WWW_PROMPT_SHARE_TRACKER_LINK =
