@@ -453,6 +453,10 @@
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR scanned PDF document, so you can easily choose to copy and search for text",
 
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Number Pages",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Insert page numbers in PDF with ease",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Batch and quick insertion of page numbers in PDF documents",
+
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",

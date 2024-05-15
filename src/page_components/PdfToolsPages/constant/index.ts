@@ -11,7 +11,8 @@ export type IToolUrkKeyType =
   | 'pdf-to-html'
   | 'sign-pdf'
   | 'compress-pdf'
-  | 'ocr-pdf';
+  | 'ocr-pdf'
+  | 'pdf-numbers-page';
 export interface IToolData {
   icon: string;
   title: string;
@@ -137,6 +138,16 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
     urlKey: routerChildrenObject['ocr-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'pdf-numbers-page': {
+    icon: 'CropOriginal',
+    title: 'pages:tools__index_page__constant_obj__pdf_page_numbers__title',
+    description:
+      'pages:tools__index_page__constant_obj__pdf_page_numbers__main_description',
+    secondaryDescription:
+      'pages:tools__index_page__constant_obj__pdf_page_numbers__main_description',
+    urlKey: routerChildrenObject['pdf-numbers-page'],
     urlPrefixPath: toolsTopUrlKey,
   },
 };
