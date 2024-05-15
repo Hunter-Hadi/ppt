@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "在任何語言之間進行翻譯",
     "home_page__features_carousel__feature_prompts__label": "AI 提示",
     "home_page__features_carousel__feature_prompts__title": "現在只需幾分鐘完成您的日常任務，而不再是幾小時。",
-    "home_page__features_carousel__feature_prompts__description1": "高品質的 AI 提示庫",
+    "home_page__features_carousel__feature_prompts__description1": "高品質的AI提示庫",
     "home_page__features_carousel__feature_prompts__description2": "創建和管理自己的提示",
     "home_page__features_carousel__feature_prompts__description3": "重複使用自己的提示",
     "home_page__features_carousel__feature_prompts__description4": "自定義語氣和寫作風格",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "使用 AI 視覺快速分析圖像的最佳方法。只需截圖並立即提出任何問題。每天節省寶貴時間，更聰明地進行研究。",
     "ai_vision_pages__section3__title": "在您工作的地方發揮作用",
     "ai_vision_pages__section3__description": "在您需要的地方分析任何圖像。MaxAI 可在您使用的所有 Web 應用程序和網站上運行。無需複製、粘貼或切換上下文。",
-    "ai_vision_pages__section4__title": "由最佳 AI 視覺模型提供支持"
+    "ai_vision_pages__section4__title": "由最佳 AI 視覺模型提供支持",
+    "cta_text__add_to_browser_for_free": "免費加入{{BROWSER}}"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "添加PDF",

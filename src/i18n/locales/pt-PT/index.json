@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Traduza entre qualquer idioma",
     "home_page__features_carousel__feature_prompts__label": "Sugestões de IA",
     "home_page__features_carousel__feature_prompts__title": "Complete suas tarefas diárias em minutos, não mais em horas.",
-    "home_page__features_carousel__feature_prompts__description1": "Biblioteca de sugestões de IA de alta qualidade",
+    "home_page__features_carousel__feature_prompts__description1": "Biblioteca de prompts de IA de alta qualidade",
     "home_page__features_carousel__feature_prompts__description2": "Crie e gerencie suas próprias sugestões",
     "home_page__features_carousel__feature_prompts__description3": "Reutilize suas próprias sugestões",
     "home_page__features_carousel__feature_prompts__description4": "Estilos de tom e escrita personalizados",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "A maneira mais rápida de analisar imagens com visão de IA. Basta tirar uma captura de tela e fazer perguntas imediatamente. Pesquise de forma mais inteligente enquanto recupera horas preciosas todos os dias.",
     "ai_vision_pages__section3__title": "Funciona onde você trabalha",
     "ai_vision_pages__section3__description": "Analise qualquer imagem exatamente onde você precisa. O MaxAI funciona em todos os aplicativos e sites da web que você usa. Sem copiar, colar ou alternar de contexto.",
-    "ai_vision_pages__section4__title": "Alimentado pelos melhores modelos de IA com visão"
+    "ai_vision_pages__section4__title": "Alimentado pelos melhores modelos de IA com visão",
+    "cta_text__add_to_browser_for_free": "Adicionar ao {{BROWSER}} gratuitamente"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selecionar tudo",

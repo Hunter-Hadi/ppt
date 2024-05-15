@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Tõlgi mis tahes keelte vahel",
     "home_page__features_carousel__feature_prompts__label": "AI Vihjed",
     "home_page__features_carousel__feature_prompts__title": "Täida oma igapäevased ülesanded minutitega, mitte enam tundidega.",
-    "home_page__features_carousel__feature_prompts__description1": "Kõrge kvaliteediga AI vihjete raamatukogu",
+    "home_page__features_carousel__feature_prompts__description1": "Kõrgekvaliteediline AI-promptide raamatukogu",
     "home_page__features_carousel__feature_prompts__description2": "Loo ja haldage oma vihjeid",
     "home_page__features_carousel__feature_prompts__description3": "Kasuta uuesti oma vihjeid",
     "home_page__features_carousel__feature_prompts__description4": "Kohandatud toon ja kirjutamisstiilid",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Kiireim viis piltide analüüsimiseks AI nägemusega. Lihtsalt tee ekraanipilt ja küsi kohe küsimusi. Uuri targemalt, samal ajal igapäevaseid tunde tagasi võttes.",
     "ai_vision_pages__section3__title": "Töötab seal, kus sina töötad",
     "ai_vision_pages__section3__description": "Analüüsi mis tahes pilti seal, kus seda vajad. MaxAI töötab kõigis veebirakendustes ja saitidel, mida kasutad. Ei mingit kopeerimist, kleepimist ega konteksti vahetamist.",
-    "ai_vision_pages__section4__title": "Parimate AI mudelite toel"
+    "ai_vision_pages__section4__title": "Parimate AI mudelite toel",
+    "cta_text__add_to_browser_for_free": "Lisa tasuta {{BROWSER}}-i"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Vali kõik",

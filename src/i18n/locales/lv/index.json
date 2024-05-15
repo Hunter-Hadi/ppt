@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Tulkot starp jebkurām valodām",
     "home_page__features_carousel__feature_prompts__label": "AI Uzaicinājumi",
     "home_page__features_carousel__feature_prompts__title": "Pabeidziet savas ikdienas uzdevumus tagad minūtēs, nevis stundās.",
-    "home_page__features_carousel__feature_prompts__description1": "Augstas kvalitātes AI uzaicinājumu bibliotēka",
+    "home_page__features_carousel__feature_prompts__description1": "Augstas kvalitātes AI pamatbibliotēka",
     "home_page__features_carousel__feature_prompts__description2": "Izveidojiet un pārvaldiet savus pašu uzaicinājumus",
     "home_page__features_carousel__feature_prompts__description3": "Atkārtoti izmantojiet savus pašu uzaicinājumus",
     "home_page__features_carousel__feature_prompts__description4": "Pielāgot toni un rakstīšanas stilus",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Ātrākais veids, kā analizēt attēlus ar AI redzi. Vienkārši uzņemiet ekrānuzņēmumu un uzdodiet jebkādus jautājumus nekavējoties. Veiciet gudrākus pētījumus, atgūstot dārgas stundas katru dienu.",
     "ai_vision_pages__section3__title": "Darbojas tur, kur strādājat",
     "ai_vision_pages__section3__description": "Analizējiet jebkuru attēlu tieši tur, kur to vajadzētu. MaxAI darbojas visos tīmekļa lietojumprogrammās un vietnēs, ko izmantojat. Nav kopēšanas, nav ielīmēšanas, nav konteksta maiņas.",
-    "ai_vision_pages__section4__title": "Darbojas ar labākajiem AI modeļiem ar redzi"
+    "ai_vision_pages__section4__title": "Darbojas ar labākajiem AI modeļiem ar redzi",
+    "cta_text__add_to_browser_for_free": "Pievienot {{BROWSER}} bez maksas"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Izvēlēties visu",

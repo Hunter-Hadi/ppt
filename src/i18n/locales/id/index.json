@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Terjemahkan antara bahasa apa pun",
     "home_page__features_carousel__feature_prompts__label": "Prompts AI",
     "home_page__features_carousel__feature_prompts__title": "Selesaikan tugas harian Anda dalam hitungan menit, bukan jam lagi.",
-    "home_page__features_carousel__feature_prompts__description1": "Perpustakaan prompts AI berkualitas tinggi",
+    "home_page__features_carousel__feature_prompts__description1": "Perpustakaan AI prompt berkualitas tinggi",
     "home_page__features_carousel__feature_prompts__description2": "Buat dan kelola prompts Anda sendiri",
     "home_page__features_carousel__feature_prompts__description3": "Gunakan kembali prompts Anda sendiri",
     "home_page__features_carousel__feature_prompts__description4": "Gaya nada dan penulisan kustom",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Cara tercepat untuk menganalisis gambar dengan AI vision. Cukup ambil tangkapan layar dan ajukan pertanyaan apa pun segera. Penelitian lebih cerdas sambil menghemat waktu berharga setiap hari.",
     "ai_vision_pages__section3__title": "Bekerja di tempat Anda bekerja",
     "ai_vision_pages__section3__description": "Analisis gambar apa pun, tepat di tempat Anda membutuhkannya. MaxAI bekerja di semua aplikasi web dan situs yang Anda gunakan. Tidak ada menyalin, tidak ada menempel, tidak ada beralih konteks.",
-    "ai_vision_pages__section4__title": "Didukung oleh model AI terbaik dengan visi"
+    "ai_vision_pages__section4__title": "Didukung oleh model AI terbaik dengan visi",
+    "cta_text__add_to_browser_for_free": "Tambahkan ke {{BROWSER}} secara gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Pilih Semua",

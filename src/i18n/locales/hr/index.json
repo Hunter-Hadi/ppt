@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Prevedite između bilo kojih jezika",
     "home_page__features_carousel__feature_prompts__label": "AI Podražaji",
     "home_page__features_carousel__feature_prompts__title": "Završite svoje dnevne zadatke u minutama, a ne više satima.",
-    "home_page__features_carousel__feature_prompts__description1": "Biblioteka visokokvalitetnih AI podražaja",
+    "home_page__features_carousel__feature_prompts__description1": "Visoka kvaliteta AI biblioteke uputa",
     "home_page__features_carousel__feature_prompts__description2": "Kreirajte i upravljajte vlastitim podražajima",
     "home_page__features_carousel__feature_prompts__description3": "Ponovno koristite vlastite podražaje",
     "home_page__features_carousel__feature_prompts__description4": "Prilagođeni ton i stil pisanja",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Najbrži način za analizu slika pomoću AI vizije. Jednostavno napravite snimak ekrana i odmah postavite pitanja. Pametnije istražujte dok vraćate dragocjene sate svaki dan.",
     "ai_vision_pages__section3__title": "Radi tamo gdje radite",
     "ai_vision_pages__section3__description": "Analizirajte bilo koju sliku tamo gdje vam je potrebna. MaxAI radi na svim web aplikacijama i stranicama koje koristite. Nema kopiranja, nema lijepljenja, nema prebacivanja konteksta.",
-    "ai_vision_pages__section4__title": "Pokreće najbolje AI modele s vizijom"
+    "ai_vision_pages__section4__title": "Pokreće najbolje AI modele s vizijom",
+    "cta_text__add_to_browser_for_free": "Dodajte u {{BROWSER}} besplatno"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Odaberi sve",

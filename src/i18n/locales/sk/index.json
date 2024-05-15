@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Prekladajte medzi akýmikoľvek jazykmi",
     "home_page__features_carousel__feature_prompts__label": "AI Návrhy",
     "home_page__features_carousel__feature_prompts__title": "Dokončite svoje denné úlohy za minúty, nie hodiny.",
-    "home_page__features_carousel__feature_prompts__description1": "Kvalitná knižnica AI návrhov",
+    "home_page__features_carousel__feature_prompts__description1": "Knižnica vysoko kvalitných AI promptov",
     "home_page__features_carousel__feature_prompts__description2": "Vytvárajte a spravujte vlastné návrhy",
     "home_page__features_carousel__feature_prompts__description3": "Opakovane používajte svoje vlastné návrhy",
     "home_page__features_carousel__feature_prompts__description4": "Vlastný tón a štýl písania",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Najrýchlejší spôsob, ako analyzovať obrázky pomocou AI videnia. Stačí urobiť snímku obrazovky a okamžite položiť akékoľvek otázky. Vylepšujte svoje výskumy a získajte cenné hodiny každý deň.",
     "ai_vision_pages__section3__title": "Funguje tam, kde pracujete",
     "ai_vision_pages__section3__description": "Analyzujte akýkoľvek obrázok priamo tam, kde ho potrebujete. MaxAI funguje vo všetkých webových aplikáciách a stránkach, ktoré používate. Žiadne kopírovanie, žiadne vkladanie, žiadne prepínanie kontextu.",
-    "ai_vision_pages__section4__title": "Napájané najlepšími modelmi AI s videním"
+    "ai_vision_pages__section4__title": "Napájané najlepšími modelmi AI s videním",
+    "cta_text__add_to_browser_for_free": "Pridať do {{BROWSER}} zdarma"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Vybrať všetko",

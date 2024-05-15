@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Den raskeste måten å analysere bilder med AI-visjon. Ta bare et skjermbilde og still spørsmål umiddelbart. Forsk smartere samtidig som du sparer verdifulle timer hver dag.",
     "ai_vision_pages__section3__title": "Fungerer der du jobber",
     "ai_vision_pages__section3__description": "Analyser hvilket som helst bilde, akkurat der du trenger det. MaxAI fungerer på tvers av alle webapper og nettsteder du bruker. Ingen kopiering, ingen liming, ingen kontekstbytte.",
-    "ai_vision_pages__section4__title": "Drevet av de beste AI-modellene med visjon"
+    "ai_vision_pages__section4__title": "Drevet av de beste AI-modellene med visjon",
+    "cta_text__add_to_browser_for_free": "Legg til i {{BROWSER}} gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Velg alle",
@@ -1254,5 +1255,6 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Lasting",
     "components__ocr_pdf__main__ocr_and_download": "OCR og Nedlasting",
     "components__ocr_pdf__main__document_scanning_language": "Språk for skanning av dokumenter"
-  }
+  },
+  "": ""
 }

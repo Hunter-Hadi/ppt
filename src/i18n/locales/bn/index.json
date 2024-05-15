@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "কোনও ভাষার মধ্যে অনুবাদ করুন",
     "home_page__features_carousel__feature_prompts__label": "এই প্রম্পট",
     "home_page__features_carousel__feature_prompts__title": "এখন আপনার দৈনিক কাজগুলি মিনিটে শেষ করুন, আর ঘন্টার পরে না।",
-    "home_page__features_carousel__feature_prompts__description1": "উচ্চ মানের এই প্রম্পট লাইব্রেরি",
+    "home_page__features_carousel__feature_prompts__description1": "উচ্চ মানের AI প্রম্পট লাইব্রেরি",
     "home_page__features_carousel__feature_prompts__description2": "আপনার নিজের প্রম্পট তৈরি করুন এবং পরিচালনা করুন",
     "home_page__features_carousel__feature_prompts__description3": "আপনার নিজের প্রম্পট পুনরায় ব্যবহার করুন",
     "home_page__features_carousel__feature_prompts__description4": "কাস্টম টোন এবং লেখা শৈলী",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "AI ভিশন দ্বারা ছবি বিশ্লেষণের সবচেয়ে দ্রুত উপায়। শুধুমাত্র একটি স্ক্রিনশট নিন এবং সরাসরি যে কোন প্রশ্ন করুন। প্রতিদিন অনুসন্ধান করুন এবং মূল্যবান সময় ফিরিয়ে নিন।",
     "ai_vision_pages__section3__title": "আপনি যেখানে কাজ করেন, সেখানেই কাজ করে",
     "ai_vision_pages__section3__description": "আপনি যেখানেই প্রয়োজন সেখানেই ছবি বিশ্লেষণ করুন। MaxAI আপনি ব্যবহার করে থাকা সমস্ত ওয়েব অ্যাপ এবং সাইটে কাজ করে। কপি করতে হবে না, পেস্ট করতে হবে না, কনটেক্সট সুইচ করতে হবে না।",
-    "ai_vision_pages__section4__title": "সেরা AI মডেল দ্বারা প্রচারিত"
+    "ai_vision_pages__section4__title": "সেরা AI মডেল দ্বারা প্রচারিত",
+    "cta_text__add_to_browser_for_free": "ফ্রি পেতে {{BROWSER}} যোগ করুন"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "সব নির্বাচন করুন",

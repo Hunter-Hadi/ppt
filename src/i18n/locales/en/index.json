@@ -147,7 +147,7 @@
 
     "home_page__features_carousel__feature_prompts__label": "AI Prompts",
     "home_page__features_carousel__feature_prompts__title": "Complete your daily tasks in minutes now, not hours anymore.",
-    "home_page__features_carousel__feature_prompts__description1": "High quality AI prompts library",
+    "home_page__features_carousel__feature_prompts__description1": "High quality AI prompt library",
     "home_page__features_carousel__feature_prompts__description2": "Create and manage your own prompts",
     "home_page__features_carousel__feature_prompts__description3": "Reuse your own prompts",
     "home_page__features_carousel__feature_prompts__description4": "Custom tone & writing Styles",
@@ -1129,6 +1129,8 @@
   "features_landing": {
     "cta_text": "Add to Browser",
 
+    "cta_text__add_to_browser_for_free": "Add to {{BROWSER}} for free",
+
     "menu_item__ai_chat": "AI chat",
     "menu_item__ai_rewriter": "AI rewriter",
     "menu_item__ai_summary": "AI summary",
@@ -1196,7 +1198,7 @@
 
     "ai_reader_pages__title": "Read faster with AI",
     "ai_reader_pages__description": "Make complex information easy to understand, just like an expert.",
-    "ai_reader_pages__section1__title": "Read more, faster",
+    "ai_reader_pages__section1__title": "Read more in less time",
     "ai_reader_pages__section1__description__item1": "Summarize text anywhere",
     "ai_reader_pages__section1__description__item2": "Translate between any languages",
     "ai_reader_pages__section1__description__item3": "Explain any word, term, or paragraph",
@@ -1209,7 +1211,7 @@
 
     "ai_prompts_pages__title": "Your cheat code for AI",
     "ai_prompts_pages__description": "Complete your daily tasks in minutes now, not hours anymore.",
-    "ai_prompts_pages__section1__title": "High quality AI prompts library",
+    "ai_prompts_pages__section1__title": "High quality AI prompt library",
     "ai_prompts_pages__section1__description": "Access a vast repository of expertly crafted prompts, each heavily used, reviewed and approved by our dedicated AI prompt experts. These prompts are specifically designed to generate high-impact content, ensuring that your efforts resonate effectively with your intended audience. This resource saves you both time and effort, streamlining your content creation process.",
     "ai_prompts_pages__section2__title": "Create and manage your own prompts",
     "ai_prompts_pages__section2__description": "Create your own prompts and organize them for continuous use. Make it easy to access and reuse, for yourself and your team.",
@@ -1223,7 +1225,7 @@
     "ai_prompts_pages__section4__description__item5": "Sales",
     "ai_prompts_pages__section4__description__item6": "Copywriting",
     "ai_prompts_pages__section4__description__item7": "Website copy",
-    "ai_prompts_pages__section4__description__item8": "Busines s listings",
+    "ai_prompts_pages__section4__description__item8": "Business s listings",
     "ai_prompts_pages__section4__description__item9": "Product descriptions",
     "ai_prompts_pages__section4__description__item10": "Operation",
     "ai_prompts_pages__section4__description__item11": "Productivity",
@@ -1270,8 +1272,6 @@
     "ai_vision_pages__section3__title": "Works where you work",
     "ai_vision_pages__section3__description": "Analyze any image, right where you need it. MaxAI works across all the web apps and sites you use. No copying, no pasting, no context switching.",
     "ai_vision_pages__section4__title": "Powered by the best AI models with vision",
-
-
 
     "youtube_summary_pages__title": "Summarize & Chat with YouTube Videos",
     "youtube_summary_pages__description": "One click to obtain YouTube video summaries, engage in conversations with video, and gain valuable insights.",

@@ -1032,7 +1032,8 @@
     "ai_translator_pages__section5__title": "無料です",
     "ai_translator_pages__section5__description": "はい、完全に無料です！",
     "ai_vision_pages__title": "最先端のAIビジョンモデルで画像を分析",
-    "ai_vision_pages__description": "最も高度なAIビジョンモデルを使用して、任意の画像を理解し分析します。"
+    "ai_vision_pages__description": "最も高度なAIビジョンモデルを使用して、任意の画像を理解し分析します。",
+    "cta_text__add_to_browser_for_free": "無料で{{BROWSER}}に追加"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "すべて選択",
@@ -1254,5 +1255,6 @@
     "components__ocr_pdf__main__ocr_loading": "PDFの読み込み",
     "components__ocr_pdf__main__ocr_and_download": "OCRとダウンロード",
     "components__ocr_pdf__main__document_scanning_language": "ドキュメントのスキャン言語"
-  }
+  },
+  "": ""
 }

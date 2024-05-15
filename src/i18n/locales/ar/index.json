@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "ترجمة بين أي لغات",
     "home_page__features_carousel__feature_prompts__label": "تلميحات الذكاء الاصطناعي",
     "home_page__features_carousel__feature_prompts__title": "أكمل مهامك اليومية في دقائق الآن، وليس ساعات بعد الآن.",
-    "home_page__features_carousel__feature_prompts__description1": "مكتبة تلميحات الذكاء الاصطناعي عالية الجودة",
+    "home_page__features_carousel__feature_prompts__description1": "مكتبة AI عالية الجودة للتلميحات",
     "home_page__features_carousel__feature_prompts__description2": "إنشاء وإدارة تلميحاتك الخاصة",
     "home_page__features_carousel__feature_prompts__description3": "إعادة استخدام تلميحاتك الخاصة",
     "home_page__features_carousel__feature_prompts__description4": "نغمة وأنماط كتابة مخصصة",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "أسرع طريقة لتحليل الصور باستخدام الذكاء الاصطناعي. ما عليك سوى التقاط صورة شاشة وطرح أي أسئلة فورًا. ابحث بشكل أكثر ذكاءً واستعد ساعات ثمينة كل يوم.",
     "ai_vision_pages__section3__title": "يعمل حيث تعمل",
     "ai_vision_pages__section3__description": "قم بتحليل أي صورة، في المكان الذي تحتاجه. يعمل MaxAI عبر جميع تطبيقات الويب والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو تبديل السياق.",
-    "ai_vision_pages__section4__title": "مدعوم بأفضل نماذج الذكاء الاصطناعي مع الرؤية"
+    "ai_vision_pages__section4__title": "مدعوم بأفضل نماذج الذكاء الاصطناعي مع الرؤية",
+    "cta_text__add_to_browser_for_free": "أضف إلى {{BROWSER}} مجانًا"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "تحديد الكل",

@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Fordítson bármely nyelv között",
     "home_page__features_carousel__feature_prompts__label": "AI Segítségek",
     "home_page__features_carousel__feature_prompts__title": "Végezze el mindennapi feladatait percek alatt, nem órák alatt.",
-    "home_page__features_carousel__feature_prompts__description1": "Magas minőségű AI segítségkönyvtár",
+    "home_page__features_carousel__feature_prompts__description1": "Magas minőségű AI prompt könyvtár",
     "home_page__features_carousel__feature_prompts__description2": "Hozzon létre és kezeljen saját segítségeket",
     "home_page__features_carousel__feature_prompts__description3": "Újrahasználja saját segítségeit",
     "home_page__features_carousel__feature_prompts__description4": "Egyedi hangnem és írási stílus",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "A leggyorsabb módja a képek elemzésének AI látással. Egyszerűen készítsen egy képernyőképet és tegyen fel bármilyen kérdést azonnal. Okosabban kutasson, miközben minden nap visszaszerez értékes órákat.",
     "ai_vision_pages__section3__title": "Működik ott, ahol dolgozik",
     "ai_vision_pages__section3__description": "Elemzze bármely képet ott, ahol szüksége van rá. A MaxAI minden webes alkalmazáson és webhelyen működik, amelyeket használ. Nincs másolás, beillesztés vagy kontextusváltás.",
-    "ai_vision_pages__section4__title": "A legjobb AI modellekkel, látással megerősítve"
+    "ai_vision_pages__section4__title": "A legjobb AI modellekkel, látással megerősítve",
+    "cta_text__add_to_browser_for_free": "Ingyenesen hozzáadás a {{BROWSER}}-hoz"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Összes kiválasztása",

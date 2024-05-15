@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Käännä minkä tahansa kielen välillä",
     "home_page__features_carousel__feature_prompts__label": "AI-vihjeet",
     "home_page__features_carousel__feature_prompts__title": "Suorita päivittäiset tehtävät minuuteissa, ei enää tunteja.",
-    "home_page__features_carousel__feature_prompts__description1": "Laadukas AI-vihjeiden kirjasto",
+    "home_page__features_carousel__feature_prompts__description1": "Korkealaatuinen tekoälyohjeiden kirjasto",
     "home_page__features_carousel__feature_prompts__description2": "Luo ja hallitse omia vihjeitäsi",
     "home_page__features_carousel__feature_prompts__description3": "Hyödynnä omia vihjeitäsi uudelleen",
     "home_page__features_carousel__feature_prompts__description4": "Mukautettu sävy ja kirjoitustyylit",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Nopein tapa analysoida kuvia AI-vision avulla. Ota vain näyttökuva ja kysy heti mitä tahansa kysymyksiä. Tutki älykkäämmin samalla kun säästät arvokkaita tunteja joka päivä.",
     "ai_vision_pages__section3__title": "Toimii siellä missä työskentelet",
     "ai_vision_pages__section3__description": "Analysoi mitä tahansa kuvaa juuri siellä, missä sitä tarvitset. MaxAI toimii kaikissa web-sovelluksissa ja sivustoissa, joita käytät. Ei kopioimista, ei liittämistä, ei kontekstin vaihtamista.",
-    "ai_vision_pages__section4__title": "Parhaiden AI-mallien voimin"
+    "ai_vision_pages__section4__title": "Parhaiden AI-mallien voimin",
+    "cta_text__add_to_browser_for_free": "Lisää {{BROWSER}} ilmaiseksi"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Valitse kaikki",

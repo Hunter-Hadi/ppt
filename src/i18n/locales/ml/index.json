@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "ഏതെങ്കിലും ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്യുക",
     "home_page__features_carousel__feature_prompts__label": "എ.ഐ. പ്രോംപ്റ്റുകൾ",
     "home_page__features_carousel__feature_prompts__title": "ദിവസവും മിനിറ്റുകൾക്ക് പൂർത്തിയാക്കുക, അന്ന് മിനിറ്റുകൾക്ക് മാത്രമേ.",
-    "home_page__features_carousel__feature_prompts__description1": "ഉന്നത ഗുണമേന്മയുള്ള എ.ഐ. പ്രോംപ്റ്റുകൾ ലൈബ്രറി",
+    "home_page__features_carousel__feature_prompts__description1": "ഉയർന്ന ഗുണമേന്മയുള്ള AI പ്രോംപ്റ്റ് ലൈബ്രറി",
     "home_page__features_carousel__feature_prompts__description2": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ സൃഷ്ടിക്കുകയും അവയുടെ പരിചയം നിയന്ത്രിക്കുകയും ചെയ്യുക",
     "home_page__features_carousel__feature_prompts__description3": "നിങ്ങളുടെ സ്വന്തമായ പ്രോംപ്റ്റുകൾ പുനരായി ഉപയോഗിക്കുക",
     "home_page__features_carousel__feature_prompts__description4": "പ്രത്യേക ടോൺ & രചനാ ശൈലികൾ",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI വിഷനുമായി ചിത്രങ്ങൾ വിശകലനം നേടാൻ ഏറ്റവും വേഗത്തിൽ സ്ക്രീൻഷോട്ട് എടുക്കുക. പ്രതിസന്ധിയിൽ ദിവസങ്ങളും പ്രശ്നങ്ങളും ചോദിക്കുക.",
     "ai_vision_pages__section3__title": "നിങ്ങൾ പ്രവർത്തിക്കുന്നതിലേക്ക് പ്രവർത്തിക്കുക",
     "ai_vision_pages__section3__description": "ആവശ്യമുള്ള ഏതെങ്കിലും ചിത്രത്തിനുള്ളിൽ അധിഷ്ഠിപ്പിക്കുക. MaxAI നിങ്ങൾ ഉപയോഗിക്കുന്ന എല്ലാ വെബ് ആപ്പുകളിലും സൈറ്റുകളിലും പ്രവർത്തിക്കുന്നു. പകർപ്പവകാശം, പേസ്റ്റിംഗ്, കൺടെക്സ്റ്റ് സ്വിച്ചിംഗ് ഇല്ല.",
-    "ai_vision_pages__section4__title": "ഏറ്റവും മികച്ച AI മോഡലുകൾ വിഷനുമായി"
+    "ai_vision_pages__section4__title": "ഏറ്റവും മികച്ച AI മോഡലുകൾ വിഷനുമായി",
+    "cta_text__add_to_browser_for_free": "സൗജന്യമായി {{BROWSER}} ലേക്ക് ചേർക്കുക"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF ചേർക്കുക",

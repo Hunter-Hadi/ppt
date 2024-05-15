@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "使用 AI 视觉分析图像的最快方式。只需截屏并立即提出任何问题。每天节省宝贵的时间，更加智能地进行研究。",
     "ai_vision_pages__section3__title": "适用于您工作的地方",
     "ai_vision_pages__section3__description": "在您需要的地方分析任何图像。MaxAI 可在您使用的所有网络应用和网站上运行。无需复制、粘贴或切换上下文。",
-    "ai_vision_pages__section4__title": "由最佳 AI 视觉模型驱动"
+    "ai_vision_pages__section4__title": "由最佳 AI 视觉模型驱动",
+    "cta_text__add_to_browser_for_free": "免费添加到{{BROWSER}}"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "添加PDF",

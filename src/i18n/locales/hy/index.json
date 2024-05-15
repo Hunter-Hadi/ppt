@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Թարգմանեք բարելավելին՝ ցանկացած լեզվով",
     "home_page__features_carousel__feature_prompts__label": "ԱԻ հուշեր",
     "home_page__features_carousel__feature_prompts__title": "Ավարտեք ձեր ամբողջական առաջադրանքները րոպեներով, այլապես ժամանակներով։",
-    "home_page__features_carousel__feature_prompts__description1": "Բարձր որակի ԱԻ հուշերի գրադարան",
+    "home_page__features_carousel__feature_prompts__description1": "Բարձր որակի AI խորհրդատու գրադարան",
     "home_page__features_carousel__feature_prompts__description2": "Ստեղծեք և կառավարեք ձեր սեփական հուշերը",
     "home_page__features_carousel__feature_prompts__description3": "Վերագրեք ձեր սեփական հուշերը",
     "home_page__features_carousel__feature_prompts__description4": "Անհատական թոն և գրանշանային ոճ",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section3__description": "Անալիզաված ուղղությամբ անալիզաված ցանկացած պատկերը այնտեղ, որտեղ դուք աշխատում եք: MaxAI-ն աշխատում է ձեր օգտագործության բոլոր վեբ հավելվածներում և կայքերում: Չկպատճենեք, չկպատեք, չկանգնածեք համապատասխանումների միջև:",
     "ai_vision_pages__section4__title": "Աշխատում է ամենալավ AI մոդելներով տեսահոլովակներով",
     "ai_rewriter_pages__section4__title": "Ստեղծեք ձեր սեղմագծի 1-կլիկ վերագրողը",
-    "ai_rewriter_pages__section4__description": "Անհրաժեշտացնել կոնտեքստային մենյուին ձեր սեփական խնդրանքներով շարունակած օգտագործման համար։ Հեշտ է մուտք գործել և վերաօգտագործել, ձեր ինքնակարգը և ձեր թիմը համար։"
+    "ai_rewriter_pages__section4__description": "Անհրաժեշտացնել կոնտեքստային մենյուին ձեր սեփական խնդրանքներով շարունակած օգտագործման համար։ Հեշտ է մուտք գործել և վերաօգտագործել, ձեր ինքնակարգը և ձեր թիմը համար։",
+    "cta_text__add_to_browser_for_free": "Ավելացրեք {{BROWSER}}-ին անվճար"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Ընտրել բոլորը",

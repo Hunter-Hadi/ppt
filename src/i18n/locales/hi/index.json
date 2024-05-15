@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "किसी भाषा के बीच अनुवाद करें",
     "home_page__features_carousel__feature_prompts__label": "एआई प्रॉम्प्ट्स",
     "home_page__features_carousel__feature_prompts__title": "अब अपने दैनिक कार्यों को मिनटों में पूरा करें, और घंटों नहीं।",
-    "home_page__features_carousel__feature_prompts__description1": "उच्च गुणवत्ता वाला एआई प्रॉम्प्ट्स लाइब्रेरी",
+    "home_page__features_carousel__feature_prompts__description1": "उच्च गुणवत्ता वाली AI प्रोम्प्ट पुस्तकालय",
     "home_page__features_carousel__feature_prompts__description2": "अपने खुद के प्रॉम्प्ट्स बनाएं और प्रबंधित करें",
     "home_page__features_carousel__feature_prompts__description3": "अपने खुद के प्रॉम्प्ट्स को पुनः उपयोग करें",
     "home_page__features_carousel__feature_prompts__description4": "कस्टम टोन और लेखन शैलियों",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "AI विज़न के साथ छवियों का विश्लेषण करने का सबसे तेज़ तरीका। बस एक स्क्रीनशॉट लें और तुरंत किसी भी सवाल पूछें। हर दिन के कीमती घंटे बचाते हुए स्मार्ट रिसर्च करें।",
     "ai_vision_pages__section3__title": "जहां आप काम करते हैं, वहां काम करता है",
     "ai_vision_pages__section3__description": "आपकी आवश्यकता के मुताबिक किसी भी छवि का विश्लेषण करें। MaxAI आपके उपयोग करने वाले सभी वेब ऐप्स और साइटों पर काम करता है। कॉपी करने की आवश्यकता नहीं, पेस्ट करने की आवश्यकता नहीं, कोण्टेक्स्ट स्विचिंग की आवश्यकता नहीं।",
-    "ai_vision_pages__section4__title": "सबसे अच्छे AI मॉडल्स द्वारा संचालित जिसमें विज़न है"
+    "ai_vision_pages__section4__title": "सबसे अच्छे AI मॉडल्स द्वारा संचालित जिसमें विज़न है",
+    "cta_text__add_to_browser_for_free": "मुफ्त में {{BROWSER}} में जोड़ें"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "सभी का चयन करें",

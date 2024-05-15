@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "የሚተላለፉ ቋንቋዎች መጻፍ",
     "home_page__features_carousel__feature_prompts__label": "የማስተማርና የማስታወቂያ ቅጽ",
     "home_page__features_carousel__feature_prompts__title": "የቀኑ ስራዎችን በደብቀው ያስቀምጡ በደብቀው የሚቀርብ መልኩነትን ይቀርባል።",
-    "home_page__features_carousel__feature_prompts__description1": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽ መታወቂያ",
+    "home_page__features_carousel__feature_prompts__description1": "የልማት አስተዳደር AI መጽሐፍ ቤቶች",
     "home_page__features_carousel__feature_prompts__description2": "የሚፈጠሩትን የማስተማርና የማስታወቂያ ቅጽ ፍጠር እና ማስተማርና",
     "home_page__features_carousel__feature_prompts__description3": "የሚጠቀምበት የማስተማርና የማስታወቂያ ቅጽን ያግኙ",
     "home_page__features_carousel__feature_prompts__description4": "የሚተላለፉ ቆንጆ & የጽሑፍ አስደሳች አይነት",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section3__title": "በስራው የሚከተለው",
     "ai_vision_pages__section3__description": "በስራው የሚከተለው በስራው የሚከተለው የAI መልእክት መሆኑን የሚያሳይ ነው።",
     "ai_vision_pages__section4__title": "በየትኛው የAI ሞዴሎች የተጠቀሰው መልእክት",
-    "ai_prompts_pages__section1__title": "የማሳያ መግለጫዎች የሚገኙ የማሳያ AI መረጃዎች"
+    "ai_prompts_pages__section1__title": "የማሳያ መግለጫዎች የሚገኙ የማሳያ AI መረጃዎች",
+    "cta_text__add_to_browser_for_free": "በ{{BROWSER}} ለነፃ ያክልሉ"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "ሁሉንም ይምረጡ",

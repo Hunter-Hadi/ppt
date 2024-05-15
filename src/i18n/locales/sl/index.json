@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Prevedite med katerimi koli jeziki",
     "home_page__features_carousel__feature_prompts__label": "AI Vprašanja",
     "home_page__features_carousel__feature_prompts__title": "Dokončajte svoje dnevne naloge v nekaj minutah, ne več ur.",
-    "home_page__features_carousel__feature_prompts__description1": "Knjižnica visokokakovostnih AI vprašanj",
+    "home_page__features_carousel__feature_prompts__description1": "Knjižnica visokokakovostnih AI spodbud",
     "home_page__features_carousel__feature_prompts__description2": "Ustvarite in upravljajte lastna vprašanja",
     "home_page__features_carousel__feature_prompts__description3": "Ponovno uporabite lastna vprašanja",
     "home_page__features_carousel__feature_prompts__description4": "Prilagojen ton in slog pisanja",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Najhitrejši način za analizo slik z AI vizijo. Preprosto posnemite zaslon in takoj postavite kakršna koli vprašanja. Pametnejše raziskovanje ob povrnitvi dragocenih ur vsak dan.",
     "ai_vision_pages__section3__title": "Deluje tam, kjer delate",
     "ai_vision_pages__section3__description": "Analizirajte katero koli sliko, tam kjer jo potrebujete. MaxAI deluje v vseh spletnih aplikacijah in mestih, ki jih uporabljate. Brez kopiranja, brez lepljenja, brez preklapljanja konteksta.",
-    "ai_vision_pages__section4__title": "Poganja najboljše modele AI z vizijo"
+    "ai_vision_pages__section4__title": "Poganja najboljše modele AI z vizijo",
+    "cta_text__add_to_browser_for_free": "Dodajte v {{BROWSER}} brezplačno"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Izberi vse",

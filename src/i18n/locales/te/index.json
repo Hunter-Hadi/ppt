@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "ఏ ఒక భాషల మధ్య అనువదించండి",
     "home_page__features_carousel__feature_prompts__label": "AI ప్రాంప్ట్స్",
     "home_page__features_carousel__feature_prompts__title": "ఇప్పుడు మాత్రమే మినట్లో మీ రోజువారీ పనులను పూర్తిగా చేయండి, కొన్ని గంటల కూడా కాదు.",
-    "home_page__features_carousel__feature_prompts__description1": "ఉన్నత గుణముల యాక్సెస్ ప్రాంప్ట్స్ లైబ్రరీ",
+    "home_page__features_carousel__feature_prompts__description1": "ఉన్నత గుర్తింపుకు AI ప్రాంప్టు లైబ్రరీ",
     "home_page__features_carousel__feature_prompts__description2": "మీ స్వంత ప్రాంప్ట్స్ సృష్టించండి మరియు నిర్వహించండి",
     "home_page__features_carousel__feature_prompts__description3": "మీ స్వంత ప్రాంప్ట్స్ మళ్లీ ఉపయోగించండి",
     "home_page__features_carousel__feature_prompts__description4": "కస్టమ్ టోన్ & రచనా శైలులు",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI విజన్ తో చిత్రాలను విశ్లేషించడంలో త్వరగా చేస్తే చాలా సులభం. స్క్రీన్‌షాట్ తీసుకోండి మరియు ఏ ప్రశ్నను అడిగండి. ప్రతి రోజు అనువర్తనం చేసేలా మార్చండి.",
     "ai_vision_pages__section3__title": "మీ పనిలో పని చేయండి",
     "ai_vision_pages__section3__description": "మీరు అవసరం ఉన్న ఏ చిత్రంలో అన్ని విశ్లేషణలను చేయండి. MaxAI మీరు ఉపయోగిస్తున్న అన్ని వెబ్ యాప్‌లలో పని చేసేది. కాపీంగ్, పేస్టింగ్, కంటెక్స్ట్ స్విచింగ్ లేకుండా.",
-    "ai_vision_pages__section4__title": "ఉత్తమ AI మోడల్స్ ద్వారా ప్రాధాన్యం పొందించబడుతుంది"
+    "ai_vision_pages__section4__title": "ఉత్తమ AI మోడల్స్ ద్వారా ప్రాధాన్యం పొందించబడుతుంది",
+    "cta_text__add_to_browser_for_free": "ఉచితంగా బ్రౌజర్‌కు జోడించండి {{BROWSER}}"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF ని జోడించండి",

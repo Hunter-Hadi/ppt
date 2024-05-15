@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Versti tarp bet kokių kalbų",
     "home_page__features_carousel__feature_prompts__label": "AI Užduotys",
     "home_page__features_carousel__feature_prompts__title": "Užbaikite savo kasdienius uždavinius per minutes, o ne valandas.",
-    "home_page__features_carousel__feature_prompts__description1": "Aukštos kokybės AI užduočių biblioteka",
+    "home_page__features_carousel__feature_prompts__description1": "Aukštos kokybės dirbtinio intelekto užuominų biblioteka",
     "home_page__features_carousel__feature_prompts__description2": "Kurkite ir tvarkykite savo pačių užduotis",
     "home_page__features_carousel__feature_prompts__description3": "Panaudokite savo pačių užduotis",
     "home_page__features_carousel__feature_prompts__description4": "Individualus tonas ir rašymo stiliai",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Greičiausias būdas analizuoti nuotraukas su AI vizija. Tiesiog padarykite ekrano kopiją ir nedelsiant užduokite klausimus. Išmaniai tyrinėkite, tuo pačiu atgavę brangius valandas kasdien.",
     "ai_vision_pages__section3__title": "Veikia ten, kur dirbate",
     "ai_vision_pages__section3__description": "Analizuokite bet kurią nuotrauką tiesiog ten, kur jums reikia. MaxAI veikia visose interneto programose ir svetainėse, kurias naudojate. Nekopijuojant, neįklijuojant, nekeičiant konteksto.",
-    "ai_vision_pages__section4__title": "Varoma geriausiais AI modeliais su vizija"
+    "ai_vision_pages__section4__title": "Varoma geriausiais AI modeliais su vizija",
+    "cta_text__add_to_browser_for_free": "Pridėti į {{BROWSER}} nemokamai"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Pasirinkti viską",

@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Oversæt mellem alle sprog",
     "home_page__features_carousel__feature_prompts__label": "AI Opgaver",
     "home_page__features_carousel__feature_prompts__title": "Udfør dine daglige opgaver på få minutter, ikke flere timer.",
-    "home_page__features_carousel__feature_prompts__description1": "Bibliotek med AI-opgaver af høj kvalitet",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliotek med AI-prompt af høj kvalitet",
     "home_page__features_carousel__feature_prompts__description2": "Opret og administrer dine egne opgaver",
     "home_page__features_carousel__feature_prompts__description3": "Genbrug dine egne opgaver",
     "home_page__features_carousel__feature_prompts__description4": "Tilpas tone og skrivestil",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Den hurtigste måde at analysere billeder med AI-vision. Tag bare et screenshot og stil øjeblikkeligt spørgsmål. Forsk smartere og spar værdifulde timer hver dag.",
     "ai_vision_pages__section3__title": "Fungerer hvor du arbejder",
     "ai_vision_pages__section3__description": "Analyser ethvert billede, lige hvor du har brug for det. MaxAI fungerer på tværs af alle de webapps og sites, du bruger. Ingen kopiering, ingen indsættelse, ingen kontekstskift.",
-    "ai_vision_pages__section4__title": "Drevet af de bedste AI-modeller med vision"
+    "ai_vision_pages__section4__title": "Drevet af de bedste AI-modeller med vision",
+    "cta_text__add_to_browser_for_free": "Tilføj til {{BROWSER}} gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Vælg alle",

@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Tafsiri kati ya lugha yoyote",
     "home_page__features_carousel__feature_prompts__label": "Mawaidha ya AI",
     "home_page__features_carousel__feature_prompts__title": "Kamilisha kazi zako za kila siku ndani ya dakika, si masaa tena.",
-    "home_page__features_carousel__feature_prompts__description1": "Maktaba ya mawaidha ya AI ya ubora wa juu",
+    "home_page__features_carousel__feature_prompts__description1": "Maktaba ya maelekezo ya AI ya ubora wa juu",
     "home_page__features_carousel__feature_prompts__description2": "Unda na usimamie mawaidha yako mwenyewe",
     "home_page__features_carousel__feature_prompts__description3": "Tumia tena mawaidha yako mwenyewe",
     "home_page__features_carousel__feature_prompts__description4": "Mtindo wa sauti na uandishi wa kipekee",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Njia ya haraka zaidi ya kuchambua picha na AI vision. Chukua tu picha ya skrini na uliza maswali yoyote mara moja. Fanya utafiti kwa busara wakati unapata masaa muhimu kila siku.",
     "ai_vision_pages__section3__title": "Inafanya kazi mahali unapotumia",
     "ai_vision_pages__section3__description": "Changanua picha yoyote, mahali ambapo unaihitaji. MaxAI inafanya kazi katika programu za wavuti na tovuti zote unazotumia. Hakuna kunakili, hakuna kubandika, hakuna kubadilisha muktadha.",
-    "ai_vision_pages__section4__title": "Imewezeshwa na mifano bora ya AI na maono"
+    "ai_vision_pages__section4__title": "Imewezeshwa na mifano bora ya AI na maono",
+    "cta_text__add_to_browser_for_free": "Ongeza kwa {{BROWSER}} bure"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chagua Yote",

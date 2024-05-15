@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Terjemahkan antara bahasa mana-mana",
     "home_page__features_carousel__feature_prompts__label": "Petunjuk AI",
     "home_page__features_carousel__feature_prompts__title": "Selesaikan tugas harian anda dalam beberapa minit sahaja, bukan berjam-jam lagi.",
-    "home_page__features_carousel__feature_prompts__description1": "Perpustakaan petunjuk AI berkualiti tinggi",
+    "home_page__features_carousel__feature_prompts__description1": "Perpustakaan prompt AI berkualiti tinggi",
     "home_page__features_carousel__feature_prompts__description2": "Cipta dan urus petunjuk anda sendiri",
     "home_page__features_carousel__feature_prompts__description3": "Guna semula petunjuk anda sendiri",
     "home_page__features_carousel__feature_prompts__description4": "Gaya nada & gaya penulisan tersuai",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Cara terpantas untuk menganalisis imej dengan AI vision. Ambil tangkapan skrin dan tanyakan soalan segera. Kaji selidik dengan lebih bijak sambil menghemat masa berharga setiap hari.",
     "ai_vision_pages__section3__title": "Berfungsi di tempat anda bekerja",
     "ai_vision_pages__section3__description": "Analisis mana-mana imej, tepat di tempat anda perlukan. MaxAI berfungsi di semua aplikasi web dan laman web yang anda gunakan. Tiada menyalin, tiada meletakkan, tiada menukar konteks.",
-    "ai_vision_pages__section4__title": "Dikuasakan oleh model AI terbaik dengan visi"
+    "ai_vision_pages__section4__title": "Dikuasakan oleh model AI terbaik dengan visi",
+    "cta_text__add_to_browser_for_free": "Tambah ke {{BROWSER}} secara percuma"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Pilih Semua",

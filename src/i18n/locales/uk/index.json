@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "کسی بھی زبانوں کے درمیان ترجمہ کریں",
     "home_page__features_carousel__feature_prompts__label": "AI پرومپٹس",
     "home_page__features_carousel__feature_prompts__title": "اب روزانہ کے کاموں کو منٹوں میں مکمل کریں، اب نہیں گھنٹوں میں۔",
-    "home_page__features_carousel__feature_prompts__description1": "بلند معیار کے AI پرومپٹس لائبریری",
+    "home_page__features_carousel__feature_prompts__description1": "بلند معیار کی AI پرومپٹ لائبریری",
     "home_page__features_carousel__feature_prompts__description2": "اپنے خود کے پرومپٹس بنائیں اور منظم کریں",
     "home_page__features_carousel__feature_prompts__description3": "اپنے خود کے پرومپٹس دوبارہ استعمال کریں",
     "home_page__features_carousel__feature_prompts__description4": "کسٹم ٹون اور رائٹنگ سٹائلز",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI وژن کے ساتھ تصاویر کا تجزیہ کرنے کا سب سے تیز طریقہ. بس ایک سکرین شاٹ لیں اور فوراً کوئی بھی سوال پوچھیں. ہر روز قیمتی گھنٹے واپس لے لیں اور ذہین تحقیق کریں.",
     "ai_vision_pages__section3__title": "جہاں آپ کام کرتے ہیں وہاں کام کرتا ہے",
     "ai_vision_pages__section3__description": "کسی بھی تصویر کا تجزیہ کریں، جہاں آپ کو ضرورت ہو. MaxAI آپ کے استعمال کردہ تمام ویب ایپس اور سائٹس پر کام کرتا ہے. کوئی کاپی کرنے کی ضرورت نہیں، کوئی پیسٹ کرنے کی ضرورت نہیں، کوئی کنٹیکسٹ سوئچ کرنے کی ضرورت نہیں.",
-    "ai_vision_pages__section4__title": "بہترین AI ماڈلز کے ذریعے طاقتور"
+    "ai_vision_pages__section4__title": "بہترین AI ماڈلز کے ذریعے طاقتور",
+    "cta_text__add_to_browser_for_free": "مفت کے لئے {{BROWSER}} میں شامل کریں"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",

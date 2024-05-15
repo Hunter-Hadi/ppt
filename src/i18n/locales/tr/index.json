@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Herhangi bir dil arasında çeviri yapın",
     "home_page__features_carousel__feature_prompts__label": "AI İpucu",
     "home_page__features_carousel__feature_prompts__title": "Günlük görevlerinizi artık saatler değil dakikalar içinde tamamlayın.",
-    "home_page__features_carousel__feature_prompts__description1": "Yüksek kaliteli AI ipucu kütüphanesi",
+    "home_page__features_carousel__feature_prompts__description1": "Yüksek kaliteli AI prompt kütüphanesi",
     "home_page__features_carousel__feature_prompts__description2": "Kendi ipuçlarınızı oluşturun ve yönetin",
     "home_page__features_carousel__feature_prompts__description3": "Kendi ipuçlarınızı yeniden kullanın",
     "home_page__features_carousel__feature_prompts__description4": "Özel ton ve yazım stilleri",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI vizyon ile görüntüleri analiz etmenin en hızlı yolu. Sadece bir ekran görüntüsü alın ve hemen herhangi bir soru sorun. Her gün değerli saatler kazanarak daha akıllıca araştırma yapın.",
     "ai_vision_pages__section3__title": "Çalıştığınız yerde çalışır",
     "ai_vision_pages__section3__description": "İhtiyacınız olan yerde herhangi bir görüntüyü analiz edin. MaxAI, kullandığınız tüm web uygulamaları ve sitelerinde çalışır. Kopyalama, yapıştırma veya bağlam değiştirme yok.",
-    "ai_vision_pages__section4__title": "En iyi AI modelleriyle desteklenir"
+    "ai_vision_pages__section4__title": "En iyi AI modelleriyle desteklenir",
+    "cta_text__add_to_browser_for_free": "Ücretsiz olarak {{BROWSER}}'a ekle"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF Ekle",

@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "ಯಾವುದೇ ಭಾಷೆಗಳ ನಡುವೆ ಅನುವಾದಿಸಿ",
     "home_page__features_carousel__feature_prompts__label": "ಏಎಯ್ ಪ್ರಮ್ಪ್ಟ್ಸ್",
     "home_page__features_carousel__feature_prompts__title": "ನಿಮ್ಮ ದೈನಂದಿನ ಕೆಲಸಗಳನ್ನು ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ಮುಗಿಸಿ, ಹೊರತು ಹೊರಗೆ ಕಾಲವನ್ನು ವ್ಯಯಿಸಬೇಡಿ.",
-    "home_page__features_carousel__feature_prompts__description1": "ಉನ್ನತ ಗುಣಮಟ್ಟದ ಏಎಯ್ ಪ್ರಮ್ಪ್ಟ್ಸ್ ಲೈಬ್ರರಿ",
+    "home_page__features_carousel__feature_prompts__description1": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
     "home_page__features_carousel__feature_prompts__description2": "ನಿಮ್ಮ ಪ್ರಮ್ಪ್ಟ್ಸ್ ರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ",
     "home_page__features_carousel__feature_prompts__description3": "ನಿಮ್ಮ ಪ್ರಮ್ಪ್ಟ್ಸ್ ಮರುಪಯೋಗಿಸಿ",
     "home_page__features_carousel__feature_prompts__description4": "ವೈಯಕ್ತಿಕ ಧ್ವನಿ ಮತ್ತು ಬರಹ ಶೈಲಿ",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "AI ದೃಷ್ಟಿಯೊಂದಿಗೆ ಚಿತ್ರಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುವ ಅತ್ಯಂತ ವೇಗವಾದ ಮಾರ್ಗ. ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ತೆಗೆದುಕೊಂಡು ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿ. ಪ್ರತಿದಿನ ಅನರ್ಥಕ್ಕೆ ಹೋಗುವುದೊಂದನ್ನು ಪುನಃ ಪಡೆಯುವ ಮೂಲಕ ಸ್ಮಾರ್ಟ್‌ಗೆ ಪುನಃ ಪ್ರತಿಷ್ಠಿಸಿ.",
     "ai_vision_pages__section3__title": "ನೀವು ಕೆಲಸ ಮಾಡುವ ಸ್ಥಳದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ",
     "ai_vision_pages__section3__description": "ನೀವು ಅದನ್ನು ಬೇಕಾದರೆ ಎಲ್ಲಾ ಚಿತ್ರಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ, ನೀವು ಅದಕ್ಕೆ ಬೇಕಾದರೆ ಹೋಗುವ ಸ್ಥಳದಲ್ಲಿ. MaxAI ನೀವು ಬಳಸುವ ಎಲ್ಲ ವೆಬ್ ಆ್ಯಪ್ಸ್ ಮತ್ತು ಸೈಟ್‌ಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ನಕಲಿಯಾಗುವುದಿಲ್ಲ, ಹಾಕುವುದಿಲ್ಲ, ಸಂದರ್ಭ ಬದಲಾಯಿಸುವುದಿಲ್ಲ.",
-    "ai_vision_pages__section4__title": "ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಬಲದಿಂದ ಪ್ರಾಧಾನ್ಯ ಪಡೆದಿದೆ"
+    "ai_vision_pages__section4__title": "ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳ ಬಲದಿಂದ ಪ್ರಾಧಾನ್ಯ ಪಡೆದಿದೆ",
+    "cta_text__add_to_browser_for_free": "ಉಚಿತವಾಗಿ {{BROWSER}} ಗೆ ಸೇರಿಸಿ"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆ ಮಾಡಿ",

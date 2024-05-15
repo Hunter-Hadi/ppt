@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Tłumaczy między dowolnymi językami",
     "home_page__features_carousel__feature_prompts__label": "Podpowiedzi AI",
     "home_page__features_carousel__feature_prompts__title": "Zakończ swoje codzienne zadania w kilka minut, a nie godzin.",
-    "home_page__features_carousel__feature_prompts__description1": "Biblioteka wysokiej jakości podpowiedzi AI",
+    "home_page__features_carousel__feature_prompts__description1": "Wysokiej jakości biblioteka promptów AI",
     "home_page__features_carousel__feature_prompts__description2": "Twórz i zarządzaj własnymi podpowiedziami",
     "home_page__features_carousel__feature_prompts__description3": "Ponownie używaj swoich podpowiedzi",
     "home_page__features_carousel__feature_prompts__description4": "Niestandardowy ton i styl pisania",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Najszybszy sposób na analizowanie obrazów za pomocą AI vision. Po prostu zrób zrzut ekranu i zadawaj pytania od razu. Badaj mądrzej, odzyskując cenne godziny każdego dnia.",
     "ai_vision_pages__section3__title": "Działa tam, gdzie ty pracujesz",
     "ai_vision_pages__section3__description": "Analizuj dowolny obraz dokładnie tam, gdzie go potrzebujesz. MaxAI działa we wszystkich aplikacjach internetowych i witrynach, których używasz. Bez kopiowania, wklejania i przełączania kontekstu.",
-    "ai_vision_pages__section4__title": "Napędzane najlepszymi modelami AI z widzeniem"
+    "ai_vision_pages__section4__title": "Napędzane najlepszymi modelami AI z widzeniem",
+    "cta_text__add_to_browser_for_free": "Dodaj do {{BROWSER}} za darmo"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Zaznacz wszystko",

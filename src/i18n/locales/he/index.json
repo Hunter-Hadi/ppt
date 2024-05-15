@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "תרגום בין שפות",
     "home_page__features_carousel__feature_prompts__label": "AI Prompts",
     "home_page__features_carousel__feature_prompts__title": "השלמת משימות היומיות שלך בדקות, לא בשעות יותר.",
-    "home_page__features_carousel__feature_prompts__description1": "ספריית AI prompts ברמה גבוהה",
+    "home_page__features_carousel__feature_prompts__description1": "ספריית תמיכה ב-AI איכותית",
     "home_page__features_carousel__feature_prompts__description2": "יצירה וניהול של prompts משלך",
     "home_page__features_carousel__feature_prompts__description3": "שימוש חוזר בprompts שלך",
     "home_page__features_carousel__feature_prompts__description4": "סגנון וסגנון כתיבה מותאמים אישית",
@@ -1031,7 +1031,8 @@
     "ai_vision_pages__section2__description": "הדרך המהירה ביותר לנתח תמונות עם ראיית AI. פשוט צלם מסך ושאל שאלות כלשהן מיד. עבודה חכמה יותר תוך שחזור שעות יקרות בכל יום.",
     "ai_vision_pages__section3__title": "עובד במקום שבו אתה עובד",
     "ai_vision_pages__section3__description": "נתח כל תמונה, בדיוק במקום שאתה זקוק לזה. MaxAI עובד בכל אפליקציות הרשת והאתרים שאתה משתמש בהם. אין העתקה, אין הדבקה, אין החלפת הקשר.",
-    "ai_vision_pages__section4__title": "מופעל על ידי המודלים הטובים ביותר של AI עם ראייה"
+    "ai_vision_pages__section4__title": "מופעל על ידי המודלים הטובים ביותר של AI עם ראייה",
+    "cta_text__add_to_browser_for_free": "הוסף ל{{BROWSER}} בחינם"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "בחר הכל",

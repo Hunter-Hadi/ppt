@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Traduci tra qualsiasi lingua",
     "home_page__features_carousel__feature_prompts__label": "Promemoria AI",
     "home_page__features_carousel__feature_prompts__title": "Completa i tuoi compiti giornalieri in pochi minuti, non più ore.",
-    "home_page__features_carousel__feature_prompts__description1": "Libreria di promemoria AI di alta qualità",
+    "home_page__features_carousel__feature_prompts__description1": "Libreria di prompt AI di alta qualità",
     "home_page__features_carousel__feature_prompts__description2": "Crea e gestisci i tuoi promemoria",
     "home_page__features_carousel__feature_prompts__description3": "Riutilizza i tuoi promemoria",
     "home_page__features_carousel__feature_prompts__description4": "Stili di tono e scrittura personalizzati",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Il modo più veloce per analizzare le immagini con l'AI vision. Basta fare uno screenshot e fare immediatamente qualsiasi domanda. Fai ricerche in modo più intelligente mentre recuperi preziose ore ogni giorno.",
     "ai_vision_pages__section3__title": "Funziona dove lavori",
     "ai_vision_pages__section3__description": "Analizza qualsiasi immagine, proprio dove ne hai bisogno. MaxAI funziona su tutte le app web e i siti che usi. Nessuna copia, nessun incolla, nessun cambio di contesto.",
-    "ai_vision_pages__section4__title": "Potenziato dai migliori modelli AI con visione"
+    "ai_vision_pages__section4__title": "Potenziato dai migliori modelli AI con visione",
+    "cta_text__add_to_browser_for_free": "Aggiungi a {{BROWSER}} gratuitamente"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Seleziona tutto",

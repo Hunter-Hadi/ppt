@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "કોઈ પણ ભાષાઓ વચ્ચે અનુવાદ કરો",
     "home_page__features_carousel__feature_prompts__label": "એઆઈ પ્રોમ્પ્ટ્સ",
     "home_page__features_carousel__feature_prompts__title": "હવે તમારા દૈનિક કાર્યોને મિનિટમાં પૂર્ણ કરો, આગળ થી કોઈ ઘણી વખત નથી.",
-    "home_page__features_carousel__feature_prompts__description1": "ઉચ્ચ ગુણવત્તાવાળા એઆઈ પ્રોમ્પ્ટ્સ લાઇબ્રેરી",
+    "home_page__features_carousel__feature_prompts__description1": "ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી",
     "home_page__features_carousel__feature_prompts__description2": "તમારા પ્રોમ્પ્ટ્સ બનાવો અને મેનેજ કરો",
     "home_page__features_carousel__feature_prompts__description3": "તમારા પ્રોમ્પ્ટ્સ ફરીથી ઉપયોગ કરો",
     "home_page__features_carousel__feature_prompts__description4": "વૈવિધ્યપૂર્ણ ટોન અને લેખન શૈલીઓ",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section3__title": "જ્યાં તમે કામ કરો ત્યાં કામ કરે છે",
     "ai_vision_pages__section3__description": "જ્યાં તમે તેની જરૂર છે ત્યાં કોઈપણ છબીને વિશ્લેષણ કરો. MaxAI તમે વપરાશ કરેલ તમામ વેબ એપ્સ અને સાઇટ્સ પર કાર્ય કરે છે. કોપીંગ, પેસ્ટિંગ, કન્ટેક્સ્ટ સ્વિચિંગ નથી.",
     "ai_vision_pages__section4__title": "શ્રેષ્ઠ AI મોડેલ્સ દ્વારા સમર્થિત વિઝન સાથે",
-    "ai_prompts_pages__section1__title": "ઉચ્ચ ગુણવત્તાવાળી એઆઈ પ્રોમ્પ્ટ્સ લાઇબ્રેરી"
+    "ai_prompts_pages__section1__title": "ઉચ્ચ ગુણવત્તાવાળી એઆઈ પ્રોમ્પ્ટ્સ લાઇબ્રેરી",
+    "cta_text__add_to_browser_for_free": "મફત માટે {{BROWSER}} ઉપર ઉમેરો"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "બધા પસંદ કરો",

@@ -392,7 +392,7 @@
     "home_page__features_carousel__feature_reader__description4": "எந்த மொழிகளுக்கும் மொழிபெயர்க்க",
     "home_page__features_carousel__feature_prompts__label": "ஏஎய் அறிவிப்புகள்",
     "home_page__features_carousel__feature_prompts__title": "நாளைய நடவடிக்கைகளை மின்னஞ்சலில் முடிக்கும் நேரம் இன்னும் குறைவாக இருக்கும்.",
-    "home_page__features_carousel__feature_prompts__description1": "உயர் தரமான ஏஎய் அறிவிப்புகள் நூலகம்",
+    "home_page__features_carousel__feature_prompts__description1": "உயர் தரமான AI புத்தக நூலகம்",
     "home_page__features_carousel__feature_prompts__description2": "உங்கள் சொற்களை உருவாக்கி பராமரிக்கவும் நிர்வகிக்கவும்",
     "home_page__features_carousel__feature_prompts__description3": "உங்கள் சொற்களை மீண்டும் பயன்படுத்துங்கள்",
     "home_page__features_carousel__feature_prompts__description4": "தனிப்பட்ட அமைப்பு மற்றும் எழுத்து பாணிகள்",
@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "AI கணிப்புக்கு புகைப்படங்களை முதன்முதலில் விளக்கமாகப் பயன்படுத்த அதிகாரப்பூர்வமான வழி. எந்த கேள்வியையும் உடனடியாக கேட்கவும் படங்களை ஆராய்கின்றது. மிகுந்த நேரத்தை பிடித்துக் கல்வி செய்யுங்கள்.",
     "ai_vision_pages__section3__title": "நீங்கள் பணியாற்றும் இடத்தில் வேலை செய்கின்றது",
     "ai_vision_pages__section3__description": "நீங்கள் தேவைப்படும் எந்த புகைப்படத்தையும் ஆராய்ந்து பார்க்கலாம். MaxAI நீங்கள் பயன்படுத்தும் அனைத்து வலைப்பக்கங்களிலும் செயல்படுகின்றது. நகலெடுக்காது, ஒட்டுமொத்த செயல்முறையை மாற்றாது.",
-    "ai_vision_pages__section4__title": "சிறந்த AI மாதிரிகளால் இயக்கப்படுகின்றது"
+    "ai_vision_pages__section4__title": "சிறந்த AI மாதிரிகளால் இயக்கப்படுகின்றது",
+    "cta_text__add_to_browser_for_free": "இலவசமாக {{BROWSER}} க்கு சேர்க்கவும்"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF ஐச் சேர்க்கவும்",

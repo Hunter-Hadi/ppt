@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Översätt mellan vilka språk som helst",
     "home_page__features_carousel__feature_prompts__label": "AI-promptar",
     "home_page__features_carousel__feature_prompts__title": "Slutför dina dagliga uppgifter på minuter, inte timmar längre.",
-    "home_page__features_carousel__feature_prompts__description1": "Bibliotek med högkvalitativa AI-promptar",
+    "home_page__features_carousel__feature_prompts__description1": "Högkvalitativ AI-promptbibliotek",
     "home_page__features_carousel__feature_prompts__description2": "Skapa och hantera dina egna promptar",
     "home_page__features_carousel__feature_prompts__description3": "Återanvänd dina egna promptar",
     "home_page__features_carousel__feature_prompts__description4": "Anpassad ton och skrivstilar",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Det snabbaste sättet att analysera bilder med AI-vision. Ta bara en skärmbild och ställ omedelbart alla frågor. Forska smartare samtidigt som du återtar värdefulla timmar varje dag.",
     "ai_vision_pages__section3__title": "Fungerar där du arbetar",
     "ai_vision_pages__section3__description": "Analysera valfri bild precis där du behöver det. MaxAI fungerar på alla webbappar och webbplatser du använder. Ingen kopiering, ingen klistring, ingen kontextväxling.",
-    "ai_vision_pages__section4__title": "Drivs av de bästa AI-modellerna med vision"
+    "ai_vision_pages__section4__title": "Drivs av de bästa AI-modellerna med vision",
+    "cta_text__add_to_browser_for_free": "Lägg till i {{BROWSER}} gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Välj alla",
@@ -1254,5 +1255,6 @@
     "components__ocr_pdf__main__ocr_loading": "PDF-laddning",
     "components__ocr_pdf__main__ocr_and_download": "OCR och Hämta",
     "components__ocr_pdf__main__document_scanning_language": "Språk för dokumentskanning"
-  }
+  },
+  "": ""
 }

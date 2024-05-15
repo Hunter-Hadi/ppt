@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Vertaal tussen alle talen",
     "home_page__features_carousel__feature_prompts__label": "AI Aanwijzingen",
     "home_page__features_carousel__feature_prompts__title": "Voltooi je dagelijkse taken nu in minuten, niet meer in uren.",
-    "home_page__features_carousel__feature_prompts__description1": "Bibliotheek met hoogwaardige AI-aanwijzingen",
+    "home_page__features_carousel__feature_prompts__description1": "Hoogwaardige AI-promptbibliotheek",
     "home_page__features_carousel__feature_prompts__description2": "Maak en beheer je eigen aanwijzingen",
     "home_page__features_carousel__feature_prompts__description3": "Herbruik je eigen aanwijzingen",
     "home_page__features_carousel__feature_prompts__description4": "Aangepaste toon en schrijfstijlen",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "De snelste manier om afbeeldingen te analyseren met AI-vision. Maak eenvoudig een screenshot en stel direct vragen. Onderzoek slimmer terwijl je kostbare uren per dag terugwint.",
     "ai_vision_pages__section3__title": "Werkt waar jij werkt",
     "ai_vision_pages__section3__description": "Analyseer elke afbeelding, precies waar je het nodig hebt. MaxAI werkt op alle web-apps en sites die je gebruikt. Geen kopiëren, geen plakken, geen contextwisseling.",
-    "ai_vision_pages__section4__title": "Aangedreven door de beste AI-modellen met visie"
+    "ai_vision_pages__section4__title": "Aangedreven door de beste AI-modellen met visie",
+    "cta_text__add_to_browser_for_free": "Voeg gratis toe aan {{BROWSER}}"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selecteer alles",

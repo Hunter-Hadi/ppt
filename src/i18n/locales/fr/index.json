@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Traduisez entre toutes les langues",
     "home_page__features_carousel__feature_prompts__label": "Sugestions IA",
     "home_page__features_carousel__feature_prompts__title": "Terminez vos tâches quotidiennes en quelques minutes maintenant, plus en heures.",
-    "home_page__features_carousel__feature_prompts__description1": "Bibliothèque de sugestions IA de haute qualité",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliothèque de prompts IA de haute qualité",
     "home_page__features_carousel__feature_prompts__description2": "Créez et gérez vos propres sugestions",
     "home_page__features_carousel__feature_prompts__description3": "Réutilisez vos propres sugestions",
     "home_page__features_carousel__feature_prompts__description4": "Ton personnalisé et styles d'écriture",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "La façon la plus rapide d'analyser des images avec la vision IA. Prenez simplement une capture d'écran et posez immédiatement toutes vos questions. Faites des recherches plus intelligentes tout en récupérant des heures précieuses chaque jour.",
     "ai_vision_pages__section3__title": "Fonctionne là où vous travaillez",
     "ai_vision_pages__section3__description": "Analysez n'importe quelle image, là où vous en avez besoin. MaxAI fonctionne sur toutes les applications Web et les sites que vous utilisez. Pas de copier-coller, pas de changement de contexte.",
-    "ai_vision_pages__section4__title": "Alimenté par les meilleurs modèles d'IA avec vision"
+    "ai_vision_pages__section4__title": "Alimenté par les meilleurs modèles d'IA avec vision",
+    "cta_text__add_to_browser_for_free": "Ajouter à {{BROWSER}} gratuitement"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Tout sélectionner",
@@ -1254,5 +1255,6 @@
     "components__ocr_pdf__main__ocr_loading": "Chargement du PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR et Télécharger",
     "components__ocr_pdf__main__document_scanning_language": "Langue de numérisation des documents"
-  }
+  },
+  "": ""
 }

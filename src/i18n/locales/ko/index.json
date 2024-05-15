@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "AI 비전으로 이미지를 분석하는 가장 빠른 방법입니다. 스크린샷을 찍고 즉시 질문하세요. 매일 소중한 시간을 절약하면서 더 스마트하게 연구하세요.",
     "ai_vision_pages__section3__title": "작업하는 곳에서 작동합니다",
     "ai_vision_pages__section3__description": "필요한 위치에서 이미지를 분석하세요. MaxAI는 사용하는 모든 웹 앱과 사이트에서 작동합니다. 복사하지 않고 붙여넣지 않고 문맥 전환 없이 사용하세요.",
-    "ai_vision_pages__section4__title": "최고의 AI 모델로 구동됩니다"
+    "ai_vision_pages__section4__title": "최고의 AI 모델로 구동됩니다",
+    "cta_text__add_to_browser_for_free": "무료로 {{BROWSER}}에 추가"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "모두 선택",

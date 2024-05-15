@@ -1052,7 +1052,8 @@
     "ai_vision_pages__section2__description": "Cách nhanh nhất để phân tích hình ảnh với công nghệ AI. Chỉ cần chụp màn hình và đặt câu hỏi ngay lập tức. Nghiên cứu thông minh hơn trong khi tiết kiệm thời gian quý báu hàng ngày.",
     "ai_vision_pages__section3__title": "Hoạt động nơi bạn làm việc",
     "ai_vision_pages__section3__description": "Phân tích bất kỳ hình ảnh nào, ngay tại nơi bạn cần. MaxAI hoạt động trên tất cả các ứng dụng web và trang web bạn sử dụng. Không sao chép, không dán, không chuyển đổi ngữ cảnh.",
-    "ai_vision_pages__section4__title": "Được cung cấp bởi các mô hình AI tốt nhất với khả năng nhìn thấy"
+    "ai_vision_pages__section4__title": "Được cung cấp bởi các mô hình AI tốt nhất với khả năng nhìn thấy",
+    "cta_text__add_to_browser_for_free": "Thêm vào {{BROWSER}} miễn phí"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Thêm PDF",

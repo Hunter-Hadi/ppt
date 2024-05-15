@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Übersetzen Sie zwischen allen Sprachen",
     "home_page__features_carousel__feature_prompts__label": "KI-Anregungen",
     "home_page__features_carousel__feature_prompts__title": "Erledigen Sie Ihre täglichen Aufgaben jetzt in Minuten, nicht mehr in Stunden.",
-    "home_page__features_carousel__feature_prompts__description1": "Hochwertige KI-Anregungen-Bibliothek",
+    "home_page__features_carousel__feature_prompts__description1": "Hochwertige KI-Prompt-Bibliothek",
     "home_page__features_carousel__feature_prompts__description2": "Erstellen und verwalten Sie Ihre eigenen Anregungen",
     "home_page__features_carousel__feature_prompts__description3": "Wiederverwenden Sie Ihre eigenen Anregungen",
     "home_page__features_carousel__feature_prompts__description4": "Individueller Ton & Schreibstile",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Der schnellste Weg, Bilder mit AI Vision zu analysieren. Machen Sie einfach einen Screenshot und stellen Sie sofort Fragen. Arbeiten Sie intelligenter und gewinnen Sie jeden Tag kostbare Stunden zurück.",
     "ai_vision_pages__section3__title": "Funktioniert dort, wo Sie arbeiten",
     "ai_vision_pages__section3__description": "Analysieren Sie jedes Bild genau dort, wo Sie es benötigen. MaxAI funktioniert in allen Web-Apps und Websites, die Sie verwenden. Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts.",
-    "ai_vision_pages__section4__title": "Angetrieben von den besten KI-Modellen mit Vision"
+    "ai_vision_pages__section4__title": "Angetrieben von den besten KI-Modellen mit Vision",
+    "cta_text__add_to_browser_for_free": "Kostenlos zu {{BROWSER}} hinzufügen"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Alle auswählen",

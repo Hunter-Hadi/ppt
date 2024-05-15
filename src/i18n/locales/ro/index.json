@@ -503,7 +503,7 @@
     "home_page__features_carousel__feature_reader__description4": "Tradu între orice limbi",
     "home_page__features_carousel__feature_prompts__label": "Sugestii AI",
     "home_page__features_carousel__feature_prompts__title": "Finalizează sarcinile tale zilnice în câteva minute, nu mai multe ore.",
-    "home_page__features_carousel__feature_prompts__description1": "Bibliotecă de sugestii AI de înaltă calitate",
+    "home_page__features_carousel__feature_prompts__description1": "Bibliotecă AI de prompt-uri de înaltă calitate",
     "home_page__features_carousel__feature_prompts__description2": "Creează și gestionează propriile sugestii",
     "home_page__features_carousel__feature_prompts__description3": "Reutilizează propriile sugestii",
     "home_page__features_carousel__feature_prompts__description4": "Stiluri personalizate de ton și scriere",
@@ -1032,7 +1032,8 @@
     "ai_vision_pages__section2__description": "Cel mai rapid mod de a analiza imagini cu ajutorul viziunii AI. Pur și simplu faceți o captură de ecran și puneți imediat întrebări. Cercetați mai inteligent în timp ce recuperați ore prețioase în fiecare zi.",
     "ai_vision_pages__section3__title": "Funcționează acolo unde lucrați",
     "ai_vision_pages__section3__description": "Analizați orice imagine, chiar acolo unde aveți nevoie. MaxAI funcționează pe toate aplicațiile web și site-urile pe care le utilizați. Fără copiere, fără lipire, fără schimbarea contextului.",
-    "ai_vision_pages__section4__title": "Alimentat de cele mai bune modele AI cu viziune"
+    "ai_vision_pages__section4__title": "Alimentat de cele mai bune modele AI cu viziune",
+    "cta_text__add_to_browser_for_free": "Adăugați la {{BROWSER}} gratuit"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selectează tot",
