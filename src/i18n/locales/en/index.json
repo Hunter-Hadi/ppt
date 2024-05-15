@@ -147,7 +147,7 @@
 
     "home_page__features_carousel__feature_prompts__label": "AI Prompts",
     "home_page__features_carousel__feature_prompts__title": "Complete your daily tasks in minutes now, not hours anymore.",
-    "home_page__features_carousel__feature_prompts__description1": "High quality AI prompt library",
+    "home_page__features_carousel__feature_prompts__description1": "AI prompt library",
     "home_page__features_carousel__feature_prompts__description2": "Create and manage your own prompts",
     "home_page__features_carousel__feature_prompts__description3": "Reuse your own prompts",
     "home_page__features_carousel__feature_prompts__description4": "Custom tone & writing Styles",
@@ -830,7 +830,7 @@
     "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, and translator. Powered by GPT-4, Claude 3, Gemini 1.5.",
 
     "footer__products": "Products",
-    "footer__1_click_prompts": "High quality AI prompt library",
+    "footer__1_click_prompts": "AI prompt library",
     "footer__follow_us": "Follow Us",
     "footer__help": "Help",
     "footer__how_to_use": "How to use",
@@ -1032,7 +1032,7 @@
     "privacy__description": "Read the MaxAI.me privacy policy.",
 
     "prompts__title": "Prompts | MaxAI.me",
-    "prompts__description": "Complete your everyday tasks with Prompt Management and High quality AI prompt library in minutes that used to take hours.",
+    "prompts__description": "Complete your everyday tasks with Prompt Management and AI prompt library in minutes that used to take hours.",
 
     "release_notes__title": "Release notes | MaxAI.me",
 
@@ -1211,7 +1211,7 @@
 
     "ai_prompts_pages__title": "Your cheat code for AI",
     "ai_prompts_pages__description": "Complete your daily tasks in minutes now, not hours anymore.",
-    "ai_prompts_pages__section1__title": "High quality AI prompt library",
+    "ai_prompts_pages__section1__title": "AI prompt library",
     "ai_prompts_pages__section1__description": "Access a vast repository of expertly crafted prompts, each heavily used, reviewed and approved by our dedicated AI prompt experts. These prompts are specifically designed to generate high-impact content, ensuring that your efforts resonate effectively with your intended audience. This resource saves you both time and effort, streamlining your content creation process.",
     "ai_prompts_pages__section2__title": "Create and manage your own prompts",
     "ai_prompts_pages__section2__description": "Create your own prompts and organize them for continuous use. Make it easy to access and reuse, for yourself and your team.",
