@@ -344,7 +344,7 @@ export const FunctionalityRotatePdfMain = () => {
                 onClick={() => confirmToRotatePdf()}
               >
                 {isDownloadLoading ? (
-                  <CircularProgress size={25} />
+                  <CircularProgress size={26} />
                 ) : (
                   t(
                     'functionality__rotate_pdf:components__rotate_pdf__button__download',

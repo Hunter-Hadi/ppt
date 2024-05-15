@@ -353,7 +353,7 @@ const FunctionalityPdfMergeMain = () => {
                 onClick={() => onDownloadZip()}
               >
                 {isDownloadLoading ? (
-                  <CircularProgress size={25} />
+                  <CircularProgress size={26} />
                 ) : (
                   t(
                     'functionality__pdf_merge:components__pdf_merge__confirm_merge',

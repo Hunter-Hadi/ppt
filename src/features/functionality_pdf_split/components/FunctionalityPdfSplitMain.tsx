@@ -31,7 +31,10 @@ import { functionalityCommonSnackNotifications } from '@/features/functionality_
 export const FunctionalityPdfSplitMain = () => {
   const { t } = useTranslation();
 
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isFileLoading, setIsFileLoading] = useState<boolean>(false);
+  const [isSplitDownloadLoading, setIsSplitDownloadLoading] =
+    useState<boolean>(false); //是否正在剪切下载
+
   const [activeFile, setActiveFile] = useState<File | null>(null); //保存在这里是为了方便对源数据后续操作
   const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false); //是否是合并单个pdf
 
@@ -55,13 +58,13 @@ export const FunctionalityPdfSplitMain = () => {
     );
   const onUploadFile = async (fileList: FileList) => {
     if (fileList && fileList.length > 0) {
-      setIsLoading(true);
+      setIsFileLoading(true);
       setActiveFile(fileList[0]);
       const isReadSuccess = await onReadPdfToImages(fileList[0], 'png', false);
       if (!isReadSuccess) {
         setActiveFile(null);
       }
-      setIsLoading(false);
+      setIsFileLoading(false);
     }
   };
   const selectPdfPageList = useMemo(
@@ -69,7 +72,7 @@ export const FunctionalityPdfSplitMain = () => {
     [convertedPdfImages],
   );
   const confirmToSplit = async () => {
-    setIsLoading(true);
+    setIsSplitDownloadLoading(true);
     setPdfTotalPages(0);
     if (selectPdfPageList.length > 0) {
       if (isMergeSinglePDf) {
@@ -85,7 +88,7 @@ export const FunctionalityPdfSplitMain = () => {
         onDownloadPdfImagesZip(pdfUint8ArrayList);
       }
     }
-    setIsLoading(false);
+    setIsSplitDownloadLoading(false);
   };
   const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
     const zip = new JSZip();
@@ -144,7 +147,7 @@ export const FunctionalityPdfSplitMain = () => {
         return mergedPdfUint8Array;
       }
     } catch (e) {
-      setIsLoading(false);
+      setIsFileLoading(false);
       console.error('simply mergePdfFiles error', e);
       functionalityCommonSnackNotifications(
         t('functionality__pdf_split:components__pdf_split__error_maximum'),
@@ -154,7 +157,8 @@ export const FunctionalityPdfSplitMain = () => {
   const onRemoveFile = () => {
     setConvertedPdfImages([]);
   };
-  const currentIsLoading = pdfIsLoading || isLoading;
+  const currentInitializeLoading = pdfIsLoading || isFileLoading; //文件加载和pdf加载 初始化
+  const currentIsLoading = currentInitializeLoading || isSplitDownloadLoading;
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -262,14 +266,14 @@ export const FunctionalityPdfSplitMain = () => {
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
 
-      {convertedPdfImages.length > 0 && !currentIsLoading && (
+      {convertedPdfImages.length > 0 && !currentInitializeLoading && (
         <StackViewWrap>
           {convertedPdfImages.map((imageInfo, index) => (
             <FunctionalityCommonImage
               key={imageInfo.id}
               name={String(index + 1)}
               imageInfo={imageInfo}
-              onClick={() => onSwitchSelect(imageInfo.id)}
+              onClick={() => !currentIsLoading && onSwitchSelect(imageInfo.id)}
               wrapSx={{
                 width: currentScale * 50,
               }}
@@ -281,13 +285,16 @@ export const FunctionalityPdfSplitMain = () => {
                   right: 0,
                 }}
               >
-                <Checkbox checked={imageInfo.isSelect} />
+                <Checkbox
+                  disabled={currentIsLoading}
+                  checked={imageInfo.isSelect}
+                />
               </Box>
             </FunctionalityCommonImage>
           ))}
         </StackViewWrap>
       )}
-      {currentIsLoading && (
+      {currentInitializeLoading && (
         <StackViewWrap>
           <Stack
             flexDirection='column'
@@ -341,8 +348,12 @@ export const FunctionalityPdfSplitMain = () => {
                 variant='contained'
                 onClick={() => confirmToSplit()}
               >
-                {t(
-                  'functionality__pdf_split:components__pdf_split__confirm_split',
+                {isSplitDownloadLoading ? (
+                  <CircularProgress size={26} />
+                ) : (
+                  t(
+                    'functionality__pdf_split:components__pdf_split__confirm_split',
+                  )
                 )}
               </Button>
             </FunctionalityCommonTooltip>
