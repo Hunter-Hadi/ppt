@@ -34,7 +34,9 @@ export const FunctionalityRotatePdfMain = () => {
   const [pdfPageImageInfoList, setPdfPageImageInfoList] = useState<
     IFunctionalityRotatePdfType[]
   >([]); //PDF页面的图片列信息表
-  const [isLoading, setIsLoading] = useState<boolean>(false); //是否加载
+  const [isFileLoading, setIsFileLoading] = useState<boolean>(false); //文件加载
+  const [isDownloadLoading, setIsDownloadLoading] = useState<boolean>(false); //下载加载
+
   const [file, setFile] = useState<File | null>(null); //文件
   const {
     convertedPdfImages, //转换完的图片信息列表
@@ -51,9 +53,9 @@ export const FunctionalityRotatePdfMain = () => {
     //用户上传，读取pdf文件显示的图片列表
     if (fileList && fileList.length > 0) {
       setFile(fileList[0]);
-      setIsLoading(true);
+      setIsFileLoading(true);
       await onReadPdfToImages(fileList[0], 'png', false); //开始读取PDF生成为图片显示
-      setIsLoading(false);
+      setIsFileLoading(false);
     }
   };
   useEffect(() => {
@@ -71,7 +73,7 @@ export const FunctionalityRotatePdfMain = () => {
   const confirmToRotatePdf = async () => {
     //确认并旋转PDF
     try {
-      setIsLoading(true);
+      setIsDownloadLoading(true);
       setPdfTotalPages(0);
       if (!file) return;
       const buff = await file.arrayBuffer(); //获取文件的二进制数据
@@ -106,7 +108,7 @@ export const FunctionalityRotatePdfMain = () => {
         const bytes = await newPdfDocument.save(); //保存pdf文件
         downloadUrl(bytes, fileName);
       }
-      setIsLoading(false);
+      setIsDownloadLoading(false);
     } catch (error) {
       console.log('simply confirmToRotatePdf error', error);
     }
@@ -122,7 +124,10 @@ export const FunctionalityRotatePdfMain = () => {
     const newRotateNumber = rotateNumber + 90;
     return newRotateNumber === 360 ? 0 : newRotateNumber;
   };
+  const currentInitializeLoading = pdfIsLoading || isFileLoading; //文件加载和pdf加载 初始化
+  const currentIsLoading = currentInitializeLoading || isDownloadLoading; //页面是否有loading
   const onRotateSelect = (pdfImageInfo: IFunctionalityRotatePdfType) => {
+    if (currentIsLoading) return;
     //旋转此刻图片
     setPdfPageImageInfoList((currentPdfPageImageList) => {
       return currentPdfPageImageList.map((pdfPageImage) => {
@@ -138,6 +143,7 @@ export const FunctionalityRotatePdfMain = () => {
     });
   };
   const onRotateAll = () => {
+    if (currentIsLoading) return;
     //旋转全部的图片
     setPdfPageImageInfoList((currentPdfPageImageList) => {
       return currentPdfPageImageList.map((pdfPageImage) => {
@@ -148,7 +154,6 @@ export const FunctionalityRotatePdfMain = () => {
       });
     });
   };
-  const currentIsLoading = pdfIsLoading || isLoading;
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -258,7 +263,7 @@ export const FunctionalityRotatePdfMain = () => {
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
 
-      {pdfPageImageInfoList.length > 0 && !currentIsLoading && (
+      {pdfPageImageInfoList.length > 0 && !currentInitializeLoading && (
         <StackViewWrap>
           {pdfPageImageInfoList.map((imageInfo, index) => (
             <FunctionalityCommonImage
@@ -286,7 +291,7 @@ export const FunctionalityRotatePdfMain = () => {
                     name='RotateRight'
                     fontSize='small'
                     sx={{
-                      bgcolor: '#9065B0',
+                      bgcolor: currentIsLoading ? '#f6f6f6' : '#9065B0',
                       borderRadius: 3,
                       color: '#fff',
                     }}
@@ -297,7 +302,7 @@ export const FunctionalityRotatePdfMain = () => {
           ))}
         </StackViewWrap>
       )}
-      {currentIsLoading && (
+      {currentInitializeLoading && (
         <StackViewWrap>
           <Stack
             flexDirection='column'
@@ -338,8 +343,12 @@ export const FunctionalityRotatePdfMain = () => {
                 variant='contained'
                 onClick={() => confirmToRotatePdf()}
               >
-                {t(
-                  'functionality__rotate_pdf:components__rotate_pdf__button__download',
+                {isDownloadLoading ? (
+                  <CircularProgress size={25} />
+                ) : (
+                  t(
+                    'functionality__rotate_pdf:components__rotate_pdf__button__download',
+                  )
                 )}
               </Button>
             </FunctionalityCommonTooltip>
