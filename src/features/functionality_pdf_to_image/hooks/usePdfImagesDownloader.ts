@@ -45,7 +45,9 @@ const usePdfImagesDownloader = () => {
           (image) => image.isSelect,
         );
         setDownloaderTotalPages(selectedImages.length);
-
+        //只有重新设置scale尺寸，才会重新加载pdf
+        const buff = scale ? await file?.arrayBuffer() : undefined;
+        const pdfDoc = buff ? await pdfjs.getDocument(buff).promise : undefined;
         for (let i = 0; i < selectedImages.length; i++) {
           if (isCancel.current) return;
           setCurrentDownloaderActionNum(i + 1);
@@ -57,26 +59,22 @@ const usePdfImagesDownloader = () => {
                 base64: true,
               },
             );
-          } else if (scale) {
-            //只有重新设置scale尺寸，才会重新加载pdf
-            const buff = scale ? await file?.arrayBuffer() : undefined;
-            const pdfDoc = buff
-              ? await pdfjs.getDocument(buff).promise
-              : undefined;
+          } else if (scale && pdfDoc) {
             const { imageDataUrl } = await generatePdfToImage(
               pdfDoc,
               selectedImages[i].definedIndex,
               toType,
               scale,
             );
-
-            images?.file(
-              `image-${i + 1}(Powered by MaxAI).${toType}`,
-              dataURLtoBlob(imageDataUrl),
-              {
-                base64: true,
-              },
-            );
+            if (imageDataUrl) {
+              images?.file(
+                `image-${i + 1}(Powered by MaxAI).${toType}`,
+                dataURLtoBlob(imageDataUrl),
+                {
+                  base64: true,
+                },
+              );
+            }
           }
         }
         if (isCancel.current) return;

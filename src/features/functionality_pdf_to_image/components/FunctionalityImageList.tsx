@@ -12,12 +12,14 @@ interface IFunctionalityImageList {
   scale?: number;
   imageList: IFunctionalityImageData[];
   onClickImage: (image: IFunctionalityImageData) => void;
+  disabled?: boolean;
 }
 
 const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   imageList,
   scale = 2,
   onClickImage,
+  disabled,
 }) => {
   return (
     <Stack
@@ -39,7 +41,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
           wrapSx={{
             width: scale * 50,
           }}
-          onClick={() => onClickImage(imageInfo)}
+          onClick={() => !disabled && onClickImage(imageInfo)}
         >
           <Box
             sx={{
@@ -48,7 +50,7 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
               right: 0,
             }}
           >
-            <Checkbox checked={imageInfo.isSelect} />
+            <Checkbox disabled={disabled} checked={imageInfo.isSelect} />
           </Box>
         </FunctionalityCommonImage>
       ))}

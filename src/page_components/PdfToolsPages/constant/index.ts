@@ -11,7 +11,8 @@ export type IToolUrkKeyType =
   | 'pdf-to-html'
   | 'sign-pdf'
   | 'compress-pdf'
-  | 'ocr-pdf';
+  | 'ocr-pdf'
+  | 'rotate-pdf';
 export interface IToolData {
   icon: string;
   title: string;
@@ -86,7 +87,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__secondary_description',
     urlKey: routerChildrenObject['jpeg-to-pdf'],
     urlPrefixPath: toolsTopUrlKey,
-    accept: 'image/jpg',
+    accept: 'image/jpg,image/jpeg',
   },
   'heic-to-pdf': {
     icon: 'CropOriginal',
@@ -137,6 +138,16 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
     urlKey: routerChildrenObject['ocr-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'rotate-pdf': {
+    icon: 'CropOriginal',
+    title: 'pages:tools__index_page__constant_obj__rotate_pdf__title',
+    description:
+      'pages:tools__index_page__constant_obj__rotate_pdf__main_description',
+    secondaryDescription:
+      'pages:tools__index_page__constant_obj__rotate_pdf__secondary_description',
+    urlKey: routerChildrenObject['rotate-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 };

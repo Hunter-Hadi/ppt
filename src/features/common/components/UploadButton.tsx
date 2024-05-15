@@ -128,7 +128,7 @@ const UploadButton: FC<
       <VisuallyHiddenInput
         type='file'
         onChange={(event) =>
-          onChange && event.target.files && onChange(event.target.files)
+          event.target.files && onChangeFiles(event.target.files)
         }
         {...inputProps}
       />

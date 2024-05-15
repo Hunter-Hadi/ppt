@@ -124,7 +124,7 @@ const FunctionalityPdfToHtmlMain = () => {
         <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
-            multiple: true,
+            multiple: false,
           }}
           onChange={onUploadFile}
         />

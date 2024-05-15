@@ -49,6 +49,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   const { t } = useTranslation();
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isDownloadLoading, setIsDownloadLoading] = useState<boolean>(false);
 
   const [userSelectSizeType, setUserSelectSizeType] = useState<string>('A4');
   const [userSelectPositionType, setUserSelectPositionType] =
@@ -118,7 +119,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   const convertToPDF = useCallback(async () => {
     try {
       const pdfDoc = await PDFDocument.create();
-      setIsLoading(true);
+      setIsDownloadLoading(true);
       setTotalPages(imageInfoList.length);
       for (const index in imageInfoList) {
         try {
@@ -186,9 +187,9 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       setTotalPages(0);
       const pdfBytes = await pdfDoc.save();
       downloadUrl(pdfBytes, 'images(Powered by MaxAI).pdf');
-      setIsLoading(false);
+      setIsDownloadLoading(false);
     } catch (error) {
-      setIsLoading(false);
+      setIsDownloadLoading(false);
       console.error('Error converting images to PDF:', error);
     }
   }, [imageInfoList, userSelectPositionType, getUserSelectPageSize]);
@@ -198,6 +199,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       setImageInfoList(newPdfInfoList);
     }
   };
+  const currentIsLoading = isLoading || isDownloadLoading;
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -210,7 +212,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
           onChange: onUploadFile,
           isDrag: false,
           buttonProps: {
-            disabled: isLoading,
+            disabled: currentIsLoading,
             variant: 'outlined',
             sx: {
               height: 48,
@@ -238,12 +240,12 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
           ),
           variant: 'outlined',
           color: 'error',
-          disabled: isLoading,
+          disabled: currentIsLoading,
           onClick: () => setImageInfoList([]),
         },
       },
     ],
-    [uploadAccept, isLoading, t],
+    [uploadAccept, currentIsLoading, t],
   );
   const isEmptyList = imageInfoList.length === 0;
   const bottomButtonConfigs: IButtonConfig[] = useMemo(
@@ -253,18 +255,20 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         isShow: !isEmptyList,
         buttonProps: {
           onClick: convertToPDF,
-          disabled: isLoading,
+          disabled: currentIsLoading,
           variant: 'contained',
           tooltip: t(
             'functionality__image_to_pdf:components__image_to_pdf__download__tooltip',
           ),
-          children: t(
-            'functionality__image_to_pdf:components__image_to_pdf__download',
+          children: isDownloadLoading ? (
+            <CircularProgress size={26} />
+          ) : (
+            t('functionality__image_to_pdf:components__image_to_pdf__download')
           ),
         },
       },
     ],
-    [isLoading, t, isEmptyList, convertToPDF],
+    [currentIsLoading, t, isEmptyList, convertToPDF, isDownloadLoading],
   );
   return (
     <Stack
@@ -276,7 +280,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         width: '100%',
       }}
     >
-      {imageInfoList.length === 0 && !isLoading && (
+      {imageInfoList.length === 0 && !currentIsLoading && (
         <FunctionalityCommonUploadButton
           inputProps={{
             accept: uploadAccept,
@@ -299,6 +303,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         >
           <FunctionalityCommonDragSortableList
             list={imageInfoList}
+            disabled={currentIsLoading}
             onUpdateList={setImageInfoList}
             replacementElement={(dragInfo) => (
               <FunctionalityCommonImage
@@ -347,8 +352,9 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
                           name='CloseTwoTone'
                           fontSize='small'
                           sx={{
-                            bgcolor: '#d1d5db',
+                            bgcolor: currentIsLoading ? '#f6f6f6' : '#9065B0',
                             borderRadius: 3,
+                            color: '#fff',
                           }}
                         />
                       </IconButton>
@@ -412,7 +418,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
               onChange={(event) => setUserSelectSizeType(event.target.value)}
               displayEmpty
               size='small'
-              disabled={isLoading}
+              disabled={currentIsLoading}
               sx={{
                 width: 150,
                 ml: 1,
@@ -455,7 +461,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
               }
               displayEmpty
               size='small'
-              disabled={isLoading}
+              disabled={currentIsLoading}
               sx={{
                 width: 150,
                 ml: 1,
