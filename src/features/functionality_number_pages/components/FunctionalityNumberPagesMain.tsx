@@ -128,7 +128,7 @@ const FunctionalityNumberPagesMain = () => {
         const page = pdfDocument.getPage(index);
         const { width, height } = page.getSize();
         const fontSize = 13;
-        const textWidth = startNumberValue.toString().length * (fontSize / 2); //大概的计算文本的宽度
+        const textWidth = startNumberValue.toString().length * (fontSize / 1.8); //大概的计算文本的宽度
         let x = 50,
           y = 0;
         switch (positionValue) {
@@ -149,8 +149,8 @@ const FunctionalityNumberPagesMain = () => {
             break;
           case 'top':
             //位于底部的中心位置
-            x = width / 2 - textWidth / 3; //中心位置-文字宽度的一半
-            y = height - fontSize - marginsNumberValue; //高度-字体大小-边距
+            x = width / 2 - textWidth / 2; //中心位置-文字宽度的一半
+            y = height - marginsNumberValue; //高度-字体大小-边距
             break;
           case 'topLeft':
             //位于底部的中心位置
@@ -247,7 +247,7 @@ const FunctionalityNumberPagesMain = () => {
                     setMarginsNumberValueValue(event.target.value as number)
                   }
                 >
-                  <MenuItem value={20}>
+                  <MenuItem value={15}>
                     {t(
                       'functionality__pdf_number_pages:components__pdf_number_pages__main_margins_narrow',
                     )}
