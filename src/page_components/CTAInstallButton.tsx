@@ -136,12 +136,12 @@ const CTAInstallButton: FC<IProps> = ({
   }, [sx, isEmbedMode, label]);
 
   const handleClick = (e: React.MouseEvent) => {
-    if (typeof window !== 'undefined') {
-      // 禁止 a 标签默认行为
-      e.preventDefault();
-      // 用 window.open 打开更快
-      window.open(href, target);
-    }
+    // if (typeof window !== 'undefined') {
+    //   // 禁止 a 标签默认行为
+    //   e.preventDefault();
+    //   // 用 window.open 打开更快
+    //   window.open(href, target);
+    // }
 
     mixpanelTrack('install_started', {
       ref,

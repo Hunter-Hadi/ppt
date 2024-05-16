@@ -18,10 +18,10 @@ export const APP_EXTERNAL_LINKS = {
   PINTEREST: 'https://www.pinterest.com/SimplyTrendsOfficial/',
   TIKTOK: 'https://www.tiktok.com/@simplytrendsofficial',
   CHROME_EXTENSION:
-    'https://chrome.google.com/webstore/detail/maxaime-1-click-ai-powere/mhnlakgilnojmhinhkckjpncpbhabphi',
+    'https://chromewebstore.google.com/detail/maxaime-1-click-ai-powere/mhnlakgilnojmhinhkckjpncpbhabphi',
 
   EDGE_EXTENSION:
-    'https://microsoftedge.microsoft.com/addons/detail/maxaime-use-chatgpt-ai-/ngphehpfehdmjellohmlojkplilekadg',
+    'https://microsoftedge.microsoft.com/addons/detail/maxaime-1click-ai-powe/ngphehpfehdmjellohmlojkplilekadg',
 
   TWITTER_FOLLOW_UP_LINK:
     'https://twitter.com/intent/follow?screen_name=MaxAI_HQ',
