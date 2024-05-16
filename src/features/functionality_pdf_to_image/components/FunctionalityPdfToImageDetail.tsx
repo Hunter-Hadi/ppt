@@ -126,7 +126,7 @@ const FunctionalityPdfToImageDetail: FC<
     onCancelPdfActive && onCancelPdfActive();
     onCancelDownloader();
   };
-  const isLoading = pdfIsLoading || downloaderIsLoading;
+  const currentIsLoading = pdfIsLoading || downloaderIsLoading;
   const totalPages = !downloaderIsLoading
     ? pdfTotalPages
     : downloaderTotalPages;
@@ -141,7 +141,7 @@ const FunctionalityPdfToImageDetail: FC<
       {
         type: 'button',
         buttonProps: {
-          disabled: isLoading || currentShowImages.length === 0,
+          disabled: currentIsLoading || currentShowImages.length === 0,
           variant: 'outlined',
           onClick: onSwitchAllSelect,
           children: isSelectAll
@@ -165,7 +165,7 @@ const FunctionalityPdfToImageDetail: FC<
                   'functionality__pdf_to_image:components__to_image_detail__button__view_pages__tooltip',
                 ),
           tooltipKey: showPdfImagesType, //防止切换窗口高度变化过大，导致的tooltip位置不对
-          disabled: isLoading,
+          disabled: currentIsLoading,
           variant: 'outlined',
           onClick: onSwitchPdfImagesType,
           children:
@@ -184,7 +184,7 @@ const FunctionalityPdfToImageDetail: FC<
           tooltip: t(
             'functionality__pdf_to_image:components__to_image_detail__button__remove__tooltip',
           ),
-          disabled: isLoading,
+          disabled: currentIsLoading,
           variant: 'outlined',
           color: 'error',
           onClick: () => onRemoveFile && onRemoveFile(),
@@ -194,7 +194,7 @@ const FunctionalityPdfToImageDetail: FC<
         },
       },
       {
-        isShow: !isLoading,
+        isShow: !currentIsLoading,
         type: 'iconButton',
         iconButtonProps: [
           {
@@ -217,7 +217,7 @@ const FunctionalityPdfToImageDetail: FC<
         ],
       },
       {
-        isShow: isLoading,
+        isShow: currentIsLoading,
         type: 'button',
         buttonProps: {
           tooltip: t(
@@ -235,7 +235,7 @@ const FunctionalityPdfToImageDetail: FC<
       },
     ],
     [
-      isLoading,
+      currentIsLoading,
       showPdfImagesType,
       isSelectAll,
       currentShowImages.length,
@@ -257,11 +257,12 @@ const FunctionalityPdfToImageDetail: FC<
           minHeight: 200,
         }}
       >
-        {!isLoading && currentShowImages?.length > 0 && (
+        {!pdfIsLoading && currentShowImages?.length > 0 && (
           <FunctionalityImageList
             onClickImage={(image) => onSwitchSelect(image.id)}
             imageList={currentShowImages}
             scale={currentScale}
+            disabled={currentIsLoading}
           />
         )}
         {showPdfImagesType === 'pdfPageHaveImages' &&
@@ -292,7 +293,7 @@ const FunctionalityPdfToImageDetail: FC<
             </Stack>
           )}
 
-        {isLoading && (
+        {pdfIsLoading && (
           <Stack
             flexDirection='column'
             alignItems='center'
@@ -311,12 +312,14 @@ const FunctionalityPdfToImageDetail: FC<
           </Stack>
         )}
       </Box>
-      {showPdfImagesType === 'pdfPageImages' && !isLoading && (
+      {showPdfImagesType === 'pdfPageImages' && !pdfIsLoading && (
         <Stack direction='row' justifyContent='center' gap={2}>
           {imageSizeList.map((imageSize, index) => (
             <Box
               key={index}
-              onClick={() => !isLoading && setSelectDownloadSizeIndex(index)}
+              onClick={() =>
+                !currentIsLoading && setSelectDownloadSizeIndex(index)
+              }
               sx={{
                 border: `1px solid ${
                   selectDownloadSizeIndex === index ? '#000' : '#e5e7eb'
@@ -377,13 +380,22 @@ const FunctionalityPdfToImageDetail: FC<
             >
               <Button
                 sx={{ width: '100%', height: 48 }}
-                disabled={isLoading || selectImageList.length === 0}
+                disabled={currentIsLoading || selectImageList.length === 0}
                 size='large'
                 variant='contained'
                 onClick={() => downloadZip()}
               >
-                {t(
-                  'functionality__pdf_to_image:components__to_image_detail__download_images',
+                {downloaderIsLoading ? (
+                  <Stack direction='row' alignItems='center' gap={1}>
+                    <CircularProgress size={26} />
+                    <Box>
+                      {currentDownloaderActionNum}/{downloaderTotalPages}
+                    </Box>
+                  </Stack>
+                ) : (
+                  t(
+                    'functionality__pdf_to_image:components__to_image_detail__download_images',
+                  )
                 )}
               </Button>
             </FunctionalityCommonTooltip>

@@ -2,6 +2,9 @@ import { isString } from 'lodash-es';
 import { useRouter } from 'next/router';
 import { useMemo } from 'react';
 
+/**
+ * 从路由参数中获取 Partner 页面需要展示的信息
+ */
 const usePartnersInfo = () => {
   const router = useRouter();
 

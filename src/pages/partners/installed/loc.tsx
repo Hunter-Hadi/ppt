@@ -67,7 +67,7 @@ const LocPartners = () => {
         <TryExtensionButton propRef={linkRef} />
         <HomePageContent propRef={linkRef} />
       </Box>
-      <FixedCtaButton propRef={linkRef} />
+      <FixedCtaButton propRef={linkRef} partnerPageType='installed' />
     </Box>
   );
 };

@@ -53,7 +53,7 @@ const J2teamCookies = () => {
         <TryExtensionButton propRef={linkRef} />
         <HomePageContent propRef={linkRef} />
       </Box>
-      <FixedCtaButton propRef={linkRef} />
+      <FixedCtaButton propRef={linkRef} partnerPageType='installed' />
     </Box>
   );
 };

@@ -7,7 +7,7 @@ import { APP_PROJECT_LINK } from '@/global_constants';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 const AppHeaderCTABtn = () => {
-  const { hasExtension } = useCheckExtension();
+  const { hasExtension, loaded } = useCheckExtension();
   const { t } = useTranslation();
 
   const cacheSx = useMemo(() => {
@@ -29,7 +29,7 @@ const AppHeaderCTABtn = () => {
     };
   }, []);
 
-  if (hasExtension) {
+  if (hasExtension || !loaded) {
     return (
       <Button
         variant='contained'

@@ -63,6 +63,12 @@ const FunctionalityNumberPagesMain = lazy(
       '@/features/functionality_number_pages/components/FunctionalityNumberPagesMain'
     ),
 );
+const FunctionalityRotatePdfMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfMain'
+    ),
+);
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -120,6 +126,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__ocr_pdf__title'),
       description: t('seo:pdf_tools__ocr_pdf__description'),
     },
+    'rotate-pdf': {
+      title: t('seo:pdf_tools__rotate_pdf__title'),
+      description: t('seo:pdf_tools__rotate_pdf__description'),
+    },
     'pdf-numbers-page': {
       title: t('seo:pdf_tools__pdf_numbers_page__title'),
       description: t('seo:pdf_tools__pdf_numbers_page__description'),
@@ -169,6 +179,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
           {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
           {urlKey === 'pdf-numbers-page' && <FunctionalityNumberPagesMain />}
+          {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
         </Suspense>
       </Box>
       {toolsDetailDescriptionData && (

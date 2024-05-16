@@ -6,10 +6,12 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Typography from '@mui/material/Typography';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useState } from 'react';
 
 import ProLink from '@/components/ProLink';
+import { removeLocaleInPathname } from '@/i18n/utils';
 
 interface IProps {
   isSmallScreen?: boolean;
@@ -17,22 +19,65 @@ interface IProps {
 
 const FEATURES_MENU_LIST = [
   {
-    label: 'features_landing:youtube_summary_pages__title',
-    href: '/features/youtubesummary',
+    label: 'features_landing:menu_item__ai_chat',
+    href: '/features/ai-chat',
   },
   {
-    label: 'features_landing:chat_pdf_pages__title',
-    href: '/features/chatpdf',
+    label: 'features_landing:menu_item__ai_rewriter',
+    href: '/features/ai-rewriter',
   },
   {
-    label: 'features_landing:translate_pages__title',
-    href: '/features/translate',
+    label: 'features_landing:menu_item__ai_summary',
+    href: '/features/ai-summary',
   },
-  { label: 'features_landing:vision_pages__title', href: '/features/vision' },
+  {
+    label: 'features_landing:menu_item__ai_instant_reply',
+    href: '/features/ai-instant-reply',
+  },
+  {
+    label: 'features_landing:menu_item__ai_reading_assistant',
+    href: '/features/ai-reader',
+  },
+  {
+    label: 'features_landing:menu_item__ai_prompts',
+    href: '/features/ai-prompts',
+  },
+  {
+    label: 'features_landing:menu_item__ai_search',
+    href: '/features/ai-search',
+  },
+  {
+    label: 'features_landing:menu_item__ai_art',
+    href: '/features/ai-art',
+  },
+  {
+    label: 'features_landing:menu_item__ai_translator',
+    href: '/features/ai-translator',
+  },
+  {
+    label: 'features_landing:menu_item__ai_vision',
+    href: '/features/ai-vision',
+  },
+  // {
+  //   label: 'features_landing:youtube_summary_pages__title',
+  //   href: '/features/youtubesummary',
+  // },
+  // {
+  //   label: 'features_landing:chat_pdf_pages__title',
+  //   href: '/features/chatpdf',
+  // },
+  // {
+  //   label: 'features_landing:translate_pages__title',
+  //   href: '/features/translate',
+  // },
+  // { label: 'features_landing:vision_pages__title', href: '/features/vision' },
 ];
 
 const FeaturesItem: FC<IProps> = ({ isSmallScreen }) => {
   const { t } = useTranslation();
+
+  const router = useRouter();
+  const pathname = removeLocaleInPathname(router.pathname);
 
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
@@ -107,6 +152,7 @@ const FeaturesItem: FC<IProps> = ({ isSmallScreen }) => {
           {FEATURES_MENU_LIST.map((industriesItem) => (
             <MenuItem
               key={industriesItem.href}
+              selected={pathname === industriesItem.href}
               sx={{
                 borderRadius: '8px',
                 mb: 1,
@@ -203,6 +249,7 @@ const FeaturesItem: FC<IProps> = ({ isSmallScreen }) => {
         {FEATURES_MENU_LIST.map((industriesItem) => (
           <MenuItem
             key={industriesItem.href}
+            selected={pathname === industriesItem.href}
             sx={{
               borderRadius: '8px',
               fontSize: '16px !important',
