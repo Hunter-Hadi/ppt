@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Jak otočit stránky PDF online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Nahrajte PDF dokument, který chcete otočit.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Vyberte konkrétní stránky pro otočení nebo aplikujte otočení na všechny stránky.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Stáhněte si upravené PDF s již správnou orientací stránek, připravené pro jakékoli použití."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Stáhněte si upravené PDF s již správnou orientací stránek, připravené pro jakékoli použití.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Číslování stránek",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Snadné vložení čísel stránek do PDF",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Hromadné a rychlé vložení čísel stránek do PDF dokumentů",
+    "pdf_tools__detail_description_object__number_pages__top_left": "Snadno vkládejte čísla stránek do svých PDF souborů pomocí našeho intuitivního online nástroje pro číslování stránek v PDF. Ujistěte se, že vaše dokumenty jsou dobře organizované a snadno se v nich naviguje, a to bez instalace softwaru.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Jednoduché a rychlé číslování stránek v PDF",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "Není potřeba stahovat software",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "Vysoká úroveň zabezpečení – veškeré zpracování probíhá ve vašem prohlížeči",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Efektivní číslování stránek v PDF",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "Během několika sekund přidejte čísla stránek do svých PDF. Nahrajte svůj PDF, nastavte si své volby a nechte náš nástroj zbytek, vytvoří profesionálně číslovaný dokument bez námahy.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Udržujte pořadí dokumentu",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Udržujte své PDF soubory organizované tím, že stránky budou jasně číslovány. Umožněte snadné odkazování a zlepšete čitelnost svých dokumentů.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Různé možnosti číslování",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Přizpůsobte si čísla stránek různými písmy, velikostmi a pozicemi. Náš konvertor umožňuje různé formátovací potřeby pro jakýkoli typ dokumentu.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Ochrana soukromí na straně klienta",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "Vaše soukromí je chráněno, protože celý proces číslování stránek probíhá lokálně ve vašem zařízení. Vaše soubory zůstávají bezpečné a důvěrné.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Dostupné odkudkoli",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "Náš online nástroj je k dispozici nonstop z jakéhokoli zařízení. Číslujte své stránky PDF kdykoli, přímo z webového prohlížeče, aniž byste potřebovali instalaci.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Offline funkčnost",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Pokračujte v práci i bez připojení k internetu. Načtěte si stránku předem a můžete stále číslovat své stránky PDF offline, kdykoliv je to potřeba.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "Jak snadno číslovat stránky PDF:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Importujte nebo přetáhněte svůj soubor do našeho nástroje pro číslování stránek PDF.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Vyberte pozici, kde chcete, aby se čísla stránek zobrazovala.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Přizpůsobte okraje stránky a další možnosti podle potřeby.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klikněte na „Přidat a stáhnout“ a počkejte jen chvilku.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Stáhněte si své PDF s čísly stránek – to je vše!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "Zrušit aktuální postup",
     "components__rotate_pdf__button__download__tooltip": "Otočit a stáhnout PDF",
     "components__rotate_pdf__button__download": "Stáhnout"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Pozice",
+    "components__pdf_number_pages__main_margins": "Okraje",
+    "components__pdf_number_pages__main_margins_narrow": "Úzké",
+    "components__pdf_number_pages__main_margins_default": "Standardní",
+    "components__pdf_number_pages__main_margins_wide": "Široké",
+    "components__pdf_number_pages__main_start_numbering_at": "Začít číslování od",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Zadejte počáteční číslo",
+    "components__pdf_number_pages__main_add_and_download": "Přidat a stáhnout"
   }
 }

@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Com girar pàgines de PDF en línia:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Carregueu el document PDF que voleu girar.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Seleccioneu les pàgines específiques per a la rotació o apliqueu la rotació a totes les pàgines.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarregueu el vostre PDF modificat, amb les pàgines ara en la orientació correcta, llest per a qualsevol ús."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarregueu el vostre PDF modificat, amb les pàgines ara en la orientació correcta, llest per a qualsevol ús.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Numerar Pàgines",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Insereix números de pàgina a un PDF amb facilitat",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Inserció ràpida i en lot de números de pàgina en documents PDF",
+    "pdf_tools__detail_description_object__number_pages__top_left": "Insereix fàcilment números de pàgina als teus fitxers PDF amb la nostra eina intuïtiva de numeració de pàgines. Assegura't que els teus documents estiguin ben organitzats i siguin fàcils de navegar, tot sense instal·lar cap programa.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Numeració senzilla i ràpida de pàgines PDF",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "No cal descarregar cap programa",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "Alta seguretat: tot el processament es fa al teu navegador",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Numeració eficient de pàgines PDF",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "Afegeix números de pàgina seqüencials als teus PDF en segons. Puja el teu PDF, configura les opcions i deixa que la nostra eina s'encarregui de la resta, creant un document numerat professionalment sense esforç.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Mantenir l'ordre del document",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Mantén els teus fitxers PDF ben organitzats assegurant-te que les pàgines estiguin numerades clarament. Facilita la referència fàcil i millora la llegibilitat dels teus documents.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Opcions de numeració versàtils",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Personalitza els teus números de pàgina amb diferents tipus de lletra, mides i posicions. El nostre convertidor s'adapta a diverses necessitats de format per adaptar-se a qualsevol tipus de document.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Protecció de privacitat al costat del client",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "La teva privacitat està protegida ja que tot el procés de numeració de pàgines es realitza localment al teu dispositiu. Els teus fitxers romanen segurs i confidencials.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Accessible des de qualsevol lloc",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "La nostra eina en línia està disponible les 24 hores del dia des de qualsevol dispositiu. Numerar les pàgines del teu PDF en qualsevol moment, directament des del teu navegador web sense necessitat d'instal·lacions.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Funcionalitat sense connexió",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Continua treballant sense accés a internet. Carrega la pàgina prèviament i podràs numerar les pàgines del teu PDF sense connexió sempre que sigui necessari.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "Com numerar fàcilment les pàgines del PDF:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Importa o arrossega el teu fitxer a la nostra eina de numeració de pàgines PDF.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Selecciona la posició on vols que apareguin els números de pàgina.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajusta els marges de pàgina i altres opcions segons sigui necessari.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Fes clic a «Afegir i Descarregar» i espera només un segon.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descarrega el teu PDF amb els números de pàgina. Això és tot!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "Cancel·la el progrés actual",
     "components__rotate_pdf__button__download__tooltip": "Gira i descarrega el PDF",
     "components__rotate_pdf__button__download": "Descarrega"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Posició",
+    "components__pdf_number_pages__main_margins": "Màrgens",
+    "components__pdf_number_pages__main_margins_narrow": "Estrets",
+    "components__pdf_number_pages__main_margins_default": "Per defecte",
+    "components__pdf_number_pages__main_margins_wide": "Amplis",
+    "components__pdf_number_pages__main_start_numbering_at": "Començar numeració a",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Introdueix el número d'inici de numeració",
+    "components__pdf_number_pages__main_add_and_download": "Afegir i Descarregar"
   }
 }

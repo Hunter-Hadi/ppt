@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "પીડીએફ પૃષ્ઠો ઘૂમાવવાની રીત:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ઘૂમાવવા માંગેલી પીડીએફ દસ્તાવેજ અપલોડ કરો.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ઘૂમાવવા માટે ખાસ પૃષ્ઠો પસંદ કરો અથવા બધા પૃષ્ઠોને ઘૂમાવો.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "સાચી ઓરિએન્ટેશનમાં હવે તમારી સુધારેલી પીડીએફ ડાઉનલોડ કરો, જે કોઈપણ ઉપયોગ માટે તૈયાર છે."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "સાચી ઓરિએન્ટેશનમાં હવે તમારી સુધારેલી પીડીએફ ડાઉનલોડ કરો, જે કોઈપણ ઉપયોગ માટે તૈયાર છે.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "પૃષ્ઠ નંબરો",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "આસાનીથી PDF માં પૃષ્ઠ નંબરો ઉમેરો",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "PDF દસ્તાવેજોમાં પૃષ્ઠ નંબરોનું બેચ અને ઝડપીથી ઉમેરવું",
+    "pdf_tools__detail_description_object__number_pages__top_left": "અમારા સરળ ઓનલાઇન PDF નંબર પેજિંગ ટૂલથી તમારા PDF ફાઈલમાં પૃષ્ઠ નંબરો ઉમેરો. સોફ્ટવેર સ્થાપિત કરવાની જરૂર નથી, તમારા દસ્તાવેજો સંગઠિત અને સરળ બનાવો.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "સરળ અને ઝડપી PDF પૃષ્ઠ નંબરીંગ",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "કોઈ સોફ્ટવેર ડાઉનલોડ જરૂરી નથી",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "ઉચ્ચ સુરક્ષા - તમારા બ્રાઉઝરમાં બધી પ્રક્રિયા પૂરી થાય છે",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "કુશળ PDF પૃષ્ઠ નંબરીંગ",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "કેવળ સેકન્ડમાં તમારા PDFમાં ક્રમાગત પૃષ્ઠ નંબરો ઉમેરો. તમારી PDF અપલોડ કરો, તમારી સેટિંગ્સ રૂપરેખાંકિત કરો અને બાકીનું હાથ આપવું છોડો, જેથી તમારી દસ્તાવેજ પ્રોફેશનલી નંબરીંગ થાય છે.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "દસ્તાવેજ ક્રમ બનાવો",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "પૃષ્ઠો સ્પષ્ટ રીતે નંબર આપીને તમારી PDF ફાઈલોને સંગઠિત રાખો. તમારા દસ્તાવેજોની સારવાર સહજ થાય અને તમારા દસ્તાવેજોની વાંચયાત્મકતા વધારો.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "વિવિધ નંબરીંગ વિકલ્પો",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "વિવિધ ફોન્ટ, સાઇઝ અને સ્થાનોની સાથે તમારા પૃષ્ઠ નંબરોને વ્યક્તિગતીકરણ કરો. અમારો કન્વર્ટર વિવિધ ફોર્મેટિંગ જરૂરિયાતોને સમાયોજિત કરે છે, જે કોઈપણ પ્રકારના દસ્તાવેજ માટે ઉપયુક્ત હોય છે.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "ગ્રાહકની પ્રાઇવસી સંરક્ષણ",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "તમારી ગોપનીયતા સંરક્ષિત રહે છે કારણ કે પૂરી પૃષ્ઠ નંબરીંગ પ્રક્રિયા તમારા મશીન પર સ્થળીક થાય છે. તમારા ફાઈલો સુરક્ષિત અને ગોપનીય રહેશે.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "ક્યારેય પ્રવેશયોગ્ય",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "અમારી ઓનલાઇન ટૂલ દિવસભર કોઈપણ ઉપકરણથી ઉપલબ્ધ છે. કોઈપણ સમયે, તમારા વેબ બ્રાઉઝરમાંથી સીધી રીતે તમારા PDF પૃષ્ઠોને નંબર આપો, કોઈપણ સ્થાપનો જરૂર નથી.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "ઑફલાઇન કાર્યક્ષમતા",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "ઇન્ટરનેટ ઍક્સેસ વગર કામ ચાલુ રાખો. પહેલાથીથી પેજ લોડ કરો અને જ્યારે જરૂર હોય ત્યારે તમારા PDF પૃષ્ઠોને નંબર આપી શકો છો.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "PDF પૃષ્ઠોને સરળતાથી નંબર આપવાની રીત:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "અમારા PDF પેજ નંબર ટૂલમાં તમારી ફાઈલ આયાત કરો અથવા ડ્રેગ અને ડ્રોપ કરો.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "પૃષ્ઠ નંબરો દેખાવવાની સ્થાન પસંદ કરો.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "પૃષ્ઠ માર્જિન અને અન્ય વિકલ્પોને આપતા કરો.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“ઉમેરો અને ડાઉનલોડ કરો” પર ક્લિક કરો અને થોડા સમય રાખો.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "તમારી PDF પૃષ્ઠો સાથે નંબર સાથે ડાઉનલોડ કરો - એટલે તે!"
   },
   "prompt_library": {
     "use_prompt_library__title": "ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "વર્તમાન પ્રગતિ રદ કરો",
     "components__rotate_pdf__button__download__tooltip": "પીડીએફ ઘૂમાવો અને ડાઉનલોડ કરો",
     "components__rotate_pdf__button__download": "ડાઉનલોડ"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "સ્થાન",
+    "components__pdf_number_pages__main_margins": "માર્જિન્સ",
+    "components__pdf_number_pages__main_margins_narrow": "સંકુચિત",
+    "components__pdf_number_pages__main_margins_default": "મૂળભૂત",
+    "components__pdf_number_pages__main_margins_wide": "વિસ્તૃત",
+    "components__pdf_number_pages__main_start_numbering_at": "આંકડાકીય નંબરમાં શરૂ કરો",
+    "components__pdf_number_pages__main_input_start_numbering_at": "આંકડાકીય નંબરમાં શરૂ કરવાનું દાખલ કરો",
+    "components__pdf_number_pages__main_add_and_download": "ઉમેરો અને ડાઉનલોડ કરો"
   }
 }

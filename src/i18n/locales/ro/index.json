@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cum să rotiți paginile PDF online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Încărcați documentul PDF pe care doriți să îl rotiți.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Selectați paginile specifice pentru rotire sau aplicați rotirea la toate paginile.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descărcați PDF-ul modificat, cu pagini acum în orientarea corectă, pregătit pentru orice utilizare."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descărcați PDF-ul modificat, cu pagini acum în orientarea corectă, pregătit pentru orice utilizare.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Număr Pagini",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Inserați numere de pagini în PDF cu ușurință",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Inserare în lot și rapidă a numerelor de pagini în documentele PDF",
+    "pdf_tools__detail_description_object__number_pages__top_left": "Inserați fără efort numere de pagini în fișierele PDF cu instrumentul nostru intuitiv de numerotare a paginilor PDF online. Asigurați-vă că documentele dvs. sunt bine organizate și ușor de navigat, fără instalarea unui software.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Numerotare simplă și rapidă a paginilor PDF",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "Nu este necesară descărcarea unui software",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "Securitate ridicată - toate procesările se fac în browserul dvs.",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Numerotare eficientă a paginilor PDF",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "Adăugați numere secvențiale de pagini la fișierele PDF în câteva secunde. Încărcați PDF-ul dvs., configurați setările și lăsați instrumentul nostru să se ocupe de restul, creând un document numerotat profesional fără efort.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Mențineți ordinea documentelor",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Păstrați fișierele PDF organizate asigurându-vă că paginile sunt numerotate clar. Facilitați referirea ușoară și îmbunătățiți lizibilitatea documentelor dvs.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Opțiuni versatile de numerotare",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Personalizați numerele de pagini cu diferite fonturi, dimensiuni și poziții. Convertorul nostru se adaptează la diverse nevoi de formatare pentru a se potrivi oricărui tip de document.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Protecție a confidențialității la nivel de client",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "Confidențialitatea dvs. este protejată deoarece întregul proces de numerotare a paginilor are loc local pe dispozitivul dvs. Fișierele dvs. rămân sigure și confidențiale.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Accesibil oriunde",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "Instrumentul nostru online este disponibil non-stop de pe orice dispozitiv. Numerotați paginile PDF în orice moment, direct din browserul dvs. web, fără a fi necesare instalări.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Funcționalitate offline",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Continuați să lucrați fără acces la internet. Încărcați pagina în prealabil și puteți numerota paginile PDF offline ori de câte ori este necesar.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "Cum să numerotați ușor paginile PDF:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Importați sau trageți și fixați fișierul în instrumentul nostru de numerotare a paginilor PDF.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Selectați poziția în care doriți să apară numerele de pagini.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajustați marginile paginii și alte opțiuni după nevoie.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Dați clic pe „Adăugare și descărcare” și așteptați doar o secundă.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descărcați PDF-ul cu numere de pagini - asta e tot!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "Anulați progresul curent",
     "components__rotate_pdf__button__download__tooltip": "Rotiți și descărcați PDF-ul",
     "components__rotate_pdf__button__download": "Descărcați"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Poziție",
+    "components__pdf_number_pages__main_margins": "Margini",
+    "components__pdf_number_pages__main_margins_narrow": "Îngust",
+    "components__pdf_number_pages__main_margins_default": "Implicit",
+    "components__pdf_number_pages__main_margins_wide": "Larg",
+    "components__pdf_number_pages__main_start_numbering_at": "Începe numerotarea de la",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Introduceți numărul de început al numerotării",
+    "components__pdf_number_pages__main_add_and_download": "Adăugare și descărcare"
   }
 }

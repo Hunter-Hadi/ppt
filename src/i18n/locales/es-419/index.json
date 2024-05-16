@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cómo Girar Páginas de PDF en Línea:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Carga el documento PDF que deseas girar.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Selecciona las páginas específicas para la rotación o aplica la rotación a todas las páginas.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarga tu PDF modificado, con las páginas ahora en la orientación correcta, listo para cualquier uso."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarga tu PDF modificado, con las páginas ahora en la orientación correcta, listo para cualquier uso.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Numerar Páginas",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Inserta números de página en PDF fácilmente",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Inserción por lotes y rápida de números de página en documentos PDF",
+    "pdf_tools__detail_description_object__number_pages__top_left": "Inserta sin esfuerzo números de página en tus archivos PDF con nuestra intuitiva herramienta de numeración de páginas en PDF en línea. Asegura que tus documentos estén bien organizados y sean fáciles de navegar, todo sin necesidad de instalar software.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Numeración simple y rápida de páginas en PDF",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "No se requiere descarga de software",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "Alta seguridad: todo el procesamiento se realiza en tu navegador",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Numeración eficiente de páginas en PDF",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "Agrega números de página secuenciales a tus PDF en segundos. Carga tu PDF, configura tus ajustes y deja que nuestra herramienta se encargue del resto, creando un documento numerado profesionalmente sin esfuerzo.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Mantén el orden del documento",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Mantén tus archivos PDF organizados asegurándote de que las páginas estén claramente numeradas. Facilita la referencia fácil y mejora la legibilidad de tus documentos.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Opciones de numeración versátiles",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Personaliza tus números de página con diferentes fuentes, tamaños y posiciones. Nuestro convertidor se adapta a diversas necesidades de formato para cualquier tipo de documento.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Protección de privacidad del cliente",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "Tu privacidad está protegida ya que todo el proceso de numeración de páginas ocurre localmente en tu máquina. Tus archivos permanecen seguros y confidenciales.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Accesible en cualquier lugar",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "Nuestra herramienta en línea está disponible las 24 horas del día desde cualquier dispositivo. Numerar las páginas de tu PDF en cualquier momento, directamente desde tu navegador web sin necesidad de instalaciones.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Funcionalidad sin conexión",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Continúa trabajando sin acceso a internet. Carga la página de antemano y aún puedes numerar las páginas de tu PDF sin conexión cuando sea necesario.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "Cómo numerar fácilmente las páginas de un PDF:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Importa o arrastra y suelta tu archivo en nuestra herramienta de numeración de páginas en PDF.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Selecciona la posición donde deseas que aparezcan los números de página.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajusta los márgenes de página y otras opciones según sea necesario.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Haz clic en \"Agregar y descargar\" y espera solo un segundo.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "¡Descarga tu PDF con números de página, eso es todo!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "Cancelar progreso actual",
     "components__rotate_pdf__button__download__tooltip": "Girar y descargar PDF",
     "components__rotate_pdf__button__download": "Descargar"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Posición",
+    "components__pdf_number_pages__main_margins": "Márgenes",
+    "components__pdf_number_pages__main_margins_narrow": "Estrecho",
+    "components__pdf_number_pages__main_margins_default": "Predeterminado",
+    "components__pdf_number_pages__main_margins_wide": "Ancho",
+    "components__pdf_number_pages__main_start_numbering_at": "Comenzar numeración en",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Ingresa el número de inicio de numeración",
+    "components__pdf_number_pages__main_add_and_download": "Agregar y Descargar"
   }
 }

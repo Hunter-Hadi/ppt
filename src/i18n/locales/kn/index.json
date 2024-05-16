@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "ಆನ್‌ಲೈನ್ ಪುಟಗಳನ್ನು ತಿರುಗಿಸುವುದಕ್ಕೆ ಹೇಗೆ:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ತಿರುಗಿಸಲು ಬಯಸುವ PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ತಿರುಗಿಸಲು ನಿಶ್ಚಿತ ಪುಟಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಅಥವಾ ಎಲ್ಲಾ ಪುಟಗಳಿಗೂ ತಿರುಗಿಸಿ.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "ನಿಮ್ಮ ಪರಿಷ್ಕೃತ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ಪುಟಗಳನ್ನು ಈಗ ಸರಿಯಾಗಿ ಆವೃತ್ತಿಸಲು ಸಿದ್ಧವಾಗಿರುವುದು."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "ನಿಮ್ಮ ಪರಿಷ್ಕೃತ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ಪುಟಗಳನ್ನು ಈಗ ಸರಿಯಾಗಿ ಆವೃತ್ತಿಸಲು ಸಿದ್ಧವಾಗಿರುವುದು.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "ಪುಟಗಳನ್ನು ಸಂಖ್ಯೆಗೊಳಿಸಿ",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "ಸುಲಭವಾಗಿ PDF ಪುಟಗಳಲ್ಲಿ ಸಂಖ್ಯೆಗಳನ್ನು ಹೊಂದಿಸಿ",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "PDF ಆವರಣಗಳಲ್ಲಿ ಪುಟಗಳ ಸಂಖ್ಯೆಗಳನ್ನು ಬೇಚೆಂದು ಮತ್ತು ತ್ವರಿತ ಹೊಂದಿಸಿ",
+    "pdf_tools__detail_description_object__number_pages__top_left": "ನಿಮ್ಮ PDF ಕಡತಗಳಲ್ಲಿ ಸಂಖ್ಯೆಗಳನ್ನು ಸುಲಭವಾಗಿ ಹೊಂದಿಸಿ. ಸಾಫ್ಟ್‌ವೇರ್ ಅನುಸ್ಥಾಪನೆಯಿಲ್ಲದೆ ನಿಮ್ಮ ಕಡತಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ಸುಲಭವಾಗಿ ನೇವೀಕರಿಸಿ.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "ಸರಳ ಮತ್ತು ತ್ವರಿತ PDF ಪುಟ ಸಂಖ್ಯೆಗಳು",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "ಯಾವುದೇ ಸಾಫ್ಟ್‌ವೇರ್ ಡೌನ್‌ಲೋಡ್ ಬೇಕಿಲ್ಲ",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "ಉಚ್ಚ ಭದ್ರತೆ - ಎಲ್ಲಾ ಪ್ರಕ್ರಿಯೆಗಳೂ ನಿಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ನಡೆಯುತ್ತವೆ",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "ಕ್ರಮಬದ್ಧ PDF ಪುಟ ಸಂಖ್ಯೆಗಳು",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ನಿಮ್ಮ PDF ಕಡತಗಳಿಗೆ ಕ್ರಮಬದ್ಧ ಪುಟ ಸಂಖ್ಯೆಗಳನ್ನು ಸೇರಿಸಿ. ನಿಮ್ಮ PDF ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ, ನಿಮ್ಮ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಕಾನ್‌ಫಿಗರ್ ಮಾಡಿ, ಉಳಿದ ಕೆಲಸವನ್ನು ನಮ್ಮ ಟೂಲ್ ನಿರ್ವಹಿಸಲು ಅವಕಾಶ ಮಾಡಿ.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "ಕಡತ ವ್ಯವಸ್ಥೆಯನ್ನು ಉಳಿಸಿ",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "ಪುಟಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಸಂಖ್ಯೆಗೊಳಿಸುವ ಮೂಲಕ ನಿಮ್ಮ PDF ಕಡತಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ. ನಿಮ್ಮ ಕಡತಗಳ ಓದುಗರಿಗೆ ಸುಲಭ ಪ್ರಮಾಣೀಕರಣ ಮತ್ತು ಓದುವ ಸೌಲಭ್ಯ ನೀಡಿ.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "ಬಹುವಿಧ ಸಂಖ್ಯೆಗಳ ಆಯ್ಕೆಗಳು",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "ವಿವಿಧ ಫಾಂಟ್‌ಗಳು, ಗಾತ್ರಗಳು ಮತ್ತು ಸ್ಥಾನಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಪುಟ ಸಂಖ್ಯೆಗಳನ್ನು ವ್ಯಕ್ತಿಗೊಳಿಸಿ. ನಮ್ಮ ಕನವರ್ಟರ್‌ಗೆ ವಿವಿಧ ಬದಲಾವಣೆಗಳನ್ನು ಅನುಕೂಲಿಸಲಾಗುತ್ತದೆ.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "ಗ್ರಾಹಕ ಪ್ರಾಯೋಜನ ರಕ್ಷಣೆ",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "ನಿಮ್ಮ ಗೌಪ್ಯತೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವ ಹೊಂದಾಣಿಕೆ ನಿಮ್ಮ ಯಂತ್ರದಲ್ಲಿಯೇ ನಡೆಯುತ್ತದೆ. ನಿಮ್ಮ ಕಡತಗಳು ಭದ್ರವಾಗಿರುತ್ತವೆ ಮತ್ತು ಗೌಪ್ಯವಾಗಿರುತ್ತವೆ.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "ಎಲ್ಲೆಡೆ ಸುಲಭವಾಗಿ ಪ್ರವೇಶಿಸಬಹುದು",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "ನಿಮ್ಮ ಯಂತ್ರದಿಂದ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಸಂಖ್ಯೆಗೊಳಿಸಿ. ಯಾವುದೇ ಅನುಸ್ಥಾಪನೆಗಳ ಆವಶ್ಯಕತೆಯಿಲ್ಲದೆ ನಿಮ್ಮ ವೆಬ್‌ ಬ್ರೌಸರ್‌ನಿಂದ ನಿಮ್ಮ PDF ಪುಟಗಳನ್ನು ಸಂಖ್ಯೆಗೊಳಿಸಿ.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "ಆಫ್‌ಲೈನ್ ಕೆಲಸ",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "ಇಂಟರ್ನೆಟ್ ಆಕೆಸ್ ಇಲ್ಲದೆ ಕೆಲಸ ಮಾಡಿ. ಮೊದಲು ಪುಟವನ್ನು ಲೋಡ್ ಮಾಡಿ, ನೀವು ಬೇಕಾದಾಗ ಆಫ್‌ಲೈನ್ ಆಗಿ ನಿಮ್ಮ PDF ಪುಟಗಳನ್ನು ಸಂಖ್ಯೆಗೊಳಿಸಬಹುದು.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "ಪಿಡಿಎಫ್ ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ಸಂಖ್ಯೆಗೊಳಿಸುವ ಹೇಗೆ:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "ನಮ್ಮ PDF ಪುಟ ಸಂಖ್ಯೆ ಟೂಲ್‌ಗೆ ನಿಮ್ಮ ಕಡತವನ್ನು ಆಯಾತಿಸಿ ಅಥವಾ ಡ್ರಾಗ್ ಮತ್ತು ಡ್ರಾಪ್ ಮಾಡಿ.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "ಪುಟ ಸಂಖ್ಯೆಗಳು ಕಾಣಬೇಕಿರುವ ಸ್ಥಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "ಪುಟ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಮತ್ತು ಇತರ ಆಯ್ಕೆಗಳನ್ನು ಅನುಕೂಲಿಸಿ.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“ಸೇರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್” ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ನಿಧಾನವಾಗಿ ಕಾದಿದೆ.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ಪುಟ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ PDF ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ - ಇದೇ ಅದು!"
   },
   "prompt_library": {
     "use_prompt_library__title": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "ಪ್ರಸ್ತುತ ಪ್ರಗತಿಯನ್ನು ರದ್ದುಮಾಡಿ",
     "components__rotate_pdf__button__download__tooltip": "PDF ತಿರುಗಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "components__rotate_pdf__button__download": "ಡೌನ್‌ಲೋಡ್"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "ಸ್ಥಾನ",
+    "components__pdf_number_pages__main_margins": "ಮಾರ್ಜಿನ್‌ಗಳು",
+    "components__pdf_number_pages__main_margins_narrow": "ಸಂಕೀರ್ಣ",
+    "components__pdf_number_pages__main_margins_default": "ಪೂರ್ವನಿಯಮಿತ",
+    "components__pdf_number_pages__main_margins_wide": "ವಿಸ್ತೃತ",
+    "components__pdf_number_pages__main_start_numbering_at": "ಸಂಖ್ಯೆಗಳನ್ನು ಪ್ರಾರಂಭಿಸುವುದು",
+    "components__pdf_number_pages__main_input_start_numbering_at": "ಪ್ರಾರಂಭಿಸುವುದಕ್ಕೆ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+    "components__pdf_number_pages__main_add_and_download": "ಸೇರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್"
   }
 }

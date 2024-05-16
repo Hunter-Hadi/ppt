@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kako zasukati strani PDF-ja na spletu:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Naložite PDF dokument, ki ga želite zasukati.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Izberite specifične strani za zasuk ali uporabite zasuk za vse strani.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Prenesite spremenjeni PDF, kjer so strani zdaj v pravilni usmerjenosti, pripravljeni za vsako uporabo."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Prenesite spremenjeni PDF, kjer so strani zdaj v pravilni usmerjenosti, pripravljeni za vsako uporabo.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Številke strani",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Enostavno vstavljanje številk strani v PDF",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Skupinsko in hitro vstavljanje številk strani v dokumente PDF",
+    "pdf_tools__detail_description_object__number_pages__top_left": "Brez težav vstavite številke strani v vaše datoteke PDF z našim intuitivnim spletnim orodjem za oštevilčevanje PDF. Poskrbite, da bodo vaši dokumenti dobro organizirani in enostavni za navigacijo, brez namestitve programske opreme.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Preprosto in hitro oštevilčevanje strani PDF",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "Ni potrebna namestitev programske opreme",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "Visoka varnost - vsa obdelava se izvede v vašem brskalniku",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Učinkovito oštevilčevanje strani PDF",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "V nekaj sekundah dodajte zaporedne številke strani v svoje PDF-je. Naložite svoj PDF, nastavite svoje možnosti in pustite, da naše orodje opravi preostanek, ustvarjanje strokovno oštevilčenega dokumenta brez napora.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Ohranjanje vrstnega reda dokumentov",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Organizirajte svoje datoteke PDF tako, da so strani jasno oštevilčene. Olajšajte sklicevanje in izboljšajte berljivost vaših dokumentov.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Različne možnosti oštevilčevanja",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Prilagodite številke strani z različnimi pisavami, velikostmi in položaji. Naš pretvornik se prilagaja različnim oblikovalskim potrebam, da ustreza kateremu koli tipu dokumenta.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Zaščita zasebnosti na strani odjemalca",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "Vaša zasebnost je zaščitena, saj celoten postopek oštevilčevanja strani poteka lokalno na vašem računalniku. Vaše datoteke ostanejo varne in zaupne.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Dostopno kjerkoli",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "Naše spletno orodje je na voljo ves čas z vsake naprave. Oštevilčite strani PDF kadarkoli neposredno iz spletnega brskalnika, brez potrebe po namestitvah.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Funkcionalnost brez povezave",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Nadaljujte z delom brez dostopa do interneta. Stran naložite vnaprej in še vedno lahko oštevilčite strani PDF brez povezave, kadar koli je to potrebno.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "Kako enostavno oštevilčiti strani PDF:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Uvozite ali povlecite in spustite datoteko v naše orodje za oštevilčevanje strani PDF.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Izberite položaj, kjer želite, da se prikažejo številke strani.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Prilagodite robove strani in druge možnosti po potrebi.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kliknite »Dodaj in prenesi« in počakajte samo sekundo.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Prenesite svoj PDF s številkami strani - to je vse!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "Prekliči trenutni postopek",
     "components__rotate_pdf__button__download__tooltip": "Zasukaj in prenesi PDF",
     "components__rotate_pdf__button__download": "Prenesi"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Položaj",
+    "components__pdf_number_pages__main_margins": "Robovi",
+    "components__pdf_number_pages__main_margins_narrow": "Ozko",
+    "components__pdf_number_pages__main_margins_default": "Privzeto",
+    "components__pdf_number_pages__main_margins_wide": "Široko",
+    "components__pdf_number_pages__main_start_numbering_at": "Začni oštevilčevanje pri",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Vnesite začetno številko",
+    "components__pdf_number_pages__main_add_and_download": "Dodaj in prenesi"
   }
 }

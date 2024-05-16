@@ -130,7 +130,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__rotate_pdf__title'),
       description: t('seo:pdf_tools__rotate_pdf__description'),
     },
-    'pdf-numbers-page': {
+    'number-pages': {
       title: t('seo:pdf_tools__pdf_numbers_page__title'),
       description: t('seo:pdf_tools__pdf_numbers_page__description'),
     },
@@ -178,7 +178,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
           {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
           {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
-          {urlKey === 'pdf-numbers-page' && <FunctionalityNumberPagesMain />}
+          {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
           {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
         </Suspense>
       </Box>

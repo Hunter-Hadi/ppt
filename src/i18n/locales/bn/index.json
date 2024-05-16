@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "পিডিএফ পৃষ্ঠাগুলি অনলাইনে ঘুরানোর পদ্ধতি:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ঘুরান করতে চান পিডিএফ ডকুমেন্টটি আপলোড করুন।",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ঘুরান করতে চান নির্দিষ্ট পৃষ্ঠাগুলি নির্বাচন করুন অথবা সমস্ত পৃষ্ঠাগুলির জন্য ঘুরান।",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "আপনার সংশোধিত পিডিএফটি ডাউনলোড করুন, যেখানে পৃষ্ঠাগুলি এখন সঠিক উচ্চতায় থাকবে এবং যেকোনো ব্যবহারের জন্য প্রস্তুত হবে।"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "আপনার সংশোধিত পিডিএফটি ডাউনলোড করুন, যেখানে পৃষ্ঠাগুলি এখন সঠিক উচ্চতায় থাকবে এবং যেকোনো ব্যবহারের জন্য প্রস্তুত হবে।",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "পৃষ্ঠা সংখ্যা",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "সহজে পিডিএফে পৃষ্ঠা সংখ্যা যোগ করুন",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "পিডিএফ ডকুমেন্টে পৃষ্ঠা সংখ্যা একাধিক সঙ্গে সহজে যোগ করুন",
+    "pdf_tools__detail_description_object__number_pages__top_left": "আমাদের সুবিধাজনক অনলাইন পিডিএফ সংখ্যামূলক পেজিং টুল দিয়ে আপনার পিডিএফ ফাইলে সহজেই পৃষ্ঠা সংখ্যা যোগ করুন। সফটওয়্যার ইনস্টলেশন ছাড়া আপনার ডকুমেন্টগুলি সুবিধাজনক ভাবে সাজানো এবং সহজে নেভিগেট করা যাক।",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "সহজ এবং দ্রুত পিডিএফ পৃষ্ঠা সংখ্যা",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "কোন সফটওয়্যার ডাউনলোড প্রয়োজন নেই",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "উচ্চ সুরক্ষা - সমস্ত প্রসেসিং আপনার ব্রাউজারে সম্পন্ন হয়",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "দক্ষ পিডিএফ পৃষ্ঠা সংখ্যা",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "সেকেন্ডেই আপনার পিডিএফে ক্রমিক পৃষ্ঠা সংখ্যা যোগ করুন। আপনার পিডিএফ আপলোড করুন, আপনার সেটিংস কনফিগার করুন এবং আমাদের টুলটি অবশিষ্ট কাজ করতে দিন, সহজেই একটি পেশাদার সংখ্যামূলক ডকুমেন্ট তৈরি করুন।",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "ডকুমেন্ট ক্রম রক্ষা করুন",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "পৃষ্ঠাগুলি স্পষ্টভাবে সংখ্যামূলক করে আপনার পিডিএফ ফাইলগুলি সাজান। আপনার ডকুমেন্টগুলির পাঠ্যবহন সহজ করুন এবং পাঠ্যবহনের দৃষ্টিভঙ্গি বৃদ্ধি করুন।",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "বিভিন্ন সংখ্যামূলক বিকল্প",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "আপনার পৃষ্ঠা সংখ্যাগুলি ফন্ট, আকার এবং অবস্থানের সাথে কাস্টমাইজ করুন। আমাদের কনভার্টারটি বিভিন্ন ফর্ম্যাটিং প্রয়োজনে সমন্বিত করে সকল প্রকার ডকুমেন্টের জন্য উপযুক্ত।",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "ক্লায়েন্ট-সাইড গোপনীয়তা সুরক্ষা",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "আপনার গোপনীয়তা সুরক্ষিত রাখা হয় যেন পৃষ্ঠা সংখ্যামূলক প্রক্রিয়া সম্পূর্ণভাবে আপনার মেশিনে স্থানীয়ভাবে ঘটে। আপনার ফাইলগুলি নিরাপদ এবং গোপনীয় থাকে।",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "যেকোনো জায়গা থেকে অ্যাক্সেস করুন",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "আমাদের অনলাইন টুলটি সকালে বেলা থেকে রাতে বেলা পর্যন্ত সকল ডিভাইস থেকে উপলব্ধ। কোন ইনস্টলেশন প্রয়োজন নেই, আপনার ওয়েব ব্রাউজার থেকে সরাসরি পিডিএফ পৃষ্ঠাগুলি সংখ্যামূলক করুন।",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "অফলাইন কার্যক্রমিকতা",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "ইন্টারনেট সংযোগ ছাড়া কাজ চালানোর চেষ্টা চালিয়ে যান। আগেই পৃষ্ঠা লোড করুন এবং প্রয়োজন হলে অফলাইনে আপনি এখনও পিডিএফ পৃষ্ঠাগুলি সংখ্যামূলক করতে পারবেন।",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "কিভাবে সহজে পিডিএফ পৃষ্ঠা সংখ্যা যোগ করবেন:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "আমাদের পিডিএফ পৃষ্ঠা সংখ্যা টুলে আপনার ফাইল আমদানি করুন বা টেনে আনুন।",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "পৃষ্ঠা সংখ্যা যোগ করতে চান সেখানে অবস্থান নির্বাচন করুন।",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "পৃষ্ঠা মার্জিন এবং অন্যান্য বিকল্পগুলি প্রয়োজন মত সংশোধন করুন।",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“যোগ এবং ডাউনলোড” ক্লিক করুন এবং শুধুমাত্র একটি সেকেন্ড অপেক্ষা করুন।",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "পৃষ্ঠা সংখ্যাসহ আপনার পিডিএফ ডাউনলোড করুন - এটা হলো!"
   },
   "prompt_library": {
     "use_prompt_library__title": "উচ্চ মানের AI প্রম্পট লাইব্রেরি",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "বর্তমান অগ্রগতি বাতিল করুন",
     "components__rotate_pdf__button__download__tooltip": "পিডিএফ ঘুরান এবং ডাউনলোড করুন",
     "components__rotate_pdf__button__download": "ডাউনলোড"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "অবস্থান",
+    "components__pdf_number_pages__main_margins": "মার্জিন",
+    "components__pdf_number_pages__main_margins_narrow": "সংকীর্ণ",
+    "components__pdf_number_pages__main_margins_default": "ডিফল্ট",
+    "components__pdf_number_pages__main_margins_wide": "প্রশস্ত",
+    "components__pdf_number_pages__main_start_numbering_at": "সংখ্যা শুরু করুন",
+    "components__pdf_number_pages__main_input_start_numbering_at": "সংখ্যা শুরু করার জন্য ইনপুট দিন",
+    "components__pdf_number_pages__main_add_and_download": "যোগ এবং ডাউনলোড"
   }
 }

@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "איך להטות עמודי PDF באופן מקוון:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "העלה את המסמך של PDF שברצונך להטות.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "בחר עמודים ספציפיים להטיה או החל את ההטיה על כל העמודים.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "הורד את ה-PDF ששונה, כאשר העמודים כעת בכיוון הנכון, מוכן לשימוש."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "הורד את ה-PDF ששונה, כאשר העמודים כעת בכיוון הנכון, מוכן לשימוש.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "מספר עמודים",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "הוסף מספרי עמודים ל-PDF בקלות",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "הוספת מספרי עמודים בצורה גורמתית ומהירה למסמכי PDF",
+    "pdf_tools__detail_description_object__number_pages__top_left": "הוסף מספרי עמודים לקבצי ה-PDF שלך בקלות עם הכלי המסודר שלנו. הבטיחות שמסמכיך מאורגנים ונוחים לניווט, הכל זה ללא התקנת תוכנה.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "הוספת מספרי עמודים ל-PDF פשוטה ומהירה",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "אין צורך בהורדת תוכנה",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "אבטחה גבוהה - כל העיבוד מתבצע בדפדפן שלך",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "הוספת מספרי עמודים ל-PDF ביעילות",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "הוסף מספרי עמודים רצופים ל-PDF שלך בשניות. העלה את ה-PDF שלך, הגדר את ההגדרות שלך ותן לכלי שלנו לטפל בשאר, יוצר מסמך ממוספר בצורה מקצועית בקלות.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "שמירה על סדר המסמך",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "שמור על סדר הקבצים שלך על ידי הבטיחות שהעמודים מסומנים בבירור. עזור להתייחס בקלות ושפר את הנגישות של המסמכים שלך.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "אפשרויות מספור גמישות",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "התאמה אישית של מספרי העמודים שלך עם גופנים, גדלים ומיקומים שונים. הממיר שלנו מתאים לצרכים שונים של עיצוב כדי להתאים לכל סוג של מסמך.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "הגנת פרטיות בצד הלקוח",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "הפרטיות שלך מוגנת מאוד מאחר ותהליך מספור העמודים כולו מתבצע במקום במחשב שלך. הקבצים שלך נשמרים בטוחים ומוגנים.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "נגיש בכל מקום",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "הכלי המקוון שלנו זמין בכל שעה מכל מכשיר. הוסף מספרי עמודים ל-PDF שלך בכל עת, ישירות מדפדפן האינטרנט שלך, ללא צורך בהתקנות.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "פונקציונליות ללא חיבור לאינטרנט",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "המשך לעבוד ללא חיבור לאינטרנט. טען את הדף מראש ותוכל עדיין להוסיף מספרי עמודים ל-PDF שלך במצב לא מחובר כשרוצה.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "איך להוסיף מספרי עמודים ל-PDF בקלות:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "ייבא או גרור ושחרר את הקובץ שלך לכלי המספרי עמודים שלנו.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "בחר את המיקום שבו ברצונך שמספרי העמודים יופיעו.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "התאם את שולי העמוד ואפשרויות נוספות לפי הצורך.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "לחץ על 'הוסף והורד' וחכה שניה אחת.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "הורד את ה-PDF שלך עם מספרי העמודים - זהו!"
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",
@@ -1290,5 +1315,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "ביטול התהליך הנוכחי",
     "components__rotate_pdf__button__download__tooltip": "הטיה והורדת PDF",
     "components__rotate_pdf__button__download": "הורדה"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "מיקום",
+    "components__pdf_number_pages__main_margins": "שוליים",
+    "components__pdf_number_pages__main_margins_narrow": "צר",
+    "components__pdf_number_pages__main_margins_default": "ברירת מחדל",
+    "components__pdf_number_pages__main_margins_wide": "רחב",
+    "components__pdf_number_pages__main_start_numbering_at": "התחל למספר ב-",
+    "components__pdf_number_pages__main_input_start_numbering_at": "הזן התחל למספר ב-",
+    "components__pdf_number_pages__main_add_and_download": "הוסף והורד"
   }
 }

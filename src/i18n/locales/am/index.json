@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "የፕድፊን ገጽ መጠቀም እንዴት እንደሚጠቀም ይመልከቱ:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "ጽሁፍ ጥቅል",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "ጽሁፍ ጥቅልን በቀላሉ መጨመር የሚችሉ በ PDF",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "ጽሁፍ ጥቅልን በ PDF ሰነዶች በቀላሉ እና በቀላሉ መጨመር",
+    "pdf_tools__detail_description_object__number_pages__top_left": "በእኛና በአጠቃላይ የጽሁፍ ጥቅል መሳሪያ በመጠቀም ጽሁፍ ጥቅልዎን በ PDF ላይ በሚታይ በመስራት የሚጠቀሙትን የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው። በሶፌትዎ አማርኛ በተሳሳተ ጽሁፍ ጥቅልዎን በሚታይ በመስራት የሚጠቀሙትን የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው።",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "በቀላሉ በቀላሉ የ PDF ጽሁፍ ጥቅል",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "ለማንበብ ለማንበብ የሚያስፈልገው ጽሁፍ ጥቅል",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "የሚያስተካክል መረጃ - ሁሉም አጠቃላይ በቀላሉ ማሳወቂያ በእርስዎ ባህሪ ላይ ሆኖ ይታዩት",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "የጽሁፍ ጥቅል በቀላሉ መታወቂያ",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "በሰከንዶች ጥቅል ጽሁፍዎን በሚታይ በሚያስተካክል ጽሁፍ ጥቅል መጨመር የሚችሉትን ጽሁፍ ጥቅል መታወቂያ አስተካክል የሚችሉትን ጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው።",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "የሚቀርብ የጽሁፍ ጥቅል",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "በጽሁፍ ጥቅል ጽሁፍዎን በሚታይ በሚያስተካክል ጽሁፍ ጥቅል መታወቂያ የሚችሉትን ጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው።",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "የተስተካክል ጽሁፍ ጥቅል",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "በቀላሉ የጽሁፍ ጥቅል መታወቂያ የሚቀርብበትን ፎንቶችን በየፎንቶችዎ የሚታይ በሚያስተካክል ጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው።",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "የወጣው የጽሁፍ ጥቅል መረጃ",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "የምስራች ሰነዶች በቀላሉ የጽሁፍ ጥቅል መረጃ በእርስዎ ማህበራዊ ተካክል በሚታይ በመስራት የሚጠቀሙትን የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው።",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "በቀላሉ የጽሁፍ ጥቅል",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "የጽሁፍ ጥቅል መሳሪያዎን በሰዓት ከዚህ በፊት በየትኛውም አይነት እና በየትኛውም ሁኔታ ያለውን የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው።",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "የጽሁፍ ጥቅል መረጃ በድርጅት",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "በየትኛውም ሁኔታ የጽሁፍ ጥቅል መረጃ በድርጅት የሚታይ በመስራት የሚጠቀሙትን የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው።",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "እንዴት በቀላሉ ጽሁፍ ጥቅል መታወቂያ እንደሚቀርብ:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "የጽሁፍ ጥቅል መታወቂያ መለያዎን ወደ እኛን እናስገባለን ወይም ወደ እኛ የጽሁፍ ጥቅል መታወቂያ ወይም ወደ እኛ የጽሁፍ ጥቅል መታወቂያ ወይም ወደ እኛ የጽሁፍ ጥቅል መታወቂያ ወይም ወደ እኛ የጽሁፍ ጥቅል መታወቂያ መለያዎን ወደ እኛን እናስገባለን",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "የጽሁፍ ጥቅል መታወቂያ መለያዎን ወደ እኛን እናስገባለን",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "ጽሁፍ ጠቀምና ሌሎች አማራጭ እናደርጋለን",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "የጽሁፍ ጥቅል መታወቂያውን ያንብቡ እና ጥቅል መታወቂያውን ያስገቡ",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "የጽሁፍ ጥቅል መታወቂያውን ያንብቡ - እርስዎን አማርኛ በቀላሉ በየደረጃዎ የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው!"
   },
   "prompt_library": {
     "use_prompt_library__title": "የልማት የሚጠቀሙ የሳምንት መልእክት",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "የወደደ ሁኔታውን ይቅር",
     "components__rotate_pdf__button__download__tooltip": "ፕድፊን ይጠቀሙ እና ያስተካክሉ",
     "components__rotate_pdf__button__download": "ደቅድብ"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "አካል",
+    "components__pdf_number_pages__main_margins": "ምልክቶች",
+    "components__pdf_number_pages__main_margins_narrow": "ትንሽ",
+    "components__pdf_number_pages__main_margins_default": "ነባሪ",
+    "components__pdf_number_pages__main_margins_wide": "ግራ",
+    "components__pdf_number_pages__main_start_numbering_at": "ከመጀመሪያ ለመጀመሪያ ለማስተካከል",
+    "components__pdf_number_pages__main_input_start_numbering_at": "ከመጀመሪያ ለመጀመሪያ ለማስተካከል",
+    "components__pdf_number_pages__main_add_and_download": "ጨምር & ደህንነት"
   }
 }

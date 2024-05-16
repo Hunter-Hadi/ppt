@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Как да завъртите PDF страници онлайн:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Качете PDF документа, който искате да завъртите.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Изберете конкретни страници за завъртане или приложете завъртането на всички страници.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Изтеглете коригирания си PDF, като страниците вече са в правилната ориентация, готови за всяко използване."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Изтеглете коригирания си PDF, като страниците вече са в правилната ориентация, готови за всяко използване.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Номериране на страници",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Вмъкване на номера на страници в PDF лесно",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Групово и бързо вмъкване на номера на страници в PDF документи",
+    "pdf_tools__detail_description_object__number_pages__top_left": "Без усилия вмъкнете номера на страници във вашите PDF файлове с нашия интуитивен онлайн инструмент за номериране на страници в PDF. Уверете се, че вашите документи са добре организирани и лесни за навигация, без нужда от инсталиране на софтуер.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Просто и бързо номериране на страници в PDF",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "Не е необходимо изтегляне на софтуер",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "Висока сигурност - всички операции се извършват в браузъра ви",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Ефективно номериране на страници в PDF",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "Добавете последователни номера на страници към вашите PDF файлове за секунди. Качете вашия PDF, конфигурирайте настройките и оставете нашия инструмент да се справи с останалото, без усилие създавайки професионално номериран документ.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Запазване на реда на документа",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Поддържайте организацията на вашите PDF файлове, като гарантирате, че страните са ясно номерирани. Улеснете справянето и подобрете четимостта на вашите документи.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Разнообразни опции за номериране",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Персонализирайте номерата на вашите страници с различни шрифтове, размери и позиции. Нашата конвертор поддържа различни форматиращи нужди, за да отговарят на всякакъв вид документ.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Защита на личните данни на клиента",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "Вашата поверителност е защитена, тъй като целият процес на номериране на страници се извършва локално на вашето устройство. Вашите файлове остават защитени и поверителни.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Достъпно навсякъде",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "Нашата онлайн инструмент е достъпен по всяко време от всяко устройство. Номерирайте страниците на вашия PDF по всяко време, директно от уеб браузъра си, без нужда от инсталиране.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Офлайн функционалност",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Продължете да работите без интернет достъп. Заредете страницата предварително и все още можете да номерирате страниците на вашия PDF офлайн, когато е необходимо.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "Как лесно да номерирате страници в PDF:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Импортирайте или пуснете файла си в нашия инструмент за номериране на страници в PDF.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Изберете позицията, където искате да се появят номерата на страници.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Настройте отстъпите на страницата и другите опции според нуждите си.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Кликнете \"Добави и изтегли\" и изчакайте само една секунда.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Изтеглете вашия PDF с номерирани страници - това е всичко!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека с висококачествени AI подсказки",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "Отказ на текущия напредък",
     "components__rotate_pdf__button__download__tooltip": "Завърти и изтегли PDF",
     "components__rotate_pdf__button__download": "Изтегли"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Позиция",
+    "components__pdf_number_pages__main_margins": "Отстъпи",
+    "components__pdf_number_pages__main_margins_narrow": "Тесни",
+    "components__pdf_number_pages__main_margins_default": "Стандартни",
+    "components__pdf_number_pages__main_margins_wide": "Широки",
+    "components__pdf_number_pages__main_start_numbering_at": "Започни номерирането от",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Въведете номерирането от",
+    "components__pdf_number_pages__main_add_and_download": "Добави и изтегли"
   }
 }

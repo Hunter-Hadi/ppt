@@ -12,7 +12,7 @@ export type IToolUrkKeyType =
   | 'sign-pdf'
   | 'compress-pdf'
   | 'ocr-pdf'
-  | 'pdf-numbers-page'
+  | 'number-pages'
   | 'rotate-pdf';
 export interface IToolData {
   icon: string;
@@ -151,13 +151,14 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlKey: routerChildrenObject['rotate-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
-  'pdf-numbers-page': {
+  'number-pages': {
     icon: 'CropOriginal',
     title: 'pages:tools__index_page__constant_obj__pdf_page_numbers__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_page_numbers__main_description',
     secondaryDescription:
-      'pages:tools__index_page__constant_obj__pdf_page_numbers__main_description',
-    urlKey: routerChildrenObject['pdf-numbers-page'],
+      'pages:tools__index_page__constant_obj__pdf_page_numbers__secondary_description',
+    urlKey: routerChildrenObject['number-pages'],
+    urlPrefixPath: toolsTopUrlKey,
   },
 };

@@ -602,7 +602,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cách Xoay Trang PDF Trực Tuyến:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Tải lên tài liệu PDF bạn muốn xoay.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Chọn các trang cụ thể để xoay hoặc áp dụng xoay cho tất cả các trang.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Tải xuống PDF đã được chỉnh sửa của bạn, với các trang hiện đã có hướng đúng, sẵn sàng cho bất kỳ mục đích nào."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Tải xuống PDF đã được chỉnh sửa của bạn, với các trang hiện đã có hướng đúng, sẵn sàng cho bất kỳ mục đích nào.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Số trang",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Chèn số trang vào PDF dễ dàng",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Chèn số trang hàng loạt và nhanh chóng vào tài liệu PDF",
+    "pdf_tools__detail_description_object__number_pages__top_left": "Dễ dàng chèn số trang vào tệp PDF của bạn với công cụ đánh số trang PDF trực tuyến thông minh của chúng tôi. Đảm bảo tài liệu của bạn được tổ chức cẩn thận và dễ dàng điều hướng, mà không cần cài đặt phần mềm.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Đánh số trang PDF đơn giản và nhanh chóng",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "Không cần tải xuống phần mềm",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "Bảo mật cao - tất cả quá trình xử lý được thực hiện trong trình duyệt của bạn",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Đánh số trang PDF hiệu quả",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "Thêm số trang tuần tự vào tệp PDF của bạn chỉ trong vài giây. Tải lên PDF của bạn, cấu hình các thiết lập và để công cụ của chúng tôi xử lý phần còn lại, tạo ra một tài liệu được đánh số chuyên nghiệp một cách dễ dàng.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Giữ thứ tự tài liệu",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Giữ cho các tệp PDF của bạn được tổ chức bằng cách đảm bảo các trang được đánh số rõ ràng. Tạo điều kiện cho việc tham khảo dễ dàng và nâng cao tính đọc của tài liệu của bạn.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Tùy chọn đánh số linh hoạt",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Tùy chỉnh số trang của bạn với các phông chữ, kích thước và vị trí khác nhau. Trình chuyển đổi của chúng tôi đáp ứng các yêu cầu định dạng khác nhau để phù hợp với bất kỳ loại tài liệu nào.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Bảo vệ quyền riêng tư trên máy khách",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "Quyền riêng tư của bạn được bảo vệ khi quá trình đánh số trang diễn ra trên máy tính của bạn. Tệp của bạn được bảo mật và bảo mật.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Truy cập từ bất kỳ đâu",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "Công cụ trực tuyến của chúng tôi có sẵn xung quanh đồng hồ từ bất kỳ thiết bị nào. Đánh số trang PDF của bạn bất kỳ lúc nào, trực tiếp từ trình duyệt web của bạn mà không cần cài đặt.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Chức năng ngoại tuyến",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Tiếp tục làm việc mà không cần truy cập internet. Tải trang trước và bạn vẫn có thể đánh số trang PDF của bạn ngoại tuyến khi cần thiết.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "Cách dễ dàng đánh số trang PDF:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Nhập hoặc kéo và thả tệp của bạn vào công cụ đánh số trang PDF của chúng tôi.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Chọn vị trí mà bạn muốn hiển thị số trang.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Điều chỉnh lề trang và các tùy chọn khác nếu cần.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Nhấp vào “Thêm & Tải xuống” và chờ chỉ một giây.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Tải xuống PDF của bạn có số trang - đó là tất cả!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "Hủy tiến trình hiện tại",
     "components__rotate_pdf__button__download__tooltip": "Xoay và tải xuống PDF",
     "components__rotate_pdf__button__download": "Tải Xuống"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Vị trí",
+    "components__pdf_number_pages__main_margins": "Lề",
+    "components__pdf_number_pages__main_margins_narrow": "Hẹp",
+    "components__pdf_number_pages__main_margins_default": "Mặc định",
+    "components__pdf_number_pages__main_margins_wide": "Rộng",
+    "components__pdf_number_pages__main_start_numbering_at": "Bắt đầu đánh số từ",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Nhập số bắt đầu đánh số từ",
+    "components__pdf_number_pages__main_add_and_download": "Thêm & Tải xuống"
   }
 }

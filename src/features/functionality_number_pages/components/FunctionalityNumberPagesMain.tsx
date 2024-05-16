@@ -9,6 +9,7 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import { PDFDocument } from 'pdf-lib';
 import { useState } from 'react';
 
@@ -23,11 +24,13 @@ type IPositionValue =
   | 'topLeft'
   | 'topRight';
 const FunctionalityNumberPagesMain = () => {
-  const [positionValue, setPositionValue] = useState<IPositionValue>('bottom');
-  const [marginsValue, setMarginsValue] = useState<number>(35);
-  const [startNumberValue, setStartNumberValue] = useState(1234567890);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const { t } = useTranslation();
+
   const [file, setFile] = useState<File | null>(null);
+  const [positionValue, setPositionValue] = useState<IPositionValue>('bottom');
+  const [marginsNumberValue, setMarginsNumberValueValue] = useState<number>(35);
+  const [startNumberValue, setStartNumberValue] = useState(1);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const onUploadFile = async (fileList: FileList) => {
     if (fileList.length) {
@@ -119,14 +122,12 @@ const FunctionalityNumberPagesMain = () => {
     if (!file) return;
     try {
       setIsLoading(true);
-
       const buff = await file.arrayBuffer(); // Uint8Array
       const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
       for (var index = 0; index < pdfDocument.getPages().length; index++) {
         const page = pdfDocument.getPage(index);
         const { width, height } = page.getSize();
         const fontSize = 13;
-        // const fontSizePadding = 2;
         const textWidth = startNumberValue.toString().length * (fontSize / 2); //大概的计算文本的宽度
         let x = 50,
           y = 0;
@@ -134,32 +135,32 @@ const FunctionalityNumberPagesMain = () => {
           case 'bottom':
             //位于底部的中心位置
             x = width / 2 - textWidth / 2; //中心位置-文字宽度的一半
-            y = marginsValue;
+            y = marginsNumberValue;
             break;
           case 'bottomLeft':
             //位于底部的中心位置
-            x = marginsValue;
-            y = marginsValue;
+            x = marginsNumberValue;
+            y = marginsNumberValue;
             break;
           case 'bottomRight':
             //位于底部的中心位置
-            x = width - marginsValue - textWidth; //宽度-边距-文字宽度
-            y = marginsValue;
+            x = width - marginsNumberValue - textWidth; //宽度-边距-文字宽度
+            y = marginsNumberValue;
             break;
           case 'top':
             //位于底部的中心位置
             x = width / 2 - textWidth / 3; //中心位置-文字宽度的一半
-            y = height - fontSize - marginsValue; //高度-字体大小-边距
+            y = height - fontSize - marginsNumberValue; //高度-字体大小-边距
             break;
           case 'topLeft':
             //位于底部的中心位置
-            x = marginsValue;
-            y = height - marginsValue; //高度-边距
+            x = marginsNumberValue;
+            y = height - marginsNumberValue; //高度-边距
             break;
           case 'topRight':
             //位于底部的中心位置
-            x = width - marginsValue - textWidth; //宽度-边距-文字宽度
-            y = height - marginsValue; //高度-边距
+            x = width - marginsNumberValue - textWidth; //宽度-边距-文字宽度
+            y = height - marginsNumberValue; //高度-边距
             break;
         }
         page.drawText((startNumberValue + index).toString(), {
@@ -176,7 +177,6 @@ const FunctionalityNumberPagesMain = () => {
       setIsLoading(false);
     } catch (error) {
       setIsLoading(false);
-
       console.log('onAddPagesNumberAndDownload error :', error);
     }
   };
@@ -206,9 +206,13 @@ const FunctionalityNumberPagesMain = () => {
         <Box sx={{ width: '100%' }}>
           <Grid container justifyContent='center' gap={1}>
             <Grid item>
-              <Typography variant='custom' fontSize={16}>
-                Position
-              </Typography>
+              <Box sx={{ marginBottom: 0.5 }}>
+                <Typography variant='custom' fontSize={16}>
+                  {t(
+                    'functionality__pdf_number_pages:components__pdf_number_pages__main_position',
+                  )}
+                </Typography>
+              </Box>
               {circleGridView(positionValue, 130, (value) => {
                 setPositionValue(value);
               })}
@@ -224,30 +228,50 @@ const FunctionalityNumberPagesMain = () => {
               justifyContent='space-between'
             >
               <Box sx={{ width: '100%' }}>
-                <Typography variant='custom' fontSize={16}>
-                  Margins
-                </Typography>
+                <Box sx={{ marginBottom: 0.5 }}>
+                  <Typography variant='custom' fontSize={16}>
+                    {t(
+                      'functionality__pdf_number_pages:components__pdf_number_pages__main_margins',
+                    )}
+                  </Typography>
+                </Box>
                 <Select
                   sx={{
                     width: '100%',
                   }}
                   labelId='demo-simple-select-label'
                   id='demo-simple-select'
-                  value={marginsValue}
+                  value={marginsNumberValue}
                   size='small'
                   onChange={(event) =>
-                    setMarginsValue(event.target.value as number)
+                    setMarginsNumberValueValue(event.target.value as number)
                   }
                 >
-                  <MenuItem value={20}>Narrow</MenuItem>
-                  <MenuItem value={35}>Default</MenuItem>
-                  <MenuItem value={65}>Wide</MenuItem>
+                  <MenuItem value={20}>
+                    {t(
+                      'functionality__pdf_number_pages:components__pdf_number_pages__main_margins_narrow',
+                    )}
+                  </MenuItem>
+                  <MenuItem value={35}>
+                    {t(
+                      'functionality__pdf_number_pages:components__pdf_number_pages__main_margins_default',
+                    )}
+                  </MenuItem>
+                  <MenuItem value={65}>
+                    {t(
+                      'functionality__pdf_number_pages:components__pdf_number_pages__main_margins_wide',
+                    )}
+                  </MenuItem>
                 </Select>
               </Box>
               <Box>
-                <Typography variant='custom' fontSize={16}>
-                  Start numbering at
-                </Typography>
+                <Box sx={{ marginBottom: 0.5 }}>
+                  <Typography variant='custom' fontSize={16}>
+                    {t(
+                      'functionality__pdf_number_pages:components__pdf_number_pages__main_start_numbering_at',
+                    )}
+                  </Typography>
+                </Box>
                 <Box>
                   <TextField
                     sx={{
@@ -255,7 +279,9 @@ const FunctionalityNumberPagesMain = () => {
                     }}
                     size='small'
                     type='number'
-                    placeholder='input start numbering at'
+                    placeholder={t(
+                      'functionality__pdf_number_pages:components__pdf_number_pages__main_input_start_numbering_at',
+                    )}
                     value={startNumberValue}
                     onChange={(event) =>
                       setStartNumberValue(Number(event.target.value))
@@ -277,9 +303,16 @@ const FunctionalityNumberPagesMain = () => {
                 sx={{ width: '100%', height: 48 }}
                 size='large'
                 variant='contained'
+                disabled={isLoading}
                 onClick={onAddPagesNumberAndDownload}
               >
-                {isLoading ? <CircularProgress size={20} /> : 'Add & Download'}
+                {isLoading ? (
+                  <CircularProgress size={20} />
+                ) : (
+                  t(
+                    'functionality__pdf_number_pages:components__pdf_number_pages__main_add_and_download',
+                  )
+                )}
               </Button>
             </Grid>
           </Grid>

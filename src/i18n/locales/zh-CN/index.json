@@ -588,7 +588,32 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "如何在线旋转PDF页面：",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "上传要旋转的PDF文档。",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "选择要旋转的特定页面或将旋转应用于所有页面。",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下载已更改方向的PDF，准备进行任何使用。"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下载已更改方向的PDF，准备进行任何使用。",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "页码",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "轻松在PDF中插入页码",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "批量快速在PDF文档中插入页码",
+    "pdf_tools__detail_description_object__number_pages__top_left": "使用我们直观的在线PDF页码工具，轻松地将页码插入到您的PDF文件中。无需安装软件，确保您的文档井然有序、易于导航。",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "简单快捷的PDF页码",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "无需下载软件",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "高安全性 - 所有处理都在您的浏览器中完成",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "高效的PDF页码",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "在几秒钟内为您的PDF添加连续的页码。上传您的PDF，配置您的设置，让我们的工具处理剩下的工作，轻松创建一个专业的编号文档。",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "保持文档顺序",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "通过确保页面清晰编号，使您的PDF文件保持有序。便于参考和提高文档的可读性。",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "多样化的编号选项",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "使用不同的字体、大小和位置自定义您的页码。我们的转换器适应各种格式需求，适用于任何类型的文档。",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "客户端隐私保护",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "您的隐私得到保护，因为整个页码过程在您的计算机上本地进行。您的文件保持安全和机密。",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "随时随地访问",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "我们的在线工具可以在任何设备上全天候使用。随时随地直接从您的网络浏览器中编号PDF页面，无需安装。",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "离线功能",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "即使没有互联网访问，也可以继续工作。预先加载页面，您仍然可以在需要时离线编号PDF页面。",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "如何轻松编号PDF页面：",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "导入或拖放文件到我们的PDF页码工具。",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "选择要显示页码的位置。",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "根据需要调整页面边距和其他选项。",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "点击“添加并下载”，稍等片刻。",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "下载带有页码的PDF文件 - 就是这样！"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -1291,5 +1316,15 @@
     "components__rotate_pdf__button__cancel__tooltip": "取消当前进度",
     "components__rotate_pdf__button__download__tooltip": "旋转并下载PDF",
     "components__rotate_pdf__button__download": "下载"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "位置",
+    "components__pdf_number_pages__main_margins": "边距",
+    "components__pdf_number_pages__main_margins_narrow": "窄",
+    "components__pdf_number_pages__main_margins_default": "默认",
+    "components__pdf_number_pages__main_margins_wide": "宽",
+    "components__pdf_number_pages__main_start_numbering_at": "从以下数字开始编号",
+    "components__pdf_number_pages__main_input_start_numbering_at": "输入以下数字开始编号",
+    "components__pdf_number_pages__main_add_and_download": "添加并下载"
   }
 }

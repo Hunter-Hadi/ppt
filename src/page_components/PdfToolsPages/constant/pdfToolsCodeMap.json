@@ -13,6 +13,6 @@
     "compress-pdf": "compress-pdf",
     "ocr-pdf": "ocr-pdf",
     "rotate-pdf": "rotate-pdf",
-    "pdf-numbers-page": "pdf-numbers-page"
+    "number-pages": "number-pages"
   }
 }
