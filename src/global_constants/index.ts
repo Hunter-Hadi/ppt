@@ -18,7 +18,7 @@ export const APP_EXTERNAL_LINKS = {
   PINTEREST: 'https://www.pinterest.com/SimplyTrendsOfficial/',
   TIKTOK: 'https://www.tiktok.com/@simplytrendsofficial',
   CHROME_EXTENSION:
-    'https://chrome.google.com/webstore/detail/use-chatgpt-gpt-4-chatgpt/mhnlakgilnojmhinhkckjpncpbhabphi',
+    'https://chrome.google.com/webstore/detail/maxaime-1-click-ai-powere/mhnlakgilnojmhinhkckjpncpbhabphi',
 
   EDGE_EXTENSION:
     'https://microsoftedge.microsoft.com/addons/detail/maxaime-use-chatgpt-ai-/ngphehpfehdmjellohmlojkplilekadg',
