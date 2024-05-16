@@ -21,8 +21,11 @@ const useInstallChromeExtensionLink = (isTopbar = false) => {
   }, [query.ref, isTopbar, pathname]);
 
   const installChromeExtensionLink = useMemo(() => {
-    return `${EXTENSION_SHARE_TRACKER_LINK}?ref=${ref}`;
-  }, [ref]);
+    // 由于 install Link 都改为 chrome store 的链接了，所以不需要加 ref
+
+    return `${EXTENSION_SHARE_TRACKER_LINK}`;
+    // return `${EXTENSION_SHARE_TRACKER_LINK}?ref=${ref}`;
+  }, []);
   return {
     ref,
     installChromeExtensionLink,

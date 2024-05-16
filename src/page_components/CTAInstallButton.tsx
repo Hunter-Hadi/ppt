@@ -97,13 +97,11 @@ const CTAInstallButton: FC<IProps> = ({
 
   const href = useMemo(() => {
     if (agent === 'Edge') {
-      return (
-        links[agent] + `?ref=${agent === 'Edge' ? '[maxai-edge]_' : ''}${ref}`
-      );
+      return links[agent];
     }
 
     return extensionLink;
-  }, [extensionLink, agent, links, ref]);
+  }, [extensionLink, agent, links]);
 
   const sxCache = useMemo(() => {
     if (isEmbedMode && (sx as any)?.fontSize?.xs === 32) {

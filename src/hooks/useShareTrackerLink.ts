@@ -56,12 +56,15 @@ const useShareTrackerLink = (props?: IUseShareTrackerLinkProps) => {
   }, [queryRefEnable, query]);
 
   const extensionLink = useMemo(() => {
+    // 由于 installLink 都改为 chrome store 的链接了，所以不需要加 ref
     if (agent && links[agent]) {
-      return `${links[agent]}?ref=${ref}`;
+      // return `${links[agent]}?ref=${ref}`;
+      return `${links[agent]}`;
     }
 
-    return `${installLink}?ref=${ref}`;
-  }, [ref, installLink, agent, links]);
+    // return `${installLink}?ref=${ref}`;
+    return `${installLink}`;
+  }, [installLink, agent, links]);
 
   const maxaiWebLink = useMemo(
     () => `${MAXAI_WWW_SHARE_TRACKER_LINK}?ref=${ref}`,
