@@ -31,7 +31,7 @@ const FunctionalityRotatePdfMain = () => {
       {!fileList && (
         <FunctionalityCommonUploadButton
           inputProps={{
-            accept: 'application/pdf',
+            multiple: true,
           }}
           onChange={onUploadFile}
         />

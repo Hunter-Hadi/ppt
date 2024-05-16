@@ -1,5 +1,4 @@
 import { Stack } from '@mui/material';
-import { useTranslation } from 'next-i18next';
 import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
@@ -19,8 +18,6 @@ interface IFunctionalityPdfToImageProps {
 const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
   toType,
 }) => {
-  const { t } = useTranslation();
-
   const [fileData, setFileData] = useState<File | null>(null);
   const onChangeFile = (fileList: FileList) => {
     if (fileList?.length > 0) {
