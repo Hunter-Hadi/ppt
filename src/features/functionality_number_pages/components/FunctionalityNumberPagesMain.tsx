@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  CircularProgress,
   Grid,
   MenuItem,
   Select,
@@ -13,6 +14,7 @@ import { useState } from 'react';
 
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 type IPositionValue =
   | 'bottom'
   | 'bottomLeft'
@@ -23,16 +25,14 @@ type IPositionValue =
 const FunctionalityNumberPagesMain = () => {
   const [positionValue, setPositionValue] = useState<IPositionValue>('bottom');
   const [marginsValue, setMarginsValue] = useState<number>(35);
-  const [startNumberValue, setStartNumberValue] = useState(1);
+  const [startNumberValue, setStartNumberValue] = useState(1234567890);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [file, setFile] = useState<File | null>(null);
 
   const onUploadFile = async (fileList: FileList) => {
-    setIsLoading(true);
     if (fileList.length) {
       setFile(fileList[0]);
     }
-    setIsLoading(false);
   };
   const circleGridView = (
     activeType: string = 'top',
@@ -117,38 +117,68 @@ const FunctionalityNumberPagesMain = () => {
   const onAddPagesNumberAndDownload = async () => {
     // 开发Test默认bottom
     if (!file) return;
-    const buff = await file.arrayBuffer(); // Uint8Array
-    const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
-    for (var i = 0; i < pdfDocument.getPages().length; i++) {
-      const page = pdfDocument.getPage(i);
-      const { width, height } = page.getSize();
-      const fontSize = 12;
-      const fontSizePadding = 10;
-      const textWidth =
-        startNumberValue.toString().length * (fontSize - fontSizePadding);
-      let x = 50,
-        y = 0;
-      switch (positionValue) {
-        case 'bottom':
-          //位于底部的中心位置
-          x = width / 2;
-          y = marginsValue - fontSize / 6;
-          break;
-        case 'top':
-          //位于底部的中心位置
-          x = width / 2;
-          y = height - fontSize + fontSizePadding;
-          break;
+    try {
+      setIsLoading(true);
+
+      const buff = await file.arrayBuffer(); // Uint8Array
+      const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
+      for (var index = 0; index < pdfDocument.getPages().length; index++) {
+        const page = pdfDocument.getPage(index);
+        const { width, height } = page.getSize();
+        const fontSize = 13;
+        // const fontSizePadding = 2;
+        const textWidth = startNumberValue.toString().length * (fontSize / 2); //大概的计算文本的宽度
+        let x = 50,
+          y = 0;
+        switch (positionValue) {
+          case 'bottom':
+            //位于底部的中心位置
+            x = width / 2 - textWidth / 2; //中心位置-文字宽度的一半
+            y = marginsValue;
+            break;
+          case 'bottomLeft':
+            //位于底部的中心位置
+            x = marginsValue;
+            y = marginsValue;
+            break;
+          case 'bottomRight':
+            //位于底部的中心位置
+            x = width - marginsValue - textWidth; //宽度-边距-文字宽度
+            y = marginsValue;
+            break;
+          case 'top':
+            //位于底部的中心位置
+            x = width / 2 - textWidth / 3; //中心位置-文字宽度的一半
+            y = height - fontSize - marginsValue; //高度-字体大小-边距
+            break;
+          case 'topLeft':
+            //位于底部的中心位置
+            x = marginsValue;
+            y = height - marginsValue; //高度-边距
+            break;
+          case 'topRight':
+            //位于底部的中心位置
+            x = width - marginsValue - textWidth; //宽度-边距-文字宽度
+            y = height - marginsValue; //高度-边距
+            break;
+        }
+        page.drawText((startNumberValue + index).toString(), {
+          x: x,
+          y: y,
+          size: fontSize,
+        });
       }
-      x = x - textWidth;
-      page.drawText('1', {
-        x: x,
-        y: y,
-        size: fontSize,
-      });
+      const blobData = await pdfDocument.save();
+      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+        file.name,
+      );
+      downloadUrl(blobData, fileName);
+      setIsLoading(false);
+    } catch (error) {
+      setIsLoading(false);
+
+      console.log('onAddPagesNumberAndDownload error :', error);
     }
-    const blobData = await pdfDocument.save();
-    downloadUrl(blobData, 'test.pdf');
   };
   return (
     <Stack
@@ -176,7 +206,7 @@ const FunctionalityNumberPagesMain = () => {
         <Box sx={{ width: '100%' }}>
           <Grid container justifyContent='center' gap={1}>
             <Grid item>
-              <Typography variant='custom' fontSize={18}>
+              <Typography variant='custom' fontSize={16}>
                 Position
               </Typography>
               {circleGridView(positionValue, 130, (value) => {
@@ -194,7 +224,7 @@ const FunctionalityNumberPagesMain = () => {
               justifyContent='space-between'
             >
               <Box sx={{ width: '100%' }}>
-                <Typography variant='custom' fontSize={18}>
+                <Typography variant='custom' fontSize={16}>
                   Margins
                 </Typography>
                 <Select
@@ -211,11 +241,11 @@ const FunctionalityNumberPagesMain = () => {
                 >
                   <MenuItem value={20}>Narrow</MenuItem>
                   <MenuItem value={35}>Default</MenuItem>
-                  <MenuItem value={100}>Wide</MenuItem>
+                  <MenuItem value={65}>Wide</MenuItem>
                 </Select>
               </Box>
               <Box>
-                <Typography variant='custom' fontSize={18}>
+                <Typography variant='custom' fontSize={16}>
                   Start numbering at
                 </Typography>
                 <Box>
@@ -242,14 +272,14 @@ const FunctionalityNumberPagesMain = () => {
             alignItems='center'
             sx={{ mt: 5 }}
           >
-            <Grid item xs={12} md={3}>
+            <Grid item xs={12} md={6} lg={4}>
               <Button
                 sx={{ width: '100%', height: 48 }}
                 size='large'
                 variant='contained'
                 onClick={onAddPagesNumberAndDownload}
               >
-                Add & Download
+                {isLoading ? <CircularProgress size={20} /> : 'Add & Download'}
               </Button>
             </Grid>
           </Grid>
