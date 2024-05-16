@@ -8,7 +8,14 @@ import {
 } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { degrees, PDFDocument } from 'pdf-lib';
-import React, { FC, useCallback, useEffect, useMemo, useState } from 'react';
+import React, {
+  FC,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 
 import {
   FunctionalityCommonButtonListView,
@@ -36,6 +43,7 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfMain> = ({
   onRemoveFile,
 }) => {
   const { t } = useTranslation();
+  const isReadFile = useRef(false);
   const [pdfPageImageInfoList, setPdfPageImageInfoList] = useState<
     IFunctionalityRotatePdfType[]
   >([]); //PDF页面的图片列信息表
@@ -52,10 +60,21 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfMain> = ({
     setPdfTotalPages,
   } = useFunctionalityCommonPdfToImageConversion(); //pdf转图片类型 工具 的hook
   const { changeScale, currentScale } = useFunctionalityCommonChangeScale(); //放大缩小hooks
-  useEffect(() => {
+  const readPdfToImages = async () => {
+    //读取pdf文件并转换成图片
     if (file) {
-      onReadPdfToImages(file);
+      const isReadSuccess = await onReadPdfToImages(file);
+      if (!isReadSuccess) {
+        onRemovePdfFile();
+      }
     }
+  };
+  useEffect(() => {
+    if (isReadFile.current) {
+      return;
+    }
+    isReadFile.current = true;
+    readPdfToImages();
   }, [file]);
   useEffect(() => {
     if (convertedPdfImages.length > 0) {
@@ -241,13 +260,14 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfMain> = ({
     ),
     [],
   );
+  const isHavePdfPageImageInfoList = pdfPageImageInfoList.length > 0;
   return (
     <React.Fragment>
-      {pdfPageImageInfoList.length > 0 && (
+      {isHavePdfPageImageInfoList && (
         <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
       )}
 
-      {pdfPageImageInfoList.length > 0 && !currentInitializeLoading && (
+      {isHavePdfPageImageInfoList && !currentInitializeLoading && (
         <StackViewWrap>
           {pdfPageImageInfoList.map((imageInfo, index) => (
             <FunctionalityCommonImage
@@ -306,7 +326,7 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfMain> = ({
           </Stack>
         </StackViewWrap>
       )}
-      {pdfPageImageInfoList?.length > 0 && (
+      {isHavePdfPageImageInfoList && (
         <Grid
           container
           direction='row'

@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material';
+import { CircularProgress, Stack } from '@mui/material';
 import React, { lazy, Suspense, useState } from 'react';
 
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
@@ -31,12 +31,13 @@ const FunctionalityRotatePdfMain = () => {
         <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
+            multiple: false,
           }}
           onChange={onUploadFile}
         />
       )}
       {file && (
-        <Suspense fallback={'loading...'}>
+        <Suspense fallback={<CircularProgress size={26} />}>
           <FunctionalityRotatePdfDetail
             file={file}
             onRemoveFile={() => setFile(null)}
