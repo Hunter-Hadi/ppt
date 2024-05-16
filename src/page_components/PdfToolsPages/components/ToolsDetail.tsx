@@ -57,6 +57,12 @@ const FunctionalityOcrPdfMain = lazy(
       '@/features/functionality_ocr_pdf/components/FunctionalityOcrPdfMain'
     ),
 );
+const FunctionalityRotatePdfMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfMain'
+    ),
+);
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType;
 }
@@ -114,6 +120,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__ocr_pdf__title'),
       description: t('seo:pdf_tools__ocr_pdf__description'),
     },
+    'rotate-pdf': {
+      title: t('seo:pdf_tools__rotate_pdf__title'),
+      description: t('seo:pdf_tools__rotate_pdf__description'),
+    },
   };
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];
   const toolList = useMemo(
@@ -158,6 +168,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
           {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
           {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
+          {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
         </Suspense>
       </Box>
       {toolsDetailDescriptionData && (

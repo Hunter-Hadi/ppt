@@ -159,7 +159,7 @@
     "home_page__in_numbers__title": "MaxAI in numbers",
     "home_page__in_numbers__privacy_friendly__title": "100% privacy friendly",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me ensures minimal data collection and fortified security. We're unaware of your browsing/chatting details or data beyond login essentials.",
-    "home_page__in_numbers__privacy_friendly__explore": "Explore our privacy commitment at MaxAl.me",
+    "home_page__in_numbers__privacy_friendly__explore": "Explore our privacy commitment at MaxAI.me",
     "home_page__in_numbers__professionals__sub_title": "professionals",
     "home_page__in_numbers__professionals__description": "who trust MaxAI around the world",
     "home_page__in_numbers__ratings__sub_title": "5-star ratings",
@@ -453,6 +453,10 @@
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
     "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR scanned PDF document, so you can easily choose to copy and search for text",
 
+    "tools__index_page__constant_obj__rotate_pdf__title": "Rotate PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Rotate all or individual pages in a PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Simply click on a page to rotate it. You can then download your modified PDF.",
+
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",
@@ -631,7 +635,28 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Upload your scanned PDF file to our OCR tool.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Choose the primary language of your document.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Our tool will process your PDF, extracting the text accurately and swiftly.",
-    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Download the OCR PDF on the results page to view the quality."
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Download the OCR PDF on the results page to view the quality.",
+
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Seamlessly rotate pages within your PDF documents using our intuitive online Rotate PDF tool. Achieve perfect orientation with just a few clicks, all while ensuring your documents remain secure and private.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Instant page rotation for perfect document layout",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "No additional software required",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Quickly process files using a locally secure browser",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Effortless Page Orientation",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Adjust the orientation of your PDF pages in seconds. Whether you need a single page rotated or the entire document, our tool provides the flexibility for any scenario.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "User-Friendly Interface",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Our intuitive interface makes rotating PDFs straightforward. Simply upload your document, select the pages you need to adjust, and rotate them with a single click.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Maintain Document Integrity",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "We ensure that your document’s layout and formatting remain intact, preserving your file's quality and content accuracy post-rotation.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Accessible From Any Device",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Rotate PDF anytime, anywhere. Our browser based tools work seamlessly on all devices and operating systems without the need for installation.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Secure and Private Processing",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Privacy is paramount. Your documents are processed in-browser, ensuring your files never leave your device and are not stored or viewed by us.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Instant Downloads After Rotation",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Once rotated, download your PDF directly from the tool. There’s no waiting around—access your perfectly oriented document immediately.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "How To Rotate PDF Pages Online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Upload the PDF document you wish to rotate.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Select specific pages for rotation or apply the rotation to all pages.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download your amended PDF, with pages now in the correct orientation, ready for any use."
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"
@@ -783,6 +808,18 @@
     "components__ocr_pdf__main__document_scanning_language": "Document scanning language",
     "components__ocr_pdf__main__ocr_and_download": "OCR & Download",
     "components__ocr_pdf__main__ocr_loading": "PDF Loading"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Rotate All",
+    "components__rotate_pdf__main__remove_pdf": "Remove PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Remove this PDF and select a new one",
+
+    "components__rotate_pdf__button__zoom_in__tooltip": "Zoom in",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Zoom out",
+    "components__rotate_pdf__cancel": "Cancel",
+    "components__rotate_pdf__button__cancel__tooltip": "Cancel current progress",
+    "components__rotate_pdf__button__download__tooltip": "Rotate and download PDF",
+    "components__rotate_pdf__button__download": "Download"
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",
@@ -1124,7 +1161,10 @@
     "pdf_tools__compress_pdf__description": "Compress PDF files in a local browser to ensure fast and secure performance. No watermark, file size limit, download or registration required.",
 
     "pdf_tools__ocr_pdf__title": "OCR PDF - Fast & Local PDF Text Recognition for Free | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "Convert non-searchable PDF documents into searchable and selectable text in seconds. No watermarks, file size limits, downloads, or sign-ups required."
+    "pdf_tools__ocr_pdf__description": "Convert non-searchable PDF documents into searchable and selectable text in seconds. No watermarks, file size limits, downloads, or sign-ups required.",
+
+    "pdf_tools__rotate_pdf__title": "Rotate PDF - Easily Rotate Pages in PDF Documents Online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Effortlessly rotate pages within your PDF documents online for free. Adjust the orientation of any PDF page with just a click - no file size limits, downloads, or sign-ups necessary."
   },
   "features_landing": {
     "cta_text": "Add to Browser",
@@ -1363,7 +1403,7 @@
     "features__pro_search__tooltip__description": "Get answers to the hardest questions with comprehensive web insights.",
     "features__advanced_options__title": "Advanced options",
     "features__advanced_options__description": "Search engine & more",
-    "features__advanced_options__tooltip__description": "Choose from the world's top search engines, get more search results, specify search time range and region, and select Al response language with Web Access.",
+    "features__advanced_options__tooltip__description": "Choose from the world's top search engines, get more search results, specify search time range and region, and select AI response language with Web Access.",
 
     "features__category__best_ai_models": "Best AI models",
     "features__category__writing_features": "Writing features",

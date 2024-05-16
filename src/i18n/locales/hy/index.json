@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "MaxAI-ն թիվապատասխանում է",
     "home_page__in_numbers__privacy_friendly__title": "100% գաղտնի է",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me-ն ապահովում է նվագարկման նվագարկման և ապահովման մինիմալ տվյալների գնահատականը: Մենք չենք գիտակցված ձեր զննարկման/խոսաքանակի մանրամասների կամ տվյալների մասին ավելին, որպեսզի մոտեցնենք մուտքագրման հարցերը:",
-    "home_page__in_numbers__privacy_friendly__explore": "Գնահատեք մեր գաղտնիության հաստատությունը MaxAl.me-ում",
+    "home_page__in_numbers__privacy_friendly__explore": "Գնացեք մեր գաղտնիության հավաքածուներին MaxAI.me-ում",
     "home_page__in_numbers__professionals__sub_title": "աշխատակիցներ",
     "home_page__in_numbers__professionals__description": "որոշակի աշխատանքային ապահովումով աշխատողները աշխատում են MaxAI-ի հետ աշխատանքային ապահովումով",
     "home_page__in_numbers__ratings__sub_title": "5-աստղանյութեր",
@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "Վերբեռնեք ձեր սկաներով փաստաթղթը մեր OCR գործիքին:",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Ընտրեք ձեր փաստաթղթի հիմնական լեզուն:",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Մեր գործիքը կաշխատի ձեր PDF-ը, ճշտելու տեքստը արդյունքում և արագությամբ:",
-    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Ներբեռնեք OCR PDF-ը արդյունքների էջում որպեսզի տեսնեք որակը:"
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Ներբեռնեք OCR PDF-ը արդյունքների էջում որպեսզի տեսնեք որակը:",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Պտտեք PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Պտեք բոլոր կամ միայնակ էջերը PDF-ում",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Անցնել էջի վրա և պտեք այն: Դուք կարող եք նաև ներբեռնել ձեր խմբագրված PDF-ը:",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Պտեք էջերը ձեր PDF փաստաթղթերում համապատասխանող միջավայրում մեր համակարգչային պտեղումից հետո: Արդյունքը կլինի համապատասխան ուղղությունը, որը կարող է ստանալ մի քանի հատվածով:",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Անվճար էջի պտեղում համապատասխանող անվճար ծրագրերի չի պահանջում",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Շատախոսությամբ կարող եք մշակել ֆայլերը ձեր համակարգչի վրա",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Արագությամբ մշակեք ֆայլերը ձեր բրաուզերի միջոցով",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Անվճար էջի պտեղում",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Պտեք ձեր PDF-ի էջերը մի քանի վայրում: Թույլատրելի է միայն մեկ էջի պտեղում կամ ամբողջ փաստաթղթի համար:",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Օգտագործածակալից հետո համապատասխան ինտերֆեյս",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Մեր համակարգչային ինտերֆեյսը պտեղումը դարձնում է PDF-երը շատ հեշտ: Միայն վերբեռնեք ձեր փաստաթղթը, ընտրեք էջերը, որոնք պետք է պտեղվեն, և պտեք դրանք միայն մեկ կտորոնով:",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Պահպանեք փաստաթղթի ամբողջությունը",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Մենք ապահովում ենք, որ ձեր փաստաթղթի դասավորությունը և ձևավորումը պահպանվեն, պաշտպանելով ֆայլի որակը և պաստաթղթի ճշգրիտությունը պտեղումից հետո:",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Մատչելի է ցանկացած սարքով",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Պտեք PDF-ը ցանկացած ժամանակ, ցանկացած վայրում: Մեր բրաուզերի հիմնական գործիքները աշխատում են անջատված սարքերում և հարմարավետ համակարգերում, առանց տեղադրման պահին:",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Ապահովեք անվտանգությունը և գաղտնիքը",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Գաղտնիքը առաջարկում է առանցից: Ձեր փաստաթղթերը մշակվում են բրաուզերում, ապահովելով ձեր ֆայլերի չափսերի սահմանափակման, դեպիս՝ չերբերական տեսակավորման կամ դիտելու հնարավորությունից:",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Պտեղեք և ներբեռնեք անվավերական ժամանակ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Պտեղվելուց հետո ձեր PDF-ը կարող եք ներբեռնել անվավերականության գործիքից: Այսպիսով, դուք կարող եք հասանել ձեր պատճառաբանիշը ամբողջությամբ:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Ինչպե՞ս պտեղեք PDF-ի էջերը օնլայն",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Վերբեռնեք PDF փաստաթուղթը, որը պետք է պտեղվի:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Ընտրեք հատուկ էջերը պտեղվելու համար կամ պտեղեք բոլոր էջերը:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Ներբեռնեք ձեր պտեղված PDF-ը, որը համապատասխանում է ճշգրիտ ուղղությանը, որպեսզի կարողանաք դրանով աշխատել:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Որակյալ AI խորհրդատու գրադարան",
@@ -866,7 +889,9 @@
     "pdf_tools__ocr_pdf__title": "OCR PDF - Արագ և Տեղական PDF Տեքստի ճանապարհում անվճար | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "Վերադարձեք չորսովին չափանի PDF փաստաթղթերը որպես որոնելի և ընտրելի տեքստ վերածելու վայրում: Առանձին ջուրվածքներ, ֆայլի չափսերի սահմանները, բեռնումները կամ գրանցումները չեն պահանջվում:",
     "features_landing__ai_reader__title": "AI Կարդալիքի Օգնական | MaxAI.me",
-    "features_landing__ai_reader__description": "Արտահայտեք բարդ տեքստերը հեշտությամբ, ինչպես մասնագիտացի։"
+    "features_landing__ai_reader__description": "Արտահայտեք բարդ տեքստերը հեշտությամբ, ինչպես մասնագիտացի։",
+    "pdf_tools__rotate_pdf__title": "Պտեղեք PDF - Հեշտությամբ պտեղեք էջերը PDF փաստաթղթերում օնլայն | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Հեշտությամբ պտեղեք էջերը ձեր PDF փաստաթղթերում օնլայն, անվճար: Պտեղեք ցանկացած PDF-ի էջը մի կտորոնով - չկարողանալով բավարարելու չափսերի, ներբեռնման կամ գրանցման:"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",
@@ -1152,7 +1177,7 @@
     "features__pro_search__tooltip__description": "Ստացեք պատասխաններ ամենակարևոր հարցերին լրացող վեբ ինսայթներով։",
     "features__advanced_options__title": "Առաջադրանքների ընտրանքներ",
     "features__advanced_options__description": "Որոնման մեծագույնը և ավելին",
-    "features__advanced_options__tooltip__description": "Ընտրեք աշխատանքը աշխատանքային աշխատանքային լեզուն, ընտրեք աշխատանքային ժամանակի միջավայրը և աշխատանքային ժամանակի միջավայրը, ընտրեք աշխատանքային ժամանակի միջավայրը և ընտրեք Al պատասխանի լեզուն։",
+    "features__advanced_options__tooltip__description": "Ընտրեք աշխարհի լավագույն որոնիչներից, ստացեք ավելի շատ որոնման արդյունքներ, նշանակեք որոնման ժամանակաշրջանը և տարածաշրջանը, ընտրեք AI պատասխանի լեզուն Web Access-ով:",
     "features__category__best_ai_models": "Լավագույն AI մոդելներ",
     "features__category__writing_features": "Գրադարանային հատկություններ",
     "features__category__reading_features": "Կարդալու հատկություններ",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__document_scanning_language": "Փաստաթղթի սկանավորման լեզուն",
     "components__ocr_pdf__main__ocr_and_download": "OCR և Ներբեռնում",
     "components__ocr_pdf__main__ocr_loading": "PDF-ի Տեսակավորում"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Պտեղեք բոլորը",
+    "components__rotate_pdf__main__remove_pdf": "Հեռացնել PDF-ը",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Հեռացրեք այս PDF-ը և ընտրեք նորը",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Խառնեք",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Ելքացրեք",
+    "components__rotate_pdf__cancel": "Չեղարկել",
+    "components__rotate_pdf__button__cancel__tooltip": "Չեղարկեք ընթացիկ գործընթացը",
+    "components__rotate_pdf__button__download__tooltip": "Պտեղեք և ներբեռնեք PDF-ը",
+    "components__rotate_pdf__button__download": "Ներբեռնել"
   }
 }

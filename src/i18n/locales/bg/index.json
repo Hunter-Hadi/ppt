@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Нашата инструмент ще обработи вашия PDF, извличайки текста точно и бързо.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Изтеглете OCR PDF от страницата с резултатите, за да видите качеството.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR сканиран PDF документ, така че можете лесно да изберете да копирате и търсите текст"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR сканиран PDF документ, така че можете лесно да изберете да копирате и търсите текст",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Завъртане на PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Завъртете всички или отделни страници в PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Просто щракнете върху страница, за да я завъртите. След това можете да изтеглите модифицирания си PDF.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Безпроблемно завъртане на страници във вашите PDF документи с помощта на нашия интуитивен онлайн инструмент Завъртане на PDF. Постигнете перфектна ориентация с няколко клика, като същевременно гарантирате сигурността и поверителността на вашите документи.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Моментално завъртане на страницата за перфектно разположение на документа",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Не се изисква допълнителен софтуер",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Бърза обработка на файловете с помощта на локално защитен браузър",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Безусилена ориентация на страниците",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Настройте ориентацията на вашите PDF страници за секунди. Независимо дали имате нужда от завъртане на една страница или на целия документ, нашият инструмент предоставя гъвкавост за всяка ситуация.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Потребителски интерфейс",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Нашето интуитивно потребителско средство прави завъртането на PDF файлове лесно. Просто качете документа си, изберете страниците, които трябва да коригирате, и ги завъртете с един клик.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Запазване на цялостта на документа",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Гарантираме, че оформлението и форматирането на вашия документ остават непокътнати, запазвайки качеството и точността на съдържанието след завъртането.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Достъп от всяко устройство",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Завъртете PDF по всяко време и навсякъде. Нашите инструменти, базирани на браузъра, работят безупречно на всички устройства и операционни системи, без нужда от инсталиране.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Сигурна и поверителна обработка",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Поверителността е от първостепенно значение. Вашите документи се обработват в браузъра, гарантирайки, че файловете ви никога не напускат вашето устройство и не се съхраняват или преглеждат от нас.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Моментално изтегляне след завъртане",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "След завъртането изтеглете своя PDF директно от инструмента. Няма чакане - достъпът до вашия перфектно ориентиран документ е незабавен.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Как да завъртите PDF страници онлайн:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Качете PDF документа, който искате да завъртите.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Изберете конкретни страници за завъртане или приложете завъртането на всички страници.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Изтеглете коригирания си PDF, като страниците вече са в правилната ориентация, готови за всяко използване."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека с висококачествени AI подсказки",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "AI Визия | MaxAI.me",
     "features_landing__ai_vision__description": "Разберете и анализирайте всяко изображение с най-продвинатите AI модели за визия.",
     "features_landing__ai_reader__title": "Асистент за четене с изкуствен интелект | MaxAI.me",
-    "features_landing__ai_reader__description": "Направете сложна информация лесна за разбиране, точно като експерт."
+    "features_landing__ai_reader__description": "Направете сложна информация лесна за разбиране, точно като експерт.",
+    "pdf_tools__rotate_pdf__title": "Завъртане на PDF - Лесно завъртане на страници в PDF документи онлайн | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Без усилия завъртете страници във вашите PDF документи онлайн безплатно. Настройте ориентацията на всяка страница в PDF с едно щракване - няма ограничения за размера на файла, изтегляния или регистрации."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "Зареждане на PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR и изтегляне",
     "components__ocr_pdf__main__document_scanning_language": "Език за сканиране на документи"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Завърти всички",
+    "components__rotate_pdf__main__remove_pdf": "Премахни PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Премахнете този PDF и изберете нов",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Увеличи",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Намали",
+    "components__rotate_pdf__cancel": "Отказ",
+    "components__rotate_pdf__button__cancel__tooltip": "Отказ на текущия напредък",
+    "components__rotate_pdf__button__download__tooltip": "Завърти и изтегли PDF",
+    "components__rotate_pdf__button__download": "Изтегли"
   }
 }

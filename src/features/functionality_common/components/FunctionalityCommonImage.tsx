@@ -19,7 +19,7 @@ interface IFunctionalitySortableImageProps {
  * @param isActive 是否激活颜色区别
  * @param rightTopChildren 右上角的子元素
  * @param onClick 点击事件
- * @param imageSize 图片宽度尺寸
+ * @param imgStyle 图片style信息
  */
 const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
   imageInfo,

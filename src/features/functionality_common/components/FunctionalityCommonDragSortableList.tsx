@@ -23,6 +23,7 @@ interface IFunctionalitySortableItemProps<T> {
   imageInfo: DragDataItem<T>;
   isActive: boolean;
   childrenElement: (data: DragDataItem<T>) => JSX.Element;
+  disabled?: boolean;
 }
 
 /**
@@ -33,9 +34,10 @@ const FunctionalitySortableItem = <T,>({
   imageInfo,
   isActive,
   childrenElement,
+  disabled,
 }: IFunctionalitySortableItemProps<T>) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
-    useSortable({ id: imageInfo.id });
+    useSortable({ id: imageInfo.id, disabled: disabled });
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
@@ -69,6 +71,7 @@ interface IFunctionalityCommonDragSortableListProps<T> {
     currentDragInfo?: DragDataItem<T>,
   ) => JSX.Element;
   replacementElement?: (data: DragDataItem<T>) => JSX.Element;
+  disabled?: boolean;
 }
 
 /**
@@ -84,6 +87,7 @@ const FunctionalityCommonDragSortableList = <T,>({
   onUpdateList,
   replacementElement,
   children,
+  disabled,
 }: IFunctionalityCommonDragSortableListProps<T>) => {
   const { t } = useTranslation();
   const [activeDragId, setActiveDragId] = useState<string | null>(null);
@@ -142,6 +146,7 @@ const FunctionalityCommonDragSortableList = <T,>({
               key={imageInfo.id}
               isActive={activeDragId === imageInfo.id}
               imageInfo={imageInfo}
+              disabled={disabled}
               childrenElement={(data) =>
                 children(data as DragDataItem<T>, index, currentDragInfo)
               }

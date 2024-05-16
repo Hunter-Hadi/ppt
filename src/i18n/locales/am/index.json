@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "MaxAI በቁጥጥር ውስጥ",
     "home_page__in_numbers__privacy_friendly__title": "100% ግል የሚያስታወቀው",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me የሚጠቀሙበት የማረጋገጫ እና የተለመደ የሆነውን የማስተላለፊያ ጥቅም መልክት እና የማረጋገጫ መረጃዎች አልተሳካም.",
-    "home_page__in_numbers__privacy_friendly__explore": "የማረጋገጫ አገልግሎትን ይመልከቱ MaxAl.me",
+    "home_page__in_numbers__privacy_friendly__explore": "የምንግዛቤ ተጠቃሚዎችን በ MaxAI.me ይመልከቱ",
     "home_page__in_numbers__professionals__sub_title": "የሚከተለውን ሠራተኞች",
     "home_page__in_numbers__professionals__description": "የMaxAI በተለመደ ሠራተኞች",
     "home_page__in_numbers__ratings__sub_title": "5-አመት የሚያሳየው ሙዚቃዎች",
@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "የተሳሳተ ፕድስ ማሳያዎችን ወደ OCR መሳሪያ ማስተላለፍ",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "የጽሑፍ ቋንቋዎችን ይምረጡ",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "የማሳያ ማሰግናት የተሳሳተ የጽሑፍ ማሳያዎችን ይጠቀሙ",
-    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "የማስተላለፍ መጠን የ OCR ፕድስ እንዴት ይመልከቱ."
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "የማስተላለፍ መጠን የ OCR ፕድስ እንዴት ይመልከቱ.",
+    "tools__index_page__constant_obj__rotate_pdf__title": "ፕድፊን ይጠቀሙ",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "ፕድፊን የሚጠቀሙ ወደሪ። የፕድፊን ከመድረሻ ወደሪዎችን ያድርጉ",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "በጠቅ ያለውን ገጽ ይጠቀሙ። ከዚህ በፊት የተቀደሰውን ፕድፊን ያስቀምጡ።",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "በእኛ በተሳካ ሁኔታ የፕድፊን ፕሮግራሞችን የሚጠቀሙ የፕድፊን መጠቀም በተሳካ የሚሆኑ የኦንላይን ፕሮግራሞችን በቀላሉ የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ። በጠቅ ያለውን የሚጠቀሙ የፕድፊን መጠቀም በቀላሉ የሚሆኑ የኦንላይን ፕሮግራሞችን በቀላሉ የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "በገጹ የሚጠቀሙ የፕሮግራሞች መንገድ የሚጠቀሙ",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "ሌሎች አጠቃላይ ሶፍትዌር አይደለም",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "በቀላሉ የሚሳተፉ ፋይሎችን በቀላሉ የሚጠቀሙ የፕሮግራሞችን በቀላሉ የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "የተሳካ የገጽ መጠቀም",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "የፕድፊን ገጽን በሚጠቀሙ የፕሮግራሞችን መጠቀም በሚቀርብ ጊዜ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ። ስለሆነም የአንድ ገጽ የገጽ መጠቀም ወደሚጠቀሙ የሚሆኑ የገጽ መጠቀም ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "የተጠቀምና የተጠቃሚ ማሳያ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "የፕድፊን ገጽን በሚጠቀሙ የፕሮግራሞችን መጠቀም በሚቀርብ የፕሮግራሞችን በቀላሉ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ። ስለሆነም የአንድ ገጽ የገጽ መጠቀም ወደሚጠቀሙ የሚሆኑ የገጽ መጠቀም ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "የፕሮግራሞች መስክ ማስታወቂያ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "ከፕሮግራሞች መጠቀም በቀላሉ የሚሳተፉ የፕሮግራሞች መስክ ማስታወቂያ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ። ስለሆነም የአንድ ገጽ የገጽ መጠቀም ወደሚጠቀሙ የሚሆኑ የገጽ መጠቀም ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "በድረስ የሚጠቀሙ ከተማ ያለው",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "ፕድፊን ይጠቀሙ በቀላሉ የሚሳተፉ የፕሮግራሞችን በቀላሉ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ። ስለሆነም የአንድ ገጽ የገጽ መጠቀም ወደሚጠቀሙ የሚሆኑ የገጽ መጠቀም ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "የግል እና የግል አገልግሎት የሚጠቀሙ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "የግል እና የግል አገልግሎት የሚጠቀሙ። የሚጠቀሙ ፕሮግራሞችን በቀላሉ የሚሳተፉ የፕሮግራሞችን በቀላሉ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "በጠቅ ያለውን ፕሮግራሞች በመጠቀም ያለውን ድብቅ የሚጠቀሙ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "በጠቅ ያለውን ፕሮግራሞች በመጠቀም ያለውን ድብቅ የሚጠቀሙ። በጠቅ ያለውን ፕሮግራሞች በመጠቀም ያለውን ድብቅ የሚጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "የፕድፊን ገጽ መጠቀም እንዴት እንደሚጠቀም ይመልከቱ:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።"
   },
   "prompt_library": {
     "use_prompt_library__title": "የልማት የሚጠቀሙ የሳምንት መልእክት",
@@ -866,7 +889,9 @@
     "features_landing__ai_reader__title": "የማክስ ተጠቃሚ ማሳያ | MaxAI.me",
     "features_landing__ai_reader__description": "በእንግሊዝኛ የተሰማሩ መረጃዎችን በቀላሉ በመተላለፍ የሚታይ ማሳያ።",
     "pdf_tools__ocr_pdf__title": "OCR PDF - በቀላሉ & በአማርኛ የPDF ጽሑፍ ቅንጅቶችን ለነፃ ማሳያ | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "የሚፈልጉትን የማጣሪያ የPDF ፕሮግራሞችን በማስተላለፍ የሚታይ፣ የሚሰጥ፣ የሚያውቁ፣ የሚልኩ፣ ወይም የሚያስፈልጉ ጽሑፍን በማስተላለፍ የሚታይ። የማስተላለፍ ድርጅቶች፣ የፋይል መጠቀምያዎች፣ የማስተላለፍ የሚታይ፣ የማስተላለፍ የሚሰጥ፣ የማስተላለፍ የሚያውቁ፣ የማስተላለፍ የሚልኩ፣ ወይም የማስተላለፍ የሚያስፈልጉ ጽሑፍን በማስተላለፍ የሚታይ።"
+    "pdf_tools__ocr_pdf__description": "የሚፈልጉትን የማጣሪያ የPDF ፕሮግራሞችን በማስተላለፍ የሚታይ፣ የሚሰጥ፣ የሚያውቁ፣ የሚልኩ፣ ወይም የሚያስፈልጉ ጽሑፍን በማስተላለፍ የሚታይ። የማስተላለፍ ድርጅቶች፣ የፋይል መጠቀምያዎች፣ የማስተላለፍ የሚታይ፣ የማስተላለፍ የሚሰጥ፣ የማስተላለፍ የሚያውቁ፣ የማስተላለፍ የሚልኩ፣ ወይም የማስተላለፍ የሚያስፈልጉ ጽሑፍን በማስተላለፍ የሚታይ።",
+    "pdf_tools__rotate_pdf__title": "ፕድፊን ይጠቀሙ - ፕድፊን ፈልግዎት የሚጠቀሙ | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "ፕድፊን ፈልግዎት የሚጠቀሙ ፕሮግራሞችን በቀላሉ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ - የፕድፊን መጠቀም አልባ የፕሮግራሞችን ልማት, የሚያዘጋጁ, ወይም የሚያስፈልጉ አድራሻዎች የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ."
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__document_scanning_language": "የፕድስ ማሳያ ቋንቋ",
     "components__ocr_pdf__main__ocr_and_download": "OCR & ለውጥ",
     "components__ocr_pdf__main__ocr_loading": "PDF መሳሪያ"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "ሁሉንም ይጠቀሙ",
+    "components__rotate_pdf__main__remove_pdf": "ፕድፊን አጥፋ",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "ይፈልጉ ይፕድፊን እና ነጠላ ሌሎች ይምረጡ",
+    "components__rotate_pdf__button__zoom_in__tooltip": "መጣል",
+    "components__rotate_pdf__button__zoom_out__tooltip": "መጣል",
+    "components__rotate_pdf__cancel": "ይቅር",
+    "components__rotate_pdf__button__cancel__tooltip": "የወደደ ሁኔታውን ይቅር",
+    "components__rotate_pdf__button__download__tooltip": "ፕድፊን ይጠቀሙ እና ያስተካክሉ",
+    "components__rotate_pdf__button__download": "ደቅድብ"
   }
 }

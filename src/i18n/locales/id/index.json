@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Alat kami akan memproses PDF Anda, mengekstrak teks dengan akurat dan cepat.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Unduh OCR PDF pada halaman hasil untuk melihat kualitasnya.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR dokumen PDF yang dipindai, sehingga Anda dapat dengan mudah memilih untuk menyalin dan mencari teks"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR dokumen PDF yang dipindai, sehingga Anda dapat dengan mudah memilih untuk menyalin dan mencari teks",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Putar PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Putar semua atau halaman individu dalam PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Klik pada halaman untuk memutarnya. Anda dapat mengunduh PDF yang telah dimodifikasi.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Secara mulus memutar halaman dalam dokumen PDF Anda menggunakan alat Putar PDF online intuitif kami. Capai orientasi yang sempurna hanya dengan beberapa klik, sambil memastikan dokumen Anda tetap aman dan pribadi.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Putaran halaman instan untuk tata letak dokumen yang sempurna",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Tidak memerlukan perangkat lunak tambahan",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Proses file dengan cepat menggunakan browser lokal yang aman",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Orientasi Halaman Tanpa Usaha",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Sesuaikan orientasi halaman PDF Anda dalam hitungan detik. Apakah Anda perlu memutar satu halaman atau seluruh dokumen, alat kami memberikan fleksibilitas untuk setiap skenario.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Antarmuka yang Mudah Digunakan",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Antarmuka yang intuitif membuat memutar PDF menjadi mudah. Cukup unggah dokumen Anda, pilih halaman yang perlu Anda sesuaikan, dan putar dengan sekali klik.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Pertahankan Integritas Dokumen",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Kami memastikan tata letak dan format dokumen Anda tetap utuh, menjaga kualitas file dan akurasi konten setelah diputar.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Diakses Dari Semua Perangkat",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Putar PDF kapan saja, di mana saja. Alat berbasis browser kami bekerja mulus pada semua perangkat dan sistem operasi tanpa perlu instalasi.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Proses Aman dan Pribadi",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Privasi sangat penting. Dokumen Anda diproses di browser, memastikan file Anda tidak pernah meninggalkan perangkat Anda dan tidak disimpan atau dilihat oleh kami.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Unduhan Instan Setelah Diputar",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Setelah diputar, unduh PDF Anda langsung dari alat ini. Tidak perlu menunggu—akses dokumen yang sudah terorientasi dengan sempurna Anda segera.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cara Memutar Halaman PDF Online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Unggah dokumen PDF yang ingin Anda putar.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Pilih halaman tertentu untuk diputar atau terapkan putaran pada semua halaman.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Unduh PDF yang telah Anda ubah, dengan halaman yang sekarang berada dalam orientasi yang benar, siap digunakan."
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "Visi AI | MaxAI.me",
     "features_landing__ai_vision__description": "Pahami dan analisis gambar apa pun dengan model visi AI paling canggih.",
     "features_landing__ai_reader__title": "Asisten Membaca AI | MaxAI.me",
-    "features_landing__ai_reader__description": "Membuat informasi kompleks mudah dipahami, seperti seorang ahli."
+    "features_landing__ai_reader__description": "Membuat informasi kompleks mudah dipahami, seperti seorang ahli.",
+    "pdf_tools__rotate_pdf__title": "Putar PDF - Mudah Memutar Halaman dalam Dokumen PDF Online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Secara mudah memutar halaman dalam dokumen PDF Anda secara online secara gratis. Sesuaikan orientasi halaman PDF apa pun hanya dengan satu klik - tanpa batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "Pemuatan PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR & Unduh",
     "components__ocr_pdf__main__document_scanning_language": "Bahasa pemindaian dokumen"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Putar Semua",
+    "components__rotate_pdf__main__remove_pdf": "Hapus PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Hapus PDF ini dan pilih yang baru",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Perbesar",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Perkecil",
+    "components__rotate_pdf__cancel": "Batal",
+    "components__rotate_pdf__button__cancel__tooltip": "Batalkan proses saat ini",
+    "components__rotate_pdf__button__download__tooltip": "Putar dan unduh PDF",
+    "components__rotate_pdf__button__download": "Unduh"
   }
 }

@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Meie tööriist töötleb teie PDF-i, ekstraheerides teksti täpselt ja kiiresti.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Laadige alla OCR PDF tulemuste lehelt, et näha kvaliteeti.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skannitud PDF-dokument, et saaksite teksti lihtsalt kopeerida ja otsida"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR skannitud PDF-dokument, et saaksite teksti lihtsalt kopeerida ja otsida",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Pööra PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Pööra kõik või üksikud lehed PDF-is",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Lihtsalt klõpsake lehel, et seda pöörata. Saate seejärel alla laadida oma muudetud PDF-i.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Pöörake lehti oma PDF-dokumentides sujuvalt meie intuitiivse veebipõhise Rotate PDF tööriista abil. Saavutage täiuslik orientatsioon vaid mõne klõpsuga, tagades samal ajal oma dokumentide turvalisuse ja privaatsuse.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Kohene lehe pööramine täiusliku dokumendi paigutuse saavutamiseks",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Lisatarkvara pole vaja",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Töötle faile kiiresti kohalikult turvalises brauseris",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Vaevatu lehe orientatsioon",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Reguleerige oma PDF-lehtede orientatsiooni sekunditega. Olgu vaja pöörata üksikut lehte või terve dokumenti, meie tööriist pakub paindlikkust igas olukorras.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Kasutajasõbralik liides",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Meie intuitiivne liides muudab PDF-ide pööramise lihtsaks. Laadige lihtsalt oma dokument üles, valige lehed, mida peate kohandama, ja pöörake neid ühe klõpsuga.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Säilitage dokumendi terviklikkus",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Tagame, et teie dokumendi paigutus ja vormindamine jäävad puutumatuks, säilitades faili kvaliteedi ja sisu täpsuse pärast pööramist.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Juurdepääs mis tahes seadmest",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Pöörake PDF-i igal ajal ja igal pool. Meie brauseripõhised tööriistad töötavad sujuvalt kõigil seadmetel ja operatsioonisüsteemidel ilma installimise vajaduseta.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Turvaline ja privaatne töötlemine",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Privaatsus on ülioluline. Teie dokumendid töödeldakse brauseris, tagades, et teie failid ei lahkunud kunagi teie seadmest ega ole meie poolt salvestatud ega vaadatud.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Kohene allalaadimine pärast pööramist",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Pärast pööramist laadige oma PDF otse tööriistast alla. Ei mingit ootamist - pääsete oma täiuslikult orienteeritud dokumendile kohe juurde.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kuidas pöörata PDF-lehti veebis:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Laadige üles PDF-dokument, mida soovite pöörata.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Valige lehed, mida soovite pöörata, või rakendage pööramine kõigile lehtedele.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Laadige alla muudetud PDF, kus lehed on nüüd õiges orientatsioonis ja valmis igaks kasutamiseks."
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "AI Nägemus | MaxAI.me",
     "features_landing__ai_vision__description": "Mõista ja analüüsi kõiki pilte kõige arenenumate AI nägemismudelite abil.",
     "features_landing__ai_reader__title": "AI Lugemisabiline | MaxAI.me",
-    "features_landing__ai_reader__description": "Muuda keeruline teave lihtsasti mõistetavaks, nagu ekspert."
+    "features_landing__ai_reader__description": "Muuda keeruline teave lihtsasti mõistetavaks, nagu ekspert.",
+    "pdf_tools__rotate_pdf__title": "Pööra PDF - Pööra lehti PDF-dokumentides lihtsalt veebis | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Pöörake lehti oma PDF-dokumentides hõlpsalt veebis tasuta. Reguleerige ühe klõpsuga mis tahes PDF-lehe orientatsiooni - pole failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "PDF Laadimine",
     "components__ocr_pdf__main__ocr_and_download": "OCR ja allalaadimine",
     "components__ocr_pdf__main__document_scanning_language": "Dokumendi skannimise keel"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Pööra kõik",
+    "components__rotate_pdf__main__remove_pdf": "Eemalda PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Eemaldage see PDF ja valige uus",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Suurenda",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Vähenda",
+    "components__rotate_pdf__cancel": "Tühista",
+    "components__rotate_pdf__button__cancel__tooltip": "Tühista praegune protsess",
+    "components__rotate_pdf__button__download__tooltip": "Pööra ja laadi PDF alla",
+    "components__rotate_pdf__button__download": "Laadi alla"
   }
 }

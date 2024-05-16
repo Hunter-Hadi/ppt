@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "ಸಂಖ್ಯೆಗಳಲ್ಲಿ MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% ಗೌಪ್ಯತೆ ಸ್ನೇಹಿತ",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me ನಿಮ್ಮ ಬ್ರೌಸಿಂಗ್/ಚಾಟ್ ವಿವರಗಳ ಅಥವಾ ಲಾಗಿನ್ ಅಗತ್ಯವಾದ ಮೇಲೆ ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಕಡಿಮೆ ಸಂಗ್ರಹಿಸುವುದು ಮತ್ತು ಬಲವಾದ ಭದ್ರತೆಯನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ.",
-    "home_page__in_numbers__privacy_friendly__explore": "MaxAl.me ನ ಗೌಪ್ಯತೆ ಪ್ರಮಾಣವನ್ನು ಅನ್ವೇಷಿಸಿ",
+    "home_page__in_numbers__privacy_friendly__explore": "MaxAI.me ನಲ್ಲಿ ನಮ್ಮ ಗೌಪ್ಯತಾ ಪ್ರತಿಜ್ಞೆಯನ್ನು ಅನ್ವೇಷಿಸಿ",
     "home_page__in_numbers__professionals__sub_title": "ವ್ಯಾಪಾರಿಗಳು",
     "home_page__in_numbers__professionals__description": "ಜಗತ್ತಿನಲ್ಲಿ MaxAI ನಂಬಿಕೆಯಿಂದ ನಿರೀಕ್ಷಿಸುವವರು",
     "home_page__in_numbers__ratings__sub_title": "5 ತಾರೆಯ ಮೌಲ್ಯಮಾಪನಗಳು",
@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "ನಿಮ್ಮ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾದ PDF ಕಡತವನ್ನು ನಮ್ಮ OCR ಉಪಕರಣಕ್ಕೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "ನಿಮ್ಮ ಆವರಣದ ಪ್ರಾಥಮಿಕ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "ನಮ್ಮ ಉಪಕರಣ ನಿಖರವಾಗಿ ಮತ್ತು ತ್ವರಿತವಾಗಿ ನಿಮ್ಮ PDF ಕಡತವನ್ನು ಪ್ರಾಸೆಸ್ ಮಾಡುತ್ತದೆ, ಪಠ್ಯವನ್ನು ಎಳೆಯುತ್ತದೆ.",
-    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ಗುಣಮಟ್ಟವನ್ನು ನೋಡಲು OCR PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ."
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ಗುಣಮಟ್ಟವನ್ನು ನೋಡಲು OCR PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.",
+    "tools__index_page__constant_obj__rotate_pdf__title": "PDF ತಿರುಗಿಸು",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "PDF ನಲ್ಲಿರುವ ಪುಟಗಳನ್ನು ಎಲ್ಲಾ ಅಥವಾ ವೈಯಕ್ತಿಕ ಪುಟಗಳನ್ನು ತಿರುಗಿಸಿ",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "ಅದನ್ನು ತಿರುಗಿಸಲು ಪುಟವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. ನಂತರ ನಿಮ್ಮ ಬದಲಾಗಿದ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "ನಮ್ಮ ಸುಲಭವಾದ ಆನ್‌ಲೈನ್ ಪರಿಚಯದ ಮೂಲಕ PDF ಆವೃತ್ತಿಸುವ ಟೂಲ್‌ನಲ್ಲಿ ನಿಮ್ಮ PDF ಆವೃತ್ತಿಸಲು ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ಆವೃತ್ತಿಸಿ. ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಸರಿಯಾದ ಅಭಿವೃದ್ಧಿಯನ್ನು ಪಡೆಯಿರಿ, ಹೀಗೆ ನಿಮ್ಮ ಆವೃತ್ತಿಸಲು ಪತ್ರಗಳು ಸುರಕ್ಷಿತವಾಗಿರುವುದು ಮತ್ತು ಖಾಸಗಿಯಾಗಿರುವುದು.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "ಪರಿಪೂರ್ಣ ದಾಖಲೆ ಅಭಿವೃದ್ಧಿಗಾಗಿ ತಕ್ಷಣ ಪುಟ ಆವೃತ್ತಿ",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "ಹೆಚ್ಚಿನ ಸಾಫ್ಟ್‌ವೇರ್ ಅಗತ್ಯವಿಲ್ಲ",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "ಸ್ಥಳೀಯವಾಗಿ ಸುರಕ್ಷಿತ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಫೈಲ್‌ಗಳನ್ನು ತ್ವರಿತವಾಗಿ ಪ್ರಕ್ರಿಯಿಸಿ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "ಶ್ರಮರಹಿತ ಪುಟ ಒಡೆಯನು",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "ನಿಮ್ಮ PDF ಪುಟಗಳ ಒಡೆಯನ್ನು ಕೆಲಕಾಲದಲ್ಲಿ ಸರಿಪಡಿಸಿ. ಒಂದು ಪುಟವನ್ನು ಮಾತ್ರ ಅಥವಾ ಪೂರ್ಣ ದಾಖಲೆಯನ್ನು ಆವೃತ್ತಿಸಲು ನಮ್ಮ ಟೂಲ್‌ಗೆ ಎಲ್ಲಾ ಪರಿಸ್ಥಿತಿಗಳಿಗೂ ಸಾಧ್ಯತೆ ನೀಡುತ್ತದೆ.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "ಬಳಕೆಯ ಸುಲಭ ಇಂಟರ್‌ಫೇಸ್",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "ನಮ್ಮ ಸುಲಭವಾದ ಇಂಟರ್‌ಫೇಸ್ ಪಡೆಯಿರಿ. ನಿಮ್ಮ ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ, ನೀವು ಸರಿಪಡಿಸಬೇಕಾದ ಪುಟಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು ಒಂದು ಕ್ಲಿಕ್‌ನಿಂದ ಅವುಗಳನ್ನು ತಿರುಗಿಸಿ.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "ದಾಖಲೆಯ ಪೂರ್ಣತೆಯನ್ನು ಉಳಿಸಿ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "ನಿಮ್ಮ ದಾಖಲೆಯ ರೂಪರೇಖೆ ಮತ್ತು ವಿನ್ಯಾಸವನ್ನು ಉಳಿಸುವುದನ್ನು ನಾವು ಖಚಿತಪಡಿಸುತ್ತೇವೆ, ಹೀಗೆ ನಿಮ್ಮ ಫೈಲ್‌ನ ಗುಣಮಟ್ಟವನ್ನೂ ಮತ್ತು ವಿಷಯದ ನಿಖರತೆಯನ್ನೂ ಉಳಿಸುತ್ತೇವೆ.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "ಯಾವುದೇ ಸಾಧನದಿಂದಲೂ ಪ್ರಾಪ್ತವಾಗುವುದು",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "PDF ಯನ್ನು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ, ಎಲ್ಲಾ ಸಾಧನಗಳಲ್ಲಿ ಸುಲಭವಾಗಿ ತಿರುಗಿಸಿ. ಅನುಸ್ಥಾಪನೆಯ ಅಗತ್ಯವಿಲ್ಲದೆ ಎಲ್ಲಾ ಸಾಧನಗಳ ಮೇಲೂ ನಮ್ಮ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "ಭದ್ರವಾದ ಮತ್ತು ಖಾಸಗಿ ಪ್ರಕ್ರಿಯೆ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "ಗೌಪ್ಯತೆ ಅತ್ಯುತ್ತಮ. ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಪ್ರಕ್ರಿಯಿಸಲಾಗುತ್ತದೆ, ನಿಮ್ಮ ಫೈಲ್‌ಗಳು ನಿಮ್ಮ ಸಾಧನವನ್ನು ಬಿಟ್ಟು ಹೊರಗೆ ಹೋಗುವುದಿಲ್ಲ ಮತ್ತು ನಮ್ಮ ದೃಷ್ಟಿಗೆ ಬರುವುದಿಲ್ಲ.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "ತಕ್ಷಣ ಡೌನ್‌ಲೋಡ್‌ಗಳು ಆವೃತ್ತಿಸಿದ ನಂತರ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "ಒಮ್ಮೆ ಆವೃತ್ತಿಸಿದ ನಂತರ, ನಿಮ್ಮ PDF ಅನ್ನು ಟೂಲ್‌ನಿಂದ ನೇರವಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ. ನಿರಾಶೆಯಿಲ್ಲದೆ ನಿಮ್ಮ ಪರಿಚಿತವಾದ ದಾಖಲೆಗೆ ತಕ್ಷಣ ಪ್ರವೇಶಿಸಿ.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "ಆನ್‌ಲೈನ್ ಪುಟಗಳನ್ನು ತಿರುಗಿಸುವುದಕ್ಕೆ ಹೇಗೆ:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ತಿರುಗಿಸಲು ಬಯಸುವ PDF ದಾಖಲೆಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ತಿರುಗಿಸಲು ನಿಶ್ಚಿತ ಪುಟಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಅಥವಾ ಎಲ್ಲಾ ಪುಟಗಳಿಗೂ ತಿರುಗಿಸಿ.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "ನಿಮ್ಮ ಪರಿಷ್ಕೃತ PDF ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ಪುಟಗಳನ್ನು ಈಗ ಸರಿಯಾಗಿ ಆವೃತ್ತಿಸಲು ಸಿದ್ಧವಾಗಿರುವುದು."
   },
   "prompt_library": {
     "use_prompt_library__title": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",
@@ -866,7 +889,9 @@
     "features_landing__ai_reader__title": "AI ಓದುಗಾರ | MaxAI.me",
     "features_landing__ai_reader__description": "ವಿಶೇಷಜ್ಞನಂತೆ ಕಠಿಣ ಮಾಹಿತಿಯನ್ನು ಸುಲಭವಾಗಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಿ.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - ಫಾಸ್ಟ್ & ಲೋಕಲ್ ಪಿಡಿಎಫ್ ಪಠ್ಯ ಗುರುತಿಕೆ ಉಚಿತ | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "ಅನುಕ್ರಮಿಸಲಾಗದ ಪಿಡಿಎಫ್ ಆವರಣಗಳನ್ನು ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಅನುಕ್ರಮಿಸಲು ಮತ್ತು ಆಯ್ಕೆಗೆ ಒಳಪಡಿಸಲು. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ."
+    "pdf_tools__ocr_pdf__description": "ಅನುಕ್ರಮಿಸಲಾಗದ ಪಿಡಿಎಫ್ ಆವರಣಗಳನ್ನು ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಅನುಕ್ರಮಿಸಲು ಮತ್ತು ಆಯ್ಕೆಗೆ ಒಳಪಡಿಸಲು. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
+    "pdf_tools__rotate_pdf__title": "PDF ತಿರುಗಿಸು - ಆನ್‌ಲೈನ್ ಪರಿಚಯದಲ್ಲಿ PDF ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ತಿರುಗಿಸಿ | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "ಉಚಿತವಾಗಿ ಆನ್‌ಲೈನ್ ಪರಿಚಯದಲ್ಲಿ ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿ ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ತಿರುಗಿಸಿ. ಯಾವುದೇ ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳಿಲ್ಲ, ಡೌನ್‌ಲೋಡ್‌ಗಳಿಲ್ಲ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳಿಲ್ಲ - ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಯಾವುದೇ PDF ಪುಟವನ್ನು ಸರಿಪಡಿಸಿ."
   },
   "features_landing": {
     "cta_text": "ಬ್ರೌಸರ್‌ಗೆ ಸೇರಿಸಿ",
@@ -1152,7 +1177,7 @@
     "features__pro_search__tooltip__description": "ವಿಸ್ತರಿಸಿದ ವೆಬ್ ಅರಿವುಗಳೊಂದಿಗೆ ಕಠಿಣ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಗಳನ್ನು ಪಡೆಯಿರಿ.",
     "features__advanced_options__title": "ಮುಂದಿನ ಆಯ್ಕೆಗಳು",
     "features__advanced_options__description": "ಹುಡುಕಾಟ ಇಂಜಿನ್ ಮತ್ತು ಇನ್ನಷ್ಟು",
-    "features__advanced_options__tooltip__description": "ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ಹುಡುಕಾಟ ಇಂಜಿನ್‌ಗಳಿಂದ ಆಯ್ಕೆ ಮಾಡಿ, ಹೆಚ್ಚು ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಿರಿ, ಹುಡುಕಾಟ ಸಮಯ ಶ್ರೇಣಿ ಮತ್ತು ಪ್ರದೇಶವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ, ಮತ್ತು ವೆಬ್ ಪ್ರವೇಶದೊಂದಿಗೆ ಆಲ್ ಪ್ರತಿಕ್ರಿಯೆ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "features__advanced_options__tooltip__description": "ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ಹುಡುಕು ಇಂಜಿನ್‌ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಹೆಚ್ಚು ಹುಡುಕು ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಿರಿ, ಹುಡುಕು ಸಮಯ ಶ್ರೇಣಿ ಮತ್ತು ಪ್ರದೇಶವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ, ಮತ್ತು ವೆಬ್ ಆಕ್ಸೆಸ್ ನೊಂದಿಗೆ ಎನ್ನುವುದರಿಂದ AI ಪ್ರತಿಕ್ರಿಯೆ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.",
     "features__category__best_ai_models": "ಅತ್ಯುತ್ತಮ AI ಮಾದರಿಗಳು",
     "features__category__writing_features": "ಬರಹ ವೈಶಿಷ್ಟ್ಯಗಳು",
     "features__category__reading_features": "ಓದುವ ವೈಶಿಷ್ಟ್ಯಗಳು",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__document_scanning_language": "ಆವರಣ ಸ್ಕ್ಯಾನ್ ಭಾಷೆ",
     "components__ocr_pdf__main__ocr_and_download": "OCR ಮತ್ತು ಡೌನ್‌ಲೋಡ್",
     "components__ocr_pdf__main__ocr_loading": "PDF ಲೋಡ್ ಆಗುತ್ತಿದೆ"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "ಎಲ್ಲಾ ತಿರುಗಿಸಿ",
+    "components__rotate_pdf__main__remove_pdf": "PDF ತೆಗೆದುಹಾಕಿ",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "ಈ PDF ಅನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಹೊಸದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ",
+    "components__rotate_pdf__button__zoom_in__tooltip": "ಹೆಚ್ಚಿಸಿ",
+    "components__rotate_pdf__button__zoom_out__tooltip": "ಕಡಿಮೆಗೆ ಹೋಗಿ",
+    "components__rotate_pdf__cancel": "ರದ್ದುಮಾಡಿ",
+    "components__rotate_pdf__button__cancel__tooltip": "ಪ್ರಸ್ತುತ ಪ್ರಗತಿಯನ್ನು ರದ್ದುಮಾಡಿ",
+    "components__rotate_pdf__button__download__tooltip": "PDF ತಿರುಗಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "components__rotate_pdf__button__download": "ಡೌನ್‌ಲೋಡ್"
   }
 }

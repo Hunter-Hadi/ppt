@@ -103,7 +103,7 @@ const ContactUsPanel = () => {
           </ProLink>
           {` `}
           <CopyTypography
-            text={`${EXTENSION_SHARE_TRACKER_LINK}?ref=share`}
+            text={`${EXTENSION_SHARE_TRACKER_LINK}`}
             sx={{ p: 0, minWidth: 20, color: 'rgba(0, 0, 0, 0.38)' }}
           />
           {` `}.

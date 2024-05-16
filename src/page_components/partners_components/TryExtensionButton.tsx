@@ -20,7 +20,7 @@ const TryExtensionButton: FC<IProps> = ({
 }) => {
   return (
     <Button
-      href={href ? href : `${EXTENSION_SHARE_TRACKER_LINK}?ref=${propRef}`}
+      href={href ? href : `${EXTENSION_SHARE_TRACKER_LINK}`}
       target={target}
       sx={{
         position: 'absolute',

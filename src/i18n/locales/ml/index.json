@@ -143,7 +143,7 @@
     "home_page__in_numbers__title": "എണ്ണങ്ങളിൽ MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% പ്രൈവസി ഫ്രണ്ട്ലി",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me സ്വന്തമായി ഡാറ്റ ശേഖരണം കുറവാക്കുന്നുവെന്ന് ഉറപ്പിച്ചുകൊണ്ട് സുരക്ഷയും അതിനെ മജ്ജിക്കുന്നു. ഞങ്ങൾ നിങ്ങളുടെ ബ്രൗസിംഗ് / ചാറ്റിംഗ് വിവരങ്ങൾ അല്ലെങ്കിൽ ലോഗിൻ അവശേഷികളിലേക്ക് അജ്ഞാതമാണ്.",
-    "home_page__in_numbers__privacy_friendly__explore": "MaxAl.me-യുടെ പ്രൈവസി പ്രതിജ്ഞ അവലോകനം",
+    "home_page__in_numbers__privacy_friendly__explore": "ഞങ്ങളുടെ സ്വകാര്യതാ പ്രമാണം MaxAI.me എന്നിലേക്ക് അന്വേഷിക്കുക",
     "home_page__in_numbers__professionals__sub_title": "പേര്",
     "home_page__in_numbers__professionals__description": "ലോകത്തെയും വിശ്വസ്തമാക്കിയവർ",
     "home_page__in_numbers__ratings__sub_title": "5-സ്റ്റാർ റേറ്റിംഗുകൾ",
@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "നിങ്ങളുടെ സ്കാനുചെയ്ത PDF ഫയല്‍ ഞങ്ങളുടെ OCR ഉപകരണത്തിലേക്ക് അപ്‌ലോഡ് ചെയ്യുക.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "നിങ്ങളുടെ പ്രമേയ ഭാഷ തിരഞ്ഞെടുക്കുക.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "ഞങ്ങളുടെ ഉപകരണം നിങ്ങളുടെ PDF പ്രോസസ്സ് ചെയ്യും, വാചകം ശരിയായി എടുക്കുന്നു.",
-    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ഗുണത്തിന് കാണാൻ OCR PDF ഡൌണ്‍ലോഡ് ചെയ്യുക."
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ഗുണത്തിന് കാണാൻ OCR PDF ഡൌണ്‍ലോഡ് ചെയ്യുക.",
+    "tools__index_page__constant_obj__rotate_pdf__title": "പിഡിഎഫ് തിരിച്ചുവയ്ക്കുക",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "ഒരു പിഡിഎഫ് സമാഹരണത്തിലെ എല്ലാ അല്ലെങ്കിൽ ഏറ്റവും നല്ല പേജുകൾ തിരിച്ചുവയ്ക്കുക",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "അത് തിരിച്ചുവയ്ക്കാൻ ഒരു പേജിലേക്ക് ക്ലിക്ക് ചെയ്യുക. പിഡിഎഫ് പരിഷ്ക്കരിച്ചുള്ള പതിപ്പ് ഡൗൺലോഡുചെയ്യാൻ കഴിയും.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "ഞങ്ങളുടെ ഉപയോഗിക്കുന്ന ഓൺലൈനിൽ എളുപ്പത്തിൽ പിഡിഎഫ് തിരിച്ചുവയ്ക്കാൻ നമ്മുടെ അറിവിനെക്കുറിച്ചുള്ള ഇന്റൂയിറ്റീവ് റൊട്ടേഷൻ പരിക്രമം ഉപയോഗിക്കുക. നിങ്ങളുടെ പ്രശ്നങ്ങൾക്ക് അനുസരിച്ച് പൂർണ്ണ ഓരിയന്റേഷൻ സാധ്യമാക്കുക, എല്ലാ പേജുകളും നിരവധി ക്ലിക്കുകളിലൂടെ സമ്പൂർണ്ണമായി തിരിച്ചുവയ്ക്കുക.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "പൂർണ്ണമായ രൂപരേഖയുള്ള പ്രമേയത്തിന് തകർത്തുക",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "അധിക സോഫ്റ്റ്‌വെയർ ആവശ്യമില്ല",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "സ്ഥാനികമായി സുരക്ഷിതമായി ബ്രൌസർ ഉപയോഗിച്ച് ഫയലുകൾ പ്രോസസ്സ് ചെയ്യുക",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "എളുപ്പത്തിൽ പേജ് ഓരിയന്റേഷൻ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "സെക്കൻഡിൽ നിങ്ങളുടെ പിഡിഎഫ് പേജുകൾക്ക് ഓരിയന്റേഷൻ അമർത്തുക. ഒരു പേജ് മാത്രം ഓരിയന്റേഷൻ ചെയ്യാൻ അല്ലെങ്കിൽ എന്നിവയും സമ്പൂർണ്ണമായ പ്രമാണം ആവശ്യമുള്ള സന്ദർഭത്തിന്, ഞങ്ങളുടെ ഉപകരണം സൌകര്യപ്രദമാണ്.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "ഉപയോഗിക്കുന്നത് സുഹൃത്തുള്ള ഇൻറർഫേസ്",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "ഞങ്ങളുടെ ഉപയോഗിക്കുന്നത് എളുപ്പത്തിൽ പിഡിഎഫുകൾ തിരിച്ചുവയ്ക്കുന്നതാകുന്നു. നിങ്ങളുടെ പ്രമാണം അപ്ലോഡുചെയ്യുക, നിങ്ങളുടെ അഭ്യർത്ഥനയ്ക്ക് അനുയോജ്യമായ പേജുകൾ തിരിച്ചുവയ്ക്കുക, അവയെ ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് തിരിച്ചുവയ്ക്കുക.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "പ്രമാണം സുരക്ഷിതമായി പരിരക്ഷിക്കുക",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "നിങ്ങളുടെ പ്രമാണത്തിന്റെ ലേഔട്ടും ഫോർമാറ്റിംഗും അപൂർണ്ണമായി നിലവിലുക്കുന്നതിനാൽ, നിങ്ങളുടെ ഫയൽനാണ് ക്വാലിറ്റി അന്വേഷിക്കുന്നത് പരിരക്ഷിക്കുന്നത്.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "ഏതെങ്കിലും ഉപകരണത്തിൽ പ്രവർത്തിക്കാൻ സാധിച്ചാൽ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "എന്തെങ്കിലും ഉപകരണത്തിൽ പിഡിഎഫ് തിരിച്ചുവയ്ക്കുക. നമ്മുടെ ബ്രൌസർ അടയാളത്തിൽ സുഗമമായി പ്രവർത്തിക്കുന്നുവെന്ന് ഇനിയും ഇനിയും സ്ഥാപിക്കാനും അനുവദിക്കുന്നു.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "സുരക്ഷിതമായിയും സ്വകാര്യമായിയും പ്രോസസ്സ് ചെയ്യൽ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "ഗുപ്തത പ്രധാനമാണ്. നിങ്ങളുടെ പ്രമാണങ്ങൾ ബ്രൌസർലേക്ക് പ്രോസസ്സ് ചെയ്യപ്പെടുന്നു, നിങ്ങളുടെ ഫയലുകൾ നിങ്ങളുടെ ഉപകരണത്തിൽ പോകുന്നില്ലെന്ന് ഉറപ്പാക്കുന്നും ഞങ്ങൾ അവയെ സംരക്ഷിക്കുന്നില്ലെന്ന് ഉറപ്പാക്കുന്നു.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "തിരിച്ചുവയ്ക്കൽ ശേഷം ഇൻസ്റ്റന്റ് ഡൗൺലോഡുകൾ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "തിരിച്ചുവയ്ക്കുമ്പോൾ, നിങ്ങളുടെ പിഡിഎഫ് നിങ്ങളുടെ ഉപകരണത്തിൽ നിന്നും പ്രത്യക്ഷപ്പെടും. കാത്തിരിക്കുന്നതിന് ഒരു കാത്തിരിപ്പ് അല്ലെങ്കിൽ പ്രത്യക്ഷപ്പെടുന്നതിന് ഒരു കാത്തിരിപ്പ് അനുവദിക്കുന്നു.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "പിഡിഎഫ് പേജുകൾ ഓന്നാക്കൽ എങ്ങനെ:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "തിരിച്ചുവയ്ക്കാൻ നിങ്ങളുടെ പിഡിഎഫ് പ്രമാണം അപ്ലോഡുചെയ്യുക.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "തിരിച്ചുവയ്ക്കാൻ പേജുകൾ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ എല്ലാ പേജുകളും തിരഞ്ഞെടുക്കുക.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "നിങ്ങളുടെ പരിഷ്ക്കരിച്ച പിഡിഎഫ്, പേജുകൾ ഇപ്പോൾ ശരിയായ ഓരിയന്റേഷനിൽ ഉണ്ടാക്കിയതായി ഡൗൺലോഡുചെയ്യുക."
   },
   "prompt_library": {
     "use_prompt_library__title": "ഉയർന്ന ഗുണമേന്മായ AI പ്രോംപ്റ്റ് ലൈബ്രറി",
@@ -866,7 +889,9 @@
     "features_landing__ai_reader__title": "എ.ഐ. റീഡിംഗ് അസിസ്റ്റന്റ് | MaxAI.me",
     "features_landing__ai_reader__description": "വിദ്യാർത്ഥികളെ പഠിപ്പിക്കാൻ പഠനങ്ങൾ എളുപ്പമാക്കുക, ഒരു വിദ്യാർത്ഥിയുടെ പേരിൽ.",
     "pdf_tools__ocr_pdf__title": "OCR PDF - ഫാസ്റ്റ് & ലോകൽ PDF ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫോർ ഫ്രീ | MaxAI.me",
-    "pdf_tools__ocr_pdf__description": "അടയാളപ്പെടാത്ത PDF രേഖകളെ സെൽക്റ്റേബിൾ ടെക്സ്റ്റാക്കുകയും തിരഞ്ഞെടുക്കാനുള്ള ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫ്രീയാക്കുക. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
+    "pdf_tools__ocr_pdf__description": "അടയാളപ്പെടാത്ത PDF രേഖകളെ സെൽക്റ്റേബിൾ ടെക്സ്റ്റാക്കുകയും തിരഞ്ഞെടുക്കാനുള്ള ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫ്രീയാക്കുക. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
+    "pdf_tools__rotate_pdf__title": "പിഡിഎഫ് തിരിച്ചുവയ്ക്കുക - പിഡിഎഫ് പ്രമാണങ്ങൾക്ക് പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "സൗകര്യപ്രദമായി ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് പിഡിഎഫ് പ്രമാണങ്ങളിൽ നിന്നും പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക - ഫയൽ വലിയ പരിധികളോ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
@@ -1152,7 +1177,7 @@
     "features__pro_search__tooltip__description": "വിശ്വാസപ്പെടുത്തപ്പെട്ട വെബ് അറിവുകൾ ഉപയോഗിച്ച് ഏറ്റവും കഠിനമായ ചോദ്യങ്ങളിലേക്ക് ഉത്തരങ്ങൾ നൽകുക.",
     "features__advanced_options__title": "അടുത്തിടെയുള്ള ഓപ്ഷനുകൾ",
     "features__advanced_options__description": "തിരച്ചിലുകൾ എഞ്ചിൻ & കൂടുതൽ",
-    "features__advanced_options__tooltip__description": "ലോകത്തിന്റെ ഏറ്റവും മുകളിൽ നിന്നുള്ള തിരച്ചിലുകൾ തിരഞ്ഞെടുക്കുക, കൂടുതൽ തിരച്ചിലുകൾ നേരിട്ട് നൽകുക, തിരച്ചിലുള്ള സമയ പരിധിയും പ്രദേശവും നിരോധിക്കുക, വെബ് ആക്സസ് ഉപയോഗിച്ച് Al പ്രതികരണ ഭാഷ തിരഞ്ഞെടുക്കുക.",
+    "features__advanced_options__tooltip__description": "ലോകത്തിന്‍റെ മുകളില്‍ ഉള്ള സേരിച്ചുള്ള തിരയുന്നവരുടെ നിരവധി ഫലങ്ങള്‍, തിരയുന്ന സമയം പരിധികള്‍ അറിയാന്‍, പ്രദേശം തിരഞ്ഞെടുക്കാനും, വെബ് ആക്‌സസിനൊപ്പം എ.ഐ. പ്രതികര ഭാഷ തിരഞ്ഞെടുക്കാനും ലഭ്യമാണ്.",
     "features__category__best_ai_models": "ഏറ്റവും മികച്ച AI മോഡലുകൾ",
     "features__category__writing_features": "എഴുത്ത് സവിശേഷതകൾ",
     "features__category__reading_features": "വായന സവിശേഷതകൾ",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__document_scanning_language": "രേഖകളുടെ സ്കാനിംഗ് ഭാഷ",
     "components__ocr_pdf__main__ocr_and_download": "OCR & ഡൌൺ‌ലോഡ്",
     "components__ocr_pdf__main__ocr_loading": "PDF ലോഡുചെയ്യുന്നു"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "എല്ലാം തിരിച്ചുവയ്ക്കുക",
+    "components__rotate_pdf__main__remove_pdf": "പിഡിഎഫ് നീക്കം ചെയ്യുക",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "ഈ പിഡിഎഫ് നീക്കം ചെയ്യുക, പുതിയത് തിരഞ്ഞെടുക്കുക",
+    "components__rotate_pdf__button__zoom_in__tooltip": "വലുതാക്കുക",
+    "components__rotate_pdf__button__zoom_out__tooltip": "ചെറുതാക്കുക",
+    "components__rotate_pdf__cancel": "റദ്ദാക്കുക",
+    "components__rotate_pdf__button__cancel__tooltip": "നിലവിലുള്ള പുരോഗതി റദ്ദാക്കുക",
+    "components__rotate_pdf__button__download__tooltip": "പിഡിഎഫ് തിരിച്ചുവയ്ക്കുകയും ഡൗൺലോഡുചെയ്യുക",
+    "components__rotate_pdf__button__download": "ഡൗൺലോഡ്"
   }
 }

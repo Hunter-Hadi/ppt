@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "આંકડામાં MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% ગોપનીયતા મિત્રતાપૂર્ણ",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me માં ઓછી ડેટા સંગ્રહ અને મજબૂત સુરક્ષા આપે છે. અમે તમારા બ્રાઉઝિંગ / ચેટિંગ વિગતો અથવા લોગિન મહત્વપૂર્ણ વિગતો પર અવગણ છીએ.",
-    "home_page__in_numbers__privacy_friendly__explore": "માક્સએલ.મે પર અમારી ગોપનીયતા પ્રતિબદ્ધતા અન્વેષણ કરો",
+    "home_page__in_numbers__privacy_friendly__explore": "મારી પ્રાઇવસી પ્રતિબંધક જોગવાઈનું અભિયાન જોવા માટે MaxAI.me પર જાઓ",
     "home_page__in_numbers__professionals__sub_title": "વ્યાવસાયિકો",
     "home_page__in_numbers__professionals__description": "જેમાં વિશ્વાસ કરે છે MaxAI વિશ્વભરમાં",
     "home_page__in_numbers__ratings__sub_title": "5-તારાંકની રેટિંગ્સ",
@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_1": "તમારું સ્કેન કરેલું PDF ફાઈલ અમારી OCR ટૂલમાં અપલોડ કરો.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "તમારા દસ્તાવેજની પ્રાથમિક ભાષા પસંદ કરો.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "અમારી ટૂલ તમારી PDFને પ્રક્રિયા કરી, ટેક્સ્ટને સચીત્ત અને ઝડપી રીતે બહાર નકલ કરી શકે છે.",
-    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ગુણવત્તા જોવા માટે OCR PDFને પરિણામો પૃષ્ઠમાં ડાઉનલોડ કરો."
+    "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "ગુણવત્તા જોવા માટે OCR PDFને પરિણામો પૃષ્ઠમાં ડાઉનલોડ કરો.",
+    "tools__index_page__constant_obj__rotate_pdf__title": "પીડીએફ ઘૂમાવો",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "પીડીએફમાં બધા અથવા વ્યક્તિગત પૃષ્ઠોને ઘૂમાવો",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "તેમજ તેના પછીના પીડીએફને ડાઉનલોડ કરવા માટે પૃષ્ઠ પર ક્લિક કરો.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "અમારા સરળ ઓનલાઇન પીડીએફ ઘૂમાવો ટૂલનો ઉપયોગ કરીને તમારા પીડીએફ દસ્તાવેજોમાં પૃષ્ઠોને સરળતાથી ઘૂમાવો. ફક્ત થોડા ક્લિકની મદદથી સરસ ઓરિએન્ટેશન મેળવો, જેથી તમારા દસ્તાવેજો સુરક્ષિત અને ખાનગી રહેશે.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "પરફેક્ટ દસ્તાવેજ લેઆઉટ માટે તત્કાલ પૃષ્ઠ ઘૂમાવો",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "કોઈ અન્ય સોફ્ટવેર જરૂરી નથી",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "સ્થાનિક સુરક્ષિત બ્રાઉઝરનો ઉપયોગ કરીને ફાઇલોને ઝડપીથી પ્રક્રિયા કરો",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "અનુકૂળ પૃષ્ઠ ઓરિએન્ટેશન",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "આપના પીડીએફ પૃષ્ઠોને સેકન્ડમાં ઓરિએન્ટેશન સુધારો. શું તમને એકલ પૃષ્ઠ ઘૂમાવવો હોઈ છે કે સંપૂર્ણ દસ્તાવેજ, અમારી ટૂલ દરેક સ્થિતિ માટે લચીલાપણ પૂરી પાડે છે.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "યુઝર-ફ્રેન્ડલી ઇન્ટરફેસ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "અમારી સરળ ઇન્ટરફેસ પીડીએફ ઘૂમાવવાનું સરળ બનાવે છે. ફક્ત આપનો દસ્તાવેજ અપલોડ કરો, આપને સુધારવાના પૃષ્ઠોને પસંદ કરો અને એક ક્લિકથી તેમને ઘૂમાવો.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "દસ્તાવેજ અખંડતા બનાવો",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "અમે ખાનગી રહેશે કે તમારા દસ્તાવેજનું લેઆઉટ અને ફોર્મેટિંગ અખંડ રહેશે, જે તમારા ફાઈલની ગુણવત્તા અને સાચાઈને પોસ્ટ-ઓરિએન્ટેશનમાં જોઈ રાખે છે.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "કોઈપણ ઉપકરણથી ઍક્સેસ કરો",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "પીડીએફ ક્ષણિક અને ક્ષણિક ઘૂમાવો. અમારા બ્રાઉઝર આધારિત ટૂલ્સ તમામ ઉપકરણો અને ઓપરેટિંગ સિસ્ટમ્સ પર સરળતાથી કામ કરે છે, અને ઇન્સ્ટોલેશનની જરૂર નથી.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "સાચી અને ખાનગી પ્રોસેસિંગ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "ગોપનીયતા મહત્વની છે. તમારા દસ્તાવેજોને બ્રાઉઝરમાં પ્રોસેસ કરીએ, જે તમારા ફાઈલો ક્યાંક પણ તમારા ઉપકરણમાંથી બહાર નથી જતી અને અમારા દ્વારા સંગ્રહિત અથવા જોઈ શકાતી નથી.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "ઘૂમાવવા પછી તત્કાલ ડાઉનલોડ",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "ઘૂમાવવા પછી, તમારી પીડીએફને ટૂલથી સીધી ડાઉનલોડ કરો. વેટિંગ અરસવાળું નથી - તમારી પરફેક્ટ ઓરિએન્ટેડ દસ્તાવેજ તક તકમાં મેળવો.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "પીડીએફ પૃષ્ઠો ઘૂમાવવાની રીત:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ઘૂમાવવા માંગેલી પીડીએફ દસ્તાવેજ અપલોડ કરો.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ઘૂમાવવા માટે ખાસ પૃષ્ઠો પસંદ કરો અથવા બધા પૃષ્ઠોને ઘૂમાવો.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "સાચી ઓરિએન્ટેશનમાં હવે તમારી સુધારેલી પીડીએફ ડાઉનલોડ કરો, જે કોઈપણ ઉપયોગ માટે તૈયાર છે."
   },
   "prompt_library": {
     "use_prompt_library__title": "ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી",
@@ -866,7 +889,9 @@
     "pdf_tools__ocr_pdf__title": "OCR PDF - ફાસ્ટ અને સ્થાનિકૃત PDF ટેક્સ્ટ ઓળખન | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "નકળ કરી શકાય તેવી પીડીએફ દસ્તાવેજોને સર્ચયોગ્ય અને પસંદ કરી શકાય ટેક્સ્ટમાં રૂપાંતરિત કરો. કોઈ વોટરમાર્ક, ફાઈલ સાઇઝ મરીજ, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી.",
     "features_landing__ai_reader__title": "એઆઈ વાંચક સહાયક | MaxAI.me",
-    "features_landing__ai_reader__description": "મહત્વપૂર્ણ માહિતીને સરળ બનાવો, જેમ કે એક વિશેષજ્ઞ જેવું."
+    "features_landing__ai_reader__description": "મહત્વપૂર્ણ માહિતીને સરળ બનાવો, જેમ કે એક વિશેષજ્ઞ જેવું.",
+    "pdf_tools__rotate_pdf__title": "પીડીએફ ઘૂમાવો - પીડીએફ દસ્તાવેજોમાં પૃષ્ઠોને સરળતાથી ઘૂમાવો | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "મફત રીતે તમારા પીડીએફ દસ્તાવેજોમાં પૃષ્ઠોને સરળતાથી ઘૂમાવો. કોઈ ફાઈલ કદ મર્યાદા, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી - ફક્ત એક ક્લિકથી કોઈપણ પીડીએફ પૃષ્ઠનું ઓરિએન્ટેશન સુધારો."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",
@@ -1152,7 +1177,7 @@
     "features__pro_search__tooltip__description": "વિસ્તૃત વેબ અનુશોધન સાથે સબસે મુશ્કેલ પ્રશ્નોના જવાબ મેળવો.",
     "features__advanced_options__title": "અગ્રગમ્ય વિકલ્પો",
     "features__advanced_options__description": "શોધ ઇજન અને વધુ",
-    "features__advanced_options__tooltip__description": "વિશ્વના શ્રેષ્ઠ શોધ ઇજન્સમાંથી પસંદ કરો, વધુ શોધ પરિણામો મેળવો, શોધ સમય રેંજ અને પ્રદેશ નિર્દિષ્ટ કરો, અને વેબ ઍક્સેસ સાથે Al પ્રતિસાદ ભાષા પસંદ કરો.",
+    "features__advanced_options__tooltip__description": "વિશ્વના ટોચના સર્ચ ઇજનિયરોમાંથી પસંદ કરો, વધુ સર્ચ પરિણામો મેળવો, સર્ચ સમય મર્યાદા અને પ્રદેશ નિર્ધારિત કરો, અને વેબ ઍક્સેસ સાથે AI પ્રતિસાદ ભાષા પસંદ કરો.",
     "features__category__best_ai_models": "શ્રેષ્ઠ AI મોડેલ્સ",
     "features__category__writing_features": "લેખન વ્યાજો",
     "features__category__reading_features": "વાંચન વ્યાજો",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__document_scanning_language": "દસ્તાવેજ સ્કેન કરવાની ભાષા",
     "components__ocr_pdf__main__ocr_and_download": "OCR અને ડાઉનલોડ",
     "components__ocr_pdf__main__ocr_loading": "PDF લોડ થઈ રહ્યું છે"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "બધા ઘૂમાવો",
+    "components__rotate_pdf__main__remove_pdf": "પીડીએફ દૂર કરો",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "આ પીડીએફ દૂર કરો અને નવું પસંદ કરો",
+    "components__rotate_pdf__button__zoom_in__tooltip": "ઝૂમ ઇન કરો",
+    "components__rotate_pdf__button__zoom_out__tooltip": "ઝૂમ આઉટ કરો",
+    "components__rotate_pdf__cancel": "રદ કરો",
+    "components__rotate_pdf__button__cancel__tooltip": "વર્તમાન પ્રગતિ રદ કરો",
+    "components__rotate_pdf__button__download__tooltip": "પીડીએફ ઘૂમાવો અને ડાઉનલોડ કરો",
+    "components__rotate_pdf__button__download": "ડાઉનલોડ"
   }
 }

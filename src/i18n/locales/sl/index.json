@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Naše orodje bo obdelalo vaš PDF in natančno ter hitro izvleklo besedilo.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Prenesite OCR PDF na strani rezultatov, da si ogledate kakovost.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Optično prepoznajte besedilo v skeniranem PDF dokumentu, da lahko enostavno izberete in iščete besedilo"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Optično prepoznajte besedilo v skeniranem PDF dokumentu, da lahko enostavno izberete in iščete besedilo",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Zasukaj PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Zasukaj vse ali posamezne strani v PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Preprosto kliknite na stran, ki jo želite zasukati. Spremenjeni PDF lahko nato prenesete.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Brez težav zasukajte strani v svojih PDF dokumentih z našim intuitivnim spletnim orodjem za zasuk PDF. Dosezite popolno usmerjenost s samo nekaj kliki, hkrati pa zagotovite varnost in zasebnost vaših dokumentov.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Takojšen zasuk strani za popolno postavitev dokumenta",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Ni potrebne dodatne programske opreme",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Hitro obdelajte datoteke z uporabo lokalno varnega brskalnika",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Enostavna usmerjenost strani",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "V nekaj sekundah prilagodite usmerjenost strani v vaših PDF dokumentih. Ne glede na to, ali želite zasukati posamezno stran ali celoten dokument, naše orodje omogoča prilagodljivost za vsak scenarij.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Uporabniku prijazen vmesnik",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Naš intuitiven vmesnik olajša zasuk PDF-jev. Preprosto naložite svoj dokument, izberite strani, ki jih želite prilagoditi, in jih zasukajte s samo enim klikom.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Ohranjanje celovitosti dokumenta",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Poskrbimo, da se postavitev in oblikovanje vašega dokumenta ohranita, kar ohranja kakovost in natančnost vsebine datoteke po zasuku.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Dostopno z vsake naprave",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Zasukajte PDF kadarkoli in kjerkoli. Naša orodja, ki temeljijo na brskalniku, brez težav delujejo na vseh napravah in operacijskih sistemih, brez potrebe po namestitvi.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Varna in zasebna obdelava",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Zasebnost je ključnega pomena. Vaši dokumenti se obdelujejo v brskalniku, kar zagotavlja, da vaše datoteke nikoli ne zapustijo vaše naprave in jih mi ne shranjujemo ali ogledujemo.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Takojšnje prenose po zasuku",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Ko zasukate, prenesite svoj PDF neposredno iz orodja. Ni čakanja - takoj dostopajte do popolnoma usmerjenega dokumenta.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kako zasukati strani PDF-ja na spletu:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Naložite PDF dokument, ki ga želite zasukati.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Izberite specifične strani za zasuk ali uporabite zasuk za vse strani.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Prenesite spremenjeni PDF, kjer so strani zdaj v pravilni usmerjenosti, pripravljeni za vsako uporabo."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "AI Vizija | MaxAI.me",
     "features_landing__ai_vision__description": "Razumite in analizirajte katero koli sliko z najnaprednejšimi modeli umetne inteligence za vizijo.",
     "features_landing__ai_reader__title": "Pomočnik za branje z umetno inteligenco | MaxAI.me",
-    "features_landing__ai_reader__description": "Naredite kompleksne informacije enostavne za razumevanje, kot pravi strokovnjak."
+    "features_landing__ai_reader__description": "Naredite kompleksne informacije enostavne za razumevanje, kot pravi strokovnjak.",
+    "pdf_tools__rotate_pdf__title": "Zasukaj PDF - Enostavno zasukaj strani v PDF dokumentih na spletu | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Brez težav zasukajte strani v svojih PDF dokumentih na spletu brezplačno. Prilagodite usmerjenost katere koli strani PDF-ja s samo enim klikom - brez omejitev velikosti datoteke, prenosov ali prijav."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "Nalaganje PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR in prenos",
     "components__ocr_pdf__main__document_scanning_language": "Jezik skeniranja dokumentov"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Zasukaj vse",
+    "components__rotate_pdf__main__remove_pdf": "Odstrani PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Odstranite ta PDF in izberite novega",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Povečaj",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Pomanjšaj",
+    "components__rotate_pdf__cancel": "Prekliči",
+    "components__rotate_pdf__button__cancel__tooltip": "Prekliči trenutni postopek",
+    "components__rotate_pdf__button__download__tooltip": "Zasukaj in prenesi PDF",
+    "components__rotate_pdf__button__download": "Prenesi"
   }
 }

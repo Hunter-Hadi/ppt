@@ -324,7 +324,7 @@
     "home_page__in_numbers__title": "MaxAI trong số liệu",
     "home_page__in_numbers__privacy_friendly__title": "100% tôn trọng quyền riêng tư",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me đảm bảo thu thập dữ liệu tối thiểu và bảo mật vững chắc. Chúng tôi không biết chi tiết duyệt web/trò chuyện của bạn hoặc dữ liệu ngoài yêu cầu đăng nhập.",
-    "home_page__in_numbers__privacy_friendly__explore": "Khám phá cam kết bảo mật của chúng tôi tại MaxAl.me",
+    "home_page__in_numbers__privacy_friendly__explore": "Khám phá cam kết bảo mật của chúng tôi tại MaxAI.me",
     "home_page__in_numbers__professionals__sub_title": "chuyên gia",
     "home_page__in_numbers__professionals__description": "tin tưởng MaxAI trên toàn thế giới",
     "home_page__in_numbers__ratings__sub_title": "Đánh giá 5 sao",
@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Công cụ của chúng tôi sẽ xử lý PDF của bạn, trích xuất văn bản một cách chính xác và nhanh chóng.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Tải xuống OCR PDF trên trang kết quả để xem chất lượng.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "Chuyển đổi PDF đã quét thành văn bản, để bạn dễ dàng sao chép và tìm kiếm từ"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "Chuyển đổi PDF đã quét thành văn bản, để bạn dễ dàng sao chép và tìm kiếm từ",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Xoay PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Xoay tất cả hoặc từng trang trong một PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Chỉ cần nhấp vào một trang để xoay nó. Sau đó, bạn có thể tải xuống PDF đã chỉnh sửa của bạn.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Mượt mà xoay các trang trong tài liệu PDF của bạn bằng công cụ Xoay PDF trực tuyến thông minh của chúng tôi. Đạt được hướng hoàn hảo chỉ với vài cú nhấp chuột, đồng thời đảm bảo tài liệu của bạn luôn an toàn và riêng tư.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Xoay trang tức thì để có bố cục tài liệu hoàn hảo",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Không cần phần mềm bổ sung",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Xử lý tệp nhanh chóng bằng trình duyệt địa phương an toàn",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Hướng Trang Dễ Dàng",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Điều chỉnh hướng của các trang PDF của bạn trong vài giây. Cho dù bạn cần xoay một trang duy nhất hay toàn bộ tài liệu, công cụ của chúng tôi cung cấp tính linh hoạt cho mọi tình huống.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Giao Diện Thân Thiện Với Người Dùng",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Giao diện thân thiện của chúng tôi giúp việc xoay PDF trở nên đơn giản. Chỉ cần tải lên tài liệu của bạn, chọn các trang bạn cần điều chỉnh và xoay chúng chỉ với một cú nhấp chuột.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Bảo Toàn Tính Nguyên Văn Bản",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Chúng tôi đảm bảo bố cục và định dạng của tài liệu của bạn không thay đổi, bảo tồn chất lượng và độ chính xác của tệp sau khi xoay.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Truy Cập Từ Mọi Thiết Bị",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Xoay PDF bất cứ lúc nào, ở bất kỳ đâu. Công cụ dựa trên trình duyệt của chúng tôi hoạt động mượt mà trên tất cả các thiết bị và hệ điều hành mà không cần cài đặt.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Xử Lý An Toàn Và Riêng Tư",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Quyền riêng tư là quan trọng. Tài liệu của bạn được xử lý trong trình duyệt, đảm bảo tệp của bạn không bao giờ rời khỏi thiết bị và không được lưu trữ hoặc xem bởi chúng tôi.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Tải Xuống Ngay Sau Khi Xoay",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "Sau khi xoay, tải xuống PDF của bạn trực tiếp từ công cụ. Không cần chờ đợi - truy cập tài liệu đã được xoay hoàn hảo ngay lập tức.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cách Xoay Trang PDF Trực Tuyến:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Tải lên tài liệu PDF bạn muốn xoay.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Chọn các trang cụ thể để xoay hoặc áp dụng xoay cho tất cả các trang.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Tải xuống PDF đã được chỉnh sửa của bạn, với các trang hiện đã có hướng đúng, sẵn sàng cho bất kỳ mục đích nào."
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "Tầm nhìn AI | MaxAI.me",
     "features_landing__ai_vision__description": "Hiểu và phân tích bất kỳ hình ảnh nào với các mô hình tầm nhìn AI tiên tiến nhất.",
     "features_landing__ai_reader__title": "Trợ lý đọc AI | MaxAI.me",
-    "features_landing__ai_reader__description": "Làm cho thông tin phức tạp dễ hiểu, giống như một chuyên gia."
+    "features_landing__ai_reader__description": "Làm cho thông tin phức tạp dễ hiểu, giống như một chuyên gia.",
+    "pdf_tools__rotate_pdf__title": "Xoay PDF - Dễ Dàng Xoay Trang trong Tài Liệu PDF Trực Tuyến | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Dễ dàng xoay các trang trong tài liệu PDF của bạn trực tuyến miễn phí. Điều chỉnh hướng của bất kỳ trang PDF nào chỉ với một cú nhấp chuột - không giới hạn kích thước tệp, không cần tải xuống hoặc đăng ký."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",
@@ -1152,7 +1177,7 @@
     "features__pro_search__tooltip__description": "Nhận câu trả lời cho những câu hỏi khó nhất với thông tin chi tiết từ web.",
     "features__advanced_options__title": "Tùy chọn nâng cao",
     "features__advanced_options__description": "Công cụ tìm kiếm và nhiều hơn nữa",
-    "features__advanced_options__tooltip__description": "Chọn từ các công cụ tìm kiếm hàng đầu thế giới, nhận nhiều kết quả tìm kiếm hơn, chỉ định khoảng thời gian và vùng lãnh thổ tìm kiếm, và chọn ngôn ngữ phản hồi Al với Truy cập Web.",
+    "features__advanced_options__tooltip__description": "Chọn từ các công cụ tìm kiếm hàng đầu thế giới, nhận nhiều kết quả tìm kiếm hơn, chỉ định khoảng thời gian và vùng miền tìm kiếm, và chọn ngôn ngữ phản hồi AI với Truy cập Web.",
     "features__category__best_ai_models": "Các mô hình AI tốt nhất",
     "features__category__writing_features": "Tính năng viết",
     "features__category__reading_features": "Tính năng đọc",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "Đang tải PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR và Tải xuống",
     "components__ocr_pdf__main__document_scanning_language": "Ngôn ngữ quét tài liệu"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Xoay Tất Cả",
+    "components__rotate_pdf__main__remove_pdf": "Xóa PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Xóa PDF này và chọn một PDF mới",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Phóng to",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Thu nhỏ",
+    "components__rotate_pdf__cancel": "Hủy",
+    "components__rotate_pdf__button__cancel__tooltip": "Hủy tiến trình hiện tại",
+    "components__rotate_pdf__button__download__tooltip": "Xoay và tải xuống PDF",
+    "components__rotate_pdf__button__download": "Tải Xuống"
   }
 }

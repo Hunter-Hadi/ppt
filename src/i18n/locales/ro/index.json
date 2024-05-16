@@ -579,7 +579,30 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Instrumentul nostru va procesa PDF-ul dumneavoastră, extrăgând textul cu precizie și rapiditate.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Descărcați OCR PDF-ul de pe pagina rezultatelor pentru a vizualiza calitatea.",
     "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
-    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR document PDF scanat, astfel încât să puteți alege ușor să copiați și să căutați textul"
+    "tools__index_page__constant_obj__ocr_pdf__main_description": "OCR document PDF scanat, astfel încât să puteți alege ușor să copiați și să căutați textul",
+    "tools__index_page__constant_obj__rotate_pdf__title": "Rotire PDF",
+    "tools__index_page__constant_obj__rotate_pdf__main_description": "Rotește toate sau pagini individuale într-un PDF",
+    "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Dați clic simplu pe o pagină pentru a o roti. Puteți descărca apoi PDF-ul modificat.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_left": "Rotiți paginile în documentele dvs. PDF cu ușurință folosind instrumentul nostru intuitiv Rotate PDF online. Obțineți orientare perfectă cu doar câteva clicuri, asigurând în același timp securitatea și confidențialitatea documentelor dvs.",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_1": "Rotire instantanee a paginilor pentru aspectul perfect al documentului",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_2": "Nu este necesar un software suplimentar",
+    "pdf_tools__detail_description_object__rotate_pdf__top_right_3": "Procesați rapid fișierele utilizând un browser local securizat",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_title": "Orientare a paginilor fără efort",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_1_description": "Ajustați orientarea paginilor dvs. PDF în câteva secunde. Indiferent dacă aveți nevoie să rotiți o singură pagină sau întregul document, instrumentul nostru oferă flexibilitatea pentru orice scenariu.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_title": "Interfață prietenoasă cu utilizatorul",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_2_description": "Interfața noastră intuitivă face ca rotirea PDF-urilor să fie simplă. Încărcați pur și simplu documentul dvs., selectați paginile pe care trebuie să le ajustați și rotiți-le cu un singur clic.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_title": "Mențineți integritatea documentului",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_3_description": "Ne asigurăm că aspectul și formatarea documentului dvs. rămân intacte, păstrând calitatea și precizia conținutului fișierului dvs. după rotire.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_title": "Accesibil de pe orice dispozitiv",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_4_description": "Rotiți PDF-ul oricând și oriunde. Instrumentele noastre bazate pe browser funcționează perfect pe toate dispozitivele și sistemele de operare fără a fi necesară instalarea.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_title": "Procesare securizată și privată",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_5_description": "Confidențialitatea este esențială. Documentele dvs. sunt procesate în browser, asigurându-se că fișierele dvs. nu părăsesc niciodată dispozitivul și nu sunt stocate sau vizualizate de noi.",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_title": "Descărcări instantanee după rotire",
+    "pdf_tools__detail_description_object__rotate_pdf__middle_6_description": "După ce ați rotit documentul, descărcați PDF-ul direct din instrument. Nu trebuie să așteptați - accesați imediat documentul perfect orientat.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cum să rotiți paginile PDF online:",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Încărcați documentul PDF pe care doriți să îl rotiți.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Selectați paginile specifice pentru rotire sau aplicați rotirea la toate paginile.",
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descărcați PDF-ul modificat, cu pagini acum în orientarea corectă, pregătit pentru orice utilizare."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
@@ -866,7 +889,9 @@
     "features_landing__ai_vision__title": "Viziune AI | MaxAI.me",
     "features_landing__ai_vision__description": "Înțelege și analizează orice imagine cu cele mai avansate modele de viziune AI.",
     "features_landing__ai_reader__title": "Asistent de citire AI | MaxAI.me",
-    "features_landing__ai_reader__description": "Facilitați înțelegerea informațiilor complexe, la fel ca un expert."
+    "features_landing__ai_reader__description": "Facilitați înțelegerea informațiilor complexe, la fel ca un expert.",
+    "pdf_tools__rotate_pdf__title": "Rotire PDF - Rotiți cu ușurință pagini în documente PDF online | MaxAI.me",
+    "pdf_tools__rotate_pdf__description": "Rotiți cu ușurință pagini în documentele dvs. PDF online gratuit. Ajustați orientarea oricărei pagini PDF cu doar un clic - fără limite de dimensiune a fișierului, descărcări sau înregistrări necesare."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -1255,5 +1280,16 @@
     "components__ocr_pdf__main__ocr_loading": "Încărcare PDF",
     "components__ocr_pdf__main__ocr_and_download": "OCR și Descărcare",
     "components__ocr_pdf__main__document_scanning_language": "Limba scanării documentului"
+  },
+  "functionality__rotate_pdf": {
+    "components__rotate_pdf__main__rotate_all": "Rotiți tot",
+    "components__rotate_pdf__main__remove_pdf": "Eliminați PDF",
+    "components__rotate_pdf__main__remove_pdf_tooltip": "Eliminați acest PDF și selectați unul nou",
+    "components__rotate_pdf__button__zoom_in__tooltip": "Mărire",
+    "components__rotate_pdf__button__zoom_out__tooltip": "Micșorare",
+    "components__rotate_pdf__cancel": "Anulați",
+    "components__rotate_pdf__button__cancel__tooltip": "Anulați progresul curent",
+    "components__rotate_pdf__button__download__tooltip": "Rotiți și descărcați PDF-ul",
+    "components__rotate_pdf__button__download": "Descărcați"
   }
 }

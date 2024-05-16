@@ -128,10 +128,10 @@ export const FunctionalitySignPdfDetail: FC<
     setActiveDragData({ dragType: 'start', ...event.active.data.current });
   };
   const onPdfAddViewSave = async () => {
+    setSaveButtonLoading(true);
     showPdfHandlesRef.current?.discardAllActiveObject();
     const pdfPageNumber = showPdfHandlesRef.current?.getNumPages();
     if (pdfPageNumber) {
-      setSaveButtonLoading(true);
       const uint8Array = await pdfAddSignCanvasViewReturnUint8Array(
         file,
         pdfPageNumber,
@@ -139,8 +139,8 @@ export const FunctionalitySignPdfDetail: FC<
       if (uint8Array) {
         setDownloadUint8Array(uint8Array);
       }
-      setSaveButtonLoading(false);
     }
+    setSaveButtonLoading(false);
   };
   const sensors = useSensors(
     useSensor(PointerSensor, {
