@@ -1,22 +1,25 @@
-import { GetStaticPathsResult, GetStaticPropsResult } from 'next';
+import {
+  GetStaticPathsResult,
+  GetStaticPropsContext,
+  GetStaticPropsResult,
+} from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import { i18nLocales } from '@/i18n/utils';
-
 const POPULAR_LANGUAGE_LOCALE = ['en', 'zh-CN', 'fr'];
 
 // 生成带有 i18n 数据的 getStaticProps
 export function makeStaticProps(
-  makeStaticPropsResult?: () => GetStaticPropsResult<{ [key: string]: any }>,
+  makeStaticPropsResult?: (
+    ctx: GetStaticPropsContext,
+  ) => GetStaticPropsResult<{ [key: string]: any }>,
 ) {
-  const originalStaticPropsResult = (
-    makeStaticPropsResult || (() => ({ props: {}, revalidate: undefined }))
-  )();
+  return async function getStaticProps(ctx) {
+    const originalStaticPropsResult = (
+      makeStaticPropsResult || ((ctx) => ({ props: {}, revalidate: undefined }))
+    )(ctx);
 
-  debugger;
-
-  if ('props' in originalStaticPropsResult) {
-    return async function getStaticProps(ctx) {
+    if ('props' in originalStaticPropsResult) {
       const locale = ctx?.params?.locale?.toString() || 'en';
       return {
         props: {
@@ -25,10 +28,10 @@ export function makeStaticProps(
         },
         revalidate: originalStaticPropsResult.revalidate,
       };
-    };
-  } else {
-    return originalStaticPropsResult;
-  }
+    } else {
+      return originalStaticPropsResult;
+    }
+  };
 }
 
 // 生成所有 i18n code 的 静态路由

@@ -5,7 +5,11 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function middleware(req: NextRequest) {
   const url = req.nextUrl;
 
-  return NextResponse.redirect(new URL('/pricing', url));
+  const response = NextResponse.next();
+
+  response.cookies.set('res-zztest-1', `1-${url.pathname}`);
+
+  return response;
 
   // const { isBot } = userAgent(req);
   // if (isBot) {
