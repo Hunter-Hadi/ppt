@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { useEffect, useMemo, useRef } from 'react';
 import { atom, useRecoilState } from 'recoil';
@@ -18,6 +19,7 @@ const LandingABTestVariantKeyAtom = atom({
 });
 
 const useLandingABTester = () => {
+  const { isReady } = useRouter();
   const { t } = useTranslation();
   const sendMixpanelOnce = useRef(false);
 
@@ -45,7 +47,7 @@ const useLandingABTester = () => {
     }
   }, [variant]);
 
-  const loaded = useMemo(() => !!variant, [variant]);
+  const loaded = useMemo(() => isReady || !!variant, [variant, isReady]);
 
   const title = useMemo<React.ReactNode>(() => {
     if (variant) {
