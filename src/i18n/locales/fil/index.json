@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Magkasabay na sanggunian sa parehong wika",
     "home_page__features_carousel__feature_translator__description3": "Suporta sa 58 mga wika",
     "home_page__features_carousel__feature_translator__description4": "Isalin nang may 400% na mas mahusay na kalidad, tulad ng isang tao",
-    "home_page__features_carousel__cta_button__text": "I-install ang MaxAI nang libre",
+    "home_page__features_carousel__cta_button__text": "Idagdag sa {{BROWSER}} nang libre",
     "home_page__trusted_by__title": "Pinagkakatiwalaang mga negosyo at pamantasan sa buong mundo",
     "home_page__in_numbers__title": "Mga numero ng MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% privacy friendly",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Paano I-Rotate ang Mga Pahina sa PDF Online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "I-upload ang PDF na dokumento na nais mong i-rotate.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Pumili ng partikular na mga pahina para sa rotation o i-apply ang rotation sa lahat ng mga pahina.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "I-download ang iyong binagong PDF, kung saan ang mga pahina ay nasa tamang orientasyon na, handa para sa anumang gamit."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "I-download ang iyong binagong PDF, kung saan ang mga pahina ay nasa tamang orientasyon na, handa para sa anumang gamit.",
+    "home_page__hero_section__title__variant2__part1": "1-click AI sa lahat ng dako.",
+    "home_page__hero_section__title__variant2__part2": "Gawin ang mas marami sa mas kaunting oras.",
+    "home_page__hero_section__desc__variant2": "I-save ang oras at makakuha ng mas magandang mga resulta gamit ang AI chat, rewriter, summarizer, at instant reply. Pinapagana ng GPT-4o, Claude 3, at Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",

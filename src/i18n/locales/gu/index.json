@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "બે ભાષાઓ પર સમાનકાળીક સંદર્ભ",
     "home_page__features_carousel__feature_translator__description3": "58 ભાષાઓની આધારે સપોર્ટ કરે છે",
     "home_page__features_carousel__feature_translator__description4": "માણસની જેવી બેસ્ટ ગુણવત્તાને સાથે 400% સારી ક્વાલિટીથી અનુવાદ કરો",
-    "home_page__features_carousel__cta_button__text": "મફત માટે MaxAI ઇન્સ્ટોલ કરો",
+    "home_page__features_carousel__cta_button__text": "મફત માટે {{BROWSER}} ઉમેરો",
     "home_page__trusted_by__title": "વિશ્વભરમાં વ્યાપારો અને વિદ્યાપીઠો દ્વારા વિશ્વાસાર્હ",
     "home_page__in_numbers__title": "આંકડામાં MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% ગોપનીયતા મિત્રતાપૂર્ણ",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "પીડીએફ પૃષ્ઠો ઘૂમાવવાની રીત:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ઘૂમાવવા માંગેલી પીડીએફ દસ્તાવેજ અપલોડ કરો.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ઘૂમાવવા માટે ખાસ પૃષ્ઠો પસંદ કરો અથવા બધા પૃષ્ઠોને ઘૂમાવો.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "સાચી ઓરિએન્ટેશનમાં હવે તમારી સુધારેલી પીડીએફ ડાઉનલોડ કરો, જે કોઈપણ ઉપયોગ માટે તૈયાર છે."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "સાચી ઓરિએન્ટેશનમાં હવે તમારી સુધારેલી પીડીએફ ડાઉનલોડ કરો, જે કોઈપણ ઉપયોગ માટે તૈયાર છે.",
+    "home_page__hero_section__title__variant2__part1": "દરેક જગ્યાએ 1-ક્લિક AI.",
+    "home_page__hero_section__title__variant2__part2": "ઓછી સમયમાં વધુ કરો.",
+    "home_page__hero_section__desc__variant2": "AI ચેટ, રીવ્રાઇટર, સંગ્રહક અને તાત્કાલિક જવાબ સાથે સમય બચાવો અને શ્રેષ્ઠ પરિણામો મેળવો. GPT-4o, Claude 3 અને Gemini 1.5 દ્વારા પ્રાધાન્ય આપેલ."
   },
   "prompt_library": {
     "use_prompt_library__title": "ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી",

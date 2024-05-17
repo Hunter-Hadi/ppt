@@ -305,7 +305,7 @@
     "home_page__features_carousel__feature_translator__description2": "同时参考两种语言",
     "home_page__features_carousel__feature_translator__description3": "支持58种语言",
     "home_page__features_carousel__feature_translator__description4": "以与人类相同的400%更好的质量进行翻译",
-    "home_page__features_carousel__cta_button__text": "免费安装MaxAI",
+    "home_page__features_carousel__cta_button__text": "免费添加到{{BROWSER}}",
     "home_page__trusted_by__title": "全球企业和大学的首选",
     "home_page__in_numbers__title": "MaxAI的数字",
     "home_page__in_numbers__privacy_friendly__title": "100%注重隐私",
@@ -588,7 +588,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "如何在线旋转PDF页面：",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "上传要旋转的PDF文档。",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "选择要旋转的特定页面或将旋转应用于所有页面。",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下载已更改方向的PDF，准备进行任何使用。"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下载已更改方向的PDF，准备进行任何使用。",
+    "home_page__hero_section__title__variant2__part1": "随时随地的1键AI。",
+    "home_page__hero_section__title__variant2__part2": "更少时间做更多事情。",
+    "home_page__hero_section__desc__variant2": "通过AI聊天、重写器、摘要生成器和即时回复节省时间并获得更好的结果。由GPT-4o、Claude 3和Gemini 1.5提供支持。"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

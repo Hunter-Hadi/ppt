@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Simultano referenciranje oba jezika",
     "home_page__features_carousel__feature_translator__description3": "Podržava 58 jezika",
     "home_page__features_carousel__feature_translator__description4": "Prevedite s 400% boljom kvalitetom, baš kao što bi to učinio čovjek",
-    "home_page__features_carousel__cta_button__text": "Besplatno instalirajte MaxAI",
+    "home_page__features_carousel__cta_button__text": "Dodaj u {{BROWSER}} besplatno",
     "home_page__trusted_by__title": "Pouzdan od strane poslovnih subjekata i sveučilišta diljem svijeta",
     "home_page__in_numbers__title": "MaxAI u brojkama",
     "home_page__in_numbers__privacy_friendly__title": "100% prijateljski prema privatnosti",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kako rotirati stranice PDF-a online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Prenesite PDF dokument koji želite rotirati.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Odaberite određene stranice za rotaciju ili primijenite rotaciju na sve stranice.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Preuzmite izmijenjeni PDF, sada s ispravnom orijentacijom stranica, spreman za bilo koju upotrebu."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Preuzmite izmijenjeni PDF, sada s ispravnom orijentacijom stranica, spreman za bilo koju upotrebu.",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI svugdje.",
+    "home_page__hero_section__title__variant2__part2": "Učinite više u manje vremena.",
+    "home_page__hero_section__desc__variant2": "Uštedite vrijeme i postignite bolje rezultate s AI chatom, prepravljačem, sažetkom i trenutnim odgovorom. Pokreće GPT-4o, Claude 3 i Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Visokokvalitetna AI biblioteka uputa",

@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Referensi simultan ke kedua bahasa",
     "home_page__features_carousel__feature_translator__description3": "Mendukung 58 bahasa",
     "home_page__features_carousel__feature_translator__description4": "Terjemahkan dengan kualitas 400% lebih baik, seperti manusia",
-    "home_page__features_carousel__cta_button__text": "Pasang MaxAI secara gratis",
+    "home_page__features_carousel__cta_button__text": "Tambah ke {{BROWSER}} secara percuma",
     "home_page__trusted_by__title": "Dipercaya oleh bisnis dan universitas di seluruh dunia",
     "home_page__in_numbers__title": "MaxAI dalam angka",
     "home_page__in_numbers__privacy_friendly__title": "100% ramah privasi",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cara Memutar Halaman PDF Online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Unggah dokumen PDF yang ingin Anda putar.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Pilih halaman tertentu untuk diputar atau terapkan putaran ke semua halaman.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Unduh PDF yang telah Anda ubah, dengan halaman yang sekarang berada dalam orientasi yang benar, siap digunakan."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Unduh PDF yang telah Anda ubah, dengan halaman yang sekarang berada dalam orientasi yang benar, siap digunakan.",
+    "home_page__hero_section__title__variant2__part1": "AI dengan 1 klik di mana-mana.",
+    "home_page__hero_section__title__variant2__part2": "Lakukan lebih banyak dalam masa yang lebih singkat.",
+    "home_page__hero_section__desc__variant2": "Jimat masa dan dapatkan hasil yang lebih baik dengan perbualan AI, penulis semula, ringkasan, dan balasan segera. Dikuasakan oleh GPT-4o, Claude 3, dan Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",

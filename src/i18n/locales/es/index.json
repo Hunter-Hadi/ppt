@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Referencia simultánea a ambos idiomas",
     "home_page__features_carousel__feature_translator__description3": "Compatible con 58 idiomas",
     "home_page__features_carousel__feature_translator__description4": "Traduce con una calidad un 400% mejor, como lo haría un humano",
-    "home_page__features_carousel__cta_button__text": "Instala MaxAI gratis",
+    "home_page__features_carousel__cta_button__text": "Añadir a {{BROWSER}} de forma gratuita",
     "home_page__trusted_by__title": "Confiado por empresas y universidades de todo el mundo",
     "home_page__in_numbers__title": "MaxAI en números",
     "home_page__in_numbers__privacy_friendly__title": "100% respetuoso de la privacidad",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cómo girar páginas de PDF en línea:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Carga el documento PDF que deseas girar.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Selecciona las páginas específicas para girar o aplica la rotación a todas las páginas.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarga tu PDF modificado, con las páginas ahora en la orientación correcta, listo para cualquier uso."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarga tu PDF modificado, con las páginas ahora en la orientación correcta, listo para cualquier uso.",
+    "home_page__hero_section__title__variant2__part1": "AI en un clic en todas partes.",
+    "home_page__hero_section__title__variant2__part2": "Haz más en menos tiempo.",
+    "home_page__hero_section__desc__variant2": "Ahorra tiempo y obtén mejores resultados con chat de IA, reescritor, resumidor y respuesta instantánea. Potenciado por GPT-4o, Claude 3 y Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",

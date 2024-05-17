@@ -84,7 +84,8 @@
     "pdf_tools__detail_description_object__sign_pdf__bottom_right_description_4": "Κάντε κλικ για να κατεβάσετε το υπογεγραμμένο PDF σας τώρα, όλα είναι έτοιμα και ασφαλή.",
     "home_page__features_carousel__feature_art__description3": "Απλό, ισχυρό, μετασχηματιστικό",
     "home_page__features_carousel__feature_art__description4": "Περισσότερα προηγμένα μοντέλα τέχνης AI και χαρακτηριστικά σύντομα διαθέσιμα",
-    "home_page__features_carousel__feature_prompts__description1": "Βιβλιοθήκη AI προτροπών"
+    "home_page__features_carousel__feature_prompts__description1": "Βιβλιοθήκη AI προτροπών",
+    "home_page__features_carousel__cta_button__text": "Προσθήκη στο {{BROWSER}} δωρεάν"
   },
   "prompt_library": {
     "use_prompt_library__title": "Βιβλιοθήκη προτροπών υψηλής ποιότητας AI",

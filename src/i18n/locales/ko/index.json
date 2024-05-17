@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "양 언어 동시 참조",
     "home_page__features_carousel__feature_translator__description3": "58개 언어 지원",
     "home_page__features_carousel__feature_translator__description4": "인간과 같은 400% 더 나은 품질로 번역",
-    "home_page__features_carousel__cta_button__text": "무료로 MaxAI 설치",
+    "home_page__features_carousel__cta_button__text": "무료로 {{BROWSER}}에 추가",
     "home_page__trusted_by__title": "비즈니스 및 대학에서 신뢰하는 서비스",
     "home_page__in_numbers__title": "MaxAI 통계",
     "home_page__in_numbers__privacy_friendly__title": "100% 개인정보 보호",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "온라인에서 PDF 페이지 회전하는 방법:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "회전시킬 PDF 문서를 업로드하세요.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "특정 페이지를 선택하여 회전하거나 모든 페이지에 회전을 적용하세요.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "방향이 올바르게 조정된 수정된 PDF를 다운로드하여 어떤 용도로든 사용할 수 있습니다."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "방향이 올바르게 조정된 수정된 PDF를 다운로드하여 어떤 용도로든 사용할 수 있습니다.",
+    "home_page__hero_section__title__variant2__part1": "1-클릭 AI 어디서나.",
+    "home_page__hero_section__title__variant2__part2": "더 적은 시간에 더 많은 일을 하세요.",
+    "home_page__hero_section__desc__variant2": "AI 채팅, 리라이터, 요약 및 즉각적인 답변으로 시간을 절약하고 더 나은 결과를 얻으세요. GPT-4o, Claude 3 및 Gemini 1.5의 도움을 받습니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",

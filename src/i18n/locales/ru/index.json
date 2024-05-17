@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Одновременное сравнение обоих языков",
     "home_page__features_carousel__feature_translator__description3": "Поддерживает 58 языков",
     "home_page__features_carousel__feature_translator__description4": "Перевод с качеством на 400% лучше, как если бы делал человек",
-    "home_page__features_carousel__cta_button__text": "Установите MaxAI бесплатно",
+    "home_page__features_carousel__cta_button__text": "Добавить в {{BROWSER}} бесплатно",
     "home_page__trusted_by__title": "Доверяют бизнесы и университеты по всему миру",
     "home_page__in_numbers__title": "MaxAI в цифрах",
     "home_page__in_numbers__privacy_friendly__title": "100% дружественный к конфиденциальности",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Как повернуть страницы PDF онлайн:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Загрузите PDF-документ, который вы хотите повернуть.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Выберите конкретные страницы для поворота или примените поворот ко всем страницам.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Загрузите измененный PDF с правильной ориентацией страниц, готовый к использованию."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Загрузите измененный PDF с правильной ориентацией страниц, готовый к использованию.",
+    "home_page__hero_section__title__variant2__part1": "Искусственный интеллект всего в один клик.",
+    "home_page__hero_section__title__variant2__part2": "Делайте больше за меньшее время.",
+    "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",

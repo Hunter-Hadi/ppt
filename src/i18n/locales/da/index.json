@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Samtidig reference til begge sprog",
     "home_page__features_carousel__feature_translator__description3": "Understøtter 58 sprog",
     "home_page__features_carousel__feature_translator__description4": "Oversæt med 400% bedre kvalitet, præcis som et menneske ville gøre",
-    "home_page__features_carousel__cta_button__text": "Installer MaxAI gratis",
+    "home_page__features_carousel__cta_button__text": "Tilføj til {{BROWSER}} gratis",
     "home_page__trusted_by__title": "Stoler på af virksomheder og universiteter over hele verden",
     "home_page__in_numbers__title": "MaxAI i tal",
     "home_page__in_numbers__privacy_friendly__title": "100% privatlivsvenlig",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Sådan roteres PDF-sider online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Upload det PDF-dokument, du ønsker at rotere.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Vælg specifikke sider til rotation eller anvend rotationen på alle sider.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download din ændrede PDF, hvor siderne nu har den korrekte orientering, klar til enhver brug."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download din ændrede PDF, hvor siderne nu har den korrekte orientering, klar til enhver brug.",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI overalt.",
+    "home_page__hero_section__title__variant2__part2": "Gør mere på kortere tid.",
+    "home_page__hero_section__desc__variant2": "Spar tid og få bedre resultater med AI-chat, omskriver, opsummering og øjeblikkelig svar. Drevet af GPT-4o, Claude 3 og Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",

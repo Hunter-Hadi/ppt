@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Tham khảo đồng thời hai ngôn ngữ",
     "home_page__features_carousel__feature_translator__description3": "Hỗ trợ 58 ngôn ngữ",
     "home_page__features_carousel__feature_translator__description4": "Dịch với chất lượng tốt hơn 400%, giống như con người",
-    "home_page__features_carousel__cta_button__text": "Cài đặt MaxAI miễn phí",
+    "home_page__features_carousel__cta_button__text": "Thêm vào {{BROWSER}} miễn phí",
     "home_page__trusted_by__title": "Được tin tưởng bởi các doanh nghiệp và trường đại học trên toàn thế giới",
     "home_page__in_numbers__title": "MaxAI trong số liệu",
     "home_page__in_numbers__privacy_friendly__title": "100% tôn trọng quyền riêng tư",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Cách Xoay Trang PDF Trực Tuyến:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Tải lên tài liệu PDF bạn muốn xoay.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Chọn các trang cụ thể để xoay hoặc áp dụng xoay cho tất cả các trang.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Tải xuống PDF đã được chỉnh sửa của bạn, với các trang hiện đã có hướng đúng, sẵn sàng cho bất kỳ mục đích nào."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Tải xuống PDF đã được chỉnh sửa của bạn, với các trang hiện đã có hướng đúng, sẵn sàng cho bất kỳ mục đích nào.",
+    "home_page__hero_section__title__variant2__part1": "AI một cú nhấp chuột khắp mọi nơi.",
+    "home_page__hero_section__title__variant2__part2": "Làm nhiều hơn trong thời gian ngắn hơn.",
+    "home_page__hero_section__desc__variant2": "Tiết kiệm thời gian và đạt được kết quả tốt hơn với trò chuyện AI, công cụ viết lại, tóm tắt và phản hồi tức thì. Được cung cấp bởi GPT-4o, Claude 3 và Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",

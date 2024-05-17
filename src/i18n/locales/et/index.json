@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Mõlema keele samaaegne viitamine",
     "home_page__features_carousel__feature_translator__description3": "Toetab 58 keelt",
     "home_page__features_carousel__feature_translator__description4": "Tõlgib 400% parema kvaliteediga, nagu inimene seda teeks",
-    "home_page__features_carousel__cta_button__text": "Installi MaxAI tasuta",
+    "home_page__features_carousel__cta_button__text": "Lisa tasuta {{BROWSER}}-i",
     "home_page__trusted_by__title": "Usaldavad ettevõtted ja ülikoolid üle maailma",
     "home_page__in_numbers__title": "MaxAI numbrites",
     "home_page__in_numbers__privacy_friendly__title": "100% privaatsussõbralik",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kuidas pöörata PDF-lehti veebis:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Laadige üles PDF-dokument, mida soovite pöörata.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Valige lehed, mida soovite pöörata, või rakendage pööramine kõigile lehtedele.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Laadige alla muudetud PDF, kus lehed on nüüd õiges orientatsioonis ja valmis igaks kasutamiseks."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Laadige alla muudetud PDF, kus lehed on nüüd õiges orientatsioonis ja valmis igaks kasutamiseks.",
+    "home_page__hero_section__title__variant2__part1": "1-klikk AI kõikjal.",
+    "home_page__hero_section__title__variant2__part2": "Tee rohkem vähema ajaga.",
+    "home_page__hero_section__desc__variant2": "Säästa aega ja saa paremaid tulemusi AI vestluse, ümberkirjutaja, kokkuvõtja ja kiire vastuse abil. Töötab GPT-4o, Claude 3 ja Gemini 1.5 poolt."
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",

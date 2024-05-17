@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "दोनों भाषाओं के संदर्भ में समयगत अनुवाद",
     "home_page__features_carousel__feature_translator__description3": "58 भाषाओं का समर्थन",
     "home_page__features_carousel__feature_translator__description4": "मानव जैसी 400% बेहतर गुणवत्ता के साथ अनुवाद करें",
-    "home_page__features_carousel__cta_button__text": "मुफ्त मेक्सएआई स्थापित करें",
+    "home_page__features_carousel__cta_button__text": "मुफ्त में {{BROWSER}} में जोड़ें",
     "home_page__trusted_by__title": "विश्व भर के व्यापार और विश्वविद्यालयों द्वारा विश्वसनीय",
     "home_page__in_numbers__title": "मेक्सएआई आंकड़ों में",
     "home_page__in_numbers__privacy_friendly__title": "100% गोपनीयता योग्य",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "पीडीएफ पृष्ठों को घुमाने का तरीका ऑनलाइन:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "घुमाने के लिए पीडीएफ दस्तावेज़ अपलोड करें।",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "घुमाने के लिए विशिष्ट पृष्ठों का चयन करें या सभी पृष्ठों पर घुमाना लागू करें।",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "अपने संशोधित पीडीएफ को डाउनलोड करें, जहां पृष्ठ अब सही ओरिएंटेशन में होंगे, किसी भी उपयोग के लिए तैयार।"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "अपने संशोधित पीडीएफ को डाउनलोड करें, जहां पृष्ठ अब सही ओरिएंटेशन में होंगे, किसी भी उपयोग के लिए तैयार।",
+    "home_page__hero_section__title__variant2__part1": "एक क्लिक में AI हर जगह।",
+    "home_page__hero_section__title__variant2__part2": "कम समय में अधिक करें।",
+    "home_page__hero_section__desc__variant2": "AI चैट, पुनर्लेखक, संक्षेपक और तत्काल जवाब के साथ समय बचाएं और बेहतर परिणाम प्राप्त करें। GPT-4o, Claude 3 और Gemini 1.5 द्वारा संचालित।"
   },
   "prompt_library": {
     "use_prompt_library__title": "उच्च गुणवत्ता वाली AI प्रॉम्प्ट पुस्तकालय",

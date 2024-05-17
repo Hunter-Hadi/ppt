@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "இரண்டு மொழிகளுக்கும் ஒன்றிணைவு",
     "home_page__features_carousel__feature_translator__description3": "58 மொழிகளை ஆதரிக்கிறது",
     "home_page__features_carousel__feature_translator__description4": "மனிதர் போன்ற அளவுக்கு 400% சிறந்த தரத்தில் மொழிபெயர்க்குக",
-    "home_page__features_carousel__cta_button__text": "இலவசமாக MaxAI நிறுவுக",
+    "home_page__features_carousel__cta_button__text": "இலவசமாக {{BROWSER}} க்கு சேர்க்கவும்",
     "home_page__trusted_by__title": "உலகின் வணிகங்கள் மற்றும் பல்வேறு பல்கலைகளால் நம்பப்படுகின்றன",
     "home_page__in_numbers__title": "MaxAI எண்களில்",
     "home_page__in_numbers__privacy_friendly__title": "100% தனியுரிமை அனுபவம்",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "பி.டி.எப் பக்கங்களை எப்படி திரும்பப்போக்குவது:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "திரும்பப்போக்க விரும்பும் பி.டி.எப்பு ஆவணத்தை பதிவேற்றுக.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "திரும்பப்போக்கத்தை அனைத்து பக்கங்களுக்கும் அல்லது சிறந்த பக்கங்களுக்கு பயன்படுத்துக.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "உங்கள் மாற்றப்பட்ட பி.டி.எப்பைப் பதிவிறக்கம் செய்யுங்கள், இப்போது சரியான நிலையில் உள்ளது, எந்த பயனுக்கும் தயார்."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "உங்கள் மாற்றப்பட்ட பி.டி.எப்பைப் பதிவிறக்கம் செய்யுங்கள், இப்போது சரியான நிலையில் உள்ளது, எந்த பயனுக்கும் தயார்.",
+    "home_page__hero_section__title__variant2__part1": "ஒரு கிளிக் மூலம் அனைவருக்கும் AI.",
+    "home_page__hero_section__title__variant2__part2": "குறைந்த நேரத்தில் மேலும் செய்யுங்கள்.",
+    "home_page__hero_section__desc__variant2": "AI அரட்டை, மீள்பார்ப்புக்கான மொழிபெயர்ப்பு, சுருக்கப்படுத்துபவர் மற்றும் உடனடியாக பதிலளிக்கும் மூலம் நேரம் சேமிக்கலாம். GPT-4o, Claude 3 மற்றும் Gemini 1.5 ஆல் இயங்குகின்றன."
   },
   "prompt_library": {
     "use_prompt_library__title": "உயர் தரமான AI புத்தக நூலகம்",

@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "دونوں زبانوں کا متزامن حوالہ",
     "home_page__features_carousel__feature_translator__description3": "58 زبانوں کی حمایت",
     "home_page__features_carousel__feature_translator__description4": "400 فیصد بہتر کوالٹی کے ساتھ ترجمہ کریں، بالکل ایک انسان کی طرح",
-    "home_page__features_carousel__cta_button__text": "مفت میکس اے آئی انسٹال کریں",
+    "home_page__features_carousel__cta_button__text": "مفت کے لئے {{BROWSER}} میں شامل کریں",
     "home_page__trusted_by__title": "دنیا بھر کے کاروبار اور یونیورسٹیز کی طرف سے اعتماد کیا جاتا ہے",
     "home_page__in_numbers__title": "میکس اے آئی کی تعداد میں",
     "home_page__in_numbers__privacy_friendly__title": "100 فیصد پرائیویسی دوستانہ",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "آن لائن PDF صفحات گھمانے کا طریقہ:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "گھمانے کے لئے PDF دستاویز کو اپ لوڈ کریں۔",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "مخصوص صفحات کو گھمانے کے لئے منتخب کریں یا تمام صفحات پر گھمائیں۔",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "درست رخ والے صفحات کے ساتھ اپنے ترمیم شدہ PDF کو ڈاؤن لوڈ کریں، جو کسی بھی استعمال کے لئے تیار ہو۔"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "درست رخ والے صفحات کے ساتھ اپنے ترمیم شدہ PDF کو ڈاؤن لوڈ کریں، جو کسی بھی استعمال کے لئے تیار ہو۔",
+    "home_page__hero_section__title__variant2__part1": "۱-کلکشن AI ہر جگہ.",
+    "home_page__hero_section__title__variant2__part2": "کم وقت میں زیادہ کام کریں.",
+    "home_page__hero_section__desc__variant2": "AI چیٹ، ری رائٹر، سمارائزر اور فوری جواب کے ساتھ وقت بچاؤ اور بہتر نتائج حاصل کریں. GPT-4o، Claude 3 اور Gemini 1.5 کی طاقت سے محرک."
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
