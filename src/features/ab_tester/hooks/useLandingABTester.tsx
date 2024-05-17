@@ -1,5 +1,5 @@
 import { useTranslation } from 'next-i18next';
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { atom, useRecoilState } from 'recoil';
 
 import {
@@ -7,6 +7,7 @@ import {
   LANDING_VARIANT,
   TEST_LANDING_COOKIE_NAME,
 } from '@/features/ab_tester/constant/landingVariant';
+import { mixpanelTrack } from '@/features/mixpanel/utils';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 const LandingABTestVariantKeyAtom = atom({
@@ -16,8 +17,21 @@ const LandingABTestVariantKeyAtom = atom({
 
 const useLandingABTester = () => {
   const { t } = useTranslation();
+  const sendMixpanelOnce = useRef(false);
 
   const [variant, setVariant] = useRecoilState(LandingABTestVariantKeyAtom);
+
+  useEffect(() => {
+    if (sendMixpanelOnce.current) {
+      return;
+    }
+    if (variant) {
+      sendMixpanelOnce.current = true;
+      mixpanelTrack('test_page_viewed', {
+        testVersion: variant,
+      });
+    }
+  }, [variant]);
 
   useEffect(() => {
     if (!variant) {
@@ -31,7 +45,7 @@ const useLandingABTester = () => {
 
   const loaded = useMemo(() => !!variant, [variant]);
 
-  const title = useMemo<React.ReactNode | null>(() => {
+  const title = useMemo<React.ReactNode>(() => {
     if (variant) {
       if (variant.includes('title1')) {
         return null;
@@ -51,7 +65,7 @@ const useLandingABTester = () => {
     }
   }, [variant, t]);
 
-  const description = useMemo<React.ReactNode | null>(() => {
+  const description = useMemo<React.ReactNode>(() => {
     if (variant) {
       if (variant.includes('desc1')) {
         return null;
@@ -67,6 +81,7 @@ const useLandingABTester = () => {
 
   return {
     variant,
+    setVariant,
     loaded,
     title,
     description,

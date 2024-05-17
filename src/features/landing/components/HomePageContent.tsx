@@ -20,7 +20,7 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
   const { isReady, asPath } = useRouter();
 
   const {
-    // variant,
+    variant,
     loaded,
     title,
     description,
@@ -40,7 +40,8 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
 
   return (
     <Stack color='text.primary'>
-      {/* <h1>variant: {variant}</h1> */}
+      <h1>variant: {variant}</h1>
+      <h1>loaded: {`${loaded}`}</h1>
       {/* heroSection */}
       <HeroSection
         propRef={propRef}
