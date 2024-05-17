@@ -54,15 +54,6 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
     IFunctionalityPdfFileInfoType[]
   >([]); //展示的pdf信息 列表
 
-  useEffect(() => {
-    if (isReadFile.current) {
-      return;
-    }
-    isReadFile.current = true;
-    if (fileList) {
-      onUploadFile(fileList, true);
-    }
-  }, [fileList]);
   const onUploadFile = async (fileList: FileList, isEmptyClose?: boolean) => {
     setIsLoading(true);
     const newFileList = await getPdfFileInfoList(fileList);
@@ -73,6 +64,15 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
       onRemoveFile();
     }
   };
+  useEffect(() => {
+    if (isReadFile.current) {
+      return;
+    }
+    isReadFile.current = true;
+    if (fileList) {
+      onUploadFile(fileList, true);
+    }
+  }, [fileList]);
   /**
    * 获取pdf的第一页作为图片
    */

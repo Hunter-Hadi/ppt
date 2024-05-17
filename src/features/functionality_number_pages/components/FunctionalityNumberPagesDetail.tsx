@@ -124,7 +124,6 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
   };
   const onAddPagesNumberAndDownload = useCallback(async () => {
     // 开发Test默认bottom
-    if (!file) return;
     try {
       setIsLoading(true);
       const buff = await file.arrayBuffer(); // Uint8Array
@@ -132,7 +131,7 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
       for (var index = 0; index < pdfDocument.getPages().length; index++) {
         const page = pdfDocument.getPage(index);
         const { width, height } = page.getSize();
-        const fontSize = 13;
+        const fontSize = 12;
         const textWidth = startNumberValue.toString().length * (fontSize / 1.8); //大概的计算文本的宽度
         let x = 50,
           y = 0;

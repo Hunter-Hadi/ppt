@@ -1,6 +1,7 @@
-import { CircularProgress, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
 import React, { lazy, Suspense, useState } from 'react';
 
+import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 
 const FunctionalityOcrPdfDetail = lazy(
@@ -37,7 +38,7 @@ const FunctionalityOcrPdfMain = () => {
         />
       )}
       {file && (
-        <Suspense fallback={<CircularProgress size={26} />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityOcrPdfDetail
             file={file}
             onRemoveFile={() => setFile(null)}

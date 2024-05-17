@@ -58,72 +58,64 @@ const FunctionalityCompressPdfDetail: FC<IFunctionalityCompressPdfDetail> = ({
   };
   const onCompressPdf = async () => {
     try {
-      if (file) {
-        setPdfSizeDiff(undefined);
-        setIsLoading(true);
-        const pdfData = await file.arrayBuffer();
-        try {
-          const doc = await PDFDocument.load(pdfData!);
+      setPdfSizeDiff(undefined);
+      setIsLoading(true);
+      const pdfData = await file.arrayBuffer();
+      try {
+        const doc = await PDFDocument.load(pdfData!);
 
-          compressPdfStreams(doc);
+        compressPdfStreams(doc);
 
-          const docImages = getPdfLibImages(doc);
-          for (let index = 0; index < docImages.length; index++) {
-            const image = docImages[index];
+        const docImages = getPdfLibImages(doc);
+        for (let index = 0; index < docImages.length; index++) {
+          const image = docImages[index];
 
-            if (!image.isAlphaLayer) {
-              const arr =
-                image.type === 'png'
-                  ? await createPngFromPdf(image)
-                  : image.data;
-              const imageDocument = uInt8ArrayToImage(
-                arr,
-                `image/${image.type}`,
-              );
-              let quality = 0.85;
-              if (compressionGrade === 'strong') {
-                quality = 0.1;
-              } else if (compressionGrade === 'basic') {
-                quality = 0.5;
-              }
-              const newData = await imageToUint8Array({
-                imageDocument,
-                type: 'image/jpeg',
-                quality,
-              });
+          if (!image.isAlphaLayer) {
+            const arr =
+              image.type === 'png' ? await createPngFromPdf(image) : image.data;
+            const imageDocument = uInt8ArrayToImage(arr, `image/${image.type}`);
+            let quality = 0.85;
+            if (compressionGrade === 'strong') {
+              quality = 0.1;
+            } else if (compressionGrade === 'basic') {
+              quality = 0.5;
+            }
+            const newData = await imageToUint8Array({
+              imageDocument,
+              type: 'image/jpeg',
+              quality,
+            });
 
-              if (image.type === 'png') {
-                pdfPngToJpeg(image.pdfObject, newData);
-              } else {
-                (image.pdfObject as { contents: Uint8Array }).contents =
-                  newData;
-              }
+            if (image.type === 'png') {
+              pdfPngToJpeg(image.pdfObject, newData);
+            } else {
+              (image.pdfObject as { contents: Uint8Array }).contents = newData;
             }
           }
-
-          const bytes = await doc!.save();
-
-          if (bytes.byteLength > pdfData!.byteLength) {
-            //转检查，如果大于之前的，则下载原始文件
-            //因为图片会重新编码，导致概率可能会变大
-            const blob = new Blob([pdfData], { type: 'application/pdf' });
-            setPdfSizeDiff({
-              before: pdfData!.byteLength,
-              after: pdfData.byteLength,
-            });
-            onDownload(blob);
-          } else {
-            const blob = new Blob([bytes], { type: 'application/pdf' });
-            setPdfSizeDiff({
-              before: pdfData!.byteLength,
-              after: bytes.byteLength,
-            });
-            onDownload(blob);
-          }
-          setIsLoading(false);
-        } catch (err) {
-          console.warn(err);
         }
+
+        const bytes = await doc!.save();
+
+        if (bytes.byteLength > pdfData!.byteLength) {
+          //转检查，如果大于之前的，则下载原始文件
+          //因为图片会重新编码，导致概率可能会变大
+          const blob = new Blob([pdfData], { type: 'application/pdf' });
+          setPdfSizeDiff({
+            before: pdfData!.byteLength,
+            after: pdfData.byteLength,
+          });
+          onDownload(blob);
+        } else {
+          const blob = new Blob([bytes], { type: 'application/pdf' });
+          setPdfSizeDiff({
+            before: pdfData!.byteLength,
+            after: bytes.byteLength,
+          });
+          onDownload(blob);
+        }
+        setIsLoading(false);
+      } catch (err) {
+        console.warn(err);
       }
     } catch (e) {
       setIsLoading(false);
@@ -136,7 +128,7 @@ const FunctionalityCompressPdfDetail: FC<IFunctionalityCompressPdfDetail> = ({
     }
   };
   const onDownload = (blobUrl: Blob) => {
-    if (blobUrl && file) {
+    if (blobUrl) {
       const fileName = functionalityCommonFileNameRemoveAndAddExtension(
         file.name,
       );

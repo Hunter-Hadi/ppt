@@ -130,6 +130,7 @@ const UploadButton: FC<
         onChange={(event) =>
           event.target.files && onChangeFiles(event.target.files)
         }
+        title='' //去掉鼠标移动过去显示的 未选择任何文件
         {...inputProps}
       />
     </Button>

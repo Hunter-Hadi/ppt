@@ -1,6 +1,7 @@
-import { CircularProgress, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
 import React, { lazy, Suspense, useState } from 'react';
 
+import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 
 const FunctionalityNumberPagesDetail = lazy(
@@ -37,7 +38,7 @@ const FunctionalityNumberPagesMain = () => {
         />
       )}
       {file && (
-        <Suspense fallback={<CircularProgress size={26} />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityNumberPagesDetail
             file={file}
             onRemoveFile={() => setFile(null)}

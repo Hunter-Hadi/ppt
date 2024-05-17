@@ -1,7 +1,8 @@
-import { CircularProgress, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, lazy, Suspense, useState } from 'react';
 
+import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
@@ -52,7 +53,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         />
       )}
       {fileList && (
-        <Suspense fallback={<CircularProgress size={26} />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityImageToPdfDetail
             fileList={fileList}
             accept={accept}
