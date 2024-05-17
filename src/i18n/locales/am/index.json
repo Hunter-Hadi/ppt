@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-ጁልክ AI በሩቅ,",
     "home_page__hero_section__title__part2": "ቀጥል ጊዜ,",
     "home_page__hero_section__title__part3": "የግል ዓይነት.",
-    "home_page__hero_section__desc": "በግል የእርስዎን ማስተላለፊያ ያግኙን AI በመጠቀም 1-ከክህ ሰዓት በቀላሉ ሳለት ለሁሉም ቀን የተሰራውን ቦታ ይጠቀሙ። በ ChatGPT, Claude 3, Gemini 1.5, GPT-4, እና ተጨባጭ ሌሎች ተሳታፊዎች ማስተላለፊያ ይጠቀሙ።",
+    "home_page__hero_section__desc": "በግል የእርስዎን በአንድ ከአንድ አማራጭ ሲሆን ሰውነታችንን በመቀጠል ሰውነታችንን በቀላሉ ለማግኘት ሁሉም ቀናት በሚገባቸው ChatGPT, Claude 3, Gemini 1.5, GPT-4o እና በተጨማሪ ስራ ላይ የሚሰራ ነው.",
     "home_page__user_comment__title": "ስለ MaxAI የተወደደ",
     "home_page__call_to_action__title": "ነሺ በነፃ ጀምር",
     "home_page__call_to_action__sub_title": "በግልጽ 1-ጁንን ማሳወቅ ያስፈልጋል በሰዓት በመታወቂያ የሚገኝ እናትና ቢሮችን ይጠቀሙልን።",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "የሁሉም ቋንቋዎችን በአንድ ጥቂት የሚሳልፈው",
     "home_page__features_carousel__feature_translator__description3": "58 ቋንቋዎችን ይጠቀማል",
     "home_page__features_carousel__feature_translator__description4": "በሜይን የሚያስተላለፉ 400% የሚሰራ በተጨማሪ የማስተላለፊያ ጥቅም መልክት",
-    "home_page__features_carousel__cta_button__text": "በነፃ ይግቡ MaxAI",
+    "home_page__features_carousel__cta_button__text": "በ{{BROWSER}} ለነፃ ጨምር",
     "home_page__trusted_by__title": "በድርጅቱ እና የዩኒቨርሲቲዎች በተለመደ",
     "home_page__in_numbers__title": "MaxAI በቁጥጥር ውስጥ",
     "home_page__in_numbers__privacy_friendly__title": "100% ግል የሚያስታወቀው",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "የፕድፊን ገጽ መጠቀም እንዴት እንደሚጠቀም ይመልከቱ:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "የሚጠቀሙ ፕድፊን ማዘጋጀት የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ።",
+    "home_page__hero_section__title__variant2__part1": "አንድ-ጊዜ AI በማስተላለፍ ሁሉም ጥቅም ይሆናል።",
+    "home_page__hero_section__title__variant2__part2": "በቀጥታ በጣም በመረጃ በቀን አድርጎ እያለን ነው።",
+    "home_page__hero_section__desc__variant2": "ጥቅም ለጥቅም እንዲሁም በAI የተጠቀሙ የውሂብ ግለሰቦች, የውሂብ ዝርዝር, የውሂብ ማግኘት, እና የቀጥታ መልዕክቶች ይቀጥላል። GPT-4o, Claude 3, እና Gemini 1.5 ተጠቀሙ።"
   },
   "prompt_library": {
     "use_prompt_library__title": "የልማት የሚጠቀሙ የሳምንት መልእክት",

@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "AI בלחיצה אחת,",
     "home_page__hero_section__title__part2": "פחות זמן,",
     "home_page__hero_section__title__part3": "תוצאות טובות יותר.",
-    "home_page__hero_section__desc": "השתמש באינטיליגנציה מלאה בלחיצה אחת בכל מקום כדי לחסוך שעות כל יום. מופעל על ידי ChatGPT, Claude 3, Gemini 1.5, GPT-4 ועוד.",
+    "home_page__hero_section__desc": "השתמש באינטיליגנציה מלאה בלחיצה אחת בכל מקום כדי לחסוך שעות כל יום. מופעל על ידי ChatGPT, Claude 3, Gemini 1.5, GPT-4o ועוד.",
     "home_page__user_comment__title": "הם אוהבים את MaxAI",
     "home_page__call_to_action__title": "התחל בחינם",
     "home_page__call_to_action__sub_title": "השתמש באינטיליגנציה מלאה בלחיצה אחת בכל מקום כדי לחסוך שעות כל יום.",
@@ -295,7 +295,7 @@
     "home_page__features_carousel__feature_translator__description2": "התייחסות מקבילה לשני השפות",
     "home_page__features_carousel__feature_translator__description3": "תומך ב-58 שפות",
     "home_page__features_carousel__feature_translator__description4": "תרגם באיכות 400% טובה יותר, בדיוק כמו בני אדם",
-    "home_page__features_carousel__cta_button__text": "התקן את MaxAI בחינם",
+    "home_page__features_carousel__cta_button__text": "הוסף ל{{BROWSER}} בחינם",
     "home_page__trusted_by__title": "נבחר על ידי עסקים ואוניברסיטאות ברחבי העולם",
     "home_page__in_numbers__title": "MaxAI במספרים",
     "home_page__in_numbers__privacy_friendly__title": "100% ידידותי לפרטיות",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "איך להטות עמודי PDF באופן מקוון:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "העלה את המסמך של PDF שברצונך להטות.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "בחר עמודים ספציפיים להטיה או החל את ההטיה על כל העמודים.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "הורד את ה-PDF ששונה, כאשר העמודים כעת בכיוון הנכון, מוכן לשימוש."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "הורד את ה-PDF ששונה, כאשר העמודים כעת בכיוון הנכון, מוכן לשימוש.",
+    "home_page__hero_section__title__variant2__part1": "AI בלחיצה אחת בכל מקום.",
+    "home_page__hero_section__title__variant2__part2": "עשה יותר בפחות זמן.",
+    "home_page__hero_section__desc__variant2": "חסוך זמן וקבל תוצאות טובות יותר עם צ'אט AI, מחדד, סיכום ותשובה מיידית. מופעל על ידי GPT-4o, Claude 3 ו-Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",

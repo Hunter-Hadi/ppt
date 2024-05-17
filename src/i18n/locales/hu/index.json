@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1 kattintásos AI bárhol,",
     "home_page__hero_section__title__part2": "Kevesebb idő,",
     "home_page__hero_section__title__part3": "Jobb eredmények.",
-    "home_page__hero_section__desc": "Használjon személyre szabott 1 kattintásos mesterséges intelligenciát bárhol, hogy órákat takarítson meg minden nap. ChatGPT, Claude 3, Gemini 1.5, GPT-4 és még több által hajtva.",
+    "home_page__hero_section__desc": "Használjon személyre szabott 1 kattintásos AI-t bárhol, hogy órákat takarítson meg minden nap. ChatGPT, Claude 3, Gemini 1.5, GPT-4o és még sok más által támogatva.",
     "home_page__user_comment__title": "Szeretik a MaxAI-t",
     "home_page__call_to_action__title": "Ingyenes regisztráció",
     "home_page__call_to_action__sub_title": "Használj személyre szabott 1-kattintásos AI-t bárhol, hogy órákat spórolj minden nap.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Egyszerre történő hivatkozás mindkét nyelvre",
     "home_page__features_carousel__feature_translator__description3": "58 nyelvet támogat",
     "home_page__features_carousel__feature_translator__description4": "400%-kal jobb minőségű fordítás, olyan, mint egy emberi fordítás",
-    "home_page__features_carousel__cta_button__text": "MaxAI ingyen telepítése",
+    "home_page__features_carousel__cta_button__text": "Hozzáadás ingyen a {{BROWSER}}-hoz",
     "home_page__trusted_by__title": "Vállalkozások és egyetemek bizalmában világszerte",
     "home_page__in_numbers__title": "MaxAI számai",
     "home_page__in_numbers__privacy_friendly__title": "100% adatvédelem",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Hogyan forgathatók PDF-oldalak online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Töltse fel a forgatni kívánt PDF-dokumentumot.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Válassza ki az oldalakat a forgatáshoz, vagy alkalmazza a forgatást az összes oldalra.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Töltse le módosított PDF-jét, amelyben az oldalak már a megfelelő irányban vannak, bármilyen felhasználásra készen."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Töltse le módosított PDF-jét, amelyben az oldalak már a megfelelő irányban vannak, bármilyen felhasználásra készen.",
+    "home_page__hero_section__title__variant2__part1": "1 kattintásos AI mindenhol.",
+    "home_page__hero_section__title__variant2__part2": "Többet végezzen kevesebb idő alatt.",
+    "home_page__hero_section__desc__variant2": "Mentse el az időt és érjen el jobb eredményeket az AI chat, átíró, összefoglaló és azonnali válasz segítségével. GPT-4o, Claude 3 és Gemini 1.5 által támogatva."
   },
   "prompt_library": {
     "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",

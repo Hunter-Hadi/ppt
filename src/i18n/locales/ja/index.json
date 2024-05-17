@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1クリックAI、",
     "home_page__hero_section__title__part2": "時間短縮、",
     "home_page__hero_section__title__part3": "より良い結果。",
-    "home_page__hero_section__desc": "毎日数時間を節約するために、どこでもパーソナライズされた1クリックAIを使用してください。ChatGPT、Claude 3、Gemini 1.5、GPT-4などのパワーで動作します。",
+    "home_page__hero_section__desc": "毎日数時間を節約するために、どこでもパーソナライズされた1クリックAIを使用してください。ChatGPT、Claude 3、Gemini 1.5、GPT-4oなどで動作します。",
     "home_page__user_comment__title": "MaxAIが大好きです",
     "home_page__call_to_action__title": "無料で始める",
     "home_page__call_to_action__sub_title": "毎日数時間を節約するために、どこでもパーソナライズされた1クリックAIを使用してください。",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "両言語の同時参照",
     "home_page__features_carousel__feature_translator__description3": "58の言語をサポート",
     "home_page__features_carousel__feature_translator__description4": "人間と同じ品質で400%優れた翻訳",
-    "home_page__features_carousel__cta_button__text": "無料でMaxAIをインストール",
+    "home_page__features_carousel__cta_button__text": "無料で{{BROWSER}}に追加",
     "home_page__trusted_by__title": "世界中の企業や大学に信頼されています",
     "home_page__in_numbers__title": "MaxAIの数字",
     "home_page__in_numbers__privacy_friendly__title": "100%プライバシーに配慮",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "オンラインでPDFページを回転する方法：",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "回転させたいPDFドキュメントをアップロードします。",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "特定のページを回転させるか、すべてのページに回転を適用します。",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "正しい向きのページで修正されたPDFをダウンロードします。"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "正しい向きのページで修正されたPDFをダウンロードします。",
+    "home_page__hero_section__title__variant2__part1": "どこでも1クリックAI。",
+    "home_page__hero_section__title__variant2__part2": "少ない時間でより多くのことを行います。",
+    "home_page__hero_section__desc__variant2": "AIチャット、リライター、要約、インスタントリプライで時間を節約し、より良い結果を得る。GPT-4o、Claude 3、Gemini 1.5によって強化されています。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",

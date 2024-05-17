@@ -29,8 +29,8 @@ const AIVisionPages = () => {
         trackerLinkProps={{
           pathnameRefEnable: true,
         }}
-        propTitle={t('features_landing:ai_vision_pages__title')}
-        propDescription={t('features_landing:ai_vision_pages__description')}
+        title={t('features_landing:ai_vision_pages__title')}
+        description={t('features_landing:ai_vision_pages__description')}
       />
 
       <FeaturesContentSection

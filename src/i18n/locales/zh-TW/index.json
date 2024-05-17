@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1 按即可使用 AI，",
     "home_page__hero_section__title__part2": "節省時間，",
     "home_page__hero_section__title__part3": "獲得更好的結果。",
-    "home_page__hero_section__desc": "使用個人化的1點擊AI在任何地方節省每天數小時。由ChatGPT、Claude 3、Gemini 1.5、GPT-4等提供動力。",
+    "home_page__hero_section__desc": "使用個人化的1點擊AI在任何地方節省每天數小時。由ChatGPT、Claude 3、Gemini 1.5、GPT-4o等提供動力。",
     "home_page__user_comment__title": "他們喜愛MaxAI",
     "home_page__call_to_action__title": "免費開始",
     "home_page__call_to_action__sub_title": "使用個人化的1點擊AI在任何地方節省每天數小時。",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "同時參考兩種語言",
     "home_page__features_carousel__feature_translator__description3": "支援58種語言",
     "home_page__features_carousel__feature_translator__description4": "以與人類相同的400%更好的質量進行翻譯",
-    "home_page__features_carousel__cta_button__text": "免費安裝MaxAI",
+    "home_page__features_carousel__cta_button__text": "免費加入{{BROWSER}}",
     "home_page__trusted_by__title": "全球企業和大學的首選",
     "home_page__in_numbers__title": "MaxAI數據",
     "home_page__in_numbers__privacy_friendly__title": "100%保護隱私",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "如何在線旋轉PDF頁面：",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "上傳要旋轉的PDF文檔。",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "選擇要旋轉的特定頁面或將旋轉應用於所有頁面。",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下載修改後的PDF，頁面現在以正確的方向準備好使用。"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下載修改後的PDF，頁面現在以正確的方向準備好使用。",
+    "home_page__hero_section__title__variant2__part1": "1點擊人工智能無處不在。",
+    "home_page__hero_section__title__variant2__part2": "以更少的時間做更多事情。",
+    "home_page__hero_section__desc__variant2": "使用AI聊天、重寫器、摘要和即時回覆節省時間並獲得更好的結果。由GPT-4o、Claude 3和Gemini 1.5提供動力。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",

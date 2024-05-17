@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-ക്ലിക്ക് AI എവിടെയെങ്കിലും,",
     "home_page__hero_section__title__part2": "കുറഞ്ഞ സമയം,",
     "home_page__hero_section__title__part3": "മികച്ച ഫലങ്ങൾ.",
-    "home_page__hero_section__desc": "പ്രത്യേകിച്ച് 1-ക്ലിക്ക് എ.ഐ. ഉപയോഗിക്കുക, ദിവസങ്ങളുടെ അനുഭവം സംരക്ഷിക്കാൻ. ChatGPT, Claude 3, Gemini 1.5, GPT-4, എന്നിവയാണ് ശക്തമായി പ്രവർത്തിക്കുന്നത്.",
+    "home_page__hero_section__desc": "പ്രത്യേകിച്ച് ഉപയോഗിക്കുക 1-ക്ലിക്ക് AI എവിടെയും ദിവസങ്ങളുടെ മുഴുവൻ സമയം സംരക്ഷിക്കാൻ. ChatGPT, Claude 3, Gemini 1.5, GPT-4o, എന്നിവയാണ് ശക്തമാക്കിയത്.",
     "home_page__user_comment__title": "അവർ മാക്സ്‌എയി സ്നേഹിക്കുന്നു",
     "home_page__call_to_action__title": "സൗജന്യമായി ആരംഭിക്കുക",
     "home_page__call_to_action__sub_title": "പ്രത്യേകിച്ച് 1-ക്ലിക്ക് എ.ഐ. ഉപയോഗിക്കുക, ദിവസങ്ങൾ സംരക്ഷിക്കാൻ മണിക്കൂർ ഉപയോഗിക്കുക.",
@@ -138,7 +138,7 @@
     "home_page__features_carousel__feature_translator__description2": "രണ്ട് ഭാഷകളുടെ സമയത്ത് റഫറൻസ്",
     "home_page__features_carousel__feature_translator__description3": "58 ഭാഷകൾ പിന്തുടരുന്നു",
     "home_page__features_carousel__feature_translator__description4": "മനുഷ്യൻ ചെയ്യുന്നതുപോലെ 400% നല്ല ഗുണംപെടുത്താൻ ഉപയോഗിക്കുക",
-    "home_page__features_carousel__cta_button__text": "സൗജന്യമായി MaxAI ഇൻസ്റ്റാൾ ചെയ്യുക",
+    "home_page__features_carousel__cta_button__text": "സൗജന്യമായി {{BROWSER}} ലേക്ക് ചേർക്കുക",
     "home_page__trusted_by__title": "വിശ്വാസപ്പെടുത്തിയിരിക്കുന്നു",
     "home_page__in_numbers__title": "എണ്ണങ്ങളിൽ MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% പ്രൈവസി ഫ്രണ്ട്ലി",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "പിഡിഎഫ് പേജുകൾ ഓന്നാക്കൽ എങ്ങനെ:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "തിരിച്ചുവയ്ക്കാൻ നിങ്ങളുടെ പിഡിഎഫ് പ്രമാണം അപ്ലോഡുചെയ്യുക.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "തിരിച്ചുവയ്ക്കാൻ പേജുകൾ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ എല്ലാ പേജുകളും തിരഞ്ഞെടുക്കുക.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "നിങ്ങളുടെ പരിഷ്ക്കരിച്ച പിഡിഎഫ്, പേജുകൾ ഇപ്പോൾ ശരിയായ ഓരിയന്റേഷനിൽ ഉണ്ടാക്കിയതായി ഡൗൺലോഡുചെയ്യുക."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "നിങ്ങളുടെ പരിഷ്ക്കരിച്ച പിഡിഎഫ്, പേജുകൾ ഇപ്പോൾ ശരിയായ ഓരിയന്റേഷനിൽ ഉണ്ടാക്കിയതായി ഡൗൺലോഡുചെയ്യുക.",
+    "home_page__hero_section__title__variant2__part1": "1-ക്ലിക്ക് എ.ഐ. എല്ലാവരും.",
+    "home_page__hero_section__title__variant2__part2": "കുറഞ്ഞ സമയത്തിൽ കൂടുതൽ ചെയ്യുക.",
+    "home_page__hero_section__desc__variant2": "എ.ഐ. ചാറ്റ്, റീവ്രൈറ്റർ, സമാപനം ചെയ്യുന്നതിനുള്ള സമയം സംരക്ഷിക്കുകയും മികച്ച ഫലങ്ങൾ നേടുകയും ചെയ്യുക. GPT-4o, Claude 3, അനുസരിച്ച് Gemini 1.5 പ്രവർത്തിക്കുന്നു."
   },
   "prompt_library": {
     "use_prompt_library__title": "ഉയർന്ന ഗുണമേന്മായ AI പ്രോംപ്റ്റ് ലൈബ്രറി",

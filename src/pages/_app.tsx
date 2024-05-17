@@ -24,6 +24,7 @@ import AppHeader from '@/app_layout/AppHeader';
 import CacheRefAndRewardfulId from '@/components/CacheRefAndRewardfulId';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
+import DevRefreshABTestVariantCookie from '@/features/ab_tester/components/DevRefreshABTestVariantCookie';
 import ClientUserIdGenerator from '@/features/track_user_interactions/components/ClientUserIdGenerator';
 import { CACHE_CLIENT_USER_ID_PAGE_PATHNAME } from '@/features/track_user_interactions/constant';
 import {
@@ -63,6 +64,25 @@ function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     initFingerPrint();
   }, []);
+
+  // useEffect(() => {
+  //   if (
+  //     isTargetTestPathname(router.pathname, TESTER_LANDING_PATH_TARGET_PATHNAME)
+  //   ) {
+  //     const landingVariantCookies = Cookies.get(TEST_LANDING_COOKIE_NAME);
+  //     const landingVariant = LANDING_VARIANT.find(
+  //       (v) => v.variant === landingVariantCookies,
+  //     );
+  //     if (landingVariant && landingVariant.pathname) {
+  //       router.replace(landingVariant.pathname);
+  //     } else {
+  //       const randomIndex = Date.now() % LANDING_VARIANT.length;
+  //       const randomVariant = LANDING_VARIANT[randomIndex];
+  //       Cookies.set(TEST_LANDING_COOKIE_NAME, randomVariant.variant);
+  //       router.replace(randomVariant.pathname);
+  //     }
+  //   }
+  // }, [router]);
 
   if (CACHE_CLIENT_USER_ID_PAGE_PATHNAME === router.pathname) {
     return (
@@ -143,6 +163,7 @@ function App({ Component, pageProps }: AppProps) {
               {!isEmbedPage && <AppFooter />}
               <GlobalVideoPopup />
               <CacheRefAndRewardfulId />
+              <DevRefreshABTestVariantCookie />
             </QueryClientProvider>
           </ThemeProvider>
         </SnackbarProvider>

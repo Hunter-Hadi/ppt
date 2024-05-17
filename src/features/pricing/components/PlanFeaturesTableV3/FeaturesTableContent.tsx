@@ -23,8 +23,6 @@ const FeaturesTableContent: FC<IProps> = ({
         // if (needToHiddenPlan?.includes(columnData.columnType)) {
         //   return null;
         // }
-        console.log(`featureData`, featureData);
-
         const iconSize = featureData.meta?.type === 'secondary' ? 20 : 24;
         const isDeepen = featureData.meta?.type === 'deepen';
         const rowType = featureData.meta?.type;

@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "Her yerde 1 tıklamayla AI,",
     "home_page__hero_section__title__part2": "Daha az zaman,",
     "home_page__hero_section__title__part3": "Daha iyi sonuçlar.",
-    "home_page__hero_section__desc": "Her gün saatlerce zaman kazanmak için kişiselleştirilmiş 1 tıklamalı yapay zeka kullanın. ChatGPT, Claude 3, Gemini 1.5, GPT-4 ve daha fazlası tarafından desteklenmektedir.",
+    "home_page__hero_section__desc": "Her gün saatlerce zaman kazanmak için kişiselleştirilmiş 1 tıklamalı yapay zeka kullanın. ChatGPT, Claude 3, Gemini 1.5, GPT-4o ve daha fazlası tarafından desteklenmektedir.",
     "home_page__user_comment__title": "MaxAI'yi seviyorlar",
     "home_page__call_to_action__title": "Ücretsiz başlayın",
     "home_page__call_to_action__sub_title": "Her gün saatlerce zaman kazanmak için her yerde kişiselleştirilmiş 1 tıklamalı yapay zeka kullanın.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Her iki dilde de aynı anda referans",
     "home_page__features_carousel__feature_translator__description3": "58 dil destekler",
     "home_page__features_carousel__feature_translator__description4": "İnsan gibi %400 daha iyi kalitede çeviri yapın",
-    "home_page__features_carousel__cta_button__text": "Ücretsiz MaxAI'yi Yükleyin",
+    "home_page__features_carousel__cta_button__text": "Ücretsiz olarak {{BROWSER}}'a ekle",
     "home_page__trusted_by__title": "Dünya genelinde işletmeler ve üniversiteler tarafından güvenilen",
     "home_page__in_numbers__title": "MaxAI rakamlarıyla",
     "home_page__in_numbers__privacy_friendly__title": "Gizlilik dostu %100",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "PDF Sayfalarını Çevrimiçi Nasıl Döndürürsünüz:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Döndürmek istediğiniz PDF belgesini yükleyin.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Belirli sayfaları döndürün veya tüm sayfalara uygulayın.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Doğru yönlendirmeye sahip olarak düzenlenmiş PDF'inizi herhangi bir amaç için kullanıma hazır şekilde indirin."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Doğru yönlendirmeye sahip olarak düzenlenmiş PDF'inizi herhangi bir amaç için kullanıma hazır şekilde indirin.",
+    "home_page__hero_section__title__variant2__part1": "Her yerde 1 tıklama ile yapay zeka.",
+    "home_page__hero_section__title__variant2__part2": "Daha az zamanda daha fazlasını yapın.",
+    "home_page__hero_section__desc__variant2": "AI sohbeti, yeniden yazıcıyı, özetleyiciyi ve anında yanıtı kullanarak zaman kazanın ve daha iyi sonuçlar elde edin. GPT-4o, Claude 3 ve Gemini 1.5 tarafından desteklenmektedir."
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",

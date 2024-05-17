@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-կտակ AI այդպիսիներով,",
     "home_page__hero_section__title__part2": "Փոքր ժամանակ,",
     "home_page__hero_section__title__part3": "Լավագույն արդյունքներ:",
-    "home_page__hero_section__desc": "Օգտագործեք անհատական 1-կլիկով AI-ն ցանկացած վայրում, որպեսզի խոշորացնեք ժամանակը յուրաքանչյուր օր: Գործարարված է ChatGPT, Claude 3, Gemini 1.5, GPT-4 և ավելին:",
+    "home_page__hero_section__desc": "Օգտագործեք անհատական 1-կլիկով AI-ն ամենաժամանակաշրջանային պահեստը խաղալու ժամանակը: Գործարկված է ChatGPT, Claude 3, Gemini 1.5, GPT-4o և այլնի միջոցով:",
     "home_page__user_comment__title": "Նրանք սիրում են MaxAI",
     "home_page__call_to_action__title": "Սկսեք անվճար",
     "home_page__call_to_action__sub_title": "Օգտագործեք անհատական 1-կլիկության աշխատանքը բոլորովին, որպեսզի խճանվեք ժամանակները ամենօրյա պահը:",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Անհատական հղում երկու լեզվով",
     "home_page__features_carousel__feature_translator__description3": "Սպասարկումային է 58 լեզու",
     "home_page__features_carousel__feature_translator__description4": "Թարգմանեք մեծամասնությամբ լավագույն որակով, ինչպես մարդը",
-    "home_page__features_carousel__cta_button__text": "Կարդալ MaxAI-ն անվճար",
+    "home_page__features_carousel__cta_button__text": "Ավելացրեք {{BROWSER}}-ին անվճար",
     "home_page__trusted_by__title": "Առաջարկվում է բիզնեսի և համալսարանների կողմից աշխատանքային ապահովում",
     "home_page__in_numbers__title": "MaxAI-ն թիվապատասխանում է",
     "home_page__in_numbers__privacy_friendly__title": "100% գաղտնի է",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Ինչպե՞ս պտեղեք PDF-ի էջերը օնլայն",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Վերբեռնեք PDF փաստաթուղթը, որը պետք է պտեղվի:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Ընտրեք հատուկ էջերը պտեղվելու համար կամ պտեղեք բոլոր էջերը:",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Ներբեռնեք ձեր պտեղված PDF-ը, որը համապատասխանում է ճշգրիտ ուղղությանը, որպեսզի կարողանաք դրանով աշխատել:"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Ներբեռնեք ձեր պտեղված PDF-ը, որը համապատասխանում է ճշգրիտ ուղղությանը, որպեսզի կարողանաք դրանով աշխատել:",
+    "home_page__hero_section__title__variant2__part1": "1-կլիք AI ամբողջությամբ:",
+    "home_page__hero_section__title__variant2__part2": "Ավելի շատ՝ ավելի պարզապես:",
+    "home_page__hero_section__desc__variant2": "Ապրանքային ժամանակը խառնեք և ստացեք ավելի լավ արդյունքներ AI խաղադրողով, վերագրողով, ամփոփումատակիցով և անհատական պատասխանով: Ուղղակիորեն աշխատեք GPT-4o, Claude 3 և Gemini 1.5-ի միջոցով:"
   },
   "prompt_library": {
     "use_prompt_library__title": "Որակյալ AI խորհրդատու գրադարան",

@@ -1,3 +1,4 @@
+import { TEST_LANDING_COOKIE_NAME } from '@/features/ab_tester/constant/landingVariant';
 import { ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY } from '@/recoil/constants';
 import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint';
 
@@ -19,7 +20,9 @@ export type ILocalStorageKeyType =
   | typeof ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY
   // 用来记录 前端生成的 clientUserId，用于做用户交互跟踪时和 后端的 userId做绑定
   | 'CLIENT_USER_ID'
-  | 'LANDING_PAGE_REF';
+  | 'LANDING_PAGE_REF'
+  | typeof TEST_LANDING_COOKIE_NAME;
+
 export const setLocalStorage = (
   key: ILocalStorageKeyType,
   value: unknown,

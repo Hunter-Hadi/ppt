@@ -17,7 +17,7 @@ import PictureRetouchingIcon, {
 } from '@/page_components/FeaturesLandingPages/components/PictureRetouchingIcon';
 
 interface IProps {
-  icon: string;
+  icon: React.ReactNode;
   title: string;
   description: React.ReactNode;
   imageUrl: string;
@@ -65,19 +65,23 @@ const FeaturesContentSection: FC<IProps> = ({
         <Grid container alignItems='center' spacing={12}>
           <Grid item xs={12} sm={6} order={textBoxOrder}>
             <Stack height={'100%'} justifyContent='center'>
-              <Box
-                sx={{
-                  color: 'primary.main',
-                  fontSize: 24,
-                  width: 'max-content',
-                  lineHeight: 0,
-                  borderRadius: '50%',
-                  bgcolor: '#F4EBFF',
-                  p: 1.5,
-                }}
-              >
-                <FeaturesLandingIcons icon={icon} />
-              </Box>
+              {typeof icon === 'string' ? (
+                <Box
+                  sx={{
+                    color: 'primary.main',
+                    fontSize: 24,
+                    width: 'max-content',
+                    lineHeight: 0,
+                    borderRadius: '50%',
+                    bgcolor: '#F4EBFF',
+                    p: 1.5,
+                  }}
+                >
+                  <FeaturesLandingIcons icon={icon} />
+                </Box>
+              ) : (
+                icon
+              )}
               <Typography
                 variant='custom'
                 fontSize={32}

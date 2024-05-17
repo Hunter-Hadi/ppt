@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-klikkauksen tekoäly missä tahansa,",
     "home_page__hero_section__title__part2": "Vähemmän aikaa,",
     "home_page__hero_section__title__part3": "Parhaat tulokset.",
-    "home_page__hero_section__desc": "Käytä personoitua 1-klikkauksen tekoälyä missä tahansa säästääksesi tunteja joka päivä. Toimii ChatGPT:n, Claude 3:n, Gemini 1.5:n, GPT-4:n ja muiden avulla.",
+    "home_page__hero_section__desc": "Käytä personoitua 1-klikkauksen tekoälyä missä tahansa säästääksesi tunteja joka päivä. Toimii ChatGPT:n, Claude 3:n, Gemini 1.5:n, GPT-4o:n ja muiden avulla.",
     "home_page__user_comment__title": "He rakastavat MaxAI:ta",
     "home_page__call_to_action__title": "Aloita ilmaiseksi",
     "home_page__call_to_action__sub_title": "Käytä personoitua 1-klikkauksen tekoälyä missä tahansa säästääksesi tunteja joka päivä.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Samanaikainen viittaus molempiin kieliin",
     "home_page__features_carousel__feature_translator__description3": "Tukee 58 kieltä",
     "home_page__features_carousel__feature_translator__description4": "Käännä 400% paremmalla laadulla, aivan kuten ihminen tekisi",
-    "home_page__features_carousel__cta_button__text": "Asenna MaxAI ilmaiseksi",
+    "home_page__features_carousel__cta_button__text": "Lisää {{BROWSER}} ilmaiseksi",
     "home_page__trusted_by__title": "Luotettu yritysten ja yliopistojen toimesta ympäri maailmaa",
     "home_page__in_numbers__title": "MaxAI numeroissa",
     "home_page__in_numbers__privacy_friendly__title": "100% yksityisyyden suojaa",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kuinka kääntää PDF-sivuja verkossa:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Lataa PDF-tiedosto, jonka haluat kääntää.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Valitse sivut, jotka haluat kääntää, tai käännä kaikki sivut.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Lataa muokattu PDF-tiedosto, jossa sivut ovat oikeassa suunnassa ja valmiina käytettäväksi."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Lataa muokattu PDF-tiedosto, jossa sivut ovat oikeassa suunnassa ja valmiina käytettäväksi.",
+    "home_page__hero_section__title__variant2__part1": "1-klikkauksen tekoäly kaikkialla.",
+    "home_page__hero_section__title__variant2__part2": "Tee enemmän vähemmässä ajassa.",
+    "home_page__hero_section__desc__variant2": "Säästä aikaa ja saavuta parempia tuloksia tekoälychatin, uudelleenkirjoittajan, tiivistäjän ja välittömän vastauksen avulla. Toimii GPT-4o:n, Claude 3:n ja Gemini 1.5:n voimalla."
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",

@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-ক্লিক এআই ক্যাপাবল,",
     "home_page__hero_section__title__part2": "কম সময়ে,",
     "home_page__hero_section__title__part3": "ভালো ফলাফল।",
-    "home_page__hero_section__desc": "প্রতিযোগিতামূলক 1-ক্লিক এআই ব্যবহার করুন যেখানেই দিনের সময় সংরক্ষণ করতে। ChatGPT, Claude 3, Gemini 1.5, GPT-4 এবং আরও প্রচুর প্রযুক্তি দ্বারা সমর্থিত।",
+    "home_page__hero_section__desc": "প্রতিযোগিতামূলক 1-ক্লিক এইআই ব্যবহার করুন যেখানেই দিনের সময় সংরক্ষণ করতে পারেন। ChatGPT, Claude 3, Gemini 1.5, GPT-4o এবং আরও শক্তিশালী দ্বারা সমর্থিত।",
     "home_page__user_comment__title": "তারা ম্যাক্সএআইকে ভালবাসে",
     "home_page__call_to_action__title": "বিনামূল্যে শুরু করুন",
     "home_page__call_to_action__sub_title": "প্রতিযোগিতামূলক 1-ক্লিক এআই ব্যবহার করুন যেখানেই দিনের ঘন্টাগুলি সংরক্ষণ করতে।",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "উভয় ভাষার সময়সূচীভঙ্গি করুন",
     "home_page__features_carousel__feature_translator__description3": "58 টি ভাষা সমর্থন করে",
     "home_page__features_carousel__feature_translator__description4": "মানুষের মতো 400% ভাল মানের সাথে অনুবাদ করুন",
-    "home_page__features_carousel__cta_button__text": "ফ্রি ইনস্টল করুন MaxAI",
+    "home_page__features_carousel__cta_button__text": "ফ্রি হিসাবে {{BROWSER}} যোগ করুন",
     "home_page__trusted_by__title": "বিশ্বের ব্যবসায় এবং বিশ্ববিদ্যালয় দ্বারা বিশ্বস্ত",
     "home_page__in_numbers__title": "সংখ্যায় MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% গোপনীয়তা বিজ্ঞ",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "পিডিএফ পৃষ্ঠাগুলি অনলাইনে ঘুরানোর পদ্ধতি:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "ঘুরান করতে চান পিডিএফ ডকুমেন্টটি আপলোড করুন।",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "ঘুরান করতে চান নির্দিষ্ট পৃষ্ঠাগুলি নির্বাচন করুন অথবা সমস্ত পৃষ্ঠাগুলির জন্য ঘুরান।",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "আপনার সংশোধিত পিডিএফটি ডাউনলোড করুন, যেখানে পৃষ্ঠাগুলি এখন সঠিক উচ্চতায় থাকবে এবং যেকোনো ব্যবহারের জন্য প্রস্তুত হবে।"
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "আপনার সংশোধিত পিডিএফটি ডাউনলোড করুন, যেখানে পৃষ্ঠাগুলি এখন সঠিক উচ্চতায় থাকবে এবং যেকোনো ব্যবহারের জন্য প্রস্তুত হবে।",
+    "home_page__hero_section__title__variant2__part1": "এক ক্লিকে সর্বত্র এই.",
+    "home_page__hero_section__title__variant2__part2": "কম সময়ে আরো কাজ করুন।",
+    "home_page__hero_section__desc__variant2": "এই এই চ্যাট, পুনরায় লেখক, সংক্ষেপকারক এবং তাৎক্ষণিক উত্তর দিয়ে সময় সংরক্ষণ করুন এবং ভাল ফলাফল পান। GPT-4o, Claude 3 এবং Gemini 1.5 দ্বারা সম্ভাব্য।"
   },
   "prompt_library": {
     "use_prompt_library__title": "উচ্চ মানের AI প্রম্পট লাইব্রেরি",

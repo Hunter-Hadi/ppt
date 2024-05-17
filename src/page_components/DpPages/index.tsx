@@ -16,7 +16,7 @@ const DpPage = () => {
 
   const { landingTitle, landingDescription } = query;
 
-  const propTitle = useMemo(() => {
+  const title = useMemo(() => {
     if (landingTitle) {
       const afterParsingTitle = decodeURIComponent(`${landingTitle}`);
       return (
@@ -32,7 +32,7 @@ const DpPage = () => {
     }
   }, [landingTitle]);
 
-  const propDescription = useMemo(() => {
+  const description = useMemo(() => {
     if (landingDescription) {
       const afterParsingDescription = decodeURIComponent(
         `${landingDescription}`,
@@ -66,10 +66,7 @@ const DpPage = () => {
       <AppLoadingLayout loading={!isReady} sx={{ minHeight: '50vh' }}>
         <Stack color='text.primary'>
           {/* heroSection */}
-          <HeroSection
-            propTitle={propTitle}
-            propDescription={propDescription}
-          />
+          <HeroSection title={title} description={description} />
 
           {/* feature carousel */}
           <FeaturesCarousel />

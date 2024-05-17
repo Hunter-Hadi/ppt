@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-клік штучний інтелект скрізь,",
     "home_page__hero_section__title__part2": "Менше часу,",
     "home_page__hero_section__title__part3": "Кращі результати.",
-    "home_page__hero_section__desc": "Використовуйте персоналізований штучний інтелект з одним кліком будь-де, щоб заощадити години кожен день. Працює на основі ChatGPT, Claude 3, Gemini 1.5, GPT-4 та багатьох інших.",
+    "home_page__hero_section__desc": "Використовуйте персоналізований штучний інтелект з одним кліком будь-де, щоб заощадити години кожен день. Працює на основі ChatGPT, Claude 3, Gemini 1.5, GPT-4o та багатьох інших.",
     "home_page__user_comment__title": "Вони люблять MaxAI",
     "home_page__call_to_action__title": "Почніть безкоштовно",
     "home_page__call_to_action__sub_title": "Використовуйте персоналізований штучний інтелект з одним кліком будь-де, щоб заощадити години кожен день.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Одночасна робота з обома мовами",
     "home_page__features_carousel__feature_translator__description3": "Підтримує 58 мов",
     "home_page__features_carousel__feature_translator__description4": "Перекладайте з якістю на 400% краще, так само, як людина",
-    "home_page__features_carousel__cta_button__text": "Встановіть MaxAI безкоштовно",
+    "home_page__features_carousel__cta_button__text": "Додати до {{BROWSER}} безкоштовно",
     "home_page__trusted_by__title": "Довіряють бізнеси та університети по всьому світу",
     "home_page__in_numbers__title": "MaxAI в цифрах",
     "home_page__in_numbers__privacy_friendly__title": "100% конфіденційність",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Як повернути сторінки PDF онлайн:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Завантажте PDF-документ, який ви хочете повернути.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Виберіть конкретні сторінки для повороту або застосуйте поворот до всіх сторінок.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Завантажте змінений PDF з правильною орієнтацією сторінок, готовий до будь-якого використання."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Завантажте змінений PDF з правильною орієнтацією сторінок, готовий до будь-якого використання.",
+    "home_page__hero_section__title__variant2__part1": "1-клік ШІ скрізь.",
+    "home_page__hero_section__title__variant2__part2": "Робіть більше за менший час.",
+    "home_page__hero_section__desc__variant2": "Зекономте час та отримайте кращі результати з ШІ-чатом, переписувачем, резюматором та миттєвою відповіддю. Працює на основі GPT-4o, Claude 3 та Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",

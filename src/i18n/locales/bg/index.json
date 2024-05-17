@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-клик ИИ навсякъде,",
     "home_page__hero_section__title__part2": "По-малко време,",
     "home_page__hero_section__title__part3": "По-добри резултати.",
-    "home_page__hero_section__desc": "Използвайте персонализиран и лесен за използване AI с едно щракване навсякъде, за да спестите часове всеки ден. Задвижван от ChatGPT, Claude 3, Gemini 1.5, GPT-4 и още.",
+    "home_page__hero_section__desc": "Използвайте персонализирано AI с едно щракване навсякъде, за да спестите часове всеки ден. Задвижван от ChatGPT, Claude 3, Gemini 1.5, GPT-4o и други.",
     "home_page__user_comment__title": "Обичат MaxAI",
     "home_page__call_to_action__title": "Започнете безплатно",
     "home_page__call_to_action__sub_title": "Използвайте персонализирана AI с едно натискане навсякъде, за да спестите часове всеки ден.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Едновременна справка на двата езика",
     "home_page__features_carousel__feature_translator__description3": "Поддържа 58 езика",
     "home_page__features_carousel__feature_translator__description4": "Превежда с 400% по-добро качество, точно както би направил човек",
-    "home_page__features_carousel__cta_button__text": "Инсталирайте MaxAI безплатно",
+    "home_page__features_carousel__cta_button__text": "Добави в {{BROWSER}} безплатно",
     "home_page__trusted_by__title": "Вярвани от бизнеси и университети по целия свят",
     "home_page__in_numbers__title": "MaxAI в числа",
     "home_page__in_numbers__privacy_friendly__title": "100% приятелски към личните данни",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Как да завъртите PDF страници онлайн:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Качете PDF документа, който искате да завъртите.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Изберете конкретни страници за завъртане или приложете завъртането на всички страници.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Изтеглете коригирания си PDF, като страниците вече са в правилната ориентация, готови за всяко използване."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Изтеглете коригирания си PDF, като страниците вече са в правилната ориентация, готови за всяко използване.",
+    "home_page__hero_section__title__variant2__part1": "AI навсякъде с едно щракване.",
+    "home_page__hero_section__title__variant2__part2": "Правете повече за по-малко време.",
+    "home_page__hero_section__desc__variant2": "Спестете време и получете по-добри резултати с AI чат, пренаписвач, резюмиращ инструмент и моментален отговор. Задвижвано от GPT-4o, Claude 3 и Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека с висококачествени AI подсказки",

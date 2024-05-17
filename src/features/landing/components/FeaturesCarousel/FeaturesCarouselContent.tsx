@@ -7,118 +7,11 @@ import ResponsiveImage from '@/components/ResponsiveImage';
 import usePreloadImages from '@/features/common/hooks/usePreloadImages';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
-import { IFeaturesCarouselItemKey } from '.';
-
-const contentDataList: IFeaturesCarouselItemKey[] = [
-  'Chat',
-  'Rewriter',
-  'Summary',
-  'Reply',
-  'Reader',
-  'Prompts',
-  'Search',
-  'Art',
-  'Translator',
-];
-
-const contentDataMap: Record<
+import {
+  FEATURES_CAROUSEL_LIST,
+  FEATURES_CONTENT_DATA_MAP,
   IFeaturesCarouselItemKey,
-  {
-    title: string;
-    descriptionLabel?: string;
-    descriptionList: string[];
-  }
-> = {
-  Chat: {
-    title: 'pages:home_page__features_carousel__feature_chat__title',
-    descriptionLabel:
-      'pages:home_page__features_carousel__feature_chat__description_label',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_chat__description1',
-      'pages:home_page__features_carousel__feature_chat__description2',
-      'pages:home_page__features_carousel__feature_chat__description3',
-      'pages:home_page__features_carousel__feature_chat__description4',
-    ],
-  },
-  Rewriter: {
-    title: 'pages:home_page__features_carousel__feature_rewriter__title',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_rewriter__description1',
-      'pages:home_page__features_carousel__feature_rewriter__description2',
-      'pages:home_page__features_carousel__feature_rewriter__description3',
-      'pages:home_page__features_carousel__feature_rewriter__description4',
-      'pages:home_page__features_carousel__feature_rewriter__description5',
-    ],
-  },
-
-  Reply: {
-    title: 'pages:home_page__features_carousel__feature_reply__title',
-    descriptionLabel:
-      'pages:home_page__features_carousel__feature_reply__description_label',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_reply__description1',
-      'pages:home_page__features_carousel__feature_reply__description2',
-      'pages:home_page__features_carousel__feature_reply__description3',
-      'pages:home_page__features_carousel__feature_reply__description4',
-    ],
-  },
-  Summary: {
-    title: 'pages:home_page__features_carousel__feature_summary__title',
-    descriptionLabel:
-      'pages:home_page__features_carousel__feature_summary__description_label',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_summary__description1',
-      'pages:home_page__features_carousel__feature_summary__description2',
-      'pages:home_page__features_carousel__feature_summary__description3',
-      'pages:home_page__features_carousel__feature_summary__description4',
-    ],
-  },
-  Search: {
-    title: 'pages:home_page__features_carousel__feature_search__title',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_search__description1',
-      'pages:home_page__features_carousel__feature_search__description2',
-      'pages:home_page__features_carousel__feature_search__description3',
-      'pages:home_page__features_carousel__feature_search__description4',
-    ],
-  },
-  Art: {
-    title: 'pages:home_page__features_carousel__feature_art__title',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_art__description1',
-      'pages:home_page__features_carousel__feature_art__description2',
-      'pages:home_page__features_carousel__feature_art__description3',
-      'pages:home_page__features_carousel__feature_art__description4',
-    ],
-  },
-  Translator: {
-    title: 'pages:home_page__features_carousel__feature_translator__title',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_translator__description1',
-      'pages:home_page__features_carousel__feature_translator__description2',
-      'pages:home_page__features_carousel__feature_translator__description3',
-      'pages:home_page__features_carousel__feature_translator__description4',
-    ],
-  },
-  Reader: {
-    title: 'pages:home_page__features_carousel__feature_reader__title',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_reader__description1',
-      'pages:home_page__features_carousel__feature_reader__description2',
-      'pages:home_page__features_carousel__feature_reader__description3',
-      'pages:home_page__features_carousel__feature_reader__description4',
-    ],
-  },
-  Prompts: {
-    title: 'pages:home_page__features_carousel__feature_prompts__title',
-    descriptionList: [
-      'pages:home_page__features_carousel__feature_prompts__description1',
-      'pages:home_page__features_carousel__feature_prompts__description2',
-      'pages:home_page__features_carousel__feature_prompts__description3',
-      'pages:home_page__features_carousel__feature_prompts__description4',
-    ],
-  },
-};
+} from '.';
 
 interface IProps {
   activeFeatureItem: IFeaturesCarouselItemKey;
@@ -127,52 +20,17 @@ interface IProps {
 const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
   const { t } = useTranslation();
 
-  usePreloadImages([
-    '/assets/landing/feature-carousel/chat.png',
-    '/assets/landing/feature-carousel/rewriter.png',
-    '/assets/landing/feature-carousel/reply.png',
-    '/assets/landing/feature-carousel/summary.png',
-    '/assets/landing/feature-carousel/search.png',
-    '/assets/landing/feature-carousel/art.png',
-    '/assets/landing/feature-carousel/translator.png',
-    '/assets/landing/feature-carousel/prompts.png',
-    '/assets/landing/feature-carousel/reader.png',
-  ]);
+  const needToPreloadImages = useMemo(() => {
+    return FEATURES_CAROUSEL_LIST.map(({ value }) => {
+      const currentContent = FEATURES_CONTENT_DATA_MAP[value];
+      return currentContent.imageUrl;
+    });
+  }, []);
 
-  const imageSrc = useMemo(() => {
-    if (activeFeatureItem === 'Chat') {
-      return '/assets/landing/feature-carousel/chat.png';
-    }
-    if (activeFeatureItem === 'Rewriter') {
-      return '/assets/landing/feature-carousel/rewriter.png';
-    }
-    if (activeFeatureItem === 'Reply') {
-      return '/assets/landing/feature-carousel/reply.png';
-    }
-    if (activeFeatureItem === 'Summary') {
-      return '/assets/landing/feature-carousel/summary.png';
-    }
-    if (activeFeatureItem === 'Search') {
-      return '/assets/landing/feature-carousel/search.png';
-    }
-    if (activeFeatureItem === 'Art') {
-      return '/assets/landing/feature-carousel/art.png';
-    }
-    if (activeFeatureItem === 'Translator') {
-      return '/assets/landing/feature-carousel/translator.png';
-    }
-    if (activeFeatureItem === 'Prompts') {
-      return '/assets/landing/feature-carousel/prompts.png';
-    }
-    if (activeFeatureItem === 'Reader') {
-      return '/assets/landing/feature-carousel/reader.png';
-    }
-
-    return '';
-  }, [activeFeatureItem]);
+  usePreloadImages(needToPreloadImages);
 
   const renderContent = (contentDataKey: IFeaturesCarouselItemKey) => {
-    const currentContent = contentDataMap[activeFeatureItem];
+    const currentContent = FEATURES_CONTENT_DATA_MAP[activeFeatureItem];
 
     const isActive = contentDataKey === activeFeatureItem;
 
@@ -278,7 +136,7 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
           >
             <ResponsiveImage
               alt={activeFeatureItem}
-              src={imageSrc}
+              src={currentContent.imageUrl}
               width={544}
               height={408}
             />
@@ -301,7 +159,7 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
         borderRadius: 4,
       }}
     >
-      {contentDataList.map((contentDataKey) => renderContent(contentDataKey))}
+      {FEATURES_CAROUSEL_LIST.map(({ value }) => renderContent(value))}
     </Box>
   );
 };

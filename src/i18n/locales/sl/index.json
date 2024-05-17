@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-klik AI kjerkoli,",
     "home_page__hero_section__title__part2": "Manj časa,",
     "home_page__hero_section__title__part3": "Boljši rezultati.",
-    "home_page__hero_section__desc": "Uporabite personalizirano umetno inteligenco z enim klikom kjerkoli, da prihranite ure vsak dan. Poganja jo ChatGPT, Claude 3, Gemini 1.5, GPT-4 in še več.",
+    "home_page__hero_section__desc": "Uporabite personalizirano umetno inteligenco z enim klikom kjerkoli, da prihranite ure vsak dan. Poganja jo ChatGPT, Claude 3, Gemini 1.5, GPT-4o in več.",
     "home_page__user_comment__title": "Obožujejo MaxAI",
     "home_page__call_to_action__title": "Začnite brezplačno",
     "home_page__call_to_action__sub_title": "Uporabite personalizirano umetno inteligenco z enim klikom kjerkoli, da prihranite ure vsak dan.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Hkratno sklicevanje na oba jezika",
     "home_page__features_carousel__feature_translator__description3": "Podpira 58 jezikov",
     "home_page__features_carousel__feature_translator__description4": "Prevajanje z 400% boljšo kakovostjo, kot bi to storil človek",
-    "home_page__features_carousel__cta_button__text": "Namestite MaxAI brezplačno",
+    "home_page__features_carousel__cta_button__text": "Dodaj v {{BROWSER}} brezplačno",
     "home_page__trusted_by__title": "Zaupajo mu podjetja in univerze po vsem svetu",
     "home_page__in_numbers__title": "MaxAI v številkah",
     "home_page__in_numbers__privacy_friendly__title": "100% prijazno do zasebnosti",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kako zasukati strani PDF-ja na spletu:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Naložite PDF dokument, ki ga želite zasukati.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Izberite specifične strani za zasuk ali uporabite zasuk za vse strani.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Prenesite spremenjeni PDF, kjer so strani zdaj v pravilni usmerjenosti, pripravljeni za vsako uporabo."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Prenesite spremenjeni PDF, kjer so strani zdaj v pravilni usmerjenosti, pripravljeni za vsako uporabo.",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI povsod.",
+    "home_page__hero_section__title__variant2__part2": "Naredite več v manj časa.",
+    "home_page__hero_section__desc__variant2": "Prihranite čas in dosežite boljše rezultate z AI klepetom, preoblikovalnikom, povzetkom in takojšnjim odgovorom. Poganja jih GPT-4o, Claude 3 in Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",

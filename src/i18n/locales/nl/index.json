@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-klik AI overal,",
     "home_page__hero_section__title__part2": "Minder tijd,",
     "home_page__hero_section__title__part3": "Betere resultaten.",
-    "home_page__hero_section__desc": "Gebruik gepersonaliseerde 1-klik AI overal om elke dag uren te besparen. Aangedreven door ChatGPT, Claude 3, Gemini 1.5, GPT-4 en meer.",
+    "home_page__hero_section__desc": "Gebruik gepersonaliseerde 1-klik AI overal om elke dag uren te besparen. Aangedreven door ChatGPT, Claude 3, Gemini 1.5, GPT-4o en meer.",
     "home_page__user_comment__title": "Ze houden van MaxAI",
     "home_page__call_to_action__title": "Begin gratis",
     "home_page__call_to_action__sub_title": "Gebruik gepersonaliseerde 1-klik AI overal om elke dag uren te besparen.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Gelijktijdige verwijzing naar beide talen",
     "home_page__features_carousel__feature_translator__description3": "Ondersteunt 58 talen",
     "home_page__features_carousel__feature_translator__description4": "Vertaal met 400% betere kwaliteit, net als een mens zou doen",
-    "home_page__features_carousel__cta_button__text": "Installeer MaxAI gratis",
+    "home_page__features_carousel__cta_button__text": "Voeg gratis toe aan {{BROWSER}}",
     "home_page__trusted_by__title": "Vertrouwd door bedrijven en universiteiten over de hele wereld",
     "home_page__in_numbers__title": "MaxAI in cijfers",
     "home_page__in_numbers__privacy_friendly__title": "100% privacyvriendelijk",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Hoe PDF-pagina's online roteren:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Upload het PDF-document dat u wilt roteren.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Selecteer specifieke pagina's voor rotatie of pas de rotatie toe op alle pagina's.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download uw gewijzigde PDF, waarbij de pagina's nu in de juiste oriëntatie staan, klaar voor elk gebruik."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download uw gewijzigde PDF, waarbij de pagina's nu in de juiste oriëntatie staan, klaar voor elk gebruik.",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI overal.",
+    "home_page__hero_section__title__variant2__part2": "Doe meer in minder tijd.",
+    "home_page__hero_section__desc__variant2": "Bespaar tijd en krijg betere resultaten met AI-chat, herschrijver, samenvatter en direct antwoord. Aangedreven door GPT-4o, Claude 3 en Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",

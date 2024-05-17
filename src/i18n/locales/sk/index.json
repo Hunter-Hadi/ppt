@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-kliková AI kdekoľvek,",
     "home_page__hero_section__title__part2": "Menej času,",
     "home_page__hero_section__title__part3": "Lepšie výsledky.",
-    "home_page__hero_section__desc": "Použite personalizovanú 1-klikovú AI kdekoľvek a ušetrite hodiny každý deň. Poháňané ChatGPT, Claude 3, Gemini 1.5, GPT-4 a ďalšími.",
+    "home_page__hero_section__desc": "Použite personalizovanú 1-klikovú AI kdekoľvek a ušetrite hodiny každý deň. Poháňané ChatGPT, Claude 3, Gemini 1.5, GPT-4o a ďalšími.",
     "home_page__user_comment__title": "Milujú MaxAI",
     "home_page__call_to_action__title": "Začnite zadarmo",
     "home_page__call_to_action__sub_title": "Použite personalizovanú 1-klikovú AI kdekoľvek a ušetrite hodiny denne.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Súbežný odkaz na oba jazyky",
     "home_page__features_carousel__feature_translator__description3": "Podporuje 58 jazykov",
     "home_page__features_carousel__feature_translator__description4": "Preklad s 400% lepšou kvalitou, ako by to robil človek",
-    "home_page__features_carousel__cta_button__text": "Inštalovať MaxAI zadarmo",
+    "home_page__features_carousel__cta_button__text": "Pridať do {{BROWSER}} zadarmo",
     "home_page__trusted_by__title": "Dôverujú nám podniky a univerzity z celého sveta",
     "home_page__in_numbers__title": "MaxAI v číslach",
     "home_page__in_numbers__privacy_friendly__title": "100% priateľský k súkromiu",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Ako otočiť stránky PDF online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Nahrajte PDF dokument, ktorý chcete otočiť.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Vyberte konkrétne strany na otočenie alebo aplikujte otočenie na všetky strany.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Stiahnite si upravené PDF s teraz správnou orientáciou strán, pripravené pre akékoľvek použitie."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Stiahnite si upravené PDF s teraz správnou orientáciou strán, pripravené pre akékoľvek použitie.",
+    "home_page__hero_section__title__variant2__part1": "1-kliková AI všade.",
+    "home_page__hero_section__title__variant2__part2": "Robte viac za menej času.",
+    "home_page__hero_section__desc__variant2": "Ušetrite čas a dosiahnite lepšie výsledky s pomocou AI chatu, prekladača, sumarizéra a okamžitej odpovede. Poháňané GPT-4o, Claude 3 a Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knižnica vysoko kvalitných AI promptov",

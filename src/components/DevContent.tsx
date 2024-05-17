@@ -37,7 +37,9 @@ const DevContent: FC<{
   component?: ReactNode;
   allowEmail?: boolean;
 }> = ({ allowEmail, children, component }) => {
-  const isDev = process.env.NEXT_PUBLIC_ENV === 'dev';
+  const isDev =
+    process.env.NEXT_PUBLIC_ENV === 'dev' ||
+    process.env.NEXT_PUBLIC_ENV === 'test';
   const isAllowUser = allowEmail === true && isWhiteListUser();
   const renderNullDom = () => {
     if (component) {

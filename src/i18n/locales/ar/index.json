@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "ذكاء اصطناعي بنقرة واحدة،",
     "home_page__hero_section__title__part2": "وقت أقل،",
     "home_page__hero_section__title__part3": "نتائج أفضل.",
-    "home_page__hero_section__desc": "استخدم الذكاء الاصطناعي المخصص بنقرة واحدة في أي مكان لتوفير ساعات كل يوم. مدعوم بـ ChatGPT و Claude 3 و Gemini 1.5 و GPT-4 والمزيد.",
+    "home_page__hero_section__desc": "استخدم الذكاء الاصطناعي المخصص بنقرة واحدة في أي مكان لتوفير ساعات كل يوم. مدعوم بـ ChatGPT، Claude 3، Gemini 1.5، GPT-4o، والمزيد.",
     "home_page__user_comment__title": "يحبون ماكس إيه آي",
     "home_page__call_to_action__title": "ابدأ مجانًا",
     "home_page__call_to_action__sub_title": "استخدم الذكاء الاصطناعي المخصص بنقرة واحدة في أي مكان لتوفير ساعات كل يوم.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "الرجوع المرجعي إلى كلا اللغتين في نفس الوقت",
     "home_page__features_carousel__feature_translator__description3": "يدعم 58 لغة",
     "home_page__features_carousel__feature_translator__description4": "ترجمة بجودة أفضل بنسبة 400%، تمامًا مثل الإنسان",
-    "home_page__features_carousel__cta_button__text": "قم بتثبيت MaxAI مجانًا",
+    "home_page__features_carousel__cta_button__text": "أضف إلى {{BROWSER}} مجانًا",
     "home_page__trusted_by__title": "موثوق به من قبل الشركات والجامعات في جميع أنحاء العالم",
     "home_page__in_numbers__title": "MaxAI في الأرقام",
     "home_page__in_numbers__privacy_friendly__title": "صديق للخصوصية بنسبة 100%",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "كيفية تدوير صفحات ملف PDF عبر الإنترنت:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "قم بتحميل مستند PDF الذي ترغب في تدويره.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "حدد الصفحات المحددة للتدوير أو قم بتطبيق التدوير على جميع الصفحات.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "قم بتنزيل ملف PDF المعدل الخاص بك، حيث تكون الصفحات الآن في التوجيه الصحيح وجاهزة لأي استخدام."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "قم بتنزيل ملف PDF المعدل الخاص بك، حيث تكون الصفحات الآن في التوجيه الصحيح وجاهزة لأي استخدام.",
+    "home_page__hero_section__title__variant2__part1": "ذكاء اصطناعي بنقرة واحدة في كل مكان.",
+    "home_page__hero_section__title__variant2__part2": "افعل المزيد في وقت أقل.",
+    "home_page__hero_section__desc__variant2": "وفّر الوقت واحصل على نتائج أفضل مع دردشة الذكاء الاصطناعي، وأداة إعادة الكتابة، وملخص النصوص، والرد الفوري. يعمل بواسطة GPT-4o وClaude 3 وGemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",

@@ -2,9 +2,12 @@ import { Stack } from '@mui/material';
 import { useRouter } from 'next/router';
 import { FC, useEffect } from 'react';
 
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import FeaturesCarousel from '@/features/landing/components/FeaturesCarousel';
 
 import CallToActionSection from './CallToActionSection';
+import FeaturesExpandSection from './FeaturesCarousel/FeaturesExpandVariantSection';
 import HeroSection from './HeroSection';
 import MaxAIInNumbers from './MaxAIInNumbers';
 import TrustedBy from './TrustedBy';
@@ -12,10 +15,21 @@ import UserComment from './UserComment';
 
 interface IProps {
   propRef?: string;
+
+  testing?: boolean;
 }
 
-const HomePageContent: FC<IProps> = ({ propRef }) => {
+const HomePageContent: FC<IProps> = ({ propRef, testing }) => {
   const { isReady, asPath } = useRouter();
+
+  const {
+    // variant,
+    loaded,
+    title,
+    description,
+    featuresCarousel,
+    featuresExpand,
+  } = useLandingABTester();
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -28,26 +42,58 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
   }, [isReady, asPath]);
 
   return (
-    <Stack color='text.primary'>
-      {/* heroSection */}
-      <HeroSection propRef={propRef} />
+    <AppLoadingLayout loading={!loaded} sx={{ minHeight: '90vh' }}>
+      <Stack color='text.primary'>
+        {/* heroSection */}
+        <HeroSection
+          propRef={propRef}
+          // loading={!loaded}
+          title={title}
+          description={description}
+        />
 
-      {/* feature carousel */}
-      <FeaturesCarousel />
+        {/* feature carousel */}
+        {featuresCarousel && <FeaturesCarousel />}
+        {featuresExpand && <FeaturesExpandSection />}
+        {/* {!loaded && <FeaturesCarouselSkeleton />} */}
 
-      {/* trusted by */}
-      <TrustedBy />
+        {/* trusted by */}
+        <TrustedBy />
 
-      {/* maxai in numbers */}
-      <MaxAIInNumbers />
+        {/* maxai in numbers */}
+        <MaxAIInNumbers />
 
-      {/* user comment */}
-      <UserComment />
+        {/* user comment */}
+        <UserComment />
 
-      {/* call to action section */}
-      <CallToActionSection propRef={propRef} />
-    </Stack>
+        {/* call to action section */}
+        <CallToActionSection propRef={propRef} />
+      </Stack>
+    </AppLoadingLayout>
   );
 };
+
+FeaturesCarousel;
+
+// const FeaturesCarouselSkeleton = () => {
+//   return (
+//     <Box
+//       py={{
+//         xs: 7,
+//         md: 12,
+//       }}
+//       px={2}
+//       sx={{
+//         // 用隐藏的 Skeleton 元素来占位
+//         opacity: 0,
+//         mx: 'auto',
+//         maxWidth: 1312,
+//         width: '100%',
+//       }}
+//     >
+//       <Skeleton variant='rounded' width={'100%'} height={600} />
+//     </Box>
+//   );
+// };
 
 export default HomePageContent;

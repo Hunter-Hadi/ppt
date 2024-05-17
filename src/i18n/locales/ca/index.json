@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "IA d'un clic en qualsevol lloc,",
     "home_page__hero_section__title__part2": "Menys temps,",
     "home_page__hero_section__title__part3": "Millors resultats.",
-    "home_page__hero_section__desc": "Utilitza IA personalitzada amb un clic per estalviar hores cada dia. Amb el suport de ChatGPT, Claude 3, Gemini 1.5, GPT-4 i més.",
+    "home_page__hero_section__desc": "Utilitza IA personalitzada d'1 clic en qualsevol lloc per estalviar hores cada dia. Amb el suport de ChatGPT, Claude 3, Gemini 1.5, GPT-4o i més.",
     "home_page__user_comment__title": "Estimen MaxAI",
     "home_page__call_to_action__title": "Comença gratuïtament",
     "home_page__call_to_action__sub_title": "Utilitza IA personalitzada d'1 clic en qualsevol lloc per estalviar hores cada dia.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Referència simultània a ambdós idiomes",
     "home_page__features_carousel__feature_translator__description3": "Compatibilitat amb 58 idiomes",
     "home_page__features_carousel__feature_translator__description4": "Tradueix amb una qualitat un 400% millor, com ho faria una persona",
-    "home_page__features_carousel__cta_button__text": "Instal·la MaxAI de franc",
+    "home_page__features_carousel__cta_button__text": "Afegir a {{BROWSER}} de forma gratuïta",
     "home_page__trusted_by__title": "Confien en nosaltres empreses i universitats de tot el món",
     "home_page__in_numbers__title": "MaxAI en xifres",
     "home_page__in_numbers__privacy_friendly__title": "100% respectuós amb la privadesa",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Com girar pàgines de PDF en línia:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Carregueu el document PDF que voleu girar.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Seleccioneu les pàgines específiques per a la rotació o apliqueu la rotació a totes les pàgines.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarregueu el vostre PDF modificat, amb les pàgines ara en la orientació correcta, llest per a qualsevol ús."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Descarregueu el vostre PDF modificat, amb les pàgines ara en la orientació correcta, llest per a qualsevol ús.",
+    "home_page__hero_section__title__variant2__part1": "IA en un clic a tot arreu.",
+    "home_page__hero_section__title__variant2__part2": "Fes més en menys temps.",
+    "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",

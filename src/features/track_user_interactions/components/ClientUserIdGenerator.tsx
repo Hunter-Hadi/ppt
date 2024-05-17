@@ -1,9 +1,9 @@
 import { useRouter } from 'next/router';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
-import { v4 as uuidV4 } from 'uuid';
 
 import { mixpanelIdentify } from '@/features/mixpanel/utils';
 import {
+  generateClientUserId,
   getClientUserId,
   setClientUserId,
 } from '@/features/track_user_interactions/utils';
@@ -69,7 +69,7 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
     if (!hasClientUserId) {
       // 如果没有 clientUserId，
       // 生成 clientUserId 并发送 message 到 iframe
-      const clientUserId = uuidV4();
+      const clientUserId = generateClientUserId();
       // mixpanel 需要 需要记录 clientUserId
       mixpanelIdentify('identify', clientUserId);
       sendClientUserIdToIFrame(clientUserId);

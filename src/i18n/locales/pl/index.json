@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-kliknięcie AI wszędzie,",
     "home_page__hero_section__title__part2": "Mniej czasu,",
     "home_page__hero_section__title__part3": "Lepsze wyniki.",
-    "home_page__hero_section__desc": "Użyj spersonalizowanej sztucznej inteligencji z jednym kliknięciem w dowolnym miejscu, aby zaoszczędzić godziny każdego dnia. Zasilane przez ChatGPT, Claude 3, Gemini 1.5, GPT-4 i więcej.",
+    "home_page__hero_section__desc": "Użyj spersonalizowanej sztucznej inteligencji z jednym kliknięciem w dowolnym miejscu, aby zaoszczędzić godziny każdego dnia. Zasilane przez ChatGPT, Claude 3, Gemini 1.5, GPT-4o i więcej.",
     "home_page__user_comment__title": "Kochają MaxAI",
     "home_page__call_to_action__title": "Rozpocznij za darmo",
     "home_page__call_to_action__sub_title": "Użyj spersonalizowanej sztucznej inteligencji z jednym kliknięciem w dowolnym miejscu, aby zaoszczędzić godziny każdego dnia.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Jednoczesne odwoływanie się do obu języków",
     "home_page__features_carousel__feature_translator__description3": "Obsługuje 58 języków",
     "home_page__features_carousel__feature_translator__description4": "Tłumacz z jakością lepszą o 400%, tak jakby to robił człowiek",
-    "home_page__features_carousel__cta_button__text": "Zainstaluj MaxAI za darmo",
+    "home_page__features_carousel__cta_button__text": "Dodaj do {{BROWSER}} za darmo",
     "home_page__trusted_by__title": "Zaufane przez firmy i uniwersytety na całym świecie",
     "home_page__in_numbers__title": "MaxAI w liczbach",
     "home_page__in_numbers__privacy_friendly__title": "100% przyjazne dla prywatności",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Jak obrócić strony w pliku PDF online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Prześlij plik PDF, który chcesz obrócić.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Wybierz konkretne strony do obrócenia lub zastosuj obrót do wszystkich stron.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Pobierz zmodyfikowany plik PDF, w którym strony są już we właściwej orientacji, gotowy do dowolnego użycia."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Pobierz zmodyfikowany plik PDF, w którym strony są już we właściwej orientacji, gotowy do dowolnego użycia.",
+    "home_page__hero_section__title__variant2__part1": "AI wszędzie za jednym kliknięciem.",
+    "home_page__hero_section__title__variant2__part2": "Zrób więcej w krótszym czasie.",
+    "home_page__hero_section__desc__variant2": "Oszczędź czas i uzyskaj lepsze wyniki dzięki czatowi AI, przepisywarce, podsumowaniu i natychmiastowej odpowiedzi. Napędzane przez GPT-4o, Claude 3 i Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",

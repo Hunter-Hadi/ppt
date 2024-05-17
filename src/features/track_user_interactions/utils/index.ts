@@ -3,6 +3,7 @@ import { i18n, ResourceKey, ResourceLanguage } from 'i18next';
 import { debounce } from 'lodash-es';
 import React, { useCallback, useEffect } from 'react';
 import { UAParser } from 'ua-parser-js';
+import { v4 as uuidV4 } from 'uuid';
 
 import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
@@ -247,10 +248,23 @@ export const useTrackUserInteractions = (i18nInstance: i18n) => {
   }, [handleUserInteraction]);
 };
 
-export const getClientUserId = () => {
-  return getLocalStorage('CLIENT_USER_ID') || '';
+export const getClientUserId = (autoGenerate = false) => {
+  let clientUserId = getLocalStorage('CLIENT_USER_ID') || '';
+  if (autoGenerate && !clientUserId) {
+    clientUserId = generateClientUserId();
+    setClientUserId(clientUserId);
+    return clientUserId;
+  } else {
+    return clientUserId;
+  }
 };
 
 export const setClientUserId = (clientUserId: string) => {
   return setLocalStorage('CLIENT_USER_ID', clientUserId, true);
+};
+
+export const generateClientUserId = () => {
+  // 生成 clientUserId
+  const clientUserId = uuidV4();
+  return clientUserId;
 };

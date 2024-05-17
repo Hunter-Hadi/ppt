@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-klik AI bilo gde,",
     "home_page__hero_section__title__part2": "Manje vremena,",
     "home_page__hero_section__title__part3": "Bolji rezultati.",
-    "home_page__hero_section__desc": "Koristite personalizovanu AI sa samo jednim klikom bilo gde da biste uštedeli sate svakog dana. Pokreće ga ChatGPT, Claude 3, Gemini 1.5, GPT-4 i još mnogo toga.",
+    "home_page__hero_section__desc": "Koristite personalizovanu AI sa samo jednim klikom bilo gde da biste uštedeli sate svakog dana. Pokreće ga ChatGPT, Claude 3, Gemini 1.5, GPT-4o i još mnogo toga.",
     "home_page__user_comment__title": "Vole MaxAI",
     "home_page__call_to_action__title": "Počnite besplatno",
     "home_page__call_to_action__sub_title": "Koristite personalizovanu AI sa samo jednim klikom bilo gde da biste uštedeli sate svakog dana.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Simultano referisanje na oba jezika",
     "home_page__features_carousel__feature_translator__description3": "Podržava 58 jezika",
     "home_page__features_carousel__feature_translator__description4": "Prevodi sa 400% boljim kvalitetom, baš kao što bi to uradio čovek",
-    "home_page__features_carousel__cta_button__text": "Instaliraj MaxAI besplatno",
+    "home_page__features_carousel__cta_button__text": "Dodajte u {{BROWSER}} besplatno",
     "home_page__trusted_by__title": "Poveren od strane poslovnih subjekata i univerziteta širom sveta",
     "home_page__in_numbers__title": "MaxAI u brojkama",
     "home_page__in_numbers__privacy_friendly__title": "100% prijateljski prema privatnosti",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Kako rotirati stranice PDF-a online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Otpremite PDF dokument koji želite da rotirate.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Izaberite specifične stranice za rotaciju ili primenite rotaciju na sve stranice.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Preuzmite izmenjeni PDF, sa stranicama u ispravnoj orijentaciji, spreman za bilo koju upotrebu."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Preuzmite izmenjeni PDF, sa stranicama u ispravnoj orijentaciji, spreman za bilo koju upotrebu.",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI svuda.",
+    "home_page__hero_section__title__variant2__part2": "Uradi više u manje vremena.",
+    "home_page__hero_section__desc__variant2": "Uštedite vreme i postignite bolje rezultate uz pomoć AI četa, prepravljača, sumiratora i trenutnog odgovora. Pokreće GPT-4o, Claude 3 i Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteka AI uputa visokog kvaliteta",

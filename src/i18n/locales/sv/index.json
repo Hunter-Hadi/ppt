@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-klicks AI var som helst,",
     "home_page__hero_section__title__part2": "Mindre tid,",
     "home_page__hero_section__title__part3": "Bättre resultat.",
-    "home_page__hero_section__desc": "Använd personlig AI med 1-klick var som helst för att spara timmar varje dag. Drivs av ChatGPT, Claude 3, Gemini 1.5, GPT-4 och mer.",
+    "home_page__hero_section__desc": "Använd personlig AI med 1-klick var som helst för att spara timmar varje dag. Drivs av ChatGPT, Claude 3, Gemini 1.5, GPT-4o och mer.",
     "home_page__user_comment__title": "De älskar MaxAI",
     "home_page__call_to_action__title": "Kom igång gratis",
     "home_page__call_to_action__sub_title": "Använd personlig AI med 1-klick var som helst för att spara timmar varje dag.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "Samtidig referens till båda språken",
     "home_page__features_carousel__feature_translator__description3": "Stödjer 58 språk",
     "home_page__features_carousel__feature_translator__description4": "Översätt med 400% bättre kvalitet, precis som en människa skulle göra",
-    "home_page__features_carousel__cta_button__text": "Installera MaxAI gratis",
+    "home_page__features_carousel__cta_button__text": "Lägg till i {{BROWSER}} gratis",
     "home_page__trusted_by__title": "Förtroende från företag och universitet över hela världen",
     "home_page__in_numbers__title": "MaxAI i siffror",
     "home_page__in_numbers__privacy_friendly__title": "100% integritetsvänligt",
@@ -602,7 +602,10 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "Så här roterar du PDF-sidor online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Ladda upp den PDF-fil du vill rotera.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Välj specifika sidor för rotation eller applicera rotationen på alla sidor.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Ladda ner din ändrade PDF, med sidor nu i rätt orientering, redo för användning."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Ladda ner din ändrade PDF, med sidor nu i rätt orientering, redo för användning.",
+    "home_page__hero_section__title__variant2__part1": "1-klicks AI överallt.",
+    "home_page__hero_section__title__variant2__part2": "Gör mer på mindre tid.",
+    "home_page__hero_section__desc__variant2": "Spara tid och få bättre resultat med AI-chatt, omskrivare, sammanfattare och snabbt svar. Drivs av GPT-4o, Claude 3 och Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",
