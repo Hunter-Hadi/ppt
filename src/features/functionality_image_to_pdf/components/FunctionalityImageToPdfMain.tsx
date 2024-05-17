@@ -1,7 +1,9 @@
 import { CircularProgress, Stack } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC, lazy, Suspense, useState } from 'react';
 
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
 const FunctionalityImageToPdfDetail = lazy(
   () =>
@@ -15,6 +17,7 @@ interface IFunctionalityImageToPdfMainProps {
 const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
   accept,
 }) => {
+  const { t } = useTranslation();
   const [fileList, setFileList] = useState<FileList | null>(null); //文件
   const onUploadFile = async (fileList: FileList) => {
     //用户上传，读取pdf文件显示的图片列表
@@ -22,7 +25,13 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
       setFileList(fileList);
     }
   };
-
+  const handleUnsupportedFileTypeTip = () => {
+    functionalityCommonSnackNotifications(
+      t(
+        'functionality__image_to_pdf:components__image_to_pdf__error_uploaded__tips',
+      ),
+    );
+  };
   return (
     <Stack
       flexDirection='column'
@@ -39,6 +48,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
             accept: accept,
           }}
           onChange={onUploadFile}
+          handleUnsupportedFileType={handleUnsupportedFileTypeTip}
         />
       )}
       {fileList && (

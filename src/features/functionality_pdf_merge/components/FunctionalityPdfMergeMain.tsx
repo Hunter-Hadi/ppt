@@ -10,7 +10,7 @@ const FunctionalityPdfMergeDetail = lazy(
     ),
 );
 
-const FunctionalityRotatePdfMain = () => {
+const FunctionalityPdfMergeMain = () => {
   const [fileList, setFileList] = useState<FileList | null>(null); //文件
   const onUploadFile = async (fileList: FileList) => {
     //用户上传，读取pdf文件显示的图片列表
@@ -47,4 +47,4 @@ const FunctionalityRotatePdfMain = () => {
     </Stack>
   );
 };
-export default FunctionalityRotatePdfMain;
+export default FunctionalityPdfMergeMain;

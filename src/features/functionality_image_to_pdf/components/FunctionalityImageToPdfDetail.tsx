@@ -36,16 +36,14 @@ import {
 type IFunctionalityImageToPdfImageInfo = IFunctionalityCommonImageInfo & {
   file: File | Blob;
 };
-interface IFunctionalityImageToPdfMainProps {
+interface IFunctionalityImageToPdfDetailProps {
   accept?: string;
   fileList: FileList;
   onRemoveFileList: () => void;
 }
-const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
-  accept,
-  fileList,
-  onRemoveFileList,
-}) => {
+const FunctionalityImageToPdfDetail: FC<
+  IFunctionalityImageToPdfDetailProps
+> = ({ accept, fileList, onRemoveFileList }) => {
   const uploadAccept = useMemo(
     () => accept || 'image/png, image/jpeg,image/heic', //如果没有传入accept参数，默认支持png,jpeg,heic。防止无法上传文件情况
     [accept],
@@ -497,4 +495,4 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
     </React.Fragment>
   );
 };
-export default FunctionalityImageToPdfMain;
+export default FunctionalityImageToPdfDetail;

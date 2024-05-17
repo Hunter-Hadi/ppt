@@ -36,12 +36,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 
-interface IFunctionalityRotatePdfMain {
+interface IFunctionalityPdfMergeDetail {
   fileList: FileList;
   onRemoveFile: () => void;
 }
 
-const FunctionalityPdfMergeMain: FC<IFunctionalityRotatePdfMain> = ({
+const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
   fileList,
   onRemoveFile,
 }) => {
@@ -374,4 +374,4 @@ const FunctionalityPdfMergeMain: FC<IFunctionalityRotatePdfMain> = ({
     </React.Fragment>
   );
 };
-export default FunctionalityPdfMergeMain;
+export default FunctionalityPdfMergeDetail;

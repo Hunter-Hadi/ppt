@@ -15,7 +15,7 @@ interface IFunctionalityPdfToImageProps {
   toType: 'pdf-to-jpeg' | 'pdf-to-png';
 }
 
-const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
+const FunctionalityPdfToImageMain: FC<IFunctionalityPdfToImageProps> = ({
   toType,
 }) => {
   const [fileData, setFileData] = useState<File | null>(null);
@@ -62,4 +62,4 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
     </Stack>
   );
 };
-export default FunctionalityPdfToImage;
+export default FunctionalityPdfToImageMain;

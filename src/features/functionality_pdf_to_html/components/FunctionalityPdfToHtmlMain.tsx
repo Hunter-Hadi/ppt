@@ -10,7 +10,7 @@ const FunctionalityPdfToHtmlDetail = lazy(
     ),
 );
 
-const FunctionalityImageToPdfMain = ({}) => {
+const FunctionalityPdfToHtmlMain = ({}) => {
   const [file, setFile] = useState<File | null>(null); //文件
   const onUploadFile = async (fileList: FileList) => {
     //用户上传，读取pdf文件显示的图片列表
@@ -47,4 +47,4 @@ const FunctionalityImageToPdfMain = ({}) => {
     </Stack>
   );
 };
-export default FunctionalityImageToPdfMain;
+export default FunctionalityPdfToHtmlMain;

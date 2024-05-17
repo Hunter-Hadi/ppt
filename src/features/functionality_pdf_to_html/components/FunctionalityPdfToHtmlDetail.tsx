@@ -18,12 +18,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 
-interface IFunctionalityPdfToHtmlMain {
+interface IFunctionalityPdfToHtmlDetail {
   file: File;
   onRemoveFile: () => void;
 }
 
-const FunctionalityPdfToHtmlMain: FC<IFunctionalityPdfToHtmlMain> = ({
+const FunctionalityPdfToHtmlDetail: FC<IFunctionalityPdfToHtmlDetail> = ({
   file,
   onRemoveFile,
 }) => {
@@ -177,4 +177,4 @@ const FunctionalityPdfToHtmlMain: FC<IFunctionalityPdfToHtmlMain> = ({
     </Stack>
   );
 };
-export default FunctionalityPdfToHtmlMain;
+export default FunctionalityPdfToHtmlDetail;

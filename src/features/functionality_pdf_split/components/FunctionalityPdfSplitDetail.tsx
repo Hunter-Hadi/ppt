@@ -34,12 +34,12 @@ import { downloadUrl } from '@/features/functionality_common/utils/functionality
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
-interface IFunctionalityRotatePdfMain {
+interface IFunctionalityPdfSplitDetail {
   file: File;
   onRemoveFile: () => void;
 }
 
-export const FunctionalityPdfSplitMain: FC<IFunctionalityRotatePdfMain> = ({
+export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
   file,
   onRemoveFile,
 }) => {
@@ -370,4 +370,4 @@ export const FunctionalityPdfSplitMain: FC<IFunctionalityRotatePdfMain> = ({
     </React.Fragment>
   );
 };
-export default FunctionalityPdfSplitMain;
+export default FunctionalityPdfSplitDetail;

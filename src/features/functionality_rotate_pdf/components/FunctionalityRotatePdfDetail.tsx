@@ -34,11 +34,11 @@ import FunctionalityRotatePdfIcon from '@/features/functionality_rotate_pdf/comp
 type IFunctionalityRotatePdfType = IFunctionalityPdfToImageType & {
   rotateAngle: number;
 };
-interface IFunctionalityRotatePdfMain {
+interface IFunctionalityRotatePdfDetail {
   file: File;
   onRemoveFile: () => void;
 }
-const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfMain> = ({
+const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
   file,
   onRemoveFile,
 }) => {
