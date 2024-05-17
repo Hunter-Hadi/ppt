@@ -12,7 +12,9 @@ import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 const LandingABTestVariantKeyAtom = atom({
   key: 'LandingABTestVariantKeyAtom',
-  default: getLocalStorage(TEST_LANDING_COOKIE_NAME) as ILandingVariantType,
+  default: getLocalStorage(
+    TEST_LANDING_COOKIE_NAME,
+  ) as ILandingVariantType | null,
 });
 
 const useLandingABTester = () => {
