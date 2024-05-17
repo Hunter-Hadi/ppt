@@ -37,119 +37,122 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
 }) => {
   const { t } = useTranslation();
 
-  const [positionValue, setPositionValue] = useState<IPositionValue>('bottom');
-  const [marginsNumberValue, setMarginsNumberValueValue] = useState<number>(35);
-  const [startNumberValue, setStartNumberValue] = useState(1);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [positionValue, setPositionValue] = useState<IPositionValue>('bottom'); //设置 添加的位置
+  const [marginsNumberValue, setMarginsNumberValueValue] = useState<number>(35); //设置边距
+  const [startNumberValue, setStartNumberValue] = useState(1); //设置开始的数字
+  const [isLoading, setIsLoading] = useState<boolean>(false); //设置加载状态
 
-  const circleGridView = (
-    activeType: string = 'top',
-    viewSize: number = 150,
-    onChange: (viewPosition: IPositionValue) => void,
-  ) => {
-    const viewPositionsList: IPositionValue[][] = [
-      ['topLeft', 'top', 'topRight'],
-      ['bottomLeft', 'bottom', 'bottomRight'],
-    ];
-    const borderColor = '#d1d1d1';
-    return (
-      <Stack
-        direction='column'
-        justifyContent='space-between'
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          border: `1px solid ${borderColor}`,
-          backgroundColor: '#f9f9f9',
-          height: viewSize,
-          width: viewSize,
-        }}
-      >
-        {viewPositionsList.map((viewPositions, index) => (
-          <Stack
-            direction='row'
-            justifyContent='space-between'
-            key={index}
-            sx={{
-              height: '33%',
-              borderBottom: index === 0 ? `1px solid ${borderColor}` : '',
-              borderTop: index === 1 ? `1px solid ${borderColor}` : '',
-            }}
-          >
-            {viewPositions.map((viewPosition, index) => (
-              <Box
-                onClick={() => onChange(viewPosition)}
-                key={index}
-                sx={{
-                  cursor: 'pointer',
-                  width: '33%',
-                  height: '100%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  borderRight: index !== 2 ? `1px solid ${borderColor}` : '',
-                  backgroundColor: '#fff',
-                }}
-              >
-                <Stack
-                  direction='column'
-                  alignItems='center'
-                  justifyContent='center'
+  //圆形的9宫格网格视图
+  const withCircleGridView = useCallback(
+    (
+      activeType: string = 'top',
+      viewSize: number = 150,
+      onChange: (viewPosition: IPositionValue) => void,
+    ) => {
+      const viewPositionsList: IPositionValue[][] = [
+        ['topLeft', 'top', 'topRight'],
+        ['bottomLeft', 'bottom', 'bottomRight'],
+      ];
+      const borderColor = '#d1d1d1';
+      return (
+        <Stack
+          direction='column'
+          justifyContent='space-between'
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            border: `1px solid ${borderColor}`,
+            backgroundColor: '#f9f9f9',
+            height: viewSize,
+            width: viewSize,
+          }}
+        >
+          {viewPositionsList.map((viewPositions, index) => (
+            <Stack
+              direction='row'
+              justifyContent='space-between'
+              key={index}
+              sx={{
+                height: '33%',
+                borderBottom: index === 0 ? `1px solid ${borderColor}` : '',
+                borderTop: index === 1 ? `1px solid ${borderColor}` : '',
+              }}
+            >
+              {viewPositions.map((viewPosition, index) => (
+                <Box
+                  onClick={() => onChange(viewPosition)}
+                  key={index}
                   sx={{
-                    width: '40%',
-                    height: '40%',
-                    borderRadius: '50%',
-                    border:
-                      viewPosition === activeType
-                        ? '2px solid #9065B0'
-                        : '1px solid gray',
+                    cursor: 'pointer',
+                    width: '33%',
+                    height: '100%',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRight: index !== 2 ? `1px solid ${borderColor}` : '',
+                    backgroundColor: '#fff',
                   }}
                 >
-                  <Box
+                  <Stack
+                    direction='column'
+                    alignItems='center'
+                    justifyContent='center'
                     sx={{
-                      width: 'calc(100% - 3px)',
-                      height: 'calc(100% - 3px)',
+                      width: '40%',
+                      height: '40%',
                       borderRadius: '50%',
-                      bgcolor:
-                        viewPosition === activeType ? 'primary.main' : '',
+                      border:
+                        viewPosition === activeType
+                          ? '2px solid #9065B0'
+                          : '1px solid gray',
                     }}
-                  />
-                </Stack>
-              </Box>
-            ))}
-          </Stack>
-        ))}
-      </Stack>
-    );
-  };
+                  >
+                    <Box
+                      sx={{
+                        width: 'calc(100% - 3px)',
+                        height: 'calc(100% - 3px)',
+                        borderRadius: '50%',
+                        bgcolor:
+                          viewPosition === activeType ? 'primary.main' : '',
+                      }}
+                    />
+                  </Stack>
+                </Box>
+              ))}
+            </Stack>
+          ))}
+        </Stack>
+      );
+    },
+    [],
+  );
   const onAddPagesNumberAndDownload = useCallback(async () => {
-    // 开发Test默认bottom
     try {
       setIsLoading(true);
       const buff = await file.arrayBuffer(); // Uint8Array
       const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
       for (var index = 0; index < pdfDocument.getPages().length; index++) {
-        const page = pdfDocument.getPage(index);
-        const { width, height } = page.getSize();
+        const page = pdfDocument.getPage(index); //获取页面
+        const { width, height } = page.getSize(); //获取页面的宽高
         const fontSize = 12;
-        const textWidth = startNumberValue.toString().length * (fontSize / 1.8); //大概的计算文本的宽度
+        const textWidth = startNumberValue.toString().length * (fontSize / 1.8); //大概的计算插入文本的宽度
         let x = 50,
           y = 0;
         switch (positionValue) {
           case 'bottom':
             //位于底部的中心位置
             x = width / 2 - textWidth / 2; //中心位置-文字宽度的一半
-            y = marginsNumberValue;
+            y = marginsNumberValue; //用户设置的边距
             break;
           case 'bottomLeft':
             //位于底部的中心位置
-            x = marginsNumberValue;
-            y = marginsNumberValue;
+            x = marginsNumberValue; //用户设置的边距
+            y = marginsNumberValue; //用户设置的边距
             break;
           case 'bottomRight':
             //位于底部的中心位置
             x = width - marginsNumberValue - textWidth; //宽度-边距-文字宽度
-            y = marginsNumberValue;
+            y = marginsNumberValue; //用户设置的边距
             break;
           case 'top':
             //位于底部的中心位置
@@ -158,7 +161,7 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
             break;
           case 'topLeft':
             //位于底部的中心位置
-            x = marginsNumberValue;
+            x = marginsNumberValue; //用户设置的边距
             y = height - marginsNumberValue; //高度-边距
             break;
           case 'topRight':
@@ -171,13 +174,13 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
           x: x,
           y: y,
           size: fontSize,
-        });
+        }); //插入文本
       }
-      const blobData = await pdfDocument.save();
+      const blobData = await pdfDocument.save(); //保存pdf文件
       const fileName = functionalityCommonFileNameRemoveAndAddExtension(
         file.name,
-      );
-      downloadUrl(blobData, fileName);
+      ); //获取文件名
+      downloadUrl(blobData, fileName); //下载文件
       setIsLoading(false);
     } catch (error) {
       setIsLoading(false);
@@ -233,7 +236,7 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
               )}
             </Typography>
           </Box>
-          {circleGridView(positionValue, 150, (value) => {
+          {withCircleGridView(positionValue, 150, (value) => {
             setPositionValue(value);
           })}
         </Grid>
