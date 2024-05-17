@@ -42,3 +42,17 @@ export const LANDING_VARIANT: ILandingVariantData[] = [
     variant: 'title2__desc2__features_expand',
   },
 ];
+
+export const LANDING_VARIANT_TO_VERSION_MAP: Record<
+  ILandingVariantType,
+  number
+> = {
+  title1__desc1__features_carousel: 1,
+  title1__desc1__features_expand: 2,
+  title1__desc2__features_carousel: 3,
+  title1__desc2__features_expand: 4,
+  title2__desc1__features_carousel: 5,
+  title2__desc1__features_expand: 6,
+  title2__desc2__features_carousel: 7,
+  title2__desc2__features_expand: 8,
+};

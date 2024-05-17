@@ -6,6 +6,7 @@ import { atom, useRecoilState } from 'recoil';
 import {
   ILandingVariantType,
   LANDING_VARIANT,
+  LANDING_VARIANT_TO_VERSION_MAP,
   TEST_LANDING_COOKIE_NAME,
 } from '@/features/ab_tester/constant/landingVariant';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
@@ -32,7 +33,7 @@ const useLandingABTester = () => {
     if (variant) {
       sendMixpanelOnce.current = true;
       mixpanelTrack('test_page_viewed', {
-        testVersion: variant,
+        testVersion: LANDING_VARIANT_TO_VERSION_MAP[variant],
       });
     }
   }, [variant]);
