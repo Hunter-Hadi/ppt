@@ -33,7 +33,7 @@ const UploadButton: FC<
   }
 > = (props) => {
   const { isReady } = useRouter();
-  const [isPageLoadingComplete, setIsPageLoadingComplete] = useState(false);
+  const [isPageLoadingComplete, setIsPageLoadingComplete] = useState(true);
   const {
     children,
     onChange,
