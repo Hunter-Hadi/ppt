@@ -2,6 +2,7 @@ import { Box, Skeleton, Stack } from '@mui/material';
 import { useRouter } from 'next/router';
 import { FC, useEffect } from 'react';
 
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import FeaturesCarousel from '@/features/landing/components/FeaturesCarousel';
 
@@ -14,13 +15,15 @@ import UserComment from './UserComment';
 
 interface IProps {
   propRef?: string;
+
+  testing?: boolean;
 }
 
-const HomePageContent: FC<IProps> = ({ propRef }) => {
+const HomePageContent: FC<IProps> = ({ propRef, testing }) => {
   const { isReady, asPath } = useRouter();
 
   const {
-    variant,
+    // variant,
     loaded,
     title,
     description,
@@ -38,10 +41,41 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
     }
   }, [isReady, asPath]);
 
+  if (testing) {
+    return (
+      <AppLoadingLayout loading={!loaded} sx={{ minHeight: '50vh' }}>
+        <Stack color='text.primary'>
+          {/* heroSection */}
+          <HeroSection
+            propRef={propRef}
+            // loading={!loaded}
+            title={title}
+            description={description}
+          />
+
+          {/* feature carousel */}
+          {featuresCarousel && <FeaturesCarousel />}
+          {featuresExpand && <FeaturesExpandSection />}
+          {/* {!loaded && <FeaturesCarouselSkeleton />} */}
+
+          {/* trusted by */}
+          <TrustedBy />
+
+          {/* maxai in numbers */}
+          <MaxAIInNumbers />
+
+          {/* user comment */}
+          <UserComment />
+
+          {/* call to action section */}
+          <CallToActionSection propRef={propRef} />
+        </Stack>
+      </AppLoadingLayout>
+    );
+  }
+
   return (
     <Stack color='text.primary'>
-      <h1>variant: {variant}</h1>
-      <h1>loaded: {`${loaded}`}</h1>
       {/* heroSection */}
       <HeroSection
         propRef={propRef}
