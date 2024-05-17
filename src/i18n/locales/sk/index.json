@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Pomocník pre čítanie s umelou inteligenciou | MaxAI.me",
     "features_landing__ai_reader__description": "Urobte zložité informácie ľahko pochopiteľné, ako odborník.",
     "pdf_tools__rotate_pdf__title": "Otočiť PDF - Jednoduché otočenie stránok v dokumentoch PDF online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Jednoducho otočte stránky vo vašich dokumentoch PDF online zadarmo. Upravte orientáciu akýchkoľvek stránok PDF jediným kliknutím - žiadne obmedzenia veľkosti súboru, žiadne sťahovania ani registrácie nie sú potrebné."
+    "pdf_tools__rotate_pdf__description": "Jednoducho otočte stránky vo vašich dokumentoch PDF online zadarmo. Upravte orientáciu akýchkoľvek stránok PDF jediným kliknutím - žiadne obmedzenia veľkosti súboru, žiadne sťahovania ani registrácie nie sú potrebné.",
+    "pdf_tools__pdf_numbers_page__title": "Pridajte čísla stránok do PDF - Rýchly online nástroj na číslovanie | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Rýchlo pridajte čísla stránok do PDF súborov online. Žiadny softvér nie je potrebný, spracovanie prebieha v prehliadači. Bez vodoznaku, obmedzení veľkosti súboru, sťahovania alebo registrácie."
   },
   "features_landing": {
     "cta_text": "Pridať do prehliadača",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Široké",
     "components__pdf_number_pages__main_start_numbering_at": "Začať číslovanie od",
     "components__pdf_number_pages__main_input_start_numbering_at": "Zadajte začiatok číslovania",
-    "components__pdf_number_pages__main_add_and_download": "Pridať a stiahnuť"
+    "components__pdf_number_pages__main_add_and_download": "Pridať a stiahnuť",
+    "components__pdf_number_pages__main_choose_another_file": "Vyberte iný súbor"
   }
 }

@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Läshjälp | MaxAI.me",
     "features_landing__ai_reader__description": "Gör komplex information lätt att förstå, precis som en expert.",
     "pdf_tools__rotate_pdf__title": "Rotera PDF - Enkelt rotera sidor i PDF-dokument online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Rotera sidor i dina PDF-dokument online utan ansträngning och gratis. Justera orienteringen av vilken PDF-sida som helst med bara ett klick - inga filstorleksbegränsningar, nedladdningar eller registreringar krävs."
+    "pdf_tools__rotate_pdf__description": "Rotera sidor i dina PDF-dokument online utan ansträngning och gratis. Justera orienteringen av vilken PDF-sida som helst med bara ett klick - inga filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "pdf_tools__pdf_numbers_page__title": "Lägg till sidnummer i PDF – Snabb online-numrering | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Lägg snabbt till sidnummer i PDF-filer online. Ingen programvara behövs, säker bearbetning i webbläsaren. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs."
   },
   "features_landing": {
     "cta_text": "Lägg till i webbläsaren",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Bred",
     "components__pdf_number_pages__main_start_numbering_at": "Börja numrering vid",
     "components__pdf_number_pages__main_input_start_numbering_at": "Ange startnummer vid",
-    "components__pdf_number_pages__main_add_and_download": "Lägg till och ladda ner"
+    "components__pdf_number_pages__main_add_and_download": "Lägg till och ladda ner",
+    "components__pdf_number_pages__main_choose_another_file": "Välj en annan fil"
   }
 }

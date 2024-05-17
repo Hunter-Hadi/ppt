@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Reading Assistant | MaxAI.me",
     "features_landing__ai_reader__description": "Gawing madali ang komplikadong impormasyon na maintindihan, tulad ng isang eksperto.",
     "pdf_tools__rotate_pdf__title": "I-rotate ang PDF - Madaling I-Rotate ang Mga Pahina sa Dokumentong PDF Online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Nang walang abala, i-rotate ang mga pahina sa loob ng iyong mga dokumento sa PDF online nang libre. I-adjust ang orientasyon ng anumang pahina sa PDF sa isang click lamang - walang limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan."
+    "pdf_tools__rotate_pdf__description": "Nang walang abala, i-rotate ang mga pahina sa loob ng iyong mga dokumento sa PDF online nang libre. I-adjust ang orientasyon ng anumang pahina sa PDF sa isang click lamang - walang limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
+    "pdf_tools__pdf_numbers_page__title": "Magdagdag ng mga Numero ng Pahina sa PDF - Mabilis na Online na Tool sa Pagnumera | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Madaliang magdagdag ng mga numero ng pahina sa mga file ng PDF online. Walang kailangang software, ligtas na pagproseso sa browser. Walang watermark, limitasyon sa laki ng file, pag-download, o pag-sign up ang kinakailangan."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Malawak",
     "components__pdf_number_pages__main_start_numbering_at": "Simulan ang pagnumera sa",
     "components__pdf_number_pages__main_input_start_numbering_at": "Ipasok ang simula ng pagnumera sa",
-    "components__pdf_number_pages__main_add_and_download": "Magdagdag at I-download"
+    "components__pdf_number_pages__main_add_and_download": "Magdagdag at I-download",
+    "components__pdf_number_pages__main_choose_another_file": "Pumili ng ibang file"
   }
 }

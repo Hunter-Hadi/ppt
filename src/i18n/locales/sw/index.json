@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Msaidizi wa Kusoma AI | MaxAI.me",
     "features_landing__ai_reader__description": "Fanya habari ngumu kuwa rahisi kuelewa, kama mtaalamu.",
     "pdf_tools__rotate_pdf__title": "Geuza PDF - Geuza Kurasa kwa urahisi katika Hati za PDF Mtandaoni | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Geuza kurasa ndani ya hati zako za PDF mtandaoni kwa urahisi bila malipo. Badilisha mwelekeo wa kurasa yoyote ya PDF kwa bonyeza moja tu - hakuna ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika."
+    "pdf_tools__rotate_pdf__description": "Geuza kurasa ndani ya hati zako za PDF mtandaoni kwa urahisi bila malipo. Badilisha mwelekeo wa kurasa yoyote ya PDF kwa bonyeza moja tu - hakuna ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
+    "pdf_tools__pdf_numbers_page__title": "Ongeza Nambari za Kurasa kwenye PDF - Zana ya Haraka ya Kuhesabu Mtandaoni | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Haraka ongeza nambari za kurasa kwenye faili za PDF mtandaoni. Hakuna programu inayohitajika, usindikaji salama kwenye kivinjari. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Panapana",
     "components__pdf_number_pages__main_start_numbering_at": "Anza uwekaji nambari kwenye",
     "components__pdf_number_pages__main_input_start_numbering_at": "Ingiza anza uwekaji nambari kwenye",
-    "components__pdf_number_pages__main_add_and_download": "Ongeza & Pakua"
+    "components__pdf_number_pages__main_add_and_download": "Ongeza & Pakua",
+    "components__pdf_number_pages__main_choose_another_file": "Chagua faili nyingine"
   }
 }

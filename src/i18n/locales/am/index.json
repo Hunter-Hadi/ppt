@@ -916,7 +916,9 @@
     "pdf_tools__ocr_pdf__title": "OCR PDF - በቀላሉ & በአማርኛ የPDF ጽሑፍ ቅንጅቶችን ለነፃ ማሳያ | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "የሚፈልጉትን የማጣሪያ የPDF ፕሮግራሞችን በማስተላለፍ የሚታይ፣ የሚሰጥ፣ የሚያውቁ፣ የሚልኩ፣ ወይም የሚያስፈልጉ ጽሑፍን በማስተላለፍ የሚታይ። የማስተላለፍ ድርጅቶች፣ የፋይል መጠቀምያዎች፣ የማስተላለፍ የሚታይ፣ የማስተላለፍ የሚሰጥ፣ የማስተላለፍ የሚያውቁ፣ የማስተላለፍ የሚልኩ፣ ወይም የማስተላለፍ የሚያስፈልጉ ጽሑፍን በማስተላለፍ የሚታይ።",
     "pdf_tools__rotate_pdf__title": "ፕድፊን ይጠቀሙ - ፕድፊን ፈልግዎት የሚጠቀሙ | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "ፕድፊን ፈልግዎት የሚጠቀሙ ፕሮግራሞችን በቀላሉ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ - የፕድፊን መጠቀም አልባ የፕሮግራሞችን ልማት, የሚያዘጋጁ, ወይም የሚያስፈልጉ አድራሻዎች የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ."
+    "pdf_tools__rotate_pdf__description": "ፕድፊን ፈልግዎት የሚጠቀሙ ፕሮግራሞችን በቀላሉ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ - የፕድፊን መጠቀም አልባ የፕሮግራሞችን ልማት, የሚያዘጋጁ, ወይም የሚያስፈልጉ አድራሻዎች የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ.",
+    "pdf_tools__pdf_numbers_page__title": "ገጽ ቁጥርን ለ PDF - በቀላሉ የተጨመሩ የጥቅል መሳሪያ | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "በቀላሉ የተጨመሩ የጥቅል መሳሪያዎችን ለመጨመር በመቀጠል የፋይል መጠቀም በመቀጠል የሚገኝ አጭር አስተካክል የሚሆንን ፣ የፋይል መጠቀም አይደለም። የጥቅል መሳሪያዎችን ለመጠቀም የሚያስፈልጉትን ፣ የፋይል መጠቀም አይደለም።"
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "ግራ",
     "components__pdf_number_pages__main_start_numbering_at": "ከመጀመሪያ ለመጀመሪያ ለማስተካከል",
     "components__pdf_number_pages__main_input_start_numbering_at": "ከመጀመሪያ ለመጀመሪያ ለማስተካከል",
-    "components__pdf_number_pages__main_add_and_download": "ጨምር & ደህንነት"
+    "components__pdf_number_pages__main_add_and_download": "ጨምር & ደህንነት",
+    "components__pdf_number_pages__main_choose_another_file": "ሌላ ፋይል ይምረጡ"
   }
 }

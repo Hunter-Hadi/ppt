@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "مساعد قراءة الذكاء الاصطناعي | MaxAI.me",
     "features_landing__ai_reader__description": "جعل المعلومات المعقدة سهلة الفهم، تمامًا كخبير.",
     "pdf_tools__rotate_pdf__title": "تدوير ملف PDF - قم بتدوير صفحات مستندات PDF عبر الإنترنت بسهولة | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "قم بتدوير صفحات مستندات PDF الخاصة بك بسهولة عبر الإنترنت مجانًا. قم بضبط توجيه أي صفحة PDF بنقرة واحدة فقط - لا حدود لحجم الملف، ولا حاجة للتنزيل أو التسجيل."
+    "pdf_tools__rotate_pdf__description": "قم بتدوير صفحات مستندات PDF الخاصة بك بسهولة عبر الإنترنت مجانًا. قم بضبط توجيه أي صفحة PDF بنقرة واحدة فقط - لا حدود لحجم الملف، ولا حاجة للتنزيل أو التسجيل.",
+    "pdf_tools__pdf_numbers_page__title": "إضافة أرقام الصفحات إلى ملف PDF - أداة ترقيم سريعة عبر الإنترنت | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "أضف بسرعة أرقام الصفحات إلى ملفات PDF عبر الإنترنت. لا حاجة لبرامج، معالجة آمنة في المتصفح. لا علامات مائية، ولا حدود لحجم الملف، ولا تحميلات، ولا تسجيل الدخول المطلوب."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "واسع",
     "components__pdf_number_pages__main_start_numbering_at": "بدء الترقيم من",
     "components__pdf_number_pages__main_input_start_numbering_at": "أدخل بدء الترقيم من",
-    "components__pdf_number_pages__main_add_and_download": "إضافة وتنزيل"
+    "components__pdf_number_pages__main_add_and_download": "إضافة وتنزيل",
+    "components__pdf_number_pages__main_choose_another_file": "اختر ملف آخر"
   }
 }

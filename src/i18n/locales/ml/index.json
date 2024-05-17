@@ -916,7 +916,9 @@
     "pdf_tools__ocr_pdf__title": "OCR PDF - ഫാസ്റ്റ് & ലോകൽ PDF ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫോർ ഫ്രീ | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "അടയാളപ്പെടാത്ത PDF രേഖകളെ സെൽക്റ്റേബിൾ ടെക്സ്റ്റാക്കുകയും തിരഞ്ഞെടുക്കാനുള്ള ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫ്രീയാക്കുക. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
     "pdf_tools__rotate_pdf__title": "പിഡിഎഫ് തിരിച്ചുവയ്ക്കുക - പിഡിഎഫ് പ്രമാണങ്ങൾക്ക് പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "സൗകര്യപ്രദമായി ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് പിഡിഎഫ് പ്രമാണങ്ങളിൽ നിന്നും പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക - ഫയൽ വലിയ പരിധികളോ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
+    "pdf_tools__rotate_pdf__description": "സൗകര്യപ്രദമായി ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് പിഡിഎഫ് പ്രമാണങ്ങളിൽ നിന്നും പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക - ഫയൽ വലിയ പരിധികളോ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
+    "pdf_tools__pdf_numbers_page__title": "PDF-ലേക്ക് പേജ് നമ്പർ ചേർക്കുക - വേഗത്തിൽ ഓൺലൈൻ നമ്പറിംഗ് ഉപകരണം | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "ഓൺലൈൻ പിഡിഎഫ് ഫയലുകൾക്ക് പേജ് നമ്പറുകൾ പൂർത്തിയാക്കുക. സോഫ്റ്റ്‌വെയർ അവശ്യമില്ല, സുരക്ഷിതമായ ബ്രൌസർ പ്രോസസ്സിംഗ്. വോട്ടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിധികൾ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "വിസ്തീർണ്ണമായ",
     "components__pdf_number_pages__main_start_numbering_at": "എണ്ണിച്ചെയ്യാൻ ആരംഭിക്കുക",
     "components__pdf_number_pages__main_input_start_numbering_at": "എണ്ണിച്ചെയ്യാൻ ആരംഭിക്കുക",
-    "components__pdf_number_pages__main_add_and_download": "ചേർക്കുക & ഡൗൺലോഡ്"
+    "components__pdf_number_pages__main_add_and_download": "ചേർക്കുക & ഡൗൺലോഡ്",
+    "components__pdf_number_pages__main_choose_another_file": "മറ്റൊരു ഫയൽ തിരഞ്ഞെടുക്കുക"
   }
 }

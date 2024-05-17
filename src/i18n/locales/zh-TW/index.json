@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI 閱讀助手 | MaxAI.me",
     "features_landing__ai_reader__description": "使複雜資訊易於理解，就像專家一樣。",
     "pdf_tools__rotate_pdf__title": "旋轉PDF - 在線輕鬆旋轉PDF文檔中的頁面 | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "輕鬆在線旋轉PDF文檔中的頁面，無需付費。只需點擊一下即可調整任何PDF頁面的方向-無文件大小限制，無需下載或註冊。"
+    "pdf_tools__rotate_pdf__description": "輕鬆在線旋轉PDF文檔中的頁面，無需付費。只需點擊一下即可調整任何PDF頁面的方向-無文件大小限制，無需下載或註冊。",
+    "pdf_tools__pdf_numbers_page__title": "將頁碼添加到PDF - 快速線上編號工具 | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "快速在線上將頁碼添加到PDF檔案。無需軟體，安全的瀏覽器處理。無浮水印、檔案大小限制、下載或註冊要求。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "寬",
     "components__pdf_number_pages__main_start_numbering_at": "從哪裡開始編號",
     "components__pdf_number_pages__main_input_start_numbering_at": "輸入從哪裡開始編號",
-    "components__pdf_number_pages__main_add_and_download": "添加並下載"
+    "components__pdf_number_pages__main_add_and_download": "添加並下載",
+    "components__pdf_number_pages__main_choose_another_file": "選擇另一個檔案"
   }
 }

@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "ผู้ช่วยอ่าน AI | MaxAI.me",
     "features_landing__ai_reader__description": "ทำให้ข้อมูลที่ซับซ้อนเป็นเรื่องง่ายต่อการเข้าใจ เหมือนผู้เชี่ยวชาญ",
     "pdf_tools__rotate_pdf__title": "หมุน PDF - หมุนหน้าในเอกสาร PDF ออนไลน์อย่างง่ายดาย | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "หมุนหน้าในเอกสาร PDF ของคุณอย่างง่ายดายออนไลน์ฟรี ปรับแนวหน้าของเอกสาร PDF ใดก็ได้ด้วยแค่คลิกเดียว - ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก"
+    "pdf_tools__rotate_pdf__description": "หมุนหน้าในเอกสาร PDF ของคุณอย่างง่ายดายออนไลน์ฟรี ปรับแนวหน้าของเอกสาร PDF ใดก็ได้ด้วยแค่คลิกเดียว - ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก",
+    "pdf_tools__pdf_numbers_page__title": "เพิ่มหมายเลขหน้าใน PDF - เครื่องมือการจัดเลขออนไลน์ที่รวดเร็ว | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "เพิ่มหมายเลขหน้าในไฟล์ PDF อย่างรวดเร็วออนไลน์ ไม่ต้องใช้ซอฟต์แวร์ ประมวลผลในเบราว์เซอร์อย่างปลอดภัย ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "เลือกทั้งหมด",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "กว้าง",
     "components__pdf_number_pages__main_start_numbering_at": "เริ่มต้นการจัดหมายเลขที่",
     "components__pdf_number_pages__main_input_start_numbering_at": "ป้อนเลขเริ่มต้นการจัดหมายเลขที่",
-    "components__pdf_number_pages__main_add_and_download": "เพิ่มและดาวน์โหลด"
+    "components__pdf_number_pages__main_add_and_download": "เพิ่มและดาวน์โหลด",
+    "components__pdf_number_pages__main_choose_another_file": "เลือกไฟล์อื่น"
   }
 }

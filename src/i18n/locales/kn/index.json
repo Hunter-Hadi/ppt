@@ -916,7 +916,9 @@
     "pdf_tools__ocr_pdf__title": "OCR PDF - ಫಾಸ್ಟ್ & ಲೋಕಲ್ ಪಿಡಿಎಫ್ ಪಠ್ಯ ಗುರುತಿಕೆ ಉಚಿತ | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "ಅನುಕ್ರಮಿಸಲಾಗದ ಪಿಡಿಎಫ್ ಆವರಣಗಳನ್ನು ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಅನುಕ್ರಮಿಸಲು ಮತ್ತು ಆಯ್ಕೆಗೆ ಒಳಪಡಿಸಲು. ಯಾವುದೇ ವಾಟರ್ಮಾರ್ಕ್ಸ್, ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳು, ಡೌನ್‌ಲೋಡ್‌ಗಳು ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳು ಬೇಕಾಗಿಲ್ಲ.",
     "pdf_tools__rotate_pdf__title": "PDF ತಿರುಗಿಸು - ಆನ್‌ಲೈನ್ ಪರಿಚಯದಲ್ಲಿ PDF ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ತಿರುಗಿಸಿ | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "ಉಚಿತವಾಗಿ ಆನ್‌ಲೈನ್ ಪರಿಚಯದಲ್ಲಿ ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿ ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ತಿರುಗಿಸಿ. ಯಾವುದೇ ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳಿಲ್ಲ, ಡೌನ್‌ಲೋಡ್‌ಗಳಿಲ್ಲ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳಿಲ್ಲ - ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಯಾವುದೇ PDF ಪುಟವನ್ನು ಸರಿಪಡಿಸಿ."
+    "pdf_tools__rotate_pdf__description": "ಉಚಿತವಾಗಿ ಆನ್‌ಲೈನ್ ಪರಿಚಯದಲ್ಲಿ ನಿಮ್ಮ PDF ದಾಖಲೆಗಳಲ್ಲಿ ಪುಟಗಳನ್ನು ಸುಲಭವಾಗಿ ತಿರುಗಿಸಿ. ಯಾವುದೇ ಫೈಲ್ ಗಾತ್ರ ಮಿತಿಗಳಿಲ್ಲ, ಡೌನ್‌ಲೋಡ್‌ಗಳಿಲ್ಲ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳಿಲ್ಲ - ಕೆಲವು ಕ್ಲಿಕ್‌ಗಳಿಂದ ಯಾವುದೇ PDF ಪುಟವನ್ನು ಸರಿಪಡಿಸಿ.",
+    "pdf_tools__pdf_numbers_page__title": "PDF-ಗೆ ಪುಟ ಸಂಖ್ಯೆಗಳನ್ನು ಸೇರಿಸಿ - ತ್ವರಿತ ಆನ್ಲೈನ್ ಸಂಖ್ಯಾಚ್ಛೇದನ ಉಪಕರಣ | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "ತ್ವರಿತವಾಗಿ ಪುಟ ಸಂಖ್ಯೆಗಳನ್ನು PDF ಕಡತಗಳಿಗೆ ಸೇರಿಸಿ. ಯಾವುದೇ ಸಾಫ್ಟ್‌ವೇರ್ ಬೇಕಿಲ್ಲ, ಭ್ರೌಸರ್ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ಭದ್ರತೆ. ಯಾವುದೇ ವಾಟರ್‌ಮಾರ್ಕ್‌ಗಳೂ, ಕಡತ ಗಾತ್ರ ಮಿತಿಗಳೂ, ಡೌನ್‌ಲೋಡ್‌ಗಳೂ ಅಥವಾ ಸೈನ್‌ಅಪ್‌ಗಳೂ ಬೇಕಿಲ್ಲ."
   },
   "features_landing": {
     "cta_text": "ಬ್ರೌಸರ್‌ಗೆ ಸೇರಿಸಿ",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "ವಿಸ್ತೃತ",
     "components__pdf_number_pages__main_start_numbering_at": "ಸಂಖ್ಯೆಗಳನ್ನು ಪ್ರಾರಂಭಿಸುವುದು",
     "components__pdf_number_pages__main_input_start_numbering_at": "ಪ್ರಾರಂಭಿಸುವುದಕ್ಕೆ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
-    "components__pdf_number_pages__main_add_and_download": "ಸೇರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್"
+    "components__pdf_number_pages__main_add_and_download": "ಸೇರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್",
+    "components__pdf_number_pages__main_choose_another_file": "ಇನ್ನೊಂದು ಕಡತವನ್ನು ಆಯ್ಕೆಮಾಡಿ"
   }
 }

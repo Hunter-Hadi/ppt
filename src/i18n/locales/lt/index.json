@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Skaitymo Asistentas | MaxAI.me",
     "features_landing__ai_reader__description": "Padarykite sudėtingą informaciją lengvai suprantamą, kaip ekspertas.",
     "pdf_tools__rotate_pdf__title": "Pasukti PDF - Paprastai pasukite puslapius PDF dokumentuose internete | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Nemokamai ir be pastangų pasukite puslapius savo PDF dokumentuose internete. Reguliuokite bet kurio PDF puslapio orientaciją vienu paspaudimu - nereikia failo dydžio apribojimų, atsisiuntimų ar registracijos."
+    "pdf_tools__rotate_pdf__description": "Nemokamai ir be pastangų pasukite puslapius savo PDF dokumentuose internete. Reguliuokite bet kurio PDF puslapio orientaciją vienu paspaudimu - nereikia failo dydžio apribojimų, atsisiuntimų ar registracijos.",
+    "pdf_tools__pdf_numbers_page__title": "Pridėkite puslapių numerius prie PDF – Greitas internetinis numeravimo įrankis | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Greitai pridėkite puslapių numerius prie PDF failų internetu. Nereikia jokio programinės įrangos, saugus naršyklėje vykdomas procesas. Nėra vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar prisijungimų reikalaujama."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Platūs",
     "components__pdf_number_pages__main_start_numbering_at": "Pradėti numeruoti nuo",
     "components__pdf_number_pages__main_input_start_numbering_at": "Įveskite pradžios numeravimą",
-    "components__pdf_number_pages__main_add_and_download": "Pridėti ir atsisiųsti"
+    "components__pdf_number_pages__main_add_and_download": "Pridėti ir atsisiųsti",
+    "components__pdf_number_pages__main_choose_another_file": "Pasirinkite kitą failą"
   }
 }

@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Կարդալիքի Օգնական | MaxAI.me",
     "features_landing__ai_reader__description": "Արտահայտեք բարդ տեքստերը հեշտությամբ, ինչպես մասնագիտացի։",
     "pdf_tools__rotate_pdf__title": "Պտեղեք PDF - Հեշտությամբ պտեղեք էջերը PDF փաստաթղթերում օնլայն | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Հեշտությամբ պտեղեք էջերը ձեր PDF փաստաթղթերում օնլայն, անվճար: Պտեղեք ցանկացած PDF-ի էջը մի կտորոնով - չկարողանալով բավարարելու չափսերի, ներբեռնման կամ գրանցման:"
+    "pdf_tools__rotate_pdf__description": "Հեշտությամբ պտեղեք էջերը ձեր PDF փաստաթղթերում օնլայն, անվճար: Պտեղեք ցանկացած PDF-ի էջը մի կտորոնով - չկարողանալով բավարարելու չափսերի, ներբեռնման կամ գրանցման:",
+    "pdf_tools__pdf_numbers_page__title": "Ավելացրեք էջանշաններ PDF-ին - Արագ օնլայն համարականության գործիք | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Արագությամբ ավելացրեք էջանշաններ PDF ֆայլերին օնլայն. Առանց ծրագրի, ապահովագրված բրաուզերի մեջ մշակվող. Առանց զգալիության, ֆայլի չափսերի, բեռնումների կամ գրանցման պահանջների"
   },
   "features_landing": {
     "cta_text": "Ավելացնել բրաուզերին",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Լայն",
     "components__pdf_number_pages__main_start_numbering_at": "Սկսեք համարների հաշվարկը",
     "components__pdf_number_pages__main_input_start_numbering_at": "Մուտքագրեք համարների հաշվարկը",
-    "components__pdf_number_pages__main_add_and_download": "Ավելացնել և բեռնել"
+    "components__pdf_number_pages__main_add_and_download": "Ավելացնել և բեռնել",
+    "components__pdf_number_pages__main_choose_another_file": "Ընտրեք մեկ այլ ֆայլ"
   }
 }

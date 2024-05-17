@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "એઆઈ વાંચક સહાયક | MaxAI.me",
     "features_landing__ai_reader__description": "મહત્વપૂર્ણ માહિતીને સરળ બનાવો, જેમ કે એક વિશેષજ્ઞ જેવું.",
     "pdf_tools__rotate_pdf__title": "પીડીએફ ઘૂમાવો - પીડીએફ દસ્તાવેજોમાં પૃષ્ઠોને સરળતાથી ઘૂમાવો | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "મફત રીતે તમારા પીડીએફ દસ્તાવેજોમાં પૃષ્ઠોને સરળતાથી ઘૂમાવો. કોઈ ફાઈલ કદ મર્યાદા, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી - ફક્ત એક ક્લિકથી કોઈપણ પીડીએફ પૃષ્ઠનું ઓરિએન્ટેશન સુધારો."
+    "pdf_tools__rotate_pdf__description": "મફત રીતે તમારા પીડીએફ દસ્તાવેજોમાં પૃષ્ઠોને સરળતાથી ઘૂમાવો. કોઈ ફાઈલ કદ મર્યાદા, ડાઉનલોડ્સ અથવા સાઇન-અપ જરૂરી નથી - ફક્ત એક ક્લિકથી કોઈપણ પીડીએફ પૃષ્ઠનું ઓરિએન્ટેશન સુધારો.",
+    "pdf_tools__pdf_numbers_page__title": "PDFમાં પેજ નંબરો ઉમેરો - ઝડપી ઓનલાઇન નંબરિંગ ટૂલ | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "ઓનલાઇન તરત પેજ નંબરો PDF ફાઇલમાં ઉમેરો. કોઈ સોફ્ટવેર જરૂરી નથી, બ્રાઉઝરમાં સુરક્ષિત પ્રોસેસિંગ. કોઈ વોટરમાર્ક, ફાઇલ સાઇઝની મરીયાદા, ડાઉનલોડ અથવા સાઇન-અપ જરૂરી નથી."
   },
   "features_landing": {
     "cta_text": "બ્રાઉઝરમાં ઉમેરો",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "વિસ્તૃત",
     "components__pdf_number_pages__main_start_numbering_at": "આંકડાકીય નંબરમાં શરૂ કરો",
     "components__pdf_number_pages__main_input_start_numbering_at": "આંકડાકીય નંબરમાં શરૂ કરવાનું દાખલ કરો",
-    "components__pdf_number_pages__main_add_and_download": "ઉમેરો અને ડાઉનલોડ કરો"
+    "components__pdf_number_pages__main_add_and_download": "ઉમેરો અને ડાઉનલોડ કરો",
+    "components__pdf_number_pages__main_choose_another_file": "અન્ય ફાઇલ પસંદ કરો"
   }
 }

@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Leesassistent | MaxAI.me",
     "features_landing__ai_reader__description": "Maak complexe informatie gemakkelijk te begrijpen, net als een expert.",
     "pdf_tools__rotate_pdf__title": "PDF roteren - Pagina's in PDF-documenten eenvoudig roteren | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Draai moeiteloos pagina's binnen uw PDF-documenten online en gratis. Pas de oriëntatie van elke PDF-pagina aan met slechts één klik - geen bestandsgroottebeperkingen, downloads of aanmeldingen nodig."
+    "pdf_tools__rotate_pdf__description": "Draai moeiteloos pagina's binnen uw PDF-documenten online en gratis. Pas de oriëntatie van elke PDF-pagina aan met slechts één klik - geen bestandsgroottebeperkingen, downloads of aanmeldingen nodig.",
+    "pdf_tools__pdf_numbers_page__title": "Paginanummers toevoegen aan PDF - Snelle online nummeringstool | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Voeg snel paginanummers toe aan PDF-bestanden online. Geen software nodig, veilige verwerking in de browser. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Breed",
     "components__pdf_number_pages__main_start_numbering_at": "Begin met nummeren bij",
     "components__pdf_number_pages__main_input_start_numbering_at": "Voer het beginnummer in",
-    "components__pdf_number_pages__main_add_and_download": "Toevoegen en downloaden"
+    "components__pdf_number_pages__main_add_and_download": "Toevoegen en downloaden",
+    "components__pdf_number_pages__main_choose_another_file": "Kies een ander bestand"
   }
 }

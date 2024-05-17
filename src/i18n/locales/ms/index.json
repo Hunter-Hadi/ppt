@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Pembantu Membaca AI | MaxAI.me",
     "features_landing__ai_reader__description": "Memudahkan pemahaman maklumat kompleks, seperti pakar.",
     "pdf_tools__rotate_pdf__title": "Putar PDF - Mudah Memutar Halaman dalam Dokumen PDF Online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Secara mudah memutar halaman dalam dokumen PDF Anda secara online secara gratis. Sesuaikan orientasi halaman PDF apa pun hanya dengan satu klik - tanpa batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
+    "pdf_tools__rotate_pdf__description": "Secara mudah memutar halaman dalam dokumen PDF Anda secara online secara gratis. Sesuaikan orientasi halaman PDF apa pun hanya dengan satu klik - tanpa batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "pdf_tools__pdf_numbers_page__title": "Tambah Nombor Halaman ke PDF - Alat Penomboran Dalam Talian Pantas | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Tambah dengan cepat nombor halaman ke fail PDF dalam talian. Tiada perisian diperlukan, pemprosesan di dalam pelayar yang selamat. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Luas",
     "components__pdf_number_pages__main_start_numbering_at": "Mulakan penomboran pada",
     "components__pdf_number_pages__main_input_start_numbering_at": "Masukkan mulakan penomboran pada",
-    "components__pdf_number_pages__main_add_and_download": "Tambah & Muat Turun"
+    "components__pdf_number_pages__main_add_and_download": "Tambah & Muat Turun",
+    "components__pdf_number_pages__main_choose_another_file": "Pilih fail lain"
   }
 }

@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Pomoćnik za čitanje veštačke inteligencije | MaxAI.me",
     "features_landing__ai_reader__description": "Učinite kompleksne informacije lako razumljivim, baš kao stručnjak.",
     "pdf_tools__rotate_pdf__title": "Rotiraj PDF - Lako rotirajte stranice u PDF dokumentima online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Lako rotirajte stranice u vašim PDF dokumentima online, besplatno. Podesite orijentaciju bilo koje PDF stranice jednim klikom - bez ograničenja veličine fajla, preuzimanja ili registracije."
+    "pdf_tools__rotate_pdf__description": "Lako rotirajte stranice u vašim PDF dokumentima online, besplatno. Podesite orijentaciju bilo koje PDF stranice jednim klikom - bez ograničenja veličine fajla, preuzimanja ili registracije.",
+    "pdf_tools__pdf_numbers_page__title": "Dodaj brojeve stranica u PDF - Brzi online alat za numerisanje | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Brzo dodajte brojeve stranica u PDF fajlove online. Nije potreban softver, sigurna obrada u pregledaču. Bez vodenih žigova, ograničenja veličine fajla, preuzimanja ili registracije."
   },
   "features_landing": {
     "cta_text": "Dodaj u pregledač",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Široko",
     "components__pdf_number_pages__main_start_numbering_at": "Počni numerisanje od",
     "components__pdf_number_pages__main_input_start_numbering_at": "Unesite početak numerisanja od",
-    "components__pdf_number_pages__main_add_and_download": "Dodaj i preuzmi"
+    "components__pdf_number_pages__main_add_and_download": "Dodaj i preuzmi",
+    "components__pdf_number_pages__main_choose_another_file": "Izaberite drugi fajl"
   }
 }

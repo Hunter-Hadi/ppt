@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI阅读助手 | MaxAI.me",
     "features_landing__ai_reader__description": "使复杂信息易于理解，就像专家一样。",
     "pdf_tools__rotate_pdf__title": "旋转PDF - 在线轻松旋转PDF文档中的页面 | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "轻松在您的PDF文档中在线旋转页面，免费使用。只需点击即可调整任何PDF页面的方向-无需文件大小限制、下载或注册。"
+    "pdf_tools__rotate_pdf__description": "轻松在您的PDF文档中在线旋转页面，免费使用。只需点击即可调整任何PDF页面的方向-无需文件大小限制、下载或注册。",
+    "pdf_tools__pdf_numbers_page__title": "向PDF添加页码-快速在线编号工具| MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "快速在线向PDF文件添加页码。无需软件，安全的浏览器处理。无水印，文件大小限制，下载或注册要求。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全选",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "宽",
     "components__pdf_number_pages__main_start_numbering_at": "从以下数字开始编号",
     "components__pdf_number_pages__main_input_start_numbering_at": "输入以下数字开始编号",
-    "components__pdf_number_pages__main_add_and_download": "添加并下载"
+    "components__pdf_number_pages__main_add_and_download": "添加并下载",
+    "components__pdf_number_pages__main_choose_another_file": "选择另一个文件"
   }
 }

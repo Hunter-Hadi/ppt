@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Olvasó Asszisztens | MaxAI.me",
     "features_landing__ai_reader__description": "Tegye könnyen érthetővé a bonyolult információkat, akár egy szakértő.",
     "pdf_tools__rotate_pdf__title": "PDF forgatása - Egyszerűen forgassa meg az oldalakat a PDF-dokumentumokban online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Problémamentesen forgathatja a PDF-dokumentumok oldalait ingyenesen online. Állítsa be bármely PDF-oldal irányát egyetlen kattintással - nincsenek fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
+    "pdf_tools__rotate_pdf__description": "Problémamentesen forgathatja a PDF-dokumentumok oldalait ingyenesen online. Állítsa be bármely PDF-oldal irányát egyetlen kattintással - nincsenek fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
+    "pdf_tools__pdf_numbers_page__title": "Oldalszámok hozzáadása PDF-hez - Gyors online számozó eszköz | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Gyorsan adja hozzá az oldalszámokat a PDF-fájlokhoz online. Nincs szükség szoftverre, biztonságos böngészőben történő feldolgozás. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Széles",
     "components__pdf_number_pages__main_start_numbering_at": "Kezdje a számozást itt",
     "components__pdf_number_pages__main_input_start_numbering_at": "Adja meg a kezdő oldalszámot",
-    "components__pdf_number_pages__main_add_and_download": "Hozzáadás és letöltés"
+    "components__pdf_number_pages__main_add_and_download": "Hozzáadás és letöltés",
+    "components__pdf_number_pages__main_choose_another_file": "Válasszon másik fájlt"
   }
 }

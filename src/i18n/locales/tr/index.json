@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Okuma Yardımcısı | MaxAI.me",
     "features_landing__ai_reader__description": "Uzman gibi karmaşık bilgileri anlamak kolaylaştırın.",
     "pdf_tools__rotate_pdf__title": "PDF Döndür - PDF Belgelerinde Sayfaları Kolayca Döndür | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Ücretsiz olarak çevrimiçi PDF belgelerinizdeki sayfaları kolayca döndürün. Bir tıklama ile herhangi bir PDF sayfasının yönlendirmesini ayarlayın - dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez."
+    "pdf_tools__rotate_pdf__description": "Ücretsiz olarak çevrimiçi PDF belgelerinizdeki sayfaları kolayca döndürün. Bir tıklama ile herhangi bir PDF sayfasının yönlendirmesini ayarlayın - dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez.",
+    "pdf_tools__pdf_numbers_page__title": "PDF'ye Sayfa Numaraları Ekle - Hızlı Çevrimiçi Numaralandırma Aracı | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "PDF dosyalarına hızlı bir şekilde sayfa numaraları ekleyin. Yazılım gerekmez, güvenli tarayıcı tabanlı işleme. Filigran, dosya boyutu sınırları, indirme veya kaydolma gerektirmez."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Geniş",
     "components__pdf_number_pages__main_start_numbering_at": "Numaralandırmaya başla",
     "components__pdf_number_pages__main_input_start_numbering_at": "Numaralandırmaya başlama sayısını girin",
-    "components__pdf_number_pages__main_add_and_download": "Ekle ve İndir"
+    "components__pdf_number_pages__main_add_and_download": "Ekle ve İndir",
+    "components__pdf_number_pages__main_choose_another_file": "Başka bir dosya seçin"
   }
 }

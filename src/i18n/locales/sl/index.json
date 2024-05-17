@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Pomočnik za branje z umetno inteligenco | MaxAI.me",
     "features_landing__ai_reader__description": "Naredite kompleksne informacije enostavne za razumevanje, kot pravi strokovnjak.",
     "pdf_tools__rotate_pdf__title": "Zasukaj PDF - Enostavno zasukaj strani v PDF dokumentih na spletu | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Brez težav zasukajte strani v svojih PDF dokumentih na spletu brezplačno. Prilagodite usmerjenost katere koli strani PDF-ja s samo enim klikom - brez omejitev velikosti datoteke, prenosov ali prijav."
+    "pdf_tools__rotate_pdf__description": "Brez težav zasukajte strani v svojih PDF dokumentih na spletu brezplačno. Prilagodite usmerjenost katere koli strani PDF-ja s samo enim klikom - brez omejitev velikosti datoteke, prenosov ali prijav.",
+    "pdf_tools__pdf_numbers_page__title": "Dodajte številke strani v PDF - Hitro orodje za oštevilčevanje | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Hitro dodajte številke strani v PDF datoteke na spletu. Ni potrebne programske opreme, varno obdelovanje v brskalniku. Brez vodnih žigov, omejitev velikosti datoteke, prenosov ali prijav."
   },
   "features_landing": {
     "cta_text": "Dodaj v brskalnik",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Široko",
     "components__pdf_number_pages__main_start_numbering_at": "Začni oštevilčevanje pri",
     "components__pdf_number_pages__main_input_start_numbering_at": "Vnesite začetno številko",
-    "components__pdf_number_pages__main_add_and_download": "Dodaj in prenesi"
+    "components__pdf_number_pages__main_add_and_download": "Dodaj in prenesi",
+    "components__pdf_number_pages__main_choose_another_file": "Izberite drugo datoteko"
   }
 }

@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI読み上げアシスタント | MaxAI.me",
     "features_landing__ai_reader__description": "専門家のように、複雑な情報を簡単に理解できます。",
     "pdf_tools__rotate_pdf__title": "PDFを回転 - オンラインでPDFドキュメント内のページを簡単に回転 | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "無料でオンライン上でPDFドキュメント内のページを簡単に回転できます。クリックするだけで任意のPDFページの向きを調整します。ファイルサイズ制限、ダウンロード、サインアップは必要ありません。"
+    "pdf_tools__rotate_pdf__description": "無料でオンライン上でPDFドキュメント内のページを簡単に回転できます。クリックするだけで任意のPDFページの向きを調整します。ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
+    "pdf_tools__pdf_numbers_page__title": "PDFにページ番号を追加 - 迅速なオンラインナンバリングツール | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "オンラインでPDFファイルに簡単にページ番号を追加します。ソフトウェアは必要ありません。安全なブラウザ内処理です。ウォーターマーク、ファイルサイズ制限、ダウンロード、登録は不要です。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "広い",
     "components__pdf_number_pages__main_start_numbering_at": "開始番号",
     "components__pdf_number_pages__main_input_start_numbering_at": "開始番号を入力",
-    "components__pdf_number_pages__main_add_and_download": "追加してダウンロード"
+    "components__pdf_number_pages__main_add_and_download": "追加してダウンロード",
+    "components__pdf_number_pages__main_choose_another_file": "別のファイルを選択"
   }
 }

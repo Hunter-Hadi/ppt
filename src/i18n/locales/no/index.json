@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Leseassistent | MaxAI.me",
     "features_landing__ai_reader__description": "Gjør kompleks informasjon enkel å forstå, akkurat som en ekspert.",
     "pdf_tools__rotate_pdf__title": "Roter PDF - Roter enkelt sider i PDF-dokumenter på nettet | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Roter sider i PDF-dokumentene dine enkelt på nettet, helt gratis. Juster orienteringen til hvilken som helst PDF-side med bare ett klikk - ingen filstørrelsesbegrensninger, nedlastinger eller påmeldinger nødvendig."
+    "pdf_tools__rotate_pdf__description": "Roter sider i PDF-dokumentene dine enkelt på nettet, helt gratis. Juster orienteringen til hvilken som helst PDF-side med bare ett klikk - ingen filstørrelsesbegrensninger, nedlastinger eller påmeldinger nødvendig.",
+    "pdf_tools__pdf_numbers_page__title": "Legg til sidenumre i PDF – Rask nettbasert nummereringsverktøy | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Legg raskt til sidenumre i PDF-filer på nettet. Ingen programvare nødvendig, sikker behandling i nettleseren. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmelding kreves."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Bred",
     "components__pdf_number_pages__main_start_numbering_at": "Start nummerering ved",
     "components__pdf_number_pages__main_input_start_numbering_at": "Angi startnummerering ved",
-    "components__pdf_number_pages__main_add_and_download": "Legg til og last ned"
+    "components__pdf_number_pages__main_add_and_download": "Legg til og last ned",
+    "components__pdf_number_pages__main_choose_another_file": "Velg en annen fil"
   }
 }

@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "معاون خواندن هوش مصنوعی | MaxAI.me",
     "features_landing__ai_reader__description": "اطلاعات پیچیده را به سادگی قابل فهم کنید، تقریباً مثل یک کارشناس.",
     "pdf_tools__rotate_pdf__title": "چرخش PDF - به راحتی صفحات در اسناد PDF آنلاین چرخانید | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "بدون زحمت، صفحات در اسناد PDF خود را به راحتی آنلاین چرخانید. با یک کلیک جهت هر صفحه PDF را تنظیم کنید - بدون محدودیت حجم فایل، دانلود یا ثبت نام."
+    "pdf_tools__rotate_pdf__description": "بدون زحمت، صفحات در اسناد PDF خود را به راحتی آنلاین چرخانید. با یک کلیک جهت هر صفحه PDF را تنظیم کنید - بدون محدودیت حجم فایل، دانلود یا ثبت نام.",
+    "pdf_tools__pdf_numbers_page__title": "افزودن شماره صفحات به PDF - ابزار شماره‌گذاری سریع آنلاین | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "به سرعت شماره صفحات را به فایل‌های PDF آنلاین اضافه کنید. نیازی به نصب نرم‌افزار نیست، پردازش در مرورگر با امنیت بالا. بدون علامت‌گذاری آب، محدودیت حجم فایل، دانلود یا ثبت‌نام."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "عریض",
     "components__pdf_number_pages__main_start_numbering_at": "شروع شماره گذاری از",
     "components__pdf_number_pages__main_input_start_numbering_at": "شروع شماره گذاری را وارد کنید",
-    "components__pdf_number_pages__main_add_and_download": "اضافه کردن و دانلود"
+    "components__pdf_number_pages__main_add_and_download": "اضافه کردن و دانلود",
+    "components__pdf_number_pages__main_choose_another_file": "انتخاب فایل دیگر"
   }
 }

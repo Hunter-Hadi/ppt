@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Assistent de Lectura d'IA | MaxAI.me",
     "features_landing__ai_reader__description": "Facilita la comprensió de la informació complexa, com un expert.",
     "pdf_tools__rotate_pdf__title": "Gira el PDF - Gira les pàgines dels documents PDF fàcilment en línia | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Gireu les pàgines dels vostres documents PDF en línia de manera senzilla i gratuïta. Ajusteu l'orientació de qualsevol pàgina de PDF amb només un clic, sense límits de mida de fitxer, descàrregues ni registres necessaris."
+    "pdf_tools__rotate_pdf__description": "Gireu les pàgines dels vostres documents PDF en línia de manera senzilla i gratuïta. Ajusteu l'orientació de qualsevol pàgina de PDF amb només un clic, sense límits de mida de fitxer, descàrregues ni registres necessaris.",
+    "pdf_tools__pdf_numbers_page__title": "Afegiu números de pàgina a PDF - Eina de numeració ràpida en línia | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Afegiu ràpidament números de pàgina als fitxers PDF en línia. No es necessita cap programari, processament segur al navegador. Sense marques d'aigua, límits de mida de fitxer, descàrregues o registres requerits."
   },
   "features_landing": {
     "cta_text": "Afegir al navegador",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Amplis",
     "components__pdf_number_pages__main_start_numbering_at": "Començar numeració a",
     "components__pdf_number_pages__main_input_start_numbering_at": "Introdueix el número d'inici de numeració",
-    "components__pdf_number_pages__main_add_and_download": "Afegir i Descarregar"
+    "components__pdf_number_pages__main_add_and_download": "Afegir i Descarregar",
+    "components__pdf_number_pages__main_choose_another_file": "Trieu un altre fitxer"
   }
 }

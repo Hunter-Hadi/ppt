@@ -1202,7 +1202,10 @@
     "pdf_tools__ocr_pdf__description": "Convert non-searchable PDF documents into searchable and selectable text in seconds. No watermarks, file size limits, downloads, or sign-ups required.",
 
     "pdf_tools__rotate_pdf__title": "Rotate PDF - Easily Rotate Pages in PDF Documents Online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Effortlessly rotate pages within your PDF documents online for free. Adjust the orientation of any PDF page with just a click - no file size limits, downloads, or sign-ups necessary."
+    "pdf_tools__rotate_pdf__description": "Effortlessly rotate pages within your PDF documents online for free. Adjust the orientation of any PDF page with just a click - no file size limits, downloads, or sign-ups necessary.",
+
+    "pdf_tools__pdf_numbers_page__title": "Add Page Numbers to PDF – Fast Online Numbering Tool | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Quickly add page numbers to PDF files online. No software needed, secure in-browser processing. No watermarks, file size limits, downloads, or sign-ups required."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

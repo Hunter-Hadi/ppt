@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI lasīšanas asistents | MaxAI.me",
     "features_landing__ai_reader__description": "Padariet sarežģītu informāciju viegli saprotamu, tāpat kā eksperts.",
     "pdf_tools__rotate_pdf__title": "Pagriezt PDF - Viegli pagriezt lapas PDF dokumentos tiešsaistē | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Viegli pagriezt lapas savos PDF dokumentos tiešsaistē bez maksas. Pielāgojiet jebkuras PDF lapas orientāciju ar vienu klikšķi - nav faila izmēra ierobežojumu, lejupielādēm vai reģistrācijas nepieciešamības."
+    "pdf_tools__rotate_pdf__description": "Viegli pagriezt lapas savos PDF dokumentos tiešsaistē bez maksas. Pielāgojiet jebkuras PDF lapas orientāciju ar vienu klikšķi - nav faila izmēra ierobežojumu, lejupielādēm vai reģistrācijas nepieciešamības.",
+    "pdf_tools__pdf_numbers_page__title": "Pievienojiet lapu numurus PDF – ātrs tiešsaistes numerācijas rīks | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Ātri pievienojiet lapu numurus PDF failiem tiešsaistē. Nav nepieciešama programmatūra, droša pārlūkprogrammas apstrāde. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Plats",
     "components__pdf_number_pages__main_start_numbering_at": "Sākt numerāciju no",
     "components__pdf_number_pages__main_input_start_numbering_at": "Ievadiet sākuma numerāciju",
-    "components__pdf_number_pages__main_add_and_download": "Pievienot un lejupielādēt"
+    "components__pdf_number_pages__main_add_and_download": "Pievienot un lejupielādēt",
+    "components__pdf_number_pages__main_choose_another_file": "Izvēlieties citu failu"
   }
 }

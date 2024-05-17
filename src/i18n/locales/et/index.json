@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Lugemisabiline | MaxAI.me",
     "features_landing__ai_reader__description": "Muuda keeruline teave lihtsasti mõistetavaks, nagu ekspert.",
     "pdf_tools__rotate_pdf__title": "Pööra PDF - Pööra lehti PDF-dokumentides lihtsalt veebis | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Pöörake lehti oma PDF-dokumentides hõlpsalt veebis tasuta. Reguleerige ühe klõpsuga mis tahes PDF-lehe orientatsiooni - pole failisuuruse piiranguid, allalaadimisi ega registreerumist vaja."
+    "pdf_tools__rotate_pdf__description": "Pöörake lehti oma PDF-dokumentides hõlpsalt veebis tasuta. Reguleerige ühe klõpsuga mis tahes PDF-lehe orientatsiooni - pole failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
+    "pdf_tools__pdf_numbers_page__title": "Lisage lehenumbreid PDF-ile - Kiire veebipõhine nummerdamise tööriist | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Lisage kiiresti lehenumbreid PDF-failidele veebis. Pole vaja tarkvara, turvaline brauseripõhine töötlemine. Pole vesimärke, faili suuruse piiranguid, allalaadimisi ega registreerumist."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Lai",
     "components__pdf_number_pages__main_start_numbering_at": "Alusta nummerdamist",
     "components__pdf_number_pages__main_input_start_numbering_at": "Sisesta nummerdamise alguskoht",
-    "components__pdf_number_pages__main_add_and_download": "Lisa ja Laadi alla"
+    "components__pdf_number_pages__main_add_and_download": "Lisa ja Laadi alla",
+    "components__pdf_number_pages__main_choose_another_file": "Valige teine fail"
   }
 }

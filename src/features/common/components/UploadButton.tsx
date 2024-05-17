@@ -26,6 +26,7 @@ export interface IUploadButtonProps {
   handleUnsupportedFileType?: () => void;
   fontColor?: string;
 }
+const renderTime = new Date().valueOf();
 
 const UploadButton: FC<
   IUploadButtonProps & {
@@ -33,7 +34,8 @@ const UploadButton: FC<
   }
 > = (props) => {
   const { isReady } = useRouter();
-  const [isPageLoadingComplete, setIsPageLoadingComplete] = useState(true);
+  const [showTime, setTime] = useState(0);
+  const [isPageLoadingComplete, setIsPageLoadingComplete] = useState(false);
   const {
     children,
     onChange,
@@ -45,7 +47,10 @@ const UploadButton: FC<
   } = props;
   const { t } = useTranslation();
   useEffect(() => {
-    setIsPageLoadingComplete(isReady);
+    if (isReady) {
+      setTime(new Date().valueOf() - renderTime);
+      setIsPageLoadingComplete(isReady);
+    }
   }, [isReady]);
   const fileMatchesAccept = (fileType: string, acceptString: string) => {
     // 将accept字符串按照","拆分成多个类型
@@ -125,6 +130,7 @@ const UploadButton: FC<
           </Typography>
         </Stack>
       )}
+      <label style={{ color: '#988282' }}>{showTime}</label>
       <VisuallyHiddenInput
         type='file'
         onChange={(event) =>

@@ -916,7 +916,9 @@
     "features_landing__ai_translator__title": "AI भाषांतरक | MaxAI.me",
     "features_landing__ai_translator__description": "एक क्लिक केल्यासही द्विभाषिक वाचन सक्षम करा, माहिती प्राप्तीची क्षमता वाढवा.",
     "features_landing__ai_vision__title": "AI विजन | MaxAI.me",
-    "features_landing__ai_vision__description": "सर्वात उन्नत AI विजन मॉडेलसह कोणत्याही छायाचित्राची समज आणि विश्लेषण करा."
+    "features_landing__ai_vision__description": "सर्वात उन्नत AI विजन मॉडेलसह कोणत्याही छायाचित्राची समज आणि विश्लेषण करा.",
+    "pdf_tools__pdf_numbers_page__title": "PDFमध्ये पृष्ठ संख्या जोडा - फास्ट ऑनलाइन संख्यांकन टूल | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "ऑनलाइन PDF फाइलमध्ये झटपट पृष्ठ संख्या जोडा. कोणतेही सॉफ्टवेअर आवश्यक नाही, सुरक्षित ब्राउझरमध्ये प्रोसेसिंग. कोणतेही वॉटरमार्क, फाइल साईजची मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाही."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "विस्तृत",
     "components__pdf_number_pages__main_start_numbering_at": "संख्यांकन सुरू करा",
     "components__pdf_number_pages__main_input_start_numbering_at": "संख्यांकन सुरू करण्यासाठी प्रविष्ट करा",
-    "components__pdf_number_pages__main_add_and_download": "जोडा आणि डाउनलोड करा"
+    "components__pdf_number_pages__main_add_and_download": "जोडा आणि डाउनलोड करा",
+    "components__pdf_number_pages__main_choose_another_file": "दुसरा फाइल निवडा"
   }
 }

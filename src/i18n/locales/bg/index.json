@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Асистент за четене с изкуствен интелект | MaxAI.me",
     "features_landing__ai_reader__description": "Направете сложна информация лесна за разбиране, точно като експерт.",
     "pdf_tools__rotate_pdf__title": "Завъртане на PDF - Лесно завъртане на страници в PDF документи онлайн | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Без усилия завъртете страници във вашите PDF документи онлайн безплатно. Настройте ориентацията на всяка страница в PDF с едно щракване - няма ограничения за размера на файла, изтегляния или регистрации."
+    "pdf_tools__rotate_pdf__description": "Без усилия завъртете страници във вашите PDF документи онлайн безплатно. Настройте ориентацията на всяка страница в PDF с едно щракване - няма ограничения за размера на файла, изтегляния или регистрации.",
+    "pdf_tools__pdf_numbers_page__title": "Добавяне на номера на страниците към PDF – Бързо онлайн инструмент за номериране | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Бързо добавяне на номера на страниците към PDF файлове онлайн. Не се изисква софтуер, сигурна обработка в браузъра. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Широки",
     "components__pdf_number_pages__main_start_numbering_at": "Започни номерирането от",
     "components__pdf_number_pages__main_input_start_numbering_at": "Въведете номерирането от",
-    "components__pdf_number_pages__main_add_and_download": "Добави и изтегли"
+    "components__pdf_number_pages__main_add_and_download": "Добави и изтегли",
+    "components__pdf_number_pages__main_choose_another_file": "Изберете друг файл"
   }
 }

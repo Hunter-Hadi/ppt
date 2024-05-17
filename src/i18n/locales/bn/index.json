@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "এই এআই রিডিং সহায়ক | MaxAI.me",
     "features_landing__ai_reader__description": "একজন বিশেষজ্ঞের মতো কঠিন তথ্যগুলি সহজে বোঝান।",
     "pdf_tools__rotate_pdf__title": "পিডিএফ ঘুরান - পিডিএফ ডকুমেন্টগুলির পৃষ্ঠাগুলি সহজেই ঘুরান | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "খুব সহজেই অনলাইনে আপনার পিডিএফ ডকুমেন্টের ভিতরে পৃষ্ঠাগুলি ঘুরান। ক্লিক করে যেকোনো পিডিএফ পৃষ্ঠার উচ্চতা পরিবর্তন করুন - কোনো ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপের প্রয়োজন নেই।"
+    "pdf_tools__rotate_pdf__description": "খুব সহজেই অনলাইনে আপনার পিডিএফ ডকুমেন্টের ভিতরে পৃষ্ঠাগুলি ঘুরান। ক্লিক করে যেকোনো পিডিএফ পৃষ্ঠার উচ্চতা পরিবর্তন করুন - কোনো ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপের প্রয়োজন নেই।",
+    "pdf_tools__pdf_numbers_page__title": "পিডিএফে পৃষ্ঠা সংখ্যা যোগ করুন - দ্রুত অনলাইন সংখ্যাকরণ টুল | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "অনলাইনে দ্রুত পিডিএফ ফাইলে পৃষ্ঠা সংখ্যা যোগ করুন। কোন সফ্টওয়্যার প্রয়োজন নেই, নিরাপদ ব্রাউজারে প্রসেস করা হয়। কোন ওয়াটারমার্ক, ফাইল সাইজ সীমা, ডাউনলোড বা সাইন-আপ প্রয়োজন নেই।"
   },
   "features_landing": {
     "cta_text": "ব্রাউজারে যোগ করুন",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "প্রশস্ত",
     "components__pdf_number_pages__main_start_numbering_at": "সংখ্যা শুরু করুন",
     "components__pdf_number_pages__main_input_start_numbering_at": "সংখ্যা শুরু করার জন্য ইনপুট দিন",
-    "components__pdf_number_pages__main_add_and_download": "যোগ এবং ডাউনলোড"
+    "components__pdf_number_pages__main_add_and_download": "যোগ এবং ডাউনলোড",
+    "components__pdf_number_pages__main_choose_another_file": "অন্য ফাইল নির্বাচন করুন"
   }
 }

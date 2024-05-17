@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI 독해 보조 | MaxAI.me",
     "features_landing__ai_reader__description": "전문가처럼 복잡한 정보를 쉽게 이해하세요.",
     "pdf_tools__rotate_pdf__title": "PDF 회전 - 온라인에서 PDF 문서의 페이지를 쉽게 회전 | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "무료로 온라인에서 PDF 문서 내에서 페이지를 손쉽게 회전시키세요. 클릭 한 번으로 모든 PDF 페이지의 방향을 조정할 수 있습니다. 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
+    "pdf_tools__rotate_pdf__description": "무료로 온라인에서 PDF 문서 내에서 페이지를 손쉽게 회전시키세요. 클릭 한 번으로 모든 PDF 페이지의 방향을 조정할 수 있습니다. 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "pdf_tools__pdf_numbers_page__title": "PDF에 페이지 번호 추가 - 빠른 온라인 번호 매기기 도구 | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "PDF 파일에 빠르게 페이지 번호를 추가하세요. 소프트웨어가 필요하지 않으며, 안전한 브라우저 내 처리입니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "넓게",
     "components__pdf_number_pages__main_start_numbering_at": "번호 매기기 시작 위치",
     "components__pdf_number_pages__main_input_start_numbering_at": "번호 매기기 시작 위치 입력",
-    "components__pdf_number_pages__main_add_and_download": "추가 및 다운로드"
+    "components__pdf_number_pages__main_add_and_download": "추가 및 다운로드",
+    "components__pdf_number_pages__main_choose_another_file": "다른 파일 선택"
   }
 }

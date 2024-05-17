@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Reading Assistant | MaxAI.me",
     "features_landing__ai_reader__description": "Сделайте сложную информацию понятной, как эксперт.",
     "pdf_tools__rotate_pdf__title": "Повернуть PDF - Легко поворачивайте страницы в документах PDF онлайн | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Без труда поворачивайте страницы в ваших документах PDF онлайн бесплатно. Настройте ориентацию любой страницы PDF одним щелчком - без ограничений по размеру файла, загрузок или регистрации."
+    "pdf_tools__rotate_pdf__description": "Без труда поворачивайте страницы в ваших документах PDF онлайн бесплатно. Настройте ориентацию любой страницы PDF одним щелчком - без ограничений по размеру файла, загрузок или регистрации.",
+    "pdf_tools__pdf_numbers_page__title": "Добавить номера страниц в PDF - Быстрый онлайн-инструмент для нумерации | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Быстро добавляйте номера страниц к файлам PDF онлайн. Не требуется установка программного обеспечения, безопасная обработка в браузере. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации."
   },
   "features_landing": {
     "cta_text": "Добавить в браузер",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Широкие",
     "components__pdf_number_pages__main_start_numbering_at": "Начать нумерацию с",
     "components__pdf_number_pages__main_input_start_numbering_at": "Введите начальное значение нумерации",
-    "components__pdf_number_pages__main_add_and_download": "Добавить и скачать"
+    "components__pdf_number_pages__main_add_and_download": "Добавить и скачать",
+    "components__pdf_number_pages__main_choose_another_file": "Выберите другой файл"
   }
 }

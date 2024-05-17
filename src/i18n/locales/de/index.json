@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Lesehilfe | MaxAI.me",
     "features_landing__ai_reader__description": "Komplexe Informationen leicht verständlich machen, wie ein Experte.",
     "pdf_tools__rotate_pdf__title": "PDF drehen - Seiten in PDF-Dokumenten einfach drehen | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Drehen Sie Seiten in Ihren PDF-Dokumenten mühelos online und kostenlos. Passen Sie die Ausrichtung jeder PDF-Seite mit nur einem Klick an - keine Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich."
+    "pdf_tools__rotate_pdf__description": "Drehen Sie Seiten in Ihren PDF-Dokumenten mühelos online und kostenlos. Passen Sie die Ausrichtung jeder PDF-Seite mit nur einem Klick an - keine Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "pdf_tools__pdf_numbers_page__title": "Seitenzahlen zu PDF hinzufügen - Schnelles Online-Nummerierungstool | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Fügen Sie schnell Seitenzahlen zu PDF-Dateien online hinzu. Keine Software erforderlich, sichere In-Browser-Verarbeitung. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich."
   },
   "features_landing": {
     "cta_text": "Zum Browser hinzufügen",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Breit",
     "components__pdf_number_pages__main_start_numbering_at": "Nummerierung beginnen bei",
     "components__pdf_number_pages__main_input_start_numbering_at": "Nummerierung beginnen bei",
-    "components__pdf_number_pages__main_add_and_download": "Hinzufügen & Herunterladen"
+    "components__pdf_number_pages__main_add_and_download": "Hinzufügen & Herunterladen",
+    "components__pdf_number_pages__main_choose_another_file": "Wählen Sie eine andere Datei"
   }
 }

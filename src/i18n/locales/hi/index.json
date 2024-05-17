@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI पढ़ने वाला सहायक | MaxAI.me",
     "features_landing__ai_reader__description": "विशेषज्ञ की तरह, जटिल जानकारी को समझना आसान बनाएं।",
     "pdf_tools__rotate_pdf__title": "पीडीएफ घुमाएं - पीडीएफ दस्तावेज़ों में पृष्ठों को आसानी से घुमाएं | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "बिना किसी शुल्क के अपने पीडीएफ दस्तावेज़ों में पृष्ठों को आसानी से घुमाएं। केवल एक क्लिक के साथ किसी भी पीडीएफ पृष्ठ की ओरिएंटेशन समायोजित करें - कोई फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।"
+    "pdf_tools__rotate_pdf__description": "बिना किसी शुल्क के अपने पीडीएफ दस्तावेज़ों में पृष्ठों को आसानी से घुमाएं। केवल एक क्लिक के साथ किसी भी पीडीएफ पृष्ठ की ओरिएंटेशन समायोजित करें - कोई फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",
+    "pdf_tools__pdf_numbers_page__title": "PDF में पृष्ठ संख्या जोड़ें - तेज़ ऑनलाइन नंबरिंग टूल | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "PDF फ़ाइलों में तेज़ी से पृष्ठ संख्या जोड़ें। कोई सॉफ़्टवेयर की आवश्यकता नहीं, सुरक्षित ब्राउज़र में प्रोसेसिंग। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं।"
   },
   "features_landing": {
     "cta_text": "ब्राउज़र में जोड़ें",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "विस्तृत",
     "components__pdf_number_pages__main_start_numbering_at": "प्रारंभ करने के लिए नंबरिंग",
     "components__pdf_number_pages__main_input_start_numbering_at": "प्रारंभ करने के लिए नंबरिंग दर्ज करें",
-    "components__pdf_number_pages__main_add_and_download": "जोड़ें और डाउनलोड करें"
+    "components__pdf_number_pages__main_add_and_download": "जोड़ें और डाउनलोड करें",
+    "components__pdf_number_pages__main_choose_another_file": "एक और फ़ाइल चुनें"
   }
 }

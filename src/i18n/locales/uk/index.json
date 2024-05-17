@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI پڑھنے والا معاون | MaxAI.me",
     "features_landing__ai_reader__description": "ماہر کی طرح پیچیدہ معلومات کو سمجھنا آسان بنائیں۔",
     "pdf_tools__rotate_pdf__title": "PDF گھمائیں - آسانی سے PDF دستاویزات میں صفحات گھمائیں آن لائن | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "بلا محنت آن لائن پی ڈی ایف دستاویزات میں صفحات کو آسانی سے گھمائیں۔ کسی بھی پی ڈی ایف صفحے کی رخ کو صرف ایک کلک کے ساتھ ترتیب دیں - کوئی فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔"
+    "pdf_tools__rotate_pdf__description": "بلا محنت آن لائن پی ڈی ایف دستاویزات میں صفحات کو آسانی سے گھمائیں۔ کسی بھی پی ڈی ایف صفحے کی رخ کو صرف ایک کلک کے ساتھ ترتیب دیں - کوئی فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
+    "pdf_tools__pdf_numbers_page__title": "پی دی ایف میں صفحہ نمبر شامل کریں - تیز آن لائن نمبرنگ ٹول | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "پی دی ایف فائلوں میں جلدی سے صفحہ نمبر شامل کریں۔ کوئی سافٹ ویئر کی ضرورت نہیں ہے، براؤزر میں محفوظ پروسیسنگ۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "وائڈ",
     "components__pdf_number_pages__main_start_numbering_at": "شمارہ دینے کا آغاز کریں",
     "components__pdf_number_pages__main_input_start_numbering_at": "شروع کرنے کے لئے شمارہ درج کریں",
-    "components__pdf_number_pages__main_add_and_download": "شامل کریں اور ڈاؤن لوڈ کریں"
+    "components__pdf_number_pages__main_add_and_download": "شامل کریں اور ڈاؤن لوڈ کریں",
+    "components__pdf_number_pages__main_choose_another_file": "کوئی دوسرا فائل منتخب کریں"
   }
 }

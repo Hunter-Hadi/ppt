@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Assistente di lettura AI | MaxAI.me",
     "features_landing__ai_reader__description": "Rendi facile da capire le informazioni complesse, proprio come un esperto.",
     "pdf_tools__rotate_pdf__title": "Ruota PDF - Ruota facilmente le pagine nei documenti PDF online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Ruota senza sforzo le pagine all'interno dei tuoi documenti PDF online gratuitamente. Regola l'orientamento di qualsiasi pagina PDF con un solo clic, senza limiti di dimensione del file, download o registrazione necessari."
+    "pdf_tools__rotate_pdf__description": "Ruota senza sforzo le pagine all'interno dei tuoi documenti PDF online gratuitamente. Regola l'orientamento di qualsiasi pagina PDF con un solo clic, senza limiti di dimensione del file, download o registrazione necessari.",
+    "pdf_tools__pdf_numbers_page__title": "Aggiungi numeri di pagina al PDF - Strumento di numerazione online veloce | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Aggiungi rapidamente numeri di pagina ai file PDF online. Nessun software necessario, elaborazione sicura nel browser. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Ampi",
     "components__pdf_number_pages__main_start_numbering_at": "Inizia la numerazione da",
     "components__pdf_number_pages__main_input_start_numbering_at": "Inserisci l'inizio della numerazione da",
-    "components__pdf_number_pages__main_add_and_download": "Aggiungi e Scarica"
+    "components__pdf_number_pages__main_add_and_download": "Aggiungi e Scarica",
+    "components__pdf_number_pages__main_choose_another_file": "Scegli un altro file"
   }
 }

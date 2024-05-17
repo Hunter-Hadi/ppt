@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Assistant de lecture IA | MaxAI.me",
     "features_landing__ai_reader__description": "Rendez les informations complexes faciles à comprendre, comme un expert.",
     "pdf_tools__rotate_pdf__title": "Faire pivoter le PDF - Faites pivoter facilement les pages dans les documents PDF en ligne | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Faites pivoter les pages de vos documents PDF en toute simplicité en ligne et gratuitement. Ajustez l'orientation de n'importe quelle page PDF d'un simple clic, sans limite de taille de fichier, de téléchargement ni d'inscription nécessaire."
+    "pdf_tools__rotate_pdf__description": "Faites pivoter les pages de vos documents PDF en toute simplicité en ligne et gratuitement. Ajustez l'orientation de n'importe quelle page PDF d'un simple clic, sans limite de taille de fichier, de téléchargement ni d'inscription nécessaire.",
+    "pdf_tools__pdf_numbers_page__title": "Ajouter des numéros de page au PDF - Outil de numérotation en ligne rapide | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Ajoutez rapidement des numéros de page aux fichiers PDF en ligne. Aucun logiciel requis, traitement sécurisé dans le navigateur. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis."
   },
   "features_landing": {
     "cta_text": "Ajouter au navigateur",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Large",
     "components__pdf_number_pages__main_start_numbering_at": "Commencer la numérotation à",
     "components__pdf_number_pages__main_input_start_numbering_at": "Saisissez le numéro de départ",
-    "components__pdf_number_pages__main_add_and_download": "Ajouter et télécharger"
+    "components__pdf_number_pages__main_add_and_download": "Ajouter et télécharger",
+    "components__pdf_number_pages__main_choose_another_file": "Choisir un autre fichier"
   }
 }

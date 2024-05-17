@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "AI Читаючий Асистент | MaxAI.me",
     "features_landing__ai_reader__description": "Робіть складну інформацію легко зрозумілою, як експерт.",
     "pdf_tools__rotate_pdf__title": "Повернути PDF - Легко повертайте сторінки у PDF-документах онлайн | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Без зусиль повертайте сторінки у своїх PDF-документах онлайн безкоштовно. Налаштуйте орієнтацію будь-якої сторінки PDF одним кліком - немає обмежень за розміром файлу, завантажень або реєстрації."
+    "pdf_tools__rotate_pdf__description": "Без зусиль повертайте сторінки у своїх PDF-документах онлайн безкоштовно. Налаштуйте орієнтацію будь-якої сторінки PDF одним кліком - немає обмежень за розміром файлу, завантажень або реєстрації.",
+    "pdf_tools__pdf_numbers_page__title": "Додати номери сторінок до PDF - Швидкий онлайн-інструмент нумерації | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Швидко додавайте номери сторінок до PDF-файлів онлайн. Не потрібне програмне забезпечення, безпечна обробка у веб-браузері. Без водяних знаків, обмежень на розмір файлу, завантажень або реєстрації."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Вибрати все",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Широкі",
     "components__pdf_number_pages__main_start_numbering_at": "Почати нумерацію з",
     "components__pdf_number_pages__main_input_start_numbering_at": "Введіть початковий номер",
-    "components__pdf_number_pages__main_add_and_download": "Додати та завантажити"
+    "components__pdf_number_pages__main_add_and_download": "Додати та завантажити",
+    "components__pdf_number_pages__main_choose_another_file": "Вибрати інший файл"
   }
 }

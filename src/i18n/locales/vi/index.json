@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Trợ lý đọc AI | MaxAI.me",
     "features_landing__ai_reader__description": "Làm cho thông tin phức tạp dễ hiểu, giống như một chuyên gia.",
     "pdf_tools__rotate_pdf__title": "Xoay PDF - Dễ Dàng Xoay Trang trong Tài Liệu PDF Trực Tuyến | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Dễ dàng xoay các trang trong tài liệu PDF của bạn trực tuyến miễn phí. Điều chỉnh hướng của bất kỳ trang PDF nào chỉ với một cú nhấp chuột - không giới hạn kích thước tệp, không cần tải xuống hoặc đăng ký."
+    "pdf_tools__rotate_pdf__description": "Dễ dàng xoay các trang trong tài liệu PDF của bạn trực tuyến miễn phí. Điều chỉnh hướng của bất kỳ trang PDF nào chỉ với một cú nhấp chuột - không giới hạn kích thước tệp, không cần tải xuống hoặc đăng ký.",
+    "pdf_tools__pdf_numbers_page__title": "Thêm số trang vào PDF - Công cụ đánh số nhanh trực tuyến | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Nhanh chóng thêm số trang vào các tệp PDF trực tuyến. Không cần phần mềm, xử lý an toàn trong trình duyệt. Không có dấu bản quyền, giới hạn kích thước tệp, tải xuống hoặc đăng ký."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Rộng",
     "components__pdf_number_pages__main_start_numbering_at": "Bắt đầu đánh số từ",
     "components__pdf_number_pages__main_input_start_numbering_at": "Nhập số bắt đầu đánh số từ",
-    "components__pdf_number_pages__main_add_and_download": "Thêm & Tải xuống"
+    "components__pdf_number_pages__main_add_and_download": "Thêm & Tải xuống",
+    "components__pdf_number_pages__main_choose_another_file": "Chọn tệp khác"
   }
 }

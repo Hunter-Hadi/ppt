@@ -916,7 +916,9 @@
     "features_landing__ai_reader__title": "Asystent do czytania AI | MaxAI.me",
     "features_landing__ai_reader__description": "Ułatwia zrozumienie skomplikowanych informacji, tak jak ekspert.",
     "pdf_tools__rotate_pdf__title": "Obróć PDF - Łatwe obracanie stron w dokumentach PDF online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Bezproblemowo obracaj strony w swoich dokumentach PDF online za darmo. Dostosuj orientację dowolnej strony PDF jednym kliknięciem - bez ograniczeń rozmiaru pliku, pobierania ani rejestracji."
+    "pdf_tools__rotate_pdf__description": "Bezproblemowo obracaj strony w swoich dokumentach PDF online za darmo. Dostosuj orientację dowolnej strony PDF jednym kliknięciem - bez ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
+    "pdf_tools__pdf_numbers_page__title": "Dodaj numery stron do PDF - Szybkie narzędzie online do numerowania | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Szybko dodaj numery stron do plików PDF online. Nie wymaga oprogramowania, bezpieczne przetwarzanie w przeglądarce. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -1325,6 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Szerokie",
     "components__pdf_number_pages__main_start_numbering_at": "Rozpocznij numerowanie od",
     "components__pdf_number_pages__main_input_start_numbering_at": "Wprowadź numer początkowy",
-    "components__pdf_number_pages__main_add_and_download": "Dodaj i pobierz"
+    "components__pdf_number_pages__main_add_and_download": "Dodaj i pobierz",
+    "components__pdf_number_pages__main_choose_another_file": "Wybierz inny plik"
   }
 }

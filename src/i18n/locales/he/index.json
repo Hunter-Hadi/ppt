@@ -915,7 +915,9 @@
     "features_landing__ai_reader__title": "עוזר קריאה באמצעות AI | MaxAI.me",
     "features_landing__ai_reader__description": "הפוך מידע מורכב לקל להבנה, כמו מומחה.",
     "pdf_tools__rotate_pdf__title": "הטיה של PDF - הטיה פשוטה של עמודים במסמכי PDF מקוונים | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "הטיה פשוטה של עמודים במסמכי PDF מקוונים בחינם. כוונן את כיוון כל עמוד ב-PDF בלחיצה אחת - ללא הגבלות גודל קובץ, הורדות או הרשמות."
+    "pdf_tools__rotate_pdf__description": "הטיה פשוטה של עמודים במסמכי PDF מקוונים בחינם. כוונן את כיוון כל עמוד ב-PDF בלחיצה אחת - ללא הגבלות גודל קובץ, הורדות או הרשמות.",
+    "pdf_tools__pdf_numbers_page__title": "הוסף מספרי עמודים ל-PDF - כלי מספור מהיר באינטרנט | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "הוסף מספרי עמודים לקבצי PDF במהירות באינטרנט. אין צורך בתוכנה, עיבוד מאובטח בדפדפן. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -1324,6 +1326,7 @@
     "components__pdf_number_pages__main_margins_wide": "רחב",
     "components__pdf_number_pages__main_start_numbering_at": "התחל למספר ב-",
     "components__pdf_number_pages__main_input_start_numbering_at": "הזן התחל למספר ב-",
-    "components__pdf_number_pages__main_add_and_download": "הוסף והורד"
+    "components__pdf_number_pages__main_add_and_download": "הוסף והורד",
+    "components__pdf_number_pages__main_choose_another_file": "בחר קובץ אחר"
   }
 }
