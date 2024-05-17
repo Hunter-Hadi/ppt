@@ -86,7 +86,7 @@ const useLandingABTester = () => {
   return {
     variant,
     setVariant,
-    loaded: true,
+    loaded,
     title,
     description,
     featuresCarousel: variant?.includes('features_carousel'),

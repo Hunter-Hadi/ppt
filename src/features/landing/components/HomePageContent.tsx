@@ -1,4 +1,4 @@
-import { Box, Skeleton, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
 import { useRouter } from 'next/router';
 import { FC, useEffect } from 'react';
 
@@ -41,90 +41,59 @@ const HomePageContent: FC<IProps> = ({ propRef, testing }) => {
     }
   }, [isReady, asPath]);
 
-  if (testing) {
-    return (
-      <AppLoadingLayout loading={!loaded} sx={{ minHeight: '50vh' }}>
-        <Stack color='text.primary'>
-          {/* heroSection */}
-          <HeroSection
-            propRef={propRef}
-            // loading={!loaded}
-            title={title}
-            description={description}
-          />
-
-          {/* feature carousel */}
-          {featuresCarousel && <FeaturesCarousel />}
-          {featuresExpand && <FeaturesExpandSection />}
-          {/* {!loaded && <FeaturesCarouselSkeleton />} */}
-
-          {/* trusted by */}
-          <TrustedBy />
-
-          {/* maxai in numbers */}
-          <MaxAIInNumbers />
-
-          {/* user comment */}
-          <UserComment />
-
-          {/* call to action section */}
-          <CallToActionSection propRef={propRef} />
-        </Stack>
-      </AppLoadingLayout>
-    );
-  }
-
   return (
-    <Stack color='text.primary'>
-      {/* heroSection */}
-      <HeroSection
-        propRef={propRef}
-        loading={!loaded}
-        title={title}
-        description={description}
-      />
+    <AppLoadingLayout loading={!loaded} sx={{ minHeight: '90vh' }}>
+      <Stack color='text.primary'>
+        {/* heroSection */}
+        <HeroSection
+          propRef={propRef}
+          // loading={!loaded}
+          title={title}
+          description={description}
+        />
 
-      {/* feature carousel */}
-      {featuresCarousel && <FeaturesCarousel />}
-      {featuresExpand && <FeaturesExpandSection />}
-      {!loaded && <FeaturesCarouselSkeleton />}
+        {/* feature carousel */}
+        {featuresCarousel && <FeaturesCarousel />}
+        {featuresExpand && <FeaturesExpandSection />}
+        {/* {!loaded && <FeaturesCarouselSkeleton />} */}
 
-      {/* trusted by */}
-      <TrustedBy />
+        {/* trusted by */}
+        <TrustedBy />
 
-      {/* maxai in numbers */}
-      <MaxAIInNumbers />
+        {/* maxai in numbers */}
+        <MaxAIInNumbers />
 
-      {/* user comment */}
-      <UserComment />
+        {/* user comment */}
+        <UserComment />
 
-      {/* call to action section */}
-      <CallToActionSection propRef={propRef} />
-    </Stack>
+        {/* call to action section */}
+        <CallToActionSection propRef={propRef} />
+      </Stack>
+    </AppLoadingLayout>
   );
 };
 
 FeaturesCarousel;
 
-const FeaturesCarouselSkeleton = () => {
-  return (
-    <Box
-      py={{
-        xs: 7,
-        md: 12,
-      }}
-      px={2}
-      sx={{
-        // 用隐藏的 Skeleton 元素来占位
-        opacity: 0,
-        mx: 'auto',
-        maxWidth: 1312,
-        width: '100%',
-      }}
-    >
-      <Skeleton variant='rounded' width={'100%'} height={600} />
-    </Box>
-  );
-};
+// const FeaturesCarouselSkeleton = () => {
+//   return (
+//     <Box
+//       py={{
+//         xs: 7,
+//         md: 12,
+//       }}
+//       px={2}
+//       sx={{
+//         // 用隐藏的 Skeleton 元素来占位
+//         opacity: 0,
+//         mx: 'auto',
+//         maxWidth: 1312,
+//         width: '100%',
+//       }}
+//     >
+//       <Skeleton variant='rounded' width={'100%'} height={600} />
+//     </Box>
+//   );
+// };
 
 export default HomePageContent;
