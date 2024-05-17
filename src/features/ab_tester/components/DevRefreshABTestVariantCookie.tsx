@@ -1,13 +1,13 @@
 import BugReportOutlinedIcon from '@mui/icons-material/BugReportOutlined';
 import { Box, Button, Divider, Stack, Tooltip } from '@mui/material';
-import Cookies from 'js-cookie';
 import React from 'react';
 
 import DevContent from '@/components/DevContent';
 import { TEST_LANDING_COOKIE_NAME } from '@/features/ab_tester/constant/landingVariant';
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
+import { removeLocalStorage } from '@/utils/localStorage';
 const DevRefreshABTestVariantCookie = () => {
-  const { variant } = useLandingABTester();
+  const { variant, setVariant } = useLandingABTester();
   return (
     <DevContent>
       <Box
@@ -58,7 +58,8 @@ const DevRefreshABTestVariantCookie = () => {
             }}
             onClick={() => {
               // 删除 landing A/B Test cookie ，并且刷新页面
-              Cookies.remove(TEST_LANDING_COOKIE_NAME, { path: '/' });
+              removeLocalStorage(TEST_LANDING_COOKIE_NAME);
+              setVariant(null);
               setTimeout(() => {
                 window.location.reload();
               }, 0);
