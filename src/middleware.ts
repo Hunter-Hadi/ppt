@@ -53,9 +53,13 @@ export async function middleware(req: NextRequest) {
         TEST_LANDING_COOKIE_NAME,
         newLandingVariantData.variant,
       );
+
+      response.cookies.set('res-zztest-1', `1-${url.pathname}`);
     }
 
     req.cookies.set('zztest-5', '5');
+
+    response.cookies.set('res-zztest-2', `2-${url.pathname}`);
 
     return response;
   }
