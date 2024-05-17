@@ -45,14 +45,14 @@ export const LANDING_VARIANT: ILandingVariantData[] = [
 
 export const LANDING_VARIANT_TO_VERSION_MAP: Record<
   ILandingVariantType,
-  number
+  string
 > = {
-  title1__desc1__features_carousel: 1,
-  title1__desc1__features_expand: 2,
-  title1__desc2__features_carousel: 3,
-  title1__desc2__features_expand: 4,
-  title2__desc1__features_carousel: 5,
-  title2__desc1__features_expand: 6,
-  title2__desc2__features_carousel: 7,
-  title2__desc2__features_expand: 8,
+  title1__desc1__features_carousel: '1-1',
+  title1__desc1__features_expand: '1-2',
+  title1__desc2__features_carousel: '1-3',
+  title1__desc2__features_expand: '1-4',
+  title2__desc1__features_carousel: '1-5',
+  title2__desc1__features_expand: '1-6',
+  title2__desc2__features_carousel: '1-7',
+  title2__desc2__features_expand: '1-8',
 };
