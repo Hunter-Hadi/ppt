@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material';
+import { Box, Skeleton, Stack } from '@mui/material';
 import { useRouter } from 'next/router';
 import { FC, useEffect } from 'react';
 
@@ -52,6 +52,7 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
       {/* feature carousel */}
       {featuresCarousel && <FeaturesCarousel />}
       {featuresExpand && <FeaturesExpandSection />}
+      {!loaded && <FeaturesCarouselSkeleton />}
 
       {/* trusted by */}
       <TrustedBy />
@@ -65,6 +66,29 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
       {/* call to action section */}
       <CallToActionSection propRef={propRef} />
     </Stack>
+  );
+};
+
+FeaturesCarousel;
+
+const FeaturesCarouselSkeleton = () => {
+  return (
+    <Box
+      py={{
+        xs: 7,
+        md: 12,
+      }}
+      px={2}
+      sx={{
+        // 用隐藏的 Skeleton 元素来占位
+        opacity: 0,
+        mx: 'auto',
+        maxWidth: 1312,
+        width: '100%',
+      }}
+    >
+      <Skeleton variant='rounded' width={'100%'} height={600} />
+    </Box>
   );
 };
 
