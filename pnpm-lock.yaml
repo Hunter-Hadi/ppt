@@ -62,6 +62,9 @@ dependencies:
   classnames:
     specifier: ^2.3.2
     version: 2.3.2
+  cookie:
+    specifier: ^0.6.0
+    version: 0.6.0
   crypto-js:
     specifier: ^4.1.1
     version: 4.1.1
@@ -104,6 +107,9 @@ dependencies:
   isomorphic-unfetch:
     specifier: ^4.0.2
     version: 4.0.2
+  js-cookie:
+    specifier: ^3.0.5
+    version: 3.0.5
   jszip:
     specifier: ^3.10.1
     version: 3.10.1
@@ -232,12 +238,18 @@ dependencies:
     version: 13.9.0
 
 devDependencies:
+  '@types/cookie':
+    specifier: ^0.6.0
+    version: 0.6.0
   '@types/crypto-js':
     specifier: ^4.1.1
     version: 4.1.1
   '@types/file-saver':
     specifier: ^2.0.7
     version: 2.0.7
+  '@types/js-cookie':
+    specifier: ^3.0.6
+    version: 3.0.6
   '@types/lodash-es':
     specifier: ^4.17.6
     version: 4.17.6
@@ -3229,6 +3241,10 @@ packages:
     resolution: {integrity: sha512-fb5MUzazrD2GRnwlStm91HVu3cZbvolX9kJruqpUBdc24eHBWrLLfyt8XN1/C5JpI0stP/MbaFQp+cJh5WOFfw==}
     dev: true
 
+  /@types/cookie@0.6.0:
+    resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
+    dev: true
+
   /@types/crypto-js@4.1.1:
     resolution: {integrity: sha512-BG7fQKZ689HIoc5h+6D2Dgq1fABRa0RbBWKBd9SP/MVRVXROflpm5fhwyATX5duFmbStzyzyycPB8qUYKDH3NA==}
     dev: true
@@ -3331,6 +3347,10 @@ packages:
     dependencies:
       '@types/istanbul-lib-report': 3.0.3
     dev: false
+
+  /@types/js-cookie@3.0.6:
+    resolution: {integrity: sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==}
+    dev: true
 
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -4648,6 +4668,11 @@ packages:
 
   /convert-source-map@1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
+    dev: false
+
+  /cookie@0.6.0:
+    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
+    engines: {node: '>= 0.6'}
     dev: false
 
   /copy-to-clipboard@3.3.3:
@@ -6869,6 +6894,11 @@ packages:
 
   /jpeg-js@0.4.4:
     resolution: {integrity: sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s1Wzd+dg==}
+    dev: false
+
+  /js-cookie@3.0.5:
+    resolution: {integrity: sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==}
+    engines: {node: '>=14'}
     dev: false
 
   /js-sdsl@4.4.2:

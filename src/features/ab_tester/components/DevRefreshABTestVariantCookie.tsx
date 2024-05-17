@@ -1,5 +1,6 @@
 import BugReportOutlinedIcon from '@mui/icons-material/BugReportOutlined';
 import { Box, Button, Stack, Tooltip } from '@mui/material';
+import Cookies from 'js-cookie';
 import React from 'react';
 
 import DevContent from '@/components/DevContent';
@@ -53,9 +54,7 @@ const DevRefreshABTestVariantCookie = () => {
             }}
             onClick={() => {
               // 删除 landing A/B Test cookie ，并且刷新页面
-              document.cookie =
-                TEST_LANDING_COOKIE_NAME +
-                '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+              Cookies.remove(TEST_LANDING_COOKIE_NAME, { path: '/' });
               setTimeout(() => {
                 window.location.pathname = TESTER_LANDING_PATH_TARGET_PATHNAME;
               }, 0);
