@@ -1,4 +1,4 @@
-type ILandingVariantType =
+export type ILandingVariantType =
   | 'title1__desc1__features_carousel'
   | 'title1__desc1__features_expand'
   | 'title1__desc2__features_carousel'

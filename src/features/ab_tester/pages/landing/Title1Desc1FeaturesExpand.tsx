@@ -3,7 +3,7 @@ import React from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import CallToActionSection from '@/features/landing/components/CallToActionSection';
-import FeaturesExpandSection from '@/features/landing/components/FeaturesCarousel/FeaturesExpandVaraintSection';
+import FeaturesExpandSection from '@/features/landing/components/FeaturesCarousel/FeaturesExpandVariantSection';
 import HeroSection from '@/features/landing/components/HeroSection';
 import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
 import TrustedBy from '@/features/landing/components/TrustedBy';

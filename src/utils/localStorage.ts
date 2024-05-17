@@ -20,6 +20,7 @@ export type ILocalStorageKeyType =
   // 用来记录 前端生成的 clientUserId，用于做用户交互跟踪时和 后端的 userId做绑定
   | 'CLIENT_USER_ID'
   | 'LANDING_PAGE_REF';
+
 export const setLocalStorage = (
   key: ILocalStorageKeyType,
   value: unknown,

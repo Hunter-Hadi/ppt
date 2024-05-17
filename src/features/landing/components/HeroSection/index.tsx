@@ -1,4 +1,4 @@
-import { Box, Grid, Stack, Typography } from '@mui/material';
+import { Box, Grid, Skeleton, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
@@ -20,6 +20,8 @@ interface IProps {
   heroVideoProps?: IHeroVideoProps;
 
   trackerLinkProps?: IUseShareTrackerLinkProps;
+
+  loading?: boolean;
 }
 
 const HeroSection: FC<IProps> = ({
@@ -28,6 +30,7 @@ const HeroSection: FC<IProps> = ({
   description: propDescription,
   heroVideoProps,
   trackerLinkProps,
+  loading,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
@@ -83,31 +86,41 @@ const HeroSection: FC<IProps> = ({
                 sm: 2,
               }}
             >
-              <Typography
-                variant='custom'
-                fontSize={{
-                  xs: 40,
-                  sm: 48,
-                  lg: 56,
-                }}
-                component='h1'
-                fontWeight={700}
-                mb={3}
-              >
-                {title}
-              </Typography>
-              <Typography
-                variant='body2'
-                mb={4}
-                fontSize={{
-                  xs: 14,
-                  sm: 16,
-                  lg: 18,
-                }}
-                color='text.secondary'
-              >
-                {description}
-              </Typography>
+              {loading ? (
+                <TitleSkeleton />
+              ) : (
+                <Typography
+                  variant='custom'
+                  fontSize={{
+                    xs: 40,
+                    sm: 48,
+                    lg: 56,
+                  }}
+                  component='h1'
+                  fontWeight={700}
+                >
+                  {title}
+                </Typography>
+              )}
+              {/* margin spacing */}
+              <Box height={24} />
+              {loading ? (
+                <DescriptionSkeleton />
+              ) : (
+                <Typography
+                  variant='body2'
+                  fontSize={{
+                    xs: 14,
+                    sm: 16,
+                    lg: 18,
+                  }}
+                  color='text.secondary'
+                >
+                  {description}
+                </Typography>
+              )}
+              {/* margin spacing */}
+              <Box height={32} />
               <Stack
                 direction='row'
                 alignItems={'center'}
@@ -226,3 +239,31 @@ const HeroSection: FC<IProps> = ({
 };
 
 export default HeroSection;
+
+const TitleSkeleton = () => {
+  return (
+    <Box
+      sx={{
+        // 用隐藏的 Skeleton 元素来占位
+        opacity: 0,
+      }}
+    >
+      <Skeleton height={70} />
+      <Skeleton height={70} />
+      <Skeleton height={70} />
+    </Box>
+  );
+};
+const DescriptionSkeleton = () => {
+  return (
+    <Box
+      sx={{
+        // 用隐藏的 Skeleton 元素来占位
+        opacity: 0,
+      }}
+    >
+      <Skeleton height={27} />
+      <Skeleton height={27} />
+    </Box>
+  );
+};

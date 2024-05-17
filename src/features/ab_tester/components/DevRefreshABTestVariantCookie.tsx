@@ -4,10 +4,7 @@ import Cookies from 'js-cookie';
 import React from 'react';
 
 import DevContent from '@/components/DevContent';
-import {
-  TEST_LANDING_COOKIE_NAME,
-  TESTER_LANDING_PATH_TARGET_PATHNAME,
-} from '@/features/ab_tester/constant/landingVariant';
+import { TEST_LANDING_COOKIE_NAME } from '@/features/ab_tester/constant/landingVariant';
 const DevRefreshABTestVariantCookie = () => {
   return (
     <DevContent>
@@ -33,7 +30,7 @@ const DevRefreshABTestVariantCookie = () => {
               <h3>
                 1. Delete the variant cache of landing A/B Test in the cookie
               </h3>
-              <h3>2. redirect to {TESTER_LANDING_PATH_TARGET_PATHNAME}</h3>
+              <h3>2. reload</h3>
             </Stack>
           }
           arrow
@@ -56,7 +53,7 @@ const DevRefreshABTestVariantCookie = () => {
               // 删除 landing A/B Test cookie ，并且刷新页面
               Cookies.remove(TEST_LANDING_COOKIE_NAME, { path: '/' });
               setTimeout(() => {
-                window.location.pathname = TESTER_LANDING_PATH_TARGET_PATHNAME;
+                window.location.reload();
               }, 0);
             }}
           >
