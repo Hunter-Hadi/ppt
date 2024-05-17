@@ -1,11 +1,13 @@
 import BugReportOutlinedIcon from '@mui/icons-material/BugReportOutlined';
-import { Box, Button, Stack, Tooltip } from '@mui/material';
+import { Box, Button, Divider, Stack, Tooltip } from '@mui/material';
 import Cookies from 'js-cookie';
 import React from 'react';
 
 import DevContent from '@/components/DevContent';
 import { TEST_LANDING_COOKIE_NAME } from '@/features/ab_tester/constant/landingVariant';
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 const DevRefreshABTestVariantCookie = () => {
+  const { variant } = useLandingABTester();
   return (
     <DevContent>
       <Box
@@ -24,8 +26,13 @@ const DevRefreshABTestVariantCookie = () => {
         }}
       >
         <Tooltip
+          componentsProps={{
+            tooltip: { sx: { width: 500, maxWidth: 'unset' } },
+          }}
           title={
             <Stack spacing={1}>
+              <h2>current landing variant: {variant}</h2>
+              <Divider />
               <h2>Refresh landing page A/B Test variant cache</h2>
               <h3>
                 1. Delete the variant cache of landing A/B Test in the cookie
