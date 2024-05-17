@@ -14,8 +14,8 @@ import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
   propRef?: string;
-  propTitle?: React.ReactNode;
-  propDescription?: React.ReactNode;
+  title?: React.ReactNode;
+  description?: React.ReactNode;
 
   heroVideoProps?: IHeroVideoProps;
 
@@ -24,8 +24,8 @@ interface IProps {
 
 const HeroSection: FC<IProps> = ({
   propRef,
-  propTitle,
-  propDescription,
+  title: propTitle,
+  description: propDescription,
   heroVideoProps,
   trackerLinkProps,
 }) => {

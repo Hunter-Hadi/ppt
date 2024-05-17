@@ -85,6 +85,115 @@ export const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
   },
 ];
 
+export const FEATURES_CONTENT_DATA_MAP: Record<
+  IFeaturesCarouselItemKey,
+  {
+    title: string;
+    imageUrl: string;
+    descriptionLabel?: string;
+    descriptionList: string[];
+  }
+> = {
+  Chat: {
+    title: 'pages:home_page__features_carousel__feature_chat__title',
+    imageUrl: '/assets/landing/feature-carousel/chat.png',
+    descriptionLabel:
+      'pages:home_page__features_carousel__feature_chat__description_label',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_chat__description1',
+      'pages:home_page__features_carousel__feature_chat__description2',
+      'pages:home_page__features_carousel__feature_chat__description3',
+      'pages:home_page__features_carousel__feature_chat__description4',
+    ],
+  },
+  Rewriter: {
+    title: 'pages:home_page__features_carousel__feature_rewriter__title',
+    imageUrl: '/assets/landing/feature-carousel/rewriter.png',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_rewriter__description1',
+      'pages:home_page__features_carousel__feature_rewriter__description2',
+      'pages:home_page__features_carousel__feature_rewriter__description3',
+      'pages:home_page__features_carousel__feature_rewriter__description4',
+      'pages:home_page__features_carousel__feature_rewriter__description5',
+    ],
+  },
+
+  Reply: {
+    title: 'pages:home_page__features_carousel__feature_reply__title',
+    imageUrl: '/assets/landing/feature-carousel/reply.png',
+    descriptionLabel:
+      'pages:home_page__features_carousel__feature_reply__description_label',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_reply__description1',
+      'pages:home_page__features_carousel__feature_reply__description2',
+      'pages:home_page__features_carousel__feature_reply__description3',
+      'pages:home_page__features_carousel__feature_reply__description4',
+    ],
+  },
+  Summary: {
+    title: 'pages:home_page__features_carousel__feature_summary__title',
+    imageUrl: '/assets/landing/feature-carousel/summary.png',
+    descriptionLabel:
+      'pages:home_page__features_carousel__feature_summary__description_label',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_summary__description1',
+      'pages:home_page__features_carousel__feature_summary__description2',
+      'pages:home_page__features_carousel__feature_summary__description3',
+      'pages:home_page__features_carousel__feature_summary__description4',
+    ],
+  },
+  Search: {
+    title: 'pages:home_page__features_carousel__feature_search__title',
+    imageUrl: '/assets/landing/feature-carousel/search.png',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_search__description1',
+      'pages:home_page__features_carousel__feature_search__description2',
+      'pages:home_page__features_carousel__feature_search__description3',
+      'pages:home_page__features_carousel__feature_search__description4',
+    ],
+  },
+  Art: {
+    title: 'pages:home_page__features_carousel__feature_art__title',
+    imageUrl: '/assets/landing/feature-carousel/art.png',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_art__description1',
+      'pages:home_page__features_carousel__feature_art__description2',
+      'pages:home_page__features_carousel__feature_art__description3',
+      'pages:home_page__features_carousel__feature_art__description4',
+    ],
+  },
+  Translator: {
+    title: 'pages:home_page__features_carousel__feature_translator__title',
+    imageUrl: '/assets/landing/feature-carousel/translator.png',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_translator__description1',
+      'pages:home_page__features_carousel__feature_translator__description2',
+      'pages:home_page__features_carousel__feature_translator__description3',
+      'pages:home_page__features_carousel__feature_translator__description4',
+    ],
+  },
+  Reader: {
+    title: 'pages:home_page__features_carousel__feature_reader__title',
+    imageUrl: '/assets/landing/feature-carousel/reader.png',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_reader__description1',
+      'pages:home_page__features_carousel__feature_reader__description2',
+      'pages:home_page__features_carousel__feature_reader__description3',
+      'pages:home_page__features_carousel__feature_reader__description4',
+    ],
+  },
+  Prompts: {
+    title: 'pages:home_page__features_carousel__feature_prompts__title',
+    imageUrl: '/assets/landing/feature-carousel/prompts.png',
+    descriptionList: [
+      'pages:home_page__features_carousel__feature_prompts__description1',
+      'pages:home_page__features_carousel__feature_prompts__description2',
+      'pages:home_page__features_carousel__feature_prompts__description3',
+      'pages:home_page__features_carousel__feature_prompts__description4',
+    ],
+  },
+};
+
 const FeaturesCarousel = () => {
   const { t } = useTranslation();
 

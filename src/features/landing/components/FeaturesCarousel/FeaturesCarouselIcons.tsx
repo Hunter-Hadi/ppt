@@ -5,14 +5,15 @@ import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import SummarizeOutlinedIcon from '@mui/icons-material/SummarizeOutlined';
 import TranslateOutlinedIcon from '@mui/icons-material/TranslateOutlined';
-import { Stack, SvgIcon } from '@mui/material';
+import { Stack, SvgIcon, SxProps } from '@mui/material';
 import React, { FC } from 'react';
 interface IProps {
   icon: string;
   size?: number;
+  sx?: SxProps;
 }
 
-const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
+const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48, sx }) => {
   if (icon === 'chat') {
     return (
       <Stack
@@ -26,6 +27,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <SvgIcon
@@ -63,6 +65,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <SvgIcon
@@ -100,6 +103,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <SvgIcon
@@ -134,6 +138,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <SummarizeOutlinedIcon
@@ -157,6 +162,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <SearchOutlinedIcon
@@ -180,6 +186,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <ColorLensOutlinedIcon
@@ -203,6 +210,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <TranslateOutlinedIcon
@@ -226,6 +234,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <LocalLibraryOutlinedIcon
@@ -249,6 +258,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
           width: size,
           height: size,
           fontSize: size * 0.5,
+          ...sx,
         }}
       >
         <AutoAwesomeIcon
@@ -272,6 +282,7 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48 }) => {
         width: size,
         height: size,
         fontSize: size * 0.5,
+        ...sx,
       }}
     >
       <ChatBubbleOutlineOutlinedIcon

@@ -43,8 +43,8 @@ const AIPromptsPages = () => {
         trackerLinkProps={{
           pathnameRefEnable: true,
         }}
-        propTitle={t('features_landing:ai_prompts_pages__title')}
-        propDescription={t('features_landing:ai_prompts_pages__description')}
+        title={t('features_landing:ai_prompts_pages__title')}
+        description={t('features_landing:ai_prompts_pages__description')}
       />
 
       <FeaturesContentSection
