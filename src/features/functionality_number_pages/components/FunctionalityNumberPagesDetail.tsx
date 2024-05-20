@@ -42,96 +42,12 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
   const [startNumberValue, setStartNumberValue] = useState(1); //设置开始的数字
   const [isLoading, setIsLoading] = useState<boolean>(false); //设置加载状态
 
-  //圆形的9宫格网格视图
-  const withCircleGridView = useCallback(
-    (
-      activeType: string = 'top',
-      viewSize: number = 150,
-      onChange: (viewPosition: IPositionValue) => void,
-    ) => {
-      const viewPositionsList: IPositionValue[][] = [
-        ['topLeft', 'top', 'topRight'],
-        ['bottomLeft', 'bottom', 'bottomRight'],
-      ];
-      const borderColor = '#d1d1d1';
-      return (
-        <Stack
-          direction='column'
-          justifyContent='space-between'
-          sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            border: `1px solid ${borderColor}`,
-            backgroundColor: '#f9f9f9',
-            height: viewSize,
-            width: viewSize,
-          }}
-        >
-          {viewPositionsList.map((viewPositions, index) => (
-            <Stack
-              direction='row'
-              justifyContent='space-between'
-              key={index}
-              sx={{
-                height: '33%',
-                borderBottom: index === 0 ? `1px solid ${borderColor}` : '',
-                borderTop: index === 1 ? `1px solid ${borderColor}` : '',
-              }}
-            >
-              {viewPositions.map((viewPosition, index) => (
-                <Box
-                  onClick={() => onChange(viewPosition)}
-                  key={index}
-                  sx={{
-                    cursor: 'pointer',
-                    width: '33%',
-                    height: '100%',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    borderRight: index !== 2 ? `1px solid ${borderColor}` : '',
-                    backgroundColor: '#fff',
-                  }}
-                >
-                  <Stack
-                    direction='column'
-                    alignItems='center'
-                    justifyContent='center'
-                    sx={{
-                      width: '40%',
-                      height: '40%',
-                      borderRadius: '50%',
-                      border:
-                        viewPosition === activeType
-                          ? '2px solid #9065B0'
-                          : '1px solid gray',
-                    }}
-                  >
-                    <Box
-                      sx={{
-                        width: 'calc(100% - 3px)',
-                        height: 'calc(100% - 3px)',
-                        borderRadius: '50%',
-                        bgcolor:
-                          viewPosition === activeType ? 'primary.main' : '',
-                      }}
-                    />
-                  </Stack>
-                </Box>
-              ))}
-            </Stack>
-          ))}
-        </Stack>
-      );
-    },
-    [],
-  );
   const onAddPagesNumberAndDownload = useCallback(async () => {
     try {
       setIsLoading(true);
       const buff = await file.arrayBuffer(); // Uint8Array
       const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
-      for (var index = 0; index < pdfDocument.getPages().length; index++) {
+      for (let index = 0; index < pdfDocument.getPages().length; index++) {
         const page = pdfDocument.getPage(index); //获取页面
         const { width, height } = page.getSize(); //获取页面的宽高
         const fontSize = 12;
@@ -224,6 +140,91 @@ const FunctionalityNumberPagesDetail: FC<IFunctionalityNumberPagesDetail> = ({
       },
     ],
     [isLoading, file, t, onAddPagesNumberAndDownload],
+  );
+
+  //圆形的9宫格网格视图
+  const withCircleGridView = useCallback(
+    (
+      activeType: string = 'top',
+      viewSize: number = 150,
+      onChange: (viewPosition: IPositionValue) => void,
+    ) => {
+      const viewPositionsList: IPositionValue[][] = [
+        ['topLeft', 'top', 'topRight'],
+        ['bottomLeft', 'bottom', 'bottomRight'],
+      ];
+      const borderColor = '#d1d1d1';
+      return (
+        <Stack
+          direction='column'
+          justifyContent='space-between'
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            border: `1px solid ${borderColor}`,
+            backgroundColor: '#f9f9f9',
+            height: viewSize,
+            width: viewSize,
+          }}
+        >
+          {viewPositionsList.map((viewPositions, index) => (
+            <Stack
+              direction='row'
+              justifyContent='space-between'
+              key={index}
+              sx={{
+                height: '33%',
+                borderBottom: index === 0 ? `1px solid ${borderColor}` : '',
+                borderTop: index === 1 ? `1px solid ${borderColor}` : '',
+              }}
+            >
+              {viewPositions.map((viewPosition, index) => (
+                <Box
+                  onClick={() => onChange(viewPosition)}
+                  key={index}
+                  sx={{
+                    cursor: 'pointer',
+                    width: '33%',
+                    height: '100%',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRight: index !== 2 ? `1px solid ${borderColor}` : '',
+                    backgroundColor: '#fff',
+                  }}
+                >
+                  <Stack
+                    direction='column'
+                    alignItems='center'
+                    justifyContent='center'
+                    sx={{
+                      width: '40%',
+                      height: '40%',
+                      borderRadius: '50%',
+                      border:
+                        viewPosition === activeType
+                          ? '2px solid #9065B0'
+                          : '1px solid gray',
+                    }}
+                  >
+                    <Box
+                      sx={{
+                        width: 'calc(100% - 3px)',
+                        height: 'calc(100% - 3px)',
+                        borderRadius: '50%',
+                        bgcolor:
+                          viewPosition === activeType ? 'primary.main' : '',
+                      }}
+                    />
+                  </Stack>
+                </Box>
+              ))}
+            </Stack>
+          ))}
+        </Stack>
+      );
+    },
+    [],
   );
   return (
     <Box sx={{ width: '100%' }}>

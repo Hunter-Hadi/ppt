@@ -28,14 +28,7 @@ const FunctionalityImageToPdfMain = () => {
         width: '100%',
       }}
     >
-      {!file && (
-        <FunctionalityCommonUploadButton
-          inputProps={{
-            multiple: true,
-          }}
-          onChange={onUploadFile}
-        />
-      )}
+      {!file && <FunctionalityCommonUploadButton onChange={onUploadFile} />}
       {file && (
         <Suspense fallback={<CircularProgress size={26} />}>
           <FunctionalityCompressPdfDetail

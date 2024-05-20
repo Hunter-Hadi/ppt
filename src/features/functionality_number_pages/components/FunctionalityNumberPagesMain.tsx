@@ -29,14 +29,7 @@ const FunctionalityNumberPagesMain = () => {
         width: '100%',
       }}
     >
-      {!file && (
-        <FunctionalityCommonUploadButton
-          inputProps={{
-            multiple: true,
-          }}
-          onChange={onUploadFile}
-        />
-      )}
+      {!file && <FunctionalityCommonUploadButton onChange={onUploadFile} />}
       {file && (
         <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityNumberPagesDetail
