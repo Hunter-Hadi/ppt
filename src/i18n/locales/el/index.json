@@ -73,7 +73,7 @@
     "learning_center__features__title": "Χαρακτηριστικά",
     "tools__index_page__title": "Δωρεάν Εργαλεία PDF Online",
     "tools__index_page__description": "Όλα τα εργαλεία που θα χρειαστείτε για να είστε πιο παραγωγικοί και να εργάζεστε έξυπνα με τα έγγραφα. 100% ΔΩΡΕΑΝ και βασισμένα στον περιηγητή για πλήρη απόρρητο.",
-    "home_page__features_carousel__feature_reply__label": "Απάντηση Τεχνητής Νοημοσύνης",
+    "home_page__features_carousel__feature_reply__label": "Απάντηση AI",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_title": "Δωρεάν Λογισμικό Στο Διαδίκτυο",
     "pdf_tools__detail_description_object__image_to_pdf__middle_5_description": "Μην ξοδεύετε τα χρήματά σας για ακριβά προηγμένα λογισμικά για να μετατρέψετε {{TYPE}} σε PDF. Για περιορισμένη καθημερινή χρήση, ο μετατροπέας μας από {{TYPE}} σε PDF είναι δωρεάν. Αν χρειάζεστε να το χρησιμοποιήσετε πιο συχνά, φυσικά, η απεριόριστη χρήση είναι εντελώς δωρεάν.",
     "tools__index_page__constant_obj__merge_pdf__title": "Συγχώνευση PDF",
@@ -85,7 +85,15 @@
     "home_page__features_carousel__feature_art__description3": "Απλό, ισχυρό, μετασχηματιστικό",
     "home_page__features_carousel__feature_art__description4": "Περισσότερα προηγμένα μοντέλα τέχνης AI και χαρακτηριστικά σύντομα διαθέσιμα",
     "home_page__features_carousel__feature_prompts__description1": "Βιβλιοθήκη AI προτροπών",
-    "home_page__features_carousel__cta_button__text": "Προσθήκη στο {{BROWSER}} δωρεάν"
+    "home_page__features_carousel__cta_button__text": "Προσθήκη στο {{BROWSER}} δωρεάν",
+    "home_page__features_carousel__feature_chat__label": "Τσατ AI",
+    "home_page__features_carousel__feature_rewriter__label": "Αναδιατυπωτής AI",
+    "home_page__features_carousel__feature_summary__label": "Περίληψη AI",
+    "home_page__features_carousel__feature_search__label": "Αναζήτηση AI",
+    "home_page__features_carousel__feature_art__label": "Τέχνη AI",
+    "home_page__features_carousel__feature_translator__label": "Μεταφραστής AI",
+    "home_page__features_carousel__feature_reader__label": "Αναγνώστης AI",
+    "home_page__features_carousel__feature_prompts__label": "Υπόδειξεις AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Βιβλιοθήκη προτροπών υψηλής ποιότητας AI",
