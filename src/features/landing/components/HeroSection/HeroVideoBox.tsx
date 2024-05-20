@@ -45,7 +45,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
           overflow: 'hidden',
         }}
         onClick={() => {
-          if (!disabledVideo) {
+          if (!disabledVideo && videoSrc) {
             openVideoPopup(videoSrc);
           }
         }}
