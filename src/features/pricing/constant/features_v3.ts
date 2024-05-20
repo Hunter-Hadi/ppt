@@ -137,6 +137,25 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
+      title: 'GPT-4o',
+      icon: 'GPT-4o',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'none-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
       title: 'GPT-4',
       icon: 'ChatGPT4Vision',
       video: {
