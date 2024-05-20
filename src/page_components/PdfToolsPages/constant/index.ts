@@ -29,7 +29,7 @@ const routerChildrenObject = toolsCodeMap.childrenObject as {
 const toolsTopUrlKey = toolsCodeMap.topUrlKey;
 export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
   'merge-pdf': {
-    icon: 'CropOriginal',
+    icon: 'MergePDF',
     title: 'pages:tools__index_page__constant_obj__merge_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__merge_pdf__main_description',
@@ -39,7 +39,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'split-pdf': {
-    icon: 'CropOriginal',
+    icon: 'SplitPDF',
     title: 'pages:tools__index_page__constant_obj__split_a_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__split_a_pdf__main_description',
@@ -49,7 +49,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'pdf-to-png': {
-    icon: 'CropOriginal',
+    icon: 'PDFToPNG',
     title: 'pages:tools__index_page__constant_obj__pdf_to_png__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_to_png__main_description',
@@ -59,7 +59,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'pdf-to-jpeg': {
-    icon: 'CropOriginal',
+    icon: 'PDFToJPEG',
     title: 'pages:tools__index_page__constant_obj__pdf_to_jpeg__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_to_jpeg__main_description',
@@ -69,7 +69,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'png-to-pdf': {
-    icon: 'CropOriginal',
+    icon: 'PNGToPDF',
     title: 'pages:tools__index_page__constant_obj__png_to_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__png_to_pdf__main_description',
@@ -80,7 +80,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     accept: 'image/png',
   },
   'jpeg-to-pdf': {
-    icon: 'CropOriginal',
+    icon: 'JPEGToPDF',
     title: 'pages:tools__index_page__constant_obj__jpeg_to_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__jpeg_to_pdf__main_description',
@@ -91,7 +91,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     accept: 'image/jpg,image/jpeg',
   },
   'heic-to-pdf': {
-    icon: 'CropOriginal',
+    icon: 'HEICToPDF',
     title: 'pages:tools__index_page__constant_obj__heic_to_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__heic_to_pdf__main_description',
@@ -102,7 +102,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     accept: 'image/heic',
   },
   'pdf-to-html': {
-    icon: 'CropOriginal',
+    icon: 'PDFToHTML',
     title: 'pages:tools__index_page__constant_obj__pdf_to_html__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_to_html__description',
@@ -112,7 +112,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'sign-pdf': {
-    icon: 'CropOriginal',
+    icon: 'SignPDF',
     title: 'pages:tools__index_page__constant_obj__sign_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__sign_pdf__main_description',
@@ -122,7 +122,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'compress-pdf': {
-    icon: 'CropOriginal',
+    icon: 'CompressPDF',
     title: 'pages:tools__index_page__constant_obj__compress_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__compress_pdf__main_description',
@@ -132,7 +132,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'ocr-pdf': {
-    icon: 'CropOriginal',
+    icon: 'OcrPDF',
     title: 'pages:tools__index_page__constant_obj__ocr_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
@@ -142,7 +142,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'rotate-pdf': {
-    icon: 'CropOriginal',
+    icon: 'RotatePDF',
     title: 'pages:tools__index_page__constant_obj__rotate_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__rotate_pdf__main_description',
@@ -152,7 +152,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'number-pages': {
-    icon: 'CropOriginal',
+    icon: 'NumberPages',
     title: 'pages:tools__index_page__constant_obj__pdf_page_numbers__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_page_numbers__main_description',

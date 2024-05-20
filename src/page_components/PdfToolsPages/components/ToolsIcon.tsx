@@ -8,8 +8,40 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
 import WorkspacePremiumOutlinedIcon from '@mui/icons-material/WorkspacePremiumOutlined';
 import { SvgIconProps } from '@mui/material';
+import dynamic from 'next/dynamic';
 import { FC } from 'react';
+export type ICustomIconType =
+  | 'HEICToPDF'
+  | 'MergePDF'
+  | 'NumberPages'
+  | 'OcrPDF'
+  | 'PDFToHTML'
+  | 'PDFToJPEG'
+  | 'PDFToPNG'
+  | 'PNGToPDF'
+  | 'RotatePDF'
+  | 'SignPDF'
+  | 'SplitPDF'
+  | 'JPEGToPDF'
+  | 'CompressPDF';
 
+const IconsMap: {
+  [key in ICustomIconType]: React.ComponentType<SvgIconProps>;
+} = {
+  HEICToPDF: dynamic(() => import('./Icons/HEICToPDF')),
+  MergePDF: dynamic(() => import('./Icons/MergePDF')),
+  NumberPages: dynamic(() => import('./Icons/NumberPages')),
+  OcrPDF: dynamic(() => import('./Icons/OcrPDF')),
+  PDFToHTML: dynamic(() => import('./Icons/PDFToHTML')),
+  PDFToJPEG: dynamic(() => import('./Icons/PDFToJPEG')),
+  PDFToPNG: dynamic(() => import('./Icons/PDFToPNG')),
+  PNGToPDF: dynamic(() => import('./Icons/PNGToPDF')),
+  RotatePDF: dynamic(() => import('./Icons/RotatePDF')),
+  SignPDF: dynamic(() => import('./Icons/SignPDF')),
+  SplitPDF: dynamic(() => import('./Icons/SplitPDF')),
+  CompressPDF: dynamic(() => import('./Icons/CompressPDF')),
+  JPEGToPDF: dynamic(() => import('./Icons/JPEGToPDF')),
+};
 const ToolsIcon: FC<{ name: string } & SvgIconProps> = ({
   name,
   ...restProps
@@ -44,6 +76,10 @@ const ToolsIcon: FC<{ name: string } & SvgIconProps> = ({
         return <HistoryEduIcon {...restProps} />;
       }
       default: {
+        if (name in IconsMap) {
+          const Icon = IconsMap[name as ICustomIconType];
+          return <Icon {...restProps} />;
+        }
         return null;
       }
     }

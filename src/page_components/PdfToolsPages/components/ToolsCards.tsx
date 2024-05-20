@@ -19,7 +19,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
         py: 5,
       }}
       container
-      spacing={5}
+      spacing={3}
     >
       {list.map((toolData) => {
         return (
@@ -53,7 +53,10 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                 <CardContent style={{ padding: 20 }}>
                   <ToolsIcon
                     name={toolData.icon}
-                    sx={{ color: 'primary.main', fontSize: 30 }}
+                    sx={{
+                      color: 'primary.main',
+                      fontSize: 40,
+                    }}
                   />
                   <Typography
                     sx={{
