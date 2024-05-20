@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "ಪುಟ ಸಂಖ್ಯೆಗಳು ಕಾಣಬೇಕಿರುವ ಸ್ಥಾನವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "ಪುಟ ಮಾರ್ಜಿನ್‌ಗಳನ್ನು ಮತ್ತು ಇತರ ಆಯ್ಕೆಗಳನ್ನು ಅನುಕೂಲಿಸಿ.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“ಸೇರಿಸಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್” ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಕೆಲವು ಸೆಕೆಂಡುಗಳಲ್ಲಿ ನಿಧಾನವಾಗಿ ಕಾದಿದೆ.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ಪುಟ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ PDF ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ - ಇದೇ ಅದು!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ಪುಟ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ PDF ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ - ಇದೇ ಅದು!",
+    "home_page__hero_section__title__variant2__part1": "ಒಂದು ಕ್ಲಿಕ್ ಆರ್ಟಿಫಿಶಿಯಲ್ ಇಂಟೆಲಿಜೆನ್ಸ್ ಎಲ್ಲೆಗೆ.",
+    "home_page__hero_section__title__variant2__part2": "ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಮಾಡಿ.",
+    "home_page__hero_section__desc__variant2": "ಆರ್ಟಿಫಿಶಿಯಲ್ ಇಂಟೆಲಿಜೆನ್ಸ್ ಚಾಟ್, ಮರುವರ್ತಿಸುವವರೆಗೂ, ಸಂಗ್ರಹಿಸುವವರೆಗೂ ಮತ್ತು ತಕ್ಷಣ ಉತ್ತರ ಪಡೆಯುವವರೆಗೂ ಸಮಯವನ್ನು ಉಳಿಸಿ ಅತ್ಯುತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಿರಿ. GPT-4o, Claude 3 ಮತ್ತು Gemini 1.5 ದ್ವಾರಾ ಸಕ್ಷಮಗೊಳಿಸಲಾಗಿದೆ."
   },
   "prompt_library": {
     "use_prompt_library__title": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",

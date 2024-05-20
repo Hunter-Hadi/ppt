@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Selecciona la posició on vols que apareguin els números de pàgina.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajusta els marges de pàgina i altres opcions segons sigui necessari.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Fes clic a «Afegir i Descarregar» i espera només un segon.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descarrega el teu PDF amb els números de pàgina. Això és tot!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descarrega el teu PDF amb els números de pàgina. Això és tot!",
+    "home_page__hero_section__title__variant2__part1": "IA en un clic a tot arreu.",
+    "home_page__hero_section__title__variant2__part2": "Fes més en menys temps.",
+    "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",

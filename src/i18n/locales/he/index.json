@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "בחר את המיקום שבו ברצונך שמספרי העמודים יופיעו.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "התאם את שולי העמוד ואפשרויות נוספות לפי הצורך.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "לחץ על 'הוסף והורד' וחכה שניה אחת.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "הורד את ה-PDF שלך עם מספרי העמודים - זהו!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "הורד את ה-PDF שלך עם מספרי העמודים - זהו!",
+    "home_page__hero_section__title__variant2__part1": "AI בלחיצה אחת בכל מקום.",
+    "home_page__hero_section__title__variant2__part2": "עשה יותר בפחות זמן.",
+    "home_page__hero_section__desc__variant2": "חסוך זמן וקבל תוצאות טובות יותר עם צ'אט AI, מחדד, סיכום ותשובה מיידית. מופעל על ידי GPT-4o, Claude 3 ו-Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",

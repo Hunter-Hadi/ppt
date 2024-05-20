@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Wybierz pozycję, na której chcesz, aby pojawiły się numery stron.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Dostosuj marginesy stron i inne opcje według potrzeb.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kliknij „Dodaj i pobierz” i poczekaj tylko chwilę.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Pobierz swój plik PDF z numerami stron - to wszystko!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Pobierz swój plik PDF z numerami stron - to wszystko!",
+    "home_page__hero_section__title__variant2__part1": "AI wszędzie za jednym kliknięciem.",
+    "home_page__hero_section__title__variant2__part2": "Zrób więcej w krótszym czasie.",
+    "home_page__hero_section__desc__variant2": "Oszczędź czas i uzyskaj lepsze wyniki dzięki czatowi AI, przepisywarce, podsumowaniu i natychmiastowej odpowiedzi. Napędzane przez GPT-4o, Claude 3 i Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",

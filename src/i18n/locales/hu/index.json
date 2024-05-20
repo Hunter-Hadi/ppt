@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Válassza ki a pozíciót, ahol meg szeretné jeleníteni az oldalszámokat.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Állítsa be az oldal margóját és egyéb beállításokat szükség szerint.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kattintson a „Hozzáadás és letöltés” gombra, és várjon csak egy másodpercet.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Töltse le a PDF-et oldalszámokkal - ennyi!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Töltse le a PDF-et oldalszámokkal - ennyi!",
+    "home_page__hero_section__title__variant2__part1": "1 kattintásos AI mindenhol.",
+    "home_page__hero_section__title__variant2__part2": "Többet végezzen kevesebb idő alatt.",
+    "home_page__hero_section__desc__variant2": "Mentse el az időt és érjen el jobb eredményeket az AI chat, átíró, összefoglaló és azonnali válasz segítségével. GPT-4o, Claude 3 és Gemini 1.5 által támogatva."
   },
   "prompt_library": {
     "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",

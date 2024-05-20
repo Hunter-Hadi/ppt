@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Chọn vị trí mà bạn muốn hiển thị số trang.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Điều chỉnh lề trang và các tùy chọn khác nếu cần.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Nhấp vào “Thêm & Tải xuống” và chờ chỉ một giây.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Tải xuống PDF của bạn có số trang - đó là tất cả!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Tải xuống PDF của bạn có số trang - đó là tất cả!",
+    "home_page__hero_section__title__variant2__part1": "AI một cú nhấp chuột khắp mọi nơi.",
+    "home_page__hero_section__title__variant2__part2": "Làm nhiều hơn trong thời gian ngắn hơn.",
+    "home_page__hero_section__desc__variant2": "Tiết kiệm thời gian và đạt được kết quả tốt hơn với trò chuyện AI, công cụ viết lại, tóm tắt và phản hồi tức thì. Được cung cấp bởi GPT-4o, Claude 3 và Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",

@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Выберите позицию, где должны появиться номера страниц.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Настройте поля страницы и другие параметры по мере необходимости.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Нажмите «Добавить и скачать» и подождите всего несколько секунд.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Скачайте свой PDF с номерами страниц - вот и все!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Скачайте свой PDF с номерами страниц - вот и все!",
+    "home_page__hero_section__title__variant2__part1": "Искусственный интеллект всего в один клик.",
+    "home_page__hero_section__title__variant2__part2": "Делайте больше за меньшее время.",
+    "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",

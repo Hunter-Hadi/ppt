@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Chagua mahali unapotaka nambari za kurasa ziwekwe.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Badilisha upana wa kurasa na chaguo nyingine kama inavyohitajika.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Bonyeza \"Ongeza & Pakua\" na subiri kwa sekunde moja tu.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Pakua PDF yako yenye nambari za kurasa - hiyo ndiyo yote!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Pakua PDF yako yenye nambari za kurasa - hiyo ndiyo yote!",
+    "home_page__hero_section__title__variant2__part1": "AI ya bonyeza 1 kila mahali.",
+    "home_page__hero_section__title__variant2__part2": "Fanya zaidi kwa muda mfupi.",
+    "home_page__hero_section__desc__variant2": "Hifadhi muda na pata matokeo bora na AI chat, rewriter, summarizer, na jibu papo hapo. Inayo nguvu na GPT-4o, Claude 3, na Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Maktaba ya maelekezo ya AI ya ubora wa juu",

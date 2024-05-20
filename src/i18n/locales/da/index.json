@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Vælg positionen, hvor du vil have sidernumrene til at vises.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Juster side-marginer og andre indstillinger efter behov.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klik på 'Tilføj og Download' og vent bare et øjeblik.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download din PDF med sidernumre - det er det!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download din PDF med sidernumre - det er det!",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI overalt.",
+    "home_page__hero_section__title__variant2__part2": "Gør mere på kortere tid.",
+    "home_page__hero_section__desc__variant2": "Spar tid og få bedre resultater med AI-chat, omskriver, opsummering og øjeblikkelig svar. Drevet af GPT-4o, Claude 3 og Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",

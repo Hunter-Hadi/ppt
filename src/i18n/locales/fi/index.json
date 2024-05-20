@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Valitse kohta, johon haluat sivunumeroiden näkyvän.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Säädä sivun marginaaleja ja muita asetuksia tarpeen mukaan.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Napsauta “Lisää ja lataa” ja odota hetki.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Lataa PDF-tiedosto sivunumeroiden kanssa – siinä kaikki!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Lataa PDF-tiedosto sivunumeroiden kanssa – siinä kaikki!",
+    "home_page__hero_section__title__variant2__part1": "1-klikkauksen tekoäly kaikkialla.",
+    "home_page__hero_section__title__variant2__part2": "Tee enemmän vähemmässä ajassa.",
+    "home_page__hero_section__desc__variant2": "Säästä aikaa ja saavuta parempia tuloksia tekoälychatin, uudelleenkirjoittajan, tiivistäjän ja välittömän vastauksen avulla. Toimii GPT-4o:n, Claude 3:n ja Gemini 1.5:n voimalla."
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",

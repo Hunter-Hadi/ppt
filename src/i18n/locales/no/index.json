@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Velg posisjonen der du vil at sidenumrene skal vises.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Juster sidemargene og andre alternativer etter behov.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klikk på 'Legg til og last ned' og vent bare et sekund.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Last ned PDF-en din med sidenumre - det er alt!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Last ned PDF-en din med sidenumre - det er alt!",
+    "home_page__hero_section__title__variant2__part1": "1-klikk AI overalt.",
+    "home_page__hero_section__title__variant2__part2": "Gjør mer på kortere tid.",
+    "home_page__hero_section__desc__variant2": "Spar tid og få bedre resultater med AI-chat, omskriver, oppsummerer og umiddelbar svar. Drevet av GPT-4o, Claude 3 og Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høykvalitets AI-promptbibliotek",

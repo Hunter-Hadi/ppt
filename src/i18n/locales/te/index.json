@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "పేజీ సంఖ్యలు కనిపించాల్సిన స్థానాన్ని ఎంచుకోండి.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "పేజీ మార్జిన్‌లను మరియు ఇతర ఎంపికలను అవసరమైతే సరిపోయే రూపకల్పనలను సరిచేయండి.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“చేర్చి & డౌన్‌లోడ్” నొక్కండి మరియు ఒక సెకన్ను వేచి ఉండండి.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "మీ PDFను పేజీ సంఖ్యలతో డౌన్‌లోడ్ చేయండి - అది అంటే ఇది!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "మీ PDFను పేజీ సంఖ్యలతో డౌన్‌లోడ్ చేయండి - అది అంటే ఇది!",
+    "home_page__hero_section__title__variant2__part1": "ఒక నొక్కిని మాత్రమే AI ఎవర్య్వేర్.",
+    "home_page__hero_section__title__variant2__part2": "తక్కువ సమయంలో మరీ చేయండి.",
+    "home_page__hero_section__desc__variant2": "AI చాట్, రీవ్రైటర్, సారాంశకర్, మరియు తక్షణ సమాధానంతో సమయం సేవ్ చేయండి మరియు మంచి ఫలితాలను పొందండి. GPT-4o, Claude 3, మరియు Gemini 1.5 ద్వారా ప్రాముఖ్యత పొందబడినవి."
   },
   "prompt_library": {
     "use_prompt_library__title": "ఉచిత గుర్తు లైబ్రరీ",
@@ -1327,7 +1330,7 @@
     "components__pdf_number_pages__main_margins_wide": "వెడల్పు",
     "components__pdf_number_pages__main_start_numbering_at": "నుంచి సంఖ్యాగా ప్రారంభించండి",
     "components__pdf_number_pages__main_input_start_numbering_at": "నుంచి సంఖ్యాగా ప్రారంభించండి",
-    "components__pdf_number_pages__main_add_and_downloadd": "చేర్చండి & డౌన్‌లోడ్ చేయండి",
-    "components__pdf_number_pages__main_choose_another_file": "మరొక ఫైల్‌ను ఎంచుకోండి"
+    "components__pdf_number_pages__main_choose_another_file": "మరొక ఫైల్‌ను ఎంచుకోండి",
+    "components__pdf_number_pages__main_add_and_download": "చేర్చండి మరియు డౌన్లోడ్ చేయండి"
   }
 }

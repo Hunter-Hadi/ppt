@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Sélectionnez l'emplacement où vous souhaitez que les numéros de page apparaissent.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajustez les marges de la page et autres options si nécessaire.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Cliquez sur \"Ajouter et télécharger\" et attendez juste une seconde.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Téléchargez votre PDF avec les numéros de page - c'est tout !"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Téléchargez votre PDF avec les numéros de page - c'est tout !",
+    "home_page__hero_section__title__variant2__part1": "IA en un clic partout.",
+    "home_page__hero_section__title__variant2__part2": "Faites plus en moins de temps.",
+    "home_page__hero_section__desc__variant2": "Gagnez du temps et obtenez de meilleurs résultats avec le chat IA, le rédacteur, le résumeur et la réponse instantanée. Propulsé par GPT-4o, Claude 3 et Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",

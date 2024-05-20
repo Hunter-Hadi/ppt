@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "ページ番号を表示する位置を選択します。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "必要に応じてページの余白やその他のオプションを調整します。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "「追加してダウンロード」をクリックし、わずかな時間を待ちます。",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ページ番号が付いたPDFをダウンロードします - それだけです！"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ページ番号が付いたPDFをダウンロードします - それだけです！",
+    "home_page__hero_section__title__variant2__part1": "どこでも1クリックAI。",
+    "home_page__hero_section__title__variant2__part2": "少ない時間でより多くのことを行います。",
+    "home_page__hero_section__desc__variant2": "AIチャット、リライター、要約、インスタントリプライで時間を節約し、より良い結果を得る。GPT-4o、Claude 3、Gemini 1.5によって強化されています。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",

@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "பக்க எண்கள் தோன்ற வேண்டிய இடத்தைத் தேர்ந்தெடுக்கவும்.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "பக்க முன்னிலைகளையும் மற்ற விருப்பங்களையும் திருத்தவும்.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“சேர்க்கும் மற்றும் பதிவிறக்கு” என்பதை அழுத்தவும் ஒரு நிமிடத்தில் காத்திருங்கள்.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "பக்க எண்ணும் PDF ஐ பதிவிறக்குங்கள் - அதே!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "பக்க எண்ணும் PDF ஐ பதிவிறக்குங்கள் - அதே!",
+    "home_page__hero_section__title__variant2__part1": "ஒரு கிளிக் மூலம் அனைவருக்கும் AI.",
+    "home_page__hero_section__title__variant2__part2": "குறைந்த நேரத்தில் மேலும் செய்யுங்கள்.",
+    "home_page__hero_section__desc__variant2": "ஏதேனும் நேரம் சேமிக்கவும், AI அரட்டை, மீள்பார்ப்பாளர், சுருக்கமாக்கி மற்றும் உடனடியாக பதில் பெறுங்கள். GPT-4o, Claude 3 மற்றும் Gemini 1.5 ஆல் இயங்குகின்றன."
   },
   "prompt_library": {
     "use_prompt_library__title": "உயர் தரமான AI புத்தக நூலகம்",

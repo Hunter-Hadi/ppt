@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Piliin ang posisyon kung saan mo gustong lumitaw ang mga numero ng pahina.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "I-adjust ang mga margen ng pahina at iba pang mga opsyon kung kinakailangan.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "I-click ang \"Magdagdag at I-download\" at maghintay ng isang segundo lamang.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "I-download ang iyong PDF na may mga numero ng pahina - iyon lang!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "I-download ang iyong PDF na may mga numero ng pahina - iyon lang!",
+    "home_page__hero_section__title__variant2__part1": "1-click AI sa lahat ng dako.",
+    "home_page__hero_section__title__variant2__part2": "Gawin ang mas marami sa mas kaunting oras.",
+    "home_page__hero_section__desc__variant2": "I-save ang oras at makakuha ng mas magandang mga resulta gamit ang AI chat, rewriter, summarizer, at instant reply. Pinapagana ng GPT-4o, Claude 3, at Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",

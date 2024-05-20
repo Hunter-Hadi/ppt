@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Izaberite poziciju na kojoj želite da se pojave brojevi stranica.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Prilagodite margine stranica i druge opcije po potrebi.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kliknite na \"Dodaj i preuzmi\" i sačekajte samo trenutak.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Preuzmite svoj PDF sa brojevima stranica - to je sve!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Preuzmite svoj PDF sa brojevima stranica - to je sve!",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI svuda.",
+    "home_page__hero_section__title__variant2__part2": "Uradi više u manje vremena.",
+    "home_page__hero_section__desc__variant2": "Uštedite vreme i postignite bolje rezultate uz pomoć AI četa, prepravljača, sumiratora i trenutnog odgovora. Pokreće GPT-4o, Claude 3 i Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteka AI uputa visokog kvaliteta",

@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Pasirinkite vietą, kur norite, kad būtų rodomi puslapių numeriai.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Reguliuokite puslapių paraštės ir kitus nustatymus pagal poreikį.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Spustelėkite „Pridėti ir atsisiųsti“ ir palaukite tik sekundėlę.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Atsisiųskite savo PDF su puslapių numeriais - tai viskas!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Atsisiųskite savo PDF su puslapių numeriais - tai viskas!",
+    "home_page__hero_section__title__variant2__part1": "Vieno paspaudimo dirbtinio intelekto sprendimai visur.",
+    "home_page__hero_section__title__variant2__part2": "Darykite daugiau mažiau laiko.",
+    "home_page__hero_section__desc__variant2": "Sutaupykite laiko ir gaukite geriausius rezultatus naudodami dirbtinio intelekto pokalbių, peržiūros, santraukos ir momentinės atsakymo funkcijas. Veikia su GPT-4o, Claude 3 ir Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",

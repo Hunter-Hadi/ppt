@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Wählen Sie die Position aus, an der die Seitenzahlen angezeigt werden sollen.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Passen Sie die Seitenränder und andere Optionen bei Bedarf an.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klicken Sie auf \"Hinzufügen & Herunterladen\" und warten Sie nur einen Moment.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laden Sie Ihr PDF mit Seitenzahlen herunter – das ist alles!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laden Sie Ihr PDF mit Seitenzahlen herunter – das ist alles!",
+    "home_page__hero_section__title__variant2__part1": "1-Klick KI überall.",
+    "home_page__hero_section__title__variant2__part2": "Mehr in weniger Zeit erledigen.",
+    "home_page__hero_section__desc__variant2": "Sparen Sie Zeit und erzielen Sie bessere Ergebnisse mit KI-Chat, Umformulierer, Zusammenfasser und Sofortantwort. Angetrieben von GPT-4o, Claude 3 und Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",

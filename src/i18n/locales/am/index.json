@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "የጽሁፍ ጥቅል መታወቂያ መለያዎን ወደ እኛን እናስገባለን",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "ጽሁፍ ጠቀምና ሌሎች አማራጭ እናደርጋለን",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "የጽሁፍ ጥቅል መታወቂያውን ያንብቡ እና ጥቅል መታወቂያውን ያስገቡ",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "የጽሁፍ ጥቅል መታወቂያውን ያንብቡ - እርስዎን አማርኛ በቀላሉ በየደረጃዎ የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "የጽሁፍ ጥቅል መታወቂያውን ያንብቡ - እርስዎን አማርኛ በቀላሉ በየደረጃዎ የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው!",
+    "home_page__hero_section__title__variant2__part1": "አንድ-ጊዜ AI በማስተላለፍ ሁሉም ጥቅም ይሆናል።",
+    "home_page__hero_section__title__variant2__part2": "በቀጥታ በጣም በመረጃ በቀን አድርጎ እያለን ነው።",
+    "home_page__hero_section__desc__variant2": "ጥቅም ለጥቅም እንዲሁም የAI የአስተላለፍ የቻለቆችን በማድረግ ጥቅምን ይቀበላል፣ የAI የአስተላለፍ የቻለቆችን በማድረግ የጥቅም መልክትን ያስተካክላል፣ እና የGPT-4o, Claude 3, እና Gemini 1.5 በሚል ማስተላለፍ ሁኔታ ላይ የሚገኙትን ውጤቶችን ይጠቀማል።"
   },
   "prompt_library": {
     "use_prompt_library__title": "የልማት የሚጠቀሙ የሳምንት መልእክት",

@@ -613,7 +613,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "选择要显示页码的位置。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "根据需要调整页面边距和其他选项。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "点击“添加并下载”，稍等片刻。",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "下载带有页码的PDF文件 - 就是这样！"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "下载带有页码的PDF文件 - 就是这样！",
+    "home_page__hero_section__title__variant2__part1": "随时随地的1键AI。",
+    "home_page__hero_section__title__variant2__part2": "更少时间做更多事情。",
+    "home_page__hero_section__desc__variant2": "通过AI聊天、重写器、摘要生成器和即时回复节省时间并获得更好的结果。由GPT-4o、Claude 3和Gemini 1.5提供支持。"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",

@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Selecciona la posición donde deseas que aparezcan los números de página.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajusta los márgenes de página y otras opciones según sea necesario.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Haz clic en \"Agregar y descargar\" y espera solo un segundo.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "¡Descarga tu PDF con números de página, eso es todo!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "¡Descarga tu PDF con números de página, eso es todo!",
+    "home_page__hero_section__title__variant2__part1": "AI en un clic en todas partes.",
+    "home_page__hero_section__title__variant2__part2": "Haz más en menos tiempo.",
+    "home_page__hero_section__desc__variant2": "Ahorra tiempo y obtén mejores resultados con chat de IA, reescritor, resumidor y respuesta instantánea. Potenciado por GPT-4o, Claude 3 y Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",

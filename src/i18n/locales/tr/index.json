@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Sayfa numaralarının görüneceği konumu seçin.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Gerekirse sayfa kenar boşluklarını ve diğer seçenekleri ayarlayın.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "\"Ekle ve İndir\"e tıklayın ve sadece bir saniye bekleyin.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Sayfa numaralarıyla PDF'nizi indirin - bu kadar!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Sayfa numaralarıyla PDF'nizi indirin - bu kadar!",
+    "home_page__hero_section__title__variant2__part1": "Her yerde 1 tıklamayla AI.",
+    "home_page__hero_section__title__variant2__part2": "Daha az zamanda daha fazlasını yapın.",
+    "home_page__hero_section__desc__variant2": "AI sohbeti, yeniden yazıcıyı, özetleyiciyi ve anında yanıtı kullanarak zaman kazanın ve daha iyi sonuçlar elde edin. GPT-4o, Claude 3 ve Gemini 1.5 tarafından desteklenmektedir."
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",

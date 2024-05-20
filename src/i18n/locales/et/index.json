@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Vali koht, kuhu soovid leheküljenumbreid kuvada.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Reguleeri lehe servasid ja muid sätteid vastavalt vajadusele.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klõpsa nupul „Lisa ja Laadi alla“ ning oota vaid hetk.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laadi oma PDF alla leheküljenumbritega – see on kõik!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laadi oma PDF alla leheküljenumbritega – see on kõik!",
+    "home_page__hero_section__title__variant2__part1": "1-klikk AI kõikjal.",
+    "home_page__hero_section__title__variant2__part2": "Tee rohkem vähema ajaga.",
+    "home_page__hero_section__desc__variant2": "Säästa aega ja saa paremaid tulemusi AI vestluse, ümberkirjutaja, kokkuvõtja ja kiire vastuse abil. Töötab GPT-4o, Claude 3 ja Gemini 1.5 poolt."
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",

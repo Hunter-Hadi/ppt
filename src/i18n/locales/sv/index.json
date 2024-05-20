@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Välj positionen där du vill att sidnumren ska visas.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Justera sidmarginaler och andra alternativ vid behov.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klicka på \"Lägg till och ladda ner\" och vänta bara en sekund.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Ladda ner din PDF med sidnummer - det är allt!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Ladda ner din PDF med sidnummer - det är allt!",
+    "home_page__hero_section__title__variant2__part1": "1-klicks AI överallt.",
+    "home_page__hero_section__title__variant2__part2": "Gör mer på mindre tid.",
+    "home_page__hero_section__desc__variant2": "Spara tid och få bättre resultat med AI-chatt, omskrivare, sammanfattare och snabbt svar. Drivs av GPT-4o, Claude 3 och Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",

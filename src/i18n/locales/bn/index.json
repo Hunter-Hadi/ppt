@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "পৃষ্ঠা সংখ্যা যোগ করতে চান সেখানে অবস্থান নির্বাচন করুন।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "পৃষ্ঠা মার্জিন এবং অন্যান্য বিকল্পগুলি প্রয়োজন মত সংশোধন করুন।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“যোগ এবং ডাউনলোড” ক্লিক করুন এবং শুধুমাত্র একটি সেকেন্ড অপেক্ষা করুন।",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "পৃষ্ঠা সংখ্যাসহ আপনার পিডিএফ ডাউনলোড করুন - এটা হলো!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "পৃষ্ঠা সংখ্যাসহ আপনার পিডিএফ ডাউনলোড করুন - এটা হলো!",
+    "home_page__hero_section__title__variant2__part1": "এক ক্লিকে সর্বত্র এইচআই।",
+    "home_page__hero_section__title__variant2__part2": "কম সময়ে আরো কাজ করুন।",
+    "home_page__hero_section__desc__variant2": "এইচআই চ্যাট, পুনরায় লেখক, সংক্ষেপকারক এবং তাৎক্ষণিক উত্তর দিয়ে সময় সংরক্ষণ করুন এবং ভাল ফলাফল পান। GPT-4o, Claude 3 এবং Gemini 1.5 দ্বারা সম্ভব।"
   },
   "prompt_library": {
     "use_prompt_library__title": "উচ্চ মানের AI প্রম্পট লাইব্রেরি",

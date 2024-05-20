@@ -627,7 +627,10 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Izberite položaj, kjer želite, da se prikažejo številke strani.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Prilagodite robove strani in druge možnosti po potrebi.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kliknite »Dodaj in prenesi« in počakajte samo sekundo.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Prenesite svoj PDF s številkami strani - to je vse!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Prenesite svoj PDF s številkami strani - to je vse!",
+    "home_page__hero_section__title__variant2__part1": "1-klik AI povsod.",
+    "home_page__hero_section__title__variant2__part2": "Naredite več v manj časa.",
+    "home_page__hero_section__desc__variant2": "Prihranite čas in dosežite boljše rezultate z AI klepetom, preoblikovalnikom, povzetkom in takojšnjim odgovorom. Poganja jih GPT-4o, Claude 3 in Gemini 1.5."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",
