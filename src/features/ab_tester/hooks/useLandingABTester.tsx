@@ -34,6 +34,7 @@ const useLandingABTester = () => {
       sendMixpanelOnce.current = true;
       mixpanelTrack('test_page_viewed', {
         testVersion: LANDING_VARIANT_TO_VERSION_MAP[variant],
+        testFeature: 'homePage',
       });
     }
   }, [variant]);
@@ -53,7 +54,15 @@ const useLandingABTester = () => {
   const title = useMemo<React.ReactNode>(() => {
     if (variant) {
       if (variant.includes('title1')) {
-        return null;
+        return (
+          <>
+            {t('pages:home_page__hero_section__title__part1')}
+            <br />
+            {t('pages:home_page__hero_section__title__part2')}
+            <br />
+            {t('pages:home_page__hero_section__title__part3')}
+          </>
+        );
       }
 
       if (variant.includes('title2')) {
@@ -73,7 +82,7 @@ const useLandingABTester = () => {
   const description = useMemo<React.ReactNode>(() => {
     if (variant) {
       if (variant.includes('desc1')) {
-        return null;
+        return t('pages:home_page__hero_section__desc');
       }
 
       if (variant.includes('desc2')) {
