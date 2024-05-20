@@ -37,7 +37,9 @@ const AIInstantReplyPages = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          disabledVideo: true,
+          videoSrc: 'https://www.youtube.com/embed/fwaqJyTwefI',
+          imageCover:
+            '/assets/features-landing/ai-reply/ai-reply-video-cover.png',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

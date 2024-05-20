@@ -24,7 +24,7 @@ const AISearchPages = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          disabledVideo: true,
+          videoSrc: 'https://www.youtube.com/embed/1uZuyqqySO0',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

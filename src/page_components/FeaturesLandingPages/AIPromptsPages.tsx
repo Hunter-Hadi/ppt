@@ -38,7 +38,7 @@ const AIPromptsPages = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          disabledVideo: true,
+          videoSrc: 'https://www.youtube.com/embed/CkFKtcZw5xY',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

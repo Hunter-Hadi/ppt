@@ -33,7 +33,7 @@ const AIRewriterPages = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          disabledVideo: true,
+          videoSrc: 'https://www.youtube.com/embed/mAi1D9cbGos',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

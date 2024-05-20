@@ -1,7 +1,7 @@
 import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
-import React, { FC } from 'react';
+import React, { FC, useMemo } from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
@@ -9,16 +9,24 @@ import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupC
 
 export interface IHeroVideoProps {
   disabledVideo?: boolean;
-  videoSrc?: string;
+  videoSrc?: string | null;
   imageCover?: string;
 }
 
 const HeroVideoBox: FC<IHeroVideoProps> = ({
-  disabledVideo,
+  disabledVideo: propDisabledVideo = false,
   videoSrc = PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
   imageCover = '/assets/landing/hero-section/video-cover.png',
 }) => {
   const { openVideoPopup } = useVideoPopupController();
+
+  const disabledVideo = useMemo(() => {
+    if (propDisabledVideo) {
+      return true;
+    } else {
+      return !videoSrc;
+    }
+  }, [propDisabledVideo, videoSrc]);
 
   return (
     <Stack
