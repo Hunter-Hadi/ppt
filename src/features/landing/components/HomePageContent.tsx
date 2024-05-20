@@ -7,7 +7,7 @@ import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import FeaturesCarousel from '@/features/landing/components/FeaturesCarousel';
 
 import CallToActionSection from './CallToActionSection';
-import FeaturesExpandSection from './FeaturesCarousel/FeaturesExpandVariantSection';
+import FeaturesExpandVariantSection from './FeaturesCarousel/FeaturesExpandVariantSection';
 import HeroSection from './HeroSection';
 import MaxAIInNumbers from './MaxAIInNumbers';
 import TrustedBy from './TrustedBy';
@@ -54,7 +54,7 @@ const HomePageContent: FC<IProps> = ({ propRef, testing }) => {
 
         {/* feature carousel */}
         {featuresCarousel && <FeaturesCarousel />}
-        {featuresExpand && <FeaturesExpandSection />}
+        {featuresExpand && <FeaturesExpandVariantSection />}
         {/* {!loaded && <FeaturesCarouselSkeleton />} */}
 
         {/* trusted by */}
