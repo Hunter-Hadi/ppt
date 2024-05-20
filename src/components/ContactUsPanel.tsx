@@ -1,12 +1,9 @@
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 
 import {
   APP_EXTERNAL_LINKS,
-  EXTENSION_INSTALL_TRACKER_LINK,
-  EXTENSION_SHARE_TRACKER_LINK,
   SIMPLY_TRENDS_APP_EMAIL,
 } from '@/global_constants';
 
@@ -64,7 +61,7 @@ const ContactUsPanel = () => {
         />{' '}
         .
       </Typography>
-      <Stack direction={'row'} gap={1} flexWrap='wrap'>
+      {/* <Stack direction={'row'} gap={1} flexWrap='wrap'>
         <Typography variant='body2' component={'div'}>
           👉 {t('pages:contact_us__item2')}{' '}
         </Typography>
@@ -108,7 +105,7 @@ const ContactUsPanel = () => {
           />
           {` `}.
         </Typography>
-      </Stack>
+      </Stack> */}
     </Stack>
   );
 };
