@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Широки",
     "components__pdf_number_pages__main_start_numbering_at": "Започни номерирането от",
     "components__pdf_number_pages__main_input_start_numbering_at": "Въведете номерирането от",
-    "components__pdf_number_pages__main_add_and_download": "Добави и изтегли",
-    "components__pdf_number_pages__main_choose_another_file": "Изберете друг файл"
+    "components__pdf_number_pages__main_choose_another_file": "Изберете друг файл",
+    "components__pdf_number_pages__main_add_and_download": "Вмъкни и изтегли"
   }
 }

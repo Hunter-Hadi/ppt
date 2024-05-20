@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Լայն",
     "components__pdf_number_pages__main_start_numbering_at": "Սկսեք համարների հաշվարկը",
     "components__pdf_number_pages__main_input_start_numbering_at": "Մուտքագրեք համարների հաշվարկը",
-    "components__pdf_number_pages__main_add_and_download": "Ավելացնել և բեռնել",
-    "components__pdf_number_pages__main_choose_another_file": "Ընտրեք մեկ այլ ֆայլ"
+    "components__pdf_number_pages__main_choose_another_file": "Ընտրեք մեկ այլ ֆայլ",
+    "components__pdf_number_pages__main_add_and_download": "Մուտքագրեք և Ներբեռնեք"
   }
 }

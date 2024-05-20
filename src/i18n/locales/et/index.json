@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Lai",
     "components__pdf_number_pages__main_start_numbering_at": "Alusta nummerdamist",
     "components__pdf_number_pages__main_input_start_numbering_at": "Sisesta nummerdamise alguskoht",
-    "components__pdf_number_pages__main_add_and_download": "Lisa ja Laadi alla",
-    "components__pdf_number_pages__main_choose_another_file": "Valige teine fail"
+    "components__pdf_number_pages__main_choose_another_file": "Valige teine fail",
+    "components__pdf_number_pages__main_add_and_download": "Sisesta ja Laadi alla"
   }
 }

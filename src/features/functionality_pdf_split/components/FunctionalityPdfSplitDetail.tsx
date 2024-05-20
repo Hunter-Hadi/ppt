@@ -85,11 +85,13 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
     }
   };
   useEffect(() => {
-    if (isReadFile.current) {
-      return;
+    if (file) {
+      if (isReadFile.current) {
+        return;
+      }
+      isReadFile.current = true;
+      onUploadFile([file] as unknown as FileList);
     }
-    isReadFile.current = true;
-    onUploadFile([file] as unknown as FileList);
   }, [file]);
   const selectPdfPageList = useMemo(
     () => convertedPdfImages.filter((item) => item.isSelect),

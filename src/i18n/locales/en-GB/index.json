@@ -783,7 +783,7 @@
     "components__pdf_number_pages__main_margins_wide": "Wide",
     "components__pdf_number_pages__main_start_numbering_at": "Start numbering at",
     "components__pdf_number_pages__main_input_start_numbering_at": "Input start numbering at",
-    "components__pdf_number_pages__main_add_and_download": "Add & Download",
+    "components__pdf_number_pages__main_add_and_download": "Insert & Download",
     "components__pdf_number_pages__main_choose_another_file": "Choose another file"
   },
   "prompt_library": {

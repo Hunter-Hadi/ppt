@@ -65,11 +65,11 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
     }
   };
   useEffect(() => {
-    if (isReadFile.current) {
-      return;
-    }
-    isReadFile.current = true;
     if (fileList) {
+      if (isReadFile.current) {
+        return;
+      }
+      isReadFile.current = true;
       onUploadFile(fileList, true);
     }
   }, [fileList]);

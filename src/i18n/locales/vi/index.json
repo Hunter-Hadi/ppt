@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Rộng",
     "components__pdf_number_pages__main_start_numbering_at": "Bắt đầu đánh số từ",
     "components__pdf_number_pages__main_input_start_numbering_at": "Nhập số bắt đầu đánh số từ",
-    "components__pdf_number_pages__main_add_and_download": "Thêm & Tải xuống",
-    "components__pdf_number_pages__main_choose_another_file": "Chọn tệp khác"
+    "components__pdf_number_pages__main_choose_another_file": "Chọn tệp khác",
+    "components__pdf_number_pages__main_add_and_download": "Chèn & Tải xuống"
   }
 }

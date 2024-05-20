@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Malawak",
     "components__pdf_number_pages__main_start_numbering_at": "Simulan ang pagnumera sa",
     "components__pdf_number_pages__main_input_start_numbering_at": "Ipasok ang simula ng pagnumera sa",
-    "components__pdf_number_pages__main_add_and_download": "Magdagdag at I-download",
-    "components__pdf_number_pages__main_choose_another_file": "Pumili ng ibang file"
+    "components__pdf_number_pages__main_choose_another_file": "Pumili ng ibang file",
+    "components__pdf_number_pages__main_add_and_download": "Isingit at I-download"
   }
 }

@@ -68,11 +68,13 @@ const FunctionalityPdfToHtmlDetail: FC<IFunctionalityPdfToHtmlDetail> = ({
     setIsLoading(false);
   };
   useEffect(() => {
-    if (isReadFile.current) {
-      return;
+    if (file) {
+      if (isReadFile.current) {
+        return;
+      }
+      isReadFile.current = true;
+      onUploadFile([file] as unknown as FileList);
     }
-    isReadFile.current = true;
-    onUploadFile([file] as unknown as FileList);
   }, [file]);
   const downloadHtml = useCallback(() => {
     if (htmlString) {

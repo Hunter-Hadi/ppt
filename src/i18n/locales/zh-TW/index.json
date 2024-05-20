@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "寬",
     "components__pdf_number_pages__main_start_numbering_at": "從哪裡開始編號",
     "components__pdf_number_pages__main_input_start_numbering_at": "輸入從哪裡開始編號",
-    "components__pdf_number_pages__main_add_and_download": "添加並下載",
-    "components__pdf_number_pages__main_choose_another_file": "選擇另一個檔案"
+    "components__pdf_number_pages__main_choose_another_file": "選擇另一個檔案",
+    "components__pdf_number_pages__main_add_and_download": "插入並下載"
   }
 }

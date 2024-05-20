@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "กว้าง",
     "components__pdf_number_pages__main_start_numbering_at": "เริ่มต้นการจัดหมายเลขที่",
     "components__pdf_number_pages__main_input_start_numbering_at": "ป้อนเลขเริ่มต้นการจัดหมายเลขที่",
-    "components__pdf_number_pages__main_add_and_download": "เพิ่มและดาวน์โหลด",
-    "components__pdf_number_pages__main_choose_another_file": "เลือกไฟล์อื่น"
+    "components__pdf_number_pages__main_choose_another_file": "เลือกไฟล์อื่น",
+    "components__pdf_number_pages__main_add_and_download": "แทรกและดาวน์โหลด"
   }
 }

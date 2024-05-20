@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "넓게",
     "components__pdf_number_pages__main_start_numbering_at": "번호 매기기 시작 위치",
     "components__pdf_number_pages__main_input_start_numbering_at": "번호 매기기 시작 위치 입력",
-    "components__pdf_number_pages__main_add_and_download": "추가 및 다운로드",
-    "components__pdf_number_pages__main_choose_another_file": "다른 파일 선택"
+    "components__pdf_number_pages__main_choose_another_file": "다른 파일 선택",
+    "components__pdf_number_pages__main_add_and_download": "삽입 및 다운로드"
   }
 }

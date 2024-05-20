@@ -70,11 +70,13 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
     }
   };
   useEffect(() => {
-    if (isReadFile.current) {
-      return;
+    if (file) {
+      if (isReadFile.current) {
+        return;
+      }
+      isReadFile.current = true;
+      readPdfToImages();
     }
-    isReadFile.current = true;
-    readPdfToImages();
   }, [file]);
   useEffect(() => {
     if (convertedPdfImages.length > 0) {

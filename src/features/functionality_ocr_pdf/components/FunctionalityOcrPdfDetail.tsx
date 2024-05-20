@@ -223,11 +223,13 @@ const FunctionalityOcrPdfDetail: FC<IFunctionalityOcrPdfDetail> = ({
     }
   };
   useEffect(() => {
-    if (isReadFile.current) {
-      return;
+    if (file) {
+      if (isReadFile.current) {
+        return;
+      }
+      isReadFile.current = true;
+      onInitializationFileToData(file);
     }
-    isReadFile.current = true;
-    onInitializationFileToData(file);
   }, [file]);
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(

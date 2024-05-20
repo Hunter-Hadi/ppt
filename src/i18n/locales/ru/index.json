@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Широкие",
     "components__pdf_number_pages__main_start_numbering_at": "Начать нумерацию с",
     "components__pdf_number_pages__main_input_start_numbering_at": "Введите начальное значение нумерации",
-    "components__pdf_number_pages__main_add_and_download": "Добавить и скачать",
-    "components__pdf_number_pages__main_choose_another_file": "Выберите другой файл"
+    "components__pdf_number_pages__main_choose_another_file": "Выберите другой файл",
+    "components__pdf_number_pages__main_add_and_download": "Вставить и скачать"
   }
 }

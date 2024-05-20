@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "विस्तृत",
     "components__pdf_number_pages__main_start_numbering_at": "प्रारंभ करने के लिए नंबरिंग",
     "components__pdf_number_pages__main_input_start_numbering_at": "प्रारंभ करने के लिए नंबरिंग दर्ज करें",
-    "components__pdf_number_pages__main_add_and_download": "जोड़ें और डाउनलोड करें",
-    "components__pdf_number_pages__main_choose_another_file": "एक और फ़ाइल चुनें"
+    "components__pdf_number_pages__main_choose_another_file": "एक और फ़ाइल चुनें",
+    "components__pdf_number_pages__main_add_and_download": "डालें और डाउनलोड करें"
   }
 }

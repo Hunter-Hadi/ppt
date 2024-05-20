@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Geniş",
     "components__pdf_number_pages__main_start_numbering_at": "Numaralandırmaya başla",
     "components__pdf_number_pages__main_input_start_numbering_at": "Numaralandırmaya başlama sayısını girin",
-    "components__pdf_number_pages__main_add_and_download": "Ekle ve İndir",
-    "components__pdf_number_pages__main_choose_another_file": "Başka bir dosya seçin"
+    "components__pdf_number_pages__main_choose_another_file": "Başka bir dosya seçin",
+    "components__pdf_number_pages__main_add_and_download": "Ekle ve İndir"
   }
 }

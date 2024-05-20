@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Široké",
     "components__pdf_number_pages__main_start_numbering_at": "Začít číslování od",
     "components__pdf_number_pages__main_input_start_numbering_at": "Zadejte počáteční číslo",
-    "components__pdf_number_pages__main_add_and_download": "Přidat a stáhnout",
-    "components__pdf_number_pages__main_choose_another_file": "Vyberte jiný soubor"
+    "components__pdf_number_pages__main_choose_another_file": "Vyberte jiný soubor",
+    "components__pdf_number_pages__main_add_and_download": "Vložit a stáhnout"
   }
 }

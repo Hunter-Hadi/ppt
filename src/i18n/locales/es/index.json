@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Ancho",
     "components__pdf_number_pages__main_start_numbering_at": "Comenzar numeración en",
     "components__pdf_number_pages__main_input_start_numbering_at": "Ingresa el número de inicio de numeración",
-    "components__pdf_number_pages__main_add_and_download": "Agregar y Descargar",
-    "components__pdf_number_pages__main_choose_another_file": "Seleccionar otro archivo"
+    "components__pdf_number_pages__main_choose_another_file": "Seleccionar otro archivo",
+    "components__pdf_number_pages__main_add_and_download": "Insertar y Descargar"
   }
 }

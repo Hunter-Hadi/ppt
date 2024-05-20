@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "広い",
     "components__pdf_number_pages__main_start_numbering_at": "開始番号",
     "components__pdf_number_pages__main_input_start_numbering_at": "開始番号を入力",
-    "components__pdf_number_pages__main_add_and_download": "追加してダウンロード",
-    "components__pdf_number_pages__main_choose_another_file": "別のファイルを選択"
+    "components__pdf_number_pages__main_choose_another_file": "別のファイルを選択",
+    "components__pdf_number_pages__main_add_and_download": "挿入してダウンロード"
   }
 }

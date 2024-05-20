@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Breed",
     "components__pdf_number_pages__main_start_numbering_at": "Begin met nummeren bij",
     "components__pdf_number_pages__main_input_start_numbering_at": "Voer het beginnummer in",
-    "components__pdf_number_pages__main_add_and_download": "Toevoegen en downloaden",
-    "components__pdf_number_pages__main_choose_another_file": "Kies een ander bestand"
+    "components__pdf_number_pages__main_choose_another_file": "Kies een ander bestand",
+    "components__pdf_number_pages__main_add_and_download": "Invoegen en Downloaden"
   }
 }

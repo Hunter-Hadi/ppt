@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Amplis",
     "components__pdf_number_pages__main_start_numbering_at": "Començar numeració a",
     "components__pdf_number_pages__main_input_start_numbering_at": "Introdueix el número d'inici de numeració",
-    "components__pdf_number_pages__main_add_and_download": "Afegir i Descarregar",
-    "components__pdf_number_pages__main_choose_another_file": "Trieu un altre fitxer"
+    "components__pdf_number_pages__main_choose_another_file": "Trieu un altre fitxer",
+    "components__pdf_number_pages__main_add_and_download": "Inserir i Descarregar"
   }
 }

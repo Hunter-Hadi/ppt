@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Широкі",
     "components__pdf_number_pages__main_start_numbering_at": "Почати нумерацію з",
     "components__pdf_number_pages__main_input_start_numbering_at": "Введіть початковий номер",
-    "components__pdf_number_pages__main_add_and_download": "Додати та завантажити",
-    "components__pdf_number_pages__main_choose_another_file": "Вибрати інший файл"
+    "components__pdf_number_pages__main_choose_another_file": "Вибрати інший файл",
+    "components__pdf_number_pages__main_add_and_download": "Вставити та завантажити"
   }
 }

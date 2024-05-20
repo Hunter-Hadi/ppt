@@ -106,18 +106,13 @@ const FunctionalityImageToPdfDetail: FC<
     setImageInfoList((list) => [...list, ...imageUrls]);
     setIsLoading(false);
   };
-  const initReadFileList = async (fileList) => {
-    if (isReadFile.current) {
-      return;
-    }
-    isReadFile.current = true;
-    if (fileList) {
-      onUploadFile(fileList);
-    }
-  };
   useEffect(() => {
     if (fileList) {
-      initReadFileList(fileList);
+      if (isReadFile.current) {
+        return;
+      }
+      isReadFile.current = true;
+      onUploadFile(fileList);
     }
   }, [fileList]);
   const handleUnsupportedFileTypeTip = () => {

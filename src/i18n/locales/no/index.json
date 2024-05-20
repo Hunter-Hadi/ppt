@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Bred",
     "components__pdf_number_pages__main_start_numbering_at": "Start nummerering ved",
     "components__pdf_number_pages__main_input_start_numbering_at": "Angi startnummerering ved",
-    "components__pdf_number_pages__main_add_and_download": "Legg til og last ned",
-    "components__pdf_number_pages__main_choose_another_file": "Velg en annen fil"
+    "components__pdf_number_pages__main_choose_another_file": "Velg en annen fil",
+    "components__pdf_number_pages__main_add_and_download": "Sett inn og last ned"
   }
 }

@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "宽",
     "components__pdf_number_pages__main_start_numbering_at": "从以下数字开始编号",
     "components__pdf_number_pages__main_input_start_numbering_at": "输入以下数字开始编号",
-    "components__pdf_number_pages__main_add_and_download": "添加并下载",
-    "components__pdf_number_pages__main_choose_another_file": "选择另一个文件"
+    "components__pdf_number_pages__main_choose_another_file": "选择另一个文件",
+    "components__pdf_number_pages__main_add_and_download": "插入并下载"
   }
 }

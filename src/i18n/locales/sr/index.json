@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Široko",
     "components__pdf_number_pages__main_start_numbering_at": "Počni numerisanje od",
     "components__pdf_number_pages__main_input_start_numbering_at": "Unesite početak numerisanja od",
-    "components__pdf_number_pages__main_add_and_download": "Dodaj i preuzmi",
-    "components__pdf_number_pages__main_choose_another_file": "Izaberite drugi fajl"
+    "components__pdf_number_pages__main_choose_another_file": "Izaberite drugi fajl",
+    "components__pdf_number_pages__main_add_and_download": "Ubaci i Preuzmi"
   }
 }

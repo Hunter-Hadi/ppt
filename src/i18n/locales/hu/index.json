@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Széles",
     "components__pdf_number_pages__main_start_numbering_at": "Kezdje a számozást itt",
     "components__pdf_number_pages__main_input_start_numbering_at": "Adja meg a kezdő oldalszámot",
-    "components__pdf_number_pages__main_add_and_download": "Hozzáadás és letöltés",
-    "components__pdf_number_pages__main_choose_another_file": "Válasszon másik fájlt"
+    "components__pdf_number_pages__main_choose_another_file": "Válasszon másik fájlt",
+    "components__pdf_number_pages__main_add_and_download": "Beszúrás és Letöltés"
   }
 }

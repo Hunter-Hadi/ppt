@@ -18,10 +18,10 @@ interface IFunctionalityPdfToImageProps {
 const FunctionalityPdfToImageMain: FC<IFunctionalityPdfToImageProps> = ({
   toType,
 }) => {
-  const [fileData, setFileData] = useState<File | null>(null);
+  const [file, setFile] = useState<File | null>(null);
   const onChangeFile = (fileList: FileList) => {
     if (fileList?.length > 0) {
-      setFileData(fileList[0]);
+      setFile(fileList[0]);
     }
   };
   const toImageType = useMemo(() => {
@@ -41,7 +41,7 @@ const FunctionalityPdfToImageMain: FC<IFunctionalityPdfToImageProps> = ({
         width: '100%',
       }}
     >
-      {!fileData && (
+      {!file && (
         <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
@@ -50,12 +50,12 @@ const FunctionalityPdfToImageMain: FC<IFunctionalityPdfToImageProps> = ({
           onChange={onChangeFile}
         />
       )}
-      {fileData && toImageType && (
+      {file && toImageType && (
         <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityPdfToImageDetail
-            fileData={fileData}
+            file={file}
             toType={toImageType}
-            onRemoveFile={() => setFileData(null)}
+            onRemoveFile={() => setFile(null)}
           />
         </Suspense>
       )}

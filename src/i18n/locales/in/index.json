@@ -1327,7 +1327,7 @@
     "components__pdf_number_pages__main_margins_wide": "Lebar",
     "components__pdf_number_pages__main_start_numbering_at": "Mulai penomoran pada",
     "components__pdf_number_pages__main_input_start_numbering_at": "Masukkan mulai penomoran pada",
-    "components__pdf_number_pages__main_add_and_download": "Tambahkan & Unduh",
-    "components__pdf_number_pages__main_choose_another_file": "Pilih file lain"
+    "components__pdf_number_pages__main_choose_another_file": "Pilih file lain",
+    "components__pdf_number_pages__main_add_and_download": "Masukkan & Unduh"
   }
 }
