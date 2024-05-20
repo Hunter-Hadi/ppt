@@ -24,13 +24,13 @@ import FunctionalityImageList from '@/features/functionality_pdf_to_image/compon
 import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
 
 interface IFunctionalityPdfToImageDetailProps {
-  fileData: File;
+  file: File;
   toType: 'jpeg' | 'png';
   onRemoveFile?: () => void;
 }
 const FunctionalityPdfToImageDetail: FC<
   IFunctionalityPdfToImageDetailProps
-> = ({ fileData, onRemoveFile, toType }) => {
+> = ({ file, onRemoveFile, toType }) => {
   const { t } = useTranslation();
   const isReadFile = useRef(false);
   const [showPdfImagesType, setShowPdfImagesType] = useState<
@@ -73,22 +73,24 @@ const FunctionalityPdfToImageDetail: FC<
       },
     );
   const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
-  const readPdfToImages = async (file) => {
+  const readPdfToImages = async (fileData) => {
     if (isReadFile.current) {
       return;
     }
     isReadFile.current = true;
-    if (file) {
+    if (fileData) {
       console.log('simply readPdfToImages');
-      const isReadSuccess = await onReadPdfToImages(file, toType, true);
+      const isReadSuccess = await onReadPdfToImages(fileData, toType, true);
       if (!isReadSuccess) {
         onRemoveFile && onRemoveFile();
       }
     }
   };
   useEffect(() => {
-    readPdfToImages(fileData);
-  }, [fileData]);
+    if (file) {
+      readPdfToImages(file);
+    }
+  }, [file]);
   const maxSizeScaleNum = 4;
   const imageSizeList = useMemo(() => {
     // 图片储存列表设置
@@ -108,18 +110,20 @@ const FunctionalityPdfToImageDetail: FC<
   };
 
   const downloadZip = () => {
-    if (showPdfImagesType === 'pdfPageImages') {
-      //maxSizeScaleNum * 4  默认尺寸是1.6倍
-      onDownloadPdfImagesZip(
-        currentShowImages,
-        toType,
-        fileData,
-        selectDownloadSizeIndex === 0
-          ? undefined
-          : defaultPdfToImageScale * maxSizeScaleNum,
-      );
-    } else {
-      onDownloadPdfImagesZip(currentShowImages, toType, fileData);
+    if (file) {
+      if (showPdfImagesType === 'pdfPageImages') {
+        //maxSizeScaleNum * 4  默认尺寸是1.6倍
+        onDownloadPdfImagesZip(
+          currentShowImages,
+          toType,
+          file,
+          selectDownloadSizeIndex === 0
+            ? undefined
+            : defaultPdfToImageScale * maxSizeScaleNum,
+        );
+      } else {
+        onDownloadPdfImagesZip(currentShowImages, toType, file);
+      }
     }
   };
   const onCancel = () => {

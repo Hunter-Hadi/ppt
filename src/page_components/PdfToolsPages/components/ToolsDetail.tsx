@@ -5,7 +5,6 @@ import { FC, lazy, Suspense, useMemo } from 'react';
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import FunctionalityImageToPdfMain from '@/features/functionality_image_to_pdf/components/FunctionalityImageToPdfMain';
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
 import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards';
 import ToolsDetailDescription from '@/page_components/PdfToolsPages/components/ToolsDetailDescription';
@@ -57,10 +56,22 @@ const FunctionalityOcrPdfMain = lazy(
       '@/features/functionality_ocr_pdf/components/FunctionalityOcrPdfMain'
     ),
 );
+const FunctionalityNumberPagesMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_number_pages/components/FunctionalityNumberPagesMain'
+    ),
+);
 const FunctionalityRotatePdfMain = lazy(
   () =>
     import(
       '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfMain'
+    ),
+);
+const FunctionalityImageToPdfMain = lazy(
+  () =>
+    import(
+      '@/features/functionality_image_to_pdf/components/FunctionalityImageToPdfMain'
     ),
 );
 interface IToolsDetailProps {
@@ -124,6 +135,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__rotate_pdf__title'),
       description: t('seo:pdf_tools__rotate_pdf__description'),
     },
+    'number-pages': {
+      title: t('seo:pdf_tools__pdf_numbers_page__title'),
+      description: t('seo:pdf_tools__pdf_numbers_page__description'),
+    },
   };
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];
   const toolList = useMemo(
@@ -168,6 +183,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
           {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
           {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
+          {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
           {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
         </Suspense>
       </Box>

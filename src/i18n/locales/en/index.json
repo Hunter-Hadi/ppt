@@ -463,6 +463,10 @@
     "tools__index_page__constant_obj__rotate_pdf__main_description": "Rotate all or individual pages in a PDF",
     "tools__index_page__constant_obj__rotate_pdf__secondary_description": "Simply click on a page to rotate it. You can then download your modified PDF.",
 
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "Number Pages",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Insert page numbers in PDF with ease",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Batch and quick insertion of page numbers in PDF documents",
+
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",
@@ -662,7 +666,30 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_title": "How To Rotate PDF Pages Online:",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "Upload the PDF document you wish to rotate.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "Select specific pages for rotation or apply the rotation to all pages.",
-    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download your amended PDF, with pages now in the correct orientation, ready for any use."
+    "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "Download your amended PDF, with pages now in the correct orientation, ready for any use.",
+
+    "pdf_tools__detail_description_object__number_pages__top_left": "Effortlessly insert page numbers into your PDF files with our intuitive online PDF numbered paging tool. Ensure your documents are well-organized and easy to navigate, all without software installation.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "Simple and quick PDF page numbering",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "No software download required",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "High security – all processing done in your browser",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "Efficient PDF Page Numbering",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "Add sequential page numbers to your PDFs in seconds. Upload your PDF, configure your settings, and let our tool handle the rest, creating a professionally numbered document effortlessly.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "Maintain Document Order",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "Keep your PDF files organized by ensuring pages are clearly numbered. Facilitate easy reference and enhance the readability of your documents.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "Versatile Numbering Options",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "Customize your page numbers with different fonts, sizes, and positions. Our converter accommodates various formatting needs to suit any type of document.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "Client-Side Privacy Protection",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "Your privacy is safeguarded as the entire page numbering process occurs locally on your machine. Your files stay secure and confidential.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "Accessible Anywhere",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "Our online tool is available around the clock from any device. Number your PDF pages at any time, directly from your web browser with no installations needed.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "Offline Functionality",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "Continue working without internet access. Load the page beforehand, and you can still number your PDF pages offline whenever necessary.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "How To Easily Number PDF Pages:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "Import or drag & drop your file to our PDF page number tool.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Select the position where you want page numbers to appear.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Adjust page margins and other options as needed.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Click “Add & Download” and wait just a second.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!"
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"
@@ -826,6 +853,17 @@
     "components__rotate_pdf__button__cancel__tooltip": "Cancel current progress",
     "components__rotate_pdf__button__download__tooltip": "Rotate and download PDF",
     "components__rotate_pdf__button__download": "Download"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "Position",
+    "components__pdf_number_pages__main_margins": "Margins",
+    "components__pdf_number_pages__main_margins_narrow": "Narrow",
+    "components__pdf_number_pages__main_margins_default": "Default",
+    "components__pdf_number_pages__main_margins_wide": "Wide",
+    "components__pdf_number_pages__main_start_numbering_at": "Start numbering at",
+    "components__pdf_number_pages__main_input_start_numbering_at": "Input start numbering at",
+    "components__pdf_number_pages__main_add_and_download": "Insert & Download",
+    "components__pdf_number_pages__main_choose_another_file": "Choose another file"
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",
@@ -1170,7 +1208,10 @@
     "pdf_tools__ocr_pdf__description": "Convert non-searchable PDF documents into searchable and selectable text in seconds. No watermarks, file size limits, downloads, or sign-ups required.",
 
     "pdf_tools__rotate_pdf__title": "Rotate PDF - Easily Rotate Pages in PDF Documents Online | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "Effortlessly rotate pages within your PDF documents online for free. Adjust the orientation of any PDF page with just a click - no file size limits, downloads, or sign-ups necessary."
+    "pdf_tools__rotate_pdf__description": "Effortlessly rotate pages within your PDF documents online for free. Adjust the orientation of any PDF page with just a click - no file size limits, downloads, or sign-ups necessary.",
+
+    "pdf_tools__pdf_numbers_page__title": "Add Page Numbers to PDF – Fast Online Numbering Tool | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "Quickly add page numbers to PDF files online. No software needed, secure in-browser processing. No watermarks, file size limits, downloads, or sign-ups required."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

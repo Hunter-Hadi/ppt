@@ -12,6 +12,7 @@
     "sign-pdf": "sign-pdf",
     "compress-pdf": "compress-pdf",
     "ocr-pdf": "ocr-pdf",
-    "rotate-pdf": "rotate-pdf"
+    "rotate-pdf": "rotate-pdf",
+    "number-pages": "number-pages"
   }
 }
