@@ -28,19 +28,19 @@ export type ICustomIconType =
 const IconsMap: {
   [key in ICustomIconType]: React.ComponentType<SvgIconProps>;
 } = {
-  HEICToPDF: dynamic(() => import('./ToolsIcon/icons/HEICToPDF')),
-  MergePDF: dynamic(() => import('./ToolsIcon/icons/MergePDF')),
-  NumberPages: dynamic(() => import('./ToolsIcon/icons/NumberPages')),
-  OcrPDF: dynamic(() => import('./ToolsIcon/icons/OcrPDF')),
-  PDFToHTML: dynamic(() => import('./ToolsIcon/icons/PDFToHTML')),
-  PDFToJPEG: dynamic(() => import('./ToolsIcon/icons/PDFToJPEG')),
-  PDFToPNG: dynamic(() => import('./ToolsIcon/icons/PDFToPNG')),
-  PNGToPDF: dynamic(() => import('./ToolsIcon/icons/PNGToPDF')),
-  RotatePDF: dynamic(() => import('./ToolsIcon/icons/RotatePDF')),
-  SignPDF: dynamic(() => import('./ToolsIcon/icons/SignPDF')),
-  SplitPDF: dynamic(() => import('./ToolsIcon/icons/SplitPDF')),
-  CompressPDF: dynamic(() => import('./ToolsIcon/icons/CompressPDF')),
-  JPEGToPDF: dynamic(() => import('./ToolsIcon/icons/JPEGToPDF')),
+  HEICToPDF: dynamic(() => import('./icons/HEICToPDF')),
+  MergePDF: dynamic(() => import('./icons/MergePDF')),
+  NumberPages: dynamic(() => import('./icons/NumberPages')),
+  OcrPDF: dynamic(() => import('./icons/OcrPDF')),
+  PDFToHTML: dynamic(() => import('./icons/PDFToHTML')),
+  PDFToJPEG: dynamic(() => import('./icons/PDFToJPEG')),
+  PDFToPNG: dynamic(() => import('./icons/PDFToPNG')),
+  PNGToPDF: dynamic(() => import('./icons/PNGToPDF')),
+  RotatePDF: dynamic(() => import('./icons/RotatePDF')),
+  SignPDF: dynamic(() => import('./icons/SignPDF')),
+  SplitPDF: dynamic(() => import('./icons/SplitPDF')),
+  CompressPDF: dynamic(() => import('./icons/CompressPDF')),
+  JPEGToPDF: dynamic(() => import('./icons/JPEGToPDF')),
 };
 const ToolsIcon: FC<{ name: string } & SvgIconProps> = ({
   name,
