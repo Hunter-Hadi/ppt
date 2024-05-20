@@ -1,7 +1,43 @@
 import { SvgIconProps, SxProps } from '@mui/material';
 import dynamic from 'next/dynamic';
 import React, { FC } from 'react';
-
+export type ICustomIconType =
+  | 'Shopify'
+  | 'Chrome'
+  | 'SimplyTrends'
+  | 'TwitterX'
+  | 'Instagram'
+  | 'FacebookAds'
+  | 'Facebook'
+  | 'TikTok'
+  | 'ChatGPTLogo'
+  | 'ChatGPTLogoOutLine'
+  | 'ChatGPTLogoBlack'
+  | 'BingLogo'
+  | 'BardLogo'
+  | 'ClaudeLogo'
+  | 'ClaudeLogoBlack'
+  | 'Lock'
+  | 'Done'
+  | 'Unhappy'
+  | 'Incorrect'
+  | 'Database'
+  | 'ThumbUp'
+  | 'ChromeColor'
+  | 'EdgeColor'
+  | 'Edge'
+  | 'Gemini'
+  | 'PDF'
+  | 'YouTube'
+  | 'AIPowerSearch'
+  | 'Gmail'
+  | 'LinkedIn'
+  | 'Outlook'
+  | 'GoogleAds'
+  | 'MaxAILogo'
+  | 'DALLE'
+  | 'ChatWithPDF'
+  | 'FirefoxColor';
 const iconsMap: {
   [key in ICustomIconType]: React.ComponentType<SvgIconProps>;
 } = {
@@ -42,43 +78,7 @@ const iconsMap: {
   ChatWithPDF: dynamic(() => import('./icons/ChatWithPDF')),
   FirefoxColor: dynamic(() => import('./icons/FirefoxColor')),
 };
-export type ICustomIconType =
-  | 'Shopify'
-  | 'Chrome'
-  | 'SimplyTrends'
-  | 'TwitterX'
-  | 'Instagram'
-  | 'FacebookAds'
-  | 'Facebook'
-  | 'TikTok'
-  | 'ChatGPTLogo'
-  | 'ChatGPTLogoOutLine'
-  | 'ChatGPTLogoBlack'
-  | 'BingLogo'
-  | 'BardLogo'
-  | 'ClaudeLogo'
-  | 'ClaudeLogoBlack'
-  | 'Lock'
-  | 'Done'
-  | 'Unhappy'
-  | 'Incorrect'
-  | 'Database'
-  | 'ThumbUp'
-  | 'ChromeColor'
-  | 'EdgeColor'
-  | 'Edge'
-  | 'Gemini'
-  | 'PDF'
-  | 'YouTube'
-  | 'AIPowerSearch'
-  | 'Gmail'
-  | 'LinkedIn'
-  | 'Outlook'
-  | 'GoogleAds'
-  | 'MaxAILogo'
-  | 'DALLE'
-  | 'ChatWithPDF'
-  | 'FirefoxColor';
+
 interface IconType {
   icon: ICustomIconType;
   sx?: SxProps; // 假设 sx 是可选的对象
