@@ -68,6 +68,18 @@ const nextConfig = {
     NEXT_PUBLIC_WWW_PROJECT_HOST: WWW_PROJECT_HOST,
     NEXT_PUBLIC_APP_PROJECT_HOST: APP_PROJECT_HOST,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/blog-test/',
+        destination: 'http://35.166.210.149/',
+      },
+      {
+        source: '/blog-test/:path*/',
+        destination: 'http://35.166.210.149/:path*/',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
