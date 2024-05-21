@@ -70,7 +70,7 @@ const getPdfToImageTypeToolDescriptionObject = (type: 'PNG' | 'JPEG') => {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: type === 'PNG' ? 'PDFToPNG' : 'PDFToJPEG',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__pdf_to_image__bottom_right_title',
@@ -87,6 +87,18 @@ const getPdfToImageTypeToolDescriptionObject = (type: 'PNG' | 'JPEG') => {
 const getImageToPdfTypeToolDescriptionObject = (
   type: 'PNG' | 'JPEG' | 'HEIC',
 ) => {
+  let iconName = '';
+  switch (type) {
+    case 'PNG':
+      iconName = 'PNGToPDF';
+      break;
+    case 'JPEG':
+      iconName = 'JPEGToPDF';
+      break;
+    case 'HEIC':
+      iconName = 'HEICToPDF';
+      break;
+  }
   return {
     i18nVariables: { TYPE: type },
     topFeatures:
@@ -141,7 +153,7 @@ const getImageToPdfTypeToolDescriptionObject = (
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: iconName,
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__image_to_pdf__bottom_right_title',
@@ -211,7 +223,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'MergePDF',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__merge_pdf__bottom_right_title',
@@ -277,7 +289,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'SplitPDF',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__split_pdf__bottom_right_title',
@@ -347,7 +359,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'PDFToHTML',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__pdf_to_html__bottom_right_title',
@@ -413,7 +425,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'CompressPDF',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__compress_pdf__bottom_right_title',
@@ -479,7 +491,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'SignPDF',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__sign_pdf__bottom_right_title',
@@ -545,7 +557,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'OcrPDF',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__ocr_pdf__bottom_right_title',
@@ -611,7 +623,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'RotatePDF',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__rotate_pdf__bottom_right_title',
@@ -676,7 +688,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'HistoryEdu',
+      iconName: 'NumberPages',
       operationSteps: {
         title:
           'pages:pdf_tools__detail_description_object__number_pages__bottom_right_title',

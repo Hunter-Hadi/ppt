@@ -115,6 +115,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
           xs={12}
           sm={5}
           lg={5}
+          mb={1}
           display='flex'
           justifyContent='center'
           alignItems='center'
