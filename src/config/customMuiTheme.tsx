@@ -36,7 +36,7 @@ export const getIsDarkMode = () => {
 
 const LinkBehaviour = forwardRef<HTMLAnchorElement, LinkProps>(
   function LinkBehaviour(props, ref) {
-    return <NextLink ref={ref} {...props} />;
+    return <NextLink prefetch={false} ref={ref} {...props} />;
   },
 );
 

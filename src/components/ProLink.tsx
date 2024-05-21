@@ -195,6 +195,7 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
   return (
     <NextLink
       href={coverHref}
+      prefetch={false}
       passHref={passHref}
       {...linkProps}
       legacyBehavior
