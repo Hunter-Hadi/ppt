@@ -32,7 +32,9 @@ const AISummaryPages = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          disabledVideo: true,
+          videoSrc: 'https://www.youtube.com/embed/72UM1jMaJhY',
+          imageCover:
+            '/assets/features-landing/ai-summary/ai-summary-video-cover.png',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

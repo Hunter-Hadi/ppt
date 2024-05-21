@@ -1,6 +1,5 @@
 import { Stack } from '@mui/material';
 import Head from 'next/head';
-import { useTranslation } from 'next-i18next';
 import { lazy, Suspense, useState } from 'react';
 import { useRecoilState } from 'recoil';
 
@@ -19,7 +18,6 @@ const FunctionalitySignPdfDetail = lazy(
 );
 
 const FunctionalitySignPdfMain = () => {
-  const { t } = useTranslation();
   const [, setPdfOperationOBject] = useRecoilState(
     FunctionalitySignPdfOperationOBjectAtom,
   );

@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-ക്ലിക്ക് AI എവിടെയെങ്കിലും,",
     "home_page__hero_section__title__part2": "കുറഞ്ഞ സമയം,",
     "home_page__hero_section__title__part3": "മികച്ച ഫലങ്ങൾ.",
-    "home_page__hero_section__desc": "പ്രത്യേകിച്ച് ഉപയോഗിക്കുക 1-ക്ലിക്ക് AI എവിടെയും ദിവസങ്ങളുടെ മുഴുവൻ സമയം സംരക്ഷിക്കാൻ. ChatGPT, Claude 3, Gemini 1.5, GPT-4o, എന്നിവയാണ് ശക്തമാക്കിയത്.",
+    "home_page__hero_section__desc": "പ്രത്യേകിച്ച് 1-ക്ലിക്ക് എ.ഐ. ഉപയോഗിക്കുക, ദിവസങ്ങളുടെ അനുഭവം സംരക്ഷിക്കാൻ. ChatGPT, Claude 3, Gemini 1.5, GPT-4, എന്നിവയാണ് ശക്തമായി പ്രവർത്തിക്കുന്നത്.",
     "home_page__user_comment__title": "അവർ മാക്സ്‌എയി സ്നേഹിക്കുന്നു",
     "home_page__call_to_action__title": "സൗജന്യമായി ആരംഭിക്കുക",
     "home_page__call_to_action__sub_title": "പ്രത്യേകിച്ച് 1-ക്ലിക്ക് എ.ഐ. ഉപയോഗിക്കുക, ദിവസങ്ങൾ സംരക്ഷിക്കാൻ മണിക്കൂർ ഉപയോഗിക്കുക.",
@@ -138,7 +138,7 @@
     "home_page__features_carousel__feature_translator__description2": "രണ്ട് ഭാഷകളുടെ സമയത്ത് റഫറൻസ്",
     "home_page__features_carousel__feature_translator__description3": "58 ഭാഷകൾ പിന്തുടരുന്നു",
     "home_page__features_carousel__feature_translator__description4": "മനുഷ്യൻ ചെയ്യുന്നതുപോലെ 400% നല്ല ഗുണംപെടുത്താൻ ഉപയോഗിക്കുക",
-    "home_page__features_carousel__cta_button__text": "സൗജന്യമായി {{BROWSER}} ലേക്ക് ചേർക്കുക",
+    "home_page__features_carousel__cta_button__text": "സൗജന്യമായി MaxAI ഇൻസ്റ്റാൾ ചെയ്യുക",
     "home_page__trusted_by__title": "വിശ്വാസപ്പെടുത്തിയിരിക്കുന്നു",
     "home_page__in_numbers__title": "എണ്ണങ്ങളിൽ MaxAI",
     "home_page__in_numbers__privacy_friendly__title": "100% പ്രൈവസി ഫ്രണ്ട്ലി",
@@ -603,9 +603,34 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "തിരിച്ചുവയ്ക്കാൻ നിങ്ങളുടെ പിഡിഎഫ് പ്രമാണം അപ്ലോഡുചെയ്യുക.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "തിരിച്ചുവയ്ക്കാൻ പേജുകൾ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ എല്ലാ പേജുകളും തിരഞ്ഞെടുക്കുക.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "നിങ്ങളുടെ പരിഷ്ക്കരിച്ച പിഡിഎഫ്, പേജുകൾ ഇപ്പോൾ ശരിയായ ഓരിയന്റേഷനിൽ ഉണ്ടാക്കിയതായി ഡൗൺലോഡുചെയ്യുക.",
-    "home_page__hero_section__title__variant2__part1": "1-ക്ലിക്ക് എ.ഐ. എല്ലാവരും.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "പേജുകൾ എണ്ണം ചെയ്യുക",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "സുവിശേഷതയുള്ളതായി PDF-യിൽ പേജ് എണ്ണം ചേർക്കുക",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "PDF ഡോക്യുമെന്റുകളിൽ പേജ് എണ്ണം ബാച്ച് ആയിരിക്കുന്നുവെങ്കിലും പുതിയതായി ചേർക്കുക",
+    "pdf_tools__detail_description_object__number_pages__top_left": "ഞങ്ങളുടെ ഉപയോഗിക്കുന്ന ഓൺലൈൻ PDF എണ്ണിച്ചെയ്യൽ ഉപകരണത്തിൽ നിന്ന് പ്രൊഫഷണൽആയി പേജ് എണ്ണം ചേർക്കാൻ സുവിശേഷതയുള്ള ഒരു എളുപ്പമാണ്. പ്രൊഗ്രാമുകളുടെ ഇൻസ്റ്റാൾമെന്റ് ഇല്ലാതെ നിങ്ങളുടെ പ്രമാണങ്ങൾ നിരവധിയായി സുഖമായി നാവിഗേറ്റുചെയ്യാനാകും.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "ലളിതവും വേഗത്തിലും PDF പേജ് എണ്ണിച്ചെയ്യൽ",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "പ്രൊഗ്രാമുകളുടെ ഡൗൺലോഡ് ആവശ്യമില്ല",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "ഉച്ച സുരക്ഷയും - എല്ലാ പ്രോസസ്സിങ്ങും നിങ്ങളുടെ ബ്രൌസറിൽ നടത്തപ്പെടുന്നു",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "പ്രഭാവശാലമായ PDF പേജ് എണ്ണിച്ചെയ്യൽ",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "ഒരു സെക്കന്റിൽ നിങ്ങളുടെ PDF-ലേക്ക് അനുക്രമിക്കുന്ന പേജ് എണ്ണങ്ങൾ ചേർക്കുക. നിങ്ങളുടെ PDF അപ്ലോഡുചെയ്യുക, നിങ്ങളുടെ ക്രമീകരണങ്ങൾ കോൺഫിഗർ ചെയ്യുക, അവശേഷിക്കുന്നത് ഞങ്ങളുടെ ഉപകരണം എല്ലാം ചെയ്യുന്നു, ഒരു പ്രൊഫഷണൽആയി നമ്പറുചെയ്യപ്പെട്ട പ്രമാണം സൃഷ്ടിക്കുന്നു.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "പ്രമാണം ഓർഡർ പരിപാലിക്കുക",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "പേജുകൾ ശരിയായി എണ്ണമായിരിക്കുന്നതിനാൽ നിങ്ങളുടെ PDF ഫയലുകൾ സംരക്ഷിക്കുക. നിങ്ങളുടെ പ്രമാണങ്ങളുടെ വായനാഭാഗത്ത് എളുപ്പത്തിൽ റഫറൻസ് നൽകുക, അവയുടെ വായനായനത്തെ ഉയർത്തുക.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "വിവിധ നമ്പറിംഗ് ഓപ്ഷനുകൾ",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "വിവിധ ഫോണ്ടുകൾ, വലിപ്പങ്ങൾ, സ്ഥാനങ്ങൾ ഉൾപ്പെടുത്തിയാൽ നിങ്ങളുടെ പേജ് എണ്ണങ്ങൾ ക്രമീകരിക്കാൻ കഴിയും. നിങ്ങളുടെ പ്രമാണത്തിന് ഏതെങ്കിലും തരത്തിലുള്ള ഫോർമാറ്റിംഗ് ആവശ്യമുണ്ടെങ്കിൽ, ഞങ്ങളുടെ കൺവർട്ടർ അതിനു അനുയോജ്യമായി പ്രവർത്തിക്കും.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "ക്ലയന്റ്-സൈഡ് പ്രൈവസി പ്രൊട്ടെക്ഷൻ",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "നിങ്ങളുടെ പ്രൈവസി സുരക്ഷിതമാണ്, എന്നാൽ പേജ് എണ്ണിച്ചെയ്യൽ പ്രക്രിയ നിങ്ങളുടെ മെഷീനിൽ ലോക്കൽലി നടത്തപ്പെടുന്നു. നിങ്ങളുടെ ഫയലുകൾ സുരക്ഷിതമായിരിക്കും.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "എവിടെയും ആക്സസ്സ് ചെയ്യാവുന്നു",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "ഞങ്ങളുടെ ഓൺലൈൻ ഉപകരണം ഏതെങ്കിലും സമയത്ത് എന്നിവിടെയും ലഭ്യമാണ്. നിങ്ങളുടെ വെബ് ബ്രൌസറിൽ ഇൻസ്റ്റാൾമെന്റുകളൊന്നുമില്ലാതെ ഏതെങ്കിലും ഉപകരണത്തിൽ നിങ്ങളുടെ PDF പേജുകൾ നമ്പറുചെയ്യാൻ കഴിയും.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "ഓഫ്ലൈൻ ഫംഗ്ഷനാലിറ്റി",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "ഇന്റർനെറ്റ് ആക്സസ്സ് ഇല്ലാതെ പ്രവർത്തിക്കുന്നതിന് തൊഴിലായി പുറത്തിറങ്ങുക. മുൻപത്തേതിന് പേജ് ലോഡുചെയ്യുക, അതിനുശേഷം നിങ്ങളുടെ PDF പേജുകൾ ഓഫ്ലൈൻ നമ്പറുചെയ്യാൻ കഴിയും.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "എളുപ്പത്തിൽ PDF പേജുകൾ നമ്പറുചെയ്യുന്നതിനെക്കുറിച്ച് എങ്ങനെ:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "നിങ്ങളുടെ ഫയല്‍ ഇറക്കുമതിയോ ഡ്രാഗ് ചെയ്യുകയോ ചെയ്യുക.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "പേജ് എണ്ണങ്ങൾ കാണാനുള്ള സ്ഥാനം തിരഞ്ഞെടുക്കുക.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "പേജ് മാർജിനുകൾ മറ്റ് ഓപ്ഷനുകൾ അനുയോജ്യമാക്കുക.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“ചേർക്കുക & ഡൗൺലോഡ്” അമർത്തുക, ഒരു സെക്കന്റ് കാത്തിരിക്കുക.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "പേജ് എണ്ണങ്ങൾ ഉള്ള PDF ഡൗൺലോഡ് ചെയ്യുക - അതായത്!",
+    "home_page__hero_section__title__variant2__part1": "1 ക്ലിക്ക് എ.ഐ. എല്ലാവരും.",
     "home_page__hero_section__title__variant2__part2": "കുറഞ്ഞ സമയത്തിൽ കൂടുതൽ ചെയ്യുക.",
-    "home_page__hero_section__desc__variant2": "എ.ഐ. ചാറ്റ്, റീവ്രൈറ്റർ, സമാപനം ചെയ്യുന്നതിനുള്ള സമയം സംരക്ഷിക്കുകയും മികച്ച ഫലങ്ങൾ നേടുകയും ചെയ്യുക. GPT-4o, Claude 3, അനുസരിച്ച് Gemini 1.5 പ്രവർത്തിക്കുന്നു."
+    "home_page__hero_section__desc__variant2": "എ.ഐ. ചാറ്റ്, റീവ്രൈറ്റർ, സമാപനം ചെയ്യുന്നതിനുള്ള സമയം സംരക്ഷിക്കുകയും മികച്ച ഫലങ്ങൾ നേടുകയും ചെയ്യുക. GPT-4o, Claude 3, അനുബന്ധ ഉപകരണങ്ങൾ ഉപയോഗിച്ച് പ്രവർത്തിക്കുന്നു."
   },
   "prompt_library": {
     "use_prompt_library__title": "ഉയർന്ന ഗുണമേന്മായ AI പ്രോംപ്റ്റ് ലൈബ്രറി",
@@ -894,7 +919,9 @@
     "pdf_tools__ocr_pdf__title": "OCR PDF - ഫാസ്റ്റ് & ലോകൽ PDF ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫോർ ഫ്രീ | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "അടയാളപ്പെടാത്ത PDF രേഖകളെ സെൽക്റ്റേബിൾ ടെക്സ്റ്റാക്കുകയും തിരഞ്ഞെടുക്കാനുള്ള ടെക്സ്റ്റ് റെക്കഗ്നിഷൻ ഫ്രീയാക്കുക. വാടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിമിതികൾ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
     "pdf_tools__rotate_pdf__title": "പിഡിഎഫ് തിരിച്ചുവയ്ക്കുക - പിഡിഎഫ് പ്രമാണങ്ങൾക്ക് പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "സൗകര്യപ്രദമായി ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് പിഡിഎഫ് പ്രമാണങ്ങളിൽ നിന്നും പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക - ഫയൽ വലിയ പരിധികളോ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
+    "pdf_tools__rotate_pdf__description": "സൗകര്യപ്രദമായി ഒരു ക്ലിക്ക് ഉപയോഗിച്ച് പിഡിഎഫ് പ്രമാണങ്ങളിൽ നിന്നും പേജുകൾ എളുപ്പത്തിൽ തിരിച്ചുവയ്ക്കുക - ഫയൽ വലിയ പരിധികളോ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല.",
+    "pdf_tools__pdf_numbers_page__title": "PDF-ലേക്ക് പേജ് നമ്പർ ചേർക്കുക - വേഗത്തിൽ ഓൺലൈൻ നമ്പറിംഗ് ഉപകരണം | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "ഓൺലൈൻ പിഡിഎഫ് ഫയലുകൾക്ക് പേജ് നമ്പറുകൾ പൂർത്തിയാക്കുക. സോഫ്റ്റ്‌വെയർ അവശ്യമില്ല, സുരക്ഷിതമായ ബ്രൌസർ പ്രോസസ്സിംഗ്. വോട്ടർമാർക്കുകൾ, ഫയൽ വലിപ്പം പരിധികൾ, ഡൗൺലോഡുകൾ, അല്ലെങ്കിൽ സൈൻ-അപ്പുകൾ ആവശ്യമില്ല."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "എല്ലാം തിരഞ്ഞെടുക്കുക",
@@ -1294,5 +1321,16 @@
     "components__rotate_pdf__button__cancel__tooltip": "നിലവിലുള്ള പുരോഗതി റദ്ദാക്കുക",
     "components__rotate_pdf__button__download__tooltip": "പിഡിഎഫ് തിരിച്ചുവയ്ക്കുകയും ഡൗൺലോഡുചെയ്യുക",
     "components__rotate_pdf__button__download": "ഡൗൺലോഡ്"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "സ്ഥാനം",
+    "components__pdf_number_pages__main_margins": "മാർജിനുകൾ",
+    "components__pdf_number_pages__main_margins_narrow": "സംകീർണ്ണമായ",
+    "components__pdf_number_pages__main_margins_default": "സ്വതേയം",
+    "components__pdf_number_pages__main_margins_wide": "വിസ്തീർണ്ണമായ",
+    "components__pdf_number_pages__main_start_numbering_at": "എണ്ണിച്ചെയ്യാൻ ആരംഭിക്കുക",
+    "components__pdf_number_pages__main_input_start_numbering_at": "എണ്ണിച്ചെയ്യാൻ ആരംഭിക്കുക",
+    "components__pdf_number_pages__main_choose_another_file": "മറ്റൊരു ഫയൽ തിരഞ്ഞെടുക്കുക",
+    "components__pdf_number_pages__main_add_and_download": "ചേർക്കുക & ഡൗൺലോഡ്"
   }
 }

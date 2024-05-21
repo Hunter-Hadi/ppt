@@ -89,7 +89,7 @@ const FunctionalityCommonUploadButton: FC<
           }}
           inputProps={{
             accept: 'application/pdf',
-            multiple: true,
+            multiple: false,
             ...inputProps,
           }}
           handleUnsupportedFileType={onHandleUnsupportedFileType}

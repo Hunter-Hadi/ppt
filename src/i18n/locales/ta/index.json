@@ -76,7 +76,7 @@
     "home_page__hero_section__title__part1": "1-கிளிக் AI எவ்வேனும்,",
     "home_page__hero_section__title__part2": "குறைந்த நேரம்,",
     "home_page__hero_section__title__part3": "சிறந்த முடிவுகள்.",
-    "home_page__hero_section__desc": "ஒரு கிளிக் AI ஐ பயன்படுத்தி ஒவ்வொரு நாளும் மணிக்குள் நேரத்தைச் சேமிக்கலாம். ChatGPT, Claude 3, Gemini 1.5, GPT-4o மற்றும் மேலும் அனைத்தும் மின்னஞ்சல் மூலம் இயங்குகின்றன.",
+    "home_page__hero_section__desc": "ஒவ்வொரு நாளும் மணிக்குள் சேமிக்க தனிப்பட்ட 1-கிளிக் AI ஐ பயன்படுத்துங்கள். ChatGPT, Claude 3, Gemini 1.5, GPT-4 மற்றும் மேலும் அனைத்தும் மிகுந்த AI மாதிரிகளால் செயல்படுகின்றன.",
     "home_page__user_comment__title": "அவர்கள் மேக்ஸ் ஏஐ-யை விரும்புகின்றனர்",
     "home_page__call_to_action__title": "இலவசமாக தொடங்கவும்",
     "home_page__call_to_action__sub_title": "ஒவ்வொரு நாளும் மணிநேரத்தில் மண்டிகையான 1-கிளிக் ஏஐ-யை பயன்படுத்தி மணிக்குள் மணிக்கு நேரம் சேமிக்கலாம்.",
@@ -319,7 +319,7 @@
     "home_page__features_carousel__feature_translator__description2": "இரண்டு மொழிகளுக்கும் ஒன்றிணைவு",
     "home_page__features_carousel__feature_translator__description3": "58 மொழிகளை ஆதரிக்கிறது",
     "home_page__features_carousel__feature_translator__description4": "மனிதர் போன்ற அளவுக்கு 400% சிறந்த தரத்தில் மொழிபெயர்க்குக",
-    "home_page__features_carousel__cta_button__text": "இலவசமாக {{BROWSER}} க்கு சேர்க்கவும்",
+    "home_page__features_carousel__cta_button__text": "இலவசமாக MaxAI நிறுவுக",
     "home_page__trusted_by__title": "உலகின் வணிகங்கள் மற்றும் பல்வேறு பல்கலைகளால் நம்பப்படுகின்றன",
     "home_page__in_numbers__title": "MaxAI எண்களில்",
     "home_page__in_numbers__privacy_friendly__title": "100% தனியுரிமை அனுபவம்",
@@ -603,9 +603,34 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "திரும்பப்போக்க விரும்பும் பி.டி.எப்பு ஆவணத்தை பதிவேற்றுக.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "திரும்பப்போக்கத்தை அனைத்து பக்கங்களுக்கும் அல்லது சிறந்த பக்கங்களுக்கு பயன்படுத்துக.",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "உங்கள் மாற்றப்பட்ட பி.டி.எப்பைப் பதிவிறக்கம் செய்யுங்கள், இப்போது சரியான நிலையில் உள்ளது, எந்த பயனுக்கும் தயார்.",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "பக்க எண்களை எண்ணுங்கள்",
+    "tools__index_page__constant_obj__pdf_page_numbers__main_description": "எளிதாக PDF இல் பக்க எண்களை செருக்குக",
+    "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "PDF ஆவணங்களில் பக்க எண்களை மண்டபமாக சேர்க்கவும் மற்றும் விரைவான சேர்க்கையை செய்யவும்",
+    "pdf_tools__detail_description_object__number_pages__top_left": "எங்கள் உலாவியில் உள்ள ஆன்லைன் PDF எண்ணிக்கை கருவியில் உங்கள் PDF கோப்புகளில் பக்க எண்களை எளிதாக சேர்க்கவும். மென்பொருள் நிறுவல் இல்லாமல் உங்கள் ஆவணங்கள் நன்கு ஒழுங்காக அமைக்கப்படும்.",
+    "pdf_tools__detail_description_object__number_pages__top_right_1": "எளிதான மற்றும் விரைவான PDF பக்க எண்ணிக்கை",
+    "pdf_tools__detail_description_object__number_pages__top_right_2": "மென்பொருள் பதிவிறக்கம் தேவையில்லை",
+    "pdf_tools__detail_description_object__number_pages__top_right_3": "உயர் பாதுகாப்பு - அனைத்து செயல்பாடுகளும் உங்கள் உலாவியில் நடக்கின்றன",
+    "pdf_tools__detail_description_object__number_pages__middle_1_title": "செயல்பாடு செய்கின்றது PDF பக்க எண்ணிக்கை",
+    "pdf_tools__detail_description_object__number_pages__middle_1_description": "விநியோகம் செய்யும் சில விநியோகங்களை உங்கள் PDF கோப்புகளில் விரைவில் சேர்க்கவும். உங்கள் PDF ஐ பதிவேற்றி, உங்கள் அமைப்புகளை கட்டமைக்கவும், மேலும் முழுமையான எண்ணிக்கையுடன் ஒரு தயாரிப்பு ஆவணத்தை உருவாக்குகிறது.",
+    "pdf_tools__detail_description_object__number_pages__middle_2_title": "ஆவண வரிசையை பராமரிக்கவும்",
+    "pdf_tools__detail_description_object__number_pages__middle_2_description": "பக்கங்கள் தெரியும்போது உங்கள் PDF கோப்புகளை அழகாக எண்ணிக்கை செய்யுங்கள். உங்கள் ஆவணங்களின் வாசிப்புக்கு எளிய முறையில் முகவரிகளை வழங்குங்கள்.",
+    "pdf_tools__detail_description_object__number_pages__middle_3_title": "மாறுமின்றி எண்ணிக்கை விருப்பங்கள்",
+    "pdf_tools__detail_description_object__number_pages__middle_3_description": "வேறுபட்ட எழுத்துருக்கள், அளவுகள் மற்றும் இடங்களுடன் உங்கள் பக்க எண்ணிக்கையை விருப்பமாக்கலாம். எங்கள் மாறுமின்றி வேர்ப்பான்மை தேவைகளை பூர்த்தி செய்யும் மாறுமின்றி உங்கள் ஆவணத்தின் எந்த வகையும் பொருத்துகின்றது.",
+    "pdf_tools__detail_description_object__number_pages__middle_4_title": "வாடிக்கையாளர் பகுதியின் தனியுரிமை பாதுகாப்பு",
+    "pdf_tools__detail_description_object__number_pages__middle_4_description": "உங்கள் தனியுரிமையை பாதுகாக்கும் பக்க எண்ணிக்கை செயல்பாடு முழுவதும் உங்கள் கணினியில் நடக்கும். உங்கள் கோப்புகள் பாதுகாப்பாக இருக்கும் மற்றும் மக்களவையில் அமைப்பாகும்.",
+    "pdf_tools__detail_description_object__number_pages__middle_5_title": "எவ்விதமாகவும் அணுகலாம்",
+    "pdf_tools__detail_description_object__number_pages__middle_5_description": "எந்த சாளரத்திலிருந்தும் நேரடி எண்ணிக்கையை உங்கள் PDF பக்கங்களுக்கு செய்ய எங்கள் ஆன்லைன் கருவி நிரப்பப்பட்டுள்ளது. நேரடி எண்ணிக்கையை எந்த நேரத்திலும் பயன்படுத்தவும், நீங்கள் எங்கள் வலைப்பக்கத்தில் நிறுவப்பட்ட மென்பொருளைப் பயன்படுத்தி.",
+    "pdf_tools__detail_description_object__number_pages__middle_6_title": "இணைய இணைப்பு",
+    "pdf_tools__detail_description_object__number_pages__middle_6_description": "இணைய அணுகாமல் மேலும் வேலை செய்யுங்கள். முன்பதிவு செய்யப்பட்ட பக்கத்தை ஏற்றுக்கொள்ளுங்கள், முன்பதிவு செய்யப்பட்ட பின்னர் நீங்கள் பக்க எண்ணிக்கையை எண்ணலாம்.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_title": "எளிய முறையில் PDF பக்கங்களை எண்ணுவது எப்படி:",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_1": "உங்கள் கோப்பை இறக்குமதி செய்யவும் அல்லது இழுத்து விடுங்கள் என்பதை தருகின்றோம்.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "பக்க எண்கள் தோன்ற வேண்டிய இடத்தைத் தேர்ந்தெடுக்கவும்.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "பக்க முன்னிலைகளையும் மற்ற விருப்பங்களையும் திருத்தவும்.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“சேர்க்கும் மற்றும் பதிவிறக்கு” என்பதை அழுத்தவும் ஒரு நிமிடத்தில் காத்திருங்கள்.",
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "பக்க எண்ணும் PDF ஐ பதிவிறக்குங்கள் - அதே!",
     "home_page__hero_section__title__variant2__part1": "ஒரு கிளிக் மூலம் அனைவருக்கும் AI.",
     "home_page__hero_section__title__variant2__part2": "குறைந்த நேரத்தில் மேலும் செய்யுங்கள்.",
-    "home_page__hero_section__desc__variant2": "AI அரட்டை, மீள்பார்ப்புக்கான மொழிபெயர்ப்பு, சுருக்கப்படுத்துபவர் மற்றும் உடனடியாக பதிலளிக்கும் மூலம் நேரம் சேமிக்கலாம். GPT-4o, Claude 3 மற்றும் Gemini 1.5 ஆல் இயங்குகின்றன."
+    "home_page__hero_section__desc__variant2": "ஏதேனும் நேரம் சேமிக்கவும், AI அரட்டை, மீள்பார்ப்பாளர், சுருக்கமாக்கி மற்றும் உடனடியாக பதில் பெறுங்கள். GPT-4o, Claude 3 மற்றும் Gemini 1.5 ஆல் இயங்குகின்றன."
   },
   "prompt_library": {
     "use_prompt_library__title": "உயர் தரமான AI புத்தக நூலகம்",
@@ -894,7 +919,9 @@
     "features_landing__ai_reader__title": "ஐஎய் படித்தல் உதவி | MaxAI.me",
     "features_landing__ai_reader__description": "மேலும் அறிவிப்புகளை எளிதாக புரிந்துகொள்ள, ஒரு ஆர்வத்தினர் போன்றவர்களுக்கு போக்குக்குழு.",
     "pdf_tools__rotate_pdf__title": "பி.டி.எப் திரும்பப்போக்கு - பி.டி.எப் ஆவணங்களில் பக்கங்களை எளிதாக திரும்பப்போக்குங்கள் | MaxAI.me",
-    "pdf_tools__rotate_pdf__description": "இலவசமாக உங்கள் பி.டி.எப் ஆவணங்களில் பக்கங்களை எளிதாக திரும்பப்போக்கலாம். ஒரு கிளிக்கும் மூலம் எந்த பி.டி.எப்பு பக்கத்தையும் நிலையாக்கலாம் - கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
+    "pdf_tools__rotate_pdf__description": "இலவசமாக உங்கள் பி.டி.எப் ஆவணங்களில் பக்கங்களை எளிதாக திரும்பப்போக்கலாம். ஒரு கிளிக்கும் மூலம் எந்த பி.டி.எப்பு பக்கத்தையும் நிலையாக்கலாம் - கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை.",
+    "pdf_tools__pdf_numbers_page__title": "பக்க எண்களை PDF-க்கு சேர்க்க - விரைவான ஆன்லைன் எண்ணிக்கை கருவி | MaxAI.me",
+    "pdf_tools__pdf_numbers_page__description": "விரைவில் பக்க எண்களை PDF கோப்புகளுக்கு சேர்க்கவும். மென்பொருள் தேவையில்லை, பாதுகாப்பான உலாவி செயலாக்கம். நீராக்கங்கள், கோப்பு அளவு வரம்புகள், பதிவிறக்கங்கள் அல்லது பதிவுகள் தேவையில்லை."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "அனைத்தையும் தேர்ந்தெடு",
@@ -1294,5 +1321,16 @@
     "components__rotate_pdf__button__cancel__tooltip": "தற்போதைய முன்னோட்டத்தை ரத்துசெய்",
     "components__rotate_pdf__button__download__tooltip": "பி.டி.எப்பை திரும்பப்போக்கி பதிவிறக்கம் செய்யுங்கள்",
     "components__rotate_pdf__button__download": "பதிவிறக்கு"
+  },
+  "functionality__pdf_number_pages": {
+    "components__pdf_number_pages__main_position": "இடம்",
+    "components__pdf_number_pages__main_margins": "மாற்றுகள்",
+    "components__pdf_number_pages__main_margins_narrow": "சிறிய",
+    "components__pdf_number_pages__main_margins_default": "இயல்புநிலை",
+    "components__pdf_number_pages__main_margins_wide": "பரப்பு",
+    "components__pdf_number_pages__main_start_numbering_at": "எண்ணிக்கையை ஆரம்பிக்க வேண்டும்",
+    "components__pdf_number_pages__main_input_start_numbering_at": "ஆரம்பிக்க எண்ணிக்கையை உள்ளிடுக",
+    "components__pdf_number_pages__main_choose_another_file": "மற்றொரு கோப்பைத் தேர்வுசெய்க",
+    "components__pdf_number_pages__main_add_and_download": "செருகு மற்றும் பதிவிறக்கம்"
   }
 }

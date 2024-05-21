@@ -1,5 +1,4 @@
 import { Stack } from '@mui/material';
-import { useTranslation } from 'next-i18next';
 import { FC, lazy, Suspense, useMemo, useState } from 'react';
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
@@ -16,15 +15,13 @@ interface IFunctionalityPdfToImageProps {
   toType: 'pdf-to-jpeg' | 'pdf-to-png';
 }
 
-const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
+const FunctionalityPdfToImageMain: FC<IFunctionalityPdfToImageProps> = ({
   toType,
 }) => {
-  const { t } = useTranslation();
-
-  const [fileData, setFileData] = useState<File | null>(null);
+  const [file, setFile] = useState<File | null>(null);
   const onChangeFile = (fileList: FileList) => {
     if (fileList?.length > 0) {
-      setFileData(fileList[0]);
+      setFile(fileList[0]);
     }
   };
   const toImageType = useMemo(() => {
@@ -44,7 +41,7 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
         width: '100%',
       }}
     >
-      {!fileData && (
+      {!file && (
         <FunctionalityCommonUploadButton
           inputProps={{
             accept: 'application/pdf',
@@ -53,16 +50,16 @@ const FunctionalityPdfToImage: FC<IFunctionalityPdfToImageProps> = ({
           onChange={onChangeFile}
         />
       )}
-      {fileData && toImageType && (
+      {file && toImageType && (
         <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityPdfToImageDetail
-            fileData={fileData}
+            file={file}
             toType={toImageType}
-            onRemoveFile={() => setFileData(null)}
+            onRemoveFile={() => setFile(null)}
           />
         </Suspense>
       )}
     </Stack>
   );
 };
-export default FunctionalityPdfToImage;
+export default FunctionalityPdfToImageMain;

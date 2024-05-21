@@ -8,7 +8,12 @@ export type ILandingVariantType =
   | 'title2__desc2__features_carousel'
   | 'title2__desc2__features_expand';
 
-export const TESTER_LANDING_PATH_TARGET_PATHNAME = '/';
+export const TESTER_LANDING_PATH_TARGET_PATHNAME = [
+  '/',
+  '/partners/updated',
+  '/partners/installed',
+  '/partners/uninstalled',
+];
 
 export const TEST_LANDING_COOKIE_NAME = 'maxai-lpv';
 

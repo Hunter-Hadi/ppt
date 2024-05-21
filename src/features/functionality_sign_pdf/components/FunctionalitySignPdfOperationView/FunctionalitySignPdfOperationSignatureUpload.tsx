@@ -191,7 +191,6 @@ const FunctionalitySignPdfOperationSignatureUpload: ForwardRefRenderFunction<
               height: 200,
             }}
             inputProps={{
-              multiple: true,
               accept: 'image/*',
             }}
             onChange={onUploadFile}

@@ -8,7 +8,7 @@ import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/compo
 import { FEATURES_CAROUSEL_LIST, FEATURES_CONTENT_DATA_MAP } from '.';
 import FeaturesCarouselIcons from './FeaturesCarouselIcons';
 
-const FeaturesExpandSection = () => {
+const FeaturesExpandVariantSection = () => {
   const { t } = useTranslation();
   return (
     <Stack>
@@ -20,12 +20,22 @@ const FeaturesExpandSection = () => {
           <FeaturesContentSection
             key={featureItem.value}
             icon={
-              <FeaturesCarouselIcons
-                icon={featureItem.icon}
-                sx={{
-                  borderRadius: '50%',
-                }}
-              />
+              <Stack direction={'row'} alignItems='center' spacing={1.5}>
+                <FeaturesCarouselIcons
+                  icon={featureItem.icon}
+                  sx={{
+                    borderRadius: '50%',
+                  }}
+                />
+                <Typography
+                  fontSize={20}
+                  variant='custom'
+                  color='text.primary'
+                  fontWeight={600}
+                >
+                  {t(featureItem.label)}
+                </Typography>
+              </Stack>
             }
             title={t(featuresContentData.title)}
             description={
@@ -67,4 +77,4 @@ const FeaturesExpandSection = () => {
   );
 };
 
-export default FeaturesExpandSection;
+export default FeaturesExpandVariantSection;
