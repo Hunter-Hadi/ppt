@@ -2,12 +2,18 @@ import { removeLocaleInPathname } from '@/i18n/utils';
 
 export const isTargetTestPathname = (
   pathname: string,
-  targetPathname: string,
+  targetPathname: string | string[],
 ) => {
-  return (
-    pathname === targetPathname ||
-    removeLocaleInPathname(pathname) === targetPathname
-  );
+  if (Array.isArray(targetPathname)) {
+    return targetPathname.some(
+      (path) => removeLocaleInPathname(pathname) === path,
+    );
+  } else {
+    return (
+      pathname === targetPathname ||
+      removeLocaleInPathname(pathname) === targetPathname
+    );
+  }
 };
 
 export const assignVariantGroup = <T = any>(

@@ -1,15 +1,13 @@
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo } from 'react';
 import { atom, useRecoilState } from 'recoil';
 
 import {
   ILandingVariantType,
   LANDING_VARIANT,
-  LANDING_VARIANT_TO_VERSION_MAP,
   TEST_LANDING_COOKIE_NAME,
 } from '@/features/ab_tester/constant/landingVariant';
-import { mixpanelTrack } from '@/features/mixpanel/utils';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 const LandingABTestVariantKeyAtom = atom({
@@ -22,22 +20,8 @@ const LandingABTestVariantKeyAtom = atom({
 const useLandingABTester = () => {
   const { isReady } = useRouter();
   const { t } = useTranslation();
-  const sendMixpanelOnce = useRef(false);
 
   const [variant, setVariant] = useRecoilState(LandingABTestVariantKeyAtom);
-
-  useEffect(() => {
-    if (sendMixpanelOnce.current) {
-      return;
-    }
-    if (variant) {
-      sendMixpanelOnce.current = true;
-      mixpanelTrack('test_page_viewed', {
-        testVersion: LANDING_VARIANT_TO_VERSION_MAP[variant],
-        testFeature: 'homePage',
-      });
-    }
-  }, [variant]);
 
   useEffect(() => {
     if (!variant) {

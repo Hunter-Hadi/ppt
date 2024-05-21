@@ -65,25 +65,6 @@ function App({ Component, pageProps }: AppProps) {
     initFingerPrint();
   }, []);
 
-  // useEffect(() => {
-  //   if (
-  //     isTargetTestPathname(router.pathname, TESTER_LANDING_PATH_TARGET_PATHNAME)
-  //   ) {
-  //     const landingVariantCookies = Cookies.get(TEST_LANDING_COOKIE_NAME);
-  //     const landingVariant = LANDING_VARIANT.find(
-  //       (v) => v.variant === landingVariantCookies,
-  //     );
-  //     if (landingVariant && landingVariant.pathname) {
-  //       router.replace(landingVariant.pathname);
-  //     } else {
-  //       const randomIndex = Date.now() % LANDING_VARIANT.length;
-  //       const randomVariant = LANDING_VARIANT[randomIndex];
-  //       Cookies.set(TEST_LANDING_COOKIE_NAME, randomVariant.variant);
-  //       router.replace(randomVariant.pathname);
-  //     }
-  //   }
-  // }, [router]);
-
   if (CACHE_CLIENT_USER_ID_PAGE_PATHNAME === router.pathname) {
     return (
       <Stack>

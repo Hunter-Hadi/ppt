@@ -3,7 +3,10 @@ import { Box, Button, Divider, Stack, Tooltip } from '@mui/material';
 import React from 'react';
 
 import DevContent from '@/components/DevContent';
-import { TEST_LANDING_COOKIE_NAME } from '@/features/ab_tester/constant/landingVariant';
+import {
+  LANDING_VARIANT_TO_VERSION_MAP,
+  TEST_LANDING_COOKIE_NAME,
+} from '@/features/ab_tester/constant/landingVariant';
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import { removeLocalStorage } from '@/utils/localStorage';
 const DevRefreshABTestVariantCookie = () => {
@@ -32,6 +35,12 @@ const DevRefreshABTestVariantCookie = () => {
           title={
             <Stack spacing={1}>
               <h2>current landing variant: {variant}</h2>
+              {variant && (
+                <h2>
+                  current test version:{' '}
+                  {LANDING_VARIANT_TO_VERSION_MAP[variant]}
+                </h2>
+              )}
               <Divider />
               <h2>Refresh landing page A/B Test variant cache</h2>
               <h3>
