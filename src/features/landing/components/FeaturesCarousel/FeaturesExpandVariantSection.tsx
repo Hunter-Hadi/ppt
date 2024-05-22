@@ -12,17 +12,16 @@ const FeaturesExpandVariantSection = () => {
   const { t } = useTranslation();
   return (
     <Stack>
-      {FEATURES_CAROUSEL_LIST.map((featureItem, index) => {
-        const featuresContentData =
-          FEATURES_CONTENT_DATA_MAP[featureItem.value];
+      {FEATURES_CAROUSEL_LIST.map((featureItemValue, index) => {
+        const featuresContentData = FEATURES_CONTENT_DATA_MAP[featureItemValue];
 
         return (
           <FeaturesContentSection
-            key={featureItem.value}
+            key={featureItemValue}
             icon={
               <Stack direction={'row'} alignItems='center' spacing={1.5}>
                 <FeaturesCarouselIcons
-                  icon={featureItem.icon}
+                  icon={featuresContentData.icon}
                   sx={{
                     borderRadius: '50%',
                   }}
@@ -33,7 +32,7 @@ const FeaturesExpandVariantSection = () => {
                   color='text.primary'
                   fontWeight={600}
                 >
-                  {t(featureItem.label)}
+                  {t(featuresContentData.fullName)}
                 </Typography>
               </Stack>
             }

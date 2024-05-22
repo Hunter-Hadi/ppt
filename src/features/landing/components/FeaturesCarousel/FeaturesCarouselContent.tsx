@@ -21,8 +21,8 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
   const { t } = useTranslation();
 
   const needToPreloadImages = useMemo(() => {
-    return FEATURES_CAROUSEL_LIST.map(({ value }) => {
-      const currentContent = FEATURES_CONTENT_DATA_MAP[value];
+    return FEATURES_CAROUSEL_LIST.map((featureCarouselItem) => {
+      const currentContent = FEATURES_CONTENT_DATA_MAP[featureCarouselItem];
       return currentContent.imageUrl;
     });
   }, []);
@@ -159,7 +159,9 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
         borderRadius: 4,
       }}
     >
-      {FEATURES_CAROUSEL_LIST.map(({ value }) => renderContent(value))}
+      {FEATURES_CAROUSEL_LIST.map((featureCarouselItem) =>
+        renderContent(featureCarouselItem),
+      )}
     </Box>
   );
 };

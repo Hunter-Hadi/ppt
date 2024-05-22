@@ -7,7 +7,6 @@ import React, { FC } from 'react';
 
 import {
   FEATURES_CAROUSEL_LIST,
-  IFeaturesCarouselItem,
   IFeaturesCarouselItemKey,
 } from '@/features/landing/components/FeaturesCarousel';
 import FeaturesSelector from '@/features/landing/components/FeaturesCarousel/FeaturesSelector';
@@ -15,7 +14,7 @@ import FeaturesSelector from '@/features/landing/components/FeaturesCarousel/Fea
 interface IProps {
   activeValue: IFeaturesCarouselItemKey;
   containerRef: React.RefObject<HTMLDivElement>;
-  onClick?: (targetItem: IFeaturesCarouselItem) => void;
+  onClick?: (targetItem: IFeaturesCarouselItemKey) => void;
   showNavButton?: boolean;
 }
 
@@ -47,7 +46,7 @@ const FeaturesSelectorNav: FC<IProps> = ({
         {FEATURES_CAROUSEL_LIST.map((featuresCarouselItem) => {
           return (
             <Box
-              key={featuresCarouselItem.value}
+              key={featuresCarouselItem}
               // onMouseEnter={() => {
               //   if (!isDownSm) {
               //     setActiveFeature(featuresCarouselItem.value);
@@ -61,11 +60,11 @@ const FeaturesSelectorNav: FC<IProps> = ({
                 // scrollToView(featuresCarouselItem.value);
                 // }
               }}
-              id={`feature-carousel-${featuresCarouselItem.value}`}
+              id={`feature-carousel-${featuresCarouselItem}`}
             >
               <FeaturesSelector
-                active={activeValue === featuresCarouselItem.value}
-                {...featuresCarouselItem}
+                activeCarouseItem={featuresCarouselItem}
+                active={activeValue === featuresCarouselItem}
               />
             </Box>
           );
@@ -89,7 +88,7 @@ const FeaturesSelectorNav: FC<IProps> = ({
             variant='outlined'
             onClick={() => {
               const currentIndex = FEATURES_CAROUSEL_LIST.findIndex(
-                (item) => item.value === activeValue,
+                (featuresCarouselItem) => featuresCarouselItem === activeValue,
               );
               const nextIndex =
                 (currentIndex + 1) % FEATURES_CAROUSEL_LIST.length;
@@ -122,7 +121,7 @@ const FeaturesSelectorNav: FC<IProps> = ({
             variant='outlined'
             onClick={() => {
               const currentIndex = FEATURES_CAROUSEL_LIST.findIndex(
-                (item) => item.value === activeValue,
+                (featuresCarouselItem) => featuresCarouselItem === activeValue,
               );
               const prevIndex =
                 (currentIndex - 1 + FEATURES_CAROUSEL_LIST.length) %
