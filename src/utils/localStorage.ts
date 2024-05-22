@@ -20,6 +20,8 @@ export type ILocalStorageKeyType =
   | typeof ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY
   // 用来记录 前端生成的 clientUserId，用于做用户交互跟踪时和 后端的 userId做绑定
   | 'CLIENT_USER_ID'
+  // 用来记录 当前网站生成的 clientUserId 是否已经保存到 iframe（目标网站）中了
+  | 'IFRAME_CLIENT_USER_ID_ALREADY_SAVED'
   | 'LANDING_PAGE_REF'
   | typeof TEST_LANDING_COOKIE_NAME;
 
