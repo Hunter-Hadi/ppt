@@ -13,7 +13,10 @@ const VisionPages = () => {
 
   return (
     <Stack>
-      <AppDefaultSeoLayout />
+      <AppDefaultSeoLayout
+        title={t('seo:features_landing__vision__title')}
+        description={t('seo:features_landing__vision__desc')}
+      />
       <FeaturesLandingBanner
         title={t('features_landing:vision_pages__title')}
         description={t('features_landing:vision_pages__description')}

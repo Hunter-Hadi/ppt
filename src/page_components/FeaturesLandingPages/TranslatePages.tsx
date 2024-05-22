@@ -13,7 +13,10 @@ const TranslatePages = () => {
 
   return (
     <Stack>
-      <AppDefaultSeoLayout />
+      <AppDefaultSeoLayout
+        title={t('seo:features_landing__translate__title')}
+        description={t('seo:features_landing__translate__desc')}
+      />
       <FeaturesLandingBanner
         title={t('features_landing:translate_pages__title')}
         description={t('features_landing:translate_pages__description')}

@@ -13,7 +13,10 @@ const ChatPDFPages = () => {
 
   return (
     <Stack>
-      <AppDefaultSeoLayout />
+      <AppDefaultSeoLayout
+        title={t('seo:features_landing__chat_pdf__title')}
+        description={t('seo:features_landing__chat_pdf__desc')}
+      />
       <FeaturesLandingBanner
         title={t('features_landing:chat_pdf_pages__title')}
         description={t('features_landing:chat_pdf_pages__description')}

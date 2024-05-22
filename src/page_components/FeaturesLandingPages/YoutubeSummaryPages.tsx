@@ -13,7 +13,10 @@ const YoutubeSummaryPages = () => {
 
   return (
     <Stack>
-      <AppDefaultSeoLayout />
+      <AppDefaultSeoLayout
+        title={t('seo:features_landing__youtube_summary__title')}
+        description={t('seo:features_landing__youtube_summary__desc')}
+      />
       <FeaturesLandingBanner
         title={t('features_landing:youtube_summary_pages__title')}
         description={t('features_landing:youtube_summary_pages__description')}
