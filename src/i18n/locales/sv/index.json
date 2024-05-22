@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Rotera PDF - Enkelt rotera sidor i PDF-dokument online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Rotera sidor i dina PDF-dokument online utan ansträngning och gratis. Justera orienteringen av vilken PDF-sida som helst med bara ett klick - inga filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
     "pdf_tools__pdf_numbers_page__title": "Lägg till sidnummer i PDF – Snabb online-numrering | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Lägg snabbt till sidnummer i PDF-filer online. Ingen programvara behövs, säker bearbetning i webbläsaren. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs."
+    "pdf_tools__pdf_numbers_page__description": "Lägg snabbt till sidnummer i PDF-filer online. Ingen programvara behövs, säker bearbetning i webbläsaren. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "features_landing__youtube_summary__title": "AI YouTube sammanfattning | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Sammanfatta vilken YouTube-video som helst med 1-klick. Chatta med YouTube-videor och få värdefulla insikter på några sekunder.",
+    "features_landing__chat_pdf__title": "Chatta med vilken PDF som helst | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chatta med vilken PDF som helst, böcker, forskningsartiklar, manualer, essäer, juridiska kontrakt. Ställ frågor, få sammanfattningar, hitta information och mer.",
+    "features_landing__translate__title": "Gratis online AI-översättning | MaxAI.me",
+    "features_landing__translate__desc": "Smart kontextmedveten översättning på flera språk, drivs av de bästa AI-modellerna som GPT-4o, Claude 3 och Gemini 1.5.",
+    "features_landing__vision__title": "AI-bildanalysator | MaxAI.me",
+    "features_landing__vision__desc": "Extrahera text från vilken bild som helst, lösa matematiska problem, ställa frågor, få svar och insikter med AI-bildvision och analys."
   },
   "features_landing": {
     "cta_text": "Lägg till i webbläsaren",

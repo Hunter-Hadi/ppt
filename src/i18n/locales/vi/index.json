@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Xoay PDF - Dễ Dàng Xoay Trang trong Tài Liệu PDF Trực Tuyến | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Dễ dàng xoay các trang trong tài liệu PDF của bạn trực tuyến miễn phí. Điều chỉnh hướng của bất kỳ trang PDF nào chỉ với một cú nhấp chuột - không giới hạn kích thước tệp, không cần tải xuống hoặc đăng ký.",
     "pdf_tools__pdf_numbers_page__title": "Thêm số trang vào PDF - Công cụ đánh số nhanh trực tuyến | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Nhanh chóng thêm số trang vào các tệp PDF trực tuyến. Không cần phần mềm, xử lý an toàn trong trình duyệt. Không có dấu bản quyền, giới hạn kích thước tệp, tải xuống hoặc đăng ký."
+    "pdf_tools__pdf_numbers_page__description": "Nhanh chóng thêm số trang vào các tệp PDF trực tuyến. Không cần phần mềm, xử lý an toàn trong trình duyệt. Không có dấu bản quyền, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "features_landing__youtube_summary__title": "Tóm tắt video YouTube bằng trí tuệ nhân tạo | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Tóm tắt bất kỳ video YouTube nào chỉ với 1 cú nhấp chuột. Trò chuyện với video YouTube và thu được thông tin quý giá trong vài giây.",
+    "features_landing__chat_pdf__title": "Trò chuyện với bất kỳ PDF nào | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Trò chuyện với bất kỳ PDF, sách, bài báo nghiên cứu, hướng dẫn, bài luận, hợp đồng pháp lý nào. Đặt câu hỏi, nhận tóm tắt, tìm thông tin và nhiều hơn thế nữa.",
+    "features_landing__translate__title": "Dịch trực tuyến miễn phí bằng trí tuệ nhân tạo | MaxAI.me",
+    "features_landing__translate__desc": "Dịch thông minh theo ngữ cảnh trong nhiều ngôn ngữ, được cung cấp bởi các mô hình trí tuệ nhân tạo hàng đầu như GPT-4o, Claude 3 và Gemini 1.5.",
+    "features_landing__vision__title": "Phân tích hình ảnh bằng trí tuệ nhân tạo | MaxAI.me",
+    "features_landing__vision__desc": "Trích xuất văn bản từ bất kỳ hình ảnh nào, giải quyết các bài toán toán học, đặt câu hỏi, nhận câu trả lời và thông tin chi tiết với trí tuệ nhân tạo trong phân tích hình ảnh."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",

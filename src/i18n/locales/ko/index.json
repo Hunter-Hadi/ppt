@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "PDF 회전 - 온라인에서 PDF 문서의 페이지를 쉽게 회전 | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "무료로 온라인에서 PDF 문서 내에서 페이지를 손쉽게 회전시키세요. 클릭 한 번으로 모든 PDF 페이지의 방향을 조정할 수 있습니다. 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
     "pdf_tools__pdf_numbers_page__title": "PDF에 페이지 번호 추가 - 빠른 온라인 번호 매기기 도구 | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "PDF 파일에 빠르게 페이지 번호를 추가하세요. 소프트웨어가 필요하지 않으며, 안전한 브라우저 내 처리입니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다."
+    "pdf_tools__pdf_numbers_page__description": "PDF 파일에 빠르게 페이지 번호를 추가하세요. 소프트웨어가 필요하지 않으며, 안전한 브라우저 내 처리입니다. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "features_landing__youtube_summary__title": "AI YouTube 요약 | MaxAI.me",
+    "features_landing__youtube_summary__desc": "1 클릭으로 YouTube 동영상을 요약합니다. YouTube 동영상과 대화하고 몇 초 안에 가치 있는 통찰력을 얻으세요.",
+    "features_landing__chat_pdf__title": "모든 PDF와 대화하기 | MaxAI.me",
+    "features_landing__chat_pdf__desc": "PDF, 책, 연구 논문, 매뉴얼, 에세이, 법적 계약서 등 모든 PDF와 대화하세요. 질문을 하고 요약을 받고 정보를 찾아보세요.",
+    "features_landing__translate__title": "무료 온라인 AI 번역 | MaxAI.me",
+    "features_landing__translate__desc": "GPT-4o, Claude 3, Gemini 1.5와 같은 최고의 AI 모델로 구동되는 스마트한 문맥 인식 번역을 다국어로 제공합니다.",
+    "features_landing__vision__title": "AI 이미지 분석기 | MaxAI.me",
+    "features_landing__vision__desc": "모든 이미지에서 텍스트 추출, 수학 문제 해결, 질문하기, 답변과 통찰력 얻기를 AI 이미지 비전 및 분석으로 수행합니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",

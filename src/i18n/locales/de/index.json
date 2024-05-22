@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "PDF drehen - Seiten in PDF-Dokumenten einfach drehen | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Drehen Sie Seiten in Ihren PDF-Dokumenten mühelos online und kostenlos. Passen Sie die Ausrichtung jeder PDF-Seite mit nur einem Klick an - keine Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
     "pdf_tools__pdf_numbers_page__title": "Seitenzahlen zu PDF hinzufügen - Schnelles Online-Nummerierungstool | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Fügen Sie schnell Seitenzahlen zu PDF-Dateien online hinzu. Keine Software erforderlich, sichere In-Browser-Verarbeitung. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich."
+    "pdf_tools__pdf_numbers_page__description": "Fügen Sie schnell Seitenzahlen zu PDF-Dateien online hinzu. Keine Software erforderlich, sichere In-Browser-Verarbeitung. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "features_landing__youtube_summary__title": "AI YouTube-Zusammenfassung | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Fassen Sie jedes YouTube-Video mit einem Klick zusammen. Unterhalten Sie sich mit YouTube-Videos und gewinnen Sie wertvolle Erkenntnisse in Sekundenschnelle.",
+    "features_landing__chat_pdf__title": "Unterhalten Sie sich mit jedem PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Unterhalten Sie sich mit jedem PDF, Büchern, Forschungsarbeiten, Handbüchern, Aufsätzen, rechtlichen Verträgen. Stellen Sie Fragen, erhalten Sie Zusammenfassungen, finden Sie Informationen und mehr.",
+    "features_landing__translate__title": "Kostenlose Online-KI-Übersetzung | MaxAI.me",
+    "features_landing__translate__desc": "Intelligente kontextbezogene Übersetzungen in mehreren Sprachen, unterstützt von den besten KI-Modellen wie GPT-4o, Claude 3 und Gemini 1.5.",
+    "features_landing__vision__title": "KI-Bildanalysator | MaxAI.me",
+    "features_landing__vision__desc": "Extrahieren Sie Text aus jedem Bild, lösen Sie mathematische Probleme, stellen Sie Fragen, erhalten Sie Antworten und Erkenntnisse mit KI-Bildvision und -analyse."
   },
   "features_landing": {
     "cta_text": "Zum Browser hinzufügen",

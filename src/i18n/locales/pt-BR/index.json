@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Girar PDF - Gire Páginas em Documentos PDF Online Facilmente | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Gire páginas dos seus documentos PDF online de forma fácil e gratuita. Ajuste a orientação de qualquer página do PDF com apenas um clique - sem limites de tamanho de arquivo, downloads ou cadastros necessários.",
     "pdf_tools__pdf_numbers_page__title": "Adicionar Números de Página ao PDF - Ferramenta de Numeração Rápida Online | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Adicione rapidamente números de página a arquivos PDF online. Sem necessidade de software, processamento seguro no navegador. Sem marcas d'água, limites de tamanho de arquivo, downloads ou inscrições necessários."
+    "pdf_tools__pdf_numbers_page__description": "Adicione rapidamente números de página a arquivos PDF online. Sem necessidade de software, processamento seguro no navegador. Sem marcas d'água, limites de tamanho de arquivo, downloads ou inscrições necessários.",
+    "features_landing__youtube_summary__title": "Resumo de vídeo do YouTube com IA | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Resuma qualquer vídeo do YouTube com 1 clique. Converse com vídeos do YouTube e obtenha insights valiosos em segundos.",
+    "features_landing__chat_pdf__title": "Converse com qualquer PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Converse com qualquer PDF, livros, artigos de pesquisa, manuais, ensaios, contratos legais. Faça perguntas, obtenha resumos, encontre informações e muito mais.",
+    "features_landing__translate__title": "Tradução online gratuita com IA | MaxAI.me",
+    "features_landing__translate__desc": "Traduções inteligentes sensíveis ao contexto em vários idiomas, alimentadas pelos melhores modelos de IA como GPT-4o, Claude 3 e Gemini 1.5.",
+    "features_landing__vision__title": "Analisador de imagens com IA | MaxAI.me",
+    "features_landing__vision__desc": "Extraia texto de qualquer imagem, resolva problemas matemáticos, faça perguntas, obtenha respostas e insights com visão e análise de imagens com IA."
   },
   "features_landing": {
     "cta_text": "Adicionar ao Navegador",

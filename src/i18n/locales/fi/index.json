@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Käännä PDF - Käännä sivuja helposti PDF-dokumenteissa verkossa | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Käännä PDF-sivuja vaivattomasti verkossa ilmaiseksi. Säädä minkä tahansa PDF-sivun suuntausta yhdellä napsautuksella - ei tiedostokokorajoituksia, latauksia tai rekisteröitymistä tarvita.",
     "pdf_tools__pdf_numbers_page__title": "Lisää sivunumerot PDF-tiedostoon - Nopea verkkopohjainen numerointityökalu | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Lisää nopeasti sivunumerot PDF-tiedostoihin verkossa. Ei tarvetta ohjelmistolle, turvallinen selainpohjainen käsittely. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä."
+    "pdf_tools__pdf_numbers_page__description": "Lisää nopeasti sivunumerot PDF-tiedostoihin verkossa. Ei tarvetta ohjelmistolle, turvallinen selainpohjainen käsittely. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymistä.",
+    "features_landing__youtube_summary__title": "AI:n YouTube-yhteenveto | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Tiivistä mikä tahansa YouTube-video yhdellä napsautuksella. Chattaa YouTube-videoista ja saa arvokkaita oivalluksia sekunneissa.",
+    "features_landing__chat_pdf__title": "Chattaile minkä tahansa PDF:n kanssa | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Keskustele minkä tahansa PDF:n, kirjojen, tutkimusartikkelien, ohjekirjojen, esseiden ja lakidokumenttien kanssa. Kysy kysymyksiä, saa tiivistelmiä, löydä tietoa ja paljon muuta.",
+    "features_landing__translate__title": "Ilmainen verkossa toimiva AI-käännös | MaxAI.me",
+    "features_landing__translate__desc": "Älykkäät kontekstisidonnaiset käännökset useilla kielillä, jotka perustuvat parhaisiin tekoälymalleihin, kuten GPT-4o, Claude 3 ja Gemini 1.5.",
+    "features_landing__vision__title": "AI-kuvan analysoija | MaxAI.me",
+    "features_landing__vision__desc": "Poimi tekstiä mistä tahansa kuvasta, ratkaise matemaattisia ongelmia, esitä kysymyksiä, saa vastauksia ja oivalluksia AI-kuvanäkemyksen ja -analyysin avulla."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",

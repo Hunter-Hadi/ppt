@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Roter PDF - Roter nemt sider i PDF-dokumenter online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Roter sider i dine PDF-dokumenter online uden besvær og gratis. Juster orienteringen af enhver PDF-side med blot et klik - ingen filstørrelsesbegrænsninger, downloads eller tilmeldinger nødvendige.",
     "pdf_tools__pdf_numbers_page__title": "Tilføj sidenumre til PDF - Hurtig online nummerering værktøj | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Tilføj hurtigt sidenumre til PDF-filer online. Ingen software nødvendig, sikker in-browser behandling. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger påkrævet."
+    "pdf_tools__pdf_numbers_page__description": "Tilføj hurtigt sidenumre til PDF-filer online. Ingen software nødvendig, sikker in-browser behandling. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger påkrævet.",
+    "features_landing__youtube_summary__title": "AI YouTube resumé | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Resumér enhver YouTube-video med 1-klik. Chat med YouTube-videoer og få værdifulde indsigter på sekunder.",
+    "features_landing__chat_pdf__title": "Chat med enhver PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chat med enhver PDF, bøger, forskningsartikler, manualer, essays, juridiske kontrakter. Stil spørgsmål, få resuméer, find information og mere.",
+    "features_landing__translate__title": "Gratis online AI-oversættelse | MaxAI.me",
+    "features_landing__translate__desc": "Intelligent kontekstbevidste oversættelser på flere sprog, drevet af de bedste AI-modeller som GPT-4o, Claude 3 og Gemini 1.5.",
+    "features_landing__vision__title": "AI-billedanalyse | MaxAI.me",
+    "features_landing__vision__desc": "Udtræk tekst fra ethvert billede, løs matematikproblemer, stil spørgsmål, få svar og indsigter med AI-billedvision og analyse."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",

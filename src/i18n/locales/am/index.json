@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "ፕድፊን ይጠቀሙ - ፕድፊን ፈልግዎት የሚጠቀሙ | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "ፕድፊን ፈልግዎት የሚጠቀሙ ፕሮግራሞችን በቀላሉ የሚጠቀሙ የገጽ መጠቀም ይጠቀሙ - የፕድፊን መጠቀም አልባ የፕሮግራሞችን ልማት, የሚያዘጋጁ, ወይም የሚያስፈልጉ አድራሻዎች የሚጠቀሙ ፕሮግራሞችን ይጠቀሙ.",
     "pdf_tools__pdf_numbers_page__title": "ገጽ ቁጥርን ለ PDF - በቀላሉ የተጨመሩ የጥቅል መሳሪያ | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "በቀላሉ የተጨመሩ የጥቅል መሳሪያዎችን ለመጨመር በመቀጠል የፋይል መጠቀም በመቀጠል የሚገኝ አጭር አስተካክል የሚሆንን ፣ የፋይል መጠቀም አይደለም። የጥቅል መሳሪያዎችን ለመጠቀም የሚያስፈልጉትን ፣ የፋይል መጠቀም አይደለም።"
+    "pdf_tools__pdf_numbers_page__description": "በቀላሉ የተጨመሩ የጥቅል መሳሪያዎችን ለመጨመር በመቀጠል የፋይል መጠቀም በመቀጠል የሚገኝ አጭር አስተካክል የሚሆንን ፣ የፋይል መጠቀም አይደለም። የጥቅል መሳሪያዎችን ለመጠቀም የሚያስፈልጉትን ፣ የፋይል መጠቀም አይደለም።",
+    "features_landing__youtube_summary__title": "የAI YouTube መግለጫ | MaxAI.me",
+    "features_landing__youtube_summary__desc": "የተጠቀሱትን YouTube ቪዲዮን 1-ጁን በማጥፋት ይግለጫል። በሰከንዶች ላይ YouTube ቪዲዎች እና የጥቅም መልኩዎች ውስጥ የሚያስተዳደር መረጃዎችን ይጠቀሙ።",
+    "features_landing__chat_pdf__title": "በየትኛው PDF ላይ ውይይት | MaxAI.me",
+    "features_landing__chat_pdf__desc": "በየትኛው PDF, መጽሐፍትን, የስራ ፎቶዎችን, ምልክቶችን, የግል ፈተናዎችን, ለማጥፋት ጥያቄዎች ያግኙ፣ ጥቅምዎን ያግኙ፣ መረጃዎችን ያግኙ፣ እና በተጨማሪ የሚያግኙ መረጃዎችን ያግኙ።",
+    "features_landing__translate__title": "ነፃ የአስተርጓሚ AI ቻርታሪ | MaxAI.me",
+    "features_landing__translate__desc": "በተለያዩ ቋንቋዎች የተሞሉ ማስተርጓሚ በነፃ የሚገኙ አስተርጓሚ ሆነው በGPT-4o, Claude 3, እና Gemini 1.5 የAI ሞዴሎች ተግባራዊ ቻርታሪዎችን ይጠቀሙ።",
+    "features_landing__vision__title": "የAI ምስል አማራጭ | MaxAI.me",
+    "features_landing__vision__desc": "የሚገኙ ጥሩ መጥፎችን ከማያስቀምጥ ጥሩ ጥቅምዎችን ያግኙ፣ ምልክቶችን ያግኙ፣ ጥያቄዎችን ያግኙ፣ እና መረጃዎችን ያግኙ፣ እና መረጃዎችን ያግኙ።"
   },
   "features_landing": {
     "cta_text": "ለቅርብ ያግኙ",

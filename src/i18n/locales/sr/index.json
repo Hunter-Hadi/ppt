@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Rotiraj PDF - Lako rotirajte stranice u PDF dokumentima online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Lako rotirajte stranice u vašim PDF dokumentima online, besplatno. Podesite orijentaciju bilo koje PDF stranice jednim klikom - bez ograničenja veličine fajla, preuzimanja ili registracije.",
     "pdf_tools__pdf_numbers_page__title": "Dodaj brojeve stranica u PDF - Brzi online alat za numerisanje | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Brzo dodajte brojeve stranica u PDF fajlove online. Nije potreban softver, sigurna obrada u pregledaču. Bez vodenih žigova, ograničenja veličine fajla, preuzimanja ili registracije."
+    "pdf_tools__pdf_numbers_page__description": "Brzo dodajte brojeve stranica u PDF fajlove online. Nije potreban softver, sigurna obrada u pregledaču. Bez vodenih žigova, ograničenja veličine fajla, preuzimanja ili registracije.",
+    "features_landing__youtube_summary__title": "AI rezime YouTube-a | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Sumiraj bilo koji YouTube video jednim klikom. Razgovaraj sa YouTube videima i stekni vredne uvide za sekunde.",
+    "features_landing__chat_pdf__title": "Razgovaraj sa bilo kojim PDF-om | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Razgovaraj sa bilo kojim PDF-om, knjigama, istraživačkim radovima, priručnicima, esejima, pravnim ugovorima. Postavljaj pitanja, dobijaj rezime, pronalazi informacije i još mnogo toga.",
+    "features_landing__translate__title": "Besplatni online AI prevod | MaxAI.me",
+    "features_landing__translate__desc": "Pametni prevodi sa kontekstom na više jezika, pokretani najboljim AI modelima kao što su GPT-4o, Claude 3 i Gemini 1.5.",
+    "features_landing__vision__title": "AI analizator slika | MaxAI.me",
+    "features_landing__vision__desc": "Izvuci tekst sa bilo koje slike, rešavaj matematičke probleme, postavljaj pitanja, dobijaj odgovore i uvide uz pomoć AI vizije i analize slika."
   },
   "features_landing": {
     "cta_text": "Dodaj u pregledač",

@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Obróć PDF - Łatwe obracanie stron w dokumentach PDF online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Bezproblemowo obracaj strony w swoich dokumentach PDF online za darmo. Dostosuj orientację dowolnej strony PDF jednym kliknięciem - bez ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
     "pdf_tools__pdf_numbers_page__title": "Dodaj numery stron do PDF - Szybkie narzędzie online do numerowania | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Szybko dodaj numery stron do plików PDF online. Nie wymaga oprogramowania, bezpieczne przetwarzanie w przeglądarce. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji."
+    "pdf_tools__pdf_numbers_page__description": "Szybko dodaj numery stron do plików PDF online. Nie wymaga oprogramowania, bezpieczne przetwarzanie w przeglądarce. Brak znaków wodnych, ograniczeń rozmiaru pliku, pobierania ani rejestracji.",
+    "features_landing__youtube_summary__title": "Podsumowanie AI YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Podsumuj dowolne wideo na YouTube jednym kliknięciem. Rozmawiaj z filmami na YouTube i zdobywaj cenne informacje w kilka sekund.",
+    "features_landing__chat_pdf__title": "Rozmawiaj z dowolnym plikiem PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Rozmawiaj z dowolnym plikiem PDF, książkami, artykułami naukowymi, instrukcjami, esejami, umowami prawno-karnymi. Zadawaj pytania, otrzymuj podsumowania, znajduj informacje i wiele więcej.",
+    "features_landing__translate__title": "Darmowe tłumaczenie online przy użyciu AI | MaxAI.me",
+    "features_landing__translate__desc": "Inteligentne tłumaczenia uwzględniające kontekst w wielu językach, napędzane najlepszymi modelami AI takimi jak GPT-4o, Claude 3 i Gemini 1.5.",
+    "features_landing__vision__title": "Analizator obrazów AI | MaxAI.me",
+    "features_landing__vision__desc": "Wydobywaj tekst z dowolnego obrazu, rozwiązuj problemy matematyczne, zadawaj pytania, otrzymuj odpowiedzi i wnioski dzięki analizie obrazów przy użyciu AI."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",

@@ -921,7 +921,15 @@
     "features_landing__ai_vision__title": "AI विजन | MaxAI.me",
     "features_landing__ai_vision__description": "सर्वात उन्नत AI विजन मॉडेलसह कोणत्याही छायाचित्राची समज आणि विश्लेषण करा.",
     "pdf_tools__pdf_numbers_page__title": "PDFमध्ये पृष्ठ संख्या जोडा - फास्ट ऑनलाइन संख्यांकन टूल | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "ऑनलाइन PDF फाइलमध्ये झटपट पृष्ठ संख्या जोडा. कोणतेही सॉफ्टवेअर आवश्यक नाही, सुरक्षित ब्राउझरमध्ये प्रोसेसिंग. कोणतेही वॉटरमार्क, फाइल साईजची मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाही."
+    "pdf_tools__pdf_numbers_page__description": "ऑनलाइन PDF फाइलमध्ये झटपट पृष्ठ संख्या जोडा. कोणतेही सॉफ्टवेअर आवश्यक नाही, सुरक्षित ब्राउझरमध्ये प्रोसेसिंग. कोणतेही वॉटरमार्क, फाइल साईजची मर्यादा, डाउनलोड किंवा साइन-अप आवश्यक नाही.",
+    "features_landing__youtube_summary__title": "AI YouTube संक्षेप | MaxAI.me",
+    "features_landing__youtube_summary__desc": "1-क्लिक करून कोणत्याही YouTube व्हिडिओला संक्षेपित करा. YouTube व्हिडिओसह चॅट करा आणि सेकंदात मौल्यवान अंश मिळवा.",
+    "features_landing__chat_pdf__title": "कोणत्याही PDF सह चॅट करा | MaxAI.me",
+    "features_landing__chat_pdf__desc": "कोणत्याही PDF, पुस्तके, संशोधनपत्रे, मॅन्युअल, निबंध, कायदेशीर करारे सह चॅट करा. प्रश्न विचारा, संक्षेप मिळवा, माहिती शोधा आणि अधिक.",
+    "features_landing__translate__title": "मोफत ऑनलाइन AI भाषांतर | MaxAI.me",
+    "features_landing__translate__desc": "स्मार्ट संदर्भ-ज्ञान असलेले बहुभाषी भाषांतर, GPT-4o, Claude 3 आणि Gemini 1.5 या सर्वोत्कृष्ट AI मॉडेल्सच्या सहाय्याने.",
+    "features_landing__vision__title": "AI छाया विश्लेषक | MaxAI.me",
+    "features_landing__vision__desc": "कोणत्याही छायेतून मजकूर वाचा, गणित समस्या सोडा, प्रश्न विचारा, उत्तरे आणि अंश मिळवा आणि AI छाया विजन आणि विश्लेषणाने मौल्यवान अंश मिळवा."
   },
   "features_landing": {
     "cta_text": "ब्राउझरमध्ये जोडा",

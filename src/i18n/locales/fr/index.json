@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Faire pivoter le PDF - Faites pivoter facilement les pages dans les documents PDF en ligne | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Faites pivoter les pages de vos documents PDF en toute simplicité en ligne et gratuitement. Ajustez l'orientation de n'importe quelle page PDF d'un simple clic, sans limite de taille de fichier, de téléchargement ni d'inscription nécessaire.",
     "pdf_tools__pdf_numbers_page__title": "Ajouter des numéros de page au PDF - Outil de numérotation en ligne rapide | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Ajoutez rapidement des numéros de page aux fichiers PDF en ligne. Aucun logiciel requis, traitement sécurisé dans le navigateur. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis."
+    "pdf_tools__pdf_numbers_page__description": "Ajoutez rapidement des numéros de page aux fichiers PDF en ligne. Aucun logiciel requis, traitement sécurisé dans le navigateur. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
+    "features_landing__youtube_summary__title": "Résumé IA YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Résumez n'importe quelle vidéo YouTube en un clic. Discutez avec des vidéos YouTube et obtenez des informations précieuses en quelques secondes.",
+    "features_landing__chat_pdf__title": "Discutez avec n'importe quel PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Discutez avec n'importe quel PDF, livres, articles de recherche, manuels, essais, contrats légaux. Posez des questions, obtenez des résumés, trouvez des informations, et plus encore.",
+    "features_landing__translate__title": "Traduction IA en ligne gratuite | MaxAI.me",
+    "features_landing__translate__desc": "Traductions intelligentes contextuelles dans plusieurs langues, alimentées par les meilleurs modèles d'IA tels que GPT-4o, Claude 3 et Gemini 1.5.",
+    "features_landing__vision__title": "Analyseur d'images IA | MaxAI.me",
+    "features_landing__vision__desc": "Extrayez du texte à partir de n'importe quelle image, résolvez des problèmes mathématiques, posez des questions, obtenez des réponses et des informations grâce à l'analyse et la vision d'images IA."
   },
   "features_landing": {
     "cta_text": "Ajouter au navigateur",

@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "PDF forgatása - Egyszerűen forgassa meg az oldalakat a PDF-dokumentumokban online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Problémamentesen forgathatja a PDF-dokumentumok oldalait ingyenesen online. Állítsa be bármely PDF-oldal irányát egyetlen kattintással - nincsenek fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
     "pdf_tools__pdf_numbers_page__title": "Oldalszámok hozzáadása PDF-hez - Gyors online számozó eszköz | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Gyorsan adja hozzá az oldalszámokat a PDF-fájlokhoz online. Nincs szükség szoftverre, biztonságos böngészőben történő feldolgozás. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek."
+    "pdf_tools__pdf_numbers_page__description": "Gyorsan adja hozzá az oldalszámokat a PDF-fájlokhoz online. Nincs szükség szoftverre, biztonságos böngészőben történő feldolgozás. Nincsenek vízjelek, fájlméret korlátok, letöltések vagy regisztrációk szükségesek.",
+    "features_landing__youtube_summary__title": "AI YouTube összefoglaló | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Bármely YouTube videót összefoglalhatja 1 kattintással. Csevegjen a YouTube videókkal és szerezzen értékes információkat másodpercek alatt.",
+    "features_landing__chat_pdf__title": "Csevegés bármilyen PDF-fel | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Csevegjen bármilyen PDF-fel, könyvekkel, kutatási anyagokkal, kézikönyvekkel, esszékkel, jogi szerződésekkel. Tegyen fel kérdéseket, kapjon összefoglalókat, találjon információkat és még sok mást.",
+    "features_landing__translate__title": "Ingyenes online AI fordítás | MaxAI.me",
+    "features_landing__translate__desc": "Okos kontextusérzékeny fordítások több nyelven, a legjobb AI modellekkel, mint például a GPT-4o, Claude 3 és Gemini 1.5.",
+    "features_landing__vision__title": "AI kép elemző | MaxAI.me",
+    "features_landing__vision__desc": "Kinyerhet szöveget bármely képből, megoldhat matematikai problémákat, tegyen fel kérdéseket, kapjon válaszokat és információkat az AI kép elemzéssel és vizsgálattal."
   },
   "features_landing": {
     "cta_text": "Hozzáadás a böngészőhöz",

@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "หมุน PDF - หมุนหน้าในเอกสาร PDF ออนไลน์อย่างง่ายดาย | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "หมุนหน้าในเอกสาร PDF ของคุณอย่างง่ายดายออนไลน์ฟรี ปรับแนวหน้าของเอกสาร PDF ใดก็ได้ด้วยแค่คลิกเดียว - ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก",
     "pdf_tools__pdf_numbers_page__title": "เพิ่มหมายเลขหน้าใน PDF - เครื่องมือการจัดเลขออนไลน์ที่รวดเร็ว | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "เพิ่มหมายเลขหน้าในไฟล์ PDF อย่างรวดเร็วออนไลน์ ไม่ต้องใช้ซอฟต์แวร์ ประมวลผลในเบราว์เซอร์อย่างปลอดภัย ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก"
+    "pdf_tools__pdf_numbers_page__description": "เพิ่มหมายเลขหน้าในไฟล์ PDF อย่างรวดเร็วออนไลน์ ไม่ต้องใช้ซอฟต์แวร์ ประมวลผลในเบราว์เซอร์อย่างปลอดภัย ไม่มีลายน้ำ ไม่มีข้อจำกัดขนาดไฟล์ ไม่ต้องดาวน์โหลดหรือสมัครสมาชิก",
+    "features_landing__youtube_summary__title": "สรุปวิดีโอ YouTube ด้วย AI | MaxAI.me",
+    "features_landing__youtube_summary__desc": "สรุปวิดีโอ YouTube ด้วยคลิกเดียว เชื่อมต่อแชทกับวิดีโอ YouTube และได้รับข้อมูลมีค่าในไม่กี่วินาที",
+    "features_landing__chat_pdf__title": "แชทกับไฟล์ PDF ใดก็ได้ | MaxAI.me",
+    "features_landing__chat_pdf__desc": "แชทกับไฟล์ PDF, หนังสือ, งานวิจัย, คู่มือ, เรียงความ, สัญญาทางกฎหมาย ถามคำถาม, รับสรุป, ค้นหาข้อมูล และอื่น ๆ",
+    "features_landing__translate__title": "แปลออนไลน์ฟรีด้วย AI | MaxAI.me",
+    "features_landing__translate__desc": "การแปลอัจฉริยะที่มีความเข้าใจบริบทในหลายภาษา ด้วยพลังของโมเดล AI ที่ดีที่สุด เช่น GPT-4o, Claude 3, และ Gemini 1.5",
+    "features_landing__vision__title": "วิเคราะห์ภาพด้วย AI | MaxAI.me",
+    "features_landing__vision__desc": "แยกข้อความจากภาพใด ๆ, แก้ปัญหาทางคณิตศาสตร์, ถามคำถาม, รับคำตอบและข้อมูลสารสนเทศด้วยการวิเคราะห์ภาพด้วย AI"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "เลือกทั้งหมด",

@@ -921,7 +921,15 @@
     "pdf_tools__rotate_pdf__title": "Rotire PDF - Rotiți cu ușurință pagini în documente PDF online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Rotiți cu ușurință pagini în documentele dvs. PDF online gratuit. Ajustați orientarea oricărei pagini PDF cu doar un clic - fără limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
     "pdf_tools__pdf_numbers_page__title": "Adăugați numere de pagină la PDF - Instrument rapid de numerotare online | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Adăugați rapid numere de pagină la fișierele PDF online. Nu este necesară instalarea de software, procesare sigură în browser. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare."
+    "pdf_tools__pdf_numbers_page__description": "Adăugați rapid numere de pagină la fișierele PDF online. Nu este necesară instalarea de software, procesare sigură în browser. Fără filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări necesare.",
+    "features_landing__youtube_summary__title": "Rezumat AI YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Rezumați orice videoclip YouTube cu un singur clic. Conversați cu videoclipurile YouTube și obțineți informații valoroase în câteva secunde.",
+    "features_landing__chat_pdf__title": "Conversați cu orice PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Conversați cu orice PDF, cărți, lucrări de cercetare, manuale, eseuri, contracte legale. Puteți pune întrebări, obține rezumate, găsi informații și multe altele.",
+    "features_landing__translate__title": "Traducere online gratuită cu ajutorul IA | MaxAI.me",
+    "features_landing__translate__desc": "Traduceri inteligente conștiente de context în mai multe limbi, alimentate de cele mai bune modele de IA precum GPT-4o, Claude 3 și Gemini 1.5.",
+    "features_landing__vision__title": "Analizor de imagini AI | MaxAI.me",
+    "features_landing__vision__desc": "Extrageți text din orice imagine, rezolvați probleme matematice, puneți întrebări, obțineți răspunsuri și informații cu ajutorul viziunii și analizei imaginilor AI."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
