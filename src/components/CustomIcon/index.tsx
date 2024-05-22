@@ -1,7 +1,7 @@
-import { SvgIconProps, SxProps } from '@mui/material';
+import { Skeleton, SvgIconProps, SxProps } from '@mui/material';
 import dynamic from 'next/dynamic';
-import React, { FC } from 'react';
-
+import React, { FC, Suspense, useMemo } from 'react';
+//！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
 export type ICustomIconType =
   | 'AIPowerSearch'
   | 'BardLogo'
@@ -86,15 +86,39 @@ const iconsMap: {
 interface IconType {
   icon: ICustomIconType;
   sx?: SxProps; // 假设 sx 是可选的对象
+  fontSize?: number | string;
+
 }
-
-const CustomIcon: FC<IconType> = ({ icon, sx }) => {
+//！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
+const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
   const IconComponent = iconsMap[icon];
-  if (!icon || !IconComponent) {
-    return null; // 如果 icon 不存在或没有匹配的组件，返回 null
-  }
+  const sxCache = useMemo(() => {
+    return {
+      fontSize,
+      ...sx,
+    };
+  }, [sx, fontSize]);
 
-  return <IconComponent sx={sx} />;
+  const fontSizeCache = useMemo(() => {
+    return (sxCache?.fontSize as number) || 24;
+  }, [sxCache]);
+  if (IconComponent) {
+    return (
+      <Suspense
+        fallback={
+          <Skeleton
+            variant='rounded'
+            width={fontSizeCache ?? 24}
+            height={fontSizeCache ?? 24}
+          />
+        }
+      >
+        <IconComponent sx={sx} />
+      </Suspense>
+    );
+  } else {
+    return null;
+  }
 };
 
 export default CustomIcon;
