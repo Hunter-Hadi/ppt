@@ -52,7 +52,7 @@ const usePartnersABTester = (autoSendEvent = false) => {
       // 发送一次 mixpanelTrack
       mixpanelTrack('test_partner_page_viewed', {
         testVersion: PARTNERS_VARIANT_TO_VERSION_MAP[variant],
-        testFeature: 'Partner updated 页面',
+        testFeature: 'Partner page',
       });
     }
   }, [variant, autoSendEvent, isReady]);
