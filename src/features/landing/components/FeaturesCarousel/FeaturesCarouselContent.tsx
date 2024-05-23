@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
+import useBrowserAgent from '@/features/common/hooks/useBrowserAgent';
 import usePreloadImages from '@/features/common/hooks/usePreloadImages';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
@@ -19,6 +20,7 @@ interface IProps {
 
 const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
   const { t } = useTranslation();
+  const { browserAgent } = useBrowserAgent();
 
   const needToPreloadImages = useMemo(() => {
     return FEATURES_CAROUSEL_LIST.map((featureCarouselItem) => {
@@ -106,7 +108,9 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
             </Stack>
             <CTAInstallButton
               variant={'contained'}
-              text={t('pages:home_page__features_carousel__cta_button__text')}
+              text={t('pages:home_page__features_carousel__cta_button__text', {
+                BROWSER: browserAgent,
+              })}
               trackerLinkProps={{
                 defaultRef: 'homepage',
                 queryRefEnable: true,
