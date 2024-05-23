@@ -1,18 +1,30 @@
 import { Box, CircularProgress, Stack, SxProps } from '@mui/material';
-import React, { FC, useState } from 'react';
+import React, { FC, useMemo, useState } from 'react';
 
 interface IProps {
   youtubeLink: string;
   borderRadius?: number;
   sx?: SxProps;
+  autoplay?: boolean;
 }
 
 const YoutubePlayerBox: FC<IProps> = ({
   youtubeLink,
   borderRadius = 16,
   sx,
+  autoplay,
 }) => {
   const [loading, setLoading] = useState(true);
+
+  const fixYoutubeLink = useMemo(() => {
+    const url = new URL(youtubeLink);
+    const searchParams = new URLSearchParams(url.search);
+    if (autoplay) {
+      searchParams.set('autoplay', '1');
+    }
+    url.search = searchParams.toString();
+    return url.toString();
+  }, [youtubeLink, autoplay]);
 
   return (
     <Box
@@ -54,7 +66,7 @@ const YoutubePlayerBox: FC<IProps> = ({
         title='YouTube video player'
         width='560'
         height='315'
-        src={youtubeLink}
+        src={fixYoutubeLink}
         frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowFullScreen
