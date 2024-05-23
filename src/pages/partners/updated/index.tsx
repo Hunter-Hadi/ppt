@@ -18,13 +18,14 @@ const PartnersUpdatedPage = () => {
 
   const { name, propRef, changelogText, changelogLink } = usePartnersInfo();
 
-  const { hasExtension } = useCheckExtension();
+  const { hasExtension, loaded: checkExtensionStatusLoaded } =
+    useCheckExtension();
 
   useSendRefCount(propRef, 'partners-updated');
 
   // 没安装插件才显示 ab test partners 内容
   const { renderPartnersContent } = usePartnersABTester(
-    !hasExtension && router.isReady,
+    !hasExtension && checkExtensionStatusLoaded && router.isReady,
   );
 
   const partnersName = useMemo(() => {

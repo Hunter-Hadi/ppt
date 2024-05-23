@@ -33,7 +33,8 @@ const useLandingABTester = (autoSendEvent = false) => {
 
   const loaded = useMemo(() => isReady || !!variant, [variant, isReady]);
 
-  const { hasExtension } = useCheckExtension();
+  const { hasExtension, loaded: checkExtensionStatusLoaded } =
+    useCheckExtension();
 
   useEffect(() => {
     if (sendMixpanelOnce.current || !isReady || !autoSendEvent) {
@@ -45,7 +46,7 @@ const useLandingABTester = (autoSendEvent = false) => {
     ) {
       if (pathname.startsWith('/partners')) {
         // 在 partners 页面时，需要判断 没有安装插件时，才发送 test_page_viewed
-        if (!hasExtension) {
+        if (checkExtensionStatusLoaded && !hasExtension) {
           sendMixpanelOnce.current = true;
           mixpanelTrack('test_page_viewed', {
             testVersion: LANDING_VARIANT_TO_VERSION_MAP[variant],
@@ -60,7 +61,14 @@ const useLandingABTester = (autoSendEvent = false) => {
         });
       }
     }
-  }, [isReady, variant, pathname, hasExtension, autoSendEvent]);
+  }, [
+    isReady,
+    variant,
+    pathname,
+    hasExtension,
+    autoSendEvent,
+    checkExtensionStatusLoaded,
+  ]);
 
   const title = useMemo<React.ReactNode>(() => {
     if (variant) {
