@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Lejupielādējiet savu PDF ar lapu numuriem - tas ir viss!",
     "home_page__hero_section__title__variant2__part1": "1-klikšķis AI visur.",
     "home_page__hero_section__title__variant2__part2": "Dariet vairāk mazāk laikā.",
-    "home_page__hero_section__desc__variant2": "Ietaupiet laiku un iegūstiet labākus rezultātus ar AI čatu, pārrakstītāju, kopsavilkumu un nekavējoties atbildēm. Darbina GPT-4o, Claude 3 un Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Ietaupiet laiku un iegūstiet labākus rezultātus ar AI čatu, pārrakstītāju, kopsavilkumu un nekavējoties atbildēm. Darbina GPT-4o, Claude 3 un Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI tūlītējā atbilde",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI lasīšanas asistents"
   },
   "prompt_library": {
     "use_prompt_library__title": "Augstas kvalitātes AI pamatbibliotēka",

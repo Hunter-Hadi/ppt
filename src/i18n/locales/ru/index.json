@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Скачайте свой PDF с номерами страниц - вот и все!",
     "home_page__hero_section__title__variant2__part1": "Искусственный интеллект всего в один клик.",
     "home_page__hero_section__title__variant2__part2": "Делайте больше за меньшее время.",
-    "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Мгновенный ответ ИИ",
+    "home_page__features_carousel__feature_reader__label__full_name": "Помощник для чтения ИИ"
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",

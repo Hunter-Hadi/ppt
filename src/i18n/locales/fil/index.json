@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "I-download ang iyong PDF na may mga numero ng pahina - iyon lang!",
     "home_page__hero_section__title__variant2__part1": "1-click AI sa lahat ng dako.",
     "home_page__hero_section__title__variant2__part2": "Gawin ang mas marami sa mas kaunting oras.",
-    "home_page__hero_section__desc__variant2": "I-save ang oras at makakuha ng mas magandang mga resulta gamit ang AI chat, rewriter, summarizer, at instant reply. Pinapagana ng GPT-4o, Claude 3, at Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "I-save ang oras at makakuha ng mas magandang mga resulta gamit ang AI chat, rewriter, summarizer, at instant reply. Pinapagana ng GPT-4o, Claude 3, at Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI instant reply",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI reading assistant"
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",

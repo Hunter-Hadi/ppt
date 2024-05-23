@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Téléchargez votre PDF avec les numéros de page - c'est tout !",
     "home_page__hero_section__title__variant2__part1": "IA en un clic partout.",
     "home_page__hero_section__title__variant2__part2": "Faites plus en moins de temps.",
-    "home_page__hero_section__desc__variant2": "Gagnez du temps et obtenez de meilleurs résultats avec le chat IA, le rédacteur, le résumeur et la réponse instantanée. Propulsé par GPT-4o, Claude 3 et Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Gagnez du temps et obtenez de meilleurs résultats avec le chat IA, le rédacteur, le résumeur et la réponse instantanée. Propulsé par GPT-4o, Claude 3 et Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Réponse instantanée de l'IA",
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistant de lecture de l'IA"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",

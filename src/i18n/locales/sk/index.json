@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Stiahnite si svoje PDF s číslami stránok – to je všetko!",
     "home_page__hero_section__title__variant2__part1": "1-kliková AI všade.",
     "home_page__hero_section__title__variant2__part2": "Robte viac za menej času.",
-    "home_page__hero_section__desc__variant2": "Ušetrite čas a dosiahnite lepšie výsledky s chatom, prepracovávačom, zhrnutím a okamžitou odpoveďou pomocou AI. Poháňané GPT-4o, Claude 3 a Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Ušetrite čas a dosiahnite lepšie výsledky s chatom, prepracovávačom, zhrnutím a okamžitou odpoveďou pomocou AI. Poháňané GPT-4o, Claude 3 a Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI okamžitá odpoveď",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI čítačka asistent"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knižnica vysoko kvalitných AI promptov",

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Muat turun PDF anda dengan nombor halaman - itu sahaja!",
     "home_page__hero_section__title__variant2__part1": "AI dengan hanya 1 klik di mana-mana.",
     "home_page__hero_section__title__variant2__part2": "Lakukan lebih banyak dalam masa yang lebih singkat.",
-    "home_page__hero_section__desc__variant2": "Jimat masa dan dapatkan hasil yang lebih baik dengan perbualan AI, penulis semula, ringkasan, dan balasan segera. Dikuasakan oleh GPT-4o, Claude 3, dan Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Jimat masa dan dapatkan hasil yang lebih baik dengan perbualan AI, penulis semula, ringkasan, dan balasan segera. Dikuasakan oleh GPT-4o, Claude 3, dan Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Balasan segera AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "Pembantu membaca AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",

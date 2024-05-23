@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "पृष्ठ नंबरों के साथ अपना पीडीएफ़ डाउनलोड करें - यही है!",
     "home_page__hero_section__title__variant2__part1": "एक क्लिक में AI हर जगह।",
     "home_page__hero_section__title__variant2__part2": "कम समय में अधिक करें।",
-    "home_page__hero_section__desc__variant2": "AI चैट, पुनर्लेखक, संक्षेपक और तत्काल जवाब के साथ समय बचाएं और बेहतर परिणाम प्राप्त करें। GPT-4o, Claude 3 और Gemini 1.5 द्वारा संचालित।"
+    "home_page__hero_section__desc__variant2": "AI चैट, पुनर्लेखक, संक्षेपक और तत्काल जवाब के साथ समय बचाएं और बेहतर परिणाम प्राप्त करें। GPT-4o, Claude 3 और Gemini 1.5 द्वारा संचालित।",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI तत्काल जवाब",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI पठन सहायक"
   },
   "prompt_library": {
     "use_prompt_library__title": "उच्च गुणवत्ता वाली AI प्रॉम्प्ट पुस्तकालय",

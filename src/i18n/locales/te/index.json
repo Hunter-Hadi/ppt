@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "మీ PDFను పేజీ సంఖ్యలతో డౌన్‌లోడ్ చేయండి - అది అంటే ఇది!",
     "home_page__hero_section__title__variant2__part1": "ఒక నొక్కిని మాత్రమే AI ఎవర్య్వేర్.",
     "home_page__hero_section__title__variant2__part2": "తక్కువ సమయంలో మరీ చేయండి.",
-    "home_page__hero_section__desc__variant2": "AI చాట్, రీవ్రైటర్, సారాంశకర్, మరియు తక్షణ సమాధానంతో సమయం సేవ్ చేయండి మరియు మంచి ఫలితాలను పొందండి. GPT-4o, Claude 3, మరియు Gemini 1.5 ద్వారా ప్రాముఖ్యత పొందబడినవి."
+    "home_page__hero_section__desc__variant2": "AI చాట్, రీవ్రైటర్, సారాంశకర్, మరియు తక్షణ సమాధానంతో సమయం సేవ్ చేయండి మరియు మంచి ఫలితాలను పొందండి. GPT-4o, Claude 3, మరియు Gemini 1.5 ద్వారా ప్రాముఖ్యత పొందబడినవి.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI తక్షణ సమాధానం",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI పఠన సహాయకుడు"
   },
   "prompt_library": {
     "use_prompt_library__title": "ఉచిత గుర్తు లైబ్రరీ",

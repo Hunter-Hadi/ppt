@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "பக்க எண்ணும் PDF ஐ பதிவிறக்குங்கள் - அதே!",
     "home_page__hero_section__title__variant2__part1": "ஒரு கிளிக் மூலம் அனைவருக்கும் AI.",
     "home_page__hero_section__title__variant2__part2": "குறைந்த நேரத்தில் மேலும் செய்யுங்கள்.",
-    "home_page__hero_section__desc__variant2": "ஏதேனும் நேரம் சேமிக்கவும், AI அரட்டை, மீள்பார்ப்பாளர், சுருக்கமாக்கி மற்றும் உடனடியாக பதில் பெறுங்கள். GPT-4o, Claude 3 மற்றும் Gemini 1.5 ஆல் இயங்குகின்றன."
+    "home_page__hero_section__desc__variant2": "ஏதேனும் நேரம் சேமிக்கவும், AI அரட்டை, மீள்பார்ப்பாளர், சுருக்கமாக்கி மற்றும் உடனடியாக பதில் பெறுங்கள். GPT-4o, Claude 3 மற்றும் Gemini 1.5 ஆல் இயங்குகின்றன.",
+    "home_page__features_carousel__feature_reply__label__full_name": "ஏதேனும் பிரதிகளை உருவாக்கும் AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI படிக்கும் உதவி"
   },
   "prompt_library": {
     "use_prompt_library__title": "உயர் தரமான AI புத்தக நூலகம்",

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descarrega el teu PDF amb els números de pàgina. Això és tot!",
     "home_page__hero_section__title__variant2__part1": "IA en un clic a tot arreu.",
     "home_page__hero_section__title__variant2__part2": "Fes més en menys temps.",
-    "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Resposta instantània d'IA",
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistent de lectura d'IA"
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",

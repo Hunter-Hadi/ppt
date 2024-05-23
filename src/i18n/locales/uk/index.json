@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "پی ڈی ایف کو صفحات کے ساتھ ڈاؤن لوڈ کریں - یہی ہے!",
     "home_page__hero_section__title__variant2__part1": "۱-کلکشن AI ہر جگہ.",
     "home_page__hero_section__title__variant2__part2": "کم وقت میں زیادہ کام کریں.",
-    "home_page__hero_section__desc__variant2": "AI چیٹ، ری رائٹر، سمارائزر اور فوری جواب کے ساتھ وقت بچاؤ اور بہتر نتائج حاصل کریں. GPT-4o، Claude 3 اور Gemini 1.5 کی طاقت سے محرک."
+    "home_page__hero_section__desc__variant2": "AI چیٹ، ری رائٹر، سمارائزر اور فوری جواب کے ساتھ وقت بچاؤ اور بہتر نتائج حاصل کریں. GPT-4o، Claude 3 اور Gemini 1.5 کی طاقت سے محرک.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI فوری جواب",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI پڑھنے والا معاون"
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",

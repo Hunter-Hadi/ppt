@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download uw PDF met paginanummers - dat is alles!",
     "home_page__hero_section__title__variant2__part1": "1-klik AI overal.",
     "home_page__hero_section__title__variant2__part2": "Doe meer in minder tijd.",
-    "home_page__hero_section__desc__variant2": "Bespaar tijd en krijg betere resultaten met AI-chat, herschrijver, samenvatter en direct antwoord. Aangedreven door GPT-4o, Claude 3 en Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Bespaar tijd en krijg betere resultaten met AI-chat, herschrijver, samenvatter en direct antwoord. Aangedreven door GPT-4o, Claude 3 en Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI direct antwoord",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI leesassistent"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",

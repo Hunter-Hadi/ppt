@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "તમારી PDF પૃષ્ઠો સાથે નંબર સાથે ડાઉનલોડ કરો - એટલે તે!",
     "home_page__hero_section__title__variant2__part1": "દરેક જગ્યાએ 1-ક્લિક AI.",
     "home_page__hero_section__title__variant2__part2": "ઓછી સમયમાં વધુ કરો.",
-    "home_page__hero_section__desc__variant2": "AI ચેટ, રીવ્રાઇટર, સંગ્રહક અને તાત્કાલિક જવાબ સાથે સમય બચાવો અને શ્રેષ્ઠ પરિણામો મેળવો. GPT-4o, Claude 3 અને Gemini 1.5 દ્વારા પ્રાધાન્ય આપેલ."
+    "home_page__hero_section__desc__variant2": "AI ચેટ, રીવ્રાઇટર, સંગ્રહક અને તાત્કાલિક જવાબ સાથે સમય બચાવો અને શ્રેષ્ઠ પરિણામો મેળવો. GPT-4o, Claude 3 અને Gemini 1.5 દ્વારા પ્રાધાન્ય આપેલ.",
+    "home_page__features_carousel__feature_reply__label__full_name": "એઆઈ તક જવાબ",
+    "home_page__features_carousel__feature_reader__label__full_name": "એઆઈ વાંચન સહાયક"
   },
   "prompt_library": {
     "use_prompt_library__title": "ઉચ્ચ ગુણવત્તાવાળી AI પ્રોમ્પ્ટ લાઇબ્રેરી",

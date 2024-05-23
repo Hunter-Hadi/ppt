@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ಪುಟ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ PDF ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ - ಇದೇ ಅದು!",
     "home_page__hero_section__title__variant2__part1": "ಒಂದು ಕ್ಲಿಕ್ ಆರ್ಟಿಫಿಶಿಯಲ್ ಇಂಟೆಲಿಜೆನ್ಸ್ ಎಲ್ಲೆಗೆ.",
     "home_page__hero_section__title__variant2__part2": "ಕಡಿಮೆ ಸಮಯದಲ್ಲಿ ಹೆಚ್ಚು ಮಾಡಿ.",
-    "home_page__hero_section__desc__variant2": "ಆರ್ಟಿಫಿಶಿಯಲ್ ಇಂಟೆಲಿಜೆನ್ಸ್ ಚಾಟ್, ಮರುವರ್ತಿಸುವವರೆಗೂ, ಸಂಗ್ರಹಿಸುವವರೆಗೂ ಮತ್ತು ತಕ್ಷಣ ಉತ್ತರ ಪಡೆಯುವವರೆಗೂ ಸಮಯವನ್ನು ಉಳಿಸಿ ಅತ್ಯುತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಿರಿ. GPT-4o, Claude 3 ಮತ್ತು Gemini 1.5 ದ್ವಾರಾ ಸಕ್ಷಮಗೊಳಿಸಲಾಗಿದೆ."
+    "home_page__hero_section__desc__variant2": "ಆರ್ಟಿಫಿಶಿಯಲ್ ಇಂಟೆಲಿಜೆನ್ಸ್ ಚಾಟ್, ಮರುವರ್ತಿಸುವವರೆಗೂ, ಸಂಗ್ರಹಿಸುವವರೆಗೂ ಮತ್ತು ತಕ್ಷಣ ಉತ್ತರ ಪಡೆಯುವವರೆಗೂ ಸಮಯವನ್ನು ಉಳಿಸಿ ಅತ್ಯುತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಿರಿ. GPT-4o, Claude 3 ಮತ್ತು Gemini 1.5 ದ್ವಾರಾ ಸಕ್ಷಮಗೊಳಿಸಲಾಗಿದೆ.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI ತಕ್ಷಣ ಉತ್ತರ",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI ಓದುಗಾರ ಸಹಾಯಕ"
   },
   "prompt_library": {
     "use_prompt_library__title": "ಉನ್ನತ ಗುಣಮಟ್ಟದ AI ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ",

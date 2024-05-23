@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Atsisiųskite savo PDF su puslapių numeriais - tai viskas!",
     "home_page__hero_section__title__variant2__part1": "Vieno paspaudimo dirbtinio intelekto sprendimai visur.",
     "home_page__hero_section__title__variant2__part2": "Darykite daugiau mažiau laiko.",
-    "home_page__hero_section__desc__variant2": "Sutaupykite laiko ir gaukite geriausius rezultatus naudodami dirbtinio intelekto pokalbių, peržiūros, santraukos ir momentinės atsakymo funkcijas. Veikia su GPT-4o, Claude 3 ir Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Sutaupykite laiko ir gaukite geriausius rezultatus naudodami dirbtinio intelekto pokalbių, peržiūros, santraukos ir momentinės atsakymo funkcijas. Veikia su GPT-4o, Claude 3 ir Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI greitas atsakymas",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI skaitymo asistentas"
   },
   "prompt_library": {
     "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",

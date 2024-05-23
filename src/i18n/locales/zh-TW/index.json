@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "下載帶有頁碼的 PDF - 就這樣！",
     "home_page__hero_section__title__variant2__part1": "1點擊人工智能無處不在。",
     "home_page__hero_section__title__variant2__part2": "在更短的時間內完成更多事情。",
-    "home_page__hero_section__desc__variant2": "使用AI聊天、重寫器、摘要和即時回覆節省時間並獲得更好的結果。由GPT-4o、Claude 3和Gemini 1.5提供動力。"
+    "home_page__hero_section__desc__variant2": "使用AI聊天、重寫器、摘要和即時回覆節省時間並獲得更好的結果。由GPT-4o、Claude 3和Gemini 1.5提供動力。",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI 即時回覆",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI 閱讀助手"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",

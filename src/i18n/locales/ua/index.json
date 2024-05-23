@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Завантажте свій PDF з номерами сторінок - це все!",
     "home_page__hero_section__title__variant2__part1": "1-клік ШІ скрізь.",
     "home_page__hero_section__title__variant2__part2": "Робіть більше за менший час.",
-    "home_page__hero_section__desc__variant2": "Зекономте час та отримайте кращі результати з ШІ-чатом, переписувачем, резюматором та миттєвою відповіддю. Працює на основі GPT-4o, Claude 3 та Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Зекономте час та отримайте кращі результати з ШІ-чатом, переписувачем, резюматором та миттєвою відповіддю. Працює на основі GPT-4o, Claude 3 та Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Миттєва відповідь штучного інтелекту",
+    "home_page__features_carousel__feature_reader__label__full_name": "Штучний інтелект як читацький помічник"
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",

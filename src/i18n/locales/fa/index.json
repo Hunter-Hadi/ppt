@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "PDF خود را با شماره صفحات دانلود کنید - همین!",
     "home_page__hero_section__title__variant2__part1": "همه جا هوش مصنوعی با یک کلیک.",
     "home_page__hero_section__title__variant2__part2": "بیشتر را در کمتر زمان انجام دهید.",
-    "home_page__hero_section__desc__variant2": "زمان صرفه جویی کنید و نتایج بهتری با چت، بازنویسی، خلاصه سازی و پاسخ فوری هوش مصنوعی بدست آورید. قدرت گرفته شده از GPT-4o، Claude 3 و Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "زمان صرفه جویی کنید و نتایج بهتری با چت، بازنویسی، خلاصه سازی و پاسخ فوری هوش مصنوعی بدست آورید. قدرت گرفته شده از GPT-4o، Claude 3 و Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "پاسخ فوری هوش مصنوعی",
+    "home_page__features_carousel__feature_reader__label__full_name": "دستیار خوانش هوش مصنوعی"
   },
   "prompt_library": {
     "use_prompt_library__title": "کتابخانه پیشنهاد با کیفیت بالا",

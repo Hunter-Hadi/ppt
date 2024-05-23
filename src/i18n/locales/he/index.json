@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "הורד את ה-PDF שלך עם מספרי העמודים - זהו!",
     "home_page__hero_section__title__variant2__part1": "AI בלחיצה אחת בכל מקום.",
     "home_page__hero_section__title__variant2__part2": "עשה יותר בפחות זמן.",
-    "home_page__hero_section__desc__variant2": "חסוך זמן וקבל תוצאות טובות יותר עם צ'אט AI, מחדד, סיכום ותשובה מיידית. מופעל על ידי GPT-4o, Claude 3 ו-Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "חסוך זמן וקבל תוצאות טובות יותר עם צ'אט AI, מחדד, סיכום ותשובה מיידית. מופעל על ידי GPT-4o, Claude 3 ו-Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "תשובה מיידית של AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "עוזר קריאה של AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",

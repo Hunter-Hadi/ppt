@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Изтеглете вашия PDF с номерирани страници - това е всичко!",
     "home_page__hero_section__title__variant2__part1": "AI навсякъде с едно щракване.",
     "home_page__hero_section__title__variant2__part2": "Правете повече за по-малко време.",
-    "home_page__hero_section__desc__variant2": "Спестете време и получете по-добри резултати с AI чат, пренаписвач, резюмиращ инструмент и моментален отговор. Задвижвано от GPT-4o, Claude 3 и Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Спестете време и получете по-добри резултати с AI чат, пренаписвач, резюмиращ инструмент и моментален отговор. Задвижвано от GPT-4o, Claude 3 и Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Интелигентен отговор",
+    "home_page__features_carousel__feature_reader__label__full_name": "Интелигентен помощник за четене"
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека с висококачествени AI подсказки",

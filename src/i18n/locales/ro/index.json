@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descărcați PDF-ul cu numere de pagini - asta e tot!",
     "home_page__hero_section__title__variant2__part1": "AI cu un singur clic pretutindeni.",
     "home_page__hero_section__title__variant2__part2": "Fă mai multe în mai puțin timp.",
-    "home_page__hero_section__desc__variant2": "Economisește timp și obține rezultate mai bune cu chat AI, rewriter, summarizer și răspuns instant. Propulsat de GPT-4o, Claude 3 și Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Economisește timp și obține rezultate mai bune cu chat AI, rewriter, summarizer și răspuns instant. Propulsat de GPT-4o, Claude 3 și Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Răspuns instant AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "Asistent de citire AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",

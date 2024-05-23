@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ดาวน์โหลด PDF ของคุณพร้อมหมายเลขหน้า - เพียงเท่านี้เอง!",
     "home_page__hero_section__title__variant2__part1": "AI ด้วยคลิกเดียวทุกที่",
     "home_page__hero_section__title__variant2__part2": "ทำมากขึ้นในเวลาน้อยลง",
-    "home_page__hero_section__desc__variant2": "ประหยัดเวลาและได้ผลลัพธ์ที่ดีกว่าด้วยการสนทนา AI, เครื่องเขียน, สรุป, และการตอบกลับทันที ขับเคลื่อนโดย GPT-4o, Claude 3, และ Gemini 1.5"
+    "home_page__hero_section__desc__variant2": "ประหยัดเวลาและได้ผลลัพธ์ที่ดีกว่าด้วยการสนทนา AI, เครื่องเขียน, สรุป, และการตอบกลับทันที ขับเคลื่อนโดย GPT-4o, Claude 3, และ Gemini 1.5",
+    "home_page__features_carousel__feature_reply__label__full_name": "การตอบกลับทันใจของ AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "ผู้ช่วยอ่านของ AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "ไลบรารีคำแนะนำ AI คุณภาพสูง",

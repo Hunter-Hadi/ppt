@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Scarica il tuo PDF con i numeri di pagina, tutto qui!",
     "home_page__hero_section__title__variant2__part1": "AI ovunque con un clic.",
     "home_page__hero_section__title__variant2__part2": "Fai di più in meno tempo.",
-    "home_page__hero_section__desc__variant2": "Risparmia tempo e ottieni risultati migliori con la chat AI, il riscrittore, il riassuntore e la risposta istantanea. Potenziato da GPT-4o, Claude 3 e Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Risparmia tempo e ottieni risultati migliori con la chat AI, il riscrittore, il riassuntore e la risposta istantanea. Potenziato da GPT-4o, Claude 3 e Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Risposta istantanea AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistente di lettura AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Libreria di prompt AI di alta qualità",

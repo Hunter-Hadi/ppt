@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "قم بتنزيل ملف PDF الخاص بك مع أرقام الصفحات - هذا كل شيء!",
     "home_page__hero_section__title__variant2__part1": "ذكاء اصطناعي بنقرة واحدة في كل مكان.",
     "home_page__hero_section__title__variant2__part2": "افعل المزيد في وقت أقل.",
-    "home_page__hero_section__desc__variant2": "وفّر الوقت واحصل على نتائج أفضل مع دردشة الذكاء الاصطناعي، وأداة إعادة الكتابة، وملخص النصوص، والرد الفوري. يعمل بواسطة GPT-4o، Claude 3، وGemini 1.5."
+    "home_page__hero_section__desc__variant2": "وفّر الوقت واحصل على نتائج أفضل مع دردشة الذكاء الاصطناعي، وأداة إعادة الكتابة، وملخص النصوص، والرد الفوري. يعمل بواسطة GPT-4o، Claude 3، وGemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "رد فوري بواسطة الذكاء الاصطناعي",
+    "home_page__features_carousel__feature_reader__label__full_name": "مساعد قراءة الذكاء الاصطناعي"
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
