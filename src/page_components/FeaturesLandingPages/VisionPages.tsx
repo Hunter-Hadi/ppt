@@ -1,14 +1,18 @@
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { FC } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import CallToActionSection from '@/features/landing/components/CallToActionSection';
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
 import FeaturesLandingBanner from '@/page_components/FeaturesLandingPages/components/FeaturesLandingBanner';
 
-const VisionPages = () => {
+interface IProps {
+  propRef?: string;
+}
+
+const VisionPages: FC<IProps> = ({ propRef }) => {
   const { t } = useTranslation();
 
   return (
@@ -87,7 +91,7 @@ const VisionPages = () => {
       />
       <CallToActionSection
         ctaButtonTrackerLinkProps={{
-          defaultRef: '',
+          defaultRef: propRef ?? '',
           queryRefEnable: true,
           pathnameRefEnable: true,
         }}

@@ -2,7 +2,6 @@ import { Backdrop, CircularProgress, Stack, Typography } from '@mui/material';
 import React from 'react';
 import { useRecoilValue } from 'recoil';
 
-import useABTestPageViewedSender from '@/features/ab_tester/hooks/useABTestPageViewedSender';
 import ChromeExtensionDetector from '@/features/extension/components/ChromeExtensionDetector';
 import ExtensionUpdateRemindDialog from '@/features/extension/components/ExtensionUpdateRemindDialog';
 import useInitExtensionStatus from '@/features/extension/hooks/useInitExtensionStatus';
@@ -49,7 +48,6 @@ const AppInit = () => {
   useInitExtensionStatus();
   useInitInviteCode();
   useInitMixPanel();
-  useABTestPageViewedSender();
 
   return (
     <>

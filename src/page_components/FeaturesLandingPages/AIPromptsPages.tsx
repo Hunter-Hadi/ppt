@@ -1,6 +1,6 @@
 import { Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { FC } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import CallToActionSection from '@/features/landing/components/CallToActionSection';
@@ -11,7 +11,10 @@ import UserComment from '@/features/landing/components/UserComment';
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
 import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
 
-const AIPromptsPages = () => {
+interface IProps {
+  propRef?: string;
+}
+const AIPromptsPages: FC<IProps> = () => {
   const { t } = useTranslation();
 
   const sections4Descriptions = [

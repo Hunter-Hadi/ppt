@@ -15,11 +15,9 @@ import UserComment from './UserComment';
 
 interface IProps {
   propRef?: string;
-
-  testing?: boolean;
 }
 
-const HomePageContent: FC<IProps> = ({ propRef, testing }) => {
+const HomePageContent: FC<IProps> = ({ propRef }) => {
   const { isReady, asPath } = useRouter();
 
   const {
@@ -29,7 +27,7 @@ const HomePageContent: FC<IProps> = ({ propRef, testing }) => {
     description,
     featuresCarousel,
     featuresExpand,
-  } = useLandingABTester();
+  } = useLandingABTester(true);
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -72,8 +70,6 @@ const HomePageContent: FC<IProps> = ({ propRef, testing }) => {
     </AppLoadingLayout>
   );
 };
-
-FeaturesCarousel;
 
 // const FeaturesCarouselSkeleton = () => {
 //   return (

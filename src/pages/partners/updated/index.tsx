@@ -4,8 +4,8 @@ import React, { useEffect, useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import ProLink from '@/components/ProLink';
+import usePartnersABTester from '@/features/ab_tester/hooks/usePartnersABTester';
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
-import HomePageContent from '@/features/landing/components/HomePageContent';
 import usePartnersInfo from '@/features/partners/hooks/usePartnersInfo';
 import { useSendRefCount } from '@/hooks/useSendRefCount';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
@@ -21,6 +21,11 @@ const PartnersUpdatedPage = () => {
   const { hasExtension } = useCheckExtension();
 
   useSendRefCount(propRef, 'partners-updated');
+
+  // 没安装插件才显示 ab test partners 内容
+  const { renderPartnersContent } = usePartnersABTester(
+    !hasExtension && router.isReady,
+  );
 
   const partnersName = useMemo(() => {
     if (!name) {
@@ -93,6 +98,7 @@ const PartnersUpdatedPage = () => {
           href={hasExtension ? '/pdf-tools' : null}
           target={hasExtension ? '_self' : undefined}
         />
+        {/* 没安装插件才显示 ab test partners 内容 */}
         {hasExtension ? (
           <Container
             sx={{
@@ -102,7 +108,7 @@ const PartnersUpdatedPage = () => {
             <ToolsHome />
           </Container>
         ) : (
-          <HomePageContent propRef={propRef} />
+          renderPartnersContent(propRef)
         )}
       </Box>
       {!hasExtension && (
