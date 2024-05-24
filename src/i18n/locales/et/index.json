@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laadi oma PDF alla leheküljenumbritega – see on kõik!",
     "home_page__hero_section__title__variant2__part1": "1-klikk AI kõikjal.",
     "home_page__hero_section__title__variant2__part2": "Tee rohkem vähema ajaga.",
-    "home_page__hero_section__desc__variant2": "Säästa aega ja saa paremaid tulemusi AI vestluse, ümberkirjutaja, kokkuvõtja ja kiire vastuse abil. Töötab GPT-4o, Claude 3 ja Gemini 1.5 poolt."
+    "home_page__hero_section__desc__variant2": "Säästa aega ja saa paremaid tulemusi AI vestluse, ümberkirjutaja, kokkuvõtja ja kiire vastuse abil. Töötab GPT-4o, Claude 3 ja Gemini 1.5 poolt.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI kiire vastus",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI lugemisabiline"
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Pööra PDF - Pööra lehti PDF-dokumentides lihtsalt veebis | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Pöörake lehti oma PDF-dokumentides hõlpsalt veebis tasuta. Reguleerige ühe klõpsuga mis tahes PDF-lehe orientatsiooni - pole failisuuruse piiranguid, allalaadimisi ega registreerumist vaja.",
     "pdf_tools__pdf_numbers_page__title": "Lisage lehenumbreid PDF-ile - Kiire veebipõhine nummerdamise tööriist | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Lisage kiiresti lehenumbreid PDF-failidele veebis. Pole vaja tarkvara, turvaline brauseripõhine töötlemine. Pole vesimärke, faili suuruse piiranguid, allalaadimisi ega registreerumist."
+    "pdf_tools__pdf_numbers_page__description": "Lisage kiiresti lehenumbreid PDF-failidele veebis. Pole vaja tarkvara, turvaline brauseripõhine töötlemine. Pole vesimärke, faili suuruse piiranguid, allalaadimisi ega registreerumist.",
+    "features_landing__youtube_summary__title": "AI YouTube kokkuvõte | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Kokkuvõte mistahes YouTube'i videost ühe klõpsuga. Vestle YouTube'i videote ja saa väärtuslikke teadmisi sekunditega.",
+    "features_landing__chat_pdf__title": "Vestle mistahes PDF-iga | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Vestle mistahes PDF-i, raamatute, uurimistööde, juhendite, esseedega, õiguslepingutega. Küsi küsimusi, saa kokkuvõtteid, leia infot ja palju muud.",
+    "features_landing__translate__title": "Tasuta veebipõhine AI tõlge | MaxAI.me",
+    "features_landing__translate__desc": "Nutikad kontekstitundlikud tõlked mitmes keeles, toetatud parimate AI mudelitega nagu GPT-4o, Claude 3 ja Gemini 1.5.",
+    "features_landing__vision__title": "AI pildianalüsaator | MaxAI.me",
+    "features_landing__vision__desc": "Teksti eraldamine mistahes pildilt, matemaatiliste probleemide lahendamine, küsimuste esitamine, vastuste ja teadmiste saamine AI pildi nägemise ja analüüsi abil."
   },
   "features_landing": {
     "cta_text": "Lisa brauserisse",

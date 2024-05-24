@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Preuzmite svoj PDF s brojevima stranica - to je sve!",
     "home_page__hero_section__title__variant2__part1": "1-klik AI svugdje.",
     "home_page__hero_section__title__variant2__part2": "Učinite više u manje vremena.",
-    "home_page__hero_section__desc__variant2": "Uštedite vrijeme i postignite bolje rezultate s AI chatom, prepravljačem, sažetkom i trenutnim odgovorom. Pokreće GPT-4o, Claude 3 i Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Uštedite vrijeme i postignite bolje rezultate s AI chatom, prepravljačem, sažetkom i trenutnim odgovorom. Pokreće GPT-4o, Claude 3 i Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI trenutni odgovor",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI čitač pomoćnik"
   },
   "prompt_library": {
     "use_prompt_library__title": "Visokokvalitetna AI biblioteka uputa",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Rotiraj PDF - Jednostavno rotirajte stranice u PDF dokumentima online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Jednostavno rotirajte stranice unutar vaših PDF dokumenata online besplatno. Prilagodite orijentaciju bilo koje PDF stranice jednim klikom - nema ograničenja veličine datoteke, preuzimanja ili registracija.",
     "pdf_tools__pdf_numbers_page__title": "Dodaj brojeve stranica u PDF - Brzi online alat za numeriranje | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Brzo dodajte brojeve stranica u PDF datoteke online. Nije potreban softver, sigurna obrada u pregledniku. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija."
+    "pdf_tools__pdf_numbers_page__description": "Brzo dodajte brojeve stranica u PDF datoteke online. Nije potreban softver, sigurna obrada u pregledniku. Nema vodenih žigova, ograničenja veličine datoteke, preuzimanja ili registracija.",
+    "features_landing__youtube_summary__title": "AI sažetak YouTubea | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Sažmite bilo koji YouTube video s jednim klikom. Razgovarajte s YouTube videima i dobijte vrijedne uvide u sekundama.",
+    "features_landing__chat_pdf__title": "Razgovarajte s bilo kojim PDF-om | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Razgovarajte s bilo kojim PDF-om, knjigama, istraživačkim radovima, priručnicima, esejima, pravnim ugovorima. Postavljajte pitanja, dobivajte sažetke, pronalazite informacije i još mnogo toga.",
+    "features_landing__translate__title": "Besplatni online AI prijevod | MaxAI.me",
+    "features_landing__translate__desc": "Pametni prijevodi svjesni konteksta na više jezika, pokretani najboljim AI modelima poput GPT-4o, Claude 3 i Gemini 1.5.",
+    "features_landing__vision__title": "AI analizator slika | MaxAI.me",
+    "features_landing__vision__desc": "Izdvajanje teksta iz bilo koje slike, rješavanje matematičkih problema, postavljanje pitanja, dobivanje odgovora i uvida uz pomoć AI vizije i analize slika."
   },
   "features_landing": {
     "cta_text": "Dodaj u preglednik",

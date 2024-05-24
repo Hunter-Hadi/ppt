@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Sayfa numaralarıyla PDF'nizi indirin - bu kadar!",
     "home_page__hero_section__title__variant2__part1": "Her yerde 1 tıklamayla AI.",
     "home_page__hero_section__title__variant2__part2": "Daha az zamanda daha fazlasını yapın.",
-    "home_page__hero_section__desc__variant2": "AI sohbeti, yeniden yazıcıyı, özetleyiciyi ve anında yanıtı kullanarak zaman kazanın ve daha iyi sonuçlar elde edin. GPT-4o, Claude 3 ve Gemini 1.5 tarafından desteklenmektedir."
+    "home_page__hero_section__desc__variant2": "AI sohbeti, yeniden yazıcıyı, özetleyiciyi ve anında yanıtı kullanarak zaman kazanın ve daha iyi sonuçlar elde edin. GPT-4o, Claude 3 ve Gemini 1.5 tarafından desteklenmektedir.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI anlık yanıt",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI okuma asistanı"
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "PDF Döndür - PDF Belgelerinde Sayfaları Kolayca Döndür | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Ücretsiz olarak çevrimiçi PDF belgelerinizdeki sayfaları kolayca döndürün. Bir tıklama ile herhangi bir PDF sayfasının yönlendirmesini ayarlayın - dosya boyutu sınırlaması, indirme veya kaydolma gerektirmez.",
     "pdf_tools__pdf_numbers_page__title": "PDF'ye Sayfa Numaraları Ekle - Hızlı Çevrimiçi Numaralandırma Aracı | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "PDF dosyalarına hızlı bir şekilde sayfa numaraları ekleyin. Yazılım gerekmez, güvenli tarayıcı tabanlı işleme. Filigran, dosya boyutu sınırları, indirme veya kaydolma gerektirmez."
+    "pdf_tools__pdf_numbers_page__description": "PDF dosyalarına hızlı bir şekilde sayfa numaraları ekleyin. Yazılım gerekmez, güvenli tarayıcı tabanlı işleme. Filigran, dosya boyutu sınırları, indirme veya kaydolma gerektirmez.",
+    "features_landing__youtube_summary__title": "AI YouTube özeti | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Herhangi bir YouTube videosunu 1 tıklamayla özetleyin. YouTube videolarıyla sohbet edin ve saniyeler içinde değerli bilgiler elde edin.",
+    "features_landing__chat_pdf__title": "Herhangi bir PDF ile sohbet edin | MaxAI.me",
+    "features_landing__chat_pdf__desc": "PDF'ler, kitaplar, araştırma makaleleri, kılavuzlar, denemeler, hukuki sözleşmeler dahil herhangi bir PDF ile sohbet edin. Sorular sorun, özetler alın, bilgi bulun ve daha fazlasını yapın.",
+    "features_landing__translate__title": "Ücretsiz çeviri | MaxAI.me",
+    "features_landing__translate__desc": "En iyi AI modelleri olan GPT-4o, Claude 3 ve Gemini 1.5 tarafından desteklenen akıllı bağlam farkındalığına sahip çoklu dil çevirileri.",
+    "features_landing__vision__title": "AI görüntü analizörü | MaxAI.me",
+    "features_landing__vision__desc": "Herhangi bir görüntüden metin çıkarın, matematik problemlerini çözün, sorular sorun, cevaplar ve bilgiler elde edin AI görüntü analizi ile."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",

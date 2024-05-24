@@ -616,7 +616,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "下载带有页码的PDF文件 - 就是这样！",
     "home_page__hero_section__title__variant2__part1": "随时随地的1键AI。",
     "home_page__hero_section__title__variant2__part2": "更少时间做更多事情。",
-    "home_page__hero_section__desc__variant2": "通过AI聊天、重写器、摘要生成器和即时回复节省时间并获得更好的结果。由GPT-4o、Claude 3和Gemini 1.5提供支持。"
+    "home_page__hero_section__desc__variant2": "通过AI聊天、重写器、摘要生成器和即时回复节省时间并获得更好的结果。由GPT-4o、Claude 3和Gemini 1.5提供支持。",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI即时回复",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI阅读助手"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "旋转PDF - 在线轻松旋转PDF文档中的页面 | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "轻松在您的PDF文档中在线旋转页面，免费使用。只需点击即可调整任何PDF页面的方向-无需文件大小限制、下载或注册。",
     "pdf_tools__pdf_numbers_page__title": "向PDF添加页码-快速在线编号工具| MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "快速在线向PDF文件添加页码。无需软件，安全的浏览器处理。无水印，文件大小限制，下载或注册要求。"
+    "pdf_tools__pdf_numbers_page__description": "快速在线向PDF文件添加页码。无需软件，安全的浏览器处理。无水印，文件大小限制，下载或注册要求。",
+    "features_landing__youtube_summary__title": "AI YouTube摘要 | MaxAI.me",
+    "features_landing__youtube_summary__desc": "一键摘要任何YouTube视频。与YouTube视频聊天，秒速获得有价值的见解。",
+    "features_landing__chat_pdf__title": "与任何PDF聊天 | MaxAI.me",
+    "features_landing__chat_pdf__desc": "与任何PDF、书籍、研究论文、手册、文章、法律合同聊天。提问、获取摘要、查找信息等等。",
+    "features_landing__translate__title": "免费在线AI翻译 | MaxAI.me",
+    "features_landing__translate__desc": "智能上下文感知的多语言翻译，由GPT-4o、Claude 3和Gemini 1.5等最佳AI模型提供支持。",
+    "features_landing__vision__title": "AI图像分析器 | MaxAI.me",
+    "features_landing__vision__desc": "从任何图像中提取文本，解决数学问题，提问，获取答案和见解，利用AI图像视觉和分析功能。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全选",

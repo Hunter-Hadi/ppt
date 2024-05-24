@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ページ番号が付いたPDFをダウンロードします - それだけです！",
     "home_page__hero_section__title__variant2__part1": "どこでも1クリックAI。",
     "home_page__hero_section__title__variant2__part2": "少ない時間でより多くのことを行います。",
-    "home_page__hero_section__desc__variant2": "AIチャット、リライター、要約、インスタントリプライで時間を節約し、より良い結果を得る。GPT-4o、Claude 3、Gemini 1.5によって強化されています。"
+    "home_page__hero_section__desc__variant2": "AIチャット、リライター、要約、インスタントリプライで時間を節約し、より良い結果を得る。GPT-4o、Claude 3、Gemini 1.5によって強化されています。",
+    "home_page__features_carousel__feature_reply__label__full_name": "AIの即時返信",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI読み上げアシスタント"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "PDFを回転 - オンラインでPDFドキュメント内のページを簡単に回転 | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "無料でオンライン上でPDFドキュメント内のページを簡単に回転できます。クリックするだけで任意のPDFページの向きを調整します。ファイルサイズ制限、ダウンロード、サインアップは必要ありません。",
     "pdf_tools__pdf_numbers_page__title": "PDFにページ番号を追加 - 迅速なオンラインナンバリングツール | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "オンラインでPDFファイルに簡単にページ番号を追加します。ソフトウェアは必要ありません。安全なブラウザ内処理です。ウォーターマーク、ファイルサイズ制限、ダウンロード、登録は不要です。"
+    "pdf_tools__pdf_numbers_page__description": "オンラインでPDFファイルに簡単にページ番号を追加します。ソフトウェアは必要ありません。安全なブラウザ内処理です。ウォーターマーク、ファイルサイズ制限、ダウンロード、登録は不要です。",
+    "features_landing__youtube_summary__title": "AI YouTubeの要約 | MaxAI.me",
+    "features_landing__youtube_summary__desc": "1クリックでYouTube動画を要約します。YouTube動画とチャットして、貴重な情報を数秒で得ることができます。",
+    "features_landing__chat_pdf__title": "任意のPDFとチャット | MaxAI.me",
+    "features_landing__chat_pdf__desc": "PDF、書籍、研究論文、マニュアル、エッセイ、法的契約書など、あらゆるPDFとチャットできます。質問をしたり、要約を取得したり、情報を見つけたりできます。",
+    "features_landing__translate__title": "無料オンラインAI翻訳 | MaxAI.me",
+    "features_landing__translate__desc": "GPT-4o、Claude 3、Gemini 1.5など、最高のAIモデルによるスマートなコンテキストに対応した複数言語翻訳です。",
+    "features_landing__vision__title": "AI画像解析 | MaxAI.me",
+    "features_landing__vision__desc": "任意の画像からテキストを抽出し、数学の問題を解いたり、質問をしたり、回答や洞察をAI画像ビジョンと分析で得ることができます。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "I-download ang iyong PDF na may mga numero ng pahina - iyon lang!",
     "home_page__hero_section__title__variant2__part1": "1-click AI sa lahat ng dako.",
     "home_page__hero_section__title__variant2__part2": "Gawin ang mas marami sa mas kaunting oras.",
-    "home_page__hero_section__desc__variant2": "I-save ang oras at makakuha ng mas magandang mga resulta gamit ang AI chat, rewriter, summarizer, at instant reply. Pinapagana ng GPT-4o, Claude 3, at Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "I-save ang oras at makakuha ng mas magandang mga resulta gamit ang AI chat, rewriter, summarizer, at instant reply. Pinapagana ng GPT-4o, Claude 3, at Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI instant reply",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI reading assistant"
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "I-rotate ang PDF - Madaling I-Rotate ang Mga Pahina sa Dokumentong PDF Online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Nang walang abala, i-rotate ang mga pahina sa loob ng iyong mga dokumento sa PDF online nang libre. I-adjust ang orientasyon ng anumang pahina sa PDF sa isang click lamang - walang limitasyon sa laki ng file, pag-download, o pag-sign up na kinakailangan.",
     "pdf_tools__pdf_numbers_page__title": "Magdagdag ng mga Numero ng Pahina sa PDF - Mabilis na Online na Tool sa Pagnumera | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Madaliang magdagdag ng mga numero ng pahina sa mga file ng PDF online. Walang kailangang software, ligtas na pagproseso sa browser. Walang watermark, limitasyon sa laki ng file, pag-download, o pag-sign up ang kinakailangan."
+    "pdf_tools__pdf_numbers_page__description": "Madaliang magdagdag ng mga numero ng pahina sa mga file ng PDF online. Walang kailangang software, ligtas na pagproseso sa browser. Walang watermark, limitasyon sa laki ng file, pag-download, o pag-sign up ang kinakailangan.",
+    "features_landing__youtube_summary__title": "Buod ng YouTube gamit ang AI | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Buodin ang anumang video sa YouTube sa isang click. Makipag-chat sa mga video sa YouTube at makakuha ng mahahalagang kaalaman sa loob ng ilang segundo.",
+    "features_landing__chat_pdf__title": "Makipag-chat sa anumang PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Makipag-chat sa anumang PDF, libro, research paper, manual, sanaysay, legal na kontrata. Magtanong, makakuha ng mga buod, humanap ng impormasyon, at iba pa.",
+    "features_landing__translate__title": "Libreng online na pagsasalin gamit ang AI | MaxAI.me",
+    "features_landing__translate__desc": "Matalinong pagsasalin na may kamalayan sa konteksto sa maraming wika, pinapagana ng pinakamahusay na mga modelo ng AI tulad ng GPT-4o, Claude 3, at Gemini 1.5.",
+    "features_landing__vision__title": "AI image analyzer | MaxAI.me",
+    "features_landing__vision__desc": "Kumuha ng teksto mula sa anumang larawan, malutas ang mga problema sa matematika, magtanong, makakuha ng mga sagot at kaalaman gamit ang AI image vision at analysis."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",

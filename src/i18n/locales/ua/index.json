@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Завантажте свій PDF з номерами сторінок - це все!",
     "home_page__hero_section__title__variant2__part1": "1-клік ШІ скрізь.",
     "home_page__hero_section__title__variant2__part2": "Робіть більше за менший час.",
-    "home_page__hero_section__desc__variant2": "Зекономте час та отримайте кращі результати з ШІ-чатом, переписувачем, резюматором та миттєвою відповіддю. Працює на основі GPT-4o, Claude 3 та Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Зекономте час та отримайте кращі результати з ШІ-чатом, переписувачем, резюматором та миттєвою відповіддю. Працює на основі GPT-4o, Claude 3 та Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Миттєва відповідь штучного інтелекту",
+    "home_page__features_carousel__feature_reader__label__full_name": "Штучний інтелект як читацький помічник"
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Повернути PDF - Легко повертайте сторінки у PDF-документах онлайн | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Без зусиль повертайте сторінки у своїх PDF-документах онлайн безкоштовно. Налаштуйте орієнтацію будь-якої сторінки PDF одним кліком - немає обмежень за розміром файлу, завантажень або реєстрації.",
     "pdf_tools__pdf_numbers_page__title": "Додати номери сторінок до PDF - Швидкий онлайн-інструмент нумерації | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Швидко додавайте номери сторінок до PDF-файлів онлайн. Не потрібне програмне забезпечення, безпечна обробка у веб-браузері. Без водяних знаків, обмежень на розмір файлу, завантажень або реєстрації."
+    "pdf_tools__pdf_numbers_page__description": "Швидко додавайте номери сторінок до PDF-файлів онлайн. Не потрібне програмне забезпечення, безпечна обробка у веб-браузері. Без водяних знаків, обмежень на розмір файлу, завантажень або реєстрації.",
+    "features_landing__youtube_summary__title": "AI підсумок YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Підсумуйте будь-яке відео на YouTube за 1 клік. Чатуйте з відео на YouTube та отримуйте цінні уявлення за секунди.",
+    "features_landing__chat_pdf__title": "Чатуйте з будь-яким PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Чатуйте з будь-яким PDF, книгами, науковими статтями, посібниками, есе, юридичними контрактами. Задавайте питання, отримуйте підсумки, знаходьте інформацію та багато іншого.",
+    "features_landing__translate__title": "Безкоштовний онлайн переклад AI | MaxAI.me",
+    "features_landing__translate__desc": "Розумний переклад з урахуванням контексту на кілька мов, працює на основі найкращих моделей штучного інтелекту, таких як GPT-4o, Claude 3 та Gemini 1.5.",
+    "features_landing__vision__title": "AI аналізатор зображень | MaxAI.me",
+    "features_landing__vision__desc": "Видобувайте текст з будь-якого зображення, вирішуйте математичні задачі, задавайте питання, отримуйте відповіді та уявлення за допомогою AI аналізу та аналізу зображень."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Вибрати все",

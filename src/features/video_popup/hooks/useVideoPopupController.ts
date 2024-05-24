@@ -5,23 +5,24 @@ import { VideoPopupAtom } from '../store';
 const useVideoPopupController = () => {
   const [videoPopupState, setVideoPopupState] = useRecoilState(VideoPopupAtom);
 
-  const openVideoPopup = (videoSrc: string) => {
+  const openVideoPopup = (videoSrc: string, autoplay = false) => {
     setVideoPopupState((preState) => ({
       ...preState,
       videoSrc: videoSrc,
       open: true,
+      autoplay,
     }));
   };
 
   const closeVideoPopup = () => {
-    setVideoPopupState((preState) => ({
-      ...preState,
+    setVideoPopupState({
       videoSrc: '',
       open: false,
-    }));
+    });
   };
 
   return {
+    popupState: videoPopupState,
     open: videoPopupState.open,
     videoSrc: videoPopupState.videoSrc,
     openVideoPopup,

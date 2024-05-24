@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "הורד את ה-PDF שלך עם מספרי העמודים - זהו!",
     "home_page__hero_section__title__variant2__part1": "AI בלחיצה אחת בכל מקום.",
     "home_page__hero_section__title__variant2__part2": "עשה יותר בפחות זמן.",
-    "home_page__hero_section__desc__variant2": "חסוך זמן וקבל תוצאות טובות יותר עם צ'אט AI, מחדד, סיכום ותשובה מיידית. מופעל על ידי GPT-4o, Claude 3 ו-Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "חסוך זמן וקבל תוצאות טובות יותר עם צ'אט AI, מחדד, סיכום ותשובה מיידית. מופעל על ידי GPT-4o, Claude 3 ו-Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "תשובה מיידית של AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "עוזר קריאה של AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים AI באיכות גבוהה",
@@ -920,7 +922,15 @@
     "pdf_tools__rotate_pdf__title": "הטיה של PDF - הטיה פשוטה של עמודים במסמכי PDF מקוונים | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "הטיה פשוטה של עמודים במסמכי PDF מקוונים בחינם. התאם את הכיוון של כל עמוד ב-PDF בלחיצה אחת - ללא הגבלות גודל קובץ, הורדות או הרשמות.",
     "pdf_tools__pdf_numbers_page__title": "הוסף מספרי עמודים ל-PDF - כלי מספור מהיר באינטרנט | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "הוסף מספרי עמודים לקבצי PDF במהירות באינטרנט. אין צורך בתוכנה, עיבוד בדפדפן בצורה מאובטחת. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות."
+    "pdf_tools__pdf_numbers_page__description": "הוסף מספרי עמודים לקבצי PDF במהירות באינטרנט. אין צורך בתוכנה, עיבוד בדפדפן בצורה מאובטחת. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "features_landing__youtube_summary__title": "סיכום יוטיוב באמצעות AI | MaxAI.me",
+    "features_landing__youtube_summary__desc": "סיכום כל סרטון ביוטיוב בלחיצה אחת. שוחח עם סרטוני יוטיוב וקבל תובנות יעילות בשניות.",
+    "features_landing__chat_pdf__title": "שוחח עם כל PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "שוחח עם כל PDF, ספרים, מאמרי מחקר, מדריכים, מסמכים משפטיים. שאל שאלות, קבל סיכומים, מצא מידע ועוד.",
+    "features_landing__translate__title": "תרגום AI מקוון חינמי | MaxAI.me",
+    "features_landing__translate__desc": "תרגומים חכמים ומותאמים להקשר במגוון שפות, מופעלים על ידי המודלים הכי טובים של AI כמו GPT-4o, Claude 3 ו-Gemini 1.5.",
+    "features_landing__vision__title": "ניתוח תמונות AI | MaxAI.me",
+    "features_landing__vision__desc": "חלץ טקסט מכל תמונה, פתור בעיות מתמטיות, שאל שאלות, קבל תשובות ותובנות עם ראיית תמונה וניתוח AI."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",

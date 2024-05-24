@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "قم بتنزيل ملف PDF الخاص بك مع أرقام الصفحات - هذا كل شيء!",
     "home_page__hero_section__title__variant2__part1": "ذكاء اصطناعي بنقرة واحدة في كل مكان.",
     "home_page__hero_section__title__variant2__part2": "افعل المزيد في وقت أقل.",
-    "home_page__hero_section__desc__variant2": "وفّر الوقت واحصل على نتائج أفضل مع دردشة الذكاء الاصطناعي، وأداة إعادة الكتابة، وملخص النصوص، والرد الفوري. يعمل بواسطة GPT-4o، Claude 3، وGemini 1.5."
+    "home_page__hero_section__desc__variant2": "وفّر الوقت واحصل على نتائج أفضل مع دردشة الذكاء الاصطناعي، وأداة إعادة الكتابة، وملخص النصوص، والرد الفوري. يعمل بواسطة GPT-4o، Claude 3، وGemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "رد فوري بواسطة الذكاء الاصطناعي",
+    "home_page__features_carousel__feature_reader__label__full_name": "مساعد قراءة الذكاء الاصطناعي"
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "تدوير ملف PDF - قم بتدوير صفحات مستندات PDF عبر الإنترنت بسهولة | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "قم بتدوير صفحات مستندات PDF الخاصة بك بسهولة عبر الإنترنت مجانًا. قم بضبط توجيه أي صفحة PDF بنقرة واحدة فقط - لا حدود لحجم الملف، ولا حاجة للتنزيل أو التسجيل.",
     "pdf_tools__pdf_numbers_page__title": "إضافة أرقام الصفحات إلى ملف PDF - أداة ترقيم سريعة عبر الإنترنت | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "أضف بسرعة أرقام الصفحات إلى ملفات PDF عبر الإنترنت. لا حاجة لبرامج، معالجة آمنة في المتصفح. لا علامات مائية، ولا حدود لحجم الملف، ولا تحميلات، ولا تسجيل الدخول المطلوب."
+    "pdf_tools__pdf_numbers_page__description": "أضف بسرعة أرقام الصفحات إلى ملفات PDF عبر الإنترنت. لا حاجة لبرامج، معالجة آمنة في المتصفح. لا علامات مائية، ولا حدود لحجم الملف، ولا تحميلات، ولا تسجيل الدخول المطلوب.",
+    "features_landing__youtube_summary__title": "ملخص يوتيوب الذكاء الاصطناعي | MaxAI.me",
+    "features_landing__youtube_summary__desc": "قم بتلخيص أي فيديو على يوتيوب بنقرة واحدة. تحدث مع مقاطع الفيديو على يوتيوب واحصل على رؤى قيمة في ثوانٍ.",
+    "features_landing__chat_pdf__title": "تحدث مع أي ملف PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "تحدث مع أي ملف PDF، كتب، أوراق بحثية، دليل المستخدم، مقالات، عقود قانونية. اسأل الأسئلة، احصل على ملخصات، ابحث عن معلومات، وأكثر من ذلك.",
+    "features_landing__translate__title": "ترجمة ذكية عبر الإنترنت مجانًا | MaxAI.me",
+    "features_landing__translate__desc": "ترجمة ذكية متعددة اللغات تأخذ السياق بعين الاعتبار، مدعومة بأفضل نماذج الذكاء الاصطناعي مثل GPT-4o و Claude 3 و Gemini 1.5.",
+    "features_landing__vision__title": "محلل صور الذكاء الاصطناعي | MaxAI.me",
+    "features_landing__vision__desc": "استخرج النص من أي صورة، حل المسائل الرياضية، اسأل الأسئلة، احصل على إجابات ورؤى باستخدام تحليل ورؤية الصور بواسطة الذكاء الاصطناعي."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",

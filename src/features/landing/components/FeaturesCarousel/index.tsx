@@ -30,64 +30,24 @@ export type IFeaturesCarouselItemKey =
   | 'Search'
   | 'Art'
   | 'Translator';
-
-export interface IFeaturesCarouselItem {
-  value: IFeaturesCarouselItemKey;
-  icon: string;
-  label: string;
-}
-
-export const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItem[] = [
-  {
-    value: 'Chat',
-    icon: 'chat',
-    label: 'pages:home_page__features_carousel__feature_chat__label',
-  },
-  {
-    value: 'Rewriter',
-    icon: 'rewriter',
-    label: 'pages:home_page__features_carousel__feature_rewriter__label',
-  },
-  {
-    value: 'Summary',
-    icon: 'summary',
-    label: 'pages:home_page__features_carousel__feature_summary__label',
-  },
-  {
-    value: 'Reply',
-    icon: 'reply',
-    label: 'pages:home_page__features_carousel__feature_reply__label',
-  },
-  {
-    value: 'Reader',
-    icon: 'reader',
-    label: 'pages:home_page__features_carousel__feature_reader__label',
-  },
-  {
-    value: 'Prompts',
-    icon: 'prompts',
-    label: 'pages:home_page__features_carousel__feature_prompts__label',
-  },
-  {
-    value: 'Search',
-    icon: 'search',
-    label: 'pages:home_page__features_carousel__feature_search__label',
-  },
-  {
-    value: 'Art',
-    icon: 'art',
-    label: 'pages:home_page__features_carousel__feature_art__label',
-  },
-  {
-    value: 'Translator',
-    icon: 'translator',
-    label: 'pages:home_page__features_carousel__feature_translator__label',
-  },
+export const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItemKey[] = [
+  'Chat',
+  'Rewriter',
+  'Summary',
+  'Reply',
+  'Reader',
+  'Prompts',
+  'Search',
+  'Art',
+  'Translator',
 ];
 
 export const FEATURES_CONTENT_DATA_MAP: Record<
   IFeaturesCarouselItemKey,
   {
+    icon: string;
+    label: string;
+    fullName: string;
     title: string;
     imageUrl: string;
     descriptionLabel?: string;
@@ -95,6 +55,9 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
   }
 > = {
   Chat: {
+    icon: 'chat',
+    label: 'pages:home_page__features_carousel__feature_chat__label',
+    fullName: 'pages:home_page__features_carousel__feature_chat__label',
     title: 'pages:home_page__features_carousel__feature_chat__title',
     imageUrl: '/assets/landing/feature-carousel/chat.png',
     descriptionLabel:
@@ -107,6 +70,9 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
     ],
   },
   Rewriter: {
+    icon: 'rewriter',
+    label: 'pages:home_page__features_carousel__feature_rewriter__label',
+    fullName: 'pages:home_page__features_carousel__feature_rewriter__label',
     title: 'pages:home_page__features_carousel__feature_rewriter__title',
     imageUrl: '/assets/landing/feature-carousel/rewriter.png',
     descriptionList: [
@@ -119,6 +85,11 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
   },
 
   Reply: {
+    icon: 'reply',
+    label: 'pages:home_page__features_carousel__feature_reply__label',
+    fullName:
+      'pages:home_page__features_carousel__feature_reply__label__full_name',
+
     title: 'pages:home_page__features_carousel__feature_reply__title',
     imageUrl: '/assets/landing/feature-carousel/reply.png',
     descriptionLabel:
@@ -131,6 +102,9 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
     ],
   },
   Summary: {
+    icon: 'summary',
+    label: 'pages:home_page__features_carousel__feature_summary__label',
+    fullName: 'pages:home_page__features_carousel__feature_summary__label',
     title: 'pages:home_page__features_carousel__feature_summary__title',
     imageUrl: '/assets/landing/feature-carousel/summary.png',
     descriptionLabel:
@@ -143,6 +117,10 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
     ],
   },
   Search: {
+    icon: 'search',
+    label: 'pages:home_page__features_carousel__feature_search__label',
+    fullName: 'pages:home_page__features_carousel__feature_search__label',
+
     title: 'pages:home_page__features_carousel__feature_search__title',
     imageUrl: '/assets/landing/feature-carousel/search.png',
     descriptionList: [
@@ -153,6 +131,9 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
     ],
   },
   Art: {
+    icon: 'art',
+    label: 'pages:home_page__features_carousel__feature_art__label',
+    fullName: 'pages:home_page__features_carousel__feature_art__label',
     title: 'pages:home_page__features_carousel__feature_art__title',
     imageUrl: '/assets/landing/feature-carousel/art.png',
     descriptionList: [
@@ -163,6 +144,10 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
     ],
   },
   Translator: {
+    icon: 'translator',
+    label: 'pages:home_page__features_carousel__feature_translator__label',
+    fullName: 'pages:home_page__features_carousel__feature_translator__label',
+
     title: 'pages:home_page__features_carousel__feature_translator__title',
     imageUrl: '/assets/landing/feature-carousel/translator.png',
     descriptionList: [
@@ -173,6 +158,11 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
     ],
   },
   Reader: {
+    icon: 'reader',
+    label: 'pages:home_page__features_carousel__feature_reader__label',
+    fullName:
+      'pages:home_page__features_carousel__feature_reader__label__full_name',
+
     title: 'pages:home_page__features_carousel__feature_reader__title',
     imageUrl: '/assets/landing/feature-carousel/reader.png',
     descriptionList: [
@@ -183,6 +173,10 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
     ],
   },
   Prompts: {
+    icon: 'prompts',
+    label: 'pages:home_page__features_carousel__feature_prompts__label',
+    fullName: 'pages:home_page__features_carousel__feature_prompts__label',
+
     title: 'pages:home_page__features_carousel__feature_prompts__title',
     imageUrl: '/assets/landing/feature-carousel/prompts.png',
     descriptionList: [
@@ -209,7 +203,7 @@ const FeaturesCarousel = () => {
   const featuresSelectorScrollContainerRef = React.useRef<HTMLDivElement>(null);
 
   const [activeFeature, setActiveFeature] =
-    React.useState<IFeaturesCarouselItemKey>(FEATURES_CAROUSEL_LIST[0].value);
+    React.useState<IFeaturesCarouselItemKey>(FEATURES_CAROUSEL_LIST[0]);
 
   const scrollToView = (value: IFeaturesCarouselItemKey) => {
     const container = featuresSelectorScrollContainerRef.current;
@@ -296,11 +290,11 @@ const FeaturesCarousel = () => {
       }
 
       const currentIndex = FEATURES_CAROUSEL_LIST.findIndex(
-        (featureCarouselItem) => featureCarouselItem.value === activeFeature,
+        (featureCarouselItem) => featureCarouselItem === activeFeature,
       );
       const nextIndex = (currentIndex + 1) % FEATURES_CAROUSEL_LIST.length;
-      setActiveFeature(FEATURES_CAROUSEL_LIST[nextIndex].value);
-      scrollToView(FEATURES_CAROUSEL_LIST[nextIndex].value);
+      setActiveFeature(FEATURES_CAROUSEL_LIST[nextIndex]);
+      scrollToView(FEATURES_CAROUSEL_LIST[nextIndex]);
     }, 3500);
 
     return () => {
@@ -352,8 +346,8 @@ const FeaturesCarousel = () => {
           containerRef={featuresSelectorScrollContainerRef}
           onClick={(targetItem) => {
             // if (isDownSm) {
-            setActiveFeature(targetItem.value);
-            scrollToView(targetItem.value);
+            setActiveFeature(targetItem);
+            scrollToView(targetItem);
             // }
           }}
         />

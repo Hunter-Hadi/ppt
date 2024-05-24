@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download uw PDF met paginanummers - dat is alles!",
     "home_page__hero_section__title__variant2__part1": "1-klik AI overal.",
     "home_page__hero_section__title__variant2__part2": "Doe meer in minder tijd.",
-    "home_page__hero_section__desc__variant2": "Bespaar tijd en krijg betere resultaten met AI-chat, herschrijver, samenvatter en direct antwoord. Aangedreven door GPT-4o, Claude 3 en Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Bespaar tijd en krijg betere resultaten met AI-chat, herschrijver, samenvatter en direct antwoord. Aangedreven door GPT-4o, Claude 3 en Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI direct antwoord",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI leesassistent"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "PDF roteren - Pagina's in PDF-documenten eenvoudig roteren | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Draai moeiteloos pagina's binnen uw PDF-documenten online en gratis. Pas de oriëntatie van elke PDF-pagina aan met slechts één klik - geen bestandsgroottebeperkingen, downloads of aanmeldingen nodig.",
     "pdf_tools__pdf_numbers_page__title": "Paginanummers toevoegen aan PDF - Snelle online nummeringstool | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Voeg snel paginanummers toe aan PDF-bestanden online. Geen software nodig, veilige verwerking in de browser. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist."
+    "pdf_tools__pdf_numbers_page__description": "Voeg snel paginanummers toe aan PDF-bestanden online. Geen software nodig, veilige verwerking in de browser. Geen watermerken, bestandsgroottebeperkingen, downloads of aanmeldingen vereist.",
+    "features_landing__youtube_summary__title": "AI YouTube samenvatting | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Maak een samenvatting van elke YouTube-video met 1 klik. Chat met YouTube-video's en krijg waardevolle inzichten binnen enkele seconden.",
+    "features_landing__chat_pdf__title": "Chat met elk PDF-bestand | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chat met elk PDF-bestand, boeken, onderzoeksartikelen, handleidingen, essays, juridische contracten. Stel vragen, krijg samenvattingen, vind informatie en meer.",
+    "features_landing__translate__title": "Gratis online AI-vertaling | MaxAI.me",
+    "features_landing__translate__desc": "Slimme contextbewuste vertalingen in meerdere talen, aangedreven door de beste AI-modellen zoals GPT-4o, Claude 3 en Gemini 1.5.",
+    "features_landing__vision__title": "AI-beeldanalysator | MaxAI.me",
+    "features_landing__vision__desc": "Tekst extraheren uit elk beeld, wiskundige problemen oplossen, vragen stellen, antwoorden en inzichten krijgen met AI-beeldvisie en -analyse."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Scarica il tuo PDF con i numeri di pagina, tutto qui!",
     "home_page__hero_section__title__variant2__part1": "AI ovunque con un clic.",
     "home_page__hero_section__title__variant2__part2": "Fai di più in meno tempo.",
-    "home_page__hero_section__desc__variant2": "Risparmia tempo e ottieni risultati migliori con la chat AI, il riscrittore, il riassuntore e la risposta istantanea. Potenziato da GPT-4o, Claude 3 e Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Risparmia tempo e ottieni risultati migliori con la chat AI, il riscrittore, il riassuntore e la risposta istantanea. Potenziato da GPT-4o, Claude 3 e Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Risposta istantanea AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistente di lettura AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Libreria di prompt AI di alta qualità",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Ruota PDF - Ruota facilmente le pagine nei documenti PDF online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Ruota senza sforzo le pagine all'interno dei tuoi documenti PDF online gratuitamente. Regola l'orientamento di qualsiasi pagina PDF con un solo clic, senza limiti di dimensione del file, download o registrazione necessari.",
     "pdf_tools__pdf_numbers_page__title": "Aggiungi numeri di pagina al PDF - Strumento di numerazione online veloce | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Aggiungi rapidamente numeri di pagina ai file PDF online. Nessun software necessario, elaborazione sicura nel browser. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta."
+    "pdf_tools__pdf_numbers_page__description": "Aggiungi rapidamente numeri di pagina ai file PDF online. Nessun software necessario, elaborazione sicura nel browser. Nessun watermark, limiti di dimensione del file, download o registrazione richiesta.",
+    "features_landing__youtube_summary__title": "Riassunto AI di YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Sintetizza qualsiasi video di YouTube con un clic. Chatta con i video di YouTube e ottieni preziose informazioni in pochi secondi.",
+    "features_landing__chat_pdf__title": "Chatta con qualsiasi PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chatta con qualsiasi PDF, libri, articoli di ricerca, manuali, saggi, contratti legali. Fai domande, ottieni riassunti, trova informazioni e altro ancora.",
+    "features_landing__translate__title": "Traduzione online gratuita con IA | MaxAI.me",
+    "features_landing__translate__desc": "Traduzioni intelligenti consapevoli del contesto in più lingue, alimentate dai migliori modelli di IA come GPT-4o, Claude 3 e Gemini 1.5.",
+    "features_landing__vision__title": "Analizzatore di immagini AI | MaxAI.me",
+    "features_landing__vision__desc": "Estrai testo da qualsiasi immagine, risolvi problemi matematici, fai domande, ottieni risposte e informazioni con l'analisi delle immagini e la visione dell'IA."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",

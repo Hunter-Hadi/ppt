@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Atsisiųskite savo PDF su puslapių numeriais - tai viskas!",
     "home_page__hero_section__title__variant2__part1": "Vieno paspaudimo dirbtinio intelekto sprendimai visur.",
     "home_page__hero_section__title__variant2__part2": "Darykite daugiau mažiau laiko.",
-    "home_page__hero_section__desc__variant2": "Sutaupykite laiko ir gaukite geriausius rezultatus naudodami dirbtinio intelekto pokalbių, peržiūros, santraukos ir momentinės atsakymo funkcijas. Veikia su GPT-4o, Claude 3 ir Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Sutaupykite laiko ir gaukite geriausius rezultatus naudodami dirbtinio intelekto pokalbių, peržiūros, santraukos ir momentinės atsakymo funkcijas. Veikia su GPT-4o, Claude 3 ir Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI greitas atsakymas",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI skaitymo asistentas"
   },
   "prompt_library": {
     "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Pasukti PDF - Paprastai pasukite puslapius PDF dokumentuose internete | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Nemokamai ir be pastangų pasukite puslapius savo PDF dokumentuose internete. Reguliuokite bet kurio PDF puslapio orientaciją vienu paspaudimu - nereikia failo dydžio apribojimų, atsisiuntimų ar registracijos.",
     "pdf_tools__pdf_numbers_page__title": "Pridėkite puslapių numerius prie PDF – Greitas internetinis numeravimo įrankis | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Greitai pridėkite puslapių numerius prie PDF failų internetu. Nereikia jokio programinės įrangos, saugus naršyklėje vykdomas procesas. Nėra vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar prisijungimų reikalaujama."
+    "pdf_tools__pdf_numbers_page__description": "Greitai pridėkite puslapių numerius prie PDF failų internetu. Nereikia jokio programinės įrangos, saugus naršyklėje vykdomas procesas. Nėra vandens ženklų, failo dydžio apribojimų, atsisiuntimų ar prisijungimų reikalaujama.",
+    "features_landing__youtube_summary__title": "AI YouTube santrauka | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Santraukos bet kuriam YouTube vaizdo įrašui vienu paspaudimu. Bendraukite su YouTube vaizdais ir gaukite vertingų įžvalgų per sekundes.",
+    "features_landing__chat_pdf__title": "Pokalbis su bet kuriuo PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Pokalbis su bet kuriuo PDF, knygomis, moksliniais straipsniais, vadovėliais, esė, teisiniais kontraktais. Užduokite klausimus, gaukite santraukas, raskite informaciją ir daugiau.",
+    "features_landing__translate__title": "Nemokamas internetinis AI vertimas | MaxAI.me",
+    "features_landing__translate__desc": "Protingi konteksto sąmoningi vertimai įvairiomis kalbomis, veikiami geriausių AI modelių, tokiais kaip GPT-4o, Claude 3 ir Gemini 1.5.",
+    "features_landing__vision__title": "AI paveikslėlio analizatorius | MaxAI.me",
+    "features_landing__vision__desc": "Ištraukite tekstą iš bet kurio paveikslėlio, išspręskite matematikos uždavinius, užduokite klausimus, gaukite atsakymus ir įžvalgas su AI paveikslėlio vizija ir analize."
   },
   "features_landing": {
     "cta_text": "Pridėti prie naršyklės",

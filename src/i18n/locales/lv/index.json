@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Lejupielādējiet savu PDF ar lapu numuriem - tas ir viss!",
     "home_page__hero_section__title__variant2__part1": "1-klikšķis AI visur.",
     "home_page__hero_section__title__variant2__part2": "Dariet vairāk mazāk laikā.",
-    "home_page__hero_section__desc__variant2": "Ietaupiet laiku un iegūstiet labākus rezultātus ar AI čatu, pārrakstītāju, kopsavilkumu un nekavējoties atbildēm. Darbina GPT-4o, Claude 3 un Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Ietaupiet laiku un iegūstiet labākus rezultātus ar AI čatu, pārrakstītāju, kopsavilkumu un nekavējoties atbildēm. Darbina GPT-4o, Claude 3 un Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI tūlītējā atbilde",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI lasīšanas asistents"
   },
   "prompt_library": {
     "use_prompt_library__title": "Augstas kvalitātes AI pamatbibliotēka",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Pagriezt PDF - Viegli pagriezt lapas PDF dokumentos tiešsaistē | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Viegli pagriezt lapas savos PDF dokumentos tiešsaistē bez maksas. Pielāgojiet jebkuras PDF lapas orientāciju ar vienu klikšķi - nav faila izmēra ierobežojumu, lejupielādēm vai reģistrācijas nepieciešamības.",
     "pdf_tools__pdf_numbers_page__title": "Pievienojiet lapu numurus PDF – ātrs tiešsaistes numerācijas rīks | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Ātri pievienojiet lapu numurus PDF failiem tiešsaistē. Nav nepieciešama programmatūra, droša pārlūkprogrammas apstrāde. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību."
+    "pdf_tools__pdf_numbers_page__description": "Ātri pievienojiet lapu numurus PDF failiem tiešsaistē. Nav nepieciešama programmatūra, droša pārlūkprogrammas apstrāde. Nav ūdenszīmju, faila izmēra ierobežojumu, lejupielāžu vai reģistrācijas prasību.",
+    "features_landing__youtube_summary__title": "AI YouTube kopsavilkums | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Kopsavilkot jebkuru YouTube video ar 1 klikšķi. Sarunājieties ar YouTube video un iegūstiet vērtīgus atziņas sekundēs.",
+    "features_landing__chat_pdf__title": "Sarunājieties ar jebkuru PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Sarunājieties ar jebkuru PDF, grāmatām, pētījumu rakstiem, rokasgrāmatām, eseju, juridiskajiem līgumiem. Uzdodiet jautājumus, saņemiet kopsavilkumus, atrastiet informāciju un citu.",
+    "features_landing__translate__title": "Bezmaksas tiešsaistes AI tulkojums | MaxAI.me",
+    "features_landing__translate__desc": "Viedie konteksta apzinātie tulkojumi vairākās valodās, kas darbojas ar labākajiem AI modeļiem, piemēram, GPT-4o, Claude 3 un Gemini 1.5.",
+    "features_landing__vision__title": "AI attēlu analizētājs | MaxAI.me",
+    "features_landing__vision__desc": "Izguļ tekstu no jebkura attēla, atrisiniet matemātikas uzdevumus, uzdodiet jautājumus, saņemiet atbildes un atziņas ar AI attēlu redzējumu un analīzi."
   },
   "features_landing": {
     "cta_text": "Pievienot pārlūkam",

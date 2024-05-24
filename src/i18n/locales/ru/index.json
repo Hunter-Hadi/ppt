@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Скачайте свой PDF с номерами страниц - вот и все!",
     "home_page__hero_section__title__variant2__part1": "Искусственный интеллект всего в один клик.",
     "home_page__hero_section__title__variant2__part2": "Делайте больше за меньшее время.",
-    "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Мгновенный ответ ИИ",
+    "home_page__features_carousel__feature_reader__label__full_name": "Помощник для чтения ИИ"
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Повернуть PDF - Легко поворачивайте страницы в документах PDF онлайн | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Без труда поворачивайте страницы в ваших документах PDF онлайн бесплатно. Настройте ориентацию любой страницы PDF одним щелчком - без ограничений по размеру файла, загрузок или регистрации.",
     "pdf_tools__pdf_numbers_page__title": "Добавить номера страниц в PDF - Быстрый онлайн-инструмент для нумерации | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Быстро добавляйте номера страниц к файлам PDF онлайн. Не требуется установка программного обеспечения, безопасная обработка в браузере. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации."
+    "pdf_tools__pdf_numbers_page__description": "Быстро добавляйте номера страниц к файлам PDF онлайн. Не требуется установка программного обеспечения, безопасная обработка в браузере. Нет водяных знаков, ограничений на размер файла, загрузок или регистрации.",
+    "features_landing__youtube_summary__title": "AI резюме YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Суммируйте любое видео на YouTube одним нажатием. Общайтесь с видео на YouTube и получайте ценные идеи за секунды.",
+    "features_landing__chat_pdf__title": "Общайтесь с любым PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Общайтесь с любым PDF, книгами, научными статьями, инструкциями, эссе, юридическими договорами. Задавайте вопросы, получайте резюме, находите информацию и многое другое.",
+    "features_landing__translate__title": "Бесплатный онлайн-перевод с помощью ИИ | MaxAI.me",
+    "features_landing__translate__desc": "Умные контекстно-ориентированные переводы на нескольких языках, основанные на лучших моделях ИИ, таких как GPT-4o, Claude 3 и Gemini 1.5.",
+    "features_landing__vision__title": "Анализатор изображений с помощью ИИ | MaxAI.me",
+    "features_landing__vision__desc": "Извлекайте текст с любого изображения, решайте математические задачи, задавайте вопросы, получайте ответы и идеи с помощью анализа изображений с использованием ИИ."
   },
   "features_landing": {
     "cta_text": "Добавить в браузер",

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Pakua PDF yako yenye nambari za kurasa - hiyo ndiyo yote!",
     "home_page__hero_section__title__variant2__part1": "AI ya bonyeza 1 kila mahali.",
     "home_page__hero_section__title__variant2__part2": "Fanya zaidi kwa muda mfupi.",
-    "home_page__hero_section__desc__variant2": "Hifadhi muda na pata matokeo bora na AI chat, rewriter, summarizer, na jibu papo hapo. Inayo nguvu na GPT-4o, Claude 3, na Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Hifadhi muda na pata matokeo bora na AI chat, rewriter, summarizer, na jibu papo hapo. Inayo nguvu na GPT-4o, Claude 3, na Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Jibu la haraka la AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "Msaidizi wa kusoma wa AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Maktaba ya maelekezo ya AI ya ubora wa juu",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Geuza PDF - Geuza Kurasa kwa urahisi katika Hati za PDF Mtandaoni | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Geuza kurasa ndani ya hati zako za PDF mtandaoni kwa urahisi bila malipo. Badilisha mwelekeo wa kurasa yoyote ya PDF kwa bonyeza moja tu - hakuna ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
     "pdf_tools__pdf_numbers_page__title": "Ongeza Nambari za Kurasa kwenye PDF - Zana ya Haraka ya Kuhesabu Mtandaoni | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Haraka ongeza nambari za kurasa kwenye faili za PDF mtandaoni. Hakuna programu inayohitajika, usindikaji salama kwenye kivinjari. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika."
+    "pdf_tools__pdf_numbers_page__description": "Haraka ongeza nambari za kurasa kwenye faili za PDF mtandaoni. Hakuna programu inayohitajika, usindikaji salama kwenye kivinjari. Hakuna alama za maji, ukomo wa ukubwa wa faili, kupakua, au usajili unaohitajika.",
+    "features_landing__youtube_summary__title": "Muhtasari wa YouTube wa AI | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Fanya muhtasari wa video yoyote ya YouTube kwa kubofya 1. Chat na video za YouTube na upate ufahamu muhimu ndani ya sekunde.",
+    "features_landing__chat_pdf__title": "Chat na PDF yoyote | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chat na PDF yoyote, vitabu, nyaraka za utafiti, miongozo, insha, mikataba ya kisheria. Uliza maswali, pata muhtasari, tafuta habari, na zaidi.",
+    "features_landing__translate__title": "Tafsiri ya bure ya AI mtandaoni | MaxAI.me",
+    "features_landing__translate__desc": "Tafsiri zenye ufahamu wa muktadha katika lugha nyingi, zinazotumiwa na mifano bora ya AI kama GPT-4o, Claude 3, na Gemini 1.5.",
+    "features_landing__vision__title": "Mchanganuzi wa picha wa AI | MaxAI.me",
+    "features_landing__vision__desc": "Chukua maandishi kutoka kwenye picha yoyote, tatua matatizo ya hesabu, uliza maswali, pata majibu na ufahamu na uchambuzi wa picha za AI."
   },
   "features_landing": {
     "cta_text": "Ongeza kwenye Kivinjari",

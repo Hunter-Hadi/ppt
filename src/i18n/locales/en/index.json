@@ -108,6 +108,7 @@
     "home_page__features_carousel__feature_rewriter__description5": "Paraphrase, make shorter/longer",
 
     "home_page__features_carousel__feature_reply__label": "AI reply",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI instant reply",
     "home_page__features_carousel__feature_reply__title": "Accelerate your email & social media responses & drafts by 10X in 1 click.",
     "home_page__features_carousel__feature_reply__description_label": "1-click reply & draft on:",
     "home_page__features_carousel__feature_reply__description1": "Gmail, Outlook",
@@ -145,6 +146,7 @@
     "home_page__features_carousel__feature_translator__description4": "Translate with 400% better quality, just like a human would",
 
     "home_page__features_carousel__feature_reader__label": "AI reader",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI reading assistant",
     "home_page__features_carousel__feature_reader__title": "Make complex information easy to understand, just like an expert.",
     "home_page__features_carousel__feature_reader__description1": "Explain any word, term, or paragraph ",
     "home_page__features_carousel__feature_reader__description2": "Summarize any text",
@@ -1170,6 +1172,15 @@
 
     "features_landing__ai_vision__title": "AI Vision | MaxAI.me",
     "features_landing__ai_vision__description": "Understand and analyze any image with the most advanced AI vision models.",
+
+    "features_landing__youtube_summary__title": "AI YouTube summary | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Summarize any YouTube video with 1-click. Chat with YouTube videos and gain valuable insights in seconds.",
+    "features_landing__chat_pdf__title": "Chat with any PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chat with any PDF, books, research papers, manuals, essays, legal contracts. Ask questions, get summaries, find information, and more.",
+    "features_landing__translate__title": "Free online AI translation | MaxAI.me",
+    "features_landing__translate__desc": "Smart context-aware translations in multiple languages, powered by the best AI models like GPT-4o, Claude 3, and Gemini 1.5.",
+    "features_landing__vision__title": "AI image analyzer | MaxAI.me",
+    "features_landing__vision__desc": "Extract text from any image, solve math problems, ask questions, get answers and insights with AI image vision and analysis.",
 
     "pdf_tools__title": "Free Online PDF Tools – Convert, Compress, Edit | MaxAI.me",
     "pdf_tools__description": "Explore our collection of tools to help you convert, compress, edit, and sign PDFs online for free.",

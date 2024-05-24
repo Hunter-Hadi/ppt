@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Muat turun PDF anda dengan nombor halaman - itu sahaja!",
     "home_page__hero_section__title__variant2__part1": "AI dengan hanya 1 klik di mana-mana.",
     "home_page__hero_section__title__variant2__part2": "Lakukan lebih banyak dalam masa yang lebih singkat.",
-    "home_page__hero_section__desc__variant2": "Jimat masa dan dapatkan hasil yang lebih baik dengan perbualan AI, penulis semula, ringkasan, dan balasan segera. Dikuasakan oleh GPT-4o, Claude 3, dan Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Jimat masa dan dapatkan hasil yang lebih baik dengan perbualan AI, penulis semula, ringkasan, dan balasan segera. Dikuasakan oleh GPT-4o, Claude 3, dan Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Balasan segera AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "Pembantu membaca AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Putar PDF - Mudah Memutar Halaman dalam Dokumen PDF Online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Secara mudah memutar halaman dalam dokumen PDF Anda secara online secara gratis. Sesuaikan orientasi halaman PDF apa pun hanya dengan satu klik - tanpa batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__pdf_numbers_page__title": "Tambah Nombor Halaman ke PDF - Alat Penomboran Dalam Talian Pantas | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Tambah dengan cepat nombor halaman ke fail PDF dalam talian. Tiada perisian diperlukan, pemprosesan di dalam pelayar yang selamat. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan."
+    "pdf_tools__pdf_numbers_page__description": "Tambah dengan cepat nombor halaman ke fail PDF dalam talian. Tiada perisian diperlukan, pemprosesan di dalam pelayar yang selamat. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "features_landing__youtube_summary__title": "Ringkasan YouTube AI | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Ringkaskan video YouTube dengan 1 klik. Berbual dengan video YouTube dan dapatkan pandangan berharga dalam beberapa saat.",
+    "features_landing__chat_pdf__title": "Berbual dengan PDF apa pun | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Berbual dengan PDF, buku, kertas penyelidikan, manual, esei, kontrak undang-undang. Tanyakan soalan, dapatkan ringkasan, cari maklumat, dan banyak lagi.",
+    "features_landing__translate__title": "Terjemahan AI dalam talian percuma | MaxAI.me",
+    "features_landing__translate__desc": "Terjemahan pintar yang peka konteks dalam pelbagai bahasa, dikuasakan oleh model AI terbaik seperti GPT-4o, Claude 3, dan Gemini 1.5.",
+    "features_landing__vision__title": "Penganalisis imej AI | MaxAI.me",
+    "features_landing__vision__desc": "Ekstrak teks dari mana-mana imej, selesaikan masalah matematik, tanyakan soalan, dapatkan jawapan dan pandangan dengan penglihatan dan analisis imej AI."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "پی ڈی ایف کو صفحات کے ساتھ ڈاؤن لوڈ کریں - یہی ہے!",
     "home_page__hero_section__title__variant2__part1": "۱-کلکشن AI ہر جگہ.",
     "home_page__hero_section__title__variant2__part2": "کم وقت میں زیادہ کام کریں.",
-    "home_page__hero_section__desc__variant2": "AI چیٹ، ری رائٹر، سمارائزر اور فوری جواب کے ساتھ وقت بچاؤ اور بہتر نتائج حاصل کریں. GPT-4o، Claude 3 اور Gemini 1.5 کی طاقت سے محرک."
+    "home_page__hero_section__desc__variant2": "AI چیٹ، ری رائٹر، سمارائزر اور فوری جواب کے ساتھ وقت بچاؤ اور بہتر نتائج حاصل کریں. GPT-4o، Claude 3 اور Gemini 1.5 کی طاقت سے محرک.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI فوری جواب",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI پڑھنے والا معاون"
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "PDF گھمائیں - آسانی سے PDF دستاویزات میں صفحات گھمائیں آن لائن | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "بلا محنت آن لائن پی ڈی ایف دستاویزات میں صفحات کو آسانی سے گھمائیں۔ کسی بھی پی ڈی ایف صفحے کی رخ کو صرف ایک کلک کے ساتھ ترتیب دیں - کوئی فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
     "pdf_tools__pdf_numbers_page__title": "پی دی ایف میں صفحہ نمبر شامل کریں - تیز آن لائن نمبرنگ ٹول | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "پی دی ایف فائلوں میں جلدی سے صفحہ نمبر شامل کریں۔ کوئی سافٹ ویئر کی ضرورت نہیں ہے، براؤزر میں محفوظ پروسیسنگ۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔"
+    "pdf_tools__pdf_numbers_page__description": "پی دی ایف فائلوں میں جلدی سے صفحہ نمبر شامل کریں۔ کوئی سافٹ ویئر کی ضرورت نہیں ہے، براؤزر میں محفوظ پروسیسنگ۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈز یا سائن اپس کی ضرورت نہیں ہے۔",
+    "features_landing__youtube_summary__title": "AI یوٹیوب خلاصہ | MaxAI.me",
+    "features_landing__youtube_summary__desc": "1 کلک کے ساتھ کسی بھی یوٹیوب ویڈیو کا خلاصہ بنائیں۔ یوٹیوب ویڈیوز کے ساتھ چیٹ کریں اور کچھ سیکنڈ میں قیمتی نظریات حاصل کریں۔",
+    "features_landing__chat_pdf__title": "کسی بھی پی ڈی ایف کے ساتھ چیٹ کریں | MaxAI.me",
+    "features_landing__chat_pdf__desc": "کسی بھی پی ڈی ایف، کتابوں، تحقیقی مضامین، مینوآلز، مقدماتی عقود کے ساتھ چیٹ کریں۔ سوالات پوچھیں، خلاصے حاصل کریں، معلومات تلاش کریں، اور مزید کچھ۔",
+    "features_landing__translate__title": "مفت آن لائن AI ترجمہ | MaxAI.me",
+    "features_landing__translate__desc": "بہترین AI ماڈلز جیسے GPT-4o، Claude 3، اور Gemini 1.5 کی طاقتور سیاق و سباق پر مبنی متعدد زبانوں میں ہوشیار سیاق و سباق تراجمہ۔",
+    "features_landing__vision__title": "AI تصویری تجزیہ کار | MaxAI.me",
+    "features_landing__vision__desc": "کسی بھی تصویر سے متن استخراج کریں، ریاضی کے مسئلے حل کریں، سوالات پوچھیں، جوابات اور نظریات حاصل کریں AI تصویری تجزیہ اور تجزیہ کے ساتھ۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",

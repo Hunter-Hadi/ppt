@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "पृष्ठ नंबरों के साथ अपना पीडीएफ़ डाउनलोड करें - यही है!",
     "home_page__hero_section__title__variant2__part1": "एक क्लिक में AI हर जगह।",
     "home_page__hero_section__title__variant2__part2": "कम समय में अधिक करें।",
-    "home_page__hero_section__desc__variant2": "AI चैट, पुनर्लेखक, संक्षेपक और तत्काल जवाब के साथ समय बचाएं और बेहतर परिणाम प्राप्त करें। GPT-4o, Claude 3 और Gemini 1.5 द्वारा संचालित।"
+    "home_page__hero_section__desc__variant2": "AI चैट, पुनर्लेखक, संक्षेपक और तत्काल जवाब के साथ समय बचाएं और बेहतर परिणाम प्राप्त करें। GPT-4o, Claude 3 और Gemini 1.5 द्वारा संचालित।",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI तत्काल जवाब",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI पठन सहायक"
   },
   "prompt_library": {
     "use_prompt_library__title": "उच्च गुणवत्ता वाली AI प्रॉम्प्ट पुस्तकालय",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "पीडीएफ घुमाएं - पीडीएफ दस्तावेज़ों में पृष्ठों को आसानी से घुमाएं | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "बिना किसी शुल्क के अपने पीडीएफ दस्तावेज़ों में पृष्ठों को आसानी से घुमाएं। केवल एक क्लिक के साथ किसी भी पीडीएफ पृष्ठ की ओरिएंटेशन समायोजित करें - कोई फ़ाइल आकार सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं है।",
     "pdf_tools__pdf_numbers_page__title": "PDF में पृष्ठ संख्या जोड़ें - तेज़ ऑनलाइन नंबरिंग टूल | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "PDF फ़ाइलों में तेज़ी से पृष्ठ संख्या जोड़ें। कोई सॉफ़्टवेयर की आवश्यकता नहीं, सुरक्षित ब्राउज़र में प्रोसेसिंग। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं।"
+    "pdf_tools__pdf_numbers_page__description": "PDF फ़ाइलों में तेज़ी से पृष्ठ संख्या जोड़ें। कोई सॉफ़्टवेयर की आवश्यकता नहीं, सुरक्षित ब्राउज़र में प्रोसेसिंग। कोई वॉटरमार्क, फ़ाइल साइज़ सीमा, डाउनलोड या साइन-अप की आवश्यकता नहीं।",
+    "features_landing__youtube_summary__title": "AI यूट्यूब सारांश | MaxAI.me",
+    "features_landing__youtube_summary__desc": "1-क्लिक के साथ किसी भी यूट्यूब वीडियो का सारांश बनाएं। यूट्यूब वीडियो के साथ चैट करें और कुछ ही सेकंड में महत्वपूर्ण जानकारी प्राप्त करें।",
+    "features_landing__chat_pdf__title": "किसी भी पीडीएफ के साथ चैट करें | MaxAI.me",
+    "features_landing__chat_pdf__desc": "किसी भी पीडीएफ, पुस्तकें, शोध पत्र, मैनुअल, निबंध, कानूनी समझौतों के साथ चैट करें। सवाल पूछें, सारांश प्राप्त करें, जानकारी ढूंढें और बहुत कुछ।",
+    "features_landing__translate__title": "मुफ्त ऑनलाइन AI अनुवाद | MaxAI.me",
+    "features_landing__translate__desc": "स्मार्ट संदर्भ-ज्ञान वाले अनुवाद, GPT-4o, Claude 3, और Gemini 1.5 जैसे सर्वश्रेष्ठ AI मॉडलों द्वारा संचालित, कई भाषाओं में।",
+    "features_landing__vision__title": "AI छवि विश्लेषक | MaxAI.me",
+    "features_landing__vision__desc": "किसी भी छवि से पाठ निकालें, गणित समस्याएं हल करें, सवाल पूछें, उत्तर और ज्ञान प्राप्त करें AI छवि विश्लेषण और विश्लेषण के साथ।"
   },
   "features_landing": {
     "cta_text": "ब्राउज़र में जोड़ें",

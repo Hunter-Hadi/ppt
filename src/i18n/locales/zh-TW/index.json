@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "下載帶有頁碼的 PDF - 就這樣！",
     "home_page__hero_section__title__variant2__part1": "1點擊人工智能無處不在。",
     "home_page__hero_section__title__variant2__part2": "在更短的時間內完成更多事情。",
-    "home_page__hero_section__desc__variant2": "使用AI聊天、重寫器、摘要和即時回覆節省時間並獲得更好的結果。由GPT-4o、Claude 3和Gemini 1.5提供動力。"
+    "home_page__hero_section__desc__variant2": "使用AI聊天、重寫器、摘要和即時回覆節省時間並獲得更好的結果。由GPT-4o、Claude 3和Gemini 1.5提供動力。",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI 即時回覆",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI 閱讀助手"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "旋轉PDF - 在線輕鬆旋轉PDF文檔中的頁面 | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "輕鬆在線旋轉PDF文檔中的頁面，無需付費。只需點擊一下即可調整任何PDF頁面的方向-無文件大小限制，無需下載或註冊。",
     "pdf_tools__pdf_numbers_page__title": "將頁碼添加到PDF - 快速線上編號工具 | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "快速在線上將頁碼添加到PDF檔案。無需軟體，安全的瀏覽器處理。無浮水印、檔案大小限制、下載或註冊要求。"
+    "pdf_tools__pdf_numbers_page__description": "快速在線上將頁碼添加到PDF檔案。無需軟體，安全的瀏覽器處理。無浮水印、檔案大小限制、下載或註冊要求。",
+    "features_landing__youtube_summary__title": "AI YouTube摘要 | MaxAI.me",
+    "features_landing__youtube_summary__desc": "一鍵摘要任何YouTube視頻。與YouTube視頻聊天，瞬間獲得有價值的見解。",
+    "features_landing__chat_pdf__title": "與任何PDF聊天 | MaxAI.me",
+    "features_landing__chat_pdf__desc": "與任何PDF、書籍、研究論文、手冊、文章、法律合同聊天。提問、獲取摘要、尋找信息等等。",
+    "features_landing__translate__title": "免費在線AI翻譯 | MaxAI.me",
+    "features_landing__translate__desc": "智能上下文感知的多語言翻譯，由最佳AI模型如GPT-4o、Claude 3和Gemini 1.5提供支持。",
+    "features_landing__vision__title": "AI圖像分析器 | MaxAI.me",
+    "features_landing__vision__desc": "從任何圖像中提取文本，解決數學問題，提問，獲得答案和見解，並進行AI圖像視覺分析。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",

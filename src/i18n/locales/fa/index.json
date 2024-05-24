@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "PDF خود را با شماره صفحات دانلود کنید - همین!",
     "home_page__hero_section__title__variant2__part1": "همه جا هوش مصنوعی با یک کلیک.",
     "home_page__hero_section__title__variant2__part2": "بیشتر را در کمتر زمان انجام دهید.",
-    "home_page__hero_section__desc__variant2": "زمان صرفه جویی کنید و نتایج بهتری با چت، بازنویسی، خلاصه سازی و پاسخ فوری هوش مصنوعی بدست آورید. قدرت گرفته شده از GPT-4o، Claude 3 و Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "زمان صرفه جویی کنید و نتایج بهتری با چت، بازنویسی، خلاصه سازی و پاسخ فوری هوش مصنوعی بدست آورید. قدرت گرفته شده از GPT-4o، Claude 3 و Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "پاسخ فوری هوش مصنوعی",
+    "home_page__features_carousel__feature_reader__label__full_name": "دستیار خوانش هوش مصنوعی"
   },
   "prompt_library": {
     "use_prompt_library__title": "کتابخانه پیشنهاد با کیفیت بالا",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "چرخش PDF - به راحتی صفحات در اسناد PDF آنلاین چرخانید | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "بدون زحمت، صفحات در اسناد PDF خود را به راحتی آنلاین چرخانید. با یک کلیک جهت هر صفحه PDF را تنظیم کنید - بدون محدودیت حجم فایل، دانلود یا ثبت نام.",
     "pdf_tools__pdf_numbers_page__title": "افزودن شماره صفحات به PDF - ابزار شماره‌گذاری سریع آنلاین | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "به سرعت شماره صفحات را به فایل‌های PDF آنلاین اضافه کنید. نیازی به نصب نرم‌افزار نیست، پردازش در مرورگر با امنیت بالا. بدون علامت‌گذاری آب، محدودیت حجم فایل، دانلود یا ثبت‌نام."
+    "pdf_tools__pdf_numbers_page__description": "به سرعت شماره صفحات را به فایل‌های PDF آنلاین اضافه کنید. نیازی به نصب نرم‌افزار نیست، پردازش در مرورگر با امنیت بالا. بدون علامت‌گذاری آب، محدودیت حجم فایل، دانلود یا ثبت‌نام.",
+    "features_landing__youtube_summary__title": "خلاصه AI YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "با یک کلیک هر ویدیوی YouTube را خلاصه کنید. با ویدیوهای YouTube چت کنید و در ثانیه بینش‌های ارزشمندی کسب کنید.",
+    "features_landing__chat_pdf__title": "چت با هر PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "با هر PDF، کتاب، مقاله تحقیقاتی، دفترچه راهنما، مقاله حقوقی چت کنید. سوال بپرسید، خلاصه بگیرید، اطلاعات پیدا کنید و غیره.",
+    "features_landing__translate__title": "ترجمه آنلاین رایگان با هوش مصنوعی | MaxAI.me",
+    "features_landing__translate__desc": "ترجمه‌های هوشمند و با آگاهی از متن در چند زبان، با قدرت مدل‌های هوش مصنوعی برتر مانند GPT-4o، Claude 3 و Gemini 1.5.",
+    "features_landing__vision__title": "تجزیه و تحلیل تصویر AI | MaxAI.me",
+    "features_landing__vision__desc": "متن را از هر تصویر استخراج کنید، مسائل ریاضی را حل کنید، سوال بپرسید، پاسخ‌ها و بینش‌ها را با تجزیه و تحلیل تصویر AI دریافت کنید."
   },
   "features_landing": {
     "cta_text": "افزودن به مرورگر",

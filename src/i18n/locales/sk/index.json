@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Stiahnite si svoje PDF s číslami stránok – to je všetko!",
     "home_page__hero_section__title__variant2__part1": "1-kliková AI všade.",
     "home_page__hero_section__title__variant2__part2": "Robte viac za menej času.",
-    "home_page__hero_section__desc__variant2": "Ušetrite čas a dosiahnite lepšie výsledky s chatom, prepracovávačom, zhrnutím a okamžitou odpoveďou pomocou AI. Poháňané GPT-4o, Claude 3 a Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Ušetrite čas a dosiahnite lepšie výsledky s chatom, prepracovávačom, zhrnutím a okamžitou odpoveďou pomocou AI. Poháňané GPT-4o, Claude 3 a Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "AI okamžitá odpoveď",
+    "home_page__features_carousel__feature_reader__label__full_name": "AI čítačka asistent"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knižnica vysoko kvalitných AI promptov",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Otočiť PDF - Jednoduché otočenie stránok v dokumentoch PDF online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Jednoducho otočte stránky vo vašich dokumentoch PDF online zadarmo. Upravte orientáciu akýchkoľvek stránok PDF jediným kliknutím - žiadne obmedzenia veľkosti súboru, žiadne sťahovania ani registrácie nie sú potrebné.",
     "pdf_tools__pdf_numbers_page__title": "Pridajte čísla stránok do PDF - Rýchly online nástroj na číslovanie | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Rýchlo pridajte čísla stránok do PDF súborov online. Žiadny softvér nie je potrebný, spracovanie prebieha v prehliadači. Bez vodoznaku, obmedzení veľkosti súboru, sťahovania alebo registrácie."
+    "pdf_tools__pdf_numbers_page__description": "Rýchlo pridajte čísla stránok do PDF súborov online. Žiadny softvér nie je potrebný, spracovanie prebieha v prehliadači. Bez vodoznaku, obmedzení veľkosti súboru, sťahovania alebo registrácie.",
+    "features_landing__youtube_summary__title": "AI súhrn YouTube | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Zhrňte akékoľvek video na YouTube jedným kliknutím. Chatujte s videami na YouTube a získajte cenné poznatky za sekundy.",
+    "features_landing__chat_pdf__title": "Chatujte s akýmkoľvek PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chatujte s akýmkoľvek PDF, knihami, vedeckými článkami, manuálmi, esejami, právnymi zmluvami. Položte otázky, získajte súhrny, nájdite informácie a viac.",
+    "features_landing__translate__title": "Bezplatný online AI preklad | MaxAI.me",
+    "features_landing__translate__desc": "Inteligentné preklady s ohľadom na kontext v rôznych jazykoch, poháňané najlepšími modelmi AI ako GPT-4o, Claude 3 a Gemini 1.5.",
+    "features_landing__vision__title": "AI analyzátor obrázkov | MaxAI.me",
+    "features_landing__vision__desc": "Extrahujte text z akéhokoľvek obrázka, riešte matematické problémy, položte otázky, získajte odpovede a poznatky s pomocou AI analýzy a videnia obrázkov."
   },
   "features_landing": {
     "cta_text": "Pridať do prehliadača",

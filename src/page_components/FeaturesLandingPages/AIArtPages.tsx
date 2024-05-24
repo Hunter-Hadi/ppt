@@ -1,6 +1,6 @@
 import Stack from '@mui/material/Stack';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { FC } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import CallToActionSection from '@/features/landing/components/CallToActionSection';
@@ -9,8 +9,10 @@ import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
 import TrustedBy from '@/features/landing/components/TrustedBy';
 import UserComment from '@/features/landing/components/UserComment';
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
-
-const AIArtPages = () => {
+interface IProps {
+  propRef?: string;
+}
+const AIArtPages: FC<IProps> = () => {
   const { t } = useTranslation();
 
   return (

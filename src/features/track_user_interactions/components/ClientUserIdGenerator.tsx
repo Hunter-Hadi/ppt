@@ -2,11 +2,13 @@ import { useRouter } from 'next/router';
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 
 import { mixpanelIdentify } from '@/features/mixpanel/utils';
+import { CACHE_CLIENT_USER_ID_PAGE_PATHNAME } from '@/features/track_user_interactions/constant';
 import {
   generateClientUserId,
   getClientUserId,
   setClientUserId,
 } from '@/features/track_user_interactions/utils';
+import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 interface IClientUserIdGeneratorProps {
   targetHost: string;
@@ -16,7 +18,11 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
   targetHost,
 }) => {
   const { pathname } = useRouter();
+  const [loaded, setLoaded] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  const clientUserIdAlreadySaved =
+    getLocalStorage('IFRAME_CLIENT_USER_ID_ALREADY_SAVED') === 'true';
 
   // 当前的 clientUserId
   const [currentClientUserId, setCurrentClientUserId] = useState(
@@ -29,6 +35,10 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
   // clientUserId 是否保存成功
   const [cacheClientUserIdSuccess, setCacheClientUserIdSuccess] =
     useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
 
   const hasClientUserId = useMemo(
     () => !!currentClientUserId,
@@ -97,6 +107,11 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
           // clientUserId 保存成功的 message
           case 'MAXAI_CLIENT_USER_ID_CACHE_SUCCESS': {
             setCacheClientUserIdSuccess(true);
+            setLocalStorage(
+              'IFRAME_CLIENT_USER_ID_ALREADY_SAVED',
+              'true',
+              true,
+            );
             break;
           }
           // 获取 clientUserId 成功的 message
@@ -140,8 +155,17 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
     return null;
   }
 
+  // 当前有 clientUserId，并且往 iframe 中保存过 clientUserId 了
+  if (currentClientUserId && clientUserIdAlreadySaved) {
+    return null;
+  }
+
   if (cacheClientUserIdSuccess) {
     // 保存 clientUserId 成功后，组件生命周期完成，直接返回 null
+    return null;
+  }
+
+  if (!loaded) {
     return null;
   }
 
@@ -149,7 +173,7 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
     <>
       <iframe
         ref={iframeRef}
-        src={`${targetHost}/embed/client-user-id-cache`}
+        src={`${targetHost}${CACHE_CLIENT_USER_ID_PAGE_PATHNAME}`}
         id='maxai-client-user-id-generator'
         title='client-user-id-generator'
         style={{

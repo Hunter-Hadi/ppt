@@ -17,7 +17,9 @@ const VIDEO_POPUP_CONTAINER_ID = 'video-popup-container';
 
 const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
   const { videoWidth, videoHeight, onClose, sx } = props;
-  const { open, videoSrc, closeVideoPopup } = useVideoPopupController();
+
+  const { popupState, open, videoSrc, closeVideoPopup } =
+    useVideoPopupController();
 
   const onModalClose = () => {
     closeVideoPopup();
@@ -57,7 +59,11 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
           width={videoWidth}
           height={videoHeight}
         >
-          <YoutubePlayerBox borderRadius={4} youtubeLink={videoSrc} />
+          <YoutubePlayerBox
+            borderRadius={4}
+            youtubeLink={videoSrc}
+            autoplay={popupState.autoplay}
+          />
         </Box>
       </Stack>
     </CustomModal>

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Unduh PDF Anda dengan nomor halaman - itu saja!",
     "home_page__hero_section__title__variant2__part1": "AI dengan 1 klik di mana saja.",
     "home_page__hero_section__title__variant2__part2": "Lakukan lebih banyak dalam waktu yang lebih singkat.",
-    "home_page__hero_section__desc__variant2": "Menghemat waktu dan dapatkan hasil yang lebih baik dengan obrolan AI, penulis ulang, ringkasan, dan balasan instan. Didukung oleh GPT-4o, Claude 3, dan Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Menghemat waktu dan dapatkan hasil yang lebih baik dengan obrolan AI, penulis ulang, ringkasan, dan balasan instan. Didukung oleh GPT-4o, Claude 3, dan Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Balasan instan AI",
+    "home_page__features_carousel__feature_reader__label__full_name": "Asisten membaca AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Putar PDF - Mudah Memutar Halaman dalam Dokumen PDF Online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Secara mudah memutar halaman dalam dokumen PDF Anda secara online secara gratis. Sesuaikan orientasi halaman PDF apa pun hanya dengan satu klik - tanpa batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
     "pdf_tools__pdf_numbers_page__title": "Tambahkan Nomor Halaman ke PDF - Alat Penomoran Cepat Online | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Tambahkan nomor halaman ke file PDF secara cepat secara online. Tidak memerlukan perangkat lunak, aman diproses di browser. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan."
+    "pdf_tools__pdf_numbers_page__description": "Tambahkan nomor halaman ke file PDF secara cepat secara online. Tidak memerlukan perangkat lunak, aman diproses di browser. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "features_landing__youtube_summary__title": "Ringkasan YouTube AI | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Ringkas video YouTube dengan 1 klik. Chat dengan video YouTube dan dapatkan wawasan berharga dalam hitungan detik.",
+    "features_landing__chat_pdf__title": "Chat dengan PDF apa pun | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Chat dengan PDF, buku, makalah penelitian, manual, esai, kontrak hukum. Ajukan pertanyaan, dapatkan ringkasan, temukan informasi, dan lainnya.",
+    "features_landing__translate__title": "Terjemahan AI online gratis | MaxAI.me",
+    "features_landing__translate__desc": "Terjemahan cerdas yang memahami konteks dalam beberapa bahasa, didukung oleh model AI terbaik seperti GPT-4o, Claude 3, dan Gemini 1.5.",
+    "features_landing__vision__title": "Analisis gambar AI | MaxAI.me",
+    "features_landing__vision__desc": "Ekstrak teks dari gambar apa pun, selesaikan masalah matematika, ajukan pertanyaan, dapatkan jawaban dan wawasan dengan visi dan analisis gambar AI."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",

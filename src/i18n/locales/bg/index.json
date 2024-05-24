@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Изтеглете вашия PDF с номерирани страници - това е всичко!",
     "home_page__hero_section__title__variant2__part1": "AI навсякъде с едно щракване.",
     "home_page__hero_section__title__variant2__part2": "Правете повече за по-малко време.",
-    "home_page__hero_section__desc__variant2": "Спестете време и получете по-добри резултати с AI чат, пренаписвач, резюмиращ инструмент и моментален отговор. Задвижвано от GPT-4o, Claude 3 и Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Спестете време и получете по-добри резултати с AI чат, пренаписвач, резюмиращ инструмент и моментален отговор. Задвижвано от GPT-4o, Claude 3 и Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Интелигентен отговор",
+    "home_page__features_carousel__feature_reader__label__full_name": "Интелигентен помощник за четене"
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека с висококачествени AI подсказки",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Завъртане на PDF - Лесно завъртане на страници в PDF документи онлайн | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Без усилия завъртете страници във вашите PDF документи онлайн безплатно. Настройте ориентацията на всяка страница в PDF с едно щракване - няма ограничения за размера на файла, изтегляния или регистрации.",
     "pdf_tools__pdf_numbers_page__title": "Добавяне на номера на страниците към PDF – Бързо онлайн инструмент за номериране | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Бързо добавяне на номера на страниците към PDF файлове онлайн. Не се изисква софтуер, сигурна обработка в браузъра. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации."
+    "pdf_tools__pdf_numbers_page__description": "Бързо добавяне на номера на страниците към PDF файлове онлайн. Не се изисква софтуер, сигурна обработка в браузъра. Без водни знаци, ограничения за размера на файла, изтегляния или регистрации.",
+    "features_landing__youtube_summary__title": "AI YouTube резюме | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Резюмирайте всяко видео от YouTube с едно щракване. Чатирайте с видеа от YouTube и получавайте ценни прозрения за секунди.",
+    "features_landing__chat_pdf__title": "Чат с всякакъв PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Чатирайте с всякакъв PDF, книги, научни статии, ръководства, есета, правни договори. Задавайте въпроси, получавайте резюмета, намирайте информация и други.",
+    "features_landing__translate__title": "Безплатен онлайн AI превод | MaxAI.me",
+    "features_landing__translate__desc": "Умни контекстосъобразни преводи на множество езици, задвижвани от най-добрите AI модели като GPT-4o, Claude 3 и Gemini 1.5.",
+    "features_landing__vision__title": "AI анализатор на изображения | MaxAI.me",
+    "features_landing__vision__desc": "Извличане на текст от всяко изображение, решаване на математически задачи, задаване на въпроси, получаване на отговори и прозрения с AI анализ на изображения."
   },
   "features_landing": {
     "cta_text": "Добави в Браузъра",

@@ -630,7 +630,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descarrega el teu PDF amb els números de pàgina. Això és tot!",
     "home_page__hero_section__title__variant2__part1": "IA en un clic a tot arreu.",
     "home_page__hero_section__title__variant2__part2": "Fes més en menys temps.",
-    "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5."
+    "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5.",
+    "home_page__features_carousel__feature_reply__label__full_name": "Resposta instantània d'IA",
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistent de lectura d'IA"
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",
@@ -921,7 +923,15 @@
     "pdf_tools__rotate_pdf__title": "Gira el PDF - Gira les pàgines dels documents PDF fàcilment en línia | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Gireu les pàgines dels vostres documents PDF en línia de manera senzilla i gratuïta. Ajusteu l'orientació de qualsevol pàgina de PDF amb només un clic, sense límits de mida de fitxer, descàrregues ni registres necessaris.",
     "pdf_tools__pdf_numbers_page__title": "Afegiu números de pàgina a PDF - Eina de numeració ràpida en línia | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Afegiu ràpidament números de pàgina als fitxers PDF en línia. No es necessita cap programari, processament segur al navegador. Sense marques d'aigua, límits de mida de fitxer, descàrregues o registres requerits."
+    "pdf_tools__pdf_numbers_page__description": "Afegiu ràpidament números de pàgina als fitxers PDF en línia. No es necessita cap programari, processament segur al navegador. Sense marques d'aigua, límits de mida de fitxer, descàrregues o registres requerits.",
+    "features_landing__youtube_summary__title": "Resum de YouTube amb IA | MaxAI.me",
+    "features_landing__youtube_summary__desc": "Resumeix qualsevol vídeo de YouTube amb 1 clic. Xateja amb vídeos de YouTube i obtén informació valuosa en segons.",
+    "features_landing__chat_pdf__title": "Xateja amb qualsevol PDF | MaxAI.me",
+    "features_landing__chat_pdf__desc": "Xateja amb qualsevol PDF, llibres, articles de recerca, manuals, assajos, contractes legals. Fes preguntes, obtén resums, troba informació i més.",
+    "features_landing__translate__title": "Traducció IA en línia gratuïta | MaxAI.me",
+    "features_landing__translate__desc": "Traduccions intel·ligents amb coneixement del context en diversos idiomes, impulsades pels millors models d'IA com GPT-4o, Claude 3 i Gemini 1.5.",
+    "features_landing__vision__title": "Analitzador d'imatges amb IA | MaxAI.me",
+    "features_landing__vision__desc": "Extreu text de qualsevol imatge, resol problemes de matemàtiques, fes preguntes, obtén respostes i idees amb la visió i anàlisi d'imatges amb IA."
   },
   "features_landing": {
     "cta_text": "Afegir al navegador",
