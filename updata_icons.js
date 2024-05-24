@@ -30,7 +30,7 @@ iconsAddress.forEach((address) => {
     // 创建 icon 映射对象
     const iconMapEntries = iconTypes
       .map((iconName) => {
-        return `  ${iconName}: dynamic(() => import('./icons/${iconName}')),`;
+        return `  ${iconName}: lazy(() => import('./icons/${iconName}')),`;
       })
       .join('\n');
 
@@ -40,8 +40,7 @@ iconsAddress.forEach((address) => {
 
     // 生成最终的 TypeScript 文件的内容
     const content = `import { Skeleton, SvgIconProps, SxProps } from '@mui/material';
-import dynamic from 'next/dynamic';
-import React, { FC, Suspense, useMemo } from 'react';
+    import React, { FC, lazy, Suspense, useMemo } from 'react';
 //！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
 ${iconTypeDefinition}
 
