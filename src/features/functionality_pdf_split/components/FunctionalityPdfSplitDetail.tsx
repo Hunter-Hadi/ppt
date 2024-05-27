@@ -31,6 +31,7 @@ import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
+import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array';
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
 
@@ -49,7 +50,7 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
   const [isFileLoading, setIsFileLoading] = useState<boolean>(false);
   const [isSplitDownloadLoading, setIsSplitDownloadLoading] =
     useState<boolean>(false); //是否正在剪切下载
-
+  const [pdfLoadDoc, setPdfLoadDoc] = useState<PDFDocument | null>(null);
   const [activeFile, setActiveFile] = useState<File | null>(null); //保存在这里是为了方便对源数据后续操作
   const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false); //是否是合并单个pdf
 
@@ -75,7 +76,12 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
   const onUploadFile = async (fileList: FileList) => {
     if (fileList && fileList.length > 0) {
       setIsFileLoading(true);
+      const file = fileList[0];
       setActiveFile(fileList[0]);
+
+      const uInt8data = await fileToUInt8Array(file);
+      const pdfLoadDoc = await PDFDocument.load(uInt8data);
+      setPdfLoadDoc(pdfLoadDoc); //保存pdf文档,方便后续操作
       const isReadSuccess = await onReadPdfToImages(fileList[0], 'png', false);
       if (!isReadSuccess) {
         onRemoveFile();
@@ -97,6 +103,46 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
     () => convertedPdfImages.filter((item) => item.isSelect),
     [convertedPdfImages],
   );
+  const getMergePdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
+    try {
+      const pdfDoc = await PDFDocument.create();
+      if (pdfLoadDoc) {
+        //复制选中的pdf
+        const copyPages = await pdfDoc.copyPages(
+          pdfLoadDoc,
+          fileList.filter((p) => p.isSelect).map((p) => p.definedIndex - 1),
+        );
+
+        for (let page of copyPages) {
+          pdfDoc.addPage(page); //添加到新的pdf文档
+        }
+        return await pdfDoc.save();
+      }
+    } catch (e) {
+      setIsFileLoading(false);
+      console.error('simply mergePdfFiles error', e);
+      functionalityCommonSnackNotifications(
+        t('functionality__pdf_split:components__pdf_split__error_maximum'),
+      );
+    }
+  };
+  const getSplitPdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
+    let pdfUint8ArrayList: Uint8Array[] = [];
+    if (pdfLoadDoc) {
+      for (let index = 0; index < fileList.length; index++) {
+        const pdfDoc = await PDFDocument.create(); //创建新的pdf文档
+        const [copiedPage] = await pdfDoc.copyPages(pdfLoadDoc, [
+          fileList[index].definedIndex - 1,
+        ]); //复制选中的pdf
+        pdfDoc.addPage(copiedPage); //添加到新的pdf文档
+
+        const pdfBytes = await pdfDoc.save(); //保存pdf
+        pdfUint8ArrayList.push(pdfBytes);
+      }
+    }
+
+    return pdfUint8ArrayList;
+  };
   const confirmToSplit = async () => {
     setIsSplitDownloadLoading(true);
     setPdfTotalPages(0);
@@ -131,55 +177,7 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
       FileSaver.saveAs(content, folderName + '.zip');
     });
   };
-  const getSplitPdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
-    if (activeFile) {
-      let pdfUint8ArrayList: Uint8Array[] = [];
-      const arrayBuffer = await activeFile.arrayBuffer();
-      const pdfDoc = await PDFDocument.load(arrayBuffer);
-      for (let index = 0; index < fileList.length; index++) {
-        const mergedPdfDoc = await PDFDocument.create();
-        const pages = await mergedPdfDoc.copyPages(pdfDoc, [
-          fileList[index].definedIndex - 1,
-        ]);
-        pages.forEach((page) => {
-          mergedPdfDoc.addPage(page);
-        });
-        const mergedPdfUint8Array = await mergedPdfDoc.save();
-        pdfUint8ArrayList.push(mergedPdfUint8Array);
-      }
-      return pdfUint8ArrayList;
-    } else {
-      return [];
-    }
-  };
-  const getMergePdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
-    try {
-      // 创建一个新的 PDF 文档，它将成为最终合并的文档
-      const mergedPdfDoc = await PDFDocument.create();
-      if (activeFile) {
-        const arrayBuffer = await activeFile.arrayBuffer();
-        const pdfDoc = await PDFDocument.load(arrayBuffer);
-        // 遍历文件列表，将每个文件的页面添加到合并的文档中
-        for (let index = 0; index < fileList.length; index++) {
-          const pages = await mergedPdfDoc.copyPages(pdfDoc, [
-            fileList[index].definedIndex - 1,
-          ]);
-          pages.forEach((page) => {
-            mergedPdfDoc.addPage(page);
-          });
-        }
-        // 将合并的文档保存为 Uint8Array
-        const mergedPdfUint8Array = await mergedPdfDoc.save();
-        return mergedPdfUint8Array;
-      }
-    } catch (e) {
-      setIsFileLoading(false);
-      console.error('simply mergePdfFiles error', e);
-      functionalityCommonSnackNotifications(
-        t('functionality__pdf_split:components__pdf_split__error_maximum'),
-      );
-    }
-  };
+
   const currentInitializeLoading = pdfIsLoading || isFileLoading; //文件加载和pdf加载 初始化
   const currentIsLoading = currentInitializeLoading || isSplitDownloadLoading;
   //按钮配置列表

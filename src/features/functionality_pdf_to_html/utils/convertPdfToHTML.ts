@@ -33,7 +33,7 @@ export const convertPdfToHTMLDivElement = async (
         //一.渲染背景页面
         const pageDiv = createPageDiv(pageViewport);
         const hideTextPageCanvas = await pdfPageBackgroundToCanvas(page, {
-          hideText: true,
+          hideText: false,
           viewportScale: pageScale,
         }); //获取隐藏文字的canvas
         const pageImgString = hideTextPageCanvas.toDataURL('image/png');
@@ -105,7 +105,7 @@ export const createHtmlString = (bodyString: string) => {
   
   .text-content-list span,
   .text-content-list br {
-    color: black;
+    color: transparent;
     position: absolute;
     white-space: pre;
     cursor: text;
