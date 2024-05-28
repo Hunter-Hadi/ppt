@@ -31,7 +31,7 @@ const CustomModal: FC<IProps> = ({
   isNeedAutoFocus,
   ...restProps
 }) => {
-  const viewRef = React.useRef<any>(null);
+  const viewRef = useRef<HTMLDivElement>(null);
   const intervalNum = useRef<NodeJS.Timer | null>(null);
   const handleClose = (event: any, reason: string) => {
     if (onClose) onClose(reason);
