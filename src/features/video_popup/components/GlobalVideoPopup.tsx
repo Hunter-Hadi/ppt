@@ -32,7 +32,6 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
       onClose={onModalClose}
       width={videoWidth}
       height={'auto'}
-      isNeedAutoFocus={true}
       sx={{
         position: 'absolute',
         top: '50%',
