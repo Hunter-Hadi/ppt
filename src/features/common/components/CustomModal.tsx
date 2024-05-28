@@ -5,7 +5,7 @@ import IconButton from '@mui/material/IconButton';
 import Modal, { ModalProps } from '@mui/material/Modal';
 import Paper from '@mui/material/Paper';
 import { lighten, SxProps } from '@mui/material/styles';
-import React, { FC } from 'react';
+import React, { FC, useEffect, useRef } from 'react';
 
 interface IProps extends Omit<ModalProps, 'children' | 'onClose' | 'open'> {
   show: boolean;
@@ -16,6 +16,7 @@ interface IProps extends Omit<ModalProps, 'children' | 'onClose' | 'open'> {
   width?: string | number;
   height?: string | number;
   children?: JSX.Element;
+  isNeedAutoFocus?: boolean;
 }
 
 const CustomModal: FC<IProps> = ({
@@ -27,17 +28,35 @@ const CustomModal: FC<IProps> = ({
   maxWidth,
   width,
   height,
+  isNeedAutoFocus,
   ...restProps
 }) => {
+  const viewRef = React.useRef<any>(null);
+  const intervalNum = useRef<NodeJS.Timer | null>(null);
   const handleClose = (event: any, reason: string) => {
     if (onClose) onClose(reason);
   };
-
+  useEffect(() => {
+    if (show && isNeedAutoFocus) {
+      //解决modal 点击视频后无法ESC的问题的问题
+      // https://stackoverflow.com/questions/75895916/how-to-make-my-bootstrap-4-popup-close-after-clicking-esc-key-on-keyboard-whi
+      intervalNum.current && clearInterval(intervalNum.current);
+      intervalNum.current = setInterval(() => {
+        if (viewRef.current) {
+          viewRef.current.focus();
+        }
+      }, 100);
+      return () => {
+        intervalNum.current && clearInterval(intervalNum.current);
+      };
+    }
+  }, [show, isNeedAutoFocus]);
   return (
     <Modal open={show} onClose={handleClose} disablePortal {...restProps}>
       {/* 添加 React.Fragment 为了解决 modal 内部元素 focus 无效的问题 */}
       {/* reference: https://stackoverflow.com/questions/53951479/react-material-ui-modal-causing-an-error-with-the-tabindex */}
-      <Box>
+      {/* 改成用div包裹，因为React.Fragment会导致ESC无法关闭 */}
+      <Box ref={viewRef}>
         <Box sx={{ position: 'fixed', top: 16, left: 16 }}>
           <IconButton
             data-testid='maxai-custom-modal-close-btn'
