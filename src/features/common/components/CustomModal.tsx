@@ -5,7 +5,7 @@ import IconButton from '@mui/material/IconButton';
 import Modal, { ModalProps } from '@mui/material/Modal';
 import Paper from '@mui/material/Paper';
 import { lighten, SxProps } from '@mui/material/styles';
-import React, { FC, useRef } from 'react';
+import React, { FC } from 'react';
 
 interface IProps extends Omit<ModalProps, 'children' | 'onClose' | 'open'> {
   show: boolean;
@@ -31,7 +31,7 @@ const CustomModal: FC<IProps> = ({
   isNeedAutoFocus,
   ...restProps
 }) => {
-  const viewRef = useRef<HTMLDivElement>(null);
+  // const viewRef = useRef<HTMLDivElement>(null);
   // const intervalNum = useRef<NodeJS.Timer | null>(null);
   const handleClose = (event: any, reason: string) => {
     if (onClose) onClose(reason);
@@ -57,7 +57,7 @@ const CustomModal: FC<IProps> = ({
       {/* 添加 React.Fragment 为了解决 modal 内部元素 focus 无效的问题 */}
       {/* reference: https://stackoverflow.com/questions/53951479/react-material-ui-modal-causing-an-error-with-the-tabindex */}
       {/* 改成用div包裹，因为React.Fragment会导致ESC无法关闭 */}
-      <Box ref={viewRef}>
+      <Box>
         <Box sx={{ position: 'fixed', top: 16, left: 16 }}>
           <IconButton
             data-testid='maxai-custom-modal-close-btn'
