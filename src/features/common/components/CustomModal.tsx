@@ -32,9 +32,26 @@ const CustomModal: FC<IProps> = ({
   ...restProps
 }) => {
   const viewRef = useRef<HTMLDivElement>(null);
+  // const intervalNum = useRef<NodeJS.Timer | null>(null);
   const handleClose = (event: any, reason: string) => {
     if (onClose) onClose(reason);
   };
+  ////下面代码不着急，看有没有更好的办法
+  // useEffect(() => {
+  //   if (show && isNeedAutoFocus) {
+  //     //解决modal 点击视频后无法ESC的问题的问题
+  //     // https://stackoverflow.com/questions/75895916/how-to-make-my-bootstrap-4-popup-close-after-clicking-esc-key-on-keyboard-whi
+  //     intervalNum.current && clearInterval(intervalNum.current);
+  //     intervalNum.current = setInterval(() => {
+  //       if (viewRef.current) {
+  //         viewRef.current.focus();
+  //       }
+  //     }, 100);
+  //     return () => {
+  //       intervalNum.current && clearInterval(intervalNum.current);
+  //     };
+  //   }
+  // }, [show, isNeedAutoFocus]);
   return (
     <Modal open={show} onClose={handleClose} disablePortal {...restProps}>
       {/* 添加 React.Fragment 为了解决 modal 内部元素 focus 无效的问题 */}
