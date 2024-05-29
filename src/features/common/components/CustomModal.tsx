@@ -32,12 +32,12 @@ const CustomModal: FC<IProps> = ({
   const handleClose = (event: any, reason: string) => {
     if (onClose) onClose(reason);
   };
-
   return (
     <Modal open={show} onClose={handleClose} disablePortal {...restProps}>
       {/* 添加 React.Fragment 为了解决 modal 内部元素 focus 无效的问题 */}
       {/* reference: https://stackoverflow.com/questions/53951479/react-material-ui-modal-causing-an-error-with-the-tabindex */}
-      <>
+      {/* 改成用Box包裹，因为React.Fragment会导致ESC无法关闭 */}
+      <Box>
         <Box sx={{ position: 'fixed', top: 16, left: 16 }}>
           <IconButton
             data-testid='maxai-custom-modal-close-btn'
@@ -87,7 +87,7 @@ const CustomModal: FC<IProps> = ({
             {children}
           </Paper>
         </Fade>
-      </>
+      </Box>
     </Modal>
   );
 };
