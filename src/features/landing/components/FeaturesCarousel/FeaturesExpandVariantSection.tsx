@@ -46,7 +46,6 @@ const FeaturesExpandVariantSection = () => {
                       sm: 18,
                     }}
                     variant='custom'
-                    color='text.secondary'
                   >
                     {t(featuresContentData.descriptionLabel)}
                   </Typography>
@@ -57,7 +56,6 @@ const FeaturesExpandVariantSection = () => {
                     marker
                     variant='custom'
                     fontSize={18}
-                    color='text.secondary'
                     lineHeight={1.5}
                   >
                     {t(description)}

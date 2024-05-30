@@ -114,7 +114,6 @@ const HeroSection: FC<IProps> = ({
                     sm: 16,
                     lg: 18,
                   }}
-                  color='text.secondary'
                 >
                   {description}
                 </Typography>

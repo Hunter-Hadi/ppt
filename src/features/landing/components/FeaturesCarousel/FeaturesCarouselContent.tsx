@@ -76,7 +76,6 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
                   sm: 18,
                 }}
                 variant='custom'
-                color='text.secondary'
               >
                 {t(currentContent.descriptionLabel)}
               </Typography>
@@ -84,7 +83,6 @@ const FeaturesCarouselContent: FC<IProps> = ({ activeFeatureItem }) => {
             <Stack
               component={'ul'}
               pl={3}
-              color='text.secondary'
               lineHeight={1.5}
               mb={{
                 xs: 2.5,

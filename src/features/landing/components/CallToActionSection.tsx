@@ -24,7 +24,6 @@ const CallToActionSection: FC<IProps> = ({
         md: 14,
       }}
       px={4}
-      color='white'
       bgcolor='#f9f5ff'
       sx={{
         backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
@@ -57,7 +56,6 @@ const CallToActionSection: FC<IProps> = ({
             }}
             textAlign={'center'}
             lineHeight={1.5}
-            color='text.secondary'
           >
             {t('pages:home_page__call_to_action__sub_title')}
           </Typography>
