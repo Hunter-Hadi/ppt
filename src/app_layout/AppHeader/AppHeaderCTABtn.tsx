@@ -29,29 +29,29 @@ const AppHeaderCTABtn = () => {
     };
   }, []);
 
-  if (hasExtension || !loaded) {
+  if (!hasExtension) {
     return (
-      <Button
-        variant='contained'
-        sx={{ ...cacheSx, px: 3 }}
-        href={APP_PROJECT_LINK}
-      >
-        {t('common:sign_in')}
-      </Button>
+      <CTAInstallButton
+        sx={cacheSx}
+        trackerLinkProps={{
+          queryRefEnable: false,
+          pathnameRefEnable: true,
+          pathnameRefPrefix: 'topbar',
+        }}
+        variant={'contained'}
+        adaptiveLabel
+      />
     );
   }
 
   return (
-    <CTAInstallButton
-      sx={cacheSx}
-      trackerLinkProps={{
-        queryRefEnable: false,
-        pathnameRefEnable: true,
-        pathnameRefPrefix: 'topbar',
-      }}
-      variant={'contained'}
-      adaptiveLabel
-    />
+    <Button
+      variant='contained'
+      sx={{ ...cacheSx, px: 3 }}
+      href={APP_PROJECT_LINK}
+    >
+      {t('common:sign_in')}
+    </Button>
   );
 };
 
