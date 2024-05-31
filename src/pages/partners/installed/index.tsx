@@ -7,6 +7,7 @@ import ProLink from '@/components/ProLink';
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import usePartnersInfo from '@/features/partners/hooks/usePartnersInfo';
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
 import { useSendRefCount } from '@/hooks/useSendRefCount';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
 import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
@@ -108,6 +109,7 @@ const PartnersInstallPage = () => {
       {!hasExtension && (
         <FixedCtaButton propRef={propRef} partnerPageType='installed' />
       )}
+      <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Box>
   );
 };

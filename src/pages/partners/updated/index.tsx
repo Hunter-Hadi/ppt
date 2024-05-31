@@ -7,6 +7,7 @@ import ProLink from '@/components/ProLink';
 import usePartnersABTester from '@/features/ab_tester/hooks/usePartnersABTester';
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
 import usePartnersInfo from '@/features/partners/hooks/usePartnersInfo';
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
 import { useSendRefCount } from '@/hooks/useSendRefCount';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
 import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
@@ -115,6 +116,7 @@ const PartnersUpdatedPage = () => {
       {!hasExtension && (
         <FixedCtaButton propRef={propRef} partnerPageType='updated' />
       )}
+      <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Box>
   );
 };

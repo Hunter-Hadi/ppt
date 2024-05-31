@@ -1500,5 +1500,16 @@
 
     "plan_button__save_with_yearly_plan": "Save {{PRICE}} with yearly plan",
     "plan_button__free_status__start_for_free": "Start for free"
+  },
+  "survey": {
+    "funnel_survey__submit_success__title": "Thank you for sharing your experience with us. 🙏",
+    "funnel_survey__submit_success__description": "We will carefully review your answer and deliver an even better experience for you!",
+
+    "funnel_survey__cta_button__submit_text": "Submit my answer",
+    "funnel_survey__cta_button__loading_text": "Please keep this page open until answer is submitted",
+
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Tell us about your concerns",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "What concerns are keeping you from installing the extension?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Tell us what has stopped you from moving forward..."
   }
 }

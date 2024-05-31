@@ -11,6 +11,7 @@ export const USER_API = {
 };
 export const APP_API = {
   REF_COUNT: '/app/ref_count',
+  SEND_MIXPANEL_LOG: '/app/send_mixpanel_log',
 };
 export const PROMPT_API = {
   SEARCH_PROMPT: '/prompt/search_prompt',

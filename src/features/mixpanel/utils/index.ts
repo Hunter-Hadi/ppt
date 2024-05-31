@@ -6,6 +6,8 @@
 import mixpanel from 'mixpanel-browser';
 
 import useEffectOnce from '@/features/common/hooks/useEffectOnce';
+import { getCurrentDomainHost } from '@/features/common/utils';
+import { getBrowserAgent } from '@/features/common/utils/dataHelper/browserInfoHelper';
 import { getClientUserId } from '@/features/track_user_interactions/utils';
 import { APP_IS_PROD } from '@/global_constants';
 import { getLocalStorage } from '@/utils/localStorage';
@@ -74,5 +76,21 @@ export const mixpanelIdentify = (
     }
   } catch (e) {
     // do nothing
+  }
+};
+
+export const getBasicInfoForMixpanel = () => {
+  try {
+    return {
+      browser: getBrowserAgent(),
+      currentDomain: getCurrentDomainHost(),
+      currentURL: location.href,
+      timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      screenHeight: window.screen.height,
+      screenWidth: window.screen.width,
+      // TODO: more info
+    };
+  } catch (error) {
+    return {};
   }
 };

@@ -8,6 +8,7 @@ import HeroSection from '@/features/landing/components/HeroSection';
 import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
 import TrustedBy from '@/features/landing/components/TrustedBy';
 import UserComment from '@/features/landing/components/UserComment';
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
 import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
 interface IProps {
@@ -101,6 +102,7 @@ const AISummaryPages: FC<IProps> = () => {
       <CallToActionSection
         ctaButtonTrackerLinkProps={{ pathnameRefEnable: true }}
       />
+      <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
   );
 };

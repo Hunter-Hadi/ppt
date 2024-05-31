@@ -5,6 +5,7 @@ import React, { FC } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import CallToActionSection from '@/features/landing/components/CallToActionSection';
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
 import FeaturesLandingBanner from '@/page_components/FeaturesLandingPages/components/FeaturesLandingBanner';
 interface IProps {
@@ -114,6 +115,7 @@ const TranslatePages: FC<IProps> = ({ propRef }) => {
           pathnameRefEnable: true,
         }}
       />
+      <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
   );
 };
