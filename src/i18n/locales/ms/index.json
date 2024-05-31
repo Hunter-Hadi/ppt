@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Lakukan lebih banyak dalam masa yang lebih singkat.",
     "home_page__hero_section__desc__variant2": "Jimat masa dan dapatkan hasil yang lebih baik dengan perbualan AI, penulis semula, ringkasan, dan balasan segera. Dikuasakan oleh GPT-4o, Claude 3, dan Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Balasan segera AI",
-    "home_page__features_carousel__feature_reader__label__full_name": "Pembantu membaca AI"
+    "home_page__features_carousel__feature_reader__label__full_name": "Pembantu membaca AI",
+    "uninstall_survey__title": "Bantu kami memperbaiki"
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Masukkan mulakan penomboran pada",
     "components__pdf_number_pages__main_choose_another_file": "Pilih fail lain",
     "components__pdf_number_pages__main_add_and_download": "Sisip & Muat Turun"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Pasang semula sambungan - Ia percuma",
+    "funnel_survey__submit_success__title": "Terima kasih kerana berkongsi pengalaman anda dengan kami. 🙏",
+    "funnel_survey__submit_success__description": "Kami akan mengkaji jawapan anda dengan teliti dan memberikan pengalaman yang lebih baik untuk anda!",
+    "funnel_survey__cta_button__submit_text": "Hantar jawapan saya",
+    "funnel_survey__cta_button__loading_text": "Menghantar...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Beritahu kami tentang kebimbangan anda",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Apakah kebimbangan yang menghalang anda daripada memasang sambungan ini?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Beritahu kami apa yang menghalang anda dari melangkah ke hadapan...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Beritahu kami tentang kebimbangan anda",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Apa yang membuatkan anda memutuskan untuk memadamkan sambungan pelayar MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Beritahu kami apa yang menyebabkan anda memadamkan..."
   }
 }

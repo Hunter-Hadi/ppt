@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Többet végezzen kevesebb idő alatt.",
     "home_page__hero_section__desc__variant2": "Mentse el az időt és érjen el jobb eredményeket az AI chat, átíró, összefoglaló és azonnali válasz segítségével. GPT-4o, Claude 3 és Gemini 1.5 által támogatva.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI azonnali válasz",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI olvasási segéd"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI olvasási segéd",
+    "uninstall_survey__title": "Segíts nekünk fejlődni"
   },
   "prompt_library": {
     "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Adja meg a kezdő oldalszámot",
     "components__pdf_number_pages__main_choose_another_file": "Válasszon másik fájlt",
     "components__pdf_number_pages__main_add_and_download": "Beszúrás és Letöltés"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Telepítés újra - Ingyenes",
+    "funnel_survey__submit_success__title": "Köszönjük, hogy megosztottad velünk a tapasztalataidat. 🙏",
+    "funnel_survey__submit_success__description": "Gondosan áttekintjük a válaszodat és még jobb élményt nyújtunk számodra!",
+    "funnel_survey__cta_button__submit_text": "Válaszom elküldése",
+    "funnel_survey__cta_button__loading_text": "Beküldés folyamatban...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Mesélj nekünk az aggodalmaidról",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Milyen aggodalmak akadályoznak abban, hogy telepítsd a bővítményt?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Mondd el, mi állított meg a továbblépéstől...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Mesélj nekünk az aggodalmaidról",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Miért döntöttél úgy, hogy eltávolítod a MaxAI.me böngésző-kiegészítőt?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Mondd el, mi okozta az eltávolítást..."
   }
 }

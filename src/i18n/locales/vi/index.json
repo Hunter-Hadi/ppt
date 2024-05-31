@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Làm nhiều hơn trong thời gian ngắn hơn.",
     "home_page__hero_section__desc__variant2": "Tiết kiệm thời gian và đạt được kết quả tốt hơn với trò chuyện AI, công cụ viết lại, tóm tắt và phản hồi tức thì. Được cung cấp bởi GPT-4o, Claude 3 và Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Trả lời tức thì bằng trí tuệ nhân tạo",
-    "home_page__features_carousel__feature_reader__label__full_name": "Trợ lí đọc thông minh bằng trí tuệ nhân tạo"
+    "home_page__features_carousel__feature_reader__label__full_name": "Trợ lí đọc thông minh bằng trí tuệ nhân tạo",
+    "uninstall_survey__title": "Hãy giúp chúng tôi cải thiện"
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Nhập số bắt đầu đánh số từ",
     "components__pdf_number_pages__main_choose_another_file": "Chọn tệp khác",
     "components__pdf_number_pages__main_add_and_download": "Chèn & Tải xuống"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Cài đặt lại tiện ích - Miễn phí",
+    "funnel_survey__submit_success__title": "Cảm ơn bạn đã chia sẻ trải nghiệm của mình với chúng tôi. 🙏",
+    "funnel_survey__submit_success__description": "Chúng tôi sẽ xem xét kỹ lưỡng câu trả lời của bạn và mang đến trải nghiệm tốt hơn cho bạn!",
+    "funnel_survey__cta_button__submit_text": "Gửi câu trả lời của tôi",
+    "funnel_survey__cta_button__loading_text": "Đang gửi...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Hãy cho chúng tôi biết những lo ngại của bạn",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Những lo ngại nào đã ngăn bạn cài đặt tiện ích?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Hãy cho chúng tôi biết điều gì đã ngăn bạn tiếp tục...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Hãy cho chúng tôi biết những lo ngại của bạn",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Điều gì đã khiến bạn quyết định gỡ bỏ tiện ích trình duyệt MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Hãy cho chúng tôi biết điều gì đã khiến bạn gỡ bỏ..."
   }
 }

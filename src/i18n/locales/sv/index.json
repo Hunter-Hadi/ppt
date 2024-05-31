@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Gör mer på mindre tid.",
     "home_page__hero_section__desc__variant2": "Spara tid och få bättre resultat med AI-chatt, omskrivare, sammanfattare och snabbt svar. Drivs av GPT-4o, Claude 3 och Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI omedelbar svar",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI läsassistans"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI läsassistans",
+    "uninstall_survey__title": "Hjälp oss att förbättra"
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Ange startnummer vid",
     "components__pdf_number_pages__main_choose_another_file": "Välj en annan fil",
     "components__pdf_number_pages__main_add_and_download": "Infoga och Ladda ner"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Installera om tillägget - Det är gratis",
+    "funnel_survey__submit_success__title": "Tack för att du delar din upplevelse med oss. 🙏",
+    "funnel_survey__submit_success__description": "Vi kommer noggrant granska ditt svar och leverera en ännu bättre upplevelse för dig!",
+    "funnel_survey__cta_button__submit_text": "Skicka mitt svar",
+    "funnel_survey__cta_button__loading_text": "Skickar...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Berätta om dina bekymmer",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Vilka bekymmer hindrar dig från att installera tillägget?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Berätta vad som har stoppat dig från att gå vidare...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Berätta om dina bekymmer",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Vad fick dig att avinstallera MaxAI.me webbläsartillägget?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Berätta vad som orsakade att du avinstallerade..."
   }
 }

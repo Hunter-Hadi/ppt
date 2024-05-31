@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Doe meer in minder tijd.",
     "home_page__hero_section__desc__variant2": "Bespaar tijd en krijg betere resultaten met AI-chat, herschrijver, samenvatter en direct antwoord. Aangedreven door GPT-4o, Claude 3 en Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI direct antwoord",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI leesassistent"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI leesassistent",
+    "uninstall_survey__title": "Help ons verbeteren"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Voer het beginnummer in",
     "components__pdf_number_pages__main_choose_another_file": "Kies een ander bestand",
     "components__pdf_number_pages__main_add_and_download": "Invoegen en Downloaden"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Installeer extensie opnieuw - Het is gratis",
+    "funnel_survey__submit_success__title": "Bedankt voor het delen van uw ervaring met ons. 🙏",
+    "funnel_survey__submit_success__description": "We zullen uw antwoord zorgvuldig bekijken en een nog betere ervaring voor u bieden!",
+    "funnel_survey__cta_button__submit_text": "Mijn antwoord indienen",
+    "funnel_survey__cta_button__loading_text": "Bezig met indienen...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Vertel ons over uw zorgen",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Welke zorgen weerhouden u ervan om de extensie te installeren?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Vertel ons wat u heeft tegengehouden om verder te gaan...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Vertel ons over uw zorgen",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Wat heeft u doen besluiten om de MaxAI.me browserextensie te verwijderen?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Vertel ons wat de reden was voor het verwijderen..."
   }
 }

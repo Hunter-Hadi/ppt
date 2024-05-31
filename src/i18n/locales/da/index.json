@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Gør mere på kortere tid.",
     "home_page__hero_section__desc__variant2": "Spar tid og få bedre resultater med AI-chat, omskriver, opsummering og øjeblikkelig svar. Drevet af GPT-4o, Claude 3 og Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI øjeblikkelig svar",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI læseassistent"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI læseassistent",
+    "uninstall_survey__title": "Hjælp os med at forbedre"
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Indtast start nummerering ved",
     "components__pdf_number_pages__main_choose_another_file": "Vælg en anden fil",
     "components__pdf_number_pages__main_add_and_download": "Indsæt og Download"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Geninstaller udvidelsen - Det er gratis",
+    "funnel_survey__submit_success__title": "Tak fordi du delte din oplevelse med os. 🙏",
+    "funnel_survey__submit_success__description": "Vi vil nøje gennemgå dit svar og levere en endnu bedre oplevelse for dig!",
+    "funnel_survey__cta_button__submit_text": "Indsend mit svar",
+    "funnel_survey__cta_button__loading_text": "Indsender...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Fortæl os om dine bekymringer",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Hvilke bekymringer forhindrer dig i at installere udvidelsen?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Fortæl os hvad der har stoppet dig fra at gå videre...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Fortæl os om dine bekymringer",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Hvad fik dig til at afinstallere MaxAI.me-browserudvidelsen?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Fortæl os hvad der fik dig til at afinstallere..."
   }
 }

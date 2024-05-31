@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "더 적은 시간에 더 많은 일을하세요.",
     "home_page__hero_section__desc__variant2": "AI 채팅, 리라이터, 요약 및 즉각적인 답변으로 시간을 절약하고 더 나은 결과를 얻으세요. GPT-4o, Claude 3 및 Gemini 1.5의 도움을 받습니다.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI 즉각적인 답변",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI 독서 보조"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI 독서 보조",
+    "uninstall_survey__title": "도움을 주세요"
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "번호 매기기 시작 위치 입력",
     "components__pdf_number_pages__main_choose_another_file": "다른 파일 선택",
     "components__pdf_number_pages__main_add_and_download": "삽입 및 다운로드"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "확장 프로그램 다시 설치 - 무료입니다",
+    "funnel_survey__submit_success__title": "경험을 공유해 주셔서 감사합니다. 🙏",
+    "funnel_survey__submit_success__description": "귀하의 응답을 신중히 검토하여 더 나은 경험을 제공하겠습니다!",
+    "funnel_survey__cta_button__submit_text": "응답 제출하기",
+    "funnel_survey__cta_button__loading_text": "제출 중...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "관심사를 알려주세요",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "확장 프로그램 설치를 막는 걱정거리가 무엇인가요?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "계속 진행하지 못하게 한 이유를 알려주세요...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "관심사를 알려주세요",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.me 브라우저 확장 프로그램을 제거하게 된 이유는 무엇인가요?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "제거한 이유를 알려주세요..."
   }
 }

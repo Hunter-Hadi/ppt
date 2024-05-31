@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Učinite više u manje vremena.",
     "home_page__hero_section__desc__variant2": "Uštedite vrijeme i postignite bolje rezultate s AI chatom, prepravljačem, sažetkom i trenutnim odgovorom. Pokreće GPT-4o, Claude 3 i Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI trenutni odgovor",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI čitač pomoćnik"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI čitač pomoćnik",
+    "uninstall_survey__title": "Pomozite nam poboljšati"
   },
   "prompt_library": {
     "use_prompt_library__title": "Visokokvalitetna AI biblioteka uputa",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Unesite početak numeriranja od",
     "components__pdf_number_pages__main_choose_another_file": "Odaberite drugu datoteku",
     "components__pdf_number_pages__main_add_and_download": "Umetni i Preuzmi"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Ponovno instalirajte proširenje - Besplatno je",
+    "funnel_survey__submit_success__title": "Hvala vam što ste podijelili svoje iskustvo s nama. 🙏",
+    "funnel_survey__submit_success__description": "Pažljivo ćemo pregledati vaš odgovor i pružiti još bolje iskustvo za vas!",
+    "funnel_survey__cta_button__submit_text": "Pošalji moj odgovor",
+    "funnel_survey__cta_button__loading_text": "Slanje...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Recite nam o svojim brigama",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Koje brige vas sprječavaju da instalirate proširenje?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Recite nam što vas je spriječilo da nastavite...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Recite nam o svojim brigama",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Što vas je natjeralo da deinstalirate MaxAI.me preglednik?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Recite nam što je uzrokovalo deinstalaciju..."
   }
 }

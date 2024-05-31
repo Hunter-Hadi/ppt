@@ -632,7 +632,8 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Select the position where you want page numbers to appear.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Adjust page margins and other options as needed.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Click “Add & Download” and wait just a second.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!",
+    "uninstall_survey__title": "Help us improve"
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"
@@ -1341,5 +1342,18 @@
     "payment_info__team__per_user__desc": "per user",
     "plan_button__save_with_yearly_plan": "Save {{PRICE}} with yearly plan",
     "plan_button__free_status__start_for_free": "Start for free"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Reinstall extension - It's free",
+    "funnel_survey__submit_success__title": "Thank you for sharing your experience with us. 🙏",
+    "funnel_survey__submit_success__description": "We will carefully review your answer and deliver an even better experience for you!",
+    "funnel_survey__cta_button__submit_text": "Submit my answer",
+    "funnel_survey__cta_button__loading_text": "Submitting...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Tell us about your concerns",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "What concerns are keeping you from installing the extension?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Tell us what has stopped you from moving forward...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Tell us about your concerns",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "What made you decide to uninstall the MaxAI.me browser extension?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Tell us what caused you to uninstall..."
   }
 }

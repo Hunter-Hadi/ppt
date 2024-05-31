@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Ավելի շատ՝ ավելի պարզապես:",
     "home_page__hero_section__desc__variant2": "Ապրանքային ժամանակ խաղալով և ավելի լավ արդյունքներ ստանաք AI խաղալիքով, վերագրավորիչով, ամփոփիչով և հարուստ պատասխանով: Ուղղակի GPT-4o, Claude 3 և Gemini 1.5-ի արտադրությամբ:",
     "home_page__features_carousel__feature_reply__label__full_name": "AI անկյունագիր",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI ընթերցող օգնական"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI ընթերցող օգնական",
+    "uninstall_survey__title": "Օգնեք մեզ բարելավելության համար"
   },
   "prompt_library": {
     "use_prompt_library__title": "Որակյալ AI խորհրդատու գրադարան",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Մուտքագրեք համարների հաշվարկը",
     "components__pdf_number_pages__main_choose_another_file": "Ընտրեք մեկ այլ ֆայլ",
     "components__pdf_number_pages__main_add_and_download": "Մուտքագրեք և Ներբեռնեք"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Կրկնեք ընդմիջումը - Անվճար է",
+    "funnel_survey__submit_success__title": "Շնորհակալություն, որ կիրառեցիք ձեր փաստարկման համար 🙏",
+    "funnel_survey__submit_success__description": "Մենք կարողանանք խորհուրդ տալ ձեր պատասխանը և ավելի լավ համարել ձեզ համար!",
+    "funnel_survey__cta_button__submit_text": "Ավելացնել պատասխանը",
+    "funnel_survey__cta_button__loading_text": "Առկա է ուղարկվում...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Ասեք մեզ ձեր խնդրերի մասին",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Ի՞նչ խնդրեր են ձեզ հեշտությամբ տարբերակը տեղադրելուց հետո:",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Ասեք մեզ, թե ինչ ձերը կանգ առնելու ձեր ճանապարհին...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Ասեք մեզ ձեր խնդրերի մասին",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Ի՞նչ է ձեզ կատարելու մաքսային MaxAI.me բրաուզերի ընդմիջումը հեռացնելու ուղղությունը:",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Ասեք մեզ, թե ինչ է ձեզ հետաքրքրելու..."
   }
 }

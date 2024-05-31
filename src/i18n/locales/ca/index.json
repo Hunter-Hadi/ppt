@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Fes més en menys temps.",
     "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Resposta instantània d'IA",
-    "home_page__features_carousel__feature_reader__label__full_name": "Assistent de lectura d'IA"
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistent de lectura d'IA",
+    "uninstall_survey__title": "Ajuda'ns a millorar"
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Introdueix el número d'inici de numeració",
     "components__pdf_number_pages__main_choose_another_file": "Trieu un altre fitxer",
     "components__pdf_number_pages__main_add_and_download": "Inserir i Descarregar"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Reinstal·la l'extensió - És gratuïta",
+    "funnel_survey__submit_success__title": "Gràcies per compartir la teva experiència amb nosaltres. 🙏",
+    "funnel_survey__submit_success__description": "Revisarem atentament la teva resposta i oferirem una experiència encara millor per a tu!",
+    "funnel_survey__cta_button__submit_text": "Envia la meva resposta",
+    "funnel_survey__cta_button__loading_text": "S'està enviant...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Explica'ns les teves preocupacions",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Quines preocupacions t'impedeixen instal·lar l'extensió?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Explica'ns què t'ha impedit avançar...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Explica'ns les teves preocupacions",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Què t'ha fet decidir desinstal·lar l'extensió del navegador MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Explica'ns què t'ha fet desinstal·lar..."
   }
 }

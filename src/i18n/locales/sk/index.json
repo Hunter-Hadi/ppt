@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Robte viac za menej času.",
     "home_page__hero_section__desc__variant2": "Ušetrite čas a dosiahnite lepšie výsledky s chatom, prepracovávačom, zhrnutím a okamžitou odpoveďou pomocou AI. Poháňané GPT-4o, Claude 3 a Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI okamžitá odpoveď",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI čítačka asistent"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI čítačka asistent",
+    "uninstall_survey__title": "Pomôžte nám zlepšiť"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knižnica vysoko kvalitných AI promptov",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Zadajte začiatok číslovania",
     "components__pdf_number_pages__main_choose_another_file": "Vyberte iný súbor",
     "components__pdf_number_pages__main_add_and_download": "Vložiť a stiahnuť"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Nainštalovať rozšírenie - Je to zadarmo",
+    "funnel_survey__submit_success__title": "Ďakujeme, že ste sa podelili o svoje skúsenosti s nami. 🙏",
+    "funnel_survey__submit_success__description": "Dôkladne preskúmame vašu odpoveď a poskytneme vám ešte lepšiu skúsenosť!",
+    "funnel_survey__cta_button__submit_text": "Odoslať moju odpoveď",
+    "funnel_survey__cta_button__loading_text": "Odosielanie...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Povedzte nám o svojich obavách",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Aké obavy vás bránia inštalácii rozšírenia?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Povedzte nám, čo vás zastavilo...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Povedzte nám o svojich obavách",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Čo vás motivovalo k odinštalovaniu prehliadačového rozšírenia MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Povedzte nám, čo vás prinútilo odinštalovať..."
   }
 }

@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "在更短的時間內完成更多事情。",
     "home_page__hero_section__desc__variant2": "使用AI聊天、重寫器、摘要和即時回覆節省時間並獲得更好的結果。由GPT-4o、Claude 3和Gemini 1.5提供動力。",
     "home_page__features_carousel__feature_reply__label__full_name": "AI 即時回覆",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI 閱讀助手"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI 閱讀助手",
+    "uninstall_survey__title": "幫助我們改進"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "輸入從哪裡開始編號",
     "components__pdf_number_pages__main_choose_another_file": "選擇另一個檔案",
     "components__pdf_number_pages__main_add_and_download": "插入並下載"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "重新安裝擴展程式 - 免費",
+    "funnel_survey__submit_success__title": "感謝您與我們分享您的經驗。🙏",
+    "funnel_survey__submit_success__description": "我們將仔細審查您的答案，並為您提供更好的體驗！",
+    "funnel_survey__cta_button__submit_text": "提交我的答案",
+    "funnel_survey__cta_button__loading_text": "正在提交...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "告訴我們您的顧慮",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "是什麼原因讓您不安裝此擴展程式？",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "告訴我們阻止您繼續前進的原因...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "告訴我們您的顧慮",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "是什麼原因讓您決定卸載 MaxAI.me 瀏覽器擴展程式？",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "告訴我們導致您卸載的原因..."
   }
 }

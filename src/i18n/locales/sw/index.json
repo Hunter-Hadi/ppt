@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Fanya zaidi kwa muda mfupi.",
     "home_page__hero_section__desc__variant2": "Hifadhi muda na pata matokeo bora na AI chat, rewriter, summarizer, na jibu papo hapo. Inayo nguvu na GPT-4o, Claude 3, na Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Jibu la haraka la AI",
-    "home_page__features_carousel__feature_reader__label__full_name": "Msaidizi wa kusoma wa AI"
+    "home_page__features_carousel__feature_reader__label__full_name": "Msaidizi wa kusoma wa AI",
+    "uninstall_survey__title": "Tusaidie kuboresha"
   },
   "prompt_library": {
     "use_prompt_library__title": "Maktaba ya maelekezo ya AI ya ubora wa juu",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Ingiza anza uwekaji nambari kwenye",
     "components__pdf_number_pages__main_choose_another_file": "Chagua faili nyingine",
     "components__pdf_number_pages__main_add_and_download": "Ingiza na Pakua"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Sakinisha tena - Ni bure",
+    "funnel_survey__submit_success__title": "Asante kwa kushiriki uzoefu wako nasi. 🙏",
+    "funnel_survey__submit_success__description": "Tutapitia jibu lako kwa umakini na kutoa uzoefu bora zaidi kwako!",
+    "funnel_survey__cta_button__submit_text": "Wasilisha jibu langu",
+    "funnel_survey__cta_button__loading_text": "Inatuma...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Tuambie kuhusu wasiwasi wako",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Ni wasiwasi gani unakuzuia kusakinisha kifaa cha kupanua?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Tuambie kilichokusimamisha kuendelea...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Tuambie kuhusu wasiwasi wako",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Nini kilichokufanya uamue kuondoa kifaa cha kupanua MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Tuambie kilichosababisha uondoe..."
   }
 }

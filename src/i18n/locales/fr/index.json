@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Faites plus en moins de temps.",
     "home_page__hero_section__desc__variant2": "Gagnez du temps et obtenez de meilleurs résultats avec le chat IA, le rédacteur, le résumeur et la réponse instantanée. Propulsé par GPT-4o, Claude 3 et Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Réponse instantanée de l'IA",
-    "home_page__features_carousel__feature_reader__label__full_name": "Assistant de lecture de l'IA"
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistant de lecture de l'IA",
+    "uninstall_survey__title": "Aidez-nous à nous améliorer"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Saisissez le numéro de départ",
     "components__pdf_number_pages__main_choose_another_file": "Choisir un autre fichier",
     "components__pdf_number_pages__main_add_and_download": "Insérer et Télécharger"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Réinstaller l'extension - C'est gratuit",
+    "funnel_survey__submit_success__title": "Merci d'avoir partagé votre expérience avec nous. 🙏",
+    "funnel_survey__submit_success__description": "Nous examinerons attentivement votre réponse et vous offrirons une expérience encore meilleure !",
+    "funnel_survey__cta_button__submit_text": "Envoyer ma réponse",
+    "funnel_survey__cta_button__loading_text": "En cours d'envoi...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Parlez-nous de vos préoccupations",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Quelles sont les préoccupations qui vous empêchent d'installer l'extension ?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Dites-nous ce qui vous a empêché d'avancer...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Parlez-nous de vos préoccupations",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Qu'est-ce qui vous a poussé à désinstaller l'extension MaxAI.me pour navigateur ?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Dites-nous ce qui vous a poussé à désinstaller..."
   }
 }

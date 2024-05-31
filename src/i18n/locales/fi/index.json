@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Tee enemmän vähemmässä ajassa.",
     "home_page__hero_section__desc__variant2": "Säästä aikaa ja saavuta parempia tuloksia tekoälychatin, uudelleenkirjoittajan, tiivistäjän ja välittömän vastauksen avulla. Toimii GPT-4o:n, Claude 3:n ja Gemini 1.5:n voimalla.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI pikavastaus",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI lukemisavustaja"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI lukemisavustaja",
+    "uninstall_survey__title": "Auta meitä parantamaan"
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Syötä aloitusnumero",
     "components__pdf_number_pages__main_choose_another_file": "Valitse toinen tiedosto",
     "components__pdf_number_pages__main_add_and_download": "Lisää ja Lataa"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Asenna laajennus uudelleen - Se on ilmainen",
+    "funnel_survey__submit_success__title": "Kiitos, että jaat kokemuksesi kanssamme. 🙏",
+    "funnel_survey__submit_success__description": "Käsittelemme vastauksesi huolellisesti ja tarjoamme sinulle vielä paremman käyttökokemuksen!",
+    "funnel_survey__cta_button__submit_text": "Lähetä vastaukseni",
+    "funnel_survey__cta_button__loading_text": "Lähetetään...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Kerro meille huolenaiheistasi",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Mitkä huolenaiheet estävät sinua asentamasta laajennusta?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Kerro meille, mikä on estänyt sinua etenemästä...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Kerro meille huolenaiheistasi",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Mikä sai sinut poistamaan MaxAI.me-selainlaajennuksen?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Kerro meille, mikä aiheutti poistamisen..."
   }
 }

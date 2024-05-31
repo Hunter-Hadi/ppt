@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "少ない時間でより多くのことを行います。",
     "home_page__hero_section__desc__variant2": "AIチャット、リライター、要約、インスタントリプライで時間を節約し、より良い結果を得る。GPT-4o、Claude 3、Gemini 1.5によって強化されています。",
     "home_page__features_carousel__feature_reply__label__full_name": "AIの即時返信",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI読み上げアシスタント"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI読み上げアシスタント",
+    "uninstall_survey__title": "改善にご協力ください"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "開始番号を入力",
     "components__pdf_number_pages__main_choose_another_file": "別のファイルを選択",
     "components__pdf_number_pages__main_add_and_download": "挿入してダウンロード"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "拡張機能を再インストール - 無料です",
+    "funnel_survey__submit_success__title": "ご意見ありがとうございます。🙏",
+    "funnel_survey__submit_success__description": "ご意見を丁寧に確認し、さらに良い体験を提供します！",
+    "funnel_survey__cta_button__submit_text": "回答を送信する",
+    "funnel_survey__cta_button__loading_text": "送信中...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "ご不安を教えてください",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "拡張機能のインストールを躊躇している理由は何ですか？",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "進めなくなった理由を教えてください...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "ご不安を教えてください",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.meブラウザ拡張機能をアンインストールする決め手となった理由は何ですか？",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "アンインストールの原因を教えてください..."
   }
 }

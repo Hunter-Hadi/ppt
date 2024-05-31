@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Faça mais em menos tempo.",
     "home_page__hero_section__desc__variant2": "Economize tempo e obtenha melhores resultados com chat de IA, reescritor, resumidor e resposta instantânea. Alimentado por GPT-4o, Claude 3 e Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Resposta instantânea de IA",
-    "home_page__features_carousel__feature_reader__label__full_name": "Assistente de leitura de IA"
+    "home_page__features_carousel__feature_reader__label__full_name": "Assistente de leitura de IA",
+    "uninstall_survey__title": "Ajude-nos a melhorar"
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de prompts de IA de alta qualidade",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Digite o número inicial de numeração",
     "components__pdf_number_pages__main_choose_another_file": "Escolher outro arquivo",
     "components__pdf_number_pages__main_add_and_download": "Inserir e Baixar"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Reinstalar extensão - É grátis",
+    "funnel_survey__submit_success__title": "Obrigado por compartilhar sua experiência conosco. 🙏",
+    "funnel_survey__submit_success__description": "Vamos analisar cuidadosamente sua resposta e oferecer uma experiência ainda melhor para você!",
+    "funnel_survey__cta_button__submit_text": "Enviar minha resposta",
+    "funnel_survey__cta_button__loading_text": "Enviando...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Conte-nos sobre suas preocupações",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Quais preocupações estão impedindo você de instalar a extensão?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Diga-nos o que o impediu de prosseguir...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Conte-nos sobre suas preocupações",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "O que fez você decidir desinstalar a extensão do MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Diga-nos o que causou a desinstalação..."
   }
 }

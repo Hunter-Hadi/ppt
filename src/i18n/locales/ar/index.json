@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "افعل المزيد في وقت أقل.",
     "home_page__hero_section__desc__variant2": "وفّر الوقت واحصل على نتائج أفضل مع دردشة الذكاء الاصطناعي، وأداة إعادة الكتابة، وملخص النصوص، والرد الفوري. يعمل بواسطة GPT-4o، Claude 3، وGemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "رد فوري بواسطة الذكاء الاصطناعي",
-    "home_page__features_carousel__feature_reader__label__full_name": "مساعد قراءة الذكاء الاصطناعي"
+    "home_page__features_carousel__feature_reader__label__full_name": "مساعد قراءة الذكاء الاصطناعي",
+    "uninstall_survey__title": "ساعدنا على التحسين"
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "أدخل بدء الترقيم من",
     "components__pdf_number_pages__main_choose_another_file": "اختر ملف آخر",
     "components__pdf_number_pages__main_add_and_download": "إدراج وتنزيل"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "أعد تثبيت الامتداد - مجانًا",
+    "funnel_survey__submit_success__title": "شكرًا لمشاركة تجربتك معنا. 🙏",
+    "funnel_survey__submit_success__description": "سنقوم بمراجعة إجابتك بعناية وتقديم تجربة أفضل لك!",
+    "funnel_survey__cta_button__submit_text": "إرسال إجابتي",
+    "funnel_survey__cta_button__loading_text": "جارٍ الإرسال...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "أخبرنا عن مخاوفك",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "ما هي المخاوف التي تمنعك من تثبيت الامتداد؟",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "أخبرنا ما الذي منعك من المضي قدمًا...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "أخبرنا عن مخاوفك",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "ما الذي جعلك تقرر إلغاء تثبيت امتداد MaxAI.me للمتصفح؟",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "أخبرنا ما الذي تسبب في إلغاء التثبيت..."
   }
 }

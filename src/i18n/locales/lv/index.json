@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Dariet vairāk mazāk laikā.",
     "home_page__hero_section__desc__variant2": "Ietaupiet laiku un iegūstiet labākus rezultātus ar AI čatu, pārrakstītāju, kopsavilkumu un nekavējoties atbildēm. Darbina GPT-4o, Claude 3 un Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI tūlītējā atbilde",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI lasīšanas asistents"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI lasīšanas asistents",
+    "uninstall_survey__title": "Palīdziet mums uzlabot"
   },
   "prompt_library": {
     "use_prompt_library__title": "Augstas kvalitātes AI pamatbibliotēka",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Ievadiet sākuma numerāciju",
     "components__pdf_number_pages__main_choose_another_file": "Izvēlieties citu failu",
     "components__pdf_number_pages__main_add_and_download": "Ievietot un lejupielādēt"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Pārinstalēt paplašinājumu - Tas ir bezmaksas",
+    "funnel_survey__submit_success__title": "Paldies, ka dalījāties savu pieredzi ar mums. 🙏",
+    "funnel_survey__submit_success__description": "Mēs rūpīgi izvērtēsim jūsu atbildi un nodrošināsim vēl labāku pieredzi jums!",
+    "funnel_survey__cta_button__submit_text": "Iesniegt manu atbildi",
+    "funnel_survey__cta_button__loading_text": "Notiek iesniegšana...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Pastāstiet mums par savām bažām",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Kādas bažas jums traucē instalēt paplašinājumu?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Pastāstiet mums, kas jums traucēja turpināt...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Pastāstiet mums par savām bažām",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Kas lika jums noņemt MaxAI.me pārlūka paplašinājumu?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Pastāstiet mums, kas izraisīja jūsu noņemšanu..."
   }
 }

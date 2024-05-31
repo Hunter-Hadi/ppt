@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Делайте больше за меньшее время.",
     "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Мгновенный ответ ИИ",
-    "home_page__features_carousel__feature_reader__label__full_name": "Помощник для чтения ИИ"
+    "home_page__features_carousel__feature_reader__label__full_name": "Помощник для чтения ИИ",
+    "uninstall_survey__title": "Помогите нам улучшить"
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Введите начальное значение нумерации",
     "components__pdf_number_pages__main_choose_another_file": "Выберите другой файл",
     "components__pdf_number_pages__main_add_and_download": "Вставить и скачать"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Установить расширение заново - Бесплатно",
+    "funnel_survey__submit_success__title": "Спасибо за ваш отзыв. 🙏",
+    "funnel_survey__submit_success__description": "Мы внимательно изучим ваш ответ и предоставим вам еще лучший опыт!",
+    "funnel_survey__cta_button__submit_text": "Отправить мой ответ",
+    "funnel_survey__cta_button__loading_text": "Отправка...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Расскажите нам о ваших опасениях",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Какие опасения помешали вам установить расширение?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Расскажите, что остановило вас...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Расскажите нам о ваших опасениях",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Что заставило вас удалить браузерное расширение MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Расскажите, что привело к удалению..."
   }
 }

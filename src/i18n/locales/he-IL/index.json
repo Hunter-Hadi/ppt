@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "עשה יותר בפחות זמן.",
     "home_page__hero_section__desc__variant2": "חסוך זמן וקבל תוצאות טובות יותר עם צ'אט AI, מחדד, סיכום ותשובה מיידית. מופעל על ידי GPT-4o, Claude 3 ו-Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "תשובה מיידית של AI",
-    "home_page__features_carousel__feature_reader__label__full_name": "עוזר קריאה של AI"
+    "home_page__features_carousel__feature_reader__label__full_name": "עוזר קריאה של AI",
+    "uninstall_survey__title": "עזור לנו לשפר"
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים AI באיכות גבוהה",
@@ -1341,5 +1342,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "הזן התחל למספר ב-",
     "components__pdf_number_pages__main_choose_another_file": "בחר קובץ אחר",
     "components__pdf_number_pages__main_add_and_download": "הוסף והורד"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "התקן מחדש את התוסף - זה חינם",
+    "funnel_survey__submit_success__title": "תודה ששיתפת את החוויה שלך איתנו. 🙏",
+    "funnel_survey__submit_success__description": "אנחנו נבדוק בקפידה את התשובה שלך ונספק חוויה טובה יותר עבורך!",
+    "funnel_survey__cta_button__submit_text": "שלח את התשובה שלי",
+    "funnel_survey__cta_button__loading_text": "מבצע את השליחה...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "ספר לנו על הדאגות שלך",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "אילו דאגות מונעות ממך להתקין את התוסף?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "ספר לנו מה עצר אותך מלהמשיך...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "ספר לנו על הדאגות שלך",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "מה גרם לך להסיר את התוסף MaxAI.me מהדפדפן?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "ספר לנו מה הגרים לך להסיר..."
   }
 }

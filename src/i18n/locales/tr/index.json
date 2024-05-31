@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Daha az zamanda daha fazlasını yapın.",
     "home_page__hero_section__desc__variant2": "AI sohbeti, yeniden yazıcıyı, özetleyiciyi ve anında yanıtı kullanarak zaman kazanın ve daha iyi sonuçlar elde edin. GPT-4o, Claude 3 ve Gemini 1.5 tarafından desteklenmektedir.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI anlık yanıt",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI okuma asistanı"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI okuma asistanı",
+    "uninstall_survey__title": "Bize yardımcı olun"
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Numaralandırmaya başlama sayısını girin",
     "components__pdf_number_pages__main_choose_another_file": "Başka bir dosya seçin",
     "components__pdf_number_pages__main_add_and_download": "Ekle ve İndir"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Uzantıyı yeniden yükle - Ücretsiz",
+    "funnel_survey__submit_success__title": "Deneyiminizi bizimle paylaştığınız için teşekkür ederiz. 🙏",
+    "funnel_survey__submit_success__description": "Cevabınızı dikkatlice inceleyeceğiz ve sizin için daha iyi bir deneyim sunacağız!",
+    "funnel_survey__cta_button__submit_text": "Cevabımı gönder",
+    "funnel_survey__cta_button__loading_text": "Gönderiliyor...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Endişeleriniz hakkında bize bilgi verin",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Uzantıyı yüklemekten alıkoyan endişeleriniz nelerdir?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "İlerlemeye engel olan nedir, bize anlatın...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Endişeleriniz hakkında bize bilgi verin",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.me tarayıcı uzantısını kaldırmanıza ne sebep oldu?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Kaldırmanıza sebep olan nedir, bize anlatın..."
   }
 }

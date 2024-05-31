@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Tee rohkem vähema ajaga.",
     "home_page__hero_section__desc__variant2": "Säästa aega ja saa paremaid tulemusi AI vestluse, ümberkirjutaja, kokkuvõtja ja kiire vastuse abil. Töötab GPT-4o, Claude 3 ja Gemini 1.5 poolt.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI kiire vastus",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI lugemisabiline"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI lugemisabiline",
+    "uninstall_survey__title": "Aita meil paremaks saada"
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Sisesta nummerdamise alguskoht",
     "components__pdf_number_pages__main_choose_another_file": "Valige teine fail",
     "components__pdf_number_pages__main_add_and_download": "Sisesta ja Laadi alla"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Paigalda laiendus uuesti - See on tasuta",
+    "funnel_survey__submit_success__title": "Aitäh, et jagasid oma kogemust meiega. 🙏",
+    "funnel_survey__submit_success__description": "Vaatame hoolikalt üle sinu vastuse ja pakume sulle veelgi paremat kogemust!",
+    "funnel_survey__cta_button__submit_text": "Esita oma vastus",
+    "funnel_survey__cta_button__loading_text": "Esitan...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Räägi meile oma muredest",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Millised mured takistavad sul laienduse paigaldamist?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Räägi meile, mis on sind edasi liikumast takistanud...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Räägi meile oma muredest",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Mis pani sind otsustama MaxAI.me brauserilaiendi desinstallida?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Räägi meile, mis põhjustas desinstallimise..."
   }
 }

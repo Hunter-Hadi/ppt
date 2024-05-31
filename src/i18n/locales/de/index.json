@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Mehr in weniger Zeit erledigen.",
     "home_page__hero_section__desc__variant2": "Sparen Sie Zeit und erzielen Sie bessere Ergebnisse mit KI-Chat, Umformulierer, Zusammenfasser und Sofortantwort. Angetrieben von GPT-4o, Claude 3 und Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI Sofortantwort",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI Leseassistent"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI Leseassistent",
+    "uninstall_survey__title": "Helfen Sie uns, uns zu verbessern"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Nummerierung beginnen bei",
     "components__pdf_number_pages__main_choose_another_file": "Wählen Sie eine andere Datei",
     "components__pdf_number_pages__main_add_and_download": "Einfügen & Herunterladen"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Erweiterung neu installieren - Es ist kostenlos",
+    "funnel_survey__submit_success__title": "Vielen Dank, dass Sie Ihre Erfahrung mit uns teilen. 🙏",
+    "funnel_survey__submit_success__description": "Wir werden Ihre Antwort sorgfältig prüfen und Ihnen ein noch besseres Erlebnis bieten!",
+    "funnel_survey__cta_button__submit_text": "Meine Antwort absenden",
+    "funnel_survey__cta_button__loading_text": "Wird gesendet...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Teilen Sie uns Ihre Bedenken mit",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Welche Bedenken hindern Sie daran, die Erweiterung zu installieren?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Teilen Sie uns mit, was Sie davon abgehalten hat, weiterzumachen...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Teilen Sie uns Ihre Bedenken mit",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Was hat Sie dazu veranlasst, die MaxAI.me-Browsererweiterung zu deinstallieren?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Teilen Sie uns mit, was dazu geführt hat, dass Sie deinstalliert haben..."
   }
 }

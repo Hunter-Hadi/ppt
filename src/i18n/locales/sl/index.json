@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Naredite več v manj časa.",
     "home_page__hero_section__desc__variant2": "Prihranite čas in dosežite boljše rezultate z AI klepetom, preoblikovalnikom, povzetkom in takojšnjim odgovorom. Poganja jih GPT-4o, Claude 3 in Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI takojšen odgovor",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI bralni pomočnik"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI bralni pomočnik",
+    "uninstall_survey__title": "Pomagajte nam izboljšati"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Vnesite začetno številko",
     "components__pdf_number_pages__main_choose_another_file": "Izberite drugo datoteko",
     "components__pdf_number_pages__main_add_and_download": "Vstavi in prenesi"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Namesti razširitev - Brezplačno je",
+    "funnel_survey__submit_success__title": "Hvala, ker ste delili svojo izkušnjo z nami. 🙏",
+    "funnel_survey__submit_success__description": "Vaš odgovor bomo skrbno pregledali in vam zagotovili še boljšo izkušnjo!",
+    "funnel_survey__cta_button__submit_text": "Pošlji moj odgovor",
+    "funnel_survey__cta_button__loading_text": "Pošiljanje...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Povejte nam o vaših pomislekih",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Kateri pomisleki vas odvračajo od namestitve razširitve?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Povejte nam, kaj vas je ustavilo pri nadaljevanju...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Povejte nam o vaših pomislekih",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Kaj vas je prepričalo, da odstranite brskalniško razširitev MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Povejte nam, kaj je povzročilo odstranitev..."
   }
 }

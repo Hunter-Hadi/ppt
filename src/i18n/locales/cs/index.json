@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Dělejte více za méně času.",
     "home_page__hero_section__desc__variant2": "Ušetřete čas a získávejte lepší výsledky s chatem AI, přepisovačem, shrnováním a okamžitou odpovědí. Poháněno GPT-4o, Claude 3 a Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "Okamžitá odpověď AI",
-    "home_page__features_carousel__feature_reader__label__full_name": "Asistent pro čtení AI"
+    "home_page__features_carousel__feature_reader__label__full_name": "Asistent pro čtení AI",
+    "uninstall_survey__title": "Pomozte nám zlepšit"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Zadejte počáteční číslo",
     "components__pdf_number_pages__main_choose_another_file": "Vyberte jiný soubor",
     "components__pdf_number_pages__main_add_and_download": "Vložit a stáhnout"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Nainstalovat rozšíření - Je to zdarma",
+    "funnel_survey__submit_success__title": "Děkujeme, že jste se podělili o své zkušenosti s námi. 🙏",
+    "funnel_survey__submit_success__description": "Vaši odpověď pečlivě zkontrolujeme a přineseme vám ještě lepší zážitek!",
+    "funnel_survey__cta_button__submit_text": "Odeslat mou odpověď",
+    "funnel_survey__cta_button__loading_text": "Odesílání...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Sdělte nám své obavy",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Jaké obavy vás brání v instalaci rozšíření?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Řekněte nám, co vás zastavilo...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Sdělte nám své obavy",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Co vás vedlo k odinstalování prohlížeče MaxAI.me?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Řekněte nám, co způsobilo vaše odinstalování..."
   }
 }

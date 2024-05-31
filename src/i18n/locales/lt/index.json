@@ -632,7 +632,8 @@
     "home_page__hero_section__title__variant2__part2": "Darykite daugiau mažiau laiko.",
     "home_page__hero_section__desc__variant2": "Sutaupykite laiko ir gaukite geriausius rezultatus naudodami dirbtinio intelekto pokalbių, peržiūros, santraukos ir momentinės atsakymo funkcijas. Veikia su GPT-4o, Claude 3 ir Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI greitas atsakymas",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI skaitymo asistentas"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI skaitymo asistentas",
+    "uninstall_survey__title": "Padėkite mums pagerinti"
   },
   "prompt_library": {
     "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Įveskite pradžios numeravimą",
     "components__pdf_number_pages__main_choose_another_file": "Pasirinkite kitą failą",
     "components__pdf_number_pages__main_add_and_download": "Įterpti ir atsisiųsti"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "Įdiegti plėtinį - Tai nemokama",
+    "funnel_survey__submit_success__title": "Dėkojame, kad pasidalinote savo patirtimi su mumis. 🙏",
+    "funnel_survey__submit_success__description": "Mes atidžiai peržiūrėsime jūsų atsakymą ir suteiksime dar geresnę patirtį!",
+    "funnel_survey__cta_button__submit_text": "Pateikti mano atsakymą",
+    "funnel_survey__cta_button__loading_text": "Siunčiama...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Pasakykite mums apie savo rūpesčius",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Kokie rūpesčiai trukdo jums įdiegti plėtinį?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Pasakykite, kas jus stabdo judant pirmyn...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Pasakykite mums apie savo rūpesčius",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Kas lėmė, kad pašalintumėte MaxAI.me naršyklės plėtinį?",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Pasakykite, kas lėmė jūsų pašalinimą..."
   }
 }

@@ -618,7 +618,8 @@
     "home_page__hero_section__title__variant2__part2": "更少时间做更多事情。",
     "home_page__hero_section__desc__variant2": "通过AI聊天、重写器、摘要生成器和即时回复节省时间并获得更好的结果。由GPT-4o、Claude 3和Gemini 1.5提供支持。",
     "home_page__features_carousel__feature_reply__label__full_name": "AI即时回复",
-    "home_page__features_carousel__feature_reader__label__full_name": "AI阅读助手"
+    "home_page__features_carousel__feature_reader__label__full_name": "AI阅读助手",
+    "uninstall_survey__title": "帮助我们改进"
   },
   "button": {
     "add_to_chrome_for_free": "免费添加到Chrome",
@@ -1342,5 +1343,18 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "输入以下数字开始编号",
     "components__pdf_number_pages__main_choose_another_file": "选择另一个文件",
     "components__pdf_number_pages__main_add_and_download": "插入并下载"
+  },
+  "survey": {
+    "funnel_survey__reinstall_cta_btn__text": "重新安装扩展 - 免费",
+    "funnel_survey__submit_success__title": "感谢您与我们分享您的经验。🙏",
+    "funnel_survey__submit_success__description": "我们将仔细审查您的答案，并为您提供更好的体验！",
+    "funnel_survey__cta_button__submit_text": "提交我的答案",
+    "funnel_survey__cta_button__loading_text": "正在提交...",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__title": "告诉我们您的顾虑",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "是什么原因阻止您安装扩展？",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "告诉我们阻止您继续前进的原因...",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "告诉我们您的顾虑",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "是什么原因导致您卸载MaxAI.me浏览器扩展？",
+    "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "告诉我们导致您卸载的原因..."
   }
 }
