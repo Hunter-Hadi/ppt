@@ -89,6 +89,7 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
         width: 440,
         minWidth: 440,
         overflow: 'hidden',
+        boxShadow: '0px 4px 8px 0px #00000029',
         ...sx,
       }}
     >
