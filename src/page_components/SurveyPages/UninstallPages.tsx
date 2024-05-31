@@ -1,4 +1,4 @@
-import { buttonClasses, Paper, Stack } from '@mui/material';
+import { buttonClasses, Paper, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useState } from 'react';
 
@@ -57,16 +57,39 @@ const UninstallPages: FC = () => {
       <AppDefaultSeoLayout title={t('seo:uninstall__title')} />
 
       <Paper
+        elevation={0}
         sx={{
           position: 'absolute',
           top: '40%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           borderRadius: 4,
-          overflow: 'hidden',
+          // overflow: 'hidden',
           width: 440,
         }}
       >
+        <Stack
+          sx={{
+            position: 'absolute',
+            top: '-30%',
+            left: '50%',
+            zIndex: 1000,
+            transform: 'translateX(-50%)',
+            width: 'max-content',
+          }}
+        >
+          <Typography
+            variant='custom'
+            fontSize={32}
+            lineHeight={1.5}
+            fontWeight={900}
+            textAlign='center'
+            mx='auto'
+          >
+            {t('pages:uninstall_survey__title')}
+          </Typography>
+        </Stack>
+
         <FunnelSurveyContentRenderer
           sceneType={'SURVEY_UNINSTALL_COMPLETED'}
           SubmitSuccessNode={

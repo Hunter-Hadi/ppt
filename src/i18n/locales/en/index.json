@@ -691,7 +691,9 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_2": "Select the position where you want page numbers to appear.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Adjust page margins and other options as needed.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Click “Add & Download” and wait just a second.",
-    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!"
+    "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!",
+
+    "uninstall_survey__title": "Help us improve"
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"
