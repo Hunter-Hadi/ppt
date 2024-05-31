@@ -8,7 +8,7 @@ const useFunnelSurveyOpenTimer = (
   enabled: boolean,
   sceneType: IFunnelSurveySceneType,
 ) => {
-  const { openPopup } = useFunnelSurveyController(sceneType);
+  const { openPopup, closePopup } = useFunnelSurveyController(sceneType);
 
   const { loaded: checkExtensionLoaded, hasExtension } = useCheckExtension();
 
@@ -24,8 +24,17 @@ const useFunnelSurveyOpenTimer = (
 
     if (!hasExtension) {
       openPopup(5000);
+    } else {
+      closePopup();
     }
-  }, [enabled, sceneType, checkExtensionLoaded, hasExtension, openPopup]);
+  }, [
+    enabled,
+    sceneType,
+    checkExtensionLoaded,
+    hasExtension,
+    openPopup,
+    closePopup,
+  ]);
 
   return null;
 };
