@@ -16,7 +16,7 @@ import { getBasicInfoForMixpanel } from '@/features/mixpanel/utils';
 import {
   FUNNEL_SURVEY_CONFIG,
   FUNNEL_SURVEY_MIXPANEL_EVENTNAME,
-} from '@/features/survey/constants/funnelSurveyConfig';
+} from '@/features/survey/constants/funnel_survey';
 import { IFunnelSurveySceneType } from '@/features/survey/types';
 import { getClientUserId } from '@/features/track_user_interactions/utils';
 import { APP_API } from '@/utils/api';
