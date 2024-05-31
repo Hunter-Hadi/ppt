@@ -29,6 +29,21 @@ export const FUNNEL_SURVEY_CONFIG: Record<
       },
     ],
   },
+  SURVEY_UNINSTALL_COMPLETED: {
+    popupTitle: 'survey:funnel_survey__SURVEY_UNINSTALL_COMPLETED__title',
+    questionSetting: [
+      {
+        type: 'input',
+        name: 'What made you decide to uninstall the MaxAI.me browser extension?',
+        label:
+          'survey:funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1',
+        meta: {
+          placeholder:
+            'survey:funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder',
+        },
+      },
+    ],
+  },
 };
 
 export const FUNNEL_SURVEY_MIXPANEL_EVENTNAME: Record<
@@ -36,4 +51,5 @@ export const FUNNEL_SURVEY_MIXPANEL_EVENTNAME: Record<
   string
 > = {
   SURVEY_INSTALL_DROPPED: 'survey_install_dropped_backend',
+  SURVEY_UNINSTALL_COMPLETED: 'survey_uninstall_completed_backend',
 };

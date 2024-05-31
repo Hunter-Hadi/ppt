@@ -12,7 +12,6 @@ import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
-import useFunnelSurveyController from '@/features/survey/hooks/useFunnelSurveyController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink, {
   IUseShareTrackerLinkProps,
@@ -64,10 +63,6 @@ const CTAInstallButton: FC<IProps> = ({
     ...trackerLinkProps,
     agent: showAgent,
   });
-
-  const { closePopup: closeInstallDroppedSurvey } = useFunnelSurveyController(
-    'SURVEY_INSTALL_DROPPED',
-  );
 
   const { browserAgent } = useBrowserAgent();
 
@@ -141,7 +136,6 @@ const CTAInstallButton: FC<IProps> = ({
   }, [sx, isEmbedMode, label]);
 
   const handleClick = (e: React.MouseEvent) => {
-    closeInstallDroppedSurvey();
     mixpanelTrack('install_started', {
       ref,
     });

@@ -1,5 +1,6 @@
 import { LoadingButton, loadingButtonClasses } from '@mui/lab';
 import {
+  Box,
   CircularProgress,
   Paper,
   Stack,
@@ -17,21 +18,26 @@ import {
   FUNNEL_SURVEY_CONFIG,
   FUNNEL_SURVEY_MIXPANEL_EVENTNAME,
 } from '@/features/survey/constants/funnel_survey';
+import useFunnelSurveyController from '@/features/survey/hooks/useFunnelSurveyController';
 import { IFunnelSurveySceneType } from '@/features/survey/types';
+import { transformRecordKeyNameToLowerCase } from '@/features/survey/utils';
 import { getClientUserId } from '@/features/track_user_interactions/utils';
 import { APP_API } from '@/utils/api';
 import { webappPost } from '@/utils/request';
 
-import useFunnelSurveyController from '../hooks/useFunnelSurveyController';
-
 interface IFunnelSurveyContentRendererProps {
   sceneType: IFunnelSurveySceneType;
   sx?: SxProps;
+  afterSubmit?: (success: boolean) => void;
+
+  SubmitSuccessNode?: React.ReactNode;
 }
 
 const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
   sceneType,
   sx,
+  afterSubmit,
+  SubmitSuccessNode,
 }) => {
   const { closePopup } = useFunnelSurveyController(sceneType);
   const { t } = useTranslation();
@@ -56,22 +62,31 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
         client_user_id: getClientUserId(true),
         data: {
           ...getBasicInfoForMixpanel(),
-          ...formData,
+          ...transformRecordKeyNameToLowerCase(formData),
         },
       };
+
+      console.log(
+        'submit mixpanel data',
+        FUNNEL_SURVEY_MIXPANEL_EVENTNAME[sceneType],
+        data,
+      );
+
       // 通知后端发送 mixpanel 事件
       await webappPost(APP_API.SEND_MIXPANEL_LOG, {
         info: aesJsonEncrypt(data),
       });
       setSubmitSuccess(true);
+      afterSubmit && afterSubmit(true);
       setLoading(false);
     } catch (error) {
       // 即使接口报错也显示提交成功
       console.error(error);
       setSubmitSuccess(true);
+      afterSubmit && afterSubmit(true);
       setLoading(false);
     }
-  }, [formData, sceneType]);
+  }, [formData, sceneType, afterSubmit]);
 
   useEffect(() => {
     // 如果提交成功了， 5秒后关闭弹窗
@@ -225,7 +240,6 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
                 [`& .${loadingButtonClasses.loadingIndicator}`]: {
                   position: 'static',
                   transform: 'none',
-                  width: '100%',
                   boxSizing: 'border-box',
                 },
               }}
@@ -240,6 +254,10 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
             </LoadingButton>
           </>
         )}
+
+        {submitSuccess && SubmitSuccessNode ? (
+          <Box>{SubmitSuccessNode}</Box>
+        ) : null}
       </Stack>
     </Paper>
   );
