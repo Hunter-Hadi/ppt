@@ -1502,7 +1502,7 @@
     "plan_button__free_status__start_for_free": "Start for free"
   },
   "survey": {
-    "funnel_survey__free_to_close": "Feel free to close this page now.",
+    "funnel_survey__reinstall_cta_btn__text": "Reinstall extension - It's free",
 
     "funnel_survey__submit_success__title": "Thank you for sharing your experience with us. 🙏",
     "funnel_survey__submit_success__description": "We will carefully review your answer and deliver an even better experience for you!",

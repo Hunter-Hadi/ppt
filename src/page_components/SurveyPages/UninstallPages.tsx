@@ -1,16 +1,21 @@
-import { Paper, Stack, Typography } from '@mui/material';
+import { buttonClasses, Paper, Stack } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useState } from 'react';
-import { UAParser } from 'ua-parser-js';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import CustomIcon from '@/components/CustomIcon';
+import useBrowserAgent from '@/features/common/hooks/useBrowserAgent';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
 import FunnelSurveyContentRenderer from '@/features/survey/components/FunnelSurveyContentRenderer';
-const { getBrowser } = new UAParser();
+
+import CTAInstallButton from '../CTAInstallButton';
 
 const UninstallPages: FC = () => {
   // const router = useRouter();
+
+  const { browserAgent: agent } = useBrowserAgent();
+
   const { t } = useTranslation();
   const [domLoaded, setDomLoaded] = useState(false);
   useEffect(() => {
@@ -65,15 +70,39 @@ const UninstallPages: FC = () => {
         <FunnelSurveyContentRenderer
           sceneType={'SURVEY_UNINSTALL_COMPLETED'}
           SubmitSuccessNode={
-            <Stack justifyContent={'center'} alignItems='center' mt={3}>
-              <Typography
-                variant='custom'
-                fontSize={24}
-                lineHeight={1.5}
-                bgcolor='rgba(255, 246, 122, 0.8)'
-              >
-                {t('survey:funnel_survey__free_to_close')}
-              </Typography>
+            <Stack justifyContent={'center'} alignItems='center' mt={3} px={2}>
+              <CTAInstallButton
+                variant={'contained'}
+                text={t('survey:funnel_survey__reinstall_cta_btn__text')}
+                trackerLinkProps={{
+                  queryRefEnable: true,
+                  pathnameRefEnable: false,
+                }}
+                adaptiveLabel
+                startIcon={
+                  <CustomIcon
+                    icon={agent === 'Edge' ? 'EdgeColor' : 'Chrome'}
+                    sx={{
+                      fontSize: '24px !important',
+                    }}
+                  />
+                }
+                sx={{
+                  height: 48,
+                  px: 3,
+                  fontSize: 16,
+                  background: '#0059D8',
+                  '&:hover': {
+                    background: '#0059D8',
+                  },
+                  [`& .${buttonClasses.startIcon}`]: {
+                    display: {
+                      xs: 'none',
+                      sm: 'inherit',
+                    },
+                  },
+                }}
+              />
             </Stack>
           }
         />

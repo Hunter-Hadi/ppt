@@ -98,6 +98,7 @@ const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
   const fontSizeCache = useMemo(() => {
     return (sxCache?.fontSize as number) || 24;
   }, [sxCache]);
+  console.log(`sx`, sx);
   if (IconComponent) {
     return (
       <Suspense
