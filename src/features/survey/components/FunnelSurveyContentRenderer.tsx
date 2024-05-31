@@ -12,6 +12,7 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, useCallback, useEffect, useMemo } from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
+import usePreloadImages from '@/features/common/hooks/usePreloadImages';
 import { aesJsonEncrypt } from '@/features/common/utils/dataHelper/encryptionHelper';
 import { getBasicInfoForMixpanel } from '@/features/mixpanel/utils';
 import {
@@ -96,6 +97,11 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
       }, 5000);
     }
   }, [submitSuccess, closePopup]);
+
+  usePreloadImages([
+    '/assets/survey/funnel-survey/submit-success.png',
+    '/assets/survey/funnel-survey/banner.png',
+  ]);
 
   return (
     <Paper
