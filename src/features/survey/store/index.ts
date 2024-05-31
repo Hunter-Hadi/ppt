@@ -8,3 +8,10 @@ export const FunnelSurveyPopupOpenStateAtom = atom<
   key: 'FunnelSurveyPopupOpenStateAtom',
   default: {},
 });
+
+export const FunnelSurveyPopupOpenTimerAtom = atom<
+  Partial<Record<IFunnelSurveySceneType, number>>
+>({
+  key: 'FunnelSurveyPopupOpenTimerAtom',
+  default: {},
+});

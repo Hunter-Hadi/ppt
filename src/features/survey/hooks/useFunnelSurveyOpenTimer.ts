@@ -16,7 +16,7 @@ const useFunnelSurveyOpenTimer = (
     }
 
     if (sceneType === 'SURVEY_INSTALL_DROPPED') {
-      setTimeout(openPopup, 3000);
+      openPopup(3000);
     }
   }, [enabled, sceneType, openPopup]);
 
