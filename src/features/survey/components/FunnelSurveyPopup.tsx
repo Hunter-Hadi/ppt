@@ -25,8 +25,6 @@ const FunnelSurveyPopup: FC<IFunnelSurveyPopupProps> = ({ sceneType, sx }) => {
     setLoaded(true);
   }, []);
 
-  useEffect;
-
   if (!loaded) {
     return null;
   }

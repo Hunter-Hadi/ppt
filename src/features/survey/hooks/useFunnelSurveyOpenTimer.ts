@@ -27,14 +27,7 @@ const useFunnelSurveyOpenTimer = (
     } else {
       closePopup();
     }
-  }, [
-    enabled,
-    sceneType,
-    checkExtensionLoaded,
-    hasExtension,
-    openPopup,
-    closePopup,
-  ]);
+  }, [enabled, sceneType, checkExtensionLoaded, hasExtension]);
 
   return null;
 };
