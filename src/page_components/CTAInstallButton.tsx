@@ -12,6 +12,7 @@ import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
+import useFunnelSurveyController from '@/features/survey/hooks/useFunnelSurveyController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink, {
   IUseShareTrackerLinkProps,
@@ -65,6 +66,10 @@ const CTAInstallButton: FC<IProps> = ({
   });
 
   const { browserAgent } = useBrowserAgent();
+
+  const { reStartOpenPopupTimer } = useFunnelSurveyController(
+    'SURVEY_INSTALL_DROPPED',
+  );
 
   const agent = showAgent ?? browserAgent;
 
@@ -136,6 +141,7 @@ const CTAInstallButton: FC<IProps> = ({
   }, [sx, isEmbedMode, label]);
 
   const handleClick = (e: React.MouseEvent) => {
+    reStartOpenPopupTimer(20 * 1000); // 20s
     mixpanelTrack('install_started', {
       ref,
     });

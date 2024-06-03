@@ -107,8 +107,11 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
     <Paper
       sx={{
         borderRadius: 4,
-        width: 440,
-        minWidth: 440,
+        maxWidth: 440,
+        width: {
+          xs: 'calc(100vw - 32px)',
+          sm: 440,
+        },
         overflow: 'hidden',
         boxShadow: '0px 4px 8px 0px #00000029',
         ...sx,

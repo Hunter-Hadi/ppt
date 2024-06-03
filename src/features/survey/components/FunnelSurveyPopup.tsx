@@ -36,9 +36,15 @@ const FunnelSurveyPopup: FC<IFunnelSurveyPopupProps> = ({ sceneType, sx }) => {
           <Box
             id={`funnel_survey__${sceneType}`}
             sx={{
-              position: 'fixed ',
-              bottom: 32,
-              right: 32,
+              position: 'fixed',
+              bottom: {
+                xs: 16,
+                sm: 32,
+              },
+              right: {
+                xs: 16,
+                sm: 32,
+              },
               zIndex: 1300,
             }}
           >

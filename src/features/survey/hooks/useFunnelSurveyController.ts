@@ -50,10 +50,32 @@ const useFunnelSurveyController = (sceneType: IFunnelSurveySceneType) => {
     setFunnelSurveyPopupOpenTimer,
   ]);
 
+  const reStartOpenPopupTimer = useCallback(
+    (delay = 0) => {
+      const timer = funnelSurveyPopupOpenTimer[sceneType];
+
+      if (timer) {
+        clearTimeout(timer);
+        setFunnelSurveyPopupOpenTimer((prevState) => ({
+          ...prevState,
+          [sceneType]: -1,
+        }));
+      }
+      openPopup(delay);
+    },
+    [
+      sceneType,
+      funnelSurveyPopupOpenTimer,
+      openPopup,
+      setFunnelSurveyPopupOpenTimer,
+    ],
+  );
+
   return {
     open: funnelSurveyPopupOpenState[sceneType] || false,
     openPopup,
     closePopup,
+    reStartOpenPopupTimer,
   };
 };
 

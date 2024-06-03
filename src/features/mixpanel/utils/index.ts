@@ -88,6 +88,7 @@ export const getBasicInfoForMixpanel = () => {
       timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
       screenHeight: window.screen.height,
       screenWidth: window.screen.width,
+      isDesktop: window.screen.width > window.screen.height,
       // TODO: more info
     };
   } catch (error) {

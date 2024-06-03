@@ -23,7 +23,7 @@ const useFunnelSurveyOpenTimer = (
     }
 
     if (!hasExtension) {
-      openPopup(10 * 1000); // 10s
+      openPopup(20 * 1000); // 10s
     } else {
       closePopup();
     }
