@@ -1,11 +1,12 @@
 import { useRouter } from 'next/router';
-import { useCallback, useEffect, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useRef } from 'react';
 import { atom, useRecoilState } from 'recoil';
 
 import {
   IPartnerVariantType,
   PARTNERS_VARIANT,
   PARTNERS_VARIANT_TO_VERSION_MAP,
+  TESTER_PARTNERS_CONTENT_PATH_TARGET_PATHNAME,
 } from '@/features/ab_tester/constant/partnersVariant';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
@@ -24,26 +25,37 @@ import TranslatePages from '@/page_components/FeaturesLandingPages/TranslatePage
 import VisionPages from '@/page_components/FeaturesLandingPages/VisionPages';
 import YoutubeSummaryPages from '@/page_components/FeaturesLandingPages/YoutubeSummaryPages';
 
+import { isTargetTestPathname } from '../utils';
+
 const PartnersABTestVariantAtom = atom<IPartnerVariantType | null>({
   key: 'PartnersABTestVariantAtom',
   default: null,
 });
 
 const usePartnersABTester = (autoSendEvent = false) => {
-  const { isReady } = useRouter();
+  const { isReady, pathname } = useRouter();
   const [variant, setVariant] = useRecoilState(PartnersABTestVariantAtom);
   const testPartnerPageViewedSendOnce = useRef(false);
 
-  useEffect(() => {
-    // 每次 加载都随机一个 variant
-    const randomIndex = Date.now() % PARTNERS_VARIANT.length;
-    const randomVariant = PARTNERS_VARIANT[randomIndex];
+  const enabled = useMemo(() => {
+    return isTargetTestPathname(
+      pathname,
+      TESTER_PARTNERS_CONTENT_PATH_TARGET_PATHNAME,
+    );
+  }, [pathname]);
 
-    setVariant(randomVariant);
-  }, []);
+  useEffect(() => {
+    if (enabled) {
+      // 每次 加载都随机一个 variant
+      const randomIndex = Date.now() % PARTNERS_VARIANT.length;
+      const randomVariant = PARTNERS_VARIANT[randomIndex];
+
+      setVariant(randomVariant);
+    }
+  }, [enabled]);
 
   useEffect(() => {
-    if (!autoSendEvent || !isReady) {
+    if (!autoSendEvent || !isReady || !enabled) {
       return;
     }
     if (variant && !testPartnerPageViewedSendOnce.current) {
@@ -55,10 +67,14 @@ const usePartnersABTester = (autoSendEvent = false) => {
         testFeature: 'Partner page',
       });
     }
-  }, [variant, autoSendEvent, isReady]);
+  }, [variant, autoSendEvent, isReady, enabled]);
 
   const renderPartnersContent = useCallback(
     (propRef?: string) => {
+      if (!enabled) {
+        return <HomePageContent propRef={propRef} />;
+      }
+
       if (!variant) return null;
 
       if (variant) {
@@ -129,7 +145,7 @@ const usePartnersABTester = (autoSendEvent = false) => {
         }
       }
     },
-    [variant],
+    [variant, enabled],
   );
 
   return {

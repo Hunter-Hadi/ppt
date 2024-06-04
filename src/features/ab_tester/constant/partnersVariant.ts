@@ -16,7 +16,8 @@ export type IPartnerVariantType =
   | 'partners_content_vision';
 
 export const TESTER_PARTNERS_CONTENT_PATH_TARGET_PATHNAME = [
-  '/partners/updated',
+  // 为了 landing page 的 第二波 ab test， 先暂停 partners/updated 的 ab test
+  // '/partners/updated',
 ];
 
 export const PARTNERS_VARIANT: IPartnerVariantType[] = [

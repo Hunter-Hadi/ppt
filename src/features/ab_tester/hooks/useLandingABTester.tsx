@@ -36,14 +36,15 @@ const useLandingABTester = (autoSendEvent = false) => {
   const { hasExtension, loaded: checkExtensionStatusLoaded } =
     useCheckExtension();
 
+  const enabled = useMemo(() => {
+    return isTargetTestPathname(pathname, TESTER_LANDING_PATH_TARGET_PATHNAME);
+  }, [pathname]);
+
   useEffect(() => {
     if (sendMixpanelOnce.current || !isReady || !autoSendEvent) {
       return;
     }
-    if (
-      variant &&
-      isTargetTestPathname(pathname, TESTER_LANDING_PATH_TARGET_PATHNAME)
-    ) {
+    if (variant && enabled) {
       if (pathname.startsWith('/partners')) {
         // 在 partners 页面时，需要判断 没有安装插件时，才发送 test_page_viewed
         if (checkExtensionStatusLoaded && !hasExtension) {
@@ -62,6 +63,7 @@ const useLandingABTester = (autoSendEvent = false) => {
       }
     }
   }, [
+    enabled,
     isReady,
     variant,
     pathname,
@@ -71,7 +73,7 @@ const useLandingABTester = (autoSendEvent = false) => {
   ]);
 
   const title = useMemo<React.ReactNode>(() => {
-    if (variant) {
+    if (variant && enabled) {
       if (variant.includes('features_with_point')) {
         return (
           <>
@@ -90,10 +92,10 @@ const useLandingABTester = (autoSendEvent = false) => {
     } else {
       return null;
     }
-  }, [variant, t]);
+  }, [variant, t, enabled]);
 
   const description = useMemo<React.ReactNode>(() => {
-    if (variant) {
+    if (variant && enabled) {
       if (variant.includes('features_with_point')) {
         return t('pages:home_page__hero_section__desc');
       }
@@ -104,10 +106,10 @@ const useLandingABTester = (autoSendEvent = false) => {
     } else {
       return null;
     }
-  }, [variant, t]);
+  }, [variant, t, enabled]);
 
   const heroVideoVariant = useMemo<'autoplay' | 'embed'>(() => {
-    if (variant) {
+    if (variant && enabled) {
       if (variant.includes('autoplay_video')) {
         return 'autoplay';
       } else {
@@ -116,10 +118,10 @@ const useLandingABTester = (autoSendEvent = false) => {
     } else {
       return 'embed';
     }
-  }, [variant]);
+  }, [variant, enabled]);
 
   const heroSectionLayout = useMemo(() => {
-    if (variant) {
+    if (variant && enabled) {
       if (variant.includes('video_on_bottom')) {
         return 'ttb-layout';
       } else {
@@ -128,17 +130,17 @@ const useLandingABTester = (autoSendEvent = false) => {
     } else {
       return 'ltr-layout';
     }
-  }, [variant]);
+  }, [variant, enabled]);
 
   useEffect(() => {
-    if (!variant) {
+    if (!variant && enabled) {
       const randomIndex = Date.now() % LANDING_VARIANT.length;
       const randomVariant = LANDING_VARIANT[randomIndex];
 
       setLocalStorage(TEST_LANDING_COOKIE_NAME, randomVariant);
       setVariant(randomVariant);
     }
-  }, [setVariant, variant]);
+  }, [setVariant, variant, enabled]);
 
   return {
     variant,
