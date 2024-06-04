@@ -1,7 +1,7 @@
 import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
-import React, { FC, useMemo, useRef } from 'react';
+import React, { FC, useEffect, useMemo, useRef } from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
@@ -33,25 +33,24 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
     }
   }, [propDisabledVideo, videoSrc]);
 
-  // useEffect(() => {
-  //   const videoElement = videoRef.current;
-  //   console.log(`zztest videoElement`, videoElement);
-  //   const videoDataListener = () => {
-  //     console.log('zztest videoDataListener', videoElement);
-  //     if (videoElement?.readyState && videoElement?.readyState >= 3) {
-  //       setVideoLoaded(true);
-  //     }
-  //   };
-  //   if (videoElement) {
-  //     videoElement.addEventListener('ended', videoDataListener);
-  //   }
+  useEffect(() => {
+    const video = videoRef.current;
 
-  //   return () => {
-  //     if (videoElement) {
-  //       videoElement.removeEventListener('ended', videoDataListener);
-  //     }
-  //   };
-  // }, []);
+    if (!video) {
+      return;
+    }
+
+    const handleEnded = () => {
+      video.currentTime = 0;
+      video.play();
+    };
+
+    video.addEventListener('ended', handleEnded);
+
+    return () => {
+      video.removeEventListener('ended', handleEnded);
+    };
+  }, []);
 
   if (variant === 'autoplay' && videoSrc) {
     return (
@@ -75,10 +74,10 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
           {/* <AppLoadingLayout loading={!videoLoaded} /> */}
           <video
             ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
+            autoPlay={true}
+            loop={true}
+            muted={true}
+            playsInline={true}
             style={{
               cursor: 'auto',
               width: '100%',
