@@ -88,7 +88,10 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
               setVideoLoaded(true);
             }}
           >
-            <source src='/assets/test.mov' type='video/mp4' />
+            <source
+              src='/assets/landing/hero-section/primary.mp4'
+              type='video/mp4'
+            />
             {"Sorry, your browser doesn't support embedded videos"}
           </video>
         </Box>
