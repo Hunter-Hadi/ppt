@@ -116,6 +116,7 @@ const FeaturesWithSceneVariantSection = () => {
                     sm: 18,
                   }}
                   variant='custom'
+                  lineHeight={1.5}
                 >
                   {t(featureItem.description)}
                 </Typography>
