@@ -4,6 +4,7 @@ import { FC, useEffect } from 'react';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
+import { RESOURCES_URL } from '@/global_constants';
 
 import CallToActionSection from './CallToActionSection';
 import FeaturesExpandVariantSection from './FeaturesCarousel/FeaturesExpandVariantSection';
@@ -50,7 +51,9 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
           description={description}
           heroVideoProps={{
             videoSrc:
-              heroVideoVariant === 'autoplay' ? '/assets/test.mov' : undefined,
+              heroVideoVariant === 'autoplay'
+                ? `${RESOURCES_URL}/video/landing-page-primary.mp4`
+                : undefined,
             variant: heroVideoVariant,
           }}
         />

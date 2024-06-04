@@ -53,7 +53,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
     };
   }, []);
 
-  if (variant === 'autoplay') {
+  if (variant === 'autoplay' && videoSrc) {
     return (
       <Stack
         position='relative'
@@ -90,10 +90,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
               opacity: videoLoaded ? 1 : 0,
             }}
           >
-            <source
-              src='/assets/landing/hero-section/primary.mp4'
-              type='video/mp4'
-            />
+            <source src={videoSrc} type='video/mp4' />
             {"Sorry, your browser doesn't support embedded videos"}
           </video>
         </Box>

@@ -51,7 +51,7 @@ export const SIMPLY_TRENDS_DEMOPAGE_LINK_MAIN =
   'https://demopage-main.simplysourcing.net';
 
 // s3
-export const RESOURCES_URL = 'https://resources.usechatgpt.ai';
+export const RESOURCES_URL = 'https://maxai-assets.s3.us-east-2.amazonaws.com';
 
 // AD
 export const AD_BLOG_SIMPLY_TRENDS_PNG =
