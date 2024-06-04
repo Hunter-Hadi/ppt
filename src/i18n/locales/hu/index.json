@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Válaszom elküldése",
     "funnel_survey__cta_button__loading_text": "Beküldés folyamatban...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Mesélj nekünk az aggodalmaidról",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Milyen aggodalmak akadályoznak abban, hogy telepítsd a bővítményt?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Milyen aggodalmak akadályozzák a MaxAI.me böngészőkiterjesztés telepítését?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Mondd el, mi állított meg a továbblépéstől...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Mesélj nekünk az aggodalmaidról",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Miért döntöttél úgy, hogy eltávolítod a MaxAI.me böngésző-kiegészítőt?",

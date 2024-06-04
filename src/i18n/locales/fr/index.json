@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Envoyer ma réponse",
     "funnel_survey__cta_button__loading_text": "En cours d'envoi...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Parlez-nous de vos préoccupations",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Quelles sont les préoccupations qui vous empêchent d'installer l'extension ?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Quelles préoccupations vous empêchent d'installer l'extension de navigateur MaxAI.me ?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Dites-nous ce qui vous a empêché d'avancer...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Parlez-nous de vos préoccupations",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Qu'est-ce qui vous a poussé à désinstaller l'extension MaxAI.me pour navigateur ?",

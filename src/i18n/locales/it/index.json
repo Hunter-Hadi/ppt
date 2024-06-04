@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Invia la mia risposta",
     "funnel_survey__cta_button__loading_text": "Invio in corso...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Parlaci delle tue preoccupazioni",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Quali sono le preoccupazioni che ti impediscono di installare l'estensione?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Quali preoccupazioni ti impediscono di installare l'estensione del browser MaxAI.me?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Dicci cosa ti ha fermato...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Parlaci delle tue preoccupazioni",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Cosa ti ha spinto a disinstallare l'estensione del browser MaxAI.me?",

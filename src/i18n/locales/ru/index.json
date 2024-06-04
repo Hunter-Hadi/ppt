@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Отправить мой ответ",
     "funnel_survey__cta_button__loading_text": "Отправка...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Расскажите нам о ваших опасениях",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Какие опасения помешали вам установить расширение?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Какие опасения мешают вам установить расширение браузера MaxAI.me?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Расскажите, что остановило вас...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Расскажите нам о ваших опасениях",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Что заставило вас удалить браузерное расширение MaxAI.me?",

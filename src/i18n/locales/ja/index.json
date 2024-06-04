@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "回答を送信する",
     "funnel_survey__cta_button__loading_text": "送信中...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "ご不安を教えてください",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "拡張機能のインストールを躊躇している理由は何ですか？",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "MaxAI.meブラウザ拡張機能をインストールすることからあなたを引き止めている懸念事項は何ですか？",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "進めなくなった理由を教えてください...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "ご不安を教えてください",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.meブラウザ拡張機能をアンインストールする決め手となった理由は何ですか？",

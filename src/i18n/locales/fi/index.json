@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Lähetä vastaukseni",
     "funnel_survey__cta_button__loading_text": "Lähetetään...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Kerro meille huolenaiheistasi",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Mitkä huolenaiheet estävät sinua asentamasta laajennusta?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Mitkä huolenaiheet estävät sinua asentamasta MaxAI.me-selainlaajennusta?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Kerro meille, mikä on estänyt sinua etenemästä...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Kerro meille huolenaiheistasi",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Mikä sai sinut poistamaan MaxAI.me-selainlaajennuksen?",

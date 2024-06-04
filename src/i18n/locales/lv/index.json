@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Iesniegt manu atbildi",
     "funnel_survey__cta_button__loading_text": "Notiek iesniegšana...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Pastāstiet mums par savām bažām",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Kādas bažas jums traucē instalēt paplašinājumu?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Kādas bažas jūs neļauj instalēt MaxAI.me pārlūka paplašinājumu?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Pastāstiet mums, kas jums traucēja turpināt...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Pastāstiet mums par savām bažām",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Kas lika jums noņemt MaxAI.me pārlūka paplašinājumu?",

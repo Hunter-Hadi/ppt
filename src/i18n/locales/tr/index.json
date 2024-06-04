@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Cevabımı gönder",
     "funnel_survey__cta_button__loading_text": "Gönderiliyor...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Endişeleriniz hakkında bize bilgi verin",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Uzantıyı yüklemekten alıkoyan endişeleriniz nelerdir?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "MaxAI.me tarayıcı eklentisini yüklemekten alıkoyan endişeler nelerdir?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "İlerlemeye engel olan nedir, bize anlatın...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Endişeleriniz hakkında bize bilgi verin",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.me tarayıcı uzantısını kaldırmanıza ne sebep oldu?",

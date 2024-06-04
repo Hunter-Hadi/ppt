@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Pošlji moj odgovor",
     "funnel_survey__cta_button__loading_text": "Pošiljanje...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Povejte nam o vaših pomislekih",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Kateri pomisleki vas odvračajo od namestitve razširitve?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Kakšne skrbi vas odvračajo od namestitve bralnika MaxAI.me?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Povejte nam, kaj vas je ustavilo pri nadaljevanju...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Povejte nam o vaših pomislekih",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Kaj vas je prepričalo, da odstranite brskalniško razširitev MaxAI.me?",

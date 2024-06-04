@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "응답 제출하기",
     "funnel_survey__cta_button__loading_text": "제출 중...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "관심사를 알려주세요",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "확장 프로그램 설치를 막는 걱정거리가 무엇인가요?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "MaxAI.me 브라우저 확장 프로그램을 설치하지 않게 된 이유는 무엇인가요?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "계속 진행하지 못하게 한 이유를 알려주세요...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "관심사를 알려주세요",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.me 브라우저 확장 프로그램을 제거하게 된 이유는 무엇인가요?",

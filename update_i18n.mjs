@@ -291,6 +291,9 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `pricing.${key}`)) {
       return `pricing.${key}`;
     }
+    if (lodash.get(sourceJson, `survey.${key}`)) {
+      return `survey.${key}`;
+    }
     return key;
   });
   let needUpdateLanguages = i18nDirs;

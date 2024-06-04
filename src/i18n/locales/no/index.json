@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "Send inn svaret mitt",
     "funnel_survey__cta_button__loading_text": "Sender inn...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "Fortell oss om dine bekymringer",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Hva hindrer deg fra å installere utvidelsen?",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Hvilke bekymringer hindrer deg fra å installere MaxAI.me nettleserutvidelsen?",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "Fortell oss hva som har stoppet deg fra å gå videre...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Fortell oss om dine bekymringer",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Hva fikk deg til å avinstallere MaxAI.me nettleserutvidelsen?",

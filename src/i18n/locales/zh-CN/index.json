@@ -1371,7 +1371,7 @@
     "funnel_survey__cta_button__submit_text": "提交我的答案",
     "funnel_survey__cta_button__loading_text": "正在提交...",
     "funnel_survey__SURVEY_INSTALL_DROPPED__title": "告诉我们您的顾虑",
-    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "是什么原因阻止您安装扩展？",
+    "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "安装MaxAI.me浏览器扩展程序时有什么顾虑？",
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1__placeholder": "告诉我们阻止您继续前进的原因...",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "告诉我们您的顾虑",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "是什么原因导致您卸载MaxAI.me浏览器扩展？",
