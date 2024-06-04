@@ -262,36 +262,68 @@ const HeroSection: FC<IProps> = ({
                 alignItems='center'
                 justifyContent='center'
                 width={'100%'}
-                fontSize={16}
+                fontSize={{
+                  xs: 12,
+                  md: 16,
+                }}
+                flexWrap={'wrap'}
               >
                 <Typography
                   variant='custom'
                   fontSize={'inherit'}
                   lineHeight={1.5}
+                  flexShrink={0}
                 >
                   Powered by
                 </Typography>
-                <CustomIcon icon='GPT4o' />
+                <CustomIcon
+                  icon='GPT4o'
+                  sx={{
+                    fontSize: {
+                      xs: 20,
+                      md: 24,
+                    },
+                  }}
+                />
                 <Typography
                   variant='custom'
                   fontSize={'inherit'}
                   lineHeight={1.5}
+                  flexShrink={0}
                 >
                   GPT-4o,
                 </Typography>
-                <CustomIcon icon='ClaudeLogo' />
+                <CustomIcon
+                  icon='ClaudeLogo'
+                  sx={{
+                    fontSize: {
+                      xs: 20,
+                      md: 24,
+                    },
+                  }}
+                />
                 <Typography
                   variant='custom'
                   fontSize={'inherit'}
                   lineHeight={1.5}
+                  flexShrink={0}
                 >
                   Claude 3,
                 </Typography>
-                <CustomIcon icon='GeminiPro' />
+                <CustomIcon
+                  icon='GeminiPro'
+                  sx={{
+                    fontSize: {
+                      xs: 20,
+                      md: 24,
+                    },
+                  }}
+                />
                 <Typography
                   variant='custom'
                   fontSize={'inherit'}
                   lineHeight={1.5}
+                  flexShrink={0}
                 >
                   Gemini 1.5
                 </Typography>
