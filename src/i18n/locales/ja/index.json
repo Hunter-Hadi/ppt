@@ -628,12 +628,32 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "必要に応じてページの余白やその他のオプションを調整します。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "「追加してダウンロード」をクリックし、わずかな時間を待ちます。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ページ番号が付いたPDFをダウンロードします - それだけです！",
-    "home_page__hero_section__title__variant2__part1": "どこでも1クリックAI。",
-    "home_page__hero_section__title__variant2__part2": "少ない時間でより多くのことを行います。",
     "home_page__hero_section__desc__variant2": "AIチャット、リライター、要約、インスタントリプライで時間を節約し、より良い結果を得る。GPT-4o、Claude 3、Gemini 1.5によって強化されています。",
     "home_page__features_carousel__feature_reply__label__full_name": "AIの即時返信",
     "home_page__features_carousel__feature_reader__label__full_name": "AI読み上げアシスタント",
-    "uninstall_survey__title": "改善にご協力ください"
+    "uninstall_survey__title": "改善にご協力ください",
+    "home_page__hero_section__title__variant2": "AIによる研究と執筆のアシスタント",
+    "home_page__features_with_scene__feature_summarization__label": "要約",
+    "home_page__features_with_scene__feature_summarization__title": "長い記事や動画で時間を節約し、キーポイントを即座に把握",
+    "home_page__features_with_scene__feature_summarization__description": "PDF、YouTube動画、レポート、ウェブページを数秒で要約します。研究論文、動画、記事とチャットして即座に回答を得ます。わかりやすい言葉で説明された複雑な概念を理解します。",
+    "home_page__features_with_scene__feature_writing_assistance__label": "執筆支援",
+    "home_page__features_with_scene__feature_writing_assistance__title": "数クリックで上手に書く - プロフェッショナルで明確で説得力のある文章を作成",
+    "home_page__features_with_scene__feature_writing_assistance__description": "人間らしいSEO最適化された記事やブログ投稿を生成します。AIによる文法とスタイルのサジェストで文章を改善・磨きます。魅力的なメール、ソーシャルメディア投稿、レポート、プレゼンテーションなどを作成します。",
+    "home_page__features_with_scene__feature_research__label": "研究",
+    "home_page__features_with_scene__feature_research__title": "AIによるチャットで10倍速く研究",
+    "home_page__features_with_scene__feature_research__description": "一か所で最高のAIモデルとチャットして信頼性のある回答を迅速に見つけます。リアルタイムのウェブアクセス、知識、引用を備えた信頼性のあるAI回答を得ます。",
+    "home_page__features_with_scene__feature_translation__label": "翻訳",
+    "home_page__features_with_scene__feature_translation__title": "AIによる翻訳で言語の壁を乗り越える",
+    "home_page__features_with_scene__feature_translation__description": "記事やドキュメントの言語間で翻訳します。どんな言語でも情報にアクセスします。複数の言語間で正確で自然な音声の翻訳による執筆支援を得ます。",
+    "home_page__features_with_scene__feature_email_and_communication__label": "メールとコミュニケーション",
+    "home_page__features_with_scene__feature_email_and_communication__title": "メールのやり取りで時間を節約",
+    "home_page__features_with_scene__feature_email_and_communication__description": "効果的かつ効率的にコミュニケーションします。AIがパーソナライズされたプロフェッショナルな返信を起草し、トーンを改善し、スペルと文法をチェックします。",
+    "home_page__features_with_scene__feature_code_assistance__label": "コード支援",
+    "home_page__features_with_scene__feature_code_assistance__title": "コーディングの生産性を向上させる",
+    "home_page__features_with_scene__feature_code_assistance__description": "コードと技術的な概念の理解をサポートし、エラーのデバッグを迅速化し、コードスニペットとテンプレートを生成し、新しいプログラミング言語を簡単に学びます。",
+    "home_page__features_with_scene__feature_browser_extension__label": "ブラウザ拡張機能",
+    "home_page__features_with_scene__feature_browser_extension__title": "作業する場所で動作します",
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAIは使用しているすべてのアプリとサイトで動作します。コピーも貼り付けも不要で、コンテキストの切り替えもありません。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
@@ -1356,5 +1376,6 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "ご不安を教えてください",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.meブラウザ拡張機能をアンインストールする決め手となった理由は何ですか？",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "アンインストールの原因を教えてください..."
-  }
+  },
+  "": ""
 }

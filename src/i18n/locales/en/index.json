@@ -1256,7 +1256,7 @@
   "features_landing": {
     "cta_text": "Add to Browser",
 
-    "cta_text__add_to_browser_for_free": "Add to {{BROWSER}} for free",
+    "cta_text__add_to_browser_for_free": "Add to {{BROWSER}} — It's Free",
 
     "menu_item__ai_chat": "AI chat",
     "menu_item__ai_rewriter": "AI rewriter",

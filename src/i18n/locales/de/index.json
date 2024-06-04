@@ -628,12 +628,32 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Passen Sie die Seitenränder und andere Optionen bei Bedarf an.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klicken Sie auf \"Hinzufügen & Herunterladen\" und warten Sie nur einen Moment.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laden Sie Ihr PDF mit Seitenzahlen herunter – das ist alles!",
-    "home_page__hero_section__title__variant2__part1": "1-Klick KI überall.",
-    "home_page__hero_section__title__variant2__part2": "Mehr in weniger Zeit erledigen.",
     "home_page__hero_section__desc__variant2": "Sparen Sie Zeit und erzielen Sie bessere Ergebnisse mit KI-Chat, Umformulierer, Zusammenfasser und Sofortantwort. Angetrieben von GPT-4o, Claude 3 und Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI Sofortantwort",
     "home_page__features_carousel__feature_reader__label__full_name": "AI Leseassistent",
-    "uninstall_survey__title": "Helfen Sie uns, uns zu verbessern"
+    "uninstall_survey__title": "Helfen Sie uns, uns zu verbessern",
+    "home_page__hero_section__title__variant2": "Ihr KI-gesteuerter Forschungs- und Schreibassistent",
+    "home_page__features_with_scene__feature_summarization__label": "Zusammenfassung",
+    "home_page__features_with_scene__feature_summarization__title": "Sparen Sie Zeit bei langen Artikeln und Videos, erhalten Sie sofort die wichtigsten Ideen",
+    "home_page__features_with_scene__feature_summarization__description": "Fassen Sie PDFs, YouTube-Videos, Berichte und Webseiten in Sekundenschnelle zusammen. Erhalten Sie sofortige Antworten, indem Sie mit wissenschaftlichen Arbeiten, Videos und Artikeln chatten. Verstehen Sie komplexe Konzepte in einfachen Worten erklärt.",
+    "home_page__features_with_scene__feature_writing_assistance__label": "Schreibhilfe",
+    "home_page__features_with_scene__feature_writing_assistance__title": "Schreiben Sie mit wenigen Klicks besser - Seien Sie professionell, klar, überzeugend",
+    "home_page__features_with_scene__feature_writing_assistance__description": "Generieren Sie menschenähnliche und SEO-optimierte Artikel und Blog-Beiträge. Verbessern und polieren Sie Ihre Schreibweise mit AI-unterstützten Grammatik- und Stilvorschlägen. Verfassen Sie überzeugende E-Mails, Social-Media-Beiträge, Berichte, Präsentationen und mehr.",
+    "home_page__features_with_scene__feature_research__label": "Forschung",
+    "home_page__features_with_scene__feature_research__title": "Forschen Sie 10-mal schneller mit KI-unterstütztem Chat",
+    "home_page__features_with_scene__feature_research__description": "Finden Sie schnell verlässliche Antworten, indem Sie mit den besten KI-Modellen an einem Ort chatten. Erhalten Sie glaubwürdige und aktuelle KI-Antworten mit Echtzeit-Webzugriff, Wissen und Zitaten.",
+    "home_page__features_with_scene__feature_translation__label": "Übersetzung",
+    "home_page__features_with_scene__feature_translation__title": "Überwinden Sie Sprachbarrieren mit KI-gesteuerter Übersetzung",
+    "home_page__features_with_scene__feature_translation__description": "Übersetzen Sie Artikel und Dokumente zwischen verschiedenen Sprachen. Greifen Sie auf Informationen in jeder Sprache zu. Erhalten Sie Schreibhilfe mit genauen und natürlich klingenden Übersetzungen in mehreren Sprachen.",
+    "home_page__features_with_scene__feature_email_and_communication__label": "E-Mail und Kommunikation",
+    "home_page__features_with_scene__feature_email_and_communication__title": "Sparen Sie Zeit bei der E-Mail-Korrespondenz",
+    "home_page__features_with_scene__feature_email_and_communication__description": "Kommunizieren Sie effektiver und effizienter. Lassen Sie KI personalisierte und professionelle Antworten entwerfen, verbessern Sie den Ton, überprüfen Sie Rechtschreibung und Grammatik für Sie.",
+    "home_page__features_with_scene__feature_code_assistance__label": "Code-Hilfe",
+    "home_page__features_with_scene__feature_code_assistance__title": "Steigern Sie Ihre Programmierproduktivität",
+    "home_page__features_with_scene__feature_code_assistance__description": "Erhalten Sie Hilfe beim Verständnis von Code und technischen Konzepten, debuggen Sie Fehler schneller, generieren Sie Code-Snippets und Vorlagen und lernen Sie neue Programmiersprachen mühelos.",
+    "home_page__features_with_scene__feature_browser_extension__label": "Browser-Erweiterung",
+    "home_page__features_with_scene__feature_browser_extension__title": "Funktioniert dort, wo Sie arbeiten",
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funktioniert in allen Apps und Websites, die Sie verwenden. Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
@@ -1356,5 +1376,6 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Teilen Sie uns Ihre Bedenken mit",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Was hat Sie dazu veranlasst, die MaxAI.me-Browsererweiterung zu deinstallieren?",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Teilen Sie uns mit, was dazu geführt hat, dass Sie deinstalliert haben..."
-  }
+  },
+  "": ""
 }

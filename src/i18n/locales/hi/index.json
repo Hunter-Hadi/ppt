@@ -628,12 +628,32 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "पृष्ठ की किनारों और अन्य विकल्पों को आवश्यकतानुसार समायोजित करें।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“जोड़ें और डाउनलोड” पर क्लिक करें और बस एक सेकंड इंतजार करें।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "पृष्ठ नंबरों के साथ अपना पीडीएफ़ डाउनलोड करें - यही है!",
-    "home_page__hero_section__title__variant2__part1": "एक क्लिक में AI हर जगह।",
-    "home_page__hero_section__title__variant2__part2": "कम समय में अधिक करें।",
     "home_page__hero_section__desc__variant2": "AI चैट, पुनर्लेखक, संक्षेपक और तत्काल जवाब के साथ समय बचाएं और बेहतर परिणाम प्राप्त करें। GPT-4o, Claude 3 और Gemini 1.5 द्वारा संचालित।",
     "home_page__features_carousel__feature_reply__label__full_name": "AI तत्काल जवाब",
     "home_page__features_carousel__feature_reader__label__full_name": "AI पठन सहायक",
-    "uninstall_survey__title": "हमें सुधार करने में मदद करें"
+    "uninstall_survey__title": "हमें सुधार करने में मदद करें",
+    "home_page__hero_section__title__variant2": "आपका AI-संचालित अनुसंधान और लेखन सहायक",
+    "home_page__features_with_scene__feature_summarization__label": "संक्षेपण",
+    "home_page__features_with_scene__feature_summarization__title": "लंबे लेखों और वीडियों पर समय बचाएं, कुंजीय विचार प्राप्त करें",
+    "home_page__features_with_scene__feature_summarization__description": "सेकंड में PDFs, YouTube वीडियो, रिपोर्ट्स और वेबपेज का संक्षेपण करें। अनुसंधान पत्र, वीडियो और लेखों के साथ चैट करके तत्वों को समझें। सरल शब्दों में समझाए गए जटिल अवधारणाओं को समझें।",
+    "home_page__features_with_scene__feature_writing_assistance__label": "लेखन सहायता",
+    "home_page__features_with_scene__feature_writing_assistance__title": "कुछ क्लिक में बेहतर लिखें - पेशेवर, स्पष्ट, प्रभावशाली बनें",
+    "home_page__features_with_scene__feature_writing_assistance__description": "मानव-जैसे और SEO-अनुकूलित लेख और ब्लॉग पोस्ट बनाएं। AI-संचालित व्याकरण और शैली सुझावों के साथ अपनी लेखन को सुधारें और चमकाएं। कार्यान्वयन, सामाजिक मीडिया पोस्ट, रिपोर्ट, प्रस्तुति और अधिक के लिए आकर्षक ईमेल बनाएं।",
+    "home_page__features_with_scene__feature_research__label": "अनुसंधान",
+    "home_page__features_with_scene__feature_research__title": "AI-संचालित चैट के साथ 10 गुना तेज़ अनुसंधान करें",
+    "home_page__features_with_scene__feature_research__description": "एक ही स्थान पर सभी सर्वश्रेष्ठ AI मॉडलों के साथ चैट करके तत्वों के विश्वसनीय उत्तर तेज़ी से प्राप्त करें। वास्तविक समय में वेब एक्सेस, ज्ञान और संदर्भ के साथ विश्वसनीय और अद्यतित AI उत्तर प्राप्त करें।",
+    "home_page__features_with_scene__feature_translation__label": "अनुवाद",
+    "home_page__features_with_scene__feature_translation__title": "AI-संचालित अनुवाद के साथ भाषा की सीमाओं को तोड़ें",
+    "home_page__features_with_scene__feature_translation__description": "लेखों और दस्तावेज़ों के बीच भाषा का अनुवाद करें। किसी भी भाषा में जानकारी तक पहुंचें। कई भाषाओं में सटीक और प्राकृतिक ध्वनि वाले अनुवादों के साथ लेखन सहायता प्राप्त करें।",
+    "home_page__features_with_scene__feature_email_and_communication__label": "ईमेल और संचार",
+    "home_page__features_with_scene__feature_email_and_communication__title": "ईमेल संवाद पर समय बचाएं",
+    "home_page__features_with_scene__feature_email_and_communication__description": "प्रभावी और कुशल ढंग से संवाद करें। AI आपके लिए व्यक्तिगत और पेशेवर जवाब तैयार करेगा, भाषा को सुधारेगा, वर्तनी और व्याकरण की जांच करेगा।",
+    "home_page__features_with_scene__feature_code_assistance__label": "कोड सहायता",
+    "home_page__features_with_scene__feature_code_assistance__title": "अपनी कोडिंग उत्पादकता को बढ़ाएं",
+    "home_page__features_with_scene__feature_code_assistance__description": "कोड और तकनीकी अवधारणाओं को समझने, त्रुटियों को तेज़ी से खोजने, कोड स्निपेट और टेम्पलेट उत्पन्न करने, और आसानी से नई प्रोग्रामिंग भाषाएँ सीखने में मदद प्राप्त करें।",
+    "home_page__features_with_scene__feature_browser_extension__label": "ब्राउज़र एक्सटेंशन",
+    "home_page__features_with_scene__feature_browser_extension__title": "जहां आप काम करते हैं, वहां काम करता है",
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI आपके द्वारा उपयोग की जाने वाली सभी ऐप्स और साइटों पर काम करता है। कोई कॉपी करने, पेस्ट करने, संदर्भ परिवर्तन नहीं होता है।"
   },
   "prompt_library": {
     "use_prompt_library__title": "उच्च गुणवत्ता वाली AI प्रॉम्प्ट पुस्तकालय",
@@ -1356,5 +1376,6 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "हमें अपनी चिंताओं के बारे में बताएं",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.me ब्राउज़र एक्सटेंशन को अनइंस्टॉल करने का कारण क्या था?",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "हमें बताएं कि आपने अनइंस्टॉल करने का कारण क्या था..."
-  }
+  },
+  "": ""
 }

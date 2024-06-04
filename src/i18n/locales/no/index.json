@@ -628,12 +628,32 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Juster sidemargene og andre alternativer etter behov.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klikk på 'Legg til og last ned' og vent bare et sekund.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Last ned PDF-en din med sidenumre - det er alt!",
-    "home_page__hero_section__title__variant2__part1": "1-klikk AI overalt.",
-    "home_page__hero_section__title__variant2__part2": "Gjør mer på kortere tid.",
     "home_page__hero_section__desc__variant2": "Spar tid og få bedre resultater med AI-chat, omskriver, oppsummerer og umiddelbar svar. Drevet av GPT-4o, Claude 3 og Gemini 1.5.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI umiddelbar svar",
     "home_page__features_carousel__feature_reader__label__full_name": "AI leseassistent",
-    "uninstall_survey__title": "Hjelp oss å forbedre"
+    "uninstall_survey__title": "Hjelp oss å forbedre",
+    "home_page__hero_section__title__variant2": "Din AI-drevne forsknings- og skriveassistent",
+    "home_page__features_with_scene__feature_summarization__label": "Oppsummering",
+    "home_page__features_with_scene__feature_summarization__title": "Spar tid på lange artikler og videoer, få nøkkelideer øyeblikkelig",
+    "home_page__features_with_scene__feature_summarization__description": "Oppsummer PDF-er, YouTube-videoer, rapporter og nettsider på sekunder. Få øyeblikkelige svar ved å chatte med forskningsartikler, videoer og artikler. Forstå komplekse begreper forklart i enkle ord.",
+    "home_page__features_with_scene__feature_writing_assistance__label": "Skriveassistanse",
+    "home_page__features_with_scene__feature_writing_assistance__title": "Skriv bedre med noen få klikk - Vær profesjonell, tydelig, overbevisende",
+    "home_page__features_with_scene__feature_writing_assistance__description": "Generer menneskelignende og SEO-optimaliserte artikler og blogginnlegg. Forbedre og polere skrivingen din med AI-drevne grammatikk- og stilforslag. Lag engasjerende e-poster, sosiale medieinnlegg, rapporter, presentasjoner og mer.",
+    "home_page__features_with_scene__feature_research__label": "Forskning",
+    "home_page__features_with_scene__feature_research__title": "Forsk 10x raskere med AI-drevet chat",
+    "home_page__features_with_scene__feature_research__description": "Finn pålitelige svar raskt ved å chatte med alle de beste AI-modellene på ett sted. Få troverdige og oppdaterte AI-svar med sanntids webtilgang, kunnskap og referanser.",
+    "home_page__features_with_scene__feature_translation__label": "Oversettelse",
+    "home_page__features_with_scene__feature_translation__title": "Bryt språkbarrierer med AI-drevet oversettelse",
+    "home_page__features_with_scene__feature_translation__description": "Oversett mellom språk for artikler og dokumenter. Få tilgang til informasjon på hvilket som helst språk. Få skrivehjelp med nøyaktige og naturlig klingende oversettelser på flere språk.",
+    "home_page__features_with_scene__feature_email_and_communication__label": "E-post og kommunikasjon",
+    "home_page__features_with_scene__feature_email_and_communication__title": "Spar tid på e-postkorrespondanse",
+    "home_page__features_with_scene__feature_email_and_communication__description": "Kommuniser mer effektivt og effektivt. La AI utforme personlige og profesjonelle svar, forbedre tone, sjekke staving og grammatikk for deg.",
+    "home_page__features_with_scene__feature_code_assistance__label": "Kodeassistanse",
+    "home_page__features_with_scene__feature_code_assistance__title": "Øk produktiviteten din i koding",
+    "home_page__features_with_scene__feature_code_assistance__description": "Få hjelp til å forstå kode og tekniske begreper, feilsøk raskere, generer kodeutdrag og maler, og lær nye programmeringsspråk med letthet.",
+    "home_page__features_with_scene__feature_browser_extension__label": "Nettleserutvidelse",
+    "home_page__features_with_scene__feature_browser_extension__title": "Fungerer der du jobber",
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI fungerer på tvers av alle appene og nettstedene du bruker. Ingen kopiering, ingen liming, ingen bytte av kontekst."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høykvalitets AI-promptbibliotek",
@@ -1356,5 +1376,6 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Fortell oss om dine bekymringer",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "Hva fikk deg til å avinstallere MaxAI.me nettleserutvidelsen?",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Fortell oss hva som forårsaket at du avinstallerte..."
-  }
+  },
+  "": ""
 }
