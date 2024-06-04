@@ -113,7 +113,7 @@ const HeroSection: FC<IProps> = ({
                       : 'flex-start',
                   textAlign:
                     heroSectionLayout === 'ttb-layout' ? 'center' : 'left',
-                  maxWidth: heroSectionLayout === 'ttb-layout' ? 864 : 'unset',
+                  maxWidth: heroSectionLayout === 'ttb-layout' ? 764 : 'unset',
                   mx: heroSectionLayout === 'ttb-layout' ? 'auto' : 'unset',
                 },
               ]}
@@ -141,19 +141,11 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='body2'
-                  fontSize={
-                    heroSectionLayout === 'ttb-layout'
-                      ? {
-                          xs: 16,
-                          sm: 18,
-                          lg: 22,
-                        }
-                      : {
-                          xs: 14,
-                          sm: 16,
-                          lg: 18,
-                        }
-                  }
+                  fontSize={{
+                    xs: 16,
+                    sm: 18,
+                    lg: 22,
+                  }}
                 >
                   {description}
                 </Typography>
@@ -232,7 +224,7 @@ const HeroSection: FC<IProps> = ({
                 }}
                 width={{
                   xs: '100%',
-                  sm: '90%',
+                  sm: heroSectionLayout === 'ttb-layout' ? '60%' : '90%',
                 }}
                 mb={1.5}
               >
@@ -269,7 +261,7 @@ const HeroSection: FC<IProps> = ({
               </Stack>
               <Stack
                 direction={'row'}
-                spacing={0.6}
+                spacing={1}
                 alignItems='center'
                 justifyContent={
                   heroSectionLayout === 'ttb-layout' ? 'center' : 'flex-start'
@@ -289,57 +281,65 @@ const HeroSection: FC<IProps> = ({
                 >
                   Powered by
                 </Typography>
-                <CustomIcon
-                  icon='GPT4o'
-                  sx={{
-                    fontSize: {
-                      xs: 20,
-                      md: 24,
-                    },
-                  }}
-                />
-                <Typography
-                  variant='custom'
-                  fontSize={'inherit'}
-                  lineHeight={1.5}
-                  flexShrink={0}
-                >
-                  GPT-4o
-                </Typography>
-                <CustomIcon
-                  icon='ClaudeLogo'
-                  sx={{
-                    fontSize: {
-                      xs: 20,
-                      md: 24,
-                    },
-                  }}
-                />
-                <Typography
-                  variant='custom'
-                  fontSize={'inherit'}
-                  lineHeight={1.5}
-                  flexShrink={0}
-                >
-                  Claude 3
-                </Typography>
-                <CustomIcon
-                  icon='GeminiPro'
-                  sx={{
-                    fontSize: {
-                      xs: 20,
-                      md: 24,
-                    },
-                  }}
-                />
-                <Typography
-                  variant='custom'
-                  fontSize={'inherit'}
-                  lineHeight={1.5}
-                  flexShrink={0}
-                >
-                  Gemini 1.5
-                </Typography>
+                <Stack direction={'row'} spacing={0.5}>
+                  <CustomIcon
+                    icon='GPT4o'
+                    sx={{
+                      fontSize: {
+                        xs: 20,
+                        md: 24,
+                      },
+                    }}
+                  />
+                  <Typography
+                    variant='custom'
+                    fontSize={'inherit'}
+                    lineHeight={1.5}
+                    flexShrink={0}
+                  >
+                    GPT-4o
+                  </Typography>
+                </Stack>
+
+                <Stack direction={'row'} spacing={0.5}>
+                  <CustomIcon
+                    icon='ClaudeLogo'
+                    sx={{
+                      fontSize: {
+                        xs: 20,
+                        md: 24,
+                      },
+                    }}
+                  />
+                  <Typography
+                    variant='custom'
+                    fontSize={'inherit'}
+                    lineHeight={1.5}
+                    flexShrink={0}
+                  >
+                    Claude 3
+                  </Typography>
+                </Stack>
+
+                <Stack direction={'row'} spacing={0.5}>
+                  <CustomIcon
+                    icon='GeminiPro'
+                    sx={{
+                      fontSize: {
+                        xs: 20,
+                        md: 24,
+                      },
+                    }}
+                  />
+                  <Typography
+                    variant='custom'
+                    fontSize={'inherit'}
+                    lineHeight={1.5}
+                    flexShrink={0}
+                  >
+                    Gemini 1.5
+                  </Typography>
+                </Stack>
               </Stack>
             </Stack>
           </Grid>
