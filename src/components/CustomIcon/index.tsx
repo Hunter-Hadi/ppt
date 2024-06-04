@@ -1,5 +1,5 @@
 import { Skeleton, SvgIconProps, SxProps } from '@mui/material';
-import React, { FC, lazy, Suspense, useMemo } from 'react';
+    import React, { FC, lazy, Suspense, useMemo } from 'react';
 //！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
 export type ICustomIconType =
   | 'AIPowerSearch'
@@ -21,7 +21,9 @@ export type ICustomIconType =
   | 'Facebook'
   | 'FacebookAds'
   | 'FirefoxColor'
+  | 'GPT4o'
   | 'Gemini'
+  | 'GeminiPro'
   | 'Gmail'
   | 'GoogleAds'
   | 'Incorrect'
@@ -37,11 +39,12 @@ export type ICustomIconType =
   | 'TikTok'
   | 'TwitterX'
   | 'Unhappy'
-  | 'YouTube';
+  | 'YouTube'
+
 
 const iconsMap: {
-  [key in ICustomIconType]: React.ComponentType<SvgIconProps>;
-} = {
+    [key in ICustomIconType]: React.ComponentType<SvgIconProps>;
+  } = {
   AIPowerSearch: lazy(() => import('./icons/AIPowerSearch')),
   BardLogo: lazy(() => import('./icons/BardLogo')),
   BingLogo: lazy(() => import('./icons/BingLogo')),
@@ -61,7 +64,9 @@ const iconsMap: {
   Facebook: lazy(() => import('./icons/Facebook')),
   FacebookAds: lazy(() => import('./icons/FacebookAds')),
   FirefoxColor: lazy(() => import('./icons/FirefoxColor')),
+  GPT4o: lazy(() => import('./icons/GPT4o')),
   Gemini: lazy(() => import('./icons/Gemini')),
+  GeminiPro: lazy(() => import('./icons/GeminiPro')),
   Gmail: lazy(() => import('./icons/Gmail')),
   GoogleAds: lazy(() => import('./icons/GoogleAds')),
   Incorrect: lazy(() => import('./icons/Incorrect')),
@@ -80,10 +85,12 @@ const iconsMap: {
   YouTube: lazy(() => import('./icons/YouTube')),
 };
 
+
 interface IconType {
   icon: ICustomIconType;
   sx?: SxProps; // 假设 sx 是可选的对象
   fontSize?: number | string;
+
 }
 //！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
 const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
@@ -98,7 +105,6 @@ const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
   const fontSizeCache = useMemo(() => {
     return (sxCache?.fontSize as number) || 24;
   }, [sxCache]);
-  console.log(`sx`, sx);
   if (IconComponent) {
     return (
       <Suspense

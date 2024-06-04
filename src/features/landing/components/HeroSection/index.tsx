@@ -2,6 +2,8 @@ import { Box, Grid, Skeleton, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
+import CustomIcon from '@/components/CustomIcon';
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
 import HeroVideoBox, {
   IHeroVideoProps,
@@ -33,6 +35,8 @@ const HeroSection: FC<IProps> = ({
   loading,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
+
+  const { heroSectionLayout } = useLandingABTester();
 
   const { t } = useTranslation();
 
@@ -79,12 +83,37 @@ const HeroSection: FC<IProps> = ({
     >
       <Box maxWidth={1312} mx='auto'>
         <Grid container rowSpacing={3} spacing={4}>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={heroSectionLayout === 'ttb-layout' ? 12 : 6}
+          >
             <Stack
               p={{
                 xs: 0,
                 sm: 2,
               }}
+              sx={[
+                {
+                  p: {
+                    xs: 0,
+                    sm: 2,
+                  },
+                  justifyContent:
+                    heroSectionLayout === 'ttb-layout'
+                      ? 'center'
+                      : 'flex-start',
+                  alignItems:
+                    heroSectionLayout === 'ttb-layout'
+                      ? 'center'
+                      : 'flex-start',
+                  textAlign:
+                    heroSectionLayout === 'ttb-layout' ? 'center' : 'left',
+                  maxWidth: heroSectionLayout === 'ttb-layout' ? 864 : 'unset',
+                  mx: heroSectionLayout === 'ttb-layout' ? 'auto' : 'unset',
+                },
+              ]}
             >
               {loading ? (
                 <TitleSkeleton />
@@ -194,6 +223,7 @@ const HeroSection: FC<IProps> = ({
                   xs: '100%',
                   sm: '90%',
                 }}
+                mb={1.5}
               >
                 <CTAInstallButton
                   showAgent='Chrome'
@@ -226,9 +256,54 @@ const HeroSection: FC<IProps> = ({
                   }}
                 />
               </Stack>
+              <Stack
+                direction={'row'}
+                spacing={0.5}
+                alignItems='center'
+                justifyContent='center'
+                width={'100%'}
+                fontSize={16}
+              >
+                <Typography
+                  variant='custom'
+                  fontSize={'inherit'}
+                  lineHeight={1.5}
+                >
+                  Powered by
+                </Typography>
+                <CustomIcon icon='GPT4o' />
+                <Typography
+                  variant='custom'
+                  fontSize={'inherit'}
+                  lineHeight={1.5}
+                >
+                  GPT-4o,
+                </Typography>
+                <CustomIcon icon='ClaudeLogo' />
+                <Typography
+                  variant='custom'
+                  fontSize={'inherit'}
+                  lineHeight={1.5}
+                >
+                  Claude 3,
+                </Typography>
+                <CustomIcon icon='GeminiPro' />
+                <Typography
+                  variant='custom'
+                  fontSize={'inherit'}
+                  lineHeight={1.5}
+                >
+                  Gemini 1.5
+                </Typography>
+              </Stack>
             </Stack>
           </Grid>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={heroSectionLayout === 'ttb-layout' ? 12 : 6}
+          >
             <HeroVideoBox {...heroVideoProps} />
           </Grid>
         </Grid>

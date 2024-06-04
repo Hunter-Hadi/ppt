@@ -30,6 +30,7 @@ export type IFeaturesCarouselItemKey =
   | 'Search'
   | 'Art'
   | 'Translator';
+
 export const FEATURES_CAROUSEL_LIST: IFeaturesCarouselItemKey[] = [
   'Chat',
   'Rewriter',
@@ -188,6 +189,13 @@ export const FEATURES_CONTENT_DATA_MAP: Record<
   },
 };
 
+/**
+ *
+ * 经过 landing page 第1波 A/B testing 之后，决定废弃 FeaturesCarousel 组件
+ * Literature from: https://ikjt09m6ta.larksuite.com/docx/G9nGdopXkokIzExLZDnuSg1msnh
+ *
+ * @deprecated
+ */
 const FeaturesCarousel = () => {
   const { t } = useTranslation();
 

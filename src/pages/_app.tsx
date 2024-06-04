@@ -24,7 +24,7 @@ import AppHeader from '@/app_layout/AppHeader';
 import CacheRefAndRewardfulId from '@/components/CacheRefAndRewardfulId';
 import customMuiTheme from '@/config/customMuiTheme';
 import globalFont from '@/config/font';
-import DevRefreshABTestVariantCookie from '@/features/ab_tester/components/DevRefreshABTestVariantCookie';
+import DevRefreshABTestLandingCookie from '@/features/ab_tester/components/DevRefreshABTestVariantCookie';
 import ClientUserIdGenerator from '@/features/track_user_interactions/components/ClientUserIdGenerator';
 import { CACHE_CLIENT_USER_ID_PAGE_PATHNAME } from '@/features/track_user_interactions/constant';
 import {
@@ -144,7 +144,7 @@ function App({ Component, pageProps }: AppProps) {
               {!isEmbedPage && <AppFooter />}
               <GlobalVideoPopup />
               <CacheRefAndRewardfulId />
-              <DevRefreshABTestVariantCookie />
+              <DevRefreshABTestLandingCookie />
             </QueryClientProvider>
           </ThemeProvider>
         </SnackbarProvider>

@@ -4,10 +4,10 @@ import { FC, useEffect } from 'react';
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
-import FeaturesCarousel from '@/features/landing/components/FeaturesCarousel';
 
 import CallToActionSection from './CallToActionSection';
 import FeaturesExpandVariantSection from './FeaturesCarousel/FeaturesExpandVariantSection';
+import FeaturesWithSceneVariantSection from './FeaturesCarousel/FeaturesWithSceneVariantSection';
 import HeroSection from './HeroSection';
 import MaxAIInNumbers from './MaxAIInNumbers';
 import TrustedBy from './TrustedBy';
@@ -25,8 +25,8 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
     loaded,
     title,
     description,
-    featuresCarousel,
-    featuresExpand,
+    featuresWithScene,
+    heroVideoVariant,
   } = useLandingABTester(true);
 
   useEffect(() => {
@@ -48,22 +48,25 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
           // loading={!loaded}
           title={title}
           description={description}
+          heroVideoProps={{
+            videoSrc:
+              heroVideoVariant === 'autoplay' ? '/assets/test.mov' : undefined,
+            variant: heroVideoVariant,
+          }}
         />
-
-        {/* feature carousel */}
-        {featuresCarousel && <FeaturesCarousel />}
-        {featuresExpand && <FeaturesExpandVariantSection />}
+        {/* feature  */}
+        {featuresWithScene ? (
+          <FeaturesWithSceneVariantSection />
+        ) : (
+          <FeaturesExpandVariantSection />
+        )}
         {/* {!loaded && <FeaturesCarouselSkeleton />} */}
-
         {/* trusted by */}
         <TrustedBy />
-
         {/* maxai in numbers */}
         <MaxAIInNumbers />
-
         {/* user comment */}
         <UserComment />
-
         {/* call to action section */}
         <CallToActionSection propRef={propRef} />
       </Stack>

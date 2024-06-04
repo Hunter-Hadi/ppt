@@ -72,7 +72,7 @@ const useLandingABTester = (autoSendEvent = false) => {
 
   const title = useMemo<React.ReactNode>(() => {
     if (variant) {
-      if (variant.includes('title1')) {
+      if (variant.includes('features_with_point')) {
         return (
           <>
             {t('pages:home_page__hero_section__title__part1')}
@@ -84,14 +84,8 @@ const useLandingABTester = (autoSendEvent = false) => {
         );
       }
 
-      if (variant.includes('title2')) {
-        return (
-          <>
-            {t('pages:home_page__hero_section__title__variant2__part1')}
-            <br />
-            {t('pages:home_page__hero_section__title__variant2__part2')}
-          </>
-        );
+      if (variant.includes('features_with_scene')) {
+        return <>{t('pages:home_page__hero_section__title__variant2')}</>;
       }
     } else {
       return null;
@@ -100,11 +94,11 @@ const useLandingABTester = (autoSendEvent = false) => {
 
   const description = useMemo<React.ReactNode>(() => {
     if (variant) {
-      if (variant.includes('desc1')) {
+      if (variant.includes('features_with_point')) {
         return t('pages:home_page__hero_section__desc');
       }
 
-      if (variant.includes('desc2')) {
+      if (variant.includes('features_with_scene')) {
         return t('pages:home_page__hero_section__desc__variant2');
       }
     } else {
@@ -112,15 +106,39 @@ const useLandingABTester = (autoSendEvent = false) => {
     }
   }, [variant, t]);
 
+  const heroVideoVariant = useMemo<'autoplay' | 'embed'>(() => {
+    if (variant) {
+      if (variant.includes('autoplay_video')) {
+        return 'autoplay';
+      } else {
+        return 'embed';
+      }
+    } else {
+      return 'embed';
+    }
+  }, [variant]);
+
+  const heroSectionLayout = useMemo(() => {
+    if (variant) {
+      if (variant.includes('video_on_bottom')) {
+        return 'ttb-layout';
+      } else {
+        return 'ltr-layout';
+      }
+    } else {
+      return 'ltr-layout';
+    }
+  }, [variant]);
+
   useEffect(() => {
     if (!variant) {
       const randomIndex = Date.now() % LANDING_VARIANT.length;
       const randomVariant = LANDING_VARIANT[randomIndex];
 
-      setLocalStorage(TEST_LANDING_COOKIE_NAME, randomVariant.variant);
-      setVariant(randomVariant.variant);
+      setLocalStorage(TEST_LANDING_COOKIE_NAME, randomVariant);
+      setVariant(randomVariant);
     }
-  }, [variant]);
+  }, [setVariant, variant]);
 
   return {
     variant,
@@ -128,8 +146,9 @@ const useLandingABTester = (autoSendEvent = false) => {
     loaded,
     title,
     description,
-    featuresCarousel: variant?.includes('features_carousel'),
-    featuresExpand: variant?.includes('features_expand'),
+    featuresWithScene: variant?.includes('features_with_scene'),
+    heroVideoVariant,
+    heroSectionLayout,
   };
 };
 

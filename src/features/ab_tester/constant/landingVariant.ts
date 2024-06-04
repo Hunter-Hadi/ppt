@@ -1,12 +1,10 @@
 export type ILandingVariantType =
-  | 'title1__desc1__features_carousel'
-  | 'title1__desc1__features_expand'
-  | 'title1__desc2__features_carousel'
-  | 'title1__desc2__features_expand'
-  | 'title2__desc1__features_carousel'
-  | 'title2__desc1__features_expand'
-  | 'title2__desc2__features_carousel'
-  | 'title2__desc2__features_expand';
+  | 'features_with_point__hero_section_embed_youtube'
+  | 'features_with_scene__hero_section_embed_youtube'
+  | 'features_with_point__hero_section_autoplay_video'
+  | 'features_with_scene__hero_section_autoplay_video'
+  | 'features_with_point__hero_section_autoplay_video_on_bottom'
+  | 'features_with_scene__hero_section_autoplay_video_on_bottom';
 
 export const TESTER_LANDING_PATH_TARGET_PATHNAME = [
   '/',
@@ -15,49 +13,25 @@ export const TESTER_LANDING_PATH_TARGET_PATHNAME = [
   '/partners/uninstalled',
 ];
 
-export const TEST_LANDING_COOKIE_NAME = 'maxai-lpv';
+export const TEST_LANDING_COOKIE_NAME = 'maxai-lpv-v2';
 
-export type ILandingVariantData = {
-  variant: ILandingVariantType;
-};
-
-export const LANDING_VARIANT: ILandingVariantData[] = [
-  {
-    variant: 'title1__desc1__features_carousel',
-  },
-  {
-    variant: 'title1__desc1__features_expand',
-  },
-  {
-    variant: 'title1__desc2__features_carousel',
-  },
-  {
-    variant: 'title1__desc2__features_expand',
-  },
-  {
-    variant: 'title2__desc1__features_carousel',
-  },
-  {
-    variant: 'title2__desc1__features_expand',
-  },
-  {
-    variant: 'title2__desc2__features_carousel',
-  },
-  {
-    variant: 'title2__desc2__features_expand',
-  },
+export const LANDING_VARIANT: ILandingVariantType[] = [
+  'features_with_point__hero_section_embed_youtube',
+  'features_with_scene__hero_section_embed_youtube',
+  'features_with_point__hero_section_autoplay_video',
+  'features_with_scene__hero_section_autoplay_video',
+  'features_with_point__hero_section_autoplay_video_on_bottom',
+  'features_with_scene__hero_section_autoplay_video_on_bottom',
 ];
 
 export const LANDING_VARIANT_TO_VERSION_MAP: Record<
   ILandingVariantType,
   string
 > = {
-  title1__desc1__features_carousel: '1-1',
-  title1__desc1__features_expand: '1-2',
-  title1__desc2__features_carousel: '1-3',
-  title1__desc2__features_expand: '1-4',
-  title2__desc1__features_carousel: '1-5',
-  title2__desc1__features_expand: '1-6',
-  title2__desc2__features_carousel: '1-7',
-  title2__desc2__features_expand: '1-8',
+  features_with_point__hero_section_embed_youtube: '2-1',
+  features_with_scene__hero_section_embed_youtube: '2-2',
+  features_with_point__hero_section_autoplay_video: '2-3',
+  features_with_scene__hero_section_autoplay_video: '2-4',
+  features_with_point__hero_section_autoplay_video_on_bottom: '2-5',
+  features_with_scene__hero_section_autoplay_video_on_bottom: '2-6',
 };

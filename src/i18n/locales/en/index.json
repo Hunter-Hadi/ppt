@@ -78,11 +78,10 @@
     "home_page__hero_section__title__part2": "Less time,",
     "home_page__hero_section__title__part3": "Better results.",
 
-    "home_page__hero_section__title__variant2__part1": "1-click AI everywhere.",
-    "home_page__hero_section__title__variant2__part2": "Do more in less time.",
+    "home_page__hero_section__title__variant2": "Your AI-powered research and writing assistant",
 
     "home_page__hero_section__desc": "Use personalized 1-click AI anywhere to save hours every day. Powered by ChatGPT, Claude 3, Gemini 1.5, GPT-4o, and more.",
-    "home_page__hero_section__desc__variant2": "Save time and get better results with AI chat, rewriter, summarizer, and instant reply. Powered by GPT-4o, Claude 3, and Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Work with an AI partner that helps you research faster, write better, and understand more.",
 
     "home_page__hero_section__indicator1_label": "Top 50 genAI apps",
     "home_page__hero_section__indicator2_label": "Active users",
@@ -159,6 +158,34 @@
     "home_page__features_carousel__feature_prompts__description2": "Create and manage your own prompts",
     "home_page__features_carousel__feature_prompts__description3": "Reuse your own prompts",
     "home_page__features_carousel__feature_prompts__description4": "Custom tone & writing Styles",
+
+    "home_page__features_with_scene__feature_summarization__label": "Summarization",
+    "home_page__features_with_scene__feature_summarization__title": "Save time on long articles and videos, get key ideas instantly",
+    "home_page__features_with_scene__feature_summarization__description": "Summarize PDFs, YouTube videos, reports, and webpages in seconds. Get instant answers by chatting with research papers, videos, and articles. Understand complex concepts explained in simple terms.",
+
+    "home_page__features_with_scene__feature_writing_assistance__label": "Writing assistance",
+    "home_page__features_with_scene__feature_writing_assistance__title": "Write better in a few clicks - Be professional, clear, convincing",
+    "home_page__features_with_scene__feature_writing_assistance__description": "Generate human-like and SEO-optimized articles and blog posts. Improve and polish your writing with AI-powered grammar and style suggestions. Craft compelling emails, social media posts, reports, presentations, and more.",
+
+    "home_page__features_with_scene__feature_research__label": "Research",
+    "home_page__features_with_scene__feature_research__title": "Research 10x faster with AI-powered chat",
+    "home_page__features_with_scene__feature_research__description": "Find reliable answers fast by chatting with all the best AI models in one place. Get credible and up-to-date AI answers with real-time web access, knowledge, and citations.",
+
+    "home_page__features_with_scene__feature_translation__label": "Translation",
+    "home_page__features_with_scene__feature_translation__title": "Break language barriers with AI-powered translation",
+    "home_page__features_with_scene__feature_translation__description": "Translate between languages for articles and documents. Access information in any language. Get writing help with accurate and natural-sounding translations across multiple languages.",
+    
+    "home_page__features_with_scene__feature_email_and_communication__label": "Email and communication",
+    "home_page__features_with_scene__feature_email_and_communication__title": "Save time on email correspondence",
+    "home_page__features_with_scene__feature_email_and_communication__description": "Communicate more effectively and efficiently. Let AI draft personalized and professional replies, improve tone, check spelling and grammar for you.",
+
+    "home_page__features_with_scene__feature_code_assistance__label": "Code assistance",
+    "home_page__features_with_scene__feature_code_assistance__title": "Boost your coding productivity",
+    "home_page__features_with_scene__feature_code_assistance__description": "Get help understanding code and technical concepts, debug errors faster, generate code snippets and templates, and learn new programming languages with ease.",
+
+    "home_page__features_with_scene__feature_browser_extension__label": "Browser extension",
+    "home_page__features_with_scene__feature_browser_extension__title": "Works where you work",
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI works across all the apps and sites you use. No copying, no pasting, no context switching.",
 
     "home_page__features_carousel__cta_button__text": "Add to {{BROWSER}} for free",
 

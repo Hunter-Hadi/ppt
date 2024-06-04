@@ -1,26 +1,44 @@
 import BugReportOutlinedIcon from '@mui/icons-material/BugReportOutlined';
-import { Box, Button, Divider, Stack, Tooltip } from '@mui/material';
-import React from 'react';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
+import {
+  Box,
+  Button,
+  ClickAwayListener,
+  Fade,
+  IconButton,
+  MenuItem,
+  Select,
+  SelectChangeEvent,
+  Stack,
+  Tooltip,
+  Typography,
+} from '@mui/material';
+import React, { useRef } from 'react';
 
 import DevContent from '@/components/DevContent';
+import { setLocalStorage } from '@/utils/localStorage';
+
 import {
+  ILandingVariantType,
+  LANDING_VARIANT,
   LANDING_VARIANT_TO_VERSION_MAP,
   TEST_LANDING_COOKIE_NAME,
-} from '@/features/ab_tester/constant/landingVariant';
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
-import { removeLocalStorage } from '@/utils/localStorage';
-const DevRefreshABTestVariantCookie = () => {
+} from '../constant/landingVariant';
+import useLandingABTester from '../hooks/useLandingABTester';
+const DevRefreshABTestLandingCookie = () => {
+  const [show, setShow] = React.useState(false);
   const { variant, setVariant } = useLandingABTester();
+  const boxRef = useRef<HTMLDivElement>(null);
   return (
     <DevContent>
       <Box
         sx={{
           position: 'fixed',
           right: 0,
-          bottom: 0,
+          bottom: 100,
           zIndex: 1201,
           width: 200,
-          height: 200,
+          height: 100,
           opacity: 0.4,
           transition: 'opacity 0.3s',
           '&:hover': {
@@ -29,26 +47,7 @@ const DevRefreshABTestVariantCookie = () => {
         }}
       >
         <Tooltip
-          componentsProps={{
-            tooltip: { sx: { width: 500, maxWidth: 'unset' } },
-          }}
-          title={
-            <Stack spacing={1}>
-              <h2>current landing variant: {variant}</h2>
-              {variant && (
-                <h2>
-                  current test version:{' '}
-                  {LANDING_VARIANT_TO_VERSION_MAP[variant]}
-                </h2>
-              )}
-              <Divider />
-              <h2>Refresh landing page A/B Test variant cache</h2>
-              <h3>
-                1. Delete the variant cache of landing A/B Test in the cookie
-              </h3>
-              <h3>2. reload</h3>
-            </Stack>
-          }
+          title={<h2>landing page A/B Test variant</h2>}
           arrow
           placement='left'
         >
@@ -57,7 +56,7 @@ const DevRefreshABTestVariantCookie = () => {
             sx={{
               position: 'absolute',
               right: 32,
-              bottom: 32,
+              bottom: 0,
               p: 1.2,
               pl: 1.4,
               pb: 1.4,
@@ -66,20 +65,96 @@ const DevRefreshABTestVariantCookie = () => {
               minWidth: 'unset',
             }}
             onClick={() => {
-              // 删除 landing A/B Test cookie ，并且刷新页面
-              removeLocalStorage(TEST_LANDING_COOKIE_NAME);
-              setVariant(null);
-              setTimeout(() => {
-                window.location.reload();
-              }, 0);
+              setShow(true);
             }}
           >
             <BugReportOutlinedIcon />
           </Button>
         </Tooltip>
       </Box>
+      <Fade in={show} unmountOnExit>
+        <Box
+          sx={{
+            position: 'fixed',
+            right: 0,
+            left: 0,
+            bottom: 0,
+            border: '1px solid',
+            borderColor: 'divider',
+            px: 4,
+            py: 6,
+
+            zIndex: 1202,
+            // width: '100vw',
+            bgcolor: 'white',
+            boxShadow: '0px -5px 10px #23232321',
+          }}
+        >
+          <ClickAwayListener
+            onClickAway={() => {
+              setShow(false);
+            }}
+          >
+            <Box ref={boxRef}>
+              <IconButton
+                onClick={() => {
+                  setShow(false);
+                }}
+                sx={{
+                  position: 'absolute',
+                  top: 16,
+                  right: 16,
+                }}
+              >
+                <CloseOutlinedIcon />
+              </IconButton>
+              <Stack spacing={1} alignItems='center' px={20}>
+                <h2>current landing variant: {variant}</h2>
+                {variant && (
+                  <h2>
+                    current test version:{' '}
+                    {LANDING_VARIANT_TO_VERSION_MAP[variant]}
+                  </h2>
+                )}
+                <Stack
+                  direction={'row'}
+                  spacing={2}
+                  // justifyContent='space-between'
+                  alignItems={'center'}
+                  pr={4}
+                >
+                  <Typography variant='h3'>
+                    select you want to change version:
+                  </Typography>
+                  <Select
+                    sx={{}}
+                    MenuProps={{
+                      disablePortal: true,
+                    }}
+                    value={(variant as string) ?? ''}
+                    onChange={(event: SelectChangeEvent) => {
+                      const newVariant = event.target
+                        .value as ILandingVariantType;
+                      setVariant(newVariant);
+                      setLocalStorage(TEST_LANDING_COOKIE_NAME, newVariant);
+                    }}
+                  >
+                    {LANDING_VARIANT.map((variant) => {
+                      return (
+                        <MenuItem key={variant} value={variant}>
+                          {LANDING_VARIANT_TO_VERSION_MAP[variant]}
+                        </MenuItem>
+                      );
+                    })}
+                  </Select>
+                </Stack>
+              </Stack>
+            </Box>
+          </ClickAwayListener>
+        </Box>
+      </Fade>
     </DevContent>
   );
 };
 
-export default DevRefreshABTestVariantCookie;
+export default DevRefreshABTestLandingCookie;
