@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "પૃષ્ઠ માર્જિન અને અન્ય વિકલ્પોને આપતા કરો.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“ઉમેરો અને ડાઉનલોડ કરો” પર ક્લિક કરો અને થોડા સમય રાખો.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "તમારી PDF પૃષ્ઠો સાથે નંબર સાથે ડાઉનલોડ કરો - એટલે તે!",
-    "home_page__hero_section__desc__variant2": "AI ચેટ, રીવ્રાઇટર, સંગ્રહક અને તાત્કાલિક જવાબ સાથે સમય બચાવો અને શ્રેષ્ઠ પરિણામો મેળવો. GPT-4o, Claude 3 અને Gemini 1.5 દ્વારા પ્રાધાન્ય આપેલ.",
+    "home_page__hero_section__desc__variant2": "તમારી શોધન ઝડપી કરવા, સારવાર સુધારવા અને વધુ સમજવામાં મદદ કરનાર એક AI ભાગીદાર સાથે કામ કરો.",
     "home_page__features_carousel__feature_reply__label__full_name": "એઆઈ તક જવાબ",
     "home_page__features_carousel__feature_reader__label__full_name": "એઆઈ વાંચન સહાયક",
     "uninstall_survey__title": "અમને સુધારવામાં મદદ કરો",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__description": "જ્યાં તમે તેની જરૂર છે ત્યાં કોઈપણ છબીને વિશ્લેષણ કરો. MaxAI તમે વપરાશ કરેલ તમામ વેબ એપ્સ અને સાઇટ્સ પર કાર્ય કરે છે. કોપીંગ, પેસ્ટિંગ, કન્ટેક્સ્ટ સ્વિચિંગ નથી.",
     "ai_vision_pages__section4__title": "શ્રેષ્ઠ AI મોડેલ્સ દ્વારા સમર્થિત વિઝન સાથે",
     "ai_prompts_pages__section1__title": "ઉચ્ચ ગુણવત્તાવાળી એઆઈ પ્રોમ્પ્ટ્સ લાઇબ્રેરી",
-    "cta_text__add_to_browser_for_free": "મફત માટે {{BROWSER}} ઉપર ઉમેરો"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}} માં ઉમેરો - મફત છે"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "બધા પસંદ કરો",

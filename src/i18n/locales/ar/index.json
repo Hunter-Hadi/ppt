@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "ضبط هوامش الصفحة والخيارات الأخرى حسب الحاجة.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "انقر فوق \"إضافة وتنزيل\" وانتظر لحظة واحدة فقط.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "قم بتنزيل ملف PDF الخاص بك مع أرقام الصفحات - هذا كل شيء!",
-    "home_page__hero_section__desc__variant2": "وفّر الوقت واحصل على نتائج أفضل مع دردشة الذكاء الاصطناعي، وأداة إعادة الكتابة، وملخص النصوص، والرد الفوري. يعمل بواسطة GPT-4o، Claude 3، وGemini 1.5.",
+    "home_page__hero_section__desc__variant2": "اعمل مع شريك ذكاء اصطناعي يساعدك على البحث بشكل أسرع، والكتابة بشكل أفضل، وفهم المزيد.",
     "home_page__features_carousel__feature_reply__label__full_name": "رد فوري بواسطة الذكاء الاصطناعي",
     "home_page__features_carousel__feature_reader__label__full_name": "مساعد قراءة الذكاء الاصطناعي",
     "uninstall_survey__title": "ساعدنا على التحسين",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "يعمل حيث تعمل",
     "ai_vision_pages__section3__description": "قم بتحليل أي صورة، في المكان الذي تحتاجه. يعمل MaxAI عبر جميع تطبيقات الويب والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو تبديل السياق.",
     "ai_vision_pages__section4__title": "مدعوم بأفضل نماذج الذكاء الاصطناعي مع الرؤية",
-    "cta_text__add_to_browser_for_free": "أضف إلى {{BROWSER}} مجانًا"
+    "cta_text__add_to_browser_for_free": "أضف إلى {{BROWSER}} - مجانًا"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "تحديد الكل",

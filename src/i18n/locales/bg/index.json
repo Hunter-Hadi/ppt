@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Настройте отстъпите на страницата и другите опции според нуждите си.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Кликнете \"Добави и изтегли\" и изчакайте само една секунда.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Изтеглете вашия PDF с номерирани страници - това е всичко!",
-    "home_page__hero_section__desc__variant2": "Спестете време и получете по-добри резултати с AI чат, пренаписвач, резюмиращ инструмент и моментален отговор. Задвижвано от GPT-4o, Claude 3 и Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Работете с партньор ИИ, който ви помага да изследвате по-бързо, пишете по-добре и разбирате повече.",
     "home_page__features_carousel__feature_reply__label__full_name": "Интелигентен отговор",
     "home_page__features_carousel__feature_reader__label__full_name": "Интелигентен помощник за четене",
     "uninstall_survey__title": "Помогнете ни да подобрим",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Работи там, където работите",
     "ai_vision_pages__section3__description": "Анализирайте всяко изображение точно там, където ви е необходимо. MaxAI работи във всички уеб приложения и сайтове, които използвате. Няма копиране, няма поставяне, няма превключване на контекст.",
     "ai_vision_pages__section4__title": "Задвижван от най-добрите AI модели с визия",
-    "cta_text__add_to_browser_for_free": "Добави към {{BROWSER}} безплатно"
+    "cta_text__add_to_browser_for_free": "Добавете към {{BROWSER}} - Безплатно е"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Избери всички",

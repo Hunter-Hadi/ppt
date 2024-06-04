@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "पृष्ठ की किनारों और अन्य विकल्पों को आवश्यकतानुसार समायोजित करें।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“जोड़ें और डाउनलोड” पर क्लिक करें और बस एक सेकंड इंतजार करें।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "पृष्ठ नंबरों के साथ अपना पीडीएफ़ डाउनलोड करें - यही है!",
-    "home_page__hero_section__desc__variant2": "AI चैट, पुनर्लेखक, संक्षेपक और तत्काल जवाब के साथ समय बचाएं और बेहतर परिणाम प्राप्त करें। GPT-4o, Claude 3 और Gemini 1.5 द्वारा संचालित।",
+    "home_page__hero_section__desc__variant2": "एक एआई साथी के साथ काम करें जो आपको तेजी से शोध करने, बेहतर लिखने और अधिक समझने में मदद करता है।",
     "home_page__features_carousel__feature_reply__label__full_name": "AI तत्काल जवाब",
     "home_page__features_carousel__feature_reader__label__full_name": "AI पठन सहायक",
     "uninstall_survey__title": "हमें सुधार करने में मदद करें",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "जहां आप काम करते हैं, वहां काम करता है",
     "ai_vision_pages__section3__description": "आपकी आवश्यकता के मुताबिक किसी भी छवि का विश्लेषण करें। MaxAI आपके उपयोग करने वाले सभी वेब ऐप्स और साइटों पर काम करता है। कॉपी करने की आवश्यकता नहीं, पेस्ट करने की आवश्यकता नहीं, कोण्टेक्स्ट स्विचिंग की आवश्यकता नहीं।",
     "ai_vision_pages__section4__title": "सबसे अच्छे AI मॉडल्स द्वारा संचालित जिसमें विज़न है",
-    "cta_text__add_to_browser_for_free": "मुफ्त में {{BROWSER}} में जोड़ें"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}} में जोड़ें - यह मुफ्त है"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "सभी का चयन करें",

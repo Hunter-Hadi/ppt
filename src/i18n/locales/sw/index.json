@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Badilisha upana wa kurasa na chaguo nyingine kama inavyohitajika.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Bonyeza \"Ongeza & Pakua\" na subiri kwa sekunde moja tu.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Pakua PDF yako yenye nambari za kurasa - hiyo ndiyo yote!",
-    "home_page__hero_section__desc__variant2": "Hifadhi muda na pata matokeo bora na AI chat, rewriter, summarizer, na jibu papo hapo. Inayo nguvu na GPT-4o, Claude 3, na Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Fanya kazi na mshirika wa AI ambaye anasaidia utafiti wako haraka, kuandika vizuri, na kuelewa zaidi.",
     "home_page__features_carousel__feature_reply__label__full_name": "Jibu la haraka la AI",
     "home_page__features_carousel__feature_reader__label__full_name": "Msaidizi wa kusoma wa AI",
     "uninstall_survey__title": "Tusaidie kuboresha",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Inafanya kazi mahali unapotumia",
     "ai_vision_pages__section3__description": "Changanua picha yoyote, mahali ambapo unaihitaji. MaxAI inafanya kazi katika programu za wavuti na tovuti zote unazotumia. Hakuna kunakili, hakuna kubandika, hakuna kubadilisha muktadha.",
     "ai_vision_pages__section4__title": "Imewezeshwa na mifano bora ya AI na maono",
-    "cta_text__add_to_browser_for_free": "Ongeza kwa {{BROWSER}} bure"
+    "cta_text__add_to_browser_for_free": "Ongeza kwenye {{BROWSER}} - Ni Bure"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chagua Yote",

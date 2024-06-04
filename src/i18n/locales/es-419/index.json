@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajusta los márgenes de página y otras opciones según sea necesario.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Haz clic en \"Agregar y descargar\" y espera solo un segundo.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "¡Descarga tu PDF con números de página, eso es todo!",
-    "home_page__hero_section__desc__variant2": "Ahorra tiempo y obtén mejores resultados con chat de IA, reescritor, resumidor y respuesta instantánea. Potenciado por GPT-4o, Claude 3 y Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Trabaja con un socio de IA que te ayuda a investigar más rápido, escribir mejor y entender más.",
     "home_page__features_carousel__feature_reply__label__full_name": "Respuesta instantánea de IA",
     "home_page__features_carousel__feature_reader__label__full_name": "Asistente de lectura de IA",
     "uninstall_survey__title": "Ayúdanos a mejorar",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Funciona donde trabajas",
     "ai_vision_pages__section3__description": "Analiza cualquier imagen justo donde la necesitas. MaxAI funciona en todas las aplicaciones web y sitios que utilizas. Sin copiar, sin pegar, sin cambiar de contexto.",
     "ai_vision_pages__section4__title": "Potenciado por los mejores modelos de IA con visión",
-    "cta_text__add_to_browser_for_free": "Añadir a {{BROWSER}} de forma gratuita"
+    "cta_text__add_to_browser_for_free": "Agregar a {{BROWSER}} - Es gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Seleccionar todo",

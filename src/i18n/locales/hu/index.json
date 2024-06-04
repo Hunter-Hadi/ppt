@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Állítsa be az oldal margóját és egyéb beállításokat szükség szerint.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kattintson a „Hozzáadás és letöltés” gombra, és várjon csak egy másodpercet.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Töltse le a PDF-et oldalszámokkal - ennyi!",
-    "home_page__hero_section__desc__variant2": "Mentse el az időt és érjen el jobb eredményeket az AI chat, átíró, összefoglaló és azonnali válasz segítségével. GPT-4o, Claude 3 és Gemini 1.5 által támogatva.",
+    "home_page__hero_section__desc__variant2": "Dolgozzon egy AI partnerrel, amely segít gyorsabban kutatni, jobban írni és többet megérteni.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI azonnali válasz",
     "home_page__features_carousel__feature_reader__label__full_name": "AI olvasási segéd",
     "uninstall_survey__title": "Segíts nekünk fejlődni",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Működik ott, ahol dolgozik",
     "ai_vision_pages__section3__description": "Elemzze bármely képet ott, ahol szüksége van rá. A MaxAI minden webes alkalmazáson és webhelyen működik, amelyeket használ. Nincs másolás, beillesztés vagy kontextusváltás.",
     "ai_vision_pages__section4__title": "A legjobb AI modellekkel, látással megerősítve",
-    "cta_text__add_to_browser_for_free": "Ingyenesen hozzáadás a {{BROWSER}}-hoz"
+    "cta_text__add_to_browser_for_free": "Hozzáadás a {{BROWSER}}-hoz - Ingyenes"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Összes kiválasztása",

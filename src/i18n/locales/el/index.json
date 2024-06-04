@@ -93,7 +93,8 @@
     "home_page__features_carousel__feature_art__label": "Τέχνη AI",
     "home_page__features_carousel__feature_translator__label": "Μεταφραστής AI",
     "home_page__features_carousel__feature_reader__label": "Αναγνώστης AI",
-    "home_page__features_carousel__feature_prompts__label": "Υπόδειξεις AI"
+    "home_page__features_carousel__feature_prompts__label": "Υπόδειξεις AI",
+    "home_page__hero_section__desc__variant2": "Συνεργαστείτε με έναν εταίρο AI που σας βοηθά να κάνετε γρηγορότερη έρευνα, να γράφετε καλύτερα και να κατανοείτε περισσότερα."
   },
   "prompt_library": {
     "use_prompt_library__title": "Βιβλιοθήκη προτροπών υψηλής ποιότητας AI",
@@ -267,5 +268,8 @@
   },
   "survey": {
     "funnel_survey__SURVEY_INSTALL_DROPPED__question1__options1": "Ποιες ανησυχίες σας εμποδίζουν να εγκαταστήσετε την επέκταση προγράμματος περιήγησης MaxAI.me;"
+  },
+  "features_landing": {
+    "cta_text__add_to_browser_for_free": "Προσθέστε στο {{BROWSER}} - Δωρεάν"
   }
 }

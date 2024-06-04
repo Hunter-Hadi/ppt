@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Gerekirse sayfa kenar boşluklarını ve diğer seçenekleri ayarlayın.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "\"Ekle ve İndir\"e tıklayın ve sadece bir saniye bekleyin.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Sayfa numaralarıyla PDF'nizi indirin - bu kadar!",
-    "home_page__hero_section__desc__variant2": "AI sohbeti, yeniden yazıcıyı, özetleyiciyi ve anında yanıtı kullanarak zaman kazanın ve daha iyi sonuçlar elde edin. GPT-4o, Claude 3 ve Gemini 1.5 tarafından desteklenmektedir.",
+    "home_page__hero_section__desc__variant2": "Daha hızlı araştırmanıza, daha iyi yazmanıza ve daha fazlasını anlamanıza yardımcı olan bir AI ortağıyla çalışın.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI anlık yanıt",
     "home_page__features_carousel__feature_reader__label__full_name": "AI okuma asistanı",
     "uninstall_survey__title": "Bize yardımcı olun",
@@ -1139,7 +1139,7 @@
     "ai_vision_pages__section3__title": "Çalıştığınız yerde çalışır",
     "ai_vision_pages__section3__description": "İhtiyacınız olan yerde herhangi bir görüntüyü analiz edin. MaxAI, kullandığınız tüm web uygulamaları ve sitelerinde çalışır. Kopyalama, yapıştırma veya bağlam değiştirme yok.",
     "ai_vision_pages__section4__title": "En iyi AI modelleriyle desteklenir",
-    "cta_text__add_to_browser_for_free": "Ücretsiz olarak {{BROWSER}}'a ekle"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}'a Ekle - Ücretsiz"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF Ekle",

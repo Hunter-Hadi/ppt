@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Dostosuj marginesy stron i inne opcje według potrzeb.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kliknij „Dodaj i pobierz” i poczekaj tylko chwilę.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Pobierz swój plik PDF z numerami stron - to wszystko!",
-    "home_page__hero_section__desc__variant2": "Oszczędź czas i uzyskaj lepsze wyniki dzięki czatowi AI, przepisywarce, podsumowaniu i natychmiastowej odpowiedzi. Napędzane przez GPT-4o, Claude 3 i Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Pracuj z partnerem AI, który pomaga Ci szybciej prowadzić badania, pisać lepiej i lepiej rozumieć.",
     "home_page__features_carousel__feature_reply__label__full_name": "Natychmiastowa odpowiedź AI",
     "home_page__features_carousel__feature_reader__label__full_name": "Asystent do czytania AI",
     "uninstall_survey__title": "Pomóż nam się poprawić",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Działa tam, gdzie ty pracujesz",
     "ai_vision_pages__section3__description": "Analizuj dowolny obraz dokładnie tam, gdzie go potrzebujesz. MaxAI działa we wszystkich aplikacjach internetowych i witrynach, których używasz. Bez kopiowania, wklejania i przełączania kontekstu.",
     "ai_vision_pages__section4__title": "Napędzane najlepszymi modelami AI z widzeniem",
-    "cta_text__add_to_browser_for_free": "Dodaj do {{BROWSER}} za darmo"
+    "cta_text__add_to_browser_for_free": "Dodaj do {{BROWSER}} - Jest za darmo"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Zaznacz wszystko",

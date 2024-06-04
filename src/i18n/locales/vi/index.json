@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Điều chỉnh lề trang và các tùy chọn khác nếu cần.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Nhấp vào “Thêm & Tải xuống” và chờ chỉ một giây.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Tải xuống PDF của bạn có số trang - đó là tất cả!",
-    "home_page__hero_section__desc__variant2": "Tiết kiệm thời gian và đạt được kết quả tốt hơn với trò chuyện AI, công cụ viết lại, tóm tắt và phản hồi tức thì. Được cung cấp bởi GPT-4o, Claude 3 và Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Làm việc với một đối tác AI giúp bạn nghiên cứu nhanh hơn, viết tốt hơn và hiểu sâu hơn.",
     "home_page__features_carousel__feature_reply__label__full_name": "Trả lời tức thì bằng trí tuệ nhân tạo",
     "home_page__features_carousel__feature_reader__label__full_name": "Trợ lí đọc thông minh bằng trí tuệ nhân tạo",
     "uninstall_survey__title": "Hãy giúp chúng tôi cải thiện",
@@ -1139,7 +1139,7 @@
     "ai_vision_pages__section3__title": "Hoạt động nơi bạn làm việc",
     "ai_vision_pages__section3__description": "Phân tích bất kỳ hình ảnh nào, ngay tại nơi bạn cần. MaxAI hoạt động trên tất cả các ứng dụng web và trang web bạn sử dụng. Không sao chép, không dán, không chuyển đổi ngữ cảnh.",
     "ai_vision_pages__section4__title": "Được cung cấp bởi các mô hình AI tốt nhất với khả năng nhìn thấy",
-    "cta_text__add_to_browser_for_free": "Thêm vào {{BROWSER}} miễn phí"
+    "cta_text__add_to_browser_for_free": "Thêm vào {{BROWSER}} - Miễn phí"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Thêm PDF",

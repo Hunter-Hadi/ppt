@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Säädä sivun marginaaleja ja muita asetuksia tarpeen mukaan.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Napsauta “Lisää ja lataa” ja odota hetki.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Lataa PDF-tiedosto sivunumeroiden kanssa – siinä kaikki!",
-    "home_page__hero_section__desc__variant2": "Säästä aikaa ja saavuta parempia tuloksia tekoälychatin, uudelleenkirjoittajan, tiivistäjän ja välittömän vastauksen avulla. Toimii GPT-4o:n, Claude 3:n ja Gemini 1.5:n voimalla.",
+    "home_page__hero_section__desc__variant2": "Työskentele tekoälykumppanin kanssa, joka auttaa sinua tutkimaan nopeammin, kirjoittamaan paremmin ja ymmärtämään enemmän.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI pikavastaus",
     "home_page__features_carousel__feature_reader__label__full_name": "AI lukemisavustaja",
     "uninstall_survey__title": "Auta meitä parantamaan",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Toimii siellä missä työskentelet",
     "ai_vision_pages__section3__description": "Analysoi mitä tahansa kuvaa juuri siellä, missä sitä tarvitset. MaxAI toimii kaikissa web-sovelluksissa ja sivustoissa, joita käytät. Ei kopioimista, ei liittämistä, ei kontekstin vaihtamista.",
     "ai_vision_pages__section4__title": "Parhaiden AI-mallien voimin",
-    "cta_text__add_to_browser_for_free": "Lisää {{BROWSER}} ilmaiseksi"
+    "cta_text__add_to_browser_for_free": "Lisää {{BROWSER}} - Se on ilmainen"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Valitse kaikki",

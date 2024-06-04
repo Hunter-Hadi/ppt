@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "പേജ് മാർജിനുകൾ മറ്റ് ഓപ്ഷനുകൾ അനുയോജ്യമാക്കുക.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“ചേർക്കുക & ഡൗൺലോഡ്” അമർത്തുക, ഒരു സെക്കന്റ് കാത്തിരിക്കുക.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "പേജ് എണ്ണങ്ങൾ ഉള്ള PDF ഡൗൺലോഡ് ചെയ്യുക - അതായത്!",
-    "home_page__hero_section__desc__variant2": "എ.ഐ. ചാറ്റ്, റീവ്രൈറ്റർ, സമാപനം ചെയ്യുന്നതിനുള്ള സമയം സംരക്ഷിക്കുകയും മികച്ച ഫലങ്ങൾ നേടുകയും ചെയ്യുക. GPT-4o, Claude 3, അനുബന്ധ ഉപകരണങ്ങൾ ഉപയോഗിച്ച് പ്രവർത്തിക്കുന്നു.",
+    "home_page__hero_section__desc__variant2": "വേഗത്തിൽ പഠനം ചെയ്യാനും, മികച്ചത് എഴുതാനും, കൂടുതൽ അറിയാനും സഹായിക്കുന്ന AI പങ്കാളിയുമായി പ്രവർത്തിക്കുക.",
     "home_page__features_carousel__feature_reply__label__full_name": "എ.ഐ. ഇൻസ്റ്റന്റ് ഉത്തരം",
     "home_page__features_carousel__feature_reader__label__full_name": "എ.ഐ. വായന സഹായി",
     "uninstall_survey__title": "ഞങ്ങളെ മോശംപരിഷ്ക്കരിക്കാന്‍ സഹായിക്കുക",
@@ -1139,7 +1139,7 @@
     "ai_vision_pages__section3__title": "നിങ്ങൾ പ്രവർത്തിക്കുന്നതിലേക്ക് പ്രവർത്തിക്കുക",
     "ai_vision_pages__section3__description": "ആവശ്യമുള്ള ഏതെങ്കിലും ചിത്രത്തിനുള്ളിൽ അധിഷ്ഠിപ്പിക്കുക. MaxAI നിങ്ങൾ ഉപയോഗിക്കുന്ന എല്ലാ വെബ് ആപ്പുകളിലും സൈറ്റുകളിലും പ്രവർത്തിക്കുന്നു. പകർപ്പവകാശം, പേസ്റ്റിംഗ്, കൺടെക്സ്റ്റ് സ്വിച്ചിംഗ് ഇല്ല.",
     "ai_vision_pages__section4__title": "ഏറ്റവും മികച്ച AI മോഡലുകൾ വിഷനുമായി",
-    "cta_text__add_to_browser_for_free": "സൗജന്യമായി {{BROWSER}} ലേക്ക് ചേർക്കുക"
+    "cta_text__add_to_browser_for_free": "ചേർക്കുക {{BROWSER}} - ഇത് സൗജന്യമാണ്"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF ചേർക്കുക",

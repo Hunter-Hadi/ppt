@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "பக்க முன்னிலைகளையும் மற்ற விருப்பங்களையும் திருத்தவும்.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“சேர்க்கும் மற்றும் பதிவிறக்கு” என்பதை அழுத்தவும் ஒரு நிமிடத்தில் காத்திருங்கள்.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "பக்க எண்ணும் PDF ஐ பதிவிறக்குங்கள் - அதே!",
-    "home_page__hero_section__desc__variant2": "ஏதேனும் நேரம் சேமிக்கவும், AI அரட்டை, மீள்பார்ப்பாளர், சுருக்கமாக்கி மற்றும் உடனடியாக பதில் பெறுங்கள். GPT-4o, Claude 3 மற்றும் Gemini 1.5 ஆல் இயங்குகின்றன.",
+    "home_page__hero_section__desc__variant2": "வேகமாக ஆராய்ச்சி செய்ய, நல்லவராக எழுது, மேலும் அறிய உதவும் AI பங்களிப்பையுடன் வேலை செய்யுங்கள்.",
     "home_page__features_carousel__feature_reply__label__full_name": "ஏதேனும் பிரதிகளை உருவாக்கும் AI",
     "home_page__features_carousel__feature_reader__label__full_name": "AI படிக்கும் உதவி",
     "uninstall_survey__title": "எங்களுக்கு உதவுங்கள்",
@@ -1139,7 +1139,7 @@
     "ai_vision_pages__section3__title": "நீங்கள் பணியாற்றும் இடத்தில் வேலை செய்கின்றது",
     "ai_vision_pages__section3__description": "நீங்கள் தேவைப்படும் எந்த புகைப்படத்தையும் ஆராய்ந்து பார்க்கலாம். MaxAI நீங்கள் பயன்படுத்தும் அனைத்து வலைப்பக்கங்களிலும் செயல்படுகின்றது. நகலெடுக்காது, ஒட்டுமொத்த செயல்முறையை மாற்றாது.",
     "ai_vision_pages__section4__title": "சிறந்த AI மாதிரிகளால் இயக்கப்படுகின்றது",
-    "cta_text__add_to_browser_for_free": "இலவசமாக {{BROWSER}} க்கு சேர்க்கவும்"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}-க்கு சேர்க்கவும் - இது இலவசம்"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF ஐச் சேர்க்கவும்",

@@ -614,7 +614,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "根据需要调整页面边距和其他选项。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "点击“添加并下载”，稍等片刻。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "下载带有页码的PDF文件 - 就是这样！",
-    "home_page__hero_section__desc__variant2": "通过AI聊天、重写器、摘要生成器和即时回复节省时间并获得更好的结果。由GPT-4o、Claude 3和Gemini 1.5提供支持。",
+    "home_page__hero_section__desc__variant2": "与一个AI伙伴合作，帮助您更快地进行研究，写作更好，并且更好地理解。",
     "home_page__features_carousel__feature_reply__label__full_name": "AI即时回复",
     "home_page__features_carousel__feature_reader__label__full_name": "AI阅读助手",
     "uninstall_survey__title": "帮助我们改进",
@@ -1139,7 +1139,7 @@
     "ai_vision_pages__section3__title": "适用于您工作的地方",
     "ai_vision_pages__section3__description": "在您需要的地方分析任何图像。MaxAI 可在您使用的所有网络应用和网站上运行。无需复制、粘贴或切换上下文。",
     "ai_vision_pages__section4__title": "由最佳 AI 视觉模型驱动",
-    "cta_text__add_to_browser_for_free": "免费添加到{{BROWSER}}"
+    "cta_text__add_to_browser_for_free": "添加到{{BROWSER}} - 免费使用"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "添加PDF",

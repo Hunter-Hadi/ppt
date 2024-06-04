@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Passen Sie die Seitenränder und andere Optionen bei Bedarf an.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klicken Sie auf \"Hinzufügen & Herunterladen\" und warten Sie nur einen Moment.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laden Sie Ihr PDF mit Seitenzahlen herunter – das ist alles!",
-    "home_page__hero_section__desc__variant2": "Sparen Sie Zeit und erzielen Sie bessere Ergebnisse mit KI-Chat, Umformulierer, Zusammenfasser und Sofortantwort. Angetrieben von GPT-4o, Claude 3 und Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Arbeiten Sie mit einem KI-Partner zusammen, der Ihnen hilft, schneller zu recherchieren, besser zu schreiben und mehr zu verstehen.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI Sofortantwort",
     "home_page__features_carousel__feature_reader__label__full_name": "AI Leseassistent",
     "uninstall_survey__title": "Helfen Sie uns, uns zu verbessern",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Funktioniert dort, wo Sie arbeiten",
     "ai_vision_pages__section3__description": "Analysieren Sie jedes Bild genau dort, wo Sie es benötigen. MaxAI funktioniert in allen Web-Apps und Websites, die Sie verwenden. Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts.",
     "ai_vision_pages__section4__title": "Angetrieben von den besten KI-Modellen mit Vision",
-    "cta_text__add_to_browser_for_free": "Kostenlos zu {{BROWSER}} hinzufügen"
+    "cta_text__add_to_browser_for_free": "Hinzufügen zu {{BROWSER}} - Kostenlos"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Alle auswählen",

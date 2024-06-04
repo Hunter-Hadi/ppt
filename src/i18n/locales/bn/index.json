@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "পৃষ্ঠা মার্জিন এবং অন্যান্য বিকল্পগুলি প্রয়োজন মত সংশোধন করুন।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“যোগ এবং ডাউনলোড” ক্লিক করুন এবং শুধুমাত্র একটি সেকেন্ড অপেক্ষা করুন।",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "পৃষ্ঠা সংখ্যাসহ আপনার পিডিএফ ডাউনলোড করুন - এটা হলো!",
-    "home_page__hero_section__desc__variant2": "এইচআই চ্যাট, পুনরায় লেখক, সংক্ষেপকারক এবং তাৎক্ষণিক উত্তর দিয়ে সময় সংরক্ষণ করুন এবং ভাল ফলাফল পান। GPT-4o, Claude 3 এবং Gemini 1.5 দ্বারা সম্ভব।",
+    "home_page__hero_section__desc__variant2": "একটি এইচআই পার্টনারের সাথে কাজ করুন যা আপনাকে তাড়াতাড়ি গবেষণা করতে, ভালো লেখা করতে এবং আরও বেশি বুঝতে সাহায্য করে।",
     "home_page__features_carousel__feature_reply__label__full_name": "এইচআই তাৎক্ষণিক উত্তর",
     "home_page__features_carousel__feature_reader__label__full_name": "এইচআই পাঠক সহায়তা",
     "uninstall_survey__title": "আমাদের সহায়তায় অংশ নিন",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "আপনি যেখানে কাজ করেন, সেখানেই কাজ করে",
     "ai_vision_pages__section3__description": "আপনি যেখানেই প্রয়োজন সেখানেই ছবি বিশ্লেষণ করুন। MaxAI আপনি ব্যবহার করে থাকা সমস্ত ওয়েব অ্যাপ এবং সাইটে কাজ করে। কপি করতে হবে না, পেস্ট করতে হবে না, কনটেক্সট সুইচ করতে হবে না।",
     "ai_vision_pages__section4__title": "সেরা AI মডেল দ্বারা প্রচারিত",
-    "cta_text__add_to_browser_for_free": "ফ্রি পেতে {{BROWSER}} যোগ করুন"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}} যোগ করুন - এটি বিনামূল্যে"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "সব নির্বাচন করুন",

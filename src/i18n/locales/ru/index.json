@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Настройте поля страницы и другие параметры по мере необходимости.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Нажмите «Добавить и скачать» и подождите всего несколько секунд.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Скачайте свой PDF с номерами страниц - вот и все!",
-    "home_page__hero_section__desc__variant2": "Экономьте время и получайте лучшие результаты с помощью чата на основе ИИ, переписывателя, резюмирования и мгновенного ответа. Работает на базе GPT-4o, Claude 3 и Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Работайте с партнером по искусственному интеллекту, который помогает вам исследовать быстрее, писать лучше и понимать больше.",
     "home_page__features_carousel__feature_reply__label__full_name": "Мгновенный ответ ИИ",
     "home_page__features_carousel__feature_reader__label__full_name": "Помощник для чтения ИИ",
     "uninstall_survey__title": "Помогите нам улучшить",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Работает там, где вы работаете",
     "ai_vision_pages__section3__description": "Анализируйте любое изображение прямо там, где вам это нужно. MaxAI работает во всех веб-приложениях и сайтах, которые вы используете. Нет копирования, вставки или переключения контекста.",
     "ai_vision_pages__section4__title": "Работает на лучших моделях искусственного интеллекта с видением",
-    "cta_text__add_to_browser_for_free": "Добавить в {{BROWSER}} бесплатно"
+    "cta_text__add_to_browser_for_free": "Добавить в {{BROWSER}} — Бесплатно"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Выбрать все",

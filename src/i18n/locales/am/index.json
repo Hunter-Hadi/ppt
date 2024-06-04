@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "ጽሁፍ ጠቀምና ሌሎች አማራጭ እናደርጋለን",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "የጽሁፍ ጥቅል መታወቂያውን ያንብቡ እና ጥቅል መታወቂያውን ያስገቡ",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "የጽሁፍ ጥቅል መታወቂያውን ያንብቡ - እርስዎን አማርኛ በቀላሉ በየደረጃዎ የጽሁፍ ጥቅል መታወቂያ መስራት አለባቸው!",
-    "home_page__hero_section__desc__variant2": "ጥቅም ለጥቅም እንዲሁም የAI የአስተላለፍ የቻለቆችን በማድረግ ጥቅምን ይቀበላል፣ የAI የአስተላለፍ የቻለቆችን በማድረግ የጥቅም መልክትን ያስተካክላል፣ እና የGPT-4o, Claude 3, እና Gemini 1.5 በሚል ማስተላለፍ ሁኔታ ላይ የሚገኙትን ውጤቶችን ይጠቀማል።",
+    "home_page__hero_section__desc__variant2": "ለበደል እንዲሁም መረጃ ማስተላለፍ እና መስራት በተጨማሪ የሚታይ አነጋገር ያለው AI ጠባቂ አገልግሎት",
     "home_page__features_carousel__feature_reply__label__full_name": "የኤክስ በሽታ መልእክት",
     "home_page__features_carousel__feature_reader__label__full_name": "የኤክስ ተጠቃሚ መልእክት",
     "home_page__hero_section__title__variant2": "የምስል አስተዳደር እና መግለጫ የሚሆን",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__description": "በስራው የሚከተለው በስራው የሚከተለው የAI መልእክት መሆኑን የሚያሳይ ነው።",
     "ai_vision_pages__section4__title": "በየትኛው የAI ሞዴሎች የተጠቀሰው መልእክት",
     "ai_prompts_pages__section1__title": "የማሳያ መግለጫዎች የሚገኙ የማሳያ AI መረጃዎች",
-    "cta_text__add_to_browser_for_free": "በ{{BROWSER}} ለነፃ ያክልሉ"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}-ን ያክሉ — በነፃ ተንቀሳቃሽ"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "ሁሉንም ይምረጡ",

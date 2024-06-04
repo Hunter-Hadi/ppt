@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Ajusta els marges de pàgina i altres opcions segons sigui necessari.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Fes clic a «Afegir i Descarregar» i espera només un segon.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Descarrega el teu PDF amb els números de pàgina. Això és tot!",
-    "home_page__hero_section__desc__variant2": "Estalvia temps i obtén millors resultats amb el xat d'IA, el reescriptor, el resumidor i la resposta instantània. Alimentat per GPT-4o, Claude 3 i Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Treballa amb un soci d'IA que t'ajuda a investigar més ràpid, escriure millor i entendre més.",
     "home_page__features_carousel__feature_reply__label__full_name": "Resposta instantània d'IA",
     "home_page__features_carousel__feature_reader__label__full_name": "Assistent de lectura d'IA",
     "uninstall_survey__title": "Ajuda'ns a millorar",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Funciona on treballes",
     "ai_vision_pages__section3__description": "Analitza qualsevol imatge, just on ho necessites. MaxAI funciona en totes les aplicacions web i llocs que utilitzes. Sense copiar, sense enganxar, sense canviar de context.",
     "ai_vision_pages__section4__title": "Potenciat pels millors models d'IA amb visió",
-    "cta_text__add_to_browser_for_free": "Afegiu-ho a {{BROWSER}} de franc"
+    "cta_text__add_to_browser_for_free": "Afegir a {{BROWSER}} - És gratuït"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selecciona-ho tot",

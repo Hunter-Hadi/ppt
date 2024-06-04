@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Reguliuokite puslapių paraštės ir kitus nustatymus pagal poreikį.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Spustelėkite „Pridėti ir atsisiųsti“ ir palaukite tik sekundėlę.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Atsisiųskite savo PDF su puslapių numeriais - tai viskas!",
-    "home_page__hero_section__desc__variant2": "Sutaupykite laiko ir gaukite geriausius rezultatus naudodami dirbtinio intelekto pokalbių, peržiūros, santraukos ir momentinės atsakymo funkcijas. Veikia su GPT-4o, Claude 3 ir Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Dirbkite su dirbtiniu intelektu partneriu, kuris padeda jums greičiau tyrinėti, rašyti geriau ir suprasti daugiau.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI greitas atsakymas",
     "home_page__features_carousel__feature_reader__label__full_name": "AI skaitymo asistentas",
     "uninstall_survey__title": "Padėkite mums pagerinti",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Veikia ten, kur dirbate",
     "ai_vision_pages__section3__description": "Analizuokite bet kurią nuotrauką tiesiog ten, kur jums reikia. MaxAI veikia visose interneto programose ir svetainėse, kurias naudojate. Nekopijuojant, neįklijuojant, nekeičiant konteksto.",
     "ai_vision_pages__section4__title": "Varoma geriausiais AI modeliais su vizija",
-    "cta_text__add_to_browser_for_free": "Pridėti į {{BROWSER}} nemokamai"
+    "cta_text__add_to_browser_for_free": "Pridėti į {{BROWSER}} - Nemokamai"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Pasirinkti viską",

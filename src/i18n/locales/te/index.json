@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "పేజీ మార్జిన్‌లను మరియు ఇతర ఎంపికలను అవసరమైతే సరిపోయే రూపకల్పనలను సరిచేయండి.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“చేర్చి & డౌన్‌లోడ్” నొక్కండి మరియు ఒక సెకన్ను వేచి ఉండండి.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "మీ PDFను పేజీ సంఖ్యలతో డౌన్‌లోడ్ చేయండి - అది అంటే ఇది!",
-    "home_page__hero_section__desc__variant2": "AI చాట్, రీవ్రైటర్, సారాంశకర్, మరియు తక్షణ సమాధానంతో సమయం సేవ్ చేయండి మరియు మంచి ఫలితాలను పొందండి. GPT-4o, Claude 3, మరియు Gemini 1.5 ద్వారా ప్రాముఖ్యత పొందబడినవి.",
+    "home_page__hero_section__desc__variant2": "మీరు త్వరగా శోధించడానికి, మంచిగా రాయడానికి మరియు మరీ అర్థం చేయడానికి సహాయపడే AI భాగస్వామితో పని చేయండి.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI తక్షణ సమాధానం",
     "home_page__features_carousel__feature_reader__label__full_name": "AI పఠన సహాయకుడు",
     "uninstall_survey__title": "మా కోసం మద్దతు చేయండి",
@@ -1139,7 +1139,7 @@
     "ai_vision_pages__section3__title": "మీ పనిలో పని చేయండి",
     "ai_vision_pages__section3__description": "మీరు అవసరం ఉన్న ఏ చిత్రంలో అన్ని విశ్లేషణలను చేయండి. MaxAI మీరు ఉపయోగిస్తున్న అన్ని వెబ్ యాప్‌లలో పని చేసేది. కాపీంగ్, పేస్టింగ్, కంటెక్స్ట్ స్విచింగ్ లేకుండా.",
     "ai_vision_pages__section4__title": "ఉత్తమ AI మోడల్స్ ద్వారా ప్రాధాన్యం పొందించబడుతుంది",
-    "cta_text__add_to_browser_for_free": "ఉచితంగా బ్రౌజర్‌కు జోడించండి {{BROWSER}}"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}కు జోడించండి - ఇది ఉచితం"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF ని జోడించండి",

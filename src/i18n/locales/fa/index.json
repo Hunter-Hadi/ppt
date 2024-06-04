@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "حاشیه صفحه و سایر گزینه ها را به عنوان نیازهای خود تنظیم کنید.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "روی 'اضافه کردن و دانلود' کلیک کنید و فقط چند ثانیه صبر کنید.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "PDF خود را با شماره صفحات دانلود کنید - همین!",
-    "home_page__hero_section__desc__variant2": "زمان صرفه جویی کنید و نتایج بهتری با چت، بازنویسی، خلاصه سازی و پاسخ فوری هوش مصنوعی بدست آورید. قدرت گرفته شده از GPT-4o، Claude 3 و Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "با یک همکار هوش مصنوعی کار کنید که به شما در تحقیق سریعتر، نوشتن بهتر و درک بیشتر کمک می‌کند.",
     "home_page__features_carousel__feature_reply__label__full_name": "پاسخ فوری هوش مصنوعی",
     "home_page__features_carousel__feature_reader__label__full_name": "دستیار خوانش هوش مصنوعی",
     "uninstall_survey__title": "به ما کمک کنید بهبود ببخشیم",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "کار می‌کند جایی که شما کار می‌کنید",
     "ai_vision_pages__section3__description": "هر تصویر را در جایی که نیاز دارید تجزیه و تحلیل کنید. MaxAI در تمام برنامه‌ها و سایت‌های وبی که استفاده می‌کنید قابل استفاده است. بدون کپی کردن، بدون چسباندن، بدون تغییر محیط.",
     "ai_vision_pages__section4__title": "قدرت گرفته از بهترین مدل‌های هوش مصنوعی با دید",
-    "cta_text__add_to_browser_for_free": "افزودن به {{BROWSER}} به صورت رایگان"
+    "cta_text__add_to_browser_for_free": "افزودن به {{BROWSER}} - رایگان است"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "انتخاب همه",

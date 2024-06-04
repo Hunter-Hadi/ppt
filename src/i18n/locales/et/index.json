@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Reguleeri lehe servasid ja muid sätteid vastavalt vajadusele.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klõpsa nupul „Lisa ja Laadi alla“ ning oota vaid hetk.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Laadi oma PDF alla leheküljenumbritega – see on kõik!",
-    "home_page__hero_section__desc__variant2": "Säästa aega ja saa paremaid tulemusi AI vestluse, ümberkirjutaja, kokkuvõtja ja kiire vastuse abil. Töötab GPT-4o, Claude 3 ja Gemini 1.5 poolt.",
+    "home_page__hero_section__desc__variant2": "Töötage AI partneriga, mis aitab teil kiiremini uurida, paremini kirjutada ja rohkem mõista.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI kiire vastus",
     "home_page__features_carousel__feature_reader__label__full_name": "AI lugemisabiline",
     "uninstall_survey__title": "Aita meil paremaks saada",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Töötab seal, kus sina töötad",
     "ai_vision_pages__section3__description": "Analüüsi mis tahes pilti seal, kus seda vajad. MaxAI töötab kõigis veebirakendustes ja saitidel, mida kasutad. Ei mingit kopeerimist, kleepimist ega konteksti vahetamist.",
     "ai_vision_pages__section4__title": "Parimate AI mudelite toel",
-    "cta_text__add_to_browser_for_free": "Lisa tasuta {{BROWSER}}-i"
+    "cta_text__add_to_browser_for_free": "Lisa {{BROWSER}} - See on tasuta"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Vali kõik",

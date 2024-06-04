@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Համապատասխանատվության համապատասխանատվությունները և այլ կարգավորումները կազմաձևեք ձեր ցանկացած տեսակի փաստաթղթերին:",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Սեղմեք «Ավելացնել և բեռնել» և սպասեք մի վայրկյան:",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Ներբեռնեք PDF-ը էջերով - այնպես է:",
-    "home_page__hero_section__desc__variant2": "Ապրանքային ժամանակ խաղալով և ավելի լավ արդյունքներ ստանաք AI խաղալիքով, վերագրավորիչով, ամփոփիչով և հարուստ պատասխանով: Ուղղակի GPT-4o, Claude 3 և Gemini 1.5-ի արտադրությամբ:",
+    "home_page__hero_section__desc__variant2": "Աշխատեք համակարգչի հետ, որը օգնում է ավելի արագ հետագայումներ ունենալ, ավելի լավ գրել և ավելի հասկանալի՝։",
     "home_page__features_carousel__feature_reply__label__full_name": "AI անկյունագիր",
     "home_page__features_carousel__feature_reader__label__full_name": "AI ընթերցող օգնական",
     "uninstall_survey__title": "Օգնեք մեզ բարելավելության համար",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section4__title": "Աշխատում է ամենալավ AI մոդելներով տեսահոլովակներով",
     "ai_rewriter_pages__section4__title": "Ստեղծեք ձեր սեղմագծի 1-կլիկ վերագրողը",
     "ai_rewriter_pages__section4__description": "Անհրաժեշտացնել կոնտեքստային մենյուին ձեր սեփական խնդրանքներով շարունակած օգտագործման համար։ Հեշտ է մուտք գործել և վերաօգտագործել, ձեր ինքնակարգը և ձեր թիմը համար։",
-    "cta_text__add_to_browser_for_free": "Ավելացրեք {{BROWSER}}-ին անվճար"
+    "cta_text__add_to_browser_for_free": "Ավելացրեք {{BROWSER}}-ին - Անվճար է"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Ընտրել բոլորը",

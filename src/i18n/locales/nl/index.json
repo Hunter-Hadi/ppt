@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Pas paginamarges en andere opties indien nodig aan.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klik op 'Toevoegen en downloaden' en wacht even.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download uw PDF met paginanummers - dat is alles!",
-    "home_page__hero_section__desc__variant2": "Bespaar tijd en krijg betere resultaten met AI-chat, herschrijver, samenvatter en direct antwoord. Aangedreven door GPT-4o, Claude 3 en Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Werk samen met een AI-partner die je helpt sneller te onderzoeken, beter te schrijven en meer te begrijpen.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI direct antwoord",
     "home_page__features_carousel__feature_reader__label__full_name": "AI leesassistent",
     "uninstall_survey__title": "Help ons verbeteren",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Werkt waar jij werkt",
     "ai_vision_pages__section3__description": "Analyseer elke afbeelding, precies waar je het nodig hebt. MaxAI werkt op alle web-apps en sites die je gebruikt. Geen kopiëren, geen plakken, geen contextwisseling.",
     "ai_vision_pages__section4__title": "Aangedreven door de beste AI-modellen met visie",
-    "cta_text__add_to_browser_for_free": "Voeg gratis toe aan {{BROWSER}}"
+    "cta_text__add_to_browser_for_free": "Toevoegen aan {{BROWSER}} - Gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selecteer alles",

@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "필요에 따라 페이지 여백 및 기타 옵션을 조정하세요.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“추가 및 다운로드”를 클릭하고 잠시 기다리세요.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "페이지 번호가 있는 PDF를 다운로드하세요!",
-    "home_page__hero_section__desc__variant2": "AI 채팅, 리라이터, 요약 및 즉각적인 답변으로 시간을 절약하고 더 나은 결과를 얻으세요. GPT-4o, Claude 3 및 Gemini 1.5의 도움을 받습니다.",
+    "home_page__hero_section__desc__variant2": "더 빠르게 연구하고, 더 나은 글을 쓰며, 더 많이 이해할 수 있는 AI 파트너와 함께 작업하세요.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI 즉각적인 답변",
     "home_page__features_carousel__feature_reader__label__full_name": "AI 독서 보조",
     "uninstall_survey__title": "도움을 주세요",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "작업하는 곳에서 작동합니다",
     "ai_vision_pages__section3__description": "필요한 위치에서 이미지를 분석하세요. MaxAI는 사용하는 모든 웹 앱과 사이트에서 작동합니다. 복사하지 않고 붙여넣지 않고 문맥 전환 없이 사용하세요.",
     "ai_vision_pages__section4__title": "최고의 AI 모델로 구동됩니다",
-    "cta_text__add_to_browser_for_free": "무료로 {{BROWSER}}에 추가"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}에 추가 - 무료입니다"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "모두 선택",

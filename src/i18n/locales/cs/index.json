@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Přizpůsobte okraje stránky a další možnosti podle potřeby.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klikněte na „Přidat a stáhnout“ a počkejte jen chvilku.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Stáhněte si své PDF s čísly stránek – to je vše!",
-    "home_page__hero_section__desc__variant2": "Ušetřete čas a získávejte lepší výsledky s chatem AI, přepisovačem, shrnováním a okamžitou odpovědí. Poháněno GPT-4o, Claude 3 a Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Pracujte s umělou inteligencí, která vám pomáhá rychleji vyhledávat, lépe psát a lépe porozumět.",
     "home_page__features_carousel__feature_reply__label__full_name": "Okamžitá odpověď AI",
     "home_page__features_carousel__feature_reader__label__full_name": "Asistent pro čtení AI",
     "uninstall_survey__title": "Pomozte nám zlepšit",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Funguje tam, kde pracujete",
     "ai_vision_pages__section3__description": "Analyzujte libovolný obrázek přímo tam, kde ho potřebujete. MaxAI funguje ve všech webových aplikacích a stránkách, které používáte. Žádné kopírování, žádné vkládání, žádné přepínání kontextu.",
     "ai_vision_pages__section4__title": "Poháněno nejlepšími AI modely s vizí",
-    "cta_text__add_to_browser_for_free": "Přidat do {{BROWSER}} zdarma"
+    "cta_text__add_to_browser_for_free": "Přidat do {{BROWSER}} - Je to zdarma"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Vybrat vše",

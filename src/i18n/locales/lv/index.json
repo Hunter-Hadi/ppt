@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Pielāgojiet lapu malas un citas opcijas pēc vajadzības.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Noklikšķiniet uz “Pievienot un lejupielādēt” un pagaidiet tikai mirkli.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Lejupielādējiet savu PDF ar lapu numuriem - tas ir viss!",
-    "home_page__hero_section__desc__variant2": "Ietaupiet laiku un iegūstiet labākus rezultātus ar AI čatu, pārrakstītāju, kopsavilkumu un nekavējoties atbildēm. Darbina GPT-4o, Claude 3 un Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Strādājiet ar AI partneri, kas palīdz jums ātrāk pētīt, labāk rakstīt un labāk saprast.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI tūlītējā atbilde",
     "home_page__features_carousel__feature_reader__label__full_name": "AI lasīšanas asistents",
     "uninstall_survey__title": "Palīdziet mums uzlabot",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Darbojas tur, kur strādājat",
     "ai_vision_pages__section3__description": "Analizējiet jebkuru attēlu tieši tur, kur to vajadzētu. MaxAI darbojas visos tīmekļa lietojumprogrammās un vietnēs, ko izmantojat. Nav kopēšanas, nav ielīmēšanas, nav konteksta maiņas.",
     "ai_vision_pages__section4__title": "Darbojas ar labākajiem AI modeļiem ar redzi",
-    "cta_text__add_to_browser_for_free": "Pievienot {{BROWSER}} bez maksas"
+    "cta_text__add_to_browser_for_free": "Pievienot {{BROWSER}} — Tas ir bez maksas"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Izvēlēties visu",

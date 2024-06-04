@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "必要に応じてページの余白やその他のオプションを調整します。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "「追加してダウンロード」をクリックし、わずかな時間を待ちます。",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "ページ番号が付いたPDFをダウンロードします - それだけです！",
-    "home_page__hero_section__desc__variant2": "AIチャット、リライター、要約、インスタントリプライで時間を節約し、より良い結果を得る。GPT-4o、Claude 3、Gemini 1.5によって強化されています。",
+    "home_page__hero_section__desc__variant2": "より速く調査し、より良い文章を書き、より多く理解するためのAIパートナーと一緒に働こう。",
     "home_page__features_carousel__feature_reply__label__full_name": "AIの即時返信",
     "home_page__features_carousel__feature_reader__label__full_name": "AI読み上げアシスタント",
     "uninstall_survey__title": "改善にご協力ください",
@@ -1119,7 +1119,7 @@
     "ai_translator_pages__section5__description": "はい、完全に無料です！",
     "ai_vision_pages__title": "最先端のAIビジョンモデルで画像を分析",
     "ai_vision_pages__description": "最も高度なAIビジョンモデルを使用して、任意の画像を理解し分析します。",
-    "cta_text__add_to_browser_for_free": "無料で{{BROWSER}}に追加"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}に追加 - 無料です"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "すべて選択",

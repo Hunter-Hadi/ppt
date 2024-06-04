@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Prilagodite margine stranica i druge opcije po potrebi.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Kliknite na \"Dodaj i preuzmi\" i sačekajte samo trenutak.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Preuzmite svoj PDF sa brojevima stranica - to je sve!",
-    "home_page__hero_section__desc__variant2": "Uštedite vreme i postignite bolje rezultate uz pomoć AI četa, prepravljača, sumiratora i trenutnog odgovora. Pokreće GPT-4o, Claude 3 i Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Radite sa AI partnerom koji vam pomaže da istražujete brže, pišete bolje i razumete više.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI trenutni odgovor",
     "home_page__features_carousel__feature_reader__label__full_name": "AI čitalac pomoćnik",
     "uninstall_survey__title": "Pomozite nam da poboljšamo",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Radi tamo gde radite",
     "ai_vision_pages__section3__description": "Analizirajte bilo koju sliku tamo gde vam je potrebna. MaxAI radi na svim web aplikacijama i sajtovima koje koristite. Bez kopiranja, bez lepljenja, bez prebacivanja konteksta.",
     "ai_vision_pages__section4__title": "Pokretan najboljim AI modelima sa vizijom",
-    "cta_text__add_to_browser_for_free": "Dodajte u {{BROWSER}} besplatno"
+    "cta_text__add_to_browser_for_free": "Dodajte u {{BROWSER}} - Besplatno je"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Izaberite sve",

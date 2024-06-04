@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Justera sidmarginaler och andra alternativ vid behov.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Klicka på \"Lägg till och ladda ner\" och vänta bara en sekund.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Ladda ner din PDF med sidnummer - det är allt!",
-    "home_page__hero_section__desc__variant2": "Spara tid och få bättre resultat med AI-chatt, omskrivare, sammanfattare och snabbt svar. Drivs av GPT-4o, Claude 3 och Gemini 1.5.",
+    "home_page__hero_section__desc__variant2": "Arbeta med en AI-partner som hjälper dig att forska snabbare, skriva bättre och förstå mer.",
     "home_page__features_carousel__feature_reply__label__full_name": "AI omedelbar svar",
     "home_page__features_carousel__feature_reader__label__full_name": "AI läsassistans",
     "uninstall_survey__title": "Hjälp oss att förbättra",
@@ -1119,7 +1119,7 @@
     "ai_vision_pages__section3__title": "Fungerar där du arbetar",
     "ai_vision_pages__section3__description": "Analysera valfri bild precis där du behöver det. MaxAI fungerar på alla webbappar och webbplatser du använder. Ingen kopiering, ingen klistring, ingen kontextväxling.",
     "ai_vision_pages__section4__title": "Drivs av de bästa AI-modellerna med vision",
-    "cta_text__add_to_browser_for_free": "Lägg till i {{BROWSER}} gratis"
+    "cta_text__add_to_browser_for_free": "Lägg till i {{BROWSER}} - Det är gratis"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Välj alla",

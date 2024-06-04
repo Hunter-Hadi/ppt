@@ -628,7 +628,7 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "صفحہ مارجنز اور دیگر اختیارات کو ضرورت کے مطابق ترتیب دیں۔",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "“شامل کریں اور ڈاؤن لوڈ کریں” پر کلک کریں اور صرف ایک سیکنڈ رکھیں۔",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "پی ڈی ایف کو صفحات کے ساتھ ڈاؤن لوڈ کریں - یہی ہے!",
-    "home_page__hero_section__desc__variant2": "AI چیٹ، ری رائٹر، سمارائزر اور فوری جواب کے ساتھ وقت بچاؤ اور بہتر نتائج حاصل کریں. GPT-4o، Claude 3 اور Gemini 1.5 کی طاقت سے محرک.",
+    "home_page__hero_section__desc__variant2": "ایک AI شراکت دار کے ساتھ کام کریں جو آپ کو تیزی سے تحقیق کرنے، بہتر لکھنے اور زیادہ سمجھنے میں مدد کرتا ہے۔",
     "home_page__features_carousel__feature_reply__label__full_name": "AI فوری جواب",
     "home_page__features_carousel__feature_reader__label__full_name": "AI پڑھنے والا معاون",
     "uninstall_survey__title": "ہمیں بہتر بنانے میں مدد کریں",
@@ -1139,7 +1139,7 @@
     "ai_vision_pages__section3__title": "جہاں آپ کام کرتے ہیں وہاں کام کرتا ہے",
     "ai_vision_pages__section3__description": "کسی بھی تصویر کا تجزیہ کریں، جہاں آپ کو ضرورت ہو. MaxAI آپ کے استعمال کردہ تمام ویب ایپس اور سائٹس پر کام کرتا ہے. کوئی کاپی کرنے کی ضرورت نہیں، کوئی پیسٹ کرنے کی ضرورت نہیں، کوئی کنٹیکسٹ سوئچ کرنے کی ضرورت نہیں.",
     "ai_vision_pages__section4__title": "بہترین AI ماڈلز کے ذریعے طاقتور",
-    "cta_text__add_to_browser_for_free": "مفت کے لئے {{BROWSER}} میں شامل کریں"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}} میں شامل کریں - یہ مفت ہے"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "پی ڈی ایف شامل کریں",
