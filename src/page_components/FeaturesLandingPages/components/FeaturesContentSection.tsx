@@ -1,4 +1,3 @@
-import ArrowForwardOutlinedIcon from '@mui/icons-material/ArrowForwardOutlined';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
@@ -119,7 +118,7 @@ const FeaturesContentSection: FC<IProps> = ({
                   pathnameRefEnable: true,
                 }}
                 startIcon={null}
-                endIcon={<ArrowForwardOutlinedIcon />}
+                endIcon={null}
                 variant={'contained'}
                 text={t('features_landing:cta_text__add_to_browser_for_free', {
                   BROWSER: browserAgent,
