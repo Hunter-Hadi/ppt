@@ -76,7 +76,7 @@ const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
           />
         }
       >
-        <IconComponent sx={sx} />
+        <IconComponent sx={sxCache} />
       </Suspense>
     );
   } else {
