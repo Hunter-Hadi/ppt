@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import React, { FC, useEffect, useMemo, useRef } from 'react';
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
@@ -37,18 +36,20 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
 
   useEffect(() => {
     const videoElement = videoRef.current;
+    console.log(`zztest videoElement`, videoElement);
     const videoDataListener = () => {
+      console.log('zztest videoDataListener', videoElement);
       if (videoElement?.readyState && videoElement?.readyState >= 3) {
         setVideoLoaded(true);
       }
     };
     if (videoElement) {
-      videoElement.addEventListener('loadeddata', videoDataListener);
+      videoElement.addEventListener('ended', videoDataListener);
     }
 
     return () => {
       if (videoElement) {
-        videoElement.removeEventListener('loadeddata', videoDataListener);
+        videoElement.removeEventListener('ended', videoDataListener);
       }
     };
   }, []);
@@ -68,14 +69,16 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
             position: 'relative',
             textDecoration: 'none',
             bgcolor: 'rgba(0, 0, 0, 0)',
+            width: '100%',
+            // height: '100%',
           }}
         >
-          <AppLoadingLayout loading={!videoLoaded} />
+          {/* <AppLoadingLayout loading={!videoLoaded} /> */}
           <video
             ref={videoRef}
+            autoPlay
             loop
             muted
-            autoPlay
             playsInline
             style={{
               cursor: 'auto',
@@ -87,7 +90,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
               backgroundColor: 'rgba(0, 0, 0, 0)',
               objectPosition: '50% 50%',
               boxShadow: 'rgba(10, 0, 31, 0.1) 0px 1px 24px 4px',
-              opacity: videoLoaded ? 1 : 0,
+              // opacity: videoLoaded ? 1 : 0,
             }}
           >
             <source src={videoSrc} type='video/mp4' />

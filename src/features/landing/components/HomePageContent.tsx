@@ -57,6 +57,10 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
             variant: heroVideoVariant,
           }}
         />
+
+        {/* trusted by */}
+        <TrustedBy />
+
         {/* feature  */}
         {featuresWithScene ? (
           <FeaturesWithSceneVariantSection />
@@ -64,8 +68,7 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
           <FeaturesExpandVariantSection />
         )}
         {/* {!loaded && <FeaturesCarouselSkeleton />} */}
-        {/* trusted by */}
-        <TrustedBy />
+
         {/* maxai in numbers */}
         <MaxAIInNumbers />
         {/* user comment */}

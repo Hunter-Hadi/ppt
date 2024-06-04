@@ -81,7 +81,10 @@ const HeroSection: FC<IProps> = ({
         backgroundPositionY: '-40px',
       }}
     >
-      <Box maxWidth={1312} mx='auto'>
+      <Box
+        maxWidth={heroSectionLayout === 'ttb-layout' ? 1040 : 1312}
+        mx='auto'
+      >
         <Grid container rowSpacing={3} spacing={4}>
           <Grid
             item
@@ -138,11 +141,19 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='body2'
-                  fontSize={{
-                    xs: 14,
-                    sm: 16,
-                    lg: 18,
-                  }}
+                  fontSize={
+                    heroSectionLayout === 'ttb-layout'
+                      ? {
+                          xs: 16,
+                          sm: 18,
+                          lg: 22,
+                        }
+                      : {
+                          xs: 14,
+                          sm: 16,
+                          lg: 18,
+                        }
+                  }
                 >
                   {description}
                 </Typography>
@@ -258,9 +269,11 @@ const HeroSection: FC<IProps> = ({
               </Stack>
               <Stack
                 direction={'row'}
-                spacing={0.5}
+                spacing={0.6}
                 alignItems='center'
-                justifyContent='center'
+                justifyContent={
+                  heroSectionLayout === 'ttb-layout' ? 'center' : 'flex-start'
+                }
                 width={'100%'}
                 fontSize={{
                   xs: 12,
@@ -291,7 +304,7 @@ const HeroSection: FC<IProps> = ({
                   lineHeight={1.5}
                   flexShrink={0}
                 >
-                  GPT-4o,
+                  GPT-4o
                 </Typography>
                 <CustomIcon
                   icon='ClaudeLogo'
@@ -308,7 +321,7 @@ const HeroSection: FC<IProps> = ({
                   lineHeight={1.5}
                   flexShrink={0}
                 >
-                  Claude 3,
+                  Claude 3
                 </Typography>
                 <CustomIcon
                   icon='GeminiPro'
