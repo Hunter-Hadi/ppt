@@ -55,17 +55,17 @@
     "upgrade_now": "שדרג עכשיו"
   },
   "button": {
-    "add_to_chrome_for_free": "הוסף לכרום בחינם",
-    "add_to_edge_for_free": "הוסף לאדג בחינם",
+    "add_to_chrome_for_free": "הוסף ל־Chrome - זה חינם",
+    "add_to_edge_for_free": "הוסף ל־Edge - זה חינם",
     "add_to_chrome_for_free__mini": "הוסף לכרום",
     "add_to_edge_for_free__mini": "הוסף לאדג'",
     "upgrade_to": "שדרג ל{{plan}}",
     "start_for": "התחל ב-{{plan}}",
     "cancel_anytime": "בטל בכל עת",
     "install_now": "התקן עכשיו",
-    "external_add_to_chrome_for_free": "הוסף את MaxAI ל-Chrome בחינם",
+    "external_add_to_chrome_for_free": "הוסף את MaxAI ל־Chrome - זה חינם",
     "external_add_to_chrome_for_free__mini": "הוסף את MaxAI ל-Chrome",
-    "external_add_to_edge_for_free": "הוסף את MaxAI ל-Edge בחינם",
+    "external_add_to_edge_for_free": "הוסף את MaxAI ל־Edge - זה חינם",
     "external_add_to_edge_for_free__mini": "הוסף את MaxAI ל-Edge"
   },
   "pages": {

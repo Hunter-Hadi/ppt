@@ -55,17 +55,17 @@
     "upgrade_now": "Nadogradite odmah"
   },
   "button": {
-    "add_to_chrome_for_free": "Dodaj besplatno u Chrome",
-    "add_to_edge_for_free": "Dodaj besplatno u Edge",
+    "add_to_chrome_for_free": "Dodaj u Chrome - Besplatno je",
+    "add_to_edge_for_free": "Dodaj u Edge - Besplatno je",
     "add_to_chrome_for_free__mini": "Dodaj u Chrome",
     "add_to_edge_for_free__mini": "Dodaj u Edge",
     "upgrade_to": "Nadogradi na {{plan}}",
     "start_for": "Počni za {{plan}}",
     "cancel_anytime": "Otkaži u bilo koje vreme",
     "install_now": "Instaliraj sada",
-    "external_add_to_chrome_for_free": "Dodaj MaxAI u Chrome besplatno",
+    "external_add_to_chrome_for_free": "Dodaj MaxAI u Chrome - Besplatno je",
     "external_add_to_chrome_for_free__mini": "Dodaj MaxAI u Chrome",
-    "external_add_to_edge_for_free": "Dodaj MaxAI u Edge besplatno",
+    "external_add_to_edge_for_free": "Dodaj MaxAI u Edge - Besplatno je",
     "external_add_to_edge_for_free__mini": "Dodaj MaxAI u Edge"
   },
   "pages": {

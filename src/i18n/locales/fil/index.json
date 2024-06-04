@@ -55,17 +55,17 @@
     "upgrade_now": "Mag-upgrade ngayon"
   },
   "button": {
-    "add_to_chrome_for_free": "Idagdag sa Chrome nang libre",
-    "add_to_edge_for_free": "Idagdag sa Edge nang libre",
+    "add_to_chrome_for_free": "Idagdag sa Chrome — Libre ito",
+    "add_to_edge_for_free": "Idagdag sa Edge — Libre ito",
     "add_to_chrome_for_free__mini": "Idagdag sa Chrome",
     "add_to_edge_for_free__mini": "Idagdag sa Edge",
     "upgrade_to": "Mag-upgrade sa {{plan}}",
     "start_for": "Simulan para sa {{plan}}",
     "cancel_anytime": "Bawasan anumang oras",
     "install_now": "I-install ngayon",
-    "external_add_to_chrome_for_free": "I-install ang MaxAI sa Chrome nang libre",
+    "external_add_to_chrome_for_free": "Idagdag ang MaxAI sa Chrome — Libre ito",
     "external_add_to_chrome_for_free__mini": "I-install ang MaxAI sa Chrome",
-    "external_add_to_edge_for_free": "I-install ang MaxAI sa Edge nang libre",
+    "external_add_to_edge_for_free": "Idagdag ang MaxAI sa Edge — Libre ito",
     "external_add_to_edge_for_free__mini": "I-install ang MaxAI sa Edge"
   },
   "pages": {

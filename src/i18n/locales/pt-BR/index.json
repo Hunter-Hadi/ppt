@@ -55,17 +55,17 @@
     "upgrade_now": "Atualize agora"
   },
   "button": {
-    "add_to_chrome_for_free": "Adicionar ao Chrome gratuitamente",
-    "add_to_edge_for_free": "Adicionar ao Edge gratuitamente",
+    "add_to_chrome_for_free": "Adicionar ao Chrome - É grátis",
+    "add_to_edge_for_free": "Adicionar ao Edge - É grátis",
     "add_to_chrome_for_free__mini": "Adicionar ao Chrome",
     "add_to_edge_for_free__mini": "Adicionar ao Edge",
     "upgrade_to": "Atualizar para {{plan}}",
     "start_for": "Começar por {{plan}}",
     "cancel_anytime": "Cancelar a qualquer momento",
     "install_now": "Instalar agora",
-    "external_add_to_chrome_for_free": "Adicionar MaxAI ao Chrome gratuitamente",
+    "external_add_to_chrome_for_free": "Adicionar MaxAI ao Chrome - É grátis",
     "external_add_to_chrome_for_free__mini": "Adicionar MaxAI ao Chrome",
-    "external_add_to_edge_for_free": "Adicionar MaxAI ao Edge gratuitamente",
+    "external_add_to_edge_for_free": "Adicionar MaxAI ao Edge - É grátis",
     "external_add_to_edge_for_free__mini": "Adicionar MaxAI ao Edge"
   },
   "pages": {
@@ -1376,6 +1376,5 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Conte-nos sobre suas preocupações",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "O que fez você decidir desinstalar a extensão do MaxAI.me?",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Diga-nos o que causou a desinstalação..."
-  },
-  "": ""
+  }
 }

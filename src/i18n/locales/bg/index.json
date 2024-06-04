@@ -55,17 +55,17 @@
     "upgrade_now": "Надстрой сега"
   },
   "button": {
-    "add_to_chrome_for_free": "Добави в Chrome безплатно",
-    "add_to_edge_for_free": "Добави в Edge безплатно",
+    "add_to_chrome_for_free": "Добави към Chrome - Безплатно е",
+    "add_to_edge_for_free": "Добави към Edge - Безплатно е",
     "add_to_chrome_for_free__mini": "Добави в Chrome",
     "add_to_edge_for_free__mini": "Добави в Edge",
     "upgrade_to": "Надгради на {{plan}}",
     "start_for": "Започни за {{plan}}",
     "cancel_anytime": "Отказване по всяко време",
     "install_now": "Инсталирай сега",
-    "external_add_to_chrome_for_free": "Добавете MaxAI към Chrome безплатно",
+    "external_add_to_chrome_for_free": "Добави MaxAI към Chrome - Безплатно е",
     "external_add_to_chrome_for_free__mini": "Добавете MaxAI към Chrome",
-    "external_add_to_edge_for_free": "Добавете MaxAI към Edge безплатно",
+    "external_add_to_edge_for_free": "Добави MaxAI към Edge - Безплатно е",
     "external_add_to_edge_for_free__mini": "Добавете MaxAI към Edge"
   },
   "pages": {

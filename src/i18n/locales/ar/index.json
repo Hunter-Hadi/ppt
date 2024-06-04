@@ -55,17 +55,17 @@
     "upgrade_now": "ترقية الآن"
   },
   "button": {
-    "add_to_chrome_for_free": "أضف إلى Chrome مجانًا",
-    "add_to_edge_for_free": "أضف إلى Edge مجانًا",
+    "add_to_chrome_for_free": "أضف إلى Chrome - مجانًا",
+    "add_to_edge_for_free": "أضف إلى Edge - مجانًا",
     "add_to_chrome_for_free__mini": "أضف إلى Chrome",
     "add_to_edge_for_free__mini": "أضف إلى Edge",
     "upgrade_to": "الترقية إلى {{plan}}",
     "start_for": "ابدأ بـ {{plan}}",
     "cancel_anytime": "إلغاء في أي وقت",
     "install_now": "قم بالتثبيت الآن",
-    "external_add_to_chrome_for_free": "أضف MaxAI إلى Chrome مجانًا",
+    "external_add_to_chrome_for_free": "أضف MaxAI إلى Chrome - مجانًا",
     "external_add_to_chrome_for_free__mini": "أضف MaxAI إلى Chrome",
-    "external_add_to_edge_for_free": "أضف MaxAI إلى Edge مجانًا",
+    "external_add_to_edge_for_free": "أضف MaxAI إلى Edge - مجانًا",
     "external_add_to_edge_for_free__mini": "أضف MaxAI إلى Edge"
   },
   "pages": {

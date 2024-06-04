@@ -55,17 +55,17 @@
     "upgrade_now": "Zaktualizuj teraz"
   },
   "button": {
-    "add_to_chrome_for_free": "Dodaj za darmo do Chrome",
-    "add_to_edge_for_free": "Dodaj za darmo do Edge",
+    "add_to_chrome_for_free": "Dodaj do Chrome — Jest za darmo",
+    "add_to_edge_for_free": "Dodaj do Edge — Jest za darmo",
     "add_to_chrome_for_free__mini": "Dodaj do Chrome",
     "add_to_edge_for_free__mini": "Dodaj do Edge",
     "upgrade_to": "Uaktualnij do {{plan}}",
     "start_for": "Rozpocznij za {{plan}}",
     "cancel_anytime": "Anuluj w dowolnym momencie",
     "install_now": "Zainstaluj teraz",
-    "external_add_to_chrome_for_free": "Dodaj MaxAI do Chrome za darmo",
+    "external_add_to_chrome_for_free": "Dodaj MaxAI do Chrome — Jest za darmo",
     "external_add_to_chrome_for_free__mini": "Dodaj MaxAI do Chrome",
-    "external_add_to_edge_for_free": "Dodaj MaxAI do Edge za darmo",
+    "external_add_to_edge_for_free": "Dodaj MaxAI do Edge — Jest za darmo",
     "external_add_to_edge_for_free__mini": "Dodaj MaxAI do Edge"
   },
   "pages": {

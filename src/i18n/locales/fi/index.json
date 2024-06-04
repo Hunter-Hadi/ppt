@@ -55,17 +55,17 @@
     "upgrade_now": "Päivitä nyt"
   },
   "button": {
-    "add_to_chrome_for_free": "Lisää Chromeen ilmaiseksi",
-    "add_to_edge_for_free": "Lisää Edgeen ilmaiseksi",
+    "add_to_chrome_for_free": "Lisää Chromeen - Se on ilmainen",
+    "add_to_edge_for_free": "Lisää Edgeen - Se on ilmainen",
     "add_to_chrome_for_free__mini": "Lisää Chromeen",
     "add_to_edge_for_free__mini": "Lisää Edgeen",
     "upgrade_to": "Päivitä {{plan}}:iin",
     "start_for": "Aloita {{plan}}:lla",
     "cancel_anytime": "Peruuta milloin tahansa",
     "install_now": "Asenna nyt",
-    "external_add_to_chrome_for_free": "Lisää MaxAI Chromeen ilmaiseksi",
+    "external_add_to_chrome_for_free": "Lisää MaxAI Chromeen - Se on ilmainen",
     "external_add_to_chrome_for_free__mini": "Lisää MaxAI Chromeen",
-    "external_add_to_edge_for_free": "Lisää MaxAI Edgeen ilmaiseksi",
+    "external_add_to_edge_for_free": "Lisää MaxAI Edgeen - Se on ilmainen",
     "external_add_to_edge_for_free__mini": "Lisää MaxAI Edgeen"
   },
   "pages": {

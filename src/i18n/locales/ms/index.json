@@ -55,17 +55,17 @@
     "upgrade_now": "Naik Taraf Sekarang"
   },
   "button": {
-    "add_to_chrome_for_free": "Tambah ke Chrome secara percuma",
-    "add_to_edge_for_free": "Tambah ke Edge secara percuma",
+    "add_to_chrome_for_free": "Tambahkan ke Chrome - Percuma",
+    "add_to_edge_for_free": "Tambahkan ke Edge - Percuma",
     "add_to_chrome_for_free__mini": "Tambah ke Chrome",
     "add_to_edge_for_free__mini": "Tambah ke Edge",
     "upgrade_to": "Naik taraf kepada {{plan}}",
     "start_for": "Mula untuk {{plan}}",
     "cancel_anytime": "Batal bila-bila masa",
     "install_now": "Pasang sekarang",
-    "external_add_to_chrome_for_free": "Tambahkan MaxAI ke Chrome secara percuma",
+    "external_add_to_chrome_for_free": "Tambahkan MaxAI ke Chrome - Percuma",
     "external_add_to_chrome_for_free__mini": "Tambahkan MaxAI ke Chrome",
-    "external_add_to_edge_for_free": "Tambahkan MaxAI ke Edge secara percuma",
+    "external_add_to_edge_for_free": "Tambahkan MaxAI ke Edge - Percuma",
     "external_add_to_edge_for_free__mini": "Tambahkan MaxAI ke Edge"
   },
   "pages": {

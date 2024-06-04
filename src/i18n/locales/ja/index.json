@@ -55,17 +55,17 @@
     "upgrade_now": "今すぐアップグレード"
   },
   "button": {
-    "add_to_chrome_for_free": "無料でChromeに追加",
-    "add_to_edge_for_free": "無料でEdgeに追加",
+    "add_to_chrome_for_free": "Chromeに追加 - 無料です",
+    "add_to_edge_for_free": "Edgeに追加 - 無料です",
     "add_to_chrome_for_free__mini": "Chromeに追加",
     "add_to_edge_for_free__mini": "Edgeに追加",
     "upgrade_to": "{{plan}}にアップグレード",
     "start_for": "{{plan}}で開始",
     "cancel_anytime": "いつでもキャンセル",
     "install_now": "今すぐインストール",
-    "external_add_to_chrome_for_free": "無料でMaxAIをChromeに追加",
+    "external_add_to_chrome_for_free": "MaxAIをChromeに追加 - 無料です",
     "external_add_to_chrome_for_free__mini": "MaxAIをChromeに追加",
-    "external_add_to_edge_for_free": "無料でMaxAIをEdgeに追加",
+    "external_add_to_edge_for_free": "MaxAIをEdgeに追加 - 無料です",
     "external_add_to_edge_for_free__mini": "MaxAIをEdgeに追加"
   },
   "pages": {
@@ -1376,6 +1376,5 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "ご不安を教えてください",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.meブラウザ拡張機能をアンインストールする決め手となった理由は何ですか？",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "アンインストールの原因を教えてください..."
-  },
-  "": ""
+  }
 }

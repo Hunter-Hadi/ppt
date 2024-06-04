@@ -55,17 +55,17 @@
     "upgrade_now": "अभी अपग्रेड करें"
   },
   "button": {
-    "add_to_chrome_for_free": "मुफ्त में Chrome में जोड़ें",
-    "add_to_edge_for_free": "मुफ्त में Edge में जोड़ें",
+    "add_to_chrome_for_free": "Chrome में जोड़ें - यह मुफ्त है",
+    "add_to_edge_for_free": "Edge में जोड़ें - यह मुफ्त है",
     "add_to_chrome_for_free__mini": "क्रोम में जोड़ें",
     "add_to_edge_for_free__mini": "Edge में जोड़ें",
     "upgrade_to": "{{plan}} में अपग्रेड करें",
     "start_for": "{{plan}} पर शुरू करें",
     "cancel_anytime": "कभी भी रद्द करें",
     "install_now": "अभी इंस्टॉल करें",
-    "external_add_to_chrome_for_free": "मुफ्त में Chrome में MaxAI जोड़ें",
+    "external_add_to_chrome_for_free": "MaxAI को Chrome में जोड़ें - यह मुफ्त है",
     "external_add_to_chrome_for_free__mini": "Chrome में MaxAI जोड़ें",
-    "external_add_to_edge_for_free": "मुफ्त में Edge में MaxAI जोड़ें",
+    "external_add_to_edge_for_free": "MaxAI को Edge में जोड़ें - यह मुफ्त है",
     "external_add_to_edge_for_free__mini": "Edge में MaxAI जोड़ें"
   },
   "pages": {
@@ -1376,6 +1376,5 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "हमें अपनी चिंताओं के बारे में बताएं",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "MaxAI.me ब्राउज़र एक्सटेंशन को अनइंस्टॉल करने का कारण क्या था?",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "हमें बताएं कि आपने अनइंस्टॉल करने का कारण क्या था..."
-  },
-  "": ""
+  }
 }

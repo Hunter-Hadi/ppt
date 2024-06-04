@@ -55,17 +55,17 @@
     "upgrade_now": "இப்போது மேம்படுத்து"
   },
   "button": {
-    "add_to_chrome_for_free": "இலவசமாக குரோமில் சேர்க்கவும்",
-    "add_to_edge_for_free": "இலவசமாக எட்ஜில் சேர்க்கவும்",
+    "add_to_chrome_for_free": "கூகுள் திரும்பி சேர்க்கவும் - இலவசம்",
+    "add_to_edge_for_free": "Edge-க்கு சேர்க்கவும் - இலவசம்",
     "add_to_chrome_for_free__mini": "குரோமில் சேர்க்கவும்",
     "add_to_edge_for_free__mini": "எட்ஜில் சேர்க்கவும்",
     "upgrade_to": "{{plan}} க்கு மேம்படுத்துக",
     "start_for": "{{plan}} க்கு தொடங்குக",
     "cancel_anytime": "எப்போதும் ரத்து செய்யலாம்",
     "install_now": "இப்போது நிறுவு",
-    "external_add_to_chrome_for_free": "இலவசமாக மேக்ஸ் ஐயை Chrome-க்கு சேர்க்கவும்",
+    "external_add_to_chrome_for_free": "மேக்ஸ்AI-ஐ கூகுள் திரும்பி சேர்க்கவும் - இலவசம்",
     "external_add_to_chrome_for_free__mini": "மேக்ஸ் ஐயை Chrome-க்கு சேர்க்கவும்",
-    "external_add_to_edge_for_free": "இலவசமாக மேக்ஸ் ஐயை Edge-க்கு சேர்க்கவும்",
+    "external_add_to_edge_for_free": "மேக்ஸ்AI-ஐ Edge-க்கு சேர்க்கவும் - இலவசம்",
     "external_add_to_edge_for_free__mini": "மேக்ஸ் ஐயை Edge-க்கு சேர்க்கவும்"
   },
   "pages": {

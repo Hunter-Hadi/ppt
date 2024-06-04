@@ -55,17 +55,17 @@
     "upgrade_now": "Nasua sasa"
   },
   "button": {
-    "add_to_chrome_for_free": "Ongeza kwa Chrome bure",
-    "add_to_edge_for_free": "Ongeza kwa Edge bure",
+    "add_to_chrome_for_free": "Ongeza kwa Chrome - Ni Bure",
+    "add_to_edge_for_free": "Ongeza kwa Edge - Ni Bure",
     "add_to_chrome_for_free__mini": "Ongeza kwa Chrome",
     "add_to_edge_for_free__mini": "Ongeza kwa Edge",
     "upgrade_to": "Nenda kwenye {{plan}}",
     "start_for": "Anza kwa {{plan}}",
     "cancel_anytime": "Ghairi wakati wowote",
     "install_now": "Sakinisha sasa",
-    "external_add_to_chrome_for_free": "Ongeza MaxAI kwenye Chrome bure",
+    "external_add_to_chrome_for_free": "Ongeza MaxAI kwa Chrome - Ni Bure",
     "external_add_to_chrome_for_free__mini": "Ongeza MaxAI kwenye Chrome",
-    "external_add_to_edge_for_free": "Ongeza MaxAI kwenye Edge bure",
+    "external_add_to_edge_for_free": "Ongeza MaxAI kwa Edge - Ni Bure",
     "external_add_to_edge_for_free__mini": "Ongeza MaxAI kwenye Edge"
   },
   "pages": {

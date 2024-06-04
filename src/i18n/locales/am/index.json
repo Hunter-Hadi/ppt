@@ -55,17 +55,17 @@
     "upgrade_now": "አዲስ አመልካቾች"
   },
   "button": {
-    "add_to_chrome_for_free": "በነፃ በ Chrome ውስጥ ጨምር",
-    "add_to_edge_for_free": "በነፃ በ Edge ውስጥ ጨምር",
+    "add_to_chrome_for_free": "ክሮምን ጨርስ ያስገቡ - በነፃ ነው",
+    "add_to_edge_for_free": "ኤጅን ጨርስ ያስገቡ - በነፃ ነው",
     "add_to_chrome_for_free__mini": "ለ Chrome ጨርቅ አክል",
     "add_to_edge_for_free__mini": "ለ Edge ጨርቅ አክል",
     "upgrade_to": "{{plan}} ይዘት ይግዙ",
     "start_for": "{{plan}} እንዴት እንደጀመረ እንዳለው እንዴት እንደጀመረ እንዳለው",
     "cancel_anytime": "ስለመተው ማጥፊያ",
     "install_now": "አስገባ",
-    "external_add_to_chrome_for_free": "ለነፃ በክሮም ያንብቡ MaxAI",
+    "external_add_to_chrome_for_free": "MaxAI-ን ጨርስ ያስገቡ - በነፃ ነው",
     "external_add_to_chrome_for_free__mini": "ለነፃ በክሮም ያንብቡ MaxAI",
-    "external_add_to_edge_for_free": "ለነፃ በኤግ ያንብቡ MaxAI",
+    "external_add_to_edge_for_free": "MaxAI-ን ጨርስ ያስገቡ - በነፃ ነው",
     "external_add_to_edge_for_free__mini": "ለነፃ በኤግ ያንብቡ MaxAI"
   },
   "pages": {

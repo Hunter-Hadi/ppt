@@ -55,17 +55,17 @@
     "upgrade_now": "Frissítés most"
   },
   "button": {
-    "add_to_chrome_for_free": "Hozzáadás a Chrome-hoz ingyen",
-    "add_to_edge_for_free": "Hozzáadás az Edge-hez ingyen",
+    "add_to_chrome_for_free": "Hozzáadás a Chrome-hoz - Ingyenes",
+    "add_to_edge_for_free": "Hozzáadás az Edge-hez - Ingyenes",
     "add_to_chrome_for_free__mini": "Hozzáadás a Chrome-hoz",
     "add_to_edge_for_free__mini": "Hozzáadás az Edge-hez",
     "upgrade_to": "Frissítés erre: {{plan}}",
     "start_for": "Kezdés erre: {{plan}}",
     "cancel_anytime": "Bármikor lemondható",
     "install_now": "Telepítés most",
-    "external_add_to_chrome_for_free": "MaxAI hozzáadása ingyen a Chrome-hoz",
+    "external_add_to_chrome_for_free": "MaxAI hozzáadása a Chrome-hoz - Ingyenes",
     "external_add_to_chrome_for_free__mini": "MaxAI hozzáadása a Chrome-hoz",
-    "external_add_to_edge_for_free": "MaxAI hozzáadása ingyen az Edge-hez",
+    "external_add_to_edge_for_free": "MaxAI hozzáadása az Edge-hez - Ingyenes",
     "external_add_to_edge_for_free__mini": "MaxAI hozzáadása az Edge-hez"
   },
   "pages": {

@@ -55,17 +55,17 @@
     "upgrade_now": "اکنون ارتقا دهید"
   },
   "button": {
-    "add_to_chrome_for_free": "افزودن به Chrome رایگان",
-    "add_to_edge_for_free": "افزودن به Edge رایگان",
+    "add_to_chrome_for_free": "افزودن به کروم - رایگان است",
+    "add_to_edge_for_free": "افزودن به اج - رایگان است",
     "add_to_chrome_for_free__mini": "افزودن به کروم",
     "add_to_edge_for_free__mini": "افزودن به اج",
     "upgrade_to": "ارتقا به {{plan}}",
     "start_for": "شروع برای {{plan}}",
     "cancel_anytime": "هر زمان لغو کنید",
     "install_now": "نصب کنید",
-    "external_add_to_chrome_for_free": "افزودن MaxAI به Chrome به صورت رایگان",
+    "external_add_to_chrome_for_free": "افزودن MaxAI به کروم - رایگان است",
     "external_add_to_chrome_for_free__mini": "افزودن MaxAI به Chrome",
-    "external_add_to_edge_for_free": "افزودن MaxAI به Edge به صورت رایگان",
+    "external_add_to_edge_for_free": "افزودن MaxAI به اج - رایگان است",
     "external_add_to_edge_for_free__mini": "افزودن MaxAI به Edge"
   },
   "pages": {

@@ -55,17 +55,17 @@
     "upgrade_now": "Թարմացնել հիմա"
   },
   "button": {
-    "add_to_chrome_for_free": "Ավելացնել Chrome-ին անվճար",
-    "add_to_edge_for_free": "Ավելացնել Edge-ին անվճար",
+    "add_to_chrome_for_free": "Ավելացնել Chrome-ին - Անվճար է",
+    "add_to_edge_for_free": "Ավելացնել Edge-ին - Անվճար է",
     "add_to_chrome_for_free__mini": "Ավելացնել Chrome-ին",
     "add_to_edge_for_free__mini": "Ավելացնել Edge-ին",
     "upgrade_to": "Թարմացնել {{plan}}",
     "start_for": "Սկսել {{plan}}",
     "cancel_anytime": "Չեղարկել ցանկացած ժամանակ",
     "install_now": "Կարգավորել հիմա",
-    "external_add_to_chrome_for_free": "Ավելացնել MaxAI-ն Chrome-ին անվճար",
+    "external_add_to_chrome_for_free": "Ավելացնել MaxAI-ը Chrome-ին - Անվճար է",
     "external_add_to_chrome_for_free__mini": "Ավելացնել MaxAI-ն Chrome-ին",
-    "external_add_to_edge_for_free": "Ավելացնել MaxAI-ն Edge-ին անվճար",
+    "external_add_to_edge_for_free": "Ավելացնել MaxAI-ը Edge-ին - Անվճար է",
     "external_add_to_edge_for_free__mini": "Ավելացնել MaxAI-ն Edge-ին"
   },
   "pages": {

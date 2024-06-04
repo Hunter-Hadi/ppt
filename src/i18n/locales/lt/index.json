@@ -55,17 +55,17 @@
     "upgrade_now": "Atnaujinti dabar"
   },
   "button": {
-    "add_to_chrome_for_free": "Pridėti nemokamai į „Chrome“",
-    "add_to_edge_for_free": "Pridėti nemokamai į „Edge“",
+    "add_to_chrome_for_free": "Pridėti prie „Chrome“ — Nemokamai",
+    "add_to_edge_for_free": "Pridėti prie „Edge“ — Nemokamai",
     "add_to_chrome_for_free__mini": "Pridėti prie „Chrome“",
     "add_to_edge_for_free__mini": "Pridėti prie „Edge“",
     "upgrade_to": "Atnaujinti į {{plan}}",
     "start_for": "Pradėti su {{plan}}",
     "cancel_anytime": "Atšaukti bet kada",
     "install_now": "Įdiegti dabar",
-    "external_add_to_chrome_for_free": "Pridėti MaxAI į „Chrome“ nemokamai",
+    "external_add_to_chrome_for_free": "Pridėti MaxAI prie „Chrome“ — Nemokamai",
     "external_add_to_chrome_for_free__mini": "Pridėti MaxAI į „Chrome“",
-    "external_add_to_edge_for_free": "Pridėti MaxAI į „Edge“ nemokamai",
+    "external_add_to_edge_for_free": "Pridėti MaxAI prie „Edge“ — Nemokamai",
     "external_add_to_edge_for_free__mini": "Pridėti MaxAI į „Edge“"
   },
   "pages": {

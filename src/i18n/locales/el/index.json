@@ -38,17 +38,17 @@
     "sign_in": "Σύνδεση"
   },
   "button": {
-    "add_to_chrome_for_free": "Προσθήκη στο Chrome δωρεάν",
-    "add_to_edge_for_free": "Προσθήκη στο Edge δωρεάν",
+    "add_to_chrome_for_free": "Προσθήκη στο Chrome - Δωρεάν",
+    "add_to_edge_for_free": "Προσθήκη στο Edge - Δωρεάν",
     "add_to_chrome_for_free__mini": "Προσθήκη στο Chrome",
     "add_to_edge_for_free__mini": "Προσθήκη στο Edge",
     "upgrade_to": "Αναβάθμιση σε {{plan}}",
     "start_for": "Έναρξη για {{plan}}",
     "cancel_anytime": "Ακύρωση οποιαδήποτε στιγμή",
     "install_now": "Εγκατάσταση τώρα",
-    "external_add_to_chrome_for_free": "Προσθήκη του MaxAI στο Chrome δωρεάν",
+    "external_add_to_chrome_for_free": "Προσθήκη του MaxAI στο Chrome - Δωρεάν",
     "external_add_to_chrome_for_free__mini": "Προσθήκη του MaxAI στο Chrome",
-    "external_add_to_edge_for_free": "Προσθήκη του MaxAI στο Edge δωρεάν",
+    "external_add_to_edge_for_free": "Προσθήκη του MaxAI στο Edge - Δωρεάν",
     "external_add_to_edge_for_free__mini": "Προσθήκη του MaxAI στο Edge"
   },
   "pages": {
@@ -264,6 +264,5 @@
     "default__title": "MaxAI.me: 1-Click AI Παντού (GPT-4o, Claude 3, Gemini 1.5)",
     "default__description": "Συνομιλία με την Τεχνητή Νοημοσύνη, αναδιατύπωση, περίληψη, άμεση απάντηση, βοηθός ανάγνωσης, υπόδειξη, αναζήτηση, τέχνη και μεταφραστής. Με την υποστήριξη του GPT-4o, Claude 3, Gemini 1.5.",
     "prompts__description": "Ολοκληρώστε τις καθημερινές σας εργασίες με τη Διαχείριση Προτροπών και τη Βιβλιοθήκη AI προτροπών σε λίγα λεπτά που χρειαζόταν ώρες."
-  },
-  "": ""
+  }
 }

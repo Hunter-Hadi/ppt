@@ -55,17 +55,17 @@
     "upgrade_now": "지금 업그레이드"
   },
   "button": {
-    "add_to_chrome_for_free": "무료로 Chrome에 추가",
-    "add_to_edge_for_free": "무료로 Edge에 추가",
+    "add_to_chrome_for_free": "크롬에 추가 - 무료입니다",
+    "add_to_edge_for_free": "엣지에 추가 - 무료입니다",
     "add_to_chrome_for_free__mini": "Chrome에 추가",
     "add_to_edge_for_free__mini": "Edge에 추가",
     "upgrade_to": "{{plan}}로 업그레이드",
     "start_for": "{{plan}}로 시작하기",
     "cancel_anytime": "언제든지 취소",
     "install_now": "지금 설치",
-    "external_add_to_chrome_for_free": "무료로 Chrome에 MaxAI 추가",
+    "external_add_to_chrome_for_free": "MaxAI를 크롬에 추가 - 무료입니다",
     "external_add_to_chrome_for_free__mini": "Chrome에 MaxAI 추가",
-    "external_add_to_edge_for_free": "무료로 Edge에 MaxAI 추가",
+    "external_add_to_edge_for_free": "MaxAI를 엣지에 추가 - 무료입니다",
     "external_add_to_edge_for_free__mini": "Edge에 MaxAI 추가"
   },
   "pages": {

@@ -55,17 +55,17 @@
     "upgrade_now": "Aktualizovať teraz"
   },
   "button": {
-    "add_to_chrome_for_free": "Pridať do Chrome zadarmo",
-    "add_to_edge_for_free": "Pridať do Edge zadarmo",
+    "add_to_chrome_for_free": "Pridať do Chrome - Je to zadarmo",
+    "add_to_edge_for_free": "Pridať do Edge - Je to zadarmo",
     "add_to_chrome_for_free__mini": "Pridať do Chrome",
     "add_to_edge_for_free__mini": "Pridať do Edge",
     "upgrade_to": "Vylepšiť na {{plan}}",
     "start_for": "Začať za {{plan}}",
     "cancel_anytime": "Zrušiť kedykoľvek",
     "install_now": "Inštalovať teraz",
-    "external_add_to_chrome_for_free": "Pridať MaxAI do Chrome zadarmo",
+    "external_add_to_chrome_for_free": "Pridať MaxAI do Chrome - Je to zadarmo",
     "external_add_to_chrome_for_free__mini": "Pridať MaxAI do Chrome",
-    "external_add_to_edge_for_free": "Pridať MaxAI do Edge zadarmo",
+    "external_add_to_edge_for_free": "Pridať MaxAI do Edge - Je to zadarmo",
     "external_add_to_edge_for_free__mini": "Pridať MaxAI do Edge"
   },
   "pages": {

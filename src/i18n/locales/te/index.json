@@ -55,17 +55,17 @@
     "upgrade_now": "ఇప్పుడే నవీకరించండి"
   },
   "button": {
-    "add_to_chrome_for_free": "ఉచితంగా క్రోమ్‌కు జోడించండి",
-    "add_to_edge_for_free": "ఉచితంగా ఎడ్జ్‌కు జోడించండి",
+    "add_to_chrome_for_free": "క్రోమ్‌కు జోడించండి - ఇది ఉచితం",
+    "add_to_edge_for_free": "ఎడ్జ్‌కు జోడించండి - ఇది ఉచితం",
     "add_to_chrome_for_free__mini": "క్రోమ్‌కు జోడించండి",
     "add_to_edge_for_free__mini": "ఎడ్జ్‌కు జోడించండి",
     "upgrade_to": "{{plan}} కు అప్గ్రేడ్ చేయండి",
     "start_for": "{{plan}} తో ప్రారంభించండి",
     "cancel_anytime": "ఏ సమయంలో రద్దు చేయండి",
     "install_now": "ఇప్పుడు ఇన్స్టాల్ చేయండి",
-    "external_add_to_chrome_for_free": "ఉచితంగా మాక్స్‌ఐని క్రోమ్‌కు జోడించండి",
+    "external_add_to_chrome_for_free": "మాక్స్‌ఐని క్రోమ్‌కు జోడించండి - ఇది ఉచితం",
     "external_add_to_chrome_for_free__mini": "మాక్స్‌ఐని క్రోమ్‌కు జోడించండి",
-    "external_add_to_edge_for_free": "ఉచితంగా మాక్స్‌ఐని ఎజ్‌కు జోడించండి",
+    "external_add_to_edge_for_free": "మాక్స్‌ఐని ఎడ్జ్‌కు జోడించండి - ఇది ఉచితం",
     "external_add_to_edge_for_free__mini": "మాక్స్‌ఐని ఎజ్‌కు జోడించండి"
   },
   "pages": {

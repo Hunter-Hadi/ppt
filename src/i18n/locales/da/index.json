@@ -55,17 +55,17 @@
     "upgrade_now": "Opgrader nu"
   },
   "button": {
-    "add_to_chrome_for_free": "Tilføj gratis til Chrome",
-    "add_to_edge_for_free": "Tilføj gratis til Edge",
+    "add_to_chrome_for_free": "Tilføj til Chrome - Det er gratis",
+    "add_to_edge_for_free": "Tilføj til Edge - Det er gratis",
     "add_to_chrome_for_free__mini": "Tilføj til Chrome",
     "add_to_edge_for_free__mini": "Tilføj til Edge",
     "upgrade_to": "Opgrader til {{plan}}",
     "start_for": "Start for {{plan}}",
     "cancel_anytime": "Annuller når som helst",
     "install_now": "Installer nu",
-    "external_add_to_chrome_for_free": "Tilføj MaxAI til Chrome gratis",
+    "external_add_to_chrome_for_free": "Tilføj MaxAI til Chrome - Det er gratis",
     "external_add_to_chrome_for_free__mini": "Tilføj MaxAI til Chrome",
-    "external_add_to_edge_for_free": "Tilføj MaxAI til Edge gratis",
+    "external_add_to_edge_for_free": "Tilføj MaxAI til Edge - Det er gratis",
     "external_add_to_edge_for_free__mini": "Tilføj MaxAI til Edge"
   },
   "pages": {
