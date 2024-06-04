@@ -61,13 +61,16 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
         alignItems={'center'}
         height='100%'
       >
-        <Box>
-          <AppLoadingLayout
-            loading={!videoLoaded}
-            sx={{
-              minHeight: 738,
-            }}
-          />
+        <Box
+          sx={{
+            overflow: 'visible',
+            padding: 0,
+            position: 'relative',
+            textDecoration: 'none',
+            bgcolor: 'rgba(0, 0, 0, 0)',
+          }}
+        >
+          <AppLoadingLayout loading={!videoLoaded} />
           <video
             ref={videoRef}
             loop
@@ -83,9 +86,8 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
               objectFit: 'cover',
               backgroundColor: 'rgba(0, 0, 0, 0)',
               objectPosition: '50% 50%',
-            }}
-            onLoad={() => {
-              setVideoLoaded(true);
+              boxShadow: 'rgba(10, 0, 31, 0.1) 0px 1px 24px 4px',
+              opacity: videoLoaded ? 1 : 0,
             }}
           >
             <source
