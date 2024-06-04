@@ -1,6 +1,8 @@
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
+import CodeIcon from '@mui/icons-material/Code';
 import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
+import ExtensionOutlinedIcon from '@mui/icons-material/ExtensionOutlined';
 import LocalLibraryOutlinedIcon from '@mui/icons-material/LocalLibraryOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import SummarizeOutlinedIcon from '@mui/icons-material/SummarizeOutlined';
@@ -238,6 +240,54 @@ const FeaturesCarouselIcons: FC<IProps> = ({ icon, size = 48, sx }) => {
         }}
       >
         <LocalLibraryOutlinedIcon
+          sx={{
+            fontSize: 'inherit',
+          }}
+        />
+      </Stack>
+    );
+  }
+  if (icon === 'code') {
+    return (
+      <Stack
+        justifyContent={'center'}
+        alignItems={'center'}
+        spacing={2}
+        sx={{
+          borderRadius: 2,
+          bgcolor: '#E0F2FE',
+          color: '#0BA5EC',
+          width: size,
+          height: size,
+          fontSize: size * 0.5,
+          ...sx,
+        }}
+      >
+        <CodeIcon
+          sx={{
+            fontSize: 'inherit',
+          }}
+        />
+      </Stack>
+    );
+  }
+  if (icon === 'extension') {
+    return (
+      <Stack
+        justifyContent={'center'}
+        alignItems={'center'}
+        spacing={2}
+        sx={{
+          borderRadius: 2,
+          bgcolor: '#F4EBFF',
+          color: '#9065B0',
+          width: size,
+          height: size,
+          fontSize: size * 0.5,
+          ...sx,
+        }}
+      >
+        <ExtensionOutlinedIcon
           sx={{
             fontSize: 'inherit',
           }}

@@ -58,7 +58,7 @@ const FEATURES_WITH_SCENE_LIST = [
   },
   {
     key: 'Code assistance',
-    icon: 'reader',
+    icon: 'code',
     label:
       'pages:home_page__features_with_scene__feature_code_assistance__label',
     title:
@@ -69,7 +69,7 @@ const FEATURES_WITH_SCENE_LIST = [
   },
   {
     key: 'Browser extension',
-    icon: 'reader',
+    icon: 'extension',
     label:
       'pages:home_page__features_with_scene__feature_browser_extension__label',
     title:
