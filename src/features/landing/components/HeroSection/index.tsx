@@ -24,6 +24,8 @@ interface IProps {
   trackerLinkProps?: IUseShareTrackerLinkProps;
 
   loading?: boolean;
+
+  layout?: 'ttb-layout' | 'ltr-layout';
 }
 
 const HeroSection: FC<IProps> = ({
@@ -33,6 +35,7 @@ const HeroSection: FC<IProps> = ({
   heroVideoProps,
   trackerLinkProps,
   loading,
+  layout: propLayout,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
@@ -64,6 +67,13 @@ const HeroSection: FC<IProps> = ({
     );
   }, [propDescription, t]);
 
+  const layout = useMemo(() => {
+    if (propLayout) {
+      return propLayout;
+    }
+    return heroSectionLayout ?? 'ltr-layout';
+  }, [heroSectionLayout, propLayout]);
+
   return (
     <Box
       id='homepage-hero-section'
@@ -81,17 +91,9 @@ const HeroSection: FC<IProps> = ({
         backgroundPositionY: '-40px',
       }}
     >
-      <Box
-        maxWidth={heroSectionLayout === 'ttb-layout' ? 1040 : 1312}
-        mx='auto'
-      >
+      <Box maxWidth={layout === 'ttb-layout' ? 1040 : 1312} mx='auto'>
         <Grid container rowSpacing={3} spacing={4}>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={heroSectionLayout === 'ttb-layout' ? 12 : 6}
-          >
+          <Grid item xs={12} sm={12} md={layout === 'ttb-layout' ? 12 : 6}>
             <Stack
               p={{
                 xs: 0,
@@ -104,17 +106,11 @@ const HeroSection: FC<IProps> = ({
                     sm: 2,
                   },
                   justifyContent:
-                    heroSectionLayout === 'ttb-layout'
-                      ? 'center'
-                      : 'flex-start',
-                  alignItems:
-                    heroSectionLayout === 'ttb-layout'
-                      ? 'center'
-                      : 'flex-start',
-                  textAlign:
-                    heroSectionLayout === 'ttb-layout' ? 'center' : 'left',
-                  maxWidth: heroSectionLayout === 'ttb-layout' ? 764 : 'unset',
-                  mx: heroSectionLayout === 'ttb-layout' ? 'auto' : 'unset',
+                    layout === 'ttb-layout' ? 'center' : 'flex-start',
+                  alignItems: layout === 'ttb-layout' ? 'center' : 'flex-start',
+                  textAlign: layout === 'ttb-layout' ? 'center' : 'left',
+                  maxWidth: layout === 'ttb-layout' ? 764 : 'unset',
+                  mx: layout === 'ttb-layout' ? 'auto' : 'unset',
                 },
               ]}
             >
@@ -224,7 +220,7 @@ const HeroSection: FC<IProps> = ({
                 }}
                 width={{
                   xs: '100%',
-                  sm: heroSectionLayout === 'ttb-layout' ? '60%' : '90%',
+                  sm: layout === 'ttb-layout' ? '60%' : '90%',
                 }}
                 mb={1.5}
               >
@@ -264,7 +260,7 @@ const HeroSection: FC<IProps> = ({
                 spacing={1}
                 alignItems='center'
                 justifyContent={
-                  heroSectionLayout === 'ttb-layout' ? 'center' : 'flex-start'
+                  layout === 'ttb-layout' ? 'center' : 'flex-start'
                 }
                 width={'100%'}
                 fontSize={{
@@ -343,12 +339,7 @@ const HeroSection: FC<IProps> = ({
               </Stack>
             </Stack>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={heroSectionLayout === 'ttb-layout' ? 12 : 6}
-          >
+          <Grid item xs={12} sm={12} md={layout === 'ttb-layout' ? 12 : 6}>
             <HeroVideoBox {...heroVideoProps} />
           </Grid>
         </Grid>
