@@ -74,7 +74,7 @@ const FeaturesLandingBanner: FC<IProps> = ({
             <FeaturesLandingIcons icon='finger-right' sx={{ fontSize: 44 }} />
             <CTAInstallButton
               sx={{
-                width: 300,
+                width: 360,
                 borderRadius: 50,
                 fontSize: 18,
                 boxShadow: '0px 1px 5px 0px #9065b0',
