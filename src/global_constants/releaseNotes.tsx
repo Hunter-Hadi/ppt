@@ -1,5 +1,37 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.2.10',
+    date: '2024-05-28',
+
+    content: [
+      {
+        title: 'A better context window experience',
+        lists: [
+          {
+            module: 'Pin the context window',
+            desc: 'Pin the context window to keep generated content open while you browse and interact with the current webpage seamlessly.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.2.9',
+    date: '2024-05-23',
+
+    content: [
+      {
+        title: 'Chat with PDF, with citations',
+        lists: [
+          {
+            module: 'Find sources fast with citations',
+            desc: 'Curious about the sources behind the AI\'s answers when chatting with PDFs? Now, you can easily check the citations in each response.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.2.8',
     date: '2024-05-21',
 
