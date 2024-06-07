@@ -32,22 +32,6 @@ export const MAXAI_RELEASE_NOTES = [
     ],
   },
   {
-    version: '4.2.8',
-    date: '2024-05-21',
-
-    content: [
-      {
-        title: 'Introducing Gemini-1.5-pro on MaxAI.me',
-        lists: [
-          {
-            module: 'Access Gemini-1.5-pro',
-            desc: 'Google\'s newest and most advanced model. Faster speed. 1M token context window. Improved modalities. Enhanced safety.',
-          },
-        ],
-      },
-    ],
-  },
-  {
     version: '4.2.7',
     date: '2024-05-16',
 
