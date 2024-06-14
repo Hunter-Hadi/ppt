@@ -8,8 +8,10 @@ import { RESOURCES_URL } from '@/global_constants';
 
 import CallToActionSection from './CallToActionSection';
 import FeaturesExpandVariantSection from './FeaturesCarousel/FeaturesExpandVariantSection';
+import FeaturesWithPointsVariantSection from './FeaturesCarousel/FeaturesWithPointsVariantSection';
 import FeaturesWithSceneVariantSection from './FeaturesCarousel/FeaturesWithSceneVariantSection';
 import HeroSection from './HeroSection';
+import HowItWork from './HowItWork';
 import MaxAIInNumbers from './MaxAIInNumbers';
 import TrustedBy from './TrustedBy';
 import UserComment from './UserComment';
@@ -26,8 +28,7 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
     loaded,
     title,
     description,
-    featuresWithScene,
-    heroVideoVariant,
+    featuresContentVariant,
   } = useLandingABTester(true);
 
   useEffect(() => {
@@ -50,23 +51,27 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
           title={title}
           description={description}
           heroVideoProps={{
-            videoSrc:
-              heroVideoVariant === 'autoplay'
-                ? `${RESOURCES_URL}/video/landing-page-primary.mp4`
-                : undefined,
-            variant: heroVideoVariant,
+            videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+            variant: 'autoplay',
           }}
         />
 
         {/* trusted by */}
         <TrustedBy />
 
+        {featuresContentVariant === 'content3' ? <HowItWork /> : null}
+
         {/* feature  */}
-        {featuresWithScene ? (
-          <FeaturesWithSceneVariantSection />
-        ) : (
+        {featuresContentVariant === 'content1' ||
+        featuresContentVariant === null ? (
           <FeaturesExpandVariantSection />
-        )}
+        ) : null}
+        {featuresContentVariant === 'content2' ? (
+          <FeaturesWithSceneVariantSection />
+        ) : null}
+        {featuresContentVariant === 'content3' ? (
+          <FeaturesWithPointsVariantSection />
+        ) : null}
         {/* {!loaded && <FeaturesCarouselSkeleton />} */}
 
         {/* maxai in numbers */}

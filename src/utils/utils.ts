@@ -375,3 +375,63 @@ export function isBot() {
 
   return botKeywords.some((keyword) => userAgent.includes(keyword));
 }
+export const openWindow = (
+  url: string,
+  title = 'MaxAI.me',
+  sizeRatio = 0.75,
+) => {
+  if (window === undefined) return;
+
+  if (navigator.userAgent.toLowerCase().indexOf('chrome') == -1) {
+    window.open(url, title);
+    return;
+  }
+
+  const winObject = window.top ?? window;
+
+  const width = winObject.outerWidth * sizeRatio;
+  const height = winObject.outerHeight * sizeRatio;
+  const top = winObject.outerHeight / 2 + winObject.screenY - height / 2;
+  const left = winObject.outerWidth / 2 + winObject.screenX - width / 2;
+
+  const openResponse = winObject.open(
+    url,
+    title,
+    `toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=${width}, height=${height}, top=${top}, left=${left}`,
+  );
+
+  if (document.getElementById('overlay') == null) {
+    const overlay = document.createElement('div');
+    overlay.id = 'overlay';
+    overlay.style.cssText = `position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: 9999;background: #000;opacity: 0;pointer-events: none;transition: opacity ease-in-out .5s;`;
+    document.body.appendChild(overlay);
+  }
+
+  const overlay = document.getElementById('overlay');
+  const showOverlay = () => {
+    if (overlay) {
+      overlay.style.opacity = '0.75';
+      overlay.style.pointerEvents = 'all';
+    }
+  };
+
+  const hideOverlay = () => {
+    if (overlay) {
+      overlay.style.opacity = '0';
+      overlay.style.pointerEvents = 'none';
+    }
+  };
+
+  if (overlay) {
+    showOverlay();
+    overlay.addEventListener('click', function () {
+      hideOverlay();
+    });
+    const timer = setInterval(() => {
+      if (openResponse && openResponse.closed) {
+        clearInterval(timer);
+        hideOverlay();
+      }
+    }, 250);
+  }
+};

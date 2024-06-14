@@ -1,4 +1,4 @@
-import { Box, Grid, Skeleton, Stack, Typography } from '@mui/material';
+import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
@@ -24,8 +24,6 @@ interface IProps {
   trackerLinkProps?: IUseShareTrackerLinkProps;
 
   loading?: boolean;
-
-  layout?: 'ttb-layout' | 'ltr-layout';
 }
 
 const HeroSection: FC<IProps> = ({
@@ -35,11 +33,10 @@ const HeroSection: FC<IProps> = ({
   heroVideoProps,
   trackerLinkProps,
   loading,
-  layout: propLayout,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
-  const { heroSectionLayout } = useLandingABTester();
+  const { featuresContentVariant } = useLandingABTester();
 
   const { t } = useTranslation();
 
@@ -67,13 +64,6 @@ const HeroSection: FC<IProps> = ({
     );
   }, [propDescription, t]);
 
-  const layout = useMemo(() => {
-    if (propLayout) {
-      return propLayout;
-    }
-    return heroSectionLayout ?? 'ltr-layout';
-  }, [heroSectionLayout, propLayout]);
-
   return (
     <Box
       id='homepage-hero-section'
@@ -91,9 +81,9 @@ const HeroSection: FC<IProps> = ({
         backgroundPositionY: '-40px',
       }}
     >
-      <Box maxWidth={layout === 'ttb-layout' ? 1040 : 1312} mx='auto'>
+      <Box maxWidth={1040} mx='auto'>
         <Grid container rowSpacing={3} spacing={4}>
-          <Grid item xs={12} sm={12} md={layout === 'ttb-layout' ? 12 : 6}>
+          <Grid item xs={12} sm={12} md={12}>
             <Stack
               p={{
                 xs: 0,
@@ -105,12 +95,11 @@ const HeroSection: FC<IProps> = ({
                     xs: 0,
                     sm: 2,
                   },
-                  justifyContent:
-                    layout === 'ttb-layout' ? 'center' : 'flex-start',
-                  alignItems: layout === 'ttb-layout' ? 'center' : 'flex-start',
-                  textAlign: layout === 'ttb-layout' ? 'center' : 'left',
-                  maxWidth: layout === 'ttb-layout' ? 764 : 'unset',
-                  mx: layout === 'ttb-layout' ? 'auto' : 'unset',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  textAlign: 'center',
+                  maxWidth: 764,
+                  mx: 'auto',
                 },
               ]}
             >
@@ -119,13 +108,24 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='custom'
-                  fontSize={{
-                    xs: 40,
-                    sm: 48,
-                    lg: 56,
-                  }}
+                  fontSize={
+                    featuresContentVariant === 'content3'
+                      ? {
+                          xs: 48,
+                          sm: 56,
+                          lg: 72,
+                        }
+                      : {
+                          xs: 40,
+                          sm: 48,
+                          lg: 56,
+                        }
+                  }
                   component='h1'
                   fontWeight={700}
+                  // maxWidth={
+                  //   featuresContentVariant === 'content3' ? 610 : 'unset'
+                  // }
                 >
                   {title}
                 </Typography>
@@ -148,69 +148,18 @@ const HeroSection: FC<IProps> = ({
               )}
               {/* margin spacing */}
               <Box height={32} />
-              <Stack
-                direction='row'
-                alignItems={'center'}
-                gap={{
-                  xs: 1,
-                  sm: 3,
-                }}
-                mb={{
-                  xs: 3,
-                  sm: 6,
-                }}
-                flexWrap={'wrap'}
-              >
-                <A16zTop50AppsBadge />
-                <IndicatorDecorator>
-                  <Stack justifyContent={'center'} alignItems='center'>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 20,
-                        sm: 24,
-                      }}
-                      fontWeight={700}
-                      color='primary.main'
-                    >
-                      {LOVED_BY_NUM}
-                    </Typography>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 14,
-                        sm: 16,
-                      }}
-                    >
-                      {t('pages:home_page__hero_section__indicator2_label')}
-                    </Typography>
-                  </Stack>
-                </IndicatorDecorator>
-                <IndicatorDecorator>
-                  <Stack justifyContent={'center'} alignItems='center'>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 20,
-                        sm: 24,
-                      }}
-                      fontWeight={700}
-                      color='primary.main'
-                    >
-                      {STAR_RATINGS_NUM}
-                    </Typography>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 14,
-                        sm: 16,
-                      }}
-                    >
-                      {t('pages:home_page__hero_section__indicator3_label')}
-                    </Typography>
-                  </Stack>
-                </IndicatorDecorator>
-              </Stack>
+              {featuresContentVariant !== 'content3' ? (
+                <>
+                  <IndicatorContent
+                    sx={{
+                      mb: {
+                        xs: 3,
+                        sm: 6,
+                      },
+                    }}
+                  />
+                </>
+              ) : null}
               <Stack
                 direction={'row'}
                 alignItems='center'
@@ -220,7 +169,7 @@ const HeroSection: FC<IProps> = ({
                 }}
                 width={{
                   xs: '100%',
-                  sm: layout === 'ttb-layout' ? '60%' : '90%',
+                  sm: '60%',
                 }}
                 mb={1.5}
               >
@@ -259,9 +208,7 @@ const HeroSection: FC<IProps> = ({
                 direction={'row'}
                 spacing={1}
                 alignItems='center'
-                justifyContent={
-                  layout === 'ttb-layout' ? 'center' : 'flex-start'
-                }
+                justifyContent={'center'}
                 width={'100%'}
                 fontSize={{
                   xs: 12,
@@ -337,9 +284,16 @@ const HeroSection: FC<IProps> = ({
                   </Typography>
                 </Stack>
               </Stack>
+              {featuresContentVariant === 'content3' ? (
+                <IndicatorContent
+                  sx={{
+                    mt: 4,
+                  }}
+                />
+              ) : null}
             </Stack>
           </Grid>
-          <Grid item xs={12} sm={12} md={layout === 'ttb-layout' ? 12 : 6}>
+          <Grid item xs={12} sm={12} md={12}>
             <HeroVideoBox {...heroVideoProps} />
           </Grid>
         </Grid>
@@ -375,5 +329,75 @@ const DescriptionSkeleton = () => {
       <Skeleton height={27} />
       <Skeleton height={27} />
     </Box>
+  );
+};
+
+interface IIndicatorContentProps {
+  sx?: SxProps;
+}
+const IndicatorContent: FC<IIndicatorContentProps> = ({ sx }) => {
+  const { t } = useTranslation();
+  return (
+    <Stack
+      direction='row'
+      alignItems={'center'}
+      justifyContent='center'
+      gap={{
+        xs: 1,
+        sm: 3,
+      }}
+      flexWrap={'wrap'}
+      sx={sx}
+    >
+      <A16zTop50AppsBadge />
+      <IndicatorDecorator>
+        <Stack justifyContent={'center'} alignItems='center'>
+          <Typography
+            variant='custom'
+            fontSize={{
+              xs: 20,
+              sm: 24,
+            }}
+            fontWeight={700}
+            color='primary.main'
+          >
+            {LOVED_BY_NUM}
+          </Typography>
+          <Typography
+            variant='custom'
+            fontSize={{
+              xs: 14,
+              sm: 16,
+            }}
+          >
+            {t('pages:home_page__hero_section__indicator2_label')}
+          </Typography>
+        </Stack>
+      </IndicatorDecorator>
+      <IndicatorDecorator>
+        <Stack justifyContent={'center'} alignItems='center'>
+          <Typography
+            variant='custom'
+            fontSize={{
+              xs: 20,
+              sm: 24,
+            }}
+            fontWeight={700}
+            color='primary.main'
+          >
+            {STAR_RATINGS_NUM}
+          </Typography>
+          <Typography
+            variant='custom'
+            fontSize={{
+              xs: 14,
+              sm: 16,
+            }}
+          >
+            {t('pages:home_page__hero_section__indicator3_label')}
+          </Typography>
+        </Stack>
+      </IndicatorDecorator>
+    </Stack>
   );
 };

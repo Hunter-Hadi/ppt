@@ -26,7 +26,6 @@ const ResearchPages = () => {
             videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
             variant: 'autoplay',
           }}
-          layout={'ttb-layout'}
         />
 
         {/* trusted by */}
