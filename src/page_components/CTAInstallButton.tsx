@@ -141,7 +141,8 @@ const CTAInstallButton: FC<IProps> = ({
   }, [sx, isEmbedMode, label]);
 
   const handleClick = (e: React.MouseEvent) => {
-    reStartOpenPopupTimer(20 * 1000); // 20s
+    reStartOpenPopupTimer(30 * 1000); // 30s
+
     mixpanelTrack('install_started', {
       ref,
     });
