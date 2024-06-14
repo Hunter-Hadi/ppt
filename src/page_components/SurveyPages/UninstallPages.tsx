@@ -56,80 +56,91 @@ const UninstallPages: FC = () => {
     >
       <AppDefaultSeoLayout title={t('seo:uninstall__title')} />
 
-      <Paper
-        elevation={0}
+      <Stack
+        justifyContent={'center'}
+        alignItems='center'
+        spacing={{
+          xs: 4,
+          sm: 6,
+        }}
         sx={{
+          width: 'max-content',
           position: 'absolute',
-          top: '40%',
+          top: {
+            xs: '50%',
+            sm: '40%',
+          },
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          borderRadius: 4,
-          // overflow: 'hidden',
-          width: 440,
         }}
       >
-        <Stack
+        <Typography
+          variant='custom'
+          fontSize={32}
+          lineHeight={1.5}
+          fontWeight={900}
+          textAlign='center'
+          mx='auto'
+        >
+          {t('pages:uninstall_survey__title')}
+        </Typography>
+        <Paper
+          elevation={0}
           sx={{
-            position: 'absolute',
-            top: '-30%',
-            left: '50%',
-            zIndex: 1000,
-            transform: 'translateX(-50%)',
-            width: 'max-content',
+            borderRadius: 4,
+            // overflow: 'hidden',
+            width: {
+              xs: 'max-content',
+              sm: 440,
+            },
           }}
         >
-          <Typography
-            variant='custom'
-            fontSize={32}
-            lineHeight={1.5}
-            fontWeight={900}
-            textAlign='center'
-            mx='auto'
-          >
-            {t('pages:uninstall_survey__title')}
-          </Typography>
-        </Stack>
-
-        <FunnelSurveyContentRenderer
-          sceneType={'SURVEY_UNINSTALL_COMPLETED'}
-          SubmitSuccessNode={
-            <Stack justifyContent={'center'} alignItems='center' mt={3} px={2}>
-              <CTAInstallButton
-                variant={'contained'}
-                text={t('survey:funnel_survey__reinstall_cta_btn__text')}
-                trackerLinkProps={{
-                  queryRefEnable: true,
-                  pathnameRefEnable: false,
-                }}
-                adaptiveLabel
-                startIcon={
-                  <CustomIcon
-                    icon={agent === 'Edge' ? 'EdgeColor' : 'Chrome'}
-                    sx={{
-                      fontSize: '24px !important',
-                    }}
-                  />
-                }
-                sx={{
-                  height: 48,
-                  px: 3,
-                  fontSize: 16,
-                  background: '#0059D8',
-                  '&:hover': {
+          <FunnelSurveyContentRenderer
+            sceneType={'SURVEY_UNINSTALL_COMPLETED'}
+            SubmitSuccessNode={
+              <Stack
+                justifyContent={'center'}
+                alignItems='center'
+                mt={3}
+                px={2}
+              >
+                <CTAInstallButton
+                  variant={'contained'}
+                  text={t('survey:funnel_survey__reinstall_cta_btn__text')}
+                  trackerLinkProps={{
+                    queryRefEnable: true,
+                    pathnameRefEnable: false,
+                  }}
+                  adaptiveLabel
+                  startIcon={
+                    <CustomIcon
+                      icon={agent === 'Edge' ? 'EdgeColor' : 'Chrome'}
+                      sx={{
+                        fontSize: '24px !important',
+                      }}
+                    />
+                  }
+                  sx={{
+                    height: 48,
+                    px: 3,
+                    fontSize: 16,
                     background: '#0059D8',
-                  },
-                  [`& .${buttonClasses.startIcon}`]: {
-                    display: {
-                      xs: 'none',
-                      sm: 'inherit',
+                    '&:hover': {
+                      background: '#0059D8',
                     },
-                  },
-                }}
-              />
-            </Stack>
-          }
-        />
-      </Paper>
+                    [`& .${buttonClasses.startIcon}`]: {
+                      display: {
+                        xs: 'none',
+                        sm: 'inherit',
+                      },
+                    },
+                  }}
+                />
+              </Stack>
+            }
+          />
+        </Paper>
+      </Stack>
     </AppContainer>
   );
 };
