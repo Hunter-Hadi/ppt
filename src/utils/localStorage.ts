@@ -23,6 +23,7 @@ export type ILocalStorageKeyType =
   // 用来记录 当前网站生成的 clientUserId 是否已经保存到 iframe（目标网站）中了
   | 'IFRAME_CLIENT_USER_ID_ALREADY_SAVED'
   | 'LANDING_PAGE_REF'
+  | 'INVITATION_CODE'
   | typeof TEST_LANDING_COOKIE_NAME;
 
 export const setLocalStorage = (
