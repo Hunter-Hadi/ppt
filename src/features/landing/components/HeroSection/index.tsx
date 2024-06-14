@@ -108,16 +108,24 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='custom'
-                  fontSize={{
-                    xs: 40,
-                    sm: 48,
-                    lg: 56,
-                  }}
+                  fontSize={
+                    featuresContentVariant === 'content3'
+                      ? {
+                          xs: 48,
+                          sm: 56,
+                          lg: 72,
+                        }
+                      : {
+                          xs: 40,
+                          sm: 48,
+                          lg: 56,
+                        }
+                  }
                   component='h1'
                   fontWeight={700}
-                  maxWidth={
-                    featuresContentVariant === 'content3' ? 610 : 'unset'
-                  }
+                  // maxWidth={
+                  //   featuresContentVariant === 'content3' ? 610 : 'unset'
+                  // }
                 >
                   {title}
                 </Typography>
