@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Obtén ajuda per comprendre el codi i els conceptes tècnics, depura errors més ràpidament, genera fragments de codi i plantilles, i aprèn nous llenguatges de programació amb facilitat.",
     "home_page__features_with_scene__feature_browser_extension__label": "Extensió del navegador",
     "home_page__features_with_scene__feature_browser_extension__title": "Funciona on treballes",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funciona a través de totes les aplicacions i llocs web que utilitzes. Sense copiar, sense enganxar, sense canviar de context."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funciona a través de totes les aplicacions i llocs web que utilitzes. Sense copiar, sense enganxar, sense canviar de context.",
+    "home_page__trusted_by__tips": "El nostre servei és utilitzat per empleats de les principals empreses i universitats de tot el món. Els logotips i noms mostrats són marques comercials dels seus respectius propietaris. L'ús d'aquestes marques no implica cap endosament o afiliació. Si ets un representant d'una d'aquestes organitzacions i creus que s'ha utilitzat el teu logotip o nom sense permís, posa't en contacte amb nosaltres i abordarem el problema ràpidament."
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",

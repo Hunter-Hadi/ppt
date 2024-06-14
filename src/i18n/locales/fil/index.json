@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Makakuha ng tulong sa pag-unawa sa code at mga teknikal na konsepto, ma-debug ang mga error nang mas mabilis, lumikha ng mga code snippets at mga template, at matuto ng mga bagong programming language nang madali.",
     "home_page__features_with_scene__feature_browser_extension__label": "Browser extension",
     "home_page__features_with_scene__feature_browser_extension__title": "Gumagana kung saan ka nagtatrabaho",
-    "home_page__features_with_scene__feature_browser_extension__description": "Gumagana ang MaxAI sa lahat ng mga app at site na ginagamit mo. Walang pagkopya, walang pagpindot, walang paglipat ng konteksto."
+    "home_page__features_with_scene__feature_browser_extension__description": "Gumagana ang MaxAI sa lahat ng mga app at site na ginagamit mo. Walang pagkopya, walang pagpindot, walang paglipat ng konteksto.",
+    "home_page__trusted_by__tips": "Ang aming serbisyo ay ginagamit ng mga empleyado mula sa mga nangungunang kumpanya at unibersidad sa buong mundo. Ang mga logo at pangalan na ipinapakita ay mga trademark ng kanilang mga may-ari. Ang paggamit ng mga trademark na ito ay hindi nagpapahiwatig ng anumang pagsang-ayon o pagkakasama. Kung ikaw ay kinatawan ng isa sa mga organisasyong ito at naniniwala na ang iyong logo o pangalan ay ginamit nang walang pahintulot, mangyaring makipag-ugnayan sa amin at agad naming tutugunan ang isyung ito."
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",

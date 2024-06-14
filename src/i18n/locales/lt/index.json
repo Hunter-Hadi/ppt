@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Gaukite pagalbą suprantant kodą ir techninius konceptus, greičiau taisykite klaidas, generuokite kodo fragmentus ir šablonus bei mokykitės naujų programavimo kalbų lengvai.",
     "home_page__features_with_scene__feature_browser_extension__label": "Naršyklės plėtinys",
     "home_page__features_with_scene__feature_browser_extension__title": "Veikia ten, kur dirbate",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI veikia visose jūsų naudojamose programose ir svetainėse. Nereikia kopijuoti, neklijuoti, nereikia keisti konteksto."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI veikia visose jūsų naudojamose programose ir svetainėse. Nereikia kopijuoti, neklijuoti, nereikia keisti konteksto.",
+    "home_page__trusted_by__tips": "Mūsų paslauga naudojama darbuotojų iš geriausių įmonių ir universitetų visame pasaulyje. Rodyti logotipai ir pavadinimai yra jų atitinkamų savininkų prekės ženklai. Šių prekės ženklų naudojimas nereiškia jokio patvirtinimo ar susijungimo. Jei esate vienos iš šių organizacijų atstovas ir manote, kad jūsų logotipas ar pavadinimas buvo naudojamas be leidimo, prašome susisiekti su mumis, ir mes nedelsiant spręsime šią problemą."
   },
   "prompt_library": {
     "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",

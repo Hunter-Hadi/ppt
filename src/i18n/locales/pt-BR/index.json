@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Obtenha ajuda para entender código e conceitos técnicos, depurar erros mais rapidamente, gerar trechos de código e modelos e aprender novas linguagens de programação com facilidade.",
     "home_page__features_with_scene__feature_browser_extension__label": "Extensão do navegador",
     "home_page__features_with_scene__feature_browser_extension__title": "Funciona onde você trabalha",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funciona em todos os aplicativos e sites que você usa. Sem copiar, colar ou alternar de contexto."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funciona em todos os aplicativos e sites que você usa. Sem copiar, colar ou alternar de contexto.",
+    "home_page__trusted_by__tips": "Nosso serviço é utilizado por funcionários de empresas e universidades de renome em todo o mundo. Os logotipos e nomes exibidos são marcas registradas de seus respectivos proprietários. O uso dessas marcas registradas não implica qualquer endosso ou afiliação. Se você é representante de uma dessas organizações e acredita que seu logotipo ou nome foi usado sem permissão, entre em contato conosco e resolveremos o problema prontamente."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de prompts de IA de alta qualidade",

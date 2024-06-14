@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Pata msaada wa kuelewa nambari na dhana za kiufundi, tafuta makosa haraka, tengeneza vipande vya nambari na templeti, na jifunze lugha mpya za programu kwa urahisi.",
     "home_page__features_with_scene__feature_browser_extension__label": "Kifaa cha kivinjari",
     "home_page__features_with_scene__feature_browser_extension__title": "Inafanya kazi mahali unapofanya kazi",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI inafanya kazi katika programu zote na tovuti unazotumia. Hakuna kunakili, hakuna kubandika, hakuna kubadilisha muktadha."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI inafanya kazi katika programu zote na tovuti unazotumia. Hakuna kunakili, hakuna kubandika, hakuna kubadilisha muktadha.",
+    "home_page__trusted_by__tips": "Huduma yetu hutumiwa na wafanyakazi kutoka kampuni kubwa na vyuo vikuu ulimwenguni. Nembo na majina yanayoonyeshwa ni alama za biashara za wamiliki wao husika. Matumizi ya alama hizi hayamaanishi kuidhinishwa au kuunganishwa kwa namna yoyote. Ikiwa wewe ni mwakilishi wa moja ya taasisi hizi na unaamini nembo au jina lako limeitwa bila idhini, tafadhali wasiliana nasi, na tutashughulikia suala hilo haraka."
   },
   "prompt_library": {
     "use_prompt_library__title": "Maktaba ya maelekezo ya AI ya ubora wa juu",

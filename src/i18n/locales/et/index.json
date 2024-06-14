@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Saa abi koodi ja tehniliste kontseptide mõistmisel, veateadete kiiremal lahendamisel, genereeri koodilõike ja malle ning õpi uusi programmeerimiskeeli lihtsalt.",
     "home_page__features_with_scene__feature_browser_extension__label": "Brauseri laiendus",
     "home_page__features_with_scene__feature_browser_extension__title": "Töötab seal, kus sina töötad",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI töötab kõikides rakendustes ja saitidel, mida kasutad. Ei mingit kopeerimist, kleepimist ega konteksti vahetamist."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI töötab kõikides rakendustes ja saitidel, mida kasutad. Ei mingit kopeerimist, kleepimist ega konteksti vahetamist.",
+    "home_page__trusted_by__tips": "Meie teenust kasutavad töötajad üle maailma tippettevõtetest ja ülikoolidest. Kuvatud logod ja nimed on nende vastavate omanike kaubamärgid. Nende kaubamärkide kasutamine ei viita mingile heakskiidule ega seosele. Kui olete ühe nendest organisatsioonidest esindaja ja arvate, et teie logo või nime on kasutatud ilma loata, võtke meiega ühendust ja me lahendame probleemi kiiresti."
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",

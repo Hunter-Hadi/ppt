@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Získajte pomoc pri porozumení kódu a technických konceptoch, rýchlejšie odhaľujte chyby, generujte úryvky kódu a šablóny a ľahko sa učte nové programovacie jazyky.",
     "home_page__features_with_scene__feature_browser_extension__label": "Rozšírenie prehliadača",
     "home_page__features_with_scene__feature_browser_extension__title": "Funguje tam, kde pracujete",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funguje vo všetkých aplikáciách a na všetkých webových stránkach, ktoré používate. Žiadne kopírovanie, žiadne vkladanie, žiadne prepínanie kontextu."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funguje vo všetkých aplikáciách a na všetkých webových stránkach, ktoré používate. Žiadne kopírovanie, žiadne vkladanie, žiadne prepínanie kontextu.",
+    "home_page__trusted_by__tips": "Našu službu používajú zamestnanci najlepších spoločností a univerzít po celom svete. Zobrazené logá a názvy sú ochrannými známkami ich príslušných vlastníkov. Použitie týchto ochranných známok neznamená žiadne odporúčanie alebo spojenie. Ak ste zástupcom jednej z týchto organizácií a domnievate sa, že sme použili vaše logo alebo názov bez povolenia, kontaktujte nás a rýchlo sa tejto veci zaoberieme."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knižnica vysoko kvalitných AI promptov",

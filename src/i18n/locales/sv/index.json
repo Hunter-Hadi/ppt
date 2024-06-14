@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Få hjälp att förstå kod och tekniska begrepp, felsöka fel snabbare, generera kodsnuttar och mallar samt lära dig nya programmeringsspråk med lätthet.",
     "home_page__features_with_scene__feature_browser_extension__label": "Webbläsartillägg",
     "home_page__features_with_scene__feature_browser_extension__title": "Fungerar där du arbetar",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI fungerar i alla appar och webbplatser du använder. Ingen kopiering, ingen klistring, ingen kontextväxling."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI fungerar i alla appar och webbplatser du använder. Ingen kopiering, ingen klistring, ingen kontextväxling.",
+    "home_page__trusted_by__tips": "Vår tjänst används av anställda från toppföretag och universitet runt om i världen. Logotyperna och namnen som visas är varumärken tillhörande sina respektive ägare. Användningen av dessa varumärken innebär inte något godkännande eller samröre. Om du representerar någon av dessa organisationer och tror att din logotyp eller ditt namn har använts utan tillstånd, kontakta oss så kommer vi att åtgärda problemet snabbt."
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",

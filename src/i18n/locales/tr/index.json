@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Kodu ve teknik kavramları anlamak için yardım alın, hataları daha hızlı giderin, kod parçacıkları ve şablonlar oluşturun ve yeni programlama dillerini kolayca öğrenin.",
     "home_page__features_with_scene__feature_browser_extension__label": "Tarayıcı eklentisi",
     "home_page__features_with_scene__feature_browser_extension__title": "Çalıştığınız yerde çalışır",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI, kullandığınız tüm uygulamalar ve siteler üzerinde çalışır. Kopyalama, yapıştırma veya bağlam değiştirme yok."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI, kullandığınız tüm uygulamalar ve siteler üzerinde çalışır. Kopyalama, yapıştırma veya bağlam değiştirme yok.",
+    "home_page__trusted_by__tips": "Hizmetimiz dünyanın önde gelen şirketlerinin ve üniversitelerinin çalışanları tarafından kullanılmaktadır. Gösterilen logolar ve isimler ilgili sahiplerinin ticari markalarıdır. Bu ticari markaların kullanımı herhangi bir onay veya ilişkiyi ima etmez. Eğer bu organizasyonlardan birinin temsilcisiyseniz ve logonuz veya adınız izinsiz kullanıldığını düşünüyorsanız, lütfen bize ulaşın ve sorunu hızlı bir şekilde çözeceğiz."
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
