@@ -115,6 +115,9 @@ const HeroSection: FC<IProps> = ({
                   }}
                   component='h1'
                   fontWeight={700}
+                  maxWidth={
+                    featuresContentVariant === 'content3' ? 610 : 'unset'
+                  }
                 >
                   {title}
                 </Typography>
@@ -126,84 +129,17 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='body2'
-                  fontSize={
-                    featuresContentVariant === 'content3'
-                      ? { xs: 14, sm: 16 }
-                      : {
-                          xs: 16,
-                          sm: 18,
-                          lg: 22,
-                        }
-                  }
+                  fontSize={{
+                    xs: 16,
+                    sm: 18,
+                    lg: 22,
+                  }}
                 >
                   {description}
                 </Typography>
               )}
               {/* margin spacing */}
               <Box height={32} />
-              <Stack
-                direction='row'
-                alignItems={'center'}
-                gap={{
-                  xs: 1,
-                  sm: 3,
-                }}
-                mb={{
-                  xs: 3,
-                  sm: 6,
-                }}
-                flexWrap={'wrap'}
-              >
-                <A16zTop50AppsBadge />
-                <IndicatorDecorator>
-                  <Stack justifyContent={'center'} alignItems='center'>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 20,
-                        sm: 24,
-                      }}
-                      fontWeight={700}
-                      color='primary.main'
-                    >
-                      {LOVED_BY_NUM}
-                    </Typography>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 14,
-                        sm: 16,
-                      }}
-                    >
-                      {t('pages:home_page__hero_section__indicator2_label')}
-                    </Typography>
-                  </Stack>
-                </IndicatorDecorator>
-                <IndicatorDecorator>
-                  <Stack justifyContent={'center'} alignItems='center'>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 20,
-                        sm: 24,
-                      }}
-                      fontWeight={700}
-                      color='primary.main'
-                    >
-                      {STAR_RATINGS_NUM}
-                    </Typography>
-                    <Typography
-                      variant='custom'
-                      fontSize={{
-                        xs: 14,
-                        sm: 16,
-                      }}
-                    >
-                      {t('pages:home_page__hero_section__indicator3_label')}
-                    </Typography>
-                  </Stack>
-                </IndicatorDecorator>
-              </Stack>
               <Stack
                 direction={'row'}
                 alignItems='center'
@@ -327,6 +263,66 @@ const HeroSection: FC<IProps> = ({
                     Gemini 1.5
                   </Typography>
                 </Stack>
+              </Stack>
+              <Box height={32} />
+              <Stack
+                direction='row'
+                alignItems={'center'}
+                gap={{
+                  xs: 1,
+                  sm: 3,
+                }}
+                flexWrap={'wrap'}
+              >
+                <A16zTop50AppsBadge />
+                <IndicatorDecorator>
+                  <Stack justifyContent={'center'} alignItems='center'>
+                    <Typography
+                      variant='custom'
+                      fontSize={{
+                        xs: 20,
+                        sm: 24,
+                      }}
+                      fontWeight={700}
+                      color='primary.main'
+                    >
+                      {LOVED_BY_NUM}
+                    </Typography>
+                    <Typography
+                      variant='custom'
+                      fontSize={{
+                        xs: 14,
+                        sm: 16,
+                      }}
+                    >
+                      {t('pages:home_page__hero_section__indicator2_label')}
+                    </Typography>
+                  </Stack>
+                </IndicatorDecorator>
+                <IndicatorDecorator>
+                  <Stack justifyContent={'center'} alignItems='center'>
+                    <Typography
+                      variant='custom'
+                      fontSize={{
+                        xs: 20,
+                        sm: 24,
+                      }}
+                      fontWeight={700}
+                      color='primary.main'
+                    >
+                      {STAR_RATINGS_NUM}
+                    </Typography>
+                    <Typography
+                      variant='custom'
+                      fontSize={{
+                        xs: 14,
+                        sm: 16,
+                      }}
+                    >
+                      {t('pages:home_page__hero_section__indicator3_label')}
+                    </Typography>
+                  </Stack>
+                </IndicatorDecorator>
               </Stack>
             </Stack>
           </Grid>

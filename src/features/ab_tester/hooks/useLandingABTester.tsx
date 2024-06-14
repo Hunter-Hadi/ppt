@@ -104,17 +104,7 @@ const useLandingABTester = (autoSendEvent = false) => {
     } else if (variant.includes('content2')) {
       return t('pages:home_page__hero_section__desc__variant2');
     } else if (variant.includes('content3')) {
-      return (
-        <>
-          {t('pages:home_page__hero_section__desc__variant3__item1')}
-          <br />
-          {t('pages:home_page__hero_section__desc__variant3__item2')}
-          <br />
-          {t('pages:home_page__hero_section__desc__variant3__item3')}
-          <br />
-          {t('pages:home_page__hero_section__desc__variant3__item4')}
-        </>
-      );
+      return t('pages:home_page__hero_section__desc__variant3');
     }
     return null;
   }, [variant, t, enabled]);

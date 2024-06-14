@@ -83,10 +83,7 @@
 
     "home_page__hero_section__desc": "Use personalized 1-click AI anywhere to save hours every day.",
     "home_page__hero_section__desc__variant2": "Work with an AI partner that helps you research faster, write better, and understand more.",
-    "home_page__hero_section__desc__variant3__item1": "Summarize and chat with web articles, PDFs, and YouTube videos to save time.",
-    "home_page__hero_section__desc__variant3__item2": "Ask GPT-4o, Claude-3-Opus, Gemini-1.5-Pro for quick answers.",
-    "home_page__hero_section__desc__variant3__item3": "Draft, improve, and proofread emails, articles, posts, papers, and more.",
-    "home_page__hero_section__desc__variant3__item4": "Free to use.",
+    "home_page__hero_section__desc__variant3": "Summarize and chat with web articles, PDFs, and YouTube videos to save time. Ask AI for quick answers. Draft, improve, and proofread emails, articles, posts, papers, and more. Free to use.",
 
     "home_page__hero_section__indicator1_label": "Top 50 genAI apps",
     "home_page__hero_section__indicator2_label": "Active users",
@@ -220,12 +217,9 @@
     
     "home_page__how_it_works__title": "How it works",
     "home_page__how_it_works__step1__title": "Add to browser",
-    "home_page__how_it_works__step1__description__part1": "Add MaxAI.me extension",
-    "home_page__how_it_works__step1__description__part2": "to your browser to save time on every web page with AI. It's free and 100% privacy friendly.",
+    "home_page__how_it_works__step1__description": "Add MaxAI.me extension to your browser to save time on every web page with AI. It's free and 100% privacy friendly.",
     "home_page__how_it_works__step2__title": "Sign in",
-    "home_page__how_it_works__step2__description__part1": "Easily",
-    "home_page__how_it_works__step2__description__part2": "sign in",
-    "home_page__how_it_works__step2__description__part3": "with Google or email. It's simple, free, and secure.",
+    "home_page__how_it_works__step2__description": "Easily sign in with Google or email. It's simple, free, and secure.",
     "home_page__how_it_works__step3__title": "Boost productivity",
     "home_page__how_it_works__step3__description": "Summarize, research, and write 10x faster with AI. Save hours every day.",
 

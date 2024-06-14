@@ -370,7 +370,6 @@ export const openWindow = (
   const top = winObject.outerHeight / 2 + winObject.screenY - height / 2;
   const left = winObject.outerWidth / 2 + winObject.screenX - width / 2;
 
-  debugger;
   const openResponse = winObject.open(
     url,
     title,
