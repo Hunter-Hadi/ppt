@@ -19,21 +19,21 @@ const FEATURES_WITH_POINTS = [
   {
     key: 'Research assistant',
     icon: 'search',
+    label: 'pages:home_page__features_content_3__feature_research__label',
+    title: 'pages:home_page__features_content_3__feature_research__title',
+    description:
+      'pages:home_page__features_content_3__feature_research__description',
+    image: '/assets/landing/feature-carousel/chat.png',
+  },
+  {
+    key: 'Writing assistant',
+    icon: 'rewriter',
     label:
       'pages:home_page__features_content_3__feature_writing_assistance__label',
     title:
       'pages:home_page__features_content_3__feature_writing_assistance__title',
     description:
       'pages:home_page__features_content_3__feature_writing_assistance__description',
-    image: '/assets/landing/feature-carousel/chat.png',
-  },
-  {
-    key: 'Writing assistant',
-    icon: 'rewriter',
-    label: 'pages:home_page__features_content_3__feature_research__label',
-    title: 'pages:home_page__features_content_3__feature_research__title',
-    description:
-      'pages:home_page__features_content_3__feature_research__description',
     image: '/assets/landing/feature-carousel/rewriter.png',
   },
   {
