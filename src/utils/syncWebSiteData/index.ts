@@ -82,6 +82,9 @@ export const syncWebSiteDataToStorageWithIframe = (
     let timer: number | null = null;
     if (options?.timeout !== -1) {
       timer = window.setTimeout(() => {
+        iframe.remove();
+        window.removeEventListener('message', listenerHandler);
+        console.error(`[SyncWebSiteData ERROR] synchronize timeout`);
         resolve(false);
       }, options?.timeout || 10000);
     }
@@ -111,7 +114,7 @@ export const syncWebSiteDataToStorageWithIframe = (
           iframe.remove();
           window.removeEventListener('message', listenerHandler);
           console.error(
-            `[ERROR] Unable to synchronize illegal key values`,
+            `[SyncWebSiteData ERROR] Unable to synchronize illegal key values`,
             invalidDataKey,
           );
           resolve(isSuccess);
