@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "احصل على مساعدة في فهم الشفرة والمفاهيم التقنية، وتصحيح الأخطاء بشكل أسرع، وإنشاء مقتطفات وقوالب الشفرة، وتعلم لغات البرمجة الجديدة بسهولة.",
     "home_page__features_with_scene__feature_browser_extension__label": "امتداد المتصفح",
     "home_page__features_with_scene__feature_browser_extension__title": "يعمل حيث تعمل أنت",
-    "home_page__features_with_scene__feature_browser_extension__description": "يعمل MaxAI عبر جميع التطبيقات والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو تبديل السياق."
+    "home_page__features_with_scene__feature_browser_extension__description": "يعمل MaxAI عبر جميع التطبيقات والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو تبديل السياق.",
+    "home_page__trusted_by__tips": "يتم استخدام خدمتنا من قبل موظفين من أفضل الشركات والجامعات في جميع أنحاء العالم. الشعارات والأسماء المعروضة هي علامات تجارية لأصحابها. استخدام هذه العلامات التجارية لا يعني أي تأييد أو انتماء. إذا كنت ممثلاً لإحدى هذه المؤسسات وتعتقد أن شعارك أو اسمك تم استخدامه بدون إذن، يرجى الاتصال بنا وسنتعامل مع المشكلة على الفور."
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",

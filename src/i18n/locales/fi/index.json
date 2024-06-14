@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Saat apua koodin ja teknisten käsitteiden ymmärtämiseen, virheiden nopeampaan vianetsintään, koodinpätkien ja mallien luomiseen sekä uusien ohjelmointikielten oppimiseen helposti.",
     "home_page__features_with_scene__feature_browser_extension__label": "Selainlaajennus",
     "home_page__features_with_scene__feature_browser_extension__title": "Toimii siellä missä työskentelet",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI toimii kaikissa käyttämissäsi sovelluksissa ja sivustoissa. Ei kopioimista, ei liittämistä, ei kontekstin vaihtamista."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI toimii kaikissa käyttämissäsi sovelluksissa ja sivustoissa. Ei kopioimista, ei liittämistä, ei kontekstin vaihtamista.",
+    "home_page__trusted_by__tips": "Palveluamme käyttävät työntekijät maailman johtavista yrityksistä ja yliopistoista. Näytetyt logot ja nimet ovat niiden omistajien tavaramerkkejä. Näiden tavaramerkkien käyttö ei tarkoita minkäänlaista hyväksyntää tai yhteyttä. Jos edustat jotakin näistä organisaatioista ja uskot, että logoasi tai nimeäsi on käytetty ilman lupaa, ota meihin yhteyttä, niin käsittelemme asian välittömästi."
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",

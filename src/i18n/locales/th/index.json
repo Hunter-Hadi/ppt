@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "รับความช่วยเหลือในการเข้าใจโค้ดและแนวความคิดทางเทคนิค แก้ไขข้อผิดพลาดได้เร็วขึ้น สร้างโค้ดสั้นๆ และเทมเพลต และเรียนรู้ภาษาการเขียนโปรแกรมใหม่อย่างง่ายดาย",
     "home_page__features_with_scene__feature_browser_extension__label": "ส่วนขยายบราวเซอร์",
     "home_page__features_with_scene__feature_browser_extension__title": "ทำงานทุกที่ที่คุณทำงาน",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI ทำงานบนแอปและเว็บไซต์ที่คุณใช้ ไม่ต้องคัดลอก วาง หรือสลับบริบท"
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI ทำงานบนแอปและเว็บไซต์ที่คุณใช้ ไม่ต้องคัดลอก วาง หรือสลับบริบท",
+    "home_page__trusted_by__tips": "บริการของเราถูกใช้โดยพนักงานจากบริษัทชั้นนำและมหาวิทยาลัยทั่วโลก โลโก้และชื่อที่แสดงเป็นเครื่องหมายการค้าของเจ้าของลิขสิทธิ์แต่ละราย การใช้เครื่องหมายการค้าเหล่านี้ไม่แสดงให้เห็นถึงการสนับสนุนหรือความเกี่ยวข้องใด หากคุณเป็นตัวแทนของหนึ่งในองค์กรเหล่านี้และเชื่อว่าโลโก้หรือชื่อของคุณถูกใช้โดยไม่ได้รับอนุญาต กรุณาติดต่อเรา เราจะดำเนินการแก้ไขปัญหาโดยเร็ว"
   },
   "prompt_library": {
     "use_prompt_library__title": "ไลบรารีคำแนะนำ AI คุณภาพสูง",

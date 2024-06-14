@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Pridobite pomoč pri razumevanju kode in tehničnih konceptov, hitreje odpravljajte napake, generirajte koščke kode in predloge ter se lažje učite novih programskih jezikov.",
     "home_page__features_with_scene__feature_browser_extension__label": "Razširitev brskalnika",
     "home_page__features_with_scene__feature_browser_extension__title": "Deluje tam, kjer delate",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI deluje v vseh aplikacijah in spletnih mestih, ki jih uporabljate. Brez kopiranja, brez lepljenja, brez preklapljanja konteksta."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI deluje v vseh aplikacijah in spletnih mestih, ki jih uporabljate. Brez kopiranja, brez lepljenja, brez preklapljanja konteksta.",
+    "home_page__trusted_by__tips": "Našo storitev uporabljajo zaposleni iz najboljših podjetij in univerz po vsem svetu. Prikazane logotipe in imena predstavljajo blagovne znamke njihovih lastnikov. Uporaba teh blagovnih znamk ne pomeni nobenega priporočila ali povezave. Če ste predstavnik ene od teh organizacij in menite, da je bil vaš logotip ali ime uporabljen brez dovoljenja, nas prosimo kontaktirajte in težavo bomo nemudoma rešili."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",

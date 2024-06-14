@@ -639,7 +639,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "帮助理解代码和技术概念，更快地调试错误，生成代码片段和模板，并轻松学习新的编程语言。",
     "home_page__features_with_scene__feature_browser_extension__label": "浏览器扩展",
     "home_page__features_with_scene__feature_browser_extension__title": "在您工作的地方发挥作用",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI适用于您使用的所有应用程序和网站。无需复制、粘贴或切换上下文。"
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI适用于您使用的所有应用程序和网站。无需复制、粘贴或切换上下文。",
+    "home_page__trusted_by__tips": "我们的服务被世界各地顶级公司和大学的员工使用。显示的商标和名称是其各自所有者的商标。使用这些商标并不意味着任何认可或关联。如果您是这些组织中的代表，并且认为您的商标或名称未经许可被使用，请与我们联系，我们将迅速解决问题。"
   },
   "button": {
     "add_to_chrome_for_free": "添加到 Chrome - 免费",

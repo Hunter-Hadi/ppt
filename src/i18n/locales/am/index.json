@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_browser_extension__label": "በባሪያዎች ድረ-ገጽ",
     "home_page__features_with_scene__feature_browser_extension__title": "በስልክ የሚሻለውን ስልኮ ያስተላልፉ",
     "home_page__features_with_scene__feature_browser_extension__description": "MaxAI በስልክ የሚሻለውን አፕልንና የሚሻለውን ድረ-ገጽ በማስተላለፍ የሚሻለውን መልክ ያግኙታል።",
-    "uninstall_survey__title": "እኛን እንዴት እንደምንሞክር እንዲሁም እንዲረግጠን ይችላሉ"
+    "uninstall_survey__title": "እኛን እንዴት እንደምንሞክር እንዲሁም እንዲረግጠን ይችላሉ",
+    "home_page__trusted_by__tips": "አገልግሎትን የተጠቀሙ አስተዳደር በምስራች የሚገኙ እና የተማሪ ዩኒቨርሲቲዎች በአሁኑ ወቅት በአንድ ሰዓት በሚገኘው መልኩ የተለያዩ ስሞቶችን እና ስሞቶችን በተለያዩ ባለሙያዎች የሚገኙ ነው። የዚህ ስሞት የሚገኘው ስሞት ለማስተዳደር የሚያስችል የማንነት ይሁኑ። እርስዎ አንድ የተጠቀሙ የዚህ የባለሙያ ወይም ስሞት በመሆኑ የሚገኘውን ስሞት ያስገቡትን እናመሰግናለን።"
   },
   "prompt_library": {
     "use_prompt_library__title": "የልማት የሚጠቀሙ የሳምንት መልእክት",

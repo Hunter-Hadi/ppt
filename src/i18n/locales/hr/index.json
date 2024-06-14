@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Dobijte pomoć u razumijevanju koda i tehničkih pojmova, brže otklanjajte pogreške, generirajte isječke koda i predloške te naučite nove programske jezike s lakoćom.",
     "home_page__features_with_scene__feature_browser_extension__label": "Proširenje preglednika",
     "home_page__features_with_scene__feature_browser_extension__title": "Radi tamo gdje radite",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI radi na svim aplikacijama i web stranicama koje koristite. Nema kopiranja, nema lijepljenja, nema prebacivanja konteksta."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI radi na svim aplikacijama i web stranicama koje koristite. Nema kopiranja, nema lijepljenja, nema prebacivanja konteksta.",
+    "home_page__trusted_by__tips": "Našu uslugu koriste zaposlenici vodećih tvrtki i sveučilišta diljem svijeta. Prikazani logotipi i imena su zaštitni znakovi njihovih vlasnika. Upotreba ovih zaštitnih znakova ne implicira nikakvo odobrenje ili povezanost. Ako ste predstavnik jedne od ovih organizacija i smatrate da je vaš logotip ili ime korišteno bez dozvole, molimo kontaktirajte nas i mi ćemo odmah riješiti problem."
   },
   "prompt_library": {
     "use_prompt_library__title": "Visokokvalitetna AI biblioteka uputa",

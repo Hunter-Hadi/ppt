@@ -1,5 +1,78 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.2.10',
+    date: '2024-05-28',
+
+    content: [
+      {
+        title: 'A better context window experience',
+        lists: [
+          {
+            module: 'Pin the context window',
+            desc: 'Pin the context window to keep generated content open while you browse and interact with the current webpage seamlessly.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.2.9',
+    date: '2024-05-23',
+
+    content: [
+      {
+        title: 'Chat with PDF, with citations',
+        lists: [
+          {
+            module: 'Find sources fast with citations',
+            desc: 'Curious about the sources behind the AI\'s answers when chatting with PDFs? Now, you can easily check the citations in each response.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.2.7',
+    date: '2024-05-16',
+
+    content: [
+      {
+        title: 'Introducing GPT-4o on MaxAI.me',
+        lists: [
+          {
+            module: 'Access GPT-4o',
+            desc: 'OpenAI\'s new flagship model. Provides GPT-4-level intelligence and with more up-to-date responses. GPT-4o is 2x faster than GPT-4 Turbo. Can reason across audio, vision, and text in real time.',
+          },
+        ],
+      },
+      {
+        title: 'Follow-up helpers with AI summary',
+        lists: [
+          {
+            module: 'Related questions for AI summary',
+            desc: 'It\'s never been easier to dive deeper into your research. With one click on the auto-suggested related questions, you can get instant answers directly on the page, PDF, or video in the Summary tab in the sidebar.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.2.6',
+    date: '2024-05-13',
+
+    content: [
+      {
+        title: 'AI-powered search with different AI models',
+        lists: [
+          {
+            module: 'Search with your favorite models',
+            desc: 'Choose from the latest AI models like GPT-4, Claude 3, and Gemini 1.5 for improved answers and longer context.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.2.4',
     date: '2024-05-07',
 

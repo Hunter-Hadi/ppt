@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Iegūstiet palīdzību, saprotot kodu un tehniskas koncepcijas, atkļūdot kļūdas ātrāk, ģenerējot kodu fragmentus un veidnes, un viegli apgūstot jaunas programmēšanas valodas.",
     "home_page__features_with_scene__feature_browser_extension__label": "Pārlūka paplašinājums",
     "home_page__features_with_scene__feature_browser_extension__title": "Darbojas tur, kur strādājat",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI darbojas visās lietotnēs un vietnēs, ko izmantojat. Nav kopēšanas, nav ielīmēšanas, nav konteksta maiņas."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI darbojas visās lietotnēs un vietnēs, ko izmantojat. Nav kopēšanas, nav ielīmēšanas, nav konteksta maiņas.",
+    "home_page__trusted_by__tips": "Mūsu pakalpojumu izmanto darbinieki no vadošām uzņēmumu un universitātēm visā pasaulē. Attēlotie logotipi un nosaukumi ir to attiecīgo īpašnieku preču zīmes. Šo preču zīmju izmantošana nenozīmē nekādu atbalstu vai saistību. Ja jūs esat vienas no šīm organizācijām pārstāvis un uzskatāt, ka jūsu logotips vai nosaukums tiek izmantots bez atļaujas, lūdzu, sazinieties ar mums, un mēs nekavējoties risināsim problēmu."
   },
   "prompt_library": {
     "use_prompt_library__title": "Augstas kvalitātes AI pamatbibliotēka",

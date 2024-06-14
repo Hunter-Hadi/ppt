@@ -63,11 +63,9 @@ const PartnersUpdatedPage = () => {
         alignItems={'center'}
         justifyContent={'center'}
         spacing={2}
-        px={{
-          xs: 2,
-          sm: 0,
-        }}
-        py={1.5}
+        px={2}
+        pt={2}
+        pb={6}
         boxSizing='border-box'
       >
         <Typography
@@ -75,11 +73,19 @@ const PartnersUpdatedPage = () => {
           variant='custom'
           textAlign={'center'}
           fontSize={48}
+          sx={{
+            wordBreak: 'break-word',
+          }}
         >
           🎉 {partnersName} has been updated
         </Typography>
         {changelogText && changelogLink ? (
-          <Typography>
+          <Typography
+            sx={{
+              wordBreak: 'break-word',
+              textAlign: 'center',
+            }}
+          >
             <ProLink
               muiLinkProps={{
                 rel: 'noopener nofollow',

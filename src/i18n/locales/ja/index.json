@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "コードと技術的な概念の理解をサポートし、エラーのデバッグを迅速化し、コードスニペットとテンプレートを生成し、新しいプログラミング言語を簡単に学びます。",
     "home_page__features_with_scene__feature_browser_extension__label": "ブラウザ拡張機能",
     "home_page__features_with_scene__feature_browser_extension__title": "作業する場所で動作します",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAIは使用しているすべてのアプリとサイトで動作します。コピーも貼り付けも不要で、コンテキストの切り替えもありません。"
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAIは使用しているすべてのアプリとサイトで動作します。コピーも貼り付けも不要で、コンテキストの切り替えもありません。",
+    "home_page__trusted_by__tips": "当社のサービスは世界中のトップ企業や大学の従業員に利用されています。表示されているロゴと名前は、それぞれの所有者の商標です。これらの商標の使用は、いかなる承認や関連性を意味するものではありません。これらの組織の代表であり、許可なくロゴや名前が使用されたと考える場合は、お問い合わせください。問題を迅速に対処いたします。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",

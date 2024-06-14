@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Segítséget kapjon a kód és a technikai fogalmak megértéséhez, hibák gyorsabb hibakereséséhez, kódrészletek és sablonok generálásához, valamint új programozási nyelvek könnyebb megtanulásához.",
     "home_page__features_with_scene__feature_browser_extension__label": "Böngésző-kiterjesztés",
     "home_page__features_with_scene__feature_browser_extension__title": "Működik ott, ahol dolgozik",
-    "home_page__features_with_scene__feature_browser_extension__description": "A MaxAI minden alkalmazással és webhellyel működik, amelyeket használ. Nincs másolás, beillesztés, nincs kontextusváltás."
+    "home_page__features_with_scene__feature_browser_extension__description": "A MaxAI minden alkalmazással és webhellyel működik, amelyeket használ. Nincs másolás, beillesztés, nincs kontextusváltás.",
+    "home_page__trusted_by__tips": "Szolgáltatásunkat világszerte a legjobb vállalatok és egyetemek alkalmazottai használják. A megjelenített logók és nevek a saját tulajdonosaik védjegyei. Ezeknek a védjegyeknek a használata nem jelenti azt, hogy bármilyen jóváhagyást vagy kapcsolatot feltételez. Ha Ön az egyik szervezet képviselője, és úgy gondolja, hogy a logóját vagy nevét engedély nélkül használtuk, kérjük, lépjen kapcsolatba velünk, és mi azonnal intézkedünk."
   },
   "prompt_library": {
     "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",

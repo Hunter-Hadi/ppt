@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Dapatkan bantuan dalam memahami kode dan konsep teknis, debug kesalahan dengan lebih cepat, hasilkan potongan kode dan templat, serta pelajari bahasa pemrograman baru dengan mudah.",
     "home_page__features_with_scene__feature_browser_extension__label": "Ekstensi browser",
     "home_page__features_with_scene__feature_browser_extension__title": "Bekerja di tempat Anda bekerja",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI berfungsi di semua aplikasi dan situs yang Anda gunakan. Tidak perlu menyalin, tidak perlu menempel, tidak ada perpindahan konteks."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI berfungsi di semua aplikasi dan situs yang Anda gunakan. Tidak perlu menyalin, tidak perlu menempel, tidak ada perpindahan konteks.",
+    "home_page__trusted_by__tips": "Layanan kami digunakan oleh karyawan dari perusahaan-perusahaan dan universitas-universitas terkemuka di seluruh dunia. Logo dan nama yang ditampilkan adalah merek dagang milik pemiliknya masing-masing. Penggunaan merek dagang ini tidak menyiratkan adanya dukungan atau afiliasi. Jika Anda adalah perwakilan salah satu organisasi ini dan percaya bahwa logo atau nama Anda telah digunakan tanpa izin, silakan hubungi kami, dan kami akan segera menangani masalah tersebut."
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",

@@ -2,7 +2,8 @@
 import 'swiper/css';
 import 'swiper/css/free-mode';
 
-import { Box, Stack, Typography } from '@mui/material';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import { Box, Stack, Tooltip, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 import { Autoplay, FreeMode } from 'swiper/modules';
@@ -10,7 +11,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const TRUSTED_BY_COMPANY = [
   { name: 'Airbnb', src: '/assets/landing/trusted-by/company/Airbnb.svg' },
-  { name: 'Disney', src: '/assets/landing/trusted-by/company/Disney.svg' },
+  // { name: 'Disney', src: '/assets/landing/trusted-by/company/Disney.svg' },
   { name: 'Frame', src: '/assets/landing/trusted-by/company/Frame.svg' },
   { name: 'Intuit', src: '/assets/landing/trusted-by/company/Intuit.svg' },
   { name: 'Nike', src: '/assets/landing/trusted-by/company/Nike.svg' },
@@ -121,6 +122,24 @@ const TrustedBy = () => {
           mb={6}
         >
           {t('pages:home_page__trusted_by__title')}
+
+          <Tooltip
+            placement='top'
+            title={
+              <Typography variant='custom' fontSize={12} lineHeight={1.5}>
+                {t('pages:home_page__trusted_by__tips')}
+              </Typography>
+            }
+          >
+            <HelpOutlineIcon
+              sx={{
+                ml: 0.5,
+                verticalAlign: 'middle',
+                fontSize: 20,
+                color: 'text.secondary',
+              }}
+            />
+          </Tooltip>
         </Typography>
 
         <Box

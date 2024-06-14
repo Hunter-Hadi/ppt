@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "幫助理解代碼和技術概念，更快地調試錯誤，生成代碼片段和模板，輕鬆學習新的編程語言。",
     "home_page__features_with_scene__feature_browser_extension__label": "瀏覽器擴展",
     "home_page__features_with_scene__feature_browser_extension__title": "在您工作的地方發揮作用",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI適用於您使用的所有應用程序和網站。無需複製、粘貼或切換上下文。"
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI適用於您使用的所有應用程序和網站。無需複製、粘貼或切換上下文。",
+    "home_page__trusted_by__tips": "我們的服務被世界各地頂尖公司和大學的員工使用。顯示的商標和名稱均為其各自所有者的商標。使用這些商標不意味著任何認可或聯繫。如果您是這些組織的代表，並認為您的商標或名稱未經許可被使用，請與我們聯繫，我們將立即處理此問題。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",

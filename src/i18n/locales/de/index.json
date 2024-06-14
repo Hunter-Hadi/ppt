@@ -653,7 +653,8 @@
     "home_page__features_with_scene__feature_code_assistance__description": "Erhalten Sie Hilfe beim Verständnis von Code und technischen Konzepten, debuggen Sie Fehler schneller, generieren Sie Code-Snippets und Vorlagen und lernen Sie neue Programmiersprachen mühelos.",
     "home_page__features_with_scene__feature_browser_extension__label": "Browser-Erweiterung",
     "home_page__features_with_scene__feature_browser_extension__title": "Funktioniert dort, wo Sie arbeiten",
-    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funktioniert in allen Apps und Websites, die Sie verwenden. Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts."
+    "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funktioniert in allen Apps und Websites, die Sie verwenden. Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts.",
+    "home_page__trusted_by__tips": "Unser Service wird von Mitarbeitern führender Unternehmen und Universitäten weltweit genutzt. Die angezeigten Logos und Namen sind Marken ihrer jeweiligen Inhaber. Die Verwendung dieser Marken impliziert keine Unterstützung oder Zugehörigkeit. Wenn Sie ein Vertreter einer dieser Organisationen sind und der Meinung sind, dass Ihr Logo oder Name ohne Erlaubnis verwendet wurde, kontaktieren Sie uns bitte, und wir werden das Problem umgehend beheben."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
