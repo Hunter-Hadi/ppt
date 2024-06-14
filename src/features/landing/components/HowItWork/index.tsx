@@ -1,69 +1,59 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
-import { Trans, useTranslation } from 'next-i18next';
+import { useTranslation } from 'next-i18next';
 import React from 'react';
 
 import ProLink from '@/components/ProLink';
-import {
-  AFFILIATE_PROGRAM_LINK,
-  AFFILIATE_PROGRAM_SIGN_UP_LINK,
-} from '@/page_components/AffiliatePages/constant';
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
+import { APP_PROJECT_LINK } from '@/global_constants';
+import useShareTrackerLink from '@/hooks/useShareTrackerLink';
+import { openWindow } from '@/utils/utils';
 
 const HOW_IT_WORKS_LIST = [
   {
-    title: 'affiliate:how_it_works__step1__title',
-    description: () => (
-      <Trans i18nKey='affiliate:how_it_works__step1__description'>
+    title: 'pages:home_page__how_it_works__step1__title',
+    description: (t, extensionLink, onLinkClick) => (
+      <>
         <ProLink
-          href={AFFILIATE_PROGRAM_SIGN_UP_LINK}
+          href={extensionLink}
           target='_blank'
           underline='always'
+          onClick={onLinkClick}
         >
-          Sign up
-        </ProLink>{' '}
-        for the affiliate program and get your exclusive affiliate link.
-      </Trans>
-    ),
-  },
-  {
-    title: 'affiliate:how_it_works__step2__title',
-    description: () => (
-      <Trans i18nKey='affiliate:how_it_works__step2__description'>
-        Share your unique link with your audience and track the performance in
-        real-time via
-        <ProLink
-          href={AFFILIATE_PROGRAM_LINK}
-          target='_blank'
-          underline='always'
-        >
-          Rewardful
+          {t('pages:home_page__how_it_works__step1__description__part1')}
         </ProLink>
-        .
-      </Trans>
+        {` `}
+        {t('pages:home_page__how_it_works__step1__description__part2')}
+      </>
     ),
   },
   {
-    title: 'affiliate:how_it_works__step3__title',
-    description: () => (
-      <Trans i18nKey='affiliate:how_it_works__step3__description'>
-        Earn
-        <Typography
-          variant='custom'
-          fontSize={28}
-          fontWeight={900}
-          fontStyle={'italic'}
-          color='primary.main'
+    title: 'pages:home_page__how_it_works__step2__title',
+    description: (t) => (
+      <>
+        {t('pages:home_page__how_it_works__step2__description__part1')}
+        {` `}
+        <ProLink
+          href={`${APP_PROJECT_LINK}/login`}
+          target='_blank'
+          underline='always'
         >
-          25%
-        </Typography>
-        recurring commission through the first year of each new subscriber that
-        you refer to MaxAI!
-      </Trans>
+          {t('pages:home_page__how_it_works__step2__description__part2')}
+        </ProLink>
+        {` `}
+        {t('pages:home_page__how_it_works__step2__description__part3')}
+      </>
     ),
+  },
+  {
+    title: 'pages:home_page__how_it_works__step3__title',
+    description: (t) => t('pages:home_page__how_it_works__step3__description'),
   },
 ];
 
 const HowItWork = () => {
   const { t } = useTranslation();
+  const { extensionLink } = useShareTrackerLink();
+  const { installOpenWithNewWindow } = useLandingABTester();
   return (
     <Box maxWidth={1312} mx={'auto'} py={9} px={2}>
       <Typography
@@ -76,17 +66,22 @@ const HowItWork = () => {
         }}
         mb={6}
       >
-        {t('affiliate:how_it_works__title')}
+        {t('pages:home_page__how_it_works__title')}
       </Typography>
       {/* <Box height={} /></Box> */}
       <Grid container direction={'row'} spacing={4}>
         {HOW_IT_WORKS_LIST.map((workItem, index) => {
           return (
             <Grid key={index} item xs={12} sm={6} md={4}>
-              <Box display={'flex'} minHeight={280} height='100%'>
+              <Box display={'flex'} minHeight={260} height='100%'>
                 <HowItWorkStepItem
                   title={t(workItem.title)}
-                  description={workItem.description()}
+                  description={workItem.description(t, extensionLink, (e) => {
+                    if (installOpenWithNewWindow) {
+                      e.preventDefault();
+                      openWindow(extensionLink);
+                    }
+                  })}
                   step={index + 1}
                 />
               </Box>
@@ -112,7 +107,7 @@ const HowItWorkStepItem = ({ title, description, step }) => {
       </Typography>
       <Typography
         variant='custom'
-        fontSize={56}
+        fontSize={44}
         lineHeight={1.5}
         fontWeight={700}
       >
