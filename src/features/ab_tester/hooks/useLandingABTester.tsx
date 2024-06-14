@@ -73,63 +73,73 @@ const useLandingABTester = (autoSendEvent = false) => {
   ]);
 
   const title = useMemo<React.ReactNode>(() => {
-    if (variant && enabled) {
-      if (variant.includes('features_with_point')) {
-        return (
-          <>
-            {t('pages:home_page__hero_section__title__part1')}
-            <br />
-            {t('pages:home_page__hero_section__title__part2')}
-            <br />
-            {t('pages:home_page__hero_section__title__part3')}
-          </>
-        );
-      }
-
-      if (variant.includes('features_with_scene')) {
-        return <>{t('pages:home_page__hero_section__title__variant2')}</>;
-      }
-    } else {
+    if (!enabled || !variant) {
       return null;
     }
+    if (variant.includes('content1')) {
+      return (
+        <>
+          {t('pages:home_page__hero_section__title__part1')}
+          <br />
+          {t('pages:home_page__hero_section__title__part2')}
+          <br />
+          {t('pages:home_page__hero_section__title__part3')}
+        </>
+      );
+    } else if (variant.includes('content2')) {
+      return <>{t('pages:home_page__hero_section__title__variant2')}</>;
+    } else if (variant.includes('content3')) {
+      return <>{t('pages:home_page__hero_section__title__variant3')}</>;
+    }
+    return null;
   }, [variant, t, enabled]);
 
   const description = useMemo<React.ReactNode>(() => {
-    if (variant && enabled) {
-      if (variant.includes('features_with_point')) {
-        return t('pages:home_page__hero_section__desc');
-      }
-
-      if (variant.includes('features_with_scene')) {
-        return t('pages:home_page__hero_section__desc__variant2');
-      }
-    } else {
+    if (!enabled || !variant) {
       return null;
     }
+
+    if (variant.includes('content1')) {
+      return t('pages:home_page__hero_section__desc');
+    } else if (variant.includes('content2')) {
+      return t('pages:home_page__hero_section__desc__variant2');
+    } else if (variant.includes('content3')) {
+      return (
+        <>
+          {t('pages:home_page__hero_section__desc__variant3__item1')}
+          <br />
+          {t('pages:home_page__hero_section__desc__variant3__item2')}
+          <br />
+          {t('pages:home_page__hero_section__desc__variant3__item3')}
+          <br />
+          {t('pages:home_page__hero_section__desc__variant3__item4')}
+        </>
+      );
+    }
+    return null;
   }, [variant, t, enabled]);
 
-  const heroVideoVariant = useMemo<'autoplay' | 'embed'>(() => {
-    if (variant && enabled) {
-      if (variant.includes('autoplay_video')) {
-        return 'autoplay';
-      } else {
-        return 'embed';
-      }
-    } else {
-      return 'embed';
+  const featuresContentVariant = useMemo(() => {
+    if (!enabled || !variant) {
+      return null;
     }
+
+    if (variant.includes('content1')) {
+      return 'content1';
+    } else if (variant.includes('content2')) {
+      return 'content2';
+    } else if (variant.includes('content3')) {
+      return 'content3';
+    }
+
+    return null;
   }, [variant, enabled]);
 
-  const heroSectionLayout = useMemo(() => {
-    if (variant && enabled) {
-      if (variant.includes('video_on_bottom')) {
-        return 'ttb-layout';
-      } else {
-        return 'ltr-layout';
-      }
-    } else {
-      return 'ltr-layout';
+  const installOpenWithNewWindow = useMemo(() => {
+    if (!enabled || !variant) {
+      return null;
     }
+    return variant.includes('install_with_new_window');
   }, [variant, enabled]);
 
   useEffect(() => {
@@ -148,9 +158,8 @@ const useLandingABTester = (autoSendEvent = false) => {
     loaded,
     title,
     description,
-    featuresWithScene: variant?.includes('features_with_scene'),
-    heroVideoVariant,
-    heroSectionLayout,
+    featuresContentVariant,
+    installOpenWithNewWindow,
   };
 };
 

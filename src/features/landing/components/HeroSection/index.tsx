@@ -36,7 +36,7 @@ const HeroSection: FC<IProps> = ({
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
-  const { heroSectionLayout } = useLandingABTester();
+  const { featuresContentVariant } = useLandingABTester();
 
   const { t } = useTranslation();
 
@@ -81,17 +81,9 @@ const HeroSection: FC<IProps> = ({
         backgroundPositionY: '-40px',
       }}
     >
-      <Box
-        maxWidth={heroSectionLayout === 'ttb-layout' ? 1040 : 1312}
-        mx='auto'
-      >
+      <Box maxWidth={1040} mx='auto'>
         <Grid container rowSpacing={3} spacing={4}>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={heroSectionLayout === 'ttb-layout' ? 12 : 6}
-          >
+          <Grid item xs={12} sm={12} md={12}>
             <Stack
               p={{
                 xs: 0,
@@ -103,18 +95,11 @@ const HeroSection: FC<IProps> = ({
                     xs: 0,
                     sm: 2,
                   },
-                  justifyContent:
-                    heroSectionLayout === 'ttb-layout'
-                      ? 'center'
-                      : 'flex-start',
-                  alignItems:
-                    heroSectionLayout === 'ttb-layout'
-                      ? 'center'
-                      : 'flex-start',
-                  textAlign:
-                    heroSectionLayout === 'ttb-layout' ? 'center' : 'left',
-                  maxWidth: heroSectionLayout === 'ttb-layout' ? 764 : 'unset',
-                  mx: heroSectionLayout === 'ttb-layout' ? 'auto' : 'unset',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  textAlign: 'center',
+                  maxWidth: 764,
+                  mx: 'auto',
                 },
               ]}
             >
@@ -141,11 +126,15 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='body2'
-                  fontSize={{
-                    xs: 16,
-                    sm: 18,
-                    lg: 22,
-                  }}
+                  fontSize={
+                    featuresContentVariant === 'content3'
+                      ? { xs: 14, sm: 16 }
+                      : {
+                          xs: 16,
+                          sm: 18,
+                          lg: 22,
+                        }
+                  }
                 >
                   {description}
                 </Typography>
@@ -224,7 +213,7 @@ const HeroSection: FC<IProps> = ({
                 }}
                 width={{
                   xs: '100%',
-                  sm: heroSectionLayout === 'ttb-layout' ? '60%' : '90%',
+                  sm: '60%',
                 }}
                 mb={1.5}
               >
@@ -263,9 +252,7 @@ const HeroSection: FC<IProps> = ({
                 direction={'row'}
                 spacing={1}
                 alignItems='center'
-                justifyContent={
-                  heroSectionLayout === 'ttb-layout' ? 'center' : 'flex-start'
-                }
+                justifyContent={'center'}
                 width={'100%'}
                 fontSize={{
                   xs: 12,
@@ -343,12 +330,7 @@ const HeroSection: FC<IProps> = ({
               </Stack>
             </Stack>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={heroSectionLayout === 'ttb-layout' ? 12 : 6}
-          >
+          <Grid item xs={12} sm={12} md={12}>
             <HeroVideoBox {...heroVideoProps} />
           </Grid>
         </Grid>
