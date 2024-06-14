@@ -350,3 +350,28 @@ export const isInIframe = () => {
     return false;
   }
 };
+
+export function isBot() {
+  const userAgent = navigator.userAgent.toLowerCase();
+  const botKeywords = [
+    'googlebot',
+    'bingbot',
+    'slurp',
+    'duckduckbot',
+    'baiduspider',
+    'yandexbot',
+    'sogou',
+    'exabot',
+    'facebot',
+    'ia_archiver',
+    'semrushbot',
+    'ahrefsbot',
+    'dotbot',
+    'gigabot',
+    'mj12bot',
+    'seznambot',
+    'pinterestbot',
+  ];
+
+  return botKeywords.some((keyword) => userAgent.includes(keyword));
+}
