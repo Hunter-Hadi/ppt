@@ -43,7 +43,7 @@ const FEATURES_WITH_POINTS = [
     title: 'pages:home_page__features_content_3__feature_all_in_one__title',
     description:
       'pages:home_page__features_content_3__feature_all_in_one__description',
-    image: 'zztest',
+    image: '/assets/landing/feature-carousel/all-in-one.png',
   },
   {
     key: 'Browser extension',
