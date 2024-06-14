@@ -656,10 +656,6 @@
     "home_page__features_with_scene__feature_browser_extension__description": "MaxAI fungerer på tværs af alle de apps og websteder, du bruger. Ingen kopiering, ingen indsættelse, ingen kontekstskift.",
     "home_page__trusted_by__tips": "Vores service bliver brugt af medarbejdere fra topvirksomheder og universiteter over hele verden. De viste logoer og navne er varemærker tilhørende deres respektive ejere. Brugen af disse varemærker indebærer ikke nogen godkendelse eller tilknytning. Hvis du repræsenterer en af disse organisationer og mener, at dit logo eller navn er blevet brugt uden tilladelse, bedes du kontakte os, og vi vil hurtigt håndtere problemet.",
     "home_page__hero_section__title__variant3": "Forskning og skriv 10 gange hurtigere med AI",
-    "home_page__hero_section__desc__variant3__item1": "Opsummer og chat med webartikler, PDF'er og YouTube-videoer for at spare tid.",
-    "home_page__hero_section__desc__variant3__item2": "Spørg GPT-4o, Claude-3-Opus, Gemini-1.5-Pro om hurtige svar.",
-    "home_page__hero_section__desc__variant3__item3": "Udkast, forbedre og korrekturlæse e-mails, artikler, indlæg, papirer og mere.",
-    "home_page__hero_section__desc__variant3__item4": "Gratis at bruge.",
     "home_page__features_content_3__feature_summarization__label": "Opsummeringsassistent",
     "home_page__features_content_3__feature_summarization__title": "Spar tid på lange artikler og videoer, få nøgleideer øjeblikkeligt",
     "home_page__features_content_3__feature_summarization__description": "Opsummer PDF'er, YouTube-videoer, rapporter og websider på sekunder. Få øjeblikkelige svar ved at chatte med forskningsartikler, videoer og artikler. Forstå komplekse begreber forklaret i enkle vilkår.",
@@ -677,13 +673,12 @@
     "home_page__features_content_3__feature_browser_extension__description": "MaxAI fungerer på tværs af alle de apps og websteder, du bruger. Ingen kopiering, ingen indsættelse, ingen skift af kontekst.",
     "home_page__how_it_works__title": "Sådan virker det",
     "home_page__how_it_works__step1__title": "Tilføj til browseren",
-    "home_page__how_it_works__step1__description__part1": "Tilføj MaxAI.me-udvidelsen",
-    "home_page__how_it_works__step1__description__part2": "til din browser for at spare tid på hver webside med AI. Det er gratis og 100% privatlivsvenligt.",
     "home_page__how_it_works__step2__title": "Log ind",
-    "home_page__how_it_works__step2__description__part1": "Log nemt ind",
-    "home_page__how_it_works__step2__description__part2": "med Google eller e-mail. Det er enkelt, gratis og sikkert.",
     "home_page__how_it_works__step3__title": "Øg produktiviteten",
-    "home_page__how_it_works__step3__description": "Opsummer, forskning og skriv 10 gange hurtigere med AI. Spar timer hver dag."
+    "home_page__how_it_works__step3__description": "Opsummer, forskning og skriv 10 gange hurtigere med AI. Spar timer hver dag.",
+    "home_page__hero_section__desc__variant3": "Opsummer og chat med webartikler, PDF'er og YouTube-videoer for at spare tid. Spørg AI om hurtige svar. Udkast, forbedr og korrekturlæs e-mails, artikler, indlæg, papirer og mere. Gratis at bruge.",
+    "home_page__how_it_works__step1__description": "Tilføj MaxAI.me-udvidelsen til din browser for at spare tid på hver webside med AI. Det er gratis og 100% privatlivsvenligt.",
+    "home_page__how_it_works__step2__description": "Log nemt ind med Google eller e-mail. Det er enkelt, gratis og sikkert."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",

@@ -656,10 +656,6 @@
     "home_page__features_with_scene__feature_browser_extension__description": "MaxAI는 사용하는 모든 앱과 사이트에서 작동합니다. 복사, 붙여넣기, 컨텍스트 전환 없이 사용하세요.",
     "home_page__trusted_by__tips": "저희 서비스는 전 세계의 주요 기업과 대학의 직원들이 사용하고 있습니다. 표시된 로고와 이름은 해당 소유자들의 상표입니다. 이러한 상표의 사용은 어떠한 보증이나 제휴를 시사하지 않습니다. 이 조직 중 하나의 대표이며 로고 또는 이름이 허가 없이 사용되었다고 생각하는 경우, 문제를 신속하게 처리하기 위해 저희에게 연락해주십시오.",
     "home_page__hero_section__title__variant3": "AI와 함께 더 빠르게 연구하고 작성하세요",
-    "home_page__hero_section__desc__variant3__item1": "웹 기사, PDF 및 YouTube 비디오를 요약하여 시간을 절약하세요.",
-    "home_page__hero_section__desc__variant3__item2": "빠른 답변을 위해 GPT-4o, Claude-3-Opus, Gemini-1.5-Pro에게 질문하세요.",
-    "home_page__hero_section__desc__variant3__item3": "이메일, 기사, 게시물, 논문 등을 초안 작성, 개선 및 교정하세요.",
-    "home_page__hero_section__desc__variant3__item4": "무료로 이용할 수 있습니다.",
     "home_page__features_content_3__feature_summarization__label": "요약 도우미",
     "home_page__features_content_3__feature_summarization__title": "긴 기사와 비디오에서 시간을 절약하고 주요 아이디어를 즉시 얻으세요",
     "home_page__features_content_3__feature_summarization__description": "PDF, YouTube 비디오, 보고서 및 웹 페이지를 몇 초 안에 요약하세요. 연구 논문, 비디오 및 기사와 대화하면 즉시 답변을 받을 수 있습니다. 간단한 용어로 설명된 복잡한 개념을 이해하세요.",
@@ -677,13 +673,12 @@
     "home_page__features_content_3__feature_browser_extension__description": "MaxAI는 사용하는 모든 앱과 사이트에서 작동합니다. 복사, 붙여넣기, 문맥 전환 없이 사용할 수 있습니다.",
     "home_page__how_it_works__title": "작동 방식",
     "home_page__how_it_works__step1__title": "브라우저에 추가",
-    "home_page__how_it_works__step1__description__part1": "MaxAI.me 확장 기능을",
-    "home_page__how_it_works__step1__description__part2": "브라우저에 추가하여 AI와 함께 모든 웹 페이지에서 시간을 절약하세요. 무료이며 100% 개인 정보 보호가 됩니다.",
     "home_page__how_it_works__step2__title": "로그인",
-    "home_page__how_it_works__step2__description__part1": "Google 또는 이메일로 간편하게",
-    "home_page__how_it_works__step2__description__part2": "로그인하세요. 간단하고 무료이며 안전합니다.",
     "home_page__how_it_works__step3__title": "생산성 향상",
-    "home_page__how_it_works__step3__description": "AI와 함께 요약, 연구 및 글쓰기를 10배 더 빠르게 진행하세요. 매일 몇 시간을 절약하세요."
+    "home_page__how_it_works__step3__description": "AI와 함께 요약, 연구 및 글쓰기를 10배 더 빠르게 진행하세요. 매일 몇 시간을 절약하세요.",
+    "home_page__hero_section__desc__variant3": "시간을 절약하기 위해 웹 기사, PDF 및 YouTube 동영상을 요약하고 대화하세요. 빠른 답변을 위해 AI에게 질문하세요. 이메일, 기사, 게시물, 논문 등을 초안 작성, 개선 및 교정하세요. 무료로 사용할 수 있습니다.",
+    "home_page__how_it_works__step1__description": "AI와 함께 모든 웹 페이지에서 시간을 절약하기 위해 MaxAI.me 확장 프로그램을 브라우저에 추가하세요. 무료이며 100% 개인 정보 보호를 지킵니다.",
+    "home_page__how_it_works__step2__description": "Google 또는 이메일로 간편하게 로그인하세요. 간단하고 무료이며 안전합니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",

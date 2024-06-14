@@ -656,10 +656,6 @@
     "home_page__features_with_scene__feature_browser_extension__description": "MaxAI funziona su tutte le app e i siti che usi. Nessun copia-incolla, nessun cambio di contesto.",
     "home_page__trusted_by__tips": "Il nostro servizio è utilizzato da dipendenti delle migliori aziende e università di tutto il mondo. I loghi e i nomi visualizzati sono marchi registrati dei rispettivi proprietari. L'uso di questi marchi non implica alcuna approvazione o affiliazione. Se sei un rappresentante di una di queste organizzazioni e ritieni che il tuo logo o nome sia stato utilizzato senza autorizzazione, ti preghiamo di contattarci e affronteremo prontamente la questione.",
     "home_page__hero_section__title__variant3": "Ricerca e scrivi 10 volte più velocemente con l'IA",
-    "home_page__hero_section__desc__variant3__item1": "Sintetizza e chatta con articoli web, PDF e video di YouTube per risparmiare tempo.",
-    "home_page__hero_section__desc__variant3__item2": "Chiedi a GPT-4o, Claude-3-Opus, Gemini-1.5-Pro per risposte rapide.",
-    "home_page__hero_section__desc__variant3__item3": "Bozza, migliora e correggi email, articoli, post, documenti e altro ancora.",
-    "home_page__hero_section__desc__variant3__item4": "Gratuito da usare.",
     "home_page__features_content_3__feature_summarization__label": "Assistente di sintesi",
     "home_page__features_content_3__feature_summarization__title": "Risparmia tempo su articoli lunghi e video, ottieni idee chiave istantaneamente",
     "home_page__features_content_3__feature_summarization__description": "Sintetizza PDF, video di YouTube, rapporti e pagine web in pochi secondi. Ottieni risposte istantanee chattando con articoli di ricerca, video e articoli. Comprendi concetti complessi spiegati in termini semplici.",
@@ -677,13 +673,12 @@
     "home_page__features_content_3__feature_browser_extension__description": "MaxAI funziona su tutte le app e i siti che usi. Nessun copia e incolla, nessun cambio di contesto.",
     "home_page__how_it_works__title": "Come funziona",
     "home_page__how_it_works__step1__title": "Aggiungi al browser",
-    "home_page__how_it_works__step1__description__part1": "Aggiungi l'estensione MaxAI.me",
-    "home_page__how_it_works__step1__description__part2": "al tuo browser per risparmiare tempo su ogni pagina web con l'IA. È gratuito e rispetta al 100% la privacy.",
     "home_page__how_it_works__step2__title": "Accedi",
-    "home_page__how_it_works__step2__description__part1": "Accedi facilmente",
-    "home_page__how_it_works__step2__description__part2": "con Google o email. È semplice, gratuito e sicuro.",
     "home_page__how_it_works__step3__title": "Aumenta la produttività",
-    "home_page__how_it_works__step3__description": "Sintetizza, ricerca e scrivi 10 volte più velocemente con l'IA. Risparmia ore ogni giorno."
+    "home_page__how_it_works__step3__description": "Sintetizza, ricerca e scrivi 10 volte più velocemente con l'IA. Risparmia ore ogni giorno.",
+    "home_page__hero_section__desc__variant3": "Sintetizza e chatta con articoli web, PDF e video di YouTube per risparmiare tempo. Chiedi all'IA per risposte rapide. Bozza, migliora e correggi email, articoli, post, documenti e altro ancora. Gratuito da usare.",
+    "home_page__how_it_works__step1__description": "Aggiungi l'estensione MaxAI.me al tuo browser per risparmiare tempo su ogni pagina web con l'IA. È gratuita e rispetta al 100% la privacy.",
+    "home_page__how_it_works__step2__description": "Accedi facilmente con Google o email. È semplice, gratuito e sicuro."
   },
   "prompt_library": {
     "use_prompt_library__title": "Libreria di prompt AI di alta qualità",

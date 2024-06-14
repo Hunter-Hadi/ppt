@@ -656,10 +656,6 @@
     "home_page__features_with_scene__feature_browser_extension__description": "يعمل MaxAI عبر جميع التطبيقات والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو تبديل السياق.",
     "home_page__trusted_by__tips": "يتم استخدام خدمتنا من قبل موظفين من أفضل الشركات والجامعات في جميع أنحاء العالم. الشعارات والأسماء المعروضة هي علامات تجارية لأصحابها. استخدام هذه العلامات التجارية لا يعني أي تأييد أو انتماء. إذا كنت ممثلاً لإحدى هذه المؤسسات وتعتقد أن شعارك أو اسمك تم استخدامه بدون إذن، يرجى الاتصال بنا وسنتعامل مع المشكلة على الفور.",
     "home_page__hero_section__title__variant3": "البحث والكتابة بسرعة 10 أضعاف مع الذكاء الاصطناعي",
-    "home_page__hero_section__desc__variant3__item1": "لخص وتواصل مع المقالات على الويب وملفات PDF ومقاطع فيديو YouTube لتوفير الوقت.",
-    "home_page__hero_section__desc__variant3__item2": "اسأل GPT-4o وClaude-3-Opus وGemini-1.5-Pro للحصول على إجابات سريعة.",
-    "home_page__hero_section__desc__variant3__item3": "صاغة وتحسين ومراجعة البريد الإلكتروني والمقالات والمشاركات والأوراق وغيرها.",
-    "home_page__hero_section__desc__variant3__item4": "مجاني للاستخدام.",
     "home_page__features_content_3__feature_summarization__label": "مساعد الملخص",
     "home_page__features_content_3__feature_summarization__title": "وفر الوقت في المقالات الطويلة ومقاطع الفيديو، واحصل على الأفكار الرئيسية فورًا",
     "home_page__features_content_3__feature_summarization__description": "لخص ملفات PDF ومقاطع فيديو YouTube وتقارير وصفحات الويب في ثوانٍ. احصل على إجابات فورية من خلال التحدث مع أوراق البحث ومقاطع الفيديو والمقالات. فهم المفاهيم المعقدة المشروحة بأسلوب بسيط.",
@@ -677,13 +673,12 @@
     "home_page__features_content_3__feature_browser_extension__description": "يعمل MaxAI عبر جميع التطبيقات والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو التبديل بين السياقات.",
     "home_page__how_it_works__title": "كيف يعمل",
     "home_page__how_it_works__step1__title": "أضف إلى المتصفح",
-    "home_page__how_it_works__step1__description__part1": "أضف امتداد MaxAI.me",
-    "home_page__how_it_works__step1__description__part2": "إلى متصفحك لتوفير الوقت في كل صفحة ويب باستخدام الذكاء الاصطناعي. مجاني وآمن بنسبة 100٪.",
     "home_page__how_it_works__step2__title": "تسجيل الدخول",
-    "home_page__how_it_works__step2__description__part1": "سجّل الدخول بسهولة",
-    "home_page__how_it_works__step2__description__part2": "باستخدام Google أو البريد الإلكتروني. بسيط ومجاني وآمن.",
     "home_page__how_it_works__step3__title": "زيادة الإنتاجية",
-    "home_page__how_it_works__step3__description": "لخص وابحث واكتب بسرعة 10 أضعاف مع الذكاء الاصطناعي. وفر ساعات كل يوم."
+    "home_page__how_it_works__step3__description": "لخص وابحث واكتب بسرعة 10 أضعاف مع الذكاء الاصطناعي. وفر ساعات كل يوم.",
+    "home_page__hero_section__desc__variant3": "تلخيص والدردشة مع المقالات على الويب وملفات PDF ومقاطع فيديو يوتيوب لتوفير الوقت. اسأل الذكاء الاصطناعي للحصول على إجابات سريعة. صاغة وتحسين ومراجعة رسائل البريد الإلكتروني والمقالات والمنشورات والأوراق وغيرها. مجاني للاستخدام.",
+    "home_page__how_it_works__step1__description": "أضف تمديد MaxAI.me إلى متصفحك لتوفير الوقت في كل صفحة ويب باستخدام الذكاء الاصطناعي. مجاني وودية للخصوصية بنسبة 100٪.",
+    "home_page__how_it_works__step2__description": "سجّل الدخول بسهولة باستخدام Google أو البريد الإلكتروني. إنه بسيط ومجاني وآمن."
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
