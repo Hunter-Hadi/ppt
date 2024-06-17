@@ -19,6 +19,7 @@ const PrivacyPages: FC = () => {
   const informationSecurityRef = useRef<HTMLHeadingElement>(null);
   const marketingAndAdvertisingRef = useRef<HTMLHeadingElement>(null);
   const changesToThePrivacyPolicyRef = useRef<HTMLHeadingElement>(null);
+  const DataRetentionRef = useRef<HTMLHeadingElement>(null);
   const contactUsRef = useRef<HTMLHeadingElement>(null);
 
   /**
@@ -33,6 +34,7 @@ const PrivacyPages: FC = () => {
       informationSecurityRef,
       marketingAndAdvertisingRef,
       changesToThePrivacyPolicyRef,
+      DataRetentionRef,
       contactUsRef,
     ].forEach((item, index) => {
       if (Math.abs(window.scrollY + 100 - item.current!.offsetTop) < 50) {
@@ -55,6 +57,7 @@ const PrivacyPages: FC = () => {
           informationSecurityRef,
           marketingAndAdvertisingRef,
           changesToThePrivacyPolicyRef,
+          DataRetentionRef,
           contactUsRef,
         ][index].current!.offsetTop - 100,
       behavior: 'smooth', // 使用平滑滚动
@@ -515,7 +518,7 @@ const PrivacyPages: FC = () => {
             <Box sx={{ pt: 4 }}>
               <Typography
                 variant='h4'
-                ref={changesToThePrivacyPolicyRef}
+                ref={DataRetentionRef}
                 sx={{ pb: 2, fontWeight: 700 }}
               >
                 Data retention
