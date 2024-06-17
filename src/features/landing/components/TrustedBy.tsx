@@ -2,7 +2,7 @@
 import 'swiper/css';
 import 'swiper/css/free-mode';
 
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { Box, Stack, Tooltip, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
@@ -131,7 +131,7 @@ const TrustedBy = () => {
               </Typography>
             }
           >
-            <HelpOutlineIcon
+            <InfoOutlinedIcon
               sx={{
                 ml: 0.5,
                 verticalAlign: 'middle',
