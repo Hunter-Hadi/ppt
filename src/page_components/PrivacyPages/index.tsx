@@ -292,6 +292,7 @@ const PrivacyPages: FC = () => {
               'Information Security',
               'Marketing and advertising',
               'Changes to the Privacy Policy',
+              'Data retention',
               'Contact Us',
             ].map((item, index) => (
               <Typography
@@ -450,10 +451,17 @@ const PrivacyPages: FC = () => {
               </Typography>
 
               <Typography variant='body2' sx={{ mb: 2 }}>
-                We take appropriate measures to protect the limited information
-                we collect from unauthorized access, disclosure, alteration, or
-                destruction. We follow industry-standard practices to ensure the
-                security of the data we manage
+                We take the security of your information seriously and implement
+                commercially reasonable technical, administrative, and
+                organizational measures to protect your data, both online and
+                offline from loss, misuse, and unauthorized access, disclosure,
+                alteration, or destruction. However, please note that no method
+                of transmission over the Internet or electronic storage is 100%
+                secure. While we strive to use commercially acceptable means to
+                protect your information, we cannot guarantee its absolute
+                security. Therefore, you should take special care in deciding
+                what information you share with us through the MaxAI Chrome
+                extension or email.
               </Typography>
             </Box>
 
@@ -498,12 +506,48 @@ const PrivacyPages: FC = () => {
                 Changes to the Privacy Policy
               </Typography>
               <Typography variant='body2' sx={{ mb: 2 }}>
-                {`We may update our Privacy Policy from time to time. Any changes
-                to this Privacy Policy will be posted on this page, and the
-                "Last Updated" date at the top will be revised accordingly.
-                Your continued use of the MaxAI Chrome extension after any
-                changes to the Privacy Policy constitutes your acceptance of the
-                updated policy.`}
+                We may update this Privacy Policy from time to time. When we do,
+                we will post an updated version on this page, unless another
+                type of notice is required by applicable law.
+              </Typography>
+            </Box>
+
+            <Box sx={{ pt: 4 }}>
+              <Typography
+                variant='h4'
+                ref={changesToThePrivacyPolicyRef}
+                sx={{ pb: 2, fontWeight: 700 }}
+              >
+                Data retention
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {`We will retain your personal information, including data
+                necessary for the functionality of the cross-device
+                synchronization, such as your settings and other information,
+                only for as long as necessary to provide the MaxAI Chrome
+                extension's services to you, or for other legitimate business
+                purposes such as resolving disputes, safety and security
+                reasons, or complying with our legal obligations.`}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                The length of time we retain your personal information will
+                depend on several factors, including:
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {`1) The amount, nature, and sensitivity of the information.`}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {`2) The potential risk of harm from unauthorized use or disclosure.`}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {`3) The purposes for which we process your information.`}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                {`4) Any legal requirements we may be subject to.`}
+              </Typography>
+              <Typography variant='body2' sx={{ mb: 2 }}>
+                If you choose to deactivate your account, we will delete your
+                data from our servers within a reasonable timeframe.
               </Typography>
             </Box>
 
