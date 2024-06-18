@@ -94,6 +94,7 @@ const WritingPages = () => {
               maxWidth: '835px',
             },
           }}
+          indicatorOnBottom
         />
 
         {/* trusted by */}

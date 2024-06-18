@@ -25,6 +25,10 @@ interface IProps {
 
   loading?: boolean;
   sx?: SxProps;
+
+  // 临时属性，用于测试
+  // 控制 indicator 是否在底部
+  indicatorOnBottom?: boolean;
 }
 
 const HeroSection: FC<IProps> = ({
@@ -35,6 +39,7 @@ const HeroSection: FC<IProps> = ({
   trackerLinkProps,
   loading,
   sx,
+  indicatorOnBottom,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
@@ -129,9 +134,6 @@ const HeroSection: FC<IProps> = ({
                   }
                   component='h1'
                   fontWeight={700}
-                  // maxWidth={
-                  //   featuresContentVariant === 'content3' ? 610 : 'unset'
-                  // }
                 >
                   {title}
                 </Typography>
@@ -155,7 +157,7 @@ const HeroSection: FC<IProps> = ({
               )}
               {/* margin spacing */}
               <Box height={32} />
-              {featuresContentVariant !== 'content3' ? (
+              {featuresContentVariant !== 'content3' && !indicatorOnBottom ? (
                 <>
                   <IndicatorContent
                     sx={{
@@ -291,7 +293,7 @@ const HeroSection: FC<IProps> = ({
                   </Typography>
                 </Stack>
               </Stack>
-              {featuresContentVariant === 'content3' ? (
+              {featuresContentVariant === 'content3' || indicatorOnBottom ? (
                 <IndicatorContent
                   sx={{
                     mt: 4,
