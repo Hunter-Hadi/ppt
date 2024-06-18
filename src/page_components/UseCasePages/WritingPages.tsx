@@ -1,7 +1,7 @@
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { useMemo } from 'react';
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
@@ -84,6 +84,34 @@ const RESEARCH_FEATURES_LIST = [
 
 const WritingPages = () => {
   const { t } = useTranslation();
+
+  const heroSectionTitle = useMemo(() => {
+    const title = t('use_cases_pages:writing__title')
+      .replace('.', '')
+      .replace('。', '');
+    if (title.includes(',')) {
+      const titleArray = title.split(',');
+      return (
+        <>
+          {titleArray[0]}
+          <br />
+          {titleArray[1]}
+        </>
+      );
+    } else if (title.includes('，')) {
+      const titleArray = title.split('，');
+      return (
+        <>
+          {titleArray[0]}
+          <br />
+          {titleArray[1]}
+        </>
+      );
+    } else {
+      return title;
+    }
+  }, [t]);
+
   return (
     <AppLoadingLayout loading={false} sx={{ minHeight: '90vh' }}>
       <AppDefaultSeoLayout
@@ -93,7 +121,7 @@ const WritingPages = () => {
       <Stack color='text.primary'>
         {/* heroSection */}
         <HeroSection
-          title={t('use_cases_pages:writing__title')}
+          title={heroSectionTitle}
           description={t('use_cases_pages:writing__description')}
           heroVideoProps={{
             videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
