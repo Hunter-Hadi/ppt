@@ -516,11 +516,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [
-    'industries__executives__label',
-    'industries__marketing__label',
-    'industries__technical__label',
-  ];
+  const keys = [];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }
