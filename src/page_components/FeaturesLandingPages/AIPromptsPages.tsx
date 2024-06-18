@@ -43,6 +43,7 @@ const AIPromptsPages: FC<IProps> = () => {
       <HeroSection
         heroVideoProps={{
           videoSrc: 'https://www.youtube.com/embed/CkFKtcZw5xY',
+          variant: 'embed',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

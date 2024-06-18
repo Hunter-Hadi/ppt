@@ -1457,11 +1457,38 @@
     "writing__features_browser__title": "עובד בכל מקום שאתה עובד",
     "writing__features_browser__description__part1": "MaxAI עובד בכל אפליקציות הרשת והאתרים שאתה משתמש בהם.",
     "writing__features_browser__description__part2": "אין להעתיק, אין להדביק, אין להחליף קשר.",
-    "writing__features_browser__description__part3": "קבל עזרה AI, בדיוק במקום שאתה צריך אותה."
+    "writing__features_browser__description__part3": "קבל עזרה AI, בדיוק במקום שאתה צריך אותה.",
+    "writing__features_content_generator__label": "מחולל תוכן",
+    "writing__features_content_generator__title": "תן לאינטיליגנציה המלאכותית לטפל בטיוטה הראשונה עבורך",
+    "writing__features_content_generator__description__part1": "חסוך זמן וקבל תוצאות טובות יותר עם ספריית העזרים שלנו.",
+    "writing__features_content_generator__description__part2": "הימנע מדפים ריקים ומחסומי כותב עם טיוטת AI.",
+    "writing__features_content_generator__description__part3": "צור מאמרים ופוסטים בלוגים בדמות אנושית ומותאמים למנועי SEO.",
+    "writing__features_content_generator__description__part4": "כתוב מאמרים משכנעים, פוסטים ברשתות החברתיות, עבודות מחקר ועוד."
   },
   "app_footer": {
     "industries__executives__label": "בעלי עסקים",
     "industries__marketing__label": "שיווק",
-    "industries__technical__label": "טכני"
+    "industries__technical__label": "טכני",
+    "resource__learning_center__label": "מרכז למידה",
+    "use_cases__title": "שימושים",
+    "use_cases__research__label": "מחקר",
+    "use_cases__writing__label": "כתיבה",
+    "industries__title": "תעשיות",
+    "industries__education__label": "חינוך",
+    "industries__consulting__label": "ייעוץ",
+    "industries__hr__label": "משאבי אנוש",
+    "industries__finance__label": "שירותים פיננסיים",
+    "industries__real_estate__label": "נדל״ן",
+    "features__title": "תכונות",
+    "features__ai_chat__label": "צ'אט AI",
+    "features__ai_rewriter__label": "מחדש AI",
+    "features__ai_summary__label": "סיכום AI",
+    "features__ai_instant_reply__label": "תשובה מיידית AI",
+    "features__ai_reading_assistant__label": "עוזר קריאה AI",
+    "features__ai_prompts__label": "עזרים AI",
+    "features__ai_search__label": "חיפוש AI",
+    "features__ai_art__label": "אמנות AI",
+    "features__ai_translator__label": "מתרגם AI",
+    "features__ai_vision__label": "ראייה AI"
   }
 }

@@ -43,6 +43,7 @@ const AIInstantReplyPages: FC<IProps> = () => {
           videoSrc: 'https://www.youtube.com/embed/fwaqJyTwefI',
           imageCover:
             '/assets/features-landing/ai-reply/ai-reply-video-cover.png',
+          variant: 'embed',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

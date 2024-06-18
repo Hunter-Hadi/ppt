@@ -28,6 +28,7 @@ const AISearchPages: FC<IProps> = () => {
       <HeroSection
         heroVideoProps={{
           videoSrc: 'https://www.youtube.com/embed/1uZuyqqySO0',
+          variant: 'embed',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

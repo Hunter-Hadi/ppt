@@ -28,6 +28,7 @@ const AIChatPages: FC<IProps> = () => {
       <HeroSection
         heroVideoProps={{
           videoSrc: 'https://www.youtube.com/embed/mAi1D9cbGos',
+          variant: 'embed',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,

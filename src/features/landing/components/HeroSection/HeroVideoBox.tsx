@@ -4,9 +4,8 @@ import Stack from '@mui/material/Stack';
 import React, { FC, useEffect, useMemo, useRef } from 'react';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
-import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
+import { PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants';
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
-import { RESOURCES_URL } from '@/global_constants';
 
 export interface IHeroVideoProps {
   disabledVideo?: boolean;
@@ -19,8 +18,8 @@ export interface IHeroVideoProps {
 
 const HeroVideoBox: FC<IHeroVideoProps> = ({
   disabledVideo: propDisabledVideo = false,
-  videoSrc = PRIMARY_YOUTUBE_VIDEO_EMBED_URL,
-  imageCover = `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+  videoSrc = PRIMARY_VIDEO_ASSETS_URL,
+  imageCover = '/assets/landing/hero-section/video-cover.png',
   variant = 'autoplay',
 }) => {
   const { openVideoPopup } = useVideoPopupController();
@@ -52,6 +51,10 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
       video.removeEventListener('ended', handleEnded);
     };
   }, []);
+
+  if (disabledVideo) {
+    return null;
+  }
 
   if (variant === 'autoplay' && videoSrc) {
     return (

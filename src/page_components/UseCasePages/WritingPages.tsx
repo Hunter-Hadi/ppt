@@ -31,6 +31,19 @@ const RESEARCH_FEATURES_LIST = [
     image: '/assets/landing/feature-carousel/rewriter.png',
   },
   {
+    key: 'Content generator',
+    icon: 'prompt',
+    label: 'use_cases_pages:writing__features_content_generator__label',
+    title: 'use_cases_pages:writing__features_content_generator__title',
+    descriptionList: [
+      'use_cases_pages:writing__features_content_generator__description__part1',
+      'use_cases_pages:writing__features_content_generator__description__part2',
+      'use_cases_pages:writing__features_content_generator__description__part3',
+      'use_cases_pages:writing__features_content_generator__description__part4',
+    ],
+    image: '/assets/features-landing/ai-prompts/1.png',
+  },
+  {
     key: 'Translation assistant',
     icon: 'translator',
     label: 'use_cases_pages:writing__features_translation__label',

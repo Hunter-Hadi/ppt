@@ -38,6 +38,7 @@ const AISummaryPages: FC<IProps> = () => {
           videoSrc: 'https://www.youtube.com/embed/72UM1jMaJhY',
           imageCover:
             '/assets/features-landing/ai-summary/ai-summary-video-cover.png',
+          variant: 'embed',
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,
