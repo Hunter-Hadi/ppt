@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "به ما بگویید چه علتی باعث حذف شدن شما شده است..."
   },
   "use_cases_pages": {
-    "research__title": "با تحقیقات هوش مصنوعی، مرورگر خود را 10 برابر سریع‌تر کنید",
+    "research__title": "با هوش مصنوعی، تحقیقات خود را در مرورگر 10 برابر سریعتر انجام دهید",
     "research__description": "خلاصه و گفتگو با مقالات و PDF ها و ویدیوهای YouTube برای صرفه جویی در زمان. سوالات خود را از هوش مصنوعی بپرسید تا پاسخ های سریعی برای تسریع در تحقیقات خود دریافت کنید.",
     "research__features_summary__label": "کمک خلاصه‌ساز",
     "research__features_summary__title": "صرفه جویی در زمان بر روی مقالات و ویدئوهای بلند",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI در تمام برنامه‌ها و سایت‌های وبی که استفاده می‌کنید کار می‌کند.",
     "research__features_browser__description__part2": "بدون کپی کردن، بدون چسباندن، بدون تغییر محیط.",
     "research__features_browser__description__part3": "در جایی که نیاز دارید، کمک هوش مصنوعی را دریافت کنید.",
-    "writing__title": "مرورگر خود را با AI بهبود دهید، نوشتن سریعتر، نوشتن بهتر",
+    "writing__title": "با هوش مصنوعی، مرورگر خود را بهینه کنید و سریعتر و بهتر بنویسید",
     "writing__description": "نوشته خود را در هر صفحه وب بهبود بخشید و اصلاح کنید. ایمیل های جذاب، مقالات، پست ها، مقالات و غیره را بنویسید.",
     "writing__features_writing__label": "کمک نوشتاری",
     "writing__features_writing__title": "با چند کلیک بهتر بنویسید - حرفه‌ای، روشن، قانع‌کننده",

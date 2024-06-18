@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Tuambie kilichosababisha uondoe..."
   },
   "use_cases_pages": {
-    "research__title": "Ongeza kasi ya kivinjari chako na Utafiti wa AI mara 10 zaidi",
+    "research__title": "Ongeza nguvu kwenye kivinjari chako na AI, Fanya utafiti mara 10 kwa haraka zaidi",
     "research__description": "Fanya muhtasari na chati na makala za wavuti, PDFs, na video za YouTube ili kuokoa muda. Uliza maswali ya AI kwa majibu haraka ili kuharakisha utafiti wako.",
     "research__features_summary__label": "Msaidizi wa muhtasari",
     "research__features_summary__title": "Okoa muda kwenye makala na video ndefu",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI inafanya kazi katika programu na tovuti zote za wavuti unazotumia.",
     "research__features_browser__description__part2": "Hakuna kunakili, hakuna kubandika, hakuna kubadilisha muktadha.",
     "research__features_browser__description__part3": "Pata msaada wa AI, mahali unapohitaji.",
-    "writing__title": "Ongeza nguvu kwenye kivinjari chako na AI Andika haraka, Andika haraka na vizuri",
+    "writing__title": "Ongeza nguvu kwenye kivinjari chako na AI, Andika haraka na vizuri",
     "writing__description": "Boresha na hakiki maandishi yako kwenye ukurasa wowote wa wavuti. Andika barua pepe zenye nguvu, makala, chapisho, karatasi, na zaidi.",
     "writing__features_writing__label": "Msaidizi wa kuandika",
     "writing__features_writing__title": "Andika vizuri kwa bonyeza chache - Kuwa mtaalamu, wazi, na wenye nguvu",

@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Räägi meile, mis põhjustas desinstallimise..."
   },
   "use_cases_pages": {
-    "research__title": "Tõsta oma brauser AI-uuringutega 10 korda kiiremaks",
+    "research__title": "Tõsta oma veebibrauser AI abil uuele tasemele, tee uurimistööd 10 korda kiiremini",
     "research__description": "Kokkuvõte ja vestlus veebilehtede, PDF-failide ja YouTube'i videote abil aja säästmiseks. Küsi AI-lt küsimusi kiirete vastuste saamiseks oma uurimistöö kiirendamiseks.",
     "research__features_summary__label": "Kokkuvõtte abiline",
     "research__features_summary__title": "Säästa aega pikal artiklitel ja videotel",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI töötab kõigis veebirakendustes ja saitidel, mida kasutate.",
     "research__features_browser__description__part2": "Kopeerimist, kleepimist ega konteksti vahetamist pole vaja.",
     "research__features_browser__description__part3": "Saatke AI abi otse sinna, kus seda vajate.",
-    "writing__title": "Tõsta oma brauseri võimekust AI abil - Kirjuta kiiremini, kirjuta paremini",
+    "writing__title": "Tõsta oma veebibrauser AI abil uuele tasemele, kirjuta kiiremini ja paremini",
     "writing__description": "Paranda ja toimeta oma kirjutisi igal veebilehel. Koosta veenvaid e-kirju, artikleid, postitusi, töid ja palju muud.",
     "writing__features_writing__label": "Kirjutamise abiline",
     "writing__features_writing__title": "Kirjutage paremini mõne klõpsuga - olge professionaalne, selge, veenev",

@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "アンインストールの原因を教えてください..."
   },
   "use_cases_pages": {
-    "research__title": "AI研究でブラウザをAIでスーパーチャージ",
+    "research__title": "AIでブラウザを強化し、10倍速く研究する",
     "research__description": "時間を節約するために、ウェブ記事、PDF、YouTubeビデオを要約してチャットしましょう。AIに質問をすると、研究をスピードアップするための迅速な回答が得られます。",
     "research__features_summary__label": "要約アシスタント",
     "research__features_summary__title": "長い記事や動画の時間を節約",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAIは使用しているすべてのWebアプリとサイトで動作します。",
     "research__features_browser__description__part2": "コピーも貼り付けもコンテキストの切り替えも不要です。",
     "research__features_browser__description__part3": "必要な場所でAIのヘルプを得ます。",
-    "writing__title": "AIでブラウザを強化しましょう。より速く、より良い文章を書きましょう。",
+    "writing__title": "AIでブラウザを強化し、より速く・より良い文章を書く",
     "writing__description": "どんなウェブページでも文章を改善し、校正しましょう。魅力的なメール、記事、投稿、論文などを起草しましょう。",
     "writing__features_writing__label": "執筆アシスタント",
     "writing__features_writing__title": "数回のクリックでより良く書く - プロフェッショナルで明確で説得力のある文章に",

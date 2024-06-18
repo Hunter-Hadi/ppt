@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Kaldırmanıza sebep olan nedir, bize anlatın..."
   },
   "use_cases_pages": {
-    "research__title": "Tarayıcınızı AI Araştırmasıyla 10 Kat Hızlandırın",
+    "research__title": "Tarayıcınızı yapay zeka ile güçlendirin, Araştırmaları 10 kat daha hızlı yapın",
     "research__description": "Zaman kazanmak için web makaleleri, PDF'ler ve YouTube videolarını özetleyin ve sohbet edin. Araştırmanızı hızlandırmak için AI'ye sorular sorun ve hızlı cevaplar alın.",
     "research__features_summary__label": "Özet asistanı",
     "research__features_summary__title": "Uzun makalelerde ve videolarda zaman kazanın",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI, kullandığınız tüm web uygulamaları ve sitelerde çalışır.",
     "research__features_browser__description__part2": "Kopyalama, yapıştırma veya bağlam değiştirme yok.",
     "research__features_browser__description__part3": "İhtiyacınız olan yere AI yardımı alın.",
-    "writing__title": "Tarayıcınızı AI ile güçlendirin, Daha hızlı yazın, Daha iyi yazın",
+    "writing__title": "Tarayıcınızı yapay zeka ile güçlendirin, Daha hızlı ve daha iyi yazın",
     "writing__description": "Herhangi bir web sayfasında yazınızı geliştirin ve düzeltin. E-postalar, makaleler, gönderiler, makaleler ve daha fazlasını taslak haline getirin.",
     "writing__features_writing__label": "Yazma asistanı",
     "writing__features_writing__title": "Birkaç tıklamayla daha iyi yazın - Profesyonel, açıklayıcı, ikna edici olun",

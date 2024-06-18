@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "আনইনস্টল করার কারণগুলি আমাদের জানান..."
   },
   "use_cases_pages": {
-    "research__title": "আই রিসার্চ এবং সারাংশ সহায়ক | MaxAI.me",
+    "research__title": "আই এমনি দিয়ে আপনার ব্রাউজারকে সুপারচার্জ করুন, গবেষণা 10 গুণ দ্রুত",
     "research__description": "সময় বাঁচাতে ওয়েব নিবন্ধ, পিডিএফ এবং YouTube ভিডিও সংক্ষেপ করুন এবং চ্যাট করুন। গবেষণা দ্রুত করার জন্য AI প্রশ্ন করুন যাতে আপনি দ্রুত উত্তর পান।",
     "research__features_summary__label": "সারাংশ সহায়ক",
     "research__features_summary__title": "দীর্ঘ নিবন্ধ এবং ভিডিওগুলি থেকে সময় বাঁচান",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI আপনি ব্যবহার করেন সমস্ত ওয়েব অ্যাপ এবং সাইটে কাজ করে।",
     "research__features_browser__description__part2": "কপি করতে হবে না, পেস্ট করতে হবে না, কনটেক্সট সুইচ করতে হবে না।",
     "research__features_browser__description__part3": "আপনি যেখানে প্রয়োজন তার সাথে আই সহায়তা পান।",
-    "writing__title": "আই এই দিয়ে আপনার ব্রাউজার সুপারচার্জ করুন, লিখুন দ্রুত, লিখুন দ্রুত এবং ভালোবাসুন",
+    "writing__title": "আই এমনি দিয়ে আপনার ব্রাউজারকে সুপারচার্জ করুন, আরও দ্রুত এবং ভালো লেখা করুন",
     "writing__description": "যেকোনো ওয়েব পৃষ্ঠায় আপনার লেখার মান উন্নত করুন এবং প্রুফরিড করুন। আকর্ষণীয় ইমেল, নিবন্ধ, পোস্ট, পেপার এবং আরও খড়ি লেখা করুন।",
     "writing__features_writing__label": "লেখা সহায়ক",
     "writing__features_writing__title": "কিছু ক্লিকে ভাল লেখা - পেশাদার, স্পষ্ট, প্রবর্তনশীল",

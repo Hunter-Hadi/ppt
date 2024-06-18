@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "أخبرنا ما الذي تسبب في إلغاء التثبيت..."
   },
   "use_cases_pages": {
-    "research__title": "قم بتعزيز متصفحك بالذكاء الاصطناعي للبحث بسرعة 10 أضعاف",
+    "research__title": "قم بتعزيز متصفحك بالذكاء الاصطناعي للبحث بسرعة 10 مرات",
     "research__description": "تلخيص والدردشة مع المقالات على الويب وملفات PDF ومقاطع فيديو يوتيوب لتوفير الوقت. اسأل الذكاء الاصطناعي أسئلة للحصول على إجابات سريعة لتسريع بحثك.",
     "research__features_summary__label": "مساعد التلخيص",
     "research__features_summary__title": "وفر الوقت في المقالات ومقاطع الفيديو الطويلة",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "يعمل MaxAI عبر جميع تطبيقات الويب والمواقع التي تستخدمها.",
     "research__features_browser__description__part2": "لا حاجة للنسخ أو اللصق أو التبديل بين السياقات.",
     "research__features_browser__description__part3": "احصل على مساعدة الذكاء الاصطناعي ، في المكان الذي تحتاجه.",
-    "writing__title": "قم بتعزيز متصفحك بالذكاء الاصطناعي. اكتب بشكل أسرع وأفضل",
+    "writing__title": "قم بتعزيز متصفحك بالذكاء الاصطناعي، اكتب بشكل أسرع وأفضل",
     "writing__description": "قم بتحسين ومراجعة كتاباتك على أي صفحة ويب. قم بصياغة رسائل البريد الإلكتروني المقنعة والمقالات والمنشورات والأوراق وغيرها.",
     "writing__features_writing__label": "مساعد الكتابة",
     "writing__features_writing__title": "اكتب بشكل أفضل ببضع نقرات - كن محترفًا وواضحًا ومقنعًا",

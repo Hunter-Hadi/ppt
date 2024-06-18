@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "제거한 이유를 알려주세요..."
   },
   "use_cases_pages": {
-    "research__title": "AI 연구를 통해 브라우저 성능을 10배 높이세요",
+    "research__title": "AI로 브라우저를 강화하여 10배 더 빠른 연구",
     "research__description": "시간을 절약하기 위해 웹 기사, PDF 및 YouTube 동영상을 요약하고 대화하세요. 빠른 답변을 위해 AI에게 질문을 하여 연구 속도를 높이세요.",
     "research__features_summary__label": "요약 보조",
     "research__features_summary__title": "긴 기사와 동영상에서 시간을 절약하세요",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI는 사용하는 모든 웹 앱과 사이트에서 작동합니다.",
     "research__features_browser__description__part2": "복사, 붙여넣기, 문맥 전환 없이 작동합니다.",
     "research__features_browser__description__part3": "필요한 곳에서 AI 도움을 받으세요.",
-    "writing__title": "AI와 함께 브라우저를 고속화하여 글을 더 빠르고 더 잘 쓰세요",
+    "writing__title": "AI로 브라우저를 강화하여 더 빠르고 더 나은 글쓰기",
     "writing__description": "어떤 웹 페이지에서든 글쓰기를 개선하고 교정하세요. 흥미로운 이메일, 기사, 게시물, 논문 등을 초안 작성하세요.",
     "writing__features_writing__label": "쓰기 보조",
     "writing__features_writing__title": "몇 번의 클릭으로 더 나은 글쓰기 - 전문적이고 명확하며 설득력 있게",

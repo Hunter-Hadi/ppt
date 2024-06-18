@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "काढण्याचे कारण आम्हाला सांगा..."
   },
   "use_cases_pages": {
-    "research__title": "आपल्या ब्राउझरला AI संशोधनांनी 10 वेळा जलद करा",
+    "research__title": "एआयवर आपल्या ब्राउझरला सुपरचार्ज करा, शोधाची गती 10 वेळा वाढवा",
     "research__description": "वेळ बचवण्यासाठी वेब लेख, पीडीएफ आणि YouTube व्हिडिओंसह संक्षेपित करा आणि चॅट करा. शोधाच्या गतीने जलद उत्तरांसाठी AI प्रश्न विचारा.",
     "research__features_summary__label": "संक्षेप सहाय्यक",
     "research__features_summary__title": "लांबी लेखांच्या आणि व्हिडिओंच्या वेळा वाचवा",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI तुमच्या वापरलेल्या सर्व वेब अॅप्स आणि साइटंवर कार्य करतो.",
     "research__features_browser__description__part2": "कॉपी करणे, पेस्ट करणे, संदर्भ परिवर्तन करणे नाही.",
     "research__features_browser__description__part3": "तुम्हाला आवश्यक असलेल्या ठिकाणी AI मदत मिळवा.",
-    "writing__title": "AI सह आपल्या ब्राउझरला वेगवेगळ्या लेखनाची शक्ती द्या, वेगवेगळ्या लेखनाची शक्ती द्या आणि चांगल्या प्रमाणात लिहा",
+    "writing__title": "एआयवर आपल्या ब्राउझरला सुपरचार्ज करा, लिहा त्वरित आणि चांगले",
     "writing__description": "कोणत्याही वेब पृष्ठावर आपले लेखन सुधारा आणि प्रूफरीड करा. प्रभावी ईमेल, लेख, पोस्ट, कागदपत्रे आणि अधिक तयार करा.",
     "writing__features_writing__label": "लेखन सहाय्यक",
     "writing__features_writing__title": "कितीतरी क्लिकसह चांगले लिहा - पेशेवर, स्पष्ट, प्रभावी",

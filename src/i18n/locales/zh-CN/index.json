@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "告诉我们导致您卸载的原因..."
   },
   "use_cases_pages": {
-    "research__title": "AI研究助手，让您的浏览器更快10倍",
+    "research__title": "用AI提升您的浏览器，进行10倍速的研究",
     "research__description": "总结和与网页文章、PDF和YouTube视频交流，节省时间。向AI提问以快速获得答案，加快研究速度。",
     "research__features_summary__label": "摘要助手",
     "research__features_summary__title": "在长篇文章和视频上节省时间",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI适用于您使用的所有Web应用程序和网站。",
     "research__features_browser__description__part2": "无需复制、粘贴或切换上下文。",
     "research__features_browser__description__part3": "在您需要的地方获得AI帮助。",
-    "writing__title": "使用AI加速您的浏览器，写得更快，写得更好",
+    "writing__title": "用AI提升您的浏览器，更快、更好地写作",
     "writing__description": "在任何网页上改进和校对您的写作。起草引人注目的电子邮件、文章、帖子、论文等。",
     "writing__features_writing__label": "写作助手",
     "writing__features_writing__title": "几次点击即可写得更好 - 专业、清晰、有说服力",

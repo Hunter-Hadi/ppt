@@ -1407,7 +1407,7 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "हमें बताएं कि आपने अनइंस्टॉल करने का कारण क्या था..."
   },
   "use_cases_pages": {
-    "research__title": "एआई अनुसंधान के साथ अपने ब्राउज़र को 10 गुना तेज़ करें",
+    "research__title": "एआई के साथ अपने ब्राउज़र को सुपरचार्ज करें, शोध को 10 गुना तेज़ करें",
     "research__description": "समय बचाने के लिए वेब आलेखों, पीडीएफ और YouTube वीडियो को संक्षेप में सारांशित करें और चैट करें। त्वरित उत्तर के लिए AI सवाल पूछें और अपने शोध को तेज़ करें।",
     "research__features_summary__label": "सारांश सहायक",
     "research__features_summary__title": "लंबे आलेखों और वीडियों पर समय बचाएं",
@@ -1435,7 +1435,7 @@
     "research__features_browser__description__part1": "MaxAI आपके उपयोग किए जाने वाले सभी वेब ऐप्स और साइटों पर काम करता है।",
     "research__features_browser__description__part2": "कोई कॉपी करने, कोई पेस्ट करने, कोई संदर्भ परिवर्तन नहीं।",
     "research__features_browser__description__part3": "जहां आपको आवश्यकता हो, वहीं एआई सहायता प्राप्त करें।",
-    "writing__title": "अपने ब्राउज़र को AI के साथ तेज़ करें, तेज़ से लिखें और बेहतर लिखें",
+    "writing__title": "एआई के साथ अपने ब्राउज़र को सुपरचार्ज करें, तेज़ी से और बेहतर लिखें",
     "writing__description": "किसी भी वेब पेज पर अपनी लेखन को सुधारें और प्रूफरीड करें। आकर्षक ईमेल, आलेख, पोस्ट, पेपर और बहुत कुछ ड्राफ्ट करें।",
     "writing__features_writing__label": "लेखन सहायक",
     "writing__features_writing__title": "कुछ क्लिक में बेहतर लिखें - पेशेवर, स्पष्ट, प्रभावशाली",
