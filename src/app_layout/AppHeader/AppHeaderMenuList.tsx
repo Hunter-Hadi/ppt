@@ -8,22 +8,22 @@ import useAppHeaderState from '@/hooks/useAppHeaderState';
 import AppHeaderMenuItem from './AppHeaderMenuItem';
 
 const APP_HEADER_MENU_LIST = [
-  {
-    key: 'Industries',
-    label: 'Industries',
-  },
-  {
-    key: 'Features',
-    label: 'Features',
-  },
+  // {
+  //   key: 'Industries',
+  //   label: 'Industries',
+  // },
+  // {
+  //   key: 'Features',
+  //   label: 'Features',
+  // },
   {
     key: 'Pricing',
     label: 'Pricing',
   },
-  {
-    key: 'Learning-center',
-    label: 'Learning-center',
-  },
+  // {
+  //   key: 'Learning-center',
+  //   label: 'Learning-center',
+  // },
   {
     key: 'Language',
     label: 'language',

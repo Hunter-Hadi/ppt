@@ -271,5 +271,10 @@
   },
   "features_landing": {
     "cta_text__add_to_browser_for_free": "Προσθέστε στο {{BROWSER}} - Δωρεάν"
+  },
+  "app_footer": {
+    "industries__executives__label": "Ιδιοκτήτες Επιχειρήσεων",
+    "industries__marketing__label": "Μάρκετινγκ",
+    "industries__technical__label": "Τεχνικό"
   }
 }

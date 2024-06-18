@@ -24,6 +24,7 @@ interface IProps {
   trackerLinkProps?: IUseShareTrackerLinkProps;
 
   loading?: boolean;
+  sx?: SxProps;
 }
 
 const HeroSection: FC<IProps> = ({
@@ -33,6 +34,7 @@ const HeroSection: FC<IProps> = ({
   heroVideoProps,
   trackerLinkProps,
   loading,
+  sx,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
@@ -79,6 +81,8 @@ const HeroSection: FC<IProps> = ({
         backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
         backgroundSize: 'cover',
         backgroundPositionY: '-40px',
+
+        ...sx,
       }}
     >
       <Box maxWidth={1040} mx='auto'>
@@ -89,6 +93,7 @@ const HeroSection: FC<IProps> = ({
                 xs: 0,
                 sm: 2,
               }}
+              className='content-wrapper'
               sx={[
                 {
                   p: {
@@ -108,6 +113,7 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='custom'
+                  className='title'
                   fontSize={
                     featuresContentVariant === 'content3'
                       ? {
@@ -137,6 +143,7 @@ const HeroSection: FC<IProps> = ({
               ) : (
                 <Typography
                   variant='body2'
+                  className='description'
                   fontSize={{
                     xs: 16,
                     sm: 18,

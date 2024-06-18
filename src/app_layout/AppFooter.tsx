@@ -170,6 +170,12 @@ const AppFooter = () => {
                       target: '_self',
                       link: '/pdf-tools',
                     },
+                    {
+                      label: t('app_footer:resource__learning_center__label'),
+                      icon: null,
+                      target: '_self',
+                      link: '/learning-center/',
+                    },
                   ]}
                 />
               </Grid>
@@ -216,6 +222,132 @@ const AppFooter = () => {
                       // icon: <MailOutlineIcon />,
                       icon: null,
                       link: '/contact-us',
+                    },
+                  ]}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                sm={6}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+              >
+                <FooterList
+                  title={t('app_footer:use_cases__title')}
+                  data={[
+                    {
+                      label: t('app_footer:use_cases__research__label'),
+                      icon: null,
+                      link: `/use-cases/research`,
+                    },
+                    {
+                      label: t('app_footer:use_cases__writing__label'),
+                      icon: null,
+                      link: `/use-cases/writing`,
+                    },
+                  ]}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                sm={6}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+              >
+                <FooterList
+                  title={t('app_footer:features__title')}
+                  data={[
+                    {
+                      label: t('app_footer:features__ai_chat__label'),
+                      link: '/features/ai-chat',
+                    },
+                    {
+                      label: t('app_footer:features__ai_summary__label'),
+                      link: '/features/ai-summary',
+                    },
+                    {
+                      label: t('app_footer:features__ai_search__label'),
+                      link: '/features/ai-search',
+                    },
+                    {
+                      label: t('app_footer:features__ai_rewriter__label'),
+                      link: '/features/ai-rewriter',
+                    },
+                    {
+                      label: t(
+                        'app_footer:features__ai_reading_assistant__label',
+                      ),
+                      link: '/features/ai-reader',
+                    },
+                    {
+                      label: t('app_footer:features__ai_translator__label'),
+                      link: '/features/ai-translator',
+                    },
+                    {
+                      label: t('app_footer:features__ai_instant_reply__label'),
+                      link: '/features/ai-instant-reply',
+                    },
+                    {
+                      label: t('app_footer:features__ai_prompts__label'),
+                      link: '/features/ai-prompts',
+                    },
+                    {
+                      label: t('app_footer:features__ai_vision__label'),
+                      link: '/features/ai-vision',
+                    },
+                    {
+                      label: t('app_footer:features__ai_art__label'),
+                      link: '/features/ai-art',
+                    },
+                  ]}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                sm={6}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+              >
+                <FooterList
+                  title={t('app_footer:industries__title')}
+                  data={[
+                    {
+                      label: t('app_footer:industries__executives__label'),
+                      link: `/industries/executives`,
+                    },
+                    {
+                      label: t('app_footer:industries__marketing__label'),
+                      link: `/industries/marketing`,
+                    },
+                    {
+                      label: t('app_footer:industries__education__label'),
+                      link: `/industries/education`,
+                    },
+                    {
+                      label: t('app_footer:industries__consulting__label'),
+                      link: `/industries/consulting`,
+                    },
+                    {
+                      label: t('app_footer:industries__hr__label'),
+                      link: `/industries/hr`,
+                    },
+                    {
+                      label: t('app_footer:industries__finance__label'),
+                      link: `/industries/finance`,
+                    },
+                    {
+                      label: t('app_footer:industries__real_estate__label'),
+                      link: `/industries/real-estate`,
+                    },
+                    {
+                      label: t('app_footer:industries__technical__label'),
+                      link: `/industries/tech`,
                     },
                   ]}
                 />

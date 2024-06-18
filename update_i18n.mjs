@@ -297,6 +297,12 @@ const updateI18nJson = async (
     if (lodash.get(sourceJson, `features_landing.${key}`)) {
       return `features_landing.${key}`;
     }
+    if (lodash.get(sourceJson, `use_cases_pages.${key}`)) {
+      return `use_cases_pages.${key}`;
+    }
+    if (lodash.get(sourceJson, `app_footer.${key}`)) {
+      return `app_footer.${key}`;
+    }
     return key;
   });
   let needUpdateLanguages = i18nDirs;
@@ -510,7 +516,11 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [];
+  const keys = [
+    'industries__executives__label',
+    'industries__marketing__label',
+    'industries__technical__label',
+  ];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }
