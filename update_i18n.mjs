@@ -516,7 +516,7 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = ['writing__title', 'research__title'];
+  const keys = ['home_page__how_it_works__step3__description'];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }
