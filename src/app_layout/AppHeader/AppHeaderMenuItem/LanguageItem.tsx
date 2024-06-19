@@ -29,7 +29,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
         sx={{
           color: 'text.primary',
           fontSize: 16,
-          lineHeight: 1.6,
+          lineHeight: 1.5,
           fontWeight: 500,
         }}
       >

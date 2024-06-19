@@ -1,14 +1,11 @@
-import { Button, buttonClasses } from '@mui/material';
-import { useTranslation } from 'next-i18next';
+import { buttonClasses } from '@mui/material';
 import { useMemo } from 'react';
 
-import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
-import { APP_PROJECT_LINK } from '@/global_constants';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 const AppHeaderCTABtn = () => {
-  const { hasExtension, loaded } = useCheckExtension();
-  const { t } = useTranslation();
+  // const { hasExtension, loaded } = useCheckExtension();
+  // const { t } = useTranslation();
 
   const cacheSx = useMemo(() => {
     return {
@@ -29,30 +26,30 @@ const AppHeaderCTABtn = () => {
     };
   }, []);
 
-  if (!hasExtension) {
-    return (
-      <CTAInstallButton
-        sx={cacheSx}
-        trackerLinkProps={{
-          queryRefEnable: false,
-          pathnameRefEnable: true,
-          pathnameRefPrefix: 'topbar',
-        }}
-        variant={'contained'}
-        adaptiveLabel
-      />
-    );
-  }
-
+  // if (!hasExtension) {
   return (
-    <Button
-      variant='contained'
-      sx={{ ...cacheSx, px: 3 }}
-      href={APP_PROJECT_LINK}
-    >
-      {t('common:sign_in')}
-    </Button>
+    <CTAInstallButton
+      sx={cacheSx}
+      trackerLinkProps={{
+        queryRefEnable: false,
+        pathnameRefEnable: true,
+        pathnameRefPrefix: 'topbar',
+      }}
+      variant={'contained'}
+      adaptiveLabel
+    />
   );
+  // }
+
+  // return (
+  //   <Button
+  //     variant='contained'
+  //     sx={{ ...cacheSx, px: 3 }}
+  //     href={APP_PROJECT_LINK}
+  //   >
+  //     {t('common:sign_in')}
+  //   </Button>
+  // );
 };
 
 export default AppHeaderCTABtn;

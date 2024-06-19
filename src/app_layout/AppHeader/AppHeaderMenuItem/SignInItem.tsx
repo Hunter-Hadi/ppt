@@ -6,18 +6,19 @@ import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
+import { APP_PROJECT_LINK } from '@/global_constants';
 import { isInIframe } from '@/utils/utils';
 
 interface IProps {
   isSmallScreen?: boolean;
 }
 
-const PricingItem: FC<IProps> = ({ isSmallScreen = false }) => {
+const SignInItem: FC<IProps> = ({ isSmallScreen = false }) => {
   const { t } = useTranslation();
 
   const textRender = () => (
     <ProLink
-      href='/pricing'
+      href={APP_PROJECT_LINK}
       hardRefresh
       color='inherit'
       underline='hover'
@@ -37,7 +38,7 @@ const PricingItem: FC<IProps> = ({ isSmallScreen = false }) => {
         lineHeight={1.5}
         fontWeight={500}
       >
-        {t('modules:header__menu__pricing')}
+        {t('common:sign_in')}
       </Typography>
     </ProLink>
   );
@@ -57,4 +58,4 @@ const PricingItem: FC<IProps> = ({ isSmallScreen = false }) => {
   return <Stack px={2}>{textRender()}</Stack>;
 };
 
-export default PricingItem;
+export default SignInItem;

@@ -28,6 +28,10 @@ const APP_HEADER_MENU_LIST = [
     key: 'Language',
     label: 'language',
   },
+  {
+    key: 'Sign in',
+    label: 'Sign in',
+  },
 ];
 
 interface IProps {

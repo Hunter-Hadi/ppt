@@ -5,6 +5,7 @@ import IndustriesItem from './IndustriesItem';
 import LanguageItem from './LanguageItem';
 import LearningCenterItem from './LearningCenterItem';
 import PricingItem from './PricingItem';
+import SignInItem from './SignInItem';
 
 interface IProps {
   menuKey: string;
@@ -30,6 +31,10 @@ const AppHeaderMenuItem: FC<IProps> = ({ menuKey, isSmallScreen }) => {
 
   if (menuKey === 'Language') {
     return <LanguageItem isSmallScreen={isSmallScreen} />;
+  }
+
+  if (menuKey === 'Sign in') {
+    return <SignInItem isSmallScreen={isSmallScreen} />;
   }
 
   return null;
