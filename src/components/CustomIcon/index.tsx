@@ -1,4 +1,5 @@
 import { Skeleton, SvgIconProps, SxProps } from '@mui/material';
+import { isNumber } from 'lodash-es';
 import React, { FC, lazy, Suspense, useMemo } from 'react';
 //！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
 export type ICustomIconType =
@@ -100,8 +101,17 @@ const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
   }, [sx, fontSize]);
 
   const fontSizeCache = useMemo(() => {
+    const sxFontSize = sxCache?.fontSize;
+
+    if (typeof sxFontSize === 'string') {
+      const newFontSize = parseInt(sxFontSize.match(/\d+/)?.[0] ?? '', 10);
+      if (isNumber(newFontSize)) {
+        return newFontSize;
+      }
+    }
     return (sxCache?.fontSize as number) || 24;
   }, [sxCache]);
+
   if (IconComponent) {
     return (
       <Suspense
