@@ -1,7 +1,7 @@
 import { Skeleton, SvgIconProps, SxProps } from '@mui/material';
 import { isNumber } from 'lodash-es';
 import React, { FC, lazy, Suspense, useMemo } from 'react';
-//！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
+//！！！该组件由update_icons.js生成，请勿在此修改代码，将会无效改动！！！
 export type ICustomIconType =
   | 'AIPowerSearch'
   | 'BardLogo'
@@ -90,7 +90,7 @@ interface IconType {
   sx?: SxProps; // 假设 sx 是可选的对象
   fontSize?: number | string;
 }
-//！！！该组件由updata_icons.js生成，请勿在此修改代码，将会无效改动！！！
+//！！！该组件由update_icons.js生成，请勿在此修改代码，将会无效改动！！！
 const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
   const IconComponent = iconsMap[icon];
   const sxCache = useMemo(() => {
