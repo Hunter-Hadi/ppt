@@ -34,9 +34,9 @@ const PartnersUpdatedPage = () => {
       return '';
     }
     if (Array.isArray(name)) {
-      return name[0].split('-').join(' ');
+      return name[0];
     } else {
-      return name.split('-').join(' ');
+      return name;
     }
   }, [name]);
 
