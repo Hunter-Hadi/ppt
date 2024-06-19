@@ -71,7 +71,7 @@ const PartnersUnInstallPage = () => {
             wordBreak: 'break-word',
           }}
         >
-          🎉 {partnersName} has been uninstalled
+          ✅ {partnersName} has been uninstalled
         </Typography>
         {changelogText && changelogLink ? (
           <Typography
