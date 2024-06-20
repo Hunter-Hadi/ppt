@@ -1,11 +1,17 @@
-import { buttonClasses } from '@mui/material';
-import { useMemo } from 'react';
+import { buttonClasses, Stack, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
+import { FC, useMemo } from 'react';
 
+import MenuLinkItem from '@/app_layout/AppHeader/AppHeaderMenuItem/components/MenuLinkItem';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
-const AppHeaderCTABtn = () => {
+interface IProps {
+  isSmallScreen?: boolean;
+}
+
+const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   // const { hasExtension, loaded } = useCheckExtension();
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   const cacheSx = useMemo(() => {
     return {
@@ -28,16 +34,32 @@ const AppHeaderCTABtn = () => {
 
   // if (!hasExtension) {
   return (
-    <CTAInstallButton
-      sx={cacheSx}
-      trackerLinkProps={{
-        queryRefEnable: false,
-        pathnameRefEnable: true,
-        pathnameRefPrefix: 'topbar',
-      }}
-      variant={'contained'}
-      adaptiveLabel
-    />
+    <Stack direction={'row'} spacing={1.5} alignItems='center'>
+      {!isSmallScreen && (
+        <MenuLinkItem link='/pricing' isSmallScreen={isSmallScreen}>
+          <Typography
+            variant='custom'
+            fontSize={16}
+            lineHeight={1.5}
+            fontWeight={500}
+            color='text.primary'
+          >
+            {t('common:sign_in')}
+          </Typography>
+        </MenuLinkItem>
+      )}
+
+      <CTAInstallButton
+        sx={cacheSx}
+        trackerLinkProps={{
+          queryRefEnable: false,
+          pathnameRefEnable: true,
+          pathnameRefPrefix: 'topbar',
+        }}
+        variant={'contained'}
+        adaptiveLabel
+      />
+    </Stack>
   );
   // }
 

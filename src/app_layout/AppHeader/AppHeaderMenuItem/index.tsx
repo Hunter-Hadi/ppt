@@ -1,11 +1,9 @@
 import React, { FC } from 'react';
 
-import FeaturesItem from './FeaturesItem';
-import IndustriesItem from './IndustriesItem';
 import LanguageItem from './LanguageItem';
-import LearningCenterItem from './LearningCenterItem';
 import PricingItem from './PricingItem';
-import SignInItem from './SignInItem';
+import ProductsItem from './ProductsItem';
+import ResourcesItem from './ResourcesItem';
 
 interface IProps {
   menuKey: string;
@@ -13,28 +11,20 @@ interface IProps {
 }
 
 const AppHeaderMenuItem: FC<IProps> = ({ menuKey, isSmallScreen }) => {
-  if (menuKey === 'Industries') {
-    return <IndustriesItem isSmallScreen={isSmallScreen} />;
-  }
-
-  if (menuKey === 'Features') {
-    return <FeaturesItem isSmallScreen={isSmallScreen} />;
+  if (menuKey === 'Resources') {
+    return <ResourcesItem isSmallScreen={isSmallScreen} />;
   }
 
   if (menuKey === 'Pricing') {
     return <PricingItem isSmallScreen={isSmallScreen} />;
   }
 
-  if (menuKey === 'Learning-center') {
-    return <LearningCenterItem isSmallScreen={isSmallScreen} />;
-  }
-
   if (menuKey === 'Language') {
     return <LanguageItem isSmallScreen={isSmallScreen} />;
   }
 
-  if (menuKey === 'Sign in') {
-    return <SignInItem isSmallScreen={isSmallScreen} />;
+  if (menuKey === 'Products') {
+    return <ProductsItem isSmallScreen={isSmallScreen} />;
   }
 
   return null;

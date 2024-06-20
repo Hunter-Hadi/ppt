@@ -30,9 +30,9 @@ export const useLanguages = () => {
       delete cloneQuery.redirect;
     }
 
-    // 如果当前页面有 locale 参数，拼接到 href 前面，并且删除 locale 参数
+    // // 如果当前页面有 locale 参数，拼接到 href 前面，并且删除 locale 参数
     if (cloneQuery.locale) {
-      href = `/${cloneQuery.locale}/languages`;
+      // href = `/${cloneQuery.locale}/languages`;
       delete cloneQuery.locale;
     }
 

@@ -1,12 +1,8 @@
-import { Theme } from '@mui/material';
-import MenuItem from '@mui/material/MenuItem';
-import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
-import ProLink from '@/components/ProLink';
-import { isInIframe } from '@/utils/utils';
+import MenuLinkItem from './components/MenuLinkItem';
 
 interface IProps {
   isSmallScreen?: boolean;
@@ -15,46 +11,19 @@ interface IProps {
 const PricingItem: FC<IProps> = ({ isSmallScreen = false }) => {
   const { t } = useTranslation();
 
-  const textRender = () => (
-    <ProLink
-      href='/pricing'
-      hardRefresh
-      color='inherit'
-      underline='hover'
-      target={isInIframe() ? '_blank' : '_self'}
-      sx={{
-        width: '100%',
-        py: isSmallScreen ? 1 : 0,
-        px: isSmallScreen ? 2 : 0,
-        '&:hover': {
-          textDecorationColor: (t) => (t as Theme).palette.primary.main,
-        },
-      }}
-    >
+  return (
+    <MenuLinkItem link='/pricing' isSmallScreen={isSmallScreen}>
       <Typography
         variant='custom'
         fontSize={16}
         lineHeight={1.5}
         fontWeight={500}
+        color='text.primary'
       >
         {t('modules:header__menu__pricing')}
       </Typography>
-    </ProLink>
+    </MenuLinkItem>
   );
-
-  if (isSmallScreen) {
-    return (
-      <MenuItem
-        sx={{
-          p: 0,
-        }}
-      >
-        {textRender()}
-      </MenuItem>
-    );
-  }
-
-  return <Stack px={2}>{textRender()}</Stack>;
 };
 
 export default PricingItem;

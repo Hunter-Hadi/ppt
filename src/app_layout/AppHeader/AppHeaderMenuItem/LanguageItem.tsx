@@ -1,9 +1,11 @@
+import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import { MenuItem, Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 import React, { FC } from 'react';
 
-import ProLink from '@/components/ProLink';
 import { useLanguages } from '@/i18n/hooks/useLanguages';
+
+import MenuLinkItem from './components/MenuLinkItem';
 
 interface IProps {
   isSmallScreen?: boolean;
@@ -12,21 +14,16 @@ interface IProps {
 const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
   const { languageLabel, routerToLanguagesPagesLink } = useLanguages();
 
-  const textRender = () => (
-    <ProLink
-      href={routerToLanguagesPagesLink}
-      underline='hover'
-      adaptiveLocale={false}
-      sx={{
-        width: '100%',
-        py: isSmallScreen ? 1 : 0,
-        px: isSmallScreen ? 2 : 0,
-      }}
+  return (
+    <MenuLinkItem
+      link={routerToLanguagesPagesLink}
+      isSmallScreen={isSmallScreen}
     >
       <Stack
         direction='row'
         alignItems='center'
         sx={{
+          width: '100%',
           color: 'text.primary',
           fontSize: 16,
           lineHeight: 1.5,
@@ -36,27 +33,26 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
         <LanguageOutlinedIcon
           sx={{
             fontSize: 20,
-            mr: 0.4,
           }}
         />
-        {languageLabel}
+
+        <Typography variant='custom' fontSize={'inherit'} ml={0.4}>
+          {languageLabel}
+        </Typography>
+
+        <ChevronRightOutlinedIcon
+          sx={{
+            fontSize: 24,
+            // width: 24,
+            // height: 24,
+            // // rotate: expanded === 'panel1' ? '90deg' : 0,
+            ml: isSmallScreen ? 'auto' : 0.5,
+            transition: 'all 0.3s ease',
+          }}
+        />
       </Stack>
-    </ProLink>
+    </MenuLinkItem>
   );
-
-  if (isSmallScreen) {
-    return (
-      <MenuItem
-        sx={{
-          p: 0,
-        }}
-      >
-        {textRender()}
-      </MenuItem>
-    );
-  }
-
-  return <Stack px={0}>{textRender()}</Stack>;
 };
 
 export default LanguageItem;

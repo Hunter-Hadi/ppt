@@ -7,32 +7,7 @@ import useAppHeaderState from '@/hooks/useAppHeaderState';
 
 import AppHeaderMenuItem from './AppHeaderMenuItem';
 
-const APP_HEADER_MENU_LIST = [
-  // {
-  //   key: 'Industries',
-  //   label: 'Industries',
-  // },
-  // {
-  //   key: 'Features',
-  //   label: 'Features',
-  // },
-  {
-    key: 'Pricing',
-    label: 'Pricing',
-  },
-  // {
-  //   key: 'Learning-center',
-  //   label: 'Learning-center',
-  // },
-  {
-    key: 'Language',
-    label: 'language',
-  },
-  {
-    key: 'Sign in',
-    label: 'Sign in',
-  },
-];
+const APP_HEADER_MENU_LIST = ['Language', 'Products', 'Pricing', 'Resources'];
 
 interface IProps {
   isSmallScreen?: boolean;
@@ -51,22 +26,19 @@ const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
         </IconButton>
 
         <Drawer
-          anchor={'top'}
+          anchor={'right'}
           open={open}
           onClose={() => setOpen(false)}
           PaperProps={{
             sx: {
+              width: '100%',
               mt: `${appHeaderHeight}px`,
             },
           }}
         >
           <MenuList>
             {APP_HEADER_MENU_LIST.map((item) => (
-              <AppHeaderMenuItem
-                key={item.key}
-                menuKey={item.key}
-                isSmallScreen
-              />
+              <AppHeaderMenuItem key={item} menuKey={item} isSmallScreen />
             ))}
           </MenuList>
         </Drawer>
@@ -75,9 +47,9 @@ const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
   }
 
   return (
-    <Stack direction={'row'} spacing={2} alignItems='center'>
+    <Stack direction={'row'} spacing={1.5} alignItems='center'>
       {APP_HEADER_MENU_LIST.map((item) => (
-        <AppHeaderMenuItem key={item.key} menuKey={item.key} />
+        <AppHeaderMenuItem key={item} menuKey={item} />
       ))}
     </Stack>
   );

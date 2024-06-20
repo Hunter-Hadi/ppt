@@ -44,7 +44,7 @@ const AppHeader: FC = () => {
     return () => {
       window.removeEventListener('resize', debouncedHandle);
     };
-  }, [isMiniMenu]);
+  }, []);
 
   if (isNotHeader) {
     return null;
@@ -78,15 +78,21 @@ const AppHeader: FC = () => {
           },
         }}
       >
-        <AppLogo />
+        <AppLogo
+          sx={{
+            pb: '2px',
+          }}
+        />
 
-        <Box flex={1} />
+        <Box pl={2.5} />
 
         {!isMiniMenu ? <AppHeaderMenuList /> : null}
 
-        <Box pl={2} />
+        <Box flex={1} />
 
-        <AppHeaderCTABtn />
+        {/* <Box pl={2} /> */}
+
+        <AppHeaderCTABtn isSmallScreen={isMiniMenu} />
 
         {isMiniMenu ? <AppHeaderMenuList isSmallScreen /> : null}
       </Toolbar>
