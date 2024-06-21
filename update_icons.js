@@ -97,6 +97,9 @@ const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
 export default CustomIcon;
 `;
 
+    console.error('暂时不支持 update icons');
+    return;
+
     // 将生成的内容写入到指定的文件
     fs.writeFile(outputFile, content, (err) => {
       if (err) {
