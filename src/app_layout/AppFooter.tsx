@@ -178,7 +178,7 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={3}
+                lg={4}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -199,7 +199,7 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={3}
+                lg={4}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
