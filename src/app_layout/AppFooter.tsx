@@ -1,5 +1,4 @@
 import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
-import { capitalize } from 'lodash-es';
 import isRegExp from 'lodash-es/isRegExp';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
@@ -8,11 +7,7 @@ import { useMemo } from 'react';
 import FooterList from '@/components/Footerlist';
 import ProLink from '@/components/ProLink';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
-import {
-  APP_EXTERNAL_LINKS,
-  APP_PROJECT_LINK,
-  PROMPT_LIBRARY_PROXY_BASE_PATH,
-} from '@/global_constants';
+import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
 import AppLogo from '@/page_components/AppLogo';
 
 const footerBlackList = [
@@ -113,7 +108,7 @@ const AppFooter = () => {
             </Stack>
 
             <Grid container spacing={4}>
-              <Grid
+              {/* <Grid
                 item
                 xs={12}
                 sm={6}
@@ -178,12 +173,12 @@ const AppFooter = () => {
                     },
                   ]}
                 />
-              </Grid>
+              </Grid> */}
               <Grid
                 item
                 xs={12}
                 sm={6}
-                lg={3}
+                lg={4}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -204,7 +199,7 @@ const AppFooter = () => {
                 item
                 xs={12}
                 sm={6}
-                lg={3}
+                lg={4}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
@@ -226,7 +221,7 @@ const AppFooter = () => {
                   ]}
                 />
               </Grid>
-              <Grid
+              {/* <Grid
                 item
                 xs={12}
                 sm={6}
@@ -351,7 +346,7 @@ const AppFooter = () => {
                     },
                   ]}
                 />
-              </Grid>
+              </Grid> */}
             </Grid>
           </Box>
 

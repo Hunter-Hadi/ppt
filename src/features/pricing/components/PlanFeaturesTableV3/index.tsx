@@ -185,7 +185,7 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
           sx={{
             position: 'fixed',
             top: appHeaderHeight,
-            zIndex: (t) => t.zIndex.drawer + 10,
+            zIndex: (t) => t.zIndex.drawer,
             left: fixedHeaderLeft,
             right: 0,
             width: fixedHeaderWidth,

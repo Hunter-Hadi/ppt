@@ -1,10 +1,20 @@
-import { Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
-import React from 'react';
+import {
+  Stack,
+  SxProps,
+  Typography,
+  useMediaQuery,
+  useTheme,
+} from '@mui/material';
+import React, { FC } from 'react';
 
 import { CustomImageBox } from '@/components/CustomImage';
 import ProLink from '@/components/ProLink';
 
-const AppLogo = () => {
+interface IProps {
+  sx?: SxProps;
+}
+
+const AppLogo: FC<IProps> = ({ sx }) => {
   const theme = useTheme();
   const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
 
@@ -15,6 +25,7 @@ const AppLogo = () => {
       }}
       target={'_self'}
       muiLinkProps={{ title: 'MaxAI.me' }}
+      sx={sx}
     >
       <Stack direction={'row'} alignItems={'center'} gap={1}>
         <CustomImageBox

@@ -50,7 +50,7 @@ const checkDomain = (url: string) => {
     .split('/')[0];
 };
 
-const isExternalUrl = (url: string) => {
+export const isExternalUrl = (url: string) => {
   const copyUrl = url;
   const isContainsWhiteList =
     WHITE_LIST_DOMAINS.find((whiteListUrl) =>

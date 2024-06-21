@@ -7,32 +7,7 @@ import useAppHeaderState from '@/hooks/useAppHeaderState';
 
 import AppHeaderMenuItem from './AppHeaderMenuItem';
 
-const APP_HEADER_MENU_LIST = [
-  // {
-  //   key: 'Industries',
-  //   label: 'Industries',
-  // },
-  // {
-  //   key: 'Features',
-  //   label: 'Features',
-  // },
-  {
-    key: 'Pricing',
-    label: 'Pricing',
-  },
-  // {
-  //   key: 'Learning-center',
-  //   label: 'Learning-center',
-  // },
-  {
-    key: 'Language',
-    label: 'language',
-  },
-  {
-    key: 'Sign in',
-    label: 'Sign in',
-  },
-];
+const APP_HEADER_MENU_LIST = ['Language', 'Products', 'Pricing', 'Resources'];
 
 interface IProps {
   isSmallScreen?: boolean;
@@ -44,6 +19,7 @@ const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
   const { appHeaderHeight } = useAppHeaderState();
 
   if (isSmallScreen) {
+    // 小屏幕
     return (
       <Box ml={2}>
         <IconButton onClick={() => setOpen((pre) => !pre)}>
@@ -51,36 +27,34 @@ const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
         </IconButton>
 
         <Drawer
-          anchor={'top'}
+          anchor={'right'}
           open={open}
           onClose={() => setOpen(false)}
           PaperProps={{
             sx: {
+              width: '100%',
               mt: `${appHeaderHeight}px`,
             },
           }}
         >
           <MenuList>
             {APP_HEADER_MENU_LIST.map((item) => (
-              <AppHeaderMenuItem
-                key={item.key}
-                menuKey={item.key}
-                isSmallScreen
-              />
+              <AppHeaderMenuItem key={item} menuKey={item} isSmallScreen />
             ))}
           </MenuList>
         </Drawer>
       </Box>
     );
+  } else {
+    // 大屏幕
+    return (
+      <Stack direction={'row'} spacing={1.5} alignItems='center'>
+        {APP_HEADER_MENU_LIST.map((item) => (
+          <AppHeaderMenuItem key={item} menuKey={item} />
+        ))}
+      </Stack>
+    );
   }
-
-  return (
-    <Stack direction={'row'} spacing={2} alignItems='center'>
-      {APP_HEADER_MENU_LIST.map((item) => (
-        <AppHeaderMenuItem key={item.key} menuKey={item.key} />
-      ))}
-    </Stack>
-  );
 };
 
 export default AppHeaderMenuList;
