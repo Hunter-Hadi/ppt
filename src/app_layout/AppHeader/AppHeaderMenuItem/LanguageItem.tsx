@@ -1,5 +1,5 @@
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import { Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
@@ -45,8 +45,8 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
       isSmallScreen={isSmallScreen}
       LabelContent={labelContent}
       SmallScreenContent={
-        <Stack px={2}>
-          <Typography variant='h5' mb={3} fontWeight={900}>
+        <Box px={2} py={1}>
+          <Typography variant='h5' mb={2} fontWeight={900}>
             {t('pages:languages__title')}
           </Typography>
           <LanguageSelectorList
@@ -60,7 +60,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
               sm: 3,
             }}
           />
-        </Stack>
+        </Box>
       }
       popperSx={{
         maxWidth: 1090,
@@ -70,7 +70,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
         p: 4,
       }}
       BigScreenContent={
-        <Stack>
+        <Box>
           <Typography variant='h5' mb={3} fontWeight={900}>
             {t('pages:languages__title')}
           </Typography>
@@ -79,7 +79,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
               md: 2,
             }}
           />
-        </Stack>
+        </Box>
       }
     />
   );

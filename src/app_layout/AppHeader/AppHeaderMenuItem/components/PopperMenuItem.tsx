@@ -164,6 +164,7 @@ const PopperMenuItem: FC<IProps> = ({
             handleCloseMenu(0);
           }}
           transition
+          placement='bottom'
         >
           {({ TransitionProps }) => (
             <Fade {...TransitionProps} timeout={350}>
@@ -172,6 +173,7 @@ const PopperMenuItem: FC<IProps> = ({
                 sx={{
                   p: 3,
                   width: '100%',
+                  boxSizing: 'border-box',
                   ...paperSx,
                 }}
               >
