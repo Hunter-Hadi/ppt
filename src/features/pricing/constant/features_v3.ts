@@ -217,6 +217,25 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
+      title: 'Claude-3.5-sonnet',
+      icon: 'Claude3_5Icon',
+    },
+    free: { status: 'none-color' },
+    basic: {
+      status: 'none-color',
+    },
+    pro: {
+      status: 'none-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
       title: 'Gemini-1.5-pro',
       icon: 'GeminiPro',
     },
