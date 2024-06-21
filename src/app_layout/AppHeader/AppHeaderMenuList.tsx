@@ -1,6 +1,7 @@
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Box, Drawer, IconButton, MenuList, Stack } from '@mui/material';
+import { useRouter } from 'next/router';
 import React, { FC } from 'react';
 
 import useAppHeaderState from '@/hooks/useAppHeaderState';
@@ -15,6 +16,7 @@ interface IProps {
 
 const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
   const [open, setOpen] = React.useState(false);
+  const { isReady } = useRouter();
 
   const { appHeaderHeight } = useAppHeaderState();
 
@@ -47,7 +49,14 @@ const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
   }
 
   return (
-    <Stack direction={'row'} spacing={1.5} alignItems='center'>
+    <Stack
+      direction={'row'}
+      spacing={1.5}
+      alignItems='center'
+      sx={{
+        display: isReady ? 'flex' : 'none',
+      }}
+    >
       {APP_HEADER_MENU_LIST.map((item) => (
         <AppHeaderMenuItem key={item} menuKey={item} />
       ))}

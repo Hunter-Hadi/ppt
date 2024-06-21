@@ -3,6 +3,7 @@ import { debounce } from 'lodash-es';
 import { useRouter } from 'next/router';
 import { FC, useEffect } from 'react';
 
+import useResizeObserver from '@/features/common/hooks/useResizeObserver';
 import useAppHeaderState from '@/hooks/useAppHeaderState';
 import { removeLocaleInPathname } from '@/i18n/utils';
 import AppLogo from '@/page_components/AppLogo';
@@ -29,6 +30,10 @@ const AppHeader: FC = () => {
 
   const { updateAppHeaderHeight } = useAppHeaderState();
 
+  const headerElement = useResizeObserver<HTMLDivElement>(
+    updateAppHeaderHeight,
+  );
+
   useEffect(() => {
     // 监听 窗口 变化, 更新 app header height state
 
@@ -53,6 +58,7 @@ const AppHeader: FC = () => {
   return (
     <AppBar
       id={APP_HEADER_ID}
+      ref={headerElement}
       component={'header'}
       position={'sticky'}
       sx={{
