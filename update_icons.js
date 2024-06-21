@@ -61,35 +61,37 @@ const CustomIcon: FC<IconType> = ({ icon, sx, fontSize }) => {
     };
   }, [sx, fontSize]);
 
-  const fontSizeCache = useMemo(() => {
-    const sxFontSize = sxCache?.fontSize;
+  // const fontSizeCache = useMemo(() => {
+  //   const sxFontSize = sxCache?.fontSize;
 
-    if (typeof sxFontSize === 'string') {
-      const newFontSize = parseInt(sxFontSize.match(/\d+/)?.[0] ?? '', 10);
-      if (isNumber(newFontSize)) {
-        return newFontSize;
-      }
-    }
-    return (sxCache?.fontSize as number) || 24;
-  }, [sxCache]);
+  //   if (typeof sxFontSize === 'string') {
+  //     const newFontSize = parseInt(sxFontSize.match(/\d+/)?.[0] ?? '', 10);
+  //     if (isNumber(newFontSize)) {
+  //       return newFontSize;
+  //     }
+  //   }
+  //   return (sxCache?.fontSize as number) || 24;
+  // }, [sxCache]);
 
-  if (IconComponent) {
-    return (
-      <Suspense
-        fallback={
-          <Skeleton
-            variant='rounded'
-            width={fontSizeCache ?? 24}
-            height={fontSizeCache ?? 24}
-          />
-        }
-      >
-        <IconComponent sx={sxCache} />
-      </Suspense>
-    );
-  } else {
-    return null;
-  }
+  // if (IconComponent) {
+  //   return (
+  //     <Suspense
+  //       fallback={
+  //         <Skeleton
+  //           variant='rounded'
+  //           width={fontSizeCache ?? 24}
+  //           height={fontSizeCache ?? 24}
+  //         />
+  //       }
+  //     >
+  //       <IconComponent sx={sxCache} />
+  //     </Suspense>
+  //   );
+  // } else {
+  //   return null;
+  // }
+
+  return <IconComponent sx={sxCache} />;
 };
 
 export default CustomIcon;
