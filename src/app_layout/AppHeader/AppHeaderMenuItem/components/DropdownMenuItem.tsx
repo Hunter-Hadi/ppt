@@ -13,7 +13,7 @@ import { useRouter } from 'next/router';
 import { TFunction, useTranslation } from 'next-i18next';
 import React, { FC, useState } from 'react';
 
-import ProLink from '@/components/ProLink';
+import ProLink, { isExternalUrl } from '@/components/ProLink';
 import { removeLocaleInPathname } from '@/i18n/utils';
 
 interface IProps {
@@ -108,7 +108,7 @@ const DropdownMenuItem: FC<IProps> = ({
               sx={{
                 width: 24,
                 height: 24,
-                rotate: expanded === 'panel1' ? '90deg' : '-90deg',
+                rotate: expanded === 'panel1' ? '-90deg' : '90deg',
                 transition: 'all 0.3s ease',
               }}
             />
@@ -127,6 +127,7 @@ const DropdownMenuItem: FC<IProps> = ({
             >
               <ProLink
                 href={menuItem.href}
+                target={isExternalUrl(menuItem.href) ? '_blank' : undefined}
                 color='inherit'
                 hardRefresh
                 sx={{
@@ -180,7 +181,7 @@ const DropdownMenuItem: FC<IProps> = ({
               sx={{
                 width: 24,
                 height: 24,
-                rotate: open ? '90deg' : '-90deg',
+                rotate: open ? '-90deg' : '90deg',
                 transition: 'all 0.3s ease',
               }}
             />

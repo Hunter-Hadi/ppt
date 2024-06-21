@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
-import ProLink from '@/components/ProLink';
+import ProLink, { isExternalUrl } from '@/components/ProLink';
 import { APP_EXTERNAL_LINKS } from '@/global_constants';
 import { isInIframe } from '@/utils/utils';
 
@@ -38,6 +38,10 @@ const PRODUCTS_MENU_LIST = [
       {
         href: `/use-cases/writing`,
         title: 'modules:header__menu__products__use_cases__writing',
+      },
+      {
+        href: `/prompt/library`,
+        title: 'modules:header__menu__products__use_cases__ai_prompt_library',
       },
     ],
   },
@@ -177,7 +181,11 @@ const ProductsItem: FC<IProps> = ({ isSmallScreen }) => {
                         lineHeight: 1.5,
                         width: '100%',
                       }}
-                      target={isInIframe() ? '_blank' : '_self'}
+                      target={
+                        isInIframe() || isExternalUrl(secondaryMenuItem.href)
+                          ? '_blank'
+                          : undefined
+                      }
                     >
                       <Typography
                         variant='custom'
@@ -225,7 +233,11 @@ const ProductsItem: FC<IProps> = ({ isSmallScreen }) => {
                     sx={{
                       lineHeight: 1.5,
                     }}
-                    target={isInIframe() ? '_blank' : '_self'}
+                    target={
+                      isInIframe() || isExternalUrl(secondaryMenuItem.href)
+                        ? '_blank'
+                        : undefined
+                    }
                   >
                     <Typography variant='custom' fontSize={16} lineHeight={1.5}>
                       {t(secondaryMenuItem.title)}
@@ -239,219 +251,6 @@ const ProductsItem: FC<IProps> = ({ isSmallScreen }) => {
       }
     />
   );
-
-  // if (isSmallScreen) {
-  //   // 小屏幕显示的内容
-  //   return (
-  //     <>
-  //       <MenuItem
-  //         onClick={() => {
-  //           handleExpanded();
-  //         }}
-  //         sx={{
-  //           width: '100%',
-  //           display: 'flex',
-  //           justifyContent: 'space-between',
-  //           py: 2,
-  //         }}
-  //       >
-  //         <Typography
-  //           variant='custom'
-  //           fontSize={16}
-  //           lineHeight={1.5}
-  //           fontWeight={500}
-  //         >
-  //           {t('modules:header__menu__products')}
-  //         </Typography>
-  //         <ChevronRightOutlinedIcon
-  //           sx={{
-  //             width: 24,
-  //             height: 24,
-  //             rotate: expanded ? '90deg' : 0,
-  //             transition: 'all 0.3s ease',
-  //           }}
-  //         />
-  //       </MenuItem>
-  //       <Drawer
-  //         anchor={'right'}
-  //         open={expanded}
-  //         onClose={() => setExpanded(false)}
-  //         PaperProps={{
-  //           sx: {
-  //             width: '100%',
-  //             mt: `${appHeaderHeight}px`,
-  //           },
-  //         }}
-  //       >
-  //         <MenuList
-  //           sx={{
-  //             pl: 2,
-  //           }}
-  //         >
-  //           <MenuItem
-  //             onClick={() => {
-  //               setExpanded(false);
-  //             }}
-  //           >
-  //             <KeyboardArrowLeftOutlinedIcon />
-  //           </MenuItem>
-  //           {PRODUCTS_MENU_LIST.map((menuItem, index) => (
-  //             <Stack key={menuItem.title} pl={2.5} py={1}>
-  //               <Typography
-  //                 variant='custom'
-  //                 fontSize={16}
-  //                 lineHeight={1.5}
-  //                 fontWeight={900}
-  //                 color='text.primary'
-  //               >
-  //                 {t(menuItem.title)}
-  //               </Typography>
-  //               <MenuList>
-  //                 {menuItem.menuList.map((secondaryMenuItem) => (
-  //                   <MenuItem
-  //                     selected={pathname === secondaryMenuItem.href}
-  //                     key={secondaryMenuItem.title}
-  //                   >
-  //                     <ProLink
-  //                       href={secondaryMenuItem.href}
-  //                       hardRefresh
-  //                       color='inherit'
-  //                       sx={{
-  //                         lineHeight: 1.5,
-  //                         width: '100%',
-  //                       }}
-  //                       target={isInIframe() ? '_blank' : '_self'}
-  //                     >
-  //                       <Typography
-  //                         variant='custom'
-  //                         fontSize={16}
-  //                         lineHeight={1.5}
-  //                         fontWeight={400}
-  //                         color='text.primary'
-  //                       >
-  //                         {t(secondaryMenuItem.title)}
-  //                       </Typography>
-  //                     </ProLink>
-  //                   </MenuItem>
-  //                 ))}
-  //               </MenuList>
-  //               {index === PRODUCTS_MENU_LIST.length - 1 ? null : <Divider />}
-  //             </Stack>
-  //           ))}
-  //         </MenuList>
-  //       </Drawer>
-  //     </>
-  //   );
-  // } else {
-  //   // 大屏幕显示的内容
-  //   return (
-  //     <>
-  //       <Button
-  //         onClick={handleOpenMenu}
-  //         onMouseEnter={handleOpenMenu}
-  //         onMouseLeave={() => {
-  //           handleCloseMenu(350);
-  //         }}
-  //         sx={{
-  //           display: isSmallScreen ? 'none' : 'flex',
-  //           fontSize: 16,
-  //           fontWeight: 500,
-  //           lineHeight: 1.5,
-  //           color: 'text.primary',
-  //           px: 2,
-  //           py: 1.5,
-  //           '&:hover': {
-  //             backgroundColor: '#eee',
-  //           },
-  //           '&:active': {
-  //             backgroundColor: 'rgba(0,0,0,0.08)',
-  //           },
-  //           '& .MuiButton-endIcon': {
-  //             ml: 0.5,
-  //           },
-  //         }}
-  //         endIcon={
-  //           <ChevronRightOutlinedIcon
-  //             sx={{
-  //               width: 24,
-  //               height: 24,
-  //               rotate: open ? '90deg' : '-90deg',
-  //               transition: 'all 0.3s ease',
-  //             }}
-  //           />
-  //         }
-  //       >
-  //         {t('modules:header__menu__products')}
-  //       </Button>
-  //       <Popper
-  //         open={open}
-  //         anchorEl={anchorEl}
-  //         sx={{
-  //           maxWidth: 1000,
-  //           width: '100%',
-  //           zIndex: (t) => t.zIndex.drawer + 10,
-  //         }}
-  //         keepMounted
-  //         onMouseEnter={handleOpenMenu}
-  //         onMouseLeave={() => {
-  //           handleCloseMenu(350);
-  //         }}
-  //         transition
-  //       >
-  //         {({ TransitionProps }) => (
-  //           <Fade {...TransitionProps} timeout={350}>
-  //             <Paper
-  //               elevation={2}
-  //               sx={{
-  //                 p: 3,
-  //                 width: '100%',
-  //               }}
-  //             >
-  //               <Grid container spacing={3}>
-  //                 {PRODUCTS_MENU_LIST.map((menuItem) => (
-  //                   <Grid key={menuItem.title} item xs={12} sm={6} md={3}>
-  //                     <Stack spacing={1.5}>
-  //                       <Typography
-  //                         variant='custom'
-  //                         fontSize={16}
-  //                         lineHeight={1.5}
-  //                         fontWeight={900}
-  //                       >
-  //                         {t(menuItem.title)}
-  //                       </Typography>
-  //                       <Divider />
-  //                       {menuItem.menuList.map((secondaryMenuItem) => (
-  //                         <ProLink
-  //                           key={secondaryMenuItem.title}
-  //                           href={secondaryMenuItem.href}
-  //                           hardRefresh
-  //                           color='inherit'
-  //                           underline='hover'
-  //                           sx={{
-  //                             lineHeight: 1.5,
-  //                           }}
-  //                           target={isInIframe() ? '_blank' : '_self'}
-  //                         >
-  //                           <Typography
-  //                             variant='custom'
-  //                             fontSize={16}
-  //                             lineHeight={1.5}
-  //                           >
-  //                             {t(secondaryMenuItem.title)}
-  //                           </Typography>
-  //                         </ProLink>
-  //                       ))}
-  //                     </Stack>
-  //                   </Grid>
-  //                 ))}
-  //               </Grid>
-  //             </Paper>
-  //           </Fade>
-  //         )}
-  //       </Popper>
-  //     </>
-  //   );
-  // }
 };
 
 export default ProductsItem;

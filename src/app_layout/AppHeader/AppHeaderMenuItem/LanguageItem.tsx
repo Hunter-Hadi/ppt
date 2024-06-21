@@ -6,7 +6,6 @@ import React, { FC } from 'react';
 import { useLanguages } from '@/i18n/hooks/useLanguages';
 import LanguageSelectorList from '@/page_components/LanguagesPages/components/LanguageSelectorList';
 
-import MenuLinkItem from './components/MenuLinkItem';
 import PopperMenuItem from './components/PopperMenuItem';
 
 interface IProps {
@@ -41,43 +40,49 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
     </Stack>
   );
 
-  if (isSmallScreen) {
-    return (
-      <MenuLinkItem
-        link={routerToLanguagesPagesLink}
-        isSmallScreen={isSmallScreen}
-      >
-        {labelContent}
-      </MenuLinkItem>
-    );
-  } else {
-    return (
-      <PopperMenuItem
-        isSmallScreen={isSmallScreen}
-        LabelContent={labelContent}
-        SmallScreenContent={null}
-        popperSx={{
-          maxWidth: 1090,
-          width: '100%',
-        }}
-        paperSx={{
-          p: 4,
-        }}
-        BigScreenContent={
-          <Stack>
-            <Typography variant='h5' mb={3} fontWeight={900}>
-              {t('pages:languages__title')}
-            </Typography>
-            <LanguageSelectorList
-              itemBreakpoints={{
-                md: 2,
-              }}
-            />
-          </Stack>
-        }
-      />
-    );
-  }
+  return (
+    <PopperMenuItem
+      isSmallScreen={isSmallScreen}
+      LabelContent={labelContent}
+      SmallScreenContent={
+        <Stack px={2}>
+          <Typography variant='h5' mb={3} fontWeight={900}>
+            {t('pages:languages__title')}
+          </Typography>
+          <LanguageSelectorList
+            containerProps={{
+              sx: {
+                pl: 2,
+              },
+            }}
+            itemBreakpoints={{
+              xs: 6,
+              sm: 3,
+            }}
+          />
+        </Stack>
+      }
+      popperSx={{
+        maxWidth: 1090,
+        width: '100%',
+      }}
+      paperSx={{
+        p: 4,
+      }}
+      BigScreenContent={
+        <Stack>
+          <Typography variant='h5' mb={3} fontWeight={900}>
+            {t('pages:languages__title')}
+          </Typography>
+          <LanguageSelectorList
+            itemBreakpoints={{
+              md: 2,
+            }}
+          />
+        </Stack>
+      }
+    />
+  );
 };
 
 export default LanguageItem;

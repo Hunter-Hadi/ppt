@@ -80,7 +80,7 @@ const PopperMenuItem: FC<IProps> = ({
             sx={{
               width: 24,
               height: 24,
-              rotate: expanded ? '90deg' : '-90deg',
+              rotate: expanded ? '-90deg' : '90deg',
               transition: 'all 0.3s ease',
             }}
           />
@@ -92,8 +92,10 @@ const PopperMenuItem: FC<IProps> = ({
           PaperProps={{
             sx: {
               width: '100%',
+              height: `calc(98% - ${appHeaderHeight}px)`,
               mt: `${appHeaderHeight}px`,
               py: 1,
+              pb: 2,
             },
           }}
         >
@@ -141,7 +143,7 @@ const PopperMenuItem: FC<IProps> = ({
               sx={{
                 width: 24,
                 height: 24,
-                rotate: open ? '90deg' : '-90deg',
+                rotate: open ? '-90deg' : '90deg',
                 transition: 'all 0.3s ease',
               }}
             />
