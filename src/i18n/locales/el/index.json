@@ -861,7 +861,8 @@
     "promotion__limited_time_offer": "Προσφορά για περιορισμένο χρονικό διάστημα",
     "promotion__banner__elite__title__limited_time_offer": "Προσφορά για περιορισμένο χρονικό διάστημα",
     "promotion__banner__elite__title__part1": "Εξοικονομήστε",
-    "promotion__banner__elite__title__part2": "στο MaxAI Elite Yearly plan!"
+    "promotion__banner__elite__title__part2": "στο MaxAI Elite Yearly plan!",
+    "header__menu__products__use_cases__ai_prompt_library": "Βιβλιοθήκη AI prompt"
   },
   "affiliate": {
     "hero_section__indicator__label": "#1 Προϊόν της Εβδομάδας",

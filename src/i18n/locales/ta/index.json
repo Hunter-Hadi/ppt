@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "நிதி சேவைகள்",
     "header__menu__products__industries__real_estate__label": "உண்மையில் செல்வாக்களம்",
     "header__menu__products__industries__technical__label": "தொழில்நுட்ப",
-    "header__menu__resources": "வளங்கள்"
+    "header__menu__resources": "வளங்கள்",
+    "header__menu__products__use_cases__ai_prompt_library": "ஏதேனும் பிரம்பல் நூலகம்"
   },
   "privacy": {},
   "industry": {

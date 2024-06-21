@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "金融サービス",
     "header__menu__products__industries__real_estate__label": "不動産",
     "header__menu__products__industries__technical__label": "技術",
-    "header__menu__resources": "リソース"
+    "header__menu__resources": "リソース",
+    "header__menu__products__use_cases__ai_prompt_library": "AI プロンプトライブラリ"
   },
   "privacy": {},
   "industry": {

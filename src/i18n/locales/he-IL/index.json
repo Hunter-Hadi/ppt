@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "שירותים פיננסיים",
     "header__menu__products__industries__real_estate__label": "נדלן",
     "header__menu__products__industries__technical__label": "טכני",
-    "header__menu__resources": "משאבים"
+    "header__menu__resources": "משאבים",
+    "header__menu__products__use_cases__ai_prompt_library": "ספריית הצעות AI"
   },
   "affiliate": {
     "hero_section__indicator__label": "#1 מוצר של השבוע",

@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "আর্থিক পরিষেবা",
     "header__menu__products__industries__real_estate__label": "রিয়েল এস্টেট",
     "header__menu__products__industries__technical__label": "প্রযুক্তিগত",
-    "header__menu__resources": "সম্পদ"
+    "header__menu__resources": "সম্পদ",
+    "header__menu__products__use_cases__ai_prompt_library": "এআই প্রম্পট লাইব্রেরি"
   },
   "privacy": {},
   "industry": {

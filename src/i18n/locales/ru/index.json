@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Финансовые услуги",
     "header__menu__products__industries__real_estate__label": "Недвижимость",
     "header__menu__products__industries__technical__label": "Технический",
-    "header__menu__resources": "Ресурсы"
+    "header__menu__resources": "Ресурсы",
+    "header__menu__products__use_cases__ai_prompt_library": "Библиотека AI-подсказок"
   },
   "privacy": {},
   "industry": {

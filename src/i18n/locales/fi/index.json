@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Rahoituspalvelut",
     "header__menu__products__industries__real_estate__label": "Kiinteistöala",
     "header__menu__products__industries__technical__label": "Tekninen",
-    "header__menu__resources": "Resurssit"
+    "header__menu__resources": "Resurssit",
+    "header__menu__products__use_cases__ai_prompt_library": "AI-prompt-kirjasto"
   },
   "privacy": {},
   "industry": {

@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Servicii financiare",
     "header__menu__products__industries__real_estate__label": "Imobiliare",
     "header__menu__products__industries__technical__label": "Tehnic",
-    "header__menu__resources": "Resurse"
+    "header__menu__resources": "Resurse",
+    "header__menu__products__use_cases__ai_prompt_library": "Bibliotecă de sugestii AI"
   },
   "privacy": {},
   "industry": {

@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "वित्तीय सेवाएं",
     "header__menu__products__industries__real_estate__label": "रियल एस्टेट",
     "header__menu__products__industries__technical__label": "तकनीकी",
-    "header__menu__resources": "संसाधन"
+    "header__menu__resources": "संसाधन",
+    "header__menu__products__use_cases__ai_prompt_library": "एआई प्रॉम्प्ट लाइब्रेरी"
   },
   "privacy": {},
   "industry": {

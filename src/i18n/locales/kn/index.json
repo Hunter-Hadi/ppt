@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "ಆರ್ಥಿಕ ಸೇವೆಗಳು",
     "header__menu__products__industries__real_estate__label": "ನಿಲ್ದಾಣ",
     "header__menu__products__industries__technical__label": "ತಾಂತ್ರಿಕ",
-    "header__menu__resources": "ವನಸರಗಳು"
+    "header__menu__resources": "ವನಸರಗಳು",
+    "header__menu__products__use_cases__ai_prompt_library": "ಏಐ ಪ್ರಾಂಪ್ಟ್ ಲೈಬ್ರರಿ"
   },
   "privacy": {},
   "industry": {

@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Pénzügyi szolgáltatások",
     "header__menu__products__industries__real_estate__label": "Ingatlan",
     "header__menu__products__industries__technical__label": "Műszaki",
-    "header__menu__resources": "Erőforrások"
+    "header__menu__resources": "Erőforrások",
+    "header__menu__products__use_cases__ai_prompt_library": "AI prompt könyvtár"
   },
   "privacy": {},
   "industry": {

@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Huduma za fedha",
     "header__menu__products__industries__real_estate__label": "Mali isiyohamishika",
     "header__menu__products__industries__technical__label": "Kiufundi",
-    "header__menu__resources": "Vifaa"
+    "header__menu__resources": "Vifaa",
+    "header__menu__products__use_cases__ai_prompt_library": "Maktaba ya maelekezo ya AI"
   },
   "privacy": {},
   "industry": {

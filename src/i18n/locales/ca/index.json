@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Serveis financers",
     "header__menu__products__industries__real_estate__label": "Béns immobles",
     "header__menu__products__industries__technical__label": "Tècnic",
-    "header__menu__resources": "Recursos"
+    "header__menu__resources": "Recursos",
+    "header__menu__products__use_cases__ai_prompt_library": "Biblioteca de suggeriments d'IA"
   },
   "privacy": {},
   "industry": {

@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Finansielle tjenester",
     "header__menu__products__industries__real_estate__label": "Eiendom",
     "header__menu__products__industries__technical__label": "Teknisk",
-    "header__menu__resources": "Ressurser"
+    "header__menu__resources": "Ressurser",
+    "header__menu__products__use_cases__ai_prompt_library": "AI-promptbibliotek"
   },
   "privacy": {},
   "industry": {

@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Servicios financieros",
     "header__menu__products__industries__real_estate__label": "Bienes raíces",
     "header__menu__products__industries__technical__label": "Técnico",
-    "header__menu__resources": "Recursos"
+    "header__menu__resources": "Recursos",
+    "header__menu__products__use_cases__ai_prompt_library": "Biblioteca de sugerencias de IA"
   },
   "privacy": {},
   "industry": {

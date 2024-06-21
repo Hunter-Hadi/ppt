@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Finantsteenused",
     "header__menu__products__industries__real_estate__label": "Kinnisvara",
     "header__menu__products__industries__technical__label": "Tehniline",
-    "header__menu__resources": "Ressursid"
+    "header__menu__resources": "Ressursid",
+    "header__menu__products__use_cases__ai_prompt_library": "AI juhendite raamatukogu"
   },
   "privacy": {},
   "industry": {

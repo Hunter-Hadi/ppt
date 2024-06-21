@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Services financiers",
     "header__menu__products__industries__real_estate__label": "Immobilier",
     "header__menu__products__industries__technical__label": "Technique",
-    "header__menu__resources": "Ressources"
+    "header__menu__resources": "Ressources",
+    "header__menu__products__use_cases__ai_prompt_library": "Bibliothèque de suggestions IA"
   },
   "privacy": {},
   "industry": {

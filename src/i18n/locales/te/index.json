@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "ఆర్థిక సేవలకు",
     "header__menu__products__industries__real_estate__label": "రియల్ ఎస్టేట్",
     "header__menu__products__industries__technical__label": "టెక్నికల్",
-    "header__menu__resources": "వనరులు"
+    "header__menu__resources": "వనరులు",
+    "header__menu__products__use_cases__ai_prompt_library": "ఎయి ప్రాంప్ట్ లైబ్రరీ "
   },
   "privacy": {},
   "industry": {

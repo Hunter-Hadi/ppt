@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Finančne storitve",
     "header__menu__products__industries__real_estate__label": "Nepremičnine",
     "header__menu__products__industries__technical__label": "Tehnično",
-    "header__menu__resources": "Viri"
+    "header__menu__resources": "Viri",
+    "header__menu__products__use_cases__ai_prompt_library": "Knjižnica AI spodbud "
   },
   "privacy": {},
   "industry": {

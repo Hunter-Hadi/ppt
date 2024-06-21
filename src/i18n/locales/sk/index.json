@@ -861,7 +861,8 @@
     "header__menu__products__industries__finance__label": "Finančné služby",
     "header__menu__products__industries__real_estate__label": "Nehnuteľnosti",
     "header__menu__products__industries__technical__label": "Technické",
-    "header__menu__resources": "Zdroje"
+    "header__menu__resources": "Zdroje",
+    "header__menu__products__use_cases__ai_prompt_library": "Knižnica AI promptov"
   },
   "privacy": {},
   "industry": {
