@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { FC, useMemo } from 'react';
 
 import languageCodeMap from '@/i18n/types/languageCodeMap.json';
-import { i18nLocales } from '@/i18n/utils';
+import { i18nLocales, removeLocaleInPathname } from '@/i18n/utils';
 import LanguageSwitchLink from '@/page_components/LanguageSwitchLink';
 
 interface IProps {
@@ -20,10 +20,13 @@ const LanguageSelectorList: FC<IProps> = ({
   const redirectUrl = useMemo(() => {
     if (router.query.redirect) {
       return router.query.redirect as string;
+    } else if (router.pathname) {
+      return removeLocaleInPathname(router.pathname);
     } else {
       return '/';
     }
-  }, [router.query]);
+  }, [router.query, router.pathname]);
+
   return (
     <Grid container spacing={2} {...containerProps}>
       {i18nLocales.map((locale) => {
