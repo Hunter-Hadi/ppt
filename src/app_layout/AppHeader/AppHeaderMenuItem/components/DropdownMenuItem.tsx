@@ -156,7 +156,7 @@ const DropdownMenuItem: FC<IProps> = ({
           onClick={handleOpenMenu}
           onMouseEnter={handleOpenMenu}
           onMouseLeave={() => {
-            handleCloseMenu(350);
+            handleCloseMenu(0);
           }}
           sx={{
             display: isSmallScreen ? 'none' : 'flex',
@@ -197,7 +197,7 @@ const DropdownMenuItem: FC<IProps> = ({
           }}
           onMouseEnter={handleOpenMenu}
           onMouseLeave={() => {
-            handleCloseMenu(350);
+            handleCloseMenu(0);
           }}
           keepMounted
           transition
