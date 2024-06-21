@@ -3,8 +3,11 @@ import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import Button from '@mui/material/Button';
-import Menu from '@mui/material/Menu';
+import Fade from '@mui/material/Fade';
 import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import Paper from '@mui/material/Paper';
+import Popper from '@mui/material/Popper';
 import Typography from '@mui/material/Typography';
 import { useRouter } from 'next/router';
 import { TFunction, useTranslation } from 'next-i18next';
@@ -32,19 +35,30 @@ const DropdownMenuItem: FC<IProps> = ({
   const router = useRouter();
   const pathname = removeLocaleInPathname(router.pathname);
 
-  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-
-  const open = Boolean(anchorEl);
+  const buttonRef = React.useRef<HTMLButtonElement>(null);
+  const [open, setOpen] = React.useState(false);
 
   const [expanded, setExpanded] = useState<string | false>(false);
 
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
+  const closeTimer = React.useRef<number | null>(null);
+  const handleOpenMenu = () => {
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+    }
+    setOpen(true);
   };
 
-  const handleClose = () => {
-    setAnchorEl(null);
-    // setExpanded(false);
+  const handleCloseMenu = (delay = 0) => {
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+    }
+    if (delay) {
+      closeTimer.current = window.setTimeout(() => {
+        setOpen(false);
+      }, delay);
+    } else {
+      setOpen(false);
+    }
   };
 
   const handleChange =
@@ -94,7 +108,7 @@ const DropdownMenuItem: FC<IProps> = ({
               sx={{
                 width: 24,
                 height: 24,
-                rotate: expanded === 'panel1' ? '90deg' : 0,
+                rotate: expanded === 'panel1' ? '90deg' : '-90deg',
                 transition: 'all 0.3s ease',
               }}
             />
@@ -137,7 +151,12 @@ const DropdownMenuItem: FC<IProps> = ({
       <>
         {/* 大屏幕显示 */}
         <Button
-          onClick={handleClick}
+          ref={buttonRef}
+          onClick={handleOpenMenu}
+          onMouseEnter={handleOpenMenu}
+          onMouseLeave={() => {
+            handleCloseMenu(350);
+          }}
           sx={{
             display: isSmallScreen ? 'none' : 'flex',
             fontSize: 16,
@@ -161,7 +180,7 @@ const DropdownMenuItem: FC<IProps> = ({
               sx={{
                 width: 24,
                 height: 24,
-                rotate: open ? '90deg' : 0,
+                rotate: open ? '90deg' : '-90deg',
                 transition: 'all 0.3s ease',
               }}
             />
@@ -169,10 +188,79 @@ const DropdownMenuItem: FC<IProps> = ({
         >
           {children}
         </Button>
-        <Menu
+        <Popper
+          open={open}
+          anchorEl={buttonRef.current}
+          sx={{
+            zIndex: (t) => t.zIndex.drawer + 10,
+          }}
+          onMouseEnter={handleOpenMenu}
+          onMouseLeave={() => {
+            handleCloseMenu(350);
+          }}
+          keepMounted
+          transition
+          modifiers={[
+            {
+              name: 'offset',
+              options: {
+                offset: [0, 21],
+              },
+            },
+          ]}
+        >
+          {({ TransitionProps }) => (
+            <Fade {...TransitionProps} timeout={350}>
+              <Paper
+                sx={{
+                  width: '320px',
+                  borderRadius: '0 0 8px 8px',
+                  'box-shadow': '0px 2px 8px 0px #00000014',
+                  padding: '16px 16px 16px 16px',
+                }}
+              >
+                <MenuList
+                  sx={{
+                    p: 0,
+                  }}
+                >
+                  {menulist.map((menuItem, index) => (
+                    <MenuItem
+                      key={menuItem.href}
+                      selected={pathname === menuItem.href}
+                      sx={{
+                        borderRadius: '8px',
+                        fontSize: '16px !important',
+                        fontWeight: 600,
+                        mt: index === 0 ? 0 : 2,
+                        p: 0,
+                      }}
+                    >
+                      <ProLink
+                        href={menuItem.href}
+                        color='inherit'
+                        hardRefresh
+                        sx={{
+                          width: '100%',
+                          py: 1,
+                          px: 2,
+                        }}
+                      >
+                        {typeof menuItem.label === 'function'
+                          ? menuItem.label(t)
+                          : t(menuItem.label)}
+                      </ProLink>
+                    </MenuItem>
+                  ))}
+                </MenuList>
+              </Paper>
+            </Fade>
+          )}
+        </Popper>
+        {/* <Menu
           anchorEl={anchorEl}
           open={open}
-          onClose={handleClose}
+          onClose={handleCloseMenu}
           anchorOrigin={{
             vertical: 'bottom',
             horizontal: 'center',
@@ -181,11 +269,15 @@ const DropdownMenuItem: FC<IProps> = ({
             vertical: 'top',
             horizontal: 'center',
           }}
+          disablePortal
+          MenuListProps={{
+            onMouseEnter: handleOpenMenu,
+            onMouseLeave: handleCloseMenu,
+          }}
+          PaperProps={{
+            onMouseLeave: handleCloseMenu,
+          }}
           sx={{
-            display: {
-              xs: 'none',
-              md: 'block',
-            },
             '& .MuiPaper-root': {
               width: '320px',
               mt: { xs: 1, sm: '21px' },
@@ -227,7 +319,7 @@ const DropdownMenuItem: FC<IProps> = ({
               </ProLink>
             </MenuItem>
           ))}
-        </Menu>
+        </Menu> */}
       </>
     );
   }
