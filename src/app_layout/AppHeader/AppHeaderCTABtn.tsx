@@ -3,6 +3,7 @@ import { useTranslation } from 'next-i18next';
 import { FC, useMemo } from 'react';
 
 import MenuLinkItem from '@/app_layout/AppHeader/AppHeaderMenuItem/components/MenuLinkItem';
+import { APP_PROJECT_LINK } from '@/global_constants';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
@@ -36,7 +37,7 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   return (
     <Stack direction={'row'} spacing={1.5} alignItems='center'>
       {!isSmallScreen && (
-        <MenuLinkItem link='/pricing' isSmallScreen={isSmallScreen}>
+        <MenuLinkItem link={APP_PROJECT_LINK} isSmallScreen={isSmallScreen}>
           <Typography
             variant='custom'
             fontSize={16}
