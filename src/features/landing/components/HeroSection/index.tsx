@@ -269,7 +269,7 @@ const HeroSection: FC<IProps> = ({
                     lineHeight={1.5}
                     flexShrink={0}
                   >
-                    Claude 3
+                    Claude 3.5
                   </Typography>
                 </Stack>
 
