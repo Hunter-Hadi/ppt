@@ -1,19 +1,20 @@
+import { MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX } from '@/features/common-auth/constants';
 import {
   IUserRoleType,
   MaxAIAuthTokensType,
 } from '@/features/common-auth/types';
 
-const LOCAL_STORAGE_KEY_PREFIX = 'UseChatGPTAuthServiceProvider';
-
 /**
  * 获取当前用户的 token 信息
  */
 export const getCurrentUserTokens = (): MaxAIAuthTokensType | null => {
-  const email = localStorage.getItem(`${LOCAL_STORAGE_KEY_PREFIX}.email`);
+  const email = localStorage.getItem(
+    `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.email`,
+  );
   if (!email) {
     return null;
   }
-  const localStoreKeyPrefix = `${LOCAL_STORAGE_KEY_PREFIX}.${email}`;
+  const localStoreKeyPrefix = `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.${email}`;
   const userData = localStorage.getItem(localStoreKeyPrefix + '.userData');
   const accessToken = localStorage.getItem(
     localStoreKeyPrefix + '.accessToken',
@@ -41,7 +42,7 @@ export const saveCurrentUserTokens = (tokens: MaxAIAuthTokensType) => {
   ) {
     return false;
   }
-  const localStoreKeyPrefix = `${LOCAL_STORAGE_KEY_PREFIX}.${tokens.email}`;
+  const localStoreKeyPrefix = `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.${tokens.email}`;
   localStorage.setItem(localStoreKeyPrefix + '.userData', tokens.userData);
   localStorage.setItem(
     localStoreKeyPrefix + '.accessToken',
@@ -51,7 +52,10 @@ export const saveCurrentUserTokens = (tokens: MaxAIAuthTokensType) => {
     localStoreKeyPrefix + '.refreshToken',
     tokens.refreshToken,
   );
-  localStorage.setItem(`${LOCAL_STORAGE_KEY_PREFIX}.email`, tokens.email);
+  localStorage.setItem(
+    `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.email`,
+    tokens.email,
+  );
   return true;
 };
 
@@ -121,4 +125,33 @@ export const parseJwt = (token: string) => {
       .join(''),
   );
   return JSON.parse(jsonPayload);
+};
+
+/**
+ *  登出账号
+ */
+export const authLogout = () => {
+  if (typeof window === 'undefined') {
+    return;
+  }
+  const email = localStorage.getItem(
+    `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.email`,
+  );
+  if (email) {
+    localStorage.removeItem(
+      `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.${email}.accessToken`,
+    );
+    localStorage.removeItem(
+      `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.${email}.refreshToken`,
+    );
+    localStorage.removeItem(
+      `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.${email}.userData`,
+    );
+    localStorage.removeItem(
+      `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.${email}.roles`,
+    );
+    localStorage.removeItem('${PREF}.email');
+  }
+
+  window.dispatchEvent(new CustomEvent('signOut'));
 };

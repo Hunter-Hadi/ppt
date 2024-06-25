@@ -6,6 +6,7 @@ import {
   MaxAIConnectAccountType,
 } from '@/features/common-auth/types';
 import {
+  authLogout,
   getAccessToken,
   parseJwt,
   saveCurrentUserTokens,
@@ -41,7 +42,12 @@ const checkSession = () => {
     return false;
   }
   const { exp } = parseJwt(accessToken);
-  return exp * 1000 > Date.now();
+  // 如果 token 过期，则退出登录
+  const isExpired = Date.now() > exp * 1000 - 1000 * 60 * 60;
+  if (isExpired) {
+    authLogout();
+  }
+  return isExpired;
 };
 
 export const useConnectMaxAIAccount = (debug = false) => {
