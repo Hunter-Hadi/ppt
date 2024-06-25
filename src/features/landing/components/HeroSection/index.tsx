@@ -39,13 +39,13 @@ const HeroSection: FC<IProps> = ({
   trackerLinkProps,
   loading,
   sx,
-  indicatorOnBottom,
+  // indicatorOnBottom,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
-  const { featuresContentVariant } = useLandingABTester();
-
   const { t } = useTranslation();
+
+  const { featuresContentVariant } = useLandingABTester();
 
   // const { openVideoPopup } = useVideoPopupController();
 
@@ -54,11 +54,9 @@ const HeroSection: FC<IProps> = ({
       propTitle
     ) : (
       <>
-        {t('pages:home_page__hero_section__title__part1')}
+        {t('pages:home_page__hero_section__title__ab_test_v4__variant2__part1')}
         <br />
-        {t('pages:home_page__hero_section__title__part2')}
-        <br />
-        {t('pages:home_page__hero_section__title__part3')}
+        {t('pages:home_page__hero_section__title__ab_test_v4__variant2__part2')}
       </>
     );
   }, [propTitle, t]);
@@ -108,7 +106,8 @@ const HeroSection: FC<IProps> = ({
                   justifyContent: 'center',
                   alignItems: 'center',
                   textAlign: 'center',
-                  maxWidth: 764,
+                  maxWidth:
+                    featuresContentVariant === 'content2' ? 'unset' : 764,
                   mx: 'auto',
                 },
               ]}
@@ -120,11 +119,11 @@ const HeroSection: FC<IProps> = ({
                   variant='custom'
                   className='title'
                   fontSize={
-                    featuresContentVariant === 'content3'
+                    featuresContentVariant === 'content2'
                       ? {
-                          xs: 48,
-                          sm: 56,
-                          lg: 72,
+                          xs: 40,
+                          sm: 48,
+                          lg: 52,
                         }
                       : {
                           xs: 40,
@@ -157,18 +156,6 @@ const HeroSection: FC<IProps> = ({
               )}
               {/* margin spacing */}
               <Box height={32} />
-              {featuresContentVariant !== 'content3' && !indicatorOnBottom ? (
-                <>
-                  <IndicatorContent
-                    sx={{
-                      mb: {
-                        xs: 3,
-                        sm: 6,
-                      },
-                    }}
-                  />
-                </>
-              ) : null}
               <Stack
                 direction={'row'}
                 alignItems='center'
@@ -293,13 +280,11 @@ const HeroSection: FC<IProps> = ({
                   </Typography>
                 </Stack>
               </Stack>
-              {featuresContentVariant === 'content3' || indicatorOnBottom ? (
-                <IndicatorContent
-                  sx={{
-                    mt: 4,
-                  }}
-                />
-              ) : null}
+              <IndicatorContent
+                sx={{
+                  mt: 4,
+                }}
+              />
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>

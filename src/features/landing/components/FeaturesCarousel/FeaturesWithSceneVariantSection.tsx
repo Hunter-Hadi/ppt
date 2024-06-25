@@ -2,6 +2,7 @@ import { Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
 
 import FeaturesCarouselIcons from './FeaturesCarouselIcons';
@@ -82,6 +83,7 @@ const FEATURES_WITH_SCENE_LIST = [
 
 const FeaturesWithSceneVariantSection = () => {
   const { t } = useTranslation();
+  const { featuresContentHasCtaBtn } = useLandingABTester();
 
   return (
     <Stack>
@@ -126,6 +128,7 @@ const FeaturesWithSceneVariantSection = () => {
               index % 2 === 0 ? 'textToImage' : 'imageToText'
             }
             imageUrl={featureItem.image}
+            showCtaInstallButton={featuresContentHasCtaBtn}
           />
         );
       })}
