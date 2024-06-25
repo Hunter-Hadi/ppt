@@ -1,4 +1,5 @@
 import LoadingButton from '@mui/lab/LoadingButton';
+import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import React, { FC, useEffect, useRef } from 'react';
@@ -6,6 +7,7 @@ import React, { FC, useEffect, useRef } from 'react';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import {
+  authLogout,
   useCommonUserProfile,
   useConnectMaxAIAccount,
 } from '@/features/common-auth';
@@ -41,6 +43,10 @@ const LoginWrapper: FC<{
 };
 const TestSyncLogin = () => {
   const { userProfile, currentUserRole } = useCommonUserProfile();
+  const handleLogout = () => {
+    authLogout();
+    window.location.reload();
+  };
   return (
     <AppLoadingLayout loading={false} sx={{ minHeight: '90vh' }}>
       <AppDefaultSeoLayout />
@@ -48,6 +54,9 @@ const TestSyncLogin = () => {
         <Stack>
           email: {userProfile?.email}
           role: {currentUserRole}
+        </Stack>
+        <Stack>
+          <Button onClick={handleLogout}>Logout</Button>
         </Stack>
       </LoginWrapper>
     </AppLoadingLayout>
