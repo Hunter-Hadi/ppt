@@ -516,7 +516,11 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [];
+  const keys = [
+    'home_page__features_content__ab_test_v4__content2__reading__title',
+    'home_page__hero_section__title__ab_test_v4__variant2__part2',
+    'home_page__hero_section__desc__ab_test_v4__variant2',
+  ];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }

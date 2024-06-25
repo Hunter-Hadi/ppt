@@ -118,19 +118,11 @@ const HeroSection: FC<IProps> = ({
                 <Typography
                   variant='custom'
                   className='title'
-                  fontSize={
-                    featuresContentVariant === 'content2'
-                      ? {
-                          xs: 40,
-                          sm: 48,
-                          lg: 52,
-                        }
-                      : {
-                          xs: 40,
-                          sm: 48,
-                          lg: 56,
-                        }
-                  }
+                  fontSize={{
+                    xs: 40,
+                    sm: 48,
+                    lg: 56,
+                  }}
                   component='h1'
                   fontWeight={700}
                 >
