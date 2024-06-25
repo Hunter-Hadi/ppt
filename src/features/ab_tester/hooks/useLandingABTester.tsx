@@ -76,21 +76,22 @@ const useLandingABTester = (autoSendEvent = false) => {
     if (!enabled || !variant) {
       return null;
     }
-    if (variant.includes('content1')) {
+    if (variant.includes('content2')) {
       return (
         <>
-          {t('pages:home_page__hero_section__title__part1')}
+          {t(
+            'pages:home_page__hero_section__title__ab_test_v4__variant2__part1',
+          )}
           <br />
-          {t('pages:home_page__hero_section__title__part2')}
-          <br />
-          {t('pages:home_page__hero_section__title__part3')}
+          {t(
+            'pages:home_page__hero_section__title__ab_test_v4__variant2__part2',
+          )}
         </>
       );
-    } else if (variant.includes('content2')) {
-      return <>{t('pages:home_page__hero_section__title__variant2')}</>;
-    } else if (variant.includes('content3')) {
-      return <>{t('pages:home_page__hero_section__title__variant3')}</>;
+    } else if (variant.includes('content1')) {
+      return <>{t('pages:home_page__hero_section__title')}</>;
     }
+
     return null;
   }, [variant, t, enabled]);
 
@@ -102,10 +103,9 @@ const useLandingABTester = (autoSendEvent = false) => {
     if (variant.includes('content1')) {
       return t('pages:home_page__hero_section__desc');
     } else if (variant.includes('content2')) {
-      return t('pages:home_page__hero_section__desc__variant2');
-    } else if (variant.includes('content3')) {
-      return t('pages:home_page__hero_section__desc__variant3');
+      return t('pages:home_page__hero_section__desc__ab_test_v4__variant2');
     }
+
     return null;
   }, [variant, t, enabled]);
 
@@ -118,18 +118,17 @@ const useLandingABTester = (autoSendEvent = false) => {
       return 'content1';
     } else if (variant.includes('content2')) {
       return 'content2';
-    } else if (variant.includes('content3')) {
-      return 'content3';
     }
 
     return null;
   }, [variant, enabled]);
 
-  const installOpenWithNewWindow = useMemo(() => {
+  const featuresContentHasCtaBtn = useMemo(() => {
     if (!enabled || !variant) {
-      return null;
+      return true;
+    } else {
+      return variant.includes('features_has_cta_btn');
     }
-    return variant.includes('install_with_new_window');
   }, [variant, enabled]);
 
   useEffect(() => {
@@ -149,7 +148,7 @@ const useLandingABTester = (autoSendEvent = false) => {
     title,
     description,
     featuresContentVariant,
-    installOpenWithNewWindow,
+    featuresContentHasCtaBtn,
   };
 };
 

@@ -7,8 +7,7 @@ import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import { RESOURCES_URL } from '@/global_constants';
 
 import CallToActionSection from './CallToActionSection';
-import FeaturesExpandVariantSection from './FeaturesCarousel/FeaturesExpandVariantSection';
-import FeaturesWithPointsVariantSection from './FeaturesCarousel/FeaturesWithPointsVariantSection';
+import FeaturesContentAbTestV4VariantContent2Section from './FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section';
 import FeaturesWithSceneVariantSection from './FeaturesCarousel/FeaturesWithSceneVariantSection';
 import HeroSection from './HeroSection';
 import HowItWork from './HowItWork';
@@ -59,10 +58,18 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
         {/* trusted by */}
         <TrustedBy />
 
-        {featuresContentVariant === 'content3' ? <HowItWork /> : null}
+        <HowItWork />
 
         {/* feature  */}
         {featuresContentVariant === 'content1' ||
+        featuresContentVariant === null ? (
+          <FeaturesWithSceneVariantSection />
+        ) : null}
+        {featuresContentVariant === 'content2' ? (
+          <FeaturesContentAbTestV4VariantContent2Section />
+        ) : null}
+
+        {/* {featuresContentVariant === 'content1' ||
         featuresContentVariant === null ? (
           <FeaturesExpandVariantSection />
         ) : null}
@@ -71,7 +78,7 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
         ) : null}
         {featuresContentVariant === 'content3' ? (
           <FeaturesWithPointsVariantSection />
-        ) : null}
+        ) : null} */}
         {/* {!loaded && <FeaturesCarouselSkeleton />} */}
 
         {/* maxai in numbers */}
