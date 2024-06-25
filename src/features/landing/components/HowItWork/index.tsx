@@ -3,12 +3,10 @@ import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
 import ProLink from '@/components/ProLink';
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
 import useFunnelSurveyController from '@/features/survey/hooks/useFunnelSurveyController';
 import { APP_PROJECT_LINK } from '@/global_constants';
 import useShareTrackerLink from '@/hooks/useShareTrackerLink';
-import { openWindow } from '@/utils/utils';
 
 const HOW_IT_WORKS_LIST = [
   {
@@ -55,7 +53,6 @@ const HOW_IT_WORKS_LIST = [
 const HowItWork = () => {
   const { t } = useTranslation();
   const { extensionLink } = useShareTrackerLink();
-  const { installOpenWithNewWindow } = useLandingABTester();
   const { reStartOpenPopupTimer } = useFunnelSurveyController(
     'SURVEY_INSTALL_DROPPED',
   );
@@ -87,11 +84,6 @@ const HowItWork = () => {
                 mixpanelTrack('install_started', {
                   ref,
                 });
-
-                if (installOpenWithNewWindow) {
-                  e.preventDefault();
-                  openWindow(extensionLink);
-                }
               }}
               title={t('pages:home_page__how_it_works__step1__title')}
               description={t(

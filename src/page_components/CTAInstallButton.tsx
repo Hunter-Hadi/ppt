@@ -11,14 +11,12 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
 import useFunnelSurveyController from '@/features/survey/hooks/useFunnelSurveyController';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink, {
   IUseShareTrackerLinkProps,
 } from '@/hooks/useShareTrackerLink';
-import { openWindow } from '@/utils/utils';
 
 interface IProps {
   sx?: SxProps;
@@ -59,8 +57,6 @@ const CTAInstallButton: FC<IProps> = ({
   const theme = useTheme();
   // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
   const isDownLg = useMediaQuery(theme.breakpoints.down('lg')); // 屏幕宽度小于 1280 时为 true
-
-  const { installOpenWithNewWindow } = useLandingABTester();
 
   const { t } = useTranslation();
 
@@ -145,10 +141,6 @@ const CTAInstallButton: FC<IProps> = ({
   }, [sx, isEmbedMode, label]);
 
   const handleClick = (e: React.MouseEvent) => {
-    if (installOpenWithNewWindow) {
-      e.preventDefault;
-      openWindow(href);
-    }
     reStartOpenPopupTimer(30 * 1000); // 30s
     mixpanelTrack('install_started', {
       ref,
@@ -159,13 +151,9 @@ const CTAInstallButton: FC<IProps> = ({
 
   return (
     <Button
-      {...(installOpenWithNewWindow
-        ? {}
-        : {
-            component: 'a',
-            href,
-            target,
-          })}
+      component='a'
+      href={href}
+      target={target}
       startIcon={
         startIcon || startIcon === null ? (
           startIcon

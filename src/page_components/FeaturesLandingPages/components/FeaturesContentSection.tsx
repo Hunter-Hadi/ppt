@@ -24,6 +24,8 @@ interface IProps {
   textWithImageLayout?: 'textToImage' | 'imageToText';
 
   pictureRetouchingDirection?: false | IPictureRetouchingProps['direction'];
+
+  showCtaInstallButton?: boolean;
 }
 const FeaturesContentSection: FC<IProps> = ({
   icon,
@@ -32,6 +34,7 @@ const FeaturesContentSection: FC<IProps> = ({
   imageUrl,
   textWithImageLayout = 'textToImage',
   pictureRetouchingDirection = false,
+  showCtaInstallButton = true,
 }) => {
   const { t } = useTranslation();
   const theme = useTheme();
@@ -103,27 +106,32 @@ const FeaturesContentSection: FC<IProps> = ({
                 description
               )}
 
-              <CTAInstallButton
-                sx={{
-                  width: 'max-content',
-                  height: 44,
-                  // borderRadius: 2,
-                  fontSize: 16,
-                  py: 1.5,
-                  px: 2,
-                  mt: 4,
-                }}
-                trackerLinkProps={{
-                  queryRefEnable: true,
-                  pathnameRefEnable: true,
-                }}
-                startIcon={null}
-                endIcon={null}
-                variant={'contained'}
-                text={t('features_landing:cta_text__add_to_browser_for_free', {
-                  BROWSER: browserAgent,
-                })}
-              />
+              {showCtaInstallButton && (
+                <CTAInstallButton
+                  sx={{
+                    width: 'max-content',
+                    height: 44,
+                    // borderRadius: 2,
+                    fontSize: 16,
+                    py: 1.5,
+                    px: 2,
+                    mt: 4,
+                  }}
+                  trackerLinkProps={{
+                    queryRefEnable: true,
+                    pathnameRefEnable: true,
+                  }}
+                  startIcon={null}
+                  endIcon={null}
+                  variant={'contained'}
+                  text={t(
+                    'features_landing:cta_text__add_to_browser_for_free',
+                    {
+                      BROWSER: browserAgent,
+                    },
+                  )}
+                />
+              )}
             </Stack>
           </Grid>
           <Grid
