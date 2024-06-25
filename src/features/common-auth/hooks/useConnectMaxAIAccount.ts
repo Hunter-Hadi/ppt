@@ -47,7 +47,7 @@ const checkSession = () => {
   if (isExpired) {
     authLogout();
   }
-  return isExpired;
+  return !isExpired;
 };
 
 export const useConnectMaxAIAccount = (debug = false) => {
