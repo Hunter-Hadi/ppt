@@ -22,7 +22,8 @@ const RESOURCES_MENU_LIST = [
   },
   {
     label: 'app_footer:resource__learning_center__label',
-    href: '/learning-center/',
+    // target: '_blank',
+    href: `https://www.maxai.me/docs/help/ `, // link 最后加了一个 空格，是为了让 nextJs Link 组件不自动删除 尾斜杠
   },
 ];
 

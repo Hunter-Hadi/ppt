@@ -21,6 +21,7 @@ interface IProps {
   menulist: {
     label: string | ((t: TFunction) => React.ReactNode);
     href: string;
+    target?: React.HTMLAttributeAnchorTarget;
   }[];
   children: React.ReactNode;
 }
@@ -127,7 +128,13 @@ const DropdownMenuItem: FC<IProps> = ({
             >
               <ProLink
                 href={menuItem.href}
-                target={isExternalUrl(menuItem.href) ? '_blank' : undefined}
+                target={
+                  menuItem.href
+                    ? menuItem.href
+                    : isExternalUrl(menuItem.href)
+                    ? '_blank'
+                    : undefined
+                }
                 color='inherit'
                 hardRefresh
                 sx={{
@@ -240,6 +247,7 @@ const DropdownMenuItem: FC<IProps> = ({
                       <ProLink
                         href={menuItem.href}
                         color='inherit'
+                        target={menuItem.href ? menuItem.target : undefined}
                         hardRefresh
                         sx={{
                           width: '100%',

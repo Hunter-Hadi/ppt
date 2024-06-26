@@ -53,15 +53,15 @@ const PRODUCTS_MENU_LIST = [
         title: 'modules:header__menu__products__features__ai_chat__label',
       },
       {
-        href: '/features/ai-summary',
+        href: '/features/ai-rewriter',
         title: 'modules:header__menu__products__features__ai_rewriter__label',
       },
       {
-        href: '/features/ai-search',
+        href: '/features/ai-summary',
         title: 'modules:header__menu__products__features__ai_summary__label',
       },
       {
-        href: '/features/ai-rewriter',
+        href: '/features/ai-instant-reply',
         title:
           'modules:header__menu__products__features__ai_instant_reply__label',
       },
@@ -71,23 +71,23 @@ const PRODUCTS_MENU_LIST = [
           'modules:header__menu__products__features__ai_reading_assistant__label',
       },
       {
-        href: '/features/ai-translator',
+        href: '/features/ai-prompts',
         title: 'modules:header__menu__products__features__ai_prompts__label',
       },
       {
-        href: '/features/ai-instant-reply',
+        href: '/features/ai-search',
         title: 'modules:header__menu__products__features__ai_search__label',
       },
       {
-        href: '/features/ai-prompts',
+        href: '/features/ai-art',
         title: 'modules:header__menu__products__features__ai_art__label',
       },
       {
-        href: '/features/ai-vision',
+        href: '/features/ai-translator',
         title: 'modules:header__menu__products__features__ai_translator__label',
       },
       {
-        href: '/features/ai-art',
+        href: '/features/ai-vision',
         title: 'modules:header__menu__products__features__ai_vision__label',
       },
     ],
