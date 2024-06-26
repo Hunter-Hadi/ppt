@@ -55,7 +55,7 @@ const translateValue = async (translateJson, from, to, logPrefix) => {
       if (e.statusCode === 401) {
         console.error('❌ChatGPTAPI Error: 401 Unauthorized');
       }
-      console.error(logPrefix + 'api.sendMessage error', e);
+      debug && console.error(logPrefix + 'api.sendMessage error', e);
     }
     let data = null;
     if (res && res.text && res.detail) {
