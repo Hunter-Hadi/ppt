@@ -1,16 +1,31 @@
 import { Stack } from '@mui/material';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import BasicUsage from '@/page_components/LearningCenterPages/BasicUsage';
 import Features from '@/page_components/LearningCenterPages/Features';
 import Introduction from '@/page_components/LearningCenterPages/introduction';
 import LearningCenterSideMenu from '@/page_components/LearningCenterPages/LearningCenterSideMenu';
 
 const LearningCenterPages = () => {
+  const { replace } = useRouter();
+  useEffect(() => {
+    replace('/docs/help/');
+  }, []);
+  return (
+    <AppLoadingLayout
+      loading
+      sx={{
+        height: '100vh',
+      }}
+    />
+  );
   const { t } = useTranslation();
+
   return (
     <AppContainer
       sx={{
