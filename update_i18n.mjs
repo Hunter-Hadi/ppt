@@ -26,7 +26,7 @@ const translateValue = async (translateJson, from, to, logPrefix) => {
   const runTranslate = async (prompt, times) => {
     const agent = new HttpsProxyAgent('http://127.0.0.1:7890');
     const api = new ChatGPTAPI({
-      apiKey: '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',
+      apiKey: 'sk-proj-HS4ebd1XfJaNj4AhtXm9T3BlbkFJi35pdusCEP0CmKUK4t9z',
       completionParams: {
         model: 'gpt-3.5-turbo-16k',
         temperature: 0.2,
@@ -52,7 +52,10 @@ const translateValue = async (translateJson, from, to, logPrefix) => {
     try {
       res = await api.sendMessage(prompt);
     } catch (e) {
-      debug && console.error(logPrefix + 'api.sendMessage error', e);
+      if (e.statusCode === 401) {
+        console.error('❌ChatGPTAPI Error: 401 Unauthorized');
+      }
+      console.error(logPrefix + 'api.sendMessage error', e);
     }
     let data = null;
     if (res && res.text && res.detail) {
@@ -504,6 +507,25 @@ const updateI18nJson = async (
   console.log('==================================');
 };
 
+async function getCurrentCountryCode() {
+  try {
+    // 获取用户的IP信息
+    const agent = new HttpsProxyAgent('http://127.0.0.1:7890');
+    const ipInfoRes = await nodeFetch('https://api64.ipify.org?format=json', {
+      agent,
+    });
+    const ipInfo = await ipInfoRes.json();
+    const ipAddress = ipInfo.ip;
+    // 使用IP地址获取地理位置信息
+    const geoResponse = await fetch(`https://ipapi.co/${ipAddress}/json/`);
+    const geoData = await geoResponse.json();
+    return geoData.country_code;
+  } catch (e) {
+    console.error('getCurrentCountry error', e);
+    return 'UNKNOWN';
+  }
+}
+
 /**
  * 增量更新指定字段
  * @param keys 需要更新的字段
@@ -516,11 +538,16 @@ async function updateKeys(keys, forceUpdate, retryLanguageCodes = []) {
 }
 
 async function main() {
-  const keys = [
-    'home_page__features_content__ab_test_v4__content2__reading__title',
-    'home_page__hero_section__title__ab_test_v4__variant2__part2',
-    'home_page__hero_section__desc__ab_test_v4__variant2',
-  ];
+  // 美国、日本、韩国、新加坡
+  const allowedCountryCodes = ['US', 'JP', 'KR', 'SG'];
+  const ipCountryCode = await getCurrentCountryCode();
+  if (!allowedCountryCodes.includes(ipCountryCode)) {
+    console.log(
+      `❌当前IP[${ipCountryCode}]不在允许的国家范围内(美国、日本、韩国、新加坡)`,
+    );
+    return;
+  }
+  const keys = [];
   const retryLanguageCodes = [];
   await updateKeys(keys, keys.length > 0, retryLanguageCodes);
 }
