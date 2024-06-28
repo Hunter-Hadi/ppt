@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Fără copiere, fără lipire, fără schimbarea contextului.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Primește ajutor AI, exact acolo unde ai nevoie.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Citește, scrie și caută cu ajutorul IA",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Termină munca de 10 ori mai repede"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Termină munca de 10 ori mai repede",
+    "partners__try_our_extension": "Încercați noua extensie a partenerului nostru 👇",
+    "partners__try_our_tools": "Încercați instrumentele gratuite ale partenerului nostru"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",

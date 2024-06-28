@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Bez kopírování, bez vkládání, bez přepínání kontextu.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Získejte pomoc AI přímo tam, kde ji potřebujete.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Čtěte, pište a vyhledávejte s pomocí umělé inteligence",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Dokončete práci 10x rychleji"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Dokončete práci 10x rychleji",
+    "partners__try_our_extension": "Vyzkoušejte nové rozšíření našeho partnera 👇",
+    "partners__try_our_tools": "Vyzkoušejte bezplatné nástroje našeho partnera"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",

@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Pas de copier-coller, pas de changement de contexte.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Obtenez de l'aide IA là où vous en avez besoin.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Lire, écrire et rechercher avec l'IA",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Terminer le travail 10 fois plus rapidement"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Terminer le travail 10 fois plus rapidement",
+    "partners__try_our_extension": "Essayez la nouvelle extension de notre partenaire 👇",
+    "partners__try_our_tools": "Essayez les outils gratuits de notre partenaire"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",

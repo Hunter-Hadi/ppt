@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "복사 및 붙여넣기, 컨텍스트 전환 없이 작동합니다.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "필요한 곳에서 AI 도움을 받으세요.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "인공지능으로 읽기, 쓰기 및 검색",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "작업을 10배 빨리 완료하세요"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "작업을 10배 빨리 완료하세요",
+    "partners__try_our_extension": "파트너의 새로운 확장 기능을 시도해보세요 👇",
+    "partners__try_our_tools": "파트너의 무료 도구를 시도해보세요"
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",

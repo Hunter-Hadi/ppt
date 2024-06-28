@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Holen Sie sich KI-Hilfe genau dort, wo Sie sie benötigen.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Mit KI lesen, schreiben und suchen",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Arbeit 10x schneller erledigen"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Arbeit 10x schneller erledigen",
+    "partners__try_our_extension": "Probieren Sie die neue Erweiterung unseres Partners aus 👇",
+    "partners__try_our_tools": "Probieren Sie die kostenlosen Tools unseres Partners aus"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",

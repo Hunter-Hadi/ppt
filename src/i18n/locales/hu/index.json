@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Nincs másolás, beillesztés, kontextusváltás.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Kapj AI segítséget ott, ahol szükséged van rá.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Olvasás, írás és keresés AI-val",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Munka 10-szer gyorsabb befejezése"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Munka 10-szer gyorsabb befejezése",
+    "partners__try_our_extension": "Próbáld ki partnerünk új kiterjesztését 👇",
+    "partners__try_our_tools": "Próbáld ki partnerünk ingyenes eszközeit"
   },
   "prompt_library": {
     "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",

@@ -707,7 +707,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "无需复制、粘贴或切换上下文。",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "在您需要的地方获得AI帮助。",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "使用AI进行阅读、写作和搜索",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "10倍提速完成工作"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "10倍提速完成工作",
+    "partners__try_our_extension": "试用我们合作伙伴的新扩展 👇",
+    "partners__try_our_tools": "试用我们合作伙伴的免费工具"
   },
   "button": {
     "add_to_chrome_for_free": "添加到 Chrome - 免费",

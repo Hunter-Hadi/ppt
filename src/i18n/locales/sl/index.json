@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Brez kopiranja, brez lepljenja, brez preklapljanja konteksta.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Dobite pomoč AI, tam kjer jo potrebujete.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Branje, pisanje in iskanje z AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Dokončajte delo 10-krat hitreje"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Dokončajte delo 10-krat hitreje",
+    "partners__try_our_extension": "Preizkusite novo razširitev našega partnerja 👇",
+    "partners__try_our_tools": "Preizkusite brezplačna orodja našega partnerja"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knjižnica visokokakovostnih AI spodbud",

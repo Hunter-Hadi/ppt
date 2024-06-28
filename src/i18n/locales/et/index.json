@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Ei mingit kopeerimist, kleepimist ega konteksti vahetamist.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Saa AI abi just seal, kus seda vajad.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Loe, kirjuta ja otsi tehisintellektiga",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Lõpeta töö 10 korda kiiremini"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Lõpeta töö 10 korda kiiremini",
+    "partners__try_our_extension": "Proovige meie partneri uut laiendust 👇",
+    "partners__try_our_tools": "Proovige meie partneri tasuta tööriistu"
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",

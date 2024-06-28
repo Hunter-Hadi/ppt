@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Ei kopioimista, ei liittämistä, ei kontekstin vaihtamista.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Saat tekoälyapua juuri siellä, missä sitä tarvitset.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Lue, kirjoita ja hae tekoälyn avulla",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Viimeistele työ 10 kertaa nopeammin"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Viimeistele työ 10 kertaa nopeammin",
+    "partners__try_our_extension": "Kokeile kumppanimme uutta laajennusta 👇",
+    "partners__try_our_tools": "Kokeile kumppanimme ilmaisia työkaluja"
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",

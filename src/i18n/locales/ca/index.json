@@ -721,7 +721,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Sense copiar, sense enganxar, sense canviar de context.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Obtén ajuda d'IA just on la necessites.",
     "home_page__hero_section__title__ab_test_v5__variant2__part1": "Llegeix, escriu i cerca amb IA",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Acaba la feina 10 vegades més ràpid"
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Acaba la feina 10 vegades més ràpid",
+    "partners__try_our_extension": "Prova la nova extensió del nostre soci 👇",
+    "partners__try_our_tools": "Prova les eines gratuïtes del nostre soci"
   },
   "prompt_library": {
     "use_prompt_library__title": "Llibreria de suggeriments d'IA de alta qualitat",
