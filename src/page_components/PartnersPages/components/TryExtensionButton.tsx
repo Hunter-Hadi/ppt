@@ -1,4 +1,5 @@
 import { Button, SxProps, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
 import { EXTENSION_SHARE_TRACKER_LINK } from '@/global_constants';
@@ -18,6 +19,8 @@ const TryExtensionButton: FC<IProps> = ({
   href,
   target = '_blank',
 }) => {
+  const { t } = useTranslation();
+
   return (
     <Button
       href={href ? href : `${EXTENSION_SHARE_TRACKER_LINK}`}
@@ -37,7 +40,7 @@ const TryExtensionButton: FC<IProps> = ({
     >
       {}
       <Typography color='primary'>
-        {text ? text : `Try our partner's new extension 👇`}
+        {text ? text : t('pages:partners__try_our_extension')}
       </Typography>
     </Button>
   );
