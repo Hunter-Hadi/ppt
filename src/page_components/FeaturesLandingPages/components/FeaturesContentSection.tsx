@@ -34,7 +34,7 @@ const FeaturesContentSection: FC<IProps> = ({
   imageUrl,
   textWithImageLayout = 'textToImage',
   pictureRetouchingDirection = false,
-  showCtaInstallButton = true,
+  showCtaInstallButton = false,
 }) => {
   const { t } = useTranslation();
   const theme = useTheme();

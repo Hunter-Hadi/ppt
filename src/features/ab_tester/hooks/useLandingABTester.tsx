@@ -11,8 +11,11 @@ import {
   TESTER_LANDING_PATH_TARGET_PATHNAME,
 } from '@/features/ab_tester/constant/landingVariant';
 import { isTargetTestPathname } from '@/features/ab_tester/utils';
+import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserInfoHelper';
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
+import languageCodeMap from '@/i18n/types/languageCodeMap.json';
+import { removeLocaleInPathname } from '@/i18n/utils';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 const LandingABTestVariantKeyAtom = atom({
@@ -25,7 +28,7 @@ const LandingABTestVariantKeyAtom = atom({
 const useLandingABTester = (autoSendEvent = false) => {
   const { t } = useTranslation();
 
-  const { pathname, isReady } = useRouter();
+  const { pathname, isReady, replace, query } = useRouter();
 
   const sendMixpanelOnce = useRef(false);
 
@@ -40,26 +43,56 @@ const useLandingABTester = (autoSendEvent = false) => {
     return isTargetTestPathname(pathname, TESTER_LANDING_PATH_TARGET_PATHNAME);
   }, [pathname]);
 
+  const autoRedirectLanguage = useMemo(() => {
+    return (
+      variant?.includes('auto_redirect_language') &&
+      !pathname.includes('[locale]')
+    );
+  }, [variant, pathname]);
+
   useEffect(() => {
     if (sendMixpanelOnce.current || !isReady || !autoSendEvent) {
       return;
     }
+
     if (variant && enabled) {
-      if (pathname.startsWith('/partners')) {
-        // 在 partners 页面时，需要判断 没有安装插件时，才发送 test_page_viewed
-        if (checkExtensionStatusLoaded && !hasExtension) {
-          sendMixpanelOnce.current = true;
-          mixpanelTrack('test_page_viewed', {
-            testVersion: LANDING_VARIANT_TO_VERSION_MAP[variant],
-            testFeature: 'homePage',
-          });
-        }
-      } else {
+      const sendEvent = () => {
         sendMixpanelOnce.current = true;
         mixpanelTrack('test_page_viewed', {
           testVersion: LANDING_VARIANT_TO_VERSION_MAP[variant],
           testFeature: 'homePage',
         });
+      };
+
+      // 用当前浏览器的首选语言去 找对应的支持的 locale
+      const currentBrowserLanguage = getBrowserLanguage();
+      const languageCodes = Object.keys(languageCodeMap);
+      const isSupportLanguage = languageCodes.find((languageCode) => {
+        return languageCode.includes(currentBrowserLanguage);
+      });
+
+      if (
+        autoRedirectLanguage &&
+        isSupportLanguage &&
+        // 如果当前语言不是英文，就跳转到对应语言的页面
+        isSupportLanguage !== 'en' &&
+        isSupportLanguage !== 'en-GB' &&
+        isSupportLanguage !== 'en-US'
+      ) {
+        const targetPathname = removeLocaleInPathname(pathname);
+        replace({
+          pathname: `/${isSupportLanguage}${targetPathname}`,
+          query,
+        });
+      } else {
+        if (pathname.startsWith('/partners')) {
+          // 在 partners 页面时，需要判断 没有安装插件时，才发送 test_page_viewed
+          if (checkExtensionStatusLoaded && !hasExtension) {
+            sendEvent();
+          }
+        } else {
+          sendEvent();
+        }
       }
     }
   }, [
@@ -70,6 +103,9 @@ const useLandingABTester = (autoSendEvent = false) => {
     hasExtension,
     autoSendEvent,
     checkExtensionStatusLoaded,
+    autoRedirectLanguage,
+    replace,
+    query,
   ]);
 
   const title = useMemo<React.ReactNode>(() => {
@@ -77,6 +113,18 @@ const useLandingABTester = (autoSendEvent = false) => {
       return null;
     }
     if (variant.includes('content2')) {
+      return (
+        <>
+          {t(
+            'pages:home_page__hero_section__title__ab_test_v5__variant2__part1',
+          )}
+          <br />
+          {t(
+            'pages:home_page__hero_section__title__ab_test_v5__variant2__part2',
+          )}
+        </>
+      );
+    } else if (variant.includes('content1')) {
       return (
         <>
           {t(
@@ -88,48 +136,24 @@ const useLandingABTester = (autoSendEvent = false) => {
           )}
         </>
       );
-    } else if (variant.includes('content1')) {
-      return <>{t('pages:home_page__hero_section__title')}</>;
     }
 
     return null;
   }, [variant, t, enabled]);
 
-  const description = useMemo<React.ReactNode>(() => {
-    if (!enabled || !variant) {
-      return null;
-    }
+  // const description = useMemo<React.ReactNode>(() => {
+  //   if (!enabled || !variant) {
+  //     return null;
+  //   }
 
-    if (variant.includes('content1')) {
-      return t('pages:home_page__hero_section__desc');
-    } else if (variant.includes('content2')) {
-      return t('pages:home_page__hero_section__desc__ab_test_v4__variant2');
-    }
+  //   if (variant.includes('content1')) {
+  //     return t('pages:home_page__hero_section__desc__ab_test_v4__variant2');
+  //   } else if (variant.includes('content2')) {
+  //     return '123';
+  //   }
 
-    return null;
-  }, [variant, t, enabled]);
-
-  const featuresContentVariant = useMemo(() => {
-    if (!enabled || !variant) {
-      return null;
-    }
-
-    if (variant.includes('content1')) {
-      return 'content1';
-    } else if (variant.includes('content2')) {
-      return 'content2';
-    }
-
-    return null;
-  }, [variant, enabled]);
-
-  const featuresContentHasCtaBtn = useMemo(() => {
-    if (!enabled || !variant) {
-      return true;
-    } else {
-      return variant.includes('features_has_cta_btn');
-    }
-  }, [variant, enabled]);
+  //   return null;
+  // }, [variant, t, enabled]);
 
   useEffect(() => {
     if (!variant && enabled) {
@@ -146,9 +170,7 @@ const useLandingABTester = (autoSendEvent = false) => {
     setVariant,
     loaded,
     title,
-    description,
-    featuresContentVariant,
-    featuresContentHasCtaBtn,
+    description: null,
   };
 };
 

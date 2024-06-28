@@ -2,7 +2,6 @@ import { Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React from 'react';
 
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
 import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
 
@@ -131,8 +130,6 @@ const FEATURES_CONTENT = [
 const FeaturesContentAbTestV4VariantContent2Section = () => {
   const { t } = useTranslation();
 
-  const { featuresContentHasCtaBtn } = useLandingABTester();
-
   return (
     <Stack>
       {FEATURES_CONTENT.map((featureItem, index) => {
@@ -177,7 +174,6 @@ const FeaturesContentAbTestV4VariantContent2Section = () => {
               index % 2 === 0 ? 'textToImage' : 'imageToText'
             }
             imageUrl={featureItem.image}
-            showCtaInstallButton={featuresContentHasCtaBtn}
           />
         );
       })}

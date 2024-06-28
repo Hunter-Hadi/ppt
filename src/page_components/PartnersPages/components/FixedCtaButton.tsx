@@ -5,8 +5,7 @@ import React, { FC } from 'react';
 import ProLink from '@/components/ProLink';
 import { MAXAI_WWW_SHARE_TRACKER_LINK } from '@/global_constants';
 import { useInstallChromeExtensionLink } from '@/hooks';
-
-import CTAInstallButton from '../CTAInstallButton';
+import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
   propRef?: string;

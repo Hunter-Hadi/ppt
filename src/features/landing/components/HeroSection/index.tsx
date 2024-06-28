@@ -3,7 +3,6 @@ import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
 
 import CustomIcon from '@/components/CustomIcon';
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester';
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
 import HeroVideoBox, {
   IHeroVideoProps,
@@ -45,8 +44,6 @@ const HeroSection: FC<IProps> = ({
 
   const { t } = useTranslation();
 
-  const { featuresContentVariant } = useLandingABTester();
-
   // const { openVideoPopup } = useVideoPopupController();
 
   const title = useMemo(() => {
@@ -65,7 +62,7 @@ const HeroSection: FC<IProps> = ({
     return propDescription ? (
       propDescription
     ) : (
-      <>{t('pages:home_page__hero_section__desc')}</>
+      <>{t('pages:home_page__hero_section__desc__ab_test_v4__variant2')}</>
     );
   }, [propDescription, t]);
 
@@ -106,8 +103,7 @@ const HeroSection: FC<IProps> = ({
                   justifyContent: 'center',
                   alignItems: 'center',
                   textAlign: 'center',
-                  maxWidth:
-                    featuresContentVariant === 'content2' ? 'unset' : 764,
+                  maxWidth: 'unset',
                   mx: 'auto',
                 },
               ]}

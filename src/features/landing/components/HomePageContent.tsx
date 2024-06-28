@@ -8,7 +8,6 @@ import { RESOURCES_URL } from '@/global_constants';
 
 import CallToActionSection from './CallToActionSection';
 import FeaturesContentAbTestV4VariantContent2Section from './FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section';
-import FeaturesWithSceneVariantSection from './FeaturesCarousel/FeaturesWithSceneVariantSection';
 import HeroSection from './HeroSection';
 import HowItWork from './HowItWork';
 import MaxAIInNumbers from './MaxAIInNumbers';
@@ -27,7 +26,6 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
     loaded,
     title,
     description,
-    featuresContentVariant,
   } = useLandingABTester(true);
 
   useEffect(() => {
@@ -61,25 +59,7 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
         <HowItWork />
 
         {/* feature  */}
-        {featuresContentVariant === 'content1' ||
-        featuresContentVariant === null ? (
-          <FeaturesWithSceneVariantSection />
-        ) : null}
-        {featuresContentVariant === 'content2' ? (
-          <FeaturesContentAbTestV4VariantContent2Section />
-        ) : null}
-
-        {/* {featuresContentVariant === 'content1' ||
-        featuresContentVariant === null ? (
-          <FeaturesExpandVariantSection />
-        ) : null}
-        {featuresContentVariant === 'content2' ? (
-          <FeaturesWithSceneVariantSection />
-        ) : null}
-        {featuresContentVariant === 'content3' ? (
-          <FeaturesWithPointsVariantSection />
-        ) : null} */}
-        {/* {!loaded && <FeaturesCarouselSkeleton />} */}
+        <FeaturesContentAbTestV4VariantContent2Section />
 
         {/* maxai in numbers */}
         <MaxAIInNumbers />

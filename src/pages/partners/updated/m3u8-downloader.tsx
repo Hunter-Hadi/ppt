@@ -7,8 +7,8 @@ import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import ProLink from '@/components/ProLink';
 import HomePageContent from '@/features/landing/components/HomePageContent';
 import { makeStaticProps } from '@/i18n/utils/staticHelper';
-import FixedCtaButton from '@/page_components/partners_components/FixedCtaButton';
-import TryExtensionButton from '@/page_components/partners_components/TryExtensionButton';
+import FixedCtaButton from '@/page_components/PartnersPages/components/FixedCtaButton';
+import TryExtensionButton from '@/page_components/PartnersPages/components/TryExtensionButton';
 
 const UpdatedPage = () => {
   const router = useRouter();
