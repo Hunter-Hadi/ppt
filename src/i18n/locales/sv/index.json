@@ -719,7 +719,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__title": "Fungerar där du arbetar",
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI fungerar på alla webbappar och webbplatser du använder.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Ingen kopiering, ingen klistring, ingen växling av sammanhang.",
-    "home_page__features_content__ab_test_v4__content2__browser__description3": "Få AI-hjälp precis där du behöver det."
+    "home_page__features_content__ab_test_v4__content2__browser__description3": "Få AI-hjälp precis där du behöver det.",
+    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Läs, skriv och sök med AI",
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Slutför arbete 10x snabbare"
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",

@@ -719,7 +719,9 @@
     "home_page__features_content__ab_test_v4__content2__browser__title": "Funciona onde você trabalha",
     "home_page__features_content__ab_test_v4__content2__browser__description1": "O MaxAI funciona em todos os aplicativos e sites da web que você usa.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Sem copiar, colar ou alternar de contexto.",
-    "home_page__features_content__ab_test_v4__content2__browser__description3": "Obtenha ajuda de IA exatamente onde você precisa."
+    "home_page__features_content__ab_test_v4__content2__browser__description3": "Obtenha ajuda de IA exatamente onde você precisa.",
+    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Leia, escreva e pesquise com IA",
+    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Termine o trabalho 10x mais rápido"
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugestões de IA de alta qualidade",
