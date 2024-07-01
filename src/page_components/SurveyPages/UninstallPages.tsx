@@ -4,15 +4,32 @@ import React, { FC, useEffect, useState } from 'react';
 
 import AppContainer from '@/app_layout/AppContainer';
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import CustomIcon from '@/components/CustomIcon';
 import useBrowserAgent from '@/features/common/hooks/useBrowserAgent';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
 import FunnelSurveyContentRenderer from '@/features/survey/components/FunnelSurveyContentRenderer';
+import { APP_PROJECT_LINK } from '@/global_constants';
 
 import CTAInstallButton from '../CTAInstallButton';
 
 const UninstallPages: FC = () => {
   // const router = useRouter();
+
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      location.href = `${APP_PROJECT_LINK}/survey/uninstall`;
+    }
+  }, []);
+
+  return (
+    <AppLoadingLayout
+      loading
+      sx={{
+        height: '50vh',
+      }}
+    />
+  );
 
   const { browserAgent: agent } = useBrowserAgent();
 
