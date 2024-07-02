@@ -1,11 +1,11 @@
-import { AppBar, Box, Divider, Toolbar, useMediaQuery } from '@mui/material';
-import { debounce } from 'lodash-es';
+import { Box, Divider, Toolbar, useMediaQuery } from '@mui/material';
+import Stack from '@mui/material/Stack';
 import { useRouter } from 'next/router';
-import { FC, useEffect } from 'react';
+import { FC } from 'react';
 
-import useResizeObserver from '@/features/common/hooks/useResizeObserver';
 import useAppHeaderState from '@/hooks/useAppHeaderState';
 import { removeLocaleInPathname } from '@/i18n/utils';
+import AppBar from '@/packages/base-ui/components/AppBar';
 import AppLogo from '@/page_components/AppLogo';
 
 import AppHeaderCTABtn from './AppHeaderCTABtn';
@@ -28,32 +28,28 @@ const AppHeader: FC = () => {
     removeLocaleInPathname(pathname).startsWith(path),
   );
 
-  const { updateAppHeaderHeight } = useAppHeaderState();
+  const { setAppHeaderHeight, appHeaderHeight } = useAppHeaderState();
 
-  const headerElement = useResizeObserver<HTMLDivElement>(
-    updateAppHeaderHeight,
-  );
-
-  useEffect(() => {
-    // 监听 窗口 变化, 更新 app header height state
-
-    const resizeHandle = () => {
-      updateAppHeaderHeight();
-    };
-    const debouncedHandle = debounce(resizeHandle, 200);
-
-    resizeHandle();
-
-    window.addEventListener('resize', debouncedHandle);
-
-    return () => {
-      window.removeEventListener('resize', debouncedHandle);
-    };
-  }, []);
+  console.log(`appHeaderHeight`, appHeaderHeight);
 
   if (isNotHeader) {
     return null;
   }
+
+  return (
+    <AppBar
+      hidden={isNotHeader}
+      MenuListComponents={
+        <Stack direction={'row'} alignItems='center' width={'100%'}>
+          {!isMiniMenu ? <AppHeaderMenuList /> : null}
+          <Box flex={1} />
+          <AppHeaderCTABtn isSmallScreen={isMiniMenu} />
+          {isMiniMenu ? <AppHeaderMenuList isSmallScreen /> : null}
+        </Stack>
+      }
+      onHeightChange={setAppHeaderHeight}
+    />
+  );
 
   return (
     <AppBar
