@@ -151,15 +151,40 @@ const FeaturesTableContentCell: FC<IProps> = ({
           )}
 
           {data.status === 'value' && data.statusText ? (
-            <Typography
-              variant='custom'
-              fontSize={fontSize}
-              fontWeight={500}
-              lineHeight={1.5}
-              color='text.primary'
-            >
-              {t(data.statusText)}
-            </Typography>
+            <Stack direction={'row'} alignItems='center' spacing={1}>
+              <Typography
+                variant='custom'
+                fontSize={fontSize}
+                fontWeight={500}
+                lineHeight={1.5}
+                color='text.primary'
+              >
+                {t(data.statusText)}
+              </Typography>
+              {data.tooltip && (
+                <Tooltip
+                  title={
+                    data.tooltip.desc ? (
+                      <Typography variant='caption'>
+                        {t(data.tooltip.desc)}
+                      </Typography>
+                    ) : null
+                  }
+                  arrow
+                  placement='top'
+                >
+                  <Stack
+                    alignItems={'center'}
+                    justifyContent='center'
+                    borderRadius={'50%'}
+                    width={20}
+                    height={20}
+                  >
+                    <TooltipIcon />
+                  </Stack>
+                </Tooltip>
+              )}
+            </Stack>
           ) : null}
         </Stack>
       );

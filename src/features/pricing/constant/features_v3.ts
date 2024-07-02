@@ -108,8 +108,6 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
         desc: 'pricing:features__advanced_text_queries__tooltip__description',
         imageLink: '/assets/pricing/advanced-text-queries.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-        moreDescription:
-          'pricing:features__advanced_text_queries__elite__more_description',
       },
     },
     free: { status: 'none' },
@@ -130,6 +128,9 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     elite: {
       status: 'value',
       statusText: 'common:unlimited',
+      tooltip: {
+        desc: 'pricing:features__advanced_text_queries__elite__more_description',
+      },
     },
     meta: {
       type: 'deepen',
@@ -261,8 +262,6 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
         desc: 'pricing:features__image_queries__tooltip__description',
         imageLink: '/assets/pricing/image-queries.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-        moreDescription:
-          'pricing:features__image_queries__elite__more_description',
       },
     },
     free: { status: 'none' },
@@ -277,6 +276,9 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     elite: {
       status: 'value',
       statusText: 'common:unlimited',
+      tooltip: {
+        desc: 'pricing:features__image_queries__elite__more_description',
+      },
     },
     meta: {
       type: 'deepen',
