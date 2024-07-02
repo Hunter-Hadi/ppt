@@ -15,6 +15,7 @@ import MuiAvatar from '@mui/material/Avatar';
 import React, { FC, useEffect } from 'react';
 
 import CustomModal from '@/components/CustomModal';
+import { MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL } from '@/features/common/constants';
 import { post } from '@/features/common/utils/request';
 import { authLogout, useCommonUserProfile } from '@/features/common-auth';
 import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
@@ -99,6 +100,33 @@ const Avatar: FC = () => {
           <Typography variant={'body2'}>{userProfile?.email}</Typography>
         </MenuItem>
         <MenuItem
+          component={'a'}
+          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/my-plan`}
+          onClick={() => {
+            handleClose();
+          }}
+        >
+          <Typography variant={'body2'}>My Plan</Typography>
+        </MenuItem>
+        <MenuItem
+          component={'a'}
+          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/rewards`}
+          onClick={() => {
+            handleClose();
+          }}
+        >
+          <Typography variant={'body2'}>Rewards</Typography>
+        </MenuItem>
+        <MenuItem
+          component={'a'}
+          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/get-started`}
+          onClick={() => {
+            handleClose();
+          }}
+        >
+          <Typography variant={'body2'}>Get started</Typography>
+        </MenuItem>
+        <MenuItem
           onClick={() => {
             setDeleteAccountModalOpen(true);
           }}
@@ -107,14 +135,11 @@ const Avatar: FC = () => {
         </MenuItem>
         <MenuItem
           component={'a'}
-          href={`/logout`}
+          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/logout`}
           onClick={() => {
             handleClose();
           }}
         >
-          {/* <ListItemIcon>
-            <LogoutIcon fontSize='small' />
-          </ListItemIcon> */}
           <Typography variant={'body2'}>Log out</Typography>
         </MenuItem>
       </Menu>
