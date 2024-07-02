@@ -51,15 +51,24 @@ const checkSession = () => {
   return !isExpired;
 };
 
+// TODO: refine
 const ConnectMaxAIAccountIsLogin = atom({
   key: 'ConnectMaxAIAccountIsLogin',
   default: checkSession(),
 });
+const ConnectMaxAIAccountError = atom<string | null>({
+  key: 'ConnectMaxAIAccountError',
+  default: null,
+});
+const ConnectMaxAIAccountLoading = atom<boolean>({
+  key: 'ConnectMaxAIAccountLoading',
+  default: false,
+});
 
 export const useConnectMaxAIAccount = (debug = false) => {
   const [isLogin, setIsLogin] = useRecoilState(ConnectMaxAIAccountIsLogin);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useRecoilState(ConnectMaxAIAccountLoading);
+  const [error, setError] = useRecoilState(ConnectMaxAIAccountError);
   const [tokens, setTokens] = useState<MaxAIAuthTokensType | null>(null);
   const iframeListenerRef = useRef<iframeListenerType | null>(null);
   const iframeWatchCloseRef = useRef<ReturnType<typeof setInterval>>(-1 as any);
