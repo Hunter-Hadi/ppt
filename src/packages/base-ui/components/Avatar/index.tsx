@@ -38,7 +38,7 @@ const Avatar: FC = () => {
     setAnchorEl(null);
   };
 
-  if (!isLogin) {
+  if (!isLogin || !userProfile) {
     return null;
   }
 
