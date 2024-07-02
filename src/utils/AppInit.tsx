@@ -3,6 +3,7 @@ import React from 'react';
 import { useRecoilValue } from 'recoil';
 
 import { useInviteCode } from '@/features/auth/hooks/useInviteCode';
+import useInitCommonUserProfile from '@/features/common-auth/hooks/useInitCommonUserProfile';
 import ChromeExtensionDetector from '@/features/extension/components/ChromeExtensionDetector';
 import ExtensionUpdateRemindDialog from '@/features/extension/components/ExtensionUpdateRemindDialog';
 import useInitExtensionStatus from '@/features/extension/hooks/useInitExtensionStatus';
@@ -46,6 +47,7 @@ const AppGlobalBackdrop = () => {
 };
 
 const AppInit = () => {
+  useInitCommonUserProfile();
   useInitExtensionStatus();
   useInitInviteCode();
   useInitMixPanel();
