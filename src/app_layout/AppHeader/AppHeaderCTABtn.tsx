@@ -12,7 +12,7 @@ interface IProps {
 
 const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   // const { hasExtension, loaded } = useCheckExtension();
-  const { connectMaxAIAccount } = useConnectMaxAIAccount();
+  const { connectMaxAIAccount, isLogin } = useConnectMaxAIAccount();
   const { t } = useTranslation();
 
   const cacheSx = useMemo(() => {
@@ -34,10 +34,17 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
     };
   }, []);
 
-  // if (!hasExtension) {
+  const showSignInButton = useMemo(() => {
+    return false;
+    if (!isSmallScreen && !isLogin) {
+      return true;
+    }
+    return false;
+  }, [isSmallScreen, isLogin]);
+
   return (
     <Stack direction={'row'} spacing={1.5} alignItems='center'>
-      {!isSmallScreen && (
+      {showSignInButton && (
         <MenuLinkItem
           isSmallScreen={isSmallScreen}
           onClick={(e) => {
@@ -69,17 +76,6 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
       />
     </Stack>
   );
-  // }
-
-  // return (
-  //   <Button
-  //     variant='contained'
-  //     sx={{ ...cacheSx, px: 3 }}
-  //     href={APP_PROJECT_LINK}
-  //   >
-  //     {t('common:sign_in')}
-  //   </Button>
-  // );
 };
 
 export default AppHeaderCTABtn;

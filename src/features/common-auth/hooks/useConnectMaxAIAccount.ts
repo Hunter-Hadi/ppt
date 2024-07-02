@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import { atom, useRecoilState } from 'recoil';
 
 import { SSO_LOGIN_URL } from '@/features/common-auth/constants';
 import {
@@ -50,8 +51,13 @@ const checkSession = () => {
   return !isExpired;
 };
 
+const ConnectMaxAIAccountIsLogin = atom({
+  key: 'ConnectMaxAIAccountIsLogin',
+  default: checkSession(),
+});
+
 export const useConnectMaxAIAccount = (debug = false) => {
-  const [isLogin, setIsLogin] = useState(() => checkSession());
+  const [isLogin, setIsLogin] = useRecoilState(ConnectMaxAIAccountIsLogin);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [tokens, setTokens] = useState<MaxAIAuthTokensType | null>(null);
