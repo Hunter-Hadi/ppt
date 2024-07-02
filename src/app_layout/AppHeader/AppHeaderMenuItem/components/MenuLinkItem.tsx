@@ -7,15 +7,17 @@ import { isInIframe } from '@/utils/utils';
 
 interface IProps {
   isSmallScreen?: boolean;
-  link: string;
+  link?: string;
   children: React.ReactNode;
   sx?: SxProps;
+  onClick?: (e: React.MouseEvent<HTMLElement>) => void;
 }
 
 const MenuLinkItem: FC<IProps> = ({
   isSmallScreen = false,
   children,
   link,
+  onClick,
   sx,
 }) => {
   if (isSmallScreen) {
@@ -26,21 +28,26 @@ const MenuLinkItem: FC<IProps> = ({
           fontSize: 'unset !important',
           ...sx,
         }}
+        onClick={onClick}
       >
-        <ProLink
-          href={link}
-          hardRefresh
-          color='inherit'
-          sx={{
-            lineHeight: 1.5,
-            py: 2,
-            px: 2,
-            width: '100%',
-          }}
-          target={isInIframe() ? '_blank' : '_self'}
-        >
-          {children}
-        </ProLink>
+        {link ? (
+          <ProLink
+            href={link}
+            hardRefresh
+            color='inherit'
+            sx={{
+              lineHeight: 1.5,
+              py: 2,
+              px: 2,
+              width: '100%',
+            }}
+            target={isInIframe() ? '_blank' : '_self'}
+          >
+            {children}
+          </ProLink>
+        ) : (
+          children
+        )}
       </MenuItem>
     );
   } else {
@@ -58,18 +65,23 @@ const MenuLinkItem: FC<IProps> = ({
           },
           ...sx,
         }}
+        onClick={onClick}
       >
-        <ProLink
-          href={link}
-          hardRefresh
-          color='inherit'
-          sx={{
-            lineHeight: 1.5,
-          }}
-          target={isInIframe() ? '_blank' : '_self'}
-        >
-          {children}
-        </ProLink>
+        {link ? (
+          <ProLink
+            href={link}
+            hardRefresh
+            color='inherit'
+            sx={{
+              lineHeight: 1.5,
+            }}
+            target={isInIframe() ? '_blank' : '_self'}
+          >
+            {children}
+          </ProLink>
+        ) : (
+          children
+        )}
       </Button>
     );
   }

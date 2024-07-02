@@ -8,6 +8,7 @@ export const BLOG_API = {
 export const USER_API = {
   JOIN_WAITING_LIST: '/user/join_waitlist',
   SAVE_SURVEY_DATA: '/user/save_survey_data',
+  DELETE_USER_ACCOUNT: '/user/delete_user_account',
 };
 export const APP_API = {
   REF_COUNT: '/app/ref_count',
