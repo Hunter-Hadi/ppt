@@ -49,12 +49,11 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
       {showSignInButton && (
         <MenuLinkItem
           isSmallScreen={isSmallScreen}
-          onClick={(e) => {
-            e.preventDefault();
+          onClick={() => {
             connectMaxAIAccount();
           }}
         >
-          {isLogin ? (
+          {loading ? (
             <CircularProgress size={20} />
           ) : (
             <Typography
