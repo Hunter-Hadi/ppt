@@ -220,7 +220,6 @@ export const useConnectMaxAIAccount = (debug = false) => {
     debugLog('iframe created');
   };
   const connectMaxAIAccount = () => {
-    debugger;
     iframeLogin();
   };
   return {
