@@ -100,10 +100,7 @@ const AppBar: FC<IAppBarProps> = ({
 
         <Box flex={1} pr={2} />
 
-        {/* <AppHeaderCTABtn isSmallScreen={isMiniMenu} /> */}
-
         {isLogin && <Avatar />}
-        <Avatar />
       </Toolbar>
       <Divider />
     </MuiAppBar>
