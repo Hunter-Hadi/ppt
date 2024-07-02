@@ -5,9 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import debounce from 'lodash-es/debounce';
 import React, { FC, useEffect } from 'react';
 
-import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
-import Avatar from '@/packages/base-ui/components/Avatar';
 
 interface IAppBarProps {
   hidden?: boolean;
@@ -31,7 +29,7 @@ const AppBar: FC<IAppBarProps> = ({
   // const isSmallScreen = useMediaQuery(smallScreenQuery ?? '(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
 
   // TODO: isLogin 的状态不应该从这个 hook 里面获取
-  const { isLogin } = useConnectMaxAIAccount();
+  // const { isLogin } = useConnectMaxAIAccount();
 
   useEffect(() => {
     if (!onHeightChange || hidden) {
@@ -100,7 +98,7 @@ const AppBar: FC<IAppBarProps> = ({
 
         <Box flex={1} pr={2} />
 
-        {isLogin && <Avatar />}
+        {/* {isLogin && <Avatar />} */}
       </Toolbar>
       <Divider />
     </MuiAppBar>
