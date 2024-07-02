@@ -1,4 +1,7 @@
-import { buttonClasses, Stack, Typography } from '@mui/material';
+import { buttonClasses } from '@mui/material/Button';
+import CircularProgress from '@mui/material/CircularProgress';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo } from 'react';
 
@@ -12,7 +15,7 @@ interface IProps {
 
 const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   // const { hasExtension, loaded } = useCheckExtension();
-  const { connectMaxAIAccount, isLogin } = useConnectMaxAIAccount();
+  const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
   const { t } = useTranslation();
 
   const cacheSx = useMemo(() => {
@@ -35,7 +38,6 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   }, []);
 
   const showSignInButton = useMemo(() => {
-    return false;
     if (!isSmallScreen && !isLogin) {
       return true;
     }
@@ -47,20 +49,23 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
       {showSignInButton && (
         <MenuLinkItem
           isSmallScreen={isSmallScreen}
-          onClick={(e) => {
-            e.preventDefault();
+          onClick={() => {
             connectMaxAIAccount();
           }}
         >
-          <Typography
-            variant='custom'
-            fontSize={16}
-            lineHeight={1.5}
-            fontWeight={500}
-            color='text.primary'
-          >
-            {t('common:sign_in')}
-          </Typography>
+          {loading ? (
+            <CircularProgress size={20} />
+          ) : (
+            <Typography
+              variant='custom'
+              fontSize={16}
+              lineHeight={1.5}
+              fontWeight={500}
+              color='text.primary'
+            >
+              {t('common:sign_in')}
+            </Typography>
+          )}
         </MenuLinkItem>
       )}
 
