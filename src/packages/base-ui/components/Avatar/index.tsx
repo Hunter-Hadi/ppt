@@ -135,9 +135,10 @@ const Avatar: FC = () => {
         </MenuItem>
         <MenuItem
           component={'a'}
-          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/logout`}
+          // href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/logout`}
           onClick={() => {
-            handleClose();
+            authLogout();
+            // handleClose();
           }}
         >
           <Typography variant={'body2'}>Log out</Typography>

@@ -1,12 +1,11 @@
 import { buttonClasses } from '@mui/material/Button';
-import CircularProgress from '@mui/material/CircularProgress';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'next-i18next';
 import { FC, useMemo } from 'react';
 
 import MenuLinkItem from '@/app_layout/AppHeader/AppHeaderMenuItem/components/MenuLinkItem';
-import { useConnectMaxAIAccount } from '@/features/common-auth';
+import { MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL } from '@/features/common/constants';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
 
 interface IProps {
@@ -15,7 +14,7 @@ interface IProps {
 
 const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   // const { hasExtension, loaded } = useCheckExtension();
-  const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
+  // const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
   const { t } = useTranslation();
 
   const cacheSx = useMemo(() => {
@@ -38,15 +37,32 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   }, []);
 
   const showSignInButton = useMemo(() => {
-    if (!isSmallScreen && !isLogin) {
+    return !isSmallScreen;
+    if (!isSmallScreen) {
       return true;
     }
     return false;
-  }, [isSmallScreen, isLogin]);
+  }, [isSmallScreen]);
 
   return (
     <Stack direction={'row'} spacing={1.5} alignItems='center'>
       {showSignInButton && (
+        <MenuLinkItem
+          link={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/login`}
+          isSmallScreen={isSmallScreen}
+        >
+          <Typography
+            variant='custom'
+            fontSize={16}
+            lineHeight={1.5}
+            fontWeight={500}
+            color='text.primary'
+          >
+            {t('common:sign_in')}
+          </Typography>
+        </MenuLinkItem>
+      )}
+      {/* {showSignInButton && (
         <MenuLinkItem
           isSmallScreen={isSmallScreen}
           onClick={() => {
@@ -67,7 +83,7 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
             </Typography>
           )}
         </MenuLinkItem>
-      )}
+      )} */}
 
       <CTAInstallButton
         sx={cacheSx}
