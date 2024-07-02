@@ -51,6 +51,7 @@ const checkSession = () => {
   return !isExpired;
 };
 
+// TODO: refine
 const ConnectMaxAIAccountIsLogin = atom({
   key: 'ConnectMaxAIAccountIsLogin',
   default: checkSession(),
