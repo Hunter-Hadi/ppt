@@ -1,8 +1,11 @@
 import { useEffect, useRef } from 'react';
-import { useRecoilState } from 'recoil';
+import { useRecoilState, useSetRecoilState } from 'recoil';
 
 import { SSO_LOGIN_URL } from '@/features/common-auth/constants';
-import { ConnectMaxAIAccountState } from '@/features/common-auth/store';
+import {
+  ConnectMaxAIAccountState,
+  UserProfileState,
+} from '@/features/common-auth/store';
 import {
   MaxAIAuthTokensType,
   MaxAIConnectAccountType,
@@ -81,7 +84,7 @@ export const useConnectMaxAIAccount = (debug = false) => {
       tokens: newTokensState,
     }));
   };
-
+  const setUserProfile = useSetRecoilState(UserProfileState);
   const iframeListenerRef = useRef<iframeListenerType | null>(null);
   const iframeWatchCloseRef = useRef<ReturnType<typeof setInterval>>(-1 as any);
   const popupListenerRef = useRef<iframeListenerType | null>(null);
@@ -248,6 +251,10 @@ export const useConnectMaxAIAccount = (debug = false) => {
     iframeLogin();
   };
   const sigOutMaxAIAccount = () => {
+    setUserProfile({
+      user: null,
+      loading: false,
+    });
     setIsLogin(false);
     setTokens(null);
     authLogout();
