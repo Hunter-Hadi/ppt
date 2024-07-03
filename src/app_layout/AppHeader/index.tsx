@@ -36,6 +36,7 @@ const AppHeader: FC = () => {
 
   return (
     <AppBar
+      hiddenAvatar
       hiddenSignInButton
       hidden={isNotHeader}
       MenuListComponents={

@@ -5,7 +5,7 @@ import Divider from '@mui/material/Divider';
 import Toolbar from '@mui/material/Toolbar';
 import debounce from 'lodash-es/debounce';
 import { useTranslation } from 'next-i18next';
-import React, { FC, useEffect } from 'react';
+import React, { FC, useEffect, useMemo } from 'react';
 
 import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
@@ -20,6 +20,7 @@ interface IAppBarProps {
   MenuListComponents?: React.ReactNode;
   CtaContentComponents?: React.ReactNode;
   hiddenSignInButton?: boolean;
+  hiddenAvatar?: boolean;
   // smallScreenQuery?: string | ((theme: Theme) => string);
 }
 
@@ -31,6 +32,7 @@ const AppBar: FC<IAppBarProps> = ({
   hiddenSignInButton = false,
   MenuListComponents,
   CtaContentComponents,
+  hiddenAvatar,
   // smallScreenQuery,
   onHeightChange,
 }) => {
@@ -38,6 +40,14 @@ const AppBar: FC<IAppBarProps> = ({
   const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
 
   // const isSmallScreen = useMediaQuery(smallScreenQuery ?? '(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
+
+  const showAvatar = useMemo(() => {
+    if (hiddenAvatar) {
+      return false;
+    }
+
+    return isLogin;
+  }, [hiddenAvatar, isLogin]);
 
   useEffect(() => {
     if (!onHeightChange || hidden) {
@@ -121,7 +131,7 @@ const AppBar: FC<IAppBarProps> = ({
 
         {CtaContentComponents}
 
-        {isLogin && (
+        {showAvatar && (
           <Box>
             <Avatar />
           </Box>
