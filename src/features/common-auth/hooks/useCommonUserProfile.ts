@@ -4,7 +4,18 @@ import { useMemo } from 'react';
 import { useRecoilState } from 'recoil';
 dayjs.extend(utc);
 
-import { COMMON_AUTH_API_HOST } from '@/features/common-auth/constants';
+import {
+  COMMON_AUTH_API_HOST,
+  USER_ROLE_PRIORITY,
+} from '@/features/common-auth/constants';
+import { UserProfileState } from '@/features/common-auth/store';
+import {
+  checkPayingUser,
+  getAccessToken,
+  renderRoleName,
+} from '@/features/common-auth/utils';
+
+import { IUserInfoApiResponse, IUserProfile, IUserRoleType } from '../types';
 
 // TODO: 功能type
 type RENDER_PLAN_TYPE =
@@ -21,15 +32,6 @@ type RENDER_PLAN_TYPE =
   | 'elite_yearly' // elite 年付 个人版
   | 'elite_one_year' // elite 一年版
   | 'elite_team'; // elite 月付 team 版本
-
-import { UserProfileState } from '@/features/common-auth/store';
-import {
-  checkPayingUser,
-  getAccessToken,
-  renderRoleName,
-} from '@/features/common-auth/utils';
-
-import { IUserProfile, IUserRoleType } from '../types';
 
 export const useCommonUserProfile = () => {
   const [userProfileState, setUserProfile] = useRecoilState(UserProfileState);
@@ -55,11 +57,54 @@ export const useCommonUserProfile = () => {
       );
       const result: {
         status: string;
-        data: IUserProfile;
+        data: IUserInfoApiResponse;
       } = await response.json();
       if (result.status === 'OK' && result.data?.email) {
+        const userStore: IUserProfile = {
+          ...result.data,
+          role: {
+            name: 'free',
+            expireTimeStr: '',
+          },
+        };
+
+        if (userStore.roles.length > 0) {
+          const format = 'MMM D, YYYY';
+
+          // 将 data.roles.name 根据 USER_ROLE_PRIORITY  优先级排序，最大的在第一个
+          const sortedRoles = userStore.roles.sort((a, b) => {
+            return (
+              (USER_ROLE_PRIORITY[b.name as IUserRoleType] || 0) -
+              (USER_ROLE_PRIORITY[a.name as IUserRoleType] || 0)
+            );
+          });
+
+          const { exp_time } = sortedRoles[0];
+          let planType = sortedRoles[0].name;
+          // 这里需要处理一下，因为有可能是 pro_team, elite_team 这种类型
+          planType = planType.includes('_')
+            ? (planType.split('_')[0] as IUserRoleType)
+            : planType;
+
+          const expireTime = dayjs(exp_time).utc().valueOf();
+          const now = dayjs().utc().valueOf();
+          if (planType !== 'free' && expireTime - now > 0) {
+            let expireTimeStr = dayjs(exp_time).format(format);
+            // 如果不是订阅类型，到期时间需要取另一个字段
+            if (userStore.subscription_type !== 'SUBSCRIPTION') {
+              expireTimeStr = userStore.current_period_end
+                ? // current_period_end 是 unix 时间戳，需要转换成毫秒
+                  dayjs.utc(userStore.current_period_end * 1000).format(format)
+                : dayjs(exp_time).format(format);
+            }
+            userStore.role = {
+              name: planType as IUserRoleType,
+              expireTimeStr,
+            };
+          }
+        }
         setUserProfile({
-          user: result.data,
+          user: userStore,
           loading: false,
         });
         // TODO: mixpanel先不加

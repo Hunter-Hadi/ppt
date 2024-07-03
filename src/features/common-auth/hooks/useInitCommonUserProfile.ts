@@ -15,4 +15,4 @@ const useInitCommonUserProfile = () => {
   return null;
 };
 
-export default useInitCommonUserProfile;
+export { useInitCommonUserProfile };

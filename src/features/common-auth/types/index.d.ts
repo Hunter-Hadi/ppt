@@ -37,7 +37,7 @@ export type IUserRoleType =
   | 'pro'
   | 'elite';
 
-export interface IUserProfile {
+export interface IUserInfoApiResponse {
   chatgpt_expires_at: string;
   email: string;
   referral_code: string;
@@ -51,9 +51,19 @@ export interface IUserProfile {
   subscribed_at?: number;
   subscription_cancelled_at?: null | number;
   subscription_payment_failed_at?: null | number;
+  // 一次性付款的 plan 会有这个字段, 到期时间
+  current_period_end: number | null;
 
   // 来自 api /user/get_user_subscription_info 的字段
   subscription_type: 'SUBSCRIPTION' | 'ONE_TIME';
+
+  roles: {
+    name: IUserRoleType;
+    exp_time: string;
+  }[];
+}
+
+export interface IUserProfile extends IUserInfoApiResponse {
   role: {
     name: IUserRoleType;
     expireTimeStr: string;

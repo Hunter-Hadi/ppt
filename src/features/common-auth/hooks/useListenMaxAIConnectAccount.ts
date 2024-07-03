@@ -6,7 +6,6 @@ import {
   MaxAIListenConnectAccountType,
 } from '@/features/common-auth/types';
 import { getCurrentUserTokens } from '@/features/common-auth/utils';
-import useEffectOnce from '@/hooks/useEffectOnce';
 
 const isInIframe = () => {
   try {
@@ -22,16 +21,18 @@ export const useListenMaxAIConnectAccount = (
 ) => {
   const [loaded, setLoaded] = useState(false);
   const [isIframeOrPopup, setIsIframeOrPopup] = useState(true);
-  useEffectOnce(() => {
+  const listenMaxAIConnectAccount = () => {
     // 判断是不是iframe或者popup
     if (!window.opener && !isInIframe()) {
       setLoaded(true);
       setIsIframeOrPopup(false);
-      return;
+      return () => {
+        // do nothing
+      };
     }
     const win = window.opener || window.parent;
     // 第一步：监听消息
-    window.addEventListener('message', function (messageEvent) {
+    const eventListener = (messageEvent: MessageEvent) => {
       if (!SSO_WHITE_LIST_HOSTS.includes(messageEvent.origin)) {
         return;
       }
@@ -81,7 +82,8 @@ export const useListenMaxAIConnectAccount = (
             break;
         }
       }
-    });
+    };
+    window.addEventListener('message', eventListener);
     // 第二步：发送消息，通知父窗口已经加载完成
     win.postMessage(
       {
@@ -91,9 +93,13 @@ export const useListenMaxAIConnectAccount = (
       },
       '*',
     );
-  });
+    return () => {
+      window.removeEventListener('message', eventListener);
+    };
+  };
   return {
     loaded,
     isIframeOrPopup,
+    listenMaxAIConnectAccount,
   };
 };

@@ -1,7 +1,8 @@
-import { useRef, useState } from 'react';
-import { atom, useRecoilState } from 'recoil';
+import { useEffect, useRef } from 'react';
+import { useRecoilState } from 'recoil';
 
 import { SSO_LOGIN_URL } from '@/features/common-auth/constants';
+import { ConnectMaxAIAccountState } from '@/features/common-auth/store';
 import {
   MaxAIAuthTokensType,
   MaxAIConnectAccountType,
@@ -51,25 +52,36 @@ const checkSession = () => {
   return !isExpired;
 };
 
-// TODO: refine
-const ConnectMaxAIAccountIsLogin = atom({
-  key: 'ConnectMaxAIAccountIsLogin',
-  default: checkSession(),
-});
-const ConnectMaxAIAccountError = atom<string | null>({
-  key: 'ConnectMaxAIAccountError',
-  default: null,
-});
-const ConnectMaxAIAccountLoading = atom<boolean>({
-  key: 'ConnectMaxAIAccountLoading',
-  default: false,
-});
-
 export const useConnectMaxAIAccount = (debug = false) => {
-  const [isLogin, setIsLogin] = useRecoilState(ConnectMaxAIAccountIsLogin);
-  const [loading, setLoading] = useRecoilState(ConnectMaxAIAccountLoading);
-  const [error, setError] = useRecoilState(ConnectMaxAIAccountError);
-  const [tokens, setTokens] = useState<MaxAIAuthTokensType | null>(null);
+  const [accountState, setConnectMaxAIAccountState] = useRecoilState(
+    ConnectMaxAIAccountState,
+  );
+  const { isLogin, loading, error, tokens } = accountState;
+  const setIsLogin = (newIsLoginState: boolean) => {
+    setConnectMaxAIAccountState((prev) => ({
+      ...prev,
+      isLogin: newIsLoginState,
+    }));
+  };
+  const setLoading = (newLoadingState: boolean) => {
+    setConnectMaxAIAccountState((prev) => ({
+      ...prev,
+      loading: newLoadingState,
+    }));
+  };
+  const setError = (newErrorState: string | null) => {
+    setConnectMaxAIAccountState((prev) => ({
+      ...prev,
+      error: newErrorState,
+    }));
+  };
+  const setTokens = (newTokensState: MaxAIAuthTokensType | null) => {
+    setConnectMaxAIAccountState((prev) => ({
+      ...prev,
+      tokens: newTokensState,
+    }));
+  };
+
   const iframeListenerRef = useRef<iframeListenerType | null>(null);
   const iframeWatchCloseRef = useRef<ReturnType<typeof setInterval>>(-1 as any);
   const popupListenerRef = useRef<iframeListenerType | null>(null);
@@ -79,7 +91,10 @@ export const useConnectMaxAIAccount = (debug = false) => {
       console.debug(`useConnectMaxAIAccount: \n`, data);
     }
   };
-
+  useEffect(() => {
+    const checkSessionLogin = checkSession();
+    setIsLogin(checkSessionLogin);
+  }, []);
   const popupLogin = () => {
     let popup: Window | null = null;
     if (popupListenerRef.current) {
@@ -135,6 +150,7 @@ export const useConnectMaxAIAccount = (debug = false) => {
       if (popup?.closed) {
         setLoading(false);
         debugLog('popup removed');
+        console.log('popup removed', isEnd);
         if (!isEnd) {
           setError('popup removed');
         }
@@ -218,9 +234,9 @@ export const useConnectMaxAIAccount = (debug = false) => {
     iframeWatchCloseRef.current = setInterval(() => {
       // 判断是否存在或者被移除
       if (!iframe || !document.body.contains(iframe)) {
-        setLoading(false);
         debugLog('iframe removed');
         if (!isEnd) {
+          setLoading(false);
           setError('iframe removed');
         }
         clearInterval(iframeWatchCloseRef.current);
@@ -231,11 +247,18 @@ export const useConnectMaxAIAccount = (debug = false) => {
   const connectMaxAIAccount = () => {
     iframeLogin();
   };
+  const sigOutMaxAIAccount = () => {
+    setIsLogin(false);
+    setTokens(null);
+    authLogout();
+  };
+
   return {
     isLogin,
     error,
     connectMaxAIAccount,
     loading,
     tokens,
+    sigOutMaxAIAccount,
   };
 };
