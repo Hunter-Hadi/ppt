@@ -3,14 +3,14 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import React, { FC, useEffect, useRef } from 'react';
-
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 import {
   authLogout,
   useCommonUserProfile,
   useConnectMaxAIAccount,
-} from '@/features/common-auth';
+} from 'src/packages/auth';
+
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
 
 const LoginWrapper: FC<{
   children?: React.ReactNode;

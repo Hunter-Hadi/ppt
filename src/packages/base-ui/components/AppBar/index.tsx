@@ -7,7 +7,7 @@ import debounce from 'lodash-es/debounce';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo } from 'react';
 
-import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
+import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
 import Avatar from '@/packages/base-ui/components/Avatar';
 

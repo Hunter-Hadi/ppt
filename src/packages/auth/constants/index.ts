@@ -1,4 +1,4 @@
-import { IUserRoleType } from '@/features/common-auth/types';
+import { IUserRoleType } from '@/packages/auth/types';
 
 export const SSO_WHITE_LIST_HOSTS = ['https://www.maxai.me'];
 export const SSO_LOGIN_URL = 'https://app.maxai.me/connect/account';

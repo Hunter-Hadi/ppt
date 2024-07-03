@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
-import { useCommonUserProfile } from '@/features/common-auth/hooks/useCommonUserProfile';
-import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
+import { useCommonUserProfile } from '@/packages/auth/hooks/useCommonUserProfile';
+import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 
 const useInitCommonUserProfile = () => {
   const { isLogin } = useConnectMaxAIAccount();

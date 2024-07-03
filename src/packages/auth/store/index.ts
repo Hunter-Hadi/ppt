@@ -1,9 +1,6 @@
 import { atom } from 'recoil';
 
-import {
-  IUserProfile,
-  MaxAIAuthTokensType,
-} from '@/features/common-auth/types';
+import { IUserProfile, MaxAIAuthTokensType } from '@/packages/auth/types';
 
 export const UserProfileState = atom<{
   loading: boolean;

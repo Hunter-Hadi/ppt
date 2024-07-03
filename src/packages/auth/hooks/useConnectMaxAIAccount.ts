@@ -1,21 +1,21 @@
 import { useEffect, useRef } from 'react';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 
-import { SSO_LOGIN_URL } from '@/features/common-auth/constants';
+import { SSO_LOGIN_URL } from '@/packages/auth/constants';
 import {
   ConnectMaxAIAccountState,
   UserProfileState,
-} from '@/features/common-auth/store';
+} from '@/packages/auth/store';
 import {
   MaxAIAuthTokensType,
   MaxAIConnectAccountType,
-} from '@/features/common-auth/types';
+} from '@/packages/auth/types';
 import {
   authLogout,
   getAccessToken,
   parseJwt,
   saveCurrentUserTokens,
-} from '@/features/common-auth/utils';
+} from '@/packages/auth/utils';
 
 const popupWindow = (
   url: string,

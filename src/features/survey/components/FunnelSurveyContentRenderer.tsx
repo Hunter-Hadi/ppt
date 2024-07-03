@@ -10,11 +10,11 @@ import {
 } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useCallback, useEffect, useMemo } from 'react';
+import { useCommonUserProfile } from 'src/packages/auth';
 
 import ResponsiveImage from '@/components/ResponsiveImage';
 import usePreloadImages from '@/features/common/hooks/usePreloadImages';
 import { aesJsonEncrypt } from '@/features/common/utils/dataHelper/encryptionHelper';
-import { useCommonUserProfile } from '@/features/common-auth';
 import { getBasicInfoForMixpanel } from '@/features/mixpanel/utils';
 import {
   FUNNEL_SURVEY_CONFIG,

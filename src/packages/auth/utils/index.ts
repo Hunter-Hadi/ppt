@@ -1,8 +1,5 @@
-import { MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX } from '@/features/common-auth/constants';
-import {
-  IUserRoleType,
-  MaxAIAuthTokensType,
-} from '@/features/common-auth/types';
+import { MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX } from '@/packages/auth/constants';
+import { IUserRoleType, MaxAIAuthTokensType } from '@/packages/auth/types';
 
 /**
  * 获取当前用户的 token 信息

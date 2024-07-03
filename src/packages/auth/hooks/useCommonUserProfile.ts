@@ -7,13 +7,13 @@ dayjs.extend(utc);
 import {
   COMMON_AUTH_API_HOST,
   USER_ROLE_PRIORITY,
-} from '@/features/common-auth/constants';
-import { UserProfileState } from '@/features/common-auth/store';
+} from '@/packages/auth/constants';
+import { UserProfileState } from '@/packages/auth/store';
 import {
   checkPayingUser,
   getAccessToken,
   renderRoleName,
-} from '@/features/common-auth/utils';
+} from '@/packages/auth/utils';
 
 import { IUserInfoApiResponse, IUserProfile, IUserRoleType } from '../types';
 

@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-import { SSO_WHITE_LIST_HOSTS } from '@/features/common-auth/constants';
+import { SSO_WHITE_LIST_HOSTS } from '@/packages/auth/constants';
 import {
   MaxAIListenConnectAccountDataType,
   MaxAIListenConnectAccountType,
-} from '@/features/common-auth/types';
-import { getCurrentUserTokens } from '@/features/common-auth/utils';
+} from '@/packages/auth/types';
+import { getCurrentUserTokens } from '@/packages/auth/utils';
 
 const isInIframe = () => {
   try {

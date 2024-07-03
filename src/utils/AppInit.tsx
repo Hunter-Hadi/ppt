@@ -3,12 +3,12 @@ import React from 'react';
 import { useRecoilValue } from 'recoil';
 
 import { useInviteCode } from '@/features/auth/hooks/useInviteCode';
-import { useInitCommonUserProfile } from '@/features/common-auth/hooks';
 import ChromeExtensionDetector from '@/features/extension/components/ChromeExtensionDetector';
 import ExtensionUpdateRemindDialog from '@/features/extension/components/ExtensionUpdateRemindDialog';
 import useInitExtensionStatus from '@/features/extension/hooks/useInitExtensionStatus';
 import { useInitMixPanel } from '@/features/mixpanel/utils';
 import { useInitInviteCode } from '@/features/user';
+import { useInitCommonUserProfile } from '@/packages/auth/hooks';
 import { AppState } from '@/store';
 
 const AppGlobalBackdrop = () => {
