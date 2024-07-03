@@ -19,13 +19,13 @@ import {
   useCommonUserProfile,
 } from 'src/packages/auth';
 
+import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import {
   COMMON_MAXAI_API_HOST,
-  MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL,
-} from '@/features/common/constants';
-import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
+  COMMON_MAXAI_APP_PROJECT_HOST,
+} from '@/packages/common';
 
-const Avatar: FC = () => {
+const AuthAvatar: FC = () => {
   const { isLogin, sigOutMaxAIAccount } = useConnectMaxAIAccount();
   const { userProfile } = useCommonUserProfile();
 
@@ -104,7 +104,7 @@ const Avatar: FC = () => {
         </MenuItem>
         <MenuItem
           component={'a'}
-          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/my-plan`}
+          href={`${COMMON_MAXAI_APP_PROJECT_HOST}/my-plan`}
           onClick={() => {
             handleClose();
           }}
@@ -113,7 +113,7 @@ const Avatar: FC = () => {
         </MenuItem>
         <MenuItem
           component={'a'}
-          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/rewards`}
+          href={`${COMMON_MAXAI_APP_PROJECT_HOST}/rewards`}
           onClick={() => {
             handleClose();
           }}
@@ -122,7 +122,7 @@ const Avatar: FC = () => {
         </MenuItem>
         <MenuItem
           component={'a'}
-          href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/get-started`}
+          href={`${COMMON_MAXAI_APP_PROJECT_HOST}/get-started`}
           onClick={() => {
             handleClose();
           }}
@@ -273,4 +273,4 @@ const DeleteAccountModal: FC<{
     </Modal>
   );
 };
-export default Avatar;
+export default AuthAvatar;

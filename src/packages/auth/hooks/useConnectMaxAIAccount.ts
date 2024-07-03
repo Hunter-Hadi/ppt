@@ -55,7 +55,7 @@ const checkSession = () => {
   return !isExpired;
 };
 
-export const useConnectMaxAIAccount = (debug = false) => {
+export const useConnectMaxAIAccount = (debug = true) => {
   const [accountState, setConnectMaxAIAccountState] = useRecoilState(
     ConnectMaxAIAccountState,
   );

@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import React, { FC } from 'react';
 
-import ProLink from '@/features/common/components/ProLink';
+import ProLink from '@/packages/base-ui/components/ProLink';
 
 export interface IAppLogoProps {
   sx?: SxProps;

@@ -1,8 +1,8 @@
-import LoadingButton from '@mui/lab/LoadingButton';
+import { LoadingButton } from '@mui/lab';
+import { Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
-import React, { FC, useEffect, useRef } from 'react';
+import React from 'react';
 import {
   authLogout,
   useCommonUserProfile,
@@ -11,55 +11,37 @@ import {
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
+import {
+  COMMON_MAXAI_API_HOST,
+  COMMON_MAXAI_APP_PROJECT_HOST,
+  COMMON_MAXAI_WWW_PROJECT_HOST,
+} from '@/packages/common';
 
-const LoginWrapper: FC<{
-  children?: React.ReactNode;
-}> = (props) => {
-  const {
-    connectMaxAIAccount,
-    loading: buttonLoading,
-    error,
-    isLogin,
-  } = useConnectMaxAIAccount(true);
-  const { userProfile, syncUserInfo } = useCommonUserProfile();
-  const onceRef = useRef(false);
-  useEffect(() => {
-    if (!userProfile?.email && isLogin && !onceRef.current) {
-      onceRef.current = true;
-      syncUserInfo().then().catch();
-    }
-  }, [isLogin]);
-  if (isLogin) {
-    return <>{props.children}</>;
-  }
-  return (
-    <Stack>
-      {error && <Typography>{error}</Typography>}
-      <LoadingButton loading={buttonLoading} onClick={connectMaxAIAccount}>
-        Login
-      </LoadingButton>
-    </Stack>
-  );
-};
 const TestSyncLogin = () => {
-  const { userProfile, currentUserRole } = useCommonUserProfile();
+  const { isLogin, loading, error, connectMaxAIAccount } =
+    useConnectMaxAIAccount();
+  const { userProfile } = useCommonUserProfile();
   const handleLogout = () => {
     authLogout();
     window.location.reload();
   };
   return (
-    <AppLoadingLayout loading={false} sx={{ minHeight: '90vh' }}>
-      <AppDefaultSeoLayout />
-      <LoginWrapper>
-        <Stack>
-          email: {userProfile?.email}
-          role: {currentUserRole}
-        </Stack>
+    <Stack>
+      <Typography>app: {COMMON_MAXAI_APP_PROJECT_HOST}</Typography>
+      <Typography>www: {COMMON_MAXAI_WWW_PROJECT_HOST}</Typography>
+      <Typography>api: {COMMON_MAXAI_API_HOST}</Typography>
+      <Typography>error: {error}</Typography>
+      <LoadingButton onClick={connectMaxAIAccount} loading={loading}>
+        Login
+      </LoadingButton>
+      <AppLoadingLayout loading={!isLogin} sx={{ minHeight: '90vh' }}>
+        <AppDefaultSeoLayout />
+        <Stack>email: {userProfile?.email}</Stack>
         <Stack>
           <Button onClick={handleLogout}>Logout</Button>
         </Stack>
-      </LoginWrapper>
-    </AppLoadingLayout>
+      </AppLoadingLayout>
+    </Stack>
   );
 };
 

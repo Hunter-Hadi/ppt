@@ -7,9 +7,9 @@ import debounce from 'lodash-es/debounce';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo } from 'react';
 
+import AuthAvatar from '@/packages/auth/components/AuthAvatar';
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
-import Avatar from '@/packages/base-ui/components/Avatar';
 
 interface IAppBarProps {
   hidden?: boolean;
@@ -133,7 +133,7 @@ const AppBar: FC<IAppBarProps> = ({
 
         {showAvatar && (
           <Box>
-            <Avatar />
+            <AuthAvatar />
           </Box>
         )}
       </Toolbar>

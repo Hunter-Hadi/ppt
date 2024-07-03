@@ -1,4 +1,18 @@
-import { IApiResponseSubscriptionRoleType } from '@/features/auth/types';
+export type IApiResponseSubscriptionRoleType =
+  | 'BASIC_TEAM_MONTHLY'
+  | 'BASIC_MONTHLY'
+  | 'BASIC_YEARLY'
+  | 'BASIC_ONE_YEAR'
+  | 'PRO_MONTHLY'
+  | 'PRO_YEARLY'
+  | 'PRO_TEAM_MONTHLY'
+  | 'PRO_ONE_YEAR'
+  | 'ELITE_YEARLY'
+  | 'ELITE_MONTHLY'
+  | 'ELITE_TEAM_MONTHLY'
+  | 'ELITE_ONE_YEAR'
+  | 'ELITE_TWO_YEAR'
+  | 'ELITE_THREE_YEAR';
 
 export type MaxAIListenConnectAccountType = {
   event: 'MAXAI_LISTEN_CONNECT_ACCOUNT';

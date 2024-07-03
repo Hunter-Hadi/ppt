@@ -1,11 +1,16 @@
 import { IUserRoleType } from '@/packages/auth/types';
+import {
+  COMMON_MAXAI_API_HOST,
+  COMMON_MAXAI_APP_PROJECT_HOST,
+  COMMON_MAXAI_WWW_PROJECT_HOST,
+} from '@/packages/common/constants';
 
-export const SSO_WHITE_LIST_HOSTS = ['https://www.maxai.me'];
-export const SSO_LOGIN_URL = 'https://app.maxai.me/connect/account';
+export const SSO_WHITE_LIST_HOSTS = [COMMON_MAXAI_WWW_PROJECT_HOST];
+export const SSO_LOGIN_URL = COMMON_MAXAI_APP_PROJECT_HOST + '/connect/account';
 
 // temp variable
 
-export const COMMON_AUTH_API_HOST = `https://api.maxai.me`;
+export const COMMON_AUTH_API_HOST = COMMON_MAXAI_API_HOST;
 
 export const MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX =
   'UseChatGPTAuthServiceProvider';

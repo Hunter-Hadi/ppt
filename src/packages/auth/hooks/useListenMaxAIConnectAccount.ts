@@ -41,42 +41,42 @@ export const useListenMaxAIConnectAccount = (
       if (event === 'MAXAI_LISTEN_CONNECT_ACCOUNT') {
         switch (type) {
           case 'requestTokens':
-            {
-              // do something
-              const tokens = getCurrentUserTokens();
-              if (!tokens?.accessToken) {
-                onMessage({
-                  event: 'requestTokensFailure',
-                  data: {},
-                });
-                messageEvent.source?.postMessage(
-                  {
-                    event: 'MAXAI_LISTEN_CONNECT_ACCOUNT',
-                    type: 'userTokens',
-                    data: null,
-                  },
-                  {
-                    targetOrigin: messageEvent.origin,
-                  },
-                );
-                return;
-              } else {
-                messageEvent.source?.postMessage(
-                  {
-                    event: 'MAXAI_LISTEN_CONNECT_ACCOUNT',
-                    type: 'userTokens',
-                    data: tokens,
-                  },
-                  {
-                    targetOrigin: messageEvent.origin,
-                  },
-                );
-                onMessage({
-                  event: 'requestTokensSuccess',
-                  data: {},
-                });
-              }
+          {
+            // do something
+            const tokens = getCurrentUserTokens();
+            if (!tokens?.accessToken) {
+              onMessage({
+                event: 'requestTokensFailure',
+                data: {},
+              });
+              messageEvent.source?.postMessage(
+                {
+                  event: 'MAXAI_LISTEN_CONNECT_ACCOUNT',
+                  type: 'userTokens',
+                  data: null,
+                },
+                {
+                  targetOrigin: messageEvent.origin,
+                },
+              );
+              return;
+            } else {
+              messageEvent.source?.postMessage(
+                {
+                  event: 'MAXAI_LISTEN_CONNECT_ACCOUNT',
+                  type: 'userTokens',
+                  data: tokens,
+                },
+                {
+                  targetOrigin: messageEvent.origin,
+                },
+              );
+              onMessage({
+                event: 'requestTokensSuccess',
+                data: {},
+              });
             }
+          }
             break;
           default:
             break;

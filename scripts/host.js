@@ -21,8 +21,8 @@ function getHostConfig() {
   const isDevelopment = process.env.NODE_ENV === 'development';
   if (isDevelopment) {
     return {
-      WWW_PROJECT_HOST: 'http://localhost:3001',
-      APP_PROJECT_HOST: 'http://localhost:3000',
+      WWW_PROJECT_HOST: 'http://www.localmaxai.me:3001',
+      APP_PROJECT_HOST: 'http://app.localmaxai.me:3000',
     };
   }
 
