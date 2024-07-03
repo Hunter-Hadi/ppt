@@ -14,6 +14,7 @@ import React, { FC, useCallback, useEffect, useMemo } from 'react';
 import ResponsiveImage from '@/components/ResponsiveImage';
 import usePreloadImages from '@/features/common/hooks/usePreloadImages';
 import { aesJsonEncrypt } from '@/features/common/utils/dataHelper/encryptionHelper';
+import { useCommonUserProfile } from '@/features/common-auth';
 import { getBasicInfoForMixpanel } from '@/features/mixpanel/utils';
 import {
   FUNNEL_SURVEY_CONFIG,
@@ -44,6 +45,8 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
   const { t } = useTranslation();
   const currentSurveyConfig = FUNNEL_SURVEY_CONFIG[sceneType];
 
+  const { userProfile, currentUserRole } = useCommonUserProfile();
+
   const [formData, setFormData] = React.useState<Record<string, string>>({});
 
   const [loading, setLoading] = React.useState(false);
@@ -62,6 +65,8 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
         event_key: FUNNEL_SURVEY_MIXPANEL_EVENTNAME[sceneType],
         client_user_id: getClientUserId(true),
         data: {
+          currentRole: currentUserRole ?? 'guest',
+          currentPlan: userProfile?.subscription_plan_name ?? 'GUEST',
           ...getBasicInfoForMixpanel(),
           ...transformRecordKeyNameToLowerCase(formData),
         },
@@ -87,7 +92,13 @@ const FunnelSurveyContentRenderer: FC<IFunnelSurveyContentRendererProps> = ({
       afterSubmit && afterSubmit(true);
       setLoading(false);
     }
-  }, [formData, sceneType, afterSubmit]);
+  }, [
+    formData,
+    sceneType,
+    afterSubmit,
+    currentUserRole,
+    userProfile?.subscription_plan_name,
+  ]);
 
   useEffect(() => {
     // 如果提交成功了， 5秒后关闭弹窗
