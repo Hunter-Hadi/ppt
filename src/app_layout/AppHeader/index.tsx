@@ -28,9 +28,7 @@ const AppHeader: FC = () => {
     removeLocaleInPathname(pathname).startsWith(path),
   );
 
-  const { setAppHeaderHeight, appHeaderHeight } = useAppHeaderState();
-
-  console.log(`appHeaderHeight`, appHeaderHeight);
+  const { setAppHeaderHeight } = useAppHeaderState();
 
   if (isNotHeader) {
     return null;
@@ -38,6 +36,7 @@ const AppHeader: FC = () => {
 
   return (
     <AppBar
+      hiddenSignInButton
       hidden={isNotHeader}
       MenuListComponents={
         <Stack direction={'row'} alignItems='center' width={'100%'}>

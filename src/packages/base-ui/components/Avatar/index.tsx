@@ -1,29 +1,32 @@
-import { LoadingButton } from '@mui/lab';
-import {
-  Box,
-  Button,
-  Divider,
-  IconButton,
-  Menu,
-  MenuItem,
-  Stack,
-  TextField,
-  Tooltip,
-  Typography,
-} from '@mui/material';
+import LoadingButton from '@mui/lab/LoadingButton';
 import MuiAvatar from '@mui/material/Avatar';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
+import IconButton from '@mui/material/IconButton';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import Modal from '@mui/material/Modal';
+import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
+import TextField from '@mui/material/TextField';
+import Tooltip from '@mui/material/Tooltip';
+import Typography from '@mui/material/Typography';
 import React, { FC, useEffect } from 'react';
 
-import CustomModal from '@/components/CustomModal';
-import { MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL } from '@/features/common/constants';
-import { post } from '@/features/common/utils/request';
-import { authLogout, useCommonUserProfile } from '@/features/common-auth';
+import {
+  COMMON_MAXAI_API_HOST,
+  MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL,
+} from '@/features/common/constants';
+import {
+  authLogout,
+  getAccessToken,
+  useCommonUserProfile,
+} from '@/features/common-auth';
 import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
-import { USER_API } from '@/utils/api';
-import snackNotifications from '@/utils/globalSnackbar';
 
 const Avatar: FC = () => {
-  const { isLogin } = useConnectMaxAIAccount();
+  const { isLogin, sigOutMaxAIAccount } = useConnectMaxAIAccount();
   const { userProfile } = useCommonUserProfile();
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -126,19 +129,17 @@ const Avatar: FC = () => {
         >
           <Typography variant={'body2'}>Get started</Typography>
         </MenuItem>
-        <MenuItem
+        {/* TODO: 公共模块中的 avatar 展示不提供 Deactivate account 入口 */}
+        {/* <MenuItem
           onClick={() => {
             setDeleteAccountModalOpen(true);
           }}
         >
           <Typography variant={'body2'}>Deactivate account</Typography>
-        </MenuItem>
+        </MenuItem> */}
         <MenuItem
-          component={'a'}
-          // href={`${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/logout`}
           onClick={() => {
-            authLogout();
-            // handleClose();
+            sigOutMaxAIAccount();
           }}
         >
           <Typography variant={'body2'}>Log out</Typography>
@@ -164,100 +165,112 @@ const DeleteAccountModal: FC<{
     setReason('');
   }, [show]);
   return (
-    <CustomModal
-      onClose={onClose}
-      show={show}
-      sx={{
-        height: 'unset',
-        maxWidth: 800,
-      }}
-    >
-      <Stack p={2} spacing={2}>
-        <Typography fontSize={'20px'} lineHeight={'28px'} fontWeight={700}>
-          Deactivate account
-        </Typography>
-        <Typography
-          color={'#db4437'}
-          fontSize={'16px'}
-          lineHeight={'24px'}
-          fontWeight={600}
-        >
-          This action will permanently deactivate your account.
-        </Typography>
-        <Stack spacing={2}>
-          <Typography fontSize={'16px'} lineHeight={'24px'}>
-            {`You're about to start the process of deactivating your MaxAI.Me
+    <Modal onClose={onClose} open={show}>
+      <Paper
+        sx={{
+          width: '100%',
+          height: 'unset',
+          maxWidth: 800,
+          margin: '5vh auto',
+        }}
+      >
+        <Stack p={2} spacing={2}>
+          <Typography fontSize={'20px'} lineHeight={'28px'} fontWeight={700}>
+            Deactivate account
+          </Typography>
+          <Typography
+            color={'#db4437'}
+            fontSize={'16px'}
+            lineHeight={'24px'}
+            fontWeight={600}
+          >
+            This action will permanently deactivate your account.
+          </Typography>
+          <Stack spacing={2}>
+            <Typography fontSize={'16px'} lineHeight={'24px'}>
+              {`You're about to start the process of deactivating your MaxAI.Me
             account and erase all associated data. This action is irreversible.
             By proceeding with this action, you will:`}
+            </Typography>
+            <Typography fontSize={'16px'} lineHeight={'24px'}>
+              1. Permanently deactivate your account.
+            </Typography>
+            <Typography fontSize={'16px'} lineHeight={'24px'}>
+              2. Erase all your personal data, history, preferences, and any
+              associated content.
+            </Typography>
+            <Typography fontSize={'16px'} lineHeight={'24px'}>
+              3. Remove all your subscription status with no refund.
+            </Typography>
+          </Stack>
+          <Typography fontSize={'16px'} lineHeight={'24px'} fontWeight={600}>
+            {`(Please note that this action is irreversible and you won't be able to recover any data once the account is deactivated.)`}
           </Typography>
-          <Typography fontSize={'16px'} lineHeight={'24px'}>
-            1. Permanently deactivate your account.
+          <Typography fontSize={'16px'} lineHeight={'24px'} fontWeight={600}>
+            By clicking confirm, you are confirming you have read all the above
+            information carefully.
           </Typography>
-          <Typography fontSize={'16px'} lineHeight={'24px'}>
-            2. Erase all your personal data, history, preferences, and any
-            associated content.
-          </Typography>
-          <Typography fontSize={'16px'} lineHeight={'24px'}>
-            3. Remove all your subscription status with no refund.
-          </Typography>
-        </Stack>
-        <Typography fontSize={'16px'} lineHeight={'24px'} fontWeight={600}>
-          {`(Please note that this action is irreversible and you won't be able to recover any data once the account is deactivated.)`}
-        </Typography>
-        <Typography fontSize={'16px'} lineHeight={'24px'} fontWeight={600}>
-          By clicking confirm, you are confirming you have read all the above
-          information carefully.
-        </Typography>
-        <Divider />
-        <Stack spacing={0.5}>
-          <Typography fontSize={'16px'} lineHeight={'24px'}>
-            Please let us know why you leave?
-          </Typography>
-          <TextField
-            value={reason}
-            onChange={(event) => {
-              setReason(event.target.value);
-            }}
-            placeholder={'Help us improve'}
-            size={'small'}
-          />
-        </Stack>
-        <Stack
-          direction={'row'}
-          alignItems={'center'}
-          justifyContent={'end'}
-          spacing={1}
-        >
-          <LoadingButton
-            loading={loading}
-            variant={'outlined'}
-            color={'primary'}
-            onClick={async () => {
-              try {
-                setLoading(true);
-                await post(USER_API.DELETE_USER_ACCOUNT, {
-                  reason,
-                });
-                authLogout();
-              } catch (e) {
-                if ((e as any)?.response?.data?.detail) {
-                  // show error
-                  snackNotifications.error((e as any)?.response?.data?.detail);
-                }
-              } finally {
-                setLoading(false);
-                onClose?.();
-              }
-            }}
+          <Divider />
+          <Stack spacing={0.5}>
+            <Typography fontSize={'16px'} lineHeight={'24px'}>
+              Please let us know why you leave?
+            </Typography>
+            <TextField
+              value={reason}
+              onChange={(event) => {
+                setReason(event.target.value);
+              }}
+              placeholder={'Help us improve'}
+              size={'small'}
+            />
+          </Stack>
+          <Stack
+            direction={'row'}
+            alignItems={'center'}
+            justifyContent={'end'}
+            spacing={1}
           >
-            Confirm deactivation
-          </LoadingButton>
-          <Button variant={'contained'} color={'primary'} onClick={onClose}>
-            Cancel
-          </Button>
+            <LoadingButton
+              loading={loading}
+              variant={'outlined'}
+              color={'primary'}
+              onClick={async () => {
+                try {
+                  setLoading(true);
+                  await fetch(
+                    COMMON_MAXAI_API_HOST + '/user/delete_user_account',
+                    {
+                      method: 'POST',
+                      headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Bearer ${getAccessToken()}`,
+                      },
+                      body: JSON.stringify({
+                        reason,
+                      }),
+                    },
+                  );
+                  authLogout();
+                } catch (e) {
+                  if ((e as any)?.response?.data?.detail) {
+                    // show error
+                    console.error((e as any)?.response?.data?.detail);
+                  }
+                } finally {
+                  setLoading(false);
+                  onClose?.();
+                }
+              }}
+            >
+              Confirm deactivation
+            </LoadingButton>
+            <Button variant={'contained'} color={'primary'} onClick={onClose}>
+              Cancel
+            </Button>
+          </Stack>
         </Stack>
-      </Stack>
-    </CustomModal>
+      </Paper>
+    </Modal>
   );
 };
 export default Avatar;

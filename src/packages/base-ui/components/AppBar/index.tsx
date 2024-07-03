@@ -1,11 +1,15 @@
+import LoadingButton from '@mui/lab/LoadingButton';
 import MuiAppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Toolbar from '@mui/material/Toolbar';
 import debounce from 'lodash-es/debounce';
+import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect } from 'react';
 
+import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
+import Avatar from '@/packages/base-ui/components/Avatar';
 
 interface IAppBarProps {
   hidden?: boolean;
@@ -13,7 +17,9 @@ interface IAppBarProps {
   onHeightChange?: (height: number) => void;
   maxWidth?: number | string;
   href?: IAppLogoProps['href'];
-  MenuListComponents: React.ReactNode;
+  MenuListComponents?: React.ReactNode;
+  CtaContentComponents?: React.ReactNode;
+  hiddenSignInButton?: boolean;
   // smallScreenQuery?: string | ((theme: Theme) => string);
 }
 
@@ -22,14 +28,16 @@ const AppBar: FC<IAppBarProps> = ({
   hidden = false,
   maxWidth = 1312,
   href,
+  hiddenSignInButton = false,
   MenuListComponents,
+  CtaContentComponents,
   // smallScreenQuery,
   onHeightChange,
 }) => {
-  // const isSmallScreen = useMediaQuery(smallScreenQuery ?? '(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
+  const { t } = useTranslation();
+  const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
 
-  // TODO: isLogin 的状态不应该从这个 hook 里面获取
-  // const { isLogin } = useConnectMaxAIAccount();
+  // const isSmallScreen = useMediaQuery(smallScreenQuery ?? '(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
 
   useEffect(() => {
     if (!onHeightChange || hidden) {
@@ -96,9 +104,28 @@ const AppBar: FC<IAppBarProps> = ({
 
         {MenuListComponents}
 
-        <Box flex={1} pr={2} />
+        {!isLogin && !hiddenSignInButton ? (
+          <LoadingButton
+            loading={loading}
+            onClick={connectMaxAIAccount}
+            sx={{
+              fontSize: 16,
+              lineHeight: 1.5,
+              fontWeight: 500,
+              color: 'text.primary',
+            }}
+          >
+            {t('common:sign_in')}
+          </LoadingButton>
+        ) : null}
 
-        {/* {isLogin && <Avatar />} */}
+        {CtaContentComponents}
+
+        {isLogin && (
+          <Box>
+            <Avatar />
+          </Box>
+        )}
       </Toolbar>
       <Divider />
     </MuiAppBar>
