@@ -2,6 +2,7 @@
 import { Head, Html, Main, NextScript } from 'next/document';
 
 export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID;
+export const GA_TRACKING_ID_MCC = process.env.NEXT_PUBLIC_GA_ID_MCC;
 const CALRITY_ID = process.env.NEXT_PUBLIC_CALRITY_ID;
 import i18nextConfig from '../../next-i18next.config';
 

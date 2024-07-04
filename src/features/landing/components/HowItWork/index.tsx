@@ -7,6 +7,7 @@ import { mixpanelTrack } from '@/features/mixpanel/utils';
 import useFunnelSurveyController from '@/features/survey/hooks/useFunnelSurveyController';
 import { APP_PROJECT_LINK } from '@/global_constants';
 import useShareTrackerLink from '@/hooks/useShareTrackerLink';
+import { gaEvent } from '@/utils/gtag';
 
 const HOW_IT_WORKS_LIST = [
   {
@@ -83,6 +84,14 @@ const HowItWork = () => {
                 reStartOpenPopupTimer(30 * 1000); // 30s
                 mixpanelTrack('install_started', {
                   ref,
+                });
+                // new gtag conversion (MCC)
+                gaEvent({
+                  eventName: 'conversion',
+                  params: {
+                    send_to: 'AW-16634122609/nsVpCIWD8b8ZEPGi4vs9',
+                    ref,
+                  },
                 });
               }}
               title={t('pages:home_page__how_it_works__step1__title')}

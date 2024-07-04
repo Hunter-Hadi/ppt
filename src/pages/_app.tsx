@@ -33,7 +33,7 @@ import {
 } from '@/features/track_user_interactions/utils';
 import GlobalVideoPopup from '@/features/video_popup/components/GlobalVideoPopup';
 import { APP_PROJECT_LINK } from '@/global_constants';
-import { GA_TRACKING_ID } from '@/pages/_document';
+import { GA_TRACKING_ID, GA_TRACKING_ID_MCC } from '@/pages/_document';
 import AppInit from '@/utils/AppInit';
 import { initFingerPrint } from '@/utils/fingerPrint';
 import { SnackbarUtilsConfigurator } from '@/utils/globalSnackbar';
@@ -102,6 +102,7 @@ function App({ Component, pageProps }: AppProps) {
               page_path: window.location.pathname,
               cookie_flags: 'max-age=7200;secure;samesite=none',
             });
+            gtag('config', '${GA_TRACKING_ID_MCC}');
           `,
         }}
       ></Script>

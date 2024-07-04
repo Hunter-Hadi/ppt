@@ -17,6 +17,7 @@ import useBrowserAgent from '@/hooks/useBrowserAgent';
 import useShareTrackerLink, {
   IUseShareTrackerLinkProps,
 } from '@/hooks/useShareTrackerLink';
+import { gaEvent } from '@/utils/gtag';
 
 interface IProps {
   sx?: SxProps;
@@ -144,6 +145,14 @@ const CTAInstallButton: FC<IProps> = ({
     reStartOpenPopupTimer(30 * 1000); // 30s
     mixpanelTrack('install_started', {
       ref,
+    });
+    // new gtag conversion (MCC)
+    gaEvent({
+      eventName: 'conversion',
+      params: {
+        send_to: 'AW-16634122609/nsVpCIWD8b8ZEPGi4vs9',
+        ref,
+      },
     });
 
     onClick && onClick(e);
