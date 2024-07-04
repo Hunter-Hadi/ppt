@@ -4,12 +4,12 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Toolbar from '@mui/material/Toolbar';
 import debounce from 'lodash-es/debounce';
-import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo } from 'react';
 
 import AuthAvatar from '@/packages/auth/components/AuthAvatar';
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
+import { useMaxAITranslation } from '@/packages/common';
 
 interface IAppBarProps {
   hidden?: boolean;
@@ -36,7 +36,7 @@ const AppBar: FC<IAppBarProps> = ({
   // smallScreenQuery,
   onHeightChange,
 }) => {
-  const { t } = useTranslation();
+  const { t } = useMaxAITranslation();
   const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
 
   // const isSmallScreen = useMediaQuery(smallScreenQuery ?? '(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
@@ -123,7 +123,7 @@ const AppBar: FC<IAppBarProps> = ({
               color: 'text.primary',
             }}
           >
-            {t('common:sign_in')}
+            {t('package__base_ui:app_bar__sign_in')}
           </LoadingButton>
         ) : null}
         {CtaContentComponents}
