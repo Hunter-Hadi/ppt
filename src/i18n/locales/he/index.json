@@ -1561,5 +1561,17 @@
     "features__ai_art__label": "אמנות AI",
     "features__ai_translator__label": "מתרגם AI",
     "features__ai_vision__label": "ראייה AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "התוכנית שלי",
+    "auth_avatar__menu_item__rewards": "פרסים",
+    "auth_avatar__menu_item__get_started": "התחל",
+    "auth_avatar__menu_item__log_out": "התנתק"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "התחבר"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "בחר את הארץ או האזור שלך"
   }
 }

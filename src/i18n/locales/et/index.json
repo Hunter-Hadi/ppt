@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI kunst",
     "features__ai_translator__label": "AI tõlkija",
     "features__ai_vision__label": "AI nägemine"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Minu plaan",
+    "auth_avatar__menu_item__rewards": "Tasud",
+    "auth_avatar__menu_item__get_started": "Alusta",
+    "auth_avatar__menu_item__log_out": "Logi välja"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Logi sisse"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Valige oma riik või piirkond"
   }
 }

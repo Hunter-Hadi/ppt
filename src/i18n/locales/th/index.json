@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "ศิลปะ AI",
     "features__ai_translator__label": "แปลภาษาด้วย AI",
     "features__ai_vision__label": "การมองเห็นด้วย AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "แผนของฉัน",
+    "auth_avatar__menu_item__rewards": "รางวัล",
+    "auth_avatar__menu_item__get_started": "เริ่มต้น",
+    "auth_avatar__menu_item__log_out": "ออกจากระบบ"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "เข้าสู่ระบบ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "เลือกประเทศหรือภูมิภาคของคุณ"
   }
 }

@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI umenie",
     "features__ai_translator__label": "Prekladač AI",
     "features__ai_vision__label": "Vízia AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Môj plán",
+    "auth_avatar__menu_item__rewards": "Odmeny",
+    "auth_avatar__menu_item__get_started": "Začnite",
+    "auth_avatar__menu_item__log_out": "Odhlásiť sa"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Prihlásiť sa"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Vyberte si svoju krajinu alebo región"
   }
 }

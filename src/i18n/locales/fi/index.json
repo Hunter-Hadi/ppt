@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "Tekoälytaide",
     "features__ai_translator__label": "Tekoälykääntäjä",
     "features__ai_vision__label": "Tekoälynäkö"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Suunnitelmani",
+    "auth_avatar__menu_item__rewards": "Palkinnot",
+    "auth_avatar__menu_item__get_started": "Aloita",
+    "auth_avatar__menu_item__log_out": "Kirjaudu ulos"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Kirjaudu sisään"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Valitse maasi tai alueesi"
   }
 }

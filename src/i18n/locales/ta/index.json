@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI கலை",
     "features__ai_translator__label": "AI மொழிபெயர்ப்பாளர்",
     "features__ai_vision__label": "AI கண்"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "உள்நுழைய"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "என் திட்டம்",
+    "auth_avatar__menu_item__rewards": "வெகுமதி",
+    "auth_avatar__menu_item__get_started": "ஆரம்பிக்கவும்",
+    "auth_avatar__menu_item__log_out": "வெளியேறு"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "உங்கள் நாடு அல்லது பிரதேசத்தைத் தேர்ந்தெடுக்கவும்"
   }
 }

@@ -1562,5 +1562,16 @@
     "plan_button__save_with_yearly_plan": "Εξοικονομήστε {{PRICE}} με ετήσιο πλάνο",
     "plan_button__free_status__start_for_free": "Ξεκινήστε δωρεάν"
   },
-  "": ""
+  "package__base_ui": {
+    "app_bar__sign_in": "Σύνδεση"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Ο πλάνος μου",
+    "auth_avatar__menu_item__rewards": "Ανταμοιβές",
+    "auth_avatar__menu_item__get_started": "Ξεκινήστε",
+    "auth_avatar__menu_item__log_out": "Αποσύνδεση"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Επιλέξτε τη χώρα ή περιοχή σας"
+  }
 }

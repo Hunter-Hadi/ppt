@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI শিল্প",
     "features__ai_translator__label": "AI অনুবাদক",
     "features__ai_vision__label": "AI ভিশন"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "আমার পরিকল্পনা",
+    "auth_avatar__menu_item__rewards": "পুরস্কার",
+    "auth_avatar__menu_item__get_started": "শুরু করুন",
+    "auth_avatar__menu_item__log_out": "লগ আউট"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "সাইন ইন"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "আপনার দেশ বা অঞ্চল নির্বাচন করুন"
   }
 }

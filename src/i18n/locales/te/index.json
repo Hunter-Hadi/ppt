@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI కళాకారత్వం",
     "features__ai_translator__label": "AI అనువాదకుడు",
     "features__ai_vision__label": "AI విజన్"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "నా ప్లాన్",
+    "auth_avatar__menu_item__rewards": "పురస్కారాలు",
+    "auth_avatar__menu_item__get_started": "ప్రారంభించండి",
+    "auth_avatar__menu_item__log_out": "లాగ్ అవుట్"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "సైన్ ఇన్"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "మీ దేశం లేదా ప్రాంతాన్ని ఎంచుకోండి"
   }
 }

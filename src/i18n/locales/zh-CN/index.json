@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI艺术",
     "features__ai_translator__label": "AI翻译",
     "features__ai_vision__label": "AI视觉"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "我的计划",
+    "auth_avatar__menu_item__rewards": "奖励",
+    "auth_avatar__menu_item__get_started": "开始使用",
+    "auth_avatar__menu_item__log_out": "退出登录"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "登录"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "选择您的国家或地区"
   }
 }

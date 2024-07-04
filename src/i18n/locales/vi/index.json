@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "Nghệ thuật AI",
     "features__ai_translator__label": "Dịch thuật AI",
     "features__ai_vision__label": "Tầm nhìn AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Kế hoạch của tôi",
+    "auth_avatar__menu_item__rewards": "Phần thưởng",
+    "auth_avatar__menu_item__get_started": "Bắt đầu",
+    "auth_avatar__menu_item__log_out": "Đăng xuất"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Đăng nhập"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Chọn Quốc gia hoặc Vùng của bạn"
   }
 }

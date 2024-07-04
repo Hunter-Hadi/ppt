@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI આર્ટ",
     "features__ai_translator__label": "AI અનુવાદક",
     "features__ai_vision__label": "AI વિઝન"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "મારી યોજના",
+    "auth_avatar__menu_item__rewards": "પુરસ્કારો",
+    "auth_avatar__menu_item__get_started": "શરૂ કરો",
+    "auth_avatar__menu_item__log_out": "લૉગ આઉટ"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "સાઇન ઇન"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "તમારો દેશ અથવા પ્રદેશ પસંદ કરો"
   }
 }

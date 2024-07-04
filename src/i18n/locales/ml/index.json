@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "എയ്‌ ആർട്ട്",
     "features__ai_translator__label": "എയ്‌ ട്രാൻസ്ലേറ്റർ",
     "features__ai_vision__label": "എയ്‌ വിഷൻ"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "എന്റെ പ്ലാൻ",
+    "auth_avatar__menu_item__rewards": "പ്രതിഫലം",
+    "auth_avatar__menu_item__get_started": "ആരംഭിക്കുക",
+    "auth_avatar__menu_item__log_out": "ലോഗ് ഔട്ട്"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "സൈൻ ഇൻ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "നിങ്ങളുടെ രാജ്യം അല്ലെങ്കിൽ പ്രദേശം തിരഞ്ഞെടുക്കുക"
   }
 }

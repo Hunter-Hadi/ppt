@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI 예술",
     "features__ai_translator__label": "AI 번역기",
     "features__ai_vision__label": "AI 비전"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "내 계획",
+    "auth_avatar__menu_item__rewards": "보상",
+    "auth_avatar__menu_item__get_started": "시작하기",
+    "auth_avatar__menu_item__log_out": "로그아웃"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "로그인"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "국가 또는 지역 선택"
   }
 }

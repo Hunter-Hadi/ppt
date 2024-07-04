@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "الفن بواسطة الذكاء الاصطناعي",
     "features__ai_translator__label": "الترجمة بواسطة الذكاء الاصطناعي",
     "features__ai_vision__label": "الرؤية بواسطة الذكاء الاصطناعي"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "خطتي",
+    "auth_avatar__menu_item__rewards": "مكافآت",
+    "auth_avatar__menu_item__get_started": "ابدأ الآن",
+    "auth_avatar__menu_item__log_out": "تسجيل الخروج"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "تسجيل الدخول"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "اختر بلدك أو منطقتك"
   }
 }

@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI māksla",
     "features__ai_translator__label": "AI tulks",
     "features__ai_vision__label": "AI redze"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Pierakstīties"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Mans plāns",
+    "auth_avatar__menu_item__rewards": "Balvas",
+    "auth_avatar__menu_item__get_started": "Sākt",
+    "auth_avatar__menu_item__log_out": "Izrakstīties"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Izvēlieties savu valsti vai reģionu"
   }
 }

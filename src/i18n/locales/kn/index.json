@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI ಕಲೆ",
     "features__ai_translator__label": "AI ಭಾಷಾಂತರಿ",
     "features__ai_vision__label": "AI ದೃಷ್ಟಿ"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "ನನ್ನ ಯೋಜನೆ",
+    "auth_avatar__menu_item__rewards": "ಪ್ರತಿಫಲಗಳು",
+    "auth_avatar__menu_item__get_started": "ಪ್ರಾರಂಭಿಸಿ",
+    "auth_avatar__menu_item__log_out": "ಲಾಗ್ ಔಟ್"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "ಸೈನ್ ಇನ್"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "ನಿಮ್ಮ ದೇಶ ಅಥವಾ ಪ್ರದೇಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
   }
 }

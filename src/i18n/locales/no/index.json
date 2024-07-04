@@ -1563,5 +1563,16 @@
     "features__ai_translator__label": "AI-oversetter",
     "features__ai_vision__label": "AI-visjon"
   },
-  "": ""
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Min plan",
+    "auth_avatar__menu_item__rewards": "Belønninger",
+    "auth_avatar__menu_item__get_started": "Kom i gang",
+    "auth_avatar__menu_item__log_out": "Logg ut"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Logg inn"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Velg ditt land eller region"
+  }
 }

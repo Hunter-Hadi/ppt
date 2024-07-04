@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "ИИ изкуство",
     "features__ai_translator__label": "ИИ преводач",
     "features__ai_vision__label": "ИИ визия"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Моят план",
+    "auth_avatar__menu_item__rewards": "Награди",
+    "auth_avatar__menu_item__get_started": "Започни",
+    "auth_avatar__menu_item__log_out": "Излез"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Вход"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Изберете вашата държава или регион"
   }
 }

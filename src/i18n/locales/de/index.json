@@ -1563,5 +1563,16 @@
     "features__ai_translator__label": "KI-Übersetzer",
     "features__ai_vision__label": "KI-Vision"
   },
-  "": ""
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Mein Plan",
+    "auth_avatar__menu_item__rewards": "Belohnungen",
+    "auth_avatar__menu_item__get_started": "Loslegen",
+    "auth_avatar__menu_item__log_out": "Abmelden"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Anmelden"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Wählen Sie Ihr Land oder Ihre Region"
+  }
 }

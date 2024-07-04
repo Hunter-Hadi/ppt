@@ -511,7 +511,7 @@ async function getCurrentCountryCode() {
   try {
     // 获取用户的IP信息
     const agent = new HttpsProxyAgent('http://127.0.0.1:7890');
-    const ipInfoRes = await nodeFetch('https://api64.ipify.org?format=json', {
+    const ipInfoRes = await nodeFetch('https://ifconfig.co/json', {
       agent,
     });
     const ipInfo = await ipInfoRes.json();

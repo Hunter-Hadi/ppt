@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI कला",
     "features__ai_translator__label": "AI अनुवादक",
     "features__ai_vision__label": "AI दृष्टि"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "मेरी योजना",
+    "auth_avatar__menu_item__rewards": "पुरस्कार",
+    "auth_avatar__menu_item__get_started": "शुरू करें",
+    "auth_avatar__menu_item__log_out": "लॉग आउट"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "साइन इन करें"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "अपना देश या क्षेत्र चुनें"
   }
 }

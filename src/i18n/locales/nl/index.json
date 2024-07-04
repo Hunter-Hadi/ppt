@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI kunst",
     "features__ai_translator__label": "AI vertaler",
     "features__ai_vision__label": "AI visie"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Mijn plan",
+    "auth_avatar__menu_item__rewards": "Beloningen",
+    "auth_avatar__menu_item__get_started": "Aan de slag",
+    "auth_avatar__menu_item__log_out": "Uitloggen"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Aanmelden"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Kies uw land of regio"
   }
 }

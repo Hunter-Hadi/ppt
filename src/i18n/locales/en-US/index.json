@@ -1562,7 +1562,16 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "What made you decide to uninstall the MaxAI.me browser extension?",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Tell us what caused you to uninstall..."
   },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "My plan",
+    "auth_avatar__menu_item__rewards": "Rewards",
+    "auth_avatar__menu_item__get_started": "Get started",
+    "auth_avatar__menu_item__log_out": "Log out"
+  },
   "package__base_ui": {
     "app_bar__sign_in": "Sign In"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Choose Your Country or Region"
   }
 }

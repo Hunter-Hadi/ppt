@@ -1563,5 +1563,16 @@
     "features__ai_translator__label": "Tradutor de IA",
     "features__ai_vision__label": "Visão de IA"
   },
-  "": ""
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "O meu plano",
+    "auth_avatar__menu_item__rewards": "Recompensas",
+    "auth_avatar__menu_item__get_started": "Começar",
+    "auth_avatar__menu_item__log_out": "Terminar sessão"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Iniciar sessão"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Escolha o seu país ou região"
+  }
 }

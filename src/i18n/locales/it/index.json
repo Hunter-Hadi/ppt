@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "Arte AI",
     "features__ai_translator__label": "Traduttore AI",
     "features__ai_vision__label": "Visione AI"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Accedi"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Il mio piano",
+    "auth_avatar__menu_item__rewards": "Ricompense",
+    "auth_avatar__menu_item__get_started": "Inizia",
+    "auth_avatar__menu_item__log_out": "Esci"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Scegli il tuo Paese o Regione"
   }
 }

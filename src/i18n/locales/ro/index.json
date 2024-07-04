@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "Artă AI",
     "features__ai_translator__label": "Traducător AI",
     "features__ai_vision__label": "Viziune AI"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Conectare"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Planul meu",
+    "auth_avatar__menu_item__rewards": "Recompense",
+    "auth_avatar__menu_item__get_started": "Începeți",
+    "auth_avatar__menu_item__log_out": "Deconectare"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Alegeți țara sau regiunea dumneavoastră"
   }
 }

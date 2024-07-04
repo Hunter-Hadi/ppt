@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "Arte de IA",
     "features__ai_translator__label": "Traductor de IA",
     "features__ai_vision__label": "Visión de IA"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Mi plan",
+    "auth_avatar__menu_item__rewards": "Recompensas",
+    "auth_avatar__menu_item__get_started": "Comenzar",
+    "auth_avatar__menu_item__log_out": "Cerrar sesión"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Iniciar sesión"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Elige tu país o región"
   }
 }

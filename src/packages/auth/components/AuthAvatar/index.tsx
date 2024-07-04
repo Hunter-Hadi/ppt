@@ -1,29 +1,15 @@
-import LoadingButton from '@mui/lab/LoadingButton';
 import MuiAvatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Modal from '@mui/material/Modal';
-import Paper from '@mui/material/Paper';
-import Stack from '@mui/material/Stack';
-import TextField from '@mui/material/TextField';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
-import React, { FC, useEffect } from 'react';
+import React, { FC } from 'react';
 
-import {
-  authLogout,
-  getAccessToken,
-  useCommonUserProfile,
-} from '@/packages/auth';
+import { useCommonUserProfile } from '@/packages/auth';
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
-import {
-  COMMON_MAXAI_API_HOST,
-  COMMON_MAXAI_APP_PROJECT_HOST,
-} from '@/packages/common';
+import { COMMON_MAXAI_APP_PROJECT_HOST } from '@/packages/common';
 
 const AuthAvatar: FC = () => {
   const { isLogin, sigOutMaxAIAccount } = useConnectMaxAIAccount();
@@ -129,14 +115,7 @@ const AuthAvatar: FC = () => {
         >
           <Typography variant={'body2'}>Get started</Typography>
         </MenuItem>
-        {/* TODO: 公共模块中的 avatar 展示不提供 Deactivate account 入口 */}
-        {/* <MenuItem
-          onClick={() => {
-            setDeleteAccountModalOpen(true);
-          }}
-        >
-          <Typography variant={'body2'}>Deactivate account</Typography>
-        </MenuItem> */}
+
         <MenuItem
           onClick={() => {
             sigOutMaxAIAccount();
@@ -145,132 +124,8 @@ const AuthAvatar: FC = () => {
           <Typography variant={'body2'}>Log out</Typography>
         </MenuItem>
       </Menu>
-      <DeleteAccountModal
-        show={deleteAccountModalOpen}
-        onClose={() => {
-          setDeleteAccountModalOpen(false);
-        }}
-      />
     </>
   );
 };
-const DeleteAccountModal: FC<{
-  show: boolean;
-  onClose?: () => void;
-}> = (props) => {
-  const { show, onClose } = props;
-  const [loading, setLoading] = React.useState<boolean>(false);
-  const [reason, setReason] = React.useState<string>('');
-  useEffect(() => {
-    setReason('');
-  }, [show]);
-  return (
-    <Modal onClose={onClose} open={show}>
-      <Paper
-        sx={{
-          width: '100%',
-          height: 'unset',
-          maxWidth: 800,
-          margin: '5vh auto',
-        }}
-      >
-        <Stack p={2} spacing={2}>
-          <Typography fontSize={'20px'} lineHeight={'28px'} fontWeight={700}>
-            Deactivate account
-          </Typography>
-          <Typography
-            color={'#db4437'}
-            fontSize={'16px'}
-            lineHeight={'24px'}
-            fontWeight={600}
-          >
-            This action will permanently deactivate your account.
-          </Typography>
-          <Stack spacing={2}>
-            <Typography fontSize={'16px'} lineHeight={'24px'}>
-              {`You're about to start the process of deactivating your MaxAI.Me
-            account and erase all associated data. This action is irreversible.
-            By proceeding with this action, you will:`}
-            </Typography>
-            <Typography fontSize={'16px'} lineHeight={'24px'}>
-              1. Permanently deactivate your account.
-            </Typography>
-            <Typography fontSize={'16px'} lineHeight={'24px'}>
-              2. Erase all your personal data, history, preferences, and any
-              associated content.
-            </Typography>
-            <Typography fontSize={'16px'} lineHeight={'24px'}>
-              3. Remove all your subscription status with no refund.
-            </Typography>
-          </Stack>
-          <Typography fontSize={'16px'} lineHeight={'24px'} fontWeight={600}>
-            {`(Please note that this action is irreversible and you won't be able to recover any data once the account is deactivated.)`}
-          </Typography>
-          <Typography fontSize={'16px'} lineHeight={'24px'} fontWeight={600}>
-            By clicking confirm, you are confirming you have read all the above
-            information carefully.
-          </Typography>
-          <Divider />
-          <Stack spacing={0.5}>
-            <Typography fontSize={'16px'} lineHeight={'24px'}>
-              Please let us know why you leave?
-            </Typography>
-            <TextField
-              value={reason}
-              onChange={(event) => {
-                setReason(event.target.value);
-              }}
-              placeholder={'Help us improve'}
-              size={'small'}
-            />
-          </Stack>
-          <Stack
-            direction={'row'}
-            alignItems={'center'}
-            justifyContent={'end'}
-            spacing={1}
-          >
-            <LoadingButton
-              loading={loading}
-              variant={'outlined'}
-              color={'primary'}
-              onClick={async () => {
-                try {
-                  setLoading(true);
-                  await fetch(
-                    COMMON_MAXAI_API_HOST + '/user/delete_user_account',
-                    {
-                      method: 'POST',
-                      headers: {
-                        'Content-Type': 'application/json',
-                        Authorization: `Bearer ${getAccessToken()}`,
-                      },
-                      body: JSON.stringify({
-                        reason,
-                      }),
-                    },
-                  );
-                  authLogout();
-                } catch (e) {
-                  if ((e as any)?.response?.data?.detail) {
-                    // show error
-                    console.error((e as any)?.response?.data?.detail);
-                  }
-                } finally {
-                  setLoading(false);
-                  onClose?.();
-                }
-              }}
-            >
-              Confirm deactivation
-            </LoadingButton>
-            <Button variant={'contained'} color={'primary'} onClick={onClose}>
-              Cancel
-            </Button>
-          </Stack>
-        </Stack>
-      </Paper>
-    </Modal>
-  );
-};
+
 export default AuthAvatar;

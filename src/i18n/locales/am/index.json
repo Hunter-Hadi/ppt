@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI አርት",
     "features__ai_translator__label": "AI ተርጓሚ",
     "features__ai_vision__label": "AI እይታ"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "የእርስዎ ዝግጅት",
+    "auth_avatar__menu_item__rewards": "ሪዝዩርድ",
+    "auth_avatar__menu_item__get_started": "መጀመሪያ",
+    "auth_avatar__menu_item__log_out": "ውጣ"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "ይግቡ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "የአገልግሎት እና ክፍል ይምረጡ"
   }
 }

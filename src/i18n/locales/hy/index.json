@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI արվեստ",
     "features__ai_translator__label": "AI թարգմանիչ",
     "features__ai_vision__label": "AI տեսություն"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Մուտք"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "իմ ծրագրերը",
+    "auth_avatar__menu_item__rewards": "վարկային հատուկություններ",
+    "auth_avatar__menu_item__get_started": "սկսել",
+    "auth_avatar__menu_item__log_out": "դուրս գալ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Ընտրեք ձեր երկիրը կամ շրջանը"
   }
 }

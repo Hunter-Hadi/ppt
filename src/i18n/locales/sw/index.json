@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "AI sanaa",
     "features__ai_translator__label": "AI mkalimani",
     "features__ai_vision__label": "AI maono"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Mpango wangu",
+    "auth_avatar__menu_item__rewards": "Tuzo",
+    "auth_avatar__menu_item__get_started": "Anza",
+    "auth_avatar__menu_item__log_out": "Toka"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Ingia"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Chagua Nchi au Eneo Lako"
   }
 }

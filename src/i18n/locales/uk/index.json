@@ -1562,5 +1562,17 @@
     "features__ai_art__label": "آئی آرٹ",
     "features__ai_translator__label": "آئی ترجمہ کار",
     "features__ai_vision__label": "آئی وژن"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "سائن ان"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "میرا منصوبہ",
+    "auth_avatar__menu_item__rewards": "انعامات",
+    "auth_avatar__menu_item__get_started": "شروع کریں",
+    "auth_avatar__menu_item__log_out": "لاگ آؤٹ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "اپنا ملک یا علاقہ منتخب کریں"
   }
 }
