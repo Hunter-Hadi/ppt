@@ -51,7 +51,8 @@ export const COMMON_MAXAI_APP_PROJECT_HOST =
 export const COMMON_MAXAI_API_HOST =
   /* @ts-ignore */
   (typeof process !== 'undefined'
-    ? process?.env?.NEXT_PUBLIC_API_PROJECT_HOST
+    ? /* @ts-ignore */
+      process?.env?.NEXT_PUBLIC_API_PROJECT_HOST
     : '') ||
   /* @ts-ignore */
   (typeof ENV_DEFINE__LINKS__API_HOST !== 'undefined'

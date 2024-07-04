@@ -13,21 +13,15 @@
 如果用的是next-i18next，配置如下：
 
 ```typescript
-import {
-  i18n as MaxAII18n,
-  useTranslation as useMaxAITranslation,
-} from 'next-i18next';
-
-export { MaxAII18n, useMaxAITranslation };
+import { useTranslation as useMaxAITranslation } from 'next-i18next';
+export { useMaxAITranslation };
 ```
 
 如果用的是react-i18next，配置如下：
 
 ```typescript
-import {
-  i18n as MaxAII18n,
-  useTranslation as useMaxAITranslation,
-} from 'react-i18next';
+import { useTranslation as useMaxAITranslation } from 'react-i18next';
+export { useMaxAITranslation };
 ```
 
 
