@@ -49,6 +49,7 @@ const LanguageSelectorList: FC<IProps> = ({
         return (
           <Grid key={locale} item md={2} xs={4} sm={4} {...itemBreakpoints}>
             <NextJsProLink
+              hardRefresh
               locale={locale}
               href={redirectUrl}
               underline='hover'
