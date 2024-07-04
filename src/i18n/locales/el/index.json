@@ -1561,5 +1561,6 @@
     "payment_info__team__per_user__desc": "ανά χρήστη",
     "plan_button__save_with_yearly_plan": "Εξοικονομήστε {{PRICE}} με ετήσιο πλάνο",
     "plan_button__free_status__start_for_free": "Ξεκινήστε δωρεάν"
-  }
+  },
+  "": ""
 }
