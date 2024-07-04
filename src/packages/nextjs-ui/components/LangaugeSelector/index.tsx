@@ -64,7 +64,7 @@ const LanguageSelector: FC<ILanguageSelectorProps> = (props) => {
       SmallScreenContent={
         <Box px={2} py={1}>
           <Typography variant='h5' mb={2} fontWeight={900}>
-            {t('pages:languages__title')}
+            {t('package_nextjs_ui:language_selector__title')}
           </Typography>
           <LanguageSelectorList
             containerProps={{
@@ -92,7 +92,7 @@ const LanguageSelector: FC<ILanguageSelectorProps> = (props) => {
       BigScreenContent={
         <Box>
           <Typography variant='h5' mb={3} fontWeight={900}>
-            {t('pages:languages__title')}
+            {t('package_nextjs_ui:language_selector__title')}
           </Typography>
           <LanguageSelectorList
             itemBreakpoints={{
