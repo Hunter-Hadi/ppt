@@ -63,4 +63,4 @@ export const COMMON_MAXAI_API_HOST =
 export const COMMON_PROJECT_BASE_PATH =
   /* @ts-ignore */
   (typeof process !== 'undefined' ? process?.env?.NEXT_PUBLIC_BASE_PATH : '') ||
-  '/tools';
+  '';
