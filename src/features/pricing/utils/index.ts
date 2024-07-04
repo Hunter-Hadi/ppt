@@ -26,7 +26,17 @@ export const getMonthlyPriceOfYearlyPriceDiscount = (
     PLAN_PRICE_MAP[transformRenderTypeToPlanType(plan, 'monthly')];
   const yearlyPrice =
     PLAN_PRICE_MAP[transformRenderTypeToPlanType(plan, 'yearly')];
-  return Math.ceil((1 - yearlyPrice / 12 / monthlyPrice) * 100);
+
+  const discount = (1 - yearlyPrice / 12 / monthlyPrice) * 100;
+
+  const decimalsParts = discount.toString().split('.')?.[1];
+
+  if (decimalsParts && decimalsParts.length > 10) {
+    // 说明出现了 js 的浮点数计算错误
+    return Math.floor(discount);
+  }
+
+  return Math.ceil(discount);
 };
 
 // 获取 plan 年付价格 相对于 月付价格 每年节省多少钱
