@@ -17,14 +17,14 @@ const { WWW_PROJECT_HOST, APP_PROJECT_HOST, API_PROJECT_HOST } =
 
 const basePath = undefined;
 const nextConfig = {
-    // ...
-    basePath,
-    env: {
-        NEXT_PUBLIC_WWW_PROJECT_HOST: WWW_PROJECT_HOST,
-        NEXT_PUBLIC_APP_PROJECT_HOST: APP_PROJECT_HOST,
-        NEXT_PUBLIC_API_PROJECT_HOST: API_PROJECT_HOST,
-        NEXT_PUBLIC_BASE_PATH: String(basePath || ''),
-    }
+  // ...
+  basePath,
+  env: {
+    NEXT_PUBLIC_WWW_PROJECT_HOST: WWW_PROJECT_HOST,
+    NEXT_PUBLIC_APP_PROJECT_HOST: APP_PROJECT_HOST,
+    NEXT_PUBLIC_API_PROJECT_HOST: API_PROJECT_HOST,
+    NEXT_PUBLIC_BASE_PATH: String(basePath || ''),
+  }
 }
 ```
 
@@ -54,21 +54,15 @@ export default defineConfig(async ({ mode }) => {
 如果用的是next-i18next，配置如下：
 
 ```typescript
-import {
-  i18n as MaxAII18n,
-  useTranslation as useMaxAITranslation,
-} from 'next-i18next';
-
-export { MaxAII18n, useMaxAITranslation };
+import { useTranslation as useMaxAITranslation, } from 'next-i18next';
+export { useMaxAITranslation };
 ```
 
 如果用的是react-i18next，配置如下：
 
 ```typescript
-import {
-  i18n as MaxAII18n,
-  useTranslation as useMaxAITranslation,
-} from 'react-i18next';
+import { useTranslation as useMaxAITranslation, } from 'react-i18next';
+export { useMaxAITranslation };
 ```
 
 
