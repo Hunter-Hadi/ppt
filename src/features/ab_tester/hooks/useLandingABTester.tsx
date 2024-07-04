@@ -28,7 +28,7 @@ const LandingABTestVariantKeyAtom = atom({
 const useLandingABTester = (autoSendEvent = false) => {
   const { t } = useTranslation();
 
-  const { pathname, isReady, replace, query } = useRouter();
+  const { pathname, isReady, query, push, reload } = useRouter();
 
   const sendMixpanelOnce = useRef(false);
 
@@ -80,10 +80,7 @@ const useLandingABTester = (autoSendEvent = false) => {
         isSupportLanguage !== 'en-US'
       ) {
         const targetPathname = removeLocaleInPathname(pathname);
-        replace({
-          pathname: `/${isSupportLanguage}${targetPathname}`,
-          query,
-        });
+        location.href = `/${isSupportLanguage}${targetPathname}${location.search}${location.hash}`;
       } else {
         if (pathname.startsWith('/partners')) {
           // 在 partners 页面时，需要判断 没有安装插件时，才发送 test_page_viewed
@@ -104,7 +101,6 @@ const useLandingABTester = (autoSendEvent = false) => {
     autoSendEvent,
     checkExtensionStatusLoaded,
     autoRedirectLanguage,
-    replace,
     query,
   ]);
 
