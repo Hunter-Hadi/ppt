@@ -23,6 +23,7 @@ function getHostConfig() {
     return {
       WWW_PROJECT_HOST: 'http://localhost:3001',
       APP_PROJECT_HOST: 'http://localhost:3000',
+      API_PROJECT_HOST: 'https://dev.maxai.me',
     };
   }
 
