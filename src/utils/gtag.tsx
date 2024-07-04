@@ -84,7 +84,7 @@ export interface gaEventType {
         non_interaction?: boolean;
         send_to?: string;
         isPageOpen?: boolean;
-        ref: string;
+        ref?: string;
       }
     | never;
 }
