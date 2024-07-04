@@ -65,7 +65,6 @@ export const useCommonUserProfile = () => {
           role: {
             name: 'free',
             expireTimeStr: '',
-            expireTimeValue: 0,
           },
         };
 
@@ -101,7 +100,6 @@ export const useCommonUserProfile = () => {
             userStore.role = {
               name: planType as IUserRoleType,
               expireTimeStr,
-              expireTimeValue: expireTime,
             };
           }
         }

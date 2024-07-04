@@ -75,15 +75,11 @@ export interface IUserInfoApiResponse {
     name: IUserRoleType;
     exp_time: string;
   }[];
-
-  signup_method?: string;
-  subscription_status: 'active' | 'canceled';
 }
 
 export interface IUserProfile extends IUserInfoApiResponse {
   role: {
     name: IUserRoleType;
     expireTimeStr: string;
-    expireTimeValue: number;
   };
 }
