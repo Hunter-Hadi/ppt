@@ -81,7 +81,7 @@ const HowItWork = () => {
             <HowItWorkStepItem
               linkTo={extensionLink}
               onClick={(e) => {
-                reStartOpenPopupTimer(30 * 1000); // 30s
+                reStartOpenPopupTimer();
                 mixpanelTrack('install_started', {
                   ref,
                 });

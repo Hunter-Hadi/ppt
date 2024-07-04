@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
+import { DEFAULT_FUNNEL_SURVEY_POPUP_DELAY } from '@/features/survey/constants/funnel_survey';
 import useFunnelSurveyController from '@/features/survey/hooks/useFunnelSurveyController';
 import { IFunnelSurveySceneType } from '@/features/survey/types';
 
@@ -23,7 +24,7 @@ const useFunnelSurveyOpenTimer = (
     }
 
     if (!hasExtension) {
-      openPopup(30 * 1000); // 30s
+      openPopup(DEFAULT_FUNNEL_SURVEY_POPUP_DELAY);
     } else {
       closePopup();
     }

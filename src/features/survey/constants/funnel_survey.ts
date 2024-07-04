@@ -1,5 +1,7 @@
 import { IFunnelSurveySceneType } from '@/features/survey/types';
 
+export const DEFAULT_FUNNEL_SURVEY_POPUP_DELAY = 40 * 1000; // 默认 funnel survey 出现的延迟都是 40s
+
 export const FUNNEL_SURVEY_CONFIG: Record<
   IFunnelSurveySceneType,
   {

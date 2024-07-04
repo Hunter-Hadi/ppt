@@ -1,6 +1,7 @@
 import { useCallback } from 'react';
 import { useRecoilState } from 'recoil';
 
+import { DEFAULT_FUNNEL_SURVEY_POPUP_DELAY } from '@/features/survey/constants/funnel_survey';
 import {
   FunnelSurveyPopupOpenStateAtom,
   FunnelSurveyPopupOpenTimerAtom,
@@ -51,7 +52,7 @@ const useFunnelSurveyController = (sceneType: IFunnelSurveySceneType) => {
   ]);
 
   const reStartOpenPopupTimer = useCallback(
-    (delay = 0) => {
+    (delay = DEFAULT_FUNNEL_SURVEY_POPUP_DELAY) => {
       const timer = funnelSurveyPopupOpenTimer[sceneType];
 
       if (timer) {
