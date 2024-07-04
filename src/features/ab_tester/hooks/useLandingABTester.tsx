@@ -14,8 +14,8 @@ import { isTargetTestPathname } from '@/features/ab_tester/utils';
 import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserInfoHelper';
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
-import languageCodeMap from '@/i18n/types/languageCodeMap.json';
 import { removeLocaleInPathname } from '@/i18n/utils';
+import languageCodeMap from '@/packages/common/constants/languageCodeMap.json';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 const LandingABTestVariantKeyAtom = atom({

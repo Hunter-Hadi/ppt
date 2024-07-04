@@ -4,7 +4,7 @@ import React, { FC, useMemo } from 'react';
 
 import { i18nLocales, removeLocaleInPathname } from '@/i18n/utils';
 import languageCodeMap from '@/packages/common/constants/languageCodeMap.json';
-import LanguageSwitchLink from '@/page_components/LanguageSwitchLink';
+import NextJsProLink from '@/packages/nextjs-ui/components/NextJsProLink';
 
 interface IProps {
   containerProps?: Omit<GridProps, 'container' | 'item'>;
@@ -32,7 +32,7 @@ const LanguageSelectorList: FC<IProps> = ({
       {i18nLocales.map((locale) => {
         return (
           <Grid key={locale} item md={2} xs={4} sm={4} {...itemBreakpoints}>
-            <LanguageSwitchLink
+            <NextJsProLink
               locale={locale}
               href={redirectUrl}
               underline='hover'
@@ -44,7 +44,7 @@ const LanguageSelectorList: FC<IProps> = ({
               }}
             >
               {languageCodeMap[locale].label}
-            </LanguageSwitchLink>
+            </NextJsProLink>
           </Grid>
         );
       })}

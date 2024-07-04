@@ -30,10 +30,12 @@ function getHostConfig() {
 
   const WWW_PROJECT_HOST = HOST_CONFIG[node_env].wwwProjectHost;
   const APP_PROJECT_HOST = HOST_CONFIG[node_env].appProjectHost;
+  const API_PROJECT_HOST = HOST_CONFIG[node_env].appProjectAPIHost;
 
   return {
     WWW_PROJECT_HOST,
     APP_PROJECT_HOST,
+    API_PROJECT_HOST,
   };
 }
 

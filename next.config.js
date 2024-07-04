@@ -34,9 +34,13 @@ const obfuscatorOptions = {
 };
 
 const { getHostConfig } = require('./scripts/host.js');
-const { WWW_PROJECT_HOST, APP_PROJECT_HOST } = getHostConfig();
+const { WWW_PROJECT_HOST, APP_PROJECT_HOST, API_PROJECT_HOST } =
+  getHostConfig();
+
+const basePath = '';
 
 const nextConfig = {
+  basePath,
   // i18n,
   trailingSlash: true,
   reactStrictMode: true,
@@ -67,6 +71,8 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_WWW_PROJECT_HOST: WWW_PROJECT_HOST,
     NEXT_PUBLIC_APP_PROJECT_HOST: APP_PROJECT_HOST,
+    NEXT_PUBLIC_API_PROJECT_HOST: API_PROJECT_HOST,
+    NEXT_PUBLIC_BASE_PATH: String(basePath || ''),
   },
 };
 

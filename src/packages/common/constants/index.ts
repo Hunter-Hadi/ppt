@@ -50,10 +50,17 @@ export const COMMON_MAXAI_APP_PROJECT_HOST =
  */
 export const COMMON_MAXAI_API_HOST =
   /* @ts-ignore */
-  (typeof process !== 'undefined' ? process?.env?.NEXT_PUBLIC_BASE_URL : '') ||
+  (typeof process !== 'undefined'
+    ? process?.env?.NEXT_PUBLIC_API_PROJECT_HOST
+    : '') ||
   /* @ts-ignore */
   (typeof ENV_DEFINE__LINKS__API_HOST !== 'undefined'
     ? /* @ts-ignore */
       ENV_DEFINE__LINKS__API_HOST
     : '') ||
   'https://api.maxai.me';
+
+export const COMMON_PROJECT_BASE_PATH =
+  /* @ts-ignore */
+  (typeof process !== 'undefined' ? process?.env?.NEXT_PUBLIC_BASE_PATH : '') ||
+  '/tools';

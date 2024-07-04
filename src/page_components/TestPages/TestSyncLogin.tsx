@@ -11,13 +11,14 @@ import {
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import AuthAvatar from '@/packages/auth/components/AuthAvatar';
 import AppBar from '@/packages/base-ui/components/AppBar';
 import {
   COMMON_MAXAI_API_HOST,
   COMMON_MAXAI_APP_PROJECT_HOST,
   COMMON_MAXAI_WWW_PROJECT_HOST,
+  COMMON_PROJECT_BASE_PATH,
 } from '@/packages/common';
+import LanguageSelector from '@/packages/nextjs-ui/components/LangaugeSelector';
 
 const TestSyncLogin = () => {
   const { isLogin, loading, error, connectMaxAIAccount } =
@@ -32,6 +33,7 @@ const TestSyncLogin = () => {
       <Typography>app: {COMMON_MAXAI_APP_PROJECT_HOST}</Typography>
       <Typography>www: {COMMON_MAXAI_WWW_PROJECT_HOST}</Typography>
       <Typography>api: {COMMON_MAXAI_API_HOST}</Typography>
+      <Typography>basePath: {COMMON_PROJECT_BASE_PATH}</Typography>
       {!isLogin && (
         <>
           <Typography>error: {error}</Typography>
@@ -43,8 +45,7 @@ const TestSyncLogin = () => {
       <AppLoadingLayout loading={!isLogin} sx={{ minHeight: '90vh' }}>
         <AppDefaultSeoLayout />
         <Stack>email: {userProfile?.email}</Stack>
-        <AppBar />
-        <AuthAvatar />
+        <AppBar MenuListComponents={<LanguageSelector />} />
         <Stack>
           <Button onClick={handleLogout}>Logout</Button>
         </Stack>

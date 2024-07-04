@@ -2,7 +2,7 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 
-import languageCodeMap from '../src/i18n/types/languageCodeMap.json' assert { type: 'json' };
+import languageCodeMap from '../src/packages/common/constants/languageCodeMap.json' assert { type: 'json' };
 import pdfToolsCodeMap from '../src/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json' assert { type: 'json' };
 
 const IS_PROD = true;

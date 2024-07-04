@@ -111,9 +111,7 @@ const AppBar: FC<IAppBarProps> = ({
             pr: 2.5,
           }}
         />
-
         {MenuListComponents}
-
         {!isLogin && !hiddenSignInButton ? (
           <LoadingButton
             loading={loading}
@@ -128,9 +126,7 @@ const AppBar: FC<IAppBarProps> = ({
             {t('common:sign_in')}
           </LoadingButton>
         ) : null}
-
         {CtaContentComponents}
-
         {showAvatar && (
           <Box>
             <AuthAvatar />
