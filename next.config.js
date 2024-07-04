@@ -37,7 +37,7 @@ const { getHostConfig } = require('./scripts/host.js');
 const { WWW_PROJECT_HOST, APP_PROJECT_HOST, API_PROJECT_HOST } =
   getHostConfig();
 
-const basePath = '';
+const basePath = undefined;
 
 const nextConfig = {
   basePath,
