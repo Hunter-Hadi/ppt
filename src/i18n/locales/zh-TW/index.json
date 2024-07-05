@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "在您的瀏覽器中添加 MaxAI.me 擴展，以 AI 節省每個網頁上的時間。它是免費的，並且100％保護隱私。",
     "home_page__how_it_works__step2__description": "輕鬆使用 Google 或電子郵件登錄。它簡單、免費且安全。",
     "home_page__hero_section__title": "您的AI動力研究和寫作助手",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "將人工智慧添加到您的瀏覽器",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "更快速地進行研究和撰寫",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me 瀏覽器擴充功能可幫助您在線上工作時進行摘要、回答問題、修改寫作，並生成草稿。每天節省數小時。",
     "home_page__features_content__ab_test_v4__content2__summary__label": "摘要助手",
     "home_page__features_content__ab_test_v4__content2__summary__title": "節省閱讀長文章和影片的時間",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI 在您使用的所有 Web 應用程序和網站上運作。",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "無需複製、粘貼或切換上下文。",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "在您需要的地方獲得 AI 幫助。",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "使用AI閱讀、寫作和搜索",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "10倍速完成工作",
     "partners__try_our_extension": "試試我們合作夥伴的新擴展 👇",
-    "partners__try_our_tools": "試試我們合作夥伴的免費工具"
+    "partners__try_our_tools": "試試我們合作夥伴的免費工具",
+    "home_page__hero_section__title__part1": "使用AI閱讀、寫作和搜索",
+    "home_page__hero_section__title__part2": "10倍速完成工作"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",

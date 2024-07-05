@@ -659,8 +659,6 @@
     "home_page__how_it_works__step1__description": "在浏览器中添加MaxAI.me扩展，用AI在每个网页上节省时间。它是免费的，100%保护隐私。",
     "home_page__how_it_works__step2__description": "轻松使用Google或电子邮件登录。简单、免费、安全。",
     "home_page__hero_section__title": "您的AI驱动的研究和写作助手",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "将AI添加到您的浏览器",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "更快地进行研究和写作",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me 浏览器扩展帮助您在任何时间、任何地点在线工作时进行摘要、回答问题、润色写作和生成草稿。每天节省数小时。",
     "home_page__features_content__ab_test_v4__content2__summary__label": "摘要助手",
     "home_page__features_content__ab_test_v4__content2__summary__title": "节省长文章和视频的时间",
@@ -706,10 +704,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI适用于您使用的所有网络应用程序和网站。",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "无需复制、粘贴或切换上下文。",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "在您需要的地方获得AI帮助。",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "使用AI进行阅读、写作和搜索",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "10倍提速完成工作",
     "partners__try_our_extension": "试用我们合作伙伴的新扩展 👇",
-    "partners__try_our_tools": "试用我们合作伙伴的免费工具"
+    "partners__try_our_tools": "试用我们合作伙伴的免费工具",
+    "home_page__hero_section__title__part1": "使用AI阅读、写作和搜索",
+    "home_page__hero_section__title__part2": "10倍提速完成工作"
   },
   "button": {
     "add_to_chrome_for_free": "添加到 Chrome - 免费",

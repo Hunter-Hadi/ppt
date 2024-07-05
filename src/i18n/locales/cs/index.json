@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Přidejte rozšíření MaxAI.me do svého prohlížeče a ušetřete čas na každé webové stránce s pomocí AI. Je to zdarma a 100% respektuje soukromí.",
     "home_page__how_it_works__step2__description": "Snadno se přihlaste pomocí účtu Google nebo e-mailu. Je to jednoduché, zdarma a bezpečné.",
     "home_page__hero_section__title": "Váš výzkumný a psaní asistent poháněný umělou inteligencí",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Přidejte AI do svého prohlížeče",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Rychlejší výzkum a psaní",
     "home_page__hero_section__desc__ab_test_v4__variant2": "Prohlížečové rozšíření MaxAI.me vám pomáhá shrnovat, odpovídat na otázky, upravovat texty a generovat koncepty kdykoliv a kdekoli pracujete online. Ušetřete hodiny každý den.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Asistent pro shrnutí",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Ušetřete čas při čtení dlouhých článků a videí",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI funguje ve všech webových aplikacích a na všech webových stránkách, které používáte.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Bez kopírování, bez vkládání, bez přepínání kontextu.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Získejte pomoc AI přímo tam, kde ji potřebujete.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Čtěte, pište a vyhledávejte s pomocí umělé inteligence",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Dokončete práci 10x rychleji",
     "partners__try_our_extension": "Vyzkoušejte nové rozšíření našeho partnera 👇",
-    "partners__try_our_tools": "Vyzkoušejte bezplatné nástroje našeho partnera"
+    "partners__try_our_tools": "Vyzkoušejte bezplatné nástroje našeho partnera",
+    "home_page__hero_section__title__part1": "Čtěte, pište a vyhledávejte s pomocí umělé inteligence",
+    "home_page__hero_section__title__part2": "Dokončete práci 10x rychleji"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",

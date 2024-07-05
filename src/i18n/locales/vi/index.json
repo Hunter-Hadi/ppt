@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Thêm tiện ích MaxAI.me vào trình duyệt của bạn để tiết kiệm thời gian trên mọi trang web với AI. Miễn phí và bảo mật 100%.",
     "home_page__how_it_works__step2__description": "Dễ dàng đăng nhập bằng Google hoặc email. Đơn giản, miễn phí và an toàn.",
     "home_page__hero_section__title": "Trợ lý nghiên cứu và viết bài của bạn được trang bị trí tuệ nhân tạo",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Thêm trí tuệ nhân tạo vào trình duyệt của bạn",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Nghiên cứu và viết nhanh hơn",
     "home_page__hero_section__desc__ab_test_v4__variant2": "Tiện ích duyệt web MaxAI.me giúp bạn tóm tắt, trả lời câu hỏi, chỉnh sửa văn bản và tạo bản nháp mọi lúc, mọi nơi khi làm việc trực tuyến. Tiết kiệm hàng giờ mỗi ngày.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Trợ lý tóm tắt",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Tiết kiệm thời gian với các bài viết và video dài",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI hoạt động trên tất cả các ứng dụng web và trang web bạn sử dụng.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Không sao chép, không dán, không chuyển đổi ngữ cảnh.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Nhận sự trợ giúp của AI, ngay tại nơi bạn cần.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Đọc, viết và tìm kiếm với trí tuệ nhân tạo",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Hoàn thành công việc nhanh gấp 10 lần",
     "partners__try_our_extension": "Hãy thử tiện ích mới của đối tác của chúng tôi 👇",
-    "partners__try_our_tools": "Hãy thử các công cụ miễn phí của đối tác của chúng tôi"
+    "partners__try_our_tools": "Hãy thử các công cụ miễn phí của đối tác của chúng tôi",
+    "home_page__hero_section__title__part1": "Đọc, viết và tìm kiếm với trí tuệ nhân tạo",
+    "home_page__hero_section__title__part2": "Hoàn thành công việc nhanh gấp 10 lần"
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",

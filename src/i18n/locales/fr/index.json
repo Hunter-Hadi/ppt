@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Ajoutez l'extension MaxAI.me à votre navigateur pour gagner du temps sur chaque page web avec l'IA. C'est gratuit et respectueux de la vie privée à 100%.",
     "home_page__how_it_works__step2__description": "Connectez-vous facilement avec Google ou par e-mail. C'est simple, gratuit et sécurisé.",
     "home_page__hero_section__title": "Votre assistant de recherche et d'écriture alimenté par l'IA",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Ajoutez l'IA à votre navigateur",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Recherchez et écrivez plus rapidement",
     "home_page__hero_section__desc__ab_test_v4__variant2": "L'extension de navigateur MaxAI.me vous aide à résumer, répondre aux questions, améliorer votre écriture et générer des brouillons où que vous travailliez en ligne. Économisez des heures chaque jour.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Assistant de résumé",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Gagnez du temps sur les longs articles et vidéos",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI fonctionne sur toutes les applications web et les sites que vous utilisez.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Pas de copier-coller, pas de changement de contexte.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Obtenez de l'aide IA là où vous en avez besoin.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Lire, écrire et rechercher avec l'IA",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Terminer le travail 10 fois plus rapidement",
     "partners__try_our_extension": "Essayez la nouvelle extension de notre partenaire 👇",
-    "partners__try_our_tools": "Essayez les outils gratuits de notre partenaire"
+    "partners__try_our_tools": "Essayez les outils gratuits de notre partenaire",
+    "home_page__hero_section__title__part1": "Lire, écrire et rechercher avec l'IA",
+    "home_page__hero_section__title__part2": "Terminer le travail 10 fois plus rapidement"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",

@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "AI ile her web sayfasında zaman kazanmak için tarayıcınıza MaxAI.me uzantısını ekleyin. Ücretsiz ve %100 gizlilik dostu.",
     "home_page__how_it_works__step2__description": "Google veya e-posta ile kolayca oturum açın. Basit, ücretsiz ve güvenli.",
     "home_page__hero_section__title": "Yapay zeka destekli araştırma ve yazma asistanınız",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Tarayıcınıza Yapay Zeka Ekleyin",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Daha hızlı araştırma yapın ve yazın",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me tarayıcı eklentisi, çevrimiçi çalıştığınız her yerde ve her zaman özetleme, soruları yanıtlama, yazıyı düzenleme ve taslak oluşturma konusunda size yardımcı olur. Her gün saatlerce zaman kazanın.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Özet Asistanı",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Uzun makalelerde ve videolarda zaman kazanın",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI, kullandığınız tüm web uygulamalarında ve sitelerde çalışır.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Kopyalama, yapıştırma veya bağlam değiştirme yok.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "İhtiyacınız olan yere doğru AI yardımı alın.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Yapay zeka ile okuyun, yazın ve arama yapın",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "İşi 10 kat daha hızlı bitirin",
     "partners__try_our_extension": "Ortaklarımızın yeni uzantısını deneyin 👇",
-    "partners__try_our_tools": "Ortaklarımızın ücretsiz araçlarını deneyin"
+    "partners__try_our_tools": "Ortaklarımızın ücretsiz araçlarını deneyin",
+    "home_page__hero_section__title__part1": "Yapay zeka ile okuyun, yazın ve arama yapın",
+    "home_page__hero_section__title__part2": "İşi 10 kat daha hızlı bitirin"
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",

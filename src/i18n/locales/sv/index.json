@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Lägg till MaxAI.me-tillägget i din webbläsare för att spara tid på varje webbsida med AI. Det är gratis och 100% integritetsvänligt.",
     "home_page__how_it_works__step2__description": "Logga enkelt in med Google eller e-post. Det är enkelt, gratis och säkert.",
     "home_page__hero_section__title": "Din AI-drivna forsknings- och skrivassistent",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Lägg till AI i din webbläsare",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Forska och skriv snabbare",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me webbläsartillägg hjälper dig att sammanfatta, besvara frågor, finslipa skrivande och generera utkast när som helst och var som helst du arbetar online. Spara timmar varje dag.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Sammanfattningsassistent",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Spara tid på långa artiklar och videor",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI fungerar på alla webbappar och webbplatser du använder.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Ingen kopiering, ingen klistring, ingen växling av sammanhang.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Få AI-hjälp precis där du behöver det.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Läs, skriv och sök med AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Slutför arbete 10x snabbare",
     "partners__try_our_extension": "Testa vår partners nya tillägg 👇",
-    "partners__try_our_tools": "Testa våra partners gratis verktyg"
+    "partners__try_our_tools": "Testa våra partners gratis verktyg",
+    "home_page__hero_section__title__part1": "Läs, skriv och sök med AI",
+    "home_page__hero_section__title__part2": "Slutför arbete 10x snabbare"
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",

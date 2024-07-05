@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Adăugați extensia MaxAI.me la browserul dvs. pentru a economisi timp pe fiecare pagină web cu ajutorul AI-ului. Este gratuit și respectă confidențialitatea în proporție de 100%.",
     "home_page__how_it_works__step2__description": "Conectați-vă ușor cu Google sau prin e-mail. Este simplu, gratuit și sigur.",
     "home_page__hero_section__title": "Asistentul tău de cercetare și scriere alimentat de IA",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Adaugă AI în browserul tău",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Cercetează și scrie mai rapid",
     "home_page__hero_section__desc__ab_test_v4__variant2": "Extensia browserului MaxAI.me te ajută să rezumi, să răspunzi la întrebări, să îți îmbunătățești scrisul și să generezi schițe oriunde și oricând lucrezi online. Economisește ore în fiecare zi.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Asistent de rezumat",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Economisește timp la articolele și videoclipurile lungi",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI funcționează pe toate aplicațiile web și site-urile pe care le folosești.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Fără copiere, fără lipire, fără schimbarea contextului.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Primește ajutor AI, exact acolo unde ai nevoie.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Citește, scrie și caută cu ajutorul IA",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Termină munca de 10 ori mai repede",
     "partners__try_our_extension": "Încercați noua extensie a partenerului nostru 👇",
-    "partners__try_our_tools": "Încercați instrumentele gratuite ale partenerului nostru"
+    "partners__try_our_tools": "Încercați instrumentele gratuite ale partenerului nostru",
+    "home_page__hero_section__title__part1": "Citește, scrie și caută cu ajutorul IA",
+    "home_page__hero_section__title__part2": "Termină munca de 10 ori mai repede"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",

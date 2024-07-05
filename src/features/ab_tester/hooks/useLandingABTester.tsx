@@ -5,7 +5,7 @@ import { atom, useRecoilState } from 'recoil';
 
 import {
   ILandingVariantType,
-  LANDING_VARIANT,
+  LANDING_VARIANT_CONFIG,
   LANDING_VARIANT_TO_VERSION_MAP,
   TEST_LANDING_COOKIE_NAME,
   TESTER_LANDING_PATH_TARGET_PATHNAME,
@@ -15,7 +15,6 @@ import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserIn
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension';
 import { mixpanelTrack } from '@/features/mixpanel/utils';
 import languageCodeMap from '@/i18n/types/languageCodeMap.json';
-import { removeLocaleInPathname } from '@/i18n/utils';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
 
 const LandingABTestVariantKeyAtom = atom({
@@ -28,7 +27,7 @@ const LandingABTestVariantKeyAtom = atom({
 const useLandingABTester = (autoSendEvent = false) => {
   const { t } = useTranslation();
 
-  const { pathname, isReady, query, push, reload } = useRouter();
+  const { pathname, isReady, query } = useRouter();
 
   const sendMixpanelOnce = useRef(false);
 
@@ -43,19 +42,13 @@ const useLandingABTester = (autoSendEvent = false) => {
     return isTargetTestPathname(pathname, TESTER_LANDING_PATH_TARGET_PATHNAME);
   }, [pathname]);
 
-  const autoRedirectLanguage = useMemo(() => {
-    return (
-      variant?.includes('auto_redirect_language') &&
-      !pathname.includes('[locale]')
-    );
-  }, [variant, pathname]);
-
   useEffect(() => {
     if (sendMixpanelOnce.current || !isReady || !autoSendEvent) {
       return;
     }
-
     if (variant && enabled) {
+      // 发送 test_page_viewed 事件
+      //通知后端用户进入了测试页面
       const sendEvent = () => {
         sendMixpanelOnce.current = true;
         mixpanelTrack('test_page_viewed', {
@@ -72,16 +65,15 @@ const useLandingABTester = (autoSendEvent = false) => {
       });
 
       if (
-        autoRedirectLanguage &&
-        isSupportLanguage &&
-        // 如果当前语言不是英文，就跳转到对应语言的页面
-        isSupportLanguage !== 'en' &&
-        isSupportLanguage !== 'en-GB' &&
-        isSupportLanguage !== 'en-US'
+        !(
+          !pathname.includes('[locale]') &&
+          isSupportLanguage &&
+          isSupportLanguage !== 'en' &&
+          isSupportLanguage !== 'en-GB' &&
+          isSupportLanguage !== 'en-US'
+        )
       ) {
-        const targetPathname = removeLocaleInPathname(pathname);
-        location.href = `/${isSupportLanguage}${targetPathname}${location.search}${location.hash}`;
-      } else {
+        // 如果是当前语言，则不需要跳转了，触发sendEvent
         if (pathname.startsWith('/partners')) {
           // 在 partners 页面时，需要判断 没有安装插件时，才发送 test_page_viewed
           if (checkExtensionStatusLoaded && !hasExtension) {
@@ -100,7 +92,6 @@ const useLandingABTester = (autoSendEvent = false) => {
     hasExtension,
     autoSendEvent,
     checkExtensionStatusLoaded,
-    autoRedirectLanguage,
     query,
   ]);
 
@@ -108,28 +99,16 @@ const useLandingABTester = (autoSendEvent = false) => {
     if (!enabled || !variant) {
       return null;
     }
-    if (variant.includes('content2')) {
+    if (
+      LANDING_VARIANT_CONFIG[variant] &&
+      LANDING_VARIANT_CONFIG[variant].titleMain &&
+      LANDING_VARIANT_CONFIG[variant].titleSecondary
+    ) {
       return (
         <>
-          {t(
-            'pages:home_page__hero_section__title__ab_test_v5__variant2__part1',
-          )}
+          {t(LANDING_VARIANT_CONFIG[variant].titleMain as string)}
           <br />
-          {t(
-            'pages:home_page__hero_section__title__ab_test_v5__variant2__part2',
-          )}
-        </>
-      );
-    } else if (variant.includes('content1')) {
-      return (
-        <>
-          {t(
-            'pages:home_page__hero_section__title__ab_test_v4__variant2__part1',
-          )}
-          <br />
-          {t(
-            'pages:home_page__hero_section__title__ab_test_v4__variant2__part2',
-          )}
+          {t(LANDING_VARIANT_CONFIG[variant].titleSecondary as string)}
         </>
       );
     }
@@ -137,36 +116,33 @@ const useLandingABTester = (autoSendEvent = false) => {
     return null;
   }, [variant, t, enabled]);
 
-  // const description = useMemo<React.ReactNode>(() => {
-  //   if (!enabled || !variant) {
-  //     return null;
-  //   }
-
-  //   if (variant.includes('content1')) {
-  //     return t('pages:home_page__hero_section__desc__ab_test_v4__variant2');
-  //   } else if (variant.includes('content2')) {
-  //     return '123';
-  //   }
-
-  //   return null;
-  // }, [variant, t, enabled]);
-
   useEffect(() => {
     if (!variant && enabled) {
-      const randomIndex = Date.now() % LANDING_VARIANT.length;
-      const randomVariant = LANDING_VARIANT[randomIndex];
-
+      const keys = Object.keys(LANDING_VARIANT_CONFIG) as ILandingVariantType[];
+      const randomIndex = Date.now() % keys.length; //随机选择一个variant
+      const randomVariant = keys[randomIndex];
       setLocalStorage(TEST_LANDING_COOKIE_NAME, randomVariant);
-      setVariant(randomVariant);
+      setVariant(randomVariant); //设置当前的abtest的variant
     }
   }, [setVariant, variant, enabled]);
-
+  const featuresContentSort = useMemo(() => {
+    return variant
+      ? LANDING_VARIANT_CONFIG[variant]?.featuresContentSort
+      : undefined;
+  }, [variant]);
+  const isIndicatorContentTop = useMemo(() => {
+    return variant
+      ? LANDING_VARIANT_CONFIG[variant]?.isIndicatorContentTop
+      : false;
+  }, [variant]);
   return {
     variant,
     setVariant,
     loaded,
     title,
     description: null,
+    featuresContentSort,
+    isIndicatorContentTop,
   };
 };
 

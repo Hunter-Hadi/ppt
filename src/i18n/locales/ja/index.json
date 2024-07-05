@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "AIと一緒にすべてのウェブページで時間を節約するために、MaxAI.me拡張機能をブラウザに追加しましょう。無料であり、プライバシーにも配慮しています。",
     "home_page__how_it_works__step2__description": "Googleアカウントまたはメールで簡単にサインインしましょう。シンプルで無料、安全です。",
     "home_page__hero_section__title": "あなたのAIパワーのある研究と執筆アシスタント",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "ブラウザにAIを追加",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "より速く調査・執筆",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.meブラウザ拡張機能は、オンラインで作業する場所や時間に関係なく、要約、質問に答える、文章を磨く、下書きを生成するのをサポートします。毎日数時間を節約しましょう。",
     "home_page__features_content__ab_test_v4__content2__summary__label": "要約アシスタント",
     "home_page__features_content__ab_test_v4__content2__summary__title": "長い記事や動画に時間を節約",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAIは使用しているすべてのウェブアプリとサイトで動作します。",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "コピーも貼り付けもコンテキストの切り替えも不要です。",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "必要な場所でAIのサポートを受けましょう。",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "AIで読み書きと検索",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "10倍速く仕事を終わらせる",
     "partners__try_our_extension": "パートナーの新しい拡張機能を試してみてください 👇",
-    "partners__try_our_tools": "パートナーの無料ツールを試してみてください"
+    "partners__try_our_tools": "パートナーの無料ツールを試してみてください",
+    "home_page__hero_section__title__part1": "AIで読み書きと検索",
+    "home_page__hero_section__title__part2": "10倍速く仕事を終わらせる"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",

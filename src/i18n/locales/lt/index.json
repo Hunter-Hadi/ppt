@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Pridėkite MaxAI.me plėtinį į savo naršyklę, kad sutaupytumėte laiko kiekvienoje interneto svetainėje su dirbtiniu intelektu. Tai nemokama ir 100% privatumo draugiška.",
     "home_page__how_it_works__step2__description": "Paprastai prisijunkite su „Google“ arba el. paštu. Tai paprasta, nemokama ir saugu.",
     "home_page__hero_section__title": "Jūsų AI pagalbininkas tyrimams ir rašymui",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Pridėkite dirbtinį intelektą į savo naršyklę",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Greitesnis tyrimas ir rašymas",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me naršyklės plėtinys padeda jums santraukoti, atsakyti į klausimus, tobulinti rašymą ir generuoti projektus, kai tik dirbate internete. Sutaupykite valandas kasdien.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Santraukos asistentas",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Sutaupykite laiko ilgiems straipsniams ir vaizdo įrašams",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI veikia visose jūsų naudojamose internetinėse programose ir svetainėse.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Nereikia kopijuoti, neklijuoti, nereikia keisti konteksto.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Gaukite AI pagalbą ten, kur jums reikia.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Skaitykite, rašykite ir ieškokite su dirbtine intelektu",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Baikite darbą 10 kartų greičiau",
     "partners__try_our_extension": "Išbandykite mūsų partnerio naują plėtinį 👇",
-    "partners__try_our_tools": "Išbandykite mūsų partnerio nemokamus įrankius"
+    "partners__try_our_tools": "Išbandykite mūsų partnerio nemokamus įrankius",
+    "home_page__hero_section__title__part1": "Skaitykite, rašykite ir ieškokite su dirbtine intelektu",
+    "home_page__hero_section__title__part2": "Baikite darbą 10 kartų greičiau"
   },
   "prompt_library": {
     "use_prompt_library__title": "Aukštos kokybės AI užduočių biblioteka",

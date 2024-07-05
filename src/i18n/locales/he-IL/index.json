@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "הוסף את התוסף MaxAI.me לדפדפן שלך כדי לחסוך זמן בכל דף אינטרנט עם AI. זה חינם וידידותי לפרטיות ב-100%.",
     "home_page__how_it_works__step2__description": "התחבר בקלות עם Google או דוא\"ל. זה פשוט, חינם ומאובטח.",
     "home_page__hero_section__title": "השותף שלך למחקר וכתיבה מופעל על ידי AI",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "הוסף אינטיליגנציה מלאכותית לדפדפן שלך",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "מחקר וכתיבה מהירה יותר",
     "home_page__hero_section__desc__ab_test_v4__variant2": "הרחבת הדפדפן MaxAI.me עוזרת לך לסכם, לענות על שאלות, לשפר את הכתיבה וליצור טיוטות בכל מקום ובכל זמן שאתה עובד באינטרנט. חסוך שעות בכל יום.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "עוזר סיכום",
     "home_page__features_content__ab_test_v4__content2__summary__title": "חסוך זמן במאמרים ארוכים וסרטונים",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI עובד בכל אפליקציות הרשת והאתרים שאתה משתמש בהם.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "לא צריך להעתיק, להדביק או להחליף הקשר.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "קבל עזרה AI, בדיוק במקום שאתה צריך אותה.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "קרא, כתוב וחפש עם AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "סיים עבודה 10 פעמים מהר יותר",
     "partners__try_our_extension": "נסה את התוסף החדש של השותפים שלנו 👇",
-    "partners__try_our_tools": "נסה את הכלים החינמיים של השותפים שלנו"
+    "partners__try_our_tools": "נסה את הכלים החינמיים של השותפים שלנו",
+    "home_page__hero_section__title__part1": "קרא, כתוב וחפש בעזרת AI",
+    "home_page__hero_section__title__part2": "סיים עבודה 10 פעמים מהר יותר"
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים AI באיכות גבוהה",

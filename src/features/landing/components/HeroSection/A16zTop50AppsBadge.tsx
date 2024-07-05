@@ -1,10 +1,12 @@
-import { Stack, SvgIcon, Typography } from '@mui/material';
+import { Stack, SvgIcon, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { FC } from 'react';
 
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
-
-const A16zTop50AppsBadge = () => {
+interface IA16zTop50AppsBadgeProps {
+  sx?: SxProps;
+}
+const A16zTop50AppsBadge: FC<IA16zTop50AppsBadgeProps> = ({ sx }) => {
   const { t } = useTranslation();
   return (
     <IndicatorDecorator>
@@ -21,6 +23,7 @@ const A16zTop50AppsBadge = () => {
             cursor: 'pointer',
             transition: 'color 0.3s ease',
           },
+          ...sx,
         }}
       >
         <Stack direction={'row'} alignItems='center' spacing={1}>

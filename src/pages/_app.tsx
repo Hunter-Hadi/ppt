@@ -33,6 +33,7 @@ import {
 } from '@/features/track_user_interactions/utils';
 import GlobalVideoPopup from '@/features/video_popup/components/GlobalVideoPopup';
 import { APP_PROJECT_LINK } from '@/global_constants';
+import useAutoRedirectLanguage from '@/hooks/useAutoRedirectLanguage';
 import { GA_TRACKING_ID, GA_TRACKING_ID_MCC } from '@/pages/_document';
 import AppInit from '@/utils/AppInit';
 import { initFingerPrint } from '@/utils/fingerPrint';
@@ -44,7 +45,7 @@ const queryClient = new QueryClient();
 function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const notistackRef = React.useRef(null);
-
+  useAutoRedirectLanguage(); //根据浏览器语言自动重定向到对应的语言页面
   const { i18n } = useTranslation();
 
   const isEmbedPage = router.pathname.startsWith('/embed');

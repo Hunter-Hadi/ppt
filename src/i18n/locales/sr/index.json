@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Dodajte MaxAI.me ekstenziju svom pretraživaču da biste uštedeli vreme na svakoj web stranici uz pomoć veštačke inteligencije. Besplatno je i 100% privatno.",
     "home_page__how_it_works__step2__description": "Lako se prijavite putem Google naloga ili e-pošte. Jednostavno, besplatno i sigurno.",
     "home_page__hero_section__title": "Vaš istraživač i pomoćnik za pisanje pokretan veštačkom inteligencijom",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Dodajte veštačku inteligenciju svom pretraživaču",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Istražujte i pišite brže",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me pregledačka ekstenzija vam pomaže da sumirate, odgovorite na pitanja, doterate svoje pisanje i generišete nacrte kad god i gde god radite online. Uštedite sate svakog dana.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Pomoćnik za rezime",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Uštedite vreme na dugim člancima i video snimcima",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI radi na svim web aplikacijama i sajtovima koje koristite.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Bez kopiranja, bez lepljenja, bez prebacivanja konteksta.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Dobijte pomoć AI, tamo gde vam je potrebna.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Čitajte, pišite i pretražujte uz veštačku inteligenciju",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Završite posao 10 puta brže",
     "partners__try_our_extension": "Isprobajte novu ekstenziju našeg partnera 👇",
-    "partners__try_our_tools": "Isprobajte besplatne alate našeg partnera"
+    "partners__try_our_tools": "Isprobajte besplatne alate našeg partnera",
+    "home_page__hero_section__title__part1": "Čitajte, pišite i pretražujte uz veštačku inteligenciju",
+    "home_page__hero_section__title__part2": "Završite posao 10 puta brže"
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteka AI uputa visokog kvaliteta",

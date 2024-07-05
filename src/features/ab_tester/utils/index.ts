@@ -1,3 +1,5 @@
+import { pull } from 'lodash-es';
+
 import { removeLocaleInPathname } from '@/i18n/utils';
 
 export const isTargetTestPathname = (
@@ -40,4 +42,24 @@ export const assignVariantGroup = <T = any>(
   const variant = variantGroup[groupIndex];
 
   return variant;
+};
+export const getFeaturesContentSearchPosition = (searchIndex = 3) => {
+  const list = [
+    'Summary assistant',
+    'Reading assistant',
+    'Search assistant',
+    'Writing assistant',
+    'Drafting assistant',
+    'Email assistant',
+    'Translation assistant',
+    'Browser extension',
+  ];
+
+  // 移除 'Search assistant'
+  pull(list, 'Search assistant');
+
+  // 在指定位置插入 'Search assistant'
+  list.splice(searchIndex - 1, 0, 'Search assistant');
+
+  return list;
 };

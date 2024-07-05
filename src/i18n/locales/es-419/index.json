@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Agregue la extensión MaxAI.me a su navegador para ahorrar tiempo en cada página web con IA. Es gratis y 100% respetuoso de la privacidad.",
     "home_page__how_it_works__step2__description": "Inicie sesión fácilmente con Google o correo electrónico. Es simple, gratuito y seguro.",
     "home_page__hero_section__title": "Tu asistente de investigación y escritura impulsado por IA",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Agrega IA a tu navegador",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Investiga y escribe más rápido",
     "home_page__hero_section__desc__ab_test_v4__variant2": "La extensión del navegador MaxAI.me te ayuda a resumir, responder preguntas, pulir escritos y generar borradores siempre que y donde trabajes en línea. Ahorra horas todos los días.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Asistente de resumen",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Ahorra tiempo en artículos largos y videos",
@@ -720,10 +718,10 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI funciona en todas las aplicaciones y sitios web que utilizas.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Sin copiar, sin pegar, sin cambiar de contexto.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Obtén ayuda de IA justo donde la necesitas.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Lee, escribe y busca con IA",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Termina el trabajo 10 veces más rápido",
     "partners__try_our_extension": "Prueba la nueva extensión de nuestro socio 👇",
-    "partners__try_our_tools": "Prueba las herramientas gratuitas de nuestro socio"
+    "partners__try_our_tools": "Prueba las herramientas gratuitas de nuestro socio",
+    "home_page__hero_section__title__part1": "Lee, escribe y busca con IA",
+    "home_page__hero_section__title__part2": "Termina el trabajo 10 veces más rápido"
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",
