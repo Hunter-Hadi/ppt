@@ -51,21 +51,13 @@ const TestSyncLogin = () => {
           </>
         )}
 
-        <AppLoadingLayout loading={!isLogin} sx={{ minHeight: '90vh' }}>
+        <AppLoadingLayout loading={false} sx={{ minHeight: '90vh' }}>
           <AppDefaultSeoLayout />
           <Stack>email: {userProfile?.email}</Stack>
           <AppBar
             MenuListComponents={
               <Stack flex={1}>
                 <LanguageSelector />
-              </Stack>
-            }
-            AvatarProps={{
-              logoutRedirectUrl: '/',
-            }}
-            CtaContentComponents={
-              <Stack bgcolor='red'>
-                <Button onClick={connectMaxAIAccount}>Login</Button>
               </Stack>
             }
           />

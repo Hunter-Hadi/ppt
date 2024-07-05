@@ -8,7 +8,7 @@ export const UserProfileState = atom<{
 }>({
   key: 'UserProfileStateKey',
   default: {
-    loading: true,
+    loading: false,
     user: null,
   },
 });
