@@ -5,7 +5,7 @@ import React, { FC, useEffect } from 'react';
 
 import { useMaxAITranslation } from '@/packages/common';
 import languageCodeMap from '@/packages/common/constants/languageCodeMap.json';
-import LanguageSelectorList from '@/packages/nextjs-ui/components/LangaugeSelector/LanguageSelectorList';
+import LanguageSelectorList from '@/packages/nextjs-ui/components/LanguageSelector/LanguageSelectorList';
 
 import LanguageSelectorPopup from './LanguageSelectorPopup';
 

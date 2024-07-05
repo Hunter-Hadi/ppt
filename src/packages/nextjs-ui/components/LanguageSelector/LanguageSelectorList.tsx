@@ -51,7 +51,10 @@ const LanguageSelectorList: FC<IProps> = ({
             <NextJsProLink
               hardRefresh
               locale={locale}
-              href={redirectUrl}
+              href={{
+                pathname: redirectUrl,
+                query: router.query,
+              }}
               underline='hover'
               sx={{
                 color: 'text.primary',

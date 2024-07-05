@@ -28,7 +28,6 @@ const LanguageSelectorPopup: FC<ILanguageSelectorPopupProps> = (props) => {
 
   const open = Boolean(anchorEl);
 
-  // 大屏幕显示的内容
   return (
     <>
       <Button
