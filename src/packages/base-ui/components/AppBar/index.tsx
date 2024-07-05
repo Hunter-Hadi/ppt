@@ -134,12 +134,12 @@ const AppBar: FC<IAppBarProps> = ({
             {t('package__base_ui:app_bar__sign_in')}
           </LoadingButton>
         ) : null}
-        {CtaContentComponents}
         {showAvatar && (
           <Box>
             <AuthAvatar {...AvatarProps} />
           </Box>
         )}
+        {CtaContentComponents}
       </Toolbar>
       <Divider />
     </MuiAppBar>
