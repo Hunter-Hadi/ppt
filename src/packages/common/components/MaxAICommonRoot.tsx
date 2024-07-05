@@ -1,16 +1,16 @@
 import React, { FC } from 'react';
 
 import ExtensionDetectionAlert from '@/packages/browser-extension/components/ExtensionDetectionAlert';
-import useInitMaxAIExtension from '@/packages/browser-extension/hooks/useInitMaxAIExtension';
+import MaxAICommonInit from '@/packages/common/components/MaxAICommonInit';
 
 interface IMaxAICommonRootProps {
   children?: React.ReactNode | undefined;
 }
 
 const MaxAICommonRoot: FC<IMaxAICommonRootProps> = ({ children }) => {
-  useInitMaxAIExtension();
   return (
     <>
+      <MaxAICommonInit />
       {children}
       <ExtensionDetectionAlert />
     </>

@@ -5,6 +5,9 @@ import { CHECKED_MAXAI_EXTENSION_TIME_LIMIT } from '../constants';
 import { MaxAIBrowserExtensionAtom } from '../store';
 import { getMaxAIExtensionRoot } from '../utils';
 
+/**
+ * 初始化 项目中 插件相关的状态
+ */
 const useInitMaxAIExtension = () => {
   const timer = useRef<number | null>(null);
   const now = useRef(Date.now());
