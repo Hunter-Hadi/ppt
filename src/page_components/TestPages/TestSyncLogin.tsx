@@ -18,7 +18,7 @@ import {
   COMMON_MAXAI_WWW_PROJECT_HOST,
   COMMON_PROJECT_BASE_PATH,
 } from '@/packages/common';
-import LanguageSelector from '@/packages/nextjs-ui/components/LangaugeSelector';
+import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector';
 
 const TestSyncLogin = () => {
   const { isLogin, loading, error, connectMaxAIAccount } =
