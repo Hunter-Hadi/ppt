@@ -11,7 +11,7 @@ import {
 import { useMaxAITranslation } from '@/packages/common';
 import useBrowserAgent from '@/packages/common/hooks/useBrowserAgent';
 
-interface IProps {
+interface IMaxAIExtensionInstallButtonProps {
   sx?: SxProps;
   target?: HTMLAttributeAnchorTarget;
   variant?: ButtonProps['variant'];
@@ -28,7 +28,7 @@ interface IProps {
   onClick?: (e: React.MouseEvent) => void;
 }
 
-const MaxAIExtensionInstallButton: FC<IProps> = ({
+const MaxAIExtensionInstallButton: FC<IMaxAIExtensionInstallButtonProps> = ({
   sx,
   target = '_blank',
   variant = 'outlined',
