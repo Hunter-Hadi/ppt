@@ -8,14 +8,18 @@ import {
   COMMON_AUTH_API_HOST,
   USER_ROLE_PRIORITY,
 } from '@/packages/auth/constants';
+import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import { UserProfileState } from '@/packages/auth/store';
+import {
+  IUserInfoApiResponse,
+  IUserProfile,
+  IUserRoleType,
+} from '@/packages/auth/types';
 import {
   checkPayingUser,
   getAccessToken,
   renderRoleName,
 } from '@/packages/auth/utils';
-
-import { IUserInfoApiResponse, IUserProfile, IUserRoleType } from '../types';
 
 // TODO: 功能type
 type RENDER_PLAN_TYPE =
@@ -36,6 +40,8 @@ type RENDER_PLAN_TYPE =
 export const useCommonUserProfile = () => {
   const [userProfileState, setUserProfile] = useRecoilState(UserProfileState);
   const { user: userProfile, loading } = userProfileState;
+
+  const { sigOutMaxAIAccount } = useConnectMaxAIAccount();
 
   const { name: roleName, expireTimeStr } = userProfile?.role || {
     name: 'free',
@@ -116,12 +122,14 @@ export const useCommonUserProfile = () => {
         // }
         return result.data;
       }
+
+      setUserProfile((pre) => ({ ...pre, loading: false }));
       return null;
     } catch (e) {
+      sigOutMaxAIAccount();
+      setUserProfile((pre) => ({ ...pre, loading: false }));
       console.error(e);
       return null;
-    } finally {
-      setUserProfile((pre) => ({ ...pre, loading: false }));
     }
   };
 

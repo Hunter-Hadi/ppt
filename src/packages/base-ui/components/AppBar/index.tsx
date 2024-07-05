@@ -5,11 +5,13 @@ import Divider from '@mui/material/Divider';
 import Toolbar from '@mui/material/Toolbar';
 import debounce from 'lodash-es/debounce';
 import React, { FC, useEffect, useMemo } from 'react';
+import { useRecoilValue } from 'recoil';
 
 import AuthAvatar, {
   IAuthAvatarProps,
 } from '@/packages/auth/components/AuthAvatar';
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
+import { UserProfileState } from '@/packages/auth/store';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
 import { useMaxAITranslation } from '@/packages/common';
 
@@ -39,15 +41,21 @@ const AppBar: FC<IAppBarProps> = ({
   onHeightChange,
 }) => {
   const { t } = useMaxAITranslation();
-  const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
+  const {
+    connectMaxAIAccount,
+    isLogin,
+    loading: connectMaxAIAccountLoading,
+  } = useConnectMaxAIAccount();
+  const { loading: userProfileLoading, user: userProfile } =
+    useRecoilValue(UserProfileState);
 
   const showAvatar = useMemo(() => {
     if (hiddenAvatar) {
       return false;
     }
 
-    return isLogin;
-  }, [hiddenAvatar, isLogin]);
+    return isLogin && userProfile;
+  }, [hiddenAvatar, isLogin, userProfile]);
 
   useEffect(() => {
     if (!onHeightChange || hidden) {
@@ -112,9 +120,9 @@ const AppBar: FC<IAppBarProps> = ({
           }}
         />
         {MenuListComponents}
-        {!isLogin && !hiddenSignInButton ? (
+        {!showAvatar && !hiddenSignInButton ? (
           <LoadingButton
-            loading={loading}
+            loading={connectMaxAIAccountLoading || userProfileLoading}
             onClick={connectMaxAIAccount}
             sx={{
               fontSize: 16,
