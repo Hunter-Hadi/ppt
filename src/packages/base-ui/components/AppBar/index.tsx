@@ -122,7 +122,7 @@ const AppBar: FC<IAppBarProps> = ({
         {MenuListComponents}
         {!showAvatar && !hiddenSignInButton ? (
           <LoadingButton
-            loading={connectMaxAIAccountLoading || userProfileLoading}
+            loading={connectMaxAIAccountLoading}
             onClick={connectMaxAIAccount}
             sx={{
               fontSize: 16,
@@ -135,7 +135,7 @@ const AppBar: FC<IAppBarProps> = ({
           </LoadingButton>
         ) : null}
         {showAvatar && (
-          <Box>
+          <Box mr={CtaContentComponents ? 1.5 : 0}>
             <AuthAvatar {...AvatarProps} />
           </Box>
         )}

@@ -55,10 +55,19 @@ const TestSyncLogin = () => {
           <AppDefaultSeoLayout />
           <Stack>email: {userProfile?.email}</Stack>
           <AppBar
-            MenuListComponents={<LanguageSelector />}
+            MenuListComponents={
+              <Stack flex={1}>
+                <LanguageSelector />
+              </Stack>
+            }
             AvatarProps={{
               logoutRedirectUrl: '/',
             }}
+            CtaContentComponents={
+              <Stack bgcolor='red'>
+                <Button onClick={connectMaxAIAccount}>Login</Button>
+              </Stack>
+            }
           />
           <Stack>
             <Button onClick={handleLogout}>Logout</Button>
