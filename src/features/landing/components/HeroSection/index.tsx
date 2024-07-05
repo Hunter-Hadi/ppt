@@ -109,7 +109,12 @@ const HeroSection: FC<IProps> = ({
               ]}
             >
               {isIndicatorContentTop && (
-                <IndicatorContent isABTestAddNewAndNewSort={true} />
+                <IndicatorContent
+                  isABTestAddNewAndNewSort={true}
+                  sx={{
+                    mb: 3,
+                  }}
+                />
               )}
               {loading ? (
                 <TitleSkeleton />

@@ -5,12 +5,11 @@ import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserIn
 import languageCodeMap from '@/i18n/types/languageCodeMap.json';
 import { removeLocaleInPathname } from '@/i18n/utils';
 const useAutoRedirectLanguage = () => {
-  const { pathname, isReady, query } = useRouter();
+  const { pathname, query } = useRouter();
   useEffect(() => {
-    if (!isReady || pathname.includes('[locale]')) {
+    if (pathname.includes('[locale]')) {
       return;
     }
-
     // 用当前浏览器的首选语言去 找对应的支持的 locale
     const currentBrowserLanguage = getBrowserLanguage();
     const languageCodes = Object.keys(languageCodeMap);
@@ -28,6 +27,6 @@ const useAutoRedirectLanguage = () => {
       const targetPathname = removeLocaleInPathname(pathname);
       location.href = `/${isSupportLanguage}${targetPathname}${location.search}${location.hash}`;
     }
-  }, [isReady, pathname, query]);
+  }, [pathname, query]);
 };
 export default useAutoRedirectLanguage;

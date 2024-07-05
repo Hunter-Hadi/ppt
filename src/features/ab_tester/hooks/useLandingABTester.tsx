@@ -27,7 +27,7 @@ const LandingABTestVariantKeyAtom = atom({
 const useLandingABTester = (autoSendEvent = false) => {
   const { t } = useTranslation();
 
-  const { pathname, isReady, query, push, reload } = useRouter();
+  const { pathname, isReady, query } = useRouter();
 
   const sendMixpanelOnce = useRef(false);
 
