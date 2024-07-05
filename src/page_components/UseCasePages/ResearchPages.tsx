@@ -145,7 +145,6 @@ const ResearchPages = () => {
               maxWidth: '835px',
             },
           }}
-          indicatorOnBottom
         />
 
         {/* trusted by */}
