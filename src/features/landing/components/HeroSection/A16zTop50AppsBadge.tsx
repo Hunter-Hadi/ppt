@@ -1,10 +1,12 @@
-import { Stack, SvgIcon, Typography } from '@mui/material';
+import { Stack, SvgIcon, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { FC } from 'react';
 
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
-
-const A16zTop50AppsBadge = () => {
+interface IA16zTop50AppsBadgeProps {
+  labelSx?: SxProps;
+}
+const A16zTop50AppsBadge: FC<IA16zTop50AppsBadgeProps> = ({ labelSx }) => {
   const { t } = useTranslation();
   return (
     <IndicatorDecorator>
@@ -44,6 +46,7 @@ const A16zTop50AppsBadge = () => {
             xs: 14,
             sm: 16,
           }}
+          sx={labelSx}
         >
           {t('pages:home_page__hero_section__indicator1_label')}
         </Typography>

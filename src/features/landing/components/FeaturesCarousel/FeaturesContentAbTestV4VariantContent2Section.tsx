@@ -1,6 +1,6 @@
 import { Stack, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import React from 'react';
+import React, { FC, useMemo } from 'react';
 
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
 import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
@@ -126,13 +126,28 @@ const FEATURES_CONTENT = [
     ],
   },
 ];
-
-const FeaturesContentAbTestV4VariantContent2Section = () => {
+interface IFeaturesContentAbTestV4VariantContent2SectionProps {
+  featuresContentSort?: string[];
+}
+const FeaturesContentAbTestV4VariantContent2Section: FC<
+  IFeaturesContentAbTestV4VariantContent2SectionProps
+> = ({ featuresContentSort }) => {
   const { t } = useTranslation();
-
+  const FEATURES_CONTENT_LIST = useMemo(() => {
+    if (featuresContentSort) {
+      return FEATURES_CONTENT.sort((a, b) => {
+        return (
+          featuresContentSort.indexOf(a.key) -
+          featuresContentSort.indexOf(b.key)
+        );
+      });
+    } else {
+      return FEATURES_CONTENT;
+    }
+  }, [featuresContentSort]);
   return (
     <Stack>
-      {FEATURES_CONTENT.map((featureItem, index) => {
+      {FEATURES_CONTENT_LIST.map((featureItem, index) => {
         return (
           <FeaturesContentSection
             key={featureItem.key}

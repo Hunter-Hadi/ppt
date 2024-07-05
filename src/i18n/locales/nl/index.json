@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Voeg de MaxAI.me-extensie toe aan je browser om tijd te besparen op elke webpagina met AI. Het is gratis en 100% privacyvriendelijk.",
     "home_page__how_it_works__step2__description": "Meld je eenvoudig aan met Google of e-mail. Het is eenvoudig, gratis en veilig.",
     "home_page__hero_section__title": "Uw AI-aangedreven onderzoeks- en schrijfassistent",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Voeg AI toe aan je browser",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Sneller onderzoeken en schrijven",
     "home_page__hero_section__desc__ab_test_v4__variant2": "De MaxAI.me browserextensie helpt je samenvatten, vragen beantwoorden, teksten verbeteren en concepten genereren, waar en wanneer je maar online werkt. Bespaar elke dag uren.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Samenvatting assistent",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Bespaar tijd bij lange artikelen en video's",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI werkt op alle web-apps en sites die je gebruikt.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Geen kopiëren, plakken of contextwisseling.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Krijg AI-hulp precies waar je het nodig hebt.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Lees, schrijf en zoek met AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Werk 10x sneller af",
     "partners__try_our_extension": "Probeer de nieuwe extensie van onze partner 👇",
-    "partners__try_our_tools": "Probeer de gratis tools van onze partner"
+    "partners__try_our_tools": "Probeer de gratis tools van onze partner",
+    "home_page__hero_section__title__ab_test_v6__part1": "Lees, schrijf en zoek met AI",
+    "home_page__hero_section__title__ab_test_v6__part2": "Werk 10x sneller af",
+    "home_page__hero_section__title__part1": "Lees, schrijf en zoek met AI",
+    "home_page__hero_section__title__part2": "Werk 10x sneller af"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",

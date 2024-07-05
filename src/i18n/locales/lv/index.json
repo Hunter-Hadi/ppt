@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Pievienojiet MaxAI.me paplašinājumu savam pārlūkam, lai ietaupītu laiku katrā tīmekļa lapā ar AI. Tas ir bezmaksas un 100% privātuma draudzīgs.",
     "home_page__how_it_works__step2__description": "Vienkārši pierakstieties ar Google vai e-pastu. Tas ir vienkārši, bezmaksas un droši.",
     "home_page__hero_section__title": "Jūsu AI jaudas pētniecības un rakstīšanas palīgs",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Pievienojiet AI savam pārlūkam",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Ātrāka pētniecība un rakstīšana",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me pārlūka paplašinājums palīdz jums apkopot informāciju, atbildēt uz jautājumiem, pilnveidot rakstus un ģenerēt melnrakstus jebkurā vietā un jebkurā brīdī, kad strādājat tiešsaistē. Ietaupiet stundas katru dienu.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Kopsavilkuma asistents",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Ietaupiet laiku garos rakstos un video",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI darbojas visos tīmekļa lietojumprogrammās un vietnēs, ko izmantojat.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Nav kopēšanas, ielīmēšanas vai konteksta maiņas.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Saņemiet AI palīdzību tieši tur, kur to nepieciešams.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Lasiet, rakstiet un meklējiet ar AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Pabeidziet darbu 10x ātrāk",
     "partners__try_our_extension": "Izmēģiniet mūsu partnera jauno paplašinājumu 👇",
-    "partners__try_our_tools": "Izmēģiniet mūsu partnera bezmaksas rīkus"
+    "partners__try_our_tools": "Izmēģiniet mūsu partnera bezmaksas rīkus",
+    "home_page__hero_section__title__ab_test_v6__part1": "Lasiet, rakstiet un meklējiet ar AI",
+    "home_page__hero_section__title__ab_test_v6__part2": "Pabeidziet darbu 10x ātrāk",
+    "home_page__hero_section__title__part1": "Lasiet, rakstiet un meklējiet ar AI",
+    "home_page__hero_section__title__part2": "Pabeidziet darbu 10x ātrāk"
   },
   "prompt_library": {
     "use_prompt_library__title": "Augstas kvalitātes AI pamatbibliotēka",

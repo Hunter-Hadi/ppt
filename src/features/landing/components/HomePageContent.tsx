@@ -26,6 +26,8 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
     loaded,
     title,
     description,
+    featuresContentSort,
+    isIndicatorContentTop,
   } = useLandingABTester(true);
 
   useEffect(() => {
@@ -47,24 +49,28 @@ const HomePageContent: FC<IProps> = ({ propRef }) => {
           // loading={!loaded}
           title={title}
           description={description}
+          isIndicatorContentTop={isIndicatorContentTop}
           heroVideoProps={{
             videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
             variant: 'autoplay',
           }}
         />
-
         {/* trusted by */}
         <TrustedBy />
 
         <HowItWork />
 
         {/* feature  */}
-        <FeaturesContentAbTestV4VariantContent2Section />
+        <FeaturesContentAbTestV4VariantContent2Section
+          featuresContentSort={featuresContentSort}
+        />
 
         {/* maxai in numbers */}
         <MaxAIInNumbers />
+
         {/* user comment */}
         <UserComment />
+
         {/* call to action section */}
         <CallToActionSection propRef={propRef} />
       </Stack>

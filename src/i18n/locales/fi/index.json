@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Lisää MaxAI.me-laajennus selaimeesi säästääksesi aikaa jokaisella verkkosivulla tekoälyn avulla. Se on ilmainen ja 100% yksityisyyttä kunnioittava.",
     "home_page__how_it_works__step2__description": "Kirjaudu helposti sisään Google-tililläsi tai sähköpostilla. Se on yksinkertaista, ilmaista ja turvallista.",
     "home_page__hero_section__title": "Älykäs tutkimus- ja kirjoitusapuri",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Lisää tekoäly selaimeesi",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Tutki ja kirjoita nopeammin",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me-selainlaajennus auttaa sinua tiivistämään, vastaamaan kysymyksiin, hiomaan kirjoitusta ja luomaan luonnoksia aina ja kaikkialla, missä työskentelet verkossa. Säästä tunteja joka päivä.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Tiivistelmäavustaja",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Säästä aikaa pitkissä artikkeleissa ja videoissa",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI toimii kaikissa käyttämissäsi verkkosovelluksissa ja -sivustoissa.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Ei kopioimista, ei liittämistä, ei kontekstin vaihtamista.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Saat tekoälyapua juuri siellä, missä sitä tarvitset.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Lue, kirjoita ja hae tekoälyn avulla",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Viimeistele työ 10 kertaa nopeammin",
     "partners__try_our_extension": "Kokeile kumppanimme uutta laajennusta 👇",
-    "partners__try_our_tools": "Kokeile kumppanimme ilmaisia työkaluja"
+    "partners__try_our_tools": "Kokeile kumppanimme ilmaisia työkaluja",
+    "home_page__hero_section__title__ab_test_v6__part1": "Lue, kirjoita ja hae tekoälyn avulla",
+    "home_page__hero_section__title__ab_test_v6__part2": "Viimeistele työ 10 kertaa nopeammin",
+    "home_page__hero_section__title__part1": "Lue, kirjoita ja hae tekoälyn avulla",
+    "home_page__hero_section__title__part2": "Viimeistele työ 10 kertaa nopeammin"
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",

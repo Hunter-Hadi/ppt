@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Lisage MaxAI.me laiendus oma brauserisse, et aega säästa igal veebilehel AI abil. See on tasuta ja 100% privaatsussõbralik.",
     "home_page__how_it_works__step2__description": "Logige lihtsalt sisse Google'i või e-posti kaudu. See on lihtne, tasuta ja turvaline.",
     "home_page__hero_section__title": "Teie AI-toega uurimis- ja kirjutamisabiline",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Lisa AI oma brauserisse",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Uuri ja kirjuta kiiremini",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me brauserilaiend aitab sul kokku võtta, küsimustele vastata, teksti lihvida ning mustandeid luua igal ajal ja igas kohas, kus töötad veebis. Säästa tunde igapäevaselt.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Kokkuvõtte abiline",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Säästa aega pikkade artiklite ja videote pealt",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI töötab kõigi veebirakenduste ja saitidega, mida kasutad.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Ei mingit kopeerimist, kleepimist ega konteksti vahetamist.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Saa AI abi just seal, kus seda vajad.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Loe, kirjuta ja otsi tehisintellektiga",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Lõpeta töö 10 korda kiiremini",
     "partners__try_our_extension": "Proovige meie partneri uut laiendust 👇",
-    "partners__try_our_tools": "Proovige meie partneri tasuta tööriistu"
+    "partners__try_our_tools": "Proovige meie partneri tasuta tööriistu",
+    "home_page__hero_section__title__ab_test_v6__part1": "Loe, kirjuta ja otsi tehisintellektiga",
+    "home_page__hero_section__title__ab_test_v6__part2": "Lõpeta töö 10x kiiremini",
+    "home_page__hero_section__title__part1": "Loe, kirjuta ja otsi tehisintellektiga",
+    "home_page__hero_section__title__part2": "Lõpeta töö 10x kiiremini"
   },
   "prompt_library": {
     "use_prompt_library__title": "Kõrgekvaliteediline AI-promptide raamatukogu",

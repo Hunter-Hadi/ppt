@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Fügen Sie die MaxAI.me-Erweiterung Ihrem Browser hinzu, um mit KI Zeit auf jeder Webseite zu sparen. Es ist kostenlos und zu 100% datenschutzfreundlich.",
     "home_page__how_it_works__step2__description": "Melden Sie sich einfach mit Google oder E-Mail an. Es ist einfach, kostenlos und sicher.",
     "home_page__hero_section__title": "Ihr KI-gesteuerter Forschungs- und Schreibassistent",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Fügen Sie KI zu Ihrem Browser hinzu",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Forschung und Schreiben schneller",
     "home_page__hero_section__desc__ab_test_v4__variant2": "Die MaxAI.me Browsererweiterung hilft Ihnen dabei, Zusammenfassungen zu erstellen, Fragen zu beantworten, Texte zu verbessern und Entwürfe zu generieren - wann und wo immer Sie online arbeiten. Sparen Sie jeden Tag Stunden.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Zusammenfassungsassistent",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Zeit bei langen Artikeln und Videos sparen",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI funktioniert in allen Webanwendungen und Websites, die Sie verwenden.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Holen Sie sich KI-Hilfe genau dort, wo Sie sie benötigen.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Mit KI lesen, schreiben und suchen",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Arbeit 10x schneller erledigen",
     "partners__try_our_extension": "Probieren Sie die neue Erweiterung unseres Partners aus 👇",
-    "partners__try_our_tools": "Probieren Sie die kostenlosen Tools unseres Partners aus"
+    "partners__try_our_tools": "Probieren Sie die kostenlosen Tools unseres Partners aus",
+    "home_page__hero_section__title__ab_test_v6__part1": "Mit KI lesen, schreiben und suchen",
+    "home_page__hero_section__title__ab_test_v6__part2": "Arbeit 10x schneller erledigen",
+    "home_page__hero_section__title__part1": "Mit KI lesen, schreiben und suchen",
+    "home_page__hero_section__title__part2": "Arbeit 10x schneller erledigen"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",

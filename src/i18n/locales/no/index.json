@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Legg til MaxAI.me-utvidelsen i nettleseren din for å spare tid på hver nettside med AI. Det er gratis og 100% personvernvennlig.",
     "home_page__how_it_works__step2__description": "Logg enkelt inn med Google eller e-post. Det er enkelt, gratis og sikkert.",
     "home_page__hero_section__title": "Din AI-drevne forsknings- og skriveassistent",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Legg til AI i nettleseren din",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Forskning og skriv raskere",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me nettleserutvidelse hjelper deg med å oppsummere, svare på spørsmål, polere skrivingen din og generere utkast når som helst og hvor som helst du jobber online. Spar timer hver dag.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Oppsummeringsassistent",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Spar tid på lange artikler og videoer",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI fungerer på alle webapper og nettsteder du bruker.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Ingen kopiering, ingen liming, ingen bytte av kontekst.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Få AI-hjelp akkurat der du trenger det.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Les, skriv og søk med AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Fullfør arbeidet 10x raskere",
     "partners__try_our_extension": "Prøv vår partners nye utvidelse 👇",
-    "partners__try_our_tools": "Prøv våre partners gratis verktøy"
+    "partners__try_our_tools": "Prøv våre partners gratis verktøy",
+    "home_page__hero_section__title__ab_test_v6__part1": "Les, skriv og søk med AI",
+    "home_page__hero_section__title__ab_test_v6__part2": "Fullfør arbeidet 10x raskere",
+    "home_page__hero_section__title__part1": "Les, skriv og søk med AI",
+    "home_page__hero_section__title__part2": "Fullfør arbeidet 10x raskere"
   },
   "prompt_library": {
     "use_prompt_library__title": "Høykvalitets AI-promptbibliotek",

@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "AI와 함께 모든 웹 페이지에서 시간을 절약하기 위해 MaxAI.me 확장 프로그램을 브라우저에 추가하세요. 무료이며 100% 개인 정보 보호를 지킵니다.",
     "home_page__how_it_works__step2__description": "Google 또는 이메일로 간편하게 로그인하세요. 간단하고 무료이며 안전합니다.",
     "home_page__hero_section__title": "당신의 AI 기반 연구 및 작문 도우미",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "브라우저에 AI 추가",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "더 빠르게 연구하고 글을 작성하세요",
     "home_page__hero_section__desc__ab_test_v4__variant2": "MaxAI.me 브라우저 확장 프로그램은 온라인에서 언제 어디서나 요약, 질문에 대답, 글 다듬기 및 초안 생성을 도와줍니다. 매일 수십 시간을 절약하세요.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "요약 보조",
     "home_page__features_content__ab_test_v4__content2__summary__title": "긴 기사와 비디오에 시간을 절약하세요",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI는 사용하는 모든 웹 앱과 사이트에서 작동합니다.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "복사 및 붙여넣기, 컨텍스트 전환 없이 작동합니다.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "필요한 곳에서 AI 도움을 받으세요.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "인공지능으로 읽기, 쓰기 및 검색",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "작업을 10배 빨리 완료하세요",
     "partners__try_our_extension": "파트너의 새로운 확장 기능을 시도해보세요 👇",
-    "partners__try_our_tools": "파트너의 무료 도구를 시도해보세요"
+    "partners__try_our_tools": "파트너의 무료 도구를 시도해보세요",
+    "home_page__hero_section__title__ab_test_v6__part1": "인공지능으로 읽고, 쓰고, 검색하세요",
+    "home_page__hero_section__title__ab_test_v6__part2": "작업을 10배 빨리 완료하세요",
+    "home_page__hero_section__title__part1": "인공지능으로 읽고, 쓰고, 검색하세요",
+    "home_page__hero_section__title__part2": "작업을 10배 빨리 완료하세요"
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",

@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Magdagdag ng MaxAI.me extension sa iyong browser upang makatipid ng oras sa bawat web page gamit ang AI. Libre ito at 100% privacy friendly.",
     "home_page__how_it_works__step2__description": "Madaling mag-sign in gamit ang Google o email. Ito ay simple, libre, at ligtas.",
     "home_page__hero_section__title": "Ang iyong AI-powered na kasangkapang pang-research at pagsusulat",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Magdagdag ng AI sa iyong browser",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Mag-research at magsulat nang mas mabilis",
     "home_page__hero_section__desc__ab_test_v4__variant2": "Ang MaxAI.me browser extension ay tumutulong sa iyo na buod, sagutin ang mga tanong, linisin ang pagsusulat, at lumikha ng mga draft kahit saan at kailan ka nagtatrabaho online. I-save ang ilang oras araw-araw.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Assistant sa Buod",
     "home_page__features_content__ab_test_v4__content2__summary__title": "I-save ang oras sa mahahabang artikulo at video",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "Gumagana ang MaxAI sa lahat ng web apps at sites na ginagamit mo.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Walang pagkopya, walang pagpindot, walang paglipat ng konteksto.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Makakuha ng tulong mula sa AI, kung saan mo ito kailangan.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Magbasa, sumulat, at maghanap gamit ang AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Tapusin ang trabaho nang 10 beses mas mabilis",
     "partners__try_our_extension": "Subukan ang bagong extension ng aming partner 👇",
-    "partners__try_our_tools": "Subukan ang libreng mga tool ng aming partner"
+    "partners__try_our_tools": "Subukan ang libreng mga tool ng aming partner",
+    "home_page__hero_section__title__ab_test_v6__part1": "Magbasa, sumulat, at maghanap gamit ang AI",
+    "home_page__hero_section__title__ab_test_v6__part2": "Tapusin ang trabaho nang 10 beses mas mabilis",
+    "home_page__hero_section__title__part1": "Magbasa, sumulat, at maghanap gamit ang AI",
+    "home_page__hero_section__title__part2": "Tapusin ang trabaho nang 10 beses mas mabilis"
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",

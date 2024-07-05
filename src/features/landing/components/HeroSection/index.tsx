@@ -1,3 +1,4 @@
+import StarIcon from '@mui/icons-material/Star';
 import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useMemo } from 'react';
@@ -12,7 +13,6 @@ import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
 import useBrowserAgent from '@/hooks/useBrowserAgent';
 import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink';
 import CTAInstallButton from '@/page_components/CTAInstallButton';
-
 interface IProps {
   propRef?: string;
   title?: React.ReactNode;
@@ -26,8 +26,8 @@ interface IProps {
   sx?: SxProps;
 
   // 临时属性，用于测试
-  // 控制 indicator 是否在底部
-  indicatorOnBottom?: boolean;
+  // 控制 indicator 是否在顶部，默认底部
+  isIndicatorContentTop?: boolean;
 }
 
 const HeroSection: FC<IProps> = ({
@@ -38,7 +38,7 @@ const HeroSection: FC<IProps> = ({
   trackerLinkProps,
   loading,
   sx,
-  // indicatorOnBottom,
+  isIndicatorContentTop = false,
 }) => {
   const { browserAgent: agent } = useBrowserAgent();
 
@@ -51,9 +51,9 @@ const HeroSection: FC<IProps> = ({
       propTitle
     ) : (
       <>
-        {t('pages:home_page__hero_section__title__ab_test_v4__variant2__part1')}
+        {t('pages:home_page__hero_section__title__part1')}
         <br />
-        {t('pages:home_page__hero_section__title__ab_test_v4__variant2__part2')}
+        {t('pages:home_page__hero_section__title__part2')}
       </>
     );
   }, [propTitle, t]);
@@ -108,6 +108,14 @@ const HeroSection: FC<IProps> = ({
                 },
               ]}
             >
+              {isIndicatorContentTop && (
+                <IndicatorContent
+                  isABTestAddNewAndNewSort={true}
+                  sx={{
+                    mt: 4,
+                  }}
+                />
+              )}
               {loading ? (
                 <TitleSkeleton />
               ) : (
@@ -268,11 +276,13 @@ const HeroSection: FC<IProps> = ({
                   </Typography>
                 </Stack>
               </Stack>
-              <IndicatorContent
-                sx={{
-                  mt: 4,
-                }}
-              />
+              {!isIndicatorContentTop && (
+                <IndicatorContent
+                  sx={{
+                    mt: 4,
+                  }}
+                />
+              )}
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
@@ -316,12 +326,16 @@ const DescriptionSkeleton = () => {
 
 interface IIndicatorContentProps {
   sx?: SxProps;
+  isABTestAddNewAndNewSort?: boolean;
 }
-const IndicatorContent: FC<IIndicatorContentProps> = ({ sx }) => {
+const IndicatorContent: FC<IIndicatorContentProps> = ({
+  sx,
+  isABTestAddNewAndNewSort = false,
+}) => {
   const { t } = useTranslation();
   return (
     <Stack
-      direction='row'
+      direction={isABTestAddNewAndNewSort ? 'row-reverse' : 'row'}
       alignItems={'center'}
       justifyContent='center'
       gap={{
@@ -329,9 +343,19 @@ const IndicatorContent: FC<IIndicatorContentProps> = ({ sx }) => {
         sm: 3,
       }}
       flexWrap={'wrap'}
-      sx={sx}
+      sx={{
+        ...sx,
+      }}
     >
-      <A16zTop50AppsBadge />
+      <A16zTop50AppsBadge
+        labelSx={
+          isABTestAddNewAndNewSort
+            ? {
+                color: 'text.secondary',
+              }
+            : undefined
+        }
+      />
       <IndicatorDecorator>
         <Stack justifyContent={'center'} alignItems='center'>
           <Typography
@@ -351,6 +375,7 @@ const IndicatorContent: FC<IIndicatorContentProps> = ({ sx }) => {
               xs: 14,
               sm: 16,
             }}
+            color={isABTestAddNewAndNewSort ? 'text.secondary' : undefined}
           >
             {t('pages:home_page__hero_section__indicator2_label')}
           </Typography>
@@ -375,11 +400,40 @@ const IndicatorContent: FC<IIndicatorContentProps> = ({ sx }) => {
               xs: 14,
               sm: 16,
             }}
+            color={isABTestAddNewAndNewSort ? 'text.secondary' : undefined}
           >
             {t('pages:home_page__hero_section__indicator3_label')}
           </Typography>
         </Stack>
       </IndicatorDecorator>
+      {isABTestAddNewAndNewSort && (
+        <IndicatorDecorator>
+          <Stack justifyContent={'center'} alignItems='center'>
+            <Typography
+              variant='custom'
+              fontSize={{
+                xs: 20,
+                sm: 24,
+              }}
+              fontWeight={700}
+              color='primary.main'
+            >
+              4.8/5
+            </Typography>
+            <Stack flexDirection='row'>
+              {[...Array(5)].map((_, index) => (
+                <StarIcon
+                  key={index}
+                  sx={{
+                    fontSize: 16,
+                    color: '#ffb000',
+                  }}
+                />
+              ))}
+            </Stack>
+          </Stack>
+        </IndicatorDecorator>
+      )}
     </Stack>
   );
 };

@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Tambahkan ekstensi MaxAI.me ke browser Anda untuk menghemat waktu di setiap halaman web dengan AI. Gratis dan 100% privasi yang ramah.",
     "home_page__how_it_works__step2__description": "Mudah masuk dengan Google atau email. Sederhana, gratis, dan aman.",
     "home_page__hero_section__title": "Asisten penelitian dan penulisan berbasis AI Anda",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Tambahkan AI ke browser Anda",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Penelitian dan menulis lebih cepat",
     "home_page__hero_section__desc__ab_test_v4__variant2": "Ekstensi browser MaxAI.me membantu Anda merangkum, menjawab pertanyaan, memoles tulisan, dan menghasilkan draf kapan pun dan di mana pun Anda bekerja online. Hemat berjam-jam setiap hari.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Asisten ringkasan",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Menghemat waktu pada artikel dan video panjang",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "MaxAI bekerja di semua aplikasi web dan situs yang Anda gunakan.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Tidak perlu menyalin, tidak perlu mem-paste, tidak perlu beralih konteks.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Dapatkan bantuan AI, tepat di tempat Anda membutuhkannya.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Baca, tulis, dan cari dengan AI",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Selesaikan pekerjaan 10x lebih cepat",
     "partners__try_our_extension": "Coba ekstensi baru mitra kami 👇",
-    "partners__try_our_tools": "Coba alat gratis mitra kami"
+    "partners__try_our_tools": "Coba alat gratis mitra kami",
+    "home_page__hero_section__title__ab_test_v6__part1": "Baca, tulis, dan cari dengan AI",
+    "home_page__hero_section__title__ab_test_v6__part2": "Selesaikan pekerjaan 10x lebih cepat",
+    "home_page__hero_section__title__part1": "Baca, tulis, dan cari dengan AI",
+    "home_page__hero_section__title__part2": "Selesaikan pekerjaan 10x lebih cepat"
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",

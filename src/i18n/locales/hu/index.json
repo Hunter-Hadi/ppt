@@ -673,8 +673,6 @@
     "home_page__how_it_works__step1__description": "Adja hozzá a MaxAI.me bővítményt a böngészőjéhez, hogy időt takarítson meg minden weboldalon az AI segítségével. Ingyenes és 100% adatvédelmi barát.",
     "home_page__how_it_works__step2__description": "Egyszerűen jelentkezzen be a Google-fiókkal vagy e-maillel. Egyszerű, ingyenes és biztonságos.",
     "home_page__hero_section__title": "Az AI-alapú kutatási és írási segéd",
-    "home_page__hero_section__title__ab_test_v4__variant2__part1": "Add AI a böngésződhöz",
-    "home_page__hero_section__title__ab_test_v4__variant2__part2": "Gyorsabban kutasson és írjon",
     "home_page__hero_section__desc__ab_test_v4__variant2": "A MaxAI.me böngésző-kiegészítő segít összefoglalni, válaszolni kérdésekre, tökéletesíteni a szövegeket és vázlatokat készíteni bármikor és bárhol, amikor online dolgozik. Takarítson meg órákat minden nap.",
     "home_page__features_content__ab_test_v4__content2__summary__label": "Összefoglaló asszisztens",
     "home_page__features_content__ab_test_v4__content2__summary__title": "Takaríts meg időt hosszú cikkeken és videókon",
@@ -720,10 +718,12 @@
     "home_page__features_content__ab_test_v4__content2__browser__description1": "A MaxAI minden webes alkalmazáson és oldalon működik, amit használsz.",
     "home_page__features_content__ab_test_v4__content2__browser__description2": "Nincs másolás, beillesztés, kontextusváltás.",
     "home_page__features_content__ab_test_v4__content2__browser__description3": "Kapj AI segítséget ott, ahol szükséged van rá.",
-    "home_page__hero_section__title__ab_test_v5__variant2__part1": "Olvasás, írás és keresés AI-val",
-    "home_page__hero_section__title__ab_test_v5__variant2__part2": "Munka 10-szer gyorsabb befejezése",
     "partners__try_our_extension": "Próbáld ki partnerünk új kiterjesztését 👇",
-    "partners__try_our_tools": "Próbáld ki partnerünk ingyenes eszközeit"
+    "partners__try_our_tools": "Próbáld ki partnerünk ingyenes eszközeit",
+    "home_page__hero_section__title__ab_test_v6__part1": "Olvasás, írás és keresés AI segítségével",
+    "home_page__hero_section__title__ab_test_v6__part2": "Munka 10-szer gyorsabb befejezése",
+    "home_page__hero_section__title__part1": "Olvasás, írás és keresés AI segítségével",
+    "home_page__hero_section__title__part2": "Munka 10-szer gyorsabb befejezése"
   },
   "prompt_library": {
     "use_prompt_library__title": "Magas minőségű AI prompt könyvtár",
