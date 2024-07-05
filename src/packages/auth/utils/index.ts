@@ -127,7 +127,7 @@ export const parseJwt = (token: string) => {
 /**
  *  登出账号
  */
-export const authLogout = () => {
+export const authLogout = (redirect?: string) => {
   if (typeof window === 'undefined') {
     return;
   }
@@ -147,8 +147,12 @@ export const authLogout = () => {
     localStorage.removeItem(
       `${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.${email}.roles`,
     );
-    localStorage.removeItem('${PREF}.email');
+    localStorage.removeItem(`${MAXAI_AUTH_LOCAL_STORAGE_KEY_PREFIX}.email`);
   }
 
   window.dispatchEvent(new CustomEvent('signOut'));
+
+  if (redirect) {
+    window.location.href = redirect;
+  }
 };

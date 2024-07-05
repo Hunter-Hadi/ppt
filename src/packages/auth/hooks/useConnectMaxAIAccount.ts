@@ -250,14 +250,14 @@ export const useConnectMaxAIAccount = (debug = true) => {
   const connectMaxAIAccount = () => {
     iframeLogin();
   };
-  const sigOutMaxAIAccount = () => {
+  const sigOutMaxAIAccount = (redirect?: string) => {
     setUserProfile({
       user: null,
       loading: false,
     });
     setIsLogin(false);
     setTokens(null);
-    authLogout();
+    authLogout(redirect);
   };
 
   return {

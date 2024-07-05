@@ -45,7 +45,12 @@ const TestSyncLogin = () => {
       <AppLoadingLayout loading={!isLogin} sx={{ minHeight: '90vh' }}>
         <AppDefaultSeoLayout />
         <Stack>email: {userProfile?.email}</Stack>
-        <AppBar MenuListComponents={<LanguageSelector />} />
+        <AppBar
+          MenuListComponents={<LanguageSelector />}
+          AvatarProps={{
+            logoutRedirectUrl: '/',
+          }}
+        />
         <Stack>
           <Button onClick={handleLogout}>Logout</Button>
         </Stack>

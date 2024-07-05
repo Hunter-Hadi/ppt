@@ -6,7 +6,9 @@ import Toolbar from '@mui/material/Toolbar';
 import debounce from 'lodash-es/debounce';
 import React, { FC, useEffect, useMemo } from 'react';
 
-import AuthAvatar from '@/packages/auth/components/AuthAvatar';
+import AuthAvatar, {
+  IAuthAvatarProps,
+} from '@/packages/auth/components/AuthAvatar';
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
 import { useMaxAITranslation } from '@/packages/common';
@@ -21,7 +23,7 @@ interface IAppBarProps {
   CtaContentComponents?: React.ReactNode;
   hiddenSignInButton?: boolean;
   hiddenAvatar?: boolean;
-  // smallScreenQuery?: string | ((theme: Theme) => string);
+  AvatarProps?: IAuthAvatarProps;
 }
 
 const AppBar: FC<IAppBarProps> = ({
@@ -33,13 +35,11 @@ const AppBar: FC<IAppBarProps> = ({
   MenuListComponents,
   CtaContentComponents,
   hiddenAvatar,
-  // smallScreenQuery,
+  AvatarProps,
   onHeightChange,
 }) => {
   const { t } = useMaxAITranslation();
   const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
-
-  // const isSmallScreen = useMediaQuery(smallScreenQuery ?? '(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
 
   const showAvatar = useMemo(() => {
     if (hiddenAvatar) {
@@ -129,7 +129,7 @@ const AppBar: FC<IAppBarProps> = ({
         {CtaContentComponents}
         {showAvatar && (
           <Box>
-            <AuthAvatar />
+            <AuthAvatar {...AvatarProps} />
           </Box>
         )}
       </Toolbar>

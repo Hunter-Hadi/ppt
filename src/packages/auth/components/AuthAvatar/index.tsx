@@ -11,14 +11,16 @@ import { useCommonUserProfile } from '@/packages/auth';
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import { COMMON_MAXAI_APP_PROJECT_HOST } from '@/packages/common';
 
-const AuthAvatar: FC = () => {
+export interface IAuthAvatarProps {
+  logoutRedirectUrl?: string;
+}
+
+const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
   const { isLogin, sigOutMaxAIAccount } = useConnectMaxAIAccount();
   const { userProfile } = useCommonUserProfile();
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
-  const [deleteAccountModalOpen, setDeleteAccountModalOpen] =
-    React.useState<boolean>(false);
 
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
@@ -118,7 +120,7 @@ const AuthAvatar: FC = () => {
 
         <MenuItem
           onClick={() => {
-            sigOutMaxAIAccount();
+            sigOutMaxAIAccount(logoutRedirectUrl);
           }}
         >
           <Typography variant={'body2'}>Log out</Typography>
