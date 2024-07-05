@@ -14,7 +14,13 @@ import AppHeaderMenuList from './AppHeaderMenuList';
 export const APP_HEADER_ID = 'app-header';
 
 // const NOT_CTA_BUTTON_PATH = ['/chrome-extension'];
-const NOT_HEADER_PATH = ['/zmo', '/partners/', '/release-notes', '/share'];
+const NOT_HEADER_PATH = [
+  '/zmo',
+  '/partners/',
+  '/release-notes',
+  '/share',
+  '/embed',
+];
 
 const AppHeader: FC = () => {
   const { pathname } = useRouter();

@@ -7,7 +7,11 @@ import { removeLocaleInPathname } from '@/i18n/utils';
 const useAutoRedirectLanguage = () => {
   const { pathname, isReady, query } = useRouter();
   useEffect(() => {
-    if (!isReady || pathname.includes('[locale]')) {
+    if (
+      !isReady ||
+      pathname.includes('[locale]') ||
+      pathname.includes('embed')
+    ) {
       return;
     }
 
