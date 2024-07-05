@@ -4,9 +4,9 @@ import React, { FC } from 'react';
 
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
 interface IA16zTop50AppsBadgeProps {
-  labelSx?: SxProps;
+  sx?: SxProps;
 }
-const A16zTop50AppsBadge: FC<IA16zTop50AppsBadgeProps> = ({ labelSx }) => {
+const A16zTop50AppsBadge: FC<IA16zTop50AppsBadgeProps> = ({ sx }) => {
   const { t } = useTranslation();
   return (
     <IndicatorDecorator>
@@ -23,6 +23,7 @@ const A16zTop50AppsBadge: FC<IA16zTop50AppsBadgeProps> = ({ labelSx }) => {
             cursor: 'pointer',
             transition: 'color 0.3s ease',
           },
+          ...sx,
         }}
       >
         <Stack direction={'row'} alignItems='center' spacing={1}>
@@ -46,7 +47,6 @@ const A16zTop50AppsBadge: FC<IA16zTop50AppsBadgeProps> = ({ labelSx }) => {
             xs: 14,
             sm: 16,
           }}
-          sx={labelSx}
         >
           {t('pages:home_page__hero_section__indicator1_label')}
         </Typography>

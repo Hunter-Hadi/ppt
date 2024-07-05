@@ -343,7 +343,7 @@ const IndicatorContent: FC<IIndicatorContentProps> = ({
       }}
     >
       <A16zTop50AppsBadge
-        labelSx={
+        sx={
           isABTestAddNewAndNewSort
             ? {
                 color: 'text.secondary',
