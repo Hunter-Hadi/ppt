@@ -163,7 +163,10 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
     if (typeof href === 'string') {
       return fixHrefLocale(href);
     } else if (href.pathname) {
-      return fixHrefLocale(href.pathname);
+      return {
+        ...href,
+        pathname: fixHrefLocale(href.pathname),
+      };
     }
 
     // default return
