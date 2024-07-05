@@ -163,10 +163,13 @@ const ProLinkInstance: FC<IProLinkProps> = (props) => {
     if (typeof href === 'string') {
       return fixHrefLocale(href);
     } else if (href.pathname) {
-      return {
-        ...href,
-        pathname: fixHrefLocale(href.pathname),
-      };
+      // TODO：优化处理 href.query 是多层对象的情况
+      const searchParams = href.query
+        ? new URLSearchParams(href.query as Record<string, string>)
+        : '';
+      return `${fixHrefLocale(href.pathname)}${
+        href.query ? `?${searchParams.toString()}` : ''
+      }`;
     }
 
     // default return

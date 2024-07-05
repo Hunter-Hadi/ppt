@@ -1,4 +1,5 @@
 import { Grid, GridProps, RegularBreakpoints } from '@mui/material';
+import cloneDeep from 'lodash-es/cloneDeep';
 import { useRouter } from 'next/router';
 import React, { FC, useMemo } from 'react';
 
@@ -43,6 +44,17 @@ const LanguageSelectorList: FC<IProps> = ({
     }
   }, [router.query, router.pathname]);
 
+  const newQuery = useMemo(() => {
+    const cloneQuery = cloneDeep(router.query);
+    if (cloneQuery.redirect) {
+      delete cloneQuery.redirect;
+    }
+    if (cloneQuery.locale) {
+      delete cloneQuery.locale;
+    }
+    return cloneQuery;
+  }, [router.query]);
+
   return (
     <Grid container spacing={2} {...containerProps}>
       {I18N_LOCALES.map((locale) => {
@@ -53,7 +65,7 @@ const LanguageSelectorList: FC<IProps> = ({
               locale={locale}
               href={{
                 pathname: redirectUrl,
-                query: router.query,
+                query: newQuery,
               }}
               underline='hover'
               sx={{
