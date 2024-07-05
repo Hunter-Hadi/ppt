@@ -13,14 +13,12 @@ export const TESTER_LANDING_PATH_TARGET_PATHNAME = [
 export const TEST_LANDING_COOKIE_NAME = 'maxai-lpv-v6'; //abtest的版本名称
 
 export const COMMON_LANDING_CONFIG = {
-  titleMain: 'pages:home_page__hero_section__title__ab_test_v6__part1',
-  titleSecondary: 'pages:home_page__hero_section__title__ab_test_v6__part2',
   isIndicatorContentTop: false,
 }; //公共LANDING的配置
 
 interface LANDING_VARIANT_CONFIG {
-  titleMain: string; //标题
-  titleSecondary: string; //副标题
+  titleMain?: string; //标题
+  titleSecondary?: string; //副标题
   featuresContentSort: string[]; //特性内容排序
   isIndicatorContentTop: boolean; //是否指示器(徽章)内容在顶部
 } //都是临时的，因为下一版可能会有不同变化，所以这里是临时的配置，不需要太规范

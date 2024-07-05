@@ -99,12 +99,16 @@ const useLandingABTester = (autoSendEvent = false) => {
     if (!enabled || !variant) {
       return null;
     }
-    if (LANDING_VARIANT_CONFIG[variant]) {
+    if (
+      LANDING_VARIANT_CONFIG[variant] &&
+      LANDING_VARIANT_CONFIG[variant].titleMain &&
+      LANDING_VARIANT_CONFIG[variant].titleSecondary
+    ) {
       return (
         <>
-          {t(LANDING_VARIANT_CONFIG[variant].titleMain)}
+          {t(LANDING_VARIANT_CONFIG[variant].titleMain as string)}
           <br />
-          {t(LANDING_VARIANT_CONFIG[variant].titleSecondary)}
+          {t(LANDING_VARIANT_CONFIG[variant].titleSecondary as string)}
         </>
       );
     }
