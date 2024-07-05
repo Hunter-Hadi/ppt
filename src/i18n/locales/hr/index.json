@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Odaberite svoju zemlju ili regiju"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Dodaj u Chrome — Besplatno je",
+    "install_button__add_to_chrome_for_free__mini": "Dodaj u Chrome",
+    "install_button__add_to_edge_for_free": "Dodaj u Edge — Besplatno je",
+    "install_button__add_to_edge_for_free__mini": "Dodaj u Edge",
+    "extension_detection_alert__title": "Instaliraj MaxAI.me {{BROWSER_AGENT}} proširenje za nastavak."
   }
 }

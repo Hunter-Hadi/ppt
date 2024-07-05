@@ -1573,5 +1573,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Επιλέξτε τη χώρα ή περιοχή σας"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Προσθήκη στο Chrome - Δωρεάν",
+    "install_button__add_to_chrome_for_free__mini": "Προσθήκη στο Chrome",
+    "install_button__add_to_edge_for_free": "Προσθήκη στο Edge - Δωρεάν",
+    "install_button__add_to_edge_for_free__mini": "Προσθήκη στο Edge",
+    "extension_detection_alert__title": "Εγκαταστήστε την επέκταση MaxAI.me {{BROWSER_AGENT}} για να συνεχίσετε."
   }
 }

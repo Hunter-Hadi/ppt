@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Изберете вашата държава или регион"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Добави към Chrome — Безплатно е",
+    "install_button__add_to_chrome_for_free__mini": "Добави към Chrome",
+    "install_button__add_to_edge_for_free": "Добави към Edge — Безплатно е",
+    "install_button__add_to_edge_for_free__mini": "Добави към Edge",
+    "extension_detection_alert__title": "Инсталирайте разширението MaxAI.me {{BROWSER_AGENT}}, за да продължите."
   }
 }

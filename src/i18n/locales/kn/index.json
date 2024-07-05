@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "ನಿಮ್ಮ ದೇಶ ಅಥವಾ ಪ್ರದೇಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "ಉಚಿತವಾಗಿ ಚ್ರೋಮ್‌ಗೆ ಸೇರಿಸಿ - ಇದು ಉಚಿತ",
+    "install_button__add_to_chrome_for_free__mini": "ಚ್ರೋಮ್‌ಗೆ ಸೇರಿಸಿ",
+    "install_button__add_to_edge_for_free": "ಉಚಿತವಾಗಿ ಎಜ್‌ಗೆ ಸೇರಿಸಿ - ಇದು ಉಚಿತ",
+    "install_button__add_to_edge_for_free__mini": "ಎಜ್‌ಗೆ ಸೇರಿಸಿ",
+    "extension_detection_alert__title": "ಮೇಕ್ಸ್‌ಎಯ್.ಮಿ {{BROWSER_AGENT}} ವಿಸ್ತರಣೆಯನ್ನು ಇನ್ಸ್ಟಾಲ್ ಮಾಡಿ ಮುಂದುವರಿಸಲು."
   }
 }

@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Velg ditt land eller region"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Legg til Chrome — Gratis",
+    "install_button__add_to_chrome_for_free__mini": "Legg til Chrome",
+    "install_button__add_to_edge_for_free": "Legg til Edge — Gratis",
+    "install_button__add_to_edge_for_free__mini": "Legg til Edge",
+    "extension_detection_alert__title": "Installer MaxAI.me {{BROWSER_AGENT}}-utvidelsen for å fortsette."
   }
 }

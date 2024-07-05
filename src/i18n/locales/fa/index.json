@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "کشور یا منطقه خود را انتخاب کنید"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "افزودن به Chrome - رایگان است",
+    "install_button__add_to_chrome_for_free__mini": "افزودن به Chrome",
+    "install_button__add_to_edge_for_free": "افزودن به Edge - رایگان است",
+    "install_button__add_to_edge_for_free__mini": "افزودن به Edge",
+    "extension_detection_alert__title": "برای ادامه، افزونه MaxAI.me {{BROWSER_AGENT}} را نصب کنید."
   }
 }

@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Pasirinkite savo šalį ar regioną"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Pridėti prie „Chrome“ — Nemokamai",
+    "install_button__add_to_chrome_for_free__mini": "Pridėti prie „Chrome“",
+    "install_button__add_to_edge_for_free": "Pridėti prie „Edge“ — Nemokamai",
+    "install_button__add_to_edge_for_free__mini": "Pridėti prie „Edge“",
+    "extension_detection_alert__title": "Įdiekite MaxAI.me {{BROWSER_AGENT}} plėtinį, kad tęstumėte."
   }
 }

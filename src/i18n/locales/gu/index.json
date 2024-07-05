@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "તમારો દેશ અથવા પ્રદેશ પસંદ કરો"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "ક્રોમ માટે ઉમેરો - તે મફત છે",
+    "install_button__add_to_chrome_for_free__mini": "ક્રોમ માટે ઉમેરો",
+    "install_button__add_to_edge_for_free": "એજ માટે ઉમેરો - તે મફત છે",
+    "install_button__add_to_edge_for_free__mini": "એજ માટે ઉમેરો",
+    "extension_detection_alert__title": "જારી રાખવા માટે મેક્સએઆઈ.મી {{BROWSER_AGENT}} એક્સ્ટેન્શન ઇન્સ્ટોલ કરો."
   }
 }

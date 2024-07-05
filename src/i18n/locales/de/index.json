@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Wählen Sie Ihr Land oder Ihre Region"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Zu Chrome hinzufügen - Kostenlos",
+    "install_button__add_to_chrome_for_free__mini": "Zu Chrome hinzufügen",
+    "install_button__add_to_edge_for_free": "Zu Edge hinzufügen - Kostenlos",
+    "install_button__add_to_edge_for_free__mini": "Zu Edge hinzufügen",
+    "extension_detection_alert__title": "Installieren Sie die MaxAI.me {{BROWSER_AGENT}} Erweiterung, um fortzufahren."
   }
 }

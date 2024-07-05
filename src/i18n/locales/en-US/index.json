@@ -1571,6 +1571,13 @@
   "package__base_ui": {
     "app_bar__sign_in": "Sign In"
   },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Add to Chrome — It's Free",
+    "install_button__add_to_chrome_for_free__mini": "Add to Chrome",
+    "install_button__add_to_edge_for_free": "Add to Edge — It's Free",
+    "install_button__add_to_edge_for_free__mini": "Add to Edge",
+    "extension_detection_alert__title": "Install MaxAI.me {{BROWSER_AGENT}} extension to continue."
+  },
   "package__nextjs_ui": {
     "language_selector__title": "Choose Your Country or Region"
   }

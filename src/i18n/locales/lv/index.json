@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Izvēlieties savu valsti vai reģionu"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Pievienot Chrome — Tas ir bezmaksas",
+    "install_button__add_to_chrome_for_free__mini": "Pievienot Chrome",
+    "install_button__add_to_edge_for_free": "Pievienot Edge — Tas ir bezmaksas",
+    "install_button__add_to_edge_for_free__mini": "Pievienot Edge",
+    "extension_detection_alert__title": "Uzstādīt MaxAI.me {{BROWSER_AGENT}} paplašinājumu, lai turpinātu."
   }
 }

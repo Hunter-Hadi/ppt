@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "選擇您的國家或地區"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "新增至 Chrome — 免費",
+    "install_button__add_to_chrome_for_free__mini": "新增至 Chrome",
+    "install_button__add_to_edge_for_free": "新增至 Edge — 免費",
+    "install_button__add_to_edge_for_free__mini": "新增至 Edge",
+    "extension_detection_alert__title": "安裝 MaxAI.me {{BROWSER_AGENT}} 擴充功能以繼續。"
   }
 }

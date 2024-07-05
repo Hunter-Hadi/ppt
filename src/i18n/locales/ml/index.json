@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "നിങ്ങളുടെ രാജ്യം അല്ലെങ്കിൽ പ്രദേശം തിരഞ്ഞെടുക്കുക"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "ക്രോംക്ക് ചേർക്കുക - ഇത് സൗജന്യമാണ്",
+    "install_button__add_to_chrome_for_free__mini": "ക്രോംക്ക് ചേർക്കുക",
+    "install_button__add_to_edge_for_free": "എഡ്ജിലേക്ക് ചേർക്കുക - ഇത് സൗജന്യമാണ്",
+    "install_button__add_to_edge_for_free__mini": "എഡ്ജിലേക്ക് ചേർക്കുക",
+    "extension_detection_alert__title": "തുടരുന്നതിനായി മാക്സ്.എ.ഐ.മി {{BROWSER_AGENT}} എക്സ്റ്റെൻഷൻ ഇൻസ്റ്റാൾ ചെയ്യുക."
   }
 }

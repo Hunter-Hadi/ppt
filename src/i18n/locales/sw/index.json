@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Chagua Nchi au Eneo Lako"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Ongeza kwa Chrome - Ni Bure",
+    "install_button__add_to_chrome_for_free__mini": "Ongeza kwa Chrome",
+    "install_button__add_to_edge_for_free": "Ongeza kwa Edge - Ni Bure",
+    "install_button__add_to_edge_for_free__mini": "Ongeza kwa Edge",
+    "extension_detection_alert__title": "Sakinisha kifaa cha MaxAI.me {{BROWSER_AGENT}} ili kuendelea."
   }
 }

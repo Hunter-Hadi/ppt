@@ -1573,5 +1573,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "בחר את המדינה או האזור שלך"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "הוסף ל־Chrome - זה חינם",
+    "install_button__add_to_chrome_for_free__mini": "הוסף ל־Chrome",
+    "install_button__add_to_edge_for_free": "הוסף ל־Edge - זה חינם",
+    "install_button__add_to_edge_for_free__mini": "הוסף ל־Edge",
+    "extension_detection_alert__title": "התקן את התוסף של MaxAI.me {{BROWSER_AGENT}} כדי להמשיך."
   }
 }

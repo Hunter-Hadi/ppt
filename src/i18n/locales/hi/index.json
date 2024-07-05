@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "अपना देश या क्षेत्र चुनें"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "क्रोम में जोड़ें — यह मुफ्त है",
+    "install_button__add_to_chrome_for_free__mini": "क्रोम में जोड़ें",
+    "install_button__add_to_edge_for_free": "एज में जोड़ें — यह मुफ्त है",
+    "install_button__add_to_edge_for_free__mini": "एज में जोड़ें",
+    "extension_detection_alert__title": "MaxAI.me {{BROWSER_AGENT}} एक्सटेंशन स्थापित करें जारी रखने के लिए।"
   }
 }

@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "اپنا ملک یا علاقہ منتخب کریں"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "کروم میں شامل کریں — یہ مفت ہے",
+    "install_button__add_to_chrome_for_free__mini": "کروم میں شامل کریں",
+    "install_button__add_to_edge_for_free": "ایج میں شامل کریں — یہ مفت ہے",
+    "install_button__add_to_edge_for_free__mini": "ایج میں شامل کریں",
+    "extension_detection_alert__title": "جاری رکھنے کے لئے MaxAI.me {{BROWSER_AGENT}} ایکسٹینشن انسٹال کریں۔"
   }
 }

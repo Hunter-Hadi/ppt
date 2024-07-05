@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Ülkenizi veya Bölgenizi Seçin"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Chrome'a Ekle — Ücretsiz",
+    "install_button__add_to_chrome_for_free__mini": "Chrome'a Ekle",
+    "install_button__add_to_edge_for_free": "Edge'e Ekle — Ücretsiz",
+    "install_button__add_to_edge_for_free__mini": "Edge'e Ekle",
+    "extension_detection_alert__title": "Devam etmek için MaxAI.me {{BROWSER_AGENT}} uzantısını yükleyin."
   }
 }

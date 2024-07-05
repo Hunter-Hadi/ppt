@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "เลือกประเทศหรือภูมิภาคของคุณ"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "เพิ่มไปยัง Chrome — ฟรี",
+    "install_button__add_to_chrome_for_free__mini": "เพิ่มไปยัง Chrome",
+    "install_button__add_to_edge_for_free": "เพิ่มไปยัง Edge — ฟรี",
+    "install_button__add_to_edge_for_free__mini": "เพิ่มไปยัง Edge",
+    "extension_detection_alert__title": "ติดตั้งส่วนขยาย MaxAI.me {{BROWSER_AGENT}} เพื่อดำเนินการต่อ"
   }
 }

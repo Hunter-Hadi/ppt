@@ -1574,5 +1574,12 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Pilih Negara atau Kawasan Anda"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Tambah ke Chrome - Percuma",
+    "install_button__add_to_chrome_for_free__mini": "Tambah ke Chrome",
+    "install_button__add_to_edge_for_free": "Tambah ke Edge - Percuma",
+    "install_button__add_to_edge_for_free__mini": "Tambah ke Edge",
+    "extension_detection_alert__title": "Pasang sambungan MaxAI.me {{BROWSER_AGENT}} untuk meneruskan."
   }
 }
