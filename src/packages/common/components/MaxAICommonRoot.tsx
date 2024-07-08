@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 
+import SnackbarProvider from '@/packages/base-ui/components/Snackbar/SnackbarProvider';
 import ExtensionDetectionAlert from '@/packages/browser-extension/components/ExtensionDetectionAlert';
 import MaxAICommonInit from '@/packages/common/components/MaxAICommonInit';
 
@@ -10,9 +11,11 @@ interface IMaxAICommonRootProps {
 const MaxAICommonRoot: FC<IMaxAICommonRootProps> = ({ children }) => {
   return (
     <>
-      <MaxAICommonInit />
-      {children}
-      <ExtensionDetectionAlert />
+      <SnackbarProvider>
+        <MaxAICommonInit />
+        {children}
+        <ExtensionDetectionAlert />
+      </SnackbarProvider>
     </>
   );
 };

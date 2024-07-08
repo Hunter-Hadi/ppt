@@ -1,5 +1,5 @@
 import { LoadingButton } from '@mui/lab';
-import { Divider, Typography } from '@mui/material';
+import { Box, Divider, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import React from 'react';
@@ -22,6 +22,7 @@ import {
   COMMON_PROJECT_BASE_PATH,
 } from '@/packages/common';
 import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot';
+import Toast from '@/packages/common/utils/toast';
 import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector';
 
 const TestSyncLogin = () => {
@@ -57,7 +58,9 @@ const TestSyncLogin = () => {
           <AppBar
             MenuListComponents={
               <Stack flex={1}>
-                <LanguageSelector />
+                <Box>
+                  <LanguageSelector />
+                </Box>
               </Stack>
             }
           />
@@ -95,6 +98,52 @@ const TestSyncLogin = () => {
           >
             has maxai extension
           </MaxAIExtensionWrapper>
+          <Divider />
+        </Stack>
+
+        <Stack py={3} direction='row' alignItems={'center'} spacing={2}>
+          <h3>Toast:</h3>
+          <Button
+            variant='contained'
+            color='success'
+            onClick={() => {
+              Toast.success('success Toast');
+            }}
+          >
+            success Toast
+          </Button>
+          <Button
+            variant='contained'
+            color='warning'
+            onClick={() => {
+              Toast.warning('warning Toast');
+            }}
+          >
+            warning Toast
+          </Button>
+          <Button
+            variant='contained'
+            color='info'
+            onClick={() => {
+              Toast.info('info Toast');
+            }}
+          >
+            info Toast
+          </Button>
+          <Button
+            variant='contained'
+            color='error'
+            onClick={() => {
+              Toast.error('error Toast Toast', {
+                anchorOrigin: {
+                  vertical: 'bottom',
+                  horizontal: 'right',
+                },
+              });
+            }}
+          >
+            error Toast
+          </Button>
           <Divider />
         </Stack>
       </Stack>
