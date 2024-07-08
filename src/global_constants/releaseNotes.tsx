@@ -54,6 +54,24 @@ export const MAXAI_RELEASE_NOTES = [
           },
         ],
       },
+      {
+        title: 'Prompt examples for AI search',
+        lists: [
+          {
+            module: 'Discover with AI search',
+            desc: 'If you want to catch up on what\'s happening in the world but aren\'t sure what to search for, you can now do it with a click.',
+          },
+        ],
+      },
+      {
+        title: 'Prompt examples for AI art',
+        lists: [
+          {
+            module: 'Never run out of art inspiration',
+            desc: 'Need inspiration for your next art project? At the start of a new AI art chat, you\'ll now see examples to spark your creativity.',
+          },
+        ],
+      },
     ],
   },
   {
@@ -73,8 +91,24 @@ export const MAXAI_RELEASE_NOTES = [
     ],
   },
   {
+    version: '4.3.2',
+    date: '2024-06-13',
+
+    content: [
+      {
+        title: 'Prompt examples for AI chat',
+        lists: [
+          {
+            module: 'Effortlessly explore the AI prompt library',
+            desc: 'A blank page can be intimidating. At the beginning of a new chat, you\'ll now see examples to help you get started.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.3.0',
-    date: '2024-06-24',
+    date: '2024-06-11',
 
     content: [
       {
