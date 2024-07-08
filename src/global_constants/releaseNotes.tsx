@@ -73,6 +73,22 @@ export const MAXAI_RELEASE_NOTES = [
     ],
   },
   {
+    version: '4.3.0',
+    date: '2024-06-24',
+
+    content: [
+      {
+        title: 'Sync your chat history across devices',
+        lists: [
+          {
+            module: 'Sync your chats',
+            desc: 'You can now effortlessly switch devices to continue reading, writing, and searching with AI.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.2.14',
     date: '2024-06-07',
 
@@ -83,6 +99,15 @@ export const MAXAI_RELEASE_NOTES = [
           {
             module: 'Keep exploring in page summary',
             desc: 'Summary results now include suggested follow-up questions for any page, PDF, or YouTube video. With just one click, you can easily dive deeper and explore further to get instant answers.',
+          },
+        ],
+      },
+      {
+        title: 'A faster instant reply experience on LinkedIn, Youtube, and Youtube Studio.',
+        lists: [
+          {
+            module: 'Accept AI-generated reply with 1 click',
+            desc: 'Speed up your social media responses with 1-click AI-generated replies on LinkedIn, YouTube, and YouTube Studio. Boost your growth!',
           },
         ],
       },
