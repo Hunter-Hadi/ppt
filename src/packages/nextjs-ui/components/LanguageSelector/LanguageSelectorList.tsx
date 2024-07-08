@@ -10,6 +10,7 @@ import NextJsProLink from '@/packages/nextjs-ui/components/NextJsProLink';
 interface IProps {
   containerProps?: Omit<GridProps, 'container' | 'item'>;
   itemBreakpoints?: RegularBreakpoints;
+  basePath?: string;
 }
 
 // 为了修复类似 /[locale]/languages pathname
@@ -31,6 +32,7 @@ export const removeLocaleInPathname = (pathname: string) => {
 const LanguageSelectorList: FC<IProps> = ({
   containerProps,
   itemBreakpoints,
+  basePath,
 }) => {
   const router = useRouter();
 
@@ -64,7 +66,7 @@ const LanguageSelectorList: FC<IProps> = ({
               hardRefresh
               locale={locale}
               href={{
-                pathname: redirectUrl,
+                pathname: basePath + redirectUrl,
                 query: newQuery,
               }}
               underline='hover'

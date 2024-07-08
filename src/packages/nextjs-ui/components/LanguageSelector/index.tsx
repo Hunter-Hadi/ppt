@@ -14,10 +14,11 @@ interface ILanguageSelectorProps {
   sx?: SxProps;
   PopperSx?: SxProps;
   PaperSx?: SxProps;
+  basePath?: string;
 }
 
 const LanguageSelector: FC<ILanguageSelectorProps> = (props) => {
-  const { defaultLanguageCode, sx, PopperSx, PaperSx } = props;
+  const { defaultLanguageCode, sx, PopperSx, PaperSx, basePath } = props;
   const { t } = useMaxAITranslation();
   const [languageLabel, setLanguageLabel] = React.useState<string>('English');
   useEffect(() => {
@@ -67,6 +68,7 @@ const LanguageSelector: FC<ILanguageSelectorProps> = (props) => {
             {t('package__nextjs_ui:language_selector__title')}
           </Typography>
           <LanguageSelectorList
+            basePath={basePath}
             containerProps={{
               sx: {
                 pl: 2,
@@ -95,6 +97,7 @@ const LanguageSelector: FC<ILanguageSelectorProps> = (props) => {
             {t('package__nextjs_ui:language_selector__title')}
           </Typography>
           <LanguageSelectorList
+            basePath={basePath}
             itemBreakpoints={{
               md: 2,
             }}
