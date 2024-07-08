@@ -74,6 +74,21 @@ export { useMaxAITranslation };
 node ./src/packages/common/scripts/packagesI18nGenerator.mjs
 ```
 
+### 3. packages 使用指南
+
+#### 3.1 配置根组件
+
+需要将 MaxAICommonRoot 组件放到你项目的根容器并包住全部组件，类似于 RecoilRoot 的用法
+```typescript
+<MaxAICommonRoot>
+  // your components
+</MaxAICommonRoot>
+```
+
+#### 3.2 components 使用方法
+具体的 components 和 hooks 的使用方法可以参考 ```src/page_components/TestPages/TestSyncLogin.tsx``` 组件
+
+
 ## 常见问题
 
 ### 1. 配置好了环境变量，但是登陆没有反应
