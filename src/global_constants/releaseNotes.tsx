@@ -13,6 +13,15 @@ export const MAXAI_RELEASE_NOTES = [
           },
         ],
       },
+      {
+        title: 'Chat with any page, with citations',
+        lists: [
+          {
+            module: 'Find sources fast with citations',
+            desc: 'Curious about the sources behind the AI\'s answers when chatting with web page? Now, you can easily check the citations in each response.',
+          },
+        ],
+      },
     ],
   },
   {
