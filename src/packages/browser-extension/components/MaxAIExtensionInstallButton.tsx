@@ -11,7 +11,7 @@ import {
 import { useMaxAITranslation } from '@/packages/common';
 import useBrowserAgent from '@/packages/common/hooks/useBrowserAgent';
 
-interface IMaxAIExtensionInstallButtonProps {
+export interface IMaxAIExtensionInstallButtonProps {
   sx?: SxProps;
   target?: HTMLAttributeAnchorTarget;
   variant?: ButtonProps['variant'];

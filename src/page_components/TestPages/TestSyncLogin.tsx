@@ -63,6 +63,7 @@ const TestSyncLogin = () => {
                 </Box>
               </Stack>
             }
+            // CtaContentComponents={null}
           />
           <Stack>
             <Button onClick={handleLogout}>Logout</Button>

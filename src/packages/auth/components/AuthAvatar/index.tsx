@@ -44,7 +44,7 @@ const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
             aria-haspopup='true'
             aria-expanded={open ? 'true' : undefined}
           >
-            <MuiAvatar sx={{ width: 32, height: 32 }}>
+            <MuiAvatar sx={{ width: 32, height: 32, lineHeight: 'unset' }}>
               {userProfile && userProfile.email
                 ? userProfile.email.slice(0, 1).toUpperCase()
                 : 'M'}

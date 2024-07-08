@@ -13,6 +13,9 @@ import AuthAvatar, {
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
 import { UserProfileState } from '@/packages/auth/store';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
+import MaxAIExtensionInstallButton, {
+  IMaxAIExtensionInstallButtonProps,
+} from '@/packages/browser-extension/components/MaxAIExtensionInstallButton';
 import { useMaxAITranslation } from '@/packages/common';
 
 interface IAppBarProps {
@@ -23,6 +26,7 @@ interface IAppBarProps {
   href?: IAppLogoProps['href'];
   MenuListComponents?: React.ReactNode;
   CtaContentComponents?: React.ReactNode;
+  CtaInstallButtonProps?: IMaxAIExtensionInstallButtonProps;
   hiddenSignInButton?: boolean;
   hiddenAvatar?: boolean;
   AvatarProps?: IAuthAvatarProps;
@@ -35,7 +39,8 @@ const AppBar: FC<IAppBarProps> = ({
   href,
   hiddenSignInButton = false,
   MenuListComponents,
-  CtaContentComponents,
+  CtaContentComponents: propCtaContentComponents,
+  CtaInstallButtonProps,
   hiddenAvatar,
   AvatarProps,
   onHeightChange,
@@ -56,6 +61,23 @@ const AppBar: FC<IAppBarProps> = ({
 
     return isLogin && userProfile;
   }, [hiddenAvatar, isLogin, userProfile]);
+
+  const CtaContentComponents = useMemo(() => {
+    if (propCtaContentComponents) {
+      return propCtaContentComponents;
+    }
+
+    if (propCtaContentComponents === null) {
+      return null;
+    }
+
+    return (
+      <MaxAIExtensionInstallButton
+        variant='contained'
+        {...CtaInstallButtonProps}
+      />
+    );
+  }, [CtaInstallButtonProps, propCtaContentComponents]);
 
   useEffect(() => {
     if (!onHeightChange || hidden) {
@@ -129,6 +151,7 @@ const AppBar: FC<IAppBarProps> = ({
               lineHeight: 1.5,
               fontWeight: 500,
               color: 'text.primary',
+              mr: CtaContentComponents ? 1.5 : 0,
             }}
           >
             {t('package__base_ui:app_bar__sign_in')}
