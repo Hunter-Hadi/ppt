@@ -1,5 +1,37 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.3.7',
+    date: '2024-06-07',
+
+    content: [
+      {
+        title: 'Introducing Claude-3.5-Sonnet on MaxAI.me',
+        lists: [
+          {
+            module: 'Access Claude-3.5-Sonnet',
+            desc: 'The newest model by Anthropic. Delivers better than Opus capabilities and faster than Sonnet speeds. Particularly good at coding, data science, visual processing, agentic tasks, writing, and more.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.2.14',
+    date: '2024-06-07',
+
+    content: [
+      {
+        title: 'Easily ask follow-up questions in the page summary',
+        lists: [
+          {
+            module: 'Keep exploring in page summary',
+            desc: 'Summary results now include suggested follow-up questions for any page, PDF, or YouTube video. With just one click, you can easily dive deeper and explore further to get instant answers.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.2.10',
     date: '2024-05-28',
 
