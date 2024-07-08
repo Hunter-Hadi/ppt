@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Moj plan",
     "auth_avatar__menu_item__rewards": "Nagrade",
     "auth_avatar__menu_item__get_started": "Počni",
-    "auth_avatar__menu_item__log_out": "Odjava"
+    "auth_avatar__menu_item__log_out": "Odjava",
+    "auth_avatar__account_settings": "Podešavanja naloga"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Prijavi se"

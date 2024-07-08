@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "Mans plāns",
     "auth_avatar__menu_item__rewards": "Balvas",
     "auth_avatar__menu_item__get_started": "Sākt",
-    "auth_avatar__menu_item__log_out": "Izrakstīties"
+    "auth_avatar__menu_item__log_out": "Izrakstīties",
+    "auth_avatar__account_settings": "Konta iestatījumi"
   },
   "package__nextjs_ui": {
     "language_selector__title": "Izvēlieties savu valsti vai reģionu"

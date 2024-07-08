@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "իմ ծրագրերը",
     "auth_avatar__menu_item__rewards": "վարկային հատուկություններ",
     "auth_avatar__menu_item__get_started": "սկսել",
-    "auth_avatar__menu_item__log_out": "դուրս գալ"
+    "auth_avatar__menu_item__log_out": "դուրս գալ",
+    "auth_avatar__account_settings": "Ակտիվացիայի կարգավորում"
   },
   "package__nextjs_ui": {
     "language_selector__title": "Ընտրեք ձեր երկիրը կամ շրջանը"

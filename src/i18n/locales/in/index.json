@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Rencana Saya",
     "auth_avatar__menu_item__rewards": "Hadiah",
     "auth_avatar__menu_item__get_started": "Mulai",
-    "auth_avatar__menu_item__log_out": "Keluar"
+    "auth_avatar__menu_item__log_out": "Keluar",
+    "auth_avatar__account_settings": "Pengaturan Akun"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Masuk"

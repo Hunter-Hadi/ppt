@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Kế hoạch của tôi",
     "auth_avatar__menu_item__rewards": "Phần thưởng",
     "auth_avatar__menu_item__get_started": "Bắt đầu",
-    "auth_avatar__menu_item__log_out": "Đăng xuất"
+    "auth_avatar__menu_item__log_out": "Đăng xuất",
+    "auth_avatar__account_settings": "Cài đặt tài khoản"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Đăng nhập"

@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "ನನ್ನ ಯೋಜನೆ",
     "auth_avatar__menu_item__rewards": "ಪ್ರತಿಫಲಗಳು",
     "auth_avatar__menu_item__get_started": "ಪ್ರಾರಂಭಿಸಿ",
-    "auth_avatar__menu_item__log_out": "ಲಾಗ್ ಔಟ್"
+    "auth_avatar__menu_item__log_out": "ಲಾಗ್ ಔಟ್",
+    "auth_avatar__account_settings": "ಖಾತೆ ಸೆಟ್ಟಿಂಗ್ಗಳು"
   },
   "package__base_ui": {
     "app_bar__sign_in": "ಸೈನ್ ಇನ್"

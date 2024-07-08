@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Mijn plan",
     "auth_avatar__menu_item__rewards": "Beloningen",
     "auth_avatar__menu_item__get_started": "Aan de slag",
-    "auth_avatar__menu_item__log_out": "Uitloggen"
+    "auth_avatar__menu_item__log_out": "Uitloggen",
+    "auth_avatar__account_settings": "Account instellingen"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Aanmelden"

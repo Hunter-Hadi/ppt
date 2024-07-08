@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "என் திட்டம்",
     "auth_avatar__menu_item__rewards": "வெகுமதி",
     "auth_avatar__menu_item__get_started": "ஆரம்பிக்கவும்",
-    "auth_avatar__menu_item__log_out": "வெளியேறு"
+    "auth_avatar__menu_item__log_out": "வெளியேறு",
+    "auth_avatar__account_settings": "கணக்கு அமைப்புகள்"
   },
   "package__nextjs_ui": {
     "language_selector__title": "உங்கள் நாடு அல்லது பிரதேசத்தைத் தேர்ந்தெடுக்கவும்"

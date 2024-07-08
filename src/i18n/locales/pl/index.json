@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Mój plan",
     "auth_avatar__menu_item__rewards": "Nagrody",
     "auth_avatar__menu_item__get_started": "Rozpocznij",
-    "auth_avatar__menu_item__log_out": "Wyloguj się"
+    "auth_avatar__menu_item__log_out": "Wyloguj się",
+    "auth_avatar__account_settings": "Ustawienia konta"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Zaloguj się"

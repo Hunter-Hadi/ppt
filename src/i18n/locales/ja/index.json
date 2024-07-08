@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "マイプラン",
     "auth_avatar__menu_item__rewards": "リワード",
     "auth_avatar__menu_item__get_started": "はじめる",
-    "auth_avatar__menu_item__log_out": "ログアウト"
+    "auth_avatar__menu_item__log_out": "ログアウト",
+    "auth_avatar__account_settings": "アカウント設定"
   },
   "package__base_ui": {
     "app_bar__sign_in": "サインイン"

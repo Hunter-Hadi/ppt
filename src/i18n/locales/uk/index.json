@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "میرا منصوبہ",
     "auth_avatar__menu_item__rewards": "انعامات",
     "auth_avatar__menu_item__get_started": "شروع کریں",
-    "auth_avatar__menu_item__log_out": "لاگ آؤٹ"
+    "auth_avatar__menu_item__log_out": "لاگ آؤٹ",
+    "auth_avatar__account_settings": "اکاؤنٹ کی ترتیبات"
   },
   "package__nextjs_ui": {
     "language_selector__title": "اپنا ملک یا علاقہ منتخب کریں"

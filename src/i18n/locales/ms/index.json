@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Rancangan Saya",
     "auth_avatar__menu_item__rewards": "Ganjaran",
     "auth_avatar__menu_item__get_started": "Mula",
-    "auth_avatar__menu_item__log_out": "Log Keluar"
+    "auth_avatar__menu_item__log_out": "Log Keluar",
+    "auth_avatar__account_settings": "Tetapan akaun"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Log Masuk"

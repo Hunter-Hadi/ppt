@@ -1566,7 +1566,8 @@
     "auth_avatar__menu_item__my_plan": "My plan",
     "auth_avatar__menu_item__rewards": "Rewards",
     "auth_avatar__menu_item__get_started": "Get started",
-    "auth_avatar__menu_item__log_out": "Log out"
+    "auth_avatar__menu_item__log_out": "Log out",
+    "auth_avatar__account_settings": "Account settings"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Sign In"

@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "আমার পরিকল্পনা",
     "auth_avatar__menu_item__rewards": "পুরস্কার",
     "auth_avatar__menu_item__get_started": "শুরু করুন",
-    "auth_avatar__menu_item__log_out": "লগ আউট"
+    "auth_avatar__menu_item__log_out": "লগ আউট",
+    "auth_avatar__account_settings": "অ্যাকাউন্ট সেটিংস"
   },
   "package__base_ui": {
     "app_bar__sign_in": "সাইন ইন"

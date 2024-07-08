@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "Ang aking plano",
     "auth_avatar__menu_item__rewards": "Mga gantimpala",
     "auth_avatar__menu_item__get_started": "Simulan",
-    "auth_avatar__menu_item__log_out": "Mag-log out"
+    "auth_avatar__menu_item__log_out": "Mag-log out",
+    "auth_avatar__account_settings": "Mga setting ng account"
   },
   "package__nextjs_ui": {
     "language_selector__title": "Pumili ng Iyong Bansa o Rehiyon"

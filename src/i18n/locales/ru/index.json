@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Мой план",
     "auth_avatar__menu_item__rewards": "Награды",
     "auth_avatar__menu_item__get_started": "Начать",
-    "auth_avatar__menu_item__log_out": "Выйти"
+    "auth_avatar__menu_item__log_out": "Выйти",
+    "auth_avatar__account_settings": "Настройки аккаунта"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Войти"

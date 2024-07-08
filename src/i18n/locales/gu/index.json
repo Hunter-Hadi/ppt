@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "મારી યોજના",
     "auth_avatar__menu_item__rewards": "પુરસ્કારો",
     "auth_avatar__menu_item__get_started": "શરૂ કરો",
-    "auth_avatar__menu_item__log_out": "લૉગ આઉટ"
+    "auth_avatar__menu_item__log_out": "લૉગ આઉટ",
+    "auth_avatar__account_settings": "એકાઉન્ટ સેટિંગ્સ"
   },
   "package__base_ui": {
     "app_bar__sign_in": "સાઇન ઇન"

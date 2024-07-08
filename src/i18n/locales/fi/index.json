@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Suunnitelmani",
     "auth_avatar__menu_item__rewards": "Palkinnot",
     "auth_avatar__menu_item__get_started": "Aloita",
-    "auth_avatar__menu_item__log_out": "Kirjaudu ulos"
+    "auth_avatar__menu_item__log_out": "Kirjaudu ulos",
+    "auth_avatar__account_settings": "Tilin asetukset"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Kirjaudu sisään"

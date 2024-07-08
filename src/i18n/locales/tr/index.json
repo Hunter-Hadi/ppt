@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Planım",
     "auth_avatar__menu_item__rewards": "Ödüller",
     "auth_avatar__menu_item__get_started": "Başlayın",
-    "auth_avatar__menu_item__log_out": "Çıkış Yap"
+    "auth_avatar__menu_item__log_out": "Çıkış Yap",
+    "auth_avatar__account_settings": "Hesap ayarları"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Giriş Yap"

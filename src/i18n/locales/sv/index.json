@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Mitt plan",
     "auth_avatar__menu_item__rewards": "Belöningar",
     "auth_avatar__menu_item__get_started": "Kom igång",
-    "auth_avatar__menu_item__log_out": "Logga ut"
+    "auth_avatar__menu_item__log_out": "Logga ut",
+    "auth_avatar__account_settings": "Kontoinställningar"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Logga in"

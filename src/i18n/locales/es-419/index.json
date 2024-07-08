@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Mi plan",
     "auth_avatar__menu_item__rewards": "Recompensas",
     "auth_avatar__menu_item__get_started": "Comenzar",
-    "auth_avatar__menu_item__log_out": "Cerrar sesión"
+    "auth_avatar__menu_item__log_out": "Cerrar sesión",
+    "auth_avatar__account_settings": "Configuración de cuenta"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Iniciar sesión"

@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "Il mio piano",
     "auth_avatar__menu_item__rewards": "Ricompense",
     "auth_avatar__menu_item__get_started": "Inizia",
-    "auth_avatar__menu_item__log_out": "Esci"
+    "auth_avatar__menu_item__log_out": "Esci",
+    "auth_avatar__account_settings": "Impostazioni account"
   },
   "package__nextjs_ui": {
     "language_selector__title": "Scegli il tuo Paese o Regione"

@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Minu plaan",
     "auth_avatar__menu_item__rewards": "Tasud",
     "auth_avatar__menu_item__get_started": "Alusta",
-    "auth_avatar__menu_item__log_out": "Logi välja"
+    "auth_avatar__menu_item__log_out": "Logi välja",
+    "auth_avatar__account_settings": "Konto seaded"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Logi sisse"

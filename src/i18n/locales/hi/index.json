@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "मेरी योजना",
     "auth_avatar__menu_item__rewards": "पुरस्कार",
     "auth_avatar__menu_item__get_started": "शुरू करें",
-    "auth_avatar__menu_item__log_out": "लॉग आउट"
+    "auth_avatar__menu_item__log_out": "लॉग आउट",
+    "auth_avatar__account_settings": "खाता सेटिंग्स"
   },
   "package__base_ui": {
     "app_bar__sign_in": "साइन इन करें"

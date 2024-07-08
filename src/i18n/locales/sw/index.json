@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Mpango wangu",
     "auth_avatar__menu_item__rewards": "Tuzo",
     "auth_avatar__menu_item__get_started": "Anza",
-    "auth_avatar__menu_item__log_out": "Toka"
+    "auth_avatar__menu_item__log_out": "Toka",
+    "auth_avatar__account_settings": "Mipangilio ya akaunti"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Ingia"

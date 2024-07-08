@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Min plan",
     "auth_avatar__menu_item__rewards": "Belønninger",
     "auth_avatar__menu_item__get_started": "Kom i gang",
-    "auth_avatar__menu_item__log_out": "Log ud"
+    "auth_avatar__menu_item__log_out": "Log ud",
+    "auth_avatar__account_settings": "Kontoinstillinger"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Log ind"

@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "माझी योजना",
     "auth_avatar__menu_item__rewards": "पुरस्कार",
     "auth_avatar__menu_item__get_started": "प्रारंभ करा",
-    "auth_avatar__menu_item__log_out": "लॉग आउट"
+    "auth_avatar__menu_item__log_out": "लॉग आउट",
+    "auth_avatar__account_settings": "खाते सेटिंग्ज"
   },
   "package__nextjs_ui": {
     "language_selector__title": "आपला देश किंवा प्रदेश निवडा"

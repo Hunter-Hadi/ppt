@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "내 계획",
     "auth_avatar__menu_item__rewards": "보상",
     "auth_avatar__menu_item__get_started": "시작하기",
-    "auth_avatar__menu_item__log_out": "로그아웃"
+    "auth_avatar__menu_item__log_out": "로그아웃",
+    "auth_avatar__account_settings": "계정 설정"
   },
   "package__base_ui": {
     "app_bar__sign_in": "로그인"

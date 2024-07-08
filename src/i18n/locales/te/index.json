@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "నా ప్లాన్",
     "auth_avatar__menu_item__rewards": "పురస్కారాలు",
     "auth_avatar__menu_item__get_started": "ప్రారంభించండి",
-    "auth_avatar__menu_item__log_out": "లాగ్ అవుట్"
+    "auth_avatar__menu_item__log_out": "లాగ్ అవుట్",
+    "auth_avatar__account_settings": "ఖాతా సెట్టింగులు"
   },
   "package__base_ui": {
     "app_bar__sign_in": "సైన్ ఇన్"

@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Mano planas",
     "auth_avatar__menu_item__rewards": "Apdovanojimai",
     "auth_avatar__menu_item__get_started": "Pradėti",
-    "auth_avatar__menu_item__log_out": "Atsijungti"
+    "auth_avatar__menu_item__log_out": "Atsijungti",
+    "auth_avatar__account_settings": "Paskyros nustatymai"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Prisijungti"

@@ -1570,7 +1570,8 @@
     "auth_avatar__menu_item__my_plan": "Moj načrt",
     "auth_avatar__menu_item__rewards": "Nagrade",
     "auth_avatar__menu_item__get_started": "Začni",
-    "auth_avatar__menu_item__log_out": "Odjava"
+    "auth_avatar__menu_item__log_out": "Odjava",
+    "auth_avatar__account_settings": "Nastavitve računa"
   },
   "package__nextjs_ui": {
     "language_selector__title": "Izberite svojo državo ali regijo"

@@ -1566,7 +1566,8 @@
     "auth_avatar__menu_item__my_plan": "התוכנית שלי",
     "auth_avatar__menu_item__rewards": "פרסים",
     "auth_avatar__menu_item__get_started": "התחל",
-    "auth_avatar__menu_item__log_out": "התנתק"
+    "auth_avatar__menu_item__log_out": "התנתק",
+    "auth_avatar__account_settings": "הגדרות חשבון"
   },
   "package__base_ui": {
     "app_bar__sign_in": "התחבר"

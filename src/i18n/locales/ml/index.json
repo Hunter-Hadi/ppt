@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "എന്റെ പ്ലാൻ",
     "auth_avatar__menu_item__rewards": "പ്രതിഫലം",
     "auth_avatar__menu_item__get_started": "ആരംഭിക്കുക",
-    "auth_avatar__menu_item__log_out": "ലോഗ് ഔട്ട്"
+    "auth_avatar__menu_item__log_out": "ലോഗ് ഔട്ട്",
+    "auth_avatar__account_settings": "അക്കൗണ്ട് ക്രമീകരണങ്ങൾ"
   },
   "package__base_ui": {
     "app_bar__sign_in": "സൈൻ ഇൻ"

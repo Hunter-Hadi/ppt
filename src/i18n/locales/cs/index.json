@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "Můj plán",
     "auth_avatar__menu_item__rewards": "Odměny",
     "auth_avatar__menu_item__get_started": "Začít",
-    "auth_avatar__menu_item__log_out": "Odhlásit se"
+    "auth_avatar__menu_item__log_out": "Odhlásit se",
+    "auth_avatar__account_settings": "Nastavení účtu"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Přihlásit se"

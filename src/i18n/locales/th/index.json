@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "แผนของฉัน",
     "auth_avatar__menu_item__rewards": "รางวัล",
     "auth_avatar__menu_item__get_started": "เริ่มต้น",
-    "auth_avatar__menu_item__log_out": "ออกจากระบบ"
+    "auth_avatar__menu_item__log_out": "ออกจากระบบ",
+    "auth_avatar__account_settings": "การตั้งค่าบัญชี"
   },
   "package__base_ui": {
     "app_bar__sign_in": "เข้าสู่ระบบ"

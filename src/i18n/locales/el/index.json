@@ -1569,7 +1569,8 @@
     "auth_avatar__menu_item__my_plan": "Ο πλάνος μου",
     "auth_avatar__menu_item__rewards": "Ανταμοιβές",
     "auth_avatar__menu_item__get_started": "Ξεκινήστε",
-    "auth_avatar__menu_item__log_out": "Αποσύνδεση"
+    "auth_avatar__menu_item__log_out": "Αποσύνδεση",
+    "auth_avatar__account_settings": "Ρυθμίσεις λογαριασμού"
   },
   "package__nextjs_ui": {
     "language_selector__title": "Επιλέξτε τη χώρα ή περιοχή σας"

@@ -1567,7 +1567,8 @@
     "auth_avatar__menu_item__my_plan": "我的计划",
     "auth_avatar__menu_item__rewards": "奖励",
     "auth_avatar__menu_item__get_started": "开始使用",
-    "auth_avatar__menu_item__log_out": "退出登录"
+    "auth_avatar__menu_item__log_out": "退出登录",
+    "auth_avatar__account_settings": "账户设置"
   },
   "package__base_ui": {
     "app_bar__sign_in": "登录"

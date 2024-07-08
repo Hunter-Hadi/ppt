@@ -40,7 +40,7 @@ const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
   return (
     <>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-        <Tooltip title='Account settings'>
+        <Tooltip title={t('package__auth:auth_avatar__account_settings')}>
           <IconButton
             onClick={handleClick}
             size='small'
