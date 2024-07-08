@@ -9,7 +9,10 @@ import React, { FC } from 'react';
 
 import { useCommonUserProfile } from '@/packages/auth';
 import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
-import { COMMON_MAXAI_APP_PROJECT_HOST } from '@/packages/common';
+import {
+  COMMON_MAXAI_APP_PROJECT_HOST,
+  useMaxAITranslation,
+} from '@/packages/common';
 
 export interface IAuthAvatarProps {
   logoutRedirectUrl?: string;
@@ -18,6 +21,7 @@ export interface IAuthAvatarProps {
 const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
   const { isLogin, sigOutMaxAIAccount } = useConnectMaxAIAccount();
   const { userProfile } = useCommonUserProfile();
+  const { t } = useMaxAITranslation();
 
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
@@ -97,7 +101,9 @@ const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
             handleClose();
           }}
         >
-          <Typography variant={'body2'}>My Plan</Typography>
+          <Typography variant={'body2'}>
+            {t('package__auth:auth_avatar__menu_item__my_plan')}
+          </Typography>
         </MenuItem>
         <MenuItem
           component={'a'}
@@ -106,7 +112,9 @@ const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
             handleClose();
           }}
         >
-          <Typography variant={'body2'}>Rewards</Typography>
+          <Typography variant={'body2'}>
+            {t('package__auth:auth_avatar__menu_item__rewards')}
+          </Typography>
         </MenuItem>
         <MenuItem
           component={'a'}
@@ -115,7 +123,9 @@ const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
             handleClose();
           }}
         >
-          <Typography variant={'body2'}>Get started</Typography>
+          <Typography variant={'body2'}>
+            {t('package__auth:auth_avatar__menu_item__get_started')}
+          </Typography>
         </MenuItem>
 
         <MenuItem
@@ -123,7 +133,9 @@ const AuthAvatar: FC<IAuthAvatarProps> = ({ logoutRedirectUrl }) => {
             sigOutMaxAIAccount(logoutRedirectUrl);
           }}
         >
-          <Typography variant={'body2'}>Log out</Typography>
+          <Typography variant={'body2'}>
+            {t('package__auth:auth_avatar__menu_item__log_out')}
+          </Typography>
         </MenuItem>
       </Menu>
     </>
