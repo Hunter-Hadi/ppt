@@ -1,7 +1,64 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.3.11',
+    date: '2024-07-05',
+
+    content: [
+      {
+        title: 'A more powerful Pro search experience',
+        lists: [
+          {
+            module: 'Videos and knowledge pannel in search results',
+            desc: 'Enjoy deeper insights with Pro Search! Get relevant videos and smart knowledge panels directly in your search results.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.3.9',
+    date: '2024-07-01',
+
+    content: [
+      {
+        title: 'MaxAI.me can now hear',
+        lists: [
+          {
+            module: 'Speak with MaxAI.me to save more time',
+            desc: 'You can now use your voice to ask questions and prompts to boost your productivity even more.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.3.8',
+    date: '2024-06-27',
+
+    content: [
+      {
+        title: 'Introducing Gemini-1.5-Flash on MaxAI.me',
+        lists: [
+          {
+            module: 'Access Gemini-1.5-Flash',
+            desc: 'Gemini 1.5 Flash is Google\'s lightweight model, optimized for speed and efficiency with multimodal reasoning capabilities.',
+          },
+        ],
+      },
+      {
+        title: 'Pro search enhanced',
+        lists: [
+          {
+            module: 'Images in search results',
+            desc: 'Enjoy richer answers with Pro Search! Now, you will see relevant images in search results.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.3.7',
-    date: '2024-06-07',
+    date: '2024-06-24',
 
     content: [
       {
