@@ -66,7 +66,7 @@ const LanguageSelectorList: FC<IProps> = ({
               hardRefresh
               locale={locale}
               href={{
-                pathname: basePath + redirectUrl,
+                pathname: (basePath ?? '') + redirectUrl,
                 query: newQuery,
               }}
               underline='hover'
