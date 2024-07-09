@@ -80,9 +80,11 @@ node ./src/packages/common/scripts/packagesI18nGenerator.mjs
 
 需要将 MaxAICommonRoot 组件放到你项目的根容器并包住全部组件，类似于 RecoilRoot 的用法
 ```typescript
-<MaxAICommonRoot>
-  // your components
-</MaxAICommonRoot>
+<RecoilRoot>
+  <MaxAICommonRoot>
+    // your components
+  </MaxAICommonRoot>
+</RecoilRoot>
 ```
 
 #### 3.2 components 使用方法
