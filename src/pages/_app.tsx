@@ -1,77 +1,77 @@
 // Import Swiper React components
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import '@/styles/globals.css';
-import '@/features/share_conversation/styles/markdown.css';
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
+import '@/styles/globals.css'
+import '@/features/share_conversation/styles/markdown.css'
 
-import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
-import { IconButton, Stack, ThemeProvider } from '@mui/material';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import type { AppProps } from 'next/app';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import Script from 'next/script';
-import { appWithTranslation, useTranslation } from 'next-i18next';
-import nextI18nextConfig from 'next-i18next.config';
-import { SnackbarKey, SnackbarProvider } from 'notistack';
-import React, { useEffect } from 'react';
-import { RecoilRoot } from 'recoil';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined'
+import { IconButton, Stack, ThemeProvider } from '@mui/material'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import type { AppProps } from 'next/app'
+import Head from 'next/head'
+import { useRouter } from 'next/router'
+import Script from 'next/script'
+import { appWithTranslation, useTranslation } from 'next-i18next'
+import nextI18nextConfig from 'next-i18next.config'
+import { SnackbarKey, SnackbarProvider } from 'notistack'
+import React, { useEffect } from 'react'
+import { RecoilRoot } from 'recoil'
 
-import AppFooter from '@/app_layout/AppFooter';
-import AppHeader from '@/app_layout/AppHeader';
-import CacheRefAndRewardfulId from '@/components/CacheRefAndRewardfulId';
-import customMuiTheme from '@/config/customMuiTheme';
-import globalFont from '@/config/font';
-import DevRefreshABTestLandingCookie from '@/features/ab_tester/components/DevRefreshABTestVariantCookie';
-import ClientUserIdGenerator from '@/features/track_user_interactions/components/ClientUserIdGenerator';
-import { CACHE_CLIENT_USER_ID_PAGE_PATHNAME } from '@/features/track_user_interactions/constant';
+import AppFooter from '@/app_layout/AppFooter'
+import AppHeader from '@/app_layout/AppHeader'
+import CacheRefAndRewardfulId from '@/components/CacheRefAndRewardfulId'
+import customMuiTheme from '@/config/customMuiTheme'
+import globalFont from '@/config/font'
+import DevRefreshABTestLandingCookie from '@/features/ab_tester/components/DevRefreshABTestVariantCookie'
+import ClientUserIdGenerator from '@/features/track_user_interactions/components/ClientUserIdGenerator'
+import { CACHE_CLIENT_USER_ID_PAGE_PATHNAME } from '@/features/track_user_interactions/constant'
 import {
   trackUserInteraction,
   useTrackUserInteractions,
-} from '@/features/track_user_interactions/utils';
-import GlobalVideoPopup from '@/features/video_popup/components/GlobalVideoPopup';
-import { APP_PROJECT_LINK } from '@/global_constants';
-import useAutoRedirectLanguage from '@/hooks/useAutoRedirectLanguage';
-import { GA_TRACKING_ID, GA_TRACKING_ID_MCC } from '@/pages/_document';
-import AppInit from '@/utils/AppInit';
-import { initFingerPrint } from '@/utils/fingerPrint';
-import { SnackbarUtilsConfigurator } from '@/utils/globalSnackbar';
+} from '@/features/track_user_interactions/utils'
+import GlobalVideoPopup from '@/features/video_popup/components/GlobalVideoPopup'
+import { APP_PROJECT_LINK } from '@/global_constants'
+import useAutoRedirectLanguage from '@/hooks/useAutoRedirectLanguage'
+import { GA_TRACKING_ID, GA_TRACKING_ID_MCC } from '@/pages/_document'
+import AppInit from '@/utils/AppInit'
+import { initFingerPrint } from '@/utils/fingerPrint'
+import { SnackbarUtilsConfigurator } from '@/utils/globalSnackbar'
 
 // Create a client
-const queryClient = new QueryClient();
+const queryClient = new QueryClient()
 
 function App({ Component, pageProps }: AppProps) {
-  const router = useRouter();
-  const notistackRef = React.useRef(null);
-  useAutoRedirectLanguage(); //根据浏览器语言自动重定向到对应的语言页面
-  const { i18n } = useTranslation();
+  const router = useRouter()
+  const notistackRef = React.useRef(null)
+  useAutoRedirectLanguage() //根据浏览器语言自动重定向到对应的语言页面
+  const { i18n } = useTranslation()
 
-  const isEmbedPage = router.pathname.startsWith('/embed');
+  const isEmbedPage = router.pathname.startsWith('/embed')
 
-  useTrackUserInteractions(i18n);
+  useTrackUserInteractions(i18n)
 
   useEffect(() => {
     if (CACHE_CLIENT_USER_ID_PAGE_PATHNAME === router.pathname) {
-      return;
+      return
     }
 
     trackUserInteraction('page_load', {
       id: router.pathname,
-    });
-  }, [router.pathname]);
+    })
+  }, [router.pathname])
 
   useEffect(() => {
-    initFingerPrint();
-  }, []);
+    initFingerPrint()
+  }, [])
 
   if (CACHE_CLIENT_USER_ID_PAGE_PATHNAME === router.pathname) {
     return (
       <Stack>
         <Component {...pageProps} />
       </Stack>
-    );
+    )
   }
 
   return (
@@ -123,10 +123,10 @@ function App({ Component, pageProps }: AppProps) {
               onClick={() => {
                 if (notistackRef?.current) {
                   const snRef = notistackRef?.current as {
-                    closeSnackbar: (p: SnackbarKey) => void;
-                  };
+                    closeSnackbar: (p: SnackbarKey) => void
+                  }
                   if (snRef.closeSnackbar) {
-                    snRef.closeSnackbar(key);
+                    snRef.closeSnackbar(key)
                   }
                 }
               }}
@@ -152,7 +152,7 @@ function App({ Component, pageProps }: AppProps) {
         </SnackbarProvider>
       </RecoilRoot>
     </>
-  );
+  )
 }
 
-export default appWithTranslation(App, nextI18nextConfig);
+export default appWithTranslation(App, nextI18nextConfig)

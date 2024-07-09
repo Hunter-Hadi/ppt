@@ -6,59 +6,59 @@ import {
   Grid,
   Stack,
   Typography,
-} from '@mui/material';
-import React, { FC, HTMLAttributeAnchorTarget } from 'react';
+} from '@mui/material'
+import React, { FC, HTMLAttributeAnchorTarget } from 'react'
 
-import CustomImage from '@/components/CustomImage';
-import ProLink from '@/components/ProLink';
+import CustomImage from '@/components/CustomImage'
+import ProLink from '@/components/ProLink'
 
 export type IFeaturePageMainProps = {
-  type: 'largeCards' | 'mediumCards' | 'smallCards' | 'listCards';
+  type: 'largeCards' | 'mediumCards' | 'smallCards' | 'listCards'
   list: {
-    icon?: string;
-    title?: string;
-    description?: string;
-    image?: string;
-    imageHeight?: number;
-    cardHref?: string;
+    icon?: string
+    title?: string
+    description?: string
+    image?: string
+    imageHeight?: number
+    cardHref?: string
     leftButton?: {
-      text: string;
-      href: string;
-      description?: string;
-    };
+      text: string
+      href: string
+      description?: string
+    }
     rightButton?: {
-      text: string;
-      href: string;
-      description?: string;
-    };
+      text: string
+      href: string
+      description?: string
+    }
     tag?: {
-      text: string;
-    };
-    imagePosition?: 'left' | 'right';
+      text: string
+    }
+    imagePosition?: 'left' | 'right'
     sideInfos?: Array<{
-      title: string;
-      description: string | React.ReactNode;
-    }>;
+      title: string
+      description: string | React.ReactNode
+    }>
     CTAButton?: {
-      text: string;
-      href: string;
-      variant?: 'contained' | 'outlined';
-      target?: HTMLAttributeAnchorTarget;
-    };
-  }[];
-};
+      text: string
+      href: string
+      variant?: 'contained' | 'outlined'
+      target?: HTMLAttributeAnchorTarget
+    }
+  }[]
+}
 
 const FeatureMain: FC<{
-  docs: IFeaturePageMainProps[];
+  docs: IFeaturePageMainProps[]
   // 针对partner修改链接
-  partnerMode?: boolean;
+  partnerMode?: boolean
 }> = ({ docs, partnerMode = false }) => {
   // let isTextLeft = true; // 图片文字左右切换的效果
-  const hrefRel = partnerMode ? '' : undefined;
+  const hrefRel = partnerMode ? '' : undefined
   return (
     <Grid container sx={{ px: { xs: 2 } }} rowSpacing={{ xs: 2, sm: 8 }}>
       {docs?.map((doc, docIndex) => {
-        const docType = doc.type;
+        const docType = doc.type
         if (docType === 'largeCards') {
           return (
             <Grid item xs={12} key={docIndex}>
@@ -115,7 +115,7 @@ const FeatureMain: FC<{
                 ))}
               </Grid>
             </Grid>
-          );
+          )
         } else if (docType === 'mediumCards') {
           return (
             <Grid container item xs={12} spacing={3} key={docIndex}>
@@ -318,7 +318,7 @@ const FeatureMain: FC<{
                 </Grid>
               ))}
             </Grid>
-          );
+          )
         } else if (doc.type == 'smallCards') {
           return (
             <Grid container item xs={12} spacing={3} key={docIndex}>
@@ -422,7 +422,7 @@ const FeatureMain: FC<{
                               href={item.CTAButton.href}
                               target={item.CTAButton.target || '_self'}
                               onClick={(event) => {
-                                event.stopPropagation();
+                                event.stopPropagation()
                               }}
                             >
                               <Button
@@ -585,7 +585,7 @@ const FeatureMain: FC<{
                 </Grid>
               ))}
             </Grid>
-          );
+          )
         } else if (doc.type === 'listCards') {
           return (
             <Grid
@@ -705,10 +705,10 @@ const FeatureMain: FC<{
                 </React.Fragment>
               ))}
             </Grid>
-          );
+          )
         }
       })}
     </Grid>
-  );
-};
-export default FeatureMain;
+  )
+}
+export default FeatureMain
