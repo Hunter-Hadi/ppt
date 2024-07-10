@@ -74,20 +74,28 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
     )
 
   const onUploadFile = async (fileList: FileList) => {
-    if (fileList && fileList.length > 0) {
-      setIsFileLoading(true)
-      const file = fileList[0]
-      setActiveFile(fileList[0])
+    try {
+      if (fileList && fileList.length > 0) {
+        setIsFileLoading(true)
+        const file = fileList[0]
+        setActiveFile(fileList[0])
 
-      const uInt8data = await fileToUInt8Array(file)
-      const pdfLoadDoc = await PDFDocument.load(uInt8data)
-      setPdfLoadDoc(pdfLoadDoc) //保存pdf文档,方便后续操作
-      const isReadSuccess = await onReadPdfToImages(fileList[0], 'png', false)
-      if (!isReadSuccess) {
-        onRemoveFile()
-        setActiveFile(null)
+        const uInt8data = await fileToUInt8Array(file)
+        const pdfLoadDoc = await PDFDocument.load(uInt8data)
+        setPdfLoadDoc(pdfLoadDoc) //保存pdf文档,方便后续操作
+        const isReadSuccess = await onReadPdfToImages(fileList[0], 'png', false)
+        if (!isReadSuccess) {
+          onRemoveFile()
+          setActiveFile(null)
+        }
+        setIsFileLoading(false)
       }
+    } catch (e) {
+      console.error('simply onUploadFile error', e)
       setIsFileLoading(false)
+      functionalityCommonSnackNotifications(
+        t('functionality__ocr_pdf:components__ocr_pdf__main__upload_error'),
+      )
     }
   }
   useEffect(() => {
