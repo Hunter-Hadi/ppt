@@ -1,20 +1,22 @@
-import { Box, Button, SxProps, Theme, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import { Box, Button, SxProps, Theme, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useEffect, useRef } from 'react'
 
 import UploadButton, {
   IUploadButtonProps,
-} from '@/features/common/components/UploadButton';
-import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
+} from '@/features/common/components/UploadButton'
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon'
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
+import { useRouter } from 'next/router'
+import { downloadFileAsBlob } from '../utils/functionalityCommonDownload'
 
 interface IFunctionalityCommonUploadButton {
-  wrapBoxSx?: SxProps<Theme>;
-  contentBoxSx?: SxProps<Theme>;
-  isShowUploadIcon?: boolean;
-  themeColor?: 'primary' | 'white';
-  buttonTitle?: string;
-  dropDescription?: string;
+  wrapBoxSx?: SxProps<Theme>
+  contentBoxSx?: SxProps<Theme>
+  isShowUploadIcon?: boolean
+  themeColor?: 'primary' | 'white'
+  buttonTitle?: string
+  dropDescription?: string
 }
 
 /**
@@ -32,10 +34,14 @@ const FunctionalityCommonUploadButton: FC<
   dropDescription,
   inputProps,
   handleUnsupportedFileType,
+  onChange,
   ...props
 }) => {
-  const { t } = useTranslation();
-  const isPrimary = themeColor === 'primary';
+  const router = useRouter()
+  const { file_url } = router.query
+  const isOpenUrl = useRef(false)
+  const { t } = useTranslation()
+  const isPrimary = themeColor === 'primary'
   const onHandleUnsupportedFileType = () => {
     if (!inputProps?.accept || inputProps?.accept === 'application/pdf') {
       //!inputProps?.accept是因为该工具默认指定上传的是PDF文件
@@ -44,11 +50,26 @@ const FunctionalityCommonUploadButton: FC<
         t(
           'functionality__common:components__common__upload_button__unsupported_file_type_tip',
         ),
-      );
+      )
     } else {
-      handleUnsupportedFileType && handleUnsupportedFileType();
+      handleUnsupportedFileType && handleUnsupportedFileType()
     }
-  };
+  }
+  useEffect(() => {
+    const url = new URL(router.asPath, window.location.origin)
+    const fileUrl = url.searchParams.get('file_url')
+    const file_name = url.searchParams.get('file_name')
+    console.log('1  searchParams', url.searchParams)
+    if ((file_url || fileUrl) && !isOpenUrl.current) {
+      isOpenUrl.current = true
+      downloadFileAsBlob(
+        decodeURIComponent((file_url as string) || (fileUrl as string)),
+      ).then((file) => {
+        onChange && onChange([file] as unknown as FileList)
+        router.replace(url.pathname, undefined, { shallow: false })
+      })
+    }
+  }, [])
   return (
     <Box
       sx={{
@@ -135,7 +156,7 @@ const FunctionalityCommonUploadButton: FC<
         </UploadButton>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default FunctionalityCommonUploadButton;
+export default FunctionalityCommonUploadButton
