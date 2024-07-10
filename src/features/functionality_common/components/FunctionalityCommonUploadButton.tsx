@@ -7,13 +7,14 @@ import {
   Typography,
 } from '@mui/material'
 import { useTranslation } from 'next-i18next'
-import React, { FC, useEffect, useRef } from 'react'
+import React, { FC } from 'react'
 
 import UploadButton, {
   IUploadButtonProps,
 } from '@/features/common/components/UploadButton'
 import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon'
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
+
 import useFunctionalityCommonUrlParamsUploadFile from '../hooks/useFunctionalityCommonUrlParamsUploadFile'
 
 interface IFunctionalityCommonUploadButton {
