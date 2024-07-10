@@ -15,12 +15,12 @@ import TryExtensionButton from '@/page_components/PartnersPages/components/TryEx
 import ToolsHome from '@/page_components/PdfToolsPages/components/ToolsHome'
 
 const EmbedPage = () => {
-  const router = useRouter()
+  // const router = useRouter()
   const { t } = useTranslation()
 
   const { propRef } = usePartnersInfo()
 
-  useSendRefCount(propRef, 'partners-installed')
+  useSendRefCount(propRef, 'partners-embed')
 
   const { hasExtension } = useCheckExtension()
 
