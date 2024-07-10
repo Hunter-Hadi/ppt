@@ -1,4 +1,11 @@
-import { Box, Button, SxProps, Theme, Typography } from '@mui/material'
+import {
+  Box,
+  Button,
+  LinearProgress,
+  SxProps,
+  Theme,
+  Typography,
+} from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useEffect, useRef } from 'react'
 
@@ -7,8 +14,7 @@ import UploadButton, {
 } from '@/features/common/components/UploadButton'
 import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon'
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
-import { useRouter } from 'next/router'
-import { downloadFileAsBlob } from '../utils/functionalityCommonDownload'
+import useFunctionalityCommonUrlParamsUploadFile from '../hooks/useFunctionalityCommonUrlParamsUploadFile'
 
 interface IFunctionalityCommonUploadButton {
   wrapBoxSx?: SxProps<Theme>
@@ -37,9 +43,8 @@ const FunctionalityCommonUploadButton: FC<
   onChange,
   ...props
 }) => {
-  const router = useRouter()
-  const { file_url } = router.query
-  const isOpenUrl = useRef(false)
+  const { urlFileUploadProgress, fileName } =
+    useFunctionalityCommonUrlParamsUploadFile({ onChangeFile: onChange }) //用来处理url参数上传的
   const { t } = useTranslation()
   const isPrimary = themeColor === 'primary'
   const onHandleUnsupportedFileType = () => {
@@ -55,21 +60,7 @@ const FunctionalityCommonUploadButton: FC<
       handleUnsupportedFileType && handleUnsupportedFileType()
     }
   }
-  useEffect(() => {
-    const url = new URL(router.asPath, window.location.origin)
-    const fileUrl = url.searchParams.get('file_url')
-    const file_name = url.searchParams.get('file_name')
-    console.log('1  searchParams', url.searchParams)
-    if ((file_url || fileUrl) && !isOpenUrl.current) {
-      isOpenUrl.current = true
-      downloadFileAsBlob(
-        decodeURIComponent((file_url as string) || (fileUrl as string)),
-      ).then((file) => {
-        onChange && onChange([file] as unknown as FileList)
-        router.replace(url.pathname, undefined, { shallow: false })
-      })
-    }
-  }, [])
+  const isShowUploadProgress = urlFileUploadProgress !== null
   return (
     <Box
       sx={{
@@ -111,6 +102,7 @@ const FunctionalityCommonUploadButton: FC<
           inputProps={{
             accept: 'application/pdf',
             multiple: false,
+            disabled: isShowUploadProgress,
             ...inputProps,
           }}
           handleUnsupportedFileType={onHandleUnsupportedFileType}
@@ -122,37 +114,75 @@ const FunctionalityCommonUploadButton: FC<
               name='CloudUploadIcon'
             />
           )}
-          <Button
-            variant='contained'
-            sx={{
-              my: 1,
-              width: 240,
-              height: 54,
-              bgcolor: isPrimary ? '#ffffff' : undefined,
-              color: isPrimary ? '#000000' : undefined,
-              fontSize: 16,
-              fontWeight: 700,
-            }}
-            startIcon={<FunctionalityCommonIcon name='NoteAdd' />}
-            color={isPrimary ? 'inherit' : 'primary'}
-          >
-            {buttonTitle ||
-              t(
-                'functionality__common:components__common__upload_button_title',
+          {!isShowUploadProgress && (
+            <React.Fragment>
+              <Button
+                variant='contained'
+                sx={{
+                  my: 1,
+                  width: 240,
+                  height: 54,
+                  bgcolor: isPrimary ? '#ffffff' : undefined,
+                  color: isPrimary ? '#000000' : undefined,
+                  fontSize: 16,
+                  fontWeight: 700,
+                }}
+                startIcon={<FunctionalityCommonIcon name='NoteAdd' />}
+                color={isPrimary ? 'inherit' : 'primary'}
+              >
+                {buttonTitle ||
+                  t(
+                    'functionality__common:components__common__upload_button_title',
+                  )}
+              </Button>
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 14,
+                    lg: 16,
+                  },
+                  color: isPrimary ? undefined : 'primary.main',
+                }}
+              >
+                {dropDescription ||
+                  t(
+                    'functionality__common:components__common__upload_button_tips',
+                  )}
+              </Typography>
+            </React.Fragment>
+          )}
+          {isShowUploadProgress && (
+            <React.Fragment>
+              {fileName && (
+                <Typography
+                  sx={{
+                    fontSize: {
+                      xs: 16,
+                      lg: 18,
+                    },
+                    mt: 2,
+                    fontWeight: 600,
+                  }}
+                >
+                  {fileName}
+                </Typography>
               )}
-          </Button>
-          <Typography
-            sx={{
-              fontSize: {
-                xs: 14,
-                lg: 16,
-              },
-              color: isPrimary ? undefined : 'primary.main',
-            }}
-          >
-            {dropDescription ||
-              t('functionality__common:components__common__upload_button_tips')}
-          </Typography>
+            </React.Fragment>
+          )}
+          {urlFileUploadProgress !== null && (
+            <Box
+              sx={{
+                width: '80%',
+                mt: 2,
+              }}
+            >
+              <LinearProgress
+                color='inherit'
+                variant='determinate'
+                value={urlFileUploadProgress}
+              />
+            </Box>
+          )}
         </UploadButton>
       </Box>
     </Box>

@@ -15,7 +15,11 @@ export const downloadUrl = (
   URL.revokeObjectURL(url)
 }
 
-export const downloadFileAsBlob = (url: string, name?: string) => {
+export const downloadFileAsBlob = (
+  url: string,
+  onPercentComplete?: (progress: number) => void,
+  name?: string,
+) => {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest()
     xhr.open('GET', url, true)
@@ -24,7 +28,7 @@ export const downloadFileAsBlob = (url: string, name?: string) => {
     xhr.onprogress = (event) => {
       if (event.lengthComputable) {
         const percentComplete = (event.loaded / event.total) * 100
-        console.log(`Progress: ${percentComplete.toFixed(2)}%`)
+        onPercentComplete && onPercentComplete(percentComplete)
         // Update your UI here with the progress information if needed
       }
     }
