@@ -5,13 +5,13 @@ export const functionalityCommonFileNameRemoveAndAddExtension = (
   addExtensionType?: string,
   addExtensionTips: string = '(Powered by MaxAI)',
 ) => {
-  let newFileName = fileName;
+  let newFileName = fileName
   if (newFileName.endsWith(`.${extensionType}`)) {
-    newFileName = newFileName.slice(0, -4);
+    newFileName = newFileName.slice(0, -4)
   }
-  const newAddExtensionType = addExtensionType ?? extensionType;
-  const newAddExtensionSpot = newAddExtensionType ? '.' : '';
+  const newAddExtensionType = addExtensionType ?? extensionType
+  const newAddExtensionSpot = newAddExtensionType ? '.' : ''
   return (
     newFileName + addExtensionTips + newAddExtensionSpot + newAddExtensionType
-  );
-};
+  )
+}
