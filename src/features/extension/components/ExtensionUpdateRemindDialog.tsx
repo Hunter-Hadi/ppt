@@ -1,40 +1,38 @@
-import { Button, Stack, Typography } from '@mui/material';
-import { useRecoilState } from 'recoil';
+import { Button, Stack, Typography } from '@mui/material'
+import React from 'react'
+import { useRecoilState } from 'recoil'
 
-import CustomModal from '@/components/CustomModal';
-import ResponsiveImage from '@/components/ResponsiveImage';
-import { webPageOpenMaxAIImmersiveChat } from '@/features/common/utils/postMessageToCRX';
-import useBrowserAgent from '@/hooks/useBrowserAgent';
+import CustomModal from '@/components/CustomModal'
+import ResponsiveImage from '@/components/ResponsiveImage'
+import { webPageOpenMaxAIImmersiveChat } from '@/features/common/utils/postMessageToCRX'
 
-import { ExtensionUpdateRemindDialogState } from '../store';
+import { ExtensionUpdateRemindDialogState } from '../store'
 
 const ExtensionUpdateRemindDialog = () => {
   const [
     extensionUpdateRemindDialogState,
     setExtensionUpdateRemindDialogState,
-  ] = useRecoilState(ExtensionUpdateRemindDialogState);
+  ] = useRecoilState(ExtensionUpdateRemindDialogState)
 
-  const { browserAgent } = useBrowserAgent();
-
-  const { show } = extensionUpdateRemindDialogState;
+  const { show } = extensionUpdateRemindDialogState
 
   const setShow = (show: boolean) => {
     setExtensionUpdateRemindDialogState((pre) => ({
       ...pre,
       show,
-    }));
-  };
+    }))
+  }
 
   const handleClickRouteToExtensionPage = () => {
-    webPageOpenMaxAIImmersiveChat();
-  };
+    webPageOpenMaxAIImmersiveChat()
+  }
 
   return (
     <>
       {show && (
         <CustomModal
           onClose={() => {
-            setShow(false);
+            setShow(false)
           }}
           show={show}
           sx={{
@@ -64,7 +62,7 @@ const ExtensionUpdateRemindDialog = () => {
         </CustomModal>
       )}
     </>
-  );
-};
+  )
+}
 
-export default ExtensionUpdateRemindDialog;
+export default ExtensionUpdateRemindDialog

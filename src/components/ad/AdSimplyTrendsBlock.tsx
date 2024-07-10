@@ -1,8 +1,9 @@
-import { Button, Stack, Typography } from '@mui/material';
+import { Button, Stack, Typography } from '@mui/material'
+import React from 'react'
 
-import CustomIcon from '@/components/CustomIcon';
-import ProLink from '@/components/ProLink';
-import { SIMPLY_TRENDS_APP_LINK } from '@/global_constants';
+import CustomIcon from '@/components/CustomIcon'
+import ProLink from '@/components/ProLink'
+import { SIMPLY_TRENDS_APP_LINK } from '@/global_constants'
 
 const AdSimplyTrendsBlock = () => {
   return (
@@ -48,6 +49,6 @@ const AdSimplyTrendsBlock = () => {
         No credit card required
       </Typography>
     </Stack>
-  );
-};
-export default AdSimplyTrendsBlock;
+  )
+}
+export default AdSimplyTrendsBlock

@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const YouTube: FC<SvgIconProps> = (props) => {
   return (
@@ -15,6 +16,6 @@ const YouTube: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default YouTube;
+  )
+}
+export default YouTube

@@ -1,10 +1,11 @@
-import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
-import ControlPointTwoToneIcon from '@mui/icons-material/ControlPointTwoTone';
-import NoteAddOutlinedIcon from '@mui/icons-material/NoteAddOutlined';
-import PictureAsPdfOutlinedIcon from '@mui/icons-material/PictureAsPdfOutlined';
-import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone';
-import { SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone'
+import ControlPointTwoToneIcon from '@mui/icons-material/ControlPointTwoTone'
+import NoteAddOutlinedIcon from '@mui/icons-material/NoteAddOutlined'
+import PictureAsPdfOutlinedIcon from '@mui/icons-material/PictureAsPdfOutlined'
+import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone'
+import { SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 /**
  * Functionality公共图标
@@ -17,24 +18,24 @@ const FunctionalityCommonIcon: FC<{ name: string } & SvgIconProps> = ({
   const renderIcon = () => {
     switch (name) {
       case 'CloudUploadIcon': {
-        return <PictureAsPdfOutlinedIcon {...restProps} />;
+        return <PictureAsPdfOutlinedIcon {...restProps} />
       }
       case 'ControlPointTwoTone': {
-        return <ControlPointTwoToneIcon {...restProps} />;
+        return <ControlPointTwoToneIcon {...restProps} />
       }
       case 'RemoveCircleTwoTone': {
-        return <RemoveCircleTwoToneIcon {...restProps} />;
+        return <RemoveCircleTwoToneIcon {...restProps} />
       }
       case 'CloseTwoTone':
-        return <CloseTwoToneIcon {...restProps} />;
+        return <CloseTwoToneIcon {...restProps} />
       case 'NoteAdd':
-        return <NoteAddOutlinedIcon {...restProps} />;
+        return <NoteAddOutlinedIcon {...restProps} />
       default: {
-        return null;
+        return null
       }
     }
-  };
+  }
 
-  return renderIcon();
-};
-export default FunctionalityCommonIcon;
+  return renderIcon()
+}
+export default FunctionalityCommonIcon

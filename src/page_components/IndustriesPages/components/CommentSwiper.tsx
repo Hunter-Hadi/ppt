@@ -1,25 +1,26 @@
 // Import Swiper React components
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
 
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { Box, Typography } from '@mui/material';
-import Image from 'next/image';
-import { register } from 'swiper/element/bundle';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
+import { Box, Typography } from '@mui/material'
+import Image from 'next/image'
+import React from 'react'
+import { register } from 'swiper/element/bundle'
 import {
   A11y,
   Autoplay,
   Navigation,
   Pagination,
   Scrollbar,
-} from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+} from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
-import Stars from '@/features/landing/components/UserComment/Stars';
-register();
+import Stars from '@/features/landing/components/UserComment/Stars'
+register()
 
 const COMMENTS = [
   {
@@ -52,7 +53,7 @@ const COMMENTS = [
     content:
       'Maxai .me has changed my productivity everyday for my conntent creation and has absololutley fasttracked my goals in so many ways. Its absoloty wonderful!!',
   },
-];
+]
 
 const CommentSwiper = () => {
   return (
@@ -208,7 +209,7 @@ const CommentSwiper = () => {
         </Box>
       </Swiper>
     </Box>
-  );
-};
+  )
+}
 
-export default CommentSwiper;
+export default CommentSwiper

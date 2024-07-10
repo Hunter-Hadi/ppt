@@ -1,102 +1,103 @@
-import { EffectCallback, useEffect, useRef, useState } from 'react';
+import { EffectCallback, useEffect, useRef, useState } from 'react'
 
 const useEffectOnce = (effect: EffectCallback) => {
-  useEffect(effect, []);
-};
+  useEffect(effect, [])
+}
 const useUnmount = (fn: () => any): void => {
-  const fnRef = useRef(fn);
+  const fnRef = useRef(fn)
   // update the ref each render so if it change the newest callback will be invoked
-  fnRef.current = fn;
-  useEffectOnce(() => () => fnRef.current());
-};
+  fnRef.current = fn
+  useEffectOnce(() => () => fnRef.current())
+}
 
 export const useThrottle = <T>(value: T, ms = 200) => {
-  const [state, setState] = useState<T>(value);
-  const timeout = useRef<ReturnType<typeof setTimeout>>();
-  const nextValue = useRef(null) as any;
-  const hasNextValue = useRef(0) as any;
+  const [state, setState] = useState<T>(value)
+  const timeout = useRef<ReturnType<typeof setTimeout>>()
+  const nextValue = useRef(null) as any
+  const hasNextValue = useRef(0) as any
 
   useEffect(() => {
     if (!timeout.current) {
-      setState(value);
+      setState(value)
       const timeoutCallback = () => {
         if (hasNextValue.current) {
-          hasNextValue.current = false;
-          setState(nextValue.current);
-          timeout.current = setTimeout(timeoutCallback, ms);
+          hasNextValue.current = false
+          setState(nextValue.current)
+          timeout.current = setTimeout(timeoutCallback, ms)
         } else {
-          timeout.current = undefined;
+          timeout.current = undefined
         }
-      };
-      timeout.current = setTimeout(timeoutCallback, ms);
+      }
+      timeout.current = setTimeout(timeoutCallback, ms)
     } else {
-      nextValue.current = value;
-      hasNextValue.current = true;
+      nextValue.current = value
+      hasNextValue.current = true
     }
-  }, [value]);
+  }, [value])
 
   useUnmount(() => {
-    timeout.current && clearTimeout(timeout.current);
-  });
+    timeout.current && clearTimeout(timeout.current)
+  })
 
-  return state;
-};
+  return state
+}
 export const useThrottleFn = <T, U extends any[]>(
   fn: (...args: U) => T,
   ms = 200,
   args: U,
 ) => {
-  const [state, setState] = useState<T | null>(null);
-  const timeout = useRef<ReturnType<typeof setTimeout>>();
-  const nextArgs = useRef<U>();
+  const [state, setState] = useState<T | null>(null)
+  const timeout = useRef<ReturnType<typeof setTimeout>>()
+  const nextArgs = useRef<U>()
 
   useEffect(() => {
     if (!timeout.current) {
-      setState(fn(...args));
+      setState(fn(...args))
       const timeoutCallback = () => {
         if (nextArgs.current) {
-          setState(fn(...nextArgs.current));
-          nextArgs.current = undefined;
-          timeout.current = setTimeout(timeoutCallback, ms);
+          setState(fn(...nextArgs.current))
+          nextArgs.current = undefined
+          timeout.current = setTimeout(timeoutCallback, ms)
         } else {
-          timeout.current = undefined;
+          timeout.current = undefined
         }
-      };
-      timeout.current = setTimeout(timeoutCallback, ms);
+      }
+      timeout.current = setTimeout(timeoutCallback, ms)
     } else {
-      nextArgs.current = args;
+      nextArgs.current = args
     }
-  }, args);
+  }, args)
 
   useUnmount(() => {
-    timeout.current && clearTimeout(timeout.current);
-  });
+    timeout.current && clearTimeout(timeout.current)
+  })
 
-  return state;
-};
+  return state
+}
 export type ThrottledFunction<T extends (...args: any) => any> = (
   ...args: Parameters<T>
-) => ReturnType<T>;
+) => ReturnType<T>
 export const throttle = <T extends (...args: any) => any>(
   func: T,
   limit: number,
 ): ThrottledFunction<T> => {
-  let inThrottle: boolean;
-  let lastResult: ReturnType<T>;
+  let inThrottle: boolean
+  let lastResult: ReturnType<T>
 
   return function (this: any): ReturnType<T> {
     // eslint-disable-next-line prefer-rest-params
-    const args = arguments;
-    const context = this;
+    const args = arguments
+    // eslint-disable-next-line @typescript-eslint/no-this-alias
+    const context = this
 
     if (!inThrottle) {
-      inThrottle = true;
+      inThrottle = true
 
-      setTimeout(() => (inThrottle = false), limit);
+      setTimeout(() => (inThrottle = false), limit)
 
-      lastResult = func.apply(context, args as any);
+      lastResult = func.apply(context, args as any)
     }
 
-    return lastResult;
-  };
-};
+    return lastResult
+  }
+}

@@ -1,18 +1,19 @@
-import { Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC } from 'react';
-import { useRecoilValue } from 'recoil';
+import { Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC } from 'react'
+import { useRecoilValue } from 'recoil'
 
-import { FunctionalitySignPdfOperationOBjectAtom } from '../../store';
-import { IFabricAddObjectType } from '../../utils/fabricjsTools';
-import { IActiveDragData } from '../FunctionalitySignPdfDetail';
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
-import FunctionalitySignPdfOperationSignatureView from './FunctionalitySignPdfOperationSignatureView';
+import { FunctionalitySignPdfOperationOBjectAtom } from '../../store'
+import { IFabricAddObjectType } from '../../utils/fabricjsTools'
+import { IActiveDragData } from '../FunctionalitySignPdfDetail'
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
+import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView'
+import FunctionalitySignPdfOperationSignatureView from './FunctionalitySignPdfOperationSignatureView'
 
 interface IFunctionalitySignPdfOperationView {
-  activeDragData?: IActiveDragData;
-  onClickAdd: (type: IFabricAddObjectType, value: string) => void;
+  activeDragData?: IActiveDragData
+  onClickAdd: (type: IFabricAddObjectType, value: string) => void
 }
 /**
  * 用于选择签名的操作视图
@@ -20,10 +21,10 @@ interface IFunctionalitySignPdfOperationView {
 const FunctionalitySignPdfOperationViewMain: FC<
   IFunctionalitySignPdfOperationView
 > = ({ activeDragData, onClickAdd }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const pdfOperationOBject = useRecoilValue(
     FunctionalitySignPdfOperationOBjectAtom,
-  );
+  )
   return (
     <Stack flexDirection='column'>
       <Stack direction='column' gap={2}>
@@ -111,6 +112,6 @@ const FunctionalitySignPdfOperationViewMain: FC<
         </FunctionalitySignPdfOperationDraggableView>
       </Stack>
     </Stack>
-  );
-};
-export default FunctionalitySignPdfOperationViewMain;
+  )
+}
+export default FunctionalitySignPdfOperationViewMain

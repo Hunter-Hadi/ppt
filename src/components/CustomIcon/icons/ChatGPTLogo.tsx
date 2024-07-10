@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const ChatGPTLogo: FC<SvgIconProps> = (props) => {
   return (
@@ -22,6 +23,6 @@ const ChatGPTLogo: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default ChatGPTLogo;
+  )
+}
+export default ChatGPTLogo

@@ -1,37 +1,38 @@
-import { Stack } from '@mui/material';
-import Head from 'next/head';
-import { lazy, Suspense, useState } from 'react';
-import { useRecoilState } from 'recoil';
+import { Stack } from '@mui/material'
+import Head from 'next/head'
+import React from 'react'
+import { lazy, Suspense, useState } from 'react'
+import { useRecoilState } from 'recoil'
 
-import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
-import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
+import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton'
 
 import {
   FunctionalitySignPdfOperationOBjectAtom,
   functionalitySignPdfOperationOBjectDefault,
-} from '../store';
+} from '../store'
 const FunctionalitySignPdfDetail = lazy(
   () =>
     import(
       '@/features/functionality_sign_pdf/components/FunctionalitySignPdfDetail'
     ),
-);
+)
 
 const FunctionalitySignPdfMain = () => {
   const [, setPdfOperationOBject] = useRecoilState(
     FunctionalitySignPdfOperationOBjectAtom,
-  );
-  const [fileData, setFileData] = useState<File | null>(null);
+  )
+  const [fileData, setFileData] = useState<File | null>(null)
   const onChangeFile = (fileList: FileList) => {
     if (fileList?.length > 0) {
-      setFileData(fileList[0]);
+      setFileData(fileList[0])
     }
-  };
+  }
   const onClearReturn = () => {
-    setFileData(null);
+    setFileData(null)
     // 清空Atom的值
-    setPdfOperationOBject(functionalitySignPdfOperationOBjectDefault);
-  };
+    setPdfOperationOBject(functionalitySignPdfOperationOBjectDefault)
+  }
   return (
     <Stack
       flexDirection='column'
@@ -71,6 +72,6 @@ const FunctionalitySignPdfMain = () => {
         </Suspense>
       )}
     </Stack>
-  );
-};
-export default FunctionalitySignPdfMain;
+  )
+}
+export default FunctionalitySignPdfMain

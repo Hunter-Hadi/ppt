@@ -1,91 +1,92 @@
-import { Box, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC, lazy, Suspense, useMemo } from 'react';
+import { Box, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC, lazy, Suspense, useMemo } from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
-import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards';
-import ToolsDetailDescription from '@/page_components/PdfToolsPages/components/ToolsDetailDescription';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner'
+import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards'
+import ToolsDetailDescription from '@/page_components/PdfToolsPages/components/ToolsDetailDescription'
 import {
   IToolUrkKeyType,
   toolsObjectData,
-} from '@/page_components/PdfToolsPages/constant';
-import { allPdfToolsDetailDescriptionObject } from '@/page_components/PdfToolsPages/constant/toolsDetailDescriptionData';
+} from '@/page_components/PdfToolsPages/constant'
+import { allPdfToolsDetailDescriptionObject } from '@/page_components/PdfToolsPages/constant/toolsDetailDescriptionData'
 
 const FunctionalityPdfToImageMain = lazy(
   () =>
     import(
       '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImageMain'
     ),
-);
+)
 const FunctionalityPdfMergeMain = lazy(
   () =>
     import(
       '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeMain'
     ),
-);
+)
 const FunctionalityPdfSplitMain = lazy(
   () =>
     import(
       '@/features/functionality_pdf_split/components/FunctionalityPdfSplitMain'
     ),
-);
+)
 const FunctionalityPdfToHtmlMain = lazy(
   () =>
     import(
       '@/features/functionality_pdf_to_html/components/FunctionalityPdfToHtmlMain'
     ),
-);
+)
 const FunctionalitySignPdfMain = lazy(
   () =>
     import(
       '@/features/functionality_sign_pdf/components/FunctionalitySignPdfMain'
     ),
-);
+)
 const FunctionalityCompressPdfMain = lazy(
   () =>
     import(
       '@/features/functionality_compress_pdf/components/FunctionalityCompressPdfMain'
     ),
-);
+)
 const FunctionalityOcrPdfMain = lazy(
   () =>
     import(
       '@/features/functionality_ocr_pdf/components/FunctionalityOcrPdfMain'
     ),
-);
+)
 const FunctionalityNumberPagesMain = lazy(
   () =>
     import(
       '@/features/functionality_number_pages/components/FunctionalityNumberPagesMain'
     ),
-);
+)
 const FunctionalityRotatePdfMain = lazy(
   () =>
     import(
       '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfMain'
     ),
-);
+)
 const FunctionalityImageToPdfMain = lazy(
   () =>
     import(
       '@/features/functionality_image_to_pdf/components/FunctionalityImageToPdfMain'
     ),
-);
+)
 interface IToolsDetailProps {
-  urlKey: IToolUrkKeyType;
+  urlKey: IToolUrkKeyType
 }
 
 const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
-  const currentToolData = useMemo(() => toolsObjectData[urlKey], [urlKey]);
-  const { t } = useTranslation();
+  const currentToolData = useMemo(() => toolsObjectData[urlKey], [urlKey])
+  const { t } = useTranslation()
   const urkKeyOfSeoInfo: {
     [key in IToolUrkKeyType]: {
-      title: string;
-      description: string;
-    };
+      title: string
+      description: string
+    }
   } = {
     'pdf-to-jpeg': {
       title: t('seo:pdf_tools__pdf_to_jpeg__title'),
@@ -139,15 +140,15 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_numbers_page__title'),
       description: t('seo:pdf_tools__pdf_numbers_page__description'),
     },
-  };
-  const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey];
+  }
+  const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(
     () =>
       Object.keys(toolsObjectData)
         .filter((key) => key !== urlKey)
         .map((key) => toolsObjectData[key]),
     [urlKey],
-  );
+  )
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
       <AppDefaultSeoLayout
@@ -216,6 +217,6 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
         </Box>
       )}
     </AppContainer>
-  );
-};
-export default ToolsDetail;
+  )
+}
+export default ToolsDetail

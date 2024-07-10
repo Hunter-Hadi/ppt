@@ -1,11 +1,12 @@
-import { Box, Button, Typography } from '@mui/material';
-import dayjs from 'dayjs';
-import { FC, useEffect, useState } from 'react';
+import { Box, Button, Typography } from '@mui/material'
+import dayjs from 'dayjs'
+import React from 'react'
+import { FC, useEffect, useState } from 'react'
 
-import FunctionalitySignPdfCommonButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfCommonButtonPopover';
+import FunctionalitySignPdfCommonButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfCommonButtonPopover'
 interface IFunctionalitySignPdfShowPdfDateFormatsPopoverProps {
-  value: string;
-  onHandleValue: (value: string) => void;
+  value: string
+  onHandleValue: (value: string) => void
 }
 const formatList = [
   'MM/DD/YYYY',
@@ -14,39 +15,39 @@ const formatList = [
   'DD.MM.YYYY',
   'YYYY-MM-DD',
   // 在这里添加其他可能的格式
-];
+]
 const FunctionalitySignPdfShowPdfDateFormatsPopover: FC<
   IFunctionalitySignPdfShowPdfDateFormatsPopoverProps
 > = ({ value, onHandleValue }) => {
-  const [currentFormat, setCurrentFormat] = useState<string>(formatList[0]);
+  const [currentFormat, setCurrentFormat] = useState<string>(formatList[0])
   const inferDateFormat = (dateString: string) => {
     for (const format of formatList) {
-      const parsedDate = dayjs(dateString, format);
+      const parsedDate = dayjs(dateString, format)
       if (parsedDate.isValid()) {
-        return format;
+        return format
       }
     }
 
-    return null; // 如果无法确定格式，则返回null
-  };
+    return null // 如果无法确定格式，则返回null
+  }
   useEffect(() => {
-    const formats = inferDateFormat(value);
+    const formats = inferDateFormat(value)
     if (formats) {
-      setCurrentFormat(formats);
+      setCurrentFormat(formats)
     }
-  }, [value]);
+  }, [value])
   const handleSelect = (format: string) => {
-    const isDateValid = dayjs(value).isValid();
+    const isDateValid = dayjs(value).isValid()
     if (isDateValid) {
       //如果用户发生输入改变，导致不是的话默认重置为当天
-      const formattedDate = dayjs(value, currentFormat).format(format);
-      onHandleValue(formattedDate);
+      const formattedDate = dayjs(value, currentFormat).format(format)
+      onHandleValue(formattedDate)
     } else {
-      onHandleValue(dayjs().format(format));
+      onHandleValue(dayjs().format(format))
     }
 
-    setCurrentFormat(format);
-  };
+    setCurrentFormat(format)
+  }
   return (
     <FunctionalitySignPdfCommonButtonPopover
       buttonProps={{
@@ -88,6 +89,6 @@ const FunctionalitySignPdfShowPdfDateFormatsPopover: FC<
         {currentFormat}
       </Typography>
     </FunctionalitySignPdfCommonButtonPopover>
-  );
-};
-export default FunctionalitySignPdfShowPdfDateFormatsPopover;
+  )
+}
+export default FunctionalitySignPdfShowPdfDateFormatsPopover

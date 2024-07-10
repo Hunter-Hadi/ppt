@@ -1,22 +1,22 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react'
 
 import {
   getClientUserId,
   setClientUserId,
-} from '@/features/track_user_interactions/utils';
+} from '@/features/track_user_interactions/utils'
 
 interface IProps {
-  targetHost: string;
+  targetHost: string
 }
 
 const ClientUserIdCachePages: FC<IProps> = ({ targetHost }) => {
   const [willCacheClientUserId, setWillCacheClientUserId] = useState<
     string | null
-  >(null);
+  >(null)
 
   useEffect(() => {
     if (
-      typeof window !== undefined &&
+      typeof window !== 'undefined' &&
       window.parent &&
       window.parent.postMessage &&
       window.parent !== window
@@ -26,37 +26,37 @@ const ClientUserIdCachePages: FC<IProps> = ({ targetHost }) => {
           type: 'MAXAI_CLIENT_USER_ID_PAGE_LOADED',
         },
         targetHost,
-      );
+      )
     }
-  }, []);
+  }, [])
 
   useEffect(() => {
     const messageListener = (event: any) => {
       if (event.origin === targetHost) {
-        const data = event.data;
+        const data = event.data
 
         switch (data.type) {
           // 接受父页面传递过来的 clientUserId
           case 'MAXAI_CLIENT_USER_ID_CACHE': {
             if (data.data.clientUserId) {
-              const clientUserId = data.data.clientUserId;
-              setClientUserId(clientUserId);
+              const clientUserId = data.data.clientUserId
+              setClientUserId(clientUserId)
 
-              setWillCacheClientUserId(clientUserId);
+              setWillCacheClientUserId(clientUserId)
               event.source.postMessage(
                 {
                   type: 'MAXAI_CLIENT_USER_ID_CACHE_SUCCESS',
                 },
                 event.origin,
-              );
+              )
             }
-            break;
+            break
           }
 
           // 告诉父页面当前的 clientUserId
           case 'MAXAI_GET_CLIENT_USER_ID': {
-            const clientUserId = getClientUserId();
-            setWillCacheClientUserId(clientUserId);
+            const clientUserId = getClientUserId()
+            setWillCacheClientUserId(clientUserId)
             event.source.postMessage(
               {
                 type: 'MAXAI_GET_CLIENT_USER_ID_SUCCESS',
@@ -65,23 +65,23 @@ const ClientUserIdCachePages: FC<IProps> = ({ targetHost }) => {
                 },
               },
               event.origin,
-            );
-            break;
+            )
+            break
           }
 
           default:
-            break;
+            break
         }
       }
-    };
-    window.addEventListener('message', messageListener);
+    }
+    window.addEventListener('message', messageListener)
 
     return () => {
-      window.removeEventListener('message', messageListener);
-    };
-  }, []);
+      window.removeEventListener('message', messageListener)
+    }
+  }, [])
 
-  return <span>clientUserId: {willCacheClientUserId}</span>;
-};
+  return <span>clientUserId: {willCacheClientUserId}</span>
+}
 
-export default ClientUserIdCachePages;
+export default ClientUserIdCachePages

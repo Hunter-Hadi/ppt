@@ -1,15 +1,16 @@
-import { Box, Grid, Stack, Typography } from '@mui/material';
+import { Box, Grid, Stack, Typography } from '@mui/material'
+import React from 'react'
 
 type IOptionItem = {
-  value: string;
-  label: string;
-  tips: string;
-};
+  value: string
+  label: string
+  tips: string
+}
 interface IFunctionalityCommonOptionSelector<T = IOptionItem> {
-  list: T[];
-  selectKey: string;
-  onSelect: (onSelectItem: T) => void;
-  disabled?: boolean;
+  list: T[]
+  selectKey: string
+  onSelect: (onSelectItem: T) => void
+  disabled?: boolean
 }
 function FunctionalityCommonOptionSelector<
   T extends IOptionItem = IOptionItem,
@@ -29,7 +30,7 @@ function FunctionalityCommonOptionSelector<
               alignItems='center'
               onClick={() => {
                 if (!disabled) {
-                  onSelect(option);
+                  onSelect(option)
                 }
               }}
               gap={2}
@@ -99,6 +100,6 @@ function FunctionalityCommonOptionSelector<
         </Grid>
       ))}
     </Box>
-  );
+  )
 }
-export default FunctionalityCommonOptionSelector;
+export default FunctionalityCommonOptionSelector

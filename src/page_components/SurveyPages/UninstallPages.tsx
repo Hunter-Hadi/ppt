@@ -1,26 +1,26 @@
-import { buttonClasses, Paper, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useEffect, useState } from 'react';
+import { buttonClasses, Paper, Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useEffect, useState } from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import CustomIcon from '@/components/CustomIcon';
-import useBrowserAgent from '@/features/common/hooks/useBrowserAgent';
-import { mixpanelTrack } from '@/features/mixpanel/utils';
-import FunnelSurveyContentRenderer from '@/features/survey/components/FunnelSurveyContentRenderer';
-import { APP_PROJECT_LINK } from '@/global_constants';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import CustomIcon from '@/components/CustomIcon'
+import useBrowserAgent from '@/features/common/hooks/useBrowserAgent'
+import { mixpanelTrack } from '@/features/mixpanel/utils'
+import FunnelSurveyContentRenderer from '@/features/survey/components/FunnelSurveyContentRenderer'
+import { APP_PROJECT_LINK } from '@/global_constants'
 
-import CTAInstallButton from '../CTAInstallButton';
+import CTAInstallButton from '../CTAInstallButton'
 
 const UninstallPages: FC = () => {
   // const router = useRouter();
 
   useEffect(() => {
-    if (typeof window !== undefined) {
-      location.href = `${APP_PROJECT_LINK}/survey/uninstall`;
+    if (typeof window !== 'undefined') {
+      location.href = `${APP_PROJECT_LINK}/survey/uninstall`
     }
-  }, []);
+  }, [])
 
   return (
     <AppLoadingLayout
@@ -29,37 +29,37 @@ const UninstallPages: FC = () => {
         height: '50vh',
       }}
     />
-  );
+  )
 
-  const { browserAgent: agent } = useBrowserAgent();
+  const { browserAgent: agent } = useBrowserAgent()
 
-  const { t } = useTranslation();
-  const [domLoaded, setDomLoaded] = useState(false);
+  const { t } = useTranslation()
+  const [domLoaded, setDomLoaded] = useState(false)
   useEffect(() => {
-    setDomLoaded(true);
-  }, []);
-  const openUrlLinkRef = React.useRef('');
+    setDomLoaded(true)
+  }, [])
+  const openUrlLinkRef = React.useRef('')
   useEffect(() => {
     const keyboardOrMouseEventListener = () => {
       if (openUrlLinkRef.current) {
-        window.open(openUrlLinkRef.current, '_blank');
-        openUrlLinkRef.current = '';
-        return;
+        window.open(openUrlLinkRef.current, '_blank')
+        openUrlLinkRef.current = ''
+        return
       }
-    };
-    window.addEventListener('keydown', keyboardOrMouseEventListener);
-    window.addEventListener('mousedown', keyboardOrMouseEventListener);
+    }
+    window.addEventListener('keydown', keyboardOrMouseEventListener)
+    window.addEventListener('mousedown', keyboardOrMouseEventListener)
     return () => {
-      window.removeEventListener('keydown', keyboardOrMouseEventListener);
-      window.removeEventListener('mousedown', keyboardOrMouseEventListener);
-    };
-  }, []);
+      window.removeEventListener('keydown', keyboardOrMouseEventListener)
+      window.removeEventListener('mousedown', keyboardOrMouseEventListener)
+    }
+  }, [])
 
   useEffect(() => {
     if (domLoaded) {
-      mixpanelTrack('uninstall_completed');
+      mixpanelTrack('uninstall_completed')
     }
-  }, [domLoaded]);
+  }, [domLoaded])
 
   return (
     <AppContainer
@@ -159,7 +159,7 @@ const UninstallPages: FC = () => {
         </Paper>
       </Stack>
     </AppContainer>
-  );
-};
+  )
+}
 
-export default UninstallPages;
+export default UninstallPages

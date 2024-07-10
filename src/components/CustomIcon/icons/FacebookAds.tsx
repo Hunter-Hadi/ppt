@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const FacebookAds: FC<SvgIconProps> = (props) => {
   return (
@@ -26,10 +27,10 @@ const FacebookAds: FC<SvgIconProps> = (props) => {
             y2='12.4223'
             gradientUnits='userSpaceOnUse'
           >
-            <stop stop-color='#0064E1' />
-            <stop offset='0.4' stop-color='#0064E1' />
-            <stop offset='0.83' stop-color='#0073EE' />
-            <stop offset='1' stop-color='#0082FB' />
+            <stop stopColor='#0064E1' />
+            <stop offset='0.4' stopColor='#0064E1' />
+            <stop offset='0.83' stopColor='#0073EE' />
+            <stop offset='1' stopColor='#0082FB' />
           </linearGradient>
           <linearGradient
             id='paint1_linear_5654_40794'
@@ -39,12 +40,12 @@ const FacebookAds: FC<SvgIconProps> = (props) => {
             y2='9.53872'
             gradientUnits='userSpaceOnUse'
           >
-            <stop stop-color='#0082FB' />
-            <stop offset='1' stop-color='#0064E0' />
+            <stop stopColor='#0082FB' />
+            <stop offset='1' stopColor='#0064E0' />
           </linearGradient>
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default FacebookAds;
+  )
+}
+export default FacebookAds

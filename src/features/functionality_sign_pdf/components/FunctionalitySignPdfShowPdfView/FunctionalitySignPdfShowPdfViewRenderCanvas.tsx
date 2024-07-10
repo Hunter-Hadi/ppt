@@ -416,7 +416,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       let scaleFactor = 1; // Current scale factor
       const resizeCanvas = () => {
         //自适应缩放
-        let newWidth = topWrapRef.current?.clientWidth;
+        const newWidth = topWrapRef.current?.clientWidth;
         if (newWidth) {
           scaleFactor = newWidth / sizeInfo.width; // Calculate new scale factor
           setScaleFactor(parseFloat(scaleFactor.toFixed(3)));

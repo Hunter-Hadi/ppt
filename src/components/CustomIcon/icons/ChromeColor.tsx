@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const ChromeColor: FC<SvgIconProps> = (props) => {
   return (
@@ -39,6 +40,6 @@ const ChromeColor: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default ChromeColor;
+  )
+}
+export default ChromeColor

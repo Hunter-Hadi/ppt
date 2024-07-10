@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const Outlook: FC<SvgIconProps> = (props) => {
   return (
@@ -92,6 +93,6 @@ const Outlook: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default Outlook;
+  )
+}
+export default Outlook

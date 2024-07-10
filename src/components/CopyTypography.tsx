@@ -1,25 +1,24 @@
-import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import { Button, Stack, SxProps, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
-import Tooltip, { tooltipClasses, TooltipProps } from '@mui/material/Tooltip';
-import { TypographyProps } from '@mui/material/Typography';
-import React, { FC, useCallback, useState } from 'react';
-// @ts-ignore
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy'
+import { Button, Stack, SxProps, Typography } from '@mui/material'
+import { styled } from '@mui/material/styles'
+import Tooltip, { tooltipClasses, TooltipProps } from '@mui/material/Tooltip'
+import { TypographyProps } from '@mui/material/Typography'
+import React, { FC, useCallback, useState } from 'react'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 
-import { GaContent, gaEvent, generateGaEvent } from '@/utils/gtag';
+import { GaContent, gaEvent, generateGaEvent } from '@/utils/gtag'
 
 export interface ICopyTypographyProps extends TypographyProps {
-  text: string;
-  onCopy?: () => void;
+  text: string
+  onCopy?: () => void
   options?: {
-    debug?: boolean; // Boolean. Optional. Enable output to console.
-    message?: string; // String. Optional. Prompt message. *
-    format?: string; // String. Optional. Set the MIME type of what you want to copy as. Use text/html to copy as HTML, text/plain to avoid inherited styles showing when pasted into rich text editor.
-    feedbackType?: 'tooltip' | 'cover'; //Feedback type after successful copy
-  };
-  sx?: SxProps;
-  justifyContent?: 'center' | 'space-between';
+    debug?: boolean // Boolean. Optional. Enable output to console.
+    message?: string // String. Optional. Prompt message. *
+    format?: string // String. Optional. Set the MIME type of what you want to copy as. Use text/html to copy as HTML, text/plain to avoid inherited styles showing when pasted into rich text editor.
+    feedbackType?: 'tooltip' | 'cover' //Feedback type after successful copy
+  }
+  sx?: SxProps
+  justifyContent?: 'center' | 'space-between'
 }
 const BootstrapTooltip = styled(({ className, ...props }: TooltipProps) => (
   <Tooltip {...props} arrow classes={{ popper: className }} />
@@ -30,7 +29,7 @@ const BootstrapTooltip = styled(({ className, ...props }: TooltipProps) => (
   [`& .${tooltipClasses.tooltip}`]: {
     backgroundColor: theme.palette.common.black,
   },
-}));
+}))
 const CopyTypography: FC<
   ICopyTypographyProps & { buttonText?: string; wrapperMode?: boolean }
 > = ({
@@ -44,29 +43,29 @@ const CopyTypography: FC<
   wrapperMode = false,
   ...props
 }) => {
-  const [openTooltip, setOpenTooltip] = useState(false);
+  const [openTooltip, setOpenTooltip] = useState(false)
   const {
     debug = false,
     message = 'Copied!',
     format = 'text/plain',
     feedbackType = 'tooltip',
-  } = options || {};
+  } = options || {}
   const handleOpenTooltip = () => {
-    setOpenTooltip(true);
+    setOpenTooltip(true)
     setTimeout(() => {
-      setOpenTooltip(false);
-    }, 2500);
-  };
+      setOpenTooltip(false)
+    }, 2500)
+  }
 
   const handleOnCopy = useCallback(() => {
-    onCopy && onCopy();
-    handleOpenTooltip();
+    onCopy && onCopy()
+    handleOpenTooltip()
     gaEvent(
       generateGaEvent('click', 'copy', {
         value: text,
       }),
-    );
-  }, [onCopy, text]);
+    )
+  }, [onCopy, text])
 
   const renderWithFeedback = useCallback(() => {
     if (wrapperMode) {
@@ -82,7 +81,7 @@ const CopyTypography: FC<
         >
           {children as any}
         </BootstrapTooltip>
-      );
+      )
     }
     if (feedbackType === 'tooltip') {
       return (
@@ -120,7 +119,7 @@ const CopyTypography: FC<
             </GaContent>
           </Button>
         </BootstrapTooltip>
-      );
+      )
     }
 
     if (feedbackType === 'cover') {
@@ -156,9 +155,9 @@ const CopyTypography: FC<
             </Typography>
           </GaContent>
         </Button>
-      );
+      )
     }
-  }, [openTooltip, message, props, text, children, wrapperMode]);
+  }, [openTooltip, message, props, text, children, wrapperMode])
   return (
     <CopyToClipboard
       text={text}
@@ -167,6 +166,6 @@ const CopyTypography: FC<
     >
       {renderWithFeedback()}
     </CopyToClipboard>
-  );
-};
-export default CopyTypography;
+  )
+}
+export default CopyTypography

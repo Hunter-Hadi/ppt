@@ -1,12 +1,13 @@
-import { Box, buttonClasses, Stack, Typography } from '@mui/material';
-import { FC } from 'react';
+import { Box, buttonClasses, Stack, Typography } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
-import CTAInstallButton from '@/page_components/CTAInstallButton';
+import CTAInstallButton from '@/page_components/CTAInstallButton'
 
 interface IDescriptionProps {
-  title: string;
-  content: string;
-  buttonText: string;
+  title: string
+  content: string
+  buttonText: string
 }
 
 const Description: FC<IDescriptionProps> = ({ title, content, buttonText }) => {
@@ -82,7 +83,7 @@ const Description: FC<IDescriptionProps> = ({ title, content, buttonText }) => {
         />
       </Stack>
     </Box>
-  );
-};
+  )
+}
 
-export default Description;
+export default Description

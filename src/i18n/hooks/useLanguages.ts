@@ -22,7 +22,7 @@ export const useLanguages = () => {
     // 默认使用当前页面的 pathname 作为 redirect
     let redirect = targetPathname;
 
-    let href = '/languages';
+    const href = '/languages';
 
     // 如果当前页面有 redirect 参数，使用当前页面的 redirect 参数
     if (cloneQuery.redirect) {

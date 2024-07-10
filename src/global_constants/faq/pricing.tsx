@@ -1,7 +1,9 @@
-import ProLink from '@/components/ProLink';
-import { IFAQItem } from '@/page_components/FAQList';
+import React from 'react'
 
-import { APP_PROJECT_LINK, WWW_PROJECT_LINK } from '..';
+import ProLink from '@/components/ProLink'
+import { IFAQItem } from '@/page_components/FAQList'
+
+import { APP_PROJECT_LINK, WWW_PROJECT_LINK } from '..'
 
 const FAQ_PRICING: IFAQItem[] = [
   {
@@ -65,5 +67,5 @@ const FAQ_PRICING: IFAQItem[] = [
       </>
     ),
   },
-];
-export { FAQ_PRICING };
+]
+export { FAQ_PRICING }

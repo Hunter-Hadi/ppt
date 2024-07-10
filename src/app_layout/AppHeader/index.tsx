@@ -3,6 +3,7 @@ import Stack from '@mui/material/Stack'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { useRouter } from 'next/router'
 import { FC } from 'react'
+import React from 'react'
 
 import useAppHeaderState from '@/hooks/useAppHeaderState'
 import { removeLocaleInPathname } from '@/i18n/utils'

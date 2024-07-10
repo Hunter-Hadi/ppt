@@ -94,7 +94,7 @@ const SingleSurvey: FC<{
       return false;
     }
     let isValid = true;
-    let errorMsg = '';
+    const errorMsg = '';
 
     if (values.includes(REASION_KEY)) {
       if (reason === '') {

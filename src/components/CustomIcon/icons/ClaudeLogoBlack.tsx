@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const ClaudeLogoBlack: FC<SvgIconProps> = (props) => {
   return (
@@ -27,6 +28,6 @@ const ClaudeLogoBlack: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default ClaudeLogoBlack;
+  )
+}
+export default ClaudeLogoBlack

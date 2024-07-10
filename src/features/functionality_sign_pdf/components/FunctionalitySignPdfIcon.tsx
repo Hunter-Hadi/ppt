@@ -1,29 +1,29 @@
-import AbcIcon from '@mui/icons-material/Abc';
-import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
-import CheckIcon from '@mui/icons-material/Check';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined';
-import DragIndicatorIcon from '@mui/icons-material/DragIndicator';
-import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
-import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
-import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import OpacityRoundedIcon from '@mui/icons-material/OpacityRounded';
-import RedoOutlinedIcon from '@mui/icons-material/RedoOutlined';
-import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined';
-import TextFieldsIcon from '@mui/icons-material/TextFields';
-import TitleIcon from '@mui/icons-material/Title';
-import UndoOutlinedIcon from '@mui/icons-material/UndoOutlined';
-import ZoomInMapOutlinedIcon from '@mui/icons-material/ZoomInMapOutlined';
-import ZoomOutMapOutlinedIcon from '@mui/icons-material/ZoomOutMapOutlined';
-import { Box, SvgIconProps } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC } from 'react';
+import AbcIcon from '@mui/icons-material/Abc'
+import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined'
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos'
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown'
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined'
+import CheckIcon from '@mui/icons-material/Check'
+import CheckCircleIcon from '@mui/icons-material/CheckCircle'
+import ContentCopyIcon from '@mui/icons-material/ContentCopy'
+import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined'
+import DragIndicatorIcon from '@mui/icons-material/DragIndicator'
+import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter'
+import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft'
+import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
+import OpacityRoundedIcon from '@mui/icons-material/OpacityRounded'
+import RedoOutlinedIcon from '@mui/icons-material/RedoOutlined'
+import RemoveCircleOutlineOutlinedIcon from '@mui/icons-material/RemoveCircleOutlineOutlined'
+import TextFieldsIcon from '@mui/icons-material/TextFields'
+import TitleIcon from '@mui/icons-material/Title'
+import UndoOutlinedIcon from '@mui/icons-material/UndoOutlined'
+import ZoomInMapOutlinedIcon from '@mui/icons-material/ZoomInMapOutlined'
+import ZoomOutMapOutlinedIcon from '@mui/icons-material/ZoomOutMapOutlined'
+import { Box, SvgIconProps } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 /**
  * Functionality公共图标
  * @param name 图标名称
@@ -32,85 +32,78 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
   name,
   ...restProps
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const renderIcon = () => {
     switch (name) {
       case 'DragIndicator': {
-        return <DragIndicatorIcon {...restProps} />;
+        return <DragIndicatorIcon {...restProps} />
       }
       case 'ArrowDropDown': {
-        return <ArrowDropDownIcon {...restProps} />;
+        return <ArrowDropDownIcon {...restProps} />
       }
       case 'UndoOutlined': {
-        return <UndoOutlinedIcon {...restProps} />;
+        return <UndoOutlinedIcon {...restProps} />
       }
       case 'RedoOutlined': {
-        return <RedoOutlinedIcon {...restProps} />;
+        return <RedoOutlinedIcon {...restProps} />
       }
       case 'KeyboardArrowDown': {
-        return <KeyboardArrowDownIcon {...restProps} />;
+        return <KeyboardArrowDownIcon {...restProps} />
       }
       case 'DeleteForeverOutlined': {
-        return <DeleteForeverOutlinedIcon {...restProps} />;
+        return <DeleteForeverOutlinedIcon {...restProps} />
       }
       case 'Abc': {
-        return <AbcIcon {...restProps} />;
+        return <AbcIcon {...restProps} />
       }
       case 'TextFields': {
-        return <TextFieldsIcon {...restProps} />;
+        return <TextFieldsIcon {...restProps} />
       }
       case 'ContentCopy': {
-        return <ContentCopyIcon {...restProps} />;
+        return <ContentCopyIcon {...restProps} />
       }
       case 'Title': {
-        return <TitleIcon {...restProps} />;
+        return <TitleIcon {...restProps} />
       }
       case 'CalendarMonthOutlined': {
-        return <CalendarMonthOutlinedIcon {...restProps} />;
+        return <CalendarMonthOutlinedIcon {...restProps} />
       }
       case 'Check': {
-        return <CheckIcon {...restProps} />;
+        return <CheckIcon {...restProps} />
       }
       case 'ArrowBackIos': {
-        return <ArrowBackIosIcon {...restProps} />;
+        return <ArrowBackIosIcon {...restProps} />
       }
       case 'ArrowForwardIos': {
-        return <ArrowForwardIosIcon {...restProps} />;
+        return <ArrowForwardIosIcon {...restProps} />
       }
       case 'ZoomInMapOutlined': {
-        return <ZoomInMapOutlinedIcon {...restProps} />;
+        return <ZoomInMapOutlinedIcon {...restProps} />
       }
       case 'ZoomOutMapOutlined': {
-        return <ZoomOutMapOutlinedIcon {...restProps} />;
-      }
-
-      case 'ZoomInMapOutlined': {
-        return <ZoomInMapOutlinedIcon {...restProps} />;
-      }
-      case 'ZoomOutMapOutlined': {
-        return <ZoomOutMapOutlinedIcon {...restProps} />;
+        return <ZoomOutMapOutlinedIcon {...restProps} />
       }
       case 'AddCircleOutlineOutlined': {
-        return <AddCircleOutlineOutlinedIcon {...restProps} />;
+        return <AddCircleOutlineOutlinedIcon {...restProps} />
       }
       case 'RemoveCircleOutlineOutlined': {
-        return <RemoveCircleOutlineOutlinedIcon {...restProps} />;
+        return <RemoveCircleOutlineOutlinedIcon {...restProps} />
       }
       case 'FormatAlignLeft': {
-        return <FormatAlignLeftIcon {...restProps} />;
+        return <FormatAlignLeftIcon {...restProps} />
       }
       case 'FormatAlignCenter': {
-        return <FormatAlignCenterIcon {...restProps} />;
+        return <FormatAlignCenterIcon {...restProps} />
       }
       case 'FormatAlignRight': {
-        return <FormatAlignRightIcon {...restProps} />;
+        return <FormatAlignRightIcon {...restProps} />
       }
       case 'OpacityRounded': {
-        return <OpacityRoundedIcon {...restProps} />;
+        return <OpacityRoundedIcon {...restProps} />
       }
       case 'CheckCircle': {
-        return <CheckCircleIcon {...restProps} />;
+        return <CheckCircleIcon {...restProps} />
       }
       case 'SignArrowIndicate': {
         return (
@@ -160,14 +153,14 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
               {t('functionality__sign_pdf:components__sign_pdf__icon__sign')}
             </Box>
           </Box>
-        );
+        )
       }
       default: {
-        return null;
+        return null
       }
     }
-  };
+  }
 
-  return renderIcon();
-};
-export default FunctionalitySignPdfIcon;
+  return renderIcon()
+}
+export default FunctionalitySignPdfIcon

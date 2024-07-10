@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const Facebook: FC<SvgIconProps> = (props) => {
   return (
@@ -31,6 +32,6 @@ const Facebook: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default Facebook;
+  )
+}
+export default Facebook

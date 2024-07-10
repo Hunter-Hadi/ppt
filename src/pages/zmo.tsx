@@ -1,21 +1,15 @@
-import { Card, CardContent, Stack, Typography } from '@mui/material';
-import dayjs from 'dayjs';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import React, {
-  FC,
-  useCallback,
-  useLayoutEffect,
-  useMemo,
-  useRef,
-} from 'react';
+import { Card, CardContent, Stack, Typography } from '@mui/material'
+import dayjs from 'dayjs'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useCallback, useLayoutEffect, useMemo, useRef } from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ProLink from '@/components/ProLink';
-import { makeStaticProps } from '@/i18n/utils/staticHelper';
-import { APP_API } from '@/utils/api';
-import { webappPost } from '@/utils/request';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import ProLink from '@/components/ProLink'
+import { makeStaticProps } from '@/i18n/utils/staticHelper'
+import { APP_API } from '@/utils/api'
+import { webappPost } from '@/utils/request'
 //
 // async function fetchWithTimeout(url: string) {
 //   const timeout = 1000;
@@ -30,25 +24,25 @@ import { webappPost } from '@/utils/request';
 // }
 
 const ZmoInstallPage: FC = () => {
-  const ZMO_URL = 'https://imgcreator.zmo.ai/';
-  const { t } = useTranslation();
-  const router = useRouter();
-  const { query, isReady } = router;
-  const loading = useRef(false);
+  const ZMO_URL = 'https://imgcreator.zmo.ai/'
+  const { t } = useTranslation()
+  const router = useRouter()
+  const { query, isReady } = router
+  const loading = useRef(false)
 
   const ref = useMemo(() => {
-    return `${query?.ref || 'default'}`;
-  }, [query]);
+    return `${query?.ref || 'default'}`
+  }, [query])
 
   const routerPath = useMemo(
     () => `${ZMO_URL}?ref=${ref}&utm_campaign=${ref}`,
     [ref],
-  );
+  )
 
   const sendMessage = useCallback(async () => {
-    if (loading.current) return;
-    const date = dayjs().format('YYYY-MM-DD HH:mm:ss');
-    loading.current = true;
+    if (loading.current) return
+    const date = dayjs().format('YYYY-MM-DD HH:mm:ss')
+    loading.current = true
     // let ip = '';
     // let country = '';
     // let resultJson: any = {};
@@ -58,23 +52,25 @@ const ZmoInstallPage: FC = () => {
       // ip = resultJson.ip;
       // country = resultJson.country_capital;
       // debugger;
-    } catch (e) {}
-    const prefixRef = `[tozmo]-${ref}`;
+    } catch (e) {
+      console.log('fetch ip error: \t', e)
+    }
+    const prefixRef = `[tozmo]-${ref}`
     webappPost(APP_API.REF_COUNT, {
       data: {
         ref: prefixRef,
         date,
       },
-    });
+    })
     setTimeout(() => {
-      location.href = routerPath;
-    }, 500);
-  }, [ref, routerPath]);
+      location.href = routerPath
+    }, 500)
+  }, [ref, routerPath])
 
   useLayoutEffect(() => {
-    if (!isReady) return;
-    sendMessage();
-  }, [isReady, sendMessage]);
+    if (!isReady) return
+    sendMessage()
+  }, [isReady, sendMessage])
 
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
@@ -127,10 +123,10 @@ const ZmoInstallPage: FC = () => {
         </CardContent>
       </Card>
     </AppContainer>
-  );
-};
+  )
+}
 
-export default ZmoInstallPage;
+export default ZmoInstallPage
 
-const getStaticProps = makeStaticProps();
-export { getStaticProps };
+const getStaticProps = makeStaticProps()
+export { getStaticProps }

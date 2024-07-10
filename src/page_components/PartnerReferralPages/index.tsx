@@ -1,15 +1,15 @@
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import { useRouter } from 'next/router'
+import React, { useEffect } from 'react'
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 
 const PartnerReferralPages = () => {
-  const router = useRouter();
+  const router = useRouter()
   useEffect(() => {
     router.replace({
       pathname: '/',
-    });
-  }, []);
+    })
+  }, [router])
 
   return (
     <AppLoadingLayout
@@ -18,6 +18,6 @@ const PartnerReferralPages = () => {
         height: '50vh',
       }}
     />
-  );
-};
-export default PartnerReferralPages;
+  )
+}
+export default PartnerReferralPages

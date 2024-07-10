@@ -1,10 +1,8 @@
-import { Box, Container, Stack, Typography } from '@mui/material'
-import { useRouter } from 'next/router'
+import { Box, Container } from '@mui/material'
 import { useTranslation } from 'next-i18next'
-import React, { useEffect, useMemo } from 'react'
+import React from 'react'
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
-import ProLink from '@/components/ProLink'
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension'
 import HomePageContent from '@/features/landing/components/HomePageContent'
 import usePartnersInfo from '@/features/partners/hooks/usePartnersInfo'

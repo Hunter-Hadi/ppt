@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const Instagram: FC<SvgIconProps> = (props) => {
   return (
@@ -46,6 +47,6 @@ const Instagram: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default Instagram;
+  )
+}
+export default Instagram

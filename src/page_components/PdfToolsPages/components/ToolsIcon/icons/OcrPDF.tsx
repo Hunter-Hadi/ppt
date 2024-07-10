@@ -1,11 +1,12 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
 const OcrPDF: FC<SvgIconProps> = (props) => {
   return (
     <SvgIcon {...props}>
       <svg viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'>
-        <g clip-path='url(#clip0_11516_92093)'>
+        <g clipPath='url(#clip0_11516_92093)'>
           <path
             d='M7.68 0H40.32C42.96 0 43.968 0.288 44.928 0.816C45.888 1.344 46.656 2.112 47.184 3.072C47.712 4.032 48 5.04 48 7.68V40.32C48 42.96 47.712 43.968 47.184 44.928C46.656 45.888 45.888 46.656 44.928 47.184C43.968 47.712 42.96 48 40.32 48H7.68C5.04 48 4.032 47.712 3.072 47.184C2.112 46.656 1.344 45.888 0.816 44.928C0.288 43.968 0 42.96 0 40.32V7.68C0 5.04 0.288 4.032 0.816 3.072C1.344 2.112 2.112 1.344 3.072 0.816C4.032 0.288 5.04 0 7.68 0Z'
             fill='#D92D20'
@@ -30,7 +31,7 @@ const OcrPDF: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
-export default OcrPDF;
+export default OcrPDF

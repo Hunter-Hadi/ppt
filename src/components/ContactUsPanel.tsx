@@ -1,17 +1,15 @@
-import TwitterIcon from '@mui/icons-material/Twitter';
-import { Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
+import TwitterIcon from '@mui/icons-material/Twitter'
+import { Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 
-import {
-  APP_EXTERNAL_LINKS,
-  SIMPLY_TRENDS_APP_EMAIL,
-} from '@/global_constants';
+import { APP_EXTERNAL_LINKS, SIMPLY_TRENDS_APP_EMAIL } from '@/global_constants'
 
-import CopyTypography from './CopyTypography';
-import ProLink from './ProLink';
+import CopyTypography from './CopyTypography'
+import ProLink from './ProLink'
 
 const TwitterFollowButton = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <ProLink
       href={APP_EXTERNAL_LINKS.TWITTER_FOLLOW_UP_LINK}
@@ -33,11 +31,11 @@ const TwitterFollowButton = () => {
       <TwitterIcon sx={{ fontSize: 18 }} />
       {t('common:follow')} @MaxAI_HQ
     </ProLink>
-  );
-};
+  )
+}
 
 const ContactUsPanel = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <Stack bgcolor='#E2E8F0' spacing={2} p={2} borderRadius={1}>
       <Typography variant='body2' component={'div'}>
@@ -107,7 +105,7 @@ const ContactUsPanel = () => {
         </Typography>
       </Stack> */}
     </Stack>
-  );
-};
+  )
+}
 
-export default ContactUsPanel;
+export default ContactUsPanel

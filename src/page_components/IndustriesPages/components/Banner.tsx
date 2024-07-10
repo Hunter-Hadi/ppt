@@ -1,13 +1,14 @@
-import { Box, buttonClasses, Typography } from '@mui/material';
-import { FC } from 'react';
+import { Box, buttonClasses, Typography } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
-import CTAInstallButton from '@/page_components/CTAInstallButton';
+import CTAInstallButton from '@/page_components/CTAInstallButton'
 
 interface IBannerProps {
-  title: string;
-  description: string;
-  iconPath: string;
-  buttonText: string;
+  title: string
+  description: string
+  iconPath: string
+  buttonText: string
 }
 
 const Banner: FC<IBannerProps> = ({
@@ -113,7 +114,7 @@ const Banner: FC<IBannerProps> = ({
         />
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner

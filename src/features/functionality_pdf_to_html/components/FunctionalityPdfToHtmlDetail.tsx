@@ -1,41 +1,42 @@
-import { Box, CircularProgress, Stack } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { pdfjs } from 'react-pdf';
+import { Box, CircularProgress, Stack } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { pdfjs } from 'react-pdf'
 
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
-} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
-import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
-import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
-import { convertPdfToHTMLDivElement } from '@/features/functionality_pdf_to_html/utils/convertPdfToHTML';
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView'
+import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton'
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
+import { convertPdfToHTMLDivElement } from '@/features/functionality_pdf_to_html/utils/convertPdfToHTML'
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
-).toString();
+).toString()
 
 interface IFunctionalityPdfToHtmlDetail {
-  file: File;
-  onRemoveFile: () => void;
+  file: File
+  onRemoveFile: () => void
 }
 
 const FunctionalityPdfToHtmlDetail: FC<IFunctionalityPdfToHtmlDetail> = ({
   file,
   onRemoveFile,
 }) => {
-  const { t } = useTranslation();
-  const isReadFile = useRef(false);
-  const [fileName, setFileName] = useState<string>('');
-  const [htmlString, setHtmlString] = useState<string | null>(null); //生成的HTML 字符串数据，等用户点下载
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [pdfTotalPages, setPdfTotalPages] = useState<number>(0); //总页数
-  const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0); //当前加载页数
+  const { t } = useTranslation()
+  const isReadFile = useRef(false)
+  const [fileName, setFileName] = useState<string>('')
+  const [htmlString, setHtmlString] = useState<string | null>(null) //生成的HTML 字符串数据，等用户点下载
+  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [pdfTotalPages, setPdfTotalPages] = useState<number>(0) //总页数
+  const [currentPdfActionNum, setCurrentPdfActionNum] = useState<number>(0) //当前加载页数
   const onUploadFile = async (fileList: FileList) => {
-    setIsLoading(true);
+    setIsLoading(true)
     if (fileList[0]) {
       //去除文件名后缀
       const fileName = functionalityCommonFileNameRemoveAndAddExtension(
@@ -43,48 +44,44 @@ const FunctionalityPdfToHtmlDetail: FC<IFunctionalityPdfToHtmlDetail> = ({
         'pdf',
         '',
         '',
-      );
-      setFileName(fileName);
+      )
+      setFileName(fileName)
 
       const htmlString = await convertPdfToHTMLDivElement(
         fileList[0],
         (allPage: number, currentNum: number) => {
-          setPdfTotalPages(allPage);
-          setCurrentPdfActionNum(currentNum);
+          setPdfTotalPages(allPage)
+          setCurrentPdfActionNum(currentNum)
         },
-      );
+      )
       if (htmlString) {
-        setHtmlString(htmlString);
+        setHtmlString(htmlString)
       } else {
         functionalityCommonSnackNotifications(
           `${file.name} ${t(
             'functionality__common:components__common__pdf_encryption_tip',
           )}`,
-        );
+        )
       }
-      setPdfTotalPages(0);
-      setCurrentPdfActionNum(0);
+      setPdfTotalPages(0)
+      setCurrentPdfActionNum(0)
     }
-    setIsLoading(false);
-  };
+    setIsLoading(false)
+  }
   useEffect(() => {
     if (file) {
       if (isReadFile.current) {
-        return;
+        return
       }
-      isReadFile.current = true;
-      onUploadFile([file] as unknown as FileList);
+      isReadFile.current = true
+      onUploadFile([file] as unknown as FileList)
     }
-  }, [file]);
+  }, [file])
   const downloadHtml = useCallback(() => {
     if (htmlString) {
-      downloadUrl(
-        htmlString,
-        `${fileName}(Powered by MaxAI).html`,
-        'text/html',
-      );
+      downloadUrl(htmlString, `${fileName}(Powered by MaxAI).html`, 'text/html')
     }
-  }, [htmlString, fileName]);
+  }, [htmlString, fileName])
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -109,14 +106,14 @@ const FunctionalityPdfToHtmlDetail: FC<IFunctionalityPdfToHtmlDetail> = ({
           disabled: isLoading,
           color: 'error',
           onClick: () => {
-            setHtmlString(null);
-            onRemoveFile();
+            setHtmlString(null)
+            onRemoveFile()
           },
         },
       },
     ],
     [isLoading, downloadHtml, t],
-  );
+  )
   const BoxViewWrap = useCallback(
     (props) => (
       <Box
@@ -131,7 +128,7 @@ const FunctionalityPdfToHtmlDetail: FC<IFunctionalityPdfToHtmlDetail> = ({
       </Box>
     ),
     [],
-  );
+  )
   return (
     <Stack
       flexDirection='column'
@@ -177,6 +174,6 @@ const FunctionalityPdfToHtmlDetail: FC<IFunctionalityPdfToHtmlDetail> = ({
         </BoxViewWrap>
       )}
     </Stack>
-  );
-};
-export default FunctionalityPdfToHtmlDetail;
+  )
+}
+export default FunctionalityPdfToHtmlDetail

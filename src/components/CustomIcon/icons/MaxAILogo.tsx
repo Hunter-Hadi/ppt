@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
 const MaxAILogo: FC<SvgIconProps> = (props) => {
   return (
@@ -26,6 +27,6 @@ const MaxAILogo: FC<SvgIconProps> = (props) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
-export default MaxAILogo;
+  )
+}
+export default MaxAILogo

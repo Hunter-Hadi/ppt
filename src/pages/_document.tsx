@@ -1,18 +1,17 @@
-/* eslint-disable @next/next/next-script-for-ga */
-import { Head, Html, Main, NextScript } from 'next/document';
+import { Head, Html, Main, NextScript } from 'next/document'
+import React from 'react'
 
-export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID;
-export const GA_TRACKING_ID_MCC = process.env.NEXT_PUBLIC_GA_ID_MCC;
-const CALRITY_ID = process.env.NEXT_PUBLIC_CALRITY_ID;
-import i18nextConfig from '../../next-i18next.config';
+export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID
+export const GA_TRACKING_ID_MCC = process.env.NEXT_PUBLIC_GA_ID_MCC
+const CALRITY_ID = process.env.NEXT_PUBLIC_CALRITY_ID
+import i18nextConfig from '../../next-i18next.config'
 
 export default function Document(props: any) {
   const currentLocale =
-    props.__NEXT_DATA__.query.locale || i18nextConfig.i18n.defaultLocale;
+    props.__NEXT_DATA__.query.locale || i18nextConfig.i18n.defaultLocale
 
   return (
     <Html lang={currentLocale}>
-      {/* @ts-ignore */}
       <Head>
         {/* clarity start */}
         <script
@@ -67,9 +66,8 @@ export default function Document(props: any) {
       </Head>
       <body>
         <Main />
-        {/* @ts-ignore */}
         <NextScript />
       </body>
     </Html>
-  );
+  )
 }

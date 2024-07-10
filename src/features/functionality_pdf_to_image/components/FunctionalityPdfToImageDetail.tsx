@@ -5,39 +5,40 @@ import {
   Grid,
   Stack,
   Typography,
-} from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC, useEffect, useMemo, useRef, useState } from 'react';
+} from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC, useEffect, useMemo, useRef, useState } from 'react'
 
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
-} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
-import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
-import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
-import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView'
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip'
+import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale'
+import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector'
 import useFunctionalityCommonPdfToImageConversion, {
   defaultPdfToImageScale,
   IFunctionalityPdfToImageType,
-} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
-import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList';
-import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader';
+} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion'
+import FunctionalityImageList from '@/features/functionality_pdf_to_image/components/FunctionalityImageList'
+import usePdfImagesDownloader from '@/features/functionality_pdf_to_image/hooks/usePdfImagesDownloader'
 
 interface IFunctionalityPdfToImageDetailProps {
-  file: File;
-  toType: 'jpeg' | 'png';
-  onRemoveFile?: () => void;
+  file: File
+  toType: 'jpeg' | 'png'
+  onRemoveFile?: () => void
 }
 const FunctionalityPdfToImageDetail: FC<
   IFunctionalityPdfToImageDetailProps
 > = ({ file, onRemoveFile, toType }) => {
-  const { t } = useTranslation();
-  const isReadFile = useRef(false);
+  const { t } = useTranslation()
+  const isReadFile = useRef(false)
   const [showPdfImagesType, setShowPdfImagesType] = useState<
     'pdfPageImages' | 'pdfPageHaveImages'
-  >('pdfPageImages'); //显示pdf页面还是页面的图片
+  >('pdfPageImages') //显示pdf页面还是页面的图片
   const [selectDownloadSizeIndex, setSelectDownloadSizeIndex] =
-    useState<number>(0); //用户选择的下载尺寸大小
+    useState<number>(0) //用户选择的下载尺寸大小
 
   const {
     convertedPdfImages,
@@ -50,18 +51,18 @@ const FunctionalityPdfToImageDetail: FC<
     currentPdfActionNum,
     onCancelPdfActive,
     pdfViewDefaultSize,
-  } = useFunctionalityCommonPdfToImageConversion();
+  } = useFunctionalityCommonPdfToImageConversion()
   const {
     downloaderIsLoading,
     downloaderTotalPages,
     currentDownloaderActionNum,
     onCancelDownloader,
     onDownloadPdfImagesZip,
-  } = usePdfImagesDownloader();
+  } = usePdfImagesDownloader()
   const currentShowImages =
     showPdfImagesType === 'pdfPageImages'
       ? convertedPdfImages
-      : pdfPageHaveImages;
+      : pdfPageHaveImages
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
     useFunctionalityCommonConvertedContentSelector<IFunctionalityPdfToImageType>(
       {
@@ -71,27 +72,27 @@ const FunctionalityPdfToImageDetail: FC<
             ? setConvertedPdfImages
             : setPdfPageHaveImages,
       },
-    );
-  const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
+    )
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale()
   const readPdfToImages = async (fileData) => {
     if (isReadFile.current) {
-      return;
+      return
     }
-    isReadFile.current = true;
+    isReadFile.current = true
     if (fileData) {
-      console.log('simply readPdfToImages');
-      const isReadSuccess = await onReadPdfToImages(fileData, toType, true);
+      console.log('simply readPdfToImages')
+      const isReadSuccess = await onReadPdfToImages(fileData, toType, true)
       if (!isReadSuccess) {
-        onRemoveFile && onRemoveFile();
+        onRemoveFile && onRemoveFile()
       }
     }
-  };
+  }
   useEffect(() => {
     if (file) {
-      readPdfToImages(file);
+      readPdfToImages(file)
     }
-  }, [file]);
-  const maxSizeScaleNum = 4;
+  }, [file])
+  const maxSizeScaleNum = 4
   const imageSizeList = useMemo(() => {
     // 图片储存列表设置
     return [
@@ -100,14 +101,14 @@ const FunctionalityPdfToImageDetail: FC<
         width: pdfViewDefaultSize.width * maxSizeScaleNum,
         height: pdfViewDefaultSize.height * maxSizeScaleNum,
       },
-    ];
-  }, [pdfViewDefaultSize]);
+    ]
+  }, [pdfViewDefaultSize])
 
   const onSwitchPdfImagesType = () => {
     setShowPdfImagesType((prev) =>
       prev === 'pdfPageImages' ? 'pdfPageHaveImages' : 'pdfPageImages',
-    );
-  };
+    )
+  }
 
   const downloadZip = () => {
     if (file) {
@@ -120,24 +121,22 @@ const FunctionalityPdfToImageDetail: FC<
           selectDownloadSizeIndex === 0
             ? undefined
             : defaultPdfToImageScale * maxSizeScaleNum,
-        );
+        )
       } else {
-        onDownloadPdfImagesZip(currentShowImages, toType, file);
+        onDownloadPdfImagesZip(currentShowImages, toType, file)
       }
     }
-  };
+  }
   const onCancel = () => {
-    onCancelPdfActive && onCancelPdfActive();
-    onCancelDownloader();
-  };
-  const currentIsLoading = pdfIsLoading || downloaderIsLoading;
-  const totalPages = !downloaderIsLoading
-    ? pdfTotalPages
-    : downloaderTotalPages;
+    onCancelPdfActive && onCancelPdfActive()
+    onCancelDownloader()
+  }
+  const currentIsLoading = pdfIsLoading || downloaderIsLoading
+  const totalPages = !downloaderIsLoading ? pdfTotalPages : downloaderTotalPages
 
   const currentActionNum = !downloaderIsLoading
     ? currentPdfActionNum
-    : currentDownloaderActionNum;
+    : currentDownloaderActionNum
 
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
@@ -246,11 +245,11 @@ const FunctionalityPdfToImageDetail: FC<
       t,
       onRemoveFile,
     ],
-  );
+  )
   const selectImageList = useMemo(
     () => currentShowImages.filter((item) => item.isSelect),
     [currentShowImages],
-  );
+  )
   return (
     <Box sx={{ width: '100%' }}>
       <FunctionalityCommonButtonListView buttonConfigs={buttonConfigs} />
@@ -407,7 +406,7 @@ const FunctionalityPdfToImageDetail: FC<
         </Grid>
       )}
     </Box>
-  );
-};
+  )
+}
 
-export default FunctionalityPdfToImageDetail;
+export default FunctionalityPdfToImageDetail

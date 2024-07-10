@@ -1,22 +1,22 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react'
 
-type IBrowserAgentType = 'Chrome' | 'Edge' | 'Firefox';
+type IBrowserAgentType = 'Chrome' | 'Edge' | 'Firefox'
 
 const useBrowserAgent = () => {
-  const [browserAgent, setBrowserAgent] = useState<IBrowserAgentType>('Chrome');
+  const [browserAgent, setBrowserAgent] = useState<IBrowserAgentType>('Chrome')
 
   useEffect(() => {
     try {
-      if (typeof window === 'undefined') return;
+      if (typeof window === 'undefined') return
 
       // edge
       const isEdge =
         window.navigator.userAgent.indexOf('Edge') > -1 ||
-        window.navigator.userAgent.indexOf('Edg') !== -1;
+        window.navigator.userAgent.indexOf('Edg') !== -1
 
       if (isEdge) {
-        setBrowserAgent('Edge');
-        return;
+        setBrowserAgent('Edge')
+        return
       }
 
       // firefox
@@ -27,13 +27,15 @@ const useBrowserAgent = () => {
       // }
 
       // default Chrome
-      setBrowserAgent('Chrome');
-    } catch (error) {}
-  }, []);
+      setBrowserAgent('Chrome')
+    } catch (error) {
+      console.error('useBrowserAgent error:', error)
+    }
+  }, [])
 
   return {
     browserAgent,
-  };
-};
+  }
+}
 
-export default useBrowserAgent;
+export default useBrowserAgent

@@ -1,21 +1,22 @@
-import { buttonClasses } from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
-import { useTranslation } from 'next-i18next';
-import { FC, useMemo } from 'react';
+import { buttonClasses } from '@mui/material/Button'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import { useTranslation } from 'next-i18next'
+import { FC, useMemo } from 'react'
+import React from 'react'
 
-import MenuLinkItem from '@/app_layout/AppHeader/AppHeaderMenuItem/components/MenuLinkItem';
-import { MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL } from '@/features/common/constants';
-import CTAInstallButton from '@/page_components/CTAInstallButton';
+import MenuLinkItem from '@/app_layout/AppHeader/AppHeaderMenuItem/components/MenuLinkItem'
+import { MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL } from '@/features/common/constants'
+import CTAInstallButton from '@/page_components/CTAInstallButton'
 
 interface IProps {
-  isSmallScreen?: boolean;
+  isSmallScreen?: boolean
 }
 
 const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
   // const { hasExtension, loaded } = useCheckExtension();
   // const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const cacheSx = useMemo(() => {
     return {
@@ -33,16 +34,16 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
           sm: 'inherit',
         },
       },
-    };
-  }, []);
+    }
+  }, [])
 
   const showSignInButton = useMemo(() => {
-    return !isSmallScreen;
+    return !isSmallScreen
     if (!isSmallScreen) {
-      return true;
+      return true
     }
-    return false;
-  }, [isSmallScreen]);
+    return false
+  }, [isSmallScreen])
 
   return (
     <Stack direction={'row'} spacing={1.5} alignItems='center'>
@@ -96,7 +97,7 @@ const AppHeaderCTABtn: FC<IProps> = ({ isSmallScreen }) => {
         adaptiveLabel
       />
     </Stack>
-  );
-};
+  )
+}
 
-export default AppHeaderCTABtn;
+export default AppHeaderCTABtn

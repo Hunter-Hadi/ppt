@@ -1,17 +1,18 @@
-import { useTranslation } from 'next-i18next';
-import { useMemo } from 'react';
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { useMemo } from 'react'
 
-import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner';
-import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards';
-import { toolsObjectData } from '@/page_components/PdfToolsPages/constant';
+import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner'
+import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards'
+import { toolsObjectData } from '@/page_components/PdfToolsPages/constant'
 
 const ToolsHome = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const toolList = useMemo(
     () => Object.keys(toolsObjectData).map((key) => toolsObjectData[key]),
     [],
-  );
+  )
   return (
     <>
       <ToolsBanner
@@ -20,6 +21,6 @@ const ToolsHome = () => {
       />
       <ToolsCards list={toolList} />
     </>
-  );
-};
-export default ToolsHome;
+  )
+}
+export default ToolsHome

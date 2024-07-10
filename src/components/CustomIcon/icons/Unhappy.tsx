@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const Unhappy: FC<SvgIconProps> = (props) => {
   return (
@@ -29,6 +30,6 @@ const Unhappy: FC<SvgIconProps> = (props) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
-export default Unhappy;
+  )
+}
+export default Unhappy

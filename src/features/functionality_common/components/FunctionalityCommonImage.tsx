@@ -1,16 +1,17 @@
-import { Box, Stack, SxProps, Typography } from '@mui/material';
-import { CSSProperties, FC } from 'react';
+import { Box, Stack, SxProps, Typography } from '@mui/material'
+import { CSSProperties, FC } from 'react'
+import React from 'react'
 
-import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType';
+import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType'
 
 interface IFunctionalitySortableImageProps {
-  name?: string;
-  imageInfo: IFunctionalityCommonImageInfo;
-  children?: React.ReactNode;
-  onClick?: () => void;
-  wrapSx?: SxProps;
-  sx?: SxProps;
-  imgStyle?: CSSProperties;
+  name?: string
+  imageInfo: IFunctionalityCommonImageInfo
+  children?: React.ReactNode
+  onClick?: () => void
+  wrapSx?: SxProps
+  sx?: SxProps
+  imgStyle?: CSSProperties
 }
 /**
  * Functionality公共的图片视图
@@ -83,6 +84,6 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
       </Stack>
       {children}
     </Box>
-  );
-};
-export default FunctionalityCommonImage;
+  )
+}
+export default FunctionalityCommonImage

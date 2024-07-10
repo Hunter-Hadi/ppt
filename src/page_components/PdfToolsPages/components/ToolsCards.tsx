@@ -1,17 +1,18 @@
-import { Card, CardContent, Grid, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC } from 'react';
+import { Card, CardContent, Grid, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC } from 'react'
 
-import ProLink from '@/components/ProLink';
-import ToolsIcon from '@/page_components/PdfToolsPages/components/ToolsIcon';
-import { IToolData } from '@/page_components/PdfToolsPages/constant';
+import ProLink from '@/components/ProLink'
+import ToolsIcon from '@/page_components/PdfToolsPages/components/ToolsIcon'
+import { IToolData } from '@/page_components/PdfToolsPages/constant'
 
 interface IToolsCardsProps {
-  list: IToolData[];
+  list: IToolData[]
 }
 
 const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Grid
@@ -86,10 +87,10 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
               </Card>
             </ProLink>
           </Grid>
-        );
+        )
       })}
     </Grid>
-  );
-};
+  )
+}
 
-export default ToolsCards;
+export default ToolsCards

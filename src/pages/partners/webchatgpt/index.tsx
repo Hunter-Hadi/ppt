@@ -1,18 +1,19 @@
-import GradeRoundedIcon from '@mui/icons-material/GradeRounded';
-import { Grid, Stack, Typography } from '@mui/material';
+import GradeRoundedIcon from '@mui/icons-material/GradeRounded'
+import { Grid, Stack, Typography } from '@mui/material'
+import React from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import CustomIcon, { ICustomIconType } from '@/components/CustomIcon';
-import ProLink from '@/components/ProLink';
-import ResponsiveImage from '@/components/ResponsiveImage';
-import YoutubePlayerBox from '@/components/YoutubePlayerBox';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import CustomIcon, { ICustomIconType } from '@/components/CustomIcon'
+import ProLink from '@/components/ProLink'
+import ResponsiveImage from '@/components/ResponsiveImage'
+import YoutubePlayerBox from '@/components/YoutubePlayerBox'
 import {
   WEBCHATGPT_EXTENSION,
   WEBCHATGPT_SEO_CONFIG,
-} from '@/features/webchatgpt/constant';
-import WebChatGPTHeader from '@/features/webchatgpt/layout/WebChatGPTHeader';
-import { WWW_PROJECT_LINK } from '@/global_constants';
+} from '@/features/webchatgpt/constant'
+import WebChatGPTHeader from '@/features/webchatgpt/layout/WebChatGPTHeader'
+import { WWW_PROJECT_LINK } from '@/global_constants'
 
 const INSTALL_LINKS = [
   {
@@ -33,11 +34,11 @@ const INSTALL_LINKS = [
     icon: 'FirefoxColor',
     text: 'Get it on Firefox',
   },
-];
+]
 
 const WebChatGPTHomePage = (props) => {
-  const { seo } = props;
-  console.log(`props`, props);
+  const { seo } = props
+  console.log(`props`, props)
   return (
     <Stack minHeight={'100%'} flex={1}>
       <AppDefaultSeoLayout {...seo} />
@@ -333,11 +334,11 @@ const WebChatGPTHomePage = (props) => {
         </Stack>
       </AppContainer>
     </Stack>
-  );
-};
+  )
+}
 
 const SocialProof = () => {
-  const count = 5;
+  const count = 5
   return (
     <Stack
       direction={{
@@ -374,10 +375,10 @@ const SocialProof = () => {
         Loved by 1.5M+ users
       </Typography>
     </Stack>
-  );
-};
+  )
+}
 
-export default WebChatGPTHomePage;
+export default WebChatGPTHomePage
 
 export function getStaticProps() {
   return {
@@ -387,5 +388,5 @@ export function getStaticProps() {
         canonical: `${WWW_PROJECT_LINK}/partners/webchatgpt/`,
       },
     },
-  };
+  }
 }

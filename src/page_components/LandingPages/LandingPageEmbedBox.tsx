@@ -1,55 +1,56 @@
-import { Box, SxProps } from '@mui/material';
-import { FC, useCallback, useEffect, useRef, useState } from 'react';
+import { Box, SxProps } from '@mui/material'
+import React from 'react'
+import { FC, useCallback, useEffect, useRef, useState } from 'react'
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import { WWW_PROJECT_LINK } from '@/global_constants';
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import { WWW_PROJECT_LINK } from '@/global_constants'
 
 interface IProps {
-  sx?: SxProps;
-  linkRef?: string;
+  sx?: SxProps
+  linkRef?: string
 }
 
 // 静态声明 landing page 的高度
 // 要随着 https://www.maxai.me/embed/introduction 页面实际高度的修改 去更新
-const STATIC_LANDING_HEIGHT = 6100;
+const STATIC_LANDING_HEIGHT = 6100
 
 const LandingPageEmbedBox: FC<IProps> = ({ sx, linkRef }) => {
   // debugger
   // const landingPageUrl = `http://localhost:3001/embed/introduction`;
   const landingPageUrl = `${WWW_PROJECT_LINK}/embed/introduction${
     linkRef ? `?ref=${linkRef}` : ''
-  }`;
-  const iframeRef = useRef<HTMLIFrameElement | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [isMsgHeight, setIsMsgHeight] = useState(false);
-  const [height, setHeight] = useState('auto');
+  }`
+  const iframeRef = useRef<HTMLIFrameElement | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [isMsgHeight, setIsMsgHeight] = useState(false)
+  const [height, setHeight] = useState('auto')
 
   const handleIframeOnload = useCallback(async () => {
-    setLoading(false);
+    setLoading(false)
 
     if (!isMsgHeight) {
-      setHeight(`${STATIC_LANDING_HEIGHT}px`);
-      setIsMsgHeight(false);
+      setHeight(`${STATIC_LANDING_HEIGHT}px`)
+      setIsMsgHeight(false)
     }
-  }, [isMsgHeight]);
+  }, [isMsgHeight])
 
   useEffect(() => {
     const listener = (e: any) => {
       if (e.data.type !== 'embed') {
-        return;
+        return
       }
-      const messageHeight = e.data.height;
+      const messageHeight = e.data.height
       if (messageHeight && messageHeight > 0) {
-        setHeight(`${messageHeight}px`);
-        setIsMsgHeight(true);
+        setHeight(`${messageHeight}px`)
+        setIsMsgHeight(true)
       }
-    };
-    window.addEventListener('message', listener);
+    }
+    window.addEventListener('message', listener)
 
     return () => {
-      window.removeEventListener('message', listener);
-    };
-  }, []);
+      window.removeEventListener('message', listener)
+    }
+  }, [])
 
   return (
     <Box
@@ -78,7 +79,7 @@ const LandingPageEmbedBox: FC<IProps> = ({ sx, linkRef }) => {
         onLoad={handleIframeOnload}
       />
     </Box>
-  );
-};
+  )
+}
 
-export default LandingPageEmbedBox;
+export default LandingPageEmbedBox

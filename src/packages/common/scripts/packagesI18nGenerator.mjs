@@ -1,5 +1,5 @@
-import path from 'path';
 import fs from 'fs';
+import path from 'path';
 
 const packagesPath = 'src/packages';
 const i18nPath = 'src/i18n/locales/en/index.json';

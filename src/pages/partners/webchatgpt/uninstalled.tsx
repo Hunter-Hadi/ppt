@@ -1,67 +1,64 @@
-import { Box, Stack } from '@mui/material';
-import Typography from '@mui/material/Typography';
-import dayjs from 'dayjs';
-import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
-import UAParser from 'ua-parser-js';
+import { Box, Stack } from '@mui/material'
+import Typography from '@mui/material/Typography'
+import dayjs from 'dayjs'
+import { useRouter } from 'next/router'
+import React, { useEffect, useState } from 'react'
+import UAParser from 'ua-parser-js'
 
-import HomePageContent from '@/features/landing/components/HomePageContent';
-import WebChatGPTSingleSurvey from '@/features/webchatgpt/components/Survey';
-import WebChatGPTSurveyExplain from '@/features/webchatgpt/components/Survey/SurveyExplain';
-import { UNINSTALL_SURVET_NAME } from '@/features/webchatgpt/constant';
-import WebChatGPTHeader from '@/features/webchatgpt/layout/WebChatGPTHeader';
-import { makeStaticProps } from '@/i18n/utils/staticHelper';
-import FixedCtaButton from '@/page_components/PartnersPages/components/FixedCtaButton';
-import TryExtensionButton from '@/page_components/PartnersPages/components/TryExtensionButton';
-import { USER_API } from '@/utils/api';
-import { post } from '@/utils/crx_request';
-import { sendLarkBotMessage } from '@/utils/larkBot';
-const { getBrowser } = new UAParser();
+import HomePageContent from '@/features/landing/components/HomePageContent'
+import WebChatGPTSingleSurvey from '@/features/webchatgpt/components/Survey'
+import WebChatGPTSurveyExplain from '@/features/webchatgpt/components/Survey/SurveyExplain'
+import { UNINSTALL_SURVET_NAME } from '@/features/webchatgpt/constant'
+import WebChatGPTHeader from '@/features/webchatgpt/layout/WebChatGPTHeader'
+import { makeStaticProps } from '@/i18n/utils/staticHelper'
+import FixedCtaButton from '@/page_components/PartnersPages/components/FixedCtaButton'
+import TryExtensionButton from '@/page_components/PartnersPages/components/TryExtensionButton'
+import { USER_API } from '@/utils/api'
+import { post } from '@/utils/crx_request'
+import { sendLarkBotMessage } from '@/utils/larkBot'
+const { getBrowser } = new UAParser()
 
 const WebChatGPTUninstalled = () => {
-  const propRef = 'webchatgpt_uninstall';
+  const propRef = 'webchatgpt_uninstall'
 
-  const router = useRouter();
-  const [domLoaded, setDomLoaded] = useState(false);
+  const router = useRouter()
+  const [domLoaded, setDomLoaded] = useState(false)
   useEffect(() => {
-    setDomLoaded(true);
-  }, []);
-  const openUrlLinkRef = React.useRef('');
-  const useInitUrlLinkRef = React.useRef(false);
+    setDomLoaded(true)
+  }, [])
+  const openUrlLinkRef = React.useRef('')
+  const useInitUrlLinkRef = React.useRef(false)
   useEffect(() => {
-    // TODO 不管query.from是什么，都打开
-    if ((router.query.from && router.query.from === 'crx') || true) {
-      if (useInitUrlLinkRef.current) {
-        return;
-      }
-      useInitUrlLinkRef.current = true;
-      openUrlLinkRef.current = 'https://api.maxai.me/app/zmo?ref=webchatgpt';
-      const openWindow = window.open(openUrlLinkRef.current, '_blank');
-      // NOTE: 因为现在用户有负面反馈，所以先不管用户是否打开了新窗口，都把点击跳转的逻辑删掉
-      if (openWindow || true) {
-        openUrlLinkRef.current = '';
-      }
-      router.replace({
-        pathname: router.pathname,
-        query: {},
-      });
+    if (useInitUrlLinkRef.current) {
+      return
     }
-  }, [router.query]);
+    useInitUrlLinkRef.current = true
+    openUrlLinkRef.current = 'https://api.maxai.me/app/zmo?ref=webchatgpt'
+    // NOTE: 因为现在用户有负面反馈，所以先不管用户是否打开了新窗口，都把点击跳转的逻辑删掉
+    // const openWindow = window.open(openUrlLinkRef.current, '_blank');
+    // if (openWindow || true) {
+    openUrlLinkRef.current = ''
+    // }
+    router.replace({
+      pathname: router.pathname,
+      query: {},
+    })
+  }, [router.query])
   useEffect(() => {
     const keyboardOrMouseEventListener = () => {
       if (openUrlLinkRef.current) {
-        window.open(openUrlLinkRef.current, '_blank');
-        openUrlLinkRef.current = '';
-        return;
+        window.open(openUrlLinkRef.current, '_blank')
+        openUrlLinkRef.current = ''
+        return
       }
-    };
-    window.addEventListener('keydown', keyboardOrMouseEventListener);
-    window.addEventListener('mousedown', keyboardOrMouseEventListener);
+    }
+    window.addEventListener('keydown', keyboardOrMouseEventListener)
+    window.addEventListener('mousedown', keyboardOrMouseEventListener)
     return () => {
-      window.removeEventListener('keydown', keyboardOrMouseEventListener);
-      window.removeEventListener('mousedown', keyboardOrMouseEventListener);
-    };
-  }, []);
+      window.removeEventListener('keydown', keyboardOrMouseEventListener)
+      window.removeEventListener('mousedown', keyboardOrMouseEventListener)
+    }
+  }, [])
   return (
     <Stack>
       <WebChatGPTHeader />
@@ -125,25 +122,25 @@ const WebChatGPTUninstalled = () => {
               color: '#fff',
             }}
             onSubmit={async (submitData) => {
-              const browserName = getBrowser().name || 'Other';
-              const reasons = submitData.reasons;
+              const browserName = getBrowser().name || 'Other'
+              const reasons = submitData.reasons
               // 遍历 reasons 对象, 给每个key 加上prefix
               Object.keys(reasons).forEach((key) => {
                 reasons[
                   `[${browserName}]-${key}`
-                ] = `[${browserName}]-${reasons[key]}`;
-                delete reasons[key];
-              });
+                ] = `[${browserName}]-${reasons[key]}`
+                delete reasons[key]
+              })
               await post(USER_API.SAVE_SURVEY_DATA, {
                 survey_name: UNINSTALL_SURVET_NAME,
                 survey_data: submitData,
-              });
+              })
               //open.larksuite.com/open-apis/bot/v2/hook/
-              const reasonString = submitData._Reason.toString();
+              const reasonString = submitData._Reason.toString()
               const email =
                 submitData._Email && submitData._Email !== 'unknown'
                   ? submitData._Email
-                  : '';
+                  : ''
               if (reasonString) {
                 await sendLarkBotMessage(
                   'UninstallSurvey',
@@ -153,10 +150,10 @@ const WebChatGPTUninstalled = () => {
                   {
                     uuid: '5bddd049-128a-497f-a26a-343849140779',
                   },
-                );
+                )
               }
 
-              router.push(`/`);
+              router.push(`/`)
             }}
           />
         )}
@@ -174,10 +171,10 @@ const WebChatGPTUninstalled = () => {
         <FixedCtaButton propRef={propRef} partnerPageType='uninstalled' />
       </Box>
     </Stack>
-  );
-};
+  )
+}
 
-export default WebChatGPTUninstalled;
+export default WebChatGPTUninstalled
 
-const getStaticProps = makeStaticProps();
-export { getStaticProps };
+const getStaticProps = makeStaticProps()
+export { getStaticProps }

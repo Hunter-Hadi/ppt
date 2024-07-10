@@ -1,11 +1,11 @@
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ToolsHome from '@/page_components/PdfToolsPages/components/ToolsHome';
-
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import ToolsHome from '@/page_components/PdfToolsPages/components/ToolsHome'
 const PdfToolsMainPages = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <AppContainer sx={{ bgcolor: '#fff' }} maxWidth={1312}>
@@ -15,6 +15,6 @@ const PdfToolsMainPages = () => {
       />
       <ToolsHome />
     </AppContainer>
-  );
-};
-export default PdfToolsMainPages;
+  )
+}
+export default PdfToolsMainPages
