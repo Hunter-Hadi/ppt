@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "Nghệ thuật AI",
     "features__ai_translator__label": "Dịch thuật AI",
     "features__ai_vision__label": "Tầm nhìn AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Kế hoạch của tôi",
+    "auth_avatar__menu_item__rewards": "Phần thưởng",
+    "auth_avatar__menu_item__get_started": "Bắt đầu",
+    "auth_avatar__menu_item__log_out": "Đăng xuất",
+    "auth_avatar__account_settings": "Cài đặt tài khoản"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Đăng nhập"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Chọn Quốc gia hoặc Vùng của bạn"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Thêm vào Chrome — Miễn phí",
+    "install_button__add_to_chrome_for_free__mini": "Thêm vào Chrome",
+    "install_button__add_to_edge_for_free": "Thêm vào Edge — Miễn phí",
+    "install_button__add_to_edge_for_free__mini": "Thêm vào Edge",
+    "extension_detection_alert__title": "Cài đặt tiện ích MaxAI.me {{BROWSER_AGENT}} để tiếp tục."
   }
 }

@@ -1559,5 +1559,25 @@
     "payment_info__team__per_user__desc": "ανά χρήστη",
     "plan_button__save_with_yearly_plan": "Εξοικονομήστε {{PRICE}} με ετήσιο πλάνο",
     "plan_button__free_status__start_for_free": "Ξεκινήστε δωρεάν"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Σύνδεση"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Ο πλάνος μου",
+    "auth_avatar__menu_item__rewards": "Ανταμοιβές",
+    "auth_avatar__menu_item__get_started": "Ξεκινήστε",
+    "auth_avatar__menu_item__log_out": "Αποσύνδεση",
+    "auth_avatar__account_settings": "Ρυθμίσεις λογαριασμού"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Επιλέξτε τη χώρα ή περιοχή σας"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Προσθήκη στο Chrome - Δωρεάν",
+    "install_button__add_to_chrome_for_free__mini": "Προσθήκη στο Chrome",
+    "install_button__add_to_edge_for_free": "Προσθήκη στο Edge - Δωρεάν",
+    "install_button__add_to_edge_for_free__mini": "Προσθήκη στο Edge",
+    "extension_detection_alert__title": "Εγκαταστήστε την επέκταση MaxAI.me {{BROWSER_AGENT}} για να συνεχίσετε."
   }
 }

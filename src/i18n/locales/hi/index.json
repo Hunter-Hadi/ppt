@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI कला",
     "features__ai_translator__label": "AI अनुवादक",
     "features__ai_vision__label": "AI दृष्टि"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "मेरी योजना",
+    "auth_avatar__menu_item__rewards": "पुरस्कार",
+    "auth_avatar__menu_item__get_started": "शुरू करें",
+    "auth_avatar__menu_item__log_out": "लॉग आउट",
+    "auth_avatar__account_settings": "खाता सेटिंग्स"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "साइन इन करें"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "अपना देश या क्षेत्र चुनें"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "क्रोम में जोड़ें — यह मुफ्त है",
+    "install_button__add_to_chrome_for_free__mini": "क्रोम में जोड़ें",
+    "install_button__add_to_edge_for_free": "एज में जोड़ें — यह मुफ्त है",
+    "install_button__add_to_edge_for_free__mini": "एज में जोड़ें",
+    "extension_detection_alert__title": "MaxAI.me {{BROWSER_AGENT}} एक्सटेंशन स्थापित करें जारी रखने के लिए।"
   }
 }

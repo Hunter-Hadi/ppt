@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "Umění AI",
     "features__ai_translator__label": "Překladatel AI",
     "features__ai_vision__label": "Vize AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Můj plán",
+    "auth_avatar__menu_item__rewards": "Odměny",
+    "auth_avatar__menu_item__get_started": "Začít",
+    "auth_avatar__menu_item__log_out": "Odhlásit se",
+    "auth_avatar__account_settings": "Nastavení účtu"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Přihlásit se"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Vyberte svou zemi nebo region"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Přidat do Chrome — Zdarma",
+    "install_button__add_to_chrome_for_free__mini": "Přidat do Chrome",
+    "install_button__add_to_edge_for_free": "Přidat do Edge — Zdarma",
+    "install_button__add_to_edge_for_free__mini": "Přidat do Edge",
+    "extension_detection_alert__title": "Nainstalujte rozšíření MaxAI.me {{BROWSER_AGENT}} pro pokračování."
   }
 }

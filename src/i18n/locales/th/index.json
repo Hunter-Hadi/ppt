@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "ศิลปะ AI",
     "features__ai_translator__label": "แปลภาษาด้วย AI",
     "features__ai_vision__label": "การมองเห็นด้วย AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "แผนของฉัน",
+    "auth_avatar__menu_item__rewards": "รางวัล",
+    "auth_avatar__menu_item__get_started": "เริ่มต้น",
+    "auth_avatar__menu_item__log_out": "ออกจากระบบ",
+    "auth_avatar__account_settings": "การตั้งค่าบัญชี"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "เข้าสู่ระบบ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "เลือกประเทศหรือภูมิภาคของคุณ"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "เพิ่มไปยัง Chrome — ฟรี",
+    "install_button__add_to_chrome_for_free__mini": "เพิ่มไปยัง Chrome",
+    "install_button__add_to_edge_for_free": "เพิ่มไปยัง Edge — ฟรี",
+    "install_button__add_to_edge_for_free__mini": "เพิ่มไปยัง Edge",
+    "extension_detection_alert__title": "ติดตั้งส่วนขยาย MaxAI.me {{BROWSER_AGENT}} เพื่อดำเนินการต่อ"
   }
 }

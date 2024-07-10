@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI-мистецтво",
     "features__ai_translator__label": "AI-перекладач",
     "features__ai_vision__label": "AI-бачення"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Мій план",
+    "auth_avatar__menu_item__rewards": "Винагороди",
+    "auth_avatar__menu_item__get_started": "Початок",
+    "auth_avatar__menu_item__log_out": "Вийти",
+    "auth_avatar__account_settings": "Налаштування облікового запису"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Увійти"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Виберіть вашу країну або регіон"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Додати до Chrome — Безкоштовно",
+    "install_button__add_to_chrome_for_free__mini": "Додати до Chrome",
+    "install_button__add_to_edge_for_free": "Додати до Edge — Безкоштовно",
+    "install_button__add_to_edge_for_free__mini": "Додати до Edge",
+    "extension_detection_alert__title": "Встановіть розширення MaxAI.me {{BROWSER_AGENT}}, щоб продовжити."
   }
 }

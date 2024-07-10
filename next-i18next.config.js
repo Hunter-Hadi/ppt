@@ -1,4 +1,4 @@
-const languageCodeMap = require('./src/i18n/types/languageCodeMap.json');
+const languageCodeMap = require('./src/packages/common/constants/languageCodeMap.json');
 
 module.exports = {
   // https://www.i18next.com/overview/configuration-options#logging

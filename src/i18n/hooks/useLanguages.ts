@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useMemo } from 'react';
 
 import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper';
-import languageCodeMap from '@/i18n/types/languageCodeMap.json';
+import languageCodeMap from '@/packages/common/constants/languageCodeMap.json';
 
 import { removeLocaleInPathname } from '../utils';
 

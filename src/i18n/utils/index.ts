@@ -1,5 +1,5 @@
 import { PROMPT_LIBRARY_PROXY_BASE_PATH } from '@/global_constants';
-import languageCodeMap from '@/i18n/types/languageCodeMap.json';
+import languageCodeMap from '@/packages/common/constants/languageCodeMap.json';
 
 export const i18nLocales = Object.keys(languageCodeMap);
 

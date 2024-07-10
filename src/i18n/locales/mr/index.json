@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI कला",
     "features__ai_translator__label": "AI भाषांतरक",
     "features__ai_vision__label": "AI दृष्टी"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "साइन इन करा"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "माझी योजना",
+    "auth_avatar__menu_item__rewards": "पुरस्कार",
+    "auth_avatar__menu_item__get_started": "प्रारंभ करा",
+    "auth_avatar__menu_item__log_out": "लॉग आउट",
+    "auth_avatar__account_settings": "खाते सेटिंग्ज"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "आपला देश किंवा प्रदेश निवडा"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Chrome वर जोडा - तो मोफत आहे",
+    "install_button__add_to_chrome_for_free__mini": "Chrome वर जोडा",
+    "install_button__add_to_edge_for_free": "Edge वर जोडा - तो मोफत आहे",
+    "install_button__add_to_edge_for_free__mini": "Edge वर जोडा",
+    "extension_detection_alert__title": "स्थापित करा MaxAI.me {{BROWSER_AGENT}} एक्सटेंशन सुरू ठेवण्यासाठी."
   }
 }

@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI umetnost",
     "features__ai_translator__label": "AI prevodilac",
     "features__ai_vision__label": "AI vizija"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Moj plan",
+    "auth_avatar__menu_item__rewards": "Nagrade",
+    "auth_avatar__menu_item__get_started": "Počni",
+    "auth_avatar__menu_item__log_out": "Odjava",
+    "auth_avatar__account_settings": "Podešavanja naloga"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Prijavi se"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Izaberite svoju zemlju ili region"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Dodaj u Chrome — Besplatno je",
+    "install_button__add_to_chrome_for_free__mini": "Dodaj u Chrome",
+    "install_button__add_to_edge_for_free": "Dodaj u Edge — Besplatno je",
+    "install_button__add_to_edge_for_free__mini": "Dodaj u Edge",
+    "extension_detection_alert__title": "Instaliraj MaxAI.me {{BROWSER_AGENT}} ekstenziju da nastaviš."
   }
 }

@@ -2,8 +2,8 @@ import { Grid, GridProps, RegularBreakpoints } from '@mui/material'
 import { useRouter } from 'next/router'
 import React, { FC, useMemo } from 'react'
 
-import languageCodeMap from '@/i18n/types/languageCodeMap.json'
 import { i18nLocales, removeLocaleInPathname } from '@/i18n/utils'
+import languageCodeMap from '@/packages/common/constants/languageCodeMap.json'
 import LanguageSwitchLink from '@/page_components/LanguageSwitchLink'
 
 interface IProps {

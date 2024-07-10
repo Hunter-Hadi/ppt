@@ -4,12 +4,19 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Toolbar from '@mui/material/Toolbar';
 import debounce from 'lodash-es/debounce';
-import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect, useMemo } from 'react';
+import { useRecoilValue } from 'recoil';
 
-import { useConnectMaxAIAccount } from '@/features/common-auth/hooks/useConnectMaxAIAccount';
+import AuthAvatar, {
+  IAuthAvatarProps,
+} from '@/packages/auth/components/AuthAvatar';
+import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
+import { UserProfileState } from '@/packages/auth/store';
 import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
-import Avatar from '@/packages/base-ui/components/Avatar';
+import MaxAIExtensionInstallButton, {
+  IMaxAIExtensionInstallButtonProps,
+} from '@/packages/browser-extension/components/MaxAIExtensionInstallButton';
+import { useMaxAITranslation } from '@/packages/common';
 
 interface IAppBarProps {
   hidden?: boolean;
@@ -19,9 +26,10 @@ interface IAppBarProps {
   href?: IAppLogoProps['href'];
   MenuListComponents?: React.ReactNode;
   CtaContentComponents?: React.ReactNode;
+  CtaInstallButtonProps?: IMaxAIExtensionInstallButtonProps;
   hiddenSignInButton?: boolean;
   hiddenAvatar?: boolean;
-  // smallScreenQuery?: string | ((theme: Theme) => string);
+  AvatarProps?: IAuthAvatarProps;
 }
 
 const AppBar: FC<IAppBarProps> = ({
@@ -31,23 +39,45 @@ const AppBar: FC<IAppBarProps> = ({
   href,
   hiddenSignInButton = false,
   MenuListComponents,
-  CtaContentComponents,
+  CtaContentComponents: propCtaContentComponents,
+  CtaInstallButtonProps,
   hiddenAvatar,
-  // smallScreenQuery,
+  AvatarProps,
   onHeightChange,
 }) => {
-  const { t } = useTranslation();
-  const { connectMaxAIAccount, isLogin, loading } = useConnectMaxAIAccount();
-
-  // const isSmallScreen = useMediaQuery(smallScreenQuery ?? '(max-width:1090px)'); // 屏幕宽度小于 1090 时为 true
+  const { t } = useMaxAITranslation();
+  const {
+    connectMaxAIAccount,
+    isLogin,
+    loading: connectMaxAIAccountLoading,
+  } = useConnectMaxAIAccount();
+  const { loading: userProfileLoading, user: userProfile } =
+    useRecoilValue(UserProfileState);
 
   const showAvatar = useMemo(() => {
     if (hiddenAvatar) {
       return false;
     }
 
-    return isLogin;
-  }, [hiddenAvatar, isLogin]);
+    return isLogin && userProfile;
+  }, [hiddenAvatar, isLogin, userProfile]);
+
+  const CtaContentComponents = useMemo(() => {
+    if (propCtaContentComponents) {
+      return propCtaContentComponents;
+    }
+
+    if (propCtaContentComponents === null) {
+      return null;
+    }
+
+    return (
+      <MaxAIExtensionInstallButton
+        variant='contained'
+        {...CtaInstallButtonProps}
+      />
+    );
+  }, [CtaInstallButtonProps, propCtaContentComponents]);
 
   useEffect(() => {
     if (!onHeightChange || hidden) {
@@ -111,31 +141,28 @@ const AppBar: FC<IAppBarProps> = ({
             pr: 2.5,
           }}
         />
-
         {MenuListComponents}
-
-        {!isLogin && !hiddenSignInButton ? (
+        {!showAvatar && !hiddenSignInButton ? (
           <LoadingButton
-            loading={loading}
+            loading={connectMaxAIAccountLoading || userProfileLoading}
             onClick={connectMaxAIAccount}
             sx={{
               fontSize: 16,
               lineHeight: 1.5,
               fontWeight: 500,
               color: 'text.primary',
+              mr: CtaContentComponents ? 1.5 : 0,
             }}
           >
-            {t('common:sign_in')}
+            {t('package__base_ui:app_bar__sign_in')}
           </LoadingButton>
         ) : null}
-
-        {CtaContentComponents}
-
         {showAvatar && (
-          <Box>
-            <Avatar />
+          <Box mr={CtaContentComponents ? 1.5 : 0}>
+            <AuthAvatar {...AvatarProps} />
           </Box>
         )}
+        {CtaContentComponents}
       </Toolbar>
       <Divider />
     </MuiAppBar>

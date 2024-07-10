@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI művészet",
     "features__ai_translator__label": "AI fordító",
     "features__ai_vision__label": "AI látás"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Tervem",
+    "auth_avatar__menu_item__rewards": "Jutalmak",
+    "auth_avatar__menu_item__get_started": "Elkezdés",
+    "auth_avatar__menu_item__log_out": "Kijelentkezés",
+    "auth_avatar__account_settings": "Fiókbeállítások"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Bejelentkezés"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Válassza ki az országát vagy régióját"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Hozzáadás a Chrome-hoz - Ingyenes",
+    "install_button__add_to_chrome_for_free__mini": "Hozzáadás a Chrome-hoz",
+    "install_button__add_to_edge_for_free": "Hozzáadás az Edge-hez - Ingyenes",
+    "install_button__add_to_edge_for_free__mini": "Hozzáadás az Edge-hez",
+    "extension_detection_alert__title": "Telepítse a MaxAI.me {{BROWSER_AGENT}} kiegészítőt a folytatáshoz."
   }
 }

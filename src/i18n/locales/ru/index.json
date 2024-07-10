@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "ИИ-искусство",
     "features__ai_translator__label": "ИИ-переводчик",
     "features__ai_vision__label": "ИИ-зрение"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Мой план",
+    "auth_avatar__menu_item__rewards": "Награды",
+    "auth_avatar__menu_item__get_started": "Начать",
+    "auth_avatar__menu_item__log_out": "Выйти",
+    "auth_avatar__account_settings": "Настройки аккаунта"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Войти"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Выберите вашу страну или регион"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Добавить в Chrome — Бесплатно",
+    "install_button__add_to_chrome_for_free__mini": "Добавить в Chrome",
+    "install_button__add_to_edge_for_free": "Добавить в Edge — Бесплатно",
+    "install_button__add_to_edge_for_free__mini": "Добавить в Edge",
+    "extension_detection_alert__title": "Установите расширение MaxAI.me {{BROWSER_AGENT}}, чтобы продолжить."
   }
 }
