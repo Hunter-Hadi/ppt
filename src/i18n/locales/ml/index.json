@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "എയ്‌ ആർട്ട്",
     "features__ai_translator__label": "എയ്‌ ട്രാൻസ്ലേറ്റർ",
     "features__ai_vision__label": "എയ്‌ വിഷൻ"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "എന്റെ പ്ലാൻ",
+    "auth_avatar__menu_item__rewards": "പ്രതിഫലം",
+    "auth_avatar__menu_item__get_started": "ആരംഭിക്കുക",
+    "auth_avatar__menu_item__log_out": "ലോഗ് ഔട്ട്",
+    "auth_avatar__account_settings": "അക്കൗണ്ട് ക്രമീകരണങ്ങൾ"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "സൈൻ ഇൻ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "നിങ്ങളുടെ രാജ്യം അല്ലെങ്കിൽ പ്രദേശം തിരഞ്ഞെടുക്കുക"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "ക്രോംക്ക് ചേർക്കുക - ഇത് സൗജന്യമാണ്",
+    "install_button__add_to_chrome_for_free__mini": "ക്രോംക്ക് ചേർക്കുക",
+    "install_button__add_to_edge_for_free": "എഡ്ജിലേക്ക് ചേർക്കുക - ഇത് സൗജന്യമാണ്",
+    "install_button__add_to_edge_for_free__mini": "എഡ്ജിലേക്ക് ചേർക്കുക",
+    "extension_detection_alert__title": "തുടരുന്നതിനായി മാക്സ്.എ.ഐ.മി {{BROWSER_AGENT}} എക്സ്റ്റെൻഷൻ ഇൻസ്റ്റാൾ ചെയ്യുക."
   }
 }

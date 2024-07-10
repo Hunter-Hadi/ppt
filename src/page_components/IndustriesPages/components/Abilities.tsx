@@ -1,15 +1,16 @@
-import { Box, Grid, Typography } from '@mui/material';
-import Image from 'next/image';
-import { FC } from 'react';
+import { Box, Grid, Typography } from '@mui/material'
+import Image from 'next/image'
+import React from 'react'
+import { FC } from 'react'
 
 interface IAbilitiesProps {
-  title?: string;
+  title?: string
   data: {
-    iconPath: string;
-    title: string;
-    contentStrong?: string;
-    content: string;
-  }[];
+    iconPath: string
+    title: string
+    contentStrong?: string
+    content: string
+  }[]
 }
 
 const Abilities: FC<IAbilitiesProps> = ({ title, data }) => {
@@ -95,7 +96,7 @@ const Abilities: FC<IAbilitiesProps> = ({ title, data }) => {
         ))}
       </Grid>
     </Box>
-  );
-};
+  )
+}
 
-export default Abilities;
+export default Abilities

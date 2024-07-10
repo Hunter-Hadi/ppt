@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
 const LinkedIn: FC<SvgIconProps> = (props) => {
   return (
@@ -27,6 +28,6 @@ const LinkedIn: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default LinkedIn;
+  )
+}
+export default LinkedIn

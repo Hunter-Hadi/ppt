@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "Artă AI",
     "features__ai_translator__label": "Traducător AI",
     "features__ai_vision__label": "Viziune AI"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Conectare"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Planul meu",
+    "auth_avatar__menu_item__rewards": "Recompense",
+    "auth_avatar__menu_item__get_started": "Începeți",
+    "auth_avatar__menu_item__log_out": "Deconectare",
+    "auth_avatar__account_settings": "Setări cont"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Alegeți țara sau regiunea dumneavoastră"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Adăugați în Chrome - Este Gratuit",
+    "install_button__add_to_chrome_for_free__mini": "Adăugați în Chrome",
+    "install_button__add_to_edge_for_free": "Adăugați în Edge - Este Gratuit",
+    "install_button__add_to_edge_for_free__mini": "Adăugați în Edge",
+    "extension_detection_alert__title": "Instalați extensia MaxAI.me {{BROWSER_AGENT}} pentru a continua."
   }
 }

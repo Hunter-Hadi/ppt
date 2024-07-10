@@ -1,13 +1,14 @@
-import { TextField } from '@mui/material';
-import { FC, useEffect, useMemo, useState } from 'react';
+import { TextField } from '@mui/material'
+import { FC, useEffect, useMemo, useState } from 'react'
+import React from 'react'
 
 const EmailTextField: FC<{
-  whiteMode?: boolean;
-  fullWidth?: boolean;
-  defaultValue?: string;
-  onChange?: (value: string) => void;
-  onEnter?: () => void;
-  validate?: number;
+  whiteMode?: boolean
+  fullWidth?: boolean
+  defaultValue?: string
+  onChange?: (value: string) => void
+  onEnter?: () => void
+  validate?: number
 }> = (props) => {
   const {
     defaultValue = '',
@@ -15,10 +16,10 @@ const EmailTextField: FC<{
     whiteMode = true,
     fullWidth,
     validate = 0,
-  } = props;
-  const [email, setEmail] = useState(defaultValue);
-  const [emailError, setEmailError] = useState(false);
-  const [emailErrorMessage, setEmailErrorMessage] = useState('');
+  } = props
+  const [email, setEmail] = useState(defaultValue)
+  const [emailError, setEmailError] = useState(false)
+  const [emailErrorMessage, setEmailErrorMessage] = useState('')
   const styleSx = useMemo(() => {
     const baseStyle = {
       width: '100%',
@@ -27,7 +28,7 @@ const EmailTextField: FC<{
         xs: '100%',
         sm: fullWidth ? '100%' : 240,
       },
-    };
+    }
     return Object.assign(
       baseStyle,
       whiteMode
@@ -64,29 +65,29 @@ const EmailTextField: FC<{
             },
           }
         : {},
-    );
-  }, [whiteMode, fullWidth]);
+    )
+  }, [whiteMode, fullWidth])
   const validateEmail = (email: string) => {
     const emailRegex =
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     if (emailRegex.test(email)) {
-      setEmailError(false);
-      setEmailErrorMessage('');
+      setEmailError(false)
+      setEmailErrorMessage('')
     } else {
-      setEmailError(true);
-      setEmailErrorMessage('Enter a valid email address');
+      setEmailError(true)
+      setEmailErrorMessage('Enter a valid email address')
     }
-  };
+  }
   useEffect(() => {
     if (validate > 0) {
-      validateEmail(email);
+      validateEmail(email)
     }
-  }, [email, validate]);
+  }, [email, validate])
   return (
     <TextField
       onKeyDown={(event) => {
         if (event.key === 'Enter') {
-          props.onEnter && props.onEnter();
+          props.onEnter && props.onEnter()
         }
       }}
       id={'input-email'}
@@ -95,16 +96,16 @@ const EmailTextField: FC<{
       error={emailError}
       sx={styleSx}
       onChange={(e) => {
-        setEmail(e.target.value);
-        onChange && onChange(e.target.value);
+        setEmail(e.target.value)
+        onChange && onChange(e.target.value)
       }}
       onBlur={(event) => {
-        validateEmail(event.target.value);
+        validateEmail(event.target.value)
       }}
       value={email}
       placeholder='Enter email'
       variant='standard'
     />
-  );
-};
-export default EmailTextField;
+  )
+}
+export default EmailTextField

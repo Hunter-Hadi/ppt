@@ -1,6 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from 'next/types'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { ParsedUrlQuery } from 'querystring'
+import React from 'react'
 
 import ToolsDetail from '@/page_components/PdfToolsPages/components/ToolsDetail'
 import { toolsObjectData } from '@/page_components/PdfToolsPages/constant'

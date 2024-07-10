@@ -1,19 +1,20 @@
-import { Box, Grid, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC } from 'react';
+import { Box, Grid, Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC } from 'react'
 
-import { IToolsDetailDescriptionInfoProps } from '../constant/toolsDetailDescriptionData';
-import ToolsIcon from './ToolsIcon';
+import { IToolsDetailDescriptionInfoProps } from '../constant/toolsDetailDescriptionData'
+import ToolsIcon from './ToolsIcon'
 interface IToolsDetailDescriptionProps {
-  descriptionInfo: IToolsDetailDescriptionInfoProps;
+  descriptionInfo: IToolsDetailDescriptionInfoProps
 }
 const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
   descriptionInfo,
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const getTranslation = (key: string) => {
-    return t(key, descriptionInfo.i18nVariables);
-  };
+    return t(key, descriptionInfo.i18nVariables)
+  }
   return (
     <Box
       sx={{
@@ -175,6 +176,6 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
         </Grid>
       </Grid>
     </Box>
-  );
-};
-export default ToolsDetailDescription;
+  )
+}
+export default ToolsDetailDescription

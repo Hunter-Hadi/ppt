@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "Seni AI",
     "features__ai_translator__label": "Penterjemah AI",
     "features__ai_vision__label": "Visi AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Rancangan Saya",
+    "auth_avatar__menu_item__rewards": "Ganjaran",
+    "auth_avatar__menu_item__get_started": "Mula",
+    "auth_avatar__menu_item__log_out": "Log Keluar",
+    "auth_avatar__account_settings": "Tetapan akaun"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Log Masuk"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Pilih Negara atau Kawasan Anda"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Tambah ke Chrome - Percuma",
+    "install_button__add_to_chrome_for_free__mini": "Tambah ke Chrome",
+    "install_button__add_to_edge_for_free": "Tambah ke Edge - Percuma",
+    "install_button__add_to_edge_for_free__mini": "Tambah ke Edge",
+    "extension_detection_alert__title": "Pasang sambungan MaxAI.me {{BROWSER_AGENT}} untuk meneruskan."
   }
 }

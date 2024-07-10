@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI kunst",
     "features__ai_translator__label": "AI tõlkija",
     "features__ai_vision__label": "AI nägemine"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Minu plaan",
+    "auth_avatar__menu_item__rewards": "Tasud",
+    "auth_avatar__menu_item__get_started": "Alusta",
+    "auth_avatar__menu_item__log_out": "Logi välja",
+    "auth_avatar__account_settings": "Konto seaded"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Logi sisse"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Valige oma riik või piirkond"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Lisa Chrome'i — Tasuta",
+    "install_button__add_to_chrome_for_free__mini": "Lisa Chrome'i",
+    "install_button__add_to_edge_for_free": "Lisa Edge'i — Tasuta",
+    "install_button__add_to_edge_for_free__mini": "Lisa Edge'i",
+    "extension_detection_alert__title": "Jätkamiseks installige MaxAI.me {{BROWSER_AGENT}} laiend."
   }
 }

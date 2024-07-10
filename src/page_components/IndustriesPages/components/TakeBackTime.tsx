@@ -1,13 +1,14 @@
-import { Box, buttonClasses, Typography } from '@mui/material';
-import { FC } from 'react';
+import { Box, buttonClasses, Typography } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
-import CTAInstallButton from '@/page_components/CTAInstallButton';
+import CTAInstallButton from '@/page_components/CTAInstallButton'
 
 interface ITakeBackTimeProps {
-  title: string;
-  description: string;
-  iconPath: string;
-  buttonText: string;
+  title: string
+  description: string
+  iconPath: string
+  buttonText: string
 }
 
 const TakeBackTime: FC<ITakeBackTimeProps> = ({
@@ -110,7 +111,7 @@ const TakeBackTime: FC<ITakeBackTimeProps> = ({
         </Box>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default TakeBackTime;
+export default TakeBackTime

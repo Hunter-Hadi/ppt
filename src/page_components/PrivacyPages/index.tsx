@@ -1,32 +1,33 @@
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import MoneyOffOutlinedIcon from '@mui/icons-material/MoneyOffOutlined';
-import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined';
-import { Box, Grid, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC, useEffect, useRef, useState } from 'react';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined'
+import MoneyOffOutlinedIcon from '@mui/icons-material/MoneyOffOutlined'
+import VisibilityOffOutlinedIcon from '@mui/icons-material/VisibilityOffOutlined'
+import { Box, Grid, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import { FC, useEffect, useRef, useState } from 'react'
+import React from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ProLink from '@/components/ProLink';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import ProLink from '@/components/ProLink'
 
 const PrivacyPages: FC = () => {
-  const { t } = useTranslation();
-  const [activePolicyIndex, setActivePolicyIndex] = useState(0);
-  const privacyPolicyRef = useRef<HTMLHeadingElement>(null);
-  const informationWeDoNotCollectRef = useRef<HTMLHeadingElement>(null);
-  const informationWeCollectRef = useRef<HTMLHeadingElement>(null);
-  const howWeUseYourInformationRef = useRef<HTMLHeadingElement>(null);
-  const informationSecurityRef = useRef<HTMLHeadingElement>(null);
-  const marketingAndAdvertisingRef = useRef<HTMLHeadingElement>(null);
-  const changesToThePrivacyPolicyRef = useRef<HTMLHeadingElement>(null);
-  const DataRetentionRef = useRef<HTMLHeadingElement>(null);
-  const contactUsRef = useRef<HTMLHeadingElement>(null);
+  const { t } = useTranslation()
+  const [activePolicyIndex, setActivePolicyIndex] = useState(0)
+  const privacyPolicyRef = useRef<HTMLHeadingElement>(null)
+  const informationWeDoNotCollectRef = useRef<HTMLHeadingElement>(null)
+  const informationWeCollectRef = useRef<HTMLHeadingElement>(null)
+  const howWeUseYourInformationRef = useRef<HTMLHeadingElement>(null)
+  const informationSecurityRef = useRef<HTMLHeadingElement>(null)
+  const marketingAndAdvertisingRef = useRef<HTMLHeadingElement>(null)
+  const changesToThePrivacyPolicyRef = useRef<HTMLHeadingElement>(null)
+  const DataRetentionRef = useRef<HTMLHeadingElement>(null)
+  const contactUsRef = useRef<HTMLHeadingElement>(null)
 
   /**
    * 滚动时处理侧边栏的highlight状态
    */
   const scrollHandler = () => {
-    [
+    const listRefArr = [
       privacyPolicyRef,
       informationWeDoNotCollectRef,
       informationWeCollectRef,
@@ -36,12 +37,14 @@ const PrivacyPages: FC = () => {
       marketingAndAdvertisingRef,
       changesToThePrivacyPolicyRef,
       contactUsRef,
-    ].forEach((item, index) => {
+    ]
+
+    listRefArr.forEach((item, index) => {
       if (Math.abs(window.scrollY + 100 - item.current!.offsetTop) < 50) {
-        setActivePolicyIndex(index);
+        setActivePolicyIndex(index)
       }
-    });
-  };
+    })
+  }
 
   /**
    * 点击侧边栏滚动到指定区域
@@ -61,15 +64,15 @@ const PrivacyPages: FC = () => {
           contactUsRef,
         ][index].current!.offsetTop - 100,
       behavior: 'smooth', // 使用平滑滚动
-    });
-  };
+    })
+  }
 
   useEffect(() => {
-    document.addEventListener('scroll', scrollHandler);
+    document.addEventListener('scroll', scrollHandler)
     return () => {
-      document.removeEventListener('scroll', scrollHandler);
-    };
-  }, []);
+      document.removeEventListener('scroll', scrollHandler)
+    }
+  }, [])
 
   return (
     <>
@@ -577,7 +580,7 @@ const PrivacyPages: FC = () => {
         </Box>
       </AppContainer>
     </>
-  );
-};
+  )
+}
 
-export default PrivacyPages;
+export default PrivacyPages

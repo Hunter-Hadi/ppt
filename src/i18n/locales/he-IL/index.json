@@ -1559,5 +1559,25 @@
     "features__ai_art__label": "אמנות AI",
     "features__ai_translator__label": "מתרגם AI",
     "features__ai_vision__label": "ראייה AI"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "התוכנית שלי",
+    "auth_avatar__menu_item__rewards": "פרסים",
+    "auth_avatar__menu_item__get_started": "התחל",
+    "auth_avatar__menu_item__log_out": "התנתק",
+    "auth_avatar__account_settings": "הגדרות חשבון"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "התחבר"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "בחר את המדינה או האזור שלך"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "הוסף ל־Chrome - זה חינם",
+    "install_button__add_to_chrome_for_free__mini": "הוסף ל־Chrome",
+    "install_button__add_to_edge_for_free": "הוסף ל־Edge - זה חינם",
+    "install_button__add_to_edge_for_free__mini": "הוסף ל־Edge",
+    "extension_detection_alert__title": "התקן את התוסף של MaxAI.me {{BROWSER_AGENT}} כדי להמשיך."
   }
 }

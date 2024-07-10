@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const EdgeColor: FC<SvgIconProps> = (props) => {
   return (
@@ -108,6 +109,6 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default EdgeColor;
+  )
+}
+export default EdgeColor

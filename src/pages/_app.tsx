@@ -79,6 +79,8 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
+
+      {/* eslint-disable-next-line react/no-unknown-property */}
       <style jsx global>{`
         html {
           font-family: ${globalFont.style.fontFamily}, sans-serif, -apple-system,
@@ -108,7 +110,6 @@ function App({ Component, pageProps }: AppProps) {
         }}
       ></Script>
       <RecoilRoot>
-        {/*// @ts-ignore*/}
         <SnackbarProvider
           maxSnack={3}
           preventDuplicate
@@ -141,7 +142,6 @@ function App({ Component, pageProps }: AppProps) {
               <AppInit />
               {!isEmbedPage && <AppHeader />}
               <ClientUserIdGenerator targetHost={APP_PROJECT_LINK} />
-              {/*// @ts-ignore*/}
               <Component {...pageProps} />
               {!isEmbedPage && <AppFooter />}
               <GlobalVideoPopup />

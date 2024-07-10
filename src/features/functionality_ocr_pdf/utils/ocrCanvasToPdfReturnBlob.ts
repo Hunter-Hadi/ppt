@@ -15,7 +15,7 @@ export async function ocrCanvasToPdfReturnBlob(
 ) {
   const scheduler = createScheduler(); //创建调度器
   try {
-    let currentProcessesNumber =
+    const currentProcessesNumber =
       processesNumber ||
       Math.min(
         canvases.length,

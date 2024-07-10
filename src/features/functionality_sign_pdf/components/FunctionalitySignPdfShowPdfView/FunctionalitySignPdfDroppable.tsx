@@ -1,15 +1,16 @@
-import { useDroppable } from '@dnd-kit/core';
-import { Box } from '@mui/material';
-import { FC } from 'react';
+import { useDroppable } from '@dnd-kit/core'
+import { Box } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
 const FunctionalitySignPdfShowPdfViewDroppable: FC<{
-  children: React.ReactNode;
-  index: number;
+  children: React.ReactNode
+  index: number
 }> = ({ children, index }) => {
   const { isOver, setNodeRef } = useDroppable({
     id: `droppable-${index}`,
     data: { pdfIndex: index },
-  });
+  })
 
   return (
     <Box
@@ -22,6 +23,6 @@ const FunctionalitySignPdfShowPdfViewDroppable: FC<{
     >
       {children}
     </Box>
-  );
-};
-export default FunctionalitySignPdfShowPdfViewDroppable;
+  )
+}
+export default FunctionalitySignPdfShowPdfViewDroppable

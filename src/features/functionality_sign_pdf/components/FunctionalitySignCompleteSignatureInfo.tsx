@@ -1,28 +1,29 @@
-import { Box, Button, Stack, Typography } from '@mui/material';
-import dayjs from 'dayjs';
-import { useTranslation } from 'next-i18next';
-import { FC, useMemo } from 'react';
+import { Box, Button, Stack, Typography } from '@mui/material'
+import dayjs from 'dayjs'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC, useMemo } from 'react'
 
-import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
 
-import FunctionalitySignPdfIcon from './FunctionalitySignPdfIcon';
+import FunctionalitySignPdfIcon from './FunctionalitySignPdfIcon'
 
 interface IFunctionalitySignCompleteSignatureInfoProps {
-  downloadUint8Array: Uint8Array;
-  onClearReturn: () => void;
-  fileName: string;
+  downloadUint8Array: Uint8Array
+  onClearReturn: () => void
+  fileName: string
 }
 const FunctionalitySignCompleteSignatureInfo: FC<
   IFunctionalitySignCompleteSignatureInfoProps
 > = ({ downloadUint8Array, onClearReturn, fileName }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const onDownload = () => {
     const newFileName =
-      functionalityCommonFileNameRemoveAndAddExtension(fileName);
-    downloadUrl(downloadUint8Array, newFileName);
-  };
-  const currentTime = useMemo(() => dayjs().format('YYYY-MM-DD'), []);
+      functionalityCommonFileNameRemoveAndAddExtension(fileName)
+    downloadUrl(downloadUint8Array, newFileName)
+  }
+  const currentTime = useMemo(() => dayjs().format('YYYY-MM-DD'), [])
   return (
     <Stack
       direction='column'
@@ -213,6 +214,6 @@ const FunctionalitySignCompleteSignatureInfo: FC<
         </Button>
       </Box>
     </Stack>
-  );
-};
-export default FunctionalitySignCompleteSignatureInfo;
+  )
+}
+export default FunctionalitySignCompleteSignatureInfo

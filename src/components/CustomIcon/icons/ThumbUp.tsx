@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
 const ThumbUp: FC<SvgIconProps> = (props) => {
   return (
@@ -31,6 +32,6 @@ const ThumbUp: FC<SvgIconProps> = (props) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
-export default ThumbUp;
+  )
+}
+export default ThumbUp

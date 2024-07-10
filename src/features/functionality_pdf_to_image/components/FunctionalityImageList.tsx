@@ -1,18 +1,19 @@
-import { Box, Checkbox, Stack } from '@mui/material';
-import { FC } from 'react';
+import { Box, Checkbox, Stack } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
-import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage'
 
 interface IFunctionalityImageData {
-  id: string;
-  imageUrlString: string;
-  isSelect: boolean;
+  id: string
+  imageUrlString: string
+  isSelect: boolean
 }
 interface IFunctionalityImageList {
-  scale?: number;
-  imageList: IFunctionalityImageData[];
-  onClickImage: (image: IFunctionalityImageData) => void;
-  disabled?: boolean;
+  scale?: number
+  imageList: IFunctionalityImageData[]
+  onClickImage: (image: IFunctionalityImageData) => void
+  disabled?: boolean
 }
 
 const FunctionalityImageList: FC<IFunctionalityImageList> = ({
@@ -55,6 +56,6 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
         </FunctionalityCommonImage>
       ))}
     </Stack>
-  );
-};
-export default FunctionalityImageList;
+  )
+}
+export default FunctionalityImageList

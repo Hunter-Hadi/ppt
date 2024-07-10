@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI አርት",
     "features__ai_translator__label": "AI ተርጓሚ",
     "features__ai_vision__label": "AI እይታ"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "የእርስዎ ዝግጅት",
+    "auth_avatar__menu_item__rewards": "ሪዝዩርድ",
+    "auth_avatar__menu_item__get_started": "መጀመሪያ",
+    "auth_avatar__menu_item__log_out": "ውጣ",
+    "auth_avatar__account_settings": "አካውንት ቅኝት"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "ይግቡ"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "የአገልግሎት እና ክፍል ይምረጡ"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "ከክሮም ጋር አንድን ይጨምሩ",
+    "install_button__add_to_chrome_for_free__mini": "ከክሮም ጋር አንድ",
+    "install_button__add_to_edge_for_free": "ከኤጄ ጋር አንድን ይጨምሩ",
+    "install_button__add_to_edge_for_free__mini": "ከኤጄ ጋር አንድ",
+    "extension_detection_alert__title": "ከማክስኤኢ.ሜ {{BROWSER_AGENT}} አንድ ይጠቀሙ"
   }
 }

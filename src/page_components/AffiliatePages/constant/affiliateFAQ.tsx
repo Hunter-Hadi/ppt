@@ -1,6 +1,8 @@
-import ProLink from '@/features/common/components/ProLink';
-import { AFFILIATE_PROGRAM_SIGN_UP_LINK } from '@/page_components/AffiliatePages/constant';
-import { IFAQItem } from '@/page_components/FAQList';
+import React from 'react'
+
+import ProLink from '@/features/common/components/ProLink'
+import { AFFILIATE_PROGRAM_SIGN_UP_LINK } from '@/page_components/AffiliatePages/constant'
+import { IFAQItem } from '@/page_components/FAQList'
 
 const AFFILIATE_FAQ: IFAQItem[] = [
   {
@@ -45,7 +47,7 @@ const AFFILIATE_FAQ: IFAQItem[] = [
     key: 'panel5',
     title: (t) => t('affiliate:faq__question5__title'),
     description: (t) => {
-      const host = new URL(AFFILIATE_PROGRAM_SIGN_UP_LINK).host;
+      const host = new URL(AFFILIATE_PROGRAM_SIGN_UP_LINK).host
       return (
         <>
           {t('affiliate:faq__question5__description__part1')}{' '}
@@ -58,7 +60,7 @@ const AFFILIATE_FAQ: IFAQItem[] = [
           </ProLink>{' '}
           {t('affiliate:faq__question5__description__part2')}
         </>
-      );
+      )
     },
   },
   {
@@ -77,5 +79,5 @@ const AFFILIATE_FAQ: IFAQItem[] = [
       </>
     ),
   },
-];
-export default AFFILIATE_FAQ;
+]
+export default AFFILIATE_FAQ

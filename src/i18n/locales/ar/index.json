@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "الفن بواسطة الذكاء الاصطناعي",
     "features__ai_translator__label": "الترجمة بواسطة الذكاء الاصطناعي",
     "features__ai_vision__label": "الرؤية بواسطة الذكاء الاصطناعي"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "خطتي",
+    "auth_avatar__menu_item__rewards": "مكافآت",
+    "auth_avatar__menu_item__get_started": "ابدأ الآن",
+    "auth_avatar__menu_item__log_out": "تسجيل الخروج",
+    "auth_avatar__account_settings": "إعدادات الحساب"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "تسجيل الدخول"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "اختر بلدك أو منطقتك"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "أضف إلى Chrome - مجانًا",
+    "install_button__add_to_chrome_for_free__mini": "أضف إلى Chrome",
+    "install_button__add_to_edge_for_free": "أضف إلى Edge - مجانًا",
+    "install_button__add_to_edge_for_free__mini": "أضف إلى Edge",
+    "extension_detection_alert__title": "قم بتثبيت تمديد MaxAI.me {{BROWSER_AGENT}} للمتابعة."
   }
 }

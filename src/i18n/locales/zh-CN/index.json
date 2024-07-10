@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI艺术",
     "features__ai_translator__label": "AI翻译",
     "features__ai_vision__label": "AI视觉"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "我的计划",
+    "auth_avatar__menu_item__rewards": "奖励",
+    "auth_avatar__menu_item__get_started": "开始使用",
+    "auth_avatar__menu_item__log_out": "退出登录",
+    "auth_avatar__account_settings": "账户设置"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "登录"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "选择您的国家或地区"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "添加到 Chrome — 免费",
+    "install_button__add_to_chrome_for_free__mini": "添加到 Chrome",
+    "install_button__add_to_edge_for_free": "添加到 Edge — 免费",
+    "install_button__add_to_edge_for_free__mini": "添加到 Edge",
+    "extension_detection_alert__title": "安装 MaxAI.me {{BROWSER_AGENT}} 扩展以继续。"
   }
 }

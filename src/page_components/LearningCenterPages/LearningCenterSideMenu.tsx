@@ -47,8 +47,8 @@ const LearningCenterSideMenu = () => {
       `*[data-testid="${id}"]`,
     );
     if (element) {
-      var elementPosition = element.offsetTop;
-      var offsetPosition = elementPosition - appHeaderHeight - 16;
+      const elementPosition = element.offsetTop;
+      const offsetPosition = elementPosition - appHeaderHeight - 16;
 
       window.scrollTo({
         top: offsetPosition,

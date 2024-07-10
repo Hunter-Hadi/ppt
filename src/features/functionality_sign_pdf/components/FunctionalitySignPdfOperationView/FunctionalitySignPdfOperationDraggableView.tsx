@@ -1,26 +1,27 @@
-import { useDraggable } from '@dnd-kit/core';
-import { Box, Stack } from '@mui/material';
-import { FC } from 'react';
+import { useDraggable } from '@dnd-kit/core'
+import { Box, Stack } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
-import { IFabricAddObjectType } from '../../utils/fabricjsTools';
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import { IFabricAddObjectType } from '../../utils/fabricjsTools'
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 
 /**
  * 拖动操作逻辑加外层视图逻辑
  */
 const FunctionalitySignPdfOperationDraggableView: FC<{
-  id: string;
-  dragDisabled?: boolean;
-  children: React.ReactNode;
-  data?: { type: IFabricAddObjectType; value?: string };
-  onIconClick?: () => void;
-  onWrapClick?: (type: IFabricAddObjectType, value: string) => void; //因为有的地方需要点击整个按钮触发事件，传进来可以不需要传值，data有了，所以写进来了
+  id: string
+  dragDisabled?: boolean
+  children: React.ReactNode
+  data?: { type: IFabricAddObjectType; value?: string }
+  onIconClick?: () => void
+  onWrapClick?: (type: IFabricAddObjectType, value: string) => void //因为有的地方需要点击整个按钮触发事件，传进来可以不需要传值，data有了，所以写进来了
 }> = ({ id, data, children, dragDisabled, onIconClick, onWrapClick }) => {
   const { attributes, listeners, setNodeRef } = useDraggable({
     id: id,
     data: { id: id, ...data },
     disabled: dragDisabled,
-  });
+  })
 
   return (
     <Box
@@ -67,6 +68,6 @@ const FunctionalitySignPdfOperationDraggableView: FC<{
         {children}
       </Stack>
     </Box>
-  );
-};
-export default FunctionalitySignPdfOperationDraggableView;
+  )
+}
+export default FunctionalitySignPdfOperationDraggableView

@@ -20,7 +20,7 @@ const UseChatGPTShortcutsDetectAlert: FC = () => {
         if (isOpenRef.current) {
           return;
         }
-        let timer = setTimeout(() => {
+        const timer = setTimeout(() => {
           setShowModal(true);
         }, 1000);
         setTimeout(() => {

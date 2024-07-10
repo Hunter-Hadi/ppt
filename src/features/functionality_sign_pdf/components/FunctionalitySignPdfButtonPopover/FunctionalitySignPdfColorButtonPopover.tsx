@@ -5,20 +5,20 @@ import {
   Slider,
   Stack,
   Typography,
-} from '@mui/material';
-import { FC, useEffect, useState } from 'react';
+} from '@mui/material'
+import React, { FC, useEffect, useState } from 'react'
 
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfCommonButtonPopover from './FunctionalitySignPdfCommonButtonPopover';
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
+import FunctionalitySignPdfCommonButtonPopover from './FunctionalitySignPdfCommonButtonPopover'
 interface IFunctionalitySignPdfColorButtonPopoverProps {
-  colorList?: string[];
-  onSelectedColor: (color: string) => void;
-  currentColor?: string;
-  currentTransparency?: number;
-  onChangeTransparency?: (transparency: number) => void;
-  buttonProps?: ButtonProps;
-  isShowRightIcon?: boolean;
-  titleText?: string;
+  colorList?: string[]
+  onSelectedColor: (color: string) => void
+  currentColor?: string
+  currentTransparency?: number
+  onChangeTransparency?: (transparency: number) => void
+  buttonProps?: ButtonProps
+  isShowRightIcon?: boolean
+  titleText?: string
 }
 /**
  * 签名颜色选择按钮
@@ -35,26 +35,26 @@ const FunctionalitySignPdfColorButtonPopover: FC<
   isShowRightIcon = true,
   titleText,
 }) => {
-  const [currentShowColor, setShowCurrentColor] = useState('black');
-  const [transparencyNumber, setTransparencyNumber] = useState(100);
+  const [currentShowColor, setShowCurrentColor] = useState('black')
+  const [transparencyNumber, setTransparencyNumber] = useState(100)
   useEffect(() => {
     if (currentTransparency) {
-      setTransparencyNumber(currentTransparency);
+      setTransparencyNumber(currentTransparency)
     }
-  }, [currentTransparency]);
+  }, [currentTransparency])
   useEffect(() => {
     if (currentColor) {
-      setShowCurrentColor(currentColor);
+      setShowCurrentColor(currentColor)
     }
-  }, [currentColor]);
+  }, [currentColor])
   const handleColorSelect = (color) => {
-    onSelectedColor(color);
-    setShowCurrentColor(color);
-  };
+    onSelectedColor(color)
+    setShowCurrentColor(color)
+  }
   const handleSliderChange = (event, number) => {
-    setTransparencyNumber(number);
-    onChangeTransparency && onChangeTransparency(number);
-  };
+    setTransparencyNumber(number)
+    onChangeTransparency && onChangeTransparency(number)
+  }
   return (
     <FunctionalitySignPdfCommonButtonPopover
       isShowRightIcon={isShowRightIcon}
@@ -79,7 +79,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
                 value={transparencyNumber}
                 defaultValue={currentTransparency || 100}
                 onClick={(e) => {
-                  e.stopPropagation();
+                  e.stopPropagation()
                 }}
                 onChange={handleSliderChange}
               />
@@ -99,7 +99,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
           {(colorList || ['black', 'blue', 'red']).map((color) => (
             <Button
               onClick={(e) => {
-                handleColorSelect(color);
+                handleColorSelect(color)
               }}
               key={color}
               sx={{
@@ -180,6 +180,6 @@ const FunctionalitySignPdfColorButtonPopover: FC<
         />
       )}
     </FunctionalitySignPdfCommonButtonPopover>
-  );
-};
-export default FunctionalitySignPdfColorButtonPopover;
+  )
+}
+export default FunctionalitySignPdfColorButtonPopover

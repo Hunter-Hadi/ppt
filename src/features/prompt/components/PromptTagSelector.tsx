@@ -1,6 +1,6 @@
-import styled from '@emotion/styled';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import SearchIcon from '@mui/icons-material/Search';
+import styled from '@emotion/styled'
+import FavoriteIcon from '@mui/icons-material/Favorite'
+import SearchIcon from '@mui/icons-material/Search'
 import {
   Box,
   IconButton,
@@ -10,15 +10,16 @@ import {
   Tabs,
   TabsProps,
   TextField,
-} from '@mui/material';
-import { useRouter } from 'next/router';
-import { FC, useCallback, useEffect, useRef } from 'react';
+} from '@mui/material'
+import { useRouter } from 'next/router'
+import React from 'react'
+import { FC, useCallback, useEffect, useRef } from 'react'
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import { BaseSelect } from '@/components/select/BaseSelect';
-import { usePromptCategories } from '@/features/prompt';
-import { APP_PROJECT_LINK } from '@/global_constants';
-import snackNotifications from '@/utils/globalSnackbar';
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import { BaseSelect } from '@/components/select/BaseSelect'
+import { usePromptCategories } from '@/features/prompt'
+import { APP_PROJECT_LINK } from '@/global_constants'
+import snackNotifications from '@/utils/globalSnackbar'
 
 export const GrayTabs = styled(({ ...props }: TabsProps) => (
   <Tabs {...props} />
@@ -39,13 +40,13 @@ export const GrayTabs = styled(({ ...props }: TabsProps) => (
   '.MuiTabs-indicator': {
     backgroundColor: '#d8d8d8',
   },
-}));
+}))
 
 const PromptTagSelector: FC<{
-  onLoaded?: () => void;
+  onLoaded?: () => void
 }> = (props) => {
-  const { onLoaded } = props;
-  const router = useRouter();
+  const { onLoaded } = props
+  const router = useRouter()
   const {
     loaded,
     tabActive,
@@ -57,17 +58,17 @@ const PromptTagSelector: FC<{
     setSearchKeyword,
     setCurrentUseCase,
     setCurrentCategory,
-  } = usePromptCategories();
+  } = usePromptCategories()
 
-  const inputTimer = useRef<number | null>(null);
-  const searchValue = useRef<string | null>(null);
+  const inputTimer = useRef<number | null>(null)
+  const searchValue = useRef<string | null>(null)
 
   useEffect(() => {
-    if (!loaded) return;
-    searchValue.current = searchKeyword;
+    if (!loaded) return
+    searchValue.current = searchKeyword
 
-    onLoaded && onLoaded();
-  }, [loaded, onLoaded, searchKeyword]);
+    onLoaded && onLoaded()
+  }, [loaded, onLoaded, searchKeyword])
   useEffect(() => {
     if (loaded && currentUseCase && currentCategory) {
       router.replace({
@@ -78,12 +79,12 @@ const PromptTagSelector: FC<{
           use_case: encodeURIComponent(currentUseCase.value),
           keyword: encodeURIComponent(searchKeyword || ''),
         },
-      });
+      })
     }
-  }, [loaded, currentUseCase, currentCategory, searchKeyword]);
+  }, [loaded, currentUseCase, currentCategory, searchKeyword])
 
   const handleDoSearch = useCallback(() => {
-    const value = searchValue.current;
+    const value = searchValue.current
     if (value !== null && value !== '' && value.length <= 2) {
       // 解析失败报错显示错误提示
       snackNotifications.warning('Enter at least 3 characters to search.', {
@@ -91,24 +92,24 @@ const PromptTagSelector: FC<{
           vertical: 'top',
           horizontal: 'center',
         },
-      });
-      return;
+      })
+      return
     }
-    setSearchKeyword(value);
-  }, [setSearchKeyword]);
+    setSearchKeyword(value)
+  }, [setSearchKeyword])
 
   const startInputSearchTimer = useCallback(() => {
     if (inputTimer.current) {
-      clearTimeout(inputTimer.current);
+      clearTimeout(inputTimer.current)
     }
     inputTimer.current = window.setTimeout(() => {
       if (searchValue.current && searchValue.current?.length >= 3) {
-        handleDoSearch();
+        handleDoSearch()
       } else if (searchValue.current === '') {
-        handleDoSearch();
+        handleDoSearch()
       }
-    }, 600);
-  }, [handleDoSearch]);
+    }, 600)
+  }, [handleDoSearch])
 
   return (
     <Stack
@@ -146,7 +147,7 @@ const PromptTagSelector: FC<{
           options={categoryOptions}
           value={currentCategory?.value}
           onChange={async (value: any, option: any) => {
-            setCurrentCategory(option);
+            setCurrentCategory(option)
           }}
         />
         <BaseSelect
@@ -155,7 +156,7 @@ const PromptTagSelector: FC<{
           options={useCaseOptions}
           value={currentUseCase?.value}
           onChange={async (value, option) => {
-            setCurrentUseCase(option);
+            setCurrentUseCase(option)
           }}
         />
         <TextField
@@ -168,15 +169,15 @@ const PromptTagSelector: FC<{
             ml: 'auto',
           }}
           onChange={(event: any) => {
-            const value = event.target.value;
-            searchValue.current = value;
+            const value = event.target.value
+            searchValue.current = value
             if (value === '' || value.length > 2) {
-              startInputSearchTimer();
+              startInputSearchTimer()
             }
           }}
           onKeyDown={(event) => {
             if (event.key === 'Enter') {
-              handleDoSearch();
+              handleDoSearch()
             }
           }}
           onBlur={handleDoSearch}
@@ -192,6 +193,6 @@ const PromptTagSelector: FC<{
         />
       </AppLoadingLayout>
     </Stack>
-  );
-};
-export { PromptTagSelector };
+  )
+}
+export { PromptTagSelector }

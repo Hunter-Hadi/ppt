@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI শিল্প",
     "features__ai_translator__label": "AI অনুবাদক",
     "features__ai_vision__label": "AI ভিশন"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "আমার পরিকল্পনা",
+    "auth_avatar__menu_item__rewards": "পুরস্কার",
+    "auth_avatar__menu_item__get_started": "শুরু করুন",
+    "auth_avatar__menu_item__log_out": "লগ আউট",
+    "auth_avatar__account_settings": "অ্যাকাউন্ট সেটিংস"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "সাইন ইন"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "আপনার দেশ বা অঞ্চল নির্বাচন করুন"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "ক্রোমে যোগ করুন - এটি বিনামূল্যে",
+    "install_button__add_to_chrome_for_free__mini": "ক্রোমে যোগ করুন",
+    "install_button__add_to_edge_for_free": "এজে যোগ করুন - এটি বিনামূল্যে",
+    "install_button__add_to_edge_for_free__mini": "এজে যোগ করুন",
+    "extension_detection_alert__title": "ম্যাক্সএআই.মি {{BROWSER_AGENT}} এক্সটেনশন ইনস্টল করুন চালিয়ে যান।"
   }
 }

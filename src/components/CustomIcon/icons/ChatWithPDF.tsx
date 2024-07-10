@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const ChatWithPDF: FC<SvgIconProps> = (props) => {
   return (
@@ -21,6 +22,6 @@ const ChatWithPDF: FC<SvgIconProps> = (props) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
-export default ChatWithPDF;
+  )
+}
+export default ChatWithPDF

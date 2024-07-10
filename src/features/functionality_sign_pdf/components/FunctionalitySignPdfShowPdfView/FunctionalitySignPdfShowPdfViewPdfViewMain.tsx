@@ -1,8 +1,9 @@
-import 'react-pdf/dist/Page/AnnotationLayer.css';
-import 'react-pdf/dist/Page/TextLayer.css';
+import 'react-pdf/dist/Page/AnnotationLayer.css'
+import 'react-pdf/dist/Page/TextLayer.css'
 
-import { Box, IconButton, Stack, TextField } from '@mui/material';
-import { useTranslation } from 'next-i18next';
+import { Box, IconButton, Stack, TextField } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 import {
   forwardRef,
   ForwardRefRenderFunction,
@@ -10,34 +11,34 @@ import {
   useImperativeHandle,
   useRef,
   useState,
-} from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
+} from 'react'
+import { Document, Page, pdfjs } from 'react-pdf'
 
-import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySignElementWidth';
-import { useFunctionalitySignScrollPagination } from '../../hooks/useFunctionalitySignScrollPagination';
-import { getGlobalCenterRelativeToWrapperPosition } from '../../utils/canvasTools';
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfShowPdfViewDroppable from './FunctionalitySignPdfDroppable';
+import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySignElementWidth'
+import { useFunctionalitySignScrollPagination } from '../../hooks/useFunctionalitySignScrollPagination'
+import { getGlobalCenterRelativeToWrapperPosition } from '../../utils/canvasTools'
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
+import FunctionalitySignPdfShowPdfViewDroppable from './FunctionalitySignPdfDroppable'
 import FunctionalitySignPdfShowPdfViewRenderCanvas, {
   ICanvasObjectData,
   IFunctionalitySignPdfShowPdfCanvasHandles,
-} from './FunctionalitySignPdfShowPdfViewRenderCanvas';
+} from './FunctionalitySignPdfShowPdfViewRenderCanvas'
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
-).toString();
+).toString()
 
 export interface IFunctionalitySignPdfShowPdfViewHandles {
-  discardAllActiveObject: () => void;
-  getNumPages: () => number;
+  discardAllActiveObject: () => void
+  getNumPages: () => number
   onAddObject?: (
     canvasObject: ICanvasObjectData & { pdfIndex?: number },
-  ) => void;
+  ) => void
 }
 
 interface IFunctionalitySignPdfShowPdfViewProps {
-  file: File;
-  onChangePdfHaveSignObjectNumber?: (number: number) => void;
+  file: File
+  onChangePdfHaveSignObjectNumber?: (number: number) => void
 }
 /**
  * 签名PDF处的视图
@@ -46,59 +47,59 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file, onChangePdfHaveSignObjectNumber }, handleRef) => {
-  const { t } = useTranslation();
-  const wrapRef = useRef<HTMLDivElement>(null);
-  const pdfPageRefs = useRef<HTMLElement[]>([]);
+  const { t } = useTranslation()
+  const wrapRef = useRef<HTMLDivElement>(null)
+  const pdfPageRefs = useRef<HTMLElement[]>([])
   const canvasHandlesRefs = useRef<IFunctionalitySignPdfShowPdfCanvasHandles[]>(
     [],
-  );
+  )
 
-  const [numPages, setNumPages] = useState<number>(0); //PDF的页数
-  const defaultWidth = useRef(700); //TODO:应该是根据pdf宽度变更，但目前用着没问题，先这样，后续再调整
+  const [numPages, setNumPages] = useState<number>(0) //PDF的页数
+  const defaultWidth = useRef(700) //TODO:应该是根据pdf宽度变更，但目前用着没问题，先这样，后续再调整
   const [allPageCanvasSignNumberObject, setAllPageCanvasSignNumberObject] =
     useState<{
-      [key in number]: number;
-    }>({}); //每一页的签名对象数量,可以知道当前有几个可签名的object
+      [key in number]: number
+    }>({}) //每一页的签名对象数量,可以知道当前有几个可签名的object
   const [selfAdaptionWidth, setSelfAdaptionWidth] = useState<number>(
     defaultWidth.current,
-  ); //根据窗口调节宽度
-  const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(true);
-  const [isScrollShow, setIsScrollShow] = useState(false);
+  ) //根据窗口调节宽度
+  const [isSelfAdaption, setIsSelfAdaption] = useState<boolean>(true)
+  const [isScrollShow, setIsScrollShow] = useState(false)
 
   const { ref: rollingRef, width: parentWidth } =
-    useFunctionalitySignElementWidth(); //获取父元素的宽度
+    useFunctionalitySignElementWidth() //获取父元素的宽度
   const [pagesInitialSizeList, setPagesInitialSizeList] = useState<
     {
-      width: number;
-      height: number;
+      width: number
+      height: number
     }[]
-  >([]);
+  >([])
   //获取pdf的信息
   const getFilePdfInfoList = async () => {
     try {
-      const buff = await file.arrayBuffer(); // Uint8Array
-      const pdfDocument = await pdfjs.getDocument(buff).promise;
+      const buff = await file.arrayBuffer() // Uint8Array
+      const pdfDocument = await pdfjs.getDocument(buff).promise
       for (
         let pageNum = 1;
         pageNum <= pdfDocument._pdfInfo.numPages;
         pageNum++
       ) {
-        const page = await pdfDocument.getPage(pageNum);
-        const viewport = page.getViewport({ scale: 2 });
+        const page = await pdfDocument.getPage(pageNum)
+        const viewport = page.getViewport({ scale: 2 })
         setPagesInitialSizeList((list) => [
           ...list,
           { width: viewport.width, height: viewport.height },
-        ]);
+        ])
       }
     } catch (e) {
-      console.log(e);
+      console.log(e)
     }
-  };
+  }
   useEffect(() => {
     if (file) {
-      getFilePdfInfoList();
+      getFilePdfInfoList()
     }
-  }, [file]);
+  }, [file])
   const {
     scrollTime,
     currentPage,
@@ -109,18 +110,18 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     numPages || 0,
     rollingRef,
     pdfPageRefs,
-  ); //滚动分页
+  ) //滚动分页
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval = -1
     const checkScrollTime = () => {
-      setIsScrollShow(scrollTime + 3000 > new Date().valueOf());
-    };
-    checkScrollTime();
-    interval = setInterval(checkScrollTime, 1000);
+      setIsScrollShow(scrollTime + 3000 > new Date().valueOf())
+    }
+    checkScrollTime()
+    interval = window.setInterval(checkScrollTime, 1000)
     return () => {
-      clearInterval(interval);
-    };
-  }, [scrollTime]);
+      clearInterval(interval)
+    }
+  }, [scrollTime])
 
   useEffect(() => {
     //通知父级 签名的对象数量
@@ -129,88 +130,88 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
         Object.keys(allPageCanvasSignNumberObject)
           .map((key) => allPageCanvasSignNumberObject[key])
           .reduce((pre, cur) => pre + cur, 0),
-      );
-  }, [allPageCanvasSignNumberObject]);
+      )
+  }, [allPageCanvasSignNumberObject])
   useImperativeHandle(
     handleRef,
     () => ({
       discardAllActiveObject: () => {
         if (canvasHandlesRefs.current) {
           canvasHandlesRefs.current.forEach((canvasHandlesRef) => {
-            canvasHandlesRef.discardActiveObject();
-          });
+            canvasHandlesRef.discardActiveObject()
+          })
         }
       },
       getNumPages: () => numPages,
       onAddObject: (value) => {
         //添加对象
-        let isAutoObjectSizePosition = false;
+        let isAutoObjectSizePosition = false
         if ((!value.x || !value.y) && rollingRef.current) {
           // 如果没有指定位置，则添加到滚动视图中心
           const { positionInPageX, positionInPageY } =
             getGlobalCenterRelativeToWrapperPosition(
               rollingRef.current,
               pdfPageRefs.current[currentPage],
-            );
-          value.x = positionInPageX;
-          value.y = positionInPageY;
-          isAutoObjectSizePosition = true;
+            )
+          value.x = positionInPageX
+          value.y = positionInPageY
+          isAutoObjectSizePosition = true
         }
         const currentNumber =
-          value.pdfIndex !== undefined ? value.pdfIndex : currentPage;
+          value.pdfIndex !== undefined ? value.pdfIndex : currentPage
         if (currentNumber !== undefined) {
           //添加对象
           const onAddObject =
-            canvasHandlesRefs.current[currentNumber]?.onAddObject;
+            canvasHandlesRefs.current[currentNumber]?.onAddObject
           if (onAddObject) {
-            onAddObject(value, undefined, isAutoObjectSizePosition);
+            onAddObject(value, undefined, isAutoObjectSizePosition)
           }
         }
       },
     }),
     [canvasHandlesRefs.current, numPages, currentPage],
-  );
+  )
 
   function onDocumentLoadSuccess({ numPages }: { numPages: number }): void {
-    setNumPages(numPages);
+    setNumPages(numPages)
   }
 
   //滚动到指定页
   const onSelfAdaption = () => {
     if (!isSelfAdaption) {
-      setSelfAdaptionWidth(defaultWidth.current);
+      setSelfAdaptionWidth(defaultWidth.current)
     }
-    setIsSelfAdaption(!isSelfAdaption);
-  };
+    setIsSelfAdaption(!isSelfAdaption)
+  }
   //调整宽度
   const onChangeSize = (type: 'reduce' | 'add') => {
     if (isSelfAdaption) {
-      setSelfAdaptionWidth(parentWidth - 15);
-      setIsSelfAdaption(false);
+      setSelfAdaptionWidth(parentWidth - 15)
+      setIsSelfAdaption(false)
     }
     if (type === 'reduce') {
-      setSelfAdaptionWidth((width) => Math.max(width - 50, 200));
+      setSelfAdaptionWidth((width) => Math.max(width - 50, 200))
     } else {
-      setSelfAdaptionWidth((width) => width + 50);
+      setSelfAdaptionWidth((width) => width + 50)
     }
-  };
+  }
   //输入页数跳转
   const onTextInputKeyDown = (event) => {
     if (event.key === 'Enter' || event.code === 'Enter') {
-      const value = event.target.value;
+      const value = event.target.value
       if (value) {
-        const num = Number(value);
+        const num = Number(value)
         if (num > 0 && num <= (numPages || 0)) {
-          scrollToPage(num - 1);
+          scrollToPage(num - 1)
         }
       }
     }
-  };
+  }
   const onChangeObjectNumber = (index: number, number: number) => {
     setAllPageCanvasSignNumberObject((pre) => {
-      return { ...pre, [index]: number };
-    });
-  };
+      return { ...pre, [index]: number }
+    })
+  }
   return (
     <Stack
       ref={wrapRef}
@@ -284,18 +285,18 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                         canvasNumber={numPages}
                         ref={(el) => {
                           if (el) {
-                            canvasHandlesRefs.current[index] = el;
+                            canvasHandlesRefs.current[index] = el
                           }
                         }}
                         onChangeObjectNumber={(number) =>
                           onChangeObjectNumber(index, number)
                         }
                         addIndexObject={(object, index) => {
-                          if (!canvasHandlesRefs.current[index]) return;
+                          if (!canvasHandlesRefs.current[index]) return
                           const addObjectFunction =
-                            canvasHandlesRefs.current[index].onAddObject;
+                            canvasHandlesRefs.current[index].onAddObject
                           if (addObjectFunction) {
-                            addObjectFunction(undefined, object);
+                            addObjectFunction(undefined, object)
                           }
                         }}
                         sizeInfo={pagesInitialSizeList[index]}
@@ -405,6 +406,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
         </Stack>
       </Stack>
     </Stack>
-  );
-};
-export default forwardRef(FunctionalitySignPdfShowPdfViewPdfViewMain);
+  )
+}
+export default forwardRef(FunctionalitySignPdfShowPdfViewPdfViewMain)

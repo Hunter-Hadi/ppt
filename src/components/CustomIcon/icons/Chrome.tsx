@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const Chrome: FC<SvgIconProps> = (props) => {
   return (
@@ -23,6 +24,6 @@ const Chrome: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default Chrome;
+  )
+}
+export default Chrome

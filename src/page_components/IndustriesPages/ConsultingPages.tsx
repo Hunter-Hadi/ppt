@@ -1,16 +1,17 @@
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import Abilities from '@/page_components/IndustriesPages/components/Abilities';
-import Banner from '@/page_components/IndustriesPages/components/Banner';
-import CommentSwiper from '@/page_components/IndustriesPages/components/CommentSwiper';
-import Description from '@/page_components/IndustriesPages/components/Description';
-import InstallInChrome from '@/page_components/IndustriesPages/components/InstallInChrome';
-import TakeBackTime from '@/page_components/IndustriesPages/components/TakeBackTime';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import Abilities from '@/page_components/IndustriesPages/components/Abilities'
+import Banner from '@/page_components/IndustriesPages/components/Banner'
+import CommentSwiper from '@/page_components/IndustriesPages/components/CommentSwiper'
+import Description from '@/page_components/IndustriesPages/components/Description'
+import InstallInChrome from '@/page_components/IndustriesPages/components/InstallInChrome'
+import TakeBackTime from '@/page_components/IndustriesPages/components/TakeBackTime'
 // import PricingPage from '@/features/pricing/PricingPage';
 
 const ConsultingPages = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <>
@@ -112,7 +113,7 @@ const ConsultingPages = () => {
 
       <InstallInChrome />
     </>
-  );
-};
+  )
+}
 
-export default ConsultingPages;
+export default ConsultingPages

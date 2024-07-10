@@ -1,38 +1,39 @@
-import { Box, Skeleton, SxProps } from '@mui/material';
-import { FC, useCallback, useState } from 'react';
-import { ResponsiveContainer } from 'recharts';
+import { Box, Skeleton, SxProps } from '@mui/material'
+import React from 'react'
+import { FC, useCallback, useState } from 'react'
+import { ResponsiveContainer } from 'recharts'
 
 const VideoPlayer: FC<{
-  sx?: SxProps;
-  src: string;
-  poster?: string;
-  width?: string;
-  height?: string;
-  controls?: boolean;
-  autoPlay?: boolean;
-  loop?: boolean;
-  muted?: boolean;
-  playsInline?: boolean;
-  preload?: 'auto' | 'metadata' | 'none';
-  onPlay?: () => void;
-  onPause?: () => void;
-  onEnded?: () => void;
-  onTimeUpdate?: () => void;
-  onLoadedMetadata?: () => void;
-  onLoadedData?: () => void;
-  onWaiting?: () => void;
-  onCanPlay?: () => void;
-  onCanPlayThrough?: () => void;
-  onSeeking?: () => void;
-  onSeeked?: () => void;
-  onStalled?: () => void;
-  onSuspend?: () => void;
-  onAbort?: () => void;
-  onError?: () => void;
-  onEmptied?: () => void;
-  onDurationChange?: () => void;
-  onRateChange?: () => void;
-  onVolumeChange?: () => void;
+  sx?: SxProps
+  src: string
+  poster?: string
+  width?: string
+  height?: string
+  controls?: boolean
+  autoPlay?: boolean
+  loop?: boolean
+  muted?: boolean
+  playsInline?: boolean
+  preload?: 'auto' | 'metadata' | 'none'
+  onPlay?: () => void
+  onPause?: () => void
+  onEnded?: () => void
+  onTimeUpdate?: () => void
+  onLoadedMetadata?: () => void
+  onLoadedData?: () => void
+  onWaiting?: () => void
+  onCanPlay?: () => void
+  onCanPlayThrough?: () => void
+  onSeeking?: () => void
+  onSeeked?: () => void
+  onStalled?: () => void
+  onSuspend?: () => void
+  onAbort?: () => void
+  onError?: () => void
+  onEmptied?: () => void
+  onDurationChange?: () => void
+  onRateChange?: () => void
+  onVolumeChange?: () => void
 }> = (props) => {
   const {
     sx,
@@ -65,14 +66,14 @@ const VideoPlayer: FC<{
     onDurationChange,
     onRateChange,
     onVolumeChange,
-  } = props;
+  } = props
 
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true)
 
   const onLoadedDataHandler = useCallback(() => {
-    setLoading(false);
-    onLoadedData && onLoadedData();
-  }, [onLoadedData]);
+    setLoading(false)
+    onLoadedData && onLoadedData()
+  }, [onLoadedData])
 
   return (
     <Box
@@ -129,6 +130,6 @@ const VideoPlayer: FC<{
         />
       </ResponsiveContainer>
     </Box>
-  );
-};
-export default VideoPlayer;
+  )
+}
+export default VideoPlayer

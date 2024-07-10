@@ -1,25 +1,25 @@
-import { Button, SxProps, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import { Button, SxProps, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import { EXTENSION_SHARE_TRACKER_LINK } from '@/global_constants';
+import { EXTENSION_SHARE_TRACKER_LINK } from '@/global_constants'
 
 interface IProps {
-  sx?: SxProps;
-  propRef?: string;
-  text?: string | null;
-  href?: string | null;
-  target?: React.HTMLAttributeAnchorTarget;
+  sx?: SxProps
+  propRef?: string
+  text?: string | null
+  href?: string | null
+  target?: React.HTMLAttributeAnchorTarget
 }
 
 const TryExtensionButton: FC<IProps> = ({
   sx,
-  propRef,
+  // propRef,
   text,
   href,
   target = '_blank',
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Button
@@ -43,7 +43,7 @@ const TryExtensionButton: FC<IProps> = ({
         {text ? text : t('pages:partners__try_our_extension')}
       </Typography>
     </Button>
-  );
-};
+  )
+}
 
-export default TryExtensionButton;
+export default TryExtensionButton

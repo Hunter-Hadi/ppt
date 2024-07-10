@@ -1,17 +1,18 @@
-import { Box, Typography } from '@mui/material';
-import { useEffect, useRef, useState } from 'react';
+import { Box, Typography } from '@mui/material'
+import { useEffect, useRef, useState } from 'react'
+import React from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import HomePageContent from '@/features/landing/components/HomePageContent';
-import useEffectOnce from '@/hooks/useEffectOnce';
-import { makeStaticProps } from '@/i18n/utils/staticHelper';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import HomePageContent from '@/features/landing/components/HomePageContent'
+import useEffectOnce from '@/hooks/useEffectOnce'
+import { makeStaticProps } from '@/i18n/utils/staticHelper'
 
 // 用于外部嵌入的 overview 页面
 const EmbedPartner = () => {
-  const [loaded, setLoaded] = useState(false);
-  const contentRef = useRef<any>(null);
+  const [loaded, setLoaded] = useState(false)
+  const contentRef = useRef<any>(null)
 
-  useEffectOnce(() => setLoaded(true));
+  useEffectOnce(() => setLoaded(true))
 
   useEffect(() => {
     if (loaded && window.parent) {
@@ -21,9 +22,9 @@ const EmbedPartner = () => {
           height: contentRef.current?.offsetHeight,
         },
         '*',
-      );
+      )
     }
-  }, [loaded]);
+  }, [loaded])
 
   return (
     <Box
@@ -58,10 +59,10 @@ const EmbedPartner = () => {
       </Box>
       <HomePageContent />
     </Box>
-  );
-};
+  )
+}
 
-export default EmbedPartner;
+export default EmbedPartner
 
-const getStaticProps = makeStaticProps();
-export { getStaticProps };
+const getStaticProps = makeStaticProps()
+export { getStaticProps }

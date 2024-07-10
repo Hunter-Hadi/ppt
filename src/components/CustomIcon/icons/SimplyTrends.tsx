@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const SimplyTrends: FC<SvgIconProps> = (props) => {
   return (
@@ -19,6 +20,6 @@ const SimplyTrends: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default SimplyTrends;
+  )
+}
+export default SimplyTrends

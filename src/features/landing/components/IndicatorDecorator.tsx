@@ -1,8 +1,9 @@
-import { Box, Stack } from '@mui/material';
-import { FC } from 'react';
+import { Box, Stack } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
 const IndicatorDecorator: FC<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }> = ({ children }) => {
   return (
     <Stack
@@ -64,7 +65,7 @@ const IndicatorDecorator: FC<{
         </g>
       </svg>
     </Stack>
-  );
-};
+  )
+}
 
-export default IndicatorDecorator;
+export default IndicatorDecorator

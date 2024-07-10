@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const BardLogo: FC<SvgIconProps> = (props) => {
   return (
@@ -50,6 +51,6 @@ const BardLogo: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default BardLogo;
+  )
+}
+export default BardLogo

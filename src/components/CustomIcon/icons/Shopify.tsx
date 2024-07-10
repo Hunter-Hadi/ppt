@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import React from 'react'
+import { FC } from 'react'
 
 const Shopify: FC<SvgIconProps> = (props) => {
   return (
@@ -19,6 +20,6 @@ const Shopify: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default Shopify;
+  )
+}
+export default Shopify

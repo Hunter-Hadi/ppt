@@ -1,14 +1,15 @@
-import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material';
-import isRegExp from 'lodash-es/isRegExp';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import { useMemo } from 'react';
+import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material'
+import isRegExp from 'lodash-es/isRegExp'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import { useMemo } from 'react'
+import React from 'react'
 
-import FooterList from '@/components/Footerlist';
-import ProLink from '@/components/ProLink';
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
-import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants';
-import AppLogo from '@/page_components/AppLogo';
+import FooterList from '@/components/Footerlist'
+import ProLink from '@/components/ProLink'
+import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
+import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants'
+import AppLogo from '@/page_components/AppLogo'
 
 const footerBlackList = [
   '/terms',
@@ -17,27 +18,27 @@ const footerBlackList = [
   /\/partners\//,
   /\/share/,
   '/release-notes',
-];
+]
 
-export const APP_FOOTER_ID = 'app-footer';
+export const APP_FOOTER_ID = 'app-footer'
 
 const AppFooter = () => {
-  const { pathname } = useRouter();
+  const { pathname } = useRouter()
 
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const showFooter = useMemo(() => {
     return !footerBlackList.some((rule) => {
       if (isRegExp(rule)) {
-        const reg = new RegExp(rule);
-        return reg.test(pathname);
+        const reg = new RegExp(rule)
+        return reg.test(pathname)
       }
-      return rule === pathname;
-    });
-  }, [pathname]);
+      return rule === pathname
+    })
+  }, [pathname])
 
   if (!showFooter) {
-    return null;
+    return null
   }
 
   return (
@@ -388,7 +389,7 @@ const AppFooter = () => {
         </Box>
       </Paper>
     </footer>
-  );
-};
+  )
+}
 
-export default AppFooter;
+export default AppFooter

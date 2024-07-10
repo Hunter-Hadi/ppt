@@ -1,17 +1,18 @@
-import { Box, Typography } from '@mui/material';
-import Button from '@mui/material/Button';
-import { FC, useEffect, useMemo, useState } from 'react';
+import { Box, Typography } from '@mui/material'
+import Button from '@mui/material/Button'
+import React from 'react'
+import { FC, useEffect, useMemo, useState } from 'react'
 
-import { SIGN_TYPING_FONT_FAMILY_LIST } from '../../constant';
-import FunctionalitySignPdfCommonButtonPopover from './FunctionalitySignPdfCommonButtonPopover';
+import { SIGN_TYPING_FONT_FAMILY_LIST } from '../../constant'
+import FunctionalitySignPdfCommonButtonPopover from './FunctionalitySignPdfCommonButtonPopover'
 interface IFunctionalitySignPdfColorButtonPopoverProps {
-  currentFont?: string;
-  optionShowTitle?: string;
-  onSelectedFont: (fonts: string) => void;
-  isShowFontsName?: boolean;
-  fontSize?: number;
-  fontsList?: string[];
-  title?: string;
+  currentFont?: string
+  optionShowTitle?: string
+  onSelectedFont: (fonts: string) => void
+  isShowFontsName?: boolean
+  fontSize?: number
+  fontsList?: string[]
+  title?: string
 }
 /**
  * 用于选择字体的弹出式按钮
@@ -29,20 +30,20 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
   const defaultAndCustomFontsList = useMemo(
     () => [...(fontsList || []), ...SIGN_TYPING_FONT_FAMILY_LIST],
     [fontsList],
-  );
+  )
   const [newCurrentFont, setNewCurrentFont] = useState(
     defaultAndCustomFontsList[0],
-  );
+  )
 
   const handleColorSelect = (fonts) => {
-    onSelectedFont(fonts);
-    setNewCurrentFont(fonts);
-  };
+    onSelectedFont(fonts)
+    setNewCurrentFont(fonts)
+  }
   useEffect(() => {
     if (currentFont) {
-      setNewCurrentFont(currentFont);
+      setNewCurrentFont(currentFont)
     }
-  }, [currentFont]);
+  }, [currentFont])
   return (
     <FunctionalitySignPdfCommonButtonPopover
       buttonProps={{
@@ -93,6 +94,6 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
         </Typography>
       </Box>
     </FunctionalitySignPdfCommonButtonPopover>
-  );
-};
-export default FunctionalitySignPdfFontsButtonPopover;
+  )
+}
+export default FunctionalitySignPdfFontsButtonPopover

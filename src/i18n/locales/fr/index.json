@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "Art IA",
     "features__ai_translator__label": "Traducteur IA",
     "features__ai_vision__label": "Vision IA"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Se connecter"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Mon plan",
+    "auth_avatar__menu_item__rewards": "Récompenses",
+    "auth_avatar__menu_item__get_started": "Commencer",
+    "auth_avatar__menu_item__log_out": "Se déconnecter",
+    "auth_avatar__account_settings": "Paramètres du compte"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Choisissez votre pays ou région"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Ajouter à Chrome - C'est gratuit",
+    "install_button__add_to_chrome_for_free__mini": "Ajouter à Chrome",
+    "install_button__add_to_edge_for_free": "Ajouter à Edge - C'est gratuit",
+    "install_button__add_to_edge_for_free__mini": "Ajouter à Edge",
+    "extension_detection_alert__title": "Installer l'extension MaxAI.me {{BROWSER_AGENT}} pour continuer."
   }
 }

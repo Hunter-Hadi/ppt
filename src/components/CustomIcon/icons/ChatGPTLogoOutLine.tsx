@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const ChatGPTLogoOutLine: FC<SvgIconProps> = (props) => {
   return (
@@ -29,6 +30,6 @@ const ChatGPTLogoOutLine: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default ChatGPTLogoOutLine;
+  )
+}
+export default ChatGPTLogoOutLine

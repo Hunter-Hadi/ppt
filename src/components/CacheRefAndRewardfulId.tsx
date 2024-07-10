@@ -1,44 +1,45 @@
-import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router'
+import React from 'react'
+import { useEffect, useState } from 'react'
 
-import { useSendRefCount } from '@/hooks/useSendRefCount';
-import { syncWebSiteDataToStorageWithIframe } from '@/utils/syncWebSiteData';
+import { useSendRefCount } from '@/hooks/useSendRefCount'
+import { syncWebSiteDataToStorageWithIframe } from '@/utils/syncWebSiteData'
 
 const CacheRefAndRewardfulId = () => {
-  const router = useRouter();
+  const router = useRouter()
 
-  const [ref, setRef] = useState('');
+  const [ref, setRef] = useState('')
 
-  const [_, setRewardfulId] = useState('');
+  const [_, setRewardfulId] = useState('')
 
-  useSendRefCount(ref, 'ref');
+  useSendRefCount(ref, 'ref')
 
   useEffect(() => {
-    const query = router.query;
+    const query = router.query
     if (query.ref) {
-      setRef(query.ref as string);
+      setRef(query.ref as string)
       syncWebSiteDataToStorageWithIframe({
         LANDING_PAGE_REF: query.ref.toString(),
-      });
+      })
     }
     if (query.rewardfulId) {
-      setRewardfulId(query.rewardfulId as string);
+      setRewardfulId(query.rewardfulId as string)
       syncWebSiteDataToStorageWithIframe({
         MAXAI_REWARDFUL_REFERRAL_ID: query.rewardfulId.toString(),
-      });
+      })
     }
-  }, [router.query]);
+  }, [router.query])
 
   useEffect(() => {
-    const windowClone = window as any;
+    const windowClone = window as any
     windowClone.rewardful('ready', function () {
       if (windowClone.Rewardful.referral) {
-        setRewardfulId(windowClone.Rewardful.referral);
+        setRewardfulId(windowClone.Rewardful.referral)
       }
-    });
-  }, []);
+    })
+  }, [])
 
-  return <></>;
+  return <></>
 
   // 被 syncWebSiteDataToStorageWithIframe 替代
   // return (
@@ -65,6 +66,6 @@ const CacheRefAndRewardfulId = () => {
   //     ) : null}
   //   </>
   // );
-};
+}
 
-export default CacheRefAndRewardfulId;
+export default CacheRefAndRewardfulId

@@ -20,18 +20,18 @@ export const changeImageColor = (imageData: ImageData, color: string) => {
   return imageData;
 };
 export const findFirstNonTransparentPixel = (image: HTMLImageElement) => {
-  let canvas = document.createElement('canvas');
-  let ctx = canvas?.getContext('2d');
+  const canvas = document.createElement('canvas');
+  const ctx = canvas?.getContext('2d');
   if (!ctx) return '';
   ctx.drawImage(image, 0, 0);
   for (let y = 0; y < image.height; y++) {
     for (let x = 0; x < image.width; x++) {
       // 取得一个像素点的数据
-      let imgData = ctx.getImageData(x, y, 1, 1);
-      let red = imgData.data[0];
-      let green = imgData.data[1];
-      let blue = imgData.data[2];
-      let alpha = imgData.data[3];
+      const imgData = ctx.getImageData(x, y, 1, 1);
+      const red = imgData.data[0];
+      const green = imgData.data[1];
+      const blue = imgData.data[2];
+      const alpha = imgData.data[3];
 
       // 排除透明色
       if (alpha !== 0) {

@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "هنر هوش مصنوعی",
     "features__ai_translator__label": "مترجم هوش مصنوعی",
     "features__ai_vision__label": "بینایی هوش مصنوعی"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "طرح من",
+    "auth_avatar__menu_item__rewards": "پاداش‌ها",
+    "auth_avatar__menu_item__get_started": "شروع کنید",
+    "auth_avatar__menu_item__log_out": "خروج",
+    "auth_avatar__account_settings": "تنظیمات حساب کاربری"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "ورود"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "کشور یا منطقه خود را انتخاب کنید"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "افزودن به Chrome - رایگان است",
+    "install_button__add_to_chrome_for_free__mini": "افزودن به Chrome",
+    "install_button__add_to_edge_for_free": "افزودن به Edge - رایگان است",
+    "install_button__add_to_edge_for_free__mini": "افزودن به Edge",
+    "extension_detection_alert__title": "برای ادامه، افزونه MaxAI.me {{BROWSER_AGENT}} را نصب کنید."
   }
 }

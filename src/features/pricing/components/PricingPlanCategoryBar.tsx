@@ -1,33 +1,34 @@
-import { Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC, useEffect, useMemo } from 'react';
-import { useRecoilState, useSetRecoilState } from 'recoil';
+import { Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC, useEffect, useMemo } from 'react'
+import { useRecoilState, useSetRecoilState } from 'recoil'
 
 import {
   PricingPaymentTypeAtom,
   PricingPlanCategoryState,
-} from '@/features/pricing/store';
-import { IPricingPlanCategory } from '@/features/pricing/type';
+} from '@/features/pricing/store'
+import { IPricingPlanCategory } from '@/features/pricing/type'
 
 interface IPricingPlanCategoryBarProps {
-  onlyRenderCategory?: IPricingPlanCategory;
+  onlyRenderCategory?: IPricingPlanCategory
 }
 
 const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
   onlyRenderCategory,
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const [pricingPlanCategory, setPricingPlanCategory] = useRecoilState(
     PricingPlanCategoryState,
-  );
+  )
 
-  const setPaymentType = useSetRecoilState(PricingPaymentTypeAtom);
+  const setPaymentType = useSetRecoilState(PricingPaymentTypeAtom)
 
   const PRICING_CATEGORY = useMemo<
     {
-      label: string;
-      value: IPricingPlanCategory;
+      label: string
+      value: IPricingPlanCategory
     }[]
   >(() => {
     return [
@@ -39,26 +40,26 @@ const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
         label: t('pages:pricing__plan_category__team__label'),
         value: 'team',
       },
-    ];
-  }, [t]);
+    ]
+  }, [t])
 
   const renderCategory = useMemo(() => {
     if (onlyRenderCategory) {
-      setPricingPlanCategory(onlyRenderCategory);
+      setPricingPlanCategory(onlyRenderCategory)
       return PRICING_CATEGORY.filter(
         (item) => item.value === onlyRenderCategory,
-      );
+      )
     }
 
-    return PRICING_CATEGORY;
-  }, [PRICING_CATEGORY, onlyRenderCategory]);
+    return PRICING_CATEGORY
+  }, [PRICING_CATEGORY, onlyRenderCategory])
 
   useEffect(() => {
     // 每次切换到team plan之后，再切回 individual plan，都默认选中yearly - @huangsong - 2024-05-02
     if (pricingPlanCategory === 'individual') {
-      setPaymentType('yearly');
+      setPaymentType('yearly')
     }
-  }, [pricingPlanCategory]);
+  }, [pricingPlanCategory])
 
   return (
     <Stack
@@ -71,7 +72,7 @@ const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
       }}
     >
       {renderCategory.map((pricingCategoryItem) => {
-        const isActive = pricingPlanCategory === pricingCategoryItem.value;
+        const isActive = pricingPlanCategory === pricingCategoryItem.value
         return (
           <Stack
             component={'button'}
@@ -95,10 +96,10 @@ const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
               transition: 'all 0.3s ease',
             }}
             onClick={() => {
-              setPricingPlanCategory(pricingCategoryItem.value);
+              setPricingPlanCategory(pricingCategoryItem.value)
               // 因为现在 team plan 只有月付，所以在改变为 team plan 时需要将，paymentType 改为 monthly
               if (pricingCategoryItem.value === 'team') {
-                setPaymentType('monthly');
+                setPaymentType('monthly')
               }
             }}
           >
@@ -111,10 +112,10 @@ const PricingPlanCategoryBar: FC<IPricingPlanCategoryBarProps> = ({
               {pricingCategoryItem.label}
             </Typography>
           </Stack>
-        );
+        )
       })}
     </Stack>
-  );
-};
+  )
+}
 
-export default PricingPlanCategoryBar;
+export default PricingPlanCategoryBar

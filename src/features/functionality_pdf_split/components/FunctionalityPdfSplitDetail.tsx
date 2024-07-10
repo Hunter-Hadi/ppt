@@ -5,11 +5,11 @@ import {
   CircularProgress,
   Grid,
   Stack,
-} from '@mui/material';
-import FileSaver from 'file-saver';
-import JSZip from 'jszip';
-import { useTranslation } from 'next-i18next';
-import { PDFDocument } from 'pdf-lib';
+} from '@mui/material'
+import FileSaver from 'file-saver'
+import JSZip from 'jszip'
+import { useTranslation } from 'next-i18next'
+import { PDFDocument } from 'pdf-lib'
 import React, {
   FC,
   useCallback,
@@ -17,42 +17,42 @@ import React, {
   useMemo,
   useRef,
   useState,
-} from 'react';
+} from 'react'
 
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
-} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
-import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
-import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
-import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
-import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector';
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView'
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage'
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip'
+import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale'
+import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector'
 import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
-} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
-import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array';
-import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
+} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion'
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
+import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array'
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
 
 interface IFunctionalityPdfSplitDetail {
-  file: File;
-  onRemoveFile: () => void;
+  file: File
+  onRemoveFile: () => void
 }
 
 export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
   file,
   onRemoveFile,
 }) => {
-  const { t } = useTranslation();
-  const isReadFile = useRef(false);
+  const { t } = useTranslation()
+  const isReadFile = useRef(false)
 
-  const [isFileLoading, setIsFileLoading] = useState<boolean>(false);
+  const [isFileLoading, setIsFileLoading] = useState<boolean>(false)
   const [isSplitDownloadLoading, setIsSplitDownloadLoading] =
-    useState<boolean>(false); //是否正在剪切下载
-  const [pdfLoadDoc, setPdfLoadDoc] = useState<PDFDocument | null>(null);
-  const [activeFile, setActiveFile] = useState<File | null>(null); //保存在这里是为了方便对源数据后续操作
-  const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false); //是否是合并单个pdf
+    useState<boolean>(false) //是否正在剪切下载
+  const [pdfLoadDoc, setPdfLoadDoc] = useState<PDFDocument | null>(null)
+  const [activeFile, setActiveFile] = useState<File | null>(null) //保存在这里是为了方便对源数据后续操作
+  const [isMergeSinglePDf, setIsMergeSinglePDf] = useState<boolean>(false) //是否是合并单个pdf
 
   const {
     convertedPdfImages,
@@ -63,123 +63,123 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
     pdfTotalPages,
     currentPdfActionNum,
     setPdfTotalPages,
-  } = useFunctionalityCommonPdfToImageConversion();
-  const { changeScale, currentScale } = useFunctionalityCommonChangeScale();
+  } = useFunctionalityCommonPdfToImageConversion()
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale()
   const { isSelectAll, onSwitchSelect, onSwitchAllSelect } =
     useFunctionalityCommonConvertedContentSelector<IFunctionalityPdfToImageType>(
       {
         list: convertedPdfImages,
         setList: setConvertedPdfImages,
       },
-    );
+    )
 
   const onUploadFile = async (fileList: FileList) => {
     if (fileList && fileList.length > 0) {
-      setIsFileLoading(true);
-      const file = fileList[0];
-      setActiveFile(fileList[0]);
+      setIsFileLoading(true)
+      const file = fileList[0]
+      setActiveFile(fileList[0])
 
-      const uInt8data = await fileToUInt8Array(file);
-      const pdfLoadDoc = await PDFDocument.load(uInt8data);
-      setPdfLoadDoc(pdfLoadDoc); //保存pdf文档,方便后续操作
-      const isReadSuccess = await onReadPdfToImages(fileList[0], 'png', false);
+      const uInt8data = await fileToUInt8Array(file)
+      const pdfLoadDoc = await PDFDocument.load(uInt8data)
+      setPdfLoadDoc(pdfLoadDoc) //保存pdf文档,方便后续操作
+      const isReadSuccess = await onReadPdfToImages(fileList[0], 'png', false)
       if (!isReadSuccess) {
-        onRemoveFile();
-        setActiveFile(null);
+        onRemoveFile()
+        setActiveFile(null)
       }
-      setIsFileLoading(false);
+      setIsFileLoading(false)
     }
-  };
+  }
   useEffect(() => {
     if (file) {
       if (isReadFile.current) {
-        return;
+        return
       }
-      isReadFile.current = true;
-      onUploadFile([file] as unknown as FileList);
+      isReadFile.current = true
+      onUploadFile([file] as unknown as FileList)
     }
-  }, [file]);
+  }, [file])
   const selectPdfPageList = useMemo(
     () => convertedPdfImages.filter((item) => item.isSelect),
     [convertedPdfImages],
-  );
+  )
   const getMergePdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
     try {
-      const pdfDoc = await PDFDocument.create();
+      const pdfDoc = await PDFDocument.create()
       if (pdfLoadDoc) {
         //复制选中的pdf
         const copyPages = await pdfDoc.copyPages(
           pdfLoadDoc,
           fileList.filter((p) => p.isSelect).map((p) => p.definedIndex - 1),
-        );
+        )
 
-        for (let page of copyPages) {
-          pdfDoc.addPage(page); //添加到新的pdf文档
+        for (const page of copyPages) {
+          pdfDoc.addPage(page) //添加到新的pdf文档
         }
-        return await pdfDoc.save();
+        return await pdfDoc.save()
       }
     } catch (e) {
-      setIsFileLoading(false);
-      console.error('simply mergePdfFiles error', e);
+      setIsFileLoading(false)
+      console.error('simply mergePdfFiles error', e)
       functionalityCommonSnackNotifications(
         t('functionality__pdf_split:components__pdf_split__error_maximum'),
-      );
+      )
     }
-  };
+  }
   const getSplitPdfFiles = async (fileList: IFunctionalityPdfToImageType[]) => {
-    let pdfUint8ArrayList: Uint8Array[] = [];
+    const pdfUint8ArrayList: Uint8Array[] = []
     if (pdfLoadDoc) {
       for (let index = 0; index < fileList.length; index++) {
-        const pdfDoc = await PDFDocument.create(); //创建新的pdf文档
+        const pdfDoc = await PDFDocument.create() //创建新的pdf文档
         const [copiedPage] = await pdfDoc.copyPages(pdfLoadDoc, [
           fileList[index].definedIndex - 1,
-        ]); //复制选中的pdf
-        pdfDoc.addPage(copiedPage); //添加到新的pdf文档
+        ]) //复制选中的pdf
+        pdfDoc.addPage(copiedPage) //添加到新的pdf文档
 
-        const pdfBytes = await pdfDoc.save(); //保存pdf
-        pdfUint8ArrayList.push(pdfBytes);
+        const pdfBytes = await pdfDoc.save() //保存pdf
+        pdfUint8ArrayList.push(pdfBytes)
       }
     }
 
-    return pdfUint8ArrayList;
-  };
+    return pdfUint8ArrayList
+  }
   const confirmToSplit = async () => {
-    setIsSplitDownloadLoading(true);
-    setPdfTotalPages(0);
+    setIsSplitDownloadLoading(true)
+    setPdfTotalPages(0)
     if (selectPdfPageList.length > 0) {
       if (isMergeSinglePDf) {
-        const downloadPdfData = await getMergePdfFiles(selectPdfPageList);
+        const downloadPdfData = await getMergePdfFiles(selectPdfPageList)
         const fileName = functionalityCommonFileNameRemoveAndAddExtension(
           'split-' + activeFile?.name || '',
-        );
+        )
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, fileName);
+          downloadUrl(downloadPdfData, fileName)
         }
       } else {
-        const pdfUint8ArrayList = await getSplitPdfFiles(selectPdfPageList);
-        onDownloadPdfImagesZip(pdfUint8ArrayList);
+        const pdfUint8ArrayList = await getSplitPdfFiles(selectPdfPageList)
+        onDownloadPdfImagesZip(pdfUint8ArrayList)
       }
     }
-    setIsSplitDownloadLoading(false);
-  };
+    setIsSplitDownloadLoading(false)
+  }
   const onDownloadPdfImagesZip = async (list: Uint8Array[]) => {
-    const zip = new JSZip();
+    const zip = new JSZip()
     const folderName = functionalityCommonFileNameRemoveAndAddExtension(
       'split-' + activeFile?.name || '',
       'pdf',
       '',
-    );
-    const zipTool = zip.folder(folderName);
+    )
+    const zipTool = zip.folder(folderName)
     for (let i = 0; i < list.length; i++) {
-      zipTool?.file(`split-${i + 1}(Powered by MaxAI).pdf`, list[i]);
+      zipTool?.file(`split-${i + 1}(Powered by MaxAI).pdf`, list[i])
     }
     zip.generateAsync({ type: 'blob' }).then((content) => {
-      FileSaver.saveAs(content, folderName + '.zip');
-    });
-  };
+      FileSaver.saveAs(content, folderName + '.zip')
+    })
+  }
 
-  const currentInitializeLoading = pdfIsLoading || isFileLoading; //文件加载和pdf加载 初始化
-  const currentIsLoading = currentInitializeLoading || isSplitDownloadLoading;
+  const currentInitializeLoading = pdfIsLoading || isFileLoading //文件加载和pdf加载 初始化
+  const currentIsLoading = currentInitializeLoading || isSplitDownloadLoading
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -247,7 +247,7 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
       },
     ],
     [currentIsLoading, isSelectAll, convertedPdfImages, t],
-  );
+  )
   const StackViewWrap = useCallback(
     (props) => (
       <Stack
@@ -265,8 +265,8 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
       </Stack>
     ),
     [],
-  );
-  const isHaveConvertedPdfImages = convertedPdfImages.length > 0;
+  )
+  const isHaveConvertedPdfImages = convertedPdfImages.length > 0
   return (
     <React.Fragment>
       {isHaveConvertedPdfImages && (
@@ -368,6 +368,6 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
         </Grid>
       )}
     </React.Fragment>
-  );
-};
-export default FunctionalityPdfSplitDetail;
+  )
+}
+export default FunctionalityPdfSplitDetail

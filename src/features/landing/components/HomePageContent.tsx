@@ -1,6 +1,7 @@
 import Stack from '@mui/material/Stack'
 import { SxProps } from '@mui/material/styles'
 import { useRouter } from 'next/router'
+import React from 'react'
 import { FC, useEffect } from 'react'
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'

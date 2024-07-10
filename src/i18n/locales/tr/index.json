@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI sanat",
     "features__ai_translator__label": "AI çevirmen",
     "features__ai_vision__label": "AI görüş"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Planım",
+    "auth_avatar__menu_item__rewards": "Ödüller",
+    "auth_avatar__menu_item__get_started": "Başlayın",
+    "auth_avatar__menu_item__log_out": "Çıkış Yap",
+    "auth_avatar__account_settings": "Hesap ayarları"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Giriş Yap"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Ülkenizi veya Bölgenizi Seçin"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Chrome'a Ekle — Ücretsiz",
+    "install_button__add_to_chrome_for_free__mini": "Chrome'a Ekle",
+    "install_button__add_to_edge_for_free": "Edge'e Ekle — Ücretsiz",
+    "install_button__add_to_edge_for_free__mini": "Edge'e Ekle",
+    "extension_detection_alert__title": "Devam etmek için MaxAI.me {{BROWSER_AGENT}} uzantısını yükleyin."
   }
 }

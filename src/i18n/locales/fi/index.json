@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "Tekoälytaide",
     "features__ai_translator__label": "Tekoälykääntäjä",
     "features__ai_vision__label": "Tekoälynäkö"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Suunnitelmani",
+    "auth_avatar__menu_item__rewards": "Palkinnot",
+    "auth_avatar__menu_item__get_started": "Aloita",
+    "auth_avatar__menu_item__log_out": "Kirjaudu ulos",
+    "auth_avatar__account_settings": "Tilin asetukset"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Kirjaudu sisään"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Valitse maasi tai alueesi"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Lisää Chromeen — Ilmaiseksi",
+    "install_button__add_to_chrome_for_free__mini": "Lisää Chromeen",
+    "install_button__add_to_edge_for_free": "Lisää Edgeen — Ilmaiseksi",
+    "install_button__add_to_edge_for_free__mini": "Lisää Edgeen",
+    "extension_detection_alert__title": "Asenna MaxAI.me {{BROWSER_AGENT}} -laajennus jatkaaksesi."
   }
 }

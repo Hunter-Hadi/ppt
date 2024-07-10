@@ -1559,5 +1559,25 @@
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__title": "Tell us about your concerns",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1": "What made you decide to uninstall the MaxAI.me browser extension?",
     "funnel_survey__SURVEY_UNINSTALL_COMPLETED__question1__options1__placeholder": "Tell us what caused you to uninstall..."
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "My plan",
+    "auth_avatar__menu_item__rewards": "Rewards",
+    "auth_avatar__menu_item__get_started": "Get started",
+    "auth_avatar__menu_item__log_out": "Log out",
+    "auth_avatar__account_settings": "Account settings"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Sign In"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Add to Chrome — It's Free",
+    "install_button__add_to_chrome_for_free__mini": "Add to Chrome",
+    "install_button__add_to_edge_for_free": "Add to Edge — It's Free",
+    "install_button__add_to_edge_for_free__mini": "Add to Edge",
+    "extension_detection_alert__title": "Install MaxAI.me {{BROWSER_AGENT}} extension to continue."
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Choose Your Country or Region"
   }
 }

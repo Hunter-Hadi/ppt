@@ -67,8 +67,8 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
               y2='21.9681'
               gradientUnits='userSpaceOnUse'
             >
-              <stop offset='0.1277' stop-color='#FFB300' />
-              <stop offset='0.6467' stop-color='#FFCA28' />
+              <stop offset='0.1277' stopColor='#FFB300' />
+              <stop offset='0.6467' stopColor='#FFCA28' />
             </linearGradient>
           </defs>
         </svg>
@@ -113,8 +113,8 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
               y2='21.9681'
               gradientUnits='userSpaceOnUse'
             >
-              <stop offset='0.1277' stop-color='#FFB300' />
-              <stop offset='0.6467' stop-color='#FFCA28' />
+              <stop offset='0.1277' stopColor='#FFB300' />
+              <stop offset='0.6467' stopColor='#FFCA28' />
             </linearGradient>
           </defs>
         </svg>
@@ -192,10 +192,10 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
               y2='9.92972'
               gradientUnits='userSpaceOnUse'
             >
-              <stop stop-color='#8CDCFF' />
-              <stop offset='0.300375' stop-color='#AD7AFE' />
-              <stop offset='0.630786' stop-color='#B547F9' />
-              <stop offset='1' stop-color='#EE1A1A' />
+              <stop stopColor='#8CDCFF' />
+              <stop offset='0.300375' stopColor='#AD7AFE' />
+              <stop offset='0.630786' stopColor='#B547F9' />
+              <stop offset='1' stopColor='#EE1A1A' />
             </linearGradient>
           </defs>
         </svg>

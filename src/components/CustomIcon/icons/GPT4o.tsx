@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const GPT4o: FC<SvgIconProps> = (props) => {
   return (
@@ -28,6 +29,6 @@ const GPT4o: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
-export default GPT4o;
+  )
+}
+export default GPT4o

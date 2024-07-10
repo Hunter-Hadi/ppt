@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI આર્ટ",
     "features__ai_translator__label": "AI અનુવાદક",
     "features__ai_vision__label": "AI વિઝન"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "મારી યોજના",
+    "auth_avatar__menu_item__rewards": "પુરસ્કારો",
+    "auth_avatar__menu_item__get_started": "શરૂ કરો",
+    "auth_avatar__menu_item__log_out": "લૉગ આઉટ",
+    "auth_avatar__account_settings": "એકાઉન્ટ સેટિંગ્સ"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "સાઇન ઇન"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "તમારો દેશ અથવા પ્રદેશ પસંદ કરો"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "ક્રોમ માટે ઉમેરો - તે મફત છે",
+    "install_button__add_to_chrome_for_free__mini": "ક્રોમ માટે ઉમેરો",
+    "install_button__add_to_edge_for_free": "એજ માટે ઉમેરો - તે મફત છે",
+    "install_button__add_to_edge_for_free__mini": "એજ માટે ઉમેરો",
+    "extension_detection_alert__title": "જારી રાખવા માટે મેક્સએઆઈ.મી {{BROWSER_AGENT}} એક્સ્ટેન્શન ઇન્સ્ટોલ કરો."
   }
 }

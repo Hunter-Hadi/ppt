@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const GoogleAds: FC<SvgIconProps> = (props) => {
   return (
@@ -19,6 +20,6 @@ const GoogleAds: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default GoogleAds;
+  )
+}
+export default GoogleAds

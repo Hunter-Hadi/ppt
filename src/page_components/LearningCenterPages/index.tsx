@@ -1,21 +1,21 @@
-import { Stack } from '@mui/material';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import React, { useEffect } from 'react';
+import { Stack } from '@mui/material'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import React, { useEffect } from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import BasicUsage from '@/page_components/LearningCenterPages/BasicUsage';
-import Features from '@/page_components/LearningCenterPages/Features';
-import Introduction from '@/page_components/LearningCenterPages/introduction';
-import LearningCenterSideMenu from '@/page_components/LearningCenterPages/LearningCenterSideMenu';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import BasicUsage from '@/page_components/LearningCenterPages/BasicUsage'
+import Features from '@/page_components/LearningCenterPages/Features'
+import Introduction from '@/page_components/LearningCenterPages/introduction'
+import LearningCenterSideMenu from '@/page_components/LearningCenterPages/LearningCenterSideMenu'
 
 const LearningCenterPages = () => {
-  const { replace } = useRouter();
+  const { replace } = useRouter()
   useEffect(() => {
-    replace('/docs/help/');
-  }, []);
+    replace('/docs/help/')
+  }, [replace])
   return (
     <AppLoadingLayout
       loading
@@ -23,8 +23,8 @@ const LearningCenterPages = () => {
         height: '100vh',
       }}
     />
-  );
-  const { t } = useTranslation();
+  )
+  const { t } = useTranslation()
 
   return (
     <AppContainer
@@ -55,7 +55,7 @@ const LearningCenterPages = () => {
         </Stack>
       </Stack>
     </AppContainer>
-  );
-};
+  )
+}
 
-export default LearningCenterPages;
+export default LearningCenterPages

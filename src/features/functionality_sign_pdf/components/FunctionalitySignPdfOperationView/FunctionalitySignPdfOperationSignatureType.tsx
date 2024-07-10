@@ -1,23 +1,24 @@
-import { Box, Button, Stack, TextField, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
+import { Box, Button, Stack, TextField, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 import {
   forwardRef,
   ForwardRefRenderFunction,
   useImperativeHandle,
   useRef,
   useState,
-} from 'react';
+} from 'react'
 
-import { textToBase64Image } from '../../utils/toBase64';
-import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover';
-import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover';
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import { textToBase64Image } from '../../utils/toBase64'
+import FunctionalitySignPdfColorButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover'
+import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover'
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalitySignPdfSignatureTypeHandles {
-  getPngBase64: () => string | undefined;
+  getPngBase64: () => string | undefined
 }
 interface IFunctionalitySignPdfOperationSignatureTypeProps {
-  bottomView: (isValuable: boolean) => React.ReactNode;
+  bottomView: (isValuable: boolean) => React.ReactNode
 }
 /**
  * 输入文字签名
@@ -26,27 +27,27 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
   IFunctionalitySignPdfSignatureTypeHandles,
   IFunctionalitySignPdfOperationSignatureTypeProps
 > = ({ bottomView }, ref) => {
-  const { t } = useTranslation();
-  const inputRef = useRef<HTMLDivElement | null>(null);
+  const { t } = useTranslation()
+  const inputRef = useRef<HTMLDivElement | null>(null)
 
-  const [currentColor, setCurrentColor] = useState<string>('block');
-  const [currentFonts, setCurrentFonts] = useState<string>('Caveat, cursive');
-  const [typeInputVal, setTypeInputVal] = useState('');
+  const [currentColor, setCurrentColor] = useState<string>('block')
+  const [currentFonts, setCurrentFonts] = useState<string>('Caveat, cursive')
+  const [typeInputVal, setTypeInputVal] = useState('')
 
   useImperativeHandle(ref, () => ({
     getPngBase64: () => {
       if (typeInputVal) {
-        return textToBase64Image(typeInputVal, currentColor, currentFonts);
+        return textToBase64Image(typeInputVal, currentColor, currentFonts)
       }
-      return '';
+      return ''
     },
-  }));
+  }))
   const onSelectedColor = (color: string) => {
-    setCurrentColor(color);
-  };
+    setCurrentColor(color)
+  }
   const onSelectedFonts = (fonts: string) => {
-    setCurrentFonts(fonts);
-  };
+    setCurrentFonts(fonts)
+  }
   return (
     <Box>
       <Stack direction='row' mb={1} gap={1}>
@@ -148,6 +149,6 @@ const FunctionalitySignPdfOperationSignatureType: ForwardRefRenderFunction<
       </Box>
       {bottomView(typeInputVal.length === 0)}
     </Box>
-  );
-};
-export default forwardRef(FunctionalitySignPdfOperationSignatureType);
+  )
+}
+export default forwardRef(FunctionalitySignPdfOperationSignatureType)

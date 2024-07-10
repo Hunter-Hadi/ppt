@@ -3,8 +3,8 @@ import axios, { AxiosRequestConfig } from 'axios';
 import dayjs from 'dayjs';
 import { SnackbarKey, useSnackbar } from 'notistack';
 import React from 'react';
+import { authLogout, getAccessToken } from 'src/packages/auth';
 
-import { authLogout, getAccessToken } from '@/features/common-auth';
 import { getFingerPrintAsync } from '@/utils/fingerPrint';
 import snackNotifications from '@/utils/globalSnackbar';
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';

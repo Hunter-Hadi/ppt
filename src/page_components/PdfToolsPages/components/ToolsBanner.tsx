@@ -1,14 +1,15 @@
-import { Box, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { FC } from 'react';
+import { Box, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { FC } from 'react'
 
 interface IToolsBannerProps {
-  title: string;
-  description: string;
+  title: string
+  description: string
 }
 
 const ToolsBanner: FC<IToolsBannerProps> = ({ title, description }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Box
@@ -55,7 +56,7 @@ const ToolsBanner: FC<IToolsBannerProps> = ({ title, description }) => {
         {t(description)}
       </Typography>
     </Box>
-  );
-};
+  )
+}
 
-export default ToolsBanner;
+export default ToolsBanner

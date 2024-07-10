@@ -1,17 +1,17 @@
-import DeviceThermostatOutlinedIcon from '@mui/icons-material/DeviceThermostatOutlined';
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import TuneOutlinedIcon from '@mui/icons-material/TuneOutlined';
-import WidgetsIcon from '@mui/icons-material/Widgets';
-import { SvgIcon, SxProps } from '@mui/material';
-import React, { FC } from 'react';
+import DeviceThermostatOutlinedIcon from '@mui/icons-material/DeviceThermostatOutlined'
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined'
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined'
+import TuneOutlinedIcon from '@mui/icons-material/TuneOutlined'
+import WidgetsIcon from '@mui/icons-material/Widgets'
+import { SvgIcon, SxProps } from '@mui/material'
+import React, { FC } from 'react'
 
-import CustomIcon from '@/components/CustomIcon';
+import CustomIcon from '@/components/CustomIcon'
 
 interface IFeatureIconProps {
-  sx?: SxProps;
-  fontSize?: number;
+  sx?: SxProps
+  fontSize?: number
 }
 
 const Claude3Haiku: FC<IFeatureIconProps> = ({ sx, fontSize = 20 }) => {
@@ -41,8 +41,8 @@ const Claude3Haiku: FC<IFeatureIconProps> = ({ sx, fontSize = 20 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const ChatGPTIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -75,8 +75,8 @@ const ChatGPTIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const MiniMenuIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <MenuOutlinedIcon
@@ -86,12 +86,12 @@ const MiniMenuIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 
 const ChatGPTBlackIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
-  return <CustomIcon icon='ChatGPTLogoBlack' sx={{ fontSize, ...sx }} />;
-};
+  return <CustomIcon icon='ChatGPTLogoBlack' sx={{ fontSize, ...sx }} />
+}
 const ClaudeIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <CustomIcon
@@ -102,8 +102,8 @@ const ClaudeIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 const Claude3_5Icon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -114,7 +114,7 @@ const Claude3_5Icon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
       }}
     >
       <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-        <g clip-path='url(#clip0_1050_200168)'>
+        <g clipPath='url(#clip0_1050_200168)'>
           <path
             d='M0 8C0 3.58172 3.58172 0 8 0H16C20.4183 0 24 3.58172 24 8V16C24 20.4183 20.4183 24 16 24H8C3.58172 24 0 20.4183 0 16V8Z'
             fill='#D77454'
@@ -131,8 +131,8 @@ const Claude3_5Icon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const ClaudeBlackIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <CustomIcon
@@ -144,8 +144,8 @@ const ClaudeBlackIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 const MoreAIProvidersIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <WidgetsIcon
@@ -155,8 +155,8 @@ const MoreAIProvidersIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 
 const SummaryChatIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
@@ -181,8 +181,8 @@ const SummaryChatIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const SearchWithAIIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
@@ -226,8 +226,8 @@ const SearchWithAIIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const OneClickPromptIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
@@ -274,8 +274,8 @@ const OneClickPromptIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const EmailIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <EmailOutlinedIcon
@@ -285,11 +285,11 @@ const EmailIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 const PDFViewerIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
-  return <CustomIcon icon='PDF' sx={{ fontSize, ...sx }} />;
-};
+  return <CustomIcon icon='PDF' sx={{ fontSize, ...sx }} />
+}
 const LanguageIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <LanguageOutlinedIcon
@@ -299,8 +299,8 @@ const LanguageIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 const MyOwnPromptIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -319,8 +319,8 @@ const MyOwnPromptIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const ChatGPTTemperatureIcon: FC<IFeatureIconProps> = ({
   sx,
@@ -334,8 +334,8 @@ const ChatGPTTemperatureIcon: FC<IFeatureIconProps> = ({
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 const WebAccessCopilotIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -354,8 +354,8 @@ const WebAccessCopilotIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const SocialMediaIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
@@ -395,8 +395,8 @@ const SocialMediaIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const WebAccessAdvancedIcon: FC<IFeatureIconProps> = ({
   sx,
@@ -410,8 +410,8 @@ const WebAccessAdvancedIcon: FC<IFeatureIconProps> = ({
         ...sx,
       }}
     />
-  );
-};
+  )
+}
 
 const NewFeaturesIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
@@ -460,8 +460,8 @@ const NewFeaturesIcon: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const ChatGPT4Vision: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
@@ -495,8 +495,8 @@ const ChatGPT4Vision: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const Claude3Opus: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -524,8 +524,8 @@ const Claude3Opus: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const Reddit: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
@@ -738,8 +738,8 @@ const Reddit: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const WhatsApp: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -771,8 +771,8 @@ const WhatsApp: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const Discord: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -800,8 +800,8 @@ const Discord: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const Telegram: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -829,8 +829,8 @@ const Telegram: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const Messenger: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -841,7 +841,7 @@ const Messenger: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
       }}
     >
       <svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' fill='none'>
-        <g fill-rule='evenodd' clip-path='url(#a)' clip-rule='evenodd'>
+        <g fillRule='evenodd' clipPath='url(#a)' clipRule='evenodd'>
           <path
             fill='url(#b)'
             d='M12 .274C5.398.274.28 5.11.28 11.641c0 3.417 1.4 6.37 3.68 8.408a.936.936 0 0 1 .315.668l.064 2.085a.938.938 0 0 0 1.316.83l2.326-1.028a.935.935 0 0 1 .626-.046 12.78 12.78 0 0 0 3.392.45c6.601 0 11.719-4.835 11.719-11.366C23.719 5.11 18.6.275 11.999.275Z'
@@ -860,10 +860,10 @@ const Messenger: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
             gradientTransform='rotate(-57.092 24.075 7.389) scale(25.5374)'
             gradientUnits='userSpaceOnUse'
           >
-            <stop stop-color='#09F' />
-            <stop offset='.61' stop-color='#A033FF' />
-            <stop offset='.935' stop-color='#FF5280' />
-            <stop offset='1' stop-color='#FF7061' />
+            <stop stopColor='#09F' />
+            <stop offset='.61' stopColor='#A033FF' />
+            <stop offset='.935' stopColor='#FF5280' />
+            <stop offset='1' stopColor='#FF7061' />
           </radialGradient>
           <clipPath id='a'>
             <path fill='#fff' d='M0 0h24v24H0z' />
@@ -871,8 +871,8 @@ const Messenger: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const Slack: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   return (
     <SvgIcon
@@ -884,33 +884,33 @@ const Slack: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
     >
       <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M9.161 1.564a2.091 2.091 0 0 0-1.93 2.894A2.09 2.09 0 0 0 9.16 5.75h2.09V3.657a2.091 2.091 0 0 0-2.09-2.093Zm0 5.582h-5.57a2.09 2.09 0 0 0-1.931 2.893 2.091 2.091 0 0 0 1.93 1.293h5.571a2.09 2.09 0 0 0 1.931-2.894 2.092 2.092 0 0 0-1.93-1.292Z'
           fill='#44BEDF'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M22.392 9.239a2.089 2.089 0 1 0-4.178 0v2.093h2.089a2.09 2.09 0 0 0 2.089-2.093Zm-5.57 0V3.657a2.091 2.091 0 0 0-2.89-1.933 2.09 2.09 0 0 0-1.289 1.933V9.24a2.091 2.091 0 0 0 2.89 1.933A2.09 2.09 0 0 0 16.82 9.24Z'
           fill='#2EB67D'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M14.732 22.496a2.09 2.09 0 0 0 1.93-2.894 2.09 2.09 0 0 0-1.93-1.293h-2.089v2.093a2.091 2.091 0 0 0 2.09 2.094Zm0-5.582h5.57a2.092 2.092 0 0 0 0-4.187h-5.57a2.09 2.09 0 0 0-2.089 2.094 2.089 2.089 0 0 0 2.09 2.093Z'
           fill='#ECB22E'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M1.502 14.82a2.091 2.091 0 0 0 2.889 1.934A2.091 2.091 0 0 0 5.68 14.82v-2.094H3.59a2.093 2.093 0 0 0-2.088 2.094Zm5.57 0v5.582a2.09 2.09 0 0 0 3.567 1.48 2.092 2.092 0 0 0 .611-1.48v-5.58a2.091 2.091 0 0 0-2.889-1.934 2.09 2.09 0 0 0-1.289 1.933Z'
           fill='#E01E5A'
         />
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
 const FeaturesIcons: FC<{ name: string } & IFeatureIconProps> = ({
   name,
@@ -920,148 +920,145 @@ const FeaturesIcons: FC<{ name: string } & IFeatureIconProps> = ({
     switch (name) {
       // features icon
       case 'ChatGPTIcon': {
-        return <ChatGPTIcon {...restProps} />;
+        return <ChatGPTIcon {...restProps} />
       }
       case 'ChatGPTBlackIcon': {
-        return <ChatGPTBlackIcon {...restProps} />;
+        return <ChatGPTBlackIcon {...restProps} />
       }
       case 'ClaudeIcon': {
-        return <ClaudeIcon {...restProps} />;
+        return <ClaudeIcon {...restProps} />
       }
       case 'Claude3_5Icon': {
-        return <Claude3_5Icon {...restProps} />;
+        return <Claude3_5Icon {...restProps} />
       }
       case 'ClaudeBlackIcon': {
-        return <ClaudeBlackIcon {...restProps} />;
+        return <ClaudeBlackIcon {...restProps} />
       }
       case 'MoreAIProvidersIcon': {
-        return <MoreAIProvidersIcon {...restProps} />;
+        return <MoreAIProvidersIcon {...restProps} />
       }
       case 'SummaryChatIcon': {
-        return <SummaryChatIcon {...restProps} />;
+        return <SummaryChatIcon {...restProps} />
       }
       case 'EmailIcon': {
-        return <EmailIcon {...restProps} />;
+        return <EmailIcon {...restProps} />
       }
       case 'PDFViewerIcon': {
-        return <PDFViewerIcon {...restProps} />;
+        return <PDFViewerIcon {...restProps} />
       }
       case 'LanguageIcon': {
-        return <LanguageIcon {...restProps} />;
+        return <LanguageIcon {...restProps} />
       }
       case 'MyOwnPromptIcon': {
-        return <MyOwnPromptIcon {...restProps} />;
+        return <MyOwnPromptIcon {...restProps} />
       }
       case 'OneClickPromptIcon': {
-        return <OneClickPromptIcon {...restProps} />;
+        return <OneClickPromptIcon {...restProps} />
       }
       case 'ChatGPTTemperatureIcon': {
-        return <ChatGPTTemperatureIcon {...restProps} />;
+        return <ChatGPTTemperatureIcon {...restProps} />
       }
       case 'WebAccessCopilotIcon': {
-        return <WebAccessCopilotIcon {...restProps} />;
+        return <WebAccessCopilotIcon {...restProps} />
       }
       case 'NewFeaturesIcon': {
-        return <NewFeaturesIcon {...restProps} />;
+        return <NewFeaturesIcon {...restProps} />
       }
       case 'WebAccessAdvancedIcon': {
-        return <WebAccessAdvancedIcon {...restProps} />;
+        return <WebAccessAdvancedIcon {...restProps} />
       }
       case 'SocialMediaIcon': {
-        return <SocialMediaIcon {...restProps} />;
+        return <SocialMediaIcon {...restProps} />
       }
       case 'SearchWithAIIcon': {
-        return <SearchWithAIIcon {...restProps} />;
+        return <SearchWithAIIcon {...restProps} />
       }
       case 'YouTube': {
-        return <CustomIcon icon='YouTube' {...restProps} />;
+        return <CustomIcon icon='YouTube' {...restProps} />
       }
       case 'AIPowerSearchIcon': {
-        return <CustomIcon icon='AIPowerSearch' {...restProps} />;
+        return <CustomIcon icon='AIPowerSearch' {...restProps} />
       }
       case 'Gmail': {
-        return <CustomIcon icon='Gmail' {...restProps} />;
+        return <CustomIcon icon='Gmail' {...restProps} />
       }
       case 'Facebook': {
-        return <CustomIcon icon='Facebook' {...restProps} />;
+        return <CustomIcon icon='Facebook' {...restProps} />
       }
       case 'LinkedIn': {
-        return <CustomIcon icon='LinkedIn' {...restProps} />;
+        return <CustomIcon icon='LinkedIn' {...restProps} />
       }
       case 'TwitterX': {
-        return <CustomIcon icon='TwitterX' {...restProps} />;
+        return <CustomIcon icon='TwitterX' {...restProps} />
       }
       case 'Outlook': {
-        return <CustomIcon icon='Outlook' {...restProps} />;
+        return <CustomIcon icon='Outlook' {...restProps} />
       }
       case 'Instagram': {
-        return <CustomIcon icon='Instagram' {...restProps} />;
+        return <CustomIcon icon='Instagram' {...restProps} />
       }
       case 'TikTok': {
-        return <CustomIcon icon='TikTok' {...restProps} />;
+        return <CustomIcon icon='TikTok' {...restProps} />
       }
       case 'GoogleAds': {
-        return <CustomIcon icon='GoogleAds' {...restProps} />;
+        return <CustomIcon icon='GoogleAds' {...restProps} />
       }
       case 'FacebookAds': {
-        return <CustomIcon icon='FacebookAds' {...restProps} />;
+        return <CustomIcon icon='FacebookAds' {...restProps} />
       }
       case 'Shopify': {
-        return <CustomIcon icon='Shopify' {...restProps} />;
+        return <CustomIcon icon='Shopify' {...restProps} />
       }
       case 'MiniMenuIcon': {
-        return <MiniMenuIcon {...restProps} />;
+        return <MiniMenuIcon {...restProps} />
       }
       case 'GeminiIcon': {
-        return <CustomIcon icon='Gemini' {...restProps} />;
+        return <CustomIcon icon='Gemini' {...restProps} />
       }
       case 'DALLE': {
-        return <CustomIcon icon='DALLE' {...restProps} />;
-      }
-      case 'DALLE': {
-        return <CustomIcon icon='DALLE' {...restProps} />;
+        return <CustomIcon icon='DALLE' {...restProps} />
       }
       case 'Claude3Haiku': {
-        return <Claude3Haiku {...restProps} />;
+        return <Claude3Haiku {...restProps} />
       }
       case 'ChatGPT4Vision': {
-        return <ChatGPT4Vision {...restProps} />;
+        return <ChatGPT4Vision {...restProps} />
       }
       case 'Claude3Opus': {
-        return <Claude3Opus {...restProps} />;
+        return <Claude3Opus {...restProps} />
       }
       case 'GeminiPro': {
-        return <CustomIcon icon='GeminiPro' {...restProps} />;
+        return <CustomIcon icon='GeminiPro' {...restProps} />
       }
       case 'Reddit': {
-        return <Reddit {...restProps} />;
+        return <Reddit {...restProps} />
       }
       case 'WhatsApp': {
-        return <WhatsApp {...restProps} />;
+        return <WhatsApp {...restProps} />
       }
       case 'Discord': {
-        return <Discord {...restProps} />;
+        return <Discord {...restProps} />
       }
       case 'Telegram': {
-        return <Telegram {...restProps} />;
+        return <Telegram {...restProps} />
       }
       case 'Messenger': {
-        return <Messenger {...restProps} />;
+        return <Messenger {...restProps} />
       }
       case 'Slack': {
-        return <Slack {...restProps} />;
+        return <Slack {...restProps} />
       }
       case 'GPT-4o': {
-        return <CustomIcon icon='GPT4o' {...restProps} />;
+        return <CustomIcon icon='GPT4o' {...restProps} />
       }
       default: {
-        return null;
+        return null
       }
     }
-  };
+  }
 
-  return renderIcon();
-};
+  return renderIcon()
+}
 
 const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
   name,
@@ -1072,7 +1069,7 @@ const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
     switch (name) {
       // category icon
       case 'MaxAILogo': {
-        return <CustomIcon icon='MaxAILogo' sx={{ fontSize, ...sx }} />;
+        return <CustomIcon icon='MaxAILogo' sx={{ fontSize, ...sx }} />
       }
       case 'ChatGPTEnhancedIcon': {
         return (
@@ -1319,7 +1316,7 @@ const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
               </defs>
             </svg>
           </SvgIcon>
-        );
+        )
       }
       case 'Personalized': {
         return (
@@ -1342,7 +1339,7 @@ const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
               </g>
             </svg>
           </SvgIcon>
-        );
+        )
       }
 
       case 'Providers': {
@@ -1364,7 +1361,7 @@ const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
               />
             </svg>
           </SvgIcon>
-        );
+        )
       }
       case 'Research': {
         return (
@@ -1397,7 +1394,7 @@ const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
               </g>
             </svg>
           </SvgIcon>
-        );
+        )
       }
       case 'Help me write': {
         return (
@@ -1420,7 +1417,7 @@ const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
               </g>
             </svg>
           </SvgIcon>
-        );
+        )
       }
       case '1ClickAIIcon': {
         return (
@@ -1459,15 +1456,15 @@ const FeaturesCategoryIcon: FC<{ name: string } & IFeatureIconProps> = ({
               </g>
             </svg>
           </SvgIcon>
-        );
+        )
       }
       default: {
-        return null;
+        return null
       }
     }
-  };
+  }
 
-  return <React.Fragment>{renderIcon()}</React.Fragment>;
-};
+  return <React.Fragment>{renderIcon()}</React.Fragment>
+}
 
-export { FeaturesCategoryIcon, FeaturesIcons };
+export { FeaturesCategoryIcon, FeaturesIcons }

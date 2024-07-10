@@ -1,36 +1,37 @@
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
-import { Box, IconButton, Stack, Tooltip, Typography } from '@mui/material';
-import dayjs from 'dayjs';
-import utc from 'dayjs/plugin/utc';
-import { useRouter } from 'next/router';
-import { FC } from 'react';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined'
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined'
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye'
+import { Box, IconButton, Stack, Tooltip, Typography } from '@mui/material'
+import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+import { useRouter } from 'next/router'
+import React from 'react'
+import { FC } from 'react'
 
-import EllipsisTextWithTooltip from '@/components/EllipsisTextWithTooltip';
-import ProLink from '@/components/ProLink';
+import EllipsisTextWithTooltip from '@/components/EllipsisTextWithTooltip'
+import ProLink from '@/components/ProLink'
 import {
   DEFAULT_PROMPT_AUTHOR,
   DEFAULT_PROMPT_AUTHOR_LINK,
-} from '@/features/prompt/constant';
-import { IPromptCardData } from '@/features/prompt/types';
-import { APP_PROJECT_LINK } from '@/global_constants';
+} from '@/features/prompt/constant'
+import { IPromptCardData } from '@/features/prompt/types'
+import { APP_PROJECT_LINK } from '@/global_constants'
 
 // import { isLiveCrawling } from '../utils';
-import PromptTypeList from './PromptTypeList';
-dayjs.extend(utc);
+import PromptTypeList from './PromptTypeList'
+dayjs.extend(utc)
 
 const PromptCard: FC<{
-  active?: boolean;
-  prompt: IPromptCardData;
-  onPromptClick?: (prompt: IPromptCardData) => void;
+  active?: boolean
+  prompt: IPromptCardData
+  onPromptClick?: (prompt: IPromptCardData) => void
 }> = ({ active, prompt, onPromptClick }) => {
-  const router = useRouter();
-  const query = router.query;
+  const router = useRouter()
+  const query = router.query
 
-  const author = prompt?.author || DEFAULT_PROMPT_AUTHOR;
-  const authorLink = prompt?.author_url || DEFAULT_PROMPT_AUTHOR_LINK;
+  const author = prompt?.author || DEFAULT_PROMPT_AUTHOR
+  const authorLink = prompt?.author_url || DEFAULT_PROMPT_AUTHOR_LINK
 
   // const isLiveCrawlingFlag = isLiveCrawling(prompt.variables);
 
@@ -39,7 +40,7 @@ const PromptCard: FC<{
       p={2}
       spacing={2}
       onClick={() => {
-        onPromptClick && onPromptClick(prompt);
+        onPromptClick && onPromptClick(prompt)
       }}
       sx={{
         color: 'text.primary',
@@ -85,7 +86,7 @@ const PromptCard: FC<{
               size='small'
               href={`/prompt/library/${prompt.id}`}
               onClick={(event) => {
-                event.stopPropagation();
+                event.stopPropagation()
               }}
             >
               <RemoveRedEyeIcon
@@ -99,30 +100,30 @@ const PromptCard: FC<{
             <IconButton
               size='small'
               onClick={(e) => {
-                e.stopPropagation();
-                let newLink = `${APP_PROJECT_LINK}/prompts?favoritesId=${prompt.id}`;
+                e.stopPropagation()
+                let newLink = `${APP_PROJECT_LINK}/prompts?favoritesId=${prompt.id}`
 
                 if (query.current) {
-                  newLink += `&current=${query.current}`;
+                  newLink += `&current=${query.current}`
                 }
 
                 if (query.pageSize) {
-                  newLink += `&pageSize=${query.pageSize}`;
+                  newLink += `&pageSize=${query.pageSize}`
                 }
 
                 if (query.category) {
-                  newLink += `&category=${query.category}`;
+                  newLink += `&category=${query.category}`
                 }
 
                 if (query.use_case) {
-                  newLink += `&use_case=${query.use_case}`;
+                  newLink += `&use_case=${query.use_case}`
                 }
 
                 if (query.keyword) {
-                  newLink += `&keyword=${query.keyword}`;
+                  newLink += `&keyword=${query.keyword}`
                 }
 
-                location.href = newLink;
+                location.href = newLink
               }}
             >
               <FavoriteBorderOutlinedIcon
@@ -164,7 +165,7 @@ const PromptCard: FC<{
             color: 'inherit',
           }}
           onClick={(event) => {
-            event.stopPropagation();
+            event.stopPropagation()
           }}
         >
           {author}
@@ -219,11 +220,11 @@ const PromptCard: FC<{
         </Button>
       </Stack> */}
     </Stack>
-  );
-};
+  )
+}
 
 const PromptCardTag: FC<{ tag: string }> = (props) => {
-  const { tag } = props;
+  const { tag } = props
   return (
     <Box>
       <Typography
@@ -241,7 +242,7 @@ const PromptCardTag: FC<{ tag: string }> = (props) => {
         {tag}
       </Typography>
     </Box>
-  );
-};
+  )
+}
 
-export { PromptCard, PromptCardTag };
+export { PromptCard, PromptCardTag }

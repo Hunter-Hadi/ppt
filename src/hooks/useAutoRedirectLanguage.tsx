@@ -2,8 +2,7 @@ import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
 import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserInfoHelper'
-import languageCodeMap from '@/i18n/types/languageCodeMap.json'
-import { removeLocaleInPathname } from '@/i18n/utils'
+import languageCodeMap from '@/packages/common/constants/languageCodeMap.json'
 const useAutoRedirectLanguage = () => {
   const { pathname, isReady, query, asPath } = useRouter()
   useEffect(() => {

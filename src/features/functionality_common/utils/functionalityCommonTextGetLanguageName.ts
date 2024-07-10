@@ -26,9 +26,9 @@ const removeMarkdownImageAndLinks = (markdownText: string) => {
     });
     // 不知道为什么滤不干净, 再次过滤 []()
     // 使用正则表达式匹配所有Markdown链接
-    let linkWordsRegex = /\[([^\]]+)]\([^)]+\)/g;
+    const linkWordsRegex = /\[([^\]]+)]\([^)]+\)/g;
     let linkWordsMatches;
-    let linkWords: {
+    const linkWords: {
       fullMatch: string;
       Name: string;
     }[] = [];

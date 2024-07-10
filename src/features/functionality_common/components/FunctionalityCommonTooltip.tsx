@@ -1,4 +1,5 @@
-import { Box, Tooltip, TooltipProps, Typography } from '@mui/material';
+import { Box, Tooltip, TooltipProps, Typography } from '@mui/material'
+import React from 'react'
 /**
  * FunctionalityTooltip 做了统一的居上, 字体放大的tooltip
  * @param title tooltip的标题
@@ -22,6 +23,6 @@ const FunctionalityCommonTooltip = ({
     >
       <Box>{children}</Box>
     </Tooltip>
-  );
-};
-export default FunctionalityCommonTooltip;
+  )
+}
+export default FunctionalityCommonTooltip

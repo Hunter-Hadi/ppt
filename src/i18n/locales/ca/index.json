@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "Art d'IA",
     "features__ai_translator__label": "Traductor d'IA",
     "features__ai_vision__label": "Visió d'IA"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Inicia sessió"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "El meu pla",
+    "auth_avatar__menu_item__rewards": "Recompenses",
+    "auth_avatar__menu_item__get_started": "Comença",
+    "auth_avatar__menu_item__log_out": "Tanca la sessió",
+    "auth_avatar__account_settings": "Configuració del compte"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Trieu el vostre país o regió"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Afegir a Chrome — És gratuït",
+    "install_button__add_to_chrome_for_free__mini": "Afegir a Chrome",
+    "install_button__add_to_edge_for_free": "Afegir a Edge — És gratuït",
+    "install_button__add_to_edge_for_free__mini": "Afegir a Edge",
+    "extension_detection_alert__title": "Instal·la l'extensió MaxAI.me {{BROWSER_AGENT}} per continuar."
   }
 }

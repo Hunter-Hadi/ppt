@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI արվեստ",
     "features__ai_translator__label": "AI թարգմանիչ",
     "features__ai_vision__label": "AI տեսություն"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Մուտք"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "իմ ծրագրերը",
+    "auth_avatar__menu_item__rewards": "վարկային հատուկություններ",
+    "auth_avatar__menu_item__get_started": "սկսել",
+    "auth_avatar__menu_item__log_out": "դուրս գալ",
+    "auth_avatar__account_settings": "Ակտիվացիայի կարգավորում"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Ընտրեք ձեր երկիրը կամ շրջանը"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Ավելացնել Chrome-ին - Անվճար է",
+    "install_button__add_to_chrome_for_free__mini": "Ավելացնել Chrome-ին",
+    "install_button__add_to_edge_for_free": "Ավելացնել Edge-ին - Անվճար է",
+    "install_button__add_to_edge_for_free__mini": "Ավելացնել Edge-ին",
+    "extension_detection_alert__title": "Կարող եք տեղադրել MaxAI.me {{BROWSER_AGENT}} ընդլայնումը շարունակելու համար:"
   }
 }

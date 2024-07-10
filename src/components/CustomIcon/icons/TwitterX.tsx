@@ -1,5 +1,6 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import { FC } from 'react'
+import React from 'react'
 
 const TwitterX: FC<SvgIconProps> = (props) => {
   return (
@@ -11,6 +12,6 @@ const TwitterX: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default TwitterX;
+  )
+}
+export default TwitterX

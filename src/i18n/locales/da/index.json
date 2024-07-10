@@ -1560,5 +1560,25 @@
     "features__ai_art__label": "AI kunst",
     "features__ai_translator__label": "AI oversætter",
     "features__ai_vision__label": "AI vision"
+  },
+  "package__auth": {
+    "auth_avatar__menu_item__my_plan": "Min plan",
+    "auth_avatar__menu_item__rewards": "Belønninger",
+    "auth_avatar__menu_item__get_started": "Kom i gang",
+    "auth_avatar__menu_item__log_out": "Log ud",
+    "auth_avatar__account_settings": "Kontoinstillinger"
+  },
+  "package__base_ui": {
+    "app_bar__sign_in": "Log ind"
+  },
+  "package__nextjs_ui": {
+    "language_selector__title": "Vælg dit land eller region"
+  },
+  "package__browser_extension": {
+    "install_button__add_to_chrome_for_free": "Tilføj til Chrome - Det er gratis",
+    "install_button__add_to_chrome_for_free__mini": "Tilføj til Chrome",
+    "install_button__add_to_edge_for_free": "Tilføj til Edge - Det er gratis",
+    "install_button__add_to_edge_for_free__mini": "Tilføj til Edge",
+    "extension_detection_alert__title": "Installer MaxAI.me {{BROWSER_AGENT}}-udvidelsen for at fortsætte."
   }
 }

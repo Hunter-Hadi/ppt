@@ -1,5 +1,5 @@
-import { SvgIcon, SvgIconProps } from '@mui/material';
-import { FC } from 'react';
+import { SvgIcon, SvgIconProps } from '@mui/material'
+import React, { FC } from 'react'
 
 const AIPowerSearch: FC<SvgIconProps> = (props) => {
   return (
@@ -31,6 +31,6 @@ const AIPowerSearch: FC<SvgIconProps> = (props) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
-export default AIPowerSearch;
+  )
+}
+export default AIPowerSearch

@@ -1,39 +1,39 @@
-import { Box, SxProps } from '@mui/material';
-import { random } from 'lodash-es';
-import Image from 'next/image';
-import React, { FC, useEffect, useRef, useState } from 'react';
+import { Box, SxProps } from '@mui/material'
+import { random } from 'lodash-es'
+import Image from 'next/image'
+import React, { FC, useEffect, useRef, useState } from 'react'
 
-import { useUnmounted } from '@/utils/utils';
+import { useUnmounted } from '@/utils/utils'
 
 declare type ImgElementStyle = NonNullable<
   JSX.IntrinsicElements['img']['style']
->;
+>
 
 interface IProps {
-  alt?: string | undefined;
-  src?: string | undefined;
-  width?: string | number | undefined;
-  height?: string | number | undefined;
-  isBase64?: boolean;
-  layout?: 'fill' | 'fixed' | 'intrinsic' | 'responsive' | undefined;
-  objectFit?: ImgElementStyle['objectFit'] | undefined;
-  productURL?: string | undefined;
-  refreshId?: string;
-  cb?: (images: string[]) => void;
+  alt?: string | undefined
+  src?: string | undefined
+  width?: string | number | undefined
+  height?: string | number | undefined
+  isBase64?: boolean
+  layout?: 'fill' | 'fixed' | 'intrinsic' | 'responsive' | undefined
+  objectFit?: ImgElementStyle['objectFit'] | undefined
+  productURL?: string | undefined
+  refreshId?: string
+  cb?: (images: string[]) => void
   // 最大重试次数
-  retriesLeft?: number;
-  replaceErrorImage?: string;
-  errorImage?: string;
+  retriesLeft?: number
+  replaceErrorImage?: string
+  errorImage?: string
   // 加载失败 和 图片重试失败 之后的回调 用于通知父级组件 图片加载失败
-  errorCb?: () => void;
-  priority?: boolean;
+  errorCb?: () => void
+  priority?: boolean
 }
 
 // 图片错误
-const DEFAULT_ERROE_IMAGE = '/assets/img_error.svg';
+const DEFAULT_ERROE_IMAGE = '/assets/img_error.svg'
 
 // 产品已下架
-const DEFAULT_PRODUCT_REMOVE_IMAGE = '/assets/product_removed.svg';
+const DEFAULT_PRODUCT_REMOVE_IMAGE = '/assets/product_removed.svg'
 
 const CustomImage: FC<IProps> = ({
   width = 0,
@@ -50,19 +50,19 @@ const CustomImage: FC<IProps> = ({
   cb,
   errorCb,
 }) => {
-  const unmountedRef = useUnmounted();
-  const retriesLeftRef = useRef(retriesLeft);
-  const [isError, setIsError] = useState(false);
-  const [src, setSrc] = useState(srcProp);
-  const [errorImage, setErrorImage] = useState(defaultErrorImage);
+  const unmountedRef = useUnmounted()
+  const retriesLeftRef = useRef(retriesLeft)
+  const [isError, setIsError] = useState(false)
+  const [src, setSrc] = useState(srcProp)
+  const [errorImage, setErrorImage] = useState(defaultErrorImage)
   const toBase64 = (str: string) =>
     typeof window === 'undefined'
       ? Buffer.from(str).toString('base64')
-      : window.btoa(str);
+      : window.btoa(str)
 
   useEffect(() => {
-    setSrc(srcProp);
-  }, [srcProp]);
+    setSrc(srcProp)
+  }, [srcProp])
 
   const shimmer = (
     w: string | number | undefined,
@@ -79,7 +79,7 @@ const CustomImage: FC<IProps> = ({
     <rect width="${w}" height="${h}" fill="#f1f1f1" />
     <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
     <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="2s" repeatCount="indefinite"  />
-  </svg>`;
+  </svg>`
 
   // const handleError = (e: SyntheticEvent<HTMLImageElement, Event>) => {
   //   e.target.onerror = null;
@@ -105,31 +105,31 @@ const CustomImage: FC<IProps> = ({
           : `data:image/svg+xml;base64,${toBase64(shimmer(width, height))}`
       }
       onError={async () => {
-        if (unmountedRef) return;
+        if (unmountedRef) return
         if (retriesLeftRef.current === 0) {
-          return;
+          return
         }
-        setIsError(true);
-        retriesLeftRef.current = retriesLeftRef.current - 1;
+        setIsError(true)
+        retriesLeftRef.current = retriesLeftRef.current - 1
 
         if (replaceErrorImage) {
-          const blogImageURL = window.sessionStorage.getItem(replaceErrorImage);
+          const blogImageURL = window.sessionStorage.getItem(replaceErrorImage)
           if (blogImageURL) {
-            setIsError(false);
-            setSrc(() => blogImageURL);
+            setIsError(false)
+            setSrc(() => blogImageURL)
           } else {
-            const number = random(1, 10);
-            const blogImageURL = `https://images.simplytrends.co/simplyshop_blog_cover${number}.jpg`;
-            window.sessionStorage.setItem(replaceErrorImage, blogImageURL);
-            setIsError(false);
-            setSrc(() => blogImageURL);
+            const number = random(1, 10)
+            const blogImageURL = `https://images.simplytrends.co/simplyshop_blog_cover${number}.jpg`
+            window.sessionStorage.setItem(replaceErrorImage, blogImageURL)
+            setIsError(false)
+            setSrc(() => blogImageURL)
           }
         }
       }}
       priority={priority}
     />
-  );
-};
+  )
+}
 
 /**
  *
@@ -138,11 +138,11 @@ const CustomImage: FC<IProps> = ({
  */
 
 interface ICustomImageBoxProps extends IProps {
-  boxSx?: SxProps;
+  boxSx?: SxProps
 }
 
 export const CustomImageBox: FC<ICustomImageBoxProps> = (props) => {
-  const { boxSx, ...rest } = props;
+  const { boxSx, ...rest } = props
   return (
     <Box
       position='relative'
@@ -157,7 +157,7 @@ export const CustomImageBox: FC<ICustomImageBoxProps> = (props) => {
     >
       <CustomImage {...rest} />
     </Box>
-  );
-};
+  )
+}
 
-export default CustomImage;
+export default CustomImage
