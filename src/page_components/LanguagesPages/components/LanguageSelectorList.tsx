@@ -1,31 +1,31 @@
-import { Grid, GridProps, RegularBreakpoints } from '@mui/material';
-import { useRouter } from 'next/router';
-import React, { FC, useMemo } from 'react';
+import { Grid, GridProps, RegularBreakpoints } from '@mui/material'
+import { useRouter } from 'next/router'
+import React, { FC, useMemo } from 'react'
 
-import languageCodeMap from '@/i18n/types/languageCodeMap.json';
-import { i18nLocales, removeLocaleInPathname } from '@/i18n/utils';
-import LanguageSwitchLink from '@/page_components/LanguageSwitchLink';
+import languageCodeMap from '@/i18n/types/languageCodeMap.json'
+import { i18nLocales, removeLocaleInPathname } from '@/i18n/utils'
+import LanguageSwitchLink from '@/page_components/LanguageSwitchLink'
 
 interface IProps {
-  containerProps?: Omit<GridProps, 'container' | 'item'>;
-  itemBreakpoints?: RegularBreakpoints;
+  containerProps?: Omit<GridProps, 'container' | 'item'>
+  itemBreakpoints?: RegularBreakpoints
 }
 
 const LanguageSelectorList: FC<IProps> = ({
   containerProps,
   itemBreakpoints,
 }) => {
-  const router = useRouter();
+  const router = useRouter()
 
   const redirectUrl = useMemo(() => {
     if (router.query.redirect) {
-      return router.query.redirect as string;
+      return router.query.redirect as string
     } else if (router.pathname) {
-      return removeLocaleInPathname(router.pathname);
+      return removeLocaleInPathname(router.pathname)
     } else {
-      return '/';
+      return '/'
     }
-  }, [router.query, router.pathname]);
+  }, [router.query, router.pathname])
 
   return (
     <Grid container spacing={2} {...containerProps}>
@@ -46,10 +46,10 @@ const LanguageSelectorList: FC<IProps> = ({
               {languageCodeMap[locale].label}
             </LanguageSwitchLink>
           </Grid>
-        );
+        )
       })}
     </Grid>
-  );
-};
+  )
+}
 
-export default LanguageSelectorList;
+export default LanguageSelectorList
