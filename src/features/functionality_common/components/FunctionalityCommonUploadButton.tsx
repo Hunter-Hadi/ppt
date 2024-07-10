@@ -1,20 +1,28 @@
-import { Box, Button, SxProps, Theme, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import {
+  Box,
+  Button,
+  LinearProgress,
+  SxProps,
+  Theme,
+  Typography,
+} from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useEffect, useRef } from 'react'
 
 import UploadButton, {
   IUploadButtonProps,
-} from '@/features/common/components/UploadButton';
-import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
+} from '@/features/common/components/UploadButton'
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon'
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
+import useFunctionalityCommonUrlParamsUploadFile from '../hooks/useFunctionalityCommonUrlParamsUploadFile'
 
 interface IFunctionalityCommonUploadButton {
-  wrapBoxSx?: SxProps<Theme>;
-  contentBoxSx?: SxProps<Theme>;
-  isShowUploadIcon?: boolean;
-  themeColor?: 'primary' | 'white';
-  buttonTitle?: string;
-  dropDescription?: string;
+  wrapBoxSx?: SxProps<Theme>
+  contentBoxSx?: SxProps<Theme>
+  isShowUploadIcon?: boolean
+  themeColor?: 'primary' | 'white'
+  buttonTitle?: string
+  dropDescription?: string
 }
 
 /**
@@ -32,10 +40,13 @@ const FunctionalityCommonUploadButton: FC<
   dropDescription,
   inputProps,
   handleUnsupportedFileType,
+  onChange,
   ...props
 }) => {
-  const { t } = useTranslation();
-  const isPrimary = themeColor === 'primary';
+  const { urlFileUploadProgress, fileName } =
+    useFunctionalityCommonUrlParamsUploadFile({ onChangeFile: onChange }) //用来处理url参数上传的
+  const { t } = useTranslation()
+  const isPrimary = themeColor === 'primary'
   const onHandleUnsupportedFileType = () => {
     if (!inputProps?.accept || inputProps?.accept === 'application/pdf') {
       //!inputProps?.accept是因为该工具默认指定上传的是PDF文件
@@ -44,11 +55,12 @@ const FunctionalityCommonUploadButton: FC<
         t(
           'functionality__common:components__common__upload_button__unsupported_file_type_tip',
         ),
-      );
+      )
     } else {
-      handleUnsupportedFileType && handleUnsupportedFileType();
+      handleUnsupportedFileType && handleUnsupportedFileType()
     }
-  };
+  }
+  const isShowUploadProgress = urlFileUploadProgress !== null
   return (
     <Box
       sx={{
@@ -90,6 +102,7 @@ const FunctionalityCommonUploadButton: FC<
           inputProps={{
             accept: 'application/pdf',
             multiple: false,
+            disabled: isShowUploadProgress,
             ...inputProps,
           }}
           handleUnsupportedFileType={onHandleUnsupportedFileType}
@@ -101,41 +114,79 @@ const FunctionalityCommonUploadButton: FC<
               name='CloudUploadIcon'
             />
           )}
-          <Button
-            variant='contained'
-            sx={{
-              my: 1,
-              width: 240,
-              height: 54,
-              bgcolor: isPrimary ? '#ffffff' : undefined,
-              color: isPrimary ? '#000000' : undefined,
-              fontSize: 16,
-              fontWeight: 700,
-            }}
-            startIcon={<FunctionalityCommonIcon name='NoteAdd' />}
-            color={isPrimary ? 'inherit' : 'primary'}
-          >
-            {buttonTitle ||
-              t(
-                'functionality__common:components__common__upload_button_title',
+          {!isShowUploadProgress && (
+            <React.Fragment>
+              <Button
+                variant='contained'
+                sx={{
+                  my: 1,
+                  width: 240,
+                  height: 54,
+                  bgcolor: isPrimary ? '#ffffff' : undefined,
+                  color: isPrimary ? '#000000' : undefined,
+                  fontSize: 16,
+                  fontWeight: 700,
+                }}
+                startIcon={<FunctionalityCommonIcon name='NoteAdd' />}
+                color={isPrimary ? 'inherit' : 'primary'}
+              >
+                {buttonTitle ||
+                  t(
+                    'functionality__common:components__common__upload_button_title',
+                  )}
+              </Button>
+              <Typography
+                sx={{
+                  fontSize: {
+                    xs: 14,
+                    lg: 16,
+                  },
+                  color: isPrimary ? undefined : 'primary.main',
+                }}
+              >
+                {dropDescription ||
+                  t(
+                    'functionality__common:components__common__upload_button_tips',
+                  )}
+              </Typography>
+            </React.Fragment>
+          )}
+          {isShowUploadProgress && (
+            <React.Fragment>
+              {fileName && (
+                <Typography
+                  sx={{
+                    fontSize: {
+                      xs: 16,
+                      lg: 18,
+                    },
+                    mt: 2,
+                    fontWeight: 600,
+                  }}
+                >
+                  {fileName}
+                </Typography>
               )}
-          </Button>
-          <Typography
-            sx={{
-              fontSize: {
-                xs: 14,
-                lg: 16,
-              },
-              color: isPrimary ? undefined : 'primary.main',
-            }}
-          >
-            {dropDescription ||
-              t('functionality__common:components__common__upload_button_tips')}
-          </Typography>
+            </React.Fragment>
+          )}
+          {urlFileUploadProgress !== null && (
+            <Box
+              sx={{
+                width: '80%',
+                mt: 2,
+              }}
+            >
+              <LinearProgress
+                color='inherit'
+                variant='determinate'
+                value={urlFileUploadProgress}
+              />
+            </Box>
+          )}
         </UploadButton>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default FunctionalityCommonUploadButton;
+export default FunctionalityCommonUploadButton
