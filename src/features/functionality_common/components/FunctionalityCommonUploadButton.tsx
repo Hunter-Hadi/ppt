@@ -107,6 +107,7 @@ const FunctionalityCommonUploadButton: FC<
             ...inputProps,
           }}
           handleUnsupportedFileType={onHandleUnsupportedFileType}
+          onChange={onChange}
           {...props}
         >
           {isShowUploadIcon && (
