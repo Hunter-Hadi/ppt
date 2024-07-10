@@ -1,26 +1,26 @@
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
-import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserInfoHelper';
-import languageCodeMap from '@/i18n/types/languageCodeMap.json';
-import { removeLocaleInPathname } from '@/i18n/utils';
+import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserInfoHelper'
+import languageCodeMap from '@/i18n/types/languageCodeMap.json'
+import { removeLocaleInPathname } from '@/i18n/utils'
 const useAutoRedirectLanguage = () => {
-  const { pathname, isReady, query } = useRouter();
+  const { pathname, isReady, query, asPath } = useRouter()
   useEffect(() => {
     if (
       !isReady ||
-      pathname.includes('[locale]') ||
+      pathname.includes('/[locale]') ||
       pathname.includes('embed')
     ) {
-      return;
+      return
     }
 
     // 用当前浏览器的首选语言去 找对应的支持的 locale
-    const currentBrowserLanguage = getBrowserLanguage();
-    const languageCodes = Object.keys(languageCodeMap);
+    const currentBrowserLanguage = getBrowserLanguage()
+    const languageCodes = Object.keys(languageCodeMap)
     const isSupportLanguage = languageCodes.find((languageCode) => {
-      return languageCode.includes(currentBrowserLanguage);
-    });
+      return languageCode.includes(currentBrowserLanguage)
+    })
 
     if (
       isSupportLanguage &&
@@ -29,9 +29,9 @@ const useAutoRedirectLanguage = () => {
       isSupportLanguage !== 'en-GB' &&
       isSupportLanguage !== 'en-US'
     ) {
-      const targetPathname = removeLocaleInPathname(pathname);
-      location.href = `/${isSupportLanguage}${targetPathname}${location.search}${location.hash}`;
+      const targetPathname = asPath
+      location.href = `/${isSupportLanguage}${targetPathname}${location.search}${location.hash}`
     }
-  }, [isReady, pathname, query]);
-};
-export default useAutoRedirectLanguage;
+  }, [isReady, pathname, query, asPath])
+}
+export default useAutoRedirectLanguage
