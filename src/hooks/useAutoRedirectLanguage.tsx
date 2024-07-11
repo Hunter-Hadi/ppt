@@ -6,12 +6,13 @@ import languageCodeMap from '@/packages/common/constants/languageCodeMap.json'
 const useAutoRedirectLanguage = () => {
   const [autoRedirectDone, setAutoRedirectDone] = useState(false)
   const { pathname, isReady, asPath } = useRouter()
+
+  const checkNeedToRedirect = () => {
+    return !pathname.includes('/[locale]') && !pathname.includes('embed')
+  }
+
   useEffect(() => {
-    if (
-      !isReady ||
-      pathname.includes('/[locale]') ||
-      pathname.includes('embed')
-    ) {
+    if (!isReady || checkNeedToRedirect()) {
       setAutoRedirectDone(true)
       return
     }
