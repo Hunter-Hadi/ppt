@@ -43,6 +43,7 @@ function checkDoNeedToGenerateSitemap(file) {
     /share/,
     /survey/,
     /dev/,
+    /404/,
     /email-unsubscribe-success/,
     // 测试页面
     /486e5db3-0853-4763-ac9f-315064d83577/,
