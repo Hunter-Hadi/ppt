@@ -1,20 +1,31 @@
 import axios from 'axios'
 import fs from 'fs'
 import path from 'path'
+import { fileURLToPath } from 'url'
 
 import nextConfig from '../next.config.js'
 import languageCodeMap from '../src/packages/common/constants/languageCodeMap.json' assert { type: 'json' }
 import pdfToolsCodeMap from '../src/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json' assert { type: 'json' }
 
-const IS_PROD = false
+const IS_PROD = true
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const pagesDirectory = 'src/pages'
-const sitemapAssetsPath = './public/sitemap.xml' // sitemap 文件的存储路径
+const sitemapDirectory = 'sitemap-temp'
 const wwwDomain = 'https://www.maxai.me'
-const chatpdfUrls = ['/tools/chatpdf']
+const sxAssetsUrl = 'https://assets.maxai.me'
 
 // prompt library 的代理路径
 const PROMPT_LIBRARY_PROXY_BASE_PATH = '/prompt'
+const CHAT_PDF_PROXY_BASE_PATH = '/tools/chatpdf'
+
+const chatpdfUrls = ['/tools/chatpdf']
+
+function log(text) {
+  console.log(`
+  \x1b[32m ${text} \x1b[0m`)
+}
 
 // 判断当前 file 是否需要插入到 sitemap
 function checkDoNeedToGenerateSitemap(file) {
@@ -33,6 +44,8 @@ function checkDoNeedToGenerateSitemap(file) {
     /survey/,
     /dev/,
     /email-unsubscribe-success/,
+    // 测试页面
+    /486e5db3-0853-4763-ac9f-315064d83577/,
     /\.DS_Store/,
   ]
   return !excludePattern.some((pattern) => pattern.test(file))
@@ -91,9 +104,6 @@ function crawlStaticDirectory(dir) {
     }
   }
 
-  console.log(`
-  \x1b[32m staticPages: ${staticPages.length} \x1b[0m,
-`)
   return staticPages
 }
 
@@ -159,13 +169,8 @@ async function generateToolsPages() {
 }
 
 function addHrefLangToSitemap(propPath) {
-  const excludePaths = ['/tools/chatpdf']
-  if (excludePaths.some((excludePath) => propPath.includes(excludePath))) {
-    return ''
-  }
-
-  // const localeCodes = Object.keys(languageCodeMap)
-  const localeCodes = ['zh-CN', 'en-US']
+  const localeCodes = Object.keys(languageCodeMap)
+  // const localeCodes = ['zh-CN', 'en-US']
 
   // 删除 url 上的 locale
   const inUrlLocale = localeCodes.find((locale) =>
@@ -175,7 +180,11 @@ function addHrefLangToSitemap(propPath) {
 
   let hrefLangs = `<xhtml:link rel="alternate" hreflang="x-default" href="${wwwDomain}${url}" />`
 
-  if (propPath.startsWith(PROMPT_LIBRARY_PROXY_BASE_PATH)) {
+  if (propPath.startsWith(CHAT_PDF_PROXY_BASE_PATH)) {
+    localeCodes.forEach((locale) => {
+      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${CHAT_PDF_PROXY_BASE_PATH}/${locale}" />`
+    })
+  } else if (propPath.startsWith(PROMPT_LIBRARY_PROXY_BASE_PATH)) {
     const pathname = url.replace(PROMPT_LIBRARY_PROXY_BASE_PATH, '')
 
     localeCodes.forEach((locale) => {
@@ -191,56 +200,109 @@ function addHrefLangToSitemap(propPath) {
 }
 
 // 生成 sitemap
-function generateSitemap(pages) {
+function generateSitemap(
+  allPages,
+  targetFilename,
+  maxUrlCountSingleFile = null,
+) {
   const date = new Date()
   const isoString = date.toISOString()
+  const writingSitemap = (pages, targetFilePath) => {
+    let urlTagString = ``
+    let sitemapContentTemplate = ``
 
-  let urlTagString = ``
-  let sitemapContentTemplate = ``
-
-  if (IS_PROD) {
-    sitemapContentTemplate = `<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{{TEMPLATE}}</urlset>`
-    pages.forEach((page) => {
-      if (page) {
-        const currentPageHrefLangText = addHrefLangToSitemap(page)
-        console.log(`currentPageHrefLangText`, currentPageHrefLangText)
-        console.log(`page`, page)
-        urlTagString += `<url><loc>${wwwDomain}${page}</loc>${currentPageHrefLangText}<changefreq>daily</changefreq><lastmod>${isoString}</lastmod></url>`
-      }
-    })
-  } else {
-    sitemapContentTemplate = `<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    if (IS_PROD) {
+      sitemapContentTemplate = `<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">{{TEMPLATE}}</urlset>`
+      pages.forEach((page) => {
+        if (page) {
+          const currentPageHrefLangText = addHrefLangToSitemap(page)
+          urlTagString += `<url><loc>${wwwDomain}${page}</loc>${currentPageHrefLangText}<changefreq>daily</changefreq><lastmod>${isoString}</lastmod></url>`
+        }
+      })
+    } else {
+      sitemapContentTemplate = `<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd" 
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
 {{TEMPLATE}}
 </urlset>`
 
-    pages.forEach((page) => {
-      const currentPageHrefLangText = addHrefLangToSitemap(page)
-      console.log(`currentPageHrefLangText`, currentPageHrefLangText)
-      console.log(`page`, page)
-      urlTagString += `<url>
+      pages.forEach((page) => {
+        if (page) {
+          const currentPageHrefLangText = addHrefLangToSitemap(page)
+          urlTagString += `<url>
   <loc>${wwwDomain}${page}</loc>
   ${currentPageHrefLangText}
   <changefreq>daily</changefreq>
   <lastmod>${isoString}</lastmod>
 </url>
 `
-    })
+        }
+      })
+    }
+
+    sitemapContentTemplate = sitemapContentTemplate.replace(
+      '{{TEMPLATE}}',
+      urlTagString,
+    )
+
+    // 检查文件是否存在
+    if (fs.existsSync(targetFilePath)) {
+      // 文件存在，先删除
+      fs.unlinkSync(targetFilePath)
+    }
+
+    fs.writeFileSync(targetFilePath, sitemapContentTemplate)
   }
 
-  sitemapContentTemplate = sitemapContentTemplate.replace(
-    '{{TEMPLATE}}',
-    urlTagString,
+  let filenames = []
+
+  if (maxUrlCountSingleFile && maxUrlCountSingleFile > 0) {
+    let index = 0
+    for (let i = 0; i < allPages.length; i += maxUrlCountSingleFile) {
+      index = i / maxUrlCountSingleFile + 1
+      const slicedPages = allPages.slice(i, i + maxUrlCountSingleFile)
+      const filename = `${targetFilename}-${index}`
+      const sitemapFilePath = path.join(
+        __dirname,
+        `../${sitemapDirectory}/${filename}.xml`,
+      )
+      writingSitemap(slicedPages, sitemapFilePath)
+      filenames.push(filename)
+    }
+    log(`${targetFilename} is split into ${index} files`)
+  } else {
+    writingSitemap(
+      allPages,
+      path.join(__dirname, `../${sitemapDirectory}/${targetFilename}.xml`),
+    )
+    filenames.push(targetFilename)
+  }
+  return filenames
+}
+
+function generateSitemapIndex(filenames) {
+  const sitemapIndexContent = `<?xml version="1.0" encoding="utf-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{{TEMPLATE}</sitemapindex>`
+
+  let sitemapIndexTemplate = ``
+  filenames.forEach((filename) => {
+    sitemapIndexTemplate += `<sitemap><loc>${sxAssetsUrl}/sitemap/www/${filename}.xml</loc></sitemap>`
+  })
+
+  const sitemapIndex = sitemapIndexContent.replace(
+    '{{TEMPLATE}',
+    sitemapIndexTemplate,
   )
 
-  // 检查文件是否存在
-  if (fs.existsSync(sitemapAssetsPath)) {
-    // 文件存在，先删除
-    fs.unlinkSync(sitemapAssetsPath)
-  }
-
-  fs.writeFileSync(sitemapAssetsPath, sitemapContentTemplate)
+  const sitemapIndexFilePath = path.join(
+    __dirname,
+    `../${sitemapDirectory}/sitemap-main.xml`,
+  )
+  fs.writeFileSync(sitemapIndexFilePath, sitemapIndex)
 }
 
 function fixPagesTrailingSlash(pages) {
@@ -261,29 +323,61 @@ function fixPagesTrailingSlash(pages) {
 
 async function main() {
   try {
+    // 开始生成前清空，sitemapDirectory 文件夹
+    const sitemapPath = path.join(__dirname, `../${sitemapDirectory}`)
+    if (fs.existsSync(sitemapPath)) {
+      // 删除文件夹
+      fs.rmdirSync(sitemapPath, { recursive: true })
+    }
+    // 创建一个新的文件夹
+    fs.mkdirSync(sitemapPath)
+
     // 记录用时
     const startTime = new Date().getTime()
-    let allPages = []
 
-    allPages.push(...crawlStaticDirectory(pagesDirectory))
-    allPages.push(
-      ...generateStaticPagesWithLocale(
-        // partners 页面没有 i18n routing, 所以这里需要过滤掉
-        allPages.filter((page) => !page.startsWith('/partners')),
-      ),
+    // 1. 生成 prompt 的 sitemap
+    const promptLibraryPages = await generatePromptsPages()
+    log(`promptLibraryPages count: ${promptLibraryPages.length}`)
+    const promptLibrarySitemapFilenames = generateSitemap(
+      promptLibraryPages,
+      'prompt-library-sitemap',
+      1000,
     )
-    allPages.push(...(await generateToolsPages()))
-    allPages.push(...(await generatePromptsPages()))
-    allPages.push(...chatpdfUrls)
 
-    generateSitemap(fixPagesTrailingSlash(allPages))
+    // 2. 生成 www 项目静态页面的 sitemap
+    let staticPages = crawlStaticDirectory(pagesDirectory)
+    staticPages.push(...generateStaticPagesWithLocale(staticPages))
+    staticPages.push(...(await generateToolsPages()))
+    staticPages.push(...chatpdfUrls)
+    log(`StaticPages count: ${staticPages.length}`)
+    const staticPageFilenames = generateSitemap(
+      fixPagesTrailingSlash(staticPages),
+      'static-sitemap',
+      1000,
+    )
 
-    console.log(`
-  \x1b[32m Sitemap generated successfully! \x1b[0m,
-  \x1b[32m Time taken: ${(new Date().getTime() - startTime) / 1000}s \x1b[0m
+    // 生成 sitemap index 文件
+    generateSitemapIndex([
+      ...staticPageFilenames,
+      ...promptLibrarySitemapFilenames,
+    ])
+
+    log('Sitemap generated successfully!')
+    log(`Time taken: ${(new Date().getTime() - startTime) / 1000}s
 `)
   } catch (error) {
     console.error(`ERROR:`, error)
   }
 }
+
 main()
+/**
+ *
+ * How to use:
+ *
+ * 1. 在终端执行 `node scripts/refreshSitemap.mjs`
+ * 2. 将根目录下的 sitemap-temp 文件夹中的文件，上传到 S3 的 /sitemap/www/ 目录下
+ * 3. https://assets.maxai.me/sitemap/www/sitemap-main.xml 就是 www 项目的 sitemap 索引入口
+ * 4. 需要将 sitemap-main.xml 上传到 google search console
+ *
+ */
