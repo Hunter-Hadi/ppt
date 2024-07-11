@@ -328,7 +328,7 @@ async function main() {
     const sitemapPath = path.join(__dirname, `../${sitemapDirectory}`)
     if (fs.existsSync(sitemapPath)) {
       // 删除文件夹
-      fs.rmdirSync(sitemapPath, { recursive: true })
+      fs.rmSync(sitemapPath, { recursive: true })
     }
     // 创建一个新的文件夹
     fs.mkdirSync(sitemapPath)
@@ -363,6 +363,7 @@ async function main() {
       ...promptLibrarySitemapFilenames,
     ])
 
+    log('================================')
     log('Sitemap generated successfully!')
     log(`Time taken: ${(new Date().getTime() - startTime) / 1000}s
 `)
