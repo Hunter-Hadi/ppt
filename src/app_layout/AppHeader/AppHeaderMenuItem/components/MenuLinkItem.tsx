@@ -1,16 +1,16 @@
-import { Button, SxProps } from '@mui/material';
-import MenuItem from '@mui/material/MenuItem';
-import React, { FC } from 'react';
+import { Button, SxProps } from '@mui/material'
+import MenuItem from '@mui/material/MenuItem'
+import React, { FC } from 'react'
 
-import ProLink from '@/components/ProLink';
-import { isInIframe } from '@/utils/utils';
+import ProLink from '@/components/ProLink'
+import { isInIframe } from '@/utils/utils'
 
 interface IProps {
-  isSmallScreen?: boolean;
-  link?: string;
-  children: React.ReactNode;
-  sx?: SxProps;
-  onClick?: (e: React.MouseEvent<HTMLElement>) => void;
+  isSmallScreen?: boolean
+  link?: string
+  children: React.ReactNode
+  sx?: SxProps
+  onClick?: (e: React.MouseEvent<HTMLElement>) => void
 }
 
 const MenuLinkItem: FC<IProps> = ({
@@ -49,42 +49,54 @@ const MenuLinkItem: FC<IProps> = ({
           children
         )}
       </MenuItem>
-    );
+    )
   } else {
-    return (
-      <Button
-        sx={{
-          // display: isSmallScreen ? 'none' : 'flex',
-          px: 2,
-          py: 1.5,
-          '&:hover': {
-            backgroundColor: '#eee',
-          },
-          '&:active': {
-            backgroundColor: 'rgba(0,0,0,0.08)',
-          },
-          ...sx,
-        }}
-        onClick={onClick}
-      >
-        {link ? (
-          <ProLink
-            href={link}
-            hardRefresh
-            color='inherit'
-            sx={{
-              lineHeight: 1.5,
-            }}
-            target={isInIframe() ? '_blank' : '_self'}
-          >
-            {children}
-          </ProLink>
-        ) : (
-          children
-        )}
-      </Button>
-    );
+    if (link) {
+      return (
+        <ProLink
+          href={link}
+          hardRefresh
+          // color='inherit'
+          target={isInIframe() ? '_blank' : '_self'}
+          sx={{
+            borderRadius: 2,
+            lineHeight: 1.5,
+            px: 2,
+            py: 1.5,
+            '&:hover': {
+              backgroundColor: '#eee',
+            },
+            '&:active': {
+              backgroundColor: 'rgba(0,0,0,0.08)',
+            },
+            ...sx,
+          }}
+        >
+          {children}
+        </ProLink>
+      )
+    } else {
+      return (
+        <Button
+          sx={{
+            // display: isSmallScreen ? 'none' : 'flex',
+            px: 2,
+            py: 1.5,
+            '&:hover': {
+              backgroundColor: '#eee',
+            },
+            '&:active': {
+              backgroundColor: 'rgba(0,0,0,0.08)',
+            },
+            ...sx,
+          }}
+          onClick={onClick}
+        >
+          {children}
+        </Button>
+      )
+    }
   }
-};
+}
 
-export default MenuLinkItem;
+export default MenuLinkItem

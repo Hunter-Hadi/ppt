@@ -24,7 +24,10 @@ const NOT_HEADER_PATH = [
 ]
 
 const AppHeader: FC = () => {
-  const { pathname } = useRouter()
+  const {
+    pathname,
+    query: { locale },
+  } = useRouter()
 
   // const theme = useTheme();
   // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
@@ -47,6 +50,9 @@ const AppHeader: FC = () => {
       hiddenAvatar
       hiddenSignInButton
       CtaContentComponents={null}
+      AppLogoProps={{
+        href: `${locale ? `/${locale}` : ''}/`,
+      }}
       MenuListComponents={
         <Stack direction={'row'} alignItems='center' width={'100%'}>
           {!isMiniMenu ? <AppHeaderMenuList /> : null}

@@ -1,74 +1,74 @@
-import LoadingButton from '@mui/lab/LoadingButton';
-import MuiAppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Divider from '@mui/material/Divider';
-import Toolbar from '@mui/material/Toolbar';
-import debounce from 'lodash-es/debounce';
-import React, { FC, useEffect, useMemo } from 'react';
-import { useRecoilValue } from 'recoil';
+import LoadingButton from '@mui/lab/LoadingButton'
+import MuiAppBar from '@mui/material/AppBar'
+import Box from '@mui/material/Box'
+import Divider from '@mui/material/Divider'
+import Toolbar from '@mui/material/Toolbar'
+import debounce from 'lodash-es/debounce'
+import React, { FC, useEffect, useMemo } from 'react'
+import { useRecoilValue } from 'recoil'
 
 import AuthAvatar, {
   IAuthAvatarProps,
-} from '@/packages/auth/components/AuthAvatar';
-import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount';
-import { UserProfileState } from '@/packages/auth/store';
-import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo';
+} from '@/packages/auth/components/AuthAvatar'
+import { useConnectMaxAIAccount } from '@/packages/auth/hooks/useConnectMaxAIAccount'
+import { UserProfileState } from '@/packages/auth/store'
+import AppLogo, { IAppLogoProps } from '@/packages/base-ui/components/AppLogo'
 import MaxAIExtensionInstallButton, {
   IMaxAIExtensionInstallButtonProps,
-} from '@/packages/browser-extension/components/MaxAIExtensionInstallButton';
-import { useMaxAITranslation } from '@/packages/common';
+} from '@/packages/browser-extension/components/MaxAIExtensionInstallButton'
+import { useMaxAITranslation } from '@/packages/common'
 
 interface IAppBarProps {
-  hidden?: boolean;
-  ref?: React.RefObject<HTMLDivElement>;
-  onHeightChange?: (height: number) => void;
-  maxWidth?: number | string;
-  href?: IAppLogoProps['href'];
-  MenuListComponents?: React.ReactNode;
-  CtaContentComponents?: React.ReactNode;
-  CtaInstallButtonProps?: IMaxAIExtensionInstallButtonProps;
-  hiddenSignInButton?: boolean;
-  hiddenAvatar?: boolean;
-  AvatarProps?: IAuthAvatarProps;
+  hidden?: boolean
+  ref?: React.RefObject<HTMLDivElement>
+  onHeightChange?: (height: number) => void
+  maxWidth?: number | string
+  MenuListComponents?: React.ReactNode
+  CtaContentComponents?: React.ReactNode
+  CtaInstallButtonProps?: IMaxAIExtensionInstallButtonProps
+  hiddenSignInButton?: boolean
+  hiddenAvatar?: boolean
+  AvatarProps?: IAuthAvatarProps
+  AppLogoProps?: IAppLogoProps
 }
 
 const AppBar: FC<IAppBarProps> = ({
   ref,
   hidden = false,
   maxWidth = 1312,
-  href,
   hiddenSignInButton = false,
   MenuListComponents,
   CtaContentComponents: propCtaContentComponents,
   CtaInstallButtonProps,
   hiddenAvatar,
   AvatarProps,
+  AppLogoProps,
   onHeightChange,
 }) => {
-  const { t } = useMaxAITranslation();
+  const { t } = useMaxAITranslation()
   const {
     connectMaxAIAccount,
     isLogin,
     loading: connectMaxAIAccountLoading,
-  } = useConnectMaxAIAccount();
+  } = useConnectMaxAIAccount()
   const { loading: userProfileLoading, user: userProfile } =
-    useRecoilValue(UserProfileState);
+    useRecoilValue(UserProfileState)
 
   const showAvatar = useMemo(() => {
     if (hiddenAvatar) {
-      return false;
+      return false
     }
 
-    return isLogin && userProfile;
-  }, [hiddenAvatar, isLogin, userProfile]);
+    return isLogin && userProfile
+  }, [hiddenAvatar, isLogin, userProfile])
 
   const CtaContentComponents = useMemo(() => {
     if (propCtaContentComponents) {
-      return propCtaContentComponents;
+      return propCtaContentComponents
     }
 
     if (propCtaContentComponents === null) {
-      return null;
+      return null
     }
 
     return (
@@ -76,33 +76,33 @@ const AppBar: FC<IAppBarProps> = ({
         variant='contained'
         {...CtaInstallButtonProps}
       />
-    );
-  }, [CtaInstallButtonProps, propCtaContentComponents]);
+    )
+  }, [CtaInstallButtonProps, propCtaContentComponents])
 
   useEffect(() => {
     if (!onHeightChange || hidden) {
-      return;
+      return
     }
     // 监听 窗口 变化, 触发 onHeightChange
     const resizeHandle = () => {
-      const headerElement = document.getElementById('app-header');
+      const headerElement = document.getElementById('app-header')
       if (headerElement) {
-        onHeightChange(headerElement.offsetHeight);
+        onHeightChange(headerElement.offsetHeight)
       }
-    };
-    const debouncedHandle = debounce(resizeHandle, 200);
+    }
+    const debouncedHandle = debounce(resizeHandle, 200)
 
-    resizeHandle();
+    resizeHandle()
 
-    window.addEventListener('resize', debouncedHandle);
+    window.addEventListener('resize', debouncedHandle)
 
     return () => {
-      window.removeEventListener('resize', debouncedHandle);
-    };
-  }, [onHeightChange, hidden]);
+      window.removeEventListener('resize', debouncedHandle)
+    }
+  }, [onHeightChange, hidden])
 
   if (hidden) {
-    return null;
+    return null
   }
 
   return (
@@ -135,10 +135,11 @@ const AppBar: FC<IAppBarProps> = ({
         }}
       >
         <AppLogo
-          href={href}
+          {...AppLogoProps}
           sx={{
             pb: '2px',
             pr: 2.5,
+            ...AppLogoProps?.sx,
           }}
         />
         {MenuListComponents}
@@ -166,7 +167,7 @@ const AppBar: FC<IAppBarProps> = ({
       </Toolbar>
       <Divider />
     </MuiAppBar>
-  );
-};
+  )
+}
 
-export default AppBar;
+export default AppBar
