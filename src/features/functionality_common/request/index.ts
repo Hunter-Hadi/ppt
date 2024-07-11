@@ -13,8 +13,12 @@ export const post = <T, T_MORE = object>(
   headers?: HeadersInit,
   isJson = true, //是否是json格式
 ): Promise<T & T_MORE> => {
-  const token = getAccessToken()
   return new Promise<any>((resolve, reject) => {
+    const accessToken = getAccessToken()
+    if (!accessToken) {
+      reject(new Error('no accessToken'))
+      return
+    }
     if (isJson) {
       headers = {
         'Content-Type': 'application/json',
@@ -24,7 +28,7 @@ export const post = <T, T_MORE = object>(
     fetch(API_HOST + pathname, {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${accessToken}`,
         ...headers,
       },
       body: isJson ? JSON.stringify(data) : data,
