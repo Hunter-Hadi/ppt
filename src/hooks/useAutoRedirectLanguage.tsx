@@ -12,7 +12,7 @@ const useAutoRedirectLanguage = () => {
   }
 
   useEffect(() => {
-    if (!isReady || checkNeedToRedirect()) {
+    if (!isReady || !checkNeedToRedirect()) {
       setAutoRedirectDone(true)
       return
     }
