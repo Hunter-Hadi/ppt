@@ -1,16 +1,18 @@
 import { useRouter } from 'next/router'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserInfoHelper'
 import languageCodeMap from '@/packages/common/constants/languageCodeMap.json'
 const useAutoRedirectLanguage = () => {
-  const { pathname, isReady, query, asPath } = useRouter()
+  const [autoRedirectDone, setAutoRedirectDone] = useState(false)
+  const { pathname, isReady, asPath } = useRouter()
   useEffect(() => {
     if (
       !isReady ||
       pathname.includes('/[locale]') ||
       pathname.includes('embed')
     ) {
+      setAutoRedirectDone(true)
       return
     }
 
@@ -28,9 +30,15 @@ const useAutoRedirectLanguage = () => {
       isSupportLanguage !== 'en-GB' &&
       isSupportLanguage !== 'en-US'
     ) {
-      const targetPathname = asPath
-      location.href = `/${isSupportLanguage}${targetPathname}${location.search}${location.hash}`
+      // setAutoRedirectDone(true)
+      location.href = `/${isSupportLanguage}${asPath}`
+    } else {
+      setAutoRedirectDone(true)
     }
-  }, [isReady, pathname, query, asPath])
+  }, [isReady, pathname, asPath])
+
+  return {
+    autoRedirectDone,
+  }
 }
 export default useAutoRedirectLanguage
