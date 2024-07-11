@@ -21,6 +21,7 @@ import { RecoilRoot } from 'recoil'
 
 import AppFooter from '@/app_layout/AppFooter'
 import AppHeader from '@/app_layout/AppHeader'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import CacheRefAndRewardfulId from '@/components/CacheRefAndRewardfulId'
 import customMuiTheme from '@/config/customMuiTheme'
 import globalFont from '@/config/font'
@@ -45,7 +46,7 @@ const queryClient = new QueryClient()
 function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
   const notistackRef = React.useRef(null)
-  useAutoRedirectLanguage() //根据浏览器语言自动重定向到对应的语言页面
+  const { autoRedirectDone } = useAutoRedirectLanguage() //根据浏览器语言自动重定向到对应的语言页面
   const { i18n } = useTranslation()
 
   const isEmbedPage = router.pathname.startsWith('/embed')
@@ -71,6 +72,19 @@ function App({ Component, pageProps }: AppProps) {
       <Stack>
         <Component {...pageProps} />
       </Stack>
+    )
+  }
+
+  if (!autoRedirectDone) {
+    return (
+      <ThemeProvider theme={customMuiTheme}>
+        <AppLoadingLayout
+          loading
+          sx={{
+            height: '100vh',
+          }}
+        />
+      </ThemeProvider>
     )
   }
 
