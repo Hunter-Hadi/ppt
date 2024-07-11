@@ -93,6 +93,7 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
     } catch (e) {
       console.error('simply onUploadFile error', e)
       setIsFileLoading(false)
+      onRemoveFile()
       functionalityCommonSnackNotifications(
         t('functionality__ocr_pdf:components__ocr_pdf__main__upload_error'),
       )
