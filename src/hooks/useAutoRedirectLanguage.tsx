@@ -8,6 +8,12 @@ const useAutoRedirectLanguage = () => {
   const { pathname, isReady, asPath } = useRouter()
 
   const checkNeedToRedirect = () => {
+    const blacklist = ['/prompt', '/prompts', '/404']
+
+    if (blacklist.some((backPath) => pathname.includes(backPath))) {
+      return false
+    }
+
     return !pathname.includes('/[locale]') && !pathname.includes('embed')
   }
 
