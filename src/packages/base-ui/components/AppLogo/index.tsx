@@ -1,20 +1,20 @@
-import Stack from '@mui/material/Stack';
-import { SxProps, useTheme } from '@mui/material/styles';
-import SvgIcon from '@mui/material/SvgIcon';
-import Typography from '@mui/material/Typography';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import React, { FC } from 'react';
+import Stack from '@mui/material/Stack'
+import { SxProps, useTheme } from '@mui/material/styles'
+import SvgIcon from '@mui/material/SvgIcon'
+import Typography from '@mui/material/Typography'
+import useMediaQuery from '@mui/material/useMediaQuery'
+import React, { FC } from 'react'
 
-import ProLink from '@/packages/base-ui/components/ProLink';
+import ProLink from '@/packages/base-ui/components/ProLink'
 
 export interface IAppLogoProps {
-  sx?: SxProps;
-  href?: string;
+  sx?: SxProps
+  href?: string
 }
 
 const AppLogo: FC<IAppLogoProps> = ({ sx, href = '/' }) => {
-  const theme = useTheme();
-  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  const theme = useTheme()
+  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')) // 屏幕宽度小于 768 时为 true
 
   return (
     <ProLink href={href} target={'_self'} sx={sx}>
@@ -27,7 +27,6 @@ const AppLogo: FC<IAppLogoProps> = ({ sx, href = '/' }) => {
         />
         <Typography
           variant='custom'
-          component='h1'
           color='text.primary'
           fontSize={isDownSm ? 16 : 20}
           fontWeight={800}
@@ -36,8 +35,8 @@ const AppLogo: FC<IAppLogoProps> = ({ sx, href = '/' }) => {
         </Typography>
       </Stack>
     </ProLink>
-  );
-};
+  )
+}
 
 const LogoSvg: FC<{ sx?: SxProps }> = ({ sx }) => {
   return (
@@ -64,7 +63,7 @@ const LogoSvg: FC<{ sx?: SxProps }> = ({ sx }) => {
         </g>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 
-export default AppLogo;
+export default AppLogo

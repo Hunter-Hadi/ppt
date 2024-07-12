@@ -4,19 +4,19 @@ import {
   Typography,
   useMediaQuery,
   useTheme,
-} from '@mui/material';
-import React, { FC } from 'react';
+} from '@mui/material'
+import React, { FC } from 'react'
 
-import { CustomImageBox } from '@/components/CustomImage';
-import ProLink from '@/components/ProLink';
+import { CustomImageBox } from '@/components/CustomImage'
+import ProLink from '@/components/ProLink'
 
 interface IProps {
-  sx?: SxProps;
+  sx?: SxProps
 }
 
 const AppLogo: FC<IProps> = ({ sx }) => {
-  const theme = useTheme();
-  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  const theme = useTheme()
+  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')) // 屏幕宽度小于 768 时为 true
 
   return (
     <ProLink
@@ -35,7 +35,6 @@ const AppLogo: FC<IProps> = ({ sx }) => {
         />
         <Typography
           variant='custom'
-          component='h1'
           color='text.primary'
           fontSize={isDownSm ? 16 : 20}
           fontWeight={800}
@@ -44,7 +43,7 @@ const AppLogo: FC<IProps> = ({ sx }) => {
         </Typography>
       </Stack>
     </ProLink>
-  );
-};
+  )
+}
 
-export default AppLogo;
+export default AppLogo
