@@ -1,8 +1,8 @@
-import { Box, Button, CircularProgress, Grid, IconButton } from '@mui/material';
-import ceil from 'lodash-es/ceil';
-import divide from 'lodash-es/divide';
-import { useTranslation } from 'next-i18next';
-import { PDFDocument } from 'pdf-lib';
+import { Box, Button, CircularProgress, Grid, IconButton } from '@mui/material'
+import ceil from 'lodash-es/ceil'
+import divide from 'lodash-es/divide'
+import { useTranslation } from 'next-i18next'
+import { PDFDocument } from 'pdf-lib'
 import React, {
   FC,
   useCallback,
@@ -10,101 +10,101 @@ import React, {
   useMemo,
   useRef,
   useState,
-} from 'react';
-import { pdfjs } from 'react-pdf';
-import { v4 as uuidV4 } from 'uuid';
+} from 'react'
+import { pdfjs } from 'react-pdf'
+import { v4 as uuidV4 } from 'uuid'
 
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
-} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
-import FunctionalityCommonDragSortableList from '@/features/functionality_common/components/FunctionalityCommonDragSortableList';
-import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon';
-import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
-import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
-import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType';
-import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool';
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView'
+import FunctionalityCommonDragSortableList from '@/features/functionality_common/components/FunctionalityCommonDragSortableList'
+import FunctionalityCommonIcon from '@/features/functionality_common/components/FunctionalityCommonIcon'
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage'
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip'
+import { IFunctionalityCommonImageInfo } from '@/features/functionality_common/types/functionalityCommonImageType'
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
 export type IFunctionalityPdfFileInfoType = IFunctionalityCommonImageInfo & {
-  name: string;
-  file: File;
-  size: number;
-  pages: number;
-};
+  name: string
+  file: File
+  size: number
+  pages: number
+}
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
-).toString();
+).toString()
 
 interface IFunctionalityPdfMergeDetail {
-  fileList: FileList;
-  onRemoveFile: () => void;
+  fileList: FileList
+  onRemoveFile: () => void
 }
 
 const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
   fileList,
   onRemoveFile,
 }) => {
-  const { t } = useTranslation();
-  const isReadFile = useRef(false);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [isDownloadLoading, setIsDownloadLoading] = useState<boolean>(false);
+  const { t } = useTranslation()
+  const isReadFile = useRef(false)
+  const [isLoading, setIsLoading] = useState<boolean>(false)
+  const [isDownloadLoading, setIsDownloadLoading] = useState<boolean>(false)
 
   const [pdfInfoList, setPdfInfoList] = useState<
     IFunctionalityPdfFileInfoType[]
-  >([]); //展示的pdf信息 列表
+  >([]) //展示的pdf信息 列表
 
   const onUploadFile = async (fileList: FileList, isEmptyClose?: boolean) => {
-    setIsLoading(true);
-    const newFileList = await getPdfFileInfoList(fileList);
-    setPdfInfoList((list) => [...list, ...newFileList]);
-    setIsLoading(false);
+    setIsLoading(true)
+    const newFileList = await getPdfFileInfoList(fileList)
+    setPdfInfoList((list) => [...list, ...newFileList])
+    setIsLoading(false)
     if (isEmptyClose && newFileList.length === 0) {
       //如果是空文件则关闭
-      onRemoveFile();
+      onRemoveFile()
     }
-  };
+  }
   useEffect(() => {
     if (fileList) {
       if (isReadFile.current) {
-        return;
+        return
       }
-      isReadFile.current = true;
-      onUploadFile(fileList, true);
+      isReadFile.current = true
+      onUploadFile(fileList, true)
     }
-  }, [fileList]);
+  }, [fileList])
   /**
    * 获取pdf的第一页作为图片
    */
   const getFirstPageAsImage = async (file: File) => {
     try {
-      const buff = await file.arrayBuffer();
-      await PDFDocument.load(buff); //load来判断pdf是否加密或者无法提取，异常则进入catch
+      const buff = await file.arrayBuffer()
+      await PDFDocument.load(buff) //load来判断pdf是否加密或者无法提取，异常则进入catch
 
-      const loadingTask = pdfjs.getDocument(buff);
-      const pdfDocument = await loadingTask.promise;
-      const pages = pdfDocument._pdfInfo.numPages;
-      const page = await pdfDocument.getPage(1);
+      const loadingTask = pdfjs.getDocument(buff)
+      const pdfDocument = await loadingTask.promise
+      const pages = pdfDocument._pdfInfo.numPages
+      const page = await pdfDocument.getPage(1)
 
-      const viewport = page.getViewport({ scale: 1.0 });
-      const canvas = document.createElement('canvas');
-      const context = canvas.getContext('2d');
+      const viewport = page.getViewport({ scale: 1.0 })
+      const canvas = document.createElement('canvas')
+      const context = canvas.getContext('2d')
 
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
+      canvas.height = viewport.height
+      canvas.width = viewport.width
       if (context) {
         const renderContext = {
           canvasContext: context,
           viewport: viewport,
-        };
+        }
 
-        renderContext && (await page.render(renderContext).promise);
+        renderContext && (await page.render(renderContext).promise)
 
-        const image = canvas.toDataURL('image/png');
+        const image = canvas.toDataURL('image/png')
 
-        return { image, pages };
+        return { image, pages }
       } else {
-        return null;
+        return null
       }
     } catch (e) {
       if (file.name) {
@@ -112,16 +112,16 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
           `${file.name} ${t(
             'functionality__common:components__common__pdf_encryption_tip',
           )}`,
-        );
+        )
       }
-      return null;
+      return null
     }
-  };
+  }
   const getPdfFileInfoList = async (fileList: FileList) => {
-    const fileInfoList: IFunctionalityPdfFileInfoType[] = [];
+    const fileInfoList: IFunctionalityPdfFileInfoType[] = []
     for (let i = 0; i < fileList.length; i++) {
-      const file = fileList[i];
-      const pageInfo = await getFirstPageAsImage(file);
+      const file = fileList[i]
+      const pageInfo = await getFirstPageAsImage(file)
       if (pageInfo) {
         const fileInfo = {
           id: uuidV4(),
@@ -130,63 +130,63 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
           imageUrlString: pageInfo.image || '',
           pages: pageInfo.pages,
           file: file,
-        };
-        fileInfoList.push(fileInfo);
+        }
+        fileInfoList.push(fileInfo)
       }
     }
-    return fileInfoList;
-  };
+    return fileInfoList
+  }
 
   const mergePdfFiles = async (fileList: File[]) => {
     // 创建一个新的 PDF 文档，它将成为最终合并的文档
-    const mergedPdfDoc = await PDFDocument.create();
+    const mergedPdfDoc = await PDFDocument.create()
     for (const file of fileList) {
       // 将文件转换为 ArrayBuffer
       try {
-        const arrayBuffer = await file.arrayBuffer();
+        const arrayBuffer = await file.arrayBuffer()
         // 加载该 ArrayBuffer 为 PDF 文档
-        const pdfDoc = await PDFDocument.load(arrayBuffer);
+        const pdfDoc = await PDFDocument.load(arrayBuffer)
         // 将当前 PDF 文档的所有页面复制到合并后的 PDF 文档中
         const copiedPages = await mergedPdfDoc.copyPages(
           pdfDoc,
           pdfDoc.getPageIndices(),
-        );
+        )
         copiedPages.forEach((page) => {
-          mergedPdfDoc.addPage(page);
-        });
+          mergedPdfDoc.addPage(page)
+        })
       } catch (e) {
-        console.log('simply mergePdfFiles', e);
+        console.log('simply mergePdfFiles', e)
       }
     }
 
     // 将合并后的 PDF 文档序列化为 Uint8Array
-    const mergedPdfUint8Array = await mergedPdfDoc.save();
-    return mergedPdfUint8Array;
-  };
+    const mergedPdfUint8Array = await mergedPdfDoc.save()
+    return mergedPdfUint8Array
+  }
   const onDownloadZip = async () => {
     if (pdfInfoList) {
-      setIsDownloadLoading(true);
-      const files = pdfInfoList.map((pdfInfo) => pdfInfo.file);
+      setIsDownloadLoading(true)
+      const files = pdfInfoList.map((pdfInfo) => pdfInfo.file)
       if (files) {
-        const downloadPdfData = await mergePdfFiles(files);
+        const downloadPdfData = await mergePdfFiles(files)
         if (downloadPdfData) {
-          downloadUrl(downloadPdfData, 'merge(Powered by MaxAI).pdf');
+          downloadUrl(downloadPdfData, 'merge(Powered by MaxAI).pdf')
         }
       }
-      setIsDownloadLoading(false);
+      setIsDownloadLoading(false)
     }
-  };
-  const currentIsLoading = isLoading || isDownloadLoading;
+  }
+  const currentIsLoading = isLoading || isDownloadLoading
   const onDeletePdf = (id: string) => {
     if (pdfInfoList && !currentIsLoading) {
-      const newPdfInfoList = pdfInfoList.filter((pdf) => pdf.id !== id);
+      const newPdfInfoList = pdfInfoList.filter((pdf) => pdf.id !== id)
       if (newPdfInfoList.length === 0) {
-        onRemoveFile();
+        onRemoveFile()
       }
-      setPdfInfoList(newPdfInfoList);
+      setPdfInfoList(newPdfInfoList)
     }
-  };
-  const isHavePdfInfoList = pdfInfoList.length > 0;
+  }
+  const isHavePdfInfoList = pdfInfoList.length > 0
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -228,14 +228,14 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
           disabled: currentIsLoading,
           color: 'error',
           onClick: () => {
-            setPdfInfoList([]);
-            onRemoveFile();
+            setPdfInfoList([])
+            onRemoveFile()
           },
         },
       },
     ],
     [currentIsLoading, isLoading, t],
-  );
+  )
   const BoxViewWrap = useCallback(
     (props) => (
       <Box
@@ -249,7 +249,7 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
       </Box>
     ),
     [],
-  );
+  )
   return (
     <React.Fragment>
       {isHavePdfInfoList && (
@@ -372,6 +372,6 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
         </Grid>
       )}
     </React.Fragment>
-  );
-};
-export default FunctionalityPdfMergeDetail;
+  )
+}
+export default FunctionalityPdfMergeDetail

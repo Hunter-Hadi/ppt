@@ -3,27 +3,28 @@ import {
   DndContext,
   DragOverlay,
   KeyboardSensor,
-  PointerSensor,
+  MouseSensor,
+  TouchSensor,
   useSensor,
   useSensors,
-} from '@dnd-kit/core';
+} from '@dnd-kit/core'
 import {
   rectSortingStrategy,
   SortableContext,
   useSortable,
-} from '@dnd-kit/sortable';
-import { CSS } from '@dnd-kit/utilities';
-import { Box, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { useCallback, useMemo, useState } from 'react';
+} from '@dnd-kit/sortable'
+import { CSS } from '@dnd-kit/utilities'
+import { Box, Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { useCallback, useMemo, useState } from 'react'
 
-type IBasicData = { id: string };
-type DragDataItem<T> = T & IBasicData;
+type IBasicData = { id: string }
+type DragDataItem<T> = T & IBasicData
 interface IFunctionalitySortableItemProps<T> {
-  imageInfo: DragDataItem<T>;
-  isActive: boolean;
-  childrenElement: (data: DragDataItem<T>) => JSX.Element;
-  disabled?: boolean;
+  imageInfo: DragDataItem<T>
+  isActive: boolean
+  childrenElement: (data: DragDataItem<T>) => JSX.Element
+  disabled?: boolean
 }
 
 /**
@@ -37,12 +38,12 @@ const FunctionalitySortableItem = <T,>({
   disabled,
 }: IFunctionalitySortableItemProps<T>) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
-    useSortable({ id: imageInfo.id, disabled: disabled });
+    useSortable({ id: imageInfo.id, disabled: disabled })
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
     zIndex: isActive ? 1 : 0,
-  };
+  }
 
   return (
     <Box
@@ -57,21 +58,21 @@ const FunctionalitySortableItem = <T,>({
     >
       {childrenElement(imageInfo)}
     </Box>
-  );
-};
+  )
+}
 
-const MemoFunctionalitySortableItem = React.memo(FunctionalitySortableItem);
+const MemoFunctionalitySortableItem = React.memo(FunctionalitySortableItem)
 
 interface IFunctionalityCommonDragSortableListProps<T> {
-  list: DragDataItem<T>[];
-  onUpdateList: (newList: DragDataItem<T>[]) => void;
+  list: DragDataItem<T>[]
+  onUpdateList: (newList: DragDataItem<T>[]) => void
   children: (
     data: DragDataItem<T>,
     index: number,
     currentDragInfo?: DragDataItem<T>,
-  ) => JSX.Element;
-  replacementElement?: (data: DragDataItem<T>) => JSX.Element;
-  disabled?: boolean;
+  ) => JSX.Element
+  replacementElement?: (data: DragDataItem<T>) => JSX.Element
+  disabled?: boolean
 }
 
 /**
@@ -89,42 +90,55 @@ const FunctionalityCommonDragSortableList = <T,>({
   children,
   disabled,
 }: IFunctionalityCommonDragSortableListProps<T>) => {
-  const { t } = useTranslation();
-  const [activeDragId, setActiveDragId] = useState<string | null>(null);
+  const { t } = useTranslation()
+  const [activeDragId, setActiveDragId] = useState<string | null>(null)
 
   const handleDragEnd = useCallback(
     (event) => {
       // 拖拽结束 找到拖拽的元素和目标元素，进行排序
-      const { active, over } = event;
-      setActiveDragId(null);
+      const { active, over } = event
+      setActiveDragId(null)
       if (over && active.id !== over.id) {
-        const oldIndex = list.findIndex((item) => item.id === active.id);
-        const newIndex = list.findIndex((item) => item.id === over.id);
-        const newList = [...list];
-        newList.splice(newIndex, 0, newList.splice(oldIndex, 1)[0]);
-        onUpdateList(newList);
+        const oldIndex = list.findIndex((item) => item.id === active.id)
+        const newIndex = list.findIndex((item) => item.id === over.id)
+        const newList = [...list]
+        newList.splice(newIndex, 0, newList.splice(oldIndex, 1)[0])
+        onUpdateList(newList)
       }
     },
     [list, onUpdateList],
-  );
+  )
 
   const onDragStart = (event) => {
-    setActiveDragId(event.active.id);
-  };
+    setActiveDragId(event.active.id)
+  }
 
+  // const sensors = useSensors(
+  //   useSensor(PointerSensor, {
+  //     activationConstraint: {
+  //       distance: 2, // 按住不动移动2px 时 才进行拖拽, 这样就可以触发点击事件
+  //     },
+  //   }),
+  //   useSensor(KeyboardSensor),
+  // );
   const sensors = useSensors(
-    useSensor(PointerSensor, {
+    useSensor(MouseSensor, {
       activationConstraint: {
-        distance: 2, // 按住不动移动2px 时 才进行拖拽, 这样就可以触发点击事件
+        distance: 2,
+      },
+    }),
+    useSensor(TouchSensor, {
+      activationConstraint: {
+        delay: 300,
+        tolerance: 2,
       },
     }),
     useSensor(KeyboardSensor),
-  );
-
+  )
   const currentDragInfo = useMemo(
     () => list.find((item) => item.id === activeDragId),
     [activeDragId, list],
-  );
+  )
 
   return (
     <DndContext
@@ -180,7 +194,7 @@ const FunctionalityCommonDragSortableList = <T,>({
         </Typography>
       </Stack>
     </DndContext>
-  );
-};
+  )
+}
 
-export default FunctionalityCommonDragSortableList;
+export default FunctionalityCommonDragSortableList
