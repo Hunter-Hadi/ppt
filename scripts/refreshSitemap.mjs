@@ -218,7 +218,7 @@ function generateSitemap(
       pages.forEach((page) => {
         if (page) {
           const currentPageHrefLangText = addHrefLangToSitemap(page)
-          urlTagString += `<url><loc>${wwwDomain}${page}</loc>${currentPageHrefLangText}<changefreq>daily</changefreq><lastmod>${isoString}</lastmod></url>`
+          urlTagString += `<url><loc>${wwwDomain}${page}</loc>${currentPageHrefLangText}<lastmod>${isoString}</lastmod></url>`
         }
       })
     } else {
@@ -237,7 +237,6 @@ function generateSitemap(
           urlTagString += `<url>
   <loc>${wwwDomain}${page}</loc>
   ${currentPageHrefLangText}
-  <changefreq>daily</changefreq>
   <lastmod>${isoString}</lastmod>
 </url>
 `
