@@ -1,20 +1,20 @@
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import { Box, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
+import { Box, Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import { useLanguages } from '@/i18n/hooks/useLanguages';
-import LanguageSelectorList from '@/page_components/LanguagesPages/components/LanguageSelectorList';
+import { useLanguages } from '@/i18n/hooks/useLanguages'
+import LanguageSelectorList from '@/page_components/LanguagesPages/components/LanguageSelectorList'
 
-import PopperMenuItem from './components/PopperMenuItem';
+import PopperMenuItem from './components/PopperMenuItem'
 
 interface IProps {
-  isSmallScreen?: boolean;
+  isSmallScreen?: boolean
 }
 
 const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
-  const { t } = useTranslation();
-  const { languageLabel, routerToLanguagesPagesLink } = useLanguages();
+  const { t } = useTranslation()
+  const { languageLabel, routerToLanguagesPagesLink } = useLanguages()
 
   const labelContent = (
     <Stack
@@ -38,7 +38,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
         {languageLabel}
       </Typography>
     </Stack>
-  );
+  )
 
   return (
     <PopperMenuItem
@@ -46,7 +46,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
       LabelContent={labelContent}
       SmallScreenContent={
         <Box px={2} py={1}>
-          <Typography variant='h5' mb={2} fontWeight={900}>
+          <Typography variant='h5' component={'p'} mb={2} fontWeight={900}>
             {t('pages:languages__title')}
           </Typography>
           <LanguageSelectorList
@@ -71,7 +71,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
       }}
       BigScreenContent={
         <Box>
-          <Typography variant='h5' mb={3} fontWeight={900}>
+          <Typography variant='h5' component={'p'} mb={3} fontWeight={900}>
             {t('pages:languages__title')}
           </Typography>
           <LanguageSelectorList
@@ -82,7 +82,7 @@ const LanguageItem: FC<IProps> = ({ isSmallScreen }) => {
         </Box>
       }
     />
-  );
-};
+  )
+}
 
-export default LanguageItem;
+export default LanguageItem
