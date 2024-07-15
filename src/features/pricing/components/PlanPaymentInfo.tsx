@@ -1,28 +1,28 @@
-import { Box, Stack, SxProps, Typography } from '@mui/material';
-import { capitalize } from 'lodash-es';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useMemo } from 'react';
+import { Box, Stack, SxProps, Typography } from '@mui/material'
+import { capitalize } from 'lodash-es'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useMemo } from 'react'
 
-import { PLAN_PRICE_MAP } from '@/features/pricing/constant';
-import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
-import { truncateToDecimalPlaces } from '@/utils/dataHelper/numberHelper';
+import { PLAN_PRICE_MAP } from '@/features/pricing/constant'
+import { RENDER_PLAN_TYPE } from '@/features/pricing/type'
+import { truncateToDecimalPlaces } from '@/utils/dataHelper/numberHelper'
 
-import { transformRenderTypeToPlanType } from '../utils';
-import PlanProductivityValue from './PlanProductivityValue';
+import { transformRenderTypeToPlanType } from '../utils'
+import PlanProductivityValue from './PlanProductivityValue'
 
 interface IProps {
-  type?: RENDER_PLAN_TYPE;
-  showDesc?: boolean;
-  sx?: SxProps;
-  isPopular?: boolean;
-  compareMonthlyPrice?: boolean;
+  type?: RENDER_PLAN_TYPE
+  showDesc?: boolean
+  sx?: SxProps
+  isPopular?: boolean
+  compareMonthlyPrice?: boolean
 }
 
 const PlanPaymentInfo: FC<IProps> = (props) => {
-  const { t } = useTranslation();
-  const { type = 'free', sx, showDesc, isPopular, compareMonthlyPrice } = props;
+  const { t } = useTranslation()
+  const { type = 'free', sx, showDesc, isPopular, compareMonthlyPrice } = props
 
-  const isTeamPlan = ['basic_team', 'pro_team', 'elite_team'].includes(type);
+  const isTeamPlan = ['basic_team', 'pro_team', 'elite_team'].includes(type)
 
   const fontSx = useMemo(
     () => ({
@@ -53,21 +53,21 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
       },
     }),
     [],
-  );
+  )
 
   const title = useMemo(() => {
     if (type !== 'free') {
-      const typeName = type.split('_')[0];
-      return `MaxAI ${capitalize(typeName)}`;
+      const typeName = type.split('_')[0]
+      return `MaxAI ${capitalize(typeName)}`
     }
 
     // free
-    return 'MaxAI Free';
-  }, [type]);
+    return 'MaxAI Free'
+  }, [type])
 
   const renderPayInfo = () => {
     if (type !== 'free') {
-      const isYearly = type.includes('yearly');
+      const isYearly = type.includes('yearly')
 
       if (isYearly) {
         return (
@@ -94,7 +94,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
               {t('pricing:payment_info__billed_yearly')}
             </Typography>
           </Stack>
-        );
+        )
       } else {
         return (
           <Stack direction={'row'} alignItems='center' spacing={0.5}>
@@ -111,7 +111,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
               )}
             </Typography>
           </Stack>
-        );
+        )
       }
     }
 
@@ -120,29 +120,30 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
       <Typography variant='custom' component='p' sx={fontSx.price}>
         Free
       </Typography>
-    );
-  };
+    )
+  }
 
   const desc = useMemo(() => {
     if (type.includes('basic')) {
-      return t('pricing:payment_info__basic_desc');
+      return t('pricing:payment_info__basic_desc')
     }
 
     if (type.includes('pro')) {
-      return t('pricing:payment_info__pro_desc');
+      return t('pricing:payment_info__pro_desc')
     }
 
     if (type.includes('elite')) {
-      return t('pricing:payment_info__elite_desc');
+      return t('pricing:payment_info__elite_desc')
     }
 
     // free
-    return t('pricing:payment_info__free_desc');
-  }, [type, t]);
+    return t('pricing:payment_info__free_desc')
+  }, [type, t])
 
   return (
     <Stack spacing={1} sx={sx}>
       <Typography
+        component='h2'
         variant='custom'
         sx={{
           ...fontSx.title,
@@ -174,7 +175,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
         </Typography>
       )}
     </Stack>
-  );
-};
+  )
+}
 
-export default PlanPaymentInfo;
+export default PlanPaymentInfo

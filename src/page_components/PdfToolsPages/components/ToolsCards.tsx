@@ -9,9 +9,10 @@ import { IToolData } from '@/page_components/PdfToolsPages/constant'
 
 interface IToolsCardsProps {
   list: IToolData[]
+  isShowSeoTag?: boolean
 }
 
-const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
+const ToolsCards: FC<IToolsCardsProps> = ({ list, isShowSeoTag = true }) => {
   const { t } = useTranslation()
 
   return (
@@ -60,6 +61,7 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list }) => {
                     }}
                   />
                   <Typography
+                    component={isShowSeoTag ? 'h2' : 'div'}
                     sx={{
                       fontSize: {
                         xs: 16,

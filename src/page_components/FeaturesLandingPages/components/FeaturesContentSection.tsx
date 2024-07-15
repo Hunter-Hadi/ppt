@@ -1,31 +1,31 @@
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
-import { useTheme } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useMemo } from 'react';
+import Box from '@mui/material/Box'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
+import { useTheme } from '@mui/material/styles'
+import Typography from '@mui/material/Typography'
+import useMediaQuery from '@mui/material/useMediaQuery'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useMemo } from 'react'
 
-import ResponsiveImage from '@/components/ResponsiveImage';
-import useBrowserAgent from '@/features/common/hooks/useBrowserAgent';
-import CTAInstallButton from '@/page_components/CTAInstallButton';
-import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons';
+import ResponsiveImage from '@/components/ResponsiveImage'
+import useBrowserAgent from '@/features/common/hooks/useBrowserAgent'
+import CTAInstallButton from '@/page_components/CTAInstallButton'
+import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons'
 import PictureRetouchingIcon, {
   IPictureRetouchingProps,
-} from '@/page_components/FeaturesLandingPages/components/PictureRetouchingIcon';
+} from '@/page_components/FeaturesLandingPages/components/PictureRetouchingIcon'
 
 interface IProps {
-  icon: React.ReactNode;
-  title: string;
-  description: React.ReactNode;
-  imageUrl: string;
+  icon: React.ReactNode
+  title: string
+  description: React.ReactNode
+  imageUrl: string
 
-  textWithImageLayout?: 'textToImage' | 'imageToText';
+  textWithImageLayout?: 'textToImage' | 'imageToText'
 
-  pictureRetouchingDirection?: false | IPictureRetouchingProps['direction'];
+  pictureRetouchingDirection?: false | IPictureRetouchingProps['direction']
 
-  showCtaInstallButton?: boolean;
+  showCtaInstallButton?: boolean
 }
 const FeaturesContentSection: FC<IProps> = ({
   icon,
@@ -36,25 +36,25 @@ const FeaturesContentSection: FC<IProps> = ({
   pictureRetouchingDirection = false,
   showCtaInstallButton = false,
 }) => {
-  const { t } = useTranslation();
-  const theme = useTheme();
-  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
+  const { t } = useTranslation()
+  const theme = useTheme()
+  const isDownSm = useMediaQuery(theme.breakpoints.down('sm')) // 屏幕宽度小于 768 时为 true
 
-  const { browserAgent } = useBrowserAgent();
+  const { browserAgent } = useBrowserAgent()
 
   const textBoxOrder = useMemo(() => {
     if (isDownSm) {
-      return 1;
+      return 1
     }
-    return textWithImageLayout === 'textToImage' ? 1 : 2;
-  }, [textWithImageLayout, isDownSm]);
+    return textWithImageLayout === 'textToImage' ? 1 : 2
+  }, [textWithImageLayout, isDownSm])
 
   const imageBoxOrder = useMemo(() => {
     if (isDownSm) {
-      return 2;
+      return 2
     }
-    return textWithImageLayout === 'textToImage' ? 2 : 1;
-  }, [textWithImageLayout, isDownSm]);
+    return textWithImageLayout === 'textToImage' ? 2 : 1
+  }, [textWithImageLayout, isDownSm])
 
   return (
     <Box
@@ -85,6 +85,7 @@ const FeaturesContentSection: FC<IProps> = ({
                 icon
               )}
               <Typography
+                component='h2'
                 variant='custom'
                 fontSize={32}
                 fontWeight={700}
@@ -154,7 +155,7 @@ const FeaturesContentSection: FC<IProps> = ({
         </Grid>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default FeaturesContentSection;
+export default FeaturesContentSection

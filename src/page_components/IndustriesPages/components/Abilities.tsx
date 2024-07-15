@@ -28,7 +28,7 @@ const Abilities: FC<IAbilitiesProps> = ({ title, data }) => {
     >
       {title && (
         <Typography
-          component='h3'
+          component='h2'
           variant='custom'
           textAlign='center'
           sx={{
@@ -63,7 +63,6 @@ const Abilities: FC<IAbilitiesProps> = ({ title, data }) => {
               <Image width={64} height={64} src={item.iconPath} alt={''} />
 
               <Typography
-                component='h5'
                 variant='custom'
                 sx={{
                   fontSize: 24,

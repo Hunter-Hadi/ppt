@@ -213,7 +213,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           >
             {t('pages:pdf_tools__detail_page__more_pdf_tools')}
           </Typography>
-          <ToolsCards list={toolList} />
+          <ToolsCards list={toolList} isShowSeoTag={false} />
         </Box>
       )}
     </AppContainer>

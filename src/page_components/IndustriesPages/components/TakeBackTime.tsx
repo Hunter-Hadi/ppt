@@ -30,7 +30,7 @@ const TakeBackTime: FC<ITakeBackTimeProps> = ({
       }}
     >
       <Typography
-        component='h3'
+        component='h2'
         variant='custom'
         textAlign='center'
         sx={{
