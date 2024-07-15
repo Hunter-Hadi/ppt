@@ -8,7 +8,13 @@ const useAutoRedirectLanguage = () => {
   const { pathname, isReady, asPath } = useRouter()
 
   const checkNeedToRedirect = () => {
-    const blacklist = ['/prompt', '/prompts', '/404']
+    const blacklist = [
+      '/prompt',
+      '/prompts',
+      '/404',
+      // '/partners/webchatgpt' 暂时没做 i18n
+      '/partners/webchatgpt',
+    ]
 
     if (blacklist.some((backPath) => pathname.includes(backPath))) {
       return false

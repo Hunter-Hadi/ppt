@@ -13,4 +13,4 @@ Disallow: /*/share
 Disallow: /survey
 Disallow: /*/survey
 
-Sitemap: https://www.maxai.me/sitemap.xml
+Sitemap: https://assets.maxai.me/sitemap/www/sitemap-main.xml 

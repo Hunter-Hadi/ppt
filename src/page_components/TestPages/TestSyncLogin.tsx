@@ -1,41 +1,43 @@
-import { LoadingButton } from '@mui/lab';
-import { Box, Divider, Typography } from '@mui/material';
-import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
-import React from 'react';
+import { LoadingButton } from '@mui/lab'
+import { Box, Divider, Typography } from '@mui/material'
+import Button from '@mui/material/Button'
+import Stack from '@mui/material/Stack'
+import React from 'react'
 import {
   authLogout,
   useCommonUserProfile,
   useConnectMaxAIAccount,
-} from 'src/packages/auth';
+} from 'src/packages/auth'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import AppBar from '@/packages/base-ui/components/AppBar';
-import { useExtensionDetectionAlert } from '@/packages/browser-extension/components/ExtensionDetectionAlert';
-import MaxAIExtensionWrapper from '@/packages/browser-extension/components/MaxAIExtensionWrapper';
-import useMaxAIExtensionState from '@/packages/browser-extension/hooks/useMaxAIExtensionState';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import AppBar from '@/packages/base-ui/components/AppBar'
+import { useExtensionDetectionAlert } from '@/packages/browser-extension/components/ExtensionDetectionAlert'
+import MaxAIExtensionWrapper from '@/packages/browser-extension/components/MaxAIExtensionWrapper'
+import useMaxAIExtensionState from '@/packages/browser-extension/hooks/useMaxAIExtensionState'
 import {
   COMMON_MAXAI_API_HOST,
   COMMON_MAXAI_APP_PROJECT_HOST,
   COMMON_MAXAI_WWW_PROJECT_HOST,
   COMMON_PROJECT_BASE_PATH,
-} from '@/packages/common';
-import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot';
-import Toast from '@/packages/common/utils/toast';
-import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector';
+} from '@/packages/common'
+import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot'
+import MaxAILazyLoadImage from '@/packages/common/components/MaxAILazyLoadImage'
+import Toast from '@/packages/common/utils/toast'
+import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector'
 
 const TestSyncLogin = () => {
   const { isLogin, loading, error, connectMaxAIAccount } =
-    useConnectMaxAIAccount();
-  const { userProfile } = useCommonUserProfile();
-  const maxAIExtensionState = useMaxAIExtensionState();
-  const { openExtensionDetectionAlert } = useExtensionDetectionAlert();
+    useConnectMaxAIAccount()
+  const { userProfile } = useCommonUserProfile()
+  const maxAIExtensionState = useMaxAIExtensionState()
+  const { openExtensionDetectionAlert } = useExtensionDetectionAlert()
 
   const handleLogout = () => {
-    authLogout();
-    window.location.reload();
-  };
+    authLogout()
+    window.location.reload()
+  }
+
   return (
     <MaxAICommonRoot>
       <Stack>
@@ -83,8 +85,8 @@ const TestSyncLogin = () => {
           </Typography>
           <Button
             onClick={() => {
-              const hasMaxAIExtension = maxAIExtensionState.check(true);
-              console.log(`hasMaxAIExtension`, hasMaxAIExtension);
+              const hasMaxAIExtension = maxAIExtensionState.check(true)
+              console.log(`hasMaxAIExtension`, hasMaxAIExtension)
             }}
           >
             check maxai extension
@@ -94,7 +96,7 @@ const TestSyncLogin = () => {
           </Button>
           <MaxAIExtensionWrapper
             feedback={(loading) => {
-              return loading ? 'loading...' : 'loaded';
+              return loading ? 'loading...' : 'loaded'
             }}
           >
             has maxai extension
@@ -108,7 +110,7 @@ const TestSyncLogin = () => {
             variant='contained'
             color='success'
             onClick={() => {
-              Toast.success('success Toast');
+              Toast.success('success Toast')
             }}
           >
             success Toast
@@ -117,7 +119,7 @@ const TestSyncLogin = () => {
             variant='contained'
             color='warning'
             onClick={() => {
-              Toast.warning('warning Toast');
+              Toast.warning('warning Toast')
             }}
           >
             warning Toast
@@ -126,7 +128,7 @@ const TestSyncLogin = () => {
             variant='contained'
             color='info'
             onClick={() => {
-              Toast.info('info Toast');
+              Toast.info('info Toast')
             }}
           >
             info Toast
@@ -140,16 +142,29 @@ const TestSyncLogin = () => {
                   vertical: 'bottom',
                   horizontal: 'right',
                 },
-              });
+              })
             }}
           >
             error Toast
           </Button>
           <Divider />
         </Stack>
+
+        <Stack>
+          <h3>maxai LazyLoadImage:</h3>
+
+          <Box height={2000} bgcolor='#000' />
+
+          <MaxAILazyLoadImage
+            alt='video-cover'
+            src='/assets/landing/hero-section/video-cover.png'
+            width={256}
+            height={144}
+          />
+        </Stack>
       </Stack>
     </MaxAICommonRoot>
-  );
-};
+  )
+}
 
-export default TestSyncLogin;
+export default TestSyncLogin

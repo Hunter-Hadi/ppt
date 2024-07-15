@@ -45,7 +45,7 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
 
   return (
     <AppLoadingLayout loading={!loaded} sx={{ minHeight: '90vh' }}>
-      <Stack color='text.primary' sx={sx}>
+      <Stack color='text.primary' component={'main'} sx={sx}>
         {/* heroSection */}
         <HeroSection
           propRef={propRef}
