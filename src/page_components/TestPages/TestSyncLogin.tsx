@@ -22,9 +22,9 @@ import {
   COMMON_PROJECT_BASE_PATH,
 } from '@/packages/common'
 import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot'
-import MaxAILazyLoadImage from '@/packages/common/components/MaxAILazyLoadImage'
 import Toast from '@/packages/common/utils/toast'
 import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector'
+import MaxAILazyLoadImage from '@/packages/nextjs-ui/components/MaxAILazyLoadImage'
 
 const TestSyncLogin = () => {
   const { isLogin, loading, error, connectMaxAIAccount } =
