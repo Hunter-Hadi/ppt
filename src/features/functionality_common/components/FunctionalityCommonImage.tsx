@@ -62,6 +62,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
               width: '100%',
               userSelect: 'none',
               WebkitUserDrag: 'none',
+              pointerEvents: 'none', // 取消图片的指针事件
               maxHeight: 500,
               minHeight: 60,
               ...imgStyle,
