@@ -149,7 +149,7 @@ const PricingPages = () => {
               sm: 48,
             }}
             fontWeight={700}
-            component={'h2'}
+            component={'h1'}
             textAlign={'center'}
             // mb={4}
           >

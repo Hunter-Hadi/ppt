@@ -1,14 +1,14 @@
-import { Box, Stack, SvgIcon, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React from 'react';
+import { Box, Stack, SvgIcon, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ContactUsPanel from '@/components/ContactUsPanel';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import ContactUsPanel from '@/components/ContactUsPanel'
 
 const ContactUsPages = () => {
   // const isSmScreen = useMediaQuery('(min-width:600px)');
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <AppContainer sx={{ bgcolor: '#fff' }}>
       <AppDefaultSeoLayout title={t('seo:contact_us__title')} />
@@ -22,7 +22,7 @@ const ContactUsPages = () => {
       >
         <Stack direction={'row'} alignItems='center' mb={4} gap={1}>
           <ContactUsIcon />
-          <Typography variant='h2' pt={1}>
+          <Typography component='h1' variant='h2' pt={1}>
             {t('common:contact_us')}
           </Typography>
         </Stack>
@@ -30,9 +30,9 @@ const ContactUsPages = () => {
         <ContactUsPanel />
       </Box>
     </AppContainer>
-  );
-};
-export default ContactUsPages;
+  )
+}
+export default ContactUsPages
 
 const ContactUsIcon = () => (
   <SvgIcon viewBox='0 0 60 40' sx={{ width: 60, height: 40 }}>
@@ -104,4 +104,4 @@ const ContactUsIcon = () => (
       </clipPath>
     </defs>
   </SvgIcon>
-);
+)

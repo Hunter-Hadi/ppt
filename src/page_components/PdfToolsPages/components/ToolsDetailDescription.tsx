@@ -73,6 +73,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
             <Stack display='flex' direction='column' alignItems='center'>
               <ToolsIcon name={item.iconName} fontSize='large' color='action' />
               <Typography
+                variant='h2'
                 sx={{
                   fontSize: {
                     xs: 14,
@@ -145,6 +146,7 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
         >
           <Stack direction='column'>
             <Typography
+              variant='h2'
               color='text.primary'
               sx={{
                 fontSize: {
