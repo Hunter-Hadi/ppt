@@ -2,6 +2,8 @@ import { Box, Stack, SxProps, Typography } from '@mui/material'
 import { CSSProperties, FC } from 'react'
 import React from 'react'
 
+import { MOBILE_CARD_WIDTH, PC_CARD_WIDTH } from '../constants'
+import useFunctionalityCommonIsMobile from '../hooks/useFunctionalityCommonIsMobile'
 import { IFunctionalityCommonImageInfo } from '../types/functionalityCommonImageType'
 
 interface IFunctionalitySortableImageProps {
@@ -31,13 +33,15 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
   wrapSx,
   imgStyle,
 }) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   return (
     <Box
       onClick={onClick}
       sx={{
         cursor: 'grab',
         position: 'relative',
-        width: 200,
+        width: isMobile ? MOBILE_CARD_WIDTH : PC_CARD_WIDTH,
         ...wrapSx,
       }}
     >
@@ -48,6 +52,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
         sx={{
           padding: 1,
           bgcolor: '#9065b00a',
+          overflow: 'hidden',
           '&:hover': {
             bgcolor: '#f0eded',
           },
@@ -62,6 +67,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
               width: '100%',
               userSelect: 'none',
               WebkitUserDrag: 'none',
+              pointerEvents: 'none', // 取消图片的指针事件
               maxHeight: 500,
               minHeight: 60,
               ...imgStyle,
@@ -77,6 +83,14 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
           sx={{
             fontSize: 10,
             marginTop: 1,
+            width: '100%',
+            display: '-webkit-box',
+            overflow: 'hidden',
+            WebkitBoxOrient: 'vertical',
+            WebkitLineClamp: 2,
+            lineClamp: 2, // 支持非webkit浏览器
+            textOverflow: 'ellipsis',
+            textAlign: 'center',
           }}
         >
           {name}
