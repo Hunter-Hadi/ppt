@@ -106,7 +106,7 @@ const AppFooter = () => {
                 >
                   #1 {t('modules:footer__title')}
                 </Typography> */}
-                <Typography variant='custom' fontSize={12} lineHeight={1.5}>
+                <Typography variant='custom' fontSize={14} lineHeight={1.5}>
                   {t('modules:footer__desc')}
                 </Typography>
               </Stack>
