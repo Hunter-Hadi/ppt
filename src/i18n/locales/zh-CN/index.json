@@ -586,7 +586,7 @@
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_1": "上传要旋转的PDF文档。",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_2": "选择要旋转的特定页面或将旋转应用于所有页面。",
     "pdf_tools__detail_description_object__rotate_pdf__bottom_right_description_3": "下载已更改方向的PDF，准备进行任何使用。",
-    "tools__index_page__constant_obj__pdf_page_numbers__title": "页码",
+    "tools__index_page__constant_obj__pdf_page_numbers__title": "排页数",
     "tools__index_page__constant_obj__pdf_page_numbers__main_description": "轻松在PDF中插入页码",
     "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "批量快速在PDF文档中插入页码",
     "pdf_tools__detail_description_object__number_pages__top_left": "使用我们直观的在线PDF页码工具，轻松地将页码插入到您的PDF文件中。无需安装软件，确保您的文档井然有序、易于导航。",
