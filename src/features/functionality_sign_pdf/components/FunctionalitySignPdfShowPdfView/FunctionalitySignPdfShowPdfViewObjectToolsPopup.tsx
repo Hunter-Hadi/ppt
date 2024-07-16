@@ -46,8 +46,8 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   }>({})
 
   const activeObject = useMemo(
-    () => editor.canvas?.getActiveObject(),
-    [editor.canvas],
+    () => editor.current?.getActiveObject(),
+    [editor.current],
   )
 
   const onChangeColor = (color) => {

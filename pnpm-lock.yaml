@@ -78,8 +78,8 @@ dependencies:
     specifier: 13.1.6
     version: 13.1.6(eslint@8.33.0)(typescript@4.9.5)
   fabric:
-    specifier: ^5.3.0
-    version: 5.3.0
+    specifier: ^6.0.2
+    version: 6.0.2
   fabricjs-react:
     specifier: ^1.2.2
     version: 1.2.2
@@ -3897,6 +3897,15 @@ packages:
     dev: false
     optional: true
 
+  /acorn-globals@7.0.1:
+    resolution: {integrity: sha512-umOSDSDrfHbTNPuNpC2NSnnA3LUrqpevPb4T9jRx4MagXNS0rs+gwiTcAvqCRmsD6utzsrzNt+ebm00SNWiC3Q==}
+    requiresBuild: true
+    dependencies:
+      acorn: 8.11.3
+      acorn-walk: 8.3.3
+    dev: false
+    optional: true
+
   /acorn-import-assertions@1.9.0(acorn@8.11.3):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
     peerDependencies:
@@ -3916,6 +3925,15 @@ packages:
     resolution: {integrity: sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==}
     engines: {node: '>=0.4.0'}
     requiresBuild: true
+    dev: false
+    optional: true
+
+  /acorn-walk@8.3.3:
+    resolution: {integrity: sha512-MxXdReSRhGO7VlFe1bRG/oI7/mdLV9B9JJT0N8vZOhF7gFRR5l3M8W9G8JxmKV+JC5mGqJ0QvqfSOLsCPa4nUw==}
+    engines: {node: '>=0.4.0'}
+    requiresBuild: true
+    dependencies:
+      acorn: 8.11.3
     dev: false
     optional: true
 
@@ -4082,6 +4100,7 @@ packages:
   /are-we-there-yet@2.0.0:
     resolution: {integrity: sha512-Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
     requiresBuild: true
     dependencies:
       delegates: 1.0.0
@@ -5918,6 +5937,19 @@ packages:
       - utf-8-validate
     dev: false
 
+  /fabric@6.0.2:
+    resolution: {integrity: sha512-2pqcKAvnhdZxX0pRDdnC74/W1HKOR2zQd4lemCTnabpS3StnRHR9hyfSlbCOuwZHmwU5X5EpwYXVR9mYhO7Arg==}
+    engines: {node: '>=16.20.0'}
+    optionalDependencies:
+      canvas: 2.11.2
+      jsdom: 20.0.3(canvas@2.11.2)
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
+    dev: false
+
   /fabricjs-react@1.2.2:
     resolution: {integrity: sha512-R0YtLhwk4OcZ41XWwGc66KCU8g88zwszXycBC3DQ5BGeWGg3WU2QJp9UKzp6L3L5IHtVeDqO/Bm3NZmp2j2tkQ==}
     dependencies:
@@ -6183,6 +6215,7 @@ packages:
   /gauge@3.0.2:
     resolution: {integrity: sha512-+5J6MS/5XksCuXq++uFRsnUd7Ovu1XenbeuIuNRJxYWjgQbPuFhT14lAvsWfqfAmnwluf1OwMjz39HjfLPci0Q==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
     requiresBuild: true
     dependencies:
       aproba: 2.0.0
@@ -7154,6 +7187,50 @@ packages:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 10.0.0
+      ws: 8.16.0
+      xml-name-validator: 4.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: false
+    optional: true
+
+  /jsdom@20.0.3(canvas@2.11.2):
+    resolution: {integrity: sha512-SYhBvTh89tTfCD/CRdSOm13mOBa42iTaTyfyEWBdKcGdPxPtLFBXuHR8XHb33YNYaP+lLbmSvBTsnoesCNJEsQ==}
+    engines: {node: '>=14'}
+    requiresBuild: true
+    peerDependencies:
+      canvas: ^2.5.0
+    peerDependenciesMeta:
+      canvas:
+        optional: true
+    dependencies:
+      abab: 2.0.6
+      acorn: 8.11.3
+      acorn-globals: 7.0.1
+      canvas: 2.11.2
+      cssom: 0.5.0
+      cssstyle: 2.3.0
+      data-urls: 3.0.2
+      decimal.js: 10.4.3
+      domexception: 4.0.0
+      escodegen: 2.1.0
+      form-data: 4.0.0
+      html-encoding-sniffer: 3.0.0
+      http-proxy-agent: 5.0.0
+      https-proxy-agent: 5.0.1
+      is-potential-custom-element-name: 1.0.1
+      nwsapi: 2.2.7
+      parse5: 7.1.2
+      saxes: 6.0.0
+      symbol-tree: 3.2.4
+      tough-cookie: 4.1.3
+      w3c-xmlserializer: 4.0.0
+      webidl-conversions: 7.0.0
+      whatwg-encoding: 2.0.0
+      whatwg-mimetype: 3.0.0
+      whatwg-url: 11.0.0
       ws: 8.16.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -8424,6 +8501,7 @@ packages:
 
   /npmlog@5.0.1:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
+    deprecated: This package is no longer supported.
     requiresBuild: true
     dependencies:
       are-we-there-yet: 2.0.0
@@ -8703,6 +8781,14 @@ packages:
   /parse5@6.0.1:
     resolution: {integrity: sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==}
     requiresBuild: true
+    dev: false
+    optional: true
+
+  /parse5@7.1.2:
+    resolution: {integrity: sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw==}
+    requiresBuild: true
+    dependencies:
+      entities: 4.5.0
     dev: false
     optional: true
 
@@ -9728,6 +9814,15 @@ packages:
   /saxes@5.0.1:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
     engines: {node: '>=10'}
+    requiresBuild: true
+    dependencies:
+      xmlchars: 2.2.0
+    dev: false
+    optional: true
+
+  /saxes@6.0.0:
+    resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
+    engines: {node: '>=v12.22.7'}
     requiresBuild: true
     dependencies:
       xmlchars: 2.2.0
@@ -10796,6 +10891,15 @@ packages:
   /w3c-xmlserializer@3.0.0:
     resolution: {integrity: sha512-3WFqGEgSXIyGhOmAFtlicJNMjEps8b1MG31NCA0/vOF9+nKMUW1ckhi9cnNHmf88Rzw5V+dwIwsm2C7X8k9aQg==}
     engines: {node: '>=12'}
+    requiresBuild: true
+    dependencies:
+      xml-name-validator: 4.0.0
+    dev: false
+    optional: true
+
+  /w3c-xmlserializer@4.0.0:
+    resolution: {integrity: sha512-d+BFHzbiCx6zGfz0HyQ6Rg69w9k19nviJspaj4yNscGjrHu94sVP+aRm75yEbCh+r2/yR+7q6hux9LVtbuTGBw==}
+    engines: {node: '>=14'}
     requiresBuild: true
     dependencies:
       xml-name-validator: 4.0.0

@@ -1,6 +1,5 @@
 import { Box } from '@mui/material'
-import { fabric } from 'fabric'
-import { FabricJSCanvas, useFabricJSEditor } from 'fabricjs-react'
+import * as fabric from 'fabric'
 import { without } from 'lodash-es'
 import React, {
   forwardRef,
@@ -11,25 +10,6 @@ import React, {
   useState,
 } from 'react'
 import { v4 as uuidV4 } from 'uuid'
-const defaultOnTouchStartHandler = fabric.Canvas.prototype._onTouchStart
-fabric.util.object.extend(fabric.Canvas.prototype, {
-  _onTouchStart: function (e) {
-    const target = this.findTarget(e)
-    // if allowTouchScrolling is enabled, no object was at the
-    // the touch position and we're not in drawing mode, then
-    // let the event skip the fabricjs canvas and do default
-    // behavior
-    if (true && !target && !this.isDrawingMode) {
-      // returning here should allow the event to propagate and be handled
-      // normally by the browser
-      return
-    }
-
-    // otherwise call the default behavior
-    defaultOnTouchStartHandler.call(this, e)
-  },
-})
-import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 import {
   IFabricAddObjectType,
@@ -87,8 +67,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   },
   handleRef,
 ) => {
-  const isMobile = useFunctionalityCommonIsMobile()
-  const { editor, onReady, selectedObjects } = useFabricJSEditor()
+  const canvasEl = useRef<HTMLCanvasElement>(null)
+  const editor = useRef<fabric.Canvas | null>(null)
+
   const topWrapRef = useRef<HTMLElement | null>(null)
   const previousIsSelectionObject = useRef<boolean>(false) //上一次点击是否是选中对象状态
   const [objectIdList, setObjectIdList] = useState<string[]>([])
@@ -130,6 +111,23 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }
   }, [])
   useEffect(() => {
+    if (canvasEl.current) {
+      const canvas = new fabric.Canvas(canvasEl.current, {
+        defaultCursor: 'default',
+        selection: false,
+        controlsAboveOverlay: true,
+        centeredScaling: true,
+        allowTouchScrolling: true,
+      })
+      editor.current = canvas
+
+      return () => {
+        editor.current = null
+        canvas.dispose()
+      }
+    }
+  }, [])
+  useEffect(() => {
     // 键盘事件监听器
     if (editor) {
       const handleKeyDown = (event) => {
@@ -146,14 +144,14 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
             return
           }
           if (event.key === 'Delete' || event.key === 'Backspace') {
-            const activeObjects = editor?.canvas.getActiveObjects()
-            if (activeObjects.length !== 0) {
+            const activeObjects = editor.current?.getActiveObjects()
+            if (activeObjects && activeObjects.length !== 0) {
               // 循环并逐个移除
               activeObjects.forEach(function (object) {
-                editor?.canvas.remove(object)
+                editor.current?.remove(object)
               })
-              editor?.canvas.discardActiveObject() // 取消选中状态
-              editor?.canvas.requestRenderAll() // 刷新画布以显示更改
+              editor.current?.discardActiveObject() // 取消选中状态
+              editor.current?.requestRenderAll() // 刷新画布以显示更改
             }
           }
         } catch (e) {
@@ -171,10 +169,10 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const closeOpenAllPopup = () => {
     //滚动后取消一些事件
     setControlDiv(null)
-    console.log('simply editor', editor?.canvas)
-    editor?.canvas.discardActiveObject() // 取消选中状态
-    editor?.canvas.requestRenderAll() // 刷新画布以显示更改
-    const activeObjects = editor?.canvas?.getActiveObjects()
+    console.log('simply editor', editor.current)
+    editor.current?.discardActiveObject() // 取消选中状态
+    editor.current?.requestRenderAll() // 刷新画布以显示更改
+    const activeObjects = editor.current?.getActiveObjects()
     if (activeObjects) {
       previousIsSelectionObject.current = false
     }
@@ -188,9 +186,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     if (object.type !== 'image') return //只有图片才算正式签名对象
     setObjectIdList((prevObjectIdList) => {
       if (type === 'add') {
-        return [...prevObjectIdList, object.id]
+        return [...prevObjectIdList, (object as any).id]
       } else {
-        return without(prevObjectIdList, object.id)
+        return without(prevObjectIdList, (object as any).id)
       }
     })
   }
@@ -200,7 +198,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     try {
       previousIsSelectionObject.current = true
 
-      setActiveObject(object)
+      setActiveObject(object as any)
       if (object) {
         const topWrapRefRect = topWrapRef.current?.getBoundingClientRect()
         setControlDiv({
@@ -224,7 +222,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     if (deleteObjectKey.current.includes(targetObject.id)) return
 
     const canvasBounds = {
-      height: editor?.canvas.height,
+      height: editor.current?.height,
     }
     const objBounds = targetObject.getBoundingRect()
     let addPositionType: null | 'top' | 'bottom' = null
@@ -235,6 +233,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }
     // 检查是否移动到了下面的边缘
     else if (
+      canvasBounds.height &&
       pointerY > canvasBounds.height + intervalTriggerDistance &&
       objBounds.top + objBounds.height >
         canvasBounds.height + intervalTriggerDistance &&
@@ -270,11 +269,14 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       })
     } else if (addPositionType === 'top') {
       targetObject.clone(function (clone) {
-        // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
-        clone.set({
-          top:
-            editor?.canvas.height - targetObject.height * targetObject.scaleY,
-        })
+        if (editor.current?.height) {
+          // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
+          clone.set({
+            top:
+              editor.current?.height -
+              targetObject.height * targetObject.scaleY,
+          })
+        }
 
         addIndexObject && addIndexObject(clone, canvasIndex - 1)
       })
@@ -332,7 +334,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   useEffect(() => {
     //初始化画布
     try {
-      if (editor?.canvas) {
+      if (editor.current) {
         fabric.Object.prototype.set({
           borderColor: '#9065B0',
           cornerColor: '#9065B0', //激活状态角落图标的填充颜色
@@ -342,8 +344,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           transparentCorners: false, //激活状态角落的图标是否透明
           selectionDashArray: [5, 5],
         })
-        console.log('editor.canvas', editor.canvas)
-        // editor.canvas.on('object:moving', function (options) {
+        console.log('editor.current', editor.current)
+        // editor.current.on('object:moving', function (options) {
         //   console.log('options.target', options.target)
         //   let currentScrollLeft = document.getElementById(
         //     'functionality-sign-pdf-rolling-view',
@@ -367,17 +369,17 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         //   }
         // })
         // // 对象添加
-        // editor.canvas.on('object:added', function (options) {
+        // editor.current.on('object:added', function (options) {
         //   console.log('一个对象被添加', options.target)
         //   changObjectToList(options.target, 'add')
         // })
         // // 对象删除
-        // editor.canvas.on('object:removed', function (options) {
+        // editor.current.on('object:removed', function (options) {
         //   console.log('一个对象被移除', options.target)
         //   changObjectToList(options.target, 'del')
         // })
         // //鼠标抬起事件
-        // editor.canvas.on('mouse:up', function (event) {
+        // editor.current.on('mouse:up', function (event) {
         //   console.log('simply mouse:up', event)
         //   event.e.preventDefault()
         //   if (event.target) {
@@ -408,7 +410,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         //   })
         // })
         // // 对象选中监听
-        // editor.canvas.on('selection:created', function (event) {
+        // editor.current.on('selection:created', function (event) {
         //   console.log('simply before:created', event)
         //   if (event.selected.length > 0) {
         //     previousIsSelectionObject.current = true
@@ -418,7 +420,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         //   }
         // })
 
-        // editor.canvas.on('object:moving', function (e) {
+        // editor.current.on('object:moving', function (e) {
         //   e.e.preventDefault()
         //   console.log('simply object:moving-----', e)
         //   // 对象移动监听 - 保证操作div跟随移动
@@ -429,7 +431,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         //   checkAndMoveToAnotherCanvas(e)
         // })
         // // 对象移动监听 - 保证操作div跟随移动
-        // editor.canvas.on('object:scaling', function (e) {
+        // editor.current.on('object:scaling', function (e) {
         //   e.e.preventDefault()
         //   console.log('simply object:scaling')
 
@@ -437,7 +439,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         // })
 
         // // 确保再次选择时移动操作div
-        // editor.canvas.on('selection:updated', function (event) {
+        // editor.current.on('selection:updated', function (event) {
         //   console.log('simply selection:updated', event)
         //   if (event.selected.length > 0) {
         //     previousIsSelectionObject.current = true
@@ -447,7 +449,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         //   }
         // })
         // // 确保再次选择时移动操作div
-        // editor.canvas.on('selection:cleared', function (event) {
+        // editor.current.on('selection:cleared', function (event) {
         //   console.log('simply selection:cleared', event)
         //   handleObjectSelected()
         // })
@@ -455,79 +457,12 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     } catch (e) {
       console.log('error', e)
     }
-  }, [!!editor?.canvas])
-  useEffect(() => {
-    if (editor?.canvas) {
-      if (isMobile) {
-        const canvas = editor.canvas
-
-        // 设置 canvas 的默认行为
-        editor.canvas.set({
-          defaultCursor: 'default',
-          selection: false,
-          controlsAboveOverlay: true,
-          centeredScaling: true,
-          allowTouchScrolling: true,
-        })
-
-        // 确保独立设置 allowTouchScrolling
-        editor.canvas.allowTouchScrolling = true
-
-        // 检查并设置所有对象的交互属性
-        canvas.getObjects().forEach((obj) => {
-          obj.set({
-            selectable: true, // 允许选择
-            hasControls: false, // 禁用角落控件
-            lockMovementX: true, // 锁定X轴移动
-            lockMovementY: true, // 锁定Y轴移动
-            lockScalingX: true, // 锁定缩放X轴
-            lockScalingY: true, // 锁定缩放Y轴
-            lockRotation: true, // 锁定旋转
-          })
-        })
-
-        // 监听 touchstart 事件，区分单指和多指触摸
-        const touchStartHandler = (e) => {
-          if (e.touches.length > 1) {
-            editor.canvas.allowTouchScrolling = true // 允许多指触摸滚动
-          } else {
-            editor.canvas.allowTouchScrolling = false // 禁用单指触摸滚动
-          }
-        }
-
-        // 确保 cleanup 防止事件重复绑定
-        editor.canvas.upperCanvasEl.addEventListener(
-          'touchstart',
-          touchStartHandler,
-          { passive: true },
-        )
-
-        // 设置以确保触摸事件不会阻碍滚动
-        const preventDefault = (event) => {
-          event.e.preventDefault()
-          event.e.stopPropagation()
-        }
-
-        canvas.on('touch:gesture', preventDefault)
-        canvas.on('touch:drag', preventDefault)
-        editor?.canvas.requestRenderAll() // 刷新画布以显示更改
-        editor?.canvas.renderAll() // 确保变化被渲染
-        return () => {
-          editor.canvas.upperCanvasEl.removeEventListener(
-            'touchstart',
-            touchStartHandler,
-          )
-          canvas.off('touch:gesture', preventDefault)
-          canvas.off('touch:drag', preventDefault)
-        }
-      }
-    }
-  }, [!!editor?.canvas, isMobile])
+  }, [!!editor.current])
   useEffect(() => {
     try {
       //初始化画布高度宽度
-      if (!editor?.canvas || !topWrapRef.current) return
-      editor.canvas.setDimensions({
+      if (!editor.current || !topWrapRef.current) return
+      editor.current.setDimensions({
         width: sizeInfo.width,
         height: sizeInfo.height,
       })
@@ -554,7 +489,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   // 添加签名对象
   const onAddObject = async (
     canvasObject?: ICanvasObjectData,
-    newObject?: fabric.Object,
+    newObject?: any,
     isAutoObjectPosition?: boolean, //是否自动优化对象位置
     isAutoObjectDragPosition: boolean = true, //是否自动拖动对象位置
   ) => {
@@ -566,10 +501,10 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           //直接添加object，会以object的top left添加上去
           newObject.id = uuidV4()
           newObject.set('mtr', false)
-          await editor.canvas.add(newObject)
-          await editor.canvas.requestRenderAll() // 刷新画布以显示更改
+          await editor.current?.add(newObject)
+          await editor.current?.requestRenderAll() // 刷新画布以显示更改
           if (isAutoObjectDragPosition) {
-            const canvasElement = editor.canvas.upperCanvasEl
+            const canvasElement = editor.current?.upperCanvasEl
             if (canvasElement) {
               //这是拖动过来，代表需要自动js触发鼠标事件
               const topWrapRefRect = topWrapRef.current?.getBoundingClientRect()
@@ -584,7 +519,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
                   (newObject.height * newObject.scaleY * scaleFactor) / 2,
                 bubbles: true,
               }
-              editor.canvas.setActiveObject(newObject) // 刷新画布以显示更改
+              editor.current?.setActiveObject(newObject) // 刷新画布以显示更改
               canvasElement?.dispatchEvent(new MouseEvent('mouseup', position))
               canvasElement?.dispatchEvent(
                 new MouseEvent('mousedown', position),
@@ -622,13 +557,13 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   useImperativeHandle(
     handleRef,
     () => ({
-      getFabric: () => editor?.canvas,
+      getFabric: () => editor.current,
       discardActiveObject: () => {
         closeOpenAllPopup()
       },
       onAddObject: onAddObject,
     }),
-    [editor?.canvas],
+    [editor.current],
   )
   //关闭弹窗
   const onCloseAddToolsPopup = () => {
@@ -655,15 +590,12 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           border: '1px solid #e8e8e8',
         }}
       >
-        <FabricJSCanvas
-          className={`sample-canvas-${canvasIndex + 1}`}
-          onReady={onReady}
-        />
+        <canvas width='300' height='300' ref={canvasEl} />;
       </Box>
-      {selectedObjects?.length === 1 && controlDiv && (
+      {controlDiv && activeObject && (
         <Box onMouseDown={handlePopupClick}>
           <FunctionalitySignPdfShowPdfViewObjectToolsPopup
-            key={activeObject.id}
+            key={(activeObject as any).id}
             controlDiv={controlDiv}
             scaleFactor={scaleFactor}
             editor={editor}

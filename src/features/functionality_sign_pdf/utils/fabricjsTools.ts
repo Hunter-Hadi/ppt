@@ -1,5 +1,6 @@
+/* eslint-disable no-extra-semi */
 import dayjs from 'dayjs'
-import { fabric } from 'fabric'
+import * as fabric from 'fabric'
 import { FabricJSEditor } from 'fabricjs-react'
 import { v4 as uuidV4 } from 'uuid'
 
@@ -10,7 +11,7 @@ import { findFirstNonTransparentPixel } from './colorTools'
 const autoCheckTopIsAbnormal = (
   editor,
   top: number,
-  canvasObject: fabric.object,
+  canvasObject: fabric.Object,
   isAutoObjectSizePosition?: boolean,
 ) => {
   let currentTop = top
@@ -19,8 +20,8 @@ const autoCheckTopIsAbnormal = (
   }
   if (currentTop < 0) {
     return 0
-  } else if (currentTop + canvasObject.height > editor.canvas.height) {
-    return editor.canvas.height - canvasObject.height
+  } else if (currentTop + canvasObject.height > editor.current.height) {
+    return editor.current.height - canvasObject.height
   }
   return currentTop
 }
@@ -37,8 +38,9 @@ export const onFabricAddObject = async (
   isAutoObjectSizePosition?: boolean,
 ) => {
   try {
+    console.log('editor', editor)
     if (!editor) return null
-    let createObjectData: fabric.object = null
+    let createObjectData: fabric.Object | null = null
     const positionData = {
       left: position.left,
       top: position.top,
@@ -60,13 +62,13 @@ export const onFabricAddObject = async (
           let scaleRatioHeight = 1
 
           // 判断图片宽度是否过大
-          if (fabricImage.width > editor.canvas.width / 3) {
-            scaleRatioWidth = editor.canvas.width / 3 / fabricImage.width
+          if (fabricImage.width > editor.current.width / 3) {
+            scaleRatioWidth = editor.current.width / 3 / fabricImage.width
           }
 
           // 判断图片高度是否过高
-          if (fabricImage.height > editor.canvas.height / 3) {
-            scaleRatioHeight = editor.canvas.height / 3 / fabricImage.height
+          if (fabricImage.height > editor.current.height / 3) {
+            scaleRatioHeight = editor.current.height / 3 / fabricImage.height
           }
 
           // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
@@ -88,7 +90,7 @@ export const onFabricAddObject = async (
             fabricImage.top = positionData.top - fabricImage.height / 2
           }
 
-          fabricImage.imgColor = imgColor
+          ;(fabricImage as any).imgColor = imgColor
           createObjectData = fabricImage
           resolve()
         }
@@ -122,20 +124,20 @@ export const onFabricAddObject = async (
         maxScaleLimit: 1,
       })
       text.fontFamily = defaultTextFontFamily
-      text.isDateValid = isDateValid
+      ;(text as any).isDateValid = isDateValid
       createObjectData = text
     }
     if (createObjectData) {
-      createObjectData.mtr = false
-      createObjectData.id = uuidV4()
+      ;(createObjectData as any).mtr = false
+      ;(createObjectData as any).id = uuidV4()
       createObjectData.top = autoCheckTopIsAbnormal(
         editor,
         positionData.top,
         createObjectData,
         isAutoObjectSizePosition,
       )
-      editor.canvas.add(createObjectData)
-      editor.canvas.setActiveObject(createObjectData) // 设置复制的对象为当前活动对象
+      editor.current.add(createObjectData)
+      editor.current.setActiveObject(createObjectData) // 设置复制的对象为当前活动对象
       editor?.canvas.requestRenderAll() // 刷新画布以显示更改
       editor?.canvas.renderAll() // 确保变化被渲染
       return createObjectData
