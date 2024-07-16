@@ -20,7 +20,6 @@ import { useMaxAITranslation } from '@/packages/common'
 
 interface IAppBarProps {
   hidden?: boolean
-  ref?: React.RefObject<HTMLDivElement>
   onHeightChange?: (height: number) => void
   maxWidth?: number | string
   MenuListComponents?: React.ReactNode
@@ -33,7 +32,6 @@ interface IAppBarProps {
 }
 
 const AppBar: FC<IAppBarProps> = ({
-  ref,
   hidden = false,
   maxWidth = 1312,
   hiddenSignInButton = false,
@@ -46,6 +44,7 @@ const AppBar: FC<IAppBarProps> = ({
   onHeightChange,
 }) => {
   const { t } = useMaxAITranslation()
+  const headerRef = React.useRef<HTMLDivElement>(null)
   const {
     connectMaxAIAccount,
     isLogin,
@@ -80,24 +79,39 @@ const AppBar: FC<IAppBarProps> = ({
   }, [CtaInstallButtonProps, propCtaContentComponents])
 
   useEffect(() => {
+    const headerElement = headerRef.current
+
+    if (!headerElement) {
+      return
+    }
+
     if (!onHeightChange || hidden) {
       return
     }
-    // 监听 窗口 变化, 触发 onHeightChange
-    const resizeHandle = () => {
-      const headerElement = document.getElementById('app-header')
+
+    // 监听 元素 变化, 触发 onHeightChange
+    const resizeHandle = debounce(() => {
       if (headerElement) {
+        console.log(`headerElement.offsetHeight`, headerElement.offsetHeight)
         onHeightChange(headerElement.offsetHeight)
       }
-    }
-    const debouncedHandle = debounce(resizeHandle, 200)
+    }, 200)
+
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.target === headerElement) {
+          resizeHandle()
+        }
+      }
+    })
 
     resizeHandle()
 
-    window.addEventListener('resize', debouncedHandle)
+    resizeObserver.observe(headerElement)
 
     return () => {
-      window.removeEventListener('resize', debouncedHandle)
+      resizeObserver.unobserve(headerElement)
+      resizeObserver.disconnect()
     }
   }, [onHeightChange, hidden])
 
@@ -108,7 +122,7 @@ const AppBar: FC<IAppBarProps> = ({
   return (
     <MuiAppBar
       id={'app-header'}
-      ref={ref}
+      ref={headerRef}
       component={'header'}
       position={'sticky'}
       sx={{
