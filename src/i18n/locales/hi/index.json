@@ -764,7 +764,7 @@
     "header__menu__pricing": "मूल्य निर्धारण",
     "header__menu__learning_center": "सीखने का केंद्र",
     "footer__title": "एआई उत्पादकता टूल",
-    "footer__desc": "AI चैट, रीव्राइटर, सारांश, तत्क्षण जवाब, पठन सहायक, प्रोम्प्ट, खोज, कला और अनुवाद। GPT-4, Claude 3, Gemini 1.5 द्वारा संचालित।",
+    "footer__desc": "एआई के साथ वेब पर अपने पढ़ने, लेखन और खोजने को तेज करें।",
     "footer__products": "उत्पाद",
     "footer__1_click_prompts": "एआई प्रॉम्प्ट लाइब्रेरी",
     "footer__follow_us": "हमें फ़ॉलो करें",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI खोज",
     "features__ai_art__label": "AI कला",
     "features__ai_translator__label": "AI अनुवादक",
-    "features__ai_vision__label": "AI दृष्टि"
+    "features__ai_vision__label": "AI दृष्टि",
+    "download__title": "डाउनलोड",
+    "use_cases__ai_prompt__label": "एआई प्रॉम्प्ट लाइब्रेरी",
+    "resource__title": "संसाधन",
+    "resource__affiliate__label": "संबद्ध कार्यक्रम",
+    "company__title": "कंपनी"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "मेरी योजना",

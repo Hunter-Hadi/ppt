@@ -764,7 +764,7 @@
     "header__menu__pricing": "Prijzen",
     "header__menu__learning_center": "Leercentrum",
     "footer__title": "AI productiviteitstool",
-    "footer__desc": "AI-chat, herschrijver, samenvatting, direct antwoord, leesassistent, suggesties, zoeken, kunst en vertaler. Aangedreven door GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Verbeter uw lees-, schrijf- en zoekervaring op het web met AI.",
     "footer__products": "Producten",
     "footer__1_click_prompts": "AI prompt bibliotheek",
     "footer__follow_us": "Volg ons",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI zoekopdracht",
     "features__ai_art__label": "AI kunst",
     "features__ai_translator__label": "AI vertaler",
-    "features__ai_vision__label": "AI visie"
+    "features__ai_vision__label": "AI visie",
+    "download__title": "Downloaden",
+    "use_cases__ai_prompt__label": "AI prompt bibliotheek",
+    "resource__title": "Bronnen",
+    "resource__affiliate__label": "Affiliate programma",
+    "company__title": "Bedrijf"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Mijn plan",

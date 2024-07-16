@@ -764,7 +764,7 @@
     "header__menu__pricing": "Ціни",
     "header__menu__learning_center": "Центр навчання",
     "footer__title": "Інструмент продуктивності штучного інтелекту",
-    "footer__desc": "AI чат, переписувач, підсумок, миттєва відповідь, помічник при читанні, пропозиції, пошук, мистецтво та перекладач. Працює на основі GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Покращте своє читання, письмо та пошук по всій мережі за допомогою штучного інтелекту.",
     "footer__products": "Продукти",
     "footer__1_click_prompts": "Бібліотека AI-підказок",
     "footer__follow_us": "Слідкуйте за нами",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI-пошук",
     "features__ai_art__label": "AI-мистецтво",
     "features__ai_translator__label": "AI-перекладач",
-    "features__ai_vision__label": "AI-бачення"
+    "features__ai_vision__label": "AI-бачення",
+    "download__title": "Завантажити",
+    "use_cases__ai_prompt__label": "Бібліотека AI-підказок",
+    "resource__title": "Ресурси",
+    "resource__affiliate__label": "Партнерська програма",
+    "company__title": "Компанія"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Мій план",

@@ -764,7 +764,7 @@
     "header__menu__pricing": "Cennik",
     "header__menu__learning_center": "Centrum nauki",
     "footer__title": "Narzędzie do produktywności AI",
-    "footer__desc": "AI chat, rewriter, podsumowanie, natychmiastowa odpowiedź, asystent do czytania, podpowiedzi, wyszukiwanie, sztuka i tłumacz. Zasilany przez GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Wzmocnij swoje czytanie, pisanie i przeszukiwanie w sieci za pomocą sztucznej inteligencji.",
     "footer__products": "Produkty",
     "footer__1_click_prompts": "Biblioteka podpowiedzi AI",
     "footer__follow_us": "Śledź nas",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "Wyszukiwanie AI",
     "features__ai_art__label": "Sztuka AI",
     "features__ai_translator__label": "Tłumacz AI",
-    "features__ai_vision__label": "Wizja AI"
+    "features__ai_vision__label": "Wizja AI",
+    "download__title": "Pobierz",
+    "use_cases__ai_prompt__label": "Biblioteka AI promptów",
+    "resource__title": "Zasoby",
+    "resource__affiliate__label": "Program partnerski",
+    "company__title": "Firma"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Mój plan",

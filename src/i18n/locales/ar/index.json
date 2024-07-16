@@ -764,7 +764,7 @@
     "header__menu__pricing": "الأسعار",
     "header__menu__learning_center": "مركز التعلم",
     "footer__title": "أداة إنتاجية للذكاء الاصطناعي",
-    "footer__desc": "الدردشة الذكية، إعادة الكتابة، الملخص، الرد الفوري، مساعد القراءة، التلميحات، البحث، الفن، والمترجم. يعمل بواسطة GPT-4، Claude 3، Gemini 1.5.",
+    "footer__desc": "قم بتعزيز قراءتك وكتابتك والبحث عبر الويب بذكاء اصطناعي.",
     "footer__products": "المنتجات",
     "footer__1_click_prompts": "مكتبة تلميحات الذكاء الاصطناعي",
     "footer__follow_us": "تابعنا",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "البحث بواسطة الذكاء الاصطناعي",
     "features__ai_art__label": "الفن بواسطة الذكاء الاصطناعي",
     "features__ai_translator__label": "الترجمة بواسطة الذكاء الاصطناعي",
-    "features__ai_vision__label": "الرؤية بواسطة الذكاء الاصطناعي"
+    "features__ai_vision__label": "الرؤية بواسطة الذكاء الاصطناعي",
+    "download__title": "تحميل",
+    "use_cases__ai_prompt__label": "مكتبة الدعم الذكي",
+    "resource__title": "الموارد",
+    "resource__affiliate__label": "برنامج الشراكة",
+    "company__title": "الشركة"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "خطتي",

@@ -764,7 +764,7 @@
     "header__menu__pricing": "価格",
     "header__menu__learning_center": "学習センター",
     "footer__title": "AI生産性ツール",
-    "footer__desc": "AIチャット、リライト、要約、インスタント返信、読み上げアシスタント、プロンプト、検索、アート、翻訳。GPT-4、Claude 3、Gemini 1.5によって提供されています。",
+    "footer__desc": "Web全体でAIを使って読む、書く、検索を強化しましょう。",
     "footer__products": "製品",
     "footer__1_click_prompts": "AIのプロンプトライブラリ",
     "footer__follow_us": "フォローする",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI検索",
     "features__ai_art__label": "AIアート",
     "features__ai_translator__label": "AI翻訳",
-    "features__ai_vision__label": "AIビジョン"
+    "features__ai_vision__label": "AIビジョン",
+    "download__title": "ダウンロード",
+    "use_cases__ai_prompt__label": "AIプロンプトライブラリ",
+    "resource__title": "リソース",
+    "resource__affiliate__label": "アフィリエイトプログラム",
+    "company__title": "企業"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "マイプラン",

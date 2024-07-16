@@ -764,7 +764,7 @@
     "header__menu__pricing": "Fiyatlandırma",
     "header__menu__learning_center": "Öğrenme Merkezi",
     "footer__title": "AI üretkenlik aracı",
-    "footer__desc": "AI sohbeti, yeniden yazıcı, özet, anlık yanıt, okuma yardımcısı, ipuçları, arama, sanat ve çevirmen. GPT-4, Claude 3, Gemini 1.5 tarafından desteklenmektedir.",
+    "footer__desc": "AI ile web üzerinde okuma, yazma ve arama işlemlerinizi hızlandırın.",
     "footer__products": "Ürünler",
     "footer__1_click_prompts": "AI prompt kütüphanesi",
     "footer__follow_us": "Bizi Takip Edin",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI arama",
     "features__ai_art__label": "AI sanat",
     "features__ai_translator__label": "AI çevirmen",
-    "features__ai_vision__label": "AI görüş"
+    "features__ai_vision__label": "AI görüş",
+    "download__title": "İndir",
+    "use_cases__ai_prompt__label": "AI ipucu kütüphanesi",
+    "resource__title": "Kaynaklar",
+    "resource__affiliate__label": "Ortaklık programı",
+    "company__title": "Şirket"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Planım",

@@ -764,7 +764,7 @@
     "header__menu__pricing": "Harga",
     "header__menu__learning_center": "Pusat Pembelajaran",
     "footer__title": "Alat produktivitas AI",
-    "footer__desc": "Obrolan AI, pengubah ulang, ringkasan, balasan instan, asisten membaca, petunjuk, pencarian, seni, dan penerjemah. Didukung oleh GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Meningkatkan kemampuan membaca, menulis, dan mencari di seluruh web dengan kecerdasan buatan.",
     "footer__products": "Produk",
     "footer__1_click_prompts": "Perpustakaan petunjuk AI",
     "footer__follow_us": "Ikuti Kami",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "Pencarian AI",
     "features__ai_art__label": "Seni AI",
     "features__ai_translator__label": "Penerjemah AI",
-    "features__ai_vision__label": "Visi AI"
+    "features__ai_vision__label": "Visi AI",
+    "download__title": "Unduh",
+    "use_cases__ai_prompt__label": "Pustaka prompt AI",
+    "resource__title": "Sumber daya",
+    "resource__affiliate__label": "Program afiliasi",
+    "company__title": "Perusahaan"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Rencana Saya",

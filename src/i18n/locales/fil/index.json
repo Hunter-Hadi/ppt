@@ -764,7 +764,7 @@
     "header__menu__pricing": "Presyo",
     "header__menu__learning_center": "Learning Center",
     "footer__title": "AI tool para sa produktibidad",
-    "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, at pagsasalin. Pinapagana ng GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Pabilisin ang iyong pagbabasa, pagsusulat, at paghahanap sa buong web gamit ang AI.",
     "footer__products": "Mga Produkto",
     "footer__1_click_prompts": "Aklatan ng mga AI prompt",
     "footer__follow_us": "Sundan Kami",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI search",
     "features__ai_art__label": "AI art",
     "features__ai_translator__label": "AI translator",
-    "features__ai_vision__label": "AI vision"
+    "features__ai_vision__label": "AI vision",
+    "download__title": "I-download",
+    "use_cases__ai_prompt__label": "AI prompt library",
+    "resource__title": "Mga Mapagkukunan",
+    "resource__affiliate__label": "Programa ng Affiliate",
+    "company__title": "Kumpanya"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Mag-sign In"

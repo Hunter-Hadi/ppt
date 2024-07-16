@@ -764,7 +764,7 @@
     "header__menu__pricing": "定价",
     "header__menu__learning_center": "学习中心",
     "footer__title": "AI 生产力工具",
-    "footer__desc": "AI聊天、改写器、摘要、即时回复、阅读助手、提示、搜索、艺术和翻译。由GPT-4、Claude 3、Gemini 1.5提供支持。",
+    "footer__desc": "通过AI在网络上提升阅读、写作和搜索体验。",
     "footer__products": "产品",
     "footer__1_click_prompts": "AI提示库",
     "footer__follow_us": "关注我们",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI搜索",
     "features__ai_art__label": "AI艺术",
     "features__ai_translator__label": "AI翻译",
-    "features__ai_vision__label": "AI视觉"
+    "features__ai_vision__label": "AI视觉",
+    "download__title": "下载",
+    "use_cases__ai_prompt__label": "AI提示库",
+    "resource__title": "资源",
+    "resource__affiliate__label": "联盟计划",
+    "company__title": "公司"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "我的计划",

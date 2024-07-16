@@ -764,7 +764,7 @@
     "header__menu__pricing": "Цены",
     "header__menu__learning_center": "Центр обучения",
     "footer__title": "Инструмент повышения производительности ИИ",
-    "footer__desc": "AI-чат, переформулировщик, резюме, мгновенный ответ, помощник в чтении, подсказки, поиск, искусство и переводчик. Работает на основе GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Улучшите своё чтение, письмо и поиск в интернете с помощью искусственного интеллекта.",
     "footer__products": "Продукты",
     "footer__1_click_prompts": "Библиотека AI подсказок",
     "footer__follow_us": "Подписывайтесь на нас",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "ИИ-поиск",
     "features__ai_art__label": "ИИ-искусство",
     "features__ai_translator__label": "ИИ-переводчик",
-    "features__ai_vision__label": "ИИ-зрение"
+    "features__ai_vision__label": "ИИ-зрение",
+    "download__title": "Скачать",
+    "use_cases__ai_prompt__label": "Библиотека AI подсказок",
+    "resource__title": "Ресурсы",
+    "resource__affiliate__label": "Партнерская программа",
+    "company__title": "Компания"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Мой план",

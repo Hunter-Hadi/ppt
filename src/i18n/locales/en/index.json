@@ -784,10 +784,11 @@
     "writing__features_browser__description__part3": "Get AI help, right where you need it."
   },
   "app_footer": {
-    "resource__learning_center__label": "Learning Center",
+    "download__title": "Download",
     "use_cases__title": "Use Cases",
     "use_cases__research__label": "Research",
     "use_cases__writing__label": "Writing",
+    "use_cases__ai_prompt__label": "AI prompt library",
     "industries__title": "Industries",
     "industries__executives__label": "Business owners",
     "industries__marketing__label": "Marketing",
@@ -807,7 +808,12 @@
     "features__ai_search__label": "AI search",
     "features__ai_art__label": "AI art",
     "features__ai_translator__label": "AI translator",
-    "features__ai_vision__label": "AI vision"
+    "features__ai_vision__label": "AI vision",
+    "resource__title": "Resources",
+    "resource__affiliate__label": "Affiliate program",
+    "resource__learning_center__label": "Learning center",
+    "company__title": "Company"
+
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"
@@ -1034,7 +1040,7 @@
     "header__menu__pricing": "Pricing",
     "header__menu__learning_center": "Learning-center",
     "footer__title": "AI productivity tool",
-    "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, and translator. Powered by GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Supercharge your reading, writing, and searching across the web with AI.",
     "footer__products": "Products",
     "footer__1_click_prompts": "AI prompt library",
     "footer__follow_us": "Follow Us",

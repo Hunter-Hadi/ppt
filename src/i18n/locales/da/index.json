@@ -764,7 +764,7 @@
     "header__menu__pricing": "Priser",
     "header__menu__learning_center": "Læringscenter",
     "footer__title": "AI produktivitetsværktøj",
-    "footer__desc": "AI chat, omskrivning, resumé, øjeblikkelig svar, læseassistent, prompts, søgning, kunst og oversætter. Drevet af GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Optimér din læsning, skrivning og søgning på tværs af nettet med AI.",
     "footer__products": "Produkter",
     "footer__1_click_prompts": "AI prompt bibliotek",
     "footer__follow_us": "Følg os",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI søgning",
     "features__ai_art__label": "AI kunst",
     "features__ai_translator__label": "AI oversætter",
-    "features__ai_vision__label": "AI vision"
+    "features__ai_vision__label": "AI vision",
+    "download__title": "Hent",
+    "use_cases__ai_prompt__label": "AI prompt bibliotek",
+    "resource__title": "Ressourcer",
+    "resource__affiliate__label": "Affiliate program",
+    "company__title": "Virksomhed"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Min plan",

@@ -764,7 +764,7 @@
     "header__menu__pricing": "Tarification",
     "header__menu__learning_center": "Centre d'apprentissage",
     "footer__title": "Outil de productivité IA",
-    "footer__desc": "Chatbot IA, rédacteur, résumé, réponse instantanée, assistant de lecture, suggestions, recherche, art et traducteur. Propulsé par GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Optimisez votre lecture, écriture et recherche sur le web avec l'IA.",
     "footer__products": "Produits",
     "footer__1_click_prompts": "Bibliothèque de suggestions IA",
     "footer__follow_us": "Suivez-nous",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "Recherche IA",
     "features__ai_art__label": "Art IA",
     "features__ai_translator__label": "Traducteur IA",
-    "features__ai_vision__label": "Vision IA"
+    "features__ai_vision__label": "Vision IA",
+    "download__title": "Télécharger",
+    "use_cases__ai_prompt__label": "Bibliothèque de suggestions IA",
+    "resource__title": "Ressources",
+    "resource__affiliate__label": "Programme d'affiliation",
+    "company__title": "Entreprise"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Se connecter"

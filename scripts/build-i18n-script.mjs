@@ -1,7 +1,7 @@
-import * as _ from '_-es'
 import fs from 'fs'
 import pkg from 'gpt-3-encoder'
 import { HttpsProxyAgent } from 'https-proxy-agent'
+import * as _ from 'lodash-es'
 import nodeFetch from 'node-fetch'
 import OpenAI from 'openai'
 import { dirname, join } from 'path'
@@ -342,14 +342,14 @@ const updateI18nJson = async (
   needUpdateLanguages = needUpdateLanguages.filter((dir) => {
     return dir.name !== 'en' && dir.name !== 'en-GB' && dir.name !== 'en-US'
   })
-  fs.writeFileSync(
-    join(jsonDir, `/en-GB/index.json`),
-    JSON.stringify(sourceJson, null, 2),
-  )
-  fs.writeFileSync(
-    join(jsonDir, `/en-US/index.json`),
-    JSON.stringify(sourceJson, null, 2),
-  )
+  // fs.writeFileSync(
+  //   join(jsonDir, `/en-GB/index.json`),
+  //   JSON.stringify(sourceJson, null, 2),
+  // )
+  // fs.writeFileSync(
+  //   join(jsonDir, `/en-US/index.json`),
+  //   JSON.stringify(sourceJson, null, 2),
+  // )
   // 覆盖en的json给en-GB和en-US
   console.log('i18n 需要更新的语言包总数: ', needUpdateLanguages.length)
   if (updateKeys.length > 0) {

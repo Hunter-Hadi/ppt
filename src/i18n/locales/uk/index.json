@@ -764,7 +764,7 @@
     "header__menu__pricing": "قیمت",
     "header__menu__learning_center": "سیکھنے کا مرکز",
     "footer__title": "AI پیداواری کا آلہ",
-    "footer__desc": "AI چیٹ، ریترائٹر، خلاصہ، فوری جواب، پڑھنے کا معاون، پرومپٹس، تلاش، آرٹ، اور ترجمہ. GPT-4، Claude 3، Gemini 1.5 کی طاقت سے محرک",
+    "footer__desc": "AI کے ساتھ ویب پر پڑھائی، تحریر اور تلاش کو تیز کریں۔",
     "footer__products": "مصنوعات",
     "footer__1_click_prompts": "AI پرومپ لائبریری",
     "footer__follow_us": "ہماری تعاقب کریں",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "آئی تلاش",
     "features__ai_art__label": "آئی آرٹ",
     "features__ai_translator__label": "آئی ترجمہ کار",
-    "features__ai_vision__label": "آئی وژن"
+    "features__ai_vision__label": "آئی وژن",
+    "download__title": "ڈاؤن لوڈ",
+    "use_cases__ai_prompt__label": "ای آئی پرومپٹ لائبریری",
+    "resource__title": "وسائل",
+    "resource__affiliate__label": "افیلییٹ پروگرام",
+    "company__title": "کمپنی"
   },
   "package__base_ui": {
     "app_bar__sign_in": "سائن ان"

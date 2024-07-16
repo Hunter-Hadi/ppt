@@ -764,7 +764,7 @@
     "header__menu__pricing": "מחירים",
     "header__menu__learning_center": "מרכז למידה",
     "footer__title": "כלי יעילות AI",
-    "footer__desc": "צ'אט AI, מחדש, סיכום, תשובה מיידית, עוזר קריאה, רמזים, חיפוש, אמנות ומתרגם. מופעל על ידי GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "שדרג את קריאתך, כתיבתך וחיפושיך ברחבי הרשת עם AI.",
     "footer__products": "מוצרים",
     "footer__1_click_prompts": "ספריית הצעות AI",
     "footer__follow_us": "עקוב אחרינו",
@@ -1558,7 +1558,12 @@
     "features__ai_search__label": "חיפוש AI",
     "features__ai_art__label": "אמנות AI",
     "features__ai_translator__label": "מתרגם AI",
-    "features__ai_vision__label": "ראייה AI"
+    "features__ai_vision__label": "ראייה AI",
+    "download__title": "הורדה",
+    "use_cases__ai_prompt__label": "ספריית הצעות AI",
+    "resource__title": "משאבים",
+    "resource__affiliate__label": "תוכנית שותפים",
+    "company__title": "חברה"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "התוכנית שלי",

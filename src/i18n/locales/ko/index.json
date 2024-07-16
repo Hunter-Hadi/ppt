@@ -764,7 +764,7 @@
     "header__menu__pricing": "가격",
     "header__menu__learning_center": "학습 센터",
     "footer__title": "AI 생산성 도구",
-    "footer__desc": "AI 챗봇, 리라이터, 요약, 즉각적인 답변, 독서 보조, 프롬프트, 검색, 예술 및 번역기. GPT-4, Claude 3, Gemini 1.5로 구동됩니다.",
+    "footer__desc": "웹에서 AI를 활용하여 독해, 작성 및 검색을 강화하세요.",
     "footer__products": "제품",
     "footer__1_click_prompts": "AI 프롬프트 라이브러리",
     "footer__follow_us": "팔로우하기",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI 검색",
     "features__ai_art__label": "AI 예술",
     "features__ai_translator__label": "AI 번역기",
-    "features__ai_vision__label": "AI 비전"
+    "features__ai_vision__label": "AI 비전",
+    "download__title": "다운로드",
+    "use_cases__ai_prompt__label": "AI 프롬프트 라이브러리",
+    "resource__title": "자료",
+    "resource__affiliate__label": "제휴 프로그램",
+    "company__title": "회사"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "내 계획",

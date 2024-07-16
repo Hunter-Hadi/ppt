@@ -764,7 +764,7 @@
     "header__menu__pricing": "Hinnoittelu",
     "header__menu__learning_center": "Oppimiskeskus",
     "footer__title": "AI-tuottavuustyökalu",
-    "footer__desc": "AI-keskustelu, uudelleenkirjoitus, yhteenveto, välitön vastaus, lukemisen avustaja, vihjeet, haku, taide ja kääntäjä. Toimii GPT-4:n, Claude 3:n ja Gemini 1.5:n voimalla.",
+    "footer__desc": "Tehosta lukemista, kirjoittamista ja etsimistä verkossa tekoälyn avulla.",
     "footer__products": "Tuotteet",
     "footer__1_click_prompts": "AI-prompt-kirjasto",
     "footer__follow_us": "Seuraa meitä",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "Tekoälyhaku",
     "features__ai_art__label": "Tekoälytaide",
     "features__ai_translator__label": "Tekoälykääntäjä",
-    "features__ai_vision__label": "Tekoälynäkö"
+    "features__ai_vision__label": "Tekoälynäkö",
+    "download__title": "Lataa",
+    "use_cases__ai_prompt__label": "AI-prompt-kirjasto",
+    "resource__title": "Resurssit",
+    "resource__affiliate__label": "Kumppaniohjelma",
+    "company__title": "Yritys"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Suunnitelmani",

@@ -764,7 +764,7 @@
     "header__menu__pricing": "Preise",
     "header__menu__learning_center": "Lernzentrum",
     "footer__title": "KI-Produktivitätstool",
-    "footer__desc": "AI-Chat, Umformulierer, Zusammenfassung, Sofortantwort, Lesehilfe, Hinweise, Suche, Kunst und Übersetzer. Angetrieben von GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Steigern Sie Ihre Lese-, Schreib- und Suchfähigkeiten im Web mit KI.",
     "footer__products": "Produkte",
     "footer__1_click_prompts": "KI-Prompt-Bibliothek",
     "footer__follow_us": "Folge uns",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "KI-Suche",
     "features__ai_art__label": "KI-Kunst",
     "features__ai_translator__label": "KI-Übersetzer",
-    "features__ai_vision__label": "KI-Vision"
+    "features__ai_vision__label": "KI-Vision",
+    "download__title": "Herunterladen",
+    "use_cases__ai_prompt__label": "KI-Prompt-Bibliothek",
+    "resource__title": "Ressourcen",
+    "resource__affiliate__label": "Partnerprogramm",
+    "company__title": "Unternehmen"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Mein Plan",

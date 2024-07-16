@@ -764,7 +764,7 @@
     "header__menu__pricing": "價格",
     "header__menu__learning_center": "學習中心",
     "footer__title": "AI 生產力工具",
-    "footer__desc": "AI 聊天、改寫、摘要、即時回覆、閱讀助手、提示、搜尋、藝術和翻譯。由 GPT-4、Claude 3 和 Gemini 1.5 提供動力。",
+    "footer__desc": "透過人工智慧，極大增強您在網路上的閱讀、寫作和搜尋。",
     "footer__products": "產品",
     "footer__1_click_prompts": "AI提示庫",
     "footer__follow_us": "關注我們",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI搜索",
     "features__ai_art__label": "AI藝術",
     "features__ai_translator__label": "AI翻譯",
-    "features__ai_vision__label": "AI視覺"
+    "features__ai_vision__label": "AI視覺",
+    "download__title": "下載",
+    "use_cases__ai_prompt__label": "AI提示庫",
+    "resource__title": "資源",
+    "resource__affiliate__label": "聯盟計劃",
+    "company__title": "公司"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "我的計劃",

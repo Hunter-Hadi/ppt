@@ -764,7 +764,7 @@
     "header__menu__pricing": "Prissättning",
     "header__menu__learning_center": "Lärandecenter",
     "footer__title": "AI produktivitetsverktyg",
-    "footer__desc": "AI-chatt, omskrivare, sammanfattning, omedelbart svar, läshjälp, förslag, sökning, konst och översättare. Drivs av GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Maximera din läsning, skrivning och sökning över webben med AI.",
     "footer__products": "Produkter",
     "footer__1_click_prompts": "AI-promptbibliotek",
     "footer__follow_us": "Följ oss",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "AI-sökning",
     "features__ai_art__label": "AI-konst",
     "features__ai_translator__label": "AI-översättare",
-    "features__ai_vision__label": "AI-vision"
+    "features__ai_vision__label": "AI-vision",
+    "download__title": "Ladda ner",
+    "use_cases__ai_prompt__label": "AI prompt bibliotek",
+    "resource__title": "Resurser",
+    "resource__affiliate__label": "Affiliateprogram",
+    "company__title": "Företag"
   },
   "package__auth": {
     "auth_avatar__menu_item__my_plan": "Mitt plan",
