@@ -1,11 +1,7 @@
-import {
-  Autocomplete,
-  SxProps,
-  TextField,
-  TextFieldProps,
-} from '@mui/material';
-import React, { FC } from 'react';
+import { Autocomplete, SxProps, TextField, TextFieldProps } from '@mui/material'
+import React, { FC } from 'react'
 
+// Prompt 里支持的语言
 const LANGUAGES_OPTIONS = [
   { language_code: 'uk', value: 'Ukrainian', label: 'Українська' },
   { language_code: 'so', value: 'Somali', label: 'Af Soomaali' },
@@ -109,22 +105,22 @@ const LANGUAGES_OPTIONS = [
   { language_code: 'zh', value: 'Chinese', label: '中文' },
   { language_code: 'zh-TW', value: 'Traditional Chinese', label: '繁體中文' },
   { language_code: 'ja', value: 'Japanese', label: '日本語' },
-];
+]
 
 interface LanguageSelectProps {
-  label?: string;
-  defaultValue?: string;
-  onChange?: (value: string) => void;
-  sx?: SxProps;
+  label?: string
+  defaultValue?: string
+  onChange?: (value: string) => void
+  sx?: SxProps
 }
 
 function filterOptions(options: any[], { inputValue }: any) {
   return options.filter((option) => {
-    const label = option.label.toLowerCase();
-    const value = option.value.toLowerCase();
-    const input = inputValue.toLowerCase();
-    return label.includes(input) || value.includes(input);
-  });
+    const label = option.label.toLowerCase()
+    const value = option.value.toLowerCase()
+    const input = inputValue.toLowerCase()
+    return label.includes(input) || value.includes(input)
+  })
 }
 
 const LanguageSelect: FC<LanguageSelectProps> = (props) => {
@@ -132,18 +128,18 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
     label = 'Output language',
     defaultValue = '',
     onChange = (value: string) => {
-      console.log(value);
+      console.log(value)
     },
     sx,
-  } = props;
+  } = props
   const [value, setValue] = React.useState<{ label: string; value: string }>(
     () => {
       return (
         LANGUAGES_OPTIONS.find((option) => option.value === defaultValue) ||
         LANGUAGES_OPTIONS[0]
-      );
+      )
     },
-  );
+  )
   return (
     <Autocomplete
       disableClearable
@@ -154,8 +150,8 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
       getOptionLabel={(option) => option.label}
       options={LANGUAGES_OPTIONS}
       onChange={(event: any, newValue) => {
-        setValue(newValue);
-        onChange(newValue.value);
+        setValue(newValue)
+        onChange(newValue.value)
       }}
       filterOptions={filterOptions}
       renderInput={(params) => (
@@ -168,7 +164,7 @@ const LanguageSelect: FC<LanguageSelectProps> = (props) => {
         />
       )}
     ></Autocomplete>
-  );
-};
+  )
+}
 
-export { LanguageSelect };
+export { LanguageSelect }
