@@ -3,8 +3,7 @@ import { IPromptListType } from '@/features/prompt_library/types'
 export const NEED_AUTH_PROMPT_LIST_TYPE = ['Favorites', 'Own']
 export const DEFAULT_PROMPT_LIST_TYPE: IPromptListType = 'Public'
 export const DEFAULT_PROMPT_AUTHOR = 'MaxAI.me'
-export const DEFAULT_PROMPT_AUTHOR_LINK =
-  'https://api.maxai.me/app/maxai-web?ref=webchatgpt'
+export const DEFAULT_PROMPT_AUTHOR_LINK = 'https://api.maxai.me/app/maxai-web'
 export const PROMPT_LIBRARY_HOST = 'https://app.maxai.me'
 
 export const DEFAULT_PROMPT_VARIABLE: any[] = [
@@ -17,8 +16,7 @@ export const DEFAULT_PROMPT_VARIABLE: any[] = [
   },
   {
     name: 'Live Crawling Crawled Text',
-    hint:
-      'This variable will be automatically updated with text extracted from the target URL',
+    hint: 'This variable will be automatically updated with text extracted from the target URL',
     type: 'livecrawling',
     isSystemVariable: true,
   },
