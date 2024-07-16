@@ -52,6 +52,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
         sx={{
           padding: 1,
           bgcolor: '#9065b00a',
+          overflow: 'hidden',
           '&:hover': {
             bgcolor: '#f0eded',
           },
@@ -82,12 +83,14 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
           sx={{
             fontSize: 10,
             marginTop: 1,
-
+            width: '100%',
             display: '-webkit-box',
             overflow: 'hidden',
             WebkitBoxOrient: 'vertical',
             WebkitLineClamp: 2,
             lineClamp: 2, // 支持非webkit浏览器
+            textOverflow: 'ellipsis',
+            textAlign: 'center',
           }}
         >
           {name}
