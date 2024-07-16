@@ -3,24 +3,37 @@ import { useEffect, useState } from 'react'
 
 import { getBrowserLanguage } from '@/features/common/utils/dataHelper/browserInfoHelper'
 import languageCodeMap from '@/packages/common/constants/languageCodeMap.json'
+
+// 需要自动跳转的页面 白名单
+const AUTO_REDIRECT_WHITE_LIST = [
+  '/',
+  (pathname: string) => pathname.startsWith('/use-cases'),
+  (pathname: string) => pathname.startsWith('/features'),
+  (pathname: string) => pathname.startsWith('/industries'),
+]
+
 const useAutoRedirectLanguage = () => {
   const [autoRedirectDone, setAutoRedirectDone] = useState(false)
   const { pathname, isReady, asPath } = useRouter()
 
   const checkNeedToRedirect = () => {
-    const blacklist = [
-      '/prompt',
-      '/prompts',
-      '/404',
-      // '/partners/webchatgpt' 暂时没做 i18n
-      '/partners/webchatgpt',
-    ]
-
-    if (blacklist.some((backPath) => pathname.includes(backPath))) {
+    if (pathname.includes('embed') || pathname.includes('/[locale]')) {
       return false
     }
 
-    return !pathname.includes('/[locale]') && !pathname.includes('embed')
+    if (
+      AUTO_REDIRECT_WHITE_LIST.some((whitePath) => {
+        if (typeof whitePath === 'function') {
+          return whitePath(pathname)
+        } else {
+          return whitePath === pathname
+        }
+      })
+    ) {
+      return true
+    }
+
+    return false
   }
 
   useEffect(() => {
