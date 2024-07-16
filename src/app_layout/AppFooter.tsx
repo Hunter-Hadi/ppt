@@ -7,7 +7,6 @@ import React from 'react'
 
 import FooterList from '@/components/Footerlist'
 import ProLink from '@/components/ProLink'
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
 import {
   APP_EXTERNAL_LINKS,
   APP_PROJECT_LINK,
@@ -90,7 +89,7 @@ const AppFooter = () => {
             }}
           >
             <Stack
-              spacing={3}
+              spacing={1.5}
               sx={{
                 maxWidth: {
                   xs: 'max-content',
@@ -100,18 +99,18 @@ const AppFooter = () => {
             >
               <AppLogo />
               <Stack spacing={1}>
-                <Typography
+                {/* <Typography
                   variant='body2'
                   fontWeight={700}
                   color='primary.main'
                 >
                   #1 {t('modules:footer__title')}
-                </Typography>
+                </Typography> */}
                 <Typography variant='custom' fontSize={12} lineHeight={1.5}>
                   {t('modules:footer__desc')}
                 </Typography>
               </Stack>
-              <A16zTop50AppsBadge />
+              {/* <A16zTop50AppsBadge /> */}
             </Stack>
 
             <Grid container spacing={4}>
