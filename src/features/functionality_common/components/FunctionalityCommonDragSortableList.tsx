@@ -18,6 +18,9 @@ import { Box, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { useCallback, useMemo, useState } from 'react'
 
+import { MOBILE_CARD_WIDTH, PC_CARD_WIDTH } from '../constants'
+import useFunctionalityCommonIsMobile from '../hooks/useFunctionalityCommonIsMobile'
+
 type IBasicData = { id: string }
 type DragDataItem<T> = T & IBasicData
 interface IFunctionalitySortableItemProps<T> {
@@ -37,6 +40,7 @@ const FunctionalitySortableItem = <T,>({
   childrenElement,
   disabled,
 }: IFunctionalitySortableItemProps<T>) => {
+  const isMobile = useFunctionalityCommonIsMobile()
   const { attributes, listeners, setNodeRef, transform, transition } =
     useSortable({ id: imageInfo.id, disabled: disabled })
   const style = {
@@ -53,7 +57,7 @@ const FunctionalitySortableItem = <T,>({
       {...attributes}
       sx={{
         cursor: 'grab',
-        width: 200,
+        width: isMobile ? MOBILE_CARD_WIDTH : PC_CARD_WIDTH,
       }}
     >
       {childrenElement(imageInfo)}

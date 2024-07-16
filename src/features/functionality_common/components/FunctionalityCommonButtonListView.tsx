@@ -1,37 +1,37 @@
-import { IconButton, IconButtonProps } from '@mui/material';
-import Button, { ButtonProps } from '@mui/material/Button';
-import Grid, { RegularBreakpoints } from '@mui/material/Grid';
-import React from 'react';
+import { IconButton, IconButtonProps } from '@mui/material'
+import Button, { ButtonProps } from '@mui/material/Button'
+import Grid, { RegularBreakpoints } from '@mui/material/Grid'
+import React from 'react'
 
 import UploadButton, {
   IUploadButtonProps,
-} from '@/features/common/components/UploadButton';
+} from '@/features/common/components/UploadButton'
 
-import FunctionalityCommonIcon from './FunctionalityCommonIcon';
-import FunctionalityCommonTooltip from './FunctionalityCommonTooltip';
+import FunctionalityCommonIcon from './FunctionalityCommonIcon'
+import FunctionalityCommonTooltip from './FunctionalityCommonTooltip'
 type IButtonProps = ButtonProps & {
-  children: React.ReactNode;
-  tooltip?: string;
-  tooltipKey?: number | string;
-};
+  children: React.ReactNode
+  tooltip?: string
+  tooltipKey?: number | string
+}
 export type IButtonConfig = {
-  type: 'button' | 'iconButton' | 'upload';
-  isShow?: boolean;
-  buttonProps?: IButtonProps;
+  type: 'button' | 'iconButton' | 'upload'
+  isShow?: boolean
+  buttonProps?: IButtonProps
   iconButtonProps?: ({
-    name: string;
-    tooltip?: string;
-  } & IconButtonProps)[];
+    name: string
+    tooltip?: string
+  } & IconButtonProps)[]
   uploadProps?: IUploadButtonProps & {
-    children: React.ReactNode;
-    tooltip?: string;
-  };
-};
+    children: React.ReactNode
+    tooltip?: string
+  }
+}
 
 type IFunctionalityCommonButtonListViewProps = {
-  buttonConfigs: IButtonConfig[];
-  gridBreakpoints?: RegularBreakpoints;
-};
+  buttonConfigs: IButtonConfig[]
+  gridBreakpoints?: RegularBreakpoints
+}
 /**
  * 公共按钮列表组件 作用是把需要重复的按钮视图组件抽离出来，统一高度大小和样式和管理，以及更好的可视化
  */
@@ -40,12 +40,12 @@ export const FunctionalityCommonButtonListView: React.FC<
 > = ({ buttonConfigs, gridBreakpoints }) => {
   const getButtonProps = (params: IButtonProps | undefined) => {
     if (params) {
-      const { tooltip, tooltipKey, ...buttonProps } = params;
-      return buttonProps;
+      const { tooltip, tooltipKey, ...buttonProps } = params
+      return buttonProps
     } else {
-      return {};
+      return {}
     }
-  };
+  }
   return (
     <Grid
       container
@@ -55,7 +55,7 @@ export const FunctionalityCommonButtonListView: React.FC<
       spacing={2}
     >
       {buttonConfigs.map((config, index) => {
-        if (config.isShow === false) return null;
+        if (config.isShow === false) return null
         return (
           <Grid
             item
@@ -115,8 +115,8 @@ export const FunctionalityCommonButtonListView: React.FC<
               )}
             </React.Fragment>
           </Grid>
-        );
+        )
       })}
     </Grid>
-  );
-};
+  )
+}

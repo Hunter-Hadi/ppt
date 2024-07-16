@@ -25,8 +25,13 @@ import {
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView'
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage'
 import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip'
+import {
+  MOBILE_CARD_WIDTH,
+  PC_CARD_WIDTH,
+} from '@/features/functionality_common/constants'
 import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale'
 import useFunctionalityCommonConvertedContentSelector from '@/features/functionality_common/hooks/useFunctionalityCommonConvertedContentSelector'
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
 } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion'
@@ -44,6 +49,8 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
   file,
   onRemoveFile,
 }) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const { t } = useTranslation()
   const isReadFile = useRef(false)
 
@@ -291,7 +298,9 @@ export const FunctionalityPdfSplitDetail: FC<IFunctionalityPdfSplitDetail> = ({
               imageInfo={imageInfo}
               onClick={() => !currentIsLoading && onSwitchSelect(imageInfo.id)}
               wrapSx={{
-                width: currentScale * 50,
+                width:
+                  currentScale *
+                  (isMobile ? MOBILE_CARD_WIDTH / 4 : PC_CARD_WIDTH / 4),
               }}
             >
               <Box

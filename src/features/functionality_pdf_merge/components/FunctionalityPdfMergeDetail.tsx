@@ -282,7 +282,7 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
               >
                 <FunctionalityCommonImage
                   key={imageInfo.id}
-                  name={String(index + 1)}
+                  name={imageInfo.name}
                   imageInfo={imageInfo}
                   sx={{
                     border:

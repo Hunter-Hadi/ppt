@@ -3,6 +3,11 @@ import React from 'react'
 import { FC } from 'react'
 
 import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage'
+import {
+  MOBILE_CARD_WIDTH,
+  PC_CARD_WIDTH,
+} from '@/features/functionality_common/constants'
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 interface IFunctionalityImageData {
   id: string
@@ -22,6 +27,8 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
   onClickImage,
   disabled,
 }) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   return (
     <Stack
       direction='row'
@@ -40,7 +47,8 @@ const FunctionalityImageList: FC<IFunctionalityImageList> = ({
           name={String(index + 1)}
           imageInfo={imageInfo}
           wrapSx={{
-            width: scale * 50,
+            width:
+              scale * (isMobile ? MOBILE_CARD_WIDTH / 4 : PC_CARD_WIDTH / 4),
           }}
           onClick={() => !disabled && onClickImage(imageInfo)}
         >

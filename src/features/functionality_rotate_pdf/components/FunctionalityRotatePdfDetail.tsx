@@ -5,9 +5,9 @@ import {
   Grid,
   IconButton,
   Stack,
-} from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import { degrees, PDFDocument } from 'pdf-lib';
+} from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import { degrees, PDFDocument } from 'pdf-lib'
 import React, {
   FC,
   useCallback,
@@ -15,39 +15,46 @@ import React, {
   useMemo,
   useRef,
   useState,
-} from 'react';
+} from 'react'
 
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
-} from '@/features/functionality_common/components/FunctionalityCommonButtonListView';
-import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage';
-import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip';
-import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale';
+} from '@/features/functionality_common/components/FunctionalityCommonButtonListView'
+import FunctionalityCommonImage from '@/features/functionality_common/components/FunctionalityCommonImage'
+import FunctionalityCommonTooltip from '@/features/functionality_common/components/FunctionalityCommonTooltip'
+import {
+  MOBILE_CARD_WIDTH,
+  PC_CARD_WIDTH,
+} from '@/features/functionality_common/constants'
+import { useFunctionalityCommonChangeScale } from '@/features/functionality_common/hooks/useFunctionalityCommonChangeScale'
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import useFunctionalityCommonPdfToImageConversion, {
   IFunctionalityPdfToImageType,
-} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion';
-import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload';
-import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex';
-import FunctionalityRotatePdfIcon from '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfIcon';
+} from '@/features/functionality_common/hooks/useFunctionalityCommonPdfToImageConversion'
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
+import FunctionalityRotatePdfIcon from '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfIcon'
 
 type IFunctionalityRotatePdfType = IFunctionalityPdfToImageType & {
-  rotateAngle: number;
-};
+  rotateAngle: number
+}
 interface IFunctionalityRotatePdfDetail {
-  file: File;
-  onRemoveFile: () => void;
+  file: File
+  onRemoveFile: () => void
 }
 const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
   file,
   onRemoveFile,
 }) => {
-  const { t } = useTranslation();
-  const isReadFile = useRef(false);
+  const { t } = useTranslation()
+  const isMobile = useFunctionalityCommonIsMobile()
+  const isReadFile = useRef(false)
+
   const [pdfPageImageInfoList, setPdfPageImageInfoList] = useState<
     IFunctionalityRotatePdfType[]
-  >([]); //PDF页面的图片列信息表
-  const [isDownloadLoading, setIsDownloadLoading] = useState<boolean>(false); //下载加载
+  >([]) //PDF页面的图片列信息表
+  const [isDownloadLoading, setIsDownloadLoading] = useState<boolean>(false) //下载加载
 
   const {
     convertedPdfImages, //转换完的图片信息列表
@@ -58,26 +65,26 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
     pdfTotalPages,
     currentPdfActionNum,
     setPdfTotalPages,
-  } = useFunctionalityCommonPdfToImageConversion(); //pdf转图片类型 工具 的hook
-  const { changeScale, currentScale } = useFunctionalityCommonChangeScale(); //放大缩小hooks
+  } = useFunctionalityCommonPdfToImageConversion() //pdf转图片类型 工具 的hook
+  const { changeScale, currentScale } = useFunctionalityCommonChangeScale() //放大缩小hooks
   const readPdfToImages = async () => {
     //读取pdf文件并转换成图片
     if (file) {
-      const isReadSuccess = await onReadPdfToImages(file);
+      const isReadSuccess = await onReadPdfToImages(file)
       if (!isReadSuccess) {
-        onRemovePdfFile();
+        onRemovePdfFile()
       }
     }
-  };
+  }
   useEffect(() => {
     if (file) {
       if (isReadFile.current) {
-        return;
+        return
       }
-      isReadFile.current = true;
-      readPdfToImages();
+      isReadFile.current = true
+      readPdfToImages()
     }
-  }, [file]);
+  }, [file])
   useEffect(() => {
     if (convertedPdfImages.length > 0) {
       //这里应该是在onUploadFile的onReadPdfToImages后处理更好，之前没有考虑到，先放在这里
@@ -87,67 +94,67 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
           ...convertedPdfImage,
           rotateAngle: 0,
         })),
-      );
+      )
     }
-  }, [convertedPdfImages]);
+  }, [convertedPdfImages])
   const confirmToRotatePdf = async () => {
     //确认并旋转PDF
     try {
-      setIsDownloadLoading(true);
-      setPdfTotalPages(0);
-      if (!file) return;
-      const buff = await file.arrayBuffer(); //获取文件的二进制数据
-      const pdfDocument = await PDFDocument.load(buff); //加载pdf文件
+      setIsDownloadLoading(true)
+      setPdfTotalPages(0)
+      if (!file) return
+      const buff = await file.arrayBuffer() //获取文件的二进制数据
+      const pdfDocument = await PDFDocument.load(buff) //加载pdf文件
       for (let i = 0; i < pdfPageImageInfoList.length; i++) {
-        const pdfImageInfo = pdfPageImageInfoList[i];
-        if (pdfImageInfo.rotateAngle === 0) continue;
-        const pdfPage = pdfDocument.getPage(pdfImageInfo.definedIndex - 1); //获取最初的页数
-        const oldRotationInfo = pdfPage.getRotation(); //获取旧的旋转输入
+        const pdfImageInfo = pdfPageImageInfoList[i]
+        if (pdfImageInfo.rotateAngle === 0) continue
+        const pdfPage = pdfDocument.getPage(pdfImageInfo.definedIndex - 1) //获取最初的页数
+        const oldRotationInfo = pdfPage.getRotation() //获取旧的旋转输入
         pdfPage.setRotation(
           degrees(oldRotationInfo.angle + pdfImageInfo.rotateAngle), //之前的旋转加现在的旋转等于新的角度
-        ); //设置旋转角度
+        ) //设置旋转角度
       }
-      const pageCount = pdfDocument.getPageCount(); //获取pdf文件的总页数
+      const pageCount = pdfDocument.getPageCount() //获取pdf文件的总页数
       const fileName = functionalityCommonFileNameRemoveAndAddExtension(
         'rotate-' + file?.name || '',
-      ); //获取规定规范的文件名
+      ) //获取规定规范的文件名
       if (pdfPageImageInfoList.length === pageCount) {
         //是否跟获取的pdf页面加载的一致
-        const bytes = await pdfDocument.save(); //保存pdf文件
-        downloadUrl(bytes, fileName);
+        const bytes = await pdfDocument.save() //保存pdf文件
+        downloadUrl(bytes, fileName)
       } else {
         //因为用户加载的时候点击取消，相当于可以只显示部分页面给他
-        const newPdfDocument = await PDFDocument.create(); //新的PDF来copy 截取的页面
+        const newPdfDocument = await PDFDocument.create() //新的PDF来copy 截取的页面
         const pages = await newPdfDocument.copyPages(
           pdfDocument,
           pdfPageImageInfoList.map((_, index) => index), //截取的index
-        );
+        )
         pages.forEach((page) => {
-          newPdfDocument.addPage(page); //添加到
-        });
-        const bytes = await newPdfDocument.save(); //保存pdf文件
-        downloadUrl(bytes, fileName);
+          newPdfDocument.addPage(page) //添加到
+        })
+        const bytes = await newPdfDocument.save() //保存pdf文件
+        downloadUrl(bytes, fileName)
       }
-      setIsDownloadLoading(false);
+      setIsDownloadLoading(false)
     } catch (error) {
-      console.log('simply confirmToRotatePdf error', error);
+      console.log('simply confirmToRotatePdf error', error)
     }
-  };
+  }
   const onRemovePdfFile = () => {
     //删除当前的文件/图片信息
-    setConvertedPdfImages([]);
-    setPdfPageImageInfoList([]);
-    onRemoveFile();
-  };
+    setConvertedPdfImages([])
+    setPdfPageImageInfoList([])
+    onRemoveFile()
+  }
   const changeRotateNumberCorrect = (rotateNumber: number) => {
     //大于360就是0，不然数字会一直累积
-    const newRotateNumber = rotateNumber + 90;
-    return newRotateNumber === 360 ? 0 : newRotateNumber;
-  };
-  const currentInitializeLoading = pdfIsLoading; //文件加载和pdf加载 初始化
-  const currentIsLoading = currentInitializeLoading || isDownloadLoading; //页面是否有loading
+    const newRotateNumber = rotateNumber + 90
+    return newRotateNumber === 360 ? 0 : newRotateNumber
+  }
+  const currentInitializeLoading = pdfIsLoading //文件加载和pdf加载 初始化
+  const currentIsLoading = currentInitializeLoading || isDownloadLoading //页面是否有loading
   const onRotateSelect = (pdfImageInfo: IFunctionalityRotatePdfType) => {
-    if (currentIsLoading) return;
+    if (currentIsLoading) return
     //旋转此刻图片
     setPdfPageImageInfoList((currentPdfPageImageList) => {
       return currentPdfPageImageList.map((pdfPageImage) => {
@@ -155,25 +162,25 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
           return {
             ...pdfPageImage,
             rotateAngle: changeRotateNumberCorrect(pdfPageImage.rotateAngle),
-          };
+          }
         } else {
-          return pdfPageImage;
+          return pdfPageImage
         }
-      });
-    });
-  };
+      })
+    })
+  }
   const onRotateAll = () => {
-    if (currentIsLoading) return;
+    if (currentIsLoading) return
     //旋转全部的图片
     setPdfPageImageInfoList((currentPdfPageImageList) => {
       return currentPdfPageImageList.map((pdfPageImage) => {
         return {
           ...pdfPageImage,
           rotateAngle: changeRotateNumberCorrect(pdfPageImage.rotateAngle),
-        };
-      });
-    });
-  };
+        }
+      })
+    })
+  }
   //按钮配置列表
   const buttonConfigs: IButtonConfig[] = useMemo(
     () => [
@@ -243,7 +250,7 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
       },
     ],
     [currentIsLoading, pdfPageImageInfoList, t],
-  );
+  )
   const StackViewWrap = useCallback(
     (props) => (
       <Stack
@@ -261,8 +268,8 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
       </Stack>
     ),
     [],
-  );
-  const isHavePdfPageImageInfoList = pdfPageImageInfoList.length > 0;
+  )
+  const isHavePdfPageImageInfoList = pdfPageImageInfoList.length > 0
   return (
     <React.Fragment>
       {isHavePdfPageImageInfoList && (
@@ -278,7 +285,9 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
               imageInfo={imageInfo}
               onClick={() => onRotateSelect(imageInfo)}
               wrapSx={{
-                width: currentScale * 50,
+                width:
+                  currentScale *
+                  (isMobile ? MOBILE_CARD_WIDTH / 4 : PC_CARD_WIDTH / 4),
                 overflow: 'hidden',
               }}
               imgStyle={{
@@ -362,6 +371,6 @@ const FunctionalityRotatePdfDetail: FC<IFunctionalityRotatePdfDetail> = ({
         </Grid>
       )}
     </React.Fragment>
-  );
-};
-export default FunctionalityRotatePdfDetail;
+  )
+}
+export default FunctionalityRotatePdfDetail
