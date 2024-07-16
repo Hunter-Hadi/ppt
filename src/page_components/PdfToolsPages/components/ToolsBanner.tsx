@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React from 'react'
 import { FC } from 'react'
@@ -6,11 +6,56 @@ import { FC } from 'react'
 interface IToolsBannerProps {
   title: string
   description: string
+  isSimplicityView: boolean
 }
 
-const ToolsBanner: FC<IToolsBannerProps> = ({ title, description }) => {
+const ToolsBanner: FC<IToolsBannerProps> = ({
+  title,
+  description,
+  isSimplicityView,
+}) => {
   const { t } = useTranslation()
+  if (isSimplicityView) {
+    return (
+      <Stack
+        flexDirection='row'
+        alignItems='end'
+        sx={{
+          width: '100%',
+          pt: 1,
+          pb: 1,
+          maxWidth: 1312,
+          margin: '0 auto',
+        }}
+      >
+        <Typography
+          component='h1'
+          variant='custom'
+          sx={{
+            fontSize: {
+              xs: 16,
+              lg: 16,
+            },
+            color: 'text.primary',
+          }}
+        >
+          {t(title)}
+        </Typography>
 
+        <Typography
+          sx={{
+            fontSize: {
+              xs: 10,
+              lg: 12,
+            },
+            color: 'text.secondary',
+          }}
+        >
+          {t(description)}
+        </Typography>
+      </Stack>
+    )
+  }
   return (
     <Box
       sx={{

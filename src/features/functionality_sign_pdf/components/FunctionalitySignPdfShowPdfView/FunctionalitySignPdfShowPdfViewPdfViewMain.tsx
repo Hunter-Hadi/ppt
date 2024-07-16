@@ -269,39 +269,41 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                       pageNumber={index + 1}
                       width={1080}
                     />
-                    <Box
-                      sx={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        bottom: 0,
-                        right: 0,
-                        zIndex: 9,
-                      }}
-                    >
-                      <FunctionalitySignPdfShowPdfViewRenderCanvas
-                        canvasIndex={index}
-                        topScrollKey={scrollTime}
-                        canvasNumber={numPages}
-                        ref={(el) => {
-                          if (el) {
-                            canvasHandlesRefs.current[index] = el
-                          }
+                    {true && (
+                      <Box
+                        sx={{
+                          position: 'absolute',
+                          top: 0,
+                          left: 0,
+                          bottom: 0,
+                          right: 0,
+                          zIndex: 9,
                         }}
-                        onChangeObjectNumber={(number) =>
-                          onChangeObjectNumber(index, number)
-                        }
-                        addIndexObject={(object, index) => {
-                          if (!canvasHandlesRefs.current[index]) return
-                          const addObjectFunction =
-                            canvasHandlesRefs.current[index].onAddObject
-                          if (addObjectFunction) {
-                            addObjectFunction(undefined, object)
+                      >
+                        <FunctionalitySignPdfShowPdfViewRenderCanvas
+                          canvasIndex={index}
+                          topScrollKey={scrollTime}
+                          canvasNumber={numPages}
+                          ref={(el) => {
+                            if (el) {
+                              canvasHandlesRefs.current[index] = el
+                            }
+                          }}
+                          onChangeObjectNumber={(number) =>
+                            onChangeObjectNumber(index, number)
                           }
-                        }}
-                        sizeInfo={pagesInitialSizeList[index]}
-                      />
-                    </Box>
+                          addIndexObject={(object, index) => {
+                            if (!canvasHandlesRefs.current[index]) return
+                            const addObjectFunction =
+                              canvasHandlesRefs.current[index].onAddObject
+                            if (addObjectFunction) {
+                              addObjectFunction(undefined, object)
+                            }
+                          }}
+                          sizeInfo={pagesInitialSizeList[index]}
+                        />
+                      </Box>
+                    )}
                   </Box>
                 </FunctionalitySignPdfShowPdfViewDroppable>
               </div>

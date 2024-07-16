@@ -1,32 +1,23 @@
-import { Box, Button, Modal, Stack, Tab, Tabs } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useRef, useState } from 'react';
+import { Box, Button, Modal, Stack, Tab, Tabs } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useRef, useState } from 'react'
+
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 import FunctionalitySignPdfOperationSignaturePad, {
   IFunctionalitySignPdfSignaturePadHandles,
-} from './FunctionalitySignPdfOperationSignaturePad';
+} from './FunctionalitySignPdfOperationSignaturePad'
 import FunctionalitySignPdfOperationSignatureType, {
   IFunctionalitySignPdfSignatureTypeHandles,
-} from './FunctionalitySignPdfOperationSignatureType';
+} from './FunctionalitySignPdfOperationSignatureType'
 import FunctionalitySignPdfOperationSignatureUpload, {
   IFunctionalitySignPdfSignatureUploadHandles,
-} from './FunctionalitySignPdfOperationSignatureUpload';
-const style = {
-  position: 'absolute' as const,
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 650,
-  bgcolor: 'background.paper',
-  border: '2px solid #fafafa',
-  boxShadow: 24,
-  px: 1,
-  minHeight: 300,
-};
-export type ISignatureType = 'type' | 'draw' | 'upload';
+} from './FunctionalitySignPdfOperationSignatureUpload'
+
+export type ISignatureType = 'type' | 'draw' | 'upload'
 interface IFunctionalitySignPdfSignModalProps {
-  onClose: () => void;
-  onCreate: (type: ISignatureType, value: string) => void;
+  onClose: () => void
+  onCreate: (type: ISignatureType, value: string) => void
 }
 
 /**
@@ -35,40 +26,42 @@ interface IFunctionalitySignPdfSignModalProps {
 const FunctionalitySignPdfOperationSignatureModal: FC<
   IFunctionalitySignPdfSignModalProps
 > = ({ onClose, onCreate }) => {
-  const { t } = useTranslation();
+  const isMobile = useFunctionalityCommonIsMobile()
 
-  const [tabValue, setTabValue] = useState<ISignatureType>('draw');
+  const { t } = useTranslation()
+
+  const [tabValue, setTabValue] = useState<ISignatureType>('draw')
   const signaturePadRef =
-    useRef<IFunctionalitySignPdfSignaturePadHandles | null>(null);
+    useRef<IFunctionalitySignPdfSignaturePadHandles | null>(null)
   const signatureTypeRef =
-    useRef<IFunctionalitySignPdfSignatureTypeHandles | null>(null);
+    useRef<IFunctionalitySignPdfSignatureTypeHandles | null>(null)
   const signatureUploadRef =
-    useRef<IFunctionalitySignPdfSignatureUploadHandles | null>(null);
+    useRef<IFunctionalitySignPdfSignatureUploadHandles | null>(null)
   const handleChange = (
     event: React.SyntheticEvent,
     newValue: ISignatureType,
   ) => {
-    setTabValue(newValue);
-  };
+    setTabValue(newValue)
+  }
   const onConfirm = () => {
-    let imageString: string | undefined = '';
+    let imageString: string | undefined = ''
     switch (tabValue) {
       case 'type':
-        imageString = signatureTypeRef.current?.getPngBase64();
-        break;
+        imageString = signatureTypeRef.current?.getPngBase64()
+        break
       case 'draw':
-        imageString = signaturePadRef.current?.getPngBase64();
-        break;
+        imageString = signaturePadRef.current?.getPngBase64()
+        break
       case 'upload':
-        imageString = signatureUploadRef.current?.getPngBase64();
-        break;
+        imageString = signatureUploadRef.current?.getPngBase64()
+        break
       default:
-        break;
+        break
     }
     if (imageString) {
-      onCreate(tabValue, imageString);
+      onCreate(tabValue, imageString)
     }
-  };
+  }
   const bottomView = (disabled: boolean) => {
     return (
       <Stack
@@ -95,8 +88,21 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
           )}
         </Button>
       </Stack>
-    );
-  };
+    )
+  }
+  const style = {
+    position: 'absolute' as const,
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: isMobile ? '100%' : 650,
+    height: isMobile ? '100%' : 'auto',
+    bgcolor: 'background.paper',
+    border: '2px solid #fafafa',
+    boxShadow: 24,
+    px: 1,
+    minHeight: 300,
+  }
   return (
     <Modal
       open={true}
@@ -157,6 +163,6 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
         </Box>
       </Box>
     </Modal>
-  );
-};
-export default FunctionalitySignPdfOperationSignatureModal;
+  )
+}
+export default FunctionalitySignPdfOperationSignatureModal
