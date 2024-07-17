@@ -1,5 +1,6 @@
 import { Box } from '@mui/material'
 import * as fabric from 'fabric'
+import Hammer from 'hammerjs'
 import { without } from 'lodash-es'
 import React, {
   forwardRef,
@@ -10,6 +11,8 @@ import React, {
   useState,
 } from 'react'
 import { v4 as uuidV4 } from 'uuid'
+
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 import {
   IFabricAddObjectType,
@@ -67,9 +70,11 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   },
   handleRef,
 ) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const canvasEl = useRef<HTMLCanvasElement>(null)
   const editor = useRef<fabric.Canvas | null>(null)
-
+  const [selectLength, setSelectLength] = useState<number>(0)
   const topWrapRef = useRef<HTMLElement | null>(null)
   const previousIsSelectionObject = useRef<boolean>(false) //上一次点击是否是选中对象状态
   const [objectIdList, setObjectIdList] = useState<string[]>([])
@@ -83,12 +88,22 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     null,
   ) // 当前选中对象的位置
 
-  const [activeObject, setActiveObject] = useState<fabric.Object | null>(null) // 当前选中对象信息
+  const [activeObject, setActiveObject] = useState<fabric.Object | undefined>(
+    undefined,
+  ) // 当前选中对象信息
   const deleteObjectKey = useRef<string[]>([])
   useEffect(() => {
     onChangeObjectNumber && onChangeObjectNumber(objectIdList.length)
   }, [objectIdList])
-
+  useEffect(() => {
+    if (editor.current) {
+      if (isMobile) {
+        editor.current.selection = false
+      } else {
+        editor.current.selection = true
+      }
+    }
+  }, [isMobile])
   useEffect(() => {
     // 检测点击事件的函数，用来判断点击是否在Box外部
     const handleClickOutside = (event) => {
@@ -111,20 +126,87 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     }
   }, [])
   useEffect(() => {
-    if (canvasEl.current) {
+    if (canvasEl.current && !editor.current) {
+      const outerDiv = document.getElementById(
+        'functionality-sign-pdf-rolling-view',
+      )
+
       const canvas = new fabric.Canvas(canvasEl.current, {
-        defaultCursor: 'default',
-        selection: false,
-        controlsAboveOverlay: true,
-        centeredScaling: true,
-        allowTouchScrolling: true,
+        selection: !isMobile,
+        allowTouchScrolling: isMobile,
       })
       editor.current = canvas
+      editor.current.setZoom(0.2)
+      if (!isMobile) return //移动端需要的滚动逻辑
+      const hammerCanvas = new Hammer(canvas.getSelectionElement())
 
-      return () => {
-        editor.current = null
-        canvas.dispose()
+      hammerCanvas.get('pinch').set({ enable: true })
+      hammerCanvas.get('pan').set({ direction: Hammer.DIRECTION_ALL })
+
+      const SCROLL_SPEED = 10 // 滚动速度系数
+
+      let panActive = false
+      let lastPanX = 0
+      let lastPanY = 0
+
+      // 请求动画帧来平滑滚动
+      // eslint-disable-next-line no-inner-declarations
+      const smoothScroll = () => {
+        if (!panActive || !outerDiv) return
+        outerDiv.scrollTop -= lastPanY * SCROLL_SPEED
+        outerDiv.scrollLeft -= lastPanX * SCROLL_SPEED
+        requestAnimationFrame(smoothScroll)
       }
+
+      hammerCanvas.on('panstart', (ev) => {
+        if (canvas.getActiveObjects().length > 0) return
+        panActive = true
+        lastPanX = ev.velocityX
+        lastPanY = ev.velocityY
+        requestAnimationFrame(smoothScroll)
+      })
+
+      hammerCanvas.on('panmove', (ev) => {
+        if (canvas.getActiveObjects().length > 0) return
+        lastPanX = ev.velocityX
+        lastPanY = ev.velocityY
+      })
+
+      hammerCanvas.on('panend', () => {
+        panActive = false
+      })
+
+      hammerCanvas.on('pinchstart', (ev) => {})
+
+      hammerCanvas.on('pinch', (ev) => {})
+      let CurrentActiveObject
+      const adjustCanvasPosition = () => {
+        if (CurrentActiveObject) {
+          const elementPosition = CurrentActiveObject.calcTransformMatrix()
+          const canvasRect = canvas.getElement().getBoundingClientRect()
+          const focusTopPosition = canvasRect.top + elementPosition[5] // Adjust accordingly
+
+          if (focusTopPosition < window.innerHeight / 2) {
+            canvas.getElement().style.top =
+              window.innerHeight / 2 - focusTopPosition + 'px'
+          } else {
+            canvas.getElement().style.top = '0px'
+          }
+        }
+      }
+      const resetCanvasPosition = () => {
+        canvas.getElement().style.top = '0px'
+      }
+      canvas.on('text:editing:entered', function (e) {
+        CurrentActiveObject = e.target
+        adjustCanvasPosition()
+      })
+
+      canvas.on('text:editing:exited', function () {
+        resetCanvasPosition()
+      })
+
+      window.addEventListener('resize', adjustCanvasPosition)
     }
   }, [])
   useEffect(() => {
@@ -169,6 +251,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const closeOpenAllPopup = () => {
     //滚动后取消一些事件
     setControlDiv(null)
+    setSelectLength(0)
     console.log('simply editor', editor.current)
     editor.current?.discardActiveObject() // 取消选中状态
     editor.current?.requestRenderAll() // 刷新画布以显示更改
@@ -198,7 +281,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     try {
       previousIsSelectionObject.current = true
 
-      setActiveObject(object as any)
+      setActiveObject(object)
       if (object) {
         const topWrapRefRect = topWrapRef.current?.getBoundingClientRect()
         setControlDiv({
@@ -248,19 +331,19 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   }
   //移动到另一个画布
   const moveToAnotherCanvas = (
-    targetObject,
+    targetObject: any,
     addPositionType: 'top' | 'bottom' = 'top',
   ) => {
     if (deleteObjectKey.current.includes(targetObject.id)) return //已经删除的对象不再处理
     deleteObjectKey.current.push(targetObject.id) //防止重复删除，因为事件拖动会多次触发
     // 获取目标画布
     setUpdateTriggerCloseOpenAllPopupNum((num) => num + 1)
-    targetObject.canvas.remove(targetObject)
+    targetObject.canvas?.remove(targetObject)
     if (addPositionType === 'bottom') {
       targetObject.set('top', 0)
       targetObject.top = 0
       // 现在，克隆这个对象
-      targetObject.clone(function (clone) {
+      targetObject.clone().then(function (clone) {
         // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
         clone.set({
           top: 0,
@@ -268,7 +351,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         addIndexObject && addIndexObject(clone, canvasIndex + 1)
       })
     } else if (addPositionType === 'top') {
-      targetObject.clone(function (clone) {
+      targetObject.clone().then(function (clone) {
         if (editor.current?.height) {
           // 设置克隆对象的一些属性，以便可以区分原对象和克隆对象
           clone.set({
@@ -340,128 +423,112 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           cornerColor: '#9065B0', //激活状态角落图标的填充颜色
           cornerStrokeColor: '', //激活状态角落图标的边框颜色
           borderScaleFactor: 1,
-          cornerSize: 8,
+          cornerSize: 20,
           transparentCorners: false, //激活状态角落的图标是否透明
-          selectionDashArray: [5, 5],
+          selectionDashArray: [20, 20],
         })
-        console.log('editor.current', editor.current)
-        // editor.current.on('object:moving', function (options) {
-        //   console.log('options.target', options.target)
-        //   let currentScrollLeft = document.getElementById(
-        //     'functionality-sign-pdf-rolling-view',
-        //   )?.scrollLeft
-        //   let currentScrollTop = document.getElementById(
-        //     'functionality-sign-pdf-rolling-view',
-        //   )?.scrollTop
-        //   if (currentScrollLeft && currentScrollLeft > options.target.left) {
-        //     currentScrollLeft = options.target.left
-        //   }
-        //   if (currentScrollTop && currentScrollTop > options.target.top) {
-        //     currentScrollTop = options.target.top
-        //   }
-        //   const minScrollLeft = options.target.left + options.target.width - 660
-        //   if (currentScrollLeft && currentScrollLeft < minScrollLeft) {
-        //     currentScrollLeft = minScrollLeft
-        //   }
-        //   const minScrollTop = options.target.top + options.target.height - 450
-        //   if (currentScrollTop && currentScrollTop < minScrollTop) {
-        //     currentScrollTop = minScrollTop
-        //   }
-        // })
-        // // 对象添加
-        // editor.current.on('object:added', function (options) {
-        //   console.log('一个对象被添加', options.target)
-        //   changObjectToList(options.target, 'add')
-        // })
-        // // 对象删除
-        // editor.current.on('object:removed', function (options) {
-        //   console.log('一个对象被移除', options.target)
-        //   changObjectToList(options.target, 'del')
-        // })
-        // //鼠标抬起事件
-        // editor.current.on('mouse:up', function (event) {
-        //   console.log('simply mouse:up', event)
-        //   event.e.preventDefault()
-        //   if (event.target) {
-        //     //当前选中了对象，不打开ControlAddNewDiv
-        //     previousIsSelectionObject.current = true
-        //     setControlAddNewDiv(null)
-        //     return
-        //   }
-        //   if (isMobile) {
-        //     event.e.preventDefault()
-        //     return
-        //   }
-        //   if (previousIsSelectionObject.current) {
-        //     //上一个是选中对象，不打开ControlAddNewDiv
-        //     previousIsSelectionObject.current = false
-        //     setControlAddNewDiv(null)
-        //     return
-        //   }
-        //   previousIsSelectionObject.current = true
-        //   const topWrapRefRect = topWrapRef.current?.getBoundingClientRect()
-        //   setControlAddNewDiv(() => {
-        //     return {
-        //       left: event.pointer.x,
-        //       top: event.pointer.y,
-        //       windowLeft: topWrapRefRect?.x || 0,
-        //       windowTop: topWrapRefRect?.y || 0,
-        //     }
-        //   })
-        // })
-        // // 对象选中监听
-        // editor.current.on('selection:created', function (event) {
-        //   console.log('simply before:created', event)
-        //   if (event.selected.length > 0) {
-        //     previousIsSelectionObject.current = true
-        //   }
-        //   if (event.selected.length === 1) {
-        //     handleObjectSelected(event.selected[0])
-        //   }
-        // })
 
-        // editor.current.on('object:moving', function (e) {
-        //   e.e.preventDefault()
-        //   console.log('simply object:moving-----', e)
-        //   // 对象移动监听 - 保证操作div跟随移动
-        //   const targetObject = e.target
-        //   targetObject.setCoords()
-        //   constrainWithinCanvas(targetObject)
-        //   handleObjectSelected(e.target)
-        //   checkAndMoveToAnotherCanvas(e)
-        // })
-        // // 对象移动监听 - 保证操作div跟随移动
-        // editor.current.on('object:scaling', function (e) {
-        //   e.e.preventDefault()
-        //   console.log('simply object:scaling')
+        // 对象添加
+        editor.current.on('object:added', function (options) {
+          console.log('一个对象被添加', options.target)
+          changObjectToList(options.target, 'add')
+        })
+        // 对象删除
+        editor.current.on('object:removed', function (options) {
+          console.log('一个对象被移除', options.target)
+          changObjectToList(options.target, 'del')
+        })
+        //鼠标抬起事件
+        editor.current.on('mouse:up', function (event) {
+          if (event.target) {
+            //当前选中了对象，不打开ControlAddNewDiv
+            previousIsSelectionObject.current = true
+            setControlAddNewDiv(null)
+            return
+          }
+          if (previousIsSelectionObject.current) {
+            //上一个是选中对象，不打开ControlAddNewDiv
+            previousIsSelectionObject.current = false
+            setControlAddNewDiv(null)
+            return
+          }
+          previousIsSelectionObject.current = true
+          const topWrapRefRect = topWrapRef.current?.getBoundingClientRect()
+          setControlAddNewDiv(() => {
+            return {
+              left: event.pointer.x,
+              top: event.pointer.y,
+              windowLeft: topWrapRefRect?.x || 0,
+              windowTop: topWrapRefRect?.y || 0,
+            }
+          })
+        })
+        // 对象选中监听
+        editor.current.on('selection:created', function (event) {
+          console.log('simply selection:created', event)
+          setSelectLength(event.selected.length)
+          if (event.selected.length > 0) {
+            previousIsSelectionObject.current = true
+          }
+          if (event.selected.length === 1) {
+            handleObjectSelected(event.selected[0])
+          }
+        })
 
-        //   handleObjectSelected(e.target)
-        // })
+        editor.current.on('object:moving', function (e) {
+          e.e.preventDefault()
+          console.log('simply object:moving-----', e)
+          // 对象移动监听 - 保证操作div跟随移动
+          const targetObject = e.target
+          targetObject.setCoords()
+          constrainWithinCanvas(targetObject)
+          handleObjectSelected(e.target)
+          checkAndMoveToAnotherCanvas(e)
+        })
+        // 对象移动监听 - 保证操作div跟随移动
+        editor.current.on('object:scaling', function (e) {
+          e.e.preventDefault()
+          console.log('simply object:scaling')
 
-        // // 确保再次选择时移动操作div
-        // editor.current.on('selection:updated', function (event) {
-        //   console.log('simply selection:updated', event)
-        //   if (event.selected.length > 0) {
-        //     previousIsSelectionObject.current = true
-        //   }
-        //   if (event.selected.length === 1) {
-        //     handleObjectSelected(event.selected[0])
-        //   }
-        // })
-        // // 确保再次选择时移动操作div
-        // editor.current.on('selection:cleared', function (event) {
-        //   console.log('simply selection:cleared', event)
-        //   handleObjectSelected()
-        // })
+          handleObjectSelected(e.target)
+        })
+
+        // 确保再次选择时移动操作div
+        editor.current.on('selection:updated', function (event) {
+          console.log('simply selection:updated', event)
+          if (event.selected.length > 0) {
+            previousIsSelectionObject.current = true
+          }
+          if (event.selected.length === 1) {
+            handleObjectSelected(event.selected[0])
+          }
+        })
+        // 确保再次选择时移动操作div
+        editor.current.on('selection:cleared', function (event) {
+          console.log('simply selection:cleared', event)
+          if (event.deselected) {
+            setSelectLength(0)
+          }
+          handleObjectSelected()
+        })
       }
     } catch (e) {
       console.log('error', e)
     }
   }, [!!editor.current])
+  const setZoom = (zoom) => {
+    // 设置新的缩放比例
+    if (editor.current) {
+      console.log('editor.current', editor.current.getZoom())
+      editor.current.setZoom(zoom)
+      editor.current.renderAll()
+      console.log('editor.current', editor.current)
+    }
+  }
   useEffect(() => {
     try {
       //初始化画布高度宽度
-      if (!editor.current || !topWrapRef.current) return
+      if (!editor.current || !topWrapRef.current || !sizeInfo) return
       editor.current.setDimensions({
         width: sizeInfo.width,
         height: sizeInfo.height,
@@ -473,7 +540,9 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         const newWidth = topWrapRef.current?.clientWidth
         if (newWidth) {
           scaleFactor = newWidth / sizeInfo.width // Calculate new scale factor
-          setScaleFactor(parseFloat(scaleFactor.toFixed(3)))
+          const zoom = parseFloat(scaleFactor.toFixed(3))
+          setZoom(zoom)
+          setScaleFactor(zoom)
         }
       }
       const resizeObserver = new ResizeObserver(resizeCanvas)
@@ -557,7 +626,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   useImperativeHandle(
     handleRef,
     () => ({
-      getFabric: () => editor.current,
+      editorCurrent: () => editor.current,
       discardActiveObject: () => {
         closeOpenAllPopup()
       },
@@ -579,20 +648,22 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         width: '100%',
         height: '100%',
       }}
+      className={`sample-canvas-wrap-${canvasIndex + 1}`}
       ref={topWrapRef}
     >
       <Box
+        className={`sample-canvas-${canvasIndex + 1}`}
         sx={{
           width: sizeInfo?.width || '100%',
           height: sizeInfo?.height || '100%',
-          transform: `scale(${scaleFactor})`,
+          // transform: `scale(${scaleFactor})`,
           transformOrigin: 'top left' /* 变形基点在右上角 */,
           border: '1px solid #e8e8e8',
         }}
       >
-        <canvas width='300' height='300' ref={canvasEl} />;
+        <canvas width='500' height='500' ref={canvasEl} />
       </Box>
-      {controlDiv && activeObject && (
+      {controlDiv && activeObject && selectLength === 1 && (
         <Box onMouseDown={handlePopupClick}>
           <FunctionalitySignPdfShowPdfViewObjectToolsPopup
             key={(activeObject as any).id}
@@ -602,7 +673,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           />
         </Box>
       )}
-      {controlAddNewDiv && (
+      {!isMobile && selectLength === 0 && controlAddNewDiv && (
         <Box onMouseDown={handlePopupClick}>
           <FunctionalitySignPdfShowPdfViewAddToolsPopup
             controlDivPosition={controlAddNewDiv}

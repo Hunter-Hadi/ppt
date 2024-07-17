@@ -10,7 +10,7 @@ import {
 } from '@dnd-kit/core'
 import { Box, Button, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
-import { FC, useMemo, useRef, useState } from 'react'
+import { FC, useEffect, useRef, useState } from 'react'
 import React from 'react'
 import { v4 as uuidV4 } from 'uuid'
 
@@ -53,15 +53,26 @@ export const FunctionalitySignPdfDetail: FC<
 
   const { t } = useTranslation()
   const [saveButtonLoading, setSaveButtonLoading] = useState(false)
+  const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
+
   const dndDragRef = useRef<HTMLElement | null>(null)
   const showPdfHandlesRef =
     useRef<IFunctionalitySignPdfShowPdfViewHandles | null>(null) //当前在居中pdf的ref
-  const overallViewHeight = useMemo(() => {
+  const autoSetOverallViewHeight = () => {
     const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top
-    return (
+    const overallViewHeight =
       window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 50 : 0)
-    )
-  }, [isMobile, dndDragRef])
+    setOverallViewHeight(overallViewHeight)
+  }
+  useEffect(() => {
+    if (isMobile) {
+      setTimeout(() => {
+        autoSetOverallViewHeight()
+      }, 100)
+    } else {
+      autoSetOverallViewHeight()
+    }
+  }, [isMobile])
   const [activeDragData, setActiveDragData] = useState<
     IActiveDragData | undefined
   >(undefined)
@@ -185,7 +196,9 @@ export const FunctionalitySignPdfDetail: FC<
       onDragEnd={handleDragEnd}
     >
       <Stack
-        direction={isMobile ? 'column-reverse' : 'row'}
+        direction={
+          isMobile ? (downloadUint8Array ? 'column' : 'column-reverse') : 'row'
+        }
         sx={{
           width: '100%',
           height: isMobile ? '100%' : overallViewHeight,
@@ -220,6 +233,7 @@ export const FunctionalitySignPdfDetail: FC<
             border: '1px solid #e8e8e8',
             overflow: 'hidden',
             height: !isMobile ? '100%' : overallViewHeight,
+            position: 'relative',
           }}
         >
           <FunctionalitySignPdfShowPdfViewPdfViewMain
@@ -227,6 +241,21 @@ export const FunctionalitySignPdfDetail: FC<
             ref={showPdfHandlesRef}
             onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
           />
+          {downloadUint8Array && (
+            <Box
+              sx={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 10,
+                bottom: 0,
+                zIndex: 100,
+                ' .functionality-sign-pdf-scroll-pagination': {
+                  display: 'none',
+                },
+              }}
+            ></Box>
+          )}
         </Box>
         {/* 签名/下载操作视图 */}
         <Stack
@@ -234,7 +263,7 @@ export const FunctionalitySignPdfDetail: FC<
           justifyContent='space-between'
           sx={{
             width: isMobile ? '100%' : 260,
-            border: '1px solid #e8e8e8',
+            border: isMobile ? 'none' : '1px solid #e8e8e8',
             borderLeft: 'none',
           }}
         >
@@ -242,7 +271,8 @@ export const FunctionalitySignPdfDetail: FC<
             <React.Fragment>
               <Box
                 sx={{
-                  padding: 1,
+                  py: 1,
+                  px: isMobile ? 0 : 1,
                 }}
               >
                 <FunctionalitySignPdfOperationView
@@ -313,7 +343,14 @@ export const FunctionalitySignPdfDetail: FC<
                   borderRadius: 2,
                 }}
               >
-                <Typography>
+                <Typography
+                  sx={{
+                    fontSize: {
+                      xs: isMobile ? 10 : 20,
+                      lg: isMobile ? 10 : 20,
+                    },
+                  }}
+                >
                   {t(
                     'functionality__sign_pdf:components__sign_pdf__detail__empty_sign',
                   )}
@@ -327,8 +364,8 @@ export const FunctionalitySignPdfDetail: FC<
               <Typography
                 sx={{
                   fontSize: {
-                    xs: 20,
-                    lg: 30,
+                    xs: isMobile ? 10 : 20,
+                    lg: isMobile ? 10 : 30,
                   },
                 }}
               >

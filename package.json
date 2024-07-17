@@ -41,6 +41,7 @@
     "fabricjs-react": "^1.2.2",
     "file-saver": "^2.0.5",
     "franc": "^6.2.0",
+    "hammerjs": "^2.0.8",
     "heic2any": "^0.0.4",
     "i18next": "^23.6.0",
     "imagetracerjs": "^1.2.6",

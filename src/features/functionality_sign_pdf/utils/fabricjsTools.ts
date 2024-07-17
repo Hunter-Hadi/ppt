@@ -1,7 +1,6 @@
 /* eslint-disable no-extra-semi */
 import dayjs from 'dayjs'
 import * as fabric from 'fabric'
-import { FabricJSEditor } from 'fabricjs-react'
 import { v4 as uuidV4 } from 'uuid'
 
 import { SIGN_TEXT_FONT_FAMILY_LIST } from '../constant'
@@ -38,7 +37,6 @@ export const onFabricAddObject = async (
   isAutoObjectSizePosition?: boolean,
 ) => {
   try {
-    console.log('editor', editor)
     if (!editor) return null
     let createObjectData: fabric.Object | null = null
     const positionData = {
@@ -149,9 +147,9 @@ export const onFabricAddObject = async (
   }
 }
 //复制操作
-export const copyFabricSelectedObject = (editor: FabricJSEditor) => {
+export const copyFabricSelectedObject = (editor) => {
   try {
-    const canvas = editor?.canvas
+    const canvas = editor
     const activeObject = canvas.getActiveObject()
     if (!activeObject) {
       console.log('没有选中的对象来复制')
@@ -160,7 +158,7 @@ export const copyFabricSelectedObject = (editor: FabricJSEditor) => {
 
     // 使用clone函数复制对象
     // 注意：对于某些特定类型的对象（如images），你可能需要使用activeObject.clone(function (clone) {...})
-    activeObject.clone(function (clonedObj) {
+    activeObject.clone().then(function (clonedObj) {
       canvas.discardActiveObject() // 取消当前对象的选中状态
 
       // 设置对象的某些属性，以便复制的对象呈现在稍微不同的位置
@@ -193,17 +191,17 @@ export const copyFabricSelectedObject = (editor: FabricJSEditor) => {
   }
 }
 //变更图片颜色
-export const onChangeFabricColor = (editor: FabricJSEditor, color) => {
+export const onChangeFabricColor = (editor: any, color) => {
   try {
-    const canvas = editor?.canvas
+    const canvas = editor
     const activeObject = canvas.getActiveObject()
-    console.log('activeObject', activeObject, activeObject.type)
+    console.log('activeObject', activeObject, activeObject?.type)
     if (!activeObject) {
       console.log('没有选中的对象来复制')
       return
     }
     if (activeObject && activeObject.type === 'image') {
-      activeObject.getElement().onload = () => {
+      ;(activeObject as any).getElement().onload = () => {
         // Access the internal _element where the actual HTMLImageElement resides
         const canvas = document.createElement('canvas')
         const ctx = canvas.getContext('2d')
@@ -273,7 +271,7 @@ export const onChangeFabricFontStyle = (
   value?: number | string,
 ) => {
   try {
-    const canvas = editor?.canvas
+    const canvas = editor
     const activeObject = canvas.getActiveObject()
     console.log('activeObject', activeObject, activeObject.type)
     if (!activeObject) {

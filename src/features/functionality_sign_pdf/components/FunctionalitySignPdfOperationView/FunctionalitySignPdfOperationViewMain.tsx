@@ -58,7 +58,10 @@ const FunctionalitySignPdfOperationViewMain: FC<
     },
   ]
   return (
-    <Stack flexDirection={isMobile ? 'row' : 'column'}>
+    <Stack
+      id='functionality-sign-pdf-operation-view-main'
+      flexDirection={isMobile ? 'row' : 'column'}
+    >
       <Stack
         direction={isMobile ? 'row' : 'column'}
         gap={isMobile ? 1 : 2}

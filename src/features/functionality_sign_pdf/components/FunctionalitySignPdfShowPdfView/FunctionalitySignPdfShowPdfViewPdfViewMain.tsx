@@ -314,6 +314,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       {/* 下面是底部分页工具 */}
       <Stack
         direction='row'
+        className='functionality-sign-pdf-scroll-pagination'
         justifyContent='center'
         sx={{
           position: 'absolute',
