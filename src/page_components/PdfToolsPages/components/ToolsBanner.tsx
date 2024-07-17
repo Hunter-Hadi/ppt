@@ -6,7 +6,7 @@ import { FC } from 'react'
 interface IToolsBannerProps {
   title: string
   description: string
-  isSimplicityView: boolean
+  isSimplicityView?: boolean
 }
 
 const ToolsBanner: FC<IToolsBannerProps> = ({
