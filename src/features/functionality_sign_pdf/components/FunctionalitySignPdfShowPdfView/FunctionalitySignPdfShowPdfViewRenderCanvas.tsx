@@ -1,6 +1,5 @@
 import { Box } from '@mui/material'
 import * as fabric from 'fabric'
-import Hammer from 'hammerjs'
 import { without } from 'lodash-es'
 import React, {
   forwardRef,
@@ -18,6 +17,7 @@ import {
   IFabricAddObjectType,
   onFabricAddObject,
 } from '../../utils/fabricjsTools'
+import { fabricMobileMove } from '../../utils/fabricMobileMove'
 import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalitySignPdfShowPdfViewAddToolsPopup'
 import FunctionalitySignPdfShowPdfViewObjectToolsPopup from './FunctionalitySignPdfShowPdfViewObjectToolsPopup'
 export interface IControlDiv {
@@ -116,6 +116,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       }
     }
     document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('touchstart', handleClickOutside)
+
     const handleScroll = () => {
       //监听窗口滚动，关闭菜单
       //因为做跟随窗口滚动的菜单，功能比较复杂，目前还没有必要
@@ -124,15 +126,12 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     window.addEventListener('scroll', handleScroll)
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('touchstart', handleClickOutside)
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
   useEffect(() => {
     if (canvasEl.current && !editor.current) {
-      const outerDiv = document.getElementById(
-        'functionality-sign-pdf-rolling-view',
-      )
-
       const canvas = new fabric.Canvas(canvasEl.current, {
         selection: !isMobile,
         allowTouchScrolling: isMobile,
@@ -140,75 +139,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       editor.current = canvas
       editor.current.setZoom(0.2)
       if (!isMobile) return //移动端需要的滚动逻辑
-      const hammerCanvas = new Hammer(canvas.getSelectionElement())
-
-      hammerCanvas.get('pinch').set({ enable: true })
-      hammerCanvas.get('pan').set({ direction: Hammer.DIRECTION_ALL })
-
-      const SCROLL_SPEED = 10 // 滚动速度系数
-
-      let panActive = false
-      let lastPanX = 0
-      let lastPanY = 0
-
-      // 请求动画帧来平滑滚动
-      // eslint-disable-next-line no-inner-declarations
-      const smoothScroll = () => {
-        if (!panActive || !outerDiv) return
-        outerDiv.scrollTop -= lastPanY * SCROLL_SPEED
-        outerDiv.scrollLeft -= lastPanX * SCROLL_SPEED
-        requestAnimationFrame(smoothScroll)
-      }
-
-      hammerCanvas.on('panstart', (ev) => {
-        if (canvas.getActiveObjects().length > 0) return
-        panActive = true
-        lastPanX = ev.velocityX
-        lastPanY = ev.velocityY
-        requestAnimationFrame(smoothScroll)
-      })
-
-      hammerCanvas.on('panmove', (ev) => {
-        if (canvas.getActiveObjects().length > 0) return
-        lastPanX = ev.velocityX
-        lastPanY = ev.velocityY
-      })
-
-      hammerCanvas.on('panend', () => {
-        panActive = false
-      })
-
-      hammerCanvas.on('pinchstart', (ev) => {})
-
-      hammerCanvas.on('pinch', (ev) => {})
-      let CurrentActiveObject
-      const adjustCanvasPosition = () => {
-        if (CurrentActiveObject) {
-          const elementPosition = CurrentActiveObject.calcTransformMatrix()
-          const canvasRect = canvas.getElement().getBoundingClientRect()
-          const focusTopPosition = canvasRect.top + elementPosition[5] // Adjust accordingly
-
-          if (focusTopPosition < window.innerHeight / 2) {
-            canvas.getElement().style.top =
-              window.innerHeight / 2 - focusTopPosition + 'px'
-          } else {
-            canvas.getElement().style.top = '0px'
-          }
-        }
-      }
-      const resetCanvasPosition = () => {
-        canvas.getElement().style.top = '0px'
-      }
-      canvas.on('text:editing:entered', function (e) {
-        CurrentActiveObject = e.target
-        adjustCanvasPosition()
-      })
-
-      canvas.on('text:editing:exited', function () {
-        resetCanvasPosition()
-      })
-
-      window.addEventListener('resize', adjustCanvasPosition)
+      fabricMobileMove(editor.current)
     }
   }, [])
   useEffect(() => {
@@ -569,7 +500,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         if (topWrapRef.current) {
           //直接添加object，会以object的top left添加上去
           newObject.id = uuidV4()
-          newObject.set('mtr', false)
+          newObject.setControlsVisibility({ mtr: false })
           await editor.current?.add(newObject)
           await editor.current?.requestRenderAll() // 刷新画布以显示更改
           if (isAutoObjectDragPosition) {
@@ -589,10 +520,16 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
                 bubbles: true,
               }
               editor.current?.setActiveObject(newObject) // 刷新画布以显示更改
-              canvasElement?.dispatchEvent(new MouseEvent('mouseup', position))
-              canvasElement?.dispatchEvent(
-                new MouseEvent('mousedown', position),
-              )
+              if (isMobile) {
+                //手机端不知道怎么处理，先留着
+              } else {
+                canvasElement?.dispatchEvent(
+                  new MouseEvent('mouseup', position),
+                )
+                canvasElement?.dispatchEvent(
+                  new MouseEvent('mousedown', position),
+                )
+              }
             }
           }
         }
