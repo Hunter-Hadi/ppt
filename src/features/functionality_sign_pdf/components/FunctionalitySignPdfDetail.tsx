@@ -81,70 +81,78 @@ export const FunctionalitySignPdfDetail: FC<
     useState<null | Uint8Array>(null) //签名数据
 
   const handleDragEnd = (event: DragEndEvent) => {
-    if (event.over && event.over.id) {
-      const { delta, over, active } = event
-      const rollingView = document.getElementById(
-        'functionality-sign-pdf-rolling-view',
-      )
-      const droppableElement = document.getElementById(active.id as string)
-      const activeRect = droppableElement?.getBoundingClientRect()
+    try {
+      if (event.over && event.over.id) {
+        const { delta, over, active } = event
+        const rollingView = document.getElementById(
+          'functionality-sign-pdf-rolling-view',
+        )
+        const droppableElement = document.getElementById(active.id as string)
+        const activeRect = droppableElement?.getBoundingClientRect()
 
-      const signaturePositionData = {
-        width: over.rect.width,
-        height: over.rect.height,
-        ...(over.data.current as {
-          pdfIndex: number
-        }),
-        id: uuidV4(),
-        ...(active.data.current as {
-          type: IFabricAddObjectType
-          value: string
-        }),
-      }
-      const distanceX =
-        over.rect.width +
-        over.rect.left -
-        (activeRect?.left || 0) -
-        (activeRect?.width || 0) / 2 //拖动和放置 div之间的距离
-      const newSignaturePosition = {
-        x:
-          over.rect.width +
-          delta.x -
-          distanceX -
-          (rollingView?.scrollLeft || 0), //左边的宽度➕鼠标移动的距离-相差的距离-滚动条的距离
-        y:
-          (activeRect?.top || 0) -
-          over.rect.top +
-          delta.y -
-          (rollingView?.scrollTop || 0), //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
-      }
-      if (
-        showPdfHandlesRef.current?.onAddObject &&
-        event.active.data.current?.value
-      ) {
-        showPdfHandlesRef.current.onAddObject({
-          ...signaturePositionData,
-          ...newSignaturePosition,
-        })
-      }
-      if (activeDragData?.dragType === 'start' && !activeDragData.value) {
-        setActiveDragData({
-          dragType: 'end',
-          ...newSignaturePosition,
+        const signaturePositionData = {
+          width: over.rect.width,
+          height: over.rect.height,
+          ...(over.data.current as {
+            pdfIndex: number
+          }),
           id: uuidV4(),
           ...(active.data.current as {
             type: IFabricAddObjectType
             value: string
           }),
-        })
-      } else {
-        setActiveDragData(undefined)
+        }
+        const distanceX =
+          over.rect.width +
+          over.rect.left -
+          (activeRect?.left || 0) -
+          (activeRect?.width || 0) / 2 //拖动和放置 div之间的距离
+        const newSignaturePosition = {
+          x:
+            over.rect.width +
+            delta.x -
+            distanceX -
+            (rollingView?.scrollLeft || 0), //左边的宽度➕鼠标移动的距离-相差的距离-滚动条的距离
+          y:
+            (activeRect?.top || 0) -
+            over.rect.top +
+            delta.y -
+            (rollingView?.scrollTop || 0), //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
+        }
+        if (
+          showPdfHandlesRef.current?.onAddObject &&
+          event.active.data.current?.value
+        ) {
+          showPdfHandlesRef.current.onAddObject({
+            ...signaturePositionData,
+            ...newSignaturePosition,
+          })
+        }
+        if (activeDragData?.dragType === 'start' && !activeDragData.value) {
+          setActiveDragData({
+            dragType: 'end',
+            ...newSignaturePosition,
+            id: uuidV4(),
+            ...(active.data.current as {
+              type: IFabricAddObjectType
+              value: string
+            }),
+          })
+        } else {
+          setActiveDragData(undefined)
+        }
       }
+    } catch (e) {
+      console.log('handleDragEnd', e)
     }
   }
 
   const onDragStart = (event) => {
-    setActiveDragData({ dragType: 'start', ...event.active.data.current })
+    try {
+      setActiveDragData({ dragType: 'start', ...event.active.data.current })
+    } catch (e) {
+      console.log('onDragStart', e)
+    }
   }
   const onPdfAddViewSave = async () => {
     setSaveButtonLoading(true)
@@ -172,8 +180,8 @@ export const FunctionalitySignPdfDetail: FC<
     }),
     useSensor(TouchSensor, {
       activationConstraint: {
-        delay: 300,
-        tolerance: 2,
+        delay: 200,
+        tolerance: 0,
       },
     }),
     useSensor(KeyboardSensor),
@@ -331,7 +339,7 @@ export const FunctionalitySignPdfDetail: FC<
             activeDragData.value && (
               <img
                 style={{
-                  maxWidth: isMobile ? '80px' : '200px',
+                  maxWidth: isMobile ? '100px' : '200px',
                 }}
                 src={activeDragData.value}
                 alt=''
@@ -345,13 +353,14 @@ export const FunctionalitySignPdfDetail: FC<
                   padding: 1,
                   backgroundColor: '#9065b0a3',
                   borderRadius: 2,
+                  width: isMobile ? 80 : 'auto',
                 }}
               >
                 <Typography
                   sx={{
                     fontSize: {
-                      xs: isMobile ? 10 : 20,
-                      lg: isMobile ? 10 : 20,
+                      xs: isMobile ? 15 : 20,
+                      lg: isMobile ? 15 : 20,
                     },
                   }}
                 >
