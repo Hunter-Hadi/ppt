@@ -193,8 +193,8 @@ export const copyFabricSelectedObject = (editor) => {
 //变更图片颜色
 export const onChangeFabricColor = (editor: any, color) => {
   try {
-    const canvas = editor
-    const activeObject = canvas.getActiveObject()
+    const fabricCanvas = editor
+    const activeObject = fabricCanvas.getActiveObject()
     console.log('activeObject', activeObject, activeObject?.type)
     if (!activeObject) {
       console.log('没有选中的对象来复制')
@@ -243,9 +243,10 @@ export const onChangeFabricColor = (editor: any, color) => {
 
         // Update the Fabric.js image object with the new canvas
         const newImgElement = canvas.toDataURL()
-        activeObject.setSrc(newImgElement, () => {
-          activeObject.canvas.renderAll()
-        })
+        activeObject.setSrc(newImgElement)
+        setTimeout(() => {
+          fabricCanvas.renderAll()
+        }, 50)
       }
       activeObject.imgColor = color
       if (!activeObject.getElement().complete) {
@@ -258,7 +259,7 @@ export const onChangeFabricColor = (editor: any, color) => {
     } else {
       // 处理文本颜色变更
       activeObject.set('fill', color)
-      canvas.renderAll() // 更新画布以显示颜色变更
+      fabricCanvas.renderAll() // 更新画布以显示颜色变更
     }
   } catch (e) {
     console.log(e)
