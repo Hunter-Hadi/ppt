@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
-import React from 'react'
+import React, { createContext, useState } from 'react'
 import { FC, lazy, Suspense, useMemo } from 'react'
 
 import AppContainer from '@/app_layout/AppContainer'
@@ -78,8 +78,12 @@ const FunctionalityImageToPdfMain = lazy(
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType
 }
-
+export const TopToolsDetailView = createContext({
+  isSimplicityView: false,
+  setIsSimplicityView: (value: boolean) => {},
+})
 const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
+  const [isSimplicityView, setIsSimplicityView] = useState(false)
   const currentToolData = useMemo(() => toolsObjectData[urlKey], [urlKey])
   const { t } = useTranslation()
   const urkKeyOfSeoInfo: {
@@ -155,67 +159,75 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
         title={urkKeyOfSeoInfo[urlKey].title}
         description={urkKeyOfSeoInfo[urlKey].description}
       />
-      <Box
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          pb: 5,
-          width: '100%',
-        }}
+      <TopToolsDetailView.Provider
+        value={{ isSimplicityView, setIsSimplicityView }}
       >
-        <ToolsBanner
-          title={currentToolData.title}
-          description={currentToolData.secondaryDescription}
-        />
-        <Suspense fallback={<AppLoadingLayout loading />}>
-          {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
-            <FunctionalityPdfToImageMain toType={urlKey} />
-          )}
-          {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
-          {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
-          {(urlKey === 'png-to-pdf' ||
-            urlKey === 'jpeg-to-pdf' ||
-            urlKey === 'heic-to-pdf') && (
-            <FunctionalityImageToPdfMain accept={currentToolData.accept} />
-          )}
-          {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
-          {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
-          {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
-          {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
-          {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
-          {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
-        </Suspense>
-      </Box>
-      {toolsDetailDescriptionData && (
-        <ToolsDetailDescription descriptionInfo={toolsDetailDescriptionData} />
-      )}
-      {toolList && toolList.length > 0 && (
+        {' '}
         <Box
           sx={{
-            borderTop: '1px solid #e8e8e8',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            pb: 5,
+            width: '100%',
           }}
         >
-          <Typography
-            component='h2'
-            mt={10}
-            mb={3}
+          <ToolsBanner
+            title={currentToolData.title}
+            isSimplicityView={isSimplicityView}
+            description={currentToolData.secondaryDescription}
+          />
+          <Suspense fallback={<AppLoadingLayout loading />}>
+            {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
+              <FunctionalityPdfToImageMain toType={urlKey} />
+            )}
+            {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
+            {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
+            {(urlKey === 'png-to-pdf' ||
+              urlKey === 'jpeg-to-pdf' ||
+              urlKey === 'heic-to-pdf') && (
+              <FunctionalityImageToPdfMain accept={currentToolData.accept} />
+            )}
+            {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
+            {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
+            {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
+            {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
+            {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
+            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
+          </Suspense>
+        </Box>
+        {toolsDetailDescriptionData && (
+          <ToolsDetailDescription
+            descriptionInfo={toolsDetailDescriptionData}
+          />
+        )}
+        {toolList && toolList.length > 0 && (
+          <Box
             sx={{
-              fontSize: {
-                xs: 20,
-                lg: 22,
-              },
-              fontWeight: 600,
-              color: 'text.primary',
-              textAlign: 'center',
+              borderTop: '1px solid #e8e8e8',
             }}
           >
-            {t('pages:pdf_tools__detail_page__more_pdf_tools')}
-          </Typography>
-          <ToolsCards list={toolList} isShowSeoTag={false} />
-        </Box>
-      )}
+            <Typography
+              component='h2'
+              mt={10}
+              mb={3}
+              sx={{
+                fontSize: {
+                  xs: 20,
+                  lg: 22,
+                },
+                fontWeight: 600,
+                color: 'text.primary',
+                textAlign: 'center',
+              }}
+            >
+              {t('pages:pdf_tools__detail_page__more_pdf_tools')}
+            </Typography>
+            <ToolsCards list={toolList} isShowSeoTag={false} />
+          </Box>
+        )}
+      </TopToolsDetailView.Provider>
     </AppContainer>
   )
 }

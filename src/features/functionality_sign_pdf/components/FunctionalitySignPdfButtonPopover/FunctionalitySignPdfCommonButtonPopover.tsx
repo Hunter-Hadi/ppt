@@ -1,27 +1,31 @@
-import { Popover } from '@mui/material';
-import Button, { ButtonProps } from '@mui/material/Button';
-import Paper from '@mui/material/Paper';
-import React, { FC, useState } from 'react';
+import { Popover } from '@mui/material'
+import Button, { ButtonProps } from '@mui/material/Button'
+import Paper from '@mui/material/Paper'
+import React, { FC, useState } from 'react'
 
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
+
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 interface IFunctionalitySignPdfCommonButtonPopoverProps {
-  buttonProps?: ButtonProps;
-  children?: React.ReactNode;
-  popoverView?: React.ReactNode;
-  isShowRightIcon?: boolean;
+  buttonProps?: ButtonProps
+  children?: React.ReactNode
+  popoverView?: React.ReactNode
+  isShowRightIcon?: boolean
 }
 
 // 通用的带弹出式按钮
 const FunctionalitySignPdfCommonButtonPopover: FC<
   IFunctionalitySignPdfCommonButtonPopoverProps
 > = ({ children, popoverView, isShowRightIcon = true, buttonProps }) => {
-  const [popoverAnchorEl, setPopoverAnchorEl] = useState(null);
+  const isMobile = useFunctionalityCommonIsMobile()
+
+  const [popoverAnchorEl, setPopoverAnchorEl] = useState(null)
 
   const handleClick = (event) => {
-    setPopoverAnchorEl(popoverAnchorEl ? null : event.currentTarget);
-  };
-  const open = Boolean(popoverAnchorEl);
-  const id = open ? 'color-popper' : undefined;
+    setPopoverAnchorEl(popoverAnchorEl ? null : event.currentTarget)
+  }
+  const open = Boolean(popoverAnchorEl)
+  const id = open ? 'color-popper' : undefined
 
   return (
     <Button
@@ -31,6 +35,9 @@ const FunctionalitySignPdfCommonButtonPopover: FC<
       aria-describedby={id}
       sx={{
         p: 1,
+        '.MuiButton-endIcon': {
+          ml: isMobile ? 0 : 1,
+        },
       }}
       endIcon={
         isShowRightIcon && <FunctionalitySignPdfIcon name='ArrowDropDown' />
@@ -61,6 +68,6 @@ const FunctionalitySignPdfCommonButtonPopover: FC<
         </Paper>
       </Popover>
     </Button>
-  );
-};
-export default FunctionalitySignPdfCommonButtonPopover;
+  )
+}
+export default FunctionalitySignPdfCommonButtonPopover

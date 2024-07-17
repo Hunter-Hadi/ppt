@@ -1,4 +1,5 @@
 import { Button, ButtonGroup, Stack } from '@mui/material'
+import * as fabric from 'fabric'
 import { useTranslation } from 'next-i18next'
 import React from 'react'
 import { FC, useState } from 'react'
@@ -17,7 +18,7 @@ import { IControlDiv } from './FunctionalitySignPdfShowPdfViewRenderCanvas'
 interface IFunctionalitySignPdfShowPdfViewAddToolsPopupProps {
   controlDivPosition: IControlDiv
   scaleFactor: number
-  editor: any
+  editor: React.MutableRefObject<fabric.Canvas | null>
   onClose: (type: string, value: string) => void
 }
 const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
@@ -71,12 +72,8 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
     <Stack
       sx={{
         position: 'fixed',
-        left:
-          controlDivPosition.left * scaleFactor + controlDivPosition.windowLeft,
-        top:
-          controlDivPosition.top * scaleFactor +
-          controlDivPosition.windowTop -
-          50,
+        left: controlDivPosition.left + controlDivPosition.windowLeft,
+        top: controlDivPosition.top + controlDivPosition.windowTop - 50,
       }}
     >
       <ButtonGroup

@@ -1,20 +1,22 @@
-import { Box, Button, Popover, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
-import { useRecoilState } from 'recoil';
+import { Box, Button, Popover, Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
+import { useRecoilState } from 'recoil'
 
-import { FunctionalitySignPdfOperationOBjectAtom } from '../../store';
-import { IFabricAddObjectType } from '../../utils/fabricjsTools';
-import { IActiveDragData } from '../FunctionalitySignPdfDetail';
-import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon';
-import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView';
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
+
+import { FunctionalitySignPdfOperationOBjectAtom } from '../../store'
+import { IFabricAddObjectType } from '../../utils/fabricjsTools'
+import { IActiveDragData } from '../FunctionalitySignPdfDetail'
+import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
+import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView'
 import FunctionalitySignPdfOperationSignatureModal, {
   ISignatureType,
-} from './FunctionalitySignPdfOperationSignatureModal';
+} from './FunctionalitySignPdfOperationSignatureModal'
 interface IFunctionalitySignPdfSignatureViewProps {
-  dragId: 'yourSignature' | 'yourInitials';
-  activeDragData?: IActiveDragData;
-  onClickAdd: (type: IFabricAddObjectType, value: string) => void;
+  dragId: 'yourSignature' | 'yourInitials'
+  activeDragData?: IActiveDragData
+  onClickAdd: (type: IFabricAddObjectType, value: string) => void
 }
 
 /**
@@ -23,34 +25,35 @@ interface IFunctionalitySignPdfSignatureViewProps {
 const FunctionalitySignPdfOperationSignatureView: FC<
   IFunctionalitySignPdfSignatureViewProps
 > = ({ dragId, activeDragData, onClickAdd }) => {
+  const isMobile = useFunctionalityCommonIsMobile()
   const [pdfOperationOBject, setPdfOperationOBject] = useRecoilState(
     FunctionalitySignPdfOperationOBjectAtom,
-  );
+  )
   const signatureViewList = useMemo(
     () => pdfOperationOBject[dragId],
     [pdfOperationOBject[dragId]],
-  );
-  const { t } = useTranslation();
+  )
+  const { t } = useTranslation()
 
-  const [signatureModalOpen, setModalSignatureOpen] = useState(false);
-  const [currentShowIndex, setCurrentShowIndex] = useState(0);
-  const isActiveCurrent = useRef(false);
-  const isActiveModelCurrent = useRef(false);
+  const [signatureModalOpen, setModalSignatureOpen] = useState(false)
+  const [currentShowIndex, setCurrentShowIndex] = useState(0)
+  const isActiveCurrent = useRef(false)
+  const isActiveModelCurrent = useRef(false)
 
-  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null); //Popover
+  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null) //Popover
   const showImgValue = useMemo(
     () => pdfOperationOBject[dragId][currentShowIndex],
     [pdfOperationOBject[dragId], currentShowIndex],
-  );
-  const isHaveValue = !!showImgValue;
-  const popoverId = 'pdf-signature-menu-popover-id';
-  const open = Boolean(anchorEl);
+  )
+  const isHaveValue = !!showImgValue
+  const popoverId = 'pdf-signature-menu-popover-id'
+  const open = Boolean(anchorEl)
   const setSignatureViewList = (list: string[]) => {
     setPdfOperationOBject({
       ...pdfOperationOBject,
       [dragId]: list,
-    });
-  };
+    })
+  }
   useEffect(() => {
     setPdfOperationOBject((oldObject) => {
       return {
@@ -59,68 +62,68 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           ...oldObject.index,
           [dragId]: currentShowIndex,
         },
-      };
-    });
-  }, [currentShowIndex]);
+      }
+    })
+  }, [currentShowIndex])
   useEffect(() => {
     if (
       activeDragData?.dragType === 'start' &&
       activeDragData?.id === dragId &&
       !isHaveValue
     ) {
-      isActiveCurrent.current = true;
+      isActiveCurrent.current = true
     } else if (activeDragData?.dragType === 'end') {
       if (isActiveCurrent.current) {
-        setModalSignatureOpen(true);
-        isActiveModelCurrent.current = true;
+        setModalSignatureOpen(true)
+        isActiveModelCurrent.current = true
       }
-      isActiveCurrent.current = false;
+      isActiveCurrent.current = false
     }
-  }, [activeDragData]);
+  }, [activeDragData])
   const handleClick = (event) => {
-    event.stopPropagation();
-    setAnchorEl(event.currentTarget);
-  };
+    event.stopPropagation()
+    setAnchorEl(event.currentTarget)
+  }
 
   const handleClose = () => {
-    setAnchorEl(null);
-  };
+    setAnchorEl(null)
+  }
   const onCreateSignatureValue = (type: ISignatureType, value: string) => {
     //只做了第一个显示
-    setSignatureViewList([...signatureViewList, value]);
-    setCurrentShowIndex(signatureViewList.length);
-    setModalSignatureOpen(false);
+    setSignatureViewList([...signatureViewList, value])
+    setCurrentShowIndex(signatureViewList.length)
+    setModalSignatureOpen(false)
     if (isActiveModelCurrent.current) {
       //用户因拖动空的触发这里的逻辑添加
-      onClickAdd('image', value);
-      isActiveModelCurrent.current = false;
+      onClickAdd('image', value)
+      isActiveModelCurrent.current = false
     }
-  };
+  }
   const onDelImgVal = (index: number) => {
-    const newList = signatureViewList.filter((_, i) => i !== index);
-    setSignatureViewList(newList);
+    const newList = signatureViewList.filter((_, i) => i !== index)
+    setSignatureViewList(newList)
     if (newList.length === 0) {
-      handleClose();
-      setCurrentShowIndex(0);
+      handleClose()
+      setCurrentShowIndex(0)
     } else {
-      let newCurrentShowIndex = currentShowIndex;
+      let newCurrentShowIndex = currentShowIndex
       if (currentShowIndex >= index && currentShowIndex !== 0) {
-        newCurrentShowIndex--;
+        newCurrentShowIndex--
       }
-      setCurrentShowIndex(newCurrentShowIndex);
+      setCurrentShowIndex(newCurrentShowIndex)
     }
-  };
+  }
   const onClickChange = () => {
     if (showImgValue) {
-      onClickAdd('image', showImgValue);
+      onClickAdd('image', showImgValue)
     } else {
-      setModalSignatureOpen(true);
+      setModalSignatureOpen(true)
     }
-  };
+  }
   const onCloseOperationSignatureModal = () => {
-    isActiveModelCurrent.current = false;
-    setModalSignatureOpen(false);
-  };
+    isActiveModelCurrent.current = false
+    setModalSignatureOpen(false)
+  }
   return (
     <FunctionalitySignPdfOperationDraggableView
       id={dragId}
@@ -140,54 +143,70 @@ const FunctionalitySignPdfOperationSignatureView: FC<
         >
           <Box flex={1}>
             {dragId === 'yourSignature' && (
-              <Stack direction='row' gap={1} alignItems='center'>
+              <Stack
+                direction='row'
+                gap={1}
+                alignItems='center'
+                justifyContent={isMobile ? 'center' : 'flex-start'}
+              >
                 <FunctionalitySignPdfIcon name='TextFields' />
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: 10,
-                      lg: 14,
-                    },
-                  }}
-                >
-                  {t(
-                    'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
-                  )}
-                </Typography>
+                {!isMobile && (
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: 10,
+                        lg: 14,
+                      },
+                    }}
+                  >
+                    {t(
+                      'functionality__sign_pdf:components__sign_pdf__operation_view__your_sign',
+                    )}
+                  </Typography>
+                )}
               </Stack>
             )}
             {dragId === 'yourInitials' && (
-              <Stack direction='row' gap={1} alignItems='center'>
+              <Stack
+                direction='row'
+                gap={1}
+                alignItems='center'
+                justifyContent={isMobile ? 'center' : 'flex-start'}
+              >
                 <FunctionalitySignPdfIcon name='Abc' />
-                <Typography
-                  sx={{
-                    fontSize: {
-                      xs: 10,
-                      lg: 14,
-                    },
-                  }}
-                >
-                  {t(
-                    'functionality__sign_pdf:components__sign_pdf__operation_view__your_initials',
-                  )}
-                </Typography>
+                {!isMobile && (
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: 10,
+                        lg: 14,
+                      },
+                    }}
+                  >
+                    {t(
+                      'functionality__sign_pdf:components__sign_pdf__operation_view__your_initials',
+                    )}
+                  </Typography>
+                )}
               </Stack>
             )}
           </Box>
-          <Typography
-            color='text.secondary'
-            sx={{
-              fontWeight: 'bold',
-              fontSize: {
-                xs: 12,
-                lg: 14,
-              },
-            }}
-          >
-            {t(
-              'functionality__sign_pdf:components__sign_pdf__operation_view__add',
-            )}
-          </Typography>
+          {!isMobile && (
+            <Typography
+              color='text.secondary'
+              sx={{
+                fontWeight: 'bold',
+                fontSize: {
+                  xs: 12,
+                  lg: 14,
+                },
+              }}
+            >
+              {t(
+                'functionality__sign_pdf:components__sign_pdf__operation_view__add',
+              )}
+            </Typography>
+          )}
         </Stack>
       )}
       {isHaveValue && (
@@ -195,7 +214,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           onClick={onClickChange}
           src={showImgValue}
           style={{
-            width: 'calc(100% - 50px)',
+            width: isMobile ? '50px' : 'calc(100% - 50px)',
             height: '100%',
             objectFit: 'contain',
           }}
@@ -206,7 +225,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
           sx={{
             borderLeft: '1px solid #e8e8e8',
             height: '100%',
-            width: 30,
+            width: isMobile ? 15 : 30,
           }}
           alignItems='center'
           justifyContent='center'
@@ -251,8 +270,8 @@ const FunctionalitySignPdfOperationSignatureView: FC<
               <img
                 src={item}
                 onClick={() => {
-                  setCurrentShowIndex(index);
-                  handleClose();
+                  setCurrentShowIndex(index)
+                  handleClose()
                 }}
                 style={{
                   height: 50,
@@ -264,7 +283,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
               <FunctionalitySignPdfIcon
                 color='action'
                 onClick={() => {
-                  onDelImgVal(index);
+                  onDelImgVal(index)
                 }}
                 name='DeleteForeverOutlined'
               />
@@ -277,8 +296,8 @@ const FunctionalitySignPdfOperationSignatureView: FC<
               mt: 1,
             }}
             onClick={() => {
-              setModalSignatureOpen(true);
-              handleClose();
+              setModalSignatureOpen(true)
+              handleClose()
             }}
           >
             {t(
@@ -294,6 +313,6 @@ const FunctionalitySignPdfOperationSignatureView: FC<
         />
       )}
     </FunctionalitySignPdfOperationDraggableView>
-  );
-};
-export default FunctionalitySignPdfOperationSignatureView;
+  )
+}
+export default FunctionalitySignPdfOperationSignatureView
