@@ -34,12 +34,14 @@ export type ICanvasObjectData = {
   value: string
 }
 export interface IFunctionalitySignPdfShowPdfCanvasHandles {
+  editorCurrent: fabric.Canvas | null
   discardActiveObject: () => void
   onAddObject?: (
     canvasObject?: ICanvasObjectData,
     object?: fabric.Object,
     isAutoObjectSizePosition?: boolean,
   ) => void
+  getCanvasBase64: () => string | undefined
 }
 interface IFunctionalitySignPdfShowPdfCanvasProps {
   renderList?: ICanvasObjectData[]
@@ -519,10 +521,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   const setZoom = (zoom) => {
     // 设置新的缩放比例
     if (editor.current) {
-      console.log('editor.current', editor.current.getZoom())
       editor.current.setZoom(zoom)
       editor.current.renderAll()
-      console.log('editor.current', editor.current)
     }
   }
   useEffect(() => {
@@ -621,18 +621,34 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       console.error('simply error', e)
     }
   }
+  const getCanvasBase64 = () => {
+    // 获取当前画布
+    const currentCanvas = editor.current
+    if (currentCanvas) {
+      // 获取 base64 编码图像
+      currentCanvas.setZoom(1)
+      const base64Image = currentCanvas.toDataURL({
+        format: 'png', // 你可以选择其他格式，如 'jpeg'
+        quality: 1.0, // 质量为1（最高）
+        multiplier: 1, // 乘数为2（即2倍缩放）
+      })
+      currentCanvas.setZoom(scaleFactor)
 
+      return base64Image
+    }
+  }
   // 通过useImperativeHandle暴露给父组件的方法
   useImperativeHandle(
     handleRef,
     () => ({
-      editorCurrent: () => editor.current,
+      editorCurrent: editor.current,
       discardActiveObject: () => {
         closeOpenAllPopup()
       },
+      getCanvasBase64,
       onAddObject: onAddObject,
     }),
-    [editor.current],
+    [editor.current, scaleFactor],
   )
   //关闭弹窗
   const onCloseAddToolsPopup = () => {

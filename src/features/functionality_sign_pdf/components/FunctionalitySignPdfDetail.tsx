@@ -150,10 +150,13 @@ export const FunctionalitySignPdfDetail: FC<
     setSaveButtonLoading(true)
     showPdfHandlesRef.current?.discardAllActiveObject()
     const pdfPageNumber = showPdfHandlesRef.current?.getNumPages()
-    if (pdfPageNumber) {
+    const canvasImgList = showPdfHandlesRef.current?.getCanvasBase64List()
+    await new Promise((resolve) => setTimeout(resolve, 500)) //等待1下,防止数据意外
+    if (pdfPageNumber && canvasImgList) {
       const uint8Array = await pdfAddSignCanvasViewReturnUint8Array(
         file,
         pdfPageNumber,
+        canvasImgList,
       )
       if (uint8Array) {
         setDownloadUint8Array(uint8Array)
@@ -239,6 +242,7 @@ export const FunctionalitySignPdfDetail: FC<
           <FunctionalitySignPdfShowPdfViewPdfViewMain
             file={file}
             ref={showPdfHandlesRef}
+            isShowBottomOperation={!downloadUint8Array}
             onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
           />
           {downloadUint8Array && (

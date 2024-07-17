@@ -4,6 +4,7 @@ import { PDFDocument } from 'pdf-lib'
 export const pdfAddSignCanvasViewReturnUint8Array = async (
   file: File,
   pdfPageNumber: number,
+  canvasImgList: (string | undefined)[],
 ) => {
   try {
     let pdfDoc: PDFDocument | null = null
@@ -16,53 +17,13 @@ export const pdfAddSignCanvasViewReturnUint8Array = async (
     }
 
     for (let i = 0; i < pdfPageNumber; i++) {
-      // 1. 获取必要的元素和数据
       const page = pdfDoc.getPage(i)
-      const canvasWrap = document.querySelector(
-        `.sample-canvas-wrap-${i + 1}`,
-      ) as HTMLDivElement
       const canvas = document.querySelector(
         `.sample-canvas-${i + 1} .lower-canvas`,
       ) as HTMLCanvasElement
-
-      if (canvas && canvasWrap) {
-        // 2. 计算裁剪区的大小和偏移
-        const canvasWrapRect = canvasWrap.getBoundingClientRect()
-        const canvasRect = canvas.getBoundingClientRect()
-        const scaleX = canvas.width / canvasRect.width
-        const scaleY = canvas.height / canvasRect.height
-
-        const cropX = (canvasWrapRect.left - canvasRect.left) * scaleX
-        const cropY = (canvasWrapRect.top - canvasRect.top) * scaleY
-        const cropWidth = canvasWrapRect.width * scaleX
-        const cropHeight = canvasWrapRect.height * scaleY
-
-        // 3. 创建一个新的 canvas 用于裁剪
-        const tempCanvas = document.createElement('canvas')
-        tempCanvas.width = cropWidth
-        tempCanvas.height = cropHeight
-        const ctx = tempCanvas.getContext('2d')
-        if (!ctx) {
-          continue
-        }
-        // 4. 裁剪并绘制图像到新 canvas 上
-        ctx.drawImage(
-          canvas,
-          cropX,
-          cropY,
-          cropWidth,
-          cropHeight,
-          0,
-          0,
-          cropWidth,
-          cropHeight,
-        )
-
-        // 5. 将裁剪后的图像转换为 DataURL 并嵌入到 PDF 页面
-        const image = tempCanvas.toDataURL('image/png')
+      if (canvas && canvasImgList[i]) {
         const pdfPageSize = page.getSize()
-        const pngImage = await pdfDoc.embedPng(image)
-
+        const pngImage = await pdfDoc.embedPng(canvasImgList[i] as string)
         page.drawImage(pngImage, {
           x: 0,
           y: 0,

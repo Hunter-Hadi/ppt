@@ -33,6 +33,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 export interface IFunctionalitySignPdfShowPdfViewHandles {
   discardAllActiveObject: () => void
   getNumPages: () => number
+  getCanvasBase64List: () => (string | undefined)[]
   onAddObject?: (
     canvasObject: ICanvasObjectData & { pdfIndex?: number },
   ) => void
@@ -41,6 +42,7 @@ export interface IFunctionalitySignPdfShowPdfViewHandles {
 interface IFunctionalitySignPdfShowPdfViewProps {
   file: File
   onChangePdfHaveSignObjectNumber?: (number: number) => void
+  isShowBottomOperation: boolean
 }
 /**
  * 签名PDF处的视图
@@ -48,7 +50,10 @@ interface IFunctionalitySignPdfShowPdfViewProps {
 export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
-> = ({ file, onChangePdfHaveSignObjectNumber }, handleRef) => {
+> = (
+  { file, onChangePdfHaveSignObjectNumber, isShowBottomOperation },
+  handleRef,
+) => {
   const isMobile = useFunctionalityCommonIsMobile()
 
   const { t } = useTranslation()
@@ -144,6 +149,15 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           canvasHandlesRefs.current.forEach((canvasHandlesRef) => {
             canvasHandlesRef.discardActiveObject()
           })
+        }
+      },
+      getCanvasBase64List: () => {
+        if (canvasHandlesRefs.current) {
+          return canvasHandlesRefs.current.map((canvasHandlesRef) => {
+            return canvasHandlesRef.getCanvasBase64()
+          })
+        } else {
+          return []
         }
       },
       getNumPages: () => numPages,
@@ -344,7 +358,10 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           gap={1}
           sx={{
             bgcolor: '#ffffff',
-            display: isScrollShow || isMobile ? 'flex' : 'none',
+            display:
+              (isScrollShow || isMobile) && isShowBottomOperation
+                ? 'flex'
+                : 'none',
             p: 1,
             borderRadius: 2,
           }}
