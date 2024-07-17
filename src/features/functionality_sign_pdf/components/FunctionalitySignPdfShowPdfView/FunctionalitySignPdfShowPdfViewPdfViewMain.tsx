@@ -14,6 +14,8 @@ import {
 } from 'react'
 import { Document, Page, pdfjs } from 'react-pdf'
 
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
+
 import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySignElementWidth'
 import { useFunctionalitySignScrollPagination } from '../../hooks/useFunctionalitySignScrollPagination'
 import { getGlobalCenterRelativeToWrapperPosition } from '../../utils/canvasTools'
@@ -47,6 +49,8 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
 > = ({ file, onChangePdfHaveSignObjectNumber }, handleRef) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const { t } = useTranslation()
   const wrapRef = useRef<HTMLDivElement>(null)
   const pdfPageRefs = useRef<HTMLElement[]>([])
@@ -326,7 +330,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           p: 1,
           zIndex: 99,
           width: '100%',
-          height: 60,
+          height: isMobile ? 40 : 60,
           '&:hover': {
             '>div': {
               display: 'flex',
@@ -340,7 +344,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           gap={1}
           sx={{
             bgcolor: '#ffffff',
-            display: isScrollShow ? 'flex' : 'none',
+            display: isScrollShow || isMobile ? 'flex' : 'none',
             p: 1,
             borderRadius: 2,
           }}
@@ -358,6 +362,12 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
               width: 50,
               ' input': {
                 textAlign: 'center',
+
+                ...(isMobile
+                  ? {
+                      padding: '5px',
+                    }
+                  : {}),
               },
             }}
             hiddenLabel

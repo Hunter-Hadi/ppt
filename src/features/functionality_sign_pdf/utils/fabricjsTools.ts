@@ -43,7 +43,6 @@ export const onFabricAddObject = async (
       left: position.left,
       top: position.top,
       hasRotatingPoint: false, // 禁用旋转控制点
-      lockRotation: true, // 锁定旋转
     }
     const defaultTextFontFamily = SIGN_TEXT_FONT_FAMILY_LIST[0]
     if (type === 'image') {
@@ -134,6 +133,7 @@ export const onFabricAddObject = async (
         createObjectData,
         isAutoObjectSizePosition,
       )
+      createObjectData.setControlsVisibility({ mtr: false })
       editor.current.add(createObjectData)
       editor.current.setActiveObject(createObjectData) // 设置复制的对象为当前活动对象
       editor?.canvas.requestRenderAll() // 刷新画布以显示更改
@@ -166,7 +166,6 @@ export const copyFabricSelectedObject = (editor) => {
         left: clonedObj.left + 10,
         top: clonedObj.top + 10,
         hasRotatingPoint: false, // 禁用旋转控制点
-        lockRotation: true, // 锁定旋转
       })
 
       // 如果复制的是一个组，我们需要逐一添加组内对象
