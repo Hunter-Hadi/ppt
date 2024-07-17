@@ -1,12 +1,13 @@
 import { Box, Button, Typography } from '@mui/material'
 import dayjs from 'dayjs'
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { FC, useEffect, useState } from 'react'
 
 import FunctionalitySignPdfCommonButtonPopover from '../FunctionalitySignPdfButtonPopover/FunctionalitySignPdfCommonButtonPopover'
 interface IFunctionalitySignPdfShowPdfDateFormatsPopoverProps {
   value: string
   onHandleValue: (value: string) => void
+  title?: ReactNode
 }
 const formatList = [
   'MM/DD/YYYY',
@@ -18,7 +19,7 @@ const formatList = [
 ]
 const FunctionalitySignPdfShowPdfDateFormatsPopover: FC<
   IFunctionalitySignPdfShowPdfDateFormatsPopoverProps
-> = ({ value, onHandleValue }) => {
+> = ({ value, onHandleValue, title }) => {
   const [currentFormat, setCurrentFormat] = useState<string>(formatList[0])
   const inferDateFormat = (dateString: string) => {
     for (const format of formatList) {
@@ -86,7 +87,7 @@ const FunctionalitySignPdfShowPdfDateFormatsPopover: FC<
           },
         }}
       >
-        {currentFormat}
+        {title || currentFormat}
       </Typography>
     </FunctionalitySignPdfCommonButtonPopover>
   )

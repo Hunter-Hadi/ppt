@@ -14,6 +14,8 @@ import {
 } from 'react'
 import { Document, Page, pdfjs } from 'react-pdf'
 
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
+
 import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySignElementWidth'
 import { useFunctionalitySignScrollPagination } from '../../hooks/useFunctionalitySignScrollPagination'
 import { getGlobalCenterRelativeToWrapperPosition } from '../../utils/canvasTools'
@@ -31,6 +33,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 export interface IFunctionalitySignPdfShowPdfViewHandles {
   discardAllActiveObject: () => void
   getNumPages: () => number
+  getCanvasBase64List: () => (string | undefined)[]
   onAddObject?: (
     canvasObject: ICanvasObjectData & { pdfIndex?: number },
   ) => void
@@ -39,6 +42,7 @@ export interface IFunctionalitySignPdfShowPdfViewHandles {
 interface IFunctionalitySignPdfShowPdfViewProps {
   file: File
   onChangePdfHaveSignObjectNumber?: (number: number) => void
+  isShowBottomOperation: boolean
 }
 /**
  * 签名PDF处的视图
@@ -46,7 +50,12 @@ interface IFunctionalitySignPdfShowPdfViewProps {
 export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
-> = ({ file, onChangePdfHaveSignObjectNumber }, handleRef) => {
+> = (
+  { file, onChangePdfHaveSignObjectNumber, isShowBottomOperation },
+  handleRef,
+) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const { t } = useTranslation()
   const wrapRef = useRef<HTMLDivElement>(null)
   const pdfPageRefs = useRef<HTMLElement[]>([])
@@ -140,6 +149,15 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           canvasHandlesRefs.current.forEach((canvasHandlesRef) => {
             canvasHandlesRef.discardActiveObject()
           })
+        }
+      },
+      getCanvasBase64List: () => {
+        if (canvasHandlesRefs.current) {
+          return canvasHandlesRefs.current.map((canvasHandlesRef) => {
+            return canvasHandlesRef.getCanvasBase64()
+          })
+        } else {
+          return []
         }
       },
       getNumPages: () => numPages,
@@ -312,6 +330,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
       {/* 下面是底部分页工具 */}
       <Stack
         direction='row'
+        className='functionality-sign-pdf-scroll-pagination'
         justifyContent='center'
         sx={{
           position: 'absolute',
@@ -323,7 +342,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           p: 1,
           zIndex: 99,
           width: '100%',
-          height: 60,
+          height: isMobile ? 40 : 60,
           '&:hover': {
             '>div': {
               display: 'flex',
@@ -337,7 +356,10 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           gap={1}
           sx={{
             bgcolor: '#ffffff',
-            display: isScrollShow ? 'flex' : 'none',
+            display:
+              (isScrollShow || isMobile) && isShowBottomOperation
+                ? 'flex'
+                : 'none',
             p: 1,
             borderRadius: 2,
           }}
@@ -355,6 +377,12 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
               width: 50,
               ' input': {
                 textAlign: 'center',
+
+                ...(isMobile
+                  ? {
+                      padding: '5px',
+                    }
+                  : {}),
               },
             }}
             hiddenLabel

@@ -12,7 +12,7 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
   isShowFontsName?: boolean
   fontSize?: number
   fontsList?: string[]
-  title?: string
+  title?: React.ReactNode
 }
 /**
  * 用于选择字体的弹出式按钮

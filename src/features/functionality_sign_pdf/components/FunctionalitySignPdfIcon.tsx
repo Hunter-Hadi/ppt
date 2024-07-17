@@ -7,8 +7,10 @@ import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined
 import CheckIcon from '@mui/icons-material/Check'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy'
+import DateRangeOutlinedIcon from '@mui/icons-material/DateRangeOutlined'
 import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined'
 import DragIndicatorIcon from '@mui/icons-material/DragIndicator'
+import FontDownloadOutlinedIcon from '@mui/icons-material/FontDownloadOutlined'
 import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter'
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft'
 import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight'
@@ -104,6 +106,12 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'CheckCircle': {
         return <CheckCircleIcon {...restProps} />
+      }
+      case 'FontDownload': {
+        return <FontDownloadOutlinedIcon {...restProps} />
+      }
+      case 'DateRangeOutlined': {
+        return <DateRangeOutlinedIcon {...restProps} />
       }
       case 'SignArrowIndicate': {
         return (
