@@ -331,7 +331,7 @@ export const FunctionalitySignPdfDetail: FC<
             activeDragData.value && (
               <img
                 style={{
-                  maxWidth: '200px',
+                  maxWidth: isMobile ? '80px' : '200px',
                 }}
                 src={activeDragData.value}
                 alt=''

@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 import { Box } from '@mui/material'
 import * as fabric from 'fabric'
 import { without } from 'lodash-es'
@@ -540,6 +541,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         }
         return
       }
+
       if (canvasObject) {
         setControlAddNewDiv(null)
         const centerX = sizeInfo && sizeInfo?.width / 2 //没有就默认居中
@@ -555,6 +557,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           canvasObject.type,
           canvasObject.value,
           isAutoObjectPosition,
+          isMobile,
         )
 
         return

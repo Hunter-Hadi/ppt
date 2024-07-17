@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 /* eslint-disable no-extra-semi */
 import dayjs from 'dayjs'
 import * as fabric from 'fabric'
@@ -13,14 +14,19 @@ const autoCheckTopIsAbnormal = (
   canvasObject: fabric.Object,
   isAutoObjectSizePosition?: boolean,
 ) => {
+  const canvasHeight = canvasObject.height * canvasObject.scaleX
   let currentTop = top
   if (isAutoObjectSizePosition) {
-    currentTop = top - (canvasObject.height * canvasObject.scaleX) / 2
+    currentTop = top - canvasHeight / 2
   }
   if (currentTop < 0) {
     return 0
-  } else if (currentTop + canvasObject.height > editor.current.height) {
-    return editor.current.height - canvasObject.height
+  } else if (currentTop + canvasHeight > editor.current.height) {
+    console.log(
+      'simply editor.current.height',
+      editor.current.height - canvasHeight,
+    )
+    return editor.current.height - canvasHeight
   }
   return currentTop
 }
@@ -35,6 +41,7 @@ export const onFabricAddObject = async (
   type: 'image' | 'text-box' | 'text' | 'i-text',
   value: string,
   isAutoObjectSizePosition?: boolean,
+  isMobile: boolean = false,
 ) => {
   try {
     if (!editor) return null
@@ -46,35 +53,39 @@ export const onFabricAddObject = async (
     }
     const defaultTextFontFamily = SIGN_TEXT_FONT_FAMILY_LIST[0]
     if (type === 'image') {
+      const imgScale = isMobile ? 1 : 3 //移动端不需要缩放,因为屏幕已经很小了
       const image = new Image()
       image.src = value
       await new Promise<void>((resolve) => {
         image.onload = function () {
           // 将图片绘制到画布上
           const imgColor = findFirstNonTransparentPixel(image)
-
+          const zoom = editor.current.getZoom()
+          console.log('simply zoom', editor.current, zoom)
           const fabricImage = new fabric.Image(image, positionData)
 
           let scaleRatioWidth = 1
           let scaleRatioHeight = 1
 
           // 判断图片宽度是否过大
-          if (fabricImage.width > editor.current.width / 3) {
-            scaleRatioWidth = editor.current.width / 3 / fabricImage.width
+          if (fabricImage.width > (editor.current.width * zoom) / imgScale) {
+            scaleRatioWidth =
+              (editor.current.width * zoom) / imgScale / fabricImage.width
           }
 
           // 判断图片高度是否过高
-          if (fabricImage.height > editor.current.height / 3) {
-            scaleRatioHeight = editor.current.height / 3 / fabricImage.height
+          if (fabricImage.height > (editor.current.height * zoom) / imgScale) {
+            scaleRatioHeight =
+              (editor.current.height * zoom) / imgScale / fabricImage.height
           }
 
           // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
           const scaleRatio = Math.min(scaleRatioWidth, scaleRatioHeight)
-          console.log('simply scaleRatio', scaleRatio)
+
           if (scaleRatio < 1) {
             //只有当需要缩放时才执行
-            fabricImage.scaleX = scaleRatio
-            fabricImage.scaleY = scaleRatio
+            fabricImage.scaleX = parseFloat(scaleRatio.toFixed(2))
+            fabricImage.scaleY = parseFloat(scaleRatio.toFixed(2))
 
             // 调整位置到鼠标中心，同时应用缩放比例
             fabricImage.left =
@@ -86,7 +97,7 @@ export const onFabricAddObject = async (
             fabricImage.left = positionData.left - fabricImage.width / 2
             fabricImage.top = positionData.top - fabricImage.height / 2
           }
-
+          console.log('simply fabricImage', fabricImage)
           ;(fabricImage as any).imgColor = imgColor
           createObjectData = fabricImage
           resolve()
