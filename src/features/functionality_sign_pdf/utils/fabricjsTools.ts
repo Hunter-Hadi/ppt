@@ -160,7 +160,7 @@ export const copyFabricSelectedObject = (editor) => {
     // 注意：对于某些特定类型的对象（如images），你可能需要使用activeObject.clone(function (clone) {...})
     activeObject.clone().then(function (clonedObj) {
       canvas.discardActiveObject() // 取消当前对象的选中状态
-
+      clonedObj.setControlsVisibility({ mtr: false })
       // 设置对象的某些属性，以便复制的对象呈现在稍微不同的位置
       clonedObj.set({
         left: clonedObj.left + 10,

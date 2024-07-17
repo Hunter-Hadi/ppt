@@ -215,7 +215,8 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
           ? topOperationData?.top
           : controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
         button: {
-          padding: isMobile ? '5px 5px!important' : '5px 15px!important',
+          padding: isMobile ? '5px 3px!important' : '5px 15px!important',
+          minWidth: isMobile ? '35px!important' : 40,
         },
       }}
     >
@@ -227,10 +228,15 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
           height: isMobile ? 52 : 40,
         }}
       >
-        {isEditingText && !isMobile && (
+        {isEditingText && (
           <FunctionalitySignPdfFontsButtonPopover
             currentFont={activeObject?.fontFamily}
             isShowFontsName={true}
+            title={
+              <Stack>
+                <FunctionalitySignPdfIcon color='primary' name='FontDownload' />
+              </Stack>
+            }
             fontSize={18}
             onSelectedFont={onSelectedFonts}
             fontsList={SIGN_TEXT_FONT_FAMILY_LIST}
@@ -238,10 +244,18 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
         )}
         {(isText || isDateValid) && (
           <Button>
-            {isDateValid && !isMobile && (
+            {isDateValid && (
               <FunctionalitySignPdfShowPdfDateFormatsPopover
                 value={activeObject?.text}
                 onHandleValue={onHandleDateFormatsValue}
+                title={
+                  <Stack>
+                    <FunctionalitySignPdfIcon
+                      color='primary'
+                      name='DateRangeOutlined'
+                    />
+                  </Stack>
+                }
               />
             )}
             {isText && (
