@@ -109,7 +109,12 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   useEffect(() => {
     // 检测点击事件的函数，用来判断点击是否在Box外部
     const handleClickOutside = (event) => {
-      if (topWrapRef.current && !topWrapRef.current.contains(event.target)) {
+      if (
+        topWrapRef.current &&
+        !topWrapRef.current.contains(event.target) &&
+        !event.target.closest('.functionality-sign-pdf-object-tools-popup') &&
+        !event.target.closest('.MuiPopover-paper')
+      ) {
         // 点击发生在Box组件外部
         console.log('simply click outside')
         setUpdateTriggerCloseOpenAllPopupNum((num) => num + 1)

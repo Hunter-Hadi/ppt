@@ -206,6 +206,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   //在弹窗内部阻止点击事件冒泡
   return (
     <Stack
+      className='functionality-sign-pdf-object-tools-popup'
       sx={{
         position: 'fixed',
         left: isMobile
@@ -343,7 +344,6 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
                         },
                       }}
                       onClick={(e) => {
-                        e.stopPropagation()
                         onChangeFabricFontStyle(
                           editor.current,
                           'textAlign',
