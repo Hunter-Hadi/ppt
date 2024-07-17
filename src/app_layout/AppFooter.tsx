@@ -16,7 +16,7 @@ import AppLogo from '@/page_components/AppLogo'
 import toolsCodeMap from '@/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json'
 
 const footerBlackList = [
-  '/terms',
+  // '/terms',
   '/404',
   '/zmo',
   /\/partners\//,
