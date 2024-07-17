@@ -180,8 +180,8 @@ export const FunctionalitySignPdfDetail: FC<
     }),
     useSensor(TouchSensor, {
       activationConstraint: {
-        delay: 200,
-        tolerance: 0,
+        delay: 500,
+        tolerance: 1,
       },
     }),
     useSensor(KeyboardSensor),
@@ -205,8 +205,10 @@ export const FunctionalitySignPdfDetail: FC<
       sensors={sensors}
       onDragStart={onDragStart}
       onDragEnd={handleDragEnd}
+      onDragCancel={() => setActiveDragData(undefined)}
     >
       <Stack
+        className='DndContext-wrap'
         direction={
           isMobile ? (downloadUint8Array ? 'column' : 'column-reverse') : 'row'
         }
@@ -339,7 +341,7 @@ export const FunctionalitySignPdfDetail: FC<
             activeDragData.value && (
               <img
                 style={{
-                  maxWidth: isMobile ? '100px' : '200px',
+                  maxWidth: isMobile ? '80px' : '200px',
                 }}
                 src={activeDragData.value}
                 alt=''
