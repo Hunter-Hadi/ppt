@@ -7,9 +7,13 @@ import React from 'react'
 
 import FooterList from '@/components/Footerlist'
 import ProLink from '@/components/ProLink'
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
-import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants'
+import {
+  APP_EXTERNAL_LINKS,
+  APP_PROJECT_LINK,
+  WWW_PROJECT_LINK,
+} from '@/global_constants'
 import AppLogo from '@/page_components/AppLogo'
+import toolsCodeMap from '@/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json'
 
 const footerBlackList = [
   '/terms',
@@ -77,6 +81,7 @@ const AppFooter = () => {
             gap={{
               xs: 6,
               sm: 10,
+              lg: 18,
             }}
             mb={{
               xs: 6,
@@ -84,7 +89,7 @@ const AppFooter = () => {
             }}
           >
             <Stack
-              spacing={3}
+              spacing={1.5}
               sx={{
                 maxWidth: {
                   xs: 'max-content',
@@ -94,138 +99,51 @@ const AppFooter = () => {
             >
               <AppLogo />
               <Stack spacing={1}>
-                <Typography
+                {/* <Typography
                   variant='body2'
                   fontWeight={700}
                   color='primary.main'
                 >
                   #1 {t('modules:footer__title')}
-                </Typography>
-                <Typography variant='custom' fontSize={12} lineHeight={1.5}>
+                </Typography> */}
+                <Typography variant='custom' fontSize={14} lineHeight={1.5}>
                   {t('modules:footer__desc')}
                 </Typography>
               </Stack>
-              <A16zTop50AppsBadge />
+              {/* <A16zTop50AppsBadge /> */}
             </Stack>
 
             <Grid container spacing={4}>
-              {/* <Grid
+              <Grid
                 item
-                xs={12}
-                sm={6}
+                xs={6}
+                sm={4}
                 lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
                 <FooterList
-                  title={t('modules:footer__products')}
+                  title={t('app_footer:download__title')}
                   data={[
                     {
                       label: 'MaxAI for Chrome',
                       // icon: <CustomIcon icon='Chrome' />,
-                      icon: null,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.CHROME_EXTENSION,
                     },
                     {
                       label: 'MaxAI for Edge',
                       // icon: <CustomIcon icon='Edge' />,
-                      icon: null,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.EDGE_EXTENSION,
                     },
-                    {
-                      label: t('modules:footer__1_click_prompts'),
-                      // icon: <CustomIcon icon='PromptLogo' />,
-                      icon: null,
-                      link: `${PROMPT_LIBRARY_PROXY_BASE_PATH}/library`,
-                    },
                   ]}
                 />
               </Grid>
               <Grid
                 item
-                xs={12}
-                sm={6}
-                lg={3}
-                display={'flex'}
-                justifyContent={{ xs: 'flex-start', sx: 'center' }}
-              >
-                <FooterList
-                  title={t('modules:footer__resources')}
-                  data={[
-                    {
-                      label: capitalize(t('affiliate:main_keywords')),
-                      icon: null,
-                      target: '_self',
-                      link: '/affiliate',
-                    },
-                    {
-                      label: t('modules:footer__pdf_tools'),
-                      icon: null,
-                      target: '_self',
-                      link: '/pdf-tools',
-                    },
-                    {
-                      label: t('app_footer:resource__learning_center__label'),
-                      icon: null,
-                      target: '_self',
-                      link: '/learning-center/',
-                    },
-                  ]}
-                />
-              </Grid> */}
-              <Grid
-                item
-                xs={12}
-                sm={6}
-                lg={4}
-                display={'flex'}
-                justifyContent={{ xs: 'flex-start', sx: 'center' }}
-              >
-                <FooterList
-                  title={t('modules:footer__follow_us')}
-                  data={[
-                    {
-                      label: 'X/Twitter',
-                      target: '_blank',
-                      // icon: <CustomIcon icon='TwitterX' />,
-                      icon: null,
-                      link: APP_EXTERNAL_LINKS.TWITTER_FOLLOW_UP_LINK,
-                    },
-                  ]}
-                />
-              </Grid>
-              <Grid
-                item
-                xs={12}
-                sm={6}
-                lg={4}
-                display={'flex'}
-                justifyContent={{ xs: 'flex-start', sx: 'center' }}
-              >
-                <FooterList
-                  title={t('modules:footer__help')}
-                  data={[
-                    {
-                      label: t('modules:footer__how_to_use'),
-                      // icon: <HelpOutlineIcon />,
-                      icon: null,
-                      link: `${APP_PROJECT_LINK}/get-started`,
-                    },
-                    {
-                      label: t('modules:footer__contact_us'),
-                      // icon: <MailOutlineIcon />,
-                      icon: null,
-                      link: '/contact-us',
-                    },
-                  ]}
-                />
-              </Grid>
-              {/* <Grid
-                item
-                xs={12}
-                sm={6}
+                xs={6}
+                sm={4}
                 lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
@@ -243,111 +161,304 @@ const AppFooter = () => {
                       icon: null,
                       link: `/use-cases/writing`,
                     },
+                    {
+                      label: t('app_footer:use_cases__ai_prompt__label'),
+                      icon: null,
+                      link: `/prompt/library`,
+                    },
                   ]}
                 />
               </Grid>
               <Grid
                 item
-                xs={12}
-                sm={6}
+                xs={6}
+                sm={4}
                 lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
                 <FooterList
-                  title={t('app_footer:features__title')}
+                  title={t('app_footer:resource__title')}
                   data={[
                     {
-                      label: t('app_footer:features__ai_chat__label'),
-                      link: '/features/ai-chat',
+                      label: t('app_footer:resource__affiliate__label'),
+                      icon: null,
+                      link: `/affiliate`,
                     },
                     {
-                      label: t('app_footer:features__ai_summary__label'),
+                      label: t('app_footer:resource__learning_center__label'),
+                      icon: null,
+                      link: `${WWW_PROJECT_LINK}/docs/help/`,
+                    },
+                    {
+                      label: t('modules:footer__how_to_use'),
+                      // icon: <HelpOutlineIcon />,
+                      icon: null,
+                      link: `${APP_PROJECT_LINK}/get-started`,
+                    },
+                  ]}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={6}
+                sm={4}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+                order={{
+                  xs: 'unset',
+                  sm: '10',
+                  lg: 'unset',
+                }}
+              >
+                <FooterList
+                  title={t('app_footer:company__title')}
+                  data={[
+                    {
+                      label: t('modules:footer__contact_us'),
+                      // icon: <MailOutlineIcon />,
+                      icon: null,
+                      link: '/contact-us',
+                    },
+                    {
+                      label: 'X/Twitter',
+                      target: '_blank',
+                      // icon: <CustomIcon icon='TwitterX' />,
+                      icon: null,
+                      link: APP_EXTERNAL_LINKS.TWITTER_FOLLOW_UP_LINK,
+                    },
+                  ]}
+                />
+              </Grid>
+              <Grid
+                item
+                xs={6}
+                sm={4}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+              >
+                <FooterList
+                  title={t('modules:header__menu__products__features')}
+                  data={[
+                    {
                       link: '/features/ai-summary',
-                    },
-                    {
-                      label: t('app_footer:features__ai_search__label'),
-                      link: '/features/ai-search',
-                    },
-                    {
-                      label: t('app_footer:features__ai_rewriter__label'),
-                      link: '/features/ai-rewriter',
-                    },
-                    {
                       label: t(
-                        'app_footer:features__ai_reading_assistant__label',
+                        'modules:header__menu__products__features__ai_summary__label',
                       ),
+                    },
+                    {
                       link: '/features/ai-reader',
+                      label: t(
+                        'modules:header__menu__products__features__ai_reading_assistant__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:features__ai_translator__label'),
-                      link: '/features/ai-translator',
-                    },
-                    {
-                      label: t('app_footer:features__ai_instant_reply__label'),
-                      link: '/features/ai-instant-reply',
-                    },
-                    {
-                      label: t('app_footer:features__ai_prompts__label'),
-                      link: '/features/ai-prompts',
-                    },
-                    {
-                      label: t('app_footer:features__ai_vision__label'),
                       link: '/features/ai-vision',
+                      label: t(
+                        'modules:header__menu__products__features__ai_vision__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:features__ai_art__label'),
+                      link: '/features/ai-rewriter',
+                      label: t(
+                        'modules:header__menu__products__features__ai_rewriter__label',
+                      ),
+                    },
+                    {
+                      link: '/features/ai-instant-reply',
+                      label: t(
+                        'modules:header__menu__products__features__ai_instant_reply__label',
+                      ),
+                    },
+                    {
+                      link: '/features/ai-chat',
+                      label: t(
+                        'modules:header__menu__products__features__ai_chat__label',
+                      ),
+                    },
+                    {
+                      link: '/features/ai-search',
+                      label: t(
+                        'modules:header__menu__products__features__ai_search__label',
+                      ),
+                    },
+                    {
+                      link: '/features/ai-translator',
+                      label: t(
+                        'modules:header__menu__products__features__ai_translator__label',
+                      ),
+                    },
+                    {
+                      link: '/features/ai-prompts',
+                      label: t(
+                        'modules:header__menu__products__features__ai_prompts__label',
+                      ),
+                    },
+                    {
                       link: '/features/ai-art',
+                      label: t(
+                        'modules:header__menu__products__features__ai_art__label',
+                      ),
                     },
                   ]}
                 />
               </Grid>
               <Grid
                 item
-                xs={12}
-                sm={6}
+                xs={6}
+                sm={4}
                 lg={3}
                 display={'flex'}
                 justifyContent={{ xs: 'flex-start', sx: 'center' }}
               >
                 <FooterList
-                  title={t('app_footer:industries__title')}
+                  title={t('modules:header__menu__products__industries')}
                   data={[
                     {
-                      label: t('app_footer:industries__executives__label'),
                       link: `/industries/executives`,
+                      label: t(
+                        'modules:header__menu__products__industries__executives__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:industries__marketing__label'),
                       link: `/industries/marketing`,
+                      label: t(
+                        'modules:header__menu__products__industries__marketing__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:industries__education__label'),
                       link: `/industries/education`,
+                      label: t(
+                        'modules:header__menu__products__industries__education__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:industries__consulting__label'),
                       link: `/industries/consulting`,
+                      label: t(
+                        'modules:header__menu__products__industries__consulting__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:industries__hr__label'),
                       link: `/industries/hr`,
+                      label: t(
+                        'modules:header__menu__products__industries__hr__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:industries__finance__label'),
                       link: `/industries/finance`,
+                      label: t(
+                        'modules:header__menu__products__industries__finance__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:industries__real_estate__label'),
                       link: `/industries/real-estate`,
+                      label: t(
+                        'modules:header__menu__products__industries__real_estate__label',
+                      ),
                     },
                     {
-                      label: t('app_footer:industries__technical__label'),
                       link: `/industries/tech`,
+                      label: t(
+                        'modules:header__menu__products__industries__technical__label',
+                      ),
                     },
                   ]}
                 />
-              </Grid> */}
+              </Grid>
+              <Grid
+                item
+                xs={6}
+                sm={4}
+                lg={3}
+                display={'flex'}
+                justifyContent={{ xs: 'flex-start', sx: 'center' }}
+              >
+                <FooterList
+                  title={t('modules:footer__pdf_tools')}
+                  data={[
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['merge-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__merge_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['split-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__split_a_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['pdf-to-png']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__pdf_to_png__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['pdf-to-jpeg']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__pdf_to_jpeg__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['png-to-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__png_to_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['jpeg-to-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__jpeg_to_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['heic-to-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__heic_to_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['pdf-to-html']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__pdf_to_html__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['sign-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__sign_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['compress-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__compress_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['ocr-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__ocr_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['rotate-pdf']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__rotate_pdf__title',
+                      ),
+                    },
+                    {
+                      link: `/${toolsCodeMap.topUrlKey}/${toolsCodeMap.childrenObject['number-pages']}`,
+                      label: t(
+                        'pages:tools__index_page__constant_obj__pdf_page_numbers__title',
+                      ),
+                    },
+                  ]}
+                />
+              </Grid>
             </Grid>
           </Box>
 

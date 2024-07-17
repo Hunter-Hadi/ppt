@@ -1,13 +1,13 @@
-import { Box, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import { Box, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import ProLink from '@/components/ProLink';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import ProLink from '@/components/ProLink'
 
 const TermsPages: FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <AppContainer sx={{ wordBreak: 'break-word', py: 4 }}>
       <AppDefaultSeoLayout
@@ -214,6 +214,76 @@ const TermsPages: FC = () => {
           offerings, changes to our business, or changes in economic conditions.
         </Typography>
       </Box>
+      <Box sx={{ mt: 4 }}>
+        <Typography variant='h2' sx={{ mb: 2 }}>
+          Fair Usage Policy
+        </Typography>
+        <Typography variant='body2' gutterBottom>
+          MaxAI.me is designed for individual human use. To ensure optimal
+          service quality and equitable access for all premium users, we
+          implement the following Fair Usage Policy:
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          1. Query Limits: Premium accounts are allocated a specified number of
+          smart AI or image queries per month. MaxAI.me may implement rate
+          limiting on queries that exceed typical human usage patterns.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          2. Content Volume: Queries involving large amounts of text or sizeable
+          file attachments may require significant computational resources.
+          Sudden large requests or extremely frequent queries can impact system
+          performance for all users. Therefore, we implement soft limits to
+          maintain consistent service quality.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          3. Human-Paced Usage: Our service is optimized for human-paced
+          interactions. Queries at a rate exceeding typical human capacity may
+          be classified as unauthorized programmatic usage.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          4. Individual Use: MaxAI.me accounts are for individual use only.
+          Usage patterns suggesting shared accounts or multiple users on a
+          single account are prohibited.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          5. Time-based Monitoring: Usage is monitored across various time
+          frames to ensure it aligns with expected patterns of individual human
+          use.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          6. Prohibited Usage: Any attempt to access the Services through
+          automated means, extract data, or bypass the official user interface
+          is strictly prohibited. All interactions must be initiated directly
+          through the MaxAI.me user interface by an individual user.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          7. Service Adjustments: MaxAI.me reserves the right to adjust service
+          performance or access for accounts that consistently exceed normal
+          human usage patterns or violate this Fair Usage Policy.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2, pl: 2 }}>
+          8. Compliance: Violation of this Fair Usage Policy may result in
+          temporary service limitations or, in severe cases, account suspension
+          or termination.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          We strive to provide high-quality service to all users while managing
+          the intensive computational demands of AI technology. Our Fair Usage
+          Policy helps ensure that the actions of any single user do not
+          negatively impact the experience of others or the overall system
+          performance.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          If you have specific high-volume needs that may not align with typical
+          individual use, please contact our sales team to discuss custom
+          solutions tailored to your requirements.
+        </Typography>
+        <Typography variant='body2' gutterBottom sx={{ mt: 2 }}>
+          MaxAI.me reserves the right to modify this Fair Usage Policy at any
+          time. Continued use of our services following any such changes
+          constitutes your acceptance of the new Fair Usage Policy.
+        </Typography>
+      </Box>
 
       <Box sx={{ mt: 4 }}>
         <Typography variant='h2' sx={{ mb: 2 }}>
@@ -241,7 +311,7 @@ const TermsPages: FC = () => {
         </Typography>
       </Box>
     </AppContainer>
-  );
-};
+  )
+}
 
-export default TermsPages;
+export default TermsPages

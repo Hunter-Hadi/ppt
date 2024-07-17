@@ -29,7 +29,7 @@ const Description: FC<IDescriptionProps> = ({ title, content, buttonText }) => {
         sx={{ margin: '0 auto' }}
       >
         <Typography
-          component='h3'
+          component='h2'
           variant='custom'
           sx={{
             fontSize: {
@@ -44,7 +44,6 @@ const Description: FC<IDescriptionProps> = ({ title, content, buttonText }) => {
         </Typography>
 
         <Typography
-          component='h2'
           fontSize={16}
           my={{
             xs: 4,

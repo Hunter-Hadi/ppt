@@ -764,7 +764,7 @@
     "header__menu__pricing": "Prețuri",
     "header__menu__learning_center": "Centrul de învățare",
     "footer__title": "Instrument de productivitate AI",
-    "footer__desc": "Chat AI, rewriter, rezumat, răspuns instant, asistent de lectură, sugestii, căutare, artă și traducător. Propulsat de GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Îmbunătățește-ți lectura, scrierea și căutarea pe web cu AI.",
     "footer__products": "Produse",
     "footer__1_click_prompts": "Bibliotecă de prompt-uri AI",
     "footer__follow_us": "Urmărește-ne",
@@ -1296,10 +1296,10 @@
     "features__fast_text_queries__tooltip__description": "Accesați cele mai rapide modele AI, toate într-un singur loc.",
     "features__advanced_text_queries__month": "Interogări de text avansate/lună",
     "features__advanced_text_queries__tooltip__description": "Accesați cele mai avansate modele AI, toate într-un singur loc.",
-    "features__advanced_text_queries__elite__more_description": "Asigurați cel puțin 1.500 de interogări avansate de text de mare viteză în fiecare lună. După atingerea limitei, viteza și calitatea modelului pot fi reduse.",
+    "features__advanced_text_queries__elite__more_description": "Asigurați cel puțin 1.500 de interogări AI inteligente de mare viteză în fiecare lună. Utilizarea dincolo de această limită sau la frecvențe mari poate duce la reducerea vitezei și calității. Politicile de utilizare corectă se aplică în funcție de frecvența interogării, lungimea conținutului și modelele generale de utilizare.",
     "features__image_queries__month": "Interogări de imagini/lună",
     "features__image_queries__tooltip__description": "Creșteți creativitatea și productivitatea cu 10x cu cele mai avansate modele AI pentru artă.",
-    "features__image_queries__elite__more_description": "Asigurați cel puțin 1.500 de interogări de imagini de mare viteză în fiecare lună. După atingerea limitei, viteza și calitatea modelului pot fi reduse.",
+    "features__image_queries__elite__more_description": "Asigurați cel puțin 600 de interogări AI de imagine de mare viteză în fiecare lună. Utilizarea dincolo de această limită sau la frecvențe mari poate duce la reducerea vitezei și calității. Politicile de utilizare corectă se aplică în funcție de frecvența interogării, dimensiunea imaginii și modelele generale de utilizare.",
     "features__free_ai_models": "Modele AI gratuite",
     "features__ai_rewriter__title": "Re-scriitor AI",
     "features__ai_rewriter__description": "Meniu contextual",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "Căutare AI",
     "features__ai_art__label": "Artă AI",
     "features__ai_translator__label": "Traducător AI",
-    "features__ai_vision__label": "Viziune AI"
+    "features__ai_vision__label": "Viziune AI",
+    "download__title": "Descarcă",
+    "use_cases__ai_prompt__label": "Bibliotecă de prompt-uri AI",
+    "resource__title": "Resurse",
+    "resource__affiliate__label": "Program de afiliere",
+    "company__title": "Companie"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Conectare"

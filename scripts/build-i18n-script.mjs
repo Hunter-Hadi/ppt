@@ -172,46 +172,47 @@ const jsonDir = join(__dirname, '../src/i18n/locales')
 const sourceJsonPath = join(jsonDir, '/en/index.json')
 const BLACK_LIST_KEYS = []
 // 从src/i18n/types/index.ts复制的
+// 注释掉的为 20240716 废弃的
 export const LANGUAGE_CODE_MAP = {
-  am: { label: 'አማርኛ', en_label: 'Amharic' },
+  // "am": { "label": "አማርኛ", "en_label": "Amharic" },
   ar: { label: 'العربية', en_label: 'Arabic' },
-  bg: { label: 'Български', en_label: 'Bulgarian' },
-  bn: { label: 'বাংলা', en_label: 'Bengali' },
-  ca: { label: 'Català', en_label: 'Catalan' },
+  // "bg": { "label": "Български", "en_label": "Bulgarian" },
+  // "bn": { "label": "বাংলা", "en_label": "Bengali" },
+  // "ca": { "label": "Català", "en_label": "Catalan" },
   cs: { label: 'Čeština', en_label: 'Czech' },
   da: { label: 'Dansk', en_label: 'Danish' },
   de: { label: 'Deutsch', en_label: 'German' },
   el: { label: 'Ελληνικά', en_label: 'Greek' },
   en: { label: 'English', en_label: 'English' },
-  'en-GB': { label: 'English (UK)', en_label: 'English (UK)' },
-  'en-US': { label: 'English (US)', en_label: 'English (US)' },
+  // "en-GB": { "label": "English (UK)", "en_label": "English (UK)" },
+  // "en-US": { "label": "English (US)", "en_label": "English (US)" },
   es: { label: 'Español', en_label: 'Spanish' },
-  'es-419': {
-    label: 'Español (Latinoamérica)',
-    en_label: 'Spanish (Latin America)',
-  },
-  et: { label: 'Eesti', en_label: 'Estonian' },
-  fa: { label: 'فارسی', en_label: 'Persian' },
+  // "es-419": {
+  //   "label": "Español (Latinoamérica)",
+  //   "en_label": "Spanish (Latin America)"
+  // },
+  // "et": { "label": "Eesti", "en_label": "Estonian" },
+  // "fa": { "label": "فارسی", "en_label": "Persian" },
   fi: { label: 'Suomi', en_label: 'Finnish' },
   fil: { label: 'Filipino', en_label: 'Filipino' },
   fr: { label: 'Français', en_label: 'French' },
-  gu: { label: 'ગુજરાતી', en_label: 'Gujarati' },
+  // "gu": { "label": "ગુજરાતી", "en_label": "Gujarati" },
   he: { label: 'עברית', en_label: 'Hebrew' },
-  'he-IL': { label: 'עברית (ישראל)', en_label: 'Hebrew (Israel)' },
+  // "he-IL": { "label": "עברית (ישראל)", "en_label": "Hebrew (Israel)" },
   hi: { label: 'हिन्दी', en_label: 'Hindi' },
-  hr: { label: 'Hrvatski', en_label: 'Croatian' },
-  hy: { label: 'Հայերեն', en_label: 'Armenian' },
-  hu: { label: 'Magyar', en_label: 'Hungarian' },
-  in: { label: 'Bahasa Indonesia', en_label: 'Indonesian' },
+  // "hr": { "label": "Hrvatski", "en_label": "Croatian" },
+  // "hy": { "label": "Հայերեն", "en_label": "Armenian" },
+  // "hu": { "label": "Magyar", "en_label": "Hungarian" },
+  // "in": { "label": "Bahasa Indonesia", "en_label": "Bahasa Indonesia" },
   id: { label: 'Indonesia', en_label: 'Indonesian' },
   it: { label: 'Italiano', en_label: 'Italian' },
   ja: { label: '日本語', en_label: 'Japanese' },
-  kn: { label: 'ಕನ್ನಡ', en_label: 'Kannada' },
+  // "kn": { "label": "ಕನ್ನಡ", "en_label": "Kannada" },
   ko: { label: '한국어', en_label: 'Korean' },
-  lt: { label: 'Lietuvių', en_label: 'Lithuanian' },
-  lv: { label: 'Latviešu', en_label: 'Latvian' },
-  ml: { label: 'മലയാളം', en_label: 'Malayalam' },
-  mr: { label: 'मराठी', en_label: 'Marathi' },
+  // "lt": { "label": "Lietuvių", "en_label": "Lithuanian" },
+  // "lv": { "label": "Latviešu", "en_label": "Latvian" },
+  // "ml": { "label": "മലയാളം", "en_label": "Malayalam" },
+  // "mr": { "label": "मराठी", "en_label": "Marathi" },
   ms: { label: 'Melayu', en_label: 'Malay' },
   nl: { label: 'Nederlands', en_label: 'Dutch' },
   no: { label: 'Norsk', en_label: 'Norwegian' },
@@ -220,13 +221,13 @@ export const LANGUAGE_CODE_MAP = {
   'pt-PT': { label: 'Português (Portugal)', en_label: 'Portuguese (Portugal)' },
   ro: { label: 'Română', en_label: 'Romanian' },
   ru: { label: 'Русский', en_label: 'Russian' },
-  sk: { label: 'Slovenčina', en_label: 'Slovak' },
-  sl: { label: 'Slovenščina', en_label: 'Slovenian' },
-  sr: { label: 'Српски', en_label: 'Serbian' },
+  // "sk": { "label": "Slovenčina", "en_label": "Slovak" },
+  // "sl": { "label": "Slovenščina", "en_label": "Slovenian" },
+  // "sr": { "label": "Српски", "en_label": "Serbian" },
   sv: { label: 'Svenska', en_label: 'Swedish' },
-  sw: { label: 'Kiswahili', en_label: 'Swahili' },
-  ta: { label: 'தமிழ்', en_label: 'Tamil' },
-  te: { label: 'తెలుగు', en_label: 'Telugu' },
+  // "sw": { "label": "Kiswahili", "en_label": "Swahili" },
+  // "ta": { "label": "தமிழ்", "en_label": "Tamil" },
+  // "te": { "label": "తెలుగు", "en_label": "Telugu" },
   th: { label: 'ไทย', en_label: 'Thai' },
   tr: { label: 'Türkçe', en_label: 'Turkish' },
   ua: { label: 'Українська', en_label: 'Ukrainian' },
@@ -272,61 +273,61 @@ const updateI18nJson = async (
   )
   // 添加common, settings, client前缀
   const updateKeys = originUpdateKeys.map((key) => {
-    if (lodash.get(sourceJson, `common.${key}`)) {
+    if (_.get(sourceJson, `common.${key}`)) {
       return `common.${key}`
     }
-    if (lodash.get(sourceJson, `pages.${key}`)) {
+    if (_.get(sourceJson, `pages.${key}`)) {
       return `pages.${key}`
     }
-    if (lodash.get(sourceJson, `button.${key}`)) {
+    if (_.get(sourceJson, `button.${key}`)) {
       return `button.${key}`
     }
-    if (lodash.get(sourceJson, `prompt.${key}`)) {
+    if (_.get(sourceJson, `prompt.${key}`)) {
       return `prompt.${key}`
     }
-    if (lodash.get(sourceJson, `prompt_editor.${key}`)) {
+    if (_.get(sourceJson, `prompt_editor.${key}`)) {
       return `prompt_editor.${key}`
     }
-    if (lodash.get(sourceJson, `prompt_library.${key}`)) {
+    if (_.get(sourceJson, `prompt_library.${key}`)) {
       return `prompt_library.${key}`
     }
-    if (lodash.get(sourceJson, `share_conversion.${key}`)) {
+    if (_.get(sourceJson, `share_conversion.${key}`)) {
       return `share_conversion.${key}`
     }
-    if (lodash.get(sourceJson, `affiliate.${key}`)) {
+    if (_.get(sourceJson, `affiliate.${key}`)) {
       return `affiliate.${key}`
     }
-    if (lodash.get(sourceJson, `modules.${key}`)) {
+    if (_.get(sourceJson, `modules.${key}`)) {
       return `modules.${key}`
     }
-    if (lodash.get(sourceJson, `seo.${key}`)) {
+    if (_.get(sourceJson, `seo.${key}`)) {
       return `seo.${key}`
     }
-    if (lodash.get(sourceJson, `pricing.${key}`)) {
+    if (_.get(sourceJson, `pricing.${key}`)) {
       return `pricing.${key}`
     }
-    if (lodash.get(sourceJson, `survey.${key}`)) {
+    if (_.get(sourceJson, `survey.${key}`)) {
       return `survey.${key}`
     }
-    if (lodash.get(sourceJson, `features_landing.${key}`)) {
+    if (_.get(sourceJson, `features_landing.${key}`)) {
       return `features_landing.${key}`
     }
-    if (lodash.get(sourceJson, `use_cases_pages.${key}`)) {
+    if (_.get(sourceJson, `use_cases_pages.${key}`)) {
       return `use_cases_pages.${key}`
     }
-    if (lodash.get(sourceJson, `app_footer.${key}`)) {
+    if (_.get(sourceJson, `app_footer.${key}`)) {
       return `app_footer.${key}`
     }
-    if (lodash.get(sourceJson, `package__auth.${key}`)) {
+    if (_.get(sourceJson, `package__auth.${key}`)) {
       return `package__auth.${key}`
     }
-    if (lodash.get(sourceJson, `package__base_ui.${key}`)) {
+    if (_.get(sourceJson, `package__base_ui.${key}`)) {
       return `package__base_ui.${key}`
     }
-    if (lodash.get(sourceJson, `package__browser_extension.${key}`)) {
+    if (_.get(sourceJson, `package__browser_extension.${key}`)) {
       return `package__browser_extension.${key}`
     }
-    if (lodash.get(sourceJson, `package__nextjs_ui.${key}`)) {
+    if (_.get(sourceJson, `package__nextjs_ui.${key}`)) {
       return `package__nextjs_ui.${key}`
     }
     return key
@@ -341,14 +342,14 @@ const updateI18nJson = async (
   needUpdateLanguages = needUpdateLanguages.filter((dir) => {
     return dir.name !== 'en' && dir.name !== 'en-GB' && dir.name !== 'en-US'
   })
-  fs.writeFileSync(
-    join(jsonDir, `/en-GB/index.json`),
-    JSON.stringify(sourceJson, null, 2),
-  )
-  fs.writeFileSync(
-    join(jsonDir, `/en-US/index.json`),
-    JSON.stringify(sourceJson, null, 2),
-  )
+  // fs.writeFileSync(
+  //   join(jsonDir, `/en-GB/index.json`),
+  //   JSON.stringify(sourceJson, null, 2),
+  // )
+  // fs.writeFileSync(
+  //   join(jsonDir, `/en-US/index.json`),
+  //   JSON.stringify(sourceJson, null, 2),
+  // )
   // 覆盖en的json给en-GB和en-US
   console.log('i18n 需要更新的语言包总数: ', needUpdateLanguages.length)
   if (updateKeys.length > 0) {

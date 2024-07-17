@@ -1,13 +1,13 @@
-import { Divider, Paper, PaperProps, Typography } from '@mui/material';
-import React, { FC, useMemo } from 'react';
+import { Divider, Paper, PaperProps, Typography } from '@mui/material'
+import React, { FC, useMemo } from 'react'
 
 type IPaperLayoutProps = PaperProps & {
-  title?: string;
-  bordered?: boolean;
-};
+  title?: string
+  bordered?: boolean
+}
 
-const AppPaperCardLayout: FC<IPaperLayoutProps> = props => {
-  const { title, sx, children, bordered, ...paperProps } = props;
+const AppPaperCardLayout: FC<IPaperLayoutProps> = (props) => {
+  const { title, sx, children, bordered, ...paperProps } = props
   const renderTitle = useMemo(() => {
     if (typeof title === 'string') {
       return (
@@ -22,10 +22,10 @@ const AppPaperCardLayout: FC<IPaperLayoutProps> = props => {
           </Typography>
           <Divider sx={{ my: 2 }} />
         </>
-      );
+      )
     }
-    return title;
-  }, [title]);
+    return title
+  }, [title])
   return (
     <Paper
       className={'app-paper-card-layout'}
@@ -41,7 +41,7 @@ const AppPaperCardLayout: FC<IPaperLayoutProps> = props => {
       {renderTitle}
       {children}
     </Paper>
-  );
-};
+  )
+}
 
-export default AppPaperCardLayout;
+export default AppPaperCardLayout

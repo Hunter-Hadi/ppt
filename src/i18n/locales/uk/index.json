@@ -764,7 +764,7 @@
     "header__menu__pricing": "قیمت",
     "header__menu__learning_center": "سیکھنے کا مرکز",
     "footer__title": "AI پیداواری کا آلہ",
-    "footer__desc": "AI چیٹ، ریترائٹر، خلاصہ، فوری جواب، پڑھنے کا معاون، پرومپٹس، تلاش، آرٹ، اور ترجمہ. GPT-4، Claude 3، Gemini 1.5 کی طاقت سے محرک",
+    "footer__desc": "AI کے ساتھ ویب پر پڑھائی، تحریر اور تلاش کو تیز کریں۔",
     "footer__products": "مصنوعات",
     "footer__1_click_prompts": "AI پرومپ لائبریری",
     "footer__follow_us": "ہماری تعاقب کریں",
@@ -1296,10 +1296,10 @@
     "features__fast_text_queries__tooltip__description": "تمام تیز AI ماڈلز، ایک ہی جگہ پر دستیاب کریں۔",
     "features__advanced_text_queries__month": "اعلی متن کوئیریز/مہینہ",
     "features__advanced_text_queries__tooltip__description": "تمام اعلی AI ماڈلز، ایک ہی جگہ پر دستیاب کریں۔",
-    "features__advanced_text_queries__elite__more_description": "روزانہ کم از کم 1500 تیز اعلی متن کوئیریز یقینی بنائیں۔ حد تک پہنچنے کے بعد، ماڈل کی رفتار اور کوالٹی میں کمی ہوسکتی ہے۔",
+    "features__advanced_text_queries__elite__more_description": "ہر مہینے کم از کم 1,500 تیز رفتار انٹیلیجنٹ AI کوئریوں کی یقینی فراہمی۔ اس حد سے آگے یا زیادہ فریکوئنسی پر استعمال سے رفتار اور کوالٹی میں کمی ہو سکتی ہے۔ فیئر استعمال کی پالیسیاں کوئری فریکوئنسی، مواد کی لمبائی، اور کل استعمال کے پیٹرن پر مبنی ہوتی ہیں۔",
     "features__image_queries__month": "تصویر کوئیریز/مہینہ",
     "features__image_queries__tooltip__description": "تمام اعلی AI آرٹ ماڈلز کے ساتھ آپ کی تخلیقیت اور پیداوار کو 10 گنا بڑھائیں۔",
-    "features__image_queries__elite__more_description": "روزانہ کم از کم 1500 تیز تصویر کوئیریز یقینی بنائیں۔ حد تک پہنچنے کے بعد، ماڈل کی رفتار اور کوالٹی میں کمی ہوسکتی ہے۔",
+    "features__image_queries__elite__more_description": "ہر مہینے کم از کم 600 تیز رفتار تصویر AI کوئریوں کی یقینی فراہمی۔ اس حد سے آگے یا زیادہ فریکوئنسی پر استعمال سے رفتار اور کوالٹی میں کمی ہو سکتی ہے۔ فیئر استعمال کی پالیسیاں کوئری فریکوئنسی، تصویر کی سائز، اور کل استعمال کے پیٹرن پر مبنی ہوتی ہیں۔",
     "features__free_ai_models": "مفت AI ماڈلز",
     "features__ai_rewriter__title": "AI ری رائٹر",
     "features__ai_rewriter__description": "کنٹیکسٹ مینو",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "آئی تلاش",
     "features__ai_art__label": "آئی آرٹ",
     "features__ai_translator__label": "آئی ترجمہ کار",
-    "features__ai_vision__label": "آئی وژن"
+    "features__ai_vision__label": "آئی وژن",
+    "download__title": "ڈاؤن لوڈ",
+    "use_cases__ai_prompt__label": "ای آئی پرومپٹ لائبریری",
+    "resource__title": "وسائل",
+    "resource__affiliate__label": "افیلییٹ پروگرام",
+    "company__title": "کمپنی"
   },
   "package__base_ui": {
     "app_bar__sign_in": "سائن ان"

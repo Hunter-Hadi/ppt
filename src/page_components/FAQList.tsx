@@ -1,4 +1,4 @@
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import {
   Accordion as MuiAccordion,
   AccordionDetails as MuiAccordionDetails,
@@ -10,13 +10,13 @@ import {
   paperClasses,
   styled,
   Typography,
-} from '@mui/material';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useState } from 'react';
+} from '@mui/material'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useState } from 'react'
 
-import AppPaperCardLayout from '@/app_layout/AppPaperCardLayout';
-import { GaContent, gaEvent } from '@/utils/gtag';
+import AppPaperCardLayout from '@/app_layout/AppPaperCardLayout'
+import { GaContent, gaEvent } from '@/utils/gtag'
 
 const Accordion = styled((props: AccordionProps) => (
   <Paper variant='outlined' sx={{ mb: 1 }}>
@@ -31,7 +31,7 @@ const Accordion = styled((props: AccordionProps) => (
   '&:before': {
     display: 'none',
   },
-}));
+}))
 
 const AccordionSummary = styled((props: AccordionSummaryProps) => (
   <MuiAccordionSummary
@@ -48,25 +48,25 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
   '& .MuiAccordionSummary-content': {
     // marginLeft: theme.spacing(1),
   },
-}));
+}))
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
   //   borderTop: '1px solid rgba(0, 0, 0, .125)',
-}));
+}))
 
 export type IFAQItem = {
-  key: string;
-  title: (t: any) => React.ReactNode;
-  description: (t: any) => React.ReactNode;
-};
+  key: string
+  title: (t: any) => React.ReactNode
+  description: (t: any) => React.ReactNode
+}
 export interface IFAQListProps {
-  title?: React.ReactNode;
-  footer?: React.ReactNode;
-  faqList: IFAQItem[];
-  defaultExpands?: string[];
-  expandAll?: boolean;
-  onChange?: (selectedKeys: string[]) => void;
+  title?: React.ReactNode
+  footer?: React.ReactNode
+  faqList: IFAQItem[]
+  defaultExpands?: string[]
+  expandAll?: boolean
+  onChange?: (selectedKeys: string[]) => void
 }
 const FAQList: FC<IFAQListProps> = ({
   title,
@@ -76,18 +76,18 @@ const FAQList: FC<IFAQListProps> = ({
   defaultExpands,
   onChange,
 }) => {
-  const { t } = useTranslation();
-  const router = useRouter();
+  const { t } = useTranslation()
+  const router = useRouter()
 
   const [expandKeys, setExpandKeys] = useState(() => {
     if (defaultExpands) {
-      return defaultExpands;
+      return defaultExpands
     }
     if (expandAll) {
-      return faqList.map((faq) => faq.key);
+      return faqList.map((faq) => faq.key)
     }
-    return [];
-  });
+    return []
+  })
   const handleChange = (newKey: string, title: string) => {
     gaEvent({
       eventName: `${router.pathname.split('/').join('')}_click_FAQ`,
@@ -95,16 +95,16 @@ const FAQList: FC<IFAQListProps> = ({
         value: title,
         page_path: router.pathname,
       },
-    });
-    let newKeys = expandKeys;
+    })
+    let newKeys = expandKeys
     if (expandKeys.includes(newKey)) {
-      newKeys = expandKeys.filter((key) => key !== newKey);
+      newKeys = expandKeys.filter((key) => key !== newKey)
     } else {
-      newKeys = expandKeys.concat(newKey);
+      newKeys = expandKeys.concat(newKey)
     }
-    setExpandKeys(newKeys);
-    onChange && onChange(newKeys);
-  };
+    setExpandKeys(newKeys)
+    onChange && onChange(newKeys)
+  }
   return (
     <Box
       sx={{
@@ -140,7 +140,7 @@ const FAQList: FC<IFAQListProps> = ({
                   },
                 }}
               >
-                <Typography variant='h6'>{item.title(t)}</Typography>
+                <Typography>{item.title(t)}</Typography>
               </GaContent>
             </AccordionSummary>
             <AccordionDetails>
@@ -153,7 +153,7 @@ const FAQList: FC<IFAQListProps> = ({
               </Typography>
             </AccordionDetails>
           </Accordion>
-        );
+        )
       })}
       {footer && (
         <AppPaperCardLayout
@@ -163,6 +163,6 @@ const FAQList: FC<IFAQListProps> = ({
         </AppPaperCardLayout>
       )}
     </Box>
-  );
-};
-export default FAQList;
+  )
+}
+export default FAQList

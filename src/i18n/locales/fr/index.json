@@ -764,7 +764,7 @@
     "header__menu__pricing": "Tarification",
     "header__menu__learning_center": "Centre d'apprentissage",
     "footer__title": "Outil de productivité IA",
-    "footer__desc": "Chatbot IA, rédacteur, résumé, réponse instantanée, assistant de lecture, suggestions, recherche, art et traducteur. Propulsé par GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Optimisez votre lecture, écriture et recherche sur le web avec l'IA.",
     "footer__products": "Produits",
     "footer__1_click_prompts": "Bibliothèque de suggestions IA",
     "footer__follow_us": "Suivez-nous",
@@ -1296,10 +1296,10 @@
     "features__fast_text_queries__tooltip__description": "Accédez aux modèles d'IA les plus rapides, tous au même endroit.",
     "features__advanced_text_queries__month": "Requêtes de texte avancées/mois",
     "features__advanced_text_queries__tooltip__description": "Accédez aux modèles d'IA les plus avancés, tous au même endroit.",
-    "features__advanced_text_queries__elite__more_description": "Assurez-vous d'avoir au moins 1 500 requêtes de texte avancées à haute vitesse chaque mois. Après avoir atteint la limite, la vitesse et la qualité du modèle peuvent être réduites.",
+    "features__advanced_text_queries__elite__more_description": "Assurez-vous d'au moins 1 500 requêtes AI intelligentes à haute vitesse chaque mois. L'utilisation au-delà de cette limite ou à des fréquences élevées peut entraîner une vitesse et une qualité réduites. Les politiques d'utilisation équitable s'appliquent en fonction de la fréquence des requêtes, de la longueur du contenu et des modèles d'utilisation globaux.",
     "features__image_queries__month": "Requêtes d'images/mois",
     "features__image_queries__tooltip__description": "Multipliez par 10 votre créativité et votre productivité avec les modèles d'IA artistique les plus avancés.",
-    "features__image_queries__elite__more_description": "Assurez-vous d'avoir au moins 1 500 requêtes d'images à haute vitesse chaque mois. Après avoir atteint la limite, la vitesse et la qualité du modèle peuvent être réduites.",
+    "features__image_queries__elite__more_description": "Assurez-vous d'au moins 600 requêtes AI d'image à haute vitesse chaque mois. L'utilisation au-delà de cette limite ou à des fréquences élevées peut entraîner une vitesse et une qualité réduites. Les politiques d'utilisation équitable s'appliquent en fonction de la fréquence des requêtes, de la taille de l'image et des modèles d'utilisation globaux.",
     "features__free_ai_models": "Modèles d'IA gratuits",
     "features__ai_rewriter__title": "Réécriture IA",
     "features__ai_rewriter__description": "Menu contextuel",
@@ -1559,7 +1559,12 @@
     "features__ai_search__label": "Recherche IA",
     "features__ai_art__label": "Art IA",
     "features__ai_translator__label": "Traducteur IA",
-    "features__ai_vision__label": "Vision IA"
+    "features__ai_vision__label": "Vision IA",
+    "download__title": "Télécharger",
+    "use_cases__ai_prompt__label": "Bibliothèque de suggestions IA",
+    "resource__title": "Ressources",
+    "resource__affiliate__label": "Programme d'affiliation",
+    "company__title": "Entreprise"
   },
   "package__base_ui": {
     "app_bar__sign_in": "Se connecter"

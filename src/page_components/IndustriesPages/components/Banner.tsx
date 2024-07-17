@@ -43,7 +43,7 @@ const Banner: FC<IBannerProps> = ({
         }}
       >
         <Typography
-          component='h2'
+          component='h1'
           variant='custom'
           sx={{
             fontSize: {
@@ -57,9 +57,11 @@ const Banner: FC<IBannerProps> = ({
         </Typography>
 
         <Typography
-          fontSize={'18px'}
           sx={{
-            fontSize: '16px',
+            fontSize: {
+              xs: 18,
+              lg: 18,
+            },
           }}
           mt='24px'
           mb={{

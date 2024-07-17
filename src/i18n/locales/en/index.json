@@ -784,10 +784,11 @@
     "writing__features_browser__description__part3": "Get AI help, right where you need it."
   },
   "app_footer": {
-    "resource__learning_center__label": "Learning Center",
-    "use_cases__title": "Use Cases",
+    "download__title": "Download",
+    "use_cases__title": "Use cases",
     "use_cases__research__label": "Research",
     "use_cases__writing__label": "Writing",
+    "use_cases__ai_prompt__label": "AI prompt library",
     "industries__title": "Industries",
     "industries__executives__label": "Business owners",
     "industries__marketing__label": "Marketing",
@@ -807,7 +808,12 @@
     "features__ai_search__label": "AI search",
     "features__ai_art__label": "AI art",
     "features__ai_translator__label": "AI translator",
-    "features__ai_vision__label": "AI vision"
+    "features__ai_vision__label": "AI vision",
+    "resource__title": "Resources",
+    "resource__affiliate__label": "Affiliate program",
+    "resource__learning_center__label": "Learning center",
+    "company__title": "Company"
+
   },
   "features__common": {
     "components__upload_button_drop_title": "Drop here"
@@ -1034,7 +1040,7 @@
     "header__menu__pricing": "Pricing",
     "header__menu__learning_center": "Learning-center",
     "footer__title": "AI productivity tool",
-    "footer__desc": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, and translator. Powered by GPT-4, Claude 3, Gemini 1.5.",
+    "footer__desc": "Supercharge your reading, writing, and searching across the web with AI.",
     "footer__products": "Products",
     "footer__1_click_prompts": "AI prompt library",
     "footer__follow_us": "Follow Us",
@@ -1471,10 +1477,10 @@
     "features__fast_text_queries__tooltip__description": "Access the fastest AI models, all in one place.",
     "features__advanced_text_queries__month": "Advanced text queries/month",
     "features__advanced_text_queries__tooltip__description": "Access the most advanced AI models, all in one place.",
-    "features__advanced_text_queries__elite__more_description": "Ensure at least 1,500 high-speed advanced text queries each month. After reaching the limit, the speed and quality of the model may be reduced.",
+    "features__advanced_text_queries__elite__more_description": "Ensure at least 1,500 high-speed smart AI queries each month. Usage beyond this limit or at high frequencies may result in reduced speed and quality. Fair usage policies apply based on query frequency, content length, and overall usage patterns.",
     "features__image_queries__month": "Image queries/month",
     "features__image_queries__tooltip__description": "10x your creativity and productivity with the most advanced AI art models.",
-    "features__image_queries__elite__more_description": "Ensure at least 1,500 high-speed image queries each month. After reaching the limit, the speed and quality of the model may be reduced.",
+    "features__image_queries__elite__more_description": "Ensure at least 600 high-speed image AI queries each month. Usage beyond this limit or at high frequencies may result in reduced speed and quality. Fair usage policies apply based on query frequency, image size, and overall usage patterns.",
     "features__free_ai_models": "Free AI models",
     "features__ai_rewriter__title": "AI rewriter",
     "features__ai_rewriter__description": "Context menu",

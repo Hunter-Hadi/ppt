@@ -1,21 +1,27 @@
-import { Box, Stack, Typography } from '@mui/material';
-import React, { FC } from 'react';
+import { Box, Stack, Typography } from '@mui/material'
+import React, { FC } from 'react'
 
-import ProLink from '@/components/ProLink';
-import { GaContent, generateGaEvent } from '@/utils/gtag';
+import ProLink from '@/components/ProLink'
+import { GaContent, generateGaEvent } from '@/utils/gtag'
 
 const FooterList: FC<{
-  title: string;
+  title: string
   data: {
-    label: string;
-    icon?: React.ReactNode;
-    link: string;
-    target?: React.HTMLAttributeAnchorTarget;
-  }[];
+    label: string
+    icon?: React.ReactNode
+    link: string
+    target?: React.HTMLAttributeAnchorTarget
+  }[]
 }> = ({ title, data }) => {
   return (
     <Box>
-      <Typography variant='h6' component={'p'} mb={3} fontWeight={800}>
+      <Typography
+        variant='custom'
+        component={'p'}
+        mb={1.5}
+        fontWeight={600}
+        fontSize={16}
+      >
         {title}
       </Typography>
       <Stack spacing={1.5}>
@@ -50,9 +56,11 @@ const FooterList: FC<{
                 muiLinkProps={{ title: label ?? '' }}
               >
                 <Typography
-                  variant='body2'
+                  variant='custom'
                   component='span'
                   color='text.primary'
+                  fontSize={14}
+                  lineHeight={1.5}
                 >
                   {label}
                 </Typography>
@@ -62,7 +70,7 @@ const FooterList: FC<{
         ))}
       </Stack>
     </Box>
-  );
-};
+  )
+}
 
-export default FooterList;
+export default FooterList
