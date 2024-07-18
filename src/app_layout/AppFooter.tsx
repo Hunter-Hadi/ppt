@@ -16,7 +16,7 @@ import AppLogo from '@/page_components/AppLogo'
 import usePdfToolPathname from '@/page_components/PdfToolsPages/hooks/usePdfToolPathname'
 
 const footerBlackList = [
-  '/terms',
+  // '/terms',
   '/404',
   '/zmo',
   /\/partners\//,

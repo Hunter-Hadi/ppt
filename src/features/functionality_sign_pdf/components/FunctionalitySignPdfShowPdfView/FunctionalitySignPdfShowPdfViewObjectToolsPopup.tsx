@@ -7,10 +7,12 @@ import {
   Theme,
   Typography,
 } from '@mui/material'
+// import * as fabric from 'fabric'
 import { cloneDeep } from 'lodash-es'
 import React from 'react'
 import { FC, useEffect, useMemo, useState } from 'react'
 
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import {
   copyFabricSelectedObject,
   onChangeFabricColor,
@@ -24,18 +26,19 @@ import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButto
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 import FunctionalitySignPdfShowPdfDateFormatsPopover from './FunctionalitySignPdfShowPdfDateFormatsPopover'
 import { IControlDiv } from './FunctionalitySignPdfShowPdfViewRenderCanvas'
-interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
+export interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
   controlDiv: IControlDiv
   scaleFactor: number
-  editor: any
+  editor: React.MutableRefObject<any | null>
 }
-
 /**
  * PDF的点击的  签名对象变更样式 全局弹窗视图
  */
 const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps
 > = ({ controlDiv, editor, scaleFactor }) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const [textAlignSelectIcon, setTextAlignSelectIcon] =
     useState<string>('FormatAlignLeft')
   const [transparencyNumber, setTransparencyNumber] = useState<
@@ -44,23 +47,23 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   const [applicationKeys, setApplicationKeys] = useState<{
     [key in string]: boolean
   }>({})
-
   const activeObject = useMemo(
-    () => editor.canvas?.getActiveObject(),
-    [editor.canvas],
+    () => editor.current?.getActiveObject(),
+    [editor.current],
   )
-
   const onChangeColor = (color) => {
-    onChangeFabricColor(editor, color)
+    if (editor.current) {
+      onChangeFabricColor(editor.current, color)
+    }
   }
   const onCopySelectedObject = () => {
-    copyFabricSelectedObject(editor)
+    copyFabricSelectedObject(editor.current)
   }
   const onSelectedFonts = (fonts: string) => {
-    onChangeFabricFontStyle(editor, 'fontFamily', fonts)
+    onChangeFabricFontStyle(editor.current, 'fontFamily', fonts)
   }
   const onChangeFontSize = (size: number) => {
-    onChangeFabricFontStyle(editor, 'fontSize', size)
+    onChangeFabricFontStyle(editor.current, 'fontSize', size)
   }
 
   const fontStyleList: {
@@ -146,15 +149,25 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   const onChangeTransparency = (value: number) => {
     const convertedValue = (value - 1) / 99 // 转换为 0-1 的范围
     const roundedValue = convertedValue.toFixed(1) // 保留小数点后一位
-    onChangeFabricFontStyle(editor, 'opacity', roundedValue)
+    onChangeFabricFontStyle(editor.current, 'opacity', roundedValue)
     setTransparencyNumber(value)
   }
   const onChangeBgColor = (color: string) => {
-    onChangeFabricFontStyle(editor, 'backgroundColor', color)
+    onChangeFabricFontStyle(editor.current, 'backgroundColor', color)
   }
   const onHandleDateFormatsValue = (value: string) => {
     console.log('onHandleDateFormatsValue', value)
-    onChangeFabricFontStyle(editor, 'text', value)
+    onChangeFabricFontStyle(editor.current, 'text', value)
+  }
+  const deleteSelectedObjects = () => {
+    const activeGroup = editor.current?.getActiveObjects()
+    if (activeGroup && activeGroup.length) {
+      activeGroup.forEach((obj) => {
+        editor.current?.remove(obj)
+      })
+      editor.current?.discardActiveObject() // 取消选中活动对象（必要）
+      editor.current?.renderAll() // 重新渲染画布
+    }
   }
   const isImage = activeObject.type === 'image' // 图片
   const isEditingText =
@@ -164,24 +177,44 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   //在弹窗内部阻止点击事件冒泡
   return (
     <Stack
+      className='functionality-sign-pdf-object-tools-popup'
       sx={{
-        position: 'fixed',
-        left: controlDiv.left * scaleFactor + controlDiv.windowLeft,
-        top: controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
+        position: isMobile ? 'unset' : 'fixed',
+        mb: isMobile ? 1 : 0,
+        left: isMobile
+          ? undefined
+          : controlDiv.left * scaleFactor + controlDiv.windowLeft,
+        top: isMobile
+          ? undefined
+          : controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
+        button: {
+          padding: isMobile ? '5px 3px!important' : '5px 8px!important',
+          minWidth: isMobile ? '35px!important' : 40,
+        },
       }}
     >
       <ButtonGroup
         variant='outlined'
         sx={{
           borderRadius: 2,
-          bgcolor: '#fafafa',
-          height: 40,
+          bgcolor: isMobile ? '#fff' : '#fafafa',
+          height: isMobile ? 60 : 40,
         }}
       >
         {isEditingText && (
           <FunctionalitySignPdfFontsButtonPopover
             currentFont={activeObject?.fontFamily}
             isShowFontsName={true}
+            title={
+              isMobile ? (
+                <Stack>
+                  <FunctionalitySignPdfIcon
+                    color='primary'
+                    name='FontDownload'
+                  />
+                </Stack>
+              ) : undefined
+            }
             fontSize={18}
             onSelectedFont={onSelectedFonts}
             fontsList={SIGN_TEXT_FONT_FAMILY_LIST}
@@ -193,6 +226,16 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
               <FunctionalitySignPdfShowPdfDateFormatsPopover
                 value={activeObject?.text}
                 onHandleValue={onHandleDateFormatsValue}
+                title={
+                  isMobile ? (
+                    <Stack>
+                      <FunctionalitySignPdfIcon
+                        color='primary'
+                        name='DateRangeOutlined'
+                      />
+                    </Stack>
+                  ) : undefined
+                }
               />
             )}
             {isText && (
@@ -234,7 +277,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
                       }}
                       onClick={(e) => {
                         e.stopPropagation()
-                        onChangeFabricFontStyle(editor, item.key)
+                        onChangeFabricFontStyle(editor.current, item.key)
                         addApplicationButtonKey(item.key)
                       }}
                     >
@@ -280,8 +323,11 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
                         },
                       }}
                       onClick={(e) => {
-                        e.stopPropagation()
-                        onChangeFabricFontStyle(editor, 'textAlign', item.key)
+                        onChangeFabricFontStyle(
+                          editor.current,
+                          'textAlign',
+                          item.key,
+                        )
                         setTextAlignSelectIcon(item.iconName)
                       }}
                     >
@@ -342,7 +388,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
         <Button onClick={onCopySelectedObject}>
           <FunctionalitySignPdfIcon name='ContentCopy' />
         </Button>
-        <Button onClick={() => editor?.deleteSelected()}>
+        <Button onClick={() => deleteSelectedObjects()}>
           <FunctionalitySignPdfIcon name='DeleteForeverOutlined' />
         </Button>
       </ButtonGroup>
