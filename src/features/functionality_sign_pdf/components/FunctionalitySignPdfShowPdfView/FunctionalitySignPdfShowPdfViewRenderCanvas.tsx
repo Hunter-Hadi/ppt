@@ -5,6 +5,7 @@ import { without } from 'lodash-es'
 import React, {
   forwardRef,
   ForwardRefRenderFunction,
+  useContext,
   useEffect,
   useImperativeHandle,
   useRef,
@@ -19,6 +20,7 @@ import {
   onFabricAddObject,
 } from '../../utils/fabricjsTools'
 import { fabricMobileMove } from '../../utils/fabricMobileMove'
+import { TopDetailInfo } from '../FunctionalitySignPdfDetail'
 import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalitySignPdfShowPdfViewAddToolsPopup'
 import FunctionalitySignPdfShowPdfViewObjectToolsPopup from './FunctionalitySignPdfShowPdfViewObjectToolsPopup'
 export interface IControlDiv {
@@ -74,7 +76,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   handleRef,
 ) => {
   const isMobile = useFunctionalityCommonIsMobile()
-
+  const TopDetailInfoContext = useContext(TopDetailInfo)
   const canvasEl = useRef<HTMLCanvasElement>(null)
   const editor = useRef<fabric.Canvas | null>(null)
   const [selectLength, setSelectLength] = useState<number>(0)
@@ -96,6 +98,17 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   ) // 当前选中对象信息
   const deleteObjectKey = useRef<string[]>([])
   useEffect(() => {
+    if (isMobile && controlDiv) {
+      TopDetailInfoContext.setViewObjectToolsData({
+        controlDiv: controlDiv,
+        scaleFactor: scaleFactor,
+        editor: editor,
+      })
+    } else {
+      TopDetailInfoContext.setViewObjectToolsData(null)
+    }
+  }, [controlDiv, scaleFactor, editor.current, isMobile])
+  useEffect(() => {
     onChangeObjectNumber && onChangeObjectNumber(objectIdList.length)
   }, [objectIdList])
   useEffect(() => {
@@ -114,7 +127,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         topWrapRef.current &&
         !topWrapRef.current.contains(event.target) &&
         !event.target.closest('.functionality-sign-pdf-object-tools-popup') &&
-        !event.target.closest('.MuiPopover-paper')
+        !event.target.closest('.MuiPopover-paper') &&
+        !event.target.closest('.functionality-sign-pdf-save-view') //不知道为什么，这个点击事件触发两次才有效，所以加了这个
       ) {
         // 点击发生在Box组件外部
         console.log('simply click outside')
@@ -593,7 +607,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       getCanvasBase64,
       onAddObject: onAddObject,
     }),
-    [editor.current, scaleFactor],
+    [editor.current, scaleFactor, controlDiv, scaleFactor],
   )
   //关闭弹窗
   const onCloseAddToolsPopup = () => {
@@ -634,16 +648,19 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           />
         </Box>
       )}
-      {!isMobile && selectLength === 0 && controlAddNewDiv && (
-        <Box onMouseDown={handlePopupClick}>
-          <FunctionalitySignPdfShowPdfViewAddToolsPopup
-            controlDivPosition={controlAddNewDiv}
-            scaleFactor={scaleFactor}
-            editor={editor}
-            onClose={onCloseAddToolsPopup}
-          />
-        </Box>
-      )}
+      {!isMobile &&
+        selectLength === 0 &&
+        controlAddNewDiv &&
+        editor.current && (
+          <Box onMouseDown={handlePopupClick}>
+            <FunctionalitySignPdfShowPdfViewAddToolsPopup
+              controlDivPosition={controlAddNewDiv}
+              scaleFactor={scaleFactor}
+              editor={editor}
+              onClose={onCloseAddToolsPopup}
+            />
+          </Box>
+        )}
     </Box>
   )
 }

@@ -94,6 +94,8 @@ const FunctionalityCommonDragSortableList = <T,>({
   children,
   disabled,
 }: IFunctionalityCommonDragSortableListProps<T>) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const { t } = useTranslation()
   const [activeDragId, setActiveDragId] = useState<string | null>(null)
 
@@ -151,6 +153,15 @@ const FunctionalityCommonDragSortableList = <T,>({
       onDragEnd={handleDragEnd}
       collisionDetection={closestCenter}
     >
+      {isMobile && (
+        <style>{`
+       html, body {
+    -webkit-user-select: none; /* Prevents text selection */
+  -webkit-touch-callout: none; /* Prevents callout menu to appear */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Prevents tap highlight color */
+}
+      `}</style>
+      )}
       <SortableContext items={list} strategy={rectSortingStrategy}>
         <Stack
           direction='row'
