@@ -1583,6 +1583,13 @@
     "install_button__add_to_chrome_for_free__mini": "הוסף ל־Chrome",
     "install_button__add_to_edge_for_free": "הוסף ל־Edge - זה חינם",
     "install_button__add_to_edge_for_free__mini": "הוסף ל־Edge",
-    "extension_detection_alert__title": "התקן את התוסף של MaxAI.me {{BROWSER_AGENT}} כדי להמשיך."
+    "extension_detection_alert__title": "התקן את התוסף של MaxAI.me {{BROWSER_AGENT}} כדי להמשיך.",
+    "upgrade_alert__title": "עדכן את התוסף של MaxAI.me שלך",
+    "upgrade_alert__desc": "אתה זקוק לתוסף הדפדפן האחרון של MaxAI.me כדי להמשיך. עקוב אחר השלבים האלה כדי לעדכן את התוסף שלך לגרסה האחרונה:",
+    "upgrade_alert__desc__step1": "בקר במנהל התוספים של הדפדפן שלך.",
+    "upgrade_alert__desc__step2": "הפעל מצב מפתח.",
+    "upgrade_alert__desc__step3": "לחץ על כפתור העדכון.",
+    "upgrade_alert__desc__step4": "רענן את העמוד הזה כדי להתחיל לחפש עם AI.",
+    "upgrade_alert__cta_txt": "בקר במנהל התוספים של הדפדפן"
   }
 }

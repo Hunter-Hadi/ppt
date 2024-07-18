@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Thêm vào Chrome",
     "install_button__add_to_edge_for_free": "Thêm vào Edge — Miễn phí",
     "install_button__add_to_edge_for_free__mini": "Thêm vào Edge",
-    "extension_detection_alert__title": "Cài đặt tiện ích MaxAI.me {{BROWSER_AGENT}} để tiếp tục."
+    "extension_detection_alert__title": "Cài đặt tiện ích MaxAI.me {{BROWSER_AGENT}} để tiếp tục.",
+    "upgrade_alert__title": "Cập nhật tiện ích MaxAI.me của bạn",
+    "upgrade_alert__desc": "Bạn cần phiên bản mới nhất của tiện ích trình duyệt MaxAI.me để tiếp tục. Làm theo các bước sau để cập nhật tiện ích của bạn lên phiên bản mới nhất:",
+    "upgrade_alert__desc__step1": "Truy cập Trình quản lý Tiện ích Trình duyệt của bạn.",
+    "upgrade_alert__desc__step2": "Bật Chế độ Phát triển viên.",
+    "upgrade_alert__desc__step3": "Nhấn vào nút Cập nhật.",
+    "upgrade_alert__desc__step4": "Làm mới trang này để bắt đầu tìm kiếm với trí tuệ nhân tạo.",
+    "upgrade_alert__cta_txt": "Truy cập Trình quản lý Tiện ích Trình duyệt"
   }
 }

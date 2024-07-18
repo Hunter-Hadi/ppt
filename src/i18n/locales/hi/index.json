@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "क्रोम में जोड़ें",
     "install_button__add_to_edge_for_free": "एज में जोड़ें — यह मुफ्त है",
     "install_button__add_to_edge_for_free__mini": "एज में जोड़ें",
-    "extension_detection_alert__title": "MaxAI.me {{BROWSER_AGENT}} एक्सटेंशन स्थापित करें जारी रखने के लिए।"
+    "extension_detection_alert__title": "MaxAI.me {{BROWSER_AGENT}} एक्सटेंशन स्थापित करें जारी रखने के लिए।",
+    "upgrade_alert__title": "अपना MaxAI.me एक्सटेंशन अपडेट करें",
+    "upgrade_alert__desc": "जारी रखने के लिए आपको नवीनतम MaxAI.me ब्राउज़र एक्सटेंशन की आवश्यकता है। अपने एक्सटेंशन को नवीनतम संस्करण में अपडेट करने के लिए इन चरणों का पालन करें:",
+    "upgrade_alert__desc__step1": "अपने ब्राउज़र एक्सटेंशन प्रबंधक पर जाएं।",
+    "upgrade_alert__desc__step2": "डेवलपर मोड सक्षम करें।",
+    "upgrade_alert__desc__step3": "अपडेट बटन पर क्लिक करें।",
+    "upgrade_alert__desc__step4": "इस पेज को रिफ्रेश करें ताकि AI के साथ खोज शुरू हो सके।",
+    "upgrade_alert__cta_txt": "ब्राउज़र एक्सटेंशन प्रबंधक पर जाएं"
   }
 }

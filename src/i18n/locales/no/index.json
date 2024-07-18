@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Legg til Chrome",
     "install_button__add_to_edge_for_free": "Legg til Edge — Gratis",
     "install_button__add_to_edge_for_free__mini": "Legg til Edge",
-    "extension_detection_alert__title": "Installer MaxAI.me {{BROWSER_AGENT}}-utvidelsen for å fortsette."
+    "extension_detection_alert__title": "Installer MaxAI.me {{BROWSER_AGENT}}-utvidelsen for å fortsette.",
+    "upgrade_alert__title": "Oppdater MaxAI.me-utvidelsen din",
+    "upgrade_alert__desc": "Du trenger den nyeste MaxAI.me-nettleserutvidelsen for å fortsette. Følg disse trinnene for å oppdatere utvidelsen til den nyeste versjonen:",
+    "upgrade_alert__desc__step1": "Besøk nettleserutvidelsesbehandleren din.",
+    "upgrade_alert__desc__step2": "Aktiver utviklermodus.",
+    "upgrade_alert__desc__step3": "Klikk på Oppdater-knappen.",
+    "upgrade_alert__desc__step4": "Oppdater denne siden for å starte søket med AI.",
+    "upgrade_alert__cta_txt": "Besøk nettleserutvidelsesbehandleren"
   }
 }

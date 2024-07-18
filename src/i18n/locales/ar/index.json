@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "أضف إلى Chrome",
     "install_button__add_to_edge_for_free": "أضف إلى Edge - مجانًا",
     "install_button__add_to_edge_for_free__mini": "أضف إلى Edge",
-    "extension_detection_alert__title": "قم بتثبيت تمديد MaxAI.me {{BROWSER_AGENT}} للمتابعة."
+    "extension_detection_alert__title": "قم بتثبيت تمديد MaxAI.me {{BROWSER_AGENT}} للمتابعة.",
+    "upgrade_alert__title": "قم بتحديث امتداد MaxAI.me الخاص بك",
+    "upgrade_alert__desc": "تحتاج إلى أحدث امتداد متصفح MaxAI.me للمتابعة. اتبع هذه الخطوات لتحديث الامتداد الخاص بك إلى الإصدار الأحدث:",
+    "upgrade_alert__desc__step1": "قم بزيارة مدير امتدادات المتصفح الخاص بك.",
+    "upgrade_alert__desc__step2": "قم بتمكين وضع المطور.",
+    "upgrade_alert__desc__step3": "انقر على زر التحديث.",
+    "upgrade_alert__desc__step4": "قم بتحديث هذه الصفحة لبدء البحث باستخدام الذكاء الاصطناعي.",
+    "upgrade_alert__cta_txt": "زيارة مدير امتدادات المتصفح"
   }
 }

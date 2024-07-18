@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Lisää Chromeen",
     "install_button__add_to_edge_for_free": "Lisää Edgeen — Ilmaiseksi",
     "install_button__add_to_edge_for_free__mini": "Lisää Edgeen",
-    "extension_detection_alert__title": "Asenna MaxAI.me {{BROWSER_AGENT}} -laajennus jatkaaksesi."
+    "extension_detection_alert__title": "Asenna MaxAI.me {{BROWSER_AGENT}} -laajennus jatkaaksesi.",
+    "upgrade_alert__title": "Päivitä MaxAI.me -laajennuksesi",
+    "upgrade_alert__desc": "Tarvitset uusimman MaxAI.me -selainlaajennuksen jatkaaksesi. Noudata näitä vaiheita päivittääksesi laajennuksesi uusimpaan versioon:",
+    "upgrade_alert__desc__step1": "Vieraile selaimen laajennushallinnassa.",
+    "upgrade_alert__desc__step2": "Ota käyttöön kehittäjätila.",
+    "upgrade_alert__desc__step3": "Napsauta Päivitä-painiketta.",
+    "upgrade_alert__desc__step4": "Päivitä tämä sivu aloittaaksesi hakemisen tekoälyn avulla.",
+    "upgrade_alert__cta_txt": "Vieraile selaimen laajennushallinnassa"
   }
 }

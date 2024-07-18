@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Zu Chrome hinzufügen",
     "install_button__add_to_edge_for_free": "Zu Edge hinzufügen - Kostenlos",
     "install_button__add_to_edge_for_free__mini": "Zu Edge hinzufügen",
-    "extension_detection_alert__title": "Installieren Sie die MaxAI.me {{BROWSER_AGENT}} Erweiterung, um fortzufahren."
+    "extension_detection_alert__title": "Installieren Sie die MaxAI.me {{BROWSER_AGENT}} Erweiterung, um fortzufahren.",
+    "upgrade_alert__title": "Aktualisieren Sie Ihre MaxAI.me-Erweiterung",
+    "upgrade_alert__desc": "Sie benötigen die neueste MaxAI.me-Browsererweiterung, um fortzufahren. Befolgen Sie diese Schritte, um Ihre Erweiterung auf die neueste Version zu aktualisieren:",
+    "upgrade_alert__desc__step1": "Besuchen Sie Ihren Browser-Erweiterungs-Manager.",
+    "upgrade_alert__desc__step2": "Aktivieren Sie den Entwicklermodus.",
+    "upgrade_alert__desc__step3": "Klicken Sie auf die Schaltfläche 'Aktualisieren'.",
+    "upgrade_alert__desc__step4": "Aktualisieren Sie diese Seite, um mit KI zu suchen.",
+    "upgrade_alert__cta_txt": "Browser-Erweiterungs-Manager besuchen"
   }
 }

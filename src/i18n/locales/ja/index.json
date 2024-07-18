@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Chrome に追加",
     "install_button__add_to_edge_for_free": "Edge に追加 — 無料",
     "install_button__add_to_edge_for_free__mini": "Edge に追加",
-    "extension_detection_alert__title": "続行するには MaxAI.me {{BROWSER_AGENT}} 拡張機能をインストールしてください。"
+    "extension_detection_alert__title": "続行するには MaxAI.me {{BROWSER_AGENT}} 拡張機能をインストールしてください。",
+    "upgrade_alert__title": "MaxAI.me拡張機能を更新",
+    "upgrade_alert__desc": "続行するには最新のMaxAI.meブラウザ拡張機能が必要です。次の手順に従って拡張機能を最新バージョンに更新してください:",
+    "upgrade_alert__desc__step1": "ブラウザ拡張機能マネージャーを訪れます。",
+    "upgrade_alert__desc__step2": "開発者モードを有効にします。",
+    "upgrade_alert__desc__step3": "更新ボタンをクリックします。",
+    "upgrade_alert__desc__step4": "このページを更新してAIで検索を開始します。",
+    "upgrade_alert__cta_txt": "ブラウザ拡張機能マネージャーを訪れる"
   }
 }

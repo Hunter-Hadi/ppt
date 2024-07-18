@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "크롬에 추가",
     "install_button__add_to_edge_for_free": "엣지에 추가 — 무료입니다",
     "install_button__add_to_edge_for_free__mini": "엣지에 추가",
-    "extension_detection_alert__title": "계속하려면 MaxAI.me {{BROWSER_AGENT}} 확장 프로그램을 설치하세요."
+    "extension_detection_alert__title": "계속하려면 MaxAI.me {{BROWSER_AGENT}} 확장 프로그램을 설치하세요.",
+    "upgrade_alert__title": "MaxAI.me 확장 프로그램을 업데이트하세요",
+    "upgrade_alert__desc": "계속하려면 최신 MaxAI.me 브라우저 확장 프로그램이 필요합니다. 최신 버전으로 업데이트하려면 다음 단계를 따르세요:",
+    "upgrade_alert__desc__step1": "브라우저 확장 프로그램 관리자를 방문하세요.",
+    "upgrade_alert__desc__step2": "개발자 모드를 활성화하세요.",
+    "upgrade_alert__desc__step3": "업데이트 버튼을 클릭하세요.",
+    "upgrade_alert__desc__step4": "AI로 검색을 시작하려면 이 페이지를 새로 고침하세요.",
+    "upgrade_alert__cta_txt": "브라우저 확장 프로그램 관리자 방문"
   }
 }

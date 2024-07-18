@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Tambah ke Chrome",
     "install_button__add_to_edge_for_free": "Tambah ke Edge - Percuma",
     "install_button__add_to_edge_for_free__mini": "Tambah ke Edge",
-    "extension_detection_alert__title": "Pasang sambungan MaxAI.me {{BROWSER_AGENT}} untuk meneruskan."
+    "extension_detection_alert__title": "Pasang sambungan MaxAI.me {{BROWSER_AGENT}} untuk meneruskan.",
+    "upgrade_alert__title": "Kemas kini sambungan pelayar MaxAI.me anda",
+    "upgrade_alert__desc": "Anda perlukan sambungan pelayar MaxAI.me terkini untuk teruskan. Ikuti langkah-langkah ini untuk mengemaskini sambungan anda ke versi terkini:",
+    "upgrade_alert__desc__step1": "Lawati Pengurus Sambungan Pelayar Anda.",
+    "upgrade_alert__desc__step2": "Aktifkan Mod Pembangun.",
+    "upgrade_alert__desc__step3": "Klik butang Kemas kini.",
+    "upgrade_alert__desc__step4": "Segarkan halaman ini untuk mula mencari dengan AI.",
+    "upgrade_alert__cta_txt": "Lawati Pengurus Sambungan Pelayar"
   }
 }

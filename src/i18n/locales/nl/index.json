@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Toevoegen aan Chrome",
     "install_button__add_to_edge_for_free": "Toevoegen aan Edge - Gratis",
     "install_button__add_to_edge_for_free__mini": "Toevoegen aan Edge",
-    "extension_detection_alert__title": "Installeer de MaxAI.me {{BROWSER_AGENT}} extensie om door te gaan."
+    "extension_detection_alert__title": "Installeer de MaxAI.me {{BROWSER_AGENT}} extensie om door te gaan.",
+    "upgrade_alert__title": "Werk uw MaxAI.me-extensie bij",
+    "upgrade_alert__desc": "U heeft de nieuwste MaxAI.me-browserextensie nodig om door te gaan. Volg deze stappen om uw extensie bij te werken naar de nieuwste versie:",
+    "upgrade_alert__desc__step1": "Bezoek uw Browserextensiebeheerder.",
+    "upgrade_alert__desc__step2": "Schakel de ontwikkelaarsmodus in.",
+    "upgrade_alert__desc__step3": "Klik op de Update-knop.",
+    "upgrade_alert__desc__step4": "Vernieuw deze pagina om te beginnen met zoeken met AI.",
+    "upgrade_alert__cta_txt": "Bezoek Browserextensiebeheerder"
   }
 }

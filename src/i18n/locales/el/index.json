@@ -1583,6 +1583,13 @@
     "install_button__add_to_chrome_for_free__mini": "Προσθήκη στο Chrome",
     "install_button__add_to_edge_for_free": "Προσθήκη στο Edge - Δωρεάν",
     "install_button__add_to_edge_for_free__mini": "Προσθήκη στο Edge",
-    "extension_detection_alert__title": "Εγκαταστήστε την επέκταση MaxAI.me {{BROWSER_AGENT}} για να συνεχίσετε."
+    "extension_detection_alert__title": "Εγκαταστήστε την επέκταση MaxAI.me {{BROWSER_AGENT}} για να συνεχίσετε.",
+    "upgrade_alert__title": "Ενημερώστε την επέκταση MaxAI.me σας",
+    "upgrade_alert__desc": "Χρειάζεστε την τελευταία επέκταση περιήγησης MaxAI.me για να συνεχίσετε. Ακολουθήστε αυτά τα βήματα για να ενημερώσετε την επέκτασή σας στην τελευταία έκδοση:",
+    "upgrade_alert__desc__step1": "Επισκεφθείτε τον Διαχειριστή Επεκτάσεων του Προγράμματος Περιήγησής σας.",
+    "upgrade_alert__desc__step2": "Ενεργοποιήστε τη λειτουργία Προγραμματιστή.",
+    "upgrade_alert__desc__step3": "Κάντε κλικ στο κουμπί Ενημέρωση.",
+    "upgrade_alert__desc__step4": "Ανανεώστε αυτήν τη σελίδα για να ξεκινήσετε την αναζήτηση με την τεχνητή νοημοσύνη.",
+    "upgrade_alert__cta_txt": "Επισκεφθείτε τον Διαχειριστή Επεκτάσεων του Προγράμματος Περιήγησης"
   }
 }

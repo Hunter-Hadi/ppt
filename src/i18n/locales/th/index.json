@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "เพิ่มไปยัง Chrome",
     "install_button__add_to_edge_for_free": "เพิ่มไปยัง Edge — ฟรี",
     "install_button__add_to_edge_for_free__mini": "เพิ่มไปยัง Edge",
-    "extension_detection_alert__title": "ติดตั้งส่วนขยาย MaxAI.me {{BROWSER_AGENT}} เพื่อดำเนินการต่อ"
+    "extension_detection_alert__title": "ติดตั้งส่วนขยาย MaxAI.me {{BROWSER_AGENT}} เพื่อดำเนินการต่อ",
+    "upgrade_alert__title": "อัปเดตส่วนขยาย MaxAI.me ของคุณ",
+    "upgrade_alert__desc": "คุณต้องการส่วนขยายเบราว์เซอร์ MaxAI.me ล่าสุดเพื่อดำเนินการต่อ ทำตามขั้นตอนเหล่านี้เพื่ออัปเดตส่วนขยายของคุณไปยังเวอร์ชันล่าสุด:",
+    "upgrade_alert__desc__step1": "เข้าชมผู้จัดการส่วนขยายของคุณ",
+    "upgrade_alert__desc__step2": "เปิดโหมดนักพัฒนา",
+    "upgrade_alert__desc__step3": "คลิกที่ปุ่มอัปเดต",
+    "upgrade_alert__desc__step4": "รีเฟรชหน้านี้เพื่อเริ่มการค้นหาด้วย AI",
+    "upgrade_alert__cta_txt": "เข้าชมผู้จัดการส่วนขยายของเบราว์เซอร์"
   }
 }

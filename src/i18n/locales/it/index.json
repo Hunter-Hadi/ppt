@@ -1580,7 +1580,14 @@
     "install_button__add_to_chrome_for_free__mini": "Aggiungi a Chrome",
     "install_button__add_to_edge_for_free": "Aggiungi a Edge - È gratuito",
     "install_button__add_to_edge_for_free__mini": "Aggiungi a Edge",
-    "extension_detection_alert__title": "Installa l'estensione MaxAI.me {{BROWSER_AGENT}} per continuare."
+    "extension_detection_alert__title": "Installa l'estensione MaxAI.me {{BROWSER_AGENT}} per continuare.",
+    "upgrade_alert__title": "Aggiorna l'estensione MaxAI.me",
+    "upgrade_alert__desc": "Hai bisogno dell'ultima estensione del browser MaxAI.me per continuare. Segui questi passaggi per aggiornare l'estensione alla versione più recente:",
+    "upgrade_alert__desc__step1": "Visita il tuo Gestore delle Estensioni del Browser.",
+    "upgrade_alert__desc__step2": "Abilita la Modalità Sviluppatore.",
+    "upgrade_alert__desc__step3": "Clicca sul pulsante Aggiorna.",
+    "upgrade_alert__desc__step4": "Aggiorna questa pagina per iniziare la ricerca con l'AI.",
+    "upgrade_alert__cta_txt": "Visita il Gestore delle Estensioni del Browser"
   },
   "package__nextjs_ui": {
     "language_selector__title": "Scegli il tuo Paese o Regione"

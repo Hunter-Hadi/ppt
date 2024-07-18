@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "添加到 Chrome",
     "install_button__add_to_edge_for_free": "添加到 Edge — 免费",
     "install_button__add_to_edge_for_free__mini": "添加到 Edge",
-    "extension_detection_alert__title": "安装 MaxAI.me {{BROWSER_AGENT}} 扩展以继续。"
+    "extension_detection_alert__title": "安装 MaxAI.me {{BROWSER_AGENT}} 扩展以继续。",
+    "upgrade_alert__title": "更新您的MaxAI.me扩展程序",
+    "upgrade_alert__desc": "您需要最新的MaxAI.me浏览器扩展程序才能继续。按照以下步骤更新您的扩展程序至最新版本：",
+    "upgrade_alert__desc__step1": "访问您的浏览器扩展程序管理器。",
+    "upgrade_alert__desc__step2": "启用开发者模式。",
+    "upgrade_alert__desc__step3": "点击更新按钮。",
+    "upgrade_alert__desc__step4": "刷新此页面以开始使用人工智能搜索。",
+    "upgrade_alert__cta_txt": "访问浏览器扩展程序管理器"
   }
 }

@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Přidat do Chrome",
     "install_button__add_to_edge_for_free": "Přidat do Edge — Zdarma",
     "install_button__add_to_edge_for_free__mini": "Přidat do Edge",
-    "extension_detection_alert__title": "Nainstalujte rozšíření MaxAI.me {{BROWSER_AGENT}} pro pokračování."
+    "extension_detection_alert__title": "Nainstalujte rozšíření MaxAI.me {{BROWSER_AGENT}} pro pokračování.",
+    "upgrade_alert__title": "Aktualizujte svůj prodloužení MaxAI.me",
+    "upgrade_alert__desc": "Potřebujete nejnovější prodloužení prohlížeče MaxAI.me k pokračování. Postupujte podle těchto kroků k aktualizaci vašeho prodloužení na nejnovější verzi:",
+    "upgrade_alert__desc__step1": "Navštivte svůj Správce prodloužení prohlížeče.",
+    "upgrade_alert__desc__step2": "Povolte režim vývojáře.",
+    "upgrade_alert__desc__step3": "Klikněte na tlačítko Aktualizovat.",
+    "upgrade_alert__desc__step4": "Obnovte tuto stránku pro zahájení vyhledávání s pomocí AI.",
+    "upgrade_alert__cta_txt": "Navštívit Správce prodloužení prohlížeče"
   }
 }

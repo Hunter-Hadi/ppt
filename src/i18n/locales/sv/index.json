@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Lägg till i Chrome",
     "install_button__add_to_edge_for_free": "Lägg till i Edge - Det är gratis",
     "install_button__add_to_edge_for_free__mini": "Lägg till i Edge",
-    "extension_detection_alert__title": "Installera MaxAI.me {{BROWSER_AGENT}}-tillägget för att fortsätta."
+    "extension_detection_alert__title": "Installera MaxAI.me {{BROWSER_AGENT}}-tillägget för att fortsätta.",
+    "upgrade_alert__title": "Uppdatera din MaxAI.me-tillägg",
+    "upgrade_alert__desc": "Du behöver den senaste MaxAI.me webbläsartillägget för att fortsätta. Följ dessa steg för att uppdatera ditt tillägg till den senaste versionen:",
+    "upgrade_alert__desc__step1": "Besök din webbläsartilläggschef.",
+    "upgrade_alert__desc__step2": "Aktivera utvecklarläge.",
+    "upgrade_alert__desc__step3": "Klicka på Uppdatera-knappen.",
+    "upgrade_alert__desc__step4": "Uppdatera den här sidan för att börja söka med AI.",
+    "upgrade_alert__cta_txt": "Besök webbläsartilläggschefen"
   }
 }

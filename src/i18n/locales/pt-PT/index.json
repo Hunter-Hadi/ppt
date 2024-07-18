@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Adicionar ao Chrome",
     "install_button__add_to_edge_for_free": "Adicionar ao Edge — É Grátis",
     "install_button__add_to_edge_for_free__mini": "Adicionar ao Edge",
-    "extension_detection_alert__title": "Instale a extensão MaxAI.me {{BROWSER_AGENT}} para continuar."
+    "extension_detection_alert__title": "Instale a extensão MaxAI.me {{BROWSER_AGENT}} para continuar.",
+    "upgrade_alert__title": "Atualize a sua extensão MaxAI.me",
+    "upgrade_alert__desc": "Precisa da última extensão do navegador MaxAI.me para continuar. Siga estes passos para atualizar a sua extensão para a última versão:",
+    "upgrade_alert__desc__step1": "Visite o Gestor de Extensões do Navegador.",
+    "upgrade_alert__desc__step2": "Ative o Modo de Desenvolvedor.",
+    "upgrade_alert__desc__step3": "Clique no botão Atualizar.",
+    "upgrade_alert__desc__step4": "Atualize esta página para começar a pesquisar com IA.",
+    "upgrade_alert__cta_txt": "Visite o Gestor de Extensões do Navegador"
   }
 }

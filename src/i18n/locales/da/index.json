@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Tilføj til Chrome",
     "install_button__add_to_edge_for_free": "Tilføj til Edge - Det er gratis",
     "install_button__add_to_edge_for_free__mini": "Tilføj til Edge",
-    "extension_detection_alert__title": "Installer MaxAI.me {{BROWSER_AGENT}}-udvidelsen for at fortsætte."
+    "extension_detection_alert__title": "Installer MaxAI.me {{BROWSER_AGENT}}-udvidelsen for at fortsætte.",
+    "upgrade_alert__title": "Opdater din MaxAI.me-udvidelse",
+    "upgrade_alert__desc": "Du har brug for den nyeste MaxAI.me-browserudvidelse for at fortsætte. Følg disse trin for at opdatere din udvidelse til den nyeste version:",
+    "upgrade_alert__desc__step1": "Besøg din Browserudvidelsesadministrator.",
+    "upgrade_alert__desc__step2": "Aktivér udviklertilstand.",
+    "upgrade_alert__desc__step3": "Klik på Opdater-knappen.",
+    "upgrade_alert__desc__step4": "Opdater denne side for at begynde at søge med AI.",
+    "upgrade_alert__cta_txt": "Besøg Browserudvidelsesadministrator"
   }
 }

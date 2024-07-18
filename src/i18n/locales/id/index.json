@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Tambahkan ke Chrome",
     "install_button__add_to_edge_for_free": "Tambahkan ke Edge — Gratis",
     "install_button__add_to_edge_for_free__mini": "Tambahkan ke Edge",
-    "extension_detection_alert__title": "Pasang ekstensi MaxAI.me {{BROWSER_AGENT}} untuk melanjutkan."
+    "extension_detection_alert__title": "Pasang ekstensi MaxAI.me {{BROWSER_AGENT}} untuk melanjutkan.",
+    "upgrade_alert__title": "Perbarui ekstensi MaxAI.me Anda",
+    "upgrade_alert__desc": "Anda memerlukan ekstensi browser MaxAI.me terbaru untuk melanjutkan. Ikuti langkah-langkah ini untuk memperbarui ekstensi Anda ke versi terbaru:",
+    "upgrade_alert__desc__step1": "Kunjungi Pengelola Ekstensi Browser Anda.",
+    "upgrade_alert__desc__step2": "Aktifkan Mode Pengembang.",
+    "upgrade_alert__desc__step3": "Klik tombol Perbarui.",
+    "upgrade_alert__desc__step4": "Segarkan halaman ini untuk mulai mencari dengan AI.",
+    "upgrade_alert__cta_txt": "Kunjungi Pengelola Ekstensi Browser"
   }
 }

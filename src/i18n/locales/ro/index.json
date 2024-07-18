@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Adăugați în Chrome",
     "install_button__add_to_edge_for_free": "Adăugați în Edge - Este Gratuit",
     "install_button__add_to_edge_for_free__mini": "Adăugați în Edge",
-    "extension_detection_alert__title": "Instalați extensia MaxAI.me {{BROWSER_AGENT}} pentru a continua."
+    "extension_detection_alert__title": "Instalați extensia MaxAI.me {{BROWSER_AGENT}} pentru a continua.",
+    "upgrade_alert__title": "Actualizați extensia MaxAI.me",
+    "upgrade_alert__desc": "Aveți nevoie de cea mai recentă extensie a browserului MaxAI.me pentru a continua. Urmați acești pași pentru a actualiza extensia la cea mai recentă versiune:",
+    "upgrade_alert__desc__step1": "Vizitați Managerul de extensii al browserului.",
+    "upgrade_alert__desc__step2": "Activați Modul Dezvoltator.",
+    "upgrade_alert__desc__step3": "Faceți clic pe butonul Actualizare.",
+    "upgrade_alert__desc__step4": "Reîmprospătați această pagină pentru a începe căutarea cu AI.",
+    "upgrade_alert__cta_txt": "Vizitați Managerul de extensii al browserului"
   }
 }

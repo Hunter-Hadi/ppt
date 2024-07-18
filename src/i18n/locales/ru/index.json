@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Добавить в Chrome",
     "install_button__add_to_edge_for_free": "Добавить в Edge — Бесплатно",
     "install_button__add_to_edge_for_free__mini": "Добавить в Edge",
-    "extension_detection_alert__title": "Установите расширение MaxAI.me {{BROWSER_AGENT}}, чтобы продолжить."
+    "extension_detection_alert__title": "Установите расширение MaxAI.me {{BROWSER_AGENT}}, чтобы продолжить.",
+    "upgrade_alert__title": "Обновите расширение MaxAI.me",
+    "upgrade_alert__desc": "Вам нужно обновить браузерное расширение MaxAI.me, чтобы продолжить. Выполните эти шаги, чтобы обновить расширение до последней версии:",
+    "upgrade_alert__desc__step1": "Посетите Менеджер расширений браузера.",
+    "upgrade_alert__desc__step2": "Включите режим разработчика.",
+    "upgrade_alert__desc__step3": "Нажмите кнопку Обновить.",
+    "upgrade_alert__desc__step4": "Обновите эту страницу, чтобы начать поиск с помощью искусственного интеллекта.",
+    "upgrade_alert__cta_txt": "Посетите Менеджер расширений браузера"
   }
 }

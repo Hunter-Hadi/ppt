@@ -1584,6 +1584,13 @@
     "install_button__add_to_chrome_for_free__mini": "Chrome'a Ekle",
     "install_button__add_to_edge_for_free": "Edge'e Ekle — Ücretsiz",
     "install_button__add_to_edge_for_free__mini": "Edge'e Ekle",
-    "extension_detection_alert__title": "Devam etmek için MaxAI.me {{BROWSER_AGENT}} uzantısını yükleyin."
+    "extension_detection_alert__title": "Devam etmek için MaxAI.me {{BROWSER_AGENT}} uzantısını yükleyin.",
+    "upgrade_alert__title": "MaxAI.me uzantınızı güncelleyin",
+    "upgrade_alert__desc": "Devam etmek için en son MaxAI.me tarayıcı uzantısına ihtiyacınız var. Uzantınızı en son sürüme güncellemek için şu adımları izleyin:",
+    "upgrade_alert__desc__step1": "Tarayıcı Uzantı Yöneticinizi ziyaret edin.",
+    "upgrade_alert__desc__step2": "Geliştirici Modunu Etkinleştirin.",
+    "upgrade_alert__desc__step3": "Güncelleme düğmesine tıklayın.",
+    "upgrade_alert__desc__step4": "Bu sayfayı yenileyerek yapay zeka ile aramaya başlayın.",
+    "upgrade_alert__cta_txt": "Tarayıcı Uzantı Yöneticisini Ziyaret Edin"
   }
 }
