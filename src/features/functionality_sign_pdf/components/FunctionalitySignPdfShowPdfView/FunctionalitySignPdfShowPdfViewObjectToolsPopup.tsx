@@ -26,7 +26,7 @@ import FunctionalitySignPdfFontsButtonPopover from '../FunctionalitySignPdfButto
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 import FunctionalitySignPdfShowPdfDateFormatsPopover from './FunctionalitySignPdfShowPdfDateFormatsPopover'
 import { IControlDiv } from './FunctionalitySignPdfShowPdfViewRenderCanvas'
-interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
+export interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
   controlDiv: IControlDiv
   scaleFactor: number
   editor: React.MutableRefObject<any | null>

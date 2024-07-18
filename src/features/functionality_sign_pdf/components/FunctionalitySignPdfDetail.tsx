@@ -20,11 +20,12 @@ import { IFabricAddObjectType } from '../utils/fabricjsTools'
 import { pdfAddSignCanvasViewReturnUint8Array } from '../utils/pdfAddSignCanvasView'
 import FunctionalitySignCompleteSignatureInfo from './FunctionalitySignCompleteSignatureInfo'
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationViewMain'
-import FunctionalitySignPdfShowPdfViewObjectToolsPopup from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewObjectToolsPopup'
+import FunctionalitySignPdfShowPdfViewObjectToolsPopup, {
+  IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps,
+} from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewObjectToolsPopup'
 import FunctionalitySignPdfShowPdfViewPdfViewMain, {
   IFunctionalitySignPdfShowPdfViewHandles,
 } from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewPdfViewMain'
-import { IControlDiv } from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewRenderCanvas'
 
 export interface IActiveDragData {
   dragType: 'start' | 'end'
@@ -48,13 +49,7 @@ export type ISignData = {
   data: { type: string; value: string }
 }
 export const TopDetailInfo = createContext<{
-  viewObjectToolsData:
-    | {
-        controlDiv: IControlDiv
-        scaleFactor: number
-        editor: React.MutableRefObject<any | null>
-      }
-    | any
+  viewObjectToolsData: IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null
   setViewObjectToolsData: (data: any) => void
 }>({
   viewObjectToolsData: null,
@@ -67,11 +62,8 @@ export const FunctionalitySignPdfDetail: FC<
 
   const { t } = useTranslation()
   const [saveButtonLoading, setSaveButtonLoading] = useState(false)
-  const [viewObjectToolsData, setViewObjectToolsData] = useState<{
-    controlDiv: IControlDiv
-    scaleFactor: number
-    editor: React.MutableRefObject<any | null>
-  } | null>(null)
+  const [viewObjectToolsData, setViewObjectToolsData] =
+    useState<IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null>(null)
 
   const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
 
