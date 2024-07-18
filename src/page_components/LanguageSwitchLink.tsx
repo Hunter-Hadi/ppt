@@ -6,6 +6,9 @@ import React, { FC, useMemo } from 'react'
 import { objectToQueryString } from '@/features/common/utils/dataHelper/objectHelper'
 import { SUPPORT_PROXY_BASE_PATHS } from '@/global_constants'
 import { removeLocaleInPathname } from '@/i18n/utils'
+import { I18nTypes } from '@/packages/common'
+import toolsCodeMap from '@/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json'
+import { getPdfToolKeyWithLocale } from '@/page_components/PdfToolsPages/utils'
 
 interface IProps extends Omit<MuiLinkProps, 'href'> {
   locale: string
@@ -29,6 +32,20 @@ const LanguageSwitchLink: FC<IProps> = (props) => {
     }
 
     let fixedHref = href ? href : removeLocaleInPathname(router.pathname)
+
+    // 临时处理，pdf-tools 的产品
+    // TODO: 在 “www  项目的 language selector 用 packages 里的” 开始时需要优化掉这段逻辑
+    if (fixedHref.includes(`/${toolsCodeMap.topUrlKey}/`)) {
+      const targetPdfToolKey = getPdfToolKeyWithLocale(
+        router.query.pdfToolKey as string,
+        router.query.locale as I18nTypes,
+        locale,
+      )
+      if (targetPdfToolKey) {
+        fixedHref = fixedHref.replace(`[pdfToolKey]`, targetPdfToolKey)
+        delete queryClone['pdfToolKey']
+      }
+    }
 
     // 排查 fixedHref 有没有 query 中的动态参数
     const queryKeys = Object.keys(queryClone)

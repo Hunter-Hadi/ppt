@@ -11,6 +11,7 @@ const FooterList: FC<{
     icon?: React.ReactNode
     link: string
     target?: React.HTMLAttributeAnchorTarget
+    adaptiveLocale?: boolean
   }[]
 }> = ({ title, data }) => {
   return (
@@ -25,7 +26,7 @@ const FooterList: FC<{
         {title}
       </Typography>
       <Stack spacing={1.5}>
-        {data.map(({ label, icon, link, target }) => (
+        {data.map(({ label, icon, link, target, adaptiveLocale }) => (
           <GaContent
             boxClickAutoSend
             gaEvent={generateGaEvent('click', 'footer_link', {
@@ -54,6 +55,7 @@ const FooterList: FC<{
                 target={target}
                 hardRefresh
                 muiLinkProps={{ title: label ?? '' }}
+                adaptiveLocale={adaptiveLocale}
               >
                 <Typography
                   variant='custom'
