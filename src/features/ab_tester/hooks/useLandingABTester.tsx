@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router'
-import { useTranslation } from 'next-i18next'
 import { useEffect, useMemo, useRef } from 'react'
 import { atom, useRecoilState } from 'recoil'
 
@@ -25,8 +24,6 @@ const LandingABTestVariantKeyAtom = atom({
 })
 
 const useLandingABTester = (autoSendEvent = false) => {
-  const { t } = useTranslation()
-
   const { pathname, isReady, query } = useRouter()
 
   const sendMixpanelOnce = useRef(false)

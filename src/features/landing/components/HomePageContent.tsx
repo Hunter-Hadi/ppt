@@ -10,6 +10,7 @@ import { RESOURCES_URL } from '@/global_constants'
 
 import CallToActionSection from './CallToActionSection'
 import FeaturesContentAbTestV4VariantContent2Section from './FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section'
+import FeaturesContentAbTestV7AutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7AutoVideo'
 import HeroSection from './HeroSection'
 import HowItWork from './HowItWork'
 import MaxAIInNumbers from './MaxAIInNumbers'
@@ -63,7 +64,7 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
             abTestFeaturesType={variantConfig?.featuresType}
           />
         )}
-
+        {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
         {/* maxai in numbers */}
         <MaxAIInNumbers />
 
