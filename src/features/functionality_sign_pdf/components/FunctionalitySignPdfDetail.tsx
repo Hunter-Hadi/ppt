@@ -371,7 +371,10 @@ export const FunctionalitySignPdfDetail: FC<
                 <img
                   style={{
                     maxWidth: isMobile ? '80px' : '200px',
+                    touchAction: 'none',
                   }}
+                  onTouchStart={(e) => e.preventDefault()}
+                  draggable='false'
                   src={activeDragData.value}
                   alt=''
                 />

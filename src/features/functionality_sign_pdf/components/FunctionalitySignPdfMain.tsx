@@ -67,6 +67,9 @@ const FunctionalitySignPdfMain = () => {
     overscroll-behavior-y: none; /* 保持内容不滚动 */
      overscroll-behavior: contain;
     -webkit-overflow-scrolling: auto;
+    -webkit-user-select: none; /* Prevents text selection */
+  -webkit-touch-callout: none; /* Prevents callout menu to appear */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Prevents tap highlight color */
 }
       `}</style>
         )}
