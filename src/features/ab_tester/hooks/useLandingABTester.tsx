@@ -126,24 +126,12 @@ const useLandingABTester = (autoSendEvent = false) => {
       setVariant(randomVariant) //设置当前的abtest的variant
     }
   }, [setVariant, variant, enabled])
-  const featuresContentSort = useMemo(() => {
-    return variant
-      ? LANDING_VARIANT_CONFIG[variant]?.featuresContentSort
-      : undefined
-  }, [variant])
-  const isIndicatorContentTop = useMemo(() => {
-    return variant
-      ? LANDING_VARIANT_CONFIG[variant]?.isIndicatorContentTop
-      : false
-  }, [variant])
   return {
     variant,
     setVariant,
     loaded,
     title,
     description: null,
-    featuresContentSort,
-    isIndicatorContentTop,
   }
 }
 

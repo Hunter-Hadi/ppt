@@ -1,11 +1,11 @@
-import { Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useMemo } from 'react';
+import { Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
-import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
+import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
+import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
 
-import FeaturesCarouselIcons from './FeaturesCarouselIcons';
+import FeaturesCarouselIcons from './FeaturesCarouselIcons'
 
 const FEATURES_CONTENT = [
   {
@@ -36,20 +36,6 @@ const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__reading__description1',
       'pages:home_page__features_content__ab_test_v4__content2__reading__description2',
       'pages:home_page__features_content__ab_test_v4__content2__reading__description3',
-    ],
-  },
-  {
-    key: 'Search assistant',
-    icon: 'search',
-    label:
-      'pages:home_page__features_content__ab_test_v4__content2__search__label',
-    title:
-      'pages:home_page__features_content__ab_test_v4__content2__search__title',
-    image: '/assets/landing/feature-carousel/chat.png',
-    descriptionList: [
-      'pages:home_page__features_content__ab_test_v4__content2__search__description1',
-      'pages:home_page__features_content__ab_test_v4__content2__search__description2',
-      'pages:home_page__features_content__ab_test_v4__content2__search__description3',
     ],
   },
   {
@@ -98,6 +84,20 @@ const FEATURES_CONTENT = [
     ],
   },
   {
+    key: 'Search assistant',
+    icon: 'search',
+    label:
+      'pages:home_page__features_content__ab_test_v4__content2__search__label',
+    title:
+      'pages:home_page__features_content__ab_test_v4__content2__search__title',
+    image: '/assets/landing/feature-carousel/chat.png',
+    descriptionList: [
+      'pages:home_page__features_content__ab_test_v4__content2__search__description1',
+      'pages:home_page__features_content__ab_test_v4__content2__search__description2',
+      'pages:home_page__features_content__ab_test_v4__content2__search__description3',
+    ],
+  },
+  {
     key: 'Translation assistant',
     icon: 'translator',
     label:
@@ -111,6 +111,7 @@ const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__translation__description3',
     ],
   },
+
   {
     key: 'Browser extension',
     icon: 'extension',
@@ -125,29 +126,15 @@ const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__browser__description3',
     ],
   },
-];
-interface IFeaturesContentAbTestV4VariantContent2SectionProps {
-  featuresContentSort?: string[];
-}
+]
+interface IFeaturesContentAbTestV4VariantContent2SectionProps {}
 const FeaturesContentAbTestV4VariantContent2Section: FC<
   IFeaturesContentAbTestV4VariantContent2SectionProps
-> = ({ featuresContentSort }) => {
-  const { t } = useTranslation();
-  const FEATURES_CONTENT_LIST = useMemo(() => {
-    if (featuresContentSort) {
-      return FEATURES_CONTENT.sort((a, b) => {
-        return (
-          featuresContentSort.indexOf(a.key) -
-          featuresContentSort.indexOf(b.key)
-        );
-      });
-    } else {
-      return FEATURES_CONTENT;
-    }
-  }, [featuresContentSort]);
+> = () => {
+  const { t } = useTranslation()
   return (
     <Stack>
-      {FEATURES_CONTENT_LIST.map((featureItem, index) => {
+      {FEATURES_CONTENT.map((featureItem, index) => {
         return (
           <FeaturesContentSection
             key={featureItem.key}
@@ -190,10 +177,10 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
             }
             imageUrl={featureItem.image}
           />
-        );
+        )
       })}
     </Stack>
-  );
-};
+  )
+}
 
-export default FeaturesContentAbTestV4VariantContent2Section;
+export default FeaturesContentAbTestV4VariantContent2Section

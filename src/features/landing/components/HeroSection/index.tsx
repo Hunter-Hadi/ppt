@@ -1,33 +1,31 @@
-import StarIcon from '@mui/icons-material/Star';
-import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useMemo } from 'react';
+import StarIcon from '@mui/icons-material/Star'
+import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useMemo } from 'react'
 
-import CustomIcon from '@/components/CustomIcon';
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge';
+import CustomIcon from '@/components/CustomIcon'
+import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
 import HeroVideoBox, {
   IHeroVideoProps,
-} from '@/features/landing/components/HeroSection/HeroVideoBox';
-import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator';
-import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
-import useBrowserAgent from '@/hooks/useBrowserAgent';
-import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink';
-import CTAInstallButton from '@/page_components/CTAInstallButton';
+} from '@/features/landing/components/HeroSection/HeroVideoBox'
+import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator'
+import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants'
+import useBrowserAgent from '@/hooks/useBrowserAgent'
+import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink'
+import CTAInstallButton from '@/page_components/CTAInstallButton'
 interface IProps {
-  propRef?: string;
-  title?: React.ReactNode;
-  description?: React.ReactNode;
+  propRef?: string
+  title?: React.ReactNode
+  description?: React.ReactNode
 
-  heroVideoProps?: IHeroVideoProps;
+  heroVideoProps?: IHeroVideoProps
 
-  trackerLinkProps?: IUseShareTrackerLinkProps;
+  trackerLinkProps?: IUseShareTrackerLinkProps
 
-  loading?: boolean;
-  sx?: SxProps;
+  loading?: boolean
+  sx?: SxProps
 
   // 临时属性，用于测试
-  // 控制 indicator 是否在顶部，默认底部
-  isIndicatorContentTop?: boolean;
 }
 
 const HeroSection: FC<IProps> = ({
@@ -38,11 +36,10 @@ const HeroSection: FC<IProps> = ({
   trackerLinkProps,
   loading,
   sx,
-  isIndicatorContentTop = false,
 }) => {
-  const { browserAgent: agent } = useBrowserAgent();
+  const { browserAgent: agent } = useBrowserAgent()
 
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   // const { openVideoPopup } = useVideoPopupController();
 
@@ -55,16 +52,16 @@ const HeroSection: FC<IProps> = ({
         <br />
         {t('pages:home_page__hero_section__title__part2')}
       </>
-    );
-  }, [propTitle, t]);
+    )
+  }, [propTitle, t])
 
   const description = useMemo(() => {
     return propDescription ? (
       propDescription
     ) : (
       <>{t('pages:home_page__hero_section__desc__ab_test_v4__variant2')}</>
-    );
-  }, [propDescription, t]);
+    )
+  }, [propDescription, t])
 
   return (
     <Box
@@ -108,14 +105,12 @@ const HeroSection: FC<IProps> = ({
                 },
               ]}
             >
-              {isIndicatorContentTop && (
-                <IndicatorContent
-                  isABTestAddNewAndNewSort={true}
-                  sx={{
-                    mb: 3,
-                  }}
-                />
-              )}
+              <IndicatorContent
+                isABTestAddNewAndNewSort={true}
+                sx={{
+                  mb: 3,
+                }}
+              />
               {loading ? (
                 <TitleSkeleton />
               ) : (
@@ -276,13 +271,6 @@ const HeroSection: FC<IProps> = ({
                   </Typography>
                 </Stack>
               </Stack>
-              {!isIndicatorContentTop && (
-                <IndicatorContent
-                  sx={{
-                    mt: 4,
-                  }}
-                />
-              )}
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
@@ -291,10 +279,10 @@ const HeroSection: FC<IProps> = ({
         </Grid>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default HeroSection;
+export default HeroSection
 
 const TitleSkeleton = () => {
   return (
@@ -308,8 +296,8 @@ const TitleSkeleton = () => {
       <Skeleton height={70} />
       <Skeleton height={70} />
     </Box>
-  );
-};
+  )
+}
 const DescriptionSkeleton = () => {
   return (
     <Box
@@ -321,18 +309,18 @@ const DescriptionSkeleton = () => {
       <Skeleton height={27} />
       <Skeleton height={27} />
     </Box>
-  );
-};
+  )
+}
 
 interface IIndicatorContentProps {
-  sx?: SxProps;
-  isABTestAddNewAndNewSort?: boolean;
+  sx?: SxProps
+  isABTestAddNewAndNewSort?: boolean
 }
 const IndicatorContent: FC<IIndicatorContentProps> = ({
   sx,
   isABTestAddNewAndNewSort = false,
 }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <Stack
       direction={isABTestAddNewAndNewSort ? 'row-reverse' : 'row'}
@@ -435,5 +423,5 @@ const IndicatorContent: FC<IIndicatorContentProps> = ({
         </IndicatorDecorator>
       )}
     </Stack>
-  );
-};
+  )
+}
