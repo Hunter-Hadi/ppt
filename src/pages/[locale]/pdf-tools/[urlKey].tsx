@@ -16,7 +16,7 @@ import {
   getPdfToolKeyWithLocale,
 } from '@/page_components/PdfToolsPages/utils'
 
-const UrlKeyToolsDetail = ({ pdfToolKey: anyLangPdfToolKey }) => {
+const UrlKeyToolsDetail = ({ urlKey: anyLangPdfToolKey }) => {
   const { query } = useRouter()
   const locale = query.locale as I18nTypes
 
@@ -53,8 +53,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       return enPdfToolKeys.map((toolUrlKey) => ({
         params: {
           locale: lang,
-          pdfToolKey:
-            getPdfToolKeyWithLocale(toolUrlKey, 'en', lang) ?? toolUrlKey,
+          urlKey: getPdfToolKeyWithLocale(toolUrlKey, 'en', lang) ?? toolUrlKey,
         },
       }))
     })
@@ -68,7 +67,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       paths.push({
         params: {
           locale: lang,
-          pdfToolKey: enPdfToolKey,
+          urlKey: enPdfToolKey,
         },
       })
     })
@@ -83,13 +82,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context) => {
   const locale = (context?.params?.locale?.toString() || 'en') as I18nTypes
   const translationData = await serverSideTranslations(locale)
-  const { pdfToolKey: anyLangPdfToolKey } = context?.params as ParsedUrlQuery
+  const { urlKey: anyLangPdfToolKey } = context?.params as ParsedUrlQuery
 
   try {
     return {
       props: {
         ...translationData,
-        pdfToolKey: anyLangPdfToolKey,
+        urlKey: anyLangPdfToolKey,
         updatedAt: Date.now(),
       },
     }

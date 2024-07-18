@@ -27,10 +27,10 @@ const usePdfToolsAutoRedirectI18nPathname = (anyLangPdfToolKey: string) => {
         'en',
         locale,
       )
+      // 可能存在 目标语言的 pdfToolKey 就是和 en pdfToolKey 一样的情况
+      // 那就不进行跳转
       if (targetLangPdfToolKey && targetLangPdfToolKey !== enPdfToolKey) {
-        // 可能存在 目标语言的 pdfToolKey 就是和 en pdfToolKey 一样的情况
-        // 那就不进行跳转
-        location.href = `/${locale}/pdf-tools/${targetLangPdfToolKey}`
+        location.href = `/${locale}/pdf-tools/${targetLangPdfToolKey}/${location.search}`
       }
       return
     }
