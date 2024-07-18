@@ -1,22 +1,51 @@
-import { atom, useRecoilState } from 'recoil';
+import { useCallback } from 'react'
+import { atom, useRecoilState } from 'recoil'
 
-const ExtensionDetectionAlertOpenAtom = atom({
-  key: 'ExtensionDetectionAlertOpenAtom',
+const ExtensionInstallAlertOpenAtom = atom({
+  key: 'ExtensionInstallAlertOpenAtom',
   default: false,
-});
+})
+
+const ExtensionUpgradeAlertOpenAtom = atom({
+  key: 'ExtensionUpgradeAlertOpenAtom',
+  default: false,
+})
 
 const useExtensionDetectionAlert = () => {
-  const [open, setOpen] = useRecoilState(ExtensionDetectionAlertOpenAtom);
+  const [installAlertOpen, setInstallAlertOpen] = useRecoilState(
+    ExtensionInstallAlertOpenAtom,
+  )
+  const [upgradeAlertOpen, setUpgradeAlertOpen] = useRecoilState(
+    ExtensionUpgradeAlertOpenAtom,
+  )
 
-  const openExtensionDetectionAlert = () => {
-    setOpen(true);
-  };
+  const openExtensionInstallAlert = useCallback(() => {
+    setInstallAlertOpen(true)
+  }, [])
 
-  const closeExtensionDetectionAlert = () => {
-    setOpen(false);
-  };
+  const closeExtensionInstallAlert = useCallback(() => {
+    setInstallAlertOpen(false)
+  }, [])
 
-  return { open, openExtensionDetectionAlert, closeExtensionDetectionAlert };
-};
+  const openExtensionUpgradeAlert = useCallback(() => {
+    setUpgradeAlertOpen(true)
+  }, [])
 
-export default useExtensionDetectionAlert;
+  const closeExtensionUpgradeAlert = useCallback(() => {
+    setUpgradeAlertOpen(false)
+  }, [])
+
+  return {
+    // 安装插件的 alert
+    installAlertOpen,
+    openExtensionInstallAlert,
+    closeExtensionInstallAlert,
+
+    // 升级插件的 alert
+    upgradeAlertOpen,
+    openExtensionUpgradeAlert,
+    closeExtensionUpgradeAlert,
+  }
+}
+
+export default useExtensionDetectionAlert

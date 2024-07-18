@@ -31,7 +31,8 @@ const TestSyncLogin = () => {
     useConnectMaxAIAccount()
   const { userProfile } = useCommonUserProfile()
   const maxAIExtensionState = useMaxAIExtensionState()
-  const { openExtensionDetectionAlert } = useExtensionDetectionAlert()
+  const { openExtensionInstallAlert, openExtensionUpgradeAlert } =
+    useExtensionDetectionAlert()
 
   const handleLogout = () => {
     authLogout()
@@ -91,8 +92,11 @@ const TestSyncLogin = () => {
           >
             check maxai extension
           </Button>
-          <Button onClick={openExtensionDetectionAlert}>
-            open maxai extension detection Alert
+          <Button onClick={openExtensionInstallAlert}>
+            open maxai extension install Alert
+          </Button>
+          <Button onClick={openExtensionUpgradeAlert}>
+            open maxai extension upgrade Alert
           </Button>
           <MaxAIExtensionWrapper
             feedback={(loading) => {
