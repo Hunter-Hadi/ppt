@@ -24,12 +24,7 @@ interface IProps {
 const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   const { isReady, asPath } = useRouter()
 
-  const {
-    // variant,
-    loaded,
-    title,
-    description,
-  } = useLandingABTester(true)
+  const { variant, loaded, variantConfig } = useLandingABTester(true)
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -48,8 +43,6 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
         <HeroSection
           propRef={propRef}
           // loading={!loaded}
-          title={title}
-          description={description}
           heroVideoProps={{
             videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
             variant: 'autoplay',
@@ -61,7 +54,15 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
         <HowItWork />
 
         {/* feature  */}
-        <FeaturesContentAbTestV4VariantContent2Section />
+        {(variant === '7-1' ||
+          variant === '7-2' ||
+          variant === '7-4' ||
+          !variant) && (
+          <FeaturesContentAbTestV4VariantContent2Section
+            abTestTitleDirection={variantConfig?.titleDirection}
+            abTestFeaturesType={variantConfig?.featuresType}
+          />
+        )}
 
         {/* maxai in numbers */}
         <MaxAIInNumbers />

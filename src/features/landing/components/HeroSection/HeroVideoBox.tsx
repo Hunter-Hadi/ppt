@@ -1,19 +1,22 @@
-import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
-import Box from '@mui/material/Box';
-import Stack from '@mui/material/Stack';
-import React, { FC, useEffect, useMemo, useRef } from 'react';
+import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded'
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import React, { FC, useEffect, useMemo, useRef } from 'react'
 
-import ResponsiveImage from '@/components/ResponsiveImage';
-import { PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants';
-import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
+import ResponsiveImage from '@/components/ResponsiveImage'
+import { useAutoPlayVideo } from '@/features/ab_tester/hooks/useABTestAutoPlayVideo'
+import { PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController'
 
 export interface IHeroVideoProps {
-  disabledVideo?: boolean;
-  videoSrc?: string | null;
-  imageCover?: string;
+  disabledVideo?: boolean
+  videoSrc?: string | null
+  imageCover?: string
 
   // for landing ab test v2
-  variant?: 'autoplay' | 'embed';
+  variant?: 'autoplay' | 'embed'
+  windowAutoPlay?: boolean
+  videoStyle?: React.CSSProperties
 }
 
 const HeroVideoBox: FC<IHeroVideoProps> = ({
@@ -21,39 +24,41 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
   videoSrc = PRIMARY_VIDEO_ASSETS_URL,
   imageCover = '/assets/landing/hero-section/video-cover.png',
   variant = 'autoplay',
+  windowAutoPlay = false,
+  videoStyle,
 }) => {
-  const { openVideoPopup } = useVideoPopupController();
-  const videoRef = useRef<HTMLVideoElement | null>(null);
-
+  const { openVideoPopup } = useVideoPopupController()
+  const videoRef = useRef<HTMLVideoElement | null>(null)
+  useAutoPlayVideo(videoRef, windowAutoPlay)
   const disabledVideo = useMemo(() => {
     if (propDisabledVideo) {
-      return true;
+      return true
     } else {
-      return !videoSrc;
+      return !videoSrc
     }
-  }, [propDisabledVideo, videoSrc]);
+  }, [propDisabledVideo, videoSrc])
 
   useEffect(() => {
-    const video = videoRef.current;
+    const video = videoRef.current
 
     if (!video) {
-      return;
+      return
     }
 
     const handleEnded = () => {
-      video.currentTime = 0;
-      video.play();
-    };
+      video.currentTime = 0
+      video.play()
+    }
 
-    video.addEventListener('ended', handleEnded);
+    video.addEventListener('ended', handleEnded)
 
     return () => {
-      video.removeEventListener('ended', handleEnded);
-    };
-  }, []);
+      video.removeEventListener('ended', handleEnded)
+    }
+  }, [])
 
   if (disabledVideo) {
-    return null;
+    return null
   }
 
   if (variant === 'autoplay' && videoSrc) {
@@ -92,6 +97,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
               backgroundColor: 'rgba(0, 0, 0, 0)',
               objectPosition: '50% 50%',
               boxShadow: 'rgba(10, 0, 31, 0.1) 0px 1px 24px 4px',
+              ...videoStyle,
               // opacity: videoLoaded ? 1 : 0,
             }}
           >
@@ -100,7 +106,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
           </video>
         </Box>
       </Stack>
-    );
+    )
   }
 
   return (
@@ -121,7 +127,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
         }}
         onClick={() => {
           if (!disabledVideo && videoSrc) {
-            openVideoPopup(videoSrc, true);
+            openVideoPopup(videoSrc, true)
           }
         }}
       >
@@ -154,7 +160,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
         )}
       </Box>
     </Stack>
-  );
-};
+  )
+}
 
-export default HeroVideoBox;
+export default HeroVideoBox

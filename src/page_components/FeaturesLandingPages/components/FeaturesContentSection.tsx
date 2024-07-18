@@ -9,6 +9,7 @@ import React, { FC, useMemo } from 'react'
 
 import ResponsiveImage from '@/components/ResponsiveImage'
 import useBrowserAgent from '@/features/common/hooks/useBrowserAgent'
+import HeroVideoBox from '@/features/landing/components/HeroSection/HeroVideoBox'
 import CTAInstallButton from '@/page_components/CTAInstallButton'
 import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons'
 import PictureRetouchingIcon, {
@@ -20,21 +21,26 @@ interface IProps {
   title: string
   description: React.ReactNode
   imageUrl: string
+  videoUrl?: string
 
   textWithImageLayout?: 'textToImage' | 'imageToText'
 
   pictureRetouchingDirection?: false | IPictureRetouchingProps['direction']
 
   showCtaInstallButton?: boolean
+
+  abTestTitleDirection?: 'row' | 'supersede' | 'top' | 'left' | 'rightRegular'
 }
 const FeaturesContentSection: FC<IProps> = ({
   icon,
   title,
   description,
   imageUrl,
+  videoUrl,
   textWithImageLayout = 'textToImage',
   pictureRetouchingDirection = false,
   showCtaInstallButton = false,
+  abTestTitleDirection,
 }) => {
   const { t } = useTranslation()
   const theme = useTheme()
@@ -43,11 +49,11 @@ const FeaturesContentSection: FC<IProps> = ({
   const { browserAgent } = useBrowserAgent()
 
   const textBoxOrder = useMemo(() => {
-    if (isDownSm) {
+    if (isDownSm || abTestTitleDirection === 'top') {
       return 1
     }
     return textWithImageLayout === 'textToImage' ? 1 : 2
-  }, [textWithImageLayout, isDownSm])
+  }, [textWithImageLayout, isDownSm, abTestTitleDirection])
 
   const imageBoxOrder = useMemo(() => {
     if (isDownSm) {
@@ -55,7 +61,23 @@ const FeaturesContentSection: FC<IProps> = ({
     }
     return textWithImageLayout === 'textToImage' ? 2 : 1
   }, [textWithImageLayout, isDownSm])
+  const flexDirection = useMemo(() => {
+    if (abTestTitleDirection === 'supersede') {
+      return 'row-reverse'
+    }
+    if (abTestTitleDirection === 'top') {
+      return 'column'
+    }
 
+    return 'row'
+  }, [abTestTitleDirection])
+  const flexDirectionSmNumber = useMemo(() => {
+    if (abTestTitleDirection === 'top') {
+      return 12
+    }
+
+    return 6
+  }, [abTestTitleDirection])
   return (
     <Box
       py={{
@@ -63,9 +85,19 @@ const FeaturesContentSection: FC<IProps> = ({
         md: 9,
       }}
     >
-      <Box maxWidth={1312} mx='auto' px={4}>
-        <Grid container alignItems='center' spacing={12}>
-          <Grid item xs={12} sm={6} order={textBoxOrder}>
+      <Box
+        maxWidth={abTestTitleDirection === 'top' ? 1000 : 1312}
+        mx='auto'
+        px={4}
+      >
+        <Grid
+          container
+          alignItems='center'
+          flexDirection={flexDirection}
+          spacing={abTestTitleDirection === 'top' ? 0 : 12}
+          gap={abTestTitleDirection === 'top' ? 6 : 0}
+        >
+          <Grid item xs={12} sm={flexDirectionSmNumber} order={textBoxOrder}>
             <Stack height={'100%'} justifyContent='center'>
               {typeof icon === 'string' ? (
                 <Box
@@ -87,9 +119,10 @@ const FeaturesContentSection: FC<IProps> = ({
               <Typography
                 component='h2'
                 variant='custom'
-                fontSize={32}
+                fontSize={abTestTitleDirection === 'top' ? 30 : 32}
+                textAlign={abTestTitleDirection === 'top' ? 'center' : 'start'}
                 fontWeight={700}
-                mt={2}
+                mt={abTestTitleDirection === 'top' ? 1 : 2}
               >
                 {title}
               </Typography>
@@ -138,16 +171,41 @@ const FeaturesContentSection: FC<IProps> = ({
           <Grid
             item
             xs={12}
-            sm={6}
+            sm={flexDirectionSmNumber}
             order={imageBoxOrder}
-            sx={{ position: 'relative' }}
+            sx={{
+              position: 'relative',
+              width: abTestTitleDirection === 'top' ? '100%' : 'auto',
+            }}
           >
-            <ResponsiveImage
-              src={imageUrl}
-              alt={title}
-              width={1168}
-              height={864}
-            />
+            {imageUrl && !videoUrl && (
+              <ResponsiveImage
+                src={imageUrl}
+                alt={title}
+                width={1168}
+                height={864}
+                style={
+                  abTestTitleDirection === 'top'
+                    ? {
+                        maxHeight: 560,
+                      }
+                    : undefined
+                }
+              />
+            )}
+            {videoUrl && (
+              <Box>
+                <HeroVideoBox
+                  imageCover={imageUrl}
+                  videoSrc={videoUrl}
+                  windowAutoPlay={true}
+                  videoStyle={{
+                    boxShadow: 'none',
+                    maxHeight: 560,
+                  }}
+                />
+              </Box>
+            )}
             {pictureRetouchingDirection && (
               <PictureRetouchingIcon direction={pictureRetouchingDirection} />
             )}
