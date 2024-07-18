@@ -19,16 +19,17 @@ import MaxAIExtensionInstallButton, {
 import { useMaxAITranslation } from '@/packages/common'
 
 interface IAppBarProps {
-  hidden?: boolean
-  onHeightChange?: (height: number) => void
-  maxWidth?: number | string
-  MenuListComponents?: React.ReactNode
-  CtaContentComponents?: React.ReactNode
-  CtaInstallButtonProps?: IMaxAIExtensionInstallButtonProps
-  hiddenSignInButton?: boolean
-  hiddenAvatar?: boolean
-  AvatarProps?: IAuthAvatarProps
-  AppLogoProps?: IAppLogoProps
+  hidden?: boolean // 隐藏 AppBar
+  onHeightChange?: (height: number) => void // 当 AppBar 高度变化时触发
+  maxWidth?: number | string // 最大宽度 默认值 1312
+  MenuListComponents?: React.ReactNode // 菜单列表组件插槽
+  CtaContentComponents?: React.ReactNode // 最右侧 CTAButton 内容组件插槽，如果传入 null 则不显示，不传则显示默认的 CTAButton 组件
+  CtaInstallButtonProps?: IMaxAIExtensionInstallButtonProps //默认的 CTAButton 组件 Props
+  hiddenSignInButton?: boolean // 隐藏登录按钮
+  hiddenAvatar?: boolean // 隐藏头像
+  AvatarProps?: IAuthAvatarProps // 头像组件 Props
+  AppLogoProps?: IAppLogoProps // AppLogo 组件 Props
+  BeforeLogoComponents?: React.ReactNode // logo 左侧的组件插槽
 }
 
 const AppBar: FC<IAppBarProps> = ({
@@ -42,6 +43,7 @@ const AppBar: FC<IAppBarProps> = ({
   AvatarProps,
   AppLogoProps,
   onHeightChange,
+  BeforeLogoComponents,
 }) => {
   const { t } = useMaxAITranslation()
   const headerRef = React.useRef<HTMLDivElement>(null)
@@ -148,6 +150,7 @@ const AppBar: FC<IAppBarProps> = ({
           },
         }}
       >
+        {BeforeLogoComponents}
         <AppLogo
           {...AppLogoProps}
           sx={{
