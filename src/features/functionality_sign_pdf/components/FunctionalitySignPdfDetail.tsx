@@ -10,7 +10,7 @@ import {
 } from '@dnd-kit/core'
 import { Box, Button, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
-import { FC, useEffect, useRef, useState } from 'react'
+import { createContext, FC, useEffect, useRef, useState } from 'react'
 import React from 'react'
 import { v4 as uuidV4 } from 'uuid'
 
@@ -20,9 +20,11 @@ import { IFabricAddObjectType } from '../utils/fabricjsTools'
 import { pdfAddSignCanvasViewReturnUint8Array } from '../utils/pdfAddSignCanvasView'
 import FunctionalitySignCompleteSignatureInfo from './FunctionalitySignCompleteSignatureInfo'
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationViewMain'
+import FunctionalitySignPdfShowPdfViewObjectToolsPopup from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewObjectToolsPopup'
 import FunctionalitySignPdfShowPdfViewPdfViewMain, {
   IFunctionalitySignPdfShowPdfViewHandles,
 } from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewPdfViewMain'
+import { IControlDiv } from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewRenderCanvas'
 
 export interface IActiveDragData {
   dragType: 'start' | 'end'
@@ -45,7 +47,19 @@ export type ISignData = {
   id: string
   data: { type: string; value: string }
 }
-
+export const TopDetailInfo = createContext<{
+  viewObjectToolsData:
+    | {
+        controlDiv: IControlDiv
+        scaleFactor: number
+        editor: React.MutableRefObject<any | null>
+      }
+    | any
+  setViewObjectToolsData: (data: any) => void
+}>({
+  viewObjectToolsData: null,
+  setViewObjectToolsData: () => {},
+})
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file, onClearReturn }) => {
@@ -53,6 +67,12 @@ export const FunctionalitySignPdfDetail: FC<
 
   const { t } = useTranslation()
   const [saveButtonLoading, setSaveButtonLoading] = useState(false)
+  const [viewObjectToolsData, setViewObjectToolsData] = useState<{
+    controlDiv: IControlDiv
+    scaleFactor: number
+    editor: React.MutableRefObject<any | null>
+  } | null>(null)
+
   const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
 
   const dndDragRef = useRef<HTMLElement | null>(null)
@@ -201,198 +221,216 @@ export const FunctionalitySignPdfDetail: FC<
     setSignNumber(signNumber)
   }
   return (
-    <DndContext
-      sensors={sensors}
-      onDragStart={onDragStart}
-      onDragEnd={handleDragEnd}
-      onDragCancel={() => setActiveDragData(undefined)}
+    <TopDetailInfo.Provider
+      value={{ viewObjectToolsData, setViewObjectToolsData }}
     >
-      <Stack
-        className='DndContext-wrap'
-        direction={
-          isMobile ? (downloadUint8Array ? 'column' : 'column-reverse') : 'row'
-        }
-        sx={{
-          width: '100%',
-          height: isMobile ? '100%' : overallViewHeight,
-        }}
+      <DndContext
+        sensors={sensors}
+        onDragStart={onDragStart}
+        onDragEnd={handleDragEnd}
+        onDragCancel={() => setActiveDragData(undefined)}
       >
-        {!downloadUint8Array && isMobile && (
-          <Box
-            sx={{
-              borderTop: '1px solid #e8e8e8',
-              padding: 1,
-            }}
-          >
-            <Button
-              variant='contained'
-              onClick={onPdfAddViewSave}
-              sx={{ width: '100%' }}
-              size='large'
-              disabled={saveButtonLoading || signNumber === 0}
-            >
-              {t(
-                'functionality__sign_pdf:components__sign_pdf__detail__finish',
-              )}
-            </Button>
-          </Box>
-        )}
-        {/* pdf显示视图 */}
-        <Box
-          ref={dndDragRef}
+        <Stack
+          className='DndContext-wrap'
+          direction={
+            isMobile
+              ? downloadUint8Array
+                ? 'column'
+                : 'column-reverse'
+              : 'row'
+          }
           sx={{
-            flex: isMobile ? 'none' : 1,
-            backgroundColor: '#fafafa',
-            border: '1px solid #e8e8e8',
-            overflow: 'hidden',
-            height: !isMobile ? '100%' : overallViewHeight,
-            position: 'relative',
+            width: '100%',
+            height: isMobile ? '100%' : overallViewHeight,
+            img: {
+              userSelect: 'none',
+            },
           }}
         >
-          <FunctionalitySignPdfShowPdfViewPdfViewMain
-            file={file}
-            ref={showPdfHandlesRef}
-            isShowBottomOperation={!downloadUint8Array}
-            onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
-          />
-          {downloadUint8Array && (
+          {!downloadUint8Array && isMobile && (
             <Box
               sx={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                right: 10,
-                bottom: 0,
-                zIndex: 100,
-                ' .functionality-sign-pdf-scroll-pagination': {
-                  display: 'none',
-                },
+                borderTop: '1px solid #e8e8e8',
+                padding: 1,
               }}
-            ></Box>
+            >
+              <Button
+                variant='contained'
+                onClick={onPdfAddViewSave}
+                sx={{ width: '100%' }}
+                size='large'
+                disabled={saveButtonLoading || signNumber === 0}
+              >
+                {t(
+                  'functionality__sign_pdf:components__sign_pdf__detail__finish',
+                )}
+              </Button>
+            </Box>
           )}
-        </Box>
-        {/* 签名/下载操作视图 */}
-        <Stack
-          direction='column'
-          justifyContent='space-between'
-          sx={{
-            width: isMobile ? '100%' : 260,
-            border: isMobile ? 'none' : '1px solid #e8e8e8',
-            borderLeft: 'none',
-          }}
-        >
-          {!downloadUint8Array && (
-            <React.Fragment>
+          {/* pdf显示视图 */}
+          <Box
+            ref={dndDragRef}
+            sx={{
+              flex: isMobile ? 'none' : 1,
+              backgroundColor: '#fafafa',
+              border: '1px solid #e8e8e8',
+              overflow: 'hidden',
+              height: !isMobile ? '100%' : overallViewHeight,
+              position: 'relative',
+            }}
+          >
+            <FunctionalitySignPdfShowPdfViewPdfViewMain
+              file={file}
+              ref={showPdfHandlesRef}
+              isShowBottomOperation={!downloadUint8Array}
+              onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
+            />
+            {downloadUint8Array && (
               <Box
                 sx={{
-                  py: 1,
-                  px: isMobile ? 0 : 1,
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 10,
+                  bottom: 0,
+                  zIndex: 100,
+                  ' .functionality-sign-pdf-scroll-pagination': {
+                    display: 'none',
+                  },
                 }}
-              >
-                <FunctionalitySignPdfOperationView
-                  activeDragData={activeDragData}
-                  onClickAdd={onClickAdd}
-                />
-              </Box>
-              {!isMobile && (
+              ></Box>
+            )}
+          </Box>
+          {/* 签名/下载操作视图 */}
+          <Stack
+            direction='column'
+            justifyContent='space-between'
+            sx={{
+              width: isMobile ? '100%' : 260,
+              border: isMobile ? 'none' : '1px solid #e8e8e8',
+              borderLeft: 'none',
+            }}
+          >
+            {!downloadUint8Array && !viewObjectToolsData && (
+              <React.Fragment>
                 <Box
                   sx={{
-                    borderTop: '1px solid #e8e8e8',
-                    padding: 1,
+                    py: 1,
+                    px: isMobile ? 0 : 1,
                   }}
                 >
-                  <Button
-                    variant='contained'
-                    onClick={onPdfAddViewSave}
-                    sx={{ width: '100%' }}
-                    size='large'
-                    disabled={saveButtonLoading || signNumber === 0}
-                  >
-                    {t(
-                      'functionality__sign_pdf:components__sign_pdf__detail__finish',
-                    )}
-                  </Button>
+                  <FunctionalitySignPdfOperationView
+                    activeDragData={activeDragData}
+                    onClickAdd={onClickAdd}
+                  />
                 </Box>
-              )}
-            </React.Fragment>
-          )}
-          {downloadUint8Array && (
-            <FunctionalitySignCompleteSignatureInfo
-              fileName={file.name}
-              onClearReturn={onClearReturn}
-              downloadUint8Array={downloadUint8Array}
-            />
-          )}
-        </Stack>
-      </Stack>
-      {/* 下面是拖动替身 */}
-      {activeDragData && activeDragData.dragType === 'start' && (
-        <DragOverlay
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            cursor: 'grabbing',
-            justifyContent: 'center',
-          }}
-        >
-          {activeDragData &&
-            activeDragData.type === 'image' &&
-            activeDragData.value && (
-              <img
-                style={{
-                  maxWidth: isMobile ? '80px' : '200px',
-                }}
-                src={activeDragData.value}
-                alt=''
+                {!isMobile && (
+                  <Box
+                    sx={{
+                      borderTop: '1px solid #e8e8e8',
+                      padding: 1,
+                    }}
+                  >
+                    <Button
+                      variant='contained'
+                      onClick={onPdfAddViewSave}
+                      sx={{ width: '100%' }}
+                      size='large'
+                      disabled={saveButtonLoading || signNumber === 0}
+                    >
+                      {t(
+                        'functionality__sign_pdf:components__sign_pdf__detail__finish',
+                      )}
+                    </Button>
+                  </Box>
+                )}
+              </React.Fragment>
+            )}
+            {downloadUint8Array && (
+              <FunctionalitySignCompleteSignatureInfo
+                fileName={file.name}
+                onClearReturn={onClearReturn}
+                downloadUint8Array={downloadUint8Array}
               />
             )}
-          {activeDragData &&
-            activeDragData.type === 'image' &&
-            !activeDragData.value && (
-              <Box
-                sx={{
-                  padding: 1,
-                  backgroundColor: '#9065b0a3',
-                  borderRadius: 2,
-                  width: isMobile ? 80 : 'auto',
-                }}
-              >
+            {viewObjectToolsData && viewObjectToolsData.controlDiv && (
+              <FunctionalitySignPdfShowPdfViewObjectToolsPopup
+                controlDiv={viewObjectToolsData.controlDiv}
+                scaleFactor={viewObjectToolsData.scaleFactor}
+                editor={viewObjectToolsData.editor}
+              />
+            )}
+          </Stack>
+        </Stack>
+        {/* 下面是拖动替身 */}
+        {activeDragData && activeDragData.dragType === 'start' && (
+          <DragOverlay
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              cursor: 'grabbing',
+              justifyContent: 'center',
+            }}
+          >
+            {activeDragData &&
+              activeDragData.type === 'image' &&
+              activeDragData.value && (
+                <img
+                  style={{
+                    maxWidth: isMobile ? '80px' : '200px',
+                  }}
+                  src={activeDragData.value}
+                  alt=''
+                />
+              )}
+            {activeDragData &&
+              activeDragData.type === 'image' &&
+              !activeDragData.value && (
+                <Box
+                  sx={{
+                    padding: 1,
+                    backgroundColor: '#9065b0a3',
+                    borderRadius: 2,
+                    width: isMobile ? 80 : 'auto',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: isMobile ? 15 : 20,
+                        lg: isMobile ? 15 : 20,
+                      },
+                    }}
+                  >
+                    {t(
+                      'functionality__sign_pdf:components__sign_pdf__detail__empty_sign',
+                    )}
+                  </Typography>
+                </Box>
+              )}
+            {activeDragData &&
+              (activeDragData.type === 'text' ||
+                activeDragData.type === 'i-text' ||
+                activeDragData.type === 'text-box') && (
                 <Typography
                   sx={{
                     fontSize: {
-                      xs: isMobile ? 15 : 20,
-                      lg: isMobile ? 15 : 20,
+                      xs: isMobile ? 10 : 20,
+                      lg: isMobile ? 10 : 30,
                     },
                   }}
                 >
-                  {t(
-                    'functionality__sign_pdf:components__sign_pdf__detail__empty_sign',
-                  )}
+                  {activeDragData.value ||
+                    t(
+                      'functionality__sign_pdf:components__sign_pdf__detail__empty_text',
+                    )}
                 </Typography>
-              </Box>
-            )}
-          {activeDragData &&
-            (activeDragData.type === 'text' ||
-              activeDragData.type === 'i-text' ||
-              activeDragData.type === 'text-box') && (
-              <Typography
-                sx={{
-                  fontSize: {
-                    xs: isMobile ? 10 : 20,
-                    lg: isMobile ? 10 : 30,
-                  },
-                }}
-              >
-                {activeDragData.value ||
-                  t(
-                    'functionality__sign_pdf:components__sign_pdf__detail__empty_text',
-                  )}
-              </Typography>
-            )}
-        </DragOverlay>
-      )}
-    </DndContext>
+              )}
+          </DragOverlay>
+        )}
+      </DndContext>
+    </TopDetailInfo.Provider>
   )
 }
 export default FunctionalitySignPdfDetail

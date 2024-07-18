@@ -47,39 +47,10 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
   const [applicationKeys, setApplicationKeys] = useState<{
     [key in string]: boolean
   }>({})
-  useEffect(() => {
-    if (isMobile) {
-      const topOperationView = document.getElementById(
-        'functionality-sign-pdf-operation-view-main',
-      )
-      if (topOperationView) {
-        topOperationView.style.opacity = '0'
-      }
-
-      return () => {
-        if (topOperationView) {
-          topOperationView.style.opacity = '1'
-        }
-      }
-    }
-  }, [])
   const activeObject = useMemo(
     () => editor.current?.getActiveObject(),
     [editor.current],
   )
-  const topOperationData = useMemo(() => {
-    const topOperationView = document.getElementById(
-      'functionality-sign-pdf-operation-view-main',
-    )
-    if (isMobile) {
-      if (topOperationView) {
-        return {
-          top: topOperationView.getBoundingClientRect().top,
-          left: topOperationView.getBoundingClientRect().left,
-        }
-      }
-    }
-  }, [isMobile])
   const onChangeColor = (color) => {
     if (editor.current) {
       onChangeFabricColor(editor.current, color)
@@ -208,12 +179,13 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
     <Stack
       className='functionality-sign-pdf-object-tools-popup'
       sx={{
-        position: 'fixed',
+        position: isMobile ? 'unset' : 'fixed',
+        mb: isMobile ? 1 : 0,
         left: isMobile
-          ? topOperationData?.left
+          ? undefined
           : controlDiv.left * scaleFactor + controlDiv.windowLeft,
         top: isMobile
-          ? topOperationData?.top
+          ? undefined
           : controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
         button: {
           padding: isMobile ? '5px 3px!important' : '5px 8px!important',
@@ -225,8 +197,8 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
         variant='outlined'
         sx={{
           borderRadius: 2,
-          bgcolor: '#fafafa',
-          height: isMobile ? 52 : 40,
+          bgcolor: isMobile ? '#fff' : '#fafafa',
+          height: isMobile ? 60 : 40,
         }}
       >
         {isEditingText && (

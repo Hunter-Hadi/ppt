@@ -5,6 +5,7 @@ import { without } from 'lodash-es'
 import React, {
   forwardRef,
   ForwardRefRenderFunction,
+  useContext,
   useEffect,
   useImperativeHandle,
   useRef,
@@ -19,6 +20,7 @@ import {
   onFabricAddObject,
 } from '../../utils/fabricjsTools'
 import { fabricMobileMove } from '../../utils/fabricMobileMove'
+import { TopDetailInfo } from '../FunctionalitySignPdfDetail'
 import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalitySignPdfShowPdfViewAddToolsPopup'
 import FunctionalitySignPdfShowPdfViewObjectToolsPopup from './FunctionalitySignPdfShowPdfViewObjectToolsPopup'
 export interface IControlDiv {
@@ -74,7 +76,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   handleRef,
 ) => {
   const isMobile = useFunctionalityCommonIsMobile()
-
+  const TopDetailInfoContext = useContext(TopDetailInfo)
   const canvasEl = useRef<HTMLCanvasElement>(null)
   const editor = useRef<fabric.Canvas | null>(null)
   const [selectLength, setSelectLength] = useState<number>(0)
@@ -95,6 +97,17 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     undefined,
   ) // 当前选中对象信息
   const deleteObjectKey = useRef<string[]>([])
+  useEffect(() => {
+    if (isMobile && controlDiv) {
+      TopDetailInfoContext.setViewObjectToolsData({
+        controlDiv: controlDiv,
+        scaleFactor: scaleFactor,
+        editor: editor,
+      })
+    } else {
+      TopDetailInfoContext.setViewObjectToolsData(null)
+    }
+  }, [controlDiv, scaleFactor, editor.current, isMobile])
   useEffect(() => {
     onChangeObjectNumber && onChangeObjectNumber(objectIdList.length)
   }, [objectIdList])
@@ -593,7 +606,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       getCanvasBase64,
       onAddObject: onAddObject,
     }),
-    [editor.current, scaleFactor],
+    [editor.current, scaleFactor, controlDiv, scaleFactor],
   )
   //关闭弹窗
   const onCloseAddToolsPopup = () => {
@@ -634,16 +647,19 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           />
         </Box>
       )}
-      {!isMobile && selectLength === 0 && controlAddNewDiv && (
-        <Box onMouseDown={handlePopupClick}>
-          <FunctionalitySignPdfShowPdfViewAddToolsPopup
-            controlDivPosition={controlAddNewDiv}
-            scaleFactor={scaleFactor}
-            editor={editor}
-            onClose={onCloseAddToolsPopup}
-          />
-        </Box>
-      )}
+      {!isMobile &&
+        selectLength === 0 &&
+        controlAddNewDiv &&
+        editor.current && (
+          <Box onMouseDown={handlePopupClick}>
+            <FunctionalitySignPdfShowPdfViewAddToolsPopup
+              controlDivPosition={controlAddNewDiv}
+              scaleFactor={scaleFactor}
+              editor={editor}
+              onClose={onCloseAddToolsPopup}
+            />
+          </Box>
+        )}
     </Box>
   )
 }
