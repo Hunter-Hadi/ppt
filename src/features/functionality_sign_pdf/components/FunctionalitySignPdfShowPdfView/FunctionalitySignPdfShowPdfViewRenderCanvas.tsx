@@ -127,7 +127,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         topWrapRef.current &&
         !topWrapRef.current.contains(event.target) &&
         !event.target.closest('.functionality-sign-pdf-object-tools-popup') &&
-        !event.target.closest('.MuiPopover-paper')
+        !event.target.closest('.MuiPopover-paper') &&
+        !event.target.closest('.functionality-sign-pdf-save-view') //不知道为什么，这个点击事件触发两次才有效，所以加了这个
       ) {
         // 点击发生在Box组件外部
         console.log('simply click outside')

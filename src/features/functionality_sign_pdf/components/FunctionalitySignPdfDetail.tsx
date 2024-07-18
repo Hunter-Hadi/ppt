@@ -241,6 +241,7 @@ export const FunctionalitySignPdfDetail: FC<
         >
           {!downloadUint8Array && isMobile && (
             <Box
+              className='functionality-sign-pdf-save-view'
               sx={{
                 borderTop: '1px solid #e8e8e8',
                 padding: 1,
