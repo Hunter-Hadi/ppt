@@ -141,7 +141,7 @@ const FeaturesContentSection: FC<IProps> = ({
               <Typography
                 component='h2'
                 variant='custom'
-                fontSize={32}
+                fontSize={abTestTitleDirection === 'top' ? 40 : 32}
                 textAlign={abTestTitleDirection === 'top' ? 'center' : 'start'}
                 fontWeight={700}
                 mt={abTestTitleDirection === 'top' ? 1 : 2}
@@ -197,7 +197,20 @@ const FeaturesContentSection: FC<IProps> = ({
             order={imageBoxOrder}
             sx={{
               position: 'relative',
-              width: abTestTitleDirection === 'top' ? '100%' : 'auto',
+              width: 'auto',
+              ...(abTestTitleDirection === 'top' && videoUrl
+                ? {
+                    bgcolor: '#f9f5ff',
+                    padding: '16px',
+                    borderRadius: '16px',
+                    width: '100%',
+                  }
+                : {}),
+              ...(abTestTitleDirection === 'top' && !videoUrl
+                ? {
+                    width: '100%',
+                  }
+                : {}),
             }}
           >
             {imageUrl && !videoUrl && (

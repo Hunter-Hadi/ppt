@@ -27,20 +27,17 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
               <Stack
                 direction={'row'}
                 alignItems='center'
-                justifyContent={
-                  abTestTitleDirection === 'top' ? 'center' : 'flex-start'
-                }
-                spacing={abTestTitleDirection === 'top' ? 0.5 : 1.5}
+                justifyContent={'flex-start'}
+                spacing={1.5}
               >
                 <FeaturesCarouselIcons
                   icon={featureItem.icon}
-                  size={abTestTitleDirection === 'top' ? 32 : undefined}
                   sx={{
                     borderRadius: '50%',
                   }}
                 />
                 <Typography
-                  fontSize={abTestTitleDirection === 'top' ? 16 : 20}
+                  fontSize={20}
                   variant='custom'
                   color='text.primary'
                   fontWeight={600}
@@ -51,20 +48,14 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
             }
             title={t(featureItem.title)}
             description={
-              <Stack
-                spacing={0.5}
-                mt={abTestTitleDirection === 'top' ? 1 : 2}
-                alignItems={
-                  abTestTitleDirection === 'top' ? 'center' : 'flex-start'
-                }
-              >
+              <Stack spacing={0.5} mt={2} alignItems={'flex-start'}>
                 {featureItem.descriptionList.map((description) => (
                   <FeaturesTextWithMarker
                     key={description}
-                    marker={abTestTitleDirection !== 'top'}
+                    marker
                     variant='custom'
-                    fontSize={abTestTitleDirection === 'top' ? 16 : 18}
-                    lineHeight={abTestTitleDirection === 'top' ? 1.2 : 1.5}
+                    fontSize={18}
+                    lineHeight={1.5}
                   >
                     {t(description)}
                   </FeaturesTextWithMarker>
