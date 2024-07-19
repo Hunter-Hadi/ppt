@@ -49,7 +49,11 @@ const FeaturesContentSection: FC<IProps> = ({
   const { browserAgent } = useBrowserAgent()
 
   const textBoxOrder = useMemo(() => {
-    if (isDownSm || abTestTitleDirection === 'top') {
+    if (
+      isDownSm ||
+      abTestTitleDirection === 'top' ||
+      abTestTitleDirection === 'left'
+    ) {
       return 1
     }
     return textWithImageLayout === 'textToImage' ? 1 : 2
@@ -68,7 +72,9 @@ const FeaturesContentSection: FC<IProps> = ({
     if (abTestTitleDirection === 'top') {
       return 'column'
     }
-
+    if (abTestTitleDirection === 'left') {
+      return 'row'
+    }
     return 'row'
   }, [abTestTitleDirection])
   const flexDirectionSmNumber = useMemo(() => {
@@ -89,16 +95,29 @@ const FeaturesContentSection: FC<IProps> = ({
         maxWidth={abTestTitleDirection === 'top' ? 1000 : 1312}
         mx='auto'
         px={4}
+        sx={{
+          bgcolor: abTestTitleDirection === 'left' ? '#f9f7fe' : 'transparent',
+        }}
       >
         <Grid
           container
           alignItems='center'
           flexDirection={flexDirection}
-          spacing={abTestTitleDirection === 'top' ? 0 : 12}
+          spacing={
+            abTestTitleDirection === 'top' || abTestTitleDirection === 'left'
+              ? 0
+              : 12
+          }
           gap={abTestTitleDirection === 'top' ? 6 : 0}
         >
           <Grid item xs={12} sm={flexDirectionSmNumber} order={textBoxOrder}>
-            <Stack height={'100%'} justifyContent='center'>
+            <Stack
+              height={'100%'}
+              justifyContent='center'
+              sx={{
+                p: abTestTitleDirection === 'left' ? '5rem' : 0,
+              }}
+            >
               {typeof icon === 'string' ? (
                 <Box
                   sx={{

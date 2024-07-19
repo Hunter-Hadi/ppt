@@ -10,7 +10,8 @@ import { RESOURCES_URL } from '@/global_constants'
 
 import CallToActionSection from './CallToActionSection'
 import FeaturesContentAbTestV4VariantContent2Section from './FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section'
-import FeaturesContentAbTestV7AutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7AutoVideo'
+import FeaturesContentAbTestV7CardAutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7CardAutoVideo'
+import FeaturesContentAbTestV7AutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import HeroSection from './HeroSection'
 import HowItWork from './HowItWork'
 import MaxAIInNumbers from './MaxAIInNumbers'
@@ -65,6 +66,8 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
           />
         )}
         {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
+        {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
+
         {/* maxai in numbers */}
         <MaxAIInNumbers />
 
