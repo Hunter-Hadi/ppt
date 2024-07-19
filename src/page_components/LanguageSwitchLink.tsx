@@ -37,13 +37,13 @@ const LanguageSwitchLink: FC<IProps> = (props) => {
     // TODO: 在 “www  项目的 language selector 用 packages 里的” 开始时需要优化掉这段逻辑
     if (fixedHref.includes(`/${toolsCodeMap.topUrlKey}/`)) {
       const targetPdfToolKey = getPdfToolKeyWithLocale(
-        router.query.pdfToolKey as string,
+        router.query.urlKey as string,
         router.query.locale as I18nTypes,
         locale,
       )
       if (targetPdfToolKey) {
-        fixedHref = fixedHref.replace(`[pdfToolKey]`, targetPdfToolKey)
-        delete queryClone['pdfToolKey']
+        fixedHref = fixedHref.replace(`[urlKey]`, targetPdfToolKey)
+        delete queryClone['urlKey']
       }
     }
 
