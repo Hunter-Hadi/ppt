@@ -63,6 +63,7 @@ const FeaturesContentAbTestV7VariantContentSection = () => {
                   <Typography
                     fontSize='16px'
                     variant='custom'
+                    fontWeight={600}
                     color={featureItem.tagColor}
                   >
                     {t(featureItem.label)}
@@ -84,7 +85,7 @@ const FeaturesContentAbTestV7VariantContentSection = () => {
                       key={description}
                       marker={false}
                       variant='custom'
-                      fontSize={16}
+                      fontSize={18}
                       lineHeight={1.5}
                     >
                       {t(description)}

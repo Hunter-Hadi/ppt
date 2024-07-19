@@ -95,7 +95,7 @@ const FeaturesContentSection: FC<IProps> = ({
   const titleFontSize = useMemo(() => {
     if (abTestTitleDirection === 'top') {
       return {
-        xs: 28,
+        xs: 32,
         md: 40,
       }
     }
