@@ -9,6 +9,7 @@ import React, { FC, useMemo } from 'react'
 
 import ResponsiveImage from '@/components/ResponsiveImage'
 import useBrowserAgent from '@/features/common/hooks/useBrowserAgent'
+import HeroVideoBox from '@/features/landing/components/HeroSection/HeroVideoBox'
 import CTAInstallButton from '@/page_components/CTAInstallButton'
 import FeaturesLandingIcons from '@/page_components/FeaturesLandingPages/components/FeaturesLandingIcons'
 import PictureRetouchingIcon, {
@@ -20,21 +21,28 @@ interface IProps {
   title: string
   description: React.ReactNode
   imageUrl: string
+  videoUrl?: string
+  videoPosterUrl?: string
 
   textWithImageLayout?: 'textToImage' | 'imageToText'
 
   pictureRetouchingDirection?: false | IPictureRetouchingProps['direction']
 
   showCtaInstallButton?: boolean
+
+  abTestTitleDirection?: 'row' | 'supersede' | 'top' | 'left' | 'rightRegular'
 }
 const FeaturesContentSection: FC<IProps> = ({
   icon,
   title,
   description,
   imageUrl,
+  videoUrl,
   textWithImageLayout = 'textToImage',
   pictureRetouchingDirection = false,
   showCtaInstallButton = false,
+  abTestTitleDirection,
+  videoPosterUrl,
 }) => {
   const { t } = useTranslation()
   const theme = useTheme()
@@ -43,11 +51,15 @@ const FeaturesContentSection: FC<IProps> = ({
   const { browserAgent } = useBrowserAgent()
 
   const textBoxOrder = useMemo(() => {
-    if (isDownSm) {
+    if (
+      isDownSm ||
+      abTestTitleDirection === 'top' ||
+      abTestTitleDirection === 'left'
+    ) {
       return 1
     }
     return textWithImageLayout === 'textToImage' ? 1 : 2
-  }, [textWithImageLayout, isDownSm])
+  }, [textWithImageLayout, isDownSm, abTestTitleDirection])
 
   const imageBoxOrder = useMemo(() => {
     if (isDownSm) {
@@ -55,7 +67,43 @@ const FeaturesContentSection: FC<IProps> = ({
     }
     return textWithImageLayout === 'textToImage' ? 2 : 1
   }, [textWithImageLayout, isDownSm])
+  const flexDirection = useMemo(() => {
+    if (abTestTitleDirection === 'top') {
+      return 'column'
+    }
+    if (abTestTitleDirection === 'left') {
+      return 'row'
+    }
+    return 'row'
+  }, [abTestTitleDirection])
+  const flexDirectionSmNumber = useMemo(() => {
+    if (abTestTitleDirection === 'top') {
+      return 12
+    }
 
+    return 6
+  }, [abTestTitleDirection])
+  const gridSpacing = useMemo(() => {
+    if (abTestTitleDirection === 'top' || abTestTitleDirection === 'left') {
+      return 0
+    }
+    if (abTestTitleDirection === 'supersede') {
+      return { xs: 4, md: 6, lg: 12 }
+    }
+    return 12
+  }, [abTestTitleDirection])
+  const titleFontSize = useMemo(() => {
+    if (abTestTitleDirection === 'top') {
+      return {
+        xs: 32,
+        md: 40,
+      }
+    }
+    return {
+      xs: 28,
+      md: 32,
+    }
+  }, [])
   return (
     <Box
       py={{
@@ -63,10 +111,47 @@ const FeaturesContentSection: FC<IProps> = ({
         md: 9,
       }}
     >
-      <Box maxWidth={1312} mx='auto' px={4}>
-        <Grid container alignItems='center' spacing={12}>
-          <Grid item xs={12} sm={6} order={textBoxOrder}>
-            <Stack height={'100%'} justifyContent='center'>
+      <Box
+        maxWidth={abTestTitleDirection === 'top' ? 1000 : 1312}
+        mx='auto'
+        px={
+          abTestTitleDirection === 'left'
+            ? 0
+            : {
+                xs: 2,
+                md: 4,
+              }
+        }
+        sx={{
+          bgcolor: abTestTitleDirection === 'left' ? '#F9FAFB' : 'transparent',
+          borderRadius: 4,
+        }}
+      >
+        <Grid
+          container
+          alignItems={
+            abTestTitleDirection === 'top'
+              ? {
+                  xs: 'start',
+                  md: 'center',
+                }
+              : 'center'
+          }
+          flexDirection={flexDirection}
+          spacing={gridSpacing}
+          gap={abTestTitleDirection === 'top' ? 6 : 0}
+        >
+          <Grid item xs={12} sm={flexDirectionSmNumber} order={textBoxOrder}>
+            <Stack
+              height={'100%'}
+              justifyContent='center'
+              sx={{
+                p: {
+                  xs: abTestTitleDirection === 'left' ? '1rem' : 0,
+                  md: abTestTitleDirection === 'left' ? '5rem' : 0,
+                },
+              }}
+            >
               {typeof icon === 'string' ? (
                 <Box
                   sx={{
@@ -87,9 +172,17 @@ const FeaturesContentSection: FC<IProps> = ({
               <Typography
                 component='h2'
                 variant='custom'
-                fontSize={32}
+                fontSize={titleFontSize}
+                textAlign={
+                  abTestTitleDirection === 'top'
+                    ? {
+                        xs: 'start',
+                        md: 'center',
+                      }
+                    : 'start'
+                }
                 fontWeight={700}
-                mt={2}
+                mt={abTestTitleDirection === 'top' ? 1 : 2}
               >
                 {title}
               </Typography>
@@ -138,16 +231,45 @@ const FeaturesContentSection: FC<IProps> = ({
           <Grid
             item
             xs={12}
-            sm={6}
+            sm={flexDirectionSmNumber}
             order={imageBoxOrder}
-            sx={{ position: 'relative' }}
+            sx={{
+              position: 'relative',
+              width: 'auto',
+              ...(abTestTitleDirection === 'top' && videoUrl
+                ? {
+                    bgcolor: '#f9f5ff',
+                    padding: '16px',
+                    borderRadius: '16px',
+                    width: '100%',
+                  }
+                : {}),
+              ...(abTestTitleDirection === 'top' && !videoUrl
+                ? {
+                    width: '100%',
+                  }
+                : {}),
+            }}
           >
-            <ResponsiveImage
-              src={imageUrl}
-              alt={title}
-              width={1168}
-              height={864}
-            />
+            {imageUrl && !videoUrl && (
+              <ResponsiveImage
+                src={imageUrl}
+                alt={title}
+                width={abTestTitleDirection === 'top' ? 1000 : 1168}
+                height={abTestTitleDirection === 'top' ? 740 : 864}
+              />
+            )}
+            {videoUrl && (
+              <HeroVideoBox
+                videoPosterUrl={videoPosterUrl}
+                videoSrc={videoUrl}
+                windowAutoPlay={true}
+                videoStyle={{
+                  boxShadow: 'none',
+                  maxHeight: 560,
+                }}
+              />
+            )}
             {pictureRetouchingDirection && (
               <PictureRetouchingIcon direction={pictureRetouchingDirection} />
             )}

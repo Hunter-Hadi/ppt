@@ -1,6 +1,4 @@
 import { useRouter } from 'next/router'
-import { useTranslation } from 'next-i18next'
-import React from 'react'
 import { useEffect, useMemo, useRef } from 'react'
 import { atom, useRecoilState } from 'recoil'
 
@@ -26,8 +24,6 @@ const LandingABTestVariantKeyAtom = atom({
 })
 
 const useLandingABTester = (autoSendEvent = false) => {
-  const { t } = useTranslation()
-
   const { pathname, isReady, query } = useRouter()
 
   const sendMixpanelOnce = useRef(false)
@@ -96,27 +92,6 @@ const useLandingABTester = (autoSendEvent = false) => {
     query,
   ])
 
-  const title = useMemo<React.ReactNode>(() => {
-    if (!enabled || !variant) {
-      return null
-    }
-    if (
-      LANDING_VARIANT_CONFIG[variant] &&
-      LANDING_VARIANT_CONFIG[variant].titleMain &&
-      LANDING_VARIANT_CONFIG[variant].titleSecondary
-    ) {
-      return (
-        <>
-          {t(LANDING_VARIANT_CONFIG[variant].titleMain as string)}
-          <br />
-          {t(LANDING_VARIANT_CONFIG[variant].titleSecondary as string)}
-        </>
-      )
-    }
-
-    return null
-  }, [variant, t, enabled])
-
   useEffect(() => {
     if (!variant && enabled) {
       const keys = Object.keys(LANDING_VARIANT_CONFIG) as ILandingVariantType[]
@@ -126,24 +101,17 @@ const useLandingABTester = (autoSendEvent = false) => {
       setVariant(randomVariant) //设置当前的abtest的variant
     }
   }, [setVariant, variant, enabled])
-  const featuresContentSort = useMemo(() => {
-    return variant
-      ? LANDING_VARIANT_CONFIG[variant]?.featuresContentSort
-      : undefined
-  }, [variant])
-  const isIndicatorContentTop = useMemo(() => {
-    return variant
-      ? LANDING_VARIANT_CONFIG[variant]?.isIndicatorContentTop
-      : false
+  const variantConfig = useMemo(() => {
+    if (variant) {
+      return LANDING_VARIANT_CONFIG[variant]
+    }
+    return null
   }, [variant])
   return {
     variant,
     setVariant,
     loaded,
-    title,
-    description: null,
-    featuresContentSort,
-    isIndicatorContentTop,
+    variantConfig,
   }
 }
 

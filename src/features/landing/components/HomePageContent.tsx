@@ -5,11 +5,15 @@ import React from 'react'
 import { FC, useEffect } from 'react'
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import { LANDING_VARIANT_TO_VERSION_MAP } from '@/features/ab_tester/constant/landingVariant'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import { RESOURCES_URL } from '@/global_constants'
 
 import CallToActionSection from './CallToActionSection'
 import FeaturesContentAbTestV4VariantContent2Section from './FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section'
+import FeaturesContentAbTestV7CardAutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7CardAutoVideo'
+import FeaturesContentAbTestV7AutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
+import FeaturesContentAbTestV7VariantContentSection from './FeaturesCarousel/FeaturesContentAbTestV7VariantContentSection'
 import HeroSection from './HeroSection'
 import HowItWork from './HowItWork'
 import MaxAIInNumbers from './MaxAIInNumbers'
@@ -24,14 +28,7 @@ interface IProps {
 const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   const { isReady, asPath } = useRouter()
 
-  const {
-    // variant,
-    loaded,
-    title,
-    description,
-    featuresContentSort,
-    isIndicatorContentTop,
-  } = useLandingABTester(true)
+  const { variant, loaded, variantConfig } = useLandingABTester(true)
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -50,9 +47,6 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
         <HeroSection
           propRef={propRef}
           // loading={!loaded}
-          title={title}
-          description={description}
-          isIndicatorContentTop={isIndicatorContentTop}
           heroVideoProps={{
             videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
             variant: 'autoplay',
@@ -64,9 +58,20 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
         <HowItWork />
 
         {/* feature  */}
-        <FeaturesContentAbTestV4VariantContent2Section
-          featuresContentSort={featuresContentSort}
-        />
+        {(variant === '7-1' ||
+          variant === '7-2' ||
+          !variant ||
+          !LANDING_VARIANT_TO_VERSION_MAP[variant]) && (
+          <FeaturesContentAbTestV4VariantContent2Section
+            abTestTitleDirection={variantConfig?.titleDirection}
+            abTestFeaturesType={variantConfig?.featuresType}
+          />
+        )}
+
+        {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
+        {variant === '7-4' && <FeaturesContentAbTestV7VariantContentSection />}
+
+        {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
 
         {/* maxai in numbers */}
         <MaxAIInNumbers />

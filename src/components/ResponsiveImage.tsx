@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import PropTypes from 'prop-types';
-import React from 'react';
+import Image from 'next/image'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 const ResponsiveImage = ({ src, alt, width, height, ...rest }) => (
   <div
@@ -12,12 +12,12 @@ const ResponsiveImage = ({ src, alt, width, height, ...rest }) => (
   >
     <Image src={src} alt={alt} fill {...rest} />
   </div>
-);
+)
 
 ResponsiveImage.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
   width: PropTypes.number.isRequired,
   height: PropTypes.number.isRequired,
-};
-export default ResponsiveImage;
+}
+export default ResponsiveImage

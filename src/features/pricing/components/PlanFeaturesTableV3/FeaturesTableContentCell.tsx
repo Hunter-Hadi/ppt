@@ -1,42 +1,42 @@
-import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
-import HorizontalRuleOutlinedIcon from '@mui/icons-material/HorizontalRuleOutlined';
-import PlayCircleOutlinedIcon from '@mui/icons-material/PlayCircleOutlined';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
-import { SxProps } from '@mui/material/styles';
-import SvgIcon from '@mui/material/SvgIcon';
-import Tooltip from '@mui/material/Tooltip';
-import Typography from '@mui/material/Typography';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useMemo } from 'react';
+import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined'
+import HorizontalRuleOutlinedIcon from '@mui/icons-material/HorizontalRuleOutlined'
+import PlayCircleOutlinedIcon from '@mui/icons-material/PlayCircleOutlined'
+import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
+import Stack from '@mui/material/Stack'
+import { SxProps } from '@mui/material/styles'
+import SvgIcon from '@mui/material/SvgIcon'
+import Tooltip from '@mui/material/Tooltip'
+import Typography from '@mui/material/Typography'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useMemo } from 'react'
 
-import LazyLoadImage from '@/features/common/components/LazyLoadImage';
-import { IWithMuiSxProps } from '@/features/common/types';
-import { FeaturesIcons } from '@/features/pricing/components/FeaturesIcons';
-import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
+import LazyLoadImage from '@/features/common/components/LazyLoadImage'
+import { IWithMuiSxProps } from '@/features/common/types'
+import { FeaturesIcons } from '@/features/pricing/components/FeaturesIcons'
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController'
 
 import {
   IFeatureColumnType,
   IFeaturesCellDataType,
   IFeaturesRowType,
-} from './type';
+} from './type'
 interface IProps {
-  columnType: IFeatureColumnType;
-  data: IFeaturesCellDataType | null;
+  columnType: IFeatureColumnType
+  data: IFeaturesCellDataType | null
 
-  isPopular?: boolean;
-  sx?: SxProps;
+  isPopular?: boolean
+  sx?: SxProps
 
-  iconSize?: number;
-  isDeepen?: boolean;
+  iconSize?: number
+  isDeepen?: boolean
 
-  isFirstColumn: boolean;
-  isLastColumn: boolean;
-  isFirstRow: boolean;
-  isLastRow: boolean;
+  isFirstColumn: boolean
+  isLastColumn: boolean
+  isFirstRow: boolean
+  isLastRow: boolean
 
-  rowType?: IFeaturesRowType;
+  rowType?: IFeaturesRowType
 }
 
 const FeaturesTableContentCell: FC<IProps> = ({
@@ -54,12 +54,12 @@ const FeaturesTableContentCell: FC<IProps> = ({
   isDeepen,
   rowType,
 }) => {
-  const { openVideoPopup } = useVideoPopupController();
-  const { t } = useTranslation();
+  const { openVideoPopup } = useVideoPopupController()
+  const { t } = useTranslation()
 
   const renderCellData = () => {
-    const fontSize = rowType === 'secondary' ? 14 : 16;
-    const color = rowType === 'secondary' ? 'text.secondary' : 'text.primary';
+    const fontSize = rowType === 'secondary' ? 14 : 16
+    const color = rowType === 'secondary' ? 'text.secondary' : 'text.primary'
     if (!data) {
       return (
         <Box
@@ -67,7 +67,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
             boxSizing: 'border-box',
           }}
         />
-      );
+      )
     }
 
     if (data.status) {
@@ -187,7 +187,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
             </Stack>
           ) : null}
         </Stack>
-      );
+      )
     }
 
     if (data.categoryTitle) {
@@ -208,6 +208,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
           }}
         >
           <Typography
+            component='h2'
             variant='custom'
             fontSize={20}
             lineHeight={1.4}
@@ -217,11 +218,11 @@ const FeaturesTableContentCell: FC<IProps> = ({
             {t(data.categoryTitle)}
           </Typography>
         </Stack>
-      );
+      )
     }
 
     if (data.title) {
-      const tooltipMaxWidth = data.tooltip?.imageLink ? 432 : 300;
+      const tooltipMaxWidth = data.tooltip?.imageLink ? 432 : 300
       return (
         <Stack
           key={data.title}
@@ -296,7 +297,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
                         }}
                         onClick={() => {
                           data.tooltip?.videoUrl &&
-                            openVideoPopup(data.tooltip.videoUrl);
+                            openVideoPopup(data.tooltip.videoUrl)
                         }}
                       >
                         {t('pricing:features__tooltips__play_video')}
@@ -351,7 +352,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
                   cursor: 'pointer',
                 }}
                 onClick={() => {
-                  data.video?.link && openVideoPopup(data.video.link);
+                  data.video?.link && openVideoPopup(data.video.link)
                 }}
               >
                 <PlayCircleOutlinedIcon
@@ -383,12 +384,12 @@ const FeaturesTableContentCell: FC<IProps> = ({
             </Typography>
           )}
         </Stack>
-      );
+      )
     }
-  };
+  }
 
   const sxMemo = useMemo(() => {
-    const borderColor = isPopular ? 'primary.main' : 'customColor.borderColor';
+    const borderColor = isPopular ? 'primary.main' : 'customColor.borderColor'
     let resultSx: SxProps = {
       boxSizing: 'border-box',
       borderColor: 'transparent',
@@ -403,7 +404,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
       borderRadius: 0,
 
       ...sx,
-    };
+    }
 
     // 没有数据渲染 空白内容，页不需要边框
     if (!data) {
@@ -411,7 +412,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
         ...resultSx,
         borderRightColor: 'transparent',
         borderLeftColor: 'transparent',
-      };
+      }
     }
 
     // 第一列 需要左边框
@@ -419,7 +420,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
       resultSx = {
         ...resultSx,
         borderLeftColor: borderColor,
-      };
+      }
     }
 
     // 最后一行 需要下边框
@@ -428,7 +429,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
         ...resultSx,
         borderBottomColor: borderColor,
         borderBottomWidth: 1,
-      };
+      }
     }
 
     // 最后一列 需要右边框
@@ -436,7 +437,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
       resultSx = {
         ...resultSx,
         borderRightColor: borderColor,
-      };
+      }
     }
 
     // 有数据渲染的情况下 需要左边框
@@ -444,7 +445,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
       resultSx = {
         ...resultSx,
         borderLeftColor: borderColor,
-      };
+      }
     }
 
     // 促销列 需要左右边框
@@ -454,17 +455,17 @@ const FeaturesTableContentCell: FC<IProps> = ({
         borderLeftColor: borderColor,
         borderRightColor: borderColor,
         // borderRightWidth: 1,
-      };
+      }
     }
 
     if (isDeepen && isPopular) {
       resultSx = {
         ...resultSx,
         bgcolor: '#9E77ED14',
-      };
+      }
     }
 
-    return resultSx;
+    return resultSx
   }, [
     isFirstColumn,
     isLastColumn,
@@ -475,12 +476,12 @@ const FeaturesTableContentCell: FC<IProps> = ({
     sx,
     columnType,
     isDeepen,
-  ]);
+  ])
 
-  return <Box sx={sxMemo}>{renderCellData()}</Box>;
-};
+  return <Box sx={sxMemo}>{renderCellData()}</Box>
+}
 
-export default FeaturesTableContentCell;
+export default FeaturesTableContentCell
 
 const TooltipIcon = () => {
   return (
@@ -509,8 +510,8 @@ const TooltipIcon = () => {
         </clipPath>
       </defs>
     </svg>
-  );
-};
+  )
+}
 
 const LimitColorIcon: FC<IWithMuiSxProps> = ({ sx }) => (
   <SvgIcon sx={sx}>
@@ -544,7 +545,7 @@ const LimitColorIcon: FC<IWithMuiSxProps> = ({ sx }) => (
       </g>
     </svg>
   </SvgIcon>
-);
+)
 
 const CheckedColorIcon: FC<IWithMuiSxProps> = ({ sx }) => (
   <SvgIcon sx={sx}>
@@ -570,7 +571,7 @@ const CheckedColorIcon: FC<IWithMuiSxProps> = ({ sx }) => (
       </g>
     </svg>
   </SvgIcon>
-);
+)
 const NoneColorIcon: FC<IWithMuiSxProps> = ({ sx }) => (
   <SvgIcon sx={sx}>
     <svg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -595,4 +596,4 @@ const NoneColorIcon: FC<IWithMuiSxProps> = ({ sx }) => (
       </g>
     </svg>
   </SvgIcon>
-);
+)

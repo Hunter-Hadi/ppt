@@ -143,7 +143,6 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
   return (
     <Stack spacing={1} sx={sx}>
       <Typography
-        component='h2'
         variant='custom'
         sx={{
           ...fontSx.title,

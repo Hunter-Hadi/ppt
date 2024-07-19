@@ -1,78 +1,75 @@
-import { getFeaturesContentSearchPosition } from '../utils';
+import { RESOURCES_URL } from '@/global_constants'
 
 export type ILandingVariantType = //当前abtest的landing variant
-  '6-1' | '6-2' | '6-3' | '6-4' | '6-5' | '6-6' | '6-7' | '6-8';
+  '7-1' | '7-2' | '7-3' | '7-4' | '7-5'
 
 export const TESTER_LANDING_PATH_TARGET_PATHNAME = [
   '/',
   '/partners/updated',
   '/partners/installed',
   '/partners/uninstalled',
-]; //开启路径，进入页面触发abtest进入通知，和语言跳转
+] //开启路径，进入页面触发abtest进入通知，和语言跳转
 
-export const TEST_LANDING_COOKIE_NAME = 'maxai-lpv-v6'; //abtest的版本名称
+export const TEST_LANDING_COOKIE_NAME = 'maxai-lpv-v7' //abtest的版本名称
 
 export const COMMON_LANDING_CONFIG = {
   isIndicatorContentTop: false,
-}; //公共LANDING的配置
+} //公共LANDING的配置
 
 interface LANDING_VARIANT_CONFIG {
-  titleMain?: string; //标题
-  titleSecondary?: string; //副标题
-  featuresContentSort: string[]; //特性内容排序
-  isIndicatorContentTop: boolean; //是否指示器(徽章)内容在顶部
+  featuresType: 'image' | 'video'
+  titleDirection: 'supersede' | 'left' | 'rightRegular' | 'top'
 } //都是临时的，因为下一版可能会有不同变化，所以这里是临时的配置，不需要太规范
 export const LANDING_VARIANT_CONFIG: {
-  [key in ILandingVariantType]: LANDING_VARIANT_CONFIG;
+  [key in ILandingVariantType]: LANDING_VARIANT_CONFIG
 } = {
-  '6-1': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(3),
+  '7-1': {
+    featuresType: 'image',
+    titleDirection: 'supersede', //左右交替
   },
-  '6-2': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(1),
+  '7-2': {
+    featuresType: 'video',
+    titleDirection: 'supersede', //左右交替
   },
-  '6-3': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(6),
+  '7-3': {
+    featuresType: 'video',
+    titleDirection: 'rightRegular', //右边固定
   },
-  '6-4': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(7),
+  '7-4': {
+    featuresType: 'video',
+    titleDirection: 'top', //上面固定
   },
-  '6-5': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(3),
-    isIndicatorContentTop: true,
+  '7-5': {
+    featuresType: 'video',
+    titleDirection: 'left', //左边固定
   },
-  '6-6': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(1),
-    isIndicatorContentTop: true,
-  },
-  '6-7': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(6),
-    isIndicatorContentTop: true,
-  },
-  '6-8': {
-    ...COMMON_LANDING_CONFIG,
-    featuresContentSort: getFeaturesContentSearchPosition(7),
-    isIndicatorContentTop: true,
-  },
-}; //abtest的版本
+} //abtest的版本
 
 export const LANDING_VARIANT_TO_VERSION_MAP: Record<
   ILandingVariantType,
   string
 > = {
-  '6-1': '6-1',
-  '6-2': '6-2',
-  '6-3': '6-3',
-  '6-4': '6-4',
-  '6-5': '6-5',
-  '6-6': '6-6',
-  '6-7': '6-7',
-  '6-8': '6-8',
-}; //abtest的版本对应的后端版本号,通知后端，以及开发时选择的版本号
+  '7-1': '7-1',
+  '7-2': '7-2',
+  '7-3': '7-3',
+  '7-4': '7-4',
+  '7-5': '7-5',
+} //abtest的版本对应的后端版本号,通知后端，以及开发时选择的版本号
+export const abTestVideoUrlObject = {
+  draftingAssistant: `${RESOURCES_URL}/video/features/drafting-assistant.mp4`,
+  emailAssistant: `${RESOURCES_URL}/video/features/email-assistant.mp4`,
+  readingAssistant: `${RESOURCES_URL}/video/features/reading-assistant.mp4`,
+  searchAssistant: `${RESOURCES_URL}/video/features/search-assistant.mp4`,
+  summaryAssistant: `${RESOURCES_URL}/video/features/summary-assistant.mp4`,
+  translationAssistant: `${RESOURCES_URL}/video/features/translation-assistant.mp4`,
+  writingAssistant: `${RESOURCES_URL}/video/features/writing-assistant.mp4`,
+}
+export const abTestVideoPosterUrlObject = {
+  draftingAssistant: `/assets/features-landing/video-features/prompt.png`,
+  emailAssistant: `/assets/features-landing/video-features/email.png`,
+  readingAssistant: `/assets/features-landing/video-features/chat.png`,
+  searchAssistant: `/assets/features-landing/video-features/search.png`,
+  summaryAssistant: `/assets/features-landing/video-features/summary.png`,
+  translationAssistant: `/assets/features-landing/video-features/translator.png`,
+  writingAssistant: `/assets/features-landing/video-features/rewriter.png`,
+}
