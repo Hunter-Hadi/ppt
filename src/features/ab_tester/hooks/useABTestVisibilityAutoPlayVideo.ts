@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef } from 'react'
 //根据可见度自动播放暂停视频
 const useABTestVisibilityAutoPlayVideo = (
   videoRef: React.MutableRefObject<HTMLVideoElement | null>,
+  videoSrc: string | null,
   isAuto: boolean,
 ) => {
   const intersectionRatioRef = useRef(false)
@@ -83,6 +84,10 @@ const useABTestVisibilityAutoPlayVideo = (
           const visible = isElementVisible(videoRef.current)
           if (visible && intersectionRatioRef.current) {
             if (videoRef.current && videoRef.current.paused) {
+              if (videoSrc) {
+                videoRef.current.src = videoSrc
+              }
+
               videoRef.current.currentTime = 0
               videoRef.current.play()
             }

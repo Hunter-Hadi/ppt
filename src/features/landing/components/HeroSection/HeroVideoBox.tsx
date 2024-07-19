@@ -31,7 +31,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
 }) => {
   const { openVideoPopup } = useVideoPopupController()
   const videoRef = useRef<HTMLVideoElement | null>(null)
-  useABTestVisibilityAutoPlayVideo(videoRef, windowAutoPlay)
+  useABTestVisibilityAutoPlayVideo(videoRef, videoSrc, windowAutoPlay)
   const disabledVideo = useMemo(() => {
     if (propDisabledVideo) {
       return true
@@ -104,7 +104,10 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
               // opacity: videoLoaded ? 1 : 0,
             }}
           >
-            <source src={videoSrc} type='video/mp4' />
+            <source
+              src={windowAutoPlay ? undefined : videoSrc} // 开启了windowAutoPlay默认懒加载
+              type='video/mp4'
+            />
             {"Sorry, your browser doesn't support embedded videos"}
           </video>
         </Box>
