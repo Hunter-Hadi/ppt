@@ -4,20 +4,20 @@ import Stack from '@mui/material/Stack'
 import React, { FC, useEffect, useMemo, useRef } from 'react'
 
 import ResponsiveImage from '@/components/ResponsiveImage'
-import { useAutoPlayVideo } from '@/features/ab_tester/hooks/useABTestAutoPlayVideo'
+import useABTestVisibilityAutoPlayVideo from '@/features/ab_tester/hooks/useABTestVisibilityAutoPlayVideo'
 import { PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController'
 
 export interface IHeroVideoProps {
   disabledVideo?: boolean
   videoSrc?: string | null
-  videoPosterUrl?: string
   imageCover?: string
 
   // for landing ab test v2
   variant?: 'autoplay' | 'embed'
   windowAutoPlay?: boolean
   videoStyle?: React.CSSProperties
+  videoPosterUrl?: string
 }
 
 const HeroVideoBox: FC<IHeroVideoProps> = ({
@@ -31,7 +31,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
 }) => {
   const { openVideoPopup } = useVideoPopupController()
   const videoRef = useRef<HTMLVideoElement | null>(null)
-  useAutoPlayVideo(videoRef, windowAutoPlay)
+  useABTestVisibilityAutoPlayVideo(videoRef, windowAutoPlay)
   const disabledVideo = useMemo(() => {
     if (propDisabledVideo) {
       return true

@@ -17,10 +17,11 @@ const Container = styled.div`
   width: 100%;
   position: relative;
   margin: 0 auto;
+  justify-content: space-between;
 `
 
 const TextWrapper = styled.div`
-  width: 50%;
+  width: 45%;
 `
 const TextItemWrapper = styled.div`
   height: 100vh;
