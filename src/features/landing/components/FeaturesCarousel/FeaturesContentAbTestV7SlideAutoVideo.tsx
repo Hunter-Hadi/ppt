@@ -133,6 +133,7 @@ const FeaturesContentAbTestV7SlideAutoVideo = () => {
                   {featureItem.descriptionList.map((description) => (
                     <FeaturesTextWithMarker
                       key={description}
+                      marker
                       variant='custom'
                       fontSize={{
                         xs: 16,
