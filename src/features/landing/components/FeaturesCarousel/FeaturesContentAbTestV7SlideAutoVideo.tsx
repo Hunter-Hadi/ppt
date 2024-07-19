@@ -134,7 +134,10 @@ const FeaturesContentAbTestV7SlideAutoVideo = () => {
                     <FeaturesTextWithMarker
                       key={description}
                       variant='custom'
-                      fontSize={18}
+                      fontSize={{
+                        xs: 16,
+                        md: 18,
+                      }}
                       lineHeight={1.5}
                     >
                       {t(description)}

@@ -60,7 +60,10 @@ const FeaturesContentAbTestV7CardAutoVideo = () => {
                       key={description}
                       marker
                       variant='custom'
-                      fontSize={18}
+                      fontSize={{
+                        xs: 16,
+                        md: 18,
+                      }}
                       lineHeight={1.5}
                     >
                       {t(description)}

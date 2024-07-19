@@ -20,7 +20,10 @@ const FeaturesContentAbTestV7VariantContentSection = () => {
   return (
     <Box
       sx={{
-        px: 2,
+        px: {
+          xs: 0,
+          md: 2,
+        },
       }}
     >
       <Container>
@@ -34,12 +37,14 @@ const FeaturesContentAbTestV7VariantContentSection = () => {
                   direction={'row'}
                   alignItems='center'
                   justifyContent='center'
-                  spacing={0.5}
+                  spacing={1}
                   sx={{
-                    bgcolor: 'rgb(230, 240, 255)',
-                    color: 'rgb(32, 128, 241)',
+                    bgcolor: featureItem.tagBgColor,
                     width: 'max-content',
-                    margin: '0 auto',
+                    margin: {
+                      xs: 0,
+                      md: '0 auto',
+                    },
                     borderRadius: '99px',
                     padding: '0 12px',
                     height: '32px',
@@ -47,18 +52,18 @@ const FeaturesContentAbTestV7VariantContentSection = () => {
                 >
                   <FeaturesCarouselIcons
                     icon={featureItem.icon}
-                    size={16}
+                    size={18}
                     sx={{
                       borderRadius: '50%',
-                      color: 'rgb(32, 128, 241)',
+                      color: featureItem.tagColor,
                       bgcolor: 'transparent',
-                      fontSize: '16px',
+                      fontSize: '18px',
                     }}
                   />
                   <Typography
                     fontSize='16px'
                     variant='custom'
-                    color='rgb(32, 128, 241)'
+                    color={featureItem.tagColor}
                   >
                     {t(featureItem.label)}
                   </Typography>
@@ -66,14 +71,21 @@ const FeaturesContentAbTestV7VariantContentSection = () => {
               }
               title={t(featureItem.title)}
               description={
-                <Stack spacing={0.5} mt='12px' alignItems={'center'}>
+                <Stack
+                  spacing={0.5}
+                  mt='12px'
+                  alignItems={{
+                    xs: 'start',
+                    md: 'center',
+                  }}
+                >
                   {featureItem.descriptionList.map((description) => (
                     <FeaturesTextWithMarker
                       key={description}
                       marker={false}
                       variant='custom'
                       fontSize={16}
-                      lineHeight={1.2}
+                      lineHeight={1.5}
                     >
                       {t(description)}
                     </FeaturesTextWithMarker>

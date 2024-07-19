@@ -83,6 +83,27 @@ const FeaturesContentSection: FC<IProps> = ({
 
     return 6
   }, [abTestTitleDirection])
+  const gridSpacing = useMemo(() => {
+    if (abTestTitleDirection === 'top' || abTestTitleDirection === 'left') {
+      return 0
+    }
+    if (abTestTitleDirection === 'supersede') {
+      return { xs: 4, md: 6 }
+    }
+    return 12
+  }, [abTestTitleDirection])
+  const titleFontSize = useMemo(() => {
+    if (abTestTitleDirection === 'top') {
+      return {
+        xs: 28,
+        md: 40,
+      }
+    }
+    return {
+      xs: 28,
+      md: 32,
+    }
+  }, [])
   return (
     <Box
       py={{
@@ -93,7 +114,14 @@ const FeaturesContentSection: FC<IProps> = ({
       <Box
         maxWidth={abTestTitleDirection === 'top' ? 1000 : 1312}
         mx='auto'
-        px={abTestTitleDirection === 'left' ? 0 : 4}
+        px={
+          abTestTitleDirection === 'left'
+            ? 0
+            : {
+                xs: 2,
+                md: 4,
+              }
+        }
         sx={{
           bgcolor: abTestTitleDirection === 'left' ? '#F9FAFB' : 'transparent',
           borderRadius: 4,
@@ -101,13 +129,16 @@ const FeaturesContentSection: FC<IProps> = ({
       >
         <Grid
           container
-          alignItems='center'
-          flexDirection={flexDirection}
-          spacing={
-            abTestTitleDirection === 'top' || abTestTitleDirection === 'left'
-              ? 0
-              : 12
+          alignItems={
+            abTestTitleDirection === 'top'
+              ? {
+                  xs: 'start',
+                  md: 'center',
+                }
+              : 'center'
           }
+          flexDirection={flexDirection}
+          spacing={gridSpacing}
           gap={abTestTitleDirection === 'top' ? 6 : 0}
         >
           <Grid item xs={12} sm={flexDirectionSmNumber} order={textBoxOrder}>
@@ -117,7 +148,7 @@ const FeaturesContentSection: FC<IProps> = ({
               sx={{
                 p: {
                   xs: abTestTitleDirection === 'left' ? '1rem' : 0,
-                  lg: abTestTitleDirection === 'left' ? '5rem' : 0,
+                  md: abTestTitleDirection === 'left' ? '5rem' : 0,
                 },
               }}
             >
@@ -141,8 +172,15 @@ const FeaturesContentSection: FC<IProps> = ({
               <Typography
                 component='h2'
                 variant='custom'
-                fontSize={abTestTitleDirection === 'top' ? 40 : 32}
-                textAlign={abTestTitleDirection === 'top' ? 'center' : 'start'}
+                fontSize={titleFontSize}
+                textAlign={
+                  abTestTitleDirection === 'top'
+                    ? {
+                        xs: 'start',
+                        md: 'center',
+                      }
+                    : 'start'
+                }
                 fontWeight={700}
                 mt={abTestTitleDirection === 'top' ? 1 : 2}
               >

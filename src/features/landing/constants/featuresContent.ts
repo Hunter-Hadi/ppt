@@ -20,6 +20,8 @@ export const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__summary__description3',
       'pages:home_page__features_content__ab_test_v4__content2__summary__description4',
     ],
+    tagBgColor: '#FFEBEB',
+    tagColor: '#DB4437',
   },
 
   {
@@ -38,6 +40,8 @@ export const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__reading__description2',
       'pages:home_page__features_content__ab_test_v4__content2__reading__description3',
     ],
+    tagBgColor: '#F4EBFF',
+    tagColor: '#9065B0',
   },
   {
     key: 'Writing assistant',
@@ -55,6 +59,8 @@ export const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__writing__description3',
       'pages:home_page__features_content__ab_test_v4__content2__writing__description4',
     ],
+    tagBgColor: '#D3F8DF',
+    tagColor: '#16B364',
   },
   {
     key: 'Drafting assistant',
@@ -72,6 +78,8 @@ export const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__drafting__description3',
       'pages:home_page__features_content__ab_test_v4__content2__drafting__description4',
     ],
+    tagBgColor: '#F4EBFF',
+    tagColor: '#9065B0',
   },
   {
     key: 'Email assistant',
@@ -83,13 +91,14 @@ export const FEATURES_CONTENT = [
     image: '/assets/features-landing/ai-reply/1.png',
     videoUrl: abTestVideoUrlObject.emailAssistant,
     videoPosterUrl: abTestVideoPosterUrlObject.emailAssistant,
-
     descriptionList: [
       'pages:home_page__features_content__ab_test_v4__content2__email__description1',
       'pages:home_page__features_content__ab_test_v4__content2__email__description2',
       'pages:home_page__features_content__ab_test_v4__content2__email__description3',
       'pages:home_page__features_content__ab_test_v4__content2__email__description4',
     ],
+    tagBgColor: '#E6F0FF',
+    tagColor: '#2080F1',
   },
   {
     key: 'Search assistant',
@@ -107,6 +116,8 @@ export const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__search__description2',
       'pages:home_page__features_content__ab_test_v4__content2__search__description3',
     ],
+    tagBgColor: '#FFF6D6',
+    tagColor: '#FAA700',
   },
   {
     key: 'Translation assistant',
@@ -123,6 +134,8 @@ export const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__translation__description2',
       'pages:home_page__features_content__ab_test_v4__content2__translation__description3',
     ],
+    tagBgColor: '#EAEAEA',
+    tagColor: '#202124',
   },
 
   {
@@ -138,5 +151,7 @@ export const FEATURES_CONTENT = [
       'pages:home_page__features_content__ab_test_v4__content2__browser__description2',
       'pages:home_page__features_content__ab_test_v4__content2__browser__description3',
     ],
+    tagBgColor: '#F4EBFF',
+    tagColor: '#9065B0',
   },
 ]
