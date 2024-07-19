@@ -84,8 +84,8 @@ const FeaturesContentSection: FC<IProps> = ({
   return (
     <Box
       py={{
-        xs: abTestTitleDirection === 'left' ? 3 : 6,
-        md: abTestTitleDirection === 'left' ? 6 : 9,
+        xs: 6,
+        md: 9,
       }}
     >
       <Box
@@ -199,15 +199,8 @@ const FeaturesContentSection: FC<IProps> = ({
               <ResponsiveImage
                 src={imageUrl}
                 alt={title}
-                width={1168}
-                height={864}
-                style={
-                  abTestTitleDirection === 'top'
-                    ? {
-                        maxHeight: 560,
-                      }
-                    : undefined
-                }
+                width={abTestTitleDirection === 'top' ? 1000 : 1168}
+                height={abTestTitleDirection === 'top' ? 559 : 864}
               />
             )}
             {videoUrl && (

@@ -47,41 +47,42 @@ const FeaturesContentAbTestV7SlideAutoVideo = () => {
 
   const [activeIndex, setActiveIndex] = useState(0)
 
-  const textRefs = useRef<any>([])
-  // 使用节流函数优化状态更新频率
+  const textRefs = useRef<(HTMLDivElement | null)[]>([])
+  const videoRefs = useRef<HTMLDivElement>(null)
+
   const updateActiveIndex = throttle((index) => {
     setActiveIndex(index)
   }, 500)
+
   useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.75,
-    }
+    const interval = setInterval(() => {
+      if (videoRefs.current) {
+        const videoRect = videoRefs.current.getBoundingClientRect()
+        let closestIndex = -1
+        let closestDistance = Infinity
 
-    const observerCallback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const index = textRefs.current.indexOf(entry.target)
-          updateActiveIndex(index)
+        textRefs.current.forEach((ref, index) => {
+          if (ref) {
+            const textRect = ref.getBoundingClientRect()
+            const distance = Math.abs(textRect.top - videoRect.top)
+
+            if (distance < closestDistance) {
+              closestDistance = distance
+              closestIndex = index
+            }
+          }
+        })
+
+        if (closestIndex !== activeIndex) {
+          updateActiveIndex(closestIndex)
         }
-      })
-    }
-
-    const observer = new IntersectionObserver(observerCallback, observerOptions)
-
-    textRefs.current.forEach((ref) => {
-      if (ref) {
-        observer.observe(ref)
       }
-    })
+    }, 100) // 每100毫秒检测一次
 
     return () => {
-      textRefs.current.forEach((ref) => {
-        if (ref) observer.unobserve(ref)
-      })
+      clearInterval(interval)
     }
-  }, [])
+  }, [activeIndex])
   return (
     <Box
       sx={{
@@ -91,12 +92,11 @@ const FeaturesContentAbTestV7SlideAutoVideo = () => {
       <Container>
         <TextWrapper>
           {FEATURES_CONTENT.map((featureItem, index) => (
-            <TextItemWrapper key={index}>
-              <Stack
-                ref={(ref) => (textRefs.current[index] = ref)}
-                height={'100%'}
-                justifyContent='start'
-              >
+            <TextItemWrapper
+              key={index}
+              ref={(ref) => (textRefs.current[index] = ref)}
+            >
+              <Stack justifyContent='start'>
                 <Stack
                   direction={'row'}
                   alignItems='center'
@@ -144,7 +144,7 @@ const FeaturesContentAbTestV7SlideAutoVideo = () => {
             </TextItemWrapper>
           ))}
         </TextWrapper>
-        <VideoWrapper>
+        <VideoWrapper ref={videoRefs}>
           {FEATURES_CONTENT.map((featureItem, index) => (
             <VideoItemWrap
               key={featureItem.key}
