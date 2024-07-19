@@ -84,7 +84,7 @@ const useABTestVisibilityAutoPlayVideo = (
           const visible = isElementVisible(videoRef.current)
           if (visible && intersectionRatioRef.current) {
             if (videoRef.current && videoRef.current.paused) {
-              if (videoSrc) {
+              if (videoSrc && videoRef.current.src !== videoSrc) {
                 videoRef.current.src = videoSrc
               }
 
