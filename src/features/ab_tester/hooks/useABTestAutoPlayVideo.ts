@@ -70,6 +70,7 @@ export const useAutoPlayVideo = (videoRef, isAuto) => {
 
   useEffect(() => {
     try {
+      if (!videoRef.current || !isAuto) return
       //检测元素是否可见
       const checkVisibility = () => {
         if (videoRef.current) {
