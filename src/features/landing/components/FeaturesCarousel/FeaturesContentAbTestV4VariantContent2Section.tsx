@@ -30,7 +30,7 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
                 justifyContent={
                   abTestTitleDirection === 'top' ? 'center' : 'flex-start'
                 }
-                spacing={1.5}
+                spacing={abTestTitleDirection === 'top' ? 0.5 : 1.5}
               >
                 <FeaturesCarouselIcons
                   icon={featureItem.icon}
@@ -40,7 +40,7 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
                   }}
                 />
                 <Typography
-                  fontSize={abTestTitleDirection === 'top' ? 15 : 20}
+                  fontSize={abTestTitleDirection === 'top' ? 16 : 20}
                   variant='custom'
                   color='text.primary'
                   fontWeight={600}
@@ -63,7 +63,7 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
                     key={description}
                     marker={abTestTitleDirection !== 'top'}
                     variant='custom'
-                    fontSize={abTestTitleDirection === 'top' ? 12 : 18}
+                    fontSize={abTestTitleDirection === 'top' ? 16 : 18}
                     lineHeight={abTestTitleDirection === 'top' ? 1.2 : 1.5}
                   >
                     {t(description)}
@@ -78,6 +78,7 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
             videoUrl={
               abTestFeaturesType === 'video' ? featureItem.videoUrl : ''
             }
+            videoPosterUrl={featureItem.videoPosterUrl}
           />
         )
       })}

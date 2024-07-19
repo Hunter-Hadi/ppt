@@ -73,6 +73,7 @@ const FeaturesContentAbTestV7CardAutoVideo = () => {
               }
               imageUrl={featureItem.image}
               videoUrl={featureItem.videoUrl}
+              videoPosterUrl={featureItem.videoPosterUrl}
             />
           )
         })}

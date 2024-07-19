@@ -64,3 +64,12 @@ export const abTestVideoUrlObject = {
   translationAssistant: `${RESOURCES_URL}/video/features/translation-assistant.mp4`,
   writingAssistant: `${RESOURCES_URL}/video/features/writing-assistant.mp4`,
 }
+export const abTestVideoPosterUrlObject = {
+  draftingAssistant: `/assets/features-landing/video-features/prompt.png`,
+  emailAssistant: `/assets/features-landing/video-features/email.png`,
+  readingAssistant: `/assets/features-landing/video-features/chat.png`,
+  searchAssistant: `/assets/features-landing/video-features/search.png`,
+  summaryAssistant: `/assets/features-landing/video-features/summary.png`,
+  translationAssistant: `/assets/features-landing/video-features/translator.png`,
+  writingAssistant: `/assets/features-landing/video-features/rewriter.png`,
+}

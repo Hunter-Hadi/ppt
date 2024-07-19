@@ -22,6 +22,7 @@ interface IProps {
   description: React.ReactNode
   imageUrl: string
   videoUrl?: string
+  videoPosterUrl?: string
 
   textWithImageLayout?: 'textToImage' | 'imageToText'
 
@@ -41,6 +42,7 @@ const FeaturesContentSection: FC<IProps> = ({
   pictureRetouchingDirection = false,
   showCtaInstallButton = false,
   abTestTitleDirection,
+  videoPosterUrl,
 }) => {
   const { t } = useTranslation()
   const theme = useTheme()
@@ -136,7 +138,7 @@ const FeaturesContentSection: FC<IProps> = ({
               <Typography
                 component='h2'
                 variant='custom'
-                fontSize={abTestTitleDirection === 'top' ? 30 : 32}
+                fontSize={32}
                 textAlign={abTestTitleDirection === 'top' ? 'center' : 'start'}
                 fontWeight={700}
                 mt={abTestTitleDirection === 'top' ? 1 : 2}
@@ -200,21 +202,19 @@ const FeaturesContentSection: FC<IProps> = ({
                 src={imageUrl}
                 alt={title}
                 width={abTestTitleDirection === 'top' ? 1000 : 1168}
-                height={abTestTitleDirection === 'top' ? 559 : 864}
+                height={abTestTitleDirection === 'top' ? 740 : 864}
               />
             )}
             {videoUrl && (
-              <Box>
-                <HeroVideoBox
-                  imageCover={imageUrl}
-                  videoSrc={videoUrl}
-                  windowAutoPlay={true}
-                  videoStyle={{
-                    boxShadow: 'none',
-                    maxHeight: 560,
-                  }}
-                />
-              </Box>
+              <HeroVideoBox
+                videoPosterUrl={videoPosterUrl}
+                videoSrc={videoUrl}
+                windowAutoPlay={true}
+                videoStyle={{
+                  boxShadow: 'none',
+                  maxHeight: 560,
+                }}
+              />
             )}
             {pictureRetouchingDirection && (
               <PictureRetouchingIcon direction={pictureRetouchingDirection} />

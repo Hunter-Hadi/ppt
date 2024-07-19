@@ -162,7 +162,7 @@ const FeaturesContentAbTestV7SlideAutoVideo = () => {
               )}
               {featureItem.videoUrl && (
                 <HeroVideoBox
-                  imageCover={featureItem.videoUrl}
+                  videoPosterUrl={featureItem.videoPosterUrl}
                   videoSrc={featureItem.videoUrl}
                   windowAutoPlay={true}
                   videoStyle={{

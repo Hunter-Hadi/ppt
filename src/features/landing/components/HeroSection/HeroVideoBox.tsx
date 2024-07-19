@@ -11,6 +11,7 @@ import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupC
 export interface IHeroVideoProps {
   disabledVideo?: boolean
   videoSrc?: string | null
+  videoPosterUrl?: string
   imageCover?: string
 
   // for landing ab test v2
@@ -26,6 +27,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
   variant = 'autoplay',
   windowAutoPlay = false,
   videoStyle,
+  videoPosterUrl,
 }) => {
   const { openVideoPopup } = useVideoPopupController()
   const videoRef = useRef<HTMLVideoElement | null>(null)
@@ -87,6 +89,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
             loop={true}
             muted={true}
             playsInline={true}
+            poster={videoPosterUrl}
             style={{
               cursor: 'auto',
               width: '100%',
