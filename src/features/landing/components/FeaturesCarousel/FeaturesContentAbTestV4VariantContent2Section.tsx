@@ -34,7 +34,7 @@ const FeaturesContentAbTestV4VariantContent2Section: FC<
               >
                 <FeaturesCarouselIcons
                   icon={featureItem.icon}
-                  size={abTestTitleDirection === 'top' ? 30 : undefined}
+                  size={abTestTitleDirection === 'top' ? 32 : undefined}
                   sx={{
                     borderRadius: '50%',
                   }}

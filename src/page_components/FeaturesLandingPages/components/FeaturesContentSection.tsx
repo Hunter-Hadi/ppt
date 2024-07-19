@@ -115,7 +115,10 @@ const FeaturesContentSection: FC<IProps> = ({
               height={'100%'}
               justifyContent='center'
               sx={{
-                p: abTestTitleDirection === 'left' ? '5rem' : 0,
+                p: {
+                  xs: abTestTitleDirection === 'left' ? '1rem' : 0,
+                  lg: abTestTitleDirection === 'left' ? '5rem' : 0,
+                },
               }}
             >
               {typeof icon === 'string' ? (
