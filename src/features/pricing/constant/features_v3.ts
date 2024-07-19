@@ -1,6 +1,6 @@
-import { IPlanFeaturesV3DataRowType } from '@/features/pricing/components/PlanFeaturesTableV3/type';
-import { PLAN_USAGE_QUERIES } from '@/features/pricing/constant';
-import { numberWithCommas } from '@/utils/dataHelper/numberHelper';
+import { IPlanFeaturesV3DataRowType } from '@/features/pricing/components/PlanFeaturesTableV3/type'
+import { PLAN_USAGE_QUERIES } from '@/features/pricing/constant'
+import { numberWithCommas } from '@/utils/dataHelper/numberHelper'
 
 export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
@@ -85,6 +85,28 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'Gemini-pro',
       icon: 'GeminiIcon',
+    },
+    free: { status: 'limit-color' },
+    basic: {
+      status: 'checked-color',
+    },
+    pro: {
+      status: 'checked-color',
+    },
+    elite: {
+      status: 'checked-color',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'GPT-4o-mini',
+      icon: 'GPT-4o',
+      // tooltip: {
+      //   desc: 'pricing:ab_test_v5__features_data__gpt4o_mini__tooltip',
+      // },
     },
     free: { status: 'limit-color' },
     basic: {
@@ -921,4 +943,4 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     pro: { status: 'checked' },
     elite: { status: 'checked' },
   },
-];
+]
