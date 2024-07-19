@@ -1,23 +1,27 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
 export const useAutoPlayVideo = (videoRef, isAuto) => {
+  const intersectionRatioRef = useRef(false)
   const handleIntersect = (entries) => {
-    entries.forEach((entry) => {
-      if (entry.intersectionRatio >= 0.8) {
-        // 当视频可见度达到80% 可见度阈值 时 重新播放
-        if (videoRef.current && videoRef.current.paused) {
+    try {
+      entries.forEach((entry) => {
+        if (entry.intersectionRatio >= 0.8) {
+          // 当视频可见度达到80% 可见度阈值 时 重新播放
+          intersectionRatioRef.current = true
+        } else {
+          intersectionRatioRef.current = false
+        }
+        if (entry.intersectionRatio < 0.4 && videoRef.current) {
           videoRef.current.currentTime = 0
-          videoRef.current.play()
         }
-      } else {
-        if (videoRef.current) {
-          videoRef.current.pause()
-        }
-      }
-    })
+      })
+    } catch (e) {
+      console.error('handleIntersect error:', e)
+    }
   }
 
   useEffect(() => {
+    // IntersectionObserver 元素可见度
     if (!videoRef.current || !isAuto) return
 
     try {
@@ -42,6 +46,55 @@ export const useAutoPlayVideo = (videoRef, isAuto) => {
       console.log('IntersectionObserver is not supported Error:', e)
     }
   }, [videoRef])
+  const isElementVisible = (element) => {
+    if (!element) return false
 
+    // 获取元素的计算样式
+    const style = getComputedStyle(element)
+
+    // 检查当前元素
+    const isVisible =
+      style.display !== 'none' &&
+      style.opacity !== '0' &&
+      element.getBoundingClientRect().width > 0 &&
+      element.getBoundingClientRect().height > 0
+
+    // 如果当前元素不可见，直接返回 false
+    if (!isVisible) return false
+
+    // 递归检查父元素
+    return element.parentElement
+      ? isElementVisible(element.parentElement)
+      : true
+  }
+
+  useEffect(() => {
+    try {
+      //检测元素是否可见
+      const checkVisibility = () => {
+        if (videoRef.current) {
+          const visible = isElementVisible(videoRef.current)
+          if (visible && intersectionRatioRef.current) {
+            if (videoRef.current && videoRef.current.paused) {
+              videoRef.current.currentTime = 0
+              videoRef.current.play()
+            }
+          } else {
+            if (videoRef.current) {
+              videoRef.current.pause()
+            }
+          }
+        }
+      }
+
+      const id = setInterval(checkVisibility, 500) // 每 500 毫秒检查一次
+
+      return () => {
+        clearInterval(id)
+      }
+    } catch (e) {
+      console.error('useAutoPlayVideo error:', e)
+    }
+  }, [videoRef])
   return
 }

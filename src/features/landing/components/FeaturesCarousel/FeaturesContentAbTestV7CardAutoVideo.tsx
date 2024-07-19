@@ -58,6 +58,7 @@ const FeaturesContentAbTestV7CardAutoVideo = () => {
                   {featureItem.descriptionList.map((description) => (
                     <FeaturesTextWithMarker
                       key={description}
+                      marker
                       variant='custom'
                       fontSize={18}
                       lineHeight={1.5}

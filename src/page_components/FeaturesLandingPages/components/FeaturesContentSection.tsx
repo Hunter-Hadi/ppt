@@ -66,9 +66,6 @@ const FeaturesContentSection: FC<IProps> = ({
     return textWithImageLayout === 'textToImage' ? 2 : 1
   }, [textWithImageLayout, isDownSm])
   const flexDirection = useMemo(() => {
-    if (abTestTitleDirection === 'supersede') {
-      return 'row-reverse'
-    }
     if (abTestTitleDirection === 'top') {
       return 'column'
     }
@@ -87,16 +84,17 @@ const FeaturesContentSection: FC<IProps> = ({
   return (
     <Box
       py={{
-        xs: 6,
-        md: 9,
+        xs: abTestTitleDirection === 'left' ? 3 : 6,
+        md: abTestTitleDirection === 'left' ? 6 : 9,
       }}
     >
       <Box
         maxWidth={abTestTitleDirection === 'top' ? 1000 : 1312}
         mx='auto'
-        px={4}
+        px={abTestTitleDirection === 'left' ? 0 : 4}
         sx={{
-          bgcolor: abTestTitleDirection === 'left' ? '#f9f7fe' : 'transparent',
+          bgcolor: abTestTitleDirection === 'left' ? '#F9FAFB' : 'transparent',
+          borderRadius: 4,
         }}
       >
         <Grid
