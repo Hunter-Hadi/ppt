@@ -88,7 +88,7 @@ const FeaturesContentSection: FC<IProps> = ({
       return 0
     }
     if (abTestTitleDirection === 'supersede') {
-      return { xs: 4, md: 6 }
+      return { xs: 4, md: 6, lg: 12 }
     }
     return 12
   }, [abTestTitleDirection])
