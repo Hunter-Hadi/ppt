@@ -178,6 +178,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             isSimplicityView={isSimplicityView}
             description={currentToolData.secondaryDescription}
           />
+          <h1>urlKey: {urlKey}</h1>
           <Suspense fallback={<AppLoadingLayout loading />}>
             {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
               <FunctionalityPdfToImageMain toType={urlKey} />
@@ -196,6 +197,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
             {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
           </Suspense>
+          <h1>urlKey: {urlKey}</h1>
         </Box>
         {toolsDetailDescriptionData && (
           <ToolsDetailDescription
