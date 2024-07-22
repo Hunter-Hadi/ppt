@@ -41,12 +41,11 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'GPT-3.5',
-      icon: 'ChatGPTIcon',
-      video: {
-        link: 'https://www.youtube.com/embed/QA4gxm3xtLE',
-        time: '0:55',
-      },
+      title: 'GPT-4o-mini',
+      icon: 'GPT-4o',
+      // tooltip: {
+      //   desc: 'pricing:ab_test_v5__features_data__gpt4o_mini__tooltip',
+      // },
     },
     free: { status: 'limit-color' },
     basic: {
@@ -100,28 +99,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
       type: 'secondary',
     },
   },
-  {
-    features: {
-      title: 'GPT-4o-mini',
-      icon: 'GPT-4o',
-      // tooltip: {
-      //   desc: 'pricing:ab_test_v5__features_data__gpt4o_mini__tooltip',
-      // },
-    },
-    free: { status: 'limit-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
+
   {
     features: {
       title: 'pricing:features__advanced_text_queries__month',
