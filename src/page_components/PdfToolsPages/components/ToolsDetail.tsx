@@ -179,7 +179,9 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             description={currentToolData.secondaryDescription}
           />
           <h1>urlKey: {urlKey}</h1>
-          <Suspense fallback={<AppLoadingLayout loading />}>
+          <Suspense
+            fallback={<AppLoadingLayout loading loadingText='test 1' />}
+          >
             {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
               <FunctionalityPdfToImageMain toType={urlKey} />
             )}
