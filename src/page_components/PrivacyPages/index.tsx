@@ -161,7 +161,7 @@ const PrivacyPages: FC = () => {
               sx={{
                 fontWeight: 'bold',
                 fontSize: {
-                  sx: 20,
+                  sx: 24,
                   md: 24,
                 },
                 textAlign: 'center',
@@ -202,7 +202,7 @@ const PrivacyPages: FC = () => {
               sx={{
                 fontWeight: 'bold',
                 fontSize: {
-                  sx: 20,
+                  sx: 24,
                   md: 24,
                 },
                 textAlign: 'center',
@@ -243,7 +243,7 @@ const PrivacyPages: FC = () => {
               sx={{
                 fontWeight: 'bold',
                 fontSize: {
-                  sx: 20,
+                  sx: 24,
                   md: 24,
                 },
                 textAlign: 'center',
