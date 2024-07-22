@@ -102,7 +102,8 @@ const PrivacyPages: FC = () => {
           }}
         >
           <Typography
-            variant='custom'
+            variant='h2'
+            component='p'
             sx={{
               fontSize: {
                 xs: 32,
@@ -158,15 +159,9 @@ const PrivacyPages: FC = () => {
             </Box>
 
             <Typography
-              sx={{
-                fontWeight: 'bold',
-                fontSize: {
-                  sx: 24,
-                  md: 24,
-                },
-                textAlign: 'center',
-                mb: 2,
-              }}
+              variant='h5'
+              component='p'
+              sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
             >
               {`We Only Know What's Necessary`}
             </Typography>
@@ -199,15 +194,9 @@ const PrivacyPages: FC = () => {
             </Box>
 
             <Typography
-              sx={{
-                fontWeight: 'bold',
-                fontSize: {
-                  sx: 24,
-                  md: 24,
-                },
-                textAlign: 'center',
-                mb: 2,
-              }}
+              variant='h5'
+              component='p'
+              sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
             >
               {`We Don't See Your Browsing/Chatting Data`}
             </Typography>
@@ -240,15 +229,9 @@ const PrivacyPages: FC = () => {
             </Box>
 
             <Typography
-              sx={{
-                fontWeight: 'bold',
-                fontSize: {
-                  sx: 24,
-                  md: 24,
-                },
-                textAlign: 'center',
-                mb: 2,
-              }}
+              variant='h5'
+              component='p'
+              sx={{ fontWeight: 'bold', textAlign: 'center', mb: 2 }}
             >
               {`We Don't Monetize Your Trust`}
             </Typography>
@@ -343,8 +326,8 @@ const PrivacyPages: FC = () => {
             <Box sx={{ pt: 4 }}>
               <Typography
                 variant='custom'
-                component='h1'
-                sx={{ mb: 2, fontSize: 48, fontWeight: 500 }}
+                component={'h1'}
+                sx={{ mb: 2, fontSize: 48 }}
                 ref={privacyPolicyRef}
               >
                 Privacy Policy
@@ -368,24 +351,18 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                variant='custom'
+                variant='h4'
                 component='h2'
-                sx={{ mb: 2, fontSize: 32, fontWeight: 600 }}
+                sx={{ pb: 2, fontWeight: 700 }}
                 ref={informationWeDoNotCollectRef}
               >
                 Information We Do Not Collect
               </Typography>
 
               <Typography
-                sx={{
-                  pb: 2,
-                  pt: 3,
-                  fontSize: {
-                    xs: 24,
-                    md: 24,
-                  },
-                  fontWeight: 600,
-                }}
+                variant='h3'
+                component='p'
+                sx={{ pb: 2, pt: 3, fontSize: 25 }}
               >
                 Personal Information
               </Typography>
@@ -402,30 +379,18 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                ref={informationWeCollectRef}
+                variant='h4'
                 component='h2'
-                sx={{
-                  mb: 2,
-                  fontSize: {
-                    xs: 32,
-                    md: 32,
-                  },
-                  fontWeight: 600,
-                }}
+                ref={informationWeCollectRef}
+                sx={{ pb: 2, fontWeight: 700 }}
               >
                 Information We Collect
               </Typography>
 
               <Typography
-                sx={{
-                  pb: 2,
-                  pt: 3,
-                  fontSize: {
-                    xs: 24,
-                    md: 24,
-                  },
-                  fontWeight: 600,
-                }}
+                variant='h3'
+                component='p'
+                sx={{ pb: 2, pt: 3, fontSize: 24 }}
               >
                 Chrome Extension Automatically Generated Reports
               </Typography>
@@ -441,15 +406,9 @@ const PrivacyPages: FC = () => {
               </Typography>
 
               <Typography
-                sx={{
-                  pb: 2,
-                  pt: 3,
-                  fontSize: {
-                    xs: 24,
-                    md: 24,
-                  },
-                  fontWeight: 600,
-                }}
+                variant='h3'
+                component='p'
+                sx={{ pb: 2, pt: 3, fontSize: 24 }}
               >
                 Google Analytics
               </Typography>
@@ -468,16 +427,10 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                ref={howWeUseYourInformationRef}
+                variant='h4'
                 component='h2'
-                sx={{
-                  pb: 2,
-                  fontSize: {
-                    xs: 32,
-                    md: 32,
-                  },
-                  fontWeight: 700,
-                }}
+                ref={howWeUseYourInformationRef}
+                sx={{ pb: 2, fontWeight: 700 }}
               >
                 How we use your information
               </Typography>
@@ -502,16 +455,10 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                ref={informationSecurityRef}
+                variant='h4'
                 component='h2'
-                sx={{
-                  pb: 2,
-                  fontWeight: 700,
-                  fontSize: {
-                    xs: 32,
-                    md: 32,
-                  },
-                }}
+                ref={informationSecurityRef}
+                sx={{ pb: 2, fontWeight: 700 }}
               >
                 Information Security
               </Typography>
@@ -533,16 +480,10 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                ref={DataRetentionRef}
+                variant='h4'
                 component='h2'
-                sx={{
-                  pb: 2,
-                  fontWeight: 700,
-                  fontSize: {
-                    xs: 32,
-                    md: 32,
-                  },
-                }}
+                ref={DataRetentionRef}
+                sx={{ pb: 2, fontWeight: 700 }}
               >
                 Data retention
               </Typography>
@@ -579,16 +520,10 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                ref={marketingAndAdvertisingRef}
+                variant='h4'
                 component='h2'
-                sx={{
-                  pb: 2,
-                  fontWeight: 700,
-                  fontSize: {
-                    xs: 32,
-                    md: 32,
-                  },
-                }}
+                ref={marketingAndAdvertisingRef}
+                sx={{ pb: 2, fontWeight: 700 }}
               >
                 Marketing and advertising
               </Typography>
@@ -618,16 +553,10 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                ref={changesToThePrivacyPolicyRef}
+                variant='h4'
                 component='h2'
-                sx={{
-                  pb: 2,
-                  fontWeight: 700,
-                  fontSize: {
-                    xs: 32,
-                    md: 32,
-                  },
-                }}
+                ref={changesToThePrivacyPolicyRef}
+                sx={{ pb: 2, fontWeight: 700 }}
               >
                 Changes to the Privacy Policy
               </Typography>
@@ -640,16 +569,10 @@ const PrivacyPages: FC = () => {
 
             <Box sx={{ pt: 4 }}>
               <Typography
-                ref={contactUsRef}
+                variant='h4'
                 component='h2'
-                sx={{
-                  pb: 2,
-                  fontWeight: 700,
-                  fontSize: {
-                    xs: 32,
-                    md: 32,
-                  },
-                }}
+                ref={contactUsRef}
+                sx={{ pb: 2, fontWeight: 700 }}
               >
                 Contact Us
               </Typography>
