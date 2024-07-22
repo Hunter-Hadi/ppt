@@ -47,10 +47,10 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
       return
     }
 
-    //兼容旧游览器播放声音的问题
+    //兼容旧游览器muted播放还有声音的问题
     //https://github.com/facebook/react/issues/6544
     //https://medium.com/@BoltAssaults/autoplay-muted-html5-video-safari-ios-10-in-react-673ae50ba1f5
-    //1.先简单的应用到DOM上
+    //1.react设置 muted 不显示，先简单的应用到DOM上
     video.muted = true
     video.defaultMuted = true
 
