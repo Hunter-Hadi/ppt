@@ -7,6 +7,8 @@ import React from 'react'
 import MaxAIExtensionInstallButton from '@/packages/browser-extension/components/MaxAIExtensionInstallButton'
 import { webPageOpenMaxAIExtensionPage } from '@/packages/browser-extension/utils/postMessageToCRX'
 import { useMaxAITranslation } from '@/packages/common'
+import { ChromeConfigLogo } from '@/packages/common/components/CustomIcon'
+import MaxAICloseButton from '@/packages/common/components/MaxAICloseButton'
 import useBrowserAgent from '@/packages/common/hooks/useBrowserAgent'
 
 import useExtensionDetectionAlert from './useExtensionDetectionAlert'
@@ -30,13 +32,44 @@ const ExtensionDetectionAlert = () => {
             top: '50%',
             left: '50%',
             transform: 'translate(-50%, -50%)',
-            maxWidth: 464,
-            minWidth: 360,
-            p: 4,
+            maxWidth: 272,
+            minWidth: 250,
+            p: 3,
+            borderRadius: 4,
           }}
         >
-          <Typography variant={'h5'} mb={2}>
+          <MaxAICloseButton
+            aria-label='close'
+            sx={{
+              position: 'absolute',
+              top: 8,
+              right: 8,
+            }}
+            onClick={closeExtensionInstallAlert}
+          />
+
+          <ChromeConfigLogo sx={{ width: '64px', height: '56px', mb: 1 }} />
+          <Typography
+            variant='custom'
+            component={'p'}
+            sx={{ fontSize: 16, fontWeight: '600', lineHeight: 1.5 }}
+            mb={1}
+          >
             {t('package__browser_extension:extension_detection_alert__title', {
+              BROWSER_AGENT: browserAgent,
+            })}
+          </Typography>
+          <Typography
+            variant='custom'
+            component={'p'}
+            sx={{
+              fontSize: '14px',
+              lineHeight: 1.5,
+              color: 'rgba(0, 0, 0, 0.60)',
+            }}
+            mb={2}
+          >
+            {t('package__browser_extension:extension_detection_alert__desc', {
               BROWSER_AGENT: browserAgent,
             })}
           </Typography>
@@ -44,7 +77,11 @@ const ExtensionDetectionAlert = () => {
             variant='contained'
             sx={{
               width: '100%',
+              lineHeight: '150%',
+              height: 'auto',
+              fontSize: '16px',
             }}
+            startIcon={null}
           />
         </Paper>
       </Modal>
@@ -58,8 +95,18 @@ const ExtensionDetectionAlert = () => {
             maxWidth: 464,
             minWidth: 360,
             p: 4,
+            borderRadius: 4,
           }}
         >
+          <MaxAICloseButton
+            aria-label='close'
+            sx={{
+              position: 'absolute',
+              top: 8,
+              right: 8,
+            }}
+            onClick={closeExtensionUpgradeAlert}
+          />
           <Typography variant={'h5'} component='p' mb={2}>
             {t('package__browser_extension:upgrade_alert__title')}
           </Typography>

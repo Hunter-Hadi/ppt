@@ -21,6 +21,7 @@ import {
   COMMON_MAXAI_WWW_PROJECT_HOST,
   COMMON_PROJECT_BASE_PATH,
 } from '@/packages/common'
+import { useMaxAIAlertModals } from '@/packages/common/components/MaxAIAlertModals'
 import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot'
 import Toast from '@/packages/common/utils/toast'
 import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector'
@@ -33,6 +34,8 @@ const TestSyncLogin = () => {
   const maxAIExtensionState = useMaxAIExtensionState()
   const { openExtensionInstallAlert, openExtensionUpgradeAlert } =
     useExtensionDetectionAlert()
+
+  const { openDesktopBrowsersAlert } = useMaxAIAlertModals()
 
   const handleLogout = () => {
     authLogout()
@@ -97,6 +100,9 @@ const TestSyncLogin = () => {
           </Button>
           <Button onClick={openExtensionUpgradeAlert}>
             open maxai extension upgrade Alert
+          </Button>
+          <Button onClick={openDesktopBrowsersAlert}>
+            open maxai Desktop Browser Alert
           </Button>
           <MaxAIExtensionWrapper
             feedback={(loading) => {

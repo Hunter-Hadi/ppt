@@ -1,0 +1,1 @@
+export { ChromeConfigLogo } from './ChromeConfigLogo'
