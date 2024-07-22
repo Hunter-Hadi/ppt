@@ -16,7 +16,10 @@ import {
   getPdfToolKeyWithLocale,
 } from '@/page_components/PdfToolsPages/utils'
 
-const UrlKeyToolsDetail = ({ urlKey: anyLangPdfToolKey }) => {
+const UrlKeyToolsDetail = ({
+  urlKey: anyLangPdfToolKey,
+  enPdfToolKey: propEnPdfToolKey,
+}) => {
   const { query } = useRouter()
   const locale = query.locale as I18nTypes
 
@@ -26,8 +29,8 @@ const UrlKeyToolsDetail = ({ urlKey: anyLangPdfToolKey }) => {
     locale as I18nTypes,
   )
 
-  if (enPdfToolKey) {
-    return <ToolsDetail urlKey={enPdfToolKey} />
+  if (propEnPdfToolKey || enPdfToolKey) {
+    return <ToolsDetail urlKey={propEnPdfToolKey ?? enPdfToolKey} />
   }
 
   if (isNotFound) {
@@ -84,11 +87,17 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const translationData = await serverSideTranslations(locale)
   const { urlKey: anyLangPdfToolKey } = context?.params as ParsedUrlQuery
 
+  const enPdfToolKey = findEnPdfToolKeyWithLocale(
+    anyLangPdfToolKey as string,
+    locale as I18nTypes,
+  )
+
   try {
     return {
       props: {
         ...translationData,
         urlKey: anyLangPdfToolKey,
+        enPdfToolKey,
         updatedAt: Date.now(),
       },
     }
