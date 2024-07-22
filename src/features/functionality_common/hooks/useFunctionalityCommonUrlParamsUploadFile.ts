@@ -8,7 +8,7 @@ const useFunctionalityCommonUrlParamsUploadFile = (props: {
   onChangeFile?: (file: FileList) => void
 }) => {
   const router = useRouter()
-  const { file_id, name } = router.query //这里是获取url参数,但获取不到，保险也加上一层
+  const { file_id, name, ...resetQuery } = router.query //这里是获取url参数,但获取不到，保险也加上一层
   const isHandleParams = useRef(false)
   const [urlFileUploadProgress, setUrlFileUploadProgress] = useState<
     null | number
@@ -17,8 +17,7 @@ const useFunctionalityCommonUrlParamsUploadFile = (props: {
     router.replace({
       pathname: router.pathname,
       query: {
-        locale: router.query.locale,
-        urlKey: router.query.urlKey,
+        ...resetQuery,
       },
     }) //重置url防止重复触发触发这个hooks
   }
