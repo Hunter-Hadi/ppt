@@ -388,9 +388,9 @@ const PrivacyPages: FC = () => {
               </Typography>
 
               <Typography
-                variant='h3'
+                variant='custom'
                 component='p'
-                sx={{ pb: 2, pt: 3, fontSize: 24 }}
+                sx={{ pb: 2, pt: 3, fontSize: 24, fontWeight: 'bold' }}
               >
                 Chrome Extension Automatically Generated Reports
               </Typography>
@@ -406,9 +406,9 @@ const PrivacyPages: FC = () => {
               </Typography>
 
               <Typography
-                variant='h3'
+                variant='custom'
                 component='p'
-                sx={{ pb: 2, pt: 3, fontSize: 24 }}
+                sx={{ pb: 2, pt: 3, fontSize: 24, fontWeight: 'bold' }}
               >
                 Google Analytics
               </Typography>
