@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import languageCodeMap from '@/packages/common/constants/languageCodeMap.json'
 
 /**
  * maxai 运行的环境: dev, test, prod
@@ -69,4 +68,4 @@ export const COMMON_PROJECT_BASE_PATH =
   (typeof process !== 'undefined' ? process?.env?.NEXT_PUBLIC_BASE_PATH : '') ||
   ''
 
-export const I18N_LOCALES = Object.keys(languageCodeMap)
+export * from './i18n'

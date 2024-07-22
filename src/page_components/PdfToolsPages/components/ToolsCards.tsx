@@ -6,6 +6,7 @@ import { FC } from 'react'
 import ProLink from '@/components/ProLink'
 import ToolsIcon from '@/page_components/PdfToolsPages/components/ToolsIcon'
 import { IToolData } from '@/page_components/PdfToolsPages/constant'
+import usePdfToolPathname from '@/page_components/PdfToolsPages/hooks/usePdfToolPathname'
 
 interface IToolsCardsProps {
   list: IToolData[]
@@ -14,6 +15,8 @@ interface IToolsCardsProps {
 
 const ToolsCards: FC<IToolsCardsProps> = ({ list, isShowSeoTag = true }) => {
   const { t } = useTranslation()
+
+  const { getPdfToolPathnameWithLocale } = usePdfToolPathname()
 
   return (
     <Grid
@@ -37,7 +40,9 @@ const ToolsCards: FC<IToolsCardsProps> = ({ list, isShowSeoTag = true }) => {
             }}
           >
             <ProLink
-              href={`/${toolData.urlPrefixPath}/${toolData.urlKey}`}
+              // href={`/${toolData.urlPrefixPath}/${toolData.urlKey}`}
+              href={getPdfToolPathnameWithLocale(toolData.urlKey)}
+              adaptiveLocale={false}
               color='inherit'
               hardRefresh={true}
               target='_self'

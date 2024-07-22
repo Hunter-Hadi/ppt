@@ -1,23 +1,21 @@
-import { PROMPT_LIBRARY_PROXY_BASE_PATH } from '@/global_constants';
-import languageCodeMap from '@/packages/common/constants/languageCodeMap.json';
+import { PROMPT_LIBRARY_PROXY_BASE_PATH } from '@/global_constants'
+import { I18N_LOCALES } from '@/packages/common/constants/i18n'
 
-export const i18nLocales = Object.keys(languageCodeMap);
+export const i18nLocales = I18N_LOCALES
 
 // 为了修复类似 /[locale]/languages pathname
 // 需要删除 /[locale] 前缀，返回 剩下的原始 pathname
 export const removeLocaleInPathname = (pathname: string) => {
-  const locale = i18nLocales.find((locale) =>
-    pathname.startsWith(`/${locale}`),
-  );
+  const locale = i18nLocales.find((locale) => pathname.startsWith(`/${locale}`))
   if (locale) {
-    return pathname.replace(`/${locale}`, '');
+    return pathname.replace(`/${locale}`, '')
   }
   if (pathname.startsWith('/[locale]')) {
-    const fixedPathname = pathname.replace('/[locale]', '');
-    return fixedPathname === '' ? '/' : fixedPathname;
+    const fixedPathname = pathname.replace('/[locale]', '')
+    return fixedPathname === '' ? '/' : fixedPathname
   }
-  return pathname;
-};
+  return pathname
+}
 
 // 补全 href 中的 locale，
 // 需要处理 带有 PROMPT_LIBRARY_PROXY_BASE_PATH 的情况
@@ -25,7 +23,7 @@ export const fixHrefWithLocale = (
   href: string,
   newLocale: string | undefined,
 ) => {
-  let fixedHref = href;
+  let fixedHref = href
 
   if (fixedHref.startsWith('/')) {
     if (newLocale) {
@@ -33,12 +31,12 @@ export const fixHrefWithLocale = (
         fixedHref = fixedHref.replace(
           PROMPT_LIBRARY_PROXY_BASE_PATH,
           `${PROMPT_LIBRARY_PROXY_BASE_PATH}/${newLocale}`,
-        );
+        )
       } else {
-        fixedHref = `/${newLocale}${fixedHref}`;
+        fixedHref = `/${newLocale}${fixedHref}`
       }
     }
   }
 
-  return fixedHref;
-};
+  return fixedHref
+}

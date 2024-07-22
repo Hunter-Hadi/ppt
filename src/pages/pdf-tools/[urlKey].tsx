@@ -6,20 +6,20 @@ import React from 'react'
 import ToolsDetail from '@/page_components/PdfToolsPages/components/ToolsDetail'
 import { toolsObjectData } from '@/page_components/PdfToolsPages/constant'
 
+const UrlKeyToolsDetail = ({ urlKey }) => {
+  return <ToolsDetail urlKey={urlKey} />
+}
+export default UrlKeyToolsDetail
+
 export const getStaticPaths: GetStaticPaths = async () => {
-  const toolList = Object.keys(toolsObjectData).map((key) => key)
+  const enPdfToolKeys = Object.keys(toolsObjectData).map((key) => key)
   return {
-    paths: toolList.map((toolUrlKey) => ({
+    paths: enPdfToolKeys.map((toolUrlKey) => ({
       params: { urlKey: toolUrlKey },
     })),
     fallback: false,
   }
 }
-
-const UrlKeyToolsDetail = ({ urlKey }) => {
-  return <ToolsDetail urlKey={urlKey} />
-}
-export default UrlKeyToolsDetail
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const locale = context?.params?.locale?.toString() || 'en'
@@ -27,7 +27,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const { urlKey } = context?.params as ParsedUrlQuery
 
   try {
-    console.log('simply context 1', context)
     if (!urlKey) {
       return {
         notFound: true,
@@ -35,7 +34,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     }
     return {
       props: {
-        urlKey,
+        urlKey: urlKey,
         updatedAt: Date.now(),
         ...translationData,
       },
@@ -44,7 +43,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     console.log(e)
     return {
       props: {
-        urlKey,
+        urlKey: urlKey,
         updatedAt: Date.now(),
         ...translationData,
       },

@@ -1,17 +1,17 @@
-import { Divider, Grid, MenuList, Stack, Typography } from '@mui/material';
-import MenuItem from '@mui/material/MenuItem';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import { Divider, Grid, MenuList, Stack, Typography } from '@mui/material'
+import MenuItem from '@mui/material/MenuItem'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import ProLink, { isExternalUrl } from '@/components/ProLink';
-import { APP_EXTERNAL_LINKS } from '@/global_constants';
-import { isInIframe } from '@/utils/utils';
+import ProLink, { isExternalUrl } from '@/components/ProLink'
+import { APP_EXTERNAL_LINKS } from '@/global_constants'
+import { isInIframe } from '@/utils/utils'
 
-import PopperMenuItem from './components/PopperMenuItem';
+import PopperMenuItem from './components/PopperMenuItem'
 
 interface IProps {
-  isSmallScreen?: boolean;
+  isSmallScreen?: boolean
 }
 
 const PRODUCTS_MENU_LIST = [
@@ -129,12 +129,12 @@ const PRODUCTS_MENU_LIST = [
       },
     ],
   },
-];
+]
 
 const ProductsItem: FC<IProps> = ({ isSmallScreen }) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
-  const { pathname } = useRouter();
+  const { pathname } = useRouter()
 
   return (
     <PopperMenuItem
@@ -250,7 +250,7 @@ const ProductsItem: FC<IProps> = ({ isSmallScreen }) => {
         </Grid>
       }
     />
-  );
-};
+  )
+}
 
-export default ProductsItem;
+export default ProductsItem
