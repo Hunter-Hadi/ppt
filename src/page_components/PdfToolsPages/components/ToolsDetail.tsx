@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
-import React, { createContext, useState } from 'react'
+import React, { createContext, useEffect, useState } from 'react'
 import { FC, lazy, Suspense, useMemo } from 'react'
 
 import AppContainer from '@/app_layout/AppContainer'
@@ -82,7 +82,8 @@ export const TopToolsDetailView = createContext({
   isSimplicityView: false,
   setIsSimplicityView: (value: boolean) => {},
 })
-const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
+const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey: initialUrlKey }) => {
+  const [urlKey, setUrlKey] = useState(initialUrlKey)
   console.log(`urlKey`, urlKey)
   const [isSimplicityView, setIsSimplicityView] = useState(false)
   const currentToolData = useMemo(() => toolsObjectData[urlKey], [urlKey])
@@ -154,6 +155,11 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
         .map((key) => toolsObjectData[key]),
     [urlKey],
   )
+
+  useEffect(() => {
+    setUrlKey(initialUrlKey)
+  }, [initialUrlKey])
+
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>
       <AppDefaultSeoLayout
