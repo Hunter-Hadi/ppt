@@ -1,11 +1,10 @@
 import { Box, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { createContext, useState } from 'react'
-import { FC, lazy, Suspense, useMemo } from 'react'
+import { FC, lazy, useMemo } from 'react'
 
 import AppContainer from '@/app_layout/AppContainer'
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner'
 import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards'
 import ToolsDetailDescription from '@/page_components/PdfToolsPages/components/ToolsDetailDescription'
@@ -180,19 +179,16 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           />
 
           <h1>urlKey: {urlKey}</h1>
-          <Suspense
+          {/* <Suspense
             fallback={
               <AppLoadingLayout
                 loading
                 loadingText='test 11111111111111111111'
               />
             }
-          >
-            <p>in Suspense</p>
-            <h1>toType urlKey : {urlKey}</h1>
-
-            {/* <FunctionalityPdfToImageMain toType={'pdf-to-png'} /> */}
-            {/* {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
+          > */}
+          <FunctionalityPdfToImageMain toType={'pdf-to-png'} />
+          {/* {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
             )}
             {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
             {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
@@ -207,7 +203,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
             {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
             {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />} */}
-          </Suspense>
+          {/* </Suspense> */}
           <h1>urlKey: {urlKey}</h1>
         </Box>
         {toolsDetailDescriptionData && (
