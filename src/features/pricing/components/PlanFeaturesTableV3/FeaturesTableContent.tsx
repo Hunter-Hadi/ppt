@@ -1,15 +1,15 @@
-import Stack from '@mui/material/Stack';
-import React, { FC } from 'react';
+import Stack from '@mui/material/Stack'
+import React, { FC, useMemo } from 'react'
 
-import { PLAN_FEATURES_V3_DATA_ROWS } from '@/features/pricing/constant/features_v3';
+import { PLAN_FEATURES_V3_DATA_ROWS } from '@/features/pricing/constant/features_v3'
 
-import FeaturesTableContentCell from './FeaturesTableContentCell';
-import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
+import FeaturesTableContentCell from './FeaturesTableContentCell'
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type'
 
 interface IProps {
-  popularPlan?: IFeatureColumnType;
-  needToHiddenPlan?: IFeatureColumnType[];
-  featureTableColumns: IPlanFeatureColumnData[];
+  popularPlan?: IFeatureColumnType
+  needToHiddenPlan?: IFeatureColumnType[]
+  featureTableColumns: IPlanFeatureColumnData[]
 }
 
 const FeaturesTableContent: FC<IProps> = ({
@@ -17,15 +17,20 @@ const FeaturesTableContent: FC<IProps> = ({
   popularPlan,
   needToHiddenPlan,
 }) => {
+  const featuresData = useMemo(() => {
+    return PLAN_FEATURES_V3_DATA_ROWS
+  }, [])
+
   return (
     <Stack>
-      {PLAN_FEATURES_V3_DATA_ROWS.map((featureData, index) => {
+      {featuresData.map((featureData, index) => {
         // if (needToHiddenPlan?.includes(columnData.columnType)) {
         //   return null;
         // }
-        const iconSize = featureData.meta?.type === 'secondary' ? 20 : 24;
-        const isDeepen = featureData.meta?.type === 'deepen';
-        const rowType = featureData.meta?.type;
+
+        const iconSize = 20
+        const isDeepen = featureData.meta?.type === 'deepen'
+        const rowType = featureData.meta?.type
 
         return (
           <Stack
@@ -38,17 +43,17 @@ const FeaturesTableContent: FC<IProps> = ({
           >
             {featureTableColumns.map((columnData, columnIndex) => {
               if (needToHiddenPlan?.includes(columnData.columnType)) {
-                return null;
+                return null
               }
 
-              const data = featureData[columnData.key];
-              const isPopular = popularPlan === columnData.columnType;
+              const data = featureData[columnData.key]
+              const isPopular = popularPlan === columnData.columnType
 
-              const isFirstColumn = columnIndex === 0;
+              const isFirstColumn = columnIndex === 0
               const isLastColumn =
-                columnIndex === featureTableColumns.length - 1;
-              const isFirstRow = index === 0;
-              const isLastRow = index === PLAN_FEATURES_V3_DATA_ROWS.length - 1;
+                columnIndex === featureTableColumns.length - 1
+              const isFirstRow = index === 0
+              const isLastRow = index === featuresData.length - 1
 
               return (
                 <FeaturesTableContentCell
@@ -65,13 +70,13 @@ const FeaturesTableContent: FC<IProps> = ({
                   iconSize={iconSize}
                   isDeepen={isDeepen}
                 />
-              );
+              )
             })}
           </Stack>
-        );
+        )
       })}
     </Stack>
-  );
-};
+  )
+}
 
-export default FeaturesTableContent;
+export default FeaturesTableContent

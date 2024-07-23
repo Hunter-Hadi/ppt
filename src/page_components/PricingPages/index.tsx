@@ -8,6 +8,8 @@ import AppContainer from '@/app_layout/AppContainer'
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import PlanFeaturesTableV3 from '@/features/pricing/components/PlanFeaturesTableV3'
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox'
+import PricingTopBadge from '@/features/pricing/components/PricingTopBadge'
+import ProductComparisonTable from '@/features/pricing/components/ProductComparisonTable'
 import TeamPlanTips from '@/features/pricing/components/TeamPlanTips'
 import {
   PricingPaymentTypeAtom,
@@ -51,6 +53,8 @@ const PricingPages = () => {
           boxSizing: 'border-box',
         }}
       >
+        <PricingTopBadge />
+
         {/* better plans */}
         {/* <Stack alignItems='center'>
           <Typography
@@ -157,6 +161,13 @@ const PricingPages = () => {
           </Typography>
           <PlanFeaturesTableV3 popularPlan={'elite'} />
         </Stack>
+
+        <ProductComparisonTable
+          sx={{
+            mt: 20,
+          }}
+        />
+
         {/* faq */}
         <PricingFaqBox sx={{ mt: 24 }} />
       </Stack>

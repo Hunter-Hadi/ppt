@@ -5,7 +5,7 @@ import { numberWithCommas } from '@/utils/dataHelper/numberHelper'
 export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
-      categoryTitle: 'pricing:features__category__best_ai_models',
+      categoryTitle: 'pricing:ab_test_v5__features_data__ai_usage',
     },
     free: null,
     basic: null,
@@ -14,15 +14,15 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__fast_text_queries__month',
-      // desc: PLAN_FEATURES_USAGE_CATEGORY_MODEL['fast_text'],
+      title: 'pricing:ab_test_v5__features_data__fast_ai_queries',
       tooltip: {
-        desc: 'pricing:features__fast_text_queries__tooltip__description',
-        imageLink: '/assets/pricing/fast-text-queries.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__fast_ai_queries__tooltip',
       },
     },
-    free: { status: 'none' },
+    free: {
+      status: 'value',
+      statusText: 'pricing:ab_test_v5__features_data__daily_limited',
+    },
     basic: {
       status: 'value',
       statusText: numberWithCommas(PLAN_USAGE_QUERIES['basic']['fast_text'], 0),
@@ -30,6 +30,9 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     pro: {
       status: 'value',
       statusText: numberWithCommas(PLAN_USAGE_QUERIES['pro']['fast_text'], 0),
+      meta: {
+        perInfo: 'pricing:payment_info__per_month',
+      },
     },
     elite: {
       status: 'value',
@@ -43,19 +46,19 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'GPT-4o-mini',
       icon: 'GPT-4o',
-      // tooltip: {
-      //   desc: 'pricing:ab_test_v5__features_data__gpt4o_mini__tooltip',
-      // },
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__gpt4o_mini__tooltip',
+      },
     },
-    free: { status: 'limit-color' },
+    free: { status: 'checked' },
     basic: {
-      status: 'checked-color',
+      status: 'checked',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -65,16 +68,19 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'Claude-3-haiku',
       icon: 'Claude3Haiku',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__claude_3_haiku__tooltip',
+      },
     },
-    free: { status: 'limit-color' },
+    free: { status: 'checked' },
     basic: {
-      status: 'checked-color',
+      status: 'checked',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -82,18 +88,21 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Gemini-pro',
-      icon: 'GeminiIcon',
+      title: 'Gemini-1.5-Flash',
+      icon: 'GeminiPro',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__gemini_1_5_flash__tooltip',
+      },
     },
-    free: { status: 'limit-color' },
+    free: { status: 'checked' },
     basic: {
-      status: 'checked-color',
+      status: 'checked',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -102,12 +111,9 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
 
   {
     features: {
-      title: 'pricing:features__advanced_text_queries__month',
-      // desc: PLAN_FEATURES_USAGE_CATEGORY_MODEL['advanced_text'],
+      title: 'pricing:ab_test_v5__features_data__smart_ai_queries',
       tooltip: {
-        desc: 'pricing:features__advanced_text_queries__tooltip__description',
-        imageLink: '/assets/pricing/advanced-text-queries.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__smart_ai_queries__tooltip',
       },
     },
     free: { status: 'none' },
@@ -124,6 +130,9 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
         PLAN_USAGE_QUERIES['pro']['advanced_text'],
         0,
       ),
+      meta: {
+        perInfo: 'pricing:payment_info__per_month',
+      },
     },
     elite: {
       status: 'value',
@@ -140,77 +149,19 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'GPT-4o',
       icon: 'GPT-4o',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'none-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'GPT-4',
-      icon: 'ChatGPT4Vision',
-      video: {
-        link: 'https://www.youtube.com/embed/mAi1D9cbGos',
-        time: '0:55',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__gpt4o__tooltip',
       },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'none-color',
+      status: 'none',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'Claude-3-opus',
-      icon: 'Claude3Opus',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'none-color',
-    },
-    pro: {
-      status: 'none-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'Claude-3-sonnet',
-      icon: 'ClaudeIcon',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'none-color',
-    },
-    pro: {
-      status: 'none-color',
-    },
-    elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -220,16 +171,19 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'Claude-3.5-sonnet',
       icon: 'Claude3_5Icon',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__claude_3_5_sonnet__tooltip',
+      },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'none-color',
+      status: 'none',
     },
     pro: {
-      status: 'none-color',
+      status: 'none',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -238,17 +192,20 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Gemini-1.5-pro',
-      icon: 'GeminiPro',
+      icon: 'GeminiIcon',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__gemini_1_5_pro__tooltip',
+      },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'none-color',
+      status: 'none',
     },
     pro: {
-      status: 'none-color',
+      status: 'none',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -256,12 +213,9 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__image_queries__month',
-      // desc: PLAN_FEATURES_USAGE_CATEGORY_MODEL['image'],
+      title: 'pricing:ab_test_v5__features_data__image_ai_queries',
       tooltip: {
-        desc: 'pricing:features__image_queries__tooltip__description',
-        imageLink: '/assets/pricing/image-queries.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__image_ai_queries__tooltip',
       },
     },
     free: { status: 'none' },
@@ -288,33 +242,28 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     features: {
       title: 'DALL·E 3',
       icon: 'DALLE',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__dall_e_3__tooltip',
+      },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'none-color',
+      status: 'none',
     },
     pro: {
-      status: 'none-color',
+      status: 'none',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
     },
   },
+
   {
     features: {
-      title: 'pricing:features__free_ai_models',
-    },
-    free: { status: 'checked' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
-  },
-  {
-    features: {
-      categoryTitle: 'pricing:features__category__writing_features',
+      categoryTitle: 'pricing:ab_test_v5__features_data__search_faster',
     },
     free: null,
     basic: null,
@@ -323,13 +272,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__ai_rewriter__title',
-      desc: 'pricing:features__ai_rewriter__description',
-      // icon: 'NewChat',
+      title: 'pricing:ab_test_v5__features_data__search_faster__ask_ai__title',
+      desc: 'pricing:ab_test_v5__features_data__search_faster__ask_ai__desc',
       tooltip: {
-        desc: 'pricing:features__ai_rewriter__tooltip__description',
-        imageLink: '/assets/pricing/ai-rewriter.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__ask_ai__tooltip',
       },
     },
     free: { status: 'checked' },
@@ -339,307 +285,11 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__ai_instant_reply__title',
-      // desc: 'pricing:features__ai_instant_reply__description',
-      // icon: 'QuickReplyIcon',
+      title:
+        'pricing:ab_test_v5__features_data__search_faster__search_with_ai__title',
+      desc: 'pricing:ab_test_v5__features_data__search_faster__search_with_ai__desc',
       tooltip: {
-        desc: 'pricing:features__ai_instant_reply__tooltip__description',
-        imageLink: '/assets/pricing/ai-instant-reply.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-      },
-    },
-    free: { status: 'none' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
-    meta: {
-      type: 'deepen',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__gmail_instant_reply',
-      icon: 'Gmail',
-      video: {
-        link: 'https://www.youtube.com/embed/fwaqJyTwefI',
-        time: '1:20',
-      },
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__outlook_instant_reply',
-      icon: 'Outlook',
-      video: {
-        link: 'https://www.youtube.com/embed/Y2yZ4wWQDno?start=14',
-        time: '1:15',
-      },
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__facebook_instant_reply',
-      icon: 'Facebook',
-      video: {
-        link: 'https://www.youtube.com/embed/zmNGKFyw3pU',
-        time: '1:19',
-      },
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__linkedin_instant_reply',
-      icon: 'LinkedIn',
-      video: {
-        link: 'https://www.youtube.com/embed/55IqqmQIBw0?start=26',
-        time: '1:27',
-      },
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__xtwitter_instant_reply',
-      icon: 'TwitterX',
-      video: {
-        link: 'https://www.youtube.com/embed/3UQaOm8sWVI',
-        time: '1:06',
-      },
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__YouTube_instant_reply',
-      icon: 'YouTube',
-      video: {
-        link: 'https://www.youtube.com/embed/D4Acc0rpR3o?start=11',
-        time: '1:38',
-      },
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__instagram_instant_reply',
-      icon: 'Instagram',
-      video: {
-        link: 'https://www.youtube.com/embed/OnRPaGn_4Ds?start=14',
-        time: '1:33',
-      },
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  // {
-  //   features: {
-  //     title: 'pricing:features__reddit_instant_reply',
-  //     icon: 'Reddit',
-  //   },
-  //   free: { status: 'none-color' },
-  //   basic: {
-  //     status: 'checked-color',
-  //   },
-  //   pro: {
-  //     status: 'checked-color',
-  //   },
-  //   elite: {
-  //     status: 'checked-color',
-  //   },
-  //   meta: {
-  //     type: 'secondary',
-  //   },
-  // },
-  {
-    features: {
-      title: 'pricing:features__whatsapp_instant_reply',
-      icon: 'WhatsApp',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__discord_instant_reply',
-      icon: 'Discord',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__telegram_instant_reply',
-      icon: 'Telegram',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__messenger_instant_reply',
-      icon: 'Messenger',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__slack_instant_reply',
-      icon: 'Slack',
-    },
-    free: { status: 'none-color' },
-    basic: {
-      status: 'checked-color',
-    },
-    pro: {
-      status: 'checked-color',
-    },
-    elite: {
-      status: 'checked-color',
-    },
-    meta: {
-      type: 'secondary',
-    },
-  },
-  {
-    features: {
-      title: 'pricing:features__ai_art__title',
-      desc: 'pricing:features__ai_art__description',
-      // icon: 'Art',
-      tooltip: {
-        desc: 'pricing:features__ai_art__tooltip__description',
-        imageLink: '/assets/pricing/ai-art.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__search_with_ai__tooltip',
       },
     },
     free: { status: 'none' },
@@ -647,45 +297,10 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
     pro: { status: 'checked' },
     elite: { status: 'checked' },
   },
+
   {
     features: {
-      title: 'pricing:features__ai_prompt_manager__title',
-      desc: 'pricing:features__ai_prompt_manager__description',
-      // icon: 'PromptManager',
-      tooltip: {
-        desc: 'pricing:features__ai_prompt_manager__tooltip__description',
-        imageLink: '/assets/pricing/ai-prompt-manager.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-      },
-      video: {
-        link: 'https://www.youtube.com/embed/CkFKtcZw5xY',
-        time: '0:47',
-      },
-    },
-    free: { status: 'checked' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
-  },
-  {
-    features: {
-      title: 'pricing:features__ai_prompts_library__title',
-      desc: 'pricing:features__ai_prompts_library__description',
-      // icon: 'PromptLibrary',
-      tooltip: {
-        desc: 'pricing:features__ai_prompts_library__tooltip__description',
-        imageLink: '/assets/pricing/ai-prompts-library.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-      },
-    },
-    free: { status: 'checked' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
-  },
-  {
-    features: {
-      categoryTitle: 'pricing:features__category__reading_features',
+      categoryTitle: 'pricing:ab_test_v5__features_data__read_faster',
     },
     free: null,
     basic: null,
@@ -694,41 +309,34 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__ai_summary_ask__title',
-      // desc: 'pricing:features__ai_summary_ask__description',
-      // icon: 'SummaryAsk',
-      tooltip: {
-        desc: 'pricing:features__ai_summary_ask__tooltip__description',
-        imageLink: '/assets/pricing/ai-summary-ask.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-      },
+      title: 'pricing:ab_test_v5__features_data__read_faster__summary_page',
     },
-    free: { status: 'none' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
     meta: {
       type: 'deepen',
     },
   },
   {
     features: {
-      title: 'pricing:features__summarize_ask_pdf',
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__summary_page__summarize_pdf',
       icon: 'PDFViewerIcon',
-      video: {
-        link: 'https://www.youtube.com/embed/72UM1jMaJhY',
-        time: '0:43',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__summarize_pdf__tooltip',
       },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'checked-color',
+      status: 'none',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -736,22 +344,22 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__summarize_ask_youTube_video',
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__summary_page__summarize_video',
       icon: 'YouTube',
-      video: {
-        link: 'https://www.youtube.com/embed/P60_lPz5yIU',
-        time: '0:15',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__summarize_video__tooltip',
       },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'checked-color',
+      status: 'none',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -759,18 +367,45 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__summarize_ask_email',
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__summary_page__summarize_article',
+      icon: 'Article',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__summarize_article__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__summary_page__summarize_email',
       icon: 'EmailIcon',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__summarize_email__tooltip',
+      },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'checked-color',
+      status: 'none',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -778,22 +413,57 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__summarize_ask_any_webpage',
-      icon: 'LanguageIcon',
-      video: {
-        link: 'https://www.youtube.com/embed/72UM1jMaJhY',
-        time: '0:43',
+      title: 'pricing:ab_test_v5__features_data__create_your_own_prompts',
+      icon: 'Add',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__read_faster__summary_page__create_own_prompts',
       },
     },
-    free: { status: 'none-color' },
+    free: { status: 'none' },
     basic: {
-      status: 'checked-color',
+      status: 'none',
     },
     pro: {
-      status: 'checked-color',
+      status: 'checked',
     },
     elite: {
-      status: 'checked-color',
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__read_faster__chat_with_page',
+    },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__chat_with_page__chat_with_pdf',
+      icon: 'PDFViewerIcon',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__chat_with_pdf__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
     },
     meta: {
       type: 'secondary',
@@ -801,39 +471,228 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__ai_reading_assistant__title',
-      desc: 'pricing:features__ai_reading_assistant__description',
-      // icon: 'ReadingAssistant',
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__chat_with_page__chat_with_video',
+      icon: 'YouTube',
       tooltip: {
-        desc: 'pricing:features__ai_reading_assistant__tooltip__description',
-        imageLink: '/assets/pricing/ai-reading-assistant.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__chat_with_video__tooltip',
       },
     },
-    free: { status: 'checked' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
   },
   {
     features: {
-      title: 'pricing:features__ai_translator__title',
-      desc: 'pricing:features__ai_translator__description',
-      // icon: 'Translator',
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__chat_with_page__chat_with_article',
+      icon: 'Article',
       tooltip: {
-        desc: 'pricing:features__ai_translator__tooltip__description',
-        imageLink: '/assets/pricing/ai-translator.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__chat_with_article__tooltip',
       },
     },
-    free: { status: 'checked' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
   },
   {
     features: {
-      categoryTitle: 'pricing:features__category__research_features',
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__chat_with_page__chat_with_email',
+      icon: 'EmailIcon',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__chat_with_email__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__chat_with_page__chat_with_screenshot',
+      icon: 'Screenshot',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__chat_with_screenshot__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__reading_assistant',
+    },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__reading_assistant__summarize',
+      icon: 'SummaryAsk',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__summarize__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__reading_assistant__explain',
+      icon: 'QuestionMark',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__explain__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__reading_assistant__translate',
+      icon: 'Translator',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__translate__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__read_faster__reading_assistant__bilingual',
+      icon: 'Translator',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__bilingual__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__create_your_own_prompts',
+      icon: 'Add',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__read_faster__reading_assistant__create_own_prompts',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
+  {
+    features: {
+      categoryTitle: 'pricing:ab_test_v5__features_data__write_faster',
     },
     free: null,
     basic: null,
@@ -842,40 +701,622 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'pricing:features__ai_chat__title',
-      desc: 'pricing:features__ai_chat__description',
-      // icon: 'ChatBubble',
-      tooltip: {
-        desc: 'pricing:features__ai_chat__tooltip__description',
-        imageLink: '/assets/pricing/ai-chat.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
-      },
+      title: 'pricing:ab_test_v5__features_data__write_faster__ai_rewriter',
     },
-    free: { status: 'checked' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
-    elite: { status: 'checked' },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
+    meta: {
+      type: 'deepen',
+    },
   },
   {
     features: {
-      title: 'pricing:features__ai_search__title',
-      desc: 'pricing:features__ai_search__description',
-      // icon: 'Search',
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing',
+      icon: 'Magic',
       tooltip: {
-        desc: 'pricing:features__ai_search__tooltip__description',
-        imageLink: '/assets/pricing/ai-search.png',
-        // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
+        desc: 'pricing:ab_test_v5__features_data__improve_writing__tooltip',
       },
-      video: {
-        link: 'https://www.youtube.com/embed/1uZuyqqySO0?start=17',
-        time: '1:29',
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__proofread',
+      icon: 'Done',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__proofread__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__translate',
+      icon: 'Translator',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__ai_rewriter__translate__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__paraphrase',
+      icon: 'AutoRenew',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__paraphrase__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__change_tone_and_style',
+      icon: 'Voice',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__change_tone_and_style__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__simplify_language',
+      icon: 'SimplifyLanguage',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__simplify_language__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__create_your_own_prompts',
+      icon: 'Add',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__create_own_prompts',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__create_ai_art__title',
+      desc: 'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__create_ai_art__desc',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__write_faster__ai_rewriter__create_ai_art__tooltip',
       },
     },
     free: { status: 'none' },
-    basic: { status: 'checked' },
-    pro: { status: 'checked' },
+    basic: { status: 'none' },
+    pro: { status: 'none' },
     elite: { status: 'checked' },
   },
+
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__write_faster__create_draft',
+    },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__create_draft_ai_prompt_library',
+      icon: 'OneClickPromptIcon',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__write_faster__create_draft_ai_prompt_library__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__create_your_own_prompts',
+      icon: 'Add',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__write_faster__create_draft__create_own_prompts',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__email_instant_reply',
+    },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title: 'Gmail',
+      icon: 'Gmail',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__gmail__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Outlook',
+      icon: 'Outlook',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__outlook__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__create_your_own_prompts',
+      icon: 'Add',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__write_faster__email_instant_reply__create_own_prompts',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__social_media_instant_reply',
+    },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title: 'LinkedIn',
+      icon: 'LinkedIn',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__linkedin__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Facebook',
+      icon: 'Facebook',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__facebook__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'YouTube',
+      icon: 'YouTube',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__youtube__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'X/Twitter',
+      icon: 'TwitterX',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__x_twitter__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
+  {
+    features: {
+      title: 'Instagram',
+      icon: 'Instagram',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__instagram__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__create_your_own_prompts',
+      icon: 'Add',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__write_faster__social_media_instant_reply__create_own_prompts',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
+  {
+    features: {
+      title:
+        'pricing:ab_test_v5__features_data__write_faster__messaging_instant_reply',
+    },
+    free: null,
+    basic: null,
+    pro: null,
+    elite: null,
+    meta: {
+      type: 'deepen',
+    },
+  },
+  {
+    features: {
+      title: 'WhatsApp',
+      icon: 'WhatsApp',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__whatsapp__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Slack',
+      icon: 'Slack',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__slack__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Discord',
+      icon: 'Discord',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__discord__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Messenger',
+      icon: 'Messenger',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__messenger__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Telegram',
+      icon: 'Telegram',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__telegram__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'pricing:ab_test_v5__features_data__create_your_own_prompts',
+      icon: 'Add',
+      tooltip: {
+        desc: 'pricing:ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+
   {
     features: {
       categoryTitle: 'pricing:features__category__webchatgpt_features',
@@ -892,13 +1333,13 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
       // icon: 'ProSearch',
       tooltip: {
         desc: 'pricing:features__pro_search__tooltip__description',
-        imageLink: '/assets/pricing/webchatgpt-pro-search.png',
+        // imageLink: '/assets/images/pricing/webchatgpt-pro-search.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
-      video: {
-        link: 'https://www.youtube.com/embed/uDMJNf841dc',
-        time: '1:04',
-      },
+      // video: {
+      //   link: 'https://www.youtube.com/embed/uDMJNf841dc',
+      //   time: '1:04',
+      // },
     },
     free: { status: 'none' },
     basic: { status: 'checked' },
@@ -912,7 +1353,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
       // icon: 'AdvancedOption',
       tooltip: {
         desc: 'pricing:features__advanced_options__tooltip__description',
-        imageLink: '/assets/pricing/webchatgpt-advanced-options.png',
+        // imageLink: '/assets/images/pricing/webchatgpt-advanced-options.png',
         // videoUrl: 'https://www.youtube.com/embed/zgq2DKlwEYk',
       },
     },

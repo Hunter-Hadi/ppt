@@ -160,6 +160,7 @@ const FeaturesTableContentCell: FC<IProps> = ({
                 color='text.primary'
               >
                 {t(data.statusText)}
+                {data.meta?.perInfo && ` ${t(data.meta?.perInfo)}`}
               </Typography>
               {data.tooltip && (
                 <Tooltip
@@ -177,8 +178,8 @@ const FeaturesTableContentCell: FC<IProps> = ({
                     alignItems={'center'}
                     justifyContent='center'
                     borderRadius={'50%'}
-                    width={20}
-                    height={20}
+                    width={16}
+                    height={16}
                   >
                     <TooltipIcon />
                   </Stack>
@@ -208,7 +209,6 @@ const FeaturesTableContentCell: FC<IProps> = ({
           }}
         >
           <Typography
-            component='h2'
             variant='custom'
             fontSize={20}
             lineHeight={1.4}
@@ -329,8 +329,8 @@ const FeaturesTableContentCell: FC<IProps> = ({
                   alignItems={'center'}
                   justifyContent='center'
                   borderRadius={'50%'}
-                  width={20}
-                  height={20}
+                  width={16}
+                  height={16}
                 >
                   <TooltipIcon />
                 </Stack>

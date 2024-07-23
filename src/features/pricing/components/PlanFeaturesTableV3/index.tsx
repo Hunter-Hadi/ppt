@@ -1,20 +1,20 @@
-import { Box, debounce, Stack, SxProps } from '@mui/material';
-import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
-import { useRecoilValue } from 'recoil';
+import { Box, debounce, Stack, SxProps } from '@mui/material'
+import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
+import { useRecoilValue } from 'recoil'
 
-import { AppHeaderHeightState } from '@/store';
+import { AppHeaderHeightState } from '@/store'
 
-import PaymentTypeSwitch from '../PaymentTypeSwitch';
-import FeaturesTableContent from './FeaturesTableContent';
-import FeaturesTableHeader from './FeaturesTableHeader';
-import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
+import PaymentTypeSwitch from '../PaymentTypeSwitch'
+import FeaturesTableContent from './FeaturesTableContent'
+import FeaturesTableHeader from './FeaturesTableHeader'
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type'
 
 export interface IPlanFeaturesTableProps {
-  noFixedHeader?: boolean;
-  sx?: SxProps;
-  popularPlan?: IFeatureColumnType;
-  needToHiddenPlan?: IFeatureColumnType[];
-  notShowPaymentSwitch?: boolean;
+  noFixedHeader?: boolean
+  sx?: SxProps
+  popularPlan?: IFeatureColumnType
+  needToHiddenPlan?: IFeatureColumnType[]
+  notShowPaymentSwitch?: boolean
 }
 
 const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
@@ -25,22 +25,22 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
   notShowPaymentSwitch = false,
 }) => {
   // fixed table header 的容器
-  const tableFixedHeaderContainerRef = useRef<HTMLElement>(null);
+  const tableFixedHeaderContainerRef = useRef<HTMLElement>(null)
 
   // table container 容器
-  const tableContainerRef = useRef<HTMLElement>(null);
+  const tableContainerRef = useRef<HTMLElement>(null)
 
   // 是否显示 fixed table header
-  const [showFixedHeader, setShowFixedHeader] = useState(false);
+  const [showFixedHeader, setShowFixedHeader] = useState(false)
 
   // fixed table header 的宽度
   // 需要在 resize 时，同步 table container 容器的宽度
-  const [fixedHeaderWidth, setFixedHeaderWidth] = useState<number>(0);
+  const [fixedHeaderWidth, setFixedHeaderWidth] = useState<number>(0)
 
   // fixed table header 的 left 值
-  const [fixedHeaderLeft, setFixedHeaderLeft] = useState<number>(0);
+  const [fixedHeaderLeft, setFixedHeaderLeft] = useState<number>(0)
 
-  const appHeaderHeight = useRecoilValue(AppHeaderHeightState);
+  const appHeaderHeight = useRecoilValue(AppHeaderHeightState)
 
   const featureTableColumns = useMemo<IPlanFeatureColumnData[]>(() => {
     const columnType: IFeatureColumnType[] = [
@@ -49,13 +49,14 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
       'pro',
       // 'basic',
       'free',
-    ];
+    ]
     const filteredColumnType = columnType.filter(
       (type) => !needToHiddenPlan.includes(type),
-    );
+    )
 
     // features 列的宽度比例
-    const featuresColumnWidthRatio = 0.28;
+    const featuresColumnWidthRatio = 0.28
+
     // 不同 column type 的 meta 信息
     const columnMetaMap: Record<
       IFeatureColumnType,
@@ -72,7 +73,7 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
         compareMonthlyPrice: true,
       },
       free: {},
-    };
+    }
 
     return filteredColumnType.map((type) => {
       const width =
@@ -82,7 +83,7 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
               ((1 - featuresColumnWidthRatio) /
                 (filteredColumnType.length - 1)) *
                 100,
-            )}%`;
+            )}%`
 
       return {
         key: type,
@@ -95,86 +96,86 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
             sm: width,
           },
         },
-      };
-    });
-  }, [needToHiddenPlan]);
+      }
+    })
+  }, [needToHiddenPlan])
 
   useEffect(() => {
     // 初始化 fixed table header 的宽度
     if (tableContainerRef.current) {
-      setFixedHeaderWidth(tableContainerRef.current?.clientWidth);
+      setFixedHeaderWidth(tableContainerRef.current?.clientWidth)
       const tableContainerRect =
-        tableContainerRef.current.getBoundingClientRect();
-      setFixedHeaderLeft(tableContainerRect.left);
+        tableContainerRef.current.getBoundingClientRect()
+      setFixedHeaderLeft(tableContainerRect.left)
     }
-  }, []);
+  }, [])
 
   useEffect(() => {
     const resizeHandle = () => {
       if (tableContainerRef.current) {
-        setFixedHeaderWidth(tableContainerRef.current?.clientWidth);
+        setFixedHeaderWidth(tableContainerRef.current?.clientWidth)
         const tableContainerRect =
-          tableContainerRef.current.getBoundingClientRect();
-        setFixedHeaderLeft(tableContainerRect.left);
+          tableContainerRef.current.getBoundingClientRect()
+        setFixedHeaderLeft(tableContainerRect.left)
       }
-    };
+    }
 
-    const debouncedHandle = debounce(resizeHandle, 200);
+    const debouncedHandle = debounce(resizeHandle, 200)
 
-    window.addEventListener('resize', debouncedHandle);
+    window.addEventListener('resize', debouncedHandle)
 
     return () => {
-      window.removeEventListener('resize', debouncedHandle);
-    };
-  }, []);
+      window.removeEventListener('resize', debouncedHandle)
+    }
+  }, [])
 
   useEffect(() => {
     // window.scroll 纵向滚动的监听
     const scrollHandler = () => {
-      const tableContainer = tableContainerRef.current;
-      if (!tableContainer) return;
-      const tableContainerRect = tableContainer.getBoundingClientRect();
+      const tableContainer = tableContainerRef.current
+      if (!tableContainer) return
+      const tableContainerRect = tableContainer.getBoundingClientRect()
 
       setShowFixedHeader(
         tableContainerRect.top <= 30 && tableContainerRect.bottom >= 400,
-      );
+      )
 
-      const tableContainerEl = tableContainerRef.current;
+      const tableContainerEl = tableContainerRef.current
 
       if (tableContainerEl && tableFixedHeaderContainerRef.current) {
-        const scrollLeft = tableContainerEl.scrollLeft;
-        tableFixedHeaderContainerRef.current.scrollLeft = scrollLeft;
+        const scrollLeft = tableContainerEl.scrollLeft
+        tableFixedHeaderContainerRef.current.scrollLeft = scrollLeft
       }
-    };
+    }
 
-    window.addEventListener('scroll', scrollHandler);
+    window.addEventListener('scroll', scrollHandler)
 
     return () => {
-      window.removeEventListener('scroll', scrollHandler);
-    };
-  }, []);
+      window.removeEventListener('scroll', scrollHandler)
+    }
+  }, [])
 
   useEffect(() => {
     // table container 横向滚动的监听
-    const tableContainerEl = tableContainerRef.current;
+    const tableContainerEl = tableContainerRef.current
 
     if (!tableContainerEl) {
-      return;
+      return
     }
 
     const horizontalScrollHandler = () => {
       if (tableFixedHeaderContainerRef.current) {
-        const scrollLeft = tableContainerEl.scrollLeft;
-        tableFixedHeaderContainerRef.current.scrollLeft = scrollLeft;
+        const scrollLeft = tableContainerEl.scrollLeft
+        tableFixedHeaderContainerRef.current.scrollLeft = scrollLeft
       }
-    };
+    }
 
-    tableContainerEl.addEventListener('scroll', horizontalScrollHandler);
+    tableContainerEl.addEventListener('scroll', horizontalScrollHandler)
 
     return () => {
-      tableContainerEl.removeEventListener('scroll', horizontalScrollHandler);
-    };
-  }, []);
+      tableContainerEl.removeEventListener('scroll', horizontalScrollHandler)
+    }
+  }, [])
 
   return (
     <>
@@ -185,7 +186,7 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
           sx={{
             position: 'fixed',
             top: appHeaderHeight,
-            zIndex: (t) => t.zIndex.drawer,
+            zIndex: (t) => t.zIndex.drawer + 10,
             left: fixedHeaderLeft,
             right: 0,
             width: fixedHeaderWidth,
@@ -208,7 +209,7 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
             }}
             ref={tableFixedHeaderContainerRef}
             onScroll={(e) => {
-              e.preventDefault();
+              e.preventDefault()
             }}
           >
             <FeaturesTableHeader
@@ -252,7 +253,7 @@ const PlanFeaturesTable: FC<IPlanFeaturesTableProps> = ({
         </Box>
       </Stack>
     </>
-  );
-};
+  )
+}
 
-export default PlanFeaturesTable;
+export default PlanFeaturesTable
