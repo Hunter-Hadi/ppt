@@ -6,8 +6,9 @@ import React from 'react'
 import ToolsDetail from '@/page_components/PdfToolsPages/components/ToolsDetail'
 import { toolsObjectData } from '@/page_components/PdfToolsPages/constant'
 
-const UrlKeyToolsDetail = ({ testKey }) => {
-  return <ToolsDetail urlKey={testKey} />
+const UrlKeyToolsDetail = () => {
+  return <ToolsDetail urlKey={'pdf-to-png'} />
+  // return <ToolsDetail urlKey={testKey} />
 }
 export default UrlKeyToolsDetail
 
@@ -34,7 +35,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
     }
     return {
       props: {
-        testKey: 'pdf-to-png',
         urlKey: urlKey,
         updatedAt: Date.now(),
         ...translationData,
@@ -45,7 +45,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
     return {
       props: {
         urlKey: urlKey,
-        testKey: 'pdf-to-png',
         updatedAt: Date.now(),
         ...translationData,
       },
