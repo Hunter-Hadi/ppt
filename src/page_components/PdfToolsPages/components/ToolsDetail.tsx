@@ -83,6 +83,7 @@ export const TopToolsDetailView = createContext({
   setIsSimplicityView: (value: boolean) => {},
 })
 const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
+  console.log(`urlKey`, urlKey)
   const [isSimplicityView, setIsSimplicityView] = useState(false)
   const currentToolData = useMemo(() => toolsObjectData[urlKey], [urlKey])
   const { t } = useTranslation()
@@ -162,7 +163,6 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       <TopToolsDetailView.Provider
         value={{ isSimplicityView, setIsSimplicityView }}
       >
-        {' '}
         <Box
           sx={{
             display: 'flex',
@@ -178,9 +178,16 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             isSimplicityView={isSimplicityView}
             description={currentToolData.secondaryDescription}
           />
+          <FunctionalityPdfToImageMain toType={'pdf-to-png'} />
+          ====
           <h1>urlKey: {urlKey}</h1>
           <Suspense
-            fallback={<AppLoadingLayout loading loadingText='test 1' />}
+            fallback={
+              <AppLoadingLayout
+                loading
+                loadingText='test 11111111111111111111'
+              />
+            }
           >
             <FunctionalityPdfToImageMain toType={'pdf-to-png'} />
             {/* {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (

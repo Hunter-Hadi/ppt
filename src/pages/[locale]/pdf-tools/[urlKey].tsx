@@ -20,10 +20,9 @@ const UrlKeyToolsDetail = ({
   urlKey: anyLangPdfToolKey,
   enPdfToolKey: propEnPdfToolKey,
 }) => {
+  return <ToolsDetail urlKey={'pdf-to-png'} />
   const { query } = useRouter()
   const locale = query.locale as I18nTypes
-
-  return <ToolsDetail urlKey={'pdf-to-png'} />
 
   const { isNotFound } = usePdfToolsAutoRedirectI18nPathname(anyLangPdfToolKey)
   const enPdfToolKey = findEnPdfToolKeyWithLocale(
