@@ -80,7 +80,7 @@ export type ICustomIconType =
   | 'TwitterX'
   | 'Unhappy'
   | 'YouTube'
-  | 'Claude35Sonnet'
+  | 'Claude3-5Sonnet'
 
 interface IconType {
   icon: ICustomIconType
