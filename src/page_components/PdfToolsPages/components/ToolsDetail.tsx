@@ -1,4 +1,5 @@
 import { Box, Typography } from '@mui/material'
+import dynamic from 'next/dynamic'
 import { useTranslation } from 'next-i18next'
 import React, { createContext, useState } from 'react'
 import { FC, lazy, Suspense, useMemo } from 'react'
@@ -15,12 +16,22 @@ import {
 } from '@/page_components/PdfToolsPages/constant'
 import { allPdfToolsDetailDescriptionObject } from '@/page_components/PdfToolsPages/constant/toolsDetailDescriptionData'
 
-const FunctionalityPdfToImageMain = lazy(
+const FunctionalityPdfToImageMain = dynamic(
   () =>
     import(
       '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImageMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
+
+// const FunctionalityPdfToImageMain = lazy(
+//   () =>
+//     import(
+//       '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImageMain'
+//     ),
+// )
 const FunctionalityPdfMergeMain = lazy(
   () =>
     import(
@@ -183,7 +194,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
               <FunctionalityPdfToImageMain toType={urlKey} />
             )}
-            {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
+            {/* {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
             {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
             {(urlKey === 'png-to-pdf' ||
               urlKey === 'jpeg-to-pdf' ||
@@ -195,7 +206,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
             {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
             {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
-            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
+            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />} */}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (
