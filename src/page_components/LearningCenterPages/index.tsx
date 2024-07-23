@@ -6,25 +6,35 @@ import React, { useEffect } from 'react'
 import AppContainer from '@/app_layout/AppContainer'
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import { WWW_PROJECT_LINK } from '@/global_constants'
 import BasicUsage from '@/page_components/LearningCenterPages/BasicUsage'
 import Features from '@/page_components/LearningCenterPages/Features'
 import Introduction from '@/page_components/LearningCenterPages/introduction'
 import LearningCenterSideMenu from '@/page_components/LearningCenterPages/LearningCenterSideMenu'
 
 const LearningCenterPages = () => {
+  const { t } = useTranslation()
   const { replace } = useRouter()
+
   useEffect(() => {
     replace('/docs/help/')
   }, [replace])
+
   return (
-    <AppLoadingLayout
-      loading
-      sx={{
-        height: '100vh',
-      }}
-    />
+    <>
+      <AppDefaultSeoLayout
+        title={t('seo:learning_center__title')}
+        canonical={`${WWW_PROJECT_LINK}/docs/help/`}
+      />
+
+      <AppLoadingLayout
+        loading
+        sx={{
+          height: '100vh',
+        }}
+      />
+    </>
   )
-  const { t } = useTranslation()
 
   return (
     <AppContainer
