@@ -53,7 +53,7 @@ const PricingPages = () => {
           boxSizing: 'border-box',
         }}
       >
-        <PricingTopBadge />
+        <PricingTopBadge titleComponent={'h1'} />
 
         {/* better plans */}
         {/* <Stack alignItems='center'>
@@ -153,7 +153,7 @@ const PricingPages = () => {
               sm: 48,
             }}
             fontWeight={700}
-            component={'h1'}
+            component={'h2'}
             textAlign={'center'}
             // mb={4}
           >

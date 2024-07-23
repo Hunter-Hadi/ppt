@@ -2,14 +2,18 @@ import StarIcon from '@mui/icons-material/Star'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import { useTranslation } from 'next-i18next'
-import React from 'react'
+import React, { FC } from 'react'
 
 import CustomIcon from '@/components/CustomIcon'
 import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
 import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator'
 import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants'
 
-const PricingTopBadge = () => {
+interface IPricingTopBadge {
+  titleComponent?: React.ElementType
+}
+
+const PricingTopBadge: FC<IPricingTopBadge> = ({ titleComponent = 'span' }) => {
   const { t } = useTranslation()
   return (
     <Stack py={2} pb={6} spacing={3} maxWidth={1250} mx='auto'>
@@ -108,6 +112,7 @@ const PricingTopBadge = () => {
           fontSize={48}
           lineHeight={1.5}
           fontWeight={700}
+          component={titleComponent}
         >
           {t('pricing:ab_test_v5__top_banner__title')}
         </Typography>
