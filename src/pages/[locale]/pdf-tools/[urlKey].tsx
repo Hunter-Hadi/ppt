@@ -23,7 +23,7 @@ const UrlKeyToolsDetail = ({
   const { query } = useRouter()
   const locale = query.locale as I18nTypes
 
-  return <ToolsDetail urlKey={'heic-to-pdf'} />
+  return <ToolsDetail urlKey={'pdf-to-png'} />
 
   const { isNotFound } = usePdfToolsAutoRedirectI18nPathname(anyLangPdfToolKey)
   const enPdfToolKey = findEnPdfToolKeyWithLocale(

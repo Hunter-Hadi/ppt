@@ -33,6 +33,12 @@ const FunctionalityPdfToImageMain: FC<IFunctionalityPdfToImageProps> = ({
         return 'png'
     }
   }, [toType])
+
+  return (
+    <>
+      <h1>toType: {toType}</h1>
+    </>
+  )
   return (
     <Stack
       flexDirection='column'
