@@ -1,24 +1,24 @@
-import { Stack } from '@mui/material';
-import React, { lazy, Suspense, useState } from 'react';
+import { Stack } from '@mui/material'
+import React, { lazy, Suspense, useState } from 'react'
 
-import AppLoadingLayout from '@/features/common/components/AppLoadingLayout';
-import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton';
+import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
+import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton'
 
 const FunctionalityOcrPdfDetail = lazy(
   () =>
     import(
       '@/features/functionality_ocr_pdf/components/FunctionalityOcrPdfDetail'
     ),
-);
+)
 
 const FunctionalityOcrPdfMain = () => {
-  const [file, setFile] = useState<File | null>(null); //文件
+  const [file, setFile] = useState<File | null>(null) //文件
   const onUploadFile = async (fileList: FileList) => {
     //用户上传，读取pdf文件显示的图片列表
     if (fileList && fileList.length > 0) {
-      setFile(fileList[0]);
+      setFile(fileList[0])
     }
-  };
+  }
 
   return (
     <Stack
@@ -39,6 +39,6 @@ const FunctionalityOcrPdfMain = () => {
         </Suspense>
       )}
     </Stack>
-  );
-};
-export default FunctionalityOcrPdfMain;
+  )
+}
+export default FunctionalityOcrPdfMain

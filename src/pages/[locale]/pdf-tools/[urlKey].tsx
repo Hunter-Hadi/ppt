@@ -16,7 +16,10 @@ import {
   getPdfToolKeyWithLocale,
 } from '@/page_components/PdfToolsPages/utils'
 
-const UrlKeyToolsDetail = ({ urlKey: anyLangPdfToolKey }) => {
+const UrlKeyToolsDetail = ({
+  urlKey: anyLangPdfToolKey,
+  // enPdfToolKey: propEnPdfToolKey,
+}) => {
   const { query } = useRouter()
   const locale = query.locale as I18nTypes
 
