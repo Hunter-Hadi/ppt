@@ -178,8 +178,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             isSimplicityView={isSimplicityView}
             description={currentToolData.secondaryDescription}
           />
-          <FunctionalityPdfToImageMain toType={'pdf-to-png'} />
-          ====
+
           <h1>urlKey: {urlKey}</h1>
           <Suspense
             fallback={
@@ -189,7 +188,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
               />
             }
           >
-            <FunctionalityPdfToImageMain toType={'pdf-to-png'} />
+            <p>in Suspense</p>
+            <h1>toType urlKey : {urlKey}</h1>
+
+            {/* <FunctionalityPdfToImageMain toType={'pdf-to-png'} /> */}
             {/* {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
             )}
             {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
