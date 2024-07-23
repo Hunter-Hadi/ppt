@@ -39,7 +39,7 @@ const FunctionalityPdfMergeMain = () => {
         />
       )}
       {fileList && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 5' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityPdfMergeDetail
             fileList={fileList}
             onRemoveFile={() => setFileList(null)}

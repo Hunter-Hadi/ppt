@@ -31,7 +31,7 @@ const FunctionalityPdfToHtmlMain = () => {
     >
       {!file && <FunctionalityCommonUploadButton onChange={onUploadFile} />}
       {file && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 7' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityPdfToHtmlDetail
             file={file}
             onRemoveFile={() => setFile(null)}

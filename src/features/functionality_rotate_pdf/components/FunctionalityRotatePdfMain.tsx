@@ -38,7 +38,7 @@ const FunctionalityRotatePdfMain = () => {
         />
       )}
       {file && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 8' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityRotatePdfDetail
             file={file}
             onRemoveFile={() => setFile(null)}

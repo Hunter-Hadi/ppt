@@ -54,7 +54,7 @@ const FunctionalityImageToPdfMain: FC<IFunctionalityImageToPdfMainProps> = ({
         />
       )}
       {fileList && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 2' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityImageToPdfDetail
             fileList={fileList}
             accept={accept}

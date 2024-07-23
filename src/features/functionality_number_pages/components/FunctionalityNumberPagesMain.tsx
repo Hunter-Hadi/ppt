@@ -31,7 +31,7 @@ const FunctionalityNumberPagesMain = () => {
     >
       {!file && <FunctionalityCommonUploadButton onChange={onUploadFile} />}
       {file && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 3' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityNumberPagesDetail
             file={file}
             onRemoveFile={() => setFile(null)}

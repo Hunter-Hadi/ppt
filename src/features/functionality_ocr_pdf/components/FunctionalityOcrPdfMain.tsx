@@ -31,7 +31,7 @@ const FunctionalityOcrPdfMain = () => {
     >
       {!file && <FunctionalityCommonUploadButton onChange={onUploadFile} />}
       {file && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 4' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityOcrPdfDetail
             file={file}
             onRemoveFile={() => setFile(null)}

@@ -84,7 +84,7 @@ const FunctionalitySignPdfMain = () => {
         />
       )}
       {fileData && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 9' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalitySignPdfDetail
             file={fileData}
             onClearReturn={onClearReturn}

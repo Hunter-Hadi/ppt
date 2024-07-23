@@ -38,7 +38,7 @@ const FunctionalityPdfSplitMain = () => {
         />
       )}
       {file && (
-        <Suspense fallback={<AppLoadingLayout loading loadingText='test 6' />}>
+        <Suspense fallback={<AppLoadingLayout loading />}>
           <FunctionalityPdfSplitDetail
             file={file}
             onRemoveFile={() => setFile(null)}
