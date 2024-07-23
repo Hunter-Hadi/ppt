@@ -1,49 +1,51 @@
+import { useRouter } from 'next/router'
 import { GetStaticPaths, GetStaticProps } from 'next/types'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { ParsedUrlQuery } from 'querystring'
 import React from 'react'
 
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import { i18nLocales } from '@/i18n/utils'
 import { I18nTypes } from '@/packages/common'
+import Custom404 from '@/page_components/Custom404'
 import ToolsDetail from '@/page_components/PdfToolsPages/components/ToolsDetail'
 import { toolsObjectData } from '@/page_components/PdfToolsPages/constant'
-import { getPdfToolKeyWithLocale } from '@/page_components/PdfToolsPages/utils'
+import usePdfToolsAutoRedirectI18nPathname from '@/page_components/PdfToolsPages/hooks/usePdfToolsAutoRedirectI18nPathname'
+import {
+  findEnPdfToolKeyWithLocale,
+  getPdfToolKeyWithLocale,
+} from '@/page_components/PdfToolsPages/utils'
 
-const UrlKeyToolsDetail = () =>
-  // {
-  //   testKey,
-  //   // urlKey: anyLangPdfToolKey,
-  //   // enPdfToolKey: propEnPdfToolKey,
-  // }
-  {
-    return <ToolsDetail urlKey={'pdf-to-png'} />
-    // return <ToolsDetail urlKey={'pdf-to-png'} />
-    // const { query } = useRouter()
-    // const locale = query.locale as I18nTypes
+const UrlKeyToolsDetail = ({
+  urlKey: anyLangPdfToolKey,
+  // enPdfToolKey: propEnPdfToolKey,
+}) => {
+  const { query } = useRouter()
+  const locale = query.locale as I18nTypes
 
-    // const { isNotFound } = usePdfToolsAutoRedirectI18nPathname(anyLangPdfToolKey)
-    // const enPdfToolKey = findEnPdfToolKeyWithLocale(
-    //   anyLangPdfToolKey as string,
-    //   locale as I18nTypes,
-    // )
+  const { isNotFound } = usePdfToolsAutoRedirectI18nPathname(anyLangPdfToolKey)
+  const enPdfToolKey = findEnPdfToolKeyWithLocale(
+    anyLangPdfToolKey as string,
+    locale as I18nTypes,
+  )
 
-    // if (propEnPdfToolKey || enPdfToolKey) {
-    //   return <ToolsDetail urlKey={propEnPdfToolKey ?? enPdfToolKey} />
-    // }
-
-    // if (isNotFound) {
-    //   return <Custom404 />
-    // }
-
-    // return (
-    //   <AppLoadingLayout
-    //     loading
-    //     sx={{
-    //       height: '40vh',
-    //     }}
-    //   />
-    // )
+  if (enPdfToolKey) {
+    return <ToolsDetail urlKey={enPdfToolKey} />
   }
+
+  if (isNotFound) {
+    return <Custom404 />
+  }
+
+  return (
+    <AppLoadingLayout
+      loading
+      sx={{
+        height: '40vh',
+      }}
+    />
+  )
+}
 export default UrlKeyToolsDetail
 
 export const getStaticPaths: GetStaticPaths = async () => {

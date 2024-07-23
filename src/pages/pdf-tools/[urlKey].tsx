@@ -6,9 +6,8 @@ import React from 'react'
 import ToolsDetail from '@/page_components/PdfToolsPages/components/ToolsDetail'
 import { toolsObjectData } from '@/page_components/PdfToolsPages/constant'
 
-const UrlKeyToolsDetail = () => {
-  return <ToolsDetail urlKey={'pdf-to-png'} />
-  // return <ToolsDetail urlKey={testKey} />
+const UrlKeyToolsDetail = ({ urlKey }) => {
+  return <ToolsDetail urlKey={urlKey} />
 }
 export default UrlKeyToolsDetail
 

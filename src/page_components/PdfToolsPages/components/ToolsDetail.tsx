@@ -2,7 +2,7 @@ import { Box, Typography } from '@mui/material'
 import dynamic from 'next/dynamic'
 import { useTranslation } from 'next-i18next'
 import React, { createContext, useState } from 'react'
-import { FC, lazy, Suspense, useMemo } from 'react'
+import { FC, Suspense, useMemo } from 'react'
 
 import AppContainer from '@/app_layout/AppContainer'
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
@@ -26,65 +26,86 @@ const FunctionalityPdfToImageMain = dynamic(
   },
 )
 
-// const FunctionalityPdfToImageMain = lazy(
-//   () =>
-//     import(
-//       '@/features/functionality_pdf_to_image/components/FunctionalityPdfToImageMain'
-//     ),
-// )
-const FunctionalityPdfMergeMain = lazy(
+const FunctionalityPdfMergeMain = dynamic(
   () =>
     import(
       '@/features/functionality_pdf_merge/components/FunctionalityPdfMergeMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalityPdfSplitMain = lazy(
+const FunctionalityPdfSplitMain = dynamic(
   () =>
     import(
       '@/features/functionality_pdf_split/components/FunctionalityPdfSplitMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalityPdfToHtmlMain = lazy(
+const FunctionalityPdfToHtmlMain = dynamic(
   () =>
     import(
       '@/features/functionality_pdf_to_html/components/FunctionalityPdfToHtmlMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalitySignPdfMain = lazy(
+const FunctionalitySignPdfMain = dynamic(
   () =>
     import(
       '@/features/functionality_sign_pdf/components/FunctionalitySignPdfMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalityCompressPdfMain = lazy(
+const FunctionalityCompressPdfMain = dynamic(
   () =>
     import(
       '@/features/functionality_compress_pdf/components/FunctionalityCompressPdfMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalityOcrPdfMain = lazy(
+const FunctionalityOcrPdfMain = dynamic(
   () =>
     import(
       '@/features/functionality_ocr_pdf/components/FunctionalityOcrPdfMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalityNumberPagesMain = lazy(
+const FunctionalityNumberPagesMain = dynamic(
   () =>
     import(
       '@/features/functionality_number_pages/components/FunctionalityNumberPagesMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalityRotatePdfMain = lazy(
+const FunctionalityRotatePdfMain = dynamic(
   () =>
     import(
       '@/features/functionality_rotate_pdf/components/FunctionalityRotatePdfMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
-const FunctionalityImageToPdfMain = lazy(
+const FunctionalityImageToPdfMain = dynamic(
   () =>
     import(
       '@/features/functionality_image_to_pdf/components/FunctionalityImageToPdfMain'
     ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
 )
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType
@@ -194,7 +215,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
               <FunctionalityPdfToImageMain toType={urlKey} />
             )}
-            {/* {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
+            {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
             {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
             {(urlKey === 'png-to-pdf' ||
               urlKey === 'jpeg-to-pdf' ||
@@ -206,7 +227,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
             {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
             {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
-            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />} */}
+            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (
