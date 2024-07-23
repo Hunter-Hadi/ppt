@@ -7,44 +7,43 @@ import { i18nLocales } from '@/i18n/utils'
 import { I18nTypes } from '@/packages/common'
 import ToolsDetail from '@/page_components/PdfToolsPages/components/ToolsDetail'
 import { toolsObjectData } from '@/page_components/PdfToolsPages/constant'
-import {
-  findEnPdfToolKeyWithLocale,
-  getPdfToolKeyWithLocale,
-} from '@/page_components/PdfToolsPages/utils'
+import { getPdfToolKeyWithLocale } from '@/page_components/PdfToolsPages/utils'
 
-const UrlKeyToolsDetail = ({
-  testKey,
-  // urlKey: anyLangPdfToolKey,
-  // enPdfToolKey: propEnPdfToolKey,
-}) => {
-  return <ToolsDetail urlKey={testKey} />
-  // return <ToolsDetail urlKey={'pdf-to-png'} />
-  // const { query } = useRouter()
-  // const locale = query.locale as I18nTypes
-
-  // const { isNotFound } = usePdfToolsAutoRedirectI18nPathname(anyLangPdfToolKey)
-  // const enPdfToolKey = findEnPdfToolKeyWithLocale(
-  //   anyLangPdfToolKey as string,
-  //   locale as I18nTypes,
-  // )
-
-  // if (propEnPdfToolKey || enPdfToolKey) {
-  //   return <ToolsDetail urlKey={propEnPdfToolKey ?? enPdfToolKey} />
+const UrlKeyToolsDetail = () =>
+  // {
+  //   testKey,
+  //   // urlKey: anyLangPdfToolKey,
+  //   // enPdfToolKey: propEnPdfToolKey,
   // }
+  {
+    return <ToolsDetail urlKey={'pdf-to-png'} />
+    // return <ToolsDetail urlKey={'pdf-to-png'} />
+    // const { query } = useRouter()
+    // const locale = query.locale as I18nTypes
 
-  // if (isNotFound) {
-  //   return <Custom404 />
-  // }
+    // const { isNotFound } = usePdfToolsAutoRedirectI18nPathname(anyLangPdfToolKey)
+    // const enPdfToolKey = findEnPdfToolKeyWithLocale(
+    //   anyLangPdfToolKey as string,
+    //   locale as I18nTypes,
+    // )
 
-  // return (
-  //   <AppLoadingLayout
-  //     loading
-  //     sx={{
-  //       height: '40vh',
-  //     }}
-  //   />
-  // )
-}
+    // if (propEnPdfToolKey || enPdfToolKey) {
+    //   return <ToolsDetail urlKey={propEnPdfToolKey ?? enPdfToolKey} />
+    // }
+
+    // if (isNotFound) {
+    //   return <Custom404 />
+    // }
+
+    // return (
+    //   <AppLoadingLayout
+    //     loading
+    //     sx={{
+    //       height: '40vh',
+    //     }}
+    //   />
+    // )
+  }
 export default UrlKeyToolsDetail
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -86,18 +85,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const translationData = await serverSideTranslations(locale)
   const { urlKey: anyLangPdfToolKey } = context?.params as ParsedUrlQuery
 
-  const enPdfToolKey = findEnPdfToolKeyWithLocale(
-    anyLangPdfToolKey as string,
-    locale as I18nTypes,
-  )
-
   try {
     return {
       props: {
         ...translationData,
-        testKey: 'pdf-to-png',
         urlKey: anyLangPdfToolKey,
-        enPdfToolKey,
         updatedAt: Date.now(),
       },
     }
