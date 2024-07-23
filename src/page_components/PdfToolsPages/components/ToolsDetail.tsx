@@ -182,8 +182,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           <Suspense
             fallback={<AppLoadingLayout loading loadingText='test 1' />}
           >
-            {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
-              <FunctionalityPdfToImageMain toType={urlKey} />
+            <FunctionalityPdfToImageMain toType={'pdf-to-png'} />
+            {/* {(urlKey === 'pdf-to-jpeg' || urlKey === 'pdf-to-png') && (
             )}
             {urlKey === 'merge-pdf' && <FunctionalityPdfMergeMain />}
             {urlKey === 'split-pdf' && <FunctionalityPdfSplitMain />}
@@ -197,7 +197,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
             {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
             {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
-            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
+            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />} */}
           </Suspense>
           <h1>urlKey: {urlKey}</h1>
         </Box>
