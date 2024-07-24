@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Работает там, где вы работаете",
     "ai_vision_pages__section3__description": "Анализируйте любое изображение прямо там, где вам это нужно. MaxAI работает во всех веб-приложениях и сайтах, которые вы используете. Нет копирования, вставки или переключения контекста.",
     "ai_vision_pages__section4__title": "Работает на лучших моделях искусственного интеллекта с видением",
-    "cta_text__add_to_browser_for_free": "Добавить в {{BROWSER}} — Бесплатно"
+    "cta_text__add_to_browser_for_free": "Добавить в {{BROWSER}} — Бесплатно",
+    "explore_more_features": "Исследуйте больше функций с MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Выбрать все",

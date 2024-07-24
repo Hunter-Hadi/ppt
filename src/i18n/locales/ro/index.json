@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Funcționează acolo unde lucrați",
     "ai_vision_pages__section3__description": "Analizați orice imagine, chiar acolo unde aveți nevoie. MaxAI funcționează pe toate aplicațiile web și site-urile pe care le utilizați. Fără copiere, fără lipire, fără schimbarea contextului.",
     "ai_vision_pages__section4__title": "Alimentat de cele mai bune modele AI cu viziune",
-    "cta_text__add_to_browser_for_free": "Adaugă la {{BROWSER}} - Este gratuit"
+    "cta_text__add_to_browser_for_free": "Adaugă la {{BROWSER}} - Este gratuit",
+    "explore_more_features": "Explorați mai multe caracteristici cu MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selectează tot",

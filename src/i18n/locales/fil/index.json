@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Gumagana kung saan ka nagtatrabaho",
     "ai_vision_pages__section3__description": "Surin ang anumang imahe, mismong sa lugar na kailangan mo ito. Gumagana ang MaxAI sa lahat ng web apps at sites na ginagamit mo. Walang pagkopya, walang pagpindot, walang paglipat ng konteksto.",
     "ai_vision_pages__section4__title": "Pinapagana ng pinakamahusay na AI models na may vision",
-    "cta_text__add_to_browser_for_free": "Idagdag sa {{BROWSER}} — Libre Ito"
+    "cta_text__add_to_browser_for_free": "Idagdag sa {{BROWSER}} — Libre Ito",
+    "explore_more_features": "Tuklasin ang higit pang mga tampok sa MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Piliin Lahat",

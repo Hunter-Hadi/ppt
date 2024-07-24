@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Fungerer der du jobber",
     "ai_vision_pages__section3__description": "Analyser hvilket som helst bilde, akkurat der du trenger det. MaxAI fungerer på tvers av alle webapper og nettsteder du bruker. Ingen kopiering, ingen liming, ingen kontekstbytte.",
     "ai_vision_pages__section4__title": "Drevet av de beste AI-modellene med visjon",
-    "cta_text__add_to_browser_for_free": "Legg til i {{BROWSER}} - Det er gratis"
+    "cta_text__add_to_browser_for_free": "Legg til i {{BROWSER}} - Det er gratis",
+    "explore_more_features": "Utforsk flere funksjoner med MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Velg alle",

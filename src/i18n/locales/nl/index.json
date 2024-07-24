@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Werkt waar jij werkt",
     "ai_vision_pages__section3__description": "Analyseer elke afbeelding, precies waar je het nodig hebt. MaxAI werkt op alle web-apps en sites die je gebruikt. Geen kopiëren, geen plakken, geen contextwisseling.",
     "ai_vision_pages__section4__title": "Aangedreven door de beste AI-modellen met visie",
-    "cta_text__add_to_browser_for_free": "Toevoegen aan {{BROWSER}} - Gratis"
+    "cta_text__add_to_browser_for_free": "Toevoegen aan {{BROWSER}} - Gratis",
+    "explore_more_features": "Verken meer functies met MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selecteer alles",
@@ -1441,8 +1442,6 @@
     "ab_test_v5__features_data__write_faster__create_draft_ai_prompt_library": "AI prompt bibliotheek",
     "ab_test_v5__features_data__write_faster__create_draft_ai_prompt_library__tooltip": "Hoogwaardige AI prompt bibliotheek waarmee je je dagelijkse taken nu in minuten kunt voltooien, niet meer in uren.",
     "ab_test_v5__features_data__write_faster__email_instant_reply": "Direct antwoorden op e-mails",
-    "ab_test_v5__features_data__social_media_instant_reply": "Direct antwoorden op sociale media",
-    "ab_test_v5__features_data__messaging_instant_reply": "Direct antwoorden op berichten",
     "ab_test_v5__features_data__gpt3_5_turbo__tooltip": "Aangedreven door OpenAI. 16.384 max tokens. OpenAI's snelste model, geweldig voor de meeste dagelijkse taken.",
     "ab_test_v5__features_data__claude_3_haiku__tooltip": "Aangedreven door Anthropic. 200.000 max tokens. Anthropic's snelste model in zijn intelligentieklasse, Haiku is een veelzijdige oplossing voor een breed scala aan dagelijkse taken.",
     "ab_test_v5__features_data__gemini_1_5_flash__tooltip": "Aangedreven door Google. 1.000.000 max tokens. Gemini 1.5 Flash is Google's lichtgewicht model, geoptimaliseerd voor snelheid en efficiëntie met multimodale redeneermogelijkheden. Het contextvenster is verkort om de snelheid te optimaliseren.",
@@ -1490,7 +1489,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Bespaar tijd bij Discord-berichtcorrespondentie. Reageer op berichten in enkele seconden met korte notities. Verbeter toon, controleer spelling en grammatica. Communiceer effectiever en efficiënter.",
     "ab_test_v5__features_data__messenger__tooltip": "Bespaar tijd bij Messenger-berichtcorrespondentie. Reageer op berichten in enkele seconden met korte notities. Verbeter toon, controleer spelling en grammatica. Communiceer effectiever en efficiënter.",
     "ab_test_v5__features_data__telegram__tooltip": "Bespaar tijd bij Telegram-berichtcorrespondentie. Reageer op berichten in enkele seconden met korte notities. Verbeter toon, controleer spelling en grammatica. Communiceer effectiever en efficiënter.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Maak je eigen prompts, organiseer ze en maak ze gemakkelijk toegankelijk en herbruikbaar, voor jezelf en je team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Maak je eigen prompts, organiseer ze en maak ze gemakkelijk toegankelijk en herbruikbaar, voor jezelf en je team.",
+    "ab_test_v5__features_data__write_faster__social_media_instant_reply": "Direct antwoord op sociale media",
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply": "Direct antwoord op berichten"
   },
   "features__common": {
     "components__upload_button_drop_title": "Plaats hier"

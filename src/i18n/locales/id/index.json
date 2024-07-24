@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Bekerja di tempat Anda bekerja",
     "ai_vision_pages__section3__description": "Analisis gambar apa pun, tepat di tempat Anda membutuhkannya. MaxAI bekerja di semua aplikasi web dan situs yang Anda gunakan. Tidak ada menyalin, tidak ada menempel, tidak ada beralih konteks.",
     "ai_vision_pages__section4__title": "Didukung oleh model AI terbaik dengan visi",
-    "cta_text__add_to_browser_for_free": "Tambahkan ke {{BROWSER}} — Gratis"
+    "cta_text__add_to_browser_for_free": "Tambahkan ke {{BROWSER}} — Gratis",
+    "explore_more_features": "Jelajahi lebih banyak fitur dengan MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Pilih Semua",

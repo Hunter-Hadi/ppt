@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Funktioniert dort, wo Sie arbeiten",
     "ai_vision_pages__section3__description": "Analysieren Sie jedes Bild genau dort, wo Sie es benötigen. MaxAI funktioniert in allen Web-Apps und Websites, die Sie verwenden. Kein Kopieren, kein Einfügen, kein Wechseln des Kontexts.",
     "ai_vision_pages__section4__title": "Angetrieben von den besten KI-Modellen mit Vision",
-    "cta_text__add_to_browser_for_free": "Hinzufügen zu {{BROWSER}} - Kostenlos"
+    "cta_text__add_to_browser_for_free": "Hinzufügen zu {{BROWSER}} - Kostenlos",
+    "explore_more_features": "Erkunden Sie weitere Funktionen mit MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Alle auswählen",

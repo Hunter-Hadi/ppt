@@ -1217,7 +1217,8 @@
     "ai_translator_pages__section5__description": "はい、完全に無料です！",
     "ai_vision_pages__title": "最先端のAIビジョンモデルで画像を分析",
     "ai_vision_pages__description": "最も高度なAIビジョンモデルを使用して、任意の画像を理解し分析します。",
-    "cta_text__add_to_browser_for_free": "{{BROWSER}}に追加 - 無料です"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}に追加 - 無料です",
+    "explore_more_features": "MaxAI.meでさらなる機能を探索"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "すべて選択",

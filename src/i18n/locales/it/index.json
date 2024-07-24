@@ -1464,7 +1464,8 @@
     "vision_pages__section3__description": "Hai mai guardato un'immagine e ti sei chiesto dei suoi contenuti? Con l'IA Vision di MaxAI.me, ora puoi fare domande su qualsiasi immagine e ricevere risposte istantanee e accurate. Che tu sia curioso di un oggetto, di una persona o di un dettaglio specifico all'interno dell'immagine, basta fare la tua domanda e MaxAI.me ti fornirà le informazioni di cui hai bisogno.",
     "more_over_section__title": "Di Più",
     "more_over_section__description__part1": "MaxAI.me è più di un semplice strumento di traduzione: è la tua estensione del browser all-in-one alimentata da intelligenza artificiale. Con MaxAI.me, puoi accedere a una vasta gamma di funzionalità basate su IA direttamente nel tuo browser, su qualsiasi sito web che visiti.",
-    "more_over_section__description__part2": "Dall'assistenza alla scrittura e alla sintesi delle pagine web a ChatPDF e alla pittura con IA, MaxAI.me ti permette di leggere, scrivere e creare con l'aiuto dei modelli di IA più avanzati, tra cui ChatGPT, Claude e Gemini. Migliora la tua esperienza di navigazione e sblocca il tuo potenziale di produttività con MaxAI.me oggi stesso!"
+    "more_over_section__description__part2": "Dall'assistenza alla scrittura e alla sintesi delle pagine web a ChatPDF e alla pittura con IA, MaxAI.me ti permette di leggere, scrivere e creare con l'aiuto dei modelli di IA più avanzati, tra cui ChatGPT, Claude e Gemini. Migliora la tua esperienza di navigazione e sblocca il tuo potenziale di produttività con MaxAI.me oggi stesso!",
+    "explore_more_features": "Scopri più funzionalità con MaxAI.me"
   },
   "pricing": {
     "better_plan_display__everything_in_plan_plus": "Tutto in {{PLAN}} più:",

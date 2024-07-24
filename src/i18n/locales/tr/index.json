@@ -1237,7 +1237,8 @@
     "ai_vision_pages__section3__title": "Çalıştığınız yerde çalışır",
     "ai_vision_pages__section3__description": "İhtiyacınız olan yerde herhangi bir görüntüyü analiz edin. MaxAI, kullandığınız tüm web uygulamaları ve sitelerinde çalışır. Kopyalama, yapıştırma veya bağlam değiştirme yok.",
     "ai_vision_pages__section4__title": "En iyi AI modelleriyle desteklenir",
-    "cta_text__add_to_browser_for_free": "{{BROWSER}}'a Ekle - Ücretsiz"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}'a Ekle - Ücretsiz",
+    "explore_more_features": "MaxAI.me ile daha fazla özellik keşfedin"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF Ekle",

@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Toimii siellä missä työskentelet",
     "ai_vision_pages__section3__description": "Analysoi mitä tahansa kuvaa juuri siellä, missä sitä tarvitset. MaxAI toimii kaikissa web-sovelluksissa ja sivustoissa, joita käytät. Ei kopioimista, ei liittämistä, ei kontekstin vaihtamista.",
     "ai_vision_pages__section4__title": "Parhaiden AI-mallien voimin",
-    "cta_text__add_to_browser_for_free": "Lisää {{BROWSER}} - Se on ilmainen"
+    "cta_text__add_to_browser_for_free": "Lisää {{BROWSER}} - Se on ilmainen",
+    "explore_more_features": "Tutustu lisää ominaisuuksiin MaxAI.me:n avulla"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Valitse kaikki",

@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Fungerar där du arbetar",
     "ai_vision_pages__section3__description": "Analysera valfri bild precis där du behöver det. MaxAI fungerar på alla webbappar och webbplatser du använder. Ingen kopiering, ingen klistring, ingen kontextväxling.",
     "ai_vision_pages__section4__title": "Drivs av de bästa AI-modellerna med vision",
-    "cta_text__add_to_browser_for_free": "Lägg till i {{BROWSER}} - Det är gratis"
+    "cta_text__add_to_browser_for_free": "Lägg till i {{BROWSER}} - Det är gratis",
+    "explore_more_features": "Utforska fler funktioner med MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Välj alla",
