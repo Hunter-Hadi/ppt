@@ -44,7 +44,12 @@ const AISummaryPages: FC<IProps> = () => {
           videoPosterUrl: `/assets/features-landing/video-features/summary.png`,
           videoStyle: {
             backgroundColor: 'transparent',
-            // boxShadow: 'none',
+            boxShadow: 'none',
+            borderRadius: '16px',
+          },
+          boxSx: {
+            borderRadius: '16px',
+            border: '8px solid #fff',
           },
         }}
         trackerLinkProps={{

@@ -38,7 +38,12 @@ const AIReaderPages: FC<IProps> = () => {
           videoPosterUrl: `/assets/features-landing/video-features/chat.png`,
           videoStyle: {
             backgroundColor: 'transparent',
-            // boxShadow: 'none',
+            boxShadow: 'none',
+            borderRadius: '16px',
+          },
+          boxSx: {
+            borderRadius: '16px',
+            border: '8px solid #fff',
           },
         }}
         trackerLinkProps={{

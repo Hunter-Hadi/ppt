@@ -1,6 +1,7 @@
 import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
+import { SxProps } from '@mui/material/styles'
 import React, { FC, useEffect, useMemo, useRef } from 'react'
 
 import ResponsiveImage from '@/components/ResponsiveImage'
@@ -18,6 +19,8 @@ export interface IHeroVideoProps {
   windowAutoPlay?: boolean
   videoStyle?: React.CSSProperties
   videoPosterUrl?: string
+
+  boxSx?: SxProps
 }
 
 const HeroVideoBox: FC<IHeroVideoProps> = ({
@@ -28,6 +31,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
   windowAutoPlay = false,
   videoStyle,
   videoPosterUrl,
+  boxSx,
 }) => {
   const { openVideoPopup } = useVideoPopupController()
   const videoRef = useRef<HTMLVideoElement | null>(null)
@@ -88,6 +92,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
             bgcolor: 'rgba(0, 0, 0, 0)',
             width: '100%',
             // height: '100%',
+            ...boxSx,
           }}
         >
           {/* <AppLoadingLayout loading={!videoLoaded} /> */}
@@ -138,6 +143,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
           boxShadow: '0px 4px 16px 0px rgba(118, 1, 211, 0.08)',
           borderRadius: 2,
           overflow: 'hidden',
+          ...boxSx,
         }}
         onClick={() => {
           if (!disabledVideo && videoSrc) {
