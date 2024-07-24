@@ -1097,11 +1097,11 @@
     "menu_item__ai_vision": "ראייה AI",
     "ai_chat_pages__title": "שוחח עם מודלי AI הטובים ביותר",
     "ai_chat_pages__description": "הדרך המהירה ביותר לשוחח עם מודלי AI מתקדמים ביותר, הכל במקום אחד.",
-    "ai_chat_pages__section1__title": "שוחח עם המודלים האהובים עליך של AI",
-    "ai_chat_pages__section2__title": "שוחח עם AI בכל מקום",
-    "ai_chat_pages__section2__description": "חוויית הצ'אט AI המהירה ביותר שנעשתה. שאל שאלה כלשהי ישירות בסרגל הצד - אין צורך להתקפץ בין כרטיסיות. המשך את השיחה להבנה עמוקה. השקם שעות יקרות בכל יום.",
-    "ai_chat_pages__section3__title": "שמור על פרטיות הנתונים שלך",
-    "ai_chat_pages__section3__description": "הגנה על הפרטיות שלך היא העדיפות העליונה שלנו. אנחנו לא שומרים את פרטי הצ'אט או הנתונים שלך. בנוסף, תוכל לשפר את הפרטיות שלך עוד יותר על ידי שימוש במפתח API של OpenAI האישי שלך.",
+    "ai_chat_pages__section1__title": "שוחח עם האינטליגנציה המלאכותית המובילה במקום אחד",
+    "ai_chat_pages__section2__title": "חפש וגלה עם האינטליגנציה המלאכותית",
+    "ai_chat_pages__section2__description": "קבל תשובות מיידיות עם גישה לרשת בזמן אמת, ידע וציטוטים.",
+    "ai_chat_pages__section3__title": "שוחח עם כל תמונה",
+    "ai_chat_pages__section3__description": "הבנה וניתוח של כל תמונה עם מודלי ראיית AI המתקדמים ביותר.",
     "ai_rewriter_pages__title": "שפר את הכתיבה שלך בכל מקום עם AI",
     "ai_rewriter_pages__description": "עבודה עם שותף כתיבה AI שיעזור לך למצוא את המילים שאתה צריך - לכתוב את האימייל המסובך, להעביר את הנקודה שלך, להמשיך בעבודה שלך.",
     "ai_rewriter_pages__section1__title": "כתיבה טובה, תוצאות טובות יותר",
@@ -1216,7 +1216,8 @@
     "ai_vision_pages__section3__title": "עובד במקום שבו אתה עובד",
     "ai_vision_pages__section3__description": "נתח כל תמונה, בדיוק במקום שאתה זקוק לזה. MaxAI עובד בכל אפליקציות הרשת והאתרים שאתה משתמש בהם. אין העתקה, אין הדבקה, אין החלפת הקשר.",
     "ai_vision_pages__section4__title": "מופעל על ידי המודלים הטובים ביותר של AI עם ראייה",
-    "cta_text__add_to_browser_for_free": "הוסף אל {{BROWSER}} - זה חינם"
+    "cta_text__add_to_browser_for_free": "הוסף אל {{BROWSER}} - זה חינם",
+    "ai_chat_pages__section1__description": "שוחח עם GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, ועוד - הכל ב-MaxAI.me."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "בחר הכל",

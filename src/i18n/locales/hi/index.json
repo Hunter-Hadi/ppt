@@ -1098,11 +1098,11 @@
     "menu_item__ai_vision": "AI विज़न",
     "ai_chat_pages__title": "सबसे अच्छे AI मॉडल के साथ चैट करें",
     "ai_chat_pages__description": "सबसे उन्नत AI मॉडल के साथ चैट करने का सबसे तेज़ तरीका, सभी एक ही स्थान पर।",
-    "ai_chat_pages__section1__title": "अपने पसंदीदा AI मॉडल के साथ चैट करें",
-    "ai_chat_pages__section2__title": "कहीं भी AI के साथ चैट करें",
-    "ai_chat_pages__section2__description": "सबसे तेज़ AI चैट अनुभव कभी नहीं बनाया गया है। साइडबार में सीधे कोई सवाल पूछें - टैब के बीच जाने की आवश्यकता नहीं है। गहरी समझ के लिए बातचीत जारी रखें। प्रतिष्ठित घंटे हर दिन वापस लाएं।",
-    "ai_chat_pages__section3__title": "अपना डेटा निजी रखें",
-    "ai_chat_pages__section3__description": "आपकी गोपनीयता की सुरक्षा हमारी प्राथमिकता है। हम आपकी चैट विवरण या डेटा को संग्रहीत नहीं करते हैं। इसके अलावा, अपनी खुद की OpenAI API कुंजी का उपयोग करके आप अपनी गोपनीयता को और भी बढ़ा सकते हैं।",
+    "ai_chat_pages__section1__title": "एक ही जगह में शीर्ष एआई के साथ चैट करें",
+    "ai_chat_pages__section2__title": "एआई के साथ खोजें और खोजें",
+    "ai_chat_pages__section2__description": "रियल-टाइम वेब एक्सेस, ज्ञान, और संदर्भ के साथ त्वरित उत्तर प्राप्त करें।",
+    "ai_chat_pages__section3__title": "किसी भी छवि के साथ चैट करें",
+    "ai_chat_pages__section3__description": "सबसे उन्नत एआई विजन मॉडल के साथ किसी भी छवि को समझें और विश्लेषण करें।",
     "ai_rewriter_pages__title": "AI के साथ किसी भी जगह परफेक्ट लेखन करें",
     "ai_rewriter_pages__description": "एक AI लेखन साथी के साथ काम करें जो आपको उन शब्दों को ढूंढ़ने में मदद करता है जो आपको चाहिए - वह मुश्किल ईमेल लिखने, अपनी बात प्रस्तुत करने, अपने काम को चलाए रखने के लिए।",
     "ai_rewriter_pages__section1__title": "बेहतर लेखन, बेहतर परिणाम",
@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "जहां आप काम करते हैं, वहां काम करता है",
     "ai_vision_pages__section3__description": "आपकी आवश्यकता के मुताबिक किसी भी छवि का विश्लेषण करें। MaxAI आपके उपयोग करने वाले सभी वेब ऐप्स और साइटों पर काम करता है। कॉपी करने की आवश्यकता नहीं, पेस्ट करने की आवश्यकता नहीं, कोण्टेक्स्ट स्विचिंग की आवश्यकता नहीं।",
     "ai_vision_pages__section4__title": "सबसे अच्छे AI मॉडल्स द्वारा संचालित जिसमें विज़न है",
-    "cta_text__add_to_browser_for_free": "{{BROWSER}} में जोड़ें - यह मुफ्त है"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}} में जोड़ें - यह मुफ्त है",
+    "ai_chat_pages__section1__description": "GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, और अधिक के साथ चैट करें - सभी MaxAI.me के साथ।"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "सभी का चयन करें",

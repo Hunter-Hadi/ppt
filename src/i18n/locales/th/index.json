@@ -1118,11 +1118,11 @@
     "menu_item__ai_vision": "วิสัยทัศน์ AI",
     "ai_chat_pages__title": "แชทกับโมเดล AI ที่ดีที่สุด",
     "ai_chat_pages__description": "วิธีที่เร็วที่สุดในการแชทกับโมเดล AI ที่ทันสมัยที่สุดทั้งหมดในที่เดียว",
-    "ai_chat_pages__section1__title": "แชทกับโมเดล AI ที่คุณชื่นชอบ",
-    "ai_chat_pages__section2__title": "แชทกับ AI ทุกที่",
-    "ai_chat_pages__section2__description": "ประสบการณ์แชท AI ที่เร็วที่สุดที่เคยมีมาก่อน ถามคำถามใด ๆ โดยตรงในแถบด้านข้าง - ไม่จำเป็นต้องเปลี่ยนแท็บ สนทนาต่อไปเพื่อเข้าใจลึกขึ้น ประหยัดเวลามากขึ้นทุกวัน",
-    "ai_chat_pages__section3__title": "รักษาความเป็นส่วนตัวของข้อมูลของคุณ",
-    "ai_chat_pages__section3__description": "การรักษาความเป็นส่วนตัวของคุณเป็นสิ่งที่สำคัญที่สุดของเรา เราไม่เก็บรายละเอียดหรือข้อมูลแชทของคุณ นอกจากนี้คุณยังสามารถเพิ่มความเป็นส่วนตัวได้อีกด้วยการใช้งาน API ของ OpenAI ของคุณเอง",
+    "ai_chat_pages__section1__title": "พูดคุยกับ AI ชั้นนำทั้งหมดในที่เดียว",
+    "ai_chat_pages__section2__title": "ค้นหาและค้นพบด้วย AI",
+    "ai_chat_pages__section2__description": "ได้คำตอบทันทีด้วยการเข้าถึงเว็บและความรู้และการอ้างอิงแบบเรียลไทม์",
+    "ai_chat_pages__section3__title": "พูดคุยกับภาพใด ๆ",
+    "ai_chat_pages__section3__description": "เข้าใจและวิเคราะห์ภาพใด ๆ ด้วยโมเดล AI ที่ทันสมัยที่สุด",
     "ai_rewriter_pages__title": "ปรับปรุงการเขียนของคุณทุกที่ด้วย AI",
     "ai_rewriter_pages__description": "ทำงานกับเครื่องเขียน AI ที่ช่วยคุณค้นหาคำที่คุณต้องการเพื่อเขียนอีเมล์ที่ยากลำบาก ให้เข้าใจและเคลื่อนไหวงานของคุณ",
     "ai_rewriter_pages__section1__title": "การเขียนที่ดีขึ้น ผลลัพธ์ที่ดีขึ้น",
@@ -1237,7 +1237,8 @@
     "ai_vision_pages__section3__title": "ทำงานที่คุณทำงาน",
     "ai_vision_pages__section3__description": "วิเคราะห์ภาพใดก็ได้ ตรงที่คุณต้องการ  MaxAI ทำงานบนแอปและเว็บไซต์ที่คุณใช้ ไม่ต้องคัดลอก ไม่ต้องวาง ไม่ต้องสลับบริบท",
     "ai_vision_pages__section4__title": "ขับเคลื่อนด้วยโมเดล AI ที่ดีที่สุดด้วยการมองเห็น",
-    "cta_text__add_to_browser_for_free": "เพิ่มไปยัง {{BROWSER}} - ฟรี"
+    "cta_text__add_to_browser_for_free": "เพิ่มไปยัง {{BROWSER}} - ฟรี",
+    "ai_chat_pages__section1__description": "พูดคุยกับ GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, และอื่น ๆ - ทั้งหมดอยู่ที่ MaxAI.me"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "เพิ่ม PDF",
