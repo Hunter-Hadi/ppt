@@ -254,7 +254,7 @@ const HeroSection: FC<IProps> = ({
                     lineHeight={1.5}
                     flexShrink={0}
                   >
-                    Claude 3.5
+                    Claude 3.5 Sonnet
                   </Typography>
                 </Stack>
 
@@ -274,7 +274,7 @@ const HeroSection: FC<IProps> = ({
                     lineHeight={1.5}
                     flexShrink={0}
                   >
-                    Gemini 1.5
+                    Gemini 1.5 Pro
                   </Typography>
                 </Stack>
               </Stack>
