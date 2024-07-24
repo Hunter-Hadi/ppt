@@ -1,20 +1,19 @@
-import { Stack } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import { Stack } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import CallToActionSection from '@/features/landing/components/CallToActionSection';
-import HeroSection from '@/features/landing/components/HeroSection';
-import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
-import TrustedBy from '@/features/landing/components/TrustedBy';
-import UserComment from '@/features/landing/components/UserComment';
-import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
-import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import HeroSection from '@/features/landing/components/HeroSection'
+import TrustedBy from '@/features/landing/components/TrustedBy'
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
+import { RESOURCES_URL } from '@/global_constants'
+import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
+import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
 interface IProps {
-  propRef?: string;
+  propRef?: string
 }
 const AITranslatorPages: FC<IProps> = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Stack>
@@ -26,7 +25,14 @@ const AITranslatorPages: FC<IProps> = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          disabledVideo: true,
+          videoSrc: `${RESOURCES_URL}/video/features/translation-assistant.mp4`,
+          variant: 'autoplay',
+          windowAutoPlay: true,
+          videoPosterUrl: `/assets/features-landing/video-features/translator.png`,
+          videoStyle: {
+            backgroundColor: 'transparent',
+            // boxShadow: 'none',
+          },
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,
@@ -34,6 +40,9 @@ const AITranslatorPages: FC<IProps> = () => {
         title={t('features_landing:ai_translator_pages__title')}
         description={t('features_landing:ai_translator_pages__description')}
       />
+
+      {/* trusted by */}
+      <TrustedBy />
 
       <FeaturesContentSection
         icon='translate'
@@ -83,22 +92,11 @@ const AITranslatorPages: FC<IProps> = () => {
         imageUrl='/assets/features-landing/ai-translator/5.png'
       />
 
-      {/* trusted by */}
-      <TrustedBy />
+      <FeaturesExploreMore />
 
-      {/* maxai in numbers */}
-      <MaxAIInNumbers />
-
-      {/* user comment */}
-      <UserComment />
-
-      {/* call to action section */}
-      <CallToActionSection
-        ctaButtonTrackerLinkProps={{ pathnameRefEnable: true }}
-      />
       <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
-  );
-};
+  )
+}
 
-export default AITranslatorPages;
+export default AITranslatorPages

@@ -1,21 +1,21 @@
-import { Stack } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import { Stack } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import CallToActionSection from '@/features/landing/components/CallToActionSection';
-import HeroSection from '@/features/landing/components/HeroSection';
-import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
-import TrustedBy from '@/features/landing/components/TrustedBy';
-import UserComment from '@/features/landing/components/UserComment';
-import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
-import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
-import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import HeroSection from '@/features/landing/components/HeroSection'
+import TrustedBy from '@/features/landing/components/TrustedBy'
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
+import { RESOURCES_URL } from '@/global_constants'
+import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
+import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
+import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
+
 interface IProps {
-  propRef?: string;
+  propRef?: string
 }
 const AIRewriterPages: FC<IProps> = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const sectionDescriptions = [
     'features_landing:ai_rewriter_pages__section1__description__item1',
@@ -25,7 +25,7 @@ const AIRewriterPages: FC<IProps> = () => {
     'features_landing:ai_rewriter_pages__section1__description__item5',
     'features_landing:ai_rewriter_pages__section1__description__item6',
     'features_landing:ai_rewriter_pages__section1__description__item7',
-  ];
+  ]
 
   return (
     <Stack>
@@ -34,10 +34,17 @@ const AIRewriterPages: FC<IProps> = () => {
         description={t('seo:features_landing__ai_rewriter__description')}
       />
       {/* hero section */}
+
       <HeroSection
         heroVideoProps={{
-          videoSrc: 'https://www.youtube.com/embed/mAi1D9cbGos',
-          variant: 'embed',
+          videoSrc: `${RESOURCES_URL}/video/features/writing-assistant.mp4`,
+          variant: 'autoplay',
+          windowAutoPlay: true,
+          videoPosterUrl: `/assets/features-landing/video-features/rewriter.png`,
+          videoStyle: {
+            backgroundColor: 'transparent',
+            // boxShadow: 'none',
+          },
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,
@@ -46,6 +53,8 @@ const AIRewriterPages: FC<IProps> = () => {
         description={t('features_landing:ai_rewriter_pages__description')}
       />
 
+      {/* trusted by */}
+      <TrustedBy />
       <FeaturesContentSection
         icon='auto-fix'
         title={t('features_landing:ai_rewriter_pages__section1__title')}
@@ -126,20 +135,11 @@ const AIRewriterPages: FC<IProps> = () => {
         pictureRetouchingDirection='bottom-left'
       />
 
-      {/* trusted by */}
-      <TrustedBy />
-      {/* maxai in numbers */}
-      <MaxAIInNumbers />
-      {/* user comment */}
-      <UserComment />
-      {/* call to action section */}
-      <CallToActionSection
-        ctaButtonTrackerLinkProps={{ pathnameRefEnable: true }}
-      />
+      <FeaturesExploreMore />
 
       <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
-  );
-};
+  )
+}
 
-export default AIRewriterPages;
+export default AIRewriterPages

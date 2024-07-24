@@ -101,6 +101,7 @@ const useLandingABTester = (autoSendEvent = false) => {
       setVariant(randomVariant) //设置当前的abtest的variant
     }
   }, [setVariant, variant, enabled])
+
   const variantConfig = useMemo(() => {
     if (variant) {
       return LANDING_VARIANT_CONFIG[variant]
@@ -108,7 +109,8 @@ const useLandingABTester = (autoSendEvent = false) => {
     return null
   }, [variant])
   return {
-    variant,
+    enabled,
+    variant: enabled ? variant : null,
     setVariant,
     loaded,
     variantConfig,

@@ -8,6 +8,7 @@ export const TESTER_LANDING_PATH_TARGET_PATHNAME = [
   '/partners/updated',
   '/partners/installed',
   '/partners/uninstalled',
+  (pathname: string) => pathname.startsWith('/features'),
 ] //开启路径，进入页面触发abtest进入通知，和语言跳转
 
 export const TEST_LANDING_COOKIE_NAME = 'maxai-lpv-v7' //abtest的版本名称

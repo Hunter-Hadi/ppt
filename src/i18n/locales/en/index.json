@@ -1464,7 +1464,8 @@
     "vision_pages__section3__description": "Have you ever looked at an image and wondered about its contents? With MaxAI.me's AI Vision, you can now ask questions about any image and receive instant, accurate answers. Whether you're curious about an object, a person, or a specific detail within the image, simply ask your question, and MaxAI.me will provide you with the information you need.",
     "more_over_section__title": "More Over",
     "more_over_section__description__part1": "MaxAI.me is more than just a translation tool – It's your all-in-one AI-powered browser extension. With MaxAI.me, you can access a wide range of AI-driven features right in your browser, on any website you visit.",
-    "more_over_section__description__part2": "From writing assistance and webpage summarization to ChatPDF and AI painting, MaxAI.me empowers you to read, write, and create with the help of the most advanced AI models, including ChatGPT, Claude, and Gemini. Upgrade your browsing experience and unlock your productivity potential with MaxAI.me today!"
+    "more_over_section__description__part2": "From writing assistance and webpage summarization to ChatPDF and AI painting, MaxAI.me empowers you to read, write, and create with the help of the most advanced AI models, including ChatGPT, Claude, and Gemini. Upgrade your browsing experience and unlock your productivity potential with MaxAI.me today!",
+    "explore_more_features": "Explore more features with MaxAI.me"
   },
   "pricing": {
     "better_plan_display__everything_in_plan_plus": "Everything in {{PLAN}} plus:",
