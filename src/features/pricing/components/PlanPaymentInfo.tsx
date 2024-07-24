@@ -16,11 +16,19 @@ interface IProps {
   sx?: SxProps
   isPopular?: boolean
   compareMonthlyPrice?: boolean
+  semanticTags?: boolean
 }
 
 const PlanPaymentInfo: FC<IProps> = (props) => {
   const { t } = useTranslation()
-  const { type = 'free', sx, showDesc, isPopular, compareMonthlyPrice } = props
+  const {
+    type = 'free',
+    sx,
+    showDesc,
+    isPopular,
+    compareMonthlyPrice,
+    semanticTags = false,
+  } = props
 
   const isTeamPlan = ['basic_team', 'pro_team', 'elite_team'].includes(type)
 
@@ -144,6 +152,7 @@ const PlanPaymentInfo: FC<IProps> = (props) => {
     <Stack spacing={1} sx={sx}>
       <Typography
         variant='custom'
+        component={semanticTags ? 'h3' : 'span'}
         sx={{
           ...fontSx.title,
           color: isPopular ? 'primary.main' : 'primary.main',

@@ -1,32 +1,32 @@
-import StarIcon from '@mui/icons-material/Star';
-import { Box, Stack, SxProps, Typography } from '@mui/material';
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import React, { FC, useMemo } from 'react';
-import { useRecoilValue } from 'recoil';
+import StarIcon from '@mui/icons-material/Star'
+import { Box, Stack, SxProps, Typography } from '@mui/material'
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import React, { FC, useMemo } from 'react'
+import { useRecoilValue } from 'recoil'
 
-import PlanButton from '@/features/pricing/components/PlanButton';
+import PlanButton from '@/features/pricing/components/PlanButton'
 import {
   PricingPaymentTypeAtom,
   PricingPlanCategoryState,
-} from '@/features/pricing/store';
-import { RENDER_PLAN_TYPE } from '@/features/pricing/type';
-import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils';
-import { CURRENT_PROMOTION_PATHNAME } from '@/features/promotion/constants';
+} from '@/features/pricing/store'
+import { RENDER_PLAN_TYPE } from '@/features/pricing/type'
+import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils'
+import { CURRENT_PROMOTION_PATHNAME } from '@/features/promotion/constants'
 
-import PaymentTypeSwitch from '../PaymentTypeSwitch';
-import PlanPaymentInfo from '../PlanPaymentInfo';
-import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
+import PaymentTypeSwitch from '../PaymentTypeSwitch'
+import PlanPaymentInfo from '../PlanPaymentInfo'
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type'
 export interface IFeaturesTableHeaderCellProps {
-  columnData: IPlanFeatureColumnData;
-  columnType: IFeatureColumnType;
+  columnData: IPlanFeatureColumnData
+  columnType: IFeatureColumnType
 
-  showPaymentSwitch?: boolean;
-  isPopular?: boolean;
-  sx?: SxProps;
-  isFirst: boolean;
-  isLast: boolean;
-  inFixed?: boolean;
+  showPaymentSwitch?: boolean
+  isPopular?: boolean
+  sx?: SxProps
+  isFirst: boolean
+  isLast: boolean
+  inFixed?: boolean
 }
 
 const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
@@ -39,10 +39,10 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
   inFixed,
   sx,
 }) => {
-  const { pathname } = useRouter();
-  const { t } = useTranslation();
-  const paymentType = useRecoilValue(PricingPaymentTypeAtom);
-  const pricingPlanCategory = useRecoilValue(PricingPlanCategoryState);
+  const { pathname } = useRouter()
+  const { t } = useTranslation()
+  const paymentType = useRecoilValue(PricingPaymentTypeAtom)
+  const pricingPlanCategory = useRecoilValue(PricingPlanCategoryState)
 
   const renderSaveFlag = (
     paymentPlanType: RENDER_PLAN_TYPE,
@@ -86,27 +86,27 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
           </Stack>
         ) : null}
       </>
-    );
-  };
+    )
+  }
 
   const getCurrentPricingPaymentPlan = (columnType: string) => {
     if (columnType === 'free') {
-      return 'free' as RENDER_PLAN_TYPE;
+      return 'free' as RENDER_PLAN_TYPE
     }
 
     let paymentPlanType =
-      paymentType === 'yearly' ? `${columnType}_yearly` : columnType;
+      paymentType === 'yearly' ? `${columnType}_yearly` : columnType
 
     if (pricingPlanCategory === 'team') {
       // team plan 暂时只有月付的，所以这里都先返回月付的
-      paymentPlanType = `${columnType}_team`;
+      paymentPlanType = `${columnType}_team`
     }
 
-    return paymentPlanType as RENDER_PLAN_TYPE;
-  };
+    return paymentPlanType as RENDER_PLAN_TYPE
+  }
 
   const sxMemo = useMemo(() => {
-    const borderColor = isPopular ? 'primary.main' : 'customColor.borderColor';
+    const borderColor = isPopular ? 'primary.main' : 'customColor.borderColor'
     let resultSx: SxProps = {
       position: 'relative',
       // borderRight: isLast ? '0px solid' : '1px solid',
@@ -137,7 +137,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
       borderTopColor: borderColor,
 
       ...sx,
-    };
+    }
 
     if (isFirst) {
       resultSx = {
@@ -145,7 +145,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
         borderTopLeftRadius: 8,
         borderLeftColor: borderColor,
         borderLeftWidth: 1,
-      };
+      }
     }
 
     if (isLast) {
@@ -154,7 +154,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
         borderTopRightRadius: 8,
         borderRightColor: borderColor,
         borderRightWidth: 1,
-      };
+      }
     }
 
     if (inFixed) {
@@ -162,7 +162,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
         ...resultSx,
         borderTopRightRadius: 0,
         borderTopLeftRadius: 0,
-      };
+      }
     }
 
     if (isPopular) {
@@ -175,29 +175,29 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
         borderRightWidth: 1,
         borderTopRightRadius: 0,
         overflow: 'unset',
-      };
+      }
     }
 
-    return resultSx;
-  }, [isPopular, sx, isFirst, isLast, inFixed]);
+    return resultSx
+  }, [isPopular, sx, isFirst, isLast, inFixed])
 
-  const paymentPlanType = getCurrentPricingPaymentPlan(columnType);
+  const paymentPlanType = getCurrentPricingPaymentPlan(columnType)
 
   const moreContentType = useMemo(() => {
     // TODO: refine
     if (pathname === CURRENT_PROMOTION_PATHNAME) {
-      return null;
+      return null
     }
     if (
       paymentPlanType === 'free' ||
       paymentType === 'yearly' ||
       pricingPlanCategory === 'team'
     ) {
-      return 'legal-tips';
+      return 'legal-tips'
     } else {
-      return 'yearly-sell';
+      return 'yearly-sell'
     }
-  }, [paymentPlanType, paymentType, pathname, pricingPlanCategory]);
+  }, [paymentPlanType, paymentType, pathname, pricingPlanCategory])
 
   if (columnType === 'features') {
     return (
@@ -210,7 +210,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
       >
         {showPaymentSwitch && <PaymentTypeSwitch />}
       </Stack>
-    );
+    )
   }
 
   return (
@@ -257,6 +257,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
       {renderSaveFlag(getCurrentPricingPaymentPlan(columnType), isPopular)}
 
       <PlanPaymentInfo
+        semanticTags
         compareMonthlyPrice={columnData.meta?.compareMonthlyPrice}
         isPopular={isPopular}
         type={paymentPlanType}
@@ -277,7 +278,7 @@ const FeaturesTableHeaderCell: FC<IFeaturesTableHeaderCellProps> = ({
         />
       </Box>
     </Stack>
-  );
-};
+  )
+}
 
-export default FeaturesTableHeaderCell;
+export default FeaturesTableHeaderCell

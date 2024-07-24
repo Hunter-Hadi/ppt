@@ -26,6 +26,7 @@ const ProductComparisonTable: FC<IProps> = ({ sx }) => {
           fontSize={48}
           lineHeight={1.5}
           fontWeight={700}
+          component='h2'
         >
           {t('pricing:ab_test_v5__product_comparison_table__title')}
         </Typography>

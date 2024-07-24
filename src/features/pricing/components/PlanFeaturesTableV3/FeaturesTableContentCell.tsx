@@ -214,7 +214,6 @@ const FeaturesTableContentCell: FC<IProps> = ({
             lineHeight={1.4}
             fontWeight={700}
             color={'primary.main'}
-            component={'h3'}
           >
             {t(data.categoryTitle)}
           </Typography>
