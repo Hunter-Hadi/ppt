@@ -213,6 +213,34 @@ async function generatePdfToolsPages() {
   return pdfToolsPages
 }
 
+// 生成 docs (wordpress) 页面
+async function generateDocsPages() {
+  const docsPages = [
+    '/docs/help/',
+    '/docs/help/getting-started/',
+    '/docs/help/getting-started/what-is-maxai-me/',
+    '/docs/help/getting-started/getting-started-with-maxai-me/',
+    '/docs/help/key-features/',
+    '/docs/help/key-features/ai-chat/',
+    '/docs/help/key-features/ai-rewriter/',
+    '/docs/help/key-features/ai-summary/',
+    '/docs/help/key-features/ai-instant-reply/',
+    '/docs/help/key-features/ai-reading-assistant/',
+    '/docs/help/key-features/ai-prompt-library/',
+    '/docs/help/key-features/ai-search/',
+    '/docs/help/key-features/ai-art/',
+    '/docs/help/key-features/ai-translator/',
+    '/docs/help/key-features/ai-vision/',
+    '/docs/help/my-own-prompts/',
+    '/docs/help/my-own-prompts/prompt-in-context-menu/',
+    '/docs/help/my-own-prompts/prompt-in-the-instant-reply-menu/',
+    '/docs/help/my-own-prompts/prompt-in-the-summary-menu/',
+    '/docs/help/my-own-prompts/add-prompt-template-to-prompt-library/',
+    '/docs/',
+  ]
+  return docsPages
+}
+
 function addHrefLangToSitemap(propPath) {
   const localeCodes = Object.keys(languageCodeMap)
   // const localeCodes = ['zh-CN', 'en-US']
@@ -407,10 +435,16 @@ async function main() {
       1000,
     )
 
+    // 3. 生成 docs 页面的 sitemap
+    const docsPages = await generateDocsPages()
+    log(`docsPages count: ${docsPages.length}`)
+    const docsPageFilenames = generateSitemap(docsPages, 'docs-sitemap', 1000)
+
     // 生成 sitemap index 文件
     generateSitemapIndex([
       ...staticPageFilenames,
       ...promptLibrarySitemapFilenames,
+      ...docsPageFilenames,
     ])
 
     generateUrlsLog(false)

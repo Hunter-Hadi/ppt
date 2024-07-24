@@ -6,6 +6,7 @@ Disallow: /install
 Disallow: /partner-referral
 Disallow: /*/partner-referral
 Disallow: /partners/
+Disallow: /docs/release-notes
 Disallow: /release-notes
 Disallow: /*/release-notes
 Disallow: /share
