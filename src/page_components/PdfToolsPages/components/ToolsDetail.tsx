@@ -185,7 +185,6 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
         .map((key) => toolsObjectData[key]),
     [urlKey],
   )
-  console.log(`urlKey`, urlKey)
 
   return (
     <AppContainer sx={{ bgcolor: '#fff', width: '100%' }} maxWidth={1312}>

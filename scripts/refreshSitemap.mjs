@@ -6,6 +6,9 @@ import { fileURLToPath } from 'url'
 import nextConfig from '../next.config.js'
 import languageCodeMap from '../src/packages/common/constants/languageCodeMap.json' assert { type: 'json' }
 import pdfToolsCodeMap from '../src/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json' assert { type: 'json' }
+import pdfToolsKeyI18nMap from '../src/page_components/PdfToolsPages/constant/pdfToolsKeyI18nMap.json' assert { type: 'json' }
+
+const localeCode = Object.keys(languageCodeMap)
 
 const IS_PROD = true
 
@@ -18,13 +21,42 @@ const sxAssetsUrl = 'https://assets.maxai.me'
 
 // prompt library 的代理路径
 const PROMPT_LIBRARY_PROXY_BASE_PATH = '/prompt'
-const CHAT_PDF_PROXY_BASE_PATH = '/tools/chatpdf'
+// chat pdf 的代理路径
+const CHAT_PDF_PROXY_BASE_PATH = '/ai-tools/chat-with-pdf'
+// web search 的代理路径
+const AI_SEARCH_PROXY_BASE_PATH = '/ai-tools/search'
 
-const chatpdfUrls = ['/tools/chatpdf']
+const chatpdfUrls = ['/ai-tools/chat-with-pdf']
+const aiSearchUrls = ['/ai-tools/search']
 
 function log(text) {
   console.log(`
   \x1b[32m ${text} \x1b[0m`)
+}
+
+/**
+ * 保存所有 urls 的 log
+ */
+let pageUrlsLogCache = []
+function generateUrlsLog(removeLocale = true) {
+  const saveFilePath = path.join(__dirname, '../sitemap-temp/urls.txt')
+
+  // 如果文件存在则删除
+  if (fs.existsSync(saveFilePath)) {
+    fs.unlinkSync(saveFilePath)
+  }
+
+  let pageUrls = pageUrlsLogCache
+
+  if (removeLocale) {
+    // 过滤掉包含 locale 的 url
+    pageUrls = pageUrls.filter((url) => {
+      return !localeCode.some((locale) => url.includes(`/${locale}/`))
+    })
+  }
+
+  // 创建并写入新的文件
+  fs.writeFileSync(saveFilePath, pageUrls.join('\n'), 'utf8')
 }
 
 // 判断当前 file 是否需要插入到 sitemap
@@ -57,11 +89,17 @@ function generateStaticPagesWithLocale(pagePaths) {
   const excludePaths = ['/partners', '/install']
   const fixPagePaths = pagePaths.filter((page) => !excludePaths.includes(page))
 
-  const localeCode = Object.keys(languageCodeMap)
   const pageWithLocale = []
   localeCode.forEach((locale) => {
     fixPagePaths.forEach((path) => {
-      pageWithLocale.push(`/${locale}${path}`)
+      if (
+        path.startsWith(CHAT_PDF_PROXY_BASE_PATH) ||
+        path.startsWith(AI_SEARCH_PROXY_BASE_PATH)
+      ) {
+        pageWithLocale.push(`${path}/${locale}`)
+      } else {
+        pageWithLocale.push(`/${locale}${path}`)
+      }
     })
   })
 
@@ -161,12 +199,18 @@ async function generatePromptsPages() {
   }
 }
 
-async function generateToolsPages() {
-  const toolsPages = Object.keys(pdfToolsCodeMap.childrenObject).map(
-    (url) => `/${pdfToolsCodeMap.topUrlKey}/${url}`,
-  )
+async function generatePdfToolsPages() {
+  const pdfToolsPages = []
 
-  return toolsPages.concat(generateStaticPagesWithLocale(toolsPages))
+  Object.keys(pdfToolsKeyI18nMap).forEach((pdfToolKey) => {
+    localeCode.forEach((locale) => {
+      pdfToolsPages.push(
+        `/${locale}/${pdfToolsCodeMap.topUrlKey}/${pdfToolsKeyI18nMap[pdfToolKey][locale]}`,
+      )
+    })
+  })
+
+  return pdfToolsPages
 }
 
 function addHrefLangToSitemap(propPath) {
@@ -184,6 +228,10 @@ function addHrefLangToSitemap(propPath) {
   if (propPath.startsWith(CHAT_PDF_PROXY_BASE_PATH)) {
     localeCodes.forEach((locale) => {
       hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${CHAT_PDF_PROXY_BASE_PATH}/${locale}" />`
+    })
+  } else if (propPath.startsWith(AI_SEARCH_PROXY_BASE_PATH)) {
+    localeCodes.forEach((locale) => {
+      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${AI_SEARCH_PROXY_BASE_PATH}/${locale}" />`
     })
   } else if (propPath.startsWith(PROMPT_LIBRARY_PROXY_BASE_PATH)) {
     const pathname = url.replace(PROMPT_LIBRARY_PROXY_BASE_PATH, '')
@@ -217,6 +265,7 @@ function generateSitemap(
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">{{TEMPLATE}}</urlset>`
       pages.forEach((page) => {
         if (page) {
+          pageUrlsLogCache.push(`${wwwDomain}${page}`)
           const currentPageHrefLangText = addHrefLangToSitemap(page)
           urlTagString += `<url><loc>${wwwDomain}${page}</loc>${currentPageHrefLangText}<lastmod>${isoString}</lastmod></url>`
         }
@@ -234,6 +283,7 @@ function generateSitemap(
       pages.forEach((page) => {
         if (page) {
           const currentPageHrefLangText = addHrefLangToSitemap(page)
+          pageUrlsLogCache.push(`${wwwDomain}${page}`)
           urlTagString += `<url>
   <loc>${wwwDomain}${page}</loc>
   ${currentPageHrefLangText}
@@ -307,7 +357,7 @@ function generateSitemapIndex(filenames) {
 
 function fixPagesTrailingSlash(pages) {
   // 不需要 尾斜杠的页面
-  const excludePaths = ['/prompt', '/tools/chatpdf']
+  const excludePaths = ['/prompt', ...chatpdfUrls, ...aiSearchUrls]
   let responsePages = [...pages]
   // 如果开启了 trailingSlash，需要将所有页面的末尾添加 /
   if (nextConfig.trailingSlash) {
@@ -347,8 +397,9 @@ async function main() {
     // 2. 生成 www 项目静态页面的 sitemap
     let staticPages = crawlStaticDirectory(pagesDirectory)
     staticPages.push(...generateStaticPagesWithLocale(staticPages))
-    staticPages.push(...(await generateToolsPages()))
-    staticPages.push(...chatpdfUrls)
+    staticPages.push(...(await generatePdfToolsPages()))
+    staticPages.push(...generateStaticPagesWithLocale(chatpdfUrls))
+    staticPages.push(...generateStaticPagesWithLocale(aiSearchUrls))
     log(`StaticPages count: ${staticPages.length}`)
     const staticPageFilenames = generateSitemap(
       fixPagesTrailingSlash(staticPages),
@@ -361,6 +412,8 @@ async function main() {
       ...staticPageFilenames,
       ...promptLibrarySitemapFilenames,
     ])
+
+    generateUrlsLog(false)
 
     log('================================')
     log('Sitemap generated successfully!')

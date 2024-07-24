@@ -1,8 +1,6 @@
 import { I18nTypes } from '@/packages/common/constants/i18n'
-import {
-  IToolUrkKeyType,
-  PDF_TOOLS_KEY_WITH_LOCALE,
-} from '@/page_components/PdfToolsPages/constant'
+import { IToolUrkKeyType } from '@/page_components/PdfToolsPages/constant'
+import PDF_TOOLS_KEY_WITH_LOCALE from '@/page_components/PdfToolsPages/constant/pdfToolsCodeMap.json'
 
 /**
  * 传入 任意语言 pdfToolKey 和 currentLocale 获取 指定语言版本的 pdfToolKey
