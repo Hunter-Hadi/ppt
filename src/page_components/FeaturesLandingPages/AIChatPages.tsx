@@ -8,7 +8,6 @@ import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
-import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
 interface IProps {
   propRef?: string
 }
@@ -36,57 +35,48 @@ const AIChatPages: FC<IProps> = () => {
 
       {/* trusted by */}
       <TrustedBy />
+
       <FeaturesContentSection
         icon='open-ai'
         title={t('features_landing:ai_chat_pages__section1__title')}
-        description={
-          <Stack spacing={0.5} mt={2}>
-            <FeaturesTextWithMarker
-              marker
-              variant='custom'
-              fontSize={18}
-              color='text.secondary'
-              lineHeight={1.5}
-            >
-              GPT-4o, GPT-3.5
-            </FeaturesTextWithMarker>
-            <FeaturesTextWithMarker
-              marker
-              variant='custom'
-              fontSize={18}
-              color='text.secondary'
-              lineHeight={1.5}
-            >
-              Claude-3-opus/sonnet/haiku
-            </FeaturesTextWithMarker>
-            <FeaturesTextWithMarker
-              marker
-              variant='custom'
-              fontSize={18}
-              color='text.secondary'
-              lineHeight={1.5}
-            >
-              Gemini-1.5-pro, Gemini-pro
-            </FeaturesTextWithMarker>
-          </Stack>
-        }
+        description={t('features_landing:ai_chat_pages__section1__description')}
         imageUrl='/assets/features-landing/ai-chat/1.png'
-        pictureRetouchingDirection='bottom-right'
+        textWithImageLayout='textToImage'
       />
       <FeaturesContentSection
-        icon='lang'
+        icon='search'
         title={t('features_landing:ai_chat_pages__section2__title')}
         description={t('features_landing:ai_chat_pages__section2__description')}
-        imageUrl='/assets/features-landing/ai-chat/2.png'
+        imageUrl='/assets/features-landing/ai-search/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
+      />
+      <FeaturesContentSection
+        icon='image-scanner'
+        title={t('features_landing:ai_chat_pages__section3__title')}
+        description={t('features_landing:ai_chat_pages__section3__description')}
+        imageUrl='/assets/features-landing/ai-vision/1.png'
+        textWithImageLayout='textToImage'
+      />
+      <FeaturesContentSection
+        icon='art'
+        title={t('features_landing:ai_chat_pages__section4__title')}
+        description={t('features_landing:ai_chat_pages__section4__description')}
+        imageUrl='/assets/features-landing/ai-art/1.png'
+        textWithImageLayout='imageToText'
+      />
+      <FeaturesContentSection
+        icon='fast'
+        title={t('features_landing:ai_chat_pages__section5__title')}
+        description={t('features_landing:ai_chat_pages__section5__description')}
+        imageUrl='/assets/features-landing/ai-chat/2.png'
+        textWithImageLayout='textToImage'
       />
       <FeaturesContentSection
         icon='shield'
-        title={t('features_landing:ai_chat_pages__section3__title')}
-        description={t('features_landing:ai_chat_pages__section3__description')}
+        title={t('features_landing:ai_chat_pages__section6__title')}
+        description={t('features_landing:ai_chat_pages__section6__description')}
         imageUrl='/assets/features-landing/ai-chat/3.png'
-        pictureRetouchingDirection='top-right'
+        textWithImageLayout='imageToText'
       />
 
       <FeaturesExploreMore />
