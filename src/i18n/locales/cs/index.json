@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "Funguje tam, kde pracujete",
     "ai_vision_pages__section3__description": "Analyzujte libovolný obrázek přímo tam, kde ho potřebujete. MaxAI funguje ve všech webových aplikacích a stránkách, které používáte. Žádné kopírování, žádné vkládání, žádné přepínání kontextu.",
     "ai_vision_pages__section4__title": "Poháněno nejlepšími AI modely s vizí",
-    "cta_text__add_to_browser_for_free": "Přidat do {{BROWSER}} - Je to zdarma"
+    "cta_text__add_to_browser_for_free": "Přidat do {{BROWSER}} - Je to zdarma",
+    "explore_more_features": "Objevte více funkcí s MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Vybrat vše",

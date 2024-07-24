@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "작업하는 곳에서 작동합니다",
     "ai_vision_pages__section3__description": "필요한 위치에서 이미지를 분석하세요. MaxAI는 사용하는 모든 웹 앱과 사이트에서 작동합니다. 복사하지 않고 붙여넣지 않고 문맥 전환 없이 사용하세요.",
     "ai_vision_pages__section4__title": "최고의 AI 모델로 구동됩니다",
-    "cta_text__add_to_browser_for_free": "{{BROWSER}}에 추가 - 무료입니다"
+    "cta_text__add_to_browser_for_free": "{{BROWSER}}에 추가 - 무료입니다",
+    "explore_more_features": "MaxAI.me와 함께 더 많은 기능 탐색하기"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "모두 선택",

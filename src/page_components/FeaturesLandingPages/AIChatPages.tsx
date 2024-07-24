@@ -1,21 +1,19 @@
-import Stack from '@mui/material/Stack';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import Stack from '@mui/material/Stack'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import CallToActionSection from '@/features/landing/components/CallToActionSection';
-import HeroSection from '@/features/landing/components/HeroSection';
-import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
-import TrustedBy from '@/features/landing/components/TrustedBy';
-import UserComment from '@/features/landing/components/UserComment';
-import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
-import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
-import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import HeroSection from '@/features/landing/components/HeroSection'
+import TrustedBy from '@/features/landing/components/TrustedBy'
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
+import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
+import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
+import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
 interface IProps {
-  propRef?: string;
+  propRef?: string
 }
 const AIChatPages: FC<IProps> = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Stack>
@@ -23,7 +21,6 @@ const AIChatPages: FC<IProps> = () => {
         title={t('seo:features_landing__ai_chat__title')}
         description={t('seo:features_landing__ai_chat__description')}
       />
-
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
@@ -37,6 +34,8 @@ const AIChatPages: FC<IProps> = () => {
         description={t('features_landing:ai_chat_pages__description')}
       />
 
+      {/* trusted by */}
+      <TrustedBy />
       <FeaturesContentSection
         icon='open-ai'
         title={t('features_landing:ai_chat_pages__section1__title')}
@@ -82,7 +81,6 @@ const AIChatPages: FC<IProps> = () => {
         textWithImageLayout='imageToText'
         pictureRetouchingDirection='bottom-left'
       />
-
       <FeaturesContentSection
         icon='shield'
         title={t('features_landing:ai_chat_pages__section3__title')}
@@ -91,22 +89,11 @@ const AIChatPages: FC<IProps> = () => {
         pictureRetouchingDirection='top-right'
       />
 
-      {/* trusted by */}
-      <TrustedBy />
+      <FeaturesExploreMore />
 
-      {/* maxai in numbers */}
-      <MaxAIInNumbers />
-
-      {/* user comment */}
-      <UserComment />
-
-      {/* call to action section */}
-      <CallToActionSection
-        ctaButtonTrackerLinkProps={{ pathnameRefEnable: true }}
-      />
       <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
-  );
-};
+  )
+}
 
-export default AIChatPages;
+export default AIChatPages

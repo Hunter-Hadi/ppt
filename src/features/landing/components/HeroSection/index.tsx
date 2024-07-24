@@ -25,7 +25,10 @@ interface IProps {
   loading?: boolean
   sx?: SxProps
 
-  // 临时属性，用于测试
+  titleComponent?: React.ElementType
+
+  // 是否显示顶部的指标徽章
+  showIndicatorBadge?: boolean
 }
 
 const HeroSection: FC<IProps> = ({
@@ -35,6 +38,8 @@ const HeroSection: FC<IProps> = ({
   heroVideoProps,
   trackerLinkProps,
   loading,
+  showIndicatorBadge = true,
+  titleComponent = 'h1',
   sx,
 }) => {
   const { browserAgent: agent } = useBrowserAgent()
@@ -105,12 +110,14 @@ const HeroSection: FC<IProps> = ({
                 },
               ]}
             >
-              <IndicatorContent
-                isABTestAddNewAndNewSort={true}
-                sx={{
-                  mb: 3,
-                }}
-              />
+              {showIndicatorBadge && (
+                <IndicatorContent
+                  isABTestAddNewAndNewSort={true}
+                  sx={{
+                    mb: 3,
+                  }}
+                />
+              )}
               {loading ? (
                 <TitleSkeleton />
               ) : (
@@ -122,7 +129,7 @@ const HeroSection: FC<IProps> = ({
                     sm: 48,
                     lg: 56,
                   }}
-                  component='h1'
+                  component={titleComponent}
                   fontWeight={700}
                 >
                   {title}
@@ -233,7 +240,7 @@ const HeroSection: FC<IProps> = ({
 
                 <Stack direction={'row'} spacing={0.5}>
                   <CustomIcon
-                    icon='ClaudeLogo'
+                    icon='Claude3-5Sonnet'
                     sx={{
                       fontSize: {
                         xs: 20,

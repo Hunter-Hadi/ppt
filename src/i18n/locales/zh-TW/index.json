@@ -1237,7 +1237,8 @@
     "ai_vision_pages__section3__title": "在您工作的地方發揮作用",
     "ai_vision_pages__section3__description": "在您需要的地方分析任何圖像。MaxAI 可在您使用的所有 Web 應用程序和網站上運行。無需複製、粘貼或切換上下文。",
     "ai_vision_pages__section4__title": "由最佳 AI 視覺模型提供支持",
-    "cta_text__add_to_browser_for_free": "添加到{{BROWSER}} - 免費使用"
+    "cta_text__add_to_browser_for_free": "添加到{{BROWSER}} - 免費使用",
+    "explore_more_features": "透過 MaxAI.me 探索更多功能"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "添加PDF",

@@ -1237,7 +1237,8 @@
     "ai_vision_pages__section3__title": "Hoạt động nơi bạn làm việc",
     "ai_vision_pages__section3__description": "Phân tích bất kỳ hình ảnh nào, ngay tại nơi bạn cần. MaxAI hoạt động trên tất cả các ứng dụng web và trang web bạn sử dụng. Không sao chép, không dán, không chuyển đổi ngữ cảnh.",
     "ai_vision_pages__section4__title": "Được cung cấp bởi các mô hình AI tốt nhất với khả năng nhìn thấy",
-    "cta_text__add_to_browser_for_free": "Thêm vào {{BROWSER}} - Miễn phí"
+    "cta_text__add_to_browser_for_free": "Thêm vào {{BROWSER}} - Miễn phí",
+    "explore_more_features": "Khám phá thêm tính năng với MaxAI.me"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Thêm PDF",

@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__title": "يعمل حيث تعمل",
     "ai_vision_pages__section3__description": "قم بتحليل أي صورة، في المكان الذي تحتاجه. يعمل MaxAI عبر جميع تطبيقات الويب والمواقع التي تستخدمها. لا حاجة للنسخ أو اللصق أو تبديل السياق.",
     "ai_vision_pages__section4__title": "مدعوم بأفضل نماذج الذكاء الاصطناعي مع الرؤية",
-    "cta_text__add_to_browser_for_free": "أضف إلى {{BROWSER}} - مجانًا"
+    "cta_text__add_to_browser_for_free": "أضف إلى {{BROWSER}} - مجانًا",
+    "explore_more_features": "استكشف المزيد من الميزات مع MaxAI.me"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "تحديد الكل",

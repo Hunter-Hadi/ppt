@@ -5,7 +5,6 @@ import React from 'react'
 import { FC, useEffect } from 'react'
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
-import { LANDING_VARIANT_TO_VERSION_MAP } from '@/features/ab_tester/constant/landingVariant'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import { RESOURCES_URL } from '@/global_constants'
 
@@ -58,21 +57,26 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
         <HowItWork />
 
         {/* feature  */}
-        {(variant === '7-1' ||
-          variant === '7-2' ||
-          !variant ||
-          !LANDING_VARIANT_TO_VERSION_MAP[variant]) && (
+        {!variant ? (
           <FeaturesContentAbTestV4VariantContent2Section
-            abTestTitleDirection={variantConfig?.titleDirection}
-            abTestFeaturesType={variantConfig?.featuresType}
+            abTestTitleDirection={'supersede'}
+            abTestFeaturesType={'image'}
           />
+        ) : (
+          <>
+            {(variant === '7-1' || variant === '7-2') && (
+              <FeaturesContentAbTestV4VariantContent2Section
+                abTestTitleDirection={variantConfig?.titleDirection}
+                abTestFeaturesType={variantConfig?.featuresType}
+              />
+            )}
+            {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
+            {variant === '7-4' && (
+              <FeaturesContentAbTestV7VariantContentSection />
+            )}
+            {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
+          </>
         )}
-
-        {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
-        {variant === '7-4' && <FeaturesContentAbTestV7VariantContentSection />}
-
-        {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
-
         {/* maxai in numbers */}
         <MaxAIInNumbers />
 

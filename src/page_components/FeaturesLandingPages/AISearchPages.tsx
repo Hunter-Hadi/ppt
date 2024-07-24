@@ -1,21 +1,20 @@
-import { Stack } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React, { FC } from 'react';
+import { Stack } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React, { FC } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import CallToActionSection from '@/features/landing/components/CallToActionSection';
-import HeroSection from '@/features/landing/components/HeroSection';
-import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
-import TrustedBy from '@/features/landing/components/TrustedBy';
-import UserComment from '@/features/landing/components/UserComment';
-import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup';
-import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
-import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import HeroSection from '@/features/landing/components/HeroSection'
+import TrustedBy from '@/features/landing/components/TrustedBy'
+import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
+import { RESOURCES_URL } from '@/global_constants'
+import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
+import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
+import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
 interface IProps {
-  propRef?: string;
+  propRef?: string
 }
 const AISearchPages: FC<IProps> = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Stack>
@@ -27,8 +26,19 @@ const AISearchPages: FC<IProps> = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          videoSrc: 'https://www.youtube.com/embed/1uZuyqqySO0',
-          variant: 'embed',
+          videoSrc: `${RESOURCES_URL}/video/features/search-assistant.mp4`,
+          variant: 'autoplay',
+          windowAutoPlay: true,
+          videoPosterUrl: `/assets/features-landing/video-features/search.png`,
+          videoStyle: {
+            backgroundColor: 'transparent',
+            boxShadow: 'none',
+            borderRadius: '16px',
+          },
+          boxSx: {
+            borderRadius: '16px',
+            border: '8px solid #fff',
+          },
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,
@@ -36,6 +46,9 @@ const AISearchPages: FC<IProps> = () => {
         title={t('features_landing:ai_search_pages__title')}
         description={t('features_landing:ai_search_pages__description')}
       />
+
+      {/* trusted by */}
+      <TrustedBy />
 
       <FeaturesContentSection
         icon='chat'
@@ -105,23 +118,11 @@ const AISearchPages: FC<IProps> = () => {
         textWithImageLayout='imageToText'
       />
 
-      {/* trusted by */}
-      <TrustedBy />
-
-      {/* maxai in numbers */}
-      <MaxAIInNumbers />
-
-      {/* user comment */}
-      <UserComment />
-
-      {/* call to action section */}
-      <CallToActionSection
-        ctaButtonTrackerLinkProps={{ pathnameRefEnable: true }}
-      />
+      <FeaturesExploreMore />
 
       <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
-  );
-};
+  )
+}
 
-export default AISearchPages;
+export default AISearchPages
