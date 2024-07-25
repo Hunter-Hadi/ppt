@@ -12,6 +12,7 @@ import {
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import AppBar from '@/packages/base-ui/components/AppBar'
+import MaxAILazyLoadImage from '@/packages/base-ui/components/MaxAILazyLoadImage'
 import { useExtensionDetectionAlert } from '@/packages/browser-extension/components/ExtensionDetectionAlert'
 import MaxAIExtensionWrapper from '@/packages/browser-extension/components/MaxAIExtensionWrapper'
 import useMaxAIExtensionState from '@/packages/browser-extension/hooks/useMaxAIExtensionState'
@@ -25,7 +26,6 @@ import { useMaxAIAlertModals } from '@/packages/common/components/MaxAIAlertModa
 import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot'
 import Toast from '@/packages/common/utils/toast'
 import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector'
-import MaxAILazyLoadImage from '@/packages/base-ui/components/MaxAILazyLoadImage'
 
 const TestSyncLogin = () => {
   const { isLogin, loading, error, connectMaxAIAccount } =
