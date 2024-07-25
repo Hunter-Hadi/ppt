@@ -956,7 +956,9 @@
     "technical__title": "טכני והנדסי"
   },
   "share_conversion": {
-    "footer__get_for_free": "קבל את MaxAI בחינם"
+    "footer__get_for_free": "קבל את MaxAI בחינם",
+    "more": "יותר",
+    "hide": "הסתר"
   },
   "seo": {
     "default__title": "MaxAI.me: AI בלחיצה אחת בכל מקום (GPT-4o, Claude 3, Gemini 1.5)",

@@ -919,7 +919,9 @@
     "technical__title": "Technik und Ingenieurwesen"
   },
   "share_conversion": {
-    "footer__get_for_free": "Holen Sie sich MaxAI kostenlos"
+    "footer__get_for_free": "Holen Sie sich MaxAI kostenlos",
+    "more": "mehr",
+    "hide": "Verbergen"
   },
   "affiliate": {
     "main_keywords": "Partnerprogramm",

@@ -919,7 +919,9 @@
     "technical__title": "Técnico e Engenharia"
   },
   "share_conversion": {
-    "footer__get_for_free": "Obtenha o MaxAI gratuitamente"
+    "footer__get_for_free": "Obtenha o MaxAI gratuitamente",
+    "more": "mais",
+    "hide": "Esconder"
   },
   "affiliate": {
     "main_keywords": "programa de afiliados",

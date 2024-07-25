@@ -919,7 +919,9 @@
     "technical__title": "Technisch en Engineering"
   },
   "share_conversion": {
-    "footer__get_for_free": "Ontvang MaxAI gratis"
+    "footer__get_for_free": "Krijg MaxAI gratis",
+    "more": "meer",
+    "hide": "Verbergen"
   },
   "affiliate": {
     "main_keywords": "affiliate programma",

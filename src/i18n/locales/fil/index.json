@@ -919,7 +919,9 @@
     "technical__title": "Teknikal at Engineering"
   },
   "share_conversion": {
-    "footer__get_for_free": "Kumuha ng MaxAI nang libre"
+    "footer__get_for_free": "Kumuha ng MaxAI nang libre",
+    "more": "higit pa",
+    "hide": "Itago"
   },
   "affiliate": {
     "main_keywords": "programa ng affiliate",

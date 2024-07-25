@@ -1479,7 +1479,9 @@
     "technical__title": "Τεχνικό και Μηχανολογικό"
   },
   "share_conversion": {
-    "footer__get_for_free": "Λάβετε το MaxAI δωρεάν"
+    "footer__get_for_free": "Λάβετε το MaxAI δωρεάν",
+    "more": "περισσότερα",
+    "hide": "Απόκρυψη"
   },
   "pricing": {
     "better_plan_display__everything_in_plan_plus": "Όλα στο {{PLAN}} και επιπλέον:",

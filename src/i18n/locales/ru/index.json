@@ -919,7 +919,9 @@
     "technical__title": "Технические и инженерные"
   },
   "share_conversion": {
-    "footer__get_for_free": "Получите MaxAI бесплатно"
+    "footer__get_for_free": "Получите MaxAI бесплатно",
+    "more": "больше",
+    "hide": "Скрыть"
   },
   "affiliate": {
     "main_keywords": "партнерская программа",

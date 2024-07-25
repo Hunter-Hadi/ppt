@@ -919,7 +919,9 @@
     "technical__title": "技術和工程"
   },
   "share_conversion": {
-    "footer__get_for_free": "免費使用MaxAI"
+    "footer__get_for_free": "免費獲取 MaxAI",
+    "more": "更多",
+    "hide": "隱藏"
   },
   "affiliate": {
     "main_keywords": "聯盟計劃",

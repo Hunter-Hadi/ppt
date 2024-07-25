@@ -919,7 +919,9 @@
     "technical__title": "التقنية والهندسة"
   },
   "share_conversion": {
-    "footer__get_for_free": "احصل على MaxAI مجانًا"
+    "footer__get_for_free": "احصل على MaxAI مجانًا",
+    "more": "المزيد",
+    "hide": "إخفاء"
   },
   "affiliate": {
     "main_keywords": "برنامج الشراكة",

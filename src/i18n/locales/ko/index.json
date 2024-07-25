@@ -919,7 +919,9 @@
     "technical__title": "기술 및 엔지니어링"
   },
   "share_conversion": {
-    "footer__get_for_free": "무료로 MaxAI 받기"
+    "footer__get_for_free": "무료로 MaxAI 받기",
+    "more": "더 보기",
+    "hide": "숨기기"
   },
   "affiliate": {
     "main_keywords": "제휴 프로그램",

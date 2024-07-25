@@ -919,7 +919,9 @@
     "technical__title": "Tekninen ja insinööritoiminta"
   },
   "share_conversion": {
-    "footer__get_for_free": "Hanki MaxAI ilmaiseksi"
+    "footer__get_for_free": "Hanki MaxAI ilmaiseksi",
+    "more": "lisää",
+    "hide": "Piilota"
   },
   "affiliate": {
     "main_keywords": "kumppaniohjelma",

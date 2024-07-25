@@ -1166,7 +1166,9 @@
     "technical__title": "Technical and Engineering"
   },
   "share_conversion": {
-    "footer__get_for_free": "Get MaxAI for free"
+    "footer__get_for_free": "Get MaxAI for free",
+    "more": "more",
+    "hide": "Hide"
   },
   "affiliate": {
     "main_keywords": "affiliate program",

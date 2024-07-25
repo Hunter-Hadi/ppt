@@ -919,7 +919,9 @@
     "technical__title": "技術とエンジニアリング"
   },
   "share_conversion": {
-    "footer__get_for_free": "無料でMaxAIを入手"
+    "footer__get_for_free": "無料でMaxAIを入手",
+    "more": "もっと",
+    "hide": "非表示"
   },
   "affiliate": {
     "main_keywords": "アフィリエイトプログラム",

@@ -919,7 +919,9 @@
     "technical__title": "Teknikal dan Kejuruteraan"
   },
   "share_conversion": {
-    "footer__get_for_free": "Dapatkan MaxAI secara percuma"
+    "footer__get_for_free": "Dapatkan MaxAI secara percuma",
+    "more": "lebih",
+    "hide": "Sembunyi"
   },
   "affiliate": {
     "main_keywords": "program rakan kongsi",

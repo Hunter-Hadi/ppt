@@ -919,7 +919,9 @@
     "technical__title": "ٹیکنیکل اور انجینئرنگ"
   },
   "share_conversion": {
-    "footer__get_for_free": "مفت میکس اے آئی حاصل کریں"
+    "footer__get_for_free": "مفت میں MaxAI حاصل کریں",
+    "more": "مزید",
+    "hide": "چھپائیں"
   },
   "affiliate": {
     "main_keywords": "منافع کا پروگرام",

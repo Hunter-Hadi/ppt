@@ -919,7 +919,9 @@
     "technical__title": "Teknik ve Mühendislik"
   },
   "share_conversion": {
-    "footer__get_for_free": "Ücretsiz olarak MaxAI'yi edinin"
+    "footer__get_for_free": "MaxAI'yi ücretsiz al",
+    "more": "daha fazla",
+    "hide": "Gizle"
   },
   "affiliate": {
     "main_keywords": "ortaklık programı",
